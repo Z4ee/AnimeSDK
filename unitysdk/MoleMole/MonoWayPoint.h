@@ -7,13 +7,13 @@
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_MONOWAYPOINT_GET_POSITION_OFFSET UNITYSDK_OFFSET(0x160DB490)
-#define MOLEMOLE_MONOWAYPOINT_INIT_OFFSET UNITYSDK_OFFSET(0x160DB3D0)
-#define MOLEMOLE_MONOWAYPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x160DB670)
+#define MOLEMOLE_MONOWAYPOINT_GET_POSITION_OFFSET UNITYSDK_OFFSET(0x199780A0)
+#define MOLEMOLE_MONOWAYPOINT_INIT_OFFSET UNITYSDK_OFFSET(0x19977FE0)
+#define MOLEMOLE_MONOWAYPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x19978280)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoWayPoint_TypeDefinitionIndex = 67076;
+	inline static constexpr unsigned int MonoWayPoint_TypeDefinitionIndex = 87041;
 
 	class MonoWayPoint : public ::UnityEngine::MonoBehaviour
 	{
@@ -24,7 +24,7 @@ namespace MoleMole
 		::System::String* wayPointName; // 0x28
 		::System::Int32 index; // 0x30
 		::System::Single stayTime; // 0x34
-		::UnityEngine::Transform* Field_5_6; // 0x38
+		::UnityEngine::Transform* Field_5_10; // 0x38
 
 		::System::Void _ctor()
 		{

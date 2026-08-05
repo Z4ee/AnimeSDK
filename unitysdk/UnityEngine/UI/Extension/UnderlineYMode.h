@@ -3,11 +3,11 @@
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int UnderlineYMode_TypeDefinitionIndex = 40372;
+	inline static constexpr unsigned int UnderlineYMode_TypeDefinitionIndex = 79983;
 
 	enum class UnderlineYMode : ::System::Int32
 	{
-		FontMetrics = 0,
 		TightGlyph = 1,
+		FontMetrics = 0,
 	};
 }

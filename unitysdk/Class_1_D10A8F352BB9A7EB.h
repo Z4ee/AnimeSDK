@@ -7,19 +7,19 @@ namespace System { class Action; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define CLASS_1_D10A8F352BB9A7EB_METHOD_1_0947F577F1E5AE4F_OFFSET UNITYSDK_OFFSET(0x11D7E7F0)
-#define CLASS_1_D10A8F352BB9A7EB_METHOD_1_69B432523C99FC77_OFFSET UNITYSDK_OFFSET(0x11D7E5E0)
-#define CLASS_1_D10A8F352BB9A7EB_METHOD_1_8E2C129DE4FC3609_OFFSET UNITYSDK_OFFSET(0x11D7E630)
-#define CLASS_1_D10A8F352BB9A7EB__CTOR_OFFSET UNITYSDK_OFFSET(0x11D7E5D0)
+#define CLASS_1_D10A8F352BB9A7EB_METHOD_1_0947F577F1E5AE4F_OFFSET UNITYSDK_OFFSET(0x16ED6860)
+#define CLASS_1_D10A8F352BB9A7EB_METHOD_1_69B432523C99FC77_OFFSET UNITYSDK_OFFSET(0x16ED6650)
+#define CLASS_1_D10A8F352BB9A7EB_METHOD_1_8E2C129DE4FC3609_OFFSET UNITYSDK_OFFSET(0x16ED66A0)
+#define CLASS_1_D10A8F352BB9A7EB__CTOR_OFFSET UNITYSDK_OFFSET(0x16ED6640)
 
-inline static constexpr unsigned int Class_1_D10A8F352BB9A7EB_TypeDefinitionIndex = 52468;
+inline static constexpr unsigned int Class_1_D10A8F352BB9A7EB_TypeDefinitionIndex = 87739;
 
 class Class_1_D10A8F352BB9A7EB : public ::System::Object
 {
 public:
 	static ::MoleMole::ConfigTempleLevelUp** StaticGet_Field_1_0()
 	{
-		return (::MoleMole::ConfigTempleLevelUp**)Il2CppClass::FromTypeDefinitionIndex(Class_1_D10A8F352BB9A7EB_TypeDefinitionIndex)->GetStaticField(0x357F0);
+		return (::MoleMole::ConfigTempleLevelUp**)Il2CppClass::FromTypeDefinitionIndex(Class_1_D10A8F352BB9A7EB_TypeDefinitionIndex)->GetStaticField(0x4F0E0);
 	}
 
 	::System::Void _ctor()

@@ -7,20 +7,20 @@
 namespace System { class Object; }
 namespace UnityEngine { class Camera; }
 
-#define CLASS_1_2858EC444CCF662F_STRUCT_2_70F6251C8978FE97_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x735580)
-#define CLASS_1_2858EC444CCF662F_STRUCT_2_70F6251C8978FE97_EQUALS_OFFSET UNITYSDK_OFFSET(0x735540)
-#define CLASS_1_2858EC444CCF662F_STRUCT_2_70F6251C8978FE97_METHOD_2_6D0360BD23602584_OFFSET UNITYSDK_OFFSET(0x735680)
+#define CLASS_1_2858EC444CCF662F_STRUCT_2_70F6251C8978FE97_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x7CD040)
+#define CLASS_1_2858EC444CCF662F_STRUCT_2_70F6251C8978FE97_EQUALS_OFFSET UNITYSDK_OFFSET(0x7CD000)
+#define CLASS_1_2858EC444CCF662F_STRUCT_2_70F6251C8978FE97_METHOD_2_6D0360BD23602584_OFFSET UNITYSDK_OFFSET(0x7CD140)
 
-inline static constexpr unsigned int Class_1_2858EC444CCF662F_Struct_2_70F6251C8978FE97_TypeDefinitionIndex = 51960;
+inline static constexpr unsigned int Class_1_2858EC444CCF662F_Struct_2_70F6251C8978FE97_TypeDefinitionIndex = 57540;
 
 struct alignas(8) Class_1_2858EC444CCF662F_Struct_2_70F6251C8978FE97
 {
 	::UnityEngine::Vector3 Field_2_0; // 0x10
-	::System::Single Field_2_1; // 0x1C
-	::System::Single Field_2_2; // 0x20
-	::UnityEngine::Vector3 Field_2_3; // 0x24
+	::System::Single Field_2_7; // 0x1C
+	::System::Single Field_2_6; // 0x20
+	::UnityEngine::Vector3 Field_2_5; // 0x24
 	::UnityEngine::Quaternion Field_2_4; // 0x30
-	::UnityEngine::Camera* Field_2_5; // 0x40
+	::UnityEngine::Camera* Field_2_11; // 0x40
 
 	::System::Boolean Equals(::Class_1_2858EC444CCF662F_Struct_2_70F6251C8978FE97 a1)
 	{

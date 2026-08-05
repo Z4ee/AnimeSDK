@@ -7,34 +7,34 @@
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace UnityEngine { class GameObject; }
 
-#define NODECANVAS_TASKS_ACTIONS_GETLINECASTINFO2DALL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D8458F0)
-#define NODECANVAS_TASKS_ACTIONS_GETLINECASTINFO2DALL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1D845930)
-#define NODECANVAS_TASKS_ACTIONS_GETLINECASTINFO2DALL___C__ONEXECUTE_B__7_0_OFFSET UNITYSDK_OFFSET(0x1D845940)
-#define NODECANVAS_TASKS_ACTIONS_GETLINECASTINFO2DALL___C__ONEXECUTE_B__7_1_OFFSET UNITYSDK_OFFSET(0x1D8459F0)
-#define NODECANVAS_TASKS_ACTIONS_GETLINECASTINFO2DALL___C__ONEXECUTE_B__7_3_OFFSET UNITYSDK_OFFSET(0x1D845A00)
+#define NODECANVAS_TASKS_ACTIONS_GETLINECASTINFO2DALL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EB88040)
+#define NODECANVAS_TASKS_ACTIONS_GETLINECASTINFO2DALL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB88080)
+#define NODECANVAS_TASKS_ACTIONS_GETLINECASTINFO2DALL___C__ONEXECUTE_B__7_0_OFFSET UNITYSDK_OFFSET(0x1EB88090)
+#define NODECANVAS_TASKS_ACTIONS_GETLINECASTINFO2DALL___C__ONEXECUTE_B__7_1_OFFSET UNITYSDK_OFFSET(0x1EB88140)
+#define NODECANVAS_TASKS_ACTIONS_GETLINECASTINFO2DALL___C__ONEXECUTE_B__7_3_OFFSET UNITYSDK_OFFSET(0x1EB88150)
 
 namespace NodeCanvas::Tasks::Actions
 {
-	inline static constexpr unsigned int GetLinecastInfo2DAll___c_TypeDefinitionIndex = 30683;
+	inline static constexpr unsigned int GetLinecastInfo2DAll___c_TypeDefinitionIndex = 30308;
 
 	class GetLinecastInfo2DAll___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::UnityEngine::RaycastHit2D, ::System::Single>** StaticGet___9__7_1()
-		{
-			return (::System::Func_2<::UnityEngine::RaycastHit2D, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(GetLinecastInfo2DAll___c_TypeDefinitionIndex)->GetStaticField(0x24010);
-		}
 		static ::NodeCanvas::Tasks::Actions::GetLinecastInfo2DAll___c** StaticGet___9()
 		{
-			return (::NodeCanvas::Tasks::Actions::GetLinecastInfo2DAll___c**)Il2CppClass::FromTypeDefinitionIndex(GetLinecastInfo2DAll___c_TypeDefinitionIndex)->GetStaticField(0x24018);
+			return (::NodeCanvas::Tasks::Actions::GetLinecastInfo2DAll___c**)Il2CppClass::FromTypeDefinitionIndex(GetLinecastInfo2DAll___c_TypeDefinitionIndex)->GetStaticField(0x25790);
 		}
 		static ::System::Func_2<::UnityEngine::RaycastHit2D, ::UnityEngine::GameObject*>** StaticGet___9__7_0()
 		{
-			return (::System::Func_2<::UnityEngine::RaycastHit2D, ::UnityEngine::GameObject*>**)Il2CppClass::FromTypeDefinitionIndex(GetLinecastInfo2DAll___c_TypeDefinitionIndex)->GetStaticField(0x24020);
+			return (::System::Func_2<::UnityEngine::RaycastHit2D, ::UnityEngine::GameObject*>**)Il2CppClass::FromTypeDefinitionIndex(GetLinecastInfo2DAll___c_TypeDefinitionIndex)->GetStaticField(0x25798);
 		}
 		static ::System::Func_2<::UnityEngine::RaycastHit2D, ::UnityEngine::Vector3>** StaticGet___9__7_3()
 		{
-			return (::System::Func_2<::UnityEngine::RaycastHit2D, ::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(GetLinecastInfo2DAll___c_TypeDefinitionIndex)->GetStaticField(0x24028);
+			return (::System::Func_2<::UnityEngine::RaycastHit2D, ::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(GetLinecastInfo2DAll___c_TypeDefinitionIndex)->GetStaticField(0x257A0);
+		}
+		static ::System::Func_2<::UnityEngine::RaycastHit2D, ::System::Single>** StaticGet___9__7_1()
+		{
+			return (::System::Func_2<::UnityEngine::RaycastHit2D, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(GetLinecastInfo2DAll___c_TypeDefinitionIndex)->GetStaticField(0x257A8);
 		}
 
 		static ::System::Void _cctor()

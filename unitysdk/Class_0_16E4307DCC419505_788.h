@@ -1,9 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/MoleMole/Config/SceneConfigRuntimeDataArea.h"
 
-class Class_1_0E5778BB52E10271;
+namespace System { class String; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_788_TypeDefinitionIndex = 81996;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_788_TypeDefinitionIndex = 87117;
 
 class Class_0_16E4307DCC419505_788
 {

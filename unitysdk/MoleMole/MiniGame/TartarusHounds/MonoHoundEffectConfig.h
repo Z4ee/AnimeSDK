@@ -7,11 +7,11 @@ namespace MoleMole::MiniGame::TartarusHounds::View { class ImageEffectConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_MINIGAME_TARTARUSHOUNDS_MONOHOUNDEFFECTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1302A180)
+#define MOLEMOLE_MINIGAME_TARTARUSHOUNDS_MONOHOUNDEFFECTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17383050)
 
 namespace MoleMole::MiniGame::TartarusHounds
 {
-	inline static constexpr unsigned int MonoHoundEffectConfig_TypeDefinitionIndex = 63698;
+	inline static constexpr unsigned int MonoHoundEffectConfig_TypeDefinitionIndex = 81729;
 
 	class MonoHoundEffectConfig : public ::Sirenix::OdinInspector::SerializedMonoBehaviour
 	{

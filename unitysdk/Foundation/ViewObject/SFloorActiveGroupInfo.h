@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace Foundation::ViewObject
 {
-	inline static constexpr unsigned int SFloorActiveGroupInfo_TypeDefinitionIndex = 61464;
+	inline static constexpr unsigned int SFloorActiveGroupInfo_TypeDefinitionIndex = 82077;
 
 	struct alignas(8) SFloorActiveGroupInfo
 	{

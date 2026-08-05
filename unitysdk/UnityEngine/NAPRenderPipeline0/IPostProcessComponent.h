@@ -3,7 +3,7 @@
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int IPostProcessComponent_TypeDefinitionIndex = 6070;
+	inline static constexpr unsigned int IPostProcessComponent_TypeDefinitionIndex = 6072;
 
 	class IPostProcessComponent
 	{

@@ -3,7 +3,7 @@
 
 namespace FluffyUnderware::Curvy::Utils
 {
-	inline static constexpr unsigned int SplinePolyLine_VertexCalculation_TypeDefinitionIndex = 38887;
+	inline static constexpr unsigned int SplinePolyLine_VertexCalculation_TypeDefinitionIndex = 39690;
 
 	enum class SplinePolyLine_VertexCalculation : ::System::Int32
 	{

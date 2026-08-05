@@ -4,11 +4,11 @@
 
 namespace MoleMole { class ConfigUICommon_I18NImage; }
 
-#define MOLEMOLE_CONFIGUII18NIMAGEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1A00EA80)
+#define MOLEMOLE_CONFIGUII18NIMAGEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1B820990)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUII18NImageItem_TypeDefinitionIndex = 75637;
+	inline static constexpr unsigned int ConfigUII18NImageItem_TypeDefinitionIndex = 48667;
 
 	class ConfigUII18NImageItem : public ::MoleMole::ConfigLazyLoadItem_1<::MoleMole::ConfigUICommon_I18NImage*>
 	{

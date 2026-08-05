@@ -3,7 +3,7 @@
 
 namespace ICSharpCode::SharpZipLib::Zip
 {
-	inline static constexpr unsigned int TestOperation_TypeDefinitionIndex = 6862;
+	inline static constexpr unsigned int TestOperation_TypeDefinitionIndex = 6866;
 
 	enum class TestOperation : ::System::Int32
 	{

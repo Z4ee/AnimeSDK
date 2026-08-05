@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDRANDOMMONSTERPATTERNBYTAG_INVOKE_OFFSET UNITYSDK_OFFSET(0x19122310)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDRANDOMMONSTERPATTERNBYTAG__CTOR_OFFSET UNITYSDK_OFFSET(0x19122400)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDRANDOMMONSTERPATTERNBYTAG_INVOKE_OFFSET UNITYSDK_OFFSET(0x19DB50C0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDRANDOMMONSTERPATTERNBYTAG__CTOR_OFFSET UNITYSDK_OFFSET(0x19DB51B0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDRandomMonsterPatternByTag_TypeDefinitionIndex = 84627;
+	inline static constexpr unsigned int LDRandomMonsterPatternByTag_TypeDefinitionIndex = 53787;
 
 	class LDRandomMonsterPatternByTag : public ::FlowCanvas::Nodes::CallableFunctionNode_2<::System::Int32, ::System::String*>
 	{

@@ -1,30 +1,30 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_8431ED11DDFEB049.h"
+#include "unitysdk/Enum_3_FBAA779B2229F6F3.h"
 #include "unitysdk/MoleMole/Config/PropertyModifyFunction.h"
 #include "unitysdk/System/ValueType.h"
 
-#define STRUCT_2_E555EF9B1EABB0B4_METHOD_2_0DF1A33BA5CABE69_1_OFFSET UNITYSDK_OFFSET(0x7E0B90)
-#define STRUCT_2_E555EF9B1EABB0B4_METHOD_2_0DF1A33BA5CABE69_OFFSET UNITYSDK_OFFSET(0x7E0AF0)
+#define STRUCT_2_E555EF9B1EABB0B4_METHOD_2_0DF1A33BA5CABE69_1_OFFSET UNITYSDK_OFFSET(0x8FF380)
+#define STRUCT_2_E555EF9B1EABB0B4_METHOD_2_0DF1A33BA5CABE69_OFFSET UNITYSDK_OFFSET(0x8FF2D0)
 
-inline static constexpr unsigned int Struct_2_E555EF9B1EABB0B4_TypeDefinitionIndex = 86906;
+inline static constexpr unsigned int Struct_2_E555EF9B1EABB0B4_TypeDefinitionIndex = 66137;
 
 struct alignas(4) Struct_2_E555EF9B1EABB0B4
 {
-	::MoleMole::Config::PropertyModifyFunction Field_2_0; // 0x10
+	::MoleMole::Config::PropertyModifyFunction Field_2_2; // 0x10
 	::System::Single Field_2_1; // 0x14
-	::System::Single Field_2_2; // 0x18
-	::System::Boolean Field_2_3; // 0x1C
-	::Enum_3_8431ED11DDFEB049 Field_2_4; // 0x20
+	::System::Single Field_2_0; // 0x18
+	::System::Boolean Field_2_7; // 0x1C
+	::Enum_3_FBAA779B2229F6F3 Field_2_6; // 0x20
 	::System::Boolean Field_2_5; // 0x24
 
-	::System::Void Method_2_0DF1A33BA5CABE69(::MoleMole::Config::PropertyModifyFunction a1, ::System::Single a2, ::System::Single a3, ::Enum_3_8431ED11DDFEB049 a4, ::System::Boolean a5)
+	::System::Void Method_2_0DF1A33BA5CABE69(::MoleMole::Config::PropertyModifyFunction a1, ::System::Single a2, ::System::Single a3, ::Enum_3_FBAA779B2229F6F3 a4, ::System::Boolean a5)
 	{
-		return ((::System::Void(*)(::PVOID, ::MoleMole::Config::PropertyModifyFunction, ::System::Single, ::System::Single, ::Enum_3_8431ED11DDFEB049, ::System::Boolean))((::PBYTE)hIl2Cpp + STRUCT_2_E555EF9B1EABB0B4_METHOD_2_0DF1A33BA5CABE69_OFFSET))(this, a1, a2, a3, a4, a5);
+		return ((::System::Void(*)(::PVOID, ::MoleMole::Config::PropertyModifyFunction, ::System::Single, ::System::Single, ::Enum_3_FBAA779B2229F6F3, ::System::Boolean))((::PBYTE)hIl2Cpp + STRUCT_2_E555EF9B1EABB0B4_METHOD_2_0DF1A33BA5CABE69_OFFSET))(this, a1, a2, a3, a4, a5);
 	}
 
-	::System::Void Method_2_0DF1A33BA5CABE69_1(::MoleMole::Config::PropertyModifyFunction a1, ::System::Single a2, ::System::Single a3, ::Enum_3_8431ED11DDFEB049 a4, ::System::Boolean a5)
+	::System::Void Method_2_0DF1A33BA5CABE69_1(::MoleMole::Config::PropertyModifyFunction a1, ::System::Single a2, ::System::Single a3, ::Enum_3_FBAA779B2229F6F3 a4, ::System::Boolean a5)
 	{
-		return ((::System::Void(*)(::PVOID, ::MoleMole::Config::PropertyModifyFunction, ::System::Single, ::System::Single, ::Enum_3_8431ED11DDFEB049, ::System::Boolean))((::PBYTE)hIl2Cpp + STRUCT_2_E555EF9B1EABB0B4_METHOD_2_0DF1A33BA5CABE69_1_OFFSET))(this, a1, a2, a3, a4, a5);
+		return ((::System::Void(*)(::PVOID, ::MoleMole::Config::PropertyModifyFunction, ::System::Single, ::System::Single, ::Enum_3_FBAA779B2229F6F3, ::System::Boolean))((::PBYTE)hIl2Cpp + STRUCT_2_E555EF9B1EABB0B4_METHOD_2_0DF1A33BA5CABE69_1_OFFSET))(this, a1, a2, a3, a4, a5);
 	}
 };

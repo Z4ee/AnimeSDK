@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/EventArgs.h"
 
-inline static constexpr unsigned int Class_2_1067C34C2AFCE571_TypeDefinitionIndex = 28049;
+inline static constexpr unsigned int Class_2_1067C34C2AFCE571_TypeDefinitionIndex = 28820;
 
 template <typename TVertex>
 class Class_2_1067C34C2AFCE571 : public ::System::EventArgs

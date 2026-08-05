@@ -5,25 +5,25 @@
 namespace UnityEngine::InputSystem::Controls { class ButtonControl; }
 namespace UnityEngine::InputSystem::Controls { class Vector2Control; }
 
-#define UNITY_XR_OCULUS_INPUT_OCULUSREMOTE_FINISHSETUP_OFFSET UNITYSDK_OFFSET(0x1DDE53D0)
-#define UNITY_XR_OCULUS_INPUT_OCULUSREMOTE_GET_BACK_OFFSET UNITYSDK_OFFSET(0x1DDE5370)
-#define UNITY_XR_OCULUS_INPUT_OCULUSREMOTE_GET_START_OFFSET UNITYSDK_OFFSET(0x1DDE5390)
-#define UNITY_XR_OCULUS_INPUT_OCULUSREMOTE_GET_TOUCHPAD_OFFSET UNITYSDK_OFFSET(0x1DDE53B0)
-#define UNITY_XR_OCULUS_INPUT_OCULUSREMOTE_SET_BACK_OFFSET UNITYSDK_OFFSET(0x1DDE5380)
-#define UNITY_XR_OCULUS_INPUT_OCULUSREMOTE_SET_START_OFFSET UNITYSDK_OFFSET(0x1DDE53A0)
-#define UNITY_XR_OCULUS_INPUT_OCULUSREMOTE_SET_TOUCHPAD_OFFSET UNITYSDK_OFFSET(0x1DDE53C0)
-#define UNITY_XR_OCULUS_INPUT_OCULUSREMOTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DDE5460)
+#define UNITY_XR_OCULUS_INPUT_OCULUSREMOTE_FINISHSETUP_OFFSET UNITYSDK_OFFSET(0x1F1EDE60)
+#define UNITY_XR_OCULUS_INPUT_OCULUSREMOTE_GET_BACK_OFFSET UNITYSDK_OFFSET(0x1F1EDE00)
+#define UNITY_XR_OCULUS_INPUT_OCULUSREMOTE_GET_START_OFFSET UNITYSDK_OFFSET(0x1F1EDE20)
+#define UNITY_XR_OCULUS_INPUT_OCULUSREMOTE_GET_TOUCHPAD_OFFSET UNITYSDK_OFFSET(0x1F1EDE40)
+#define UNITY_XR_OCULUS_INPUT_OCULUSREMOTE_SET_BACK_OFFSET UNITYSDK_OFFSET(0x1F1EDE10)
+#define UNITY_XR_OCULUS_INPUT_OCULUSREMOTE_SET_START_OFFSET UNITYSDK_OFFSET(0x1F1EDE30)
+#define UNITY_XR_OCULUS_INPUT_OCULUSREMOTE_SET_TOUCHPAD_OFFSET UNITYSDK_OFFSET(0x1F1EDE50)
+#define UNITY_XR_OCULUS_INPUT_OCULUSREMOTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F1EDEF0)
 
 namespace Unity::XR::Oculus::Input
 {
-	inline static constexpr unsigned int OculusRemote_TypeDefinitionIndex = 31513;
+	inline static constexpr unsigned int OculusRemote_TypeDefinitionIndex = 32133;
 
 	class OculusRemote : public ::UnityEngine::InputSystem::InputDevice
 	{
 	public:
-		::UnityEngine::InputSystem::Controls::ButtonControl* _start_k__BackingField; // 0x158
-		::UnityEngine::InputSystem::Controls::ButtonControl* _back_k__BackingField; // 0x160
-		::UnityEngine::InputSystem::Controls::Vector2Control* _touchpad_k__BackingField; // 0x168
+		::UnityEngine::InputSystem::Controls::Vector2Control* _touchpad_k__BackingField; // 0x158
+		::UnityEngine::InputSystem::Controls::ButtonControl* _start_k__BackingField; // 0x160
+		::UnityEngine::InputSystem::Controls::ButtonControl* _back_k__BackingField; // 0x168
 
 		::System::Void _ctor()
 		{

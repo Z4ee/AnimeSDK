@@ -8,18 +8,18 @@ namespace NPCCrowd::Lod { class NPCCrowdPositionAgent; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_2_28B671B377BD13CF_METHOD_2_DA0C05F7A3F43143_OFFSET UNITYSDK_OFFSET(0x13109690)
-#define CLASS_2_28B671B377BD13CF_METHOD_2_E5E342154D4EA5F5_OFFSET UNITYSDK_OFFSET(0x13109860)
-#define CLASS_2_28B671B377BD13CF_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x13109040)
-#define CLASS_2_28B671B377BD13CF__CTOR_OFFSET UNITYSDK_OFFSET(0x131097D0)
+#define CLASS_2_28B671B377BD13CF_METHOD_2_DA0C05F7A3F43143_OFFSET UNITYSDK_OFFSET(0x13E6D150)
+#define CLASS_2_28B671B377BD13CF_METHOD_2_E5E342154D4EA5F5_OFFSET UNITYSDK_OFFSET(0x13E6D320)
+#define CLASS_2_28B671B377BD13CF_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x13E6CAE0)
+#define CLASS_2_28B671B377BD13CF__CTOR_OFFSET UNITYSDK_OFFSET(0x13E6D290)
 
-inline static constexpr unsigned int Class_2_28B671B377BD13CF_TypeDefinitionIndex = 51496;
+inline static constexpr unsigned int Class_2_28B671B377BD13CF_TypeDefinitionIndex = 80847;
 
 class Class_2_28B671B377BD13CF : public ::UnityEngine::Playables::PlayableBehaviour
 {
 public:
-	::System::Collections::Generic::Dictionary_2<::System::Int32, ::NPCCrowd::Lod::NPCCrowdPositionAgent*>* Field_2_1; // 0x10
-	::System::Boolean Field_2_0; // 0x18
+	::System::Collections::Generic::Dictionary_2<::System::Int32, ::NPCCrowd::Lod::NPCCrowdPositionAgent*>* Field_2_0; // 0x10
+	::System::Boolean Field_2_1; // 0x18
 
 	::System::Void _ctor()
 	{

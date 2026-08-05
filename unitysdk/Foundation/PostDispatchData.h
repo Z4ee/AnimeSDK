@@ -6,18 +6,18 @@ namespace Foundation { class DesignDataPart; }
 namespace Foundation { class GameResPart; }
 namespace Foundation { class SilenceDataPart; }
 
-#define FOUNDATION_POSTDISPATCHDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1BFE8DD0)
+#define FOUNDATION_POSTDISPATCHDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1D59C3F0)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int PostDispatchData_TypeDefinitionIndex = 8280;
+	inline static constexpr unsigned int PostDispatchData_TypeDefinitionIndex = 8267;
 
 	class PostDispatchData : public ::System::Object
 	{
 	public:
-		::Foundation::DesignDataPart* design_data; // 0x10
+		::Foundation::SilenceDataPart* silence_data; // 0x10
 		::Foundation::GameResPart* game_res; // 0x18
-		::Foundation::SilenceDataPart* silence_data; // 0x20
+		::Foundation::DesignDataPart* design_data; // 0x20
 
 		::System::Void _ctor(::Foundation::GameResPart* gameRes, ::Foundation::DesignDataPart* designData, ::Foundation::SilenceDataPart* silenceData)
 		{

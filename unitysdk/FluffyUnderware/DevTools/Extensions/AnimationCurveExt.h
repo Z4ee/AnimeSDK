@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define FLUFFYUNDERWARE_DEVTOOLS_EXTENSIONS_ANIMATIONCURVEEXT_VALUEISONE_OFFSET UNITYSDK_OFFSET(0x1D6984E0)
+#define FLUFFYUNDERWARE_DEVTOOLS_EXTENSIONS_ANIMATIONCURVEEXT_VALUEISONE_OFFSET UNITYSDK_OFFSET(0x1EA516F0)
 
 namespace FluffyUnderware::DevTools::Extensions
 {
-	inline static constexpr unsigned int AnimationCurveExt_TypeDefinitionIndex = 28397;
+	inline static constexpr unsigned int AnimationCurveExt_TypeDefinitionIndex = 29001;
 
 	class AnimationCurveExt : public ::System::Object
 	{

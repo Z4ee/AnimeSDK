@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CHESSBOARDCAMERATIMELINEELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1270C290)
+#define MOLEMOLE_CONFIG_CHESSBOARDCAMERATIMELINEELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x134F4000)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ChessboardCameraTimeLineElement_TypeDefinitionIndex = 42248;
+	inline static constexpr unsigned int ChessboardCameraTimeLineElement_TypeDefinitionIndex = 79918;
 
 	class ChessboardCameraTimeLineElement : public ::MoleMole::Config::ChessboardTimeLineElement
 	{

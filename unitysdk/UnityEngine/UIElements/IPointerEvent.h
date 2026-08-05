@@ -8,7 +8,7 @@ namespace System { class String; }
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int IPointerEvent_TypeDefinitionIndex = 27556;
+	inline static constexpr unsigned int IPointerEvent_TypeDefinitionIndex = 28158;
 
 	class IPointerEvent
 	{

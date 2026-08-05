@@ -4,11 +4,11 @@
 
 class Class_1_88757C352B68BC6A;
 
-#define MOLEMOLE_UIINLEVELSKILLBUTTONBRANCHBASECONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x17230810)
+#define MOLEMOLE_UIINLEVELSKILLBUTTONBRANCHBASECONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1910D3D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInLevelSkillButtonBranchBaseController_Context_TypeDefinitionIndex = 74325;
+	inline static constexpr unsigned int UIInLevelSkillButtonBranchBaseController_Context_TypeDefinitionIndex = 75718;
 
 	class UIInLevelSkillButtonBranchBaseController_Context : public ::MoleMole::UIControllerContextBase
 	{

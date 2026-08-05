@@ -3,7 +3,7 @@
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int INapRenderEntityManager_TypeDefinitionIndex = 5919;
+	inline static constexpr unsigned int INapRenderEntityManager_TypeDefinitionIndex = 5921;
 
 	class INapRenderEntityManager
 	{

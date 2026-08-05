@@ -8,7 +8,7 @@ namespace System { class Object; }
 
 namespace Foundation::ViewObject::Container
 {
-	inline static constexpr unsigned int ComponentContainer_1_ComponentContainerIterator_TypeDefinitionIndex = 64081;
+	inline static constexpr unsigned int ComponentContainer_1_ComponentContainerIterator_TypeDefinitionIndex = 52424;
 
 	template <typename T>
 	struct ComponentContainer_1_ComponentContainerIterator

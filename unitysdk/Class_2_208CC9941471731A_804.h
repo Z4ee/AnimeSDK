@@ -1,19 +1,33 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_C4544004F26734BD_35.h"
-#include "unitysdk/Struct_2_3E75877A2888D88A_502.h"
+#include "unitysdk/Class_1_48F4A404A08692BE_139.h"
+#include "unitysdk/Struct_2_3E75877A2888D88A_926.h"
 
 class Class_0_16E4307DCC419505_7;
+class Class_2_6D99A03C58ED2B6E_3;
+namespace System { class String; }
 
-#define CLASS_2_208CC9941471731A_804__CTOR_OFFSET UNITYSDK_OFFSET(0x1553BB40)
+#define CLASS_2_208CC9941471731A_804_METHOD_2_35EA095E1AFDD9C8_OFFSET UNITYSDK_OFFSET(0x14C41680)
+#define CLASS_2_208CC9941471731A_804_METHOD_2_860787EF93A67C73_OFFSET UNITYSDK_OFFSET(0x14C410F0)
+#define CLASS_2_208CC9941471731A_804__CTOR_OFFSET UNITYSDK_OFFSET(0x14C410D0)
 
-inline static constexpr unsigned int Class_2_208CC9941471731A_804_TypeDefinitionIndex = 16435;
+inline static constexpr unsigned int Class_2_208CC9941471731A_804_TypeDefinitionIndex = 13237;
 
-class Class_2_208CC9941471731A_804 : public ::Class_1_C4544004F26734BD_35
+class Class_2_208CC9941471731A_804 : public ::Class_1_48F4A404A08692BE_139
 {
 public:
-	::System::Void _ctor(::Struct_2_3E75877A2888D88A_502 a1, ::Class_0_16E4307DCC419505_7* a2)
+	::System::Void _ctor(::Struct_2_3E75877A2888D88A_926 a1, ::Class_0_16E4307DCC419505_7* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::Struct_2_3E75877A2888D88A_502, ::Class_0_16E4307DCC419505_7*))((::PBYTE)hIl2Cpp + CLASS_2_208CC9941471731A_804__CTOR_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::Struct_2_3E75877A2888D88A_926, ::Class_0_16E4307DCC419505_7*))((::PBYTE)hIl2Cpp + CLASS_2_208CC9941471731A_804__CTOR_OFFSET))(this, a1, a2);
+	}
+
+	::Class_2_6D99A03C58ED2B6E_3* Method_2_860787EF93A67C73()
+	{
+		return ((::Class_2_6D99A03C58ED2B6E_3*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_208CC9941471731A_804_METHOD_2_860787EF93A67C73_OFFSET))(this);
+	}
+
+	::System::String* Method_2_35EA095E1AFDD9C8()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_208CC9941471731A_804_METHOD_2_35EA095E1AFDD9C8_OFFSET))(this);
 	}
 };

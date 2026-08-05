@@ -11,7 +11,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace Foundation
 {
-	inline static constexpr unsigned int PriorityQueue_2_UnorderedItemsCollection_TypeDefinitionIndex = 8166;
+	inline static constexpr unsigned int PriorityQueue_2_UnorderedItemsCollection_TypeDefinitionIndex = 8022;
 
 	template <typename TElement, typename TPriority>
 	class PriorityQueue_2_UnorderedItemsCollection : public ::System::Object

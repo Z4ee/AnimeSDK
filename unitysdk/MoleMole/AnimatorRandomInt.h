@@ -7,11 +7,11 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_ANIMATORRANDOMINT__CTOR_OFFSET UNITYSDK_OFFSET(0x10CCC390)
+#define MOLEMOLE_ANIMATORRANDOMINT__CTOR_OFFSET UNITYSDK_OFFSET(0x116C6B60)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int AnimatorRandomInt_TypeDefinitionIndex = 48147;
+	inline static constexpr unsigned int AnimatorRandomInt_TypeDefinitionIndex = 67177;
 
 	class AnimatorRandomInt : public ::System::Object
 	{

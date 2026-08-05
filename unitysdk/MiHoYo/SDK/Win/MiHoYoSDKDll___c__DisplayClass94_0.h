@@ -5,7 +5,7 @@
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int MiHoYoSDKDll___c__DisplayClass94_0_TypeDefinitionIndex = 21186;
+	inline static constexpr unsigned int MiHoYoSDKDll___c__DisplayClass94_0_TypeDefinitionIndex = 21534;
 
 	struct alignas(4) MiHoYoSDKDll___c__DisplayClass94_0
 	{

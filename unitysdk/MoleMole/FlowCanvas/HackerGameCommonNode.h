@@ -8,26 +8,26 @@ namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 namespace System { class Object; }
 
-#define MOLEMOLE_FLOWCANVAS_HACKERGAMECOMMONNODE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1A019040)
-#define MOLEMOLE_FLOWCANVAS_HACKERGAMECOMMONNODE_START_OFFSET UNITYSDK_OFFSET(0x1A019170)
-#define MOLEMOLE_FLOWCANVAS_HACKERGAMECOMMONNODE_UPDATE_OFFSET UNITYSDK_OFFSET(0x1A0191D0)
-#define MOLEMOLE_FLOWCANVAS_HACKERGAMECOMMONNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A019210)
-#define MOLEMOLE_FLOWCANVAS_HACKERGAMECOMMONNODE__REGISTERPORTS_B__8_0_OFFSET UNITYSDK_OFFSET(0x1A019250)
+#define MOLEMOLE_FLOWCANVAS_HACKERGAMECOMMONNODE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1B82B590)
+#define MOLEMOLE_FLOWCANVAS_HACKERGAMECOMMONNODE_START_OFFSET UNITYSDK_OFFSET(0x1B82B6C0)
+#define MOLEMOLE_FLOWCANVAS_HACKERGAMECOMMONNODE_UPDATE_OFFSET UNITYSDK_OFFSET(0x1B82B720)
+#define MOLEMOLE_FLOWCANVAS_HACKERGAMECOMMONNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B82B760)
+#define MOLEMOLE_FLOWCANVAS_HACKERGAMECOMMONNODE__REGISTERPORTS_B__8_0_OFFSET UNITYSDK_OFFSET(0x1B82B7A0)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int HackerGameCommonNode_TypeDefinitionIndex = 63404;
+	inline static constexpr unsigned int HackerGameCommonNode_TypeDefinitionIndex = 46219;
 
 	class HackerGameCommonNode : public ::FlowCanvas::FlowNode
 	{
 	public:
-		::FlowCanvas::FlowInput* _start; // 0xA8
-		::FlowCanvas::Flow _flow; // 0xB0
-		::FlowCanvas::ValueInput_1<::System::Object*>* _args; // 0xD8
-		::FlowCanvas::FlowOutput* _invoke1; // 0xE0
-		::FlowCanvas::FlowOutput* _invoke2; // 0xE8
-		::FlowCanvas::ValueInput_1<::System::Int32>* _extraArg; // 0xF0
-		::System::Object* _runtimeInfo; // 0xF8
+		::FlowCanvas::ValueInput_1<::System::Object*>* _args; // 0xA8
+		::System::Object* _runtimeInfo; // 0xB0
+		::FlowCanvas::FlowOutput* _invoke1; // 0xB8
+		::FlowCanvas::FlowOutput* _invoke2; // 0xC0
+		::FlowCanvas::Flow _flow; // 0xC8
+		::FlowCanvas::FlowInput* _start; // 0xF0
+		::FlowCanvas::ValueInput_1<::System::Int32>* _extraArg; // 0xF8
 		::System::Int32 _extraInfo; // 0x100
 
 		::System::Void _ctor()

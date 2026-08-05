@@ -3,7 +3,7 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigChessboardShowPopWindowNode_ChessboardShowPopType_TypeDefinitionIndex = 41166;
+	inline static constexpr unsigned int ConfigChessboardShowPopWindowNode_ChessboardShowPopType_TypeDefinitionIndex = 57736;
 
 	enum class ConfigChessboardShowPopWindowNode_ChessboardShowPopType : ::System::Int32
 	{

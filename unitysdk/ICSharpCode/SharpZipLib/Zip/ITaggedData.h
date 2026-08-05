@@ -3,7 +3,7 @@
 
 namespace ICSharpCode::SharpZipLib::Zip
 {
-	inline static constexpr unsigned int ITaggedData_TypeDefinitionIndex = 6853;
+	inline static constexpr unsigned int ITaggedData_TypeDefinitionIndex = 6857;
 
 	class ITaggedData
 	{

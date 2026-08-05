@@ -4,20 +4,20 @@
 
 namespace MoleMole { class UILevelLongFightResultChessboardTypePageController; }
 
-#define MOLEMOLE_UILEVELLONGFIGHTRESULTCHESSBOARDTYPEPAGECONTROLLER___C__DISPLAYCLASS28_0__CTOR_OFFSET UNITYSDK_OFFSET(0x169B5010)
-#define MOLEMOLE_UILEVELLONGFIGHTRESULTCHESSBOARDTYPEPAGECONTROLLER___C__DISPLAYCLASS28_0__REFRESHLEVELTXTVIEW_G__ONPROGRESS_0_OFFSET UNITYSDK_OFFSET(0x169B5020)
+#define MOLEMOLE_UILEVELLONGFIGHTRESULTCHESSBOARDTYPEPAGECONTROLLER___C__DISPLAYCLASS28_0__CTOR_OFFSET UNITYSDK_OFFSET(0x179DB460)
+#define MOLEMOLE_UILEVELLONGFIGHTRESULTCHESSBOARDTYPEPAGECONTROLLER___C__DISPLAYCLASS28_0__REFRESHLEVELTXTVIEW_G__ONPROGRESS_0_OFFSET UNITYSDK_OFFSET(0x179DB470)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UILevelLongFightResultChessboardTypePageController___c__DisplayClass28_0_TypeDefinitionIndex = 53555;
+	inline static constexpr unsigned int UILevelLongFightResultChessboardTypePageController___c__DisplayClass28_0_TypeDefinitionIndex = 44260;
 
 	class UILevelLongFightResultChessboardTypePageController___c__DisplayClass28_0 : public ::System::Object
 	{
 	public:
 		::MoleMole::UILevelLongFightResultChessboardTypePageController* __4__this; // 0x10
-		::System::Int32 remainExp; // 0x18
-		::System::Int32 curLv; // 0x1C
-		::System::Int32 expNeededForNxtLv; // 0x20
+		::System::Int32 expNeededForNxtLv; // 0x18
+		::System::Int32 remainExp; // 0x1C
+		::System::Int32 curLv; // 0x20
 
 		::System::Void _ctor()
 		{

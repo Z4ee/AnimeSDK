@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_RTASCULLINGSETTINGS_DEFAULT_OFFSET UNITYSDK_OFFSET(0x1B7FE760)
+#define UNITYENGINE_RENDERING_UNIVERSAL_RTASCULLINGSETTINGS_DEFAULT_OFFSET UNITYSDK_OFFSET(0x1CB1B6E0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int RTASCullingSettings_TypeDefinitionIndex = 26620;
+	inline static constexpr unsigned int RTASCullingSettings_TypeDefinitionIndex = 27743;
 
 	struct alignas(4) RTASCullingSettings
 	{

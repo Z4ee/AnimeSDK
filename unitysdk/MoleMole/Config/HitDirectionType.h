@@ -3,24 +3,24 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int HitDirectionType_TypeDefinitionIndex = 73726;
+	inline static constexpr unsigned int HitDirectionType_TypeDefinitionIndex = 71258;
 
 	enum class HitDirectionType : ::System::Int32
 	{
-		AttackeeBackDir = 12,
-		AttackerToAttackeeDir = 1,
-		PatternForwardDir = 2,
-		None = 999,
+		PatternLeftDir = 5,
 		AttackeeForwardDir = 11,
+		AttackeeBackDir = 12,
 		PatternRightDir = 6,
 		PatternAside = 7,
-		PatternLeftDir = 5,
-		PatternToAttackeeDir = 3,
-		AttackerLeftDir = 8,
-		AttackerRightDir = 9,
-		AttackerForwardDir = 0,
-		AttackerBackDir = 10,
-		PatternBackDir = 4,
 		AttackerFromAttackeeSideDir = 13,
+		AttackerLeftDir = 8,
+		PatternToAttackeeDir = 3,
+		AttackerRightDir = 9,
+		AttackerToAttackeeDir = 1,
+		PatternBackDir = 4,
+		AttackerBackDir = 10,
+		None = 999,
+		PatternForwardDir = 2,
+		AttackerForwardDir = 0,
 	};
 }

@@ -4,12 +4,12 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/Unity/Collections/Allocator.h"
 
-#define FOUNDATION_STATEMACHINE_MACHINECACHE_BUILD_OFFSET UNITYSDK_OFFSET(0x1E8269B0)
-#define FOUNDATION_STATEMACHINE_MACHINECACHE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E826A10)
+#define FOUNDATION_STATEMACHINE_MACHINECACHE_BUILD_OFFSET UNITYSDK_OFFSET(0x1FC0BE40)
+#define FOUNDATION_STATEMACHINE_MACHINECACHE__CTOR_OFFSET UNITYSDK_OFFSET(0x1FC0BEA0)
 
 namespace Foundation::StateMachine
 {
-	inline static constexpr unsigned int MachineCache_TypeDefinitionIndex = 8507;
+	inline static constexpr unsigned int MachineCache_TypeDefinitionIndex = 8501;
 
 	class MachineCache : public ::System::Object
 	{

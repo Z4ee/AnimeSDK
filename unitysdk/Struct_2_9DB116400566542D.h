@@ -8,16 +8,16 @@ class ZzzUiCurveGraphic_CurveSegment;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class RectTransform; }
 
-#define STRUCT_2_9DB116400566542D_METHOD_2_9975E5A98C0865D1_OFFSET UNITYSDK_OFFSET(0x812BC0)
-#define STRUCT_2_9DB116400566542D__CTOR_OFFSET UNITYSDK_OFFSET(0x812BB0)
+#define STRUCT_2_9DB116400566542D_METHOD_2_9975E5A98C0865D1_OFFSET UNITYSDK_OFFSET(0x72F150)
+#define STRUCT_2_9DB116400566542D__CTOR_OFFSET UNITYSDK_OFFSET(0x72F140)
 
-inline static constexpr unsigned int Struct_2_9DB116400566542D_TypeDefinitionIndex = 78754;
+inline static constexpr unsigned int Struct_2_9DB116400566542D_TypeDefinitionIndex = 91035;
 
 struct alignas(8) Struct_2_9DB116400566542D
 {
-	// static const ::System::Single Field_2_1; // 0x0
+	// static const ::System::Single Field_2_7; // 0x0
 	::System::Collections::Generic::Dictionary_2<::Class_1_F39C9440AA049134_Class_1_C8FA2781E175F1FA_Enum_3_430A52B4871F4E24, ::Class_1_5F5D92B486077EA8*>* Field_2_0; // 0x10
-	::UnityEngine::RectTransform* Field_2_2; // 0x18
+	::UnityEngine::RectTransform* Field_2_6; // 0x18
 
 	::System::Void _ctor(::UnityEngine::RectTransform* a1)
 	{

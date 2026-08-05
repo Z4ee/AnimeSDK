@@ -8,16 +8,16 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class SkinnedMeshRenderer; }
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_MODELPARTBONESINFO_ANIMATORREBIND_OFFSET UNITYSDK_OFFSET(0x15139B00)
-#define MOLEMOLE_MODELPARTBONESINFO_EXPORTSKINNEDMESHRENDERERBONESINFO_OFFSET UNITYSDK_OFFSET(0x151389F0)
-#define MOLEMOLE_MODELPARTBONESINFO_METHOD_5_62528D702B1BD770_OFFSET UNITYSDK_OFFSET(0x15139890)
-#define MOLEMOLE_MODELPARTBONESINFO_REBINDBONES_1_OFFSET UNITYSDK_OFFSET(0x151393B0)
-#define MOLEMOLE_MODELPARTBONESINFO_REBINDBONES_OFFSET UNITYSDK_OFFSET(0x15138EB0)
-#define MOLEMOLE_MODELPARTBONESINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x15139CE0)
+#define MOLEMOLE_MODELPARTBONESINFO_ANIMATORREBIND_OFFSET UNITYSDK_OFFSET(0x1790E890)
+#define MOLEMOLE_MODELPARTBONESINFO_EXPORTSKINNEDMESHRENDERERBONESINFO_OFFSET UNITYSDK_OFFSET(0x1790D7B0)
+#define MOLEMOLE_MODELPARTBONESINFO_METHOD_5_BBF2889FD906B738_OFFSET UNITYSDK_OFFSET(0x1790E650)
+#define MOLEMOLE_MODELPARTBONESINFO_REBINDBONES_1_OFFSET UNITYSDK_OFFSET(0x1790E170)
+#define MOLEMOLE_MODELPARTBONESINFO_REBINDBONES_OFFSET UNITYSDK_OFFSET(0x1790DC70)
+#define MOLEMOLE_MODELPARTBONESINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1790EA70)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ModelPartBonesInfo_TypeDefinitionIndex = 66397;
+	inline static constexpr unsigned int ModelPartBonesInfo_TypeDefinitionIndex = 48817;
 
 	class ModelPartBonesInfo : public ::UnityEngine::MonoBehaviour
 	{
@@ -50,9 +50,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MODELPARTBONESINFO_ANIMATORREBIND_OFFSET))(this);
 		}
 
-		::Il2CppArray<::UnityEngine::Transform*>* Method_5_62528D702B1BD770(::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::Transform*>* a1, ::System::Collections::Generic::List_1<::System::String*>* a2)
+		::Il2CppArray<::UnityEngine::Transform*>* Method_5_BBF2889FD906B738(::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::Transform*>* a1, ::System::Collections::Generic::List_1<::System::String*>* a2)
 		{
-			return ((::Il2CppArray<::UnityEngine::Transform*>*(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::Transform*>*, ::System::Collections::Generic::List_1<::System::String*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_MODELPARTBONESINFO_METHOD_5_62528D702B1BD770_OFFSET))(this, a1, a2);
+			return ((::Il2CppArray<::UnityEngine::Transform*>*(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::Transform*>*, ::System::Collections::Generic::List_1<::System::String*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_MODELPARTBONESINFO_METHOD_5_BBF2889FD906B738_OFFSET))(this, a1, a2);
 		}
 	};
 }

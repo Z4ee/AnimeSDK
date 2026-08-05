@@ -7,29 +7,29 @@ namespace System::Data { class DataViewListener; }
 namespace System::Data { template <typename T1, typename T2, typename T3, typename T4, typename T5> class Listeners_1_Action_4; }
 namespace System::Data { template <typename T1, typename T2, typename T3> class Listeners_1_Func_2; }
 
-#define SYSTEM_DATA_INDEX___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E182D50)
-#define SYSTEM_DATA_INDEX___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1E182D90)
-#define SYSTEM_DATA_INDEX___C__ONLISTCHANGED_B__85_0_OFFSET UNITYSDK_OFFSET(0x1E182DB0)
-#define SYSTEM_DATA_INDEX___C___CTOR_B__22_0_OFFSET UNITYSDK_OFFSET(0x1E182DA0)
+#define SYSTEM_DATA_INDEX___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F5BA640)
+#define SYSTEM_DATA_INDEX___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1F5BA680)
+#define SYSTEM_DATA_INDEX___C__ONLISTCHANGED_B__85_0_OFFSET UNITYSDK_OFFSET(0x1F5BA6A0)
+#define SYSTEM_DATA_INDEX___C___CTOR_B__22_0_OFFSET UNITYSDK_OFFSET(0x1F5BA690)
 
 namespace System::Data
 {
-	inline static constexpr unsigned int Index___c_TypeDefinitionIndex = 38680;
+	inline static constexpr unsigned int Index___c_TypeDefinitionIndex = 39341;
 
 	class Index___c : public ::System::Object
 	{
 	public:
-		static ::System::Data::Listeners_1_Action_4<::System::Data::DataViewListener*, ::System::Data::DataViewListener*, ::System::ComponentModel::ListChangedEventArgs*, ::System::Boolean, ::System::Boolean>** StaticGet___9__85_0()
-		{
-			return (::System::Data::Listeners_1_Action_4<::System::Data::DataViewListener*, ::System::Data::DataViewListener*, ::System::ComponentModel::ListChangedEventArgs*, ::System::Boolean, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Index___c_TypeDefinitionIndex)->GetStaticField(0x29180);
-		}
 		static ::System::Data::Index___c** StaticGet___9()
 		{
-			return (::System::Data::Index___c**)Il2CppClass::FromTypeDefinitionIndex(Index___c_TypeDefinitionIndex)->GetStaticField(0x29188);
+			return (::System::Data::Index___c**)Il2CppClass::FromTypeDefinitionIndex(Index___c_TypeDefinitionIndex)->GetStaticField(0x2AAB0);
+		}
+		static ::System::Data::Listeners_1_Action_4<::System::Data::DataViewListener*, ::System::Data::DataViewListener*, ::System::ComponentModel::ListChangedEventArgs*, ::System::Boolean, ::System::Boolean>** StaticGet___9__85_0()
+		{
+			return (::System::Data::Listeners_1_Action_4<::System::Data::DataViewListener*, ::System::Data::DataViewListener*, ::System::ComponentModel::ListChangedEventArgs*, ::System::Boolean, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Index___c_TypeDefinitionIndex)->GetStaticField(0x2AAB8);
 		}
 		static ::System::Data::Listeners_1_Func_2<::System::Data::DataViewListener*, ::System::Data::DataViewListener*, ::System::Boolean>** StaticGet___9__22_0()
 		{
-			return (::System::Data::Listeners_1_Func_2<::System::Data::DataViewListener*, ::System::Data::DataViewListener*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Index___c_TypeDefinitionIndex)->GetStaticField(0x29190);
+			return (::System::Data::Listeners_1_Func_2<::System::Data::DataViewListener*, ::System::Data::DataViewListener*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Index___c_TypeDefinitionIndex)->GetStaticField(0x2AAC0);
 		}
 
 		static ::System::Void _cctor()

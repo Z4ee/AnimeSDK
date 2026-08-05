@@ -8,22 +8,22 @@ namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_A6C17C8DDACC49CF_METHOD_1_1D4018D4200358D0_OFFSET UNITYSDK_OFFSET(0xE881B50)
-#define CLASS_1_A6C17C8DDACC49CF__CTOR_OFFSET UNITYSDK_OFFSET(0xE881B40)
+#define CLASS_1_A6C17C8DDACC49CF_METHOD_1_1D4018D4200358D0_OFFSET UNITYSDK_OFFSET(0x10F74ED0)
+#define CLASS_1_A6C17C8DDACC49CF__CTOR_OFFSET UNITYSDK_OFFSET(0x10F74EC0)
 
-inline static constexpr unsigned int Class_1_A6C17C8DDACC49CF_TypeDefinitionIndex = 54448;
+inline static constexpr unsigned int Class_1_A6C17C8DDACC49CF_TypeDefinitionIndex = 52304;
 
 class Class_1_A6C17C8DDACC49CF : public ::System::Object
 {
 public:
-	::System::Action_1<::System::UInt32>* Field_1_5; // 0x10
-	::System::String* Field_1_2; // 0x18
-	::System::Collections::Generic::List_1<::System::UInt32>* Field_1_1; // 0x20
-	::Enum_3_DF38AA4A3E338023 Field_1_0; // 0x28
-	::System::Nullable_1<::System::UInt32> Field_1_4; // 0x2C
-	::System::Boolean Field_1_3; // 0x34
-	::System::Boolean Field_1_7; // 0x35
-	::System::UInt32 Field_1_6; // 0x38
+	::System::Collections::Generic::List_1<::System::UInt32>* Field_1_0; // 0x10
+	::System::Action_1<::System::UInt32>* Field_1_4; // 0x18
+	::System::String* Field_1_7; // 0x20
+	::Enum_3_DF38AA4A3E338023 Field_1_1; // 0x28
+	::System::Boolean Field_1_10; // 0x2C
+	::System::Boolean Field_1_6; // 0x2D
+	::System::Nullable_1<::System::UInt32> Field_1_5; // 0x30
+	::System::UInt32 Field_1_11; // 0x38
 
 	::System::Void _ctor()
 	{

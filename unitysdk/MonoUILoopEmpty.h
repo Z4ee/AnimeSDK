@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MONOUILOOPEMPTY__CTOR_OFFSET UNITYSDK_OFFSET(0xE871800)
+#define MONOUILOOPEMPTY__CTOR_OFFSET UNITYSDK_OFFSET(0x10F1BC40)
 
-inline static constexpr unsigned int MonoUILoopEmpty_TypeDefinitionIndex = 76112;
+inline static constexpr unsigned int MonoUILoopEmpty_TypeDefinitionIndex = 88394;
 
 class MonoUILoopEmpty : public ::System::Object
 {

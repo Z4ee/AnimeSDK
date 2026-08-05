@@ -6,12 +6,12 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int BrowserWin32Helper_DEVMODE_TypeDefinitionIndex = 36983;
+	inline static constexpr unsigned int BrowserWin32Helper_DEVMODE_TypeDefinitionIndex = 37644;
 
 	struct alignas(8) BrowserWin32Helper_DEVMODE
 	{
 		// static const ::System::Int32 CCHDEVICENAME = 0x20; // 0x0
-		// static const ::System::Int32 Field_2_1 = 0x20; // 0x0
+		// static const ::System::Int32 Field_2_2 = 0x20; // 0x0
 		::System::String* dmDeviceName; // 0x10
 		::System::Int16 dmSpecVersion; // 0x18
 		::System::Int16 dmDriverVersion; // 0x1A

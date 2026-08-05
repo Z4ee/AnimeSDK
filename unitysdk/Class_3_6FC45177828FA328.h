@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_2_CCFE785C3F41C676.h"
+#include "unitysdk/Class_2_B0798E1629E01207.h"
 
 class Class_1_8A50BFB20D9D2482;
 namespace MoleMole { template <typename T> class TwoValue_1; }
@@ -11,38 +11,38 @@ namespace UnityEngine::NAPRenderPipeline0 { class VolumeProfile_NativeSRP; }
 namespace UnityEngine::Rendering { class Volume; }
 namespace UnityEngine::Rendering::Universal { class ChannelMixer; }
 
-#define CLASS_3_6FC45177828FA328_METHOD_3_0D4C0D9FBEE2472E_OFFSET UNITYSDK_OFFSET(0x153FD130)
-#define CLASS_3_6FC45177828FA328_METHOD_3_0F9BADCF9353AB5C_OFFSET UNITYSDK_OFFSET(0x15401650)
-#define CLASS_3_6FC45177828FA328_METHOD_3_5386F53BA0E57F99_OFFSET UNITYSDK_OFFSET(0x15402AD0)
-#define CLASS_3_6FC45177828FA328_METHOD_3_737596CC6BD76E0E_OFFSET UNITYSDK_OFFSET(0x153FE7B0)
-#define CLASS_3_6FC45177828FA328_METHOD_3_F084B88449708AFF_OFFSET UNITYSDK_OFFSET(0x15400420)
-#define CLASS_3_6FC45177828FA328_METHOD_3_FC610BFF82385D4A_OFFSET UNITYSDK_OFFSET(0x153FF600)
-#define CLASS_3_6FC45177828FA328_TOSTRING_OFFSET UNITYSDK_OFFSET(0x12AE31A0)
-#define CLASS_3_6FC45177828FA328__CTOR_OFFSET UNITYSDK_OFFSET(0x153FCF40)
+#define CLASS_3_6FC45177828FA328_METHOD_3_0D4C0D9FBEE2472E_OFFSET UNITYSDK_OFFSET(0x128A8F90)
+#define CLASS_3_6FC45177828FA328_METHOD_3_0F9BADCF9353AB5C_OFFSET UNITYSDK_OFFSET(0x128AD3E0)
+#define CLASS_3_6FC45177828FA328_METHOD_3_5386F53BA0E57F99_OFFSET UNITYSDK_OFFSET(0x128AE7F0)
+#define CLASS_3_6FC45177828FA328_METHOD_3_737596CC6BD76E0E_OFFSET UNITYSDK_OFFSET(0x128AA5E0)
+#define CLASS_3_6FC45177828FA328_METHOD_3_F084B88449708AFF_OFFSET UNITYSDK_OFFSET(0x128AC1D0)
+#define CLASS_3_6FC45177828FA328_METHOD_3_FC610BFF82385D4A_OFFSET UNITYSDK_OFFSET(0x128AB3E0)
+#define CLASS_3_6FC45177828FA328_TOSTRING_OFFSET UNITYSDK_OFFSET(0x128AF010)
+#define CLASS_3_6FC45177828FA328__CTOR_OFFSET UNITYSDK_OFFSET(0x128A8DA0)
 
-inline static constexpr unsigned int Class_3_6FC45177828FA328_TypeDefinitionIndex = 54791;
+inline static constexpr unsigned int Class_3_6FC45177828FA328_TypeDefinitionIndex = 67296;
 
-class Class_3_6FC45177828FA328 : public ::Class_2_CCFE785C3F41C676<::UnityEngine::Rendering::Universal::ChannelMixer*, ::MoleMole::Config::ConfigEntityChannelMixerEffect*>
+class Class_3_6FC45177828FA328 : public ::Class_2_B0798E1629E01207<::UnityEngine::Rendering::Universal::ChannelMixer*, ::MoleMole::Config::ConfigEntityChannelMixerEffect*>
 {
 public:
-	::MoleMole::TwoValue_1<::System::Single>* Field_3_2; // 0xA8
-	::MoleMole::TwoValue_1<::System::Single>* Field_3_8; // 0xB0
+	::MoleMole::TwoValue_1<::System::Single>* Field_3_14; // 0xA8
+	::MoleMole::TwoValue_1<::System::Single>* Field_3_6; // 0xB0
 	::MoleMole::TwoValue_1<::System::Single>* Field_3_12; // 0xB8
-	::MoleMole::TwoValue_1<::System::Single>* Field_3_16; // 0xC0
-	::MoleMole::TwoValue_1<::System::Single>* Field_3_6; // 0xC8
-	::MoleMole::TwoValue_1<::System::Single>* Field_3_4; // 0xD0
-	::MoleMole::TwoValue_1<::System::Single>* Field_3_14; // 0xD8
-	::MoleMole::TwoValue_1<::System::Single>* Field_3_10; // 0xE0
-	::MoleMole::TwoValue_1<::System::Single>* Field_3_0; // 0xE8
-	::System::Single Field_3_15; // 0xF0
-	::System::Single Field_3_13; // 0xF4
-	::System::Single Field_3_7; // 0xF8
-	::System::Single Field_3_9; // 0xFC
-	::System::Single Field_3_17; // 0x100
-	::System::Single Field_3_11; // 0x104
-	::System::Single Field_3_5; // 0x108
-	::System::Single Field_3_1; // 0x10C
-	::System::Single Field_3_3; // 0x110
+	::MoleMole::TwoValue_1<::System::Single>* Field_3_0; // 0xC0
+	::MoleMole::TwoValue_1<::System::Single>* Field_3_16; // 0xC8
+	::MoleMole::TwoValue_1<::System::Single>* Field_3_18; // 0xD0
+	::MoleMole::TwoValue_1<::System::Single>* Field_3_8; // 0xD8
+	::MoleMole::TwoValue_1<::System::Single>* Field_3_4; // 0xE0
+	::MoleMole::TwoValue_1<::System::Single>* Field_3_10; // 0xE8
+	::System::Single Field_3_19; // 0xF0
+	::System::Single Field_3_17; // 0xF4
+	::System::Single Field_3_9; // 0xF8
+	::System::Single Field_3_15; // 0xFC
+	::System::Single Field_3_5; // 0x100
+	::System::Single Field_3_13; // 0x104
+	::System::Single Field_3_23; // 0x108
+	::System::Single Field_3_7; // 0x10C
+	::System::Single Field_3_11; // 0x110
 
 	::System::Void _ctor(::System::String* a1, ::MoleMole::Config::ConfigEntityChannelMixerEffect* a2, ::UnityEngine::Rendering::Volume* a3, ::MoleMole::Battle::Entity* a4, ::Class_1_8A50BFB20D9D2482* a5)
 	{

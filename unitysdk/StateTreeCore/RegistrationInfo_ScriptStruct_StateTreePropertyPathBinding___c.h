@@ -4,20 +4,20 @@
 
 namespace UnrealTypes { class ICppStructOps; }
 
-#define STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREEPROPERTYPATHBINDING___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E8863B0)
-#define STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREEPROPERTYPATHBINDING___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1E8863F0)
-#define STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREEPROPERTYPATHBINDING___C___CCTOR_B__6_0_OFFSET UNITYSDK_OFFSET(0x1E886400)
+#define STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREEPROPERTYPATHBINDING___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FC60F90)
+#define STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREEPROPERTYPATHBINDING___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1FC60FD0)
+#define STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREEPROPERTYPATHBINDING___C___CCTOR_B__6_0_OFFSET UNITYSDK_OFFSET(0x1FC60FE0)
 
 namespace StateTreeCore
 {
-	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_StateTreePropertyPathBinding___c_TypeDefinitionIndex = 31030;
+	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_StateTreePropertyPathBinding___c_TypeDefinitionIndex = 31636;
 
 	class RegistrationInfo_ScriptStruct_StateTreePropertyPathBinding___c : public ::System::Object
 	{
 	public:
 		static ::StateTreeCore::RegistrationInfo_ScriptStruct_StateTreePropertyPathBinding___c** StaticGet___9()
 		{
-			return (::StateTreeCore::RegistrationInfo_ScriptStruct_StateTreePropertyPathBinding___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_StateTreePropertyPathBinding___c_TypeDefinitionIndex)->GetStaticField(0x252C0);
+			return (::StateTreeCore::RegistrationInfo_ScriptStruct_StateTreePropertyPathBinding___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_StateTreePropertyPathBinding___c_TypeDefinitionIndex)->GetStaticField(0x26A40);
 		}
 
 		static ::System::Void _cctor()

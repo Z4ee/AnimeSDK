@@ -8,7 +8,7 @@ namespace System { class Type; }
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int SelectOnEnum_1_TypeDefinitionIndex = 30074;
+	inline static constexpr unsigned int SelectOnEnum_1_TypeDefinitionIndex = 30647;
 
 	template <typename T>
 	class SelectOnEnum_1 : public ::FlowCanvas::Nodes::FlowControlNode

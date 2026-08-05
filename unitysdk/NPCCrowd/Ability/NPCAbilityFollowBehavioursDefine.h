@@ -4,7 +4,7 @@
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int NPCAbilityFollowBehavioursDefine_TypeDefinitionIndex = 40256;
+	inline static constexpr unsigned int NPCAbilityFollowBehavioursDefine_TypeDefinitionIndex = 41562;
 
 	struct alignas(4) NPCAbilityFollowBehavioursDefine
 	{

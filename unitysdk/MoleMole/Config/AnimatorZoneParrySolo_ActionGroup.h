@@ -9,11 +9,11 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_ANIMATORZONEPARRYSOLO_ACTIONGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1629EFF0)
+#define MOLEMOLE_CONFIG_ANIMATORZONEPARRYSOLO_ACTIONGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x16C32690)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AnimatorZoneParrySolo_ActionGroup_TypeDefinitionIndex = 69467;
+	inline static constexpr unsigned int AnimatorZoneParrySolo_ActionGroup_TypeDefinitionIndex = 88115;
 
 	class AnimatorZoneParrySolo_ActionGroup : public ::System::Object
 	{

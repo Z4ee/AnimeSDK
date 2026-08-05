@@ -9,11 +9,11 @@ namespace System
 	class CompatibilitySwitches : public ::System::Object
 	{
 	public:
-		static ::System::Boolean* StaticGet_IsAppEarlierThanSilverlight4()
+		static ::System::Boolean* StaticGet_IsAppEarlierThanWindowsPhone8()
 		{
 			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(CompatibilitySwitches_TypeDefinitionIndex)->GetStaticField(0x50);
 		}
-		static ::System::Boolean* StaticGet_IsAppEarlierThanWindowsPhone8()
+		static ::System::Boolean* StaticGet_IsAppEarlierThanSilverlight4()
 		{
 			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(CompatibilitySwitches_TypeDefinitionIndex)->GetStaticField(0x51);
 		}

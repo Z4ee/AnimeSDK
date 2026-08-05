@@ -3,26 +3,26 @@
 #include "unitysdk/Class_1_982D1D66E14C5EA5_Enum_3_0F8AFB63992EDBA2.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_310;
+class Class_0_16E4307DCC419505_272;
 class Class_1_982D1D66E14C5EA5;
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_37F15BE3977B7199_METHOD_1_097468641FDED14E_OFFSET UNITYSDK_OFFSET(0x13B95C10)
-#define CLASS_1_37F15BE3977B7199_METHOD_1_A3885699AC695279_OFFSET UNITYSDK_OFFSET(0x13B95C80)
-#define CLASS_1_37F15BE3977B7199__CTOR_OFFSET UNITYSDK_OFFSET(0x13B95D20)
+#define CLASS_1_37F15BE3977B7199_METHOD_1_097468641FDED14E_OFFSET UNITYSDK_OFFSET(0x1441AB20)
+#define CLASS_1_37F15BE3977B7199_METHOD_1_A3885699AC695279_OFFSET UNITYSDK_OFFSET(0x1441AB90)
+#define CLASS_1_37F15BE3977B7199__CTOR_OFFSET UNITYSDK_OFFSET(0x1441AC30)
 
-inline static constexpr unsigned int Class_1_37F15BE3977B7199_TypeDefinitionIndex = 62174;
+inline static constexpr unsigned int Class_1_37F15BE3977B7199_TypeDefinitionIndex = 65297;
 
 class Class_1_37F15BE3977B7199 : public ::System::Object
 {
 public:
-	::System::String* Field_1_0; // 0x10
-	::System::Func_2<::System::Collections::Generic::List_1<::Class_1_982D1D66E14C5EA5*>*, ::Class_0_16E4307DCC419505_310*>* Field_1_4; // 0x18
-	::System::Int32 Field_1_1; // 0x20
+	::System::Func_2<::System::Collections::Generic::List_1<::Class_1_982D1D66E14C5EA5*>*, ::Class_0_16E4307DCC419505_272*>* Field_1_7; // 0x10
+	::System::String* Field_1_3; // 0x18
+	::Class_1_982D1D66E14C5EA5_Enum_3_0F8AFB63992EDBA2 Field_1_0; // 0x20
 	::System::Int32 Field_1_2; // 0x24
-	::Class_1_982D1D66E14C5EA5_Enum_3_0F8AFB63992EDBA2 Field_1_3; // 0x28
+	::System::Int32 Field_1_1; // 0x28
 
 	::System::Void _ctor()
 	{

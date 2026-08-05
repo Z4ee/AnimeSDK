@@ -7,20 +7,20 @@
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_CHANGEHENSHINBUDDYPLAYTYPE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1301ADA0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_CHANGEHENSHINBUDDYPLAYTYPE_START_INTERACT_OFFSET UNITYSDK_OFFSET(0x1301AE90)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_CHANGEHENSHINBUDDYPLAYTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1301B090)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_CHANGEHENSHINBUDDYPLAYTYPE__REGISTERPORTS_B__2_0_OFFSET UNITYSDK_OFFSET(0x1301B0D0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_CHANGEHENSHINBUDDYPLAYTYPE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1A05C9B0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_CHANGEHENSHINBUDDYPLAYTYPE_START_INTERACT_OFFSET UNITYSDK_OFFSET(0x1A05CAA0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_CHANGEHENSHINBUDDYPLAYTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A05CCA0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_CHANGEHENSHINBUDDYPLAYTYPE__REGISTERPORTS_B__2_0_OFFSET UNITYSDK_OFFSET(0x1A05CCE0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_ChangeHenshinBuddyPlayType_TypeDefinitionIndex = 72384;
+	inline static constexpr unsigned int LD_ChangeHenshinBuddyPlayType_TypeDefinitionIndex = 78724;
 
 	class LD_ChangeHenshinBuddyPlayType : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::ValueInput_1<::MoleMole::Level::BangbooPlayType>* bangbooPlayType; // 0xA8
-		::FlowCanvas::FlowOutput* output; // 0xB0
+		::FlowCanvas::FlowOutput* output; // 0xA8
+		::FlowCanvas::ValueInput_1<::MoleMole::Level::BangbooPlayType>* bangbooPlayType; // 0xB0
 
 		::System::Void _ctor()
 		{

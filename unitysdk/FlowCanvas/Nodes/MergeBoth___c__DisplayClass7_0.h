@@ -5,12 +5,12 @@
 
 namespace FlowCanvas::Nodes { class MergeBoth; }
 
-#define FLOWCANVAS_NODES_MERGEBOTH___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1D51DF10)
-#define FLOWCANVAS_NODES_MERGEBOTH___C__DISPLAYCLASS7_0__REGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x1D51E230)
+#define FLOWCANVAS_NODES_MERGEBOTH___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1E8B8090)
+#define FLOWCANVAS_NODES_MERGEBOTH___C__DISPLAYCLASS7_0__REGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x1E8B83B0)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int MergeBoth___c__DisplayClass7_0_TypeDefinitionIndex = 29622;
+	inline static constexpr unsigned int MergeBoth___c__DisplayClass7_0_TypeDefinitionIndex = 30007;
 
 	class MergeBoth___c__DisplayClass7_0 : public ::System::Object
 	{

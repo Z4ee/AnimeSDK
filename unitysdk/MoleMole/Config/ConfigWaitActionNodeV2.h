@@ -5,18 +5,18 @@
 class Class_1_D72537470FC2F779;
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGWAITACTIONNODEV2_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x12722E50)
-#define MOLEMOLE_CONFIG_CONFIGWAITACTIONNODEV2__CTOR_OFFSET UNITYSDK_OFFSET(0x12722EC0)
+#define MOLEMOLE_CONFIG_CONFIGWAITACTIONNODEV2_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x1350A370)
+#define MOLEMOLE_CONFIG_CONFIGWAITACTIONNODEV2__CTOR_OFFSET UNITYSDK_OFFSET(0x1350A3E0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigWaitActionNodeV2_TypeDefinitionIndex = 59087;
+	inline static constexpr unsigned int ConfigWaitActionNodeV2_TypeDefinitionIndex = 77093;
 
 	class ConfigWaitActionNodeV2 : public ::MoleMole::Config::ConfigUIBaseActionNode
 	{
 	public:
-		::System::String* TimeScale; // 0x18
-		::System::String* WaitSeconds; // 0x20
+		::System::String* WaitSeconds; // 0x18
+		::System::String* TimeScale; // 0x20
 		::System::Boolean UseBlackBoardValue; // 0x28
 		::System::Single FixedWaitSeconds; // 0x2C
 

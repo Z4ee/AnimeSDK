@@ -4,18 +4,18 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/NapTransformData.h"
 
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ADJUSTMENTBLENDINGWARPINGPERBONESAMPLEDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x109F9B10)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ADJUSTMENTBLENDINGWARPINGPERBONESAMPLEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x6DB5F0)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ADJUSTMENTBLENDINGWARPINGPERBONESAMPLEDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x157AE450)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ADJUSTMENTBLENDINGWARPINGPERBONESAMPLEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x825900)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int AnimationSubManager_AdjustmentBlendingWarpingPerBoneSampleData_TypeDefinitionIndex = 57475;
+	inline static constexpr unsigned int AnimationSubManager_AdjustmentBlendingWarpingPerBoneSampleData_TypeDefinitionIndex = 88264;
 
 	struct alignas(4) AnimationSubManager_AdjustmentBlendingWarpingPerBoneSampleData
 	{
 		static ::NPCCrowd::Animation::AnimationSubManager_AdjustmentBlendingWarpingPerBoneSampleData* StaticGet_Default()
 		{
-			return (::NPCCrowd::Animation::AnimationSubManager_AdjustmentBlendingWarpingPerBoneSampleData*)Il2CppClass::FromTypeDefinitionIndex(AnimationSubManager_AdjustmentBlendingWarpingPerBoneSampleData_TypeDefinitionIndex)->GetStaticField(0x10490);
+			return (::NPCCrowd::Animation::AnimationSubManager_AdjustmentBlendingWarpingPerBoneSampleData*)Il2CppClass::FromTypeDefinitionIndex(AnimationSubManager_AdjustmentBlendingWarpingPerBoneSampleData_TypeDefinitionIndex)->GetStaticField(0x10960);
 		}
 		::UnityEngine::NapTransformData Transform; // 0x10
 		::NPCCrowd::Animation::AnimationSubManager_AdjustmentBlendingTransformData_1<::System::Single> CurveRatio; // 0x40

@@ -3,32 +3,32 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int GraphicSettingProfileType_TypeDefinitionIndex = 53238;
+	inline static constexpr unsigned int GraphicSettingProfileType_TypeDefinitionIndex = 54899;
 
 	enum class GraphicSettingProfileType : ::System::Int32
 	{
-		AutoExposure = 20,
-		VSync = 3,
-		DepthOfField = 14,
-		FrameRate = 2,
-		SceneGlare = 19,
-		ShadingQuality = 17,
-		GlobalIllumination = 21,
-		ParticleQuality = 10,
-		MirrorReflection = 9,
-		VolumetricCloud = 13,
 		Distortion = 16,
+		SceneGlare = 19,
 		AnisotropicSampling = 23,
-		VolumetricFog = 7,
-		Bloom = 8,
-		MotionBlur = 15,
 		SceneQuality = 18,
-		ShadowQuality = 5,
-		LoopSubdivision = 22,
-		AntiAlias = 6,
-		None = 0,
-		ModelQuality = 12,
-		DpiFactor = 11,
+		GlobalIllumination = 21,
+		VolumetricFog = 7,
+		DepthOfField = 14,
 		RenderScale = 4,
+		None = 0,
+		MotionBlur = 15,
+		FrameRate = 2,
+		AntiAlias = 6,
+		ParticleQuality = 10,
+		Bloom = 8,
+		MirrorReflection = 9,
+		ShadowQuality = 5,
+		DpiFactor = 11,
+		AutoExposure = 20,
+		LoopSubdivision = 22,
+		ModelQuality = 12,
+		ShadingQuality = 17,
+		VolumetricCloud = 13,
+		VSync = 3,
 	};
 }

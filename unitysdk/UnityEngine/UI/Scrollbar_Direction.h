@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int Scrollbar_Direction_TypeDefinitionIndex = 18942;
+	inline static constexpr unsigned int Scrollbar_Direction_TypeDefinitionIndex = 19286;
 
 	enum class Scrollbar_Direction : ::System::Int32
 	{

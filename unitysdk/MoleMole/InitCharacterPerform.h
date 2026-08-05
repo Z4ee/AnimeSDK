@@ -5,11 +5,11 @@
 namespace MoleMole { class PerformConfig; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_INITCHARACTERPERFORM__CTOR_OFFSET UNITYSDK_OFFSET(0x16CB09E0)
+#define MOLEMOLE_INITCHARACTERPERFORM__CTOR_OFFSET UNITYSDK_OFFSET(0x13A949D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int InitCharacterPerform_TypeDefinitionIndex = 68112;
+	inline static constexpr unsigned int InitCharacterPerform_TypeDefinitionIndex = 62949;
 
 	class InitCharacterPerform : public ::Foundation::MihoyoSerializedScriptableObject
 	{

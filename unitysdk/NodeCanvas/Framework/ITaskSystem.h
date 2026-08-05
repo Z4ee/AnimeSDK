@@ -9,7 +9,7 @@ namespace UnityEngine { class Object; }
 
 namespace NodeCanvas::Framework
 {
-	inline static constexpr unsigned int ITaskSystem_TypeDefinitionIndex = 29548;
+	inline static constexpr unsigned int ITaskSystem_TypeDefinitionIndex = 30124;
 
 	class ITaskSystem
 	{

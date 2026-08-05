@@ -2,14 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/EventArgs.h"
 
-#define CLASS_2_D78A368391BB29CA_8__CTOR_OFFSET UNITYSDK_OFFSET(0x10E53E20)
+#define CLASS_2_D78A368391BB29CA_8__CTOR_OFFSET UNITYSDK_OFFSET(0x116C0880)
 
-inline static constexpr unsigned int Class_2_D78A368391BB29CA_8_TypeDefinitionIndex = 85892;
+inline static constexpr unsigned int Class_2_D78A368391BB29CA_8_TypeDefinitionIndex = 74538;
 
 class Class_2_D78A368391BB29CA_8 : public ::System::EventArgs
 {
 public:
 	::System::Int32 Field_2_0; // 0x10
+	::System::Int32 Field_2_7; // 0x14
 
 	::System::Void _ctor()
 	{

@@ -4,7 +4,7 @@
 
 namespace FluffyUnderware::DevTools
 {
-	inline static constexpr unsigned int Couple_2_TypeDefinitionIndex = 28331;
+	inline static constexpr unsigned int Couple_2_TypeDefinitionIndex = 28935;
 
 	template <typename T1, typename T2>
 	class Couple_2 : public ::System::Object

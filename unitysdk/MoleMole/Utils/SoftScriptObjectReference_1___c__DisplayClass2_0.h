@@ -7,7 +7,7 @@ namespace UnityEngine { class ScriptableObject; }
 
 namespace MoleMole::Utils
 {
-	inline static constexpr unsigned int SoftScriptObjectReference_1___c__DisplayClass2_0_TypeDefinitionIndex = 49164;
+	inline static constexpr unsigned int SoftScriptObjectReference_1___c__DisplayClass2_0_TypeDefinitionIndex = 77482;
 
 	template <typename T>
 	class SoftScriptObjectReference_1___c__DisplayClass2_0 : public ::System::Object

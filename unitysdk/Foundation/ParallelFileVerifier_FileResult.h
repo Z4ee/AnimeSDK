@@ -5,25 +5,25 @@
 namespace Foundation { class ParallelFileVerifier_FileInfoCheckResult; }
 namespace System { class String; }
 
-#define FOUNDATION_PARALLELFILEVERIFIER_FILERESULT_ISVERIFYPASS_OFFSET UNITYSDK_OFFSET(0x11CE1190)
-#define FOUNDATION_PARALLELFILEVERIFIER_FILERESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x11CE1180)
+#define FOUNDATION_PARALLELFILEVERIFIER_FILERESULT_ISVERIFYPASS_OFFSET UNITYSDK_OFFSET(0xF23BA80)
+#define FOUNDATION_PARALLELFILEVERIFIER_FILERESULT__CTOR_OFFSET UNITYSDK_OFFSET(0xF23BA70)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int ParallelFileVerifier_FileResult_TypeDefinitionIndex = 48093;
+	inline static constexpr unsigned int ParallelFileVerifier_FileResult_TypeDefinitionIndex = 51584;
 
 	class ParallelFileVerifier_FileResult : public ::System::Object
 	{
 	public:
 		::System::String* FilePath; // 0x10
 		::Foundation::ParallelFileVerifier_FileInfoCheckResult* FileInfoCheckResult; // 0x18
-		::System::Boolean HashChecked; // 0x20
+		::System::Boolean IsExist; // 0x20
 		::System::Boolean IsFileHashSame; // 0x21
-		::System::Boolean IsFileSizeSame; // 0x22
-		::System::Boolean IsExist; // 0x23
+		::System::Boolean HashChecked; // 0x22
+		::System::Boolean IsFileSizeSame; // 0x23
 		::System::Boolean NeedHashChecked; // 0x24
-		::System::UInt64 FileHash; // 0x28
-		::System::Int64 FileSize; // 0x30
+		::System::Int64 FileSize; // 0x28
+		::System::UInt64 FileHash; // 0x30
 
 		::System::Void _ctor(::Foundation::ParallelFileVerifier_FileInfoCheckResult* result)
 		{

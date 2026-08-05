@@ -3,7 +3,7 @@
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int NapVirtualCameraCore_AnimTagGroup_TypeDefinitionIndex = 34148;
+	inline static constexpr unsigned int NapVirtualCameraCore_AnimTagGroup_TypeDefinitionIndex = 34784;
 
 	enum class NapVirtualCameraCore_AnimTagGroup : ::System::Int32
 	{

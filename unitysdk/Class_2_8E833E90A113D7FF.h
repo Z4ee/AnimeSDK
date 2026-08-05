@@ -4,14 +4,14 @@
 
 namespace System { template <typename T> class Action_1; }
 
-#define CLASS_2_8E833E90A113D7FF_METHOD_2_B20ED6356A8A8501_OFFSET UNITYSDK_OFFSET(0x11FD3320)
-#define CLASS_2_8E833E90A113D7FF_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x11FD2F90)
-#define CLASS_2_8E833E90A113D7FF_METHOD_2_E7F26FE285113F92_OFFSET UNITYSDK_OFFSET(0x11FD2FE0)
-#define CLASS_2_8E833E90A113D7FF_METHOD_2_F150C5568638A32E_OFFSET UNITYSDK_OFFSET(0x11FD3180)
-#define CLASS_2_8E833E90A113D7FF_ONSTART_OFFSET UNITYSDK_OFFSET(0x11FD2F50)
-#define CLASS_2_8E833E90A113D7FF__CTOR_OFFSET UNITYSDK_OFFSET(0x11FD2FD0)
+#define CLASS_2_8E833E90A113D7FF_METHOD_2_B20ED6356A8A8501_OFFSET UNITYSDK_OFFSET(0xE213450)
+#define CLASS_2_8E833E90A113D7FF_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xE213400)
+#define CLASS_2_8E833E90A113D7FF_METHOD_2_E7F26FE285113F92_OFFSET UNITYSDK_OFFSET(0xE213780)
+#define CLASS_2_8E833E90A113D7FF_METHOD_2_F150C5568638A32E_OFFSET UNITYSDK_OFFSET(0xE2135E0)
+#define CLASS_2_8E833E90A113D7FF_ONSTART_OFFSET UNITYSDK_OFFSET(0xE2133C0)
+#define CLASS_2_8E833E90A113D7FF__CTOR_OFFSET UNITYSDK_OFFSET(0xE213440)
 
-inline static constexpr unsigned int Class_2_8E833E90A113D7FF_TypeDefinitionIndex = 80390;
+inline static constexpr unsigned int Class_2_8E833E90A113D7FF_TypeDefinitionIndex = 74636;
 
 class Class_2_8E833E90A113D7FF : public ::Class_1_C2937544035FD07F
 {
@@ -31,9 +31,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_8E833E90A113D7FF_METHOD_2_CA373AA1C7054598_OFFSET))(this);
 	}
 
-	::System::Void Method_2_E7F26FE285113F92(::System::Int32 a1, ::System::Int32 a2, ::System::Int64 a3, ::System::Int32 a4, ::System::Int32 a5, ::System::Int32 a6, ::System::Int32 a7)
+	::System::Void Method_2_B20ED6356A8A8501(::System::Int32 a1, ::System::Int32 a2, ::System::Int64 a3, ::System::Int32 a4, ::System::Int32 a5)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int64, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_2_8E833E90A113D7FF_METHOD_2_E7F26FE285113F92_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
+		return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int64, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_2_8E833E90A113D7FF_METHOD_2_B20ED6356A8A8501_OFFSET))(this, a1, a2, a3, a4, a5);
 	}
 
 	::System::Void Method_2_F150C5568638A32E(::System::Int32 a1, ::System::Int32 a2, ::System::Action_1<::System::Int64>* a3)
@@ -41,8 +41,8 @@ public:
 		return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Action_1<::System::Int64>*))((::PBYTE)hIl2Cpp + CLASS_2_8E833E90A113D7FF_METHOD_2_F150C5568638A32E_OFFSET))(this, a1, a2, a3);
 	}
 
-	::System::Void Method_2_B20ED6356A8A8501(::System::Int32 a1, ::System::Int32 a2, ::System::Int64 a3, ::System::Int32 a4, ::System::Int32 a5)
+	::System::Void Method_2_E7F26FE285113F92(::System::Int32 a1, ::System::Int32 a2, ::System::Int64 a3, ::System::Int32 a4, ::System::Int32 a5, ::System::Int32 a6, ::System::Int32 a7)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int64, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_2_8E833E90A113D7FF_METHOD_2_B20ED6356A8A8501_OFFSET))(this, a1, a2, a3, a4, a5);
+		return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int64, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_2_8E833E90A113D7FF_METHOD_2_E7F26FE285113F92_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 	}
 };

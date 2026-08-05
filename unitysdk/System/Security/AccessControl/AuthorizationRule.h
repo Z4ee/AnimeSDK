@@ -6,8 +6,8 @@
 
 namespace System::Security::Principal { class IdentityReference; }
 
-#define SYSTEM_SECURITY_ACCESSCONTROL_AUTHORIZATIONRULE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B9362C0)
-#define SYSTEM_SECURITY_ACCESSCONTROL_AUTHORIZATIONRULE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B936420)
+#define SYSTEM_SECURITY_ACCESSCONTROL_AUTHORIZATIONRULE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1CD530D0)
+#define SYSTEM_SECURITY_ACCESSCONTROL_AUTHORIZATIONRULE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD53230)
 
 namespace System::Security::AccessControl
 {
@@ -18,9 +18,9 @@ namespace System::Security::AccessControl
 	public:
 		::System::Security::Principal::IdentityReference* identity; // 0x10
 		::System::Boolean isInherited; // 0x18
-		::System::Security::AccessControl::InheritanceFlags inheritanceFlags; // 0x1C
+		::System::Int32 accessMask; // 0x1C
 		::System::Security::AccessControl::PropagationFlags propagationFlags; // 0x20
-		::System::Int32 accessMask; // 0x24
+		::System::Security::AccessControl::InheritanceFlags inheritanceFlags; // 0x24
 
 		::System::Void _ctor()
 		{

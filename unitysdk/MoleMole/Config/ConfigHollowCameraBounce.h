@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCAMERABOUNCE__CTOR_OFFSET UNITYSDK_OFFSET(0x144E0730)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCAMERABOUNCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD5D570)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowCameraBounce_TypeDefinitionIndex = 84635;
+	inline static constexpr unsigned int ConfigHollowCameraBounce_TypeDefinitionIndex = 89405;
 
 	class ConfigHollowCameraBounce : public ::System::Object
 	{

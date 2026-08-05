@@ -4,11 +4,11 @@
 
 class Class_1_413B2BDBE645DB66;
 
-inline static constexpr unsigned int Struct_2_68918411AEC7D5BB_TypeDefinitionIndex = 69042;
+inline static constexpr unsigned int Struct_2_68918411AEC7D5BB_TypeDefinitionIndex = 84061;
 
 struct alignas(8) Struct_2_68918411AEC7D5BB
 {
-	::Class_1_413B2BDBE645DB66* Field_2_0; // 0x10
-	::System::Single Field_2_1; // 0x18
-	::System::Boolean Field_2_2; // 0x1C
+	::Class_1_413B2BDBE645DB66* Field_2_1; // 0x10
+	::System::Single Field_2_0; // 0x18
+	::System::Boolean Field_2_7; // 0x1C
 };

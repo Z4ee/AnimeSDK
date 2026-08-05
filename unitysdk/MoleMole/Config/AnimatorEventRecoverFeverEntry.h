@@ -4,19 +4,19 @@
 
 namespace MoleMole::Config { class AnimatorEvent; }
 
-#define MOLEMOLE_CONFIG_ANIMATOREVENTRECOVERFEVERENTRY_CREATEANIMATIONEVENT_OFFSET UNITYSDK_OFFSET(0x1A0563F0)
-#define MOLEMOLE_CONFIG_ANIMATOREVENTRECOVERFEVERENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1A056470)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTRECOVERFEVERENTRY_CREATEANIMATIONEVENT_OFFSET UNITYSDK_OFFSET(0x177C3BB0)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTRECOVERFEVERENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x177C3C30)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AnimatorEventRecoverFeverEntry_TypeDefinitionIndex = 78687;
+	inline static constexpr unsigned int AnimatorEventRecoverFeverEntry_TypeDefinitionIndex = 60418;
 
 	class AnimatorEventRecoverFeverEntry : public ::MoleMole::Config::AnimatorEventEntry
 	{
 	public:
-		::System::Single Percentage; // 0x58
-		::System::Single Amount; // 0x5C
-		::System::Boolean IgnoreRatio; // 0x60
+		::System::Boolean IgnoreRatio; // 0x58
+		::System::Single Percentage; // 0x5C
+		::System::Single Amount; // 0x60
 
 		::System::Void _ctor()
 		{

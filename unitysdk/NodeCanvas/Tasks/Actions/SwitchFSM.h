@@ -7,13 +7,13 @@ namespace NodeCanvas::StateMachines { class FSM; }
 namespace NodeCanvas::StateMachines { class FSMOwner; }
 namespace System { class String; }
 
-#define NODECANVAS_TASKS_ACTIONS_SWITCHFSM_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1BC5FEE0)
-#define NODECANVAS_TASKS_ACTIONS_SWITCHFSM_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1BC5FF50)
-#define NODECANVAS_TASKS_ACTIONS_SWITCHFSM__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC60080)
+#define NODECANVAS_TASKS_ACTIONS_SWITCHFSM_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1DB37380)
+#define NODECANVAS_TASKS_ACTIONS_SWITCHFSM_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1DB373F0)
+#define NODECANVAS_TASKS_ACTIONS_SWITCHFSM__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB37520)
 
 namespace NodeCanvas::Tasks::Actions
 {
-	inline static constexpr unsigned int SwitchFSM_TypeDefinitionIndex = 29456;
+	inline static constexpr unsigned int SwitchFSM_TypeDefinitionIndex = 30274;
 
 	class SwitchFSM : public ::NodeCanvas::Framework::ActionTask_1<::NodeCanvas::StateMachines::FSMOwner*>
 	{

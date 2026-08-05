@@ -1,0 +1,46 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_EEA0111A28582B57.h"
+
+class Class_2_A4D62D05D5EA8464;
+namespace MoleMole { class UIControlCollection; }
+namespace UnityEngine::UI::Extension { class UILocalizationText; }
+
+#define CLASS_2_ECD1219EEF95A7C2_CLASS_2_CC03AAEE6FCC732C_40_METHOD_2_6A3AD666D3CC56B6_OFFSET UNITYSDK_OFFSET(0x14A24EB0)
+#define CLASS_2_ECD1219EEF95A7C2_CLASS_2_CC03AAEE6FCC732C_40_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x14A24EC0)
+#define CLASS_2_ECD1219EEF95A7C2_CLASS_2_CC03AAEE6FCC732C_40_METHOD_2_D33F8087E6D98A2B_OFFSET UNITYSDK_OFFSET(0x14A24EA0)
+#define CLASS_2_ECD1219EEF95A7C2_CLASS_2_CC03AAEE6FCC732C_40_METHOD_2_E9A21D244C9D6B36_OFFSET UNITYSDK_OFFSET(0x14A24E00)
+#define CLASS_2_ECD1219EEF95A7C2_CLASS_2_CC03AAEE6FCC732C_40__CTOR_OFFSET UNITYSDK_OFFSET(0x14A24E90)
+
+inline static constexpr unsigned int Class_2_ECD1219EEF95A7C2_Class_2_CC03AAEE6FCC732C_40_TypeDefinitionIndex = 89873;
+
+class Class_2_ECD1219EEF95A7C2_Class_2_CC03AAEE6FCC732C_40 : public ::Class_1_EEA0111A28582B57
+{
+public:
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_0; // 0x18
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_ECD1219EEF95A7C2_CLASS_2_CC03AAEE6FCC732C_40__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_2_E9A21D244C9D6B36(::Class_2_A4D62D05D5EA8464* a1, ::MoleMole::UIControlCollection* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_2_A4D62D05D5EA8464*, ::MoleMole::UIControlCollection*))((::PBYTE)hIl2Cpp + CLASS_2_ECD1219EEF95A7C2_CLASS_2_CC03AAEE6FCC732C_40_METHOD_2_E9A21D244C9D6B36_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_2_D33F8087E6D98A2B(::UnityEngine::UI::Extension::UILocalizationText* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::Extension::UILocalizationText*))((::PBYTE)hIl2Cpp + CLASS_2_ECD1219EEF95A7C2_CLASS_2_CC03AAEE6FCC732C_40_METHOD_2_D33F8087E6D98A2B_OFFSET))(this, a1);
+	}
+
+	::UnityEngine::UI::Extension::UILocalizationText* Method_2_6A3AD666D3CC56B6()
+	{
+		return ((::UnityEngine::UI::Extension::UILocalizationText*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_ECD1219EEF95A7C2_CLASS_2_CC03AAEE6FCC732C_40_METHOD_2_6A3AD666D3CC56B6_OFFSET))(this);
+	}
+
+	::System::Void Method_2_C8903A36ECBA4078(::Class_2_A4D62D05D5EA8464* a1, ::MoleMole::UIControlCollection* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_2_A4D62D05D5EA8464*, ::MoleMole::UIControlCollection*))((::PBYTE)hIl2Cpp + CLASS_2_ECD1219EEF95A7C2_CLASS_2_CC03AAEE6FCC732C_40_METHOD_2_C8903A36ECBA4078_OFFSET))(this, a1, a2);
+	}
+};

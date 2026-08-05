@@ -5,12 +5,12 @@
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas::Nodes { class LatchInt; }
 
-#define FLOWCANVAS_NODES_LATCHINT___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC417F0)
-#define FLOWCANVAS_NODES_LATCHINT___C__DISPLAYCLASS2_0__REGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x1BC41800)
+#define FLOWCANVAS_NODES_LATCHINT___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB24B60)
+#define FLOWCANVAS_NODES_LATCHINT___C__DISPLAYCLASS2_0__REGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x1DB24B70)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LatchInt___c__DisplayClass2_0_TypeDefinitionIndex = 29435;
+	inline static constexpr unsigned int LatchInt___c__DisplayClass2_0_TypeDefinitionIndex = 30873;
 
 	class LatchInt___c__DisplayClass2_0 : public ::System::Object
 	{

@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_SHAREBTNCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x173876E0)
+#define MOLEMOLE_SHAREBTNCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1792DE30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ShareBtnContext_TypeDefinitionIndex = 61308;
+	inline static constexpr unsigned int ShareBtnContext_TypeDefinitionIndex = 79025;
 
 	class ShareBtnContext : public ::MoleMole::UIControllerContextBase
 	{

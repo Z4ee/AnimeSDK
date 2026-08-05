@@ -9,26 +9,26 @@ class Class_1_8377BAB19A574A40;
 namespace MoleMole::Battle { class Entity; }
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_ANIMATORZONEMODIFYFRICTION_ONZONEENTER_OFFSET UNITYSDK_OFFSET(0x17D3E350)
-#define MOLEMOLE_CONFIG_ANIMATORZONEMODIFYFRICTION_ONZONEEXIT_OFFSET UNITYSDK_OFFSET(0x17D3E6F0)
-#define MOLEMOLE_CONFIG_ANIMATORZONEMODIFYFRICTION__CTOR_OFFSET UNITYSDK_OFFSET(0x17D3EA60)
-#define MOLEMOLE_CONFIG_ANIMATORZONEMODIFYFRICTION___BASE_ONZONEENTER_OFFSET UNITYSDK_OFFSET(0x17D3EA70)
-#define MOLEMOLE_CONFIG_ANIMATORZONEMODIFYFRICTION___BASE_ONZONEEXIT_OFFSET UNITYSDK_OFFSET(0x17D3EB20)
+#define MOLEMOLE_CONFIG_ANIMATORZONEMODIFYFRICTION_ONZONEENTER_OFFSET UNITYSDK_OFFSET(0x1728DA10)
+#define MOLEMOLE_CONFIG_ANIMATORZONEMODIFYFRICTION_ONZONEEXIT_OFFSET UNITYSDK_OFFSET(0x1728DDB0)
+#define MOLEMOLE_CONFIG_ANIMATORZONEMODIFYFRICTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1728E120)
+#define MOLEMOLE_CONFIG_ANIMATORZONEMODIFYFRICTION___BASE_ONZONEENTER_OFFSET UNITYSDK_OFFSET(0x1728E130)
+#define MOLEMOLE_CONFIG_ANIMATORZONEMODIFYFRICTION___BASE_ONZONEEXIT_OFFSET UNITYSDK_OFFSET(0x1728E1E0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AnimatorZoneModifyFriction_TypeDefinitionIndex = 73160;
+	inline static constexpr unsigned int AnimatorZoneModifyFriction_TypeDefinitionIndex = 58998;
 
 	class AnimatorZoneModifyFriction : public ::MoleMole::Config::AnimatorZone
 	{
 	public:
 		// static const ::System::String* DefaultControlTag; // 0x0
 		::System::String* Tag; // 0x50
-		::UnityEngine::PhysicMaterialCombine overrideFrictionCombine; // 0x58
-		::System::Single StaticFriction; // 0x5C
+		::System::Boolean isOverrideFrictionType; // 0x58
+		::UnityEngine::PhysicMaterialCombine overrideFrictionCombine; // 0x5C
 		::System::Single DynamicFriction; // 0x60
 		::MoleMole::Config::AnimatorZoneModifyFriction_ColliderType ColliderKind; // 0x64
-		::System::Boolean isOverrideFrictionType; // 0x68
+		::System::Single StaticFriction; // 0x68
 
 		::System::Void _ctor()
 		{

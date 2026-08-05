@@ -6,16 +6,16 @@ namespace MoleMole { class ConfigMaterialPropertyModifier; }
 namespace MoleMole::Config { class ConfigMaterialPropertyModifierKeyBelongMap; }
 namespace System { class String; }
 
-#define CLASS_1_0CDF082B369A0DD8_CLASS_1_5028FC77C91D042C_METHOD_1_2CF1C327F9194435_OFFSET UNITYSDK_OFFSET(0x16806A30)
-#define CLASS_1_0CDF082B369A0DD8_CLASS_1_5028FC77C91D042C__CTOR_OFFSET UNITYSDK_OFFSET(0x16806A20)
+#define CLASS_1_0CDF082B369A0DD8_CLASS_1_5028FC77C91D042C_METHOD_1_2CF1C327F9194435_OFFSET UNITYSDK_OFFSET(0x14DD5A30)
+#define CLASS_1_0CDF082B369A0DD8_CLASS_1_5028FC77C91D042C__CTOR_OFFSET UNITYSDK_OFFSET(0x14DD5A20)
 
-inline static constexpr unsigned int Class_1_0CDF082B369A0DD8_Class_1_5028FC77C91D042C_TypeDefinitionIndex = 71535;
+inline static constexpr unsigned int Class_1_0CDF082B369A0DD8_Class_1_5028FC77C91D042C_TypeDefinitionIndex = 80194;
 
 class Class_1_0CDF082B369A0DD8_Class_1_5028FC77C91D042C : public ::System::Object
 {
 public:
-	::MoleMole::ConfigMaterialPropertyModifier* Field_1_0; // 0x10
-	::System::String* Field_1_1; // 0x18
+	::MoleMole::ConfigMaterialPropertyModifier* Field_1_1; // 0x10
+	::System::String* Field_1_0; // 0x18
 
 	::System::Void _ctor()
 	{

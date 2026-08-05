@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIActivityGoldenWeekV2WidgetController; }
 
-#define MOLEMOLE_UIACTIVITYGOLDENWEEKV2WIDGETCONTROLLER___C__DISPLAYCLASS22_0__CTOR_OFFSET UNITYSDK_OFFSET(0x12BFDC50)
-#define MOLEMOLE_UIACTIVITYGOLDENWEEKV2WIDGETCONTROLLER___C__DISPLAYCLASS22_0__ONCLICKTAB_G__DOCHANGETAB_0_OFFSET UNITYSDK_OFFSET(0x12BFDC60)
+#define MOLEMOLE_UIACTIVITYGOLDENWEEKV2WIDGETCONTROLLER___C__DISPLAYCLASS22_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1387D8F0)
+#define MOLEMOLE_UIACTIVITYGOLDENWEEKV2WIDGETCONTROLLER___C__DISPLAYCLASS22_0__ONCLICKTAB_G__DOCHANGETAB_0_OFFSET UNITYSDK_OFFSET(0x1387D900)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityGoldenWeekV2WidgetController___c__DisplayClass22_0_TypeDefinitionIndex = 82049;
+	inline static constexpr unsigned int UIActivityGoldenWeekV2WidgetController___c__DisplayClass22_0_TypeDefinitionIndex = 59803;
 
 	class UIActivityGoldenWeekV2WidgetController___c__DisplayClass22_0 : public ::System::Object
 	{

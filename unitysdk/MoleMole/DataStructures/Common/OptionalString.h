@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_DATASTRUCTURES_COMMON_OPTIONALSTRING__CTOR_OFFSET UNITYSDK_OFFSET(0x1E5B23D0)
+#define MOLEMOLE_DATASTRUCTURES_COMMON_OPTIONALSTRING__CTOR_OFFSET UNITYSDK_OFFSET(0x1F9BDCC0)
 
 namespace MoleMole::DataStructures::Common
 {
-	inline static constexpr unsigned int OptionalString_TypeDefinitionIndex = 28050;
+	inline static constexpr unsigned int OptionalString_TypeDefinitionIndex = 28799;
 
 	class OptionalString : public ::MoleMole::DataStructures::Common::Optional_1<::System::String*>
 	{

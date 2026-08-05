@@ -3,13 +3,13 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SurfCameraContext_CameraSide_TypeDefinitionIndex = 76367;
+	inline static constexpr unsigned int SurfCameraContext_CameraSide_TypeDefinitionIndex = 51818;
 
 	enum class SurfCameraContext_CameraSide : ::System::Int32
 	{
-		LeftToRight = 1,
+		Right = 3,
 		RightToLeft = 2,
 		Left = 0,
-		Right = 3,
+		LeftToRight = 1,
 	};
 }

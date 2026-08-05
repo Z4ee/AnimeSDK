@@ -1,5 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/UI/Extension/UITextRevealQuadRange.h"
 #include "unitysdk/UnityEngine/UI/TextItalicAdobeStyle.h"
 #include "unitysdk/UnityEngine/UIVertex.h"
 
@@ -9,22 +10,25 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine::UI { class VertexHelper; }
 
-#define POPTEXT_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BB25510)
-#define POPTEXT_GET_ISFINISH_OFFSET UNITYSDK_OFFSET(0x1BB25210)
-#define POPTEXT_GET_TIMERINTERVAL_OFFSET UNITYSDK_OFFSET(0x1BB251F0)
-#define POPTEXT_ONFINISH_OFFSET UNITYSDK_OFFSET(0x1BB25470)
-#define POPTEXT_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0x1BB257A0)
-#define POPTEXT_REPLAY_OFFSET UNITYSDK_OFFSET(0x1BB26150)
-#define POPTEXT_RESOLVESPEED_OFFSET UNITYSDK_OFFSET(0x1BB25390)
-#define POPTEXT_SETFINISH_OFFSET UNITYSDK_OFFSET(0x1BB25420)
-#define POPTEXT_SETTEXT_OFFSET UNITYSDK_OFFSET(0x1BB25220)
-#define POPTEXT_SETTIMER_OFFSET UNITYSDK_OFFSET(0x1BB252A0)
-#define POPTEXT_UPDATE_OFFSET UNITYSDK_OFFSET(0x1BB255D0)
-#define POPTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB26190)
-#define POPTEXT___BASE_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BB26290)
-#define POPTEXT___BASE_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0x1BB262A0)
+#define POPTEXT_AWAKE_OFFSET UNITYSDK_OFFSET(0x1CB8FEF0)
+#define POPTEXT_BUILDANIMATEDVERTEXSTREAM_OFFSET UNITYSDK_OFFSET(0x1CB902F0)
+#define POPTEXT_GET_ISFINISH_OFFSET UNITYSDK_OFFSET(0x1CB8FBF0)
+#define POPTEXT_GET_TIMERINTERVAL_OFFSET UNITYSDK_OFFSET(0x1CB8FBD0)
+#define POPTEXT_ONFINISH_OFFSET UNITYSDK_OFFSET(0x1CB8FE50)
+#define POPTEXT_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0x1CB90A80)
+#define POPTEXT_REPLAY_OFFSET UNITYSDK_OFFSET(0x1CB90EE0)
+#define POPTEXT_RESOLVEREVEALINDEX_OFFSET UNITYSDK_OFFSET(0x1CB90200)
+#define POPTEXT_RESOLVESPEED_OFFSET UNITYSDK_OFFSET(0x1CB8FD70)
+#define POPTEXT_SETFINISH_OFFSET UNITYSDK_OFFSET(0x1CB8FE00)
+#define POPTEXT_SETTEXT_OFFSET UNITYSDK_OFFSET(0x1CB8FC00)
+#define POPTEXT_SETTIMER_OFFSET UNITYSDK_OFFSET(0x1CB8FC80)
+#define POPTEXT_TRYCOLLECTREVEALRANGES_OFFSET UNITYSDK_OFFSET(0x1CB90180)
+#define POPTEXT_UPDATE_OFFSET UNITYSDK_OFFSET(0x1CB8FFB0)
+#define POPTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB90F20)
+#define POPTEXT___BASE_AWAKE_OFFSET UNITYSDK_OFFSET(0x1CB91020)
+#define POPTEXT___BASE_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0x1CB91030)
 
-inline static constexpr unsigned int PopText_TypeDefinitionIndex = 85937;
+inline static constexpr unsigned int PopText_TypeDefinitionIndex = 41907;
 
 class PopText : public ::UnityEngine::UI::TextItalicAdobeStyle
 {
@@ -86,6 +90,21 @@ public:
 	::System::Void OnFinish()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + POPTEXT_ONFINISH_OFFSET))(this);
+	}
+
+	::System::Boolean TryCollectRevealRanges(::System::Collections::Generic::List_1<::UnityEngine::UI::Extension::UITextRevealQuadRange>* revealQuadRanges)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::UI::Extension::UITextRevealQuadRange>*))((::PBYTE)hIl2Cpp + POPTEXT_TRYCOLLECTREVEALRANGES_OFFSET))(this, revealQuadRanges);
+	}
+
+	static ::System::Int32 ResolveRevealIndex(::System::Int32 quadIndex, ::System::Collections::Generic::List_1<::UnityEngine::UI::Extension::UITextRevealQuadRange>* revealQuadRanges, ::System::Int32& rangeCursor)
+	{
+		return ((::System::Int32(*)(::System::Int32, ::System::Collections::Generic::List_1<::UnityEngine::UI::Extension::UITextRevealQuadRange>*, ::System::Int32&))((::PBYTE)hIl2Cpp + POPTEXT_RESOLVEREVEALINDEX_OFFSET))(quadIndex, revealQuadRanges, rangeCursor);
+	}
+
+	::System::Void BuildAnimatedVertexStream(::System::Int32 quadCount, ::System::Boolean hasRevealRanges, ::System::Collections::Generic::List_1<::UnityEngine::UI::Extension::UITextRevealQuadRange>* revealQuadRanges)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Boolean, ::System::Collections::Generic::List_1<::UnityEngine::UI::Extension::UITextRevealQuadRange>*))((::PBYTE)hIl2Cpp + POPTEXT_BUILDANIMATEDVERTEXSTREAM_OFFSET))(this, quadCount, hasRevealRanges, revealQuadRanges);
 	}
 
 	::System::Void OnPopulateMesh(::UnityEngine::UI::VertexHelper* toFill)

@@ -6,19 +6,19 @@ namespace MoleMole { class MonoSpawnPoint; }
 namespace MoleMole::FlowCanvas::Nodes { class LDLevelZeroEnterLoopSceneNode___c__DisplayClass8_0; }
 namespace System::Collections { class IEnumerator; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDLEVELZEROENTERLOOPSCENENODE___C__DISPLAYCLASS8_1__CTOR_OFFSET UNITYSDK_OFFSET(0x17E6CF20)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDLEVELZEROENTERLOOPSCENENODE___C__DISPLAYCLASS8_1___TRANSFERAVATARTOLOOPSCENE_G___DELAYSET_1_OFFSET UNITYSDK_OFFSET(0x17E6D190)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDLEVELZEROENTERLOOPSCENENODE___C__DISPLAYCLASS8_1___TRANSFERAVATARTOLOOPSCENE_G___SETPOS_0_OFFSET UNITYSDK_OFFSET(0x17E6CF30)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDLEVELZEROENTERLOOPSCENENODE___C__DISPLAYCLASS8_1__CTOR_OFFSET UNITYSDK_OFFSET(0x19BDD7A0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDLEVELZEROENTERLOOPSCENENODE___C__DISPLAYCLASS8_1___TRANSFERAVATARTOLOOPSCENE_G___DELAYSET_1_OFFSET UNITYSDK_OFFSET(0x19BDD9F0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDLEVELZEROENTERLOOPSCENENODE___C__DISPLAYCLASS8_1___TRANSFERAVATARTOLOOPSCENE_G___SETPOS_0_OFFSET UNITYSDK_OFFSET(0x19BDD7B0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDLevelZeroEnterLoopSceneNode___c__DisplayClass8_1_TypeDefinitionIndex = 63837;
+	inline static constexpr unsigned int LDLevelZeroEnterLoopSceneNode___c__DisplayClass8_1_TypeDefinitionIndex = 56969;
 
 	class LDLevelZeroEnterLoopSceneNode___c__DisplayClass8_1 : public ::System::Object
 	{
 	public:
-		::MoleMole::FlowCanvas::Nodes::LDLevelZeroEnterLoopSceneNode___c__DisplayClass8_0* CS___8__locals1; // 0x10
-		::MoleMole::MonoSpawnPoint* waitSpawn; // 0x18
+		::MoleMole::MonoSpawnPoint* waitSpawn; // 0x10
+		::MoleMole::FlowCanvas::Nodes::LDLevelZeroEnterLoopSceneNode___c__DisplayClass8_0* CS___8__locals1; // 0x18
 
 		::System::Void _ctor()
 		{

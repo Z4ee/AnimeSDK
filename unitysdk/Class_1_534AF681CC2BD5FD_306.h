@@ -2,10 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_3_F78D134D9EB09E5B;
+class Class_2_3BB4FDB082E23A99;
 
-inline static constexpr unsigned int Class_1_534AF681CC2BD5FD_306_TypeDefinitionIndex = 64694;
+inline static constexpr unsigned int Class_1_534AF681CC2BD5FD_306_TypeDefinitionIndex = 89072;
 
+template <typename T>
 class Class_1_534AF681CC2BD5FD_306 : public ::System::Object
 {
 public:

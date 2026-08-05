@@ -3,7 +3,7 @@
 
 namespace ICSharpCode::SharpZipLib::Zip
 {
-	inline static constexpr unsigned int FileUpdateMode_TypeDefinitionIndex = 6865;
+	inline static constexpr unsigned int FileUpdateMode_TypeDefinitionIndex = 6869;
 
 	enum class FileUpdateMode : ::System::Int32
 	{

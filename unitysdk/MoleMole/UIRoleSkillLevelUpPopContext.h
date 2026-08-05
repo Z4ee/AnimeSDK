@@ -5,11 +5,11 @@
 
 class Class_2_1824EF69C8E376A3;
 
-#define MOLEMOLE_UIROLESKILLLEVELUPPOPCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x17B838B0)
+#define MOLEMOLE_UIROLESKILLLEVELUPPOPCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16AA20B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRoleSkillLevelUpPopContext_TypeDefinitionIndex = 57546;
+	inline static constexpr unsigned int UIRoleSkillLevelUpPopContext_TypeDefinitionIndex = 43189;
 
 	class UIRoleSkillLevelUpPopContext : public ::MoleMole::UIControllerContextBase
 	{

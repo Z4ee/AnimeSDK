@@ -8,10 +8,10 @@ namespace System::Xml::Schema { class InteriorNode; }
 namespace System::Xml::Schema { class Positions; }
 namespace System::Xml::Schema { class SymbolsDictionary; }
 
-#define SYSTEM_XML_SCHEMA_LEAFRANGENODE_EXPANDTREE_OFFSET UNITYSDK_OFFSET(0x1D9346A0)
-#define SYSTEM_XML_SCHEMA_LEAFRANGENODE_GET_ISRANGENODE_OFFSET UNITYSDK_OFFSET(0x1D934690)
-#define SYSTEM_XML_SCHEMA_LEAFRANGENODE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1D934670)
-#define SYSTEM_XML_SCHEMA_LEAFRANGENODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D934630)
+#define SYSTEM_XML_SCHEMA_LEAFRANGENODE_EXPANDTREE_OFFSET UNITYSDK_OFFSET(0x1ECA6D70)
+#define SYSTEM_XML_SCHEMA_LEAFRANGENODE_GET_ISRANGENODE_OFFSET UNITYSDK_OFFSET(0x1ECA6D60)
+#define SYSTEM_XML_SCHEMA_LEAFRANGENODE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1ECA6D40)
+#define SYSTEM_XML_SCHEMA_LEAFRANGENODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1ECA6D00)
 
 namespace System::Xml::Schema
 {
@@ -21,8 +21,8 @@ namespace System::Xml::Schema
 	{
 	public:
 		::System::Xml::Schema::BitSet* nextIteration; // 0x18
-		::System::Decimal min; // 0x20
-		::System::Decimal max; // 0x30
+		::System::Decimal max; // 0x20
+		::System::Decimal min; // 0x30
 
 		::System::Void _ctor(::System::Decimal min, ::System::Decimal max)
 		{

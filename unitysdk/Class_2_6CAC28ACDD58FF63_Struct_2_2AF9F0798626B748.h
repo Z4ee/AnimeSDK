@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_5887222B9AE38D34_2.h"
+#include "unitysdk/Struct_2_5887222B9AE38D34.h"
 #include "unitysdk/System/Runtime/CompilerServices/AsyncVoidMethodBuilder.h"
 #include "unitysdk/System/Runtime/CompilerServices/TaskAwaiter_1.h"
 #include "unitysdk/System/ValueType.h"
@@ -12,21 +12,21 @@ namespace System::Net { class HttpWebRequest; }
 namespace System::Net { class WebResponse; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define CLASS_2_6CAC28ACDD58FF63_STRUCT_2_2AF9F0798626B748_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x78D360)
-#define CLASS_2_6CAC28ACDD58FF63_STRUCT_2_2AF9F0798626B748_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x5B0AE0)
+#define CLASS_2_6CAC28ACDD58FF63_STRUCT_2_2AF9F0798626B748_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x81CA60)
+#define CLASS_2_6CAC28ACDD58FF63_STRUCT_2_2AF9F0798626B748_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x59F4E0)
 
-inline static constexpr unsigned int Class_2_6CAC28ACDD58FF63_Struct_2_2AF9F0798626B748_TypeDefinitionIndex = 58017;
+inline static constexpr unsigned int Class_2_6CAC28ACDD58FF63_Struct_2_2AF9F0798626B748_TypeDefinitionIndex = 47174;
 
 struct alignas(8) Class_2_6CAC28ACDD58FF63_Struct_2_2AF9F0798626B748
 {
-	::System::Runtime::CompilerServices::AsyncVoidMethodBuilder Field_2_1; // 0x10
-	::Class_2_6CAC28ACDD58FF63_Class_1_C7030828536840A6* Field_2_4; // 0x30
-	::System::String* Field_2_2; // 0x38
-	::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Net::WebResponse*> Field_2_7; // 0x40
-	::System::Action_1<::Struct_2_5887222B9AE38D34_2>* Field_2_5; // 0x48
-	::System::Net::HttpWebRequest* Field_2_6; // 0x50
-	::System::Int32 Field_2_0; // 0x58
-	::System::Boolean Field_2_3; // 0x5C
+	::System::Runtime::CompilerServices::AsyncVoidMethodBuilder Field_2_0; // 0x10
+	::Class_2_6CAC28ACDD58FF63_Class_1_C7030828536840A6* Field_2_5; // 0x30
+	::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Net::WebResponse*> Field_2_10; // 0x38
+	::System::Action_1<::Struct_2_5887222B9AE38D34>* Field_2_4; // 0x40
+	::System::Net::HttpWebRequest* Field_2_11; // 0x48
+	::System::String* Field_2_7; // 0x50
+	::System::Int32 Field_2_1; // 0x58
+	::System::Boolean Field_2_6; // 0x5C
 
 	::System::Void MoveNext()
 	{

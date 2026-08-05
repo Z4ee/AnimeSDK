@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class AnimationClip; }
 
-#define MOLEMOLE_ACTIVITYUNITYANIMATIONREFERENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x13464590)
+#define MOLEMOLE_ACTIVITYUNITYANIMATIONREFERENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1482F920)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ActivityUnityAnimationReference_TypeDefinitionIndex = 49542;
+	inline static constexpr unsigned int ActivityUnityAnimationReference_TypeDefinitionIndex = 48513;
 
 	class ActivityUnityAnimationReference : public ::System::Object
 	{

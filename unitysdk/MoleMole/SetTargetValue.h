@@ -14,37 +14,37 @@ namespace MoleMole { class SharedGameEntity; }
 namespace MoleMole::Battle { class Entity; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_SETTARGETVALUE_COLLECTTARGETENTITYTAGS_OFFSET UNITYSDK_OFFSET(0x130461F0)
-#define MOLEMOLE_SETTARGETVALUE_FINDALLALLIEDENTITY_OFFSET UNITYSDK_OFFSET(0x13045840)
-#define MOLEMOLE_SETTARGETVALUE_FINDALLENEMYENTITY_OFFSET UNITYSDK_OFFSET(0x130459C0)
-#define MOLEMOLE_SETTARGETVALUE_FINDALLNEUTRALENTITY_OFFSET UNITYSDK_OFFSET(0x13045B50)
-#define MOLEMOLE_SETTARGETVALUE_FINDALLSELECTTARGET_OFFSET UNITYSDK_OFFSET(0x13045F80)
-#define MOLEMOLE_SETTARGETVALUE_FINDLOCALAVATAR_OFFSET UNITYSDK_OFFSET(0x13045CE0)
-#define MOLEMOLE_SETTARGETVALUE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x13045000)
-#define MOLEMOLE_SETTARGETVALUE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x130451C0)
-#define MOLEMOLE_SETTARGETVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x13046450)
-#define MOLEMOLE_SETTARGETVALUE___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x130466C0)
-#define MOLEMOLE_SETTARGETVALUE___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x13046750)
+#define MOLEMOLE_SETTARGETVALUE_COLLECTTARGETENTITYTAGS_OFFSET UNITYSDK_OFFSET(0x173A4300)
+#define MOLEMOLE_SETTARGETVALUE_FINDALLALLIEDENTITY_OFFSET UNITYSDK_OFFSET(0x173A3960)
+#define MOLEMOLE_SETTARGETVALUE_FINDALLENEMYENTITY_OFFSET UNITYSDK_OFFSET(0x173A3AE0)
+#define MOLEMOLE_SETTARGETVALUE_FINDALLNEUTRALENTITY_OFFSET UNITYSDK_OFFSET(0x173A3C60)
+#define MOLEMOLE_SETTARGETVALUE_FINDALLSELECTTARGET_OFFSET UNITYSDK_OFFSET(0x173A4090)
+#define MOLEMOLE_SETTARGETVALUE_FINDLOCALAVATAR_OFFSET UNITYSDK_OFFSET(0x173A3DF0)
+#define MOLEMOLE_SETTARGETVALUE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x173A3110)
+#define MOLEMOLE_SETTARGETVALUE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x173A32E0)
+#define MOLEMOLE_SETTARGETVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x173A4570)
+#define MOLEMOLE_SETTARGETVALUE___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x173A47D0)
+#define MOLEMOLE_SETTARGETVALUE___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x173A4860)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SetTargetValue_TypeDefinitionIndex = 87632;
+	inline static constexpr unsigned int SetTargetValue_TypeDefinitionIndex = 76463;
 
 	class SetTargetValue : public ::BehaviorDesigner::Runtime::Tasks::Action
 	{
 	public:
-		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x58
-		::Il2CppArray<::MoleMole::Config::MonsterFunctionType>* monsterFunctionTypeArray; // 0x60
-		::System::Collections::Generic::List_1<::MoleMole::Config::TeamRelationship>* alliedReleationShipList; // 0x68
-		::System::Collections::Generic::List_1<::System::UInt32>* enemyEntityList; // 0x70
-		::MoleMole::Battle::Entity* ownerEntity; // 0x78
-		::System::Collections::Generic::List_1<::MoleMole::Config::TeamRelationship>* neutralRelationShipList; // 0x80
-		::System::Collections::Generic::List_1<::MoleMole::Config::TeamRelationship>* relationShipList; // 0x88
-		::Class_3_E2819F45333A39BF* characterBattleData; // 0x90
-		::MoleMole::TargetValueType valueType; // 0x98
-		::MoleMole::Config::TargetValueModifyFunc ModifyType; // 0x9C
+		::Il2CppArray<::MoleMole::Config::MonsterFunctionType>* monsterFunctionTypeArray; // 0x58
+		::System::Collections::Generic::List_1<::MoleMole::Config::TeamRelationship>* relationShipList; // 0x60
+		::System::Collections::Generic::List_1<::System::UInt32>* enemyEntityList; // 0x68
+		::System::Collections::Generic::List_1<::MoleMole::Config::TeamRelationship>* alliedReleationShipList; // 0x70
+		::System::Collections::Generic::List_1<::MoleMole::Config::TeamRelationship>* neutralRelationShipList; // 0x78
+		::MoleMole::Battle::Entity* ownerEntity; // 0x80
+		::Class_3_E2819F45333A39BF* characterBattleData; // 0x88
+		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x90
+		::MoleMole::SetTargetValue_SelectTargeting Target; // 0x98
+		::MoleMole::TargetValueType valueType; // 0x9C
 		::System::Single modifyValue; // 0xA0
-		::MoleMole::SetTargetValue_SelectTargeting Target; // 0xA4
+		::MoleMole::Config::TargetValueModifyFunc ModifyType; // 0xA4
 
 		::System::Void _ctor()
 		{

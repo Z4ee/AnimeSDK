@@ -5,7 +5,7 @@
 namespace System { class String; }
 namespace System::Net { class HeaderParser; }
 
-#define SYSTEM_NET_HEADERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1CD280)
+#define SYSTEM_NET_HEADERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1D622A50)
 
 namespace System::Net
 {
@@ -16,9 +16,9 @@ namespace System::Net
 	public:
 		::System::Net::HeaderParser* Parser; // 0x10
 		::System::String* HeaderName; // 0x18
-		::System::Boolean IsResponseRestricted; // 0x20
+		::System::Boolean IsRequestRestricted; // 0x20
 		::System::Boolean AllowMultiValues; // 0x21
-		::System::Boolean IsRequestRestricted; // 0x22
+		::System::Boolean IsResponseRestricted; // 0x22
 
 		::System::Void _ctor(::System::String* name, ::System::Boolean requestRestricted, ::System::Boolean responseRestricted, ::System::Boolean multi, ::System::Net::HeaderParser* p)
 		{

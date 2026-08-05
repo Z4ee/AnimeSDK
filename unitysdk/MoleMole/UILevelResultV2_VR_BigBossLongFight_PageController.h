@@ -3,12 +3,12 @@
 #include "unitysdk/Enum_3_A3F38457E644339A.h"
 #include "unitysdk/MoleMole/UILevelResultV2_VR_BossLongFight_PageController.h"
 
-#define MOLEMOLE_UILEVELRESULTV2_VR_BIGBOSSLONGFIGHT_PAGECONTROLLER_GET_REWARDBUFFGAMETAG_OFFSET UNITYSDK_OFFSET(0x15279180)
-#define MOLEMOLE_UILEVELRESULTV2_VR_BIGBOSSLONGFIGHT_PAGECONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x15279190)
+#define MOLEMOLE_UILEVELRESULTV2_VR_BIGBOSSLONGFIGHT_PAGECONTROLLER_GET_REWARDBUFFGAMETAG_OFFSET UNITYSDK_OFFSET(0x16515210)
+#define MOLEMOLE_UILEVELRESULTV2_VR_BIGBOSSLONGFIGHT_PAGECONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x16515220)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UILevelResultV2_VR_BigBossLongFight_PageController_TypeDefinitionIndex = 42873;
+	inline static constexpr unsigned int UILevelResultV2_VR_BigBossLongFight_PageController_TypeDefinitionIndex = 64344;
 
 	class UILevelResultV2_VR_BigBossLongFight_PageController : public ::MoleMole::UILevelResultV2_VR_BossLongFight_PageController
 	{

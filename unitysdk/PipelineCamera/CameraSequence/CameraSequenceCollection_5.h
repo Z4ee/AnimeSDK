@@ -31,7 +31,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace PipelineCamera::CameraSequence
 {
-	inline static constexpr unsigned int CameraSequenceCollection_5_TypeDefinitionIndex = 37784;
+	inline static constexpr unsigned int CameraSequenceCollection_5_TypeDefinitionIndex = 38445;
 
 	template <typename TSequence, typename TSegment, typename TTrack, typename TAdditiveTrack, typename T>
 	class CameraSequenceCollection_5 : public ::Sirenix::OdinInspector::SerializedScriptableObject

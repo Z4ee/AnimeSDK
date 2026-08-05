@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace Utf8Json::Internal
 {
-	inline static constexpr unsigned int ByteArrayStringHashTable_1_Entry_TypeDefinitionIndex = 91234;
+	inline static constexpr unsigned int ByteArrayStringHashTable_1_Entry_TypeDefinitionIndex = 95167;
 
 	template <typename T>
 	struct ByteArrayStringHashTable_1_Entry

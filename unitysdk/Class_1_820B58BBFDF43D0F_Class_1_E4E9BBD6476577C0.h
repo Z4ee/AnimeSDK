@@ -8,17 +8,17 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_820B58BBFDF43D0F_CLASS_1_E4E9BBD6476577C0__CTOR_OFFSET UNITYSDK_OFFSET(0x1285FA50)
+#define CLASS_1_820B58BBFDF43D0F_CLASS_1_E4E9BBD6476577C0__CTOR_OFFSET UNITYSDK_OFFSET(0x14789210)
 
-inline static constexpr unsigned int Class_1_820B58BBFDF43D0F_Class_1_E4E9BBD6476577C0_TypeDefinitionIndex = 40973;
+inline static constexpr unsigned int Class_1_820B58BBFDF43D0F_Class_1_E4E9BBD6476577C0_TypeDefinitionIndex = 58886;
 
 class Class_1_820B58BBFDF43D0F_Class_1_E4E9BBD6476577C0 : public ::System::Object
 {
 public:
-	::UnityEngine::Transform* Field_1_2; // 0x10
-	::System::Collections::Generic::Dictionary_2<::Foundation::AssetPath, ::UnityEngine::GameObject*>* Field_1_0; // 0x18
-	::System::Action_1<::System::Collections::Generic::Dictionary_2<::Foundation::AssetPath, ::UnityEngine::GameObject*>*>* Field_1_3; // 0x20
-	::System::Boolean Field_1_1; // 0x28
+	::System::Action_1<::System::Collections::Generic::Dictionary_2<::Foundation::AssetPath, ::UnityEngine::GameObject*>*>* Field_1_0; // 0x10
+	::System::Collections::Generic::Dictionary_2<::Foundation::AssetPath, ::UnityEngine::GameObject*>* Field_1_3; // 0x18
+	::UnityEngine::Transform* Field_1_1; // 0x20
+	::System::Boolean Field_1_2; // 0x28
 
 	::System::Void _ctor()
 	{

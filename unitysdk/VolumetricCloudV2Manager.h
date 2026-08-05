@@ -10,38 +10,38 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Camera; }
 namespace UnityEngine { class RenderTexture; }
 
-#define VOLUMETRICCLOUDV2MANAGER_BUILDHISTORYDESCRIPTORS_OFFSET UNITYSDK_OFFSET(0x1C4207A0)
-#define VOLUMETRICCLOUDV2MANAGER_CLEANUPINVALIDCAMERAS_OFFSET UNITYSDK_OFFSET(0x1C420450)
-#define VOLUMETRICCLOUDV2MANAGER_CLEANUP_1_OFFSET UNITYSDK_OFFSET(0x1C420D80)
-#define VOLUMETRICCLOUDV2MANAGER_CLEANUP_OFFSET UNITYSDK_OFFSET(0x1C420FC0)
-#define VOLUMETRICCLOUDV2MANAGER_ENSUREHISTORYRTS_OFFSET UNITYSDK_OFFSET(0x1C41F6D0)
-#define VOLUMETRICCLOUDV2MANAGER_GETRECONSTRUCTIONFRAMEINDEX_OFFSET UNITYSDK_OFFSET(0x1C41F470)
-#define VOLUMETRICCLOUDV2MANAGER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1C41EE30)
-#define VOLUMETRICCLOUDV2MANAGER_ISDESCRIPTORCOMPATIBLE_OFFSET UNITYSDK_OFFSET(0x1C420A00)
-#define VOLUMETRICCLOUDV2MANAGER_ISHISTORYRTPAIRVALID_OFFSET UNITYSDK_OFFSET(0x1C420A90)
-#define VOLUMETRICCLOUDV2MANAGER_RELEASEHISTORYRTS_OFFSET UNITYSDK_OFFSET(0x1C4212A0)
-#define VOLUMETRICCLOUDV2MANAGER_UPDATEHISTORYINDEX_OFFSET UNITYSDK_OFFSET(0x1C41F1E0)
-#define VOLUMETRICCLOUDV2MANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C4214B0)
-#define VOLUMETRICCLOUDV2MANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C41EED0)
+#define VOLUMETRICCLOUDV2MANAGER_BUILDHISTORYDESCRIPTORS_OFFSET UNITYSDK_OFFSET(0x1D700300)
+#define VOLUMETRICCLOUDV2MANAGER_CLEANUPINVALIDCAMERAS_OFFSET UNITYSDK_OFFSET(0x1D6FFFB0)
+#define VOLUMETRICCLOUDV2MANAGER_CLEANUP_1_OFFSET UNITYSDK_OFFSET(0x1D7008E0)
+#define VOLUMETRICCLOUDV2MANAGER_CLEANUP_OFFSET UNITYSDK_OFFSET(0x1D700B20)
+#define VOLUMETRICCLOUDV2MANAGER_ENSUREHISTORYRTS_OFFSET UNITYSDK_OFFSET(0x1D6FF220)
+#define VOLUMETRICCLOUDV2MANAGER_GETRECONSTRUCTIONFRAMEINDEX_OFFSET UNITYSDK_OFFSET(0x1D6FEFB0)
+#define VOLUMETRICCLOUDV2MANAGER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1D6FE970)
+#define VOLUMETRICCLOUDV2MANAGER_ISDESCRIPTORCOMPATIBLE_OFFSET UNITYSDK_OFFSET(0x1D700560)
+#define VOLUMETRICCLOUDV2MANAGER_ISHISTORYRTPAIRVALID_OFFSET UNITYSDK_OFFSET(0x1D7005F0)
+#define VOLUMETRICCLOUDV2MANAGER_RELEASEHISTORYRTS_OFFSET UNITYSDK_OFFSET(0x1D700DF0)
+#define VOLUMETRICCLOUDV2MANAGER_UPDATEHISTORYINDEX_OFFSET UNITYSDK_OFFSET(0x1D6FED20)
+#define VOLUMETRICCLOUDV2MANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D701000)
+#define VOLUMETRICCLOUDV2MANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6FEA10)
 
-inline static constexpr unsigned int VolumetricCloudV2Manager_TypeDefinitionIndex = 27070;
+inline static constexpr unsigned int VolumetricCloudV2Manager_TypeDefinitionIndex = 27014;
 
 class VolumetricCloudV2Manager : public ::System::Object
 {
 public:
 	static ::VolumetricCloudV2Manager** StaticGet_instance()
 	{
-		return (::VolumetricCloudV2Manager**)Il2CppClass::FromTypeDefinitionIndex(VolumetricCloudV2Manager_TypeDefinitionIndex)->GetStaticField(0x22020);
+		return (::VolumetricCloudV2Manager**)Il2CppClass::FromTypeDefinitionIndex(VolumetricCloudV2Manager_TypeDefinitionIndex)->GetStaticField(0x237C0);
 	}
-	::System::Collections::Generic::List_1<::UnityEngine::Camera*>* _invalidHistoryCameras; // 0x10
-	::UnityEngine::Camera* _activeCamera; // 0x18
-	::System::Collections::Generic::Dictionary_2<::UnityEngine::Camera*, ::Il2CppArray<::UnityEngine::RenderTextureDescriptor>*>* _historyDescByCamera; // 0x20
-	::System::Collections::Generic::Dictionary_2<::UnityEngine::Camera*, ::System::Int32>* _frameIndexByCamera; // 0x28
+	::System::Collections::Generic::Dictionary_2<::UnityEngine::Camera*, ::System::Int32>* _frameIndexByCamera; // 0x10
+	::System::Collections::Generic::Dictionary_2<::UnityEngine::Camera*, ::Il2CppArray<::UnityEngine::RenderTextureDescriptor>*>* _historyDescByCamera; // 0x18
+	::System::Collections::Generic::Dictionary_2<::UnityEngine::Camera*, ::Il2CppArray<::UnityEngine::RenderTexture*>*>* _historyDepthByCamera; // 0x20
+	::UnityEngine::Camera* _activeCamera; // 0x28
 	::Il2CppArray<::UnityEngine::RenderTexture*>* _historyDepthRTs; // 0x30
 	::System::Collections::Generic::Dictionary_2<::UnityEngine::Camera*, ::System::Int32>* _historyIndexByCamera; // 0x38
-	::System::Collections::Generic::Dictionary_2<::UnityEngine::Camera*, ::Il2CppArray<::UnityEngine::RenderTexture*>*>* _historyColorByCamera; // 0x40
-	::Il2CppArray<::UnityEngine::RenderTexture*>* _historyColorRTs; // 0x48
-	::System::Collections::Generic::Dictionary_2<::UnityEngine::Camera*, ::Il2CppArray<::UnityEngine::RenderTexture*>*>* _historyDepthByCamera; // 0x50
+	::Il2CppArray<::UnityEngine::RenderTexture*>* _historyColorRTs; // 0x40
+	::System::Collections::Generic::List_1<::UnityEngine::Camera*>* _invalidHistoryCameras; // 0x48
+	::System::Collections::Generic::Dictionary_2<::UnityEngine::Camera*, ::Il2CppArray<::UnityEngine::RenderTexture*>*>* _historyColorByCamera; // 0x50
 	::System::Boolean historyNeedsClear; // 0x58
 
 	::System::Void _ctor()

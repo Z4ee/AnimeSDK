@@ -10,19 +10,19 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_MONOINTERACTIONPOINT_AWAKE_OFFSET UNITYSDK_OFFSET(0x17E96BF0)
-#define MOLEMOLE_MONOINTERACTIONPOINT_DISTANCE2D_OFFSET UNITYSDK_OFFSET(0x17E96A80)
-#define MOLEMOLE_MONOINTERACTIONPOINT_DISTANCESQ2D_OFFSET UNITYSDK_OFFSET(0x17E963B0)
-#define MOLEMOLE_MONOINTERACTIONPOINT_GETINTERACTIONPOINTBYNAME_OFFSET UNITYSDK_OFFSET(0x17E95BA0)
-#define MOLEMOLE_MONOINTERACTIONPOINT_GETNEARESTINTERACTIONPOINT_OFFSET UNITYSDK_OFFSET(0x17E955A0)
-#define MOLEMOLE_MONOINTERACTIONPOINT_GETPATHTOTARGETPOINT_OFFSET UNITYSDK_OFFSET(0x17E95D20)
-#define MOLEMOLE_MONOINTERACTIONPOINT_GETREACHABLENEARESTINTERACTIONPOINT_OFFSET UNITYSDK_OFFSET(0x17E95DF0)
-#define MOLEMOLE_MONOINTERACTIONPOINT_METHOD_5_93EFC2EFF979B1FC_OFFSET UNITYSDK_OFFSET(0x17E96440)
-#define MOLEMOLE_MONOINTERACTIONPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x17E96EA0)
+#define MOLEMOLE_MONOINTERACTIONPOINT_AWAKE_OFFSET UNITYSDK_OFFSET(0x191AC870)
+#define MOLEMOLE_MONOINTERACTIONPOINT_DISTANCE2D_OFFSET UNITYSDK_OFFSET(0x191AC700)
+#define MOLEMOLE_MONOINTERACTIONPOINT_DISTANCESQ2D_OFFSET UNITYSDK_OFFSET(0x191AC030)
+#define MOLEMOLE_MONOINTERACTIONPOINT_GETINTERACTIONPOINTBYNAME_OFFSET UNITYSDK_OFFSET(0x191AB830)
+#define MOLEMOLE_MONOINTERACTIONPOINT_GETNEARESTINTERACTIONPOINT_OFFSET UNITYSDK_OFFSET(0x191AB260)
+#define MOLEMOLE_MONOINTERACTIONPOINT_GETPATHTOTARGETPOINT_OFFSET UNITYSDK_OFFSET(0x191AB9B0)
+#define MOLEMOLE_MONOINTERACTIONPOINT_GETREACHABLENEARESTINTERACTIONPOINT_OFFSET UNITYSDK_OFFSET(0x191ABA80)
+#define MOLEMOLE_MONOINTERACTIONPOINT_METHOD_5_3E1BA85598DFC9F3_OFFSET UNITYSDK_OFFSET(0x191AC0C0)
+#define MOLEMOLE_MONOINTERACTIONPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x191ACB20)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoInteractionPoint_TypeDefinitionIndex = 55623;
+	inline static constexpr unsigned int MonoInteractionPoint_TypeDefinitionIndex = 66400;
 
 	class MonoInteractionPoint : public ::UnityEngine::MonoBehaviour
 	{
@@ -69,9 +69,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOINTERACTIONPOINT_AWAKE_OFFSET))(this);
 		}
 
-		::MoleMole::InteractionPoint* Method_5_93EFC2EFF979B1FC(::UnityEngine::Vector3 a1, ::System::Collections::Generic::List_1<::System::ValueTuple_2<::MoleMole::InteractionPoint*, ::System::Single>>* a2, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* a3)
+		::MoleMole::InteractionPoint* Method_5_3E1BA85598DFC9F3(::UnityEngine::Vector3 a1, ::System::Collections::Generic::List_1<::System::ValueTuple_2<::MoleMole::InteractionPoint*, ::System::Single>>* a2, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* a3)
 		{
-			return ((::MoleMole::InteractionPoint*(*)(::PVOID, ::UnityEngine::Vector3, ::System::Collections::Generic::List_1<::System::ValueTuple_2<::MoleMole::InteractionPoint*, ::System::Single>>*, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOINTERACTIONPOINT_METHOD_5_93EFC2EFF979B1FC_OFFSET))(this, a1, a2, a3);
+			return ((::MoleMole::InteractionPoint*(*)(::PVOID, ::UnityEngine::Vector3, ::System::Collections::Generic::List_1<::System::ValueTuple_2<::MoleMole::InteractionPoint*, ::System::Single>>*, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOINTERACTIONPOINT_METHOD_5_3E1BA85598DFC9F3_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

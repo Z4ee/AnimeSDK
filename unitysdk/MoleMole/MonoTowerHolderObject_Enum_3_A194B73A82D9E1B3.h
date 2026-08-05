@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoTowerHolderObject_Enum_3_A194B73A82D9E1B3_TypeDefinitionIndex = 56460;
+	inline static constexpr unsigned int MonoTowerHolderObject_Enum_3_A194B73A82D9E1B3_TypeDefinitionIndex = 76928;
 
 	enum class MonoTowerHolderObject_Enum_3_A194B73A82D9E1B3 : ::System::Int32
 	{

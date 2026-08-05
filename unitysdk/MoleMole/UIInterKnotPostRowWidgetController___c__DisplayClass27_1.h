@@ -5,12 +5,12 @@
 namespace MoleMole { class UIInterKnotPostRowWidgetController___c__DisplayClass27_0; }
 namespace UnityEngine::UI::Extension { class UIImgText; }
 
-#define MOLEMOLE_UIINTERKNOTPOSTROWWIDGETCONTROLLER___C__DISPLAYCLASS27_1__CTOR_OFFSET UNITYSDK_OFFSET(0x17125150)
-#define MOLEMOLE_UIINTERKNOTPOSTROWWIDGETCONTROLLER___C__DISPLAYCLASS27_1__REFRESHINTERKNOTICON_B__0_OFFSET UNITYSDK_OFFSET(0x17125160)
+#define MOLEMOLE_UIINTERKNOTPOSTROWWIDGETCONTROLLER___C__DISPLAYCLASS27_1__CTOR_OFFSET UNITYSDK_OFFSET(0x18385E60)
+#define MOLEMOLE_UIINTERKNOTPOSTROWWIDGETCONTROLLER___C__DISPLAYCLASS27_1__REFRESHINTERKNOTICON_B__0_OFFSET UNITYSDK_OFFSET(0x18385E70)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInterKnotPostRowWidgetController___c__DisplayClass27_1_TypeDefinitionIndex = 58607;
+	inline static constexpr unsigned int UIInterKnotPostRowWidgetController___c__DisplayClass27_1_TypeDefinitionIndex = 41685;
 
 	class UIInterKnotPostRowWidgetController___c__DisplayClass27_1 : public ::System::Object
 	{

@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_SPLINE_NAPSPLINEMETAPLUGINBASE_GET_NAME_OFFSET UNITYSDK_OFFSET(0x18715BB0)
-#define MOLEMOLE_SPLINE_NAPSPLINEMETAPLUGINBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x18715BF0)
+#define MOLEMOLE_SPLINE_NAPSPLINEMETAPLUGINBASE_GET_NAME_OFFSET UNITYSDK_OFFSET(0x191B9250)
+#define MOLEMOLE_SPLINE_NAPSPLINEMETAPLUGINBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x191B9290)
 
 namespace MoleMole::Spline
 {
-	inline static constexpr unsigned int NAPSplineMetaPluginBase_TypeDefinitionIndex = 41517;
+	inline static constexpr unsigned int NAPSplineMetaPluginBase_TypeDefinitionIndex = 59050;
 
 	class NAPSplineMetaPluginBase : public ::FluffyUnderware::Curvy::CurvyMetadataBase_Spline
 	{

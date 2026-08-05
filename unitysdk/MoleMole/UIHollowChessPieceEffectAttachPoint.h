@@ -6,11 +6,11 @@
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_UIHOLLOWCHESSPIECEEFFECTATTACHPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x16F82910)
+#define MOLEMOLE_UIHOLLOWCHESSPIECEEFFECTATTACHPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x196102A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowChessPieceEffectAttachPoint_TypeDefinitionIndex = 41677;
+	inline static constexpr unsigned int UIHollowChessPieceEffectAttachPoint_TypeDefinitionIndex = 42803;
 
 	class UIHollowChessPieceEffectAttachPoint : public ::Sirenix::OdinInspector::SerializedMonoBehaviour
 	{

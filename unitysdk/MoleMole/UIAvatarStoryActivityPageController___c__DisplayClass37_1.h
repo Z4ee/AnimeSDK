@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIAvatarStoryActivityPageController___c__DisplayClass37_0; }
 
-#define MOLEMOLE_UIAVATARSTORYACTIVITYPAGECONTROLLER___C__DISPLAYCLASS37_1__CTOR_OFFSET UNITYSDK_OFFSET(0x18C7CCD0)
-#define MOLEMOLE_UIAVATARSTORYACTIVITYPAGECONTROLLER___C__DISPLAYCLASS37_1__ONENTEROVA_B__2_OFFSET UNITYSDK_OFFSET(0x18C7CCE0)
+#define MOLEMOLE_UIAVATARSTORYACTIVITYPAGECONTROLLER___C__DISPLAYCLASS37_1__CTOR_OFFSET UNITYSDK_OFFSET(0x18016F00)
+#define MOLEMOLE_UIAVATARSTORYACTIVITYPAGECONTROLLER___C__DISPLAYCLASS37_1__ONENTEROVA_B__2_OFFSET UNITYSDK_OFFSET(0x18016F10)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAvatarStoryActivityPageController___c__DisplayClass37_1_TypeDefinitionIndex = 61110;
+	inline static constexpr unsigned int UIAvatarStoryActivityPageController___c__DisplayClass37_1_TypeDefinitionIndex = 50995;
 
 	class UIAvatarStoryActivityPageController___c__DisplayClass37_1 : public ::System::Object
 	{

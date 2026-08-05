@@ -5,22 +5,22 @@
 namespace Foundation { class IObject; }
 namespace Foundation { class ObjectService; }
 
-#define FOUNDATION_OBJECTHANDLE_DESTROY_OFFSET UNITYSDK_OFFSET(0x9CAA10)
-#define FOUNDATION_OBJECTHANDLE_GET_ISNULL_OFFSET UNITYSDK_OFFSET(0x9CAA00)
-#define FOUNDATION_OBJECTHANDLE_GET_MANAGER_OFFSET UNITYSDK_OFFSET(0x1CFFE3C0)
-#define FOUNDATION_OBJECTHANDLE_RESET_OFFSET UNITYSDK_OFFSET(0x9CD150)
-#define FOUNDATION_OBJECTHANDLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D001330)
-#define FOUNDATION_OBJECTHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x2AB920)
+#define FOUNDATION_OBJECTHANDLE_DESTROY_OFFSET UNITYSDK_OFFSET(0xA16F40)
+#define FOUNDATION_OBJECTHANDLE_GET_ISNULL_OFFSET UNITYSDK_OFFSET(0xA16F30)
+#define FOUNDATION_OBJECTHANDLE_GET_MANAGER_OFFSET UNITYSDK_OFFSET(0x1E3B8370)
+#define FOUNDATION_OBJECTHANDLE_RESET_OFFSET UNITYSDK_OFFSET(0xA19670)
+#define FOUNDATION_OBJECTHANDLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E3BB2E0)
+#define FOUNDATION_OBJECTHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x312BA0)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int ObjectHandle_TypeDefinitionIndex = 8745;
+	inline static constexpr unsigned int ObjectHandle_TypeDefinitionIndex = 8519;
 
 	struct alignas(4) ObjectHandle
 	{
 		static ::Foundation::ObjectHandle* StaticGet_Null()
 		{
-			return (::Foundation::ObjectHandle*)Il2CppClass::FromTypeDefinitionIndex(ObjectHandle_TypeDefinitionIndex)->GetStaticField(0x3AC0);
+			return (::Foundation::ObjectHandle*)Il2CppClass::FromTypeDefinitionIndex(ObjectHandle_TypeDefinitionIndex)->GetStaticField(0x3AE0);
 		}
 		::System::Int32 Index; // 0x10
 		::System::Int32 Id; // 0x14

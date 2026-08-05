@@ -6,9 +6,9 @@ namespace FluffyUnderware::Curvy { class CurvySpline; }
 namespace System { class String; }
 namespace UnityEngine { class Material; }
 
-#define CURVYTOPIPEMESH__CTOR_OFFSET UNITYSDK_OFFSET(0x129750F0)
+#define CURVYTOPIPEMESH__CTOR_OFFSET UNITYSDK_OFFSET(0x128BFC20)
 
-inline static constexpr unsigned int CurvyToPipeMesh_TypeDefinitionIndex = 66785;
+inline static constexpr unsigned int CurvyToPipeMesh_TypeDefinitionIndex = 53734;
 
 class CurvyToPipeMesh : public ::UnityEngine::MonoBehaviour
 {

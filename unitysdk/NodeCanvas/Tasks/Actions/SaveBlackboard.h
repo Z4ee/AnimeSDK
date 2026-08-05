@@ -6,13 +6,13 @@ namespace NodeCanvas::Framework { class Blackboard; }
 namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
 namespace System { class String; }
 
-#define NODECANVAS_TASKS_ACTIONS_SAVEBLACKBOARD_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1D7C5A70)
-#define NODECANVAS_TASKS_ACTIONS_SAVEBLACKBOARD_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1D7C5AF0)
-#define NODECANVAS_TASKS_ACTIONS_SAVEBLACKBOARD__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7C5B90)
+#define NODECANVAS_TASKS_ACTIONS_SAVEBLACKBOARD_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1EB78700)
+#define NODECANVAS_TASKS_ACTIONS_SAVEBLACKBOARD_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1EB78780)
+#define NODECANVAS_TASKS_ACTIONS_SAVEBLACKBOARD__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB78820)
 
 namespace NodeCanvas::Tasks::Actions
 {
-	inline static constexpr unsigned int SaveBlackboard_TypeDefinitionIndex = 29109;
+	inline static constexpr unsigned int SaveBlackboard_TypeDefinitionIndex = 31083;
 
 	class SaveBlackboard : public ::NodeCanvas::Framework::ActionTask_1<::NodeCanvas::Framework::Blackboard*>
 	{

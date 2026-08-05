@@ -6,29 +6,29 @@
 
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
-template <typename T> class Class_4_F91115D9A1F02F5F;
+template <typename T> class Class_4_2FF7D360A2F3EC48;
 
-#define CLASS_4_011F5F8CC4313C2D_METHOD_4_25DEA5C65A602671_OFFSET UNITYSDK_OFFSET(0x1378A870)
-#define CLASS_4_011F5F8CC4313C2D_METHOD_4_3574512695A597AB_OFFSET UNITYSDK_OFFSET(0x13789930)
-#define CLASS_4_011F5F8CC4313C2D_METHOD_4_C43DD7AFEEA2B827_OFFSET UNITYSDK_OFFSET(0x13789D70)
-#define CLASS_4_011F5F8CC4313C2D__CTOR_OFFSET UNITYSDK_OFFSET(0x1378A570)
+#define CLASS_4_011F5F8CC4313C2D_METHOD_4_25DEA5C65A602671_OFFSET UNITYSDK_OFFSET(0x16F73C80)
+#define CLASS_4_011F5F8CC4313C2D_METHOD_4_3574512695A597AB_OFFSET UNITYSDK_OFFSET(0x16F72D30)
+#define CLASS_4_011F5F8CC4313C2D_METHOD_4_C43DD7AFEEA2B827_OFFSET UNITYSDK_OFFSET(0x16F73170)
+#define CLASS_4_011F5F8CC4313C2D__CTOR_OFFSET UNITYSDK_OFFSET(0x16F73980)
 
-inline static constexpr unsigned int Class_4_011F5F8CC4313C2D_TypeDefinitionIndex = 54952;
+inline static constexpr unsigned int Class_4_011F5F8CC4313C2D_TypeDefinitionIndex = 47204;
 
 class Class_4_011F5F8CC4313C2D : public ::Class_3_F3948D237059FA7A
 {
 public:
-	::Class_4_F91115D9A1F02F5F<::MoleMole::EntityHandle>* Field_4_7; // 0x28
-	::Class_4_F91115D9A1F02F5F<::System::Boolean>* Field_4_2; // 0x30
-	::Class_4_F91115D9A1F02F5F<::System::String*>* Field_4_0; // 0x38
-	::Class_4_F91115D9A1F02F5F<::System::Collections::Generic::List_1<::MoleMole::EntityHandle>*>* Field_4_8; // 0x40
-	::Class_4_F91115D9A1F02F5F<::System::Boolean>* Field_4_5; // 0x48
-	::Class_4_F91115D9A1F02F5F<::System::Boolean>* Field_4_6; // 0x50
-	::Class_4_F91115D9A1F02F5F<::System::Boolean>* Field_4_1; // 0x58
-	::Class_4_F91115D9A1F02F5F<::System::Boolean>* Field_4_3; // 0x60
-	::Class_4_F91115D9A1F02F5F<::System::Collections::Generic::List_1<::System::String*>*>* Field_4_10; // 0x68
-	::Class_4_F91115D9A1F02F5F<::System::Boolean>* Field_4_9; // 0x70
-	::Class_4_F91115D9A1F02F5F<::System::Boolean>* Field_4_4; // 0x78
+	::Class_4_2FF7D360A2F3EC48<::System::Boolean>* Field_4_0; // 0x28
+	::Class_4_2FF7D360A2F3EC48<::System::Boolean>* Field_4_6; // 0x30
+	::Class_4_2FF7D360A2F3EC48<::System::Boolean>* Field_4_4; // 0x38
+	::Class_4_2FF7D360A2F3EC48<::System::Boolean>* Field_4_9; // 0x40
+	::Class_4_2FF7D360A2F3EC48<::System::String*>* Field_4_2; // 0x48
+	::Class_4_2FF7D360A2F3EC48<::MoleMole::EntityHandle>* Field_4_11; // 0x50
+	::Class_4_2FF7D360A2F3EC48<::System::Boolean>* Field_4_5; // 0x58
+	::Class_4_2FF7D360A2F3EC48<::System::Collections::Generic::List_1<::System::String*>*>* Field_4_8; // 0x60
+	::Class_4_2FF7D360A2F3EC48<::System::Boolean>* Field_4_7; // 0x68
+	::Class_4_2FF7D360A2F3EC48<::System::Boolean>* Field_4_1; // 0x70
+	::Class_4_2FF7D360A2F3EC48<::System::Collections::Generic::List_1<::MoleMole::EntityHandle>*>* Field_4_10; // 0x78
 
 	::System::Void _ctor()
 	{

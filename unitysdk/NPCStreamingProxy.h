@@ -14,39 +14,39 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Object; }
 namespace UnityEngine { class Transform; }
 
-#define NPCSTREAMINGPROXY_CHANGESTATE_OFFSET UNITYSDK_OFFSET(0x10719A70)
-#define NPCSTREAMINGPROXY_CHECKDUMMY_OFFSET UNITYSDK_OFFSET(0x10719DF0)
-#define NPCSTREAMINGPROXY_CREATENPCSTREAMINGPROXY_OFFSET UNITYSDK_OFFSET(0x10719D80)
-#define NPCSTREAMINGPROXY_GET_PREFABPATH_OFFSET UNITYSDK_OFFSET(0x10719540)
-#define NPCSTREAMINGPROXY_ONBECAMEINVISIBLE_OFFSET UNITYSDK_OFFSET(0x10719C30)
-#define NPCSTREAMINGPROXY_ONBECAMEVISIBLE_OFFSET UNITYSDK_OFFSET(0x10719CD0)
-#define NPCSTREAMINGPROXY_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x107195B0)
-#define NPCSTREAMINGPROXY_START_OFFSET UNITYSDK_OFFSET(0x10719550)
-#define NPCSTREAMINGPROXY_UPDATE_OFFSET UNITYSDK_OFFSET(0x107197C0)
-#define NPCSTREAMINGPROXY__CCTOR_OFFSET UNITYSDK_OFFSET(0x10719FF0)
-#define NPCSTREAMINGPROXY__CHANGESTATE_B__20_0_OFFSET UNITYSDK_OFFSET(0x1071A0D0)
-#define NPCSTREAMINGPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x10719FA0)
+#define NPCSTREAMINGPROXY_CHANGESTATE_OFFSET UNITYSDK_OFFSET(0x142B1C40)
+#define NPCSTREAMINGPROXY_CHECKDUMMY_OFFSET UNITYSDK_OFFSET(0x142B1FC0)
+#define NPCSTREAMINGPROXY_CREATENPCSTREAMINGPROXY_OFFSET UNITYSDK_OFFSET(0x142B1F50)
+#define NPCSTREAMINGPROXY_GET_PREFABPATH_OFFSET UNITYSDK_OFFSET(0x142B1720)
+#define NPCSTREAMINGPROXY_ONBECAMEINVISIBLE_OFFSET UNITYSDK_OFFSET(0x142B1E00)
+#define NPCSTREAMINGPROXY_ONBECAMEVISIBLE_OFFSET UNITYSDK_OFFSET(0x142B1EA0)
+#define NPCSTREAMINGPROXY_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x142B1790)
+#define NPCSTREAMINGPROXY_START_OFFSET UNITYSDK_OFFSET(0x142B1730)
+#define NPCSTREAMINGPROXY_UPDATE_OFFSET UNITYSDK_OFFSET(0x142B19A0)
+#define NPCSTREAMINGPROXY__CCTOR_OFFSET UNITYSDK_OFFSET(0x142B21C0)
+#define NPCSTREAMINGPROXY__CHANGESTATE_B__20_0_OFFSET UNITYSDK_OFFSET(0x142B22A0)
+#define NPCSTREAMINGPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x142B2170)
 
-inline static constexpr unsigned int NPCStreamingProxy_TypeDefinitionIndex = 68137;
+inline static constexpr unsigned int NPCStreamingProxy_TypeDefinitionIndex = 67512;
 
 class NPCStreamingProxy : public ::UnityEngine::MonoBehaviour
 {
 public:
 	static ::System::Collections::Generic::List_1<::System::String*>** StaticGet_DUMMY_PATHES()
 	{
-		return (::System::Collections::Generic::List_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(NPCStreamingProxy_TypeDefinitionIndex)->GetStaticField(0x4C280);
-	}
-	static ::System::Single* StaticGet_CachedDistance()
-	{
-		return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(NPCStreamingProxy_TypeDefinitionIndex)->GetStaticField(0x12400);
-	}
-	static ::System::Single* StaticGet_CachedTime()
-	{
-		return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(NPCStreamingProxy_TypeDefinitionIndex)->GetStaticField(0x12404);
+		return (::System::Collections::Generic::List_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(NPCStreamingProxy_TypeDefinitionIndex)->GetStaticField(0x4B250);
 	}
 	static ::System::Boolean* StaticGet_OpenStreaming()
 	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(NPCStreamingProxy_TypeDefinitionIndex)->GetStaticField(0x12408);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(NPCStreamingProxy_TypeDefinitionIndex)->GetStaticField(0x114E0);
+	}
+	static ::System::Single* StaticGet_CachedDistance()
+	{
+		return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(NPCStreamingProxy_TypeDefinitionIndex)->GetStaticField(0x114E4);
+	}
+	static ::System::Single* StaticGet_CachedTime()
+	{
+		return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(NPCStreamingProxy_TypeDefinitionIndex)->GetStaticField(0x114E8);
 	}
 	// static const ::System::String* PROXY_PATH; // 0x0
 	::System::Single _nowTime; // 0x18

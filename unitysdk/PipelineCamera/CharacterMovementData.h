@@ -8,7 +8,7 @@
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int CharacterMovementData_TypeDefinitionIndex = 37516;
+	inline static constexpr unsigned int CharacterMovementData_TypeDefinitionIndex = 38177;
 
 	struct alignas(4) CharacterMovementData
 	{

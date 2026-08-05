@@ -6,7 +6,7 @@ namespace Foundation::Geometry { template <typename T> class IBezierControlPoint
 
 namespace Foundation::Geometry
 {
-	inline static constexpr unsigned int BezierControlPointWithPolicy_1_TypeDefinitionIndex = 8503;
+	inline static constexpr unsigned int BezierControlPointWithPolicy_1_TypeDefinitionIndex = 8620;
 
 	template <typename T>
 	struct BezierControlPointWithPolicy_1

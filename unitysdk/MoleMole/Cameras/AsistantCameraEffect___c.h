@@ -4,24 +4,24 @@
 
 namespace DG::Tweening::Core { template <typename T> class DOGetter_1; }
 
-#define MOLEMOLE_CAMERAS_ASISTANTCAMERAEFFECT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17D25D80)
-#define MOLEMOLE_CAMERAS_ASISTANTCAMERAEFFECT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17D25DC0)
-#define MOLEMOLE_CAMERAS_ASISTANTCAMERAEFFECT___C__TEST_B__8_0_OFFSET UNITYSDK_OFFSET(0x17D25DD0)
+#define MOLEMOLE_CAMERAS_ASISTANTCAMERAEFFECT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17273420)
+#define MOLEMOLE_CAMERAS_ASISTANTCAMERAEFFECT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17273460)
+#define MOLEMOLE_CAMERAS_ASISTANTCAMERAEFFECT___C__TEST_B__8_0_OFFSET UNITYSDK_OFFSET(0x17273470)
 
 namespace MoleMole::Cameras
 {
-	inline static constexpr unsigned int AsistantCameraEffect___c_TypeDefinitionIndex = 46431;
+	inline static constexpr unsigned int AsistantCameraEffect___c_TypeDefinitionIndex = 46976;
 
 	class AsistantCameraEffect___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::Cameras::AsistantCameraEffect___c** StaticGet___9()
-		{
-			return (::MoleMole::Cameras::AsistantCameraEffect___c**)Il2CppClass::FromTypeDefinitionIndex(AsistantCameraEffect___c_TypeDefinitionIndex)->GetStaticField(0x3E660);
-		}
 		static ::DG::Tweening::Core::DOGetter_1<::System::Int32>** StaticGet___9__8_0()
 		{
-			return (::DG::Tweening::Core::DOGetter_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(AsistantCameraEffect___c_TypeDefinitionIndex)->GetStaticField(0x3E668);
+			return (::DG::Tweening::Core::DOGetter_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(AsistantCameraEffect___c_TypeDefinitionIndex)->GetStaticField(0x3F310);
+		}
+		static ::MoleMole::Cameras::AsistantCameraEffect___c** StaticGet___9()
+		{
+			return (::MoleMole::Cameras::AsistantCameraEffect___c**)Il2CppClass::FromTypeDefinitionIndex(AsistantCameraEffect___c_TypeDefinitionIndex)->GetStaticField(0x3F318);
 		}
 
 		static ::System::Void _cctor()

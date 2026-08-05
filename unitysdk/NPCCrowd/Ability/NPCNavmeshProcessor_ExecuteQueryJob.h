@@ -6,11 +6,11 @@
 #include "unitysdk/Unity/Collections/NativeArray_1.h"
 #include "unitysdk/UnityEngine/Experimental/AI/NavMeshQuery.h"
 
-#define NPCCROWD_ABILITY_NPCNAVMESHPROCESSOR_EXECUTEQUERYJOB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x5928D0)
+#define NPCCROWD_ABILITY_NPCNAVMESHPROCESSOR_EXECUTEQUERYJOB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x6A9150)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int NPCNavmeshProcessor_ExecuteQueryJob_TypeDefinitionIndex = 56315;
+	inline static constexpr unsigned int NPCNavmeshProcessor_ExecuteQueryJob_TypeDefinitionIndex = 47961;
 
 	struct alignas(8) NPCNavmeshProcessor_ExecuteQueryJob
 	{

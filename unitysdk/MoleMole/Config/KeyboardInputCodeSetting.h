@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/InputSystem/Key.h"
 
-#define MOLEMOLE_CONFIG_KEYBOARDINPUTCODESETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x1619CD90)
+#define MOLEMOLE_CONFIG_KEYBOARDINPUTCODESETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x1B922360)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int KeyboardInputCodeSetting_TypeDefinitionIndex = 54733;
+	inline static constexpr unsigned int KeyboardInputCodeSetting_TypeDefinitionIndex = 85514;
 
 	class KeyboardInputCodeSetting : public ::System::Object
 	{

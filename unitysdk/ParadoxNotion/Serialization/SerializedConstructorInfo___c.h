@@ -6,24 +6,24 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Reflection { class ParameterInfo; }
 
-#define PARADOXNOTION_SERIALIZATION_SERIALIZEDCONSTRUCTORINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D6EC2A0)
-#define PARADOXNOTION_SERIALIZATION_SERIALIZEDCONSTRUCTORINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6EC2E0)
-#define PARADOXNOTION_SERIALIZATION_SERIALIZEDCONSTRUCTORINFO___C__UNITYENGINE_ISERIALIZATIONCALLBACKRECEIVER_ONBEFORESERIALIZE_B__10_0_OFFSET UNITYSDK_OFFSET(0x1D6EC2F0)
+#define PARADOXNOTION_SERIALIZATION_SERIALIZEDCONSTRUCTORINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EAA1F30)
+#define PARADOXNOTION_SERIALIZATION_SERIALIZEDCONSTRUCTORINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1EAA1F70)
+#define PARADOXNOTION_SERIALIZATION_SERIALIZEDCONSTRUCTORINFO___C__UNITYENGINE_ISERIALIZATIONCALLBACKRECEIVER_ONBEFORESERIALIZE_B__10_0_OFFSET UNITYSDK_OFFSET(0x1EAA1F80)
 
 namespace ParadoxNotion::Serialization
 {
-	inline static constexpr unsigned int SerializedConstructorInfo___c_TypeDefinitionIndex = 29886;
+	inline static constexpr unsigned int SerializedConstructorInfo___c_TypeDefinitionIndex = 30986;
 
 	class SerializedConstructorInfo___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Reflection::ParameterInfo*, ::System::String*>** StaticGet___9__10_0()
-		{
-			return (::System::Func_2<::System::Reflection::ParameterInfo*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(SerializedConstructorInfo___c_TypeDefinitionIndex)->GetStaticField(0x24BB0);
-		}
 		static ::ParadoxNotion::Serialization::SerializedConstructorInfo___c** StaticGet___9()
 		{
-			return (::ParadoxNotion::Serialization::SerializedConstructorInfo___c**)Il2CppClass::FromTypeDefinitionIndex(SerializedConstructorInfo___c_TypeDefinitionIndex)->GetStaticField(0x24BB8);
+			return (::ParadoxNotion::Serialization::SerializedConstructorInfo___c**)Il2CppClass::FromTypeDefinitionIndex(SerializedConstructorInfo___c_TypeDefinitionIndex)->GetStaticField(0x25930);
+		}
+		static ::System::Func_2<::System::Reflection::ParameterInfo*, ::System::String*>** StaticGet___9__10_0()
+		{
+			return (::System::Func_2<::System::Reflection::ParameterInfo*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(SerializedConstructorInfo___c_TypeDefinitionIndex)->GetStaticField(0x25938);
 		}
 
 		static ::System::Void _cctor()

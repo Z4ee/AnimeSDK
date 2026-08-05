@@ -9,7 +9,7 @@ namespace Nap::NapECS { template <typename T> class EcsEntityTaskParam_1; }
 
 namespace Nap::NapECS
 {
-	inline static constexpr unsigned int EcsComponentTask_1_TypeDefinitionIndex = 37289;
+	inline static constexpr unsigned int EcsComponentTask_1_TypeDefinitionIndex = 38043;
 
 	template <typename T1>
 	struct EcsComponentTask_1

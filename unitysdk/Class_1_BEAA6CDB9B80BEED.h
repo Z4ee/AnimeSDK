@@ -3,19 +3,19 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define CLASS_1_BEAA6CDB9B80BEED__CTOR_1_OFFSET UNITYSDK_OFFSET(0x120871A0)
-#define CLASS_1_BEAA6CDB9B80BEED__CTOR_OFFSET UNITYSDK_OFFSET(0x12087160)
+#define CLASS_1_BEAA6CDB9B80BEED__CTOR_1_OFFSET UNITYSDK_OFFSET(0x141B5A50)
+#define CLASS_1_BEAA6CDB9B80BEED__CTOR_OFFSET UNITYSDK_OFFSET(0x141B5A10)
 
-inline static constexpr unsigned int Class_1_BEAA6CDB9B80BEED_TypeDefinitionIndex = 63953;
+inline static constexpr unsigned int Class_1_BEAA6CDB9B80BEED_TypeDefinitionIndex = 53114;
 
 class Class_1_BEAA6CDB9B80BEED : public ::System::Object
 {
 public:
-	::UnityEngine::Vector2 Field_1_2; // 0x10
-	::System::Single Field_1_4; // 0x18
-	::UnityEngine::Vector2 Field_1_0; // 0x1C
-	::UnityEngine::Vector2 Field_1_1; // 0x24
-	::UnityEngine::Vector2 Field_1_3; // 0x2C
+	::System::Single Field_1_5; // 0x10
+	::UnityEngine::Vector2 Field_1_7; // 0x14
+	::UnityEngine::Vector2 Field_1_1; // 0x1C
+	::UnityEngine::Vector2 Field_1_0; // 0x24
+	::UnityEngine::Vector2 Field_1_6; // 0x2C
 
 	::System::Void _ctor(::UnityEngine::Vector2 a1, ::UnityEngine::Vector2 a2, ::System::Single a3, ::System::Single a4, ::System::Single a5, ::System::Single a6, ::System::Single a7)
 	{

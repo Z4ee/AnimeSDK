@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int HoYoChannelSDK_LogLevel_TypeDefinitionIndex = 36931;
+	inline static constexpr unsigned int HoYoChannelSDK_LogLevel_TypeDefinitionIndex = 37592;
 
 	enum class HoYoChannelSDK_LogLevel : ::System::Int32
 	{

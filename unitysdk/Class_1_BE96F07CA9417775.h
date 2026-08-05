@@ -1,0 +1,32 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Enum_3_ED790DAC948A65A9_13.h"
+#include "unitysdk/System/Object.h"
+
+class Class_0_16E4307DCC419505_266;
+namespace MoleMole { class UIBangkovBagPageController_Context; }
+
+#define CLASS_1_BE96F07CA9417775_METHOD_1_441B0853960E1298_OFFSET UNITYSDK_OFFSET(0x1BC29250)
+#define CLASS_1_BE96F07CA9417775_METHOD_1_9A8D707F1E1B85B9_OFFSET UNITYSDK_OFFSET(0x1BC29480)
+#define CLASS_1_BE96F07CA9417775_METHOD_1_BBCDDD8B5CBD2605_OFFSET UNITYSDK_OFFSET(0x1BC292B0)
+
+inline static constexpr unsigned int Class_1_BE96F07CA9417775_TypeDefinitionIndex = 54223;
+
+class Class_1_BE96F07CA9417775 : public ::System::Object
+{
+public:
+	static ::Class_0_16E4307DCC419505_266* Method_1_441B0853960E1298(::MoleMole::UIBangkovBagPageController_Context* a1)
+	{
+		return ((::Class_0_16E4307DCC419505_266*(*)(::MoleMole::UIBangkovBagPageController_Context*))((::PBYTE)hIl2Cpp + CLASS_1_BE96F07CA9417775_METHOD_1_441B0853960E1298_OFFSET))(a1);
+	}
+
+	static ::Class_0_16E4307DCC419505_266* Method_1_BBCDDD8B5CBD2605(::Enum_3_ED790DAC948A65A9_13 a1)
+	{
+		return ((::Class_0_16E4307DCC419505_266*(*)(::Enum_3_ED790DAC948A65A9_13))((::PBYTE)hIl2Cpp + CLASS_1_BE96F07CA9417775_METHOD_1_BBCDDD8B5CBD2605_OFFSET))(a1);
+	}
+
+	static ::Enum_3_ED790DAC948A65A9_13 Method_1_9A8D707F1E1B85B9()
+	{
+		return ((::Enum_3_ED790DAC948A65A9_13(*)())((::PBYTE)hIl2Cpp + CLASS_1_BE96F07CA9417775_METHOD_1_9A8D707F1E1B85B9_OFFSET))();
+	}
+};

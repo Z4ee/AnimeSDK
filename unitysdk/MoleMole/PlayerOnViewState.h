@@ -3,19 +3,19 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int PlayerOnViewState_TypeDefinitionIndex = 86090;
+	inline static constexpr unsigned int PlayerOnViewState_TypeDefinitionIndex = 82839;
 
 	enum class PlayerOnViewState : ::System::Byte
 	{
-		Born = 0x1,
-		Teleport = 0x2,
-		None = 0x0,
-		RT = 0x4,
-		JumpMove = 0x8,
-		MoveFail = 0x9,
 		BM = 0x6,
-		TeleportOut = 0x7,
+		Born = 0x1,
+		MoveFail = 0x9,
+		RT = 0x4,
+		None = 0x0,
+		Teleport = 0x2,
+		JumpMove = 0x8,
 		UP = 0x5,
 		LF = 0x3,
+		TeleportOut = 0x7,
 	};
 }

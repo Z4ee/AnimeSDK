@@ -6,11 +6,11 @@ class ReplayCheckpointElement;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define REPLAYCHECKPOINT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1C925B80)
-#define REPLAYCHECKPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1C92A640)
-#define REPLAYCHECKPOINT___BASE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1C92A680)
+#define REPLAYCHECKPOINT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1D923040)
+#define REPLAYCHECKPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D929DF0)
+#define REPLAYCHECKPOINT___BASE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1D929E30)
 
-inline static constexpr unsigned int ReplayCheckpoint_TypeDefinitionIndex = 34612;
+inline static constexpr unsigned int ReplayCheckpoint_TypeDefinitionIndex = 35150;
 
 class ReplayCheckpoint : public ::System::Object
 {

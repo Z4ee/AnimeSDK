@@ -5,12 +5,12 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define XFTWEAPON_XWEAPONUTIL_FLOATEQUAL_OFFSET UNITYSDK_OFFSET(0x1D581490)
-#define XFTWEAPON_XWEAPONUTIL_VECTOR3EQUAL_OFFSET UNITYSDK_OFFSET(0x1D576070)
+#define XFTWEAPON_XWEAPONUTIL_FLOATEQUAL_OFFSET UNITYSDK_OFFSET(0x1E930610)
+#define XFTWEAPON_XWEAPONUTIL_VECTOR3EQUAL_OFFSET UNITYSDK_OFFSET(0x1E925240)
 
 namespace XftWeapon
 {
-	inline static constexpr unsigned int XWeaponUtil_TypeDefinitionIndex = 39310;
+	inline static constexpr unsigned int XWeaponUtil_TypeDefinitionIndex = 39976;
 
 	class XWeaponUtil : public ::System::Object
 	{

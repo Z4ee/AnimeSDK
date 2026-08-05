@@ -3,14 +3,14 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRidusGotBooChangeClothPageController_EEousMakerTab_TypeDefinitionIndex = 70905;
+	inline static constexpr unsigned int UIRidusGotBooChangeClothPageController_EEousMakerTab_TypeDefinitionIndex = 86072;
 
 	enum class UIRidusGotBooChangeClothPageController_EEousMakerTab : ::System::Int32
 	{
-		Max = 3,
-		None = -1,
-		PassiveSkill = 2,
-		PlayerAni = 1,
 		Clothing = 0,
+		None = -1,
+		Max = 3,
+		PlayerAni = 1,
+		PassiveSkill = 2,
 	};
 }

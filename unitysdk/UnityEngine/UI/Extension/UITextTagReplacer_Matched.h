@@ -4,7 +4,7 @@
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int UITextTagReplacer_Matched_TypeDefinitionIndex = 86660;
+	inline static constexpr unsigned int UITextTagReplacer_Matched_TypeDefinitionIndex = 47862;
 
 	struct alignas(4) UITextTagReplacer_Matched
 	{

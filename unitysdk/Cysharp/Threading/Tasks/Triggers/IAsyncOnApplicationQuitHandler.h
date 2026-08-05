@@ -4,7 +4,7 @@
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
-	inline static constexpr unsigned int IAsyncOnApplicationQuitHandler_TypeDefinitionIndex = 31334;
+	inline static constexpr unsigned int IAsyncOnApplicationQuitHandler_TypeDefinitionIndex = 31954;
 
 	class IAsyncOnApplicationQuitHandler
 	{

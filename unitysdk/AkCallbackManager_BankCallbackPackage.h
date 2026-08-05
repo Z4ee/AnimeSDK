@@ -5,24 +5,24 @@
 class AkCallbackManager_BankCallback;
 namespace System::Collections::Generic { template <typename T> class Stack_1; }
 
-#define AKCALLBACKMANAGER_BANKCALLBACKPACKAGE_CREATE_OFFSET UNITYSDK_OFFSET(0x1E801670)
-#define AKCALLBACKMANAGER_BANKCALLBACKPACKAGE_RECYCLE_OFFSET UNITYSDK_OFFSET(0x1E8015E0)
-#define AKCALLBACKMANAGER_BANKCALLBACKPACKAGE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E8013C0)
-#define AKCALLBACKMANAGER_BANKCALLBACKPACKAGE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E801500)
-#define AKCALLBACKMANAGER_BANKCALLBACKPACKAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E8015D0)
+#define AKCALLBACKMANAGER_BANKCALLBACKPACKAGE_CREATE_OFFSET UNITYSDK_OFFSET(0x1FBDE180)
+#define AKCALLBACKMANAGER_BANKCALLBACKPACKAGE_RECYCLE_OFFSET UNITYSDK_OFFSET(0x1FBDE0F0)
+#define AKCALLBACKMANAGER_BANKCALLBACKPACKAGE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FBDDED0)
+#define AKCALLBACKMANAGER_BANKCALLBACKPACKAGE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1FBDE010)
+#define AKCALLBACKMANAGER_BANKCALLBACKPACKAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1FBDE0E0)
 
-inline static constexpr unsigned int AkCallbackManager_BankCallbackPackage_TypeDefinitionIndex = 33053;
+inline static constexpr unsigned int AkCallbackManager_BankCallbackPackage_TypeDefinitionIndex = 33688;
 
 class AkCallbackManager_BankCallbackPackage : public ::System::Object
 {
 public:
 	static ::System::Collections::Generic::Stack_1<::AkCallbackManager_BankCallbackPackage*>** StaticGet_m_Pool()
 	{
-		return (::System::Collections::Generic::Stack_1<::AkCallbackManager_BankCallbackPackage*>**)Il2CppClass::FromTypeDefinitionIndex(AkCallbackManager_BankCallbackPackage_TypeDefinitionIndex)->GetStaticField(0x27270);
+		return (::System::Collections::Generic::Stack_1<::AkCallbackManager_BankCallbackPackage*>**)Il2CppClass::FromTypeDefinitionIndex(AkCallbackManager_BankCallbackPackage_TypeDefinitionIndex)->GetStaticField(0x28A90);
 	}
 	// static const ::System::Int32 POOL_SIZE = 0x1000; // 0x0
-	::AkCallbackManager_BankCallback* m_Callback; // 0x10
-	::System::Object* m_Cookie; // 0x18
+	::System::Object* m_Cookie; // 0x10
+	::AkCallbackManager_BankCallback* m_Callback; // 0x18
 
 	static ::System::Void _cctor()
 	{

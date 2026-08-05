@@ -5,9 +5,9 @@
 class NPCAvatarMeshAssetsSO;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCAVATARMESHASSETSPACKEDSO__CTOR_OFFSET UNITYSDK_OFFSET(0x18ED15D0)
+#define NPCAVATARMESHASSETSPACKEDSO__CTOR_OFFSET UNITYSDK_OFFSET(0x125F1EE0)
 
-inline static constexpr unsigned int NPCAvatarMeshAssetsPackedSO_TypeDefinitionIndex = 65330;
+inline static constexpr unsigned int NPCAvatarMeshAssetsPackedSO_TypeDefinitionIndex = 53895;
 
 class NPCAvatarMeshAssetsPackedSO : public ::UnityEngine::ScriptableObject
 {

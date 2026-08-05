@@ -5,11 +5,11 @@
 namespace MoleMole { class RegionSwitchFunc; }
 namespace System { class String; }
 
-#define MOLEMOLE_REGIONEXTENSION__CTOR_OFFSET UNITYSDK_OFFSET(0x12BDF270)
+#define MOLEMOLE_REGIONEXTENSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1385E920)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int RegionExtension_TypeDefinitionIndex = 44606;
+	inline static constexpr unsigned int RegionExtension_TypeDefinitionIndex = 42277;
 
 	class RegionExtension : public ::System::Object
 	{

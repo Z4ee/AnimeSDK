@@ -4,16 +4,16 @@
 
 namespace System { class Type; }
 
-#define CLASS_2_F8CA5DB04D5D3661__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1D5AA040)
-#define CLASS_2_F8CA5DB04D5D3661__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1D5AA050)
-#define CLASS_2_F8CA5DB04D5D3661__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5AA030)
+#define CLASS_2_F8CA5DB04D5D3661__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EE18E00)
+#define CLASS_2_F8CA5DB04D5D3661__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1EE18E10)
+#define CLASS_2_F8CA5DB04D5D3661__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE18DF0)
 
-inline static constexpr unsigned int Class_2_F8CA5DB04D5D3661_TypeDefinitionIndex = 28634;
+inline static constexpr unsigned int Class_2_F8CA5DB04D5D3661_TypeDefinitionIndex = 29542;
 
 class Class_2_F8CA5DB04D5D3661 : public ::System::Attribute
 {
 public:
-	::System::Type* Field_2_1; // 0x10
+	::System::Type* Field_2_7; // 0x10
 	::System::Boolean Field_2_0; // 0x18
 
 	::System::Void _ctor()

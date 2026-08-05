@@ -10,11 +10,11 @@ namespace System { template <typename T1, typename T2, typename T3> class Action
 namespace UnityEngine { class ComputeBuffer; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 
-#define UNITYENGINE_MATERIALPROPERTYBLOCKHOOK_INVOKE_ONHOOKMATERIALPROPERTYBLOCKSETCOLOR_OFFSET UNITYSDK_OFFSET(0x1D5826A0)
-#define UNITYENGINE_MATERIALPROPERTYBLOCKHOOK_INVOKE_ONHOOKMATERIALPROPERTYBLOCKSETCONSTANTBUFFER_OFFSET UNITYSDK_OFFSET(0x1D582520)
-#define UNITYENGINE_MATERIALPROPERTYBLOCKHOOK_INVOKE_ONHOOKMATERIALPROPERTYBLOCKSETFLOAT_OFFSET UNITYSDK_OFFSET(0x1D5825A0)
-#define UNITYENGINE_MATERIALPROPERTYBLOCKHOOK_INVOKE_ONHOOKMATERIALPROPERTYBLOCKSETVECTOR_OFFSET UNITYSDK_OFFSET(0x1D582620)
-#define UNITYENGINE_MATERIALPROPERTYBLOCKHOOK__CTOR_OFFSET UNITYSDK_OFFSET(0x1D582720)
+#define UNITYENGINE_MATERIALPROPERTYBLOCKHOOK_INVOKE_ONHOOKMATERIALPROPERTYBLOCKSETCOLOR_OFFSET UNITYSDK_OFFSET(0x1E9490C0)
+#define UNITYENGINE_MATERIALPROPERTYBLOCKHOOK_INVOKE_ONHOOKMATERIALPROPERTYBLOCKSETCONSTANTBUFFER_OFFSET UNITYSDK_OFFSET(0x1E948F40)
+#define UNITYENGINE_MATERIALPROPERTYBLOCKHOOK_INVOKE_ONHOOKMATERIALPROPERTYBLOCKSETFLOAT_OFFSET UNITYSDK_OFFSET(0x1E948FC0)
+#define UNITYENGINE_MATERIALPROPERTYBLOCKHOOK_INVOKE_ONHOOKMATERIALPROPERTYBLOCKSETVECTOR_OFFSET UNITYSDK_OFFSET(0x1E949040)
+#define UNITYENGINE_MATERIALPROPERTYBLOCKHOOK__CTOR_OFFSET UNITYSDK_OFFSET(0x1E949140)
 
 namespace UnityEngine
 {
@@ -23,21 +23,21 @@ namespace UnityEngine
 	class MaterialPropertyBlockHook : public ::System::Object
 	{
 	public:
-		static ::System::Action_4<::UnityEngine::MaterialPropertyBlock*, ::System::Int32, ::UnityEngine::ComputeBuffer*, ::UnityEngine::Vector2>** StaticGet_onHookSetConstantBuffer()
+		static ::System::Action_3<::UnityEngine::MaterialPropertyBlock*, ::System::Int32, ::UnityEngine::Vector4>** StaticGet_onHookSetVector()
 		{
-			return (::System::Action_4<::UnityEngine::MaterialPropertyBlock*, ::System::Int32, ::UnityEngine::ComputeBuffer*, ::UnityEngine::Vector2>**)Il2CppClass::FromTypeDefinitionIndex(MaterialPropertyBlockHook_TypeDefinitionIndex)->GetStaticField(0x5510);
-		}
-		static ::System::Action_3<::UnityEngine::MaterialPropertyBlock*, ::System::Int32, ::System::Single>** StaticGet_onHookSetFloat()
-		{
-			return (::System::Action_3<::UnityEngine::MaterialPropertyBlock*, ::System::Int32, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(MaterialPropertyBlockHook_TypeDefinitionIndex)->GetStaticField(0x5518);
+			return (::System::Action_3<::UnityEngine::MaterialPropertyBlock*, ::System::Int32, ::UnityEngine::Vector4>**)Il2CppClass::FromTypeDefinitionIndex(MaterialPropertyBlockHook_TypeDefinitionIndex)->GetStaticField(0x5520);
 		}
 		static ::System::Action_3<::UnityEngine::MaterialPropertyBlock*, ::System::Int32, ::UnityEngine::Color>** StaticGet_onHookSetColor()
 		{
-			return (::System::Action_3<::UnityEngine::MaterialPropertyBlock*, ::System::Int32, ::UnityEngine::Color>**)Il2CppClass::FromTypeDefinitionIndex(MaterialPropertyBlockHook_TypeDefinitionIndex)->GetStaticField(0x5520);
+			return (::System::Action_3<::UnityEngine::MaterialPropertyBlock*, ::System::Int32, ::UnityEngine::Color>**)Il2CppClass::FromTypeDefinitionIndex(MaterialPropertyBlockHook_TypeDefinitionIndex)->GetStaticField(0x5528);
 		}
-		static ::System::Action_3<::UnityEngine::MaterialPropertyBlock*, ::System::Int32, ::UnityEngine::Vector4>** StaticGet_onHookSetVector()
+		static ::System::Action_4<::UnityEngine::MaterialPropertyBlock*, ::System::Int32, ::UnityEngine::ComputeBuffer*, ::UnityEngine::Vector2>** StaticGet_onHookSetConstantBuffer()
 		{
-			return (::System::Action_3<::UnityEngine::MaterialPropertyBlock*, ::System::Int32, ::UnityEngine::Vector4>**)Il2CppClass::FromTypeDefinitionIndex(MaterialPropertyBlockHook_TypeDefinitionIndex)->GetStaticField(0x5528);
+			return (::System::Action_4<::UnityEngine::MaterialPropertyBlock*, ::System::Int32, ::UnityEngine::ComputeBuffer*, ::UnityEngine::Vector2>**)Il2CppClass::FromTypeDefinitionIndex(MaterialPropertyBlockHook_TypeDefinitionIndex)->GetStaticField(0x5530);
+		}
+		static ::System::Action_3<::UnityEngine::MaterialPropertyBlock*, ::System::Int32, ::System::Single>** StaticGet_onHookSetFloat()
+		{
+			return (::System::Action_3<::UnityEngine::MaterialPropertyBlock*, ::System::Int32, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(MaterialPropertyBlockHook_TypeDefinitionIndex)->GetStaticField(0x5538);
 		}
 
 		::System::Void _ctor()

@@ -3,11 +3,11 @@
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int SpawnCheckType_TypeDefinitionIndex = 59792;
+	inline static constexpr unsigned int SpawnCheckType_TypeDefinitionIndex = 69028;
 
 	enum class SpawnCheckType : ::System::Int32
 	{
-		CheckPathDistance = 1,
 		None = 0,
+		CheckPathDistance = 1,
 	};
 }

@@ -1,10 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_3AEF4512D78B29D1_1.h"
+#include "unitysdk/MoleMole/CinemaCameraPosEnum.h"
 
-class Class_1_0517B48635C9D397;
-
-inline static constexpr unsigned int Class_0_16E4307DCC419505_807_TypeDefinitionIndex = 85002;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_807_TypeDefinitionIndex = 82623;
 
 class Class_0_16E4307DCC419505_807
 {

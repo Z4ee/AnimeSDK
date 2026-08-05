@@ -2,17 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-class Class_2_6DA22669E4D1C4BF;
+class Class_2_3BB4FDB082E23A99;
 namespace MoleMole { class UIActivePropsPopWindowController; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivePropsPopWindowController___c__DisplayClass44_0_TypeDefinitionIndex = 85106;
+	inline static constexpr unsigned int UIActivePropsPopWindowController___c__DisplayClass44_0_TypeDefinitionIndex = 72307;
 
 	struct alignas(8) UIActivePropsPopWindowController___c__DisplayClass44_0
 	{
-		::MoleMole::UIActivePropsPopWindowController* __4__this; // 0x10
-		::System::Collections::Generic::List_1<::Class_2_6DA22669E4D1C4BF*>* AllBuddy; // 0x18
+		::System::Collections::Generic::List_1<::Class_2_3BB4FDB082E23A99*>* AllBuddy; // 0x10
+		::MoleMole::UIActivePropsPopWindowController* __4__this; // 0x18
 	};
 }

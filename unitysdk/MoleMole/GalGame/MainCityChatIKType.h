@@ -3,13 +3,13 @@
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int MainCityChatIKType_TypeDefinitionIndex = 79023;
+	inline static constexpr unsigned int MainCityChatIKType_TypeDefinitionIndex = 78898;
 
 	enum class MainCityChatIKType : ::System::Int32
 	{
-		LookAtNpc = 1,
-		LookAtPlayer = 0,
 		LookAtMember = 3,
+		LookAtPlayer = 0,
 		LookAtSceneObject = 2,
+		LookAtNpc = 1,
 	};
 }

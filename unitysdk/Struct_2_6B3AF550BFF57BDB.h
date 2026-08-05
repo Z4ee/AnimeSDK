@@ -6,19 +6,19 @@
 
 namespace System { class String; }
 
-inline static constexpr unsigned int Struct_2_6B3AF550BFF57BDB_TypeDefinitionIndex = 86802;
+inline static constexpr unsigned int Struct_2_6B3AF550BFF57BDB_TypeDefinitionIndex = 57128;
 
 struct alignas(8) Struct_2_6B3AF550BFF57BDB
 {
-	::System::String* Field_2_0; // 0x10
-	::System::String* Field_2_1; // 0x18
-	::System::String* Field_2_2; // 0x20
-	::System::Boolean Field_2_3; // 0x28
-	::UnityEngine::Vector3 Field_2_4; // 0x2C
-	::System::Boolean Field_2_5; // 0x38
-	::System::Single Field_2_6; // 0x3C
-	::System::Boolean Field_2_7; // 0x40
-	::System::Single Field_2_8; // 0x44
-	::System::Boolean Field_2_9; // 0x48
-	::MoleMole::EntityHandle Field_2_10; // 0x50
+	::System::String* Field_2_1; // 0x10
+	::System::String* Field_2_0; // 0x18
+	::System::String* Field_2_7; // 0x20
+	::System::Boolean Field_2_6; // 0x28
+	::UnityEngine::Vector3 Field_2_5; // 0x2C
+	::System::Boolean Field_2_4; // 0x38
+	::System::Single Field_2_11; // 0x3C
+	::System::Boolean Field_2_10; // 0x40
+	::System::Single Field_2_9; // 0x44
+	::System::Boolean Field_2_8; // 0x48
+	::MoleMole::EntityHandle Field_2_15; // 0x50
 };

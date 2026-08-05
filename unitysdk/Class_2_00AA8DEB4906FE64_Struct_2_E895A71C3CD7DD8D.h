@@ -9,19 +9,19 @@ namespace MoleMole { class UIBaseController; }
 namespace System { class Action; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define CLASS_2_00AA8DEB4906FE64_STRUCT_2_E895A71C3CD7DD8D_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x82E2A0)
-#define CLASS_2_00AA8DEB4906FE64_STRUCT_2_E895A71C3CD7DD8D_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x5B0AE0)
+#define CLASS_2_00AA8DEB4906FE64_STRUCT_2_E895A71C3CD7DD8D_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x8656A0)
+#define CLASS_2_00AA8DEB4906FE64_STRUCT_2_E895A71C3CD7DD8D_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x52B5E0)
 
-inline static constexpr unsigned int Class_2_00AA8DEB4906FE64_Struct_2_E895A71C3CD7DD8D_TypeDefinitionIndex = 84903;
+inline static constexpr unsigned int Class_2_00AA8DEB4906FE64_Struct_2_E895A71C3CD7DD8D_TypeDefinitionIndex = 44309;
 
 struct alignas(8) Class_2_00AA8DEB4906FE64_Struct_2_E895A71C3CD7DD8D
 {
-	::System::Runtime::CompilerServices::AsyncVoidMethodBuilder Field_2_1; // 0x10
-	::System::Action* Field_2_5; // 0x30
-	::MoleMole::UIBaseController* Field_2_4; // 0x38
-	::Class_2_00AA8DEB4906FE64* Field_2_2; // 0x40
-	::Cysharp::Threading::Tasks::UniTask_Awaiter Field_2_6; // 0x48
-	::System::Int32 Field_2_3; // 0x58
+	::Cysharp::Threading::Tasks::UniTask_Awaiter Field_2_10; // 0x10
+	::System::Runtime::CompilerServices::AsyncVoidMethodBuilder Field_2_7; // 0x20
+	::Class_2_00AA8DEB4906FE64* Field_2_6; // 0x40
+	::System::Action* Field_2_11; // 0x48
+	::MoleMole::UIBaseController* Field_2_4; // 0x50
+	::System::Int32 Field_2_5; // 0x58
 	::System::Int32 Field_2_0; // 0x5C
 
 	::System::Void MoveNext()

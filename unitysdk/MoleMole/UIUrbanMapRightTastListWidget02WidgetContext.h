@@ -4,11 +4,11 @@
 
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_UIURBANMAPRIGHTTASTLISTWIDGET02WIDGETCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x122C85B0)
+#define MOLEMOLE_UIURBANMAPRIGHTTASTLISTWIDGET02WIDGETCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x11A05780)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIUrbanMapRightTastListWidget02WidgetContext_TypeDefinitionIndex = 49727;
+	inline static constexpr unsigned int UIUrbanMapRightTastListWidget02WidgetContext_TypeDefinitionIndex = 64979;
 
 	class UIUrbanMapRightTastListWidget02WidgetContext : public ::MoleMole::UIControllerContextBase
 	{

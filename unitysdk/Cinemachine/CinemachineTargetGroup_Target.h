@@ -6,7 +6,7 @@ namespace UnityEngine { class Transform; }
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineTargetGroup_Target_TypeDefinitionIndex = 34049;
+	inline static constexpr unsigned int CinemachineTargetGroup_Target_TypeDefinitionIndex = 34685;
 
 	struct alignas(8) CinemachineTargetGroup_Target
 	{

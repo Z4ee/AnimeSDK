@@ -4,12 +4,12 @@
 
 namespace FlowCanvas::Nodes { class InputCustomAxisEvent; }
 
-#define FLOWCANVAS_NODES_INPUTCUSTOMAXISEVENT___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB932B0)
-#define FLOWCANVAS_NODES_INPUTCUSTOMAXISEVENT___C__DISPLAYCLASS4_0__REGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x1DB932C0)
+#define FLOWCANVAS_NODES_INPUTCUSTOMAXISEVENT___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF89550)
+#define FLOWCANVAS_NODES_INPUTCUSTOMAXISEVENT___C__DISPLAYCLASS4_0__REGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x1EF89560)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int InputCustomAxisEvent___c__DisplayClass4_0_TypeDefinitionIndex = 29718;
+	inline static constexpr unsigned int InputCustomAxisEvent___c__DisplayClass4_0_TypeDefinitionIndex = 30698;
 
 	class InputCustomAxisEvent___c__DisplayClass4_0 : public ::System::Object
 	{

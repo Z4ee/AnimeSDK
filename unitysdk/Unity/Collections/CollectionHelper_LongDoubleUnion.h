@@ -4,7 +4,7 @@
 
 namespace Unity::Collections
 {
-	inline static constexpr unsigned int CollectionHelper_LongDoubleUnion_TypeDefinitionIndex = 18454;
+	inline static constexpr unsigned int CollectionHelper_LongDoubleUnion_TypeDefinitionIndex = 18860;
 
 	struct alignas(8) CollectionHelper_LongDoubleUnion
 	{

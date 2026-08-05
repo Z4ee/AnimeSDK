@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_CONFIG_SCOPEDFRONTCAMERACONTROLCONFIGINPUT__CTOR_OFFSET UNITYSDK_OFFSET(0x158C2250)
+#define MOLEMOLE_CONFIG_SCOPEDFRONTCAMERACONTROLCONFIGINPUT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A946640)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ScopedFrontCameraControlConfigInput_TypeDefinitionIndex = 47697;
+	inline static constexpr unsigned int ScopedFrontCameraControlConfigInput_TypeDefinitionIndex = 86953;
 
 	class ScopedFrontCameraControlConfigInput : public ::System::Object
 	{

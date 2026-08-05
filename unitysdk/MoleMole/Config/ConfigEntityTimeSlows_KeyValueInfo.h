@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGENTITYTIMESLOWS_KEYVALUEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x17048060)
+#define MOLEMOLE_CONFIG_CONFIGENTITYTIMESLOWS_KEYVALUEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B907F50)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigEntityTimeSlows_KeyValueInfo_TypeDefinitionIndex = 64823;
+	inline static constexpr unsigned int ConfigEntityTimeSlows_KeyValueInfo_TypeDefinitionIndex = 60079;
 
 	class ConfigEntityTimeSlows_KeyValueInfo : public ::System::Object
 	{

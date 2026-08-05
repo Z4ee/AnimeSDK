@@ -2,15 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_29;
+class Class_0_16E4307DCC419505_36;
 namespace MoleMole { class UITrendyStoreWidgetChildWindowController; }
 
-#define MOLEMOLE_UITRENDYSTOREWIDGETCHILDWINDOWCONTROLLER___C__DISPLAYCLASS22_0__BOOKTOYDEAL_B__0_OFFSET UNITYSDK_OFFSET(0x16199D20)
-#define MOLEMOLE_UITRENDYSTOREWIDGETCHILDWINDOWCONTROLLER___C__DISPLAYCLASS22_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16199D10)
+#define MOLEMOLE_UITRENDYSTOREWIDGETCHILDWINDOWCONTROLLER___C__DISPLAYCLASS22_0__BOOKTOYDEAL_B__0_OFFSET UNITYSDK_OFFSET(0x15EBE030)
+#define MOLEMOLE_UITRENDYSTOREWIDGETCHILDWINDOWCONTROLLER___C__DISPLAYCLASS22_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15EBE020)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UITrendyStoreWidgetChildWindowController___c__DisplayClass22_0_TypeDefinitionIndex = 75723;
+	inline static constexpr unsigned int UITrendyStoreWidgetChildWindowController___c__DisplayClass22_0_TypeDefinitionIndex = 49817;
 
 	class UITrendyStoreWidgetChildWindowController___c__DisplayClass22_0 : public ::System::Object
 	{
@@ -23,9 +23,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UITRENDYSTOREWIDGETCHILDWINDOWCONTROLLER___C__DISPLAYCLASS22_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _BookToyDeal_b__0(::Class_0_16E4307DCC419505_29* msg)
+		::System::Void _BookToyDeal_b__0(::Class_0_16E4307DCC419505_36* msg)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_29*))((::PBYTE)hIl2Cpp + MOLEMOLE_UITRENDYSTOREWIDGETCHILDWINDOWCONTROLLER___C__DISPLAYCLASS22_0__BOOKTOYDEAL_B__0_OFFSET))(this, msg);
+			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_36*))((::PBYTE)hIl2Cpp + MOLEMOLE_UITRENDYSTOREWIDGETCHILDWINDOWCONTROLLER___C__DISPLAYCLASS22_0__BOOKTOYDEAL_B__0_OFFSET))(this, msg);
 		}
 	};
 }

@@ -5,13 +5,13 @@
 namespace RootMotion::FinalIK { class Inertia_Body; }
 namespace RootMotion::FinalIK { class OffsetModifier_OffsetLimits; }
 
-#define ROOTMOTION_FINALIK_INERTIA_ONMODIFYOFFSET_OFFSET UNITYSDK_OFFSET(0x1E633DD0)
-#define ROOTMOTION_FINALIK_INERTIA_RESETBODIES_OFFSET UNITYSDK_OFFSET(0x1E633D50)
-#define ROOTMOTION_FINALIK_INERTIA__CTOR_OFFSET UNITYSDK_OFFSET(0x1E633E90)
+#define ROOTMOTION_FINALIK_INERTIA_ONMODIFYOFFSET_OFFSET UNITYSDK_OFFSET(0x1FA18230)
+#define ROOTMOTION_FINALIK_INERTIA_RESETBODIES_OFFSET UNITYSDK_OFFSET(0x1FA181B0)
+#define ROOTMOTION_FINALIK_INERTIA__CTOR_OFFSET UNITYSDK_OFFSET(0x1FA182F0)
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int Inertia_TypeDefinitionIndex = 38223;
+	inline static constexpr unsigned int Inertia_TypeDefinitionIndex = 38864;
 
 	class Inertia : public ::RootMotion::FinalIK::OffsetModifier
 	{

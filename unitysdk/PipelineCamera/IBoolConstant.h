@@ -3,7 +3,7 @@
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int IBoolConstant_TypeDefinitionIndex = 37697;
+	inline static constexpr unsigned int IBoolConstant_TypeDefinitionIndex = 38358;
 
 	class IBoolConstant
 	{

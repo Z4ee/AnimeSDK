@@ -8,22 +8,22 @@ namespace FlowCanvas { class FlowInput; }
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDLEVELQUESTMODIFY_BEGIN_OFFSET UNITYSDK_OFFSET(0x12BB4850)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDLEVELQUESTMODIFY_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x12BB4740)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDLEVELQUESTMODIFY__CTOR_OFFSET UNITYSDK_OFFSET(0x12BB4B50)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDLEVELQUESTMODIFY__REGISTERPORTS_B__4_0_OFFSET UNITYSDK_OFFSET(0x12BB4B90)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDLEVELQUESTMODIFY_BEGIN_OFFSET UNITYSDK_OFFSET(0x13835DC0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDLEVELQUESTMODIFY_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x13835CB0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDLEVELQUESTMODIFY__CTOR_OFFSET UNITYSDK_OFFSET(0x138360B0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDLEVELQUESTMODIFY__REGISTERPORTS_B__4_0_OFFSET UNITYSDK_OFFSET(0x138360F0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDLevelQuestModify_TypeDefinitionIndex = 85318;
+	inline static constexpr unsigned int LDLevelQuestModify_TypeDefinitionIndex = 58343;
 
 	class LDLevelQuestModify : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::FlowInput* input; // 0xA8
+		::FlowCanvas::ValueInput_1<::System::Int32>* levelQuestID; // 0xA8
 		::FlowCanvas::ValueInput_1<::MoleMole::Battle::LevelQuestOperation>* modifyType; // 0xB0
-		::FlowCanvas::FlowOutput* output; // 0xB8
-		::FlowCanvas::ValueInput_1<::System::Int32>* levelQuestID; // 0xC0
+		::FlowCanvas::FlowInput* input; // 0xB8
+		::FlowCanvas::FlowOutput* output; // 0xC0
 
 		::System::Void _ctor()
 		{

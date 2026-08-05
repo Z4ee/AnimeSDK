@@ -5,19 +5,19 @@
 namespace System { class String; }
 namespace UnityEngine::UI { class AnimationTriggers; }
 
-#define UNITYENGINE_UI_EXTENSION_ANIMATIONTRIGGERSEX_PRESSEDUPANIMNAME_OFFSET UNITYSDK_OFFSET(0x1AEAC080)
-#define UNITYENGINE_UI_EXTENSION_ANIMATIONTRIGGERSEX__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AEAC110)
+#define UNITYENGINE_UI_EXTENSION_ANIMATIONTRIGGERSEX_PRESSEDUPANIMNAME_OFFSET UNITYSDK_OFFSET(0x1E82BE40)
+#define UNITYENGINE_UI_EXTENSION_ANIMATIONTRIGGERSEX__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E82BED0)
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int AnimationTriggersEx_TypeDefinitionIndex = 81940;
+	inline static constexpr unsigned int AnimationTriggersEx_TypeDefinitionIndex = 51406;
 
 	class AnimationTriggersEx : public ::System::Object
 	{
 	public:
 		static ::System::String** StaticGet_kDefaultPressedUpAnimName()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(AnimationTriggersEx_TypeDefinitionIndex)->GetStaticField(0x3D4A0);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(AnimationTriggersEx_TypeDefinitionIndex)->GetStaticField(0x512F0);
 		}
 
 		static ::System::Void _cctor()

@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_35D50070BC469EAB.h"
+#include "unitysdk/Class_1_816D4E2238E8C24A.h"
 
 namespace MoleMole::Battle { class Entity; }
 namespace MoleMole::Config { class InteractEntry; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_792E0A2942914283_METHOD_2_CB210D3CDDB106B2_OFFSET UNITYSDK_OFFSET(0x8C06B60)
-#define CLASS_2_792E0A2942914283_METHOD_2_E87FFB8E4D3D2796_OFFSET UNITYSDK_OFFSET(0x8C06BB0)
-#define CLASS_2_792E0A2942914283_METHOD_2_F2286F014D7A7112_OFFSET UNITYSDK_OFFSET(0x8C064E0)
-#define CLASS_2_792E0A2942914283__CTOR_OFFSET UNITYSDK_OFFSET(0x8C06390)
+#define CLASS_2_792E0A2942914283_METHOD_2_CB210D3CDDB106B2_OFFSET UNITYSDK_OFFSET(0x1906EC70)
+#define CLASS_2_792E0A2942914283_METHOD_2_E87FFB8E4D3D2796_OFFSET UNITYSDK_OFFSET(0x1906ECC0)
+#define CLASS_2_792E0A2942914283_METHOD_2_F2286F014D7A7112_OFFSET UNITYSDK_OFFSET(0x1906E5E0)
+#define CLASS_2_792E0A2942914283__CTOR_OFFSET UNITYSDK_OFFSET(0x1906E5C0)
 
-inline static constexpr unsigned int Class_2_792E0A2942914283_TypeDefinitionIndex = 42235;
+inline static constexpr unsigned int Class_2_792E0A2942914283_TypeDefinitionIndex = 64610;
 
-class Class_2_792E0A2942914283 : public ::Class_1_35D50070BC469EAB
+class Class_2_792E0A2942914283 : public ::Class_1_816D4E2238E8C24A
 {
 public:
 	::System::Void _ctor(::MoleMole::Config::InteractEntry* a1)

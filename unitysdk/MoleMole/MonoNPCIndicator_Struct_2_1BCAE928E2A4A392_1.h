@@ -7,11 +7,11 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoNPCIndicator_Struct_2_1BCAE928E2A4A392_1_TypeDefinitionIndex = 55102;
+	inline static constexpr unsigned int MonoNPCIndicator_Struct_2_1BCAE928E2A4A392_1_TypeDefinitionIndex = 43797;
 
 	struct alignas(8) MonoNPCIndicator_Struct_2_1BCAE928E2A4A392_1
 	{
-		::NPCCrowd::NPCPathGraphManager* Field_2_0; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Single>*>* Field_2_1; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Single>*>* Field_2_0; // 0x10
+		::NPCCrowd::NPCPathGraphManager* Field_2_1; // 0x18
 	};
 }

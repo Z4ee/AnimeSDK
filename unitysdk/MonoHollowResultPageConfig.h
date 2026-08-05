@@ -12,30 +12,30 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MONOHOLLOWRESULTPAGECONFIG_MONOREFRESHVIEW_OFFSET UNITYSDK_OFFSET(0x116BFDD0)
-#define MONOHOLLOWRESULTPAGECONFIG__CCTOR_OFFSET UNITYSDK_OFFSET(0x116C0630)
-#define MONOHOLLOWRESULTPAGECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x116BFED0)
+#define MONOHOLLOWRESULTPAGECONFIG_MONOREFRESHVIEW_OFFSET UNITYSDK_OFFSET(0x14121580)
+#define MONOHOLLOWRESULTPAGECONFIG__CCTOR_OFFSET UNITYSDK_OFFSET(0x14121DE0)
+#define MONOHOLLOWRESULTPAGECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x14121680)
 
-inline static constexpr unsigned int MonoHollowResultPageConfig_TypeDefinitionIndex = 74964;
+inline static constexpr unsigned int MonoHollowResultPageConfig_TypeDefinitionIndex = 41013;
 
 class MonoHollowResultPageConfig : public ::Sirenix::OdinInspector::SerializedMonoBehaviour
 {
 public:
-	static ::System::Int32* StaticGet_ExpandCol()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoHollowResultPageConfig_TypeDefinitionIndex)->GetStaticField(0xDC60);
-	}
 	static ::System::Int32* StaticGet_ValidCol()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoHollowResultPageConfig_TypeDefinitionIndex)->GetStaticField(0xDC64);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoHollowResultPageConfig_TypeDefinitionIndex)->GetStaticField(0xDCE0);
 	}
-	static ::System::Int32* StaticGet_ExpandRow()
+	static ::System::Int32* StaticGet_ExpandCol()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoHollowResultPageConfig_TypeDefinitionIndex)->GetStaticField(0xDC68);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoHollowResultPageConfig_TypeDefinitionIndex)->GetStaticField(0xDCE4);
 	}
 	static ::System::Int32* StaticGet_ValidRow()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoHollowResultPageConfig_TypeDefinitionIndex)->GetStaticField(0xDC6C);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoHollowResultPageConfig_TypeDefinitionIndex)->GetStaticField(0xDCE8);
+	}
+	static ::System::Int32* StaticGet_ExpandRow()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoHollowResultPageConfig_TypeDefinitionIndex)->GetStaticField(0xDCEC);
 	}
 	::Il2CppArray<::System::Single>* DepthMatrix; // 0x58
 	::Il2CppArray<::MonoHollowResultPageConfig_HueAndLight>* SuccessHue; // 0x60

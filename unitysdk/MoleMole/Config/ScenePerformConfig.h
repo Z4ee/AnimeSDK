@@ -10,11 +10,11 @@ namespace MoleMole::Config { class ScenePerformConfig_ScenePerformItem; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_SCENEPERFORMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x192AE3B0)
+#define MOLEMOLE_CONFIG_SCENEPERFORMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1487CA40)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ScenePerformConfig_TypeDefinitionIndex = 68473;
+	inline static constexpr unsigned int ScenePerformConfig_TypeDefinitionIndex = 85775;
 
 	class ScenePerformConfig : public ::Foundation::MihoyoSerializedScriptableObject
 	{

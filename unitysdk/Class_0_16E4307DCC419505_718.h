@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_F780BA94AF5E7E37_1.h"
+#include "unitysdk/Enum_3_D0F2373931CC685D_2.h"
+#include "unitysdk/System/Nullable_1.h"
 
-class Class_0_16E4307DCC419505_355;
-namespace System { template <typename T1, typename T2> class Func_2; }
+namespace UnityEngine { class RectTransform; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_718_TypeDefinitionIndex = 71303;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_718_TypeDefinitionIndex = 72556;
 
 class Class_0_16E4307DCC419505_718
 {

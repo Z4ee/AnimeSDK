@@ -1,0 +1,82 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_D7E535A5B5558900;
+namespace MoleMole::Battle { class Entity; }
+
+#define MOLEMOLE_VOPERFORMSUBSYSTEM_WARNINGGUIDEPOINTCAMERAVIEWCHECKER_GET_ISINCAMERAVIEW_OFFSET UNITYSDK_OFFSET(0x174C1BE0)
+#define MOLEMOLE_VOPERFORMSUBSYSTEM_WARNINGGUIDEPOINTCAMERAVIEWCHECKER_GET_SHOULDCONTINUE_OFFSET UNITYSDK_OFFSET(0x174C1BD0)
+#define MOLEMOLE_VOPERFORMSUBSYSTEM_WARNINGGUIDEPOINTCAMERAVIEWCHECKER_ISBINDTOTHISENTITY_OFFSET UNITYSDK_OFFSET(0x174C2130)
+#define MOLEMOLE_VOPERFORMSUBSYSTEM_WARNINGGUIDEPOINTCAMERAVIEWCHECKER_MARKSTOP_OFFSET UNITYSDK_OFFSET(0x174C21E0)
+#define MOLEMOLE_VOPERFORMSUBSYSTEM_WARNINGGUIDEPOINTCAMERAVIEWCHECKER_S_INIT_OFFSET UNITYSDK_OFFSET(0x174C1B40)
+#define MOLEMOLE_VOPERFORMSUBSYSTEM_WARNINGGUIDEPOINTCAMERAVIEWCHECKER_UPDATEINCAMERAVIEW_OFFSET UNITYSDK_OFFSET(0x174C1C00)
+#define MOLEMOLE_VOPERFORMSUBSYSTEM_WARNINGGUIDEPOINTCAMERAVIEWCHECKER_UPDATETARGETENTITYID_OFFSET UNITYSDK_OFFSET(0x174C2190)
+#define MOLEMOLE_VOPERFORMSUBSYSTEM_WARNINGGUIDEPOINTCAMERAVIEWCHECKER__CCTOR_OFFSET UNITYSDK_OFFSET(0x174C2220)
+#define MOLEMOLE_VOPERFORMSUBSYSTEM_WARNINGGUIDEPOINTCAMERAVIEWCHECKER__CTOR_OFFSET UNITYSDK_OFFSET(0x174C1BF0)
+
+namespace MoleMole
+{
+	inline static constexpr unsigned int VOPerformSubSystem_WarningGuidePointCameraViewChecker_TypeDefinitionIndex = 60227;
+
+	class VOPerformSubSystem_WarningGuidePointCameraViewChecker : public ::System::Object
+	{
+	public:
+		static ::System::Single* StaticGet_s_forceShowDistance()
+		{
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(VOPerformSubSystem_WarningGuidePointCameraViewChecker_TypeDefinitionIndex)->GetStaticField(0x10120);
+		}
+		// static const ::System::Single OCCLUSION_CHECK_INTERVAL; // 0x0
+		::Class_1_D7E535A5B5558900* _guideUIParam; // 0x10
+		::System::UInt32 _entityId; // 0x18
+		::System::Single _lastOcclusionCheckTime; // 0x1C
+		::System::Boolean _cachedNotOccluded; // 0x20
+		::System::Boolean _isInCameraView; // 0x21
+		::System::Boolean _shouldContinue; // 0x22
+
+		::System::Void _ctor(::System::UInt32 entityId, ::Class_1_D7E535A5B5558900* guideUIParam)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::Class_1_D7E535A5B5558900*))((::PBYTE)hIl2Cpp + MOLEMOLE_VOPERFORMSUBSYSTEM_WARNINGGUIDEPOINTCAMERAVIEWCHECKER__CTOR_OFFSET))(this, entityId, guideUIParam);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_VOPERFORMSUBSYSTEM_WARNINGGUIDEPOINTCAMERAVIEWCHECKER__CCTOR_OFFSET))();
+		}
+
+		static ::System::Void S_Init()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_VOPERFORMSUBSYSTEM_WARNINGGUIDEPOINTCAMERAVIEWCHECKER_S_INIT_OFFSET))();
+		}
+
+		::System::Boolean get_ShouldContinue()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_VOPERFORMSUBSYSTEM_WARNINGGUIDEPOINTCAMERAVIEWCHECKER_GET_SHOULDCONTINUE_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsInCameraView()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_VOPERFORMSUBSYSTEM_WARNINGGUIDEPOINTCAMERAVIEWCHECKER_GET_ISINCAMERAVIEW_OFFSET))(this);
+		}
+
+		::System::Void UpdateInCameraView()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_VOPERFORMSUBSYSTEM_WARNINGGUIDEPOINTCAMERAVIEWCHECKER_UPDATEINCAMERAVIEW_OFFSET))(this);
+		}
+
+		::System::Boolean IsBindToThisEntity(::MoleMole::Battle::Entity* entity)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + MOLEMOLE_VOPERFORMSUBSYSTEM_WARNINGGUIDEPOINTCAMERAVIEWCHECKER_ISBINDTOTHISENTITY_OFFSET))(this, entity);
+		}
+
+		::System::Void UpdateTargetEntityID(::System::UInt32 newEntityID)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + MOLEMOLE_VOPERFORMSUBSYSTEM_WARNINGGUIDEPOINTCAMERAVIEWCHECKER_UPDATETARGETENTITYID_OFFSET))(this, newEntityID);
+		}
+
+		::System::Void MarkStop()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_VOPERFORMSUBSYSTEM_WARNINGGUIDEPOINTCAMERAVIEWCHECKER_MARKSTOP_OFFSET))(this);
+		}
+	};
+}

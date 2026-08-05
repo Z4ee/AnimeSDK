@@ -3,7 +3,7 @@
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int RenderPassEvent_TypeDefinitionIndex = 5867;
+	inline static constexpr unsigned int RenderPassEvent_TypeDefinitionIndex = 5869;
 
 	enum class RenderPassEvent : ::System::Int32
 	{

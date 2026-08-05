@@ -3,16 +3,16 @@
 
 namespace MoleMole::HollowChessboard
 {
-	inline static constexpr unsigned int HollowEntityMoveComponent_MoveCmd_Dir_TypeDefinitionIndex = 52588;
+	inline static constexpr unsigned int HollowEntityMoveComponent_MoveCmd_Dir_TypeDefinitionIndex = 80053;
 
 	enum class HollowEntityMoveComponent_MoveCmd_Dir : ::System::Int32
 	{
 		Left = 2,
-		Up = 0,
 		Right = 3,
-		Reset = 5,
-		Undo = 4,
-		Transfer = 6,
 		Down = 1,
+		Undo = 4,
+		Up = 0,
+		Reset = 5,
+		Transfer = 6,
 	};
 }

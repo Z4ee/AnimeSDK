@@ -12,20 +12,20 @@ namespace System::Xml::Schema { class XmlSchemaObject; }
 namespace System::Xml::Schema { class XmlSchemaObjectCollection; }
 namespace System::Xml::Schema { class XmlSchemaType; }
 
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAELEMENT_CLONE_1_OFFSET UNITYSDK_OFFSET(0x1BCFF0A0)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAELEMENT_CLONE_OFFSET UNITYSDK_OFFSET(0x1BCFF090)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAELEMENT_GET_CONSTRAINTS_OFFSET UNITYSDK_OFFSET(0x1BCE0640)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAELEMENT_GET_HASCONSTRAINTS_OFFSET UNITYSDK_OFFSET(0x1BCEE740)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAELEMENT_GET_NAMEATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1BCFF000)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAELEMENT_GET_NAMESTRING_OFFSET UNITYSDK_OFFSET(0x1BCFF020)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAELEMENT_SETQUALIFIEDNAME_OFFSET UNITYSDK_OFFSET(0x1BCFEFF0)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAELEMENT_SET_ISABSTRACT_OFFSET UNITYSDK_OFFSET(0x1BCFEDF0)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAELEMENT_SET_ISNILLABLE_OFFSET UNITYSDK_OFFSET(0x1BCFEE00)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAELEMENT_SET_NAMEATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1BCFF010)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAELEMENT_SET_REFNAME_OFFSET UNITYSDK_OFFSET(0x1BCFEE10)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAELEMENT_SET_SCHEMATYPENAME_OFFSET UNITYSDK_OFFSET(0x1BCFEF50)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAELEMENT_SET_SUBSTITUTIONGROUP_OFFSET UNITYSDK_OFFSET(0x1BCFEEB0)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BCFF340)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAELEMENT_CLONE_1_OFFSET UNITYSDK_OFFSET(0x1D0A0370)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAELEMENT_CLONE_OFFSET UNITYSDK_OFFSET(0x1D0A0360)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAELEMENT_GET_CONSTRAINTS_OFFSET UNITYSDK_OFFSET(0x1D081DD0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAELEMENT_GET_HASCONSTRAINTS_OFFSET UNITYSDK_OFFSET(0x1D08FB20)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAELEMENT_GET_NAMEATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1D0A02D0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAELEMENT_GET_NAMESTRING_OFFSET UNITYSDK_OFFSET(0x1D0A02F0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAELEMENT_SETQUALIFIEDNAME_OFFSET UNITYSDK_OFFSET(0x1D0A02C0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAELEMENT_SET_ISABSTRACT_OFFSET UNITYSDK_OFFSET(0x1D0A00C0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAELEMENT_SET_ISNILLABLE_OFFSET UNITYSDK_OFFSET(0x1D0A00D0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAELEMENT_SET_NAMEATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1D0A02E0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAELEMENT_SET_REFNAME_OFFSET UNITYSDK_OFFSET(0x1D0A00E0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAELEMENT_SET_SCHEMATYPENAME_OFFSET UNITYSDK_OFFSET(0x1D0A0220)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAELEMENT_SET_SUBSTITUTIONGROUP_OFFSET UNITYSDK_OFFSET(0x1D0A0180)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0A0610)
 
 namespace System::Xml::Schema
 {
@@ -34,27 +34,27 @@ namespace System::Xml::Schema
 	class XmlSchemaElement : public ::System::Xml::Schema::XmlSchemaParticle
 	{
 	public:
-		::System::Xml::Schema::SchemaElementDecl* elementDecl; // 0x78
-		::System::String* name; // 0x80
-		::System::Xml::XmlQualifiedName* qualifiedName; // 0x88
-		::System::Xml::Schema::XmlSchemaObjectCollection* constraints; // 0x90
-		::System::Xml::XmlQualifiedName* substitutionGroup; // 0x98
-		::System::Xml::Schema::XmlSchemaType* type; // 0xA0
-		::System::Xml::Schema::XmlSchemaType* elementType; // 0xA8
-		::System::String* fixedValue; // 0xB0
-		::System::Xml::XmlQualifiedName* refName; // 0xB8
-		::System::String* defaultValue; // 0xC0
-		::System::Xml::XmlQualifiedName* typeName; // 0xC8
-		::System::Xml::Schema::XmlSchemaDerivationMethod final; // 0xD0
-		::System::Xml::Schema::XmlSchemaForm form; // 0xD4
-		::System::Boolean isLocalTypeDerivationChecked; // 0xD8
+		::System::Xml::XmlQualifiedName* qualifiedName; // 0x78
+		::System::String* defaultValue; // 0x80
+		::System::Xml::Schema::SchemaElementDecl* elementDecl; // 0x88
+		::System::Xml::XmlQualifiedName* substitutionGroup; // 0x90
+		::System::String* name; // 0x98
+		::System::Xml::Schema::XmlSchemaType* elementType; // 0xA0
+		::System::Xml::XmlQualifiedName* refName; // 0xA8
+		::System::Xml::Schema::XmlSchemaType* type; // 0xB0
+		::System::Xml::XmlQualifiedName* typeName; // 0xB8
+		::System::String* fixedValue; // 0xC0
+		::System::Xml::Schema::XmlSchemaObjectCollection* constraints; // 0xC8
+		::System::Xml::Schema::XmlSchemaDerivationMethod finalResolved; // 0xD0
+		::System::Boolean hasNillableAttribute; // 0xD4
+		::System::Boolean isLocalTypeDerivationChecked; // 0xD5
+		::System::Boolean hasAbstractAttribute; // 0xD6
+		::System::Boolean isNillable; // 0xD7
+		::System::Boolean isAbstract; // 0xD8
 		::System::Xml::Schema::XmlSchemaDerivationMethod block; // 0xDC
-		::System::Xml::Schema::XmlSchemaDerivationMethod finalResolved; // 0xE0
-		::System::Xml::Schema::XmlSchemaDerivationMethod blockResolved; // 0xE4
-		::System::Boolean isNillable; // 0xE8
-		::System::Boolean hasAbstractAttribute; // 0xE9
-		::System::Boolean isAbstract; // 0xEA
-		::System::Boolean hasNillableAttribute; // 0xEB
+		::System::Xml::Schema::XmlSchemaDerivationMethod blockResolved; // 0xE0
+		::System::Xml::Schema::XmlSchemaDerivationMethod final; // 0xE4
+		::System::Xml::Schema::XmlSchemaForm form; // 0xE8
 
 		::System::Void _ctor()
 		{

@@ -8,29 +8,29 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Texture2D; }
 
-#define MOLEMOLE_CONFIG_CONFIGFINISHEDCHESSPIECE_GET_NOISETEXTURE_OFFSET UNITYSDK_OFFSET(0x1A345100)
-#define MOLEMOLE_CONFIG_CONFIGFINISHEDCHESSPIECE_GET_SCREENMAPTEXTURE_OFFSET UNITYSDK_OFFSET(0x1A344F10)
-#define MOLEMOLE_CONFIG_CONFIGFINISHEDCHESSPIECE_ISMAPTEXTUREVALID_OFFSET UNITYSDK_OFFSET(0x1A3452F0)
-#define MOLEMOLE_CONFIG_CONFIGFINISHEDCHESSPIECE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A345450)
+#define MOLEMOLE_CONFIG_CONFIGFINISHEDCHESSPIECE_GET_NOISETEXTURE_OFFSET UNITYSDK_OFFSET(0x1B54C370)
+#define MOLEMOLE_CONFIG_CONFIGFINISHEDCHESSPIECE_GET_SCREENMAPTEXTURE_OFFSET UNITYSDK_OFFSET(0x1B54C180)
+#define MOLEMOLE_CONFIG_CONFIGFINISHEDCHESSPIECE_ISMAPTEXTUREVALID_OFFSET UNITYSDK_OFFSET(0x1B54C560)
+#define MOLEMOLE_CONFIG_CONFIGFINISHEDCHESSPIECE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B54C6C0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigFinishedChessPiece_TypeDefinitionIndex = 46158;
+	inline static constexpr unsigned int ConfigFinishedChessPiece_TypeDefinitionIndex = 67671;
 
 	class ConfigFinishedChessPiece : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::String*>* overlayEffectPathes; // 0x10
+		::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* overlayEffect; // 0x10
 		::UnityEngine::Texture2D* _noiseTexture; // 0x18
-		::System::String* screenMapTexturePath; // 0x20
-		::System::String* textureSheetConfigKey; // 0x28
-		::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* overlayEffect; // 0x30
-		::UnityEngine::Texture2D* _screenMapTexture; // 0x38
-		::System::String* noiseTexturePath; // 0x40
+		::System::String* noiseTexturePath; // 0x20
+		::UnityEngine::Texture2D* _screenMapTexture; // 0x28
+		::System::String* textureSheetConfigKey; // 0x30
+		::System::Collections::Generic::List_1<::System::String*>* overlayEffectPathes; // 0x38
+		::System::String* screenMapTexturePath; // 0x40
 		::UnityEngine::Color screenMapColor; // 0x48
-		::UnityEngine::Color noiseColor; // 0x58
-		::System::Boolean noiseTrigger; // 0x68
-		::System::Boolean isTextureSheet; // 0x69
+		::System::Boolean noiseTrigger; // 0x58
+		::System::Boolean isTextureSheet; // 0x59
+		::UnityEngine::Color noiseColor; // 0x5C
 
 		::System::Void _ctor()
 		{

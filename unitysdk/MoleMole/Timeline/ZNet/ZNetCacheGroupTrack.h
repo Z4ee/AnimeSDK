@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Timeline/GroupTrack.h"
 
-#define MOLEMOLE_TIMELINE_ZNET_ZNETCACHEGROUPTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1C3830)
+#define MOLEMOLE_TIMELINE_ZNET_ZNETCACHEGROUPTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x168A7000)
 
 namespace MoleMole::Timeline::ZNet
 {
-	inline static constexpr unsigned int ZNetCacheGroupTrack_TypeDefinitionIndex = 56140;
+	inline static constexpr unsigned int ZNetCacheGroupTrack_TypeDefinitionIndex = 74334;
 
 	class ZNetCacheGroupTrack : public ::UnityEngine::Timeline::GroupTrack
 	{

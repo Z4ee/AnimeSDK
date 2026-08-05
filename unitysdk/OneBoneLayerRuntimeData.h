@@ -6,7 +6,7 @@
 
 namespace UnityEngine { class Transform; }
 
-inline static constexpr unsigned int OneBoneLayerRuntimeData_TypeDefinitionIndex = 81679;
+inline static constexpr unsigned int OneBoneLayerRuntimeData_TypeDefinitionIndex = 86684;
 
 struct alignas(8) OneBoneLayerRuntimeData
 {

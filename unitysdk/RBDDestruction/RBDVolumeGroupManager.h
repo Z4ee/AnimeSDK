@@ -7,13 +7,13 @@ namespace RBDDestruction { class RBDAssetsConfig; }
 namespace RBDDestruction { class RBDVolumeGroupManager_VolumeGroup; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RBDDESTRUCTION_RBDVOLUMEGROUPMANAGER_GETDEFAULTCOLOR_OFFSET UNITYSDK_OFFSET(0x1D4D2EB0)
-#define RBDDESTRUCTION_RBDVOLUMEGROUPMANAGER_INITIALIZEGROUPS_OFFSET UNITYSDK_OFFSET(0x1D4D2C70)
-#define RBDDESTRUCTION_RBDVOLUMEGROUPMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4D2F70)
+#define RBDDESTRUCTION_RBDVOLUMEGROUPMANAGER_GETDEFAULTCOLOR_OFFSET UNITYSDK_OFFSET(0x1E659F40)
+#define RBDDESTRUCTION_RBDVOLUMEGROUPMANAGER_INITIALIZEGROUPS_OFFSET UNITYSDK_OFFSET(0x1E659D00)
+#define RBDDESTRUCTION_RBDVOLUMEGROUPMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E659FF0)
 
 namespace RBDDestruction
 {
-	inline static constexpr unsigned int RBDVolumeGroupManager_TypeDefinitionIndex = 27194;
+	inline static constexpr unsigned int RBDVolumeGroupManager_TypeDefinitionIndex = 27594;
 
 	class RBDVolumeGroupManager : public ::UnityEngine::MonoBehaviour
 	{

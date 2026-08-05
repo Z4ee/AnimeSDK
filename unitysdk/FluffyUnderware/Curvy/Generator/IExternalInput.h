@@ -3,7 +3,7 @@
 
 namespace FluffyUnderware::Curvy::Generator
 {
-	inline static constexpr unsigned int IExternalInput_TypeDefinitionIndex = 39012;
+	inline static constexpr unsigned int IExternalInput_TypeDefinitionIndex = 39586;
 
 	class IExternalInput
 	{

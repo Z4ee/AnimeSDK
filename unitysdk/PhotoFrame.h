@@ -8,11 +8,11 @@
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::UI { class RawImage; }
 
-#define PHOTOFRAME_CALTEXTURESIZEINPHOTOIMAGE_OFFSET UNITYSDK_OFFSET(0x19E33EA0)
-#define PHOTOFRAME_GETPHOTOCANVASSIZE_OFFSET UNITYSDK_OFFSET(0x19E336D0)
-#define PHOTOFRAME__CTOR_OFFSET UNITYSDK_OFFSET(0x19E33F40)
+#define PHOTOFRAME_CALTEXTURESIZEINPHOTOIMAGE_OFFSET UNITYSDK_OFFSET(0x13453450)
+#define PHOTOFRAME_GETPHOTOCANVASSIZE_OFFSET UNITYSDK_OFFSET(0x13452C80)
+#define PHOTOFRAME__CTOR_OFFSET UNITYSDK_OFFSET(0x13453500)
 
-inline static constexpr unsigned int PhotoFrame_TypeDefinitionIndex = 55570;
+inline static constexpr unsigned int PhotoFrame_TypeDefinitionIndex = 61995;
 
 class PhotoFrame : public ::UnityEngine::MonoBehaviour
 {

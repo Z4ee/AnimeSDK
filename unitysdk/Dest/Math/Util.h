@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 
 namespace Dest::Math
 {
-	inline static constexpr unsigned int Util_TypeDefinitionIndex = 34810;
+	inline static constexpr unsigned int Util_TypeDefinitionIndex = 35469;
 
 	class Util : public ::System::Object
 	{

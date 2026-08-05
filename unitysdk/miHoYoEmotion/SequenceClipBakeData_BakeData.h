@@ -5,11 +5,11 @@
 namespace miHoYoEmotion { class ClipShapeCurveGrp; }
 namespace miHoYoEmotion { class StopShapeData; }
 
-#define MIHOYOEMOTION_SEQUENCECLIPBAKEDATA_BAKEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB0C950)
+#define MIHOYOEMOTION_SEQUENCECLIPBAKEDATA_BAKEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1D04F6A0)
 
 namespace miHoYoEmotion
 {
-	inline static constexpr unsigned int SequenceClipBakeData_BakeData_TypeDefinitionIndex = 39382;
+	inline static constexpr unsigned int SequenceClipBakeData_BakeData_TypeDefinitionIndex = 40033;
 
 	class SequenceClipBakeData_BakeData : public ::miHoYoEmotion::SequenceBakeData_BakeData
 	{

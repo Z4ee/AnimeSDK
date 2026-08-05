@@ -3,13 +3,13 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRamenStoreItemWidgetChildWindowController_AnimState_TypeDefinitionIndex = 85221;
+	inline static constexpr unsigned int UIRamenStoreItemWidgetChildWindowController_AnimState_TypeDefinitionIndex = 83570;
 
 	enum class UIRamenStoreItemWidgetChildWindowController_AnimState : ::System::Int32
 	{
-		FadeInFinish = 1,
 		FadeOutDoing = 2,
 		FadeOutFinish = 3,
+		FadeInFinish = 1,
 		FadeInDoing = 0,
 	};
 }

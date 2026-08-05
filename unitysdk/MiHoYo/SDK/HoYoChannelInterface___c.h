@@ -6,24 +6,24 @@
 namespace System { class String; }
 namespace UnityEngine { class Application_LogCallback; }
 
-#define MIHOYO_SDK_HOYOCHANNELINTERFACE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CC69300)
-#define MIHOYO_SDK_HOYOCHANNELINTERFACE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC69340)
-#define MIHOYO_SDK_HOYOCHANNELINTERFACE___C__SETUP_B__13_0_OFFSET UNITYSDK_OFFSET(0x1CC69350)
+#define MIHOYO_SDK_HOYOCHANNELINTERFACE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DFFE9C0)
+#define MIHOYO_SDK_HOYOCHANNELINTERFACE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1DFFEA00)
+#define MIHOYO_SDK_HOYOCHANNELINTERFACE___C__SETUP_B__13_0_OFFSET UNITYSDK_OFFSET(0x1DFFEA10)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int HoYoChannelInterface___c_TypeDefinitionIndex = 36910;
+	inline static constexpr unsigned int HoYoChannelInterface___c_TypeDefinitionIndex = 37571;
 
 	class HoYoChannelInterface___c : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::HoYoChannelInterface___c** StaticGet___9()
 		{
-			return (::MiHoYo::SDK::HoYoChannelInterface___c**)Il2CppClass::FromTypeDefinitionIndex(HoYoChannelInterface___c_TypeDefinitionIndex)->GetStaticField(0x28240);
+			return (::MiHoYo::SDK::HoYoChannelInterface___c**)Il2CppClass::FromTypeDefinitionIndex(HoYoChannelInterface___c_TypeDefinitionIndex)->GetStaticField(0x29B30);
 		}
 		static ::UnityEngine::Application_LogCallback** StaticGet___9__13_0()
 		{
-			return (::UnityEngine::Application_LogCallback**)Il2CppClass::FromTypeDefinitionIndex(HoYoChannelInterface___c_TypeDefinitionIndex)->GetStaticField(0x28248);
+			return (::UnityEngine::Application_LogCallback**)Il2CppClass::FromTypeDefinitionIndex(HoYoChannelInterface___c_TypeDefinitionIndex)->GetStaticField(0x29B38);
 		}
 
 		static ::System::Void _cctor()

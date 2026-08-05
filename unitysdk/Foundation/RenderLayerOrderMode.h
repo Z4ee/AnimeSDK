@@ -3,7 +3,7 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int RenderLayerOrderMode_TypeDefinitionIndex = 89298;
+	inline static constexpr unsigned int RenderLayerOrderMode_TypeDefinitionIndex = 93225;
 
 	enum class RenderLayerOrderMode : ::System::Int32
 	{

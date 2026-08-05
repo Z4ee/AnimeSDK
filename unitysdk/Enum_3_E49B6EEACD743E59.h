@@ -1,22 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Enum_3_E49B6EEACD743E59_TypeDefinitionIndex = 83627;
+inline static constexpr unsigned int Enum_3_E49B6EEACD743E59_TypeDefinitionIndex = 84210;
 
 enum class Enum_3_E49B6EEACD743E59 : ::System::Int32
 {
-	EnterHide = 6,
-	InteractSuccess = 9,
-	ActorDead = 12,
-	Selected = 4,
-	ExitHide = 7,
 	UnSelected = 5,
-	MoveEnd = 11,
-	EnterInteract = 2,
-	ActorAlive = 13,
+	ExitHide = 7,
 	ReachTargetPos = 8,
-	EnterPreInteract = 0,
-	ExitPreInteract = 1,
-	MoveStart = 10,
+	EnterInteract = 2,
 	ExitInteract = 3,
+	ActorAlive = 13,
+	EnterPreInteract = 0,
+	Selected = 4,
+	MoveEnd = 11,
+	ActorDead = 12,
+	InteractSuccess = 9,
+	EnterHide = 6,
+	MoveStart = 10,
+	ExitPreInteract = 1,
 };

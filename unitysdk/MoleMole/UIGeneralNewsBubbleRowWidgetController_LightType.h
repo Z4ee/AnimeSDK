@@ -3,11 +3,11 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralNewsBubbleRowWidgetController_LightType_TypeDefinitionIndex = 86505;
+	inline static constexpr unsigned int UIGeneralNewsBubbleRowWidgetController_LightType_TypeDefinitionIndex = 43596;
 
 	enum class UIGeneralNewsBubbleRowWidgetController_LightType : ::System::Int32
 	{
-		RedLight = 0,
 		BlueLight = 1,
+		RedLight = 0,
 	};
 }

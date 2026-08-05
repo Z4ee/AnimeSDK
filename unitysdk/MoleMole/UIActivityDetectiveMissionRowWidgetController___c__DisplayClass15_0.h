@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_UIACTIVITYDETECTIVEMISSIONROWWIDGETCONTROLLER___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18A34E90)
-#define MOLEMOLE_UIACTIVITYDETECTIVEMISSIONROWWIDGETCONTROLLER___C__DISPLAYCLASS15_0__TRACKQUESTTHENTELEPORT_B__0_OFFSET UNITYSDK_OFFSET(0x18A34EA0)
+#define MOLEMOLE_UIACTIVITYDETECTIVEMISSIONROWWIDGETCONTROLLER___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A60F4C0)
+#define MOLEMOLE_UIACTIVITYDETECTIVEMISSIONROWWIDGETCONTROLLER___C__DISPLAYCLASS15_0__TRACKQUESTTHENTELEPORT_B__0_OFFSET UNITYSDK_OFFSET(0x1A60F4D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityDetectiveMissionRowWidgetController___c__DisplayClass15_0_TypeDefinitionIndex = 50940;
+	inline static constexpr unsigned int UIActivityDetectiveMissionRowWidgetController___c__DisplayClass15_0_TypeDefinitionIndex = 85131;
 
 	class UIActivityDetectiveMissionRowWidgetController___c__DisplayClass15_0 : public ::System::Object
 	{

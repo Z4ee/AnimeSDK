@@ -9,7 +9,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int ICameraDebugger2D_TypeDefinitionIndex = 37586;
+	inline static constexpr unsigned int ICameraDebugger2D_TypeDefinitionIndex = 38247;
 
 	class ICameraDebugger2D
 	{

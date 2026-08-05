@@ -4,21 +4,21 @@
 
 namespace UnityEngine { class Camera; }
 
-#define MOLEMOLE_COMMANDBUILDER_ARROWHEADARC_OFFSET UNITYSDK_OFFSET(0x283610)
-#define MOLEMOLE_COMMANDBUILDER_GET_INGAME_OFFSET UNITYSDK_OFFSET(0x1E8902B0)
-#define MOLEMOLE_COMMANDBUILDER_WIRESPHERE_OFFSET UNITYSDK_OFFSET(0x283610)
-#define MOLEMOLE_COMMANDBUILDER_WITHCOLOR_OFFSET UNITYSDK_OFFSET(0x332AB0)
-#define MOLEMOLE_COMMANDBUILDER_WITHDURATION_OFFSET UNITYSDK_OFFSET(0x332AB0)
+#define MOLEMOLE_COMMANDBUILDER_ARROWHEADARC_OFFSET UNITYSDK_OFFSET(0x296F30)
+#define MOLEMOLE_COMMANDBUILDER_GET_INGAME_OFFSET UNITYSDK_OFFSET(0x1FC6F330)
+#define MOLEMOLE_COMMANDBUILDER_WIRESPHERE_OFFSET UNITYSDK_OFFSET(0x296F30)
+#define MOLEMOLE_COMMANDBUILDER_WITHCOLOR_OFFSET UNITYSDK_OFFSET(0x3CADC0)
+#define MOLEMOLE_COMMANDBUILDER_WITHDURATION_OFFSET UNITYSDK_OFFSET(0x3CADC0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CommandBuilder_TypeDefinitionIndex = 38547;
+	inline static constexpr unsigned int CommandBuilder_TypeDefinitionIndex = 39208;
 
 	struct alignas(8) CommandBuilder
 	{
 		static ::MoleMole::CommandBuilder* StaticGet_builder()
 		{
-			return (::MoleMole::CommandBuilder*)Il2CppClass::FromTypeDefinitionIndex(CommandBuilder_TypeDefinitionIndex)->GetStaticField(0x29060);
+			return (::MoleMole::CommandBuilder*)Il2CppClass::FromTypeDefinitionIndex(CommandBuilder_TypeDefinitionIndex)->GetStaticField(0x2A990);
 		}
 		::Il2CppArray<::UnityEngine::Camera*>* _cameraTargets; // 0x10
 

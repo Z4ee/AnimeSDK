@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_2_208CC9941471731A_33;
+class Class_2_208CC9941471731A_400;
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_UISUMMERFISHINGLOCATIONCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x122BA5E0)
+#define MOLEMOLE_UISUMMERFISHINGLOCATIONCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x119F5070)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISummerFishingLocationContext_TypeDefinitionIndex = 80081;
+	inline static constexpr unsigned int UISummerFishingLocationContext_TypeDefinitionIndex = 75886;
 
 	class UISummerFishingLocationContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_2_208CC9941471731A_33* config; // 0x28
+		::Class_2_208CC9941471731A_400* config; // 0x28
 		::System::Action_1<::System::Int32>* clickAction; // 0x30
 		::System::Int32 index; // 0x38
 

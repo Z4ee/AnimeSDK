@@ -3,7 +3,7 @@
 
 namespace NodeCanvas::BehaviourTrees
 {
-	inline static constexpr unsigned int NodeToggler_ToggleMode_TypeDefinitionIndex = 29220;
+	inline static constexpr unsigned int NodeToggler_ToggleMode_TypeDefinitionIndex = 30171;
 
 	enum class NodeToggler_ToggleMode : ::System::Int32
 	{

@@ -12,29 +12,29 @@ namespace MoleMole::Config { class DynamicString; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_6C587B1DA6AB62AC_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1350A0B0)
-#define CLASS_1_6C587B1DA6AB62AC_FROMFLX_OFFSET UNITYSDK_OFFSET(0x1350A6A0)
-#define CLASS_1_6C587B1DA6AB62AC_METHOD_1_0578713EDB32B89E_OFFSET UNITYSDK_OFFSET(0x1350A720)
-#define CLASS_1_6C587B1DA6AB62AC_METHOD_1_6064CE8C10DDEFF7_OFFSET UNITYSDK_OFFSET(0x1350A110)
-#define CLASS_1_6C587B1DA6AB62AC__CTOR_OFFSET UNITYSDK_OFFSET(0x1350B7E0)
+#define CLASS_1_6C587B1DA6AB62AC_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x15B851B0)
+#define CLASS_1_6C587B1DA6AB62AC_FROMFLX_OFFSET UNITYSDK_OFFSET(0x15B85790)
+#define CLASS_1_6C587B1DA6AB62AC_METHOD_1_0578713EDB32B89E_OFFSET UNITYSDK_OFFSET(0x15B85810)
+#define CLASS_1_6C587B1DA6AB62AC_METHOD_1_6064CE8C10DDEFF7_OFFSET UNITYSDK_OFFSET(0x15B85210)
+#define CLASS_1_6C587B1DA6AB62AC__CTOR_OFFSET UNITYSDK_OFFSET(0x15B868C0)
 
-inline static constexpr unsigned int Class_1_6C587B1DA6AB62AC_TypeDefinitionIndex = 84388;
+inline static constexpr unsigned int Class_1_6C587B1DA6AB62AC_TypeDefinitionIndex = 81850;
 
 class Class_1_6C587B1DA6AB62AC : public ::System::Object
 {
 public:
-	::MoleMole::Config::DynamicString* Field_1_3; // 0x10
-	::MoleMole::Config::DynamicInt* Field_1_8; // 0x18
-	::Class_1_4ED21A115C97704D* Field_1_9; // 0x20
-	::MoleMole::Config::DynamicInt* Field_1_6; // 0x28
-	::MoleMole::Config::DynamicFloat* Field_1_4; // 0x30
-	::Class_1_4ED21A115C97704D* Field_1_7; // 0x38
-	::System::Collections::Generic::List_1<::System::String*>* Field_1_10; // 0x40
-	::MoleMole::Config::DynamicFloat* Field_1_5; // 0x48
-	::MoleMole::Config::DynamicInt* Field_1_2; // 0x50
-	::System::Boolean Field_1_11; // 0x58
+	::MoleMole::Config::DynamicFloat* Field_1_6; // 0x10
+	::Class_1_4ED21A115C97704D* Field_1_9; // 0x18
+	::Class_1_4ED21A115C97704D* Field_1_11; // 0x20
+	::MoleMole::Config::DynamicString* Field_1_7; // 0x28
+	::MoleMole::Config::DynamicInt* Field_1_0; // 0x30
+	::MoleMole::Config::DynamicFloat* Field_1_5; // 0x38
+	::System::Collections::Generic::List_1<::System::String*>* Field_1_8; // 0x40
+	::MoleMole::Config::DynamicInt* Field_1_4; // 0x48
+	::MoleMole::Config::DynamicInt* Field_1_10; // 0x50
+	::System::Boolean Field_1_2; // 0x58
 	::System::Boolean Field_1_1; // 0x59
-	::System::Boolean Field_1_0; // 0x5A
+	::System::Boolean Field_1_15; // 0x5A
 
 	::System::Void _ctor()
 	{

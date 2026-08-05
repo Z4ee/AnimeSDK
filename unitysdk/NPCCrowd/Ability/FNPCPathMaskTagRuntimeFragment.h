@@ -4,7 +4,7 @@
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int FNPCPathMaskTagRuntimeFragment_TypeDefinitionIndex = 65672;
+	inline static constexpr unsigned int FNPCPathMaskTagRuntimeFragment_TypeDefinitionIndex = 52032;
 
 	struct alignas(4) FNPCPathMaskTagRuntimeFragment
 	{

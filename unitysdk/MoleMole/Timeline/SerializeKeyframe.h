@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/WeightedMode.h"
 
-#define MOLEMOLE_TIMELINE_SERIALIZEKEYFRAME__CTOR_OFFSET UNITYSDK_OFFSET(0x18198180)
+#define MOLEMOLE_TIMELINE_SERIALIZEKEYFRAME__CTOR_OFFSET UNITYSDK_OFFSET(0x1973D5F0)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int SerializeKeyframe_TypeDefinitionIndex = 71079;
+	inline static constexpr unsigned int SerializeKeyframe_TypeDefinitionIndex = 56261;
 
 	class SerializeKeyframe : public ::System::Object
 	{

@@ -8,18 +8,18 @@
 namespace MoleMole { class UISearchObjectQuestionWidgetController; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define MOLEMOLE_UISEARCHOBJECTQUESTIONWIDGETCONTROLLER__SHOWSETTLETEMP_D__6_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x81E8B0)
-#define MOLEMOLE_UISEARCHOBJECTQUESTIONWIDGETCONTROLLER__SHOWSETTLETEMP_D__6_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x283610)
+#define MOLEMOLE_UISEARCHOBJECTQUESTIONWIDGETCONTROLLER__SHOWSETTLETEMP_D__6_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x871C10)
+#define MOLEMOLE_UISEARCHOBJECTQUESTIONWIDGETCONTROLLER__SHOWSETTLETEMP_D__6_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x296F30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISearchObjectQuestionWidgetController__ShowSettleTemp_d__6_TypeDefinitionIndex = 72067;
+	inline static constexpr unsigned int UISearchObjectQuestionWidgetController__ShowSettleTemp_d__6_TypeDefinitionIndex = 57134;
 
 	struct alignas(8) UISearchObjectQuestionWidgetController__ShowSettleTemp_d__6
 	{
-		::MoleMole::UISearchObjectQuestionWidgetController* __4__this; // 0x10
-		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskVoidMethodBuilder __t__builder; // 0x18
-		::Cysharp::Threading::Tasks::UniTask_1_Awaiter<::Class_1_8B550A61FC9DDA82_Enum_3_05F7423D39739F87> __u__1; // 0x20
+		::Cysharp::Threading::Tasks::UniTask_1_Awaiter<::Class_1_8B550A61FC9DDA82_Enum_3_05F7423D39739F87> __u__1; // 0x10
+		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskVoidMethodBuilder __t__builder; // 0x20
+		::MoleMole::UISearchObjectQuestionWidgetController* __4__this; // 0x28
 		::System::Int32 __1__state; // 0x30
 
 		::System::Void MoveNext()

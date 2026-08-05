@@ -3,15 +3,15 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigSoundActionTriggerCondition_GlobalRTPC_Enum_3_ACD3E740F9E6F399_TypeDefinitionIndex = 68671;
+	inline static constexpr unsigned int ConfigSoundActionTriggerCondition_GlobalRTPC_Enum_3_ACD3E740F9E6F399_TypeDefinitionIndex = 59583;
 
 	enum class ConfigSoundActionTriggerCondition_GlobalRTPC_Enum_3_ACD3E740F9E6F399 : ::System::Int32
 	{
-		NotEqual = 6,
 		LessThan = 3,
-		LessThanOrEqual = 5,
 		GreaterThan = 1,
-		Equal = 2,
+		NotEqual = 6,
+		LessThanOrEqual = 5,
 		GreaterThanOrEqual = 4,
+		Equal = 2,
 	};
 }

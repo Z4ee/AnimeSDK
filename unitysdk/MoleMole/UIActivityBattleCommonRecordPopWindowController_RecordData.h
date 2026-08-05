@@ -7,20 +7,20 @@ namespace MoleMole { class UIActivityBattleCommonRecordPopWindowController_Recor
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIACTIVITYBATTLECOMMONRECORDPOPWINDOWCONTROLLER_RECORDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1864D760)
+#define MOLEMOLE_UIACTIVITYBATTLECOMMONRECORDPOPWINDOWCONTROLLER_RECORDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6E46E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityBattleCommonRecordPopWindowController_RecordData_TypeDefinitionIndex = 65932;
+	inline static constexpr unsigned int UIActivityBattleCommonRecordPopWindowController_RecordData_TypeDefinitionIndex = 71839;
 
 	class UIActivityBattleCommonRecordPopWindowController_RecordData : public ::System::Object
 	{
 	public:
-		::System::String* noPassTimeTitle; // 0x10
+		::System::Collections::Generic::List_1<::MoleMole::UIActivityBattleCommonRecordPopWindowController_RecordInfo*>* infoList; // 0x10
 		::System::String* gradeTitle; // 0x18
-		::System::Collections::Generic::List_1<::MoleMole::UIActivityBattleCommonRecordPopWindowController_RecordInfo*>* infoList; // 0x20
-		::System::Int32 passTime; // 0x28
-		::MoleMole::Level::RatingType ratingType; // 0x2C
+		::System::String* noPassTimeTitle; // 0x20
+		::MoleMole::Level::RatingType ratingType; // 0x28
+		::System::Int32 passTime; // 0x2C
 
 		::System::Void _ctor()
 		{

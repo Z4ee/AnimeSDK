@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define BEHAVIORDESIGNER_RUNTIME_SHAREDSTRING_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1E3C1E50)
-#define BEHAVIORDESIGNER_RUNTIME_SHAREDSTRING__CTOR_OFFSET UNITYSDK_OFFSET(0x1E3C1F10)
+#define BEHAVIORDESIGNER_RUNTIME_SHAREDSTRING_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1F801BD0)
+#define BEHAVIORDESIGNER_RUNTIME_SHAREDSTRING__CTOR_OFFSET UNITYSDK_OFFSET(0x1F801C90)
 
 namespace BehaviorDesigner::Runtime
 {
-	inline static constexpr unsigned int SharedString_TypeDefinitionIndex = 33293;
+	inline static constexpr unsigned int SharedString_TypeDefinitionIndex = 33929;
 
 	class SharedString : public ::BehaviorDesigner::Runtime::SharedVariable_1<::System::String*>
 	{

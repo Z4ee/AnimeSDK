@@ -8,12 +8,12 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MOLEMOLE_VOPERFORMSUBSYSTEM_NPCNAMESHOWINFO_ADDFLAG_OFFSET UNITYSDK_OFFSET(0x86D490)
-#define MOLEMOLE_VOPERFORMSUBSYSTEM_NPCNAMESHOWINFO_REMOVEFLAG_OFFSET UNITYSDK_OFFSET(0x86D4E0)
+#define MOLEMOLE_VOPERFORMSUBSYSTEM_NPCNAMESHOWINFO_ADDFLAG_OFFSET UNITYSDK_OFFSET(0x730D50)
+#define MOLEMOLE_VOPERFORMSUBSYSTEM_NPCNAMESHOWINFO_REMOVEFLAG_OFFSET UNITYSDK_OFFSET(0x730DA0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int VOPerformSubSystem_NpcNameShowInfo_TypeDefinitionIndex = 69489;
+	inline static constexpr unsigned int VOPerformSubSystem_NpcNameShowInfo_TypeDefinitionIndex = 60218;
 
 	struct alignas(8) VOPerformSubSystem_NpcNameShowInfo
 	{

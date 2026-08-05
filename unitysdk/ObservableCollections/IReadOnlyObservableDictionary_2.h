@@ -3,7 +3,7 @@
 
 namespace ObservableCollections
 {
-	inline static constexpr unsigned int IReadOnlyObservableDictionary_2_TypeDefinitionIndex = 28040;
+	inline static constexpr unsigned int IReadOnlyObservableDictionary_2_TypeDefinitionIndex = 28710;
 
 	template <typename TKey, typename TValue>
 	class IReadOnlyObservableDictionary_2

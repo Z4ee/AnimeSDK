@@ -4,11 +4,11 @@
 
 class Class_3_6F28FFD006F2B451;
 
-#define MOLEMOLE_UIBALLGAMEROLEHUDCHILDWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D78BE00)
+#define MOLEMOLE_UIBALLGAMEROLEHUDCHILDWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1EBDB5B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBallGameRoleHudChildWindowController_Context_TypeDefinitionIndex = 89288;
+	inline static constexpr unsigned int UIBallGameRoleHudChildWindowController_Context_TypeDefinitionIndex = 93428;
 
 	class UIBallGameRoleHudChildWindowController_Context : public ::MoleMole::UIControllerContextBase
 	{

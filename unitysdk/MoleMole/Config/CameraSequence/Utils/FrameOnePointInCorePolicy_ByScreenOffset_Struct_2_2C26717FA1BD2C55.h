@@ -7,19 +7,19 @@ namespace MoleMole::Config::CameraSequence::Utils { class FrameOnePointInCorePol
 namespace PipelineCamera::CameraSequence { class AspectRatioPolicy_Default; }
 namespace PipelineCamera::CameraSequence { class CameraSequenceContext; }
 
-#define MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_FRAMEONEPOINTINCOREPOLICY_BYSCREENOFFSET_STRUCT_2_2C26717FA1BD2C55_METHOD_2_1B42B5B56F439BBC_OFFSET UNITYSDK_OFFSET(0x802110)
-#define MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_FRAMEONEPOINTINCOREPOLICY_BYSCREENOFFSET_STRUCT_2_2C26717FA1BD2C55__CTOR_OFFSET UNITYSDK_OFFSET(0x802100)
+#define MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_FRAMEONEPOINTINCOREPOLICY_BYSCREENOFFSET_STRUCT_2_2C26717FA1BD2C55_METHOD_2_1B42B5B56F439BBC_OFFSET UNITYSDK_OFFSET(0x8CCD30)
+#define MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_FRAMEONEPOINTINCOREPOLICY_BYSCREENOFFSET_STRUCT_2_2C26717FA1BD2C55__CTOR_OFFSET UNITYSDK_OFFSET(0x8CCD20)
 
 namespace MoleMole::Config::CameraSequence::Utils
 {
-	inline static constexpr unsigned int FrameOnePointInCorePolicy_ByScreenOffset_Struct_2_2C26717FA1BD2C55_TypeDefinitionIndex = 47926;
+	inline static constexpr unsigned int FrameOnePointInCorePolicy_ByScreenOffset_Struct_2_2C26717FA1BD2C55_TypeDefinitionIndex = 84605;
 
 	struct alignas(8) FrameOnePointInCorePolicy_ByScreenOffset_Struct_2_2C26717FA1BD2C55
 	{
-		::System::Single Field_2_0; // 0x10
-		::UnityEngine::Vector2 Field_2_1; // 0x14
-		::System::Single Field_2_2; // 0x1C
-		::PipelineCamera::CameraSequence::AspectRatioPolicy_Default* Field_2_3; // 0x20
+		::System::Single Field_2_3; // 0x10
+		::UnityEngine::Vector2 Field_2_2; // 0x14
+		::System::Single Field_2_1; // 0x1C
+		::PipelineCamera::CameraSequence::AspectRatioPolicy_Default* Field_2_0; // 0x20
 
 		::System::Void _ctor(::MoleMole::Config::CameraSequence::Utils::FrameOnePointInCorePolicy_ByScreenOffset* a1, ::PipelineCamera::CameraSequence::CameraSequenceContext* a2)
 		{

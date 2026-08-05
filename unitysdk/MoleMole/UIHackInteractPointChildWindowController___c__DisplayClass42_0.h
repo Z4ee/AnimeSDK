@@ -5,18 +5,18 @@
 namespace MoleMole { class UIHackInteractPointChildWindowController; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_UIHACKINTERACTPOINTCHILDWINDOWCONTROLLER___C__DISPLAYCLASS42_0__CTOR_OFFSET UNITYSDK_OFFSET(0x166FBF00)
-#define MOLEMOLE_UIHACKINTERACTPOINTCHILDWINDOWCONTROLLER___C__DISPLAYCLASS42_0__SETSINGLEPROGRESSVISIBLE_B__0_OFFSET UNITYSDK_OFFSET(0x166FBF10)
+#define MOLEMOLE_UIHACKINTERACTPOINTCHILDWINDOWCONTROLLER___C__DISPLAYCLASS42_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18EC8930)
+#define MOLEMOLE_UIHACKINTERACTPOINTCHILDWINDOWCONTROLLER___C__DISPLAYCLASS42_0__SETSINGLEPROGRESSVISIBLE_B__0_OFFSET UNITYSDK_OFFSET(0x18EC8940)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHackInteractPointChildWindowController___c__DisplayClass42_0_TypeDefinitionIndex = 40226;
+	inline static constexpr unsigned int UIHackInteractPointChildWindowController___c__DisplayClass42_0_TypeDefinitionIndex = 50750;
 
 	class UIHackInteractPointChildWindowController___c__DisplayClass42_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIHackInteractPointChildWindowController* __4__this; // 0x10
-		::UnityEngine::GameObject* progressGo; // 0x18
+		::UnityEngine::GameObject* progressGo; // 0x10
+		::MoleMole::UIHackInteractPointChildWindowController* __4__this; // 0x18
 		::System::Boolean isLargeProgress; // 0x20
 
 		::System::Void _ctor()

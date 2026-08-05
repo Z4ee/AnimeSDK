@@ -5,16 +5,16 @@
 namespace MoleMole::Config { class ConfigMaterialPropertyModifierBatchLoad; }
 namespace System { class Action; }
 
-#define CLASS_1_0CDF082B369A0DD8_CLASS_1_4A89CC050EE47112_METHOD_1_07DA8233FC4E1C54_OFFSET UNITYSDK_OFFSET(0x19E24270)
-#define CLASS_1_0CDF082B369A0DD8_CLASS_1_4A89CC050EE47112__CTOR_OFFSET UNITYSDK_OFFSET(0x19E24260)
+#define CLASS_1_0CDF082B369A0DD8_CLASS_1_4A89CC050EE47112_METHOD_1_07DA8233FC4E1C54_OFFSET UNITYSDK_OFFSET(0x13587F10)
+#define CLASS_1_0CDF082B369A0DD8_CLASS_1_4A89CC050EE47112__CTOR_OFFSET UNITYSDK_OFFSET(0x13587F00)
 
-inline static constexpr unsigned int Class_1_0CDF082B369A0DD8_Class_1_4A89CC050EE47112_TypeDefinitionIndex = 71539;
+inline static constexpr unsigned int Class_1_0CDF082B369A0DD8_Class_1_4A89CC050EE47112_TypeDefinitionIndex = 80192;
 
 class Class_1_0CDF082B369A0DD8_Class_1_4A89CC050EE47112 : public ::System::Object
 {
 public:
-	::System::Action* Field_1_1; // 0x10
-	::System::Boolean Field_1_0; // 0x18
+	::System::Action* Field_1_0; // 0x10
+	::System::Boolean Field_1_1; // 0x18
 
 	::System::Void _ctor()
 	{

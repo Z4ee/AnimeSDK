@@ -4,16 +4,16 @@
 
 namespace System { class String; }
 
-#define STRUCT_2_16E1A7E812845E19_METHOD_2_4F3661D3B38CBEAF_OFFSET UNITYSDK_OFFSET(0x9C5820)
+#define STRUCT_2_16E1A7E812845E19_METHOD_2_4F3661D3B38CBEAF_OFFSET UNITYSDK_OFFSET(0xA007F0)
 
-inline static constexpr unsigned int Struct_2_16E1A7E812845E19_TypeDefinitionIndex = 88662;
+inline static constexpr unsigned int Struct_2_16E1A7E812845E19_TypeDefinitionIndex = 92059;
 
 struct alignas(4) Struct_2_16E1A7E812845E19
 {
 	::System::UInt32 Field_2_0; // 0x10
-	::System::UInt32 Field_2_1; // 0x14
-	::System::Int32 Field_2_2; // 0x18
-	::System::Int32 Field_2_3; // 0x1C
+	::System::UInt32 Field_2_7; // 0x14
+	::System::Int32 Field_2_6; // 0x18
+	::System::Int32 Field_2_5; // 0x1C
 
 	::System::String* Method_2_4F3661D3B38CBEAF()
 	{

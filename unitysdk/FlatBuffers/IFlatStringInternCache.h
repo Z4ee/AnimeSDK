@@ -5,7 +5,7 @@ namespace System { class String; }
 
 namespace FlatBuffers
 {
-	inline static constexpr unsigned int IFlatStringInternCache_TypeDefinitionIndex = 6723;
+	inline static constexpr unsigned int IFlatStringInternCache_TypeDefinitionIndex = 6727;
 
 	class IFlatStringInternCache
 	{

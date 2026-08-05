@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK::InputSystem
 {
-	inline static constexpr unsigned int IKeyService_TypeDefinitionIndex = 19285;
+	inline static constexpr unsigned int IKeyService_TypeDefinitionIndex = 19630;
 
 	class IKeyService
 	{

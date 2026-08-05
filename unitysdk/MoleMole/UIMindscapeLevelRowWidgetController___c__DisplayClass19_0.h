@@ -5,12 +5,12 @@
 namespace MoleMole { class UIMindscapeLevelRowWidgetController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIMINDSCAPELEVELROWWIDGETCONTROLLER___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15764750)
-#define MOLEMOLE_UIMINDSCAPELEVELROWWIDGETCONTROLLER___C__DISPLAYCLASS19_0__PLAYUNLOCKEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0x15764760)
+#define MOLEMOLE_UIMINDSCAPELEVELROWWIDGETCONTROLLER___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0x179EFF30)
+#define MOLEMOLE_UIMINDSCAPELEVELROWWIDGETCONTROLLER___C__DISPLAYCLASS19_0__PLAYUNLOCKEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0x179EFF40)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMindscapeLevelRowWidgetController___c__DisplayClass19_0_TypeDefinitionIndex = 83210;
+	inline static constexpr unsigned int UIMindscapeLevelRowWidgetController___c__DisplayClass19_0_TypeDefinitionIndex = 40370;
 
 	class UIMindscapeLevelRowWidgetController___c__DisplayClass19_0 : public ::System::Object
 	{

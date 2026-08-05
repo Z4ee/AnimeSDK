@@ -6,7 +6,7 @@
 namespace System { class String; }
 namespace System::Xml::Serialization { class XmlTypeMapping; }
 
-#define SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C182ED0)
+#define SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D576F30)
 
 namespace System::Xml::Serialization
 {
@@ -16,8 +16,8 @@ namespace System::Xml::Serialization
 	{
 	public:
 		::System::String* _namespace; // 0x50
-		::System::Xml::Serialization::XmlTypeMapping* _mappedType; // 0x58
-		::System::String* _attributeName; // 0x60
+		::System::String* _attributeName; // 0x58
+		::System::Xml::Serialization::XmlTypeMapping* _mappedType; // 0x60
 		::System::Xml::Schema::XmlSchemaForm _form; // 0x68
 
 		::System::Void _ctor()

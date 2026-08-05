@@ -10,26 +10,26 @@
 namespace System { class Object; }
 namespace UnityEngine { class GameObject; }
 
-#define CLASS_2_9C51BDD302088099_METHOD_2_071951CD5266DF8E_OFFSET UNITYSDK_OFFSET(0x13BF2F90)
-#define CLASS_2_9C51BDD302088099_METHOD_2_324AEE341AAA7A1B_OFFSET UNITYSDK_OFFSET(0x13BF2EB0)
-#define CLASS_2_9C51BDD302088099_METHOD_2_401E99765D1F24DB_OFFSET UNITYSDK_OFFSET(0x13BF2E90)
-#define CLASS_2_9C51BDD302088099_METHOD_2_80E810A007593AFA_OFFSET UNITYSDK_OFFSET(0x13BF2EC0)
-#define CLASS_2_9C51BDD302088099_METHOD_2_E5E342154D4EA5F5_OFFSET UNITYSDK_OFFSET(0x13BF2EA0)
-#define CLASS_2_9C51BDD302088099_METHOD_2_EAE236FAD8063DC7_OFFSET UNITYSDK_OFFSET(0x13BF28D0)
-#define CLASS_2_9C51BDD302088099_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0x13BF2680)
-#define CLASS_2_9C51BDD302088099_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x13BF2930)
-#define CLASS_2_9C51BDD302088099__CTOR_OFFSET UNITYSDK_OFFSET(0x13BF2E80)
+#define CLASS_2_9C51BDD302088099_METHOD_2_071951CD5266DF8E_OFFSET UNITYSDK_OFFSET(0x14FF5530)
+#define CLASS_2_9C51BDD302088099_METHOD_2_324AEE341AAA7A1B_OFFSET UNITYSDK_OFFSET(0x14FF5540)
+#define CLASS_2_9C51BDD302088099_METHOD_2_401E99765D1F24DB_OFFSET UNITYSDK_OFFSET(0x14FF5550)
+#define CLASS_2_9C51BDD302088099_METHOD_2_80E810A007593AFA_OFFSET UNITYSDK_OFFSET(0x14FF5460)
+#define CLASS_2_9C51BDD302088099_METHOD_2_E5E342154D4EA5F5_OFFSET UNITYSDK_OFFSET(0x14FF5450)
+#define CLASS_2_9C51BDD302088099_METHOD_2_EAE236FAD8063DC7_OFFSET UNITYSDK_OFFSET(0x14FF4E90)
+#define CLASS_2_9C51BDD302088099_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0x14FF4C40)
+#define CLASS_2_9C51BDD302088099_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x14FF4EF0)
+#define CLASS_2_9C51BDD302088099__CTOR_OFFSET UNITYSDK_OFFSET(0x14FF5440)
 
-inline static constexpr unsigned int Class_2_9C51BDD302088099_TypeDefinitionIndex = 72737;
+inline static constexpr unsigned int Class_2_9C51BDD302088099_TypeDefinitionIndex = 81378;
 
 class Class_2_9C51BDD302088099 : public ::UnityEngine::Playables::PlayableBehaviour
 {
 public:
-	::UnityEngine::GameObject* Field_2_2; // 0x10
-	::System::Boolean Field_2_3; // 0x18
-	::System::Boolean Field_2_1; // 0x19
-	::System::Boolean Field_2_4; // 0x1A
-	::MoleMole::Timeline::VisibilityTrack_Enum_3_A92A5D49790A47BD Field_2_0; // 0x1C
+	::UnityEngine::GameObject* Field_2_1; // 0x10
+	::System::Boolean Field_2_0; // 0x18
+	::System::Boolean Field_2_7; // 0x19
+	::System::Boolean Field_2_2; // 0x1A
+	::MoleMole::Timeline::VisibilityTrack_Enum_3_A92A5D49790A47BD Field_2_3; // 0x1C
 
 	::System::Void _ctor()
 	{
@@ -46,24 +46,9 @@ public:
 		return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_2_9C51BDD302088099_PROCESSFRAME_OFFSET))(this, a1, a2, a3);
 	}
 
-	::System::Void Method_2_401E99765D1F24DB(::MoleMole::Timeline::VisibilityTrack_Enum_3_A92A5D49790A47BD a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::MoleMole::Timeline::VisibilityTrack_Enum_3_A92A5D49790A47BD))((::PBYTE)hIl2Cpp + CLASS_2_9C51BDD302088099_METHOD_2_401E99765D1F24DB_OFFSET))(this, a1);
-	}
-
-	::System::Void Method_2_EAE236FAD8063DC7(::UnityEngine::GameObject* a1, ::System::Boolean a2)
-	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_2_9C51BDD302088099_METHOD_2_EAE236FAD8063DC7_OFFSET))(this, a1, a2);
-	}
-
 	::System::Void Method_2_E5E342154D4EA5F5(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2, ::System::Object* a3)
 	{
 		return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_2_9C51BDD302088099_METHOD_2_E5E342154D4EA5F5_OFFSET))(this, a1, a2, a3);
-	}
-
-	::System::Void Method_2_324AEE341AAA7A1B(::UnityEngine::Playables::Playable a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + CLASS_2_9C51BDD302088099_METHOD_2_324AEE341AAA7A1B_OFFSET))(this, a1);
 	}
 
 	static ::UnityEngine::Playables::ScriptPlayable_1<::Class_2_9C51BDD302088099*> Method_2_80E810A007593AFA(::UnityEngine::Playables::PlayableGraph a1, ::System::Int32 a2)
@@ -74,5 +59,20 @@ public:
 	::MoleMole::Timeline::VisibilityTrack_Enum_3_A92A5D49790A47BD Method_2_071951CD5266DF8E()
 	{
 		return ((::MoleMole::Timeline::VisibilityTrack_Enum_3_A92A5D49790A47BD(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_9C51BDD302088099_METHOD_2_071951CD5266DF8E_OFFSET))(this);
+	}
+
+	::System::Void Method_2_324AEE341AAA7A1B(::UnityEngine::Playables::Playable a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + CLASS_2_9C51BDD302088099_METHOD_2_324AEE341AAA7A1B_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_EAE236FAD8063DC7(::UnityEngine::GameObject* a1, ::System::Boolean a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_2_9C51BDD302088099_METHOD_2_EAE236FAD8063DC7_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_2_401E99765D1F24DB(::MoleMole::Timeline::VisibilityTrack_Enum_3_A92A5D49790A47BD a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::MoleMole::Timeline::VisibilityTrack_Enum_3_A92A5D49790A47BD))((::PBYTE)hIl2Cpp + CLASS_2_9C51BDD302088099_METHOD_2_401E99765D1F24DB_OFFSET))(this, a1);
 	}
 };

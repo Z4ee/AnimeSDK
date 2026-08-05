@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIABYSSARPEGGIOCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18D36420)
+#define MOLEMOLE_UIABYSSARPEGGIOCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B22E8B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAbyssArpeggioContext_TypeDefinitionIndex = 78620;
+	inline static constexpr unsigned int UIAbyssArpeggioContext_TypeDefinitionIndex = 76641;
 
 	class UIAbyssArpeggioContext : public ::MoleMole::UIControllerContextBase
 	{

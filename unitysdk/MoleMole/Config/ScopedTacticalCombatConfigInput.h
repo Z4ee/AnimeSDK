@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_CONFIG_SCOPEDTACTICALCOMBATCONFIGINPUT__CTOR_OFFSET UNITYSDK_OFFSET(0x1272ABE0)
+#define MOLEMOLE_CONFIG_SCOPEDTACTICALCOMBATCONFIGINPUT__CTOR_OFFSET UNITYSDK_OFFSET(0x13513E30)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ScopedTacticalCombatConfigInput_TypeDefinitionIndex = 44980;
+	inline static constexpr unsigned int ScopedTacticalCombatConfigInput_TypeDefinitionIndex = 73572;
 
 	class ScopedTacticalCombatConfigInput : public ::System::Object
 	{
@@ -17,6 +17,7 @@ namespace MoleMole::Config
 		::System::Single ScreenOffsetSensitivityX; // 0x1C
 		::System::Single ScreenOffsetSensitivityY; // 0x20
 		::System::Single RollAngleSensitivity; // 0x24
+		::System::Single HoldTimeSlowScale; // 0x28
 
 		::System::Void _ctor()
 		{

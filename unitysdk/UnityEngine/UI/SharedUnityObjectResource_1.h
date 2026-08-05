@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int SharedUnityObjectResource_1_TypeDefinitionIndex = 76045;
+	inline static constexpr unsigned int SharedUnityObjectResource_1_TypeDefinitionIndex = 52656;
 
 	template <typename T>
 	struct SharedUnityObjectResource_1

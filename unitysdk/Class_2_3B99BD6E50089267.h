@@ -7,17 +7,17 @@ namespace MoleMole::ChessStateMachine { class LayerConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_3B99BD6E50089267_METHOD_2_70C60064131DD9A1_1_OFFSET UNITYSDK_OFFSET(0x125B3090)
-#define CLASS_2_3B99BD6E50089267_METHOD_2_70C60064131DD9A1_OFFSET UNITYSDK_OFFSET(0x125B3070)
-#define CLASS_2_3B99BD6E50089267__CTOR_OFFSET UNITYSDK_OFFSET(0x125B3020)
+#define CLASS_2_3B99BD6E50089267_METHOD_2_70C60064131DD9A1_1_OFFSET UNITYSDK_OFFSET(0x1A2B8590)
+#define CLASS_2_3B99BD6E50089267_METHOD_2_70C60064131DD9A1_OFFSET UNITYSDK_OFFSET(0x1A2B8570)
+#define CLASS_2_3B99BD6E50089267__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2B8520)
 
-inline static constexpr unsigned int Class_2_3B99BD6E50089267_TypeDefinitionIndex = 48434;
+inline static constexpr unsigned int Class_2_3B99BD6E50089267_TypeDefinitionIndex = 50738;
 
 class Class_2_3B99BD6E50089267 : public ::Class_1_29EEA995F8FD7C71
 {
 public:
-	::MoleMole::ChessStateMachine::LayerConfig* Field_2_0; // 0x48
-	::Enum_3_2668F9BEE67DB4C8 Field_2_1; // 0x50
+	::MoleMole::ChessStateMachine::LayerConfig* Field_2_1; // 0x48
+	::Enum_3_2668F9BEE67DB4C8 Field_2_0; // 0x50
 
 	::System::Void _ctor()
 	{

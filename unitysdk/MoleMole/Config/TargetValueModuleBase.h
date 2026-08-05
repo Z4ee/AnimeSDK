@@ -2,14 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_3_B8F2A25A5ADF5CEE;
+class Class_3_707412604A129938;
 namespace MoleMole::Battle { class Entity; }
 
-#define MOLEMOLE_CONFIG_TARGETVALUEMODULEBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x115E9830)
+#define MOLEMOLE_CONFIG_TARGETVALUEMODULEBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x19211B90)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int TargetValueModuleBase_TypeDefinitionIndex = 61329;
+	inline static constexpr unsigned int TargetValueModuleBase_TypeDefinitionIndex = 64681;
 
 	class TargetValueModuleBase : public ::System::Object
 	{

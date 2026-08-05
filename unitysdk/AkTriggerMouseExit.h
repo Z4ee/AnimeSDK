@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/AkTriggerBase.h"
 
-#define AKTRIGGERMOUSEEXIT_ONMOUSEEXIT_OFFSET UNITYSDK_OFFSET(0x1E781290)
-#define AKTRIGGERMOUSEEXIT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7812B0)
+#define AKTRIGGERMOUSEEXIT_ONMOUSEEXIT_OFFSET UNITYSDK_OFFSET(0x1FB4B530)
+#define AKTRIGGERMOUSEEXIT__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB4B550)
 
-inline static constexpr unsigned int AkTriggerMouseExit_TypeDefinitionIndex = 33193;
+inline static constexpr unsigned int AkTriggerMouseExit_TypeDefinitionIndex = 33829;
 
 class AkTriggerMouseExit : public ::AkTriggerBase
 {

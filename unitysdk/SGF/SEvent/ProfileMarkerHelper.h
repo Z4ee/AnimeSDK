@@ -6,20 +6,20 @@ namespace SGF::SEvent { class StringProcessorChain; }
 namespace System { class Delegate; }
 namespace System { class String; }
 
-#define SGF_SEVENT_PROFILEMARKERHELPER_GETPROFILEMARKER_DEFAULT_OFFSET UNITYSDK_OFFSET(0x1E3759E0)
-#define SGF_SEVENT_PROFILEMARKERHELPER_GETPROPERTYSYNCHELPERPROFILEMARKER_OFFSET UNITYSDK_OFFSET(0x1E375700)
-#define SGF_SEVENT_PROFILEMARKERHELPER_GET_GETPROFILEMARKER_OFFSET UNITYSDK_OFFSET(0x1E375580)
+#define SGF_SEVENT_PROFILEMARKERHELPER_GETPROFILEMARKER_DEFAULT_OFFSET UNITYSDK_OFFSET(0x1F6687A0)
+#define SGF_SEVENT_PROFILEMARKERHELPER_GETPROPERTYSYNCHELPERPROFILEMARKER_OFFSET UNITYSDK_OFFSET(0x1F6684A0)
+#define SGF_SEVENT_PROFILEMARKERHELPER_GET_GETPROFILEMARKER_OFFSET UNITYSDK_OFFSET(0x1F668320)
 
 namespace SGF::SEvent
 {
-	inline static constexpr unsigned int ProfileMarkerHelper_TypeDefinitionIndex = 7820;
+	inline static constexpr unsigned int ProfileMarkerHelper_TypeDefinitionIndex = 8270;
 
 	class ProfileMarkerHelper : public ::System::Object
 	{
 	public:
 		static ::SGF::SEvent::StringProcessorChain** StaticGet__getProfileMarker()
 		{
-			return (::SGF::SEvent::StringProcessorChain**)Il2CppClass::FromTypeDefinitionIndex(ProfileMarkerHelper_TypeDefinitionIndex)->GetStaticField(0x74B0);
+			return (::SGF::SEvent::StringProcessorChain**)Il2CppClass::FromTypeDefinitionIndex(ProfileMarkerHelper_TypeDefinitionIndex)->GetStaticField(0x7080);
 		}
 
 		static ::SGF::SEvent::StringProcessorChain* get_GetProfileMarker()

@@ -7,12 +7,12 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CAMERAS_ENTITYCAMERAVIEWCONFIGBYANISOTROPICSTRETCH_METHOD_1_14396A53E5856F16_OFFSET UNITYSDK_OFFSET(0x13477CC0)
-#define MOLEMOLE_CAMERAS_ENTITYCAMERAVIEWCONFIGBYANISOTROPICSTRETCH__CTOR_OFFSET UNITYSDK_OFFSET(0x13477BE0)
+#define MOLEMOLE_CAMERAS_ENTITYCAMERAVIEWCONFIGBYANISOTROPICSTRETCH_METHOD_1_EA727EED653D961C_OFFSET UNITYSDK_OFFSET(0x14842B50)
+#define MOLEMOLE_CAMERAS_ENTITYCAMERAVIEWCONFIGBYANISOTROPICSTRETCH__CTOR_OFFSET UNITYSDK_OFFSET(0x14842A70)
 
 namespace MoleMole::Cameras
 {
-	inline static constexpr unsigned int EntityCameraViewConfigByAnisotropicStretch_TypeDefinitionIndex = 61855;
+	inline static constexpr unsigned int EntityCameraViewConfigByAnisotropicStretch_TypeDefinitionIndex = 78285;
 
 	class EntityCameraViewConfigByAnisotropicStretch : public ::System::Object
 	{
@@ -32,9 +32,9 @@ namespace MoleMole::Cameras
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_ENTITYCAMERAVIEWCONFIGBYANISOTROPICSTRETCH__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_1_14396A53E5856F16(::System::UInt32 a1, ::Struct_2_D46794D4B5408AA2& a2)
+		::System::Void Method_1_EA727EED653D961C(::System::UInt32 a1, ::Struct_2_D46794D4B5408AA2& a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::Struct_2_D46794D4B5408AA2&))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_ENTITYCAMERAVIEWCONFIGBYANISOTROPICSTRETCH_METHOD_1_14396A53E5856F16_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::Struct_2_D46794D4B5408AA2&))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_ENTITYCAMERAVIEWCONFIGBYANISOTROPICSTRETCH_METHOD_1_EA727EED653D961C_OFFSET))(this, a1, a2);
 		}
 	};
 }

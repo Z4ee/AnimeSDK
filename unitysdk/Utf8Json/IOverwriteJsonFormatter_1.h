@@ -6,7 +6,7 @@ namespace Utf8Json { class IJsonFormatterResolver; }
 
 namespace Utf8Json
 {
-	inline static constexpr unsigned int IOverwriteJsonFormatter_1_TypeDefinitionIndex = 91072;
+	inline static constexpr unsigned int IOverwriteJsonFormatter_1_TypeDefinitionIndex = 95005;
 
 	template <typename T>
 	class IOverwriteJsonFormatter_1

@@ -1,12 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/Enum_3_CC3BC82D2D2360D0.h"
 
-namespace System { class String; }
-namespace System::Collections::Generic { template <typename T> class List_1; }
-namespace UnityEngine { class Material; }
-namespace UnityEngine { class Renderer; }
+class Class_1_B890BA8430A32496_Class_1_D8C08C94211C11A1;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_286_TypeDefinitionIndex = 75510;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_286_TypeDefinitionIndex = 51236;
 
 class Class_0_16E4307DCC419505_286
 {

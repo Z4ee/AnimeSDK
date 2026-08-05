@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace Sirenix::Serialization::Utilities
 {
-	inline static constexpr unsigned int LinqExtensions_TypeDefinitionIndex = 7616;
+	inline static constexpr unsigned int LinqExtensions_TypeDefinitionIndex = 7620;
 
 	class LinqExtensions : public ::System::Object
 	{

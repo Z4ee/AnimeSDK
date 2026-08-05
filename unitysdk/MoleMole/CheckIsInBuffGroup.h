@@ -8,23 +8,23 @@ class Class_3_F41D242A20F8FE06;
 namespace MoleMole { class SharedGameEntity; }
 namespace MoleMole::Battle { class Entity; }
 
-#define MOLEMOLE_CHECKISINBUFFGROUP_ISINBUFFGROUP_OFFSET UNITYSDK_OFFSET(0x126FFED0)
-#define MOLEMOLE_CHECKISINBUFFGROUP_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x126FFCD0)
-#define MOLEMOLE_CHECKISINBUFFGROUP_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x126FFE80)
-#define MOLEMOLE_CHECKISINBUFFGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x126FFF70)
-#define MOLEMOLE_CHECKISINBUFFGROUP___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x12700010)
-#define MOLEMOLE_CHECKISINBUFFGROUP___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x127000A0)
+#define MOLEMOLE_CHECKISINBUFFGROUP_ISINBUFFGROUP_OFFSET UNITYSDK_OFFSET(0x134E6A40)
+#define MOLEMOLE_CHECKISINBUFFGROUP_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x134E6840)
+#define MOLEMOLE_CHECKISINBUFFGROUP_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x134E69F0)
+#define MOLEMOLE_CHECKISINBUFFGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x134E6AE0)
+#define MOLEMOLE_CHECKISINBUFFGROUP___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x134E6B80)
+#define MOLEMOLE_CHECKISINBUFFGROUP___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x134E6C10)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CheckIsInBuffGroup_TypeDefinitionIndex = 52217;
+	inline static constexpr unsigned int CheckIsInBuffGroup_TypeDefinitionIndex = 51982;
 
 	class CheckIsInBuffGroup : public ::BehaviorDesigner::Runtime::Tasks::Conditional
 	{
 	public:
-		::Class_3_F41D242A20F8FE06* _abilityComponent; // 0x50
-		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x58
-		::MoleMole::Battle::Entity* _ownerEntity; // 0x60
+		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x50
+		::MoleMole::Battle::Entity* _ownerEntity; // 0x58
+		::Class_3_F41D242A20F8FE06* _abilityComponent; // 0x60
 		::MoleMole::Config::BuffGroupName buffGroupName; // 0x68
 
 		::System::Void _ctor()

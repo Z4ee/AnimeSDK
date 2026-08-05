@@ -11,7 +11,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace PipelineCamera::CameraSequence
 {
-	inline static constexpr unsigned int ICameraSequenceCollection_TypeDefinitionIndex = 37921;
+	inline static constexpr unsigned int ICameraSequenceCollection_TypeDefinitionIndex = 38582;
 
 	class ICameraSequenceCollection
 	{

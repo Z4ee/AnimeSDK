@@ -6,12 +6,12 @@
 namespace MoleMole { class CGRuntimeUnit; }
 namespace UnityEngine::Animations { class ParentConstraint; }
 
-#define MOLEMOLE_TIMELINE_TIMELINECOMPONENT_REBINDCOMPS_SEAMLESSPARENTCONSTRAINTSYNCINFO__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1740C030)
-#define MOLEMOLE_TIMELINE_TIMELINECOMPONENT_REBINDCOMPS_SEAMLESSPARENTCONSTRAINTSYNCINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1740C020)
+#define MOLEMOLE_TIMELINE_TIMELINECOMPONENT_REBINDCOMPS_SEAMLESSPARENTCONSTRAINTSYNCINFO__CTOR_1_OFFSET UNITYSDK_OFFSET(0x129E8EB0)
+#define MOLEMOLE_TIMELINE_TIMELINECOMPONENT_REBINDCOMPS_SEAMLESSPARENTCONSTRAINTSYNCINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x129E8EA0)
 
 namespace MoleMole::Timeline::TimelineComponent::RebindComps
 {
-	inline static constexpr unsigned int SeamlessParentConstraintSyncInfo_TypeDefinitionIndex = 65036;
+	inline static constexpr unsigned int SeamlessParentConstraintSyncInfo_TypeDefinitionIndex = 73105;
 
 	class SeamlessParentConstraintSyncInfo : public ::MoleMole::Timeline::TimelineComponent::SeamlessConstraintReferenceCompInfo_1<::UnityEngine::Animations::ParentConstraint*>
 	{

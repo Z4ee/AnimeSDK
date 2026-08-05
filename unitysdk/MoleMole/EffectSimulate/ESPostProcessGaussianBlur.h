@@ -9,20 +9,20 @@ namespace MoleMole::EffectSimulate { class FloatKeyframeCurve; }
 namespace UnityEngine { class Texture; }
 namespace UnityEngine::Rendering::Universal { class GaussianBlur; }
 
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSGAUSSIANBLUR_METHOD_5_06330CD58CB602B6_OFFSET UNITYSDK_OFFSET(0x157F3D80)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSGAUSSIANBLUR_METHOD_5_2561DC986DD32699_1_OFFSET UNITYSDK_OFFSET(0x157F65C0)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSGAUSSIANBLUR_METHOD_5_2561DC986DD32699_OFFSET UNITYSDK_OFFSET(0x157F4D20)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSGAUSSIANBLUR_METHOD_5_25CD86BF8626C8D9_OFFSET UNITYSDK_OFFSET(0x157F4A40)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSGAUSSIANBLUR_METHOD_5_79E872D90798D236_1_OFFSET UNITYSDK_OFFSET(0x157F77E0)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSGAUSSIANBLUR_METHOD_5_79E872D90798D236_OFFSET UNITYSDK_OFFSET(0x157F7070)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSGAUSSIANBLUR_METHOD_5_80313B77C31AD02B_OFFSET UNITYSDK_OFFSET(0x157F41D0)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSGAUSSIANBLUR_METHOD_5_832295EC279E5994_OFFSET UNITYSDK_OFFSET(0x157F3FA0)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSGAUSSIANBLUR_METHOD_5_D7852DE078ACC1F1_OFFSET UNITYSDK_OFFSET(0x157F3FB0)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSGAUSSIANBLUR__CTOR_OFFSET UNITYSDK_OFFSET(0x157F7F50)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSGAUSSIANBLUR_METHOD_5_06330CD58CB602B6_OFFSET UNITYSDK_OFFSET(0x1BD9D7C0)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSGAUSSIANBLUR_METHOD_5_25CD86BF8626C8D9_OFFSET UNITYSDK_OFFSET(0x1BD9E680)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSGAUSSIANBLUR_METHOD_5_80313B77C31AD02B_OFFSET UNITYSDK_OFFSET(0x1BD9DC50)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSGAUSSIANBLUR_METHOD_5_832295EC279E5994_OFFSET UNITYSDK_OFFSET(0x1BD9DA00)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSGAUSSIANBLUR_METHOD_5_84B92802FDAFF6C8_OFFSET UNITYSDK_OFFSET(0x1BD9DA10)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSGAUSSIANBLUR_METHOD_5_9D8EF9AD3B13BD0E_1_OFFSET UNITYSDK_OFFSET(0x1BDA1E90)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSGAUSSIANBLUR_METHOD_5_9D8EF9AD3B13BD0E_OFFSET UNITYSDK_OFFSET(0x1BDA1570)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSGAUSSIANBLUR_METHOD_5_A4D542D66439C65E_1_OFFSET UNITYSDK_OFFSET(0x1BDA08C0)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSGAUSSIANBLUR_METHOD_5_A4D542D66439C65E_OFFSET UNITYSDK_OFFSET(0x1BD9EA10)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSGAUSSIANBLUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDA27B0)
 
 namespace MoleMole::EffectSimulate
 {
-	inline static constexpr unsigned int ESPostProcessGaussianBlur_TypeDefinitionIndex = 79087;
+	inline static constexpr unsigned int ESPostProcessGaussianBlur_TypeDefinitionIndex = 54718;
 
 	class ESPostProcessGaussianBlur : public ::MoleMole::EffectSimulate::ESPostProcessBehavior_1<::UnityEngine::Rendering::Universal::GaussianBlur*>
 	{
@@ -34,7 +34,8 @@ namespace MoleMole::EffectSimulate
 		::System::Single _VolDefault_maskTiling; // 0xC8
 		::System::Single _VolDefault_maskRotation; // 0xCC
 		::System::Boolean _VolDefault_maskDebug; // 0xD0
-		::System::Boolean _VolPreVal_downSample_overrideState; // 0xD1
+		::System::Boolean _VolDefault_enableBlurWithMonsterMask; // 0xD1
+		::System::Boolean _VolPreVal_downSample_overrideState; // 0xD2
 		::System::Int32 _VolPreVal_downSample; // 0xD4
 		::System::Boolean _VolPreVal_radius_overrideState; // 0xD8
 		::System::Single _VolPreVal_radius; // 0xDC
@@ -46,6 +47,8 @@ namespace MoleMole::EffectSimulate
 		::System::Single _VolPreVal_maskRotation; // 0xFC
 		::System::Boolean _VolPreVal_maskDebug_overrideState; // 0x100
 		::System::Boolean _VolPreVal_maskDebug; // 0x101
+		::System::Boolean _VolPreVal_enableBlurWithMonsterMask_overrideState; // 0x102
+		::System::Boolean _VolPreVal_enableBlurWithMonsterMask; // 0x103
 		::System::Single _TimelineCurveFirstVal_radius; // 0x104
 		::System::Single _TimelineCurveLastVal_radius; // 0x108
 		::System::Single _TimelineCurveFirstVal_maskTiling; // 0x10C
@@ -54,6 +57,8 @@ namespace MoleMole::EffectSimulate
 		::System::Single _TimelineCurveLastVal_maskRotation; // 0x118
 		::System::Boolean _TimelineCurveFirstVal_maskDebug; // 0x11C
 		::System::Boolean _TimelineCurveLastVal_maskDebug; // 0x11D
+		::System::Boolean _TimelineCurveFirstVal_enableBlurWithMonsterMask; // 0x11E
+		::System::Boolean _TimelineCurveLastVal_enableBlurWithMonsterMask; // 0x11F
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_downSample_FieldHandleType; // 0x120
 		::System::Int32 ESPP_downSample; // 0x124
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_radius_FieldHandleType; // 0x128
@@ -82,6 +87,12 @@ namespace MoleMole::EffectSimulate
 		::System::Boolean ESPP_maskDebug_EnableFade; // 0x190
 		::System::Boolean ESPP_maskDebug_EnableOverrideDefaultValue; // 0x191
 		::System::Boolean ESPP_maskDebug_OverrideDefaultValue; // 0x192
+		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_enableBlurWithMonsterMask_FieldHandleType; // 0x194
+		::System::Boolean ESPP_enableBlurWithMonsterMask_UseIt; // 0x198
+		::MoleMole::EffectSimulate::BoolKeyframeCurve* ESPP_enableBlurWithMonsterMask; // 0x1A0
+		::System::Boolean ESPP_enableBlurWithMonsterMask_EnableFade; // 0x1A8
+		::System::Boolean ESPP_enableBlurWithMonsterMask_EnableOverrideDefaultValue; // 0x1A9
+		::System::Boolean ESPP_enableBlurWithMonsterMask_OverrideDefaultValue; // 0x1AA
 
 		::System::Void _ctor()
 		{
@@ -98,9 +109,9 @@ namespace MoleMole::EffectSimulate
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSGAUSSIANBLUR_METHOD_5_832295EC279E5994_OFFSET))(this);
 		}
 
-		::System::Void Method_5_D7852DE078ACC1F1()
+		::System::Void Method_5_84B92802FDAFF6C8()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSGAUSSIANBLUR_METHOD_5_D7852DE078ACC1F1_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSGAUSSIANBLUR_METHOD_5_84B92802FDAFF6C8_OFFSET))(this);
 		}
 
 		::System::Void Method_5_80313B77C31AD02B()
@@ -113,24 +124,24 @@ namespace MoleMole::EffectSimulate
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSGAUSSIANBLUR_METHOD_5_25CD86BF8626C8D9_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_5_2561DC986DD32699(::System::Single a1)
+		::System::Void Method_5_A4D542D66439C65E(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSGAUSSIANBLUR_METHOD_5_2561DC986DD32699_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSGAUSSIANBLUR_METHOD_5_A4D542D66439C65E_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_5_2561DC986DD32699_1(::System::Single a1)
+		::System::Void Method_5_A4D542D66439C65E_1(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSGAUSSIANBLUR_METHOD_5_2561DC986DD32699_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSGAUSSIANBLUR_METHOD_5_A4D542D66439C65E_1_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_5_79E872D90798D236(::System::Single a1)
+		::System::Void Method_5_9D8EF9AD3B13BD0E(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSGAUSSIANBLUR_METHOD_5_79E872D90798D236_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSGAUSSIANBLUR_METHOD_5_9D8EF9AD3B13BD0E_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_5_79E872D90798D236_1(::System::Single a1)
+		::System::Void Method_5_9D8EF9AD3B13BD0E_1(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSGAUSSIANBLUR_METHOD_5_79E872D90798D236_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSGAUSSIANBLUR_METHOD_5_9D8EF9AD3B13BD0E_1_OFFSET))(this, a1);
 		}
 	};
 }

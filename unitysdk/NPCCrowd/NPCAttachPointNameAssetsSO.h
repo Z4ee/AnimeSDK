@@ -5,11 +5,11 @@
 namespace NPCCrowd { class NPCAttachPointName; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCCROWD_NPCATTACHPOINTNAMEASSETSSO__CTOR_OFFSET UNITYSDK_OFFSET(0x12747D20)
+#define NPCCROWD_NPCATTACHPOINTNAMEASSETSSO__CTOR_OFFSET UNITYSDK_OFFSET(0x10CB3480)
 
 namespace NPCCrowd
 {
-	inline static constexpr unsigned int NPCAttachPointNameAssetsSO_TypeDefinitionIndex = 68239;
+	inline static constexpr unsigned int NPCAttachPointNameAssetsSO_TypeDefinitionIndex = 41131;
 
 	class NPCAttachPointNameAssetsSO : public ::UnityEngine::ScriptableObject
 	{

@@ -5,24 +5,24 @@
 class Class_2_1EF6707C62AC94B6_1;
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MOLEMOLE_UIMAINSTORYPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x171497B0)
-#define MOLEMOLE_UIMAINSTORYPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x171497F0)
-#define MOLEMOLE_UIMAINSTORYPAGECONTROLLER___C__ONUIINIT_B__5_5_OFFSET UNITYSDK_OFFSET(0x17149800)
+#define MOLEMOLE_UIMAINSTORYPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x183AF0B0)
+#define MOLEMOLE_UIMAINSTORYPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x183AF0F0)
+#define MOLEMOLE_UIMAINSTORYPAGECONTROLLER___C__ONUIINIT_B__5_5_OFFSET UNITYSDK_OFFSET(0x183AF100)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMainStoryPageController___c_TypeDefinitionIndex = 76804;
+	inline static constexpr unsigned int UIMainStoryPageController___c_TypeDefinitionIndex = 84556;
 
 	class UIMainStoryPageController___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::Class_2_1EF6707C62AC94B6_1*, ::System::Int32>** StaticGet___9__5_5()
 		{
-			return (::System::Func_2<::Class_2_1EF6707C62AC94B6_1*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIMainStoryPageController___c_TypeDefinitionIndex)->GetStaticField(0x43410);
+			return (::System::Func_2<::Class_2_1EF6707C62AC94B6_1*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIMainStoryPageController___c_TypeDefinitionIndex)->GetStaticField(0x472A0);
 		}
 		static ::MoleMole::UIMainStoryPageController___c** StaticGet___9()
 		{
-			return (::MoleMole::UIMainStoryPageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIMainStoryPageController___c_TypeDefinitionIndex)->GetStaticField(0x43418);
+			return (::MoleMole::UIMainStoryPageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIMainStoryPageController___c_TypeDefinitionIndex)->GetStaticField(0x472A8);
 		}
 
 		static ::System::Void _cctor()

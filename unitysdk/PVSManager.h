@@ -8,11 +8,11 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define PVSMANAGER_STARTWITHLEVEL_OFFSET UNITYSDK_OFFSET(0x1E8871A0)
-#define PVSMANAGER_START_OFFSET UNITYSDK_OFFSET(0x1E887080)
-#define PVSMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E887570)
+#define PVSMANAGER_STARTWITHLEVEL_OFFSET UNITYSDK_OFFSET(0x1FC66440)
+#define PVSMANAGER_START_OFFSET UNITYSDK_OFFSET(0x1FC66330)
+#define PVSMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1FC66810)
 
-inline static constexpr unsigned int PVSManager_TypeDefinitionIndex = 37438;
+inline static constexpr unsigned int PVSManager_TypeDefinitionIndex = 38099;
 
 class PVSManager : public ::UnityEngine::MonoBehaviour
 {

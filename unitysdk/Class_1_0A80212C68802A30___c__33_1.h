@@ -5,10 +5,10 @@
 
 namespace System { template <typename T1, typename T2> class Func_2; }
 template <typename T> class Class_1_0A80212C68802A30___c__33_1;
-template <typename T> class Class_1_F903D5E6F6659E39_Class_3_B6136C2F127116DF;
-template <typename T> class Class_3_29159B775E435678;
+template <typename T> class Class_1_27B2F23D9FC8231C_Class_3_B6136C2F127116DF_2;
+template <typename T> class Class_3_B60F6C2F126D2E26;
 
-inline static constexpr unsigned int Class_1_0A80212C68802A30___c__33_1_TypeDefinitionIndex = 18613;
+inline static constexpr unsigned int Class_1_0A80212C68802A30___c__33_1_TypeDefinitionIndex = 18975;
 
 template <typename T>
 class Class_1_0A80212C68802A30___c__33_1 : public ::System::Object
@@ -18,13 +18,13 @@ public:
 	{
 		return (::Class_1_0A80212C68802A30___c__33_1<T>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_0A80212C68802A30___c__33_1_TypeDefinitionIndex)->GetStaticField(0x0);
 	}
-	static ::Class_3_29159B775E435678<T>** StaticGet___9__33_1()
+	static ::Class_3_B60F6C2F126D2E26<T>** StaticGet___9__33_1()
 	{
-		return (::Class_3_29159B775E435678<T>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_0A80212C68802A30___c__33_1_TypeDefinitionIndex)->GetStaticField(0x0);
+		return (::Class_3_B60F6C2F126D2E26<T>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_0A80212C68802A30___c__33_1_TypeDefinitionIndex)->GetStaticField(0x0);
 	}
-	static ::Class_1_F903D5E6F6659E39_Class_3_B6136C2F127116DF<T>** StaticGet___9__33_3()
+	static ::Class_1_27B2F23D9FC8231C_Class_3_B6136C2F127116DF_2<T>** StaticGet___9__33_3()
 	{
-		return (::Class_1_F903D5E6F6659E39_Class_3_B6136C2F127116DF<T>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_0A80212C68802A30___c__33_1_TypeDefinitionIndex)->GetStaticField(0x0);
+		return (::Class_1_27B2F23D9FC8231C_Class_3_B6136C2F127116DF_2<T>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_0A80212C68802A30___c__33_1_TypeDefinitionIndex)->GetStaticField(0x0);
 	}
 	static ::System::Func_2<T, ::System::Int32>** StaticGet___9__33_4()
 	{

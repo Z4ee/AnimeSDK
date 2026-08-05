@@ -6,16 +6,16 @@
 class Class_1_E5B7864412CDC074;
 namespace System { template <typename T> class Func_1; }
 
-#define CLASS_1_E5B7864412CDC074_CLASS_1_4A1F9E12425608F4_METHOD_1_95EAF395E6F95EA4_OFFSET UNITYSDK_OFFSET(0x11837F00)
-#define CLASS_1_E5B7864412CDC074_CLASS_1_4A1F9E12425608F4__CTOR_OFFSET UNITYSDK_OFFSET(0x11837EF0)
+#define CLASS_1_E5B7864412CDC074_CLASS_1_4A1F9E12425608F4_METHOD_1_95EAF395E6F95EA4_OFFSET UNITYSDK_OFFSET(0x16831120)
+#define CLASS_1_E5B7864412CDC074_CLASS_1_4A1F9E12425608F4__CTOR_OFFSET UNITYSDK_OFFSET(0x16831110)
 
-inline static constexpr unsigned int Class_1_E5B7864412CDC074_Class_1_4A1F9E12425608F4_TypeDefinitionIndex = 47604;
+inline static constexpr unsigned int Class_1_E5B7864412CDC074_Class_1_4A1F9E12425608F4_TypeDefinitionIndex = 87405;
 
 class Class_1_E5B7864412CDC074_Class_1_4A1F9E12425608F4 : public ::System::Object
 {
 public:
-	::Class_1_E5B7864412CDC074* Field_1_1; // 0x10
-	::System::Func_1<::System::ValueTuple_2<::System::Single, ::System::Single>>* Field_1_0; // 0x18
+	::Class_1_E5B7864412CDC074* Field_1_0; // 0x10
+	::System::Func_1<::System::ValueTuple_2<::System::Single, ::System::Single>>* Field_1_1; // 0x18
 
 	::System::Void _ctor()
 	{

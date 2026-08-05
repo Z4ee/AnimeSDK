@@ -4,7 +4,7 @@
 
 namespace Sirenix::Utilities
 {
-	inline static constexpr unsigned int MultiDimArrayUtilities_TypeDefinitionIndex = 6502;
+	inline static constexpr unsigned int MultiDimArrayUtilities_TypeDefinitionIndex = 6506;
 
 	class MultiDimArrayUtilities : public ::System::Object
 	{

@@ -3,11 +3,11 @@
 #include "unitysdk/MoleMole/Cameras/FirstPersonCameraDefaultSetting.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_CAMERAS_FIRSTPERSONCAMERACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x13EBF760)
+#define MOLEMOLE_CAMERAS_FIRSTPERSONCAMERACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1623AF70)
 
 namespace MoleMole::Cameras
 {
-	inline static constexpr unsigned int FirstPersonCameraConfig_TypeDefinitionIndex = 60846;
+	inline static constexpr unsigned int FirstPersonCameraConfig_TypeDefinitionIndex = 63771;
 
 	class FirstPersonCameraConfig : public ::System::Object
 	{

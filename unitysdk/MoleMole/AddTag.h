@@ -7,13 +7,13 @@
 namespace MoleMole { class SharedGameEntity; }
 namespace System { class String; }
 
-#define MOLEMOLE_ADDTAG_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x144BA6F0)
-#define MOLEMOLE_ADDTAG__CTOR_OFFSET UNITYSDK_OFFSET(0x144BABB0)
-#define MOLEMOLE_ADDTAG___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x144BAC40)
+#define MOLEMOLE_ADDTAG_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x12C9C320)
+#define MOLEMOLE_ADDTAG__CTOR_OFFSET UNITYSDK_OFFSET(0x12C9C850)
+#define MOLEMOLE_ADDTAG___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x12C9C8E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int AddTag_TypeDefinitionIndex = 84718;
+	inline static constexpr unsigned int AddTag_TypeDefinitionIndex = 52131;
 
 	class AddTag : public ::BehaviorDesigner::Runtime::Tasks::Action
 	{

@@ -4,7 +4,7 @@
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int NPCCrowdMontageManager_SequenceLayerSourceData_TypeDefinitionIndex = 65141;
+	inline static constexpr unsigned int NPCCrowdMontageManager_SequenceLayerSourceData_TypeDefinitionIndex = 66972;
 
 	struct alignas(4) NPCCrowdMontageManager_SequenceLayerSourceData
 	{

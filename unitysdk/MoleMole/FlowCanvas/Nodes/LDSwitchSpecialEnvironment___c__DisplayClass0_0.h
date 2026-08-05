@@ -5,11 +5,11 @@
 class Class_3_E82A8DEF8081DA8E;
 namespace MoleMole::Battle { class Entity; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSWITCHSPECIALENVIRONMENT___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0x191240C0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSWITCHSPECIALENVIRONMENT___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19DB6E90)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDSwitchSpecialEnvironment___c__DisplayClass0_0_TypeDefinitionIndex = 73729;
+	inline static constexpr unsigned int LDSwitchSpecialEnvironment___c__DisplayClass0_0_TypeDefinitionIndex = 49636;
 
 	class LDSwitchSpecialEnvironment___c__DisplayClass0_0 : public ::System::Object
 	{

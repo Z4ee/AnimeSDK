@@ -4,7 +4,7 @@
 
 namespace UnityEngine::InputSystem::LowLevel
 {
-	inline static constexpr unsigned int IEventPreProcessor_TypeDefinitionIndex = 31877;
+	inline static constexpr unsigned int IEventPreProcessor_TypeDefinitionIndex = 32497;
 
 	class IEventPreProcessor
 	{

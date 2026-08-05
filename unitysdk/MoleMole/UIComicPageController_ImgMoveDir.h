@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIComicPageController_ImgMoveDir_TypeDefinitionIndex = 46634;
+	inline static constexpr unsigned int UIComicPageController_ImgMoveDir_TypeDefinitionIndex = 87102;
 
 	enum class UIComicPageController_ImgMoveDir : ::System::Byte
 	{

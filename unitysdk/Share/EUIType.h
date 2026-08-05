@@ -3,7 +3,7 @@
 
 namespace Share
 {
-	inline static constexpr unsigned int EUIType_TypeDefinitionIndex = 17155;
+	inline static constexpr unsigned int EUIType_TypeDefinitionIndex = 12941;
 
 	enum class EUIType : ::System::Int16
 	{

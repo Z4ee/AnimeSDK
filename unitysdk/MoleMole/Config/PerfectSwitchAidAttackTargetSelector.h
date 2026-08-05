@@ -6,21 +6,21 @@ namespace MoleMole::Battle { class Entity; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_PERFECTSWITCHAIDATTACKTARGETSELECTOR_METHOD_2_35EA095E1AFDD9C8_OFFSET UNITYSDK_OFFSET(0x1A075120)
-#define MOLEMOLE_CONFIG_PERFECTSWITCHAIDATTACKTARGETSELECTOR_METHOD_2_77080AF97C54AF23_OFFSET UNITYSDK_OFFSET(0x1A074F30)
-#define MOLEMOLE_CONFIG_PERFECTSWITCHAIDATTACKTARGETSELECTOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A0751C0)
-#define MOLEMOLE_CONFIG_PERFECTSWITCHAIDATTACKTARGETSELECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0751B0)
+#define MOLEMOLE_CONFIG_PERFECTSWITCHAIDATTACKTARGETSELECTOR_METHOD_2_35EA095E1AFDD9C8_OFFSET UNITYSDK_OFFSET(0x19FF6520)
+#define MOLEMOLE_CONFIG_PERFECTSWITCHAIDATTACKTARGETSELECTOR_METHOD_2_77080AF97C54AF23_OFFSET UNITYSDK_OFFSET(0x19FF6330)
+#define MOLEMOLE_CONFIG_PERFECTSWITCHAIDATTACKTARGETSELECTOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x19FF65C0)
+#define MOLEMOLE_CONFIG_PERFECTSWITCHAIDATTACKTARGETSELECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x19FF65B0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int PerfectSwitchAidAttackTargetSelector_TypeDefinitionIndex = 78990;
+	inline static constexpr unsigned int PerfectSwitchAidAttackTargetSelector_TypeDefinitionIndex = 45269;
 
 	class PerfectSwitchAidAttackTargetSelector : public ::MoleMole::Config::ConfigTargetSelector
 	{
 	public:
 		static ::System::String** StaticGet_PerfectSwitchForceLockConfigTag()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PerfectSwitchAidAttackTargetSelector_TypeDefinitionIndex)->GetStaticField(0x39AB0);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PerfectSwitchAidAttackTargetSelector_TypeDefinitionIndex)->GetStaticField(0x3C7D0);
 		}
 
 		::System::Void _ctor()

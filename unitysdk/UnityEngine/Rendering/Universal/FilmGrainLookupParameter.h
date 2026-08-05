@@ -3,11 +3,11 @@
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/EnumVolumeParameter_1.h"
 #include "unitysdk/UnityEngine/Rendering/Universal/FilmGrainLookup.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_FILMGRAINLOOKUPPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0xF7989F0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FILMGRAINLOOKUPPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x110984A0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int FilmGrainLookupParameter_TypeDefinitionIndex = 27214;
+	inline static constexpr unsigned int FilmGrainLookupParameter_TypeDefinitionIndex = 27398;
 
 	class FilmGrainLookupParameter : public ::UnityEngine::NAPRenderPipeline0::EnumVolumeParameter_1<::UnityEngine::Rendering::Universal::FilmGrainLookup>
 	{

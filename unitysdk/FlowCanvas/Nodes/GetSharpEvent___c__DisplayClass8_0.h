@@ -5,18 +5,18 @@
 namespace FlowCanvas::Nodes { class GetSharpEvent; }
 namespace FlowCanvas::Nodes { class SharpEvent; }
 
-#define FLOWCANVAS_NODES_GETSHARPEVENT___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1D531F20)
-#define FLOWCANVAS_NODES_GETSHARPEVENT___C__DISPLAYCLASS8_0__REGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x1D531F30)
+#define FLOWCANVAS_NODES_GETSHARPEVENT___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1E229AC0)
+#define FLOWCANVAS_NODES_GETSHARPEVENT___C__DISPLAYCLASS8_0__REGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x1E229AD0)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int GetSharpEvent___c__DisplayClass8_0_TypeDefinitionIndex = 30907;
+	inline static constexpr unsigned int GetSharpEvent___c__DisplayClass8_0_TypeDefinitionIndex = 31189;
 
 	class GetSharpEvent___c__DisplayClass8_0 : public ::System::Object
 	{
 	public:
-		::FlowCanvas::Nodes::SharpEvent* wrapper; // 0x10
-		::FlowCanvas::Nodes::GetSharpEvent* __4__this; // 0x18
+		::FlowCanvas::Nodes::GetSharpEvent* __4__this; // 0x10
+		::FlowCanvas::Nodes::SharpEvent* wrapper; // 0x18
 
 		::System::Void _ctor()
 		{

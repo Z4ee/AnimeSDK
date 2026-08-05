@@ -3,11 +3,11 @@
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/EnumVolumeParameter_1.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/MotionBlurQuality.h"
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_MOTIONBLURQUALITYPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D72F420)
+#define UNITYENGINE_NAPRENDERPIPELINE0_MOTIONBLURQUALITYPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA6CBE0)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int MotionBlurQualityParameter_TypeDefinitionIndex = 6094;
+	inline static constexpr unsigned int MotionBlurQualityParameter_TypeDefinitionIndex = 6096;
 
 	class MotionBlurQualityParameter : public ::UnityEngine::NAPRenderPipeline0::EnumVolumeParameter_1<::UnityEngine::NAPRenderPipeline0::MotionBlurQuality>
 	{

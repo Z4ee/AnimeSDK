@@ -3,12 +3,12 @@
 #include "unitysdk/Struct_2_B679E4D914A10080.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_UIURBANMAPPOINTWIDGETCONTEXT___C__DISPLAYCLASS25_0__CALCULATESECTIONUNLOCK_B__0_OFFSET UNITYSDK_OFFSET(0x156D7140)
-#define MOLEMOLE_UIURBANMAPPOINTWIDGETCONTEXT___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0x156D7130)
+#define MOLEMOLE_UIURBANMAPPOINTWIDGETCONTEXT___C__DISPLAYCLASS25_0__CALCULATESECTIONUNLOCK_B__0_OFFSET UNITYSDK_OFFSET(0x17D77EB0)
+#define MOLEMOLE_UIURBANMAPPOINTWIDGETCONTEXT___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17D77EA0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIUrbanMapPointWidgetContext___c__DisplayClass25_0_TypeDefinitionIndex = 68175;
+	inline static constexpr unsigned int UIUrbanMapPointWidgetContext___c__DisplayClass25_0_TypeDefinitionIndex = 65383;
 
 	class UIUrbanMapPointWidgetContext___c__DisplayClass25_0 : public ::System::Object
 	{

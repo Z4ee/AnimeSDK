@@ -2,8 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/CharacterRampTexPass_CharacterRampPerMaterial.h"
 #include "unitysdk/NapMaterialFlags.h"
-#include "unitysdk/NapMaterialProperty.h"
-#include "unitysdk/NapMaterial___c__DisplayClass48_0.h"
+#include "unitysdk/NapMaterial___c__DisplayClass50_0.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/System/ValueTuple_5.h"
@@ -11,107 +10,120 @@
 
 class NapRenderer;
 class VectorArrayBuffer;
-namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine::Profiling { class CustomSampler; }
 
-#define NAPMATERIAL_COLLECTMATCAPVECTORARRAYPROPERTIES_OFFSET UNITYSDK_OFFSET(0x1B067FE0)
-#define NAPMATERIAL_GETMATERIALFROMCONTAINER_OFFSET UNITYSDK_OFFSET(0x1B0670C0)
-#define NAPMATERIAL_GET_CACHEDSHAREDMATERIAL_OFFSET UNITYSDK_OFFSET(0x1B067430)
-#define NAPMATERIAL_GET_HASINSTANCEDMAT_OFFSET UNITYSDK_OFFSET(0x1B066CB0)
-#define NAPMATERIAL_GET_MATERIAL_OFFSET UNITYSDK_OFFSET(0x1B066DC0)
-#define NAPMATERIAL_GET_SHAREDMATERIAL_OFFSET UNITYSDK_OFFSET(0x1B067350)
-#define NAPMATERIAL_GET_SUPPORTPEROBJECTSHADOW_OFFSET UNITYSDK_OFFSET(0x1B067740)
-#define NAPMATERIAL_HASFLAG_OFFSET UNITYSDK_OFFSET(0x1B0677E0)
-#define NAPMATERIAL_INITPROPERTY_OFFSET UNITYSDK_OFFSET(0x1B0684B0)
-#define NAPMATERIAL_REBINDARRAYPROPERTYBUFFER_OFFSET UNITYSDK_OFFSET(0x1B067A20)
-#define NAPMATERIAL_REFRESHMATCAPVECTORARRAYPROPERTIES_OFFSET UNITYSDK_OFFSET(0x1B069990)
-#define NAPMATERIAL_REFRESHMATERIALMATCAPVECTORARRAY_OFFSET UNITYSDK_OFFSET(0x1B068990)
-#define NAPMATERIAL_REPLACEINSTANCEDMATERIAL_OFFSET UNITYSDK_OFFSET(0x1B067F90)
-#define NAPMATERIAL_RESET_OFFSET UNITYSDK_OFFSET(0x1B067850)
-#define NAPMATERIAL_SETFLAG_OFFSET UNITYSDK_OFFSET(0x1B0679C0)
-#define NAPMATERIAL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B06A770)
-#define NAPMATERIAL__CTOR_OFFSET UNITYSDK_OFFSET(0x1B06A730)
-#define NAPMATERIAL__REFRESHMATCAPVECTORARRAYPROPERTIES_G__GETFLOAT_48_0_OFFSET UNITYSDK_OFFSET(0x1B06A6E0)
+#define NAPMATERIAL_COLLECTMATCAPVECTORARRAYPROPERTIES_OFFSET UNITYSDK_OFFSET(0x1C4C8860)
+#define NAPMATERIAL_GETMATERIALFROMCONTAINER_OFFSET UNITYSDK_OFFSET(0x1C4C7EC0)
+#define NAPMATERIAL_GET_CACHEDSHAREDMATERIAL_OFFSET UNITYSDK_OFFSET(0x1C4C8220)
+#define NAPMATERIAL_GET_HASINSTANCEDMAT_OFFSET UNITYSDK_OFFSET(0x1C4C7AB0)
+#define NAPMATERIAL_GET_MATERIAL_OFFSET UNITYSDK_OFFSET(0x1C4C7BC0)
+#define NAPMATERIAL_GET_SHAREDMATERIAL_OFFSET UNITYSDK_OFFSET(0x1C4C8140)
+#define NAPMATERIAL_GET_SUPPORTPEROBJECTSHADOW_OFFSET UNITYSDK_OFFSET(0x1C4C8530)
+#define NAPMATERIAL_HASFLAG_OFFSET UNITYSDK_OFFSET(0x1C4C85D0)
+#define NAPMATERIAL_REFRESHMATCAPVECTORARRAYPROPERTIES_OFFSET UNITYSDK_OFFSET(0x1C4C97B0)
+#define NAPMATERIAL_REFRESHMATERIALMATCAPVECTORARRAY_OFFSET UNITYSDK_OFFSET(0x1C4C8CA0)
+#define NAPMATERIAL_REPLACEINSTANCEDMATERIAL_OFFSET UNITYSDK_OFFSET(0x1C4C8810)
+#define NAPMATERIAL_RESET_OFFSET UNITYSDK_OFFSET(0x1C4C8640)
+#define NAPMATERIAL_SETFLAG_OFFSET UNITYSDK_OFFSET(0x1C4C87B0)
+#define NAPMATERIAL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C4CA280)
+#define NAPMATERIAL__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4CA240)
+#define NAPMATERIAL__REFRESHMATCAPVECTORARRAYPROPERTIES_G__GETFLOAT_50_0_OFFSET UNITYSDK_OFFSET(0x1C4CA1F0)
 
-inline static constexpr unsigned int NapMaterial_TypeDefinitionIndex = 27009;
+inline static constexpr unsigned int NapMaterial_TypeDefinitionIndex = 26804;
 
 class NapMaterial : public ::System::Object
 {
 public:
+	static ::Il2CppArray<::System::Int32>** StaticGet__MatCapBlendMode()
+	{
+		return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(NapMaterial_TypeDefinitionIndex)->GetStaticField(0x23320);
+	}
+	static ::Il2CppArray<::System::Int32>** StaticGet__MatCapVSpeed()
+	{
+		return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(NapMaterial_TypeDefinitionIndex)->GetStaticField(0x23328);
+	}
 	static ::System::Collections::Generic::HashSet_1<::System::Int32>** StaticGet_matcapVectorArrayProperties()
 	{
-		return (::System::Collections::Generic::HashSet_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(NapMaterial_TypeDefinitionIndex)->GetStaticField(0x21B80);
+		return (::System::Collections::Generic::HashSet_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(NapMaterial_TypeDefinitionIndex)->GetStaticField(0x23330);
 	}
-	static ::Il2CppArray<::NapMaterialProperty>** StaticGet__MatCapColorBurst()
+	static ::Il2CppArray<::System::Int32>** StaticGet__MatCapUSpeed()
 	{
-		return (::Il2CppArray<::NapMaterialProperty>**)Il2CppClass::FromTypeDefinitionIndex(NapMaterial_TypeDefinitionIndex)->GetStaticField(0x21B88);
-	}
-	static ::Il2CppArray<::NapMaterialProperty>** StaticGet__MatCapTexID()
-	{
-		return (::Il2CppArray<::NapMaterialProperty>**)Il2CppClass::FromTypeDefinitionIndex(NapMaterial_TypeDefinitionIndex)->GetStaticField(0x21B90);
-	}
-	static ::Il2CppArray<::NapMaterialProperty>** StaticGet__MatCapColorTint()
-	{
-		return (::Il2CppArray<::NapMaterialProperty>**)Il2CppClass::FromTypeDefinitionIndex(NapMaterial_TypeDefinitionIndex)->GetStaticField(0x21B98);
-	}
-	static ::Il2CppArray<::NapMaterialProperty>** StaticGet__MatCapUSpeed()
-	{
-		return (::Il2CppArray<::NapMaterialProperty>**)Il2CppClass::FromTypeDefinitionIndex(NapMaterial_TypeDefinitionIndex)->GetStaticField(0x21BA0);
-	}
-	static ::Il2CppArray<::NapMaterialProperty>** StaticGet__MatCapVSpeed()
-	{
-		return (::Il2CppArray<::NapMaterialProperty>**)Il2CppClass::FromTypeDefinitionIndex(NapMaterial_TypeDefinitionIndex)->GetStaticField(0x21BA8);
-	}
-	static ::Il2CppArray<::System::ValueTuple_5<::NapMaterialProperty, ::Il2CppArray<::NapMaterialProperty>*, ::Il2CppArray<::NapMaterialProperty>*, ::Il2CppArray<::NapMaterialProperty>*, ::Il2CppArray<::NapMaterialProperty>*>>** StaticGet_floatPackSettings()
-	{
-		return (::Il2CppArray<::System::ValueTuple_5<::NapMaterialProperty, ::Il2CppArray<::NapMaterialProperty>*, ::Il2CppArray<::NapMaterialProperty>*, ::Il2CppArray<::NapMaterialProperty>*, ::Il2CppArray<::NapMaterialProperty>*>>**)Il2CppClass::FromTypeDefinitionIndex(NapMaterial_TypeDefinitionIndex)->GetStaticField(0x21BB0);
-	}
-	static ::Il2CppArray<::NapMaterialProperty>** StaticGet__RefractParam()
-	{
-		return (::Il2CppArray<::NapMaterialProperty>**)Il2CppClass::FromTypeDefinitionIndex(NapMaterial_TypeDefinitionIndex)->GetStaticField(0x21BB8);
-	}
-	static ::Il2CppArray<::NapMaterialProperty>** StaticGet__MatCapRefract()
-	{
-		return (::Il2CppArray<::NapMaterialProperty>**)Il2CppClass::FromTypeDefinitionIndex(NapMaterial_TypeDefinitionIndex)->GetStaticField(0x21BC0);
-	}
-	static ::Il2CppArray<::NapMaterialProperty>** StaticGet__MatCapAlphaBurst()
-	{
-		return (::Il2CppArray<::NapMaterialProperty>**)Il2CppClass::FromTypeDefinitionIndex(NapMaterial_TypeDefinitionIndex)->GetStaticField(0x21BC8);
-	}
-	static ::Il2CppArray<::NapMaterialProperty>** StaticGet__RefractDepth()
-	{
-		return (::Il2CppArray<::NapMaterialProperty>**)Il2CppClass::FromTypeDefinitionIndex(NapMaterial_TypeDefinitionIndex)->GetStaticField(0x21BD0);
+		return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(NapMaterial_TypeDefinitionIndex)->GetStaticField(0x23338);
 	}
 	static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_RefreshMatCapVectorArrayProperties()
 	{
-		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapMaterial_TypeDefinitionIndex)->GetStaticField(0x21BD8);
+		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapMaterial_TypeDefinitionIndex)->GetStaticField(0x23340);
 	}
-	static ::Il2CppArray<::System::ValueTuple_2<::NapMaterialProperty, ::Il2CppArray<::NapMaterialProperty>*>>** StaticGet_vectorProperties()
+	static ::Il2CppArray<::System::ValueTuple_5<::System::Int32, ::Il2CppArray<::System::Int32>*, ::Il2CppArray<::System::Int32>*, ::Il2CppArray<::System::Int32>*, ::Il2CppArray<::System::Int32>*>>** StaticGet_floatPackSettings()
 	{
-		return (::Il2CppArray<::System::ValueTuple_2<::NapMaterialProperty, ::Il2CppArray<::NapMaterialProperty>*>>**)Il2CppClass::FromTypeDefinitionIndex(NapMaterial_TypeDefinitionIndex)->GetStaticField(0x21BE0);
+		return (::Il2CppArray<::System::ValueTuple_5<::System::Int32, ::Il2CppArray<::System::Int32>*, ::Il2CppArray<::System::Int32>*, ::Il2CppArray<::System::Int32>*, ::Il2CppArray<::System::Int32>*>>**)Il2CppClass::FromTypeDefinitionIndex(NapMaterial_TypeDefinitionIndex)->GetStaticField(0x23348);
 	}
-	static ::Il2CppArray<::NapMaterialProperty>** StaticGet__MatCapBlendMode()
+	static ::Il2CppArray<::System::Int32>** StaticGet__MatCapColorBurst()
 	{
-		return (::Il2CppArray<::NapMaterialProperty>**)Il2CppClass::FromTypeDefinitionIndex(NapMaterial_TypeDefinitionIndex)->GetStaticField(0x21BE8);
+		return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(NapMaterial_TypeDefinitionIndex)->GetStaticField(0x23350);
+	}
+	static ::Il2CppArray<::System::Int32>** StaticGet__MatCapAlphaBurst()
+	{
+		return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(NapMaterial_TypeDefinitionIndex)->GetStaticField(0x23358);
+	}
+	static ::Il2CppArray<::System::Int32>** StaticGet__MatCapRefract()
+	{
+		return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(NapMaterial_TypeDefinitionIndex)->GetStaticField(0x23360);
+	}
+	static ::Il2CppArray<::System::ValueTuple_2<::System::Int32, ::Il2CppArray<::System::Int32>*>>** StaticGet_vectorProperties()
+	{
+		return (::Il2CppArray<::System::ValueTuple_2<::System::Int32, ::Il2CppArray<::System::Int32>*>>**)Il2CppClass::FromTypeDefinitionIndex(NapMaterial_TypeDefinitionIndex)->GetStaticField(0x23368);
+	}
+	static ::Il2CppArray<::System::Int32>** StaticGet__MatCapColorTint()
+	{
+		return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(NapMaterial_TypeDefinitionIndex)->GetStaticField(0x23370);
+	}
+	static ::Il2CppArray<::System::Int32>** StaticGet__MatCapTexID()
+	{
+		return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(NapMaterial_TypeDefinitionIndex)->GetStaticField(0x23378);
+	}
+	static ::Il2CppArray<::System::Int32>** StaticGet__RefractDepth()
+	{
+		return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(NapMaterial_TypeDefinitionIndex)->GetStaticField(0x23380);
+	}
+	static ::Il2CppArray<::System::Int32>** StaticGet__RefractParam()
+	{
+		return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(NapMaterial_TypeDefinitionIndex)->GetStaticField(0x23388);
+	}
+	static ::System::Int32* StaticGet__MatCapVSpeed_MatCapBlendMode_MatCapRefract_RefractDepthID()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NapMaterial_TypeDefinitionIndex)->GetStaticField(0x66E0);
+	}
+	static ::System::Int32* StaticGet__MatCapTexID_MatCapColorBurst_MatCapAlphaBurst_MatCapUSpeedID()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NapMaterial_TypeDefinitionIndex)->GetStaticField(0x66E4);
+	}
+	static ::System::Int32* StaticGet__RefractParamArrayID()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NapMaterial_TypeDefinitionIndex)->GetStaticField(0x66E8);
+	}
+	static ::System::Int32* StaticGet__MatCapColorTintArrayID()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NapMaterial_TypeDefinitionIndex)->GetStaticField(0x66EC);
 	}
 	// static const ::System::Int32 MAX_ARRAY_PROPERTY_COUNT = 0x5; // 0x0
-	::NapRenderer* napRenderer; // 0x10
-	::Il2CppArray<::CharacterRampTexPass_CharacterRampPerMaterial>* rampInput; // 0x18
-	::UnityEngine::Material* _material; // 0x20
-	::Il2CppArray<::System::Int32>* cachedTexIDs; // 0x28
-	::Il2CppArray<::UnityEngine::Vector4>* arrayValues; // 0x30
-	::VectorArrayBuffer* arrayPropertyBuffer; // 0x38
-	::System::Int32 usedMaterialIDCount; // 0x40
-	::UnityEngine::Vector4 _RampTexParams1; // 0x44
-	::System::Int32 prevResbuildVersion; // 0x54
-	::System::Single albedoSmoothness; // 0x58
-	::NapMaterialFlags flags; // 0x5C
-	::System::Int32 materialIDCount; // 0x60
-	::System::Single _RampTexParams0_w; // 0x64
-	::System::Int32 matIndex; // 0x68
+	::Il2CppArray<::CharacterRampTexPass_CharacterRampPerMaterial>* rampInput; // 0x10
+	::VectorArrayBuffer* arrayPropertyBuffer; // 0x18
+	::NapRenderer* napRenderer; // 0x20
+	::UnityEngine::Material* _material; // 0x28
+	::Il2CppArray<::System::Int32>* cachedTexIDs; // 0x30
+	::Il2CppArray<::UnityEngine::Vector4>* arrayValues; // 0x38
+	::System::Int32 prevResbuildVersion; // 0x40
+	::NapMaterialFlags flags; // 0x44
+	::System::Single _RampTexParams0_w; // 0x48
+	::System::Int32 usedMaterialIDCount; // 0x4C
+	::System::Int32 matIndex; // 0x50
+	::System::Single albedoSmoothness; // 0x54
+	::System::Int32 materialIDCount; // 0x58
+	::UnityEngine::Vector4 _RampTexParams1; // 0x5C
 
 	::System::Void _ctor()
 	{
@@ -168,11 +180,6 @@ public:
 		return ((::System::Boolean(*)(::PVOID, ::NapMaterialFlags, ::System::Boolean))((::PBYTE)hIl2Cpp + NAPMATERIAL_HASFLAG_OFFSET))(this, flags, checkAllFlags);
 	}
 
-	::System::Void RebindArrayPropertyBuffer()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NAPMATERIAL_REBINDARRAYPROPERTYBUFFER_OFFSET))(this);
-	}
-
 	::System::Void ReplaceInstancedMaterial(::UnityEngine::Material* material)
 	{
 		return ((::System::Void(*)(::PVOID, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + NAPMATERIAL_REPLACEINSTANCEDMATERIAL_OFFSET))(this, material);
@@ -181,11 +188,6 @@ public:
 	static ::System::Collections::Generic::HashSet_1<::System::Int32>* CollectMatCapVectorArrayProperties()
 	{
 		return ((::System::Collections::Generic::HashSet_1<::System::Int32>*(*)())((::PBYTE)hIl2Cpp + NAPMATERIAL_COLLECTMATCAPVECTORARRAYPROPERTIES_OFFSET))();
-	}
-
-	static ::Il2CppArray<::NapMaterialProperty>* InitProperty(::System::String* name)
-	{
-		return ((::Il2CppArray<::NapMaterialProperty>*(*)(::System::String*))((::PBYTE)hIl2Cpp + NAPMATERIAL_INITPROPERTY_OFFSET))(name);
 	}
 
 	static ::System::Void RefreshMaterialMatCapVectorArray(::UnityEngine::Material*& mat)
@@ -198,8 +200,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NAPMATERIAL_REFRESHMATCAPVECTORARRAYPROPERTIES_OFFSET))(this);
 	}
 
-	static ::System::Single _RefreshMatCapVectorArrayProperties_g__GetFloat_48_0(::System::Int32 propertyID, ::NapMaterial___c__DisplayClass48_0& a2)
+	static ::System::Single _RefreshMatCapVectorArrayProperties_g__GetFloat_50_0(::System::Int32 propertyID, ::NapMaterial___c__DisplayClass50_0& a2)
 	{
-		return ((::System::Single(*)(::System::Int32, ::NapMaterial___c__DisplayClass48_0&))((::PBYTE)hIl2Cpp + NAPMATERIAL__REFRESHMATCAPVECTORARRAYPROPERTIES_G__GETFLOAT_48_0_OFFSET))(propertyID, a2);
+		return ((::System::Single(*)(::System::Int32, ::NapMaterial___c__DisplayClass50_0&))((::PBYTE)hIl2Cpp + NAPMATERIAL__REFRESHMATCAPVECTORARRAYPROPERTIES_G__GETFLOAT_50_0_OFFSET))(propertyID, a2);
 	}
 };

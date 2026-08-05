@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define UNITYENGINE_INTEGRATEDSUBSYSTEMDESCRIPTOR_UNITYENGINE_ISUBSYSTEMDESCRIPTORIMPL_SET_PTR_OFFSET UNITYSDK_OFFSET(0x1E8788F0)
-#define UNITYENGINE_INTEGRATEDSUBSYSTEMDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1E878900)
+#define UNITYENGINE_INTEGRATEDSUBSYSTEMDESCRIPTOR_UNITYENGINE_ISUBSYSTEMDESCRIPTORIMPL_SET_PTR_OFFSET UNITYSDK_OFFSET(0x1FC583B0)
+#define UNITYENGINE_INTEGRATEDSUBSYSTEMDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1FC583C0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int IntegratedSubsystemDescriptor_TypeDefinitionIndex = 18832;
+	inline static constexpr unsigned int IntegratedSubsystemDescriptor_TypeDefinitionIndex = 19172;
 
 	class IntegratedSubsystemDescriptor : public ::System::Object
 	{

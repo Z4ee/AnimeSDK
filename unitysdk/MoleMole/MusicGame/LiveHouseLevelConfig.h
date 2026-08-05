@@ -3,11 +3,11 @@
 #include "unitysdk/Enum_3_5F83A003C5E29080.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_MUSICGAME_LIVEHOUSELEVELCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x173F9C10)
+#define MOLEMOLE_MUSICGAME_LIVEHOUSELEVELCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x129D6A90)
 
 namespace MoleMole::MusicGame
 {
-	inline static constexpr unsigned int LiveHouseLevelConfig_TypeDefinitionIndex = 45468;
+	inline static constexpr unsigned int LiveHouseLevelConfig_TypeDefinitionIndex = 45406;
 
 	class LiveHouseLevelConfig : public ::System::Object
 	{

@@ -7,18 +7,18 @@
 namespace MoleMole { class UIHollowCardOptionsAbyssS2DialogPopWindowController; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define MOLEMOLE_UIHOLLOWCARDOPTIONSABYSSS2DIALOGPOPWINDOWCONTROLLER__REFRESHTASK_D__59_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x846610)
-#define MOLEMOLE_UIHOLLOWCARDOPTIONSABYSSS2DIALOGPOPWINDOWCONTROLLER__REFRESHTASK_D__59_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x283610)
+#define MOLEMOLE_UIHOLLOWCARDOPTIONSABYSSS2DIALOGPOPWINDOWCONTROLLER__REFRESHTASK_D__59_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x87ED70)
+#define MOLEMOLE_UIHOLLOWCARDOPTIONSABYSSS2DIALOGPOPWINDOWCONTROLLER__REFRESHTASK_D__59_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x296F30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowCardOptionsAbyssS2DialogPopWindowController__RefreshTask_d__59_TypeDefinitionIndex = 58278;
+	inline static constexpr unsigned int UIHollowCardOptionsAbyssS2DialogPopWindowController__RefreshTask_d__59_TypeDefinitionIndex = 41324;
 
 	struct alignas(8) UIHollowCardOptionsAbyssS2DialogPopWindowController__RefreshTask_d__59
 	{
-		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x10
-		::MoleMole::UIHollowCardOptionsAbyssS2DialogPopWindowController* __4__this; // 0x20
-		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x28
+		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x10
+		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x20
+		::MoleMole::UIHollowCardOptionsAbyssS2DialogPopWindowController* __4__this; // 0x30
 		::System::Int32 __1__state; // 0x38
 
 		::System::Void MoveNext()

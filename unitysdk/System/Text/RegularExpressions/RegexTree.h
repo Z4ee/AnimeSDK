@@ -7,7 +7,7 @@ namespace System { class String; }
 namespace System::Collections { class Hashtable; }
 namespace System::Text::RegularExpressions { class RegexNode; }
 
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXTREE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB08D90)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXTREE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DED0170)
 
 namespace System::Text::RegularExpressions
 {
@@ -16,11 +16,11 @@ namespace System::Text::RegularExpressions
 	class RegexTree : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::String*>* _capslist; // 0x10
-		::System::Text::RegularExpressions::RegexNode* _root; // 0x18
-		::Il2CppArray<::System::Int32>* _capnumlist; // 0x20
-		::System::Collections::Hashtable* _capnames; // 0x28
-		::System::Collections::Hashtable* _caps; // 0x30
+		::System::Collections::Hashtable* _caps; // 0x10
+		::Il2CppArray<::System::String*>* _capslist; // 0x18
+		::System::Text::RegularExpressions::RegexNode* _root; // 0x20
+		::Il2CppArray<::System::Int32>* _capnumlist; // 0x28
+		::System::Collections::Hashtable* _capnames; // 0x30
 		::System::Int32 _captop; // 0x38
 		::System::Text::RegularExpressions::RegexOptions _options; // 0x3C
 

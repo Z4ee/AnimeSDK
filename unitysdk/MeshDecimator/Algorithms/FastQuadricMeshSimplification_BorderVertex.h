@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define MESHDECIMATOR_ALGORITHMS_FASTQUADRICMESHSIMPLIFICATION_BORDERVERTEX__CTOR_OFFSET UNITYSDK_OFFSET(0x2AB920)
+#define MESHDECIMATOR_ALGORITHMS_FASTQUADRICMESHSIMPLIFICATION_BORDERVERTEX__CTOR_OFFSET UNITYSDK_OFFSET(0x312BA0)
 
 namespace MeshDecimator::Algorithms
 {
-	inline static constexpr unsigned int FastQuadricMeshSimplification_BorderVertex_TypeDefinitionIndex = 34837;
+	inline static constexpr unsigned int FastQuadricMeshSimplification_BorderVertex_TypeDefinitionIndex = 35496;
 
 	struct alignas(4) FastQuadricMeshSimplification_BorderVertex
 	{

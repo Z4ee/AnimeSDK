@@ -6,28 +6,28 @@
 namespace System { template <typename T1, typename T2> class Tuple_2; }
 namespace UnityEngine::Rendering::Universal { class CharacterColorCorrection; }
 
-#define MOLEMOLE_UIGACHAPERFORMANCE3DMODELCONTROLLER_CHARACTERCOLORCORRECTIONPARAMS_CACHEPARAMS_OFFSET UNITYSDK_OFFSET(0x187EB460)
-#define MOLEMOLE_UIGACHAPERFORMANCE3DMODELCONTROLLER_CHARACTERCOLORCORRECTIONPARAMS_RECOVERPARAMS_OFFSET UNITYSDK_OFFSET(0x187EB970)
-#define MOLEMOLE_UIGACHAPERFORMANCE3DMODELCONTROLLER_CHARACTERCOLORCORRECTIONPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x187EB450)
+#define MOLEMOLE_UIGACHAPERFORMANCE3DMODELCONTROLLER_CHARACTERCOLORCORRECTIONPARAMS_CACHEPARAMS_OFFSET UNITYSDK_OFFSET(0x19EE3340)
+#define MOLEMOLE_UIGACHAPERFORMANCE3DMODELCONTROLLER_CHARACTERCOLORCORRECTIONPARAMS_RECOVERPARAMS_OFFSET UNITYSDK_OFFSET(0x19EE3830)
+#define MOLEMOLE_UIGACHAPERFORMANCE3DMODELCONTROLLER_CHARACTERCOLORCORRECTIONPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x19EE3330)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGachaPerformance3DModelController_CharacterColorCorrectionParams_TypeDefinitionIndex = 53653;
+	inline static constexpr unsigned int UIGachaPerformance3DModelController_CharacterColorCorrectionParams_TypeDefinitionIndex = 71024;
 
 	class UIGachaPerformance3DModelController_CharacterColorCorrectionParams : public ::System::Object
 	{
 	public:
-		::UnityEngine::Rendering::Universal::CharacterColorCorrection* _sourceData; // 0x10
-		::System::Tuple_2<::System::Boolean, ::UnityEngine::Color>* ambient; // 0x18
-		::System::Tuple_2<::System::Boolean, ::UnityEngine::Color>* shallowTint; // 0x20
-		::System::Tuple_2<::System::Boolean, ::UnityEngine::Color>* shallowFadeTint; // 0x28
-		::System::Tuple_2<::System::Boolean, ::UnityEngine::Color>* frontTint; // 0x30
-		::System::Tuple_2<::System::Boolean, ::System::Boolean>* useShadowTintAsOutline; // 0x38
-		::System::Tuple_2<::System::Boolean, ::UnityEngine::Color>* ambientGradient; // 0x40
-		::System::Tuple_2<::System::Boolean, ::UnityEngine::Color>* sssTint; // 0x48
-		::System::Tuple_2<::System::Boolean, ::UnityEngine::Color>* outlineTint; // 0x50
-		::System::Tuple_2<::System::Boolean, ::UnityEngine::Color>* shadowFadeTint; // 0x58
-		::System::Tuple_2<::System::Boolean, ::UnityEngine::Color>* shadowTint; // 0x60
+		::System::Tuple_2<::System::Boolean, ::UnityEngine::Color>* shallowTint; // 0x10
+		::System::Tuple_2<::System::Boolean, ::UnityEngine::Color>* shallowFadeTint; // 0x18
+		::System::Tuple_2<::System::Boolean, ::System::Boolean>* useShadowTintAsOutline; // 0x20
+		::System::Tuple_2<::System::Boolean, ::UnityEngine::Color>* shadowTint; // 0x28
+		::System::Tuple_2<::System::Boolean, ::UnityEngine::Color>* shadowFadeTint; // 0x30
+		::System::Tuple_2<::System::Boolean, ::UnityEngine::Color>* ambient; // 0x38
+		::System::Tuple_2<::System::Boolean, ::UnityEngine::Color>* outlineTint; // 0x40
+		::UnityEngine::Rendering::Universal::CharacterColorCorrection* _sourceData; // 0x48
+		::System::Tuple_2<::System::Boolean, ::UnityEngine::Color>* sssTint; // 0x50
+		::System::Tuple_2<::System::Boolean, ::UnityEngine::Color>* ambientGradient; // 0x58
+		::System::Tuple_2<::System::Boolean, ::UnityEngine::Color>* frontTint; // 0x60
 
 		::System::Void _ctor(::UnityEngine::Rendering::Universal::CharacterColorCorrection* sourceData)
 		{

@@ -6,11 +6,11 @@
 namespace MoleMole::Config { class ConfigHollowChessboard_Flash; }
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWOUTCHESSBOARD__CTOR_OFFSET UNITYSDK_OFFSET(0x158A9D10)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWOUTCHESSBOARD__CTOR_OFFSET UNITYSDK_OFFSET(0x14376CB0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowOutChessboard_TypeDefinitionIndex = 59084;
+	inline static constexpr unsigned int ConfigHollowOutChessboard_TypeDefinitionIndex = 46294;
 
 	class ConfigHollowOutChessboard : public ::Foundation::MihoyoSerializedScriptableObject
 	{

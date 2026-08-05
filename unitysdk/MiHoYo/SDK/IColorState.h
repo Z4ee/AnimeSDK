@@ -4,7 +4,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int IColorState_TypeDefinitionIndex = 19782;
+	inline static constexpr unsigned int IColorState_TypeDefinitionIndex = 20130;
 
 	class IColorState
 	{

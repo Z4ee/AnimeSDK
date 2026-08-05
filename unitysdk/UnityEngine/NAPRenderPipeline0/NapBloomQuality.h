@@ -3,7 +3,7 @@
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int NapBloomQuality_TypeDefinitionIndex = 5850;
+	inline static constexpr unsigned int NapBloomQuality_TypeDefinitionIndex = 5852;
 
 	enum class NapBloomQuality : ::System::Int32
 	{

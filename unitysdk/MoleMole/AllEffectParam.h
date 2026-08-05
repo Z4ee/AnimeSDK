@@ -5,11 +5,11 @@
 namespace MoleMole { class GalgameEffectData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_ALLEFFECTPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x10CCBB60)
+#define MOLEMOLE_ALLEFFECTPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x116C6330)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int AllEffectParam_TypeDefinitionIndex = 56984;
+	inline static constexpr unsigned int AllEffectParam_TypeDefinitionIndex = 52193;
 
 	class AllEffectParam : public ::System::Object
 	{

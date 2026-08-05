@@ -11,7 +11,7 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 
 namespace PipelineCamera::Blender
 {
-	inline static constexpr unsigned int InterpCurveBlenderBuilder_2_TypeDefinitionIndex = 37990;
+	inline static constexpr unsigned int InterpCurveBlenderBuilder_2_TypeDefinitionIndex = 38651;
 
 	template <typename TReverseKey, typename TPriority>
 	class InterpCurveBlenderBuilder_2 : public ::PipelineCamera::CameraDataBlenderBuilder_1<TPriority>

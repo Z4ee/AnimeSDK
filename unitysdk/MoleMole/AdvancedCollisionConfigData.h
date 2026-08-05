@@ -6,12 +6,12 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_ADVANCEDCOLLISIONCONFIGDATA_BUILDRUNNINGTAG_OFFSET UNITYSDK_OFFSET(0x10CCB8F0)
-#define MOLEMOLE_ADVANCEDCOLLISIONCONFIGDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x10CCBA00)
+#define MOLEMOLE_ADVANCEDCOLLISIONCONFIGDATA_BUILDRUNNINGTAG_OFFSET UNITYSDK_OFFSET(0x116C60C0)
+#define MOLEMOLE_ADVANCEDCOLLISIONCONFIGDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x116C61D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int AdvancedCollisionConfigData_TypeDefinitionIndex = 74255;
+	inline static constexpr unsigned int AdvancedCollisionConfigData_TypeDefinitionIndex = 42897;
 
 	class AdvancedCollisionConfigData : public ::System::Object
 	{

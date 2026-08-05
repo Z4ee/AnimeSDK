@@ -6,7 +6,7 @@
 
 namespace DG::Tweening::Plugins
 {
-	inline static constexpr unsigned int SpiralOptions_TypeDefinitionIndex = 34484;
+	inline static constexpr unsigned int SpiralOptions_TypeDefinitionIndex = 35138;
 
 	struct alignas(4) SpiralOptions
 	{

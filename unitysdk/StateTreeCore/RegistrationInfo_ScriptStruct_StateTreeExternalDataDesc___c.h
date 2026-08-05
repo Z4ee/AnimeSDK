@@ -4,20 +4,20 @@
 
 namespace UnrealTypes { class ICppStructOps; }
 
-#define STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREEEXTERNALDATADESC___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E67E780)
-#define STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREEEXTERNALDATADESC___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1E67E7C0)
-#define STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREEEXTERNALDATADESC___C___CCTOR_B__8_0_OFFSET UNITYSDK_OFFSET(0x1E67E7D0)
+#define STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREEEXTERNALDATADESC___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FA53EE0)
+#define STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREEEXTERNALDATADESC___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1FA53F20)
+#define STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREEEXTERNALDATADESC___C___CCTOR_B__8_0_OFFSET UNITYSDK_OFFSET(0x1FA53F30)
 
 namespace StateTreeCore
 {
-	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_StateTreeExternalDataDesc___c_TypeDefinitionIndex = 30966;
+	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_StateTreeExternalDataDesc___c_TypeDefinitionIndex = 31570;
 
 	class RegistrationInfo_ScriptStruct_StateTreeExternalDataDesc___c : public ::System::Object
 	{
 	public:
 		static ::StateTreeCore::RegistrationInfo_ScriptStruct_StateTreeExternalDataDesc___c** StaticGet___9()
 		{
-			return (::StateTreeCore::RegistrationInfo_ScriptStruct_StateTreeExternalDataDesc___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_StateTreeExternalDataDesc___c_TypeDefinitionIndex)->GetStaticField(0x25400);
+			return (::StateTreeCore::RegistrationInfo_ScriptStruct_StateTreeExternalDataDesc___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_StateTreeExternalDataDesc___c_TypeDefinitionIndex)->GetStaticField(0x26B80);
 		}
 
 		static ::System::Void _cctor()

@@ -3,12 +3,12 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AnimatorEventShootingBulletEntry_ShootBulletType_TypeDefinitionIndex = 53391;
+	inline static constexpr unsigned int AnimatorEventShootingBulletEntry_ShootBulletType_TypeDefinitionIndex = 46323;
 
 	enum class AnimatorEventShootingBulletEntry_ShootBulletType : ::System::Int32
 	{
-		SingleShot = 0,
-		BurstFire = 1,
 		ScopedShot = 2,
+		BurstFire = 1,
+		SingleShot = 0,
 	};
 }

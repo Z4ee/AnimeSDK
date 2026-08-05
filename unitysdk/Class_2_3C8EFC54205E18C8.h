@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_1_37DF30C8B3AA0F39.h"
-#include "unitysdk/Enum_3_5F32457E56C42566.h"
+#include "unitysdk/Enum_3_DE516C6CF47482AF.h"
 #include "unitysdk/Struct_2_575273D27F02957E.h"
 #include "unitysdk/Struct_2_C8629618711DF8B3.h"
 
@@ -10,33 +10,33 @@ namespace MoleMole { class UIMusicGameGeneralCalibrationCheckWidgetController; }
 namespace MoleMole { class UIMusicGameGeneralCalibrationInputDelayWidgetController_Context; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
-template <typename T> class Class_0_16E4307DCC419505_165;
+template <typename T> class Class_0_16E4307DCC419505_159;
 
-#define CLASS_2_3C8EFC54205E18C8_METHOD_2_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x13564000)
-#define CLASS_2_3C8EFC54205E18C8_METHOD_2_43A478BA01FE29B7_OFFSET UNITYSDK_OFFSET(0x13564960)
-#define CLASS_2_3C8EFC54205E18C8_METHOD_2_5539D8D3ECDB23B5_OFFSET UNITYSDK_OFFSET(0x13564CE0)
-#define CLASS_2_3C8EFC54205E18C8_METHOD_2_91888C692DAC5E58_OFFSET UNITYSDK_OFFSET(0x13563DD0)
-#define CLASS_2_3C8EFC54205E18C8_METHOD_2_9C1BE31A43568A22_OFFSET UNITYSDK_OFFSET(0x135646A0)
-#define CLASS_2_3C8EFC54205E18C8_METHOD_2_A4E39162D2BE48DE_OFFSET UNITYSDK_OFFSET(0x13564CF0)
-#define CLASS_2_3C8EFC54205E18C8_METHOD_2_BA6F025EA2F36805_OFFSET UNITYSDK_OFFSET(0x13564950)
-#define CLASS_2_3C8EFC54205E18C8_METHOD_2_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0x13564830)
-#define CLASS_2_3C8EFC54205E18C8_METHOD_2_CA373AA1C7054598_2_OFFSET UNITYSDK_OFFSET(0x135648C0)
-#define CLASS_2_3C8EFC54205E18C8_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x13564080)
-#define CLASS_2_3C8EFC54205E18C8_METHOD_2_CC15D6CD4D3CC816_OFFSET UNITYSDK_OFFSET(0x13564160)
-#define CLASS_2_3C8EFC54205E18C8__CTOR_OFFSET UNITYSDK_OFFSET(0x135640C0)
+#define CLASS_2_3C8EFC54205E18C8_METHOD_2_35C0F6D83B8A2729_OFFSET UNITYSDK_OFFSET(0x164690C0)
+#define CLASS_2_3C8EFC54205E18C8_METHOD_2_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x16468520)
+#define CLASS_2_3C8EFC54205E18C8_METHOD_2_5539D8D3ECDB23B5_OFFSET UNITYSDK_OFFSET(0x16468B40)
+#define CLASS_2_3C8EFC54205E18C8_METHOD_2_91888C692DAC5E58_OFFSET UNITYSDK_OFFSET(0x164682F0)
+#define CLASS_2_3C8EFC54205E18C8_METHOD_2_A4E39162D2BE48DE_OFFSET UNITYSDK_OFFSET(0x16468710)
+#define CLASS_2_3C8EFC54205E18C8_METHOD_2_BA6F025EA2F36805_OFFSET UNITYSDK_OFFSET(0x16469250)
+#define CLASS_2_3C8EFC54205E18C8_METHOD_2_C6159FCF4A6D407A_OFFSET UNITYSDK_OFFSET(0x164687B0)
+#define CLASS_2_3C8EFC54205E18C8_METHOD_2_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0x16468680)
+#define CLASS_2_3C8EFC54205E18C8_METHOD_2_CA373AA1C7054598_2_OFFSET UNITYSDK_OFFSET(0x16468720)
+#define CLASS_2_3C8EFC54205E18C8_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x164685A0)
+#define CLASS_2_3C8EFC54205E18C8_METHOD_2_CC15D6CD4D3CC816_OFFSET UNITYSDK_OFFSET(0x16468B50)
+#define CLASS_2_3C8EFC54205E18C8__CTOR_OFFSET UNITYSDK_OFFSET(0x164685E0)
 
-inline static constexpr unsigned int Class_2_3C8EFC54205E18C8_TypeDefinitionIndex = 51423;
+inline static constexpr unsigned int Class_2_3C8EFC54205E18C8_TypeDefinitionIndex = 65000;
 
 class Class_2_3C8EFC54205E18C8 : public ::Class_1_37DF30C8B3AA0F39
 {
 public:
-	::System::Collections::Generic::List_1<::MoleMole::UIMusicGameGeneralCalibrationCheckWidgetController*>* Field_2_5; // 0x50
-	::UnityEngine::Transform* Field_2_0; // 0x58
-	::Class_0_16E4307DCC419505_165<::MoleMole::UIMusicGameGeneralCalibrationInputDelayWidgetController_Context*>* Field_2_6; // 0x60
-	::Class_0_16E4307DCC419505_165<::System::Int32>* Field_2_3; // 0x68
-	::UnityEngine::Transform* Field_2_1; // 0x70
-	::Class_0_16E4307DCC419505_165<::System::Int32>* Field_2_2; // 0x78
-	::Enum_3_5F32457E56C42566 Field_2_4; // 0x80
+	::UnityEngine::Transform* Field_2_2; // 0x50
+	::Class_0_16E4307DCC419505_159<::System::Int32>* Field_2_0; // 0x58
+	::System::Collections::Generic::List_1<::MoleMole::UIMusicGameGeneralCalibrationCheckWidgetController*>* Field_2_6; // 0x60
+	::Class_0_16E4307DCC419505_159<::System::Int32>* Field_2_1; // 0x68
+	::UnityEngine::Transform* Field_2_3; // 0x70
+	::Class_0_16E4307DCC419505_159<::MoleMole::UIMusicGameGeneralCalibrationInputDelayWidgetController_Context*>* Field_2_5; // 0x78
+	::Enum_3_DE516C6CF47482AF Field_2_7; // 0x80
 
 	::System::Void _ctor()
 	{
@@ -58,19 +58,14 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_3C8EFC54205E18C8_METHOD_2_CA373AA1C7054598_OFFSET))(this);
 	}
 
-	::System::Void Method_2_CC15D6CD4D3CC816()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_3C8EFC54205E18C8_METHOD_2_CC15D6CD4D3CC816_OFFSET))(this);
-	}
-
-	::System::Void Method_2_9C1BE31A43568A22(::Struct_2_C8629618711DF8B3& a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::Struct_2_C8629618711DF8B3&))((::PBYTE)hIl2Cpp + CLASS_2_3C8EFC54205E18C8_METHOD_2_9C1BE31A43568A22_OFFSET))(this, a1);
-	}
-
 	::System::Void Method_2_CA373AA1C7054598_1()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_3C8EFC54205E18C8_METHOD_2_CA373AA1C7054598_1_OFFSET))(this);
+	}
+
+	::Class_0_16E4307DCC419505_159<::MoleMole::UIMusicGameGeneralCalibrationInputDelayWidgetController_Context*>* Method_2_A4E39162D2BE48DE()
+	{
+		return ((::Class_0_16E4307DCC419505_159<::MoleMole::UIMusicGameGeneralCalibrationInputDelayWidgetController_Context*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_3C8EFC54205E18C8_METHOD_2_A4E39162D2BE48DE_OFFSET))(this);
 	}
 
 	::System::Void Method_2_CA373AA1C7054598_2()
@@ -78,23 +73,28 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_3C8EFC54205E18C8_METHOD_2_CA373AA1C7054598_2_OFFSET))(this);
 	}
 
+	::System::Void Method_2_C6159FCF4A6D407A()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_3C8EFC54205E18C8_METHOD_2_C6159FCF4A6D407A_OFFSET))(this);
+	}
+
+	::System::Void Method_2_5539D8D3ECDB23B5(::Class_0_16E4307DCC419505_159<::MoleMole::UIMusicGameGeneralCalibrationInputDelayWidgetController_Context*>* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_159<::MoleMole::UIMusicGameGeneralCalibrationInputDelayWidgetController_Context*>*))((::PBYTE)hIl2Cpp + CLASS_2_3C8EFC54205E18C8_METHOD_2_5539D8D3ECDB23B5_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_CC15D6CD4D3CC816()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_3C8EFC54205E18C8_METHOD_2_CC15D6CD4D3CC816_OFFSET))(this);
+	}
+
+	::System::Void Method_2_35C0F6D83B8A2729(::Struct_2_C8629618711DF8B3& a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Struct_2_C8629618711DF8B3&))((::PBYTE)hIl2Cpp + CLASS_2_3C8EFC54205E18C8_METHOD_2_35C0F6D83B8A2729_OFFSET))(this, a1);
+	}
+
 	::System::Void Method_2_BA6F025EA2F36805(::Struct_2_C8629618711DF8B3& a1)
 	{
 		return ((::System::Void(*)(::PVOID, ::Struct_2_C8629618711DF8B3&))((::PBYTE)hIl2Cpp + CLASS_2_3C8EFC54205E18C8_METHOD_2_BA6F025EA2F36805_OFFSET))(this, a1);
-	}
-
-	::System::Void Method_2_43A478BA01FE29B7()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_3C8EFC54205E18C8_METHOD_2_43A478BA01FE29B7_OFFSET))(this);
-	}
-
-	::System::Void Method_2_5539D8D3ECDB23B5(::Class_0_16E4307DCC419505_165<::MoleMole::UIMusicGameGeneralCalibrationInputDelayWidgetController_Context*>* a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_165<::MoleMole::UIMusicGameGeneralCalibrationInputDelayWidgetController_Context*>*))((::PBYTE)hIl2Cpp + CLASS_2_3C8EFC54205E18C8_METHOD_2_5539D8D3ECDB23B5_OFFSET))(this, a1);
-	}
-
-	::Class_0_16E4307DCC419505_165<::MoleMole::UIMusicGameGeneralCalibrationInputDelayWidgetController_Context*>* Method_2_A4E39162D2BE48DE()
-	{
-		return ((::Class_0_16E4307DCC419505_165<::MoleMole::UIMusicGameGeneralCalibrationInputDelayWidgetController_Context*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_3C8EFC54205E18C8_METHOD_2_A4E39162D2BE48DE_OFFSET))(this);
 	}
 };

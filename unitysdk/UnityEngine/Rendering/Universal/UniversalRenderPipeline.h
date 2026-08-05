@@ -16,6 +16,7 @@
 #include "unitysdk/UnityEngine/Rendering/RenderPipeline.h"
 #include "unitysdk/UnityEngine/Rendering/ScriptableRenderContext.h"
 #include "unitysdk/UnityEngine/Rendering/Universal/UniversalRenderPipeline_TempLightData.h"
+#include "unitysdk/UnityEngine/Rendering/Universal/UniversalRenderPipeline___c__DisplayClass52_0.h"
 #include "unitysdk/UnityEngine/Rendering/VisibleLight.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
@@ -38,202 +39,206 @@ namespace UnityEngine::Rendering::Universal { class ForwardRenderer; }
 namespace UnityEngine::Rendering::Universal { class ForwardRendererData; }
 namespace UnityEngine::Rendering::Universal { class UniversalAdditionalCameraData; }
 namespace UnityEngine::Rendering::Universal { class UniversalRenderPipelineAsset; }
+namespace UnityEngine::Rendering::Universal { class UniversalRenderPipeline_NapPerFrameState; }
 namespace UnityEngine::Rendering::Unversal { class SRPHelperExecuteContext; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_ADD_ONWILLRENDERCAMERA_OFFSET UNITYSDK_OFFSET(0x1C9A59F0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_AFMEENABLEOFFSCREENUI_OFFSET UNITYSDK_OFFSET(0x1C9BEAE0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_AREPOSTPROCESSESENABLED_OFFSET UNITYSDK_OFFSET(0x1C9BB8E0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_CHECKHISTORYDATA_OFFSET UNITYSDK_OFFSET(0x1C9B82B0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_CLEARNAPTIME_OFFSET UNITYSDK_OFFSET(0x1C9BDE20)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_CREATEPEROBJECTSHADOWCONFIG_OFFSET UNITYSDK_OFFSET(0x1C9A9B00)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_CREATERENDERTEXTUREDESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1C9AE790)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1C9AC0A0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_GETBLITMATERIAL_OFFSET UNITYSDK_OFFSET(0x1C9BE690)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_GETCAMERAPROFILERTAG_OFFSET UNITYSDK_OFFSET(0x1C9B5530)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_GETGPUQUERYRESULT_OFFSET UNITYSDK_OFFSET(0x1C9B8920)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_GETINTERPOLATEDVOLUMESTACKCOMPONENT_OFFSET UNITYSDK_OFFSET(0x1C9B5880)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_GETMAINLIGHTINDEXWITHLOCALSHADOWCACHE_OFFSET UNITYSDK_OFFSET(0x1C9BD5B0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_GETPEROBJECTLIGHTFLAGS_OFFSET UNITYSDK_OFFSET(0x1C9BC6D0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_GET_ASSET_OFFSET UNITYSDK_OFFSET(0x1C99E900)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_GET_ENABLEGPUQUERY_OFFSET UNITYSDK_OFFSET(0x1C9A5BB0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_GET_MAINLIGHTOBJECT_OFFSET UNITYSDK_OFFSET(0x1C9A58F0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_GET_MAXRENDERSCALE_OFFSET UNITYSDK_OFFSET(0x1C9A58D0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_GET_MAXSCRIPTABLERENDERERS_OFFSET UNITYSDK_OFFSET(0x1C9A58E0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_GET_MAXSHADOWBIAS_OFFSET UNITYSDK_OFFSET(0x1C9A5890)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_GET_MAXSHADOWKERNEL_OFFSET UNITYSDK_OFFSET(0x1C9A58B0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_GET_MINRENDERSCALE_OFFSET UNITYSDK_OFFSET(0x1C9A58C0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_GET_MINSHADOWKERNEL_OFFSET UNITYSDK_OFFSET(0x1C9A58A0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_GET_SEPARATEUIRT_OFFSET UNITYSDK_OFFSET(0x1C9BEC70)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_GET_S_PUNCTUALSHADOWATLASSIZESCALE_OFFSET UNITYSDK_OFFSET(0x1C9A5BD0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_INITDAMAGETEXTSYSTEM_OFFSET UNITYSDK_OFFSET(0x1C9A97A0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_INITIALIZEADDITIONALCAMERADATA_OFFSET UNITYSDK_OFFSET(0x1C9B8AF0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_INITIALIZECAMERADATA_OFFSET UNITYSDK_OFFSET(0x1C9B3E30)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_INITIALIZELIGHTDATA_OFFSET UNITYSDK_OFFSET(0x1C9BBD10)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_INITIALIZENAPRENDERPIPELINE_OFFSET UNITYSDK_OFFSET(0x1C9A8BE0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_INITIALIZEPOSTCULLLIGHTDATA_OFFSET UNITYSDK_OFFSET(0x1C9BD9C0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_INITIALIZEPOSTCULLRENDERINGDATA_NATIVED_OFFSET UNITYSDK_OFFSET(0x1C9B7F10)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_INITIALIZEPOSTCULLRENDERINGDATA_OFFSET UNITYSDK_OFFSET(0x1C9BC710)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_INITIALIZEPOSTPROCESSINGDATA_OFFSET UNITYSDK_OFFSET(0x1C9BC660)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_INITIALIZERENDERINGDATA_OFFSET UNITYSDK_OFFSET(0x1C9B5C50)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_INITIALIZESHADOWDATA_OFFSET UNITYSDK_OFFSET(0x1C9BBE60)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_INITIALIZESTACKEDCAMERADATA_OFFSET UNITYSDK_OFFSET(0x1C9BA9A0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_INIT_OFFSET UNITYSDK_OFFSET(0x1C9A9AC0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_ISGAMECAMERA_OFFSET UNITYSDK_OFFSET(0x1C9B0E00)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_ISMULTIPASSSTEREOENABLED_OFFSET UNITYSDK_OFFSET(0x1C9BECD0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_ISSTEREOENABLED_OFFSET UNITYSDK_OFFSET(0x1C9B5950)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_MARKCAMERAFINALTARGET_OFFSET UNITYSDK_OFFSET(0x1C9B0A30)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_OVERRIDECAMERADATAWITHRENDERINGDATA_OFFSET UNITYSDK_OFFSET(0x1C9BBCC0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_QUERYMAINLIGHTSLOW_OFFSET UNITYSDK_OFFSET(0x1C9BB920)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_REFRESHOPTOPTIONS_OFFSET UNITYSDK_OFFSET(0x1C9A98C0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_REGISTERDECALSIMPLE_OFFSET UNITYSDK_OFFSET(0x1C9BE6D0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_REGISTERVOLUMETYPES_OFFSET UNITYSDK_OFFSET(0x1C9A67D0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_REMOVE_ONWILLRENDERCAMERA_OFFSET UNITYSDK_OFFSET(0x1C9A5AD0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_RENDERCAMERASTACK_OFFSET UNITYSDK_OFFSET(0x1C9B0F90)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_RENDERCUSTOMSINGLECAMERA_OFFSET UNITYSDK_OFFSET(0x1C9B3920)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_RENDERSINGLECAMERA_1_OFFSET UNITYSDK_OFFSET(0x1C9B3F20)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_RENDERSINGLECAMERA_OFFSET UNITYSDK_OFFSET(0x1C9B2F40)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_RENDER_OFFSET UNITYSDK_OFFSET(0x1C9ACA50)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_RESETDECALSIMPLERENDERQUEUE_OFFSET UNITYSDK_OFFSET(0x1C9BE9E0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_SETSUPPORTEDRENDERINGFEATURES_OFFSET UNITYSDK_OFFSET(0x1C9A9760)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_SETUPNAPTIME_OFFSET UNITYSDK_OFFSET(0x1C9BDEC0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_SETUPPERFRAMECONSTANTS_OFFSET UNITYSDK_OFFSET(0x1C9AF2C0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_SETUPPERFRAMESHADERCONSTANTS_OFFSET UNITYSDK_OFFSET(0x1C9AFBA0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_SETUPPERFRAMESHADERKEYWORDS_OFFSET UNITYSDK_OFFSET(0x1C9B06F0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_SETUPSHADERFEATUREMAPPINGS_OFFSET UNITYSDK_OFFSET(0x1C9ABDB0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_SET_ENABLEGPUQUERY_OFFSET UNITYSDK_OFFSET(0x1C9A5BC0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_SET_MAINLIGHTOBJECT_OFFSET UNITYSDK_OFFSET(0x1C9A5990)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_SET_S_PUNCTUALSHADOWATLASSIZESCALE_OFFSET UNITYSDK_OFFSET(0x1C9A5F10)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_SORTCAMERAS_OFFSET UNITYSDK_OFFSET(0x1C9B0990)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_SORTOTHERLIGHT_OFFSET UNITYSDK_OFFSET(0x1C9BDB80)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_TRIMUNUSEDCAMERAPROFILINGSAMPLERS_OFFSET UNITYSDK_OFFSET(0x1C9AEE90)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_TRYSCHEDULESRPHELPER_OFFSET UNITYSDK_OFFSET(0x1C9B7E40)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_UNREGISTERDECALSIMPLE_OFFSET UNITYSDK_OFFSET(0x1C9BE7F0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_UPDATECAMERASHADERCOMPILERSTAMPS_OFFSET UNITYSDK_OFFSET(0x1C9B0860)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_UPDATEVOLUMEFRAMEWORK_OFFSET UNITYSDK_OFFSET(0x1C9B39D0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C9A6240)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C9A84A0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE__MARKCAMERAFINALTARGET_G__GETORADDADDITIONALCAMERADATA_45_1_OFFSET UNITYSDK_OFFSET(0x1C9B3280)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE__MARKCAMERAFINALTARGET_G__MARKUIBLURSTATES_45_0_OFFSET UNITYSDK_OFFSET(0x1C9B3470)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE___BASE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1C9BEE50)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_ADD_ONWILLRENDERCAMERA_OFFSET UNITYSDK_OFFSET(0x1DE00BA0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_AFMEENABLEOFFSCREENUI_OFFSET UNITYSDK_OFFSET(0x1DE17AB0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_AREPOSTPROCESSESENABLED_OFFSET UNITYSDK_OFFSET(0x1DE14890)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_CHECKHISTORYDATA_OFFSET UNITYSDK_OFFSET(0x1DE11340)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_CLEARNAPTIME_OFFSET UNITYSDK_OFFSET(0x1DE16E30)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_CREATEPEROBJECTSHADOWCONFIG_OFFSET UNITYSDK_OFFSET(0x1DE04C90)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_CREATERENDERTEXTUREDESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1DE07A60)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1DE05600)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_GETBLITMATERIAL_OFFSET UNITYSDK_OFFSET(0x1DE17660)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_GETCAMERAPROFILERTAG_OFFSET UNITYSDK_OFFSET(0x1DE002C0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_GETGPUQUERYRESULT_OFFSET UNITYSDK_OFFSET(0x1DE11840)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_GETINTERPOLATEDVOLUMESTACKCOMPONENT_OFFSET UNITYSDK_OFFSET(0x1DE0E880)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_GETMAINLIGHTINDEXWITHLOCALSHADOWCACHE_OFFSET UNITYSDK_OFFSET(0x1DE165A0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_GETPEROBJECTLIGHTFLAGS_OFFSET UNITYSDK_OFFSET(0x1DE15680)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_GET_ASSET_OFFSET UNITYSDK_OFFSET(0x1DDF9300)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_GET_ENABLEGPUQUERY_OFFSET UNITYSDK_OFFSET(0x1DE00D60)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_GET_MAINLIGHTOBJECT_OFFSET UNITYSDK_OFFSET(0x1DE00AA0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_GET_MAXRENDERSCALE_OFFSET UNITYSDK_OFFSET(0x1DE00A80)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_GET_MAXSCRIPTABLERENDERERS_OFFSET UNITYSDK_OFFSET(0x1DE00A90)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_GET_MAXSHADOWBIAS_OFFSET UNITYSDK_OFFSET(0x1DE00A40)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_GET_MAXSHADOWKERNEL_OFFSET UNITYSDK_OFFSET(0x1DE00A60)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_GET_MINRENDERSCALE_OFFSET UNITYSDK_OFFSET(0x1DE00A70)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_GET_MINSHADOWKERNEL_OFFSET UNITYSDK_OFFSET(0x1DE00A50)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_GET_SEPARATEUIRT_OFFSET UNITYSDK_OFFSET(0x1DE17C20)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_GET_S_PUNCTUALSHADOWATLASSIZESCALE_OFFSET UNITYSDK_OFFSET(0x1DE00D80)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_INITDAMAGETEXTSYSTEM_OFFSET UNITYSDK_OFFSET(0x1DE04930)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_INITIALIZEADDITIONALCAMERADATA_OFFSET UNITYSDK_OFFSET(0x1DE11A10)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_INITIALIZECAMERADATA_OFFSET UNITYSDK_OFFSET(0x1DE0CFF0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_INITIALIZELIGHTDATA_OFFSET UNITYSDK_OFFSET(0x1DE14CD0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_INITIALIZENAPRENDERPIPELINE_OFFSET UNITYSDK_OFFSET(0x1DE03DD0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_INITIALIZEPOSTCULLLIGHTDATA_OFFSET UNITYSDK_OFFSET(0x1DE169C0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_INITIALIZEPOSTCULLRENDERINGDATA_NATIVED_OFFSET UNITYSDK_OFFSET(0x1DE10F90)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_INITIALIZEPOSTCULLRENDERINGDATA_OFFSET UNITYSDK_OFFSET(0x1DE156C0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_INITIALIZEPOSTPROCESSINGDATA_OFFSET UNITYSDK_OFFSET(0x1DE15610)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_INITIALIZERENDERINGDATA_OFFSET UNITYSDK_OFFSET(0x1DE0EC50)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_INITIALIZESHADOWDATA_OFFSET UNITYSDK_OFFSET(0x1DE14E20)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_INITIALIZESTACKEDCAMERADATA_OFFSET UNITYSDK_OFFSET(0x1DE138D0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_INIT_OFFSET UNITYSDK_OFFSET(0x1DE04C50)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_ISGAMECAMERA_OFFSET UNITYSDK_OFFSET(0x1DE0A210)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_ISMULTIPASSSTEREOENABLED_OFFSET UNITYSDK_OFFSET(0x1DE17C80)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_ISSTEREOENABLED_OFFSET UNITYSDK_OFFSET(0x1DE0E950)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_MARKCAMERAFINALTARGET_OFFSET UNITYSDK_OFFSET(0x1DE09C90)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_OVERRIDECAMERADATAWITHRENDERINGDATA_OFFSET UNITYSDK_OFFSET(0x1DE14C80)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_QUERYMAINLIGHTSLOW_OFFSET UNITYSDK_OFFSET(0x1DE148D0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_REFRESHOPTOPTIONS_OFFSET UNITYSDK_OFFSET(0x1DE04A50)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_REGISTERDECALSIMPLE_OFFSET UNITYSDK_OFFSET(0x1DE176A0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_REGISTERVOLUMETYPES_OFFSET UNITYSDK_OFFSET(0x1DE019A0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_REMOVE_ONWILLRENDERCAMERA_OFFSET UNITYSDK_OFFSET(0x1DE00C80)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_RENDERCAMERASTACK_OFFSET UNITYSDK_OFFSET(0x1DE0A3A0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_RENDERCUSTOMSINGLECAMERA_OFFSET UNITYSDK_OFFSET(0x1DE0CAE0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_RENDERSINGLECAMERA_1_OFFSET UNITYSDK_OFFSET(0x1DE0D0E0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_RENDERSINGLECAMERA_OFFSET UNITYSDK_OFFSET(0x1DE0C270)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_RENDER_OFFSET UNITYSDK_OFFSET(0x1DE05FC0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_RESETDECALSIMPLERENDERQUEUE_OFFSET UNITYSDK_OFFSET(0x1DE179B0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_SETSUPPORTEDRENDERINGFEATURES_OFFSET UNITYSDK_OFFSET(0x1DE048F0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_SETUPNAPTIME_OFFSET UNITYSDK_OFFSET(0x1DE16ED0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_SETUPPERFRAMECONSTANTS_OFFSET UNITYSDK_OFFSET(0x1DE08170)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_SETUPPERFRAMESHADERCONSTANTS_OFFSET UNITYSDK_OFFSET(0x1DE08A70)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_SETUPSHADERFEATUREMAPPINGS_OFFSET UNITYSDK_OFFSET(0x1DE05310)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_SET_ENABLEGPUQUERY_OFFSET UNITYSDK_OFFSET(0x1DE00D70)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_SET_MAINLIGHTOBJECT_OFFSET UNITYSDK_OFFSET(0x1DE00B40)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_SET_S_PUNCTUALSHADOWATLASSIZESCALE_OFFSET UNITYSDK_OFFSET(0x1DE010C0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_SORTCAMERAS_OFFSET UNITYSDK_OFFSET(0x1DE09BF0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_SORTOTHERLIGHT_OFFSET UNITYSDK_OFFSET(0x1DE16B90)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_TRIMUNUSEDCAMERAPROFILINGSAMPLERS_OFFSET UNITYSDK_OFFSET(0x1DE00610)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_TRYSCHEDULESRPHELPER_OFFSET UNITYSDK_OFFSET(0x1DE10EC0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_UNREGISTERDECALSIMPLE_OFFSET UNITYSDK_OFFSET(0x1DE177C0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_UPDATECAMERASHADERCOMPILERSTAMPS_OFFSET UNITYSDK_OFFSET(0x1DE09AC0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_UPDATEVOLUMEFRAMEWORK_OFFSET UNITYSDK_OFFSET(0x1DE0CB90)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DE01400)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DE03690)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE__MARKCAMERAFINALTARGET_G__GETORADDADDITIONALCAMERADATA_52_1_OFFSET UNITYSDK_OFFSET(0x1DE0C5B0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE__MARKCAMERAFINALTARGET_G__MARKUIBLURSTATES_52_0_OFFSET UNITYSDK_OFFSET(0x1DE0C7C0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE___BASE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1DE17E00)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int UniversalRenderPipeline_TypeDefinitionIndex = 27231;
+	inline static constexpr unsigned int UniversalRenderPipeline_TypeDefinitionIndex = 26993;
 
 	class UniversalRenderPipeline : public ::UnityEngine::Rendering::RenderPipeline
 	{
 	public:
-		static ::UnityEngine::NAPRenderPipeline0::DynamicArray_1<::System::Int32>** StaticGet_CachedVisibleLightData()
-		{
-			return (::UnityEngine::NAPRenderPipeline0::DynamicArray_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UniversalRenderPipeline_TypeDefinitionIndex)->GetStaticField(0x21640);
-		}
-		static ::UnityEngine::Experimental::GlobalIllumination::Lightmapping_RequestLightsDelegate** StaticGet_lightsDelegate()
-		{
-			return (::UnityEngine::Experimental::GlobalIllumination::Lightmapping_RequestLightsDelegate**)Il2CppClass::FromTypeDefinitionIndex(UniversalRenderPipeline_TypeDefinitionIndex)->GetStaticField(0x21648);
-		}
 		static ::System::Collections::Generic::List_1<::UnityEngine::NAPRenderPipeline0::NativeAdditionalLightData_NativeSRP*>** StaticGet_s_DisabledLightData()
 		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::NAPRenderPipeline0::NativeAdditionalLightData_NativeSRP*>**)Il2CppClass::FromTypeDefinitionIndex(UniversalRenderPipeline_TypeDefinitionIndex)->GetStaticField(0x21650);
-		}
-		static ::UnityEngine::Profiling::CustomSampler** StaticGet_s_SampleUpdateVolumeFramework()
-		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(UniversalRenderPipeline_TypeDefinitionIndex)->GetStaticField(0x21658);
-		}
-		static ::System::Collections::Generic::Dictionary_2<::System::Int64, ::UnityEngine::Rendering::Universal::UniversalRenderPipeline_TempLightData>** StaticGet_s_LightMapForOptimize()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Int64, ::UnityEngine::Rendering::Universal::UniversalRenderPipeline_TempLightData>**)Il2CppClass::FromTypeDefinitionIndex(UniversalRenderPipeline_TypeDefinitionIndex)->GetStaticField(0x21660);
-		}
-		static ::UnityEngine::NAPRenderPipeline0::DynamicArray_1<::System::Collections::Generic::KeyValuePair_2<::System::Single, ::System::Int32>>** StaticGet_sortedOtherLight()
-		{
-			return (::UnityEngine::NAPRenderPipeline0::DynamicArray_1<::System::Collections::Generic::KeyValuePair_2<::System::Single, ::System::Int32>>**)Il2CppClass::FromTypeDefinitionIndex(UniversalRenderPipeline_TypeDefinitionIndex)->GetStaticField(0x21668);
-		}
-		static ::System::Collections::Generic::List_1<::UnityEngine::Light*>** StaticGet_CachedMainLight()
-		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Light*>**)Il2CppClass::FromTypeDefinitionIndex(UniversalRenderPipeline_TypeDefinitionIndex)->GetStaticField(0x21670);
-		}
-		static ::UnityEngine::Rendering::Unversal::SRPHelperExecuteContext** StaticGet_helperExecuteContext()
-		{
-			return (::UnityEngine::Rendering::Unversal::SRPHelperExecuteContext**)Il2CppClass::FromTypeDefinitionIndex(UniversalRenderPipeline_TypeDefinitionIndex)->GetStaticField(0x21678);
-		}
-		static ::System::Collections::Generic::List_1<::UnityEngine::Camera*>** StaticGet_s_CamerasToDeleteFromSamplerCache()
-		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Camera*>**)Il2CppClass::FromTypeDefinitionIndex(UniversalRenderPipeline_TypeDefinitionIndex)->GetStaticField(0x21680);
-		}
-		static ::System::Action_1<::UnityEngine::Camera*>** StaticGet_onWillRenderCamera()
-		{
-			return (::System::Action_1<::UnityEngine::Camera*>**)Il2CppClass::FromTypeDefinitionIndex(UniversalRenderPipeline_TypeDefinitionIndex)->GetStaticField(0x21688);
-		}
-		static ::UnityEngine::Profiling::CustomSampler** StaticGet_s_SampleRenderSingleCamera()
-		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(UniversalRenderPipeline_TypeDefinitionIndex)->GetStaticField(0x21690);
-		}
-		static ::UnityEngine::Profiling::CustomSampler** StaticGet_s_SampleGetMainLightIndexWithLocalShadowCache()
-		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(UniversalRenderPipeline_TypeDefinitionIndex)->GetStaticField(0x21698);
-		}
-		static ::UnityEngine::Profiling::CustomSampler** StaticGet_s_SamplePerObjectShadowUpdateTargets()
-		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(UniversalRenderPipeline_TypeDefinitionIndex)->GetStaticField(0x216A0);
-		}
-		static ::System::Collections::Generic::Dictionary_2<::UnityEngine::Camera*, ::UnityEngine::Profiling::CustomSampler*>** StaticGet_s_CameraProfilingSamplers()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::Camera*, ::UnityEngine::Profiling::CustomSampler*>**)Il2CppClass::FromTypeDefinitionIndex(UniversalRenderPipeline_TypeDefinitionIndex)->GetStaticField(0x216A8);
-		}
-		static ::UnityEngine::Profiling::CustomSampler** StaticGet_s_SampleInitializeCameraData()
-		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(UniversalRenderPipeline_TypeDefinitionIndex)->GetStaticField(0x216B0);
+			return (::System::Collections::Generic::List_1<::UnityEngine::NAPRenderPipeline0::NativeAdditionalLightData_NativeSRP*>**)Il2CppClass::FromTypeDefinitionIndex(UniversalRenderPipeline_TypeDefinitionIndex)->GetStaticField(0x22E70);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::Material*>** StaticGet_s_DecalSimpleMaterialPool()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::Material*>**)Il2CppClass::FromTypeDefinitionIndex(UniversalRenderPipeline_TypeDefinitionIndex)->GetStaticField(0x216B8);
+			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::Material*>**)Il2CppClass::FromTypeDefinitionIndex(UniversalRenderPipeline_TypeDefinitionIndex)->GetStaticField(0x22E78);
 		}
-		static ::System::Single* StaticGet_s_QueryResult()
+		static ::System::Collections::Generic::List_1<::UnityEngine::Camera*>** StaticGet_s_CamerasToDeleteFromSamplerCache()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(UniversalRenderPipeline_TypeDefinitionIndex)->GetStaticField(0x62E0);
+			return (::System::Collections::Generic::List_1<::UnityEngine::Camera*>**)Il2CppClass::FromTypeDefinitionIndex(UniversalRenderPipeline_TypeDefinitionIndex)->GetStaticField(0x22E80);
+		}
+		static ::UnityEngine::Profiling::CustomSampler** StaticGet_s_SampleRenderSingleCamera()
+		{
+			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(UniversalRenderPipeline_TypeDefinitionIndex)->GetStaticField(0x22E88);
+		}
+		static ::UnityEngine::Profiling::CustomSampler** StaticGet_s_SampleUpdateVolumeFramework()
+		{
+			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(UniversalRenderPipeline_TypeDefinitionIndex)->GetStaticField(0x22E90);
+		}
+		static ::UnityEngine::Profiling::CustomSampler** StaticGet_s_SampleGetMainLightIndexWithLocalShadowCache()
+		{
+			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(UniversalRenderPipeline_TypeDefinitionIndex)->GetStaticField(0x22E98);
+		}
+		static ::UnityEngine::NAPRenderPipeline0::DynamicArray_1<::System::Int32>** StaticGet_CachedVisibleLightData()
+		{
+			return (::UnityEngine::NAPRenderPipeline0::DynamicArray_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UniversalRenderPipeline_TypeDefinitionIndex)->GetStaticField(0x22EA0);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::System::Int64, ::UnityEngine::Rendering::Universal::UniversalRenderPipeline_TempLightData>** StaticGet_s_LightMapForOptimize()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::Int64, ::UnityEngine::Rendering::Universal::UniversalRenderPipeline_TempLightData>**)Il2CppClass::FromTypeDefinitionIndex(UniversalRenderPipeline_TypeDefinitionIndex)->GetStaticField(0x22EA8);
+		}
+		static ::System::Action_1<::UnityEngine::Camera*>** StaticGet_onWillRenderCamera()
+		{
+			return (::System::Action_1<::UnityEngine::Camera*>**)Il2CppClass::FromTypeDefinitionIndex(UniversalRenderPipeline_TypeDefinitionIndex)->GetStaticField(0x22EB0);
+		}
+		static ::UnityEngine::Profiling::CustomSampler** StaticGet_s_SamplePerObjectShadowUpdateTargets()
+		{
+			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(UniversalRenderPipeline_TypeDefinitionIndex)->GetStaticField(0x22EB8);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::UnityEngine::Camera*, ::UnityEngine::Profiling::CustomSampler*>** StaticGet_s_CameraProfilingSamplers()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::Camera*, ::UnityEngine::Profiling::CustomSampler*>**)Il2CppClass::FromTypeDefinitionIndex(UniversalRenderPipeline_TypeDefinitionIndex)->GetStaticField(0x22EC0);
+		}
+		static ::UnityEngine::Profiling::CustomSampler** StaticGet_s_SampleInitializeCameraData()
+		{
+			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(UniversalRenderPipeline_TypeDefinitionIndex)->GetStaticField(0x22EC8);
+		}
+		static ::System::Collections::Generic::List_1<::UnityEngine::Light*>** StaticGet_CachedMainLight()
+		{
+			return (::System::Collections::Generic::List_1<::UnityEngine::Light*>**)Il2CppClass::FromTypeDefinitionIndex(UniversalRenderPipeline_TypeDefinitionIndex)->GetStaticField(0x22ED0);
+		}
+		static ::UnityEngine::Experimental::GlobalIllumination::Lightmapping_RequestLightsDelegate** StaticGet_lightsDelegate()
+		{
+			return (::UnityEngine::Experimental::GlobalIllumination::Lightmapping_RequestLightsDelegate**)Il2CppClass::FromTypeDefinitionIndex(UniversalRenderPipeline_TypeDefinitionIndex)->GetStaticField(0x22ED8);
+		}
+		static ::UnityEngine::NAPRenderPipeline0::DynamicArray_1<::System::Collections::Generic::KeyValuePair_2<::System::Single, ::System::Int32>>** StaticGet_sortedOtherLight()
+		{
+			return (::UnityEngine::NAPRenderPipeline0::DynamicArray_1<::System::Collections::Generic::KeyValuePair_2<::System::Single, ::System::Int32>>**)Il2CppClass::FromTypeDefinitionIndex(UniversalRenderPipeline_TypeDefinitionIndex)->GetStaticField(0x22EE0);
+		}
+		static ::UnityEngine::Rendering::Unversal::SRPHelperExecuteContext** StaticGet_helperExecuteContext()
+		{
+			return (::UnityEngine::Rendering::Unversal::SRPHelperExecuteContext**)Il2CppClass::FromTypeDefinitionIndex(UniversalRenderPipeline_TypeDefinitionIndex)->GetStaticField(0x22EE8);
+		}
+		static ::UnityEngine::Rendering::Universal::UniversalRenderPipeline_NapPerFrameState** StaticGet_s_CachedPerFrameState()
+		{
+			return (::UnityEngine::Rendering::Universal::UniversalRenderPipeline_NapPerFrameState**)Il2CppClass::FromTypeDefinitionIndex(UniversalRenderPipeline_TypeDefinitionIndex)->GetStaticField(0x22EF0);
 		}
 		static ::UnityEngine::Vector4* StaticGet__napTimeFaster()
 		{
-			return (::UnityEngine::Vector4*)Il2CppClass::FromTypeDefinitionIndex(UniversalRenderPipeline_TypeDefinitionIndex)->GetStaticField(0x62E4);
+			return (::UnityEngine::Vector4*)Il2CppClass::FromTypeDefinitionIndex(UniversalRenderPipeline_TypeDefinitionIndex)->GetStaticField(0x62A0);
 		}
-		static ::System::Int32* StaticGet_LaunchSRPHelperStage()
+		static ::System::Single* StaticGet_s_QueryResult()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UniversalRenderPipeline_TypeDefinitionIndex)->GetStaticField(0x62F4);
-		}
-		static ::UnityEngine::Vector4* StaticGet__napTime()
-		{
-			return (::UnityEngine::Vector4*)Il2CppClass::FromTypeDefinitionIndex(UniversalRenderPipeline_TypeDefinitionIndex)->GetStaticField(0x62F8);
-		}
-		static ::System::Int32* StaticGet_s_DecalSimpleRenderQueue()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UniversalRenderPipeline_TypeDefinitionIndex)->GetStaticField(0x6308);
-		}
-		static ::System::Int64* StaticGet_lastToonLightErrorTime()
-		{
-			return (::System::Int64*)Il2CppClass::FromTypeDefinitionIndex(UniversalRenderPipeline_TypeDefinitionIndex)->GetStaticField(0x6310);
-		}
-		static ::System::Boolean* StaticGet_s_LastUseNativePerObjectShadow()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(UniversalRenderPipeline_TypeDefinitionIndex)->GetStaticField(0x6318);
-		}
-		static ::System::Boolean* StaticGet_requiresSRGBConversion()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(UniversalRenderPipeline_TypeDefinitionIndex)->GetStaticField(0x6319);
-		}
-		static ::System::Boolean* StaticGet_s_UseNativePerObjectShadowInitialized()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(UniversalRenderPipeline_TypeDefinitionIndex)->GetStaticField(0x631A);
-		}
-		static ::System::Boolean* StaticGet_showOverdrawInfo()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(UniversalRenderPipeline_TypeDefinitionIndex)->GetStaticField(0x631B);
-		}
-		static ::System::Boolean* StaticGet__SeparateUIRT_k__BackingField()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(UniversalRenderPipeline_TypeDefinitionIndex)->GetStaticField(0x631C);
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(UniversalRenderPipeline_TypeDefinitionIndex)->GetStaticField(0x62B0);
 		}
 		static ::System::Int64* StaticGet_preFrameCount()
 		{
-			return (::System::Int64*)Il2CppClass::FromTypeDefinitionIndex(UniversalRenderPipeline_TypeDefinitionIndex)->GetStaticField(0x6320);
+			return (::System::Int64*)Il2CppClass::FromTypeDefinitionIndex(UniversalRenderPipeline_TypeDefinitionIndex)->GetStaticField(0x62B8);
+		}
+		static ::System::Boolean* StaticGet_requiresSRGBConversion()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(UniversalRenderPipeline_TypeDefinitionIndex)->GetStaticField(0x62C0);
+		}
+		static ::System::Boolean* StaticGet_showOverdrawInfo()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(UniversalRenderPipeline_TypeDefinitionIndex)->GetStaticField(0x62C1);
+		}
+		static ::System::Boolean* StaticGet_s_LastUseNativePerObjectShadow()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(UniversalRenderPipeline_TypeDefinitionIndex)->GetStaticField(0x62C2);
+		}
+		static ::System::Boolean* StaticGet__SeparateUIRT_k__BackingField()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(UniversalRenderPipeline_TypeDefinitionIndex)->GetStaticField(0x62C3);
+		}
+		static ::System::Boolean* StaticGet_s_UseNativePerObjectShadowInitialized()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(UniversalRenderPipeline_TypeDefinitionIndex)->GetStaticField(0x62C4);
+		}
+		static ::System::Int32* StaticGet_LaunchSRPHelperStage()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UniversalRenderPipeline_TypeDefinitionIndex)->GetStaticField(0x62C8);
+		}
+		static ::System::Int32* StaticGet_s_DecalSimpleRenderQueue()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UniversalRenderPipeline_TypeDefinitionIndex)->GetStaticField(0x62CC);
+		}
+		static ::UnityEngine::Vector4* StaticGet__napTime()
+		{
+			return (::UnityEngine::Vector4*)Il2CppClass::FromTypeDefinitionIndex(UniversalRenderPipeline_TypeDefinitionIndex)->GetStaticField(0x62D0);
+		}
+		static ::System::Int64* StaticGet_lastToonLightErrorTime()
+		{
+			return (::System::Int64*)Il2CppClass::FromTypeDefinitionIndex(UniversalRenderPipeline_TypeDefinitionIndex)->GetStaticField(0x62E0);
 		}
 		// static const ::System::String* k_ShaderTagName; // 0x0
 		// static const ::System::Int32 MAX_VISIBLE_ADDITIONAL_LIGHT_COUNT_HIGH = 0x100; // 0x0
@@ -249,6 +254,16 @@ namespace UnityEngine::Rendering::Universal
 		::System::Void _ctor(::UnityEngine::Rendering::Universal::UniversalRenderPipelineAsset* asset)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::Universal::UniversalRenderPipelineAsset*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE__CTOR_OFFSET))(this, asset);
+		}
+
+		static ::UnityEngine::Profiling::CustomSampler* GetCameraProfilerTag(::UnityEngine::Camera* camera)
+		{
+			return ((::UnityEngine::Profiling::CustomSampler*(*)(::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_GETCAMERAPROFILERTAG_OFFSET))(camera);
+		}
+
+		static ::System::Void TrimUnusedCameraProfilingSamplers()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_TRIMUNUSEDCAMERAPROFILINGSAMPLERS_OFFSET))();
 		}
 
 		static ::System::Single get_maxShadowBias()
@@ -331,9 +346,9 @@ namespace UnityEngine::Rendering::Universal
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_REGISTERVOLUMETYPES_OFFSET))();
 		}
 
-		static ::UnityEngine::NAPRenderPipeline0::PerObjectShadowConfig CreatePerObjectShadowConfig(::CSharpPerObjectShadowSettings* settings, ::UnityEngine::Rendering::Universal::UniversalRenderPipelineAsset* asset)
+		static ::UnityEngine::NAPRenderPipeline0::PerObjectShadowConfig CreatePerObjectShadowConfig(::CSharpPerObjectShadowSettings* settings)
 		{
-			return ((::UnityEngine::NAPRenderPipeline0::PerObjectShadowConfig(*)(::CSharpPerObjectShadowSettings*, ::UnityEngine::Rendering::Universal::UniversalRenderPipelineAsset*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_CREATEPEROBJECTSHADOWCONFIG_OFFSET))(settings, asset);
+			return ((::UnityEngine::NAPRenderPipeline0::PerObjectShadowConfig(*)(::CSharpPerObjectShadowSettings*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_CREATEPEROBJECTSHADOWCONFIG_OFFSET))(settings);
 		}
 
 		static ::System::Void SetupShaderFeatureMappings(::UnityEngine::Rendering::Universal::ForwardRendererData* rendererData)
@@ -384,16 +399,6 @@ namespace UnityEngine::Rendering::Universal
 		static ::System::Void RenderSingleCamera(::UnityEngine::Rendering::ScriptableRenderContext& context, ::UnityEngine::Camera* camera)
 		{
 			return ((::System::Void(*)(::UnityEngine::Rendering::ScriptableRenderContext&, ::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_RENDERSINGLECAMERA_OFFSET))(context, camera);
-		}
-
-		static ::UnityEngine::Profiling::CustomSampler* GetCameraProfilerTag(::UnityEngine::Camera* camera)
-		{
-			return ((::UnityEngine::Profiling::CustomSampler*(*)(::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_GETCAMERAPROFILERTAG_OFFSET))(camera);
-		}
-
-		static ::System::Void TrimUnusedCameraProfilingSamplers()
-		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_TRIMUNUSEDCAMERAPROFILINGSAMPLERS_OFFSET))();
 		}
 
 		static ::System::Void RenderSingleCamera_1(::UnityEngine::Rendering::ScriptableRenderContext& context, ::UnityEngine::NAPRenderPipeline0::CameraData& cameraData, ::System::Boolean anyPostProcessingEnabled)
@@ -511,11 +516,6 @@ namespace UnityEngine::Rendering::Universal
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_SETUPPERFRAMESHADERCONSTANTS_OFFSET))();
 		}
 
-		static ::System::Void SetupPerFrameShaderKeywords()
-		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_SETUPPERFRAMESHADERKEYWORDS_OFFSET))();
-		}
-
 		static ::System::Void UpdateCameraShaderCompilerStamps(::Il2CppArray<::UnityEngine::Camera*>* cameras)
 		{
 			return ((::System::Void(*)(::Il2CppArray<::UnityEngine::Camera*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_UPDATECAMERASHADERCOMPILERSTAMPS_OFFSET))(cameras);
@@ -556,9 +556,9 @@ namespace UnityEngine::Rendering::Universal
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_RESETDECALSIMPLERENDERQUEUE_OFFSET))();
 		}
 
-		static ::System::Boolean AfmeEnableOffScreenUI(::UnityEngine::NAPRenderPipeline0::CameraData cameraData)
+		static ::System::Boolean AfmeEnableOffScreenUI(::UnityEngine::NAPRenderPipeline0::CameraData& cameraData)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::NAPRenderPipeline0::CameraData))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_AFMEENABLEOFFSCREENUI_OFFSET))(cameraData);
+			return ((::System::Boolean(*)(::UnityEngine::NAPRenderPipeline0::CameraData&))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_AFMEENABLEOFFSCREENUI_OFFSET))(cameraData);
 		}
 
 		static ::System::Boolean get_SeparateUIRT()
@@ -601,14 +601,14 @@ namespace UnityEngine::Rendering::Universal
 			return ((::System::Void(*)(::UnityEngine::NAPRenderPipeline0::CameraData&))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE_GETGPUQUERYRESULT_OFFSET))(cameraData);
 		}
 
-		static ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData* _MarkCameraFinalTarget_g__MarkUiBlurStates_45_0(::UnityEngine::Camera* c, ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData* d, ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData* prev)
+		static ::System::Void _MarkCameraFinalTarget_g__MarkUiBlurStates_52_0(::UnityEngine::Camera* c, ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData* d, ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData* prev, ::UnityEngine::Rendering::Universal::UniversalRenderPipeline___c__DisplayClass52_0& a4)
 		{
-			return ((::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*(*)(::UnityEngine::Camera*, ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*, ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE__MARKCAMERAFINALTARGET_G__MARKUIBLURSTATES_45_0_OFFSET))(c, d, prev);
+			return ((::System::Void(*)(::UnityEngine::Camera*, ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*, ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*, ::UnityEngine::Rendering::Universal::UniversalRenderPipeline___c__DisplayClass52_0&))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE__MARKCAMERAFINALTARGET_G__MARKUIBLURSTATES_52_0_OFFSET))(c, d, prev, a4);
 		}
 
-		static ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData* _MarkCameraFinalTarget_g__GetOrAddAdditionalCameraData_45_1(::UnityEngine::Camera* camera)
+		static ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData* _MarkCameraFinalTarget_g__GetOrAddAdditionalCameraData_52_1(::UnityEngine::Camera* camera)
 		{
-			return ((::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*(*)(::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE__MARKCAMERAFINALTARGET_G__GETORADDADDITIONALCAMERADATA_45_1_OFFSET))(camera);
+			return ((::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*(*)(::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINE__MARKCAMERAFINALTARGET_G__GETORADDADDITIONALCAMERADATA_52_1_OFFSET))(camera);
 		}
 
 		::System::Void __base_Dispose(::System::Boolean P0)

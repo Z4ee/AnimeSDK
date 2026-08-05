@@ -7,7 +7,7 @@ class Class_3_F2DAD7F45F518868;
 
 namespace NPCCrowd::Avatar
 {
-	inline static constexpr unsigned int NPCAvatarSubSystem___c__DisplayClass41_0_TypeDefinitionIndex = 82934;
+	inline static constexpr unsigned int NPCAvatarSubSystem___c__DisplayClass41_0_TypeDefinitionIndex = 58539;
 
 	struct alignas(8) NPCAvatarSubSystem___c__DisplayClass41_0
 	{

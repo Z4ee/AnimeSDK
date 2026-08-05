@@ -14,11 +14,11 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class Material; }
 
-#define MOLEMOLE_ARCADE_BALLSRACE_CLIENT_BRCLIENTCONSTANTCFG__CTOR_OFFSET UNITYSDK_OFFSET(0x1E0A8F90)
+#define MOLEMOLE_ARCADE_BALLSRACE_CLIENT_BRCLIENTCONSTANTCFG__CTOR_OFFSET UNITYSDK_OFFSET(0x1F23C3F0)
 
 namespace MoleMole::Arcade::BallsRace::Client
 {
-	inline static constexpr unsigned int BrClientConstantCfg_TypeDefinitionIndex = 89533;
+	inline static constexpr unsigned int BrClientConstantCfg_TypeDefinitionIndex = 93226;
 
 	class BrClientConstantCfg : public ::System::Object
 	{

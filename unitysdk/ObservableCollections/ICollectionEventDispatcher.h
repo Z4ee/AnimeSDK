@@ -5,7 +5,7 @@ namespace ObservableCollections { class CollectionEventDispatcherEventArgs; }
 
 namespace ObservableCollections
 {
-	inline static constexpr unsigned int ICollectionEventDispatcher_TypeDefinitionIndex = 28176;
+	inline static constexpr unsigned int ICollectionEventDispatcher_TypeDefinitionIndex = 28637;
 
 	class ICollectionEventDispatcher
 	{

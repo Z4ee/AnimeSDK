@@ -3,7 +3,7 @@
 
 namespace Epic::OnlineServices::Ecom
 {
-	inline static constexpr unsigned int EcomItemType_TypeDefinitionIndex = 35953;
+	inline static constexpr unsigned int EcomItemType_TypeDefinitionIndex = 36612;
 
 	enum class EcomItemType : ::System::Int32
 	{

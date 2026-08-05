@@ -1,0 +1,192 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_37DF30C8B3AA0F39.h"
+#include "unitysdk/Struct_2_575273D27F02957E.h"
+#include "unitysdk/Struct_2_C8629618711DF8B3.h"
+
+class Class_2_208CC9941471731A_603;
+class Class_2_E87F1D15F1D4AC72;
+namespace MoleMole { class UIControllerContextBase; }
+namespace MoleMole { class UISummerEventRewardRowWidgetController_Data; }
+namespace MoleMole { class UISummerTideTreasureRewardPageController_Context; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+template <typename T> class Class_0_16E4307DCC419505_159;
+template <typename T> class Class_0_16E4307DCC419505_164;
+template <typename T> class Class_0_16E4307DCC41950C_14;
+template <typename T> class Class_2_0ABEDEEC42FD90B1;
+template <typename T> class Class_2_F16D73323D71766B;
+
+#define CLASS_2_E07694629CF64985_METHOD_2_004D5A9C26512E4C_OFFSET UNITYSDK_OFFSET(0x12AF5EC0)
+#define CLASS_2_E07694629CF64985_METHOD_2_00C1F6363147C1E1_OFFSET UNITYSDK_OFFSET(0x12AF55B0)
+#define CLASS_2_E07694629CF64985_METHOD_2_01638720A0472CAB_1_OFFSET UNITYSDK_OFFSET(0x12AF5EB0)
+#define CLASS_2_E07694629CF64985_METHOD_2_01638720A0472CAB_OFFSET UNITYSDK_OFFSET(0x12AF5E80)
+#define CLASS_2_E07694629CF64985_METHOD_2_1290EA767C459179_OFFSET UNITYSDK_OFFSET(0x12AF55D0)
+#define CLASS_2_E07694629CF64985_METHOD_2_27AAB6131073A743_OFFSET UNITYSDK_OFFSET(0x12AF4BE0)
+#define CLASS_2_E07694629CF64985_METHOD_2_37493865ED77F3A5_OFFSET UNITYSDK_OFFSET(0x12AF58A0)
+#define CLASS_2_E07694629CF64985_METHOD_2_3EA6C397C34AAC8F_OFFSET UNITYSDK_OFFSET(0x12AF5E90)
+#define CLASS_2_E07694629CF64985_METHOD_2_3F67241E14FD912F_OFFSET UNITYSDK_OFFSET(0x12AF5720)
+#define CLASS_2_E07694629CF64985_METHOD_2_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x12AF3C70)
+#define CLASS_2_E07694629CF64985_METHOD_2_58D0CBD885BBA17E_OFFSET UNITYSDK_OFFSET(0x12AF5580)
+#define CLASS_2_E07694629CF64985_METHOD_2_6DCEF494531128B1_OFFSET UNITYSDK_OFFSET(0x12AF4B10)
+#define CLASS_2_E07694629CF64985_METHOD_2_7C24BDFB38748C42_OFFSET UNITYSDK_OFFSET(0x12AF5300)
+#define CLASS_2_E07694629CF64985_METHOD_2_AA5A63EF1421373E_OFFSET UNITYSDK_OFFSET(0x12AF5260)
+#define CLASS_2_E07694629CF64985_METHOD_2_AB88190D695EBEA9_OFFSET UNITYSDK_OFFSET(0x12AF5950)
+#define CLASS_2_E07694629CF64985_METHOD_2_B2A9E476CE8053F4_OFFSET UNITYSDK_OFFSET(0x12AF58C0)
+#define CLASS_2_E07694629CF64985_METHOD_2_B4658C650B0ADF84_OFFSET UNITYSDK_OFFSET(0x12AF5EA0)
+#define CLASS_2_E07694629CF64985_METHOD_2_C27B78BD5DCDFBDE_OFFSET UNITYSDK_OFFSET(0x12AF55C0)
+#define CLASS_2_E07694629CF64985_METHOD_2_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0x12AF51D0)
+#define CLASS_2_E07694629CF64985_METHOD_2_CA373AA1C7054598_2_OFFSET UNITYSDK_OFFSET(0x12AF5270)
+#define CLASS_2_E07694629CF64985_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x12AF3CF0)
+#define CLASS_2_E07694629CF64985_METHOD_2_D37C77CA65DB1760_OFFSET UNITYSDK_OFFSET(0x12AF5730)
+#define CLASS_2_E07694629CF64985_METHOD_2_E5E7BE08C9568DF0_1_OFFSET UNITYSDK_OFFSET(0x12AF58B0)
+#define CLASS_2_E07694629CF64985_METHOD_2_E5E7BE08C9568DF0_OFFSET UNITYSDK_OFFSET(0x12AF51C0)
+#define CLASS_2_E07694629CF64985_METHOD_2_E6FA4947A2BD617E_OFFSET UNITYSDK_OFFSET(0x12AF3D30)
+#define CLASS_2_E07694629CF64985__CTOR_OFFSET UNITYSDK_OFFSET(0x12AF4F20)
+
+inline static constexpr unsigned int Class_2_E07694629CF64985_TypeDefinitionIndex = 75719;
+
+class Class_2_E07694629CF64985 : public ::Class_1_37DF30C8B3AA0F39
+{
+public:
+	// static const ::System::Int32 Field_2_8 = 0x5; // 0x0
+	::Class_2_0ABEDEEC42FD90B1<::MoleMole::UISummerEventRewardRowWidgetController_Data*>* Field_2_5; // 0x50
+	::Class_2_F16D73323D71766B<::System::Int32>* Field_2_11; // 0x58
+	::System::Collections::Generic::List_1<::MoleMole::UISummerEventRewardRowWidgetController_Data*>* Field_2_0; // 0x60
+	::Class_2_0ABEDEEC42FD90B1<::MoleMole::UISummerEventRewardRowWidgetController_Data*>* Field_2_7; // 0x68
+	::System::Collections::Generic::List_1<::MoleMole::UISummerEventRewardRowWidgetController_Data*>* Field_2_6; // 0x70
+	::Class_0_16E4307DCC419505_159<::MoleMole::UISummerTideTreasureRewardPageController_Context*>* Field_2_15; // 0x78
+	::Class_0_16E4307DCC419505_164<::System::Int32>* Field_2_4; // 0x80
+	::Class_0_16E4307DCC41950C_14<::MoleMole::UISummerEventRewardRowWidgetController_Data*>* Field_2_1; // 0x88
+	::System::Int32 Field_2_10; // 0x90
+	::System::Int32 Field_2_9; // 0x94
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E07694629CF64985__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_2_4343F372F34C05BF()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E07694629CF64985_METHOD_2_4343F372F34C05BF_OFFSET))(this);
+	}
+
+	::System::Void Method_2_CA373AA1C7054598()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E07694629CF64985_METHOD_2_CA373AA1C7054598_OFFSET))(this);
+	}
+
+	::System::Void Method_2_E6FA4947A2BD617E(::Struct_2_575273D27F02957E& a1, ::Class_2_E87F1D15F1D4AC72* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Struct_2_575273D27F02957E&, ::Class_2_E87F1D15F1D4AC72*))((::PBYTE)hIl2Cpp + CLASS_2_E07694629CF64985_METHOD_2_E6FA4947A2BD617E_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_2_27AAB6131073A743(::MoleMole::UIControllerContextBase* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + CLASS_2_E07694629CF64985_METHOD_2_27AAB6131073A743_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_E5E7BE08C9568DF0(::Class_2_0ABEDEEC42FD90B1<::MoleMole::UISummerEventRewardRowWidgetController_Data*>* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_2_0ABEDEEC42FD90B1<::MoleMole::UISummerEventRewardRowWidgetController_Data*>*))((::PBYTE)hIl2Cpp + CLASS_2_E07694629CF64985_METHOD_2_E5E7BE08C9568DF0_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_CA373AA1C7054598_1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E07694629CF64985_METHOD_2_CA373AA1C7054598_1_OFFSET))(this);
+	}
+
+	::System::Void Method_2_AA5A63EF1421373E(::Class_0_16E4307DCC419505_164<::System::Int32>* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_164<::System::Int32>*))((::PBYTE)hIl2Cpp + CLASS_2_E07694629CF64985_METHOD_2_AA5A63EF1421373E_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_CA373AA1C7054598_2()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E07694629CF64985_METHOD_2_CA373AA1C7054598_2_OFFSET))(this);
+	}
+
+	::System::Void Method_2_7C24BDFB38748C42(::Struct_2_C8629618711DF8B3& a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Struct_2_C8629618711DF8B3&))((::PBYTE)hIl2Cpp + CLASS_2_E07694629CF64985_METHOD_2_7C24BDFB38748C42_OFFSET))(this, a1);
+	}
+
+	::System::Boolean Method_2_58D0CBD885BBA17E(::Class_2_208CC9941471731A_603* a1)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::Class_2_208CC9941471731A_603*))((::PBYTE)hIl2Cpp + CLASS_2_E07694629CF64985_METHOD_2_58D0CBD885BBA17E_OFFSET))(this, a1);
+	}
+
+	::Class_0_16E4307DCC41950C_14<::MoleMole::UISummerEventRewardRowWidgetController_Data*>* Method_2_00C1F6363147C1E1()
+	{
+		return ((::Class_0_16E4307DCC41950C_14<::MoleMole::UISummerEventRewardRowWidgetController_Data*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E07694629CF64985_METHOD_2_00C1F6363147C1E1_OFFSET))(this);
+	}
+
+	::System::Void Method_2_C27B78BD5DCDFBDE(::Class_0_16E4307DCC41950C_14<::MoleMole::UISummerEventRewardRowWidgetController_Data*>* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC41950C_14<::MoleMole::UISummerEventRewardRowWidgetController_Data*>*))((::PBYTE)hIl2Cpp + CLASS_2_E07694629CF64985_METHOD_2_C27B78BD5DCDFBDE_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_1290EA767C459179()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E07694629CF64985_METHOD_2_1290EA767C459179_OFFSET))(this);
+	}
+
+	::Class_0_16E4307DCC419505_164<::System::Boolean>* Method_2_6DCEF494531128B1()
+	{
+		return ((::Class_0_16E4307DCC419505_164<::System::Boolean>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E07694629CF64985_METHOD_2_6DCEF494531128B1_OFFSET))(this);
+	}
+
+	::System::Void Method_2_3F67241E14FD912F(::Class_0_16E4307DCC419505_159<::MoleMole::UISummerTideTreasureRewardPageController_Context*>* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_159<::MoleMole::UISummerTideTreasureRewardPageController_Context*>*))((::PBYTE)hIl2Cpp + CLASS_2_E07694629CF64985_METHOD_2_3F67241E14FD912F_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_D37C77CA65DB1760(::Struct_2_C8629618711DF8B3& a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Struct_2_C8629618711DF8B3&))((::PBYTE)hIl2Cpp + CLASS_2_E07694629CF64985_METHOD_2_D37C77CA65DB1760_OFFSET))(this, a1);
+	}
+
+	::Class_2_F16D73323D71766B<::System::Int32>* Method_2_37493865ED77F3A5()
+	{
+		return ((::Class_2_F16D73323D71766B<::System::Int32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E07694629CF64985_METHOD_2_37493865ED77F3A5_OFFSET))(this);
+	}
+
+	::System::Void Method_2_E5E7BE08C9568DF0_1(::Class_2_0ABEDEEC42FD90B1<::MoleMole::UISummerEventRewardRowWidgetController_Data*>* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_2_0ABEDEEC42FD90B1<::MoleMole::UISummerEventRewardRowWidgetController_Data*>*))((::PBYTE)hIl2Cpp + CLASS_2_E07694629CF64985_METHOD_2_E5E7BE08C9568DF0_1_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_B2A9E476CE8053F4(::MoleMole::UIControllerContextBase* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + CLASS_2_E07694629CF64985_METHOD_2_B2A9E476CE8053F4_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_AB88190D695EBEA9()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E07694629CF64985_METHOD_2_AB88190D695EBEA9_OFFSET))(this);
+	}
+
+	::Class_2_0ABEDEEC42FD90B1<::MoleMole::UISummerEventRewardRowWidgetController_Data*>* Method_2_01638720A0472CAB()
+	{
+		return ((::Class_2_0ABEDEEC42FD90B1<::MoleMole::UISummerEventRewardRowWidgetController_Data*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E07694629CF64985_METHOD_2_01638720A0472CAB_OFFSET))(this);
+	}
+
+	::Class_0_16E4307DCC419505_164<::System::Int32>* Method_2_3EA6C397C34AAC8F()
+	{
+		return ((::Class_0_16E4307DCC419505_164<::System::Int32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E07694629CF64985_METHOD_2_3EA6C397C34AAC8F_OFFSET))(this);
+	}
+
+	::Class_0_16E4307DCC419505_159<::MoleMole::UISummerTideTreasureRewardPageController_Context*>* Method_2_B4658C650B0ADF84()
+	{
+		return ((::Class_0_16E4307DCC419505_159<::MoleMole::UISummerTideTreasureRewardPageController_Context*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E07694629CF64985_METHOD_2_B4658C650B0ADF84_OFFSET))(this);
+	}
+
+	::Class_2_0ABEDEEC42FD90B1<::MoleMole::UISummerEventRewardRowWidgetController_Data*>* Method_2_01638720A0472CAB_1()
+	{
+		return ((::Class_2_0ABEDEEC42FD90B1<::MoleMole::UISummerEventRewardRowWidgetController_Data*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E07694629CF64985_METHOD_2_01638720A0472CAB_1_OFFSET))(this);
+	}
+
+	::System::Void Method_2_004D5A9C26512E4C(::Class_2_F16D73323D71766B<::System::Int32>* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_2_F16D73323D71766B<::System::Int32>*))((::PBYTE)hIl2Cpp + CLASS_2_E07694629CF64985_METHOD_2_004D5A9C26512E4C_OFFSET))(this, a1);
+	}
+};

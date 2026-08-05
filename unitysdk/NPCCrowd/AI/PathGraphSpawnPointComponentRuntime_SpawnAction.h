@@ -4,11 +4,11 @@
 
 namespace System { template <typename T1, typename T2> class Action_2; }
 
-#define NPCCROWD_AI_PATHGRAPHSPAWNPOINTCOMPONENTRUNTIME_SPAWNACTION__CTOR_OFFSET UNITYSDK_OFFSET(0xE004F50)
+#define NPCCROWD_AI_PATHGRAPHSPAWNPOINTCOMPONENTRUNTIME_SPAWNACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x119235F0)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int PathGraphSpawnPointComponentRuntime_SpawnAction_TypeDefinitionIndex = 40669;
+	inline static constexpr unsigned int PathGraphSpawnPointComponentRuntime_SpawnAction_TypeDefinitionIndex = 72624;
 
 	class PathGraphSpawnPointComponentRuntime_SpawnAction : public ::System::Object
 	{

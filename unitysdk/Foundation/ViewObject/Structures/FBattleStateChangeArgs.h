@@ -5,7 +5,7 @@
 
 namespace Foundation::ViewObject::Structures
 {
-	inline static constexpr unsigned int FBattleStateChangeArgs_TypeDefinitionIndex = 56014;
+	inline static constexpr unsigned int FBattleStateChangeArgs_TypeDefinitionIndex = 63049;
 
 	struct alignas(4) FBattleStateChangeArgs
 	{

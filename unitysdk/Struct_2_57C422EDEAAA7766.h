@@ -5,15 +5,15 @@
 
 namespace MoleMole::Battle { class Entity; }
 
-#define STRUCT_2_57C422EDEAAA7766__CTOR_OFFSET UNITYSDK_OFFSET(0x680BB0)
+#define STRUCT_2_57C422EDEAAA7766__CTOR_OFFSET UNITYSDK_OFFSET(0x6AE730)
 
-inline static constexpr unsigned int Struct_2_57C422EDEAAA7766_TypeDefinitionIndex = 81877;
+inline static constexpr unsigned int Struct_2_57C422EDEAAA7766_TypeDefinitionIndex = 60884;
 
 struct alignas(8) Struct_2_57C422EDEAAA7766
 {
 	::MoleMole::Battle::Entity* Field_2_0; // 0x10
-	::Enum_3_EB96CB9A278BD6E0 Field_2_1; // 0x18
-	::MoleMole::Battle::Entity* Field_2_2; // 0x20
+	::Enum_3_EB96CB9A278BD6E0 Field_2_7; // 0x18
+	::MoleMole::Battle::Entity* Field_2_6; // 0x20
 
 	::System::Void _ctor(::MoleMole::Battle::Entity* a1, ::Enum_3_EB96CB9A278BD6E0 a2, ::MoleMole::Battle::Entity* a3)
 	{

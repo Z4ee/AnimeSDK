@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_BANDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x10D35620)
+#define MOLEMOLE_FLOWCANVAS_NODES_BANDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1A999CA0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int BandData_TypeDefinitionIndex = 82929;
+	inline static constexpr unsigned int BandData_TypeDefinitionIndex = 70814;
 
 	class BandData : public ::System::Object
 	{

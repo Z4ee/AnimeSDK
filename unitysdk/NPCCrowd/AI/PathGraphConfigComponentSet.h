@@ -6,12 +6,12 @@
 namespace NPCCrowd::AI { class PathGraphConfigComponent; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCCROWD_AI_PATHGRAPHCONFIGCOMPONENTSET_GET_ENUMERATOR_OFFSET UNITYSDK_OFFSET(0xE0027A0)
-#define NPCCROWD_AI_PATHGRAPHCONFIGCOMPONENTSET__CTOR_OFFSET UNITYSDK_OFFSET(0xE002830)
+#define NPCCROWD_AI_PATHGRAPHCONFIGCOMPONENTSET_GET_ENUMERATOR_OFFSET UNITYSDK_OFFSET(0x11920E70)
+#define NPCCROWD_AI_PATHGRAPHCONFIGCOMPONENTSET__CTOR_OFFSET UNITYSDK_OFFSET(0x11920F00)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int PathGraphConfigComponentSet_TypeDefinitionIndex = 69412;
+	inline static constexpr unsigned int PathGraphConfigComponentSet_TypeDefinitionIndex = 84499;
 
 	class PathGraphConfigComponentSet : public ::System::Object
 	{

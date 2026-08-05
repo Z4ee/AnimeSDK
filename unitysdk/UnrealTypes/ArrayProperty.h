@@ -5,13 +5,13 @@
 namespace UnrealTypes { class ArrayPropertyParams; }
 namespace UnrealTypes { class IFieldVariant; }
 
-#define UNREALTYPES_ARRAYPROPERTY_ADDCPPPROPERTY_OFFSET UNITYSDK_OFFSET(0x1D1AC470)
-#define UNREALTYPES_ARRAYPROPERTY_LINKINTERNAL_OFFSET UNITYSDK_OFFSET(0x1D1AC480)
-#define UNREALTYPES_ARRAYPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1AC380)
+#define UNREALTYPES_ARRAYPROPERTY_ADDCPPPROPERTY_OFFSET UNITYSDK_OFFSET(0x1E3828C0)
+#define UNREALTYPES_ARRAYPROPERTY_LINKINTERNAL_OFFSET UNITYSDK_OFFSET(0x1E3828D0)
+#define UNREALTYPES_ARRAYPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x1E3827D0)
 
 namespace UnrealTypes
 {
-	inline static constexpr unsigned int ArrayProperty_TypeDefinitionIndex = 27781;
+	inline static constexpr unsigned int ArrayProperty_TypeDefinitionIndex = 28384;
 
 	class ArrayProperty : public ::UnrealTypes::Property
 	{

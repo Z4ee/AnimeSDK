@@ -3,11 +3,11 @@
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/EnumVolumeParameter_1.h"
 #include "unitysdk/UnityEngine/Rendering/Universal/ComicDotType.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_COMICDOTTYPEPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C99CC50)
+#define UNITYENGINE_RENDERING_UNIVERSAL_COMICDOTTYPEPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1DDF7600)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int ComicDotTypeParameter_TypeDefinitionIndex = 26767;
+	inline static constexpr unsigned int ComicDotTypeParameter_TypeDefinitionIndex = 27189;
 
 	class ComicDotTypeParameter : public ::UnityEngine::NAPRenderPipeline0::EnumVolumeParameter_1<::UnityEngine::Rendering::Universal::ComicDotType>
 	{

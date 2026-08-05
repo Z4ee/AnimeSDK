@@ -5,11 +5,11 @@
 namespace NodeGraph { class GraphOutputValuePort; }
 namespace NodeGraph { class NodeGraphBase; }
 
-#define NODEGRAPH_GRAPHNODECALCULATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x13A0ABC0)
+#define NODEGRAPH_GRAPHNODECALCULATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x177EA3C0)
 
 namespace NodeGraph
 {
-	inline static constexpr unsigned int GraphNodeCalculator_TypeDefinitionIndex = 75403;
+	inline static constexpr unsigned int GraphNodeCalculator_TypeDefinitionIndex = 69341;
 
 	class GraphNodeCalculator : public ::NodeGraph::GraphNodeBase
 	{

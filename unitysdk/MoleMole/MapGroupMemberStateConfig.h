@@ -12,15 +12,15 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Animator; }
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_MAPGROUPMEMBERSTATECONFIG_ADDTOBOUNDSLIST_OFFSET UNITYSDK_OFFSET(0x13EFB480)
-#define MOLEMOLE_MAPGROUPMEMBERSTATECONFIG_GETPIVOTCENTER_OFFSET UNITYSDK_OFFSET(0x13EFB150)
-#define MOLEMOLE_MAPGROUPMEMBERSTATECONFIG_GET_ANIMATOR_OFFSET UNITYSDK_OFFSET(0x13EFAF60)
-#define MOLEMOLE_MAPGROUPMEMBERSTATECONFIG_GET_MESHBOUNDS_OFFSET UNITYSDK_OFFSET(0x13EFAA00)
-#define MOLEMOLE_MAPGROUPMEMBERSTATECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x13EFBA10)
+#define MOLEMOLE_MAPGROUPMEMBERSTATECONFIG_ADDTOBOUNDSLIST_OFFSET UNITYSDK_OFFSET(0x136C4B70)
+#define MOLEMOLE_MAPGROUPMEMBERSTATECONFIG_GETPIVOTCENTER_OFFSET UNITYSDK_OFFSET(0x136C4840)
+#define MOLEMOLE_MAPGROUPMEMBERSTATECONFIG_GET_ANIMATOR_OFFSET UNITYSDK_OFFSET(0x136C4650)
+#define MOLEMOLE_MAPGROUPMEMBERSTATECONFIG_GET_MESHBOUNDS_OFFSET UNITYSDK_OFFSET(0x136C40F0)
+#define MOLEMOLE_MAPGROUPMEMBERSTATECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x136C5110)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MapGroupMemberStateConfig_TypeDefinitionIndex = 62005;
+	inline static constexpr unsigned int MapGroupMemberStateConfig_TypeDefinitionIndex = 44812;
 
 	class MapGroupMemberStateConfig : public ::UnityEngine::MonoBehaviour
 	{
@@ -34,10 +34,13 @@ namespace MoleMole
 		::System::Single OverrideYaw; // 0x50
 		::System::Boolean EnableHideIcon; // 0x54
 		::System::Boolean HideMainMapWhenInBounds; // 0x55
-		::System::Nullable_1<::UnityEngine::Bounds> Field_5_9; // 0x58
+		::System::Boolean IgnoreRadarInit; // 0x56
+		::System::Boolean ShowRadarSpecialEffect; // 0x57
+		::System::Int32 ForceShowLayerIndex; // 0x58
+		::System::Nullable_1<::UnityEngine::Bounds> Field_5_12; // 0x5C
 		::System::Collections::Generic::List_1<::MoleMole::SMapGroupMemberStateConfigBounds*>* OverrideBounds; // 0x78
 		::System::Collections::Generic::List_1<::MoleMole::SMapGroupMemberStateConfigBounds*>* RadarSplitOverrideBounds; // 0x80
-		::UnityEngine::Animator* Field_5_12; // 0x88
+		::UnityEngine::Animator* Field_5_17; // 0x88
 
 		::System::Void _ctor()
 		{

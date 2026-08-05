@@ -5,12 +5,12 @@
 class Class_1_D72537470FC2F779;
 namespace MoleMole::Config { class ConfigSoundActionIntending; }
 
-#define MOLEMOLE_CONFIG_CONFIGUIACTIONSOUNDINTENDINGNODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0xE97A7A0)
-#define MOLEMOLE_CONFIG_CONFIGUIACTIONSOUNDINTENDINGNODE__CTOR_OFFSET UNITYSDK_OFFSET(0xE97A810)
+#define MOLEMOLE_CONFIG_CONFIGUIACTIONSOUNDINTENDINGNODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x19AC9DE0)
+#define MOLEMOLE_CONFIG_CONFIGUIACTIONSOUNDINTENDINGNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x19AC9E50)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigUIActionSoundIntendingNode_TypeDefinitionIndex = 39638;
+	inline static constexpr unsigned int ConfigUIActionSoundIntendingNode_TypeDefinitionIndex = 90256;
 
 	class ConfigUIActionSoundIntendingNode : public ::MoleMole::Config::ConfigUIBaseActionNode
 	{

@@ -6,19 +6,19 @@ class Class_1_2CD6915EC12D64B9;
 class Class_2_FDFE69FE7B72463B;
 namespace MoleMole { class UIPrivateMessageReplyWidgetController_AgencyHandler; }
 
-#define MOLEMOLE_UIPRIVATEMESSAGEREPLYWIDGETCONTROLLER_AGENCYHANDLER___C__DISPLAYCLASS31_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1695FBE0)
-#define MOLEMOLE_UIPRIVATEMESSAGEREPLYWIDGETCONTROLLER_AGENCYHANDLER___C__DISPLAYCLASS31_0__ONJOINAGENCY_B__1_OFFSET UNITYSDK_OFFSET(0x1695FBF0)
+#define MOLEMOLE_UIPRIVATEMESSAGEREPLYWIDGETCONTROLLER_AGENCYHANDLER___C__DISPLAYCLASS31_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17D2F460)
+#define MOLEMOLE_UIPRIVATEMESSAGEREPLYWIDGETCONTROLLER_AGENCYHANDLER___C__DISPLAYCLASS31_0__ONJOINAGENCY_B__1_OFFSET UNITYSDK_OFFSET(0x17D2F470)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIPrivateMessageReplyWidgetController_AgencyHandler___c__DisplayClass31_0_TypeDefinitionIndex = 81751;
+	inline static constexpr unsigned int UIPrivateMessageReplyWidgetController_AgencyHandler___c__DisplayClass31_0_TypeDefinitionIndex = 56241;
 
 	class UIPrivateMessageReplyWidgetController_AgencyHandler___c__DisplayClass31_0 : public ::System::Object
 	{
 	public:
-		::Class_2_FDFE69FE7B72463B* anim; // 0x10
-		::MoleMole::UIPrivateMessageReplyWidgetController_AgencyHandler* __4__this; // 0x18
-		::Class_1_2CD6915EC12D64B9* animHelper; // 0x20
+		::MoleMole::UIPrivateMessageReplyWidgetController_AgencyHandler* __4__this; // 0x10
+		::Class_1_2CD6915EC12D64B9* animHelper; // 0x18
+		::Class_2_FDFE69FE7B72463B* anim; // 0x20
 
 		::System::Void _ctor()
 		{

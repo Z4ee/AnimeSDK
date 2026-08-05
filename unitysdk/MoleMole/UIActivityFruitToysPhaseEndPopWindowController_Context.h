@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_UIACTIVITYFRUITTOYSPHASEENDPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18C4F3E0)
+#define MOLEMOLE_UIACTIVITYFRUITTOYSPHASEENDPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B24D540)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityFruitToysPhaseEndPopWindowController_Context_TypeDefinitionIndex = 54779;
+	inline static constexpr unsigned int UIActivityFruitToysPhaseEndPopWindowController_Context_TypeDefinitionIndex = 88581;
 
 	class UIActivityFruitToysPhaseEndPopWindowController_Context : public ::MoleMole::UIControllerContextBase
 	{

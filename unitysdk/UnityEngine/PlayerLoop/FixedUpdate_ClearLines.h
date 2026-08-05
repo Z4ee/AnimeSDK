@@ -4,7 +4,7 @@
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int FixedUpdate_ClearLines_TypeDefinitionIndex = 5570;
+	inline static constexpr unsigned int FixedUpdate_ClearLines_TypeDefinitionIndex = 5573;
 
 	struct alignas(1) FixedUpdate_ClearLines
 	{

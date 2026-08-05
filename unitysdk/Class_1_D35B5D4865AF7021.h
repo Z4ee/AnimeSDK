@@ -10,30 +10,30 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_D35B5D4865AF7021_METHOD_1_30D1209326FA87FC_OFFSET UNITYSDK_OFFSET(0x12E3D2F0)
-#define CLASS_1_D35B5D4865AF7021_METHOD_1_FFC478F2036EA29C_OFFSET UNITYSDK_OFFSET(0x12E3CF80)
-#define CLASS_1_D35B5D4865AF7021__CTOR_OFFSET UNITYSDK_OFFSET(0x12E3CE50)
+#define CLASS_1_D35B5D4865AF7021_METHOD_1_30D1209326FA87FC_OFFSET UNITYSDK_OFFSET(0x13B57F30)
+#define CLASS_1_D35B5D4865AF7021_METHOD_1_FE003C71BFDB275C_OFFSET UNITYSDK_OFFSET(0x13B57C70)
+#define CLASS_1_D35B5D4865AF7021__CTOR_OFFSET UNITYSDK_OFFSET(0x13B57B40)
 
-inline static constexpr unsigned int Class_1_D35B5D4865AF7021_TypeDefinitionIndex = 59254;
+inline static constexpr unsigned int Class_1_D35B5D4865AF7021_TypeDefinitionIndex = 74347;
 
 class Class_1_D35B5D4865AF7021 : public ::System::Object
 {
 public:
-	// static const ::System::String* Field_1_0; // 0x0
+	// static const ::System::String* Field_1_2; // 0x0
 	// static const ::System::Single Field_1_1; // 0x0
-	::UnityEngine::RectTransform* Field_1_3; // 0x10
-	::UnityEngine::GameObject* Field_1_2; // 0x18
-	::System::Action* Field_1_5; // 0x20
-	::UnityEngine::Vector3 Field_1_4; // 0x28
+	::UnityEngine::GameObject* Field_1_0; // 0x10
+	::System::Action* Field_1_5; // 0x18
+	::UnityEngine::RectTransform* Field_1_7; // 0x20
+	::UnityEngine::Vector3 Field_1_6; // 0x28
 
 	::System::Void _ctor(::UnityEngine::Transform* a1, ::UnityEngine::Transform* a2, ::UnityEngine::Vector2 a3, ::System::Action* a4)
 	{
 		return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::UnityEngine::Transform*, ::UnityEngine::Vector2, ::System::Action*))((::PBYTE)hIl2Cpp + CLASS_1_D35B5D4865AF7021__CTOR_OFFSET))(this, a1, a2, a3, a4);
 	}
 
-	::System::Boolean Method_1_FFC478F2036EA29C(::System::Single a1)
+	::System::Boolean Method_1_FE003C71BFDB275C(::System::Single a1)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_D35B5D4865AF7021_METHOD_1_FFC478F2036EA29C_OFFSET))(this, a1);
+		return ((::System::Boolean(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_D35B5D4865AF7021_METHOD_1_FE003C71BFDB275C_OFFSET))(this, a1);
 	}
 
 	::System::Void Method_1_30D1209326FA87FC()

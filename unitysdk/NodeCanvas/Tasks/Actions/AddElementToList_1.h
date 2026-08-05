@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace NodeCanvas::Tasks::Actions
 {
-	inline static constexpr unsigned int AddElementToList_1_TypeDefinitionIndex = 30230;
+	inline static constexpr unsigned int AddElementToList_1_TypeDefinitionIndex = 30290;
 
 	template <typename T>
 	class AddElementToList_1 : public ::NodeCanvas::Framework::ActionTask

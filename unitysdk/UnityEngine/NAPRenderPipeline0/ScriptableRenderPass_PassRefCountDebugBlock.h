@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_SCRIPTABLERENDERPASS_PASSREFCOUNTDEBUGBLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7B3A60)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SCRIPTABLERENDERPASS_PASSREFCOUNTDEBUGBLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB58070)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int ScriptableRenderPass_PassRefCountDebugBlock_TypeDefinitionIndex = 5959;
+	inline static constexpr unsigned int ScriptableRenderPass_PassRefCountDebugBlock_TypeDefinitionIndex = 5961;
 
 	class ScriptableRenderPass_PassRefCountDebugBlock : public ::System::Object
 	{

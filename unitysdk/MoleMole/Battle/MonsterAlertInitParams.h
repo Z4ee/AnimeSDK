@@ -6,12 +6,12 @@
 namespace MoleMole::Config { class ConfigMonsterAlertTrait; }
 namespace System { class String; }
 
-#define MOLEMOLE_BATTLE_MONSTERALERTINITPARAMS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x79C790)
-#define MOLEMOLE_BATTLE_MONSTERALERTINITPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x79C720)
+#define MOLEMOLE_BATTLE_MONSTERALERTINITPARAMS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x730640)
+#define MOLEMOLE_BATTLE_MONSTERALERTINITPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x7305D0)
 
 namespace MoleMole::Battle
 {
-	inline static constexpr unsigned int MonsterAlertInitParams_TypeDefinitionIndex = 74311;
+	inline static constexpr unsigned int MonsterAlertInitParams_TypeDefinitionIndex = 70736;
 
 	struct alignas(8) MonsterAlertInitParams
 	{

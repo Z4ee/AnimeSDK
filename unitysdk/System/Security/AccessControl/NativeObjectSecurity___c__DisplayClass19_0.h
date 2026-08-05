@@ -6,8 +6,8 @@
 namespace System::Runtime::InteropServices { class SafeHandle; }
 namespace System::Security::AccessControl { class NativeObjectSecurity; }
 
-#define SYSTEM_SECURITY_ACCESSCONTROL_NATIVEOBJECTSECURITY___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1AEEF0)
-#define SYSTEM_SECURITY_ACCESSCONTROL_NATIVEOBJECTSECURITY___C__DISPLAYCLASS19_0__INTERNALGET_B__0_OFFSET UNITYSDK_OFFSET(0x1C1AEF00)
+#define SYSTEM_SECURITY_ACCESSCONTROL_NATIVEOBJECTSECURITY___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1D815540)
+#define SYSTEM_SECURITY_ACCESSCONTROL_NATIVEOBJECTSECURITY___C__DISPLAYCLASS19_0__INTERNALGET_B__0_OFFSET UNITYSDK_OFFSET(0x1D815550)
 
 namespace System::Security::AccessControl
 {
@@ -16,8 +16,8 @@ namespace System::Security::AccessControl
 	class NativeObjectSecurity___c__DisplayClass19_0 : public ::System::Object
 	{
 	public:
-		::System::Runtime::InteropServices::SafeHandle* handle; // 0x10
-		::System::Security::AccessControl::NativeObjectSecurity* __4__this; // 0x18
+		::System::Security::AccessControl::NativeObjectSecurity* __4__this; // 0x10
+		::System::Runtime::InteropServices::SafeHandle* handle; // 0x18
 
 		::System::Void _ctor()
 		{

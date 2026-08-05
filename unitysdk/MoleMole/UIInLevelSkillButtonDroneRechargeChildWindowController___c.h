@@ -5,24 +5,24 @@
 namespace System { class EventArgs; }
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_UIINLEVELSKILLBUTTONDRONERECHARGECHILDWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17234C50)
-#define MOLEMOLE_UIINLEVELSKILLBUTTONDRONERECHARGECHILDWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17234C90)
-#define MOLEMOLE_UIINLEVELSKILLBUTTONDRONERECHARGECHILDWINDOWCONTROLLER___C__REGISTEREVENTS_B__16_0_OFFSET UNITYSDK_OFFSET(0x17234CA0)
+#define MOLEMOLE_UIINLEVELSKILLBUTTONDRONERECHARGECHILDWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19111120)
+#define MOLEMOLE_UIINLEVELSKILLBUTTONDRONERECHARGECHILDWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19111160)
+#define MOLEMOLE_UIINLEVELSKILLBUTTONDRONERECHARGECHILDWINDOWCONTROLLER___C__REGISTEREVENTS_B__16_0_OFFSET UNITYSDK_OFFSET(0x19111170)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInLevelSkillButtonDroneRechargeChildWindowController___c_TypeDefinitionIndex = 39793;
+	inline static constexpr unsigned int UIInLevelSkillButtonDroneRechargeChildWindowController___c_TypeDefinitionIndex = 54871;
 
 	class UIInLevelSkillButtonDroneRechargeChildWindowController___c : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::System::EventArgs*>** StaticGet___9__16_0()
 		{
-			return (::System::Action_1<::System::EventArgs*>**)Il2CppClass::FromTypeDefinitionIndex(UIInLevelSkillButtonDroneRechargeChildWindowController___c_TypeDefinitionIndex)->GetStaticField(0x414D0);
+			return (::System::Action_1<::System::EventArgs*>**)Il2CppClass::FromTypeDefinitionIndex(UIInLevelSkillButtonDroneRechargeChildWindowController___c_TypeDefinitionIndex)->GetStaticField(0x42B50);
 		}
 		static ::MoleMole::UIInLevelSkillButtonDroneRechargeChildWindowController___c** StaticGet___9()
 		{
-			return (::MoleMole::UIInLevelSkillButtonDroneRechargeChildWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UIInLevelSkillButtonDroneRechargeChildWindowController___c_TypeDefinitionIndex)->GetStaticField(0x414D8);
+			return (::MoleMole::UIInLevelSkillButtonDroneRechargeChildWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UIInLevelSkillButtonDroneRechargeChildWindowController___c_TypeDefinitionIndex)->GetStaticField(0x42B58);
 		}
 
 		static ::System::Void _cctor()

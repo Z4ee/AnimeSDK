@@ -5,18 +5,18 @@
 namespace System { class String; }
 namespace ZenFulcrum::EmbeddedBrowser { class Browser; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C__DISPLAYCLASS242_0__CB_FORWARDJSCALLFUNC_B__0_OFFSET UNITYSDK_OFFSET(0x1DCAF600)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C__DISPLAYCLASS242_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1DCADC10)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C__DISPLAYCLASS242_0__CB_FORWARDJSCALLFUNC_B__0_OFFSET UNITYSDK_OFFSET(0x1F0DE530)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C__DISPLAYCLASS242_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1F0DCB40)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int Browser___c__DisplayClass242_0_TypeDefinitionIndex = 32538;
+	inline static constexpr unsigned int Browser___c__DisplayClass242_0_TypeDefinitionIndex = 33173;
 
 	class Browser___c__DisplayClass242_0 : public ::System::Object
 	{
 	public:
-		::ZenFulcrum::EmbeddedBrowser::Browser* browser; // 0x10
-		::System::String* data; // 0x18
+		::System::String* data; // 0x10
+		::ZenFulcrum::EmbeddedBrowser::Browser* browser; // 0x18
 		::System::Int32 callbackId; // 0x20
 
 		::System::Void _ctor()

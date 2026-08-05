@@ -6,7 +6,7 @@
 namespace System { template <typename T> class Comparison_1; }
 template <typename T> class Class_1_865272E54B560C96___c__1_1;
 
-inline static constexpr unsigned int Class_1_865272E54B560C96___c__1_1_TypeDefinitionIndex = 28987;
+inline static constexpr unsigned int Class_1_865272E54B560C96___c__1_1_TypeDefinitionIndex = 29623;
 
 template <typename TEvent>
 class Class_1_865272E54B560C96___c__1_1 : public ::System::Object

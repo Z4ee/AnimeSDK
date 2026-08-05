@@ -6,18 +6,18 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_MOVABLEPAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x160DBD40)
+#define MOLEMOLE_MOVABLEPAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x199792F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MovablePageContext_TypeDefinitionIndex = 59059;
+	inline static constexpr unsigned int MovablePageContext_TypeDefinitionIndex = 69818;
 
 	class MovablePageContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::String*>* camKeyList; // 0x28
-		::System::Collections::Generic::List_1<::Foundation::ViewObject::ViewObjectHandle>* voHandles; // 0x30
-		::Foundation::ViewObject::ViewObjectHandle openVo; // 0x38
+		::Foundation::ViewObject::ViewObjectHandle openVo; // 0x28
+		::System::Collections::Generic::List_1<::Foundation::ViewObject::ViewObjectHandle>* voHandles; // 0x38
+		::System::Collections::Generic::List_1<::System::String*>* camKeyList; // 0x40
 
 		::System::Void _ctor()
 		{

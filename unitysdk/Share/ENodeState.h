@@ -3,22 +3,22 @@
 
 namespace Share
 {
-	inline static constexpr unsigned int ENodeState_TypeDefinitionIndex = 15014;
+	inline static constexpr unsigned int ENodeState_TypeDefinitionIndex = 15963;
 
 	enum class ENodeState : ::System::Int16
 	{
-		ShowEvent = 4,
-		Unstable = 10,
-		Guide = 7,
-		BrightenOnlyVisible = 9,
-		Unlocked = 2,
 		Locked = 1,
-		EnumCount = 12,
+		Unstable = 10,
 		Empty = 11,
-		All = 0,
 		Target = 8,
-		Door = 5,
 		Brighten = 6,
+		All = 0,
+		Door = 5,
 		Finished = 3,
+		ShowEvent = 4,
+		BrightenOnlyVisible = 9,
+		EnumCount = 12,
+		Guide = 7,
+		Unlocked = 2,
 	};
 }

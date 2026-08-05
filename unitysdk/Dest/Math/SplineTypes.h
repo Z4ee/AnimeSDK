@@ -3,7 +3,7 @@
 
 namespace Dest::Math
 {
-	inline static constexpr unsigned int SplineTypes_TypeDefinitionIndex = 34792;
+	inline static constexpr unsigned int SplineTypes_TypeDefinitionIndex = 35451;
 
 	enum class SplineTypes : ::System::Int32
 	{

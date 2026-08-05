@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class CubemapArray; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_NAPREFLECTIONCUBEMAPARRAYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4E0930)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_NAPREFLECTIONCUBEMAPARRAYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1E6675C0)
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int NapReflectionCubeMapArrayData_TypeDefinitionIndex = 27348;
+	inline static constexpr unsigned int NapReflectionCubeMapArrayData_TypeDefinitionIndex = 27906;
 
 	class NapReflectionCubeMapArrayData : public ::System::Object
 	{

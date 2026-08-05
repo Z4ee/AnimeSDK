@@ -6,34 +6,34 @@ namespace PipelineCamera { class ICameraDataBlender; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_CAMERAS_CAMERATRACKBLENDING___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x10CD3FC0)
-#define MOLEMOLE_CAMERAS_CAMERATRACKBLENDING___C__CTOR_OFFSET UNITYSDK_OFFSET(0x10CD4000)
-#define MOLEMOLE_CAMERAS_CAMERATRACKBLENDING___C__GENERATEBLENDERBUILDER_B__4_1_OFFSET UNITYSDK_OFFSET(0x10CD4070)
-#define MOLEMOLE_CAMERAS_CAMERATRACKBLENDING___C__GENERATECUTBUILDER_B__2_0_OFFSET UNITYSDK_OFFSET(0x10CD4010)
-#define MOLEMOLE_CAMERAS_CAMERATRACKBLENDING___C__GENERATECUTBUILDER_B__2_1_OFFSET UNITYSDK_OFFSET(0x10CD4060)
+#define MOLEMOLE_CAMERAS_CAMERATRACKBLENDING___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x116CD340)
+#define MOLEMOLE_CAMERAS_CAMERATRACKBLENDING___C__CTOR_OFFSET UNITYSDK_OFFSET(0x116CD380)
+#define MOLEMOLE_CAMERAS_CAMERATRACKBLENDING___C__GENERATEBLENDERBUILDER_B__4_1_OFFSET UNITYSDK_OFFSET(0x116CD3F0)
+#define MOLEMOLE_CAMERAS_CAMERATRACKBLENDING___C__GENERATECUTBUILDER_B__2_0_OFFSET UNITYSDK_OFFSET(0x116CD390)
+#define MOLEMOLE_CAMERAS_CAMERATRACKBLENDING___C__GENERATECUTBUILDER_B__2_1_OFFSET UNITYSDK_OFFSET(0x116CD3E0)
 
 namespace MoleMole::Cameras
 {
-	inline static constexpr unsigned int CameraTrackBlending___c_TypeDefinitionIndex = 76697;
+	inline static constexpr unsigned int CameraTrackBlending___c_TypeDefinitionIndex = 67515;
 
 	class CameraTrackBlending___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::Cameras::CameraTrackBlending___c** StaticGet___9()
+		static ::System::Action_1<::PipelineCamera::ICameraDataBlender*>** StaticGet___9__2_1()
 		{
-			return (::MoleMole::Cameras::CameraTrackBlending___c**)Il2CppClass::FromTypeDefinitionIndex(CameraTrackBlending___c_TypeDefinitionIndex)->GetStaticField(0x30190);
+			return (::System::Action_1<::PipelineCamera::ICameraDataBlender*>**)Il2CppClass::FromTypeDefinitionIndex(CameraTrackBlending___c_TypeDefinitionIndex)->GetStaticField(0x31DE0);
 		}
 		static ::System::Func_2<::PipelineCamera::ICameraDataBlender*, ::PipelineCamera::ICameraDataBlender*>** StaticGet___9__2_0()
 		{
-			return (::System::Func_2<::PipelineCamera::ICameraDataBlender*, ::PipelineCamera::ICameraDataBlender*>**)Il2CppClass::FromTypeDefinitionIndex(CameraTrackBlending___c_TypeDefinitionIndex)->GetStaticField(0x30198);
-		}
-		static ::System::Action_1<::PipelineCamera::ICameraDataBlender*>** StaticGet___9__2_1()
-		{
-			return (::System::Action_1<::PipelineCamera::ICameraDataBlender*>**)Il2CppClass::FromTypeDefinitionIndex(CameraTrackBlending___c_TypeDefinitionIndex)->GetStaticField(0x301A0);
+			return (::System::Func_2<::PipelineCamera::ICameraDataBlender*, ::PipelineCamera::ICameraDataBlender*>**)Il2CppClass::FromTypeDefinitionIndex(CameraTrackBlending___c_TypeDefinitionIndex)->GetStaticField(0x31DE8);
 		}
 		static ::System::Action_1<::PipelineCamera::ICameraDataBlender*>** StaticGet___9__4_1()
 		{
-			return (::System::Action_1<::PipelineCamera::ICameraDataBlender*>**)Il2CppClass::FromTypeDefinitionIndex(CameraTrackBlending___c_TypeDefinitionIndex)->GetStaticField(0x301A8);
+			return (::System::Action_1<::PipelineCamera::ICameraDataBlender*>**)Il2CppClass::FromTypeDefinitionIndex(CameraTrackBlending___c_TypeDefinitionIndex)->GetStaticField(0x31DF0);
+		}
+		static ::MoleMole::Cameras::CameraTrackBlending___c** StaticGet___9()
+		{
+			return (::MoleMole::Cameras::CameraTrackBlending___c**)Il2CppClass::FromTypeDefinitionIndex(CameraTrackBlending___c_TypeDefinitionIndex)->GetStaticField(0x31DF8);
 		}
 
 		static ::System::Void _cctor()

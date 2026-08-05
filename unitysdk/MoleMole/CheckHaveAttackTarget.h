@@ -3,26 +3,26 @@
 #include "unitysdk/BehaviorDesigner/Runtime/Tasks/Conditional.h"
 #include "unitysdk/BehaviorDesigner/Runtime/Tasks/TaskStatus.h"
 
-class Class_3_CF6254B260CF5CF4;
+class Class_3_06419CA21ECB69E6;
 namespace MoleMole { class SharedGameEntity; }
 namespace MoleMole::Battle { class Entity; }
 
-#define MOLEMOLE_CHECKHAVEATTACKTARGET_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x13FF35B0)
-#define MOLEMOLE_CHECKHAVEATTACKTARGET_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x13FF3760)
-#define MOLEMOLE_CHECKHAVEATTACKTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x13FF3900)
-#define MOLEMOLE_CHECKHAVEATTACKTARGET___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x13FF3990)
-#define MOLEMOLE_CHECKHAVEATTACKTARGET___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x13FF3A20)
+#define MOLEMOLE_CHECKHAVEATTACKTARGET_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x1B538660)
+#define MOLEMOLE_CHECKHAVEATTACKTARGET_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1B538810)
+#define MOLEMOLE_CHECKHAVEATTACKTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5389B0)
+#define MOLEMOLE_CHECKHAVEATTACKTARGET___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x1B538A40)
+#define MOLEMOLE_CHECKHAVEATTACKTARGET___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1B538AD0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CheckHaveAttackTarget_TypeDefinitionIndex = 55057;
+	inline static constexpr unsigned int CheckHaveAttackTarget_TypeDefinitionIndex = 79157;
 
 	class CheckHaveAttackTarget : public ::BehaviorDesigner::Runtime::Tasks::Conditional
 	{
 	public:
-		::Class_3_CF6254B260CF5CF4* attackTargetComponent; // 0x50
-		::MoleMole::Battle::Entity* ownerEntity; // 0x58
-		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x60
+		::Class_3_06419CA21ECB69E6* attackTargetComponent; // 0x50
+		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x58
+		::MoleMole::Battle::Entity* ownerEntity; // 0x60
 
 		::System::Void _ctor()
 		{

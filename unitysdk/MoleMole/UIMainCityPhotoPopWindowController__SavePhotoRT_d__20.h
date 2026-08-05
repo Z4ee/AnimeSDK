@@ -7,18 +7,18 @@
 namespace MoleMole { class UIMainCityPhotoPopWindowController; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define MOLEMOLE_UIMAINCITYPHOTOPOPWINDOWCONTROLLER__SAVEPHOTORT_D__20_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x7EA7D0)
-#define MOLEMOLE_UIMAINCITYPHOTOPOPWINDOWCONTROLLER__SAVEPHOTORT_D__20_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x283610)
+#define MOLEMOLE_UIMAINCITYPHOTOPOPWINDOWCONTROLLER__SAVEPHOTORT_D__20_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x87E580)
+#define MOLEMOLE_UIMAINCITYPHOTOPOPWINDOWCONTROLLER__SAVEPHOTORT_D__20_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x296F30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMainCityPhotoPopWindowController__SavePhotoRT_d__20_TypeDefinitionIndex = 43237;
+	inline static constexpr unsigned int UIMainCityPhotoPopWindowController__SavePhotoRT_d__20_TypeDefinitionIndex = 86794;
 
 	struct alignas(8) UIMainCityPhotoPopWindowController__SavePhotoRT_d__20
 	{
-		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x10
-		::MoleMole::UIMainCityPhotoPopWindowController* __4__this; // 0x20
-		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x28
+		::MoleMole::UIMainCityPhotoPopWindowController* __4__this; // 0x10
+		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x18
+		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x28
 		::System::Int32 __1__state; // 0x38
 
 		::System::Void MoveNext()

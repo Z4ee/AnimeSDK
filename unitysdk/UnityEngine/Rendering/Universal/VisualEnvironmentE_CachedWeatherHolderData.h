@@ -7,7 +7,7 @@ namespace UnityEngine::Rendering::Universal { class VisualEnvironmentE; }
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int VisualEnvironmentE_CachedWeatherHolderData_TypeDefinitionIndex = 26497;
+	inline static constexpr unsigned int VisualEnvironmentE_CachedWeatherHolderData_TypeDefinitionIndex = 27439;
 
 	struct alignas(8) VisualEnvironmentE_CachedWeatherHolderData
 	{

@@ -7,13 +7,13 @@ namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
 namespace System { class String; }
 namespace UnityEngine { class Rigidbody; }
 
-#define NODECANVAS_TASKS_ACTIONS_CHECKSPEED_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1D5296F0)
-#define NODECANVAS_TASKS_ACTIONS_CHECKSPEED_ONCHECK_OFFSET UNITYSDK_OFFSET(0x1D529780)
-#define NODECANVAS_TASKS_ACTIONS_CHECKSPEED__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5298B0)
+#define NODECANVAS_TASKS_ACTIONS_CHECKSPEED_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1E8C3640)
+#define NODECANVAS_TASKS_ACTIONS_CHECKSPEED_ONCHECK_OFFSET UNITYSDK_OFFSET(0x1E8C36D0)
+#define NODECANVAS_TASKS_ACTIONS_CHECKSPEED__CTOR_OFFSET UNITYSDK_OFFSET(0x1E8C37F0)
 
 namespace NodeCanvas::Tasks::Actions
 {
-	inline static constexpr unsigned int CheckSpeed_TypeDefinitionIndex = 30257;
+	inline static constexpr unsigned int CheckSpeed_TypeDefinitionIndex = 29765;
 
 	class CheckSpeed : public ::NodeCanvas::Framework::ConditionTask_1<::UnityEngine::Rigidbody*>
 	{

@@ -6,12 +6,12 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnrealTypes/RawPtr_1.h"
 
-#define STATETREECORE_STATETREEEXECUTIONCONTEXT_NODEINSTANCEDATASCOPE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA7CC10)
-#define STATETREECORE_STATETREEEXECUTIONCONTEXT_NODEINSTANCEDATASCOPE__CTOR_OFFSET UNITYSDK_OFFSET(0xA7CB80)
+#define STATETREECORE_STATETREEEXECUTIONCONTEXT_NODEINSTANCEDATASCOPE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xACD050)
+#define STATETREECORE_STATETREEEXECUTIONCONTEXT_NODEINSTANCEDATASCOPE__CTOR_OFFSET UNITYSDK_OFFSET(0xACCFC0)
 
 namespace StateTreeCore
 {
-	inline static constexpr unsigned int StateTreeExecutionContext_NodeInstanceDataScope_TypeDefinitionIndex = 30930;
+	inline static constexpr unsigned int StateTreeExecutionContext_NodeInstanceDataScope_TypeDefinitionIndex = 31534;
 
 	struct alignas(8) StateTreeExecutionContext_NodeInstanceDataScope
 	{

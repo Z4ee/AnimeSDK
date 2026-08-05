@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RBDDESTRUCTION_FRAGMENTJSONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1C3FC210)
+#define RBDDESTRUCTION_FRAGMENTJSONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6DB670)
 
 namespace RBDDestruction
 {
-	inline static constexpr unsigned int FragmentJsonData_TypeDefinitionIndex = 26525;
+	inline static constexpr unsigned int FragmentJsonData_TypeDefinitionIndex = 27256;
 
 	class FragmentJsonData : public ::System::Object
 	{

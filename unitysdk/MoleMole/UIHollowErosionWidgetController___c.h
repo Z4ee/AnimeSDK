@@ -5,24 +5,24 @@
 class Class_2_542A772D07AFD4EA;
 namespace System { template <typename T> class Predicate_1; }
 
-#define MOLEMOLE_UIHOLLOWEROSIONWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x169EC9D0)
-#define MOLEMOLE_UIHOLLOWEROSIONWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x169ECA10)
-#define MOLEMOLE_UIHOLLOWEROSIONWIDGETCONTROLLER___C__REFRESHCONFIGDATA_B__20_0_OFFSET UNITYSDK_OFFSET(0x169ECA20)
+#define MOLEMOLE_UIHOLLOWEROSIONWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x186E8500)
+#define MOLEMOLE_UIHOLLOWEROSIONWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x186E8540)
+#define MOLEMOLE_UIHOLLOWEROSIONWIDGETCONTROLLER___C__REFRESHCONFIGDATA_B__20_0_OFFSET UNITYSDK_OFFSET(0x186E8550)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowErosionWidgetController___c_TypeDefinitionIndex = 65327;
+	inline static constexpr unsigned int UIHollowErosionWidgetController___c_TypeDefinitionIndex = 47071;
 
 	class UIHollowErosionWidgetController___c : public ::System::Object
 	{
 	public:
 		static ::System::Predicate_1<::Class_2_542A772D07AFD4EA*>** StaticGet___9__20_0()
 		{
-			return (::System::Predicate_1<::Class_2_542A772D07AFD4EA*>**)Il2CppClass::FromTypeDefinitionIndex(UIHollowErosionWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3CAA0);
+			return (::System::Predicate_1<::Class_2_542A772D07AFD4EA*>**)Il2CppClass::FromTypeDefinitionIndex(UIHollowErosionWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x4EB70);
 		}
 		static ::MoleMole::UIHollowErosionWidgetController___c** StaticGet___9()
 		{
-			return (::MoleMole::UIHollowErosionWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIHollowErosionWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3CAA8);
+			return (::MoleMole::UIHollowErosionWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIHollowErosionWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x4EB78);
 		}
 
 		static ::System::Void _cctor()

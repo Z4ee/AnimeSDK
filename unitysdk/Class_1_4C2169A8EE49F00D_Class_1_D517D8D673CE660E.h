@@ -5,7 +5,7 @@
 
 template <typename T1, typename T2, typename T3> class Class_1_4C2169A8EE49F00D_Class_1_D517D8D673CE660E;
 
-inline static constexpr unsigned int Class_1_4C2169A8EE49F00D_Class_1_D517D8D673CE660E_TypeDefinitionIndex = 56194;
+inline static constexpr unsigned int Class_1_4C2169A8EE49F00D_Class_1_D517D8D673CE660E_TypeDefinitionIndex = 89239;
 
 template <typename TPose, typename TIntrinsics, typename TCtx>
 class Class_1_4C2169A8EE49F00D_Class_1_D517D8D673CE660E : public ::System::Object

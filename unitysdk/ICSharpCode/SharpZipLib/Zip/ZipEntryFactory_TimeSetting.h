@@ -3,7 +3,7 @@
 
 namespace ICSharpCode::SharpZipLib::Zip
 {
-	inline static constexpr unsigned int ZipEntryFactory_TimeSetting_TypeDefinitionIndex = 6851;
+	inline static constexpr unsigned int ZipEntryFactory_TimeSetting_TypeDefinitionIndex = 6855;
 
 	enum class ZipEntryFactory_TimeSetting : ::System::Int32
 	{

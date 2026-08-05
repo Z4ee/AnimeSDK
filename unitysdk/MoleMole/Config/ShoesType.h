@@ -3,14 +3,14 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ShoesType_TypeDefinitionIndex = 85419;
+	inline static constexpr unsigned int ShoesType_TypeDefinitionIndex = 71036;
 
 	enum class ShoesType : ::System::Int32
 	{
-		Mech = 2,
-		Sports = 3,
 		Bear = 4,
 		Heels = 1,
+		Sports = 3,
+		Mech = 2,
 		Boots = 0,
 	};
 }

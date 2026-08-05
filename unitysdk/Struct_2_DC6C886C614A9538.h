@@ -4,33 +4,33 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_3_DFD5D1FDB9D2A4AC;
+class Class_3_C93CC3D2C2AC4067;
 namespace Nap::NapECS { class EcsWorld; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Collider; }
 
-#define STRUCT_2_DC6C886C614A9538_METHOD_2_42B5664B68A7EA00_OFFSET UNITYSDK_OFFSET(0x74F900)
-#define STRUCT_2_DC6C886C614A9538_METHOD_2_44584B54E581F643_OFFSET UNITYSDK_OFFSET(0x74F880)
-#define STRUCT_2_DC6C886C614A9538_METHOD_2_611DDCBED432BB03_OFFSET UNITYSDK_OFFSET(0x74F8E0)
-#define STRUCT_2_DC6C886C614A9538_METHOD_2_6E9C20992CE414CA_1_OFFSET UNITYSDK_OFFSET(0x74F8D0)
-#define STRUCT_2_DC6C886C614A9538_METHOD_2_6E9C20992CE414CA_OFFSET UNITYSDK_OFFSET(0x74F8C0)
-#define STRUCT_2_DC6C886C614A9538_METHOD_2_881933D078074935_OFFSET UNITYSDK_OFFSET(0x74F910)
-#define STRUCT_2_DC6C886C614A9538_METHOD_2_A4B0994C46308D45_OFFSET UNITYSDK_OFFSET(0x11833550)
-#define STRUCT_2_DC6C886C614A9538_METHOD_2_D404CA8572EFE98F_OFFSET UNITYSDK_OFFSET(0x74F8F0)
-#define STRUCT_2_DC6C886C614A9538_METHOD_2_E53573F25A5CAA75_OFFSET UNITYSDK_OFFSET(0x74F8A0)
-#define STRUCT_2_DC6C886C614A9538__CTOR_OFFSET UNITYSDK_OFFSET(0x74F830)
+#define STRUCT_2_DC6C886C614A9538_METHOD_2_42B5664B68A7EA00_OFFSET UNITYSDK_OFFSET(0x7F3220)
+#define STRUCT_2_DC6C886C614A9538_METHOD_2_44584B54E581F643_OFFSET UNITYSDK_OFFSET(0x7F31A0)
+#define STRUCT_2_DC6C886C614A9538_METHOD_2_611DDCBED432BB03_OFFSET UNITYSDK_OFFSET(0x7F3200)
+#define STRUCT_2_DC6C886C614A9538_METHOD_2_6E9C20992CE414CA_1_OFFSET UNITYSDK_OFFSET(0x7F31F0)
+#define STRUCT_2_DC6C886C614A9538_METHOD_2_6E9C20992CE414CA_OFFSET UNITYSDK_OFFSET(0x7F31E0)
+#define STRUCT_2_DC6C886C614A9538_METHOD_2_881933D078074935_OFFSET UNITYSDK_OFFSET(0x7F3230)
+#define STRUCT_2_DC6C886C614A9538_METHOD_2_A4B0994C46308D45_OFFSET UNITYSDK_OFFSET(0x141FA1F0)
+#define STRUCT_2_DC6C886C614A9538_METHOD_2_D404CA8572EFE98F_OFFSET UNITYSDK_OFFSET(0x7F3210)
+#define STRUCT_2_DC6C886C614A9538_METHOD_2_E53573F25A5CAA75_OFFSET UNITYSDK_OFFSET(0x7F31C0)
+#define STRUCT_2_DC6C886C614A9538__CTOR_OFFSET UNITYSDK_OFFSET(0x7F3150)
 
-inline static constexpr unsigned int Struct_2_DC6C886C614A9538_TypeDefinitionIndex = 82985;
+inline static constexpr unsigned int Struct_2_DC6C886C614A9538_TypeDefinitionIndex = 66397;
 
 struct alignas(8) Struct_2_DC6C886C614A9538
 {
-	::System::UInt32 Field_2_0; // 0x10
-	::System::String* Field_2_1; // 0x18
-	::System::Collections::Generic::List_1<::System::String*>* Field_2_2; // 0x20
-	::System::Single Field_2_3; // 0x28
-	::System::Boolean Field_2_4; // 0x2C
-	::UnityEngine::Vector3 Field_2_5; // 0x30
+	::System::UInt32 Field_2_1; // 0x10
+	::System::String* Field_2_0; // 0x18
+	::System::Collections::Generic::List_1<::System::String*>* Field_2_7; // 0x20
+	::System::Single Field_2_6; // 0x28
+	::System::Boolean Field_2_5; // 0x2C
+	::UnityEngine::Vector3 Field_2_4; // 0x30
 
 	::System::Void _ctor(::System::UInt32 a1, ::System::String* a2, ::System::Collections::Generic::List_1<::System::String*>* a3, ::System::Single a4, ::UnityEngine::Vector3 a5, ::System::Boolean a6)
 	{
@@ -80,9 +80,9 @@ struct alignas(8) Struct_2_DC6C886C614A9538
 	}
 
 	/*
-	static ::System::Nullable_1<::UnityEngine::Vector3> Method_2_A4B0994C46308D45(::Class_3_DFD5D1FDB9D2A4AC* a1, ::System::String* a2, ::System::Collections::Generic::List_1<::System::String*>* a3, ::System::Single a4)
+	static ::System::Nullable_1<::UnityEngine::Vector3> Method_2_A4B0994C46308D45(::Class_3_C93CC3D2C2AC4067* a1, ::System::String* a2, ::System::Collections::Generic::List_1<::System::String*>* a3, ::System::Single a4)
 	{
-		return ((::System::Nullable_1<::UnityEngine::Vector3>(*)(::Class_3_DFD5D1FDB9D2A4AC*, ::System::String*, ::System::Collections::Generic::List_1<::System::String*>*, ::System::Single))((::PBYTE)hIl2Cpp + STRUCT_2_DC6C886C614A9538_METHOD_2_A4B0994C46308D45_OFFSET))(a1, a2, a3, a4);
+		return ((::System::Nullable_1<::UnityEngine::Vector3>(*)(::Class_3_C93CC3D2C2AC4067*, ::System::String*, ::System::Collections::Generic::List_1<::System::String*>*, ::System::Single))((::PBYTE)hIl2Cpp + STRUCT_2_DC6C886C614A9538_METHOD_2_A4B0994C46308D45_OFFSET))(a1, a2, a3, a4);
 	}
 	*/
 };

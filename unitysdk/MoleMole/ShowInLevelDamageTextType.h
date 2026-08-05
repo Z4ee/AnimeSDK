@@ -3,12 +3,12 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ShowInLevelDamageTextType_TypeDefinitionIndex = 45057;
+	inline static constexpr unsigned int ShowInLevelDamageTextType_TypeDefinitionIndex = 62230;
 
 	enum class ShowInLevelDamageTextType : ::System::Int32
 	{
-		CombineText = 2,
 		None = 0,
+		CombineText = 2,
 		NormalText = 1,
 	};
 }

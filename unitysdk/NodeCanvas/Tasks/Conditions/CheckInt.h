@@ -6,19 +6,19 @@
 namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
 namespace System { class String; }
 
-#define NODECANVAS_TASKS_CONDITIONS_CHECKINT_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1C63C7D0)
-#define NODECANVAS_TASKS_CONDITIONS_CHECKINT_ONCHECK_OFFSET UNITYSDK_OFFSET(0x1C63C830)
-#define NODECANVAS_TASKS_CONDITIONS_CHECKINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1C63C8C0)
+#define NODECANVAS_TASKS_CONDITIONS_CHECKINT_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1DAF3E10)
+#define NODECANVAS_TASKS_CONDITIONS_CHECKINT_ONCHECK_OFFSET UNITYSDK_OFFSET(0x1DAF3E70)
+#define NODECANVAS_TASKS_CONDITIONS_CHECKINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1DAF3EF0)
 
 namespace NodeCanvas::Tasks::Conditions
 {
-	inline static constexpr unsigned int CheckInt_TypeDefinitionIndex = 29442;
+	inline static constexpr unsigned int CheckInt_TypeDefinitionIndex = 30067;
 
 	class CheckInt : public ::NodeCanvas::Framework::ConditionTask
 	{
 	public:
-		::NodeCanvas::Framework::BBParameter_1<::System::Int32>* valueA; // 0x60
-		::NodeCanvas::Framework::BBParameter_1<::System::Int32>* valueB; // 0x68
+		::NodeCanvas::Framework::BBParameter_1<::System::Int32>* valueB; // 0x60
+		::NodeCanvas::Framework::BBParameter_1<::System::Int32>* valueA; // 0x68
 		::ParadoxNotion::CompareMethod checkType; // 0x70
 
 		::System::Void _ctor()

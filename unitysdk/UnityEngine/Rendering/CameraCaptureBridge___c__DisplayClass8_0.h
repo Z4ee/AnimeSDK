@@ -4,12 +4,12 @@
 
 namespace UnityEngine::Rendering { class CameraCaptureAction; }
 
-#define UNITYENGINE_RENDERING_CAMERACAPTUREBRIDGE___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B49DF40)
-#define UNITYENGINE_RENDERING_CAMERACAPTUREBRIDGE___C__DISPLAYCLASS8_0__REMOVECAPTUREACTION_B__0_OFFSET UNITYSDK_OFFSET(0x1B49DF50)
+#define UNITYENGINE_RENDERING_CAMERACAPTUREBRIDGE___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1CA68CD0)
+#define UNITYENGINE_RENDERING_CAMERACAPTUREBRIDGE___C__DISPLAYCLASS8_0__REMOVECAPTUREACTION_B__0_OFFSET UNITYSDK_OFFSET(0x1CA68CE0)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int CameraCaptureBridge___c__DisplayClass8_0_TypeDefinitionIndex = 18325;
+	inline static constexpr unsigned int CameraCaptureBridge___c__DisplayClass8_0_TypeDefinitionIndex = 18731;
 
 	class CameraCaptureBridge___c__DisplayClass8_0 : public ::System::Object
 	{

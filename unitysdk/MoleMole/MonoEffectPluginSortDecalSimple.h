@@ -6,18 +6,18 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 
-#define MOLEMOLE_MONOEFFECTPLUGINSORTDECALSIMPLE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1582FF90)
-#define MOLEMOLE_MONOEFFECTPLUGINSORTDECALSIMPLE_START_OFFSET UNITYSDK_OFFSET(0x1582F8D0)
-#define MOLEMOLE_MONOEFFECTPLUGINSORTDECALSIMPLE__CTOR_OFFSET UNITYSDK_OFFSET(0x15830220)
+#define MOLEMOLE_MONOEFFECTPLUGINSORTDECALSIMPLE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x129B2A30)
+#define MOLEMOLE_MONOEFFECTPLUGINSORTDECALSIMPLE_START_OFFSET UNITYSDK_OFFSET(0x129B2380)
+#define MOLEMOLE_MONOEFFECTPLUGINSORTDECALSIMPLE__CTOR_OFFSET UNITYSDK_OFFSET(0x129B2CC0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoEffectPluginSortDecalSimple_TypeDefinitionIndex = 45596;
+	inline static constexpr unsigned int MonoEffectPluginSortDecalSimple_TypeDefinitionIndex = 64902;
 
 	class MonoEffectPluginSortDecalSimple : public ::MoleMole::MonoEffectPluginBase
 	{
 	public:
-		// static const ::System::String* Field_6_1; // 0x0
+		// static const ::System::String* Field_6_7; // 0x0
 		::System::Collections::Generic::List_1<::UnityEngine::Material*>* Field_6_0; // 0x18
 
 		::System::Void _ctor()

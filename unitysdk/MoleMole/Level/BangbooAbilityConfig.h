@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace MoleMole::Level
 {
-	inline static constexpr unsigned int BangbooAbilityConfig_TypeDefinitionIndex = 62887;
+	inline static constexpr unsigned int BangbooAbilityConfig_TypeDefinitionIndex = 63299;
 
 	struct alignas(8) BangbooAbilityConfig
 	{

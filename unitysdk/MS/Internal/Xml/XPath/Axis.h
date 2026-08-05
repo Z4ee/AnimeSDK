@@ -8,10 +8,10 @@
 
 namespace System { class String; }
 
-#define MS_INTERNAL_XML_XPATH_AXIS_GET_RETURNTYPE_OFFSET UNITYSDK_OFFSET(0x1DD19BD0)
-#define MS_INTERNAL_XML_XPATH_AXIS_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1DD19BC0)
-#define MS_INTERNAL_XML_XPATH_AXIS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DD19B90)
-#define MS_INTERNAL_XML_XPATH_AXIS__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD19B60)
+#define MS_INTERNAL_XML_XPATH_AXIS_GET_RETURNTYPE_OFFSET UNITYSDK_OFFSET(0x1F146650)
+#define MS_INTERNAL_XML_XPATH_AXIS_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1F146640)
+#define MS_INTERNAL_XML_XPATH_AXIS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F146610)
+#define MS_INTERNAL_XML_XPATH_AXIS__CTOR_OFFSET UNITYSDK_OFFSET(0x1F1465E0)
 
 namespace MS::Internal::Xml::XPath
 {
@@ -20,13 +20,13 @@ namespace MS::Internal::Xml::XPath
 	class Axis : public ::MS::Internal::Xml::XPath::AstNode
 	{
 	public:
-		::MS::Internal::Xml::XPath::AstNode* input; // 0x10
-		::System::String* name; // 0x18
-		::System::String* urn; // 0x20
-		::System::String* prefix; // 0x28
-		::System::Xml::XPath::XPathNodeType nodeType; // 0x30
-		::System::Boolean abbrAxis; // 0x34
-		::MS::Internal::Xml::XPath::Axis_AxisType axisType; // 0x38
+		::System::String* name; // 0x10
+		::System::String* prefix; // 0x18
+		::MS::Internal::Xml::XPath::AstNode* input; // 0x20
+		::System::String* urn; // 0x28
+		::MS::Internal::Xml::XPath::Axis_AxisType axisType; // 0x30
+		::System::Xml::XPath::XPathNodeType nodeType; // 0x34
+		::System::Boolean abbrAxis; // 0x38
 
 		::System::Void _ctor(::MS::Internal::Xml::XPath::Axis_AxisType axisType, ::MS::Internal::Xml::XPath::AstNode* input, ::System::String* prefix, ::System::String* name, ::System::Xml::XPath::XPathNodeType nodetype)
 		{

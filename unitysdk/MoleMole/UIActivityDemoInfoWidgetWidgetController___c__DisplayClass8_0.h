@@ -5,12 +5,12 @@
 namespace MoleMole { class ActivityDemoTrialContext; }
 namespace MoleMole { class UIActivityDemoInfoWidgetWidgetController; }
 
-#define MOLEMOLE_UIACTIVITYDEMOINFOWIDGETWIDGETCONTROLLER___C__DISPLAYCLASS8_0__CHECKCANDIRECTTAKEREWARD_B__0_OFFSET UNITYSDK_OFFSET(0x17321A90)
-#define MOLEMOLE_UIACTIVITYDEMOINFOWIDGETWIDGETCONTROLLER___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17321A80)
+#define MOLEMOLE_UIACTIVITYDEMOINFOWIDGETWIDGETCONTROLLER___C__DISPLAYCLASS8_0__CHECKCANDIRECTTAKEREWARD_B__0_OFFSET UNITYSDK_OFFSET(0x18939D00)
+#define MOLEMOLE_UIACTIVITYDEMOINFOWIDGETWIDGETCONTROLLER___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18939CF0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityDemoInfoWidgetWidgetController___c__DisplayClass8_0_TypeDefinitionIndex = 54694;
+	inline static constexpr unsigned int UIActivityDemoInfoWidgetWidgetController___c__DisplayClass8_0_TypeDefinitionIndex = 81354;
 
 	class UIActivityDemoInfoWidgetWidgetController___c__DisplayClass8_0 : public ::System::Object
 	{

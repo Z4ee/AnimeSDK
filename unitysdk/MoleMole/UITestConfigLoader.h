@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define MOLEMOLE_UITESTCONFIGLOADER_AWAKE_OFFSET UNITYSDK_OFFSET(0x157C37D0)
-#define MOLEMOLE_UITESTCONFIGLOADER__CTOR_OFFSET UNITYSDK_OFFSET(0x157C3810)
+#define MOLEMOLE_UITESTCONFIGLOADER_AWAKE_OFFSET UNITYSDK_OFFSET(0x10EF55B0)
+#define MOLEMOLE_UITESTCONFIGLOADER__CTOR_OFFSET UNITYSDK_OFFSET(0x10EF55F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UITestConfigLoader_TypeDefinitionIndex = 65506;
+	inline static constexpr unsigned int UITestConfigLoader_TypeDefinitionIndex = 61569;
 
 	class UITestConfigLoader : public ::UnityEngine::MonoBehaviour
 	{

@@ -8,7 +8,7 @@ namespace System { class Object; }
 
 namespace Sirenix::Serialization::Utilities
 {
-	inline static constexpr unsigned int ValueGetter_2_TypeDefinitionIndex = 7636;
+	inline static constexpr unsigned int ValueGetter_2_TypeDefinitionIndex = 7640;
 
 	template <typename InstanceType, typename FieldType>
 	class ValueGetter_2 : public ::System::MulticastDelegate

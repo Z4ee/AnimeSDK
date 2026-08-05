@@ -3,7 +3,7 @@
 
 namespace Newtonsoft::Json
 {
-	inline static constexpr unsigned int ObjectCreationHandling_TypeDefinitionIndex = 7022;
+	inline static constexpr unsigned int ObjectCreationHandling_TypeDefinitionIndex = 7026;
 
 	enum class ObjectCreationHandling : ::System::Int32
 	{

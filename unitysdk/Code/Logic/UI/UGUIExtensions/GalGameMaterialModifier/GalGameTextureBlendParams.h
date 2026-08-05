@@ -6,11 +6,11 @@
 
 namespace UnityEngine { class Texture2D; }
 
-#define CODE_LOGIC_UI_UGUIEXTENSIONS_GALGAMEMATERIALMODIFIER_GALGAMETEXTUREBLENDPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x15FF7D00)
+#define CODE_LOGIC_UI_UGUIEXTENSIONS_GALGAMEMATERIALMODIFIER_GALGAMETEXTUREBLENDPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x1948F190)
 
 namespace Code::Logic::UI::UGUIExtensions::GalGameMaterialModifier
 {
-	inline static constexpr unsigned int GalGameTextureBlendParams_TypeDefinitionIndex = 49889;
+	inline static constexpr unsigned int GalGameTextureBlendParams_TypeDefinitionIndex = 52375;
 
 	class GalGameTextureBlendParams : public ::System::Object
 	{

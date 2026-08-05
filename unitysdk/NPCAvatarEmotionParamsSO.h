@@ -11,10 +11,10 @@ namespace miHoYoEmotion { class BaseShapeData; }
 namespace miHoYoEmotion { class ClipShapeManager_CurveBinding; }
 namespace miHoYoEmotion { class EmotionSetData; }
 
-#define NPCAVATAREMOTIONPARAMSSO_UNLOADASSETS_OFFSET UNITYSDK_OFFSET(0xD9202E0)
-#define NPCAVATAREMOTIONPARAMSSO__CTOR_OFFSET UNITYSDK_OFFSET(0xD920350)
+#define NPCAVATAREMOTIONPARAMSSO_UNLOADASSETS_OFFSET UNITYSDK_OFFSET(0xD87AE20)
+#define NPCAVATAREMOTIONPARAMSSO__CTOR_OFFSET UNITYSDK_OFFSET(0xD87AE90)
 
-inline static constexpr unsigned int NPCAvatarEmotionParamsSO_TypeDefinitionIndex = 77570;
+inline static constexpr unsigned int NPCAvatarEmotionParamsSO_TypeDefinitionIndex = 70853;
 
 class NPCAvatarEmotionParamsSO : public ::UnityEngine::ScriptableObject
 {

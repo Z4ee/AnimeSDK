@@ -5,32 +5,32 @@
 #include "unitysdk/MoleMole/Config/ConfigViewObjectTraitBase.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_0_16E4307DCC419505_175;
+class Class_0_16E4307DCC419505_198;
 class Class_1_236FD73ABC492E3F;
-class Class_1_53842913455A8556;
+class Class_1_BE29B49AC03370B6;
 namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_MAPICONTRAIT_CLONE_OFFSET UNITYSDK_OFFSET(0x1619D370)
-#define MOLEMOLE_CONFIG_MAPICONTRAIT_EXPOSEMEMBER_OFFSET UNITYSDK_OFFSET(0x1619D4D0)
-#define MOLEMOLE_CONFIG_MAPICONTRAIT_FOREACHREFTYPEMEMBER_OFFSET UNITYSDK_OFFSET(0x1619D2E0)
-#define MOLEMOLE_CONFIG_MAPICONTRAIT_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1619EB20)
-#define MOLEMOLE_CONFIG_MAPICONTRAIT_FROMFLX_OFFSET UNITYSDK_OFFSET(0x1619D720)
-#define MOLEMOLE_CONFIG_MAPICONTRAIT_GENERATECOMPONENT_OFFSET UNITYSDK_OFFSET(0x1619F520)
-#define MOLEMOLE_CONFIG_MAPICONTRAIT_GETHASHNUM_OFFSET UNITYSDK_OFFSET(0x1619D460)
-#define MOLEMOLE_CONFIG_MAPICONTRAIT_INTERNALFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1619EB80)
-#define MOLEMOLE_CONFIG_MAPICONTRAIT_INTERNALFROMFLX_OFFSET UNITYSDK_OFFSET(0x1619D7A0)
-#define MOLEMOLE_CONFIG_MAPICONTRAIT_PARSEFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1619F380)
-#define MOLEMOLE_CONFIG_MAPICONTRAIT_PARSEFROMFLX_OFFSET UNITYSDK_OFFSET(0x1619E9E0)
-#define MOLEMOLE_CONFIG_MAPICONTRAIT__CTOR_OFFSET UNITYSDK_OFFSET(0x1619F630)
-#define MOLEMOLE_CONFIG_MAPICONTRAIT___BASE_EXPOSEMEMBER_OFFSET UNITYSDK_OFFSET(0x1619F640)
-#define MOLEMOLE_CONFIG_MAPICONTRAIT___BASE_GENERATECOMPONENT_OFFSET UNITYSDK_OFFSET(0x1619F650)
+#define MOLEMOLE_CONFIG_MAPICONTRAIT_CLONE_OFFSET UNITYSDK_OFFSET(0x1B922970)
+#define MOLEMOLE_CONFIG_MAPICONTRAIT_EXPOSEMEMBER_OFFSET UNITYSDK_OFFSET(0x1B922A70)
+#define MOLEMOLE_CONFIG_MAPICONTRAIT_FOREACHREFTYPEMEMBER_OFFSET UNITYSDK_OFFSET(0x1B9228D0)
+#define MOLEMOLE_CONFIG_MAPICONTRAIT_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B925240)
+#define MOLEMOLE_CONFIG_MAPICONTRAIT_FROMFLX_OFFSET UNITYSDK_OFFSET(0x1B923900)
+#define MOLEMOLE_CONFIG_MAPICONTRAIT_GENERATECOMPONENT_OFFSET UNITYSDK_OFFSET(0x1B925D80)
+#define MOLEMOLE_CONFIG_MAPICONTRAIT_GETHASHNUM_OFFSET UNITYSDK_OFFSET(0x1B922A60)
+#define MOLEMOLE_CONFIG_MAPICONTRAIT_INTERNALFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B9252A0)
+#define MOLEMOLE_CONFIG_MAPICONTRAIT_INTERNALFROMFLX_OFFSET UNITYSDK_OFFSET(0x1B923980)
+#define MOLEMOLE_CONFIG_MAPICONTRAIT_PARSEFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B925BF0)
+#define MOLEMOLE_CONFIG_MAPICONTRAIT_PARSEFROMFLX_OFFSET UNITYSDK_OFFSET(0x1B925100)
+#define MOLEMOLE_CONFIG_MAPICONTRAIT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B925EA0)
+#define MOLEMOLE_CONFIG_MAPICONTRAIT___BASE_EXPOSEMEMBER_OFFSET UNITYSDK_OFFSET(0x1B925EB0)
+#define MOLEMOLE_CONFIG_MAPICONTRAIT___BASE_GENERATECOMPONENT_OFFSET UNITYSDK_OFFSET(0x1B925EC0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int MapIconTrait_TypeDefinitionIndex = 58322;
+	inline static constexpr unsigned int MapIconTrait_TypeDefinitionIndex = 77262;
 
 	class MapIconTrait : public ::MoleMole::Config::ConfigViewObjectTraitBase
 	{
@@ -41,12 +41,16 @@ namespace MoleMole::Config
 		::System::Int32 VOStateValue; // 0x28
 		::System::String* ShowVOStateKey; // 0x30
 		::System::Int32 ShowVOStateValue; // 0x38
-		::System::Boolean CanTrack; // 0x3C
-		::System::Boolean DefaultHide; // 0x3D
-		::System::String* EffectIn3d; // 0x40
-		::UnityEngine::Vector3 EffectIn3dOffset; // 0x48
-		::System::Single EffectIn3dScale; // 0x54
-		::System::Collections::Generic::List_1<::System::Int32>* ValidSuitIndex; // 0x58
+		::System::Collections::Generic::List_1<::System::String*>* GameplayTag; // 0x40
+		::System::Boolean CanTrack; // 0x48
+		::System::Boolean ForceTrack; // 0x49
+		::System::Boolean DisableClick; // 0x4A
+		::System::Int32 ShowMonsterPanelId; // 0x4C
+		::System::Boolean DefaultHide; // 0x50
+		::System::String* EffectIn3d; // 0x58
+		::UnityEngine::Vector3 EffectIn3dOffset; // 0x60
+		::System::Single EffectIn3dScale; // 0x6C
+		::System::Collections::Generic::List_1<::System::Int32>* ValidSuitIndex; // 0x70
 
 		::System::Void _ctor()
 		{
@@ -68,9 +72,9 @@ namespace MoleMole::Config
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_MAPICONTRAIT_GETHASHNUM_OFFSET))(this);
 		}
 
-		::System::Void ExposeMember(::Class_0_16E4307DCC419505_175* processor, ::System::String* prefix)
+		::System::Void ExposeMember(::Class_0_16E4307DCC419505_198* processor, ::System::String* prefix)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_175*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_MAPICONTRAIT_EXPOSEMEMBER_OFFSET))(this, processor, prefix);
+			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_198*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_MAPICONTRAIT_EXPOSEMEMBER_OFFSET))(this, processor, prefix);
 		}
 
 		::System::Boolean FromFlx(::FlexBuffers::FlxValue node)
@@ -103,19 +107,19 @@ namespace MoleMole::Config
 			return ((::MoleMole::Config::MapIconTrait*(*)(::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_MAPICONTRAIT_PARSEFROMBINARY_OFFSET))(byteArray, threadFlag);
 		}
 
-		::System::Boolean GenerateComponent(::Class_1_53842913455A8556* buildContext)
+		::System::Boolean GenerateComponent(::Class_1_BE29B49AC03370B6* buildContext)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_53842913455A8556*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_MAPICONTRAIT_GENERATECOMPONENT_OFFSET))(this, buildContext);
+			return ((::System::Boolean(*)(::PVOID, ::Class_1_BE29B49AC03370B6*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_MAPICONTRAIT_GENERATECOMPONENT_OFFSET))(this, buildContext);
 		}
 
-		::System::Void __base_ExposeMember(::Class_0_16E4307DCC419505_175* P0, ::System::String* P1)
+		::System::Void __base_ExposeMember(::Class_0_16E4307DCC419505_198* P0, ::System::String* P1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_175*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_MAPICONTRAIT___BASE_EXPOSEMEMBER_OFFSET))(this, P0, P1);
+			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_198*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_MAPICONTRAIT___BASE_EXPOSEMEMBER_OFFSET))(this, P0, P1);
 		}
 
-		::System::Boolean __base_GenerateComponent(::Class_1_53842913455A8556* P0)
+		::System::Boolean __base_GenerateComponent(::Class_1_BE29B49AC03370B6* P0)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_53842913455A8556*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_MAPICONTRAIT___BASE_GENERATECOMPONENT_OFFSET))(this, P0);
+			return ((::System::Boolean(*)(::PVOID, ::Class_1_BE29B49AC03370B6*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_MAPICONTRAIT___BASE_GENERATECOMPONENT_OFFSET))(this, P0);
 		}
 	};
 }

@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int BatchDrawCommandFlags_TypeDefinitionIndex = 6208;
+	inline static constexpr unsigned int BatchDrawCommandFlags_TypeDefinitionIndex = 6212;
 
 	enum class BatchDrawCommandFlags : ::System::Int32
 	{

@@ -3,12 +3,12 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ComprehensiveAttack_ForceExitStatusType_TypeDefinitionIndex = 66003;
+	inline static constexpr unsigned int ComprehensiveAttack_ForceExitStatusType_TypeDefinitionIndex = 60325;
 
 	enum class ComprehensiveAttack_ForceExitStatusType : ::System::Int32
 	{
-		Running = 0,
 		Success = 1,
 		Fail = 2,
+		Running = 0,
 	};
 }

@@ -3,11 +3,11 @@
 #include "unitysdk/RootMotion/FinalIK/FullBodyBipedEffector.h"
 #include "unitysdk/System/Object.h"
 
-#define ROOTMOTION_FINALIK_PENETRATIONAVOIDANCE_AVOIDER_EFFECTORLINK__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB064C0)
+#define ROOTMOTION_FINALIK_PENETRATIONAVOIDANCE_AVOIDER_EFFECTORLINK__CTOR_OFFSET UNITYSDK_OFFSET(0x1EEEBE00)
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int PenetrationAvoidance_Avoider_EffectorLink_TypeDefinitionIndex = 38137;
+	inline static constexpr unsigned int PenetrationAvoidance_Avoider_EffectorLink_TypeDefinitionIndex = 38904;
 
 	class PenetrationAvoidance_Avoider_EffectorLink : public ::System::Object
 	{

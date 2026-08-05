@@ -5,24 +5,24 @@
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace UnityEngine { class GameObject; }
 
-#define FOUNDATION_SPAWNERPOOL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D885D80)
-#define FOUNDATION_SPAWNERPOOL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1D885DC0)
-#define FOUNDATION_SPAWNERPOOL___C__GETACTIVESPAWNS_B__12_0_OFFSET UNITYSDK_OFFSET(0x1D885DD0)
+#define FOUNDATION_SPAWNERPOOL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1ED903F0)
+#define FOUNDATION_SPAWNERPOOL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED90430)
+#define FOUNDATION_SPAWNERPOOL___C__GETACTIVESPAWNS_B__12_0_OFFSET UNITYSDK_OFFSET(0x1ED90440)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int SpawnerPool___c_TypeDefinitionIndex = 7743;
+	inline static constexpr unsigned int SpawnerPool___c_TypeDefinitionIndex = 8401;
 
 	class SpawnerPool___c : public ::System::Object
 	{
 	public:
 		static ::Foundation::SpawnerPool___c** StaticGet___9()
 		{
-			return (::Foundation::SpawnerPool___c**)Il2CppClass::FromTypeDefinitionIndex(SpawnerPool___c_TypeDefinitionIndex)->GetStaticField(0x6C40);
+			return (::Foundation::SpawnerPool___c**)Il2CppClass::FromTypeDefinitionIndex(SpawnerPool___c_TypeDefinitionIndex)->GetStaticField(0x6BA0);
 		}
 		static ::System::Func_2<::UnityEngine::GameObject*, ::System::Boolean>** StaticGet___9__12_0()
 		{
-			return (::System::Func_2<::UnityEngine::GameObject*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(SpawnerPool___c_TypeDefinitionIndex)->GetStaticField(0x6C48);
+			return (::System::Func_2<::UnityEngine::GameObject*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(SpawnerPool___c_TypeDefinitionIndex)->GetStaticField(0x6BA8);
 		}
 
 		static ::System::Void _cctor()

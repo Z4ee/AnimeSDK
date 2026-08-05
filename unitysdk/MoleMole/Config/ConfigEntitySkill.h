@@ -5,33 +5,33 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGENTITYSKILL_EQUALSSKILLTYPE_OFFSET UNITYSDK_OFFSET(0x162AB7B0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYSKILL_ISEXQTE_OFFSET UNITYSDK_OFFSET(0x162AB810)
-#define MOLEMOLE_CONFIG_CONFIGENTITYSKILL__CTOR_OFFSET UNITYSDK_OFFSET(0x162AB790)
+#define MOLEMOLE_CONFIG_CONFIGENTITYSKILL_EQUALSSKILLTYPE_OFFSET UNITYSDK_OFFSET(0x16C3EDA0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYSKILL_ISEXQTE_OFFSET UNITYSDK_OFFSET(0x16C3EE00)
+#define MOLEMOLE_CONFIG_CONFIGENTITYSKILL__CTOR_OFFSET UNITYSDK_OFFSET(0x16C3ED80)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigEntitySkill_TypeDefinitionIndex = 64885;
+	inline static constexpr unsigned int ConfigEntitySkill_TypeDefinitionIndex = 87779;
 
 	class ConfigEntitySkill : public ::System::Object
 	{
 	public:
 		::System::String* InstantTriggerAbilityName; // 0x10
-		::System::String* InstantTriggerAnimEventID; // 0x18
-		::Il2CppArray<::System::String*>* TagList; // 0x20
-		::System::Int32 SilenceCDRecoverEP; // 0x28
-		::System::Single CountCD; // 0x2C
-		::MoleMole::Config::EntitySkillType SkillType02; // 0x30
-		::System::Int32 MaxEp; // 0x34
-		::System::Single ForceCD; // 0x38
-		::System::Int32 ForceCDRecoverEP; // 0x3C
-		::System::Single NeedSp; // 0x40
-		::System::Single SilenceCD; // 0x44
-		::MoleMole::Config::EntitySkillType SkillType; // 0x48
-		::System::Boolean EPEmptyWhenInit; // 0x4C
-		::System::Boolean ResetSlienceCdOnConsumeEP; // 0x4D
-		::System::Boolean NotConsumeFever; // 0x4E
-		::System::Int32 ConsumeOnceEP; // 0x50
+		::Il2CppArray<::System::String*>* TagList; // 0x18
+		::System::String* InstantTriggerAnimEventID; // 0x20
+		::System::Single SilenceCD; // 0x28
+		::System::Int32 ConsumeOnceEP; // 0x2C
+		::System::Int32 SilenceCDRecoverEP; // 0x30
+		::MoleMole::Config::EntitySkillType SkillType02; // 0x34
+		::System::Int32 ForceCDRecoverEP; // 0x38
+		::System::Single ForceCD; // 0x3C
+		::MoleMole::Config::EntitySkillType SkillType; // 0x40
+		::System::Boolean EPEmptyWhenInit; // 0x44
+		::System::Boolean NotConsumeFever; // 0x45
+		::System::Boolean ResetSlienceCdOnConsumeEP; // 0x46
+		::System::Single NeedSp; // 0x48
+		::System::Int32 MaxEp; // 0x4C
+		::System::Single CountCD; // 0x50
 
 		::System::Void _ctor()
 		{

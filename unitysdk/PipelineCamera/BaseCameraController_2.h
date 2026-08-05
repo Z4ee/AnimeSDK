@@ -18,7 +18,7 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int BaseCameraController_2_TypeDefinitionIndex = 37496;
+	inline static constexpr unsigned int BaseCameraController_2_TypeDefinitionIndex = 38157;
 
 	template <typename TController, typename TPostPipeline>
 	class BaseCameraController_2 : public ::System::Object

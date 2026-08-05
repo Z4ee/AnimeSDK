@@ -3,7 +3,7 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-inline static constexpr unsigned int NPCAvatarMeshAssetsSO_FNPCAvatarNavMeshObstacle_TypeDefinitionIndex = 67213;
+inline static constexpr unsigned int NPCAvatarMeshAssetsSO_FNPCAvatarNavMeshObstacle_TypeDefinitionIndex = 55903;
 
 struct alignas(4) NPCAvatarMeshAssetsSO_FNPCAvatarNavMeshObstacle
 {

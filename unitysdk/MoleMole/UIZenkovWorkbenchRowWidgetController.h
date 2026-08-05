@@ -1,0 +1,216 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/MoleMole/UIWidgetController.h"
+
+class Class_1_0D6706375CDAAE8C;
+class Class_1_5DA2E7556103D5A3_416;
+class Class_2_79AE422BA06F6D26_256;
+class Class_2_AF5BA1C65F12F4B1;
+class Class_3_A0D52B59CDC3E0B7;
+namespace MoleMole { class MonoGamepadSelectable; }
+namespace MoleMole { class UIControlReference; }
+namespace MoleMole { class UIControllerContextBase; }
+namespace MoleMole { class UIGeneralIconCardRarityWidgetController; }
+namespace MoleMole { class UIZenkovWorkbenchDialogPageController; }
+namespace System { class String; }
+namespace UnityEngine { class GameObject; }
+namespace UnityEngine { class Transform; }
+namespace UnityEngine::UI { class Button; }
+namespace UnityEngine::UI::Extension { class UITimeWidget; }
+
+#define MOLEMOLE_UIZENKOVWORKBENCHROWWIDGETCONTROLLER_AUTOSELECTADDINTERNAL_OFFSET UNITYSDK_OFFSET(0x11663760)
+#define MOLEMOLE_UIZENKOVWORKBENCHROWWIDGETCONTROLLER_BINDGAMEPADSELECTABLEBUTTON_OFFSET UNITYSDK_OFFSET(0x11663BB0)
+#define MOLEMOLE_UIZENKOVWORKBENCHROWWIDGETCONTROLLER_CALCCOMPLETEDNUM_OFFSET UNITYSDK_OFFSET(0x11662370)
+#define MOLEMOLE_UIZENKOVWORKBENCHROWWIDGETCONTROLLER_CANGET_OFFSET UNITYSDK_OFFSET(0x11662300)
+#define MOLEMOLE_UIZENKOVWORKBENCHROWWIDGETCONTROLLER_COLLECTFINISHEDPRODUCT_OFFSET UNITYSDK_OFFSET(0x11662900)
+#define MOLEMOLE_UIZENKOVWORKBENCHROWWIDGETCONTROLLER_FINDCHILDBYNAME_OFFSET UNITYSDK_OFFSET(0x11662CE0)
+#define MOLEMOLE_UIZENKOVWORKBENCHROWWIDGETCONTROLLER_FINDGENERALCONSOLEBTN_OFFSET UNITYSDK_OFFSET(0x11661D40)
+#define MOLEMOLE_UIZENKOVWORKBENCHROWWIDGETCONTROLLER_GATHERPRODUCT_OFFSET UNITYSDK_OFFSET(0x11662800)
+#define MOLEMOLE_UIZENKOVWORKBENCHROWWIDGETCONTROLLER_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x11661FA0)
+#define MOLEMOLE_UIZENKOVWORKBENCHROWWIDGETCONTROLLER_ONGAMEPADFOCUSCHANGED_OFFSET UNITYSDK_OFFSET(0x11663840)
+#define MOLEMOLE_UIZENKOVWORKBENCHROWWIDGETCONTROLLER_ONGAMEPADSELECTCHANGED_OFFSET UNITYSDK_OFFSET(0x11663020)
+#define MOLEMOLE_UIZENKOVWORKBENCHROWWIDGETCONTROLLER_ONTIMEREND_OFFSET UNITYSDK_OFFSET(0x11664CF0)
+#define MOLEMOLE_UIZENKOVWORKBENCHROWWIDGETCONTROLLER_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x11662030)
+#define MOLEMOLE_UIZENKOVWORKBENCHROWWIDGETCONTROLLER_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x11661710)
+#define MOLEMOLE_UIZENKOVWORKBENCHROWWIDGETCONTROLLER_ONUIOPEN_OFFSET UNITYSDK_OFFSET(0x11661F30)
+#define MOLEMOLE_UIZENKOVWORKBENCHROWWIDGETCONTROLLER_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x11664C80)
+#define MOLEMOLE_UIZENKOVWORKBENCHROWWIDGETCONTROLLER_REFRESHCONSOLEBUTTONS_OFFSET UNITYSDK_OFFSET(0x116633C0)
+#define MOLEMOLE_UIZENKOVWORKBENCHROWWIDGETCONTROLLER_REFRESHPROGRESS_OFFSET UNITYSDK_OFFSET(0x11664560)
+#define MOLEMOLE_UIZENKOVWORKBENCHROWWIDGETCONTROLLER_REPORTOKBTNSTATEIFFOCUSED_OFFSET UNITYSDK_OFFSET(0x11662580)
+#define MOLEMOLE_UIZENKOVWORKBENCHROWWIDGETCONTROLLER_SETDATA_OFFSET UNITYSDK_OFFSET(0x11663E30)
+#define MOLEMOLE_UIZENKOVWORKBENCHROWWIDGETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x11664E40)
+#define MOLEMOLE_UIZENKOVWORKBENCHROWWIDGETCONTROLLER__ONUIINIT_B__12_0_OFFSET UNITYSDK_OFFSET(0x11664EA0)
+#define MOLEMOLE_UIZENKOVWORKBENCHROWWIDGETCONTROLLER__ONUIINIT_B__12_1_OFFSET UNITYSDK_OFFSET(0x11664F00)
+#define MOLEMOLE_UIZENKOVWORKBENCHROWWIDGETCONTROLLER__ONUIINIT_B__12_2_OFFSET UNITYSDK_OFFSET(0x11664F80)
+#define MOLEMOLE_UIZENKOVWORKBENCHROWWIDGETCONTROLLER__ONUIINIT_B__12_3_OFFSET UNITYSDK_OFFSET(0x11665080)
+#define MOLEMOLE_UIZENKOVWORKBENCHROWWIDGETCONTROLLER___BASE_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x116650C0)
+#define MOLEMOLE_UIZENKOVWORKBENCHROWWIDGETCONTROLLER___BASE_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x11665150)
+#define MOLEMOLE_UIZENKOVWORKBENCHROWWIDGETCONTROLLER___BASE_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x116651E0)
+#define MOLEMOLE_UIZENKOVWORKBENCHROWWIDGETCONTROLLER___BASE_ONUIOPEN_OFFSET UNITYSDK_OFFSET(0x11665270)
+
+namespace MoleMole
+{
+	inline static constexpr unsigned int UIZenkovWorkbenchRowWidgetController_TypeDefinitionIndex = 82952;
+
+	class UIZenkovWorkbenchRowWidgetController : public ::MoleMole::UIWidgetController
+	{
+	public:
+		::Class_2_79AE422BA06F6D26_256* _view; // 0x2C0
+		::MoleMole::UIGeneralIconCardRarityWidgetController* _cardRarityWidget; // 0x2C8
+		::Class_2_AF5BA1C65F12F4B1* _zenkovModel; // 0x2D0
+		::MoleMole::UIZenkovWorkbenchDialogPageController* _panel; // 0x2D8
+		::Class_3_A0D52B59CDC3E0B7* _bench; // 0x2E0
+		::Class_1_5DA2E7556103D5A3_416* _productConfig; // 0x2E8
+		::System::Boolean _isProducing; // 0x2F0
+		::MoleMole::MonoGamepadSelectable* _gamepadSelectable; // 0x2F8
+		::UnityEngine::GameObject* _generalConsoleBtn; // 0x300
+		::System::Boolean _cancelAvailableByLogic; // 0x308
+		::System::Boolean _isAddState; // 0x309
+		::System::Boolean _autoSelectingAdd; // 0x30A
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVWORKBENCHROWWIDGETCONTROLLER__CTOR_OFFSET))(this);
+		}
+
+		::System::Void OnUIInit()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVWORKBENCHROWWIDGETCONTROLLER_ONUIINIT_OFFSET))(this);
+		}
+
+		::System::Void OnUIOpen(::MoleMole::UIControllerContextBase* openCtrlContext)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVWORKBENCHROWWIDGETCONTROLLER_ONUIOPEN_OFFSET))(this, openCtrlContext);
+		}
+
+		::System::Void OnCreateView(::MoleMole::UIControlReference* controlReference)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVWORKBENCHROWWIDGETCONTROLLER_ONCREATEVIEW_OFFSET))(this, controlReference);
+		}
+
+		::System::Void OnUIDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVWORKBENCHROWWIDGETCONTROLLER_ONUIDESTROY_OFFSET))(this);
+		}
+
+		::System::Boolean CanGet()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVWORKBENCHROWWIDGETCONTROLLER_CANGET_OFFSET))(this);
+		}
+
+		::System::Void ReportOKBtnStateIfFocused()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVWORKBENCHROWWIDGETCONTROLLER_REPORTOKBTNSTATEIFFOCUSED_OFFSET))(this);
+		}
+
+		::System::Void GatherProduct()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVWORKBENCHROWWIDGETCONTROLLER_GATHERPRODUCT_OFFSET))(this);
+		}
+
+		::Class_1_0D6706375CDAAE8C* CollectFinishedProduct()
+		{
+			return ((::Class_1_0D6706375CDAAE8C*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVWORKBENCHROWWIDGETCONTROLLER_COLLECTFINISHEDPRODUCT_OFFSET))(this);
+		}
+
+		::UnityEngine::GameObject* FindGeneralConsoleBtn()
+		{
+			return ((::UnityEngine::GameObject*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVWORKBENCHROWWIDGETCONTROLLER_FINDGENERALCONSOLEBTN_OFFSET))(this);
+		}
+
+		static ::UnityEngine::Transform* FindChildByName(::UnityEngine::Transform* root, ::System::String* name)
+		{
+			return ((::UnityEngine::Transform*(*)(::UnityEngine::Transform*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVWORKBENCHROWWIDGETCONTROLLER_FINDCHILDBYNAME_OFFSET))(root, name);
+		}
+
+		::System::Void OnGamepadSelectChanged(::System::Boolean select)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVWORKBENCHROWWIDGETCONTROLLER_ONGAMEPADSELECTCHANGED_OFFSET))(this, select);
+		}
+
+		::System::Void AutoSelectAddInternal()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVWORKBENCHROWWIDGETCONTROLLER_AUTOSELECTADDINTERNAL_OFFSET))(this);
+		}
+
+		::System::Void OnGamepadFocusChanged(::System::Boolean focus)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVWORKBENCHROWWIDGETCONTROLLER_ONGAMEPADFOCUSCHANGED_OFFSET))(this, focus);
+		}
+
+		::System::Void RefreshConsoleButtons()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVWORKBENCHROWWIDGETCONTROLLER_REFRESHCONSOLEBUTTONS_OFFSET))(this);
+		}
+
+		::System::Void BindGamepadSelectableButton(::UnityEngine::UI::Button* button)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::Button*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVWORKBENCHROWWIDGETCONTROLLER_BINDGAMEPADSELECTABLEBUTTON_OFFSET))(this, button);
+		}
+
+		::System::Void SetData(::MoleMole::UIZenkovWorkbenchDialogPageController* panel, ::Class_3_A0D52B59CDC3E0B7* bench, ::Class_1_5DA2E7556103D5A3_416* productConfig)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIZenkovWorkbenchDialogPageController*, ::Class_3_A0D52B59CDC3E0B7*, ::Class_1_5DA2E7556103D5A3_416*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVWORKBENCHROWWIDGETCONTROLLER_SETDATA_OFFSET))(this, panel, bench, productConfig);
+		}
+
+		::System::Void OnUpdate(::System::Single dt)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVWORKBENCHROWWIDGETCONTROLLER_ONUPDATE_OFFSET))(this, dt);
+		}
+
+		::System::Void RefreshProgress()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVWORKBENCHROWWIDGETCONTROLLER_REFRESHPROGRESS_OFFSET))(this);
+		}
+
+		::System::Int32 CalcCompletedNum(::Class_3_A0D52B59CDC3E0B7* bench, ::Class_1_5DA2E7556103D5A3_416* productConfig)
+		{
+			return ((::System::Int32(*)(::PVOID, ::Class_3_A0D52B59CDC3E0B7*, ::Class_1_5DA2E7556103D5A3_416*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVWORKBENCHROWWIDGETCONTROLLER_CALCCOMPLETEDNUM_OFFSET))(this, bench, productConfig);
+		}
+
+		::System::Void OnTimerEnd(::UnityEngine::UI::Extension::UITimeWidget* timer)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::Extension::UITimeWidget*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVWORKBENCHROWWIDGETCONTROLLER_ONTIMEREND_OFFSET))(this, timer);
+		}
+
+		::System::Void _OnUIInit_b__12_0()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVWORKBENCHROWWIDGETCONTROLLER__ONUIINIT_B__12_0_OFFSET))(this);
+		}
+
+		::System::Void _OnUIInit_b__12_1()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVWORKBENCHROWWIDGETCONTROLLER__ONUIINIT_B__12_1_OFFSET))(this);
+		}
+
+		::System::Void _OnUIInit_b__12_2()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVWORKBENCHROWWIDGETCONTROLLER__ONUIINIT_B__12_2_OFFSET))(this);
+		}
+
+		::System::Void _OnUIInit_b__12_3()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVWORKBENCHROWWIDGETCONTROLLER__ONUIINIT_B__12_3_OFFSET))(this);
+		}
+
+		::System::Void __base_OnCreateView(::MoleMole::UIControlReference* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVWORKBENCHROWWIDGETCONTROLLER___BASE_ONCREATEVIEW_OFFSET))(this, P0);
+		}
+
+		::System::Void __base_OnUIDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVWORKBENCHROWWIDGETCONTROLLER___BASE_ONUIDESTROY_OFFSET))(this);
+		}
+
+		::System::Void __base_OnUIInit()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVWORKBENCHROWWIDGETCONTROLLER___BASE_ONUIINIT_OFFSET))(this);
+		}
+
+		::System::Void __base_OnUIOpen(::MoleMole::UIControllerContextBase* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVWORKBENCHROWWIDGETCONTROLLER___BASE_ONUIOPEN_OFFSET))(this, P0);
+		}
+	};
+}

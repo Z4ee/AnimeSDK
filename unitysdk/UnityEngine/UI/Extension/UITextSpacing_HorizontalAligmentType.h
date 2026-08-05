@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int UITextSpacing_HorizontalAligmentType_TypeDefinitionIndex = 60358;
+	inline static constexpr unsigned int UITextSpacing_HorizontalAligmentType_TypeDefinitionIndex = 89716;
 
 	enum class UITextSpacing_HorizontalAligmentType : ::System::Int32
 	{

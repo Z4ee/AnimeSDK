@@ -5,12 +5,12 @@
 namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
 namespace UnityEngine { class GameObject; }
 
-#define NODECANVAS_TASKS_ACTIONS_GETSELF_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1D1E6E50)
-#define NODECANVAS_TASKS_ACTIONS_GETSELF__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1E6EF0)
+#define NODECANVAS_TASKS_ACTIONS_GETSELF_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1E542C40)
+#define NODECANVAS_TASKS_ACTIONS_GETSELF__CTOR_OFFSET UNITYSDK_OFFSET(0x1E542CE0)
 
 namespace NodeCanvas::Tasks::Actions
 {
-	inline static constexpr unsigned int GetSelf_TypeDefinitionIndex = 30705;
+	inline static constexpr unsigned int GetSelf_TypeDefinitionIndex = 30161;
 
 	class GetSelf : public ::NodeCanvas::Framework::ActionTask
 	{

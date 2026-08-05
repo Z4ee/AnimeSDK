@@ -7,18 +7,18 @@
 namespace MoleMole { class UISuibianTempleBuddyAddPointPopWindowController; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define MOLEMOLE_UISUIBIANTEMPLEBUDDYADDPOINTPOPWINDOWCONTROLLER__DOADDPOINT_D__11_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x81E8C0)
-#define MOLEMOLE_UISUIBIANTEMPLEBUDDYADDPOINTPOPWINDOWCONTROLLER__DOADDPOINT_D__11_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x283610)
+#define MOLEMOLE_UISUIBIANTEMPLEBUDDYADDPOINTPOPWINDOWCONTROLLER__DOADDPOINT_D__11_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x871C20)
+#define MOLEMOLE_UISUIBIANTEMPLEBUDDYADDPOINTPOPWINDOWCONTROLLER__DOADDPOINT_D__11_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x296F30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISuibianTempleBuddyAddPointPopWindowController__DoAddPoint_d__11_TypeDefinitionIndex = 87258;
+	inline static constexpr unsigned int UISuibianTempleBuddyAddPointPopWindowController__DoAddPoint_d__11_TypeDefinitionIndex = 44034;
 
 	struct alignas(8) UISuibianTempleBuddyAddPointPopWindowController__DoAddPoint_d__11
 	{
-		::Cysharp::Threading::Tasks::UniTask_1_Awaiter<::System::Int32> __u__1; // 0x10
-		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskVoidMethodBuilder __t__builder; // 0x20
-		::MoleMole::UISuibianTempleBuddyAddPointPopWindowController* __4__this; // 0x28
+		::MoleMole::UISuibianTempleBuddyAddPointPopWindowController* __4__this; // 0x10
+		::Cysharp::Threading::Tasks::UniTask_1_Awaiter<::System::Int32> __u__1; // 0x18
+		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskVoidMethodBuilder __t__builder; // 0x28
 		::System::Int32 __1__state; // 0x30
 
 		::System::Void MoveNext()

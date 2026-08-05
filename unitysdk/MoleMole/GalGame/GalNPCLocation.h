@@ -3,7 +3,7 @@
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int GalNPCLocation_TypeDefinitionIndex = 56061;
+	inline static constexpr unsigned int GalNPCLocation_TypeDefinitionIndex = 86399;
 
 	enum class GalNPCLocation : ::System::Int32
 	{

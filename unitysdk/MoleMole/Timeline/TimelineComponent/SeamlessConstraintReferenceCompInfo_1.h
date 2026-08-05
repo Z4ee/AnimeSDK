@@ -11,7 +11,7 @@ namespace UnityEngine { class GameObject; }
 
 namespace MoleMole::Timeline::TimelineComponent
 {
-	inline static constexpr unsigned int SeamlessConstraintReferenceCompInfo_1_TypeDefinitionIndex = 59551;
+	inline static constexpr unsigned int SeamlessConstraintReferenceCompInfo_1_TypeDefinitionIndex = 90091;
 
 	template <typename TConstraint>
 	class SeamlessConstraintReferenceCompInfo_1 : public ::MoleMole::Timeline::TimelineComponent::SeamlessBaseReferenceCompInfo

@@ -9,19 +9,19 @@
 namespace MoleMole { class UIRidusGotBooPageController; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define MOLEMOLE_UIRIDUSGOTBOOPAGECONTROLLER__WAITUNTILTIMECURSOR_D__211_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x8152E0)
-#define MOLEMOLE_UIRIDUSGOTBOOPAGECONTROLLER__WAITUNTILTIMECURSOR_D__211_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x283610)
+#define MOLEMOLE_UIRIDUSGOTBOOPAGECONTROLLER__WAITUNTILTIMECURSOR_D__211_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x8A2C60)
+#define MOLEMOLE_UIRIDUSGOTBOOPAGECONTROLLER__WAITUNTILTIMECURSOR_D__211_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x296F30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRidusGotBooPageController__WaitUntilTimeCursor_d__211_TypeDefinitionIndex = 40726;
+	inline static constexpr unsigned int UIRidusGotBooPageController__WaitUntilTimeCursor_d__211_TypeDefinitionIndex = 91558;
 
 	struct alignas(8) UIRidusGotBooPageController__WaitUntilTimeCursor_d__211
 	{
 		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x10
-		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x20
-		::System::Threading::CancellationToken token; // 0x30
-		::MoleMole::UIRidusGotBooPageController* __4__this; // 0x38
+		::MoleMole::UIRidusGotBooPageController* __4__this; // 0x20
+		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x28
+		::System::Threading::CancellationToken token; // 0x38
 		::System::Single resumeTime; // 0x40
 		::Cysharp::Threading::Tasks::PlayerLoopTiming timing; // 0x44
 		::System::Int32 __1__state; // 0x48

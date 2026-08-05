@@ -3,13 +3,13 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int BuddyOutlineCampType_TypeDefinitionIndex = 73432;
+	inline static constexpr unsigned int BuddyOutlineCampType_TypeDefinitionIndex = 76833;
 
 	enum class BuddyOutlineCampType : ::System::Int32
 	{
-		Self = 1,
-		Invalid = 10,
 		Allied = 2,
+		Invalid = 10,
 		Evil = 3,
+		Self = 1,
 	};
 }

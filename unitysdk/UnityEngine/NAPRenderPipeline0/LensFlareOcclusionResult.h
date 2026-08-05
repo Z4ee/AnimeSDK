@@ -5,7 +5,7 @@
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int LensFlareOcclusionResult_TypeDefinitionIndex = 18482;
+	inline static constexpr unsigned int LensFlareOcclusionResult_TypeDefinitionIndex = 18891;
 
 	struct alignas(4) LensFlareOcclusionResult
 	{

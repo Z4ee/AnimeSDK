@@ -5,7 +5,7 @@
 namespace Microsoft::Win32 { class Win32Native_WIN32_FIND_DATA; }
 namespace System { class String; }
 
-#define SYSTEM_IO_SEARCHRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4F3770)
+#define SYSTEM_IO_SEARCHRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8BFCD0)
 
 namespace System::IO
 {

@@ -1,14 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_43BD383C98B4C0C5_2.h"
+#include "unitysdk/Class_1_3B30804AF9C9B718.h"
 
-namespace System { class String; }
-namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+inline static constexpr unsigned int Class_2_534AF681CC2BD5F4_TypeDefinitionIndex = 29582;
 
-inline static constexpr unsigned int Class_2_534AF681CC2BD5F4_TypeDefinitionIndex = 16478;
-
-template <typename T>
-class Class_2_534AF681CC2BD5F4 : public ::Class_1_43BD383C98B4C0C5_2
+template <typename TEvent>
+class Class_2_534AF681CC2BD5F4 : public ::Class_1_3B30804AF9C9B718<TEvent>
 {
 public:
 };

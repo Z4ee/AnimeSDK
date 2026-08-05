@@ -6,7 +6,7 @@ namespace System::Collections::Generic { template <typename T> class IEqualityCo
 
 namespace Foundation
 {
-	inline static constexpr unsigned int ArrayExt___c__DisplayClass27_0_1_TypeDefinitionIndex = 8344;
+	inline static constexpr unsigned int ArrayExt___c__DisplayClass27_0_1_TypeDefinitionIndex = 7841;
 
 	template <typename TValue>
 	class ArrayExt___c__DisplayClass27_0_1 : public ::System::Object

@@ -5,7 +5,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int HackerGamePlayerOnDamagedData_TypeDefinitionIndex = 87342;
+	inline static constexpr unsigned int HackerGamePlayerOnDamagedData_TypeDefinitionIndex = 61435;
 
 	struct alignas(8) HackerGamePlayerOnDamagedData
 	{

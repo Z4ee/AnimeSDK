@@ -6,7 +6,7 @@ namespace ObservableCollections::Internal { template <typename T> class CloneCol
 
 namespace ObservableCollections::Internal
 {
-	inline static constexpr unsigned int CloneCollection_1_EnumerableCollection__GetEnumerator_d__11_TypeDefinitionIndex = 28022;
+	inline static constexpr unsigned int CloneCollection_1_EnumerableCollection__GetEnumerator_d__11_TypeDefinitionIndex = 28653;
 
 	template <typename T>
 	class CloneCollection_1_EnumerableCollection__GetEnumerator_d__11 : public ::System::Object

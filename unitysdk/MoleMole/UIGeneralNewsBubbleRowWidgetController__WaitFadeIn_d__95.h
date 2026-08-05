@@ -1,0 +1,55 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+namespace MoleMole { class UIGeneralNewsBubbleRowWidgetController; }
+
+#define MOLEMOLE_UIGENERALNEWSBUBBLEROWWIDGETCONTROLLER__WAITFADEIN_D__95_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1A313C60)
+#define MOLEMOLE_UIGENERALNEWSBUBBLEROWWIDGETCONTROLLER__WAITFADEIN_D__95_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_SINGLE__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1A313D20)
+#define MOLEMOLE_UIGENERALNEWSBUBBLEROWWIDGETCONTROLLER__WAITFADEIN_D__95_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1A313D80)
+#define MOLEMOLE_UIGENERALNEWSBUBBLEROWWIDGETCONTROLLER__WAITFADEIN_D__95_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1A313D30)
+#define MOLEMOLE_UIGENERALNEWSBUBBLEROWWIDGETCONTROLLER__WAITFADEIN_D__95_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A313C50)
+#define MOLEMOLE_UIGENERALNEWSBUBBLEROWWIDGETCONTROLLER__WAITFADEIN_D__95__CTOR_OFFSET UNITYSDK_OFFSET(0x1A313C40)
+
+namespace MoleMole
+{
+	inline static constexpr unsigned int UIGeneralNewsBubbleRowWidgetController__WaitFadeIn_d__95_TypeDefinitionIndex = 43621;
+
+	class UIGeneralNewsBubbleRowWidgetController__WaitFadeIn_d__95 : public ::System::Object
+	{
+	public:
+		::MoleMole::UIGeneralNewsBubbleRowWidgetController* __4__this; // 0x10
+		::System::Single __2__current; // 0x18
+		::System::Int32 __1__state; // 0x1C
+
+		::System::Void _ctor(::System::Int32 __1__state)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIGENERALNEWSBUBBLEROWWIDGETCONTROLLER__WAITFADEIN_D__95__CTOR_OFFSET))(this, __1__state);
+		}
+
+		::System::Void System_IDisposable_Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIGENERALNEWSBUBBLEROWWIDGETCONTROLLER__WAITFADEIN_D__95_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET))(this);
+		}
+
+		::System::Boolean MoveNext()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIGENERALNEWSBUBBLEROWWIDGETCONTROLLER__WAITFADEIN_D__95_MOVENEXT_OFFSET))(this);
+		}
+
+		::System::Single System_Collections_Generic_IEnumerator_System_Single__get_Current()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIGENERALNEWSBUBBLEROWWIDGETCONTROLLER__WAITFADEIN_D__95_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_SINGLE__GET_CURRENT_OFFSET))(this);
+		}
+
+		::System::Void System_Collections_IEnumerator_Reset()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIGENERALNEWSBUBBLEROWWIDGETCONTROLLER__WAITFADEIN_D__95_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET))(this);
+		}
+
+		::System::Object* System_Collections_IEnumerator_get_Current()
+		{
+			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIGENERALNEWSBUBBLEROWWIDGETCONTROLLER__WAITFADEIN_D__95_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET))(this);
+		}
+	};
+}

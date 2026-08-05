@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIViewReference_UIViewType_TypeDefinitionIndex = 50666;
+	inline static constexpr unsigned int UIViewReference_UIViewType_TypeDefinitionIndex = 84361;
 
 	enum class UIViewReference_UIViewType : ::System::Int32
 	{

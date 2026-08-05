@@ -7,11 +7,11 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::Rendering::Universal::Internal { class DecalProjector_Triangle; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECALPROJECTOR_SINGLETRIANGLEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x95E380)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECALPROJECTOR_SINGLETRIANGLEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x9A5FD0)
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int DecalProjector_SingleTriangleData_TypeDefinitionIndex = 27276;
+	inline static constexpr unsigned int DecalProjector_SingleTriangleData_TypeDefinitionIndex = 27667;
 
 	struct alignas(8) DecalProjector_SingleTriangleData
 	{

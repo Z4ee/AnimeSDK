@@ -3,12 +3,12 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SceneQualityLevel_TypeDefinitionIndex = 49603;
+	inline static constexpr unsigned int SceneQualityLevel_TypeDefinitionIndex = 84787;
 
 	enum class SceneQualityLevel : ::System::Int32
 	{
-		Low = 0,
 		Medium = 1,
+		Low = 0,
 		High = 2,
 	};
 }

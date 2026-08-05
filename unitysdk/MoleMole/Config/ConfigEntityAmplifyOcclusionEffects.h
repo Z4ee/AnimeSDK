@@ -6,11 +6,11 @@ namespace MoleMole::Config { class ConfigEntityAmplifyOcclusionEffect; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGENTITYAMPLIFYOCCLUSIONEFFECTS__CTOR_OFFSET UNITYSDK_OFFSET(0x158A0970)
+#define MOLEMOLE_CONFIG_CONFIGENTITYAMPLIFYOCCLUSIONEFFECTS__CTOR_OFFSET UNITYSDK_OFFSET(0x1436EF40)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigEntityAmplifyOcclusionEffects_TypeDefinitionIndex = 68307;
+	inline static constexpr unsigned int ConfigEntityAmplifyOcclusionEffects_TypeDefinitionIndex = 69639;
 
 	class ConfigEntityAmplifyOcclusionEffects : public ::Foundation::MihoyoSerializedScriptableObject
 	{

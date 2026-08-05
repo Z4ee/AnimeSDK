@@ -10,7 +10,7 @@ namespace UnityEngine { class Object; }
 
 namespace Foundation
 {
-	inline static constexpr unsigned int MihoyoSerializedSOAssetProxy___c__DisplayClass15_0_1_TypeDefinitionIndex = 8056;
+	inline static constexpr unsigned int MihoyoSerializedSOAssetProxy___c__DisplayClass15_0_1_TypeDefinitionIndex = 8121;
 
 	template <typename T>
 	class MihoyoSerializedSOAssetProxy___c__DisplayClass15_0_1 : public ::System::Object

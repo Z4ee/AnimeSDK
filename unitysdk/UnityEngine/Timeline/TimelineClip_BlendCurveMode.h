@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int TimelineClip_BlendCurveMode_TypeDefinitionIndex = 32266;
+	inline static constexpr unsigned int TimelineClip_BlendCurveMode_TypeDefinitionIndex = 32897;
 
 	enum class TimelineClip_BlendCurveMode : ::System::Int32
 	{

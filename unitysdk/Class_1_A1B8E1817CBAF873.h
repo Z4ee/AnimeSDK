@@ -13,22 +13,32 @@ namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_A1B8E1817CBAF873_METHOD_1_175D0F138C9146A8_OFFSET UNITYSDK_OFFSET(0x13526920)
-#define CLASS_1_A1B8E1817CBAF873_METHOD_1_1DDF50EB3A3ABFE3_OFFSET UNITYSDK_OFFSET(0x135264D0)
-#define CLASS_1_A1B8E1817CBAF873_METHOD_1_49DFA39A30A44449_OFFSET UNITYSDK_OFFSET(0x135262B0)
-#define CLASS_1_A1B8E1817CBAF873_METHOD_1_502A81344CAEE4A4_OFFSET UNITYSDK_OFFSET(0x135261C0)
-#define CLASS_1_A1B8E1817CBAF873_METHOD_1_693CB3DB7BF744D5_OFFSET UNITYSDK_OFFSET(0x13526D30)
-#define CLASS_1_A1B8E1817CBAF873_METHOD_1_99F6001B7FAA6B08_OFFSET UNITYSDK_OFFSET(0x135266F0)
-#define CLASS_1_A1B8E1817CBAF873_METHOD_1_AAB963F79BCFEF86_OFFSET UNITYSDK_OFFSET(0x13526B30)
+#define CLASS_1_A1B8E1817CBAF873_METHOD_1_175D0F138C9146A8_OFFSET UNITYSDK_OFFSET(0x124C9210)
+#define CLASS_1_A1B8E1817CBAF873_METHOD_1_1DDF50EB3A3ABFE3_OFFSET UNITYSDK_OFFSET(0x124C9730)
+#define CLASS_1_A1B8E1817CBAF873_METHOD_1_49DFA39A30A44449_OFFSET UNITYSDK_OFFSET(0x124C9510)
+#define CLASS_1_A1B8E1817CBAF873_METHOD_1_502A81344CAEE4A4_OFFSET UNITYSDK_OFFSET(0x124C9420)
+#define CLASS_1_A1B8E1817CBAF873_METHOD_1_693CB3DB7BF744D5_OFFSET UNITYSDK_OFFSET(0x124C9200)
+#define CLASS_1_A1B8E1817CBAF873_METHOD_1_99F6001B7FAA6B08_OFFSET UNITYSDK_OFFSET(0x124C9B50)
+#define CLASS_1_A1B8E1817CBAF873_METHOD_1_AAB963F79BCFEF86_OFFSET UNITYSDK_OFFSET(0x124C9950)
 
-inline static constexpr unsigned int Class_1_A1B8E1817CBAF873_TypeDefinitionIndex = 53194;
+inline static constexpr unsigned int Class_1_A1B8E1817CBAF873_TypeDefinitionIndex = 61422;
 
 class Class_1_A1B8E1817CBAF873 : public ::System::Object
 {
 public:
 	static ::MoleMole::Config::ScenePerformConfig** StaticGet_Field_1_0()
 	{
-		return (::MoleMole::Config::ScenePerformConfig**)Il2CppClass::FromTypeDefinitionIndex(Class_1_A1B8E1817CBAF873_TypeDefinitionIndex)->GetStaticField(0x321E0);
+		return (::MoleMole::Config::ScenePerformConfig**)Il2CppClass::FromTypeDefinitionIndex(Class_1_A1B8E1817CBAF873_TypeDefinitionIndex)->GetStaticField(0x34230);
+	}
+
+	static ::MoleMole::Config::ScenePerformConfig* Method_1_693CB3DB7BF744D5()
+	{
+		return ((::MoleMole::Config::ScenePerformConfig*(*)())((::PBYTE)hIl2Cpp + CLASS_1_A1B8E1817CBAF873_METHOD_1_693CB3DB7BF744D5_OFFSET))();
+	}
+
+	static ::MoleMole::Config::SceneAvatarCutSceneConfig* Method_1_175D0F138C9146A8(::System::Int32 a1, ::MoleMole::Level::OverrideScenePerformDelayConfig& a2)
+	{
+		return ((::MoleMole::Config::SceneAvatarCutSceneConfig*(*)(::System::Int32, ::MoleMole::Level::OverrideScenePerformDelayConfig&))((::PBYTE)hIl2Cpp + CLASS_1_A1B8E1817CBAF873_METHOD_1_175D0F138C9146A8_OFFSET))(a1, a2);
 	}
 
 	static ::System::Void Method_1_502A81344CAEE4A4(::System::Single a1, ::System::Action_1<::System::Single>* a2, ::System::Action_1<::System::String*>* a3, ::System::String* a4)
@@ -41,14 +51,9 @@ public:
 		return ((::MoleMole::Config::CutScenePerformConfig*(*)(::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_A1B8E1817CBAF873_METHOD_1_1DDF50EB3A3ABFE3_OFFSET))(a1);
 	}
 
-	static ::System::Collections::Generic::List_1<::MoleMole::Config::IScenePerformConfig*>* Method_1_99F6001B7FAA6B08(::System::String* a1)
+	static ::System::Void Method_1_49DFA39A30A44449(::System::Boolean a1, ::System::Action* a2)
 	{
-		return ((::System::Collections::Generic::List_1<::MoleMole::Config::IScenePerformConfig*>*(*)(::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_A1B8E1817CBAF873_METHOD_1_99F6001B7FAA6B08_OFFSET))(a1);
-	}
-
-	static ::MoleMole::Config::SceneAvatarCutSceneConfig* Method_1_175D0F138C9146A8(::System::Int32 a1, ::MoleMole::Level::OverrideScenePerformDelayConfig& a2)
-	{
-		return ((::MoleMole::Config::SceneAvatarCutSceneConfig*(*)(::System::Int32, ::MoleMole::Level::OverrideScenePerformDelayConfig&))((::PBYTE)hIl2Cpp + CLASS_1_A1B8E1817CBAF873_METHOD_1_175D0F138C9146A8_OFFSET))(a1, a2);
+		return ((::System::Void(*)(::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + CLASS_1_A1B8E1817CBAF873_METHOD_1_49DFA39A30A44449_OFFSET))(a1, a2);
 	}
 
 	static ::MoleMole::Config::SceneEntityCutSceneConfig* Method_1_AAB963F79BCFEF86(::System::Int32 a1)
@@ -56,13 +61,8 @@ public:
 		return ((::MoleMole::Config::SceneEntityCutSceneConfig*(*)(::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_A1B8E1817CBAF873_METHOD_1_AAB963F79BCFEF86_OFFSET))(a1);
 	}
 
-	static ::System::Void Method_1_49DFA39A30A44449(::System::Boolean a1, ::System::Action* a2)
+	static ::System::Collections::Generic::List_1<::MoleMole::Config::IScenePerformConfig*>* Method_1_99F6001B7FAA6B08(::System::String* a1)
 	{
-		return ((::System::Void(*)(::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + CLASS_1_A1B8E1817CBAF873_METHOD_1_49DFA39A30A44449_OFFSET))(a1, a2);
-	}
-
-	static ::MoleMole::Config::ScenePerformConfig* Method_1_693CB3DB7BF744D5()
-	{
-		return ((::MoleMole::Config::ScenePerformConfig*(*)())((::PBYTE)hIl2Cpp + CLASS_1_A1B8E1817CBAF873_METHOD_1_693CB3DB7BF744D5_OFFSET))();
+		return ((::System::Collections::Generic::List_1<::MoleMole::Config::IScenePerformConfig*>*(*)(::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_A1B8E1817CBAF873_METHOD_1_99F6001B7FAA6B08_OFFSET))(a1);
 	}
 };

@@ -1,15 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_99DB75F5536B0917_Struct_2_5D4D097EFCB9C87F_2.h"
+#include "unitysdk/Class_1_99DB75F5536B0917_Struct_2_5D4D097EFCB9C87F_4.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
 namespace System::Collections::Generic { template <typename T> class IEqualityComparer_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_99DB75F5536B0917_METHOD_1_005163E5F9A34BC8_OFFSET UNITYSDK_OFFSET(0x115CA840)
+#define CLASS_1_99DB75F5536B0917_METHOD_1_005163E5F9A34BC8_OFFSET UNITYSDK_OFFSET(0x16487460)
 
-inline static constexpr unsigned int Class_1_99DB75F5536B0917_TypeDefinitionIndex = 57855;
+inline static constexpr unsigned int Class_1_99DB75F5536B0917_TypeDefinitionIndex = 61211;
 
 class Class_1_99DB75F5536B0917 : public ::System::Object
 {

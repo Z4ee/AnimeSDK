@@ -11,7 +11,7 @@ namespace UnityEngine { class Object; }
 
 namespace NodeCanvas::Framework
 {
-	inline static constexpr unsigned int GraphOwner_1_TypeDefinitionIndex = 30739;
+	inline static constexpr unsigned int GraphOwner_1_TypeDefinitionIndex = 30721;
 
 	template <typename T>
 	class GraphOwner_1 : public ::NodeCanvas::Framework::GraphOwner

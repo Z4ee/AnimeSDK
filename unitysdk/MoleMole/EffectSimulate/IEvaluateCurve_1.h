@@ -6,12 +6,12 @@
 #include "unitysdk/MoleMole/EffectSimulate/IEvaluateCurve_Enum_3_5B7DFEE45EE0DDC3.h"
 
 namespace MoleMole::EffectSimulate { class ESLoopable; }
-namespace MoleMole::EffectSimulate { class IEvaluateCurve_Class_1_3ABCC41A05D06339_1; }
+namespace MoleMole::EffectSimulate { class IEvaluateCurve_Class_1_3ABCC41A05D06339; }
 namespace MoleMole::EffectSimulate { template <typename T> class IEvaluateCurve_1; }
 
 namespace MoleMole::EffectSimulate
 {
-	inline static constexpr unsigned int IEvaluateCurve_1_TypeDefinitionIndex = 59477;
+	inline static constexpr unsigned int IEvaluateCurve_1_TypeDefinitionIndex = 65278;
 
 	template <typename T>
 	class IEvaluateCurve_1 : public ::MoleMole::EffectSimulate::IEvaluateCurve

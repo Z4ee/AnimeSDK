@@ -5,12 +5,12 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define NPCCROWD_AI_AIACTIONTELEPORTCONFIG_GETBASEACTIONCONFIG_OFFSET UNITYSDK_OFFSET(0x731DC0)
-#define NPCCROWD_AI_AIACTIONTELEPORTCONFIG_ISMULTITHREAD_OFFSET UNITYSDK_OFFSET(0x731E10)
+#define NPCCROWD_AI_AIACTIONTELEPORTCONFIG_GETBASEACTIONCONFIG_OFFSET UNITYSDK_OFFSET(0x830CA0)
+#define NPCCROWD_AI_AIACTIONTELEPORTCONFIG_ISMULTITHREAD_OFFSET UNITYSDK_OFFSET(0x830CF0)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int AIActionTeleportConfig_TypeDefinitionIndex = 82146;
+	inline static constexpr unsigned int AIActionTeleportConfig_TypeDefinitionIndex = 84284;
 
 	struct alignas(8) AIActionTeleportConfig
 	{

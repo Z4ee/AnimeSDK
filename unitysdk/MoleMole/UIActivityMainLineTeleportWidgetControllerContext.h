@@ -1,24 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/MoleMole/UIActivityMainLineTeleportWidgetControllerContext_ItemInfo.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
 namespace System { class Action; }
+namespace System { class String; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIACTIVITYMAINLINETELEPORTWIDGETCONTROLLERCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x181B54A0)
+#define MOLEMOLE_UIACTIVITYMAINLINETELEPORTWIDGETCONTROLLERCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1975B3C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityMainLineTeleportWidgetControllerContext_TypeDefinitionIndex = 82244;
+	inline static constexpr unsigned int UIActivityMainLineTeleportWidgetControllerContext_TypeDefinitionIndex = 85576;
 
 	class UIActivityMainLineTeleportWidgetControllerContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::System::Action* OnClickBtn; // 0x28
-		::System::Int32 AccessID; // 0x30
-		::System::Int32 TotalProgress; // 0x34
-		::System::Int32 ItemID; // 0x38
-		::System::Boolean BtnInteractable; // 0x3C
-		::System::Int32 CurProgress; // 0x40
+		::System::String* TextBtnText; // 0x28
+		::System::String* TextTitle; // 0x30
+		::System::Action* OnClickBtn; // 0x38
+		::System::Collections::Generic::List_1<::MoleMole::UIActivityMainLineTeleportWidgetControllerContext_ItemInfo>* ItemInfos; // 0x40
+		::System::Int32 AccessID; // 0x48
+		::System::Boolean BtnInteractable; // 0x4C
+		::System::Int32 BindActivityId; // 0x50
 
 		::System::Void _ctor()
 		{

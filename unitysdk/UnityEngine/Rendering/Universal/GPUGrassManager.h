@@ -13,63 +13,63 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 namespace UnityEngine::Rendering::Universal { class GPUGrassProxy; }
 namespace UnityEngine::Rendering::Universal { class UniversalRenderPipelineAsset; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_GPUGRASSMANAGER_CHECKNEEDGPUGRASS_OFFSET UNITYSDK_OFFSET(0x1AEE6270)
-#define UNITYENGINE_RENDERING_UNIVERSAL_GPUGRASSMANAGER_DRAWGRASSITEM_OFFSET UNITYSDK_OFFSET(0x1AECEB50)
-#define UNITYENGINE_RENDERING_UNIVERSAL_GPUGRASSMANAGER_DRAWGRASSSHADOWCASTER_OFFSET UNITYSDK_OFFSET(0x1AECFF00)
-#define UNITYENGINE_RENDERING_UNIVERSAL_GPUGRASSMANAGER_DRAWGRASSSOFTEDGE_OFFSET UNITYSDK_OFFSET(0x1AEEC100)
-#define UNITYENGINE_RENDERING_UNIVERSAL_GPUGRASSMANAGER_GETENABLESOFTEDGE_OFFSET UNITYSDK_OFFSET(0x1AEEC050)
-#define UNITYENGINE_RENDERING_UNIVERSAL_GPUGRASSMANAGER_ISSUPPORTEDGRASSCAMERA_OFFSET UNITYSDK_OFFSET(0x1AEEBC00)
-#define UNITYENGINE_RENDERING_UNIVERSAL_GPUGRASSMANAGER_PREPAREGPUGRASSDRAWDATA_OFFSET UNITYSDK_OFFSET(0x1AEEBDB0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_GPUGRASSMANAGER_REGISTER_OFFSET UNITYSDK_OFFSET(0x1AEEBA70)
-#define UNITYENGINE_RENDERING_UNIVERSAL_GPUGRASSMANAGER_UNREGISTER_OFFSET UNITYSDK_OFFSET(0x1AEEBB50)
-#define UNITYENGINE_RENDERING_UNIVERSAL_GPUGRASSMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AEEC4D0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_GPUGRASSMANAGER_CHECKNEEDGPUGRASS_OFFSET UNITYSDK_OFFSET(0x1C42B3E0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_GPUGRASSMANAGER_DRAWGRASSITEM_OFFSET UNITYSDK_OFFSET(0x1C414AA0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_GPUGRASSMANAGER_DRAWGRASSSHADOWCASTER_OFFSET UNITYSDK_OFFSET(0x1C415F00)
+#define UNITYENGINE_RENDERING_UNIVERSAL_GPUGRASSMANAGER_DRAWGRASSSOFTEDGE_OFFSET UNITYSDK_OFFSET(0x1C4311D0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_GPUGRASSMANAGER_GETENABLESOFTEDGE_OFFSET UNITYSDK_OFFSET(0x1C431120)
+#define UNITYENGINE_RENDERING_UNIVERSAL_GPUGRASSMANAGER_ISSUPPORTEDGRASSCAMERA_OFFSET UNITYSDK_OFFSET(0x1C430CD0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_GPUGRASSMANAGER_PREPAREGPUGRASSDRAWDATA_OFFSET UNITYSDK_OFFSET(0x1C430E80)
+#define UNITYENGINE_RENDERING_UNIVERSAL_GPUGRASSMANAGER_REGISTER_OFFSET UNITYSDK_OFFSET(0x1C430B40)
+#define UNITYENGINE_RENDERING_UNIVERSAL_GPUGRASSMANAGER_UNREGISTER_OFFSET UNITYSDK_OFFSET(0x1C430C20)
+#define UNITYENGINE_RENDERING_UNIVERSAL_GPUGRASSMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C4315A0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int GPUGrassManager_TypeDefinitionIndex = 27018;
+	inline static constexpr unsigned int GPUGrassManager_TypeDefinitionIndex = 27407;
 
 	class GPUGrassManager : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::HashSet_1<::UnityEngine::Rendering::Universal::GPUGrassProxy*>** StaticGet_proxyList()
-		{
-			return (::System::Collections::Generic::HashSet_1<::UnityEngine::Rendering::Universal::GPUGrassProxy*>**)Il2CppClass::FromTypeDefinitionIndex(GPUGrassManager_TypeDefinitionIndex)->GetStaticField(0x22440);
-		}
 		static ::Il2CppArray<::UnityEngine::Plane>** StaticGet_planes()
 		{
-			return (::Il2CppArray<::UnityEngine::Plane>**)Il2CppClass::FromTypeDefinitionIndex(GPUGrassManager_TypeDefinitionIndex)->GetStaticField(0x22448);
+			return (::Il2CppArray<::UnityEngine::Plane>**)Il2CppClass::FromTypeDefinitionIndex(GPUGrassManager_TypeDefinitionIndex)->GetStaticField(0x23BB0);
 		}
-		static ::UnityEngine::NAPRenderPipeline0::ProfilingSampler** StaticGet_m_SamplerForGBuffer()
+		static ::System::Collections::Generic::HashSet_1<::UnityEngine::Rendering::Universal::GPUGrassProxy*>** StaticGet_proxyList()
 		{
-			return (::UnityEngine::NAPRenderPipeline0::ProfilingSampler**)Il2CppClass::FromTypeDefinitionIndex(GPUGrassManager_TypeDefinitionIndex)->GetStaticField(0x22450);
+			return (::System::Collections::Generic::HashSet_1<::UnityEngine::Rendering::Universal::GPUGrassProxy*>**)Il2CppClass::FromTypeDefinitionIndex(GPUGrassManager_TypeDefinitionIndex)->GetStaticField(0x23BB8);
 		}
 		static ::UnityEngine::Profiling::CustomSampler** StaticGet_m_SamplerForCulling()
 		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(GPUGrassManager_TypeDefinitionIndex)->GetStaticField(0x22458);
+			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(GPUGrassManager_TypeDefinitionIndex)->GetStaticField(0x23BC0);
+		}
+		static ::UnityEngine::NAPRenderPipeline0::ProfilingSampler** StaticGet_m_SamplerForGBuffer()
+		{
+			return (::UnityEngine::NAPRenderPipeline0::ProfilingSampler**)Il2CppClass::FromTypeDefinitionIndex(GPUGrassManager_TypeDefinitionIndex)->GetStaticField(0x23BC8);
 		}
 		static ::UnityEngine::NAPRenderPipeline0::ProfilingSampler** StaticGet_m_SamplerForShadow()
 		{
-			return (::UnityEngine::NAPRenderPipeline0::ProfilingSampler**)Il2CppClass::FromTypeDefinitionIndex(GPUGrassManager_TypeDefinitionIndex)->GetStaticField(0x22460);
+			return (::UnityEngine::NAPRenderPipeline0::ProfilingSampler**)Il2CppClass::FromTypeDefinitionIndex(GPUGrassManager_TypeDefinitionIndex)->GetStaticField(0x23BD0);
 		}
 		static ::UnityEngine::NAPRenderPipeline0::ProfilingSampler** StaticGet_m_SamplerForSoftEdge()
 		{
-			return (::UnityEngine::NAPRenderPipeline0::ProfilingSampler**)Il2CppClass::FromTypeDefinitionIndex(GPUGrassManager_TypeDefinitionIndex)->GetStaticField(0x22468);
+			return (::UnityEngine::NAPRenderPipeline0::ProfilingSampler**)Il2CppClass::FromTypeDefinitionIndex(GPUGrassManager_TypeDefinitionIndex)->GetStaticField(0x23BD8);
 		}
 		static ::UnityEngine::Rendering::Universal::GpuGrassShadowType* StaticGet_gpuGrassShadowType()
 		{
-			return (::UnityEngine::Rendering::Universal::GpuGrassShadowType*)Il2CppClass::FromTypeDefinitionIndex(GPUGrassManager_TypeDefinitionIndex)->GetStaticField(0x7720);
-		}
-		static ::System::Int32* StaticGet_m_GlobalMeshLodBias()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(GPUGrassManager_TypeDefinitionIndex)->GetStaticField(0x7724);
-		}
-		static ::System::Boolean* StaticGet_needDrawGPUGrass()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(GPUGrassManager_TypeDefinitionIndex)->GetStaticField(0x7728);
+			return (::UnityEngine::Rendering::Universal::GpuGrassShadowType*)Il2CppClass::FromTypeDefinitionIndex(GPUGrassManager_TypeDefinitionIndex)->GetStaticField(0x76D0);
 		}
 		static ::System::Boolean* StaticGet_enableBakedDecal()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(GPUGrassManager_TypeDefinitionIndex)->GetStaticField(0x7729);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(GPUGrassManager_TypeDefinitionIndex)->GetStaticField(0x76D4);
+		}
+		static ::System::Boolean* StaticGet_needDrawGPUGrass()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(GPUGrassManager_TypeDefinitionIndex)->GetStaticField(0x76D5);
+		}
+		static ::System::Int32* StaticGet_m_GlobalMeshLodBias()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(GPUGrassManager_TypeDefinitionIndex)->GetStaticField(0x76D8);
 		}
 		// static const ::System::Boolean kEnableSoftEdge; // 0x0
 

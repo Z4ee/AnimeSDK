@@ -3,12 +3,12 @@
 #include "unitysdk/MoleMole/FlowCanvas/ChessboardPureFunctionNode_4.h"
 #include "unitysdk/MoleMole/HollowChessboard/HollowEntityMoveComponent_MoveCmd_Dir.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_HOLLOWGETINDEXBYDIR_INVOKE_OFFSET UNITYSDK_OFFSET(0x161D17B0)
-#define MOLEMOLE_FLOWCANVAS_NODES_HOLLOWGETINDEXBYDIR__CTOR_OFFSET UNITYSDK_OFFSET(0x161D1B90)
+#define MOLEMOLE_FLOWCANVAS_NODES_HOLLOWGETINDEXBYDIR_INVOKE_OFFSET UNITYSDK_OFFSET(0x144BA770)
+#define MOLEMOLE_FLOWCANVAS_NODES_HOLLOWGETINDEXBYDIR__CTOR_OFFSET UNITYSDK_OFFSET(0x144BAB40)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int HollowGetIndexByDir_TypeDefinitionIndex = 56139;
+	inline static constexpr unsigned int HollowGetIndexByDir_TypeDefinitionIndex = 71526;
 
 	class HollowGetIndexByDir : public ::MoleMole::FlowCanvas::ChessboardPureFunctionNode_4<::System::Int32, ::System::Int32, ::MoleMole::HollowChessboard::HollowEntityMoveComponent_MoveCmd_Dir, ::System::Int32>
 	{

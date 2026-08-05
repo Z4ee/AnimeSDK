@@ -5,17 +5,17 @@
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define CLASS_1_BEC6CF45E604A1D1_CLASS_1_DC15F0290E9D3086_183_METHOD_1_286570692E8A7912_OFFSET UNITYSDK_OFFSET(0x168A5EB0)
-#define CLASS_1_BEC6CF45E604A1D1_CLASS_1_DC15F0290E9D3086_183__CTOR_OFFSET UNITYSDK_OFFSET(0x168A5EA0)
+#define CLASS_1_BEC6CF45E604A1D1_CLASS_1_DC15F0290E9D3086_183_METHOD_1_286570692E8A7912_OFFSET UNITYSDK_OFFSET(0x178B4A60)
+#define CLASS_1_BEC6CF45E604A1D1_CLASS_1_DC15F0290E9D3086_183__CTOR_OFFSET UNITYSDK_OFFSET(0x178B4A50)
 
-inline static constexpr unsigned int Class_1_BEC6CF45E604A1D1_Class_1_DC15F0290E9D3086_183_TypeDefinitionIndex = 86630;
+inline static constexpr unsigned int Class_1_BEC6CF45E604A1D1_Class_1_DC15F0290E9D3086_183_TypeDefinitionIndex = 89185;
 
 class Class_1_BEC6CF45E604A1D1_Class_1_DC15F0290E9D3086_183 : public ::System::Object
 {
 public:
-	::System::String* Field_1_3; // 0x10
-	::System::Action_1<::System::String*>* Field_1_2; // 0x18
-	::System::Action_1<::System::Single>* Field_1_0; // 0x20
+	::System::String* Field_1_7; // 0x10
+	::System::Action_1<::System::String*>* Field_1_0; // 0x18
+	::System::Action_1<::System::Single>* Field_1_2; // 0x20
 	::System::Single Field_1_1; // 0x28
 
 	::System::Void _ctor()

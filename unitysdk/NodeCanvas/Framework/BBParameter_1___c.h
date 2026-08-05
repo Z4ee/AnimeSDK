@@ -7,7 +7,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace NodeCanvas::Framework
 {
-	inline static constexpr unsigned int BBParameter_1___c_TypeDefinitionIndex = 30575;
+	inline static constexpr unsigned int BBParameter_1___c_TypeDefinitionIndex = 31017;
 
 	template <typename T>
 	class BBParameter_1___c : public ::System::Object

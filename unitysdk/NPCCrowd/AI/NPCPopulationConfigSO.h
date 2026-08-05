@@ -6,11 +6,11 @@ namespace NPCCrowd::AI { class PopulationConfig; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCCROWD_AI_NPCPOPULATIONCONFIGSO__CTOR_OFFSET UNITYSDK_OFFSET(0xE8A7F80)
+#define NPCCROWD_AI_NPCPOPULATIONCONFIGSO__CTOR_OFFSET UNITYSDK_OFFSET(0x11278250)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int NPCPopulationConfigSO_TypeDefinitionIndex = 47544;
+	inline static constexpr unsigned int NPCPopulationConfigSO_TypeDefinitionIndex = 49508;
 
 	class NPCPopulationConfigSO : public ::Sirenix::OdinInspector::SerializedScriptableObject
 	{

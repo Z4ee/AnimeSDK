@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define UNITYENGINE_INPUTSYSTEM_XINPUT_XINPUTSUPPORT_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1E3D1720)
+#define UNITYENGINE_INPUTSYSTEM_XINPUT_XINPUTSUPPORT_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1F8114C0)
 
 namespace UnityEngine::InputSystem::XInput
 {
-	inline static constexpr unsigned int XInputSupport_TypeDefinitionIndex = 31747;
+	inline static constexpr unsigned int XInputSupport_TypeDefinitionIndex = 32367;
 
 	class XInputSupport : public ::System::Object
 	{

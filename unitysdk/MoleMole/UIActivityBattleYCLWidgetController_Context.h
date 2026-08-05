@@ -5,18 +5,18 @@
 
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_UIACTIVITYBATTLEYCLWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x17A329E0)
+#define MOLEMOLE_UIACTIVITYBATTLEYCLWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x197CF290)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityBattleYCLWidgetController_Context_TypeDefinitionIndex = 83433;
+	inline static constexpr unsigned int UIActivityBattleYCLWidgetController_Context_TypeDefinitionIndex = 81301;
 
 	class UIActivityBattleYCLWidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{
 	public:
 		::System::Action_1<::System::Int32>* onSelectQuest; // 0x28
-		::Class_4_01F9221F8B6A9296_Enum_3_05BF65C41833FF20 activityBattleType; // 0x30
-		::System::Int32 activityID; // 0x34
+		::System::Int32 activityID; // 0x30
+		::Class_4_01F9221F8B6A9296_Enum_3_05BF65C41833FF20 activityBattleType; // 0x34
 
 		::System::Void _ctor()
 		{

@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace Sirenix::Utilities
 {
-	inline static constexpr unsigned int GlobalConfig_1_TypeDefinitionIndex = 6489;
+	inline static constexpr unsigned int GlobalConfig_1_TypeDefinitionIndex = 6493;
 
 	template <typename T>
 	class GlobalConfig_1 : public ::UnityEngine::ScriptableObject

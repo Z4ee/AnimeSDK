@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIVirusCollectWidgetController_CollectTabType_TypeDefinitionIndex = 60653;
+	inline static constexpr unsigned int UIVirusCollectWidgetController_CollectTabType_TypeDefinitionIndex = 49563;
 
 	enum class UIVirusCollectWidgetController_CollectTabType : ::System::Int32
 	{

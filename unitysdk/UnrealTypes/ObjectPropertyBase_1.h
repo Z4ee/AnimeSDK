@@ -8,7 +8,7 @@ namespace UnrealTypes { class ObjectPropertyParams; }
 
 namespace UnrealTypes
 {
-	inline static constexpr unsigned int ObjectPropertyBase_1_TypeDefinitionIndex = 27777;
+	inline static constexpr unsigned int ObjectPropertyBase_1_TypeDefinitionIndex = 28380;
 
 	template <typename T>
 	class ObjectPropertyBase_1 : public ::UnrealTypes::ObjectPropertyBase

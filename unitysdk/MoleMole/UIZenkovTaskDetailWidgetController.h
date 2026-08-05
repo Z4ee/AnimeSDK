@@ -1,0 +1,242 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Enum_3_03024D6472FC8F3A.h"
+#include "unitysdk/MoleMole/InputActionEvent.h"
+#include "unitysdk/MoleMole/UIWidgetController.h"
+
+class Class_0_16E4307DCC419505_175;
+class Class_1_1685EC66FBD28897;
+class Class_1_2181504E881DDEE4;
+class Class_2_208CC9941471731A_160;
+class Class_2_79AE422BA06F6D26_279;
+class Class_2_F69D29AB796376C2;
+namespace MoleMole { class MonoGamepadModule; }
+namespace MoleMole { class MonoGamepadNestedListDelegate; }
+namespace MoleMole { class UIControlReference; }
+namespace MoleMole { class UIControllerContextBase; }
+namespace MoleMole { class UIZenkovItemIconBtnWidgetController; }
+namespace MoleMole { class UIZenkovTaskDetailWidgetController_Context; }
+namespace System { template <typename T> class Action_1; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+namespace UnityEngine { class RectTransform; }
+namespace UnityEngine { class Transform; }
+
+#define MOLEMOLE_UIZENKOVTASKDETAILWIDGETCONTROLLER_APPLYBANGKOVBAGONLYINFOTIPTOWISHLIST_OFFSET UNITYSDK_OFFSET(0x11A209F0)
+#define MOLEMOLE_UIZENKOVTASKDETAILWIDGETCONTROLLER_APPLYBTNTRACKICONS_OFFSET UNITYSDK_OFFSET(0x11A20BB0)
+#define MOLEMOLE_UIZENKOVTASKDETAILWIDGETCONTROLLER_CREATETASKDETAILITEMTIPCALLBACK_OFFSET UNITYSDK_OFFSET(0x11A21520)
+#define MOLEMOLE_UIZENKOVTASKDETAILWIDGETCONTROLLER_GET_ITEMINFOROOT_OFFSET UNITYSDK_OFFSET(0x11A1DD80)
+#define MOLEMOLE_UIZENKOVTASKDETAILWIDGETCONTROLLER_INITVIEWBYDATA_OFFSET UNITYSDK_OFFSET(0x11A1E390)
+#define MOLEMOLE_UIZENKOVTASKDETAILWIDGETCONTROLLER_ONCLICKBTNGIVEUP_OFFSET UNITYSDK_OFFSET(0x11A223B0)
+#define MOLEMOLE_UIZENKOVTASKDETAILWIDGETCONTROLLER_ONCLICKGOBTN_OFFSET UNITYSDK_OFFSET(0x11A22240)
+#define MOLEMOLE_UIZENKOVTASKDETAILWIDGETCONTROLLER_ONCLICKWISHLISTBTN_OFFSET UNITYSDK_OFFSET(0x11A215D0)
+#define MOLEMOLE_UIZENKOVTASKDETAILWIDGETCONTROLLER_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x11A1F100)
+#define MOLEMOLE_UIZENKOVTASKDETAILWIDGETCONTROLLER_ONGAMEPADMODULESELECTINDEX_OFFSET UNITYSDK_OFFSET(0x11A21C50)
+#define MOLEMOLE_UIZENKOVTASKDETAILWIDGETCONTROLLER_ONINPUTACTION_OFFSET UNITYSDK_OFFSET(0x11A1F240)
+#define MOLEMOLE_UIZENKOVTASKDETAILWIDGETCONTROLLER_ONSHOW_OFFSET UNITYSDK_OFFSET(0x11A1E130)
+#define MOLEMOLE_UIZENKOVTASKDETAILWIDGETCONTROLLER_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x11A1F190)
+#define MOLEMOLE_UIZENKOVTASKDETAILWIDGETCONTROLLER_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x11A1DE30)
+#define MOLEMOLE_UIZENKOVTASKDETAILWIDGETCONTROLLER_REFRESHBTNS_OFFSET UNITYSDK_OFFSET(0x11A20D80)
+#define MOLEMOLE_UIZENKOVTASKDETAILWIDGETCONTROLLER_REFRESHREWARDITEMS_OFFSET UNITYSDK_OFFSET(0x11A20210)
+#define MOLEMOLE_UIZENKOVTASKDETAILWIDGETCONTROLLER_REFRESHWISHLISTBTNSTATE_OFFSET UNITYSDK_OFFSET(0x11A21210)
+#define MOLEMOLE_UIZENKOVTASKDETAILWIDGETCONTROLLER_RESETCONTEXT_OFFSET UNITYSDK_OFFSET(0x11A1DDE0)
+#define MOLEMOLE_UIZENKOVTASKDETAILWIDGETCONTROLLER_RESOLVETASKLEFTSCROLLNESTED_OFFSET UNITYSDK_OFFSET(0x11A1FFF0)
+#define MOLEMOLE_UIZENKOVTASKDETAILWIDGETCONTROLLER_TRYCLOSEITEMINFOPOPUP_OFFSET UNITYSDK_OFFSET(0x11A1F2E0)
+#define MOLEMOLE_UIZENKOVTASKDETAILWIDGETCONTROLLER_TRYRETURNFOCUSTOTASKLIST_OFFSET UNITYSDK_OFFSET(0x11A1F560)
+#define MOLEMOLE_UIZENKOVTASKDETAILWIDGETCONTROLLER__CCTOR_OFFSET UNITYSDK_OFFSET(0x11A22600)
+#define MOLEMOLE_UIZENKOVTASKDETAILWIDGETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x11A22520)
+#define MOLEMOLE_UIZENKOVTASKDETAILWIDGETCONTROLLER__ONCLICKBTNGIVEUP_B__35_0_OFFSET UNITYSDK_OFFSET(0x11A226A0)
+#define MOLEMOLE_UIZENKOVTASKDETAILWIDGETCONTROLLER__ONCLICKGOBTN_B__34_0_OFFSET UNITYSDK_OFFSET(0x11A22630)
+#define MOLEMOLE_UIZENKOVTASKDETAILWIDGETCONTROLLER__ONCLICKWISHLISTBTN_B__29_0_OFFSET UNITYSDK_OFFSET(0x11A22610)
+#define MOLEMOLE_UIZENKOVTASKDETAILWIDGETCONTROLLER__ONCLICKWISHLISTBTN_B__29_2_OFFSET UNITYSDK_OFFSET(0x11A22620)
+#define MOLEMOLE_UIZENKOVTASKDETAILWIDGETCONTROLLER___BASE_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x11A22710)
+#define MOLEMOLE_UIZENKOVTASKDETAILWIDGETCONTROLLER___BASE_ONGAMEPADMODULESELECTINDEX_OFFSET UNITYSDK_OFFSET(0x11A227A0)
+#define MOLEMOLE_UIZENKOVTASKDETAILWIDGETCONTROLLER___BASE_ONINPUTACTION_OFFSET UNITYSDK_OFFSET(0x11A22850)
+#define MOLEMOLE_UIZENKOVTASKDETAILWIDGETCONTROLLER___BASE_ONSHOW_OFFSET UNITYSDK_OFFSET(0x11A22880)
+#define MOLEMOLE_UIZENKOVTASKDETAILWIDGETCONTROLLER___BASE_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x11A22920)
+#define MOLEMOLE_UIZENKOVTASKDETAILWIDGETCONTROLLER___BASE_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x11A229B0)
+
+namespace MoleMole
+{
+	inline static constexpr unsigned int UIZenkovTaskDetailWidgetController_TypeDefinitionIndex = 87642;
+
+	class UIZenkovTaskDetailWidgetController : public ::MoleMole::UIWidgetController
+	{
+	public:
+		static ::System::Boolean* StaticGet_IsGamepadFocus()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(UIZenkovTaskDetailWidgetController_TypeDefinitionIndex)->GetStaticField(0xF9A0);
+		}
+		::Class_2_79AE422BA06F6D26_279* _view; // 0x2C0
+		::MoleMole::UIZenkovTaskDetailWidgetController_Context* _context; // 0x2C8
+		::System::Int32 _currentQuestID; // 0x2D0
+		::System::Collections::Generic::List_1<::MoleMole::UIZenkovItemIconBtnWidgetController*>* _rewardItems; // 0x2D8
+		::System::Boolean isWeekOrSeasonTask; // 0x2E0
+		::System::Boolean _isItemInfoPopupOpen; // 0x2E1
+		::System::Int32 currentQuestID; // 0x2E4
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVTASKDETAILWIDGETCONTROLLER__CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVTASKDETAILWIDGETCONTROLLER__CCTOR_OFFSET))();
+		}
+
+		::UnityEngine::RectTransform* get_ItemInfoRoot()
+		{
+			return ((::UnityEngine::RectTransform*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVTASKDETAILWIDGETCONTROLLER_GET_ITEMINFOROOT_OFFSET))(this);
+		}
+
+		::System::Void ResetContext()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVTASKDETAILWIDGETCONTROLLER_RESETCONTEXT_OFFSET))(this);
+		}
+
+		::System::Void OnUIInit()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVTASKDETAILWIDGETCONTROLLER_ONUIINIT_OFFSET))(this);
+		}
+
+		::System::Void OnShow(::MoleMole::UIControllerContextBase* showCtrlContext)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVTASKDETAILWIDGETCONTROLLER_ONSHOW_OFFSET))(this, showCtrlContext);
+		}
+
+		::System::Void OnCreateView(::MoleMole::UIControlReference* controlReference)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVTASKDETAILWIDGETCONTROLLER_ONCREATEVIEW_OFFSET))(this, controlReference);
+		}
+
+		::System::Void OnUIDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVTASKDETAILWIDGETCONTROLLER_ONUIDESTROY_OFFSET))(this);
+		}
+
+		::System::Boolean OnInputAction(::MoleMole::InputActionEvent inputAction)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::MoleMole::InputActionEvent))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVTASKDETAILWIDGETCONTROLLER_ONINPUTACTION_OFFSET))(this, inputAction);
+		}
+
+		::System::Boolean TryCloseItemInfoPopup()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVTASKDETAILWIDGETCONTROLLER_TRYCLOSEITEMINFOPOPUP_OFFSET))(this);
+		}
+
+		::System::Boolean TryReturnFocusToTaskList()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVTASKDETAILWIDGETCONTROLLER_TRYRETURNFOCUSTOTASKLIST_OFFSET))(this);
+		}
+
+		::MoleMole::MonoGamepadNestedListDelegate* ResolveTaskLeftScrollNested()
+		{
+			return ((::MoleMole::MonoGamepadNestedListDelegate*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVTASKDETAILWIDGETCONTROLLER_RESOLVETASKLEFTSCROLLNESTED_OFFSET))(this);
+		}
+
+		::System::Void InitViewByData()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVTASKDETAILWIDGETCONTROLLER_INITVIEWBYDATA_OFFSET))(this);
+		}
+
+		::System::Void RefreshRewardItems(::Class_2_F69D29AB796376C2* template_, ::Class_1_2181504E881DDEE4* manual)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_2_F69D29AB796376C2*, ::Class_1_2181504E881DDEE4*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVTASKDETAILWIDGETCONTROLLER_REFRESHREWARDITEMS_OFFSET))(this, template_, manual);
+		}
+
+		::System::Action_1<::Class_0_16E4307DCC419505_175*>* CreateTaskDetailItemTipCallback(::System::Int32 itemId)
+		{
+			return ((::System::Action_1<::Class_0_16E4307DCC419505_175*>*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVTASKDETAILWIDGETCONTROLLER_CREATETASKDETAILITEMTIPCALLBACK_OFFSET))(this, itemId);
+		}
+
+		::System::Void ApplyBangkovBagOnlyInfoTipToWishList(::System::Collections::Generic::List_1<::Class_1_1685EC66FBD28897*>* itemList)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::Class_1_1685EC66FBD28897*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVTASKDETAILWIDGETCONTROLLER_APPLYBANGKOVBAGONLYINFOTIPTOWISHLIST_OFFSET))(this, itemList);
+		}
+
+		::System::Void RefreshWishListBtnState()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVTASKDETAILWIDGETCONTROLLER_REFRESHWISHLISTBTNSTATE_OFFSET))(this);
+		}
+
+		::System::Void OnClickWishListBtn()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVTASKDETAILWIDGETCONTROLLER_ONCLICKWISHLISTBTN_OFFSET))(this);
+		}
+
+		::System::Void OnGamepadModuleSelectIndex(::MoleMole::MonoGamepadModule* gamepadModule, ::System::Int32 index, ::UnityEngine::Transform* trans, ::Enum_3_03024D6472FC8F3A result)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::MonoGamepadModule*, ::System::Int32, ::UnityEngine::Transform*, ::Enum_3_03024D6472FC8F3A))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVTASKDETAILWIDGETCONTROLLER_ONGAMEPADMODULESELECTINDEX_OFFSET))(this, gamepadModule, index, trans, result);
+		}
+
+		::System::Void ApplyBtnTrackIcons(::Class_2_208CC9941471731A_160* zenkovCfg)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_2_208CC9941471731A_160*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVTASKDETAILWIDGETCONTROLLER_APPLYBTNTRACKICONS_OFFSET))(this, zenkovCfg);
+		}
+
+		::System::Void RefreshBtns()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVTASKDETAILWIDGETCONTROLLER_REFRESHBTNS_OFFSET))(this);
+		}
+
+		::System::Void OnClickGoBtn()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVTASKDETAILWIDGETCONTROLLER_ONCLICKGOBTN_OFFSET))(this);
+		}
+
+		::System::Void OnClickBtnGiveUp()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVTASKDETAILWIDGETCONTROLLER_ONCLICKBTNGIVEUP_OFFSET))(this);
+		}
+
+		::System::Void _OnClickWishListBtn_b__29_0()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVTASKDETAILWIDGETCONTROLLER__ONCLICKWISHLISTBTN_B__29_0_OFFSET))(this);
+		}
+
+		::System::Void _OnClickWishListBtn_b__29_2()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVTASKDETAILWIDGETCONTROLLER__ONCLICKWISHLISTBTN_B__29_2_OFFSET))(this);
+		}
+
+		::System::Void _OnClickGoBtn_b__34_0(::System::Boolean b)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVTASKDETAILWIDGETCONTROLLER__ONCLICKGOBTN_B__34_0_OFFSET))(this, b);
+		}
+
+		::System::Void _OnClickBtnGiveUp_b__35_0(::System::Boolean b)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVTASKDETAILWIDGETCONTROLLER__ONCLICKBTNGIVEUP_B__35_0_OFFSET))(this, b);
+		}
+
+		::System::Void __base_OnCreateView(::MoleMole::UIControlReference* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVTASKDETAILWIDGETCONTROLLER___BASE_ONCREATEVIEW_OFFSET))(this, P0);
+		}
+
+		::System::Void __base_OnGamepadModuleSelectIndex(::MoleMole::MonoGamepadModule* P0, ::System::Int32 P1, ::UnityEngine::Transform* P2, ::Enum_3_03024D6472FC8F3A P3)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::MonoGamepadModule*, ::System::Int32, ::UnityEngine::Transform*, ::Enum_3_03024D6472FC8F3A))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVTASKDETAILWIDGETCONTROLLER___BASE_ONGAMEPADMODULESELECTINDEX_OFFSET))(this, P0, P1, P2, P3);
+		}
+
+		::System::Boolean __base_OnInputAction(::MoleMole::InputActionEvent P0)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::MoleMole::InputActionEvent))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVTASKDETAILWIDGETCONTROLLER___BASE_ONINPUTACTION_OFFSET))(this, P0);
+		}
+
+		::System::Void __base_OnShow(::MoleMole::UIControllerContextBase* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVTASKDETAILWIDGETCONTROLLER___BASE_ONSHOW_OFFSET))(this, P0);
+		}
+
+		::System::Void __base_OnUIDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVTASKDETAILWIDGETCONTROLLER___BASE_ONUIDESTROY_OFFSET))(this);
+		}
+
+		::System::Void __base_OnUIInit()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVTASKDETAILWIDGETCONTROLLER___BASE_ONUIINIT_OFFSET))(this);
+		}
+	};
+}

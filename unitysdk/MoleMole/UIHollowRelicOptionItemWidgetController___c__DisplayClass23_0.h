@@ -4,12 +4,12 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UIHOLLOWRELICOPTIONITEMWIDGETCONTROLLER___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0x169F1A70)
-#define MOLEMOLE_UIHOLLOWRELICOPTIONITEMWIDGETCONTROLLER___C__DISPLAYCLASS23_0__INITLEVELVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x169F1A80)
+#define MOLEMOLE_UIHOLLOWRELICOPTIONITEMWIDGETCONTROLLER___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18FB9060)
+#define MOLEMOLE_UIHOLLOWRELICOPTIONITEMWIDGETCONTROLLER___C__DISPLAYCLASS23_0__INITLEVELVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x18FB9070)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowRelicOptionItemWidgetController___c__DisplayClass23_0_TypeDefinitionIndex = 74626;
+	inline static constexpr unsigned int UIHollowRelicOptionItemWidgetController___c__DisplayClass23_0_TypeDefinitionIndex = 76083;
 
 	class UIHollowRelicOptionItemWidgetController___c__DisplayClass23_0 : public ::System::Object
 	{

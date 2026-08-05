@@ -4,20 +4,20 @@
 
 namespace UnrealTypes { class ICppStructOps; }
 
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_FNPCNAVMESHFRAGMENT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x11363A70)
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_FNPCNAVMESHFRAGMENT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x11363AB0)
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_FNPCNAVMESHFRAGMENT___C___CCTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0x11363AC0)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_FNPCNAVMESHFRAGMENT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x13DE7460)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_FNPCNAVMESHFRAGMENT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x13DE74A0)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_FNPCNAVMESHFRAGMENT___C___CCTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0x13DE74B0)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_FNPCNavmeshFragment___c_TypeDefinitionIndex = 74219;
+	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_FNPCNavmeshFragment___c_TypeDefinitionIndex = 67161;
 
 	class RegistrationInfo_ScriptStruct_FNPCNavmeshFragment___c : public ::System::Object
 	{
 	public:
 		static ::NPCCrowd::Ability::RegistrationInfo_ScriptStruct_FNPCNavmeshFragment___c** StaticGet___9()
 		{
-			return (::NPCCrowd::Ability::RegistrationInfo_ScriptStruct_FNPCNavmeshFragment___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_FNPCNavmeshFragment___c_TypeDefinitionIndex)->GetStaticField(0x317C0);
+			return (::NPCCrowd::Ability::RegistrationInfo_ScriptStruct_FNPCNavmeshFragment___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_FNPCNavmeshFragment___c_TypeDefinitionIndex)->GetStaticField(0x33940);
 		}
 
 		static ::System::Void _cctor()

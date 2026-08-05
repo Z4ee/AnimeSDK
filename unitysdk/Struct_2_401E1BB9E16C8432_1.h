@@ -3,18 +3,18 @@
 #include "unitysdk/Foundation/FixedArray4_1.h"
 #include "unitysdk/System/ValueType.h"
 
-#define STRUCT_2_401E1BB9E16C8432_1_METHOD_2_30C8640C4A833B5C_OFFSET UNITYSDK_OFFSET(0x5877D0)
-#define STRUCT_2_401E1BB9E16C8432_1_METHOD_2_89CAEAD9DF810BDA_OFFSET UNITYSDK_OFFSET(0x587860)
-#define STRUCT_2_401E1BB9E16C8432_1_METHOD_2_E26DC44DCE94AB5A_OFFSET UNITYSDK_OFFSET(0x5877C0)
-#define STRUCT_2_401E1BB9E16C8432_1__CTOR_OFFSET UNITYSDK_OFFSET(0x5877B0)
+#define STRUCT_2_401E1BB9E16C8432_1_METHOD_2_30C8640C4A833B5C_OFFSET UNITYSDK_OFFSET(0x8B8F70)
+#define STRUCT_2_401E1BB9E16C8432_1_METHOD_2_89CAEAD9DF810BDA_OFFSET UNITYSDK_OFFSET(0x8B9000)
+#define STRUCT_2_401E1BB9E16C8432_1_METHOD_2_E26DC44DCE94AB5A_OFFSET UNITYSDK_OFFSET(0x8B8F60)
+#define STRUCT_2_401E1BB9E16C8432_1__CTOR_OFFSET UNITYSDK_OFFSET(0x8B8F50)
 
-inline static constexpr unsigned int Struct_2_401E1BB9E16C8432_1_TypeDefinitionIndex = 84341;
+inline static constexpr unsigned int Struct_2_401E1BB9E16C8432_1_TypeDefinitionIndex = 69571;
 
 struct alignas(4) Struct_2_401E1BB9E16C8432_1
 {
-	::System::Single Field_2_0; // 0x10
+	::System::Single Field_2_2; // 0x10
 	::System::Single Field_2_1; // 0x14
-	::Foundation::FixedArray4_1<::System::Single> Field_2_2; // 0x18
+	::Foundation::FixedArray4_1<::System::Single> Field_2_0; // 0x18
 
 	/*
 	::System::Void _ctor(::UnityEngine::Keyframe& a1, ::UnityEngine::Keyframe& a2)

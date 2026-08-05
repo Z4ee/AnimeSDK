@@ -3,7 +3,7 @@
 
 namespace Share
 {
-	inline static constexpr unsigned int EHollowShopCurrency_TypeDefinitionIndex = 13598;
+	inline static constexpr unsigned int EHollowShopCurrency_TypeDefinitionIndex = 16378;
 
 	enum class EHollowShopCurrency : ::System::Int16
 	{

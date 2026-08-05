@@ -4,11 +4,11 @@
 
 namespace FluffyUnderware::Curvy { class CurvySpline; }
 
-inline static constexpr unsigned int Struct_2_9BD1DA833178CB4C_TypeDefinitionIndex = 48542;
+inline static constexpr unsigned int Struct_2_9BD1DA833178CB4C_TypeDefinitionIndex = 54608;
 
 struct alignas(8) Struct_2_9BD1DA833178CB4C
 {
-	::FluffyUnderware::Curvy::CurvySpline* Field_2_0; // 0x10
+	::FluffyUnderware::Curvy::CurvySpline* Field_2_2; // 0x10
 	::System::Single Field_2_1; // 0x18
-	::System::Single Field_2_2; // 0x1C
+	::System::Single Field_2_0; // 0x1C
 };

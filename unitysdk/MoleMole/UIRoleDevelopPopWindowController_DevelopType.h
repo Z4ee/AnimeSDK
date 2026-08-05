@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRoleDevelopPopWindowController_DevelopType_TypeDefinitionIndex = 87151;
+	inline static constexpr unsigned int UIRoleDevelopPopWindowController_DevelopType_TypeDefinitionIndex = 42264;
 
 	enum class UIRoleDevelopPopWindowController_DevelopType : ::System::Int32
 	{

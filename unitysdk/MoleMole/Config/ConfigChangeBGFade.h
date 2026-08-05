@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CONFIG_CONFIGCHANGEBGFADE__CTOR_OFFSET UNITYSDK_OFFSET(0x12B35D70)
+#define MOLEMOLE_CONFIG_CONFIGCHANGEBGFADE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7E4260)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigChangeBGFade_TypeDefinitionIndex = 44896;
+	inline static constexpr unsigned int ConfigChangeBGFade_TypeDefinitionIndex = 44060;
 
 	class ConfigChangeBGFade : public ::System::Object
 	{

@@ -9,22 +9,22 @@ namespace UnityEngine { class SkinnedMeshRenderer; }
 namespace miHoYoEmotion { class BlendShapeBind; }
 namespace miHoYoEmotion { class ClipShapeElement; }
 
-#define MIHOYOEMOTION_CLIPSHAPEDATA_UPDATEELEMENTS_OFFSET UNITYSDK_OFFSET(0x1BAF1420)
-#define MIHOYOEMOTION_CLIPSHAPEDATA_UPDATETYPEELEMENT_OFFSET UNITYSDK_OFFSET(0x1BAF1520)
-#define MIHOYOEMOTION_CLIPSHAPEDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BAF1930)
-#define MIHOYOEMOTION_CLIPSHAPEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1BAF1840)
-#define MIHOYOEMOTION_CLIPSHAPEDATA___BASE_UPDATEELEMENTS_OFFSET UNITYSDK_OFFSET(0x1BAF19E0)
+#define MIHOYOEMOTION_CLIPSHAPEDATA_UPDATEELEMENTS_OFFSET UNITYSDK_OFFSET(0x1D0344F0)
+#define MIHOYOEMOTION_CLIPSHAPEDATA_UPDATETYPEELEMENT_OFFSET UNITYSDK_OFFSET(0x1D0345F0)
+#define MIHOYOEMOTION_CLIPSHAPEDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D034A00)
+#define MIHOYOEMOTION_CLIPSHAPEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1D034910)
+#define MIHOYOEMOTION_CLIPSHAPEDATA___BASE_UPDATEELEMENTS_OFFSET UNITYSDK_OFFSET(0x1D034AB0)
 
 namespace miHoYoEmotion
 {
-	inline static constexpr unsigned int ClipShapeData_TypeDefinitionIndex = 39321;
+	inline static constexpr unsigned int ClipShapeData_TypeDefinitionIndex = 40034;
 
 	class ClipShapeData : public ::miHoYoEmotion::BaseShapeData
 	{
 	public:
 		static ::System::Text::RegularExpressions::Regex** StaticGet_mouthRegex()
 		{
-			return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(ClipShapeData_TypeDefinitionIndex)->GetStaticField(0x2AF80);
+			return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(ClipShapeData_TypeDefinitionIndex)->GetStaticField(0x2C8B0);
 		}
 		::Il2CppArray<::miHoYoEmotion::ClipShapeElement*>* phonemeElements; // 0x20
 		::Il2CppArray<::miHoYoEmotion::ClipShapeElement*>* emotionElements; // 0x28

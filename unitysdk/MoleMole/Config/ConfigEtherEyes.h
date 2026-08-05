@@ -16,11 +16,11 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGETHEREYES__CTOR_OFFSET UNITYSDK_OFFSET(0x1A344D00)
+#define MOLEMOLE_CONFIG_CONFIGETHEREYES__CTOR_OFFSET UNITYSDK_OFFSET(0x1B54BF70)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigEtherEyes_TypeDefinitionIndex = 60049;
+	inline static constexpr unsigned int ConfigEtherEyes_TypeDefinitionIndex = 87665;
 
 	class ConfigEtherEyes : public ::Foundation::MihoyoSerializedScriptableObject
 	{

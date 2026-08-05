@@ -5,17 +5,17 @@
 class Class_1_1005B9479049BC5A;
 namespace MoleMole { class UIActivityReturnPageController; }
 
-#define MOLEMOLE_UIBACKFLOWCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x175F9C60)
+#define MOLEMOLE_UIBACKFLOWCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18E371C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBackFlowContext_TypeDefinitionIndex = 57909;
+	inline static constexpr unsigned int UIBackFlowContext_TypeDefinitionIndex = 49483;
 
 	class UIBackFlowContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::MoleMole::UIActivityReturnPageController* parentController; // 0x28
-		::Class_1_1005B9479049BC5A* backFlowActivityData; // 0x30
+		::Class_1_1005B9479049BC5A* backFlowActivityData; // 0x28
+		::MoleMole::UIActivityReturnPageController* parentController; // 0x30
 		::System::Int32 DefaultSelectRoleIndex; // 0x38
 
 		::System::Void _ctor()

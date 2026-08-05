@@ -5,18 +5,18 @@
 namespace MoleMole { class UIHollowMainPageController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__DISPLAYCLASS261_0__CAMERASTRETCHBACKWARD_B__0_OFFSET UNITYSDK_OFFSET(0x188AF640)
-#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__DISPLAYCLASS261_0__CTOR_OFFSET UNITYSDK_OFFSET(0x188974E0)
+#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__DISPLAYCLASS261_0__CAMERASTRETCHBACKWARD_B__0_OFFSET UNITYSDK_OFFSET(0x1AE84CA0)
+#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__DISPLAYCLASS261_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE6EE30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowMainPageController___c__DisplayClass261_0_TypeDefinitionIndex = 78276;
+	inline static constexpr unsigned int UIHollowMainPageController___c__DisplayClass261_0_TypeDefinitionIndex = 73660;
 
 	class UIHollowMainPageController___c__DisplayClass261_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIHollowMainPageController* __4__this; // 0x10
-		::System::Action* onAfterStretch; // 0x18
+		::System::Action* onAfterStretch; // 0x10
+		::MoleMole::UIHollowMainPageController* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

@@ -3,13 +3,13 @@
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int AttractorStateFlag_TypeDefinitionIndex = 46753;
+	inline static constexpr unsigned int AttractorStateFlag_TypeDefinitionIndex = 67221;
 
 	enum class AttractorStateFlag : ::System::Int32
 	{
-		Claimed = 4,
-		Occupied = 8,
 		Valid = 2,
+		Occupied = 8,
 		InValid = 1,
+		Claimed = 4,
 	};
 }

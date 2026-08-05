@@ -4,7 +4,7 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int ArrayEnumX_TypeDefinitionIndex = 8355;
+	inline static constexpr unsigned int ArrayEnumX_TypeDefinitionIndex = 8189;
 
 	class ArrayEnumX : public ::System::Object
 	{

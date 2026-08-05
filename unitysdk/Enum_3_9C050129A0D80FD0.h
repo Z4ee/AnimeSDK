@@ -1,24 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Enum_3_9C050129A0D80FD0_TypeDefinitionIndex = 80121;
+inline static constexpr unsigned int Enum_3_9C050129A0D80FD0_TypeDefinitionIndex = 79195;
 
 enum class Enum_3_9C050129A0D80FD0 : ::System::Int32
 {
-	SetOrCancelCircleManager = 8,
-	ChangeCircleTitle = 7,
-	AddFriend = 4,
-	ChangeOwner = 10,
-	KickOutMemberFromCircle = 9,
-	MuteWhenInMultigame = 16,
 	AddToBlackList = 14,
-	SocialSetting = 2,
-	RemoveFriend = 5,
-	BlockChat = 13,
 	InviteToCircle = 3,
-	RenameNickname = 6,
-	Report = 15,
-	ShowPhotowall = 12,
+	MuteWhenInMultigame = 16,
+	AddFriend = 4,
+	ChangeCircleTitle = 7,
 	ShowCollectionCabinet = 11,
+	Report = 15,
+	RemoveFriend = 5,
+	SetOrCancelCircleManager = 8,
+	ChangeOwner = 10,
+	BlockChat = 13,
+	SocialSetting = 2,
+	ShowPhotowall = 12,
 	PlayerDeatil = 1,
+	RenameNickname = 6,
+	KickOutMemberFromCircle = 9,
 };

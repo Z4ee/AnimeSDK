@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIGUIHACKERGAME__CTOR_OFFSET UNITYSDK_OFFSET(0x1A07F980)
+#define MOLEMOLE_CONFIGUIHACKERGAME__CTOR_OFFSET UNITYSDK_OFFSET(0x1A004640)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUIHackerGame_TypeDefinitionIndex = 76061;
+	inline static constexpr unsigned int ConfigUIHackerGame_TypeDefinitionIndex = 65698;
 
 	class ConfigUIHackerGame : public ::Foundation::MihoyoSerializedScriptableObject
 	{

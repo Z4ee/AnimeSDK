@@ -3,7 +3,7 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int InteractTriggerMode_TypeDefinitionIndex = 83505;
+	inline static constexpr unsigned int InteractTriggerMode_TypeDefinitionIndex = 42779;
 
 	enum class InteractTriggerMode : ::System::Int32
 	{

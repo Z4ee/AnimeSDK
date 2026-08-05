@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Timeline/ComicEventBase.h"
 
-#define UNITYENGINE_TIMELINE_KEYEVENTBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E3DE260)
+#define UNITYENGINE_TIMELINE_KEYEVENTBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F81FA50)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int KeyEventBase_TypeDefinitionIndex = 32331;
+	inline static constexpr unsigned int KeyEventBase_TypeDefinitionIndex = 32962;
 
 	class KeyEventBase : public ::UnityEngine::Timeline::ComicEventBase
 	{

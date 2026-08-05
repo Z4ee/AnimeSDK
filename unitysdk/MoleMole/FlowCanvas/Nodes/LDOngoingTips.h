@@ -3,31 +3,31 @@
 #include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/FlowCanvas/Nodes/FlowControlNode.h"
 
-class Class_0_16E4307DCC419505_365;
+class Class_0_16E4307DCC419505_422;
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 namespace System::Collections { class IEnumerator; }
 namespace UnityEngine { class Coroutine; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDONGOINGTIPS_ONGRAPHSTOPED_OFFSET UNITYSDK_OFFSET(0x16CA1750)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDONGOINGTIPS_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x16CA15B0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDONGOINGTIPS_WAITFORPLAYING_OFFSET UNITYSDK_OFFSET(0x16CA16C0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDONGOINGTIPS__CTOR_OFFSET UNITYSDK_OFFSET(0x16CA17B0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDONGOINGTIPS__REGISTERPORTS_B__4_0_OFFSET UNITYSDK_OFFSET(0x16CA17F0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDONGOINGTIPS__REGISTERPORTS_B__4_1_OFFSET UNITYSDK_OFFSET(0x16CA1C10)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDONGOINGTIPS___BASE_ONGRAPHSTOPED_OFFSET UNITYSDK_OFFSET(0x16CA1C50)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDONGOINGTIPS_ONGRAPHSTOPED_OFFSET UNITYSDK_OFFSET(0x13A848C0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDONGOINGTIPS_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x13A84720)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDONGOINGTIPS_WAITFORPLAYING_OFFSET UNITYSDK_OFFSET(0x13A84830)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDONGOINGTIPS__CTOR_OFFSET UNITYSDK_OFFSET(0x13A84920)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDONGOINGTIPS__REGISTERPORTS_B__4_0_OFFSET UNITYSDK_OFFSET(0x13A84960)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDONGOINGTIPS__REGISTERPORTS_B__4_1_OFFSET UNITYSDK_OFFSET(0x13A84D80)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDONGOINGTIPS___BASE_ONGRAPHSTOPED_OFFSET UNITYSDK_OFFSET(0x13A84DC0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDOngoingTips_TypeDefinitionIndex = 83074;
+	inline static constexpr unsigned int LDOngoingTips_TypeDefinitionIndex = 74325;
 
 	class LDOngoingTips : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
 		::FlowCanvas::ValueInput_1<::System::Int32>* _groupID; // 0xA8
-		::UnityEngine::Coroutine* _waitStartCoroutine; // 0xB0
-		::FlowCanvas::FlowOutput* _out; // 0xB8
-		::FlowCanvas::FlowOutput* _finish; // 0xC0
+		::FlowCanvas::FlowOutput* _finish; // 0xB0
+		::UnityEngine::Coroutine* _waitStartCoroutine; // 0xB8
+		::FlowCanvas::FlowOutput* _out; // 0xC0
 
 		::System::Void _ctor()
 		{
@@ -39,9 +39,9 @@ namespace MoleMole::FlowCanvas::Nodes
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LDONGOINGTIPS_REGISTERPORTS_OFFSET))(this);
 		}
 
-		static ::System::Collections::IEnumerator* WaitForPlaying(::Class_0_16E4307DCC419505_365* inLevel, ::System::Int32 groupID, ::FlowCanvas::FlowOutput* finish)
+		static ::System::Collections::IEnumerator* WaitForPlaying(::Class_0_16E4307DCC419505_422* inLevel, ::System::Int32 groupID, ::FlowCanvas::FlowOutput* finish)
 		{
-			return ((::System::Collections::IEnumerator*(*)(::Class_0_16E4307DCC419505_365*, ::System::Int32, ::FlowCanvas::FlowOutput*))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LDONGOINGTIPS_WAITFORPLAYING_OFFSET))(inLevel, groupID, finish);
+			return ((::System::Collections::IEnumerator*(*)(::Class_0_16E4307DCC419505_422*, ::System::Int32, ::FlowCanvas::FlowOutput*))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LDONGOINGTIPS_WAITFORPLAYING_OFFSET))(inLevel, groupID, finish);
 		}
 
 		::System::Void OnGraphStoped()

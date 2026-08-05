@@ -11,12 +11,12 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace UnityEngine { class ComputeShader; }
 namespace UnityEngine::Profiling { class CustomSampler; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_LENSFLAREOCCLUSIONPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1D586040)
-#define UNITYENGINE_NAPRENDERPIPELINE0_LENSFLAREOCCLUSIONPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D585F80)
+#define UNITYENGINE_NAPRENDERPIPELINE0_LENSFLAREOCCLUSIONPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1E94CA30)
+#define UNITYENGINE_NAPRENDERPIPELINE0_LENSFLAREOCCLUSIONPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E94C970)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int LensFlareOcclusionPass_TypeDefinitionIndex = 5833;
+	inline static constexpr unsigned int LensFlareOcclusionPass_TypeDefinitionIndex = 5835;
 
 	class LensFlareOcclusionPass : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 	{

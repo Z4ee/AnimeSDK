@@ -7,17 +7,17 @@ class Class_2_F5737224A0253470;
 namespace System { class Action; }
 namespace System { template <typename T1, typename T2, typename T3, typename T4> class Action_4; }
 
-#define CLASS_2_F5737224A0253470_CLASS_1_37A9F3A7EC39E9B7_METHOD_1_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x15155F20)
-#define CLASS_2_F5737224A0253470_CLASS_1_37A9F3A7EC39E9B7_METHOD_1_F181E5AA3BEB1DAA_OFFSET UNITYSDK_OFFSET(0x15155F60)
-#define CLASS_2_F5737224A0253470_CLASS_1_37A9F3A7EC39E9B7__CTOR_OFFSET UNITYSDK_OFFSET(0x15155F10)
+#define CLASS_2_F5737224A0253470_CLASS_1_37A9F3A7EC39E9B7_METHOD_1_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x11319CD0)
+#define CLASS_2_F5737224A0253470_CLASS_1_37A9F3A7EC39E9B7_METHOD_1_F181E5AA3BEB1DAA_OFFSET UNITYSDK_OFFSET(0x11319D10)
+#define CLASS_2_F5737224A0253470_CLASS_1_37A9F3A7EC39E9B7__CTOR_OFFSET UNITYSDK_OFFSET(0x11319CC0)
 
-inline static constexpr unsigned int Class_2_F5737224A0253470_Class_1_37A9F3A7EC39E9B7_TypeDefinitionIndex = 64800;
+inline static constexpr unsigned int Class_2_F5737224A0253470_Class_1_37A9F3A7EC39E9B7_TypeDefinitionIndex = 78710;
 
 class Class_2_F5737224A0253470_Class_1_37A9F3A7EC39E9B7 : public ::System::Object
 {
 public:
-	::Class_2_F5737224A0253470* Field_1_0; // 0x10
-	::System::Action* Field_1_2; // 0x18
+	::System::Action* Field_1_0; // 0x10
+	::Class_2_F5737224A0253470* Field_1_2; // 0x18
 	::System::Action_4<::MoleMole::HollowChessboard::HollowCell, ::MoleMole::HollowChessboard::HollowCell, ::MoleMole::HollowChessboard::HollowCell, ::MoleMole::HollowChessboard::HollowCell>* Field_1_1; // 0x20
 
 	::System::Void _ctor()

@@ -3,14 +3,14 @@
 
 namespace MoleMole::UI::FlowerShop
 {
-	inline static constexpr unsigned int ESlotType_TypeDefinitionIndex = 52013;
+	inline static constexpr unsigned int ESlotType_TypeDefinitionIndex = 52416;
 
 	enum class ESlotType : ::System::Int32
 	{
-		Slot3 = 3,
-		InValid = -1,
-		Slot2 = 2,
-		Slot1 = 1,
 		Base = 0,
+		Slot3 = 3,
+		Slot2 = 2,
+		InValid = -1,
+		Slot1 = 1,
 	};
 }

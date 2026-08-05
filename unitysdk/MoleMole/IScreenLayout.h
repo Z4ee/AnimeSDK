@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int IScreenLayout_TypeDefinitionIndex = 60733;
+	inline static constexpr unsigned int IScreenLayout_TypeDefinitionIndex = 50613;
 
 	class IScreenLayout
 	{

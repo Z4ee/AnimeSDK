@@ -18,7 +18,7 @@ namespace UnityEngine { class Texture2DArray; }
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int MB2_EditorMethodsInterface_TypeDefinitionIndex = 90606;
+	inline static constexpr unsigned int MB2_EditorMethodsInterface_TypeDefinitionIndex = 94539;
 
 	class MB2_EditorMethodsInterface
 	{

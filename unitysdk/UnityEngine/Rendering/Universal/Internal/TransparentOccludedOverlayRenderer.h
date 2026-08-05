@@ -13,82 +13,82 @@ namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Texture2D; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_TRANSPARENTOCCLUDEDOVERLAYRENDERER_DRAWALL_OFFSET UNITYSDK_OFFSET(0x1AF5B8E0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_TRANSPARENTOCCLUDEDOVERLAYRENDERER_DRAWINTERNAL_OFFSET UNITYSDK_OFFSET(0x1AF5BE30)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_TRANSPARENTOCCLUDEDOVERLAYRENDERER_ENSURERUNTIMEMATERIAL_OFFSET UNITYSDK_OFFSET(0x1AF5C360)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_TRANSPARENTOCCLUDEDOVERLAYRENDERER_GETDEFAULTTEMPLATEMATERIAL_OFFSET UNITYSDK_OFFSET(0x1AF5CFB0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_TRANSPARENTOCCLUDEDOVERLAYRENDERER_GETRENDERERMESHNAME_OFFSET UNITYSDK_OFFSET(0x1AF5D750)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_TRANSPARENTOCCLUDEDOVERLAYRENDERER_HASANYVALIDRENDERER_OFFSET UNITYSDK_OFFSET(0x1AF5B650)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_TRANSPARENTOCCLUDEDOVERLAYRENDERER_ISSUPPORTEDRENDERER_OFFSET UNITYSDK_OFFSET(0x1AF5B480)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_TRANSPARENTOCCLUDEDOVERLAYRENDERER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1AF5B050)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_TRANSPARENTOCCLUDEDOVERLAYRENDERER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1AF5AB30)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_TRANSPARENTOCCLUDEDOVERLAYRENDERER_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x1AF5B3E0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_TRANSPARENTOCCLUDEDOVERLAYRENDERER_REFRESHRENDERERS_OFFSET UNITYSDK_OFFSET(0x1AF5AC40)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_TRANSPARENTOCCLUDEDOVERLAYRENDERER_RELEASERUNTIMEMATERIAL_OFFSET UNITYSDK_OFFSET(0x1AF5B160)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_TRANSPARENTOCCLUDEDOVERLAYRENDERER_SHOULDSKIPRENDERER_OFFSET UNITYSDK_OFFSET(0x1AF5CEF0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_TRANSPARENTOCCLUDEDOVERLAYRENDERER_SYNCMATERIALPROPERTIES_1_OFFSET UNITYSDK_OFFSET(0x1AF5D4A0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_TRANSPARENTOCCLUDEDOVERLAYRENDERER_SYNCMATERIALPROPERTIES_OFFSET UNITYSDK_OFFSET(0x1AF5AEE0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_TRANSPARENTOCCLUDEDOVERLAYRENDERER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AF5DBB0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_TRANSPARENTOCCLUDEDOVERLAYRENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF5DA80)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_TRANSPARENTOCCLUDEDOVERLAYRENDERER_DRAWALL_OFFSET UNITYSDK_OFFSET(0x1BC62830)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_TRANSPARENTOCCLUDEDOVERLAYRENDERER_DRAWINTERNAL_OFFSET UNITYSDK_OFFSET(0x1BC62D80)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_TRANSPARENTOCCLUDEDOVERLAYRENDERER_ENSURERUNTIMEMATERIAL_OFFSET UNITYSDK_OFFSET(0x1BC632A0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_TRANSPARENTOCCLUDEDOVERLAYRENDERER_GETDEFAULTTEMPLATEMATERIAL_OFFSET UNITYSDK_OFFSET(0x1BC63EF0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_TRANSPARENTOCCLUDEDOVERLAYRENDERER_GETRENDERERMESHNAME_OFFSET UNITYSDK_OFFSET(0x1BC646A0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_TRANSPARENTOCCLUDEDOVERLAYRENDERER_HASANYVALIDRENDERER_OFFSET UNITYSDK_OFFSET(0x1BC625A0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_TRANSPARENTOCCLUDEDOVERLAYRENDERER_ISSUPPORTEDRENDERER_OFFSET UNITYSDK_OFFSET(0x1BC623D0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_TRANSPARENTOCCLUDEDOVERLAYRENDERER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1BC61FA0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_TRANSPARENTOCCLUDEDOVERLAYRENDERER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1BC61A80)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_TRANSPARENTOCCLUDEDOVERLAYRENDERER_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x1BC62330)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_TRANSPARENTOCCLUDEDOVERLAYRENDERER_REFRESHRENDERERS_OFFSET UNITYSDK_OFFSET(0x1BC61B90)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_TRANSPARENTOCCLUDEDOVERLAYRENDERER_RELEASERUNTIMEMATERIAL_OFFSET UNITYSDK_OFFSET(0x1BC620B0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_TRANSPARENTOCCLUDEDOVERLAYRENDERER_SHOULDSKIPRENDERER_OFFSET UNITYSDK_OFFSET(0x1BC63E30)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_TRANSPARENTOCCLUDEDOVERLAYRENDERER_SYNCMATERIALPROPERTIES_1_OFFSET UNITYSDK_OFFSET(0x1BC643E0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_TRANSPARENTOCCLUDEDOVERLAYRENDERER_SYNCMATERIALPROPERTIES_OFFSET UNITYSDK_OFFSET(0x1BC61E30)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_TRANSPARENTOCCLUDEDOVERLAYRENDERER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BC64B00)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_TRANSPARENTOCCLUDEDOVERLAYRENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC649D0)
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int TransparentOccludedOverlayRenderer_TypeDefinitionIndex = 27361;
+	inline static constexpr unsigned int TransparentOccludedOverlayRenderer_TypeDefinitionIndex = 26986;
 
 	class TransparentOccludedOverlayRenderer : public ::UnityEngine::MonoBehaviour
 	{
 	public:
+		static ::System::Collections::Generic::List_1<::UnityEngine::Rendering::Universal::Internal::TransparentOccludedOverlayRenderer*>** StaticGet_s_TempInstances()
+		{
+			return (::System::Collections::Generic::List_1<::UnityEngine::Rendering::Universal::Internal::TransparentOccludedOverlayRenderer*>**)Il2CppClass::FromTypeDefinitionIndex(TransparentOccludedOverlayRenderer_TypeDefinitionIndex)->GetStaticField(0x217D0);
+		}
 		static ::UnityEngine::Material** StaticGet_s_DefaultTemplateMaterial()
 		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(TransparentOccludedOverlayRenderer_TypeDefinitionIndex)->GetStaticField(0x20730);
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(TransparentOccludedOverlayRenderer_TypeDefinitionIndex)->GetStaticField(0x217D8);
 		}
 		static ::System::Collections::Generic::HashSet_1<::UnityEngine::Rendering::Universal::Internal::TransparentOccludedOverlayRenderer*>** StaticGet_s_Instances()
 		{
-			return (::System::Collections::Generic::HashSet_1<::UnityEngine::Rendering::Universal::Internal::TransparentOccludedOverlayRenderer*>**)Il2CppClass::FromTypeDefinitionIndex(TransparentOccludedOverlayRenderer_TypeDefinitionIndex)->GetStaticField(0x20738);
-		}
-		static ::System::Collections::Generic::List_1<::UnityEngine::Rendering::Universal::Internal::TransparentOccludedOverlayRenderer*>** StaticGet_s_TempInstances()
-		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Rendering::Universal::Internal::TransparentOccludedOverlayRenderer*>**)Il2CppClass::FromTypeDefinitionIndex(TransparentOccludedOverlayRenderer_TypeDefinitionIndex)->GetStaticField(0x20740);
-		}
-		static ::System::Int32* StaticGet_OverlayBaseTexIntensityID()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TransparentOccludedOverlayRenderer_TypeDefinitionIndex)->GetStaticField(0x5370);
-		}
-		static ::System::Int32* StaticGet__CameraNormalTexture()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TransparentOccludedOverlayRenderer_TypeDefinitionIndex)->GetStaticField(0x5374);
-		}
-		static ::System::Int32* StaticGet_OverlayBaseColorAID()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TransparentOccludedOverlayRenderer_TypeDefinitionIndex)->GetStaticField(0x5378);
-		}
-		static ::System::Int32* StaticGet_OverlayColorID()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TransparentOccludedOverlayRenderer_TypeDefinitionIndex)->GetStaticField(0x537C);
-		}
-		static ::System::Int32* StaticGet_OverlayBaseTexID()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TransparentOccludedOverlayRenderer_TypeDefinitionIndex)->GetStaticField(0x5380);
+			return (::System::Collections::Generic::HashSet_1<::UnityEngine::Rendering::Universal::Internal::TransparentOccludedOverlayRenderer*>**)Il2CppClass::FromTypeDefinitionIndex(TransparentOccludedOverlayRenderer_TypeDefinitionIndex)->GetStaticField(0x217E0);
 		}
 		static ::System::Int32* StaticGet_OverlayBaseOcclusionThresholdID()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TransparentOccludedOverlayRenderer_TypeDefinitionIndex)->GetStaticField(0x5384);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TransparentOccludedOverlayRenderer_TypeDefinitionIndex)->GetStaticField(0x51D0);
 		}
 		static ::System::Int32* StaticGet_OcclusionDepthEpsilonID()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TransparentOccludedOverlayRenderer_TypeDefinitionIndex)->GetStaticField(0x5388);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TransparentOccludedOverlayRenderer_TypeDefinitionIndex)->GetStaticField(0x51D4);
 		}
-		static ::System::Int32* StaticGet_OverlayIntensityID()
+		static ::System::Int32* StaticGet_OverlayBaseColorAID()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TransparentOccludedOverlayRenderer_TypeDefinitionIndex)->GetStaticField(0x538C);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TransparentOccludedOverlayRenderer_TypeDefinitionIndex)->GetStaticField(0x51D8);
+		}
+		static ::System::Int32* StaticGet_OverlayBaseTexIntensityID()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TransparentOccludedOverlayRenderer_TypeDefinitionIndex)->GetStaticField(0x51DC);
 		}
 		static ::System::Int32* StaticGet_OverlayBaseColorBID()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TransparentOccludedOverlayRenderer_TypeDefinitionIndex)->GetStaticField(0x5390);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TransparentOccludedOverlayRenderer_TypeDefinitionIndex)->GetStaticField(0x51E0);
+		}
+		static ::System::Int32* StaticGet_OverlayIntensityID()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TransparentOccludedOverlayRenderer_TypeDefinitionIndex)->GetStaticField(0x51E4);
+		}
+		static ::System::Int32* StaticGet__CameraNormalTexture()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TransparentOccludedOverlayRenderer_TypeDefinitionIndex)->GetStaticField(0x51E8);
+		}
+		static ::System::Int32* StaticGet_OverlayBaseTexID()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TransparentOccludedOverlayRenderer_TypeDefinitionIndex)->GetStaticField(0x51EC);
 		}
 		static ::System::Int32* StaticGet_OverlayBaseScrollSpeedID()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TransparentOccludedOverlayRenderer_TypeDefinitionIndex)->GetStaticField(0x5394);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TransparentOccludedOverlayRenderer_TypeDefinitionIndex)->GetStaticField(0x51F0);
+		}
+		static ::System::Int32* StaticGet_OverlayColorID()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TransparentOccludedOverlayRenderer_TypeDefinitionIndex)->GetStaticField(0x51F4);
 		}
 		// static const ::System::String* kShaderName; // 0x0
 		// static const ::System::String* kSkipMeshNameToken; // 0x0

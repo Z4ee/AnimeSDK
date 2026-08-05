@@ -5,26 +5,26 @@
 namespace PipelineCamera { class ICameraCommonContext; }
 namespace PipelineCamera { class ICameraTimestamp; }
 
-#define CLASS_1_404704D8770BD5CE_GETDELTATIME_OFFSET UNITYSDK_OFFSET(0x180693A0)
-#define CLASS_1_404704D8770BD5CE_GETTIMESTAMP_OFFSET UNITYSDK_OFFSET(0x180692A0)
-#define CLASS_1_404704D8770BD5CE_ISTHREADSAFEINWORKTHREAD_OFFSET UNITYSDK_OFFSET(0x18069810)
-#define CLASS_1_404704D8770BD5CE__CCTOR_OFFSET UNITYSDK_OFFSET(0x18069870)
-#define CLASS_1_404704D8770BD5CE__CTOR_OFFSET UNITYSDK_OFFSET(0x18069860)
+#define CLASS_1_404704D8770BD5CE_GETDELTATIME_OFFSET UNITYSDK_OFFSET(0x11EA7600)
+#define CLASS_1_404704D8770BD5CE_GETTIMESTAMP_OFFSET UNITYSDK_OFFSET(0x11EA7500)
+#define CLASS_1_404704D8770BD5CE_ISTHREADSAFEINWORKTHREAD_OFFSET UNITYSDK_OFFSET(0x11EA7A70)
+#define CLASS_1_404704D8770BD5CE__CCTOR_OFFSET UNITYSDK_OFFSET(0x11EA7AD0)
+#define CLASS_1_404704D8770BD5CE__CTOR_OFFSET UNITYSDK_OFFSET(0x11EA7AC0)
 
-inline static constexpr unsigned int Class_1_404704D8770BD5CE_TypeDefinitionIndex = 42145;
+inline static constexpr unsigned int Class_1_404704D8770BD5CE_TypeDefinitionIndex = 41696;
 
 class Class_1_404704D8770BD5CE : public ::System::Object
 {
 public:
 	static ::PipelineCamera::ICameraTimestamp** StaticGet_Field_1_1()
 	{
-		return (::PipelineCamera::ICameraTimestamp**)Il2CppClass::FromTypeDefinitionIndex(Class_1_404704D8770BD5CE_TypeDefinitionIndex)->GetStaticField(0x3B710);
+		return (::PipelineCamera::ICameraTimestamp**)Il2CppClass::FromTypeDefinitionIndex(Class_1_404704D8770BD5CE_TypeDefinitionIndex)->GetStaticField(0x49700);
 	}
-	static ::PipelineCamera::ICameraTimestamp** StaticGet_Field_1_2()
+	static ::PipelineCamera::ICameraTimestamp** StaticGet_Field_1_0()
 	{
-		return (::PipelineCamera::ICameraTimestamp**)Il2CppClass::FromTypeDefinitionIndex(Class_1_404704D8770BD5CE_TypeDefinitionIndex)->GetStaticField(0x3B718);
+		return (::PipelineCamera::ICameraTimestamp**)Il2CppClass::FromTypeDefinitionIndex(Class_1_404704D8770BD5CE_TypeDefinitionIndex)->GetStaticField(0x49708);
 	}
-	::System::Boolean Field_1_0; // 0x10
+	::System::Boolean Field_1_2; // 0x10
 
 	::System::Void _ctor(::System::Boolean a1)
 	{

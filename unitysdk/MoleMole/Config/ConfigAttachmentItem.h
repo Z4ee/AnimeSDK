@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGATTACHMENTITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x144D3B20)
+#define MOLEMOLE_CONFIG_CONFIGATTACHMENTITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD4F830)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigAttachmentItem_TypeDefinitionIndex = 67774;
+	inline static constexpr unsigned int ConfigAttachmentItem_TypeDefinitionIndex = 63530;
 
 	class ConfigAttachmentItem : public ::System::Object
 	{

@@ -5,18 +5,18 @@
 class Class_2_82E692415C3A4E10;
 namespace MoleMole { class UIMonsterCardSelectionPopWindowController; }
 
-#define MOLEMOLE_UIMONSTERCARDSELECTIONPOPWINDOWCONTROLLER___C__DISPLAYCLASS89_0__CTOR_OFFSET UNITYSDK_OFFSET(0x152919E0)
-#define MOLEMOLE_UIMONSTERCARDSELECTIONPOPWINDOWCONTROLLER___C__DISPLAYCLASS89_0__UPDATECAFEVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x152919F0)
+#define MOLEMOLE_UIMONSTERCARDSELECTIONPOPWINDOWCONTROLLER___C__DISPLAYCLASS89_0__CTOR_OFFSET UNITYSDK_OFFSET(0x151651A0)
+#define MOLEMOLE_UIMONSTERCARDSELECTIONPOPWINDOWCONTROLLER___C__DISPLAYCLASS89_0__UPDATECAFEVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x151651B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMonsterCardSelectionPopWindowController___c__DisplayClass89_0_TypeDefinitionIndex = 50318;
+	inline static constexpr unsigned int UIMonsterCardSelectionPopWindowController___c__DisplayClass89_0_TypeDefinitionIndex = 51992;
 
 	class UIMonsterCardSelectionPopWindowController___c__DisplayClass89_0 : public ::System::Object
 	{
 	public:
-		::Class_2_82E692415C3A4E10* cafeModel; // 0x10
-		::MoleMole::UIMonsterCardSelectionPopWindowController* __4__this; // 0x18
+		::MoleMole::UIMonsterCardSelectionPopWindowController* __4__this; // 0x10
+		::Class_2_82E692415C3A4E10* cafeModel; // 0x18
 
 		::System::Void _ctor()
 		{

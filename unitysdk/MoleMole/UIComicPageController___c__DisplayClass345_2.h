@@ -5,19 +5,19 @@
 namespace MoleMole { class ComicPageData; }
 namespace MoleMole { class UIComicPageController___c__DisplayClass345_1; }
 
-#define MOLEMOLE_UICOMICPAGECONTROLLER___C__DISPLAYCLASS345_2__CTOR_OFFSET UNITYSDK_OFFSET(0x187D34D0)
-#define MOLEMOLE_UICOMICPAGECONTROLLER___C__DISPLAYCLASS345_2__PLAYCURRENTCHAPTER_B__1_OFFSET UNITYSDK_OFFSET(0x187D34E0)
-#define MOLEMOLE_UICOMICPAGECONTROLLER___C__DISPLAYCLASS345_2__PLAYCURRENTCHAPTER_B__2_OFFSET UNITYSDK_OFFSET(0x187D3550)
+#define MOLEMOLE_UICOMICPAGECONTROLLER___C__DISPLAYCLASS345_2__CTOR_OFFSET UNITYSDK_OFFSET(0x19711740)
+#define MOLEMOLE_UICOMICPAGECONTROLLER___C__DISPLAYCLASS345_2__PLAYCURRENTCHAPTER_B__1_OFFSET UNITYSDK_OFFSET(0x19711750)
+#define MOLEMOLE_UICOMICPAGECONTROLLER___C__DISPLAYCLASS345_2__PLAYCURRENTCHAPTER_B__2_OFFSET UNITYSDK_OFFSET(0x197117C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIComicPageController___c__DisplayClass345_2_TypeDefinitionIndex = 46630;
+	inline static constexpr unsigned int UIComicPageController___c__DisplayClass345_2_TypeDefinitionIndex = 87097;
 
 	class UIComicPageController___c__DisplayClass345_2 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIComicPageController___c__DisplayClass345_1* CS___8__locals2; // 0x10
-		::MoleMole::ComicPageData* pageData; // 0x18
+		::MoleMole::ComicPageData* pageData; // 0x10
+		::MoleMole::UIComicPageController___c__DisplayClass345_1* CS___8__locals2; // 0x18
 		::System::Boolean needResumeTimelineFromAuto; // 0x20
 		::System::UInt32 pendingId; // 0x24
 

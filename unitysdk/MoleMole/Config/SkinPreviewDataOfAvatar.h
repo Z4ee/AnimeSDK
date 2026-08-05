@@ -4,12 +4,12 @@
 
 namespace UnityEngine::UI::Extension { class InteractionRangeParamFloat; }
 
-#define MOLEMOLE_CONFIG_SKINPREVIEWDATAOFAVATAR_METHOD_1_56B6D479D20E3709_OFFSET UNITYSDK_OFFSET(0x192AE6B0)
-#define MOLEMOLE_CONFIG_SKINPREVIEWDATAOFAVATAR__CTOR_OFFSET UNITYSDK_OFFSET(0x192AE6A0)
+#define MOLEMOLE_CONFIG_SKINPREVIEWDATAOFAVATAR_METHOD_1_56B6D479D20E3709_OFFSET UNITYSDK_OFFSET(0x1487CEB0)
+#define MOLEMOLE_CONFIG_SKINPREVIEWDATAOFAVATAR__CTOR_OFFSET UNITYSDK_OFFSET(0x1487CEA0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int SkinPreviewDataOfAvatar_TypeDefinitionIndex = 86634;
+	inline static constexpr unsigned int SkinPreviewDataOfAvatar_TypeDefinitionIndex = 58471;
 
 	class SkinPreviewDataOfAvatar : public ::System::Object
 	{

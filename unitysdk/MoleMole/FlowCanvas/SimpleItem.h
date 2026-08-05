@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_SIMPLEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1A031320)
+#define MOLEMOLE_FLOWCANVAS_SIMPLEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x19082FF0)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int SimpleItem_TypeDefinitionIndex = 52164;
+	inline static constexpr unsigned int SimpleItem_TypeDefinitionIndex = 89044;
 
 	class SimpleItem : public ::System::Object
 	{

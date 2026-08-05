@@ -12,7 +12,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int CameraExternalValueRegistry_1_TypeDefinitionIndex = 37520;
+	inline static constexpr unsigned int CameraExternalValueRegistry_1_TypeDefinitionIndex = 38181;
 
 	template <typename TController>
 	class CameraExternalValueRegistry_1 : public ::System::Object

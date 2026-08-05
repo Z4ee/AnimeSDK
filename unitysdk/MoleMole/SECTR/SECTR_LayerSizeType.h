@@ -3,20 +3,20 @@
 
 namespace MoleMole::SECTR
 {
-	inline static constexpr unsigned int SECTR_LayerSizeType_TypeDefinitionIndex = 57832;
+	inline static constexpr unsigned int SECTR_LayerSizeType_TypeDefinitionIndex = 54980;
 
 	enum class SECTR_LayerSizeType : ::System::Int32
 	{
-		Size_32 = 5,
+		Size_512 = 9,
 		Size_4 = 2,
-		Size_64 = 6,
-		Size_1024 = 10,
+		Size_8 = 3,
+		Size_32 = 5,
 		Size_256 = 8,
-		Size_16 = 4,
+		Size_64 = 6,
 		Size_2 = 1,
 		Size_128 = 7,
-		Size_8 = 3,
+		Size_16 = 4,
 		Size_1 = 0,
-		Size_512 = 9,
+		Size_1024 = 10,
 	};
 }

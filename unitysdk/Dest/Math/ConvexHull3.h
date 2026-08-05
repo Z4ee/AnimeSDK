@@ -8,14 +8,14 @@ namespace Dest::Math { class Query3; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define DEST_MATH_CONVEXHULL3_CREATE_OFFSET UNITYSDK_OFFSET(0x1DAAB9E0)
-#define DEST_MATH_CONVEXHULL3_EXTRACTINDICES_OFFSET UNITYSDK_OFFSET(0x1DAAD100)
-#define DEST_MATH_CONVEXHULL3_UPDATE_OFFSET UNITYSDK_OFFSET(0x1DAAC5A0)
-#define DEST_MATH_CONVEXHULL3__CTOR_OFFSET UNITYSDK_OFFSET(0x1DAAD4E0)
+#define DEST_MATH_CONVEXHULL3_CREATE_OFFSET UNITYSDK_OFFSET(0x1EE902A0)
+#define DEST_MATH_CONVEXHULL3_EXTRACTINDICES_OFFSET UNITYSDK_OFFSET(0x1EE91A10)
+#define DEST_MATH_CONVEXHULL3_UPDATE_OFFSET UNITYSDK_OFFSET(0x1EE90EC0)
+#define DEST_MATH_CONVEXHULL3__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE91DF0)
 
 namespace Dest::Math
 {
-	inline static constexpr unsigned int ConvexHull3_TypeDefinitionIndex = 34672;
+	inline static constexpr unsigned int ConvexHull3_TypeDefinitionIndex = 35331;
 
 	class ConvexHull3 : public ::System::Object
 	{

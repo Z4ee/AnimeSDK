@@ -5,11 +5,11 @@
 namespace MoleMole { class SkinAnimationMapConfig; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_UNITSKINANIMATIONCONFIGMAP__CTOR_OFFSET UNITYSDK_OFFSET(0x1089F7E0)
+#define MOLEMOLE_UNITSKINANIMATIONCONFIGMAP__CTOR_OFFSET UNITYSDK_OFFSET(0x112E45E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UnitSKinAnimationConfigMap_TypeDefinitionIndex = 58184;
+	inline static constexpr unsigned int UnitSKinAnimationConfigMap_TypeDefinitionIndex = 47297;
 
 	class UnitSKinAnimationConfigMap : public ::System::Object
 	{

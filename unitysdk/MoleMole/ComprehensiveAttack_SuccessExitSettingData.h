@@ -3,11 +3,11 @@
 #include "unitysdk/MoleMole/ComprehensiveAttack_ExitConditionType.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_COMPREHENSIVEATTACK_SUCCESSEXITSETTINGDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x13FF7B60)
+#define MOLEMOLE_COMPREHENSIVEATTACK_SUCCESSEXITSETTINGDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B53CD90)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ComprehensiveAttack_SuccessExitSettingData_TypeDefinitionIndex = 66002;
+	inline static constexpr unsigned int ComprehensiveAttack_SuccessExitSettingData_TypeDefinitionIndex = 60328;
 
 	class ComprehensiveAttack_SuccessExitSettingData : public ::System::Object
 	{

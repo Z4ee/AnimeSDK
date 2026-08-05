@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define FOUNDATION_GEOMETRY___DETAILS_OF_EXTENDCONVEXHULL2D_SEGMENTEDGEMETADATA_GENERATE_OFFSET UNITYSDK_OFFSET(0xA3ADC0)
-#define FOUNDATION_GEOMETRY___DETAILS_OF_EXTENDCONVEXHULL2D_SEGMENTEDGEMETADATA__CTOR_OFFSET UNITYSDK_OFFSET(0x283610)
+#define FOUNDATION_GEOMETRY___DETAILS_OF_EXTENDCONVEXHULL2D_SEGMENTEDGEMETADATA_GENERATE_OFFSET UNITYSDK_OFFSET(0xA8E470)
+#define FOUNDATION_GEOMETRY___DETAILS_OF_EXTENDCONVEXHULL2D_SEGMENTEDGEMETADATA__CTOR_OFFSET UNITYSDK_OFFSET(0x296F30)
 
 namespace Foundation::Geometry::__details_of_ExtendConvexHull2D
 {
-	inline static constexpr unsigned int SegmentEdgeMetaData_TypeDefinitionIndex = 8486;
+	inline static constexpr unsigned int SegmentEdgeMetaData_TypeDefinitionIndex = 8682;
 
 	struct alignas(1) SegmentEdgeMetaData
 	{

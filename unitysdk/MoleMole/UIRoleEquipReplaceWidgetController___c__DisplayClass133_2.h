@@ -5,12 +5,12 @@
 namespace MoleMole { class UIGeneralTipsPopWindowController; }
 namespace MoleMole { class UIRoleEquipReplaceWidgetController___c__DisplayClass133_1; }
 
-#define MOLEMOLE_UIROLEEQUIPREPLACEWIDGETCONTROLLER___C__DISPLAYCLASS133_2__CTOR_OFFSET UNITYSDK_OFFSET(0x15F388A0)
-#define MOLEMOLE_UIROLEEQUIPREPLACEWIDGETCONTROLLER___C__DISPLAYCLASS133_2__TRYSHOWPROFRESSIONLACKWEAPONTIP_B__5_OFFSET UNITYSDK_OFFSET(0x15F388B0)
+#define MOLEMOLE_UIROLEEQUIPREPLACEWIDGETCONTROLLER___C__DISPLAYCLASS133_2__CTOR_OFFSET UNITYSDK_OFFSET(0x13002200)
+#define MOLEMOLE_UIROLEEQUIPREPLACEWIDGETCONTROLLER___C__DISPLAYCLASS133_2__TRYSHOWPROFRESSIONLACKWEAPONTIP_B__5_OFFSET UNITYSDK_OFFSET(0x13002210)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRoleEquipReplaceWidgetController___c__DisplayClass133_2_TypeDefinitionIndex = 68214;
+	inline static constexpr unsigned int UIRoleEquipReplaceWidgetController___c__DisplayClass133_2_TypeDefinitionIndex = 52777;
 
 	class UIRoleEquipReplaceWidgetController___c__DisplayClass133_2 : public ::System::Object
 	{

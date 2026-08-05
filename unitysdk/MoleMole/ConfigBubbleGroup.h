@@ -6,11 +6,11 @@ namespace MoleMole { class BubbleGroupPlayGraphContent; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIGBUBBLEGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x115EB000)
+#define MOLEMOLE_CONFIGBUBBLEGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x19214C70)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigBubbleGroup_TypeDefinitionIndex = 56525;
+	inline static constexpr unsigned int ConfigBubbleGroup_TypeDefinitionIndex = 84895;
 
 	class ConfigBubbleGroup : public ::Foundation::MihoyoSerializedScriptableObject
 	{

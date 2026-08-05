@@ -3,10 +3,10 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define WOBBLEPATH_UPDATE_OFFSET UNITYSDK_OFFSET(0x1E220990)
-#define WOBBLEPATH__CTOR_OFFSET UNITYSDK_OFFSET(0x1E220BD0)
+#define WOBBLEPATH_UPDATE_OFFSET UNITYSDK_OFFSET(0x1F644B10)
+#define WOBBLEPATH__CTOR_OFFSET UNITYSDK_OFFSET(0x1F644D60)
 
-inline static constexpr unsigned int WobblePath_TypeDefinitionIndex = 32915;
+inline static constexpr unsigned int WobblePath_TypeDefinitionIndex = 33550;
 
 class WobblePath : public ::UnityEngine::MonoBehaviour
 {

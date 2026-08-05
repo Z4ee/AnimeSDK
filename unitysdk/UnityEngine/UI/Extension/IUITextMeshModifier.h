@@ -5,7 +5,7 @@ namespace UnityEngine::UI { class VertexHelper; }
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int IUITextMeshModifier_TypeDefinitionIndex = 75607;
+	inline static constexpr unsigned int IUITextMeshModifier_TypeDefinitionIndex = 52859;
 
 	class IUITextMeshModifier
 	{

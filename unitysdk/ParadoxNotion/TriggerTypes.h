@@ -3,12 +3,12 @@
 
 namespace ParadoxNotion
 {
-	inline static constexpr unsigned int TriggerTypes_TypeDefinitionIndex = 29156;
+	inline static constexpr unsigned int TriggerTypes_TypeDefinitionIndex = 30355;
 
 	enum class TriggerTypes : ::System::Int32
 	{
-		TriggerStay = 2,
 		TriggerExit = 1,
+		TriggerStay = 2,
 		TriggerEnter = 0,
 	};
 }

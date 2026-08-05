@@ -7,27 +7,27 @@ namespace BehaviorDesigner::Runtime { class SharedGameObject; }
 namespace BehaviorDesigner::Runtime { class SharedString; }
 namespace BehaviorDesigner::Runtime { class SharedVariable; }
 
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_INVOKEMETHOD_ONRESET_OFFSET UNITYSDK_OFFSET(0x1D7E5150)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_INVOKEMETHOD_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1D7E4550)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_INVOKEMETHOD__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7E52E0)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_INVOKEMETHOD___BASE_ONRESET_OFFSET UNITYSDK_OFFSET(0x1D7E5370)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_INVOKEMETHOD___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1D7E5400)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_INVOKEMETHOD_ONRESET_OFFSET UNITYSDK_OFFSET(0x1EC8B270)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_INVOKEMETHOD_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1EC8A650)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_INVOKEMETHOD__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC8B410)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_INVOKEMETHOD___BASE_ONRESET_OFFSET UNITYSDK_OFFSET(0x1EC8B4A0)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_INVOKEMETHOD___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1EC8B530)
 
 namespace BehaviorDesigner::Runtime::Tasks
 {
-	inline static constexpr unsigned int InvokeMethod_TypeDefinitionIndex = 33341;
+	inline static constexpr unsigned int InvokeMethod_TypeDefinitionIndex = 33977;
 
 	class InvokeMethod : public ::BehaviorDesigner::Runtime::Tasks::Action
 	{
 	public:
-		::BehaviorDesigner::Runtime::SharedString* componentName; // 0x58
+		::BehaviorDesigner::Runtime::SharedVariable* parameter4; // 0x58
 		::BehaviorDesigner::Runtime::SharedGameObject* targetGameObject; // 0x60
-		::BehaviorDesigner::Runtime::SharedString* methodName; // 0x68
-		::BehaviorDesigner::Runtime::SharedVariable* storeResult; // 0x70
-		::BehaviorDesigner::Runtime::SharedVariable* parameter1; // 0x78
-		::BehaviorDesigner::Runtime::SharedVariable* parameter3; // 0x80
-		::BehaviorDesigner::Runtime::SharedVariable* parameter2; // 0x88
-		::BehaviorDesigner::Runtime::SharedVariable* parameter4; // 0x90
+		::BehaviorDesigner::Runtime::SharedString* componentName; // 0x68
+		::BehaviorDesigner::Runtime::SharedVariable* parameter3; // 0x70
+		::BehaviorDesigner::Runtime::SharedVariable* parameter2; // 0x78
+		::BehaviorDesigner::Runtime::SharedVariable* storeResult; // 0x80
+		::BehaviorDesigner::Runtime::SharedString* methodName; // 0x88
+		::BehaviorDesigner::Runtime::SharedVariable* parameter1; // 0x90
 
 		::System::Void _ctor()
 		{

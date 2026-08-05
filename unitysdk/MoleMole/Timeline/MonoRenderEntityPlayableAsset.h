@@ -7,12 +7,12 @@
 namespace MoleMole::Timeline { class MonoRenderEntityBehavior; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_TIMELINE_MONORENDERENTITYPLAYABLEASSET_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x12BE53C0)
-#define MOLEMOLE_TIMELINE_MONORENDERENTITYPLAYABLEASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x12BE5510)
+#define MOLEMOLE_TIMELINE_MONORENDERENTITYPLAYABLEASSET_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x13864FB0)
+#define MOLEMOLE_TIMELINE_MONORENDERENTITYPLAYABLEASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x13865100)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int MonoRenderEntityPlayableAsset_TypeDefinitionIndex = 44315;
+	inline static constexpr unsigned int MonoRenderEntityPlayableAsset_TypeDefinitionIndex = 83363;
 
 	class MonoRenderEntityPlayableAsset : public ::UnityEngine::Playables::PlayableAsset
 	{

@@ -6,32 +6,32 @@
 namespace System { class Action; }
 namespace System { template <typename T> class Func_1; }
 
-#define CLASS_2_B34091191FCE3A1B___C_METHOD_1_486AF1E6C0038D4C_OFFSET UNITYSDK_OFFSET(0x13434990)
-#define CLASS_2_B34091191FCE3A1B___C_METHOD_1_D7B7C909A67BD350_OFFSET UNITYSDK_OFFSET(0x134349A0)
-#define CLASS_2_B34091191FCE3A1B___C_METHOD_1_F29D7A7F508EABE1_OFFSET UNITYSDK_OFFSET(0x134348B0)
-#define CLASS_2_B34091191FCE3A1B___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x13434860)
-#define CLASS_2_B34091191FCE3A1B___C__CTOR_OFFSET UNITYSDK_OFFSET(0x134348A0)
+#define CLASS_2_B34091191FCE3A1B___C_METHOD_1_486AF1E6C0038D4C_OFFSET UNITYSDK_OFFSET(0x12CD6BB0)
+#define CLASS_2_B34091191FCE3A1B___C_METHOD_1_D7B7C909A67BD350_OFFSET UNITYSDK_OFFSET(0x12CD6AF0)
+#define CLASS_2_B34091191FCE3A1B___C_METHOD_1_F29D7A7F508EABE1_OFFSET UNITYSDK_OFFSET(0x12CD6BC0)
+#define CLASS_2_B34091191FCE3A1B___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x12CD6AA0)
+#define CLASS_2_B34091191FCE3A1B___C__CTOR_OFFSET UNITYSDK_OFFSET(0x12CD6AE0)
 
-inline static constexpr unsigned int Class_2_B34091191FCE3A1B___c_TypeDefinitionIndex = 86411;
+inline static constexpr unsigned int Class_2_B34091191FCE3A1B___c_TypeDefinitionIndex = 87057;
 
 class Class_2_B34091191FCE3A1B___c : public ::System::Object
 {
 public:
-	static ::System::Action** StaticGet___9__78_0()
+	static ::System::Action** StaticGet___9__85_0()
 	{
-		return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(Class_2_B34091191FCE3A1B___c_TypeDefinitionIndex)->GetStaticField(0x409F0);
+		return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(Class_2_B34091191FCE3A1B___c_TypeDefinitionIndex)->GetStaticField(0x3B0B0);
 	}
-	static ::System::Func_1<::UnityEngine::Vector2>** StaticGet___9__70_23()
+	static ::System::Func_1<::System::Boolean>** StaticGet___9__76_8()
 	{
-		return (::System::Func_1<::UnityEngine::Vector2>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_B34091191FCE3A1B___c_TypeDefinitionIndex)->GetStaticField(0x409F8);
+		return (::System::Func_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_B34091191FCE3A1B___c_TypeDefinitionIndex)->GetStaticField(0x3B0B8);
+	}
+	static ::System::Func_1<::UnityEngine::Vector2>** StaticGet___9__76_27()
+	{
+		return (::System::Func_1<::UnityEngine::Vector2>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_B34091191FCE3A1B___c_TypeDefinitionIndex)->GetStaticField(0x3B0C0);
 	}
 	static ::Class_2_B34091191FCE3A1B___c** StaticGet___9()
 	{
-		return (::Class_2_B34091191FCE3A1B___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_B34091191FCE3A1B___c_TypeDefinitionIndex)->GetStaticField(0x40A00);
-	}
-	static ::System::Func_1<::System::Boolean>** StaticGet___9__70_7()
-	{
-		return (::System::Func_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_B34091191FCE3A1B___c_TypeDefinitionIndex)->GetStaticField(0x40A08);
+		return (::Class_2_B34091191FCE3A1B___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_B34091191FCE3A1B___c_TypeDefinitionIndex)->GetStaticField(0x3B0C8);
 	}
 
 	static ::System::Void _cctor()
@@ -44,9 +44,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_B34091191FCE3A1B___C__CTOR_OFFSET))(this);
 	}
 
-	::System::Void Method_1_F29D7A7F508EABE1()
+	::System::Boolean Method_1_D7B7C909A67BD350()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_B34091191FCE3A1B___C_METHOD_1_F29D7A7F508EABE1_OFFSET))(this);
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_B34091191FCE3A1B___C_METHOD_1_D7B7C909A67BD350_OFFSET))(this);
 	}
 
 	::UnityEngine::Vector2 Method_1_486AF1E6C0038D4C()
@@ -54,8 +54,8 @@ public:
 		return ((::UnityEngine::Vector2(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_B34091191FCE3A1B___C_METHOD_1_486AF1E6C0038D4C_OFFSET))(this);
 	}
 
-	::System::Boolean Method_1_D7B7C909A67BD350()
+	::System::Void Method_1_F29D7A7F508EABE1()
 	{
-		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_B34091191FCE3A1B___C_METHOD_1_D7B7C909A67BD350_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_B34091191FCE3A1B___C_METHOD_1_F29D7A7F508EABE1_OFFSET))(this);
 	}
 };

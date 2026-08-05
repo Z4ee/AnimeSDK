@@ -4,7 +4,7 @@
 
 namespace Foundation::ViewObject
 {
-	inline static constexpr unsigned int ITraitCustomEntityEnableDisableProcessor_TypeDefinitionIndex = 60782;
+	inline static constexpr unsigned int ITraitCustomEntityEnableDisableProcessor_TypeDefinitionIndex = 53658;
 
 	class ITraitCustomEntityEnableDisableProcessor
 	{

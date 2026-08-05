@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIMONSTERFANTASYNEWBUFFDIALOGPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1575BAE0)
+#define MOLEMOLE_UIMONSTERFANTASYNEWBUFFDIALOGPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x17967030)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMonsterFantasyNewBuffDialogPopWindowController_Context_TypeDefinitionIndex = 64627;
+	inline static constexpr unsigned int UIMonsterFantasyNewBuffDialogPopWindowController_Context_TypeDefinitionIndex = 64550;
 
 	class UIMonsterFantasyNewBuffDialogPopWindowController_Context : public ::MoleMole::UIControllerContextBase
 	{

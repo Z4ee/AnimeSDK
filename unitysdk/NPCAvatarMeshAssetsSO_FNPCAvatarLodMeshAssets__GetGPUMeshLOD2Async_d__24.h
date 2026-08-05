@@ -9,17 +9,17 @@ class NPCAvatarMeshAssetsSO_FNPCAvatarLodMeshAssets;
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 namespace UnityEngine { class Mesh; }
 
-#define NPCAVATARMESHASSETSSO_FNPCAVATARLODMESHASSETS__GETGPUMESHLOD2ASYNC_D__24_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x64FE10)
-#define NPCAVATARMESHASSETSSO_FNPCAVATARLODMESHASSETS__GETGPUMESHLOD2ASYNC_D__24_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x283610)
+#define NPCAVATARMESHASSETSSO_FNPCAVATARLODMESHASSETS__GETGPUMESHLOD2ASYNC_D__24_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x6514A0)
+#define NPCAVATARMESHASSETSSO_FNPCAVATARLODMESHASSETS__GETGPUMESHLOD2ASYNC_D__24_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x296F30)
 
-inline static constexpr unsigned int NPCAvatarMeshAssetsSO_FNPCAvatarLodMeshAssets__GetGPUMeshLOD2Async_d__24_TypeDefinitionIndex = 67204;
+inline static constexpr unsigned int NPCAvatarMeshAssetsSO_FNPCAvatarLodMeshAssets__GetGPUMeshLOD2Async_d__24_TypeDefinitionIndex = 55896;
 
 struct alignas(8) NPCAvatarMeshAssetsSO_FNPCAvatarLodMeshAssets__GetGPUMeshLOD2Async_d__24
 {
-	::System::Threading::CancellationToken cancellationToken; // 0x10
-	::NPCAvatarMeshAssetsSO_FNPCAvatarLodMeshAssets* __4__this; // 0x18
-	::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder_1<::UnityEngine::Mesh*> __t__builder; // 0x20
-	::Cysharp::Threading::Tasks::UniTask_1_Awaiter<::UnityEngine::Mesh*> __u__1; // 0x38
+	::NPCAvatarMeshAssetsSO_FNPCAvatarLodMeshAssets* __4__this; // 0x10
+	::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder_1<::UnityEngine::Mesh*> __t__builder; // 0x18
+	::Cysharp::Threading::Tasks::UniTask_1_Awaiter<::UnityEngine::Mesh*> __u__1; // 0x30
+	::System::Threading::CancellationToken cancellationToken; // 0x48
 	::System::Int32 __1__state; // 0x50
 
 	::System::Void MoveNext()

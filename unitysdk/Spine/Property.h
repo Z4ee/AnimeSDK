@@ -3,7 +3,7 @@
 
 namespace Spine
 {
-	inline static constexpr unsigned int Property_TypeDefinitionIndex = 32801;
+	inline static constexpr unsigned int Property_TypeDefinitionIndex = 33436;
 
 	enum class Property : ::System::Int32
 	{

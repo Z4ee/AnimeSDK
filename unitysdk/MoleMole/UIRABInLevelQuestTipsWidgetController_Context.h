@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIRABINLEVELQUESTTIPSWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1789B930)
+#define MOLEMOLE_UIRABINLEVELQUESTTIPSWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1845B5A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRABInLevelQuestTipsWidgetController_Context_TypeDefinitionIndex = 47931;
+	inline static constexpr unsigned int UIRABInLevelQuestTipsWidgetController_Context_TypeDefinitionIndex = 70852;
 
 	class UIRABInLevelQuestTipsWidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{

@@ -7,11 +7,11 @@ namespace MiHoYo::SDK::PC::OS { class SteamPurchaseExtension; }
 namespace MiHoYo::SDK::PC::OS { class XboxPurchaseExtension; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_PURCHASEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB48D60)
+#define MIHOYO_SDK_PC_OS_PURCHASEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1CEACD60)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int PurchaseData_TypeDefinitionIndex = 20345;
+	inline static constexpr unsigned int PurchaseData_TypeDefinitionIndex = 20692;
 
 	class PurchaseData : public ::System::Object
 	{

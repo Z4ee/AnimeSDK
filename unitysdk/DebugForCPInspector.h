@@ -10,24 +10,24 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::UI { class Text; }
 
-#define DEBUGFORCPINSPECTOR_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1D85A140)
-#define DEBUGFORCPINSPECTOR_RESETDATA_OFFSET UNITYSDK_OFFSET(0x1D85A0F0)
-#define DEBUGFORCPINSPECTOR_START_OFFSET UNITYSDK_OFFSET(0x1D859710)
-#define DEBUGFORCPINSPECTOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D85BE00)
-#define DEBUGFORCPINSPECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1D85BC10)
+#define DEBUGFORCPINSPECTOR_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1EC50DC0)
+#define DEBUGFORCPINSPECTOR_RESETDATA_OFFSET UNITYSDK_OFFSET(0x1EC50D70)
+#define DEBUGFORCPINSPECTOR_START_OFFSET UNITYSDK_OFFSET(0x1EC50390)
+#define DEBUGFORCPINSPECTOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EC52A20)
+#define DEBUGFORCPINSPECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC52830)
 
-inline static constexpr unsigned int DebugForCPInspector_TypeDefinitionIndex = 90764;
+inline static constexpr unsigned int DebugForCPInspector_TypeDefinitionIndex = 94698;
 
 class DebugForCPInspector : public ::UnityEngine::MonoBehaviour
 {
 public:
-	static ::System::Comparison_1<::DebugForCPInspector_BuffInfo>** StaticGet_CompareBuffMethord()
-	{
-		return (::System::Comparison_1<::DebugForCPInspector_BuffInfo>**)Il2CppClass::FromTypeDefinitionIndex(DebugForCPInspector_TypeDefinitionIndex)->GetStaticField(0x4E570);
-	}
 	static ::System::Comparison_1<::DebugForCPInspector_EffInfo>** StaticGet_CompareMethord()
 	{
-		return (::System::Comparison_1<::DebugForCPInspector_EffInfo>**)Il2CppClass::FromTypeDefinitionIndex(DebugForCPInspector_TypeDefinitionIndex)->GetStaticField(0x4E578);
+		return (::System::Comparison_1<::DebugForCPInspector_EffInfo>**)Il2CppClass::FromTypeDefinitionIndex(DebugForCPInspector_TypeDefinitionIndex)->GetStaticField(0x52720);
+	}
+	static ::System::Comparison_1<::DebugForCPInspector_BuffInfo>** StaticGet_CompareBuffMethord()
+	{
+		return (::System::Comparison_1<::DebugForCPInspector_BuffInfo>**)Il2CppClass::FromTypeDefinitionIndex(DebugForCPInspector_TypeDefinitionIndex)->GetStaticField(0x52728);
 	}
 	::UnityEngine::UI::Text* entityText; // 0x18
 	::UnityEngine::UI::Text* cpText; // 0x20

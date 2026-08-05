@@ -3,12 +3,12 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MobileTouchRumbleDevice_TypeDefinitionIndex = 83750;
+	inline static constexpr unsigned int MobileTouchRumbleDevice_TypeDefinitionIndex = 52250;
 
 	enum class MobileTouchRumbleDevice : ::System::Int32
 	{
-		OnlyGamepad = 2,
 		OnlyCellphone = 1,
+		OnlyGamepad = 2,
 		Auto = 0,
 	};
 }

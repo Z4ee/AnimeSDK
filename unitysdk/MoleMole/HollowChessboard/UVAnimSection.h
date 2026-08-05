@@ -7,21 +7,21 @@ class Class_1_1FCBF6F207BFD09E;
 class Class_1_22EF90524645AFD7;
 namespace MoleMole::HollowChessboard { class UVAnimSection_Config; }
 
-#define MOLEMOLE_HOLLOWCHESSBOARD_UVANIMSECTION_CREATEINSTANCE_OFFSET UNITYSDK_OFFSET(0x13023DF0)
-#define MOLEMOLE_HOLLOWCHESSBOARD_UVANIMSECTION_GETRELATIVESCREENLAYER_OFFSET UNITYSDK_OFFSET(0x13023E80)
-#define MOLEMOLE_HOLLOWCHESSBOARD_UVANIMSECTION__CCTOR_OFFSET UNITYSDK_OFFSET(0x13023ED0)
-#define MOLEMOLE_HOLLOWCHESSBOARD_UVANIMSECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x13023EC0)
+#define MOLEMOLE_HOLLOWCHESSBOARD_UVANIMSECTION_CREATEINSTANCE_OFFSET UNITYSDK_OFFSET(0x1737D8C0)
+#define MOLEMOLE_HOLLOWCHESSBOARD_UVANIMSECTION_GETRELATIVESCREENLAYER_OFFSET UNITYSDK_OFFSET(0x1737D950)
+#define MOLEMOLE_HOLLOWCHESSBOARD_UVANIMSECTION__CCTOR_OFFSET UNITYSDK_OFFSET(0x1737D9A0)
+#define MOLEMOLE_HOLLOWCHESSBOARD_UVANIMSECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1737D990)
 
 namespace MoleMole::HollowChessboard
 {
-	inline static constexpr unsigned int UVAnimSection_TypeDefinitionIndex = 54746;
+	inline static constexpr unsigned int UVAnimSection_TypeDefinitionIndex = 58131;
 
 	class UVAnimSection : public ::System::Object
 	{
 	public:
 		static ::MoleMole::HollowChessboard::RenderSequenceSectionType* StaticGet_SectionType()
 		{
-			return (::MoleMole::HollowChessboard::RenderSequenceSectionType*)Il2CppClass::FromTypeDefinitionIndex(UVAnimSection_TypeDefinitionIndex)->GetStaticField(0x117B0);
+			return (::MoleMole::HollowChessboard::RenderSequenceSectionType*)Il2CppClass::FromTypeDefinitionIndex(UVAnimSection_TypeDefinitionIndex)->GetStaticField(0xFFC0);
 		}
 		::MoleMole::HollowChessboard::UVAnimSection_Config* UVAnimConfig; // 0x10
 		::System::Int32 RelativeScreenLayer; // 0x18

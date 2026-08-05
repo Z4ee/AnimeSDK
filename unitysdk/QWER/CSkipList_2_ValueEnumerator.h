@@ -7,7 +7,7 @@ namespace QWER { template <typename T1, typename T2> class CSkipList_2_KeyValueE
 
 namespace QWER
 {
-	inline static constexpr unsigned int CSkipList_2_ValueEnumerator_TypeDefinitionIndex = 8820;
+	inline static constexpr unsigned int CSkipList_2_ValueEnumerator_TypeDefinitionIndex = 8907;
 
 	template <typename T, typename U>
 	class CSkipList_2_ValueEnumerator : public ::System::Object

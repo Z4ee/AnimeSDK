@@ -3,12 +3,12 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int InLevelCustomCameraSequenceType_TypeDefinitionIndex = 65782;
+	inline static constexpr unsigned int InLevelCustomCameraSequenceType_TypeDefinitionIndex = 78861;
 
 	enum class InLevelCustomCameraSequenceType : ::System::Int32
 	{
-		LevelEnd = 1,
-		Default = 0,
 		FastLevelEnd = 2,
+		Default = 0,
+		LevelEnd = 1,
 	};
 }

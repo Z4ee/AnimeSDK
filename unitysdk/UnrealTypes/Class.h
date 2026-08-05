@@ -3,12 +3,12 @@
 #include "unitysdk/UnrealTypes/Struct.h"
 #include "unitysdk/UnrealTypes/TObjectHandle_1.h"
 
-#define UNREALTYPES_CLASS_GET_CLASSHANDLE_OFFSET UNITYSDK_OFFSET(0x1D1AC610)
-#define UNREALTYPES_CLASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1AC660)
+#define UNREALTYPES_CLASS_GET_CLASSHANDLE_OFFSET UNITYSDK_OFFSET(0x1E382A60)
+#define UNREALTYPES_CLASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E382AB0)
 
 namespace UnrealTypes
 {
-	inline static constexpr unsigned int Class_TypeDefinitionIndex = 27710;
+	inline static constexpr unsigned int Class_TypeDefinitionIndex = 28313;
 
 	class Class : public ::UnrealTypes::Struct
 	{

@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_A0FAD1BA1AF1830A_Class_2_CECA08025CFAE8D2;
+class Class_2_0EA736F4D47F3203_Class_2_CECA08025CFAE8D2;
 
-#define MOLEMOLE_UIABINLEVELSHOPWIDGETCONTROLLER___C__DISPLAYCLASS23_1__BINDDATA_B__5_OFFSET UNITYSDK_OFFSET(0x17E0B0B0)
-#define MOLEMOLE_UIABINLEVELSHOPWIDGETCONTROLLER___C__DISPLAYCLASS23_1__CTOR_OFFSET UNITYSDK_OFFSET(0x17E0AAA0)
+#define MOLEMOLE_UIABINLEVELSHOPWIDGETCONTROLLER___C__DISPLAYCLASS23_1__BINDDATA_B__5_OFFSET UNITYSDK_OFFSET(0x190D19A0)
+#define MOLEMOLE_UIABINLEVELSHOPWIDGETCONTROLLER___C__DISPLAYCLASS23_1__CTOR_OFFSET UNITYSDK_OFFSET(0x190D1390)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIABInLevelShopWidgetController___c__DisplayClass23_1_TypeDefinitionIndex = 66647;
+	inline static constexpr unsigned int UIABInLevelShopWidgetController___c__DisplayClass23_1_TypeDefinitionIndex = 85635;
 
 	class UIABInLevelShopWidgetController___c__DisplayClass23_1 : public ::System::Object
 	{
 	public:
-		::Class_2_A0FAD1BA1AF1830A_Class_2_CECA08025CFAE8D2* freeView; // 0x10
+		::Class_2_0EA736F4D47F3203_Class_2_CECA08025CFAE8D2* freeView; // 0x10
 
 		::System::Void _ctor()
 		{

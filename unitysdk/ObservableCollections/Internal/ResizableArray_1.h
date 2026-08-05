@@ -4,7 +4,7 @@
 
 namespace ObservableCollections::Internal
 {
-	inline static constexpr unsigned int ResizableArray_1_TypeDefinitionIndex = 28027;
+	inline static constexpr unsigned int ResizableArray_1_TypeDefinitionIndex = 28679;
 
 	template <typename T>
 	struct ResizableArray_1

@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define NPCCROWD_AI_PATHSECTIONASSETSO_SECTIONPATHDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xE8A82D0)
+#define NPCCROWD_AI_PATHSECTIONASSETSO_SECTIONPATHDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x112785A0)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int PathSectionAssetSO_SectionPathData_TypeDefinitionIndex = 43800;
+	inline static constexpr unsigned int PathSectionAssetSO_SectionPathData_TypeDefinitionIndex = 43058;
 
 	class PathSectionAssetSO_SectionPathData : public ::System::Object
 	{

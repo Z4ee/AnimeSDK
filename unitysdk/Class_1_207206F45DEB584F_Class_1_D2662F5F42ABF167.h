@@ -8,22 +8,27 @@ namespace MoleMole::Cameras { class VariableCameraConfig; }
 namespace PipelineCamera { class ICameraDataBlender; }
 namespace PipelineCamera { template <typename T> class ICameraSubModule_1; }
 
-#define CLASS_1_207206F45DEB584F_CLASS_1_D2662F5F42ABF167_METHOD_1_5DD1CA58A72344DF_OFFSET UNITYSDK_OFFSET(0x1281B1C0)
-#define CLASS_1_207206F45DEB584F_CLASS_1_D2662F5F42ABF167_METHOD_1_C55A316994EE42B9_OFFSET UNITYSDK_OFFSET(0x1281B270)
-#define CLASS_1_207206F45DEB584F_CLASS_1_D2662F5F42ABF167_METHOD_1_FBE68D21FE195CD4_OFFSET UNITYSDK_OFFSET(0x1281B330)
-#define CLASS_1_207206F45DEB584F_CLASS_1_D2662F5F42ABF167__CTOR_OFFSET UNITYSDK_OFFSET(0x1281B1B0)
+#define CLASS_1_207206F45DEB584F_CLASS_1_D2662F5F42ABF167_METHOD_1_5DD1CA58A72344DF_OFFSET UNITYSDK_OFFSET(0x14EF75F0)
+#define CLASS_1_207206F45DEB584F_CLASS_1_D2662F5F42ABF167_METHOD_1_C55A316994EE42B9_OFFSET UNITYSDK_OFFSET(0x14EF76A0)
+#define CLASS_1_207206F45DEB584F_CLASS_1_D2662F5F42ABF167_METHOD_1_FBE68D21FE195CD4_OFFSET UNITYSDK_OFFSET(0x14EF7570)
+#define CLASS_1_207206F45DEB584F_CLASS_1_D2662F5F42ABF167__CTOR_OFFSET UNITYSDK_OFFSET(0x14EF7560)
 
-inline static constexpr unsigned int Class_1_207206F45DEB584F_Class_1_D2662F5F42ABF167_TypeDefinitionIndex = 48925;
+inline static constexpr unsigned int Class_1_207206F45DEB584F_Class_1_D2662F5F42ABF167_TypeDefinitionIndex = 75823;
 
 class Class_1_207206F45DEB584F_Class_1_D2662F5F42ABF167 : public ::System::Object
 {
 public:
-	::Class_1_207206F45DEB584F* Field_1_0; // 0x10
-	::MoleMole::Cameras::VariableCameraConfig* Field_1_1; // 0x18
+	::MoleMole::Cameras::VariableCameraConfig* Field_1_0; // 0x10
+	::Class_1_207206F45DEB584F* Field_1_1; // 0x18
 
 	::System::Void _ctor()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_207206F45DEB584F_CLASS_1_D2662F5F42ABF167__CTOR_OFFSET))(this);
+	}
+
+	::PipelineCamera::ICameraDataBlender* Method_1_FBE68D21FE195CD4(::PipelineCamera::ICameraDataBlender* a1)
+	{
+		return ((::PipelineCamera::ICameraDataBlender*(*)(::PVOID, ::PipelineCamera::ICameraDataBlender*))((::PBYTE)hIl2Cpp + CLASS_1_207206F45DEB584F_CLASS_1_D2662F5F42ABF167_METHOD_1_FBE68D21FE195CD4_OFFSET))(this, a1);
 	}
 
 	::System::Void Method_1_5DD1CA58A72344DF(::PipelineCamera::ICameraSubModule_1<::PipelineCamera::WorldBasicCameraData>* a1)
@@ -34,10 +39,5 @@ public:
 	::PipelineCamera::ICameraSubModule_1<::PipelineCamera::WorldBasicCameraData>* Method_1_C55A316994EE42B9()
 	{
 		return ((::PipelineCamera::ICameraSubModule_1<::PipelineCamera::WorldBasicCameraData>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_207206F45DEB584F_CLASS_1_D2662F5F42ABF167_METHOD_1_C55A316994EE42B9_OFFSET))(this);
-	}
-
-	::PipelineCamera::ICameraDataBlender* Method_1_FBE68D21FE195CD4(::PipelineCamera::ICameraDataBlender* a1)
-	{
-		return ((::PipelineCamera::ICameraDataBlender*(*)(::PVOID, ::PipelineCamera::ICameraDataBlender*))((::PBYTE)hIl2Cpp + CLASS_1_207206F45DEB584F_CLASS_1_D2662F5F42ABF167_METHOD_1_FBE68D21FE195CD4_OFFSET))(this, a1);
 	}
 };

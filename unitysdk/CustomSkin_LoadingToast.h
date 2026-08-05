@@ -5,19 +5,19 @@
 
 namespace System { class String; }
 
-#define CUSTOMSKIN_LOADINGTOAST_INSTANCE_OFFSET UNITYSDK_OFFSET(0x15E02F50)
-#define CUSTOMSKIN_LOADINGTOAST_ONCLOSE_OFFSET UNITYSDK_OFFSET(0x15E03480)
-#define CUSTOMSKIN_LOADINGTOAST_ONSHOW_OFFSET UNITYSDK_OFFSET(0x15E031F0)
-#define CUSTOMSKIN_LOADINGTOAST__CTOR_OFFSET UNITYSDK_OFFSET(0x15E030F0)
+#define CUSTOMSKIN_LOADINGTOAST_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1652B1C0)
+#define CUSTOMSKIN_LOADINGTOAST_ONCLOSE_OFFSET UNITYSDK_OFFSET(0x1652B6F0)
+#define CUSTOMSKIN_LOADINGTOAST_ONSHOW_OFFSET UNITYSDK_OFFSET(0x1652B460)
+#define CUSTOMSKIN_LOADINGTOAST__CTOR_OFFSET UNITYSDK_OFFSET(0x1652B360)
 
-inline static constexpr unsigned int CustomSkin_LoadingToast_TypeDefinitionIndex = 78578;
+inline static constexpr unsigned int CustomSkin_LoadingToast_TypeDefinitionIndex = 69969;
 
 class CustomSkin_LoadingToast : public ::MiHoYo::SDK::PluginUI::MiHoYoSDKUIContainer
 {
 public:
 	static ::CustomSkin_LoadingToast** StaticGet__instance()
 	{
-		return (::CustomSkin_LoadingToast**)Il2CppClass::FromTypeDefinitionIndex(CustomSkin_LoadingToast_TypeDefinitionIndex)->GetStaticField(0x32840);
+		return (::CustomSkin_LoadingToast**)Il2CppClass::FromTypeDefinitionIndex(CustomSkin_LoadingToast_TypeDefinitionIndex)->GetStaticField(0x34D10);
 	}
 	// static const ::System::String* BlockTagCustomPUILoadingToast; // 0x0
 	::Foundation::Coroutine::CoroutineHandle blockHandle; // 0x18

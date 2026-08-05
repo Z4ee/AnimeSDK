@@ -6,26 +6,26 @@
 namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
 namespace System { class String; }
 
-#define NODECANVAS_TASKS_ACTIONS_GETINPUTAXIS_DO_OFFSET UNITYSDK_OFFSET(0x1C63B5B0)
-#define NODECANVAS_TASKS_ACTIONS_GETINPUTAXIS_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1C63B5A0)
-#define NODECANVAS_TASKS_ACTIONS_GETINPUTAXIS_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1C63B880)
-#define NODECANVAS_TASKS_ACTIONS_GETINPUTAXIS__CTOR_OFFSET UNITYSDK_OFFSET(0x1C63B890)
+#define NODECANVAS_TASKS_ACTIONS_GETINPUTAXIS_DO_OFFSET UNITYSDK_OFFSET(0x1DAF2BD0)
+#define NODECANVAS_TASKS_ACTIONS_GETINPUTAXIS_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1DAF2BC0)
+#define NODECANVAS_TASKS_ACTIONS_GETINPUTAXIS_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1DAF2EA0)
+#define NODECANVAS_TASKS_ACTIONS_GETINPUTAXIS__CTOR_OFFSET UNITYSDK_OFFSET(0x1DAF2EB0)
 
 namespace NodeCanvas::Tasks::Actions
 {
-	inline static constexpr unsigned int GetInputAxis_TypeDefinitionIndex = 29159;
+	inline static constexpr unsigned int GetInputAxis_TypeDefinitionIndex = 30554;
 
 	class GetInputAxis : public ::NodeCanvas::Framework::ActionTask
 	{
 	public:
-		::NodeCanvas::Framework::BBParameter_1<::System::String*>* yAxisName; // 0x60
-		::NodeCanvas::Framework::BBParameter_1<::System::Single>* multiplier; // 0x68
+		::NodeCanvas::Framework::BBParameter_1<::System::Single>* saveYAs; // 0x60
+		::NodeCanvas::Framework::BBParameter_1<::System::String*>* yAxisName; // 0x68
 		::NodeCanvas::Framework::BBParameter_1<::System::Single>* saveZAs; // 0x70
 		::NodeCanvas::Framework::BBParameter_1<::System::String*>* xAxisName; // 0x78
-		::NodeCanvas::Framework::BBParameter_1<::System::Single>* saveYAs; // 0x80
-		::NodeCanvas::Framework::BBParameter_1<::System::Single>* saveXAs; // 0x88
-		::NodeCanvas::Framework::BBParameter_1<::UnityEngine::Vector3>* saveAs; // 0x90
-		::NodeCanvas::Framework::BBParameter_1<::System::String*>* zAxisName; // 0x98
+		::NodeCanvas::Framework::BBParameter_1<::System::Single>* saveXAs; // 0x80
+		::NodeCanvas::Framework::BBParameter_1<::UnityEngine::Vector3>* saveAs; // 0x88
+		::NodeCanvas::Framework::BBParameter_1<::System::String*>* zAxisName; // 0x90
+		::NodeCanvas::Framework::BBParameter_1<::System::Single>* multiplier; // 0x98
 		::System::Boolean repeat; // 0xA0
 
 		::System::Void _ctor()

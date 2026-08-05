@@ -4,12 +4,12 @@
 #include "unitysdk/UnityEngine/Ray.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define FLOWCANVAS_NODES_NEWRAY_INVOKE_OFFSET UNITYSDK_OFFSET(0x1D5330D0)
-#define FLOWCANVAS_NODES_NEWRAY__CTOR_OFFSET UNITYSDK_OFFSET(0x1D533170)
+#define FLOWCANVAS_NODES_NEWRAY_INVOKE_OFFSET UNITYSDK_OFFSET(0x1E22AC80)
+#define FLOWCANVAS_NODES_NEWRAY__CTOR_OFFSET UNITYSDK_OFFSET(0x1E22AD00)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int NewRay_TypeDefinitionIndex = 29949;
+	inline static constexpr unsigned int NewRay_TypeDefinitionIndex = 31099;
 
 	class NewRay : public ::FlowCanvas::Nodes::PureFunctionNode_3<::UnityEngine::Ray, ::UnityEngine::Vector3, ::UnityEngine::Vector3>
 	{

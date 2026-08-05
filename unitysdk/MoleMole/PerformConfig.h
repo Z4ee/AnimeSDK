@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_PERFORMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x11648280)
+#define MOLEMOLE_PERFORMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x11D5BD50)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int PerformConfig_TypeDefinitionIndex = 84628;
+	inline static constexpr unsigned int PerformConfig_TypeDefinitionIndex = 47573;
 
 	class PerformConfig : public ::System::Object
 	{
@@ -17,9 +17,9 @@ namespace MoleMole
 		::System::String* CameraProcess; // 0x18
 		::System::Int32 AnimatorKey; // 0x20
 		::System::Single delayUIShowTime; // 0x24
-		::System::Single DelayTime; // 0x28
+		::System::Single delayColliderTime; // 0x28
 		::System::Single PosStartDelayTime; // 0x2C
-		::System::Single delayColliderTime; // 0x30
+		::System::Single DelayTime; // 0x30
 
 		::System::Void _ctor()
 		{

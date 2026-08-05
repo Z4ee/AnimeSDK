@@ -1,26 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_5AA2BE468EDCE452.h"
+#include "unitysdk/Class_1_D33A7AE9308D51C5.h"
 #include "unitysdk/UnityEngine/RaycastHit.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
 class Class_1_BAB420867AF96826;
 namespace MoleMole::Battle { class Entity; }
 
-#define CLASS_2_EF336857BF04AE56_METHOD_2_A1D8CD775DEC3C21_OFFSET UNITYSDK_OFFSET(0x1507CCB0)
-#define CLASS_2_EF336857BF04AE56_METHOD_2_AAC75019828D2D67_OFFSET UNITYSDK_OFFSET(0x1507CD00)
-#define CLASS_2_EF336857BF04AE56_METHOD_2_FAF2019E9E5ACB8F_OFFSET UNITYSDK_OFFSET(0x1507D6B0)
-#define CLASS_2_EF336857BF04AE56__CTOR_OFFSET UNITYSDK_OFFSET(0x1507CC60)
+#define CLASS_2_EF336857BF04AE56_METHOD_2_A1D8CD775DEC3C21_OFFSET UNITYSDK_OFFSET(0xE22DB80)
+#define CLASS_2_EF336857BF04AE56_METHOD_2_AAC75019828D2D67_OFFSET UNITYSDK_OFFSET(0xE22DBD0)
+#define CLASS_2_EF336857BF04AE56_METHOD_2_FAF2019E9E5ACB8F_OFFSET UNITYSDK_OFFSET(0xE22E6A0)
+#define CLASS_2_EF336857BF04AE56__CTOR_OFFSET UNITYSDK_OFFSET(0xE22DB30)
 
-inline static constexpr unsigned int Class_2_EF336857BF04AE56_TypeDefinitionIndex = 72198;
+inline static constexpr unsigned int Class_2_EF336857BF04AE56_TypeDefinitionIndex = 79962;
 
-class Class_2_EF336857BF04AE56 : public ::Class_1_5AA2BE468EDCE452
+class Class_2_EF336857BF04AE56 : public ::Class_1_D33A7AE9308D51C5
 {
 public:
-	::Il2CppArray<::UnityEngine::RaycastHit>* Field_2_3; // 0x40
+	::Il2CppArray<::UnityEngine::RaycastHit>* Field_2_6; // 0x40
 	::System::Single Field_2_1; // 0x48
 	::System::Single Field_2_0; // 0x4C
-	::System::Single Field_2_2; // 0x50
+	::System::Single Field_2_7; // 0x50
 
 	::System::Void _ctor(::MoleMole::Battle::Entity* a1)
 	{

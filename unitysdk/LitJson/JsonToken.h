@@ -3,22 +3,22 @@
 
 namespace LitJson
 {
-	inline static constexpr unsigned int JsonToken_TypeDefinitionIndex = 7811;
+	inline static constexpr unsigned int JsonToken_TypeDefinitionIndex = 7949;
 
 	enum class JsonToken : ::System::Int32
 	{
-		PropertyName = 2,
-		Null = 12,
-		Boolean = 10,
-		ArrayStart = 4,
 		String = 9,
-		ObjectEnd = 3,
+		Null = 12,
 		ArrayEnd = 5,
-		Long = 7,
-		None = 0,
 		Double = 8,
-		Int = 6,
-		Comment = 11,
+		ArrayStart = 4,
 		ObjectStart = 1,
+		ObjectEnd = 3,
+		Comment = 11,
+		Int = 6,
+		None = 0,
+		PropertyName = 2,
+		Boolean = 10,
+		Long = 7,
 	};
 }

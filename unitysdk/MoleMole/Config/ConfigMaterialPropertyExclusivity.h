@@ -7,11 +7,11 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGMATERIALPROPERTYEXCLUSIVITY__CTOR_OFFSET UNITYSDK_OFFSET(0x10D0AEC0)
+#define MOLEMOLE_CONFIG_CONFIGMATERIALPROPERTYEXCLUSIVITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1170ACD0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigMaterialPropertyExclusivity_TypeDefinitionIndex = 68386;
+	inline static constexpr unsigned int ConfigMaterialPropertyExclusivity_TypeDefinitionIndex = 46925;
 
 	class ConfigMaterialPropertyExclusivity : public ::Foundation::MihoyoSerializedScriptableObject
 	{

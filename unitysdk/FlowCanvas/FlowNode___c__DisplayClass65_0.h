@@ -5,12 +5,12 @@
 namespace FlowCanvas { class Port; }
 namespace System { class Type; }
 
-#define FLOWCANVAS_FLOWNODE___C__DISPLAYCLASS65_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C61F680)
-#define FLOWCANVAS_FLOWNODE___C__DISPLAYCLASS65_0__GETFIRSTOUTPUTOFTYPE_B__1_OFFSET UNITYSDK_OFFSET(0x1C61F690)
+#define FLOWCANVAS_FLOWNODE___C__DISPLAYCLASS65_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1DAD7130)
+#define FLOWCANVAS_FLOWNODE___C__DISPLAYCLASS65_0__GETFIRSTOUTPUTOFTYPE_B__1_OFFSET UNITYSDK_OFFSET(0x1DAD7140)
 
 namespace FlowCanvas
 {
-	inline static constexpr unsigned int FlowNode___c__DisplayClass65_0_TypeDefinitionIndex = 30611;
+	inline static constexpr unsigned int FlowNode___c__DisplayClass65_0_TypeDefinitionIndex = 31246;
 
 	class FlowNode___c__DisplayClass65_0 : public ::System::Object
 	{

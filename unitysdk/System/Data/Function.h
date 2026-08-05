@@ -6,28 +6,28 @@
 namespace System { class String; }
 namespace System { class Type; }
 
-#define SYSTEM_DATA_FUNCTION__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CD54F90)
-#define SYSTEM_DATA_FUNCTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1CD54D60)
-#define SYSTEM_DATA_FUNCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD54CF0)
+#define SYSTEM_DATA_FUNCTION__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E10E070)
+#define SYSTEM_DATA_FUNCTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E10DE40)
+#define SYSTEM_DATA_FUNCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1E10DDE0)
 
 namespace System::Data
 {
-	inline static constexpr unsigned int Function_TypeDefinitionIndex = 38646;
+	inline static constexpr unsigned int Function_TypeDefinitionIndex = 39307;
 
 	class Function : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::String*>** StaticGet_s_functionName()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Function_TypeDefinitionIndex)->GetStaticField(0x290D0);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Function_TypeDefinitionIndex)->GetStaticField(0x2AA00);
 		}
-		::System::String* _name; // 0x10
+		::System::Type* _result; // 0x10
 		::Il2CppArray<::System::Type*>* _parameters; // 0x18
-		::System::Type* _result; // 0x20
+		::System::String* _name; // 0x20
 		::System::Data::FunctionId _id; // 0x28
-		::System::Boolean _isVariantArgumentList; // 0x2C
-		::System::Boolean _isValidateArguments; // 0x2D
-		::System::Int32 _argumentCount; // 0x30
+		::System::Int32 _argumentCount; // 0x2C
+		::System::Boolean _isVariantArgumentList; // 0x30
+		::System::Boolean _isValidateArguments; // 0x31
 
 		::System::Void _ctor()
 		{

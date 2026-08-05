@@ -6,19 +6,19 @@ namespace MiHoYo::SDK { class JSONArray; }
 namespace MiHoYo::SDK::Base::GoodsPlatform { class GoodsPlatformManager___c__DisplayClass9_0; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_BASE_GOODSPLATFORM_GOODSPLATFORMMANAGER___C__DISPLAYCLASS9_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1C55FB80)
-#define MIHOYO_SDK_BASE_GOODSPLATFORM_GOODSPLATFORMMANAGER___C__DISPLAYCLASS9_1__RETRIEVEGOODSLIST_B__1_OFFSET UNITYSDK_OFFSET(0x1C55FB90)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_GOODSPLATFORMMANAGER___C__DISPLAYCLASS9_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1D9FBC00)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_GOODSPLATFORMMANAGER___C__DISPLAYCLASS9_1__RETRIEVEGOODSLIST_B__1_OFFSET UNITYSDK_OFFSET(0x1D9FBC10)
 
 namespace MiHoYo::SDK::Base::GoodsPlatform
 {
-	inline static constexpr unsigned int GoodsPlatformManager___c__DisplayClass9_1_TypeDefinitionIndex = 20590;
+	inline static constexpr unsigned int GoodsPlatformManager___c__DisplayClass9_1_TypeDefinitionIndex = 20937;
 
 	class GoodsPlatformManager___c__DisplayClass9_1 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::Base::GoodsPlatform::GoodsPlatformManager___c__DisplayClass9_0* CS___8__locals1; // 0x10
+		::MiHoYo::SDK::JSONArray* goods; // 0x10
 		::System::String* message; // 0x18
-		::MiHoYo::SDK::JSONArray* goods; // 0x20
+		::MiHoYo::SDK::Base::GoodsPlatform::GoodsPlatformManager___c__DisplayClass9_0* CS___8__locals1; // 0x20
 		::System::Int32 code; // 0x28
 		::System::Int64 listGoodsTime; // 0x30
 

@@ -6,18 +6,18 @@ class Class_1_D7305149E3DC417E;
 namespace MoleMole { class UIHollowMainBottomWidgetController___c__DisplayClass49_0; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIHOLLOWMAINBOTTOMWIDGETCONTROLLER___C__DISPLAYCLASS49_2__CTOR_OFFSET UNITYSDK_OFFSET(0x16ACC190)
-#define MOLEMOLE_UIHOLLOWMAINBOTTOMWIDGETCONTROLLER___C__DISPLAYCLASS49_2__PLAYGETCOINANIM_B__1_OFFSET UNITYSDK_OFFSET(0x16ACC1A0)
+#define MOLEMOLE_UIHOLLOWMAINBOTTOMWIDGETCONTROLLER___C__DISPLAYCLASS49_2__CTOR_OFFSET UNITYSDK_OFFSET(0x18842630)
+#define MOLEMOLE_UIHOLLOWMAINBOTTOMWIDGETCONTROLLER___C__DISPLAYCLASS49_2__PLAYGETCOINANIM_B__1_OFFSET UNITYSDK_OFFSET(0x18842640)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowMainBottomWidgetController___c__DisplayClass49_2_TypeDefinitionIndex = 47530;
+	inline static constexpr unsigned int UIHollowMainBottomWidgetController___c__DisplayClass49_2_TypeDefinitionIndex = 83693;
 
 	class UIHollowMainBottomWidgetController___c__DisplayClass49_2 : public ::System::Object
 	{
 	public:
-		::Class_1_D7305149E3DC417E* item; // 0x10
-		::MoleMole::UIHollowMainBottomWidgetController___c__DisplayClass49_0* CS___8__locals2; // 0x18
+		::MoleMole::UIHollowMainBottomWidgetController___c__DisplayClass49_0* CS___8__locals2; // 0x10
+		::Class_1_D7305149E3DC417E* item; // 0x18
 
 		::System::Void _ctor()
 		{

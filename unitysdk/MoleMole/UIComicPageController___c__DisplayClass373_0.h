@@ -6,12 +6,12 @@ namespace MoleMole { class UIComicPageController; }
 namespace MoleMole::Comic { class MonoComicEventBase; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UICOMICPAGECONTROLLER___C__DISPLAYCLASS373_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14C1A950)
-#define MOLEMOLE_UICOMICPAGECONTROLLER___C__DISPLAYCLASS373_0__TRIGGERCLEAREVENT_B__0_OFFSET UNITYSDK_OFFSET(0x14C1A960)
+#define MOLEMOLE_UICOMICPAGECONTROLLER___C__DISPLAYCLASS373_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1605FDF0)
+#define MOLEMOLE_UICOMICPAGECONTROLLER___C__DISPLAYCLASS373_0__TRIGGERCLEAREVENT_B__0_OFFSET UNITYSDK_OFFSET(0x1605FE00)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIComicPageController___c__DisplayClass373_0_TypeDefinitionIndex = 46628;
+	inline static constexpr unsigned int UIComicPageController___c__DisplayClass373_0_TypeDefinitionIndex = 87091;
 
 	class UIComicPageController___c__DisplayClass373_0 : public ::System::Object
 	{

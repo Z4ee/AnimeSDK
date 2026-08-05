@@ -7,7 +7,7 @@ namespace System::Collections::ObjectModel { template <typename T> class ReadOnl
 
 namespace Utf8Json::Formatters
 {
-	inline static constexpr unsigned int ReadOnlyCollectionFormatter_1_TypeDefinitionIndex = 91288;
+	inline static constexpr unsigned int ReadOnlyCollectionFormatter_1_TypeDefinitionIndex = 95221;
 
 	template <typename T>
 	class ReadOnlyCollectionFormatter_1 : public ::Utf8Json::Formatters::CollectionFormatterBase_3<T, ::Utf8Json::Internal::ArrayBuffer_1<T>, ::System::Collections::ObjectModel::ReadOnlyCollection_1<T>*>

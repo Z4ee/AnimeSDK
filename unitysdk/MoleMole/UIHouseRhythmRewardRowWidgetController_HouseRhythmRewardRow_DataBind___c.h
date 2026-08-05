@@ -4,24 +4,24 @@
 
 namespace System { template <typename T> class Func_1; }
 
-#define MOLEMOLE_UIHOUSERHYTHMREWARDROWWIDGETCONTROLLER_HOUSERHYTHMREWARDROW_DATABIND___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x146A0B60)
-#define MOLEMOLE_UIHOUSERHYTHMREWARDROWWIDGETCONTROLLER_HOUSERHYTHMREWARDROW_DATABIND___C__CTOR_OFFSET UNITYSDK_OFFSET(0x146A0BA0)
-#define MOLEMOLE_UIHOUSERHYTHMREWARDROWWIDGETCONTROLLER_HOUSERHYTHMREWARDROW_DATABIND___C__ONCREATEPROPERTY_B__16_0_OFFSET UNITYSDK_OFFSET(0x146A0BB0)
+#define MOLEMOLE_UIHOUSERHYTHMREWARDROWWIDGETCONTROLLER_HOUSERHYTHMREWARDROW_DATABIND___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x164D85F0)
+#define MOLEMOLE_UIHOUSERHYTHMREWARDROWWIDGETCONTROLLER_HOUSERHYTHMREWARDROW_DATABIND___C__CTOR_OFFSET UNITYSDK_OFFSET(0x164D8630)
+#define MOLEMOLE_UIHOUSERHYTHMREWARDROWWIDGETCONTROLLER_HOUSERHYTHMREWARDROW_DATABIND___C__ONCREATEPROPERTY_B__16_0_OFFSET UNITYSDK_OFFSET(0x164D8640)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHouseRhythmRewardRowWidgetController_HouseRhythmRewardRow_DataBind___c_TypeDefinitionIndex = 71812;
+	inline static constexpr unsigned int UIHouseRhythmRewardRowWidgetController_HouseRhythmRewardRow_DataBind___c_TypeDefinitionIndex = 53647;
 
 	class UIHouseRhythmRewardRowWidgetController_HouseRhythmRewardRow_DataBind___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_1<::System::Boolean>** StaticGet___9__16_0()
 		{
-			return (::System::Func_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIHouseRhythmRewardRowWidgetController_HouseRhythmRewardRow_DataBind___c_TypeDefinitionIndex)->GetStaticField(0x3A370);
+			return (::System::Func_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIHouseRhythmRewardRowWidgetController_HouseRhythmRewardRow_DataBind___c_TypeDefinitionIndex)->GetStaticField(0x3D110);
 		}
 		static ::MoleMole::UIHouseRhythmRewardRowWidgetController_HouseRhythmRewardRow_DataBind___c** StaticGet___9()
 		{
-			return (::MoleMole::UIHouseRhythmRewardRowWidgetController_HouseRhythmRewardRow_DataBind___c**)Il2CppClass::FromTypeDefinitionIndex(UIHouseRhythmRewardRowWidgetController_HouseRhythmRewardRow_DataBind___c_TypeDefinitionIndex)->GetStaticField(0x3A378);
+			return (::MoleMole::UIHouseRhythmRewardRowWidgetController_HouseRhythmRewardRow_DataBind___c**)Il2CppClass::FromTypeDefinitionIndex(UIHouseRhythmRewardRowWidgetController_HouseRhythmRewardRow_DataBind___c_TypeDefinitionIndex)->GetStaticField(0x3D118);
 		}
 
 		static ::System::Void _cctor()

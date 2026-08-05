@@ -1,32 +1,33 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Share/EAvatarSkillType.h"
 #include "unitysdk/System/Object.h"
 
+class Class_2_208CC9941471731A_443;
 namespace System { class String; }
 
-#define MOLEMOLE_UIROLESKILLINFOROWCHILDWINDOWCONTROLLER___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15F3BC10)
-#define MOLEMOLE_UIROLESKILLINFOROWCHILDWINDOWCONTROLLER___C__DISPLAYCLASS17_0__SHOWSKILLDETAILVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x15F3BC20)
+#define MOLEMOLE_UIROLESKILLINFOROWCHILDWINDOWCONTROLLER___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0x13005610)
+#define MOLEMOLE_UIROLESKILLINFOROWCHILDWINDOWCONTROLLER___C__DISPLAYCLASS17_0__SHOWSKILLPASSIVEVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x13005620)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRoleSkillInfoRowChildWindowController___c__DisplayClass17_0_TypeDefinitionIndex = 43010;
+	inline static constexpr unsigned int UIRoleSkillInfoRowChildWindowController___c__DisplayClass17_0_TypeDefinitionIndex = 62273;
 
 	class UIRoleSkillInfoRowChildWindowController___c__DisplayClass17_0 : public ::System::Object
 	{
 	public:
-		::System::String* detailDescKey; // 0x10
-		::Share::EAvatarSkillType type; // 0x18
-		::System::Int32 level; // 0x1C
+		::Class_2_208CC9941471731A_443* template_; // 0x10
+		::System::Int32 index; // 0x18
+		::System::Boolean isSimple; // 0x1C
+		::System::Int32 level; // 0x20
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIROLESKILLINFOROWCHILDWINDOWCONTROLLER___C__DISPLAYCLASS17_0__CTOR_OFFSET))(this);
 		}
 
-		::System::String* _ShowSkillDetailView_b__0()
+		::System::String* _ShowSkillPassiveView_b__0()
 		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIROLESKILLINFOROWCHILDWINDOWCONTROLLER___C__DISPLAYCLASS17_0__SHOWSKILLDETAILVIEW_B__0_OFFSET))(this);
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIROLESKILLINFOROWCHILDWINDOWCONTROLLER___C__DISPLAYCLASS17_0__SHOWSKILLPASSIVEVIEW_B__0_OFFSET))(this);
 		}
 	};
 }

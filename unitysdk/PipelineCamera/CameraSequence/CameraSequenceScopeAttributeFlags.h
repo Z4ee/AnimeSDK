@@ -3,7 +3,7 @@
 
 namespace PipelineCamera::CameraSequence
 {
-	inline static constexpr unsigned int CameraSequenceScopeAttributeFlags_TypeDefinitionIndex = 37925;
+	inline static constexpr unsigned int CameraSequenceScopeAttributeFlags_TypeDefinitionIndex = 38586;
 
 	enum class CameraSequenceScopeAttributeFlags : ::System::Int32
 	{

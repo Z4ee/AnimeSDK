@@ -6,7 +6,7 @@ namespace FluffyUnderware::Curvy { template <typename T> class CurvyInterpolatab
 
 namespace FluffyUnderware::Curvy
 {
-	inline static constexpr unsigned int CurvyInterpolatableMetadataBase_1_TypeDefinitionIndex = 38921;
+	inline static constexpr unsigned int CurvyInterpolatableMetadataBase_1_TypeDefinitionIndex = 39484;
 
 	template <typename T>
 	class CurvyInterpolatableMetadataBase_1 : public ::FluffyUnderware::Curvy::CurvyMetadataBase

@@ -11,59 +11,59 @@ namespace MoleMole::Timeline { class Vector4RecorderUnit; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MOLEMOLE_TIMELINE_MATERIALINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E866500)
-#define MOLEMOLE_TIMELINE_MATERIALINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1E866540)
-#define MOLEMOLE_TIMELINE_MATERIALINFO___C__GETRECOVERPROPERTIES_B__27_0_OFFSET UNITYSDK_OFFSET(0x1E866550)
-#define MOLEMOLE_TIMELINE_MATERIALINFO___C__GETRECOVERPROPERTIES_B__27_1_OFFSET UNITYSDK_OFFSET(0x1E866570)
-#define MOLEMOLE_TIMELINE_MATERIALINFO___C__GETRECOVERPROPERTIES_B__27_2_OFFSET UNITYSDK_OFFSET(0x1E866590)
-#define MOLEMOLE_TIMELINE_MATERIALINFO___C__GETRECOVERPROPERTIES_B__27_3_OFFSET UNITYSDK_OFFSET(0x1E8665B0)
-#define MOLEMOLE_TIMELINE_MATERIALINFO___C__SETKEYWORDS_B__48_0_OFFSET UNITYSDK_OFFSET(0x1E8665D0)
-#define MOLEMOLE_TIMELINE_MATERIALINFO___C__SETKEYWORDS_B__48_1_OFFSET UNITYSDK_OFFSET(0x1E8665F0)
-#define MOLEMOLE_TIMELINE_MATERIALINFO___C__SETKEYWORDS_B__49_0_OFFSET UNITYSDK_OFFSET(0x1E866610)
-#define MOLEMOLE_TIMELINE_MATERIALINFO___C__SETKEYWORDS_B__49_1_OFFSET UNITYSDK_OFFSET(0x1E866660)
+#define MOLEMOLE_TIMELINE_MATERIALINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FC16D20)
+#define MOLEMOLE_TIMELINE_MATERIALINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1FC16D60)
+#define MOLEMOLE_TIMELINE_MATERIALINFO___C__GETRECOVERPROPERTIES_B__27_0_OFFSET UNITYSDK_OFFSET(0x1FC16D70)
+#define MOLEMOLE_TIMELINE_MATERIALINFO___C__GETRECOVERPROPERTIES_B__27_1_OFFSET UNITYSDK_OFFSET(0x1FC16D90)
+#define MOLEMOLE_TIMELINE_MATERIALINFO___C__GETRECOVERPROPERTIES_B__27_2_OFFSET UNITYSDK_OFFSET(0x1FC16DB0)
+#define MOLEMOLE_TIMELINE_MATERIALINFO___C__GETRECOVERPROPERTIES_B__27_3_OFFSET UNITYSDK_OFFSET(0x1FC16DD0)
+#define MOLEMOLE_TIMELINE_MATERIALINFO___C__SETKEYWORDS_B__48_0_OFFSET UNITYSDK_OFFSET(0x1FC16DF0)
+#define MOLEMOLE_TIMELINE_MATERIALINFO___C__SETKEYWORDS_B__48_1_OFFSET UNITYSDK_OFFSET(0x1FC16E10)
+#define MOLEMOLE_TIMELINE_MATERIALINFO___C__SETKEYWORDS_B__49_0_OFFSET UNITYSDK_OFFSET(0x1FC16E30)
+#define MOLEMOLE_TIMELINE_MATERIALINFO___C__SETKEYWORDS_B__49_1_OFFSET UNITYSDK_OFFSET(0x1FC16E80)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int MaterialInfo___c_TypeDefinitionIndex = 32178;
+	inline static constexpr unsigned int MaterialInfo___c_TypeDefinitionIndex = 32808;
 
 	class MaterialInfo___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::MoleMole::Timeline::TextureRecorderUnit*, ::System::Int32>** StaticGet___9__27_1()
+		static ::System::Func_2<::MoleMole::Timeline::Vector4RecorderUnit*, ::System::Int32>** StaticGet___9__27_3()
 		{
-			return (::System::Func_2<::MoleMole::Timeline::TextureRecorderUnit*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(MaterialInfo___c_TypeDefinitionIndex)->GetStaticField(0x26AC0);
-		}
-		static ::System::Func_2<::MoleMole::Timeline::FloatRecorderUnit*, ::System::Single>** StaticGet___9__48_1()
-		{
-			return (::System::Func_2<::MoleMole::Timeline::FloatRecorderUnit*, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(MaterialInfo___c_TypeDefinitionIndex)->GetStaticField(0x26AC8);
-		}
-		static ::System::Func_2<::MoleMole::Timeline::ColorRecorderUnit*, ::System::Int32>** StaticGet___9__27_2()
-		{
-			return (::System::Func_2<::MoleMole::Timeline::ColorRecorderUnit*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(MaterialInfo___c_TypeDefinitionIndex)->GetStaticField(0x26AD0);
-		}
-		static ::MoleMole::Timeline::MaterialInfo___c** StaticGet___9()
-		{
-			return (::MoleMole::Timeline::MaterialInfo___c**)Il2CppClass::FromTypeDefinitionIndex(MaterialInfo___c_TypeDefinitionIndex)->GetStaticField(0x26AD8);
-		}
-		static ::System::Func_2<::MoleMole::Timeline::FloatRecorderUnit*, ::System::Int32>** StaticGet___9__27_0()
-		{
-			return (::System::Func_2<::MoleMole::Timeline::FloatRecorderUnit*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(MaterialInfo___c_TypeDefinitionIndex)->GetStaticField(0x26AE0);
-		}
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::MoleMole::Timeline::KeyframeMBP*>, ::System::Single>** StaticGet___9__49_1()
-		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::MoleMole::Timeline::KeyframeMBP*>, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(MaterialInfo___c_TypeDefinitionIndex)->GetStaticField(0x26AE8);
+			return (::System::Func_2<::MoleMole::Timeline::Vector4RecorderUnit*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(MaterialInfo___c_TypeDefinitionIndex)->GetStaticField(0x282D0);
 		}
 		static ::System::Func_2<::MoleMole::Timeline::FloatRecorderUnit*, ::System::String*>** StaticGet___9__48_0()
 		{
-			return (::System::Func_2<::MoleMole::Timeline::FloatRecorderUnit*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MaterialInfo___c_TypeDefinitionIndex)->GetStaticField(0x26AF0);
+			return (::System::Func_2<::MoleMole::Timeline::FloatRecorderUnit*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MaterialInfo___c_TypeDefinitionIndex)->GetStaticField(0x282D8);
+		}
+		static ::System::Func_2<::MoleMole::Timeline::ColorRecorderUnit*, ::System::Int32>** StaticGet___9__27_2()
+		{
+			return (::System::Func_2<::MoleMole::Timeline::ColorRecorderUnit*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(MaterialInfo___c_TypeDefinitionIndex)->GetStaticField(0x282E0);
+		}
+		static ::System::Func_2<::MoleMole::Timeline::FloatRecorderUnit*, ::System::Single>** StaticGet___9__48_1()
+		{
+			return (::System::Func_2<::MoleMole::Timeline::FloatRecorderUnit*, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(MaterialInfo___c_TypeDefinitionIndex)->GetStaticField(0x282E8);
+		}
+		static ::MoleMole::Timeline::MaterialInfo___c** StaticGet___9()
+		{
+			return (::MoleMole::Timeline::MaterialInfo___c**)Il2CppClass::FromTypeDefinitionIndex(MaterialInfo___c_TypeDefinitionIndex)->GetStaticField(0x282F0);
+		}
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::MoleMole::Timeline::KeyframeMBP*>, ::System::Single>** StaticGet___9__49_1()
+		{
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::MoleMole::Timeline::KeyframeMBP*>, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(MaterialInfo___c_TypeDefinitionIndex)->GetStaticField(0x282F8);
 		}
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::MoleMole::Timeline::KeyframeMBP*>, ::System::String*>** StaticGet___9__49_0()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::MoleMole::Timeline::KeyframeMBP*>, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MaterialInfo___c_TypeDefinitionIndex)->GetStaticField(0x26AF8);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::MoleMole::Timeline::KeyframeMBP*>, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MaterialInfo___c_TypeDefinitionIndex)->GetStaticField(0x28300);
 		}
-		static ::System::Func_2<::MoleMole::Timeline::Vector4RecorderUnit*, ::System::Int32>** StaticGet___9__27_3()
+		static ::System::Func_2<::MoleMole::Timeline::FloatRecorderUnit*, ::System::Int32>** StaticGet___9__27_0()
 		{
-			return (::System::Func_2<::MoleMole::Timeline::Vector4RecorderUnit*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(MaterialInfo___c_TypeDefinitionIndex)->GetStaticField(0x26B00);
+			return (::System::Func_2<::MoleMole::Timeline::FloatRecorderUnit*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(MaterialInfo___c_TypeDefinitionIndex)->GetStaticField(0x28308);
+		}
+		static ::System::Func_2<::MoleMole::Timeline::TextureRecorderUnit*, ::System::Int32>** StaticGet___9__27_1()
+		{
+			return (::System::Func_2<::MoleMole::Timeline::TextureRecorderUnit*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(MaterialInfo___c_TypeDefinitionIndex)->GetStaticField(0x28310);
 		}
 
 		static ::System::Void _cctor()

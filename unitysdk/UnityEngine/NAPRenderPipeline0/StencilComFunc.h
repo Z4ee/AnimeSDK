@@ -3,7 +3,7 @@
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int StencilComFunc_TypeDefinitionIndex = 5858;
+	inline static constexpr unsigned int StencilComFunc_TypeDefinitionIndex = 5860;
 
 	enum class StencilComFunc : ::System::Int32
 	{

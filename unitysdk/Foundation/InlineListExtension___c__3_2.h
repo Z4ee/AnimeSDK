@@ -7,7 +7,7 @@ namespace System { template <typename T1, typename T2, typename T3> class Func_3
 
 namespace Foundation
 {
-	inline static constexpr unsigned int InlineListExtension___c__3_2_TypeDefinitionIndex = 8454;
+	inline static constexpr unsigned int InlineListExtension___c__3_2_TypeDefinitionIndex = 8880;
 
 	template <typename T, typename TFixedArray>
 	class InlineListExtension___c__3_2 : public ::System::Object

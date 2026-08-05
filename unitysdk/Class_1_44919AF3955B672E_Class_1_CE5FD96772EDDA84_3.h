@@ -4,14 +4,14 @@
 
 class Class_3_6F28FFD006F2B451;
 
-#define CLASS_1_44919AF3955B672E_CLASS_1_CE5FD96772EDDA84_3__CTOR_OFFSET UNITYSDK_OFFSET(0x1C3C1A90)
+#define CLASS_1_44919AF3955B672E_CLASS_1_CE5FD96772EDDA84_3__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF79910)
 
-inline static constexpr unsigned int Class_1_44919AF3955B672E_Class_1_CE5FD96772EDDA84_3_TypeDefinitionIndex = 87958;
+inline static constexpr unsigned int Class_1_44919AF3955B672E_Class_1_CE5FD96772EDDA84_3_TypeDefinitionIndex = 92038;
 
 class Class_1_44919AF3955B672E_Class_1_CE5FD96772EDDA84_3 : public ::System::Object
 {
 public:
-	::Class_3_6F28FFD006F2B451* Field_1_1; // 0x10
+	::Class_3_6F28FFD006F2B451* Field_1_7; // 0x10
 	::System::Boolean Field_1_0; // 0x18
 
 	::System::Void _ctor()

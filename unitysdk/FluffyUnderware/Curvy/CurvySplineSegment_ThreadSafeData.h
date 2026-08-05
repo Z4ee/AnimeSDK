@@ -6,18 +6,18 @@
 
 namespace FluffyUnderware::Curvy { class CurvySplineSegment; }
 
-#define FLUFFYUNDERWARE_CURVY_CURVYSPLINESEGMENT_THREADSAFEDATA_SET_OFFSET UNITYSDK_OFFSET(0x1D612E20)
-#define FLUFFYUNDERWARE_CURVY_CURVYSPLINESEGMENT_THREADSAFEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1D612E10)
+#define FLUFFYUNDERWARE_CURVY_CURVYSPLINESEGMENT_THREADSAFEDATA_SET_OFFSET UNITYSDK_OFFSET(0x1E9B0570)
+#define FLUFFYUNDERWARE_CURVY_CURVYSPLINESEGMENT_THREADSAFEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1E9B0560)
 
 namespace FluffyUnderware::Curvy
 {
-	inline static constexpr unsigned int CurvySplineSegment_ThreadSafeData_TypeDefinitionIndex = 39026;
+	inline static constexpr unsigned int CurvySplineSegment_ThreadSafeData_TypeDefinitionIndex = 39633;
 
 	class CurvySplineSegment_ThreadSafeData : public ::System::Object
 	{
 	public:
-		::UnityEngine::Vector3 ThreadSafeLocalPosition; // 0x10
-		::UnityEngine::Vector3 ThreadSafePreviousCpLocalPosition; // 0x1C
+		::UnityEngine::Vector3 ThreadSafePreviousCpLocalPosition; // 0x10
+		::UnityEngine::Vector3 ThreadSafeLocalPosition; // 0x1C
 		::UnityEngine::Vector3 ThreadSafeNextCpLocalPosition; // 0x28
 		::UnityEngine::Quaternion ThreadSafeLocalRotation; // 0x34
 

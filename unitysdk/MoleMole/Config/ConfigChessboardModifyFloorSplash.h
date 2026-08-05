@@ -6,12 +6,12 @@ class Class_1_D72537470FC2F779;
 namespace MoleMole::Config { class ConfigHollowChessboard_Flash; }
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGCHESSBOARDMODIFYFLOORSPLASH_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x162A8930)
-#define MOLEMOLE_CONFIG_CONFIGCHESSBOARDMODIFYFLOORSPLASH__CTOR_OFFSET UNITYSDK_OFFSET(0x162A89F0)
+#define MOLEMOLE_CONFIG_CONFIGCHESSBOARDMODIFYFLOORSPLASH_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x16C3B8F0)
+#define MOLEMOLE_CONFIG_CONFIGCHESSBOARDMODIFYFLOORSPLASH__CTOR_OFFSET UNITYSDK_OFFSET(0x16C3B9B0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigChessboardModifyFloorSplash_TypeDefinitionIndex = 83580;
+	inline static constexpr unsigned int ConfigChessboardModifyFloorSplash_TypeDefinitionIndex = 62195;
 
 	class ConfigChessboardModifyFloorSplash : public ::MoleMole::Config::ConfigUIBaseActionNode
 	{

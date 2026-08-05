@@ -4,18 +4,18 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_BUBBLECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x110A2710)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_BUBBLECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4CCF40)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowChessboard_BubbleConfig_TypeDefinitionIndex = 64412;
+	inline static constexpr unsigned int ConfigHollowChessboard_BubbleConfig_TypeDefinitionIndex = 59267;
 
 	class ConfigHollowChessboard_BubbleConfig : public ::System::Object
 	{
 	public:
 		::UnityEngine::AnimationCurve* NumberTimeCurve; // 0x10
-		::System::Single BubbleTotalTime; // 0x18
-		::System::Int32 NumberThreshold; // 0x1C
+		::System::Int32 NumberThreshold; // 0x18
+		::System::Single BubbleTotalTime; // 0x1C
 
 		::System::Void _ctor()
 		{

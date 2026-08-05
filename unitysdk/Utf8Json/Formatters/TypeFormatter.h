@@ -8,30 +8,30 @@ namespace System { class Type; }
 namespace System::Text::RegularExpressions { class Regex; }
 namespace Utf8Json { class IJsonFormatterResolver; }
 
-#define UTF8JSON_FORMATTERS_TYPEFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1E1629C0)
-#define UTF8JSON_FORMATTERS_TYPEFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1E162970)
-#define UTF8JSON_FORMATTERS_TYPEFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E162B80)
-#define UTF8JSON_FORMATTERS_TYPEFORMATTER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E162960)
-#define UTF8JSON_FORMATTERS_TYPEFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E162950)
+#define UTF8JSON_FORMATTERS_TYPEFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1F5A30D0)
+#define UTF8JSON_FORMATTERS_TYPEFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1F5A3080)
+#define UTF8JSON_FORMATTERS_TYPEFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F5A3290)
+#define UTF8JSON_FORMATTERS_TYPEFORMATTER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F5A3070)
+#define UTF8JSON_FORMATTERS_TYPEFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F5A3060)
 
 namespace Utf8Json::Formatters
 {
-	inline static constexpr unsigned int TypeFormatter_TypeDefinitionIndex = 91382;
+	inline static constexpr unsigned int TypeFormatter_TypeDefinitionIndex = 95315;
 
 	class TypeFormatter : public ::System::Object
 	{
 	public:
-		static ::System::Text::RegularExpressions::Regex** StaticGet_SubtractFullNameRegex()
-		{
-			return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(TypeFormatter_TypeDefinitionIndex)->GetStaticField(0x4EF80);
-		}
 		static ::Utf8Json::Formatters::TypeFormatter** StaticGet_Default()
 		{
-			return (::Utf8Json::Formatters::TypeFormatter**)Il2CppClass::FromTypeDefinitionIndex(TypeFormatter_TypeDefinitionIndex)->GetStaticField(0x4EF88);
+			return (::Utf8Json::Formatters::TypeFormatter**)Il2CppClass::FromTypeDefinitionIndex(TypeFormatter_TypeDefinitionIndex)->GetStaticField(0x53130);
 		}
-		::System::Boolean deserializeSubtractAssemblyQualifiedName; // 0x10
+		static ::System::Text::RegularExpressions::Regex** StaticGet_SubtractFullNameRegex()
+		{
+			return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(TypeFormatter_TypeDefinitionIndex)->GetStaticField(0x53138);
+		}
+		::System::Boolean throwOnError; // 0x10
 		::System::Boolean serializeAssemblyQualifiedName; // 0x11
-		::System::Boolean throwOnError; // 0x12
+		::System::Boolean deserializeSubtractAssemblyQualifiedName; // 0x12
 
 		::System::Void _ctor()
 		{

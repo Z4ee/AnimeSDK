@@ -3,15 +3,15 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-class Class_3_C3F0E3B5AB5977AE;
+class Class_3_C3F0E3B5AB5977AE_29;
 class MonoUITableScrollV2;
 namespace System { class Action; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 
-#define CLASS_1_9AD74D4CD48E713E_METHOD_1_291A8E50F0E05104_OFFSET UNITYSDK_OFFSET(0x13D6A940)
-#define CLASS_1_9AD74D4CD48E713E_METHOD_1_929FBF7FD1A60820_OFFSET UNITYSDK_OFFSET(0x13D6A0E0)
+#define CLASS_1_9AD74D4CD48E713E_METHOD_1_291A8E50F0E05104_OFFSET UNITYSDK_OFFSET(0x1290CEB0)
+#define CLASS_1_9AD74D4CD48E713E_METHOD_1_929FBF7FD1A60820_OFFSET UNITYSDK_OFFSET(0x1290C640)
 
-inline static constexpr unsigned int Class_1_9AD74D4CD48E713E_TypeDefinitionIndex = 51758;
+inline static constexpr unsigned int Class_1_9AD74D4CD48E713E_TypeDefinitionIndex = 44890;
 
 class Class_1_9AD74D4CD48E713E : public ::System::Object
 {
@@ -21,8 +21,8 @@ public:
 		return ((::System::Boolean(*)(::UnityEngine::Vector2, ::MonoUITableScrollV2*))((::PBYTE)hIl2Cpp + CLASS_1_9AD74D4CD48E713E_METHOD_1_929FBF7FD1A60820_OFFSET))(a1, a2);
 	}
 
-	static ::System::Boolean Method_1_291A8E50F0E05104(::MonoUITableScrollV2* a1, ::System::Int32 a2, ::System::Action* a3, ::System::Action* a4, ::System::Action_2<::Class_3_C3F0E3B5AB5977AE*, ::System::Int32>* a5, ::System::Action*& a6)
+	static ::System::Boolean Method_1_291A8E50F0E05104(::MonoUITableScrollV2* a1, ::System::Int32 a2, ::System::Action* a3, ::System::Action* a4, ::System::Action_2<::Class_3_C3F0E3B5AB5977AE_29*, ::System::Int32>* a5, ::System::Action*& a6)
 	{
-		return ((::System::Boolean(*)(::MonoUITableScrollV2*, ::System::Int32, ::System::Action*, ::System::Action*, ::System::Action_2<::Class_3_C3F0E3B5AB5977AE*, ::System::Int32>*, ::System::Action*&))((::PBYTE)hIl2Cpp + CLASS_1_9AD74D4CD48E713E_METHOD_1_291A8E50F0E05104_OFFSET))(a1, a2, a3, a4, a5, a6);
+		return ((::System::Boolean(*)(::MonoUITableScrollV2*, ::System::Int32, ::System::Action*, ::System::Action*, ::System::Action_2<::Class_3_C3F0E3B5AB5977AE_29*, ::System::Int32>*, ::System::Action*&))((::PBYTE)hIl2Cpp + CLASS_1_9AD74D4CD48E713E_METHOD_1_291A8E50F0E05104_OFFSET))(a1, a2, a3, a4, a5, a6);
 	}
 };

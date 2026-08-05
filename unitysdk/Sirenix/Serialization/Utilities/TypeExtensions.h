@@ -17,134 +17,134 @@ namespace System::Reflection { class Assembly; }
 namespace System::Reflection { class MemberInfo; }
 namespace System::Reflection { class MethodInfo; }
 
-#define SIRENIX_SERIALIZATION_UTILITIES_TYPEEXTENSIONS_AREGENERICCONSTRAINTSSATISFIEDBY_1_OFFSET UNITYSDK_OFFSET(0x1D559100)
-#define SIRENIX_SERIALIZATION_UTILITIES_TYPEEXTENSIONS_AREGENERICCONSTRAINTSSATISFIEDBY_OFFSET UNITYSDK_OFFSET(0x1D548020)
-#define SIRENIX_SERIALIZATION_UTILITIES_TYPEEXTENSIONS_CREATENICENAME_OFFSET UNITYSDK_OFFSET(0x1D555EB0)
-#define SIRENIX_SERIALIZATION_UTILITIES_TYPEEXTENSIONS_DOUBLEEQUALITYCOMPARER_OFFSET UNITYSDK_OFFSET(0x1D557D40)
-#define SIRENIX_SERIALIZATION_UTILITIES_TYPEEXTENSIONS_FLOATEQUALITYCOMPARER_OFFSET UNITYSDK_OFFSET(0x1D557D00)
-#define SIRENIX_SERIALIZATION_UTILITIES_TYPEEXTENSIONS_GENERICPARAMETERISFULFILLEDBY_OFFSET UNITYSDK_OFFSET(0x1D5593D0)
-#define SIRENIX_SERIALIZATION_UTILITIES_TYPEEXTENSIONS_GETALLFIELDSANDPROPERTIES_OFFSET UNITYSDK_OFFSET(0x1D54BC50)
-#define SIRENIX_SERIALIZATION_UTILITIES_TYPEEXTENSIONS_GETALLPUBLICSTATICMETHODS_OFFSET UNITYSDK_OFFSET(0x1D557CA0)
-#define SIRENIX_SERIALIZATION_UTILITIES_TYPEEXTENSIONS_GETARGUMENTSOFINHERITEDOPENGENERICCLASS_OFFSET UNITYSDK_OFFSET(0x1D557EA0)
-#define SIRENIX_SERIALIZATION_UTILITIES_TYPEEXTENSIONS_GETARGUMENTSOFINHERITEDOPENGENERICINTERFACE_OFFSET UNITYSDK_OFFSET(0x1D5487E0)
-#define SIRENIX_SERIALIZATION_UTILITIES_TYPEEXTENSIONS_GETCACHEDNICENAME_OFFSET UNITYSDK_OFFSET(0x1D555BC0)
-#define SIRENIX_SERIALIZATION_UTILITIES_TYPEEXTENSIONS_GETCASTMETHODDELEGATE_OFFSET UNITYSDK_OFFSET(0x1D557A10)
-#define SIRENIX_SERIALIZATION_UTILITIES_TYPEEXTENSIONS_GETCASTMETHOD_OFFSET UNITYSDK_OFFSET(0x1D556D10)
-#define SIRENIX_SERIALIZATION_UTILITIES_TYPEEXTENSIONS_GETCOMPILABLENICEFULLNAME_OFFSET UNITYSDK_OFFSET(0x1D557F50)
-#define SIRENIX_SERIALIZATION_UTILITIES_TYPEEXTENSIONS_GETMEMBERVALUE_OFFSET UNITYSDK_OFFSET(0x1D54BCB0)
-#define SIRENIX_SERIALIZATION_UTILITIES_TYPEEXTENSIONS_GETNICEFULLNAME_OFFSET UNITYSDK_OFFSET(0x1D548130)
-#define SIRENIX_SERIALIZATION_UTILITIES_TYPEEXTENSIONS_GETNICENAME_OFFSET UNITYSDK_OFFSET(0x1D556350)
-#define SIRENIX_SERIALIZATION_UTILITIES_TYPEEXTENSIONS_HASCASTDEFINED_OFFSET UNITYSDK_OFFSET(0x1D5567D0)
-#define SIRENIX_SERIALIZATION_UTILITIES_TYPEEXTENSIONS_IMPLEMENTSOPENGENERICCLASS_OFFSET UNITYSDK_OFFSET(0x1D557DF0)
-#define SIRENIX_SERIALIZATION_UTILITIES_TYPEEXTENSIONS_IMPLEMENTSOPENGENERICINTERFACE_OFFSET UNITYSDK_OFFSET(0x1D5486D0)
-#define SIRENIX_SERIALIZATION_UTILITIES_TYPEEXTENSIONS_IMPLEMENTSORINHERITS_OFFSET UNITYSDK_OFFSET(0x1D557DC0)
-#define SIRENIX_SERIALIZATION_UTILITIES_TYPEEXTENSIONS_INHERITSFROM_OFFSET UNITYSDK_OFFSET(0x1D556430)
-#define SIRENIX_SERIALIZATION_UTILITIES_TYPEEXTENSIONS_ISCASTABLETO_OFFSET UNITYSDK_OFFSET(0x1D556C20)
-#define SIRENIX_SERIALIZATION_UTILITIES_TYPEEXTENSIONS_ISFULLYCONSTRUCTEDGENERICTYPE_OFFSET UNITYSDK_OFFSET(0x1D558F10)
-#define SIRENIX_SERIALIZATION_UTILITIES_TYPEEXTENSIONS_ISVALIDIDENTIFIERPARTCHARACTER_OFFSET UNITYSDK_OFFSET(0x1D5579E0)
-#define SIRENIX_SERIALIZATION_UTILITIES_TYPEEXTENSIONS_ISVALIDIDENTIFIERSTARTCHARACTER_OFFSET UNITYSDK_OFFSET(0x1D5579B0)
-#define SIRENIX_SERIALIZATION_UTILITIES_TYPEEXTENSIONS_ISVALIDIDENTIFIER_OFFSET UNITYSDK_OFFSET(0x1D557660)
-#define SIRENIX_SERIALIZATION_UTILITIES_TYPEEXTENSIONS_QUATERNIONEQUALITYCOMPARER_OFFSET UNITYSDK_OFFSET(0x1D557D80)
-#define SIRENIX_SERIALIZATION_UTILITIES_TYPEEXTENSIONS_SAFEGETCUSTOMATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x1D545B00)
-#define SIRENIX_SERIALIZATION_UTILITIES_TYPEEXTENSIONS_SETMEMBERVALUE_OFFSET UNITYSDK_OFFSET(0x1D54D2D0)
-#define SIRENIX_SERIALIZATION_UTILITIES_TYPEEXTENSIONS_TRYINFERGENERICPARAMETERS_OFFSET UNITYSDK_OFFSET(0x1D558060)
-#define SIRENIX_SERIALIZATION_UTILITIES_TYPEEXTENSIONS_TYPENAMEGAUNTLET_OFFSET UNITYSDK_OFFSET(0x1D5566C0)
-#define SIRENIX_SERIALIZATION_UTILITIES_TYPEEXTENSIONS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D559DB0)
+#define SIRENIX_SERIALIZATION_UTILITIES_TYPEEXTENSIONS_AREGENERICCONSTRAINTSSATISFIEDBY_1_OFFSET UNITYSDK_OFFSET(0x1E8F39E0)
+#define SIRENIX_SERIALIZATION_UTILITIES_TYPEEXTENSIONS_AREGENERICCONSTRAINTSSATISFIEDBY_OFFSET UNITYSDK_OFFSET(0x1E8E2830)
+#define SIRENIX_SERIALIZATION_UTILITIES_TYPEEXTENSIONS_CREATENICENAME_OFFSET UNITYSDK_OFFSET(0x1E8F0790)
+#define SIRENIX_SERIALIZATION_UTILITIES_TYPEEXTENSIONS_DOUBLEEQUALITYCOMPARER_OFFSET UNITYSDK_OFFSET(0x1E8F2610)
+#define SIRENIX_SERIALIZATION_UTILITIES_TYPEEXTENSIONS_FLOATEQUALITYCOMPARER_OFFSET UNITYSDK_OFFSET(0x1E8F25D0)
+#define SIRENIX_SERIALIZATION_UTILITIES_TYPEEXTENSIONS_GENERICPARAMETERISFULFILLEDBY_OFFSET UNITYSDK_OFFSET(0x1E8F3CB0)
+#define SIRENIX_SERIALIZATION_UTILITIES_TYPEEXTENSIONS_GETALLFIELDSANDPROPERTIES_OFFSET UNITYSDK_OFFSET(0x1E8E6550)
+#define SIRENIX_SERIALIZATION_UTILITIES_TYPEEXTENSIONS_GETALLPUBLICSTATICMETHODS_OFFSET UNITYSDK_OFFSET(0x1E8F2570)
+#define SIRENIX_SERIALIZATION_UTILITIES_TYPEEXTENSIONS_GETARGUMENTSOFINHERITEDOPENGENERICCLASS_OFFSET UNITYSDK_OFFSET(0x1E8F2770)
+#define SIRENIX_SERIALIZATION_UTILITIES_TYPEEXTENSIONS_GETARGUMENTSOFINHERITEDOPENGENERICINTERFACE_OFFSET UNITYSDK_OFFSET(0x1E8E2FF0)
+#define SIRENIX_SERIALIZATION_UTILITIES_TYPEEXTENSIONS_GETCACHEDNICENAME_OFFSET UNITYSDK_OFFSET(0x1E8F04A0)
+#define SIRENIX_SERIALIZATION_UTILITIES_TYPEEXTENSIONS_GETCASTMETHODDELEGATE_OFFSET UNITYSDK_OFFSET(0x1E8F22F0)
+#define SIRENIX_SERIALIZATION_UTILITIES_TYPEEXTENSIONS_GETCASTMETHOD_OFFSET UNITYSDK_OFFSET(0x1E8F15F0)
+#define SIRENIX_SERIALIZATION_UTILITIES_TYPEEXTENSIONS_GETCOMPILABLENICEFULLNAME_OFFSET UNITYSDK_OFFSET(0x1E8F2820)
+#define SIRENIX_SERIALIZATION_UTILITIES_TYPEEXTENSIONS_GETMEMBERVALUE_OFFSET UNITYSDK_OFFSET(0x1E8E65B0)
+#define SIRENIX_SERIALIZATION_UTILITIES_TYPEEXTENSIONS_GETNICEFULLNAME_OFFSET UNITYSDK_OFFSET(0x1E8E2940)
+#define SIRENIX_SERIALIZATION_UTILITIES_TYPEEXTENSIONS_GETNICENAME_OFFSET UNITYSDK_OFFSET(0x1E8F0C30)
+#define SIRENIX_SERIALIZATION_UTILITIES_TYPEEXTENSIONS_HASCASTDEFINED_OFFSET UNITYSDK_OFFSET(0x1E8F10B0)
+#define SIRENIX_SERIALIZATION_UTILITIES_TYPEEXTENSIONS_IMPLEMENTSOPENGENERICCLASS_OFFSET UNITYSDK_OFFSET(0x1E8F26C0)
+#define SIRENIX_SERIALIZATION_UTILITIES_TYPEEXTENSIONS_IMPLEMENTSOPENGENERICINTERFACE_OFFSET UNITYSDK_OFFSET(0x1E8E2EE0)
+#define SIRENIX_SERIALIZATION_UTILITIES_TYPEEXTENSIONS_IMPLEMENTSORINHERITS_OFFSET UNITYSDK_OFFSET(0x1E8F2690)
+#define SIRENIX_SERIALIZATION_UTILITIES_TYPEEXTENSIONS_INHERITSFROM_OFFSET UNITYSDK_OFFSET(0x1E8F0D10)
+#define SIRENIX_SERIALIZATION_UTILITIES_TYPEEXTENSIONS_ISCASTABLETO_OFFSET UNITYSDK_OFFSET(0x1E8F1500)
+#define SIRENIX_SERIALIZATION_UTILITIES_TYPEEXTENSIONS_ISFULLYCONSTRUCTEDGENERICTYPE_OFFSET UNITYSDK_OFFSET(0x1E8F37F0)
+#define SIRENIX_SERIALIZATION_UTILITIES_TYPEEXTENSIONS_ISVALIDIDENTIFIERPARTCHARACTER_OFFSET UNITYSDK_OFFSET(0x1E8F22C0)
+#define SIRENIX_SERIALIZATION_UTILITIES_TYPEEXTENSIONS_ISVALIDIDENTIFIERSTARTCHARACTER_OFFSET UNITYSDK_OFFSET(0x1E8F2290)
+#define SIRENIX_SERIALIZATION_UTILITIES_TYPEEXTENSIONS_ISVALIDIDENTIFIER_OFFSET UNITYSDK_OFFSET(0x1E8F1F50)
+#define SIRENIX_SERIALIZATION_UTILITIES_TYPEEXTENSIONS_QUATERNIONEQUALITYCOMPARER_OFFSET UNITYSDK_OFFSET(0x1E8F2650)
+#define SIRENIX_SERIALIZATION_UTILITIES_TYPEEXTENSIONS_SAFEGETCUSTOMATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x1E8E02D0)
+#define SIRENIX_SERIALIZATION_UTILITIES_TYPEEXTENSIONS_SETMEMBERVALUE_OFFSET UNITYSDK_OFFSET(0x1E8E7BB0)
+#define SIRENIX_SERIALIZATION_UTILITIES_TYPEEXTENSIONS_TRYINFERGENERICPARAMETERS_OFFSET UNITYSDK_OFFSET(0x1E8F2930)
+#define SIRENIX_SERIALIZATION_UTILITIES_TYPEEXTENSIONS_TYPENAMEGAUNTLET_OFFSET UNITYSDK_OFFSET(0x1E8F0FA0)
+#define SIRENIX_SERIALIZATION_UTILITIES_TYPEEXTENSIONS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E8F46A0)
 
 namespace Sirenix::Serialization::Utilities
 {
-	inline static constexpr unsigned int TypeExtensions_TypeDefinitionIndex = 7624;
+	inline static constexpr unsigned int TypeExtensions_TypeDefinitionIndex = 7628;
 
 	class TypeExtensions : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::String*>** StaticGet_CachedNiceNames()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(TypeExtensions_TypeDefinitionIndex)->GetStaticField(0x6270);
-		}
-		static ::System::Collections::Generic::Stack_1<::System::Type*>** StaticGet_GenericArgumentsContainsTypes_ArgsToCheckCached()
-		{
-			return (::System::Collections::Generic::Stack_1<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(TypeExtensions_TypeDefinitionIndex)->GetStaticField(0x6278);
-		}
-		static ::System::Type** StaticGet_VoidPointerType()
-		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(TypeExtensions_TypeDefinitionIndex)->GetStaticField(0x6280);
-		}
-		static ::System::Object** StaticGet_GenericConstraintsSatisfaction_LOCK()
-		{
-			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(TypeExtensions_TypeDefinitionIndex)->GetStaticField(0x6288);
-		}
-		static ::System::Func_3<::UnityEngine::Quaternion, ::UnityEngine::Quaternion, ::System::Boolean>** StaticGet_QuaternionEqualityComparerFunc()
-		{
-			return (::System::Func_3<::UnityEngine::Quaternion, ::UnityEngine::Quaternion, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(TypeExtensions_TypeDefinitionIndex)->GetStaticField(0x6290);
-		}
-		static ::System::Collections::Generic::HashSet_1<::System::Type*>** StaticGet_GenericConstraintsSatisfactionProcessedParams()
-		{
-			return (::System::Collections::Generic::HashSet_1<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(TypeExtensions_TypeDefinitionIndex)->GetStaticField(0x6298);
-		}
-		static ::System::Object** StaticGet_CachedNiceNames_LOCK()
-		{
-			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(TypeExtensions_TypeDefinitionIndex)->GetStaticField(0x62A0);
-		}
-		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Type*>** StaticGet_GenericConstraintsSatisfactionInferredParameters()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(TypeExtensions_TypeDefinitionIndex)->GetStaticField(0x62A8);
-		}
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>** StaticGet_TypeNameAlternatives()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(TypeExtensions_TypeDefinitionIndex)->GetStaticField(0x62B0);
-		}
-		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Collections::Generic::HashSet_1<::System::Type*>*>** StaticGet_PrimitiveImplicitCasts()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Collections::Generic::HashSet_1<::System::Type*>*>**)Il2CppClass::FromTypeDefinitionIndex(TypeExtensions_TypeDefinitionIndex)->GetStaticField(0x62B8);
-		}
-		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Type*>** StaticGet_GenericConstraintsSatisfactionResolvedMap()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(TypeExtensions_TypeDefinitionIndex)->GetStaticField(0x62C0);
-		}
-		static ::System::Func_3<::System::Single, ::System::Single, ::System::Boolean>** StaticGet_FloatEqualityComparerFunc()
-		{
-			return (::System::Func_3<::System::Single, ::System::Single, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(TypeExtensions_TypeDefinitionIndex)->GetStaticField(0x62C8);
-		}
-		static ::System::Type** StaticGet_GenericListInterface()
-		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(TypeExtensions_TypeDefinitionIndex)->GetStaticField(0x62D0);
-		}
 		static ::System::Collections::Generic::HashSet_1<::System::Type*>** StaticGet_ExplicitCastIntegrals()
 		{
-			return (::System::Collections::Generic::HashSet_1<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(TypeExtensions_TypeDefinitionIndex)->GetStaticField(0x62D8);
-		}
-		static ::Il2CppArray<::System::Type*>** StaticGet_TwoLengthTypeArray_Cached()
-		{
-			return (::Il2CppArray<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(TypeExtensions_TypeDefinitionIndex)->GetStaticField(0x62E0);
-		}
-		static ::System::Object** StaticGet_WeaklyTypedTypeCastDelegates_LOCK()
-		{
-			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(TypeExtensions_TypeDefinitionIndex)->GetStaticField(0x62E8);
-		}
-		static ::Sirenix::Serialization::Utilities::DoubleLookupDictionary_3<::System::Type*, ::System::Type*, ::System::Func_2<::System::Object*, ::System::Object*>*>** StaticGet_WeaklyTypedTypeCastDelegates()
-		{
-			return (::Sirenix::Serialization::Utilities::DoubleLookupDictionary_3<::System::Type*, ::System::Type*, ::System::Func_2<::System::Object*, ::System::Object*>*>**)Il2CppClass::FromTypeDefinitionIndex(TypeExtensions_TypeDefinitionIndex)->GetStaticField(0x62F0);
-		}
-		static ::Sirenix::Serialization::Utilities::DoubleLookupDictionary_3<::System::Type*, ::System::Type*, ::System::Delegate*>** StaticGet_StronglyTypedTypeCastDelegates()
-		{
-			return (::Sirenix::Serialization::Utilities::DoubleLookupDictionary_3<::System::Type*, ::System::Type*, ::System::Delegate*>**)Il2CppClass::FromTypeDefinitionIndex(TypeExtensions_TypeDefinitionIndex)->GetStaticField(0x62F8);
-		}
-		static ::System::Collections::Generic::HashSet_1<::System::String*>** StaticGet_ReservedCSharpKeywords()
-		{
-			return (::System::Collections::Generic::HashSet_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(TypeExtensions_TypeDefinitionIndex)->GetStaticField(0x6300);
-		}
-		static ::System::Object** StaticGet_StronglyTypedTypeCastDelegates_LOCK()
-		{
-			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(TypeExtensions_TypeDefinitionIndex)->GetStaticField(0x6308);
-		}
-		static ::System::Type** StaticGet_GenericCollectionInterface()
-		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(TypeExtensions_TypeDefinitionIndex)->GetStaticField(0x6310);
+			return (::System::Collections::Generic::HashSet_1<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(TypeExtensions_TypeDefinitionIndex)->GetStaticField(0x6280);
 		}
 		static ::System::Func_3<::System::Double, ::System::Double, ::System::Boolean>** StaticGet_DoubleEqualityComparerFunc()
 		{
-			return (::System::Func_3<::System::Double, ::System::Double, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(TypeExtensions_TypeDefinitionIndex)->GetStaticField(0x6318);
+			return (::System::Func_3<::System::Double, ::System::Double, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(TypeExtensions_TypeDefinitionIndex)->GetStaticField(0x6288);
+		}
+		static ::System::Func_3<::System::Single, ::System::Single, ::System::Boolean>** StaticGet_FloatEqualityComparerFunc()
+		{
+			return (::System::Func_3<::System::Single, ::System::Single, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(TypeExtensions_TypeDefinitionIndex)->GetStaticField(0x6290);
+		}
+		static ::Sirenix::Serialization::Utilities::DoubleLookupDictionary_3<::System::Type*, ::System::Type*, ::System::Delegate*>** StaticGet_StronglyTypedTypeCastDelegates()
+		{
+			return (::Sirenix::Serialization::Utilities::DoubleLookupDictionary_3<::System::Type*, ::System::Type*, ::System::Delegate*>**)Il2CppClass::FromTypeDefinitionIndex(TypeExtensions_TypeDefinitionIndex)->GetStaticField(0x6298);
+		}
+		static ::Il2CppArray<::System::Type*>** StaticGet_TwoLengthTypeArray_Cached()
+		{
+			return (::Il2CppArray<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(TypeExtensions_TypeDefinitionIndex)->GetStaticField(0x62A0);
+		}
+		static ::System::Collections::Generic::HashSet_1<::System::String*>** StaticGet_ReservedCSharpKeywords()
+		{
+			return (::System::Collections::Generic::HashSet_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(TypeExtensions_TypeDefinitionIndex)->GetStaticField(0x62A8);
+		}
+		static ::System::Collections::Generic::Stack_1<::System::Type*>** StaticGet_GenericArgumentsContainsTypes_ArgsToCheckCached()
+		{
+			return (::System::Collections::Generic::Stack_1<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(TypeExtensions_TypeDefinitionIndex)->GetStaticField(0x62B0);
+		}
+		static ::System::Type** StaticGet_VoidPointerType()
+		{
+			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(TypeExtensions_TypeDefinitionIndex)->GetStaticField(0x62B8);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>** StaticGet_TypeNameAlternatives()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(TypeExtensions_TypeDefinitionIndex)->GetStaticField(0x62C0);
+		}
+		static ::System::Type** StaticGet_GenericCollectionInterface()
+		{
+			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(TypeExtensions_TypeDefinitionIndex)->GetStaticField(0x62C8);
+		}
+		static ::System::Func_3<::UnityEngine::Quaternion, ::UnityEngine::Quaternion, ::System::Boolean>** StaticGet_QuaternionEqualityComparerFunc()
+		{
+			return (::System::Func_3<::UnityEngine::Quaternion, ::UnityEngine::Quaternion, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(TypeExtensions_TypeDefinitionIndex)->GetStaticField(0x62D0);
+		}
+		static ::System::Type** StaticGet_GenericListInterface()
+		{
+			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(TypeExtensions_TypeDefinitionIndex)->GetStaticField(0x62D8);
+		}
+		static ::System::Object** StaticGet_StronglyTypedTypeCastDelegates_LOCK()
+		{
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(TypeExtensions_TypeDefinitionIndex)->GetStaticField(0x62E0);
+		}
+		static ::Sirenix::Serialization::Utilities::DoubleLookupDictionary_3<::System::Type*, ::System::Type*, ::System::Func_2<::System::Object*, ::System::Object*>*>** StaticGet_WeaklyTypedTypeCastDelegates()
+		{
+			return (::Sirenix::Serialization::Utilities::DoubleLookupDictionary_3<::System::Type*, ::System::Type*, ::System::Func_2<::System::Object*, ::System::Object*>*>**)Il2CppClass::FromTypeDefinitionIndex(TypeExtensions_TypeDefinitionIndex)->GetStaticField(0x62E8);
+		}
+		static ::System::Collections::Generic::HashSet_1<::System::Type*>** StaticGet_GenericConstraintsSatisfactionProcessedParams()
+		{
+			return (::System::Collections::Generic::HashSet_1<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(TypeExtensions_TypeDefinitionIndex)->GetStaticField(0x62F0);
+		}
+		static ::System::Object** StaticGet_GenericConstraintsSatisfaction_LOCK()
+		{
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(TypeExtensions_TypeDefinitionIndex)->GetStaticField(0x62F8);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Type*>** StaticGet_GenericConstraintsSatisfactionResolvedMap()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(TypeExtensions_TypeDefinitionIndex)->GetStaticField(0x6300);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::String*>** StaticGet_CachedNiceNames()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(TypeExtensions_TypeDefinitionIndex)->GetStaticField(0x6308);
+		}
+		static ::System::Object** StaticGet_CachedNiceNames_LOCK()
+		{
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(TypeExtensions_TypeDefinitionIndex)->GetStaticField(0x6310);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Type*>** StaticGet_GenericConstraintsSatisfactionInferredParameters()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(TypeExtensions_TypeDefinitionIndex)->GetStaticField(0x6318);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Collections::Generic::HashSet_1<::System::Type*>*>** StaticGet_PrimitiveImplicitCasts()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Collections::Generic::HashSet_1<::System::Type*>*>**)Il2CppClass::FromTypeDefinitionIndex(TypeExtensions_TypeDefinitionIndex)->GetStaticField(0x6320);
+		}
+		static ::System::Object** StaticGet_WeaklyTypedTypeCastDelegates_LOCK()
+		{
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(TypeExtensions_TypeDefinitionIndex)->GetStaticField(0x6328);
 		}
 
 		static ::System::Void _cctor()

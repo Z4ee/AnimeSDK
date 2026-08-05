@@ -3,13 +3,13 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int AdaptorShowType_TypeDefinitionIndex = 81823;
+	inline static constexpr unsigned int AdaptorShowType_TypeDefinitionIndex = 40998;
 
 	enum class AdaptorShowType : ::System::Int32
 	{
-		Console = 2,
-		MobileConsole = 3,
 		PC = 1,
 		Mobile = 0,
+		MobileConsole = 3,
+		Console = 2,
 	};
 }

@@ -4,7 +4,7 @@
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int MessagePackSerializer_PrimitiveChecker_1_TypeDefinitionIndex = 30270;
+	inline static constexpr unsigned int MessagePackSerializer_PrimitiveChecker_1_TypeDefinitionIndex = 29992;
 
 	template <typename T>
 	class MessagePackSerializer_PrimitiveChecker_1 : public ::System::Object

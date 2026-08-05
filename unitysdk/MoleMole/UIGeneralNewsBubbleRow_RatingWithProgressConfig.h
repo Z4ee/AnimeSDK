@@ -6,12 +6,12 @@
 namespace MoleMole { class MonoUIColorCollection; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_UIGENERALNEWSBUBBLEROW_RATINGWITHPROGRESSCONFIG_SETRATINGPROGRESSCOLOR_OFFSET UNITYSDK_OFFSET(0x177EC940)
-#define MOLEMOLE_UIGENERALNEWSBUBBLEROW_RATINGWITHPROGRESSCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x177ECA50)
+#define MOLEMOLE_UIGENERALNEWSBUBBLEROW_RATINGWITHPROGRESSCONFIG_SETRATINGPROGRESSCOLOR_OFFSET UNITYSDK_OFFSET(0x17BD4DD0)
+#define MOLEMOLE_UIGENERALNEWSBUBBLEROW_RATINGWITHPROGRESSCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17BD4EE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralNewsBubbleRow_RatingWithProgressConfig_TypeDefinitionIndex = 75228;
+	inline static constexpr unsigned int UIGeneralNewsBubbleRow_RatingWithProgressConfig_TypeDefinitionIndex = 45528;
 
 	class UIGeneralNewsBubbleRow_RatingWithProgressConfig : public ::Sirenix::OdinInspector::SerializedMonoBehaviour
 	{

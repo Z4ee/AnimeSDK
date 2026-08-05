@@ -11,13 +11,13 @@ namespace MoleMole::Timeline { class TextShowBehaviour; }
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_TIMELINE_TEXTSHOWCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x173A9A70)
-#define MOLEMOLE_TIMELINE_TEXTSHOWCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x173A9A60)
-#define MOLEMOLE_TIMELINE_TEXTSHOWCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x173A9C90)
+#define MOLEMOLE_TIMELINE_TEXTSHOWCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x18DEC620)
+#define MOLEMOLE_TIMELINE_TEXTSHOWCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x18DEC610)
+#define MOLEMOLE_TIMELINE_TEXTSHOWCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x18DEC840)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int TextShowClip_TypeDefinitionIndex = 67304;
+	inline static constexpr unsigned int TextShowClip_TypeDefinitionIndex = 88693;
 
 	class TextShowClip : public ::UnityEngine::Playables::PlayableAsset
 	{

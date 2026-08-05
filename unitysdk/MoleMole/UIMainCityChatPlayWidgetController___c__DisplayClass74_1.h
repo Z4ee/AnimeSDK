@@ -6,12 +6,12 @@ class Class_3_F33F9DC5F4112336;
 namespace MoleMole { class UIMainCityChatPlayWidgetController___c__DisplayClass74_0; }
 namespace MoleMole::Battle { class AnimatorParamControl; }
 
-#define MOLEMOLE_UIMAINCITYCHATPLAYWIDGETCONTROLLER___C__DISPLAYCLASS74_1__CTOR_OFFSET UNITYSDK_OFFSET(0x171433A0)
-#define MOLEMOLE_UIMAINCITYCHATPLAYWIDGETCONTROLLER___C__DISPLAYCLASS74_1__INLEVELPLAYSTORYNODE_B__1_OFFSET UNITYSDK_OFFSET(0x171433B0)
+#define MOLEMOLE_UIMAINCITYCHATPLAYWIDGETCONTROLLER___C__DISPLAYCLASS74_1__CTOR_OFFSET UNITYSDK_OFFSET(0x183A4340)
+#define MOLEMOLE_UIMAINCITYCHATPLAYWIDGETCONTROLLER___C__DISPLAYCLASS74_1__INLEVELPLAYSTORYNODE_B__1_OFFSET UNITYSDK_OFFSET(0x183A4350)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMainCityChatPlayWidgetController___c__DisplayClass74_1_TypeDefinitionIndex = 83718;
+	inline static constexpr unsigned int UIMainCityChatPlayWidgetController___c__DisplayClass74_1_TypeDefinitionIndex = 77915;
 
 	class UIMainCityChatPlayWidgetController___c__DisplayClass74_1 : public ::System::Object
 	{

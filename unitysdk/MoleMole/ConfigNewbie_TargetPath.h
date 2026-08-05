@@ -5,18 +5,21 @@
 #include "unitysdk/System/Object.h"
 
 namespace MoleMole { class ConfigNewbie_HighLightExtra; }
+namespace SimpleJSON { class JSONClass; }
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIGNEWBIE_TARGETPATH_GET_ISEMPTY_OFFSET UNITYSDK_OFFSET(0x158D4F30)
-#define MOLEMOLE_CONFIGNEWBIE_TARGETPATH_GET_PATH_OFFSET UNITYSDK_OFFSET(0x158D4F90)
-#define MOLEMOLE_CONFIGNEWBIE_TARGETPATH_LOADFROMBYTES_OFFSET UNITYSDK_OFFSET(0x158D4FA0)
-#define MOLEMOLE_CONFIGNEWBIE_TARGETPATH_PARSEEXTRADATA_OFFSET UNITYSDK_OFFSET(0x158D5160)
-#define MOLEMOLE_CONFIGNEWBIE_TARGETPATH__CTOR_1_OFFSET UNITYSDK_OFFSET(0x158D4F20)
-#define MOLEMOLE_CONFIGNEWBIE_TARGETPATH__CTOR_OFFSET UNITYSDK_OFFSET(0x158D4EE0)
+#define MOLEMOLE_CONFIGNEWBIE_TARGETPATH_GET_ISEMPTY_OFFSET UNITYSDK_OFFSET(0x1A94CC90)
+#define MOLEMOLE_CONFIGNEWBIE_TARGETPATH_GET_PATH_OFFSET UNITYSDK_OFFSET(0x1A94CCF0)
+#define MOLEMOLE_CONFIGNEWBIE_TARGETPATH_LOADFROMBYTES_OFFSET UNITYSDK_OFFSET(0x1A94CD00)
+#define MOLEMOLE_CONFIGNEWBIE_TARGETPATH_LOADFROMJSON_OFFSET UNITYSDK_OFFSET(0x1A94CFF0)
+#define MOLEMOLE_CONFIGNEWBIE_TARGETPATH_PARSEEXTRADATA_1_OFFSET UNITYSDK_OFFSET(0x1A94CED0)
+#define MOLEMOLE_CONFIGNEWBIE_TARGETPATH_PARSEEXTRADATA_OFFSET UNITYSDK_OFFSET(0x1A94D200)
+#define MOLEMOLE_CONFIGNEWBIE_TARGETPATH__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A94CC80)
+#define MOLEMOLE_CONFIGNEWBIE_TARGETPATH__CTOR_OFFSET UNITYSDK_OFFSET(0x1A94CC40)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigNewbie_TargetPath_TypeDefinitionIndex = 49757;
+	inline static constexpr unsigned int ConfigNewbie_TargetPath_TypeDefinitionIndex = 78127;
 
 	class ConfigNewbie_TargetPath : public ::System::Object
 	{
@@ -50,9 +53,19 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID, ::FlexBuffers::FlxMap))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGNEWBIE_TARGETPATH_LOADFROMBYTES_OFFSET))(this, flexMap);
 		}
 
-		::System::Void ParseExtraData(::MoleMole::ConfigNewbie_TargetPath_ExtraType extraType, ::FlexBuffers::FlxMap flxMap)
+		::System::Void LoadFromJson(::SimpleJSON::JSONClass* jsonNode)
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::ConfigNewbie_TargetPath_ExtraType, ::FlexBuffers::FlxMap))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGNEWBIE_TARGETPATH_PARSEEXTRADATA_OFFSET))(this, extraType, flxMap);
+			return ((::System::Void(*)(::PVOID, ::SimpleJSON::JSONClass*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGNEWBIE_TARGETPATH_LOADFROMJSON_OFFSET))(this, jsonNode);
+		}
+
+		::System::Void ParseExtraData(::MoleMole::ConfigNewbie_TargetPath_ExtraType extraType, ::SimpleJSON::JSONClass* jsonNode)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::ConfigNewbie_TargetPath_ExtraType, ::SimpleJSON::JSONClass*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGNEWBIE_TARGETPATH_PARSEEXTRADATA_OFFSET))(this, extraType, jsonNode);
+		}
+
+		::System::Void ParseExtraData_1(::MoleMole::ConfigNewbie_TargetPath_ExtraType extraType, ::FlexBuffers::FlxMap flxMap)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::ConfigNewbie_TargetPath_ExtraType, ::FlexBuffers::FlxMap))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGNEWBIE_TARGETPATH_PARSEEXTRADATA_1_OFFSET))(this, extraType, flxMap);
 		}
 	};
 }

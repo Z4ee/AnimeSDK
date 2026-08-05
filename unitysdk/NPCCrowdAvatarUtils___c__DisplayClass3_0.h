@@ -5,10 +5,10 @@
 class NPCCrowdAvatarUtils_CrowdAvatarShaderInfo;
 namespace System { class String; }
 
-#define NPCCROWDAVATARUTILS___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD9568A0)
-#define NPCCROWDAVATARUTILS___C__DISPLAYCLASS3_0__GETCROWDSHADER_B__0_OFFSET UNITYSDK_OFFSET(0xD9568B0)
+#define NPCCROWDAVATARUTILS___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD8AB900)
+#define NPCCROWDAVATARUTILS___C__DISPLAYCLASS3_0__GETCROWDSHADER_B__0_OFFSET UNITYSDK_OFFSET(0xD8AB910)
 
-inline static constexpr unsigned int NPCCrowdAvatarUtils___c__DisplayClass3_0_TypeDefinitionIndex = 67790;
+inline static constexpr unsigned int NPCCrowdAvatarUtils___c__DisplayClass3_0_TypeDefinitionIndex = 70115;
 
 class NPCCrowdAvatarUtils___c__DisplayClass3_0 : public ::System::Object
 {

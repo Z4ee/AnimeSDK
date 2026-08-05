@@ -6,25 +6,25 @@ namespace UnityEngine { class Camera; }
 namespace UnityEngine::NAPRenderPipeline0 { template <typename T> class ObjectPool_1; }
 namespace UnityEngine::Rendering::Universal { class NapCaptureAction; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCAPTUREDATA_GET_OFFSET UNITYSDK_OFFSET(0x1C9A1E80)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCAPTUREDATA_INIT_OFFSET UNITYSDK_OFFSET(0x1C9A1E10)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCAPTUREDATA_RELEASE_OFFSET UNITYSDK_OFFSET(0x1C9A1FC0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCAPTUREDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C9A2130)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCAPTUREDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1C9A1E00)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCAPTUREDATA_GET_OFFSET UNITYSDK_OFFSET(0x1DDFC860)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCAPTUREDATA_INIT_OFFSET UNITYSDK_OFFSET(0x1DDFC7F0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCAPTUREDATA_RELEASE_OFFSET UNITYSDK_OFFSET(0x1DDFC9A0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCAPTUREDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DDFCB10)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCAPTUREDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1DDFC7E0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int NapCaptureData_TypeDefinitionIndex = 26293;
+	inline static constexpr unsigned int NapCaptureData_TypeDefinitionIndex = 26771;
 
 	class NapCaptureData : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::NAPRenderPipeline0::ObjectPool_1<::UnityEngine::Rendering::Universal::NapCaptureData*>** StaticGet_Pool()
 		{
-			return (::UnityEngine::NAPRenderPipeline0::ObjectPool_1<::UnityEngine::Rendering::Universal::NapCaptureData*>**)Il2CppClass::FromTypeDefinitionIndex(NapCaptureData_TypeDefinitionIndex)->GetStaticField(0x21630);
+			return (::UnityEngine::NAPRenderPipeline0::ObjectPool_1<::UnityEngine::Rendering::Universal::NapCaptureData*>**)Il2CppClass::FromTypeDefinitionIndex(NapCaptureData_TypeDefinitionIndex)->GetStaticField(0x22E50);
 		}
-		::UnityEngine::Camera* camera; // 0x10
-		::UnityEngine::Rendering::Universal::NapCaptureAction* action; // 0x18
+		::UnityEngine::Rendering::Universal::NapCaptureAction* action; // 0x10
+		::UnityEngine::Camera* camera; // 0x18
 		::System::Int32 id; // 0x20
 		::System::Boolean passEnqueued; // 0x24
 

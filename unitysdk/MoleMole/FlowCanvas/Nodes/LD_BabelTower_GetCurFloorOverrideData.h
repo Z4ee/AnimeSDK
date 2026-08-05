@@ -3,12 +3,12 @@
 #include "unitysdk/FlowCanvas/Nodes/PureFunctionNode_1.h"
 #include "unitysdk/MoleMole/BabelTowerTemplateOverrideData.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_BABELTOWER_GETCURFLOOROVERRIDEDATA_INVOKE_OFFSET UNITYSDK_OFFSET(0x15125EB0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_BABELTOWER_GETCURFLOOROVERRIDEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x15126080)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_BABELTOWER_GETCURFLOOROVERRIDEDATA_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B1B1260)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_BABELTOWER_GETCURFLOOROVERRIDEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1B1430)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_BabelTower_GetCurFloorOverrideData_TypeDefinitionIndex = 77394;
+	inline static constexpr unsigned int LD_BabelTower_GetCurFloorOverrideData_TypeDefinitionIndex = 81791;
 
 	class LD_BabelTower_GetCurFloorOverrideData : public ::FlowCanvas::Nodes::PureFunctionNode_1<::MoleMole::BabelTowerTemplateOverrideData>
 	{

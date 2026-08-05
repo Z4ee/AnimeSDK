@@ -6,24 +6,24 @@ class Class_1_0D6706375CDAAE8C;
 class Class_2_AC1B1CB16C488BEC;
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MOLEMOLE_UIYOROZUYAS3DIFFICULTYINFOWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1089F770)
-#define MOLEMOLE_UIYOROZUYAS3DIFFICULTYINFOWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1089F7B0)
-#define MOLEMOLE_UIYOROZUYAS3DIFFICULTYINFOWIDGETCONTROLLER___C__ONBUILDBTNCLICK_B__15_0_OFFSET UNITYSDK_OFFSET(0x1089F7C0)
+#define MOLEMOLE_UIYOROZUYAS3DIFFICULTYINFOWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x112CB120)
+#define MOLEMOLE_UIYOROZUYAS3DIFFICULTYINFOWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x112CB160)
+#define MOLEMOLE_UIYOROZUYAS3DIFFICULTYINFOWIDGETCONTROLLER___C__ONBUILDBTNCLICK_B__15_0_OFFSET UNITYSDK_OFFSET(0x112CB170)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIYorozuyaS3DifficultyInfoWidgetController___c_TypeDefinitionIndex = 56170;
+	inline static constexpr unsigned int UIYorozuyaS3DifficultyInfoWidgetController___c_TypeDefinitionIndex = 66473;
 
 	class UIYorozuyaS3DifficultyInfoWidgetController___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::Class_2_AC1B1CB16C488BEC*, ::Class_1_0D6706375CDAAE8C*>** StaticGet___9__15_0()
 		{
-			return (::System::Func_2<::Class_2_AC1B1CB16C488BEC*, ::Class_1_0D6706375CDAAE8C*>**)Il2CppClass::FromTypeDefinitionIndex(UIYorozuyaS3DifficultyInfoWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3CCB0);
+			return (::System::Func_2<::Class_2_AC1B1CB16C488BEC*, ::Class_1_0D6706375CDAAE8C*>**)Il2CppClass::FromTypeDefinitionIndex(UIYorozuyaS3DifficultyInfoWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x49360);
 		}
 		static ::MoleMole::UIYorozuyaS3DifficultyInfoWidgetController___c** StaticGet___9()
 		{
-			return (::MoleMole::UIYorozuyaS3DifficultyInfoWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIYorozuyaS3DifficultyInfoWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3CCB8);
+			return (::MoleMole::UIYorozuyaS3DifficultyInfoWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIYorozuyaS3DifficultyInfoWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x49368);
 		}
 
 		static ::System::Void _cctor()

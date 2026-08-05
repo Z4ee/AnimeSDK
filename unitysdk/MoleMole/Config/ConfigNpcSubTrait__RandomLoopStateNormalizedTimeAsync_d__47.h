@@ -8,20 +8,20 @@
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 namespace UnityEngine { class Animator; }
 
-#define MOLEMOLE_CONFIG_CONFIGNPCSUBTRAIT__RANDOMLOOPSTATENORMALIZEDTIMEASYNC_D__47_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x8297E0)
-#define MOLEMOLE_CONFIG_CONFIGNPCSUBTRAIT__RANDOMLOOPSTATENORMALIZEDTIMEASYNC_D__47_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x283610)
+#define MOLEMOLE_CONFIG_CONFIGNPCSUBTRAIT__RANDOMLOOPSTATENORMALIZEDTIMEASYNC_D__47_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x8CD1B0)
+#define MOLEMOLE_CONFIG_CONFIGNPCSUBTRAIT__RANDOMLOOPSTATENORMALIZEDTIMEASYNC_D__47_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x296F30)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigNpcSubTrait__RandomLoopStateNormalizedTimeAsync_d__47_TypeDefinitionIndex = 69860;
+	inline static constexpr unsigned int ConfigNpcSubTrait__RandomLoopStateNormalizedTimeAsync_d__47_TypeDefinitionIndex = 43770;
 
 	struct alignas(8) ConfigNpcSubTrait__RandomLoopStateNormalizedTimeAsync_d__47
 	{
-		::UnityEngine::Animator* animator; // 0x10
-		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskVoidMethodBuilder __t__builder; // 0x18
-		::Cysharp::Threading::Tasks::YieldAwaitable_Awaiter __u__1; // 0x20
-		::System::ValueTuple_2<::System::Single, ::System::Single> randomRange; // 0x24
-		::System::Int32 __1__state; // 0x2C
+		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskVoidMethodBuilder __t__builder; // 0x10
+		::UnityEngine::Animator* animator; // 0x18
+		::System::ValueTuple_2<::System::Single, ::System::Single> randomRange; // 0x20
+		::System::Int32 __1__state; // 0x28
+		::Cysharp::Threading::Tasks::YieldAwaitable_Awaiter __u__1; // 0x2C
 
 		::System::Void MoveNext()
 		{

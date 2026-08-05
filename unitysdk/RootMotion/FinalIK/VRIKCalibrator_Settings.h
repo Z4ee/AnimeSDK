@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define ROOTMOTION_FINALIK_VRIKCALIBRATOR_SETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD3B580)
+#define ROOTMOTION_FINALIK_VRIKCALIBRATOR_SETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1F143880)
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int VRIKCalibrator_Settings_TypeDefinitionIndex = 38215;
+	inline static constexpr unsigned int VRIKCalibrator_Settings_TypeDefinitionIndex = 38868;
 
 	class VRIKCalibrator_Settings : public ::System::Object
 	{

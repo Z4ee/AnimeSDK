@@ -3,7 +3,7 @@
 
 namespace ObservableCollections
 {
-	inline static constexpr unsigned int INotifyCollectionChangedSynchronizedView_1_TypeDefinitionIndex = 28248;
+	inline static constexpr unsigned int INotifyCollectionChangedSynchronizedView_1_TypeDefinitionIndex = 28909;
 
 	template <typename TView>
 	class INotifyCollectionChangedSynchronizedView_1

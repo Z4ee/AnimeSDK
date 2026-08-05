@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
-#define UNITYENGINE_EXPERIMENTAL_RENDERING_UNIVERSAL_RENDEROBJECTS_CUSTOMCAMERASETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4D3570)
+#define UNITYENGINE_EXPERIMENTAL_RENDERING_UNIVERSAL_RENDEROBJECTS_CUSTOMCAMERASETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E65A5F0)
 
 namespace UnityEngine::Experimental::Rendering::Universal
 {
-	inline static constexpr unsigned int RenderObjects_CustomCameraSettings_TypeDefinitionIndex = 26908;
+	inline static constexpr unsigned int RenderObjects_CustomCameraSettings_TypeDefinitionIndex = 27193;
 
 	class RenderObjects_CustomCameraSettings : public ::System::Object
 	{

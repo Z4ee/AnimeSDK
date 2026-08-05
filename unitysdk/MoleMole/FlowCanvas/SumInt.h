@@ -6,21 +6,21 @@
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 namespace FlowCanvas { template <typename T> class ValueOutput_1; }
 
-#define MOLEMOLE_FLOWCANVAS_SUMINT_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x19127D80)
-#define MOLEMOLE_FLOWCANVAS_SUMINT__CTOR_OFFSET UNITYSDK_OFFSET(0x19128010)
-#define MOLEMOLE_FLOWCANVAS_SUMINT__REGISTERPORTS_B__4_0_OFFSET UNITYSDK_OFFSET(0x19128050)
-#define MOLEMOLE_FLOWCANVAS_SUMINT__REGISTERPORTS_B__4_1_OFFSET UNITYSDK_OFFSET(0x19128060)
+#define MOLEMOLE_FLOWCANVAS_SUMINT_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x19DBAB70)
+#define MOLEMOLE_FLOWCANVAS_SUMINT__CTOR_OFFSET UNITYSDK_OFFSET(0x19DBAE00)
+#define MOLEMOLE_FLOWCANVAS_SUMINT__REGISTERPORTS_B__4_0_OFFSET UNITYSDK_OFFSET(0x19DBAE40)
+#define MOLEMOLE_FLOWCANVAS_SUMINT__REGISTERPORTS_B__4_1_OFFSET UNITYSDK_OFFSET(0x19DBAE50)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int SumInt_TypeDefinitionIndex = 76159;
+	inline static constexpr unsigned int SumInt_TypeDefinitionIndex = 90970;
 
 	class SumInt : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
 		::Il2CppArray<::FlowCanvas::ValueInput_1<::System::Int32>*>* inputs; // 0xA8
-		::FlowCanvas::ValueOutput_1<::System::Int32>* _sum; // 0xB0
-		::FlowCanvas::ValueInput_1<::System::Int32>* selector; // 0xB8
+		::FlowCanvas::ValueInput_1<::System::Int32>* selector; // 0xB0
+		::FlowCanvas::ValueOutput_1<::System::Int32>* _sum; // 0xB8
 		::System::Int32 _sumValue; // 0xC0
 
 		::System::Void _ctor()

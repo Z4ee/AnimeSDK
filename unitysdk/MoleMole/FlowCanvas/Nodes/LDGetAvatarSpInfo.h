@@ -4,12 +4,12 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETAVATARSPINFO_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A3973F0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETAVATARSPINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3977F0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETAVATARSPINFO_INVOKE_OFFSET UNITYSDK_OFFSET(0x1368F9C0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETAVATARSPINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1368FDD0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDGetAvatarSpInfo_TypeDefinitionIndex = 87384;
+	inline static constexpr unsigned int LDGetAvatarSpInfo_TypeDefinitionIndex = 45602;
 
 	class LDGetAvatarSpInfo : public ::FlowCanvas::Nodes::CallableFunctionNode_1<::System::Collections::Generic::List_1<::System::Single>*>
 	{

@@ -1,0 +1,44 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Foundation/ViewObject/BaseViewObjectComponent_1.h"
+
+class Class_3_D9B9957BE01D6471;
+
+#define CLASS_3_20C7EC7960221BB1_METHOD_3_832295EC279E5994_OFFSET UNITYSDK_OFFSET(0x18DE8480)
+#define CLASS_3_20C7EC7960221BB1_METHOD_3_A0042105686D97E8_OFFSET UNITYSDK_OFFSET(0x18DE8470)
+#define CLASS_3_20C7EC7960221BB1_METHOD_3_F239777256F9BA8F_OFFSET UNITYSDK_OFFSET(0x18DE8460)
+#define CLASS_3_20C7EC7960221BB1_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x18DE83D0)
+#define CLASS_3_20C7EC7960221BB1__CTOR_OFFSET UNITYSDK_OFFSET(0x18DE8420)
+
+inline static constexpr unsigned int Class_3_20C7EC7960221BB1_TypeDefinitionIndex = 60170;
+
+class Class_3_20C7EC7960221BB1 : public ::Foundation::ViewObject::BaseViewObjectComponent_1<::Class_3_20C7EC7960221BB1*>
+{
+public:
+	::Class_3_D9B9957BE01D6471* Field_3_0; // 0x20
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_20C7EC7960221BB1__CTOR_OFFSET))(this);
+	}
+
+	::System::Void OnRecycle()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_20C7EC7960221BB1_ONRECYCLE_OFFSET))(this);
+	}
+
+	::Class_3_D9B9957BE01D6471* Method_3_F239777256F9BA8F()
+	{
+		return ((::Class_3_D9B9957BE01D6471*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_20C7EC7960221BB1_METHOD_3_F239777256F9BA8F_OFFSET))(this);
+	}
+
+	::System::Void Method_3_A0042105686D97E8(::Class_3_D9B9957BE01D6471* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_3_D9B9957BE01D6471*))((::PBYTE)hIl2Cpp + CLASS_3_20C7EC7960221BB1_METHOD_3_A0042105686D97E8_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_3_832295EC279E5994()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_20C7EC7960221BB1_METHOD_3_832295EC279E5994_OFFSET))(this);
+	}
+};

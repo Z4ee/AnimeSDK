@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace UnityEngine::Timeline::Comic::DataSplitter
 {
-	inline static constexpr unsigned int DataSplitterBase_1_TypeDefinitionIndex = 32462;
+	inline static constexpr unsigned int DataSplitterBase_1_TypeDefinitionIndex = 33093;
 
 	template <typename T>
 	class DataSplitterBase_1 : public ::UnityEngine::Timeline::Comic::DataSplitter::DataSplitterBase

@@ -5,12 +5,12 @@
 namespace System { class Action; }
 namespace System { class EventArgs; }
 
-#define MOLEMOLE_UICOOPCLUEPAGECONTROLLER___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17F6DED0)
-#define MOLEMOLE_UICOOPCLUEPAGECONTROLLER___C__DISPLAYCLASS6_0__REGISTEREVENT_B__0_OFFSET UNITYSDK_OFFSET(0x17F6DEE0)
+#define MOLEMOLE_UICOOPCLUEPAGECONTROLLER___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x192C0310)
+#define MOLEMOLE_UICOOPCLUEPAGECONTROLLER___C__DISPLAYCLASS6_0__REGISTEREVENT_B__0_OFFSET UNITYSDK_OFFSET(0x192C0320)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICoopCluePageController___c__DisplayClass6_0_TypeDefinitionIndex = 63371;
+	inline static constexpr unsigned int UICoopCluePageController___c__DisplayClass6_0_TypeDefinitionIndex = 44971;
 
 	class UICoopCluePageController___c__DisplayClass6_0 : public ::System::Object
 	{

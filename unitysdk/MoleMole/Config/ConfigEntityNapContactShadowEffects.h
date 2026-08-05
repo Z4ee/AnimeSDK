@@ -6,11 +6,11 @@ namespace MoleMole::Config { class ConfigEntityNapContactShadowEffect; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGENTITYNAPCONTACTSHADOWEFFECTS__CTOR_OFFSET UNITYSDK_OFFSET(0x1929A000)
+#define MOLEMOLE_CONFIG_CONFIGENTITYNAPCONTACTSHADOWEFFECTS__CTOR_OFFSET UNITYSDK_OFFSET(0x14861340)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigEntityNapContactShadowEffects_TypeDefinitionIndex = 43877;
+	inline static constexpr unsigned int ConfigEntityNapContactShadowEffects_TypeDefinitionIndex = 70042;
 
 	class ConfigEntityNapContactShadowEffects : public ::Foundation::MihoyoSerializedScriptableObject
 	{

@@ -10,7 +10,7 @@ namespace System { class String; }
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int ReadFlowParameter_1___c__DisplayClass1_0_TypeDefinitionIndex = 30467;
+	inline static constexpr unsigned int ReadFlowParameter_1___c__DisplayClass1_0_TypeDefinitionIndex = 31123;
 
 	template <typename T>
 	class ReadFlowParameter_1___c__DisplayClass1_0 : public ::System::Object

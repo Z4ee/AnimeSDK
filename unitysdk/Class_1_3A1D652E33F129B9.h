@@ -6,18 +6,18 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 namespace System::Collections::Generic { template <typename T> class IComparer_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-inline static constexpr unsigned int Class_1_3A1D652E33F129B9_TypeDefinitionIndex = 81478;
+inline static constexpr unsigned int Class_1_3A1D652E33F129B9_TypeDefinitionIndex = 74332;
 
 template <typename T>
 class Class_1_3A1D652E33F129B9 : public ::System::Object
 {
 public:
-	::System::Single Field_1_0; // 0x0
+	::System::Single Field_1_2; // 0x0
 	::System::Collections::Generic::List_1<T>* Field_1_1; // 0x0
-	::System::Collections::Generic::List_1<T>* Field_1_2; // 0x0
-	::System::Boolean Field_1_3; // 0x0
-	::System::Boolean Field_1_4; // 0x0
-	::System::Collections::Generic::IComparer_1<T>* Field_1_5; // 0x0
+	::System::Collections::Generic::List_1<T>* Field_1_0; // 0x0
+	::System::Boolean Field_1_7; // 0x0
 	::System::Boolean Field_1_6; // 0x0
-	::System::Collections::Generic::HashSet_1<T>* Field_1_7; // 0x0
+	::System::Collections::Generic::IComparer_1<T>* Field_1_5; // 0x0
+	::System::Boolean Field_1_4; // 0x0
+	::System::Collections::Generic::HashSet_1<T>* Field_1_11; // 0x0
 };

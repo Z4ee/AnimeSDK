@@ -7,24 +7,24 @@ namespace Newtonsoft::Json::Linq { class JProperty; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define NEWTONSOFT_JSON_LINQ_EXTENSIONS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E870B10)
-#define NEWTONSOFT_JSON_LINQ_EXTENSIONS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1E870B50)
-#define NEWTONSOFT_JSON_LINQ_EXTENSIONS___C__PROPERTIES_B__4_0_OFFSET UNITYSDK_OFFSET(0x1E870B60)
+#define NEWTONSOFT_JSON_LINQ_EXTENSIONS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FC4F4B0)
+#define NEWTONSOFT_JSON_LINQ_EXTENSIONS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1FC4F4F0)
+#define NEWTONSOFT_JSON_LINQ_EXTENSIONS___C__PROPERTIES_B__4_0_OFFSET UNITYSDK_OFFSET(0x1FC4F500)
 
 namespace Newtonsoft::Json::Linq
 {
-	inline static constexpr unsigned int Extensions___c_TypeDefinitionIndex = 7163;
+	inline static constexpr unsigned int Extensions___c_TypeDefinitionIndex = 7167;
 
 	class Extensions___c : public ::System::Object
 	{
 	public:
-		static ::Newtonsoft::Json::Linq::Extensions___c** StaticGet___9()
-		{
-			return (::Newtonsoft::Json::Linq::Extensions___c**)Il2CppClass::FromTypeDefinitionIndex(Extensions___c_TypeDefinitionIndex)->GetStaticField(0x60B0);
-		}
 		static ::System::Func_2<::Newtonsoft::Json::Linq::JObject*, ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JProperty*>*>** StaticGet___9__4_0()
 		{
-			return (::System::Func_2<::Newtonsoft::Json::Linq::JObject*, ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JProperty*>*>**)Il2CppClass::FromTypeDefinitionIndex(Extensions___c_TypeDefinitionIndex)->GetStaticField(0x60B8);
+			return (::System::Func_2<::Newtonsoft::Json::Linq::JObject*, ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JProperty*>*>**)Il2CppClass::FromTypeDefinitionIndex(Extensions___c_TypeDefinitionIndex)->GetStaticField(0x60C0);
+		}
+		static ::Newtonsoft::Json::Linq::Extensions___c** StaticGet___9()
+		{
+			return (::Newtonsoft::Json::Linq::Extensions___c**)Il2CppClass::FromTypeDefinitionIndex(Extensions___c_TypeDefinitionIndex)->GetStaticField(0x60C8);
 		}
 
 		static ::System::Void _cctor()

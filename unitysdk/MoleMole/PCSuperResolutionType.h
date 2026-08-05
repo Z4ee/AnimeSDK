@@ -3,12 +3,12 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int PCSuperResolutionType_TypeDefinitionIndex = 49292;
+	inline static constexpr unsigned int PCSuperResolutionType_TypeDefinitionIndex = 81021;
 
 	enum class PCSuperResolutionType : ::System::Int32
 	{
-		FSR = 2,
-		DLSS = 1,
 		None = 0,
+		DLSS = 1,
+		FSR = 2,
 	};
 }

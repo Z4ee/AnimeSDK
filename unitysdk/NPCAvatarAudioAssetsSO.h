@@ -8,9 +8,9 @@
 class NPCAvatarMeshAssetsSO_GameplayTagActionConfig;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCAVATARAUDIOASSETSSO__CTOR_OFFSET UNITYSDK_OFFSET(0x109F1C40)
+#define NPCAVATARAUDIOASSETSSO__CTOR_OFFSET UNITYSDK_OFFSET(0x157A6C50)
 
-inline static constexpr unsigned int NPCAvatarAudioAssetsSO_TypeDefinitionIndex = 40634;
+inline static constexpr unsigned int NPCAvatarAudioAssetsSO_TypeDefinitionIndex = 53713;
 
 class NPCAvatarAudioAssetsSO : public ::Sirenix::OdinInspector::SerializedScriptableObject
 {

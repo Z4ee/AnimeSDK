@@ -3,7 +3,7 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int IAimModeCameraConfig_TypeDefinitionIndex = 45298;
+	inline static constexpr unsigned int IAimModeCameraConfig_TypeDefinitionIndex = 73392;
 
 	class IAimModeCameraConfig
 	{

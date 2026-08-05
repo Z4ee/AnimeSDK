@@ -5,13 +5,13 @@
 namespace MoleMole { class ConfigNewbie_NewbieGroup; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIGNEWBIE_EXPORTTOJSON_OFFSET UNITYSDK_OFFSET(0x161AE4A0)
-#define MOLEMOLE_CONFIGNEWBIE_RELOADNEWBIECONFIG_OFFSET UNITYSDK_OFFSET(0x161AE4E0)
-#define MOLEMOLE_CONFIGNEWBIE__CTOR_OFFSET UNITYSDK_OFFSET(0x161AE520)
+#define MOLEMOLE_CONFIGNEWBIE_EXPORTTOJSON_OFFSET UNITYSDK_OFFSET(0x1B934AC0)
+#define MOLEMOLE_CONFIGNEWBIE_RELOADNEWBIECONFIG_OFFSET UNITYSDK_OFFSET(0x1B934B00)
+#define MOLEMOLE_CONFIGNEWBIE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B934B40)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigNewbie_TypeDefinitionIndex = 49746;
+	inline static constexpr unsigned int ConfigNewbie_TypeDefinitionIndex = 78122;
 
 	class ConfigNewbie : public ::Foundation::MihoyoSerializedScriptableObject
 	{

@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Nap/NapECS/EcsSystemMeta.h"
 
-#define CLASS_2_AA0860F536DCCC95_183__CTOR_OFFSET UNITYSDK_OFFSET(0x15A1B450)
+#define CLASS_2_AA0860F536DCCC95_183__CTOR_OFFSET UNITYSDK_OFFSET(0x15F26F60)
 
-inline static constexpr unsigned int Class_2_AA0860F536DCCC95_183_TypeDefinitionIndex = 87354;
+inline static constexpr unsigned int Class_2_AA0860F536DCCC95_183_TypeDefinitionIndex = 89867;
 
 class Class_2_AA0860F536DCCC95_183 : public ::Nap::NapECS::EcsSystemMeta
 {

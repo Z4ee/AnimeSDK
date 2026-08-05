@@ -5,24 +5,24 @@
 
 namespace System { template <typename T> class Comparison_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGLOCKNEARINMAINCITYTARGET___C_METHOD_1_61789973E8A2EC44_OFFSET UNITYSDK_OFFSET(0x18F38C50)
-#define MOLEMOLE_CONFIG_CONFIGLOCKNEARINMAINCITYTARGET___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18F38C00)
-#define MOLEMOLE_CONFIG_CONFIGLOCKNEARINMAINCITYTARGET___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18F38C40)
+#define MOLEMOLE_CONFIG_CONFIGLOCKNEARINMAINCITYTARGET___C_METHOD_1_61789973E8A2EC44_OFFSET UNITYSDK_OFFSET(0x16262180)
+#define MOLEMOLE_CONFIG_CONFIGLOCKNEARINMAINCITYTARGET___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x16262130)
+#define MOLEMOLE_CONFIG_CONFIGLOCKNEARINMAINCITYTARGET___C__CTOR_OFFSET UNITYSDK_OFFSET(0x16262170)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigLockNearInMainCityTarget___c_TypeDefinitionIndex = 45847;
+	inline static constexpr unsigned int ConfigLockNearInMainCityTarget___c_TypeDefinitionIndex = 65171;
 
 	class ConfigLockNearInMainCityTarget___c : public ::System::Object
 	{
 	public:
 		static ::System::Comparison_1<::Struct_2_029BEC9C30EBC3F1>** StaticGet___9__13_0()
 		{
-			return (::System::Comparison_1<::Struct_2_029BEC9C30EBC3F1>**)Il2CppClass::FromTypeDefinitionIndex(ConfigLockNearInMainCityTarget___c_TypeDefinitionIndex)->GetStaticField(0x303C0);
+			return (::System::Comparison_1<::Struct_2_029BEC9C30EBC3F1>**)Il2CppClass::FromTypeDefinitionIndex(ConfigLockNearInMainCityTarget___c_TypeDefinitionIndex)->GetStaticField(0x32420);
 		}
 		static ::MoleMole::Config::ConfigLockNearInMainCityTarget___c** StaticGet___9()
 		{
-			return (::MoleMole::Config::ConfigLockNearInMainCityTarget___c**)Il2CppClass::FromTypeDefinitionIndex(ConfigLockNearInMainCityTarget___c_TypeDefinitionIndex)->GetStaticField(0x303C8);
+			return (::MoleMole::Config::ConfigLockNearInMainCityTarget___c**)Il2CppClass::FromTypeDefinitionIndex(ConfigLockNearInMainCityTarget___c_TypeDefinitionIndex)->GetStaticField(0x32428);
 		}
 
 		static ::System::Void _cctor()

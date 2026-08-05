@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define NPCCROWD_GPUPREFAB_GPUPREFABCROWDBENCHMARKBEHAVIOR_GPUPREFABSPAWNENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x11F89600)
+#define NPCCROWD_GPUPREFAB_GPUPREFABCROWDBENCHMARKBEHAVIOR_GPUPREFABSPAWNENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x112A3430)
 
 namespace NPCCrowd::GPUPrefab
 {
-	inline static constexpr unsigned int GPUPrefabCrowdBenchmarkBehavior_GPUPrefabSpawnEntry_TypeDefinitionIndex = 42790;
+	inline static constexpr unsigned int GPUPrefabCrowdBenchmarkBehavior_GPUPrefabSpawnEntry_TypeDefinitionIndex = 68342;
 
 	class GPUPrefabCrowdBenchmarkBehavior_GPUPrefabSpawnEntry : public ::System::Object
 	{

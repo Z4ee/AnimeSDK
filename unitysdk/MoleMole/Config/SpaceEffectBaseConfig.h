@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_480;
+class Class_0_16E4307DCC419505_239;
 
-#define MOLEMOLE_CONFIG_SPACEEFFECTBASECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3612E0)
+#define MOLEMOLE_CONFIG_SPACEEFFECTBASECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B567D40)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int SpaceEffectBaseConfig_TypeDefinitionIndex = 52049;
+	inline static constexpr unsigned int SpaceEffectBaseConfig_TypeDefinitionIndex = 89151;
 
 	class SpaceEffectBaseConfig : public ::System::Object
 	{

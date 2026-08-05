@@ -5,12 +5,12 @@
 class Class_1_5E46A14259E19455;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIRIDUSGOTBOOPAGECONTROLLER___C__DISPLAYCLASS50_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14C83880)
-#define MOLEMOLE_UIRIDUSGOTBOOPAGECONTROLLER___C__DISPLAYCLASS50_0__UPDATEFEVERSCORE_B__0_OFFSET UNITYSDK_OFFSET(0x14C83890)
+#define MOLEMOLE_UIRIDUSGOTBOOPAGECONTROLLER___C__DISPLAYCLASS50_0__CTOR_OFFSET UNITYSDK_OFFSET(0x167579F0)
+#define MOLEMOLE_UIRIDUSGOTBOOPAGECONTROLLER___C__DISPLAYCLASS50_0__UPDATEFEVERSCORE_B__0_OFFSET UNITYSDK_OFFSET(0x16757A00)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRidusGotBooPageController___c__DisplayClass50_0_TypeDefinitionIndex = 40729;
+	inline static constexpr unsigned int UIRidusGotBooPageController___c__DisplayClass50_0_TypeDefinitionIndex = 91536;
 
 	class UIRidusGotBooPageController___c__DisplayClass50_0 : public ::System::Object
 	{

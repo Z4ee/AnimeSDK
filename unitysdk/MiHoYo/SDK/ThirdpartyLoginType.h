@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ThirdpartyLoginType_TypeDefinitionIndex = 19872;
+	inline static constexpr unsigned int ThirdpartyLoginType_TypeDefinitionIndex = 20220;
 
 	enum class ThirdpartyLoginType : ::System::Int32
 	{

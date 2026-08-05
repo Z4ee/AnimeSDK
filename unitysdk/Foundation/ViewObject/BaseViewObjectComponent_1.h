@@ -5,7 +5,7 @@
 
 namespace Foundation::ViewObject
 {
-	inline static constexpr unsigned int BaseViewObjectComponent_1_TypeDefinitionIndex = 72664;
+	inline static constexpr unsigned int BaseViewObjectComponent_1_TypeDefinitionIndex = 48069;
 
 	template <typename T>
 	class BaseViewObjectComponent_1 : public ::Foundation::ViewObject::BaseViewObjectComponent_2<T, ::Foundation::ViewObject::ViewObjectHandle>

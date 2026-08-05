@@ -5,23 +5,23 @@
 #include "unitysdk/UnityEngine/InputSystem/InputBindingComposite_1.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define UNITYENGINE_INPUTSYSTEM_COMPOSITES_VECTOR2COMPOSITE_EVALUATEMAGNITUDE_OFFSET UNITYSDK_OFFSET(0x1D79B930)
-#define UNITYENGINE_INPUTSYSTEM_COMPOSITES_VECTOR2COMPOSITE_READVALUE_OFFSET UNITYSDK_OFFSET(0x1D79B650)
-#define UNITYENGINE_INPUTSYSTEM_COMPOSITES_VECTOR2COMPOSITE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D79B970)
+#define UNITYENGINE_INPUTSYSTEM_COMPOSITES_VECTOR2COMPOSITE_EVALUATEMAGNITUDE_OFFSET UNITYSDK_OFFSET(0x1EB400A0)
+#define UNITYENGINE_INPUTSYSTEM_COMPOSITES_VECTOR2COMPOSITE_READVALUE_OFFSET UNITYSDK_OFFSET(0x1EB3FDC0)
+#define UNITYENGINE_INPUTSYSTEM_COMPOSITES_VECTOR2COMPOSITE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB400D0)
 
 namespace UnityEngine::InputSystem::Composites
 {
-	inline static constexpr unsigned int Vector2Composite_TypeDefinitionIndex = 32097;
+	inline static constexpr unsigned int Vector2Composite_TypeDefinitionIndex = 32717;
 
 	class Vector2Composite : public ::UnityEngine::InputSystem::InputBindingComposite_1<::UnityEngine::Vector2>
 	{
 	public:
-		::System::Boolean normalize; // 0x10
-		::UnityEngine::InputSystem::Composites::Vector2Composite_Mode mode; // 0x14
-		::System::Int32 left; // 0x18
-		::System::Int32 down; // 0x1C
+		::System::Int32 left; // 0x10
+		::System::Int32 right; // 0x14
+		::System::Int32 down; // 0x18
+		::UnityEngine::InputSystem::Composites::Vector2Composite_Mode mode; // 0x1C
 		::System::Int32 up; // 0x20
-		::System::Int32 right; // 0x24
+		::System::Boolean normalize; // 0x24
 
 		::System::Void _ctor()
 		{

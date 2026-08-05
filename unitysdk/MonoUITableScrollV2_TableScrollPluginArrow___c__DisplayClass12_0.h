@@ -4,7 +4,7 @@
 
 class MonoUITableScrollV2_TableScrollPluginArrow;
 
-inline static constexpr unsigned int MonoUITableScrollV2_TableScrollPluginArrow___c__DisplayClass12_0_TypeDefinitionIndex = 69924;
+inline static constexpr unsigned int MonoUITableScrollV2_TableScrollPluginArrow___c__DisplayClass12_0_TypeDefinitionIndex = 75056;
 
 struct alignas(8) MonoUITableScrollV2_TableScrollPluginArrow___c__DisplayClass12_0
 {

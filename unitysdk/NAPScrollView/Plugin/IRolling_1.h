@@ -8,7 +8,7 @@ namespace System { template <typename T1, typename T2> class Action_2; }
 
 namespace NAPScrollView::Plugin
 {
-	inline static constexpr unsigned int IRolling_1_TypeDefinitionIndex = 48260;
+	inline static constexpr unsigned int IRolling_1_TypeDefinitionIndex = 68886;
 
 	template <typename T>
 	class IRolling_1

@@ -5,11 +5,11 @@
 
 class Class_2_F8EB4D9464ADCCA1;
 
-#define MOLEMOLE_UIACTIVITYBATTLEYCLBOSSLISTROWWIDGETCONTROLLER_ROWDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x17A329D0)
+#define MOLEMOLE_UIACTIVITYBATTLEYCLBOSSLISTROWWIDGETCONTROLLER_ROWDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x197CF280)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityBattleYCLBossListRowWidgetController_RowData_TypeDefinitionIndex = 55089;
+	inline static constexpr unsigned int UIActivityBattleYCLBossListRowWidgetController_RowData_TypeDefinitionIndex = 77426;
 
 	class UIActivityBattleYCLBossListRowWidgetController_RowData : public ::System::Object
 	{

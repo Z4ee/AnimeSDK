@@ -6,22 +6,22 @@ namespace MiHoYo::SDK { class ConfirmWithTitle; }
 namespace System { class Action; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_CONFIRMWITHTITLE___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA6BF30)
-#define MIHOYO_SDK_CONFIRMWITHTITLE___C__DISPLAYCLASS25_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1BA6BF40)
+#define MIHOYO_SDK_CONFIRMWITHTITLE___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1CCECA00)
+#define MIHOYO_SDK_CONFIRMWITHTITLE___C__DISPLAYCLASS25_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1CCECA10)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ConfirmWithTitle___c__DisplayClass25_0_TypeDefinitionIndex = 19765;
+	inline static constexpr unsigned int ConfirmWithTitle___c__DisplayClass25_0_TypeDefinitionIndex = 20113;
 
 	class ConfirmWithTitle___c__DisplayClass25_0 : public ::System::Object
 	{
 	public:
-		::System::String* contentText; // 0x10
-		::System::String* cancelButtonText; // 0x18
-		::System::Action* cancelCallback; // 0x20
-		::System::String* confirmButtonText; // 0x28
-		::System::Action* confirmCallback; // 0x30
-		::System::String* titleText; // 0x38
+		::System::Action* confirmCallback; // 0x10
+		::System::String* contentText; // 0x18
+		::System::String* cancelButtonText; // 0x20
+		::System::String* titleText; // 0x28
+		::System::String* confirmButtonText; // 0x30
+		::System::Action* cancelCallback; // 0x38
 		::System::Boolean bAutoHide; // 0x40
 
 		::System::Void _ctor()

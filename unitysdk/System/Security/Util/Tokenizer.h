@@ -9,12 +9,12 @@ namespace System::Security::Util { class Tokenizer_ITokenReader; }
 namespace System::Security::Util { class Tokenizer_StringMaker; }
 namespace System::Text { class Encoding; }
 
-#define SYSTEM_SECURITY_UTIL_TOKENIZER_BASICINITIALIZATION_OFFSET UNITYSDK_OFFSET(0x1C9DD630)
-#define SYSTEM_SECURITY_UTIL_TOKENIZER_CHANGEFORMAT_OFFSET UNITYSDK_OFFSET(0x1C9DD780)
-#define SYSTEM_SECURITY_UTIL_TOKENIZER_GETSTRINGTOKEN_OFFSET UNITYSDK_OFFSET(0x1C9DEA30)
-#define SYSTEM_SECURITY_UTIL_TOKENIZER_GETTOKENS_OFFSET UNITYSDK_OFFSET(0x1C9DDBF0)
-#define SYSTEM_SECURITY_UTIL_TOKENIZER_RECYCLE_OFFSET UNITYSDK_OFFSET(0x1C9DD690)
-#define SYSTEM_SECURITY_UTIL_TOKENIZER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C9DD6F0)
+#define SYSTEM_SECURITY_UTIL_TOKENIZER_BASICINITIALIZATION_OFFSET UNITYSDK_OFFSET(0x1DDEAF10)
+#define SYSTEM_SECURITY_UTIL_TOKENIZER_CHANGEFORMAT_OFFSET UNITYSDK_OFFSET(0x1DDEB060)
+#define SYSTEM_SECURITY_UTIL_TOKENIZER_GETSTRINGTOKEN_OFFSET UNITYSDK_OFFSET(0x1DDEC270)
+#define SYSTEM_SECURITY_UTIL_TOKENIZER_GETTOKENS_OFFSET UNITYSDK_OFFSET(0x1DDEB4D0)
+#define SYSTEM_SECURITY_UTIL_TOKENIZER_RECYCLE_OFFSET UNITYSDK_OFFSET(0x1DDEAF70)
+#define SYSTEM_SECURITY_UTIL_TOKENIZER__CTOR_OFFSET UNITYSDK_OFFSET(0x1DDEAFD0)
 
 namespace System::Security::Util
 {
@@ -23,21 +23,21 @@ namespace System::Security::Util
 	class Tokenizer : public ::System::Object
 	{
 	public:
-		::System::String* _inNestedString; // 0x10
-		::System::Security::Util::Tokenizer_StringMaker* _maker; // 0x18
-		::System::Security::Util::Tokenizer_ITokenReader* _inTokenReader; // 0x20
-		::Il2CppArray<::System::String*>* _searchStrings; // 0x28
-		::Il2CppArray<::System::String*>* _replaceStrings; // 0x30
-		::Il2CppArray<::System::Char>* _inChars; // 0x38
+		::Il2CppArray<::System::Char>* _inChars; // 0x10
+		::Il2CppArray<::System::String*>* _searchStrings; // 0x18
+		::System::String* _inNestedString; // 0x20
+		::System::Security::Util::Tokenizer_StringMaker* _maker; // 0x28
+		::System::Security::Util::Tokenizer_ITokenReader* _inTokenReader; // 0x30
+		::Il2CppArray<::System::Byte>* _inBytes; // 0x38
 		::System::String* _inString; // 0x40
-		::Il2CppArray<::System::Byte>* _inBytes; // 0x48
-		::System::Int32 _inSize; // 0x50
-		::System::Security::Util::Tokenizer_TokenSource _inTokenSource; // 0x54
-		::System::Int32 _inNestedSize; // 0x58
-		::System::Int32 _inProcessingTag; // 0x5C
-		::System::Int32 _inIndex; // 0x60
+		::Il2CppArray<::System::String*>* _replaceStrings; // 0x48
+		::System::Int32 _inIndex; // 0x50
+		::System::Int32 _inProcessingTag; // 0x54
+		::System::Int32 _inSize; // 0x58
+		::System::Int32 _inSavedCharacter; // 0x5C
+		::System::Int32 _inNestedSize; // 0x60
 		::System::Int32 LineNo; // 0x64
-		::System::Int32 _inSavedCharacter; // 0x68
+		::System::Security::Util::Tokenizer_TokenSource _inTokenSource; // 0x68
 		::System::Int32 _inNestedIndex; // 0x6C
 
 		::System::Void _ctor(::System::String* input)

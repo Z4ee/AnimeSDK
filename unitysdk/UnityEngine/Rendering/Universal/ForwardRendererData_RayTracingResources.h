@@ -7,11 +7,11 @@ namespace UnityEngine { class Shader; }
 namespace UnityEngine { class TextAsset; }
 namespace UnityEngine::Experimental::Rendering { class RayTracingShader; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERERDATA_RAYTRACINGRESOURCES__CTOR_OFFSET UNITYSDK_OFFSET(0x1AEE81E0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERERDATA_RAYTRACINGRESOURCES__CTOR_OFFSET UNITYSDK_OFFSET(0x1C42D320)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int ForwardRendererData_RayTracingResources_TypeDefinitionIndex = 26592;
+	inline static constexpr unsigned int ForwardRendererData_RayTracingResources_TypeDefinitionIndex = 27770;
 
 	class ForwardRendererData_RayTracingResources : public ::System::Object
 	{

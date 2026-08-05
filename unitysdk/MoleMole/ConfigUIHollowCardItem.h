@@ -4,11 +4,11 @@
 
 namespace MoleMole { class ConfigUICommon_HollowCard; }
 
-#define MOLEMOLE_CONFIGUIHOLLOWCARDITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x157D8A20)
+#define MOLEMOLE_CONFIGUIHOLLOWCARDITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD80BC0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUIHollowCardItem_TypeDefinitionIndex = 86033;
+	inline static constexpr unsigned int ConfigUIHollowCardItem_TypeDefinitionIndex = 68803;
 
 	class ConfigUIHollowCardItem : public ::MoleMole::ConfigLazyLoadItem_1<::MoleMole::ConfigUICommon_HollowCard*>
 	{

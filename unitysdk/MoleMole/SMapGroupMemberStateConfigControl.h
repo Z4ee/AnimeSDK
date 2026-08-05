@@ -9,7 +9,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SMapGroupMemberStateConfigControl_TypeDefinitionIndex = 71406;
+	inline static constexpr unsigned int SMapGroupMemberStateConfigControl_TypeDefinitionIndex = 89783;
 
 	struct alignas(8) SMapGroupMemberStateConfigControl
 	{

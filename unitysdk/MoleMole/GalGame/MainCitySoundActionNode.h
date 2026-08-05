@@ -8,12 +8,12 @@ namespace MoleMole { class UIMainCityChatPlayContext; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_GALGAME_MAINCITYSOUNDACTIONNODE_INSTANTIATE_OFFSET UNITYSDK_OFFSET(0x14170120)
-#define MOLEMOLE_GALGAME_MAINCITYSOUNDACTIONNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x14170090)
+#define MOLEMOLE_GALGAME_MAINCITYSOUNDACTIONNODE_INSTANTIATE_OFFSET UNITYSDK_OFFSET(0x107E0D60)
+#define MOLEMOLE_GALGAME_MAINCITYSOUNDACTIONNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x107E0CD0)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int MainCitySoundActionNode_TypeDefinitionIndex = 68719;
+	inline static constexpr unsigned int MainCitySoundActionNode_TypeDefinitionIndex = 57388;
 
 	class MainCitySoundActionNode : public ::MoleMole::GalGame::MainCityChatPlayableNodeBase
 	{

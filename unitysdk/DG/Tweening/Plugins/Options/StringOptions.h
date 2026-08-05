@@ -5,7 +5,7 @@
 
 namespace DG::Tweening::Plugins::Options
 {
-	inline static constexpr unsigned int StringOptions_TypeDefinitionIndex = 27963;
+	inline static constexpr unsigned int StringOptions_TypeDefinitionIndex = 28567;
 
 	struct alignas(8) StringOptions
 	{

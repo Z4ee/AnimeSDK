@@ -5,11 +5,11 @@
 
 namespace MoleMole { class ComicImgUITransformData; }
 
-#define MOLEMOLE_COMICPARTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1E747720)
+#define MOLEMOLE_COMICPARTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB1EE50)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ComicPartInfo_TypeDefinitionIndex = 32138;
+	inline static constexpr unsigned int ComicPartInfo_TypeDefinitionIndex = 32766;
 
 	class ComicPartInfo : public ::System::Object
 	{

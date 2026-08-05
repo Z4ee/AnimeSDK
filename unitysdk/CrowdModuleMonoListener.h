@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define CROWDMODULEMONOLISTENER_UPDATE_OFFSET UNITYSDK_OFFSET(0x11455550)
-#define CROWDMODULEMONOLISTENER__CTOR_OFFSET UNITYSDK_OFFSET(0x11455680)
+#define CROWDMODULEMONOLISTENER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1297EFE0)
+#define CROWDMODULEMONOLISTENER__CTOR_OFFSET UNITYSDK_OFFSET(0x1297F110)
 
-inline static constexpr unsigned int CrowdModuleMonoListener_TypeDefinitionIndex = 85324;
+inline static constexpr unsigned int CrowdModuleMonoListener_TypeDefinitionIndex = 71638;
 
 class CrowdModuleMonoListener : public ::UnityEngine::MonoBehaviour
 {

@@ -6,11 +6,11 @@
 
 namespace UnityEngine::InputSystem { class InputActionMap; }
 
-#define UNITYENGINE_INPUTSYSTEM_INPUTACTIONMAP_READFILEJSON_TOMAPS_OFFSET UNITYSDK_OFFSET(0xA42FE0)
+#define UNITYENGINE_INPUTSYSTEM_INPUTACTIONMAP_READFILEJSON_TOMAPS_OFFSET UNITYSDK_OFFSET(0xA960D0)
 
 namespace UnityEngine::InputSystem
 {
-	inline static constexpr unsigned int InputActionMap_ReadFileJson_TypeDefinitionIndex = 31545;
+	inline static constexpr unsigned int InputActionMap_ReadFileJson_TypeDefinitionIndex = 32165;
 
 	struct alignas(8) InputActionMap_ReadFileJson
 	{

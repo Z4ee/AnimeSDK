@@ -6,11 +6,11 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_PRELOADMANUALSUPPLEMENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16CE2140)
+#define MOLEMOLE_PRELOADMANUALSUPPLEMENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x13ACEF10)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int PreloadManualSupplementConfig_TypeDefinitionIndex = 67845;
+	inline static constexpr unsigned int PreloadManualSupplementConfig_TypeDefinitionIndex = 60891;
 
 	class PreloadManualSupplementConfig : public ::System::Object
 	{

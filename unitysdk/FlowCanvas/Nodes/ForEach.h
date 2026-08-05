@@ -8,22 +8,22 @@ namespace System { class Object; }
 namespace System { class Type; }
 namespace System::Collections { class IEnumerable; }
 
-#define FLOWCANVAS_NODES_FOREACH_GETNODEWILDDEFINITIONTYPE_OFFSET UNITYSDK_OFFSET(0x1D81D3B0)
-#define FLOWCANVAS_NODES_FOREACH_ONPORTCONNECTED_OFFSET UNITYSDK_OFFSET(0x1D81D3E0)
-#define FLOWCANVAS_NODES_FOREACH_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1D81D1E0)
-#define FLOWCANVAS_NODES_FOREACH__CTOR_OFFSET UNITYSDK_OFFSET(0x1D81D5A0)
+#define FLOWCANVAS_NODES_FOREACH_GETNODEWILDDEFINITIONTYPE_OFFSET UNITYSDK_OFFSET(0x1EB8F780)
+#define FLOWCANVAS_NODES_FOREACH_ONPORTCONNECTED_OFFSET UNITYSDK_OFFSET(0x1EB8F7B0)
+#define FLOWCANVAS_NODES_FOREACH_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1EB8F5B0)
+#define FLOWCANVAS_NODES_FOREACH__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB8F970)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int ForEach_TypeDefinitionIndex = 29419;
+	inline static constexpr unsigned int ForEach_TypeDefinitionIndex = 31144;
 
 	class ForEach : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::System::Object* currentObject; // 0xA8
-		::FlowCanvas::ValueInput_1<::System::Collections::IEnumerable*>* enumerableInput; // 0xB0
-		::System::Int32 currentIndex; // 0xB8
-		::System::Boolean broken; // 0xBC
+		::FlowCanvas::ValueInput_1<::System::Collections::IEnumerable*>* enumerableInput; // 0xA8
+		::System::Object* currentObject; // 0xB0
+		::System::Boolean broken; // 0xB8
+		::System::Int32 currentIndex; // 0xBC
 
 		::System::Void _ctor()
 		{

@@ -7,12 +7,12 @@
 namespace MoleMole::Timeline { class EmoSyncAnimationBehavior; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_TIMELINE_EMOSYNCANIMATIONCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x181814C0)
-#define MOLEMOLE_TIMELINE_EMOSYNCANIMATIONCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x18181610)
+#define MOLEMOLE_TIMELINE_EMOSYNCANIMATIONCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x19726AD0)
+#define MOLEMOLE_TIMELINE_EMOSYNCANIMATIONCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x19726C20)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int EmoSyncAnimationClip_TypeDefinitionIndex = 72830;
+	inline static constexpr unsigned int EmoSyncAnimationClip_TypeDefinitionIndex = 49529;
 
 	class EmoSyncAnimationClip : public ::UnityEngine::Playables::PlayableAsset
 	{

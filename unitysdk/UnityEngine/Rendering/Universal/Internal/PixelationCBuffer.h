@@ -5,7 +5,7 @@
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int PixelationCBuffer_TypeDefinitionIndex = 26570;
+	inline static constexpr unsigned int PixelationCBuffer_TypeDefinitionIndex = 27433;
 
 	struct alignas(4) PixelationCBuffer
 	{

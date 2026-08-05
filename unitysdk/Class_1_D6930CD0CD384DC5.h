@@ -9,20 +9,20 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define CLASS_1_D6930CD0CD384DC5_METHOD_1_0CC1EA4372265873_OFFSET UNITYSDK_OFFSET(0x131D59D0)
-#define CLASS_1_D6930CD0CD384DC5_METHOD_1_299DA8FF1D721BED_OFFSET UNITYSDK_OFFSET(0x131D5720)
-#define CLASS_1_D6930CD0CD384DC5_METHOD_1_D65F18E3B0189BE5_OFFSET UNITYSDK_OFFSET(0x131D5C50)
-#define CLASS_1_D6930CD0CD384DC5_METHOD_1_FDDC5A41F149A0CC_OFFSET UNITYSDK_OFFSET(0x131D5B40)
-#define CLASS_1_D6930CD0CD384DC5__CCTOR_OFFSET UNITYSDK_OFFSET(0x131D5680)
+#define CLASS_1_D6930CD0CD384DC5_METHOD_1_0CC1EA4372265873_OFFSET UNITYSDK_OFFSET(0x1117C370)
+#define CLASS_1_D6930CD0CD384DC5_METHOD_1_299DA8FF1D721BED_OFFSET UNITYSDK_OFFSET(0x1117C4E0)
+#define CLASS_1_D6930CD0CD384DC5_METHOD_1_FC4BE70D826068A5_OFFSET UNITYSDK_OFFSET(0x1117BF60)
+#define CLASS_1_D6930CD0CD384DC5_METHOD_1_FDDC5A41F149A0CC_OFFSET UNITYSDK_OFFSET(0x1117C790)
+#define CLASS_1_D6930CD0CD384DC5__CCTOR_OFFSET UNITYSDK_OFFSET(0x1117BEC0)
 
-inline static constexpr unsigned int Class_1_D6930CD0CD384DC5_TypeDefinitionIndex = 62226;
+inline static constexpr unsigned int Class_1_D6930CD0CD384DC5_TypeDefinitionIndex = 52392;
 
 class Class_1_D6930CD0CD384DC5 : public ::System::Object
 {
 public:
 	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::AnimationCurve*>** StaticGet_Field_1_0()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::AnimationCurve*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_D6930CD0CD384DC5_TypeDefinitionIndex)->GetStaticField(0x3B690);
+		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::AnimationCurve*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_D6930CD0CD384DC5_TypeDefinitionIndex)->GetStaticField(0x30A90);
 	}
 
 	static ::System::Void _cctor()
@@ -30,9 +30,9 @@ public:
 		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CLASS_1_D6930CD0CD384DC5__CCTOR_OFFSET))();
 	}
 
-	static ::System::Void Method_1_299DA8FF1D721BED(::System::Boolean a1, ::System::Action* a2)
+	static ::System::Single Method_1_FC4BE70D826068A5(::System::String* a1, ::MoleMole::Battle::Entity* a2, ::MoleMole::Battle::Entity* a3)
 	{
-		return ((::System::Void(*)(::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + CLASS_1_D6930CD0CD384DC5_METHOD_1_299DA8FF1D721BED_OFFSET))(a1, a2);
+		return ((::System::Single(*)(::System::String*, ::MoleMole::Battle::Entity*, ::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + CLASS_1_D6930CD0CD384DC5_METHOD_1_FC4BE70D826068A5_OFFSET))(a1, a2, a3);
 	}
 
 	static ::UnityEngine::AnimationCurve* Method_1_0CC1EA4372265873(::System::String* a1)
@@ -40,13 +40,13 @@ public:
 		return ((::UnityEngine::AnimationCurve*(*)(::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_D6930CD0CD384DC5_METHOD_1_0CC1EA4372265873_OFFSET))(a1);
 	}
 
+	static ::System::Void Method_1_299DA8FF1D721BED(::System::Boolean a1, ::System::Action* a2)
+	{
+		return ((::System::Void(*)(::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + CLASS_1_D6930CD0CD384DC5_METHOD_1_299DA8FF1D721BED_OFFSET))(a1, a2);
+	}
+
 	static ::System::Void Method_1_FDDC5A41F149A0CC(::System::Single a1, ::System::Action_1<::System::Single>* a2, ::System::Action_1<::System::String*>* a3, ::System::String* a4)
 	{
 		return ((::System::Void(*)(::System::Single, ::System::Action_1<::System::Single>*, ::System::Action_1<::System::String*>*, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_D6930CD0CD384DC5_METHOD_1_FDDC5A41F149A0CC_OFFSET))(a1, a2, a3, a4);
-	}
-
-	static ::System::Single Method_1_D65F18E3B0189BE5(::System::String* a1, ::MoleMole::Battle::Entity* a2, ::MoleMole::Battle::Entity* a3)
-	{
-		return ((::System::Single(*)(::System::String*, ::MoleMole::Battle::Entity*, ::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + CLASS_1_D6930CD0CD384DC5_METHOD_1_D65F18E3B0189BE5_OFFSET))(a1, a2, a3);
 	}
 };

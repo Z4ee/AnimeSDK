@@ -4,12 +4,12 @@
 
 namespace MoleMole::GalGame { class MainCityChatShowUIConfig_OnCloseWithIndex; }
 
-#define MOLEMOLE_GALGAME_MAINCITYCHATSHOWSCRATCHCARDCONFIG___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x12BC1230)
-#define MOLEMOLE_GALGAME_MAINCITYCHATSHOWSCRATCHCARDCONFIG___C__DISPLAYCLASS3_0__ONOPEN_B__0_OFFSET UNITYSDK_OFFSET(0x12BC1240)
+#define MOLEMOLE_GALGAME_MAINCITYCHATSHOWSCRATCHCARDCONFIG___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x13840920)
+#define MOLEMOLE_GALGAME_MAINCITYCHATSHOWSCRATCHCARDCONFIG___C__DISPLAYCLASS3_0__ONOPEN_B__0_OFFSET UNITYSDK_OFFSET(0x13840930)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int MainCityChatShowScratchCardConfig___c__DisplayClass3_0_TypeDefinitionIndex = 73462;
+	inline static constexpr unsigned int MainCityChatShowScratchCardConfig___c__DisplayClass3_0_TypeDefinitionIndex = 47694;
 
 	class MainCityChatShowScratchCardConfig___c__DisplayClass3_0 : public ::System::Object
 	{

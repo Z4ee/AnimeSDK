@@ -5,12 +5,12 @@
 namespace MoleMole { class UISurveyPointsWidgetController___c__DisplayClass8_0; }
 namespace UnityEngine::UI::Extension { class UIDynamicNumberLabel; }
 
-#define MOLEMOLE_UISURVEYPOINTSWIDGETCONTROLLER___C__DISPLAYCLASS8_1__CTOR_OFFSET UNITYSDK_OFFSET(0x165488C0)
-#define MOLEMOLE_UISURVEYPOINTSWIDGETCONTROLLER___C__DISPLAYCLASS8_1__REFRESHCONTROBUTEVIEW_B__5_OFFSET UNITYSDK_OFFSET(0x165488D0)
+#define MOLEMOLE_UISURVEYPOINTSWIDGETCONTROLLER___C__DISPLAYCLASS8_1__CTOR_OFFSET UNITYSDK_OFFSET(0x19155BE0)
+#define MOLEMOLE_UISURVEYPOINTSWIDGETCONTROLLER___C__DISPLAYCLASS8_1__REFRESHCONTROBUTEVIEW_B__5_OFFSET UNITYSDK_OFFSET(0x19155BF0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISurveyPointsWidgetController___c__DisplayClass8_1_TypeDefinitionIndex = 52579;
+	inline static constexpr unsigned int UISurveyPointsWidgetController___c__DisplayClass8_1_TypeDefinitionIndex = 76739;
 
 	class UISurveyPointsWidgetController___c__DisplayClass8_1 : public ::System::Object
 	{

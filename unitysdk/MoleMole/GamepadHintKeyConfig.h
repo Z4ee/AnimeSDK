@@ -10,11 +10,11 @@
 
 namespace System { class String; }
 namespace UnityEngine::UI { class Text; }
-namespace UnityEngine::UI::Extension { class UIButtonEx; }
+namespace UnityEngine::UI::Extension { class UIButtonBase; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int GamepadHintKeyConfig_TypeDefinitionIndex = 74948;
+	inline static constexpr unsigned int GamepadHintKeyConfig_TypeDefinitionIndex = 49719;
 
 	struct alignas(8) GamepadHintKeyConfig
 	{
@@ -25,7 +25,7 @@ namespace MoleMole
 		::System::String* textKey; // 0x28
 		::System::Boolean IsHideHint; // 0x30
 		::System::Boolean handleInput; // 0x31
-		::UnityEngine::UI::Extension::UIButtonEx* bindedButton; // 0x38
+		::UnityEngine::UI::Extension::UIButtonBase* bindedButton; // 0x38
 		::System::Boolean hideHintWhenButtonDisable; // 0x40
 		::System::Boolean IsHandleLongPress; // 0x41
 		::Share::ENotificationBadgeType _notificationBadgeType; // 0x44

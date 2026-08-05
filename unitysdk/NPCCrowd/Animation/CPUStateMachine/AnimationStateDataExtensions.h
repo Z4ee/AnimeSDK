@@ -4,11 +4,11 @@
 #include "unitysdk/NPCCrowd/Animation/CPUStateMachine/AnimationStateDataMultiLayer.h"
 #include "unitysdk/System/Object.h"
 
-#define NPCCROWD_ANIMATION_CPUSTATEMACHINE_ANIMATIONSTATEDATAEXTENSIONS_GETLAYERSTATEREF_OFFSET UNITYSDK_OFFSET(0xE026920)
+#define NPCCROWD_ANIMATION_CPUSTATEMACHINE_ANIMATIONSTATEDATAEXTENSIONS_GETLAYERSTATEREF_OFFSET UNITYSDK_OFFSET(0x11942370)
 
 namespace NPCCrowd::Animation::CPUStateMachine
 {
-	inline static constexpr unsigned int AnimationStateDataExtensions_TypeDefinitionIndex = 42883;
+	inline static constexpr unsigned int AnimationStateDataExtensions_TypeDefinitionIndex = 65623;
 
 	class AnimationStateDataExtensions : public ::System::Object
 	{

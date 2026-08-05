@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/Utils/ValueOrCurve1_1.h"
 
-#define MOLEMOLE_UTILS_VALUEORCURVEFLOAT_SAMPLECURVE_OFFSET UNITYSDK_OFFSET(0x13848400)
-#define MOLEMOLE_UTILS_VALUEORCURVEFLOAT__CTOR_OFFSET UNITYSDK_OFFSET(0x13848480)
+#define MOLEMOLE_UTILS_VALUEORCURVEFLOAT_SAMPLECURVE_OFFSET UNITYSDK_OFFSET(0x15B20450)
+#define MOLEMOLE_UTILS_VALUEORCURVEFLOAT__CTOR_OFFSET UNITYSDK_OFFSET(0x15B204D0)
 
 namespace MoleMole::Utils
 {
-	inline static constexpr unsigned int ValueOrCurveFloat_TypeDefinitionIndex = 75356;
+	inline static constexpr unsigned int ValueOrCurveFloat_TypeDefinitionIndex = 59011;
 
 	class ValueOrCurveFloat : public ::MoleMole::Utils::ValueOrCurve1_1<::System::Single>
 	{

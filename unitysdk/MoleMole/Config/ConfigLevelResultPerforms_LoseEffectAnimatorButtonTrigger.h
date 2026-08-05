@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGLEVELRESULTPERFORMS_LOSEEFFECTANIMATORBUTTONTRIGGER_ISSHOWTICKTAG_OFFSET UNITYSDK_OFFSET(0x816CE0)
+#define MOLEMOLE_CONFIG_CONFIGLEVELRESULTPERFORMS_LOSEEFFECTANIMATORBUTTONTRIGGER_ISSHOWTICKTAG_OFFSET UNITYSDK_OFFSET(0x857380)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigLevelResultPerforms_LoseEffectAnimatorButtonTrigger_TypeDefinitionIndex = 65851;
+	inline static constexpr unsigned int ConfigLevelResultPerforms_LoseEffectAnimatorButtonTrigger_TypeDefinitionIndex = 73022;
 
 	struct alignas(8) ConfigLevelResultPerforms_LoseEffectAnimatorButtonTrigger
 	{

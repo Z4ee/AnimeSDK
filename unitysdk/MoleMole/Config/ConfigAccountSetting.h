@@ -3,12 +3,12 @@
 #include "unitysdk/MoleMole/Config/ConfigSubSystemSettingBase.h"
 #include "unitysdk/MoleMole/ESystemSettingType.h"
 
-#define MOLEMOLE_CONFIG_CONFIGACCOUNTSETTING_GET_SYSTEMSETTINGTYPE_OFFSET UNITYSDK_OFFSET(0x17D4A4E0)
-#define MOLEMOLE_CONFIG_CONFIGACCOUNTSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x17D4A4F0)
+#define MOLEMOLE_CONFIG_CONFIGACCOUNTSETTING_GET_SYSTEMSETTINGTYPE_OFFSET UNITYSDK_OFFSET(0x1729A270)
+#define MOLEMOLE_CONFIG_CONFIGACCOUNTSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x1729A280)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigAccountSetting_TypeDefinitionIndex = 83963;
+	inline static constexpr unsigned int ConfigAccountSetting_TypeDefinitionIndex = 57852;
 
 	class ConfigAccountSetting : public ::MoleMole::Config::ConfigSubSystemSettingBase
 	{

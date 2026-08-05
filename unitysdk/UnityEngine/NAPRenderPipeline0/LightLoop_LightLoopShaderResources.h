@@ -6,7 +6,7 @@ namespace UnityEngine { class ComputeShader; }
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int LightLoop_LightLoopShaderResources_TypeDefinitionIndex = 6002;
+	inline static constexpr unsigned int LightLoop_LightLoopShaderResources_TypeDefinitionIndex = 6004;
 
 	struct alignas(8) LightLoop_LightLoopShaderResources
 	{

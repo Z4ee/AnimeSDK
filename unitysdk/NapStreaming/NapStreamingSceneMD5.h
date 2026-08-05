@@ -5,12 +5,12 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NAPSTREAMING_NAPSTREAMINGSCENEMD5_CHECKISDEPENDEQUAL_OFFSET UNITYSDK_OFFSET(0x117B33D0)
-#define NAPSTREAMING_NAPSTREAMINGSCENEMD5__CTOR_OFFSET UNITYSDK_OFFSET(0x117B35F0)
+#define NAPSTREAMING_NAPSTREAMINGSCENEMD5_CHECKISDEPENDEQUAL_OFFSET UNITYSDK_OFFSET(0xE95DEB0)
+#define NAPSTREAMING_NAPSTREAMINGSCENEMD5__CTOR_OFFSET UNITYSDK_OFFSET(0xE95E0D0)
 
 namespace NapStreaming
 {
-	inline static constexpr unsigned int NapStreamingSceneMD5_TypeDefinitionIndex = 53785;
+	inline static constexpr unsigned int NapStreamingSceneMD5_TypeDefinitionIndex = 48562;
 
 	class NapStreamingSceneMD5 : public ::System::Object
 	{

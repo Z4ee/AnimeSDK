@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int ERainType_TypeDefinitionIndex = 27193;
+inline static constexpr unsigned int ERainType_TypeDefinitionIndex = 27095;
 
 enum class ERainType : ::System::Int32
 {

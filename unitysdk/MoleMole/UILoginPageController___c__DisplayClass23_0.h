@@ -6,20 +6,20 @@ namespace MoleMole { class UILoginPageController; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_UILOGINPAGECONTROLLER___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17142050)
-#define MOLEMOLE_UILOGINPAGECONTROLLER___C__DISPLAYCLASS23_0__REQUESTSERVERLIST_B__0_OFFSET UNITYSDK_OFFSET(0x17142060)
-#define MOLEMOLE_UILOGINPAGECONTROLLER___C__DISPLAYCLASS23_0__REQUESTSERVERLIST_B__1_OFFSET UNITYSDK_OFFSET(0x17142170)
-#define MOLEMOLE_UILOGINPAGECONTROLLER___C__DISPLAYCLASS23_0__REQUESTSERVERLIST_B__2_OFFSET UNITYSDK_OFFSET(0x17142320)
+#define MOLEMOLE_UILOGINPAGECONTROLLER___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0x183A2FD0)
+#define MOLEMOLE_UILOGINPAGECONTROLLER___C__DISPLAYCLASS23_0__REQUESTSERVERLIST_B__0_OFFSET UNITYSDK_OFFSET(0x183A2FE0)
+#define MOLEMOLE_UILOGINPAGECONTROLLER___C__DISPLAYCLASS23_0__REQUESTSERVERLIST_B__1_OFFSET UNITYSDK_OFFSET(0x183A30F0)
+#define MOLEMOLE_UILOGINPAGECONTROLLER___C__DISPLAYCLASS23_0__REQUESTSERVERLIST_B__2_OFFSET UNITYSDK_OFFSET(0x183A32B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UILoginPageController___c__DisplayClass23_0_TypeDefinitionIndex = 50120;
+	inline static constexpr unsigned int UILoginPageController___c__DisplayClass23_0_TypeDefinitionIndex = 46281;
 
 	class UILoginPageController___c__DisplayClass23_0 : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* k_v; // 0x10
-		::MoleMole::UILoginPageController* __4__this; // 0x18
+		::MoleMole::UILoginPageController* __4__this; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* k_v; // 0x18
 		::System::String* cacheUrl; // 0x20
 
 		::System::Void _ctor()

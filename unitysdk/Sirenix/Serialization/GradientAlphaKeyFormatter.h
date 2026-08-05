@@ -7,21 +7,21 @@ namespace Sirenix::Serialization { class IDataReader; }
 namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 
-#define SIRENIX_SERIALIZATION_GRADIENTALPHAKEYFORMATTER_READ_OFFSET UNITYSDK_OFFSET(0x1E7BA6F0)
-#define SIRENIX_SERIALIZATION_GRADIENTALPHAKEYFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x1E7BA7E0)
-#define SIRENIX_SERIALIZATION_GRADIENTALPHAKEYFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E7BA940)
-#define SIRENIX_SERIALIZATION_GRADIENTALPHAKEYFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7BA8E0)
+#define SIRENIX_SERIALIZATION_GRADIENTALPHAKEYFORMATTER_READ_OFFSET UNITYSDK_OFFSET(0x1FB97FE0)
+#define SIRENIX_SERIALIZATION_GRADIENTALPHAKEYFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x1FB980D0)
+#define SIRENIX_SERIALIZATION_GRADIENTALPHAKEYFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FB98230)
+#define SIRENIX_SERIALIZATION_GRADIENTALPHAKEYFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB981D0)
 
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int GradientAlphaKeyFormatter_TypeDefinitionIndex = 7579;
+	inline static constexpr unsigned int GradientAlphaKeyFormatter_TypeDefinitionIndex = 7583;
 
 	class GradientAlphaKeyFormatter : public ::Sirenix::Serialization::MinimalBaseFormatter_1<::UnityEngine::GradientAlphaKey>
 	{
 	public:
 		static ::Sirenix::Serialization::Serializer_1<::System::Single>** StaticGet_FloatSerializer()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(GradientAlphaKeyFormatter_TypeDefinitionIndex)->GetStaticField(0x6360);
+			return (::Sirenix::Serialization::Serializer_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(GradientAlphaKeyFormatter_TypeDefinitionIndex)->GetStaticField(0x6370);
 		}
 
 		::System::Void _ctor()

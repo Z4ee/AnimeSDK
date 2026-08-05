@@ -3,18 +3,18 @@
 
 namespace MoleMole::Cameras
 {
-	inline static constexpr unsigned int CameraMoveModeData_MoveModeDataPriority_TypeDefinitionIndex = 76684;
+	inline static constexpr unsigned int CameraMoveModeData_MoveModeDataPriority_TypeDefinitionIndex = 53624;
 
 	enum class CameraMoveModeData_MoveModeDataPriority : ::System::Byte
 	{
-		SwitchAvatarOrbital = 0x62,
-		LockTargetOrbital = 0x61,
+		NormalData = 0xA,
 		MidPriorityData = 0x63,
-		Default = 0x1,
+		AimMode = 0xC8,
 		DragOrbital = 0x64,
 		MovePlatformOrbital = 0x50,
-		NormalData = 0xA,
+		Default = 0x1,
+		SwitchAvatarOrbital = 0x62,
+		LockTargetOrbital = 0x61,
 		HighPriorityData = 0xE1,
-		AimMode = 0xC8,
 	};
 }

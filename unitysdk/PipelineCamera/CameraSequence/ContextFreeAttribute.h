@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define PIPELINECAMERA_CAMERASEQUENCE_CONTEXTFREEATTRIBUTE_GET_VARIABLE_OFFSET UNITYSDK_OFFSET(0x1DD47DF0)
-#define PIPELINECAMERA_CAMERASEQUENCE_CONTEXTFREEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD47E00)
+#define PIPELINECAMERA_CAMERASEQUENCE_CONTEXTFREEATTRIBUTE_GET_VARIABLE_OFFSET UNITYSDK_OFFSET(0x1F1B52C0)
+#define PIPELINECAMERA_CAMERASEQUENCE_CONTEXTFREEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F1B52D0)
 
 namespace PipelineCamera::CameraSequence
 {
-	inline static constexpr unsigned int ContextFreeAttribute_TypeDefinitionIndex = 37934;
+	inline static constexpr unsigned int ContextFreeAttribute_TypeDefinitionIndex = 38595;
 
 	class ContextFreeAttribute : public ::System::Attribute
 	{

@@ -3,7 +3,7 @@
 
 namespace PathCreation::Examples
 {
-	inline static constexpr unsigned int PathPlacer_PropPlaceType_TypeDefinitionIndex = 37462;
+	inline static constexpr unsigned int PathPlacer_PropPlaceType_TypeDefinitionIndex = 38123;
 
 	enum class PathPlacer_PropPlaceType : ::System::Int32
 	{

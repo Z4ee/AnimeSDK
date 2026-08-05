@@ -5,21 +5,21 @@
 #include "unitysdk/RootMotion/Axis.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define MOLEMOLE_MONOPARTYSYNCOBJ_AWAKE_OFFSET UNITYSDK_OFFSET(0x130391F0)
-#define MOLEMOLE_MONOPARTYSYNCOBJ_GETSYNCVAL_OFFSET UNITYSDK_OFFSET(0x13039340)
-#define MOLEMOLE_MONOPARTYSYNCOBJ_SETSYNCVAL_OFFSET UNITYSDK_OFFSET(0x13039640)
-#define MOLEMOLE_MONOPARTYSYNCOBJ__CTOR_OFFSET UNITYSDK_OFFSET(0x13039930)
+#define MOLEMOLE_MONOPARTYSYNCOBJ_AWAKE_OFFSET UNITYSDK_OFFSET(0x17392850)
+#define MOLEMOLE_MONOPARTYSYNCOBJ_GETSYNCVAL_OFFSET UNITYSDK_OFFSET(0x17392990)
+#define MOLEMOLE_MONOPARTYSYNCOBJ_SETSYNCVAL_OFFSET UNITYSDK_OFFSET(0x17392C90)
+#define MOLEMOLE_MONOPARTYSYNCOBJ__CTOR_OFFSET UNITYSDK_OFFSET(0x17392F80)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoPartySyncObj_TypeDefinitionIndex = 47822;
+	inline static constexpr unsigned int MonoPartySyncObj_TypeDefinitionIndex = 66141;
 
 	class MonoPartySyncObj : public ::MoleMole::MonoPartySceneObject
 	{
 	public:
 		::RootMotion::Axis Axis; // 0x30
 		::Enum_3_6E947E50DF49EE88 CtrlType; // 0x34
-		::UnityEngine::Vector3 Field_8_2; // 0x38
+		::UnityEngine::Vector3 Field_8_6; // 0x38
 
 		::System::Void _ctor()
 		{

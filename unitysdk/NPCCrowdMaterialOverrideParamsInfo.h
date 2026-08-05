@@ -1,16 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/NapMaterialProperty.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Color32.h"
 
-#define NPCCROWDMATERIALOVERRIDEPARAMSINFO_GETSHADERPROPERTYFROMINDEX_OFFSET UNITYSDK_OFFSET(0xFDF76F0)
-#define NPCCROWDMATERIALOVERRIDEPARAMSINFO_PRECOMPUTECOLOR_OFFSET UNITYSDK_OFFSET(0xFDF7600)
-#define NPCCROWDMATERIALOVERRIDEPARAMSINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xFDF7F50)
+#define NPCCROWDMATERIALOVERRIDEPARAMSINFO_GETSHADERPROPERTYFROMINDEX_OFFSET UNITYSDK_OFFSET(0x9548EA0)
+#define NPCCROWDMATERIALOVERRIDEPARAMSINFO_PRECOMPUTECOLOR_OFFSET UNITYSDK_OFFSET(0x9548DB0)
+#define NPCCROWDMATERIALOVERRIDEPARAMSINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x95495B0)
 
-inline static constexpr unsigned int NPCCrowdMaterialOverrideParamsInfo_TypeDefinitionIndex = 54677;
+inline static constexpr unsigned int NPCCrowdMaterialOverrideParamsInfo_TypeDefinitionIndex = 82880;
 
 class NPCCrowdMaterialOverrideParamsInfo : public ::System::Object
 {
@@ -39,8 +38,8 @@ public:
 		return ((::UnityEngine::Color(*)(::PVOID, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + NPCCROWDMATERIALOVERRIDEPARAMSINFO_PRECOMPUTECOLOR_OFFSET))(this, c);
 	}
 
-	::System::ValueTuple_2<::NapMaterialProperty, ::UnityEngine::Color32> GetShaderPropertyFromIndex(::System::Int32 index)
+	::System::ValueTuple_2<::System::Int32, ::UnityEngine::Color32> GetShaderPropertyFromIndex(::System::Int32 index)
 	{
-		return ((::System::ValueTuple_2<::NapMaterialProperty, ::UnityEngine::Color32>(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + NPCCROWDMATERIALOVERRIDEPARAMSINFO_GETSHADERPROPERTYFROMINDEX_OFFSET))(this, index);
+		return ((::System::ValueTuple_2<::System::Int32, ::UnityEngine::Color32>(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + NPCCROWDMATERIALOVERRIDEPARAMSINFO_GETSHADERPROPERTYFROMINDEX_OFFSET))(this, index);
 	}
 };

@@ -4,20 +4,20 @@
 
 namespace UnrealTypes { class ICppStructOps; }
 
-#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_MOVETOPOSITIONTASKINSTANCEDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x168322F0)
-#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_MOVETOPOSITIONTASKINSTANCEDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x16832330)
-#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_MOVETOPOSITIONTASKINSTANCEDATA___C___CCTOR_B__5_0_OFFSET UNITYSDK_OFFSET(0x16832340)
+#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_MOVETOPOSITIONTASKINSTANCEDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D5D2930)
+#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_MOVETOPOSITIONTASKINSTANCEDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5D2970)
+#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_MOVETOPOSITIONTASKINSTANCEDATA___C___CCTOR_B__5_0_OFFSET UNITYSDK_OFFSET(0x1D5D2980)
 
 namespace StateTreeGameplay
 {
-	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_MoveToPositionTaskInstanceData___c_TypeDefinitionIndex = 51948;
+	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_MoveToPositionTaskInstanceData___c_TypeDefinitionIndex = 74859;
 
 	class RegistrationInfo_ScriptStruct_MoveToPositionTaskInstanceData___c : public ::System::Object
 	{
 	public:
 		static ::StateTreeGameplay::RegistrationInfo_ScriptStruct_MoveToPositionTaskInstanceData___c** StaticGet___9()
 		{
-			return (::StateTreeGameplay::RegistrationInfo_ScriptStruct_MoveToPositionTaskInstanceData___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_MoveToPositionTaskInstanceData___c_TypeDefinitionIndex)->GetStaticField(0x31F80);
+			return (::StateTreeGameplay::RegistrationInfo_ScriptStruct_MoveToPositionTaskInstanceData___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_MoveToPositionTaskInstanceData___c_TypeDefinitionIndex)->GetStaticField(0x340E0);
 		}
 
 		static ::System::Void _cctor()

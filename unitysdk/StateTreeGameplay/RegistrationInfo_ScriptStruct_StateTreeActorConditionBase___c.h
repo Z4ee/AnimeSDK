@@ -4,20 +4,20 @@
 
 namespace UnrealTypes { class ICppStructOps; }
 
-#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREEACTORCONDITIONBASE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19E37C20)
-#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREEACTORCONDITIONBASE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19E37C60)
-#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREEACTORCONDITIONBASE___C___CCTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0x19E37C70)
+#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREEACTORCONDITIONBASE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x134588E0)
+#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREEACTORCONDITIONBASE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x13458920)
+#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREEACTORCONDITIONBASE___C___CCTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0x13458930)
 
 namespace StateTreeGameplay
 {
-	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_StateTreeActorConditionBase___c_TypeDefinitionIndex = 56146;
+	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_StateTreeActorConditionBase___c_TypeDefinitionIndex = 49042;
 
 	class RegistrationInfo_ScriptStruct_StateTreeActorConditionBase___c : public ::System::Object
 	{
 	public:
 		static ::StateTreeGameplay::RegistrationInfo_ScriptStruct_StateTreeActorConditionBase___c** StaticGet___9()
 		{
-			return (::StateTreeGameplay::RegistrationInfo_ScriptStruct_StateTreeActorConditionBase___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_StateTreeActorConditionBase___c_TypeDefinitionIndex)->GetStaticField(0x3AEF0);
+			return (::StateTreeGameplay::RegistrationInfo_ScriptStruct_StateTreeActorConditionBase___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_StateTreeActorConditionBase___c_TypeDefinitionIndex)->GetStaticField(0x3DCC0);
 		}
 
 		static ::System::Void _cctor()

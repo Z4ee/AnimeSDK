@@ -5,11 +5,11 @@
 class Class_3_F2DAD7F45F518868;
 namespace NPCCrowd::AI { class PathGraphSpawnPointComponentRuntime; }
 
-#define NPCCROWD_AI_PATHGRAPHGUIDEPOINTPATHSPAWNGROUPRUNTIME_SPAWNEDNPCINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xA664B70)
+#define NPCCROWD_AI_PATHGRAPHGUIDEPOINTPATHSPAWNGROUPRUNTIME_SPAWNEDNPCINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xF84EFF0)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int PathGraphGuidePointPathSpawnGroupRuntime_SpawnedNpcInfo_TypeDefinitionIndex = 62852;
+	inline static constexpr unsigned int PathGraphGuidePointPathSpawnGroupRuntime_SpawnedNpcInfo_TypeDefinitionIndex = 42282;
 
 	class PathGraphGuidePointPathSpawnGroupRuntime_SpawnedNpcInfo : public ::System::Object
 	{

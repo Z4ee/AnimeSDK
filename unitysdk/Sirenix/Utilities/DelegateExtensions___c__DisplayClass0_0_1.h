@@ -6,7 +6,7 @@ namespace System { template <typename T> class Func_1; }
 
 namespace Sirenix::Utilities
 {
-	inline static constexpr unsigned int DelegateExtensions___c__DisplayClass0_0_1_TypeDefinitionIndex = 6438;
+	inline static constexpr unsigned int DelegateExtensions___c__DisplayClass0_0_1_TypeDefinitionIndex = 6442;
 
 	template <typename TResult>
 	class DelegateExtensions___c__DisplayClass0_0_1 : public ::System::Object

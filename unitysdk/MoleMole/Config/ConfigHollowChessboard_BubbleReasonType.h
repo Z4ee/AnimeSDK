@@ -3,16 +3,16 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowChessboard_BubbleReasonType_TypeDefinitionIndex = 64398;
+	inline static constexpr unsigned int ConfigHollowChessboard_BubbleReasonType_TypeDefinitionIndex = 59231;
 
 	enum class ConfigHollowChessboard_BubbleReasonType : ::System::Int32
 	{
-		TimeRewind = 2,
-		None = 6,
-		TimeRewindRise = 3,
-		RepairExit = 5,
 		Move = 0,
-		RepairEnter = 4,
 		Event = 1,
+		TimeRewind = 2,
+		RepairEnter = 4,
+		TimeRewindRise = 3,
+		None = 6,
+		RepairExit = 5,
 	};
 }

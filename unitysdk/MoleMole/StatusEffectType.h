@@ -3,13 +3,13 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int StatusEffectType_TypeDefinitionIndex = 79224;
+	inline static constexpr unsigned int StatusEffectType_TypeDefinitionIndex = 72693;
 
 	enum class StatusEffectType : ::System::Int32
 	{
+		Stun = 2,
+		FeverFadeOut = 4,
 		None = 0,
 		Fever = 1,
-		FeverFadeOut = 4,
-		Stun = 2,
 	};
 }

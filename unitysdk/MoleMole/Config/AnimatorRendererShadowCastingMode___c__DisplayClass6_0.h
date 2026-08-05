@@ -5,12 +5,12 @@
 namespace System { class String; }
 namespace UnityEngine { class Renderer; }
 
-#define MOLEMOLE_CONFIG_ANIMATORRENDERERSHADOWCASTINGMODE___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19280C90)
-#define MOLEMOLE_CONFIG_ANIMATORRENDERERSHADOWCASTINGMODE___C__DISPLAYCLASS6_0__ONZONEEXIT_B__0_OFFSET UNITYSDK_OFFSET(0x19280CA0)
+#define MOLEMOLE_CONFIG_ANIMATORRENDERERSHADOWCASTINGMODE___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1484C230)
+#define MOLEMOLE_CONFIG_ANIMATORRENDERERSHADOWCASTINGMODE___C__DISPLAYCLASS6_0__ONZONEEXIT_B__0_OFFSET UNITYSDK_OFFSET(0x1484C240)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AnimatorRendererShadowCastingMode___c__DisplayClass6_0_TypeDefinitionIndex = 83392;
+	inline static constexpr unsigned int AnimatorRendererShadowCastingMode___c__DisplayClass6_0_TypeDefinitionIndex = 58407;
 
 	class AnimatorRendererShadowCastingMode___c__DisplayClass6_0 : public ::System::Object
 	{

@@ -5,27 +5,27 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define CLASS_2_34957DA29822D61A_METHOD_2_9097226D66E1A14A_OFFSET UNITYSDK_OFFSET(0x159FAA10)
-#define CLASS_2_34957DA29822D61A__CTOR_1_OFFSET UNITYSDK_OFFSET(0x159FA960)
-#define CLASS_2_34957DA29822D61A__CTOR_OFFSET UNITYSDK_OFFSET(0x159FA8C0)
+#define CLASS_2_34957DA29822D61A_METHOD_2_9097226D66E1A14A_OFFSET UNITYSDK_OFFSET(0x12C6DF50)
+#define CLASS_2_34957DA29822D61A__CTOR_1_OFFSET UNITYSDK_OFFSET(0x12C6DEA0)
+#define CLASS_2_34957DA29822D61A__CTOR_OFFSET UNITYSDK_OFFSET(0x12C6DE00)
 
-inline static constexpr unsigned int Class_2_34957DA29822D61A_TypeDefinitionIndex = 40105;
+inline static constexpr unsigned int Class_2_34957DA29822D61A_TypeDefinitionIndex = 72245;
 
 class Class_2_34957DA29822D61A : public ::Class_1_5BD3EF046502B972
 {
 public:
-	::UnityEngine::AnimationCurve* Field_2_2; // 0x20
-	::System::Single Field_2_6; // 0x28
-	::System::Single Field_2_3; // 0x2C
-	::System::Single Field_2_0; // 0x30
-	::System::Single Field_2_4; // 0x34
-	::System::Boolean Field_2_1; // 0x38
-	::System::Single Field_2_5; // 0x3C
-	::System::Single Field_2_7; // 0x40
-	::System::Int32 Field_2_11; // 0x44
-	::System::Single Field_2_9; // 0x48
-	::System::Single Field_2_8; // 0x4C
-	::System::Single Field_2_10; // 0x50
+	::UnityEngine::AnimationCurve* Field_2_0; // 0x20
+	::System::Boolean Field_2_1; // 0x28
+	::System::Single Field_2_6; // 0x2C
+	::System::Int32 Field_2_15; // 0x30
+	::System::Single Field_2_7; // 0x34
+	::System::Single Field_2_9; // 0x38
+	::System::Single Field_2_4; // 0x3C
+	::System::Single Field_2_5; // 0x40
+	::System::Single Field_2_8; // 0x44
+	::System::Single Field_2_10; // 0x48
+	::System::Single Field_2_2; // 0x4C
+	::System::Single Field_2_11; // 0x50
 
 	::System::Void _ctor(::System::Single a1, ::System::Single a2, ::System::Boolean a3, ::UnityEngine::AnimationCurve* a4, ::System::Single a5, ::System::Single a6, ::System::Single a7, ::System::Single a8, ::System::Single a9, ::System::Single a10, ::System::Single a11)
 	{

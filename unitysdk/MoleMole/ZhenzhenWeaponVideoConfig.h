@@ -7,11 +7,11 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_ZHENZHENWEAPONVIDEOCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x11BEF100)
+#define MOLEMOLE_ZHENZHENWEAPONVIDEOCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x12B26E20)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ZhenzhenWeaponVideoConfig_TypeDefinitionIndex = 44911;
+	inline static constexpr unsigned int ZhenzhenWeaponVideoConfig_TypeDefinitionIndex = 42001;
 
 	class ZhenzhenWeaponVideoConfig : public ::System::Object
 	{

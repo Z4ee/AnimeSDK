@@ -8,7 +8,7 @@ namespace System { class String; }
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowChessboard_BigTVMoveFireEffect_RuntimeEffectInfo_TypeDefinitionIndex = 64407;
+	inline static constexpr unsigned int ConfigHollowChessboard_BigTVMoveFireEffect_RuntimeEffectInfo_TypeDefinitionIndex = 59247;
 
 	struct alignas(8) ConfigHollowChessboard_BigTVMoveFireEffect_RuntimeEffectInfo
 	{

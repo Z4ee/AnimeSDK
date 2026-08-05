@@ -6,17 +6,17 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGMATERIALPROPERTYEXCLUSIVITY_MATERIALPROPERTYEXCLUSIVITYGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x192A1980)
+#define MOLEMOLE_CONFIG_CONFIGMATERIALPROPERTYEXCLUSIVITY_MATERIALPROPERTYEXCLUSIVITYGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1486A180)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigMaterialPropertyExclusivity_MaterialPropertyExclusivityGroup_TypeDefinitionIndex = 68387;
+	inline static constexpr unsigned int ConfigMaterialPropertyExclusivity_MaterialPropertyExclusivityGroup_TypeDefinitionIndex = 46926;
 
 	class ConfigMaterialPropertyExclusivity_MaterialPropertyExclusivityGroup : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::MoleMole::Config::MaterialPropertyType, ::System::Int32>* PriorityInfo; // 0x10
-		::System::String* Desc; // 0x18
+		::System::String* Desc; // 0x10
+		::System::Collections::Generic::Dictionary_2<::MoleMole::Config::MaterialPropertyType, ::System::Int32>* PriorityInfo; // 0x18
 
 		::System::Void _ctor()
 		{

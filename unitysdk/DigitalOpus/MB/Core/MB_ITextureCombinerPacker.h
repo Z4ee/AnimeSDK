@@ -13,7 +13,7 @@ namespace UnityEngine { class Texture2D; }
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int MB_ITextureCombinerPacker_TypeDefinitionIndex = 90688;
+	inline static constexpr unsigned int MB_ITextureCombinerPacker_TypeDefinitionIndex = 94621;
 
 	class MB_ITextureCombinerPacker
 	{

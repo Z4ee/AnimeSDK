@@ -5,23 +5,23 @@
 namespace MoleMole::Config { class ChessboardGlitchConfig; }
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CHESSBOARDSCREENEFFECTCONFIGV2__CTOR_OFFSET UNITYSDK_OFFSET(0x106C7D80)
+#define MOLEMOLE_CONFIG_CHESSBOARDSCREENEFFECTCONFIGV2__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4A6330)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ChessboardScreenEffectConfigV2_TypeDefinitionIndex = 40392;
+	inline static constexpr unsigned int ChessboardScreenEffectConfigV2_TypeDefinitionIndex = 40214;
 
 	class ChessboardScreenEffectConfigV2 : public ::System::Object
 	{
 	public:
-		::System::String* StartAudioAction; // 0x10
-		::System::String* StopAudioAction; // 0x18
-		::MoleMole::Config::ChessboardGlitchConfig* GlitchConfig; // 0x20
-		::System::String* AccelerationFilterKey; // 0x28
-		::System::String* AccelerationClickFilterKey; // 0x30
-		::System::Single GlobalSpeedMax; // 0x38
-		::System::Single VoiceSpeedMax; // 0x3C
-		::System::Single VideoSpeedMax; // 0x40
+		::MoleMole::Config::ChessboardGlitchConfig* GlitchConfig; // 0x10
+		::System::String* AccelerationFilterKey; // 0x18
+		::System::String* AccelerationClickFilterKey; // 0x20
+		::System::String* StopAudioAction; // 0x28
+		::System::String* StartAudioAction; // 0x30
+		::System::Single VoiceSpeedMax; // 0x38
+		::System::Single VideoSpeedMax; // 0x3C
+		::System::Single GlobalSpeedMax; // 0x40
 
 		::System::Void _ctor()
 		{

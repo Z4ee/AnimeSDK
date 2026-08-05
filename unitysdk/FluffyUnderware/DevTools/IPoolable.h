@@ -3,7 +3,7 @@
 
 namespace FluffyUnderware::DevTools
 {
-	inline static constexpr unsigned int IPoolable_TypeDefinitionIndex = 28346;
+	inline static constexpr unsigned int IPoolable_TypeDefinitionIndex = 28950;
 
 	class IPoolable
 	{

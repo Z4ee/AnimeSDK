@@ -8,23 +8,23 @@ namespace MoleMole { class UIControllerContextBase; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define CLASS_1_B33EF859826F940E_CLASS_1_43FC6BF58A862625_METHOD_1_76CA994BCF8AC78A_OFFSET UNITYSDK_OFFSET(0x131D2600)
-#define CLASS_1_B33EF859826F940E_CLASS_1_43FC6BF58A862625_METHOD_1_921C3C3E09D59CD4_OFFSET UNITYSDK_OFFSET(0x131D26F0)
-#define CLASS_1_B33EF859826F940E_CLASS_1_43FC6BF58A862625__CTOR_OFFSET UNITYSDK_OFFSET(0x131D25F0)
+#define CLASS_1_B33EF859826F940E_CLASS_1_43FC6BF58A862625_METHOD_1_76CA994BCF8AC78A_OFFSET UNITYSDK_OFFSET(0x15D31C00)
+#define CLASS_1_B33EF859826F940E_CLASS_1_43FC6BF58A862625_METHOD_1_921C3C3E09D59CD4_OFFSET UNITYSDK_OFFSET(0x15D31CF0)
+#define CLASS_1_B33EF859826F940E_CLASS_1_43FC6BF58A862625__CTOR_OFFSET UNITYSDK_OFFSET(0x15D31BF0)
 
-inline static constexpr unsigned int Class_1_B33EF859826F940E_Class_1_43FC6BF58A862625_TypeDefinitionIndex = 57034;
+inline static constexpr unsigned int Class_1_B33EF859826F940E_Class_1_43FC6BF58A862625_TypeDefinitionIndex = 87237;
 
 class Class_1_B33EF859826F940E_Class_1_43FC6BF58A862625 : public ::System::Object
 {
 public:
-	::Class_1_C0C09ABD309C60F2* Field_1_6; // 0x10
-	::MoleMole::UIControllerContextBase* Field_1_3; // 0x18
-	::System::String* Field_1_1; // 0x20
-	::System::Action_1<::System::Boolean>* Field_1_5; // 0x28
-	::System::Action_1<::System::Boolean>* Field_1_0; // 0x30
-	::Il2CppArray<::System::Int32>* Field_1_4; // 0x38
-	::MoleMole::UIBaseScenePageController* Field_1_7; // 0x40
-	::System::UInt32 Field_1_2; // 0x48
+	::MoleMole::UIBaseScenePageController* Field_1_4; // 0x10
+	::System::Action_1<::System::Boolean>* Field_1_3; // 0x18
+	::System::String* Field_1_2; // 0x20
+	::Il2CppArray<::System::Int32>* Field_1_7; // 0x28
+	::System::Action_1<::System::Boolean>* Field_1_6; // 0x30
+	::MoleMole::UIControllerContextBase* Field_1_0; // 0x38
+	::Class_1_C0C09ABD309C60F2* Field_1_5; // 0x40
+	::System::UInt32 Field_1_1; // 0x48
 
 	::System::Void _ctor()
 	{

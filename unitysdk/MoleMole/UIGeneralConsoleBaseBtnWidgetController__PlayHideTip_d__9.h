@@ -8,18 +8,18 @@
 namespace MoleMole { class UIGeneralConsoleBaseBtnWidgetController; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define MOLEMOLE_UIGENERALCONSOLEBASEBTNWIDGETCONTROLLER__PLAYHIDETIP_D__9_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x84DA80)
-#define MOLEMOLE_UIGENERALCONSOLEBASEBTNWIDGETCONTROLLER__PLAYHIDETIP_D__9_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x646640)
+#define MOLEMOLE_UIGENERALCONSOLEBASEBTNWIDGETCONTROLLER__PLAYHIDETIP_D__9_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x8A74B0)
+#define MOLEMOLE_UIGENERALCONSOLEBASEBTNWIDGETCONTROLLER__PLAYHIDETIP_D__9_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x59F4E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralConsoleBaseBtnWidgetController__PlayHideTip_d__9_TypeDefinitionIndex = 65608;
+	inline static constexpr unsigned int UIGeneralConsoleBaseBtnWidgetController__PlayHideTip_d__9_TypeDefinitionIndex = 90351;
 
 	struct alignas(8) UIGeneralConsoleBaseBtnWidgetController__PlayHideTip_d__9
 	{
-		::Cysharp::Threading::Tasks::UniTask_1_Awaiter<::Class_1_8B550A61FC9DDA82_Enum_3_05F7423D39739F87> __u__1; // 0x10
-		::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder; // 0x20
-		::MoleMole::UIGeneralConsoleBaseBtnWidgetController* __4__this; // 0x40
+		::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder; // 0x10
+		::MoleMole::UIGeneralConsoleBaseBtnWidgetController* __4__this; // 0x30
+		::Cysharp::Threading::Tasks::UniTask_1_Awaiter<::Class_1_8B550A61FC9DDA82_Enum_3_05F7423D39739F87> __u__1; // 0x38
 		::System::Int32 __1__state; // 0x48
 
 		::System::Void MoveNext()

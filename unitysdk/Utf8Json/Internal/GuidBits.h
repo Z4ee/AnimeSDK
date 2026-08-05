@@ -3,26 +3,26 @@
 #include "unitysdk/System/Guid.h"
 #include "unitysdk/System/ValueType.h"
 
-#define UTF8JSON_INTERNAL_GUIDBITS_PARSE_OFFSET UNITYSDK_OFFSET(0x1E165F60)
-#define UTF8JSON_INTERNAL_GUIDBITS_SWITCHPARSE_OFFSET UNITYSDK_OFFSET(0x1E1660F0)
-#define UTF8JSON_INTERNAL_GUIDBITS_WRITE_OFFSET UNITYSDK_OFFSET(0xA58630)
-#define UTF8JSON_INTERNAL_GUIDBITS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E1674A0)
-#define UTF8JSON_INTERNAL_GUIDBITS__CTOR_1_OFFSET UNITYSDK_OFFSET(0xA58620)
-#define UTF8JSON_INTERNAL_GUIDBITS__CTOR_OFFSET UNITYSDK_OFFSET(0x96F920)
+#define UTF8JSON_INTERNAL_GUIDBITS_PARSE_OFFSET UNITYSDK_OFFSET(0x1F5A65C0)
+#define UTF8JSON_INTERNAL_GUIDBITS_SWITCHPARSE_OFFSET UNITYSDK_OFFSET(0x1F5A6760)
+#define UTF8JSON_INTERNAL_GUIDBITS_WRITE_OFFSET UNITYSDK_OFFSET(0xAA92D0)
+#define UTF8JSON_INTERNAL_GUIDBITS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F5A7B10)
+#define UTF8JSON_INTERNAL_GUIDBITS__CTOR_1_OFFSET UNITYSDK_OFFSET(0xAA92C0)
+#define UTF8JSON_INTERNAL_GUIDBITS__CTOR_OFFSET UNITYSDK_OFFSET(0x9BCE70)
 
 namespace Utf8Json::Internal
 {
-	inline static constexpr unsigned int GuidBits_TypeDefinitionIndex = 91237;
+	inline static constexpr unsigned int GuidBits_TypeDefinitionIndex = 95170;
 
 	struct alignas(1) GuidBits
 	{
 		static ::Il2CppArray<::System::Byte>** StaticGet_byteToHexStringLow()
 		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(GuidBits_TypeDefinitionIndex)->GetStaticField(0x4F250);
+			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(GuidBits_TypeDefinitionIndex)->GetStaticField(0x53400);
 		}
 		static ::Il2CppArray<::System::Byte>** StaticGet_byteToHexStringHigh()
 		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(GuidBits_TypeDefinitionIndex)->GetStaticField(0x4F258);
+			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(GuidBits_TypeDefinitionIndex)->GetStaticField(0x53408);
 		}
 		::System::Guid Value; // 0x10
 		::System::Byte Byte0; // 0x10

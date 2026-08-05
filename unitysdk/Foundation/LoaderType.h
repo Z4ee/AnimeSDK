@@ -3,11 +3,11 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int LoaderType_TypeDefinitionIndex = 7792;
+	inline static constexpr unsigned int LoaderType_TypeDefinitionIndex = 7903;
 
 	enum class LoaderType : ::System::Int32
 	{
-		Parallel = 1,
 		Sequential = 0,
+		Parallel = 1,
 	};
 }

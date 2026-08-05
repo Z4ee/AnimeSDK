@@ -3,9 +3,9 @@
 #include "unitysdk/Class_1_A8902709072EE71F_Class_2_8515B7D827C132C3.h"
 #include "unitysdk/MoleMole/ActivityRhythmClickBeatmapConfig_BeatMap_RhythmEventStruct.h"
 
-#define CLASS_1_A8902709072EE71F_CLASS_3_22D91026470A944E__CTOR_OFFSET UNITYSDK_OFFSET(0x142F87A0)
+#define CLASS_1_A8902709072EE71F_CLASS_3_22D91026470A944E__CTOR_OFFSET UNITYSDK_OFFSET(0x14D72110)
 
-inline static constexpr unsigned int Class_1_A8902709072EE71F_Class_3_22D91026470A944E_TypeDefinitionIndex = 67653;
+inline static constexpr unsigned int Class_1_A8902709072EE71F_Class_3_22D91026470A944E_TypeDefinitionIndex = 48880;
 
 class Class_1_A8902709072EE71F_Class_3_22D91026470A944E : public ::Class_1_A8902709072EE71F_Class_2_8515B7D827C132C3
 {

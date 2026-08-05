@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int FeatureTargetExtraInfo_TypeDefinitionIndex = 43903;
+	inline static constexpr unsigned int FeatureTargetExtraInfo_TypeDefinitionIndex = 89356;
 
 	struct alignas(8) FeatureTargetExtraInfo
 	{

@@ -6,11 +6,11 @@ namespace UnityEngine::NAPRenderPipeline0 { class FloatParameter; }
 namespace UnityEngine::NAPRenderPipeline0 { class TextureParameter; }
 namespace UnityEngine::NAPRenderPipeline0 { class Vector4Parameter; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_LENSDIRT__CTOR_OFFSET UNITYSDK_OFFSET(0x1C14F1C0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_LENSDIRT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D30E7C0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int LensDirt_TypeDefinitionIndex = 27078;
+	inline static constexpr unsigned int LensDirt_TypeDefinitionIndex = 27242;
 
 	class LensDirt : public ::UnityEngine::NAPRenderPipeline0::LensDirt_NativeSRP
 	{

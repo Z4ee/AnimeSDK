@@ -7,23 +7,23 @@ namespace System { class String; }
 namespace System::Data { class DataTable; }
 namespace System::Data { class DataViewManager; }
 
-#define SYSTEM_DATA_DATAVIEWSETTING_SETDATATABLE_OFFSET UNITYSDK_OFFSET(0x1D8A09A0)
-#define SYSTEM_DATA_DATAVIEWSETTING_SETDATAVIEWMANAGER_OFFSET UNITYSDK_OFFSET(0x1D8A0990)
-#define SYSTEM_DATA_DATAVIEWSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8A0970)
+#define SYSTEM_DATA_DATAVIEWSETTING_SETDATATABLE_OFFSET UNITYSDK_OFFSET(0x1EC24710)
+#define SYSTEM_DATA_DATAVIEWSETTING_SETDATAVIEWMANAGER_OFFSET UNITYSDK_OFFSET(0x1EC24700)
+#define SYSTEM_DATA_DATAVIEWSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC246E0)
 
 namespace System::Data
 {
-	inline static constexpr unsigned int DataViewSetting_TypeDefinitionIndex = 38622;
+	inline static constexpr unsigned int DataViewSetting_TypeDefinitionIndex = 39283;
 
 	class DataViewSetting : public ::System::Object
 	{
 	public:
-		::System::Data::DataViewManager* _dataViewManager; // 0x10
-		::System::String* _rowFilter; // 0x18
-		::System::String* _sort; // 0x20
+		::System::String* _sort; // 0x10
+		::System::Data::DataViewManager* _dataViewManager; // 0x18
+		::System::String* _rowFilter; // 0x20
 		::System::Data::DataTable* _table; // 0x28
-		::System::Boolean _applyDefaultSort; // 0x30
-		::System::Data::DataViewRowState _rowStateFilter; // 0x34
+		::System::Data::DataViewRowState _rowStateFilter; // 0x30
+		::System::Boolean _applyDefaultSort; // 0x34
 
 		::System::Void _ctor()
 		{

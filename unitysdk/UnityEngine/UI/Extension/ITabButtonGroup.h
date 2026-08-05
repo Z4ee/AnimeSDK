@@ -9,7 +9,7 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int ITabButtonGroup_TypeDefinitionIndex = 47848;
+	inline static constexpr unsigned int ITabButtonGroup_TypeDefinitionIndex = 73488;
 
 	class ITabButtonGroup
 	{

@@ -14,43 +14,88 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_5E43193B7E7BBE0F_METHOD_1_0FDF67DBC6DA0B2C_OFFSET UNITYSDK_OFFSET(0xE88BAE0)
-#define CLASS_1_5E43193B7E7BBE0F_METHOD_1_2B5EA2FCAA2EB0FD_OFFSET UNITYSDK_OFFSET(0xE88C980)
-#define CLASS_1_5E43193B7E7BBE0F_METHOD_1_2E04E911EC2F4E81_OFFSET UNITYSDK_OFFSET(0xE88BFF0)
-#define CLASS_1_5E43193B7E7BBE0F_METHOD_1_44468AADE1F8CB19_OFFSET UNITYSDK_OFFSET(0xE88D1E0)
-#define CLASS_1_5E43193B7E7BBE0F_METHOD_1_5FE6980FC88769F9_OFFSET UNITYSDK_OFFSET(0xE88CD20)
-#define CLASS_1_5E43193B7E7BBE0F_METHOD_1_6BE9EC5EFBCAE0C1_OFFSET UNITYSDK_OFFSET(0xE88C4A0)
-#define CLASS_1_5E43193B7E7BBE0F_METHOD_1_756E91E89470983A_OFFSET UNITYSDK_OFFSET(0xE88B9C0)
-#define CLASS_1_5E43193B7E7BBE0F_METHOD_1_7FD9FC5D9F11A306_OFFSET UNITYSDK_OFFSET(0xE88CF30)
-#define CLASS_1_5E43193B7E7BBE0F_METHOD_1_964DDA809B48CE47_OFFSET UNITYSDK_OFFSET(0xE88C6E0)
-#define CLASS_1_5E43193B7E7BBE0F_METHOD_1_9E786708FA7D4041_OFFSET UNITYSDK_OFFSET(0xE88C270)
-#define CLASS_1_5E43193B7E7BBE0F_METHOD_1_A2B14AB917CDA2E9_OFFSET UNITYSDK_OFFSET(0xE88B920)
-#define CLASS_1_5E43193B7E7BBE0F_METHOD_1_C26623CFD2E6EAE3_OFFSET UNITYSDK_OFFSET(0xE88D0B0)
-#define CLASS_1_5E43193B7E7BBE0F_METHOD_1_D737CD2779D51A4E_OFFSET UNITYSDK_OFFSET(0xE88BE50)
-#define CLASS_1_5E43193B7E7BBE0F__CCTOR_OFFSET UNITYSDK_OFFSET(0xE88B8B0)
+#define CLASS_1_5E43193B7E7BBE0F_METHOD_1_090977DFF8EA03A4_OFFSET UNITYSDK_OFFSET(0x10983B70)
+#define CLASS_1_5E43193B7E7BBE0F_METHOD_1_0FDF67DBC6DA0B2C_OFFSET UNITYSDK_OFFSET(0x10982960)
+#define CLASS_1_5E43193B7E7BBE0F_METHOD_1_2E04E911EC2F4E81_OFFSET UNITYSDK_OFFSET(0x10982CD0)
+#define CLASS_1_5E43193B7E7BBE0F_METHOD_1_44468AADE1F8CB19_OFFSET UNITYSDK_OFFSET(0x10984050)
+#define CLASS_1_5E43193B7E7BBE0F_METHOD_1_59D7DBD75B9EF7D2_OFFSET UNITYSDK_OFFSET(0x10982F50)
+#define CLASS_1_5E43193B7E7BBE0F_METHOD_1_5FE6980FC88769F9_OFFSET UNITYSDK_OFFSET(0x109832E0)
+#define CLASS_1_5E43193B7E7BBE0F_METHOD_1_756E91E89470983A_OFFSET UNITYSDK_OFFSET(0x109849A0)
+#define CLASS_1_5E43193B7E7BBE0F_METHOD_1_7FD9FC5D9F11A306_OFFSET UNITYSDK_OFFSET(0x109834F0)
+#define CLASS_1_5E43193B7E7BBE0F_METHOD_1_964DDA809B48CE47_OFFSET UNITYSDK_OFFSET(0x10983DB0)
+#define CLASS_1_5E43193B7E7BBE0F_METHOD_1_9E786708FA7D4041_OFFSET UNITYSDK_OFFSET(0x10983670)
+#define CLASS_1_5E43193B7E7BBE0F_METHOD_1_A2B14AB917CDA2E9_OFFSET UNITYSDK_OFFSET(0x10984900)
+#define CLASS_1_5E43193B7E7BBE0F_METHOD_1_C26623CFD2E6EAE3_OFFSET UNITYSDK_OFFSET(0x109838A0)
+#define CLASS_1_5E43193B7E7BBE0F_METHOD_1_D737CD2779D51A4E_OFFSET UNITYSDK_OFFSET(0x109839D0)
+#define CLASS_1_5E43193B7E7BBE0F__CCTOR_OFFSET UNITYSDK_OFFSET(0x109828F0)
 
-inline static constexpr unsigned int Class_1_5E43193B7E7BBE0F_TypeDefinitionIndex = 78871;
+inline static constexpr unsigned int Class_1_5E43193B7E7BBE0F_TypeDefinitionIndex = 57520;
 
 class Class_1_5E43193B7E7BBE0F : public ::System::Object
 {
 public:
-	static ::System::Collections::Generic::Dictionary_2<::Foundation::AssetPath, ::MoleMole::Config::ConfigCommonEntityAnimEvents*>** StaticGet_Field_1_3()
+	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigEntityAnimEvent*>** StaticGet_Field_1_7()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::Foundation::AssetPath, ::MoleMole::Config::ConfigCommonEntityAnimEvents*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_5E43193B7E7BBE0F_TypeDefinitionIndex)->GetStaticField(0x45480);
+		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigEntityAnimEvent*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_5E43193B7E7BBE0F_TypeDefinitionIndex)->GetStaticField(0x2EFC0);
 	}
-	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigEntityAnimEvent*>** StaticGet_Field_1_2()
+	static ::System::Collections::Generic::Dictionary_2<::Foundation::AssetPath, ::MoleMole::Config::ConfigCommonEntityAnimEvents*>** StaticGet_Field_1_5()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigEntityAnimEvent*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_5E43193B7E7BBE0F_TypeDefinitionIndex)->GetStaticField(0x45488);
+		return (::System::Collections::Generic::Dictionary_2<::Foundation::AssetPath, ::MoleMole::Config::ConfigCommonEntityAnimEvents*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_5E43193B7E7BBE0F_TypeDefinitionIndex)->GetStaticField(0x2EFC8);
 	}
-	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigEntityAnimEvent*>** StaticGet_Field_1_1()
+	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigEntityAnimEvent*>** StaticGet_Field_1_6()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigEntityAnimEvent*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_5E43193B7E7BBE0F_TypeDefinitionIndex)->GetStaticField(0x45490);
+		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigEntityAnimEvent*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_5E43193B7E7BBE0F_TypeDefinitionIndex)->GetStaticField(0x2EFD0);
 	}
 	// static const ::System::Char Field_1_0; // 0x0
 
 	static ::System::Void _cctor()
 	{
 		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CLASS_1_5E43193B7E7BBE0F__CCTOR_OFFSET))();
+	}
+
+	static ::System::Void Method_1_0FDF67DBC6DA0B2C(::System::Boolean a1, ::System::Action* a2)
+	{
+		return ((::System::Void(*)(::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + CLASS_1_5E43193B7E7BBE0F_METHOD_1_0FDF67DBC6DA0B2C_OFFSET))(a1, a2);
+	}
+
+	static ::MoleMole::Config::ConfigEntityAnimEvent* Method_1_59D7DBD75B9EF7D2(::MoleMole::Battle::Entity* a1, ::System::String* a2)
+	{
+		return ((::MoleMole::Config::ConfigEntityAnimEvent*(*)(::MoleMole::Battle::Entity*, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_5E43193B7E7BBE0F_METHOD_1_59D7DBD75B9EF7D2_OFFSET))(a1, a2);
+	}
+
+	static ::MoleMole::Config::ConfigEntityAnimEvent* Method_1_5FE6980FC88769F9(::MoleMole::SkillCharacterScriptConfig* a1, ::System::String* a2)
+	{
+		return ((::MoleMole::Config::ConfigEntityAnimEvent*(*)(::MoleMole::SkillCharacterScriptConfig*, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_5E43193B7E7BBE0F_METHOD_1_5FE6980FC88769F9_OFFSET))(a1, a2);
+	}
+
+	static ::System::Void Method_1_C26623CFD2E6EAE3()
+	{
+		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CLASS_1_5E43193B7E7BBE0F_METHOD_1_C26623CFD2E6EAE3_OFFSET))();
+	}
+
+	static ::MoleMole::Config::ConfigEntityAnimEvent* Method_1_7FD9FC5D9F11A306(::System::String* a1)
+	{
+		return ((::MoleMole::Config::ConfigEntityAnimEvent*(*)(::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_5E43193B7E7BBE0F_METHOD_1_7FD9FC5D9F11A306_OFFSET))(a1);
+	}
+
+	static ::System::Boolean Method_1_9E786708FA7D4041(::System::String* a1, ::MoleMole::Config::ConfigCommonEntityAnimEvents*& a2)
+	{
+		return ((::System::Boolean(*)(::System::String*, ::MoleMole::Config::ConfigCommonEntityAnimEvents*&))((::PBYTE)hIl2Cpp + CLASS_1_5E43193B7E7BBE0F_METHOD_1_9E786708FA7D4041_OFFSET))(a1, a2);
+	}
+
+	static ::System::Void Method_1_090977DFF8EA03A4(::System::Boolean a1, ::System::String* a2, ::System::Action* a3)
+	{
+		return ((::System::Void(*)(::System::Boolean, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + CLASS_1_5E43193B7E7BBE0F_METHOD_1_090977DFF8EA03A4_OFFSET))(a1, a2, a3);
+	}
+
+	static ::System::Void Method_1_964DDA809B48CE47(::System::String* a1, ::MoleMole::Config::ConfigCommonEntityAnimEvents* a2)
+	{
+		return ((::System::Void(*)(::System::String*, ::MoleMole::Config::ConfigCommonEntityAnimEvents*))((::PBYTE)hIl2Cpp + CLASS_1_5E43193B7E7BBE0F_METHOD_1_964DDA809B48CE47_OFFSET))(a1, a2);
+	}
+
+	static ::System::Void Method_1_44468AADE1F8CB19(::System::Collections::Generic::List_1<::MoleMole::Config::ConfigEntitySharedAnimEvents*>* a1)
+	{
+		return ((::System::Void(*)(::System::Collections::Generic::List_1<::MoleMole::Config::ConfigEntitySharedAnimEvents*>*))((::PBYTE)hIl2Cpp + CLASS_1_5E43193B7E7BBE0F_METHOD_1_44468AADE1F8CB19_OFFSET))(a1);
 	}
 
 	static ::System::Boolean Method_1_A2B14AB917CDA2E9(::System::String* a1)
@@ -71,50 +116,5 @@ public:
 	static ::System::Void Method_1_2E04E911EC2F4E81(::System::Boolean a1, ::System::Action* a2)
 	{
 		return ((::System::Void(*)(::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + CLASS_1_5E43193B7E7BBE0F_METHOD_1_2E04E911EC2F4E81_OFFSET))(a1, a2);
-	}
-
-	static ::System::Boolean Method_1_9E786708FA7D4041(::System::String* a1, ::MoleMole::Config::ConfigCommonEntityAnimEvents*& a2)
-	{
-		return ((::System::Boolean(*)(::System::String*, ::MoleMole::Config::ConfigCommonEntityAnimEvents*&))((::PBYTE)hIl2Cpp + CLASS_1_5E43193B7E7BBE0F_METHOD_1_9E786708FA7D4041_OFFSET))(a1, a2);
-	}
-
-	static ::System::Void Method_1_964DDA809B48CE47(::System::String* a1, ::MoleMole::Config::ConfigCommonEntityAnimEvents* a2)
-	{
-		return ((::System::Void(*)(::System::String*, ::MoleMole::Config::ConfigCommonEntityAnimEvents*))((::PBYTE)hIl2Cpp + CLASS_1_5E43193B7E7BBE0F_METHOD_1_964DDA809B48CE47_OFFSET))(a1, a2);
-	}
-
-	static ::MoleMole::Config::ConfigEntityAnimEvent* Method_1_2B5EA2FCAA2EB0FD(::MoleMole::Battle::Entity* a1, ::System::String* a2)
-	{
-		return ((::MoleMole::Config::ConfigEntityAnimEvent*(*)(::MoleMole::Battle::Entity*, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_5E43193B7E7BBE0F_METHOD_1_2B5EA2FCAA2EB0FD_OFFSET))(a1, a2);
-	}
-
-	static ::System::Void Method_1_0FDF67DBC6DA0B2C(::System::Boolean a1, ::System::Action* a2)
-	{
-		return ((::System::Void(*)(::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + CLASS_1_5E43193B7E7BBE0F_METHOD_1_0FDF67DBC6DA0B2C_OFFSET))(a1, a2);
-	}
-
-	static ::MoleMole::Config::ConfigEntityAnimEvent* Method_1_7FD9FC5D9F11A306(::System::String* a1)
-	{
-		return ((::MoleMole::Config::ConfigEntityAnimEvent*(*)(::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_5E43193B7E7BBE0F_METHOD_1_7FD9FC5D9F11A306_OFFSET))(a1);
-	}
-
-	static ::System::Void Method_1_6BE9EC5EFBCAE0C1(::System::Boolean a1, ::System::String* a2, ::System::Action* a3)
-	{
-		return ((::System::Void(*)(::System::Boolean, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + CLASS_1_5E43193B7E7BBE0F_METHOD_1_6BE9EC5EFBCAE0C1_OFFSET))(a1, a2, a3);
-	}
-
-	static ::MoleMole::Config::ConfigEntityAnimEvent* Method_1_5FE6980FC88769F9(::MoleMole::SkillCharacterScriptConfig* a1, ::System::String* a2)
-	{
-		return ((::MoleMole::Config::ConfigEntityAnimEvent*(*)(::MoleMole::SkillCharacterScriptConfig*, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_5E43193B7E7BBE0F_METHOD_1_5FE6980FC88769F9_OFFSET))(a1, a2);
-	}
-
-	static ::System::Void Method_1_C26623CFD2E6EAE3()
-	{
-		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CLASS_1_5E43193B7E7BBE0F_METHOD_1_C26623CFD2E6EAE3_OFFSET))();
-	}
-
-	static ::System::Void Method_1_44468AADE1F8CB19(::System::Collections::Generic::List_1<::MoleMole::Config::ConfigEntitySharedAnimEvents*>* a1)
-	{
-		return ((::System::Void(*)(::System::Collections::Generic::List_1<::MoleMole::Config::ConfigEntitySharedAnimEvents*>*))((::PBYTE)hIl2Cpp + CLASS_1_5E43193B7E7BBE0F_METHOD_1_44468AADE1F8CB19_OFFSET))(a1);
 	}
 };

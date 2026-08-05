@@ -1,46 +1,41 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FurHelper_RenderMode.h"
+#include "unitysdk/UnityEngine/Matrix4x4.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-#include "unitysdk/UnityEngine/Rendering/ShaderPropertyType.h"
 #include "unitysdk/UnityEngine/Rendering/SphericalHarmonicsL2.h"
+#include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
-namespace System { class String; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class MeshFilter; }
 namespace UnityEngine { class Renderer; }
 namespace UnityEngine::Profiling { class CustomSampler; }
 
-#define FURHELPER_CHECKISVALIDFURMATERIAL_OFFSET UNITYSDK_OFFSET(0x1B7E4F40)
-#define FURHELPER_CHECKPROPERTYHASMODIFYANDSYNC_OFFSET UNITYSDK_OFFSET(0x1B7E4A00)
-#define FURHELPER_GENERATEINSTANCEDMATERIAL_OFFSET UNITYSDK_OFFSET(0x1B7E1F50)
-#define FURHELPER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1B7E2850)
-#define FURHELPER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1B7E2800)
-#define FURHELPER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1B7E2250)
-#define FURHELPER_ONINIT_OFFSET UNITYSDK_OFFSET(0x1B7E22A0)
-#define FURHELPER_ONWILLRENDEROBJECT_OFFSET UNITYSDK_OFFSET(0x1B7E3F30)
-#define FURHELPER_PREPAREBINDCOMPONENT_OFFSET UNITYSDK_OFFSET(0x1B7E2920)
-#define FURHELPER_REBUILDMATPROP_OFFSET UNITYSDK_OFFSET(0x1B7E2EB0)
-#define FURHELPER_REFRESHADDITIONALLIGHTSOFF_OFFSET UNITYSDK_OFFSET(0x1B7E3CA0)
-#define FURHELPER_REFRESHMATERIAL_OFFSET UNITYSDK_OFFSET(0x1B7E1DB0)
-#define FURHELPER_UINTTOFLOATUNSAFE_OFFSET UNITYSDK_OFFSET(0x1B7E28E0)
-#define FURHELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B7E5390)
-#define FURHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7E5300)
+#define FURHELPER_GENERATEINSTANCEDMATERIAL_OFFSET UNITYSDK_OFFSET(0x1CB01220)
+#define FURHELPER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1CAFF150)
+#define FURHELPER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1CAFF100)
+#define FURHELPER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1CAFE9B0)
+#define FURHELPER_ONINIT_OFFSET UNITYSDK_OFFSET(0x1CAFECD0)
+#define FURHELPER_ONWILLRENDEROBJECT_OFFSET UNITYSDK_OFFSET(0x1CAFF1E0)
+#define FURHELPER_PREPAREBINDCOMPONENT_OFFSET UNITYSDK_OFFSET(0x1CB00BC0)
+#define FURHELPER_REBUILDMATPROP_OFFSET UNITYSDK_OFFSET(0x1CAFFE70)
+#define FURHELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CB01610)
+#define FURHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB01560)
 
-inline static constexpr unsigned int FurHelper_TypeDefinitionIndex = 26937;
+inline static constexpr unsigned int FurHelper_TypeDefinitionIndex = 27703;
 
 class FurHelper : public ::UnityEngine::MonoBehaviour
 {
 public:
+	static ::UnityEngine::Profiling::CustomSampler** StaticGet_s_FurHelperUpdateMaterial()
+	{
+		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(FurHelper_TypeDefinitionIndex)->GetStaticField(0x23860);
+	}
 	static ::UnityEngine::Profiling::CustomSampler** StaticGet_s_FurHelperOnWillRenderObject()
 	{
-		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(FurHelper_TypeDefinitionIndex)->GetStaticField(0x22080);
-	}
-	static ::UnityEngine::Profiling::CustomSampler** StaticGet_s_FurHelperUPdateMaterial()
-	{
-		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(FurHelper_TypeDefinitionIndex)->GetStaticField(0x22088);
+		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(FurHelper_TypeDefinitionIndex)->GetStaticField(0x23868);
 	}
 	::FurHelper_RenderMode furMaterialRenderMode; // 0x18
 	::System::UInt32 furMaterialIndex; // 0x1C
@@ -54,17 +49,21 @@ public:
 	::UnityEngine::Renderer* m_FurRenderer; // 0x30
 	::System::Boolean m_IsMeshRenderer; // 0x38
 	::UnityEngine::MeshFilter* m_MeshFilter; // 0x40
-	::UnityEngine::MaterialPropertyBlock* furMatPropBlock; // 0x48
-	::System::Single normalizedLOD; // 0x50
-	::System::Single updateTime; // 0x54
-	::System::Boolean needRebuildMatProp; // 0x58
-	::System::Boolean needReComputeProbe; // 0x59
-	::System::Int32 lastFurLayersNum; // 0x5C
-	::System::Boolean lastFurAdditionalLightsOff; // 0x60
-	::Il2CppArray<::UnityEngine::Vector4>* cachedLightMapScaleOffsetData; // 0x68
-	::Il2CppArray<::UnityEngine::Rendering::SphericalHarmonicsL2>* cachedProbesData; // 0x70
-	::UnityEngine::Material* instancedFurMaterial; // 0x78
-	::System::Boolean isValidFurRenderer; // 0x80
+	::UnityEngine::MaterialPropertyBlock* m_FurMatPropBlock; // 0x48
+	::System::Boolean m_NeedRebuildMatProp; // 0x50
+	::System::Boolean m_NeedReComputeProbe; // 0x51
+	::System::Int32 m_CachedLayersNum; // 0x54
+	::System::Boolean m_CachedFurAdditionalLightsOff; // 0x58
+	::System::Boolean m_IsValidFurRenderer; // 0x59
+	::Il2CppArray<::UnityEngine::Vector4>* m_CachedLightMapScaleOffsetData; // 0x60
+	::Il2CppArray<::UnityEngine::Rendering::SphericalHarmonicsL2>* m_CachedProbesData; // 0x68
+	::Il2CppArray<::System::Single>* m_CachedFurSteps; // 0x70
+	::UnityEngine::Vector3 m_CachedPosition; // 0x78
+	::UnityEngine::Material* m_InstancedFurMaterial; // 0x88
+	::UnityEngine::Matrix4x4 m_CachedLocalToWorldMatrix; // 0x90
+	::System::Boolean m_CachedIsOddScale; // 0xD0
+	::System::Boolean m_CachedDitherSwitchOn; // 0xD1
+	::System::Boolean m_CachedLightMapOn; // 0xD2
 
 	::System::Void _ctor()
 	{
@@ -74,11 +73,6 @@ public:
 	static ::System::Void _cctor()
 	{
 		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + FURHELPER__CCTOR_OFFSET))();
-	}
-
-	::System::Void RefreshMaterial()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FURHELPER_REFRESHMATERIAL_OFFSET))(this);
 	}
 
 	::System::Void OnEnable()
@@ -96,9 +90,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FURHELPER_ONDESTROY_OFFSET))(this);
 	}
 
-	static ::System::Single UIntToFloatUnsafe(::System::UInt32 value)
+	::System::Void OnWillRenderObject()
 	{
-		return ((::System::Single(*)(::System::UInt32))((::PBYTE)hIl2Cpp + FURHELPER_UINTTOFLOATUNSAFE_OFFSET))(value);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FURHELPER_ONWILLRENDEROBJECT_OFFSET))(this);
 	}
 
 	::System::Void PrepareBindComponent()
@@ -116,28 +110,8 @@ public:
 		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + FURHELPER_REBUILDMATPROP_OFFSET))(this, layersNum);
 	}
 
-	::System::Void RefreshAdditionalLightsOff()
+	::System::Boolean OnInit(::System::Boolean autoSetMaterialIndex)
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FURHELPER_REFRESHADDITIONALLIGHTSOFF_OFFSET))(this);
-	}
-
-	::System::Void OnWillRenderObject()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FURHELPER_ONWILLRENDEROBJECT_OFFSET))(this);
-	}
-
-	::System::Void CheckPropertyHasModifyAndSync(::UnityEngine::Material* source, ::UnityEngine::Material* target, ::System::String* propertyName, ::UnityEngine::Rendering::ShaderPropertyType type, ::System::String* key)
-	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::Material*, ::UnityEngine::Material*, ::System::String*, ::UnityEngine::Rendering::ShaderPropertyType, ::System::String*))((::PBYTE)hIl2Cpp + FURHELPER_CHECKPROPERTYHASMODIFYANDSYNC_OFFSET))(this, source, target, propertyName, type, key);
-	}
-
-	::System::Void OnInit(::System::Boolean destroy)
-	{
-		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + FURHELPER_ONINIT_OFFSET))(this, destroy);
-	}
-
-	::System::Boolean CheckIsValidFurMaterial(::UnityEngine::Material* furMaterial)
-	{
-		return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + FURHELPER_CHECKISVALIDFURMATERIAL_OFFSET))(this, furMaterial);
+		return ((::System::Boolean(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + FURHELPER_ONINIT_OFFSET))(this, autoSetMaterialIndex);
 	}
 };

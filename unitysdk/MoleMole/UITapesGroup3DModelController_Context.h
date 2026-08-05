@@ -4,11 +4,11 @@
 
 class MonoUITableScrollV2;
 
-#define MOLEMOLE_UITAPESGROUP3DMODELCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x103F4200)
+#define MOLEMOLE_UITAPESGROUP3DMODELCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x188A00D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UITapesGroup3DModelController_Context_TypeDefinitionIndex = 72703;
+	inline static constexpr unsigned int UITapesGroup3DModelController_Context_TypeDefinitionIndex = 60823;
 
 	class UITapesGroup3DModelController_Context : public ::MoleMole::UIControllerContextBase
 	{

@@ -5,12 +5,12 @@
 namespace MoleMole::SceneMark { class SceneMarkNode; }
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETSCENEMARKNODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x18B212F0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETSCENEMARKNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x18B214A0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETSCENEMARKNODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x118B5D80)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETSCENEMARKNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x118B5F30)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDGetSceneMarkNode_TypeDefinitionIndex = 41162;
+	inline static constexpr unsigned int LDGetSceneMarkNode_TypeDefinitionIndex = 84912;
 
 	class LDGetSceneMarkNode : public ::FlowCanvas::Nodes::CallableFunctionNode_2<::MoleMole::SceneMark::SceneMarkNode*, ::System::String*>
 	{

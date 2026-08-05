@@ -4,11 +4,11 @@
 
 namespace UnityEngine::Timeline::Comic::DataSplitter { class PageData; }
 
-#define UNITYENGINE_TIMELINE_COMIC_DATASPLITTER_PAGEDATASPLITTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB8FD50)
+#define UNITYENGINE_TIMELINE_COMIC_DATASPLITTER_PAGEDATASPLITTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF75F10)
 
 namespace UnityEngine::Timeline::Comic::DataSplitter
 {
-	inline static constexpr unsigned int PageDataSplitter_TypeDefinitionIndex = 32470;
+	inline static constexpr unsigned int PageDataSplitter_TypeDefinitionIndex = 33104;
 
 	class PageDataSplitter : public ::UnityEngine::Timeline::Comic::DataSplitter::DataSplitterBase_1<::UnityEngine::Timeline::Comic::DataSplitter::PageData*>
 	{

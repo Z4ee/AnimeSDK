@@ -8,11 +8,11 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_RADARSTATECHANGEIMAGECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16CE2930)
+#define MOLEMOLE_RADARSTATECHANGEIMAGECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x13ACF700)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int RadarStateChangeImageConfig_TypeDefinitionIndex = 67093;
+	inline static constexpr unsigned int RadarStateChangeImageConfig_TypeDefinitionIndex = 50309;
 
 	class RadarStateChangeImageConfig : public ::System::Object
 	{
@@ -24,6 +24,7 @@ namespace MoleMole
 		::System::Collections::Generic::List_1<::MoleMole::SMapGroupMemberStateExConfigRecruse>* Condition; // 0x40
 		::UnityEngine::Bounds OverlapBounds; // 0x48
 		::System::Boolean HideMainMapWhenInBounds; // 0x60
+		::System::Boolean HideAllRadar; // 0x61
 
 		::System::Void _ctor()
 		{

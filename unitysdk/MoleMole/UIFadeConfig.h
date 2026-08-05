@@ -1,19 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_7A4252233BCEB3A9.h"
+#include "unitysdk/Enum_3_DBF2701137F18AA6.h"
 #include "unitysdk/System/Object.h"
 
 namespace MoleMole { class UIFadeConfig_OverrideAnim; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIFADECONFIG_METHOD_1_E018B38DDB58E62A_1_OFFSET UNITYSDK_OFFSET(0x1677ED80)
-#define MOLEMOLE_UIFADECONFIG_METHOD_1_E018B38DDB58E62A_OFFSET UNITYSDK_OFFSET(0x1677EC00)
-#define MOLEMOLE_UIFADECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1677EBF0)
+#define MOLEMOLE_UIFADECONFIG_METHOD_1_E018B38DDB58E62A_1_OFFSET UNITYSDK_OFFSET(0x18AB61B0)
+#define MOLEMOLE_UIFADECONFIG_METHOD_1_E018B38DDB58E62A_OFFSET UNITYSDK_OFFSET(0x18AB6030)
+#define MOLEMOLE_UIFADECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18AB6020)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIFadeConfig_TypeDefinitionIndex = 53083;
+	inline static constexpr unsigned int UIFadeConfig_TypeDefinitionIndex = 81286;
 
 	class UIFadeConfig : public ::System::Object
 	{
@@ -30,14 +30,14 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIFADECONFIG__CTOR_OFFSET))(this);
 		}
 
-		::System::String* Method_1_E018B38DDB58E62A(::Enum_3_7A4252233BCEB3A9 a1)
+		::System::String* Method_1_E018B38DDB58E62A(::Enum_3_DBF2701137F18AA6 a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::Enum_3_7A4252233BCEB3A9))((::PBYTE)hIl2Cpp + MOLEMOLE_UIFADECONFIG_METHOD_1_E018B38DDB58E62A_OFFSET))(this, a1);
+			return ((::System::String*(*)(::PVOID, ::Enum_3_DBF2701137F18AA6))((::PBYTE)hIl2Cpp + MOLEMOLE_UIFADECONFIG_METHOD_1_E018B38DDB58E62A_OFFSET))(this, a1);
 		}
 
-		::System::String* Method_1_E018B38DDB58E62A_1(::Enum_3_7A4252233BCEB3A9 a1)
+		::System::String* Method_1_E018B38DDB58E62A_1(::Enum_3_DBF2701137F18AA6 a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::Enum_3_7A4252233BCEB3A9))((::PBYTE)hIl2Cpp + MOLEMOLE_UIFADECONFIG_METHOD_1_E018B38DDB58E62A_1_OFFSET))(this, a1);
+			return ((::System::String*(*)(::PVOID, ::Enum_3_DBF2701137F18AA6))((::PBYTE)hIl2Cpp + MOLEMOLE_UIFADECONFIG_METHOD_1_E018B38DDB58E62A_1_OFFSET))(this, a1);
 		}
 	};
 }

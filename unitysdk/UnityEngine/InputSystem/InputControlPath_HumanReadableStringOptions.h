@@ -3,7 +3,7 @@
 
 namespace UnityEngine::InputSystem
 {
-	inline static constexpr unsigned int InputControlPath_HumanReadableStringOptions_TypeDefinitionIndex = 31618;
+	inline static constexpr unsigned int InputControlPath_HumanReadableStringOptions_TypeDefinitionIndex = 32238;
 
 	enum class InputControlPath_HumanReadableStringOptions : ::System::Int32
 	{

@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SummerEventDroneSubsystem_BulletWeaponLogInfo_TypeDefinitionIndex = 87305;
+	inline static constexpr unsigned int SummerEventDroneSubsystem_BulletWeaponLogInfo_TypeDefinitionIndex = 47065;
 
 	struct alignas(8) SummerEventDroneSubsystem_BulletWeaponLogInfo
 	{

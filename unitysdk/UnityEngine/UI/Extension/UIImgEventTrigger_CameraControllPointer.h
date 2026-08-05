@@ -5,24 +5,24 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_UI_EXTENSION_UIIMGEVENTTRIGGER_CAMERACONTROLLPOINTER_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1CC20EE0)
-#define UNITYENGINE_UI_EXTENSION_UIIMGEVENTTRIGGER_CAMERACONTROLLPOINTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC1EB30)
-#define UNITYENGINE_UI_EXTENSION_UIIMGEVENTTRIGGER_CAMERACONTROLLPOINTER___BASE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1CC21260)
+#define UNITYENGINE_UI_EXTENSION_UIIMGEVENTTRIGGER_CAMERACONTROLLPOINTER_TOSTRING_OFFSET UNITYSDK_OFFSET(0x18C64090)
+#define UNITYENGINE_UI_EXTENSION_UIIMGEVENTTRIGGER_CAMERACONTROLLPOINTER__CTOR_OFFSET UNITYSDK_OFFSET(0x18C61CF0)
+#define UNITYENGINE_UI_EXTENSION_UIIMGEVENTTRIGGER_CAMERACONTROLLPOINTER___BASE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x18C64410)
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int UIImgEventTrigger_CameraControllPointer_TypeDefinitionIndex = 65763;
+	inline static constexpr unsigned int UIImgEventTrigger_CameraControllPointer_TypeDefinitionIndex = 71307;
 
 	class UIImgEventTrigger_CameraControllPointer : public ::System::Object
 	{
 	public:
-		::UnityEngine::Vector2 offsetPoint; // 0x10
-		::UnityEngine::Vector2 dragingPoint; // 0x18
-		::UnityEngine::Vector2 enterPoint; // 0x20
-		::System::Int32 pointerId; // 0x28
-		::UnityEngine::Vector2 beforeDragingPoint; // 0x2C
-		::System::Boolean isDrag; // 0x34
-		::System::Boolean isValid; // 0x35
+		::UnityEngine::Vector2 dragingPoint; // 0x10
+		::UnityEngine::Vector2 beforeDragingPoint; // 0x18
+		::System::Boolean isValid; // 0x20
+		::System::Boolean isDrag; // 0x21
+		::System::Int32 pointerId; // 0x24
+		::UnityEngine::Vector2 offsetPoint; // 0x28
+		::UnityEngine::Vector2 enterPoint; // 0x30
 
 		::System::Void _ctor()
 		{

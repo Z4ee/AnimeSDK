@@ -6,19 +6,19 @@ namespace FluffyUnderware::Curvy::Generator { class CGModule; }
 namespace FluffyUnderware::Curvy::Generator { class CurvyGenerator; }
 namespace UnityEngine { class MonoBehaviour; }
 
-#define FLUFFYUNDERWARE_CURVY_CURVYCGEVENTARGS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1D605130)
-#define FLUFFYUNDERWARE_CURVY_CURVYCGEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6050B0)
+#define FLUFFYUNDERWARE_CURVY_CURVYCGEVENTARGS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E9A2900)
+#define FLUFFYUNDERWARE_CURVY_CURVYCGEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E9A2880)
 
 namespace FluffyUnderware::Curvy
 {
-	inline static constexpr unsigned int CurvyCGEventArgs_TypeDefinitionIndex = 38897;
+	inline static constexpr unsigned int CurvyCGEventArgs_TypeDefinitionIndex = 39584;
 
 	class CurvyCGEventArgs : public ::System::EventArgs
 	{
 	public:
-		::UnityEngine::MonoBehaviour* Sender; // 0x10
-		::FluffyUnderware::Curvy::Generator::CGModule* Module; // 0x18
-		::FluffyUnderware::Curvy::Generator::CurvyGenerator* Generator; // 0x20
+		::FluffyUnderware::Curvy::Generator::CurvyGenerator* Generator; // 0x10
+		::UnityEngine::MonoBehaviour* Sender; // 0x18
+		::FluffyUnderware::Curvy::Generator::CGModule* Module; // 0x20
 
 		::System::Void _ctor(::FluffyUnderware::Curvy::Generator::CGModule* module)
 		{

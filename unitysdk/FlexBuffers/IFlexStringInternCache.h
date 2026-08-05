@@ -5,7 +5,7 @@ namespace System { class String; }
 
 namespace FlexBuffers
 {
-	inline static constexpr unsigned int IFlexStringInternCache_TypeDefinitionIndex = 6748;
+	inline static constexpr unsigned int IFlexStringInternCache_TypeDefinitionIndex = 6752;
 
 	class IFlexStringInternCache
 	{

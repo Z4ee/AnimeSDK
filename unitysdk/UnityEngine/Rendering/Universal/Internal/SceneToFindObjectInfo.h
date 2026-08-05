@@ -6,12 +6,12 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Renderer; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_SCENETOFINDOBJECTINFO_GET_ENABLEPASS_OFFSET UNITYSDK_OFFSET(0x1BC26630)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_SCENETOFINDOBJECTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC26660)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_SCENETOFINDOBJECTINFO_GET_ENABLEPASS_OFFSET UNITYSDK_OFFSET(0x1C9A2320)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_SCENETOFINDOBJECTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1C9A2350)
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int SceneToFindObjectInfo_TypeDefinitionIndex = 26519;
+	inline static constexpr unsigned int SceneToFindObjectInfo_TypeDefinitionIndex = 26934;
 
 	class SceneToFindObjectInfo : public ::System::Object
 	{

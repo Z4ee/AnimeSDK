@@ -3,12 +3,12 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int HackEntrySubSystem_HackTargetState_TypeDefinitionIndex = 83320;
+	inline static constexpr unsigned int HackEntrySubSystem_HackTargetState_TypeDefinitionIndex = 71359;
 
 	enum class HackEntrySubSystem_HackTargetState : ::System::Int32
 	{
 		Inactive = 0,
-		Interactive = 2,
 		Active = 1,
+		Interactive = 2,
 	};
 }

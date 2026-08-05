@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MoleMole::MusicGame
 {
-	inline static constexpr unsigned int FLiveHouseLongPressSoundData_TypeDefinitionIndex = 66794;
+	inline static constexpr unsigned int FLiveHouseLongPressSoundData_TypeDefinitionIndex = 65514;
 
 	struct alignas(8) FLiveHouseLongPressSoundData
 	{

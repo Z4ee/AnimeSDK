@@ -4,11 +4,11 @@
 
 namespace MoleMole::Utils { class NapCameraSequence; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETNAPCAMERASEQUENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x10D39DB0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETNAPCAMERASEQUENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A99E290)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDGetNapCameraSequence_TypeDefinitionIndex = 47180;
+	inline static constexpr unsigned int LDGetNapCameraSequence_TypeDefinitionIndex = 77611;
 
 	class LDGetNapCameraSequence : public ::FlowCanvas::Nodes::CallableFunctionNode_1<::MoleMole::Utils::NapCameraSequence*>
 	{

@@ -6,12 +6,12 @@
 
 namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
 
-#define NODECANVAS_TASKS_ACTIONS_FINDCLOSESTEDGE_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1BC5F2F0)
-#define NODECANVAS_TASKS_ACTIONS_FINDCLOSESTEDGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC5F3C0)
+#define NODECANVAS_TASKS_ACTIONS_FINDCLOSESTEDGE_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1DB36790)
+#define NODECANVAS_TASKS_ACTIONS_FINDCLOSESTEDGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB36860)
 
 namespace NodeCanvas::Tasks::Actions
 {
-	inline static constexpr unsigned int FindClosestEdge_TypeDefinitionIndex = 29119;
+	inline static constexpr unsigned int FindClosestEdge_TypeDefinitionIndex = 30122;
 
 	class FindClosestEdge : public ::NodeCanvas::Framework::ActionTask
 	{

@@ -5,9 +5,9 @@
 namespace System { class String; }
 namespace UnityEngine { class Texture2DArray; }
 
-#define MB_TEXTUREARRAYREFERENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D94FC90)
+#define MB_TEXTUREARRAYREFERENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1ECE6180)
 
-inline static constexpr unsigned int MB_TextureArrayReference_TypeDefinitionIndex = 90523;
+inline static constexpr unsigned int MB_TextureArrayReference_TypeDefinitionIndex = 94456;
 
 class MB_TextureArrayReference : public ::System::Object
 {

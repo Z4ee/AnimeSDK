@@ -9,41 +9,41 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::EventSystems { class PointerEventData; }
 
-#define MOLEMOLE_ACTIVITYHOLMESDROPTARGETTEXT_METHOD_5_866242D8F6C828B4_OFFSET UNITYSDK_OFFSET(0x1701F7F0)
-#define MOLEMOLE_ACTIVITYHOLMESDROPTARGETTEXT_METHOD_5_ADA85C40A3382050_OFFSET UNITYSDK_OFFSET(0x1701FB20)
-#define MOLEMOLE_ACTIVITYHOLMESDROPTARGETTEXT_METHOD_5_EB78CC0DDDE15E0D_OFFSET UNITYSDK_OFFSET(0x17020C10)
-#define MOLEMOLE_ACTIVITYHOLMESDROPTARGETTEXT_ONBEGINDRAG_OFFSET UNITYSDK_OFFSET(0x1701FD80)
-#define MOLEMOLE_ACTIVITYHOLMESDROPTARGETTEXT_ONDRAG_OFFSET UNITYSDK_OFFSET(0x170205C0)
-#define MOLEMOLE_ACTIVITYHOLMESDROPTARGETTEXT_ONDROP_OFFSET UNITYSDK_OFFSET(0x1701F510)
-#define MOLEMOLE_ACTIVITYHOLMESDROPTARGETTEXT_ONENDDRAG_OFFSET UNITYSDK_OFFSET(0x17020900)
-#define MOLEMOLE_ACTIVITYHOLMESDROPTARGETTEXT_ONPOINTERENTER_OFFSET UNITYSDK_OFFSET(0x1701FAB0)
-#define MOLEMOLE_ACTIVITYHOLMESDROPTARGETTEXT_ONPOINTEREXIT_OFFSET UNITYSDK_OFFSET(0x1701FD30)
-#define MOLEMOLE_ACTIVITYHOLMESDROPTARGETTEXT_SETUP_OFFSET UNITYSDK_OFFSET(0x1701F3A0)
-#define MOLEMOLE_ACTIVITYHOLMESDROPTARGETTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x17020DD0)
+#define MOLEMOLE_ACTIVITYHOLMESDROPTARGETTEXT_METHOD_5_ADA85C40A3382050_OFFSET UNITYSDK_OFFSET(0x150D7130)
+#define MOLEMOLE_ACTIVITYHOLMESDROPTARGETTEXT_METHOD_5_BA446D4D3EBC6EEF_OFFSET UNITYSDK_OFFSET(0x150D6E00)
+#define MOLEMOLE_ACTIVITYHOLMESDROPTARGETTEXT_METHOD_5_EB78CC0DDDE15E0D_OFFSET UNITYSDK_OFFSET(0x150D8220)
+#define MOLEMOLE_ACTIVITYHOLMESDROPTARGETTEXT_ONBEGINDRAG_OFFSET UNITYSDK_OFFSET(0x150D7390)
+#define MOLEMOLE_ACTIVITYHOLMESDROPTARGETTEXT_ONDRAG_OFFSET UNITYSDK_OFFSET(0x150D7BD0)
+#define MOLEMOLE_ACTIVITYHOLMESDROPTARGETTEXT_ONDROP_OFFSET UNITYSDK_OFFSET(0x150D6B20)
+#define MOLEMOLE_ACTIVITYHOLMESDROPTARGETTEXT_ONENDDRAG_OFFSET UNITYSDK_OFFSET(0x150D7F10)
+#define MOLEMOLE_ACTIVITYHOLMESDROPTARGETTEXT_ONPOINTERENTER_OFFSET UNITYSDK_OFFSET(0x150D70C0)
+#define MOLEMOLE_ACTIVITYHOLMESDROPTARGETTEXT_ONPOINTEREXIT_OFFSET UNITYSDK_OFFSET(0x150D7340)
+#define MOLEMOLE_ACTIVITYHOLMESDROPTARGETTEXT_SETUP_OFFSET UNITYSDK_OFFSET(0x150D69B0)
+#define MOLEMOLE_ACTIVITYHOLMESDROPTARGETTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x150D83E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ActivityHolmesDropTargetText_TypeDefinitionIndex = 76289;
+	inline static constexpr unsigned int ActivityHolmesDropTargetText_TypeDefinitionIndex = 63486;
 
 	class ActivityHolmesDropTargetText : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		::System::Int32 Field_5_0; // 0x18
-		::System::Int32 Field_5_1; // 0x1C
-		::System::Int32 Field_5_2; // 0x20
-		::System::Boolean Field_5_3; // 0x24
-		::System::Int32 Field_5_4; // 0x28
-		::System::String* Field_5_5; // 0x30
-		::UnityEngine::RectTransform* Field_5_6; // 0x38
-		::UnityEngine::RectTransform* Field_5_7; // 0x40
-		::UnityEngine::RectTransform* Field_5_8; // 0x48
-		::UnityEngine::RectTransform* Field_5_9; // 0x50
-		::System::Action_1<::System::Int32>* Field_5_10; // 0x58
-		::System::Action* Field_5_11; // 0x60
-		::System::Action_1<::System::Int32>* Field_5_12; // 0x68
-		::UnityEngine::RectTransform* Field_5_13; // 0x70
-		::System::Boolean Field_5_14; // 0x78
-		::UnityEngine::GameObject* Field_5_15; // 0x80
+		::System::Int32 Field_5_1; // 0x18
+		::System::Int32 Field_5_0; // 0x1C
+		::System::Int32 Field_5_7; // 0x20
+		::System::Boolean Field_5_6; // 0x24
+		::System::Int32 Field_5_5; // 0x28
+		::System::String* Field_5_4; // 0x30
+		::UnityEngine::RectTransform* Field_5_11; // 0x38
+		::UnityEngine::RectTransform* Field_5_10; // 0x40
+		::UnityEngine::RectTransform* Field_5_9; // 0x48
+		::UnityEngine::RectTransform* Field_5_8; // 0x50
+		::System::Action_1<::System::Int32>* Field_5_15; // 0x58
+		::System::Action* Field_5_14; // 0x60
+		::System::Action_1<::System::Int32>* Field_5_13; // 0x68
+		::UnityEngine::RectTransform* Field_5_12; // 0x70
+		::System::Boolean Field_5_19; // 0x78
+		::UnityEngine::GameObject* Field_5_18; // 0x80
 
 		::System::Void _ctor()
 		{
@@ -85,9 +85,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + MOLEMOLE_ACTIVITYHOLMESDROPTARGETTEXT_ONENDDRAG_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_5_866242D8F6C828B4(::System::Boolean a1)
+		::System::Boolean Method_5_ADA85C40A3382050()
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_ACTIVITYHOLMESDROPTARGETTEXT_METHOD_5_866242D8F6C828B4_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_ACTIVITYHOLMESDROPTARGETTEXT_METHOD_5_ADA85C40A3382050_OFFSET))(this);
 		}
 
 		::System::Boolean Method_5_EB78CC0DDDE15E0D(::UnityEngine::EventSystems::PointerEventData* a1)
@@ -95,9 +95,9 @@ namespace MoleMole
 			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + MOLEMOLE_ACTIVITYHOLMESDROPTARGETTEXT_METHOD_5_EB78CC0DDDE15E0D_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Method_5_ADA85C40A3382050()
+		::System::Void Method_5_BA446D4D3EBC6EEF(::System::Boolean a1)
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_ACTIVITYHOLMESDROPTARGETTEXT_METHOD_5_ADA85C40A3382050_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_ACTIVITYHOLMESDROPTARGETTEXT_METHOD_5_BA446D4D3EBC6EEF_OFFSET))(this, a1);
 		}
 	};
 }

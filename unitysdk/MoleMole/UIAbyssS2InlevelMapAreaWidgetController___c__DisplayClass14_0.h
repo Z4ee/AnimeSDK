@@ -9,12 +9,12 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAbyssS2InlevelMapAreaWidgetController___c__DisplayClass14_0_TypeDefinitionIndex = 60812;
+	inline static constexpr unsigned int UIAbyssS2InlevelMapAreaWidgetController___c__DisplayClass14_0_TypeDefinitionIndex = 59481;
 
 	struct alignas(8) UIAbyssS2InlevelMapAreaWidgetController___c__DisplayClass14_0
 	{
-		::System::Collections::Generic::HashSet_1<::System::Int32>* hasExistArea; // 0x10
-		::MoleMole::UIAbyssS2InlevelMapAreaWidgetController* __4__this; // 0x18
+		::MoleMole::UIAbyssS2InlevelMapAreaWidgetController* __4__this; // 0x10
+		::System::Collections::Generic::HashSet_1<::System::Int32>* hasExistArea; // 0x18
 		::System::Collections::Generic::List_1<::MoleMole::UIAbyssS2InlevelMapAreaWidgetController_IconTipInfo*>* result; // 0x20
 	};
 }

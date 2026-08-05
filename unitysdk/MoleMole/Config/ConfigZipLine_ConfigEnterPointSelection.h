@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CONFIG_CONFIGZIPLINE_CONFIGENTERPOINTSELECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x12723540)
+#define MOLEMOLE_CONFIG_CONFIGZIPLINE_CONFIGENTERPOINTSELECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1350AA60)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigZipLine_ConfigEnterPointSelection_TypeDefinitionIndex = 51245;
+	inline static constexpr unsigned int ConfigZipLine_ConfigEnterPointSelection_TypeDefinitionIndex = 53003;
 
 	class ConfigZipLine_ConfigEnterPointSelection : public ::System::Object
 	{

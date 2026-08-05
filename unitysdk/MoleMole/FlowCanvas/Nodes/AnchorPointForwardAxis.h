@@ -3,16 +3,16 @@
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int AnchorPointForwardAxis_TypeDefinitionIndex = 80787;
+	inline static constexpr unsigned int AnchorPointForwardAxis_TypeDefinitionIndex = 59175;
 
 	enum class AnchorPointForwardAxis : ::System::Int32
 	{
-		NegativeAxisY = 4,
 		NegativeAxisX = 2,
-		None = 0,
-		NegativeAxisZ = 6,
-		PositiveAxisZ = 5,
-		PositiveAxisY = 3,
 		PositiveAxisX = 1,
+		None = 0,
+		NegativeAxisY = 4,
+		PositiveAxisZ = 5,
+		NegativeAxisZ = 6,
+		PositiveAxisY = 3,
 	};
 }

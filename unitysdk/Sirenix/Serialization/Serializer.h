@@ -10,34 +10,34 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define SIRENIX_SERIALIZATION_SERIALIZER_CREATE_OFFSET UNITYSDK_OFFSET(0x1E737540)
-#define SIRENIX_SERIALIZATION_SERIALIZER_FIREONSERIALIZEDTYPE_OFFSET UNITYSDK_OFFSET(0x1E7371A0)
-#define SIRENIX_SERIALIZATION_SERIALIZER_GETFORVALUE_OFFSET UNITYSDK_OFFSET(0x1E7371B0)
-#define SIRENIX_SERIALIZATION_SERIALIZER_GET_OFFSET UNITYSDK_OFFSET(0x1E737230)
-#define SIRENIX_SERIALIZATION_SERIALIZER_LOGAOTERROR_OFFSET UNITYSDK_OFFSET(0x1E737DA0)
-#define SIRENIX_SERIALIZATION_SERIALIZER_REGISTER_OFFSET UNITYSDK_OFFSET(0x1E737A70)
-#define SIRENIX_SERIALIZATION_SERIALIZER_WRITEVALUEWEAK_OFFSET UNITYSDK_OFFSET(0x1E737D70)
-#define SIRENIX_SERIALIZATION_SERIALIZER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E737EE0)
-#define SIRENIX_SERIALIZATION_SERIALIZER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E737ED0)
+#define SIRENIX_SERIALIZATION_SERIALIZER_CREATE_OFFSET UNITYSDK_OFFSET(0x1FB19920)
+#define SIRENIX_SERIALIZATION_SERIALIZER_FIREONSERIALIZEDTYPE_OFFSET UNITYSDK_OFFSET(0x1FB19580)
+#define SIRENIX_SERIALIZATION_SERIALIZER_GETFORVALUE_OFFSET UNITYSDK_OFFSET(0x1FB19590)
+#define SIRENIX_SERIALIZATION_SERIALIZER_GET_OFFSET UNITYSDK_OFFSET(0x1FB19610)
+#define SIRENIX_SERIALIZATION_SERIALIZER_LOGAOTERROR_OFFSET UNITYSDK_OFFSET(0x1FB1A180)
+#define SIRENIX_SERIALIZATION_SERIALIZER_REGISTER_OFFSET UNITYSDK_OFFSET(0x1FB19E50)
+#define SIRENIX_SERIALIZATION_SERIALIZER_WRITEVALUEWEAK_OFFSET UNITYSDK_OFFSET(0x1FB1A150)
+#define SIRENIX_SERIALIZATION_SERIALIZER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FB1A2C0)
+#define SIRENIX_SERIALIZATION_SERIALIZER__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB1A2B0)
 
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int Serializer_TypeDefinitionIndex = 7550;
+	inline static constexpr unsigned int Serializer_TypeDefinitionIndex = 7554;
 
 	class Serializer : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet_LOCK()
-		{
-			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(Serializer_TypeDefinitionIndex)->GetStaticField(0x6380);
-		}
 		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Type*>** StaticGet_PrimitiveReaderWriterTypes()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(Serializer_TypeDefinitionIndex)->GetStaticField(0x6388);
+			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(Serializer_TypeDefinitionIndex)->GetStaticField(0x6390);
+		}
+		static ::System::Object** StaticGet_LOCK()
+		{
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(Serializer_TypeDefinitionIndex)->GetStaticField(0x6398);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::Sirenix::Serialization::Serializer*>** StaticGet_ReaderWriterCache()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::Sirenix::Serialization::Serializer*>**)Il2CppClass::FromTypeDefinitionIndex(Serializer_TypeDefinitionIndex)->GetStaticField(0x6390);
+			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::Sirenix::Serialization::Serializer*>**)Il2CppClass::FromTypeDefinitionIndex(Serializer_TypeDefinitionIndex)->GetStaticField(0x63A0);
 		}
 
 		::System::Void _ctor()

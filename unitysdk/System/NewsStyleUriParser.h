@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/UriParser.h"
 
-#define SYSTEM_NEWSSTYLEURIPARSER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C309930)
+#define SYSTEM_NEWSSTYLEURIPARSER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6CA1E0)
 
 namespace System
 {

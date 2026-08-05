@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_208CC9941471731A_1075;
+class Class_2_208CC9941471731A_1151;
 
-#define MOLEMOLE_UIDOUBLEWEEKPAGECONTROLLER___C__DISPLAYCLASS19_1__CTOR_OFFSET UNITYSDK_OFFSET(0x17707E50)
-#define MOLEMOLE_UIDOUBLEWEEKPAGECONTROLLER___C__DISPLAYCLASS19_1__ONSELECTGRID_B__1_OFFSET UNITYSDK_OFFSET(0x17707E60)
+#define MOLEMOLE_UIDOUBLEWEEKPAGECONTROLLER___C__DISPLAYCLASS19_1__CTOR_OFFSET UNITYSDK_OFFSET(0x186A9090)
+#define MOLEMOLE_UIDOUBLEWEEKPAGECONTROLLER___C__DISPLAYCLASS19_1__ONSELECTGRID_B__1_OFFSET UNITYSDK_OFFSET(0x186A90A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIDoubleWeekPageController___c__DisplayClass19_1_TypeDefinitionIndex = 52189;
+	inline static constexpr unsigned int UIDoubleWeekPageController___c__DisplayClass19_1_TypeDefinitionIndex = 65955;
 
 	class UIDoubleWeekPageController___c__DisplayClass19_1 : public ::System::Object
 	{
 	public:
-		::Class_2_208CC9941471731A_1075* weeklyQuestConfig; // 0x10
+		::Class_2_208CC9941471731A_1151* weeklyQuestConfig; // 0x10
 
 		::System::Void _ctor()
 		{

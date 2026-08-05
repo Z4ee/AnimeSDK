@@ -6,17 +6,17 @@ class Class_2_10A9F99BCFBAF496;
 namespace MoleMole::Battle { class Entity; }
 namespace System { template <typename T> class Action_1; }
 
-#define CLASS_2_10A9F99BCFBAF496_CLASS_1_4CDF7F4C7171C003_METHOD_1_7C986E3AFB1418C8_OFFSET UNITYSDK_OFFSET(0x12A7B650)
-#define CLASS_2_10A9F99BCFBAF496_CLASS_1_4CDF7F4C7171C003__CTOR_OFFSET UNITYSDK_OFFSET(0x12A7B640)
+#define CLASS_2_10A9F99BCFBAF496_CLASS_1_4CDF7F4C7171C003_METHOD_1_7C986E3AFB1418C8_OFFSET UNITYSDK_OFFSET(0x12775200)
+#define CLASS_2_10A9F99BCFBAF496_CLASS_1_4CDF7F4C7171C003__CTOR_OFFSET UNITYSDK_OFFSET(0x127751F0)
 
-inline static constexpr unsigned int Class_2_10A9F99BCFBAF496_Class_1_4CDF7F4C7171C003_TypeDefinitionIndex = 57058;
+inline static constexpr unsigned int Class_2_10A9F99BCFBAF496_Class_1_4CDF7F4C7171C003_TypeDefinitionIndex = 66489;
 
 class Class_2_10A9F99BCFBAF496_Class_1_4CDF7F4C7171C003 : public ::System::Object
 {
 public:
-	::Class_2_10A9F99BCFBAF496* Field_1_1; // 0x10
-	::System::Action_1<::MoleMole::Battle::Entity*>* Field_1_2; // 0x18
-	::System::Boolean Field_1_0; // 0x20
+	::Class_2_10A9F99BCFBAF496* Field_1_0; // 0x10
+	::System::Action_1<::MoleMole::Battle::Entity*>* Field_1_7; // 0x18
+	::System::Boolean Field_1_1; // 0x20
 
 	::System::Void _ctor()
 	{

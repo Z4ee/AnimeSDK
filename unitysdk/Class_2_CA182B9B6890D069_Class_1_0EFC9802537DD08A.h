@@ -9,21 +9,21 @@ namespace MoleMole { class TextureSheetAnimCurveParam; }
 namespace System { class Action; }
 namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 
-#define CLASS_2_CA182B9B6890D069_CLASS_1_0EFC9802537DD08A_METHOD_1_479759059E440327_OFFSET UNITYSDK_OFFSET(0xB7F4930)
-#define CLASS_2_CA182B9B6890D069_CLASS_1_0EFC9802537DD08A_METHOD_1_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0xB7F48B0)
-#define CLASS_2_CA182B9B6890D069_CLASS_1_0EFC9802537DD08A__CTOR_OFFSET UNITYSDK_OFFSET(0xB7F48A0)
+#define CLASS_2_CA182B9B6890D069_CLASS_1_0EFC9802537DD08A_METHOD_1_479759059E440327_OFFSET UNITYSDK_OFFSET(0x1213EB80)
+#define CLASS_2_CA182B9B6890D069_CLASS_1_0EFC9802537DD08A_METHOD_1_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0x1213EB00)
+#define CLASS_2_CA182B9B6890D069_CLASS_1_0EFC9802537DD08A__CTOR_OFFSET UNITYSDK_OFFSET(0x1213EAF0)
 
-inline static constexpr unsigned int Class_2_CA182B9B6890D069_Class_1_0EFC9802537DD08A_TypeDefinitionIndex = 39957;
+inline static constexpr unsigned int Class_2_CA182B9B6890D069_Class_1_0EFC9802537DD08A_TypeDefinitionIndex = 80942;
 
 class Class_2_CA182B9B6890D069_Class_1_0EFC9802537DD08A : public ::System::Object
 {
 public:
-	::System::Action_3<::Class_1_5A6771CD0CA2718D*, ::UnityEngine::Vector4, ::System::Int32>* Field_1_3; // 0x10
-	::MoleMole::TextureSheetAnimCurveParam* Field_1_0; // 0x18
-	::System::Action* Field_1_6; // 0x20
-	::Class_2_CA182B9B6890D069* Field_1_4; // 0x28
-	::UnityEngine::Vector4 Field_1_1; // 0x30
-	::UnityEngine::Vector4 Field_1_2; // 0x40
+	::System::Action* Field_1_4; // 0x10
+	::System::Action_3<::Class_1_5A6771CD0CA2718D*, ::UnityEngine::Vector4, ::System::Int32>* Field_1_7; // 0x18
+	::Class_2_CA182B9B6890D069* Field_1_6; // 0x20
+	::MoleMole::TextureSheetAnimCurveParam* Field_1_2; // 0x28
+	::UnityEngine::Vector4 Field_1_0; // 0x30
+	::UnityEngine::Vector4 Field_1_1; // 0x40
 	::System::Int32 Field_1_5; // 0x50
 
 	::System::Void _ctor()

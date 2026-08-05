@@ -10,7 +10,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace FlowCanvas
 {
-	inline static constexpr unsigned int FlowNodeNested_1_TypeDefinitionIndex = 30501;
+	inline static constexpr unsigned int FlowNodeNested_1_TypeDefinitionIndex = 30669;
 
 	template <typename T>
 	class FlowNodeNested_1 : public ::FlowCanvas::FlowNode

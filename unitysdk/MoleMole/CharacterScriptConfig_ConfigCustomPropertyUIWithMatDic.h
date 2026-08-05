@@ -5,16 +5,16 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CHARACTERSCRIPTCONFIG_CONFIGCUSTOMPROPERTYUIWITHMATDIC__CTOR_OFFSET UNITYSDK_OFFSET(0x144C63A0)
+#define MOLEMOLE_CHARACTERSCRIPTCONFIG_CONFIGCUSTOMPROPERTYUIWITHMATDIC__CTOR_OFFSET UNITYSDK_OFFSET(0x12CA8730)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CharacterScriptConfig_ConfigCustomPropertyUIWithMatDic_TypeDefinitionIndex = 72224;
+	inline static constexpr unsigned int CharacterScriptConfig_ConfigCustomPropertyUIWithMatDic_TypeDefinitionIndex = 48410;
 
 	class CharacterScriptConfig_ConfigCustomPropertyUIWithMatDic : public ::MoleMole::CharacterScriptConfig_ConfigCustomPropertyUI
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::String*>* MaterialPaths; // 0x58
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::String*>* MaterialPaths; // 0x60
 
 		::System::Void _ctor()
 		{

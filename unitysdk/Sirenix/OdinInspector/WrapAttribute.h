@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SIRENIX_ODININSPECTOR_WRAPATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E32BC20)
+#define SIRENIX_ODININSPECTOR_WRAPATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F772F80)
 
 namespace Sirenix::OdinInspector
 {
-	inline static constexpr unsigned int WrapAttribute_TypeDefinitionIndex = 7385;
+	inline static constexpr unsigned int WrapAttribute_TypeDefinitionIndex = 7389;
 
 	class WrapAttribute : public ::System::Attribute
 	{

@@ -10,10 +10,10 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_3DD144B525050799_METHOD_1_05CE179F381679D8_OFFSET UNITYSDK_OFFSET(0xF802F10)
-#define CLASS_1_3DD144B525050799_METHOD_1_C339485D56B0E80F_OFFSET UNITYSDK_OFFSET(0xF802FC0)
+#define CLASS_1_3DD144B525050799_METHOD_1_05CE179F381679D8_OFFSET UNITYSDK_OFFSET(0xE98A180)
+#define CLASS_1_3DD144B525050799_METHOD_1_C339485D56B0E80F_OFFSET UNITYSDK_OFFSET(0xE98A210)
 
-inline static constexpr unsigned int Class_1_3DD144B525050799_TypeDefinitionIndex = 71309;
+inline static constexpr unsigned int Class_1_3DD144B525050799_TypeDefinitionIndex = 85253;
 
 class Class_1_3DD144B525050799 : public ::System::Object
 {

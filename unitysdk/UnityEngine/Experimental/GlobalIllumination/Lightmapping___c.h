@@ -6,20 +6,20 @@
 
 namespace UnityEngine { class Light; }
 
-#define UNITYENGINE_EXPERIMENTAL_GLOBALILLUMINATION_LIGHTMAPPING___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DF56C30)
-#define UNITYENGINE_EXPERIMENTAL_GLOBALILLUMINATION_LIGHTMAPPING___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1DF56C70)
-#define UNITYENGINE_EXPERIMENTAL_GLOBALILLUMINATION_LIGHTMAPPING___C___CCTOR_B__7_0_OFFSET UNITYSDK_OFFSET(0x1DF56C80)
+#define UNITYENGINE_EXPERIMENTAL_GLOBALILLUMINATION_LIGHTMAPPING___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F345F10)
+#define UNITYENGINE_EXPERIMENTAL_GLOBALILLUMINATION_LIGHTMAPPING___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1F345F50)
+#define UNITYENGINE_EXPERIMENTAL_GLOBALILLUMINATION_LIGHTMAPPING___C___CCTOR_B__7_0_OFFSET UNITYSDK_OFFSET(0x1F345F60)
 
 namespace UnityEngine::Experimental::GlobalIllumination
 {
-	inline static constexpr unsigned int Lightmapping___c_TypeDefinitionIndex = 6321;
+	inline static constexpr unsigned int Lightmapping___c_TypeDefinitionIndex = 6325;
 
 	class Lightmapping___c : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::Experimental::GlobalIllumination::Lightmapping___c** StaticGet___9()
 		{
-			return (::UnityEngine::Experimental::GlobalIllumination::Lightmapping___c**)Il2CppClass::FromTypeDefinitionIndex(Lightmapping___c_TypeDefinitionIndex)->GetStaticField(0x5340);
+			return (::UnityEngine::Experimental::GlobalIllumination::Lightmapping___c**)Il2CppClass::FromTypeDefinitionIndex(Lightmapping___c_TypeDefinitionIndex)->GetStaticField(0x5350);
 		}
 
 		static ::System::Void _cctor()

@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define UNITYENGINE_UI_EXTENSION_TERMID_GET_ID_OFFSET UNITYSDK_OFFSET(0x2B68B0)
-#define UNITYENGINE_UI_EXTENSION_TERMID__CTOR_OFFSET UNITYSDK_OFFSET(0x2B66C0)
+#define UNITYENGINE_UI_EXTENSION_TERMID_GET_ID_OFFSET UNITYSDK_OFFSET(0x325570)
+#define UNITYENGINE_UI_EXTENSION_TERMID__CTOR_OFFSET UNITYSDK_OFFSET(0x3253A0)
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int TermID_TypeDefinitionIndex = 72453;
+	inline static constexpr unsigned int TermID_TypeDefinitionIndex = 63594;
 
 	struct alignas(4) TermID
 	{

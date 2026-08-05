@@ -6,10 +6,10 @@
 class PushBoxGameView;
 namespace System { template <typename T1, typename T2> class Action_2; }
 
-#define PUSHBOXGAMEVIEW___C__DISPLAYCLASS67_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0E37F0)
-#define PUSHBOXGAMEVIEW___C__DISPLAYCLASS67_0__TRYENTITYMOVE_B__0_OFFSET UNITYSDK_OFFSET(0x1A0E3800)
+#define PUSHBOXGAMEVIEW___C__DISPLAYCLASS67_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C3E6030)
+#define PUSHBOXGAMEVIEW___C__DISPLAYCLASS67_0__TRYENTITYMOVE_B__0_OFFSET UNITYSDK_OFFSET(0x1C3E6040)
 
-inline static constexpr unsigned int PushBoxGameView___c__DisplayClass67_0_TypeDefinitionIndex = 42719;
+inline static constexpr unsigned int PushBoxGameView___c__DisplayClass67_0_TypeDefinitionIndex = 84521;
 
 class PushBoxGameView___c__DisplayClass67_0 : public ::System::Object
 {

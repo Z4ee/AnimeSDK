@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIChatPlusTimeLinePageController; }
 
-#define MOLEMOLE_UICHATPLUSTIMELINEPAGECONTROLLER___C__DISPLAYCLASS46_0__CTOR_OFFSET UNITYSDK_OFFSET(0x172D5310)
-#define MOLEMOLE_UICHATPLUSTIMELINEPAGECONTROLLER___C__DISPLAYCLASS46_0__PLAYCHATPLUSDIALOG_B__0_OFFSET UNITYSDK_OFFSET(0x172D5320)
+#define MOLEMOLE_UICHATPLUSTIMELINEPAGECONTROLLER___C__DISPLAYCLASS46_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1957E1D0)
+#define MOLEMOLE_UICHATPLUSTIMELINEPAGECONTROLLER___C__DISPLAYCLASS46_0__PLAYCHATPLUSDIALOG_B__0_OFFSET UNITYSDK_OFFSET(0x1957E1E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIChatPlusTimeLinePageController___c__DisplayClass46_0_TypeDefinitionIndex = 65464;
+	inline static constexpr unsigned int UIChatPlusTimeLinePageController___c__DisplayClass46_0_TypeDefinitionIndex = 79163;
 
 	class UIChatPlusTimeLinePageController___c__DisplayClass46_0 : public ::System::Object
 	{

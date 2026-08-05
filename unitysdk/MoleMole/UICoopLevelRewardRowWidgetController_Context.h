@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_208CC9941471731A_369;
+class Class_2_208CC9941471731A_1155;
 
-#define MOLEMOLE_UICOOPLEVELREWARDROWWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x17A5CB30)
+#define MOLEMOLE_UICOOPLEVELREWARDROWWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x183D4340)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICoopLevelRewardRowWidgetController_Context_TypeDefinitionIndex = 51345;
+	inline static constexpr unsigned int UICoopLevelRewardRowWidgetController_Context_TypeDefinitionIndex = 82021;
 
 	class UICoopLevelRewardRowWidgetController_Context : public ::System::Object
 	{
 	public:
-		::Class_2_208CC9941471731A_369* Cfg; // 0x10
+		::Class_2_208CC9941471731A_1155* Cfg; // 0x10
 
 		::System::Void _ctor()
 		{

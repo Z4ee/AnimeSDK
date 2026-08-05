@@ -6,18 +6,18 @@
 namespace MessagePack::Internal { class DynamicObjectTypeBuilder___c__DisplayClass9_0; }
 namespace System::Reflection::Emit { class LocalBuilder; }
 
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS9_4__BUILDDESERIALIZE_B__8_OFFSET UNITYSDK_OFFSET(0x1D408F70)
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS9_4__CTOR_OFFSET UNITYSDK_OFFSET(0x1D408F60)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS9_4__BUILDDESERIALIZE_B__8_OFFSET UNITYSDK_OFFSET(0x1E7AE5E0)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS9_4__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7AE5D0)
 
 namespace MessagePack::Internal
 {
-	inline static constexpr unsigned int DynamicObjectTypeBuilder___c__DisplayClass9_4_TypeDefinitionIndex = 29286;
+	inline static constexpr unsigned int DynamicObjectTypeBuilder___c__DisplayClass9_4_TypeDefinitionIndex = 31058;
 
 	class DynamicObjectTypeBuilder___c__DisplayClass9_4 : public ::System::Object
 	{
 	public:
-		::System::Reflection::Emit::LocalBuilder* key; // 0x10
-		::MessagePack::Internal::DynamicObjectTypeBuilder___c__DisplayClass9_0* CS___8__locals4; // 0x18
+		::MessagePack::Internal::DynamicObjectTypeBuilder___c__DisplayClass9_0* CS___8__locals4; // 0x10
+		::System::Reflection::Emit::LocalBuilder* key; // 0x18
 		::System::Reflection::Emit::Label switchDefault; // 0x20
 
 		::System::Void _ctor()

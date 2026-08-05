@@ -4,7 +4,7 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int GameService_Cache_1_TypeDefinitionIndex = 8783;
+	inline static constexpr unsigned int GameService_Cache_1_TypeDefinitionIndex = 8703;
 
 	template <typename T>
 	class GameService_Cache_1 : public ::System::Object

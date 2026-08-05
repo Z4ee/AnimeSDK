@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Color.h"
 
-#define MOLEMOLE_CARDOPTIONBGCOLOR__CTOR_OFFSET UNITYSDK_OFFSET(0x144C6270)
+#define MOLEMOLE_CARDOPTIONBGCOLOR__CTOR_OFFSET UNITYSDK_OFFSET(0x12CA8600)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CardOptionBgColor_TypeDefinitionIndex = 46046;
+	inline static constexpr unsigned int CardOptionBgColor_TypeDefinitionIndex = 71991;
 
 	class CardOptionBgColor : public ::System::Object
 	{

@@ -4,12 +4,12 @@
 
 namespace MoleMole::Battle { class Entity; }
 
-#define MOLEMOLE_UIRIDUSGOTBOOPAGECONTROLLER___C__DISPLAYCLASS123_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15C11C60)
-#define MOLEMOLE_UIRIDUSGOTBOOPAGECONTROLLER___C__DISPLAYCLASS123_0__PREPARESTAGE_B__0_OFFSET UNITYSDK_OFFSET(0x15C11C70)
+#define MOLEMOLE_UIRIDUSGOTBOOPAGECONTROLLER___C__DISPLAYCLASS123_0__CTOR_OFFSET UNITYSDK_OFFSET(0x160CAB90)
+#define MOLEMOLE_UIRIDUSGOTBOOPAGECONTROLLER___C__DISPLAYCLASS123_0__PREPARESTAGE_B__0_OFFSET UNITYSDK_OFFSET(0x160CABA0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRidusGotBooPageController___c__DisplayClass123_0_TypeDefinitionIndex = 40743;
+	inline static constexpr unsigned int UIRidusGotBooPageController___c__DisplayClass123_0_TypeDefinitionIndex = 91562;
 
 	class UIRidusGotBooPageController___c__DisplayClass123_0 : public ::System::Object
 	{

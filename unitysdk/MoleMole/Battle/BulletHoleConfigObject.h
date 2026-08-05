@@ -10,11 +10,11 @@ namespace MoleMole::Config { class RaycastHitWallEffectConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_BATTLE_BULLETHOLECONFIGOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1107EA00)
+#define MOLEMOLE_BATTLE_BULLETHOLECONFIGOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x12EE10F0)
 
 namespace MoleMole::Battle
 {
-	inline static constexpr unsigned int BulletHoleConfigObject_TypeDefinitionIndex = 46673;
+	inline static constexpr unsigned int BulletHoleConfigObject_TypeDefinitionIndex = 66290;
 
 	class BulletHoleConfigObject : public ::System::Object
 	{
@@ -22,8 +22,8 @@ namespace MoleMole::Battle
 		::System::Collections::Generic::List_1<::MoleMole::Config::EffectTimeSegmentConfig*>* EffectSegmentList; // 0x10
 		::MoleMole::Config::RaycastHitWallEffectConfig* rayConfig; // 0x18
 		::System::String* OverrideShakeKey; // 0x20
-		::MoleMole::Battle::DebugColor debugColor; // 0x28
-		::MoleMole::BulletDamageDecalType CharacterDecalType; // 0x48
+		::MoleMole::BulletDamageDecalType CharacterDecalType; // 0x28
+		::MoleMole::Battle::DebugColor debugColor; // 0x2C
 		::MoleMole::Battle::BulletHoleUpdateStrategy posUpdateStrategy; // 0x4C
 
 		::System::Void _ctor()

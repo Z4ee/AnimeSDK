@@ -5,16 +5,16 @@
 class Class_1_E146CBB981C64A1C;
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define CLASS_3_4DE09A4D1BD6E502_CLASS_1_BFADBD8448EE5608_METHOD_1_A99EF338505A0EA9_OFFSET UNITYSDK_OFFSET(0x1315FDB0)
-#define CLASS_3_4DE09A4D1BD6E502_CLASS_1_BFADBD8448EE5608__CTOR_OFFSET UNITYSDK_OFFSET(0x1315FD60)
+#define CLASS_3_4DE09A4D1BD6E502_CLASS_1_BFADBD8448EE5608_METHOD_1_A99EF338505A0EA9_OFFSET UNITYSDK_OFFSET(0x167FBEB0)
+#define CLASS_3_4DE09A4D1BD6E502_CLASS_1_BFADBD8448EE5608__CTOR_OFFSET UNITYSDK_OFFSET(0x167FBE60)
 
-inline static constexpr unsigned int Class_3_4DE09A4D1BD6E502_Class_1_BFADBD8448EE5608_TypeDefinitionIndex = 79000;
+inline static constexpr unsigned int Class_3_4DE09A4D1BD6E502_Class_1_BFADBD8448EE5608_TypeDefinitionIndex = 85342;
 
 class Class_3_4DE09A4D1BD6E502_Class_1_BFADBD8448EE5608 : public ::System::Object
 {
 public:
-	::Class_1_E146CBB981C64A1C* Field_1_1; // 0x10
-	::System::Collections::Generic::HashSet_1<::System::Int32>* Field_1_0; // 0x18
+	::Class_1_E146CBB981C64A1C* Field_1_0; // 0x10
+	::System::Collections::Generic::HashSet_1<::System::Int32>* Field_1_1; // 0x18
 
 	::System::Void _ctor()
 	{

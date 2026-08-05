@@ -5,12 +5,12 @@
 namespace MoleMole::Config { class ConfigUIGachaRoleConfig; }
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGUIGACHACONFIGCONTAINER___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x170564B0)
-#define MOLEMOLE_CONFIG_CONFIGUIGACHACONFIGCONTAINER___C__DISPLAYCLASS6_0__GETROLECONFIG_B__0_OFFSET UNITYSDK_OFFSET(0x170564C0)
+#define MOLEMOLE_CONFIG_CONFIGUIGACHACONFIGCONTAINER___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B919870)
+#define MOLEMOLE_CONFIG_CONFIGUIGACHACONFIGCONTAINER___C__DISPLAYCLASS6_0__GETROLECONFIG_B__0_OFFSET UNITYSDK_OFFSET(0x1B919880)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigUIGachaConfigContainer___c__DisplayClass6_0_TypeDefinitionIndex = 47334;
+	inline static constexpr unsigned int ConfigUIGachaConfigContainer___c__DisplayClass6_0_TypeDefinitionIndex = 78069;
 
 	class ConfigUIGachaConfigContainer___c__DisplayClass6_0 : public ::System::Object
 	{

@@ -6,36 +6,36 @@
 
 namespace System { class String; }
 
-#define STATETREECORE_LOGGER_CHECKINSTANCEID_OFFSET UNITYSDK_OFFSET(0x1E592D00)
-#define STATETREECORE_LOGGER_ERROR_1_OFFSET UNITYSDK_OFFSET(0x1E593190)
-#define STATETREECORE_LOGGER_ERROR_OFFSET UNITYSDK_OFFSET(0x1E593100)
-#define STATETREECORE_LOGGER_INFO_1_OFFSET UNITYSDK_OFFSET(0x1E592ED0)
-#define STATETREECORE_LOGGER_INFO_OFFSET UNITYSDK_OFFSET(0x1E592E40)
-#define STATETREECORE_LOGGER_SETSTATETREEINSTANCELOGMODE_OFFSET UNITYSDK_OFFSET(0x1E592C90)
-#define STATETREECORE_LOGGER_VERBOSE_1_OFFSET UNITYSDK_OFFSET(0x1E592FB0)
-#define STATETREECORE_LOGGER_VERBOSE_OFFSET UNITYSDK_OFFSET(0x1E592F30)
-#define STATETREECORE_LOGGER_WARNING_1_OFFSET UNITYSDK_OFFSET(0x1E5930A0)
-#define STATETREECORE_LOGGER_WARNING_OFFSET UNITYSDK_OFFSET(0x1E593010)
-#define STATETREECORE_LOGGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E5931F0)
+#define STATETREECORE_LOGGER_CHECKINSTANCEID_OFFSET UNITYSDK_OFFSET(0x1F97B750)
+#define STATETREECORE_LOGGER_ERROR_1_OFFSET UNITYSDK_OFFSET(0x1F97BBE0)
+#define STATETREECORE_LOGGER_ERROR_OFFSET UNITYSDK_OFFSET(0x1F97BB50)
+#define STATETREECORE_LOGGER_INFO_1_OFFSET UNITYSDK_OFFSET(0x1F97B920)
+#define STATETREECORE_LOGGER_INFO_OFFSET UNITYSDK_OFFSET(0x1F97B890)
+#define STATETREECORE_LOGGER_SETSTATETREEINSTANCELOGMODE_OFFSET UNITYSDK_OFFSET(0x1F97B6E0)
+#define STATETREECORE_LOGGER_VERBOSE_1_OFFSET UNITYSDK_OFFSET(0x1F97BA00)
+#define STATETREECORE_LOGGER_VERBOSE_OFFSET UNITYSDK_OFFSET(0x1F97B980)
+#define STATETREECORE_LOGGER_WARNING_1_OFFSET UNITYSDK_OFFSET(0x1F97BAF0)
+#define STATETREECORE_LOGGER_WARNING_OFFSET UNITYSDK_OFFSET(0x1F97BA60)
+#define STATETREECORE_LOGGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F97BC40)
 
 namespace StateTreeCore
 {
-	inline static constexpr unsigned int Logger_TypeDefinitionIndex = 30982;
+	inline static constexpr unsigned int Logger_TypeDefinitionIndex = 31587;
 
 	class Logger : public ::System::Object
 	{
 	public:
+		static ::System::Int32* StaticGet__stateTreeLogInstanceID()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Logger_TypeDefinitionIndex)->GetStaticField(0x7B20);
+		}
 		static ::StateTreeCore::Logger_VerboseLevel* StaticGet_CurrentVerbosity()
 		{
-			return (::StateTreeCore::Logger_VerboseLevel*)Il2CppClass::FromTypeDefinitionIndex(Logger_TypeDefinitionIndex)->GetStaticField(0x7B50);
+			return (::StateTreeCore::Logger_VerboseLevel*)Il2CppClass::FromTypeDefinitionIndex(Logger_TypeDefinitionIndex)->GetStaticField(0x7B24);
 		}
 		static ::System::Boolean* StaticGet_EnableStateTreeLog()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Logger_TypeDefinitionIndex)->GetStaticField(0x7B54);
-		}
-		static ::System::Int32* StaticGet__stateTreeLogInstanceID()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Logger_TypeDefinitionIndex)->GetStaticField(0x7B58);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Logger_TypeDefinitionIndex)->GetStaticField(0x7B28);
 		}
 
 		static ::System::Void _cctor()

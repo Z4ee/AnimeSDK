@@ -4,12 +4,12 @@
 #include "unitysdk/ParadoxNotion/Animation/EaseType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define FLOWCANVAS_NODES_LERPVECTOR3_INVOKE_OFFSET UNITYSDK_OFFSET(0x1D83BEA0)
-#define FLOWCANVAS_NODES_LERPVECTOR3__CTOR_OFFSET UNITYSDK_OFFSET(0x1D83BF90)
+#define FLOWCANVAS_NODES_LERPVECTOR3_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EB7E720)
+#define FLOWCANVAS_NODES_LERPVECTOR3__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB7E810)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LerpVector3_TypeDefinitionIndex = 29967;
+	inline static constexpr unsigned int LerpVector3_TypeDefinitionIndex = 29963;
 
 	class LerpVector3 : public ::FlowCanvas::Nodes::PureFunctionNode_5<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single, ::ParadoxNotion::Animation::EaseType>
 	{

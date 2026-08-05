@@ -4,20 +4,20 @@
 
 namespace UnrealTypes { class ICppStructOps; }
 
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_REACTIONTASKINSTANCEDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xEBCA640)
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_REACTIONTASKINSTANCEDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xEBCA680)
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_REACTIONTASKINSTANCEDATA___C___CCTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0xEBCA690)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_REACTIONTASKINSTANCEDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xF602B40)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_REACTIONTASKINSTANCEDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xF602B80)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_REACTIONTASKINSTANCEDATA___C___CCTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0xF602B90)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_ReactionTaskInstanceData___c_TypeDefinitionIndex = 52715;
+	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_ReactionTaskInstanceData___c_TypeDefinitionIndex = 87864;
 
 	class RegistrationInfo_ScriptStruct_ReactionTaskInstanceData___c : public ::System::Object
 	{
 	public:
 		static ::NPCCrowd::Ability::RegistrationInfo_ScriptStruct_ReactionTaskInstanceData___c** StaticGet___9()
 		{
-			return (::NPCCrowd::Ability::RegistrationInfo_ScriptStruct_ReactionTaskInstanceData___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_ReactionTaskInstanceData___c_TypeDefinitionIndex)->GetStaticField(0x3AA80);
+			return (::NPCCrowd::Ability::RegistrationInfo_ScriptStruct_ReactionTaskInstanceData___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_ReactionTaskInstanceData___c_TypeDefinitionIndex)->GetStaticField(0x3D8C0);
 		}
 
 		static ::System::Void _cctor()

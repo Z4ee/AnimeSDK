@@ -11,14 +11,14 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Gradient; }
 
-#define MOLEMOLE_UIQUESTIONSANSWERCONFIGMONO_GET_SPECIALNPCCAMERAOFFSETDIC_OFFSET UNITYSDK_OFFSET(0x17177F60)
-#define MOLEMOLE_UIQUESTIONSANSWERCONFIGMONO_GET_SPECIALNPCEMOJIPOSDIC_OFFSET UNITYSDK_OFFSET(0x171781A0)
-#define MOLEMOLE_UIQUESTIONSANSWERCONFIGMONO_SET_SPECIALNPCCAMERAOFFSETDIC_OFFSET UNITYSDK_OFFSET(0x17178190)
-#define MOLEMOLE_UIQUESTIONSANSWERCONFIGMONO__CTOR_OFFSET UNITYSDK_OFFSET(0x171783E0)
+#define MOLEMOLE_UIQUESTIONSANSWERCONFIGMONO_GET_SPECIALNPCCAMERAOFFSETDIC_OFFSET UNITYSDK_OFFSET(0x15F56FD0)
+#define MOLEMOLE_UIQUESTIONSANSWERCONFIGMONO_GET_SPECIALNPCEMOJIPOSDIC_OFFSET UNITYSDK_OFFSET(0x15F57210)
+#define MOLEMOLE_UIQUESTIONSANSWERCONFIGMONO_SET_SPECIALNPCCAMERAOFFSETDIC_OFFSET UNITYSDK_OFFSET(0x15F57200)
+#define MOLEMOLE_UIQUESTIONSANSWERCONFIGMONO__CTOR_OFFSET UNITYSDK_OFFSET(0x15F57450)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIQuestionsAnswerConfigMono_TypeDefinitionIndex = 60744;
+	inline static constexpr unsigned int UIQuestionsAnswerConfigMono_TypeDefinitionIndex = 55979;
 
 	class UIQuestionsAnswerConfigMono : public ::UnityEngine::MonoBehaviour
 	{
@@ -39,7 +39,7 @@ namespace MoleMole
 		::UnityEngine::Vector3 FixCameraRot; // 0x90
 		::System::Single Fov; // 0x9C
 		::System::Single NpcCameraOffset; // 0xA0
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Single>* Field_5_16; // 0xA8
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Single>* Field_5_18; // 0xA8
 		::System::Collections::Generic::List_1<::MoleMole::UIQuestionsAnswerConfigMono_CameraOffsetInfo*>* SpecialNpcCameraOffsetList; // 0xB0
 		::MoleMole::Cameras::CameraTrackBlending* Blending; // 0xB8
 		::System::String* NoisePath; // 0xC0
@@ -53,7 +53,7 @@ namespace MoleMole
 		::System::Single DoubleScoreTweenFirstTime; // 0xE4
 		::System::Single DoubleScoreTweenStayTime; // 0xE8
 		::System::Single DoubleScoreTweenSecoiindTime; // 0xEC
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::Vector3>* Field_5_30; // 0xF0
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::Vector3>* Field_5_28; // 0xF0
 		::System::Collections::Generic::List_1<::MoleMole::UIQuestionsAnswerConfigMono_EmojiPosInfo*>* SpecialNpcEmojiPosList; // 0xF8
 		::UnityEngine::Gradient* TextColorGradient; // 0x100
 		::System::Single TextColorDuration; // 0x108

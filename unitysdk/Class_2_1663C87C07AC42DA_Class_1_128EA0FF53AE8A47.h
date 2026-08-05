@@ -4,15 +4,15 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define CLASS_2_1663C87C07AC42DA_CLASS_1_128EA0FF53AE8A47__CTOR_OFFSET UNITYSDK_OFFSET(0x1DDF4370)
+#define CLASS_2_1663C87C07AC42DA_CLASS_1_128EA0FF53AE8A47__CTOR_OFFSET UNITYSDK_OFFSET(0x1EFA3B50)
 
-inline static constexpr unsigned int Class_2_1663C87C07AC42DA_Class_1_128EA0FF53AE8A47_TypeDefinitionIndex = 91037;
+inline static constexpr unsigned int Class_2_1663C87C07AC42DA_Class_1_128EA0FF53AE8A47_TypeDefinitionIndex = 94957;
 
 class Class_2_1663C87C07AC42DA_Class_1_128EA0FF53AE8A47 : public ::System::Object
 {
 public:
-	::UnityEngine::GameObject* Field_1_1; // 0x10
-	::System::Boolean Field_1_0; // 0x18
+	::UnityEngine::GameObject* Field_1_0; // 0x10
+	::System::Boolean Field_1_1; // 0x18
 
 	::System::Void _ctor()
 	{

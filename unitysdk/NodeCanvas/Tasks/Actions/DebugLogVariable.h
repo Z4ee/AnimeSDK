@@ -7,22 +7,22 @@ namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define NODECANVAS_TASKS_ACTIONS_DEBUGLOGVARIABLE_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1D394EE0)
-#define NODECANVAS_TASKS_ACTIONS_DEBUGLOGVARIABLE_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1D395180)
-#define NODECANVAS_TASKS_ACTIONS_DEBUGLOGVARIABLE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1D395190)
-#define NODECANVAS_TASKS_ACTIONS_DEBUGLOGVARIABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3951E0)
+#define NODECANVAS_TASKS_ACTIONS_DEBUGLOGVARIABLE_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1E72E610)
+#define NODECANVAS_TASKS_ACTIONS_DEBUGLOGVARIABLE_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1E72E8B0)
+#define NODECANVAS_TASKS_ACTIONS_DEBUGLOGVARIABLE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1E72E8C0)
+#define NODECANVAS_TASKS_ACTIONS_DEBUGLOGVARIABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E72E910)
 
 namespace NodeCanvas::Tasks::Actions
 {
-	inline static constexpr unsigned int DebugLogVariable_TypeDefinitionIndex = 29200;
+	inline static constexpr unsigned int DebugLogVariable_TypeDefinitionIndex = 30787;
 
 	class DebugLogVariable : public ::NodeCanvas::Framework::ActionTask
 	{
 	public:
 		::NodeCanvas::Framework::BBParameter_1<::System::Object*>* log; // 0x60
 		::NodeCanvas::Framework::BBParameter_1<::System::String*>* prefix; // 0x68
-		::System::Single secondsToRun; // 0x70
-		::ParadoxNotion::CompactStatus finishStatus; // 0x74
+		::ParadoxNotion::CompactStatus finishStatus; // 0x70
+		::System::Single secondsToRun; // 0x74
 
 		::System::Void _ctor()
 		{

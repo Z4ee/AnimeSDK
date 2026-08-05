@@ -4,11 +4,11 @@
 
 namespace MoleMole { class ConfigUICommon_Performance; }
 
-#define MOLEMOLE_CONFIGUIPERFORMANCEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x157D8B00)
+#define MOLEMOLE_CONFIGUIPERFORMANCEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD80CA0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUIPerformanceItem_TypeDefinitionIndex = 62720;
+	inline static constexpr unsigned int ConfigUIPerformanceItem_TypeDefinitionIndex = 82066;
 
 	class ConfigUIPerformanceItem : public ::MoleMole::ConfigLazyLoadItem_1<::MoleMole::ConfigUICommon_Performance*>
 	{

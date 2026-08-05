@@ -7,11 +7,11 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class Shader; }
 namespace UnityEngine::Experimental::Rendering { class RayTracingShader; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERERDATA_SHADERRESOURCES__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDBA870)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERERDATA_SHADERRESOURCES__CTOR_OFFSET UNITYSDK_OFFSET(0x1CEF5630)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int ForwardRendererData_ShaderResources_TypeDefinitionIndex = 26588;
+	inline static constexpr unsigned int ForwardRendererData_ShaderResources_TypeDefinitionIndex = 27772;
 
 	class ForwardRendererData_ShaderResources : public ::System::Object
 	{

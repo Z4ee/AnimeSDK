@@ -5,10 +5,10 @@
 class Class_1_8289F2785D9AA990;
 namespace System::Collections::Generic { template <typename T> class Stack_1; }
 
-#define CLASS_1_3611A22A79AF8057_METHOD_1_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0x1900CF30)
-#define CLASS_1_3611A22A79AF8057__CTOR_OFFSET UNITYSDK_OFFSET(0x1900CE70)
+#define CLASS_1_3611A22A79AF8057_METHOD_1_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0x13CE2430)
+#define CLASS_1_3611A22A79AF8057__CTOR_OFFSET UNITYSDK_OFFSET(0x13CE2370)
 
-inline static constexpr unsigned int Class_1_3611A22A79AF8057_TypeDefinitionIndex = 68525;
+inline static constexpr unsigned int Class_1_3611A22A79AF8057_TypeDefinitionIndex = 88461;
 
 class Class_1_3611A22A79AF8057 : public ::System::Object
 {

@@ -7,16 +7,16 @@
 class Class_2_5FD82CD6B80F94FB_Class_1_CE50C31742DEA519;
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define CLASS_2_5FD82CD6B80F94FB_CLASS_1_CE50C31742DEA519_STRUCT_2_957F2300CF95ED7B_2_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x828720)
-#define CLASS_2_5FD82CD6B80F94FB_CLASS_1_CE50C31742DEA519_STRUCT_2_957F2300CF95ED7B_2_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x61A480)
+#define CLASS_2_5FD82CD6B80F94FB_CLASS_1_CE50C31742DEA519_STRUCT_2_957F2300CF95ED7B_2_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x8CDA70)
+#define CLASS_2_5FD82CD6B80F94FB_CLASS_1_CE50C31742DEA519_STRUCT_2_957F2300CF95ED7B_2_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x59F4E0)
 
-inline static constexpr unsigned int Class_2_5FD82CD6B80F94FB_Class_1_CE50C31742DEA519_Struct_2_957F2300CF95ED7B_2_TypeDefinitionIndex = 74205;
+inline static constexpr unsigned int Class_2_5FD82CD6B80F94FB_Class_1_CE50C31742DEA519_Struct_2_957F2300CF95ED7B_2_TypeDefinitionIndex = 77638;
 
 struct alignas(8) Class_2_5FD82CD6B80F94FB_Class_1_CE50C31742DEA519_Struct_2_957F2300CF95ED7B_2
 {
-	::Class_2_5FD82CD6B80F94FB_Class_1_CE50C31742DEA519* Field_2_2; // 0x10
-	::System::Runtime::CompilerServices::AsyncVoidMethodBuilder Field_2_1; // 0x18
-	::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Boolean> Field_2_3; // 0x38
+	::System::Runtime::CompilerServices::AsyncVoidMethodBuilder Field_2_7; // 0x10
+	::Class_2_5FD82CD6B80F94FB_Class_1_CE50C31742DEA519* Field_2_6; // 0x30
+	::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Boolean> Field_2_5; // 0x38
 	::System::Int32 Field_2_0; // 0x40
 
 	::System::Void MoveNext()

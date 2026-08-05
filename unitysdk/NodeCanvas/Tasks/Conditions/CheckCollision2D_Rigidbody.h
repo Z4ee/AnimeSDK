@@ -11,27 +11,27 @@ namespace UnityEngine { class Collision2D; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Rigidbody2D; }
 
-#define NODECANVAS_TASKS_CONDITIONS_CHECKCOLLISION2D_RIGIDBODY_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1D411A10)
-#define NODECANVAS_TASKS_CONDITIONS_CHECKCOLLISION2D_RIGIDBODY_ONCHECK_OFFSET UNITYSDK_OFFSET(0x1D411AC0)
-#define NODECANVAS_TASKS_CONDITIONS_CHECKCOLLISION2D_RIGIDBODY_ONCOLLISIONENTER2D_OFFSET UNITYSDK_OFFSET(0x1D411E20)
-#define NODECANVAS_TASKS_CONDITIONS_CHECKCOLLISION2D_RIGIDBODY_ONCOLLISIONEXIT2D_OFFSET UNITYSDK_OFFSET(0x1D412190)
-#define NODECANVAS_TASKS_CONDITIONS_CHECKCOLLISION2D_RIGIDBODY_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1D411C80)
-#define NODECANVAS_TASKS_CONDITIONS_CHECKCOLLISION2D_RIGIDBODY_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1D411AE0)
-#define NODECANVAS_TASKS_CONDITIONS_CHECKCOLLISION2D_RIGIDBODY__CTOR_OFFSET UNITYSDK_OFFSET(0x1D412340)
+#define NODECANVAS_TASKS_CONDITIONS_CHECKCOLLISION2D_RIGIDBODY_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1E7B7040)
+#define NODECANVAS_TASKS_CONDITIONS_CHECKCOLLISION2D_RIGIDBODY_ONCHECK_OFFSET UNITYSDK_OFFSET(0x1E7B70F0)
+#define NODECANVAS_TASKS_CONDITIONS_CHECKCOLLISION2D_RIGIDBODY_ONCOLLISIONENTER2D_OFFSET UNITYSDK_OFFSET(0x1E7B7430)
+#define NODECANVAS_TASKS_CONDITIONS_CHECKCOLLISION2D_RIGIDBODY_ONCOLLISIONEXIT2D_OFFSET UNITYSDK_OFFSET(0x1E7B77A0)
+#define NODECANVAS_TASKS_CONDITIONS_CHECKCOLLISION2D_RIGIDBODY_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1E7B72A0)
+#define NODECANVAS_TASKS_CONDITIONS_CHECKCOLLISION2D_RIGIDBODY_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1E7B7110)
+#define NODECANVAS_TASKS_CONDITIONS_CHECKCOLLISION2D_RIGIDBODY__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7B7950)
 
 namespace NodeCanvas::Tasks::Conditions
 {
-	inline static constexpr unsigned int CheckCollision2D_Rigidbody_TypeDefinitionIndex = 30539;
+	inline static constexpr unsigned int CheckCollision2D_Rigidbody_TypeDefinitionIndex = 30577;
 
 	class CheckCollision2D_Rigidbody : public ::NodeCanvas::Framework::ConditionTask_1<::UnityEngine::Rigidbody2D*>
 	{
 	public:
-		::NodeCanvas::Framework::BBParameter_1<::UnityEngine::Vector3>* saveContactNormal; // 0x60
-		::NodeCanvas::Framework::BBParameter_1<::UnityEngine::Vector3>* saveContactPoint; // 0x68
-		::System::String* objectTag; // 0x70
-		::NodeCanvas::Framework::BBParameter_1<::UnityEngine::GameObject*>* saveGameObjectAs; // 0x78
-		::System::Boolean stay; // 0x80
-		::System::Boolean specifiedTagOnly; // 0x81
+		::NodeCanvas::Framework::BBParameter_1<::UnityEngine::Vector3>* saveContactPoint; // 0x60
+		::NodeCanvas::Framework::BBParameter_1<::UnityEngine::GameObject*>* saveGameObjectAs; // 0x68
+		::NodeCanvas::Framework::BBParameter_1<::UnityEngine::Vector3>* saveContactNormal; // 0x70
+		::System::String* objectTag; // 0x78
+		::System::Boolean specifiedTagOnly; // 0x80
+		::System::Boolean stay; // 0x81
 		::ParadoxNotion::CollisionTypes checkType; // 0x84
 
 		::System::Void _ctor()

@@ -5,16 +5,16 @@
 namespace MoleMole { class MonoEntityModelModifier; }
 namespace MoleMole { class MonoSpawnMonsterConfig; }
 
-#define MOLEMOLE_MONOSTAGEENV_CLASS_1_E314997DBD1559E0__CTOR_OFFSET UNITYSDK_OFFSET(0x12647140)
+#define MOLEMOLE_MONOSTAGEENV_CLASS_1_E314997DBD1559E0__CTOR_OFFSET UNITYSDK_OFFSET(0x16876E90)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoStageEnv_Class_1_E314997DBD1559E0_TypeDefinitionIndex = 85614;
+	inline static constexpr unsigned int MonoStageEnv_Class_1_E314997DBD1559E0_TypeDefinitionIndex = 45660;
 
 	class MonoStageEnv_Class_1_E314997DBD1559E0 : public ::System::Object
 	{
 	public:
-		::MoleMole::MonoEntityModelModifier* Field_1_1; // 0x10
+		::MoleMole::MonoEntityModelModifier* Field_1_7; // 0x10
 		::MoleMole::MonoSpawnMonsterConfig* Field_1_0; // 0x18
 
 		::System::Void _ctor()

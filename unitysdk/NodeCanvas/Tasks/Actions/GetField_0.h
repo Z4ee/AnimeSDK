@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace System { class Type; }
 
-#define NODECANVAS_TASKS_ACTIONS_GETFIELD_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8458E0)
+#define NODECANVAS_TASKS_ACTIONS_GETFIELD_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB88030)
 
 namespace NodeCanvas::Tasks::Actions
 {
-	inline static constexpr unsigned int GetField_0_TypeDefinitionIndex = 29755;
+	inline static constexpr unsigned int GetField_0_TypeDefinitionIndex = 30826;
 
 	class GetField_0 : public ::System::Object
 	{

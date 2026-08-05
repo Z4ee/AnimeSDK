@@ -7,19 +7,19 @@ namespace MoleMole { class UIRidusGotBooChangeClothPageController___c__DisplayCl
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_UIRIDUSGOTBOOCHANGECLOTHPAGECONTROLLER___C__DISPLAYCLASS74_1__CTOR_OFFSET UNITYSDK_OFFSET(0x156198D0)
-#define MOLEMOLE_UIRIDUSGOTBOOCHANGECLOTHPAGECONTROLLER___C__DISPLAYCLASS74_1__REFRESHBUDDYRT_B__0_OFFSET UNITYSDK_OFFSET(0x156198E0)
+#define MOLEMOLE_UIRIDUSGOTBOOCHANGECLOTHPAGECONTROLLER___C__DISPLAYCLASS74_1__CTOR_OFFSET UNITYSDK_OFFSET(0x16A87440)
+#define MOLEMOLE_UIRIDUSGOTBOOCHANGECLOTHPAGECONTROLLER___C__DISPLAYCLASS74_1__REFRESHBUDDYRT_B__0_OFFSET UNITYSDK_OFFSET(0x16A87450)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRidusGotBooChangeClothPageController___c__DisplayClass74_1_TypeDefinitionIndex = 70902;
+	inline static constexpr unsigned int UIRidusGotBooChangeClothPageController___c__DisplayClass74_1_TypeDefinitionIndex = 86074;
 
 	class UIRidusGotBooChangeClothPageController___c__DisplayClass74_1 : public ::System::Object
 	{
 	public:
-		::System::String* type; // 0x10
-		::Foundation::AssetPath prefabPath; // 0x18
-		::MoleMole::UIRidusGotBooChangeClothPageController___c__DisplayClass74_0* CS___8__locals1; // 0x28
+		::Foundation::AssetPath prefabPath; // 0x10
+		::MoleMole::UIRidusGotBooChangeClothPageController___c__DisplayClass74_0* CS___8__locals1; // 0x20
+		::System::String* type; // 0x28
 
 		::System::Void _ctor()
 		{

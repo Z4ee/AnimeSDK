@@ -3,11 +3,11 @@
 #include "unitysdk/NPCCrowd/Accessories/FTransformConfig.h"
 #include "unitysdk/System/Object.h"
 
-#define NPCCROWD_ACCESSORIES_NPCACCESSORYATTACHINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1029B780)
+#define NPCCROWD_ACCESSORIES_NPCACCESSORYATTACHINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xE55A260)
 
 namespace NPCCrowd::Accessories
 {
-	inline static constexpr unsigned int NPCAccessoryAttachInfo_TypeDefinitionIndex = 59729;
+	inline static constexpr unsigned int NPCAccessoryAttachInfo_TypeDefinitionIndex = 77470;
 
 	class NPCAccessoryAttachInfo : public ::System::Object
 	{

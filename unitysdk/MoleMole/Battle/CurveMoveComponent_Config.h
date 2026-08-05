@@ -15,13 +15,13 @@
 namespace System { class String; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_BATTLE_CURVEMOVECOMPONENT_CONFIG_ONVALUECHANGED_MOVEMODE_OFFSET UNITYSDK_OFFSET(0x12B89B60)
-#define MOLEMOLE_BATTLE_CURVEMOVECOMPONENT_CONFIG_READFROMOTHERCONFIG_OFFSET UNITYSDK_OFFSET(0x12B89BA0)
-#define MOLEMOLE_BATTLE_CURVEMOVECOMPONENT_CONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x12B89C50)
+#define MOLEMOLE_BATTLE_CURVEMOVECOMPONENT_CONFIG_ONVALUECHANGED_MOVEMODE_OFFSET UNITYSDK_OFFSET(0x14344320)
+#define MOLEMOLE_BATTLE_CURVEMOVECOMPONENT_CONFIG_READFROMOTHERCONFIG_OFFSET UNITYSDK_OFFSET(0x14344360)
+#define MOLEMOLE_BATTLE_CURVEMOVECOMPONENT_CONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x14344430)
 
 namespace MoleMole::Battle
 {
-	inline static constexpr unsigned int CurveMoveComponent_Config_TypeDefinitionIndex = 53500;
+	inline static constexpr unsigned int CurveMoveComponent_Config_TypeDefinitionIndex = 65744;
 
 	class CurveMoveComponent_Config : public ::System::Object
 	{
@@ -47,14 +47,15 @@ namespace MoleMole::Battle
 		::UnityEngine::AnimationCurve* curve; // 0x58
 		::System::Single time; // 0x60
 		::UnityEngine::Vector3 positionOffset; // 0x64
-		::System::String* startMoveSoundEvent; // 0x70
-		::System::String* stopMoveSoundEvent; // 0x78
-		::System::Boolean setMoveBackSound; // 0x80
-		::System::String* startMoveBackSoundEvent; // 0x88
-		::System::String* stopMoveBackSoundEvent; // 0x90
-		::System::Boolean muteSound; // 0x98
-		::System::Boolean ManageRotate; // 0x99
-		::MoleMole::Battle::CurveMoveComponent_Config_MoveType moveType; // 0x9C
+		::System::String* CustomPivotPoint; // 0x70
+		::System::String* startMoveSoundEvent; // 0x78
+		::System::String* stopMoveSoundEvent; // 0x80
+		::System::Boolean setMoveBackSound; // 0x88
+		::System::String* startMoveBackSoundEvent; // 0x90
+		::System::String* stopMoveBackSoundEvent; // 0x98
+		::System::Boolean muteSound; // 0xA0
+		::System::Boolean ManageRotate; // 0xA1
+		::MoleMole::Battle::CurveMoveComponent_Config_MoveType moveType; // 0xA4
 
 		::System::Void _ctor()
 		{

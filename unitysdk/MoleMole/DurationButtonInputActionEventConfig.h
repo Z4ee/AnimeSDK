@@ -5,20 +5,20 @@
 #include "unitysdk/MoleMole/DurationButtonType.h"
 #include "unitysdk/MoleMole/LogicButtonInputType.h"
 
-#define MOLEMOLE_DURATIONBUTTONINPUTACTIONEVENTCONFIG_GET_DATATYPE_OFFSET UNITYSDK_OFFSET(0x18F4F470)
-#define MOLEMOLE_DURATIONBUTTONINPUTACTIONEVENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18F4F480)
+#define MOLEMOLE_DURATIONBUTTONINPUTACTIONEVENTCONFIG_GET_DATATYPE_OFFSET UNITYSDK_OFFSET(0x16277520)
+#define MOLEMOLE_DURATIONBUTTONINPUTACTIONEVENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16277530)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int DurationButtonInputActionEventConfig_TypeDefinitionIndex = 39640;
+	inline static constexpr unsigned int DurationButtonInputActionEventConfig_TypeDefinitionIndex = 54251;
 
 	class DurationButtonInputActionEventConfig : public ::MoleMole::BaseInputActionEventConfig
 	{
 	public:
-		::System::Boolean IgnoreCursorHide; // 0x18
+		::System::Single durationThreshold; // 0x18
 		::MoleMole::DurationButtonType durationType; // 0x1C
-		::System::Single durationThreshold; // 0x20
-		::MoleMole::LogicButtonInputType logicButtonInputType; // 0x24
+		::MoleMole::LogicButtonInputType logicButtonInputType; // 0x20
+		::System::Boolean IgnoreCursorHide; // 0x24
 
 		::System::Void _ctor()
 		{

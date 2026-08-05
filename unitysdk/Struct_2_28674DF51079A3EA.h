@@ -5,16 +5,16 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Animations/AnimationStream.h"
 
-#define STRUCT_2_28674DF51079A3EA_METHOD_2_66AAEB7C48D81C4E_OFFSET UNITYSDK_OFFSET(0x80ED60)
-#define STRUCT_2_28674DF51079A3EA_METHOD_2_C74CF020AA42ED85_OFFSET UNITYSDK_OFFSET(0x618570)
-#define STRUCT_2_28674DF51079A3EA__CTOR_OFFSET UNITYSDK_OFFSET(0x80EA70)
+#define STRUCT_2_28674DF51079A3EA_METHOD_2_66AAEB7C48D81C4E_OFFSET UNITYSDK_OFFSET(0x7D75F0)
+#define STRUCT_2_28674DF51079A3EA_METHOD_2_C74CF020AA42ED85_OFFSET UNITYSDK_OFFSET(0x3CE500)
+#define STRUCT_2_28674DF51079A3EA__CTOR_OFFSET UNITYSDK_OFFSET(0x7D7300)
 
-inline static constexpr unsigned int Struct_2_28674DF51079A3EA_TypeDefinitionIndex = 68157;
+inline static constexpr unsigned int Struct_2_28674DF51079A3EA_TypeDefinitionIndex = 54292;
 
 struct alignas(8) Struct_2_28674DF51079A3EA
 {
-	::Struct_2_F0CFA50094D8FF32 Field_2_0; // 0x10
-	::Foundation::FixedArray8_1<::UnityEngine::Animations::AnimationStream> Field_2_1; // 0x60
+	::Struct_2_F0CFA50094D8FF32 Field_2_1; // 0x10
+	::Foundation::FixedArray8_1<::UnityEngine::Animations::AnimationStream> Field_2_0; // 0x60
 
 	/*
 	::System::Void _ctor(::Struct_2_F0CFA50094D8FF32 a1, ::Foundation::FixedArray7_1<::UnityEngine::Animations::AnimationStream> a2, ::UnityEngine::Animations::AnimationStream a3)

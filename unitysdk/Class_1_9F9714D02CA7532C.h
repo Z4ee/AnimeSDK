@@ -7,19 +7,19 @@ namespace System { class Action; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define CLASS_1_9F9714D02CA7532C_METHOD_1_2BD5D416BE8183AF_OFFSET UNITYSDK_OFFSET(0xEBF6F40)
-#define CLASS_1_9F9714D02CA7532C_METHOD_1_49DFA39A30A44449_OFFSET UNITYSDK_OFFSET(0xEBF6D20)
-#define CLASS_1_9F9714D02CA7532C_METHOD_1_E0990BFB432B1B69_OFFSET UNITYSDK_OFFSET(0xEBF6CD0)
-#define CLASS_1_9F9714D02CA7532C_METHOD_1_FDDC5A41F149A0CC_OFFSET UNITYSDK_OFFSET(0xEBF6BA0)
+#define CLASS_1_9F9714D02CA7532C_METHOD_1_2BD5D416BE8183AF_OFFSET UNITYSDK_OFFSET(0x16429B90)
+#define CLASS_1_9F9714D02CA7532C_METHOD_1_49DFA39A30A44449_OFFSET UNITYSDK_OFFSET(0x16429970)
+#define CLASS_1_9F9714D02CA7532C_METHOD_1_E0990BFB432B1B69_OFFSET UNITYSDK_OFFSET(0x16429920)
+#define CLASS_1_9F9714D02CA7532C_METHOD_1_FDDC5A41F149A0CC_OFFSET UNITYSDK_OFFSET(0x164297F0)
 
-inline static constexpr unsigned int Class_1_9F9714D02CA7532C_TypeDefinitionIndex = 50948;
+inline static constexpr unsigned int Class_1_9F9714D02CA7532C_TypeDefinitionIndex = 87931;
 
 class Class_1_9F9714D02CA7532C : public ::System::Object
 {
 public:
 	static ::ConfigTextureColor** StaticGet_Field_1_0()
 	{
-		return (::ConfigTextureColor**)Il2CppClass::FromTypeDefinitionIndex(Class_1_9F9714D02CA7532C_TypeDefinitionIndex)->GetStaticField(0x31AA0);
+		return (::ConfigTextureColor**)Il2CppClass::FromTypeDefinitionIndex(Class_1_9F9714D02CA7532C_TypeDefinitionIndex)->GetStaticField(0x415A0);
 	}
 
 	static ::System::Void Method_1_FDDC5A41F149A0CC(::System::Single a1, ::System::Action_1<::System::Single>* a2, ::System::Action_1<::System::String*>* a3, ::System::String* a4)

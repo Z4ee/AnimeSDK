@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int CubeLightBakeOnly_LightProxyConfig_TypeDefinitionIndex = 27209;
+	inline static constexpr unsigned int CubeLightBakeOnly_LightProxyConfig_TypeDefinitionIndex = 27649;
 
 	struct alignas(8) CubeLightBakeOnly_LightProxyConfig
 	{

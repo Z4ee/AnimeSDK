@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MHYSDKC_Info_PasteboardTextType_TypeDefinitionIndex = 36528;
+	inline static constexpr unsigned int MHYSDKC_Info_PasteboardTextType_TypeDefinitionIndex = 37187;
 
 	enum class MHYSDKC_Info_PasteboardTextType : ::System::Int32
 	{

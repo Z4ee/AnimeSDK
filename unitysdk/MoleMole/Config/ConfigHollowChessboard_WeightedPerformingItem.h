@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace System::Collections { class IEnumerable; }
 
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_WEIGHTEDPERFORMINGITEM_GETPERFORMLISTVALUEDROPDOWN_OFFSET UNITYSDK_OFFSET(0x86CE30)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_WEIGHTEDPERFORMINGITEM_GETPERFORMLISTVALUEDROPDOWN_OFFSET UNITYSDK_OFFSET(0x802740)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowChessboard_WeightedPerformingItem_TypeDefinitionIndex = 64441;
+	inline static constexpr unsigned int ConfigHollowChessboard_WeightedPerformingItem_TypeDefinitionIndex = 59224;
 
 	struct alignas(8) ConfigHollowChessboard_WeightedPerformingItem
 	{

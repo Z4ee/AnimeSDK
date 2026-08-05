@@ -5,12 +5,12 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define NODEGRAPH_MAINCITY_SHOWBUBBLE___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17FAFF90)
-#define NODEGRAPH_MAINCITY_SHOWBUBBLE___C__DISPLAYCLASS8_0__ONNODEACTIVE_B__0_OFFSET UNITYSDK_OFFSET(0x17FAFFA0)
+#define NODEGRAPH_MAINCITY_SHOWBUBBLE___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17FBCB70)
+#define NODEGRAPH_MAINCITY_SHOWBUBBLE___C__DISPLAYCLASS8_0__ONNODEACTIVE_B__0_OFFSET UNITYSDK_OFFSET(0x17FBCB80)
 
 namespace NodeGraph::MainCity
 {
-	inline static constexpr unsigned int ShowBubble___c__DisplayClass8_0_TypeDefinitionIndex = 79186;
+	inline static constexpr unsigned int ShowBubble___c__DisplayClass8_0_TypeDefinitionIndex = 43203;
 
 	class ShowBubble___c__DisplayClass8_0 : public ::System::Object
 	{

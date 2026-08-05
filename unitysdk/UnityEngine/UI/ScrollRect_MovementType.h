@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int ScrollRect_MovementType_TypeDefinitionIndex = 18938;
+	inline static constexpr unsigned int ScrollRect_MovementType_TypeDefinitionIndex = 19282;
 
 	enum class ScrollRect_MovementType : ::System::Int32
 	{

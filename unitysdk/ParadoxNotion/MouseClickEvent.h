@@ -3,11 +3,11 @@
 
 namespace ParadoxNotion
 {
-	inline static constexpr unsigned int MouseClickEvent_TypeDefinitionIndex = 29931;
+	inline static constexpr unsigned int MouseClickEvent_TypeDefinitionIndex = 31010;
 
 	enum class MouseClickEvent : ::System::Int32
 	{
-		MouseDown = 0,
 		MouseUp = 1,
+		MouseDown = 0,
 	};
 }

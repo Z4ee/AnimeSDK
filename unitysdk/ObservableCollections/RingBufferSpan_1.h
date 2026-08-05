@@ -5,7 +5,7 @@
 
 namespace ObservableCollections
 {
-	inline static constexpr unsigned int RingBufferSpan_1_TypeDefinitionIndex = 28286;
+	inline static constexpr unsigned int RingBufferSpan_1_TypeDefinitionIndex = 28655;
 
 	template <typename T>
 	struct RingBufferSpan_1

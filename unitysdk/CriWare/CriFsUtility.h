@@ -6,13 +6,13 @@ namespace CriWare { class CriFsBinder; }
 namespace CriWare { class CriFsLoadFileRequest; }
 namespace System { class String; }
 
-#define CRIWARE_CRIFSUTILITY_CRIWARECD0DC04A_OFFSET UNITYSDK_OFFSET(0x1E87C500)
-#define CRIWARE_CRIFSUTILITY_LOADFILE_OFFSET UNITYSDK_OFFSET(0x1E87C3A0)
-#define CRIWARE_CRIFSUTILITY_SETUSERAGENTSTRING_OFFSET UNITYSDK_OFFSET(0x1E87C460)
+#define CRIWARE_CRIFSUTILITY_CRIWAREFC241AA7_OFFSET UNITYSDK_OFFSET(0x1FC55860)
+#define CRIWARE_CRIFSUTILITY_LOADFILE_OFFSET UNITYSDK_OFFSET(0x1FC55700)
+#define CRIWARE_CRIFSUTILITY_SETUSERAGENTSTRING_OFFSET UNITYSDK_OFFSET(0x1FC557C0)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriFsUtility_TypeDefinitionIndex = 34321;
+	inline static constexpr unsigned int CriFsUtility_TypeDefinitionIndex = 34969;
 
 	class CriFsUtility : public ::System::Object
 	{
@@ -27,9 +27,9 @@ namespace CriWare
 			return ((::System::Void(*)(::System::String*))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSUTILITY_SETUSERAGENTSTRING_OFFSET))(userAgentString);
 		}
 
-		static ::System::Boolean CRIWARECD0DC04A(::System::String* userAgentString)
+		static ::System::Boolean CRIWAREFC241AA7(::System::String* userAgentString)
 		{
-			return ((::System::Boolean(*)(::System::String*))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSUTILITY_CRIWARECD0DC04A_OFFSET))(userAgentString);
+			return ((::System::Boolean(*)(::System::String*))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSUTILITY_CRIWAREFC241AA7_OFFSET))(userAgentString);
 		}
 	};
 }

@@ -3,11 +3,11 @@
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int Finger_DOF_TypeDefinitionIndex = 38238;
+	inline static constexpr unsigned int Finger_DOF_TypeDefinitionIndex = 38931;
 
 	enum class Finger_DOF : ::System::Int32
 	{
-		One = 0,
 		Three = 1,
+		One = 0,
 	};
 }

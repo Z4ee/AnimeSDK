@@ -4,7 +4,7 @@
 
 namespace UnityEngine::Profiling
 {
-	inline static constexpr unsigned int MemoryLabelAndSize_TypeDefinitionIndex = 5431;
+	inline static constexpr unsigned int MemoryLabelAndSize_TypeDefinitionIndex = 5434;
 
 	struct alignas(8) MemoryLabelAndSize
 	{

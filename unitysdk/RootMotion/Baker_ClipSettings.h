@@ -5,11 +5,11 @@
 #include "unitysdk/RootMotion/Baker_ClipSettings_BasedUponY.h"
 #include "unitysdk/System/Object.h"
 
-#define ROOTMOTION_BAKER_CLIPSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E445A10)
+#define ROOTMOTION_BAKER_CLIPSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1F8821D0)
 
 namespace RootMotion
 {
-	inline static constexpr unsigned int Baker_ClipSettings_TypeDefinitionIndex = 38347;
+	inline static constexpr unsigned int Baker_ClipSettings_TypeDefinitionIndex = 38998;
 
 	class Baker_ClipSettings : public ::System::Object
 	{

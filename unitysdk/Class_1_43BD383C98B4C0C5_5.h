@@ -2,16 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { class String; }
-namespace System { template <typename T1, typename T2, typename T3, typename T4> class Func_4; }
-namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
-namespace System { template <typename T1, typename T2> class Func_2; }
-namespace System::Collections::Generic { template <typename T1, typename T2> class IDictionary_2; }
-template <typename T1, typename T2> class Class_0_16E4307DCC419505_48;
+#define CLASS_1_43BD383C98B4C0C5_5__CTOR_OFFSET UNITYSDK_OFFSET(0x1F9BE260)
 
-#define CLASS_1_43BD383C98B4C0C5_5__CTOR_OFFSET UNITYSDK_OFFSET(0x1E5AEC10)
-
-inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_5_TypeDefinitionIndex = 28195;
+inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_5_TypeDefinitionIndex = 28638;
 
 class Class_1_43BD383C98B4C0C5_5 : public ::System::Object
 {

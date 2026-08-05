@@ -9,11 +9,13 @@
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int NAP_CharacterInfo_TypeDefinitionIndex = 76994;
+	inline static constexpr unsigned int NAP_CharacterInfo_TypeDefinitionIndex = 69514;
 
 	struct alignas(4) NAP_CharacterInfo
 	{
-		::System::Boolean isVisible; // 0x10
+		// static const ::System::Int32 MqiInvisible = 0xFFFFFFFF; // 0x0
+		// static const ::System::Int32 MqiDeferredSentinel = 0xFFFFFFFE; // 0x0
+		::System::Boolean isTruncated; // 0x10
 		::System::Int32 characterIndex; // 0x14
 		::System::Int32 lineNumber; // 0x18
 		::UnityEngine::UI::Extension::NAP_CharElementType elementType; // 0x1C
@@ -28,6 +30,9 @@ namespace UnityEngine::UI::Extension
 		::System::Single ascender; // 0x4C
 		::System::Single descender; // 0x50
 		::UnityEngine::UI::Extension::NAP_HighlightState highlightState; // 0x54
-		::UnityEngine::Color32 underlineColor; // 0x68
+		::UnityEngine::Color32 color; // 0x68
+		::UnityEngine::Color32 underlineColor; // 0x6C
+		::System::Int32 meshQuadIndex; // 0x70
+		::System::Boolean isDeferredIcon; // 0x74
 	};
 }

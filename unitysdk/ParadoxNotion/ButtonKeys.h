@@ -3,12 +3,12 @@
 
 namespace ParadoxNotion
 {
-	inline static constexpr unsigned int ButtonKeys_TypeDefinitionIndex = 30319;
+	inline static constexpr unsigned int ButtonKeys_TypeDefinitionIndex = 30370;
 
 	enum class ButtonKeys : ::System::Int32
 	{
-		Left = 0,
-		Right = 1,
 		Middle = 2,
+		Right = 1,
+		Left = 0,
 	};
 }

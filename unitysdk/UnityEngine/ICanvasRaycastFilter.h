@@ -6,7 +6,7 @@ namespace UnityEngine { class Camera; }
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ICanvasRaycastFilter_TypeDefinitionIndex = 18401;
+	inline static constexpr unsigned int ICanvasRaycastFilter_TypeDefinitionIndex = 18807;
 
 	class ICanvasRaycastFilter
 	{

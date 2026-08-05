@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SIRENIX_ODININSPECTOR_DONTAPPLYTOLISTELEMENTSATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E328B50)
+#define SIRENIX_ODININSPECTOR_DONTAPPLYTOLISTELEMENTSATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F76FEF0)
 
 namespace Sirenix::OdinInspector
 {
-	inline static constexpr unsigned int DontApplyToListElementsAttribute_TypeDefinitionIndex = 7287;
+	inline static constexpr unsigned int DontApplyToListElementsAttribute_TypeDefinitionIndex = 7291;
 
 	class DontApplyToListElementsAttribute : public ::System::Attribute
 	{

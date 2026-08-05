@@ -4,20 +4,20 @@
 
 namespace UnrealTypes { class ICppStructOps; }
 
-#define STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREETASKBASE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E83ABD0)
-#define STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREETASKBASE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1E83AC10)
-#define STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREETASKBASE___C___CCTOR_B__10_0_OFFSET UNITYSDK_OFFSET(0x1E83AC20)
+#define STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREETASKBASE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FC1A740)
+#define STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREETASKBASE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1FC1A780)
+#define STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREETASKBASE___C___CCTOR_B__10_0_OFFSET UNITYSDK_OFFSET(0x1FC1A790)
 
 namespace StateTreeCore
 {
-	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_StateTreeTaskBase___c_TypeDefinitionIndex = 31059;
+	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_StateTreeTaskBase___c_TypeDefinitionIndex = 31678;
 
 	class RegistrationInfo_ScriptStruct_StateTreeTaskBase___c : public ::System::Object
 	{
 	public:
 		static ::StateTreeCore::RegistrationInfo_ScriptStruct_StateTreeTaskBase___c** StaticGet___9()
 		{
-			return (::StateTreeCore::RegistrationInfo_ScriptStruct_StateTreeTaskBase___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_StateTreeTaskBase___c_TypeDefinitionIndex)->GetStaticField(0x24C60);
+			return (::StateTreeCore::RegistrationInfo_ScriptStruct_StateTreeTaskBase___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_StateTreeTaskBase___c_TypeDefinitionIndex)->GetStaticField(0x263E0);
 		}
 
 		static ::System::Void _cctor()

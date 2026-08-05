@@ -6,11 +6,11 @@
 
 namespace System { class String; }
 
-inline static constexpr unsigned int Struct_2_9734D231522FC33B_TypeDefinitionIndex = 75339;
+inline static constexpr unsigned int Struct_2_9734D231522FC33B_TypeDefinitionIndex = 41189;
 
 struct alignas(8) Struct_2_9734D231522FC33B
 {
 	::MoleMole::BubbleType Field_2_0; // 0x10
-	::MoleMole::ScoreUIAnimationType Field_2_1; // 0x14
-	::System::String* Field_2_2; // 0x18
+	::MoleMole::ScoreUIAnimationType Field_2_7; // 0x14
+	::System::String* Field_2_6; // 0x18
 };

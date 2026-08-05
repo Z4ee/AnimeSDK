@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define MONOUIDAILYQUESTPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xD571CB0)
+#define MONOUIDAILYQUESTPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x10B018F0)
 
-inline static constexpr unsigned int MonoUIDailyQuestParam_TypeDefinitionIndex = 46935;
+inline static constexpr unsigned int MonoUIDailyQuestParam_TypeDefinitionIndex = 55835;
 
 class MonoUIDailyQuestParam : public ::UnityEngine::MonoBehaviour
 {

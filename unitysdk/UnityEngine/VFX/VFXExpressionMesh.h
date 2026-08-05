@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define UNITYENGINE_VFX_VFXEXPRESSIONMESH__CTOR_OFFSET UNITYSDK_OFFSET(0x1E887930)
+#define UNITYENGINE_VFX_VFXEXPRESSIONMESH__CTOR_OFFSET UNITYSDK_OFFSET(0x1FC67150)
 
 namespace UnityEngine::VFX
 {
-	inline static constexpr unsigned int VFXExpressionMesh_TypeDefinitionIndex = 89810;
+	inline static constexpr unsigned int VFXExpressionMesh_TypeDefinitionIndex = 93741;
 
 	class VFXExpressionMesh : public ::System::Object
 	{

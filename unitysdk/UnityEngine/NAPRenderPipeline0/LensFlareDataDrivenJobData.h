@@ -6,7 +6,7 @@ namespace UnityEngine::NAPRenderPipeline0 { class PerCameraLensFlareData; }
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int LensFlareDataDrivenJobData_TypeDefinitionIndex = 18484;
+	inline static constexpr unsigned int LensFlareDataDrivenJobData_TypeDefinitionIndex = 18893;
 
 	struct alignas(8) LensFlareDataDrivenJobData
 	{

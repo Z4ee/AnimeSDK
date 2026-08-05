@@ -3,20 +3,20 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigChessboardCameraMoveNode_ChessboardCameraMoveType_TypeDefinitionIndex = 59762;
+	inline static constexpr unsigned int ConfigChessboardCameraMoveNode_ChessboardCameraMoveType_TypeDefinitionIndex = 58670;
 
 	enum class ConfigChessboardCameraMoveNode_ChessboardCameraMoveType : ::System::Int32
 	{
-		WorkLast = 2,
-		WorkFirst = 1,
+		MoveToStart = 0,
+		RelativePosition = 8,
+		MoveToPlayer = 7,
 		DesignatedSpot = 3,
 		StretchBackWards = 9,
-		MoveToPlayer = 7,
-		PredefinedAnim = 5,
-		StretchToPresetBound = 10,
-		RelativePosition = 8,
-		MoveToStart = 0,
 		Stretch = 4,
+		PredefinedAnim = 5,
 		MoveToCenter = 6,
+		WorkFirst = 1,
+		WorkLast = 2,
+		StretchToPresetBound = 10,
 	};
 }

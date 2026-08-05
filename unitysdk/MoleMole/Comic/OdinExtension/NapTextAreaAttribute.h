@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/PropertyAttribute.h"
 
-#define MOLEMOLE_COMIC_ODINEXTENSION_NAPTEXTAREAATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E4B43B0)
-#define MOLEMOLE_COMIC_ODINEXTENSION_NAPTEXTAREAATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E4B43A0)
+#define MOLEMOLE_COMIC_ODINEXTENSION_NAPTEXTAREAATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F8B17B0)
+#define MOLEMOLE_COMIC_ODINEXTENSION_NAPTEXTAREAATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F8B17A0)
 
 namespace MoleMole::Comic::OdinExtension
 {
-	inline static constexpr unsigned int NapTextAreaAttribute_TypeDefinitionIndex = 32149;
+	inline static constexpr unsigned int NapTextAreaAttribute_TypeDefinitionIndex = 32779;
 
 	class NapTextAreaAttribute : public ::UnityEngine::PropertyAttribute
 	{
 	public:
-		::System::Int32 minLines; // 0x10
-		::System::Int32 maxLines; // 0x14
+		::System::Int32 maxLines; // 0x10
+		::System::Int32 minLines; // 0x14
 
 		::System::Void _ctor()
 		{

@@ -6,7 +6,7 @@ namespace System { class Object; }
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int CastTo_1_TypeDefinitionIndex = 30761;
+	inline static constexpr unsigned int CastTo_1_TypeDefinitionIndex = 30364;
 
 	template <typename T>
 	class CastTo_1 : public ::FlowCanvas::Nodes::PureFunctionNode_2<T, ::System::Object*>

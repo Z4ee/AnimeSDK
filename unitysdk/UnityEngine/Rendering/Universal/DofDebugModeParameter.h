@@ -3,11 +3,11 @@
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/EnumVolumeParameter_1.h"
 #include "unitysdk/UnityEngine/Rendering/Universal/DofDebugMode.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_DOFDEBUGMODEPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C439AD0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_DOFDEBUGMODEPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5F1B80)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int DofDebugModeParameter_TypeDefinitionIndex = 27268;
+	inline static constexpr unsigned int DofDebugModeParameter_TypeDefinitionIndex = 27781;
 
 	class DofDebugModeParameter : public ::UnityEngine::NAPRenderPipeline0::EnumVolumeParameter_1<::UnityEngine::Rendering::Universal::DofDebugMode>
 	{

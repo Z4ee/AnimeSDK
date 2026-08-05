@@ -7,8 +7,8 @@
 namespace System { class String; }
 namespace System::Reflection { class RuntimeMethodInfo; }
 
-#define SYSTEM_RUNTIME_INTEROPSERVICES_DLLIMPORTATTRIBUTE_GETCUSTOMATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1CD90CA0)
-#define SYSTEM_RUNTIME_INTEROPSERVICES_DLLIMPORTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD90D90)
+#define SYSTEM_RUNTIME_INTEROPSERVICES_DLLIMPORTATTRIBUTE_GETCUSTOMATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1E123730)
+#define SYSTEM_RUNTIME_INTEROPSERVICES_DLLIMPORTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E123820)
 
 namespace System::Runtime::InteropServices
 {
@@ -19,13 +19,13 @@ namespace System::Runtime::InteropServices
 	public:
 		::System::String* _val; // 0x10
 		::System::String* EntryPoint; // 0x18
-		::System::Boolean BestFitMapping; // 0x20
+		::System::Boolean PreserveSig; // 0x20
 		::System::Boolean ExactSpelling; // 0x21
-		::System::Boolean ThrowOnUnmappableChar; // 0x22
+		::System::Boolean BestFitMapping; // 0x22
+		::System::Boolean ThrowOnUnmappableChar; // 0x23
 		::System::Runtime::InteropServices::CallingConvention CallingConvention; // 0x24
-		::System::Boolean SetLastError; // 0x28
-		::System::Boolean PreserveSig; // 0x29
-		::System::Runtime::InteropServices::CharSet CharSet; // 0x2C
+		::System::Runtime::InteropServices::CharSet CharSet; // 0x28
+		::System::Boolean SetLastError; // 0x2C
 
 		::System::Void _ctor(::System::String* dllName, ::System::String* entryPoint, ::System::Runtime::InteropServices::CharSet charSet, ::System::Boolean exactSpelling, ::System::Boolean setLastError, ::System::Boolean preserveSig, ::System::Runtime::InteropServices::CallingConvention callingConvention, ::System::Boolean bestFitMapping, ::System::Boolean throwOnUnmappableChar)
 		{

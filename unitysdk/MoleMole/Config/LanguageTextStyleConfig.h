@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int LanguageTextStyleConfig_TypeDefinitionIndex = 53584;
+	inline static constexpr unsigned int LanguageTextStyleConfig_TypeDefinitionIndex = 76385;
 
 	struct alignas(8) LanguageTextStyleConfig
 	{

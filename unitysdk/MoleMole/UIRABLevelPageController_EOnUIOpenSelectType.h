@@ -3,13 +3,13 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRABLevelPageController_EOnUIOpenSelectType_TypeDefinitionIndex = 78504;
+	inline static constexpr unsigned int UIRABLevelPageController_EOnUIOpenSelectType_TypeDefinitionIndex = 82374;
 
 	enum class UIRABLevelPageController_EOnUIOpenSelectType : ::System::Int32
 	{
+		UnlockedHighestLevel = 1,
 		SelectTowerFloorAndFallbackToHighestUnlockLevel = 3,
 		SelectTowerFloor = 2,
 		NoSelect = 0,
-		UnlockedHighestLevel = 1,
 	};
 }

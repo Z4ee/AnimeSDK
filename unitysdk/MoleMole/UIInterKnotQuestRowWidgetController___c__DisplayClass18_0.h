@@ -6,19 +6,19 @@ namespace MoleMole { class UIInterKnotQuestRowWidgetController; }
 namespace System { class Action; }
 namespace System { class String; }
 
-#define MOLEMOLE_UIINTERKNOTQUESTROWWIDGETCONTROLLER___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15EE5E40)
-#define MOLEMOLE_UIINTERKNOTQUESTROWWIDGETCONTROLLER___C__DISPLAYCLASS18_0__PLAYANIM_B__0_OFFSET UNITYSDK_OFFSET(0x15EE6170)
+#define MOLEMOLE_UIINTERKNOTQUESTROWWIDGETCONTROLLER___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18FF7BF0)
+#define MOLEMOLE_UIINTERKNOTQUESTROWWIDGETCONTROLLER___C__DISPLAYCLASS18_0__PLAYANIM_B__0_OFFSET UNITYSDK_OFFSET(0x18FF7F20)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInterKnotQuestRowWidgetController___c__DisplayClass18_0_TypeDefinitionIndex = 67144;
+	inline static constexpr unsigned int UIInterKnotQuestRowWidgetController___c__DisplayClass18_0_TypeDefinitionIndex = 58665;
 
 	class UIInterKnotQuestRowWidgetController___c__DisplayClass18_0 : public ::System::Object
 	{
 	public:
-		::System::Action* onAnimEnd; // 0x10
-		::System::String* animName; // 0x18
-		::MoleMole::UIInterKnotQuestRowWidgetController* __4__this; // 0x20
+		::MoleMole::UIInterKnotQuestRowWidgetController* __4__this; // 0x10
+		::System::Action* onAnimEnd; // 0x18
+		::System::String* animName; // 0x20
 		::System::Single seceonds; // 0x28
 
 		::System::Void _ctor()

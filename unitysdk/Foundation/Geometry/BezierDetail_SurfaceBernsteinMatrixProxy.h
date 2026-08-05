@@ -3,12 +3,12 @@
 #include "unitysdk/System/ReadOnlySpan_1.h"
 #include "unitysdk/System/ValueType.h"
 
-#define FOUNDATION_GEOMETRY_BEZIERDETAIL_SURFACEBERNSTEINMATRIXPROXY_GET_OFFSET UNITYSDK_OFFSET(0xA6D6C0)
-#define FOUNDATION_GEOMETRY_BEZIERDETAIL_SURFACEBERNSTEINMATRIXPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x416FB0)
+#define FOUNDATION_GEOMETRY_BEZIERDETAIL_SURFACEBERNSTEINMATRIXPROXY_GET_OFFSET UNITYSDK_OFFSET(0xABDFF0)
+#define FOUNDATION_GEOMETRY_BEZIERDETAIL_SURFACEBERNSTEINMATRIXPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x44DAC0)
 
 namespace Foundation::Geometry
 {
-	inline static constexpr unsigned int BezierDetail_SurfaceBernsteinMatrixProxy_TypeDefinitionIndex = 8724;
+	inline static constexpr unsigned int BezierDetail_SurfaceBernsteinMatrixProxy_TypeDefinitionIndex = 8574;
 
 	struct alignas(8) BezierDetail_SurfaceBernsteinMatrixProxy
 	{

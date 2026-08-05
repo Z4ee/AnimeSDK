@@ -4,18 +4,18 @@
 
 namespace System { class Type; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_SRPUSERCLASSREGISTRATION__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DA2D9B0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SRPUSERCLASSREGISTRATION__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EDE59E0)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int SRPUserClassRegistration_TypeDefinitionIndex = 6039;
+	inline static constexpr unsigned int SRPUserClassRegistration_TypeDefinitionIndex = 6041;
 
 	class SRPUserClassRegistration : public ::System::Object
 	{
 	public:
 		static ::System::Type** StaticGet_VolumeProfileClass()
 		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(SRPUserClassRegistration_TypeDefinitionIndex)->GetStaticField(0x5500);
+			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(SRPUserClassRegistration_TypeDefinitionIndex)->GetStaticField(0x5510);
 		}
 
 		static ::System::Void _cctor()

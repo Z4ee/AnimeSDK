@@ -4,7 +4,7 @@
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int NAP_LineInfo_TypeDefinitionIndex = 65134;
+	inline static constexpr unsigned int NAP_LineInfo_TypeDefinitionIndex = 70648;
 
 	struct alignas(4) NAP_LineInfo
 	{

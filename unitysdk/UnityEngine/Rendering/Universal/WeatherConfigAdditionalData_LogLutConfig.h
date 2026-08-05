@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class Texture; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERCONFIGADDITIONALDATA_LOGLUTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC39B00)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERCONFIGADDITIONALDATA_LOGLUTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C9B5530)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int WeatherConfigAdditionalData_LogLutConfig_TypeDefinitionIndex = 26829;
+	inline static constexpr unsigned int WeatherConfigAdditionalData_LogLutConfig_TypeDefinitionIndex = 27788;
 
 	class WeatherConfigAdditionalData_LogLutConfig : public ::System::Object
 	{

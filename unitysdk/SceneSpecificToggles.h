@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define SCENESPECIFICTOGGLES_INITSCENEPARAMS_OFFSET UNITYSDK_OFFSET(0x1B071D60)
-#define SCENESPECIFICTOGGLES_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1B072160)
-#define SCENESPECIFICTOGGLES_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1B0720D0)
-#define SCENESPECIFICTOGGLES_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1B071D10)
-#define SCENESPECIFICTOGGLES__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B072240)
-#define SCENESPECIFICTOGGLES__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0721F0)
+#define SCENESPECIFICTOGGLES_INITSCENEPARAMS_OFFSET UNITYSDK_OFFSET(0x1C4D1E80)
+#define SCENESPECIFICTOGGLES_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1C4D2280)
+#define SCENESPECIFICTOGGLES_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1C4D21F0)
+#define SCENESPECIFICTOGGLES_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1C4D1E30)
+#define SCENESPECIFICTOGGLES__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C4D2360)
+#define SCENESPECIFICTOGGLES__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4D2310)
 
-inline static constexpr unsigned int SceneSpecificToggles_TypeDefinitionIndex = 27035;
+inline static constexpr unsigned int SceneSpecificToggles_TypeDefinitionIndex = 27170;
 
 class SceneSpecificToggles : public ::UnityEngine::MonoBehaviour
 {
 public:
 	static ::System::Boolean* StaticGet_hizCulling()
 	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SceneSpecificToggles_TypeDefinitionIndex)->GetStaticField(0x6340);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SceneSpecificToggles_TypeDefinitionIndex)->GetStaticField(0x6300);
 	}
 	::System::Boolean m_disableHizCulling; // 0x18
 	::System::Boolean originalHizCulling; // 0x19

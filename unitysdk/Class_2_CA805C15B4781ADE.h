@@ -1,0 +1,93 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_2DD57B8CAD4CF82D.h"
+#include "unitysdk/Enum_3_C64432A6918BE61F.h"
+
+class Class_0_16E4307DCC419505_207;
+class Class_2_CA805C15B4781ADE_Class_2_E89DC7541B30248D_5;
+namespace MoleMole { class UIWindowController; }
+namespace MoleMole { class UIZenkovRouletteMobileWidgetController; }
+namespace MoleMole { class UIZenkovSlotItemPanelChildWindowController; }
+
+#define CLASS_2_CA805C15B4781ADE_METHOD_2_1DE6433C25680F9D_OFFSET UNITYSDK_OFFSET(0x187074F0)
+#define CLASS_2_CA805C15B4781ADE_METHOD_2_3521A06FEC2D7EF4_OFFSET UNITYSDK_OFFSET(0x187077A0)
+#define CLASS_2_CA805C15B4781ADE_METHOD_2_386C96DD77F24A43_OFFSET UNITYSDK_OFFSET(0x18707790)
+#define CLASS_2_CA805C15B4781ADE_METHOD_2_57F015DFC718ABA3_OFFSET UNITYSDK_OFFSET(0x18706F80)
+#define CLASS_2_CA805C15B4781ADE_METHOD_2_9F8F6511E8EF1235_OFFSET UNITYSDK_OFFSET(0x18706FD0)
+#define CLASS_2_CA805C15B4781ADE_METHOD_2_A438969231A3400D_OFFSET UNITYSDK_OFFSET(0x18707780)
+#define CLASS_2_CA805C15B4781ADE_METHOD_2_A96DCA30C6927810_OFFSET UNITYSDK_OFFSET(0x18706EB0)
+#define CLASS_2_CA805C15B4781ADE_METHOD_2_B74D3688C9F7FE4B_OFFSET UNITYSDK_OFFSET(0x18706EC0)
+#define CLASS_2_CA805C15B4781ADE_METHOD_2_BCFF9FB5232E34A6_OFFSET UNITYSDK_OFFSET(0x18707840)
+#define CLASS_2_CA805C15B4781ADE_METHOD_2_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0x18707850)
+#define CLASS_2_CA805C15B4781ADE_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x187077B0)
+#define CLASS_2_CA805C15B4781ADE__CTOR_OFFSET UNITYSDK_OFFSET(0x18707770)
+
+inline static constexpr unsigned int Class_2_CA805C15B4781ADE_TypeDefinitionIndex = 81899;
+
+class Class_2_CA805C15B4781ADE : public ::Class_1_2DD57B8CAD4CF82D
+{
+public:
+	::MoleMole::UIZenkovSlotItemPanelChildWindowController* Field_2_6; // 0x28
+	::MoleMole::UIZenkovRouletteMobileWidgetController* Field_2_7; // 0x30
+	::Class_2_CA805C15B4781ADE_Class_2_E89DC7541B30248D_5* Field_2_0; // 0x38
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_CA805C15B4781ADE__CTOR_OFFSET))(this);
+	}
+
+	::Enum_3_C64432A6918BE61F Method_2_A96DCA30C6927810()
+	{
+		return ((::Enum_3_C64432A6918BE61F(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_CA805C15B4781ADE_METHOD_2_A96DCA30C6927810_OFFSET))(this);
+	}
+
+	::System::Void Method_2_B74D3688C9F7FE4B(::Class_0_16E4307DCC419505_207* a1, ::MoleMole::UIWindowController* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_207*, ::MoleMole::UIWindowController*))((::PBYTE)hIl2Cpp + CLASS_2_CA805C15B4781ADE_METHOD_2_B74D3688C9F7FE4B_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_2_57F015DFC718ABA3()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_CA805C15B4781ADE_METHOD_2_57F015DFC718ABA3_OFFSET))(this);
+	}
+
+	::System::Void Method_2_1DE6433C25680F9D()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_CA805C15B4781ADE_METHOD_2_1DE6433C25680F9D_OFFSET))(this);
+	}
+
+	::System::Void Method_2_A438969231A3400D(::MoleMole::UIZenkovRouletteMobileWidgetController* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::MoleMole::UIZenkovRouletteMobileWidgetController*))((::PBYTE)hIl2Cpp + CLASS_2_CA805C15B4781ADE_METHOD_2_A438969231A3400D_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_386C96DD77F24A43(::MoleMole::UIZenkovSlotItemPanelChildWindowController* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::MoleMole::UIZenkovSlotItemPanelChildWindowController*))((::PBYTE)hIl2Cpp + CLASS_2_CA805C15B4781ADE_METHOD_2_386C96DD77F24A43_OFFSET))(this, a1);
+	}
+
+	::MoleMole::UIZenkovSlotItemPanelChildWindowController* Method_2_3521A06FEC2D7EF4()
+	{
+		return ((::MoleMole::UIZenkovSlotItemPanelChildWindowController*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_CA805C15B4781ADE_METHOD_2_3521A06FEC2D7EF4_OFFSET))(this);
+	}
+
+	::System::Void Method_2_CA373AA1C7054598()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_CA805C15B4781ADE_METHOD_2_CA373AA1C7054598_OFFSET))(this);
+	}
+
+	::System::Void Method_2_9F8F6511E8EF1235()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_CA805C15B4781ADE_METHOD_2_9F8F6511E8EF1235_OFFSET))(this);
+	}
+
+	::MoleMole::UIZenkovRouletteMobileWidgetController* Method_2_BCFF9FB5232E34A6()
+	{
+		return ((::MoleMole::UIZenkovRouletteMobileWidgetController*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_CA805C15B4781ADE_METHOD_2_BCFF9FB5232E34A6_OFFSET))(this);
+	}
+
+	::System::Void Method_2_CA373AA1C7054598_1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_CA805C15B4781ADE_METHOD_2_CA373AA1C7054598_1_OFFSET))(this);
+	}
+};

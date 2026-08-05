@@ -6,12 +6,12 @@ namespace MoleMole::Battle { class Entity; }
 namespace MoleMole::FlowCanvas::Nodes { class EntitySaveDataMap; }
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSAVEENTITYTODATAMAPNODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x10D40E60)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSAVEENTITYTODATAMAPNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x10D41240)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSAVEENTITYTODATAMAPNODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1684A4D0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSAVEENTITYTODATAMAPNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1684A8C0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDSaveEntityToDataMapNode_TypeDefinitionIndex = 55798;
+	inline static constexpr unsigned int LDSaveEntityToDataMapNode_TypeDefinitionIndex = 44106;
 
 	class LDSaveEntityToDataMapNode : public ::FlowCanvas::Nodes::CallableFunctionNode_4<::System::Boolean, ::MoleMole::Battle::Entity*, ::System::String*, ::MoleMole::FlowCanvas::Nodes::EntitySaveDataMap*>
 	{

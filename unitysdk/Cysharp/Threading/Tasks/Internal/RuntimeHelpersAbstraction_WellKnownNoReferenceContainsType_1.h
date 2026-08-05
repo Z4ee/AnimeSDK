@@ -4,7 +4,7 @@
 
 namespace Cysharp::Threading::Tasks::Internal
 {
-	inline static constexpr unsigned int RuntimeHelpersAbstraction_WellKnownNoReferenceContainsType_1_TypeDefinitionIndex = 31479;
+	inline static constexpr unsigned int RuntimeHelpersAbstraction_WellKnownNoReferenceContainsType_1_TypeDefinitionIndex = 32099;
 
 	template <typename T>
 	class RuntimeHelpersAbstraction_WellKnownNoReferenceContainsType_1 : public ::System::Object

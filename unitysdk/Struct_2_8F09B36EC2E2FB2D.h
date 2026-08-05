@@ -6,32 +6,27 @@
 
 namespace MoleMole::Config { class CharacterAimControlConfig; }
 
-#define STRUCT_2_8F09B36EC2E2FB2D_METHOD_2_46D5C4F0EA172C6A_OFFSET UNITYSDK_OFFSET(0x80F6C0)
-#define STRUCT_2_8F09B36EC2E2FB2D_METHOD_2_71E25A039EF7FB83_OFFSET UNITYSDK_OFFSET(0x15E1A820)
-#define STRUCT_2_8F09B36EC2E2FB2D_METHOD_2_8DBF80D8758E68B9_OFFSET UNITYSDK_OFFSET(0x80F720)
+#define STRUCT_2_8F09B36EC2E2FB2D_METHOD_2_46D5C4F0EA172C6A_OFFSET UNITYSDK_OFFSET(0x70D000)
+#define STRUCT_2_8F09B36EC2E2FB2D_METHOD_2_71E25A039EF7FB83_OFFSET UNITYSDK_OFFSET(0x10F5C870)
+#define STRUCT_2_8F09B36EC2E2FB2D_METHOD_2_8DBF80D8758E68B9_OFFSET UNITYSDK_OFFSET(0x70CFF0)
 
-inline static constexpr unsigned int Struct_2_8F09B36EC2E2FB2D_TypeDefinitionIndex = 67451;
+inline static constexpr unsigned int Struct_2_8F09B36EC2E2FB2D_TypeDefinitionIndex = 85876;
 
 struct alignas(4) Struct_2_8F09B36EC2E2FB2D
 {
-	::Enum_3_A019F766F8C74696 Field_2_0; // 0x10
-	::UnityEngine::Vector2 Field_2_1; // 0x14
-	::UnityEngine::Vector2 Field_2_2; // 0x1C
-	::UnityEngine::Vector2 Field_2_3; // 0x24
-	::System::Boolean Field_2_4; // 0x2C
-	::System::Single Field_2_5; // 0x30
-	::System::Single Field_2_6; // 0x34
-	::System::Boolean Field_2_7; // 0x38
-	::UnityEngine::Vector2 Field_2_8; // 0x3C
+	::Enum_3_A019F766F8C74696 Field_2_1; // 0x10
+	::UnityEngine::Vector2 Field_2_0; // 0x14
+	::UnityEngine::Vector2 Field_2_7; // 0x1C
+	::UnityEngine::Vector2 Field_2_6; // 0x24
+	::System::Boolean Field_2_5; // 0x2C
+	::System::Single Field_2_4; // 0x30
+	::System::Single Field_2_11; // 0x34
+	::System::Boolean Field_2_10; // 0x38
+	::UnityEngine::Vector2 Field_2_9; // 0x3C
 
 	static ::Struct_2_8F09B36EC2E2FB2D Method_2_71E25A039EF7FB83()
 	{
 		return ((::Struct_2_8F09B36EC2E2FB2D(*)())((::PBYTE)hIl2Cpp + STRUCT_2_8F09B36EC2E2FB2D_METHOD_2_71E25A039EF7FB83_OFFSET))();
-	}
-
-	::System::Void Method_2_46D5C4F0EA172C6A(::UnityEngine::Vector2 a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + STRUCT_2_8F09B36EC2E2FB2D_METHOD_2_46D5C4F0EA172C6A_OFFSET))(this, a1);
 	}
 
 	/*
@@ -40,4 +35,9 @@ struct alignas(4) Struct_2_8F09B36EC2E2FB2D
 		return ((::System::ValueTuple_2<::System::Single, ::System::Single>(*)(::PVOID, ::MoleMole::Config::CharacterAimControlConfig*, ::System::Single))((::PBYTE)hIl2Cpp + STRUCT_2_8F09B36EC2E2FB2D_METHOD_2_8DBF80D8758E68B9_OFFSET))(this, a1, a2);
 	}
 	*/
+
+	::System::Void Method_2_46D5C4F0EA172C6A(::UnityEngine::Vector2 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + STRUCT_2_8F09B36EC2E2FB2D_METHOD_2_46D5C4F0EA172C6A_OFFSET))(this, a1);
+	}
 };

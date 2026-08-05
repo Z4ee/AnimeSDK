@@ -7,12 +7,12 @@ namespace MoleMole { class UIGalgamePageController_ImgExchangeTypeParams; }
 namespace MoleMole::GalGame { class GalGameDynamicPictureDisplayAction; }
 namespace MoleMole::GalGame { class GalGamePictureDisplayAction; }
 
-#define MOLEMOLE_UIGALGAMEPAGECONTROLLER_IMGEXCHANGECONFIG_FROMDYNAMICPICTUREACTION_OFFSET UNITYSDK_OFFSET(0x184520F0)
-#define MOLEMOLE_UIGALGAMEPAGECONTROLLER_IMGEXCHANGECONFIG_FROMPICTUREACTION_OFFSET UNITYSDK_OFFSET(0x18452060)
+#define MOLEMOLE_UIGALGAMEPAGECONTROLLER_IMGEXCHANGECONFIG_FROMDYNAMICPICTUREACTION_OFFSET UNITYSDK_OFFSET(0x184017E0)
+#define MOLEMOLE_UIGALGAMEPAGECONTROLLER_IMGEXCHANGECONFIG_FROMPICTUREACTION_OFFSET UNITYSDK_OFFSET(0x18401750)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGalgamePageController_ImgExchangeConfig_TypeDefinitionIndex = 54886;
+	inline static constexpr unsigned int UIGalgamePageController_ImgExchangeConfig_TypeDefinitionIndex = 62809;
 
 	struct alignas(8) UIGalgamePageController_ImgExchangeConfig
 	{

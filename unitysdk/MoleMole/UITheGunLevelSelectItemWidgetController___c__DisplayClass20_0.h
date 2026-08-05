@@ -5,18 +5,18 @@
 namespace MoleMole { class UITheGunLevelSelectItemWidgetController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UITHEGUNLEVELSELECTITEMWIDGETCONTROLLER___C__DISPLAYCLASS20_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16196110)
-#define MOLEMOLE_UITHEGUNLEVELSELECTITEMWIDGETCONTROLLER___C__DISPLAYCLASS20_0__PLAYUNLOCKANIM_B__0_OFFSET UNITYSDK_OFFSET(0x16196120)
+#define MOLEMOLE_UITHEGUNLEVELSELECTITEMWIDGETCONTROLLER___C__DISPLAYCLASS20_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15EB8BB0)
+#define MOLEMOLE_UITHEGUNLEVELSELECTITEMWIDGETCONTROLLER___C__DISPLAYCLASS20_0__PLAYUNLOCKANIM_B__0_OFFSET UNITYSDK_OFFSET(0x15EB8BC0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UITheGunLevelSelectItemWidgetController___c__DisplayClass20_0_TypeDefinitionIndex = 42726;
+	inline static constexpr unsigned int UITheGunLevelSelectItemWidgetController___c__DisplayClass20_0_TypeDefinitionIndex = 79518;
 
 	class UITheGunLevelSelectItemWidgetController___c__DisplayClass20_0 : public ::System::Object
 	{
 	public:
-		::System::Action* onUnlockAnimEnd; // 0x10
-		::MoleMole::UITheGunLevelSelectItemWidgetController* __4__this; // 0x18
+		::MoleMole::UITheGunLevelSelectItemWidgetController* __4__this; // 0x10
+		::System::Action* onUnlockAnimEnd; // 0x18
 
 		::System::Void _ctor()
 		{

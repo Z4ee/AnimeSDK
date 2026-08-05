@@ -5,7 +5,7 @@
 
 namespace System::Numerics
 {
-	inline static constexpr unsigned int Vector_1_VectorSizeHelper_TypeDefinitionIndex = 6532;
+	inline static constexpr unsigned int Vector_1_VectorSizeHelper_TypeDefinitionIndex = 6536;
 
 	template <typename T>
 	struct Vector_1_VectorSizeHelper

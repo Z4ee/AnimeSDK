@@ -6,17 +6,17 @@ namespace MoleMole::Config { class ConfigChromaticAberrations; }
 namespace System { class Action; }
 namespace System { template <typename T> class Action_1; }
 
-#define CLASS_1_5C5D1BCD30A891BA_CLASS_1_BC70C269774508D4_METHOD_1_4C4CDCD5B6B9E098_OFFSET UNITYSDK_OFFSET(0x113D7430)
-#define CLASS_1_5C5D1BCD30A891BA_CLASS_1_BC70C269774508D4__CTOR_OFFSET UNITYSDK_OFFSET(0x113D7420)
+#define CLASS_1_5C5D1BCD30A891BA_CLASS_1_BC70C269774508D4_METHOD_1_4C4CDCD5B6B9E098_OFFSET UNITYSDK_OFFSET(0x15478F90)
+#define CLASS_1_5C5D1BCD30A891BA_CLASS_1_BC70C269774508D4__CTOR_OFFSET UNITYSDK_OFFSET(0x15478F80)
 
-inline static constexpr unsigned int Class_1_5C5D1BCD30A891BA_Class_1_BC70C269774508D4_TypeDefinitionIndex = 77459;
+inline static constexpr unsigned int Class_1_5C5D1BCD30A891BA_Class_1_BC70C269774508D4_TypeDefinitionIndex = 67650;
 
 class Class_1_5C5D1BCD30A891BA_Class_1_BC70C269774508D4 : public ::System::Object
 {
 public:
-	::System::Action* Field_1_1; // 0x10
-	::System::Action_1<::MoleMole::Config::ConfigChromaticAberrations*>* Field_1_2; // 0x18
-	::System::Int32 Field_1_0; // 0x20
+	::System::Action_1<::MoleMole::Config::ConfigChromaticAberrations*>* Field_1_0; // 0x10
+	::System::Action* Field_1_1; // 0x18
+	::System::Int32 Field_1_2; // 0x20
 
 	::System::Void _ctor()
 	{

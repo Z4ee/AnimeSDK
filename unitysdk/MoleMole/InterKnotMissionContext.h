@@ -6,11 +6,11 @@
 class Class_1_D15EABFC012D3014;
 namespace MoleMole { class UIInterKnotPageConfig; }
 
-#define MOLEMOLE_INTERKNOTMISSIONCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x182F42C0)
+#define MOLEMOLE_INTERKNOTMISSIONCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x19B2BC90)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int InterKnotMissionContext_TypeDefinitionIndex = 87598;
+	inline static constexpr unsigned int InterKnotMissionContext_TypeDefinitionIndex = 86177;
 
 	class InterKnotMissionContext : public ::MoleMole::UIControllerContextBase
 	{

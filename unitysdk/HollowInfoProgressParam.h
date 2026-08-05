@@ -3,9 +3,9 @@
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define HOLLOWINFOPROGRESSPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x14CCE180)
+#define HOLLOWINFOPROGRESSPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x13C369C0)
 
-inline static constexpr unsigned int HollowInfoProgressParam_TypeDefinitionIndex = 46292;
+inline static constexpr unsigned int HollowInfoProgressParam_TypeDefinitionIndex = 49559;
 
 class HollowInfoProgressParam : public ::UnityEngine::MonoBehaviour
 {

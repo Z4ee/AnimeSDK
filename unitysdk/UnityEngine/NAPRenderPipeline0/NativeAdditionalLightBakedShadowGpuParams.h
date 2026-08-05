@@ -5,7 +5,7 @@
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int NativeAdditionalLightBakedShadowGpuParams_TypeDefinitionIndex = 5935;
+	inline static constexpr unsigned int NativeAdditionalLightBakedShadowGpuParams_TypeDefinitionIndex = 5937;
 
 	struct alignas(4) NativeAdditionalLightBakedShadowGpuParams
 	{

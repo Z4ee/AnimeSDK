@@ -8,7 +8,7 @@ namespace System { class Object; }
 
 namespace Sirenix::Serialization::Utilities
 {
-	inline static constexpr unsigned int WeakValueGetter_1_TypeDefinitionIndex = 7634;
+	inline static constexpr unsigned int WeakValueGetter_1_TypeDefinitionIndex = 7638;
 
 	template <typename FieldType>
 	class WeakValueGetter_1 : public ::System::MulticastDelegate

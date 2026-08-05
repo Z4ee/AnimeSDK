@@ -10,7 +10,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace UnityEngine::InputSystem::Utilities
 {
-	inline static constexpr unsigned int SelectManyObservable_2_TypeDefinitionIndex = 32069;
+	inline static constexpr unsigned int SelectManyObservable_2_TypeDefinitionIndex = 32689;
 
 	template <typename TSource, typename TResult>
 	class SelectManyObservable_2 : public ::System::Object

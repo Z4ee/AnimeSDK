@@ -1,0 +1,43 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Struct_2_8A7E6FB90F5A287E.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/UnityEngine/Vector3.h"
+
+class Class_2_7CEAD59869D77813;
+namespace NapStreaming { class NapStreamingManager_StreamingPosProvider; }
+
+#define CLASS_2_7CEAD59869D77813_CLASS_1_DC203E022A1C0E73_METHOD_1_704FAC4600717444_OFFSET UNITYSDK_OFFSET(0x17069240)
+#define CLASS_2_7CEAD59869D77813_CLASS_1_DC203E022A1C0E73_METHOD_1_B2C0ADBFEA309440_OFFSET UNITYSDK_OFFSET(0x170694A0)
+#define CLASS_2_7CEAD59869D77813_CLASS_1_DC203E022A1C0E73_METHOD_1_D37FAD0A6AA04B25_OFFSET UNITYSDK_OFFSET(0x17069480)
+#define CLASS_2_7CEAD59869D77813_CLASS_1_DC203E022A1C0E73__CTOR_OFFSET UNITYSDK_OFFSET(0x17069230)
+
+inline static constexpr unsigned int Class_2_7CEAD59869D77813_Class_1_DC203E022A1C0E73_TypeDefinitionIndex = 90485;
+
+class Class_2_7CEAD59869D77813_Class_1_DC203E022A1C0E73 : public ::System::Object
+{
+public:
+	::Class_2_7CEAD59869D77813* Field_1_1; // 0x10
+	::NapStreaming::NapStreamingManager_StreamingPosProvider* Field_1_0; // 0x18
+	::Struct_2_8A7E6FB90F5A287E Field_1_2; // 0x20
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_7CEAD59869D77813_CLASS_1_DC203E022A1C0E73__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_1_704FAC4600717444()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_7CEAD59869D77813_CLASS_1_DC203E022A1C0E73_METHOD_1_704FAC4600717444_OFFSET))(this);
+	}
+
+	::UnityEngine::Vector3 Method_1_D37FAD0A6AA04B25()
+	{
+		return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_7CEAD59869D77813_CLASS_1_DC203E022A1C0E73_METHOD_1_D37FAD0A6AA04B25_OFFSET))(this);
+	}
+
+	::System::Void Method_1_B2C0ADBFEA309440()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_7CEAD59869D77813_CLASS_1_DC203E022A1C0E73_METHOD_1_B2C0ADBFEA309440_OFFSET))(this);
+	}
+};

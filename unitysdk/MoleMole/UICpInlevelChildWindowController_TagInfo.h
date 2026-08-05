@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICpInlevelChildWindowController_TagInfo_TypeDefinitionIndex = 90776;
+	inline static constexpr unsigned int UICpInlevelChildWindowController_TagInfo_TypeDefinitionIndex = 94871;
 
 	struct alignas(8) UICpInlevelChildWindowController_TagInfo
 	{

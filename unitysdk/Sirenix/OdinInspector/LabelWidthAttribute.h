@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SIRENIX_ODININSPECTOR_LABELWIDTHATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E3296F0)
+#define SIRENIX_ODININSPECTOR_LABELWIDTHATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F770A70)
 
 namespace Sirenix::OdinInspector
 {
-	inline static constexpr unsigned int LabelWidthAttribute_TypeDefinitionIndex = 7324;
+	inline static constexpr unsigned int LabelWidthAttribute_TypeDefinitionIndex = 7328;
 
 	class LabelWidthAttribute : public ::System::Attribute
 	{

@@ -3,7 +3,7 @@
 
 namespace UnrealTypes
 {
-	inline static constexpr unsigned int PropertyBagPropertyType_TypeDefinitionIndex = 27797;
+	inline static constexpr unsigned int PropertyBagPropertyType_TypeDefinitionIndex = 28400;
 
 	enum class PropertyBagPropertyType : ::System::Byte
 	{

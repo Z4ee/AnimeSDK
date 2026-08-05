@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_UIMONSTERFANTASYBOSSINFOPAGECONTROLLER___C__DISPLAYCLASS52_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17873010)
-#define MOLEMOLE_UIMONSTERFANTASYBOSSINFOPAGECONTROLLER___C__DISPLAYCLASS52_0__REFRESHVIEW_B__1_OFFSET UNITYSDK_OFFSET(0x17873020)
+#define MOLEMOLE_UIMONSTERFANTASYBOSSINFOPAGECONTROLLER___C__DISPLAYCLASS52_0__CTOR_OFFSET UNITYSDK_OFFSET(0x184F4250)
+#define MOLEMOLE_UIMONSTERFANTASYBOSSINFOPAGECONTROLLER___C__DISPLAYCLASS52_0__REFRESHVIEW_B__1_OFFSET UNITYSDK_OFFSET(0x184F4260)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMonsterFantasyBossInfoPageController___c__DisplayClass52_0_TypeDefinitionIndex = 50842;
+	inline static constexpr unsigned int UIMonsterFantasyBossInfoPageController___c__DisplayClass52_0_TypeDefinitionIndex = 49459;
 
 	class UIMonsterFantasyBossInfoPageController___c__DisplayClass52_0 : public ::System::Object
 	{

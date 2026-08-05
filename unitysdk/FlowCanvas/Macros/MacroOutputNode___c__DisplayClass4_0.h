@@ -6,18 +6,18 @@
 namespace FlowCanvas::Macros { class MacroOutputNode; }
 namespace ParadoxNotion { class DynamicParameterDefinition; }
 
-#define FLOWCANVAS_MACROS_MACROOUTPUTNODE___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1D7C50)
-#define FLOWCANVAS_MACROS_MACROOUTPUTNODE___C__DISPLAYCLASS4_0__REGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x1D1D7C60)
+#define FLOWCANVAS_MACROS_MACROOUTPUTNODE___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1E533AE0)
+#define FLOWCANVAS_MACROS_MACROOUTPUTNODE___C__DISPLAYCLASS4_0__REGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x1E533AF0)
 
 namespace FlowCanvas::Macros
 {
-	inline static constexpr unsigned int MacroOutputNode___c__DisplayClass4_0_TypeDefinitionIndex = 29489;
+	inline static constexpr unsigned int MacroOutputNode___c__DisplayClass4_0_TypeDefinitionIndex = 30692;
 
 	class MacroOutputNode___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:
-		::ParadoxNotion::DynamicParameterDefinition* def; // 0x10
-		::FlowCanvas::Macros::MacroOutputNode* __4__this; // 0x18
+		::FlowCanvas::Macros::MacroOutputNode* __4__this; // 0x10
+		::ParadoxNotion::DynamicParameterDefinition* def; // 0x18
 
 		::System::Void _ctor()
 		{

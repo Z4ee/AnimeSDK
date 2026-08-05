@@ -5,7 +5,7 @@ namespace MiHoYo::SDK::HoYoUI { class HoYoUIMeta; }
 
 namespace MiHoYo::SDK::HoYoUI
 {
-	inline static constexpr unsigned int ISkinable_TypeDefinitionIndex = 37087;
+	inline static constexpr unsigned int ISkinable_TypeDefinitionIndex = 37748;
 
 	class ISkinable
 	{

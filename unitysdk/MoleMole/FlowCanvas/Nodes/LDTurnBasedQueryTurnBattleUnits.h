@@ -7,12 +7,12 @@
 namespace MoleMole { class TurnBattleUnitBase; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDTURNBASEDQUERYTURNBATTLEUNITS_INVOKE_OFFSET UNITYSDK_OFFSET(0x16CA7B60)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDTURNBASEDQUERYTURNBATTLEUNITS__CTOR_OFFSET UNITYSDK_OFFSET(0x16CA7CF0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDTURNBASEDQUERYTURNBATTLEUNITS_INVOKE_OFFSET UNITYSDK_OFFSET(0x13A8ACA0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDTURNBASEDQUERYTURNBATTLEUNITS__CTOR_OFFSET UNITYSDK_OFFSET(0x13A8AE30)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDTurnBasedQueryTurnBattleUnits_TypeDefinitionIndex = 66328;
+	inline static constexpr unsigned int LDTurnBasedQueryTurnBattleUnits_TypeDefinitionIndex = 63223;
 
 	class LDTurnBasedQueryTurnBattleUnits : public ::FlowCanvas::Nodes::CallableFunctionNode_3<::System::Collections::Generic::List_1<::MoleMole::TurnBattleUnitBase*>*, ::MoleMole::TurnBattleUnitQueryKey, ::MoleMole::TurnBattleUnitQueryFilter>
 	{

@@ -12,7 +12,7 @@ namespace System { template <typename T> class Func_1; }
 
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int MultiDimensionalArrayFormatter_2_TypeDefinitionIndex = 7472;
+	inline static constexpr unsigned int MultiDimensionalArrayFormatter_2_TypeDefinitionIndex = 7476;
 
 	template <typename TArray, typename TElement>
 	class MultiDimensionalArrayFormatter_2 : public ::Sirenix::Serialization::MinimalBaseFormatter_1<TArray>

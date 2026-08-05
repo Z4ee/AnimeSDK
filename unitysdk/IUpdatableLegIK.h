@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/AMLegIKParamsData.h"
 
-inline static constexpr unsigned int IUpdatableLegIK_TypeDefinitionIndex = 76401;
+inline static constexpr unsigned int IUpdatableLegIK_TypeDefinitionIndex = 47817;
 
 class IUpdatableLegIK
 {

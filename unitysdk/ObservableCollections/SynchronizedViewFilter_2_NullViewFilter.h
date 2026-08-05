@@ -5,7 +5,7 @@
 
 namespace ObservableCollections
 {
-	inline static constexpr unsigned int SynchronizedViewFilter_2_NullViewFilter_TypeDefinitionIndex = 28185;
+	inline static constexpr unsigned int SynchronizedViewFilter_2_NullViewFilter_TypeDefinitionIndex = 28887;
 
 	template <typename T, typename TView>
 	class SynchronizedViewFilter_2_NullViewFilter : public ::System::Object

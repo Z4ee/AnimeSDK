@@ -6,11 +6,11 @@ namespace UnityEngine { class Transform; }
 namespace UnityEngine::Rendering { class Volume; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define MOLEMOLE_TIMELINE_OVERRIDERADIALBLURBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x174077A0)
+#define MOLEMOLE_TIMELINE_OVERRIDERADIALBLURBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x129E45C0)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int OverrideRadialBlurBehaviour_TypeDefinitionIndex = 50402;
+	inline static constexpr unsigned int OverrideRadialBlurBehaviour_TypeDefinitionIndex = 45889;
 
 	class OverrideRadialBlurBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{

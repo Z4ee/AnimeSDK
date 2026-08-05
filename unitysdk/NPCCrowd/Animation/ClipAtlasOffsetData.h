@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define NPCCROWD_ANIMATION_CLIPATLASOFFSETDATA_EQUALS_OFFSET UNITYSDK_OFFSET(0x5EF230)
-#define NPCCROWD_ANIMATION_CLIPATLASOFFSETDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0xE026A90)
+#define NPCCROWD_ANIMATION_CLIPATLASOFFSETDATA_EQUALS_OFFSET UNITYSDK_OFFSET(0x756280)
+#define NPCCROWD_ANIMATION_CLIPATLASOFFSETDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x119424D0)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int ClipAtlasOffsetData_TypeDefinitionIndex = 40581;
+	inline static constexpr unsigned int ClipAtlasOffsetData_TypeDefinitionIndex = 61713;
 
 	struct alignas(4) ClipAtlasOffsetData
 	{
 		static ::NPCCrowd::Animation::ClipAtlasOffsetData* StaticGet_Unloaded()
 		{
-			return (::NPCCrowd::Animation::ClipAtlasOffsetData*)Il2CppClass::FromTypeDefinitionIndex(ClipAtlasOffsetData_TypeDefinitionIndex)->GetStaticField(0xDD70);
+			return (::NPCCrowd::Animation::ClipAtlasOffsetData*)Il2CppClass::FromTypeDefinitionIndex(ClipAtlasOffsetData_TypeDefinitionIndex)->GetStaticField(0xDE00);
 		}
 		::System::Int32 clipStartFrame; // 0x10
 		::System::Int32 atlasOffsetX; // 0x14

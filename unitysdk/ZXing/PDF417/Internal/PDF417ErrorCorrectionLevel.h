@@ -3,7 +3,7 @@
 
 namespace ZXing::PDF417::Internal
 {
-	inline static constexpr unsigned int PDF417ErrorCorrectionLevel_TypeDefinitionIndex = 19162;
+	inline static constexpr unsigned int PDF417ErrorCorrectionLevel_TypeDefinitionIndex = 19507;
 
 	enum class PDF417ErrorCorrectionLevel : ::System::Int32
 	{

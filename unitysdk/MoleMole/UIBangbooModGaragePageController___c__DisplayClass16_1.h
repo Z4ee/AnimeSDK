@@ -5,12 +5,12 @@
 namespace MoleMole { class UIBangbooModGaragePageController___c__DisplayClass16_0; }
 namespace MoleMole { class UIGeneralTipsPopWindowController; }
 
-#define MOLEMOLE_UIBANGBOOMODGARAGEPAGECONTROLLER___C__DISPLAYCLASS16_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1735CA30)
-#define MOLEMOLE_UIBANGBOOMODGARAGEPAGECONTROLLER___C__DISPLAYCLASS16_1__ONFAVORITEBTNCLICKED_B__0_OFFSET UNITYSDK_OFFSET(0x1735CA40)
+#define MOLEMOLE_UIBANGBOOMODGARAGEPAGECONTROLLER___C__DISPLAYCLASS16_1__CTOR_OFFSET UNITYSDK_OFFSET(0x16D526A0)
+#define MOLEMOLE_UIBANGBOOMODGARAGEPAGECONTROLLER___C__DISPLAYCLASS16_1__ONFAVORITEBTNCLICKED_B__0_OFFSET UNITYSDK_OFFSET(0x16D526B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBangbooModGaragePageController___c__DisplayClass16_1_TypeDefinitionIndex = 63933;
+	inline static constexpr unsigned int UIBangbooModGaragePageController___c__DisplayClass16_1_TypeDefinitionIndex = 52312;
 
 	class UIBangbooModGaragePageController___c__DisplayClass16_1 : public ::System::Object
 	{

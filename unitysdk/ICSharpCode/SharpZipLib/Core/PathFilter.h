@@ -5,12 +5,12 @@
 namespace ICSharpCode::SharpZipLib::Core { class NameFilter; }
 namespace System { class String; }
 
-#define ICSHARPCODE_SHARPZIPLIB_CORE_PATHFILTER_ISMATCH_OFFSET UNITYSDK_OFFSET(0x1E7F43D0)
-#define ICSHARPCODE_SHARPZIPLIB_CORE_PATHFILTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7F4380)
+#define ICSHARPCODE_SHARPZIPLIB_CORE_PATHFILTER_ISMATCH_OFFSET UNITYSDK_OFFSET(0x1FBD0F50)
+#define ICSHARPCODE_SHARPZIPLIB_CORE_PATHFILTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1FBD0F00)
 
 namespace ICSharpCode::SharpZipLib::Core
 {
-	inline static constexpr unsigned int PathFilter_TypeDefinitionIndex = 6789;
+	inline static constexpr unsigned int PathFilter_TypeDefinitionIndex = 6793;
 
 	class PathFilter : public ::System::Object
 	{

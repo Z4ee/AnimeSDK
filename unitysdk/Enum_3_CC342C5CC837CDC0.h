@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Enum_3_CC342C5CC837CDC0_TypeDefinitionIndex = 88302;
+inline static constexpr unsigned int Enum_3_CC342C5CC837CDC0_TypeDefinitionIndex = 92461;
 
 enum class Enum_3_CC342C5CC837CDC0 : ::System::Int32
 {
-	ManualAttackCD = 6,
-	CurrentEnergy = 4,
-	EnergyRegen = 9,
-	MaxHp = 0,
 	CurrentHp = 1,
-	Invulnerability = 10,
-	MoveSpeed = 2,
-	Attack = 7,
+	MaxHp = 0,
 	HpRegen = 8,
-	Count = 11,
-	MaxEnergy = 3,
+	MoveSpeed = 2,
+	EnergyRegen = 9,
+	ManualAttackCD = 6,
 	AutoAttackCD = 5,
+	MaxEnergy = 3,
+	CurrentEnergy = 4,
+	Attack = 7,
+	Invulnerability = 10,
+	Count = 11,
 };

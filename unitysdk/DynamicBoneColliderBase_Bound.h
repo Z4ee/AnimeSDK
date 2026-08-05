@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int DynamicBoneColliderBase_Bound_TypeDefinitionIndex = 34627;
+inline static constexpr unsigned int DynamicBoneColliderBase_Bound_TypeDefinitionIndex = 35286;
 
 enum class DynamicBoneColliderBase_Bound : ::System::Int32
 {

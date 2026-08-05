@@ -7,11 +7,11 @@
 namespace UnityEngine { class Camera; }
 namespace UnityEngine { class Transform; }
 
-#define PIPELINECAMERA_DEMO_DATA_SCREENCAMERADATACOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D87AE20)
+#define PIPELINECAMERA_DEMO_DATA_SCREENCAMERADATACOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC2E1C0)
 
 namespace PipelineCamera::Demo::Data
 {
-	inline static constexpr unsigned int ScreenCameraDataComponent_TypeDefinitionIndex = 37756;
+	inline static constexpr unsigned int ScreenCameraDataComponent_TypeDefinitionIndex = 38417;
 
 	class ScreenCameraDataComponent : public ::UnityEngine::MonoBehaviour
 	{

@@ -3,12 +3,12 @@
 #include "unitysdk/FlowCanvas/Nodes/PureFunctionNode_5.h"
 #include "unitysdk/UnityEngine/Rect.h"
 
-#define FLOWCANVAS_NODES_NEWRECT_INVOKE_OFFSET UNITYSDK_OFFSET(0x1DB93D80)
-#define FLOWCANVAS_NODES_NEWRECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB93DB0)
+#define FLOWCANVAS_NODES_NEWRECT_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EF8A020)
+#define FLOWCANVAS_NODES_NEWRECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF8A050)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int NewRect_TypeDefinitionIndex = 29233;
+	inline static constexpr unsigned int NewRect_TypeDefinitionIndex = 30945;
 
 	class NewRect : public ::FlowCanvas::Nodes::PureFunctionNode_5<::UnityEngine::Rect, ::System::Single, ::System::Single, ::System::Single, ::System::Single>
 	{

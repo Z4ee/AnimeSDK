@@ -4,7 +4,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int AsyncRequestNativeArrayData_TypeDefinitionIndex = 6136;
+	inline static constexpr unsigned int AsyncRequestNativeArrayData_TypeDefinitionIndex = 6138;
 
 	struct alignas(8) AsyncRequestNativeArrayData
 	{

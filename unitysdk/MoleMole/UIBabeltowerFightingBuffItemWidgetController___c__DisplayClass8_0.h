@@ -5,18 +5,18 @@
 namespace MoleMole { class UIBabeltowerFightingBuffItemWidgetController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIBABELTOWERFIGHTINGBUFFITEMWIDGETCONTROLLER___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14BD8250)
-#define MOLEMOLE_UIBABELTOWERFIGHTINGBUFFITEMWIDGETCONTROLLER___C__DISPLAYCLASS8_0__SWITCHINACTION_B__0_OFFSET UNITYSDK_OFFSET(0x14BD8260)
+#define MOLEMOLE_UIBABELTOWERFIGHTINGBUFFITEMWIDGETCONTROLLER___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1601C240)
+#define MOLEMOLE_UIBABELTOWERFIGHTINGBUFFITEMWIDGETCONTROLLER___C__DISPLAYCLASS8_0__SWITCHINACTION_B__0_OFFSET UNITYSDK_OFFSET(0x1601C250)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBabeltowerFightingBuffItemWidgetController___c__DisplayClass8_0_TypeDefinitionIndex = 71657;
+	inline static constexpr unsigned int UIBabeltowerFightingBuffItemWidgetController___c__DisplayClass8_0_TypeDefinitionIndex = 59602;
 
 	class UIBabeltowerFightingBuffItemWidgetController___c__DisplayClass8_0 : public ::System::Object
 	{
 	public:
-		::System::Action* onSwitch; // 0x10
-		::MoleMole::UIBabeltowerFightingBuffItemWidgetController* __4__this; // 0x18
+		::MoleMole::UIBabeltowerFightingBuffItemWidgetController* __4__this; // 0x10
+		::System::Action* onSwitch; // 0x18
 
 		::System::Void _ctor()
 		{

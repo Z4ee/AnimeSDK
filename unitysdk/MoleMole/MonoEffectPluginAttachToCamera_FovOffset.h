@@ -5,7 +5,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoEffectPluginAttachToCamera_FovOffset_TypeDefinitionIndex = 51512;
+	inline static constexpr unsigned int MonoEffectPluginAttachToCamera_FovOffset_TypeDefinitionIndex = 56274;
 
 	struct alignas(4) MonoEffectPluginAttachToCamera_FovOffset
 	{

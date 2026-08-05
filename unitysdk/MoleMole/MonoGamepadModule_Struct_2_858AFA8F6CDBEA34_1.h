@@ -6,11 +6,11 @@ namespace UnityEngine { class Transform; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoGamepadModule_Struct_2_858AFA8F6CDBEA34_1_TypeDefinitionIndex = 41036;
+	inline static constexpr unsigned int MonoGamepadModule_Struct_2_858AFA8F6CDBEA34_1_TypeDefinitionIndex = 59766;
 
 	struct alignas(8) MonoGamepadModule_Struct_2_858AFA8F6CDBEA34_1
 	{
-		::UnityEngine::Transform* Field_2_0; // 0x10
-		::System::Boolean Field_2_1; // 0x18
+		::UnityEngine::Transform* Field_2_1; // 0x10
+		::System::Boolean Field_2_0; // 0x18
 	};
 }

@@ -4,20 +4,20 @@
 
 namespace UnrealTypes { class ICppStructOps; }
 
-#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_RANDOMVECTOR3TASKINSTANCEDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BB28CD0)
-#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_RANDOMVECTOR3TASKINSTANCEDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB28D10)
-#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_RANDOMVECTOR3TASKINSTANCEDATA___C___CCTOR_B__6_0_OFFSET UNITYSDK_OFFSET(0x1BB28D20)
+#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_RANDOMVECTOR3TASKINSTANCEDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CB95490)
+#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_RANDOMVECTOR3TASKINSTANCEDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB954D0)
+#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_RANDOMVECTOR3TASKINSTANCEDATA___C___CCTOR_B__6_0_OFFSET UNITYSDK_OFFSET(0x1CB954E0)
 
 namespace StateTreeGameplay
 {
-	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_RandomVector3TaskInstanceData___c_TypeDefinitionIndex = 60897;
+	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_RandomVector3TaskInstanceData___c_TypeDefinitionIndex = 50240;
 
 	class RegistrationInfo_ScriptStruct_RandomVector3TaskInstanceData___c : public ::System::Object
 	{
 	public:
 		static ::StateTreeGameplay::RegistrationInfo_ScriptStruct_RandomVector3TaskInstanceData___c** StaticGet___9()
 		{
-			return (::StateTreeGameplay::RegistrationInfo_ScriptStruct_RandomVector3TaskInstanceData___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_RandomVector3TaskInstanceData___c_TypeDefinitionIndex)->GetStaticField(0x3FB40);
+			return (::StateTreeGameplay::RegistrationInfo_ScriptStruct_RandomVector3TaskInstanceData___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_RandomVector3TaskInstanceData___c_TypeDefinitionIndex)->GetStaticField(0x41290);
 		}
 
 		static ::System::Void _cctor()

@@ -9,33 +9,33 @@ namespace UnityEngine { class ReflectionProbe; }
 namespace UnityEngine::Rendering::Universal { class DeferredReflectionProbe; }
 namespace UnityEngine::Rendering::Universal { class UniversalAdditionalLightData; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_COREUTIL_GETEXTRALIGHTDATA_OFFSET UNITYSDK_OFFSET(0x1B891C70)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_COREUTIL_TRYGETEXTRAREFLECTIONPROBEDATA_OFFSET UNITYSDK_OFFSET(0x1B891D70)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_COREUTIL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B8921A0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_COREUTIL__CTOR_OFFSET UNITYSDK_OFFSET(0x1B892190)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_COREUTIL_GETEXTRALIGHTDATA_OFFSET UNITYSDK_OFFSET(0x1CC9EF20)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_COREUTIL_TRYGETEXTRAREFLECTIONPROBEDATA_OFFSET UNITYSDK_OFFSET(0x1CC9F020)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_COREUTIL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CC9F450)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_COREUTIL__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC9F440)
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int CoreUtil_TypeDefinitionIndex = 27123;
+	inline static constexpr unsigned int CoreUtil_TypeDefinitionIndex = 27218;
 
 	class CoreUtil : public ::System::Object
 	{
 	public:
-		static ::System::Type** StaticGet_TypeDeferredReflectionProbe()
-		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(CoreUtil_TypeDefinitionIndex)->GetStaticField(0x21700);
-		}
 		static ::System::Collections::Generic::Dictionary_2<::UnityEngine::ReflectionProbe*, ::UnityEngine::Rendering::Universal::DeferredReflectionProbe*>** StaticGet_s_CachedExtraReflectionProbeDataMap()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::ReflectionProbe*, ::UnityEngine::Rendering::Universal::DeferredReflectionProbe*>**)Il2CppClass::FromTypeDefinitionIndex(CoreUtil_TypeDefinitionIndex)->GetStaticField(0x21708);
-		}
-		static ::System::Type** StaticGet_s_TypeUniversalAdditionalCameraData()
-		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(CoreUtil_TypeDefinitionIndex)->GetStaticField(0x21710);
+			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::ReflectionProbe*, ::UnityEngine::Rendering::Universal::DeferredReflectionProbe*>**)Il2CppClass::FromTypeDefinitionIndex(CoreUtil_TypeDefinitionIndex)->GetStaticField(0x22F40);
 		}
 		static ::System::Type** StaticGet_s_TypeStreamingController()
 		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(CoreUtil_TypeDefinitionIndex)->GetStaticField(0x21718);
+			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(CoreUtil_TypeDefinitionIndex)->GetStaticField(0x22F48);
+		}
+		static ::System::Type** StaticGet_TypeDeferredReflectionProbe()
+		{
+			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(CoreUtil_TypeDefinitionIndex)->GetStaticField(0x22F50);
+		}
+		static ::System::Type** StaticGet_s_TypeUniversalAdditionalCameraData()
+		{
+			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(CoreUtil_TypeDefinitionIndex)->GetStaticField(0x22F58);
 		}
 
 		::System::Void _ctor()

@@ -6,11 +6,11 @@ class Class_1_0D6706375CDAAE8C;
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_UIGENERALITEMUSEDIALOGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15A6BE90)
+#define MOLEMOLE_UIGENERALITEMUSEDIALOGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x19E7C910)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralItemUseDialogContext_TypeDefinitionIndex = 86108;
+	inline static constexpr unsigned int UIGeneralItemUseDialogContext_TypeDefinitionIndex = 65131;
 
 	class UIGeneralItemUseDialogContext : public ::MoleMole::UIControllerContextBase
 	{

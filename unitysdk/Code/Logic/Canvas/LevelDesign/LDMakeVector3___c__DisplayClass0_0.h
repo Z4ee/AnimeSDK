@@ -5,19 +5,19 @@
 
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 
-#define CODE_LOGIC_CANVAS_LEVELDESIGN_LDMAKEVECTOR3___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0x118410D0)
-#define CODE_LOGIC_CANVAS_LEVELDESIGN_LDMAKEVECTOR3___C__DISPLAYCLASS0_0__REGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x118410E0)
+#define CODE_LOGIC_CANVAS_LEVELDESIGN_LDMAKEVECTOR3___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18731730)
+#define CODE_LOGIC_CANVAS_LEVELDESIGN_LDMAKEVECTOR3___C__DISPLAYCLASS0_0__REGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x18731740)
 
 namespace Code::Logic::Canvas::LevelDesign
 {
-	inline static constexpr unsigned int LDMakeVector3___c__DisplayClass0_0_TypeDefinitionIndex = 62185;
+	inline static constexpr unsigned int LDMakeVector3___c__DisplayClass0_0_TypeDefinitionIndex = 59608;
 
 	class LDMakeVector3___c__DisplayClass0_0 : public ::System::Object
 	{
 	public:
-		::FlowCanvas::ValueInput_1<::System::Single>* x; // 0x10
-		::FlowCanvas::ValueInput_1<::System::Single>* y; // 0x18
-		::FlowCanvas::ValueInput_1<::System::Single>* z; // 0x20
+		::FlowCanvas::ValueInput_1<::System::Single>* z; // 0x10
+		::FlowCanvas::ValueInput_1<::System::Single>* x; // 0x18
+		::FlowCanvas::ValueInput_1<::System::Single>* y; // 0x20
 
 		::System::Void _ctor()
 		{

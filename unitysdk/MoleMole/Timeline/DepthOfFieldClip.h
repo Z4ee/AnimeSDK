@@ -8,13 +8,13 @@
 namespace MoleMole::Timeline { class DepthOfFieldBehaviour; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_TIMELINE_DEPTHOFFIELDCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x18D02520)
-#define MOLEMOLE_TIMELINE_DEPTHOFFIELDCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x18D02510)
-#define MOLEMOLE_TIMELINE_DEPTHOFFIELDCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x18D02700)
+#define MOLEMOLE_TIMELINE_DEPTHOFFIELDCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1450B580)
+#define MOLEMOLE_TIMELINE_DEPTHOFFIELDCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1450B570)
+#define MOLEMOLE_TIMELINE_DEPTHOFFIELDCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1450B760)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int DepthOfFieldClip_TypeDefinitionIndex = 72124;
+	inline static constexpr unsigned int DepthOfFieldClip_TypeDefinitionIndex = 69979;
 
 	class DepthOfFieldClip : public ::UnityEngine::Playables::PlayableAsset
 	{

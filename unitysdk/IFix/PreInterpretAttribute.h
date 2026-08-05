@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define IFIX_PREINTERPRETATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CABD580)
+#define IFIX_PREINTERPRETATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E09C4D0)
 
 namespace IFix
 {
-	inline static constexpr unsigned int PreInterpretAttribute_TypeDefinitionIndex = 6911;
+	inline static constexpr unsigned int PreInterpretAttribute_TypeDefinitionIndex = 6916;
 
 	class PreInterpretAttribute : public ::System::Attribute
 	{

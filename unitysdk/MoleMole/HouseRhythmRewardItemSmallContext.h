@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_HOUSERHYTHMREWARDITEMSMALLCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A036250)
+#define MOLEMOLE_HOUSERHYTHMREWARDITEMSMALLCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x19088860)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int HouseRhythmRewardItemSmallContext_TypeDefinitionIndex = 48519;
+	inline static constexpr unsigned int HouseRhythmRewardItemSmallContext_TypeDefinitionIndex = 54196;
 
 	class HouseRhythmRewardItemSmallContext : public ::MoleMole::UIControllerContextBase
 	{

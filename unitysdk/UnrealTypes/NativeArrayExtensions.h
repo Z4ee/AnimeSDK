@@ -7,7 +7,7 @@
 
 namespace UnrealTypes
 {
-	inline static constexpr unsigned int NativeArrayExtensions_TypeDefinitionIndex = 27670;
+	inline static constexpr unsigned int NativeArrayExtensions_TypeDefinitionIndex = 28272;
 
 	class NativeArrayExtensions : public ::System::Object
 	{

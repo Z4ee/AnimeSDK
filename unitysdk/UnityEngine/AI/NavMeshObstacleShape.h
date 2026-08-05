@@ -3,7 +3,7 @@
 
 namespace UnityEngine::AI
 {
-	inline static constexpr unsigned int NavMeshObstacleShape_TypeDefinitionIndex = 27391;
+	inline static constexpr unsigned int NavMeshObstacleShape_TypeDefinitionIndex = 27993;
 
 	enum class NavMeshObstacleShape : ::System::Int32
 	{

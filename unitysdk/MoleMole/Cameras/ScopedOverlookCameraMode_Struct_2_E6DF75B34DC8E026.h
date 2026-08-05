@@ -9,21 +9,21 @@ namespace MoleMole::Cameras { class OverlookCameraConfig; }
 namespace MoleMole::Cameras { class ScopedOverlookCameraMode; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define MOLEMOLE_CAMERAS_SCOPEDOVERLOOKCAMERAMODE_STRUCT_2_E6DF75B34DC8E026_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x707AA0)
-#define MOLEMOLE_CAMERAS_SCOPEDOVERLOOKCAMERAMODE_STRUCT_2_E6DF75B34DC8E026_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x283610)
+#define MOLEMOLE_CAMERAS_SCOPEDOVERLOOKCAMERAMODE_STRUCT_2_E6DF75B34DC8E026_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x802320)
+#define MOLEMOLE_CAMERAS_SCOPEDOVERLOOKCAMERAMODE_STRUCT_2_E6DF75B34DC8E026_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x296F30)
 
 namespace MoleMole::Cameras
 {
-	inline static constexpr unsigned int ScopedOverlookCameraMode_Struct_2_E6DF75B34DC8E026_TypeDefinitionIndex = 78866;
+	inline static constexpr unsigned int ScopedOverlookCameraMode_Struct_2_E6DF75B34DC8E026_TypeDefinitionIndex = 81963;
 
 	struct alignas(8) ScopedOverlookCameraMode_Struct_2_E6DF75B34DC8E026
 	{
-		::MoleMole::Cameras::ScopedOverlookCameraMode* Field_2_2; // 0x10
-		::PipelineCamera::ScopedDelegateHandle Field_2_4; // 0x18
-		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskVoidMethodBuilder Field_2_1; // 0x20
-		::MoleMole::Cameras::OverlookCameraConfig* Field_2_3; // 0x28
+		::MoleMole::Cameras::OverlookCameraConfig* Field_2_7; // 0x10
+		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskVoidMethodBuilder Field_2_1; // 0x18
+		::MoleMole::Cameras::ScopedOverlookCameraMode* Field_2_0; // 0x20
+		::PipelineCamera::ScopedDelegateHandle Field_2_6; // 0x28
 		::Cysharp::Threading::Tasks::UniTask_Awaiter Field_2_5; // 0x30
-		::System::Int32 Field_2_0; // 0x40
+		::System::Int32 Field_2_2; // 0x40
 
 		::System::Void MoveNext()
 		{

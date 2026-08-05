@@ -5,12 +5,12 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCHANGEEFFECTSTATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1160A890)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCHANGEEFFECTSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1160AA50)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCHANGEEFFECTSTATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1923F9D0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCHANGEEFFECTSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1923FB90)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDChangeEffectState_TypeDefinitionIndex = 63298;
+	inline static constexpr unsigned int LDChangeEffectState_TypeDefinitionIndex = 57449;
 
 	class LDChangeEffectState : public ::FlowCanvas::Nodes::CallableActionNode_2<::MoleMole::EntityHandle, ::System::String*>
 	{

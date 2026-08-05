@@ -3,13 +3,13 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int ScanType_TypeDefinitionIndex = 26191;
+	inline static constexpr unsigned int ScanType_TypeDefinitionIndex = 26863;
 
 	enum class ScanType : ::System::Int32
 	{
-		RadialFromCamera = 1,
 		RadialFromAvatar = 2,
-		Linear = 0,
 		RadialFromCustom = 3,
+		Linear = 0,
+		RadialFromCamera = 1,
 	};
 }

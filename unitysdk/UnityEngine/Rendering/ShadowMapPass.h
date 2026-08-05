@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int ShadowMapPass_TypeDefinitionIndex = 6172;
+	inline static constexpr unsigned int ShadowMapPass_TypeDefinitionIndex = 6176;
 
 	enum class ShadowMapPass : ::System::Int32
 	{

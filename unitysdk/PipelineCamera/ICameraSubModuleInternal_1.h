@@ -9,7 +9,7 @@ namespace PipelineCamera { class ICameraTouchContext; }
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int ICameraSubModuleInternal_1_TypeDefinitionIndex = 37595;
+	inline static constexpr unsigned int ICameraSubModuleInternal_1_TypeDefinitionIndex = 38256;
 
 	template <typename T>
 	class ICameraSubModuleInternal_1

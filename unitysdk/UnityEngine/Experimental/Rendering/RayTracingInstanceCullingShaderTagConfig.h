@@ -5,7 +5,7 @@
 
 namespace UnityEngine::Experimental::Rendering
 {
-	inline static constexpr unsigned int RayTracingInstanceCullingShaderTagConfig_TypeDefinitionIndex = 6339;
+	inline static constexpr unsigned int RayTracingInstanceCullingShaderTagConfig_TypeDefinitionIndex = 6343;
 
 	struct alignas(4) RayTracingInstanceCullingShaderTagConfig
 	{

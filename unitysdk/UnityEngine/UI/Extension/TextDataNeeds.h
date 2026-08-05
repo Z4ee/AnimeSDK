@@ -3,14 +3,15 @@
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int TextDataNeeds_TypeDefinitionIndex = 46485;
+	inline static constexpr unsigned int TextDataNeeds_TypeDefinitionIndex = 72376;
 
 	enum class TextDataNeeds : ::System::Byte
 	{
-		QuadInfo = 0x8,
-		RichTag = 0x1,
 		LinkInfo = 0x4,
-		CharLineInfo = 0x2,
+		RichTag = 0x1,
 		None = 0x0,
+		CharLineInfo = 0x2,
+		QuadInfo = 0x8,
+		LayoutAdjustment = 0x10,
 	};
 }

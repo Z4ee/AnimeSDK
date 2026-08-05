@@ -8,26 +8,26 @@ namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace System { template <typename T> class Func_1; }
 
-#define MOLEMOLE_UICINEMABUBBLEBASECONTEXT_SETUPGRAPHCUSTOMEVENT_OFFSET UNITYSDK_OFFSET(0x15B638B0)
-#define MOLEMOLE_UICINEMABUBBLEBASECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15B63930)
+#define MOLEMOLE_UICINEMABUBBLEBASECONTEXT_SETUPGRAPHCUSTOMEVENT_OFFSET UNITYSDK_OFFSET(0x19327E20)
+#define MOLEMOLE_UICINEMABUBBLEBASECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x19327EA0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICinemaBubbleBaseContext_TypeDefinitionIndex = 58749;
+	inline static constexpr unsigned int UICinemaBubbleBaseContext_TypeDefinitionIndex = 83379;
 
 	class UICinemaBubbleBaseContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::System::Action_1<::System::String*>* graphEventDisatcher; // 0x28
-		::System::Action_1<::System::Boolean>* onFinish; // 0x30
+		::System::Func_1<::System::Int32>* onSuccessClickReturnScore; // 0x28
+		::System::Action_1<::System::String*>* graphEventDisatcher; // 0x30
 		::System::String* bubbleTextKey; // 0x38
-		::System::String* onClickEventName; // 0x40
-		::System::Action* onMiss; // 0x48
-		::System::String* onSuccessEventName; // 0x50
-		::System::String* onShowEventName; // 0x58
-		::System::String* onMissEventName; // 0x60
-		::System::Func_1<::System::Int32>* onSuccessClickReturnScore; // 0x68
-		::System::Action* onBeforePerClick; // 0x70
+		::System::String* onMissEventName; // 0x40
+		::System::Action_1<::System::Boolean>* onFinish; // 0x48
+		::System::Action* onBeforePerClick; // 0x50
+		::System::String* onSuccessEventName; // 0x58
+		::System::String* onClickEventName; // 0x60
+		::System::Action* onMiss; // 0x68
+		::System::String* onShowEventName; // 0x70
 		::System::Int32 bubbleLocationIdx; // 0x78
 		::System::Single timeDuration; // 0x7C
 		::System::Int32 hitNum; // 0x80

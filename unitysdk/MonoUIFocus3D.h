@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MonoUIFocusBase.h"
 
-#define MONOUIFOCUS3D__CTOR_OFFSET UNITYSDK_OFFSET(0xD571D10)
+#define MONOUIFOCUS3D__CTOR_OFFSET UNITYSDK_OFFSET(0x10B01950)
 
-inline static constexpr unsigned int MonoUIFocus3D_TypeDefinitionIndex = 85399;
+inline static constexpr unsigned int MonoUIFocus3D_TypeDefinitionIndex = 66425;
 
 class MonoUIFocus3D : public ::MonoUIFocusBase
 {

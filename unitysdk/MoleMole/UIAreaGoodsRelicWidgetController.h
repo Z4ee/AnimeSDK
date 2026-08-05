@@ -4,12 +4,12 @@
 
 namespace System { class Object; }
 
-#define MOLEMOLE_UIAREAGOODSRELICWIDGETCONTROLLER_REFRESHVIEW_OFFSET UNITYSDK_OFFSET(0x17599A60)
-#define MOLEMOLE_UIAREAGOODSRELICWIDGETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x17599DC0)
+#define MOLEMOLE_UIAREAGOODSRELICWIDGETCONTROLLER_REFRESHVIEW_OFFSET UNITYSDK_OFFSET(0x19349970)
+#define MOLEMOLE_UIAREAGOODSRELICWIDGETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x19349CE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAreaGoodsRelicWidgetController_TypeDefinitionIndex = 64012;
+	inline static constexpr unsigned int UIAreaGoodsRelicWidgetController_TypeDefinitionIndex = 48797;
 
 	class UIAreaGoodsRelicWidgetController : public ::MoleMole::UIHollowRelicOptionItemWidgetController
 	{

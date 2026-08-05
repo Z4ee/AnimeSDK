@@ -7,20 +7,20 @@ namespace MoleMole::Config { class ConfigBlackCurtain; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define BLACKCURTAINEFFECT_GETCASTERENTITYID_OFFSET UNITYSDK_OFFSET(0x12E374F0)
-#define BLACKCURTAINEFFECT_GETCONFIG_OFFSET UNITYSDK_OFFSET(0x12E374B0)
-#define BLACKCURTAINEFFECT_GETWHITEENTITYTARGETLIST_OFFSET UNITYSDK_OFFSET(0x12E37530)
-#define BLACKCURTAINEFFECT_GET_CASTERENTITYID_OFFSET UNITYSDK_OFFSET(0x12E36E90)
-#define BLACKCURTAINEFFECT_REFRESHWHITEENTITYTARGETLIST_OFFSET UNITYSDK_OFFSET(0x12E36F50)
-#define BLACKCURTAINEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x12E36EA0)
+#define BLACKCURTAINEFFECT_GETCASTERENTITYID_OFFSET UNITYSDK_OFFSET(0x1706BAA0)
+#define BLACKCURTAINEFFECT_GETCONFIG_OFFSET UNITYSDK_OFFSET(0x1706BA60)
+#define BLACKCURTAINEFFECT_GETWHITEENTITYTARGETLIST_OFFSET UNITYSDK_OFFSET(0x1706BAE0)
+#define BLACKCURTAINEFFECT_GET_CASTERENTITYID_OFFSET UNITYSDK_OFFSET(0x1706B440)
+#define BLACKCURTAINEFFECT_REFRESHWHITEENTITYTARGETLIST_OFFSET UNITYSDK_OFFSET(0x1706B500)
+#define BLACKCURTAINEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1706B450)
 
-inline static constexpr unsigned int BlackCurtainEffect_TypeDefinitionIndex = 48480;
+inline static constexpr unsigned int BlackCurtainEffect_TypeDefinitionIndex = 49433;
 
 class BlackCurtainEffect : public ::System::Object
 {
 public:
-	::System::String* _key; // 0x10
-	::System::Collections::Generic::List_1<::System::String*>* _whiteAbilityTargetKeyList; // 0x18
+	::System::Collections::Generic::List_1<::System::String*>* _whiteAbilityTargetKeyList; // 0x10
+	::System::String* _key; // 0x18
 	::System::Collections::Generic::List_1<::MoleMole::Battle::Entity*>* _whiteEntityTargetList; // 0x20
 	::MoleMole::Config::ConfigBlackCurtain* _config; // 0x28
 	::System::Single _startTick; // 0x30

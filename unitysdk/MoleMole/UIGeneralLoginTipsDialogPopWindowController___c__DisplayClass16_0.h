@@ -5,12 +5,12 @@
 namespace MoleMole { class UIGeneralLoginTipsContextV2; }
 namespace MoleMole { class UIGeneralLoginTipsDialogPopWindowController; }
 
-#define MOLEMOLE_UIGENERALLOGINTIPSDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17653A60)
-#define MOLEMOLE_UIGENERALLOGINTIPSDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS16_0__ONSHOWLOGINTIPS_B__1_OFFSET UNITYSDK_OFFSET(0x17653A70)
+#define MOLEMOLE_UIGENERALLOGINTIPSDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x185A40E0)
+#define MOLEMOLE_UIGENERALLOGINTIPSDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS16_0__ONSHOWLOGINTIPS_B__1_OFFSET UNITYSDK_OFFSET(0x185A40F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralLoginTipsDialogPopWindowController___c__DisplayClass16_0_TypeDefinitionIndex = 78235;
+	inline static constexpr unsigned int UIGeneralLoginTipsDialogPopWindowController___c__DisplayClass16_0_TypeDefinitionIndex = 56839;
 
 	class UIGeneralLoginTipsDialogPopWindowController___c__DisplayClass16_0 : public ::System::Object
 	{

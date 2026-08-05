@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define FLOWCANVAS_NODES_LEGACY_PUREREFLECTEDFIELDNODE___C__DISPLAYCLASS0_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7B8C80)
-#define FLOWCANVAS_NODES_LEGACY_PUREREFLECTEDFIELDNODE___C__DISPLAYCLASS0_1__REGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x1D7B8C90)
+#define FLOWCANVAS_NODES_LEGACY_PUREREFLECTEDFIELDNODE___C__DISPLAYCLASS0_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB6BA90)
+#define FLOWCANVAS_NODES_LEGACY_PUREREFLECTEDFIELDNODE___C__DISPLAYCLASS0_1__REGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x1EB6BAA0)
 
 namespace FlowCanvas::Nodes::Legacy
 {
-	inline static constexpr unsigned int PureReflectedFieldNode___c__DisplayClass0_1_TypeDefinitionIndex = 29708;
+	inline static constexpr unsigned int PureReflectedFieldNode___c__DisplayClass0_1_TypeDefinitionIndex = 30438;
 
 	class PureReflectedFieldNode___c__DisplayClass0_1 : public ::System::Object
 	{

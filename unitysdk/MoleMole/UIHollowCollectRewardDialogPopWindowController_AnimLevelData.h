@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIHollowCollectRewardDialogPopWindowController_AnimSingleLevelData; }
 
-#define MOLEMOLE_UIHOLLOWCOLLECTREWARDDIALOGPOPWINDOWCONTROLLER_ANIMLEVELDATA_GET_HASLEVELUP_OFFSET UNITYSDK_OFFSET(0x1813A550)
-#define MOLEMOLE_UIHOLLOWCOLLECTREWARDDIALOGPOPWINDOWCONTROLLER_ANIMLEVELDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1813A5B0)
+#define MOLEMOLE_UIHOLLOWCOLLECTREWARDDIALOGPOPWINDOWCONTROLLER_ANIMLEVELDATA_GET_HASLEVELUP_OFFSET UNITYSDK_OFFSET(0x19FEE0A0)
+#define MOLEMOLE_UIHOLLOWCOLLECTREWARDDIALOGPOPWINDOWCONTROLLER_ANIMLEVELDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19FEE100)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowCollectRewardDialogPopWindowController_AnimLevelData_TypeDefinitionIndex = 77732;
+	inline static constexpr unsigned int UIHollowCollectRewardDialogPopWindowController_AnimLevelData_TypeDefinitionIndex = 85819;
 
 	class UIHollowCollectRewardDialogPopWindowController_AnimLevelData : public ::System::Object
 	{

@@ -3,12 +3,12 @@
 #include "unitysdk/FlowCanvas/Nodes/PureFunctionNode_2.h"
 #include "unitysdk/MoleMole/Level/RatingType.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDHADAL_LAYERRATINGTHRESHOLDVALUE_INVOKE_OFFSET UNITYSDK_OFFSET(0x17E6C990)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDHADAL_LAYERRATINGTHRESHOLDVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x17E6CB00)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDHADAL_LAYERRATINGTHRESHOLDVALUE_INVOKE_OFFSET UNITYSDK_OFFSET(0x19BDD210)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDHADAL_LAYERRATINGTHRESHOLDVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x19BDD380)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDHadal_LayerRatingThresholdValue_TypeDefinitionIndex = 76932;
+	inline static constexpr unsigned int LDHadal_LayerRatingThresholdValue_TypeDefinitionIndex = 54055;
 
 	class LDHadal_LayerRatingThresholdValue : public ::FlowCanvas::Nodes::PureFunctionNode_2<::System::Int32, ::MoleMole::Level::RatingType>
 	{

@@ -5,11 +5,11 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define UNITY_LINQ_GAMEOBJECTEXTENSIONS_CHILDREN_OFFSET UNITYSDK_OFFSET(0x1E8887C0)
+#define UNITY_LINQ_GAMEOBJECTEXTENSIONS_CHILDREN_OFFSET UNITYSDK_OFFSET(0x1FC68FC0)
 
 namespace Unity::Linq
 {
-	inline static constexpr unsigned int GameObjectExtensions_TypeDefinitionIndex = 34647;
+	inline static constexpr unsigned int GameObjectExtensions_TypeDefinitionIndex = 35306;
 
 	class GameObjectExtensions : public ::System::Object
 	{

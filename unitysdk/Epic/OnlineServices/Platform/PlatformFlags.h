@@ -3,7 +3,7 @@
 
 namespace Epic::OnlineServices::Platform
 {
-	inline static constexpr unsigned int PlatformFlags_TypeDefinitionIndex = 36353;
+	inline static constexpr unsigned int PlatformFlags_TypeDefinitionIndex = 37012;
 
 	enum class PlatformFlags : ::System::UInt64
 	{

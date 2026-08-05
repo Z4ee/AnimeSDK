@@ -11,11 +11,11 @@
 #include "unitysdk/UnityEngine/Rendering/CullingSplit.h"
 #include "unitysdk/UnityEngine/Rendering/LODParameters.h"
 
-#define UNITYENGINE_RENDERING_BATCHCULLINGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x9D0810)
+#define UNITYENGINE_RENDERING_BATCHCULLINGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xA1C180)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int BatchCullingContext_TypeDefinitionIndex = 6220;
+	inline static constexpr unsigned int BatchCullingContext_TypeDefinitionIndex = 6224;
 
 	struct alignas(8) BatchCullingContext
 	{

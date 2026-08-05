@@ -4,7 +4,7 @@
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
-	inline static constexpr unsigned int IAsyncOnRenderObjectHandler_TypeDefinitionIndex = 31408;
+	inline static constexpr unsigned int IAsyncOnRenderObjectHandler_TypeDefinitionIndex = 32028;
 
 	class IAsyncOnRenderObjectHandler
 	{

@@ -12,11 +12,11 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
-#define FOUNDATION_LISTX_ILISTTORMTEXT_OFFSET UNITYSDK_OFFSET(0x1E1A5710)
+#define FOUNDATION_LISTX_ILISTTORMTEXT_OFFSET UNITYSDK_OFFSET(0x1F4BDF20)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int ListX_TypeDefinitionIndex = 8300;
+	inline static constexpr unsigned int ListX_TypeDefinitionIndex = 7896;
 
 	class ListX : public ::System::Object
 	{

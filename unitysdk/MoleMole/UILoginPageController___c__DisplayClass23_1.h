@@ -5,12 +5,12 @@
 namespace MoleMole { class UILoginPageController___c__DisplayClass23_0; }
 namespace System { class String; }
 
-#define MOLEMOLE_UILOGINPAGECONTROLLER___C__DISPLAYCLASS23_1__CTOR_OFFSET UNITYSDK_OFFSET(0x17142160)
-#define MOLEMOLE_UILOGINPAGECONTROLLER___C__DISPLAYCLASS23_1__REQUESTSERVERLIST_B__3_OFFSET UNITYSDK_OFFSET(0x17142340)
+#define MOLEMOLE_UILOGINPAGECONTROLLER___C__DISPLAYCLASS23_1__CTOR_OFFSET UNITYSDK_OFFSET(0x183A30E0)
+#define MOLEMOLE_UILOGINPAGECONTROLLER___C__DISPLAYCLASS23_1__REQUESTSERVERLIST_B__3_OFFSET UNITYSDK_OFFSET(0x183A32D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UILoginPageController___c__DisplayClass23_1_TypeDefinitionIndex = 50115;
+	inline static constexpr unsigned int UILoginPageController___c__DisplayClass23_1_TypeDefinitionIndex = 46279;
 
 	class UILoginPageController___c__DisplayClass23_1 : public ::System::Object
 	{

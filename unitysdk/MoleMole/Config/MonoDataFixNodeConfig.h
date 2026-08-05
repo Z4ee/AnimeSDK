@@ -5,11 +5,11 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CONFIG_MONODATAFIXNODECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA711A0)
+#define MOLEMOLE_CONFIG_MONODATAFIXNODECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C470800)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int MonoDataFixNodeConfig_TypeDefinitionIndex = 69503;
+	inline static constexpr unsigned int MonoDataFixNodeConfig_TypeDefinitionIndex = 42365;
 
 	class MonoDataFixNodeConfig : public ::UnityEngine::MonoBehaviour
 	{

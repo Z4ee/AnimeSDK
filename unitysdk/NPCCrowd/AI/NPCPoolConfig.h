@@ -6,11 +6,11 @@
 namespace NPCCrowd::AI { class CrowdConditionBase; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCCROWD_AI_NPCPOOLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xEBC1F70)
+#define NPCCROWD_AI_NPCPOOLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xF5FB4D0)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int NPCPoolConfig_TypeDefinitionIndex = 61617;
+	inline static constexpr unsigned int NPCPoolConfig_TypeDefinitionIndex = 49760;
 
 	class NPCPoolConfig : public ::System::Object
 	{

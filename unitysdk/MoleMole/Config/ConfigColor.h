@@ -5,7 +5,7 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigColor_TypeDefinitionIndex = 48206;
+	inline static constexpr unsigned int ConfigColor_TypeDefinitionIndex = 59841;
 
 	struct alignas(4) ConfigColor
 	{

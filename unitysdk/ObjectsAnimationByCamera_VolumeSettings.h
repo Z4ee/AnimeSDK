@@ -4,9 +4,9 @@
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define OBJECTSANIMATIONBYCAMERA_VOLUMESETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x10DDAFD0)
+#define OBJECTSANIMATIONBYCAMERA_VOLUMESETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0xE20DDF0)
 
-inline static constexpr unsigned int ObjectsAnimationByCamera_VolumeSettings_TypeDefinitionIndex = 80522;
+inline static constexpr unsigned int ObjectsAnimationByCamera_VolumeSettings_TypeDefinitionIndex = 75783;
 
 class ObjectsAnimationByCamera_VolumeSettings : public ::System::Object
 {

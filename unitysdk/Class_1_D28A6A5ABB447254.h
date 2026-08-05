@@ -5,16 +5,16 @@
 
 namespace UnityEngine { class Texture; }
 
-#define CLASS_1_D28A6A5ABB447254__CTOR_1_OFFSET UNITYSDK_OFFSET(0xF802360)
-#define CLASS_1_D28A6A5ABB447254__CTOR_OFFSET UNITYSDK_OFFSET(0xF8021B0)
+#define CLASS_1_D28A6A5ABB447254__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1CB8FA80)
+#define CLASS_1_D28A6A5ABB447254__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB8F8D0)
 
-inline static constexpr unsigned int Class_1_D28A6A5ABB447254_TypeDefinitionIndex = 82866;
+inline static constexpr unsigned int Class_1_D28A6A5ABB447254_TypeDefinitionIndex = 44017;
 
 class Class_1_D28A6A5ABB447254 : public ::System::Object
 {
 public:
-	::Foundation::AssetRequestHandle Field_1_0; // 0x10
-	::UnityEngine::Texture* Field_1_1; // 0x30
+	::Foundation::AssetRequestHandle Field_1_1; // 0x10
+	::UnityEngine::Texture* Field_1_0; // 0x30
 
 	::System::Void _ctor(::Foundation::AssetRequestHandle a1)
 	{

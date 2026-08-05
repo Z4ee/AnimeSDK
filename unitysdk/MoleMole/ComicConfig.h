@@ -12,11 +12,11 @@ namespace UnityEngine::Timeline::Comic::DataSplitter { class FloatSplitter; }
 namespace UnityEngine::Timeline::Comic::DataSplitter { class PageDataSplitter; }
 namespace UnityEngine::Timeline::Comic::DataSplitter { class StringSplitter; }
 
-#define MOLEMOLE_COMICCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1E866370)
+#define MOLEMOLE_COMICCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1FC16B90)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ComicConfig_TypeDefinitionIndex = 32126;
+	inline static constexpr unsigned int ComicConfig_TypeDefinitionIndex = 32754;
 
 	class ComicConfig : public ::Sirenix::OdinInspector::SerializedScriptableObject
 	{

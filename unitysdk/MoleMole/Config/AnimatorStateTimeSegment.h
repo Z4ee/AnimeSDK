@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_CONFIG_ANIMATORSTATETIMESEGMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x162992E0)
+#define MOLEMOLE_CONFIG_ANIMATORSTATETIMESEGMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x16C2CFD0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AnimatorStateTimeSegment_TypeDefinitionIndex = 79991;
+	inline static constexpr unsigned int AnimatorStateTimeSegment_TypeDefinitionIndex = 54500;
 
 	class AnimatorStateTimeSegment : public ::System::Object
 	{

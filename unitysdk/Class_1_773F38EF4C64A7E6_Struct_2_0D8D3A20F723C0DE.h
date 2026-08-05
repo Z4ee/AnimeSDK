@@ -1,0 +1,180 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_773F38EF4C64A7E6_Enum_3_03F689414A10B659.h"
+#include "unitysdk/Foundation/Geometry/EllipseArc2D.h"
+#include "unitysdk/Foundation/Geometry/Segment2D.h"
+#include "unitysdk/System/ValueType.h"
+
+#define CLASS_1_773F38EF4C64A7E6_STRUCT_2_0D8D3A20F723C0DE_METHOD_2_07816DB63F495ACB_OFFSET UNITYSDK_OFFSET(0xE1EF840)
+#define CLASS_1_773F38EF4C64A7E6_STRUCT_2_0D8D3A20F723C0DE_METHOD_2_2565DD8BF62E9024_1_OFFSET UNITYSDK_OFFSET(0x5E7DC0)
+#define CLASS_1_773F38EF4C64A7E6_STRUCT_2_0D8D3A20F723C0DE_METHOD_2_2565DD8BF62E9024_OFFSET UNITYSDK_OFFSET(0x5E7C10)
+#define CLASS_1_773F38EF4C64A7E6_STRUCT_2_0D8D3A20F723C0DE_METHOD_2_3150507749BCEAEC_OFFSET UNITYSDK_OFFSET(0x5E7CC0)
+#define CLASS_1_773F38EF4C64A7E6_STRUCT_2_0D8D3A20F723C0DE_METHOD_2_3D54D7E914129428_OFFSET UNITYSDK_OFFSET(0xE1EC760)
+#define CLASS_1_773F38EF4C64A7E6_STRUCT_2_0D8D3A20F723C0DE_METHOD_2_3DC53A3685AAE52A_OFFSET UNITYSDK_OFFSET(0xE1EFA90)
+#define CLASS_1_773F38EF4C64A7E6_STRUCT_2_0D8D3A20F723C0DE_METHOD_2_4F7FCA931F5C34C0_OFFSET UNITYSDK_OFFSET(0xE1E7CB0)
+#define CLASS_1_773F38EF4C64A7E6_STRUCT_2_0D8D3A20F723C0DE_METHOD_2_5F8B86FC281957B7_OFFSET UNITYSDK_OFFSET(0xE1DB430)
+#define CLASS_1_773F38EF4C64A7E6_STRUCT_2_0D8D3A20F723C0DE_METHOD_2_6158AE6ECDF6209E_1_OFFSET UNITYSDK_OFFSET(0xE1ECAC0)
+#define CLASS_1_773F38EF4C64A7E6_STRUCT_2_0D8D3A20F723C0DE_METHOD_2_6158AE6ECDF6209E_OFFSET UNITYSDK_OFFSET(0xE1EBBA0)
+#define CLASS_1_773F38EF4C64A7E6_STRUCT_2_0D8D3A20F723C0DE_METHOD_2_72FB7BEB9B5FF09A_OFFSET UNITYSDK_OFFSET(0xE1EE330)
+#define CLASS_1_773F38EF4C64A7E6_STRUCT_2_0D8D3A20F723C0DE_METHOD_2_8CD203803E18EA21_OFFSET UNITYSDK_OFFSET(0xE1EC6A0)
+#define CLASS_1_773F38EF4C64A7E6_STRUCT_2_0D8D3A20F723C0DE_METHOD_2_8F1AECE0D29A9AFC_OFFSET UNITYSDK_OFFSET(0xE1DB360)
+#define CLASS_1_773F38EF4C64A7E6_STRUCT_2_0D8D3A20F723C0DE_METHOD_2_9EA543F65AC1F82E_1_OFFSET UNITYSDK_OFFSET(0xE1EFBE0)
+#define CLASS_1_773F38EF4C64A7E6_STRUCT_2_0D8D3A20F723C0DE_METHOD_2_9EA543F65AC1F82E_OFFSET UNITYSDK_OFFSET(0xE1ED410)
+#define CLASS_1_773F38EF4C64A7E6_STRUCT_2_0D8D3A20F723C0DE_METHOD_2_AC427C09A67912C2_1_OFFSET UNITYSDK_OFFSET(0x5E7D90)
+#define CLASS_1_773F38EF4C64A7E6_STRUCT_2_0D8D3A20F723C0DE_METHOD_2_AC427C09A67912C2_OFFSET UNITYSDK_OFFSET(0x5E7C90)
+#define CLASS_1_773F38EF4C64A7E6_STRUCT_2_0D8D3A20F723C0DE_METHOD_2_CD70557E8B07F9D0_OFFSET UNITYSDK_OFFSET(0xE1EFB90)
+#define CLASS_1_773F38EF4C64A7E6_STRUCT_2_0D8D3A20F723C0DE_METHOD_2_D73DA50E34B66EE6_1_OFFSET UNITYSDK_OFFSET(0xE1EC4F0)
+#define CLASS_1_773F38EF4C64A7E6_STRUCT_2_0D8D3A20F723C0DE_METHOD_2_D73DA50E34B66EE6_OFFSET UNITYSDK_OFFSET(0xE1EB9F0)
+#define CLASS_1_773F38EF4C64A7E6_STRUCT_2_0D8D3A20F723C0DE__CCTOR_OFFSET UNITYSDK_OFFSET(0xE1EB9C0)
+
+inline static constexpr unsigned int Class_1_773F38EF4C64A7E6_Struct_2_0D8D3A20F723C0DE_TypeDefinitionIndex = 79879;
+
+struct alignas(8) Class_1_773F38EF4C64A7E6_Struct_2_0D8D3A20F723C0DE
+{
+	static ::Class_1_773F38EF4C64A7E6_Struct_2_0D8D3A20F723C0DE* StaticGet_Field_2_5()
+	{
+		return (::Class_1_773F38EF4C64A7E6_Struct_2_0D8D3A20F723C0DE*)Il2CppClass::FromTypeDefinitionIndex(Class_1_773F38EF4C64A7E6_Struct_2_0D8D3A20F723C0DE_TypeDefinitionIndex)->GetStaticField(0xBFA0);
+	}
+	::Class_1_773F38EF4C64A7E6_Enum_3_03F689414A10B659 Field_2_0; // 0x10
+	::Foundation::Geometry::Segment2D Field_2_7; // 0x14
+	::Foundation::Geometry::EllipseArc2D Field_2_6; // 0x28
+
+	static ::System::Void _cctor()
+	{
+		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CLASS_1_773F38EF4C64A7E6_STRUCT_2_0D8D3A20F723C0DE__CCTOR_OFFSET))();
+	}
+
+	/*
+	static ::System::Int32 Method_2_D73DA50E34B66EE6(::Foundation::Geometry::Segment2D a1, ::System::Single a2, ::System::Span_1<::UnityEngine::Vector2> a3)
+	{
+		return ((::System::Int32(*)(::Foundation::Geometry::Segment2D, ::System::Single, ::System::Span_1<::UnityEngine::Vector2>))((::PBYTE)hIl2Cpp + CLASS_1_773F38EF4C64A7E6_STRUCT_2_0D8D3A20F723C0DE_METHOD_2_D73DA50E34B66EE6_OFFSET))(a1, a2, a3);
+	}
+	*/
+
+	/*
+	static ::System::Int32 Method_2_6158AE6ECDF6209E(::Foundation::Geometry::Segment2D a1, ::System::Single a2, ::System::Span_1<::Class_1_773F38EF4C64A7E6_Struct_2_0D8D3A20F723C0DE> a3, ::System::Boolean a4)
+	{
+		return ((::System::Int32(*)(::Foundation::Geometry::Segment2D, ::System::Single, ::System::Span_1<::Class_1_773F38EF4C64A7E6_Struct_2_0D8D3A20F723C0DE>, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_773F38EF4C64A7E6_STRUCT_2_0D8D3A20F723C0DE_METHOD_2_6158AE6ECDF6209E_OFFSET))(a1, a2, a3, a4);
+	}
+	*/
+
+	/*
+	static ::System::Int32 Method_2_3D54D7E914129428(::System::Span_1<::System::Single> a1, ::System::Single a2, ::System::Single a3, ::Class_1_773F38EF4C64A7E6_Struct_2_0D8D3A20F723C0DE_Struct_2_31B776F975EC09A6& a4)
+	{
+		return ((::System::Int32(*)(::System::Span_1<::System::Single>, ::System::Single, ::System::Single, ::Class_1_773F38EF4C64A7E6_Struct_2_0D8D3A20F723C0DE_Struct_2_31B776F975EC09A6&))((::PBYTE)hIl2Cpp + CLASS_1_773F38EF4C64A7E6_STRUCT_2_0D8D3A20F723C0DE_METHOD_2_3D54D7E914129428_OFFSET))(a1, a2, a3, a4);
+	}
+	*/
+
+	/*
+	::UnityEngine::Vector2 Method_2_2565DD8BF62E9024()
+	{
+		return ((::UnityEngine::Vector2(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_773F38EF4C64A7E6_STRUCT_2_0D8D3A20F723C0DE_METHOD_2_2565DD8BF62E9024_OFFSET))(this);
+	}
+	*/
+
+	/*
+	::System::Int32 Method_2_AC427C09A67912C2(::System::Single a1, ::System::Span_1<::Class_1_773F38EF4C64A7E6_Struct_2_0D8D3A20F723C0DE> a2, ::System::Boolean a3)
+	{
+		return ((::System::Int32(*)(::PVOID, ::System::Single, ::System::Span_1<::Class_1_773F38EF4C64A7E6_Struct_2_0D8D3A20F723C0DE>, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_773F38EF4C64A7E6_STRUCT_2_0D8D3A20F723C0DE_METHOD_2_AC427C09A67912C2_OFFSET))(this, a1, a2, a3);
+	}
+	*/
+
+	/*
+	static ::System::Int32 Method_2_D73DA50E34B66EE6_1(::Foundation::Geometry::Segment2D a1, ::System::Single a2, ::System::Span_1<::UnityEngine::Vector2> a3)
+	{
+		return ((::System::Int32(*)(::Foundation::Geometry::Segment2D, ::System::Single, ::System::Span_1<::UnityEngine::Vector2>))((::PBYTE)hIl2Cpp + CLASS_1_773F38EF4C64A7E6_STRUCT_2_0D8D3A20F723C0DE_METHOD_2_D73DA50E34B66EE6_1_OFFSET))(a1, a2, a3);
+	}
+	*/
+
+	/*
+	static ::System::Int32 Method_2_9EA543F65AC1F82E(::Foundation::Geometry::EllipseArc2D a1, ::System::Single a2, ::System::Span_1<::Class_1_773F38EF4C64A7E6_Struct_2_0D8D3A20F723C0DE> a3, ::System::Boolean a4)
+	{
+		return ((::System::Int32(*)(::Foundation::Geometry::EllipseArc2D, ::System::Single, ::System::Span_1<::Class_1_773F38EF4C64A7E6_Struct_2_0D8D3A20F723C0DE>, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_773F38EF4C64A7E6_STRUCT_2_0D8D3A20F723C0DE_METHOD_2_9EA543F65AC1F82E_OFFSET))(a1, a2, a3, a4);
+	}
+	*/
+
+	/*
+	static ::Class_1_773F38EF4C64A7E6_Struct_2_0D8D3A20F723C0DE Method_2_8F1AECE0D29A9AFC(::UnityEngine::Vector2 a1, ::UnityEngine::Vector2 a2)
+	{
+		return ((::Class_1_773F38EF4C64A7E6_Struct_2_0D8D3A20F723C0DE(*)(::UnityEngine::Vector2, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + CLASS_1_773F38EF4C64A7E6_STRUCT_2_0D8D3A20F723C0DE_METHOD_2_8F1AECE0D29A9AFC_OFFSET))(a1, a2);
+	}
+	*/
+
+	/*
+	static ::System::Int32 Method_2_CD70557E8B07F9D0(::System::Span_1<::System::Single> a1, ::System::Single a2, ::Class_1_773F38EF4C64A7E6_Struct_2_0D8D3A20F723C0DE_Struct_2_31B776F975EC09A6& a3)
+	{
+		return ((::System::Int32(*)(::System::Span_1<::System::Single>, ::System::Single, ::Class_1_773F38EF4C64A7E6_Struct_2_0D8D3A20F723C0DE_Struct_2_31B776F975EC09A6&))((::PBYTE)hIl2Cpp + CLASS_1_773F38EF4C64A7E6_STRUCT_2_0D8D3A20F723C0DE_METHOD_2_CD70557E8B07F9D0_OFFSET))(a1, a2, a3);
+	}
+	*/
+
+	/*
+	static ::System::Int32 Method_2_9EA543F65AC1F82E_1(::Foundation::Geometry::EllipseArc2D a1, ::System::Single a2, ::System::Span_1<::Class_1_773F38EF4C64A7E6_Struct_2_0D8D3A20F723C0DE> a3, ::System::Boolean a4)
+	{
+		return ((::System::Int32(*)(::Foundation::Geometry::EllipseArc2D, ::System::Single, ::System::Span_1<::Class_1_773F38EF4C64A7E6_Struct_2_0D8D3A20F723C0DE>, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_773F38EF4C64A7E6_STRUCT_2_0D8D3A20F723C0DE_METHOD_2_9EA543F65AC1F82E_1_OFFSET))(a1, a2, a3, a4);
+	}
+	*/
+
+	/*
+	static ::System::Int32 Method_2_72FB7BEB9B5FF09A(::Foundation::Geometry::Ellipse2D a1, ::System::Single a2, ::System::Single a3, ::System::Single a4, ::System::Single a5, ::System::Single a6, ::System::Span_1<::System::Single> a7)
+	{
+		return ((::System::Int32(*)(::Foundation::Geometry::Ellipse2D, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Span_1<::System::Single>))((::PBYTE)hIl2Cpp + CLASS_1_773F38EF4C64A7E6_STRUCT_2_0D8D3A20F723C0DE_METHOD_2_72FB7BEB9B5FF09A_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
+	}
+	*/
+
+	/*
+	static ::Class_1_773F38EF4C64A7E6_Struct_2_0D8D3A20F723C0DE Method_2_07816DB63F495ACB(::Foundation::Geometry::Ellipse2D a1, ::System::Single a2, ::System::Single a3)
+	{
+		return ((::Class_1_773F38EF4C64A7E6_Struct_2_0D8D3A20F723C0DE(*)(::Foundation::Geometry::Ellipse2D, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_773F38EF4C64A7E6_STRUCT_2_0D8D3A20F723C0DE_METHOD_2_07816DB63F495ACB_OFFSET))(a1, a2, a3);
+	}
+	*/
+
+	static ::Class_1_773F38EF4C64A7E6_Struct_2_0D8D3A20F723C0DE Method_2_3DC53A3685AAE52A(::Foundation::Geometry::EllipseArc2D a1)
+	{
+		return ((::Class_1_773F38EF4C64A7E6_Struct_2_0D8D3A20F723C0DE(*)(::Foundation::Geometry::EllipseArc2D))((::PBYTE)hIl2Cpp + CLASS_1_773F38EF4C64A7E6_STRUCT_2_0D8D3A20F723C0DE_METHOD_2_3DC53A3685AAE52A_OFFSET))(a1);
+	}
+
+	::System::Single Method_2_3150507749BCEAEC()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_773F38EF4C64A7E6_STRUCT_2_0D8D3A20F723C0DE_METHOD_2_3150507749BCEAEC_OFFSET))(this);
+	}
+
+	/*
+	::System::Int32 Method_2_AC427C09A67912C2_1(::System::Single a1, ::System::Span_1<::Class_1_773F38EF4C64A7E6_Struct_2_0D8D3A20F723C0DE> a2, ::System::Boolean a3)
+	{
+		return ((::System::Int32(*)(::PVOID, ::System::Single, ::System::Span_1<::Class_1_773F38EF4C64A7E6_Struct_2_0D8D3A20F723C0DE>, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_773F38EF4C64A7E6_STRUCT_2_0D8D3A20F723C0DE_METHOD_2_AC427C09A67912C2_1_OFFSET))(this, a1, a2, a3);
+	}
+	*/
+
+	/*
+	::UnityEngine::Vector2 Method_2_2565DD8BF62E9024_1()
+	{
+		return ((::UnityEngine::Vector2(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_773F38EF4C64A7E6_STRUCT_2_0D8D3A20F723C0DE_METHOD_2_2565DD8BF62E9024_1_OFFSET))(this);
+	}
+	*/
+
+	static ::Class_1_773F38EF4C64A7E6_Struct_2_0D8D3A20F723C0DE Method_2_8CD203803E18EA21(::Foundation::Geometry::Segment2D a1)
+	{
+		return ((::Class_1_773F38EF4C64A7E6_Struct_2_0D8D3A20F723C0DE(*)(::Foundation::Geometry::Segment2D))((::PBYTE)hIl2Cpp + CLASS_1_773F38EF4C64A7E6_STRUCT_2_0D8D3A20F723C0DE_METHOD_2_8CD203803E18EA21_OFFSET))(a1);
+	}
+
+	/*
+	static ::System::Int32 Method_2_6158AE6ECDF6209E_1(::Foundation::Geometry::Segment2D a1, ::System::Single a2, ::System::Span_1<::Class_1_773F38EF4C64A7E6_Struct_2_0D8D3A20F723C0DE> a3, ::System::Boolean a4)
+	{
+		return ((::System::Int32(*)(::Foundation::Geometry::Segment2D, ::System::Single, ::System::Span_1<::Class_1_773F38EF4C64A7E6_Struct_2_0D8D3A20F723C0DE>, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_773F38EF4C64A7E6_STRUCT_2_0D8D3A20F723C0DE_METHOD_2_6158AE6ECDF6209E_1_OFFSET))(a1, a2, a3, a4);
+	}
+	*/
+
+	/*
+	static ::Class_1_773F38EF4C64A7E6_Struct_2_0D8D3A20F723C0DE Method_2_5F8B86FC281957B7(::Foundation::Geometry::Ellipse2D a1, ::UnityEngine::Vector2 a2, ::UnityEngine::Vector2 a3)
+	{
+		return ((::Class_1_773F38EF4C64A7E6_Struct_2_0D8D3A20F723C0DE(*)(::Foundation::Geometry::Ellipse2D, ::UnityEngine::Vector2, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + CLASS_1_773F38EF4C64A7E6_STRUCT_2_0D8D3A20F723C0DE_METHOD_2_5F8B86FC281957B7_OFFSET))(a1, a2, a3);
+	}
+	*/
+
+	/*
+	static ::Class_1_773F38EF4C64A7E6_Struct_2_0D8D3A20F723C0DE Method_2_4F7FCA931F5C34C0(::Foundation::Geometry::Ellipse2D a1)
+	{
+		return ((::Class_1_773F38EF4C64A7E6_Struct_2_0D8D3A20F723C0DE(*)(::Foundation::Geometry::Ellipse2D))((::PBYTE)hIl2Cpp + CLASS_1_773F38EF4C64A7E6_STRUCT_2_0D8D3A20F723C0DE_METHOD_2_4F7FCA931F5C34C0_OFFSET))(a1);
+	}
+	*/
+};

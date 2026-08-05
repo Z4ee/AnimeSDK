@@ -15,12 +15,12 @@ namespace System::Reflection { class MemberInfo; }
 namespace System::Reflection { class MethodInfo; }
 namespace System::Reflection { class PropertyInfo; }
 
-#define UTF8JSON_INTERNAL_EMIT_EXPRESSIONUTILITY_GETMETHODINFOCORE_OFFSET UNITYSDK_OFFSET(0x1E7ED1B0)
-#define UTF8JSON_INTERNAL_EMIT_EXPRESSIONUTILITY_GETMETHODINFO_OFFSET UNITYSDK_OFFSET(0x1E7ED250)
+#define UTF8JSON_INTERNAL_EMIT_EXPRESSIONUTILITY_GETMETHODINFOCORE_OFFSET UNITYSDK_OFFSET(0x1FBCDC00)
+#define UTF8JSON_INTERNAL_EMIT_EXPRESSIONUTILITY_GETMETHODINFO_OFFSET UNITYSDK_OFFSET(0x1FBCDCA0)
 
 namespace Utf8Json::Internal::Emit
 {
-	inline static constexpr unsigned int ExpressionUtility_TypeDefinitionIndex = 91248;
+	inline static constexpr unsigned int ExpressionUtility_TypeDefinitionIndex = 95181;
 
 	class ExpressionUtility : public ::System::Object
 	{

@@ -6,20 +6,20 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_PCRTXQUALITYSETTINGCONTEXT_ISSHOWONUIINNER_OFFSET UNITYSDK_OFFSET(0x12BD7EF0)
-#define MOLEMOLE_PCRTXQUALITYSETTINGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x12BD8160)
-#define MOLEMOLE_PCRTXQUALITYSETTINGCONTEXT___BASE_ISSHOWONUIINNER_OFFSET UNITYSDK_OFFSET(0x12BD8200)
+#define MOLEMOLE_PCRTXQUALITYSETTINGCONTEXT_ISSHOWONUIINNER_OFFSET UNITYSDK_OFFSET(0x138572D0)
+#define MOLEMOLE_PCRTXQUALITYSETTINGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x13857530)
+#define MOLEMOLE_PCRTXQUALITYSETTINGCONTEXT___BASE_ISSHOWONUIINNER_OFFSET UNITYSDK_OFFSET(0x138575D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int PCRTXQualitySettingContext_TypeDefinitionIndex = 58264;
+	inline static constexpr unsigned int PCRTXQualitySettingContext_TypeDefinitionIndex = 70832;
 
 	class PCRTXQualitySettingContext : public ::MoleMole::SystemSettingContextBase
 	{
 	public:
 		::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::String*, ::System::Boolean>>* ShowOnUIRegexList; // 0x28
-		::System::Boolean CustomDefaultShowOnUI; // 0x30
-		::System::Int32 QualityLevel; // 0x34
+		::System::Int32 QualityLevel; // 0x30
+		::System::Boolean CustomDefaultShowOnUI; // 0x34
 
 		::System::Void _ctor()
 		{

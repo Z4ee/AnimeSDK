@@ -8,7 +8,7 @@ namespace UnityEngine { class Mesh; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoNPCIndicator___c__44_1_TypeDefinitionIndex = 55105;
+	inline static constexpr unsigned int MonoNPCIndicator___c__44_1_TypeDefinitionIndex = 43800;
 
 	template <typename T>
 	class MonoNPCIndicator___c__44_1 : public ::System::Object

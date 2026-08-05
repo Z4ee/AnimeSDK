@@ -6,9 +6,9 @@ namespace MoleMole::Config { class ConfigDynamicValue; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_3FA5D0827BD681C1__CTOR_OFFSET UNITYSDK_OFFSET(0xFFDAA90)
+#define CLASS_1_3FA5D0827BD681C1__CTOR_OFFSET UNITYSDK_OFFSET(0x17205C20)
 
-inline static constexpr unsigned int Class_1_3FA5D0827BD681C1_TypeDefinitionIndex = 86095;
+inline static constexpr unsigned int Class_1_3FA5D0827BD681C1_TypeDefinitionIndex = 79664;
 
 class Class_1_3FA5D0827BD681C1 : public ::System::Object
 {

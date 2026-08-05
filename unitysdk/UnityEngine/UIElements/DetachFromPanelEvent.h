@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/UIElements/PanelChangedEventBase_1.h"
 
-#define UNITYENGINE_UIELEMENTS_DETACHFROMPANELEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBDCEB0)
+#define UNITYENGINE_UIELEMENTS_DETACHFROMPANELEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFF4520)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int DetachFromPanelEvent_TypeDefinitionIndex = 27550;
+	inline static constexpr unsigned int DetachFromPanelEvent_TypeDefinitionIndex = 28152;
 
 	class DetachFromPanelEvent : public ::UnityEngine::UIElements::PanelChangedEventBase_1<::UnityEngine::UIElements::DetachFromPanelEvent*>
 	{

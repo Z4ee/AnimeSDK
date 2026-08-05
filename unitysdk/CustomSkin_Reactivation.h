@@ -2,27 +2,27 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/PluginUI/MiHoYoSDKUIContainer.h"
 
-class Class_2_79AE422BA06F6D26_103;
+class Class_2_79AE422BA06F6D26_83;
 namespace MoleMole { class UIGeneralDescriptConfrimDialogPopWindowController; }
 
-#define CUSTOMSKIN_REACTIVATION_CLICKCLOSE_OFFSET UNITYSDK_OFFSET(0x1268B370)
-#define CUSTOMSKIN_REACTIVATION_CLICKCONFRIM_OFFSET UNITYSDK_OFFSET(0x1268B3F0)
-#define CUSTOMSKIN_REACTIVATION_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1268AA80)
-#define CUSTOMSKIN_REACTIVATION_ONCLOSE_OFFSET UNITYSDK_OFFSET(0x1268AC40)
-#define CUSTOMSKIN_REACTIVATION_ONSHOW_OFFSET UNITYSDK_OFFSET(0x1268AD60)
-#define CUSTOMSKIN_REACTIVATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1268ABB0)
+#define CUSTOMSKIN_REACTIVATION_CLICKCLOSE_OFFSET UNITYSDK_OFFSET(0x124F31B0)
+#define CUSTOMSKIN_REACTIVATION_CLICKCONFRIM_OFFSET UNITYSDK_OFFSET(0x124F3230)
+#define CUSTOMSKIN_REACTIVATION_INSTANCE_OFFSET UNITYSDK_OFFSET(0x124F28D0)
+#define CUSTOMSKIN_REACTIVATION_ONCLOSE_OFFSET UNITYSDK_OFFSET(0x124F2A90)
+#define CUSTOMSKIN_REACTIVATION_ONSHOW_OFFSET UNITYSDK_OFFSET(0x124F2BA0)
+#define CUSTOMSKIN_REACTIVATION__CTOR_OFFSET UNITYSDK_OFFSET(0x124F2A00)
 
-inline static constexpr unsigned int CustomSkin_Reactivation_TypeDefinitionIndex = 66050;
+inline static constexpr unsigned int CustomSkin_Reactivation_TypeDefinitionIndex = 64439;
 
 class CustomSkin_Reactivation : public ::MiHoYo::SDK::PluginUI::MiHoYoSDKUIContainer
 {
 public:
 	static ::CustomSkin_Reactivation** StaticGet__instance()
 	{
-		return (::CustomSkin_Reactivation**)Il2CppClass::FromTypeDefinitionIndex(CustomSkin_Reactivation_TypeDefinitionIndex)->GetStaticField(0x42280);
+		return (::CustomSkin_Reactivation**)Il2CppClass::FromTypeDefinitionIndex(CustomSkin_Reactivation_TypeDefinitionIndex)->GetStaticField(0x45D60);
 	}
-	::MoleMole::UIGeneralDescriptConfrimDialogPopWindowController* _controller; // 0x18
-	::Class_2_79AE422BA06F6D26_103* _view; // 0x20
+	::Class_2_79AE422BA06F6D26_83* _view; // 0x18
+	::MoleMole::UIGeneralDescriptConfrimDialogPopWindowController* _controller; // 0x20
 
 	::System::Void _ctor()
 	{

@@ -7,11 +7,11 @@
 namespace MoleMole::Arcade::RabGame { class RabGameConsole_PropertyOverride; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_ARCADE_RABGAME_RABGAMECONSOLE_BANGBOOSETUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1DC97A60)
+#define MOLEMOLE_ARCADE_RABGAME_RABGAMECONSOLE_BANGBOOSETUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1F6F9170)
 
 namespace MoleMole::Arcade::RabGame
 {
-	inline static constexpr unsigned int RabGameConsole_BangbooSetup_TypeDefinitionIndex = 89450;
+	inline static constexpr unsigned int RabGameConsole_BangbooSetup_TypeDefinitionIndex = 93450;
 
 	class RabGameConsole_BangbooSetup : public ::System::Object
 	{

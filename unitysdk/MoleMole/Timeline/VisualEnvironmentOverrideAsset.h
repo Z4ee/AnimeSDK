@@ -7,12 +7,12 @@
 namespace MoleMole::Timeline { class VisualEnvironmentOverrideBehavior; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_TIMELINE_VISUALENVIRONMENTOVERRIDEASSET_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x173AB090)
-#define MOLEMOLE_TIMELINE_VISUALENVIRONMENTOVERRIDEASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x173AB1E0)
+#define MOLEMOLE_TIMELINE_VISUALENVIRONMENTOVERRIDEASSET_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x18DED840)
+#define MOLEMOLE_TIMELINE_VISUALENVIRONMENTOVERRIDEASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x18DED990)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int VisualEnvironmentOverrideAsset_TypeDefinitionIndex = 57507;
+	inline static constexpr unsigned int VisualEnvironmentOverrideAsset_TypeDefinitionIndex = 91010;
 
 	class VisualEnvironmentOverrideAsset : public ::UnityEngine::Playables::PlayableAsset
 	{

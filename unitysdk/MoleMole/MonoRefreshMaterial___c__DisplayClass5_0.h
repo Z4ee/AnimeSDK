@@ -8,13 +8,13 @@ namespace MoleMole { class MonoRefreshMaterial; }
 namespace MoleMole { class UIItemIconBtnWidgetController; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_MONOREFRESHMATERIAL___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17E978F0)
-#define MOLEMOLE_MONOREFRESHMATERIAL___C__DISPLAYCLASS5_0__PLAYITEMICONADDANI_B__2_OFFSET UNITYSDK_OFFSET(0x17E97900)
-#define MOLEMOLE_MONOREFRESHMATERIAL___C__DISPLAYCLASS5_0__PLAYITEMICONADDANI_B__6_OFFSET UNITYSDK_OFFSET(0x17E979F0)
+#define MOLEMOLE_MONOREFRESHMATERIAL___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x191AD9E0)
+#define MOLEMOLE_MONOREFRESHMATERIAL___C__DISPLAYCLASS5_0__PLAYITEMICONADDANI_B__2_OFFSET UNITYSDK_OFFSET(0x191AD9F0)
+#define MOLEMOLE_MONOREFRESHMATERIAL___C__DISPLAYCLASS5_0__PLAYITEMICONADDANI_B__6_OFFSET UNITYSDK_OFFSET(0x191ADAE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoRefreshMaterial___c__DisplayClass5_0_TypeDefinitionIndex = 79565;
+	inline static constexpr unsigned int MonoRefreshMaterial___c__DisplayClass5_0_TypeDefinitionIndex = 48751;
 
 	class MonoRefreshMaterial___c__DisplayClass5_0 : public ::System::Object
 	{

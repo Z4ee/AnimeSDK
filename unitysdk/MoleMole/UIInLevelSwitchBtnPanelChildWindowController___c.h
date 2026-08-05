@@ -6,29 +6,29 @@ namespace System { class EventArgs; }
 namespace System { template <typename T> class Action_1; }
 namespace System { template <typename T> class Func_1; }
 
-#define MOLEMOLE_UIINLEVELSWITCHBTNPANELCHILDWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x16BFF6B0)
-#define MOLEMOLE_UIINLEVELSWITCHBTNPANELCHILDWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x16BFF6F0)
-#define MOLEMOLE_UIINLEVELSWITCHBTNPANELCHILDWINDOWCONTROLLER___C__INITSWITCHAVATARCOMPONENT_B__25_0_OFFSET UNITYSDK_OFFSET(0x16BFF710)
-#define MOLEMOLE_UIINLEVELSWITCHBTNPANELCHILDWINDOWCONTROLLER___C__ONUIOPEN_B__18_3_OFFSET UNITYSDK_OFFSET(0x16BFF700)
+#define MOLEMOLE_UIINLEVELSWITCHBTNPANELCHILDWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19C91980)
+#define MOLEMOLE_UIINLEVELSWITCHBTNPANELCHILDWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19C919C0)
+#define MOLEMOLE_UIINLEVELSWITCHBTNPANELCHILDWINDOWCONTROLLER___C__INITSWITCHAVATARCOMPONENT_B__25_0_OFFSET UNITYSDK_OFFSET(0x19C919E0)
+#define MOLEMOLE_UIINLEVELSWITCHBTNPANELCHILDWINDOWCONTROLLER___C__ONUIOPEN_B__18_3_OFFSET UNITYSDK_OFFSET(0x19C919D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInLevelSwitchBtnPanelChildWindowController___c_TypeDefinitionIndex = 61408;
+	inline static constexpr unsigned int UIInLevelSwitchBtnPanelChildWindowController___c_TypeDefinitionIndex = 91116;
 
 	class UIInLevelSwitchBtnPanelChildWindowController___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::System::EventArgs*>** StaticGet___9__18_3()
-		{
-			return (::System::Action_1<::System::EventArgs*>**)Il2CppClass::FromTypeDefinitionIndex(UIInLevelSwitchBtnPanelChildWindowController___c_TypeDefinitionIndex)->GetStaticField(0x347A0);
-		}
 		static ::System::Func_1<::System::Boolean>** StaticGet___9__25_0()
 		{
-			return (::System::Func_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIInLevelSwitchBtnPanelChildWindowController___c_TypeDefinitionIndex)->GetStaticField(0x347A8);
+			return (::System::Func_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIInLevelSwitchBtnPanelChildWindowController___c_TypeDefinitionIndex)->GetStaticField(0x36DD0);
 		}
 		static ::MoleMole::UIInLevelSwitchBtnPanelChildWindowController___c** StaticGet___9()
 		{
-			return (::MoleMole::UIInLevelSwitchBtnPanelChildWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UIInLevelSwitchBtnPanelChildWindowController___c_TypeDefinitionIndex)->GetStaticField(0x347B0);
+			return (::MoleMole::UIInLevelSwitchBtnPanelChildWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UIInLevelSwitchBtnPanelChildWindowController___c_TypeDefinitionIndex)->GetStaticField(0x36DD8);
+		}
+		static ::System::Action_1<::System::EventArgs*>** StaticGet___9__18_3()
+		{
+			return (::System::Action_1<::System::EventArgs*>**)Il2CppClass::FromTypeDefinitionIndex(UIInLevelSwitchBtnPanelChildWindowController___c_TypeDefinitionIndex)->GetStaticField(0x36DE0);
 		}
 
 		static ::System::Void _cctor()

@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace UnityEngine { class Gradient; }
 
-#define MOLEMOLE_LEVEL_BANGBOOFINDOBJCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x12BC73F0)
+#define MOLEMOLE_LEVEL_BANGBOOFINDOBJCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x13845F70)
 
 namespace MoleMole::Level
 {
-	inline static constexpr unsigned int BangbooFindObjConfig_TypeDefinitionIndex = 62230;
+	inline static constexpr unsigned int BangbooFindObjConfig_TypeDefinitionIndex = 79192;
 
 	class BangbooFindObjConfig : public ::System::Object
 	{

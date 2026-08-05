@@ -7,7 +7,7 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace ObservableCollections
 {
-	inline static constexpr unsigned int ObservableHashSet_1_View_1___c_TypeDefinitionIndex = 28268;
+	inline static constexpr unsigned int ObservableHashSet_1_View_1___c_TypeDefinitionIndex = 28789;
 
 	template <typename T, typename TView>
 	class ObservableHashSet_1_View_1___c : public ::System::Object

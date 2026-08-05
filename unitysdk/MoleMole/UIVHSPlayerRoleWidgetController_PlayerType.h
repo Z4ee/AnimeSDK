@@ -3,12 +3,12 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIVHSPlayerRoleWidgetController_PlayerType_TypeDefinitionIndex = 82246;
+	inline static constexpr unsigned int UIVHSPlayerRoleWidgetController_PlayerType_TypeDefinitionIndex = 54711;
 
 	enum class UIVHSPlayerRoleWidgetController_PlayerType : ::System::Int32
 	{
+		Brother = 2,
 		None = 0,
 		Sister = 1,
-		Brother = 2,
 	};
 }

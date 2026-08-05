@@ -9,12 +9,12 @@ namespace System::Collections::ObjectModel { template <typename T> class ReadOnl
 namespace System::Linq::Expressions { class Expression; }
 namespace System::Reflection { class MethodInfo; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_METHODCALLEXPRESSION4_GETARGUMENT_OFFSET UNITYSDK_OFFSET(0x1E38AE90)
-#define SYSTEM_LINQ_EXPRESSIONS_METHODCALLEXPRESSION4_GETORMAKEARGUMENTS_OFFSET UNITYSDK_OFFSET(0x1E38B600)
-#define SYSTEM_LINQ_EXPRESSIONS_METHODCALLEXPRESSION4_GET_ARGUMENTCOUNT_OFFSET UNITYSDK_OFFSET(0x1E38AF40)
-#define SYSTEM_LINQ_EXPRESSIONS_METHODCALLEXPRESSION4_REWRITE_OFFSET UNITYSDK_OFFSET(0x1E38B610)
-#define SYSTEM_LINQ_EXPRESSIONS_METHODCALLEXPRESSION4_SAMEARGUMENTS_OFFSET UNITYSDK_OFFSET(0x1E38AF50)
-#define SYSTEM_LINQ_EXPRESSIONS_METHODCALLEXPRESSION4__CTOR_OFFSET UNITYSDK_OFFSET(0x1E38AE10)
+#define SYSTEM_LINQ_EXPRESSIONS_METHODCALLEXPRESSION4_GETARGUMENT_OFFSET UNITYSDK_OFFSET(0x1F7BEBD0)
+#define SYSTEM_LINQ_EXPRESSIONS_METHODCALLEXPRESSION4_GETORMAKEARGUMENTS_OFFSET UNITYSDK_OFFSET(0x1F7BF330)
+#define SYSTEM_LINQ_EXPRESSIONS_METHODCALLEXPRESSION4_GET_ARGUMENTCOUNT_OFFSET UNITYSDK_OFFSET(0x1F7BEC70)
+#define SYSTEM_LINQ_EXPRESSIONS_METHODCALLEXPRESSION4_REWRITE_OFFSET UNITYSDK_OFFSET(0x1F7BF340)
+#define SYSTEM_LINQ_EXPRESSIONS_METHODCALLEXPRESSION4_SAMEARGUMENTS_OFFSET UNITYSDK_OFFSET(0x1F7BEC80)
+#define SYSTEM_LINQ_EXPRESSIONS_METHODCALLEXPRESSION4__CTOR_OFFSET UNITYSDK_OFFSET(0x1F7BEB50)
 
 namespace System::Linq::Expressions
 {
@@ -23,10 +23,10 @@ namespace System::Linq::Expressions
 	class MethodCallExpression4 : public ::System::Linq::Expressions::MethodCallExpression
 	{
 	public:
-		::System::Linq::Expressions::Expression* _arg1; // 0x18
-		::System::Linq::Expressions::Expression* _arg2; // 0x20
+		::System::Linq::Expressions::Expression* _arg2; // 0x18
+		::System::Linq::Expressions::Expression* _arg3; // 0x20
 		::System::Object* _arg0; // 0x28
-		::System::Linq::Expressions::Expression* _arg3; // 0x30
+		::System::Linq::Expressions::Expression* _arg1; // 0x30
 
 		::System::Void _ctor(::System::Reflection::MethodInfo* method, ::System::Linq::Expressions::Expression* arg0, ::System::Linq::Expressions::Expression* arg1, ::System::Linq::Expressions::Expression* arg2, ::System::Linq::Expressions::Expression* arg3)
 		{

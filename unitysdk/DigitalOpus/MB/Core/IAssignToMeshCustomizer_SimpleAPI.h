@@ -9,7 +9,7 @@ namespace UnityEngine { class Mesh; }
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int IAssignToMeshCustomizer_SimpleAPI_TypeDefinitionIndex = 90660;
+	inline static constexpr unsigned int IAssignToMeshCustomizer_SimpleAPI_TypeDefinitionIndex = 94593;
 
 	class IAssignToMeshCustomizer_SimpleAPI
 	{

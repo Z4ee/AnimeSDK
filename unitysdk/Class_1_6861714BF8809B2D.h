@@ -5,15 +5,15 @@
 
 namespace System { class String; }
 
-#define CLASS_1_6861714BF8809B2D__CTOR_OFFSET UNITYSDK_OFFSET(0x1297F150)
+#define CLASS_1_6861714BF8809B2D__CTOR_OFFSET UNITYSDK_OFFSET(0x14A2A420)
 
-inline static constexpr unsigned int Class_1_6861714BF8809B2D_TypeDefinitionIndex = 49663;
+inline static constexpr unsigned int Class_1_6861714BF8809B2D_TypeDefinitionIndex = 79161;
 
 class Class_1_6861714BF8809B2D : public ::System::Object
 {
 public:
-	::System::String* Field_1_0; // 0x10
-	::MoleMole::Config::ScreenEffectType Field_1_1; // 0x18
+	::System::String* Field_1_1; // 0x10
+	::MoleMole::Config::ScreenEffectType Field_1_0; // 0x18
 
 	::System::Void _ctor()
 	{

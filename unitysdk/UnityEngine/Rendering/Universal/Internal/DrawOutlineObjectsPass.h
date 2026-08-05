@@ -10,26 +10,26 @@ namespace System { class String; }
 namespace UnityEngine::NAPRenderPipeline0 { class ProfilingSampler; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DRAWOUTLINEOBJECTSPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1C405C00)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DRAWOUTLINEOBJECTSPASS_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1C406540)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DRAWOUTLINEOBJECTSPASS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C4065E0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DRAWOUTLINEOBJECTSPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1C405AF0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DRAWOUTLINEOBJECTSPASS___BASE_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1C406620)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DRAWOUTLINEOBJECTSPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1D6E4E70)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DRAWOUTLINEOBJECTSPASS_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1D6E5770)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DRAWOUTLINEOBJECTSPASS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D6E5810)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DRAWOUTLINEOBJECTSPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6E4D60)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DRAWOUTLINEOBJECTSPASS___BASE_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1D6E5850)
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int DrawOutlineObjectsPass_TypeDefinitionIndex = 26216;
+	inline static constexpr unsigned int DrawOutlineObjectsPass_TypeDefinitionIndex = 27016;
 
 	class DrawOutlineObjectsPass : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 	{
 	public:
 		static ::System::Int32* StaticGet__OutlineObjectsTex()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DrawOutlineObjectsPass_TypeDefinitionIndex)->GetStaticField(0x6F30);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DrawOutlineObjectsPass_TypeDefinitionIndex)->GetStaticField(0x6EB0);
 		}
 		// static const ::System::Int32 downSample = 0x4; // 0x0
-		::System::String* m_ProfilerTag; // 0xA8
-		::UnityEngine::NAPRenderPipeline0::ProfilingSampler* m_ProfilingSampler; // 0xB0
+		::UnityEngine::NAPRenderPipeline0::ProfilingSampler* m_ProfilingSampler; // 0xA8
+		::System::String* m_ProfilerTag; // 0xB0
 		::System::Int32 cullingMask; // 0xB8
 
 		::System::Void _ctor(::UnityEngine::NAPRenderPipeline0::RenderPassEvent evt)

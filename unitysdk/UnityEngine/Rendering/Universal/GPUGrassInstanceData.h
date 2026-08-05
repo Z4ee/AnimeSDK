@@ -5,12 +5,12 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_GPUGRASSINSTANCEDATA__CTOR_1_OFFSET UNITYSDK_OFFSET(0x98E6B0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_GPUGRASSINSTANCEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x98E600)
+#define UNITYENGINE_RENDERING_UNIVERSAL_GPUGRASSINSTANCEDATA__CTOR_1_OFFSET UNITYSDK_OFFSET(0x9DB2D0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_GPUGRASSINSTANCEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x9DB220)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int GPUGrassInstanceData_TypeDefinitionIndex = 26978;
+	inline static constexpr unsigned int GPUGrassInstanceData_TypeDefinitionIndex = 26943;
 
 	struct alignas(4) GPUGrassInstanceData
 	{

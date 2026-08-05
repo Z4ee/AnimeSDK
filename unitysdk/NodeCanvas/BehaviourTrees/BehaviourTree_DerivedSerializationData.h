@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define NODECANVAS_BEHAVIOURTREES_BEHAVIOURTREE_DERIVEDSERIALIZATIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB9A190)
+#define NODECANVAS_BEHAVIOURTREES_BEHAVIOURTREE_DERIVEDSERIALIZATIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF903A0)
 
 namespace NodeCanvas::BehaviourTrees
 {
-	inline static constexpr unsigned int BehaviourTree_DerivedSerializationData_TypeDefinitionIndex = 30171;
+	inline static constexpr unsigned int BehaviourTree_DerivedSerializationData_TypeDefinitionIndex = 30609;
 
 	class BehaviourTree_DerivedSerializationData : public ::System::Object
 	{

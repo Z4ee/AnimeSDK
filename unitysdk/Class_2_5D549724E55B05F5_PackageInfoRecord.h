@@ -5,9 +5,9 @@
 
 namespace System { class String; }
 
-#define CLASS_2_5D549724E55B05F5_PACKAGEINFORECORD__CTOR_OFFSET UNITYSDK_OFFSET(0x7FB250)
+#define CLASS_2_5D549724E55B05F5_PACKAGEINFORECORD__CTOR_OFFSET UNITYSDK_OFFSET(0x7D7270)
 
-inline static constexpr unsigned int Class_2_5D549724E55B05F5_PackageInfoRecord_TypeDefinitionIndex = 57325;
+inline static constexpr unsigned int Class_2_5D549724E55B05F5_PackageInfoRecord_TypeDefinitionIndex = 59043;
 
 struct alignas(8) Class_2_5D549724E55B05F5_PackageInfoRecord
 {

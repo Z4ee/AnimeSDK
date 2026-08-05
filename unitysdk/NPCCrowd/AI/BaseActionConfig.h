@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int BaseActionConfig_TypeDefinitionIndex = 84447;
+	inline static constexpr unsigned int BaseActionConfig_TypeDefinitionIndex = 74834;
 
 	struct alignas(8) BaseActionConfig
 	{

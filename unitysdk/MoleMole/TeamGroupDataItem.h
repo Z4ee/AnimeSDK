@@ -5,12 +5,12 @@
 namespace MoleMole { class TeamDataItem; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_TEAMGROUPDATAITEM_GETSELECTTEAM_OFFSET UNITYSDK_OFFSET(0x1265B3E0)
-#define MOLEMOLE_TEAMGROUPDATAITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1265B480)
+#define MOLEMOLE_TEAMGROUPDATAITEM_GETSELECTTEAM_OFFSET UNITYSDK_OFFSET(0x18913BE0)
+#define MOLEMOLE_TEAMGROUPDATAITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x18913C80)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int TeamGroupDataItem_TypeDefinitionIndex = 85056;
+	inline static constexpr unsigned int TeamGroupDataItem_TypeDefinitionIndex = 88522;
 
 	class TeamGroupDataItem : public ::System::Object
 	{

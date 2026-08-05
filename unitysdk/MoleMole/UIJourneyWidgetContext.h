@@ -4,11 +4,11 @@
 
 class Class_2_9A16BB53176B1EDB;
 
-#define MOLEMOLE_UIJOURNEYWIDGETCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16929FE0)
+#define MOLEMOLE_UIJOURNEYWIDGETCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x189B1470)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIJourneyWidgetContext_TypeDefinitionIndex = 44776;
+	inline static constexpr unsigned int UIJourneyWidgetContext_TypeDefinitionIndex = 80741;
 
 	class UIJourneyWidgetContext : public ::MoleMole::UIControllerContextBase
 	{

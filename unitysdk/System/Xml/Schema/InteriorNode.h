@@ -5,9 +5,9 @@
 namespace System::Xml::Schema { class Positions; }
 namespace System::Xml::Schema { class SymbolsDictionary; }
 
-#define SYSTEM_XML_SCHEMA_INTERIORNODE_EXPANDTREENORECURSIVE_OFFSET UNITYSDK_OFFSET(0x1DE413A0)
-#define SYSTEM_XML_SCHEMA_INTERIORNODE_EXPANDTREE_OFFSET UNITYSDK_OFFSET(0x1DE41530)
-#define SYSTEM_XML_SCHEMA_INTERIORNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DE415A0)
+#define SYSTEM_XML_SCHEMA_INTERIORNODE_EXPANDTREENORECURSIVE_OFFSET UNITYSDK_OFFSET(0x1F24F280)
+#define SYSTEM_XML_SCHEMA_INTERIORNODE_EXPANDTREE_OFFSET UNITYSDK_OFFSET(0x1F24F410)
+#define SYSTEM_XML_SCHEMA_INTERIORNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F24F480)
 
 namespace System::Xml::Schema
 {
@@ -16,8 +16,8 @@ namespace System::Xml::Schema
 	class InteriorNode : public ::System::Xml::Schema::SyntaxTreeNode
 	{
 	public:
-		::System::Xml::Schema::SyntaxTreeNode* rightChild; // 0x10
-		::System::Xml::Schema::SyntaxTreeNode* leftChild; // 0x18
+		::System::Xml::Schema::SyntaxTreeNode* leftChild; // 0x10
+		::System::Xml::Schema::SyntaxTreeNode* rightChild; // 0x18
 
 		::System::Void _ctor()
 		{

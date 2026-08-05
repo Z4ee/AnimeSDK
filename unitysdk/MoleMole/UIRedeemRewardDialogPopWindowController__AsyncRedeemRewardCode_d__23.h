@@ -10,12 +10,12 @@ namespace System::IO { class StreamReader; }
 namespace System::Net { class WebResponse; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define MOLEMOLE_UIREDEEMREWARDDIALOGPOPWINDOWCONTROLLER__ASYNCREDEEMREWARDCODE_D__23_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x81E890)
-#define MOLEMOLE_UIREDEEMREWARDDIALOGPOPWINDOWCONTROLLER__ASYNCREDEEMREWARDCODE_D__23_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x6CB1D0)
+#define MOLEMOLE_UIREDEEMREWARDDIALOGPOPWINDOWCONTROLLER__ASYNCREDEEMREWARDCODE_D__23_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x871BF0)
+#define MOLEMOLE_UIREDEEMREWARDDIALOGPOPWINDOWCONTROLLER__ASYNCREDEEMREWARDCODE_D__23_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x7DEF30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRedeemRewardDialogPopWindowController__AsyncRedeemRewardCode_d__23_TypeDefinitionIndex = 86886;
+	inline static constexpr unsigned int UIRedeemRewardDialogPopWindowController__AsyncRedeemRewardCode_d__23_TypeDefinitionIndex = 79436;
 
 	struct alignas(8) UIRedeemRewardDialogPopWindowController__AsyncRedeemRewardCode_d__23
 	{

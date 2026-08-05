@@ -5,12 +5,12 @@
 namespace MoleMole { class UIRABStageRewardPopWindowController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER___C__DISPLAYCLASS34_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1569F290)
-#define MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER___C__DISPLAYCLASS34_0__PLAYBLACKMASKANI_B__0_OFFSET UNITYSDK_OFFSET(0x1569F2A0)
+#define MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER___C__DISPLAYCLASS34_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17D3DFB0)
+#define MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER___C__DISPLAYCLASS34_0__PLAYBLACKMASKANI_B__0_OFFSET UNITYSDK_OFFSET(0x17D3DFC0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRABStageRewardPopWindowController___c__DisplayClass34_0_TypeDefinitionIndex = 62180;
+	inline static constexpr unsigned int UIRABStageRewardPopWindowController___c__DisplayClass34_0_TypeDefinitionIndex = 77887;
 
 	class UIRABStageRewardPopWindowController___c__DisplayClass34_0 : public ::System::Object
 	{

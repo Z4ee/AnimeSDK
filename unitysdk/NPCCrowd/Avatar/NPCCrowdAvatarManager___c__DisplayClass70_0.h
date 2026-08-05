@@ -6,20 +6,20 @@
 
 namespace NPCCrowd::Accessories { class NPCAccessory; }
 
-#define NPCCROWD_AVATAR_NPCCROWDAVATARMANAGER___C__DISPLAYCLASS70_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD43A7F0)
-#define NPCCROWD_AVATAR_NPCCROWDAVATARMANAGER___C__DISPLAYCLASS70_0__INITACCESSORYMDBCOMPONENT_B__0_OFFSET UNITYSDK_OFFSET(0xD43A800)
-#define NPCCROWD_AVATAR_NPCCROWDAVATARMANAGER___C__DISPLAYCLASS70_0__INITACCESSORYMDBCOMPONENT_G__GETMDBSTATE_1_OFFSET UNITYSDK_OFFSET(0xD43A810)
+#define NPCCROWD_AVATAR_NPCCROWDAVATARMANAGER___C__DISPLAYCLASS70_0__CTOR_OFFSET UNITYSDK_OFFSET(0x10667390)
+#define NPCCROWD_AVATAR_NPCCROWDAVATARMANAGER___C__DISPLAYCLASS70_0__INITACCESSORYMDBCOMPONENT_B__0_OFFSET UNITYSDK_OFFSET(0x106673A0)
+#define NPCCROWD_AVATAR_NPCCROWDAVATARMANAGER___C__DISPLAYCLASS70_0__INITACCESSORYMDBCOMPONENT_G__GETMDBSTATE_1_OFFSET UNITYSDK_OFFSET(0x106673B0)
 
 namespace NPCCrowd::Avatar
 {
-	inline static constexpr unsigned int NPCCrowdAvatarManager___c__DisplayClass70_0_TypeDefinitionIndex = 66882;
+	inline static constexpr unsigned int NPCCrowdAvatarManager___c__DisplayClass70_0_TypeDefinitionIndex = 60734;
 
 	class NPCCrowdAvatarManager___c__DisplayClass70_0 : public ::System::Object
 	{
 	public:
 		::NPCCrowd::Accessories::NPCAccessory* accessory; // 0x10
-		::System::Boolean isPathNpc; // 0x18
-		::System::Int32 animationID; // 0x1C
+		::System::Int32 animationID; // 0x18
+		::System::Boolean isPathNpc; // 0x1C
 		::NPCCrowd::Accessories::NPCAccessoryAnimationInfo_FollowMdbPose poseInfo; // 0x20
 
 		::System::Void _ctor()

@@ -10,16 +10,16 @@ namespace MoleMole::Timeline { class ShotActiveBehaviour; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define MOLEMOLE_TIMELINE_SHOTACTIVECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x15E2F840)
-#define MOLEMOLE_TIMELINE_SHOTACTIVECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x15E2F7D0)
-#define MOLEMOLE_TIMELINE_SHOTACTIVECLIP_GET_CLIPTYPE_OFFSET UNITYSDK_OFFSET(0x15E2F7E0)
-#define MOLEMOLE_TIMELINE_SHOTACTIVECLIP_METHOD_5_0043BC75B602D2E3_OFFSET UNITYSDK_OFFSET(0x15E2FB20)
-#define MOLEMOLE_TIMELINE_SHOTACTIVECLIP_METHOD_5_8281A73B45B1EA1A_OFFSET UNITYSDK_OFFSET(0x15E2FB00)
-#define MOLEMOLE_TIMELINE_SHOTACTIVECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x15E2FA70)
+#define MOLEMOLE_TIMELINE_SHOTACTIVECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x173BBCE0)
+#define MOLEMOLE_TIMELINE_SHOTACTIVECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x173BBC70)
+#define MOLEMOLE_TIMELINE_SHOTACTIVECLIP_GET_CLIPTYPE_OFFSET UNITYSDK_OFFSET(0x173BBC80)
+#define MOLEMOLE_TIMELINE_SHOTACTIVECLIP_METHOD_5_0043BC75B602D2E3_OFFSET UNITYSDK_OFFSET(0x173BBFA0)
+#define MOLEMOLE_TIMELINE_SHOTACTIVECLIP_METHOD_5_8281A73B45B1EA1A_OFFSET UNITYSDK_OFFSET(0x173BBFF0)
+#define MOLEMOLE_TIMELINE_SHOTACTIVECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x173BBF10)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int ShotActiveClip_TypeDefinitionIndex = 62439;
+	inline static constexpr unsigned int ShotActiveClip_TypeDefinitionIndex = 46774;
 
 	class ShotActiveClip : public ::UnityEngine::Timeline::MultiShowClip
 	{
@@ -47,14 +47,14 @@ namespace MoleMole::Timeline
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_SHOTACTIVECLIP_CREATEPLAYABLE_OFFSET))(this, a1, a2);
 		}
 
-		::UnityEngine::Playables::Playable Method_5_8281A73B45B1EA1A(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2)
-		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_SHOTACTIVECLIP_METHOD_5_8281A73B45B1EA1A_OFFSET))(this, a1, a2);
-		}
-
 		::System::Void Method_5_0043BC75B602D2E3(::UnityEngine::Timeline::TimelineClip* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_SHOTACTIVECLIP_METHOD_5_0043BC75B602D2E3_OFFSET))(this, a1);
+		}
+
+		::UnityEngine::Playables::Playable Method_5_8281A73B45B1EA1A(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2)
+		{
+			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_SHOTACTIVECLIP_METHOD_5_8281A73B45B1EA1A_OFFSET))(this, a1, a2);
 		}
 	};
 }

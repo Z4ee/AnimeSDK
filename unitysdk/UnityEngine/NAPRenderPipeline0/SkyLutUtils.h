@@ -12,37 +12,37 @@ namespace UnityEngine { class Gradient; }
 namespace UnityEngine::NAPRenderPipeline0 { class IWeatherConfig; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_SKYLUTUTILS_ADDKEY_OFFSET UNITYSDK_OFFSET(0x1D7B54D0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_SKYLUTUTILS_FILLWITHWEATHERCONFIG_OFFSET UNITYSDK_OFFSET(0x1D7B5720)
-#define UNITYENGINE_NAPRENDERPIPELINE0_SKYLUTUTILS_GENERATESKYLUT_OFFSET UNITYSDK_OFFSET(0x1D7B4560)
-#define UNITYENGINE_NAPRENDERPIPELINE0_SKYLUTUTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D7B5830)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SKYLUTUTILS_ADDKEY_OFFSET UNITYSDK_OFFSET(0x1EB59A70)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SKYLUTUTILS_FILLWITHWEATHERCONFIG_OFFSET UNITYSDK_OFFSET(0x1EB59CD0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SKYLUTUTILS_GENERATESKYLUT_OFFSET UNITYSDK_OFFSET(0x1EB58AE0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SKYLUTUTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EB59DE0)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int SkyLutUtils_TypeDefinitionIndex = 5980;
+	inline static constexpr unsigned int SkyLutUtils_TypeDefinitionIndex = 5982;
 
 	class SkyLutUtils : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::Gradient*>** StaticGet_skyLutGradients()
+		static ::System::Collections::Generic::List_1<::UnityEngine::NAPRenderPipeline0::SkyLutUtils_LinearGraidentColorKey>** StaticGet_m_GradientDatas()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::Gradient*>**)Il2CppClass::FromTypeDefinitionIndex(SkyLutUtils_TypeDefinitionIndex)->GetStaticField(0x54D0);
+			return (::System::Collections::Generic::List_1<::UnityEngine::NAPRenderPipeline0::SkyLutUtils_LinearGraidentColorKey>**)Il2CppClass::FromTypeDefinitionIndex(SkyLutUtils_TypeDefinitionIndex)->GetStaticField(0x54E0);
 		}
 		static ::Il2CppArray<::System::Single>** StaticGet_skyLutGradientItemCount()
 		{
-			return (::Il2CppArray<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(SkyLutUtils_TypeDefinitionIndex)->GetStaticField(0x54D8);
-		}
-		static ::UnityEngine::ComputeBuffer** StaticGet_m_ComputeBuffer()
-		{
-			return (::UnityEngine::ComputeBuffer**)Il2CppClass::FromTypeDefinitionIndex(SkyLutUtils_TypeDefinitionIndex)->GetStaticField(0x54E0);
+			return (::Il2CppArray<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(SkyLutUtils_TypeDefinitionIndex)->GetStaticField(0x54E8);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::Il2CppArray<::UnityEngine::GradientColorKey>*>** StaticGet_skyLutGradientColorKeys()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::Il2CppArray<::UnityEngine::GradientColorKey>*>**)Il2CppClass::FromTypeDefinitionIndex(SkyLutUtils_TypeDefinitionIndex)->GetStaticField(0x54E8);
+			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::Il2CppArray<::UnityEngine::GradientColorKey>*>**)Il2CppClass::FromTypeDefinitionIndex(SkyLutUtils_TypeDefinitionIndex)->GetStaticField(0x54F0);
 		}
-		static ::System::Collections::Generic::List_1<::UnityEngine::NAPRenderPipeline0::SkyLutUtils_LinearGraidentColorKey>** StaticGet_m_GradientDatas()
+		static ::UnityEngine::ComputeBuffer** StaticGet_m_ComputeBuffer()
 		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::NAPRenderPipeline0::SkyLutUtils_LinearGraidentColorKey>**)Il2CppClass::FromTypeDefinitionIndex(SkyLutUtils_TypeDefinitionIndex)->GetStaticField(0x54F0);
+			return (::UnityEngine::ComputeBuffer**)Il2CppClass::FromTypeDefinitionIndex(SkyLutUtils_TypeDefinitionIndex)->GetStaticField(0x54F8);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::Gradient*>** StaticGet_skyLutGradients()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::Gradient*>**)Il2CppClass::FromTypeDefinitionIndex(SkyLutUtils_TypeDefinitionIndex)->GetStaticField(0x5500);
 		}
 
 		static ::System::Void _cctor()

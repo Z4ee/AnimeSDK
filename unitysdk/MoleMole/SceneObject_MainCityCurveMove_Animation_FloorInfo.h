@@ -7,7 +7,7 @@ namespace UnityEngine { class Collider; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SceneObject_MainCityCurveMove_Animation_FloorInfo_TypeDefinitionIndex = 49313;
+	inline static constexpr unsigned int SceneObject_MainCityCurveMove_Animation_FloorInfo_TypeDefinitionIndex = 43245;
 
 	struct alignas(8) SceneObject_MainCityCurveMove_Animation_FloorInfo
 	{

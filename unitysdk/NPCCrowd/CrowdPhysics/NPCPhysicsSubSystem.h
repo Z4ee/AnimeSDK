@@ -8,39 +8,39 @@ namespace Nap::NapECS { class EcsEntity; }
 namespace Nap::NapECS { class EcsWorld; }
 namespace System { template <typename T> class Action_1; }
 
-#define NPCCROWD_CROWDPHYSICS_NPCPHYSICSSUBSYSTEM_CREATEFILTERS_OFFSET UNITYSDK_OFFSET(0xD9482F0)
-#define NPCCROWD_CROWDPHYSICS_NPCPHYSICSSUBSYSTEM_INITCOLLIDER_OFFSET UNITYSDK_OFFSET(0xD9485A0)
-#define NPCCROWD_CROWDPHYSICS_NPCPHYSICSSUBSYSTEM_ONENTITYADD_OFFSET UNITYSDK_OFFSET(0xD948440)
-#define NPCCROWD_CROWDPHYSICS_NPCPHYSICSSUBSYSTEM_UPDATEAVATARDITHERCALLBACK_OFFSET UNITYSDK_OFFSET(0xD948C10)
-#define NPCCROWD_CROWDPHYSICS_NPCPHYSICSSUBSYSTEM_UPDATEAVATARDITHER_OFFSET UNITYSDK_OFFSET(0xD948D40)
-#define NPCCROWD_CROWDPHYSICS_NPCPHYSICSSUBSYSTEM_UPDATE_OFFSET UNITYSDK_OFFSET(0xD9489F0)
-#define NPCCROWD_CROWDPHYSICS_NPCPHYSICSSUBSYSTEM__CCTOR_OFFSET UNITYSDK_OFFSET(0xD9492F0)
-#define NPCCROWD_CROWDPHYSICS_NPCPHYSICSSUBSYSTEM__CTOR_OFFSET UNITYSDK_OFFSET(0xD9492E0)
-#define NPCCROWD_CROWDPHYSICS_NPCPHYSICSSUBSYSTEM___BASE_CREATEFILTERS_OFFSET UNITYSDK_OFFSET(0xD949350)
-#define NPCCROWD_CROWDPHYSICS_NPCPHYSICSSUBSYSTEM___BASE_UPDATE_OFFSET UNITYSDK_OFFSET(0xD949360)
+#define NPCCROWD_CROWDPHYSICS_NPCPHYSICSSUBSYSTEM_CREATEFILTERS_OFFSET UNITYSDK_OFFSET(0xD89CB90)
+#define NPCCROWD_CROWDPHYSICS_NPCPHYSICSSUBSYSTEM_INITCOLLIDER_OFFSET UNITYSDK_OFFSET(0xD89CE40)
+#define NPCCROWD_CROWDPHYSICS_NPCPHYSICSSUBSYSTEM_ONENTITYADD_OFFSET UNITYSDK_OFFSET(0xD89CCE0)
+#define NPCCROWD_CROWDPHYSICS_NPCPHYSICSSUBSYSTEM_UPDATEAVATARDITHERCALLBACK_OFFSET UNITYSDK_OFFSET(0xD89D4B0)
+#define NPCCROWD_CROWDPHYSICS_NPCPHYSICSSUBSYSTEM_UPDATEAVATARDITHER_OFFSET UNITYSDK_OFFSET(0xD89D5E0)
+#define NPCCROWD_CROWDPHYSICS_NPCPHYSICSSUBSYSTEM_UPDATE_OFFSET UNITYSDK_OFFSET(0xD89D290)
+#define NPCCROWD_CROWDPHYSICS_NPCPHYSICSSUBSYSTEM__CCTOR_OFFSET UNITYSDK_OFFSET(0xD89DB10)
+#define NPCCROWD_CROWDPHYSICS_NPCPHYSICSSUBSYSTEM__CTOR_OFFSET UNITYSDK_OFFSET(0xD89DAF0)
+#define NPCCROWD_CROWDPHYSICS_NPCPHYSICSSUBSYSTEM___BASE_CREATEFILTERS_OFFSET UNITYSDK_OFFSET(0xD89DB70)
+#define NPCCROWD_CROWDPHYSICS_NPCPHYSICSSUBSYSTEM___BASE_UPDATE_OFFSET UNITYSDK_OFFSET(0xD89DC90)
 
 namespace NPCCrowd::CrowdPhysics
 {
-	inline static constexpr unsigned int NPCPhysicsSubSystem_TypeDefinitionIndex = 53058;
+	inline static constexpr unsigned int NPCPhysicsSubSystem_TypeDefinitionIndex = 77137;
 
 	class NPCPhysicsSubSystem : public ::NPCCrowd::NPCCrowdModuleSubSystemBase
 	{
 	public:
 		static ::System::Action_1<::Class_3_F2DAD7F45F518868*>** StaticGet_s_updateAvatarDitherCallback()
 		{
-			return (::System::Action_1<::Class_3_F2DAD7F45F518868*>**)Il2CppClass::FromTypeDefinitionIndex(NPCPhysicsSubSystem_TypeDefinitionIndex)->GetStaticField(0x4B3B0);
+			return (::System::Action_1<::Class_3_F2DAD7F45F518868*>**)Il2CppClass::FromTypeDefinitionIndex(NPCPhysicsSubSystem_TypeDefinitionIndex)->GetStaticField(0x51C20);
 		}
 		static ::UnityEngine::Vector3* StaticGet__localAvatarPosition()
 		{
-			return (::UnityEngine::Vector3*)Il2CppClass::FromTypeDefinitionIndex(NPCPhysicsSubSystem_TypeDefinitionIndex)->GetStaticField(0x11CE0);
+			return (::UnityEngine::Vector3*)Il2CppClass::FromTypeDefinitionIndex(NPCPhysicsSubSystem_TypeDefinitionIndex)->GetStaticField(0x12EB0);
 		}
 		static ::UnityEngine::Vector3* StaticGet__avatarPosition()
 		{
-			return (::UnityEngine::Vector3*)Il2CppClass::FromTypeDefinitionIndex(NPCPhysicsSubSystem_TypeDefinitionIndex)->GetStaticField(0x11CEC);
+			return (::UnityEngine::Vector3*)Il2CppClass::FromTypeDefinitionIndex(NPCPhysicsSubSystem_TypeDefinitionIndex)->GetStaticField(0x12EBC);
 		}
 		static ::System::Boolean* StaticGet__hasLocalAvatarPosition()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(NPCPhysicsSubSystem_TypeDefinitionIndex)->GetStaticField(0x11CF8);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(NPCPhysicsSubSystem_TypeDefinitionIndex)->GetStaticField(0x12EC8);
 		}
 		// static const ::System::Single FadeInDistance; // 0x0
 		// static const ::System::Single FadeOutDistance; // 0x0

@@ -1,9 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/MoleMole/Config/BaseProperty.h"
 
-namespace UnityEngine { class GameObject; }
+namespace System { class String; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_513_TypeDefinitionIndex = 54612;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_513_TypeDefinitionIndex = 61601;
 
 class Class_0_16E4307DCC419505_513
 {

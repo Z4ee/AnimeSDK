@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/NapLightData.h"
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_LIGHTLOOP_LIGHTDATAFORCPU_ALLOCATE_OFFSET UNITYSDK_OFFSET(0x1D2A23B0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_LIGHTLOOP_LIGHTDATAFORCPU__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2A2420)
+#define UNITYENGINE_NAPRENDERPIPELINE0_LIGHTLOOP_LIGHTDATAFORCPU_ALLOCATE_OFFSET UNITYSDK_OFFSET(0x1E6059D0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_LIGHTLOOP_LIGHTDATAFORCPU__CTOR_OFFSET UNITYSDK_OFFSET(0x1E605A40)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int LightLoop_LightDataForCPU_TypeDefinitionIndex = 6003;
+	inline static constexpr unsigned int LightLoop_LightDataForCPU_TypeDefinitionIndex = 6005;
 
 	class LightLoop_LightDataForCPU : public ::System::Object
 	{

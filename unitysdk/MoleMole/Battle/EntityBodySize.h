@@ -3,19 +3,19 @@
 
 namespace MoleMole::Battle
 {
-	inline static constexpr unsigned int EntityBodySize_TypeDefinitionIndex = 57852;
+	inline static constexpr unsigned int EntityBodySize_TypeDefinitionIndex = 41214;
 
 	enum class EntityBodySize : ::System::Int32
 	{
-		DontCare = -1,
-		Unknown = 1,
-		Large = 16,
-		None = 0,
 		Tiny = 2,
-		Default = 8,
-		Point = 64,
-		Gigantic = 32,
-		Small = 4,
 		Standard = 8,
+		Large = 16,
+		Small = 4,
+		DontCare = -1,
+		None = 0,
+		Point = 64,
+		Unknown = 1,
+		Gigantic = 32,
+		Default = 8,
 	};
 }

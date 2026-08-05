@@ -4,9 +4,9 @@
 #include "unitysdk/ProtoScript/AimRectColor.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_23CC1F246143D7D1_METHOD_1_E626F2753E4FFC01_OFFSET UNITYSDK_OFFSET(0x130F3370)
+#define CLASS_1_23CC1F246143D7D1_METHOD_1_E626F2753E4FFC01_OFFSET UNITYSDK_OFFSET(0x1259A370)
 
-inline static constexpr unsigned int Class_1_23CC1F246143D7D1_TypeDefinitionIndex = 64861;
+inline static constexpr unsigned int Class_1_23CC1F246143D7D1_TypeDefinitionIndex = 49969;
 
 class Class_1_23CC1F246143D7D1 : public ::System::Object
 {

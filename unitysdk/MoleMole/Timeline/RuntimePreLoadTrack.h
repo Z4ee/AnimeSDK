@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Timeline/TrackAsset.h"
 
-#define MOLEMOLE_TIMELINE_RUNTIMEPRELOADTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x183A3340)
+#define MOLEMOLE_TIMELINE_RUNTIMEPRELOADTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x11D7BCD0)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int RuntimePreLoadTrack_TypeDefinitionIndex = 60887;
+	inline static constexpr unsigned int RuntimePreLoadTrack_TypeDefinitionIndex = 53752;
 
 	class RuntimePreLoadTrack : public ::UnityEngine::Timeline::TrackAsset
 	{

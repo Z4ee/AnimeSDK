@@ -5,18 +5,18 @@
 
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define MOLEMOLE_UISETTINGRESOURCEMANAGEDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS3_2__CTOR_OFFSET UNITYSDK_OFFSET(0x15C23BD0)
-#define MOLEMOLE_UISETTINGRESOURCEMANAGEDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS3_2__ONUIINIT_B__9_OFFSET UNITYSDK_OFFSET(0x15C23BE0)
+#define MOLEMOLE_UISETTINGRESOURCEMANAGEDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS3_2__CTOR_OFFSET UNITYSDK_OFFSET(0x160DCA30)
+#define MOLEMOLE_UISETTINGRESOURCEMANAGEDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS3_2__ONUIINIT_B__9_OFFSET UNITYSDK_OFFSET(0x160DCA40)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISettingResourceManageDialogPopWindowController___c__DisplayClass3_2_TypeDefinitionIndex = 45003;
+	inline static constexpr unsigned int UISettingResourceManageDialogPopWindowController___c__DisplayClass3_2_TypeDefinitionIndex = 73784;
 
 	class UISettingResourceManageDialogPopWindowController___c__DisplayClass3_2 : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::IEnumerable_1<::Enum_3_34F7035555410463_1>* packageTags; // 0x10
-		::System::Collections::Generic::IEnumerable_1<::System::Int32>* titleIds; // 0x18
+		::System::Collections::Generic::IEnumerable_1<::System::Int32>* titleIds; // 0x10
+		::System::Collections::Generic::IEnumerable_1<::Enum_3_34F7035555410463_1>* packageTags; // 0x18
 
 		::System::Void _ctor()
 		{

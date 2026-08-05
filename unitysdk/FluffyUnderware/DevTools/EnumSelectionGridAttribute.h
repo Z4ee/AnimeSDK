@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define FLUFFYUNDERWARE_DEVTOOLS_ENUMSELECTIONGRIDATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6984B0)
+#define FLUFFYUNDERWARE_DEVTOOLS_ENUMSELECTIONGRIDATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA516C0)
 
 namespace FluffyUnderware::DevTools
 {
-	inline static constexpr unsigned int EnumSelectionGridAttribute_TypeDefinitionIndex = 28369;
+	inline static constexpr unsigned int EnumSelectionGridAttribute_TypeDefinitionIndex = 28973;
 
 	class EnumSelectionGridAttribute : public ::FluffyUnderware::DevTools::DTPropertyAttribute
 	{

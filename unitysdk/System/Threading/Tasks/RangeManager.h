@@ -4,8 +4,8 @@
 #include "unitysdk/System/Threading/Tasks/IndexRange.h"
 #include "unitysdk/System/Threading/Tasks/RangeWorker.h"
 
-#define SYSTEM_THREADING_TASKS_RANGEMANAGER_REGISTERNEWWORKER_OFFSET UNITYSDK_OFFSET(0x1B947F80)
-#define SYSTEM_THREADING_TASKS_RANGEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B947DD0)
+#define SYSTEM_THREADING_TASKS_RANGEMANAGER_REGISTERNEWWORKER_OFFSET UNITYSDK_OFFSET(0x1CD64F10)
+#define SYSTEM_THREADING_TASKS_RANGEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD64C80)
 
 namespace System::Threading::Tasks
 {
@@ -15,9 +15,9 @@ namespace System::Threading::Tasks
 	{
 	public:
 		::Il2CppArray<::System::Threading::Tasks::IndexRange>* m_indexRanges; // 0x10
-		::System::Int64 m_nStep; // 0x18
-		::System::Int32 m_nCurrentIndexRangeToAssign; // 0x20
-		::System::Boolean _use32BitCurrentIndex; // 0x24
+		::System::Boolean _use32BitCurrentIndex; // 0x18
+		::System::Int32 m_nCurrentIndexRangeToAssign; // 0x1C
+		::System::Int64 m_nStep; // 0x20
 
 		::System::Void _ctor(::System::Int64 nFromInclusive, ::System::Int64 nToExclusive, ::System::Int64 nStep, ::System::Int32 nNumExpectedWorkers)
 		{

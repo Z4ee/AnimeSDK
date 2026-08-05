@@ -6,11 +6,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_GALGAME_ATTACHEFFECTCFG__CTOR_OFFSET UNITYSDK_OFFSET(0x1301F560)
+#define MOLEMOLE_GALGAME_ATTACHEFFECTCFG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A061470)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int AttachEffectCfg_TypeDefinitionIndex = 81031;
+	inline static constexpr unsigned int AttachEffectCfg_TypeDefinitionIndex = 75436;
 
 	class AttachEffectCfg : public ::System::Object
 	{

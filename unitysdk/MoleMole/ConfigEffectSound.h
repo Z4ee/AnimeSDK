@@ -6,11 +6,11 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIGEFFECTSOUND__CTOR_OFFSET UNITYSDK_OFFSET(0x161A42D0)
+#define MOLEMOLE_CONFIGEFFECTSOUND__CTOR_OFFSET UNITYSDK_OFFSET(0x1B92CA90)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigEffectSound_TypeDefinitionIndex = 52891;
+	inline static constexpr unsigned int ConfigEffectSound_TypeDefinitionIndex = 48520;
 
 	class ConfigEffectSound : public ::Foundation::MihoyoSerializedScriptableObject
 	{

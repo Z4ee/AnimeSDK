@@ -4,11 +4,11 @@
 
 namespace MoleMole::Config { class ConfigPosRot; }
 
-#define MOLEMOLE_CONFIGAVATARDATETELEPORT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A077B40)
+#define MOLEMOLE_CONFIGAVATARDATETELEPORT__CTOR_OFFSET UNITYSDK_OFFSET(0x19FF7C10)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigAvatarDateTeleport_TypeDefinitionIndex = 56188;
+	inline static constexpr unsigned int ConfigAvatarDateTeleport_TypeDefinitionIndex = 79812;
 
 	class ConfigAvatarDateTeleport : public ::Foundation::MihoyoSerializedScriptableObject
 	{

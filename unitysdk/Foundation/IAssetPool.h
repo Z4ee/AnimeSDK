@@ -10,7 +10,7 @@ namespace UnityEngine { class Transform; }
 
 namespace Foundation
 {
-	inline static constexpr unsigned int IAssetPool_TypeDefinitionIndex = 7787;
+	inline static constexpr unsigned int IAssetPool_TypeDefinitionIndex = 8162;
 
 	class IAssetPool
 	{

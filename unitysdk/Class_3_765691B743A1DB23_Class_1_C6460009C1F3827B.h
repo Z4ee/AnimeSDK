@@ -6,15 +6,15 @@
 class Class_3_765691B743A1DB23_Class_1_E60DE679F7F7F44B;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_765691B743A1DB23_CLASS_1_C6460009C1F3827B__CTOR_OFFSET UNITYSDK_OFFSET(0x14986030)
+#define CLASS_3_765691B743A1DB23_CLASS_1_C6460009C1F3827B__CTOR_OFFSET UNITYSDK_OFFSET(0x12849700)
 
-inline static constexpr unsigned int Class_3_765691B743A1DB23_Class_1_C6460009C1F3827B_TypeDefinitionIndex = 74975;
+inline static constexpr unsigned int Class_3_765691B743A1DB23_Class_1_C6460009C1F3827B_TypeDefinitionIndex = 61597;
 
 class Class_3_765691B743A1DB23_Class_1_C6460009C1F3827B : public ::System::Object
 {
 public:
-	::Class_3_765691B743A1DB23_Class_1_E60DE679F7F7F44B* Field_1_1; // 0x10
-	::System::Collections::Generic::List_1<::Foundation::ViewObject::GroupMemberIdentifier>* Field_1_0; // 0x18
+	::System::Collections::Generic::List_1<::Foundation::ViewObject::GroupMemberIdentifier>* Field_1_1; // 0x10
+	::Class_3_765691B743A1DB23_Class_1_E60DE679F7F7F44B* Field_1_0; // 0x18
 
 	::System::Void _ctor()
 	{

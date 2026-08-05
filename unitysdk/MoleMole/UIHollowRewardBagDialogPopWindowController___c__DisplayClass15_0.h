@@ -5,12 +5,12 @@
 class Class_1_1685EC66FBD28897;
 namespace MoleMole { class UIHollowRewardBagDialogPopWindowController; }
 
-#define MOLEMOLE_UIHOLLOWREWARDBAGDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS15_0__CREATEITEM_B__0_OFFSET UNITYSDK_OFFSET(0x16D69810)
-#define MOLEMOLE_UIHOLLOWREWARDBAGDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16D69800)
+#define MOLEMOLE_UIHOLLOWREWARDBAGDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS15_0__CREATEITEM_B__0_OFFSET UNITYSDK_OFFSET(0x18F07F80)
+#define MOLEMOLE_UIHOLLOWREWARDBAGDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18F07F70)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowRewardBagDialogPopWindowController___c__DisplayClass15_0_TypeDefinitionIndex = 45776;
+	inline static constexpr unsigned int UIHollowRewardBagDialogPopWindowController___c__DisplayClass15_0_TypeDefinitionIndex = 76826;
 
 	class UIHollowRewardBagDialogPopWindowController___c__DisplayClass15_0 : public ::System::Object
 	{

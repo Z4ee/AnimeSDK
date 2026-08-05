@@ -5,12 +5,12 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowGuideItemWidgetController___c__DisplayClass15_0_TypeDefinitionIndex = 72160;
+	inline static constexpr unsigned int UIHollowGuideItemWidgetController___c__DisplayClass15_0_TypeDefinitionIndex = 52306;
 
 	struct alignas(4) UIHollowGuideItemWidgetController___c__DisplayClass15_0
 	{
-		::System::Single b; // 0x10
-		::System::Single a; // 0x14
+		::System::Single a; // 0x10
+		::System::Single b; // 0x14
 		::UnityEngine::Vector2 uiPos; // 0x18
 	};
 }

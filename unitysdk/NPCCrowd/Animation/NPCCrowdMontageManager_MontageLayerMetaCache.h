@@ -5,7 +5,7 @@
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int NPCCrowdMontageManager_MontageLayerMetaCache_TypeDefinitionIndex = 65138;
+	inline static constexpr unsigned int NPCCrowdMontageManager_MontageLayerMetaCache_TypeDefinitionIndex = 66975;
 
 	struct alignas(8) NPCCrowdMontageManager_MontageLayerMetaCache
 	{

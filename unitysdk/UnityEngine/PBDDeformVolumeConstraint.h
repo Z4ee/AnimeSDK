@@ -4,7 +4,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int PBDDeformVolumeConstraint_TypeDefinitionIndex = 18753;
+	inline static constexpr unsigned int PBDDeformVolumeConstraint_TypeDefinitionIndex = 19162;
 
 	struct alignas(4) PBDDeformVolumeConstraint
 	{

@@ -7,7 +7,7 @@ namespace MoleMole::FlowCanvas::Nodes { template <typename T1, typename T2> clas
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int CustomSetVariableNode_2_TypeDefinitionIndex = 58438;
+	inline static constexpr unsigned int CustomSetVariableNode_2_TypeDefinitionIndex = 48383;
 
 	template <typename Tdata, typename Tkey>
 	class CustomSetVariableNode_2 : public ::FlowCanvas::Nodes::FlowControlNode

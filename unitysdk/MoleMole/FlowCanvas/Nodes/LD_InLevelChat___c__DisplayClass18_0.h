@@ -5,12 +5,12 @@
 
 namespace MoleMole::FlowCanvas::Nodes { class LD_InLevelChat; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_INLEVELCHAT___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0x12BBBF20)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_INLEVELCHAT___C__DISPLAYCLASS18_0__REGISTERPORTS_B__4_OFFSET UNITYSDK_OFFSET(0x12BBBF30)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_INLEVELCHAT___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1383D4C0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_INLEVELCHAT___C__DISPLAYCLASS18_0__REGISTERPORTS_B__4_OFFSET UNITYSDK_OFFSET(0x1383D4D0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_InLevelChat___c__DisplayClass18_0_TypeDefinitionIndex = 40123;
+	inline static constexpr unsigned int LD_InLevelChat___c__DisplayClass18_0_TypeDefinitionIndex = 62635;
 
 	class LD_InLevelChat___c__DisplayClass18_0 : public ::System::Object
 	{

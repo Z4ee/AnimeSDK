@@ -1,15 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_5DF9D0F5061CCF34_Struct_2_2821977B557C6070.h"
+#include "unitysdk/Class_1_5DF9D0F5061CCF34_Struct_2_C366B93777D740F1.h"
 #include "unitysdk/System/Object.h"
 
-inline static constexpr unsigned int Class_1_455124A410922D9D_1_TypeDefinitionIndex = 28814;
+class Class_1_43BD383C98B4C0C5_23;
+
+inline static constexpr unsigned int Class_1_455124A410922D9D_1_TypeDefinitionIndex = 40269;
 
 template <typename T>
 class Class_1_455124A410922D9D_1 : public ::System::Object
 {
 public:
-	static T* StaticGet_Field_1_0()
-	{
-		return (T*)Il2CppClass::FromTypeDefinitionIndex(Class_1_455124A410922D9D_1_TypeDefinitionIndex)->GetStaticField(0x0);
-	}
+	T Field_1_0; // 0x0
 };

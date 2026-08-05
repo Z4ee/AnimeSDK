@@ -4,12 +4,12 @@
 
 namespace UnityEngine { class Behaviour; }
 
-#define BEHAVIORDESIGNER_RUNTIME_SHAREDBEHAVIOUR_OP_EXPLICIT_OFFSET UNITYSDK_OFFSET(0x1E190280)
-#define BEHAVIORDESIGNER_RUNTIME_SHAREDBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1E190340)
+#define BEHAVIORDESIGNER_RUNTIME_SHAREDBEHAVIOUR_OP_EXPLICIT_OFFSET UNITYSDK_OFFSET(0x1F5D16A0)
+#define BEHAVIORDESIGNER_RUNTIME_SHAREDBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1F5D1760)
 
 namespace BehaviorDesigner::Runtime
 {
-	inline static constexpr unsigned int SharedBehaviour_TypeDefinitionIndex = 33275;
+	inline static constexpr unsigned int SharedBehaviour_TypeDefinitionIndex = 33911;
 
 	class SharedBehaviour : public ::BehaviorDesigner::Runtime::SharedVariable_1<::UnityEngine::Behaviour*>
 	{

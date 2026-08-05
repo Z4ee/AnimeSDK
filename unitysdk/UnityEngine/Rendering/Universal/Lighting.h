@@ -13,12 +13,12 @@ namespace UnityEngine::Rendering::Universal { class MainLightShadowQualityParame
 namespace UnityEngine::Rendering::Universal { class OtherLightShadowQualityParameter; }
 namespace UnityEngine::Rendering::Universal { class SimulatingPlatformParameter; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_LIGHTING_INITNORMALIZED_OFFSET UNITYSDK_OFFSET(0x1D4E41B0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_LIGHTING__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4E3590)
+#define UNITYENGINE_RENDERING_UNIVERSAL_LIGHTING_INITNORMALIZED_OFFSET UNITYSDK_OFFSET(0x1E66AE40)
+#define UNITYENGINE_RENDERING_UNIVERSAL_LIGHTING__CTOR_OFFSET UNITYSDK_OFFSET(0x1E66A220)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int Lighting_TypeDefinitionIndex = 26371;
+	inline static constexpr unsigned int Lighting_TypeDefinitionIndex = 27136;
 
 	class Lighting : public ::UnityEngine::NAPRenderPipeline0::VolumeComponent
 	{

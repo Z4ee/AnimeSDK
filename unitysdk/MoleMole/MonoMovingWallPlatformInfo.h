@@ -7,21 +7,21 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_MONOMOVINGWALLPLATFORMINFO_AWAKE_OFFSET UNITYSDK_OFFSET(0x10D6E380)
-#define MOLEMOLE_MONOMOVINGWALLPLATFORMINFO_GETBOUNDS_OFFSET UNITYSDK_OFFSET(0x10D6E420)
-#define MOLEMOLE_MONOMOVINGWALLPLATFORMINFO_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x10D6E3D0)
-#define MOLEMOLE_MONOMOVINGWALLPLATFORMINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x10D6E810)
+#define MOLEMOLE_MONOMOVINGWALLPLATFORMINFO_AWAKE_OFFSET UNITYSDK_OFFSET(0x16876540)
+#define MOLEMOLE_MONOMOVINGWALLPLATFORMINFO_GETBOUNDS_OFFSET UNITYSDK_OFFSET(0x168765E0)
+#define MOLEMOLE_MONOMOVINGWALLPLATFORMINFO_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x16876590)
+#define MOLEMOLE_MONOMOVINGWALLPLATFORMINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x168769D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoMovingWallPlatformInfo_TypeDefinitionIndex = 61312;
+	inline static constexpr unsigned int MonoMovingWallPlatformInfo_TypeDefinitionIndex = 67123;
 
 	class MonoMovingWallPlatformInfo : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::Boolean* StaticGet_Field_5_0()
+		static ::System::Boolean* StaticGet_Field_5_2()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MonoMovingWallPlatformInfo_TypeDefinitionIndex)->GetStaticField(0xCCB0);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MonoMovingWallPlatformInfo_TypeDefinitionIndex)->GetStaticField(0xCBB0);
 		}
 		::System::Boolean Field_5_1; // 0x18
 		::UnityEngine::GameObject* platformRoot; // 0x20

@@ -5,24 +5,24 @@
 namespace MiHoYo::SDK { class Web; }
 namespace MiHoYo::SDK { class Web_OnWebViewPageClose; }
 
-#define MIHOYO_SDK_WIN_MIHOYOSDKDLL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A9E1BF0)
-#define MIHOYO_SDK_WIN_MIHOYOSDKDLL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A9E1C30)
-#define MIHOYO_SDK_WIN_MIHOYOSDKDLL___C__LOGIN_OPEN_URL_WITH_LOGIN_STATUS_B__94_1_OFFSET UNITYSDK_OFFSET(0x1A9E1C40)
+#define MIHOYO_SDK_WIN_MIHOYOSDKDLL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BE18300)
+#define MIHOYO_SDK_WIN_MIHOYOSDKDLL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE18340)
+#define MIHOYO_SDK_WIN_MIHOYOSDKDLL___C__LOGIN_OPEN_URL_WITH_LOGIN_STATUS_B__94_1_OFFSET UNITYSDK_OFFSET(0x1BE18350)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int MiHoYoSDKDll___c_TypeDefinitionIndex = 21187;
+	inline static constexpr unsigned int MiHoYoSDKDll___c_TypeDefinitionIndex = 21535;
 
 	class MiHoYoSDKDll___c : public ::System::Object
 	{
 	public:
-		static ::MiHoYo::SDK::Web_OnWebViewPageClose** StaticGet___9__94_1()
-		{
-			return (::MiHoYo::SDK::Web_OnWebViewPageClose**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoSDKDll___c_TypeDefinitionIndex)->GetStaticField(0x9FF0);
-		}
 		static ::MiHoYo::SDK::Win::MiHoYoSDKDll___c** StaticGet___9()
 		{
-			return (::MiHoYo::SDK::Win::MiHoYoSDKDll___c**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoSDKDll___c_TypeDefinitionIndex)->GetStaticField(0x9FF8);
+			return (::MiHoYo::SDK::Win::MiHoYoSDKDll___c**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoSDKDll___c_TypeDefinitionIndex)->GetStaticField(0xA030);
+		}
+		static ::MiHoYo::SDK::Web_OnWebViewPageClose** StaticGet___9__94_1()
+		{
+			return (::MiHoYo::SDK::Web_OnWebViewPageClose**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoSDKDll___c_TypeDefinitionIndex)->GetStaticField(0xA038);
 		}
 
 		static ::System::Void _cctor()

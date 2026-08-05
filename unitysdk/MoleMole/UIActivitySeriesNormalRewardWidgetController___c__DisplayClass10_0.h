@@ -6,18 +6,18 @@
 class Class_3_1699D6295DC3F818_1;
 namespace MoleMole { class UIActivitySeriesNormalRewardWidgetController; }
 
-#define MOLEMOLE_UIACTIVITYSERIESNORMALREWARDWIDGETCONTROLLER___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x183E8530)
-#define MOLEMOLE_UIACTIVITYSERIESNORMALREWARDWIDGETCONTROLLER___C__DISPLAYCLASS10_0__REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x183E8540)
+#define MOLEMOLE_UIACTIVITYSERIESNORMALREWARDWIDGETCONTROLLER___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1954C570)
+#define MOLEMOLE_UIACTIVITYSERIESNORMALREWARDWIDGETCONTROLLER___C__DISPLAYCLASS10_0__REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x1954C580)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivitySeriesNormalRewardWidgetController___c__DisplayClass10_0_TypeDefinitionIndex = 64670;
+	inline static constexpr unsigned int UIActivitySeriesNormalRewardWidgetController___c__DisplayClass10_0_TypeDefinitionIndex = 65146;
 
 	class UIActivitySeriesNormalRewardWidgetController___c__DisplayClass10_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIActivitySeriesNormalRewardWidgetController* __4__this; // 0x10
-		::Class_3_1699D6295DC3F818_1* reward; // 0x18
+		::Class_3_1699D6295DC3F818_1* reward; // 0x10
+		::MoleMole::UIActivitySeriesNormalRewardWidgetController* __4__this; // 0x18
 		::Enum_3_5D3AF1309617E53D status; // 0x20
 
 		::System::Void _ctor()

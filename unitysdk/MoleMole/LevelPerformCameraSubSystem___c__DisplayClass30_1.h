@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_LEVELPERFORMCAMERASUBSYSTEM___C__DISPLAYCLASS30_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1914D160)
-#define MOLEMOLE_LEVELPERFORMCAMERASUBSYSTEM___C__DISPLAYCLASS30_1__REFRESHLEVELPERFORMCAMERA_B__4_OFFSET UNITYSDK_OFFSET(0x1914D170)
+#define MOLEMOLE_LEVELPERFORMCAMERASUBSYSTEM___C__DISPLAYCLASS30_1__CTOR_OFFSET UNITYSDK_OFFSET(0x118E11C0)
+#define MOLEMOLE_LEVELPERFORMCAMERASUBSYSTEM___C__DISPLAYCLASS30_1__REFRESHLEVELPERFORMCAMERA_B__4_OFFSET UNITYSDK_OFFSET(0x118E11D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int LevelPerformCameraSubSystem___c__DisplayClass30_1_TypeDefinitionIndex = 85053;
+	inline static constexpr unsigned int LevelPerformCameraSubSystem___c__DisplayClass30_1_TypeDefinitionIndex = 60912;
 
 	class LevelPerformCameraSubSystem___c__DisplayClass30_1 : public ::System::Object
 	{

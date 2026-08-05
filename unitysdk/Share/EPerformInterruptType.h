@@ -3,7 +3,7 @@
 
 namespace Share
 {
-	inline static constexpr unsigned int EPerformInterruptType_TypeDefinitionIndex = 13352;
+	inline static constexpr unsigned int EPerformInterruptType_TypeDefinitionIndex = 13078;
 
 	enum class EPerformInterruptType : ::System::Int16
 	{

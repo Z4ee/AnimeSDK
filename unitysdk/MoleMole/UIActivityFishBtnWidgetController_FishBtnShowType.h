@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityFishBtnWidgetController_FishBtnShowType_TypeDefinitionIndex = 52489;
+	inline static constexpr unsigned int UIActivityFishBtnWidgetController_FishBtnShowType_TypeDefinitionIndex = 58968;
 
 	enum class UIActivityFishBtnWidgetController_FishBtnShowType : ::System::Int32
 	{

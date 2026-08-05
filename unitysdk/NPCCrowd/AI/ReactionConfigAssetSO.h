@@ -8,11 +8,11 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCCROWD_AI_REACTIONCONFIGASSETSO__CTOR_OFFSET UNITYSDK_OFFSET(0xEBC26E0)
+#define NPCCROWD_AI_REACTIONCONFIGASSETSO__CTOR_OFFSET UNITYSDK_OFFSET(0xF5FB5B0)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int ReactionConfigAssetSO_TypeDefinitionIndex = 40115;
+	inline static constexpr unsigned int ReactionConfigAssetSO_TypeDefinitionIndex = 61772;
 
 	class ReactionConfigAssetSO : public ::Sirenix::OdinInspector::SerializedScriptableObject
 	{

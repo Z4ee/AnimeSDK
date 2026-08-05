@@ -4,11 +4,11 @@
 
 namespace MiHoYo::SDK::PC::OS { class XboxLeaderboardRow; }
 
-#define MIHOYO_SDK_PC_OS_XBOXLEADERBOARDEXTENSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1C576750)
+#define MIHOYO_SDK_PC_OS_XBOXLEADERBOARDEXTENSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1DA126F0)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int XboxLeaderboardExtension_TypeDefinitionIndex = 20429;
+	inline static constexpr unsigned int XboxLeaderboardExtension_TypeDefinitionIndex = 20776;
 
 	class XboxLeaderboardExtension : public ::System::Object
 	{

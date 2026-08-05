@@ -11,11 +11,11 @@ namespace System::Net { class WebClient_ProgressData; }
 namespace System::Net { class WebRequest; }
 namespace System::Net { class WebResponse; }
 
-#define SYSTEM_NET_WEBCLIENT_DOWNLOADBITSSTATE_CLOSE_OFFSET UNITYSDK_OFFSET(0x1B1D5730)
-#define SYSTEM_NET_WEBCLIENT_DOWNLOADBITSSTATE_GET_ASYNC_OFFSET UNITYSDK_OFFSET(0x1B1D51A0)
-#define SYSTEM_NET_WEBCLIENT_DOWNLOADBITSSTATE_RETRIEVEBYTES_OFFSET UNITYSDK_OFFSET(0x1B1D5460)
-#define SYSTEM_NET_WEBCLIENT_DOWNLOADBITSSTATE_SETRESPONSE_OFFSET UNITYSDK_OFFSET(0x1B1D51B0)
-#define SYSTEM_NET_WEBCLIENT_DOWNLOADBITSSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1D5170)
+#define SYSTEM_NET_WEBCLIENT_DOWNLOADBITSSTATE_CLOSE_OFFSET UNITYSDK_OFFSET(0x1C7164E0)
+#define SYSTEM_NET_WEBCLIENT_DOWNLOADBITSSTATE_GET_ASYNC_OFFSET UNITYSDK_OFFSET(0x1C715F40)
+#define SYSTEM_NET_WEBCLIENT_DOWNLOADBITSSTATE_RETRIEVEBYTES_OFFSET UNITYSDK_OFFSET(0x1C716200)
+#define SYSTEM_NET_WEBCLIENT_DOWNLOADBITSSTATE_SETRESPONSE_OFFSET UNITYSDK_OFFSET(0x1C715F50)
+#define SYSTEM_NET_WEBCLIENT_DOWNLOADBITSSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C715F10)
 
 namespace System::Net
 {
@@ -25,15 +25,15 @@ namespace System::Net
 	{
 	public:
 		// static const ::System::Int32 Offset = 0x0; // 0x0
-		::System::Net::WebRequest* Request; // 0x10
-		::System::ComponentModel::AsyncOperation* AsyncOp; // 0x18
-		::System::Net::CompletionDelegate* CompletionDelegate; // 0x20
-		::System::IO::Stream* WriteStream; // 0x28
-		::System::IO::Stream* ReadStream; // 0x30
-		::System::Net::WebClient_ProgressData* Progress; // 0x38
-		::System::Net::ScatterGatherBuffers* SgBuffers; // 0x40
-		::Il2CppArray<::System::Byte>* InnerBuffer; // 0x48
-		::System::Net::WebClient* WebClient; // 0x50
+		::Il2CppArray<::System::Byte>* InnerBuffer; // 0x10
+		::System::IO::Stream* WriteStream; // 0x18
+		::System::Net::WebRequest* Request; // 0x20
+		::System::Net::ScatterGatherBuffers* SgBuffers; // 0x28
+		::System::Net::CompletionDelegate* CompletionDelegate; // 0x30
+		::System::Net::WebClient* WebClient; // 0x38
+		::System::ComponentModel::AsyncOperation* AsyncOp; // 0x40
+		::System::IO::Stream* ReadStream; // 0x48
+		::System::Net::WebClient_ProgressData* Progress; // 0x50
 		::System::Int64 Length; // 0x58
 		::System::Int64 ContentLength; // 0x60
 

@@ -4,11 +4,11 @@
 
 namespace MoleMole { class UIGrandMarcelAdventurePageController; }
 
-#define MOLEMOLE_UIGRANDMARCELADVENTUREPAGECONTROLLER___C__DISPLAYCLASS82_0__CTOR_OFFSET UNITYSDK_OFFSET(0x166F3B10)
+#define MOLEMOLE_UIGRANDMARCELADVENTUREPAGECONTROLLER___C__DISPLAYCLASS82_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18EC01F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGrandMarcelAdventurePageController___c__DisplayClass82_0_TypeDefinitionIndex = 76852;
+	inline static constexpr unsigned int UIGrandMarcelAdventurePageController___c__DisplayClass82_0_TypeDefinitionIndex = 77354;
 
 	class UIGrandMarcelAdventurePageController___c__DisplayClass82_0 : public ::System::Object
 	{

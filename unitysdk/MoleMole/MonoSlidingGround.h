@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_MONOSLIDINGGROUND__CTOR_OFFSET UNITYSDK_OFFSET(0x12645B10)
+#define MOLEMOLE_MONOSLIDINGGROUND__CTOR_OFFSET UNITYSDK_OFFSET(0x14A121D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoSlidingGround_TypeDefinitionIndex = 70271;
+	inline static constexpr unsigned int MonoSlidingGround_TypeDefinitionIndex = 50521;
 
 	class MonoSlidingGround : public ::UnityEngine::MonoBehaviour
 	{

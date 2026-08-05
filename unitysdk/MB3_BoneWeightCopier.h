@@ -6,9 +6,9 @@ namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class SkinnedMeshRenderer; }
 
-#define MB3_BONEWEIGHTCOPIER__CTOR_OFFSET UNITYSDK_OFFSET(0x1DA6EA60)
+#define MB3_BONEWEIGHTCOPIER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE39870)
 
-inline static constexpr unsigned int MB3_BoneWeightCopier_TypeDefinitionIndex = 90537;
+inline static constexpr unsigned int MB3_BoneWeightCopier_TypeDefinitionIndex = 94470;
 
 class MB3_BoneWeightCopier : public ::UnityEngine::MonoBehaviour
 {

@@ -5,9 +5,9 @@
 
 namespace System::Xml { class XmlReader; }
 
-#define SYSTEM_XML_READCONTENTASBINARYHELPER_FINISH_OFFSET UNITYSDK_OFFSET(0x1DCE4310)
-#define SYSTEM_XML_READCONTENTASBINARYHELPER_MOVETONEXTCONTENTNODE_OFFSET UNITYSDK_OFFSET(0x1DCE4450)
-#define SYSTEM_XML_READCONTENTASBINARYHELPER_RESET_OFFSET UNITYSDK_OFFSET(0x1DCE4570)
+#define SYSTEM_XML_READCONTENTASBINARYHELPER_FINISH_OFFSET UNITYSDK_OFFSET(0x1F103930)
+#define SYSTEM_XML_READCONTENTASBINARYHELPER_MOVETONEXTCONTENTNODE_OFFSET UNITYSDK_OFFSET(0x1F103A70)
+#define SYSTEM_XML_READCONTENTASBINARYHELPER_RESET_OFFSET UNITYSDK_OFFSET(0x1F103BF0)
 
 namespace System::Xml
 {
@@ -17,9 +17,9 @@ namespace System::Xml
 	{
 	public:
 		::System::Xml::XmlReader* reader; // 0x10
-		::System::Boolean isEnd; // 0x18
-		::System::Xml::ReadContentAsBinaryHelper_State state; // 0x1C
-		::System::Int32 valueOffset; // 0x20
+		::System::Xml::ReadContentAsBinaryHelper_State state; // 0x18
+		::System::Int32 valueOffset; // 0x1C
+		::System::Boolean isEnd; // 0x20
 
 		::System::Void Finish()
 		{

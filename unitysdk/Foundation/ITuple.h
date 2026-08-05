@@ -5,7 +5,7 @@ namespace System { class String; }
 
 namespace Foundation
 {
-	inline static constexpr unsigned int ITuple_TypeDefinitionIndex = 8342;
+	inline static constexpr unsigned int ITuple_TypeDefinitionIndex = 7868;
 
 	class ITuple
 	{

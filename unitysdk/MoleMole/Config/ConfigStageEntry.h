@@ -4,11 +4,11 @@
 
 namespace MoleMole::Config { class StageEntry; }
 
-#define MOLEMOLE_CONFIG_CONFIGSTAGEENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1A35B2D0)
+#define MOLEMOLE_CONFIG_CONFIGSTAGEENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5607E0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigStageEntry_TypeDefinitionIndex = 58410;
+	inline static constexpr unsigned int ConfigStageEntry_TypeDefinitionIndex = 71621;
 
 	class ConfigStageEntry : public ::Foundation::MihoyoSerializedScriptableObject
 	{

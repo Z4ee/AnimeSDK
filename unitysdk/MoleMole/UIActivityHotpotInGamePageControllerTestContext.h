@@ -4,11 +4,11 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIACTIVITYHOTPOTINGAMEPAGECONTROLLERTESTCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18758670)
+#define MOLEMOLE_UIACTIVITYHOTPOTINGAMEPAGECONTROLLERTESTCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x191FB160)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityHotpotInGamePageControllerTestContext_TypeDefinitionIndex = 69809;
+	inline static constexpr unsigned int UIActivityHotpotInGamePageControllerTestContext_TypeDefinitionIndex = 70938;
 
 	class UIActivityHotpotInGamePageControllerTestContext : public ::MoleMole::UIControllerContextBase
 	{

@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_2_4E7D4B0E2476C0A5;
+class Class_2_8C395384B7FBB329;
 
-#define MOLEMOLE_UIHOUSERHYTHMPREPCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x172196E0)
+#define MOLEMOLE_UIHOUSERHYTHMPREPCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x190F5340)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHouseRhythmPrepContext_TypeDefinitionIndex = 63683;
+	inline static constexpr unsigned int UIHouseRhythmPrepContext_TypeDefinitionIndex = 79028;
 
 	class UIHouseRhythmPrepContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_2_4E7D4B0E2476C0A5* HouseRhythmData; // 0x28
+		::Class_2_8C395384B7FBB329* HouseRhythmData; // 0x28
 		::System::Int32 showCharacterID; // 0x30
 
 		::System::Void _ctor()

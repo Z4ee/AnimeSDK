@@ -5,17 +5,17 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Animations/AnimationStream.h"
 
-#define STRUCT_2_891DE7EA798ADDB4_METHOD_2_8A550D21C32A35D1_OFFSET UNITYSDK_OFFSET(0x6769F0)
-#define STRUCT_2_891DE7EA798ADDB4_METHOD_2_BFBB01A221943146_OFFSET UNITYSDK_OFFSET(0x676B40)
-#define STRUCT_2_891DE7EA798ADDB4_METHOD_2_C74CF020AA42ED85_OFFSET UNITYSDK_OFFSET(0x2BFC60)
-#define STRUCT_2_891DE7EA798ADDB4__CTOR_OFFSET UNITYSDK_OFFSET(0x676800)
+#define STRUCT_2_891DE7EA798ADDB4_METHOD_2_572232777D650DEF_OFFSET UNITYSDK_OFFSET(0x98A050)
+#define STRUCT_2_891DE7EA798ADDB4_METHOD_2_8A550D21C32A35D1_OFFSET UNITYSDK_OFFSET(0x989F00)
+#define STRUCT_2_891DE7EA798ADDB4_METHOD_2_C74CF020AA42ED85_OFFSET UNITYSDK_OFFSET(0x32DC10)
+#define STRUCT_2_891DE7EA798ADDB4__CTOR_OFFSET UNITYSDK_OFFSET(0x989D10)
 
-inline static constexpr unsigned int Struct_2_891DE7EA798ADDB4_TypeDefinitionIndex = 84760;
+inline static constexpr unsigned int Struct_2_891DE7EA798ADDB4_TypeDefinitionIndex = 47182;
 
 struct alignas(8) Struct_2_891DE7EA798ADDB4
 {
-	::Struct_2_F0CFA50094D8FF32 Field_2_0; // 0x10
-	::Foundation::FixedArray3_1<::UnityEngine::Animations::AnimationStream> Field_2_1; // 0x60
+	::Struct_2_F0CFA50094D8FF32 Field_2_1; // 0x10
+	::Foundation::FixedArray3_1<::UnityEngine::Animations::AnimationStream> Field_2_0; // 0x60
 
 	/*
 	::System::Void _ctor(::Struct_2_F0CFA50094D8FF32 a1, ::Foundation::FixedArray2_1<::UnityEngine::Animations::AnimationStream> a2, ::UnityEngine::Animations::AnimationStream a3)
@@ -37,9 +37,9 @@ struct alignas(8) Struct_2_891DE7EA798ADDB4
 	}
 
 	/*
-	::Struct_2_9D8D4EA8E3D44652 Method_2_BFBB01A221943146(::UnityEngine::Animations::AnimationStream a1)
+	::Struct_2_9D8D4EA8E3D44652 Method_2_572232777D650DEF(::UnityEngine::Animations::AnimationStream a1)
 	{
-		return ((::Struct_2_9D8D4EA8E3D44652(*)(::PVOID, ::UnityEngine::Animations::AnimationStream))((::PBYTE)hIl2Cpp + STRUCT_2_891DE7EA798ADDB4_METHOD_2_BFBB01A221943146_OFFSET))(this, a1);
+		return ((::Struct_2_9D8D4EA8E3D44652(*)(::PVOID, ::UnityEngine::Animations::AnimationStream))((::PBYTE)hIl2Cpp + STRUCT_2_891DE7EA798ADDB4_METHOD_2_572232777D650DEF_OFFSET))(this, a1);
 	}
 	*/
 };

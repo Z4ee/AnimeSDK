@@ -6,11 +6,11 @@ namespace NPCCrowd::GPUPrefab { class MonoNPCCrowdGPUGroupController; }
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define NPCCROWD_GPUPREFAB_GPUPREFABCROWDBENCHMARKBEHAVIOR_SPAWNEDGROUPINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x12746750)
+#define NPCCROWD_GPUPREFAB_GPUPREFABCROWDBENCHMARKBEHAVIOR_SPAWNEDGROUPINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x10CB1EB0)
 
 namespace NPCCrowd::GPUPrefab
 {
-	inline static constexpr unsigned int GPUPrefabCrowdBenchmarkBehavior_SpawnedGroupInfo_TypeDefinitionIndex = 42789;
+	inline static constexpr unsigned int GPUPrefabCrowdBenchmarkBehavior_SpawnedGroupInfo_TypeDefinitionIndex = 68343;
 
 	class GPUPrefabCrowdBenchmarkBehavior_SpawnedGroupInfo : public ::System::Object
 	{

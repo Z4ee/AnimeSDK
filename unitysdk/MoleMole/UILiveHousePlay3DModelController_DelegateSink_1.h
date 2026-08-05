@@ -6,7 +6,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UILiveHousePlay3DModelController_DelegateSink_1_TypeDefinitionIndex = 74329;
+	inline static constexpr unsigned int UILiveHousePlay3DModelController_DelegateSink_1_TypeDefinitionIndex = 76437;
 
 	template <typename T>
 	class UILiveHousePlay3DModelController_DelegateSink_1 : public ::System::Object

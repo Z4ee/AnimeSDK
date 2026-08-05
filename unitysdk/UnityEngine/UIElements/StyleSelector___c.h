@@ -6,24 +6,24 @@
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define UNITYENGINE_UIELEMENTS_STYLESELECTOR___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BBF0F50)
-#define UNITYENGINE_UIELEMENTS_STYLESELECTOR___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBF0F90)
-#define UNITYENGINE_UIELEMENTS_STYLESELECTOR___C__TOSTRING_B__10_0_OFFSET UNITYSDK_OFFSET(0x1BBF0FA0)
+#define UNITYENGINE_UIELEMENTS_STYLESELECTOR___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D008440)
+#define UNITYENGINE_UIELEMENTS_STYLESELECTOR___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1D008480)
+#define UNITYENGINE_UIELEMENTS_STYLESELECTOR___C__TOSTRING_B__10_0_OFFSET UNITYSDK_OFFSET(0x1D008490)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int StyleSelector___c_TypeDefinitionIndex = 27598;
+	inline static constexpr unsigned int StyleSelector___c_TypeDefinitionIndex = 28200;
 
 	class StyleSelector___c : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::UIElements::StyleSelector___c** StaticGet___9()
 		{
-			return (::UnityEngine::UIElements::StyleSelector___c**)Il2CppClass::FromTypeDefinitionIndex(StyleSelector___c_TypeDefinitionIndex)->GetStaticField(0x225D0);
+			return (::UnityEngine::UIElements::StyleSelector___c**)Il2CppClass::FromTypeDefinitionIndex(StyleSelector___c_TypeDefinitionIndex)->GetStaticField(0x23D40);
 		}
 		static ::System::Func_2<::UnityEngine::UIElements::StyleSelectorPart, ::System::String*>** StaticGet___9__10_0()
 		{
-			return (::System::Func_2<::UnityEngine::UIElements::StyleSelectorPart, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(StyleSelector___c_TypeDefinitionIndex)->GetStaticField(0x225D8);
+			return (::System::Func_2<::UnityEngine::UIElements::StyleSelectorPart, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(StyleSelector___c_TypeDefinitionIndex)->GetStaticField(0x23D48);
 		}
 
 		static ::System::Void _cctor()

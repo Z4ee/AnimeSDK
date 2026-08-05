@@ -11,7 +11,7 @@ namespace UnityEngine::UI::Collections { template <typename T> class IndexedSet_
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int GraphicRegistry_2_TypeDefinitionIndex = 18992;
+	inline static constexpr unsigned int GraphicRegistry_2_TypeDefinitionIndex = 19336;
 
 	template <typename TRegistry, typename TModifier>
 	class GraphicRegistry_2 : public ::System::Object

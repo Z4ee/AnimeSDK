@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace Utf8Json::Formatters
 {
-	inline static constexpr unsigned int InterfaceDictionaryFormatter_2_TypeDefinitionIndex = 91315;
+	inline static constexpr unsigned int InterfaceDictionaryFormatter_2_TypeDefinitionIndex = 95248;
 
 	template <typename TKey, typename TValue>
 	class InterfaceDictionaryFormatter_2 : public ::Utf8Json::Formatters::DictionaryFormatterBase_4<TKey, TValue, ::System::Collections::Generic::Dictionary_2<TKey, TValue>*, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>

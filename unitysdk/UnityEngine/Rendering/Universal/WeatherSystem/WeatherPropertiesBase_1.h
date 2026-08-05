@@ -4,7 +4,7 @@
 
 namespace UnityEngine::Rendering::Universal::WeatherSystem
 {
-	inline static constexpr unsigned int WeatherPropertiesBase_1_TypeDefinitionIndex = 27053;
+	inline static constexpr unsigned int WeatherPropertiesBase_1_TypeDefinitionIndex = 27653;
 
 	template <typename T>
 	class WeatherPropertiesBase_1 : public ::System::Object

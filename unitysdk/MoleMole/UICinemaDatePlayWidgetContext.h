@@ -4,11 +4,11 @@
 
 class Class_2_1AEF5DFE7F1C8F89;
 
-#define MOLEMOLE_UICINEMADATEPLAYWIDGETCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x14C0D520)
+#define MOLEMOLE_UICINEMADATEPLAYWIDGETCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16052A50)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICinemaDatePlayWidgetContext_TypeDefinitionIndex = 72121;
+	inline static constexpr unsigned int UICinemaDatePlayWidgetContext_TypeDefinitionIndex = 74638;
 
 	class UICinemaDatePlayWidgetContext : public ::MoleMole::UIControllerContextBase
 	{

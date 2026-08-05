@@ -8,21 +8,21 @@ namespace MoleMole { class UIMainStoryPageController___c__DisplayClass88_1; }
 namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIMAINSTORYPAGECONTROLLER___C__DISPLAYCLASS88_4__CTOR_OFFSET UNITYSDK_OFFSET(0x1693F140)
-#define MOLEMOLE_UIMAINSTORYPAGECONTROLLER___C__DISPLAYCLASS88_4__GOTOSUBITEM_B__3_OFFSET UNITYSDK_OFFSET(0x1693F150)
-#define MOLEMOLE_UIMAINSTORYPAGECONTROLLER___C__DISPLAYCLASS88_4__GOTOSUBITEM_B__4_OFFSET UNITYSDK_OFFSET(0x1693F4E0)
+#define MOLEMOLE_UIMAINSTORYPAGECONTROLLER___C__DISPLAYCLASS88_4__CTOR_OFFSET UNITYSDK_OFFSET(0x189C6A90)
+#define MOLEMOLE_UIMAINSTORYPAGECONTROLLER___C__DISPLAYCLASS88_4__GOTOSUBITEM_B__3_OFFSET UNITYSDK_OFFSET(0x189C6AA0)
+#define MOLEMOLE_UIMAINSTORYPAGECONTROLLER___C__DISPLAYCLASS88_4__GOTOSUBITEM_B__4_OFFSET UNITYSDK_OFFSET(0x189C6E40)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMainStoryPageController___c__DisplayClass88_4_TypeDefinitionIndex = 76829;
+	inline static constexpr unsigned int UIMainStoryPageController___c__DisplayClass88_4_TypeDefinitionIndex = 84570;
 
 	class UIMainStoryPageController___c__DisplayClass88_4 : public ::System::Object
 	{
 	public:
-		::System::Action_3<::System::Int32, ::System::Int32, ::Enum_3_12573614267589AB>* __9__4; // 0x10
-		::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::Int32, ::System::Int32>>* archivePerforms; // 0x18
-		::System::Collections::Generic::List_1<::System::Int32>* performIDs; // 0x20
-		::MoleMole::UIMainStoryPageController___c__DisplayClass88_1* CS___8__locals4; // 0x28
+		::MoleMole::UIMainStoryPageController___c__DisplayClass88_1* CS___8__locals4; // 0x10
+		::System::Collections::Generic::List_1<::System::Int32>* performIDs; // 0x18
+		::System::Action_3<::System::Int32, ::System::Int32, ::Enum_3_12573614267589AB>* __9__4; // 0x20
+		::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::Int32, ::System::Int32>>* archivePerforms; // 0x28
 
 		::System::Void _ctor()
 		{

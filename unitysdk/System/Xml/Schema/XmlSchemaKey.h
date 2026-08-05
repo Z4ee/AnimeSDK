@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Xml/Schema/XmlSchemaIdentityConstraint.h"
 
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAKEY__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0CD8E0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAKEY__CTOR_OFFSET UNITYSDK_OFFSET(0x1E49F980)
 
 namespace System::Xml::Schema
 {

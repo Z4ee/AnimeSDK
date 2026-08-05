@@ -4,11 +4,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2Int.h"
 
-#define NPCCROWD_ANIMATION_CLIPTEXTUREENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0xF9B5BB0)
+#define NPCCROWD_ANIMATION_CLIPTEXTUREENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0xF0DE060)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int ClipTextureEntry_TypeDefinitionIndex = 80866;
+	inline static constexpr unsigned int ClipTextureEntry_TypeDefinitionIndex = 66707;
 
 	class ClipTextureEntry : public ::System::Object
 	{

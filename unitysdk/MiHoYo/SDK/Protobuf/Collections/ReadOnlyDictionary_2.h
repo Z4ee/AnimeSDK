@@ -11,7 +11,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace MiHoYo::SDK::Protobuf::Collections
 {
-	inline static constexpr unsigned int ReadOnlyDictionary_2_TypeDefinitionIndex = 28602;
+	inline static constexpr unsigned int ReadOnlyDictionary_2_TypeDefinitionIndex = 29206;
 
 	template <typename TKey, typename TValue>
 	class ReadOnlyDictionary_2 : public ::System::Object

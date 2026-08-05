@@ -4,12 +4,12 @@
 
 namespace MoleMole::Battle { class Entity; }
 
-#define MOLEMOLE_CONFIG_CONFIGTARGETMONSTERLEAVESTATEFILTER_VALUEPASS_OFFSET UNITYSDK_OFFSET(0xE97A660)
-#define MOLEMOLE_CONFIG_CONFIGTARGETMONSTERLEAVESTATEFILTER__CTOR_OFFSET UNITYSDK_OFFSET(0xE97A790)
+#define MOLEMOLE_CONFIG_CONFIGTARGETMONSTERLEAVESTATEFILTER_VALUEPASS_OFFSET UNITYSDK_OFFSET(0x19AC9CA0)
+#define MOLEMOLE_CONFIG_CONFIGTARGETMONSTERLEAVESTATEFILTER__CTOR_OFFSET UNITYSDK_OFFSET(0x19AC9DD0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigTargetMonsterLeaveStateFilter_TypeDefinitionIndex = 83445;
+	inline static constexpr unsigned int ConfigTargetMonsterLeaveStateFilter_TypeDefinitionIndex = 54415;
 
 	class ConfigTargetMonsterLeaveStateFilter : public ::MoleMole::Config::ConfigEntityFilter
 	{

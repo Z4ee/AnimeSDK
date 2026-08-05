@@ -5,9 +5,9 @@
 
 namespace MoleMole { class SceneSoundPortalData; }
 
-#define CLASS_1_CD7D23C86A2437C3_METHOD_1_068D57E33F4DDD08_OFFSET UNITYSDK_OFFSET(0x1307EF40)
+#define CLASS_1_CD7D23C86A2437C3_METHOD_1_068D57E33F4DDD08_OFFSET UNITYSDK_OFFSET(0x10A06A00)
 
-inline static constexpr unsigned int Class_1_CD7D23C86A2437C3_TypeDefinitionIndex = 67315;
+inline static constexpr unsigned int Class_1_CD7D23C86A2437C3_TypeDefinitionIndex = 67022;
 
 class Class_1_CD7D23C86A2437C3 : public ::System::Object
 {

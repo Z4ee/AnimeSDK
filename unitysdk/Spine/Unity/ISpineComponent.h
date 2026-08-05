@@ -3,7 +3,7 @@
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int ISpineComponent_TypeDefinitionIndex = 39495;
+	inline static constexpr unsigned int ISpineComponent_TypeDefinitionIndex = 40160;
 
 	class ISpineComponent
 	{

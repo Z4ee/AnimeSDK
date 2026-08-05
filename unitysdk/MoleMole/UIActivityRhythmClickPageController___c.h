@@ -5,29 +5,29 @@
 namespace System { class Action; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MOLEMOLE_UIACTIVITYRHYTHMCLICKPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1865EB40)
-#define MOLEMOLE_UIACTIVITYRHYTHMCLICKPAGECONTROLLER___C__CLEARALLEFFECTS_B__97_0_OFFSET UNITYSDK_OFFSET(0x1865EBA0)
-#define MOLEMOLE_UIACTIVITYRHYTHMCLICKPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1865EB80)
-#define MOLEMOLE_UIACTIVITYRHYTHMCLICKPAGECONTROLLER___C__HIDEBOTTOMTIPS_B__63_0_OFFSET UNITYSDK_OFFSET(0x1865EB90)
+#define MOLEMOLE_UIACTIVITYRHYTHMCLICKPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B6F6820)
+#define MOLEMOLE_UIACTIVITYRHYTHMCLICKPAGECONTROLLER___C__CLEARALLEFFECTS_B__97_0_OFFSET UNITYSDK_OFFSET(0x1B6F6880)
+#define MOLEMOLE_UIACTIVITYRHYTHMCLICKPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6F6860)
+#define MOLEMOLE_UIACTIVITYRHYTHMCLICKPAGECONTROLLER___C__HIDEBOTTOMTIPS_B__63_0_OFFSET UNITYSDK_OFFSET(0x1B6F6870)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityRhythmClickPageController___c_TypeDefinitionIndex = 81305;
+	inline static constexpr unsigned int UIActivityRhythmClickPageController___c_TypeDefinitionIndex = 87499;
 
 	class UIActivityRhythmClickPageController___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__63_0()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIActivityRhythmClickPageController___c_TypeDefinitionIndex)->GetStaticField(0x39FF0);
-		}
 		static ::System::Func_2<::System::Int32, ::System::Boolean>** StaticGet___9__97_0()
 		{
-			return (::System::Func_2<::System::Int32, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIActivityRhythmClickPageController___c_TypeDefinitionIndex)->GetStaticField(0x39FF8);
+			return (::System::Func_2<::System::Int32, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIActivityRhythmClickPageController___c_TypeDefinitionIndex)->GetStaticField(0x3CD90);
 		}
 		static ::MoleMole::UIActivityRhythmClickPageController___c** StaticGet___9()
 		{
-			return (::MoleMole::UIActivityRhythmClickPageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIActivityRhythmClickPageController___c_TypeDefinitionIndex)->GetStaticField(0x3A000);
+			return (::MoleMole::UIActivityRhythmClickPageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIActivityRhythmClickPageController___c_TypeDefinitionIndex)->GetStaticField(0x3CD98);
+		}
+		static ::System::Action** StaticGet___9__63_0()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIActivityRhythmClickPageController___c_TypeDefinitionIndex)->GetStaticField(0x3CDA0);
 		}
 
 		static ::System::Void _cctor()

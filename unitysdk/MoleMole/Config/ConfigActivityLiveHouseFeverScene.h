@@ -6,11 +6,11 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGACTIVITYLIVEHOUSEFEVERSCENE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A060250)
+#define MOLEMOLE_CONFIG_CONFIGACTIVITYLIVEHOUSEFEVERSCENE__CTOR_OFFSET UNITYSDK_OFFSET(0x177D4330)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigActivityLiveHouseFeverScene_TypeDefinitionIndex = 51962;
+	inline static constexpr unsigned int ConfigActivityLiveHouseFeverScene_TypeDefinitionIndex = 51737;
 
 	class ConfigActivityLiveHouseFeverScene : public ::Foundation::MihoyoSerializedScriptableObject
 	{

@@ -7,13 +7,13 @@ namespace MessagePack::Internal { class ObjectSerializationInfo_EmittableMemberA
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Reflection { class ConstructorInfo; }
 
-#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO___C__DISPLAYCLASS29_0__CREATEORNULL_B__11_OFFSET UNITYSDK_OFFSET(0x1BC5A7B0)
-#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO___C__DISPLAYCLASS29_0__CREATEORNULL_B__1_OFFSET UNITYSDK_OFFSET(0x1BC5A750)
-#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO___C__DISPLAYCLASS29_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC5A520)
+#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO___C__DISPLAYCLASS29_0__CREATEORNULL_B__11_OFFSET UNITYSDK_OFFSET(0x1DB31DA0)
+#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO___C__DISPLAYCLASS29_0__CREATEORNULL_B__1_OFFSET UNITYSDK_OFFSET(0x1DB31D40)
+#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO___C__DISPLAYCLASS29_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB31B00)
 
 namespace MessagePack::Internal
 {
-	inline static constexpr unsigned int ObjectSerializationInfo___c__DisplayClass29_0_TypeDefinitionIndex = 30390;
+	inline static constexpr unsigned int ObjectSerializationInfo___c__DisplayClass29_0_TypeDefinitionIndex = 31323;
 
 	class ObjectSerializationInfo___c__DisplayClass29_0 : public ::System::Object
 	{

@@ -5,12 +5,12 @@
 namespace UnityEngine { class Gradient; }
 namespace UnityEngine::Rendering::Universal::Internal { class OutlineObjectRenderer; }
 
-#define MOLEMOLE_CONFIGOUTLINEOBJECTRENDERER_LOCAL_METHOD_1_91F4824248EF27C1_OFFSET UNITYSDK_OFFSET(0x157D7890)
-#define MOLEMOLE_CONFIGOUTLINEOBJECTRENDERER_LOCAL__CTOR_OFFSET UNITYSDK_OFFSET(0x157D7700)
+#define MOLEMOLE_CONFIGOUTLINEOBJECTRENDERER_LOCAL_METHOD_1_91F4824248EF27C1_OFFSET UNITYSDK_OFFSET(0x1BD80260)
+#define MOLEMOLE_CONFIGOUTLINEOBJECTRENDERER_LOCAL__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD800D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigOutlineObjectRenderer_Local_TypeDefinitionIndex = 39802;
+	inline static constexpr unsigned int ConfigOutlineObjectRenderer_Local_TypeDefinitionIndex = 42232;
 
 	class ConfigOutlineObjectRenderer_Local : public ::System::Object
 	{

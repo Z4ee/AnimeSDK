@@ -5,12 +5,12 @@
 namespace MiHoYo::SDK::PC::OS { class XboxPrivilegeParam; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELPRIVILEGEPARAMS_TOJSON_OFFSET UNITYSDK_OFFSET(0x1BE59180)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELPRIVILEGEPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE59190)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELPRIVILEGEPARAMS_TOJSON_OFFSET UNITYSDK_OFFSET(0x1D1CA7E0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELPRIVILEGEPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1CA7F0)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannelPrivilegeParams_TypeDefinitionIndex = 20351;
+	inline static constexpr unsigned int HoYoChannelPrivilegeParams_TypeDefinitionIndex = 20698;
 
 	class HoYoChannelPrivilegeParams : public ::MiHoYo::SDK::PC::OS::HoYoChannelAsyncParams
 	{

@@ -9,21 +9,21 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define FOUNDATION_NATIVEMEMORYBUILDER_BUILD_OFFSET UNITYSDK_OFFSET(0x1E5ECBB0)
-#define FOUNDATION_NATIVEMEMORYBUILDER_REQUESTBLOB_OFFSET UNITYSDK_OFFSET(0x1E5EC810)
-#define FOUNDATION_NATIVEMEMORYBUILDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E5ECC80)
+#define FOUNDATION_NATIVEMEMORYBUILDER_BUILD_OFFSET UNITYSDK_OFFSET(0x1F9DC1D0)
+#define FOUNDATION_NATIVEMEMORYBUILDER_REQUESTBLOB_OFFSET UNITYSDK_OFFSET(0x1F9DBE30)
+#define FOUNDATION_NATIVEMEMORYBUILDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F9DC2A0)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int NativeMemoryBuilder_TypeDefinitionIndex = 8773;
+	inline static constexpr unsigned int NativeMemoryBuilder_TypeDefinitionIndex = 8815;
 
 	class NativeMemoryBuilder : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>* _taggedRequests; // 0x10
-		::System::Collections::Generic::List_1<::Foundation::NativeMemoryRequest>* _requests; // 0x18
-		::System::Int32 _alignment; // 0x20
-		::System::UInt64 _allocatorId; // 0x28
+		::System::Collections::Generic::List_1<::Foundation::NativeMemoryRequest>* _requests; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>* _taggedRequests; // 0x18
+		::System::UInt64 _allocatorId; // 0x20
+		::System::Int32 _alignment; // 0x28
 
 		::System::Void _ctor()
 		{

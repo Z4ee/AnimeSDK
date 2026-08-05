@@ -3,11 +3,11 @@
 
 namespace ParadoxNotion::Serialization
 {
-	inline static constexpr unsigned int GeneralUsage_TypeDefinitionIndex = 29157;
+	inline static constexpr unsigned int GeneralUsage_TypeDefinitionIndex = 30695;
 
 	enum class GeneralUsage : ::System::Int32
 	{
-		Default = 0,
 		DFGraph = 1,
+		Default = 0,
 	};
 }

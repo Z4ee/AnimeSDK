@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_ACTIVITYWEBLINKTRAININGINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x10CCB8E0)
+#define MOLEMOLE_ACTIVITYWEBLINKTRAININGINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x116C60B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ActivityWeblinkTrainingInfo_TypeDefinitionIndex = 66035;
+	inline static constexpr unsigned int ActivityWeblinkTrainingInfo_TypeDefinitionIndex = 85713;
 
 	class ActivityWeblinkTrainingInfo : public ::System::Object
 	{

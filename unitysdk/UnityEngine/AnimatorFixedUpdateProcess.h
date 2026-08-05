@@ -5,15 +5,15 @@
 
 namespace UnityEngine { class OnAnimatorFixedUpdate; }
 
-#define UNITYENGINE_ANIMATORFIXEDUPDATEPROCESS_CREATE_OFFSET UNITYSDK_OFFSET(0x1E880720)
-#define UNITYENGINE_ANIMATORFIXEDUPDATEPROCESS_DESTROY_OFFSET UNITYSDK_OFFSET(0x1E880750)
-#define UNITYENGINE_ANIMATORFIXEDUPDATEPROCESS_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1E880730)
-#define UNITYENGINE_ANIMATORFIXEDUPDATEPROCESS_INVOKEONANIMATORFIXEDUPDATE_OFFSET UNITYSDK_OFFSET(0x1E880760)
-#define UNITYENGINE_ANIMATORFIXEDUPDATEPROCESS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E8806F0)
+#define UNITYENGINE_ANIMATORFIXEDUPDATEPROCESS_CREATE_OFFSET UNITYSDK_OFFSET(0x1FC5FA60)
+#define UNITYENGINE_ANIMATORFIXEDUPDATEPROCESS_DESTROY_OFFSET UNITYSDK_OFFSET(0x1FC5FA90)
+#define UNITYENGINE_ANIMATORFIXEDUPDATEPROCESS_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1FC5FA70)
+#define UNITYENGINE_ANIMATORFIXEDUPDATEPROCESS_INVOKEONANIMATORFIXEDUPDATE_OFFSET UNITYSDK_OFFSET(0x1FC5FAA0)
+#define UNITYENGINE_ANIMATORFIXEDUPDATEPROCESS__CTOR_OFFSET UNITYSDK_OFFSET(0x1FC5FA30)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int AnimatorFixedUpdateProcess_TypeDefinitionIndex = 6628;
+	inline static constexpr unsigned int AnimatorFixedUpdateProcess_TypeDefinitionIndex = 6634;
 
 	class AnimatorFixedUpdateProcess : public ::System::Object
 	{
@@ -41,9 +41,9 @@ namespace UnityEngine
 			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_ANIMATORFIXEDUPDATEPROCESS_DESTROY_OFFSET))(handle);
 		}
 
-		static ::System::Void InvokeOnAnimatorFixedUpdate(::UnityEngine::AnimatorFixedUpdateProcess* p, ::Unity::Jobs::JobHandle& jobFence)
+		static ::System::Void InvokeOnAnimatorFixedUpdate(::UnityEngine::AnimatorFixedUpdateProcess* p, ::Unity::Jobs::JobHandle& dependsOn, ::Unity::Jobs::JobHandle& jobFence)
 		{
-			return ((::System::Void(*)(::UnityEngine::AnimatorFixedUpdateProcess*, ::Unity::Jobs::JobHandle&))((::PBYTE)hIl2Cpp + UNITYENGINE_ANIMATORFIXEDUPDATEPROCESS_INVOKEONANIMATORFIXEDUPDATE_OFFSET))(p, jobFence);
+			return ((::System::Void(*)(::UnityEngine::AnimatorFixedUpdateProcess*, ::Unity::Jobs::JobHandle&, ::Unity::Jobs::JobHandle&))((::PBYTE)hIl2Cpp + UNITYENGINE_ANIMATORFIXEDUPDATEPROCESS_INVOKEONANIMATORFIXEDUPDATE_OFFSET))(p, dependsOn, jobFence);
 		}
 	};
 }

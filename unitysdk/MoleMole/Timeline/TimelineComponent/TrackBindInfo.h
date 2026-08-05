@@ -8,12 +8,12 @@ namespace UnityEngine { class Transform; }
 namespace UnityEngine::Playables { class PlayableDirector; }
 namespace UnityEngine::Timeline { class TimelineAsset; }
 
-#define MOLEMOLE_TIMELINE_TIMELINECOMPONENT_TRACKBINDINFO_METHOD_1_BC9384C781C3176A_OFFSET UNITYSDK_OFFSET(0x18199F30)
-#define MOLEMOLE_TIMELINE_TIMELINECOMPONENT_TRACKBINDINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18199EE0)
+#define MOLEMOLE_TIMELINE_TIMELINECOMPONENT_TRACKBINDINFO_METHOD_1_BC9384C781C3176A_OFFSET UNITYSDK_OFFSET(0x1973F3B0)
+#define MOLEMOLE_TIMELINE_TIMELINECOMPONENT_TRACKBINDINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1973F360)
 
 namespace MoleMole::Timeline::TimelineComponent
 {
-	inline static constexpr unsigned int TrackBindInfo_TypeDefinitionIndex = 63276;
+	inline static constexpr unsigned int TrackBindInfo_TypeDefinitionIndex = 60830;
 
 	class TrackBindInfo : public ::System::Object
 	{

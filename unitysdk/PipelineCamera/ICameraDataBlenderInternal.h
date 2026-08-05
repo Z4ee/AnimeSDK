@@ -10,7 +10,7 @@ namespace PipelineCamera::Module { class InPlaceBlender; }
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int ICameraDataBlenderInternal_TypeDefinitionIndex = 37582;
+	inline static constexpr unsigned int ICameraDataBlenderInternal_TypeDefinitionIndex = 38243;
 
 	class ICameraDataBlenderInternal
 	{

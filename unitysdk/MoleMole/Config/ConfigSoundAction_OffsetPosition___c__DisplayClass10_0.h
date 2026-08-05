@@ -5,12 +5,12 @@
 namespace MoleMole::Config { class ConfigSoundAction_OffsetPosition; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_OFFSETPOSITION___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A06FA70)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_OFFSETPOSITION___C__DISPLAYCLASS10_0__EXECUTE_B__1_OFFSET UNITYSDK_OFFSET(0x1A06FA80)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_OFFSETPOSITION___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x177E2730)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_OFFSETPOSITION___C__DISPLAYCLASS10_0__EXECUTE_B__1_OFFSET UNITYSDK_OFFSET(0x177E2740)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigSoundAction_OffsetPosition___c__DisplayClass10_0_TypeDefinitionIndex = 73657;
+	inline static constexpr unsigned int ConfigSoundAction_OffsetPosition___c__DisplayClass10_0_TypeDefinitionIndex = 83237;
 
 	class ConfigSoundAction_OffsetPosition___c__DisplayClass10_0 : public ::System::Object
 	{

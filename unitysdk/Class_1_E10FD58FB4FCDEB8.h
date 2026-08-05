@@ -2,22 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_E10FD58FB4FCDEB8_METHOD_1_797B0DC3D00A8877_1_OFFSET UNITYSDK_OFFSET(0x18B3AFD0)
-#define CLASS_1_E10FD58FB4FCDEB8_METHOD_1_797B0DC3D00A8877_2_OFFSET UNITYSDK_OFFSET(0x18B3B010)
-#define CLASS_1_E10FD58FB4FCDEB8_METHOD_1_797B0DC3D00A8877_OFFSET UNITYSDK_OFFSET(0x18B3AEE0)
-#define CLASS_1_E10FD58FB4FCDEB8_METHOD_1_E3812F04B2228A8B_OFFSET UNITYSDK_OFFSET(0x18B3AF30)
-#define CLASS_1_E10FD58FB4FCDEB8__CTOR_OFFSET UNITYSDK_OFFSET(0x18B3AED0)
+#define CLASS_1_E10FD58FB4FCDEB8_METHOD_1_797B0DC3D00A8877_1_OFFSET UNITYSDK_OFFSET(0x1258DD90)
+#define CLASS_1_E10FD58FB4FCDEB8_METHOD_1_797B0DC3D00A8877_2_OFFSET UNITYSDK_OFFSET(0x1258DDE0)
+#define CLASS_1_E10FD58FB4FCDEB8_METHOD_1_797B0DC3D00A8877_OFFSET UNITYSDK_OFFSET(0x1258DCB0)
+#define CLASS_1_E10FD58FB4FCDEB8_METHOD_1_E3812F04B2228A8B_OFFSET UNITYSDK_OFFSET(0x1258DCF0)
+#define CLASS_1_E10FD58FB4FCDEB8__CTOR_OFFSET UNITYSDK_OFFSET(0x1258DCA0)
 
-inline static constexpr unsigned int Class_1_E10FD58FB4FCDEB8_TypeDefinitionIndex = 47363;
+inline static constexpr unsigned int Class_1_E10FD58FB4FCDEB8_TypeDefinitionIndex = 84660;
 
 class Class_1_E10FD58FB4FCDEB8 : public ::System::Object
 {
 public:
-	// static const ::System::Int32 Field_1_0 = 0x0; // 0x0
-	// static const ::System::Int32 Field_1_1 = 0x1; // 0x0
-	// static const ::System::Int32 Field_1_2 = 0x2; // 0x0
-	// static const ::System::Int32 Field_1_3 = 0x64; // 0x0
-	// static const ::System::Int32 Field_1_4 = 0x3E8; // 0x0
+	// static const ::System::Int32 Field_1_3 = 0x0; // 0x0
+	// static const ::System::Int32 Field_1_2 = 0x1; // 0x0
+	// static const ::System::Int32 Field_1_1 = 0x2; // 0x0
+	// static const ::System::Int32 Field_1_0 = 0x64; // 0x0
+	// static const ::System::Int32 Field_1_7 = 0x3E8; // 0x0
 
 	::System::Void _ctor()
 	{

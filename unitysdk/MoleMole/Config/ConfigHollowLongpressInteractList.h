@@ -6,11 +6,11 @@ namespace MoleMole::Config { class ConfigHollowInteractBase; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWLONGPRESSINTERACTLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1A34B950)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWLONGPRESSINTERACTLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1B54E860)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowLongpressInteractList_TypeDefinitionIndex = 44234;
+	inline static constexpr unsigned int ConfigHollowLongpressInteractList_TypeDefinitionIndex = 45669;
 
 	class ConfigHollowLongpressInteractList : public ::System::Object
 	{

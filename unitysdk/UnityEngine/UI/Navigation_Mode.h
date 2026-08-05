@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int Navigation_Mode_TypeDefinitionIndex = 18933;
+	inline static constexpr unsigned int Navigation_Mode_TypeDefinitionIndex = 19275;
 
 	enum class Navigation_Mode : ::System::Int32
 	{

@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int SortingCriteria_TypeDefinitionIndex = 6262;
+	inline static constexpr unsigned int SortingCriteria_TypeDefinitionIndex = 6266;
 
 	enum class SortingCriteria : ::System::Int32
 	{

@@ -10,7 +10,7 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigSurfCamera_TypeDefinitionIndex = 44881;
+	inline static constexpr unsigned int ConfigSurfCamera_TypeDefinitionIndex = 53523;
 
 	struct alignas(8) ConfigSurfCamera
 	{

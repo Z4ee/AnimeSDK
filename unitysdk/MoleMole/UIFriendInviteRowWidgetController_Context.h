@@ -6,19 +6,19 @@ class Class_1_81D34D116310A358;
 namespace System { class Action; }
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_UIFRIENDINVITEROWWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x17717910)
+#define MOLEMOLE_UIFRIENDINVITEROWWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x186BAC50)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIFriendInviteRowWidgetController_Context_TypeDefinitionIndex = 51996;
+	inline static constexpr unsigned int UIFriendInviteRowWidgetController_Context_TypeDefinitionIndex = 71562;
 
 	class UIFriendInviteRowWidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::System::Action_1<::System::Action*>* OnConfirm; // 0x28
-		::System::Action_1<::Class_1_81D34D116310A358*>* OnReject; // 0x30
-		::Class_1_81D34D116310A358* request; // 0x38
-		::System::Action* ConfirmAction; // 0x40
+		::System::Action* ConfirmAction; // 0x28
+		::System::Action_1<::System::Action*>* OnConfirm; // 0x30
+		::System::Action_1<::Class_1_81D34D116310A358*>* OnReject; // 0x38
+		::Class_1_81D34D116310A358* request; // 0x40
 
 		::System::Void _ctor()
 		{

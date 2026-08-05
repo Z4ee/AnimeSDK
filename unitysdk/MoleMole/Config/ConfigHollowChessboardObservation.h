@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARDOBSERVATION__CTOR_OFFSET UNITYSDK_OFFSET(0x158A92A0)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARDOBSERVATION__CTOR_OFFSET UNITYSDK_OFFSET(0x143762D0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowChessboardObservation_TypeDefinitionIndex = 55692;
+	inline static constexpr unsigned int ConfigHollowChessboardObservation_TypeDefinitionIndex = 52182;
 
 	class ConfigHollowChessboardObservation : public ::Foundation::MihoyoSerializedScriptableObject
 	{

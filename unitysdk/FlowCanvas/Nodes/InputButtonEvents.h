@@ -6,22 +6,22 @@ namespace FlowCanvas { class FlowOutput; }
 namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
 namespace System { class String; }
 
-#define FLOWCANVAS_NODES_INPUTBUTTONEVENTS_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1D51DAF0)
-#define FLOWCANVAS_NODES_INPUTBUTTONEVENTS_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1D51DC00)
-#define FLOWCANVAS_NODES_INPUTBUTTONEVENTS_UPDATE_OFFSET UNITYSDK_OFFSET(0x1D51DC90)
-#define FLOWCANVAS_NODES_INPUTBUTTONEVENTS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D51DCA0)
+#define FLOWCANVAS_NODES_INPUTBUTTONEVENTS_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1E8B7C70)
+#define FLOWCANVAS_NODES_INPUTBUTTONEVENTS_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1E8B7D80)
+#define FLOWCANVAS_NODES_INPUTBUTTONEVENTS_UPDATE_OFFSET UNITYSDK_OFFSET(0x1E8B7E10)
+#define FLOWCANVAS_NODES_INPUTBUTTONEVENTS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E8B7E20)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int InputButtonEvents_TypeDefinitionIndex = 29437;
+	inline static constexpr unsigned int InputButtonEvents_TypeDefinitionIndex = 31310;
 
 	class InputButtonEvents : public ::FlowCanvas::Nodes::EventNode
 	{
 	public:
-		::FlowCanvas::FlowOutput* pressed; // 0xA8
-		::NodeCanvas::Framework::BBParameter_1<::System::String*>* buttonName; // 0xB0
+		::FlowCanvas::FlowOutput* down; // 0xA8
+		::FlowCanvas::FlowOutput* pressed; // 0xB0
 		::FlowCanvas::FlowOutput* up; // 0xB8
-		::FlowCanvas::FlowOutput* down; // 0xC0
+		::NodeCanvas::Framework::BBParameter_1<::System::String*>* buttonName; // 0xC0
 
 		::System::Void _ctor()
 		{

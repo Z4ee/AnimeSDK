@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInLevelSwitchBtnPanelChildWindowController_TouchButtonUpType_TypeDefinitionIndex = 61403;
+	inline static constexpr unsigned int UIInLevelSwitchBtnPanelChildWindowController_TouchButtonUpType_TypeDefinitionIndex = 91120;
 
 	enum class UIInLevelSwitchBtnPanelChildWindowController_TouchButtonUpType : ::System::Int32
 	{

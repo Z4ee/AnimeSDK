@@ -3,14 +3,14 @@
 #include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_208CC9941471731A_733;
+class Class_2_208CC9941471731A_1014;
 
-#define MOLEMOLE_UIABBATTLEPHASEWIDGETCONTROLLER___C__DISPLAYCLASS36_1__CTOR_OFFSET UNITYSDK_OFFSET(0x187214B0)
-#define MOLEMOLE_UIABBATTLEPHASEWIDGETCONTROLLER___C__DISPLAYCLASS36_1__ONCAMPCHANGE_B__2_OFFSET UNITYSDK_OFFSET(0x187214C0)
+#define MOLEMOLE_UIABBATTLEPHASEWIDGETCONTROLLER___C__DISPLAYCLASS36_1__CTOR_OFFSET UNITYSDK_OFFSET(0x191C40B0)
+#define MOLEMOLE_UIABBATTLEPHASEWIDGETCONTROLLER___C__DISPLAYCLASS36_1__ONCAMPCHANGE_B__2_OFFSET UNITYSDK_OFFSET(0x191C40C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIABBattlePhaseWidgetController___c__DisplayClass36_1_TypeDefinitionIndex = 46032;
+	inline static constexpr unsigned int UIABBattlePhaseWidgetController___c__DisplayClass36_1_TypeDefinitionIndex = 54929;
 
 	class UIABBattlePhaseWidgetController___c__DisplayClass36_1 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIABBATTLEPHASEWIDGETCONTROLLER___C__DISPLAYCLASS36_1__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _OnCampChange_b__2(::Class_2_208CC9941471731A_733* cfg)
+		::System::Boolean _OnCampChange_b__2(::Class_2_208CC9941471731A_1014* cfg)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_2_208CC9941471731A_733*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIABBATTLEPHASEWIDGETCONTROLLER___C__DISPLAYCLASS36_1__ONCAMPCHANGE_B__2_OFFSET))(this, cfg);
+			return ((::System::Boolean(*)(::PVOID, ::Class_2_208CC9941471731A_1014*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIABBATTLEPHASEWIDGETCONTROLLER___C__DISPLAYCLASS36_1__ONCAMPCHANGE_B__2_OFFSET))(this, cfg);
 		}
 	};
 }

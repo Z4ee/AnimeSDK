@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAnalogClockAnimation_Enum_3_69F5F23936D95363_TypeDefinitionIndex = 69277;
+	inline static constexpr unsigned int UIAnalogClockAnimation_Enum_3_69F5F23936D95363_TypeDefinitionIndex = 84251;
 
 	enum class UIAnalogClockAnimation_Enum_3_69F5F23936D95363 : ::System::Int32
 	{

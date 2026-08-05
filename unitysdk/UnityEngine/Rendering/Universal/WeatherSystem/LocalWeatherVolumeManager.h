@@ -11,22 +11,22 @@ namespace UnityEngine { class Camera; }
 namespace UnityEngine::Rendering::Universal::WeatherSystem { class LocalWeatherVolume; }
 namespace UnityEngine::Rendering::Universal::WeatherSystem { class LocalWeatherVolumeContext; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_LOCALWEATHERVOLUMEMANAGER_REGISTERLOCALWEATHERVOLUME_OFFSET UNITYSDK_OFFSET(0x1B0C03A0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_LOCALWEATHERVOLUMEMANAGER_TRYGETLOCALWEATHERVOLUME_OFFSET UNITYSDK_OFFSET(0x1B0BFF90)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_LOCALWEATHERVOLUMEMANAGER_UNREGISTERLOCALWEATHERVOLUME_OFFSET UNITYSDK_OFFSET(0x1B0C0680)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_LOCALWEATHERVOLUMEMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B0C0870)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_LOCALWEATHERVOLUMEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0C0860)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_LOCALWEATHERVOLUMEMANAGER_REGISTERLOCALWEATHERVOLUME_OFFSET UNITYSDK_OFFSET(0x1C5221D0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_LOCALWEATHERVOLUMEMANAGER_TRYGETLOCALWEATHERVOLUME_OFFSET UNITYSDK_OFFSET(0x1C521DC0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_LOCALWEATHERVOLUMEMANAGER_UNREGISTERLOCALWEATHERVOLUME_OFFSET UNITYSDK_OFFSET(0x1C5224B0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_LOCALWEATHERVOLUMEMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C5226A0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_LOCALWEATHERVOLUMEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C522690)
 
 namespace UnityEngine::Rendering::Universal::WeatherSystem
 {
-	inline static constexpr unsigned int LocalWeatherVolumeManager_TypeDefinitionIndex = 27212;
+	inline static constexpr unsigned int LocalWeatherVolumeManager_TypeDefinitionIndex = 27413;
 
 	class LocalWeatherVolumeManager : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::HashSet_1<::UnityEngine::Rendering::Universal::WeatherSystem::LocalWeatherVolume*>*>** StaticGet_s_LocalWeatherVolumes()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::HashSet_1<::UnityEngine::Rendering::Universal::WeatherSystem::LocalWeatherVolume*>*>**)Il2CppClass::FromTypeDefinitionIndex(LocalWeatherVolumeManager_TypeDefinitionIndex)->GetStaticField(0x21CC0);
+			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::HashSet_1<::UnityEngine::Rendering::Universal::WeatherSystem::LocalWeatherVolume*>*>**)Il2CppClass::FromTypeDefinitionIndex(LocalWeatherVolumeManager_TypeDefinitionIndex)->GetStaticField(0x23460);
 		}
 
 		::System::Void _ctor()

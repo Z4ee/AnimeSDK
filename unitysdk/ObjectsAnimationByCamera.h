@@ -1,13 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/Nap_VoGroupStateListener.h"
+#include "unitysdk/ObjectsAnimationByCameraAudioSyncScope.h"
 #include "unitysdk/ObjectsAnimationByCamera_AnimMode.h"
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Matrix4x4.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
+class ObjectsAnimationByCameraAudioConfig;
 class ObjectsAnimationByCamera_CollectionWrapper;
-class ObjectsAnimationByCamera_DriveAudioLayer;
 class ObjectsAnimationByCamera_DriveAudioLayersForObject;
 class ObjectsAnimationByCamera_DriveAudioRuntimeState;
 class ObjectsAnimationByCamera_TransformAudioConfig;
@@ -19,84 +20,86 @@ namespace UnityEngine { class Camera; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 
-#define OBJECTSANIMATIONBYCAMERA_APPLYTRANSFORMBYFACTOR_OFFSET UNITYSDK_OFFSET(0x19E00780)
-#define OBJECTSANIMATIONBYCAMERA_BUTTONSYNCAUDIOCONFIGLISTSTOCOLLECTEDOBJECTS_OFFSET UNITYSDK_OFFSET(0x19DFCB70)
-#define OBJECTSANIMATIONBYCAMERA_CLEAROBJECTS_OFFSET UNITYSDK_OFFSET(0x19DFCBC0)
-#define OBJECTSANIMATIONBYCAMERA_COLLECTOBJECTS_OFFSET UNITYSDK_OFFSET(0x19DFC310)
-#define OBJECTSANIMATIONBYCAMERA_ENSUREADVANCEDVOLUMECOLORSINITIALIZED_OFFSET UNITYSDK_OFFSET(0x19DFBEE0)
-#define OBJECTSANIMATIONBYCAMERA_ENSURERUNTIMEAUDIOLISTS_OFFSET UNITYSDK_OFFSET(0x19DF85F0)
-#define OBJECTSANIMATIONBYCAMERA_ENSURERUNTIMEAUDIOMATCHESCOLLECTEDCOUNT_OFFSET UNITYSDK_OFFSET(0x19DF8590)
-#define OBJECTSANIMATIONBYCAMERA_ENSURETRANSFORMFORWARDLOOP_OFFSET UNITYSDK_OFFSET(0x19DFA2F0)
-#define OBJECTSANIMATIONBYCAMERA_ENSURETRANSFORMREVERSELOOP_OFFSET UNITYSDK_OFFSET(0x19DFA390)
-#define OBJECTSANIMATIONBYCAMERA_EVALUATEVOLUMETRIGGERED_OFFSET UNITYSDK_OFFSET(0x19DFDF10)
-#define OBJECTSANIMATIONBYCAMERA_FASTINVOLUMECHECK_OFFSET UNITYSDK_OFFSET(0x19DFDC00)
-#define OBJECTSANIMATIONBYCAMERA_FORCESTOPAUDIO_OFFSET UNITYSDK_OFFSET(0x19DF92F0)
-#define OBJECTSANIMATIONBYCAMERA_GENERATERANDOMVOLUMECOLOR_OFFSET UNITYSDK_OFFSET(0x19DFBC50)
-#define OBJECTSANIMATIONBYCAMERA_GETDELTATIME_OFFSET UNITYSDK_OFFSET(0x19DFE4E0)
-#define OBJECTSANIMATIONBYCAMERA_GETDRIVELAYERS_OFFSET UNITYSDK_OFFSET(0x19DF8D00)
-#define OBJECTSANIMATIONBYCAMERA_GETDRIVERUNTIME_OFFSET UNITYSDK_OFFSET(0x19DF8DA0)
-#define OBJECTSANIMATIONBYCAMERA_GETTRANSFORMCONFIG_OFFSET UNITYSDK_OFFSET(0x19DF8BC0)
-#define OBJECTSANIMATIONBYCAMERA_GETTRANSFORMRUNTIME_OFFSET UNITYSDK_OFFSET(0x19DF8C60)
-#define OBJECTSANIMATIONBYCAMERA_GETVOLUMEMATRIX_1_OFFSET UNITYSDK_OFFSET(0x19DFD480)
-#define OBJECTSANIMATIONBYCAMERA_GETVOLUMEMATRIX_OFFSET UNITYSDK_OFFSET(0x19DFD3D0)
-#define OBJECTSANIMATIONBYCAMERA_HASPENDINGREVERSEPLAYBACK_OFFSET UNITYSDK_OFFSET(0x19DFE3E0)
-#define OBJECTSANIMATIONBYCAMERA_INITPORTALSTATE_OFFSET UNITYSDK_OFFSET(0x19DFB6F0)
-#define OBJECTSANIMATIONBYCAMERA_INVOLUMECHECK_1_OFFSET UNITYSDK_OFFSET(0x19DFDAD0)
-#define OBJECTSANIMATIONBYCAMERA_INVOLUMECHECK_2_OFFSET UNITYSDK_OFFSET(0x19DFD850)
-#define OBJECTSANIMATIONBYCAMERA_INVOLUMECHECK_OFFSET UNITYSDK_OFFSET(0x19DFD790)
-#define OBJECTSANIMATIONBYCAMERA_LOCALSAMPLEANIMATION_OFFSET UNITYSDK_OFFSET(0x19E004C0)
-#define OBJECTSANIMATIONBYCAMERA_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x19DFEBE0)
-#define OBJECTSANIMATIONBYCAMERA_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x19DFE8F0)
-#define OBJECTSANIMATIONBYCAMERA_ONDRAWGIZMOSSELECTED_OFFSET UNITYSDK_OFFSET(0x19E00B90)
-#define OBJECTSANIMATIONBYCAMERA_ONENABLE_OFFSET UNITYSDK_OFFSET(0x19DFE580)
-#define OBJECTSANIMATIONBYCAMERA_ONPLAYLOOPCHANGED_OFFSET UNITYSDK_OFFSET(0x19DFBC00)
-#define OBJECTSANIMATIONBYCAMERA_ONPLAYONCECHANGED_OFFSET UNITYSDK_OFFSET(0x19DFBBB0)
-#define OBJECTSANIMATIONBYCAMERA_ONTRANSFORMEXITBAND_OFFSET UNITYSDK_OFFSET(0x19DF9FF0)
-#define OBJECTSANIMATIONBYCAMERA_ONTRIGGERED_OFFSET UNITYSDK_OFFSET(0x19DFE530)
-#define OBJECTSANIMATIONBYCAMERA_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x19DFEC30)
-#define OBJECTSANIMATIONBYCAMERA_POSTEVENTSIMPLE_OFFSET UNITYSDK_OFFSET(0x19DF9920)
-#define OBJECTSANIMATIONBYCAMERA_POSTEVENTWITHSEEKTIME_OFFSET UNITYSDK_OFFSET(0x19DF9C10)
-#define OBJECTSANIMATIONBYCAMERA_PROCESSDRIVEAUDIOFOROBJECT_OFFSET UNITYSDK_OFFSET(0x19DFAC40)
-#define OBJECTSANIMATIONBYCAMERA_RELEASEDRIVELAYERAUDIO_OFFSET UNITYSDK_OFFSET(0x19DFB390)
-#define OBJECTSANIMATIONBYCAMERA_RELEASEPENDINGAUDIO_OFFSET UNITYSDK_OFFSET(0x19DF9790)
-#define OBJECTSANIMATIONBYCAMERA_RELEASETRANSFORMLOOPS_OFFSET UNITYSDK_OFFSET(0x19DFA1C0)
-#define OBJECTSANIMATIONBYCAMERA_RESETADVANCEDVOLUMERUNTIMESTATE_OFFSET UNITYSDK_OFFSET(0x19DFD350)
-#define OBJECTSANIMATIONBYCAMERA_RESETDRIVEAUDIOSTATE_OFFSET UNITYSDK_OFFSET(0x19DFAA10)
-#define OBJECTSANIMATIONBYCAMERA_RESETPORTALSTATE_OFFSET UNITYSDK_OFFSET(0x19DFB4F0)
-#define OBJECTSANIMATIONBYCAMERA_RESETTRANSFORMOUTSIDEPOSEINITIALIZEDFLAGS_OFFSET UNITYSDK_OFFSET(0x19DFCDA0)
-#define OBJECTSANIMATIONBYCAMERA_RESOLVEORREGISTEREMITTER_OFFSET UNITYSDK_OFFSET(0x19DF8E40)
-#define OBJECTSANIMATIONBYCAMERA_RESTOREINITIALSTATE_OFFSET UNITYSDK_OFFSET(0x19DFCEC0)
-#define OBJECTSANIMATIONBYCAMERA_STOPALLAUDIOFORCOLLECTEDOBJECTS_OFFSET UNITYSDK_OFFSET(0x19DFB410)
-#define OBJECTSANIMATIONBYCAMERA_SWITCHDRIVELAYERDIRECTION_OFFSET UNITYSDK_OFFSET(0x19DFB000)
-#define OBJECTSANIMATIONBYCAMERA_SYNCAUDIOCONFIGLISTSTOCOLLECTEDOBJECTS_OFFSET UNITYSDK_OFFSET(0x19DF8880)
-#define OBJECTSANIMATIONBYCAMERA_TRYINITDRIVEPOSEBEFORESTATETRIGGER_OFFSET UNITYSDK_OFFSET(0x19E002C0)
-#define OBJECTSANIMATIONBYCAMERA_UNREGISTERRUNTIMEEMITTER_OFFSET UNITYSDK_OFFSET(0x19DF94D0)
-#define OBJECTSANIMATIONBYCAMERA_UPDATEPORTALSTATE_OFFSET UNITYSDK_OFFSET(0x19DFB8E0)
-#define OBJECTSANIMATIONBYCAMERA_UPDATETRANSFORMAUDIO_OFFSET UNITYSDK_OFFSET(0x19DFA430)
-#define OBJECTSANIMATIONBYCAMERA_USEADVANCEDVOLUMECHECK_OFFSET UNITYSDK_OFFSET(0x19DFDBA0)
-#define OBJECTSANIMATIONBYCAMERA__CCTOR_OFFSET UNITYSDK_OFFSET(0x19E016A0)
-#define OBJECTSANIMATIONBYCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x19E01490)
+#define OBJECTSANIMATIONBYCAMERA_APPLYTRANSFORMBYFACTOR_OFFSET UNITYSDK_OFFSET(0xF655510)
+#define OBJECTSANIMATIONBYCAMERA_CLEARAUDIOCONFIGDATA_OFFSET UNITYSDK_OFFSET(0xF650270)
+#define OBJECTSANIMATIONBYCAMERA_CLEAROBJECTS_OFFSET UNITYSDK_OFFSET(0xF651630)
+#define OBJECTSANIMATIONBYCAMERA_COLLECTOBJECTS_OFFSET UNITYSDK_OFFSET(0xF650DB0)
+#define OBJECTSANIMATIONBYCAMERA_COPYLEGACYAUDIODATATOASSET_OFFSET UNITYSDK_OFFSET(0xF650220)
+#define OBJECTSANIMATIONBYCAMERA_ENSUREADVANCEDVOLUMECOLORSINITIALIZED_OFFSET UNITYSDK_OFFSET(0xF650980)
+#define OBJECTSANIMATIONBYCAMERA_ENSURERUNTIMEAUDIOMATCHESCOLLECTEDCOUNT_OFFSET UNITYSDK_OFFSET(0xF650180)
+#define OBJECTSANIMATIONBYCAMERA_EVALUATEVOLUMETRIGGERED_OFFSET UNITYSDK_OFFSET(0xF652A40)
+#define OBJECTSANIMATIONBYCAMERA_FASTINVOLUMECHECK_OFFSET UNITYSDK_OFFSET(0xF652730)
+#define OBJECTSANIMATIONBYCAMERA_GENERATERANDOMVOLUMECOLOR_OFFSET UNITYSDK_OFFSET(0xF6506D0)
+#define OBJECTSANIMATIONBYCAMERA_GETDELTATIME_OFFSET UNITYSDK_OFFSET(0xF653010)
+#define OBJECTSANIMATIONBYCAMERA_GETTRANSFORMRUNTIME_OFFSET UNITYSDK_OFFSET(0xF650310)
+#define OBJECTSANIMATIONBYCAMERA_GETVOLUMEMATRIX_1_OFFSET UNITYSDK_OFFSET(0xF651FC0)
+#define OBJECTSANIMATIONBYCAMERA_GETVOLUMEMATRIX_OFFSET UNITYSDK_OFFSET(0xF651F10)
+#define OBJECTSANIMATIONBYCAMERA_HASPENDINGREVERSEPLAYBACK_OFFSET UNITYSDK_OFFSET(0xF652F10)
+#define OBJECTSANIMATIONBYCAMERA_INITPORTALSTATE_OFFSET UNITYSDK_OFFSET(0xF650540)
+#define OBJECTSANIMATIONBYCAMERA_INVOLUMECHECK_1_OFFSET UNITYSDK_OFFSET(0xF652600)
+#define OBJECTSANIMATIONBYCAMERA_INVOLUMECHECK_2_OFFSET UNITYSDK_OFFSET(0xF652380)
+#define OBJECTSANIMATIONBYCAMERA_INVOLUMECHECK_OFFSET UNITYSDK_OFFSET(0xF6522C0)
+#define OBJECTSANIMATIONBYCAMERA_IOBJECTSANIMATIONBYCAMERAAUDIOHOST_GETCOLLECTEDOBJECTAT_OFFSET UNITYSDK_OFFSET(0xF650080)
+#define OBJECTSANIMATIONBYCAMERA_IOBJECTSANIMATIONBYCAMERAAUDIOHOST_GET_AUDIOCONFIGASSET_OFFSET UNITYSDK_OFFSET(0xF64FB20)
+#define OBJECTSANIMATIONBYCAMERA_IOBJECTSANIMATIONBYCAMERAAUDIOHOST_GET_AUDIOSYNCSCOPE_OFFSET UNITYSDK_OFFSET(0xF650120)
+#define OBJECTSANIMATIONBYCAMERA_IOBJECTSANIMATIONBYCAMERAAUDIOHOST_GET_COLLECTEDOBJECTCOUNT_OFFSET UNITYSDK_OFFSET(0xF650020)
+#define OBJECTSANIMATIONBYCAMERA_IOBJECTSANIMATIONBYCAMERAAUDIOHOST_GET_DRIVEAUDIOLAYERSBYOBJECT_OFFSET UNITYSDK_OFFSET(0xF64FDA0)
+#define OBJECTSANIMATIONBYCAMERA_IOBJECTSANIMATIONBYCAMERAAUDIOHOST_GET_DRIVEAUDIORUNTIME_OFFSET UNITYSDK_OFFSET(0xF64FEE0)
+#define OBJECTSANIMATIONBYCAMERA_IOBJECTSANIMATIONBYCAMERAAUDIOHOST_GET_PORTALENABLEDONENTER_OFFSET UNITYSDK_OFFSET(0xF64FC60)
+#define OBJECTSANIMATIONBYCAMERA_IOBJECTSANIMATIONBYCAMERAAUDIOHOST_GET_PORTALISINVOLUME_OFFSET UNITYSDK_OFFSET(0xF64FF80)
+#define OBJECTSANIMATIONBYCAMERA_IOBJECTSANIMATIONBYCAMERAAUDIOHOST_GET_PORTALKEY_OFFSET UNITYSDK_OFFSET(0xF64FBC0)
+#define OBJECTSANIMATIONBYCAMERA_IOBJECTSANIMATIONBYCAMERAAUDIOHOST_GET_TRANSFORMAUDIOCONFIGS_OFFSET UNITYSDK_OFFSET(0xF64FD00)
+#define OBJECTSANIMATIONBYCAMERA_IOBJECTSANIMATIONBYCAMERAAUDIOHOST_GET_TRANSFORMAUDIORUNTIME_OFFSET UNITYSDK_OFFSET(0xF64FE40)
+#define OBJECTSANIMATIONBYCAMERA_IOBJECTSANIMATIONBYCAMERAAUDIOHOST_SET_AUDIOCONFIGASSET_OFFSET UNITYSDK_OFFSET(0xF64FB70)
+#define OBJECTSANIMATIONBYCAMERA_IOBJECTSANIMATIONBYCAMERAAUDIOHOST_SET_DRIVEAUDIOLAYERSBYOBJECT_OFFSET UNITYSDK_OFFSET(0xF64FDF0)
+#define OBJECTSANIMATIONBYCAMERA_IOBJECTSANIMATIONBYCAMERAAUDIOHOST_SET_DRIVEAUDIORUNTIME_OFFSET UNITYSDK_OFFSET(0xF64FF30)
+#define OBJECTSANIMATIONBYCAMERA_IOBJECTSANIMATIONBYCAMERAAUDIOHOST_SET_PORTALENABLEDONENTER_OFFSET UNITYSDK_OFFSET(0xF64FCB0)
+#define OBJECTSANIMATIONBYCAMERA_IOBJECTSANIMATIONBYCAMERAAUDIOHOST_SET_PORTALISINVOLUME_OFFSET UNITYSDK_OFFSET(0xF64FFD0)
+#define OBJECTSANIMATIONBYCAMERA_IOBJECTSANIMATIONBYCAMERAAUDIOHOST_SET_PORTALKEY_OFFSET UNITYSDK_OFFSET(0xF64FC10)
+#define OBJECTSANIMATIONBYCAMERA_IOBJECTSANIMATIONBYCAMERAAUDIOHOST_SET_TRANSFORMAUDIOCONFIGS_OFFSET UNITYSDK_OFFSET(0xF64FD50)
+#define OBJECTSANIMATIONBYCAMERA_IOBJECTSANIMATIONBYCAMERAAUDIOHOST_SET_TRANSFORMAUDIORUNTIME_OFFSET UNITYSDK_OFFSET(0xF64FE90)
+#define OBJECTSANIMATIONBYCAMERA_LOCALSAMPLEANIMATION_OFFSET UNITYSDK_OFFSET(0xF655250)
+#define OBJECTSANIMATIONBYCAMERA_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xF6537A0)
+#define OBJECTSANIMATIONBYCAMERA_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xF653460)
+#define OBJECTSANIMATIONBYCAMERA_ONDRAWGIZMOSSELECTED_OFFSET UNITYSDK_OFFSET(0xF655940)
+#define OBJECTSANIMATIONBYCAMERA_ONENABLE_OFFSET UNITYSDK_OFFSET(0xF6530B0)
+#define OBJECTSANIMATIONBYCAMERA_ONPLAYLOOPCHANGED_OFFSET UNITYSDK_OFFSET(0xF650680)
+#define OBJECTSANIMATIONBYCAMERA_ONPLAYONCECHANGED_OFFSET UNITYSDK_OFFSET(0xF650630)
+#define OBJECTSANIMATIONBYCAMERA_ONTRANSFORMEXITBAND_OFFSET UNITYSDK_OFFSET(0xF6505E0)
+#define OBJECTSANIMATIONBYCAMERA_ONTRIGGERED_OFFSET UNITYSDK_OFFSET(0xF653060)
+#define OBJECTSANIMATIONBYCAMERA_ONUPDATE_OFFSET UNITYSDK_OFFSET(0xF653800)
+#define OBJECTSANIMATIONBYCAMERA_PROCESSDRIVEAUDIOFOROBJECT_OFFSET UNITYSDK_OFFSET(0xF650450)
+#define OBJECTSANIMATIONBYCAMERA_RESETADVANCEDVOLUMERUNTIMESTATE_OFFSET UNITYSDK_OFFSET(0xF651E90)
+#define OBJECTSANIMATIONBYCAMERA_RESETDRIVEAUDIOSTATE_OFFSET UNITYSDK_OFFSET(0xF650400)
+#define OBJECTSANIMATIONBYCAMERA_RESETTRANSFORMOUTSIDEPOSEINITIALIZEDFLAGS_OFFSET UNITYSDK_OFFSET(0xF651890)
+#define OBJECTSANIMATIONBYCAMERA_RESTOREINITIALSTATE_OFFSET UNITYSDK_OFFSET(0xF6519B0)
+#define OBJECTSANIMATIONBYCAMERA_STOPALLAUDIOFORCOLLECTEDOBJECTS_OFFSET UNITYSDK_OFFSET(0xF6504F0)
+#define OBJECTSANIMATIONBYCAMERA_SYNCAUDIOCONFIGLISTSTOCOLLECTEDOBJECTS_OFFSET UNITYSDK_OFFSET(0xF6501D0)
+#define OBJECTSANIMATIONBYCAMERA_SYNCDRIVEAUDIOEMITTERPOSITIONS_OFFSET UNITYSDK_OFFSET(0xF6502C0)
+#define OBJECTSANIMATIONBYCAMERA_TRYINITDRIVEPOSEBEFORESTATETRIGGER_OFFSET UNITYSDK_OFFSET(0xF655050)
+#define OBJECTSANIMATIONBYCAMERA_UPDATEPORTALSTATE_OFFSET UNITYSDK_OFFSET(0xF650590)
+#define OBJECTSANIMATIONBYCAMERA_UPDATETRANSFORMAUDIO_OFFSET UNITYSDK_OFFSET(0xF650360)
+#define OBJECTSANIMATIONBYCAMERA_USEADVANCEDVOLUMECHECK_OFFSET UNITYSDK_OFFSET(0xF6526D0)
+#define OBJECTSANIMATIONBYCAMERA__CCTOR_OFFSET UNITYSDK_OFFSET(0xF656450)
+#define OBJECTSANIMATIONBYCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0xF656240)
 
-inline static constexpr unsigned int ObjectsAnimationByCamera_TypeDefinitionIndex = 80520;
+inline static constexpr unsigned int ObjectsAnimationByCamera_TypeDefinitionIndex = 75777;
 
 class ObjectsAnimationByCamera : public ::MoleMole::Nap_VoGroupStateListener
 {
 public:
 	static ::System::String** StaticGet__baseTriggerAnchor()
 	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ObjectsAnimationByCamera_TypeDefinitionIndex)->GetStaticField(0x3AC40);
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ObjectsAnimationByCamera_TypeDefinitionIndex)->GetStaticField(0x3D9F0);
 	}
 	static ::System::Int32* StaticGet__DitherAlpha()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ObjectsAnimationByCamera_TypeDefinitionIndex)->GetStaticField(0xE710);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ObjectsAnimationByCamera_TypeDefinitionIndex)->GetStaticField(0xE660);
 	}
 	static ::System::Boolean* StaticGet_previewAll()
 	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ObjectsAnimationByCamera_TypeDefinitionIndex)->GetStaticField(0xE714);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ObjectsAnimationByCamera_TypeDefinitionIndex)->GetStaticField(0xE664);
 	}
-	// static const ::System::Single TransformEndProgressThreshold; // 0x0
-	// static const ::System::Single TransformMoveEpsilon; // 0x0
-	// static const ::System::Single DriveTimeEpsilon; // 0x0
 	::System::Boolean preview; // 0x38
 	::System::Boolean bakeLastFrame; // 0x39
 	::ObjectsAnimationByCamera_AnimMode animMode; // 0x3C
@@ -115,35 +118,36 @@ public:
 	::UnityEngine::Vector3 volumeSize; // 0x70
 	::System::Boolean useAdvancedVolumes; // 0x7C
 	::System::Collections::Generic::List_1<::ObjectsAnimationByCamera_VolumeSettings*>* advancedVolumes; // 0x80
-	::System::String* portalKey; // 0x88
-	::System::Boolean portalEnabledOnEnter; // 0x90
-	::UnityEngine::Vector3 positionOffset; // 0x94
-	::UnityEngine::Vector3 targetScale; // 0xA0
-	::UnityEngine::Vector3 targetAngle; // 0xAC
-	::System::Boolean x; // 0xB8
-	::System::Boolean y; // 0xB9
-	::System::Boolean z; // 0xBA
-	::System::Boolean directFadeOut; // 0xBB
-	::System::Single fadeSpeed; // 0xBC
-	::System::Single minAlpha; // 0xC0
-	::System::Collections::Generic::List_1<::ObjectsAnimationByCamera_CollectionWrapper*>* collectedObjects; // 0xC8
-	::System::Collections::Generic::List_1<::ObjectsAnimationByCamera_TransformAudioConfig*>* transformAudioConfigs; // 0xD0
-	::System::Collections::Generic::List_1<::ObjectsAnimationByCamera_DriveAudioLayersForObject*>* driveAudioLayersByObject; // 0xD8
-	::System::Collections::Generic::List_1<::ObjectsAnimationByCamera_TransformAudioRuntimeState*>* _transformAudioRuntime; // 0xE0
-	::System::Collections::Generic::List_1<::ObjectsAnimationByCamera_DriveAudioRuntimeState*>* _driveAudioRuntime; // 0xE8
-	::System::Boolean _portalIsInVolume; // 0xF0
-	::System::Collections::Generic::List_1<::System::Boolean>* _advancedVolumePrevInside; // 0xF8
-	::System::Boolean _advancedVolumeStateInitialized; // 0x100
-	::System::Boolean _advancedVolumeTriggeredState; // 0x101
-	::System::Boolean stateTriggered; // 0x102
-	::System::Boolean canPlay; // 0x103
-	::UnityEngine::Vector3 checkPosition; // 0x104
-	::System::Boolean _preTriggerDrivePoseInitialized; // 0x110
-	::UnityEngine::MaterialPropertyBlock* mpb; // 0x118
-	::System::Boolean finishRegister; // 0x120
-	::System::Single staggeredElapsed; // 0x124
-	::System::Double lastUpdateTime; // 0x128
-	::UnityEngine::Camera* _camera; // 0x130
+	::ObjectsAnimationByCameraAudioConfig* audioConfigAsset; // 0x88
+	::System::String* portalKey; // 0x90
+	::System::Boolean portalEnabledOnEnter; // 0x98
+	::UnityEngine::Vector3 positionOffset; // 0x9C
+	::UnityEngine::Vector3 targetScale; // 0xA8
+	::UnityEngine::Vector3 targetAngle; // 0xB4
+	::System::Boolean x; // 0xC0
+	::System::Boolean y; // 0xC1
+	::System::Boolean z; // 0xC2
+	::System::Boolean directFadeOut; // 0xC3
+	::System::Single fadeSpeed; // 0xC4
+	::System::Single minAlpha; // 0xC8
+	::System::Collections::Generic::List_1<::ObjectsAnimationByCamera_CollectionWrapper*>* collectedObjects; // 0xD0
+	::System::Collections::Generic::List_1<::ObjectsAnimationByCamera_TransformAudioConfig*>* transformAudioConfigs; // 0xD8
+	::System::Collections::Generic::List_1<::ObjectsAnimationByCamera_DriveAudioLayersForObject*>* driveAudioLayersByObject; // 0xE0
+	::System::Collections::Generic::List_1<::ObjectsAnimationByCamera_TransformAudioRuntimeState*>* _transformAudioRuntime; // 0xE8
+	::System::Collections::Generic::List_1<::ObjectsAnimationByCamera_DriveAudioRuntimeState*>* _driveAudioRuntime; // 0xF0
+	::System::Boolean _portalIsInVolume; // 0xF8
+	::System::Collections::Generic::List_1<::System::Boolean>* _advancedVolumePrevInside; // 0x100
+	::System::Boolean _advancedVolumeStateInitialized; // 0x108
+	::System::Boolean _advancedVolumeTriggeredState; // 0x109
+	::System::Boolean stateTriggered; // 0x10A
+	::System::Boolean canPlay; // 0x10B
+	::UnityEngine::Vector3 checkPosition; // 0x10C
+	::System::Boolean _preTriggerDrivePoseInitialized; // 0x118
+	::UnityEngine::MaterialPropertyBlock* mpb; // 0x120
+	::System::Boolean finishRegister; // 0x128
+	::System::Single staggeredElapsed; // 0x12C
+	::System::Double lastUpdateTime; // 0x130
+	::UnityEngine::Camera* _camera; // 0x138
 
 	::System::Void _ctor()
 	{
@@ -153,6 +157,101 @@ public:
 	static ::System::Void _cctor()
 	{
 		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + OBJECTSANIMATIONBYCAMERA__CCTOR_OFFSET))();
+	}
+
+	::ObjectsAnimationByCameraAudioConfig* IObjectsAnimationByCameraAudioHost_get_AudioConfigAsset()
+	{
+		return ((::ObjectsAnimationByCameraAudioConfig*(*)(::PVOID))((::PBYTE)hIl2Cpp + OBJECTSANIMATIONBYCAMERA_IOBJECTSANIMATIONBYCAMERAAUDIOHOST_GET_AUDIOCONFIGASSET_OFFSET))(this);
+	}
+
+	::System::Void IObjectsAnimationByCameraAudioHost_set_AudioConfigAsset(::ObjectsAnimationByCameraAudioConfig* value)
+	{
+		return ((::System::Void(*)(::PVOID, ::ObjectsAnimationByCameraAudioConfig*))((::PBYTE)hIl2Cpp + OBJECTSANIMATIONBYCAMERA_IOBJECTSANIMATIONBYCAMERAAUDIOHOST_SET_AUDIOCONFIGASSET_OFFSET))(this, value);
+	}
+
+	::System::String* IObjectsAnimationByCameraAudioHost_get_PortalKey()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + OBJECTSANIMATIONBYCAMERA_IOBJECTSANIMATIONBYCAMERAAUDIOHOST_GET_PORTALKEY_OFFSET))(this);
+	}
+
+	::System::Void IObjectsAnimationByCameraAudioHost_set_PortalKey(::System::String* value)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + OBJECTSANIMATIONBYCAMERA_IOBJECTSANIMATIONBYCAMERAAUDIOHOST_SET_PORTALKEY_OFFSET))(this, value);
+	}
+
+	::System::Boolean IObjectsAnimationByCameraAudioHost_get_PortalEnabledOnEnter()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + OBJECTSANIMATIONBYCAMERA_IOBJECTSANIMATIONBYCAMERAAUDIOHOST_GET_PORTALENABLEDONENTER_OFFSET))(this);
+	}
+
+	::System::Void IObjectsAnimationByCameraAudioHost_set_PortalEnabledOnEnter(::System::Boolean value)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + OBJECTSANIMATIONBYCAMERA_IOBJECTSANIMATIONBYCAMERAAUDIOHOST_SET_PORTALENABLEDONENTER_OFFSET))(this, value);
+	}
+
+	::System::Collections::Generic::List_1<::ObjectsAnimationByCamera_TransformAudioConfig*>* IObjectsAnimationByCameraAudioHost_get_TransformAudioConfigs()
+	{
+		return ((::System::Collections::Generic::List_1<::ObjectsAnimationByCamera_TransformAudioConfig*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + OBJECTSANIMATIONBYCAMERA_IOBJECTSANIMATIONBYCAMERAAUDIOHOST_GET_TRANSFORMAUDIOCONFIGS_OFFSET))(this);
+	}
+
+	::System::Void IObjectsAnimationByCameraAudioHost_set_TransformAudioConfigs(::System::Collections::Generic::List_1<::ObjectsAnimationByCamera_TransformAudioConfig*>* value)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::ObjectsAnimationByCamera_TransformAudioConfig*>*))((::PBYTE)hIl2Cpp + OBJECTSANIMATIONBYCAMERA_IOBJECTSANIMATIONBYCAMERAAUDIOHOST_SET_TRANSFORMAUDIOCONFIGS_OFFSET))(this, value);
+	}
+
+	::System::Collections::Generic::List_1<::ObjectsAnimationByCamera_DriveAudioLayersForObject*>* IObjectsAnimationByCameraAudioHost_get_DriveAudioLayersByObject()
+	{
+		return ((::System::Collections::Generic::List_1<::ObjectsAnimationByCamera_DriveAudioLayersForObject*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + OBJECTSANIMATIONBYCAMERA_IOBJECTSANIMATIONBYCAMERAAUDIOHOST_GET_DRIVEAUDIOLAYERSBYOBJECT_OFFSET))(this);
+	}
+
+	::System::Void IObjectsAnimationByCameraAudioHost_set_DriveAudioLayersByObject(::System::Collections::Generic::List_1<::ObjectsAnimationByCamera_DriveAudioLayersForObject*>* value)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::ObjectsAnimationByCamera_DriveAudioLayersForObject*>*))((::PBYTE)hIl2Cpp + OBJECTSANIMATIONBYCAMERA_IOBJECTSANIMATIONBYCAMERAAUDIOHOST_SET_DRIVEAUDIOLAYERSBYOBJECT_OFFSET))(this, value);
+	}
+
+	::System::Collections::Generic::List_1<::ObjectsAnimationByCamera_TransformAudioRuntimeState*>* IObjectsAnimationByCameraAudioHost_get_TransformAudioRuntime()
+	{
+		return ((::System::Collections::Generic::List_1<::ObjectsAnimationByCamera_TransformAudioRuntimeState*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + OBJECTSANIMATIONBYCAMERA_IOBJECTSANIMATIONBYCAMERAAUDIOHOST_GET_TRANSFORMAUDIORUNTIME_OFFSET))(this);
+	}
+
+	::System::Void IObjectsAnimationByCameraAudioHost_set_TransformAudioRuntime(::System::Collections::Generic::List_1<::ObjectsAnimationByCamera_TransformAudioRuntimeState*>* value)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::ObjectsAnimationByCamera_TransformAudioRuntimeState*>*))((::PBYTE)hIl2Cpp + OBJECTSANIMATIONBYCAMERA_IOBJECTSANIMATIONBYCAMERAAUDIOHOST_SET_TRANSFORMAUDIORUNTIME_OFFSET))(this, value);
+	}
+
+	::System::Collections::Generic::List_1<::ObjectsAnimationByCamera_DriveAudioRuntimeState*>* IObjectsAnimationByCameraAudioHost_get_DriveAudioRuntime()
+	{
+		return ((::System::Collections::Generic::List_1<::ObjectsAnimationByCamera_DriveAudioRuntimeState*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + OBJECTSANIMATIONBYCAMERA_IOBJECTSANIMATIONBYCAMERAAUDIOHOST_GET_DRIVEAUDIORUNTIME_OFFSET))(this);
+	}
+
+	::System::Void IObjectsAnimationByCameraAudioHost_set_DriveAudioRuntime(::System::Collections::Generic::List_1<::ObjectsAnimationByCamera_DriveAudioRuntimeState*>* value)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::ObjectsAnimationByCamera_DriveAudioRuntimeState*>*))((::PBYTE)hIl2Cpp + OBJECTSANIMATIONBYCAMERA_IOBJECTSANIMATIONBYCAMERAAUDIOHOST_SET_DRIVEAUDIORUNTIME_OFFSET))(this, value);
+	}
+
+	::System::Boolean IObjectsAnimationByCameraAudioHost_get_PortalIsInVolume()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + OBJECTSANIMATIONBYCAMERA_IOBJECTSANIMATIONBYCAMERAAUDIOHOST_GET_PORTALISINVOLUME_OFFSET))(this);
+	}
+
+	::System::Void IObjectsAnimationByCameraAudioHost_set_PortalIsInVolume(::System::Boolean value)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + OBJECTSANIMATIONBYCAMERA_IOBJECTSANIMATIONBYCAMERAAUDIOHOST_SET_PORTALISINVOLUME_OFFSET))(this, value);
+	}
+
+	::System::Int32 IObjectsAnimationByCameraAudioHost_get_CollectedObjectCount()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + OBJECTSANIMATIONBYCAMERA_IOBJECTSANIMATIONBYCAMERAAUDIOHOST_GET_COLLECTEDOBJECTCOUNT_OFFSET))(this);
+	}
+
+	::UnityEngine::GameObject* IObjectsAnimationByCameraAudioHost_GetCollectedObjectAt(::System::Int32 index)
+	{
+		return ((::UnityEngine::GameObject*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + OBJECTSANIMATIONBYCAMERA_IOBJECTSANIMATIONBYCAMERAAUDIOHOST_GETCOLLECTEDOBJECTAT_OFFSET))(this, index);
+	}
+
+	::ObjectsAnimationByCameraAudioSyncScope IObjectsAnimationByCameraAudioHost_get_AudioSyncScope()
+	{
+		return ((::ObjectsAnimationByCameraAudioSyncScope(*)(::PVOID))((::PBYTE)hIl2Cpp + OBJECTSANIMATIONBYCAMERA_IOBJECTSANIMATIONBYCAMERAAUDIOHOST_GET_AUDIOSYNCSCOPE_OFFSET))(this);
 	}
 
 	::System::Void EnsureRuntimeAudioMatchesCollectedCount()
@@ -165,79 +264,24 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OBJECTSANIMATIONBYCAMERA_SYNCAUDIOCONFIGLISTSTOCOLLECTEDOBJECTS_OFFSET))(this);
 	}
 
-	::System::Void EnsureRuntimeAudioLists(::System::Int32 n)
+	::System::Void CopyLegacyAudioDataToAsset(::ObjectsAnimationByCameraAudioConfig* target)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + OBJECTSANIMATIONBYCAMERA_ENSURERUNTIMEAUDIOLISTS_OFFSET))(this, n);
+		return ((::System::Void(*)(::PVOID, ::ObjectsAnimationByCameraAudioConfig*))((::PBYTE)hIl2Cpp + OBJECTSANIMATIONBYCAMERA_COPYLEGACYAUDIODATATOASSET_OFFSET))(this, target);
 	}
 
-	::ObjectsAnimationByCamera_TransformAudioConfig* GetTransformConfig(::System::Int32 index)
+	::System::Void ClearAudioConfigData()
 	{
-		return ((::ObjectsAnimationByCamera_TransformAudioConfig*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + OBJECTSANIMATIONBYCAMERA_GETTRANSFORMCONFIG_OFFSET))(this, index);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OBJECTSANIMATIONBYCAMERA_CLEARAUDIOCONFIGDATA_OFFSET))(this);
+	}
+
+	::System::Int32 SyncDriveAudioEmitterPositions()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + OBJECTSANIMATIONBYCAMERA_SYNCDRIVEAUDIOEMITTERPOSITIONS_OFFSET))(this);
 	}
 
 	::ObjectsAnimationByCamera_TransformAudioRuntimeState* GetTransformRuntime(::System::Int32 index)
 	{
 		return ((::ObjectsAnimationByCamera_TransformAudioRuntimeState*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + OBJECTSANIMATIONBYCAMERA_GETTRANSFORMRUNTIME_OFFSET))(this, index);
-	}
-
-	::System::Collections::Generic::List_1<::ObjectsAnimationByCamera_DriveAudioLayer*>* GetDriveLayers(::System::Int32 index)
-	{
-		return ((::System::Collections::Generic::List_1<::ObjectsAnimationByCamera_DriveAudioLayer*>*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + OBJECTSANIMATIONBYCAMERA_GETDRIVELAYERS_OFFSET))(this, index);
-	}
-
-	::ObjectsAnimationByCamera_DriveAudioRuntimeState* GetDriveRuntime(::System::Int32 index)
-	{
-		return ((::ObjectsAnimationByCamera_DriveAudioRuntimeState*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + OBJECTSANIMATIONBYCAMERA_GETDRIVERUNTIME_OFFSET))(this, index);
-	}
-
-	::UnityEngine::GameObject* ResolveOrRegisterEmitter(::UnityEngine::GameObject* source, ::UnityEngine::GameObject*& cachedEmitter)
-	{
-		return ((::UnityEngine::GameObject*(*)(::PVOID, ::UnityEngine::GameObject*, ::UnityEngine::GameObject*&))((::PBYTE)hIl2Cpp + OBJECTSANIMATIONBYCAMERA_RESOLVEORREGISTEREMITTER_OFFSET))(this, source, cachedEmitter);
-	}
-
-	::System::Void ForceStopAudio(::System::UInt32& pendingId)
-	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32&))((::PBYTE)hIl2Cpp + OBJECTSANIMATIONBYCAMERA_FORCESTOPAUDIO_OFFSET))(this, pendingId);
-	}
-
-	::System::Void UnregisterRuntimeEmitter(::UnityEngine::GameObject*& emitter)
-	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*&))((::PBYTE)hIl2Cpp + OBJECTSANIMATIONBYCAMERA_UNREGISTERRUNTIMEEMITTER_OFFSET))(this, emitter);
-	}
-
-	::System::Void ReleasePendingAudio(::System::UInt32& pendingId, ::System::String* stopEventName, ::UnityEngine::GameObject* emitter)
-	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32&, ::System::String*, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + OBJECTSANIMATIONBYCAMERA_RELEASEPENDINGAUDIO_OFFSET))(this, pendingId, stopEventName, emitter);
-	}
-
-	::System::UInt32 PostEventSimple(::System::String* eventName, ::UnityEngine::GameObject* emitter)
-	{
-		return ((::System::UInt32(*)(::PVOID, ::System::String*, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + OBJECTSANIMATIONBYCAMERA_POSTEVENTSIMPLE_OFFSET))(this, eventName, emitter);
-	}
-
-	::System::UInt32 PostEventWithSeekTime(::System::String* eventName, ::UnityEngine::GameObject* emitter, ::System::Single seekSeconds)
-	{
-		return ((::System::UInt32(*)(::PVOID, ::System::String*, ::UnityEngine::GameObject*, ::System::Single))((::PBYTE)hIl2Cpp + OBJECTSANIMATIONBYCAMERA_POSTEVENTWITHSEEKTIME_OFFSET))(this, eventName, emitter, seekSeconds);
-	}
-
-	::System::Void OnTransformExitBand(::System::Int32 index)
-	{
-		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + OBJECTSANIMATIONBYCAMERA_ONTRANSFORMEXITBAND_OFFSET))(this, index);
-	}
-
-	::System::Void ReleaseTransformLoops(::ObjectsAnimationByCamera_TransformAudioConfig* cfg, ::ObjectsAnimationByCamera_TransformAudioRuntimeState* rt, ::UnityEngine::GameObject* emitter)
-	{
-		return ((::System::Void(*)(::PVOID, ::ObjectsAnimationByCamera_TransformAudioConfig*, ::ObjectsAnimationByCamera_TransformAudioRuntimeState*, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + OBJECTSANIMATIONBYCAMERA_RELEASETRANSFORMLOOPS_OFFSET))(this, cfg, rt, emitter);
-	}
-
-	::System::Void EnsureTransformForwardLoop(::ObjectsAnimationByCamera_TransformAudioConfig* cfg, ::ObjectsAnimationByCamera_TransformAudioRuntimeState* rt, ::UnityEngine::GameObject* emitter)
-	{
-		return ((::System::Void(*)(::PVOID, ::ObjectsAnimationByCamera_TransformAudioConfig*, ::ObjectsAnimationByCamera_TransformAudioRuntimeState*, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + OBJECTSANIMATIONBYCAMERA_ENSURETRANSFORMFORWARDLOOP_OFFSET))(this, cfg, rt, emitter);
-	}
-
-	::System::Void EnsureTransformReverseLoop(::ObjectsAnimationByCamera_TransformAudioConfig* cfg, ::ObjectsAnimationByCamera_TransformAudioRuntimeState* rt, ::UnityEngine::GameObject* emitter)
-	{
-		return ((::System::Void(*)(::PVOID, ::ObjectsAnimationByCamera_TransformAudioConfig*, ::ObjectsAnimationByCamera_TransformAudioRuntimeState*, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + OBJECTSANIMATIONBYCAMERA_ENSURETRANSFORMREVERSELOOP_OFFSET))(this, cfg, rt, emitter);
 	}
 
 	::System::Void UpdateTransformAudio(::System::Int32 index, ::ObjectsAnimationByCamera_CollectionWrapper* o, ::System::Single t, ::System::Single dt)
@@ -255,16 +299,6 @@ public:
 		return ((::System::Void(*)(::PVOID, ::System::Int32, ::ObjectsAnimationByCamera_CollectionWrapper*, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + OBJECTSANIMATIONBYCAMERA_PROCESSDRIVEAUDIOFOROBJECT_OFFSET))(this, index, o, sampleTime, animLength);
 	}
 
-	::System::Void SwitchDriveLayerDirection(::ObjectsAnimationByCamera_DriveAudioLayer* layer, ::ObjectsAnimationByCamera_DriveAudioRuntimeState* dr, ::UnityEngine::GameObject* fallback, ::System::Int32 newSign, ::System::Single sampleTime, ::System::Single animLength)
-	{
-		return ((::System::Void(*)(::PVOID, ::ObjectsAnimationByCamera_DriveAudioLayer*, ::ObjectsAnimationByCamera_DriveAudioRuntimeState*, ::UnityEngine::GameObject*, ::System::Int32, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + OBJECTSANIMATIONBYCAMERA_SWITCHDRIVELAYERDIRECTION_OFFSET))(this, layer, dr, fallback, newSign, sampleTime, animLength);
-	}
-
-	::System::Void ReleaseDriveLayerAudio(::ObjectsAnimationByCamera_DriveAudioLayer* layer, ::UnityEngine::GameObject* emitter)
-	{
-		return ((::System::Void(*)(::PVOID, ::ObjectsAnimationByCamera_DriveAudioLayer*, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + OBJECTSANIMATIONBYCAMERA_RELEASEDRIVELAYERAUDIO_OFFSET))(this, layer, emitter);
-	}
-
 	::System::Void StopAllAudioForCollectedObjects()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OBJECTSANIMATIONBYCAMERA_STOPALLAUDIOFORCOLLECTEDOBJECTS_OFFSET))(this);
@@ -280,9 +314,9 @@ public:
 		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + OBJECTSANIMATIONBYCAMERA_UPDATEPORTALSTATE_OFFSET))(this, currentlyInVolume);
 	}
 
-	::System::Void ResetPortalState()
+	::System::Void OnTransformExitBand(::System::Int32 index)
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OBJECTSANIMATIONBYCAMERA_RESETPORTALSTATE_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + OBJECTSANIMATIONBYCAMERA_ONTRANSFORMEXITBAND_OFFSET))(this, index);
 	}
 
 	::System::Void OnPlayOnceChanged()
@@ -308,11 +342,6 @@ public:
 	::System::Void CollectObjects()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OBJECTSANIMATIONBYCAMERA_COLLECTOBJECTS_OFFSET))(this);
-	}
-
-	::System::Void ButtonSyncAudioConfigListsToCollectedObjects()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OBJECTSANIMATIONBYCAMERA_BUTTONSYNCAUDIOCONFIGLISTSTOCOLLECTEDOBJECTS_OFFSET))(this);
 	}
 
 	::System::Void ClearObjects()

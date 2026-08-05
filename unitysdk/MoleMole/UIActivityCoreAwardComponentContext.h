@@ -4,11 +4,11 @@
 
 class Class_1_D375C91CCE5D3999;
 
-#define MOLEMOLE_UIACTIVITYCOREAWARDCOMPONENTCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x174262A0)
+#define MOLEMOLE_UIACTIVITYCOREAWARDCOMPONENTCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18BC47B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityCoreAwardComponentContext_TypeDefinitionIndex = 73147;
+	inline static constexpr unsigned int UIActivityCoreAwardComponentContext_TypeDefinitionIndex = 50420;
 
 	class UIActivityCoreAwardComponentContext : public ::MoleMole::UIControllerContextBase
 	{

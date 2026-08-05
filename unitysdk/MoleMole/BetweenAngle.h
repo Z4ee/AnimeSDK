@@ -5,8 +5,8 @@
 #include "unitysdk/MoleMole/AIMoveTargetType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_3_CF6254B260CF5CF4;
-class Class_3_DFD5D1FDB9D2A4AC;
+class Class_3_06419CA21ECB69E6;
+class Class_3_C93CC3D2C2AC4067;
 namespace BehaviorDesigner::Runtime { class SharedBool; }
 namespace BehaviorDesigner::Runtime { class SharedFloat; }
 namespace BehaviorDesigner::Runtime { class SharedString; }
@@ -15,20 +15,20 @@ namespace MoleMole::Battle { class Entity; }
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_BETWEENANGLE_CLAMPANGLEBETWEENABSPI_OFFSET UNITYSDK_OFFSET(0x144C2480)
-#define MOLEMOLE_BETWEENANGLE_GETMIRRORANGLE_OFFSET UNITYSDK_OFFSET(0x144C4390)
-#define MOLEMOLE_BETWEENANGLE_GETSELFDIRANDPOS_OFFSET UNITYSDK_OFFSET(0x144C2960)
-#define MOLEMOLE_BETWEENANGLE_GETTARGETENTITYBYTARGETTYPE_OFFSET UNITYSDK_OFFSET(0x144C4410)
-#define MOLEMOLE_BETWEENANGLE_GETTARGETPOSITION_OFFSET UNITYSDK_OFFSET(0x144C3640)
-#define MOLEMOLE_BETWEENANGLE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x144C1F50)
-#define MOLEMOLE_BETWEENANGLE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x144C2570)
-#define MOLEMOLE_BETWEENANGLE__CTOR_OFFSET UNITYSDK_OFFSET(0x144C4B50)
-#define MOLEMOLE_BETWEENANGLE___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x144C4C20)
-#define MOLEMOLE_BETWEENANGLE___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x144C4CB0)
+#define MOLEMOLE_BETWEENANGLE_CLAMPANGLEBETWEENABSPI_OFFSET UNITYSDK_OFFSET(0x12CA43F0)
+#define MOLEMOLE_BETWEENANGLE_GETMIRRORANGLE_OFFSET UNITYSDK_OFFSET(0x12CA64F0)
+#define MOLEMOLE_BETWEENANGLE_GETSELFDIRANDPOS_OFFSET UNITYSDK_OFFSET(0x12CA4890)
+#define MOLEMOLE_BETWEENANGLE_GETTARGETENTITYBYTARGETTYPE_OFFSET UNITYSDK_OFFSET(0x12CA6570)
+#define MOLEMOLE_BETWEENANGLE_GETTARGETPOSITION_OFFSET UNITYSDK_OFFSET(0x12CA56B0)
+#define MOLEMOLE_BETWEENANGLE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x12CA3F00)
+#define MOLEMOLE_BETWEENANGLE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x12CA44C0)
+#define MOLEMOLE_BETWEENANGLE__CTOR_OFFSET UNITYSDK_OFFSET(0x12CA6CA0)
+#define MOLEMOLE_BETWEENANGLE___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x12CA6D70)
+#define MOLEMOLE_BETWEENANGLE___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x12CA6E00)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int BetweenAngle_TypeDefinitionIndex = 47361;
+	inline static constexpr unsigned int BetweenAngle_TypeDefinitionIndex = 85826;
 
 	class BetweenAngle : public ::BehaviorDesigner::Runtime::Tasks::Conditional
 	{
@@ -36,22 +36,22 @@ namespace MoleMole
 		// static const ::System::Single MAX_ANGLE; // 0x0
 		// static const ::System::Single MIN_ANGLE; // 0x0
 		::BehaviorDesigner::Runtime::SharedString* TargetAnchorName1; // 0x50
-		::System::String* Type1AttachPoint; // 0x58
-		::System::String* TargetTypeCustomKey2; // 0x60
-		::BehaviorDesigner::Runtime::SharedFloat* StoreResult; // 0x68
-		::System::String* Type2AttachPoint; // 0x70
-		::Class_3_CF6254B260CF5CF4* attackTargetComponent; // 0x78
-		::Class_3_DFD5D1FDB9D2A4AC* modelComponent; // 0x80
-		::System::String* TargetTypeCustomKey1; // 0x88
-		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x90
-		::BehaviorDesigner::Runtime::SharedString* TargetAnchorName2; // 0x98
-		::BehaviorDesigner::Runtime::SharedBool* IsSymmetry; // 0xA0
-		::BehaviorDesigner::Runtime::SharedFloat* AngleMin; // 0xA8
-		::BehaviorDesigner::Runtime::SharedFloat* AngleMax; // 0xB0
-		::MoleMole::AIMoveTargetType TargetType2; // 0xB8
-		::MoleMole::AIMoveTargetType TargetType1; // 0xBC
-		::System::Single _angleMax; // 0xC0
-		::System::Single _angleMin; // 0xC4
+		::BehaviorDesigner::Runtime::SharedString* TargetAnchorName2; // 0x58
+		::BehaviorDesigner::Runtime::SharedFloat* AngleMin; // 0x60
+		::Class_3_06419CA21ECB69E6* attackTargetComponent; // 0x68
+		::System::String* TargetTypeCustomKey2; // 0x70
+		::System::String* Type2AttachPoint; // 0x78
+		::BehaviorDesigner::Runtime::SharedFloat* AngleMax; // 0x80
+		::Class_3_C93CC3D2C2AC4067* modelComponent; // 0x88
+		::System::String* TargetTypeCustomKey1; // 0x90
+		::BehaviorDesigner::Runtime::SharedFloat* StoreResult; // 0x98
+		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0xA0
+		::System::String* Type1AttachPoint; // 0xA8
+		::BehaviorDesigner::Runtime::SharedBool* IsSymmetry; // 0xB0
+		::System::Single _angleMax; // 0xB8
+		::System::Single _angleMin; // 0xBC
+		::MoleMole::AIMoveTargetType TargetType2; // 0xC0
+		::MoleMole::AIMoveTargetType TargetType1; // 0xC4
 
 		::System::Void _ctor()
 		{

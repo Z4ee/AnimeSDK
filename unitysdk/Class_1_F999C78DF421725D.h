@@ -5,22 +5,22 @@
 namespace MoleMole::Config { class LevelGlobalAIScriptConfig; }
 namespace System { class Action; }
 
-#define CLASS_1_F999C78DF421725D_METHOD_1_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0x1AC5E460)
-#define CLASS_1_F999C78DF421725D_METHOD_1_EA59A5301457D07C_OFFSET UNITYSDK_OFFSET(0x1AC5E1C0)
-#define CLASS_1_F999C78DF421725D__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AC5E1B0)
+#define CLASS_1_F999C78DF421725D_METHOD_1_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0x11E998C0)
+#define CLASS_1_F999C78DF421725D_METHOD_1_EA59A5301457D07C_OFFSET UNITYSDK_OFFSET(0x11E99620)
+#define CLASS_1_F999C78DF421725D__CCTOR_OFFSET UNITYSDK_OFFSET(0x11E99610)
 
-inline static constexpr unsigned int Class_1_F999C78DF421725D_TypeDefinitionIndex = 79667;
+inline static constexpr unsigned int Class_1_F999C78DF421725D_TypeDefinitionIndex = 55519;
 
 class Class_1_F999C78DF421725D : public ::System::Object
 {
 public:
-	static ::MoleMole::Config::LevelGlobalAIScriptConfig** StaticGet_Field_1_1()
+	static ::MoleMole::Config::LevelGlobalAIScriptConfig** StaticGet_Field_1_0()
 	{
-		return (::MoleMole::Config::LevelGlobalAIScriptConfig**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F999C78DF421725D_TypeDefinitionIndex)->GetStaticField(0x31EA0);
+		return (::MoleMole::Config::LevelGlobalAIScriptConfig**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F999C78DF421725D_TypeDefinitionIndex)->GetStaticField(0x46C60);
 	}
-	static ::System::Boolean* StaticGet_Field_1_0()
+	static ::System::Boolean* StaticGet_Field_1_1()
 	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_F999C78DF421725D_TypeDefinitionIndex)->GetStaticField(0xBED0);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_F999C78DF421725D_TypeDefinitionIndex)->GetStaticField(0x106D0);
 	}
 
 	static ::System::Void _cctor()

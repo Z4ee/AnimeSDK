@@ -8,15 +8,15 @@ namespace MoleMole::Battle { class AnimatorParamControl; }
 namespace MoleMole::Battle { class Entity; }
 namespace MoleMole::Config { class ConfigPosRot; }
 
-#define MOLEMOLE_CONFIG_ANIMATORZONESWITCHCHARACTERZONE_ONZONEENTER_OFFSET UNITYSDK_OFFSET(0x17D43580)
-#define MOLEMOLE_CONFIG_ANIMATORZONESWITCHCHARACTERZONE_ONZONEEXIT_OFFSET UNITYSDK_OFFSET(0x17D43840)
-#define MOLEMOLE_CONFIG_ANIMATORZONESWITCHCHARACTERZONE__CTOR_OFFSET UNITYSDK_OFFSET(0x17D43B00)
-#define MOLEMOLE_CONFIG_ANIMATORZONESWITCHCHARACTERZONE___BASE_ONZONEENTER_OFFSET UNITYSDK_OFFSET(0x17D43B10)
-#define MOLEMOLE_CONFIG_ANIMATORZONESWITCHCHARACTERZONE___BASE_ONZONEEXIT_OFFSET UNITYSDK_OFFSET(0x17D43BC0)
+#define MOLEMOLE_CONFIG_ANIMATORZONESWITCHCHARACTERZONE_ONZONEENTER_OFFSET UNITYSDK_OFFSET(0x172933E0)
+#define MOLEMOLE_CONFIG_ANIMATORZONESWITCHCHARACTERZONE_ONZONEEXIT_OFFSET UNITYSDK_OFFSET(0x172936A0)
+#define MOLEMOLE_CONFIG_ANIMATORZONESWITCHCHARACTERZONE__CTOR_OFFSET UNITYSDK_OFFSET(0x17293960)
+#define MOLEMOLE_CONFIG_ANIMATORZONESWITCHCHARACTERZONE___BASE_ONZONEENTER_OFFSET UNITYSDK_OFFSET(0x17293970)
+#define MOLEMOLE_CONFIG_ANIMATORZONESWITCHCHARACTERZONE___BASE_ONZONEEXIT_OFFSET UNITYSDK_OFFSET(0x17293A20)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AnimatorZoneSwitchCharacterZone_TypeDefinitionIndex = 52124;
+	inline static constexpr unsigned int AnimatorZoneSwitchCharacterZone_TypeDefinitionIndex = 76360;
 
 	class AnimatorZoneSwitchCharacterZone : public ::MoleMole::Config::AnimatorZone
 	{
@@ -24,11 +24,11 @@ namespace MoleMole::Config
 		::MoleMole::Config::ConfigPosRot* overridePosRot; // 0x50
 		::MoleMole::Battle::AnimatorParamControl* switchInParamControl; // 0x58
 		::MoleMole::Battle::AnimatorParamControl* switchOutParamControl; // 0x60
-		::System::Single overrideTriggerSwitchOutDelay; // 0x68
-		::System::Boolean needOverrideTriggerSwitchOutDelay; // 0x6C
-		::System::Boolean needOverrideTriggerSwitchInDelay; // 0x6D
-		::System::Boolean needOverrideSwitchPosRot; // 0x6E
-		::System::Single overrideTriggerSwitchInDelay; // 0x70
+		::System::Boolean needOverrideTriggerSwitchOutDelay; // 0x68
+		::System::Boolean needOverrideTriggerSwitchInDelay; // 0x69
+		::System::Boolean needOverrideSwitchPosRot; // 0x6A
+		::System::Single overrideTriggerSwitchInDelay; // 0x6C
+		::System::Single overrideTriggerSwitchOutDelay; // 0x70
 
 		::System::Void _ctor()
 		{

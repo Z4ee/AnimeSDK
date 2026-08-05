@@ -4,7 +4,7 @@
 
 namespace UnityEngine::InputSystem::GamepadEx
 {
-	inline static constexpr unsigned int DualSenseHIDOutputReport__rawdata_e__FixedBuffer_TypeDefinitionIndex = 39072;
+	inline static constexpr unsigned int DualSenseHIDOutputReport__rawdata_e__FixedBuffer_TypeDefinitionIndex = 39738;
 
 	struct alignas(1) DualSenseHIDOutputReport__rawdata_e__FixedBuffer
 	{

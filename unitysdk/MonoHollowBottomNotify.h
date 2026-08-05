@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define MONOHOLLOWBOTTOMNOTIFY_TRYSHOWBOTTOMPANEL_OFFSET UNITYSDK_OFFSET(0x116BFC60)
-#define MONOHOLLOWBOTTOMNOTIFY__CTOR_OFFSET UNITYSDK_OFFSET(0x116BFD80)
+#define MONOHOLLOWBOTTOMNOTIFY_TRYSHOWBOTTOMPANEL_OFFSET UNITYSDK_OFFSET(0x14121410)
+#define MONOHOLLOWBOTTOMNOTIFY__CTOR_OFFSET UNITYSDK_OFFSET(0x14121530)
 
-inline static constexpr unsigned int MonoHollowBottomNotify_TypeDefinitionIndex = 45513;
+inline static constexpr unsigned int MonoHollowBottomNotify_TypeDefinitionIndex = 70574;
 
 class MonoHollowBottomNotify : public ::UnityEngine::MonoBehaviour
 {

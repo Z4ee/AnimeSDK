@@ -13,32 +13,32 @@ namespace System { class String; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine::NAPRenderPipeline0 { class ProfilingSampler; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGEDECALLUTPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1AEECD30)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGEDECALLUTPASS_SETUP_OFFSET UNITYSDK_OFFSET(0x1AEE6960)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGEDECALLUTPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1AED6BC0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGEDECALLUTPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1C431E00)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGEDECALLUTPASS_SETUP_OFFSET UNITYSDK_OFFSET(0x1C42BAB0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DAMAGEDECALLUTPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1C41CA30)
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int DamageDecalLUTPass_TypeDefinitionIndex = 26932;
+	inline static constexpr unsigned int DamageDecalLUTPass_TypeDefinitionIndex = 26884;
 
 	class DamageDecalLUTPass : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 	{
 	public:
-		::System::String* _DAMAGE_DECAL_QUALITY_MEDIUM; // 0xA8
-		::System::String* _DAMAGE_DECAL_QUALITY_HIGH; // 0xB0
-		::System::String* m_ProfilerTag; // 0xB8
+		::System::String* _DAMAGE_DECAL_QUALITY_HIGH; // 0xA8
+		::System::String* m_ProfilerTag; // 0xB0
+		::UnityEngine::NAPRenderPipeline0::ProfilingSampler* m_ProfilingSampler; // 0xB8
 		::UnityEngine::Material* _decalLUTMaterial; // 0xC0
-		::UnityEngine::NAPRenderPipeline0::ProfilingSampler* m_ProfilingSampler; // 0xC8
-		::System::Int32 cellSize; // 0xD0
+		::System::String* _DAMAGE_DECAL_QUALITY_MEDIUM; // 0xC8
+		::System::Int32 _DecalProjectionNormal; // 0xD0
 		::UnityEngine::NAPRenderPipeline0::RenderTargetHandle m_ActiveDepthAttachment; // 0xD4
-		::System::Int32 _DecalLUT; // 0xD8
-		::UnityEngine::NAPRenderPipeline0::RenderTargetHandle m_ActiveColorAttachment; // 0xDC
-		::UnityEngine::Rendering::RenderTargetIdentifier _dilationLUTIdentifier; // 0xE0
-		::System::Int32 _DecalMatrix; // 0x108
-		::System::Int32 _DecalProjectionNormal; // 0x10C
-		::UnityEngine::Rendering::Universal::GraphicSettings_EDamageDecalQuality m_quality; // 0x110
-		::System::Int32 _CellSize; // 0x114
-		::System::Int32 _CellIndex; // 0x118
+		::UnityEngine::Rendering::Universal::GraphicSettings_EDamageDecalQuality m_quality; // 0xD8
+		::System::Int32 _CellIndex; // 0xDC
+		::System::Int32 _DecalMatrix; // 0xE0
+		::System::Int32 cellSize; // 0xE4
+		::UnityEngine::Rendering::RenderTargetIdentifier _dilationLUTIdentifier; // 0xE8
+		::System::Int32 _CellSize; // 0x110
+		::System::Int32 _DecalLUT; // 0x114
+		::UnityEngine::NAPRenderPipeline0::RenderTargetHandle m_ActiveColorAttachment; // 0x118
 
 		::System::Void _ctor(::UnityEngine::NAPRenderPipeline0::RenderPassEvent evt)
 		{

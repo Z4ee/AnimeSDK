@@ -9,28 +9,28 @@ namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_RANDOM_EXECUTE_OFFSET UNITYSDK_OFFSET(0x17052BF0)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_RANDOM_GET_INSPECTORLABEL_OFFSET UNITYSDK_OFFSET(0x17052A50)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_RANDOM_ISMATCH_OFFSET UNITYSDK_OFFSET(0x170534D0)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_RANDOM_RESETDATA_OFFSET UNITYSDK_OFFSET(0x17052A90)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_RANDOM_WALK_OFFSET UNITYSDK_OFFSET(0x17053750)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_RANDOM__CTOR_OFFSET UNITYSDK_OFFSET(0x17053A20)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_RANDOM___BASE_ISMATCH_OFFSET UNITYSDK_OFFSET(0x17053AE0)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_RANDOM___BASE_WALK_OFFSET UNITYSDK_OFFSET(0x17053AF0)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_RANDOM_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1B915A60)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_RANDOM_GET_INSPECTORLABEL_OFFSET UNITYSDK_OFFSET(0x1B9158C0)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_RANDOM_ISMATCH_OFFSET UNITYSDK_OFFSET(0x1B916360)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_RANDOM_RESETDATA_OFFSET UNITYSDK_OFFSET(0x1B915900)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_RANDOM_WALK_OFFSET UNITYSDK_OFFSET(0x1B9165E0)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_RANDOM__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9168B0)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_RANDOM___BASE_ISMATCH_OFFSET UNITYSDK_OFFSET(0x1B916970)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_RANDOM___BASE_WALK_OFFSET UNITYSDK_OFFSET(0x1B916980)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigSoundAction_Random_TypeDefinitionIndex = 54978;
+	inline static constexpr unsigned int ConfigSoundAction_Random_TypeDefinitionIndex = 66546;
 
 	class ConfigSoundAction_Random : public ::MoleMole::Config::ConfigSoundActionGeneral
 	{
 	public:
-		::System::Collections::Generic::List_1<::MoleMole::Config::SoundActionWithWeight*>* randoms; // 0x20
-		::System::Collections::Generic::List_1<::MoleMole::Config::SoundActionWithWeight*>* candidates; // 0x28
+		::System::Collections::Generic::List_1<::MoleMole::Config::SoundActionWithWeight*>* candidates; // 0x20
+		::System::Collections::Generic::List_1<::MoleMole::Config::SoundActionWithWeight*>* randoms; // 0x28
 		::System::Int32 avoidRepeatingCount; // 0x30
-		::MoleMole::Config::ConfigSoundAction_Random_RandomType randomType; // 0x34
+		::System::Boolean avoidRepeating; // 0x34
 		::System::Int32 playTimeIndex; // 0x38
-		::System::Boolean avoidRepeating; // 0x3C
+		::MoleMole::Config::ConfigSoundAction_Random_RandomType randomType; // 0x3C
 
 		::System::Void _ctor()
 		{

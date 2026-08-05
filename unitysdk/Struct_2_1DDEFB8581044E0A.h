@@ -10,17 +10,17 @@ namespace MoleMole { class ScreenColorCorrectionData; }
 namespace MoleMole::HollowChessboard { class SceneAnimRenderSection_Config; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define STRUCT_2_1DDEFB8581044E0A_METHOD_2_8550084FF10AA7A8_OFFSET UNITYSDK_OFFSET(0x84D5F0)
-#define STRUCT_2_1DDEFB8581044E0A_METHOD_2_870AD9AF203D5C42_OFFSET UNITYSDK_OFFSET(0x84D620)
-#define STRUCT_2_1DDEFB8581044E0A_METHOD_2_B74E44FF99F4E461_OFFSET UNITYSDK_OFFSET(0x84D650)
-#define STRUCT_2_1DDEFB8581044E0A__CTOR_OFFSET UNITYSDK_OFFSET(0x623A10)
+#define STRUCT_2_1DDEFB8581044E0A_METHOD_2_8550084FF10AA7A8_OFFSET UNITYSDK_OFFSET(0x8801A0)
+#define STRUCT_2_1DDEFB8581044E0A_METHOD_2_870AD9AF203D5C42_OFFSET UNITYSDK_OFFSET(0x8801D0)
+#define STRUCT_2_1DDEFB8581044E0A_METHOD_2_B74E44FF99F4E461_OFFSET UNITYSDK_OFFSET(0x880200)
+#define STRUCT_2_1DDEFB8581044E0A__CTOR_OFFSET UNITYSDK_OFFSET(0x8536B0)
 
-inline static constexpr unsigned int Struct_2_1DDEFB8581044E0A_TypeDefinitionIndex = 64568;
+inline static constexpr unsigned int Struct_2_1DDEFB8581044E0A_TypeDefinitionIndex = 61107;
 
 struct alignas(4) Struct_2_1DDEFB8581044E0A
 {
-	::MoleMole::HollowChessboard::RenderDataAliveType Field_2_0; // 0x10
-	::System::UInt32 Field_2_1; // 0x14
+	::MoleMole::HollowChessboard::RenderDataAliveType Field_2_1; // 0x10
+	::System::UInt32 Field_2_0; // 0x14
 
 	::System::Void _ctor(::MoleMole::HollowChessboard::RenderDataAliveType a1)
 	{

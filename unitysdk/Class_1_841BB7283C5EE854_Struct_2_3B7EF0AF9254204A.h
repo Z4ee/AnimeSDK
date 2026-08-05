@@ -4,24 +4,24 @@
 #include "unitysdk/Cysharp/Threading/Tasks/UniTask_Awaiter.h"
 #include "unitysdk/System/ValueType.h"
 
-class Class_1_841BB7283C5EE854_Class_1_18BFEAD82BA3C5E8_2;
+class Class_1_841BB7283C5EE854_Class_1_18BFEAD82BA3C5E8_3;
 class Class_1_A191518F735366A8;
 class Class_1_A45C7A2E673C349B;
 namespace System { template <typename T> class Action_1; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define CLASS_1_841BB7283C5EE854_STRUCT_2_3B7EF0AF9254204A_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x8241F0)
-#define CLASS_1_841BB7283C5EE854_STRUCT_2_3B7EF0AF9254204A_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x283610)
+#define CLASS_1_841BB7283C5EE854_STRUCT_2_3B7EF0AF9254204A_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x7B0430)
+#define CLASS_1_841BB7283C5EE854_STRUCT_2_3B7EF0AF9254204A_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x296F30)
 
-inline static constexpr unsigned int Class_1_841BB7283C5EE854_Struct_2_3B7EF0AF9254204A_TypeDefinitionIndex = 80300;
+inline static constexpr unsigned int Class_1_841BB7283C5EE854_Struct_2_3B7EF0AF9254204A_TypeDefinitionIndex = 82475;
 
 struct alignas(8) Class_1_841BB7283C5EE854_Struct_2_3B7EF0AF9254204A
 {
-	::Class_1_841BB7283C5EE854_Class_1_18BFEAD82BA3C5E8_2* Field_2_3; // 0x10
-	::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder_1<::Class_1_A191518F735366A8*> Field_2_1; // 0x18
-	::System::Action_1<::Class_1_A191518F735366A8*>* Field_2_4; // 0x30
-	::Class_1_A45C7A2E673C349B* Field_2_2; // 0x38
-	::Cysharp::Threading::Tasks::UniTask_Awaiter Field_2_5; // 0x40
+	::Cysharp::Threading::Tasks::UniTask_Awaiter Field_2_11; // 0x10
+	::System::Action_1<::Class_1_A191518F735366A8*>* Field_2_4; // 0x20
+	::Class_1_A45C7A2E673C349B* Field_2_6; // 0x28
+	::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder_1<::Class_1_A191518F735366A8*> Field_2_7; // 0x30
+	::Class_1_841BB7283C5EE854_Class_1_18BFEAD82BA3C5E8_3* Field_2_5; // 0x48
 	::System::Int32 Field_2_0; // 0x50
 
 	::System::Void MoveNext()

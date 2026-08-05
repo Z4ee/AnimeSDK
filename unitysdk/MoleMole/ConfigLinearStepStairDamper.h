@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/ConfigSingleAxisDamper.h"
 
-#define MOLEMOLE_CONFIGLINEARSTEPSTAIRDAMPER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0780D0)
+#define MOLEMOLE_CONFIGLINEARSTEPSTAIRDAMPER__CTOR_OFFSET UNITYSDK_OFFSET(0x19FF89C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigLinearStepStairDamper_TypeDefinitionIndex = 54047;
+	inline static constexpr unsigned int ConfigLinearStepStairDamper_TypeDefinitionIndex = 75391;
 
 	class ConfigLinearStepStairDamper : public ::MoleMole::ConfigSingleAxisDamper
 	{
 	public:
-		::System::Single AbsoluteOffset; // 0x38
-		::System::Single StepRatio; // 0x3C
-		::System::Boolean UseFirstStepHeightAsRelativeRatio; // 0x40
-		::System::Boolean BaselineOffsetPlane; // 0x41
+		::System::Single StepRatio; // 0x38
+		::System::Single AbsoluteOffset; // 0x3C
+		::System::Boolean BaselineOffsetPlane; // 0x40
+		::System::Boolean UseFirstStepHeightAsRelativeRatio; // 0x41
 
 		::System::Void _ctor()
 		{

@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CAMERAS_NAPACTIONVIRTUALSTATEDRIVENCAMERA_PARENTCAMERAMOVE__CTOR_OFFSET UNITYSDK_OFFSET(0x2BDE80)
+#define MOLEMOLE_CAMERAS_NAPACTIONVIRTUALSTATEDRIVENCAMERA_PARENTCAMERAMOVE__CTOR_OFFSET UNITYSDK_OFFSET(0x346F70)
 
 namespace MoleMole::Cameras
 {
-	inline static constexpr unsigned int NapActionVirtualStateDrivenCamera_ParentCameraMove_TypeDefinitionIndex = 50707;
+	inline static constexpr unsigned int NapActionVirtualStateDrivenCamera_ParentCameraMove_TypeDefinitionIndex = 42008;
 
 	struct alignas(8) NapActionVirtualStateDrivenCamera_ParentCameraMove
 	{

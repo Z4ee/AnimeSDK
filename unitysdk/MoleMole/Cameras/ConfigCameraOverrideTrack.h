@@ -6,11 +6,11 @@ namespace MoleMole::Cameras { class CameraOverrideTrackEntry; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CAMERAS_CONFIGCAMERAOVERRIDETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x106AD3C0)
+#define MOLEMOLE_CAMERAS_CONFIGCAMERAOVERRIDETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x167EC0A0)
 
 namespace MoleMole::Cameras
 {
-	inline static constexpr unsigned int ConfigCameraOverrideTrack_TypeDefinitionIndex = 65926;
+	inline static constexpr unsigned int ConfigCameraOverrideTrack_TypeDefinitionIndex = 57853;
 
 	class ConfigCameraOverrideTrack : public ::Foundation::MihoyoSerializedScriptableObject
 	{

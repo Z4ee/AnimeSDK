@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define MOLEMOLE_ARCADE_SNAKEDEMO_SNAKESCOREFILLBARPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1E848990)
+#define MOLEMOLE_ARCADE_SNAKEDEMO_SNAKESCOREFILLBARPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1FC5C7B0)
 
 namespace MoleMole::Arcade::SnakeDemo
 {
-	inline static constexpr unsigned int SnakeScoreFillBarParam_TypeDefinitionIndex = 90985;
+	inline static constexpr unsigned int SnakeScoreFillBarParam_TypeDefinitionIndex = 94968;
 
 	class SnakeScoreFillBarParam : public ::UnityEngine::MonoBehaviour
 	{

@@ -5,12 +5,12 @@
 
 namespace MoleMole { class UIHandBookRopeMakerWidgetController; }
 
-#define MOLEMOLE_UIHANDBOOKROPEMAKERWIDGETCONTROLLER___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x181265A0)
-#define MOLEMOLE_UIHANDBOOKROPEMAKERWIDGETCONTROLLER___C__DISPLAYCLASS11_0__REFRESHPROXYLEVEL_B__0_OFFSET UNITYSDK_OFFSET(0x181265B0)
+#define MOLEMOLE_UIHANDBOOKROPEMAKERWIDGETCONTROLLER___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19FD9FD0)
+#define MOLEMOLE_UIHANDBOOKROPEMAKERWIDGETCONTROLLER___C__DISPLAYCLASS11_0__REFRESHPROXYLEVEL_B__0_OFFSET UNITYSDK_OFFSET(0x19FD9FE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHandBookRopeMakerWidgetController___c__DisplayClass11_0_TypeDefinitionIndex = 57644;
+	inline static constexpr unsigned int UIHandBookRopeMakerWidgetController___c__DisplayClass11_0_TypeDefinitionIndex = 67602;
 
 	class UIHandBookRopeMakerWidgetController___c__DisplayClass11_0 : public ::System::Object
 	{

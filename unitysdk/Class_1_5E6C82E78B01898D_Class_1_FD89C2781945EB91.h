@@ -6,16 +6,16 @@
 namespace MoleMole::Cameras { class VNoiseSettings; }
 namespace System { template <typename T> class Action_1; }
 
-#define CLASS_1_5E6C82E78B01898D_CLASS_1_FD89C2781945EB91_METHOD_1_89FBED9DD577568B_OFFSET UNITYSDK_OFFSET(0x16FD7A60)
-#define CLASS_1_5E6C82E78B01898D_CLASS_1_FD89C2781945EB91__CTOR_OFFSET UNITYSDK_OFFSET(0x16FD7A50)
+#define CLASS_1_5E6C82E78B01898D_CLASS_1_FD89C2781945EB91_METHOD_1_89FBED9DD577568B_OFFSET UNITYSDK_OFFSET(0x161C44B0)
+#define CLASS_1_5E6C82E78B01898D_CLASS_1_FD89C2781945EB91__CTOR_OFFSET UNITYSDK_OFFSET(0x161C44A0)
 
-inline static constexpr unsigned int Class_1_5E6C82E78B01898D_Class_1_FD89C2781945EB91_TypeDefinitionIndex = 44034;
+inline static constexpr unsigned int Class_1_5E6C82E78B01898D_Class_1_FD89C2781945EB91_TypeDefinitionIndex = 44819;
 
 class Class_1_5E6C82E78B01898D_Class_1_FD89C2781945EB91 : public ::System::Object
 {
 public:
-	::Foundation::AssetPath Field_1_0; // 0x10
-	::System::Action_1<::MoleMole::Cameras::VNoiseSettings*>* Field_1_1; // 0x20
+	::Foundation::AssetPath Field_1_1; // 0x10
+	::System::Action_1<::MoleMole::Cameras::VNoiseSettings*>* Field_1_0; // 0x20
 
 	::System::Void _ctor()
 	{

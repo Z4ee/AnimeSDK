@@ -9,24 +9,24 @@ namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define NODECANVAS_TASKS_ACTIONS_GETLINECASTINFO2D_ONDRAWGIZMOSSELECTED_OFFSET UNITYSDK_OFFSET(0x1CC4A1E0)
-#define NODECANVAS_TASKS_ACTIONS_GETLINECASTINFO2D_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1CC49D60)
-#define NODECANVAS_TASKS_ACTIONS_GETLINECASTINFO2D__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC4A500)
+#define NODECANVAS_TASKS_ACTIONS_GETLINECASTINFO2D_ONDRAWGIZMOSSELECTED_OFFSET UNITYSDK_OFFSET(0x1DFDF4A0)
+#define NODECANVAS_TASKS_ACTIONS_GETLINECASTINFO2D_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1DFDF020)
+#define NODECANVAS_TASKS_ACTIONS_GETLINECASTINFO2D__CTOR_OFFSET UNITYSDK_OFFSET(0x1DFDF7C0)
 
 namespace NodeCanvas::Tasks::Actions
 {
-	inline static constexpr unsigned int GetLinecastInfo2D_TypeDefinitionIndex = 29729;
+	inline static constexpr unsigned int GetLinecastInfo2D_TypeDefinitionIndex = 31438;
 
 	class GetLinecastInfo2D : public ::NodeCanvas::Framework::ActionTask_1<::UnityEngine::Transform*>
 	{
 	public:
-		::NodeCanvas::Framework::BBParameter_1<::System::Single>* saveDistanceAs; // 0x60
-		::NodeCanvas::Framework::BBParameter_1<::UnityEngine::Vector3>* saveNormalAs; // 0x68
-		::NodeCanvas::Framework::BBParameter_1<::UnityEngine::GameObject*>* saveHitGameObjectAs; // 0x70
-		::NodeCanvas::Framework::BBParameter_1<::UnityEngine::GameObject*>* target; // 0x78
+		::NodeCanvas::Framework::BBParameter_1<::UnityEngine::GameObject*>* saveHitGameObjectAs; // 0x60
+		::NodeCanvas::Framework::BBParameter_1<::UnityEngine::GameObject*>* target; // 0x68
+		::NodeCanvas::Framework::BBParameter_1<::UnityEngine::Vector3>* saveNormalAs; // 0x70
+		::NodeCanvas::Framework::BBParameter_1<::System::Single>* saveDistanceAs; // 0x78
 		::NodeCanvas::Framework::BBParameter_1<::UnityEngine::Vector3>* savePointAs; // 0x80
-		::UnityEngine::RaycastHit2D hit; // 0x88
-		::UnityEngine::LayerMask mask; // 0xAC
+		::UnityEngine::LayerMask mask; // 0x88
+		::UnityEngine::RaycastHit2D hit; // 0x8C
 
 		::System::Void _ctor()
 		{

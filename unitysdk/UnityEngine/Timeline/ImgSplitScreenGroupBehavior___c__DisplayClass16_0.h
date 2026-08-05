@@ -8,13 +8,13 @@ namespace UnityEngine::Timeline { class ImgSplitScreenGroupBehavior; }
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int ImgSplitScreenGroupBehavior___c__DisplayClass16_0_TypeDefinitionIndex = 32344;
+	inline static constexpr unsigned int ImgSplitScreenGroupBehavior___c__DisplayClass16_0_TypeDefinitionIndex = 32975;
 
 	struct alignas(8) ImgSplitScreenGroupBehavior___c__DisplayClass16_0
 	{
-		::UnityEngine::Timeline::ImgSplitScreenGroupBehavior* __4__this; // 0x10
-		::UnityEngine::Timeline::ComicGroupTrack* groupTrack; // 0x18
-		::UnityEngine::Transform* tempNode; // 0x20
-		::UnityEngine::Transform* image01Trans; // 0x28
+		::UnityEngine::Transform* image01Trans; // 0x10
+		::UnityEngine::Transform* tempNode; // 0x18
+		::UnityEngine::Timeline::ComicGroupTrack* groupTrack; // 0x20
+		::UnityEngine::Timeline::ImgSplitScreenGroupBehavior* __4__this; // 0x28
 	};
 }

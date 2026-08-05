@@ -4,12 +4,12 @@
 
 namespace UnityEngine::Rendering { class LensFlareDataSRP; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_LENSFLARECONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x1C454310)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_LENSFLARECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4544C0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_LENSFLARECONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x1D60EBF0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_LENSFLARECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D60EDA0)
 
 namespace UnityEngine::Rendering::Universal::WeatherSystem
 {
-	inline static constexpr unsigned int LensFlareConfig_TypeDefinitionIndex = 26924;
+	inline static constexpr unsigned int LensFlareConfig_TypeDefinitionIndex = 27411;
 
 	class LensFlareConfig : public ::UnityEngine::Rendering::Universal::WeatherSystem::WeatherPropertiesBase_1<::UnityEngine::Rendering::Universal::WeatherSystem::LensFlareConfig*>
 	{

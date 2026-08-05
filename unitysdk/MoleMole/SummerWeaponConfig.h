@@ -10,11 +10,11 @@ namespace MoleMole { class SummerEventWeaponSkillParamBase; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_SUMMERWEAPONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x12BE1460)
+#define MOLEMOLE_SUMMERWEAPONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x138610A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SummerWeaponConfig_TypeDefinitionIndex = 84859;
+	inline static constexpr unsigned int SummerWeaponConfig_TypeDefinitionIndex = 42991;
 
 	class SummerWeaponConfig : public ::System::Object
 	{

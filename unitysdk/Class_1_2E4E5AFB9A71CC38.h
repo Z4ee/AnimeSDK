@@ -1,15 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_4D23D4D1211777E9.h"
+#include "unitysdk/Enum_3_22DDD7B50F316EE2.h"
 #include "unitysdk/System/Object.h"
 
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_2E4E5AFB9A71CC38_METHOD_1_C7E6EA7E7C8F6152_OFFSET UNITYSDK_OFFSET(0x12837030)
-#define CLASS_1_2E4E5AFB9A71CC38_METHOD_1_D09831639F615812_OFFSET UNITYSDK_OFFSET(0x12836FD0)
-#define CLASS_1_2E4E5AFB9A71CC38__CTOR_OFFSET UNITYSDK_OFFSET(0x12836F10)
+#define CLASS_1_2E4E5AFB9A71CC38_METHOD_1_C7E6EA7E7C8F6152_OFFSET UNITYSDK_OFFSET(0x11424EA0)
+#define CLASS_1_2E4E5AFB9A71CC38_METHOD_1_D09831639F615812_OFFSET UNITYSDK_OFFSET(0x11425030)
+#define CLASS_1_2E4E5AFB9A71CC38__CTOR_OFFSET UNITYSDK_OFFSET(0x11424DE0)
 
-inline static constexpr unsigned int Class_1_2E4E5AFB9A71CC38_TypeDefinitionIndex = 67771;
+inline static constexpr unsigned int Class_1_2E4E5AFB9A71CC38_TypeDefinitionIndex = 76167;
 
 class Class_1_2E4E5AFB9A71CC38 : public ::System::Object
 {
@@ -21,13 +21,13 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2E4E5AFB9A71CC38__CTOR_OFFSET))(this);
 	}
 
-	::System::Void Method_1_D09831639F615812(::System::Int32 a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_2E4E5AFB9A71CC38_METHOD_1_D09831639F615812_OFFSET))(this, a1);
-	}
-
 	::System::Boolean Method_1_C7E6EA7E7C8F6152(::System::Int32 a1)
 	{
 		return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_2E4E5AFB9A71CC38_METHOD_1_C7E6EA7E7C8F6152_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_D09831639F615812(::System::Int32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_2E4E5AFB9A71CC38_METHOD_1_D09831639F615812_OFFSET))(this, a1);
 	}
 };

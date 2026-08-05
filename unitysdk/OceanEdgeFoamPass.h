@@ -12,33 +12,33 @@ namespace UnityEngine::NAPRenderPipeline0 { class ProfilingSampler; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 namespace UnityEngine::Rendering::Universal::Internal { class WaterGenPass; }
 
-#define OCEANEDGEFOAMPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1C42BA10)
-#define OCEANEDGEFOAMPASS_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1C42C470)
-#define OCEANEDGEFOAMPASS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C42C4C0)
-#define OCEANEDGEFOAMPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1C42B8E0)
-#define OCEANEDGEFOAMPASS___BASE_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1C42C520)
+#define OCEANEDGEFOAMPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1D5E3800)
+#define OCEANEDGEFOAMPASS_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1D5E4200)
+#define OCEANEDGEFOAMPASS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D5E4250)
+#define OCEANEDGEFOAMPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5E36D0)
+#define OCEANEDGEFOAMPASS___BASE_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1D5E42B0)
 
-inline static constexpr unsigned int OceanEdgeFoamPass_TypeDefinitionIndex = 26775;
+inline static constexpr unsigned int OceanEdgeFoamPass_TypeDefinitionIndex = 27035;
 
 class OceanEdgeFoamPass : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 {
 public:
-	static ::System::Int32* StaticGet__OceanEdgeFoamScreenSize()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OceanEdgeFoamPass_TypeDefinitionIndex)->GetStaticField(0x7270);
-	}
 	static ::System::Int32* StaticGet__OceanEdgeFoamMask()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OceanEdgeFoamPass_TypeDefinitionIndex)->GetStaticField(0x7274);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OceanEdgeFoamPass_TypeDefinitionIndex)->GetStaticField(0x7220);
 	}
 	static ::System::Int32* StaticGet__OceanEdgeFoamMask2()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OceanEdgeFoamPass_TypeDefinitionIndex)->GetStaticField(0x7278);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OceanEdgeFoamPass_TypeDefinitionIndex)->GetStaticField(0x7224);
+	}
+	static ::System::Int32* StaticGet__OceanEdgeFoamScreenSize()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OceanEdgeFoamPass_TypeDefinitionIndex)->GetStaticField(0x7228);
 	}
 	// static const ::System::String* k_ProfilerTag; // 0x0
-	::UnityEngine::NAPRenderPipeline0::ProfilingSampler* m_Sampler; // 0xA8
-	::UnityEngine::Rendering::Universal::Internal::WaterGenPass* m_WaterGenPass; // 0xB0
-	::UnityEngine::ComputeShader* m_BlurCS; // 0xB8
+	::UnityEngine::ComputeShader* m_BlurCS; // 0xA8
+	::UnityEngine::NAPRenderPipeline0::ProfilingSampler* m_Sampler; // 0xB0
+	::UnityEngine::Rendering::Universal::Internal::WaterGenPass* m_WaterGenPass; // 0xB8
 
 	::System::Void _ctor(::UnityEngine::NAPRenderPipeline0::RenderPassEvent evt, ::UnityEngine::ComputeShader* blurCS, ::UnityEngine::Rendering::Universal::Internal::WaterGenPass* waterGenPass)
 	{

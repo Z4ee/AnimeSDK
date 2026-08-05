@@ -3,14 +3,14 @@
 
 namespace AniMeshTick
 {
-	inline static constexpr unsigned int AniMeshTickManager_LodLevel_TypeDefinitionIndex = 86577;
+	inline static constexpr unsigned int AniMeshTickManager_LodLevel_TypeDefinitionIndex = 86036;
 
 	enum class AniMeshTickManager_LodLevel : ::System::Int32
 	{
-		VeryFar = 3,
-		Medium = 1,
-		Fallback = 4,
 		Far = 2,
+		Fallback = 4,
 		Near = 0,
+		Medium = 1,
+		VeryFar = 3,
 	};
 }

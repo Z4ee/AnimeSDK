@@ -1,11 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
+namespace System { class EventHandler; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_55_TypeDefinitionIndex = 28100;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_55_TypeDefinitionIndex = 28666;
 
-template <typename TVertex, typename TEdge>
 class Class_0_16E4307DCC419505_55
 {
 public:

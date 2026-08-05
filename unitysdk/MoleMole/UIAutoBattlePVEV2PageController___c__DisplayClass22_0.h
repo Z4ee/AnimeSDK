@@ -5,12 +5,12 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIAUTOBATTLEPVEV2PAGECONTROLLER___C__DISPLAYCLASS22_0__CTOR_OFFSET UNITYSDK_OFFSET(0x176C12C0)
-#define MOLEMOLE_UIAUTOBATTLEPVEV2PAGECONTROLLER___C__DISPLAYCLASS22_0__REFRESHREWARD_B__1_OFFSET UNITYSDK_OFFSET(0x176C12D0)
+#define MOLEMOLE_UIAUTOBATTLEPVEV2PAGECONTROLLER___C__DISPLAYCLASS22_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18BEFA00)
+#define MOLEMOLE_UIAUTOBATTLEPVEV2PAGECONTROLLER___C__DISPLAYCLASS22_0__REFRESHREWARD_B__1_OFFSET UNITYSDK_OFFSET(0x18BEFA10)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAutoBattlePVEV2PageController___c__DisplayClass22_0_TypeDefinitionIndex = 85461;
+	inline static constexpr unsigned int UIAutoBattlePVEV2PageController___c__DisplayClass22_0_TypeDefinitionIndex = 81477;
 
 	class UIAutoBattlePVEV2PageController___c__DisplayClass22_0 : public ::System::Object
 	{

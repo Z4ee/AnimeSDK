@@ -3,7 +3,7 @@
 
 namespace StateTreeCore
 {
-	inline static constexpr unsigned int StateTreePropertyCopyType_TypeDefinitionIndex = 31011;
+	inline static constexpr unsigned int StateTreePropertyCopyType_TypeDefinitionIndex = 31616;
 
 	enum class StateTreePropertyCopyType : ::System::Byte
 	{

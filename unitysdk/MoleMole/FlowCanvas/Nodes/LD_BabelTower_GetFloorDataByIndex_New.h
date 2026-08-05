@@ -4,12 +4,12 @@
 
 namespace MoleMole::Project::Config { class BabelFloorInfoTemplateExt; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_BABELTOWER_GETFLOORDATABYINDEX_NEW_INVOKE_OFFSET UNITYSDK_OFFSET(0x116120B0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_BABELTOWER_GETFLOORDATABYINDEX_NEW__CTOR_OFFSET UNITYSDK_OFFSET(0x11612250)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_BABELTOWER_GETFLOORDATABYINDEX_NEW_INVOKE_OFFSET UNITYSDK_OFFSET(0x192473E0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_BABELTOWER_GETFLOORDATABYINDEX_NEW__CTOR_OFFSET UNITYSDK_OFFSET(0x19247580)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_BabelTower_GetFloorDataByIndex_New_TypeDefinitionIndex = 40749;
+	inline static constexpr unsigned int LD_BabelTower_GetFloorDataByIndex_New_TypeDefinitionIndex = 42714;
 
 	class LD_BabelTower_GetFloorDataByIndex_New : public ::FlowCanvas::Nodes::PureFunctionNode_2<::MoleMole::Project::Config::BabelFloorInfoTemplateExt*, ::System::UInt32>
 	{

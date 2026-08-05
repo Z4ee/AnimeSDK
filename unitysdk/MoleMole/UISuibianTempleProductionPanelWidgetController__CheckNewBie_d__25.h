@@ -7,18 +7,18 @@
 namespace MoleMole { class UISuibianTempleProductionPanelWidgetController; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define MOLEMOLE_UISUIBIANTEMPLEPRODUCTIONPANELWIDGETCONTROLLER__CHECKNEWBIE_D__25_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x79C8B0)
-#define MOLEMOLE_UISUIBIANTEMPLEPRODUCTIONPANELWIDGETCONTROLLER__CHECKNEWBIE_D__25_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x5B0AE0)
+#define MOLEMOLE_UISUIBIANTEMPLEPRODUCTIONPANELWIDGETCONTROLLER__CHECKNEWBIE_D__25_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x8499E0)
+#define MOLEMOLE_UISUIBIANTEMPLEPRODUCTIONPANELWIDGETCONTROLLER__CHECKNEWBIE_D__25_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x59F4E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISuibianTempleProductionPanelWidgetController__CheckNewBie_d__25_TypeDefinitionIndex = 51217;
+	inline static constexpr unsigned int UISuibianTempleProductionPanelWidgetController__CheckNewBie_d__25_TypeDefinitionIndex = 90734;
 
 	struct alignas(8) UISuibianTempleProductionPanelWidgetController__CheckNewBie_d__25
 	{
 		::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder; // 0x10
-		::MoleMole::UISuibianTempleProductionPanelWidgetController* __4__this; // 0x30
-		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x38
+		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x30
+		::MoleMole::UISuibianTempleProductionPanelWidgetController* __4__this; // 0x40
 		::System::Int32 __1__state; // 0x48
 
 		::System::Void MoveNext()

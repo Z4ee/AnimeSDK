@@ -5,7 +5,7 @@ namespace System { class String; }
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int IUITextPreprocessor_TypeDefinitionIndex = 76041;
+	inline static constexpr unsigned int IUITextPreprocessor_TypeDefinitionIndex = 57471;
 
 	class IUITextPreprocessor
 	{

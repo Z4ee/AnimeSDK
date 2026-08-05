@@ -3,7 +3,7 @@
 
 namespace BinaryTracingFramework::Serialize
 {
-	inline static constexpr unsigned int ClassTypeMeta_TypeDefinitionIndex = 33982;
+	inline static constexpr unsigned int ClassTypeMeta_TypeDefinitionIndex = 34618;
 
 	enum class ClassTypeMeta : ::System::Int32
 	{

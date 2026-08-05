@@ -10,13 +10,13 @@ namespace System::IO { class Stream; }
 namespace System::Net { class HttpWebRequest; }
 namespace System::Net::Sockets { class NetworkStream; }
 
-#define MONO_NET_SECURITY_MONOTLSSTREAM_CREATESTREAM_OFFSET UNITYSDK_OFFSET(0x1C6BF860)
-#define MONO_NET_SECURITY_MONOTLSSTREAM_GET_CERTIFICATEVALIDATIONFAILED_OFFSET UNITYSDK_OFFSET(0x1C6BF730)
-#define MONO_NET_SECURITY_MONOTLSSTREAM_GET_EXCEPTIONSTATUS_OFFSET UNITYSDK_OFFSET(0x1C6BF720)
-#define MONO_NET_SECURITY_MONOTLSSTREAM_GET_REQUEST_OFFSET UNITYSDK_OFFSET(0x1C6BF700)
-#define MONO_NET_SECURITY_MONOTLSSTREAM_GET_SSLSTREAM_OFFSET UNITYSDK_OFFSET(0x1C6BF710)
-#define MONO_NET_SECURITY_MONOTLSSTREAM_SET_CERTIFICATEVALIDATIONFAILED_OFFSET UNITYSDK_OFFSET(0x1C6BF740)
-#define MONO_NET_SECURITY_MONOTLSSTREAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6BF750)
+#define MONO_NET_SECURITY_MONOTLSSTREAM_CREATESTREAM_OFFSET UNITYSDK_OFFSET(0x1DB71310)
+#define MONO_NET_SECURITY_MONOTLSSTREAM_GET_CERTIFICATEVALIDATIONFAILED_OFFSET UNITYSDK_OFFSET(0x1DB711E0)
+#define MONO_NET_SECURITY_MONOTLSSTREAM_GET_EXCEPTIONSTATUS_OFFSET UNITYSDK_OFFSET(0x1DB711D0)
+#define MONO_NET_SECURITY_MONOTLSSTREAM_GET_REQUEST_OFFSET UNITYSDK_OFFSET(0x1DB711B0)
+#define MONO_NET_SECURITY_MONOTLSSTREAM_GET_SSLSTREAM_OFFSET UNITYSDK_OFFSET(0x1DB711C0)
+#define MONO_NET_SECURITY_MONOTLSSTREAM_SET_CERTIFICATEVALIDATIONFAILED_OFFSET UNITYSDK_OFFSET(0x1DB711F0)
+#define MONO_NET_SECURITY_MONOTLSSTREAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB71200)
 
 namespace Mono::Net::Security
 {
@@ -25,13 +25,13 @@ namespace Mono::Net::Security
 	class MonoTlsStream : public ::System::Object
 	{
 	public:
-		::Mono::Security::Interface::MonoTlsSettings* settings; // 0x10
-		::Mono::Security::Interface::IMonoSslStream* sslStream; // 0x18
-		::System::Net::Sockets::NetworkStream* networkStream; // 0x20
-		::Mono::Security::Interface::MonoTlsProvider* provider; // 0x28
-		::System::Net::HttpWebRequest* request; // 0x30
-		::System::Boolean _CertificateValidationFailed_k__BackingField; // 0x38
-		::System::Net::WebExceptionStatus status; // 0x3C
+		::Mono::Security::Interface::MonoTlsProvider* provider; // 0x10
+		::System::Net::Sockets::NetworkStream* networkStream; // 0x18
+		::System::Net::HttpWebRequest* request; // 0x20
+		::Mono::Security::Interface::IMonoSslStream* sslStream; // 0x28
+		::Mono::Security::Interface::MonoTlsSettings* settings; // 0x30
+		::System::Net::WebExceptionStatus status; // 0x38
+		::System::Boolean _CertificateValidationFailed_k__BackingField; // 0x3C
 
 		::System::Void _ctor(::System::Net::HttpWebRequest* request, ::System::Net::Sockets::NetworkStream* networkStream)
 		{

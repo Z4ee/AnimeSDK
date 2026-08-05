@@ -5,11 +5,11 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CONFIG_CONFIGZIPLINE_CONFIGTURNBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x18F3D650)
+#define MOLEMOLE_CONFIG_CONFIGZIPLINE_CONFIGTURNBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x16268290)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigZipLine_ConfigTurnBack_TypeDefinitionIndex = 51224;
+	inline static constexpr unsigned int ConfigZipLine_ConfigTurnBack_TypeDefinitionIndex = 52992;
 
 	class ConfigZipLine_ConfigTurnBack : public ::System::Object
 	{

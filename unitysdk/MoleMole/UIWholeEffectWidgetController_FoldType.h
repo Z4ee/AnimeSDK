@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIWholeEffectWidgetController_FoldType_TypeDefinitionIndex = 65090;
+	inline static constexpr unsigned int UIWholeEffectWidgetController_FoldType_TypeDefinitionIndex = 89260;
 
 	enum class UIWholeEffectWidgetController_FoldType : ::System::Int32
 	{

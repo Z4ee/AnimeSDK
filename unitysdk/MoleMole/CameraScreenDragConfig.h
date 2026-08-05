@@ -6,12 +6,12 @@
 
 namespace MoleMole::Cameras { class CameraTrackSetting; }
 
-#define MOLEMOLE_CAMERASCREENDRAGCONFIG_GETTRACK_OFFSET UNITYSDK_OFFSET(0x10CD1F40)
-#define MOLEMOLE_CAMERASCREENDRAGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x10CD2460)
+#define MOLEMOLE_CAMERASCREENDRAGCONFIG_GETTRACK_OFFSET UNITYSDK_OFFSET(0x116CC150)
+#define MOLEMOLE_CAMERASCREENDRAGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x116CC680)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CameraScreenDragConfig_TypeDefinitionIndex = 44346;
+	inline static constexpr unsigned int CameraScreenDragConfig_TypeDefinitionIndex = 84063;
 
 	class CameraScreenDragConfig : public ::System::Object
 	{

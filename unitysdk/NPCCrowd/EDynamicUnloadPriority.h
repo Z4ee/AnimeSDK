@@ -3,7 +3,7 @@
 
 namespace NPCCrowd
 {
-	inline static constexpr unsigned int EDynamicUnloadPriority_TypeDefinitionIndex = 43426;
+	inline static constexpr unsigned int EDynamicUnloadPriority_TypeDefinitionIndex = 89447;
 
 	enum class EDynamicUnloadPriority : ::System::Int32
 	{

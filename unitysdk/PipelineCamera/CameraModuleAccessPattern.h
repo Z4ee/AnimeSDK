@@ -3,7 +3,7 @@
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int CameraModuleAccessPattern_TypeDefinitionIndex = 37551;
+	inline static constexpr unsigned int CameraModuleAccessPattern_TypeDefinitionIndex = 38212;
 
 	enum class CameraModuleAccessPattern : ::System::Int32
 	{

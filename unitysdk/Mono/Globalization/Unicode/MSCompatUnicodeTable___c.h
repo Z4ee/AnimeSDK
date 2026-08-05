@@ -5,9 +5,9 @@
 namespace Mono::Globalization::Unicode { class Level2Map; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE___C__BUILDTAILORINGTABLES_B__17_0_OFFSET UNITYSDK_OFFSET(0x1D0A2E70)
-#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D0A2E20)
-#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0A2E60)
+#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE___C__BUILDTAILORINGTABLES_B__17_0_OFFSET UNITYSDK_OFFSET(0x1E435140)
+#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E4350F0)
+#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1E435130)
 
 namespace Mono::Globalization::Unicode
 {
@@ -16,13 +16,13 @@ namespace Mono::Globalization::Unicode
 	class MSCompatUnicodeTable___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::Mono::Globalization::Unicode::Level2Map*>** StaticGet___9__17_0()
-		{
-			return (::System::Comparison_1<::Mono::Globalization::Unicode::Level2Map*>**)Il2CppClass::FromTypeDefinitionIndex(MSCompatUnicodeTable___c_TypeDefinitionIndex)->GetStaticField(0xF80);
-		}
 		static ::Mono::Globalization::Unicode::MSCompatUnicodeTable___c** StaticGet___9()
 		{
-			return (::Mono::Globalization::Unicode::MSCompatUnicodeTable___c**)Il2CppClass::FromTypeDefinitionIndex(MSCompatUnicodeTable___c_TypeDefinitionIndex)->GetStaticField(0xF88);
+			return (::Mono::Globalization::Unicode::MSCompatUnicodeTable___c**)Il2CppClass::FromTypeDefinitionIndex(MSCompatUnicodeTable___c_TypeDefinitionIndex)->GetStaticField(0xF80);
+		}
+		static ::System::Comparison_1<::Mono::Globalization::Unicode::Level2Map*>** StaticGet___9__17_0()
+		{
+			return (::System::Comparison_1<::Mono::Globalization::Unicode::Level2Map*>**)Il2CppClass::FromTypeDefinitionIndex(MSCompatUnicodeTable___c_TypeDefinitionIndex)->GetStaticField(0xF88);
 		}
 
 		static ::System::Void _cctor()

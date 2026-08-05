@@ -9,24 +9,24 @@ namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define NODECANVAS_TASKS_CONDITIONS_CANSEETARGET_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1D8465B0)
-#define NODECANVAS_TASKS_CONDITIONS_CANSEETARGET_ONCHECK_OFFSET UNITYSDK_OFFSET(0x1D8465F0)
-#define NODECANVAS_TASKS_CONDITIONS_CANSEETARGET_ONDRAWGIZMOSSELECTED_OFFSET UNITYSDK_OFFSET(0x1D846DB0)
-#define NODECANVAS_TASKS_CONDITIONS_CANSEETARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x1D847710)
+#define NODECANVAS_TASKS_CONDITIONS_CANSEETARGET_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1EB88CA0)
+#define NODECANVAS_TASKS_CONDITIONS_CANSEETARGET_ONCHECK_OFFSET UNITYSDK_OFFSET(0x1EB88CE0)
+#define NODECANVAS_TASKS_CONDITIONS_CANSEETARGET_ONDRAWGIZMOSSELECTED_OFFSET UNITYSDK_OFFSET(0x1EB89470)
+#define NODECANVAS_TASKS_CONDITIONS_CANSEETARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB89DD0)
 
 namespace NodeCanvas::Tasks::Conditions
 {
-	inline static constexpr unsigned int CanSeeTarget_TypeDefinitionIndex = 30085;
+	inline static constexpr unsigned int CanSeeTarget_TypeDefinitionIndex = 31209;
 
 	class CanSeeTarget : public ::NodeCanvas::Framework::ConditionTask_1<::UnityEngine::Transform*>
 	{
 	public:
-		::NodeCanvas::Framework::BBParameter_1<::System::Single>* viewAngle; // 0x60
-		::NodeCanvas::Framework::BBParameter_1<::UnityEngine::GameObject*>* target; // 0x68
-		::NodeCanvas::Framework::BBParameter_1<::System::Single>* awarnessDistance; // 0x70
-		::NodeCanvas::Framework::BBParameter_1<::System::Single>* maxDistance; // 0x78
-		::UnityEngine::RaycastHit hit; // 0x80
-		::UnityEngine::Vector3 offset; // 0xB4
+		::NodeCanvas::Framework::BBParameter_1<::System::Single>* maxDistance; // 0x60
+		::NodeCanvas::Framework::BBParameter_1<::System::Single>* awarnessDistance; // 0x68
+		::NodeCanvas::Framework::BBParameter_1<::System::Single>* viewAngle; // 0x70
+		::NodeCanvas::Framework::BBParameter_1<::UnityEngine::GameObject*>* target; // 0x78
+		::UnityEngine::Vector3 offset; // 0x80
+		::UnityEngine::RaycastHit hit; // 0x8C
 
 		::System::Void _ctor()
 		{

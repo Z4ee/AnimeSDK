@@ -14,46 +14,46 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::UI { class VertexHelper; }
 
-#define UNITYENGINE_UI_EXTENSION_MARKFEATURE_DRAWALL_OFFSET UNITYSDK_OFFSET(0x1C6B4D70)
-#define UNITYENGINE_UI_EXTENSION_MARKFEATURE_DRAWSEGMENT_OFFSET UNITYSDK_OFFSET(0x1C6B5F50)
-#define UNITYENGINE_UI_EXTENSION_MARKFEATURE_DRAWTEXTHIGHLIGHT_OFFSET UNITYSDK_OFFSET(0x1C6B64C0)
-#define UNITYENGINE_UI_EXTENSION_MARKFEATURE_ENSURETEXCOORD3CHANNEL_OFFSET UNITYSDK_OFFSET(0x1C6B53A0)
-#define UNITYENGINE_UI_EXTENSION_MARKFEATURE_FILTERRANGES_OFFSET UNITYSDK_OFFSET(0x1C6B4BA0)
-#define UNITYENGINE_UI_EXTENSION_MARKFEATURE_GETFILLUV_OFFSET UNITYSDK_OFFSET(0x1C6B5040)
-#define UNITYENGINE_UI_EXTENSION_MARKFEATURE_GETREQUIREDRICHTAGS_OFFSET UNITYSDK_OFFSET(0x1C6B4AC0)
-#define UNITYENGINE_UI_EXTENSION_MARKFEATURE_INITQUADTEMPLATE_OFFSET UNITYSDK_OFFSET(0x1C6B5540)
-#define UNITYENGINE_UI_EXTENSION_MARKFEATURE_SPLITINTOLINESEGMENTS_OFFSET UNITYSDK_OFFSET(0x1C6B5DD0)
-#define UNITYENGINE_UI_EXTENSION_MARKFEATURE_UNITYENGINE_UI_EXTENSION_IUITEXTMESHPREPENDER_ONPREPENDMESH_OFFSET UNITYSDK_OFFSET(0x1C6B4D10)
-#define UNITYENGINE_UI_EXTENSION_MARKFEATURE_UNITYENGINE_UI_EXTENSION_IUITEXTTYPESETCONSUMER_ONPOSTTYPESET_OFFSET UNITYSDK_OFFSET(0x1C6B4B50)
-#define UNITYENGINE_UI_EXTENSION_MARKFEATURE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C6B6930)
-#define UNITYENGINE_UI_EXTENSION_MARKFEATURE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6B68A0)
-#define UNITYENGINE_UI_EXTENSION_MARKFEATURE___BASE_GETREQUIREDRICHTAGS_OFFSET UNITYSDK_OFFSET(0x1C6B6990)
+#define UNITYENGINE_UI_EXTENSION_MARKFEATURE_DRAWALL_OFFSET UNITYSDK_OFFSET(0x1C1499A0)
+#define UNITYENGINE_UI_EXTENSION_MARKFEATURE_DRAWSEGMENT_OFFSET UNITYSDK_OFFSET(0x1C14AB90)
+#define UNITYENGINE_UI_EXTENSION_MARKFEATURE_DRAWTEXTHIGHLIGHT_OFFSET UNITYSDK_OFFSET(0x1C14B0F0)
+#define UNITYENGINE_UI_EXTENSION_MARKFEATURE_ENSURETEXCOORD3CHANNEL_OFFSET UNITYSDK_OFFSET(0x1C149FD0)
+#define UNITYENGINE_UI_EXTENSION_MARKFEATURE_FILTERRANGES_OFFSET UNITYSDK_OFFSET(0x1C1497D0)
+#define UNITYENGINE_UI_EXTENSION_MARKFEATURE_GETFILLUV_OFFSET UNITYSDK_OFFSET(0x1C149C70)
+#define UNITYENGINE_UI_EXTENSION_MARKFEATURE_GETREQUIREDRICHTAGS_OFFSET UNITYSDK_OFFSET(0x1C1496F0)
+#define UNITYENGINE_UI_EXTENSION_MARKFEATURE_INITQUADTEMPLATE_OFFSET UNITYSDK_OFFSET(0x1C14A170)
+#define UNITYENGINE_UI_EXTENSION_MARKFEATURE_SPLITINTOLINESEGMENTS_OFFSET UNITYSDK_OFFSET(0x1C14AA00)
+#define UNITYENGINE_UI_EXTENSION_MARKFEATURE_UNITYENGINE_UI_EXTENSION_IUITEXTFEATUREDATABUILDER_REBUILDFEATUREDATA_OFFSET UNITYSDK_OFFSET(0x1C149780)
+#define UNITYENGINE_UI_EXTENSION_MARKFEATURE_UNITYENGINE_UI_EXTENSION_IUITEXTMESHPREPENDER_ONPREPENDMESH_OFFSET UNITYSDK_OFFSET(0x1C149940)
+#define UNITYENGINE_UI_EXTENSION_MARKFEATURE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C14B560)
+#define UNITYENGINE_UI_EXTENSION_MARKFEATURE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C14B4D0)
+#define UNITYENGINE_UI_EXTENSION_MARKFEATURE___BASE_GETREQUIREDRICHTAGS_OFFSET UNITYSDK_OFFSET(0x1C14B5C0)
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int MarkFeature_TypeDefinitionIndex = 54816;
+	inline static constexpr unsigned int MarkFeature_TypeDefinitionIndex = 90136;
 
 	class MarkFeature : public ::UnityEngine::UI::Extension::UITextFeatureBase
 	{
 	public:
 		static ::Il2CppArray<::UnityEngine::UIVertex>** StaticGet__quad()
 		{
-			return (::Il2CppArray<::UnityEngine::UIVertex>**)Il2CppClass::FromTypeDefinitionIndex(MarkFeature_TypeDefinitionIndex)->GetStaticField(0x3AF00);
+			return (::Il2CppArray<::UnityEngine::UIVertex>**)Il2CppClass::FromTypeDefinitionIndex(MarkFeature_TypeDefinitionIndex)->GetStaticField(0x3DCE0);
 		}
 		static ::UnityEngine::UI::Extension::MarkFeature_MarkBoundsMode* StaticGet_markBoundsMode()
 		{
-			return (::UnityEngine::UI::Extension::MarkFeature_MarkBoundsMode*)Il2CppClass::FromTypeDefinitionIndex(MarkFeature_TypeDefinitionIndex)->GetStaticField(0xE760);
-		}
-		static ::System::Boolean* StaticGet__quadTemplateInited()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MarkFeature_TypeDefinitionIndex)->GetStaticField(0xE764);
+			return (::UnityEngine::UI::Extension::MarkFeature_MarkBoundsMode*)Il2CppClass::FromTypeDefinitionIndex(MarkFeature_TypeDefinitionIndex)->GetStaticField(0xE7B0);
 		}
 		static ::UnityEngine::Vector4* StaticGet_kDecorationStyleParams()
 		{
-			return (::UnityEngine::Vector4*)Il2CppClass::FromTypeDefinitionIndex(MarkFeature_TypeDefinitionIndex)->GetStaticField(0xE768);
+			return (::UnityEngine::Vector4*)Il2CppClass::FromTypeDefinitionIndex(MarkFeature_TypeDefinitionIndex)->GetStaticField(0xE7B4);
 		}
-		::System::Collections::Generic::List_1<::UnityEngine::UI::Extension::MarkFeature_MarkSegment>* _segments; // 0x20
-		::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::Int32, ::System::Int32>>* _markRanges; // 0x28
+		static ::System::Boolean* StaticGet__quadTemplateInited()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MarkFeature_TypeDefinitionIndex)->GetStaticField(0xE7C4);
+		}
+		::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::Int32, ::System::Int32>>* _markRanges; // 0x20
+		::System::Collections::Generic::List_1<::UnityEngine::UI::Extension::MarkFeature_MarkSegment>* _segments; // 0x28
 		::System::Boolean _texCoord3Ensured; // 0x30
 
 		::System::Void _ctor()
@@ -71,9 +71,9 @@ namespace UnityEngine::UI::Extension
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_EXTENSION_MARKFEATURE_GETREQUIREDRICHTAGS_OFFSET))(this);
 		}
 
-		::System::Void UnityEngine_UI_Extension_IUITextTypesetConsumer_OnPostTypeset()
+		::System::Void UnityEngine_UI_Extension_IUITextFeatureDataBuilder_RebuildFeatureData()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_EXTENSION_MARKFEATURE_UNITYENGINE_UI_EXTENSION_IUITEXTTYPESETCONSUMER_ONPOSTTYPESET_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_EXTENSION_MARKFEATURE_UNITYENGINE_UI_EXTENSION_IUITEXTFEATUREDATABUILDER_REBUILDFEATUREDATA_OFFSET))(this);
 		}
 
 		::System::Void UnityEngine_UI_Extension_IUITextMeshPrepender_OnPrependMesh(::UnityEngine::UI::VertexHelper* toFill)

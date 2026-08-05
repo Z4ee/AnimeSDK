@@ -8,24 +8,24 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class Component; }
 
-#define CLASS_3_DC4C9967889A0B11_GETCLASSID_OFFSET UNITYSDK_OFFSET(0x15089300)
-#define CLASS_3_DC4C9967889A0B11_METHOD_3_498650B77B913777_OFFSET UNITYSDK_OFFSET(0x15089590)
-#define CLASS_3_DC4C9967889A0B11_METHOD_3_A1D8CD775DEC3C21_OFFSET UNITYSDK_OFFSET(0x15089710)
-#define CLASS_3_DC4C9967889A0B11_METHOD_3_BEAB6CF0CF797770_OFFSET UNITYSDK_OFFSET(0x15089470)
-#define CLASS_3_DC4C9967889A0B11_ONCLEAN_OFFSET UNITYSDK_OFFSET(0x15089200)
-#define CLASS_3_DC4C9967889A0B11__CCTOR_OFFSET UNITYSDK_OFFSET(0x15089350)
-#define CLASS_3_DC4C9967889A0B11__CTOR_OFFSET UNITYSDK_OFFSET(0x150893D0)
+#define CLASS_3_DC4C9967889A0B11_GETCLASSID_OFFSET UNITYSDK_OFFSET(0x1199D0A0)
+#define CLASS_3_DC4C9967889A0B11_METHOD_3_498650B77B913777_OFFSET UNITYSDK_OFFSET(0x1199D210)
+#define CLASS_3_DC4C9967889A0B11_METHOD_3_A1D8CD775DEC3C21_OFFSET UNITYSDK_OFFSET(0x1199D4B0)
+#define CLASS_3_DC4C9967889A0B11_METHOD_3_BEAB6CF0CF797770_OFFSET UNITYSDK_OFFSET(0x1199D390)
+#define CLASS_3_DC4C9967889A0B11_ONCLEAN_OFFSET UNITYSDK_OFFSET(0x1199CFA0)
+#define CLASS_3_DC4C9967889A0B11__CCTOR_OFFSET UNITYSDK_OFFSET(0x1199D0F0)
+#define CLASS_3_DC4C9967889A0B11__CTOR_OFFSET UNITYSDK_OFFSET(0x1199D170)
 
-inline static constexpr unsigned int Class_3_DC4C9967889A0B11_TypeDefinitionIndex = 86221;
+inline static constexpr unsigned int Class_3_DC4C9967889A0B11_TypeDefinitionIndex = 71444;
 
 class Class_3_DC4C9967889A0B11 : public ::Class_2_F3CFF1AFF7EE7DCD
 {
 public:
-	// static const ::System::Int32 Field_3_4 = 0xAD; // 0x0
-	::System::String* Field_3_3; // 0x48
+	// static const ::System::Int32 Field_3_4 = 0xAE; // 0x0
+	::System::String* Field_3_5; // 0x48
 	::System::Collections::Generic::Dictionary_2<::UnityEngine::Component*, ::MoleMole::SceneMark::StageTweenAnimData*>* Field_3_0; // 0x50
-	::MoleMole::MonoTweenAnimation* Field_3_1; // 0x58
-	::System::Single Field_3_2; // 0x60
+	::MoleMole::MonoTweenAnimation* Field_3_7; // 0x58
+	::System::Single Field_3_6; // 0x60
 
 	static ::System::Void _cctor()
 	{
@@ -47,14 +47,14 @@ public:
 		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_DC4C9967889A0B11_GETCLASSID_OFFSET))(this);
 	}
 
-	static ::Class_3_DC4C9967889A0B11* Method_3_BEAB6CF0CF797770()
-	{
-		return ((::Class_3_DC4C9967889A0B11*(*)())((::PBYTE)hIl2Cpp + CLASS_3_DC4C9967889A0B11_METHOD_3_BEAB6CF0CF797770_OFFSET))();
-	}
-
 	::System::Void Method_3_498650B77B913777(::MoleMole::MonoTweenAnimation* a1)
 	{
 		return ((::System::Void(*)(::PVOID, ::MoleMole::MonoTweenAnimation*))((::PBYTE)hIl2Cpp + CLASS_3_DC4C9967889A0B11_METHOD_3_498650B77B913777_OFFSET))(this, a1);
+	}
+
+	static ::Class_3_DC4C9967889A0B11* Method_3_BEAB6CF0CF797770()
+	{
+		return ((::Class_3_DC4C9967889A0B11*(*)())((::PBYTE)hIl2Cpp + CLASS_3_DC4C9967889A0B11_METHOD_3_BEAB6CF0CF797770_OFFSET))();
 	}
 
 	::System::Int32 Method_3_A1D8CD775DEC3C21()

@@ -5,24 +5,24 @@
 
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define FOUNDATION_GAMEOBJECTX___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D882B10)
-#define FOUNDATION_GAMEOBJECTX___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1D882B50)
-#define FOUNDATION_GAMEOBJECTX___C__GETCHILDBYABSPATH_B__8_0_OFFSET UNITYSDK_OFFSET(0x1D882B60)
+#define FOUNDATION_GAMEOBJECTX___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1ED8CF10)
+#define FOUNDATION_GAMEOBJECTX___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED8CF50)
+#define FOUNDATION_GAMEOBJECTX___C__GETCHILDBYABSPATH_B__8_0_OFFSET UNITYSDK_OFFSET(0x1ED8CF60)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int GameObjectX___c_TypeDefinitionIndex = 7844;
+	inline static constexpr unsigned int GameObjectX___c_TypeDefinitionIndex = 8184;
 
 	class GameObjectX___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::UnityEngine::SceneManagement::Scene, ::System::Boolean>** StaticGet___9__8_0()
 		{
-			return (::System::Func_2<::UnityEngine::SceneManagement::Scene, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(GameObjectX___c_TypeDefinitionIndex)->GetStaticField(0x6BC0);
+			return (::System::Func_2<::UnityEngine::SceneManagement::Scene, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(GameObjectX___c_TypeDefinitionIndex)->GetStaticField(0x6B20);
 		}
 		static ::Foundation::GameObjectX___c** StaticGet___9()
 		{
-			return (::Foundation::GameObjectX___c**)Il2CppClass::FromTypeDefinitionIndex(GameObjectX___c_TypeDefinitionIndex)->GetStaticField(0x6BC8);
+			return (::Foundation::GameObjectX___c**)Il2CppClass::FromTypeDefinitionIndex(GameObjectX___c_TypeDefinitionIndex)->GetStaticField(0x6B28);
 		}
 
 		static ::System::Void _cctor()

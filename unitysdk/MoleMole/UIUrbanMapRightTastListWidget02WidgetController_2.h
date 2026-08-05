@@ -9,7 +9,7 @@ namespace System { class Action; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIUrbanMapRightTastListWidget02WidgetController_2_TypeDefinitionIndex = 61537;
+	inline static constexpr unsigned int UIUrbanMapRightTastListWidget02WidgetController_2_TypeDefinitionIndex = 90295;
 
 	template <typename T, typename TContext>
 	class UIUrbanMapRightTastListWidget02WidgetController_2 : public ::MoleMole::UIUrbanMapRightTastListWidget02WidgetController

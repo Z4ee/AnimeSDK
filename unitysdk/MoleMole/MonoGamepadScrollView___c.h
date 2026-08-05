@@ -5,24 +5,24 @@
 namespace System { template <typename T> class Comparison_1; }
 namespace UnityEngine { class RectTransform; }
 
-#define MOLEMOLE_MONOGAMEPADSCROLLVIEW___C_METHOD_1_01082DC8B658A680_OFFSET UNITYSDK_OFFSET(0x11639E30)
-#define MOLEMOLE_MONOGAMEPADSCROLLVIEW___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x11639DE0)
-#define MOLEMOLE_MONOGAMEPADSCROLLVIEW___C__CTOR_OFFSET UNITYSDK_OFFSET(0x11639E20)
+#define MOLEMOLE_MONOGAMEPADSCROLLVIEW___C_METHOD_1_01082DC8B658A680_OFFSET UNITYSDK_OFFSET(0x11D4CB80)
+#define MOLEMOLE_MONOGAMEPADSCROLLVIEW___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x11D4CB30)
+#define MOLEMOLE_MONOGAMEPADSCROLLVIEW___C__CTOR_OFFSET UNITYSDK_OFFSET(0x11D4CB70)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoGamepadScrollView___c_TypeDefinitionIndex = 47271;
+	inline static constexpr unsigned int MonoGamepadScrollView___c_TypeDefinitionIndex = 82511;
 
 	class MonoGamepadScrollView___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::MonoGamepadScrollView___c** StaticGet___9()
-		{
-			return (::MoleMole::MonoGamepadScrollView___c**)Il2CppClass::FromTypeDefinitionIndex(MonoGamepadScrollView___c_TypeDefinitionIndex)->GetStaticField(0x469A0);
-		}
 		static ::System::Comparison_1<::UnityEngine::RectTransform*>** StaticGet___9__21_2()
 		{
-			return (::System::Comparison_1<::UnityEngine::RectTransform*>**)Il2CppClass::FromTypeDefinitionIndex(MonoGamepadScrollView___c_TypeDefinitionIndex)->GetStaticField(0x469A8);
+			return (::System::Comparison_1<::UnityEngine::RectTransform*>**)Il2CppClass::FromTypeDefinitionIndex(MonoGamepadScrollView___c_TypeDefinitionIndex)->GetStaticField(0x4A980);
+		}
+		static ::MoleMole::MonoGamepadScrollView___c** StaticGet___9()
+		{
+			return (::MoleMole::MonoGamepadScrollView___c**)Il2CppClass::FromTypeDefinitionIndex(MonoGamepadScrollView___c_TypeDefinitionIndex)->GetStaticField(0x4A988);
 		}
 
 		static ::System::Void _cctor()

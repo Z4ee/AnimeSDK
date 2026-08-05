@@ -3,9 +3,9 @@
 #include "unitysdk/MonoHollowResultPageConfig_BlinkConfig.h"
 #include "unitysdk/System/Object.h"
 
-#define MONOHOLLOWRESULTPAGECONFIG_BLINKCONFIGINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1950FDB0)
+#define MONOHOLLOWRESULTPAGECONFIG_BLINKCONFIGINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x114A3CB0)
 
-inline static constexpr unsigned int MonoHollowResultPageConfig_BlinkConfigInfo_TypeDefinitionIndex = 74965;
+inline static constexpr unsigned int MonoHollowResultPageConfig_BlinkConfigInfo_TypeDefinitionIndex = 41017;
 
 class MonoHollowResultPageConfig_BlinkConfigInfo : public ::System::Object
 {

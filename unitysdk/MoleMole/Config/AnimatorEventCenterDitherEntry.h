@@ -6,21 +6,21 @@
 namespace MoleMole::Config { class AnimatorEvent; }
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_ANIMATOREVENTCENTERDITHERENTRY_CREATEANIMATIONEVENT_OFFSET UNITYSDK_OFFSET(0x12C5B8A0)
-#define MOLEMOLE_CONFIG_ANIMATOREVENTCENTERDITHERENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x12C5B920)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTCENTERDITHERENTRY_CREATEANIMATIONEVENT_OFFSET UNITYSDK_OFFSET(0x1145B430)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTCENTERDITHERENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1145B4B0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AnimatorEventCenterDitherEntry_TypeDefinitionIndex = 60134;
+	inline static constexpr unsigned int AnimatorEventCenterDitherEntry_TypeDefinitionIndex = 45278;
 
 	class AnimatorEventCenterDitherEntry : public ::MoleMole::Config::AnimatorEventEntry
 	{
 	public:
 		::System::String* AttachPoint; // 0x58
-		::System::Single CenterMinAlpha; // 0x60
-		::System::Boolean UseOnAttachment; // 0x64
-		::System::Boolean IsOpen; // 0x65
-		::UnityEngine::Vector2 CenterDitherZW; // 0x68
+		::UnityEngine::Vector2 CenterDitherZW; // 0x60
+		::System::Single CenterMinAlpha; // 0x68
+		::System::Boolean IsOpen; // 0x6C
+		::System::Boolean UseOnAttachment; // 0x6D
 
 		::System::Void _ctor()
 		{

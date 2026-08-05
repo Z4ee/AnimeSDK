@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CONFIG_CONFIGVIEWOBJECTMISC_PROJECTILEDROP_METHOD_2_D64F9C963EFC7439_OFFSET UNITYSDK_OFFSET(0x86CF40)
+#define MOLEMOLE_CONFIG_CONFIGVIEWOBJECTMISC_PROJECTILEDROP_METHOD_2_D64F9C963EFC7439_OFFSET UNITYSDK_OFFSET(0x8028D0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigViewObjectMisc_ProjectileDrop_TypeDefinitionIndex = 77237;
+	inline static constexpr unsigned int ConfigViewObjectMisc_ProjectileDrop_TypeDefinitionIndex = 78064;
 
 	struct alignas(8) ConfigViewObjectMisc_ProjectileDrop
 	{

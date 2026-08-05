@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIButtonPosHandler_Enum_3_13281E122A813A4F_TypeDefinitionIndex = 71421;
+	inline static constexpr unsigned int UIButtonPosHandler_Enum_3_13281E122A813A4F_TypeDefinitionIndex = 57593;
 
 	enum class UIButtonPosHandler_Enum_3_13281E122A813A4F : ::System::Int32
 	{

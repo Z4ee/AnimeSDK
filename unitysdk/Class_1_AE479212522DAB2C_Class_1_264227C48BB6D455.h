@@ -6,16 +6,16 @@ namespace MoleMole::Battle { class Entity; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class IEqualityComparer_1; }
 
-#define CLASS_1_AE479212522DAB2C_CLASS_1_264227C48BB6D455_METHOD_1_800ECFD9ACACE733_OFFSET UNITYSDK_OFFSET(0x132FC5F0)
-#define CLASS_1_AE479212522DAB2C_CLASS_1_264227C48BB6D455__CTOR_OFFSET UNITYSDK_OFFSET(0x132FC5E0)
+#define CLASS_1_AE479212522DAB2C_CLASS_1_264227C48BB6D455_METHOD_1_800ECFD9ACACE733_OFFSET UNITYSDK_OFFSET(0x14D49620)
+#define CLASS_1_AE479212522DAB2C_CLASS_1_264227C48BB6D455__CTOR_OFFSET UNITYSDK_OFFSET(0x14D49610)
 
-inline static constexpr unsigned int Class_1_AE479212522DAB2C_Class_1_264227C48BB6D455_TypeDefinitionIndex = 47484;
+inline static constexpr unsigned int Class_1_AE479212522DAB2C_Class_1_264227C48BB6D455_TypeDefinitionIndex = 40873;
 
 class Class_1_AE479212522DAB2C_Class_1_264227C48BB6D455 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::IEnumerable_1<::MoleMole::Battle::Entity*>* Field_1_0; // 0x10
-	::System::Collections::Generic::IEqualityComparer_1<::MoleMole::Battle::Entity*>* Field_1_1; // 0x18
+	::System::Collections::Generic::IEqualityComparer_1<::MoleMole::Battle::Entity*>* Field_1_0; // 0x10
+	::System::Collections::Generic::IEnumerable_1<::MoleMole::Battle::Entity*>* Field_1_1; // 0x18
 
 	::System::Void _ctor()
 	{

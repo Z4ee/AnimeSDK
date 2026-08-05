@@ -4,13 +4,15 @@
 #include "unitysdk/System/Object.h"
 
 namespace MoleMole { class ConfigNewbie_TargetPath; }
+namespace SimpleJSON { class JSONClass; }
 
-#define MOLEMOLE_CONFIGNEWBIE_CIRCLEEFFECT_LOADFROMBYTES_OFFSET UNITYSDK_OFFSET(0x1A079FE0)
-#define MOLEMOLE_CONFIGNEWBIE_CIRCLEEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A07A170)
+#define MOLEMOLE_CONFIGNEWBIE_CIRCLEEFFECT_LOADFROMBYTES_OFFSET UNITYSDK_OFFSET(0x19FFB020)
+#define MOLEMOLE_CONFIGNEWBIE_CIRCLEEFFECT_LOADFROMJSON_OFFSET UNITYSDK_OFFSET(0x19FFB1B0)
+#define MOLEMOLE_CONFIGNEWBIE_CIRCLEEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x19FFB320)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigNewbie_CircleEffect_TypeDefinitionIndex = 49749;
+	inline static constexpr unsigned int ConfigNewbie_CircleEffect_TypeDefinitionIndex = 78130;
 
 	class ConfigNewbie_CircleEffect : public ::System::Object
 	{
@@ -28,6 +30,11 @@ namespace MoleMole
 		::System::Void LoadFromBytes(::FlexBuffers::FlxMap flexMap)
 		{
 			return ((::System::Void(*)(::PVOID, ::FlexBuffers::FlxMap))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGNEWBIE_CIRCLEEFFECT_LOADFROMBYTES_OFFSET))(this, flexMap);
+		}
+
+		::System::Void LoadFromJson(::SimpleJSON::JSONClass* jsonNode)
+		{
+			return ((::System::Void(*)(::PVOID, ::SimpleJSON::JSONClass*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGNEWBIE_CIRCLEEFFECT_LOADFROMJSON_OFFSET))(this, jsonNode);
 		}
 	};
 }

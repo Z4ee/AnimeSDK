@@ -3,18 +3,18 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISuibianDevelopRightWidgetController_DevelopRightState_TypeDefinitionIndex = 77780;
+	inline static constexpr unsigned int UISuibianDevelopRightWidgetController_DevelopRightState_TypeDefinitionIndex = 76776;
 
 	enum class UISuibianDevelopRightWidgetController_DevelopRightState : ::System::Int32
 	{
 		None = -1,
-		ResearchEnough = 2,
-		GoDispatch = 0,
-		UpgradeEnough = 5,
-		AlreadyResearchLevelUp = 7,
 		AlreadyResearch = 6,
-		UpgradePreUnResearch = 3,
+		GoDispatch = 0,
+		ResearchEnough = 2,
 		UpgradeNotEnough = 4,
+		UpgradeEnough = 5,
 		ResearchNotEnough = 1,
+		AlreadyResearchLevelUp = 7,
+		UpgradePreUnResearch = 3,
 	};
 }

@@ -5,11 +5,11 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_SEQUENCEMONTAGECOMMANDSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0xFFCB620)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_SEQUENCEMONTAGECOMMANDSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x12D29690)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int NPCCrowdMontageManager_SequenceMontageCommandState_TypeDefinitionIndex = 65139;
+	inline static constexpr unsigned int NPCCrowdMontageManager_SequenceMontageCommandState_TypeDefinitionIndex = 66971;
 
 	class NPCCrowdMontageManager_SequenceMontageCommandState : public ::System::Object
 	{

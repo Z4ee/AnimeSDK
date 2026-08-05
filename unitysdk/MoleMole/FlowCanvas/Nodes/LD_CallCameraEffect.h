@@ -10,26 +10,26 @@ namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_CALLCAMERAEFFECT_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x12BBA110)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_CALLCAMERAEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x12BBA300)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_CALLCAMERAEFFECT__REGISTERPORTS_B__10_0_OFFSET UNITYSDK_OFFSET(0x12BBA350)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_CALLCAMERAEFFECT__REGISTERPORTS_B__10_1_OFFSET UNITYSDK_OFFSET(0x12BBA6E0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_CALLCAMERAEFFECT_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1383B690)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_CALLCAMERAEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1383B880)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_CALLCAMERAEFFECT__REGISTERPORTS_B__10_0_OFFSET UNITYSDK_OFFSET(0x1383B8D0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_CALLCAMERAEFFECT__REGISTERPORTS_B__10_1_OFFSET UNITYSDK_OFFSET(0x1383BC50)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_CallCameraEffect_TypeDefinitionIndex = 61955;
+	inline static constexpr unsigned int LD_CallCameraEffect_TypeDefinitionIndex = 47398;
 
 	class LD_CallCameraEffect : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::ValueInput_1<::MoleMole::Config::ShaderCustomType>* shaderCustomType; // 0xA8
-		::FlowCanvas::ValueInput_1<::System::Boolean>* isInterruptType; // 0xB0
-		::FlowCanvas::ValueInput_1<::System::String*>* effectKey; // 0xB8
-		::FlowCanvas::ValueInput_1<::System::Boolean>* isOneFrameEnd; // 0xC0
-		::FlowCanvas::FlowOutput* _output; // 0xC8
-		::FlowCanvas::ValueInput_1<::System::Boolean>* isEndByKey; // 0xD0
-		::FlowCanvas::ValueInput_1<::MoleMole::Config::ScreenEffectType>* effectType; // 0xD8
-		::FlowCanvas::FlowOutput* _onStopOutput; // 0xE0
+		::FlowCanvas::FlowOutput* _onStopOutput; // 0xA8
+		::FlowCanvas::ValueInput_1<::System::Boolean>* isOneFrameEnd; // 0xB0
+		::FlowCanvas::FlowOutput* _output; // 0xB8
+		::FlowCanvas::ValueInput_1<::MoleMole::Config::ScreenEffectType>* effectType; // 0xC0
+		::FlowCanvas::ValueInput_1<::System::Boolean>* isEndByKey; // 0xC8
+		::FlowCanvas::ValueInput_1<::System::Boolean>* isInterruptType; // 0xD0
+		::FlowCanvas::ValueInput_1<::MoleMole::Config::ShaderCustomType>* shaderCustomType; // 0xD8
+		::FlowCanvas::ValueInput_1<::System::String*>* effectKey; // 0xE0
 		::MoleMole::FlowCanvas::Nodes::LD_CallCameraEffect_CallType callType; // 0xE8
 
 		::System::Void _ctor()

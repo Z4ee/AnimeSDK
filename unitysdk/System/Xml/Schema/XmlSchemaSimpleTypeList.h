@@ -6,9 +6,9 @@ namespace System::Xml { class XmlQualifiedName; }
 namespace System::Xml::Schema { class XmlSchemaObject; }
 namespace System::Xml::Schema { class XmlSchemaSimpleType; }
 
-#define SYSTEM_XML_SCHEMA_XMLSCHEMASIMPLETYPELIST_CLONE_OFFSET UNITYSDK_OFFSET(0x1BCFF8D0)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMASIMPLETYPELIST_SET_ITEMTYPENAME_OFFSET UNITYSDK_OFFSET(0x1BCFF830)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMASIMPLETYPELIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1BCFFA70)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMASIMPLETYPELIST_CLONE_OFFSET UNITYSDK_OFFSET(0x1D0A0BB0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMASIMPLETYPELIST_SET_ITEMTYPENAME_OFFSET UNITYSDK_OFFSET(0x1D0A0B10)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMASIMPLETYPELIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0A0D50)
 
 namespace System::Xml::Schema
 {
@@ -17,8 +17,8 @@ namespace System::Xml::Schema
 	class XmlSchemaSimpleTypeList : public ::System::Xml::Schema::XmlSchemaSimpleTypeContent
 	{
 	public:
-		::System::Xml::Schema::XmlSchemaSimpleType* baseItemType; // 0x50
-		::System::Xml::XmlQualifiedName* itemTypeName; // 0x58
+		::System::Xml::XmlQualifiedName* itemTypeName; // 0x50
+		::System::Xml::Schema::XmlSchemaSimpleType* baseItemType; // 0x58
 		::System::Xml::Schema::XmlSchemaSimpleType* itemType; // 0x60
 
 		::System::Void _ctor()

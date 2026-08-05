@@ -4,29 +4,29 @@
 
 namespace FlowCanvas { template <typename T> class ValueHandler_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_HASCHALLENGE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15126610)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_HASCHALLENGE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15126650)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_HASCHALLENGE___C__REGISTERPORTS_B__3_1_OFFSET UNITYSDK_OFFSET(0x15126660)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_HASCHALLENGE___C__REGISTERPORTS_B__3_2_OFFSET UNITYSDK_OFFSET(0x15126870)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_HASCHALLENGE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B1B19C0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_HASCHALLENGE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1B1A00)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_HASCHALLENGE___C__REGISTERPORTS_B__3_1_OFFSET UNITYSDK_OFFSET(0x1B1B1A10)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_HASCHALLENGE___C__REGISTERPORTS_B__3_2_OFFSET UNITYSDK_OFFSET(0x1B1B1C20)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_HasChallenge___c_TypeDefinitionIndex = 46602;
+	inline static constexpr unsigned int LD_HasChallenge___c_TypeDefinitionIndex = 60649;
 
 	class LD_HasChallenge___c : public ::System::Object
 	{
 	public:
 		static ::FlowCanvas::ValueHandler_1<::System::Int32>** StaticGet___9__3_1()
 		{
-			return (::FlowCanvas::ValueHandler_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(LD_HasChallenge___c_TypeDefinitionIndex)->GetStaticField(0x3EBD0);
+			return (::FlowCanvas::ValueHandler_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(LD_HasChallenge___c_TypeDefinitionIndex)->GetStaticField(0x3F860);
 		}
 		static ::MoleMole::FlowCanvas::Nodes::LD_HasChallenge___c** StaticGet___9()
 		{
-			return (::MoleMole::FlowCanvas::Nodes::LD_HasChallenge___c**)Il2CppClass::FromTypeDefinitionIndex(LD_HasChallenge___c_TypeDefinitionIndex)->GetStaticField(0x3EBD8);
+			return (::MoleMole::FlowCanvas::Nodes::LD_HasChallenge___c**)Il2CppClass::FromTypeDefinitionIndex(LD_HasChallenge___c_TypeDefinitionIndex)->GetStaticField(0x3F868);
 		}
 		static ::FlowCanvas::ValueHandler_1<::System::Single>** StaticGet___9__3_2()
 		{
-			return (::FlowCanvas::ValueHandler_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(LD_HasChallenge___c_TypeDefinitionIndex)->GetStaticField(0x3EBE0);
+			return (::FlowCanvas::ValueHandler_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(LD_HasChallenge___c_TypeDefinitionIndex)->GetStaticField(0x3F870);
 		}
 
 		static ::System::Void _cctor()

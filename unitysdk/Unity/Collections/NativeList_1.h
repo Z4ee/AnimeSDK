@@ -10,7 +10,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace Unity::Collections
 {
-	inline static constexpr unsigned int NativeList_1_TypeDefinitionIndex = 18461;
+	inline static constexpr unsigned int NativeList_1_TypeDefinitionIndex = 18867;
 
 	template <typename T>
 	struct NativeList_1

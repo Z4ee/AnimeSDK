@@ -3,16 +3,16 @@
 #include "unitysdk/MoleMole/EntityHandle.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_3_22FDC730CC26B7BA_CLASS_1_636626E93C411559_METHOD_1_BE0290805E67D23E_OFFSET UNITYSDK_OFFSET(0x13383330)
-#define CLASS_3_22FDC730CC26B7BA_CLASS_1_636626E93C411559__CTOR_OFFSET UNITYSDK_OFFSET(0x13383320)
+#define CLASS_3_22FDC730CC26B7BA_CLASS_1_636626E93C411559_METHOD_1_BE0290805E67D23E_OFFSET UNITYSDK_OFFSET(0x156360F0)
+#define CLASS_3_22FDC730CC26B7BA_CLASS_1_636626E93C411559__CTOR_OFFSET UNITYSDK_OFFSET(0x156315C0)
 
-inline static constexpr unsigned int Class_3_22FDC730CC26B7BA_Class_1_636626E93C411559_TypeDefinitionIndex = 41755;
+inline static constexpr unsigned int Class_3_22FDC730CC26B7BA_Class_1_636626E93C411559_TypeDefinitionIndex = 74558;
 
 class Class_3_22FDC730CC26B7BA_Class_1_636626E93C411559 : public ::System::Object
 {
 public:
-	::MoleMole::EntityHandle Field_1_0; // 0x10
-	::System::Int32 Field_1_1; // 0x20
+	::MoleMole::EntityHandle Field_1_1; // 0x10
+	::System::Int32 Field_1_0; // 0x20
 
 	::System::Void _ctor()
 	{

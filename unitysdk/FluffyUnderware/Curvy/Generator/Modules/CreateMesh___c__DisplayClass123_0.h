@@ -5,18 +5,18 @@
 
 namespace FluffyUnderware::Curvy::Generator::Modules { class CreateMesh; }
 
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_CREATEMESH___C__DISPLAYCLASS123_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1E530510)
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_CREATEMESH___C__DISPLAYCLASS123_0__UPDATECOLLIDERS_B__0_OFFSET UNITYSDK_OFFSET(0x1E530520)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_CREATEMESH___C__DISPLAYCLASS123_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1F931820)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_CREATEMESH___C__DISPLAYCLASS123_0__UPDATECOLLIDERS_B__0_OFFSET UNITYSDK_OFFSET(0x1F931830)
 
 namespace FluffyUnderware::Curvy::Generator::Modules
 {
-	inline static constexpr unsigned int CreateMesh___c__DisplayClass123_0_TypeDefinitionIndex = 38820;
+	inline static constexpr unsigned int CreateMesh___c__DisplayClass123_0_TypeDefinitionIndex = 39452;
 
 	class CreateMesh___c__DisplayClass123_0 : public ::System::Object
 	{
 	public:
-		::ToolBuddy::Pooling::Collections::SubArray_1<::System::Int32> meshIds; // 0x10
-		::FluffyUnderware::Curvy::Generator::Modules::CreateMesh* __4__this; // 0x20
+		::FluffyUnderware::Curvy::Generator::Modules::CreateMesh* __4__this; // 0x10
+		::ToolBuddy::Pooling::Collections::SubArray_1<::System::Int32> meshIds; // 0x18
 
 		::System::Void _ctor()
 		{

@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace LightingTools::LightProbesVolumes
 {
-	inline static constexpr unsigned int VoxelProbes_TypeDefinitionIndex = 90510;
+	inline static constexpr unsigned int VoxelProbes_TypeDefinitionIndex = 94442;
 
 	struct alignas(8) VoxelProbes
 	{

@@ -4,11 +4,11 @@
 
 namespace UnityEngine::UI { class RawImage; }
 
-#define MOLEMOLE_MARCELADVTEAMUPCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x12BC9260)
+#define MOLEMOLE_MARCELADVTEAMUPCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x13847D20)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MarcelAdvTeamUPContext_TypeDefinitionIndex = 59645;
+	inline static constexpr unsigned int MarcelAdvTeamUPContext_TypeDefinitionIndex = 79388;
 
 	class MarcelAdvTeamUPContext : public ::MoleMole::UIControllerContextBase
 	{

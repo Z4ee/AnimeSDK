@@ -4,7 +4,7 @@
 
 namespace System::Xml::Schema { class DoubleLinkAxis; }
 
-#define SYSTEM_XML_SCHEMA_FORWARDAXIS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2D1510)
+#define SYSTEM_XML_SCHEMA_FORWARDAXIS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E61BC90)
 
 namespace System::Xml::Schema
 {
@@ -15,9 +15,9 @@ namespace System::Xml::Schema
 	public:
 		::System::Xml::Schema::DoubleLinkAxis* rootNode; // 0x10
 		::System::Xml::Schema::DoubleLinkAxis* topNode; // 0x18
-		::System::Boolean isSelfAxis; // 0x20
-		::System::Boolean isAttribute; // 0x21
-		::System::Boolean isDss; // 0x22
+		::System::Boolean isDss; // 0x20
+		::System::Boolean isSelfAxis; // 0x21
+		::System::Boolean isAttribute; // 0x22
 
 		::System::Void _ctor(::System::Xml::Schema::DoubleLinkAxis* axis, ::System::Boolean isdesorself)
 		{

@@ -5,24 +5,24 @@
 namespace MoleMole::Config { class FloorStreamingLayerLoadGroupStateEntry; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define FOUNDATION_VIEWOBJECT_DONJON_FLOORSTREAMINGLAYERLOADCOMPONENT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1877F050)
-#define FOUNDATION_VIEWOBJECT_DONJON_FLOORSTREAMINGLAYERLOADCOMPONENT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1877F090)
-#define FOUNDATION_VIEWOBJECT_DONJON_FLOORSTREAMINGLAYERLOADCOMPONENT___C__ONENABLE_B__2_0_OFFSET UNITYSDK_OFFSET(0x1877F0A0)
+#define FOUNDATION_VIEWOBJECT_DONJON_FLOORSTREAMINGLAYERLOADCOMPONENT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17F29910)
+#define FOUNDATION_VIEWOBJECT_DONJON_FLOORSTREAMINGLAYERLOADCOMPONENT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17F29950)
+#define FOUNDATION_VIEWOBJECT_DONJON_FLOORSTREAMINGLAYERLOADCOMPONENT___C__ONENABLE_B__2_0_OFFSET UNITYSDK_OFFSET(0x17F29960)
 
 namespace Foundation::ViewObject::Donjon
 {
-	inline static constexpr unsigned int FloorStreamingLayerLoadComponent___c_TypeDefinitionIndex = 83373;
+	inline static constexpr unsigned int FloorStreamingLayerLoadComponent___c_TypeDefinitionIndex = 68019;
 
 	class FloorStreamingLayerLoadComponent___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::MoleMole::Config::FloorStreamingLayerLoadGroupStateEntry*, ::System::Int32>** StaticGet___9__2_0()
 		{
-			return (::System::Func_2<::MoleMole::Config::FloorStreamingLayerLoadGroupStateEntry*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(FloorStreamingLayerLoadComponent___c_TypeDefinitionIndex)->GetStaticField(0x36780);
+			return (::System::Func_2<::MoleMole::Config::FloorStreamingLayerLoadGroupStateEntry*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(FloorStreamingLayerLoadComponent___c_TypeDefinitionIndex)->GetStaticField(0x38E20);
 		}
 		static ::Foundation::ViewObject::Donjon::FloorStreamingLayerLoadComponent___c** StaticGet___9()
 		{
-			return (::Foundation::ViewObject::Donjon::FloorStreamingLayerLoadComponent___c**)Il2CppClass::FromTypeDefinitionIndex(FloorStreamingLayerLoadComponent___c_TypeDefinitionIndex)->GetStaticField(0x36788);
+			return (::Foundation::ViewObject::Donjon::FloorStreamingLayerLoadComponent___c**)Il2CppClass::FromTypeDefinitionIndex(FloorStreamingLayerLoadComponent___c_TypeDefinitionIndex)->GetStaticField(0x38E28);
 		}
 
 		static ::System::Void _cctor()

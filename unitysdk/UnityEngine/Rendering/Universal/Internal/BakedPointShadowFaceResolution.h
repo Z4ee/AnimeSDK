@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int BakedPointShadowFaceResolution_TypeDefinitionIndex = 26345;
+	inline static constexpr unsigned int BakedPointShadowFaceResolution_TypeDefinitionIndex = 26984;
 
 	enum class BakedPointShadowFaceResolution : ::System::Int32
 	{

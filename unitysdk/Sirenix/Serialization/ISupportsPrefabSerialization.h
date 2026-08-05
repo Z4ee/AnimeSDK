@@ -4,7 +4,7 @@
 
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int ISupportsPrefabSerialization_TypeDefinitionIndex = 7606;
+	inline static constexpr unsigned int ISupportsPrefabSerialization_TypeDefinitionIndex = 7610;
 
 	class ISupportsPrefabSerialization
 	{

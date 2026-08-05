@@ -3,7 +3,7 @@
 
 namespace Share
 {
-	inline static constexpr unsigned int EAvatarShowWeaponType_TypeDefinitionIndex = 14064;
+	inline static constexpr unsigned int EAvatarShowWeaponType_TypeDefinitionIndex = 13536;
 
 	enum class EAvatarShowWeaponType : ::System::Int32
 	{

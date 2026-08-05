@@ -4,9 +4,9 @@
 
 namespace AK::Wwise { class AuxBus; }
 
-#define AKSPATIALAUDIOEMITTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E63ED40)
+#define AKSPATIALAUDIOEMITTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1FA270D0)
 
-inline static constexpr unsigned int AkSpatialAudioEmitter_TypeDefinitionIndex = 33174;
+inline static constexpr unsigned int AkSpatialAudioEmitter_TypeDefinitionIndex = 33810;
 
 class AkSpatialAudioEmitter : public ::UnityEngine::MonoBehaviour
 {

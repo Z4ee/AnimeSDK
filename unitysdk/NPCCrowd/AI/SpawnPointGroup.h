@@ -7,12 +7,12 @@ namespace NPCCrowd::AI { class FeaturePointPathRefList; }
 namespace NPCCrowd::AI { class SpawnPoint; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCCROWD_AI_SPAWNPOINTGROUP_GETPOPULATIONIDS_OFFSET UNITYSDK_OFFSET(0x8C24B10)
-#define NPCCROWD_AI_SPAWNPOINTGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x8C24C30)
+#define NPCCROWD_AI_SPAWNPOINTGROUP_GETPOPULATIONIDS_OFFSET UNITYSDK_OFFSET(0x102962F0)
+#define NPCCROWD_AI_SPAWNPOINTGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x10296410)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int SpawnPointGroup_TypeDefinitionIndex = 49239;
+	inline static constexpr unsigned int SpawnPointGroup_TypeDefinitionIndex = 77703;
 
 	class SpawnPointGroup : public ::System::Object
 	{

@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGSHOOTINGGROUNDCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x170B4D50)
+#define MOLEMOLE_CONFIG_CONFIGSHOOTINGGROUNDCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4D9D50)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigShootingGroundCamera_TypeDefinitionIndex = 44732;
+	inline static constexpr unsigned int ConfigShootingGroundCamera_TypeDefinitionIndex = 44388;
 
 	class ConfigShootingGroundCamera : public ::System::Object
 	{

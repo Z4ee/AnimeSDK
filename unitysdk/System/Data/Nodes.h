@@ -3,7 +3,7 @@
 
 namespace System::Data
 {
-	inline static constexpr unsigned int Nodes_TypeDefinitionIndex = 38635;
+	inline static constexpr unsigned int Nodes_TypeDefinitionIndex = 39296;
 
 	enum class Nodes : ::System::Int32
 	{

@@ -6,7 +6,7 @@ namespace UnityEngine { class Joint2D; }
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
-	inline static constexpr unsigned int IAsyncOnJointBreak2DHandler_TypeDefinitionIndex = 31372;
+	inline static constexpr unsigned int IAsyncOnJointBreak2DHandler_TypeDefinitionIndex = 31992;
 
 	class IAsyncOnJointBreak2DHandler
 	{

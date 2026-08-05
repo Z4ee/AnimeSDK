@@ -3,13 +3,13 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralPopUpArrowWidgetController_ArrowPosition_TypeDefinitionIndex = 53908;
+	inline static constexpr unsigned int UIGeneralPopUpArrowWidgetController_ArrowPosition_TypeDefinitionIndex = 61675;
 
 	enum class UIGeneralPopUpArrowWidgetController_ArrowPosition : ::System::Int32
 	{
-		Right = 1,
-		Left = 0,
 		Bottom = 3,
+		Left = 0,
 		Up = 2,
+		Right = 1,
 	};
 }

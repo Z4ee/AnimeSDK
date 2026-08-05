@@ -7,13 +7,13 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_2_208CC9941471731A_440;
+class Class_2_208CC9941471731A_882;
 
-#define MOLEMOLE_DISPLAYCASE_DISPLAYITEMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x158D6790)
+#define MOLEMOLE_DISPLAYCASE_DISPLAYITEMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1A94F2A0)
 
 namespace MoleMole::DisplayCase
 {
-	inline static constexpr unsigned int DisplayItemData_TypeDefinitionIndex = 79843;
+	inline static constexpr unsigned int DisplayItemData_TypeDefinitionIndex = 74464;
 
 	class DisplayItemData : public ::System::Object
 	{
@@ -23,7 +23,7 @@ namespace MoleMole::DisplayCase
 		::MoleMole::DisplayCase::EDisplayItemSubType ItemSubType; // 0x18
 		::Foundation::AssetPath prefabPath; // 0x20
 		::Enum_3_D7565B1E81CB39C8 StackType; // 0x30
-		::Class_2_208CC9941471731A_440* Cfg; // 0x38
+		::Class_2_208CC9941471731A_882* Cfg; // 0x38
 		::UnityEngine::Vector3 localPos; // 0x40
 		::System::Single localYaw; // 0x4C
 		::System::Int32 state; // 0x50

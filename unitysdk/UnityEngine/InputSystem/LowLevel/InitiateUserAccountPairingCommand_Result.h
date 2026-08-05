@@ -3,7 +3,7 @@
 
 namespace UnityEngine::InputSystem::LowLevel
 {
-	inline static constexpr unsigned int InitiateUserAccountPairingCommand_Result_TypeDefinitionIndex = 31849;
+	inline static constexpr unsigned int InitiateUserAccountPairingCommand_Result_TypeDefinitionIndex = 32469;
 
 	enum class InitiateUserAccountPairingCommand_Result : ::System::Int32
 	{

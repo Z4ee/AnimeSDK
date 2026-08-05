@@ -6,11 +6,11 @@
 namespace UnityEngine { class Texture2D; }
 namespace UnityEngine { class Texture3D; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_OCEANFFTBAKEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B899B30)
+#define UNITYENGINE_RENDERING_UNIVERSAL_OCEANFFTBAKEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1CCA6AB0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int OceanFFTBakeData_TypeDefinitionIndex = 26228;
+	inline static constexpr unsigned int OceanFFTBakeData_TypeDefinitionIndex = 27896;
 
 	class OceanFFTBakeData : public ::UnityEngine::ScriptableObject
 	{

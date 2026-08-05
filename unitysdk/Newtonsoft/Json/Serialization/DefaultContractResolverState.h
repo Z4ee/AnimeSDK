@@ -7,11 +7,11 @@ namespace Newtonsoft::Json::Serialization { class JsonContract; }
 namespace Newtonsoft::Json::Utilities { class PropertyNameTable; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define NEWTONSOFT_JSON_SERIALIZATION_DEFAULTCONTRACTRESOLVERSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D62CC00)
+#define NEWTONSOFT_JSON_SERIALIZATION_DEFAULTCONTRACTRESOLVERSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E9F4C30)
 
 namespace Newtonsoft::Json::Serialization
 {
-	inline static constexpr unsigned int DefaultContractResolverState_TypeDefinitionIndex = 7096;
+	inline static constexpr unsigned int DefaultContractResolverState_TypeDefinitionIndex = 7100;
 
 	class DefaultContractResolverState : public ::System::Object
 	{

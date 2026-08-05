@@ -2,53 +2,53 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/PluginUI/MiHoYoSDKUIContainer.h"
 
-class Class_2_79F6D62CE30E3F8E_84;
+class Class_2_79F6D62CE30E3F8E_88;
 namespace MoleMole { class UIGeneralRealAuthenticationDialogPopWindowController; }
 namespace System { class String; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class InputField; }
 namespace UnityEngine::UI { class Text; }
 
-#define CUSTOMSKIN_REALNAME_BINDGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x130FC6A0)
-#define CUSTOMSKIN_REALNAME_INIT_OFFSET UNITYSDK_OFFSET(0x130FC7E0)
-#define CUSTOMSKIN_REALNAME_INSTANCE_OFFSET UNITYSDK_OFFSET(0x130FC2B0)
-#define CUSTOMSKIN_REALNAME_MEETPROBLEM_OFFSET UNITYSDK_OFFSET(0x130FD2A0)
-#define CUSTOMSKIN_REALNAME_ONCLICKBACK_OFFSET UNITYSDK_OFFSET(0x130FD220)
-#define CUSTOMSKIN_REALNAME_ONCLOSE_OFFSET UNITYSDK_OFFSET(0x130FC470)
-#define CUSTOMSKIN_REALNAME_ONCONSOLECANCEL_OFFSET UNITYSDK_OFFSET(0x130FD570)
-#define CUSTOMSKIN_REALNAME_ONSHOW_OFFSET UNITYSDK_OFFSET(0x130FC4C0)
-#define CUSTOMSKIN_REALNAME_SETLISTENER_OFFSET UNITYSDK_OFFSET(0x130FCBF0)
-#define CUSTOMSKIN_REALNAME_SETTEXT_OFFSET UNITYSDK_OFFSET(0x130FCF40)
-#define CUSTOMSKIN_REALNAME_SUBMIT_OFFSET UNITYSDK_OFFSET(0x130FD320)
-#define CUSTOMSKIN_REALNAME__CTOR_OFFSET UNITYSDK_OFFSET(0x130FC3E0)
-#define CUSTOMSKIN_REALNAME__SETLISTENER_B__21_0_OFFSET UNITYSDK_OFFSET(0x130FD680)
-#define CUSTOMSKIN_REALNAME__SETLISTENER_B__21_1_OFFSET UNITYSDK_OFFSET(0x130FD6D0)
-#define CUSTOMSKIN_REALNAME__SETLISTENER_B__21_2_OFFSET UNITYSDK_OFFSET(0x130FD710)
-#define CUSTOMSKIN_REALNAME__SETLISTENER_B__21_3_OFFSET UNITYSDK_OFFSET(0x130FD780)
+#define CUSTOMSKIN_REALNAME_BINDGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x1A89C5E0)
+#define CUSTOMSKIN_REALNAME_INIT_OFFSET UNITYSDK_OFFSET(0x1A89C720)
+#define CUSTOMSKIN_REALNAME_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1A89C1E0)
+#define CUSTOMSKIN_REALNAME_MEETPROBLEM_OFFSET UNITYSDK_OFFSET(0x1A89D1E0)
+#define CUSTOMSKIN_REALNAME_ONCLICKBACK_OFFSET UNITYSDK_OFFSET(0x1A89D160)
+#define CUSTOMSKIN_REALNAME_ONCLOSE_OFFSET UNITYSDK_OFFSET(0x1A89C3A0)
+#define CUSTOMSKIN_REALNAME_ONCONSOLECANCEL_OFFSET UNITYSDK_OFFSET(0x1A89D4B0)
+#define CUSTOMSKIN_REALNAME_ONSHOW_OFFSET UNITYSDK_OFFSET(0x1A89C3F0)
+#define CUSTOMSKIN_REALNAME_SETLISTENER_OFFSET UNITYSDK_OFFSET(0x1A89CB30)
+#define CUSTOMSKIN_REALNAME_SETTEXT_OFFSET UNITYSDK_OFFSET(0x1A89CE80)
+#define CUSTOMSKIN_REALNAME_SUBMIT_OFFSET UNITYSDK_OFFSET(0x1A89D260)
+#define CUSTOMSKIN_REALNAME__CTOR_OFFSET UNITYSDK_OFFSET(0x1A89C310)
+#define CUSTOMSKIN_REALNAME__SETLISTENER_B__21_0_OFFSET UNITYSDK_OFFSET(0x1A89D5C0)
+#define CUSTOMSKIN_REALNAME__SETLISTENER_B__21_1_OFFSET UNITYSDK_OFFSET(0x1A89D610)
+#define CUSTOMSKIN_REALNAME__SETLISTENER_B__21_2_OFFSET UNITYSDK_OFFSET(0x1A89D660)
+#define CUSTOMSKIN_REALNAME__SETLISTENER_B__21_3_OFFSET UNITYSDK_OFFSET(0x1A89D6D0)
 
-inline static constexpr unsigned int CustomSkin_RealName_TypeDefinitionIndex = 85168;
+inline static constexpr unsigned int CustomSkin_RealName_TypeDefinitionIndex = 50572;
 
 class CustomSkin_RealName : public ::MiHoYo::SDK::PluginUI::MiHoYoSDKUIContainer
 {
 public:
 	static ::CustomSkin_RealName** StaticGet__instance()
 	{
-		return (::CustomSkin_RealName**)Il2CppClass::FromTypeDefinitionIndex(CustomSkin_RealName_TypeDefinitionIndex)->GetStaticField(0x4B720);
+		return (::CustomSkin_RealName**)Il2CppClass::FromTypeDefinitionIndex(CustomSkin_RealName_TypeDefinitionIndex)->GetStaticField(0x499E0);
 	}
-	::UnityEngine::UI::InputField* idInput; // 0x18
-	::UnityEngine::UI::Text* nameTitle; // 0x20
+	::UnityEngine::UI::Text* idPlaceholder; // 0x18
+	::UnityEngine::UI::Text* submitButtonText; // 0x20
 	::UnityEngine::UI::Button* questionButton; // 0x28
-	::UnityEngine::UI::Text* submitButtonText; // 0x30
-	::UnityEngine::UI::Text* pageTitle; // 0x38
+	::UnityEngine::UI::Button* submitButton; // 0x30
+	::UnityEngine::UI::Text* noticeText; // 0x38
 	::UnityEngine::UI::Text* namePlaceholder; // 0x40
-	::UnityEngine::UI::Text* noticeText; // 0x48
-	::MoleMole::UIGeneralRealAuthenticationDialogPopWindowController* _realNamePage; // 0x50
-	::UnityEngine::UI::Button* submitButton; // 0x58
+	::UnityEngine::UI::Button* backButton; // 0x48
+	::UnityEngine::UI::Text* nameTitle; // 0x50
+	::UnityEngine::UI::Text* idTitle; // 0x58
 	::UnityEngine::UI::InputField* nameInput; // 0x60
-	::UnityEngine::UI::Text* idTitle; // 0x68
-	::Class_2_79F6D62CE30E3F8E_84* _realNameView; // 0x70
-	::UnityEngine::UI::Text* idPlaceholder; // 0x78
-	::UnityEngine::UI::Button* backButton; // 0x80
+	::MoleMole::UIGeneralRealAuthenticationDialogPopWindowController* _realNamePage; // 0x68
+	::Class_2_79F6D62CE30E3F8E_88* _realNameView; // 0x70
+	::UnityEngine::UI::InputField* idInput; // 0x78
+	::UnityEngine::UI::Text* pageTitle; // 0x80
 
 	::System::Void _ctor()
 	{

@@ -5,13 +5,13 @@
 
 template <typename T1, typename T2, typename T3> class Class_0_16E4307DCC41950C_20;
 
-inline static constexpr unsigned int Class_1_4C2169A8EE49F00D_Class_1_FB2C6D113662ED3F_TypeDefinitionIndex = 56193;
+inline static constexpr unsigned int Class_1_4C2169A8EE49F00D_Class_1_FB2C6D113662ED3F_TypeDefinitionIndex = 89240;
 
 template <typename TPose, typename TIntrinsics, typename TCtx>
 class Class_1_4C2169A8EE49F00D_Class_1_FB2C6D113662ED3F : public ::System::Object
 {
 public:
 	::System::Boolean Field_1_0; // 0x0
-	::Class_0_16E4307DCC41950C_20<TPose, TIntrinsics, TCtx>* Field_1_1; // 0x0
-	::Class_0_16E4307DCC41950C_20<TPose, TIntrinsics, TCtx>* Field_1_2; // 0x0
+	::Class_0_16E4307DCC41950C_20<TPose, TIntrinsics, TCtx>* Field_1_7; // 0x0
+	::Class_0_16E4307DCC41950C_20<TPose, TIntrinsics, TCtx>* Field_1_6; // 0x0
 };

@@ -17,7 +17,7 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace Foundation::DataStructures
 {
-	inline static constexpr unsigned int HashSet_1_TypeDefinitionIndex = 8079;
+	inline static constexpr unsigned int HashSet_1_TypeDefinitionIndex = 8071;
 
 	template <typename T>
 	class HashSet_1 : public ::System::Object

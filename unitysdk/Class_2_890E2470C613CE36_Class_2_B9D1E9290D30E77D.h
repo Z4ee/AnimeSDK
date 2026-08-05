@@ -1,19 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_43BD383C98B4C0C5_30.h"
+#include "unitysdk/Class_1_43BD383C98B4C0C5_33.h"
 
 namespace MoleMole { class UIGeneralConsoleBtnWidgetController; }
 
-#define CLASS_2_890E2470C613CE36_CLASS_2_B9D1E9290D30E77D_METHOD_2_93097B60EF70000E_OFFSET UNITYSDK_OFFSET(0x1A1643B0)
-#define CLASS_2_890E2470C613CE36_CLASS_2_B9D1E9290D30E77D__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1645F0)
+#define CLASS_2_890E2470C613CE36_CLASS_2_B9D1E9290D30E77D_METHOD_2_93097B60EF70000E_OFFSET UNITYSDK_OFFSET(0x1707EFF0)
+#define CLASS_2_890E2470C613CE36_CLASS_2_B9D1E9290D30E77D__CTOR_OFFSET UNITYSDK_OFFSET(0x1707F230)
 
-inline static constexpr unsigned int Class_2_890E2470C613CE36_Class_2_B9D1E9290D30E77D_TypeDefinitionIndex = 64516;
+inline static constexpr unsigned int Class_2_890E2470C613CE36_Class_2_B9D1E9290D30E77D_TypeDefinitionIndex = 48956;
 
-class Class_2_890E2470C613CE36_Class_2_B9D1E9290D30E77D : public ::Class_1_43BD383C98B4C0C5_30
+class Class_2_890E2470C613CE36_Class_2_B9D1E9290D30E77D : public ::Class_1_43BD383C98B4C0C5_33
 {
 public:
-	::MoleMole::UIGeneralConsoleBtnWidgetController* Field_2_0; // 0x10
-	::MoleMole::UIGeneralConsoleBtnWidgetController* Field_2_1; // 0x18
+	::MoleMole::UIGeneralConsoleBtnWidgetController* Field_2_1; // 0x10
+	::MoleMole::UIGeneralConsoleBtnWidgetController* Field_2_0; // 0x18
 
 	::System::Void _ctor()
 	{

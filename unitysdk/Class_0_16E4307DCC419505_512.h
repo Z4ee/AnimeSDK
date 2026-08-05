@@ -1,11 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-class Class_1_8D68BB826C7B7E2E;
-class Class_1_B7C41BE725AAED79;
-class Class_2_4BF2ECB2D94E7F27;
+namespace MoleMole { class TextureSheetLoopFrame; }
+namespace MoleMole { class TextureSheetSkipFrameParam; }
+namespace System { class String; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+namespace UnityEngine::Events { class UnityAction; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_512_TypeDefinitionIndex = 87408;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_512_TypeDefinitionIndex = 53616;
 
 class Class_0_16E4307DCC419505_512
 {

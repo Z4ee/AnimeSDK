@@ -3,14 +3,14 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int SpeedTreeWindQuality_TypeDefinitionIndex = 26685;
+	inline static constexpr unsigned int SpeedTreeWindQuality_TypeDefinitionIndex = 27587;
 
 	enum class SpeedTreeWindQuality : ::System::Int32
 	{
-		Better = 3,
-		Best = 4,
-		None = 0,
-		Fast = 2,
 		Fastest = 1,
+		Fast = 2,
+		Better = 3,
+		None = 0,
+		Best = 4,
 	};
 }

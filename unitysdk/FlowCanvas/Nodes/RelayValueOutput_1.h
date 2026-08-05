@@ -9,7 +9,7 @@ namespace System { template <typename T> class WeakReference_1; }
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int RelayValueOutput_1_TypeDefinitionIndex = 29851;
+	inline static constexpr unsigned int RelayValueOutput_1_TypeDefinitionIndex = 30231;
 
 	template <typename T>
 	class RelayValueOutput_1 : public ::FlowCanvas::Nodes::RelayValueOutputBase

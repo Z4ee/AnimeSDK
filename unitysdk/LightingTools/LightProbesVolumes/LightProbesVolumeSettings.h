@@ -5,12 +5,12 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define LIGHTINGTOOLS_LIGHTPROBESVOLUMES_LIGHTPROBESVOLUMESETTINGS_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1E8903B0)
-#define LIGHTINGTOOLS_LIGHTPROBESVOLUMES_LIGHTPROBESVOLUMESETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E8904C0)
+#define LIGHTINGTOOLS_LIGHTPROBESVOLUMES_LIGHTPROBESVOLUMESETTINGS_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1FC6EFA0)
+#define LIGHTINGTOOLS_LIGHTPROBESVOLUMES_LIGHTPROBESVOLUMESETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1FC6F0B0)
 
 namespace LightingTools::LightProbesVolumes
 {
-	inline static constexpr unsigned int LightProbesVolumeSettings_TypeDefinitionIndex = 90515;
+	inline static constexpr unsigned int LightProbesVolumeSettings_TypeDefinitionIndex = 94448;
 
 	class LightProbesVolumeSettings : public ::UnityEngine::MonoBehaviour
 	{

@@ -4,10 +4,10 @@
 
 namespace UnityEngine { class Mesh; }
 
-#define AUTOSHADOWPROXYHOST_START_OFFSET UNITYSDK_OFFSET(0x12DFD930)
-#define AUTOSHADOWPROXYHOST__CTOR_OFFSET UNITYSDK_OFFSET(0x12DFDA00)
+#define AUTOSHADOWPROXYHOST_START_OFFSET UNITYSDK_OFFSET(0x16B0CCB0)
+#define AUTOSHADOWPROXYHOST__CTOR_OFFSET UNITYSDK_OFFSET(0x16B0CD80)
 
-inline static constexpr unsigned int AutoShadowProxyHost_TypeDefinitionIndex = 62327;
+inline static constexpr unsigned int AutoShadowProxyHost_TypeDefinitionIndex = 56028;
 
 class AutoShadowProxyHost : public ::UnityEngine::MonoBehaviour
 {

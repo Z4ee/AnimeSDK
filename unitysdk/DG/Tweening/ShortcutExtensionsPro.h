@@ -9,12 +9,12 @@ namespace DG::Tweening { class Tweener; }
 namespace UnityEngine { class Rigidbody; }
 namespace UnityEngine { class Transform; }
 
-#define DG_TWEENING_SHORTCUTEXTENSIONSPRO_DOSPIRAL_1_OFFSET UNITYSDK_OFFSET(0x1E7B47F0)
-#define DG_TWEENING_SHORTCUTEXTENSIONSPRO_DOSPIRAL_OFFSET UNITYSDK_OFFSET(0x1E7B4440)
+#define DG_TWEENING_SHORTCUTEXTENSIONSPRO_DOSPIRAL_1_OFFSET UNITYSDK_OFFSET(0x1FB8CC60)
+#define DG_TWEENING_SHORTCUTEXTENSIONSPRO_DOSPIRAL_OFFSET UNITYSDK_OFFSET(0x1FB8C8B0)
 
 namespace DG::Tweening
 {
-	inline static constexpr unsigned int ShortcutExtensionsPro_TypeDefinitionIndex = 34480;
+	inline static constexpr unsigned int ShortcutExtensionsPro_TypeDefinitionIndex = 35134;
 
 	class ShortcutExtensionsPro : public ::System::Object
 	{

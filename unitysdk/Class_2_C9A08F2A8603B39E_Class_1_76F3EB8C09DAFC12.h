@@ -1,0 +1,61 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_2_C9A08F2A8603B39E;
+class Class_2_C9A08F2A8603B39E_Class_3_7E8481D8C8951F7B;
+namespace MoleMole { class UIControllerContextBase; }
+namespace MoleMole { class UIUrbanMapRightStreetInfoController_Bangkov; }
+namespace MoleMole { class UrbanMapRightBangkovController; }
+
+#define CLASS_2_C9A08F2A8603B39E_CLASS_1_76F3EB8C09DAFC12_METHOD_1_2F53B5BF49E5B1F1_OFFSET UNITYSDK_OFFSET(0x13EE8160)
+#define CLASS_2_C9A08F2A8603B39E_CLASS_1_76F3EB8C09DAFC12_METHOD_1_BB1B50B67B3A1B85_OFFSET UNITYSDK_OFFSET(0x13EE9390)
+#define CLASS_2_C9A08F2A8603B39E_CLASS_1_76F3EB8C09DAFC12_METHOD_1_C6FECAE96364EEED_OFFSET UNITYSDK_OFFSET(0x13EE8FF0)
+#define CLASS_2_C9A08F2A8603B39E_CLASS_1_76F3EB8C09DAFC12_METHOD_1_DC87AFE1CEE8E6C8_OFFSET UNITYSDK_OFFSET(0x13EE84D0)
+#define CLASS_2_C9A08F2A8603B39E_CLASS_1_76F3EB8C09DAFC12_METHOD_1_E927FC1379DF133C_OFFSET UNITYSDK_OFFSET(0x13EE89B0)
+#define CLASS_2_C9A08F2A8603B39E_CLASS_1_76F3EB8C09DAFC12_METHOD_1_F814A219696FD5E1_OFFSET UNITYSDK_OFFSET(0x13EE7ED0)
+#define CLASS_2_C9A08F2A8603B39E_CLASS_1_76F3EB8C09DAFC12__CTOR_OFFSET UNITYSDK_OFFSET(0x13EE7EC0)
+
+inline static constexpr unsigned int Class_2_C9A08F2A8603B39E_Class_1_76F3EB8C09DAFC12_TypeDefinitionIndex = 74904;
+
+class Class_2_C9A08F2A8603B39E_Class_1_76F3EB8C09DAFC12 : public ::System::Object
+{
+public:
+	::Class_2_C9A08F2A8603B39E_Class_3_7E8481D8C8951F7B* Field_1_0; // 0x10
+	::Class_2_C9A08F2A8603B39E* Field_1_1; // 0x18
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_C9A08F2A8603B39E_CLASS_1_76F3EB8C09DAFC12__CTOR_OFFSET))(this);
+	}
+
+	::MoleMole::UIControllerContextBase* Method_1_F814A219696FD5E1()
+	{
+		return ((::MoleMole::UIControllerContextBase*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_C9A08F2A8603B39E_CLASS_1_76F3EB8C09DAFC12_METHOD_1_F814A219696FD5E1_OFFSET))(this);
+	}
+
+	::System::Void Method_1_2F53B5BF49E5B1F1(::MoleMole::UIUrbanMapRightStreetInfoController_Bangkov* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::MoleMole::UIUrbanMapRightStreetInfoController_Bangkov*))((::PBYTE)hIl2Cpp + CLASS_2_C9A08F2A8603B39E_CLASS_1_76F3EB8C09DAFC12_METHOD_1_2F53B5BF49E5B1F1_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_DC87AFE1CEE8E6C8(::MoleMole::UIUrbanMapRightStreetInfoController_Bangkov* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::MoleMole::UIUrbanMapRightStreetInfoController_Bangkov*))((::PBYTE)hIl2Cpp + CLASS_2_C9A08F2A8603B39E_CLASS_1_76F3EB8C09DAFC12_METHOD_1_DC87AFE1CEE8E6C8_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_E927FC1379DF133C(::MoleMole::UrbanMapRightBangkovController* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::MoleMole::UrbanMapRightBangkovController*))((::PBYTE)hIl2Cpp + CLASS_2_C9A08F2A8603B39E_CLASS_1_76F3EB8C09DAFC12_METHOD_1_E927FC1379DF133C_OFFSET))(this, a1);
+	}
+
+	::MoleMole::UIControllerContextBase* Method_1_C6FECAE96364EEED()
+	{
+		return ((::MoleMole::UIControllerContextBase*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_C9A08F2A8603B39E_CLASS_1_76F3EB8C09DAFC12_METHOD_1_C6FECAE96364EEED_OFFSET))(this);
+	}
+
+	::System::Void Method_1_BB1B50B67B3A1B85(::MoleMole::UrbanMapRightBangkovController* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::MoleMole::UrbanMapRightBangkovController*))((::PBYTE)hIl2Cpp + CLASS_2_C9A08F2A8603B39E_CLASS_1_76F3EB8C09DAFC12_METHOD_1_BB1B50B67B3A1B85_OFFSET))(this, a1);
+	}
+};

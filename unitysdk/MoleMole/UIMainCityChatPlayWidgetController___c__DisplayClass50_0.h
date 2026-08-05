@@ -6,19 +6,19 @@ class Class_2_147177123441150A;
 namespace MoleMole { class UIMainCityChatPlayWidgetController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIMAINCITYCHATPLAYWIDGETCONTROLLER___C__DISPLAYCLASS50_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16D95D30)
-#define MOLEMOLE_UIMAINCITYCHATPLAYWIDGETCONTROLLER___C__DISPLAYCLASS50_0__SHOWCUSTOMTRANSITION_B__3_OFFSET UNITYSDK_OFFSET(0x16D95D40)
+#define MOLEMOLE_UIMAINCITYCHATPLAYWIDGETCONTROLLER___C__DISPLAYCLASS50_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19865AD0)
+#define MOLEMOLE_UIMAINCITYCHATPLAYWIDGETCONTROLLER___C__DISPLAYCLASS50_0__SHOWCUSTOMTRANSITION_B__3_OFFSET UNITYSDK_OFFSET(0x19865AE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMainCityChatPlayWidgetController___c__DisplayClass50_0_TypeDefinitionIndex = 83705;
+	inline static constexpr unsigned int UIMainCityChatPlayWidgetController___c__DisplayClass50_0_TypeDefinitionIndex = 77917;
 
 	class UIMainCityChatPlayWidgetController___c__DisplayClass50_0 : public ::System::Object
 	{
 	public:
-		::System::Action* __9__3; // 0x10
-		::Class_2_147177123441150A* transition; // 0x18
-		::MoleMole::UIMainCityChatPlayWidgetController* __4__this; // 0x20
+		::MoleMole::UIMainCityChatPlayWidgetController* __4__this; // 0x10
+		::System::Action* __9__3; // 0x18
+		::Class_2_147177123441150A* transition; // 0x20
 		::System::Single length; // 0x28
 
 		::System::Void _ctor()

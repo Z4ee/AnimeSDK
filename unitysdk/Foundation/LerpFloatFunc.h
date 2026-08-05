@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define FOUNDATION_LERPFLOATFUNC_FOUNDATION_ILERPFUNC_SYSTEM_SINGLE__LERP_OFFSET UNITYSDK_OFFSET(0xA75F30)
+#define FOUNDATION_LERPFLOATFUNC_FOUNDATION_ILERPFUNC_SYSTEM_SINGLE__LERP_OFFSET UNITYSDK_OFFSET(0xAC6150)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int LerpFloatFunc_TypeDefinitionIndex = 8666;
+	inline static constexpr unsigned int LerpFloatFunc_TypeDefinitionIndex = 8671;
 
 	struct alignas(1) LerpFloatFunc
 	{

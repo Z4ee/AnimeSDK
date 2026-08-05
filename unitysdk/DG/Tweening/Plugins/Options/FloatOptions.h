@@ -4,7 +4,7 @@
 
 namespace DG::Tweening::Plugins::Options
 {
-	inline static constexpr unsigned int FloatOptions_TypeDefinitionIndex = 27961;
+	inline static constexpr unsigned int FloatOptions_TypeDefinitionIndex = 28565;
 
 	struct alignas(1) FloatOptions
 	{

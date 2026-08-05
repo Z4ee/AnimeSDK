@@ -3,7 +3,7 @@
 
 namespace UnityEngine::InputSystem
 {
-	inline static constexpr unsigned int InputRemoting_MessageType_TypeDefinitionIndex = 31642;
+	inline static constexpr unsigned int InputRemoting_MessageType_TypeDefinitionIndex = 32262;
 
 	enum class InputRemoting_MessageType : ::System::Int32
 	{

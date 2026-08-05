@@ -4,19 +4,19 @@
 
 class Class_1_1685EC66FBD28897;
 class Class_3_1699D6295DC3F818_1;
-class Class_3_BD954AEAE8F1A57B;
+class Class_3_AE02BC8285203464_18;
 
-#define MOLEMOLE_UIFOODTRUCKTASKROWWIDGETCONTROLLER___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1770E510)
-#define MOLEMOLE_UIFOODTRUCKTASKROWWIDGETCONTROLLER___C__DISPLAYCLASS5_0__ONSCROLLITEMUPDATE_B__0_OFFSET UNITYSDK_OFFSET(0x1770EBB0)
+#define MOLEMOLE_UIFOODTRUCKTASKROWWIDGETCONTROLLER___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x186B17E0)
+#define MOLEMOLE_UIFOODTRUCKTASKROWWIDGETCONTROLLER___C__DISPLAYCLASS5_0__ONSCROLLITEMUPDATE_B__0_OFFSET UNITYSDK_OFFSET(0x186B1E80)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIFoodTruckTaskRowWidgetController___c__DisplayClass5_0_TypeDefinitionIndex = 48127;
+	inline static constexpr unsigned int UIFoodTruckTaskRowWidgetController___c__DisplayClass5_0_TypeDefinitionIndex = 56190;
 
 	class UIFoodTruckTaskRowWidgetController___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:
-		::Class_3_BD954AEAE8F1A57B* task; // 0x10
+		::Class_3_AE02BC8285203464_18* task; // 0x10
 
 		::System::Void _ctor()
 		{

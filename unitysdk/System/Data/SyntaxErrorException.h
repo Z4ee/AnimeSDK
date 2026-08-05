@@ -6,13 +6,13 @@
 namespace System { class String; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_DATA_SYNTAXERROREXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DBEB950)
-#define SYSTEM_DATA_SYNTAXERROREXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1DBEBA10)
-#define SYSTEM_DATA_SYNTAXERROREXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1DBEB900)
+#define SYSTEM_DATA_SYNTAXERROREXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EFD4520)
+#define SYSTEM_DATA_SYNTAXERROREXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1EFD45E0)
+#define SYSTEM_DATA_SYNTAXERROREXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1EFD44D0)
 
 namespace System::Data
 {
-	inline static constexpr unsigned int SyntaxErrorException_TypeDefinitionIndex = 38642;
+	inline static constexpr unsigned int SyntaxErrorException_TypeDefinitionIndex = 39303;
 
 	class SyntaxErrorException : public ::System::Data::InvalidExpressionException
 	{

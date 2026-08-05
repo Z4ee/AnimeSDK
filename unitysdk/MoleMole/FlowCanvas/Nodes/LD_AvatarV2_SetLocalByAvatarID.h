@@ -6,21 +6,21 @@
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_AVATARV2_SETLOCALBYAVATARID_PROCESS_OFFSET UNITYSDK_OFFSET(0x1581F020)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_AVATARV2_SETLOCALBYAVATARID_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1581EF10)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_AVATARV2_SETLOCALBYAVATARID__CTOR_OFFSET UNITYSDK_OFFSET(0x1581F070)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_AVATARV2_SETLOCALBYAVATARID__REGISTERPORTS_B__3_0_OFFSET UNITYSDK_OFFSET(0x1581F0B0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_AVATARV2_SETLOCALBYAVATARID_PROCESS_OFFSET UNITYSDK_OFFSET(0x1299E2F0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_AVATARV2_SETLOCALBYAVATARID_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1299E1E0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_AVATARV2_SETLOCALBYAVATARID__CTOR_OFFSET UNITYSDK_OFFSET(0x1299E340)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_AVATARV2_SETLOCALBYAVATARID__REGISTERPORTS_B__3_0_OFFSET UNITYSDK_OFFSET(0x1299E380)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_AvatarV2_SetLocalByAvatarID_TypeDefinitionIndex = 44388;
+	inline static constexpr unsigned int LD_AvatarV2_SetLocalByAvatarID_TypeDefinitionIndex = 63670;
 
 	class LD_AvatarV2_SetLocalByAvatarID : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::ValueInput_1<::System::Int32>* targetAvatarTemplateID; // 0xA8
+		::FlowCanvas::FlowOutput* flowOut; // 0xA8
 		::FlowCanvas::ValueInput_1<::System::Boolean>* isBackground; // 0xB0
-		::FlowCanvas::FlowOutput* flowOut; // 0xB8
+		::FlowCanvas::ValueInput_1<::System::Int32>* targetAvatarTemplateID; // 0xB8
 
 		::System::Void _ctor()
 		{

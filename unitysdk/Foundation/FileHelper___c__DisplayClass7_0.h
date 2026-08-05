@@ -6,12 +6,12 @@
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Object; }
 
-#define FOUNDATION_FILEHELPER___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1E1ECA00)
-#define FOUNDATION_FILEHELPER___C__DISPLAYCLASS7_0__LOADTEXTFILEFROMBINARYASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x1E1ECA10)
+#define FOUNDATION_FILEHELPER___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1F696B00)
+#define FOUNDATION_FILEHELPER___C__DISPLAYCLASS7_0__LOADTEXTFILEFROMBINARYASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x1F696B10)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int FileHelper___c__DisplayClass7_0_TypeDefinitionIndex = 8153;
+	inline static constexpr unsigned int FileHelper___c__DisplayClass7_0_TypeDefinitionIndex = 7858;
 
 	class FileHelper___c__DisplayClass7_0 : public ::System::Object
 	{

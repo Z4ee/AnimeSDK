@@ -6,24 +6,24 @@
 class Class_0_16E4307DCC419505_197;
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_SETRTPC_EXECUTE_OFFSET UNITYSDK_OFFSET(0x158B6460)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_SETRTPC_GET_INSPECTORLABEL_OFFSET UNITYSDK_OFFSET(0x158B6420)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_SETRTPC_ISMATCH_OFFSET UNITYSDK_OFFSET(0x158B67C0)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_SETRTPC__CTOR_OFFSET UNITYSDK_OFFSET(0x158B6850)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_SETRTPC___BASE_ISMATCH_OFFSET UNITYSDK_OFFSET(0x158B6890)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_SETRTPC_EXECUTE_OFFSET UNITYSDK_OFFSET(0x14381560)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_SETRTPC_GET_INSPECTORLABEL_OFFSET UNITYSDK_OFFSET(0x14381520)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_SETRTPC_ISMATCH_OFFSET UNITYSDK_OFFSET(0x143818C0)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_SETRTPC__CTOR_OFFSET UNITYSDK_OFFSET(0x14381950)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_SETRTPC___BASE_ISMATCH_OFFSET UNITYSDK_OFFSET(0x14381990)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigSoundAction_SetRTPC_TypeDefinitionIndex = 70864;
+	inline static constexpr unsigned int ConfigSoundAction_SetRTPC_TypeDefinitionIndex = 42516;
 
 	class ConfigSoundAction_SetRTPC : public ::MoleMole::Config::ConfigSoundActionGeneral
 	{
 	public:
 		::System::String* rtpcName; // 0x20
-		::System::Int32 valueChangeDuration; // 0x28
-		::System::Single rtpcValue; // 0x2C
-		::AkCurveInterpolation fadeCurve; // 0x30
-		::System::Boolean setDurationOrFadeCurve; // 0x34
+		::AkCurveInterpolation fadeCurve; // 0x28
+		::System::Boolean setDurationOrFadeCurve; // 0x2C
+		::System::Single rtpcValue; // 0x30
+		::System::Int32 valueChangeDuration; // 0x34
 
 		::System::Void _ctor()
 		{

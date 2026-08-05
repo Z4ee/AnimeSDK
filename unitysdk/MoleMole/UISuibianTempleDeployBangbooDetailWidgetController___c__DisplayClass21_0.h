@@ -5,19 +5,19 @@
 
 namespace Cysharp::Threading::Tasks { template <typename T> class UniTaskCompletionSource_1; }
 
-#define MOLEMOLE_UISUIBIANTEMPLEDEPLOYBANGBOODETAILWIDGETCONTROLLER___C__DISPLAYCLASS21_0__CTOR_OFFSET UNITYSDK_OFFSET(0x11BB29A0)
-#define MOLEMOLE_UISUIBIANTEMPLEDEPLOYBANGBOODETAILWIDGETCONTROLLER___C__DISPLAYCLASS21_0__PLAYANIMATIONTASK_B__0_OFFSET UNITYSDK_OFFSET(0x11BB29B0)
-#define MOLEMOLE_UISUIBIANTEMPLEDEPLOYBANGBOODETAILWIDGETCONTROLLER___C__DISPLAYCLASS21_0__PLAYANIMATIONTASK_B__1_OFFSET UNITYSDK_OFFSET(0x11BB29F0)
+#define MOLEMOLE_UISUIBIANTEMPLEDEPLOYBANGBOODETAILWIDGETCONTROLLER___C__DISPLAYCLASS21_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15117DD0)
+#define MOLEMOLE_UISUIBIANTEMPLEDEPLOYBANGBOODETAILWIDGETCONTROLLER___C__DISPLAYCLASS21_0__PLAYANIMATIONTASK_B__0_OFFSET UNITYSDK_OFFSET(0x15117DE0)
+#define MOLEMOLE_UISUIBIANTEMPLEDEPLOYBANGBOODETAILWIDGETCONTROLLER___C__DISPLAYCLASS21_0__PLAYANIMATIONTASK_B__1_OFFSET UNITYSDK_OFFSET(0x15117E20)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISuibianTempleDeployBangbooDetailWidgetController___c__DisplayClass21_0_TypeDefinitionIndex = 67888;
+	inline static constexpr unsigned int UISuibianTempleDeployBangbooDetailWidgetController___c__DisplayClass21_0_TypeDefinitionIndex = 78600;
 
 	class UISuibianTempleDeployBangbooDetailWidgetController___c__DisplayClass21_0 : public ::System::Object
 	{
 	public:
-		::Cysharp::Threading::Tasks::UniTaskCompletionSource_1<::System::Boolean>* completionSource; // 0x10
-		::System::Threading::CancellationToken token; // 0x18
+		::System::Threading::CancellationToken token; // 0x10
+		::Cysharp::Threading::Tasks::UniTaskCompletionSource_1<::System::Boolean>* completionSource; // 0x18
 
 		::System::Void _ctor()
 		{

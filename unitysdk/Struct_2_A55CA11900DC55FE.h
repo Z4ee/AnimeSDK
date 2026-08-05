@@ -6,17 +6,17 @@
 
 namespace System { class String; }
 
-#define STRUCT_2_A55CA11900DC55FE_METHOD_2_35EA095E1AFDD9C8_OFFSET UNITYSDK_OFFSET(0x798D80)
-#define STRUCT_2_A55CA11900DC55FE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x798D70)
-#define STRUCT_2_A55CA11900DC55FE__CTOR_OFFSET UNITYSDK_OFFSET(0x798D40)
+#define STRUCT_2_A55CA11900DC55FE_METHOD_2_35EA095E1AFDD9C8_OFFSET UNITYSDK_OFFSET(0x7E71A0)
+#define STRUCT_2_A55CA11900DC55FE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x7E7190)
+#define STRUCT_2_A55CA11900DC55FE__CTOR_OFFSET UNITYSDK_OFFSET(0x7E7160)
 
-inline static constexpr unsigned int Struct_2_A55CA11900DC55FE_TypeDefinitionIndex = 79548;
+inline static constexpr unsigned int Struct_2_A55CA11900DC55FE_TypeDefinitionIndex = 69541;
 
 struct alignas(4) Struct_2_A55CA11900DC55FE
 {
-	::UnityEngine::Vector3 Field_2_0; // 0x10
+	::UnityEngine::Vector3 Field_2_2; // 0x10
 	::UnityEngine::Quaternion Field_2_1; // 0x1C
-	::System::Single Field_2_2; // 0x2C
+	::System::Single Field_2_0; // 0x2C
 
 	::System::Void _ctor(::UnityEngine::Vector3 a1, ::UnityEngine::Quaternion a2, ::System::Single a3)
 	{

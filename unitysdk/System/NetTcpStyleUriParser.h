@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/UriParser.h"
 
-#define SYSTEM_NETTCPSTYLEURIPARSER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1D69F0)
+#define SYSTEM_NETTCPSTYLEURIPARSER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C7177A0)
 
 namespace System
 {

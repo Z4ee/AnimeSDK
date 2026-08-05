@@ -5,12 +5,12 @@
 #include "unitysdk/NPCCrowd/Ability/FNPCMontageLayerFragment.h"
 #include "unitysdk/System/Object.h"
 
-#define NPCCROWD_ABILITY_FNPCMONTAGEDATAFRAGMENTEXTENSIONS_GETLAYERREF_1_OFFSET UNITYSDK_OFFSET(0x109F4AF0)
-#define NPCCROWD_ABILITY_FNPCMONTAGEDATAFRAGMENTEXTENSIONS_GETLAYERREF_OFFSET UNITYSDK_OFFSET(0x109F4950)
+#define NPCCROWD_ABILITY_FNPCMONTAGEDATAFRAGMENTEXTENSIONS_GETLAYERREF_1_OFFSET UNITYSDK_OFFSET(0x157A9510)
+#define NPCCROWD_ABILITY_FNPCMONTAGEDATAFRAGMENTEXTENSIONS_GETLAYERREF_OFFSET UNITYSDK_OFFSET(0x157A9380)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int FNPCMontageDataFragmentExtensions_TypeDefinitionIndex = 69148;
+	inline static constexpr unsigned int FNPCMontageDataFragmentExtensions_TypeDefinitionIndex = 90769;
 
 	class FNPCMontageDataFragmentExtensions : public ::System::Object
 	{

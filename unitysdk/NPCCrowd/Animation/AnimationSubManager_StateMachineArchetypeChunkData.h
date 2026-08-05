@@ -3,16 +3,16 @@
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int AnimationSubManager_StateMachineArchetypeChunkData_TypeDefinitionIndex = 57415;
+	inline static constexpr unsigned int AnimationSubManager_StateMachineArchetypeChunkData_TypeDefinitionIndex = 88307;
 
 	enum class AnimationSubManager_StateMachineArchetypeChunkData : ::System::Int32
 	{
-		TickData = 1,
-		EntityId = 4,
 		BlendingRequest = 5,
 		Parameter = 0,
-		State = 3,
+		TickData = 1,
 		ClipData = 2,
+		EntityId = 4,
+		State = 3,
 		Max = 6,
 	};
 }

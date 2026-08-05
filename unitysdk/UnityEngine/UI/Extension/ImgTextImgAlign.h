@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int ImgTextImgAlign_TypeDefinitionIndex = 60893;
+	inline static constexpr unsigned int ImgTextImgAlign_TypeDefinitionIndex = 53794;
 
 	enum class ImgTextImgAlign : ::System::Int32
 	{

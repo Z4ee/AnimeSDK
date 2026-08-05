@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_EFFECTSIMULATE_IEVALUATECURVE__CTOR_OFFSET UNITYSDK_OFFSET(0x11600360)
+#define MOLEMOLE_EFFECTSIMULATE_IEVALUATECURVE__CTOR_OFFSET UNITYSDK_OFFSET(0x192354A0)
 
 namespace MoleMole::EffectSimulate
 {
-	inline static constexpr unsigned int IEvaluateCurve_TypeDefinitionIndex = 53677;
+	inline static constexpr unsigned int IEvaluateCurve_TypeDefinitionIndex = 60074;
 
 	class IEvaluateCurve : public ::System::Object
 	{

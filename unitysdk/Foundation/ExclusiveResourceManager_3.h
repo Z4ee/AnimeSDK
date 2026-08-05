@@ -11,7 +11,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace Foundation
 {
-	inline static constexpr unsigned int ExclusiveResourceManager_3_TypeDefinitionIndex = 8611;
+	inline static constexpr unsigned int ExclusiveResourceManager_3_TypeDefinitionIndex = 8558;
 
 	template <typename TResource, typename TDefault, typename TRequest>
 	class ExclusiveResourceManager_3 : public ::Foundation::ExclusiveResourceManager

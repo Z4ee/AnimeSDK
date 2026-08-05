@@ -9,7 +9,7 @@ namespace System { class String; }
 
 namespace FlowCanvas::Editor
 {
-	inline static constexpr unsigned int FCValueDropList_1_ConvertToString_TypeDefinitionIndex = 29400;
+	inline static constexpr unsigned int FCValueDropList_1_ConvertToString_TypeDefinitionIndex = 30904;
 
 	template <typename T>
 	class FCValueDropList_1_ConvertToString : public ::System::MulticastDelegate

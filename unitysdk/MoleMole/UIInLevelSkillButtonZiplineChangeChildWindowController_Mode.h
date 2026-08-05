@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInLevelSkillButtonZiplineChangeChildWindowController_Mode_TypeDefinitionIndex = 47886;
+	inline static constexpr unsigned int UIInLevelSkillButtonZiplineChangeChildWindowController_Mode_TypeDefinitionIndex = 89046;
 
 	enum class UIInLevelSkillButtonZiplineChangeChildWindowController_Mode : ::System::Int32
 	{

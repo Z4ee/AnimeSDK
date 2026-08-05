@@ -6,7 +6,7 @@
 
 namespace UnrealTypes
 {
-	inline static constexpr unsigned int ManagedList_1_TypeDefinitionIndex = 27677;
+	inline static constexpr unsigned int ManagedList_1_TypeDefinitionIndex = 28279;
 
 	template <typename T>
 	class ManagedList_1 : public ::UnrealTypes::ManagedStruct_1<::UnrealTypes::NativeList_1<T>>

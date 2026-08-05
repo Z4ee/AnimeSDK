@@ -5,18 +5,18 @@
 namespace MoleMole { class UIRecommendGroupRowWidgetController; }
 namespace MoleMole { class UIRecommendTypePropertyRowWidgetController; }
 
-#define MOLEMOLE_UIRECOMMENDGROUPROWWIDGETCONTROLLER___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1666F360)
-#define MOLEMOLE_UIRECOMMENDGROUPROWWIDGETCONTROLLER___C__DISPLAYCLASS11_0__REFRESHVIEWFORPROPERTY_B__0_OFFSET UNITYSDK_OFFSET(0x1666F370)
+#define MOLEMOLE_UIRECOMMENDGROUPROWWIDGETCONTROLLER___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1799CAB0)
+#define MOLEMOLE_UIRECOMMENDGROUPROWWIDGETCONTROLLER___C__DISPLAYCLASS11_0__REFRESHVIEWFORPROPERTY_B__0_OFFSET UNITYSDK_OFFSET(0x1799CAC0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRecommendGroupRowWidgetController___c__DisplayClass11_0_TypeDefinitionIndex = 58805;
+	inline static constexpr unsigned int UIRecommendGroupRowWidgetController___c__DisplayClass11_0_TypeDefinitionIndex = 88222;
 
 	class UIRecommendGroupRowWidgetController___c__DisplayClass11_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIRecommendTypePropertyRowWidgetController* ctrl; // 0x10
-		::MoleMole::UIRecommendGroupRowWidgetController* __4__this; // 0x18
+		::MoleMole::UIRecommendGroupRowWidgetController* __4__this; // 0x10
+		::MoleMole::UIRecommendTypePropertyRowWidgetController* ctrl; // 0x18
 
 		::System::Void _ctor()
 		{

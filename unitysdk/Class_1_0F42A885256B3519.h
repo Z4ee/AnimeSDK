@@ -8,19 +8,19 @@ namespace System { class Action; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define CLASS_1_0F42A885256B3519_METHOD_1_0BE1846AC20D43BE_OFFSET UNITYSDK_OFFSET(0x12231A20)
-#define CLASS_1_0F42A885256B3519_METHOD_1_4F368A66897B4A5E_OFFSET UNITYSDK_OFFSET(0x12231D20)
-#define CLASS_1_0F42A885256B3519_METHOD_1_A8AE4A9A45E37F95_OFFSET UNITYSDK_OFFSET(0x12231C30)
-#define CLASS_1_0F42A885256B3519__CTOR_OFFSET UNITYSDK_OFFSET(0x12231A10)
+#define CLASS_1_0F42A885256B3519_METHOD_1_0BE1846AC20D43BE_OFFSET UNITYSDK_OFFSET(0x15905E70)
+#define CLASS_1_0F42A885256B3519_METHOD_1_4F368A66897B4A5E_OFFSET UNITYSDK_OFFSET(0x15906170)
+#define CLASS_1_0F42A885256B3519_METHOD_1_A8AE4A9A45E37F95_OFFSET UNITYSDK_OFFSET(0x15906080)
+#define CLASS_1_0F42A885256B3519__CTOR_OFFSET UNITYSDK_OFFSET(0x15905E60)
 
-inline static constexpr unsigned int Class_1_0F42A885256B3519_TypeDefinitionIndex = 83419;
+inline static constexpr unsigned int Class_1_0F42A885256B3519_TypeDefinitionIndex = 55484;
 
 class Class_1_0F42A885256B3519 : public ::System::Object
 {
 public:
 	static ::MoleMole::Config::ConfigShootingGroundScriptableObject** StaticGet_Field_1_0()
 	{
-		return (::MoleMole::Config::ConfigShootingGroundScriptableObject**)Il2CppClass::FromTypeDefinitionIndex(Class_1_0F42A885256B3519_TypeDefinitionIndex)->GetStaticField(0x476C0);
+		return (::MoleMole::Config::ConfigShootingGroundScriptableObject**)Il2CppClass::FromTypeDefinitionIndex(Class_1_0F42A885256B3519_TypeDefinitionIndex)->GetStaticField(0x42050);
 	}
 
 	::System::Void _ctor()

@@ -6,17 +6,17 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::Timeline { class ImgSplitScreenGroupPlayableAsset_SpriteItem; }
 
-#define MOLEMOLE_COMICIMGSPLITSCREENGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1E5613F0)
+#define MOLEMOLE_COMICIMGSPLITSCREENGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1F95F120)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ComicImgSplitScreenGroup_TypeDefinitionIndex = 32123;
+	inline static constexpr unsigned int ComicImgSplitScreenGroup_TypeDefinitionIndex = 32751;
 
 	class ComicImgSplitScreenGroup : public ::System::Object
 	{
 	public:
-		::System::String* comicImgStyle; // 0x10
-		::System::Collections::Generic::List_1<::UnityEngine::Timeline::ImgSplitScreenGroupPlayableAsset_SpriteItem*>* spriteItems; // 0x18
+		::System::Collections::Generic::List_1<::UnityEngine::Timeline::ImgSplitScreenGroupPlayableAsset_SpriteItem*>* spriteItems; // 0x10
+		::System::String* comicImgStyle; // 0x18
 
 		::System::Void _ctor()
 		{

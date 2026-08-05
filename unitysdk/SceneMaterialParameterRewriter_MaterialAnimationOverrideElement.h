@@ -8,10 +8,10 @@
 namespace System { class String; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 
-#define SCENEMATERIALPARAMETERREWRITER_MATERIALANIMATIONOVERRIDEELEMENT_SETMPB_OFFSET UNITYSDK_OFFSET(0x1C140D40)
-#define SCENEMATERIALPARAMETERREWRITER_MATERIALANIMATIONOVERRIDEELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1C140E50)
+#define SCENEMATERIALPARAMETERREWRITER_MATERIALANIMATIONOVERRIDEELEMENT_SETMPB_OFFSET UNITYSDK_OFFSET(0x1D2FC8D0)
+#define SCENEMATERIALPARAMETERREWRITER_MATERIALANIMATIONOVERRIDEELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2FC9C0)
 
-inline static constexpr unsigned int SceneMaterialParameterRewriter_MaterialAnimationOverrideElement_TypeDefinitionIndex = 27190;
+inline static constexpr unsigned int SceneMaterialParameterRewriter_MaterialAnimationOverrideElement_TypeDefinitionIndex = 27001;
 
 class SceneMaterialParameterRewriter_MaterialAnimationOverrideElement : public ::System::Object
 {

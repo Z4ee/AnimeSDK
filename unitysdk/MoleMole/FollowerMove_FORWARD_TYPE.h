@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int FollowerMove_FORWARD_TYPE_TypeDefinitionIndex = 50005;
+	inline static constexpr unsigned int FollowerMove_FORWARD_TYPE_TypeDefinitionIndex = 55511;
 
 	enum class FollowerMove_FORWARD_TYPE : ::System::Int32
 	{

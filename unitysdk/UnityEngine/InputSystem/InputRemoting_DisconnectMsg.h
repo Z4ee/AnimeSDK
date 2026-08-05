@@ -5,11 +5,11 @@
 
 namespace UnityEngine::InputSystem { class InputRemoting; }
 
-#define UNITYENGINE_INPUTSYSTEM_INPUTREMOTING_DISCONNECTMSG_PROCESS_OFFSET UNITYSDK_OFFSET(0x1DD80600)
+#define UNITYENGINE_INPUTSYSTEM_INPUTREMOTING_DISCONNECTMSG_PROCESS_OFFSET UNITYSDK_OFFSET(0x1F16A580)
 
 namespace UnityEngine::InputSystem
 {
-	inline static constexpr unsigned int InputRemoting_DisconnectMsg_TypeDefinitionIndex = 31651;
+	inline static constexpr unsigned int InputRemoting_DisconnectMsg_TypeDefinitionIndex = 32271;
 
 	class InputRemoting_DisconnectMsg : public ::System::Object
 	{

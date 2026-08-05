@@ -13,46 +13,46 @@ namespace System::Reflection { class FieldInfo; }
 namespace System::Reflection { class MemberInfo; }
 namespace UnityEngine { class Object; }
 
-#define SIRENIX_SERIALIZATION_FORMATTERUTILITIES_CREATEUNITYNULL_OFFSET UNITYSDK_OFFSET(0x1DA1E4E0)
-#define SIRENIX_SERIALIZATION_FORMATTERUTILITIES_FINDSERIALIZABLEMEMBERSMAP_OFFSET UNITYSDK_OFFSET(0x1DA1D4B0)
-#define SIRENIX_SERIALIZATION_FORMATTERUTILITIES_FINDSERIALIZABLEMEMBERS_OFFSET UNITYSDK_OFFSET(0x1DA1DEC0)
-#define SIRENIX_SERIALIZATION_FORMATTERUTILITIES_GETCONTAINEDTYPE_OFFSET UNITYSDK_OFFSET(0x1DA1E9B0)
-#define SIRENIX_SERIALIZATION_FORMATTERUTILITIES_GETMEMBERVALUE_OFFSET UNITYSDK_OFFSET(0x1DA1EAB0)
-#define SIRENIX_SERIALIZATION_FORMATTERUTILITIES_GETPRIVATEMEMBERALIAS_OFFSET UNITYSDK_OFFSET(0x1DA1EFF0)
-#define SIRENIX_SERIALIZATION_FORMATTERUTILITIES_GETSERIALIZABLEMEMBERSMAP_OFFSET UNITYSDK_OFFSET(0x1DA1D000)
-#define SIRENIX_SERIALIZATION_FORMATTERUTILITIES_GETSERIALIZABLEMEMBERS_OFFSET UNITYSDK_OFFSET(0x1DA1DBB0)
-#define SIRENIX_SERIALIZATION_FORMATTERUTILITIES_ISPRIMITIVEARRAYTYPE_OFFSET UNITYSDK_OFFSET(0x1DA1E920)
-#define SIRENIX_SERIALIZATION_FORMATTERUTILITIES_ISPRIMITIVETYPE_OFFSET UNITYSDK_OFFSET(0x1DA1E850)
-#define SIRENIX_SERIALIZATION_FORMATTERUTILITIES_MEMBERISPRIVATE_OFFSET UNITYSDK_OFFSET(0x1DA1EE80)
-#define SIRENIX_SERIALIZATION_FORMATTERUTILITIES_SETMEMBERVALUE_OFFSET UNITYSDK_OFFSET(0x1DA1EC10)
-#define SIRENIX_SERIALIZATION_FORMATTERUTILITIES__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DA1C990)
+#define SIRENIX_SERIALIZATION_FORMATTERUTILITIES_CREATEUNITYNULL_OFFSET UNITYSDK_OFFSET(0x1EDCD140)
+#define SIRENIX_SERIALIZATION_FORMATTERUTILITIES_FINDSERIALIZABLEMEMBERSMAP_OFFSET UNITYSDK_OFFSET(0x1EDCC100)
+#define SIRENIX_SERIALIZATION_FORMATTERUTILITIES_FINDSERIALIZABLEMEMBERS_OFFSET UNITYSDK_OFFSET(0x1EDCCB10)
+#define SIRENIX_SERIALIZATION_FORMATTERUTILITIES_GETCONTAINEDTYPE_OFFSET UNITYSDK_OFFSET(0x1EDCD610)
+#define SIRENIX_SERIALIZATION_FORMATTERUTILITIES_GETMEMBERVALUE_OFFSET UNITYSDK_OFFSET(0x1EDCD710)
+#define SIRENIX_SERIALIZATION_FORMATTERUTILITIES_GETPRIVATEMEMBERALIAS_OFFSET UNITYSDK_OFFSET(0x1EDCDC50)
+#define SIRENIX_SERIALIZATION_FORMATTERUTILITIES_GETSERIALIZABLEMEMBERSMAP_OFFSET UNITYSDK_OFFSET(0x1EDCBC50)
+#define SIRENIX_SERIALIZATION_FORMATTERUTILITIES_GETSERIALIZABLEMEMBERS_OFFSET UNITYSDK_OFFSET(0x1EDCC800)
+#define SIRENIX_SERIALIZATION_FORMATTERUTILITIES_ISPRIMITIVEARRAYTYPE_OFFSET UNITYSDK_OFFSET(0x1EDCD580)
+#define SIRENIX_SERIALIZATION_FORMATTERUTILITIES_ISPRIMITIVETYPE_OFFSET UNITYSDK_OFFSET(0x1EDCD4B0)
+#define SIRENIX_SERIALIZATION_FORMATTERUTILITIES_MEMBERISPRIVATE_OFFSET UNITYSDK_OFFSET(0x1EDCDAE0)
+#define SIRENIX_SERIALIZATION_FORMATTERUTILITIES_SETMEMBERVALUE_OFFSET UNITYSDK_OFFSET(0x1EDCD870)
+#define SIRENIX_SERIALIZATION_FORMATTERUTILITIES__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EDCB5E0)
 
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int FormatterUtilities_TypeDefinitionIndex = 7507;
+	inline static constexpr unsigned int FormatterUtilities_TypeDefinitionIndex = 7511;
 
 	class FormatterUtilities : public ::System::Object
 	{
 	public:
-		static ::Sirenix::Serialization::Utilities::DoubleLookupDictionary_3<::Sirenix::Serialization::ISerializationPolicy*, ::System::Type*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Reflection::MemberInfo*>*>** StaticGet_MemberMapCache()
+		static ::Sirenix::Serialization::Utilities::DoubleLookupDictionary_3<::Sirenix::Serialization::ISerializationPolicy*, ::System::Type*, ::Il2CppArray<::System::Reflection::MemberInfo*>*>** StaticGet_MemberArrayCache()
 		{
-			return (::Sirenix::Serialization::Utilities::DoubleLookupDictionary_3<::Sirenix::Serialization::ISerializationPolicy*, ::System::Type*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Reflection::MemberInfo*>*>**)Il2CppClass::FromTypeDefinitionIndex(FormatterUtilities_TypeDefinitionIndex)->GetStaticField(0x6550);
-		}
-		static ::System::Collections::Generic::HashSet_1<::System::Type*>** StaticGet_PrimitiveArrayTypes()
-		{
-			return (::System::Collections::Generic::HashSet_1<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(FormatterUtilities_TypeDefinitionIndex)->GetStaticField(0x6558);
-		}
-		static ::System::Object** StaticGet_LOCK()
-		{
-			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(FormatterUtilities_TypeDefinitionIndex)->GetStaticField(0x6560);
+			return (::Sirenix::Serialization::Utilities::DoubleLookupDictionary_3<::Sirenix::Serialization::ISerializationPolicy*, ::System::Type*, ::Il2CppArray<::System::Reflection::MemberInfo*>*>**)Il2CppClass::FromTypeDefinitionIndex(FormatterUtilities_TypeDefinitionIndex)->GetStaticField(0x6560);
 		}
 		static ::System::Reflection::FieldInfo** StaticGet_UnityObjectRuntimeErrorStringField()
 		{
 			return (::System::Reflection::FieldInfo**)Il2CppClass::FromTypeDefinitionIndex(FormatterUtilities_TypeDefinitionIndex)->GetStaticField(0x6568);
 		}
-		static ::Sirenix::Serialization::Utilities::DoubleLookupDictionary_3<::Sirenix::Serialization::ISerializationPolicy*, ::System::Type*, ::Il2CppArray<::System::Reflection::MemberInfo*>*>** StaticGet_MemberArrayCache()
+		static ::System::Object** StaticGet_LOCK()
 		{
-			return (::Sirenix::Serialization::Utilities::DoubleLookupDictionary_3<::Sirenix::Serialization::ISerializationPolicy*, ::System::Type*, ::Il2CppArray<::System::Reflection::MemberInfo*>*>**)Il2CppClass::FromTypeDefinitionIndex(FormatterUtilities_TypeDefinitionIndex)->GetStaticField(0x6570);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(FormatterUtilities_TypeDefinitionIndex)->GetStaticField(0x6570);
+		}
+		static ::Sirenix::Serialization::Utilities::DoubleLookupDictionary_3<::Sirenix::Serialization::ISerializationPolicy*, ::System::Type*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Reflection::MemberInfo*>*>** StaticGet_MemberMapCache()
+		{
+			return (::Sirenix::Serialization::Utilities::DoubleLookupDictionary_3<::Sirenix::Serialization::ISerializationPolicy*, ::System::Type*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Reflection::MemberInfo*>*>**)Il2CppClass::FromTypeDefinitionIndex(FormatterUtilities_TypeDefinitionIndex)->GetStaticField(0x6578);
+		}
+		static ::System::Collections::Generic::HashSet_1<::System::Type*>** StaticGet_PrimitiveArrayTypes()
+		{
+			return (::System::Collections::Generic::HashSet_1<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(FormatterUtilities_TypeDefinitionIndex)->GetStaticField(0x6580);
 		}
 		// static const ::System::String* UnityObjectRuntimeErrorString; // 0x0
 

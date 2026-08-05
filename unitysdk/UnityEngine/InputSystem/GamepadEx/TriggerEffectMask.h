@@ -3,7 +3,7 @@
 
 namespace UnityEngine::InputSystem::GamepadEx
 {
-	inline static constexpr unsigned int TriggerEffectMask_TypeDefinitionIndex = 39074;
+	inline static constexpr unsigned int TriggerEffectMask_TypeDefinitionIndex = 39740;
 
 	enum class TriggerEffectMask : ::System::Byte
 	{

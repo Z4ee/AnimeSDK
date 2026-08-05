@@ -5,11 +5,11 @@
 
 namespace MdbEditor { class MdbDebugDrawConstrains; }
 
-#define MDBEDITOR_MDBDEBUGDRAWSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x11A64D00)
+#define MDBEDITOR_MDBDEBUGDRAWSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x124210B0)
 
 namespace MdbEditor
 {
-	inline static constexpr unsigned int MdbDebugDrawSettings_TypeDefinitionIndex = 91430;
+	inline static constexpr unsigned int MdbDebugDrawSettings_TypeDefinitionIndex = 95384;
 
 	class MdbDebugDrawSettings : public ::System::Object
 	{

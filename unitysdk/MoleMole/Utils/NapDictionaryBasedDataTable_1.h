@@ -9,7 +9,7 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace MoleMole::Utils
 {
-	inline static constexpr unsigned int NapDictionaryBasedDataTable_1_TypeDefinitionIndex = 80906;
+	inline static constexpr unsigned int NapDictionaryBasedDataTable_1_TypeDefinitionIndex = 61091;
 
 	template <typename T>
 	class NapDictionaryBasedDataTable_1 : public ::MoleMole::Utils::NapCameraSequenceDataTable

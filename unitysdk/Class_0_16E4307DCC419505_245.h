@@ -1,10 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_52A902145F5BE51A_4.h"
 
+class Class_0_16E4307DCC419505_259;
+class Class_0_16E4307DCC419505_268;
+namespace MoleMole { class MonoTriggerEventDispatcher; }
 namespace System { class String; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_245_TypeDefinitionIndex = 41813;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_245_TypeDefinitionIndex = 85694;
 
 class Class_0_16E4307DCC419505_245
 {

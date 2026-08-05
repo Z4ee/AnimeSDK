@@ -7,10 +7,10 @@ namespace ObservableCollections { template <typename T> class NotifyCollectionCh
 namespace System { class Action; }
 namespace System { class String; }
 
-#define CLASS_1_161C3B1E29663539_METHOD_1_12EFEE0B4B90AE57_OFFSET UNITYSDK_OFFSET(0x1C904000)
-#define CLASS_1_161C3B1E29663539_METHOD_1_25B6EFC63CE6F337_OFFSET UNITYSDK_OFFSET(0x1C903F20)
+#define CLASS_1_161C3B1E29663539_METHOD_1_12EFEE0B4B90AE57_OFFSET UNITYSDK_OFFSET(0x1D90A420)
+#define CLASS_1_161C3B1E29663539_METHOD_1_25B6EFC63CE6F337_OFFSET UNITYSDK_OFFSET(0x1D90A340)
 
-inline static constexpr unsigned int Class_1_161C3B1E29663539_TypeDefinitionIndex = 34570;
+inline static constexpr unsigned int Class_1_161C3B1E29663539_TypeDefinitionIndex = 35168;
 
 class Class_1_161C3B1E29663539 : public ::System::Object
 {

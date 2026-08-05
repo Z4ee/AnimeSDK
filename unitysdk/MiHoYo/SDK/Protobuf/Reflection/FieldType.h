@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
-	inline static constexpr unsigned int FieldType_TypeDefinitionIndex = 28568;
+	inline static constexpr unsigned int FieldType_TypeDefinitionIndex = 29172;
 
 	enum class FieldType : ::System::Int32
 	{

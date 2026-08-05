@@ -1,0 +1,49 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+#define FOUNDATION_VIEWOBJECT_DONJON_DONJONUTILS_ISNEEDSETDATAPREPROCESSOR_OFFSET UNITYSDK_OFFSET(0xF23C860)
+#define FOUNDATION_VIEWOBJECT_DONJON_DONJONUTILS_REGISTERENTERPREPROCESSORS_OFFSET UNITYSDK_OFFSET(0xF23C9A0)
+#define FOUNDATION_VIEWOBJECT_DONJON_DONJONUTILS_REGISTEREXITPREPROCESSORS_OFFSET UNITYSDK_OFFSET(0xF23CAA0)
+#define FOUNDATION_VIEWOBJECT_DONJON_DONJONUTILS_TRYREGISTERPROCESSORONENTERDONJON_OFFSET UNITYSDK_OFFSET(0xF23C930)
+#define FOUNDATION_VIEWOBJECT_DONJON_DONJONUTILS_TRYREGISTERPROCESSORONEXITDONJON_OFFSET UNITYSDK_OFFSET(0xF23C9E0)
+#define FOUNDATION_VIEWOBJECT_DONJON_DONJONUTILS_UNREGISTERALLDONJONPREPROCESSORS_OFFSET UNITYSDK_OFFSET(0xF23CA60)
+
+namespace Foundation::ViewObject::Donjon
+{
+	inline static constexpr unsigned int DonjonUtils_TypeDefinitionIndex = 43367;
+
+	class DonjonUtils : public ::System::Object
+	{
+	public:
+		static ::System::Boolean IsNeedSetDataPreprocessor(::System::UInt32 dungeonID)
+		{
+			return ((::System::Boolean(*)(::System::UInt32))((::PBYTE)hIl2Cpp + FOUNDATION_VIEWOBJECT_DONJON_DONJONUTILS_ISNEEDSETDATAPREPROCESSOR_OFFSET))(dungeonID);
+		}
+
+		static ::System::Void TryRegisterProcessorOnEnterDonjon(::System::UInt32 dungeonID)
+		{
+			return ((::System::Void(*)(::System::UInt32))((::PBYTE)hIl2Cpp + FOUNDATION_VIEWOBJECT_DONJON_DONJONUTILS_TRYREGISTERPROCESSORONENTERDONJON_OFFSET))(dungeonID);
+		}
+
+		static ::System::Void TryRegisterProcessorOnExitDonjon()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + FOUNDATION_VIEWOBJECT_DONJON_DONJONUTILS_TRYREGISTERPROCESSORONEXITDONJON_OFFSET))();
+		}
+
+		static ::System::Void UnregisterAllDonjonPreprocessors()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + FOUNDATION_VIEWOBJECT_DONJON_DONJONUTILS_UNREGISTERALLDONJONPREPROCESSORS_OFFSET))();
+		}
+
+		static ::System::Void RegisterEnterPreprocessors()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + FOUNDATION_VIEWOBJECT_DONJON_DONJONUTILS_REGISTERENTERPREPROCESSORS_OFFSET))();
+		}
+
+		static ::System::Void RegisterExitPreprocessors()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + FOUNDATION_VIEWOBJECT_DONJON_DONJONUTILS_REGISTEREXITPREPROCESSORS_OFFSET))();
+		}
+	};
+}

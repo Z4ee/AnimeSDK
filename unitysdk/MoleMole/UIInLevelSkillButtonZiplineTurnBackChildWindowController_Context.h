@@ -3,11 +3,11 @@
 #include "unitysdk/MoleMole/EntityHandle.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIINLEVELSKILLBUTTONZIPLINETURNBACKCHILDWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1571EF30)
+#define MOLEMOLE_UIINLEVELSKILLBUTTONZIPLINETURNBACKCHILDWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x17AC44D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInLevelSkillButtonZiplineTurnBackChildWindowController_Context_TypeDefinitionIndex = 77599;
+	inline static constexpr unsigned int UIInLevelSkillButtonZiplineTurnBackChildWindowController_Context_TypeDefinitionIndex = 67236;
 
 	class UIInLevelSkillButtonZiplineTurnBackChildWindowController_Context : public ::MoleMole::UIControllerContextBase
 	{

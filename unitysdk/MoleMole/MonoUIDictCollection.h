@@ -7,12 +7,12 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_MONOUIDICTCOLLECTION_TRYGETTRANSFORM_OFFSET UNITYSDK_OFFSET(0x12649070)
-#define MOLEMOLE_MONOUIDICTCOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x12649190)
+#define MOLEMOLE_MONOUIDICTCOLLECTION_TRYGETTRANSFORM_OFFSET UNITYSDK_OFFSET(0x14A158A0)
+#define MOLEMOLE_MONOUIDICTCOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x14A159C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoUIDictCollection_TypeDefinitionIndex = 74686;
+	inline static constexpr unsigned int MonoUIDictCollection_TypeDefinitionIndex = 88757;
 
 	class MonoUIDictCollection : public ::Sirenix::OdinInspector::SerializedMonoBehaviour
 	{

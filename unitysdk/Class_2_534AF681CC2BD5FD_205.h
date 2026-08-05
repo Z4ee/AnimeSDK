@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_534AF681CC2BD5FD_189.h"
+#include "unitysdk/Class_1_48F4A404A08692BE_204.h"
 
-inline static constexpr unsigned int Class_2_534AF681CC2BD5FD_205_TypeDefinitionIndex = 14431;
+inline static constexpr unsigned int Class_2_534AF681CC2BD5FD_205_TypeDefinitionIndex = 15616;
 
-class Class_2_534AF681CC2BD5FD_205 : public ::Class_1_534AF681CC2BD5FD_189
+class Class_2_534AF681CC2BD5FD_205 : public ::Class_1_48F4A404A08692BE_204
 {
 public:
 };

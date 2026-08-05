@@ -9,7 +9,7 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int HashSetFormatter_1_TypeDefinitionIndex = 7464;
+	inline static constexpr unsigned int HashSetFormatter_1_TypeDefinitionIndex = 7468;
 
 	template <typename T>
 	class HashSetFormatter_1 : public ::Sirenix::Serialization::MinimalBaseFormatter_1<::System::Collections::Generic::HashSet_1<T>*>

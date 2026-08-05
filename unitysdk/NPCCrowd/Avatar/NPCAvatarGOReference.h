@@ -21,44 +21,44 @@ namespace miHoYoEmotion { class ClipShapeManager; }
 namespace miHoYoEmotion { class EmoSync; }
 namespace miHoYoEmotion { class EyeKey; }
 
-#define NPCCROWD_AVATAR_NPCAVATARGOREFERENCE_GET_GOPOS_OFFSET UNITYSDK_OFFSET(0x102BD420)
-#define NPCCROWD_AVATAR_NPCAVATARGOREFERENCE_GET_GOROT_OFFSET UNITYSDK_OFFSET(0x102BD7E0)
-#define NPCCROWD_AVATAR_NPCAVATARGOREFERENCE_GET_GO_OFFSET UNITYSDK_OFFSET(0x102BD400)
-#define NPCCROWD_AVATAR_NPCAVATARGOREFERENCE_SET_GOPOS_OFFSET UNITYSDK_OFFSET(0x102BD620)
-#define NPCCROWD_AVATAR_NPCAVATARGOREFERENCE_SET_GOROT_OFFSET UNITYSDK_OFFSET(0x102BD9C0)
-#define NPCCROWD_AVATAR_NPCAVATARGOREFERENCE_SET_GO_OFFSET UNITYSDK_OFFSET(0x102BD410)
-#define NPCCROWD_AVATAR_NPCAVATARGOREFERENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x102BDB70)
+#define NPCCROWD_AVATAR_NPCAVATARGOREFERENCE_GET_GOPOS_OFFSET UNITYSDK_OFFSET(0xE57B990)
+#define NPCCROWD_AVATAR_NPCAVATARGOREFERENCE_GET_GOROT_OFFSET UNITYSDK_OFFSET(0xE57BD30)
+#define NPCCROWD_AVATAR_NPCAVATARGOREFERENCE_GET_GO_OFFSET UNITYSDK_OFFSET(0xE57B970)
+#define NPCCROWD_AVATAR_NPCAVATARGOREFERENCE_SET_GOPOS_OFFSET UNITYSDK_OFFSET(0xE57BB80)
+#define NPCCROWD_AVATAR_NPCAVATARGOREFERENCE_SET_GOROT_OFFSET UNITYSDK_OFFSET(0xE57BF00)
+#define NPCCROWD_AVATAR_NPCAVATARGOREFERENCE_SET_GO_OFFSET UNITYSDK_OFFSET(0xE57B980)
+#define NPCCROWD_AVATAR_NPCAVATARGOREFERENCE__CTOR_OFFSET UNITYSDK_OFFSET(0xE57C0A0)
 
 namespace NPCCrowd::Avatar
 {
-	inline static constexpr unsigned int NPCAvatarGOReference_TypeDefinitionIndex = 50957;
+	inline static constexpr unsigned int NPCAvatarGOReference_TypeDefinitionIndex = 57319;
 
 	class NPCAvatarGOReference : public ::System::Object
 	{
 	public:
-		::UnityEngine::Collider* collider; // 0x10
-		::System::Collections::Generic::List_1<::NPCCrowd::Avatar::NPCAvatarGOReferenceComponentInfo*>* parts; // 0x18
-		::MoleMole::MonoFeaturePoint* monoFeaturePointComp; // 0x20
-		::miHoYoEmotion::ClipShapeManager* clipShapeManager; // 0x28
-		::miHoYoEmotion::EmoSync* emoSync; // 0x30
-		::UnityEngine::Animator* animator; // 0x38
-		::UnityEngine::GameObject* audioEmitter; // 0x40
-		::MoleMole::MonoItemState* monoItemStateComp; // 0x48
-		::UnityEngine::AI::NavMeshObstacle* navObs; // 0x50
-		::miHoYoEmotion::EyeKey* eyeKey; // 0x58
-		::NPCCrowd::NPCMonoDelegate* monoDelegate; // 0x60
-		::UnityEngine::Rigidbody* rigid; // 0x68
-		::MoleMole::MonoInteractionPoint* monoInteractionPointComp; // 0x70
-		::NPCCrowd::Avatar::NPCAvatarGOReferenceSimpleModelComponentInfo* simpleModelComponentInfo; // 0x78
-		::NPCCrowd::Avatar::NPCAvatarGOReferenceShadowProxyComponentInfo* shadowProxyComponentInfo; // 0x80
-		::UnityEngine::GameObject* _go; // 0x88
+		::System::Collections::Generic::List_1<::NPCCrowd::Avatar::NPCAvatarGOReferenceComponentInfo*>* parts; // 0x10
+		::UnityEngine::GameObject* _go; // 0x18
+		::miHoYoEmotion::EmoSync* emoSync; // 0x20
+		::MoleMole::MonoInteractionPoint* monoInteractionPointComp; // 0x28
+		::UnityEngine::GameObject* audioEmitter; // 0x30
+		::UnityEngine::AI::NavMeshObstacle* navObs; // 0x38
+		::NPCCrowd::Avatar::NPCAvatarGOReferenceShadowProxyComponentInfo* shadowProxyComponentInfo; // 0x40
+		::UnityEngine::Animator* animator; // 0x48
+		::MoleMole::MonoFeaturePoint* monoFeaturePointComp; // 0x50
+		::NPCCrowd::NPCMonoDelegate* monoDelegate; // 0x58
+		::UnityEngine::Rigidbody* rigid; // 0x60
+		::UnityEngine::Collider* collider; // 0x68
+		::NPCCrowd::Avatar::NPCAvatarGOReferenceSimpleModelComponentInfo* simpleModelComponentInfo; // 0x70
+		::MoleMole::MonoItemState* monoItemStateComp; // 0x78
+		::miHoYoEmotion::EyeKey* eyeKey; // 0x80
+		::miHoYoEmotion::ClipShapeManager* clipShapeManager; // 0x88
 		::UnityEngine::Vector3 bornPosition; // 0x90
-		::System::Int32 id; // 0x9C
+		::System::Boolean audioEnableTrigger; // 0x9C
 		::System::Int32 shadowProxyMeshIndex; // 0xA0
 		::System::UInt32 audioLoopEventID; // 0xA4
-		::System::Single audioLastTriggerTime; // 0xA8
+		::System::Int32 id; // 0xA8
 		::UnityEngine::Quaternion bornRot; // 0xAC
-		::System::Boolean audioEnableTrigger; // 0xBC
+		::System::Single audioLastTriggerTime; // 0xBC
 
 		::System::Void _ctor()
 		{

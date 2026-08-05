@@ -7,7 +7,7 @@ namespace System { class Object; }
 
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int IUnityGeneratedFormatter_TypeDefinitionIndex = 7596;
+	inline static constexpr unsigned int IUnityGeneratedFormatter_TypeDefinitionIndex = 7600;
 
 	class IUnityGeneratedFormatter
 	{

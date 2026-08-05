@@ -4,7 +4,7 @@
 
 namespace MoleMole::Level
 {
-	inline static constexpr unsigned int LevelZeroMonsterWaveLimit_TypeDefinitionIndex = 45054;
+	inline static constexpr unsigned int LevelZeroMonsterWaveLimit_TypeDefinitionIndex = 75468;
 
 	struct alignas(4) LevelZeroMonsterWaveLimit
 	{

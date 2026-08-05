@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Timeline/Comic/DataSplitter/DataSplitterBase_1.h"
 
-#define UNITYENGINE_TIMELINE_COMIC_DATASPLITTER_INTSPLITTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD5D210)
+#define UNITYENGINE_TIMELINE_COMIC_DATASPLITTER_INTSPLITTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F1A2010)
 
 namespace UnityEngine::Timeline::Comic::DataSplitter
 {
-	inline static constexpr unsigned int IntSplitter_TypeDefinitionIndex = 32468;
+	inline static constexpr unsigned int IntSplitter_TypeDefinitionIndex = 33101;
 
 	class IntSplitter : public ::UnityEngine::Timeline::Comic::DataSplitter::DataSplitterBase_1<::System::Int32>
 	{

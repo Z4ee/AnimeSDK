@@ -3,11 +3,11 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define NAVMESHRANDOMPOINTONNAVMESH_RANDOMPOINT_OFFSET UNITYSDK_OFFSET(0x1E7A8120)
-#define NAVMESHRANDOMPOINTONNAVMESH_UPDATE_OFFSET UNITYSDK_OFFSET(0x1E7A8290)
-#define NAVMESHRANDOMPOINTONNAVMESH__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7A8550)
+#define NAVMESHRANDOMPOINTONNAVMESH_RANDOMPOINT_OFFSET UNITYSDK_OFFSET(0x1FB7E3B0)
+#define NAVMESHRANDOMPOINTONNAVMESH_UPDATE_OFFSET UNITYSDK_OFFSET(0x1FB7E530)
+#define NAVMESHRANDOMPOINTONNAVMESH__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB7E7E0)
 
-inline static constexpr unsigned int NavmeshRandomPointOnNavMesh_TypeDefinitionIndex = 91054;
+inline static constexpr unsigned int NavmeshRandomPointOnNavMesh_TypeDefinitionIndex = 94987;
 
 class NavmeshRandomPointOnNavMesh : public ::UnityEngine::MonoBehaviour
 {

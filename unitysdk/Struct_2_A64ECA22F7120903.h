@@ -2,16 +2,16 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define STRUCT_2_A64ECA22F7120903_DISPOSE_OFFSET UNITYSDK_OFFSET(0x856AD0)
-#define STRUCT_2_A64ECA22F7120903__CTOR_OFFSET UNITYSDK_OFFSET(0x856AC0)
+#define STRUCT_2_A64ECA22F7120903_DISPOSE_OFFSET UNITYSDK_OFFSET(0x81C900)
+#define STRUCT_2_A64ECA22F7120903__CTOR_OFFSET UNITYSDK_OFFSET(0x81C8F0)
 
-inline static constexpr unsigned int Struct_2_A64ECA22F7120903_TypeDefinitionIndex = 64855;
+inline static constexpr unsigned int Struct_2_A64ECA22F7120903_TypeDefinitionIndex = 52663;
 
 struct alignas(1) Struct_2_A64ECA22F7120903
 {
 	static ::System::Boolean* StaticGet_Field_2_0()
 	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Struct_2_A64ECA22F7120903_TypeDefinitionIndex)->GetStaticField(0xE980);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Struct_2_A64ECA22F7120903_TypeDefinitionIndex)->GetStaticField(0xE1E0);
 	}
 
 	::System::Void _ctor(::System::Boolean a1)

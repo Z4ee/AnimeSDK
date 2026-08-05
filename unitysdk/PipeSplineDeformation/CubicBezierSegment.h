@@ -3,12 +3,12 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define PIPESPLINEDEFORMATION_CUBICBEZIERSEGMENT_EVALUATE_OFFSET UNITYSDK_OFFSET(0x8BE1A0)
-#define PIPESPLINEDEFORMATION_CUBICBEZIERSEGMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x8BE120)
+#define PIPESPLINEDEFORMATION_CUBICBEZIERSEGMENT_EVALUATE_OFFSET UNITYSDK_OFFSET(0x8D8880)
+#define PIPESPLINEDEFORMATION_CUBICBEZIERSEGMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x8D8800)
 
 namespace PipeSplineDeformation
 {
-	inline static constexpr unsigned int CubicBezierSegment_TypeDefinitionIndex = 26273;
+	inline static constexpr unsigned int CubicBezierSegment_TypeDefinitionIndex = 27912;
 
 	struct alignas(4) CubicBezierSegment
 	{

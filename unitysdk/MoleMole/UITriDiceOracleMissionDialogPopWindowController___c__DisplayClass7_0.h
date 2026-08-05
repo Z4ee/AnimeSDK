@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UITriDiceOracleInfoDialogOpenContext; }
 
-#define MOLEMOLE_UITRIDICEORACLEMISSIONDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x11BD9580)
-#define MOLEMOLE_UITRIDICEORACLEMISSIONDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS7_0__ONSHOW_B__0_OFFSET UNITYSDK_OFFSET(0x11BD9590)
+#define MOLEMOLE_UITRIDICEORACLEMISSIONDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15140A50)
+#define MOLEMOLE_UITRIDICEORACLEMISSIONDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS7_0__ONSHOW_B__0_OFFSET UNITYSDK_OFFSET(0x15140A60)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UITriDiceOracleMissionDialogPopWindowController___c__DisplayClass7_0_TypeDefinitionIndex = 42008;
+	inline static constexpr unsigned int UITriDiceOracleMissionDialogPopWindowController___c__DisplayClass7_0_TypeDefinitionIndex = 40543;
 
 	class UITriDiceOracleMissionDialogPopWindowController___c__DisplayClass7_0 : public ::System::Object
 	{

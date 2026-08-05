@@ -5,9 +5,9 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class MeshRenderer; }
 
-#define CHANGELAYERFLICKHOLDER__CTOR_OFFSET UNITYSDK_OFFSET(0x15583240)
+#define CHANGELAYERFLICKHOLDER__CTOR_OFFSET UNITYSDK_OFFSET(0x13CD6C40)
 
-inline static constexpr unsigned int ChangeLayerFlickHolder_TypeDefinitionIndex = 50453;
+inline static constexpr unsigned int ChangeLayerFlickHolder_TypeDefinitionIndex = 87045;
 
 class ChangeLayerFlickHolder : public ::System::Object
 {

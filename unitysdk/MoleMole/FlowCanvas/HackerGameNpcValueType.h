@@ -3,14 +3,14 @@
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int HackerGameNpcValueType_TypeDefinitionIndex = 76444;
+	inline static constexpr unsigned int HackerGameNpcValueType_TypeDefinitionIndex = 85559;
 
 	enum class HackerGameNpcValueType : ::System::Int32
 	{
-		Damage = 3,
-		Reward = 2,
-		Health = 1,
-		None = 0,
 		FeverReward = 4,
+		Health = 1,
+		Damage = 3,
+		None = 0,
+		Reward = 2,
 	};
 }

@@ -5,12 +5,12 @@
 namespace MiHoYo::SDK::PC::OS { class HoYoChannelUserProfileResult; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_HOYOCHANNELSOCIALSERVICES___C__DISPLAYCLASS23_2__CLEANUPTIMEDOUTCALLBACKS_B__2_OFFSET UNITYSDK_OFFSET(0x1C5577A0)
-#define MIHOYO_SDK_HOYOCHANNELSOCIALSERVICES___C__DISPLAYCLASS23_2__CTOR_OFFSET UNITYSDK_OFFSET(0x1C557790)
+#define MIHOYO_SDK_HOYOCHANNELSOCIALSERVICES___C__DISPLAYCLASS23_2__CLEANUPTIMEDOUTCALLBACKS_B__2_OFFSET UNITYSDK_OFFSET(0x1D954170)
+#define MIHOYO_SDK_HOYOCHANNELSOCIALSERVICES___C__DISPLAYCLASS23_2__CTOR_OFFSET UNITYSDK_OFFSET(0x1D954160)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int HoYoChannelSocialServices___c__DisplayClass23_2_TypeDefinitionIndex = 36940;
+	inline static constexpr unsigned int HoYoChannelSocialServices___c__DisplayClass23_2_TypeDefinitionIndex = 37601;
 
 	class HoYoChannelSocialServices___c__DisplayClass23_2 : public ::System::Object
 	{

@@ -1,25 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_F80BFD5B986D5503.h"
+#include "unitysdk/Enum_3_F80BFD5B986D5503_1.h"
 #include "unitysdk/System/Object.h"
 
-class Class_3_4666E61F66433B1E;
+class Class_3_09CC5D2676B783CA;
 namespace System { class String; }
 
-#define CLASS_1_B61C4EDDF0AF60D0_COMPARETO_OFFSET UNITYSDK_OFFSET(0x123D2C00)
-#define CLASS_1_B61C4EDDF0AF60D0__CTOR_OFFSET UNITYSDK_OFFSET(0x123D2C60)
+#define CLASS_1_B61C4EDDF0AF60D0_COMPARETO_OFFSET UNITYSDK_OFFSET(0x14E37800)
+#define CLASS_1_B61C4EDDF0AF60D0__CTOR_OFFSET UNITYSDK_OFFSET(0x14E37870)
 
-inline static constexpr unsigned int Class_1_B61C4EDDF0AF60D0_TypeDefinitionIndex = 81934;
+inline static constexpr unsigned int Class_1_B61C4EDDF0AF60D0_TypeDefinitionIndex = 84264;
 
 class Class_1_B61C4EDDF0AF60D0 : public ::System::Object
 {
 public:
-	::Class_3_4666E61F66433B1E* Field_1_2; // 0x10
+	::Class_3_09CC5D2676B783CA* Field_1_5; // 0x10
 	::System::String* Field_1_0; // 0x18
-	::Enum_3_F80BFD5B986D5503 Field_1_4; // 0x20
-	::System::Int32 Field_1_1; // 0x24
-	::System::Boolean Field_1_5; // 0x28
-	::System::Boolean Field_1_3; // 0x29
+	::System::Boolean Field_1_10; // 0x20
+	::System::Boolean Field_1_7; // 0x21
+	::System::Boolean Field_1_4; // 0x22
+	::System::Int32 Field_1_6; // 0x24
+	::Enum_3_F80BFD5B986D5503_1 Field_1_11; // 0x28
 
 	::System::Void _ctor()
 	{

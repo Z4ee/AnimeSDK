@@ -6,11 +6,11 @@
 namespace Foundation::Unreal { class SerializableGameplayTag; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIGBIGSCENECOMMONSKILL__CTOR_OFFSET UNITYSDK_OFFSET(0x170D0650)
+#define MOLEMOLE_CONFIGBIGSCENECOMMONSKILL__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4F68F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigBigSceneCommonSkill_TypeDefinitionIndex = 85722;
+	inline static constexpr unsigned int ConfigBigSceneCommonSkill_TypeDefinitionIndex = 82133;
 
 	class ConfigBigSceneCommonSkill : public ::Foundation::MihoyoSerializedScriptableObject
 	{

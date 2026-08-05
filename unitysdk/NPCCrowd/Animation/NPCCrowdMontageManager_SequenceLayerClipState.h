@@ -4,7 +4,7 @@
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int NPCCrowdMontageManager_SequenceLayerClipState_TypeDefinitionIndex = 65137;
+	inline static constexpr unsigned int NPCCrowdMontageManager_SequenceLayerClipState_TypeDefinitionIndex = 66976;
 
 	struct alignas(4) NPCCrowdMontageManager_SequenceLayerClipState
 	{

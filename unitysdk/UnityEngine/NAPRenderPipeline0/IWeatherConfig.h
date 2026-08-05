@@ -22,7 +22,7 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int IWeatherConfig_TypeDefinitionIndex = 5906;
+	inline static constexpr unsigned int IWeatherConfig_TypeDefinitionIndex = 5908;
 
 	class IWeatherConfig
 	{

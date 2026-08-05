@@ -5,24 +5,24 @@
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace UnityEngine { class Renderer; }
 
-#define MOLEMOLE_TIMELINE_MATERIALBASEBEHAVIOR___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DD08FB0)
-#define MOLEMOLE_TIMELINE_MATERIALBASEBEHAVIOR___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD08FF0)
-#define MOLEMOLE_TIMELINE_MATERIALBASEBEHAVIOR___C__GETALLRENDERERS_B__25_0_OFFSET UNITYSDK_OFFSET(0x1DD09000)
+#define MOLEMOLE_TIMELINE_MATERIALBASEBEHAVIOR___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F0DFFC0)
+#define MOLEMOLE_TIMELINE_MATERIALBASEBEHAVIOR___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1F0E0000)
+#define MOLEMOLE_TIMELINE_MATERIALBASEBEHAVIOR___C__GETALLRENDERERS_B__25_0_OFFSET UNITYSDK_OFFSET(0x1F0E0010)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int MaterialBaseBehavior___c_TypeDefinitionIndex = 32169;
+	inline static constexpr unsigned int MaterialBaseBehavior___c_TypeDefinitionIndex = 32799;
 
 	class MaterialBaseBehavior___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::Timeline::MaterialBaseBehavior___c** StaticGet___9()
-		{
-			return (::MoleMole::Timeline::MaterialBaseBehavior___c**)Il2CppClass::FromTypeDefinitionIndex(MaterialBaseBehavior___c_TypeDefinitionIndex)->GetStaticField(0x26810);
-		}
 		static ::System::Func_2<::UnityEngine::Renderer*, ::System::Boolean>** StaticGet___9__25_0()
 		{
-			return (::System::Func_2<::UnityEngine::Renderer*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MaterialBaseBehavior___c_TypeDefinitionIndex)->GetStaticField(0x26818);
+			return (::System::Func_2<::UnityEngine::Renderer*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MaterialBaseBehavior___c_TypeDefinitionIndex)->GetStaticField(0x27FA0);
+		}
+		static ::MoleMole::Timeline::MaterialBaseBehavior___c** StaticGet___9()
+		{
+			return (::MoleMole::Timeline::MaterialBaseBehavior___c**)Il2CppClass::FromTypeDefinitionIndex(MaterialBaseBehavior___c_TypeDefinitionIndex)->GetStaticField(0x27FA8);
 		}
 
 		static ::System::Void _cctor()

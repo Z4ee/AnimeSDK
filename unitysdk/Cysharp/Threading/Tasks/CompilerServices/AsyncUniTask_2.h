@@ -14,7 +14,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace Cysharp::Threading::Tasks::CompilerServices
 {
-	inline static constexpr unsigned int AsyncUniTask_2_TypeDefinitionIndex = 31499;
+	inline static constexpr unsigned int AsyncUniTask_2_TypeDefinitionIndex = 32119;
 
 	template <typename TStateMachine, typename T>
 	class AsyncUniTask_2 : public ::System::Object

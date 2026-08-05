@@ -3,7 +3,7 @@
 
 namespace UnityEngine::InputSystem::HID
 {
-	inline static constexpr unsigned int HID_Button_TypeDefinitionIndex = 31799;
+	inline static constexpr unsigned int HID_Button_TypeDefinitionIndex = 32419;
 
 	enum class HID_Button : ::System::Int32
 	{

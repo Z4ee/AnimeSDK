@@ -7,12 +7,12 @@ namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Object; }
 namespace UnityEngine { class ScriptableObject; }
 
-#define MOLEMOLE_UTILS_SOFTSCRIPTOBJECTREFERENCE___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0xF967110)
-#define MOLEMOLE_UTILS_SOFTSCRIPTOBJECTREFERENCE___C__DISPLAYCLASS4_0__LOADASYNC_B__0_OFFSET UNITYSDK_OFFSET(0xF967120)
+#define MOLEMOLE_UTILS_SOFTSCRIPTOBJECTREFERENCE___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x11E56730)
+#define MOLEMOLE_UTILS_SOFTSCRIPTOBJECTREFERENCE___C__DISPLAYCLASS4_0__LOADASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x11E56740)
 
 namespace MoleMole::Utils
 {
-	inline static constexpr unsigned int SoftScriptObjectReference___c__DisplayClass4_0_TypeDefinitionIndex = 70919;
+	inline static constexpr unsigned int SoftScriptObjectReference___c__DisplayClass4_0_TypeDefinitionIndex = 43264;
 
 	class SoftScriptObjectReference___c__DisplayClass4_0 : public ::System::Object
 	{

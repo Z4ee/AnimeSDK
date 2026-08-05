@@ -5,19 +5,19 @@
 namespace MoleMole { class UIReconnectingPopWindowController; }
 namespace System { class String; }
 
-#define CUSTOMSKIN_LOADING_INSTANCE_OFFSET UNITYSDK_OFFSET(0x130FB960)
-#define CUSTOMSKIN_LOADING_ONCLOSE_OFFSET UNITYSDK_OFFSET(0x130FBBB0)
-#define CUSTOMSKIN_LOADING_ONSHOW_OFFSET UNITYSDK_OFFSET(0x130FBB20)
-#define CUSTOMSKIN_LOADING__CTOR_OFFSET UNITYSDK_OFFSET(0x130FBA90)
+#define CUSTOMSKIN_LOADING_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1A89B890)
+#define CUSTOMSKIN_LOADING_ONCLOSE_OFFSET UNITYSDK_OFFSET(0x1A89BAE0)
+#define CUSTOMSKIN_LOADING_ONSHOW_OFFSET UNITYSDK_OFFSET(0x1A89BA50)
+#define CUSTOMSKIN_LOADING__CTOR_OFFSET UNITYSDK_OFFSET(0x1A89B9C0)
 
-inline static constexpr unsigned int CustomSkin_Loading_TypeDefinitionIndex = 58337;
+inline static constexpr unsigned int CustomSkin_Loading_TypeDefinitionIndex = 68073;
 
 class CustomSkin_Loading : public ::MiHoYo::SDK::PluginUI::MiHoYoSDKUIContainer
 {
 public:
 	static ::CustomSkin_Loading** StaticGet__instance()
 	{
-		return (::CustomSkin_Loading**)Il2CppClass::FromTypeDefinitionIndex(CustomSkin_Loading_TypeDefinitionIndex)->GetStaticField(0x4B710);
+		return (::CustomSkin_Loading**)Il2CppClass::FromTypeDefinitionIndex(CustomSkin_Loading_TypeDefinitionIndex)->GetStaticField(0x499D0);
 	}
 	// static const ::System::String* ActiveMaskTag_CustomSkin_Loading; // 0x0
 	::MoleMole::UIReconnectingPopWindowController* reconnect; // 0x18

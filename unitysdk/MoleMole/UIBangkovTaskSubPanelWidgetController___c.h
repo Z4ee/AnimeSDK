@@ -5,24 +5,24 @@
 class Class_1_1710A4EE34865C78;
 namespace System { template <typename T> class Comparison_1; }
 
-#define MOLEMOLE_UIBANGKOVTASKSUBPANELWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17F56BC0)
-#define MOLEMOLE_UIBANGKOVTASKSUBPANELWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17F56C00)
-#define MOLEMOLE_UIBANGKOVTASKSUBPANELWIDGETCONTROLLER___C__ONSHOW_B__10_0_OFFSET UNITYSDK_OFFSET(0x17F56C10)
+#define MOLEMOLE_UIBANGKOVTASKSUBPANELWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x192A9590)
+#define MOLEMOLE_UIBANGKOVTASKSUBPANELWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x192A95D0)
+#define MOLEMOLE_UIBANGKOVTASKSUBPANELWIDGETCONTROLLER___C__ONSHOW_B__10_0_OFFSET UNITYSDK_OFFSET(0x192A95E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBangkovTaskSubPanelWidgetController___c_TypeDefinitionIndex = 58094;
+	inline static constexpr unsigned int UIBangkovTaskSubPanelWidgetController___c_TypeDefinitionIndex = 52112;
 
 	class UIBangkovTaskSubPanelWidgetController___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::Class_1_1710A4EE34865C78*>** StaticGet___9__10_0()
-		{
-			return (::System::Comparison_1<::Class_1_1710A4EE34865C78*>**)Il2CppClass::FromTypeDefinitionIndex(UIBangkovTaskSubPanelWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x46B90);
-		}
 		static ::MoleMole::UIBangkovTaskSubPanelWidgetController___c** StaticGet___9()
 		{
-			return (::MoleMole::UIBangkovTaskSubPanelWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIBangkovTaskSubPanelWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x46B98);
+			return (::MoleMole::UIBangkovTaskSubPanelWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIBangkovTaskSubPanelWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x4FF40);
+		}
+		static ::System::Comparison_1<::Class_1_1710A4EE34865C78*>** StaticGet___9__10_0()
+		{
+			return (::System::Comparison_1<::Class_1_1710A4EE34865C78*>**)Il2CppClass::FromTypeDefinitionIndex(UIBangkovTaskSubPanelWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x4FF48);
 		}
 
 		static ::System::Void _cctor()

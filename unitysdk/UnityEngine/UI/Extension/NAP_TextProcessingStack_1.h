@@ -4,7 +4,7 @@
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int NAP_TextProcessingStack_1_TypeDefinitionIndex = 81978;
+	inline static constexpr unsigned int NAP_TextProcessingStack_1_TypeDefinitionIndex = 57083;
 
 	template <typename T>
 	struct NAP_TextProcessingStack_1

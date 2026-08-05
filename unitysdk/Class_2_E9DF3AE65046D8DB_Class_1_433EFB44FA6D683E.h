@@ -1,0 +1,45 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+namespace System { template <typename T> class Action_1; }
+
+#define CLASS_2_E9DF3AE65046D8DB_CLASS_1_433EFB44FA6D683E_METHOD_1_0D64FB84CB8E6995_OFFSET UNITYSDK_OFFSET(0x11238D10)
+#define CLASS_2_E9DF3AE65046D8DB_CLASS_1_433EFB44FA6D683E_METHOD_1_62930B2C76F48ACC_1_OFFSET UNITYSDK_OFFSET(0x11238E00)
+#define CLASS_2_E9DF3AE65046D8DB_CLASS_1_433EFB44FA6D683E_METHOD_1_62930B2C76F48ACC_2_OFFSET UNITYSDK_OFFSET(0x11238E80)
+#define CLASS_2_E9DF3AE65046D8DB_CLASS_1_433EFB44FA6D683E_METHOD_1_62930B2C76F48ACC_OFFSET UNITYSDK_OFFSET(0x11238D80)
+#define CLASS_2_E9DF3AE65046D8DB_CLASS_1_433EFB44FA6D683E__CTOR_OFFSET UNITYSDK_OFFSET(0x11238D00)
+
+inline static constexpr unsigned int Class_2_E9DF3AE65046D8DB_Class_1_433EFB44FA6D683E_TypeDefinitionIndex = 77032;
+
+class Class_2_E9DF3AE65046D8DB_Class_1_433EFB44FA6D683E : public ::System::Object
+{
+public:
+	::System::Action_1<::System::Single>* Field_1_1; // 0x10
+	::System::Single Field_1_0; // 0x18
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E9DF3AE65046D8DB_CLASS_1_433EFB44FA6D683E__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_1_0D64FB84CB8E6995(::System::Single a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_2_E9DF3AE65046D8DB_CLASS_1_433EFB44FA6D683E_METHOD_1_0D64FB84CB8E6995_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_62930B2C76F48ACC(::System::Single a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_2_E9DF3AE65046D8DB_CLASS_1_433EFB44FA6D683E_METHOD_1_62930B2C76F48ACC_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_62930B2C76F48ACC_1(::System::Single a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_2_E9DF3AE65046D8DB_CLASS_1_433EFB44FA6D683E_METHOD_1_62930B2C76F48ACC_1_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_62930B2C76F48ACC_2(::System::Single a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_2_E9DF3AE65046D8DB_CLASS_1_433EFB44FA6D683E_METHOD_1_62930B2C76F48ACC_2_OFFSET))(this, a1);
+	}
+};

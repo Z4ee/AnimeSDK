@@ -5,12 +5,12 @@
 namespace NPCCrowd::Ability { class NPCAbilityMovementMoveStyleParameters; }
 namespace System { class String; }
 
-#define NPCCROWD_AI_PATHGRAPHSPAWNGROUPRUNTIME___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA6656A0)
-#define NPCCROWD_AI_PATHGRAPHSPAWNGROUPRUNTIME___C__DISPLAYCLASS13_0__STARTPATHFOLLOW_B__0_OFFSET UNITYSDK_OFFSET(0xA6658D0)
+#define NPCCROWD_AI_PATHGRAPHSPAWNGROUPRUNTIME___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0xF84FB10)
+#define NPCCROWD_AI_PATHGRAPHSPAWNGROUPRUNTIME___C__DISPLAYCLASS13_0__STARTPATHFOLLOW_B__0_OFFSET UNITYSDK_OFFSET(0xF84FD40)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int PathGraphSpawnGroupRuntime___c__DisplayClass13_0_TypeDefinitionIndex = 47503;
+	inline static constexpr unsigned int PathGraphSpawnGroupRuntime___c__DisplayClass13_0_TypeDefinitionIndex = 44119;
 
 	class PathGraphSpawnGroupRuntime___c__DisplayClass13_0 : public ::System::Object
 	{

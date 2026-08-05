@@ -8,21 +8,21 @@
 
 class Class_1_878E7E8F99041B8F;
 class Class_2_21BB1EBBC5460F75;
-class Class_5_FCAF801AC482D3B5;
+class Class_5_DCFF91E03A93C03C;
 namespace MoleMole { class UIHollowChessboard3DModelController; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_FLOWCANVAS_CHESSFOCUSCAMERA_INVOKE_OFFSET UNITYSDK_OFFSET(0x12FFC740)
-#define MOLEMOLE_FLOWCANVAS_CHESSFOCUSCAMERA_ONGRAPHSTOPED_OFFSET UNITYSDK_OFFSET(0x12FFCCE0)
-#define MOLEMOLE_FLOWCANVAS_CHESSFOCUSCAMERA_TRYFOCUSINTERNAL_OFFSET UNITYSDK_OFFSET(0x12FFCFB0)
-#define MOLEMOLE_FLOWCANVAS_CHESSFOCUSCAMERA_TRYFOCUS_OFFSET UNITYSDK_OFFSET(0x12FFC880)
-#define MOLEMOLE_FLOWCANVAS_CHESSFOCUSCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x12FFD4F0)
-#define MOLEMOLE_FLOWCANVAS_CHESSFOCUSCAMERA___BASE_ONGRAPHSTOPED_OFFSET UNITYSDK_OFFSET(0x12FFD5A0)
+#define MOLEMOLE_FLOWCANVAS_CHESSFOCUSCAMERA_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A03F190)
+#define MOLEMOLE_FLOWCANVAS_CHESSFOCUSCAMERA_ONGRAPHSTOPED_OFFSET UNITYSDK_OFFSET(0x1A03F730)
+#define MOLEMOLE_FLOWCANVAS_CHESSFOCUSCAMERA_TRYFOCUSINTERNAL_OFFSET UNITYSDK_OFFSET(0x1A03FA00)
+#define MOLEMOLE_FLOWCANVAS_CHESSFOCUSCAMERA_TRYFOCUS_OFFSET UNITYSDK_OFFSET(0x1A03F2D0)
+#define MOLEMOLE_FLOWCANVAS_CHESSFOCUSCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x1A03FF50)
+#define MOLEMOLE_FLOWCANVAS_CHESSFOCUSCAMERA___BASE_ONGRAPHSTOPED_OFFSET UNITYSDK_OFFSET(0x1A040000)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int ChessFocusCamera_TypeDefinitionIndex = 56903;
+	inline static constexpr unsigned int ChessFocusCamera_TypeDefinitionIndex = 64606;
 
 	class ChessFocusCamera : public ::MoleMole::FlowCanvas::ChessboardCallableActionNode_2<::System::Collections::Generic::List_1<::MoleMole::HollowChessboard::HollowCell>*, ::System::String*>
 	{
@@ -44,14 +44,14 @@ namespace MoleMole::FlowCanvas
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_CHESSFOCUSCAMERA_ONGRAPHSTOPED_OFFSET))(this);
 		}
 
-		static ::System::Boolean TryFocus(::System::Collections::Generic::List_1<::MoleMole::HollowChessboard::HollowCell>* pointList, ::Enum_3_E2BB401879FE05E8 priority, ::Enum_3_10513DA28B7AD271 focusCameraZMode, ::Class_5_FCAF801AC482D3B5* chessboard, ::Struct_2_AAD2B1B6FB741157& cameraStateHandle, ::System::String* focusKey)
+		static ::System::Boolean TryFocus(::System::Collections::Generic::List_1<::MoleMole::HollowChessboard::HollowCell>* pointList, ::Enum_3_E2BB401879FE05E8 priority, ::Enum_3_10513DA28B7AD271 focusCameraZMode, ::Class_5_DCFF91E03A93C03C* chessboard, ::Struct_2_AAD2B1B6FB741157& cameraStateHandle, ::System::String* focusKey)
 		{
-			return ((::System::Boolean(*)(::System::Collections::Generic::List_1<::MoleMole::HollowChessboard::HollowCell>*, ::Enum_3_E2BB401879FE05E8, ::Enum_3_10513DA28B7AD271, ::Class_5_FCAF801AC482D3B5*, ::Struct_2_AAD2B1B6FB741157&, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_CHESSFOCUSCAMERA_TRYFOCUS_OFFSET))(pointList, priority, focusCameraZMode, chessboard, cameraStateHandle, focusKey);
+			return ((::System::Boolean(*)(::System::Collections::Generic::List_1<::MoleMole::HollowChessboard::HollowCell>*, ::Enum_3_E2BB401879FE05E8, ::Enum_3_10513DA28B7AD271, ::Class_5_DCFF91E03A93C03C*, ::Struct_2_AAD2B1B6FB741157&, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_CHESSFOCUSCAMERA_TRYFOCUS_OFFSET))(pointList, priority, focusCameraZMode, chessboard, cameraStateHandle, focusKey);
 		}
 
-		static ::System::Boolean TryFocusInternal(::Enum_3_E2BB401879FE05E8 priority, ::MoleMole::UIHollowChessboard3DModelController* chessboardCtrl, ::Class_5_FCAF801AC482D3B5* hollowChessboard, ::Class_2_21BB1EBBC5460F75* cameraController, ::Class_1_878E7E8F99041B8F* focusCamera, ::Struct_2_AAD2B1B6FB741157& cameraStateHandle)
+		static ::System::Boolean TryFocusInternal(::Enum_3_E2BB401879FE05E8 priority, ::MoleMole::UIHollowChessboard3DModelController* chessboardCtrl, ::Class_5_DCFF91E03A93C03C* hollowChessboard, ::Class_2_21BB1EBBC5460F75* cameraController, ::Class_1_878E7E8F99041B8F* focusCamera, ::Struct_2_AAD2B1B6FB741157& cameraStateHandle)
 		{
-			return ((::System::Boolean(*)(::Enum_3_E2BB401879FE05E8, ::MoleMole::UIHollowChessboard3DModelController*, ::Class_5_FCAF801AC482D3B5*, ::Class_2_21BB1EBBC5460F75*, ::Class_1_878E7E8F99041B8F*, ::Struct_2_AAD2B1B6FB741157&))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_CHESSFOCUSCAMERA_TRYFOCUSINTERNAL_OFFSET))(priority, chessboardCtrl, hollowChessboard, cameraController, focusCamera, cameraStateHandle);
+			return ((::System::Boolean(*)(::Enum_3_E2BB401879FE05E8, ::MoleMole::UIHollowChessboard3DModelController*, ::Class_5_DCFF91E03A93C03C*, ::Class_2_21BB1EBBC5460F75*, ::Class_1_878E7E8F99041B8F*, ::Struct_2_AAD2B1B6FB741157&))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_CHESSFOCUSCAMERA_TRYFOCUSINTERNAL_OFFSET))(priority, chessboardCtrl, hollowChessboard, cameraController, focusCamera, cameraStateHandle);
 		}
 
 		::System::Void __base_OnGraphStoped()

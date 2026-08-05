@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 
 class Class_1_04057F2C2F6EB8E0;
-class Class_1_E85C6B6436A9E3DA;
-template <typename T> class Class_0_16E4307DCC41950C_10;
+class Class_1_EDECBB3B4D362847;
+template <typename T> class Class_0_16E4307DCC41950C_13;
 
-inline static constexpr unsigned int Class_1_BF64A3E806610DD3_1_TypeDefinitionIndex = 28943;
+inline static constexpr unsigned int Class_1_BF64A3E806610DD3_1_TypeDefinitionIndex = 29362;
 
 template <typename T>
 class Class_1_BF64A3E806610DD3_1 : public ::System::Object

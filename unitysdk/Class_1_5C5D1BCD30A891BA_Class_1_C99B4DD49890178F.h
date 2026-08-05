@@ -6,17 +6,17 @@ namespace MoleMole::Config { class ConfigEntityCharacterVolumeProxyEffects; }
 namespace System { class Action; }
 namespace System { template <typename T> class Action_1; }
 
-#define CLASS_1_5C5D1BCD30A891BA_CLASS_1_C99B4DD49890178F_METHOD_1_1D19CD71312C7DE1_OFFSET UNITYSDK_OFFSET(0x11D66370)
-#define CLASS_1_5C5D1BCD30A891BA_CLASS_1_C99B4DD49890178F__CTOR_OFFSET UNITYSDK_OFFSET(0x11D66360)
+#define CLASS_1_5C5D1BCD30A891BA_CLASS_1_C99B4DD49890178F_METHOD_1_1D19CD71312C7DE1_OFFSET UNITYSDK_OFFSET(0x156FC6B0)
+#define CLASS_1_5C5D1BCD30A891BA_CLASS_1_C99B4DD49890178F__CTOR_OFFSET UNITYSDK_OFFSET(0x156FC6A0)
 
-inline static constexpr unsigned int Class_1_5C5D1BCD30A891BA_Class_1_C99B4DD49890178F_TypeDefinitionIndex = 77447;
+inline static constexpr unsigned int Class_1_5C5D1BCD30A891BA_Class_1_C99B4DD49890178F_TypeDefinitionIndex = 67665;
 
 class Class_1_5C5D1BCD30A891BA_Class_1_C99B4DD49890178F : public ::System::Object
 {
 public:
-	::System::Action_1<::MoleMole::Config::ConfigEntityCharacterVolumeProxyEffects*>* Field_1_2; // 0x10
+	::System::Action_1<::MoleMole::Config::ConfigEntityCharacterVolumeProxyEffects*>* Field_1_0; // 0x10
 	::System::Action* Field_1_1; // 0x18
-	::System::Int32 Field_1_0; // 0x20
+	::System::Int32 Field_1_2; // 0x20
 
 	::System::Void _ctor()
 	{

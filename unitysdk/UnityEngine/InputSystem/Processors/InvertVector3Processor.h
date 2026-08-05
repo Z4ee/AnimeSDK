@@ -6,20 +6,20 @@
 namespace System { class String; }
 namespace UnityEngine::InputSystem { class InputControl; }
 
-#define UNITYENGINE_INPUTSYSTEM_PROCESSORS_INVERTVECTOR3PROCESSOR_PROCESS_OFFSET UNITYSDK_OFFSET(0x1DDEE5E0)
-#define UNITYENGINE_INPUTSYSTEM_PROCESSORS_INVERTVECTOR3PROCESSOR_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DDEE640)
-#define UNITYENGINE_INPUTSYSTEM_PROCESSORS_INVERTVECTOR3PROCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1DDEE700)
+#define UNITYENGINE_INPUTSYSTEM_PROCESSORS_INVERTVECTOR3PROCESSOR_PROCESS_OFFSET UNITYSDK_OFFSET(0x1F1F7010)
+#define UNITYENGINE_INPUTSYSTEM_PROCESSORS_INVERTVECTOR3PROCESSOR_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1F1F7070)
+#define UNITYENGINE_INPUTSYSTEM_PROCESSORS_INVERTVECTOR3PROCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1F1F7130)
 
 namespace UnityEngine::InputSystem::Processors
 {
-	inline static constexpr unsigned int InvertVector3Processor_TypeDefinitionIndex = 31966;
+	inline static constexpr unsigned int InvertVector3Processor_TypeDefinitionIndex = 32586;
 
 	class InvertVector3Processor : public ::UnityEngine::InputSystem::InputProcessor_1<::UnityEngine::Vector3>
 	{
 	public:
-		::System::Boolean invertX; // 0x10
+		::System::Boolean invertY; // 0x10
 		::System::Boolean invertZ; // 0x11
-		::System::Boolean invertY; // 0x12
+		::System::Boolean invertX; // 0x12
 
 		::System::Void _ctor()
 		{

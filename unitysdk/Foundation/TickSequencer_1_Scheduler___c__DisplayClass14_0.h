@@ -4,7 +4,7 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int TickSequencer_1_Scheduler___c__DisplayClass14_0_TypeDefinitionIndex = 8595;
+	inline static constexpr unsigned int TickSequencer_1_Scheduler___c__DisplayClass14_0_TypeDefinitionIndex = 8728;
 
 	template <typename TTickingGroup>
 	struct TickSequencer_1_Scheduler___c__DisplayClass14_0

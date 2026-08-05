@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ComicImgConstValues_TypeDefinitionIndex = 32132;
+	inline static constexpr unsigned int ComicImgConstValues_TypeDefinitionIndex = 32760;
 
 	class ComicImgConstValues : public ::System::Object
 	{

@@ -7,7 +7,7 @@ namespace System { class Action; }
 
 namespace PipelineCamera::CameraSequence
 {
-	inline static constexpr unsigned int ICameraSequenceCollectionPlayer_TypeDefinitionIndex = 37923;
+	inline static constexpr unsigned int ICameraSequenceCollectionPlayer_TypeDefinitionIndex = 38584;
 
 	class ICameraSequenceCollectionPlayer
 	{

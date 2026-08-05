@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class Material; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINEEDITORRESOURCES_MATERIALRESOURCES__CTOR_OFFSET UNITYSDK_OFFSET(0x1B89A300)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINEEDITORRESOURCES_MATERIALRESOURCES__CTOR_OFFSET UNITYSDK_OFFSET(0x1CCA7280)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int UniversalRenderPipelineEditorResources_MaterialResources_TypeDefinitionIndex = 26530;
+	inline static constexpr unsigned int UniversalRenderPipelineEditorResources_MaterialResources_TypeDefinitionIndex = 27474;
 
 	class UniversalRenderPipelineEditorResources_MaterialResources : public ::System::Object
 	{

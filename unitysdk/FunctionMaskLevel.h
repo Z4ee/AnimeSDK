@@ -1,13 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int FunctionMaskLevel_TypeDefinitionIndex = 64743;
+inline static constexpr unsigned int FunctionMaskLevel_TypeDefinitionIndex = 77515;
 
 enum class FunctionMaskLevel : ::System::Int32
 {
-	Lock = 1,
 	Malfunction = 2,
-	Invisible = 4,
 	Disable = 3,
+	Lock = 1,
+	Invisible = 4,
 	None = 0,
 };

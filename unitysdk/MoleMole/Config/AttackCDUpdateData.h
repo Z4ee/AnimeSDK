@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_CONFIG_ATTACKCDUPDATEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x12B2DC30)
+#define MOLEMOLE_CONFIG_ATTACKCDUPDATEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x12A4A320)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AttackCDUpdateData_TypeDefinitionIndex = 46281;
+	inline static constexpr unsigned int AttackCDUpdateData_TypeDefinitionIndex = 41833;
 
 	class AttackCDUpdateData : public ::System::Object
 	{

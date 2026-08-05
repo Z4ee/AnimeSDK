@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 
-#define CLASS_2_BCC9C435D5E3D356_3__CTOR_OFFSET UNITYSDK_OFFSET(0x18B3C370)
+#define CLASS_2_BCC9C435D5E3D356_3__CTOR_OFFSET UNITYSDK_OFFSET(0x13452060)
 
-inline static constexpr unsigned int Class_2_BCC9C435D5E3D356_3_TypeDefinitionIndex = 65436;
+inline static constexpr unsigned int Class_2_BCC9C435D5E3D356_3_TypeDefinitionIndex = 70846;
 
 class Class_2_BCC9C435D5E3D356_3 : public ::UnityEngine::Playables::PlayableBehaviour
 {

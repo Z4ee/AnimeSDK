@@ -8,7 +8,7 @@ namespace System::Threading { class WaitCallback; }
 
 namespace FluffyUnderware::DevTools
 {
-	inline static constexpr unsigned int ThreadPoolWorker___c__DisplayClass4_0_1_TypeDefinitionIndex = 28379;
+	inline static constexpr unsigned int ThreadPoolWorker___c__DisplayClass4_0_1_TypeDefinitionIndex = 28983;
 
 	template <typename T>
 	class ThreadPoolWorker___c__DisplayClass4_0_1 : public ::System::Object

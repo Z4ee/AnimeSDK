@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_B6B482D5E3A4F997.h"
+#include "unitysdk/FlexBuffers/FlxValue.h"
 
-namespace System::Collections::Generic { template <typename T> class List_1; }
+class Class_1_236FD73ABC492E3F;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_659_TypeDefinitionIndex = 66325;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_659_TypeDefinitionIndex = 66321;
 
 class Class_0_16E4307DCC419505_659
 {

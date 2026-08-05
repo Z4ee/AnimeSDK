@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIFORBIDDENAREACOMBATCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x175D3F90)
+#define MOLEMOLE_UIFORBIDDENAREACOMBATCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x19386C40)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIForbiddenAreaCombatContext_TypeDefinitionIndex = 78570;
+	inline static constexpr unsigned int UIForbiddenAreaCombatContext_TypeDefinitionIndex = 56022;
 
 	class UIForbiddenAreaCombatContext : public ::MoleMole::UIControllerContextBase
 	{

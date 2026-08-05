@@ -3,12 +3,12 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIShoppingMallV2PageController_BgAnimationState_TypeDefinitionIndex = 40682;
+	inline static constexpr unsigned int UIShoppingMallV2PageController_BgAnimationState_TypeDefinitionIndex = 76940;
 
 	enum class UIShoppingMallV2PageController_BgAnimationState : ::System::Int32
 	{
 		ShowImmediate = 2,
-		FadeOut = 1,
 		FadeIn = 0,
+		FadeOut = 1,
 	};
 }

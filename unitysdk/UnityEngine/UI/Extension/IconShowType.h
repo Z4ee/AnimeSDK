@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int IconShowType_TypeDefinitionIndex = 55630;
+	inline static constexpr unsigned int IconShowType_TypeDefinitionIndex = 73872;
 
 	enum class IconShowType : ::System::Int32
 	{

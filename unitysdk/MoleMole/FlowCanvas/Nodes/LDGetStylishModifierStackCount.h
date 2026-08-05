@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FlowCanvas/Nodes/PureFunctionNode_1.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETSTYLISHMODIFIERSTACKCOUNT_INVOKE_OFFSET UNITYSDK_OFFSET(0x12BB3390)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETSTYLISHMODIFIERSTACKCOUNT__CTOR_OFFSET UNITYSDK_OFFSET(0x12BB3410)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETSTYLISHMODIFIERSTACKCOUNT_INVOKE_OFFSET UNITYSDK_OFFSET(0x138348F0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETSTYLISHMODIFIERSTACKCOUNT__CTOR_OFFSET UNITYSDK_OFFSET(0x13834970)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDGetStylishModifierStackCount_TypeDefinitionIndex = 41111;
+	inline static constexpr unsigned int LDGetStylishModifierStackCount_TypeDefinitionIndex = 61409;
 
 	class LDGetStylishModifierStackCount : public ::FlowCanvas::Nodes::PureFunctionNode_1<::System::Int32>
 	{

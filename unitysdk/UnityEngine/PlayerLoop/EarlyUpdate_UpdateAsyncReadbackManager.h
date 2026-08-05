@@ -4,7 +4,7 @@
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int EarlyUpdate_UpdateAsyncReadbackManager_TypeDefinitionIndex = 5545;
+	inline static constexpr unsigned int EarlyUpdate_UpdateAsyncReadbackManager_TypeDefinitionIndex = 5548;
 
 	struct alignas(1) EarlyUpdate_UpdateAsyncReadbackManager
 	{

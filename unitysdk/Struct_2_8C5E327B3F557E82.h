@@ -5,10 +5,10 @@
 
 namespace System { class String; }
 
-inline static constexpr unsigned int Struct_2_8C5E327B3F557E82_TypeDefinitionIndex = 74622;
+inline static constexpr unsigned int Struct_2_8C5E327B3F557E82_TypeDefinitionIndex = 43317;
 
 struct alignas(8) Struct_2_8C5E327B3F557E82
 {
-	::System::String* Field_2_0; // 0x10
-	::MoleMole::InputLogicEventType Field_2_1; // 0x18
+	::System::String* Field_2_1; // 0x10
+	::MoleMole::InputLogicEventType Field_2_0; // 0x18
 };

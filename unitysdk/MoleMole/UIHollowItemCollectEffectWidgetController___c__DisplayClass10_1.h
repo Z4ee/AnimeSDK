@@ -6,22 +6,22 @@
 namespace MoleMole { class UIHollowItemCollectEffectWidgetController___c__DisplayClass10_0; }
 namespace UnityEngine { class ParticleSystem; }
 
-#define MOLEMOLE_UIHOLLOWITEMCOLLECTEFFECTWIDGETCONTROLLER___C__DISPLAYCLASS10_1__CTOR_OFFSET UNITYSDK_OFFSET(0x18820400)
-#define MOLEMOLE_UIHOLLOWITEMCOLLECTEFFECTWIDGETCONTROLLER___C__DISPLAYCLASS10_1__SETPATH_B__5_OFFSET UNITYSDK_OFFSET(0x188204D0)
-#define MOLEMOLE_UIHOLLOWITEMCOLLECTEFFECTWIDGETCONTROLLER___C__DISPLAYCLASS10_1__SETPATH_B__6_OFFSET UNITYSDK_OFFSET(0x188204E0)
-#define MOLEMOLE_UIHOLLOWITEMCOLLECTEFFECTWIDGETCONTROLLER___C__DISPLAYCLASS10_1__SETPATH_B__8_OFFSET UNITYSDK_OFFSET(0x188204F0)
+#define MOLEMOLE_UIHOLLOWITEMCOLLECTEFFECTWIDGETCONTROLLER___C__DISPLAYCLASS10_1__CTOR_OFFSET UNITYSDK_OFFSET(0x19F19B20)
+#define MOLEMOLE_UIHOLLOWITEMCOLLECTEFFECTWIDGETCONTROLLER___C__DISPLAYCLASS10_1__SETPATH_B__5_OFFSET UNITYSDK_OFFSET(0x19F19BF0)
+#define MOLEMOLE_UIHOLLOWITEMCOLLECTEFFECTWIDGETCONTROLLER___C__DISPLAYCLASS10_1__SETPATH_B__6_OFFSET UNITYSDK_OFFSET(0x19F19C00)
+#define MOLEMOLE_UIHOLLOWITEMCOLLECTEFFECTWIDGETCONTROLLER___C__DISPLAYCLASS10_1__SETPATH_B__8_OFFSET UNITYSDK_OFFSET(0x19F19C10)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowItemCollectEffectWidgetController___c__DisplayClass10_1_TypeDefinitionIndex = 39929;
+	inline static constexpr unsigned int UIHollowItemCollectEffectWidgetController___c__DisplayClass10_1_TypeDefinitionIndex = 80721;
 
 	class UIHollowItemCollectEffectWidgetController___c__DisplayClass10_1 : public ::System::Object
 	{
 	public:
 		::UnityEngine::ParticleSystem* effect; // 0x10
 		::MoleMole::UIHollowItemCollectEffectWidgetController___c__DisplayClass10_0* CS___8__locals1; // 0x18
-		::MoleMole::ItemCollectEffectType effectType; // 0x20
-		::System::Single timerForEnd; // 0x24
+		::System::Single timerForEnd; // 0x20
+		::MoleMole::ItemCollectEffectType effectType; // 0x24
 
 		::System::Void _ctor()
 		{

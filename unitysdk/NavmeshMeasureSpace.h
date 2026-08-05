@@ -4,11 +4,11 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define NAVMESHMEASURESPACE_DRAWCIRCLE_OFFSET UNITYSDK_OFFSET(0x1E7A7CB0)
-#define NAVMESHMEASURESPACE_UPDATE_OFFSET UNITYSDK_OFFSET(0x1E7A7E90)
-#define NAVMESHMEASURESPACE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7A80D0)
+#define NAVMESHMEASURESPACE_DRAWCIRCLE_OFFSET UNITYSDK_OFFSET(0x1FB7DF40)
+#define NAVMESHMEASURESPACE_UPDATE_OFFSET UNITYSDK_OFFSET(0x1FB7E120)
+#define NAVMESHMEASURESPACE__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB7E360)
 
-inline static constexpr unsigned int NavmeshMeasureSpace_TypeDefinitionIndex = 91053;
+inline static constexpr unsigned int NavmeshMeasureSpace_TypeDefinitionIndex = 94991;
 
 class NavmeshMeasureSpace : public ::UnityEngine::MonoBehaviour
 {

@@ -6,29 +6,29 @@
 namespace MoleMole { class UIHorizontalLayoutGroup_UIAdaptorRectOffset; }
 namespace UnityEngine::UI { class VerticalLayoutGroup; }
 
-#define MOLEMOLE_UIVERTICALLAYOUTGROUP_GET_VALUECHANGED_OFFSET UNITYSDK_OFFSET(0xFAE6D60)
-#define MOLEMOLE_UIVERTICALLAYOUTGROUP_MARKVALUECHANGE_OFFSET UNITYSDK_OFFSET(0xFAE6D80)
-#define MOLEMOLE_UIVERTICALLAYOUTGROUP_REINITFROMLAYOUTGROUP_OFFSET UNITYSDK_OFFSET(0xFAE6C20)
-#define MOLEMOLE_UIVERTICALLAYOUTGROUP_SET_VALUECHANGED_OFFSET UNITYSDK_OFFSET(0xFAE6D70)
-#define MOLEMOLE_UIVERTICALLAYOUTGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0xFAE6AE0)
+#define MOLEMOLE_UIVERTICALLAYOUTGROUP_GET_VALUECHANGED_OFFSET UNITYSDK_OFFSET(0x11C220F0)
+#define MOLEMOLE_UIVERTICALLAYOUTGROUP_MARKVALUECHANGE_OFFSET UNITYSDK_OFFSET(0x11C22110)
+#define MOLEMOLE_UIVERTICALLAYOUTGROUP_REINITFROMLAYOUTGROUP_OFFSET UNITYSDK_OFFSET(0x11C21FC0)
+#define MOLEMOLE_UIVERTICALLAYOUTGROUP_SET_VALUECHANGED_OFFSET UNITYSDK_OFFSET(0x11C22100)
+#define MOLEMOLE_UIVERTICALLAYOUTGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x11C21E80)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIVerticalLayoutGroup_TypeDefinitionIndex = 61261;
+	inline static constexpr unsigned int UIVerticalLayoutGroup_TypeDefinitionIndex = 80756;
 
 	class UIVerticalLayoutGroup : public ::System::Object
 	{
 	public:
 		::MoleMole::UIHorizontalLayoutGroup_UIAdaptorRectOffset* padding; // 0x10
-		::System::Boolean ForceExpandHeight; // 0x18
-		::System::Boolean SizeHeight; // 0x19
-		::System::Boolean PosY; // 0x1A
-		::UnityEngine::TextAnchor childAlignment; // 0x1C
-		::System::Boolean ScaleWidth; // 0x20
-		::System::Boolean ForceExpandWidth; // 0x21
+		::UnityEngine::TextAnchor childAlignment; // 0x18
+		::System::Boolean ScaleWidth; // 0x1C
+		::System::Boolean SizeHeight; // 0x1D
+		::System::Boolean ForceExpandHeight; // 0x1E
+		::System::Boolean ScaleHeight; // 0x1F
+		::System::Boolean SizeWidth; // 0x20
 		::System::Single spacing; // 0x24
-		::System::Boolean SizeWidth; // 0x28
-		::System::Boolean ScaleHeight; // 0x29
+		::System::Boolean ForceExpandWidth; // 0x28
+		::System::Boolean PosY; // 0x29
 		::System::Boolean PosX; // 0x2A
 		::System::Boolean _valueChanged_k__BackingField; // 0x2B
 

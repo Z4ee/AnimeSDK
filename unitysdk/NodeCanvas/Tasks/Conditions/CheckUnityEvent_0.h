@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace System { class Type; }
 
-#define NODECANVAS_TASKS_CONDITIONS_CHECKUNITYEVENT_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1D82BEC0)
+#define NODECANVAS_TASKS_CONDITIONS_CHECKUNITYEVENT_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB9E1B0)
 
 namespace NodeCanvas::Tasks::Conditions
 {
-	inline static constexpr unsigned int CheckUnityEvent_0_TypeDefinitionIndex = 30866;
+	inline static constexpr unsigned int CheckUnityEvent_0_TypeDefinitionIndex = 31336;
 
 	class CheckUnityEvent_0 : public ::System::Object
 	{

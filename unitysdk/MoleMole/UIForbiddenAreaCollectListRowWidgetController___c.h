@@ -4,24 +4,24 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UIFORBIDDENAREACOLLECTLISTROWWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15B90A00)
-#define MOLEMOLE_UIFORBIDDENAREACOLLECTLISTROWWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15B90A40)
-#define MOLEMOLE_UIFORBIDDENAREACOLLECTLISTROWWIDGETCONTROLLER___C__REFRESHVIEW_B__7_1_OFFSET UNITYSDK_OFFSET(0x15B90A50)
+#define MOLEMOLE_UIFORBIDDENAREACOLLECTLISTROWWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x172E0710)
+#define MOLEMOLE_UIFORBIDDENAREACOLLECTLISTROWWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x172E0750)
+#define MOLEMOLE_UIFORBIDDENAREACOLLECTLISTROWWIDGETCONTROLLER___C__REFRESHVIEW_B__7_1_OFFSET UNITYSDK_OFFSET(0x172E0760)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIForbiddenAreaCollectListRowWidgetController___c_TypeDefinitionIndex = 73525;
+	inline static constexpr unsigned int UIForbiddenAreaCollectListRowWidgetController___c_TypeDefinitionIndex = 45346;
 
 	class UIForbiddenAreaCollectListRowWidgetController___c : public ::System::Object
 	{
 	public:
 		static ::System::Action** StaticGet___9__7_1()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIForbiddenAreaCollectListRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x345D0);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIForbiddenAreaCollectListRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x36BE0);
 		}
 		static ::MoleMole::UIForbiddenAreaCollectListRowWidgetController___c** StaticGet___9()
 		{
-			return (::MoleMole::UIForbiddenAreaCollectListRowWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIForbiddenAreaCollectListRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x345D8);
+			return (::MoleMole::UIForbiddenAreaCollectListRowWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIForbiddenAreaCollectListRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x36BE8);
 		}
 
 		static ::System::Void _cctor()

@@ -7,20 +7,20 @@ namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define NODECANVAS_TASKS_ACTIONS_CREATEGAMEOBJECT_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1D7C4BC0)
-#define NODECANVAS_TASKS_ACTIONS_CREATEGAMEOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7C4DD0)
+#define NODECANVAS_TASKS_ACTIONS_CREATEGAMEOBJECT_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1EB778A0)
+#define NODECANVAS_TASKS_ACTIONS_CREATEGAMEOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB77AB0)
 
 namespace NodeCanvas::Tasks::Actions
 {
-	inline static constexpr unsigned int CreateGameObject_TypeDefinitionIndex = 29491;
+	inline static constexpr unsigned int CreateGameObject_TypeDefinitionIndex = 30840;
 
 	class CreateGameObject : public ::NodeCanvas::Framework::ActionTask
 	{
 	public:
-		::NodeCanvas::Framework::BBParameter_1<::UnityEngine::Vector3>* rotation; // 0x60
-		::NodeCanvas::Framework::BBParameter_1<::UnityEngine::GameObject*>* saveAs; // 0x68
-		::NodeCanvas::Framework::BBParameter_1<::System::String*>* objectName; // 0x70
-		::NodeCanvas::Framework::BBParameter_1<::UnityEngine::Vector3>* position; // 0x78
+		::NodeCanvas::Framework::BBParameter_1<::System::String*>* objectName; // 0x60
+		::NodeCanvas::Framework::BBParameter_1<::UnityEngine::Vector3>* position; // 0x68
+		::NodeCanvas::Framework::BBParameter_1<::UnityEngine::Vector3>* rotation; // 0x70
+		::NodeCanvas::Framework::BBParameter_1<::UnityEngine::GameObject*>* saveAs; // 0x78
 
 		::System::Void _ctor()
 		{

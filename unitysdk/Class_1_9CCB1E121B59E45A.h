@@ -8,23 +8,23 @@ class Class_1_236FD73ABC492E3F;
 namespace MoleMole::Config { class DynamicFloat; }
 namespace MoleMole::Config { class DynamicInt; }
 
-#define CLASS_1_9CCB1E121B59E45A_FROMBINARY_OFFSET UNITYSDK_OFFSET(0xD461120)
-#define CLASS_1_9CCB1E121B59E45A_FROMFLX_OFFSET UNITYSDK_OFFSET(0xD461540)
-#define CLASS_1_9CCB1E121B59E45A_METHOD_1_00531776927FE5B6_OFFSET UNITYSDK_OFFSET(0xD4615C0)
-#define CLASS_1_9CCB1E121B59E45A_METHOD_1_92953CB5B7300582_OFFSET UNITYSDK_OFFSET(0xD461180)
-#define CLASS_1_9CCB1E121B59E45A__CTOR_OFFSET UNITYSDK_OFFSET(0xD462010)
+#define CLASS_1_9CCB1E121B59E45A_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x171C8C60)
+#define CLASS_1_9CCB1E121B59E45A_FROMFLX_OFFSET UNITYSDK_OFFSET(0x171C9080)
+#define CLASS_1_9CCB1E121B59E45A_METHOD_1_00531776927FE5B6_OFFSET UNITYSDK_OFFSET(0x171C9100)
+#define CLASS_1_9CCB1E121B59E45A_METHOD_1_92953CB5B7300582_OFFSET UNITYSDK_OFFSET(0x171C8CC0)
+#define CLASS_1_9CCB1E121B59E45A__CTOR_OFFSET UNITYSDK_OFFSET(0x171C9B30)
 
-inline static constexpr unsigned int Class_1_9CCB1E121B59E45A_TypeDefinitionIndex = 65529;
+inline static constexpr unsigned int Class_1_9CCB1E121B59E45A_TypeDefinitionIndex = 63806;
 
 class Class_1_9CCB1E121B59E45A : public ::System::Object
 {
 public:
 	::MoleMole::Config::DynamicFloat* Field_1_1; // 0x10
-	::MoleMole::Config::DynamicFloat* Field_1_3; // 0x18
-	::MoleMole::Config::DynamicFloat* Field_1_2; // 0x20
-	::MoleMole::Config::DynamicFloat* Field_1_0; // 0x28
-	::MoleMole::Config::DynamicInt* Field_1_5; // 0x30
-	::MoleMole::Config::DynamicFloat* Field_1_4; // 0x38
+	::MoleMole::Config::DynamicFloat* Field_1_7; // 0x18
+	::MoleMole::Config::DynamicFloat* Field_1_0; // 0x20
+	::MoleMole::Config::DynamicFloat* Field_1_2; // 0x28
+	::MoleMole::Config::DynamicFloat* Field_1_3; // 0x30
+	::MoleMole::Config::DynamicInt* Field_1_6; // 0x38
 
 	::System::Void _ctor()
 	{

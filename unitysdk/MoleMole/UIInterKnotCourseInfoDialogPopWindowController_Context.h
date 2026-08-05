@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIINTERKNOTCOURSEINFODIALOGPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x171250C0)
+#define MOLEMOLE_UIINTERKNOTCOURSEINFODIALOGPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18385B60)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInterKnotCourseInfoDialogPopWindowController_Context_TypeDefinitionIndex = 86682;
+	inline static constexpr unsigned int UIInterKnotCourseInfoDialogPopWindowController_Context_TypeDefinitionIndex = 74755;
 
 	class UIInterKnotCourseInfoDialogPopWindowController_Context : public ::MoleMole::UIControllerContextBase
 	{

@@ -4,7 +4,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int ShadowSplitData__m_CullingPlanes_e__FixedBuffer_TypeDefinitionIndex = 6260;
+	inline static constexpr unsigned int ShadowSplitData__m_CullingPlanes_e__FixedBuffer_TypeDefinitionIndex = 6264;
 
 	struct alignas(1) ShadowSplitData__m_CullingPlanes_e__FixedBuffer
 	{

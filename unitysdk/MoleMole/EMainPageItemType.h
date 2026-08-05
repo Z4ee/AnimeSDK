@@ -3,13 +3,13 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int EMainPageItemType_TypeDefinitionIndex = 69135;
+	inline static constexpr unsigned int EMainPageItemType_TypeDefinitionIndex = 62244;
 
 	enum class EMainPageItemType : ::System::Int32
 	{
-		Buddy = 2,
 		Skin = 3,
 		Avatar = 1,
 		Invalid = 0,
+		Buddy = 2,
 	};
 }

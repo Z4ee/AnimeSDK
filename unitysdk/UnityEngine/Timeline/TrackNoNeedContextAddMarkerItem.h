@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define UNITYENGINE_TIMELINE_TRACKNONEEDCONTEXTADDMARKERITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1E3E07F0)
+#define UNITYENGINE_TIMELINE_TRACKNONEEDCONTEXTADDMARKERITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1F822030)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int TrackNoNeedContextAddMarkerItem_TypeDefinitionIndex = 32420;
+	inline static constexpr unsigned int TrackNoNeedContextAddMarkerItem_TypeDefinitionIndex = 33051;
 
 	class TrackNoNeedContextAddMarkerItem : public ::System::Attribute
 	{

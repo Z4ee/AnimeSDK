@@ -11,20 +11,20 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_TBLLIGHTDATAPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1D5884E0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_TBLLIGHTDATAPASS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D588940)
-#define UNITYENGINE_NAPRENDERPIPELINE0_TBLLIGHTDATAPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D588450)
+#define UNITYENGINE_NAPRENDERPIPELINE0_TBLLIGHTDATAPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1E94EEB0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_TBLLIGHTDATAPASS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E94F310)
+#define UNITYENGINE_NAPRENDERPIPELINE0_TBLLIGHTDATAPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E94EE20)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int TBLLightDataPass_TypeDefinitionIndex = 5844;
+	inline static constexpr unsigned int TBLLightDataPass_TypeDefinitionIndex = 5846;
 
 	class TBLLightDataPass : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 	{
 	public:
 		static ::UnityEngine::Vector2Int* StaticGet_preScreenSize()
 		{
-			return (::UnityEngine::Vector2Int*)Il2CppClass::FromTypeDefinitionIndex(TBLLightDataPass_TypeDefinitionIndex)->GetStaticField(0x2DD0);
+			return (::UnityEngine::Vector2Int*)Il2CppClass::FromTypeDefinitionIndex(TBLLightDataPass_TypeDefinitionIndex)->GetStaticField(0x2DE0);
 		}
 		::UnityEngine::NAPRenderPipeline0::RenderTargetHandle m_DepthTexture; // 0xA8
 

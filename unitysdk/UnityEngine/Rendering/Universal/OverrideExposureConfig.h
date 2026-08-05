@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Rendering/Universal/WeatherSystem/WeatherPropertiesBase_1.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_OVERRIDEEXPOSURECONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x1B7FE640)
-#define UNITYENGINE_RENDERING_UNIVERSAL_OVERRIDEEXPOSURECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7FE700)
+#define UNITYENGINE_RENDERING_UNIVERSAL_OVERRIDEEXPOSURECONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x1CB1B5C0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_OVERRIDEEXPOSURECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB1B680)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int OverrideExposureConfig_TypeDefinitionIndex = 26863;
+	inline static constexpr unsigned int OverrideExposureConfig_TypeDefinitionIndex = 27197;
 
 	class OverrideExposureConfig : public ::UnityEngine::Rendering::Universal::WeatherSystem::WeatherPropertiesBase_1<::UnityEngine::Rendering::Universal::OverrideExposureConfig*>
 	{

@@ -6,18 +6,18 @@ namespace Foundation { class InstancePoolRequest; }
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Object; }
 
-#define FOUNDATION_INSTANCEPOOLREQUEST___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1E372650)
-#define FOUNDATION_INSTANCEPOOLREQUEST___C__DISPLAYCLASS16_0__GETINSTANCEASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x1E372660)
+#define FOUNDATION_INSTANCEPOOLREQUEST___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1F663820)
+#define FOUNDATION_INSTANCEPOOLREQUEST___C__DISPLAYCLASS16_0__GETINSTANCEASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x1F663830)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int InstancePoolRequest___c__DisplayClass16_0_TypeDefinitionIndex = 8383;
+	inline static constexpr unsigned int InstancePoolRequest___c__DisplayClass16_0_TypeDefinitionIndex = 7970;
 
 	class InstancePoolRequest___c__DisplayClass16_0 : public ::System::Object
 	{
 	public:
-		::Foundation::InstancePoolRequest* __4__this; // 0x10
-		::System::Action_1<::UnityEngine::Object*>* completed; // 0x18
+		::System::Action_1<::UnityEngine::Object*>* completed; // 0x10
+		::Foundation::InstancePoolRequest* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

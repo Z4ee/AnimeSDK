@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIWishlistMainPageController; }
 
-#define MOLEMOLE_UIWISHLISTMAINPAGECONTROLLER___C__DISPLAYCLASS60_0__CTOR_OFFSET UNITYSDK_OFFSET(0x104187E0)
-#define MOLEMOLE_UIWISHLISTMAINPAGECONTROLLER___C__DISPLAYCLASS60_0__GOTOROLEINFO_B__0_OFFSET UNITYSDK_OFFSET(0x104187F0)
+#define MOLEMOLE_UIWISHLISTMAINPAGECONTROLLER___C__DISPLAYCLASS60_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14D87FA0)
+#define MOLEMOLE_UIWISHLISTMAINPAGECONTROLLER___C__DISPLAYCLASS60_0__GOTOROLEINFO_B__0_OFFSET UNITYSDK_OFFSET(0x14D87FB0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIWishlistMainPageController___c__DisplayClass60_0_TypeDefinitionIndex = 75928;
+	inline static constexpr unsigned int UIWishlistMainPageController___c__DisplayClass60_0_TypeDefinitionIndex = 65457;
 
 	class UIWishlistMainPageController___c__DisplayClass60_0 : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 
 namespace UnityEngine::EventSystems
 {
-	inline static constexpr unsigned int StandaloneInputModule_InputMode_TypeDefinitionIndex = 19053;
+	inline static constexpr unsigned int StandaloneInputModule_InputMode_TypeDefinitionIndex = 19398;
 
 	enum class StandaloneInputModule_InputMode : ::System::Int32
 	{

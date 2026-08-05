@@ -8,11 +8,11 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class LineRenderer; }
 namespace UnityEngine { class Material; }
 
-#define LINECURVE_AWAKE_OFFSET UNITYSDK_OFFSET(0x1E827270)
-#define LINECURVE_UPDATE_OFFSET UNITYSDK_OFFSET(0x1E827380)
-#define LINECURVE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E8278F0)
+#define LINECURVE_AWAKE_OFFSET UNITYSDK_OFFSET(0x1FC061C0)
+#define LINECURVE_UPDATE_OFFSET UNITYSDK_OFFSET(0x1FC062D0)
+#define LINECURVE__CTOR_OFFSET UNITYSDK_OFFSET(0x1FC06820)
 
-inline static constexpr unsigned int LineCurve_TypeDefinitionIndex = 34651;
+inline static constexpr unsigned int LineCurve_TypeDefinitionIndex = 35310;
 
 class LineCurve : public ::UnityEngine::MonoBehaviour
 {

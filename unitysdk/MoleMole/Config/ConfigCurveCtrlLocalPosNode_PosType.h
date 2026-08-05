@@ -3,12 +3,12 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigCurveCtrlLocalPosNode_PosType_TypeDefinitionIndex = 82329;
+	inline static constexpr unsigned int ConfigCurveCtrlLocalPosNode_PosType_TypeDefinitionIndex = 72993;
 
 	enum class ConfigCurveCtrlLocalPosNode_PosType : ::System::Int32
 	{
-		X = 0,
-		Z = 2,
 		Y = 1,
+		Z = 2,
+		X = 0,
 	};
 }

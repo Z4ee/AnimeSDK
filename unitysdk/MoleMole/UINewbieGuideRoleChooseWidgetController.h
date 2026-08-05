@@ -1,0 +1,148 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/MoleMole/UIWidgetController.h"
+
+class Class_2_EE3E77F649925AF5;
+namespace MoleMole { class UIControlReference; }
+namespace MoleMole { class UIControllerContextBase; }
+namespace MoleMole { class UINewbieGuideRoleChooseWidgetController_WelfareAvatarData; }
+namespace MoleMole { class UINewbieGuideRoleItemWidgetController; }
+namespace System { class EventArgs; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define MOLEMOLE_UINEWBIEGUIDEROLECHOOSEWIDGETCONTROLLER_LOADWELFARECONFIG_OFFSET UNITYSDK_OFFSET(0x1987D3C0)
+#define MOLEMOLE_UINEWBIEGUIDEROLECHOOSEWIDGETCONTROLLER_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x1987DFA0)
+#define MOLEMOLE_UINEWBIEGUIDEROLECHOOSEWIDGETCONTROLLER_ONHIDE_OFFSET UNITYSDK_OFFSET(0x1987DF40)
+#define MOLEMOLE_UINEWBIEGUIDEROLECHOOSEWIDGETCONTROLLER_ONPRENEWBIECLOSE_OFFSET UNITYSDK_OFFSET(0x1987E0E0)
+#define MOLEMOLE_UINEWBIEGUIDEROLECHOOSEWIDGETCONTROLLER_ONROLEITEMCLICK_OFFSET UNITYSDK_OFFSET(0x1987E670)
+#define MOLEMOLE_UINEWBIEGUIDEROLECHOOSEWIDGETCONTROLLER_ONSELECTBTNCLICK_OFFSET UNITYSDK_OFFSET(0x1987E790)
+#define MOLEMOLE_UINEWBIEGUIDEROLECHOOSEWIDGETCONTROLLER_ONSHOW_OFFSET UNITYSDK_OFFSET(0x1987DED0)
+#define MOLEMOLE_UINEWBIEGUIDEROLECHOOSEWIDGETCONTROLLER_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x1987E030)
+#define MOLEMOLE_UINEWBIEGUIDEROLECHOOSEWIDGETCONTROLLER_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x1987D090)
+#define MOLEMOLE_UINEWBIEGUIDEROLECHOOSEWIDGETCONTROLLER_ONUIOPEN_OFFSET UNITYSDK_OFFSET(0x1987D990)
+#define MOLEMOLE_UINEWBIEGUIDEROLECHOOSEWIDGETCONTROLLER_OPENSELECTPAGEWITHINDEX_OFFSET UNITYSDK_OFFSET(0x1987E7E0)
+#define MOLEMOLE_UINEWBIEGUIDEROLECHOOSEWIDGETCONTROLLER_REFRESHSELECTEDINFO_OFFSET UNITYSDK_OFFSET(0x1987E230)
+#define MOLEMOLE_UINEWBIEGUIDEROLECHOOSEWIDGETCONTROLLER_REFRESHVIEW_OFFSET UNITYSDK_OFFSET(0x1987DB60)
+#define MOLEMOLE_UINEWBIEGUIDEROLECHOOSEWIDGETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1987EBA0)
+#define MOLEMOLE_UINEWBIEGUIDEROLECHOOSEWIDGETCONTROLLER___BASE_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x1987ED30)
+#define MOLEMOLE_UINEWBIEGUIDEROLECHOOSEWIDGETCONTROLLER___BASE_ONHIDE_OFFSET UNITYSDK_OFFSET(0x1987EDC0)
+#define MOLEMOLE_UINEWBIEGUIDEROLECHOOSEWIDGETCONTROLLER___BASE_ONSHOW_OFFSET UNITYSDK_OFFSET(0x1987EE50)
+#define MOLEMOLE_UINEWBIEGUIDEROLECHOOSEWIDGETCONTROLLER___BASE_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x1987EEF0)
+#define MOLEMOLE_UINEWBIEGUIDEROLECHOOSEWIDGETCONTROLLER___BASE_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x1987EF80)
+#define MOLEMOLE_UINEWBIEGUIDEROLECHOOSEWIDGETCONTROLLER___BASE_ONUIOPEN_OFFSET UNITYSDK_OFFSET(0x1987F010)
+
+namespace MoleMole
+{
+	inline static constexpr unsigned int UINewbieGuideRoleChooseWidgetController_TypeDefinitionIndex = 48503;
+
+	class UINewbieGuideRoleChooseWidgetController : public ::MoleMole::UIWidgetController
+	{
+	public:
+		// static const ::System::Int32 WELFARE_TYPE_AVATAR = 0x1; // 0x0
+		::Class_2_EE3E77F649925AF5* _view; // 0x2C0
+		::System::Int32 _welfareGroupID; // 0x2C8
+		::System::Collections::Generic::List_1<::MoleMole::UINewbieGuideRoleChooseWidgetController_WelfareAvatarData*>* _avatarDataList; // 0x2D0
+		::System::Collections::Generic::List_1<::MoleMole::UINewbieGuideRoleItemWidgetController*>* _roleItemWidgets; // 0x2D8
+		::System::Int32 _curSelectIndex; // 0x2E0
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UINEWBIEGUIDEROLECHOOSEWIDGETCONTROLLER__CTOR_OFFSET))(this);
+		}
+
+		::System::Void OnUIInit()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UINEWBIEGUIDEROLECHOOSEWIDGETCONTROLLER_ONUIINIT_OFFSET))(this);
+		}
+
+		::System::Void OnUIOpen(::MoleMole::UIControllerContextBase* openCtrlContext)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UINEWBIEGUIDEROLECHOOSEWIDGETCONTROLLER_ONUIOPEN_OFFSET))(this, openCtrlContext);
+		}
+
+		::System::Void OnShow(::MoleMole::UIControllerContextBase* showCtrlContext)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UINEWBIEGUIDEROLECHOOSEWIDGETCONTROLLER_ONSHOW_OFFSET))(this, showCtrlContext);
+		}
+
+		::System::Void OnHide()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UINEWBIEGUIDEROLECHOOSEWIDGETCONTROLLER_ONHIDE_OFFSET))(this);
+		}
+
+		::System::Void OnCreateView(::MoleMole::UIControlReference* controlReference)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UINEWBIEGUIDEROLECHOOSEWIDGETCONTROLLER_ONCREATEVIEW_OFFSET))(this, controlReference);
+		}
+
+		::System::Void OnUIDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UINEWBIEGUIDEROLECHOOSEWIDGETCONTROLLER_ONUIDESTROY_OFFSET))(this);
+		}
+
+		::System::Void OnPreNewbieClose(::System::EventArgs* args)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::EventArgs*))((::PBYTE)hIl2Cpp + MOLEMOLE_UINEWBIEGUIDEROLECHOOSEWIDGETCONTROLLER_ONPRENEWBIECLOSE_OFFSET))(this, args);
+		}
+
+		::System::Void LoadWelfareConfig()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UINEWBIEGUIDEROLECHOOSEWIDGETCONTROLLER_LOADWELFARECONFIG_OFFSET))(this);
+		}
+
+		::System::Void RefreshView()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UINEWBIEGUIDEROLECHOOSEWIDGETCONTROLLER_REFRESHVIEW_OFFSET))(this);
+		}
+
+		::System::Void RefreshSelectedInfo()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UINEWBIEGUIDEROLECHOOSEWIDGETCONTROLLER_REFRESHSELECTEDINFO_OFFSET))(this);
+		}
+
+		::System::Void OnRoleItemClick(::System::Int32 index)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UINEWBIEGUIDEROLECHOOSEWIDGETCONTROLLER_ONROLEITEMCLICK_OFFSET))(this, index);
+		}
+
+		::System::Void OnSelectBtnClick()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UINEWBIEGUIDEROLECHOOSEWIDGETCONTROLLER_ONSELECTBTNCLICK_OFFSET))(this);
+		}
+
+		::System::Void OpenSelectPageWithIndex(::System::Int32 index)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UINEWBIEGUIDEROLECHOOSEWIDGETCONTROLLER_OPENSELECTPAGEWITHINDEX_OFFSET))(this, index);
+		}
+
+		::System::Void __base_OnCreateView(::MoleMole::UIControlReference* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UINEWBIEGUIDEROLECHOOSEWIDGETCONTROLLER___BASE_ONCREATEVIEW_OFFSET))(this, P0);
+		}
+
+		::System::Void __base_OnHide()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UINEWBIEGUIDEROLECHOOSEWIDGETCONTROLLER___BASE_ONHIDE_OFFSET))(this);
+		}
+
+		::System::Void __base_OnShow(::MoleMole::UIControllerContextBase* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UINEWBIEGUIDEROLECHOOSEWIDGETCONTROLLER___BASE_ONSHOW_OFFSET))(this, P0);
+		}
+
+		::System::Void __base_OnUIDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UINEWBIEGUIDEROLECHOOSEWIDGETCONTROLLER___BASE_ONUIDESTROY_OFFSET))(this);
+		}
+
+		::System::Void __base_OnUIInit()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UINEWBIEGUIDEROLECHOOSEWIDGETCONTROLLER___BASE_ONUIINIT_OFFSET))(this);
+		}
+
+		::System::Void __base_OnUIOpen(::MoleMole::UIControllerContextBase* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UINEWBIEGUIDEROLECHOOSEWIDGETCONTROLLER___BASE_ONUIOPEN_OFFSET))(this, P0);
+		}
+	};
+}

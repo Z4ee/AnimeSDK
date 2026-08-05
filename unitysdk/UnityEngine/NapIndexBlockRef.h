@@ -4,7 +4,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int NapIndexBlockRef_TypeDefinitionIndex = 7676;
+	inline static constexpr unsigned int NapIndexBlockRef_TypeDefinitionIndex = 7680;
 
 	struct alignas(8) NapIndexBlockRef
 	{

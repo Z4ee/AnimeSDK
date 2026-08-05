@@ -3,19 +3,19 @@
 #include "unitysdk/Struct_2_3659D99D9E0DCBB9_17.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_208CC9941471731A_1025;
+class Class_2_208CC9941471731A_560;
 
-#define MOLEMOLE_UIABINLEVELBANGBOOINFOWIDGETCONTROLLER___C__DISPLAYCLASS24_0__BINDFAKE_B__0_OFFSET UNITYSDK_OFFSET(0x16104930)
-#define MOLEMOLE_UIABINLEVELBANGBOOINFOWIDGETCONTROLLER___C__DISPLAYCLASS24_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16104920)
+#define MOLEMOLE_UIABINLEVELBANGBOOINFOWIDGETCONTROLLER___C__DISPLAYCLASS24_0__BINDFAKE_B__0_OFFSET UNITYSDK_OFFSET(0x199A3130)
+#define MOLEMOLE_UIABINLEVELBANGBOOINFOWIDGETCONTROLLER___C__DISPLAYCLASS24_0__CTOR_OFFSET UNITYSDK_OFFSET(0x199A3120)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIABInLevelBangbooInfoWidgetController___c__DisplayClass24_0_TypeDefinitionIndex = 85432;
+	inline static constexpr unsigned int UIABInLevelBangbooInfoWidgetController___c__DisplayClass24_0_TypeDefinitionIndex = 71614;
 
 	class UIABInLevelBangbooInfoWidgetController___c__DisplayClass24_0 : public ::System::Object
 	{
 	public:
-		::Class_2_208CC9941471731A_1025* cfg; // 0x10
+		::Class_2_208CC9941471731A_560* cfg; // 0x10
 
 		::System::Void _ctor()
 		{

@@ -10,22 +10,22 @@ namespace MoleMole { class UICinemaPlayBubble04WidgetController; }
 namespace System { class String; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define MOLEMOLE_UICINEMAPLAYBUBBLE04WIDGETCONTROLLER__PLAYBUBBLEANIMATION_D__7_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x82E360)
-#define MOLEMOLE_UICINEMAPLAYBUBBLE04WIDGETCONTROLLER__PLAYBUBBLEANIMATION_D__7_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x283610)
+#define MOLEMOLE_UICINEMAPLAYBUBBLE04WIDGETCONTROLLER__PLAYBUBBLEANIMATION_D__7_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x87FA90)
+#define MOLEMOLE_UICINEMAPLAYBUBBLE04WIDGETCONTROLLER__PLAYBUBBLEANIMATION_D__7_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x296F30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICinemaPlayBubble04WidgetController__PlayBubbleAnimation_d__7_TypeDefinitionIndex = 45029;
+	inline static constexpr unsigned int UICinemaPlayBubble04WidgetController__PlayBubbleAnimation_d__7_TypeDefinitionIndex = 72240;
 
 	struct alignas(8) UICinemaPlayBubble04WidgetController__PlayBubbleAnimation_d__7
 	{
-		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__2; // 0x10
-		::MoleMole::UICinemaPlayBubble04WidgetController* __4__this; // 0x20
-		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskVoidMethodBuilder __t__builder; // 0x28
-		::System::String* animString; // 0x30
-		::Cysharp::Threading::Tasks::UniTask_1_Awaiter<::Class_1_8B550A61FC9DDA82_Enum_3_05F7423D39739F87> __u__1; // 0x38
-		::System::Int32 __1__state; // 0x48
-		::System::Boolean isHide; // 0x4C
+		::MoleMole::UICinemaPlayBubble04WidgetController* __4__this; // 0x10
+		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskVoidMethodBuilder __t__builder; // 0x18
+		::System::String* animString; // 0x20
+		::Cysharp::Threading::Tasks::UniTask_1_Awaiter<::Class_1_8B550A61FC9DDA82_Enum_3_05F7423D39739F87> __u__1; // 0x28
+		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__2; // 0x38
+		::System::Boolean isHide; // 0x48
+		::System::Int32 __1__state; // 0x4C
 
 		::System::Void MoveNext()
 		{

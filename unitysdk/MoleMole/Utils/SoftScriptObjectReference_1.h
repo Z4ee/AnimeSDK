@@ -7,7 +7,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace MoleMole::Utils
 {
-	inline static constexpr unsigned int SoftScriptObjectReference_1_TypeDefinitionIndex = 49162;
+	inline static constexpr unsigned int SoftScriptObjectReference_1_TypeDefinitionIndex = 77481;
 
 	template <typename T>
 	class SoftScriptObjectReference_1 : public ::MoleMole::Utils::SoftScriptObjectReference

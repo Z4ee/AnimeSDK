@@ -8,30 +8,30 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define SIRENIX_ODININSPECTOR_TABGROUPATTRIBUTE_COMBINEVALUESWITH_OFFSET UNITYSDK_OFFSET(0x1E32A7F0)
-#define SIRENIX_ODININSPECTOR_TABGROUPATTRIBUTE_SIRENIX_ODININSPECTOR_INTERNAL_ISUBGROUPPROVIDERATTRIBUTE_GETSUBGROUPATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x1E32A9D0)
-#define SIRENIX_ODININSPECTOR_TABGROUPATTRIBUTE_SIRENIX_ODININSPECTOR_INTERNAL_ISUBGROUPPROVIDERATTRIBUTE_REPATHMEMBERATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1E32AD40)
-#define SIRENIX_ODININSPECTOR_TABGROUPATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E32A6B0)
-#define SIRENIX_ODININSPECTOR_TABGROUPATTRIBUTE__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1E32A7C0)
-#define SIRENIX_ODININSPECTOR_TABGROUPATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E32A650)
+#define SIRENIX_ODININSPECTOR_TABGROUPATTRIBUTE_COMBINEVALUESWITH_OFFSET UNITYSDK_OFFSET(0x1F771B70)
+#define SIRENIX_ODININSPECTOR_TABGROUPATTRIBUTE_SIRENIX_ODININSPECTOR_INTERNAL_ISUBGROUPPROVIDERATTRIBUTE_GETSUBGROUPATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x1F771D40)
+#define SIRENIX_ODININSPECTOR_TABGROUPATTRIBUTE_SIRENIX_ODININSPECTOR_INTERNAL_ISUBGROUPPROVIDERATTRIBUTE_REPATHMEMBERATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1F7720B0)
+#define SIRENIX_ODININSPECTOR_TABGROUPATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F771A30)
+#define SIRENIX_ODININSPECTOR_TABGROUPATTRIBUTE__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1F771B40)
+#define SIRENIX_ODININSPECTOR_TABGROUPATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F7719D0)
 
 namespace Sirenix::OdinInspector
 {
-	inline static constexpr unsigned int TabGroupAttribute_TypeDefinitionIndex = 7362;
+	inline static constexpr unsigned int TabGroupAttribute_TypeDefinitionIndex = 7366;
 
 	class TabGroupAttribute : public ::Sirenix::OdinInspector::PropertyGroupAttribute
 	{
 	public:
 		// static const ::System::String* DEFAULT_NAME; // 0x0
-		::System::Collections::Generic::List_1<::Sirenix::OdinInspector::TabGroupAttribute*>* Tabs; // 0x30
+		::System::String* TabName; // 0x30
 		::System::String* TextColor; // 0x38
-		::System::String* TabName; // 0x40
+		::System::Collections::Generic::List_1<::Sirenix::OdinInspector::TabGroupAttribute*>* Tabs; // 0x40
 		::System::String* TabId; // 0x48
 		::Sirenix::OdinInspector::SdfIconType Icon; // 0x50
-		::Sirenix::OdinInspector::TabLayouting TabLayouting; // 0x54
-		::System::Boolean UseFixedHeight; // 0x58
-		::System::Boolean Paddingless; // 0x59
-		::System::Boolean HideTabGroupIfTabGroupOnlyHasOneTab; // 0x5A
+		::System::Boolean Paddingless; // 0x54
+		::System::Boolean HideTabGroupIfTabGroupOnlyHasOneTab; // 0x55
+		::System::Boolean UseFixedHeight; // 0x56
+		::Sirenix::OdinInspector::TabLayouting TabLayouting; // 0x58
 
 		::System::Void _ctor(::System::String* tab, ::System::Boolean useFixedHeight, ::System::Single order)
 		{

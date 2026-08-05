@@ -4,18 +4,18 @@
 
 namespace System { class String; }
 
-#define NODECANVAS_FRAMEWORK_GRAPHINFOATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7C4940)
+#define NODECANVAS_FRAMEWORK_GRAPHINFOATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB77620)
 
 namespace NodeCanvas::Framework
 {
-	inline static constexpr unsigned int GraphInfoAttribute_TypeDefinitionIndex = 30637;
+	inline static constexpr unsigned int GraphInfoAttribute_TypeDefinitionIndex = 30010;
 
 	class GraphInfoAttribute : public ::System::Attribute
 	{
 	public:
 		::System::String* docsURL; // 0x10
-		::System::String* forumsURL; // 0x18
-		::System::String* packageName; // 0x20
+		::System::String* packageName; // 0x18
+		::System::String* forumsURL; // 0x20
 		::System::String* resourcesURL; // 0x28
 
 		::System::Void _ctor()

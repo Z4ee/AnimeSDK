@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define VOLUMETRICCLOUDBLOCKER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF0D560)
+#define VOLUMETRICCLOUDBLOCKER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E267850)
 
-inline static constexpr unsigned int VolumetricCloudBlocker_TypeDefinitionIndex = 26721;
+inline static constexpr unsigned int VolumetricCloudBlocker_TypeDefinitionIndex = 26946;
 
 class VolumetricCloudBlocker : public ::UnityEngine::MonoBehaviour
 {

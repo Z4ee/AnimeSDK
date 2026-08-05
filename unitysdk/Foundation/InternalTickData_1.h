@@ -6,7 +6,7 @@ namespace Foundation { template <typename T> class ITickService_1; }
 
 namespace Foundation
 {
-	inline static constexpr unsigned int InternalTickData_1_TypeDefinitionIndex = 8739;
+	inline static constexpr unsigned int InternalTickData_1_TypeDefinitionIndex = 8538;
 
 	template <typename TTickingGroup>
 	class InternalTickData_1 : public ::System::Object

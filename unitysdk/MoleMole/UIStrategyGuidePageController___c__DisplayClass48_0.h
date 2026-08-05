@@ -8,7 +8,7 @@ namespace UnityEngine { class GameObject; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIStrategyGuidePageController___c__DisplayClass48_0_TypeDefinitionIndex = 69297;
+	inline static constexpr unsigned int UIStrategyGuidePageController___c__DisplayClass48_0_TypeDefinitionIndex = 78610;
 
 	struct alignas(8) UIStrategyGuidePageController___c__DisplayClass48_0
 	{

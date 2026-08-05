@@ -5,17 +5,17 @@
 
 namespace MoleMole::MonoEffectContrllerModule { class PerlinNoiseConfig; }
 
-#define CLASS_1_9B5953640339AD7B_METHOD_1_3A7D9DDA53AE9C94_OFFSET UNITYSDK_OFFSET(0x15D08160)
-#define CLASS_1_9B5953640339AD7B__CTOR_OFFSET UNITYSDK_OFFSET(0x15D08150)
+#define CLASS_1_9B5953640339AD7B_METHOD_1_3A7D9DDA53AE9C94_OFFSET UNITYSDK_OFFSET(0x12F2B570)
+#define CLASS_1_9B5953640339AD7B__CTOR_OFFSET UNITYSDK_OFFSET(0x12F2B560)
 
-inline static constexpr unsigned int Class_1_9B5953640339AD7B_TypeDefinitionIndex = 81700;
+inline static constexpr unsigned int Class_1_9B5953640339AD7B_TypeDefinitionIndex = 65318;
 
 class Class_1_9B5953640339AD7B : public ::System::Object
 {
 public:
-	::MoleMole::MonoEffectContrllerModule::PerlinNoiseConfig* Field_1_0; // 0x10
-	::System::Int32 Field_1_2; // 0x18
-	::UnityEngine::Vector3 Field_1_1; // 0x1C
+	::MoleMole::MonoEffectContrllerModule::PerlinNoiseConfig* Field_1_1; // 0x10
+	::UnityEngine::Vector3 Field_1_0; // 0x18
+	::System::Int32 Field_1_7; // 0x24
 
 	::System::Void _ctor()
 	{

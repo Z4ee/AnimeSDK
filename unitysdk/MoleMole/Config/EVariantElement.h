@@ -3,14 +3,14 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int EVariantElement_TypeDefinitionIndex = 84116;
+	inline static constexpr unsigned int EVariantElement_TypeDefinitionIndex = 86630;
 
 	enum class EVariantElement : ::System::Int32
 	{
-		ZhenZhenAssault = 4,
-		FrostFire = 1,
-		EtherAuricInk = 2,
 		Default = 0,
 		ForceStrike = 3,
+		FrostFire = 1,
+		ZhenZhenAssault = 4,
+		EtherAuricInk = 2,
 	};
 }

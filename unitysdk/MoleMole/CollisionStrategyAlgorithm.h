@@ -3,11 +3,11 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CollisionStrategyAlgorithm_TypeDefinitionIndex = 54271;
+	inline static constexpr unsigned int CollisionStrategyAlgorithm_TypeDefinitionIndex = 54542;
 
 	enum class CollisionStrategyAlgorithm : ::System::Int32
 	{
-		Custom = 1,
 		Advanced = 0,
+		Custom = 1,
 	};
 }

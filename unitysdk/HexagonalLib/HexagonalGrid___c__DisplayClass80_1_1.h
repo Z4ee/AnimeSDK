@@ -7,7 +7,7 @@ namespace HexagonalLib { template <typename T> class HexagonalGrid___c__DisplayC
 
 namespace HexagonalLib
 {
-	inline static constexpr unsigned int HexagonalGrid___c__DisplayClass80_1_1_TypeDefinitionIndex = 28869;
+	inline static constexpr unsigned int HexagonalGrid___c__DisplayClass80_1_1_TypeDefinitionIndex = 29410;
 
 	template <typename T>
 	class HexagonalGrid___c__DisplayClass80_1_1 : public ::System::Object

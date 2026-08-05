@@ -7,22 +7,22 @@
 namespace UnityEngine { class Camera; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_2_58B9F29AEB0657BF_METHOD_2_03F55E696C12D10F_OFFSET UNITYSDK_OFFSET(0x137B8DE0)
-#define CLASS_2_58B9F29AEB0657BF_METHOD_2_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0x137B92D0)
-#define CLASS_2_58B9F29AEB0657BF_METHOD_2_A96DCA30C6927810_OFFSET UNITYSDK_OFFSET(0x137B8DB0)
-#define CLASS_2_58B9F29AEB0657BF__CTOR_OFFSET UNITYSDK_OFFSET(0x137B8DC0)
+#define CLASS_2_58B9F29AEB0657BF_METHOD_2_03F55E696C12D10F_OFFSET UNITYSDK_OFFSET(0x141A8C50)
+#define CLASS_2_58B9F29AEB0657BF_METHOD_2_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0x141A9130)
+#define CLASS_2_58B9F29AEB0657BF_METHOD_2_A96DCA30C6927810_OFFSET UNITYSDK_OFFSET(0x141A8C20)
+#define CLASS_2_58B9F29AEB0657BF__CTOR_OFFSET UNITYSDK_OFFSET(0x141A8C30)
 
-inline static constexpr unsigned int Class_2_58B9F29AEB0657BF_TypeDefinitionIndex = 53711;
+inline static constexpr unsigned int Class_2_58B9F29AEB0657BF_TypeDefinitionIndex = 81299;
 
 class Class_2_58B9F29AEB0657BF : public ::Class_1_495D7A3E0E5529B6
 {
 public:
-	::UnityEngine::Camera* Field_2_3; // 0x28
-	::Struct_2_48460350BA079E78 Field_2_1; // 0x30
-	::UnityEngine::Transform* Field_2_5; // 0x40
-	::Struct_2_48460350BA079E78 Field_2_0; // 0x48
+	::UnityEngine::Transform* Field_2_11; // 0x28
+	::Struct_2_48460350BA079E78 Field_2_7; // 0x30
+	::Struct_2_48460350BA079E78 Field_2_0; // 0x40
+	::UnityEngine::Camera* Field_2_5; // 0x50
 	::UnityEngine::Transform* Field_2_4; // 0x58
-	::System::Int32 Field_2_2; // 0x60
+	::System::Int32 Field_2_6; // 0x60
 
 	::System::Void _ctor(::UnityEngine::Camera* a1, ::Struct_2_48460350BA079E78 a2, ::Struct_2_48460350BA079E78 a3, ::System::Int32 a4)
 	{

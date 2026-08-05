@@ -3,12 +3,12 @@
 
 namespace Share
 {
-	inline static constexpr unsigned int EWayOfRemoveCurse_TypeDefinitionIndex = 13135;
+	inline static constexpr unsigned int EWayOfRemoveCurse_TypeDefinitionIndex = 15710;
 
 	enum class EWayOfRemoveCurse : ::System::Int16
 	{
-		EnumCount = 3,
 		Initiative = 1,
+		EnumCount = 3,
 		Passive = 2,
 	};
 }

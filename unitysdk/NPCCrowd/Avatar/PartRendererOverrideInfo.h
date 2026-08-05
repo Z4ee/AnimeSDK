@@ -5,11 +5,11 @@
 class NPCCrowdMaterialOverrideParamsInfo;
 namespace UnityEngine { class Renderer; }
 
-#define NPCCROWD_AVATAR_PARTRENDEREROVERRIDEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xE02A6D0)
+#define NPCCROWD_AVATAR_PARTRENDEREROVERRIDEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x11945E70)
 
 namespace NPCCrowd::Avatar
 {
-	inline static constexpr unsigned int PartRendererOverrideInfo_TypeDefinitionIndex = 71108;
+	inline static constexpr unsigned int PartRendererOverrideInfo_TypeDefinitionIndex = 62721;
 
 	class PartRendererOverrideInfo : public ::System::Object
 	{

@@ -5,7 +5,7 @@
 
 namespace NPCCrowd
 {
-	inline static constexpr unsigned int NPCRegistry_EntryWithDist_TypeDefinitionIndex = 73036;
+	inline static constexpr unsigned int NPCRegistry_EntryWithDist_TypeDefinitionIndex = 63850;
 
 	struct alignas(8) NPCRegistry_EntryWithDist
 	{

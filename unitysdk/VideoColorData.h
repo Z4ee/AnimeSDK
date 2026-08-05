@@ -7,10 +7,10 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define VIDEOCOLORDATA_ADDVIDEODATA_OFFSET UNITYSDK_OFFSET(0x1B5AE920)
-#define VIDEOCOLORDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5AEA60)
+#define VIDEOCOLORDATA_ADDVIDEODATA_OFFSET UNITYSDK_OFFSET(0x1D345320)
+#define VIDEOCOLORDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1D345460)
 
-inline static constexpr unsigned int VideoColorData_TypeDefinitionIndex = 82279;
+inline static constexpr unsigned int VideoColorData_TypeDefinitionIndex = 61571;
 
 class VideoColorData : public ::UnityEngine::ScriptableObject
 {

@@ -4,7 +4,7 @@
 
 namespace Utf8Json::Internal
 {
-	inline static constexpr unsigned int ArrayBuffer_1_TypeDefinitionIndex = 91221;
+	inline static constexpr unsigned int ArrayBuffer_1_TypeDefinitionIndex = 95154;
 
 	template <typename T>
 	struct ArrayBuffer_1

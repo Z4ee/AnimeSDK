@@ -8,24 +8,24 @@ namespace MiHoYo::SDK::Win { class BindManager; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_WIN_BINDMANAGER___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9F6B60)
-#define MIHOYO_SDK_WIN_BINDMANAGER___C__DISPLAYCLASS23_0__SHOWBINDMAIL_B__0_OFFSET UNITYSDK_OFFSET(0x1B9F6B70)
-#define MIHOYO_SDK_WIN_BINDMANAGER___C__DISPLAYCLASS23_0__SHOWBINDMAIL_B__1_OFFSET UNITYSDK_OFFSET(0x1B9F6C10)
-#define MIHOYO_SDK_WIN_BINDMANAGER___C__DISPLAYCLASS23_0__SHOWBINDMAIL_B__2_OFFSET UNITYSDK_OFFSET(0x1B9F6D70)
-#define MIHOYO_SDK_WIN_BINDMANAGER___C__DISPLAYCLASS23_0__SHOWBINDMAIL_B__3_OFFSET UNITYSDK_OFFSET(0x1B9F7060)
-#define MIHOYO_SDK_WIN_BINDMANAGER___C__DISPLAYCLASS23_0__SHOWBINDMAIL_B__4_OFFSET UNITYSDK_OFFSET(0x1B9F6EE0)
+#define MIHOYO_SDK_WIN_BINDMANAGER___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE26C30)
+#define MIHOYO_SDK_WIN_BINDMANAGER___C__DISPLAYCLASS23_0__SHOWBINDMAIL_B__0_OFFSET UNITYSDK_OFFSET(0x1CE26C40)
+#define MIHOYO_SDK_WIN_BINDMANAGER___C__DISPLAYCLASS23_0__SHOWBINDMAIL_B__1_OFFSET UNITYSDK_OFFSET(0x1CE26CE0)
+#define MIHOYO_SDK_WIN_BINDMANAGER___C__DISPLAYCLASS23_0__SHOWBINDMAIL_B__2_OFFSET UNITYSDK_OFFSET(0x1CE26E40)
+#define MIHOYO_SDK_WIN_BINDMANAGER___C__DISPLAYCLASS23_0__SHOWBINDMAIL_B__3_OFFSET UNITYSDK_OFFSET(0x1CE27130)
+#define MIHOYO_SDK_WIN_BINDMANAGER___C__DISPLAYCLASS23_0__SHOWBINDMAIL_B__4_OFFSET UNITYSDK_OFFSET(0x1CE26FB0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int BindManager___c__DisplayClass23_0_TypeDefinitionIndex = 21133;
+	inline static constexpr unsigned int BindManager___c__DisplayClass23_0_TypeDefinitionIndex = 21481;
 
 	class BindManager___c__DisplayClass23_0 : public ::System::Object
 	{
 	public:
-		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* __9__4; // 0x10
-		::MiHoYo::SDK::AccountModel* userData; // 0x18
-		::MiHoYo::SDK::Win::BindManager* __4__this; // 0x20
-		::System::String* ticket; // 0x28
+		::System::String* ticket; // 0x10
+		::MiHoYo::SDK::Win::BindManager* __4__this; // 0x18
+		::MiHoYo::SDK::AccountModel* userData; // 0x20
+		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* __9__4; // 0x28
 
 		::System::Void _ctor()
 		{

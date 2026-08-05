@@ -6,10 +6,10 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define VIDEOFRAMECOLOR_GETFRAMECOLOR_OFFSET UNITYSDK_OFFSET(0x1BF5BEF0)
-#define VIDEOFRAMECOLOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF5BF80)
+#define VIDEOFRAMECOLOR_GETFRAMECOLOR_OFFSET UNITYSDK_OFFSET(0x1E35EB10)
+#define VIDEOFRAMECOLOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1E35EBA0)
 
-inline static constexpr unsigned int VideoFrameColor_TypeDefinitionIndex = 81393;
+inline static constexpr unsigned int VideoFrameColor_TypeDefinitionIndex = 51362;
 
 class VideoFrameColor : public ::System::Object
 {

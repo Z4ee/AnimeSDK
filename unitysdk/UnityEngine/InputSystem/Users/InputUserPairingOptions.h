@@ -3,7 +3,7 @@
 
 namespace UnityEngine::InputSystem::Users
 {
-	inline static constexpr unsigned int InputUserPairingOptions_TypeDefinitionIndex = 31760;
+	inline static constexpr unsigned int InputUserPairingOptions_TypeDefinitionIndex = 32380;
 
 	enum class InputUserPairingOptions : ::System::Int32
 	{

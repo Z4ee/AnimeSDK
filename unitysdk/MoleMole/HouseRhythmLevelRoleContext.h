@@ -4,11 +4,11 @@
 
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_HOUSERHYTHMLEVELROLECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x17E83E50)
+#define MOLEMOLE_HOUSERHYTHMLEVELROLECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x19BF6AD0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int HouseRhythmLevelRoleContext_TypeDefinitionIndex = 71261;
+	inline static constexpr unsigned int HouseRhythmLevelRoleContext_TypeDefinitionIndex = 74771;
 
 	class HouseRhythmLevelRoleContext : public ::MoleMole::UIControllerContextBase
 	{

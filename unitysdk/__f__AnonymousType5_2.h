@@ -4,7 +4,7 @@
 
 namespace System { class String; }
 
-inline static constexpr unsigned int __f__AnonymousType5_2_TypeDefinitionIndex = 78423;
+inline static constexpr unsigned int __f__AnonymousType5_2_TypeDefinitionIndex = 63653;
 
 template <typename _list_j__TPar, typename _item_j__TPar>
 class __f__AnonymousType5_2 : public ::System::Object

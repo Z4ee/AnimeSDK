@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int PropagationPhase_TypeDefinitionIndex = 27520;
+	inline static constexpr unsigned int PropagationPhase_TypeDefinitionIndex = 28122;
 
 	enum class PropagationPhase : ::System::Int32
 	{

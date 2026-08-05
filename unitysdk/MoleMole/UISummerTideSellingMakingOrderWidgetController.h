@@ -1,0 +1,60 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/MoleMole/UIWidgetController.h"
+#include "unitysdk/Struct_2_575273D27F02957E.h"
+
+class Class_2_70B70B2F522C9028;
+namespace MoleMole { class UIControlReference; }
+namespace MoleMole { class UIControllerContextBase; }
+
+#define MOLEMOLE_UISUMMERTIDESELLINGMAKINGORDERWIDGETCONTROLLER_GET_TARGETVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x13032470)
+#define MOLEMOLE_UISUMMERTIDESELLINGMAKINGORDERWIDGETCONTROLLER_GET__VIEWMODEL_OFFSET UNITYSDK_OFFSET(0x13032400)
+#define MOLEMOLE_UISUMMERTIDESELLINGMAKINGORDERWIDGETCONTROLLER_ONCREATEVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x130324E0)
+#define MOLEMOLE_UISUMMERTIDESELLINGMAKINGORDERWIDGETCONTROLLER_ONSHOW_OFFSET UNITYSDK_OFFSET(0x13032580)
+#define MOLEMOLE_UISUMMERTIDESELLINGMAKINGORDERWIDGETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x13032690)
+#define MOLEMOLE_UISUMMERTIDESELLINGMAKINGORDERWIDGETCONTROLLER___BASE_ONCREATEVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x130326F0)
+#define MOLEMOLE_UISUMMERTIDESELLINGMAKINGORDERWIDGETCONTROLLER___BASE_ONSHOW_OFFSET UNITYSDK_OFFSET(0x13032790)
+
+namespace MoleMole
+{
+	inline static constexpr unsigned int UISummerTideSellingMakingOrderWidgetController_TypeDefinitionIndex = 75290;
+
+	class UISummerTideSellingMakingOrderWidgetController : public ::MoleMole::UIWidgetController
+	{
+	public:
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UISUMMERTIDESELLINGMAKINGORDERWIDGETCONTROLLER__CTOR_OFFSET))(this);
+		}
+
+		::Class_2_70B70B2F522C9028* get__viewModel()
+		{
+			return ((::Class_2_70B70B2F522C9028*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UISUMMERTIDESELLINGMAKINGORDERWIDGETCONTROLLER_GET__VIEWMODEL_OFFSET))(this);
+		}
+
+		::Class_2_70B70B2F522C9028* get_TargetViewModel()
+		{
+			return ((::Class_2_70B70B2F522C9028*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UISUMMERTIDESELLINGMAKINGORDERWIDGETCONTROLLER_GET_TARGETVIEWMODEL_OFFSET))(this);
+		}
+
+		::System::Void OnCreateViewModel(::Struct_2_575273D27F02957E& binderInfo, ::MoleMole::UIControlReference* controlReference)
+		{
+			return ((::System::Void(*)(::PVOID, ::Struct_2_575273D27F02957E&, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UISUMMERTIDESELLINGMAKINGORDERWIDGETCONTROLLER_ONCREATEVIEWMODEL_OFFSET))(this, binderInfo, controlReference);
+		}
+
+		::System::Void OnShow(::MoleMole::UIControllerContextBase* showCtrlContext)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UISUMMERTIDESELLINGMAKINGORDERWIDGETCONTROLLER_ONSHOW_OFFSET))(this, showCtrlContext);
+		}
+
+		::System::Void __base_OnCreateViewModel(::Struct_2_575273D27F02957E& P0, ::MoleMole::UIControlReference* P1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Struct_2_575273D27F02957E&, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UISUMMERTIDESELLINGMAKINGORDERWIDGETCONTROLLER___BASE_ONCREATEVIEWMODEL_OFFSET))(this, P0, P1);
+		}
+
+		::System::Void __base_OnShow(::MoleMole::UIControllerContextBase* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UISUMMERTIDESELLINGMAKINGORDERWIDGETCONTROLLER___BASE_ONSHOW_OFFSET))(this, P0);
+		}
+	};
+}

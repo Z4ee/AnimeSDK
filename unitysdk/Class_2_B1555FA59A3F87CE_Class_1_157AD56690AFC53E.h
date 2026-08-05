@@ -4,16 +4,16 @@
 
 namespace MoleMole::GalGame { class GalBubbleStoryNode; }
 
-#define CLASS_2_B1555FA59A3F87CE_CLASS_1_157AD56690AFC53E_METHOD_1_EBAB6A35C21A2A5B_OFFSET UNITYSDK_OFFSET(0x179E11B0)
-#define CLASS_2_B1555FA59A3F87CE_CLASS_1_157AD56690AFC53E__CTOR_OFFSET UNITYSDK_OFFSET(0x179E11A0)
+#define CLASS_2_B1555FA59A3F87CE_CLASS_1_157AD56690AFC53E_METHOD_1_EBAB6A35C21A2A5B_OFFSET UNITYSDK_OFFSET(0x10CCCB80)
+#define CLASS_2_B1555FA59A3F87CE_CLASS_1_157AD56690AFC53E__CTOR_OFFSET UNITYSDK_OFFSET(0x10CCCB70)
 
-inline static constexpr unsigned int Class_2_B1555FA59A3F87CE_Class_1_157AD56690AFC53E_TypeDefinitionIndex = 41892;
+inline static constexpr unsigned int Class_2_B1555FA59A3F87CE_Class_1_157AD56690AFC53E_TypeDefinitionIndex = 50824;
 
 class Class_2_B1555FA59A3F87CE_Class_1_157AD56690AFC53E : public ::System::Object
 {
 public:
-	::MoleMole::GalGame::GalBubbleStoryNode* Field_1_1; // 0x10
-	::System::Int32 Field_1_0; // 0x18
+	::MoleMole::GalGame::GalBubbleStoryNode* Field_1_0; // 0x10
+	::System::Int32 Field_1_1; // 0x18
 
 	::System::Void _ctor()
 	{

@@ -8,13 +8,13 @@
 namespace MoleMole::Timeline { class GaussianBlurBehaviour; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_TIMELINE_GAUSSIANBLURCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x173A20D0)
-#define MOLEMOLE_TIMELINE_GAUSSIANBLURCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x173A20C0)
-#define MOLEMOLE_TIMELINE_GAUSSIANBLURCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x173A22B0)
+#define MOLEMOLE_TIMELINE_GAUSSIANBLURCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1795EB40)
+#define MOLEMOLE_TIMELINE_GAUSSIANBLURCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1795EB30)
+#define MOLEMOLE_TIMELINE_GAUSSIANBLURCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1795ED20)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int GaussianBlurClip_TypeDefinitionIndex = 64109;
+	inline static constexpr unsigned int GaussianBlurClip_TypeDefinitionIndex = 86426;
 
 	class GaussianBlurClip : public ::UnityEngine::Playables::PlayableAsset
 	{

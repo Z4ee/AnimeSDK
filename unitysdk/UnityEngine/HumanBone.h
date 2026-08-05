@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int HumanBone_TypeDefinitionIndex = 6638;
+	inline static constexpr unsigned int HumanBone_TypeDefinitionIndex = 6644;
 
 	struct alignas(8) HumanBone
 	{

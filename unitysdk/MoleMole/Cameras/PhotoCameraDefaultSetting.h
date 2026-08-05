@@ -4,11 +4,11 @@
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define MOLEMOLE_CAMERAS_PHOTOCAMERADEFAULTSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x816A50)
+#define MOLEMOLE_CAMERAS_PHOTOCAMERADEFAULTSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x856E70)
 
 namespace MoleMole::Cameras
 {
-	inline static constexpr unsigned int PhotoCameraDefaultSetting_TypeDefinitionIndex = 44532;
+	inline static constexpr unsigned int PhotoCameraDefaultSetting_TypeDefinitionIndex = 49105;
 
 	struct alignas(4) PhotoCameraDefaultSetting
 	{

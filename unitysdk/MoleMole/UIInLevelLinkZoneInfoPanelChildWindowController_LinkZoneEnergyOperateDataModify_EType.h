@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInLevelLinkZoneInfoPanelChildWindowController_LinkZoneEnergyOperateDataModify_EType_TypeDefinitionIndex = 57236;
+	inline static constexpr unsigned int UIInLevelLinkZoneInfoPanelChildWindowController_LinkZoneEnergyOperateDataModify_EType_TypeDefinitionIndex = 47280;
 
 	enum class UIInLevelLinkZoneInfoPanelChildWindowController_LinkZoneEnergyOperateDataModify_EType : ::System::Int32
 	{

@@ -4,7 +4,7 @@
 
 namespace System::Reflection { class FieldInfo; }
 
-#define SYSTEM_RUNTIME_SERIALIZATION_VALUETYPEFIXUPINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1AEDC0)
+#define SYSTEM_RUNTIME_SERIALIZATION_VALUETYPEFIXUPINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1D815410)
 
 namespace System::Runtime::Serialization
 {
@@ -13,8 +13,8 @@ namespace System::Runtime::Serialization
 	class ValueTypeFixupInfo : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::Int32>* m_parentIndex; // 0x10
-		::System::Reflection::FieldInfo* m_parentField; // 0x18
+		::System::Reflection::FieldInfo* m_parentField; // 0x10
+		::Il2CppArray<::System::Int32>* m_parentIndex; // 0x18
 		::System::Int64 m_containerID; // 0x20
 
 		::System::Void _ctor(::System::Int64 containerID, ::System::Reflection::FieldInfo* member, ::Il2CppArray<::System::Int32>* parentIndex)

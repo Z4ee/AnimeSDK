@@ -9,12 +9,12 @@ namespace System { template <typename T1, typename T2, typename T3> class Action
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 namespace System::Reflection { class MethodInfo; }
 
-#define SQLITE_FASTCOLUMNSETTER_GETFASTSETTERMETHODINFOUNSAFE_OFFSET UNITYSDK_OFFSET(0x1D633150)
-#define SQLITE_FASTCOLUMNSETTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D633300)
+#define SQLITE_FASTCOLUMNSETTER_GETFASTSETTERMETHODINFOUNSAFE_OFFSET UNITYSDK_OFFSET(0x1E9FAFF0)
+#define SQLITE_FASTCOLUMNSETTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E9FB1A0)
 
 namespace SQLite
 {
-	inline static constexpr unsigned int FastColumnSetter_TypeDefinitionIndex = 38409;
+	inline static constexpr unsigned int FastColumnSetter_TypeDefinitionIndex = 39070;
 
 	class FastColumnSetter : public ::System::Object
 	{

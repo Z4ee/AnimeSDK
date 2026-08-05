@@ -4,12 +4,12 @@
 #include "unitysdk/Unity/Collections/NativeArray_1.h"
 #include "unitysdk/UnityEngine/Animations/TransformStreamHandle.h"
 
-#define NPCCROWD_ANIMATION_JOB_MIXERJOB_PROCESSANIMATION_OFFSET UNITYSDK_OFFSET(0x5EF2F0)
-#define NPCCROWD_ANIMATION_JOB_MIXERJOB_PROCESSROOTMOTION_OFFSET UNITYSDK_OFFSET(0x5EF2B0)
+#define NPCCROWD_ANIMATION_JOB_MIXERJOB_PROCESSANIMATION_OFFSET UNITYSDK_OFFSET(0x756340)
+#define NPCCROWD_ANIMATION_JOB_MIXERJOB_PROCESSROOTMOTION_OFFSET UNITYSDK_OFFSET(0x756300)
 
 namespace NPCCrowd::Animation::Job
 {
-	inline static constexpr unsigned int MixerJob_TypeDefinitionIndex = 60481;
+	inline static constexpr unsigned int MixerJob_TypeDefinitionIndex = 63204;
 
 	struct alignas(8) MixerJob
 	{

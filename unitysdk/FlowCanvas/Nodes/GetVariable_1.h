@@ -7,7 +7,7 @@ namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int GetVariable_1_TypeDefinitionIndex = 30297;
+	inline static constexpr unsigned int GetVariable_1_TypeDefinitionIndex = 30641;
 
 	template <typename T>
 	class GetVariable_1 : public ::FlowCanvas::Nodes::ParameterVariableNode

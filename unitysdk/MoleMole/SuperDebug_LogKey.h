@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_SUPERDEBUG_LOGKEY_GET_GRAPHEVENT_OFFSET UNITYSDK_OFFSET(0x1E1A92A0)
-#define MOLEMOLE_SUPERDEBUG_LOGKEY_GET_ZIPLINEHINT_OFFSET UNITYSDK_OFFSET(0x1E1A9260)
+#define MOLEMOLE_SUPERDEBUG_LOGKEY_GET_GRAPHEVENT_OFFSET UNITYSDK_OFFSET(0x1F4C1B30)
+#define MOLEMOLE_SUPERDEBUG_LOGKEY_GET_ZIPLINEHINT_OFFSET UNITYSDK_OFFSET(0x1F4C1AF0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SuperDebug_LogKey_TypeDefinitionIndex = 8061;
+	inline static constexpr unsigned int SuperDebug_LogKey_TypeDefinitionIndex = 7960;
 
 	struct alignas(1) SuperDebug_LogKey
 	{

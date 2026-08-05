@@ -4,24 +4,24 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UIBABELTOWERPAGE01CONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17341310)
-#define MOLEMOLE_UIBABELTOWERPAGE01CONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17341350)
-#define MOLEMOLE_UIBABELTOWERPAGE01CONTROLLER___C__ONPOSTREFRESHVIEW_B__4_2_OFFSET UNITYSDK_OFFSET(0x17341360)
+#define MOLEMOLE_UIBABELTOWERPAGE01CONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1895B1F0)
+#define MOLEMOLE_UIBABELTOWERPAGE01CONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1895B230)
+#define MOLEMOLE_UIBABELTOWERPAGE01CONTROLLER___C__ONPOSTREFRESHVIEW_B__4_2_OFFSET UNITYSDK_OFFSET(0x1895B240)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBabeltowerPage01Controller___c_TypeDefinitionIndex = 69188;
+	inline static constexpr unsigned int UIBabeltowerPage01Controller___c_TypeDefinitionIndex = 89194;
 
 	class UIBabeltowerPage01Controller___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__4_2()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIBabeltowerPage01Controller___c_TypeDefinitionIndex)->GetStaticField(0x30AC0);
-		}
 		static ::MoleMole::UIBabeltowerPage01Controller___c** StaticGet___9()
 		{
-			return (::MoleMole::UIBabeltowerPage01Controller___c**)Il2CppClass::FromTypeDefinitionIndex(UIBabeltowerPage01Controller___c_TypeDefinitionIndex)->GetStaticField(0x30AC8);
+			return (::MoleMole::UIBabeltowerPage01Controller___c**)Il2CppClass::FromTypeDefinitionIndex(UIBabeltowerPage01Controller___c_TypeDefinitionIndex)->GetStaticField(0x32B10);
+		}
+		static ::System::Action** StaticGet___9__4_2()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIBabeltowerPage01Controller___c_TypeDefinitionIndex)->GetStaticField(0x32B18);
 		}
 
 		static ::System::Void _cctor()

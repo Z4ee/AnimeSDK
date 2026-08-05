@@ -2,17 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_4_86126C0ABC4F0231.h"
 
-class Class_1_C376DB68B1C74261;
+class Class_1_D3581D8A71834B25;
 class Class_2_9DCE2FC33F67E8A2;
 namespace MoleMole::Config { class ConfigPlayOverwriteGridStateTextureChange; }
 namespace MoleMole::Config { class UISpecialNumGroup; }
 
-#define CLASS_5_853868079911910C_METHOD_5_09161FEE113B1CBD_OFFSET UNITYSDK_OFFSET(0x123A5970)
-#define CLASS_5_853868079911910C_METHOD_5_3DD432746D0639D5_OFFSET UNITYSDK_OFFSET(0x123A5900)
-#define CLASS_5_853868079911910C_METHOD_5_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x123A5AE0)
-#define CLASS_5_853868079911910C__CTOR_OFFSET UNITYSDK_OFFSET(0x123A5A80)
+#define CLASS_5_853868079911910C_METHOD_5_09161FEE113B1CBD_OFFSET UNITYSDK_OFFSET(0x159966F0)
+#define CLASS_5_853868079911910C_METHOD_5_3DD432746D0639D5_OFFSET UNITYSDK_OFFSET(0x15996680)
+#define CLASS_5_853868079911910C_METHOD_5_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x15996860)
+#define CLASS_5_853868079911910C__CTOR_OFFSET UNITYSDK_OFFSET(0x15996800)
 
-inline static constexpr unsigned int Class_5_853868079911910C_TypeDefinitionIndex = 42689;
+inline static constexpr unsigned int Class_5_853868079911910C_TypeDefinitionIndex = 82181;
 
 class Class_5_853868079911910C : public ::Class_4_86126C0ABC4F0231<::MoleMole::Config::ConfigPlayOverwriteGridStateTextureChange*>
 {
@@ -24,9 +24,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_5_853868079911910C__CTOR_OFFSET))(this);
 	}
 
-	::System::Void Method_5_3DD432746D0639D5(::MoleMole::Config::ConfigPlayOverwriteGridStateTextureChange* a1, ::Class_2_9DCE2FC33F67E8A2* a2, ::MoleMole::Config::UISpecialNumGroup* a3, ::Class_1_C376DB68B1C74261* a4)
+	::System::Void Method_5_3DD432746D0639D5(::MoleMole::Config::ConfigPlayOverwriteGridStateTextureChange* a1, ::Class_2_9DCE2FC33F67E8A2* a2, ::MoleMole::Config::UISpecialNumGroup* a3, ::Class_1_D3581D8A71834B25* a4)
 	{
-		return ((::System::Void(*)(::PVOID, ::MoleMole::Config::ConfigPlayOverwriteGridStateTextureChange*, ::Class_2_9DCE2FC33F67E8A2*, ::MoleMole::Config::UISpecialNumGroup*, ::Class_1_C376DB68B1C74261*))((::PBYTE)hIl2Cpp + CLASS_5_853868079911910C_METHOD_5_3DD432746D0639D5_OFFSET))(this, a1, a2, a3, a4);
+		return ((::System::Void(*)(::PVOID, ::MoleMole::Config::ConfigPlayOverwriteGridStateTextureChange*, ::Class_2_9DCE2FC33F67E8A2*, ::MoleMole::Config::UISpecialNumGroup*, ::Class_1_D3581D8A71834B25*))((::PBYTE)hIl2Cpp + CLASS_5_853868079911910C_METHOD_5_3DD432746D0639D5_OFFSET))(this, a1, a2, a3, a4);
 	}
 
 	::System::Void Method_5_09161FEE113B1CBD()

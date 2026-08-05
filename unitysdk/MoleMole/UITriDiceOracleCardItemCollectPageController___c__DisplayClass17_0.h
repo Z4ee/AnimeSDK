@@ -5,18 +5,18 @@
 
 namespace MoleMole { class UITriDiceOracleCardItemCollectPageController; }
 
-#define MOLEMOLE_UITRIDICEORACLECARDITEMCOLLECTPAGECONTROLLER___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0x13999210)
-#define MOLEMOLE_UITRIDICEORACLECARDITEMCOLLECTPAGECONTROLLER___C__DISPLAYCLASS17_0__INITTAB_B__0_OFFSET UNITYSDK_OFFSET(0x13999D30)
+#define MOLEMOLE_UITRIDICEORACLECARDITEMCOLLECTPAGECONTROLLER___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0x162A4E20)
+#define MOLEMOLE_UITRIDICEORACLECARDITEMCOLLECTPAGECONTROLLER___C__DISPLAYCLASS17_0__INITTAB_B__0_OFFSET UNITYSDK_OFFSET(0x162A5930)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UITriDiceOracleCardItemCollectPageController___c__DisplayClass17_0_TypeDefinitionIndex = 66587;
+	inline static constexpr unsigned int UITriDiceOracleCardItemCollectPageController___c__DisplayClass17_0_TypeDefinitionIndex = 56341;
 
 	class UITriDiceOracleCardItemCollectPageController___c__DisplayClass17_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UITriDiceOracleCardItemCollectPageController* __4__this; // 0x10
-		::MoleMole::UITriDiceOracleCardItemCollectPageController_TabData tabData; // 0x18
+		::MoleMole::UITriDiceOracleCardItemCollectPageController_TabData tabData; // 0x10
+		::MoleMole::UITriDiceOracleCardItemCollectPageController* __4__this; // 0x28
 
 		::System::Void _ctor()
 		{

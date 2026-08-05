@@ -7,11 +7,11 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_MONOEFFECTPLUGINFADE__CTOR_OFFSET UNITYSDK_OFFSET(0x1513F0D0)
+#define MOLEMOLE_MONOEFFECTPLUGINFADE__CTOR_OFFSET UNITYSDK_OFFSET(0x17913720)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoEffectPluginFade_TypeDefinitionIndex = 47981;
+	inline static constexpr unsigned int MonoEffectPluginFade_TypeDefinitionIndex = 78104;
 
 	class MonoEffectPluginFade : public ::MoleMole::MonoEffectPluginBase
 	{

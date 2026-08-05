@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIOnlineChatTipsContainerWidgetController_OnlineChatOperateDataModify_EType_TypeDefinitionIndex = 76027;
+	inline static constexpr unsigned int UIOnlineChatTipsContainerWidgetController_OnlineChatOperateDataModify_EType_TypeDefinitionIndex = 40696;
 
 	enum class UIOnlineChatTipsContainerWidgetController_OnlineChatOperateDataModify_EType : ::System::Int32
 	{

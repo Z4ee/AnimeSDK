@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIINLEVELSKILLBUTTONZIPLINECHANGECHILDWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x174B65F0)
+#define MOLEMOLE_UIINLEVELSKILLBUTTONZIPLINECHANGECHILDWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1742DCF0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInLevelSkillButtonZiplineChangeChildWindowController_Context_TypeDefinitionIndex = 47885;
+	inline static constexpr unsigned int UIInLevelSkillButtonZiplineChangeChildWindowController_Context_TypeDefinitionIndex = 89047;
 
 	class UIInLevelSkillButtonZiplineChangeChildWindowController_Context : public ::MoleMole::UIControllerContextBase
 	{

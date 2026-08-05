@@ -12,36 +12,36 @@ namespace UnityEngine { class Object; }
 namespace UnityEngine { class Sprite; }
 namespace UnityEngine::UI { class Image; }
 
-#define CLASS_1_1E8D2BC1EF83C1D7_CLASS_1_91D8D135C4310908_METHOD_1_2CA7A456F23971D0_OFFSET UNITYSDK_OFFSET(0x10F31600)
-#define CLASS_1_1E8D2BC1EF83C1D7_CLASS_1_91D8D135C4310908_METHOD_1_2E29038CF17E20BD_OFFSET UNITYSDK_OFFSET(0x10F31690)
-#define CLASS_1_1E8D2BC1EF83C1D7_CLASS_1_91D8D135C4310908_METHOD_1_46E59C72F1CFB0B7_OFFSET UNITYSDK_OFFSET(0x10F31B40)
-#define CLASS_1_1E8D2BC1EF83C1D7_CLASS_1_91D8D135C4310908__CTOR_OFFSET UNITYSDK_OFFSET(0x10F315F0)
+#define CLASS_1_1E8D2BC1EF83C1D7_CLASS_1_91D8D135C4310908_METHOD_1_2CA7A456F23971D0_OFFSET UNITYSDK_OFFSET(0x1407D720)
+#define CLASS_1_1E8D2BC1EF83C1D7_CLASS_1_91D8D135C4310908_METHOD_1_2E29038CF17E20BD_OFFSET UNITYSDK_OFFSET(0x1407D270)
+#define CLASS_1_1E8D2BC1EF83C1D7_CLASS_1_91D8D135C4310908_METHOD_1_46E59C72F1CFB0B7_OFFSET UNITYSDK_OFFSET(0x1407D7B0)
+#define CLASS_1_1E8D2BC1EF83C1D7_CLASS_1_91D8D135C4310908__CTOR_OFFSET UNITYSDK_OFFSET(0x1407D260)
 
-inline static constexpr unsigned int Class_1_1E8D2BC1EF83C1D7_Class_1_91D8D135C4310908_TypeDefinitionIndex = 59078;
+inline static constexpr unsigned int Class_1_1E8D2BC1EF83C1D7_Class_1_91D8D135C4310908_TypeDefinitionIndex = 81113;
 
 class Class_1_1E8D2BC1EF83C1D7_Class_1_91D8D135C4310908 : public ::System::Object
 {
 public:
-	::Class_1_1E8D2BC1EF83C1D7* Field_1_2; // 0x10
-	::System::Action_1<::Foundation::AssetRequestHandle>* Field_1_4; // 0x18
-	::UnityEngine::UI::Image* Field_1_1; // 0x20
-	::Foundation::AssetPath Field_1_0; // 0x28
-	::System::Action* Field_1_3; // 0x38
-	::System::Action_2<::UnityEngine::Sprite*, ::Foundation::AssetRequestHandle>* Field_1_5; // 0x40
+	::UnityEngine::UI::Image* Field_1_2; // 0x10
+	::System::Action* Field_1_0; // 0x18
+	::System::Action_2<::UnityEngine::Sprite*, ::Foundation::AssetRequestHandle>* Field_1_6; // 0x20
+	::Foundation::AssetPath Field_1_3; // 0x28
+	::System::Action_1<::Foundation::AssetRequestHandle>* Field_1_7; // 0x38
+	::Class_1_1E8D2BC1EF83C1D7* Field_1_1; // 0x40
 
 	::System::Void _ctor()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_1E8D2BC1EF83C1D7_CLASS_1_91D8D135C4310908__CTOR_OFFSET))(this);
 	}
 
-	::System::Void Method_1_2CA7A456F23971D0(::UnityEngine::Object* a1, ::Foundation::AssetRequestHandle a2)
-	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::Object*, ::Foundation::AssetRequestHandle))((::PBYTE)hIl2Cpp + CLASS_1_1E8D2BC1EF83C1D7_CLASS_1_91D8D135C4310908_METHOD_1_2CA7A456F23971D0_OFFSET))(this, a1, a2);
-	}
-
 	::System::Void Method_1_2E29038CF17E20BD()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_1E8D2BC1EF83C1D7_CLASS_1_91D8D135C4310908_METHOD_1_2E29038CF17E20BD_OFFSET))(this);
+	}
+
+	::System::Void Method_1_2CA7A456F23971D0(::UnityEngine::Object* a1, ::Foundation::AssetRequestHandle a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Object*, ::Foundation::AssetRequestHandle))((::PBYTE)hIl2Cpp + CLASS_1_1E8D2BC1EF83C1D7_CLASS_1_91D8D135C4310908_METHOD_1_2CA7A456F23971D0_OFFSET))(this, a1, a2);
 	}
 
 	::System::Void Method_1_46E59C72F1CFB0B7(::UnityEngine::Sprite* a1, ::Foundation::AssetRequestHandle a2)

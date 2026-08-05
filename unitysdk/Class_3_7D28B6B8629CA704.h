@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_2_CCFE785C3F41C676.h"
+#include "unitysdk/Class_2_B0798E1629E01207.h"
 #include "unitysdk/UnityEngine/Color.h"
 
 class Class_1_8A50BFB20D9D2482;
@@ -13,50 +13,50 @@ namespace UnityEngine::NAPRenderPipeline0 { class VolumeProfile_NativeSRP; }
 namespace UnityEngine::Rendering { class Volume; }
 namespace UnityEngine::Rendering::Universal { class ColorAdjustments; }
 
-#define CLASS_3_7D28B6B8629CA704_METHOD_3_21DBED29DA66672B_OFFSET UNITYSDK_OFFSET(0x14D364F0)
-#define CLASS_3_7D28B6B8629CA704_METHOD_3_3B334D1F024D85B1_OFFSET UNITYSDK_OFFSET(0x14D39DD0)
-#define CLASS_3_7D28B6B8629CA704_METHOD_3_4513FFA9FF37D9A8_OFFSET UNITYSDK_OFFSET(0x14D3E350)
-#define CLASS_3_7D28B6B8629CA704_METHOD_3_472DA963547453DE_OFFSET UNITYSDK_OFFSET(0x14D37E10)
-#define CLASS_3_7D28B6B8629CA704_METHOD_3_500FCEA56BA44224_OFFSET UNITYSDK_OFFSET(0x14D33970)
-#define CLASS_3_7D28B6B8629CA704_METHOD_3_73381021799AED23_OFFSET UNITYSDK_OFFSET(0x14D3C360)
-#define CLASS_3_7D28B6B8629CA704_TOSTRING_OFFSET UNITYSDK_OFFSET(0x14D3F620)
-#define CLASS_3_7D28B6B8629CA704__CTOR_OFFSET UNITYSDK_OFFSET(0x14D33690)
+#define CLASS_3_7D28B6B8629CA704_METHOD_3_21DBED29DA66672B_OFFSET UNITYSDK_OFFSET(0x178686C0)
+#define CLASS_3_7D28B6B8629CA704_METHOD_3_3B334D1F024D85B1_OFFSET UNITYSDK_OFFSET(0x1786BEB0)
+#define CLASS_3_7D28B6B8629CA704_METHOD_3_4513FFA9FF37D9A8_OFFSET UNITYSDK_OFFSET(0x178702F0)
+#define CLASS_3_7D28B6B8629CA704_METHOD_3_472DA963547453DE_OFFSET UNITYSDK_OFFSET(0x17869F60)
+#define CLASS_3_7D28B6B8629CA704_METHOD_3_500FCEA56BA44224_OFFSET UNITYSDK_OFFSET(0x17865BA0)
+#define CLASS_3_7D28B6B8629CA704_METHOD_3_73381021799AED23_OFFSET UNITYSDK_OFFSET(0x1786E400)
+#define CLASS_3_7D28B6B8629CA704_TOSTRING_OFFSET UNITYSDK_OFFSET(0x17871580)
+#define CLASS_3_7D28B6B8629CA704__CTOR_OFFSET UNITYSDK_OFFSET(0x178658C0)
 
-inline static constexpr unsigned int Class_3_7D28B6B8629CA704_TypeDefinitionIndex = 63396;
+inline static constexpr unsigned int Class_3_7D28B6B8629CA704_TypeDefinitionIndex = 59348;
 
-class Class_3_7D28B6B8629CA704 : public ::Class_2_CCFE785C3F41C676<::UnityEngine::Rendering::Universal::ColorAdjustments*, ::MoleMole::Config::ConfigEntityColorAdjustment*>
+class Class_3_7D28B6B8629CA704 : public ::Class_2_B0798E1629E01207<::UnityEngine::Rendering::Universal::ColorAdjustments*, ::MoleMole::Config::ConfigEntityColorAdjustment*>
 {
 public:
-	::MoleMole::TwoValue_1<::System::Single>* Field_3_24; // 0xA8
-	::MoleMole::TwoValue_1<::System::Single>* Field_3_2; // 0xB0
-	::MoleMole::TwoValue_1<::System::Single>* Field_3_22; // 0xB8
-	::UnityEngine::Texture* Field_3_27; // 0xC0
-	::MoleMole::TwoValue_1<::UnityEngine::Color>* Field_3_6; // 0xC8
-	::MoleMole::TwoValue_1<::UnityEngine::Texture*>* Field_3_26; // 0xD0
-	::MoleMole::TwoValue_1<::System::Single>* Field_3_16; // 0xD8
-	::MoleMole::TwoValue_1<::System::Single>* Field_3_10; // 0xE0
-	::MoleMole::TwoValue_1<::System::Single>* Field_3_28; // 0xE8
-	::MoleMole::TwoValue_1<::System::Single>* Field_3_8; // 0xF0
-	::MoleMole::TwoValue_1<::System::Boolean>* Field_3_0; // 0xF8
-	::MoleMole::TwoValue_1<::System::Single>* Field_3_12; // 0x100
-	::MoleMole::TwoValue_1<::System::Single>* Field_3_20; // 0x108
-	::MoleMole::TwoValue_1<::System::Single>* Field_3_18; // 0x110
-	::MoleMole::TwoValue_1<::System::Single>* Field_3_4; // 0x118
-	::MoleMole::TwoValue_1<::System::Boolean>* Field_3_14; // 0x120
-	::UnityEngine::Color Field_3_7; // 0x128
-	::System::Boolean Field_3_15; // 0x138
-	::System::Boolean Field_3_1; // 0x139
-	::System::Single Field_3_5; // 0x13C
-	::System::Single Field_3_23; // 0x140
-	::System::Single Field_3_3; // 0x144
-	::System::Single Field_3_21; // 0x148
-	::System::Single Field_3_19; // 0x14C
-	::System::Single Field_3_11; // 0x150
-	::System::Single Field_3_13; // 0x154
-	::System::Single Field_3_17; // 0x158
-	::System::Single Field_3_25; // 0x15C
-	::System::Single Field_3_9; // 0x160
-	::System::Single Field_3_29; // 0x164
+	::MoleMole::TwoValue_1<::System::Single>* Field_3_28; // 0xA8
+	::MoleMole::TwoValue_1<::System::Boolean>* Field_3_0; // 0xB0
+	::MoleMole::TwoValue_1<::System::Boolean>* Field_3_18; // 0xB8
+	::MoleMole::TwoValue_1<::System::Single>* Field_3_22; // 0xC0
+	::MoleMole::TwoValue_1<::System::Single>* Field_3_14; // 0xC8
+	::MoleMole::TwoValue_1<::System::Single>* Field_3_4; // 0xD0
+	::MoleMole::TwoValue_1<::System::Single>* Field_3_26; // 0xD8
+	::MoleMole::TwoValue_1<::System::Single>* Field_3_12; // 0xE0
+	::MoleMole::TwoValue_1<::System::Single>* Field_3_20; // 0xE8
+	::MoleMole::TwoValue_1<::System::Single>* Field_3_16; // 0xF0
+	::MoleMole::TwoValue_1<::UnityEngine::Color>* Field_3_10; // 0xF8
+	::MoleMole::TwoValue_1<::System::Single>* Field_3_6; // 0x100
+	::MoleMole::TwoValue_1<::System::Single>* Field_3_24; // 0x108
+	::UnityEngine::Texture* Field_3_29; // 0x110
+	::MoleMole::TwoValue_1<::UnityEngine::Texture*>* Field_3_30; // 0x118
+	::MoleMole::TwoValue_1<::System::Single>* Field_3_8; // 0x120
+	::System::Single Field_3_15; // 0x128
+	::System::Single Field_3_23; // 0x12C
+	::System::Single Field_3_21; // 0x130
+	::System::Single Field_3_11; // 0x134
+	::UnityEngine::Color Field_3_9; // 0x138
+	::System::Single Field_3_31; // 0x148
+	::System::Single Field_3_25; // 0x14C
+	::System::Single Field_3_35; // 0x150
+	::System::Single Field_3_5; // 0x154
+	::System::Boolean Field_3_7; // 0x158
+	::System::Boolean Field_3_17; // 0x159
+	::System::Single Field_3_13; // 0x15C
+	::System::Single Field_3_19; // 0x160
+	::System::Single Field_3_27; // 0x164
 
 	::System::Void _ctor(::System::String* a1, ::MoleMole::Config::ConfigEntityColorAdjustment* a2, ::UnityEngine::Rendering::Volume* a3, ::MoleMole::Battle::Entity* a4, ::Class_1_8A50BFB20D9D2482* a5)
 	{

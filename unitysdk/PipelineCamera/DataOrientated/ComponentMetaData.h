@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define PIPELINECAMERA_DATAORIENTATED_COMPONENTMETADATA__CTOR_OFFSET UNITYSDK_OFFSET(0x32DA80)
+#define PIPELINECAMERA_DATAORIENTATED_COMPONENTMETADATA__CTOR_OFFSET UNITYSDK_OFFSET(0x355940)
 
 namespace PipelineCamera::DataOrientated
 {
-	inline static constexpr unsigned int ComponentMetaData_TypeDefinitionIndex = 37740;
+	inline static constexpr unsigned int ComponentMetaData_TypeDefinitionIndex = 38401;
 
 	struct alignas(8) ComponentMetaData
 	{

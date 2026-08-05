@@ -4,29 +4,29 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UIPRIVATEMESSAGEREPLYWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1577B6C0)
-#define MOLEMOLE_UIPRIVATEMESSAGEREPLYWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1577B700)
-#define MOLEMOLE_UIPRIVATEMESSAGEREPLYWIDGETCONTROLLER___C__OPENPERSONALQUEST_B__26_3_OFFSET UNITYSDK_OFFSET(0x1577B900)
-#define MOLEMOLE_UIPRIVATEMESSAGEREPLYWIDGETCONTROLLER___C__UPDATEPERSONALMISSION_B__24_6_OFFSET UNITYSDK_OFFSET(0x1577B710)
+#define MOLEMOLE_UIPRIVATEMESSAGEREPLYWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17A0CDA0)
+#define MOLEMOLE_UIPRIVATEMESSAGEREPLYWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17A0CDE0)
+#define MOLEMOLE_UIPRIVATEMESSAGEREPLYWIDGETCONTROLLER___C__OPENPERSONALQUEST_B__26_3_OFFSET UNITYSDK_OFFSET(0x17A0CFE0)
+#define MOLEMOLE_UIPRIVATEMESSAGEREPLYWIDGETCONTROLLER___C__UPDATEPERSONALMISSION_B__24_6_OFFSET UNITYSDK_OFFSET(0x17A0CDF0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIPrivateMessageReplyWidgetController___c_TypeDefinitionIndex = 81756;
+	inline static constexpr unsigned int UIPrivateMessageReplyWidgetController___c_TypeDefinitionIndex = 56235;
 
 	class UIPrivateMessageReplyWidgetController___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__26_3()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIPrivateMessageReplyWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x37D60);
-		}
 		static ::MoleMole::UIPrivateMessageReplyWidgetController___c** StaticGet___9()
 		{
-			return (::MoleMole::UIPrivateMessageReplyWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIPrivateMessageReplyWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x37D68);
+			return (::MoleMole::UIPrivateMessageReplyWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIPrivateMessageReplyWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3A750);
+		}
+		static ::System::Action** StaticGet___9__26_3()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIPrivateMessageReplyWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3A758);
 		}
 		static ::System::Action** StaticGet___9__24_6()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIPrivateMessageReplyWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x37D70);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIPrivateMessageReplyWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3A760);
 		}
 
 		static ::System::Void _cctor()

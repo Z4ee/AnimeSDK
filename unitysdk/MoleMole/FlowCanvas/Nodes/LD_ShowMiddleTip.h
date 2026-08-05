@@ -9,31 +9,31 @@ namespace FlowCanvas { template <typename T> class ValueInput_1; }
 namespace MoleMole { class UIMiddleTip; }
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_SHOWMIDDLETIP_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x17E772A0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_SHOWMIDDLETIP__CTOR_OFFSET UNITYSDK_OFFSET(0x17E77540)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_SHOWMIDDLETIP__GETCREATEDTIPOBJECT_OFFSET UNITYSDK_OFFSET(0x17E774F0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_SHOWMIDDLETIP__REGISTERPORTS_B__11_0_OFFSET UNITYSDK_OFFSET(0x17E77580)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_SHOWMIDDLETIP__REGISTERPORTS_B__11_1_OFFSET UNITYSDK_OFFSET(0x17E77A50)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_SHOWMIDDLETIP__REGISTERPORTS_B__11_2_OFFSET UNITYSDK_OFFSET(0x17E77AB0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_SHOWMIDDLETIP_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x19BE7AD0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_SHOWMIDDLETIP__CTOR_OFFSET UNITYSDK_OFFSET(0x19BE7D70)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_SHOWMIDDLETIP__GETCREATEDTIPOBJECT_OFFSET UNITYSDK_OFFSET(0x19BE7D20)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_SHOWMIDDLETIP__REGISTERPORTS_B__11_0_OFFSET UNITYSDK_OFFSET(0x19BE7DB0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_SHOWMIDDLETIP__REGISTERPORTS_B__11_1_OFFSET UNITYSDK_OFFSET(0x19BE8270)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_SHOWMIDDLETIP__REGISTERPORTS_B__11_2_OFFSET UNITYSDK_OFFSET(0x19BE82D0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_ShowMiddleTip_TypeDefinitionIndex = 66115;
+	inline static constexpr unsigned int LD_ShowMiddleTip_TypeDefinitionIndex = 63786;
 
 	class LD_ShowMiddleTip : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::FlowOutput* HideOutput; // 0xA8
-		::FlowCanvas::ValueInput_1<::System::String*>* updateText; // 0xB0
-		::FlowCanvas::FlowInput* Hide; // 0xB8
+		::FlowCanvas::ValueInput_1<::System::Int32>* showPage; // 0xA8
+		::FlowCanvas::ValueInput_1<::System::Boolean>* show; // 0xB0
+		::FlowCanvas::FlowOutput* HideOutput; // 0xB8
 		::FlowCanvas::ValueInput_1<::System::Int32>* tipID; // 0xC0
-		::FlowCanvas::ValueInput_1<::System::String*>* debugText; // 0xC8
-		::MoleMole::UIMiddleTip* _middleTip; // 0xD0
-		::FlowCanvas::FlowOutput* ShowOutput; // 0xD8
-		::FlowCanvas::ValueInput_1<::System::Boolean>* show; // 0xE0
-		::FlowCanvas::ValueInput_1<::System::Int32>* showPage; // 0xE8
-		::FlowCanvas::ValueInput_1<::System::Boolean>* showIcon; // 0xF0
-		::FlowCanvas::FlowInput* Show; // 0xF8
+		::FlowCanvas::ValueInput_1<::System::String*>* updateText; // 0xC8
+		::FlowCanvas::ValueInput_1<::System::Boolean>* showIcon; // 0xD0
+		::FlowCanvas::FlowInput* Show; // 0xD8
+		::MoleMole::UIMiddleTip* _middleTip; // 0xE0
+		::FlowCanvas::ValueInput_1<::System::String*>* debugText; // 0xE8
+		::FlowCanvas::FlowOutput* ShowOutput; // 0xF0
+		::FlowCanvas::FlowInput* Hide; // 0xF8
 
 		::System::Void _ctor()
 		{

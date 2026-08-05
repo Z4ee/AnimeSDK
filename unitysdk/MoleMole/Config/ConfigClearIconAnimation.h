@@ -7,12 +7,12 @@
 class Class_1_D72537470FC2F779;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGCLEARICONANIMATION_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x18F30340)
-#define MOLEMOLE_CONFIG_CONFIGCLEARICONANIMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x18F30400)
+#define MOLEMOLE_CONFIG_CONFIGCLEARICONANIMATION_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x16259FB0)
+#define MOLEMOLE_CONFIG_CONFIGCLEARICONANIMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1625A070)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigClearIconAnimation_TypeDefinitionIndex = 63516;
+	inline static constexpr unsigned int ConfigClearIconAnimation_TypeDefinitionIndex = 77506;
 
 	class ConfigClearIconAnimation : public ::MoleMole::Config::ConfigUIBaseActionNode
 	{

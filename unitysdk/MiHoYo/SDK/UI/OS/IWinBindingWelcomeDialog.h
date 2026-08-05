@@ -7,7 +7,7 @@ namespace System { template <typename T> class Func_1; }
 
 namespace MiHoYo::SDK::UI::OS
 {
-	inline static constexpr unsigned int IWinBindingWelcomeDialog_TypeDefinitionIndex = 20215;
+	inline static constexpr unsigned int IWinBindingWelcomeDialog_TypeDefinitionIndex = 20563;
 
 	class IWinBindingWelcomeDialog
 	{

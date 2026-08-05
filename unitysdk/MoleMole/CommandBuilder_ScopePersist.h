@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define MOLEMOLE_COMMANDBUILDER_SCOPEPERSIST_DISPOSE_OFFSET UNITYSDK_OFFSET(0x283610)
+#define MOLEMOLE_COMMANDBUILDER_SCOPEPERSIST_DISPOSE_OFFSET UNITYSDK_OFFSET(0x296F30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CommandBuilder_ScopePersist_TypeDefinitionIndex = 38549;
+	inline static constexpr unsigned int CommandBuilder_ScopePersist_TypeDefinitionIndex = 39210;
 
 	struct alignas(1) CommandBuilder_ScopePersist
 	{

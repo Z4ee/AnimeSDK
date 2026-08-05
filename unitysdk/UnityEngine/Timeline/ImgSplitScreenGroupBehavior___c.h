@@ -6,29 +6,29 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace UnityEngine::Timeline { class EventTriggerMarker; }
 namespace UnityEngine::Timeline { class IMarker; }
 
-#define UNITYENGINE_TIMELINE_IMGSPLITSCREENGROUPBEHAVIOR___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E5A9AE0)
-#define UNITYENGINE_TIMELINE_IMGSPLITSCREENGROUPBEHAVIOR___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1E5A9B20)
-#define UNITYENGINE_TIMELINE_IMGSPLITSCREENGROUPBEHAVIOR___C__PROCESSFRAME_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E5A9B30)
-#define UNITYENGINE_TIMELINE_IMGSPLITSCREENGROUPBEHAVIOR___C__PROCESSFRAME_B__23_1_OFFSET UNITYSDK_OFFSET(0x1E5A9BA0)
+#define UNITYENGINE_TIMELINE_IMGSPLITSCREENGROUPBEHAVIOR___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F990F00)
+#define UNITYENGINE_TIMELINE_IMGSPLITSCREENGROUPBEHAVIOR___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1F990F40)
+#define UNITYENGINE_TIMELINE_IMGSPLITSCREENGROUPBEHAVIOR___C__PROCESSFRAME_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F990F50)
+#define UNITYENGINE_TIMELINE_IMGSPLITSCREENGROUPBEHAVIOR___C__PROCESSFRAME_B__23_1_OFFSET UNITYSDK_OFFSET(0x1F990FC0)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int ImgSplitScreenGroupBehavior___c_TypeDefinitionIndex = 32346;
+	inline static constexpr unsigned int ImgSplitScreenGroupBehavior___c_TypeDefinitionIndex = 32977;
 
 	class ImgSplitScreenGroupBehavior___c : public ::System::Object
 	{
 	public:
+		static ::System::Func_2<::UnityEngine::Timeline::IMarker*, ::UnityEngine::Timeline::EventTriggerMarker*>** StaticGet___9__23_0()
+		{
+			return (::System::Func_2<::UnityEngine::Timeline::IMarker*, ::UnityEngine::Timeline::EventTriggerMarker*>**)Il2CppClass::FromTypeDefinitionIndex(ImgSplitScreenGroupBehavior___c_TypeDefinitionIndex)->GetStaticField(0x28060);
+		}
 		static ::System::Func_2<::UnityEngine::Timeline::EventTriggerMarker*, ::System::Boolean>** StaticGet___9__23_1()
 		{
-			return (::System::Func_2<::UnityEngine::Timeline::EventTriggerMarker*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ImgSplitScreenGroupBehavior___c_TypeDefinitionIndex)->GetStaticField(0x26870);
+			return (::System::Func_2<::UnityEngine::Timeline::EventTriggerMarker*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ImgSplitScreenGroupBehavior___c_TypeDefinitionIndex)->GetStaticField(0x28068);
 		}
 		static ::UnityEngine::Timeline::ImgSplitScreenGroupBehavior___c** StaticGet___9()
 		{
-			return (::UnityEngine::Timeline::ImgSplitScreenGroupBehavior___c**)Il2CppClass::FromTypeDefinitionIndex(ImgSplitScreenGroupBehavior___c_TypeDefinitionIndex)->GetStaticField(0x26878);
-		}
-		static ::System::Func_2<::UnityEngine::Timeline::IMarker*, ::UnityEngine::Timeline::EventTriggerMarker*>** StaticGet___9__23_0()
-		{
-			return (::System::Func_2<::UnityEngine::Timeline::IMarker*, ::UnityEngine::Timeline::EventTriggerMarker*>**)Il2CppClass::FromTypeDefinitionIndex(ImgSplitScreenGroupBehavior___c_TypeDefinitionIndex)->GetStaticField(0x26880);
+			return (::UnityEngine::Timeline::ImgSplitScreenGroupBehavior___c**)Il2CppClass::FromTypeDefinitionIndex(ImgSplitScreenGroupBehavior___c_TypeDefinitionIndex)->GetStaticField(0x28070);
 		}
 
 		static ::System::Void _cctor()

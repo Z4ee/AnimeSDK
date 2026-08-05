@@ -6,10 +6,10 @@
 
 namespace System { class String; }
 
-#define PARTICLEBASEDATATYPE_GETSHADERPROPERTYID_OFFSET UNITYSDK_OFFSET(0x1AEBD270)
-#define PARTICLEBASEDATATYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AEBD2E0)
+#define PARTICLEBASEDATATYPE_GETSHADERPROPERTYID_OFFSET UNITYSDK_OFFSET(0x1C402FC0)
+#define PARTICLEBASEDATATYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C403030)
 
-inline static constexpr unsigned int ParticleBaseDataType_TypeDefinitionIndex = 27028;
+inline static constexpr unsigned int ParticleBaseDataType_TypeDefinitionIndex = 27854;
 
 class ParticleBaseDataType : public ::System::Object
 {

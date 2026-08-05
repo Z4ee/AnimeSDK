@@ -3,12 +3,12 @@
 #include "unitysdk/RootMotion/FinalIK/FullBodyBipedEffector.h"
 #include "unitysdk/System/Object.h"
 
-#define ROOTMOTION_FINALIK_GROUNDERFBBIK_SPINEEFFECTOR__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E62EB80)
-#define ROOTMOTION_FINALIK_GROUNDERFBBIK_SPINEEFFECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1E62EB70)
+#define ROOTMOTION_FINALIK_GROUNDERFBBIK_SPINEEFFECTOR__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1FA12F90)
+#define ROOTMOTION_FINALIK_GROUNDERFBBIK_SPINEEFFECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1FA12F80)
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int GrounderFBBIK_SpineEffector_TypeDefinitionIndex = 38302;
+	inline static constexpr unsigned int GrounderFBBIK_SpineEffector_TypeDefinitionIndex = 38861;
 
 	class GrounderFBBIK_SpineEffector : public ::System::Object
 	{

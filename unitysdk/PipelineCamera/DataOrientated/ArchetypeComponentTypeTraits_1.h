@@ -5,7 +5,7 @@
 
 namespace PipelineCamera::DataOrientated
 {
-	inline static constexpr unsigned int ArchetypeComponentTypeTraits_1_TypeDefinitionIndex = 37744;
+	inline static constexpr unsigned int ArchetypeComponentTypeTraits_1_TypeDefinitionIndex = 38405;
 
 	template <typename T>
 	class ArchetypeComponentTypeTraits_1 : public ::System::Object

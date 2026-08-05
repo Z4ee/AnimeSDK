@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define UNITYENGINE_UI_EXTENSION_FONTENGINEUTILS_FACEINFOCACHE_SCALETOSIZE_OFFSET UNITYSDK_OFFSET(0x7D2CC0)
+#define UNITYENGINE_UI_EXTENSION_FONTENGINEUTILS_FACEINFOCACHE_SCALETOSIZE_OFFSET UNITYSDK_OFFSET(0x8859E0)
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int FontEngineUtils_FaceInfoCache_TypeDefinitionIndex = 48868;
+	inline static constexpr unsigned int FontEngineUtils_FaceInfoCache_TypeDefinitionIndex = 57192;
 
 	struct alignas(4) FontEngineUtils_FaceInfoCache
 	{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define FOUNDATION_BUILDNUMBER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E36FEA0)
+#define FOUNDATION_BUILDNUMBER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F6610E0)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int BuildNumber_TypeDefinitionIndex = 8131;
+	inline static constexpr unsigned int BuildNumber_TypeDefinitionIndex = 8009;
 
 	class BuildNumber : public ::System::Object
 	{

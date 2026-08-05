@@ -3,7 +3,7 @@
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int MBVersion_PipelineType_TypeDefinitionIndex = 90612;
+	inline static constexpr unsigned int MBVersion_PipelineType_TypeDefinitionIndex = 94545;
 
 	enum class MBVersion_PipelineType : ::System::Int32
 	{

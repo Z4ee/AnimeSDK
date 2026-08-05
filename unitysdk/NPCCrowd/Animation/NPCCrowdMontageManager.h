@@ -8,10 +8,12 @@
 #include "unitysdk/NPCCrowd/Ability/FNPCMontageDataFragment.h"
 #include "unitysdk/NPCCrowd/Ability/FNPCMontageLayerFragment.h"
 #include "unitysdk/NPCCrowd/Animation/ClipSequenceMontageData.h"
+#include "unitysdk/NPCCrowd/Animation/EMontageFallbackSource.h"
 #include "unitysdk/NPCCrowd/Animation/MontageClipDataIndex.h"
 #include "unitysdk/NPCCrowd/Animation/MontageClipType.h"
 #include "unitysdk/NPCCrowd/Animation/MontageCommand.h"
 #include "unitysdk/NPCCrowd/Animation/MontageData.h"
+#include "unitysdk/NPCCrowd/Animation/MontageFallbackState.h"
 #include "unitysdk/NPCCrowd/Animation/MontageLayerClipData.h"
 #include "unitysdk/NPCCrowd/Animation/MontageRawData.h"
 #include "unitysdk/NPCCrowd/Animation/MontageSeqFrameRawData.h"
@@ -33,134 +35,151 @@ namespace NPCCrowd::Animation { class AnimationControllerInstanceConfig; }
 namespace NPCCrowd::Animation { class NPCCPUAnimationGraphDataset; }
 namespace NPCCrowd::Animation { class NPCCrowdMontageManager_SequenceMontageCommandState; }
 namespace NPCCrowd::Animation { class NPCCrowdMontageManager_SequenceTrackedMontageData; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_CACHEMONTAGELAYERMETA_OFFSET UNITYSDK_OFFSET(0xE8C3E00)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_CHECKGENDERSIZE_OFFSET UNITYSDK_OFFSET(0x11F82670)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_CLEARALLSEQUENCECOMMANDSTATES_OFFSET UNITYSDK_OFFSET(0x11F83A80)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_CLEARMONTAGELAYERDATA_OFFSET UNITYSDK_OFFSET(0xE8C77D0)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_COLLECTSEQUENCEFRAMECOMMANDSBYREGISTEREDENTITIES_OFFSET UNITYSDK_OFFSET(0x11F83D30)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_COLLECTSEQUENCEFRAMECOMMANDS_OFFSET UNITYSDK_OFFSET(0x11F83A10)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_CONVERTLOOPTOENDBEHAVIOR_OFFSET UNITYSDK_OFFSET(0x11F839D0)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_CREATECOMMANDEVENTSWITCH_OFFSET UNITYSDK_OFFSET(0x11F85BF0)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_DISPATCHMONTAGECOMMANDS_OFFSET UNITYSDK_OFFSET(0x11F85800)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_EMITALLLAYEREXITCOMMANDS_OFFSET UNITYSDK_OFFSET(0x11F85720)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_EMITSEQUENCECOMMAND_OFFSET UNITYSDK_OFFSET(0x11F85180)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_ENQUEUEMONTAGECOMMAND_OFFSET UNITYSDK_OFFSET(0xE8C2BB0)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_ENSURELAYERSTATECOUNT_OFFSET UNITYSDK_OFFSET(0x11F84F20)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_GETANIMTRACKLAYERMASK_OFFSET UNITYSDK_OFFSET(0xE8C4B20)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_GETHIGHESTPRIORITYLAYERFROMMASK_OFFSET UNITYSDK_OFFSET(0xE8C7830)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_GETMONTAGELENGTH_OFFSET UNITYSDK_OFFSET(0xE8C4940)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_GETMONTAGETRACKTYPEMASK_OFFSET UNITYSDK_OFFSET(0xE8C49F0)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_GETSEQUENCETRACKLAYERMASK_OFFSET UNITYSDK_OFFSET(0xE8C4C50)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_GETSOURCELAYERMASK_OFFSET UNITYSDK_OFFSET(0xE8C7900)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_GETTRACKTYPEMASK_OFFSET UNITYSDK_OFFSET(0xE8C7950)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_GET_OFFSET UNITYSDK_OFFSET(0xE8C29E0)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_HASANYPLAYFLAG_OFFSET UNITYSDK_OFFSET(0xE8C51A0)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_HASSEQUENCEFRAMETRACKDATA_1_OFFSET UNITYSDK_OFFSET(0xE8C7CE0)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_HASSEQUENCEFRAMETRACKDATA_OFFSET UNITYSDK_OFFSET(0xE8C7C80)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xE8C3210)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xE8C34A0)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_ONPRELOADFINISHED_OFFSET UNITYSDK_OFFSET(0xE8C33E0)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_PLAYMONTAGEINTERNAL_OFFSET UNITYSDK_OFFSET(0x11F82D00)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_PLAYMONTAGE_1_OFFSET UNITYSDK_OFFSET(0x11F829B0)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_PLAYMONTAGE_2_OFFSET UNITYSDK_OFFSET(0x11F82E10)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_PLAYMONTAGE_3_OFFSET UNITYSDK_OFFSET(0x11F83000)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_PLAYMONTAGE_4_OFFSET UNITYSDK_OFFSET(0x11F83180)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_PLAYMONTAGE_5_OFFSET UNITYSDK_OFFSET(0x11F832D0)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_PLAYMONTAGE_6_OFFSET UNITYSDK_OFFSET(0x11F833A0)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_PLAYMONTAGE_7_OFFSET UNITYSDK_OFFSET(0x11F834E0)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_PLAYMONTAGE_OFFSET UNITYSDK_OFFSET(0x11F82840)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_PRELOADASSETS_OFFSET UNITYSDK_OFFSET(0xE8C2B60)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_PREUPDATE_OFFSET UNITYSDK_OFFSET(0xE8C30F0)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_PROCESSSEQUENCECOMMANDSFORENTITY_OFFSET UNITYSDK_OFFSET(0x11F84230)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_REBUILDMONTAGECOVERAGEONPLAYFLAG_OFFSET UNITYSDK_OFFSET(0xE8C5940)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_REGISTERCLIPSEQUENCEMONTAGEDATA_OFFSET UNITYSDK_OFFSET(0xE8C98C0)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_REGISTERCOMMANDLISTENER_OFFSET UNITYSDK_OFFSET(0xE8C2C90)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_REGISTERCONFIG_OFFSET UNITYSDK_OFFSET(0xE8C3950)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_REGISTERRUNTIMECLIPMONTAGEDATA_OFFSET UNITYSDK_OFFSET(0xE8C8E90)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_REGISTERRUNTIMELAYERCLIPMONTAGEDATA_OFFSET UNITYSDK_OFFSET(0xE8C9300)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_REGISTERRUNTIMEMONTAGEDATA_OFFSET UNITYSDK_OFFSET(0xE8C8C00)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_REGISTERSEQUENCECOMMANDENTITY_1_OFFSET UNITYSDK_OFFSET(0xE8C7DB0)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_REGISTERSEQUENCECOMMANDENTITY_2_OFFSET UNITYSDK_OFFSET(0xE8C82A0)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_REGISTERSEQUENCECOMMANDENTITY_OFFSET UNITYSDK_OFFSET(0xE8C7D50)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_RELEASESEQUENCECOMMANDSTATE_OFFSET UNITYSDK_OFFSET(0x11F855E0)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_RESETLAYERCLIPSTATE_OFFSET UNITYSDK_OFFSET(0x11F85410)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_SCANMONTAGESOURCES_OFFSET UNITYSDK_OFFSET(0xE8C5440)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_SHOULDENQUEUEMONTAGECOMMAND_OFFSET UNITYSDK_OFFSET(0xE8C3270)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_STOPALLMONTAGE_OFFSET UNITYSDK_OFFSET(0x11F83870)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_STOPMONTAGE_1_OFFSET UNITYSDK_OFFSET(0x11F83970)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_STOPMONTAGE_OFFSET UNITYSDK_OFFSET(0x11F83590)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_SYNCSEQUENCECOMMANDREGISTRATION_1_OFFSET UNITYSDK_OFFSET(0xE8C8BA0)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_SYNCSEQUENCECOMMANDREGISTRATION_OFFSET UNITYSDK_OFFSET(0xE8C8B20)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_TRYGETANIMTRACKLAYERDATA_OFFSET UNITYSDK_OFFSET(0xE8C4D80)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_TRYGETDATA_OFFSET UNITYSDK_OFFSET(0xE8C4820)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_TRYGETLAYERTRACKBYMONTAGEKEY_OFFSET UNITYSDK_OFFSET(0x11F85460)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_TRYGETLAYERTRACK_OFFSET UNITYSDK_OFFSET(0x11F85530)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_TRYGETNPCCOMPONENT_OFFSET UNITYSDK_OFFSET(0x11F84000)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_TRYGETSEQUENCEFRAMERAWDATA_OFFSET UNITYSDK_OFFSET(0xE8C7AE0)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_TRYGETSEQUENCETRACKLAYERDATA_OFFSET UNITYSDK_OFFSET(0xE8C4F90)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_TRYRESOLVELAYERCLIPSTATE_OFFSET UNITYSDK_OFFSET(0x11F84FD0)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_TRYRESOLVESEQUENCETRACKTIME_OFFSET UNITYSDK_OFFSET(0xE8C7660)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_UNREGISTERCOMMANDLISTENER_OFFSET UNITYSDK_OFFSET(0xE8C2F20)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_UNREGISTERSEQUENCECOMMANDENTITYINTERNAL_OFFSET UNITYSDK_OFFSET(0x11F84EA0)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_UNREGISTERSEQUENCECOMMANDENTITY_OFFSET UNITYSDK_OFFSET(0xE8C8200)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x11F86360)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x11F85CD0)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER___BASE_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x11F86660)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER___BASE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x11F86700)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER___BASE_ONPRELOADFINISHED_OFFSET UNITYSDK_OFFSET(0x11F86790)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER___BASE_PREUPDATE_OFFSET UNITYSDK_OFFSET(0x11F86820)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_CACHEMONTAGELAYERMETA_OFFSET UNITYSDK_OFFSET(0x11293500)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_CHECKGENDERSIZE_OFFSET UNITYSDK_OFFSET(0x11294F90)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_CLEARALLSEQUENCECOMMANDSTATES_OFFSET UNITYSDK_OFFSET(0x1129DC00)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_CLEARMONTAGEFALLBACKS_OFFSET UNITYSDK_OFFSET(0x11292F00)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_CLEARMONTAGELAYERDATA_OFFSET UNITYSDK_OFFSET(0x11296FC0)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_COLLECTSEQUENCEFRAMECOMMANDSBYREGISTEREDENTITIES_OFFSET UNITYSDK_OFFSET(0x1129DEB0)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_COLLECTSEQUENCEFRAMECOMMANDS_OFFSET UNITYSDK_OFFSET(0x11292360)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_CONVERTLOOPTOENDBEHAVIOR_OFFSET UNITYSDK_OFFSET(0x1129DBC0)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_CREATECOMMANDEVENTSWITCH_OFFSET UNITYSDK_OFFSET(0x1129F960)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_DISABLEFALLBACK_OFFSET UNITYSDK_OFFSET(0x1129CEA0)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_DISPATCHMONTAGECOMMANDS_OFFSET UNITYSDK_OFFSET(0x112923D0)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_EMITALLLAYEREXITCOMMANDS_OFFSET UNITYSDK_OFFSET(0x1129F880)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_EMITSEQUENCECOMMAND_OFFSET UNITYSDK_OFFSET(0x1129F230)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_ENABLEFALLBACK_OFFSET UNITYSDK_OFFSET(0x1129C1E0)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_ENQUEUEMONTAGECOMMAND_OFFSET UNITYSDK_OFFSET(0x11291CF0)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_ENSURELAYERSTATECOUNT_OFFSET UNITYSDK_OFFSET(0x1129EFB0)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_GETANIMTRACKLAYERMASK_OFFSET UNITYSDK_OFFSET(0x11294160)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_GETHIGHESTPRIORITYLAYERFROMMASK_OFFSET UNITYSDK_OFFSET(0x11297020)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_GETMONTAGELENGTH_OFFSET UNITYSDK_OFFSET(0x11293F80)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_GETMONTAGETRACKTYPEMASK_OFFSET UNITYSDK_OFFSET(0x11294030)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_GETSEQUENCETRACKLAYERMASK_OFFSET UNITYSDK_OFFSET(0x11294290)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_GETSOURCELAYERMASK_OFFSET UNITYSDK_OFFSET(0x11297100)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_GETTRACKTYPEMASK_OFFSET UNITYSDK_OFFSET(0x11297150)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_GET_OFFSET UNITYSDK_OFFSET(0x11291B20)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_HASANYPLAYFLAG_OFFSET UNITYSDK_OFFSET(0x112947E0)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_HASFALLBACK_OFFSET UNITYSDK_OFFSET(0x1129D750)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_HASSEQUENCEFRAMETRACKDATA_1_OFFSET UNITYSDK_OFFSET(0x112974D0)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_HASSEQUENCEFRAMETRACKDATA_OFFSET UNITYSDK_OFFSET(0x11297470)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_ISVALIDFALLBACKLAYER_OFFSET UNITYSDK_OFFSET(0x1129BB50)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x112927C0)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_MAKEMONTAGEFALLBACKKEY_OFFSET UNITYSDK_OFFSET(0x1129BCA0)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_NORMALIZEENDBEHAVIOR_OFFSET UNITYSDK_OFFSET(0x1129B2A0)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x11292A50)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_ONENTITYREMOVE_OFFSET UNITYSDK_OFFSET(0x1129D9B0)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_ONPRELOADFINISHED_OFFSET UNITYSDK_OFFSET(0x11292990)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_PLAYFALLBACKIFALLOWED_OFFSET UNITYSDK_OFFSET(0x1129C520)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_PLAYMONTAGEINTERNAL_OFFSET UNITYSDK_OFFSET(0x1129B300)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_PLAYMONTAGERAW_OFFSET UNITYSDK_OFFSET(0x1129AFA0)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_PLAYMONTAGE_1_OFFSET UNITYSDK_OFFSET(0x1129A110)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_PLAYMONTAGE_2_OFFSET UNITYSDK_OFFSET(0x1129A3A0)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_PLAYMONTAGE_3_OFFSET UNITYSDK_OFFSET(0x1129A5B0)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_PLAYMONTAGE_OFFSET UNITYSDK_OFFSET(0x112996E0)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_PLAYOVERLAY_OFFSET UNITYSDK_OFFSET(0x112997E0)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_PRELOADASSETS_OFFSET UNITYSDK_OFFSET(0x11291CA0)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_PREUPDATE_OFFSET UNITYSDK_OFFSET(0x11292240)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_PROCESSSEQUENCECOMMANDSFORENTITY_OFFSET UNITYSDK_OFFSET(0x1129E3C0)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_REBUILDMONTAGECOVERAGEONPLAYFLAG_OFFSET UNITYSDK_OFFSET(0x11295150)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_REGISTERCLIPSEQUENCEMONTAGEDATA_OFFSET UNITYSDK_OFFSET(0x11298F10)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_REGISTERCOMMANDLISTENER_OFFSET UNITYSDK_OFFSET(0x11291DD0)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_REGISTERCONFIG_OFFSET UNITYSDK_OFFSET(0x11293050)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_REGISTERCURRENTLAYERASFALLBACK_OFFSET UNITYSDK_OFFSET(0x1129BCF0)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_REGISTERFALLBACK_OFFSET UNITYSDK_OFFSET(0x1129B770)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_REGISTERRUNTIMECLIPMONTAGEDATA_OFFSET UNITYSDK_OFFSET(0x11298510)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_REGISTERRUNTIMELAYERCLIPMONTAGEDATA_OFFSET UNITYSDK_OFFSET(0x11298990)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_REGISTERRUNTIMEMONTAGEDATA_OFFSET UNITYSDK_OFFSET(0x11298280)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_REGISTERSEQUENCECOMMANDENTITY_1_OFFSET UNITYSDK_OFFSET(0x112975A0)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_REGISTERSEQUENCECOMMANDENTITY_2_OFFSET UNITYSDK_OFFSET(0x112979F0)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_REGISTERSEQUENCECOMMANDENTITY_OFFSET UNITYSDK_OFFSET(0x11297540)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_RELEASESEQUENCECOMMANDSTATE_OFFSET UNITYSDK_OFFSET(0x1129F740)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_RESETLAYERCLIPSTATE_OFFSET UNITYSDK_OFFSET(0x1129F4C0)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_SCANMONTAGESOURCES_OFFSET UNITYSDK_OFFSET(0x11294A70)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_SHOULDENQUEUEMONTAGECOMMAND_OFFSET UNITYSDK_OFFSET(0x11292820)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_STOPALLMONTAGE_OFFSET UNITYSDK_OFFSET(0x1129AE40)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_STOPALLOVERLAYANDRESTOREFALLBACK_OFFSET UNITYSDK_OFFSET(0x1129AEA0)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_STOPLAYERWITHOUTRESTORE_OFFSET UNITYSDK_OFFSET(0x1129D240)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_STOPMONTAGERAW_OFFSET UNITYSDK_OFFSET(0x1129B4A0)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_STOPMONTAGE_1_OFFSET UNITYSDK_OFFSET(0x1129ADA0)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_STOPMONTAGE_OFFSET UNITYSDK_OFFSET(0x1129A6F0)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_STOPOVERLAYANDRESTOREFALLBACK_OFFSET UNITYSDK_OFFSET(0x1129A760)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_SYNCEXTERNALSTATENOLOCK_OFFSET UNITYSDK_OFFSET(0x1129D190)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_SYNCSEQUENCECOMMANDREGISTRATION_1_OFFSET UNITYSDK_OFFSET(0x11298220)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_SYNCSEQUENCECOMMANDREGISTRATION_OFFSET UNITYSDK_OFFSET(0x112981A0)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_TRYGETANIMTRACKLAYERDATA_OFFSET UNITYSDK_OFFSET(0x112943C0)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_TRYGETDATA_OFFSET UNITYSDK_OFFSET(0x11293E60)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_TRYGETLAYERTRACKBYMONTAGEKEY_OFFSET UNITYSDK_OFFSET(0x1129F510)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_TRYGETLAYERTRACK_OFFSET UNITYSDK_OFFSET(0x1129F690)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_TRYGETNPCCOMPONENT_OFFSET UNITYSDK_OFFSET(0x1129E180)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_TRYGETSEQUENCEFRAMERAWDATA_OFFSET UNITYSDK_OFFSET(0x112972F0)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_TRYGETSEQUENCETRACKLAYERDATA_OFFSET UNITYSDK_OFFSET(0x112945D0)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_TRYRESOLVELAYERCLIPSTATE_OFFSET UNITYSDK_OFFSET(0x1129F060)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_TRYRESOLVESEQUENCETRACKTIME_OFFSET UNITYSDK_OFFSET(0x11296E60)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_UNREGISTERCOMMANDLISTENER_OFFSET UNITYSDK_OFFSET(0x11292070)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_UNREGISTERSEQUENCECOMMANDENTITYINTERNAL_OFFSET UNITYSDK_OFFSET(0x11298120)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_UNREGISTERSEQUENCECOMMANDENTITY_OFFSET UNITYSDK_OFFSET(0x11297950)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x112A0100)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1129FA40)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER___BASE_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x112A0400)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER___BASE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x112A04A0)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER___BASE_ONPRELOADFINISHED_OFFSET UNITYSDK_OFFSET(0x112A0530)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER___BASE_PREUPDATE_OFFSET UNITYSDK_OFFSET(0x112A05C0)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int NPCCrowdMontageManager_TypeDefinitionIndex = 65136;
+	inline static constexpr unsigned int NPCCrowdMontageManager_TypeDefinitionIndex = 66970;
 
 	class NPCCrowdMontageManager : public ::NPCCrowd::NPCCrowdModuleManagerBase
 	{
 	public:
-		static ::System::Collections::Generic::List_1<::Foundation::AssetRequestHandle>** StaticGet_AssetRequests()
+		static ::System::Collections::Generic::List_1<::NPCCrowd::Animation::MontageCommand>** StaticGet_DispatchMontageCommandBuffer()
 		{
-			return (::System::Collections::Generic::List_1<::Foundation::AssetRequestHandle>**)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdMontageManager_TypeDefinitionIndex)->GetStaticField(0x47010);
-		}
-		static ::System::Collections::Generic::Dictionary_2<::NPCCrowd::Animation::MontageClipType, ::Il2CppArray<::System::Boolean>*>** StaticGet_MontageCommandEmitConfig()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::NPCCrowd::Animation::MontageClipType, ::Il2CppArray<::System::Boolean>*>**)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdMontageManager_TypeDefinitionIndex)->GetStaticField(0x47018);
+			return (::System::Collections::Generic::List_1<::NPCCrowd::Animation::MontageCommand>**)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdMontageManager_TypeDefinitionIndex)->GetStaticField(0x50210);
 		}
 		static ::System::String** StaticGet_TEMPLATE_ASSET_PATH()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdMontageManager_TypeDefinitionIndex)->GetStaticField(0x47020);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdMontageManager_TypeDefinitionIndex)->GetStaticField(0x50218);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::NPCCrowd::Animation::MontageClipType, ::System::Collections::Generic::List_1<::System::Action_1<::NPCCrowd::Animation::MontageCommand>*>*>** StaticGet_MontageCommandListeners()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::NPCCrowd::Animation::MontageClipType, ::System::Collections::Generic::List_1<::System::Action_1<::NPCCrowd::Animation::MontageCommand>*>*>**)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdMontageManager_TypeDefinitionIndex)->GetStaticField(0x47028);
+			return (::System::Collections::Generic::Dictionary_2<::NPCCrowd::Animation::MontageClipType, ::System::Collections::Generic::List_1<::System::Action_1<::NPCCrowd::Animation::MontageCommand>*>*>**)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdMontageManager_TypeDefinitionIndex)->GetStaticField(0x50220);
 		}
 		static ::System::Collections::Generic::List_1<::NPCCrowd::Animation::MontageCommand>** StaticGet_PendingMontageCommands()
 		{
-			return (::System::Collections::Generic::List_1<::NPCCrowd::Animation::MontageCommand>**)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdMontageManager_TypeDefinitionIndex)->GetStaticField(0x47030);
+			return (::System::Collections::Generic::List_1<::NPCCrowd::Animation::MontageCommand>**)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdMontageManager_TypeDefinitionIndex)->GetStaticField(0x50228);
 		}
-		static ::System::Collections::Generic::List_1<::NPCCrowd::Animation::MontageCommand>** StaticGet_DispatchMontageCommandBuffer()
+		static ::System::Collections::Generic::Dictionary_2<::NPCCrowd::Animation::MontageClipType, ::Il2CppArray<::System::Boolean>*>** StaticGet_MontageCommandEmitConfig()
 		{
-			return (::System::Collections::Generic::List_1<::NPCCrowd::Animation::MontageCommand>**)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdMontageManager_TypeDefinitionIndex)->GetStaticField(0x47038);
+			return (::System::Collections::Generic::Dictionary_2<::NPCCrowd::Animation::MontageClipType, ::Il2CppArray<::System::Boolean>*>**)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdMontageManager_TypeDefinitionIndex)->GetStaticField(0x50230);
+		}
+		static ::System::Collections::Generic::List_1<::Foundation::AssetRequestHandle>** StaticGet_AssetRequests()
+		{
+			return (::System::Collections::Generic::List_1<::Foundation::AssetRequestHandle>**)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdMontageManager_TypeDefinitionIndex)->GetStaticField(0x50238);
 		}
 		// static const ::System::Int32 InValidIndex = 0xFFFFFFFF; // 0x0
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::NPCCrowd::Animation::NPCCrowdMontageManager_SequenceMontageCommandState*>* _sequenceCommandStateMap; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::NPCCrowd::Animation::NPCCrowdMontageManager_SequenceTrackedMontageData*>* _sequenceTrackedMontageMap; // 0x20
-		::System::Collections::Generic::List_1<::System::UInt32>* _sequenceStateRemoveBuffer; // 0x28
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::NPCCrowd::Animation::MontageData>* RuntimeMontageData; // 0x30
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::ValueTuple_2<::ENPCAvatarGender, ::ENPCAvatarSize>>* MontageSizeData; // 0x38
-		::System::Collections::Generic::Dictionary_2<::NPCCrowd::Animation::MontageLayerClipData, ::System::Int32>* RuntimeLayerClipMontageDictionary; // 0x40
-		::System::Collections::Generic::HashSet_1<::NPCCrowd::Animation::NPCCPUAnimationGraphDataset*>* registedAsset; // 0x48
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::NPCCrowd::Animation::MontageData>* RuntimeMontageData; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Single>* montageLength; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::NPCCrowd::Animation::NPCCrowdMontageManager_SequenceMontageCommandState*>* _sequenceCommandStateMap; // 0x28
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::NPCCrowd::Animation::NPCCrowdMontageManager_SequenceTrackedMontageData*>* _sequenceTrackedMontageMap; // 0x30
+		::NPCCrowd::NPCIDGeneratorInt* _idGen; // 0x38
+		::System::Collections::Generic::HashSet_1<::NPCCrowd::Animation::NPCCPUAnimationGraphDataset*>* registedAsset; // 0x40
+		::System::Collections::Generic::Dictionary_2<::NPCCrowd::Animation::MontageLayerClipData, ::System::Int32>* RuntimeLayerClipMontageDictionary; // 0x48
 		::System::Collections::Generic::Dictionary_2<::NPCCrowd::Animation::RuntimeClipMontageKey, ::System::Int32>* RuntimeClipMontageDictionary; // 0x50
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::NPCCrowd::Animation::NPCCrowdMontageManager_MontageLayerMetaCache>* _montageLayerMetaCache; // 0x58
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Single>* montageLength; // 0x60
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::NPCCrowd::Animation::MontageData>* MontageTemplateData; // 0x68
-		::System::Collections::Generic::Dictionary_2<::NPCCrowd::Animation::ClipSequenceMontageData, ::System::Int32>* RuntimeSequenceDataDictionary; // 0x70
-		::NPCCrowd::NPCIDGeneratorInt* _idGen; // 0x78
+		::System::Collections::Generic::Dictionary_2<::NPCCrowd::Animation::ClipSequenceMontageData, ::System::Int32>* RuntimeSequenceDataDictionary; // 0x58
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::ValueTuple_2<::ENPCAvatarGender, ::ENPCAvatarSize>>* MontageSizeData; // 0x60
+		::System::Object* _montageFallbackLock; // 0x68
+		::System::Collections::Generic::List_1<::System::UInt32>* _sequenceStateRemoveBuffer; // 0x70
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::NPCCrowd::Animation::NPCCrowdMontageManager_MontageLayerMetaCache>* _montageLayerMetaCache; // 0x78
+		::System::Collections::Generic::Dictionary_2<::System::UInt64, ::NPCCrowd::Animation::MontageFallbackState>* _montageFallbackStates; // 0x80
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::NPCCrowd::Animation::MontageData>* MontageTemplateData; // 0x88
 
 		::System::Void _ctor()
 		{
@@ -377,64 +396,134 @@ namespace NPCCrowd::Animation
 			return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::NPCCrowd::Animation::AnimationControllerInstanceConfig*))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_CHECKGENDERSIZE_OFFSET))(this, montageKey, instanceConfig);
 		}
 
-		::System::Boolean PlayMontage(::NPCCrowd::Ability::FNPCMontageDataFragment& montageData, ::NPCCrowd::Ability::EMontagePriorityLayer layer, ::System::Int32 handler, ::System::Single deltaTime, ::System::Boolean isLoop, ::System::Single fadeinTime, ::System::Single speed)
+		::System::Boolean PlayMontage(::System::UInt32 entityId, ::NPCCrowd::Ability::FNPCMontageDataFragment& montageData, ::NPCCrowd::Ability::EMontagePriorityLayer layer, ::System::Int32 handler, ::System::Single deltaTime, ::NPCCrowd::Ability::EMontageEndBehavior endBehavior, ::System::Single fadeinTime, ::System::Single speed)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::NPCCrowd::Ability::FNPCMontageDataFragment&, ::NPCCrowd::Ability::EMontagePriorityLayer, ::System::Int32, ::System::Single, ::System::Boolean, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_PLAYMONTAGE_OFFSET))(this, montageData, layer, handler, deltaTime, isLoop, fadeinTime, speed);
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32, ::NPCCrowd::Ability::FNPCMontageDataFragment&, ::NPCCrowd::Ability::EMontagePriorityLayer, ::System::Int32, ::System::Single, ::NPCCrowd::Ability::EMontageEndBehavior, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_PLAYMONTAGE_OFFSET))(this, entityId, montageData, layer, handler, deltaTime, endBehavior, fadeinTime, speed);
 		}
 
-		::System::Boolean PlayMontage_1(::NPCCrowd::Ability::FNPCMontageDataFragment& montageData, ::NPCCrowd::Ability::EMontagePriorityLayer layer, ::System::Int32 handler, ::System::Single deltaTime, ::NPCCrowd::Ability::EMontageEndBehavior endBehavior, ::System::Single fadeinTime, ::System::Single speed)
+		::System::Boolean PlayMontage_1(::System::UInt32 entityId, ::NPCCrowd::Ability::FNPCMontageDataFragment& montageData, ::NPCCrowd::Ability::EMontagePriorityLayer layer, ::System::Int32 handler, ::System::Single deltaTime, ::System::Boolean isLoop, ::System::Single speed)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::NPCCrowd::Ability::FNPCMontageDataFragment&, ::NPCCrowd::Ability::EMontagePriorityLayer, ::System::Int32, ::System::Single, ::NPCCrowd::Ability::EMontageEndBehavior, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_PLAYMONTAGE_1_OFFSET))(this, montageData, layer, handler, deltaTime, endBehavior, fadeinTime, speed);
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32, ::NPCCrowd::Ability::FNPCMontageDataFragment&, ::NPCCrowd::Ability::EMontagePriorityLayer, ::System::Int32, ::System::Single, ::System::Boolean, ::System::Single))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_PLAYMONTAGE_1_OFFSET))(this, entityId, montageData, layer, handler, deltaTime, isLoop, speed);
 		}
 
-		::System::Boolean PlayMontage_2(::NPCCrowd::Ability::FNPCMontageDataFragment& montageData, ::NPCCrowd::Ability::EMontagePriorityLayer layer, ::System::Int32 handler, ::System::Single deltaTime, ::System::Boolean isLoop, ::System::Single speed)
+		::System::Boolean PlayMontage_2(::System::UInt32 entityId, ::NPCCrowd::Ability::FNPCMontageDataFragment& montageData, ::NPCCrowd::Ability::EMontagePriorityLayer layer, ::System::Int32 handler, ::System::Single deltaTime, ::NPCCrowd::Ability::EMontageEndBehavior endBehavior, ::System::Single speed)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::NPCCrowd::Ability::FNPCMontageDataFragment&, ::NPCCrowd::Ability::EMontagePriorityLayer, ::System::Int32, ::System::Single, ::System::Boolean, ::System::Single))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_PLAYMONTAGE_2_OFFSET))(this, montageData, layer, handler, deltaTime, isLoop, speed);
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32, ::NPCCrowd::Ability::FNPCMontageDataFragment&, ::NPCCrowd::Ability::EMontagePriorityLayer, ::System::Int32, ::System::Single, ::NPCCrowd::Ability::EMontageEndBehavior, ::System::Single))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_PLAYMONTAGE_2_OFFSET))(this, entityId, montageData, layer, handler, deltaTime, endBehavior, speed);
 		}
 
-		::System::Boolean PlayMontage_3(::NPCCrowd::Ability::FNPCMontageDataFragment& montageData, ::NPCCrowd::Ability::EMontagePriorityLayer layer, ::System::Int32 handler, ::System::Single deltaTime, ::NPCCrowd::Ability::EMontageEndBehavior endBehavior, ::System::Single speed)
+		::System::Boolean PlayMontage_3(::System::UInt32 entityId, ::NPCCrowd::Ability::FNPCMontageDataFragment& montageData, ::System::Int32 handler, ::System::Single deltaTime, ::System::Boolean isLoop, ::System::Single speed)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::NPCCrowd::Ability::FNPCMontageDataFragment&, ::NPCCrowd::Ability::EMontagePriorityLayer, ::System::Int32, ::System::Single, ::NPCCrowd::Ability::EMontageEndBehavior, ::System::Single))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_PLAYMONTAGE_3_OFFSET))(this, montageData, layer, handler, deltaTime, endBehavior, speed);
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32, ::NPCCrowd::Ability::FNPCMontageDataFragment&, ::System::Int32, ::System::Single, ::System::Boolean, ::System::Single))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_PLAYMONTAGE_3_OFFSET))(this, entityId, montageData, handler, deltaTime, isLoop, speed);
 		}
 
-		::System::Boolean PlayMontage_4(::NPCCrowd::Ability::FNPCMontageDataFragment& montageData, ::System::Int32 handler, ::System::Single deltaTime, ::System::Boolean isLoop, ::System::Single fadeinTime, ::System::Single speed)
+		::System::Void StopMontage(::System::UInt32 entityId, ::NPCCrowd::Ability::FNPCMontageDataFragment& montageData, ::NPCCrowd::Ability::EMontagePriorityLayer layer)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::NPCCrowd::Ability::FNPCMontageDataFragment&, ::System::Int32, ::System::Single, ::System::Boolean, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_PLAYMONTAGE_4_OFFSET))(this, montageData, handler, deltaTime, isLoop, fadeinTime, speed);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::NPCCrowd::Ability::FNPCMontageDataFragment&, ::NPCCrowd::Ability::EMontagePriorityLayer))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_STOPMONTAGE_OFFSET))(this, entityId, montageData, layer);
 		}
 
-		::System::Boolean PlayMontage_5(::NPCCrowd::Ability::FNPCMontageDataFragment& montageData, ::System::Int32 handler, ::System::Single deltaTime, ::NPCCrowd::Ability::EMontageEndBehavior endBehavior, ::System::Single fadeinTime, ::System::Single speed)
+		::System::Void StopMontage_1(::System::UInt32 entityId, ::NPCCrowd::Ability::FNPCMontageDataFragment& montageData)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::NPCCrowd::Ability::FNPCMontageDataFragment&, ::System::Int32, ::System::Single, ::NPCCrowd::Ability::EMontageEndBehavior, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_PLAYMONTAGE_5_OFFSET))(this, montageData, handler, deltaTime, endBehavior, fadeinTime, speed);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::NPCCrowd::Ability::FNPCMontageDataFragment&))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_STOPMONTAGE_1_OFFSET))(this, entityId, montageData);
 		}
 
-		::System::Boolean PlayMontage_6(::NPCCrowd::Ability::FNPCMontageDataFragment& montageData, ::System::Int32 handler, ::System::Single deltaTime, ::System::Boolean isLoop, ::System::Single speed)
+		::System::Void StopAllMontage(::System::UInt32 entityId, ::NPCCrowd::Ability::FNPCMontageDataFragment& montageData)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::NPCCrowd::Ability::FNPCMontageDataFragment&, ::System::Int32, ::System::Single, ::System::Boolean, ::System::Single))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_PLAYMONTAGE_6_OFFSET))(this, montageData, handler, deltaTime, isLoop, speed);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::NPCCrowd::Ability::FNPCMontageDataFragment&))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_STOPALLMONTAGE_OFFSET))(this, entityId, montageData);
 		}
 
-		::System::Boolean PlayMontage_7(::NPCCrowd::Ability::FNPCMontageDataFragment& montageData, ::System::Int32 handler, ::System::Single deltaTime, ::NPCCrowd::Ability::EMontageEndBehavior endBehavior, ::System::Single speed)
+		::System::Boolean PlayMontageRaw(::NPCCrowd::Ability::FNPCMontageDataFragment& montageData, ::NPCCrowd::Ability::EMontagePriorityLayer layer, ::System::Int32 handler, ::System::Single deltaTime, ::NPCCrowd::Ability::EMontageEndBehavior endBehavior, ::System::Single fadeinTime, ::System::Single speed)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::NPCCrowd::Ability::FNPCMontageDataFragment&, ::System::Int32, ::System::Single, ::NPCCrowd::Ability::EMontageEndBehavior, ::System::Single))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_PLAYMONTAGE_7_OFFSET))(this, montageData, handler, deltaTime, endBehavior, speed);
+			return ((::System::Boolean(*)(::PVOID, ::NPCCrowd::Ability::FNPCMontageDataFragment&, ::NPCCrowd::Ability::EMontagePriorityLayer, ::System::Int32, ::System::Single, ::NPCCrowd::Ability::EMontageEndBehavior, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_PLAYMONTAGERAW_OFFSET))(this, montageData, layer, handler, deltaTime, endBehavior, fadeinTime, speed);
 		}
 
-		::System::Void StopMontage(::NPCCrowd::Ability::FNPCMontageDataFragment& montageData, ::NPCCrowd::Ability::EMontagePriorityLayer layer)
+		::System::Void StopMontageRaw(::NPCCrowd::Ability::FNPCMontageDataFragment& montageData, ::NPCCrowd::Ability::EMontagePriorityLayer layer)
 		{
-			return ((::System::Void(*)(::PVOID, ::NPCCrowd::Ability::FNPCMontageDataFragment&, ::NPCCrowd::Ability::EMontagePriorityLayer))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_STOPMONTAGE_OFFSET))(this, montageData, layer);
-		}
-
-		::System::Void StopAllMontage(::NPCCrowd::Ability::FNPCMontageDataFragment& montageData)
-		{
-			return ((::System::Void(*)(::PVOID, ::NPCCrowd::Ability::FNPCMontageDataFragment&))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_STOPALLMONTAGE_OFFSET))(this, montageData);
-		}
-
-		::System::Void StopMontage_1(::NPCCrowd::Ability::FNPCMontageDataFragment& montageData)
-		{
-			return ((::System::Void(*)(::PVOID, ::NPCCrowd::Ability::FNPCMontageDataFragment&))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_STOPMONTAGE_1_OFFSET))(this, montageData);
+			return ((::System::Void(*)(::PVOID, ::NPCCrowd::Ability::FNPCMontageDataFragment&, ::NPCCrowd::Ability::EMontagePriorityLayer))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_STOPMONTAGERAW_OFFSET))(this, montageData, layer);
 		}
 
 		::System::Boolean PlayMontageInternal(::NPCCrowd::Ability::FNPCMontageLayerFragment& montageData, ::System::Int32 handler, ::System::Single deltaTime, ::NPCCrowd::Ability::EMontageEndBehavior endBehavior, ::System::Single fadeinTime, ::System::Single speed)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::NPCCrowd::Ability::FNPCMontageLayerFragment&, ::System::Int32, ::System::Single, ::NPCCrowd::Ability::EMontageEndBehavior, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_PLAYMONTAGEINTERNAL_OFFSET))(this, montageData, handler, deltaTime, endBehavior, fadeinTime, speed);
+		}
+
+		::System::Boolean RegisterFallback(::System::UInt32 entityId, ::NPCCrowd::Ability::EMontagePriorityLayer layer, ::System::Int32 montageKey, ::NPCCrowd::Ability::EMontageEndBehavior endBehavior, ::System::Single speed, ::NPCCrowd::Animation::EMontageFallbackSource source)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32, ::NPCCrowd::Ability::EMontagePriorityLayer, ::System::Int32, ::NPCCrowd::Ability::EMontageEndBehavior, ::System::Single, ::NPCCrowd::Animation::EMontageFallbackSource))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_REGISTERFALLBACK_OFFSET))(this, entityId, layer, montageKey, endBehavior, speed, source);
+		}
+
+		::System::Boolean RegisterCurrentLayerAsFallback(::System::UInt32 entityId, ::NPCCrowd::Ability::FNPCMontageDataFragment& montageData, ::NPCCrowd::Ability::EMontagePriorityLayer layer, ::NPCCrowd::Animation::EMontageFallbackSource source)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32, ::NPCCrowd::Ability::FNPCMontageDataFragment&, ::NPCCrowd::Ability::EMontagePriorityLayer, ::NPCCrowd::Animation::EMontageFallbackSource))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_REGISTERCURRENTLAYERASFALLBACK_OFFSET))(this, entityId, montageData, layer, source);
+		}
+
+		::System::Boolean EnableFallback(::System::UInt32 entityId, ::NPCCrowd::Ability::FNPCMontageDataFragment& montageData, ::NPCCrowd::Ability::EMontagePriorityLayer layer, ::System::Boolean playImmediately)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32, ::NPCCrowd::Ability::FNPCMontageDataFragment&, ::NPCCrowd::Ability::EMontagePriorityLayer, ::System::Boolean))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_ENABLEFALLBACK_OFFSET))(this, entityId, montageData, layer, playImmediately);
+		}
+
+		::System::Void DisableFallback(::System::UInt32 entityId, ::NPCCrowd::Ability::FNPCMontageDataFragment& montageData, ::NPCCrowd::Ability::EMontagePriorityLayer layer, ::System::Boolean stopCurrentLayer)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::NPCCrowd::Ability::FNPCMontageDataFragment&, ::NPCCrowd::Ability::EMontagePriorityLayer, ::System::Boolean))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_DISABLEFALLBACK_OFFSET))(this, entityId, montageData, layer, stopCurrentLayer);
+		}
+
+		::System::Boolean PlayFallbackIfAllowed(::System::UInt32 entityId, ::NPCCrowd::Ability::FNPCMontageDataFragment& montageData, ::NPCCrowd::Ability::EMontagePriorityLayer layer)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32, ::NPCCrowd::Ability::FNPCMontageDataFragment&, ::NPCCrowd::Ability::EMontagePriorityLayer))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_PLAYFALLBACKIFALLOWED_OFFSET))(this, entityId, montageData, layer);
+		}
+
+		::System::Boolean PlayOverlay(::System::UInt32 entityId, ::NPCCrowd::Ability::FNPCMontageDataFragment& montageData, ::NPCCrowd::Ability::EMontagePriorityLayer layer, ::System::Int32 montageKey, ::System::Single startTime, ::NPCCrowd::Ability::EMontageEndBehavior endBehavior, ::System::Single speed, ::System::Single fadeinTime)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32, ::NPCCrowd::Ability::FNPCMontageDataFragment&, ::NPCCrowd::Ability::EMontagePriorityLayer, ::System::Int32, ::System::Single, ::NPCCrowd::Ability::EMontageEndBehavior, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_PLAYOVERLAY_OFFSET))(this, entityId, montageData, layer, montageKey, startTime, endBehavior, speed, fadeinTime);
+		}
+
+		::System::Boolean StopOverlayAndRestoreFallback(::System::UInt32 entityId, ::NPCCrowd::Ability::FNPCMontageDataFragment& montageData, ::NPCCrowd::Ability::EMontagePriorityLayer layer)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32, ::NPCCrowd::Ability::FNPCMontageDataFragment&, ::NPCCrowd::Ability::EMontagePriorityLayer))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_STOPOVERLAYANDRESTOREFALLBACK_OFFSET))(this, entityId, montageData, layer);
+		}
+
+		::System::Void StopLayerWithoutRestore(::System::UInt32 entityId, ::NPCCrowd::Ability::FNPCMontageDataFragment& montageData, ::NPCCrowd::Ability::EMontagePriorityLayer layer)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::NPCCrowd::Ability::FNPCMontageDataFragment&, ::NPCCrowd::Ability::EMontagePriorityLayer))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_STOPLAYERWITHOUTRESTORE_OFFSET))(this, entityId, montageData, layer);
+		}
+
+		::System::Void StopAllOverlayAndRestoreFallback(::System::UInt32 entityId, ::NPCCrowd::Ability::FNPCMontageDataFragment& montageData)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::NPCCrowd::Ability::FNPCMontageDataFragment&))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_STOPALLOVERLAYANDRESTOREFALLBACK_OFFSET))(this, entityId, montageData);
+		}
+
+		::System::Boolean HasFallback(::System::UInt32 entityId, ::NPCCrowd::Ability::EMontagePriorityLayer layer)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32, ::NPCCrowd::Ability::EMontagePriorityLayer))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_HASFALLBACK_OFFSET))(this, entityId, layer);
+		}
+
+		::System::Void OnEntityRemove(::System::UInt32 entityId)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_ONENTITYREMOVE_OFFSET))(this, entityId);
+		}
+
+		::System::Void ClearMontageFallbacks()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_CLEARMONTAGEFALLBACKS_OFFSET))(this);
+		}
+
+		static ::System::Boolean IsValidFallbackLayer(::NPCCrowd::Ability::EMontagePriorityLayer layer)
+		{
+			return ((::System::Boolean(*)(::NPCCrowd::Ability::EMontagePriorityLayer))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_ISVALIDFALLBACKLAYER_OFFSET))(layer);
+		}
+
+		static ::System::UInt64 MakeMontageFallbackKey(::System::UInt32 entityId, ::NPCCrowd::Ability::EMontagePriorityLayer layer)
+		{
+			return ((::System::UInt64(*)(::System::UInt32, ::NPCCrowd::Ability::EMontagePriorityLayer))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_MAKEMONTAGEFALLBACKKEY_OFFSET))(entityId, layer);
+		}
+
+		static ::NPCCrowd::Ability::EMontageEndBehavior NormalizeEndBehavior(::NPCCrowd::Ability::EMontagePriorityLayer layer, ::NPCCrowd::Ability::EMontageEndBehavior endBehavior)
+		{
+			return ((::NPCCrowd::Ability::EMontageEndBehavior(*)(::NPCCrowd::Ability::EMontagePriorityLayer, ::NPCCrowd::Ability::EMontageEndBehavior))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_NORMALIZEENDBEHAVIOR_OFFSET))(layer, endBehavior);
+		}
+
+		static ::System::Void SyncExternalStateNoLock(::NPCCrowd::Animation::MontageFallbackState& state, ::NPCCrowd::Ability::FNPCMontageLayerFragment layerData)
+		{
+			return ((::System::Void(*)(::NPCCrowd::Animation::MontageFallbackState&, ::NPCCrowd::Ability::FNPCMontageLayerFragment))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_SYNCEXTERNALSTATENOLOCK_OFFSET))(state, layerData);
 		}
 
 		static ::NPCCrowd::Ability::EMontageEndBehavior ConvertLoopToEndBehavior(::System::Boolean isLoop)

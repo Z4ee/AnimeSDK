@@ -4,8 +4,8 @@
 
 namespace System { class Type; }
 
-#define UNITYENGINE_REQUIRECOMPONENT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1D678AD0)
-#define UNITYENGINE_REQUIRECOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D678AC0)
+#define UNITYENGINE_REQUIRECOMPONENT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EA1BC10)
+#define UNITYENGINE_REQUIRECOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA1BC00)
 
 namespace UnityEngine
 {
@@ -14,9 +14,9 @@ namespace UnityEngine
 	class RequireComponent : public ::System::Attribute
 	{
 	public:
-		::System::Type* m_Type0; // 0x10
-		::System::Type* m_Type1; // 0x18
-		::System::Type* m_Type2; // 0x20
+		::System::Type* m_Type1; // 0x10
+		::System::Type* m_Type2; // 0x18
+		::System::Type* m_Type0; // 0x20
 
 		::System::Void _ctor(::System::Type* requiredComponent)
 		{

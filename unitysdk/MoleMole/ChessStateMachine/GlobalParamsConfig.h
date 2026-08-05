@@ -7,21 +7,21 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CHESSSTATEMACHINE_GLOBALPARAMSCONFIG_CLEARCACHEDATA_OFFSET UNITYSDK_OFFSET(0x13EC7300)
-#define MOLEMOLE_CHESSSTATEMACHINE_GLOBALPARAMSCONFIG_DEEPCOPY_OFFSET UNITYSDK_OFFSET(0x13EC7490)
-#define MOLEMOLE_CHESSSTATEMACHINE_GLOBALPARAMSCONFIG_INITPARAMSLIST_OFFSET UNITYSDK_OFFSET(0x13EC69D0)
-#define MOLEMOLE_CHESSSTATEMACHINE_GLOBALPARAMSCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x13EC7710)
+#define MOLEMOLE_CHESSSTATEMACHINE_GLOBALPARAMSCONFIG_CLEARCACHEDATA_OFFSET UNITYSDK_OFFSET(0x16242B20)
+#define MOLEMOLE_CHESSSTATEMACHINE_GLOBALPARAMSCONFIG_DEEPCOPY_OFFSET UNITYSDK_OFFSET(0x16242CB0)
+#define MOLEMOLE_CHESSSTATEMACHINE_GLOBALPARAMSCONFIG_INITPARAMSLIST_OFFSET UNITYSDK_OFFSET(0x16242210)
+#define MOLEMOLE_CHESSSTATEMACHINE_GLOBALPARAMSCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16242F30)
 
 namespace MoleMole::ChessStateMachine
 {
-	inline static constexpr unsigned int GlobalParamsConfig_TypeDefinitionIndex = 56037;
+	inline static constexpr unsigned int GlobalParamsConfig_TypeDefinitionIndex = 74242;
 
 	class GlobalParamsConfig : public ::MoleMole::ChessStateMachine::ConfigBase
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::ChessStateMachine::ParamsClass*>*>* smParams; // 0x28
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::ChessStateMachine::ParamsClass*>* globalParams; // 0x30
-		::System::Collections::Generic::List_1<::MoleMole::ChessStateMachine::ParamsClass*>* globalParamsList; // 0x38
+		::System::Collections::Generic::List_1<::MoleMole::ChessStateMachine::ParamsClass*>* globalParamsList; // 0x28
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::ChessStateMachine::ParamsClass*>*>* smParams; // 0x30
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::ChessStateMachine::ParamsClass*>* globalParams; // 0x38
 
 		::System::Void _ctor()
 		{

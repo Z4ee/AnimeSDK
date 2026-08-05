@@ -7,11 +7,11 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class ICollection_1; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 template <typename T1, typename T2> class Class_0_16E4307DCC41950C_8;
-template <typename T> class Class_3_B60F6C2F126D2E26;
+template <typename T> class Class_3_B60F6C2F126D2E26_2;
 
 namespace MoleMole::QuickGraph::Algorithm::TopologicalSort
 {
-	inline static constexpr unsigned int SourceFirstTopologicalSortAlgorithm_2_TypeDefinitionIndex = 28222;
+	inline static constexpr unsigned int SourceFirstTopologicalSortAlgorithm_2_TypeDefinitionIndex = 28667;
 
 	template <typename TVertex, typename TEdge>
 	class SourceFirstTopologicalSortAlgorithm_2 : public ::MoleMole::QuickGraph::Algorithm::AlgorithmBase_1<::Class_0_16E4307DCC41950C_8<TVertex, TEdge>*>
@@ -20,6 +20,6 @@ namespace MoleMole::QuickGraph::Algorithm::TopologicalSort
 		::System::Collections::Generic::IDictionary_2<TVertex, ::System::Int32>* inDegrees; // 0x0
 		::MoleMole::QuickGraph::Collections::BinaryQueue_2<TVertex, ::System::Int32>* heap; // 0x0
 		::System::Collections::Generic::IList_1<TVertex>* sortedVertices; // 0x0
-		::Class_3_B60F6C2F126D2E26<TVertex>* AddVertex; // 0x0
+		::Class_3_B60F6C2F126D2E26_2<TVertex>* AddVertex; // 0x0
 	};
 }

@@ -5,24 +5,24 @@
 
 namespace FlowCanvas { template <typename T> class ValueHandler_1; }
 
-#define CODE_LOGIC_CANVAS_LEVELDESIGN_LDGETLASTCAMERADATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x14511740)
-#define CODE_LOGIC_CANVAS_LEVELDESIGN_LDGETLASTCAMERADATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x14511780)
-#define CODE_LOGIC_CANVAS_LEVELDESIGN_LDGETLASTCAMERADATA___C__REGISTERPORTS_B__0_0_OFFSET UNITYSDK_OFFSET(0x14511790)
+#define CODE_LOGIC_CANVAS_LEVELDESIGN_LDGETLASTCAMERADATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1821B340)
+#define CODE_LOGIC_CANVAS_LEVELDESIGN_LDGETLASTCAMERADATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1821B380)
+#define CODE_LOGIC_CANVAS_LEVELDESIGN_LDGETLASTCAMERADATA___C__REGISTERPORTS_B__0_0_OFFSET UNITYSDK_OFFSET(0x1821B390)
 
 namespace Code::Logic::Canvas::LevelDesign
 {
-	inline static constexpr unsigned int LDGetLastCameraData___c_TypeDefinitionIndex = 63844;
+	inline static constexpr unsigned int LDGetLastCameraData___c_TypeDefinitionIndex = 54941;
 
 	class LDGetLastCameraData___c : public ::System::Object
 	{
 	public:
-		static ::FlowCanvas::ValueHandler_1<::PipelineCamera::FinalCameraData>** StaticGet___9__0_0()
-		{
-			return (::FlowCanvas::ValueHandler_1<::PipelineCamera::FinalCameraData>**)Il2CppClass::FromTypeDefinitionIndex(LDGetLastCameraData___c_TypeDefinitionIndex)->GetStaticField(0x2E420);
-		}
 		static ::Code::Logic::Canvas::LevelDesign::LDGetLastCameraData___c** StaticGet___9()
 		{
-			return (::Code::Logic::Canvas::LevelDesign::LDGetLastCameraData___c**)Il2CppClass::FromTypeDefinitionIndex(LDGetLastCameraData___c_TypeDefinitionIndex)->GetStaticField(0x2E428);
+			return (::Code::Logic::Canvas::LevelDesign::LDGetLastCameraData___c**)Il2CppClass::FromTypeDefinitionIndex(LDGetLastCameraData___c_TypeDefinitionIndex)->GetStaticField(0x2E800);
+		}
+		static ::FlowCanvas::ValueHandler_1<::PipelineCamera::FinalCameraData>** StaticGet___9__0_0()
+		{
+			return (::FlowCanvas::ValueHandler_1<::PipelineCamera::FinalCameraData>**)Il2CppClass::FromTypeDefinitionIndex(LDGetLastCameraData___c_TypeDefinitionIndex)->GetStaticField(0x2E808);
 		}
 
 		static ::System::Void _cctor()

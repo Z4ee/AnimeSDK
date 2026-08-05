@@ -9,7 +9,7 @@ namespace System::Reflection { class MethodInfo; }
 
 namespace FlowCanvas::Nodes::Legacy
 {
-	inline static constexpr unsigned int ReflectedActionNode_8_TypeDefinitionIndex = 29950;
+	inline static constexpr unsigned int ReflectedActionNode_8_TypeDefinitionIndex = 30842;
 
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8>
 	class ReflectedActionNode_8 : public ::FlowCanvas::Nodes::Legacy::ReflectedMethodNode

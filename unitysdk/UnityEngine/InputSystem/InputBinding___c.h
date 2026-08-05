@@ -5,24 +5,24 @@
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define UNITYENGINE_INPUTSYSTEM_INPUTBINDING___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D741E30)
-#define UNITYENGINE_INPUTSYSTEM_INPUTBINDING___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1D741E70)
-#define UNITYENGINE_INPUTSYSTEM_INPUTBINDING___C__MASKBYGROUPS_B__45_0_OFFSET UNITYSDK_OFFSET(0x1D741E80)
+#define UNITYENGINE_INPUTSYSTEM_INPUTBINDING___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EAD8380)
+#define UNITYENGINE_INPUTSYSTEM_INPUTBINDING___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1EAD83C0)
+#define UNITYENGINE_INPUTSYSTEM_INPUTBINDING___C__MASKBYGROUPS_B__45_0_OFFSET UNITYSDK_OFFSET(0x1EAD83D0)
 
 namespace UnityEngine::InputSystem
 {
-	inline static constexpr unsigned int InputBinding___c_TypeDefinitionIndex = 31577;
+	inline static constexpr unsigned int InputBinding___c_TypeDefinitionIndex = 32197;
 
 	class InputBinding___c : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::InputSystem::InputBinding___c** StaticGet___9()
 		{
-			return (::UnityEngine::InputSystem::InputBinding___c**)Il2CppClass::FromTypeDefinitionIndex(InputBinding___c_TypeDefinitionIndex)->GetStaticField(0x25FA0);
+			return (::UnityEngine::InputSystem::InputBinding___c**)Il2CppClass::FromTypeDefinitionIndex(InputBinding___c_TypeDefinitionIndex)->GetStaticField(0x27720);
 		}
 		static ::System::Func_2<::System::String*, ::System::Boolean>** StaticGet___9__45_0()
 		{
-			return (::System::Func_2<::System::String*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(InputBinding___c_TypeDefinitionIndex)->GetStaticField(0x25FA8);
+			return (::System::Func_2<::System::String*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(InputBinding___c_TypeDefinitionIndex)->GetStaticField(0x27728);
 		}
 
 		static ::System::Void _cctor()

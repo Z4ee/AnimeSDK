@@ -4,7 +4,7 @@
 
 namespace System { class String; }
 
-inline static constexpr unsigned int Class_2_5D549724E55B05F5_PCLauncherVerifyData_TypeDefinitionIndex = 57326;
+inline static constexpr unsigned int Class_2_5D549724E55B05F5_PCLauncherVerifyData_TypeDefinitionIndex = 59040;
 
 struct alignas(8) Class_2_5D549724E55B05F5_PCLauncherVerifyData
 {

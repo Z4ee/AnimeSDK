@@ -10,7 +10,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace Foundation
 {
-	inline static constexpr unsigned int DoubleKeyDictionary_3_Enumerator_TypeDefinitionIndex = 8123;
+	inline static constexpr unsigned int DoubleKeyDictionary_3_Enumerator_TypeDefinitionIndex = 8363;
 
 	template <typename TKey, typename TSubKey, typename TValue>
 	class DoubleKeyDictionary_3_Enumerator : public ::System::Object

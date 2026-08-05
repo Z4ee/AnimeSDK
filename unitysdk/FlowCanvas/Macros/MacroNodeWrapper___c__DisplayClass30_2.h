@@ -6,12 +6,12 @@
 namespace FlowCanvas::Macros { class MacroNodeWrapper___c__DisplayClass30_1; }
 namespace ParadoxNotion { class DynamicParameterDefinition; }
 
-#define FLOWCANVAS_MACROS_MACRONODEWRAPPER___C__DISPLAYCLASS30_2__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6DC8F0)
-#define FLOWCANVAS_MACROS_MACRONODEWRAPPER___C__DISPLAYCLASS30_2__REGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x1D6DC900)
+#define FLOWCANVAS_MACROS_MACRONODEWRAPPER___C__DISPLAYCLASS30_2__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA92710)
+#define FLOWCANVAS_MACROS_MACRONODEWRAPPER___C__DISPLAYCLASS30_2__REGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x1EA92720)
 
 namespace FlowCanvas::Macros
 {
-	inline static constexpr unsigned int MacroNodeWrapper___c__DisplayClass30_2_TypeDefinitionIndex = 29642;
+	inline static constexpr unsigned int MacroNodeWrapper___c__DisplayClass30_2_TypeDefinitionIndex = 30869;
 
 	class MacroNodeWrapper___c__DisplayClass30_2 : public ::System::Object
 	{

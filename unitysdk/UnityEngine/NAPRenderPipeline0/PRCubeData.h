@@ -6,11 +6,11 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Texture; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_PRCUBEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA0E370)
+#define UNITYENGINE_NAPRENDERPIPELINE0_PRCUBEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA5D2C0)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int PRCubeData_TypeDefinitionIndex = 6013;
+	inline static constexpr unsigned int PRCubeData_TypeDefinitionIndex = 6015;
 
 	struct alignas(8) PRCubeData
 	{

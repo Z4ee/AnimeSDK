@@ -3,13 +3,13 @@
 
 namespace MoleMole::UI::FlowerShop
 {
-	inline static constexpr unsigned int EFinishJudge_TypeDefinitionIndex = 87193;
+	inline static constexpr unsigned int EFinishJudge_TypeDefinitionIndex = 77116;
 
 	enum class EFinishJudge : ::System::Int32
 	{
+		ExtraChallenge = 8,
 		Success = 2,
 		MaxInCome = 4,
-		ExtraChallenge = 8,
 		None = 0,
 	};
 }

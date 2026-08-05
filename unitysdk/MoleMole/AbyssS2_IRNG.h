@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int AbyssS2_IRNG_TypeDefinitionIndex = 85687;
+	inline static constexpr unsigned int AbyssS2_IRNG_TypeDefinitionIndex = 87625;
 
 	class AbyssS2_IRNG
 	{

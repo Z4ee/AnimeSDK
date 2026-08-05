@@ -9,49 +9,49 @@ namespace DigitalOpus::MB::Core { class TextureBlenderMaterialPropertyCacheHelpe
 namespace System { class String; }
 namespace UnityEngine { class Material; }
 
-#define DIGITALOPUS_MB_CORE_TEXTUREBLENDERSTANDARDMETALLIC_DOESSHADERNAMEMATCH_OFFSET UNITYSDK_OFFSET(0x1E140920)
-#define DIGITALOPUS_MB_CORE_TEXTUREBLENDERSTANDARDMETALLIC_GETCOLORIFNOTEXTURE_OFFSET UNITYSDK_OFFSET(0x1E141FF0)
-#define DIGITALOPUS_MB_CORE_TEXTUREBLENDERSTANDARDMETALLIC_NONTEXTUREPROPERTIESAREEQUAL_OFFSET UNITYSDK_OFFSET(0x1E141160)
-#define DIGITALOPUS_MB_CORE_TEXTUREBLENDERSTANDARDMETALLIC_ONBEFORETINTTEXTURE_OFFSET UNITYSDK_OFFSET(0x1E1409C0)
-#define DIGITALOPUS_MB_CORE_TEXTUREBLENDERSTANDARDMETALLIC_ONBLENDTEXTUREPIXEL_OFFSET UNITYSDK_OFFSET(0x1E140FA0)
-#define DIGITALOPUS_MB_CORE_TEXTUREBLENDERSTANDARDMETALLIC_SETNONTEXTUREPROPERTYVALUESONRESULTMATERIAL_OFFSET UNITYSDK_OFFSET(0x1E141720)
-#define DIGITALOPUS_MB_CORE_TEXTUREBLENDERSTANDARDMETALLIC__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E142A80)
-#define DIGITALOPUS_MB_CORE_TEXTUREBLENDERSTANDARDMETALLIC__CTOR_OFFSET UNITYSDK_OFFSET(0x1E142950)
+#define DIGITALOPUS_MB_CORE_TEXTUREBLENDERSTANDARDMETALLIC_DOESSHADERNAMEMATCH_OFFSET UNITYSDK_OFFSET(0x1F55A990)
+#define DIGITALOPUS_MB_CORE_TEXTUREBLENDERSTANDARDMETALLIC_GETCOLORIFNOTEXTURE_OFFSET UNITYSDK_OFFSET(0x1F55C020)
+#define DIGITALOPUS_MB_CORE_TEXTUREBLENDERSTANDARDMETALLIC_NONTEXTUREPROPERTIESAREEQUAL_OFFSET UNITYSDK_OFFSET(0x1F55B1B0)
+#define DIGITALOPUS_MB_CORE_TEXTUREBLENDERSTANDARDMETALLIC_ONBEFORETINTTEXTURE_OFFSET UNITYSDK_OFFSET(0x1F55AA30)
+#define DIGITALOPUS_MB_CORE_TEXTUREBLENDERSTANDARDMETALLIC_ONBLENDTEXTUREPIXEL_OFFSET UNITYSDK_OFFSET(0x1F55B010)
+#define DIGITALOPUS_MB_CORE_TEXTUREBLENDERSTANDARDMETALLIC_SETNONTEXTUREPROPERTYVALUESONRESULTMATERIAL_OFFSET UNITYSDK_OFFSET(0x1F55B760)
+#define DIGITALOPUS_MB_CORE_TEXTUREBLENDERSTANDARDMETALLIC__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F55CAB0)
+#define DIGITALOPUS_MB_CORE_TEXTUREBLENDERSTANDARDMETALLIC__CTOR_OFFSET UNITYSDK_OFFSET(0x1F55C980)
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int TextureBlenderStandardMetallic_TypeDefinitionIndex = 90584;
+	inline static constexpr unsigned int TextureBlenderStandardMetallic_TypeDefinitionIndex = 94517;
 
 	class TextureBlenderStandardMetallic : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::Color* StaticGet_NeutralNormalMap()
 		{
-			return (::UnityEngine::Color*)Il2CppClass::FromTypeDefinitionIndex(TextureBlenderStandardMetallic_TypeDefinitionIndex)->GetStaticField(0x12C90);
+			return (::UnityEngine::Color*)Il2CppClass::FromTypeDefinitionIndex(TextureBlenderStandardMetallic_TypeDefinitionIndex)->GetStaticField(0x132A0);
 		}
 		// static const ::System::Single m_generatedAlphaCutoff; // 0x0
 		::DigitalOpus::MB::Core::TextureBlenderMaterialPropertyCacheHelper* sourceMaterialPropertyCache; // 0x10
-		::UnityEngine::Color m_notGeneratingAtlasDefaultColor; // 0x18
-		::UnityEngine::Color m_generatingTintedAtlasEmission; // 0x28
-		::System::Single m_metallic; // 0x38
-		::System::Single m_glossiness; // 0x3C
-		::DigitalOpus::MB::Core::TextureBlenderStandardMetallic_Prop propertyToDo; // 0x40
-		::System::Single m_generatingTintedAtlasMetallic; // 0x44
-		::UnityEngine::Color m_generatingTintedAtlasColor; // 0x48
-		::System::Boolean m_shaderDoesEmission; // 0x58
-		::System::Boolean m_doScaleAlphaCutoff; // 0x59
-		::System::Boolean m_hasMetallicGlossMap; // 0x5A
+		::System::Single m_alphaCutoff; // 0x18
+		::UnityEngine::Color m_notGeneratingAtlasDefaultColor; // 0x1C
+		::UnityEngine::Color m_notGeneratingAtlasDefaultEmisionColor; // 0x2C
+		::System::Single m_generatingTintedAtlasMetallic; // 0x3C
+		::System::Single m_notGeneratingAtlasDefaultMetallic; // 0x40
+		::System::Boolean m_hasMetallicGlossMap; // 0x44
+		::System::Boolean m_shaderDoesEmission; // 0x45
+		::System::Boolean m_doScaleAlphaCutoff; // 0x46
+		::System::Single m_notGeneratingAtlasDefaultGlossiness; // 0x48
+		::System::Single m_glossMapScale; // 0x4C
+		::System::Single m_metallic; // 0x50
+		::System::Single m_glossiness; // 0x54
+		::DigitalOpus::MB::Core::TextureBlenderStandardMetallic_Prop propertyToDo; // 0x58
 		::UnityEngine::Color m_tintColor; // 0x5C
-		::System::Single m_glossMapScale; // 0x6C
-		::System::Single m_alphaCutoff; // 0x70
-		::System::Single m_generatingTintedAtlasBumpScale; // 0x74
-		::System::Single m_notGeneratingAtlasDefaultMetallic; // 0x78
-		::System::Single m_generatingTintedAtlasGlossMapScale; // 0x7C
-		::System::Single m_notGeneratingAtlasDefaultGlossiness; // 0x80
-		::UnityEngine::Color m_notGeneratingAtlasDefaultEmisionColor; // 0x84
-		::System::Single m_generatingTintedAtlasGlossiness; // 0x94
-		::System::Single m_bumpScale; // 0x98
-		::UnityEngine::Color m_emissionColor; // 0x9C
+		::System::Single m_bumpScale; // 0x6C
+		::UnityEngine::Color m_emissionColor; // 0x70
+		::System::Single m_generatingTintedAtlasGlossMapScale; // 0x80
+		::System::Single m_generatingTintedAtlasBumpScale; // 0x84
+		::System::Single m_generatingTintedAtlasGlossiness; // 0x88
+		::UnityEngine::Color m_generatingTintedAtlasColor; // 0x8C
+		::UnityEngine::Color m_generatingTintedAtlasEmission; // 0x9C
 
 		::System::Void _ctor()
 		{

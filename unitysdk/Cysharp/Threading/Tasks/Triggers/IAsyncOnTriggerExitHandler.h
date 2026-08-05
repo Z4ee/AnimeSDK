@@ -6,7 +6,7 @@ namespace UnityEngine { class Collider; }
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
-	inline static constexpr unsigned int IAsyncOnTriggerExitHandler_TypeDefinitionIndex = 31420;
+	inline static constexpr unsigned int IAsyncOnTriggerExitHandler_TypeDefinitionIndex = 32040;
 
 	class IAsyncOnTriggerExitHandler
 	{

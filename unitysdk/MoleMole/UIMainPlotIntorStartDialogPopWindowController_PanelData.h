@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_2_208CC9941471731A_935;
+class Class_2_208CC9941471731A_48;
 namespace System { class Action; }
 
-#define MOLEMOLE_UIMAINPLOTINTORSTARTDIALOGPOPWINDOWCONTROLLER_PANELDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x15D8DA60)
+#define MOLEMOLE_UIMAINPLOTINTORSTARTDIALOGPOPWINDOWCONTROLLER_PANELDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1864DFC0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMainPlotIntorStartDialogPopWindowController_PanelData_TypeDefinitionIndex = 80034;
+	inline static constexpr unsigned int UIMainPlotIntorStartDialogPopWindowController_PanelData_TypeDefinitionIndex = 80417;
 
 	class UIMainPlotIntorStartDialogPopWindowController_PanelData : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_2_208CC9941471731A_935* TableInfo; // 0x28
-		::System::Action* OnClosePanel; // 0x30
+		::System::Action* OnClosePanel; // 0x28
+		::Class_2_208CC9941471731A_48* TableInfo; // 0x30
 
 		::System::Void _ctor()
 		{

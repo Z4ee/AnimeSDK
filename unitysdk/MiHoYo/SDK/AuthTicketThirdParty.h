@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int AuthTicketThirdParty_TypeDefinitionIndex = 19850;
+	inline static constexpr unsigned int AuthTicketThirdParty_TypeDefinitionIndex = 20198;
 
 	enum class AuthTicketThirdParty : ::System::Int32
 	{

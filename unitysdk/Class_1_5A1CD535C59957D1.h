@@ -5,16 +5,16 @@
 
 namespace System { class String; }
 
-#define CLASS_1_5A1CD535C59957D1__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF3BFF0)
+#define CLASS_1_5A1CD535C59957D1__CTOR_OFFSET UNITYSDK_OFFSET(0x1157C360)
 
-inline static constexpr unsigned int Class_1_5A1CD535C59957D1_TypeDefinitionIndex = 69702;
+inline static constexpr unsigned int Class_1_5A1CD535C59957D1_TypeDefinitionIndex = 56280;
 
 class Class_1_5A1CD535C59957D1 : public ::System::Object
 {
 public:
-	::System::String* Field_1_0; // 0x10
+	::System::String* Field_1_2; // 0x10
 	::UnityEngine::Timeline::KFrameFieldType Field_1_1; // 0x18
-	::System::Single Field_1_2; // 0x1C
+	::System::Single Field_1_0; // 0x1C
 
 	::System::Void _ctor(::UnityEngine::Timeline::KFrameFieldType a1, ::System::String* a2)
 	{

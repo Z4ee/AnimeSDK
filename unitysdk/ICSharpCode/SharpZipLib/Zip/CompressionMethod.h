@@ -3,7 +3,7 @@
 
 namespace ICSharpCode::SharpZipLib::Zip
 {
-	inline static constexpr unsigned int CompressionMethod_TypeDefinitionIndex = 6843;
+	inline static constexpr unsigned int CompressionMethod_TypeDefinitionIndex = 6847;
 
 	enum class CompressionMethod : ::System::Int32
 	{

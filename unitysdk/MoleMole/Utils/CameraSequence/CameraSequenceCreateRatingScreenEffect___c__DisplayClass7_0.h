@@ -5,12 +5,12 @@
 namespace MoleMole::Utils::CameraSequence { class CameraSequenceCreateRatingScreenEffect; }
 namespace PipelineCamera::CameraSequence { class CameraSequenceContext; }
 
-#define MOLEMOLE_UTILS_CAMERASEQUENCE_CAMERASEQUENCECREATERATINGSCREENEFFECT___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0xFAEFD90)
-#define MOLEMOLE_UTILS_CAMERASEQUENCE_CAMERASEQUENCECREATERATINGSCREENEFFECT___C__DISPLAYCLASS7_0__RECEIVENOTIFYBEGIN_B__0_OFFSET UNITYSDK_OFFSET(0xFAEFDA0)
+#define MOLEMOLE_UTILS_CAMERASEQUENCE_CAMERASEQUENCECREATERATINGSCREENEFFECT___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x11C2DFF0)
+#define MOLEMOLE_UTILS_CAMERASEQUENCE_CAMERASEQUENCECREATERATINGSCREENEFFECT___C__DISPLAYCLASS7_0__RECEIVENOTIFYBEGIN_B__0_OFFSET UNITYSDK_OFFSET(0x11C2E000)
 
 namespace MoleMole::Utils::CameraSequence
 {
-	inline static constexpr unsigned int CameraSequenceCreateRatingScreenEffect___c__DisplayClass7_0_TypeDefinitionIndex = 87589;
+	inline static constexpr unsigned int CameraSequenceCreateRatingScreenEffect___c__DisplayClass7_0_TypeDefinitionIndex = 45408;
 
 	class CameraSequenceCreateRatingScreenEffect___c__DisplayClass7_0 : public ::System::Object
 	{

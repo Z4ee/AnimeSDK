@@ -11,50 +11,52 @@
 
 class Class_1_413B2BDBE645DB66;
 
-#define MOLEMOLE_CONFIGMATERIALPROPERTYABNORMALPROPERTYBURNMODIFIER_DOAFTERONENTER_OFFSET UNITYSDK_OFFSET(0x19FFEFE0)
-#define MOLEMOLE_CONFIGMATERIALPROPERTYABNORMALPROPERTYBURNMODIFIER_DOONENTER_OFFSET UNITYSDK_OFFSET(0x19FFEEC0)
-#define MOLEMOLE_CONFIGMATERIALPROPERTYABNORMALPROPERTYBURNMODIFIER_DOWARMUP_OFFSET UNITYSDK_OFFSET(0x1A002040)
-#define MOLEMOLE_CONFIGMATERIALPROPERTYABNORMALPROPERTYBURNMODIFIER_PREPAREONENTER_OFFSET UNITYSDK_OFFSET(0x19FFE990)
-#define MOLEMOLE_CONFIGMATERIALPROPERTYABNORMALPROPERTYBURNMODIFIER_PREPAREONEXIT_OFFSET UNITYSDK_OFFSET(0x19FFF160)
-#define MOLEMOLE_CONFIGMATERIALPROPERTYABNORMALPROPERTYBURNMODIFIER_PROCESSENTER_OFFSET UNITYSDK_OFFSET(0x19FFF040)
-#define MOLEMOLE_CONFIGMATERIALPROPERTYABNORMALPROPERTYBURNMODIFIER_PROCESSEXIT_OFFSET UNITYSDK_OFFSET(0x19FFF1D0)
-#define MOLEMOLE_CONFIGMATERIALPROPERTYABNORMALPROPERTYBURNMODIFIER_PROCESSKEEP_OFFSET UNITYSDK_OFFSET(0x1A000560)
-#define MOLEMOLE_CONFIGMATERIALPROPERTYABNORMALPROPERTYBURNMODIFIER_SYNCENABLES_OFFSET UNITYSDK_OFFSET(0x19FFFC00)
-#define MOLEMOLE_CONFIGMATERIALPROPERTYABNORMALPROPERTYBURNMODIFIER_SYNCVALUES_OFFSET UNITYSDK_OFFSET(0x19FFF3A0)
-#define MOLEMOLE_CONFIGMATERIALPROPERTYABNORMALPROPERTYBURNMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0022D0)
+#define MOLEMOLE_CONFIGMATERIALPROPERTYABNORMALPROPERTYBURNMODIFIER_DOAFTERONENTER_OFFSET UNITYSDK_OFFSET(0x1B806570)
+#define MOLEMOLE_CONFIGMATERIALPROPERTYABNORMALPROPERTYBURNMODIFIER_DOONENTER_FORUSER_OFFSET UNITYSDK_OFFSET(0x1B809860)
+#define MOLEMOLE_CONFIGMATERIALPROPERTYABNORMALPROPERTYBURNMODIFIER_DOONENTER_OFFSET UNITYSDK_OFFSET(0x1B806450)
+#define MOLEMOLE_CONFIGMATERIALPROPERTYABNORMALPROPERTYBURNMODIFIER_DOWARMUP_OFFSET UNITYSDK_OFFSET(0x1B8095D0)
+#define MOLEMOLE_CONFIGMATERIALPROPERTYABNORMALPROPERTYBURNMODIFIER_ONDONE_OFFSET UNITYSDK_OFFSET(0x1B8098D0)
+#define MOLEMOLE_CONFIGMATERIALPROPERTYABNORMALPROPERTYBURNMODIFIER_PREPAREONENTER_OFFSET UNITYSDK_OFFSET(0x1B805FA0)
+#define MOLEMOLE_CONFIGMATERIALPROPERTYABNORMALPROPERTYBURNMODIFIER_PREPAREONEXIT_OFFSET UNITYSDK_OFFSET(0x1B806700)
+#define MOLEMOLE_CONFIGMATERIALPROPERTYABNORMALPROPERTYBURNMODIFIER_PROCESSENTER_OFFSET UNITYSDK_OFFSET(0x1B8065D0)
+#define MOLEMOLE_CONFIGMATERIALPROPERTYABNORMALPROPERTYBURNMODIFIER_PROCESSEXIT_OFFSET UNITYSDK_OFFSET(0x1B806780)
+#define MOLEMOLE_CONFIGMATERIALPROPERTYABNORMALPROPERTYBURNMODIFIER_PROCESSKEEP_OFFSET UNITYSDK_OFFSET(0x1B807B00)
+#define MOLEMOLE_CONFIGMATERIALPROPERTYABNORMALPROPERTYBURNMODIFIER_SYNCENABLES_OFFSET UNITYSDK_OFFSET(0x1B8071B0)
+#define MOLEMOLE_CONFIGMATERIALPROPERTYABNORMALPROPERTYBURNMODIFIER_SYNCVALUES_OFFSET UNITYSDK_OFFSET(0x1B806950)
+#define MOLEMOLE_CONFIGMATERIALPROPERTYABNORMALPROPERTYBURNMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B809950)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigMaterialPropertyAbnormalPropertyBurnModifier_TypeDefinitionIndex = 57653;
+	inline static constexpr unsigned int ConfigMaterialPropertyAbnormalPropertyBurnModifier_TypeDefinitionIndex = 89097;
 
 	class ConfigMaterialPropertyAbnormalPropertyBurnModifier : public ::MoleMole::ConfigMaterialPropertyModifier
 	{
 	public:
-		::MoleMole::MaterialPropertyModifierValueTexture _MatCapTexFx; // 0x48
-		::MoleMole::MaterialPropertyModifierValueTexture _OverrideRimGlowTexFX; // 0x78
-		::MoleMole::MaterialPropertyModifierValueTexture _OverrideOutlineTex; // 0xA8
-		::MoleMole::MaterialPropertyModifierValueFloat _PropertyMaskUVFlipSpeed; // 0xD8
-		::MoleMole::MaterialPropertyModifierValueFloat _FresnelWidth; // 0xE0
-		::MoleMole::MaterialPropertyModifierValueVector _PropertyMask2UVSpeed; // 0xE8
-		::UnityEngine::Color _PropertyColorRef; // 0x100
+		::MoleMole::MaterialPropertyModifierValueTexture _OverrideOutlineTex; // 0x48
+		::MoleMole::MaterialPropertyModifierValueTexture _MatCapTexFx; // 0x78
+		::MoleMole::MaterialPropertyModifierValueTexture _OverrideRimGlowTexFX; // 0xA8
+		::MoleMole::MaterialPropertyModifierValueVector _PropertyTexUVSpeed; // 0xD8
+		::MoleMole::MaterialPropertyModifierValueFloat _PropertyMaskUseUV2; // 0xF0
+		::UnityEngine::Color _PropertyColorDefault; // 0xF8
+		::MoleMole::MaterialPropertyModifierValueFloat _PropertyMask2UseUV2; // 0x108
 		::MoleMole::MaterialPropertyModifierValueFloat _PropertyTexUseUV2; // 0x110
-		::MoleMole::MaterialPropertyModifierValueVector _PropertyMaskUVSpeed; // 0x118
-		::UnityEngine::Color _DetailColorDefault; // 0x130
-		::System::Single _FresnelFlashingDefault; // 0x140
-		::MoleMole::MaterialPropertyModifierValueFloat _FresnelMaskWidth; // 0x144
-		::UnityEngine::Color _DetailColorRef; // 0x14C
-		::MoleMole::MaterialPropertyModifierValueFloat _PropertyTexUVFlipSpeed; // 0x15C
-		::MoleMole::MaterialPropertyModifierValueVector _PropertyTexUVSpeed; // 0x164
-		::MoleMole::MaterialPropertyModifierValueFloat _PropertyMask2UseUV2; // 0x17C
-		::MoleMole::MaterialPropertyModifierValueColor _DetailColor; // 0x184
-		::MoleMole::MaterialPropertyModifierValueFloat _FresnelFlashing; // 0x198
-		::MoleMole::MaterialPropertyModifierValueColor _PropertyColor; // 0x1A0
-		::UnityEngine::Color _PropertyColorDefault; // 0x1B4
-		::System::Single _FresnelFlashingRef; // 0x1C4
-		::MoleMole::MaterialPropertyModifierEnumDefine::MaterialPropertyModifierValueMaskChannelType _PropertyMaskChannel; // 0x1C8
-		::MoleMole::MaterialPropertyModifierValueBool _AbnormalPropertyBurn; // 0x1CB
-		::MoleMole::MaterialPropertyModifierEnumDefine::MaterialPropertyModifierValueMaskChannelType _PropertyMask2Channel; // 0x1CE
-		::MoleMole::MaterialPropertyModifierValueFloat _PropertyMaskUseUV2; // 0x1D4
+		::UnityEngine::Color _PropertyColorRef; // 0x118
+		::MoleMole::MaterialPropertyModifierValueFloat _PropertyTexUVFlipSpeed; // 0x128
+		::MoleMole::MaterialPropertyModifierValueFloat _FresnelWidth; // 0x130
+		::MoleMole::MaterialPropertyModifierValueVector _PropertyMaskUVSpeed; // 0x138
+		::MoleMole::MaterialPropertyModifierValueBool _AbnormalPropertyBurn; // 0x150
+		::MoleMole::MaterialPropertyModifierEnumDefine::MaterialPropertyModifierValueMaskChannelType _PropertyMaskChannel; // 0x153
+		::MoleMole::MaterialPropertyModifierEnumDefine::MaterialPropertyModifierValueMaskChannelType _PropertyMask2Channel; // 0x156
+		::MoleMole::MaterialPropertyModifierValueFloat _PropertyMaskUVFlipSpeed; // 0x15C
+		::MoleMole::MaterialPropertyModifierValueColor _DetailColor; // 0x164
+		::MoleMole::MaterialPropertyModifierValueFloat _FresnelMaskWidth; // 0x178
+		::MoleMole::MaterialPropertyModifierValueVector _PropertyMask2UVSpeed; // 0x180
+		::MoleMole::MaterialPropertyModifierValueColor _PropertyColor; // 0x198
+		::System::Single _FresnelFlashingDefault; // 0x1AC
+		::System::Single _FresnelFlashingRef; // 0x1B0
+		::MoleMole::MaterialPropertyModifierValueFloat _FresnelFlashing; // 0x1B4
+		::UnityEngine::Color _DetailColorDefault; // 0x1BC
+		::UnityEngine::Color _DetailColorRef; // 0x1CC
 
 		::System::Void _ctor()
 		{
@@ -109,6 +111,16 @@ namespace MoleMole
 		::System::Void DoWarmUp()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGMATERIALPROPERTYABNORMALPROPERTYBURNMODIFIER_DOWARMUP_OFFSET))(this);
+		}
+
+		::System::Void DoOnEnter_ForUser(::Class_1_413B2BDBE645DB66* instance)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_413B2BDBE645DB66*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGMATERIALPROPERTYABNORMALPROPERTYBURNMODIFIER_DOONENTER_FORUSER_OFFSET))(this, instance);
+		}
+
+		::System::Void OnDone(::Class_1_413B2BDBE645DB66* instance)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_413B2BDBE645DB66*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGMATERIALPROPERTYABNORMALPROPERTYBURNMODIFIER_ONDONE_OFFSET))(this, instance);
 		}
 	};
 }

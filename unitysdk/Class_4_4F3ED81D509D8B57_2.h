@@ -1,0 +1,50 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_3_3B7CFC169AD8410C.h"
+#include "unitysdk/Foundation/ViewObject/ViewObjectHandle.h"
+#include "unitysdk/Struct_2_0B8A00E6770FCC03.h"
+#include "unitysdk/Struct_2_29439DBE2B63DCF3.h"
+
+class Class_2_99A6B66ACB90C91B;
+class Class_3_B537A0AA78803363;
+template <typename T> class Class_4_8D3E479B491881B3;
+
+#define CLASS_4_4F3ED81D509D8B57_2_METHOD_4_33ACA6CB2ABC73F7_OFFSET UNITYSDK_OFFSET(0x12865D40)
+#define CLASS_4_4F3ED81D509D8B57_2_METHOD_4_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x128660B0)
+#define CLASS_4_4F3ED81D509D8B57_2_METHOD_4_D451F26A6A233EA1_OFFSET UNITYSDK_OFFSET(0x12865E20)
+#define CLASS_4_4F3ED81D509D8B57_2_METHOD_4_F99F600AF38EED52_OFFSET UNITYSDK_OFFSET(0x12865ED0)
+#define CLASS_4_4F3ED81D509D8B57_2__CTOR_OFFSET UNITYSDK_OFFSET(0x12865FB0)
+
+inline static constexpr unsigned int Class_4_4F3ED81D509D8B57_2_TypeDefinitionIndex = 72076;
+
+class Class_4_4F3ED81D509D8B57_2 : public ::Class_3_3B7CFC169AD8410C
+{
+public:
+	::Class_3_B537A0AA78803363* Field_4_7; // 0x18
+	::Class_4_8D3E479B491881B3<::Foundation::ViewObject::ViewObjectHandle>* Field_4_0; // 0x20
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_4F3ED81D509D8B57_2__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_4_33ACA6CB2ABC73F7()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_4F3ED81D509D8B57_2_METHOD_4_33ACA6CB2ABC73F7_OFFSET))(this);
+	}
+
+	::System::Void Method_4_D451F26A6A233EA1(::Class_2_99A6B66ACB90C91B* a1, ::Struct_2_29439DBE2B63DCF3& a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_2_99A6B66ACB90C91B*, ::Struct_2_29439DBE2B63DCF3&))((::PBYTE)hIl2Cpp + CLASS_4_4F3ED81D509D8B57_2_METHOD_4_D451F26A6A233EA1_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_4_F99F600AF38EED52(::Struct_2_29439DBE2B63DCF3& a1, ::Struct_2_0B8A00E6770FCC03 a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Struct_2_29439DBE2B63DCF3&, ::Struct_2_0B8A00E6770FCC03))((::PBYTE)hIl2Cpp + CLASS_4_4F3ED81D509D8B57_2_METHOD_4_F99F600AF38EED52_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_4_CA373AA1C7054598()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_4F3ED81D509D8B57_2_METHOD_4_CA373AA1C7054598_OFFSET))(this);
+	}
+};

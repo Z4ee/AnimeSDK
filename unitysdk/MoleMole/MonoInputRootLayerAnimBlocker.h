@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/MonoInputAnimBlocker.h"
 
-#define MOLEMOLE_MONOINPUTROOTLAYERANIMBLOCKER__CTOR_OFFSET UNITYSDK_OFFSET(0x151495C0)
+#define MOLEMOLE_MONOINPUTROOTLAYERANIMBLOCKER__CTOR_OFFSET UNITYSDK_OFFSET(0x17916940)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoInputRootLayerAnimBlocker_TypeDefinitionIndex = 70131;
+	inline static constexpr unsigned int MonoInputRootLayerAnimBlocker_TypeDefinitionIndex = 72277;
 
 	class MonoInputRootLayerAnimBlocker : public ::MoleMole::MonoInputAnimBlocker
 	{

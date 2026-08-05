@@ -9,7 +9,7 @@ namespace System { class Object; }
 
 namespace Foundation
 {
-	inline static constexpr unsigned int TickFunction_1_GenTickTimeFunc_TypeDefinitionIndex = 8439;
+	inline static constexpr unsigned int TickFunction_1_GenTickTimeFunc_TypeDefinitionIndex = 8886;
 
 	template <typename TTickingGroup>
 	class TickFunction_1_GenTickTimeFunc : public ::System::MulticastDelegate

@@ -5,7 +5,7 @@
 
 namespace System::Buffers
 {
-	inline static constexpr unsigned int DefaultArrayPool_1_Bucket_TypeDefinitionIndex = 6525;
+	inline static constexpr unsigned int DefaultArrayPool_1_Bucket_TypeDefinitionIndex = 6529;
 
 	template <typename T>
 	class DefaultArrayPool_1_Bucket : public ::System::Object

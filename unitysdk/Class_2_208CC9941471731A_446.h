@@ -1,33 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_48F4A404A08692BE_65.h"
-#include "unitysdk/Struct_2_3E75877A2888D88A_97.h"
+#include "unitysdk/Class_1_5DA2E7556103D5A3_320.h"
+#include "unitysdk/Struct_2_3E75877A2888D88A_967.h"
 
 class Class_0_16E4307DCC419505_7;
-class Class_2_6D99A03C58ED2B6E_1;
-namespace System { class String; }
 
-#define CLASS_2_208CC9941471731A_446_METHOD_2_35EA095E1AFDD9C8_OFFSET UNITYSDK_OFFSET(0x18578040)
-#define CLASS_2_208CC9941471731A_446_METHOD_2_860787EF93A67C73_OFFSET UNITYSDK_OFFSET(0x18577AB0)
-#define CLASS_2_208CC9941471731A_446__CTOR_OFFSET UNITYSDK_OFFSET(0x18577A90)
+#define CLASS_2_208CC9941471731A_446__CTOR_OFFSET UNITYSDK_OFFSET(0x16B7C330)
 
-inline static constexpr unsigned int Class_2_208CC9941471731A_446_TypeDefinitionIndex = 17607;
+inline static constexpr unsigned int Class_2_208CC9941471731A_446_TypeDefinitionIndex = 13895;
 
-class Class_2_208CC9941471731A_446 : public ::Class_1_48F4A404A08692BE_65
+class Class_2_208CC9941471731A_446 : public ::Class_1_5DA2E7556103D5A3_320
 {
 public:
-	::System::Void _ctor(::Struct_2_3E75877A2888D88A_97 a1, ::Class_0_16E4307DCC419505_7* a2)
+	::System::Void _ctor(::Struct_2_3E75877A2888D88A_967 a1, ::Class_0_16E4307DCC419505_7* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::Struct_2_3E75877A2888D88A_97, ::Class_0_16E4307DCC419505_7*))((::PBYTE)hIl2Cpp + CLASS_2_208CC9941471731A_446__CTOR_OFFSET))(this, a1, a2);
-	}
-
-	::Class_2_6D99A03C58ED2B6E_1* Method_2_860787EF93A67C73()
-	{
-		return ((::Class_2_6D99A03C58ED2B6E_1*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_208CC9941471731A_446_METHOD_2_860787EF93A67C73_OFFSET))(this);
-	}
-
-	::System::String* Method_2_35EA095E1AFDD9C8()
-	{
-		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_208CC9941471731A_446_METHOD_2_35EA095E1AFDD9C8_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID, ::Struct_2_3E75877A2888D88A_967, ::Class_0_16E4307DCC419505_7*))((::PBYTE)hIl2Cpp + CLASS_2_208CC9941471731A_446__CTOR_OFFSET))(this, a1, a2);
 	}
 };

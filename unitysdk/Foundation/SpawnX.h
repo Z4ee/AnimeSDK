@@ -7,14 +7,14 @@
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class GameObject; }
 
-#define FOUNDATION_SPAWNX_DESPAWN_OFFSET UNITYSDK_OFFSET(0x1E1A63B0)
-#define FOUNDATION_SPAWNX_PRESPAWN_OFFSET UNITYSDK_OFFSET(0x1E1A6430)
-#define FOUNDATION_SPAWNX_SPAWN_1_OFFSET UNITYSDK_OFFSET(0x1E1A62A0)
-#define FOUNDATION_SPAWNX_SPAWN_OFFSET UNITYSDK_OFFSET(0x1E1A61A0)
+#define FOUNDATION_SPAWNX_DESPAWN_OFFSET UNITYSDK_OFFSET(0x1F4BEBD0)
+#define FOUNDATION_SPAWNX_PRESPAWN_OFFSET UNITYSDK_OFFSET(0x1F4BEC50)
+#define FOUNDATION_SPAWNX_SPAWN_1_OFFSET UNITYSDK_OFFSET(0x1F4BEAC0)
+#define FOUNDATION_SPAWNX_SPAWN_OFFSET UNITYSDK_OFFSET(0x1F4BE9C0)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int SpawnX_TypeDefinitionIndex = 8304;
+	inline static constexpr unsigned int SpawnX_TypeDefinitionIndex = 8167;
 
 	class SpawnX : public ::System::Object
 	{

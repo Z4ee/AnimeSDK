@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_SUMMEREVENTTRIGGERABILITYPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x126569D0)
+#define MOLEMOLE_SUMMEREVENTTRIGGERABILITYPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x14A23380)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SummerEventTriggerAbilityParam_TypeDefinitionIndex = 63964;
+	inline static constexpr unsigned int SummerEventTriggerAbilityParam_TypeDefinitionIndex = 65298;
 
 	class SummerEventTriggerAbilityParam : public ::MoleMole::SummerEventWeaponSkillParamBase
 	{

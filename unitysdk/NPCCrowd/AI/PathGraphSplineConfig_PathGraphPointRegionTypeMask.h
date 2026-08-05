@@ -3,18 +3,18 @@
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int PathGraphSplineConfig_PathGraphPointRegionTypeMask_TypeDefinitionIndex = 53543;
+	inline static constexpr unsigned int PathGraphSplineConfig_PathGraphPointRegionTypeMask_TypeDefinitionIndex = 76884;
 
 	enum class PathGraphSplineConfig_PathGraphPointRegionTypeMask : ::System::Int32
 	{
 		DownwardSlope = 32,
-		UpwardSlope = 16,
-		Stair = 2,
-		TurnRight = 128,
-		TurnLeft = 64,
+		FlatGround = 1,
 		StairTransition = 8,
 		Slope = 4,
-		FlatGround = 1,
+		UpwardSlope = 16,
+		TurnRight = 128,
+		Stair = 2,
 		None = 0,
+		TurnLeft = 64,
 	};
 }

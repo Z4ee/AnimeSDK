@@ -7,59 +7,59 @@ namespace MoleMole { class ScrollViewItemWidgetController; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_UIAUTOBATTLELINEUPROWWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x181CC050)
-#define MOLEMOLE_UIAUTOBATTLELINEUPROWWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x181CC090)
-#define MOLEMOLE_UIAUTOBATTLELINEUPROWWIDGETCONTROLLER___C__REFRESHVIEW_B__11_0_OFFSET UNITYSDK_OFFSET(0x181CC0A0)
-#define MOLEMOLE_UIAUTOBATTLELINEUPROWWIDGETCONTROLLER___C__REFRESHVIEW_B__11_1_OFFSET UNITYSDK_OFFSET(0x181CC0C0)
-#define MOLEMOLE_UIAUTOBATTLELINEUPROWWIDGETCONTROLLER___C__REFRESHVIEW_B__11_2_OFFSET UNITYSDK_OFFSET(0x181CC0D0)
-#define MOLEMOLE_UIAUTOBATTLELINEUPROWWIDGETCONTROLLER___C__REFRESHVIEW_B__11_3_OFFSET UNITYSDK_OFFSET(0x181CC0F0)
-#define MOLEMOLE_UIAUTOBATTLELINEUPROWWIDGETCONTROLLER___C__REFRESHVIEW_B__11_4_OFFSET UNITYSDK_OFFSET(0x181CC100)
-#define MOLEMOLE_UIAUTOBATTLELINEUPROWWIDGETCONTROLLER___C__REFRESHVIEW_B__11_5_OFFSET UNITYSDK_OFFSET(0x181CC120)
-#define MOLEMOLE_UIAUTOBATTLELINEUPROWWIDGETCONTROLLER___C__REFRESHVIEW_B__11_6_OFFSET UNITYSDK_OFFSET(0x181CC130)
-#define MOLEMOLE_UIAUTOBATTLELINEUPROWWIDGETCONTROLLER___C__REFRESHVIEW_B__11_7_OFFSET UNITYSDK_OFFSET(0x181CC150)
+#define MOLEMOLE_UIAUTOBATTLELINEUPROWWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x197738C0)
+#define MOLEMOLE_UIAUTOBATTLELINEUPROWWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19773900)
+#define MOLEMOLE_UIAUTOBATTLELINEUPROWWIDGETCONTROLLER___C__REFRESHVIEW_B__11_0_OFFSET UNITYSDK_OFFSET(0x19773910)
+#define MOLEMOLE_UIAUTOBATTLELINEUPROWWIDGETCONTROLLER___C__REFRESHVIEW_B__11_1_OFFSET UNITYSDK_OFFSET(0x19773930)
+#define MOLEMOLE_UIAUTOBATTLELINEUPROWWIDGETCONTROLLER___C__REFRESHVIEW_B__11_2_OFFSET UNITYSDK_OFFSET(0x19773940)
+#define MOLEMOLE_UIAUTOBATTLELINEUPROWWIDGETCONTROLLER___C__REFRESHVIEW_B__11_3_OFFSET UNITYSDK_OFFSET(0x19773960)
+#define MOLEMOLE_UIAUTOBATTLELINEUPROWWIDGETCONTROLLER___C__REFRESHVIEW_B__11_4_OFFSET UNITYSDK_OFFSET(0x19773970)
+#define MOLEMOLE_UIAUTOBATTLELINEUPROWWIDGETCONTROLLER___C__REFRESHVIEW_B__11_5_OFFSET UNITYSDK_OFFSET(0x19773990)
+#define MOLEMOLE_UIAUTOBATTLELINEUPROWWIDGETCONTROLLER___C__REFRESHVIEW_B__11_6_OFFSET UNITYSDK_OFFSET(0x197739A0)
+#define MOLEMOLE_UIAUTOBATTLELINEUPROWWIDGETCONTROLLER___C__REFRESHVIEW_B__11_7_OFFSET UNITYSDK_OFFSET(0x197739C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAutoBattleLineUpRowWidgetController___c_TypeDefinitionIndex = 55991;
+	inline static constexpr unsigned int UIAutoBattleLineUpRowWidgetController___c_TypeDefinitionIndex = 64368;
 
 	class UIAutoBattleLineUpRowWidgetController___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::GameObject*, ::MoleMole::ScrollViewItemWidgetController*>, ::System::Int32>** StaticGet___9__11_6()
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::GameObject*, ::MoleMole::ScrollViewItemWidgetController*>, ::UnityEngine::GameObject*>** StaticGet___9__11_1()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::GameObject*, ::MoleMole::ScrollViewItemWidgetController*>, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIAutoBattleLineUpRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3C810);
-		}
-		static ::MoleMole::UIAutoBattleLineUpRowWidgetController___c** StaticGet___9()
-		{
-			return (::MoleMole::UIAutoBattleLineUpRowWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIAutoBattleLineUpRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3C818);
-		}
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::GameObject*, ::MoleMole::ScrollViewItemWidgetController*>, ::System::Int32>** StaticGet___9__11_4()
-		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::GameObject*, ::MoleMole::ScrollViewItemWidgetController*>, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIAutoBattleLineUpRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3C820);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::GameObject*, ::MoleMole::ScrollViewItemWidgetController*>, ::UnityEngine::GameObject*>**)Il2CppClass::FromTypeDefinitionIndex(UIAutoBattleLineUpRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x46FA0);
 		}
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::GameObject*, ::MoleMole::ScrollViewItemWidgetController*>, ::UnityEngine::GameObject*>** StaticGet___9__11_7()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::GameObject*, ::MoleMole::ScrollViewItemWidgetController*>, ::UnityEngine::GameObject*>**)Il2CppClass::FromTypeDefinitionIndex(UIAutoBattleLineUpRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3C828);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::GameObject*, ::MoleMole::ScrollViewItemWidgetController*>, ::UnityEngine::GameObject*>**)Il2CppClass::FromTypeDefinitionIndex(UIAutoBattleLineUpRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x46FA8);
 		}
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::GameObject*, ::MoleMole::ScrollViewItemWidgetController*>, ::UnityEngine::GameObject*>** StaticGet___9__11_3()
+		static ::MoleMole::UIAutoBattleLineUpRowWidgetController___c** StaticGet___9()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::GameObject*, ::MoleMole::ScrollViewItemWidgetController*>, ::UnityEngine::GameObject*>**)Il2CppClass::FromTypeDefinitionIndex(UIAutoBattleLineUpRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3C830);
-		}
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::GameObject*, ::MoleMole::ScrollViewItemWidgetController*>, ::UnityEngine::GameObject*>** StaticGet___9__11_5()
-		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::GameObject*, ::MoleMole::ScrollViewItemWidgetController*>, ::UnityEngine::GameObject*>**)Il2CppClass::FromTypeDefinitionIndex(UIAutoBattleLineUpRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3C838);
-		}
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::GameObject*, ::MoleMole::ScrollViewItemWidgetController*>, ::UnityEngine::GameObject*>** StaticGet___9__11_1()
-		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::GameObject*, ::MoleMole::ScrollViewItemWidgetController*>, ::UnityEngine::GameObject*>**)Il2CppClass::FromTypeDefinitionIndex(UIAutoBattleLineUpRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3C840);
+			return (::MoleMole::UIAutoBattleLineUpRowWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIAutoBattleLineUpRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x46FB0);
 		}
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::GameObject*, ::MoleMole::ScrollViewItemWidgetController*>, ::System::Int32>** StaticGet___9__11_2()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::GameObject*, ::MoleMole::ScrollViewItemWidgetController*>, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIAutoBattleLineUpRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3C848);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::GameObject*, ::MoleMole::ScrollViewItemWidgetController*>, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIAutoBattleLineUpRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x46FB8);
+		}
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::GameObject*, ::MoleMole::ScrollViewItemWidgetController*>, ::UnityEngine::GameObject*>** StaticGet___9__11_5()
+		{
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::GameObject*, ::MoleMole::ScrollViewItemWidgetController*>, ::UnityEngine::GameObject*>**)Il2CppClass::FromTypeDefinitionIndex(UIAutoBattleLineUpRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x46FC0);
 		}
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::GameObject*, ::MoleMole::ScrollViewItemWidgetController*>, ::System::Int32>** StaticGet___9__11_0()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::GameObject*, ::MoleMole::ScrollViewItemWidgetController*>, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIAutoBattleLineUpRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3C850);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::GameObject*, ::MoleMole::ScrollViewItemWidgetController*>, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIAutoBattleLineUpRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x46FC8);
+		}
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::GameObject*, ::MoleMole::ScrollViewItemWidgetController*>, ::UnityEngine::GameObject*>** StaticGet___9__11_3()
+		{
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::GameObject*, ::MoleMole::ScrollViewItemWidgetController*>, ::UnityEngine::GameObject*>**)Il2CppClass::FromTypeDefinitionIndex(UIAutoBattleLineUpRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x46FD0);
+		}
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::GameObject*, ::MoleMole::ScrollViewItemWidgetController*>, ::System::Int32>** StaticGet___9__11_6()
+		{
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::GameObject*, ::MoleMole::ScrollViewItemWidgetController*>, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIAutoBattleLineUpRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x46FD8);
+		}
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::GameObject*, ::MoleMole::ScrollViewItemWidgetController*>, ::System::Int32>** StaticGet___9__11_4()
+		{
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::GameObject*, ::MoleMole::ScrollViewItemWidgetController*>, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIAutoBattleLineUpRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x46FE0);
 		}
 
 		static ::System::Void _cctor()

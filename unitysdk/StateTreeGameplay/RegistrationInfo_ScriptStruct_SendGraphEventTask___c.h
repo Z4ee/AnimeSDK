@@ -4,20 +4,20 @@
 
 namespace UnrealTypes { class ICppStructOps; }
 
-#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_SENDGRAPHEVENTTASK___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A515060)
-#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_SENDGRAPHEVENTTASK___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5150A0)
-#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_SENDGRAPHEVENTTASK___C___CCTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0x1A5150B0)
+#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_SENDGRAPHEVENTTASK___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DE8D340)
+#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_SENDGRAPHEVENTTASK___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1DE8D380)
+#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_SENDGRAPHEVENTTASK___C___CCTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0x1DE8D390)
 
 namespace StateTreeGameplay
 {
-	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_SendGraphEventTask___c_TypeDefinitionIndex = 56534;
+	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_SendGraphEventTask___c_TypeDefinitionIndex = 84419;
 
 	class RegistrationInfo_ScriptStruct_SendGraphEventTask___c : public ::System::Object
 	{
 	public:
 		static ::StateTreeGameplay::RegistrationInfo_ScriptStruct_SendGraphEventTask___c** StaticGet___9()
 		{
-			return (::StateTreeGameplay::RegistrationInfo_ScriptStruct_SendGraphEventTask___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_SendGraphEventTask___c_TypeDefinitionIndex)->GetStaticField(0x457C0);
+			return (::StateTreeGameplay::RegistrationInfo_ScriptStruct_SendGraphEventTask___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_SendGraphEventTask___c_TypeDefinitionIndex)->GetStaticField(0x49810);
 		}
 
 		static ::System::Void _cctor()

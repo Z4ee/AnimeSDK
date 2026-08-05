@@ -8,7 +8,7 @@ namespace MessagePack { class MessagePackSerializerOptions; }
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int IGraphDictionaryFormatterBase_5_TypeDefinitionIndex = 30847;
+	inline static constexpr unsigned int IGraphDictionaryFormatterBase_5_TypeDefinitionIndex = 31264;
 
 	template <typename TKey, typename TValue, typename TIntermediate, typename TEnumerator, typename TDictionary>
 	class IGraphDictionaryFormatterBase_5 : public ::System::Object

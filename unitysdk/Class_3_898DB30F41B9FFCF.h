@@ -7,10 +7,10 @@ namespace System { class EventArgs; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_3_898DB30F41B9FFCF_METHOD_3_06A3B74574E752BD_OFFSET UNITYSDK_OFFSET(0x11E64290)
-#define CLASS_3_898DB30F41B9FFCF__CTOR_OFFSET UNITYSDK_OFFSET(0x11E64130)
+#define CLASS_3_898DB30F41B9FFCF_METHOD_3_06A3B74574E752BD_OFFSET UNITYSDK_OFFSET(0x11C5ED40)
+#define CLASS_3_898DB30F41B9FFCF__CTOR_OFFSET UNITYSDK_OFFSET(0x11C5EBE0)
 
-inline static constexpr unsigned int Class_3_898DB30F41B9FFCF_TypeDefinitionIndex = 43074;
+inline static constexpr unsigned int Class_3_898DB30F41B9FFCF_TypeDefinitionIndex = 50754;
 
 class Class_3_898DB30F41B9FFCF : public ::Class_2_BCA32DB678A03168
 {

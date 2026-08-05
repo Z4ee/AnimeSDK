@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_5B421F8FFABD4CA3_1.h"
+#include "unitysdk/Struct_2_5B421F8FFABD4CA3_2.h"
 #include "unitysdk/System/Object.h"
 
 class Class_1_4AC26411646E4F6D;
@@ -10,29 +10,24 @@ namespace MoleMole { class ClientSceneObjectStateLooperConfigBase; }
 namespace MoleMole { class SceneObjectStateWidget; }
 namespace System { template <typename T> class Action_1; }
 
-#define CLASS_1_B5E1E5BCE53A4B4C_METHOD_1_B0EA38048E00B57D_OFFSET UNITYSDK_OFFSET(0x13085130)
-#define CLASS_1_B5E1E5BCE53A4B4C_METHOD_1_B1BC3F7510ACBE4A_OFFSET UNITYSDK_OFFSET(0x13085500)
-#define CLASS_1_B5E1E5BCE53A4B4C_METHOD_1_C114A1F8E08B6F92_OFFSET UNITYSDK_OFFSET(0x13085610)
-#define CLASS_1_B5E1E5BCE53A4B4C_METHOD_1_C74CF020AA42ED85_OFFSET UNITYSDK_OFFSET(0x130854F0)
+#define CLASS_1_B5E1E5BCE53A4B4C_METHOD_1_B0EA38048E00B57D_OFFSET UNITYSDK_OFFSET(0x1565F710)
+#define CLASS_1_B5E1E5BCE53A4B4C_METHOD_1_B1BC3F7510ACBE4A_OFFSET UNITYSDK_OFFSET(0x1565FAA0)
+#define CLASS_1_B5E1E5BCE53A4B4C_METHOD_1_C114A1F8E08B6F92_OFFSET UNITYSDK_OFFSET(0x1565FBB0)
+#define CLASS_1_B5E1E5BCE53A4B4C_METHOD_1_C74CF020AA42ED85_OFFSET UNITYSDK_OFFSET(0x1565FBC0)
 
-inline static constexpr unsigned int Class_1_B5E1E5BCE53A4B4C_TypeDefinitionIndex = 41232;
+inline static constexpr unsigned int Class_1_B5E1E5BCE53A4B4C_TypeDefinitionIndex = 77907;
 
 class Class_1_B5E1E5BCE53A4B4C : public ::System::Object
 {
 public:
 	static ::System::Int32* StaticGet_Field_1_0()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_B5E1E5BCE53A4B4C_TypeDefinitionIndex)->GetStaticField(0xE8E0);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_B5E1E5BCE53A4B4C_TypeDefinitionIndex)->GetStaticField(0xD870);
 	}
 
-	static ::Class_1_BCCF9BCA86B17EFC* Method_1_B0EA38048E00B57D(::Class_1_87F855E9737731A7* a1, ::MoleMole::SceneObjectStateWidget* a2, ::System::Action_1<::Struct_2_5B421F8FFABD4CA3_1>* a3)
+	static ::Class_1_BCCF9BCA86B17EFC* Method_1_B0EA38048E00B57D(::Class_1_87F855E9737731A7* a1, ::MoleMole::SceneObjectStateWidget* a2, ::System::Action_1<::Struct_2_5B421F8FFABD4CA3_2>* a3)
 	{
-		return ((::Class_1_BCCF9BCA86B17EFC*(*)(::Class_1_87F855E9737731A7*, ::MoleMole::SceneObjectStateWidget*, ::System::Action_1<::Struct_2_5B421F8FFABD4CA3_1>*))((::PBYTE)hIl2Cpp + CLASS_1_B5E1E5BCE53A4B4C_METHOD_1_B0EA38048E00B57D_OFFSET))(a1, a2, a3);
-	}
-
-	static ::System::Int32 Method_1_C74CF020AA42ED85()
-	{
-		return ((::System::Int32(*)())((::PBYTE)hIl2Cpp + CLASS_1_B5E1E5BCE53A4B4C_METHOD_1_C74CF020AA42ED85_OFFSET))();
+		return ((::Class_1_BCCF9BCA86B17EFC*(*)(::Class_1_87F855E9737731A7*, ::MoleMole::SceneObjectStateWidget*, ::System::Action_1<::Struct_2_5B421F8FFABD4CA3_2>*))((::PBYTE)hIl2Cpp + CLASS_1_B5E1E5BCE53A4B4C_METHOD_1_B0EA38048E00B57D_OFFSET))(a1, a2, a3);
 	}
 
 	static ::Class_1_4AC26411646E4F6D* Method_1_B1BC3F7510ACBE4A(::MoleMole::ClientSceneObjectStateLooperConfigBase* a1)
@@ -43,5 +38,10 @@ public:
 	static ::System::Void Method_1_C114A1F8E08B6F92(::System::Int32 a1)
 	{
 		return ((::System::Void(*)(::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_B5E1E5BCE53A4B4C_METHOD_1_C114A1F8E08B6F92_OFFSET))(a1);
+	}
+
+	static ::System::Int32 Method_1_C74CF020AA42ED85()
+	{
+		return ((::System::Int32(*)())((::PBYTE)hIl2Cpp + CLASS_1_B5E1E5BCE53A4B4C_METHOD_1_C74CF020AA42ED85_OFFSET))();
 	}
 };

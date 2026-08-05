@@ -4,11 +4,11 @@
 
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_UIFOODTRUCKMENUPAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16A8BBB0)
+#define MOLEMOLE_UIFOODTRUCKMENUPAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18804970)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIFoodTruckMenuPageContext_TypeDefinitionIndex = 42516;
+	inline static constexpr unsigned int UIFoodTruckMenuPageContext_TypeDefinitionIndex = 64765;
 
 	class UIFoodTruckMenuPageContext : public ::MoleMole::UIControllerContextBase
 	{

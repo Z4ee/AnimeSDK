@@ -5,18 +5,18 @@
 namespace System { class String; }
 namespace System { class Type; }
 
-#define SYSTEM_DATA_XSDSCHEMA_NAMETYPE_COMPARETO_OFFSET UNITYSDK_OFFSET(0x1D6DC890)
-#define SYSTEM_DATA_XSDSCHEMA_NAMETYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6DC880)
+#define SYSTEM_DATA_XSDSCHEMA_NAMETYPE_COMPARETO_OFFSET UNITYSDK_OFFSET(0x1EAB9730)
+#define SYSTEM_DATA_XSDSCHEMA_NAMETYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EAB9720)
 
 namespace System::Data
 {
-	inline static constexpr unsigned int XSDSchema_NameType_TypeDefinitionIndex = 38693;
+	inline static constexpr unsigned int XSDSchema_NameType_TypeDefinitionIndex = 39354;
 
 	class XSDSchema_NameType : public ::System::Object
 	{
 	public:
-		::System::Type* type; // 0x10
-		::System::String* name; // 0x18
+		::System::String* name; // 0x10
+		::System::Type* type; // 0x18
 
 		::System::Void _ctor(::System::String* n, ::System::Type* t)
 		{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define IFIX_PRESERVEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x11A0D220)
+#define IFIX_PRESERVEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x123D64F0)
 
 namespace IFix
 {
-	inline static constexpr unsigned int PreserveAttribute_TypeDefinitionIndex = 91470;
+	inline static constexpr unsigned int PreserveAttribute_TypeDefinitionIndex = 95382;
 
 	class PreserveAttribute : public ::System::Attribute
 	{

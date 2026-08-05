@@ -5,11 +5,11 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDICTIONARY__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5FEBC0)
+#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDICTIONARY__CTOR_OFFSET UNITYSDK_OFFSET(0x1DA879F0)
 
 namespace ToolBuddy::ThirdParty::VectorGraphics
 {
-	inline static constexpr unsigned int SVGDictionary_TypeDefinitionIndex = 31114;
+	inline static constexpr unsigned int SVGDictionary_TypeDefinitionIndex = 31733;
 
 	class SVGDictionary : public ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>
 	{

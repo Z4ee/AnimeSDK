@@ -7,22 +7,22 @@ namespace BehaviorDesigner::Runtime { class SharedGameObject; }
 namespace BehaviorDesigner::Runtime { class SharedGenericVariable; }
 namespace BehaviorDesigner::Runtime { class SharedString; }
 
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYGAMEOBJECT_SENDMESSAGE__ONRESET_OFFSET UNITYSDK_OFFSET(0x1E1FD4D0)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYGAMEOBJECT_SENDMESSAGE__ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1E1FD1A0)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYGAMEOBJECT_SENDMESSAGE___CTOR_OFFSET UNITYSDK_OFFSET(0x1E1FD550)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYGAMEOBJECT_SENDMESSAGE____BASE_ONRESET_OFFSET UNITYSDK_OFFSET(0x1E1FD5E0)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYGAMEOBJECT_SENDMESSAGE____BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1E1FD670)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYGAMEOBJECT_SENDMESSAGE__ONRESET_OFFSET UNITYSDK_OFFSET(0x1F60BBD0)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYGAMEOBJECT_SENDMESSAGE__ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1F60B8A0)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYGAMEOBJECT_SENDMESSAGE___CTOR_OFFSET UNITYSDK_OFFSET(0x1F60BC50)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYGAMEOBJECT_SENDMESSAGE____BASE_ONRESET_OFFSET UNITYSDK_OFFSET(0x1F60BCE0)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYGAMEOBJECT_SENDMESSAGE____BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1F60BD70)
 
 namespace BehaviorDesigner::Runtime::Tasks::Unity::UnityGameObject
 {
-	inline static constexpr unsigned int SendMessage__TypeDefinitionIndex = 33723;
+	inline static constexpr unsigned int SendMessage__TypeDefinitionIndex = 34359;
 
 	class SendMessage_ : public ::BehaviorDesigner::Runtime::Tasks::Action
 	{
 	public:
-		::BehaviorDesigner::Runtime::SharedGameObject* targetGameObject; // 0x58
-		::BehaviorDesigner::Runtime::SharedString* message; // 0x60
-		::BehaviorDesigner::Runtime::SharedGenericVariable* value; // 0x68
+		::BehaviorDesigner::Runtime::SharedString* message; // 0x58
+		::BehaviorDesigner::Runtime::SharedGenericVariable* value; // 0x60
+		::BehaviorDesigner::Runtime::SharedGameObject* targetGameObject; // 0x68
 
 		::System::Void _ctor()
 		{

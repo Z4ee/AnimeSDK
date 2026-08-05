@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CONFIG_STRINGANIMATIONCURVE__CTOR_OFFSET UNITYSDK_OFFSET(0x2BDE80)
+#define MOLEMOLE_CONFIG_STRINGANIMATIONCURVE__CTOR_OFFSET UNITYSDK_OFFSET(0x346F70)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int StringAnimationCurve_TypeDefinitionIndex = 60024;
+	inline static constexpr unsigned int StringAnimationCurve_TypeDefinitionIndex = 71732;
 
 	struct alignas(8) StringAnimationCurve
 	{

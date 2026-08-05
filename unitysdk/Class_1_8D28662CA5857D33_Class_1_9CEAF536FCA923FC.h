@@ -4,17 +4,17 @@
 
 namespace System { class Action; }
 
-#define CLASS_1_8D28662CA5857D33_CLASS_1_9CEAF536FCA923FC_METHOD_1_C8D6B29192F288ED_OFFSET UNITYSDK_OFFSET(0x123750A0)
-#define CLASS_1_8D28662CA5857D33_CLASS_1_9CEAF536FCA923FC__CTOR_OFFSET UNITYSDK_OFFSET(0x12375090)
+#define CLASS_1_8D28662CA5857D33_CLASS_1_9CEAF536FCA923FC_METHOD_1_C8D6B29192F288ED_OFFSET UNITYSDK_OFFSET(0x1488C0D0)
+#define CLASS_1_8D28662CA5857D33_CLASS_1_9CEAF536FCA923FC__CTOR_OFFSET UNITYSDK_OFFSET(0x1488C0C0)
 
-inline static constexpr unsigned int Class_1_8D28662CA5857D33_Class_1_9CEAF536FCA923FC_TypeDefinitionIndex = 76553;
+inline static constexpr unsigned int Class_1_8D28662CA5857D33_Class_1_9CEAF536FCA923FC_TypeDefinitionIndex = 77857;
 
 class Class_1_8D28662CA5857D33_Class_1_9CEAF536FCA923FC : public ::System::Object
 {
 public:
-	::System::Action* Field_1_2; // 0x10
+	::System::Action* Field_1_0; // 0x10
 	::System::Single Field_1_1; // 0x18
-	::System::Boolean Field_1_0; // 0x1C
+	::System::Boolean Field_1_2; // 0x1C
 
 	::System::Void _ctor()
 	{

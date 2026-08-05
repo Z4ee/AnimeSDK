@@ -5,12 +5,12 @@
 namespace MoleMole { class UIReconnectingPopWindowController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIRECONNECTINGPOPWINDOWCONTROLLER___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1614BF00)
-#define MOLEMOLE_UIRECONNECTINGPOPWINDOWCONTROLLER___C__DISPLAYCLASS16_0__FADEOUTANDCLOSE_B__0_OFFSET UNITYSDK_OFFSET(0x1614BF10)
+#define MOLEMOLE_UIRECONNECTINGPOPWINDOWCONTROLLER___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x198A0660)
+#define MOLEMOLE_UIRECONNECTINGPOPWINDOWCONTROLLER___C__DISPLAYCLASS16_0__FADEOUTANDCLOSE_B__0_OFFSET UNITYSDK_OFFSET(0x198A0670)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIReconnectingPopWindowController___c__DisplayClass16_0_TypeDefinitionIndex = 65969;
+	inline static constexpr unsigned int UIReconnectingPopWindowController___c__DisplayClass16_0_TypeDefinitionIndex = 71572;
 
 	class UIReconnectingPopWindowController___c__DisplayClass16_0 : public ::System::Object
 	{

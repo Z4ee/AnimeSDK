@@ -3,12 +3,12 @@
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Rendering/Universal/WeatherSystem/WeatherPropertiesBase_1.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_OVERRIDECHARACTERLIGHTINGCONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x1AF69620)
-#define UNITYENGINE_RENDERING_UNIVERSAL_OVERRIDECHARACTERLIGHTINGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF696E0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_OVERRIDECHARACTERLIGHTINGCONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x1BC71ED0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_OVERRIDECHARACTERLIGHTINGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC71F90)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int OverrideCharacterLightingConfig_TypeDefinitionIndex = 27384;
+	inline static constexpr unsigned int OverrideCharacterLightingConfig_TypeDefinitionIndex = 27725;
 
 	class OverrideCharacterLightingConfig : public ::UnityEngine::Rendering::Universal::WeatherSystem::WeatherPropertiesBase_1<::UnityEngine::Rendering::Universal::OverrideCharacterLightingConfig*>
 	{

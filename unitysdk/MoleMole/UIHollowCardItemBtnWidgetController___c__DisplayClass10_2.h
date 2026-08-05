@@ -5,18 +5,18 @@
 namespace MoleMole { class UIHollowCardItemBtnWidgetController___c__DisplayClass10_0; }
 namespace UnityEngine { class Animation; }
 
-#define MOLEMOLE_UIHOLLOWCARDITEMBTNWIDGETCONTROLLER___C__DISPLAYCLASS10_2__CTOR_OFFSET UNITYSDK_OFFSET(0x1468A710)
-#define MOLEMOLE_UIHOLLOWCARDITEMBTNWIDGETCONTROLLER___C__DISPLAYCLASS10_2__REFRESHMUTE_B__1_OFFSET UNITYSDK_OFFSET(0x1468A720)
+#define MOLEMOLE_UIHOLLOWCARDITEMBTNWIDGETCONTROLLER___C__DISPLAYCLASS10_2__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3294E0)
+#define MOLEMOLE_UIHOLLOWCARDITEMBTNWIDGETCONTROLLER___C__DISPLAYCLASS10_2__REFRESHMUTE_B__1_OFFSET UNITYSDK_OFFSET(0x1A3294F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowCardItemBtnWidgetController___c__DisplayClass10_2_TypeDefinitionIndex = 55901;
+	inline static constexpr unsigned int UIHollowCardItemBtnWidgetController___c__DisplayClass10_2_TypeDefinitionIndex = 53120;
 
 	class UIHollowCardItemBtnWidgetController___c__DisplayClass10_2 : public ::System::Object
 	{
 	public:
-		::UnityEngine::Animation* animation; // 0x10
-		::MoleMole::UIHollowCardItemBtnWidgetController___c__DisplayClass10_0* CS___8__locals2; // 0x18
+		::MoleMole::UIHollowCardItemBtnWidgetController___c__DisplayClass10_0* CS___8__locals2; // 0x10
+		::UnityEngine::Animation* animation; // 0x18
 
 		::System::Void _ctor()
 		{

@@ -4,7 +4,7 @@
 
 namespace NapStreaming
 {
-	inline static constexpr unsigned int SceneAssetDensityCell_SceneAssetDensityCellSerializedData_TypeDefinitionIndex = 76948;
+	inline static constexpr unsigned int SceneAssetDensityCell_SceneAssetDensityCellSerializedData_TypeDefinitionIndex = 76020;
 
 	struct alignas(8) SceneAssetDensityCell_SceneAssetDensityCellSerializedData
 	{

@@ -4,11 +4,11 @@
 
 class Class_1_66C4D81440373C6E;
 
-#define MOLEMOLE_UIAREASHOPROLEWIDGETCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1733C2F0)
+#define MOLEMOLE_UIAREASHOPROLEWIDGETCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x189550B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAreaShopRoleWidgetContext_TypeDefinitionIndex = 56567;
+	inline static constexpr unsigned int UIAreaShopRoleWidgetContext_TypeDefinitionIndex = 59434;
 
 	class UIAreaShopRoleWidgetContext : public ::MoleMole::UIControllerContextBase
 	{

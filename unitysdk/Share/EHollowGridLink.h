@@ -3,15 +3,15 @@
 
 namespace Share
 {
-	inline static constexpr unsigned int EHollowGridLink_TypeDefinitionIndex = 15308;
+	inline static constexpr unsigned int EHollowGridLink_TypeDefinitionIndex = 15266;
 
 	enum class EHollowGridLink : ::System::Byte
 	{
-		Right = 0x4,
+		None = 0x0,
 		Down = 0x2,
 		Up = 0x1,
-		None = 0x0,
-		Left = 0x8,
 		All = 0xF,
+		Left = 0x8,
+		Right = 0x4,
 	};
 }

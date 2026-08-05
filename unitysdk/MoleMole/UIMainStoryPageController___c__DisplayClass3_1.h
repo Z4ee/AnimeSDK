@@ -4,12 +4,12 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIMAINSTORYPAGECONTROLLER___C__DISPLAYCLASS3_1__CTOR_OFFSET UNITYSDK_OFFSET(0x16D969E0)
-#define MOLEMOLE_UIMAINSTORYPAGECONTROLLER___C__DISPLAYCLASS3_1__ONSHOW_G__STARTPERFORM_2_OFFSET UNITYSDK_OFFSET(0x16D969F0)
+#define MOLEMOLE_UIMAINSTORYPAGECONTROLLER___C__DISPLAYCLASS3_1__CTOR_OFFSET UNITYSDK_OFFSET(0x19866780)
+#define MOLEMOLE_UIMAINSTORYPAGECONTROLLER___C__DISPLAYCLASS3_1__ONSHOW_G__STARTPERFORM_2_OFFSET UNITYSDK_OFFSET(0x19866790)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMainStoryPageController___c__DisplayClass3_1_TypeDefinitionIndex = 76811;
+	inline static constexpr unsigned int UIMainStoryPageController___c__DisplayClass3_1_TypeDefinitionIndex = 84563;
 
 	class UIMainStoryPageController___c__DisplayClass3_1 : public ::System::Object
 	{

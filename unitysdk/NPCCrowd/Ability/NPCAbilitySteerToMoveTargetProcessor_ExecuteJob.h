@@ -10,11 +10,11 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/Unity/Collections/NativeArray_1.h"
 
-#define NPCCROWD_ABILITY_NPCABILITYSTEERTOMOVETARGETPROCESSOR_EXECUTEJOB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x748610)
+#define NPCCROWD_ABILITY_NPCABILITYSTEERTOMOVETARGETPROCESSOR_EXECUTEJOB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x60A090)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int NPCAbilitySteerToMoveTargetProcessor_ExecuteJob_TypeDefinitionIndex = 85935;
+	inline static constexpr unsigned int NPCAbilitySteerToMoveTargetProcessor_ExecuteJob_TypeDefinitionIndex = 43213;
 
 	struct alignas(8) NPCAbilitySteerToMoveTargetProcessor_ExecuteJob
 	{

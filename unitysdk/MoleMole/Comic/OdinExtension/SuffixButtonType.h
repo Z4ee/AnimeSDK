@@ -3,7 +3,7 @@
 
 namespace MoleMole::Comic::OdinExtension
 {
-	inline static constexpr unsigned int SuffixButtonType_TypeDefinitionIndex = 32151;
+	inline static constexpr unsigned int SuffixButtonType_TypeDefinitionIndex = 32781;
 
 	enum class SuffixButtonType : ::System::Int32
 	{

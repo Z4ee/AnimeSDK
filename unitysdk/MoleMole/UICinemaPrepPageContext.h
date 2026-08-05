@@ -3,11 +3,11 @@
 #include "unitysdk/Enum_3_F4CDE062CC14CF12.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UICINEMAPREPPAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x176F5440)
+#define MOLEMOLE_UICINEMAPREPPAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18696A30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICinemaPrepPageContext_TypeDefinitionIndex = 63623;
+	inline static constexpr unsigned int UICinemaPrepPageContext_TypeDefinitionIndex = 76476;
 
 	class UICinemaPrepPageContext : public ::MoleMole::UIControllerContextBase
 	{

@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int PackingRules_TypeDefinitionIndex = 18306;
+	inline static constexpr unsigned int PackingRules_TypeDefinitionIndex = 18712;
 
 	enum class PackingRules : ::System::Int32
 	{

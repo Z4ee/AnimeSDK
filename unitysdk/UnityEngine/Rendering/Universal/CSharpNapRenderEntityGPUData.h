@@ -7,7 +7,7 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int CSharpNapRenderEntityGPUData_TypeDefinitionIndex = 27298;
+	inline static constexpr unsigned int CSharpNapRenderEntityGPUData_TypeDefinitionIndex = 27599;
 
 	struct alignas(4) CSharpNapRenderEntityGPUData
 	{

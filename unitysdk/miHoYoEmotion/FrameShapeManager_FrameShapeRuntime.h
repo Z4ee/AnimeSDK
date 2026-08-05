@@ -6,12 +6,12 @@
 namespace UnityEngine { class Texture2D; }
 namespace miHoYoEmotion { class FrameShapeManager_FrameBinding; }
 
-#define MIHOYOEMOTION_FRAMESHAPEMANAGER_FRAMESHAPERUNTIME_APPLY_OFFSET UNITYSDK_OFFSET(0x1BB070C0)
-#define MIHOYOEMOTION_FRAMESHAPEMANAGER_FRAMESHAPERUNTIME__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB08E70)
+#define MIHOYOEMOTION_FRAMESHAPEMANAGER_FRAMESHAPERUNTIME_APPLY_OFFSET UNITYSDK_OFFSET(0x1D049F60)
+#define MIHOYOEMOTION_FRAMESHAPEMANAGER_FRAMESHAPERUNTIME__CTOR_OFFSET UNITYSDK_OFFSET(0x1D04BE20)
 
 namespace miHoYoEmotion
 {
-	inline static constexpr unsigned int FrameShapeManager_FrameShapeRuntime_TypeDefinitionIndex = 39337;
+	inline static constexpr unsigned int FrameShapeManager_FrameShapeRuntime_TypeDefinitionIndex = 40041;
 
 	class FrameShapeManager_FrameShapeRuntime : public ::miHoYoEmotion::ElementManager_BaseShapeRuntime
 	{

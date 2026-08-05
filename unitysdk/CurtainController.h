@@ -4,18 +4,18 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_3_DFD5D1FDB9D2A4AC;
+class Class_3_C93CC3D2C2AC4067;
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class MeshRenderer; }
 namespace UnityEngine { class Transform; }
 
-#define CURTAINCONTROLLER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1A250C10)
-#define CURTAINCONTROLLER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1A250A00)
-#define CURTAINCONTROLLER_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1A251140)
-#define CURTAINCONTROLLER_START_OFFSET UNITYSDK_OFFSET(0x1A250EB0)
-#define CURTAINCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2516C0)
+#define CURTAINCONTROLLER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x15518790)
+#define CURTAINCONTROLLER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x15518580)
+#define CURTAINCONTROLLER_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x15518CD0)
+#define CURTAINCONTROLLER_START_OFFSET UNITYSDK_OFFSET(0x15518A40)
+#define CURTAINCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x15519240)
 
-inline static constexpr unsigned int CurtainController_TypeDefinitionIndex = 73948;
+inline static constexpr unsigned int CurtainController_TypeDefinitionIndex = 78338;
 
 class CurtainController : public ::UnityEngine::MonoBehaviour
 {
@@ -33,7 +33,7 @@ public:
 	::System::Single transitionSpeed; // 0x54
 	::UnityEngine::Vector3 AvatarPosition; // 0x58
 	::UnityEngine::Vector3 LastAvatarPosion; // 0x64
-	::Class_3_DFD5D1FDB9D2A4AC* charModelComp; // 0x70
+	::Class_3_C93CC3D2C2AC4067* charModelComp; // 0x70
 	::System::Boolean subscribed; // 0x78
 	::UnityEngine::MaterialPropertyBlock* mpb; // 0x80
 	::System::Boolean ismoving; // 0x88

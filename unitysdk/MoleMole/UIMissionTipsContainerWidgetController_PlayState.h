@@ -3,13 +3,13 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMissionTipsContainerWidgetController_PlayState_TypeDefinitionIndex = 69636;
+	inline static constexpr unsigned int UIMissionTipsContainerWidgetController_PlayState_TypeDefinitionIndex = 91209;
 
 	enum class UIMissionTipsContainerWidgetController_PlayState : ::System::Int32
 	{
-		Playing = 1,
 		None = 0,
-		HallRefreshStop = 3,
+		Playing = 1,
 		Pausing = 2,
+		HallRefreshStop = 3,
 	};
 }

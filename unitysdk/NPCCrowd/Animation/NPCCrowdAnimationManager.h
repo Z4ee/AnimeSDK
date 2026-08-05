@@ -14,100 +14,100 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class ComputeShader; }
 
-#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONMANAGER_ADDANIMATOR_OFFSET UNITYSDK_OFFSET(0x139FEFD0)
-#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONMANAGER_DISABLEANIMATOR_OFFSET UNITYSDK_OFFSET(0x139FF2A0)
-#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONMANAGER_DISPATCHANIMATORKERNEL_OFFSET UNITYSDK_OFFSET(0x139FE890)
-#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONMANAGER_DISPATCHBONEKERNEL_OFFSET UNITYSDK_OFFSET(0xA692EC0)
-#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONMANAGER_DISPATCHTWOPASSBONEKERNEL_OFFSET UNITYSDK_OFFSET(0x139FE020)
-#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONMANAGER_EARLYUPDATE_OFFSET UNITYSDK_OFFSET(0xA692150)
-#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONMANAGER_ENABLEANIMATOR_OFFSET UNITYSDK_OFFSET(0x139FF250)
-#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONMANAGER_GETRUNTIMEDATA_OFFSET UNITYSDK_OFFSET(0x139FEEE0)
-#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONMANAGER_GETSLOTLOCALPRS_1_OFFSET UNITYSDK_OFFSET(0x139FFA40)
-#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONMANAGER_GETSLOTLOCALPRS_OFFSET UNITYSDK_OFFSET(0x139FF460)
-#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONMANAGER_GETSLOTTRANSFORMINDEX_OFFSET UNITYSDK_OFFSET(0x139FF780)
-#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONMANAGER_GET_OFFSET UNITYSDK_OFFSET(0xA690850)
-#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONMANAGER_INIT_OFFSET UNITYSDK_OFFSET(0xA691E20)
-#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONMANAGER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xA692800)
-#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONMANAGER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x139FFC40)
-#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONMANAGER_ONPRELOADFINISHED_OFFSET UNITYSDK_OFFSET(0xA690CA0)
-#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONMANAGER_PRELOADASSETS_OFFSET UNITYSDK_OFFSET(0xA6909D0)
-#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONMANAGER_REMOVEANIMATOR_OFFSET UNITYSDK_OFFSET(0x139FF2F0)
-#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONMANAGER_SHOULDTICK_OFFSET UNITYSDK_OFFSET(0xA692060)
-#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONMANAGER_TRYCOMPLETEBONEREADBACKJOB_OFFSET UNITYSDK_OFFSET(0xA6921B0)
-#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONMANAGER_UPDATEANIMATORSDATA_OFFSET UNITYSDK_OFFSET(0xA692A00)
-#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONMANAGER_UPDATEARGUMENTSFORUBERSHADER_OFFSET UNITYSDK_OFFSET(0x139FEA10)
-#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONMANAGER_UPDATECOMMONBUFFER_OFFSET UNITYSDK_OFFSET(0x139FED80)
-#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONMANAGER_UPDATE_OFFSET UNITYSDK_OFFSET(0xA692450)
-#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x139FFF50)
-#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x139FFF40)
-#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONMANAGER___BASE_EARLYUPDATE_OFFSET UNITYSDK_OFFSET(0x139FFFD0)
-#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONMANAGER___BASE_INIT_OFFSET UNITYSDK_OFFSET(0x13A00070)
-#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONMANAGER___BASE_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x13A00100)
-#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONMANAGER___BASE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x13A001A0)
-#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONMANAGER___BASE_ONPRELOADFINISHED_OFFSET UNITYSDK_OFFSET(0x13A00230)
-#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONMANAGER___BASE_SHOULDTICK_OFFSET UNITYSDK_OFFSET(0x13A002C0)
-#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONMANAGER___BASE_UPDATE_OFFSET UNITYSDK_OFFSET(0x13A00350)
+#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONMANAGER_ADDANIMATOR_OFFSET UNITYSDK_OFFSET(0xF87BE00)
+#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONMANAGER_DISABLEANIMATOR_OFFSET UNITYSDK_OFFSET(0xF87C0D0)
+#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONMANAGER_DISPATCHANIMATORKERNEL_OFFSET UNITYSDK_OFFSET(0xF87AB30)
+#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONMANAGER_DISPATCHBONEKERNEL_OFFSET UNITYSDK_OFFSET(0xF87ACC0)
+#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONMANAGER_DISPATCHTWOPASSBONEKERNEL_OFFSET UNITYSDK_OFFSET(0xF87B4A0)
+#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONMANAGER_EARLYUPDATE_OFFSET UNITYSDK_OFFSET(0xF879770)
+#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONMANAGER_ENABLEANIMATOR_OFFSET UNITYSDK_OFFSET(0xF87C080)
+#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONMANAGER_GETRUNTIMEDATA_OFFSET UNITYSDK_OFFSET(0xF87BD10)
+#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONMANAGER_GETSLOTLOCALPRS_1_OFFSET UNITYSDK_OFFSET(0xF87C870)
+#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONMANAGER_GETSLOTLOCALPRS_OFFSET UNITYSDK_OFFSET(0xF87C290)
+#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONMANAGER_GETSLOTTRANSFORMINDEX_OFFSET UNITYSDK_OFFSET(0xF87C5B0)
+#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONMANAGER_GET_OFFSET UNITYSDK_OFFSET(0xF877E60)
+#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONMANAGER_INIT_OFFSET UNITYSDK_OFFSET(0xF879440)
+#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONMANAGER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xF879FA0)
+#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONMANAGER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xF87CA70)
+#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONMANAGER_ONPRELOADFINISHED_OFFSET UNITYSDK_OFFSET(0xF8782B0)
+#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONMANAGER_PRELOADASSETS_OFFSET UNITYSDK_OFFSET(0xF877FE0)
+#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONMANAGER_REMOVEANIMATOR_OFFSET UNITYSDK_OFFSET(0xF87C120)
+#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONMANAGER_SHOULDTICK_OFFSET UNITYSDK_OFFSET(0xF879680)
+#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONMANAGER_TRYCOMPLETEBONEREADBACKJOB_OFFSET UNITYSDK_OFFSET(0xF8797D0)
+#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONMANAGER_UPDATEANIMATORSDATA_OFFSET UNITYSDK_OFFSET(0xF87A1A0)
+#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONMANAGER_UPDATEARGUMENTSFORUBERSHADER_OFFSET UNITYSDK_OFFSET(0xF87A7C0)
+#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONMANAGER_UPDATECOMMONBUFFER_OFFSET UNITYSDK_OFFSET(0xF87A650)
+#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONMANAGER_UPDATE_OFFSET UNITYSDK_OFFSET(0xF879A70)
+#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0xF87CD70)
+#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0xF87CD60)
+#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONMANAGER___BASE_EARLYUPDATE_OFFSET UNITYSDK_OFFSET(0xF87CDF0)
+#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONMANAGER___BASE_INIT_OFFSET UNITYSDK_OFFSET(0xF87CE90)
+#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONMANAGER___BASE_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xF87CF20)
+#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONMANAGER___BASE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xF87CFC0)
+#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONMANAGER___BASE_ONPRELOADFINISHED_OFFSET UNITYSDK_OFFSET(0xF87D050)
+#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONMANAGER___BASE_SHOULDTICK_OFFSET UNITYSDK_OFFSET(0xF87D0E0)
+#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONMANAGER___BASE_UPDATE_OFFSET UNITYSDK_OFFSET(0xF87D170)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int NPCCrowdAnimationManager_TypeDefinitionIndex = 51886;
+	inline static constexpr unsigned int NPCCrowdAnimationManager_TypeDefinitionIndex = 42133;
 
 	class NPCCrowdAnimationManager : public ::NPCCrowd::NPCCrowdModuleManagerBase
 	{
 	public:
-		static ::System::Collections::Generic::List_1<::System::UInt32>** StaticGet_LODTickScaleList()
+		static ::Foundation::AssetRequestHandle* StaticGet_skinnedMeshAnimateComputeShaderAssetRequest()
 		{
-			return (::System::Collections::Generic::List_1<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdAnimationManager_TypeDefinitionIndex)->GetStaticField(0x3F980);
+			return (::Foundation::AssetRequestHandle*)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdAnimationManager_TypeDefinitionIndex)->GetStaticField(0x40FC0);
 		}
 		static ::Foundation::AssetRequestHandle* StaticGet_crowdAnimatorUberComputeShaderAssetRequest()
 		{
-			return (::Foundation::AssetRequestHandle*)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdAnimationManager_TypeDefinitionIndex)->GetStaticField(0x3F988);
+			return (::Foundation::AssetRequestHandle*)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdAnimationManager_TypeDefinitionIndex)->GetStaticField(0x40FE0);
 		}
 		static ::Foundation::AssetRequestHandle* StaticGet_crowdAnimatorComputeShaderAssetRequest()
 		{
-			return (::Foundation::AssetRequestHandle*)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdAnimationManager_TypeDefinitionIndex)->GetStaticField(0x3F9A8);
+			return (::Foundation::AssetRequestHandle*)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdAnimationManager_TypeDefinitionIndex)->GetStaticField(0x41000);
 		}
 		static ::Foundation::AssetRequestHandle* StaticGet_asyncBoneUpdateComputeShaderAssetRequest()
 		{
-			return (::Foundation::AssetRequestHandle*)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdAnimationManager_TypeDefinitionIndex)->GetStaticField(0x3F9C8);
+			return (::Foundation::AssetRequestHandle*)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdAnimationManager_TypeDefinitionIndex)->GetStaticField(0x41020);
 		}
-		static ::Foundation::AssetRequestHandle* StaticGet_skinnedMeshAnimateComputeShaderAssetRequest()
+		static ::System::Collections::Generic::List_1<::System::UInt32>** StaticGet_LODTickScaleList()
 		{
-			return (::Foundation::AssetRequestHandle*)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdAnimationManager_TypeDefinitionIndex)->GetStaticField(0x3F9E8);
+			return (::System::Collections::Generic::List_1<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdAnimationManager_TypeDefinitionIndex)->GetStaticField(0x41040);
 		}
 		static ::System::Single* StaticGet_transitionFrequency()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdAnimationManager_TypeDefinitionIndex)->GetStaticField(0xF4E0);
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdAnimationManager_TypeDefinitionIndex)->GetStaticField(0xF260);
 		}
-		::UnityEngine::ComputeShader* crowdAnimatorComputeShaderCur; // 0x18
+		::UnityEngine::ComputeShader* asyncBoneUpdateComputeShaderCur; // 0x18
 		::NPCCrowd::CrowdTickControlInstance* LateUpdateControl; // 0x20
-		::UnityEngine::ComputeShader* skinnedMeshAnimateComputeShaderCur; // 0x28
-		::System::Collections::Generic::List_1<::NPCCrowd::Animation::NPCCrowdAnimationInstancerRuntimeData*>* runtimeDataList; // 0x30
-		::UnityEngine::ComputeShader* crowdAnimatorUberComputeShader; // 0x38
-		::System::Collections::Generic::Dictionary_2<::NPCCrowd::Animation::NPCCrowdAnimationData*, ::NPCCrowd::Animation::NPCCrowdAnimationInstancerRuntimeData*>* runtimeDataDictionary; // 0x40
-		::System::Collections::Generic::List_1<::NPCCrowd::Animation::NPCCrowdAnimationInstancerRuntimeData*>* boneReadBackJobDataList; // 0x48
-		::UnityEngine::ComputeShader* asyncBoneUpdateComputeShader; // 0x50
-		::UnityEngine::ComputeShader* asyncBoneUpdateComputeShaderCur; // 0x58
-		::UnityEngine::ComputeShader* crowdAnimatorComputeShader; // 0x60
-		::UnityEngine::ComputeShader* skinnedMeshAnimateComputeShader; // 0x68
-		::System::Collections::Generic::Dictionary_2<::NPCCrowd::Animation::NPCCrowdAnimationData*, ::System::Collections::Generic::List_1<::NPCCrowd::Animation::NPCCrowdAnimator*>*>* registeredPrefabsRuntimeData; // 0x70
-		::System::Int32 applyCrossLayerCorrectionKernelID; // 0x78
-		::System::Int32 asyncBoneUpdateKernelID; // 0x7C
-		::System::Int32 animateBonesKernelID; // 0x80
-		::System::Int32 crowdAnimatorBonesUberLerpedKernelID; // 0x84
-		::System::Int32 crowdAnimatorUberKernelID; // 0x88
-		::System::Int32 fixWeightsKernelIDCur; // 0x8C
-		::System::Int32 skinnedMeshAnimateKernelIDCur; // 0x90
-		::System::Int32 asyncBoneUpdateKernelIDCur; // 0x94
-		::System::Single lastAnimateTime; // 0x98
-		::System::Single lastTransitionUpdateTime; // 0x9C
-		::System::Int32 computeLayerMatricesKernelID; // 0xA0
-		::System::Int32 crowdAnimatorBonesUberKernelID; // 0xA4
-		::System::Int32 crowdAnimatorKernelIDCur; // 0xA8
-		::System::Single lastRootMotionUpdateTime; // 0xAC
-		::System::Int32 crowdAnimatorKernelID; // 0xB0
-		::System::Int32 animateBonesLerpedKernelID; // 0xB4
-		::System::Int32 fixWeightsKernelID; // 0xB8
+		::System::Collections::Generic::List_1<::NPCCrowd::Animation::NPCCrowdAnimationInstancerRuntimeData*>* boneReadBackJobDataList; // 0x28
+		::UnityEngine::ComputeShader* crowdAnimatorComputeShader; // 0x30
+		::System::Collections::Generic::Dictionary_2<::NPCCrowd::Animation::NPCCrowdAnimationData*, ::System::Collections::Generic::List_1<::NPCCrowd::Animation::NPCCrowdAnimator*>*>* registeredPrefabsRuntimeData; // 0x38
+		::UnityEngine::ComputeShader* crowdAnimatorUberComputeShader; // 0x40
+		::UnityEngine::ComputeShader* skinnedMeshAnimateComputeShaderCur; // 0x48
+		::UnityEngine::ComputeShader* skinnedMeshAnimateComputeShader; // 0x50
+		::UnityEngine::ComputeShader* crowdAnimatorComputeShaderCur; // 0x58
+		::UnityEngine::ComputeShader* asyncBoneUpdateComputeShader; // 0x60
+		::System::Collections::Generic::List_1<::NPCCrowd::Animation::NPCCrowdAnimationInstancerRuntimeData*>* runtimeDataList; // 0x68
+		::System::Collections::Generic::Dictionary_2<::NPCCrowd::Animation::NPCCrowdAnimationData*, ::NPCCrowd::Animation::NPCCrowdAnimationInstancerRuntimeData*>* runtimeDataDictionary; // 0x70
+		::System::Int32 animateBonesLerpedKernelID; // 0x78
+		::System::Int32 crowdAnimatorKernelIDCur; // 0x7C
+		::System::Int32 fixWeightsKernelID; // 0x80
+		::System::Int32 asyncBoneUpdateKernelID; // 0x84
+		::System::Int32 crowdAnimatorBonesUberLerpedKernelID; // 0x88
+		::System::Int32 applyCrossLayerCorrectionKernelID; // 0x8C
+		::System::Int32 asyncBoneUpdateKernelIDCur; // 0x90
+		::System::Single lastAnimateTime; // 0x94
+		::System::Int32 computeLayerMatricesKernelID; // 0x98
+		::System::Single lastRootMotionUpdateTime; // 0x9C
+		::System::Int32 crowdAnimatorUberKernelID; // 0xA0
+		::System::Single lastTransitionUpdateTime; // 0xA4
+		::System::Int32 crowdAnimatorBonesUberKernelID; // 0xA8
+		::System::Int32 skinnedMeshAnimateKernelIDCur; // 0xAC
+		::System::Int32 fixWeightsKernelIDCur; // 0xB0
+		::System::Int32 animateBonesKernelID; // 0xB4
+		::System::Int32 crowdAnimatorKernelID; // 0xB8
 
 		::System::Void _ctor()
 		{

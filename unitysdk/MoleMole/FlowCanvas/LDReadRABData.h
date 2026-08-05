@@ -4,12 +4,12 @@
 
 namespace MoleMole::FlatBuffers::Config { class RABMapConfigTemplate; }
 
-#define MOLEMOLE_FLOWCANVAS_LDREADRABDATA_INVOKE_OFFSET UNITYSDK_OFFSET(0x12608AB0)
-#define MOLEMOLE_FLOWCANVAS_LDREADRABDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x12608C00)
+#define MOLEMOLE_FLOWCANVAS_LDREADRABDATA_INVOKE_OFFSET UNITYSDK_OFFSET(0x149D58C0)
+#define MOLEMOLE_FLOWCANVAS_LDREADRABDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x149D5A10)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int LDReadRABData_TypeDefinitionIndex = 42757;
+	inline static constexpr unsigned int LDReadRABData_TypeDefinitionIndex = 89768;
 
 	class LDReadRABData : public ::FlowCanvas::Nodes::CallableFunctionNode_3<::MoleMole::FlatBuffers::Config::RABMapConfigTemplate*, ::System::Int32, ::System::Boolean>
 	{

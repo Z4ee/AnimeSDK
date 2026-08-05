@@ -3,7 +3,7 @@
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int FloatValueGetterType_TypeDefinitionIndex = 83547;
+	inline static constexpr unsigned int FloatValueGetterType_TypeDefinitionIndex = 47079;
 
 	enum class FloatValueGetterType : ::System::Int32
 	{

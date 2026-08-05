@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int AmbientMode_TypeDefinitionIndex = 6167;
+	inline static constexpr unsigned int AmbientMode_TypeDefinitionIndex = 6171;
 
 	enum class AmbientMode : ::System::Int32
 	{

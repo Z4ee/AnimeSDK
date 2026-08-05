@@ -4,7 +4,7 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int NativeMemoryRequest_Blob_TypeDefinitionIndex = 8526;
+	inline static constexpr unsigned int NativeMemoryRequest_Blob_TypeDefinitionIndex = 8600;
 
 	struct alignas(1) NativeMemoryRequest_Blob
 	{

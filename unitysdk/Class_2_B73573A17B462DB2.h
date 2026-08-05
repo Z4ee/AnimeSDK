@@ -1,0 +1,86 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_37DF30C8B3AA0F39.h"
+#include "unitysdk/Struct_2_575273D27F02957E.h"
+
+class Class_2_E87F1D15F1D4AC72;
+namespace MoleMole { class UINounDetailWidgetController_Data; }
+namespace System { class String; }
+namespace UnityEngine::UI::Extension { class UILocalizationText; }
+template <typename T> class Class_0_16E4307DCC419505_159;
+
+#define CLASS_2_B73573A17B462DB2_METHOD_2_33ACA6CB2ABC73F7_OFFSET UNITYSDK_OFFSET(0x1873FE90)
+#define CLASS_2_B73573A17B462DB2_METHOD_2_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x1873FE10)
+#define CLASS_2_B73573A17B462DB2_METHOD_2_49091FA7D0FEFC35_OFFSET UNITYSDK_OFFSET(0x187403A0)
+#define CLASS_2_B73573A17B462DB2_METHOD_2_8BC304B5BA3A81AA_OFFSET UNITYSDK_OFFSET(0x18740160)
+#define CLASS_2_B73573A17B462DB2_METHOD_2_9D93784F2D1F2752_OFFSET UNITYSDK_OFFSET(0x1873FC50)
+#define CLASS_2_B73573A17B462DB2_METHOD_2_A6CE5DAA2387E1E2_OFFSET UNITYSDK_OFFSET(0x18740200)
+#define CLASS_2_B73573A17B462DB2_METHOD_2_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0x18740170)
+#define CLASS_2_B73573A17B462DB2_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x18740090)
+#define CLASS_2_B73573A17B462DB2_METHOD_2_CB2BA351716BC5ED_OFFSET UNITYSDK_OFFSET(0x18740490)
+#define CLASS_2_B73573A17B462DB2_METHOD_2_D96FE00B07E85E5A_OFFSET UNITYSDK_OFFSET(0x18740120)
+#define CLASS_2_B73573A17B462DB2__CTOR_OFFSET UNITYSDK_OFFSET(0x18740040)
+
+inline static constexpr unsigned int Class_2_B73573A17B462DB2_TypeDefinitionIndex = 90899;
+
+class Class_2_B73573A17B462DB2 : public ::Class_1_37DF30C8B3AA0F39
+{
+public:
+	::Class_0_16E4307DCC419505_159<::MoleMole::UINounDetailWidgetController_Data*>* Field_2_0; // 0x50
+	::UnityEngine::UI::Extension::UILocalizationText* Field_2_1; // 0x58
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_B73573A17B462DB2__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_2_9D93784F2D1F2752(::Struct_2_575273D27F02957E& a1, ::Class_2_E87F1D15F1D4AC72* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Struct_2_575273D27F02957E&, ::Class_2_E87F1D15F1D4AC72*))((::PBYTE)hIl2Cpp + CLASS_2_B73573A17B462DB2_METHOD_2_9D93784F2D1F2752_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_2_4343F372F34C05BF()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_B73573A17B462DB2_METHOD_2_4343F372F34C05BF_OFFSET))(this);
+	}
+
+	::System::Void Method_2_33ACA6CB2ABC73F7()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_B73573A17B462DB2_METHOD_2_33ACA6CB2ABC73F7_OFFSET))(this);
+	}
+
+	::System::Void Method_2_CA373AA1C7054598()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_B73573A17B462DB2_METHOD_2_CA373AA1C7054598_OFFSET))(this);
+	}
+
+	::UnityEngine::UI::Extension::UILocalizationText* Method_2_D96FE00B07E85E5A()
+	{
+		return ((::UnityEngine::UI::Extension::UILocalizationText*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_B73573A17B462DB2_METHOD_2_D96FE00B07E85E5A_OFFSET))(this);
+	}
+
+	::Class_0_16E4307DCC419505_159<::MoleMole::UINounDetailWidgetController_Data*>* Method_2_8BC304B5BA3A81AA()
+	{
+		return ((::Class_0_16E4307DCC419505_159<::MoleMole::UINounDetailWidgetController_Data*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_B73573A17B462DB2_METHOD_2_8BC304B5BA3A81AA_OFFSET))(this);
+	}
+
+	::System::Void Method_2_CA373AA1C7054598_1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_B73573A17B462DB2_METHOD_2_CA373AA1C7054598_1_OFFSET))(this);
+	}
+
+	::System::Boolean Method_2_A6CE5DAA2387E1E2()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_B73573A17B462DB2_METHOD_2_A6CE5DAA2387E1E2_OFFSET))(this);
+	}
+
+	::System::String* Method_2_49091FA7D0FEFC35()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_B73573A17B462DB2_METHOD_2_49091FA7D0FEFC35_OFFSET))(this);
+	}
+
+	::System::Void Method_2_CB2BA351716BC5ED(::Class_0_16E4307DCC419505_159<::MoleMole::UINounDetailWidgetController_Data*>* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_159<::MoleMole::UINounDetailWidgetController_Data*>*))((::PBYTE)hIl2Cpp + CLASS_2_B73573A17B462DB2_METHOD_2_CB2BA351716BC5ED_OFFSET))(this, a1);
+	}
+};

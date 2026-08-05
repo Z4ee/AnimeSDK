@@ -7,24 +7,24 @@ namespace System { template <typename T1, typename T2, typename T3, typename T4>
 namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 namespace UnityEngine { class ParticleSystem; }
 
-#define UNITYENGINE_PARTICLESYSTEMHOOK_INVOKE_ONHOOKPARTICLESYSTEMSIMULATE_OFFSET UNITYSDK_OFFSET(0x1DDFB850)
-#define UNITYENGINE_PARTICLESYSTEMHOOK_INVOKE_ONHOOKPARTICLESYSTEMSTOP_OFFSET UNITYSDK_OFFSET(0x1DDFB8E0)
-#define UNITYENGINE_PARTICLESYSTEMHOOK__CTOR_OFFSET UNITYSDK_OFFSET(0x1DDFB960)
+#define UNITYENGINE_PARTICLESYSTEMHOOK_INVOKE_ONHOOKPARTICLESYSTEMSIMULATE_OFFSET UNITYSDK_OFFSET(0x1F123F50)
+#define UNITYENGINE_PARTICLESYSTEMHOOK_INVOKE_ONHOOKPARTICLESYSTEMSTOP_OFFSET UNITYSDK_OFFSET(0x1F123FE0)
+#define UNITYENGINE_PARTICLESYSTEMHOOK__CTOR_OFFSET UNITYSDK_OFFSET(0x1F124060)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ParticleSystemHook_TypeDefinitionIndex = 18818;
+	inline static constexpr unsigned int ParticleSystemHook_TypeDefinitionIndex = 7759;
 
 	class ParticleSystemHook : public ::System::Object
 	{
 	public:
 		static ::System::Action_4<::UnityEngine::ParticleSystem*, ::System::Single, ::System::Boolean, ::Il2CppArray<::System::Boolean>*>** StaticGet_onHookSimulate()
 		{
-			return (::System::Action_4<::UnityEngine::ParticleSystem*, ::System::Single, ::System::Boolean, ::Il2CppArray<::System::Boolean>*>**)Il2CppClass::FromTypeDefinitionIndex(ParticleSystemHook_TypeDefinitionIndex)->GetStaticField(0x8660);
+			return (::System::Action_4<::UnityEngine::ParticleSystem*, ::System::Single, ::System::Boolean, ::Il2CppArray<::System::Boolean>*>**)Il2CppClass::FromTypeDefinitionIndex(ParticleSystemHook_TypeDefinitionIndex)->GetStaticField(0x66C0);
 		}
 		static ::System::Action_3<::UnityEngine::ParticleSystem*, ::System::Boolean, ::UnityEngine::ParticleSystemStopBehavior>** StaticGet_onHookStop()
 		{
-			return (::System::Action_3<::UnityEngine::ParticleSystem*, ::System::Boolean, ::UnityEngine::ParticleSystemStopBehavior>**)Il2CppClass::FromTypeDefinitionIndex(ParticleSystemHook_TypeDefinitionIndex)->GetStaticField(0x8668);
+			return (::System::Action_3<::UnityEngine::ParticleSystem*, ::System::Boolean, ::UnityEngine::ParticleSystemStopBehavior>**)Il2CppClass::FromTypeDefinitionIndex(ParticleSystemHook_TypeDefinitionIndex)->GetStaticField(0x66C8);
 		}
 
 		::System::Void _ctor()

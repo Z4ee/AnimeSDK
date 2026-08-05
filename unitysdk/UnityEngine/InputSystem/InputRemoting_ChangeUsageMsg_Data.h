@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace UnityEngine::InputSystem
 {
-	inline static constexpr unsigned int InputRemoting_ChangeUsageMsg_Data_TypeDefinitionIndex = 31659;
+	inline static constexpr unsigned int InputRemoting_ChangeUsageMsg_Data_TypeDefinitionIndex = 32279;
 
 	struct alignas(8) InputRemoting_ChangeUsageMsg_Data
 	{

@@ -6,11 +6,11 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIGUICAMERATIMELINEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x17E47910)
+#define MOLEMOLE_CONFIGUICAMERATIMELINEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19BB7C90)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUICameraTimelineData_TypeDefinitionIndex = 84839;
+	inline static constexpr unsigned int ConfigUICameraTimelineData_TypeDefinitionIndex = 70941;
 
 	class ConfigUICameraTimelineData : public ::Foundation::MihoyoSerializedScriptableObject
 	{

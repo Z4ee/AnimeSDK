@@ -5,12 +5,12 @@
 
 namespace NPCCrowd::AI { class AIActionRefItem; }
 
-#define NPCCROWD_AI_REACTIONCONFIGWRAPPER_INITDATA_OFFSET UNITYSDK_OFFSET(0x410560)
-#define NPCCROWD_AI_REACTIONCONFIGWRAPPER_RELEASEDATA_OFFSET UNITYSDK_OFFSET(0x410570)
+#define NPCCROWD_AI_REACTIONCONFIGWRAPPER_INITDATA_OFFSET UNITYSDK_OFFSET(0x69CB10)
+#define NPCCROWD_AI_REACTIONCONFIGWRAPPER_RELEASEDATA_OFFSET UNITYSDK_OFFSET(0x69CB20)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int ReactionConfigWrapper_TypeDefinitionIndex = 70400;
+	inline static constexpr unsigned int ReactionConfigWrapper_TypeDefinitionIndex = 63448;
 
 	struct alignas(8) ReactionConfigWrapper
 	{

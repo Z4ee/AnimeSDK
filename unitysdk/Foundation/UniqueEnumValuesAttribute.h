@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define FOUNDATION_UNIQUEENUMVALUESATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E1EEB00)
+#define FOUNDATION_UNIQUEENUMVALUESATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F698C20)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int UniqueEnumValuesAttribute_TypeDefinitionIndex = 8290;
+	inline static constexpr unsigned int UniqueEnumValuesAttribute_TypeDefinitionIndex = 7977;
 
 	class UniqueEnumValuesAttribute : public ::System::Attribute
 	{

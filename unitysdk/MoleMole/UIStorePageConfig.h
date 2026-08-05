@@ -5,11 +5,11 @@
 namespace MoleMole { class UIStorePageNPCConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UISTOREPAGECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x148C36B0)
+#define MOLEMOLE_UISTOREPAGECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x15A40150)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIStorePageConfig_TypeDefinitionIndex = 61328;
+	inline static constexpr unsigned int UIStorePageConfig_TypeDefinitionIndex = 63589;
 
 	class UIStorePageConfig : public ::System::Object
 	{

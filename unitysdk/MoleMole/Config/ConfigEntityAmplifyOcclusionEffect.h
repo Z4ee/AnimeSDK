@@ -9,63 +9,63 @@ namespace MoleMole::Config { class ScreenEffectBool; }
 namespace MoleMole::Config { class ScreenEffectColor; }
 namespace MoleMole::Config { class ScreenEffectFloat; }
 
-#define MOLEMOLE_CONFIG_CONFIGENTITYAMPLIFYOCCLUSIONEFFECT_GETBIAS_OFFSET UNITYSDK_OFFSET(0x158A0550)
-#define MOLEMOLE_CONFIG_CONFIGENTITYAMPLIFYOCCLUSIONEFFECT_GETBLURENABLED_OFFSET UNITYSDK_OFFSET(0x158A0750)
-#define MOLEMOLE_CONFIG_CONFIGENTITYAMPLIFYOCCLUSIONEFFECT_GETBLURPASSES_OFFSET UNITYSDK_OFFSET(0x158A0850)
-#define MOLEMOLE_CONFIG_CONFIGENTITYAMPLIFYOCCLUSIONEFFECT_GETBLURRADIUS_OFFSET UNITYSDK_OFFSET(0x158A07D0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYAMPLIFYOCCLUSIONEFFECT_GETBLURSHARPNESS_OFFSET UNITYSDK_OFFSET(0x158A08D0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYAMPLIFYOCCLUSIONEFFECT_GETCACHEAWARE_OFFSET UNITYSDK_OFFSET(0x158A06D0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYAMPLIFYOCCLUSIONEFFECT_GETDOWNSAMPLE_OFFSET UNITYSDK_OFFSET(0x158A0650)
-#define MOLEMOLE_CONFIG_CONFIGENTITYAMPLIFYOCCLUSIONEFFECT_GETINTENSITYMULTIONMOBILE_OFFSET UNITYSDK_OFFSET(0x158A0140)
-#define MOLEMOLE_CONFIG_CONFIGENTITYAMPLIFYOCCLUSIONEFFECT_GETINTENSITY_OFFSET UNITYSDK_OFFSET(0x158A0330)
-#define MOLEMOLE_CONFIG_CONFIGENTITYAMPLIFYOCCLUSIONEFFECT_GETLOWSSAOQUALITY_OFFSET UNITYSDK_OFFSET(0x158A0240)
-#define MOLEMOLE_CONFIG_CONFIGENTITYAMPLIFYOCCLUSIONEFFECT_GETPOWEREXPONENT_OFFSET UNITYSDK_OFFSET(0x158A04D0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYAMPLIFYOCCLUSIONEFFECT_GETRADIUSMULTIONMOBILE_OFFSET UNITYSDK_OFFSET(0x158A01C0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYAMPLIFYOCCLUSIONEFFECT_GETRADIUS_OFFSET UNITYSDK_OFFSET(0x158A0450)
-#define MOLEMOLE_CONFIG_CONFIGENTITYAMPLIFYOCCLUSIONEFFECT_GETSAMPLECOUNT_OFFSET UNITYSDK_OFFSET(0x158A02C0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYAMPLIFYOCCLUSIONEFFECT_GETTHICKNESS_OFFSET UNITYSDK_OFFSET(0x158A05D0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYAMPLIFYOCCLUSIONEFFECT_GETTINT_OFFSET UNITYSDK_OFFSET(0x158A03B0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYAMPLIFYOCCLUSIONEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x158A0950)
+#define MOLEMOLE_CONFIG_CONFIGENTITYAMPLIFYOCCLUSIONEFFECT_GETBIAS_OFFSET UNITYSDK_OFFSET(0x1436EB20)
+#define MOLEMOLE_CONFIG_CONFIGENTITYAMPLIFYOCCLUSIONEFFECT_GETBLURENABLED_OFFSET UNITYSDK_OFFSET(0x1436ED20)
+#define MOLEMOLE_CONFIG_CONFIGENTITYAMPLIFYOCCLUSIONEFFECT_GETBLURPASSES_OFFSET UNITYSDK_OFFSET(0x1436EE20)
+#define MOLEMOLE_CONFIG_CONFIGENTITYAMPLIFYOCCLUSIONEFFECT_GETBLURRADIUS_OFFSET UNITYSDK_OFFSET(0x1436EDA0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYAMPLIFYOCCLUSIONEFFECT_GETBLURSHARPNESS_OFFSET UNITYSDK_OFFSET(0x1436EEA0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYAMPLIFYOCCLUSIONEFFECT_GETCACHEAWARE_OFFSET UNITYSDK_OFFSET(0x1436ECA0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYAMPLIFYOCCLUSIONEFFECT_GETDOWNSAMPLE_OFFSET UNITYSDK_OFFSET(0x1436EC20)
+#define MOLEMOLE_CONFIG_CONFIGENTITYAMPLIFYOCCLUSIONEFFECT_GETINTENSITYMULTIONMOBILE_OFFSET UNITYSDK_OFFSET(0x1436E710)
+#define MOLEMOLE_CONFIG_CONFIGENTITYAMPLIFYOCCLUSIONEFFECT_GETINTENSITY_OFFSET UNITYSDK_OFFSET(0x1436E900)
+#define MOLEMOLE_CONFIG_CONFIGENTITYAMPLIFYOCCLUSIONEFFECT_GETLOWSSAOQUALITY_OFFSET UNITYSDK_OFFSET(0x1436E810)
+#define MOLEMOLE_CONFIG_CONFIGENTITYAMPLIFYOCCLUSIONEFFECT_GETPOWEREXPONENT_OFFSET UNITYSDK_OFFSET(0x1436EAA0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYAMPLIFYOCCLUSIONEFFECT_GETRADIUSMULTIONMOBILE_OFFSET UNITYSDK_OFFSET(0x1436E790)
+#define MOLEMOLE_CONFIG_CONFIGENTITYAMPLIFYOCCLUSIONEFFECT_GETRADIUS_OFFSET UNITYSDK_OFFSET(0x1436EA20)
+#define MOLEMOLE_CONFIG_CONFIGENTITYAMPLIFYOCCLUSIONEFFECT_GETSAMPLECOUNT_OFFSET UNITYSDK_OFFSET(0x1436E890)
+#define MOLEMOLE_CONFIG_CONFIGENTITYAMPLIFYOCCLUSIONEFFECT_GETTHICKNESS_OFFSET UNITYSDK_OFFSET(0x1436EBA0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYAMPLIFYOCCLUSIONEFFECT_GETTINT_OFFSET UNITYSDK_OFFSET(0x1436E980)
+#define MOLEMOLE_CONFIG_CONFIGENTITYAMPLIFYOCCLUSIONEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1436EF20)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigEntityAmplifyOcclusionEffect_TypeDefinitionIndex = 79379;
+	inline static constexpr unsigned int ConfigEntityAmplifyOcclusionEffect_TypeDefinitionIndex = 44103;
 
 	class ConfigEntityAmplifyOcclusionEffect : public ::MoleMole::Config::ConfigEntityScreenEffectBase
 	{
 	public:
-		::MoleMole::Config::ScreenEffectFloat* thickness; // 0x40
-		::MoleMole::Config::ScreenEffectBool* blurEnabled; // 0x48
-		::MoleMole::Config::ScreenEffectBool* lowSSAOQuality; // 0x50
-		::MoleMole::Config::ScreenEffectColor* tint; // 0x58
-		::MoleMole::Config::ScreenEffectFloat* bias; // 0x60
+		::MoleMole::Config::ScreenEffectFloat* bias; // 0x40
+		::MoleMole::Config::ScreenEffectFloat* thickness; // 0x48
+		::MoleMole::Config::ScreenEffectBool* downSample; // 0x50
+		::MoleMole::Config::ScreenEffectFloat* intensityMultiOnMobile; // 0x58
+		::MoleMole::Config::ScreenEffectFloat* radiusMultiOnMobile; // 0x60
 		::MoleMole::Config::ScreenEffectFloat* blurSharpness; // 0x68
-		::MoleMole::Config::ScreenEffectFloat* radiusMultiOnMobile; // 0x70
-		::MoleMole::Config::ScreenEffectFloat* powerExponent; // 0x78
-		::MoleMole::Config::ScreenEffectFloat* intensity; // 0x80
-		::MoleMole::Config::ScreenEffectBool* cacheAware; // 0x88
-		::MoleMole::Config::ScreenEffectFloat* blurPasses; // 0x90
-		::MoleMole::Config::ScreenEffectBool* downSample; // 0x98
-		::MoleMole::Config::ScreenEffectFloat* intensityMultiOnMobile; // 0xA0
-		::MoleMole::Config::ScreenEffectFloat* blurRadius; // 0xA8
+		::MoleMole::Config::ScreenEffectFloat* blurRadius; // 0x70
+		::MoleMole::Config::ScreenEffectFloat* intensity; // 0x78
+		::MoleMole::Config::ScreenEffectBool* blurEnabled; // 0x80
+		::MoleMole::Config::ScreenEffectFloat* powerExponent; // 0x88
+		::MoleMole::Config::ScreenEffectColor* tint; // 0x90
+		::MoleMole::Config::ScreenEffectBool* cacheAware; // 0x98
+		::MoleMole::Config::ScreenEffectFloat* blurPasses; // 0xA0
+		::MoleMole::Config::ScreenEffectBool* lowSSAOQuality; // 0xA8
 		::MoleMole::Config::ScreenEffectFloat* radius; // 0xB0
-		::MoleMole::Config::ScreenEffectFieldHandleType radiusMultiOnMobileHandleType; // 0xB8
-		::MoleMole::Config::ScreenEffectFieldHandleType intensityHandleType; // 0xBC
-		::MoleMole::Config::ScreenEffectFieldHandleType radiusHandleType; // 0xC0
-		::UnityEngine::NAPRenderPipeline0::SampleCountLevel sampleCount; // 0xC4
+		::MoleMole::Config::ScreenEffectFieldHandleType tintHandleType; // 0xB8
+		::MoleMole::Config::ScreenEffectFieldHandleType powerExponentHandleType; // 0xBC
+		::MoleMole::Config::ScreenEffectFieldHandleType thicknessHandleType; // 0xC0
+		::MoleMole::Config::ScreenEffectFieldHandleType blurEnabledHandleType; // 0xC4
 		::MoleMole::Config::ScreenEffectFieldHandleType biasHandleType; // 0xC8
-		::MoleMole::Config::ScreenEffectFieldHandleType cacheAwareHandleType; // 0xCC
-		::MoleMole::Config::ScreenEffectFieldHandleType thicknessHandleType; // 0xD0
-		::MoleMole::Config::ScreenEffectFieldHandleType blurEnabledHandleType; // 0xD4
-		::MoleMole::Config::ScreenEffectFieldHandleType blurPassesHandleType; // 0xD8
-		::MoleMole::Config::ScreenEffectFieldHandleType sampleCountHandleType; // 0xDC
-		::MoleMole::Config::ScreenEffectFieldHandleType powerExponentHandleType; // 0xE0
+		::UnityEngine::NAPRenderPipeline0::SampleCountLevel sampleCount; // 0xCC
+		::MoleMole::Config::ScreenEffectFieldHandleType blurPassesHandleType; // 0xD0
+		::MoleMole::Config::ScreenEffectFieldHandleType sampleCountHandleType; // 0xD4
+		::MoleMole::Config::ScreenEffectFieldHandleType cacheAwareHandleType; // 0xD8
+		::MoleMole::Config::ScreenEffectFieldHandleType blurRadiusHandleType; // 0xDC
+		::MoleMole::Config::ScreenEffectFieldHandleType blurSharpnessHandleType; // 0xE0
 		::MoleMole::Config::ScreenEffectFieldHandleType lowSSAOQualityHandleType; // 0xE4
-		::MoleMole::Config::ScreenEffectFieldHandleType blurRadiusHandleType; // 0xE8
-		::MoleMole::Config::ScreenEffectFieldHandleType downSampleHandleType; // 0xEC
-		::MoleMole::Config::ScreenEffectFieldHandleType blurSharpnessHandleType; // 0xF0
-		::MoleMole::Config::ScreenEffectFieldHandleType intensityMultiOnMobileHandleType; // 0xF4
-		::MoleMole::Config::ScreenEffectFieldHandleType tintHandleType; // 0xF8
+		::MoleMole::Config::ScreenEffectFieldHandleType downSampleHandleType; // 0xE8
+		::MoleMole::Config::ScreenEffectFieldHandleType intensityHandleType; // 0xEC
+		::MoleMole::Config::ScreenEffectFieldHandleType radiusHandleType; // 0xF0
+		::MoleMole::Config::ScreenEffectFieldHandleType radiusMultiOnMobileHandleType; // 0xF4
+		::MoleMole::Config::ScreenEffectFieldHandleType intensityMultiOnMobileHandleType; // 0xF8
 
 		::System::Void _ctor()
 		{

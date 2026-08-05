@@ -6,7 +6,7 @@ namespace Dest::Math { template <typename T> class ShuffleBag_1; }
 
 namespace Dest::Math
 {
-	inline static constexpr unsigned int ShuffleBag_1__GetEnumerator_d__13_TypeDefinitionIndex = 34809;
+	inline static constexpr unsigned int ShuffleBag_1__GetEnumerator_d__13_TypeDefinitionIndex = 35468;
 
 	template <typename T>
 	class ShuffleBag_1__GetEnumerator_d__13 : public ::System::Object

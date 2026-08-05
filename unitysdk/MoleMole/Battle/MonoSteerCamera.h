@@ -2,16 +2,16 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/MonoSteer.h"
 
-class Class_1_5AA2BE468EDCE452;
+class Class_1_D33A7AE9308D51C5;
 namespace MoleMole::Battle { class Entity; }
 
-#define MOLEMOLE_BATTLE_MONOSTEERCAMERA_GETWEIGHT_OFFSET UNITYSDK_OFFSET(0x1628EB70)
-#define MOLEMOLE_BATTLE_MONOSTEERCAMERA_ONSTEERCREATE_OFFSET UNITYSDK_OFFSET(0x1628EA50)
-#define MOLEMOLE_BATTLE_MONOSTEERCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x1628EC80)
+#define MOLEMOLE_BATTLE_MONOSTEERCAMERA_GETWEIGHT_OFFSET UNITYSDK_OFFSET(0x16C20CE0)
+#define MOLEMOLE_BATTLE_MONOSTEERCAMERA_ONSTEERCREATE_OFFSET UNITYSDK_OFFSET(0x16C20BC0)
+#define MOLEMOLE_BATTLE_MONOSTEERCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x16C20DE0)
 
 namespace MoleMole::Battle
 {
-	inline static constexpr unsigned int MonoSteerCamera_TypeDefinitionIndex = 66565;
+	inline static constexpr unsigned int MonoSteerCamera_TypeDefinitionIndex = 57882;
 
 	class MonoSteerCamera : public ::MoleMole::MonoSteer
 	{
@@ -28,9 +28,9 @@ namespace MoleMole::Battle
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_MONOSTEERCAMERA__CTOR_OFFSET))(this);
 		}
 
-		::Class_1_5AA2BE468EDCE452* OnSteerCreate(::MoleMole::MonoSteer* a1, ::MoleMole::Battle::Entity* a2)
+		::Class_1_D33A7AE9308D51C5* OnSteerCreate(::MoleMole::MonoSteer* a1, ::MoleMole::Battle::Entity* a2)
 		{
-			return ((::Class_1_5AA2BE468EDCE452*(*)(::PVOID, ::MoleMole::MonoSteer*, ::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_MONOSTEERCAMERA_ONSTEERCREATE_OFFSET))(this, a1, a2);
+			return ((::Class_1_D33A7AE9308D51C5*(*)(::PVOID, ::MoleMole::MonoSteer*, ::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_MONOSTEERCAMERA_ONSTEERCREATE_OFFSET))(this, a1, a2);
 		}
 
 		::System::Single GetWeight(::MoleMole::Battle::Entity* a1)

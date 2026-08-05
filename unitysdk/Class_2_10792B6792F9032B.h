@@ -1,0 +1,97 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_D0D2B3C2533F6DF2_1.h"
+#include "unitysdk/FlexBuffers/FlxMap.h"
+#include "unitysdk/FlexBuffers/FlxValue.h"
+
+class Class_1_236FD73ABC492E3F;
+namespace MoleMole { class HackerGameBaseDamage; }
+namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
+
+#define CLASS_2_10792B6792F9032B_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x10697F30)
+#define CLASS_2_10792B6792F9032B_FROMFLX_OFFSET UNITYSDK_OFFSET(0x10697CD0)
+#define CLASS_2_10792B6792F9032B_METHOD_2_0B2CB6A77D912E66_OFFSET UNITYSDK_OFFSET(0x106982D0)
+#define CLASS_2_10792B6792F9032B_METHOD_2_157E312840A3BD00_OFFSET UNITYSDK_OFFSET(0x10697F90)
+#define CLASS_2_10792B6792F9032B_METHOD_2_30E724057DA7C3DA_OFFSET UNITYSDK_OFFSET(0x10698160)
+#define CLASS_2_10792B6792F9032B_METHOD_2_5253759692D6DAC1_OFFSET UNITYSDK_OFFSET(0x10697D50)
+#define CLASS_2_10792B6792F9032B_METHOD_2_777C630B90A28EF1_OFFSET UNITYSDK_OFFSET(0x10697C60)
+#define CLASS_2_10792B6792F9032B_METHOD_2_B73F62522113F21F_OFFSET UNITYSDK_OFFSET(0x10697B00)
+#define CLASS_2_10792B6792F9032B_METHOD_2_C74CF020AA42ED85_OFFSET UNITYSDK_OFFSET(0x10697C50)
+#define CLASS_2_10792B6792F9032B_METHOD_2_D4943D8F67F4699C_OFFSET UNITYSDK_OFFSET(0x10698510)
+#define CLASS_2_10792B6792F9032B_METHOD_2_D8A163211C06267F_OFFSET UNITYSDK_OFFSET(0x10697B50)
+#define CLASS_2_10792B6792F9032B_METHOD_2_F710831B6330F7B8_OFFSET UNITYSDK_OFFSET(0x10698480)
+#define CLASS_2_10792B6792F9032B__CTOR_OFFSET UNITYSDK_OFFSET(0x106982C0)
+
+inline static constexpr unsigned int Class_2_10792B6792F9032B_TypeDefinitionIndex = 65496;
+
+class Class_2_10792B6792F9032B : public ::Class_1_D0D2B3C2533F6DF2_1
+{
+public:
+	::Il2CppArray<::Class_1_D0D2B3C2533F6DF2_1*>* Field_2_0; // 0x10
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_10792B6792F9032B__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_2_B73F62522113F21F(::System::Action_1<::System::Object*>* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*))((::PBYTE)hIl2Cpp + CLASS_2_10792B6792F9032B_METHOD_2_B73F62522113F21F_OFFSET))(this, a1);
+	}
+
+	::Class_1_D0D2B3C2533F6DF2_1* Method_2_D8A163211C06267F()
+	{
+		return ((::Class_1_D0D2B3C2533F6DF2_1*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_10792B6792F9032B_METHOD_2_D8A163211C06267F_OFFSET))(this);
+	}
+
+	::System::Int32 Method_2_C74CF020AA42ED85()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_10792B6792F9032B_METHOD_2_C74CF020AA42ED85_OFFSET))(this);
+	}
+
+	::System::Void Method_2_777C630B90A28EF1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_10792B6792F9032B_METHOD_2_777C630B90A28EF1_OFFSET))(this);
+	}
+
+	::System::Boolean FromFlx(::FlexBuffers::FlxValue a1)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + CLASS_2_10792B6792F9032B_FROMFLX_OFFSET))(this, a1);
+	}
+
+	::System::Boolean FromBinary(::Class_1_236FD73ABC492E3F* a1, ::System::Int32 a2)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_2_10792B6792F9032B_FROMBINARY_OFFSET))(this, a1, a2);
+	}
+
+	::MoleMole::HackerGameBaseDamage* Method_2_30E724057DA7C3DA()
+	{
+		return ((::MoleMole::HackerGameBaseDamage*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_10792B6792F9032B_METHOD_2_30E724057DA7C3DA_OFFSET))(this);
+	}
+
+	static ::Class_2_10792B6792F9032B* Method_2_0B2CB6A77D912E66(::Class_1_236FD73ABC492E3F* a1, ::System::Int32 a2)
+	{
+		return ((::Class_2_10792B6792F9032B*(*)(::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_2_10792B6792F9032B_METHOD_2_0B2CB6A77D912E66_OFFSET))(a1, a2);
+	}
+
+	::System::Boolean Method_2_5253759692D6DAC1(::FlexBuffers::FlxMap a1)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxMap))((::PBYTE)hIl2Cpp + CLASS_2_10792B6792F9032B_METHOD_2_5253759692D6DAC1_OFFSET))(this, a1);
+	}
+
+	::MoleMole::HackerGameBaseDamage* Method_2_F710831B6330F7B8()
+	{
+		return ((::MoleMole::HackerGameBaseDamage*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_10792B6792F9032B_METHOD_2_F710831B6330F7B8_OFFSET))(this);
+	}
+
+	::System::Boolean Method_2_157E312840A3BD00(::Class_1_236FD73ABC492E3F* a1, ::System::Int32 a2)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_2_10792B6792F9032B_METHOD_2_157E312840A3BD00_OFFSET))(this, a1, a2);
+	}
+
+	static ::Class_2_10792B6792F9032B* Method_2_D4943D8F67F4699C(::FlexBuffers::FlxValue a1)
+	{
+		return ((::Class_2_10792B6792F9032B*(*)(::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + CLASS_2_10792B6792F9032B_METHOD_2_D4943D8F67F4699C_OFFSET))(a1);
+	}
+};

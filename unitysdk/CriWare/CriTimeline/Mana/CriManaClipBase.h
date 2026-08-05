@@ -4,31 +4,26 @@
 #include "unitysdk/System/Guid.h"
 #include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Runtime/InteropServices/GCHandle.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
 
 namespace CriWare::CriMana { class MovieInfo; }
-namespace CriWare::CriTimeline::Mana { class CriManaBehaviour; }
 namespace System { class String; }
 namespace UnityEngine { class AnimationCurve; }
-namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define CRIWARE_CRITIMELINE_MANA_CRIMANACLIPBASE_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1E4A8180)
-#define CRIWARE_CRITIMELINE_MANA_CRIMANACLIPBASE_GETSEEKFRAME_OFFSET UNITYSDK_OFFSET(0x1E4A8510)
-#define CRIWARE_CRITIMELINE_MANA_CRIMANACLIPBASE_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1E4A8170)
-#define CRIWARE_CRITIMELINE_MANA_CRIMANACLIPBASE_GET_DURATION_OFFSET UNITYSDK_OFFSET(0x1E4A8650)
-#define CRIWARE_CRITIMELINE_MANA_CRIMANACLIPBASE_GET_ISMOVIEINFOREADY_OFFSET UNITYSDK_OFFSET(0x1E4A8500)
-#define CRIWARE_CRITIMELINE_MANA_CRIMANACLIPBASE_ISSAMEMOVIE_OFFSET UNITYSDK_OFFSET(0x1E4A8440)
-#define CRIWARE_CRITIMELINE_MANA_CRIMANACLIPBASE_REPLACEMOVIEINFO_OFFSET UNITYSDK_OFFSET(0x1E4A8250)
-#define CRIWARE_CRITIMELINE_MANA_CRIMANACLIPBASE_STRUCTTOMOVIEINFO_OFFSET UNITYSDK_OFFSET(0x1E4A8120)
-#define CRIWARE_CRITIMELINE_MANA_CRIMANACLIPBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E4A8680)
+#define CRIWARE_CRITIMELINE_MANA_CRIMANACLIPBASE_GETSEEKFRAME_OFFSET UNITYSDK_OFFSET(0x1F9555D0)
+#define CRIWARE_CRITIMELINE_MANA_CRIMANACLIPBASE_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1F955300)
+#define CRIWARE_CRITIMELINE_MANA_CRIMANACLIPBASE_GET_DURATION_OFFSET UNITYSDK_OFFSET(0x1F955710)
+#define CRIWARE_CRITIMELINE_MANA_CRIMANACLIPBASE_GET_ISMOVIEINFOREADY_OFFSET UNITYSDK_OFFSET(0x1F9555C0)
+#define CRIWARE_CRITIMELINE_MANA_CRIMANACLIPBASE_ISSAMEMOVIE_OFFSET UNITYSDK_OFFSET(0x1F955500)
+#define CRIWARE_CRITIMELINE_MANA_CRIMANACLIPBASE_REPLACEMOVIEINFO_OFFSET UNITYSDK_OFFSET(0x1F955310)
+#define CRIWARE_CRITIMELINE_MANA_CRIMANACLIPBASE_STRUCTTOMOVIEINFO_OFFSET UNITYSDK_OFFSET(0x1F9552B0)
+#define CRIWARE_CRITIMELINE_MANA_CRIMANACLIPBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F955740)
 
 namespace CriWare::CriTimeline::Mana
 {
-	inline static constexpr unsigned int CriManaClipBase_TypeDefinitionIndex = 34379;
+	inline static constexpr unsigned int CriManaClipBase_TypeDefinitionIndex = 35031;
 
 	class CriManaClipBase : public ::UnityEngine::Playables::PlayableAsset
 	{
@@ -45,8 +40,7 @@ namespace CriWare::CriTimeline::Mana
 		::UnityEngine::AnimationCurve* m_fadeoutCurve; // 0x58
 		::System::Boolean m_fadeAudio; // 0x60
 		::UnityEngine::Timeline::TimelineClip* m_clip; // 0x68
-		::CriWare::CriTimeline::Mana::CriManaBehaviour* m_manaBehaviour; // 0x70
-		::System::Nullable_1<::CriWare::CriTimeline::Mana::CriManaClipBase_MovieInfoStruct> m_movieInfoStruct; // 0x78
+		::System::Nullable_1<::CriWare::CriTimeline::Mana::CriManaClipBase_MovieInfoStruct> m_movieInfoStruct; // 0x70
 
 		::System::Void _ctor()
 		{
@@ -61,11 +55,6 @@ namespace CriWare::CriTimeline::Mana
 		::UnityEngine::Timeline::ClipCaps get_clipCaps()
 		{
 			return ((::UnityEngine::Timeline::ClipCaps(*)(::PVOID))((::PBYTE)hIl2Cpp + CRIWARE_CRITIMELINE_MANA_CRIMANACLIPBASE_GET_CLIPCAPS_OFFSET))(this);
-		}
-
-		::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* owner)
-		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + CRIWARE_CRITIMELINE_MANA_CRIMANACLIPBASE_CREATEPLAYABLE_OFFSET))(this, graph, owner);
 		}
 
 		::System::Void ReplaceMovieInfo(::CriWare::CriMana::MovieInfo* movieInfo)

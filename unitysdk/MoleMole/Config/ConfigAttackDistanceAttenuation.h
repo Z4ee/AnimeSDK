@@ -6,11 +6,11 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CONFIG_CONFIGATTACKDISTANCEATTENUATION__CTOR_OFFSET UNITYSDK_OFFSET(0x18F2EFE0)
+#define MOLEMOLE_CONFIG_CONFIGATTACKDISTANCEATTENUATION__CTOR_OFFSET UNITYSDK_OFFSET(0x16258FC0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigAttackDistanceAttenuation_TypeDefinitionIndex = 50468;
+	inline static constexpr unsigned int ConfigAttackDistanceAttenuation_TypeDefinitionIndex = 40351;
 
 	class ConfigAttackDistanceAttenuation : public ::Foundation::MihoyoSerializedScriptableObject
 	{

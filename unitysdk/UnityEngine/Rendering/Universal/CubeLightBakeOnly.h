@@ -7,19 +7,19 @@
 
 namespace UnityEngine::Rendering::Universal { class CubeLightBakeOnly_LightProxy; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_CUBELIGHTBAKEONLY_INITPROXYCONFIGS_OFFSET UNITYSDK_OFFSET(0xF7986F0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_CUBELIGHTBAKEONLY__CTOR_OFFSET UNITYSDK_OFFSET(0xF798950)
+#define UNITYENGINE_RENDERING_UNIVERSAL_CUBELIGHTBAKEONLY_INITPROXYCONFIGS_OFFSET UNITYSDK_OFFSET(0x110981A0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_CUBELIGHTBAKEONLY__CTOR_OFFSET UNITYSDK_OFFSET(0x11098400)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int CubeLightBakeOnly_TypeDefinitionIndex = 27207;
+	inline static constexpr unsigned int CubeLightBakeOnly_TypeDefinitionIndex = 27646;
 
 	class CubeLightBakeOnly : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		static ::Il2CppArray<::UnityEngine::Rendering::Universal::CubeLightBakeOnly_LightProxyConfig>** StaticGet_s_LightProxyConfigs()
 		{
-			return (::Il2CppArray<::UnityEngine::Rendering::Universal::CubeLightBakeOnly_LightProxyConfig>**)Il2CppClass::FromTypeDefinitionIndex(CubeLightBakeOnly_TypeDefinitionIndex)->GetStaticField(0x22370);
+			return (::Il2CppArray<::UnityEngine::Rendering::Universal::CubeLightBakeOnly_LightProxyConfig>**)Il2CppClass::FromTypeDefinitionIndex(CubeLightBakeOnly_TypeDefinitionIndex)->GetStaticField(0x23AE0);
 		}
 		::Il2CppArray<::UnityEngine::Rendering::Universal::CubeLightBakeOnly_LightProxy*>* lightProxies; // 0x18
 		::UnityEngine::Vector3 m_Size; // 0x20

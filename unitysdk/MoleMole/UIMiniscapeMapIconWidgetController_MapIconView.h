@@ -5,12 +5,12 @@
 namespace MoleMole { class UIMiniscapeMapIconWidgetController; }
 namespace UnityEngine { class RectTransform; }
 
-#define MOLEMOLE_UIMINISCAPEMAPICONWIDGETCONTROLLER_MAPICONVIEW_GET_ICONROOT_OFFSET UNITYSDK_OFFSET(0x14C46530)
-#define MOLEMOLE_UIMINISCAPEMAPICONWIDGETCONTROLLER_MAPICONVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x14C46560)
+#define MOLEMOLE_UIMINISCAPEMAPICONWIDGETCONTROLLER_MAPICONVIEW_GET_ICONROOT_OFFSET UNITYSDK_OFFSET(0x182E6D40)
+#define MOLEMOLE_UIMINISCAPEMAPICONWIDGETCONTROLLER_MAPICONVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x182E6D70)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMiniscapeMapIconWidgetController_MapIconView_TypeDefinitionIndex = 53397;
+	inline static constexpr unsigned int UIMiniscapeMapIconWidgetController_MapIconView_TypeDefinitionIndex = 46828;
 
 	class UIMiniscapeMapIconWidgetController_MapIconView : public ::System::Object
 	{

@@ -4,21 +4,21 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define CLASS_1_C3E60AEBDBF27E6C_METHOD_1_5D987B3ED772CD88_OFFSET UNITYSDK_OFFSET(0x15DCB5A0)
-#define CLASS_1_C3E60AEBDBF27E6C_METHOD_1_BB1A51867F43215D_OFFSET UNITYSDK_OFFSET(0x15DCB630)
+#define CLASS_1_C3E60AEBDBF27E6C_METHOD_1_5D987B3ED772CD88_OFFSET UNITYSDK_OFFSET(0xF7A4E80)
+#define CLASS_1_C3E60AEBDBF27E6C_METHOD_1_BB1A51867F43215D_OFFSET UNITYSDK_OFFSET(0xF7A4E20)
 
-inline static constexpr unsigned int Class_1_C3E60AEBDBF27E6C_TypeDefinitionIndex = 75484;
+inline static constexpr unsigned int Class_1_C3E60AEBDBF27E6C_TypeDefinitionIndex = 61044;
 
 class Class_1_C3E60AEBDBF27E6C : public ::System::Object
 {
 public:
-	static ::UnityEngine::Vector3 Method_1_5D987B3ED772CD88(::RVO::Vector2 a1, ::System::Single a2)
-	{
-		return ((::UnityEngine::Vector3(*)(::RVO::Vector2, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_C3E60AEBDBF27E6C_METHOD_1_5D987B3ED772CD88_OFFSET))(a1, a2);
-	}
-
 	static ::RVO::Vector2 Method_1_BB1A51867F43215D(::UnityEngine::Vector3 a1)
 	{
 		return ((::RVO::Vector2(*)(::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + CLASS_1_C3E60AEBDBF27E6C_METHOD_1_BB1A51867F43215D_OFFSET))(a1);
+	}
+
+	static ::UnityEngine::Vector3 Method_1_5D987B3ED772CD88(::RVO::Vector2 a1, ::System::Single a2)
+	{
+		return ((::UnityEngine::Vector3(*)(::RVO::Vector2, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_C3E60AEBDBF27E6C_METHOD_1_5D987B3ED772CD88_OFFSET))(a1, a2);
 	}
 };

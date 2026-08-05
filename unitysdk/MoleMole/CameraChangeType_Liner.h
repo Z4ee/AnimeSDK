@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/CameraChangeType.h"
 
-#define MOLEMOLE_CAMERACHANGETYPE_LINER__CTOR_OFFSET UNITYSDK_OFFSET(0x12B93EC0)
+#define MOLEMOLE_CAMERACHANGETYPE_LINER__CTOR_OFFSET UNITYSDK_OFFSET(0x14355FE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CameraChangeType_Liner_TypeDefinitionIndex = 76142;
+	inline static constexpr unsigned int CameraChangeType_Liner_TypeDefinitionIndex = 73574;
 
 	class CameraChangeType_Liner : public ::MoleMole::CameraChangeType
 	{

@@ -8,7 +8,7 @@ namespace MoleMole { class UIControllerContextBase; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIUrbanMapPointWidgetController_2_TypeDefinitionIndex = 45515;
+	inline static constexpr unsigned int UIUrbanMapPointWidgetController_2_TypeDefinitionIndex = 43025;
 
 	template <typename T, typename TContext>
 	class UIUrbanMapPointWidgetController_2 : public ::MoleMole::UIUrbanMapPointWidgetController

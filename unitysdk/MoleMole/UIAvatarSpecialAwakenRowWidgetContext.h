@@ -4,11 +4,11 @@
 
 class Class_2_1824EF69C8E376A3;
 
-#define MOLEMOLE_UIAVATARSPECIALAWAKENROWWIDGETCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1FB290)
+#define MOLEMOLE_UIAVATARSPECIALAWAKENROWWIDGETCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x196FA120)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAvatarSpecialAwakenRowWidgetContext_TypeDefinitionIndex = 59711;
+	inline static constexpr unsigned int UIAvatarSpecialAwakenRowWidgetContext_TypeDefinitionIndex = 85984;
 
 	class UIAvatarSpecialAwakenRowWidgetContext : public ::MoleMole::UIControllerContextBase
 	{

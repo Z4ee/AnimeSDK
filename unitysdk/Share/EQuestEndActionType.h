@@ -3,7 +3,7 @@
 
 namespace Share
 {
-	inline static constexpr unsigned int EQuestEndActionType_TypeDefinitionIndex = 15060;
+	inline static constexpr unsigned int EQuestEndActionType_TypeDefinitionIndex = 18067;
 
 	enum class EQuestEndActionType : ::System::Int16
 	{

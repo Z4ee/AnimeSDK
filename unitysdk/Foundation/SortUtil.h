@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace Foundation
 {
-	inline static constexpr unsigned int SortUtil_TypeDefinitionIndex = 63429;
+	inline static constexpr unsigned int SortUtil_TypeDefinitionIndex = 68823;
 
 	class SortUtil : public ::System::Object
 	{

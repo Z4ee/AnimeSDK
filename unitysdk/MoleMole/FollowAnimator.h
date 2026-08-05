@@ -6,24 +6,24 @@ namespace UnityEngine { class Animator; }
 namespace UnityEngine { class SkinnedMeshRenderer; }
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_FOLLOWANIMATOR_SETFOLLOWTARGET_1_OFFSET UNITYSDK_OFFSET(0x18B30B70)
-#define MOLEMOLE_FOLLOWANIMATOR_SETFOLLOWTARGET_OFFSET UNITYSDK_OFFSET(0x18B30AE0)
-#define MOLEMOLE_FOLLOWANIMATOR_STARTFOLLOW_OFFSET UNITYSDK_OFFSET(0x18B30BD0)
-#define MOLEMOLE_FOLLOWANIMATOR_STOPFOLLOW_OFFSET UNITYSDK_OFFSET(0x18B30C10)
-#define MOLEMOLE_FOLLOWANIMATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x18B30C50)
+#define MOLEMOLE_FOLLOWANIMATOR_SETFOLLOWTARGET_1_OFFSET UNITYSDK_OFFSET(0x118C5AC0)
+#define MOLEMOLE_FOLLOWANIMATOR_SETFOLLOWTARGET_OFFSET UNITYSDK_OFFSET(0x118C5A30)
+#define MOLEMOLE_FOLLOWANIMATOR_STARTFOLLOW_OFFSET UNITYSDK_OFFSET(0x118C5B20)
+#define MOLEMOLE_FOLLOWANIMATOR_STOPFOLLOW_OFFSET UNITYSDK_OFFSET(0x118C5B60)
+#define MOLEMOLE_FOLLOWANIMATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x118C5BA0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int FollowAnimator_TypeDefinitionIndex = 64151;
+	inline static constexpr unsigned int FollowAnimator_TypeDefinitionIndex = 54168;
 
 	class FollowAnimator : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::UnityEngine::SkinnedMeshRenderer* selfRenderer; // 0x18
 		::UnityEngine::Transform* selfRoot; // 0x20
-		::UnityEngine::Animator* Field_5_2; // 0x28
-		::UnityEngine::SkinnedMeshRenderer* Field_5_3; // 0x30
-		::UnityEngine::Transform* Field_5_4; // 0x38
+		::UnityEngine::Animator* Field_5_7; // 0x28
+		::UnityEngine::SkinnedMeshRenderer* Field_5_6; // 0x30
+		::UnityEngine::Transform* Field_5_5; // 0x38
 		::System::Boolean follow; // 0x40
 
 		::System::Void _ctor()

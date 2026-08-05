@@ -3,19 +3,19 @@
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 #include "unitysdk/MoleMole/UIRABLevelPageController_EOnUIOpenSelectType.h"
 
-#define MOLEMOLE_UIRABLEVELPAGECONTROLLER_CONTEXT_APPLYJUMPPARAS_OFFSET UNITYSDK_OFFSET(0x15F2D080)
-#define MOLEMOLE_UIRABLEVELPAGECONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15F2D520)
-#define MOLEMOLE_UIRABLEVELPAGECONTROLLER_CONTEXT___BASE_APPLYJUMPPARAS_OFFSET UNITYSDK_OFFSET(0x15F2D580)
+#define MOLEMOLE_UIRABLEVELPAGECONTROLLER_CONTEXT_APPLYJUMPPARAS_OFFSET UNITYSDK_OFFSET(0x12FF69D0)
+#define MOLEMOLE_UIRABLEVELPAGECONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x12FF6E70)
+#define MOLEMOLE_UIRABLEVELPAGECONTROLLER_CONTEXT___BASE_APPLYJUMPPARAS_OFFSET UNITYSDK_OFFSET(0x12FF6ED0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRABLevelPageController_Context_TypeDefinitionIndex = 78506;
+	inline static constexpr unsigned int UIRABLevelPageController_Context_TypeDefinitionIndex = 82372;
 
 	class UIRABLevelPageController_Context : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::System::Int32 selectTowerFloor; // 0x28
-		::MoleMole::UIRABLevelPageController_EOnUIOpenSelectType selectType; // 0x2C
+		::MoleMole::UIRABLevelPageController_EOnUIOpenSelectType selectType; // 0x28
+		::System::Int32 selectTowerFloor; // 0x2C
 
 		::System::Void _ctor()
 		{

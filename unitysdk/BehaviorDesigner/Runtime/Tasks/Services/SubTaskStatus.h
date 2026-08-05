@@ -3,7 +3,7 @@
 
 namespace BehaviorDesigner::Runtime::Tasks::Services
 {
-	inline static constexpr unsigned int SubTaskStatus_TypeDefinitionIndex = 33851;
+	inline static constexpr unsigned int SubTaskStatus_TypeDefinitionIndex = 34487;
 
 	enum class SubTaskStatus : ::System::Int32
 	{

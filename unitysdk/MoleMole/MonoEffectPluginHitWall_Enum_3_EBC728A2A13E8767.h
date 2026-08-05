@@ -3,13 +3,13 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoEffectPluginHitWall_Enum_3_EBC728A2A13E8767_TypeDefinitionIndex = 41409;
+	inline static constexpr unsigned int MonoEffectPluginHitWall_Enum_3_EBC728A2A13E8767_TypeDefinitionIndex = 45184;
 
 	enum class MonoEffectPluginHitWall_Enum_3_EBC728A2A13E8767 : ::System::Int32
 	{
+		X = 1,
+		Z = 3,
 		Y = 2,
 		NONE = 0,
-		Z = 3,
-		X = 1,
 	};
 }

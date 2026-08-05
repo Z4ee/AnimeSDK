@@ -4,11 +4,11 @@
 
 class Class_2_0C451C94475DA3D1;
 
-#define MOLEMOLE_UIHARDCOREBOSSBATTLERANKINGPAGECONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1824ECF0)
+#define MOLEMOLE_UIHARDCOREBOSSBATTLERANKINGPAGECONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x19EA9F40)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHardCoreBossBattleRankingPageController_Context_TypeDefinitionIndex = 57576;
+	inline static constexpr unsigned int UIHardCoreBossBattleRankingPageController_Context_TypeDefinitionIndex = 49750;
 
 	class UIHardCoreBossBattleRankingPageController_Context : public ::MoleMole::UIControllerContextBase
 	{

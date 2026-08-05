@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_2_F95242C0939727AB;
+class Class_2_E055DAB088B97B64;
 
-#define MOLEMOLE_UIROLEEFFECTDIALOGPOPCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x156A6930)
+#define MOLEMOLE_UIROLEEFFECTDIALOGPOPCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x17D43B20)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRoleEffectDialogPopContext_TypeDefinitionIndex = 74887;
+	inline static constexpr unsigned int UIRoleEffectDialogPopContext_TypeDefinitionIndex = 58593;
 
 	class UIRoleEffectDialogPopContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_2_F95242C0939727AB* info; // 0x28
+		::Class_2_E055DAB088B97B64* info; // 0x28
 
 		::System::Void _ctor()
 		{

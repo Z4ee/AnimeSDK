@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int LightEvent_TypeDefinitionIndex = 6171;
+	inline static constexpr unsigned int LightEvent_TypeDefinitionIndex = 6175;
 
 	enum class LightEvent : ::System::Int32
 	{

@@ -10,19 +10,19 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Component; }
 
-#define NODECANVAS_BEHAVIOURTREES_NODETOGGLER_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1D537BD0)
-#define NODECANVAS_BEHAVIOURTREES_NODETOGGLER_ONGRAPHSTARTED_OFFSET UNITYSDK_OFFSET(0x1D537B60)
-#define NODECANVAS_BEHAVIOURTREES_NODETOGGLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D538050)
+#define NODECANVAS_BEHAVIOURTREES_NODETOGGLER_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1E22F710)
+#define NODECANVAS_BEHAVIOURTREES_NODETOGGLER_ONGRAPHSTARTED_OFFSET UNITYSDK_OFFSET(0x1E22F6A0)
+#define NODECANVAS_BEHAVIOURTREES_NODETOGGLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E22FB90)
 
 namespace NodeCanvas::BehaviourTrees
 {
-	inline static constexpr unsigned int NodeToggler_TypeDefinitionIndex = 29219;
+	inline static constexpr unsigned int NodeToggler_TypeDefinitionIndex = 30170;
 
 	class NodeToggler : public ::NodeCanvas::BehaviourTrees::BTNode
 	{
 	public:
-		::System::Collections::Generic::List_1<::NodeCanvas::Framework::Node*>* targetNodes; // 0x78
-		::System::String* targetNodeTag; // 0x80
+		::System::String* targetNodeTag; // 0x78
+		::System::Collections::Generic::List_1<::NodeCanvas::Framework::Node*>* targetNodes; // 0x80
 		::NodeCanvas::BehaviourTrees::NodeToggler_ToggleMode toggleMode; // 0x88
 
 		::System::Void _ctor()

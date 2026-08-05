@@ -8,7 +8,7 @@ namespace System::Net { class LazyAsyncResult; }
 namespace System::Net::Mime { class BaseWriter; }
 namespace System::Net::Mime { class MimeBasePart; }
 
-#define SYSTEM_NET_MIME_MIMEMULTIPART_MIMEPARTCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1C07D700)
+#define SYSTEM_NET_MIME_MIMEMULTIPART_MIMEPARTCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D475900)
 
 namespace System::Net::Mime
 {
@@ -18,11 +18,11 @@ namespace System::Net::Mime
 	{
 	public:
 		::System::IO::Stream* outputStream; // 0x10
-		::System::Net::Mime::BaseWriter* writer; // 0x18
-		::System::Net::LazyAsyncResult* result; // 0x20
-		::System::Collections::Generic::IEnumerator_1<::System::Net::Mime::MimeBasePart*>* partsEnumerator; // 0x28
-		::System::Boolean completed; // 0x30
-		::System::Boolean completedSynchronously; // 0x31
+		::System::Collections::Generic::IEnumerator_1<::System::Net::Mime::MimeBasePart*>* partsEnumerator; // 0x18
+		::System::Net::Mime::BaseWriter* writer; // 0x20
+		::System::Net::LazyAsyncResult* result; // 0x28
+		::System::Boolean completedSynchronously; // 0x30
+		::System::Boolean completed; // 0x31
 
 		::System::Void _ctor(::System::Net::Mime::BaseWriter* writer, ::System::Net::LazyAsyncResult* result, ::System::Collections::Generic::IEnumerator_1<::System::Net::Mime::MimeBasePart*>* partsEnumerator)
 		{

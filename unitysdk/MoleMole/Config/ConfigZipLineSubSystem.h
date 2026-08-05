@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGZIPLINESUBSYSTEM__CTOR_OFFSET UNITYSDK_OFFSET(0x127235A0)
+#define MOLEMOLE_CONFIG_CONFIGZIPLINESUBSYSTEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1350AAC0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigZipLineSubSystem_TypeDefinitionIndex = 46570;
+	inline static constexpr unsigned int ConfigZipLineSubSystem_TypeDefinitionIndex = 56837;
 
 	class ConfigZipLineSubSystem : public ::Foundation::MihoyoSerializedScriptableObject
 	{
@@ -16,17 +16,15 @@ namespace MoleMole::Config
 		::System::Int32 SkillUnlockID; // 0x58
 		::System::Int32 TransitionID; // 0x5C
 		::System::String* AbilityName; // 0x60
-		::System::String* SwitchAvatarCustomEvent; // 0x68
-		::System::String* SwitchAvatarCustomEvent2; // 0x70
-		::System::String* SwitchAvatarCustomEvent3; // 0x78
-		::System::String* SwitchAvatarCustomEvent4; // 0x80
-		::System::Int32 PyroisID; // 0x88
-		::System::Int32 PyroisID_ZipLine; // 0x8C
-		::System::Boolean BlockStreaming; // 0x90
-		::System::Single CancelBlockStreaming; // 0x94
-		::System::Boolean EnableSceneAreaOptimization; // 0x98
-		::System::Boolean SearchSwitchByPrism; // 0x99
-		::System::Boolean SearchSwitchByTangent; // 0x9A
+		::System::Boolean BlockStreaming; // 0x68
+		::System::Boolean EnableSceneAreaOptimization; // 0x69
+		::System::Boolean SearchSwitchByPrism; // 0x6A
+		::System::Boolean SearchSwitchByTangent; // 0x6B
+		::System::Single ExitPoint_Search_CD_Navmesh; // 0x6C
+		::System::Single ExitPoint_Search_CD_Spline; // 0x70
+		::System::Single EnterPoint_Search_CD_Spline; // 0x74
+		::System::Single SwitchPoint_Search_CD_Spline; // 0x78
+		::System::Boolean CanUseZipLineCommonSkillInBattle; // 0x7C
 
 		::System::Void _ctor()
 		{

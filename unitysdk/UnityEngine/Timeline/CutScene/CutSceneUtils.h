@@ -12,40 +12,40 @@ namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Material; }
 
-#define UNITYENGINE_TIMELINE_CUTSCENE_CUTSCENEUTILS_CHECKKFRAMEFIELDTYPE_OFFSET UNITYSDK_OFFSET(0x1E2DC900)
-#define UNITYENGINE_TIMELINE_CUTSCENE_CUTSCENEUTILS_FORCEREFRESHMATERIAL_OFFSET UNITYSDK_OFFSET(0x1E2E0250)
-#define UNITYENGINE_TIMELINE_CUTSCENE_CUTSCENEUTILS_GETCHILDLEVEL_OFFSET UNITYSDK_OFFSET(0x1E2DFEA0)
-#define UNITYENGINE_TIMELINE_CUTSCENE_CUTSCENEUTILS_GETVALUEFROMFRAMES_OFFSET UNITYSDK_OFFSET(0x1E2DC700)
-#define UNITYENGINE_TIMELINE_CUTSCENE_CUTSCENEUTILS_TOSTRINGRELATEDPATH_OFFSET UNITYSDK_OFFSET(0x1E2E0260)
-#define UNITYENGINE_TIMELINE_CUTSCENE_CUTSCENEUTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E2E0760)
-#define UNITYENGINE_TIMELINE_CUTSCENE_CUTSCENEUTILS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E2E0750)
+#define UNITYENGINE_TIMELINE_CUTSCENE_CUTSCENEUTILS_CHECKKFRAMEFIELDTYPE_OFFSET UNITYSDK_OFFSET(0x1F70D970)
+#define UNITYENGINE_TIMELINE_CUTSCENE_CUTSCENEUTILS_FORCEREFRESHMATERIAL_OFFSET UNITYSDK_OFFSET(0x1F7112A0)
+#define UNITYENGINE_TIMELINE_CUTSCENE_CUTSCENEUTILS_GETCHILDLEVEL_OFFSET UNITYSDK_OFFSET(0x1F710EF0)
+#define UNITYENGINE_TIMELINE_CUTSCENE_CUTSCENEUTILS_GETVALUEFROMFRAMES_OFFSET UNITYSDK_OFFSET(0x1F70D770)
+#define UNITYENGINE_TIMELINE_CUTSCENE_CUTSCENEUTILS_TOSTRINGRELATEDPATH_OFFSET UNITYSDK_OFFSET(0x1F7112B0)
+#define UNITYENGINE_TIMELINE_CUTSCENE_CUTSCENEUTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F7117B0)
+#define UNITYENGINE_TIMELINE_CUTSCENE_CUTSCENEUTILS__CTOR_OFFSET UNITYSDK_OFFSET(0x1F7117A0)
 
 namespace UnityEngine::Timeline::CutScene
 {
-	inline static constexpr unsigned int CutSceneUtils_TypeDefinitionIndex = 32452;
+	inline static constexpr unsigned int CutSceneUtils_TypeDefinitionIndex = 33083;
 
 	class CutSceneUtils : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::UnityEngine::Material*, ::System::Single>** StaticGet_lastMaterialRefreshTime()
+		static ::UnityEngine::AnimationCurve** StaticGet__curve()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::Material*, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(CutSceneUtils_TypeDefinitionIndex)->GetStaticField(0x266D0);
-		}
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::Timeline::KFrameFieldType>** StaticGet_PropertyMapFieldType()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::Timeline::KFrameFieldType>**)Il2CppClass::FromTypeDefinitionIndex(CutSceneUtils_TypeDefinitionIndex)->GetStaticField(0x266D8);
+			return (::UnityEngine::AnimationCurve**)Il2CppClass::FromTypeDefinitionIndex(CutSceneUtils_TypeDefinitionIndex)->GetStaticField(0x27E50);
 		}
 		static ::System::Action_1<::UnityEngine::Material*>** StaticGet_m_fcMakeAvatarMatKeywordChange()
 		{
-			return (::System::Action_1<::UnityEngine::Material*>**)Il2CppClass::FromTypeDefinitionIndex(CutSceneUtils_TypeDefinitionIndex)->GetStaticField(0x266E0);
+			return (::System::Action_1<::UnityEngine::Material*>**)Il2CppClass::FromTypeDefinitionIndex(CutSceneUtils_TypeDefinitionIndex)->GetStaticField(0x27E58);
 		}
-		static ::UnityEngine::AnimationCurve** StaticGet__curve()
+		static ::System::Collections::Generic::Dictionary_2<::UnityEngine::Material*, ::System::Single>** StaticGet_lastMaterialRefreshTime()
 		{
-			return (::UnityEngine::AnimationCurve**)Il2CppClass::FromTypeDefinitionIndex(CutSceneUtils_TypeDefinitionIndex)->GetStaticField(0x266E8);
+			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::Material*, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(CutSceneUtils_TypeDefinitionIndex)->GetStaticField(0x27E60);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::Timeline::KFrameFieldType>** StaticGet_PropertyMapFieldType()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::Timeline::KFrameFieldType>**)Il2CppClass::FromTypeDefinitionIndex(CutSceneUtils_TypeDefinitionIndex)->GetStaticField(0x27E68);
 		}
 		static ::System::Single* StaticGet_mixDeltaTime()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(CutSceneUtils_TypeDefinitionIndex)->GetStaticField(0x7E20);
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(CutSceneUtils_TypeDefinitionIndex)->GetStaticField(0x7E90);
 		}
 
 		::System::Void _ctor()

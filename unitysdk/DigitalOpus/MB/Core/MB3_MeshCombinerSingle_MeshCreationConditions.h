@@ -3,7 +3,7 @@
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int MB3_MeshCombinerSingle_MeshCreationConditions_TypeDefinitionIndex = 90632;
+	inline static constexpr unsigned int MB3_MeshCombinerSingle_MeshCreationConditions_TypeDefinitionIndex = 94565;
 
 	enum class MB3_MeshCombinerSingle_MeshCreationConditions : ::System::Int32
 	{

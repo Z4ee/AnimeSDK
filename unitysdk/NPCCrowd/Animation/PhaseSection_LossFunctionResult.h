@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define NPCCROWD_ANIMATION_PHASESECTION_LOSSFUNCTIONRESULT_UPDATE_OFFSET UNITYSDK_OFFSET(0x68F470)
+#define NPCCROWD_ANIMATION_PHASESECTION_LOSSFUNCTIONRESULT_UPDATE_OFFSET UNITYSDK_OFFSET(0x464FC0)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int PhaseSection_LossFunctionResult_TypeDefinitionIndex = 53455;
+	inline static constexpr unsigned int PhaseSection_LossFunctionResult_TypeDefinitionIndex = 61197;
 
 	struct alignas(4) PhaseSection_LossFunctionResult
 	{

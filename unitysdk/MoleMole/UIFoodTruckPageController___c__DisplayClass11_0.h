@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIFoodTruckPageController; }
 
-#define MOLEMOLE_UIFOODTRUCKPAGECONTROLLER___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16F55970)
-#define MOLEMOLE_UIFOODTRUCKPAGECONTROLLER___C__DISPLAYCLASS11_0__ONUIOPEN_B__0_OFFSET UNITYSDK_OFFSET(0x16F55980)
+#define MOLEMOLE_UIFOODTRUCKPAGECONTROLLER___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x170E3290)
+#define MOLEMOLE_UIFOODTRUCKPAGECONTROLLER___C__DISPLAYCLASS11_0__ONUIOPEN_B__0_OFFSET UNITYSDK_OFFSET(0x170E32A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIFoodTruckPageController___c__DisplayClass11_0_TypeDefinitionIndex = 42287;
+	inline static constexpr unsigned int UIFoodTruckPageController___c__DisplayClass11_0_TypeDefinitionIndex = 59336;
 
 	class UIFoodTruckPageController___c__DisplayClass11_0 : public ::System::Object
 	{

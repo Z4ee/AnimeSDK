@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int MonoUIAnimScroll_ItemDragType_TypeDefinitionIndex = 63782;
+inline static constexpr unsigned int MonoUIAnimScroll_ItemDragType_TypeDefinitionIndex = 84706;
 
 enum class MonoUIAnimScroll_ItemDragType : ::System::Byte
 {

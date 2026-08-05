@@ -4,11 +4,11 @@
 
 class Class_2_EA8F026699B496CE;
 
-#define MOLEMOLE_UIREPELFIGHTINGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15618870)
+#define MOLEMOLE_UIREPELFIGHTINGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16A86410)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRepelFightingContext_TypeDefinitionIndex = 81054;
+	inline static constexpr unsigned int UIRepelFightingContext_TypeDefinitionIndex = 64721;
 
 	class UIRepelFightingContext : public ::MoleMole::UIControllerContextBase
 	{

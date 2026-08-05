@@ -10,7 +10,7 @@ namespace UnityEngine { class Object; }
 
 namespace Foundation
 {
-	inline static constexpr unsigned int TextDataAssetProxy___c__DisplayClass4_0_1_TypeDefinitionIndex = 68446;
+	inline static constexpr unsigned int TextDataAssetProxy___c__DisplayClass4_0_1_TypeDefinitionIndex = 76785;
 
 	template <typename T>
 	class TextDataAssetProxy___c__DisplayClass4_0_1 : public ::System::Object

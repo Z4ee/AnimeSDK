@@ -10,7 +10,7 @@ namespace System { class Exception; }
 
 namespace MoleMole::Utils
 {
-	inline static constexpr unsigned int AutoResetInternalUniTaskCompletionSource_1_TypeDefinitionIndex = 69354;
+	inline static constexpr unsigned int AutoResetInternalUniTaskCompletionSource_1_TypeDefinitionIndex = 55196;
 
 	template <typename T>
 	class AutoResetInternalUniTaskCompletionSource_1 : public ::System::Object

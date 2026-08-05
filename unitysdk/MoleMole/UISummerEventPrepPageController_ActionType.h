@@ -3,18 +3,18 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISummerEventPrepPageController_ActionType_TypeDefinitionIndex = 51690;
+	inline static constexpr unsigned int UISummerEventPrepPageController_ActionType_TypeDefinitionIndex = 67942;
 
 	enum class UISummerEventPrepPageController_ActionType : ::System::Int32
 	{
-		Reward = 6,
-		Aquarium = 2,
-		Alice = 4,
-		Surf = 3,
 		TimeReward = 9,
-		Yuzuha = 5,
+		Alice = 4,
 		Shot = 1,
+		Reward = 6,
 		MainTask = 7,
 		SkinReward = 8,
+		Yuzuha = 5,
+		Aquarium = 2,
+		Surf = 3,
 	};
 }

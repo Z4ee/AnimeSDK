@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define FOUNDATION_UNREAL_FNAMEENTRYHEADER_ISEQUAL_OFFSET UNITYSDK_OFFSET(0x1E46F0F0)
+#define FOUNDATION_UNREAL_FNAMEENTRYHEADER_ISEQUAL_OFFSET UNITYSDK_OFFSET(0x1F8C56D0)
 
 namespace Foundation::Unreal
 {
-	inline static constexpr unsigned int FNameEntryHeader_TypeDefinitionIndex = 8712;
+	inline static constexpr unsigned int FNameEntryHeader_TypeDefinitionIndex = 8743;
 
 	struct alignas(4) FNameEntryHeader
 	{

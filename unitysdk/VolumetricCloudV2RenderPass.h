@@ -13,168 +13,99 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
-namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine::NAPRenderPipeline0 { class ProfilingSampler; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 namespace UnityEngine::Rendering::Universal { class VolumetricCloudConfigV2; }
 namespace UnityEngine::Rendering::Universal { class VolumetricCloudV2Config; }
+namespace UnityEngine::Rendering::Universal::Internal { class CpuIntParams; }
+namespace UnityEngine::Rendering::Universal::Internal { class CpuTextureParams; }
+namespace UnityEngine::Rendering::Universal::Internal { class CpuVector4Params; }
 
-#define VOLUMETRICCLOUDV2RENDERPASS_ENSUREMERGEDTRACINGRT_OFFSET UNITYSDK_OFFSET(0x1BC3E590)
-#define VOLUMETRICCLOUDV2RENDERPASS_ENSURESINGLECLOUDTRACINGRT_OFFSET UNITYSDK_OFFSET(0x1BC3E340)
-#define VOLUMETRICCLOUDV2RENDERPASS_ENSUREVOLUMETRICTRACINGRT_OFFSET UNITYSDK_OFFSET(0x1BC3E0E0)
-#define VOLUMETRICCLOUDV2RENDERPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1BC3B810)
-#define VOLUMETRICCLOUDV2RENDERPASS_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1BC3E7E0)
-#define VOLUMETRICCLOUDV2RENDERPASS_GETTRACINGDESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1BC3E980)
-#define VOLUMETRICCLOUDV2RENDERPASS_SETPACKEDCLOUDPARAMS_OFFSET UNITYSDK_OFFSET(0x1BC3B220)
-#define VOLUMETRICCLOUDV2RENDERPASS_SETUP_OFFSET UNITYSDK_OFFSET(0x1BC3AB80)
-#define VOLUMETRICCLOUDV2RENDERPASS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BC3EB80)
-#define VOLUMETRICCLOUDV2RENDERPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC3A9C0)
-#define VOLUMETRICCLOUDV2RENDERPASS___BASE_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1BC3EDE0)
+#define VOLUMETRICCLOUDV2RENDERPASS_ENSUREMERGEDTRACINGRT_OFFSET UNITYSDK_OFFSET(0x1C9BB590)
+#define VOLUMETRICCLOUDV2RENDERPASS_ENSURESINGLECLOUDTRACINGRT_OFFSET UNITYSDK_OFFSET(0x1C9BB330)
+#define VOLUMETRICCLOUDV2RENDERPASS_ENSUREVOLUMETRICTRACINGRT_OFFSET UNITYSDK_OFFSET(0x1C9BB0C0)
+#define VOLUMETRICCLOUDV2RENDERPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1C9B8020)
+#define VOLUMETRICCLOUDV2RENDERPASS_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1C9BB7F0)
+#define VOLUMETRICCLOUDV2RENDERPASS_GETTRACINGDESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1C9BB990)
+#define VOLUMETRICCLOUDV2RENDERPASS_SETPACKEDCLOUDPARAMS_OFFSET UNITYSDK_OFFSET(0x1C9B71E0)
+#define VOLUMETRICCLOUDV2RENDERPASS_SETUP_OFFSET UNITYSDK_OFFSET(0x1C9B6B50)
+#define VOLUMETRICCLOUDV2RENDERPASS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C9BBBA0)
+#define VOLUMETRICCLOUDV2RENDERPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1C9B6370)
+#define VOLUMETRICCLOUDV2RENDERPASS___BASE_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1C9BBC40)
 
-inline static constexpr unsigned int VolumetricCloudV2RenderPass_TypeDefinitionIndex = 27002;
+inline static constexpr unsigned int VolumetricCloudV2RenderPass_TypeDefinitionIndex = 27662;
 
 class VolumetricCloudV2RenderPass : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 {
 public:
-	static ::System::Int32* StaticGet__CloudV2Params5()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VolumetricCloudV2RenderPass_TypeDefinitionIndex)->GetStaticField(0x66F0);
-	}
 	static ::System::Int32* StaticGet__OutCloudColor()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VolumetricCloudV2RenderPass_TypeDefinitionIndex)->GetStaticField(0x66F4);
-	}
-	static ::System::Int32* StaticGet__StateFrameIndexMod8()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VolumetricCloudV2RenderPass_TypeDefinitionIndex)->GetStaticField(0x66F8);
-	}
-	static ::System::Int32* StaticGet__CloudOutputSize()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VolumetricCloudV2RenderPass_TypeDefinitionIndex)->GetStaticField(0x66FC);
-	}
-	static ::System::Int32* StaticGet__CloudV2Params0()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VolumetricCloudV2RenderPass_TypeDefinitionIndex)->GetStaticField(0x6700);
-	}
-	static ::System::Int32* StaticGet__MobileDensityMapID()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VolumetricCloudV2RenderPass_TypeDefinitionIndex)->GetStaticField(0x6704);
-	}
-	static ::System::Int32* StaticGet__MobileCloudParams0()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VolumetricCloudV2RenderPass_TypeDefinitionIndex)->GetStaticField(0x6708);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VolumetricCloudV2RenderPass_TypeDefinitionIndex)->GetStaticField(0x66C0);
 	}
 	static ::System::Int32* StaticGet__MergedCloudDepthRT()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VolumetricCloudV2RenderPass_TypeDefinitionIndex)->GetStaticField(0x670C);
-	}
-	static ::System::Int32* StaticGet__MsOctaveCount()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VolumetricCloudV2RenderPass_TypeDefinitionIndex)->GetStaticField(0x6710);
-	}
-	static ::System::Int32* StaticGet__CloudV2Params2()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VolumetricCloudV2RenderPass_TypeDefinitionIndex)->GetStaticField(0x6714);
-	}
-	static ::System::Int32* StaticGet__MobileCloudParams1()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VolumetricCloudV2RenderPass_TypeDefinitionIndex)->GetStaticField(0x6718);
-	}
-	static ::System::Int32* StaticGet__SingleCloudDepthRT()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VolumetricCloudV2RenderPass_TypeDefinitionIndex)->GetStaticField(0x671C);
-	}
-	static ::System::Int32* StaticGet__CloudModelDataTex()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VolumetricCloudV2RenderPass_TypeDefinitionIndex)->GetStaticField(0x6720);
-	}
-	static ::System::Int32* StaticGet__CloudDepthRT()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VolumetricCloudV2RenderPass_TypeDefinitionIndex)->GetStaticField(0x6724);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VolumetricCloudV2RenderPass_TypeDefinitionIndex)->GetStaticField(0x66C4);
 	}
 	static ::System::Int32* StaticGet__OutCloudDepth()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VolumetricCloudV2RenderPass_TypeDefinitionIndex)->GetStaticField(0x6728);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VolumetricCloudV2RenderPass_TypeDefinitionIndex)->GetStaticField(0x66C8);
 	}
 	static ::System::Int32* StaticGet__MergedCloudColorRT()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VolumetricCloudV2RenderPass_TypeDefinitionIndex)->GetStaticField(0x672C);
-	}
-	static ::System::Int32* StaticGet__CloudRampColorTex()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VolumetricCloudV2RenderPass_TypeDefinitionIndex)->GetStaticField(0x6730);
-	}
-	static ::System::Int32* StaticGet__CloudV2Params7()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VolumetricCloudV2RenderPass_TypeDefinitionIndex)->GetStaticField(0x6734);
-	}
-	static ::System::Int32* StaticGet__CloudV2Params1()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VolumetricCloudV2RenderPass_TypeDefinitionIndex)->GetStaticField(0x6738);
-	}
-	static ::System::Int32* StaticGet__CloudSDFTex()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VolumetricCloudV2RenderPass_TypeDefinitionIndex)->GetStaticField(0x673C);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VolumetricCloudV2RenderPass_TypeDefinitionIndex)->GetStaticField(0x66CC);
 	}
 	static ::System::Int32* StaticGet__SingleCloudColorRT()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VolumetricCloudV2RenderPass_TypeDefinitionIndex)->GetStaticField(0x6740);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VolumetricCloudV2RenderPass_TypeDefinitionIndex)->GetStaticField(0x66D0);
 	}
-	static ::System::Int32* StaticGet__CloudColorRT()
+	static ::System::Int32* StaticGet__SingleCloudDepthRT()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VolumetricCloudV2RenderPass_TypeDefinitionIndex)->GetStaticField(0x6744);
-	}
-	static ::System::Int32* StaticGet__CloudV2Params3()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VolumetricCloudV2RenderPass_TypeDefinitionIndex)->GetStaticField(0x6748);
-	}
-	static ::System::Int32* StaticGet__MobileCloudParams2()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VolumetricCloudV2RenderPass_TypeDefinitionIndex)->GetStaticField(0x674C);
-	}
-	static ::System::Int32* StaticGet__CloudV2Params8()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VolumetricCloudV2RenderPass_TypeDefinitionIndex)->GetStaticField(0x6750);
-	}
-	static ::System::Int32* StaticGet__CloudNoiseTex()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VolumetricCloudV2RenderPass_TypeDefinitionIndex)->GetStaticField(0x6754);
-	}
-	static ::System::Int32* StaticGet__CloudV2Params6()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VolumetricCloudV2RenderPass_TypeDefinitionIndex)->GetStaticField(0x6758);
-	}
-	static ::System::Int32* StaticGet__CloudV2Params4()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VolumetricCloudV2RenderPass_TypeDefinitionIndex)->GetStaticField(0x675C);
-	}
-	static ::System::Int32* StaticGet__CloudV2Params9()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VolumetricCloudV2RenderPass_TypeDefinitionIndex)->GetStaticField(0x6760);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VolumetricCloudV2RenderPass_TypeDefinitionIndex)->GetStaticField(0x66D4);
 	}
 	// static const ::System::Int32 kTracePassIndex = 0x1; // 0x0
 	// static const ::System::Int32 kSingleCloudMergePassIndex = 0x4; // 0x0
-	// static const ::System::String* kTraceFullResKeyword; // 0x0
-	// static const ::System::String* kTraceEnableSdfKeyword; // 0x0
-	// static const ::System::String* kCloudUseRampColorKeyword; // 0x0
-	// static const ::System::String* kTraceMobileEnvelopeKeyword; // 0x0
-	::Il2CppArray<::UnityEngine::Rendering::RenderTargetIdentifier>* _mrt2_merged; // 0xA8
-	::UnityEngine::Material* cloudProcessMaterial; // 0xB0
-	::System::Collections::Generic::List_1<::UnityEngine::Rendering::ShaderTagId>* m_ShaderTagIdList; // 0xB8
-	::Il2CppArray<::UnityEngine::Rendering::RenderTargetIdentifier>* _mrt2_tracing; // 0xC0
-	::Il2CppArray<::UnityEngine::Rendering::RenderTargetIdentifier>* _mrt2_singleCloud; // 0xC8
-	::UnityEngine::NAPRenderPipeline0::ProfilingSampler* profileSampler; // 0xD0
-	::UnityEngine::Rendering::Universal::VolumetricCloudV2Config* cloudConfig; // 0xD8
-	::UnityEngine::Rendering::RenderTargetIdentifier volumetricTracingRTDepth; // 0xE0
-	::UnityEngine::Rendering::RenderTargetIdentifier mergedCloudTracingRTDepth; // 0x108
-	::System::Int32 frameIndexMod8; // 0x130
-	::UnityEngine::Vector2 volumetricRTSize; // 0x134
-	::UnityEngine::Rendering::RenderTargetIdentifier singleCloudTracingRT; // 0x140
-	::UnityEngine::Rendering::RenderTargetIdentifier singleCloudTracingRTDepth; // 0x168
-	::UnityEngine::Rendering::RenderTargetIdentifier volumetricTracingRT; // 0x190
-	::UnityEngine::Rendering::RenderTargetIdentifier mergedCloudTracingRT; // 0x1B8
+	::UnityEngine::Rendering::Universal::Internal::CpuVector4Params* CloudV2Params1; // 0xA8
+	::UnityEngine::Rendering::Universal::Internal::CpuVector4Params* CloudV2Params6; // 0xB0
+	::UnityEngine::Rendering::Universal::Internal::CpuVector4Params* CloudV2Params0; // 0xB8
+	::UnityEngine::Rendering::Universal::Internal::CpuTextureParams* CloudRampColorTex; // 0xC0
+	::UnityEngine::Rendering::Universal::Internal::CpuVector4Params* MobileCloudParams0; // 0xC8
+	::UnityEngine::Rendering::Universal::Internal::CpuVector4Params* CloudV2Params4; // 0xD0
+	::UnityEngine::Rendering::Universal::Internal::CpuVector4Params* CloudV2Params5; // 0xD8
+	::UnityEngine::Rendering::Universal::Internal::CpuVector4Params* CloudV2Params9; // 0xE0
+	::UnityEngine::NAPRenderPipeline0::ProfilingSampler* profileSampler; // 0xE8
+	::Il2CppArray<::UnityEngine::Rendering::RenderTargetIdentifier>* _mrt2_tracing; // 0xF0
+	::Il2CppArray<::UnityEngine::Rendering::RenderTargetIdentifier>* _mrt2_singleCloud; // 0xF8
+	::UnityEngine::Rendering::Universal::Internal::CpuVector4Params* CloudV2Params2; // 0x100
+	::UnityEngine::Rendering::Universal::Internal::CpuTextureParams* CloudModelDataTex; // 0x108
+	::UnityEngine::Rendering::Universal::Internal::CpuVector4Params* CloudV2Params7; // 0x110
+	::UnityEngine::Rendering::Universal::Internal::CpuIntParams* StateFrameIndexMod8; // 0x118
+	::System::Collections::Generic::List_1<::UnityEngine::Rendering::ShaderTagId>* m_ShaderTagIdList; // 0x120
+	::UnityEngine::Rendering::Universal::Internal::CpuVector4Params* MobileCloudParams2; // 0x128
+	::UnityEngine::Rendering::Universal::Internal::CpuTextureParams* CloudNoiseTex; // 0x130
+	::UnityEngine::Rendering::Universal::Internal::CpuTextureParams* MobileDensityMapID; // 0x138
+	::UnityEngine::Rendering::Universal::Internal::CpuVector4Params* CloudV2Params8; // 0x140
+	::UnityEngine::Rendering::Universal::Internal::CpuVector4Params* CloudV2Params3; // 0x148
+	::UnityEngine::Material* cloudProcessMaterial; // 0x150
+	::UnityEngine::Rendering::Universal::Internal::CpuVector4Params* MobileCloudParams1; // 0x158
+	::UnityEngine::Rendering::Universal::Internal::CpuTextureParams* CloudSDFTex; // 0x160
+	::Il2CppArray<::UnityEngine::Rendering::RenderTargetIdentifier>* _mrt2_merged; // 0x168
+	::UnityEngine::Rendering::Universal::VolumetricCloudV2Config* cloudConfig; // 0x170
+	::UnityEngine::Rendering::Universal::Internal::CpuVector4Params* CloudOutputSize; // 0x178
+	::UnityEngine::Rendering::Universal::Internal::CpuIntParams* MsOctaveCount; // 0x180
+	::UnityEngine::Rendering::RenderTargetIdentifier singleCloudTracingRTDepth; // 0x188
+	::System::Int32 SingleCloudDepthRT; // 0x1B0
+	::System::Int32 CloudDepthRT; // 0x1B4
+	::UnityEngine::Vector2 volumetricRTSize; // 0x1B8
+	::System::Int32 SingleCloudColorRT; // 0x1C0
+	::UnityEngine::Rendering::RenderTargetIdentifier volumetricTracingRTDepth; // 0x1C8
+	::UnityEngine::Rendering::RenderTargetIdentifier mergedCloudTracingRTDepth; // 0x1F0
+	::UnityEngine::Rendering::RenderTargetIdentifier volumetricTracingRT; // 0x218
+	::UnityEngine::Rendering::RenderTargetIdentifier singleCloudTracingRT; // 0x240
+	::UnityEngine::Rendering::RenderTargetIdentifier mergedCloudTracingRT; // 0x268
+	::System::Int32 frameIndexMod8; // 0x290
+	::System::Int32 CloudColorRT; // 0x294
 
 	::System::Void _ctor(::UnityEngine::NAPRenderPipeline0::RenderPassEvent evt, ::UnityEngine::Material* cloudMaterial)
 	{

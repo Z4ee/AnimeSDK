@@ -11,8 +11,8 @@
 namespace System::Net::WebSockets { class ManagedWebSocket; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define SYSTEM_NET_WEBSOCKETS_MANAGEDWEBSOCKET__SENDFRAMEFALLBACKASYNC_D__55_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x985660)
-#define SYSTEM_NET_WEBSOCKETS_MANAGEDWEBSOCKET__SENDFRAMEFALLBACKASYNC_D__55_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x954A80)
+#define SYSTEM_NET_WEBSOCKETS_MANAGEDWEBSOCKET__SENDFRAMEFALLBACKASYNC_D__55_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x9D50E0)
+#define SYSTEM_NET_WEBSOCKETS_MANAGEDWEBSOCKET__SENDFRAMEFALLBACKASYNC_D__55_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x977E40)
 
 namespace System::Net::WebSockets
 {
@@ -20,15 +20,15 @@ namespace System::Net::WebSockets
 
 	struct alignas(8) ManagedWebSocket__SendFrameFallbackAsync_d__55
 	{
-		::System::Threading::CancellationToken cancellationToken; // 0x10
-		::System::Net::WebSockets::ManagedWebSocket* __4__this; // 0x18
-		::System::ArraySegment_1<::System::Byte> payloadBuffer; // 0x20
+		::System::Net::WebSockets::ManagedWebSocket* __4__this; // 0x10
+		::System::Threading::CancellationToken cancellationToken; // 0x18
+		::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1; // 0x20
 		::System::Threading::CancellationTokenRegistration __7__wrap1; // 0x30
-		::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1; // 0x48
-		::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder; // 0x58
-		::System::Boolean endOfMessage; // 0x70
-		::System::Net::WebSockets::ManagedWebSocket_MessageOpcode opcode; // 0x71
-		::System::Int32 __1__state; // 0x74
+		::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder; // 0x48
+		::System::ArraySegment_1<::System::Byte> payloadBuffer; // 0x60
+		::System::Int32 __1__state; // 0x70
+		::System::Net::WebSockets::ManagedWebSocket_MessageOpcode opcode; // 0x74
+		::System::Boolean endOfMessage; // 0x75
 
 		::System::Void MoveNext()
 		{

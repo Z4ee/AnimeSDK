@@ -3,10 +3,10 @@
 #include "unitysdk/MoleMole/Config/BuffGroupName.h"
 #include "unitysdk/System/ValueType.h"
 
-#define STRUCT_2_BE30570FDE6F5336_EQUALS_OFFSET UNITYSDK_OFFSET(0x79D890)
-#define STRUCT_2_BE30570FDE6F5336_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x79D8F0)
+#define STRUCT_2_BE30570FDE6F5336_EQUALS_OFFSET UNITYSDK_OFFSET(0x80FAF0)
+#define STRUCT_2_BE30570FDE6F5336_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x80FB50)
 
-inline static constexpr unsigned int Struct_2_BE30570FDE6F5336_TypeDefinitionIndex = 75937;
+inline static constexpr unsigned int Struct_2_BE30570FDE6F5336_TypeDefinitionIndex = 42554;
 
 struct alignas(1) Struct_2_BE30570FDE6F5336
 {

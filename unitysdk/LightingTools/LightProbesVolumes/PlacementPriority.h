@@ -3,7 +3,7 @@
 
 namespace LightingTools::LightProbesVolumes
 {
-	inline static constexpr unsigned int PlacementPriority_TypeDefinitionIndex = 90514;
+	inline static constexpr unsigned int PlacementPriority_TypeDefinitionIndex = 94447;
 
 	enum class PlacementPriority : ::System::Int32
 	{

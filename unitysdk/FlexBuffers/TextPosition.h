@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define FLEXBUFFERS_TEXTPOSITION_TOSTRING_OFFSET UNITYSDK_OFFSET(0x9F8700)
+#define FLEXBUFFERS_TEXTPOSITION_TOSTRING_OFFSET UNITYSDK_OFFSET(0xA480A0)
 
 namespace FlexBuffers
 {
-	inline static constexpr unsigned int TextPosition_TypeDefinitionIndex = 6756;
+	inline static constexpr unsigned int TextPosition_TypeDefinitionIndex = 6760;
 
 	struct alignas(8) TextPosition
 	{

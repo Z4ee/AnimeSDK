@@ -3,7 +3,7 @@
 
 namespace PipelineCamera::Demo::Movement
 {
-	inline static constexpr unsigned int DemoLocomotionController_InputKeys_TypeDefinitionIndex = 37761;
+	inline static constexpr unsigned int DemoLocomotionController_InputKeys_TypeDefinitionIndex = 38422;
 
 	enum class DemoLocomotionController_InputKeys : ::System::Int32
 	{

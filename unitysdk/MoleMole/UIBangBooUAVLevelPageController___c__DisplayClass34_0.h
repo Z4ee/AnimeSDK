@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIBangBooUAVLevelPageController; }
 
-#define MOLEMOLE_UIBANGBOOUAVLEVELPAGECONTROLLER___C__DISPLAYCLASS34_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1868AA90)
-#define MOLEMOLE_UIBANGBOOUAVLEVELPAGECONTROLLER___C__DISPLAYCLASS34_0__REFRESHLEVELLIST_B__0_OFFSET UNITYSDK_OFFSET(0x1868AAA0)
+#define MOLEMOLE_UIBANGBOOUAVLEVELPAGECONTROLLER___C__DISPLAYCLASS34_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19A79450)
+#define MOLEMOLE_UIBANGBOOUAVLEVELPAGECONTROLLER___C__DISPLAYCLASS34_0__REFRESHLEVELLIST_B__0_OFFSET UNITYSDK_OFFSET(0x19A79460)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBangBooUAVLevelPageController___c__DisplayClass34_0_TypeDefinitionIndex = 61523;
+	inline static constexpr unsigned int UIBangBooUAVLevelPageController___c__DisplayClass34_0_TypeDefinitionIndex = 65629;
 
 	class UIBangBooUAVLevelPageController___c__DisplayClass34_0 : public ::System::Object
 	{

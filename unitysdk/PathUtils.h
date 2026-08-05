@@ -13,23 +13,24 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::AI { class NavMeshPath; }
 
-#define PATHUTILS_FINDNEARESTPOINTSBYPATH_OFFSET UNITYSDK_OFFSET(0x1B5A3040)
-#define PATHUTILS_FINDSTRAIGHTPATH_OFFSET UNITYSDK_OFFSET(0x1B5A1920)
-#define PATHUTILS_PERP2D_OFFSET UNITYSDK_OFFSET(0x1B5A12D0)
-#define PATHUTILS_RETRACEPORTALS_OFFSET UNITYSDK_OFFSET(0x1B5A13C0)
-#define PATHUTILS_SWAP_OFFSET UNITYSDK_OFFSET(0x1B5A1350)
-#define PATHUTILS_TRYCALCULATEPATHLENGTH_OFFSET UNITYSDK_OFFSET(0x1B5A3530)
-#define PATHUTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B5A3910)
-#define PATHUTILS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5A3900)
+#define PATHUTILS_FINDCURRENTPOLYGONPATHINDEX_OFFSET UNITYSDK_OFFSET(0x1D338910)
+#define PATHUTILS_FINDNEARESTPOINTSBYPATH_OFFSET UNITYSDK_OFFSET(0x1D338AB0)
+#define PATHUTILS_FINDSTRAIGHTPATH_OFFSET UNITYSDK_OFFSET(0x1D337150)
+#define PATHUTILS_PERP2D_OFFSET UNITYSDK_OFFSET(0x1D336B00)
+#define PATHUTILS_RETRACEPORTALS_OFFSET UNITYSDK_OFFSET(0x1D336BF0)
+#define PATHUTILS_SWAP_OFFSET UNITYSDK_OFFSET(0x1D336B80)
+#define PATHUTILS_TRYCALCULATEPATHLENGTH_OFFSET UNITYSDK_OFFSET(0x1D338FA0)
+#define PATHUTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D339360)
+#define PATHUTILS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D339350)
 
-inline static constexpr unsigned int PathUtils_TypeDefinitionIndex = 69332;
+inline static constexpr unsigned int PathUtils_TypeDefinitionIndex = 83939;
 
 class PathUtils : public ::System::Object
 {
 public:
 	static ::UnityEngine::AI::NavMeshPath** StaticGet_CommNavMeshPath()
 	{
-		return (::UnityEngine::AI::NavMeshPath**)Il2CppClass::FromTypeDefinitionIndex(PathUtils_TypeDefinitionIndex)->GetStaticField(0x48B00);
+		return (::UnityEngine::AI::NavMeshPath**)Il2CppClass::FromTypeDefinitionIndex(PathUtils_TypeDefinitionIndex)->GetStaticField(0x4C9E0);
 	}
 
 	::System::Void _ctor()
@@ -60,6 +61,11 @@ public:
 	static ::UnityEngine::Experimental::AI::PathQueryStatus FindStraightPath(::UnityEngine::Experimental::AI::NavMeshQuery query, ::UnityEngine::Vector3 startPos, ::UnityEngine::Vector3 endPos, ::Unity::Collections::NativeSlice_1<::UnityEngine::Experimental::AI::PolygonId> path, ::System::Int32 pathSize, ::Unity::Collections::NativeArray_1<::UnityEngine::Experimental::AI::NavMeshLocation>& straightPath, ::Unity::Collections::NativeArray_1<::StraightPathFlags>& straightPathFlags, ::Unity::Collections::NativeArray_1<::System::Single>& vertexSide, ::System::Int32& straightPathCount, ::System::Int32 maxStraightPath)
 	{
 		return ((::UnityEngine::Experimental::AI::PathQueryStatus(*)(::UnityEngine::Experimental::AI::NavMeshQuery, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::Unity::Collections::NativeSlice_1<::UnityEngine::Experimental::AI::PolygonId>, ::System::Int32, ::Unity::Collections::NativeArray_1<::UnityEngine::Experimental::AI::NavMeshLocation>&, ::Unity::Collections::NativeArray_1<::StraightPathFlags>&, ::Unity::Collections::NativeArray_1<::System::Single>&, ::System::Int32&, ::System::Int32))((::PBYTE)hIl2Cpp + PATHUTILS_FINDSTRAIGHTPATH_OFFSET))(query, startPos, endPos, path, pathSize, straightPath, straightPathFlags, vertexSide, straightPathCount, maxStraightPath);
+	}
+
+	static ::System::Int32 FindCurrentPolygonPathIndex(::UnityEngine::Experimental::AI::NavMeshQuery query, ::UnityEngine::Vector3 currentPosition, ::Unity::Collections::NativeSlice_1<::UnityEngine::Experimental::AI::PolygonId> path, ::System::Int32 pathSize)
+	{
+		return ((::System::Int32(*)(::UnityEngine::Experimental::AI::NavMeshQuery, ::UnityEngine::Vector3, ::Unity::Collections::NativeSlice_1<::UnityEngine::Experimental::AI::PolygonId>, ::System::Int32))((::PBYTE)hIl2Cpp + PATHUTILS_FINDCURRENTPOLYGONPATHINDEX_OFFSET))(query, currentPosition, path, pathSize);
 	}
 
 	static ::System::Void FindNearestPointsByPath(::UnityEngine::Vector3 source, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* points, ::System::Single heightLimit, ::System::Int32 count, ::System::Int32& resCnt, ::System::Collections::Generic::List_1<::System::Int32>*& indexes)

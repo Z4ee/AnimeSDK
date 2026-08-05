@@ -6,20 +6,20 @@ namespace MiHoYo::SDK::HoYoPass { class LoginManager; }
 namespace System { class Action; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS49_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB3B740)
-#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS49_0__PERFORMEMAILBINDING_B__0_OFFSET UNITYSDK_OFFSET(0x1BB3B750)
-#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS49_0__PERFORMEMAILBINDING_B__1_OFFSET UNITYSDK_OFFSET(0x1BB3B780)
+#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS49_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE9F630)
+#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS49_0__PERFORMEMAILBINDING_B__0_OFFSET UNITYSDK_OFFSET(0x1CE9F640)
+#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS49_0__PERFORMEMAILBINDING_B__1_OFFSET UNITYSDK_OFFSET(0x1CE9F670)
 
 namespace MiHoYo::SDK::HoYoPass
 {
-	inline static constexpr unsigned int LoginManager___c__DisplayClass49_0_TypeDefinitionIndex = 20087;
+	inline static constexpr unsigned int LoginManager___c__DisplayClass49_0_TypeDefinitionIndex = 20435;
 
 	class LoginManager___c__DisplayClass49_0 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::HoYoPass::LoginManager* __4__this; // 0x10
-		::System::String* bindEmailTicket; // 0x18
-		::System::Action* callback; // 0x20
+		::System::Action* callback; // 0x10
+		::MiHoYo::SDK::HoYoPass::LoginManager* __4__this; // 0x18
+		::System::String* bindEmailTicket; // 0x20
 
 		::System::Void _ctor()
 		{

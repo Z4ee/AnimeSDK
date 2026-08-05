@@ -3,7 +3,7 @@
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int DelayType_TypeDefinitionIndex = 31269;
+	inline static constexpr unsigned int DelayType_TypeDefinitionIndex = 31889;
 
 	enum class DelayType : ::System::Int32
 	{

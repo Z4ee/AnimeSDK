@@ -6,12 +6,12 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDPLAYSCOREUIANIMATION_INVOKE_OFFSET UNITYSDK_OFFSET(0x161E0D50)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDPLAYSCOREUIANIMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x161E0E80)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDPLAYSCOREUIANIMATION_INVOKE_OFFSET UNITYSDK_OFFSET(0x144C96B0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDPLAYSCOREUIANIMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x144C97F0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDPlayScoreUIAnimation_TypeDefinitionIndex = 45593;
+	inline static constexpr unsigned int LDPlayScoreUIAnimation_TypeDefinitionIndex = 65202;
 
 	class LDPlayScoreUIAnimation : public ::FlowCanvas::Nodes::CallableActionNode_3<::MoleMole::BubbleType, ::MoleMole::ScoreUIAnimationType, ::System::String*>
 	{

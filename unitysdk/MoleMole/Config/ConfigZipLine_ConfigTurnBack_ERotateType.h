@@ -3,11 +3,11 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigZipLine_ConfigTurnBack_ERotateType_TypeDefinitionIndex = 51225;
+	inline static constexpr unsigned int ConfigZipLine_ConfigTurnBack_ERotateType_TypeDefinitionIndex = 52993;
 
 	enum class ConfigZipLine_ConfigTurnBack_ERotateType : ::System::Int32
 	{
-		RotateByRootMotion = 1,
 		RotateByMixin = 0,
+		RotateByRootMotion = 1,
 	};
 }

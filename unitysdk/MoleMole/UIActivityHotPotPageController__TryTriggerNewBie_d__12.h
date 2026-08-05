@@ -8,19 +8,19 @@ class Class_2_00AA8DEB4906FE64;
 namespace MoleMole { class UIActivityHotPotPageController; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define MOLEMOLE_UIACTIVITYHOTPOTPAGECONTROLLER__TRYTRIGGERNEWBIE_D__12_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x82DCB0)
-#define MOLEMOLE_UIACTIVITYHOTPOTPAGECONTROLLER__TRYTRIGGERNEWBIE_D__12_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x67A600)
+#define MOLEMOLE_UIACTIVITYHOTPOTPAGECONTROLLER__TRYTRIGGERNEWBIE_D__12_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x8869A0)
+#define MOLEMOLE_UIACTIVITYHOTPOTPAGECONTROLLER__TRYTRIGGERNEWBIE_D__12_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x52B600)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityHotPotPageController__TryTriggerNewBie_d__12_TypeDefinitionIndex = 66676;
+	inline static constexpr unsigned int UIActivityHotPotPageController__TryTriggerNewBie_d__12_TypeDefinitionIndex = 87301;
 
 	struct alignas(8) UIActivityHotPotPageController__TryTriggerNewBie_d__12
 	{
 		::MoleMole::UIActivityHotPotPageController* __4__this; // 0x10
-		::Class_2_00AA8DEB4906FE64* _newbieModel_5__2; // 0x18
-		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x20
-		::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder; // 0x30
+		::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder; // 0x18
+		::Class_2_00AA8DEB4906FE64* _newbieModel_5__2; // 0x38
+		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x40
 		::System::Int32 __1__state; // 0x50
 
 		::System::Void MoveNext()

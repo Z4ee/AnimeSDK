@@ -5,30 +5,30 @@
 
 namespace System { class String; }
 
-#define CLASS_1_49F17883F620E938__CCTOR_OFFSET UNITYSDK_OFFSET(0x14119DD0)
-#define CLASS_1_49F17883F620E938__CTOR_OFFSET UNITYSDK_OFFSET(0x14119DC0)
+#define CLASS_1_49F17883F620E938__CCTOR_OFFSET UNITYSDK_OFFSET(0x171747C0)
+#define CLASS_1_49F17883F620E938__CTOR_OFFSET UNITYSDK_OFFSET(0x171747B0)
 
-inline static constexpr unsigned int Class_1_49F17883F620E938_TypeDefinitionIndex = 56225;
+inline static constexpr unsigned int Class_1_49F17883F620E938_TypeDefinitionIndex = 83080;
 
 class Class_1_49F17883F620E938 : public ::System::Object
 {
 public:
-	static ::Il2CppArray<::System::String*>** StaticGet_Field_1_6()
+	static ::Il2CppArray<::System::String*>** StaticGet_Field_1_5()
 	{
-		return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_49F17883F620E938_TypeDefinitionIndex)->GetStaticField(0x3C6A0);
+		return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_49F17883F620E938_TypeDefinitionIndex)->GetStaticField(0x4AAA0);
 	}
-	static ::Il2CppArray<::MoleMole::ActivityResSettingTag>** StaticGet_Field_1_4()
+	static ::Il2CppArray<::MoleMole::ActivityResSettingTag>** StaticGet_Field_1_7()
 	{
-		return (::Il2CppArray<::MoleMole::ActivityResSettingTag>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_49F17883F620E938_TypeDefinitionIndex)->GetStaticField(0x3C6A8);
+		return (::Il2CppArray<::MoleMole::ActivityResSettingTag>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_49F17883F620E938_TypeDefinitionIndex)->GetStaticField(0x4AAA8);
 	}
-	static ::Il2CppArray<::MoleMole::ActivityResSettingTag>** StaticGet_Field_1_5()
+	static ::Il2CppArray<::MoleMole::ActivityResSettingTag>** StaticGet_Field_1_6()
 	{
-		return (::Il2CppArray<::MoleMole::ActivityResSettingTag>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_49F17883F620E938_TypeDefinitionIndex)->GetStaticField(0x3C6B0);
+		return (::Il2CppArray<::MoleMole::ActivityResSettingTag>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_49F17883F620E938_TypeDefinitionIndex)->GetStaticField(0x4AAB0);
 	}
-	// static const ::System::Int32 Field_1_0 = 0x989680; // 0x0
-	// static const ::System::Int32 Field_1_1 = 0x1; // 0x0
-	// static const ::System::Int32 Field_1_2 = 0x2; // 0x0
-	// static const ::System::Int32 Field_1_3 = 0x3; // 0x0
+	// static const ::System::Int32 Field_1_3 = 0x989680; // 0x0
+	// static const ::System::Int32 Field_1_2 = 0x1; // 0x0
+	// static const ::System::Int32 Field_1_1 = 0x2; // 0x0
+	// static const ::System::Int32 Field_1_0 = 0x3; // 0x0
 
 	::System::Void _ctor()
 	{

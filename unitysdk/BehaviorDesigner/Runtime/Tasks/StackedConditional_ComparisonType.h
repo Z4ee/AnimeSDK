@@ -3,7 +3,7 @@
 
 namespace BehaviorDesigner::Runtime::Tasks
 {
-	inline static constexpr unsigned int StackedConditional_ComparisonType_TypeDefinitionIndex = 33319;
+	inline static constexpr unsigned int StackedConditional_ComparisonType_TypeDefinitionIndex = 33955;
 
 	enum class StackedConditional_ComparisonType : ::System::Int32
 	{

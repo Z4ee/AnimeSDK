@@ -4,11 +4,11 @@
 
 namespace MoleMole::Config { class PlayerAccessorySkinData; }
 
-#define MOLEMOLE_CONFIG_CONFIGPLAYERACCESSORY__CTOR_OFFSET UNITYSDK_OFFSET(0x18AD73F0)
+#define MOLEMOLE_CONFIG_CONFIGPLAYERACCESSORY__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4B60F0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigPlayerAccessory_TypeDefinitionIndex = 83194;
+	inline static constexpr unsigned int ConfigPlayerAccessory_TypeDefinitionIndex = 60590;
 
 	class ConfigPlayerAccessory : public ::Foundation::MihoyoSerializedScriptableObject
 	{

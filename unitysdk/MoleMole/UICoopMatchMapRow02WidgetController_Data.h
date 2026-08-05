@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_UICOOPMATCHMAPROW02WIDGETCONTROLLER_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0x166B28A0)
+#define MOLEMOLE_UICOOPMATCHMAPROW02WIDGETCONTROLLER_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1803E100)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICoopMatchMapRow02WidgetController_Data_TypeDefinitionIndex = 61027;
+	inline static constexpr unsigned int UICoopMatchMapRow02WidgetController_Data_TypeDefinitionIndex = 62938;
 
 	class UICoopMatchMapRow02WidgetController_Data : public ::System::Object
 	{

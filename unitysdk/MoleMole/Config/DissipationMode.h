@@ -3,15 +3,15 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int DissipationMode_TypeDefinitionIndex = 47451;
+	inline static constexpr unsigned int DissipationMode_TypeDefinitionIndex = 48884;
 
 	enum class DissipationMode : ::System::Int32
 	{
-		QuadraticDecay = 1,
+		ExponentialDecay = 4,
 		LinearDecay = 2,
 		None = 0,
-		CustomDecay = 5,
 		SoftDecay = 3,
-		ExponentialDecay = 4,
+		CustomDecay = 5,
+		QuadraticDecay = 1,
 	};
 }

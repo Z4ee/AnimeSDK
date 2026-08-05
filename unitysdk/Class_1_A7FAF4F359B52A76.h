@@ -5,24 +5,24 @@
 
 namespace BinaryTracingCore::Source::TracingTools { class LogTagDefine_LogTag; }
 
-#define CLASS_1_A7FAF4F359B52A76__CCTOR_OFFSET UNITYSDK_OFFSET(0x12220590)
+#define CLASS_1_A7FAF4F359B52A76__CCTOR_OFFSET UNITYSDK_OFFSET(0x14DDB870)
 
-inline static constexpr unsigned int Class_1_A7FAF4F359B52A76_TypeDefinitionIndex = 58280;
+inline static constexpr unsigned int Class_1_A7FAF4F359B52A76_TypeDefinitionIndex = 53041;
 
 class Class_1_A7FAF4F359B52A76 : public ::System::Object
 {
 public:
-	static ::BinaryTracingCore::Source::TracingTools::LogTagDefine_LogTag** StaticGet_Field_1_0()
+	static ::BinaryTracingCore::Source::TracingTools::LogTagDefine_LogTag** StaticGet_Field_1_1()
 	{
-		return (::BinaryTracingCore::Source::TracingTools::LogTagDefine_LogTag**)Il2CppClass::FromTypeDefinitionIndex(Class_1_A7FAF4F359B52A76_TypeDefinitionIndex)->GetStaticField(0x4A8C0);
+		return (::BinaryTracingCore::Source::TracingTools::LogTagDefine_LogTag**)Il2CppClass::FromTypeDefinitionIndex(Class_1_A7FAF4F359B52A76_TypeDefinitionIndex)->GetStaticField(0x33790);
 	}
-	static ::BinaryTracingCore::Source::TracingTools::LogTagDefine_DisableLogTag* StaticGet_Field_1_1()
+	static ::BinaryTracingCore::Source::TracingTools::LogTagDefine_DisableLogTag* StaticGet_Field_1_7()
 	{
-		return (::BinaryTracingCore::Source::TracingTools::LogTagDefine_DisableLogTag*)Il2CppClass::FromTypeDefinitionIndex(Class_1_A7FAF4F359B52A76_TypeDefinitionIndex)->GetStaticField(0x11950);
+		return (::BinaryTracingCore::Source::TracingTools::LogTagDefine_DisableLogTag*)Il2CppClass::FromTypeDefinitionIndex(Class_1_A7FAF4F359B52A76_TypeDefinitionIndex)->GetStaticField(0xB4F0);
 	}
-	static ::BinaryTracingCore::Source::TracingTools::LogTagDefine_DisableLogTag* StaticGet_Field_1_2()
+	static ::BinaryTracingCore::Source::TracingTools::LogTagDefine_DisableLogTag* StaticGet_Field_1_0()
 	{
-		return (::BinaryTracingCore::Source::TracingTools::LogTagDefine_DisableLogTag*)Il2CppClass::FromTypeDefinitionIndex(Class_1_A7FAF4F359B52A76_TypeDefinitionIndex)->GetStaticField(0x11951);
+		return (::BinaryTracingCore::Source::TracingTools::LogTagDefine_DisableLogTag*)Il2CppClass::FromTypeDefinitionIndex(Class_1_A7FAF4F359B52A76_TypeDefinitionIndex)->GetStaticField(0xB4F1);
 	}
 
 	static ::System::Void _cctor()

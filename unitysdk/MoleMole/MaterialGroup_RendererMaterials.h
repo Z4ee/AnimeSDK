@@ -7,29 +7,30 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Renderer; }
 
-#define MOLEMOLE_MATERIALGROUP_RENDERERMATERIALS_GET_MATERIALS_OFFSET UNITYSDK_OFFSET(0x126240E0)
-#define MOLEMOLE_MATERIALGROUP_RENDERERMATERIALS_GET_SHADEDMATERIALS_OFFSET UNITYSDK_OFFSET(0x12624490)
-#define MOLEMOLE_MATERIALGROUP_RENDERERMATERIALS_METHOD_1_128774387667156B_OFFSET UNITYSDK_OFFSET(0x12624630)
-#define MOLEMOLE_MATERIALGROUP_RENDERERMATERIALS_METHOD_1_FFBC3E5986CAC663_OFFSET UNITYSDK_OFFSET(0x12624670)
-#define MOLEMOLE_MATERIALGROUP_RENDERERMATERIALS_TOSTRING_OFFSET UNITYSDK_OFFSET(0x12624510)
-#define MOLEMOLE_MATERIALGROUP_RENDERERMATERIALS__CCTOR_OFFSET UNITYSDK_OFFSET(0x126245E0)
-#define MOLEMOLE_MATERIALGROUP_RENDERERMATERIALS__CTOR_OFFSET UNITYSDK_OFFSET(0x12624570)
+#define MOLEMOLE_MATERIALGROUP_RENDERERMATERIALS_GET_MATERIALS_OFFSET UNITYSDK_OFFSET(0x149F27B0)
+#define MOLEMOLE_MATERIALGROUP_RENDERERMATERIALS_GET_SHADEDMATERIALS_OFFSET UNITYSDK_OFFSET(0x149F2B60)
+#define MOLEMOLE_MATERIALGROUP_RENDERERMATERIALS_METHOD_1_01237CA99C79931A_OFFSET UNITYSDK_OFFSET(0x149F2D00)
+#define MOLEMOLE_MATERIALGROUP_RENDERERMATERIALS_METHOD_1_128774387667156B_OFFSET UNITYSDK_OFFSET(0x149F3190)
+#define MOLEMOLE_MATERIALGROUP_RENDERERMATERIALS_TOSTRING_OFFSET UNITYSDK_OFFSET(0x149F2BE0)
+#define MOLEMOLE_MATERIALGROUP_RENDERERMATERIALS__CCTOR_OFFSET UNITYSDK_OFFSET(0x149F2CB0)
+#define MOLEMOLE_MATERIALGROUP_RENDERERMATERIALS__CTOR_OFFSET UNITYSDK_OFFSET(0x149F2C40)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MaterialGroup_RendererMaterials_TypeDefinitionIndex = 69117;
+	inline static constexpr unsigned int MaterialGroup_RendererMaterials_TypeDefinitionIndex = 82994;
 
 	class MaterialGroup_RendererMaterials : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::UnityEngine::Material*>** StaticGet_EMPTY_MATERIALS()
 		{
-			return (::Il2CppArray<::UnityEngine::Material*>**)Il2CppClass::FromTypeDefinitionIndex(MaterialGroup_RendererMaterials_TypeDefinitionIndex)->GetStaticField(0x30800);
+			return (::Il2CppArray<::UnityEngine::Material*>**)Il2CppClass::FromTypeDefinitionIndex(MaterialGroup_RendererMaterials_TypeDefinitionIndex)->GetStaticField(0x32790);
 		}
 		::Il2CppArray<::UnityEngine::Material*>* _materials; // 0x10
 		::UnityEngine::Renderer* renderer; // 0x18
-		::System::Collections::Generic::List_1<::UnityEngine::Material*>* _shadedMaterials; // 0x20
-		::System::Boolean skipped; // 0x28
+		::System::Boolean materialsInstanced; // 0x20
+		::System::Collections::Generic::List_1<::UnityEngine::Material*>* _shadedMaterials; // 0x28
+		::System::Boolean skipped; // 0x30
 
 		::System::Void _ctor()
 		{
@@ -56,14 +57,14 @@ namespace MoleMole
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MATERIALGROUP_RENDERERMATERIALS_TOSTRING_OFFSET))(this);
 		}
 
+		::System::Void Method_1_01237CA99C79931A()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MATERIALGROUP_RENDERERMATERIALS_METHOD_1_01237CA99C79931A_OFFSET))(this);
+		}
+
 		::System::String* Method_1_128774387667156B()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MATERIALGROUP_RENDERERMATERIALS_METHOD_1_128774387667156B_OFFSET))(this);
-		}
-
-		::System::Void Method_1_FFBC3E5986CAC663()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MATERIALGROUP_RENDERERMATERIALS_METHOD_1_FFBC3E5986CAC663_OFFSET))(this);
 		}
 	};
 }

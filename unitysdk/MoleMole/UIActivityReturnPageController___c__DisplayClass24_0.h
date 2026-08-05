@@ -7,12 +7,12 @@ class Class_1_E9529ED64113E4E9;
 namespace MoleMole { class UIActivityReturnPageController; }
 namespace MoleMole { class UIBackFlowContext; }
 
-#define MOLEMOLE_UIACTIVITYRETURNPAGECONTROLLER___C__DISPLAYCLASS24_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1F52D0)
-#define MOLEMOLE_UIACTIVITYRETURNPAGECONTROLLER___C__DISPLAYCLASS24_0__OPNETABWIDGETBYACTIVITYDATA_B__0_OFFSET UNITYSDK_OFFSET(0x1A1F52E0)
+#define MOLEMOLE_UIACTIVITYRETURNPAGECONTROLLER___C__DISPLAYCLASS24_0__CTOR_OFFSET UNITYSDK_OFFSET(0x196F3890)
+#define MOLEMOLE_UIACTIVITYRETURNPAGECONTROLLER___C__DISPLAYCLASS24_0__OPNETABWIDGETBYACTIVITYDATA_B__0_OFFSET UNITYSDK_OFFSET(0x196F38A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityReturnPageController___c__DisplayClass24_0_TypeDefinitionIndex = 84845;
+	inline static constexpr unsigned int UIActivityReturnPageController___c__DisplayClass24_0_TypeDefinitionIndex = 73190;
 
 	class UIActivityReturnPageController___c__DisplayClass24_0 : public ::System::Object
 	{

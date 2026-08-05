@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FlowCanvas/Nodes/PureFunctionNode_1.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCOMBATPAUSEGETISIMMERSIVEMODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x12609E10)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCOMBATPAUSEGETISIMMERSIVEMODE__CTOR_OFFSET UNITYSDK_OFFSET(0x12609F40)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCOMBATPAUSEGETISIMMERSIVEMODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x149D6BF0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCOMBATPAUSEGETISIMMERSIVEMODE__CTOR_OFFSET UNITYSDK_OFFSET(0x149D6D20)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDCombatPauseGetIsImmersiveMode_TypeDefinitionIndex = 56187;
+	inline static constexpr unsigned int LDCombatPauseGetIsImmersiveMode_TypeDefinitionIndex = 63770;
 
 	class LDCombatPauseGetIsImmersiveMode : public ::FlowCanvas::Nodes::PureFunctionNode_1<::System::Boolean>
 	{

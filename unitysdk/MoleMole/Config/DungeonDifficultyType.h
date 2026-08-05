@@ -3,7 +3,7 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int DungeonDifficultyType_TypeDefinitionIndex = 51922;
+	inline static constexpr unsigned int DungeonDifficultyType_TypeDefinitionIndex = 73125;
 
 	enum class DungeonDifficultyType : ::System::Int32
 	{

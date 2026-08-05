@@ -3,12 +3,12 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int InLevelNPCCrowdLevel_TypeDefinitionIndex = 81000;
+	inline static constexpr unsigned int InLevelNPCCrowdLevel_TypeDefinitionIndex = 45513;
 
 	enum class InLevelNPCCrowdLevel : ::System::Int32
 	{
-		High = 2,
-		Mid = 1,
 		Low = 0,
+		Mid = 1,
+		High = 2,
 	};
 }

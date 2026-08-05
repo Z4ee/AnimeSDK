@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define UNITYENGINE_RENDERING_LWRP_LIGHTWEIGHTRENDERPIPELINEEDITORRESOURCES__CTOR_OFFSET UNITYSDK_OFFSET(0x1B863490)
+#define UNITYENGINE_RENDERING_LWRP_LIGHTWEIGHTRENDERPIPELINEEDITORRESOURCES__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC70920)
 
 namespace UnityEngine::Rendering::LWRP
 {
-	inline static constexpr unsigned int LightweightRenderPipelineEditorResources_TypeDefinitionIndex = 27181;
+	inline static constexpr unsigned int LightweightRenderPipelineEditorResources_TypeDefinitionIndex = 27597;
 
 	class LightweightRenderPipelineEditorResources : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int BuddyFightModeType_TypeDefinitionIndex = 49442;
+	inline static constexpr unsigned int BuddyFightModeType_TypeDefinitionIndex = 58332;
 
 	enum class BuddyFightModeType : ::System::Int32
 	{

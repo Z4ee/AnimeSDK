@@ -11,24 +11,24 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 namespace System::IO { class Stream; }
 namespace System::Threading::Tasks { class Task; }
 
-#define BINARYTRACINGFRAMEWORK_SERIALIZE_WRITELINKER_FLUSH_OFFSET UNITYSDK_OFFSET(0x1E22F500)
-#define BINARYTRACINGFRAMEWORK_SERIALIZE_WRITELINKER_PUSHSERIALIZEOBJ_OFFSET UNITYSDK_OFFSET(0x1E22F610)
-#define BINARYTRACINGFRAMEWORK_SERIALIZE_WRITELINKER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1E22F140)
-#define BINARYTRACINGFRAMEWORK_SERIALIZE_WRITELINKER_WRITETOFILE_OFFSET UNITYSDK_OFFSET(0x1E2311B0)
-#define BINARYTRACINGFRAMEWORK_SERIALIZE_WRITELINKER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E22ED60)
+#define BINARYTRACINGFRAMEWORK_SERIALIZE_WRITELINKER_FLUSH_OFFSET UNITYSDK_OFFSET(0x1F6534C0)
+#define BINARYTRACINGFRAMEWORK_SERIALIZE_WRITELINKER_PUSHSERIALIZEOBJ_OFFSET UNITYSDK_OFFSET(0x1F6535D0)
+#define BINARYTRACINGFRAMEWORK_SERIALIZE_WRITELINKER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1F6530F0)
+#define BINARYTRACINGFRAMEWORK_SERIALIZE_WRITELINKER_WRITETOFILE_OFFSET UNITYSDK_OFFSET(0x1F655170)
+#define BINARYTRACINGFRAMEWORK_SERIALIZE_WRITELINKER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F652D10)
 
 namespace BinaryTracingFramework::Serialize
 {
-	inline static constexpr unsigned int WriteLinker_TypeDefinitionIndex = 33987;
+	inline static constexpr unsigned int WriteLinker_TypeDefinitionIndex = 34623;
 
 	class WriteLinker : public ::System::Object
 	{
 	public:
-		::System::IO::Stream* WriteStream; // 0x10
-		::System::Threading::Tasks::Task* WriteTask; // 0x18
-		::BinaryTracingFramework::Serialize::MemoryWriteArchive* Archive; // 0x20
-		::System::Collections::Generic::List_1<::BinaryTracingFramework::Serialize::WriteLinker_SerializeObjectCompose>* CurWriteList; // 0x28
-		::System::Collections::Generic::Queue_1<::BinaryTracingFramework::Serialize::WriteLinker_SerializeObjectCompose>* WaitWriteList; // 0x30
+		::System::Collections::Generic::List_1<::BinaryTracingFramework::Serialize::WriteLinker_SerializeObjectCompose>* CurWriteList; // 0x10
+		::System::Collections::Generic::Queue_1<::BinaryTracingFramework::Serialize::WriteLinker_SerializeObjectCompose>* WaitWriteList; // 0x18
+		::System::IO::Stream* WriteStream; // 0x20
+		::System::Threading::Tasks::Task* WriteTask; // 0x28
+		::BinaryTracingFramework::Serialize::MemoryWriteArchive* Archive; // 0x30
 
 		::System::Void _ctor(::System::IO::Stream* stream)
 		{

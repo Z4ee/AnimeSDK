@@ -6,13 +6,13 @@
 namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
 namespace System { class String; }
 
-#define NODECANVAS_TASKS_CONDITIONS_CHECKFLOAT_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1DB9E270)
-#define NODECANVAS_TASKS_CONDITIONS_CHECKFLOAT_ONCHECK_OFFSET UNITYSDK_OFFSET(0x1DB9E2D0)
-#define NODECANVAS_TASKS_CONDITIONS_CHECKFLOAT__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB9E380)
+#define NODECANVAS_TASKS_CONDITIONS_CHECKFLOAT_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1EF94400)
+#define NODECANVAS_TASKS_CONDITIONS_CHECKFLOAT_ONCHECK_OFFSET UNITYSDK_OFFSET(0x1EF94460)
+#define NODECANVAS_TASKS_CONDITIONS_CHECKFLOAT__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF944F0)
 
 namespace NodeCanvas::Tasks::Conditions
 {
-	inline static constexpr unsigned int CheckFloat_TypeDefinitionIndex = 29176;
+	inline static constexpr unsigned int CheckFloat_TypeDefinitionIndex = 29974;
 
 	class CheckFloat : public ::NodeCanvas::Framework::ConditionTask
 	{

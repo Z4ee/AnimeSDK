@@ -3,7 +3,7 @@
 
 namespace UnityEngine::InputSystem
 {
-	inline static constexpr unsigned int InputSettings_BackgroundBehavior_TypeDefinitionIndex = 31693;
+	inline static constexpr unsigned int InputSettings_BackgroundBehavior_TypeDefinitionIndex = 32313;
 
 	enum class InputSettings_BackgroundBehavior : ::System::Int32
 	{

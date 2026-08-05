@@ -7,11 +7,11 @@
 namespace System { class String; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CONFIG_CONFIGSHOOTINGGROUNDBULLETTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x158B48E0)
+#define MOLEMOLE_CONFIG_CONFIGSHOOTINGGROUNDBULLETTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1437F850)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigShootingGroundBulletType_TypeDefinitionIndex = 67350;
+	inline static constexpr unsigned int ConfigShootingGroundBulletType_TypeDefinitionIndex = 63980;
 
 	class ConfigShootingGroundBulletType : public ::System::Object
 	{

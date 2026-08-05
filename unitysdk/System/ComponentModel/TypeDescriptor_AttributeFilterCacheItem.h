@@ -5,8 +5,8 @@
 namespace System { class Attribute; }
 namespace System::Collections { class ICollection; }
 
-#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_ATTRIBUTEFILTERCACHEITEM_ISVALID_OFFSET UNITYSDK_OFFSET(0x1B3FCE90)
-#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_ATTRIBUTEFILTERCACHEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3FCF00)
+#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_ATTRIBUTEFILTERCACHEITEM_ISVALID_OFFSET UNITYSDK_OFFSET(0x1C878B50)
+#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_ATTRIBUTEFILTERCACHEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1C878BC0)
 
 namespace System::ComponentModel
 {
@@ -15,8 +15,8 @@ namespace System::ComponentModel
 	class TypeDescriptor_AttributeFilterCacheItem : public ::System::Object
 	{
 	public:
-		::System::Collections::ICollection* FilteredMembers; // 0x10
-		::Il2CppArray<::System::Attribute*>* _filter; // 0x18
+		::Il2CppArray<::System::Attribute*>* _filter; // 0x10
+		::System::Collections::ICollection* FilteredMembers; // 0x18
 
 		::System::Void _ctor(::Il2CppArray<::System::Attribute*>* filter, ::System::Collections::ICollection* filteredMembers)
 		{

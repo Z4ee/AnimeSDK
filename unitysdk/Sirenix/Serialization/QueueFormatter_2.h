@@ -8,7 +8,7 @@ namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int QueueFormatter_2_TypeDefinitionIndex = 7481;
+	inline static constexpr unsigned int QueueFormatter_2_TypeDefinitionIndex = 7485;
 
 	template <typename TQueue, typename TValue>
 	class QueueFormatter_2 : public ::Sirenix::Serialization::BaseFormatter_1<TQueue>

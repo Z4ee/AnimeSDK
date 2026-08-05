@@ -7,28 +7,28 @@ class AkEnvironment_AkEnvironment_CompareBySelectionAlgorithm;
 namespace AK::Wwise { class AuxBus; }
 namespace UnityEngine { class Collider; }
 
-#define AKENVIRONMENT_AWAKE_OFFSET UNITYSDK_OFFSET(0x1D90D760)
-#define AKENVIRONMENT_GETAUXBUSID_OFFSET UNITYSDK_OFFSET(0x1D90DA40)
-#define AKENVIRONMENT_GETCOLLIDER_OFFSET UNITYSDK_OFFSET(0x1D90DA90)
-#define AKENVIRONMENT_GET_COLLIDER_OFFSET UNITYSDK_OFFSET(0x1D90D740)
-#define AKENVIRONMENT_GET_M_AUXBUSID_OFFSET UNITYSDK_OFFSET(0x1D90D7F0)
-#define AKENVIRONMENT_GET_VALUEGUID_OFFSET UNITYSDK_OFFSET(0x1D90D840)
-#define AKENVIRONMENT_SET_COLLIDER_OFFSET UNITYSDK_OFFSET(0x1D90D750)
-#define AKENVIRONMENT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D90DB20)
-#define AKENVIRONMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D90DAA0)
+#define AKENVIRONMENT_AWAKE_OFFSET UNITYSDK_OFFSET(0x1ECB3BD0)
+#define AKENVIRONMENT_GETAUXBUSID_OFFSET UNITYSDK_OFFSET(0x1ECB3EB0)
+#define AKENVIRONMENT_GETCOLLIDER_OFFSET UNITYSDK_OFFSET(0x1ECB3F00)
+#define AKENVIRONMENT_GET_COLLIDER_OFFSET UNITYSDK_OFFSET(0x1ECB3BB0)
+#define AKENVIRONMENT_GET_M_AUXBUSID_OFFSET UNITYSDK_OFFSET(0x1ECB3C60)
+#define AKENVIRONMENT_GET_VALUEGUID_OFFSET UNITYSDK_OFFSET(0x1ECB3CB0)
+#define AKENVIRONMENT_SET_COLLIDER_OFFSET UNITYSDK_OFFSET(0x1ECB3BC0)
+#define AKENVIRONMENT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1ECB3F90)
+#define AKENVIRONMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1ECB3F10)
 
-inline static constexpr unsigned int AkEnvironment_TypeDefinitionIndex = 33139;
+inline static constexpr unsigned int AkEnvironment_TypeDefinitionIndex = 33775;
 
 class AkEnvironment : public ::UnityEngine::MonoBehaviour
 {
 public:
-	static ::AkEnvironment_AkEnvironment_CompareByPriority** StaticGet_s_compareByPriority()
-	{
-		return (::AkEnvironment_AkEnvironment_CompareByPriority**)Il2CppClass::FromTypeDefinitionIndex(AkEnvironment_TypeDefinitionIndex)->GetStaticField(0x27370);
-	}
 	static ::AkEnvironment_AkEnvironment_CompareBySelectionAlgorithm** StaticGet_s_compareBySelectionAlgorithm()
 	{
-		return (::AkEnvironment_AkEnvironment_CompareBySelectionAlgorithm**)Il2CppClass::FromTypeDefinitionIndex(AkEnvironment_TypeDefinitionIndex)->GetStaticField(0x27378);
+		return (::AkEnvironment_AkEnvironment_CompareBySelectionAlgorithm**)Il2CppClass::FromTypeDefinitionIndex(AkEnvironment_TypeDefinitionIndex)->GetStaticField(0x28B90);
+	}
+	static ::AkEnvironment_AkEnvironment_CompareByPriority** StaticGet_s_compareByPriority()
+	{
+		return (::AkEnvironment_AkEnvironment_CompareByPriority**)Il2CppClass::FromTypeDefinitionIndex(AkEnvironment_TypeDefinitionIndex)->GetStaticField(0x28B98);
 	}
 	// static const ::System::Int32 MAX_NB_ENVIRONMENTS = 0x4; // 0x0
 	::System::Boolean excludeOthers; // 0x18

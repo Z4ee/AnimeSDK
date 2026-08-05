@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIBALLPITTESTEVENTPAGECONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x175A8260)
+#define MOLEMOLE_UIBALLPITTESTEVENTPAGECONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x193582E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBallPitTestEventPageController_Context_TypeDefinitionIndex = 60789;
+	inline static constexpr unsigned int UIBallPitTestEventPageController_Context_TypeDefinitionIndex = 49780;
 
 	class UIBallPitTestEventPageController_Context : public ::MoleMole::UIControllerContextBase
 	{

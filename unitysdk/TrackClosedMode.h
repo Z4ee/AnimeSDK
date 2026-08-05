@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int TrackClosedMode_TypeDefinitionIndex = 53123;
+inline static constexpr unsigned int TrackClosedMode_TypeDefinitionIndex = 71372;
 
 enum class TrackClosedMode : ::System::Int32
 {

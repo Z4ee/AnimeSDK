@@ -11,7 +11,7 @@ namespace UnityEngine { class RectTransform; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISurfAutoSkillButton_1_TypeDefinitionIndex = 60752;
+	inline static constexpr unsigned int UISurfAutoSkillButton_1_TypeDefinitionIndex = 62539;
 
 	template <typename TView>
 	class UISurfAutoSkillButton_1 : public ::MoleMole::UIInLevelGamePlayButtonBaseController

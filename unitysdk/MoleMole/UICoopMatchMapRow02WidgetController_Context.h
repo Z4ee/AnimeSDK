@@ -4,11 +4,11 @@
 
 namespace MoleMole { class UICoopMatchMapRow02WidgetController_Data; }
 
-#define MOLEMOLE_UICOOPMATCHMAPROW02WIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x175C4D20)
+#define MOLEMOLE_UICOOPMATCHMAPROW02WIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x19377930)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICoopMatchMapRow02WidgetController_Context_TypeDefinitionIndex = 61028;
+	inline static constexpr unsigned int UICoopMatchMapRow02WidgetController_Context_TypeDefinitionIndex = 62937;
 
 	class UICoopMatchMapRow02WidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{

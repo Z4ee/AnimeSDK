@@ -6,7 +6,7 @@ namespace System::Collections::Generic { template <typename T> class IEqualityCo
 
 namespace UnityEngine::InputSystem::Utilities
 {
-	inline static constexpr unsigned int ArrayHelpers___c__DisplayClass34_0_1_TypeDefinitionIndex = 32037;
+	inline static constexpr unsigned int ArrayHelpers___c__DisplayClass34_0_1_TypeDefinitionIndex = 32657;
 
 	template <typename TValue>
 	class ArrayHelpers___c__DisplayClass34_0_1 : public ::System::Object

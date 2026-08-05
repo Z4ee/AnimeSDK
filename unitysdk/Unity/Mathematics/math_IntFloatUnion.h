@@ -4,7 +4,7 @@
 
 namespace Unity::Mathematics
 {
-	inline static constexpr unsigned int math_IntFloatUnion_TypeDefinitionIndex = 32109;
+	inline static constexpr unsigned int math_IntFloatUnion_TypeDefinitionIndex = 32730;
 
 	struct alignas(4) math_IntFloatUnion
 	{

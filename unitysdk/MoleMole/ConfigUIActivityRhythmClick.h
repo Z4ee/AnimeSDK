@@ -8,11 +8,11 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CONFIGUIACTIVITYRHYTHMCLICK__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA83FE0)
+#define MOLEMOLE_CONFIGUIACTIVITYRHYTHMCLICK__CTOR_OFFSET UNITYSDK_OFFSET(0x1C486380)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUIActivityRhythmClick_TypeDefinitionIndex = 76478;
+	inline static constexpr unsigned int ConfigUIActivityRhythmClick_TypeDefinitionIndex = 63492;
 
 	class ConfigUIActivityRhythmClick : public ::Foundation::MihoyoSerializedScriptableObject
 	{

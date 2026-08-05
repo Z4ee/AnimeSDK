@@ -6,9 +6,9 @@ namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Rendering::Universal { class VisualEnvironmentE; }
 
-#define PREVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1E57AAD0)
+#define PREVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1F96C730)
 
-inline static constexpr unsigned int PreviewModel_TypeDefinitionIndex = 38047;
+inline static constexpr unsigned int PreviewModel_TypeDefinitionIndex = 38708;
 
 class PreviewModel : public ::UnityEngine::MonoBehaviour
 {

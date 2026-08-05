@@ -3,12 +3,12 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int LightAttenuationMode_TypeDefinitionIndex = 74871;
+	inline static constexpr unsigned int LightAttenuationMode_TypeDefinitionIndex = 43827;
 
 	enum class LightAttenuationMode : ::System::Int32
 	{
-		None = 2,
 		Exponent = 0,
+		None = 2,
 		Linear = 1,
 	};
 }

@@ -5,7 +5,7 @@
 
 namespace System
 {
-	inline static constexpr unsigned int Span_1_Enumerator_TypeDefinitionIndex = 6558;
+	inline static constexpr unsigned int Span_1_Enumerator_TypeDefinitionIndex = 6562;
 
 	template <typename T>
 	struct Span_1_Enumerator

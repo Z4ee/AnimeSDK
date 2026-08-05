@@ -6,7 +6,7 @@ namespace UnityEngine::EventSystems { class PointerEventData; }
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
-	inline static constexpr unsigned int IAsyncOnPointerExitHandler_TypeDefinitionIndex = 31458;
+	inline static constexpr unsigned int IAsyncOnPointerExitHandler_TypeDefinitionIndex = 32078;
 
 	class IAsyncOnPointerExitHandler
 	{

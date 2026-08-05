@@ -7,14 +7,16 @@
 
 namespace MoleMole::Timeline { class LightCompBehaviour; }
 namespace UnityEngine { class GameObject; }
+namespace UnityEngine { class Light; }
 
-#define MOLEMOLE_TIMELINE_LIGHTCOMPCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x15E2E920)
-#define MOLEMOLE_TIMELINE_LIGHTCOMPCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x15E2E910)
-#define MOLEMOLE_TIMELINE_LIGHTCOMPCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x15E2EA70)
+#define MOLEMOLE_TIMELINE_LIGHTCOMPCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x173BAD30)
+#define MOLEMOLE_TIMELINE_LIGHTCOMPCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x173BAD20)
+#define MOLEMOLE_TIMELINE_LIGHTCOMPCLIP_METHOD_4_687DEEB39C308466_OFFSET UNITYSDK_OFFSET(0x173BAF90)
+#define MOLEMOLE_TIMELINE_LIGHTCOMPCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x173BAE80)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int LightCompClip_TypeDefinitionIndex = 66111;
+	inline static constexpr unsigned int LightCompClip_TypeDefinitionIndex = 73741;
 
 	class LightCompClip : public ::UnityEngine::Playables::PlayableAsset
 	{
@@ -34,6 +36,11 @@ namespace MoleMole::Timeline
 		::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2)
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_LIGHTCOMPCLIP_CREATEPLAYABLE_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void Method_4_687DEEB39C308466(::UnityEngine::Light* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Light*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_LIGHTCOMPCLIP_METHOD_4_687DEEB39C308466_OFFSET))(this, a1);
 		}
 	};
 }

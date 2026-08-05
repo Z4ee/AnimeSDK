@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIHollowTipsWidgetController; }
 
-#define MOLEMOLE_UIHOLLOWTIPSWIDGETCONTROLLER___C__DISPLAYCLASS2_0__CLOSEWIDGETWITHFADE_B__0_OFFSET UNITYSDK_OFFSET(0x16D69850)
-#define MOLEMOLE_UIHOLLOWTIPSWIDGETCONTROLLER___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16D69840)
+#define MOLEMOLE_UIHOLLOWTIPSWIDGETCONTROLLER___C__DISPLAYCLASS2_0__CLOSEWIDGETWITHFADE_B__0_OFFSET UNITYSDK_OFFSET(0x18F07FC0)
+#define MOLEMOLE_UIHOLLOWTIPSWIDGETCONTROLLER___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18F07FB0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowTipsWidgetController___c__DisplayClass2_0_TypeDefinitionIndex = 43159;
+	inline static constexpr unsigned int UIHollowTipsWidgetController___c__DisplayClass2_0_TypeDefinitionIndex = 41360;
 
 	class UIHollowTipsWidgetController___c__DisplayClass2_0 : public ::System::Object
 	{

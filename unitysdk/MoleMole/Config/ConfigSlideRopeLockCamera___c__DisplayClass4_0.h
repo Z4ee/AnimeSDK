@@ -6,12 +6,12 @@ namespace MoleMole::Config { class ConfigSlideRopeLockCamera; }
 namespace System { class Action; }
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGSLIDEROPELOCKCAMERA___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x170B4D60)
-#define MOLEMOLE_CONFIG_CONFIGSLIDEROPELOCKCAMERA___C__DISPLAYCLASS4_0__RELOADFROMFILE_B__0_OFFSET UNITYSDK_OFFSET(0x170B4D70)
+#define MOLEMOLE_CONFIG_CONFIGSLIDEROPELOCKCAMERA___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4D9D60)
+#define MOLEMOLE_CONFIG_CONFIGSLIDEROPELOCKCAMERA___C__DISPLAYCLASS4_0__RELOADFROMFILE_B__0_OFFSET UNITYSDK_OFFSET(0x1B4D9D70)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigSlideRopeLockCamera___c__DisplayClass4_0_TypeDefinitionIndex = 47776;
+	inline static constexpr unsigned int ConfigSlideRopeLockCamera___c__DisplayClass4_0_TypeDefinitionIndex = 49397;
 
 	class ConfigSlideRopeLockCamera___c__DisplayClass4_0 : public ::System::Object
 	{

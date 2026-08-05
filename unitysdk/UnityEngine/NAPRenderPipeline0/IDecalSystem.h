@@ -5,7 +5,7 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int IDecalSystem_TypeDefinitionIndex = 5914;
+	inline static constexpr unsigned int IDecalSystem_TypeDefinitionIndex = 5916;
 
 	class IDecalSystem
 	{

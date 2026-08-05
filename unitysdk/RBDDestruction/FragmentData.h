@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define RBDDESTRUCTION_FRAGMENTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1C998520)
+#define RBDDESTRUCTION_FRAGMENTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1DDF4C10)
 
 namespace RBDDestruction
 {
-	inline static constexpr unsigned int FragmentData_TypeDefinitionIndex = 26795;
+	inline static constexpr unsigned int FragmentData_TypeDefinitionIndex = 26991;
 
 	class FragmentData : public ::System::Object
 	{

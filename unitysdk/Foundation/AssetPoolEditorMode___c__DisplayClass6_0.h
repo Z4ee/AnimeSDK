@@ -9,12 +9,12 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Object; }
 namespace UnityEngine { class Transform; }
 
-#define FOUNDATION_ASSETPOOLEDITORMODE___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1DE315C0)
-#define FOUNDATION_ASSETPOOLEDITORMODE___C__DISPLAYCLASS6_0__GETINSTANCEASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x1DE315D0)
+#define FOUNDATION_ASSETPOOLEDITORMODE___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1F016690)
+#define FOUNDATION_ASSETPOOLEDITORMODE___C__DISPLAYCLASS6_0__GETINSTANCEASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x1F0166A0)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int AssetPoolEditorMode___c__DisplayClass6_0_TypeDefinitionIndex = 8107;
+	inline static constexpr unsigned int AssetPoolEditorMode___c__DisplayClass6_0_TypeDefinitionIndex = 8104;
 
 	class AssetPoolEditorMode___c__DisplayClass6_0 : public ::System::Object
 	{

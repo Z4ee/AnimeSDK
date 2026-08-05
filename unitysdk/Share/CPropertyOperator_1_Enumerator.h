@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace Share
 {
-	inline static constexpr unsigned int CPropertyOperator_1_Enumerator_TypeDefinitionIndex = 10805;
+	inline static constexpr unsigned int CPropertyOperator_1_Enumerator_TypeDefinitionIndex = 16868;
 
 	template <typename T>
 	class CPropertyOperator_1_Enumerator : public ::System::Object

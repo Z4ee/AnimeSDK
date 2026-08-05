@@ -4,7 +4,7 @@
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int TimeControl_TypeDefinitionIndex = 63995;
+	inline static constexpr unsigned int TimeControl_TypeDefinitionIndex = 43068;
 
 	struct alignas(4) TimeControl
 	{

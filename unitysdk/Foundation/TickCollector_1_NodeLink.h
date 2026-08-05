@@ -4,7 +4,7 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int TickCollector_1_NodeLink_TypeDefinitionIndex = 8521;
+	inline static constexpr unsigned int TickCollector_1_NodeLink_TypeDefinitionIndex = 8843;
 
 	template <typename TTickingGroup>
 	struct TickCollector_1_NodeLink

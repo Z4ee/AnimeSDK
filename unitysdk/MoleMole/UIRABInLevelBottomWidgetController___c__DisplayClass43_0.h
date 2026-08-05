@@ -6,21 +6,21 @@
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIRABINLEVELBOTTOMWIDGETCONTROLLER___C__DISPLAYCLASS43_0__CTOR_OFFSET UNITYSDK_OFFSET(0x137FBDC0)
-#define MOLEMOLE_UIRABINLEVELBOTTOMWIDGETCONTROLLER___C__DISPLAYCLASS43_0__INITSORTFILTER_B__10_OFFSET UNITYSDK_OFFSET(0x137FBDF0)
-#define MOLEMOLE_UIRABINLEVELBOTTOMWIDGETCONTROLLER___C__DISPLAYCLASS43_0__INITSORTFILTER_B__4_OFFSET UNITYSDK_OFFSET(0x137FBDD0)
-#define MOLEMOLE_UIRABINLEVELBOTTOMWIDGETCONTROLLER___C__DISPLAYCLASS43_0__INITSORTFILTER_B__7_OFFSET UNITYSDK_OFFSET(0x137FBDE0)
+#define MOLEMOLE_UIRABINLEVELBOTTOMWIDGETCONTROLLER___C__DISPLAYCLASS43_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15F5E100)
+#define MOLEMOLE_UIRABINLEVELBOTTOMWIDGETCONTROLLER___C__DISPLAYCLASS43_0__INITSORTFILTER_B__10_OFFSET UNITYSDK_OFFSET(0x15F5E130)
+#define MOLEMOLE_UIRABINLEVELBOTTOMWIDGETCONTROLLER___C__DISPLAYCLASS43_0__INITSORTFILTER_B__4_OFFSET UNITYSDK_OFFSET(0x15F5E110)
+#define MOLEMOLE_UIRABINLEVELBOTTOMWIDGETCONTROLLER___C__DISPLAYCLASS43_0__INITSORTFILTER_B__7_OFFSET UNITYSDK_OFFSET(0x15F5E120)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRABInLevelBottomWidgetController___c__DisplayClass43_0_TypeDefinitionIndex = 63750;
+	inline static constexpr unsigned int UIRABInLevelBottomWidgetController___c__DisplayClass43_0_TypeDefinitionIndex = 78460;
 
 	class UIRABInLevelBottomWidgetController___c__DisplayClass43_0 : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::MoleMole::UIRABInLevelBottomWidgetController_SFilterKeyText>* starOptions; // 0x10
-		::System::Collections::Generic::List_1<::MoleMole::UIRABInLevelBottomWidgetController_SFilterKeyText>* campOptions; // 0x18
-		::System::Collections::Generic::List_1<::MoleMole::UIRABInLevelBottomWidgetController_SFilterKeyText>* qualityOptions; // 0x20
+		::System::Collections::Generic::List_1<::MoleMole::UIRABInLevelBottomWidgetController_SFilterKeyText>* campOptions; // 0x10
+		::System::Collections::Generic::List_1<::MoleMole::UIRABInLevelBottomWidgetController_SFilterKeyText>* qualityOptions; // 0x18
+		::System::Collections::Generic::List_1<::MoleMole::UIRABInLevelBottomWidgetController_SFilterKeyText>* starOptions; // 0x20
 
 		::System::Void _ctor()
 		{

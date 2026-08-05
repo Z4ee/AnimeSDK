@@ -3,11 +3,11 @@
 #include "unitysdk/MoleMole/UIVirusCollectWidgetController_CollectTabType.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_UIVIRUSSELECTROWWIDGETCONTROLLER_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1089A940)
+#define MOLEMOLE_UIVIRUSSELECTROWWIDGETCONTROLLER_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0x112C62F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIVirusSelectRowWidgetController_Data_TypeDefinitionIndex = 45140;
+	inline static constexpr unsigned int UIVirusSelectRowWidgetController_Data_TypeDefinitionIndex = 69699;
 
 	class UIVirusSelectRowWidgetController_Data : public ::System::Object
 	{

@@ -5,11 +5,11 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCCROWD_ACCESSORIES_NPCACCESSORYANIMATIONINFO_DAMPINGIK__CTOR_OFFSET UNITYSDK_OFFSET(0x1029B760)
+#define NPCCROWD_ACCESSORIES_NPCACCESSORYANIMATIONINFO_DAMPINGIK__CTOR_OFFSET UNITYSDK_OFFSET(0xE55A240)
 
 namespace NPCCrowd::Accessories
 {
-	inline static constexpr unsigned int NPCAccessoryAnimationInfo_DampingIK_TypeDefinitionIndex = 77142;
+	inline static constexpr unsigned int NPCAccessoryAnimationInfo_DampingIK_TypeDefinitionIndex = 57566;
 
 	class NPCAccessoryAnimationInfo_DampingIK : public ::System::Object
 	{

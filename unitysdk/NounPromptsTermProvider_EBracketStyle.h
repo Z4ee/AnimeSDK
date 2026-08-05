@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int NounPromptsTermProvider_EBracketStyle_TypeDefinitionIndex = 41873;
+inline static constexpr unsigned int NounPromptsTermProvider_EBracketStyle_TypeDefinitionIndex = 54319;
 
 enum class NounPromptsTermProvider_EBracketStyle : ::System::Int32
 {

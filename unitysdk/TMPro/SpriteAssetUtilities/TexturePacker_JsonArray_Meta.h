@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace TMPro::SpriteAssetUtilities
 {
-	inline static constexpr unsigned int TexturePacker_JsonArray_Meta_TypeDefinitionIndex = 39260;
+	inline static constexpr unsigned int TexturePacker_JsonArray_Meta_TypeDefinitionIndex = 39926;
 
 	struct alignas(8) TexturePacker_JsonArray_Meta
 	{

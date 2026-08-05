@@ -4,11 +4,11 @@
 #include "unitysdk/UnityEngine/Matrix4x4.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_VIEWCONSTANTS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D432F70)
+#define UNITYENGINE_NAPRENDERPIPELINE0_VIEWCONSTANTS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7D7C10)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int ViewConstants_TypeDefinitionIndex = 5965;
+	inline static constexpr unsigned int ViewConstants_TypeDefinitionIndex = 5967;
 
 	class ViewConstants : public ::System::Object
 	{

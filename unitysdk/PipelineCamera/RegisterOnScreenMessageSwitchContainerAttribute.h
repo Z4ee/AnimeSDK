@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace System { class Type; }
 
-#define PIPELINECAMERA_REGISTERONSCREENMESSAGESWITCHCONTAINERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C857660)
+#define PIPELINECAMERA_REGISTERONSCREENMESSAGESWITCHCONTAINERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DCE0630)
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int RegisterOnScreenMessageSwitchContainerAttribute_TypeDefinitionIndex = 37633;
+	inline static constexpr unsigned int RegisterOnScreenMessageSwitchContainerAttribute_TypeDefinitionIndex = 38294;
 
 	class RegisterOnScreenMessageSwitchContainerAttribute : public ::System::Attribute
 	{

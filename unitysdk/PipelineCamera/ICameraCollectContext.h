@@ -24,7 +24,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int ICameraCollectContext_TypeDefinitionIndex = 37554;
+	inline static constexpr unsigned int ICameraCollectContext_TypeDefinitionIndex = 38215;
 
 	class ICameraCollectContext
 	{

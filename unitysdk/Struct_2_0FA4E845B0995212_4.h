@@ -4,9 +4,9 @@
 
 namespace System { class String; }
 
-#define STRUCT_2_0FA4E845B0995212_4_METHOD_2_DA1BF2C227DC3D86_OFFSET UNITYSDK_OFFSET(0xA0B9A0)
+#define STRUCT_2_0FA4E845B0995212_4_METHOD_2_DA1BF2C227DC3D86_OFFSET UNITYSDK_OFFSET(0xA42730)
 
-inline static constexpr unsigned int Struct_2_0FA4E845B0995212_4_TypeDefinitionIndex = 89521;
+inline static constexpr unsigned int Struct_2_0FA4E845B0995212_4_TypeDefinitionIndex = 93293;
 
 struct alignas(1) Struct_2_0FA4E845B0995212_4
 {

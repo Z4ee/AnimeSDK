@@ -5,12 +5,12 @@
 namespace System { class Exception; }
 namespace System { class String; }
 
-#define SYSTEM_DATA_SQLTYPES_SQLTRUNCATEEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DC670D0)
-#define SYSTEM_DATA_SQLTYPES_SQLTRUNCATEEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1DC67000)
+#define SYSTEM_DATA_SQLTYPES_SQLTRUNCATEEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F0B7490)
+#define SYSTEM_DATA_SQLTYPES_SQLTRUNCATEEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1F0B73C0)
 
 namespace System::Data::SqlTypes
 {
-	inline static constexpr unsigned int SqlTruncateException_TypeDefinitionIndex = 38730;
+	inline static constexpr unsigned int SqlTruncateException_TypeDefinitionIndex = 39391;
 
 	class SqlTruncateException : public ::System::Data::SqlTypes::SqlTypeException
 	{

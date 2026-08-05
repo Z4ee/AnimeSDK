@@ -11,36 +11,36 @@
 namespace MoleMole { class ConfigPointScoreCalculatePipe; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_BATTLEMAPSUBSYSTEM_CALCULATESPAWNPOINTSCORE_OFFSET UNITYSDK_OFFSET(0x106ACB30)
-#define MOLEMOLE_BATTLEMAPSUBSYSTEM_DRAWINFO_OFFSET UNITYSDK_OFFSET(0x106ACD00)
-#define MOLEMOLE_BATTLEMAPSUBSYSTEM_GETCELLINFOBYPOSITION_1_OFFSET UNITYSDK_OFFSET(0x106AC2B0)
-#define MOLEMOLE_BATTLEMAPSUBSYSTEM_GETCELLINFOBYPOSITION_OFFSET UNITYSDK_OFFSET(0x106ABF70)
-#define MOLEMOLE_BATTLEMAPSUBSYSTEM_GETCELLUNIQUEINDEX_OFFSET UNITYSDK_OFFSET(0x106ABCE0)
-#define MOLEMOLE_BATTLEMAPSUBSYSTEM_GET_OFFSET UNITYSDK_OFFSET(0x106ABEA0)
-#define MOLEMOLE_BATTLEMAPSUBSYSTEM_REGISTERSPAWNPOINTINFO_OFFSET UNITYSDK_OFFSET(0x106AC430)
-#define MOLEMOLE_BATTLEMAPSUBSYSTEM_UNIQUEINDEX2POSITION_OFFSET UNITYSDK_OFFSET(0x106ABDB0)
-#define MOLEMOLE_BATTLEMAPSUBSYSTEM_UPDATEENTITYBOUNDS_OFFSET UNITYSDK_OFFSET(0x106AC6B0)
-#define MOLEMOLE_BATTLEMAPSUBSYSTEM__CCTOR_OFFSET UNITYSDK_OFFSET(0x106ACE20)
-#define MOLEMOLE_BATTLEMAPSUBSYSTEM__CTOR_OFFSET UNITYSDK_OFFSET(0x106ACD40)
+#define MOLEMOLE_BATTLEMAPSUBSYSTEM_CALCULATESPAWNPOINTSCORE_OFFSET UNITYSDK_OFFSET(0x167E9570)
+#define MOLEMOLE_BATTLEMAPSUBSYSTEM_DRAWINFO_OFFSET UNITYSDK_OFFSET(0x167E9740)
+#define MOLEMOLE_BATTLEMAPSUBSYSTEM_GETCELLINFOBYPOSITION_1_OFFSET UNITYSDK_OFFSET(0x167E8CE0)
+#define MOLEMOLE_BATTLEMAPSUBSYSTEM_GETCELLINFOBYPOSITION_OFFSET UNITYSDK_OFFSET(0x167E89B0)
+#define MOLEMOLE_BATTLEMAPSUBSYSTEM_GETCELLUNIQUEINDEX_OFFSET UNITYSDK_OFFSET(0x167E8720)
+#define MOLEMOLE_BATTLEMAPSUBSYSTEM_GET_OFFSET UNITYSDK_OFFSET(0x167E88E0)
+#define MOLEMOLE_BATTLEMAPSUBSYSTEM_REGISTERSPAWNPOINTINFO_OFFSET UNITYSDK_OFFSET(0x167E8E60)
+#define MOLEMOLE_BATTLEMAPSUBSYSTEM_UNIQUEINDEX2POSITION_OFFSET UNITYSDK_OFFSET(0x167E87F0)
+#define MOLEMOLE_BATTLEMAPSUBSYSTEM_UPDATEENTITYBOUNDS_OFFSET UNITYSDK_OFFSET(0x167E90E0)
+#define MOLEMOLE_BATTLEMAPSUBSYSTEM__CCTOR_OFFSET UNITYSDK_OFFSET(0x167E9860)
+#define MOLEMOLE_BATTLEMAPSUBSYSTEM__CTOR_OFFSET UNITYSDK_OFFSET(0x167E9780)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int BattleMapSubsystem_TypeDefinitionIndex = 73505;
+	inline static constexpr unsigned int BattleMapSubsystem_TypeDefinitionIndex = 56195;
 
 	class BattleMapSubsystem : public ::MoleMole::GameSubsystemBaseEx_1<::MoleMole::BattleMapSubsystem*>
 	{
 	public:
+		static ::MoleMole::BattleMapSubsystem_BattleCellInfo* StaticGet_EmptyBattleCellInfo()
+		{
+			return (::MoleMole::BattleMapSubsystem_BattleCellInfo*)Il2CppClass::FromTypeDefinitionIndex(BattleMapSubsystem_TypeDefinitionIndex)->GetStaticField(0xDFC0);
+		}
 		static ::System::Boolean* StaticGet_EnableRandomByScore()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(BattleMapSubsystem_TypeDefinitionIndex)->GetStaticField(0xE2E0);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(BattleMapSubsystem_TypeDefinitionIndex)->GetStaticField(0xDFC3);
 		}
 		static ::System::Boolean* StaticGet_EnableBattleMapSystem()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(BattleMapSubsystem_TypeDefinitionIndex)->GetStaticField(0xE2E1);
-		}
-		static ::MoleMole::BattleMapSubsystem_BattleCellInfo* StaticGet_EmptyBattleCellInfo()
-		{
-			return (::MoleMole::BattleMapSubsystem_BattleCellInfo*)Il2CppClass::FromTypeDefinitionIndex(BattleMapSubsystem_TypeDefinitionIndex)->GetStaticField(0xE2E2);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(BattleMapSubsystem_TypeDefinitionIndex)->GetStaticField(0xDFC4);
 		}
 		::System::Collections::Generic::Dictionary_2<::System::Int64, ::MoleMole::BattleMapSubsystem_BattleCellInfo>* _battleCellMap; // 0x10
 		::System::Collections::Generic::Dictionary_2<::MoleMole::EntityHandle, ::Struct_2_889E5B2995035C6D>* _battleMapEntityInfos; // 0x18

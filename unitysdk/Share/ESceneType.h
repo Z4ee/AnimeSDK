@@ -3,14 +3,14 @@
 
 namespace Share
 {
-	inline static constexpr unsigned int ESceneType_TypeDefinitionIndex = 11174;
+	inline static constexpr unsigned int ESceneType_TypeDefinitionIndex = 11425;
 
 	enum class ESceneType : ::System::Int16
 	{
 		Hollow = 2,
-		MultiFight = 5,
-		Hall = 1,
 		Fight = 3,
 		Fresh = 4,
+		MultiFight = 5,
+		Hall = 1,
 	};
 }

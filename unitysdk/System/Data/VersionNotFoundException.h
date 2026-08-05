@@ -6,13 +6,13 @@
 namespace System { class String; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_DATA_VERSIONNOTFOUNDEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1D8A5C70)
-#define SYSTEM_DATA_VERSIONNOTFOUNDEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1D8A5D30)
-#define SYSTEM_DATA_VERSIONNOTFOUNDEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8A5C20)
+#define SYSTEM_DATA_VERSIONNOTFOUNDEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EC295A0)
+#define SYSTEM_DATA_VERSIONNOTFOUNDEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1EC29660)
+#define SYSTEM_DATA_VERSIONNOTFOUNDEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC29550)
 
 namespace System::Data
 {
-	inline static constexpr unsigned int VersionNotFoundException_TypeDefinitionIndex = 38583;
+	inline static constexpr unsigned int VersionNotFoundException_TypeDefinitionIndex = 39244;
 
 	class VersionNotFoundException : public ::System::Data::DataException
 	{

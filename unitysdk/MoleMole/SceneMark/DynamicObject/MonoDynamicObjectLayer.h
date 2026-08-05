@@ -3,21 +3,21 @@
 #include "unitysdk/MoleMole/GameplayTag.h"
 #include "unitysdk/Sirenix/OdinInspector/SerializedMonoBehaviour.h"
 
-class Class_0_16E4307DCC419505_449;
+class Class_0_16E4307DCC419505_303;
 namespace MoleMole::SceneMark { class SerializeableDynamicObject; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_SCENEMARK_DYNAMICOBJECT_MONODYNAMICOBJECTLAYER_FINDALLDYNAMICOBJECT_OFFSET UNITYSDK_OFFSET(0x11650EA0)
-#define MOLEMOLE_SCENEMARK_DYNAMICOBJECT_MONODYNAMICOBJECTLAYER_FINDDYNAMICOBJECT_OFFSET UNITYSDK_OFFSET(0x11650D90)
-#define MOLEMOLE_SCENEMARK_DYNAMICOBJECT_MONODYNAMICOBJECTLAYER_GETLAYERNAME_OFFSET UNITYSDK_OFFSET(0x116510F0)
-#define MOLEMOLE_SCENEMARK_DYNAMICOBJECT_MONODYNAMICOBJECTLAYER_SETACTIVE_OFFSET UNITYSDK_OFFSET(0x11650F60)
-#define MOLEMOLE_SCENEMARK_DYNAMICOBJECT_MONODYNAMICOBJECTLAYER__CTOR_OFFSET UNITYSDK_OFFSET(0x11651170)
+#define MOLEMOLE_SCENEMARK_DYNAMICOBJECT_MONODYNAMICOBJECTLAYER_FINDALLDYNAMICOBJECT_OFFSET UNITYSDK_OFFSET(0x11D65310)
+#define MOLEMOLE_SCENEMARK_DYNAMICOBJECT_MONODYNAMICOBJECTLAYER_FINDDYNAMICOBJECT_OFFSET UNITYSDK_OFFSET(0x11D65200)
+#define MOLEMOLE_SCENEMARK_DYNAMICOBJECT_MONODYNAMICOBJECTLAYER_GETLAYERNAME_OFFSET UNITYSDK_OFFSET(0x11D65560)
+#define MOLEMOLE_SCENEMARK_DYNAMICOBJECT_MONODYNAMICOBJECTLAYER_SETACTIVE_OFFSET UNITYSDK_OFFSET(0x11D653D0)
+#define MOLEMOLE_SCENEMARK_DYNAMICOBJECT_MONODYNAMICOBJECTLAYER__CTOR_OFFSET UNITYSDK_OFFSET(0x11D655E0)
 
 namespace MoleMole::SceneMark::DynamicObject
 {
-	inline static constexpr unsigned int MonoDynamicObjectLayer_TypeDefinitionIndex = 70506;
+	inline static constexpr unsigned int MonoDynamicObjectLayer_TypeDefinitionIndex = 44397;
 
 	class MonoDynamicObjectLayer : public ::Sirenix::OdinInspector::SerializedMonoBehaviour
 	{
@@ -29,14 +29,14 @@ namespace MoleMole::SceneMark::DynamicObject
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SCENEMARK_DYNAMICOBJECT_MONODYNAMICOBJECTLAYER__CTOR_OFFSET))(this);
 		}
 
-		::Class_0_16E4307DCC419505_449* FindDynamicObject(::MoleMole::GameplayTag tag)
+		::Class_0_16E4307DCC419505_303* FindDynamicObject(::MoleMole::GameplayTag tag)
 		{
-			return ((::Class_0_16E4307DCC419505_449*(*)(::PVOID, ::MoleMole::GameplayTag))((::PBYTE)hIl2Cpp + MOLEMOLE_SCENEMARK_DYNAMICOBJECT_MONODYNAMICOBJECTLAYER_FINDDYNAMICOBJECT_OFFSET))(this, tag);
+			return ((::Class_0_16E4307DCC419505_303*(*)(::PVOID, ::MoleMole::GameplayTag))((::PBYTE)hIl2Cpp + MOLEMOLE_SCENEMARK_DYNAMICOBJECT_MONODYNAMICOBJECTLAYER_FINDDYNAMICOBJECT_OFFSET))(this, tag);
 		}
 
-		::System::Boolean FindAllDynamicObject(::MoleMole::GameplayTag tag, ::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_449*>* OutList)
+		::System::Boolean FindAllDynamicObject(::MoleMole::GameplayTag tag, ::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_303*>* OutList)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::MoleMole::GameplayTag, ::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_449*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_SCENEMARK_DYNAMICOBJECT_MONODYNAMICOBJECTLAYER_FINDALLDYNAMICOBJECT_OFFSET))(this, tag, OutList);
+			return ((::System::Boolean(*)(::PVOID, ::MoleMole::GameplayTag, ::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_303*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_SCENEMARK_DYNAMICOBJECT_MONODYNAMICOBJECTLAYER_FINDALLDYNAMICOBJECT_OFFSET))(this, tag, OutList);
 		}
 
 		::System::Void SetActive(::System::Boolean value)

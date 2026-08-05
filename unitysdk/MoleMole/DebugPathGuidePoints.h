@@ -6,23 +6,23 @@
 namespace UnityEngine::UI { class VertexHelper; }
 namespace UnityEngine::UI::Extension { class PathGuide; }
 
-#define MOLEMOLE_DEBUGPATHGUIDEPOINTS_METHOD_8_1947BC35B7A7FCB8_OFFSET UNITYSDK_OFFSET(0x192B79A0)
-#define MOLEMOLE_DEBUGPATHGUIDEPOINTS_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0x192B7420)
-#define MOLEMOLE_DEBUGPATHGUIDEPOINTS_UPDATE_OFFSET UNITYSDK_OFFSET(0x192B7CE0)
-#define MOLEMOLE_DEBUGPATHGUIDEPOINTS__CCTOR_OFFSET UNITYSDK_OFFSET(0x192B7DA0)
-#define MOLEMOLE_DEBUGPATHGUIDEPOINTS__CTOR_OFFSET UNITYSDK_OFFSET(0x192B7D90)
-#define MOLEMOLE_DEBUGPATHGUIDEPOINTS___BASE_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0x192B7EB0)
+#define MOLEMOLE_DEBUGPATHGUIDEPOINTS_METHOD_8_1947BC35B7A7FCB8_OFFSET UNITYSDK_OFFSET(0x14882E20)
+#define MOLEMOLE_DEBUGPATHGUIDEPOINTS_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0x14882880)
+#define MOLEMOLE_DEBUGPATHGUIDEPOINTS_UPDATE_OFFSET UNITYSDK_OFFSET(0x14883160)
+#define MOLEMOLE_DEBUGPATHGUIDEPOINTS__CCTOR_OFFSET UNITYSDK_OFFSET(0x14883220)
+#define MOLEMOLE_DEBUGPATHGUIDEPOINTS__CTOR_OFFSET UNITYSDK_OFFSET(0x14883210)
+#define MOLEMOLE_DEBUGPATHGUIDEPOINTS___BASE_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0x14883330)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int DebugPathGuidePoints_TypeDefinitionIndex = 63658;
+	inline static constexpr unsigned int DebugPathGuidePoints_TypeDefinitionIndex = 42770;
 
 	class DebugPathGuidePoints : public ::UnityEngine::UI::MaskableGraphic
 	{
 	public:
-		static ::Il2CppArray<::UnityEngine::Vector3>** StaticGet_Field_8_2()
+		static ::Il2CppArray<::UnityEngine::Vector3>** StaticGet_Field_8_0()
 		{
-			return (::Il2CppArray<::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(DebugPathGuidePoints_TypeDefinitionIndex)->GetStaticField(0x40EE0);
+			return (::Il2CppArray<::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(DebugPathGuidePoints_TypeDefinitionIndex)->GetStaticField(0x42520);
 		}
 		::UnityEngine::UI::Extension::PathGuide* PathGuideComponent; // 0xF8
 		::UnityEngine::UI::Extension::PathGuide* Field_8_1; // 0x100

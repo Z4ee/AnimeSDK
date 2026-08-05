@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define MOLEMOLE_GAMEENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x12BC1D00)
+#define MOLEMOLE_GAMEENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x13840BA0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int GameEntry_TypeDefinitionIndex = 66606;
+	inline static constexpr unsigned int GameEntry_TypeDefinitionIndex = 48316;
 
 	class GameEntry : public ::UnityEngine::MonoBehaviour
 	{

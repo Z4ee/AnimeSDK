@@ -4,7 +4,7 @@
 
 namespace NPCCrowd::Animation::CPUStateMachine
 {
-	inline static constexpr unsigned int SharedData_TypeDefinitionIndex = 52264;
+	inline static constexpr unsigned int SharedData_TypeDefinitionIndex = 49429;
 
 	struct alignas(1) SharedData
 	{

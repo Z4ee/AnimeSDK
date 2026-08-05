@@ -3,14 +3,14 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int ResourceFileType_TypeDefinitionIndex = 8102;
+	inline static constexpr unsigned int ResourceFileType_TypeDefinitionIndex = 7881;
 
 	enum class ResourceFileType : ::System::Int32
 	{
-		Audio = 4,
-		Res = 1,
-		Silence = 2,
 		Data = 3,
+		Res = 1,
 		None = 0,
+		Silence = 2,
+		Audio = 4,
 	};
 }

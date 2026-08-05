@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MoleMole::SECTR
 {
-	inline static constexpr unsigned int SectorBinData_Item_TypeDefinitionIndex = 60204;
+	inline static constexpr unsigned int SectorBinData_Item_TypeDefinitionIndex = 60688;
 
 	struct alignas(8) SectorBinData_Item
 	{

@@ -7,11 +7,11 @@
 namespace System { class String; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MIHOYOEMOTION_CLIPSHAPECURVECELL__CTOR_OFFSET UNITYSDK_OFFSET(0x1BAF1400)
+#define MIHOYOEMOTION_CLIPSHAPECURVECELL__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0344D0)
 
 namespace miHoYoEmotion
 {
-	inline static constexpr unsigned int ClipShapeCurveCell_TypeDefinitionIndex = 39329;
+	inline static constexpr unsigned int ClipShapeCurveCell_TypeDefinitionIndex = 40067;
 
 	class ClipShapeCurveCell : public ::System::Object
 	{

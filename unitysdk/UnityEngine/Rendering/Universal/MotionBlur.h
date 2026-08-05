@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/MotionBlur_NativeSRP.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_MOTIONBLUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC32B30)
+#define UNITYENGINE_RENDERING_UNIVERSAL_MOTIONBLUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1C9AE8F0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int MotionBlur_TypeDefinitionIndex = 26214;
+	inline static constexpr unsigned int MotionBlur_TypeDefinitionIndex = 26900;
 
 	class MotionBlur : public ::UnityEngine::NAPRenderPipeline0::MotionBlur_NativeSRP
 	{

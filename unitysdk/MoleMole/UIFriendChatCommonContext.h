@@ -4,11 +4,11 @@
 
 class Class_1_9EDE5D0623B668B8;
 
-#define MOLEMOLE_UIFRIENDCHATCOMMONCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16F322D0)
+#define MOLEMOLE_UIFRIENDCHATCOMMONCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18D7CD30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIFriendChatCommonContext_TypeDefinitionIndex = 55904;
+	inline static constexpr unsigned int UIFriendChatCommonContext_TypeDefinitionIndex = 76750;
 
 	class UIFriendChatCommonContext : public ::MoleMole::UIControllerContextBase
 	{

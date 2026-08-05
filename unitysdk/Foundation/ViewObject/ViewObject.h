@@ -3,11 +3,11 @@
 #include "unitysdk/Foundation/ViewObject/ViewObjectBase_1.h"
 #include "unitysdk/Foundation/ViewObject/ViewObjectHandle.h"
 
-#define FOUNDATION_VIEWOBJECT_VIEWOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x142F86D0)
+#define FOUNDATION_VIEWOBJECT_VIEWOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1199FD10)
 
 namespace Foundation::ViewObject
 {
-	inline static constexpr unsigned int ViewObject_TypeDefinitionIndex = 61201;
+	inline static constexpr unsigned int ViewObject_TypeDefinitionIndex = 46473;
 
 	class ViewObject : public ::Foundation::ViewObject::ViewObjectBase_1<::Foundation::ViewObject::ViewObjectHandle>
 	{

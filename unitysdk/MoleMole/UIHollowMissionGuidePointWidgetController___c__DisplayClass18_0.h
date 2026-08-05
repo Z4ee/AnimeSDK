@@ -5,7 +5,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowMissionGuidePointWidgetController___c__DisplayClass18_0_TypeDefinitionIndex = 63548;
+	inline static constexpr unsigned int UIHollowMissionGuidePointWidgetController___c__DisplayClass18_0_TypeDefinitionIndex = 64426;
 
 	struct alignas(4) UIHollowMissionGuidePointWidgetController___c__DisplayClass18_0
 	{

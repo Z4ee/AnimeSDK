@@ -8,7 +8,7 @@ namespace UnityEngine { class GameObject; }
 
 namespace NPCCrowd
 {
-	inline static constexpr unsigned int PathGraphShadowOverrideApplier_CachedNpcShadowState_TypeDefinitionIndex = 80508;
+	inline static constexpr unsigned int PathGraphShadowOverrideApplier_CachedNpcShadowState_TypeDefinitionIndex = 46715;
 
 	struct alignas(8) PathGraphShadowOverrideApplier_CachedNpcShadowState
 	{

@@ -6,22 +6,22 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_PLUGINUI_MIHOYOSDKUIELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D26DF60)
+#define MIHOYO_SDK_PLUGINUI_MIHOYOSDKUIELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E5C2070)
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int MiHoYoSDKUIElement_TypeDefinitionIndex = 37250;
+	inline static constexpr unsigned int MiHoYoSDKUIElement_TypeDefinitionIndex = 37911;
 
 	class MiHoYoSDKUIElement : public ::System::Object
 	{
 	public:
-		::System::String* hintText; // 0x10
-		::System::String* id; // 0x18
-		::System::String* text; // 0x20
-		::System::Action_1<::System::String*>* updateTextAction; // 0x28
-		::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>* invocation; // 0x30
-		::System::Boolean isChecked; // 0x38
-		::System::Boolean visible; // 0x39
+		::System::Action_1<::System::String*>* updateTextAction; // 0x10
+		::System::String* text; // 0x18
+		::System::String* hintText; // 0x20
+		::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>* invocation; // 0x28
+		::System::String* id; // 0x30
+		::System::Boolean visible; // 0x38
+		::System::Boolean isChecked; // 0x39
 
 		::System::Void _ctor()
 		{

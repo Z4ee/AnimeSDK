@@ -4,12 +4,12 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define NPCCROWD_AI_AIACTIONINTERACTMOVETOCONFIG_GETBASEACTIONCONFIG_OFFSET UNITYSDK_OFFSET(0x693E30)
-#define NPCCROWD_AI_AIACTIONINTERACTMOVETOCONFIG_ISMULTITHREAD_OFFSET UNITYSDK_OFFSET(0x693E80)
+#define NPCCROWD_AI_AIACTIONINTERACTMOVETOCONFIG_GETBASEACTIONCONFIG_OFFSET UNITYSDK_OFFSET(0x462D10)
+#define NPCCROWD_AI_AIACTIONINTERACTMOVETOCONFIG_ISMULTITHREAD_OFFSET UNITYSDK_OFFSET(0x462D60)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int AIActionInteractMoveToConfig_TypeDefinitionIndex = 75329;
+	inline static constexpr unsigned int AIActionInteractMoveToConfig_TypeDefinitionIndex = 84623;
 
 	struct alignas(8) AIActionInteractMoveToConfig
 	{
@@ -18,6 +18,7 @@ namespace NPCCrowd::AI
 		::UnityEngine::Vector3 direction; // 0x24
 		::System::Boolean stopOnArrival; // 0x30
 		::System::Boolean disableTurn; // 0x31
+		::System::Boolean disablePhysicsGrounded; // 0x32
 
 		::NPCCrowd::AI::BaseActionConfig GetBaseActionConfig()
 		{

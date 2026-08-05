@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define ICSHARPCODE_SHARPZIPLIB_ZIP_ZIPFILE_UPDATECOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0x1E78EEA0)
-#define ICSHARPCODE_SHARPZIPLIB_ZIP_ZIPFILE_UPDATECOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E78EFB0)
+#define ICSHARPCODE_SHARPZIPLIB_ZIP_ZIPFILE_UPDATECOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0x1FB673B0)
+#define ICSHARPCODE_SHARPZIPLIB_ZIP_ZIPFILE_UPDATECOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB674D0)
 
 namespace ICSharpCode::SharpZipLib::Zip
 {
-	inline static constexpr unsigned int ZipFile_UpdateComparer_TypeDefinitionIndex = 6870;
+	inline static constexpr unsigned int ZipFile_UpdateComparer_TypeDefinitionIndex = 6874;
 
 	class ZipFile_UpdateComparer : public ::System::Object
 	{

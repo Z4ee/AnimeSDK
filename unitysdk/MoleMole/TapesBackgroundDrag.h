@@ -6,24 +6,24 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_TAPESBACKGROUNDDRAG_FIXDELTA_OFFSET UNITYSDK_OFFSET(0x18717530)
-#define MOLEMOLE_TAPESBACKGROUNDDRAG_FIXWALLPOSITION_OFFSET UNITYSDK_OFFSET(0x187178C0)
-#define MOLEMOLE_TAPESBACKGROUNDDRAG_INITCLAMP_OFFSET UNITYSDK_OFFSET(0x187173A0)
-#define MOLEMOLE_TAPESBACKGROUNDDRAG_MOVEWALL_OFFSET UNITYSDK_OFFSET(0x18717620)
-#define MOLEMOLE_TAPESBACKGROUNDDRAG_SETDIR_OFFSET UNITYSDK_OFFSET(0x18717590)
-#define MOLEMOLE_TAPESBACKGROUNDDRAG__CTOR_OFFSET UNITYSDK_OFFSET(0x18717960)
+#define MOLEMOLE_TAPESBACKGROUNDDRAG_FIXDELTA_OFFSET UNITYSDK_OFFSET(0x191BC080)
+#define MOLEMOLE_TAPESBACKGROUNDDRAG_FIXWALLPOSITION_OFFSET UNITYSDK_OFFSET(0x191BC410)
+#define MOLEMOLE_TAPESBACKGROUNDDRAG_INITCLAMP_OFFSET UNITYSDK_OFFSET(0x191BBEF0)
+#define MOLEMOLE_TAPESBACKGROUNDDRAG_MOVEWALL_OFFSET UNITYSDK_OFFSET(0x191BC170)
+#define MOLEMOLE_TAPESBACKGROUNDDRAG_SETDIR_OFFSET UNITYSDK_OFFSET(0x191BC0E0)
+#define MOLEMOLE_TAPESBACKGROUNDDRAG__CTOR_OFFSET UNITYSDK_OFFSET(0x191BC4B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int TapesBackgroundDrag_TypeDefinitionIndex = 74609;
+	inline static constexpr unsigned int TapesBackgroundDrag_TypeDefinitionIndex = 65850;
 
 	class TapesBackgroundDrag : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* backGroundList; // 0x18
-		::System::Single Field_5_1; // 0x20
-		::System::Single Field_5_2; // 0x24
-		::System::Single Field_5_3; // 0x28
+		::System::Single Field_5_2; // 0x20
+		::System::Single Field_5_1; // 0x24
+		::System::Single Field_5_0; // 0x28
 		::System::Single dragOffset; // 0x2C
 
 		::System::Void _ctor()

@@ -11,27 +11,27 @@ namespace DigitalOpus::MB::Core { class MB3_TextureCombinerPipeline_TexturePipel
 namespace DigitalOpus::MB::Core { class MB3_TextureCombiner_CombineTexturesIntoAtlasesCoroutineResult; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINER____RUNTEXTUREPACKERONLY_D__86_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1DE889D0)
-#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINER____RUNTEXTUREPACKERONLY_D__86_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1DE89100)
-#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINER____RUNTEXTUREPACKERONLY_D__86_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1DE89160)
-#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINER____RUNTEXTUREPACKERONLY_D__86_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1DE89110)
-#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINER____RUNTEXTUREPACKERONLY_D__86_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1DE889C0)
-#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINER____RUNTEXTUREPACKERONLY_D__86__CTOR_OFFSET UNITYSDK_OFFSET(0x1DE889B0)
+#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINER____RUNTEXTUREPACKERONLY_D__86_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1F2A5830)
+#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINER____RUNTEXTUREPACKERONLY_D__86_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1F2A5F60)
+#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINER____RUNTEXTUREPACKERONLY_D__86_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1F2A5FC0)
+#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINER____RUNTEXTUREPACKERONLY_D__86_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1F2A5F70)
+#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINER____RUNTEXTUREPACKERONLY_D__86_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1F2A5820)
+#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINER____RUNTEXTUREPACKERONLY_D__86__CTOR_OFFSET UNITYSDK_OFFSET(0x1F2A5810)
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int MB3_TextureCombiner____RunTexturePackerOnly_d__86_TypeDefinitionIndex = 90699;
+	inline static constexpr unsigned int MB3_TextureCombiner____RunTexturePackerOnly_d__86_TypeDefinitionIndex = 94632;
 
 	class MB3_TextureCombiner____RunTexturePackerOnly_d__86 : public ::System::Object
 	{
 	public:
 		::DigitalOpus::MB::Core::MB3_TextureCombinerPipeline_TexturePipelineData* data; // 0x10
-		::DigitalOpus::MB::Core::MB3_TextureCombiner* __4__this; // 0x18
-		::System::Collections::Generic::List_1<::DigitalOpus::MB::Core::AtlasPackingResult*>* packingResult; // 0x20
+		::System::Collections::Generic::List_1<::DigitalOpus::MB::Core::AtlasPackingResult*>* packingResult; // 0x18
+		::System::Object* __2__current; // 0x20
 		::DigitalOpus::MB::Core::MB3_TextureCombinerPipeline* _pipeline_5__2; // 0x28
-		::System::Object* __2__current; // 0x30
+		::DigitalOpus::MB::Core::MB3_TextureCombiner_CombineTexturesIntoAtlasesCoroutineResult* result; // 0x30
 		::DigitalOpus::MB::Core::MB2_EditorMethodsInterface* textureEditorMethods; // 0x38
-		::DigitalOpus::MB::Core::MB3_TextureCombiner_CombineTexturesIntoAtlasesCoroutineResult* result; // 0x40
+		::DigitalOpus::MB::Core::MB3_TextureCombiner* __4__this; // 0x40
 		::MB_AtlasesAndRects* resultAtlasesAndRects; // 0x48
 		::System::Int32 __1__state; // 0x50
 		::System::Boolean splitAtlasWhenPackingIfTooBig; // 0x54

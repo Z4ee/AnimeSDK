@@ -11,19 +11,19 @@ namespace StateTreeCore { class StateTreeSchema; }
 namespace UnrealTypes { class ScriptStruct; }
 namespace UnrealTypes { template <typename T> class ManagedStructList_1; }
 
-#define STATETREECORE_STATETREELINKER_GET_STATUS_OFFSET UNITYSDK_OFFSET(0x1E861920)
-#define STATETREECORE_STATETREELINKER_LINKEXTERNALDATA_OFFSET UNITYSDK_OFFSET(0x1E861A30)
-#define STATETREECORE_STATETREELINKER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E861930)
+#define STATETREECORE_STATETREELINKER_GET_STATUS_OFFSET UNITYSDK_OFFSET(0x1FC2FFC0)
+#define STATETREECORE_STATETREELINKER_LINKEXTERNALDATA_OFFSET UNITYSDK_OFFSET(0x1FC300D0)
+#define STATETREECORE_STATETREELINKER__CTOR_OFFSET UNITYSDK_OFFSET(0x1FC2FFD0)
 
 namespace StateTreeCore
 {
-	inline static constexpr unsigned int StateTreeLinker_TypeDefinitionIndex = 30981;
+	inline static constexpr unsigned int StateTreeLinker_TypeDefinitionIndex = 31586;
 
 	class StateTreeLinker : public ::System::Object
 	{
 	public:
-		::UnrealTypes::ManagedStructList_1<::StateTreeCore::StateTreeExternalDataDesc>* ExternalDataDesc; // 0x10
-		::StateTreeCore::StateTreeSchema* _schema; // 0x18
+		::StateTreeCore::StateTreeSchema* _schema; // 0x10
+		::UnrealTypes::ManagedStructList_1<::StateTreeCore::StateTreeExternalDataDesc>* ExternalDataDesc; // 0x18
 		::StateTreeCore::StateTreeLinkerStatus _status; // 0x20
 
 		::System::Void _ctor(::StateTreeCore::StateTreeSchema* schema)

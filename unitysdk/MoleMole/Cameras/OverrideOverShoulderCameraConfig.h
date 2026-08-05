@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CAMERAS_OVERRIDEOVERSHOULDERCAMERACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x162920D0)
+#define MOLEMOLE_CAMERAS_OVERRIDEOVERSHOULDERCAMERACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16C24860)
 
 namespace MoleMole::Cameras
 {
-	inline static constexpr unsigned int OverrideOverShoulderCameraConfig_TypeDefinitionIndex = 72578;
+	inline static constexpr unsigned int OverrideOverShoulderCameraConfig_TypeDefinitionIndex = 84540;
 
 	class OverrideOverShoulderCameraConfig : public ::System::Object
 	{

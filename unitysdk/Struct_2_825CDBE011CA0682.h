@@ -5,15 +5,15 @@
 
 namespace System { class String; }
 
-#define STRUCT_2_825CDBE011CA0682_METHOD_2_DA1BF2C227DC3D86_OFFSET UNITYSDK_OFFSET(0x9C5D20)
+#define STRUCT_2_825CDBE011CA0682_METHOD_2_DA1BF2C227DC3D86_OFFSET UNITYSDK_OFFSET(0x9F7E70)
 
-inline static constexpr unsigned int Struct_2_825CDBE011CA0682_TypeDefinitionIndex = 88576;
+inline static constexpr unsigned int Struct_2_825CDBE011CA0682_TypeDefinitionIndex = 91996;
 
 struct alignas(4) Struct_2_825CDBE011CA0682
 {
-	::System::UInt32 Field_2_0; // 0x10
-	::MoleMole::Arcade::BallsRace::EBrSpeedLevel Field_2_1; // 0x14
-	::MoleMole::Arcade::BallsRace::EBrSpeedLevel Field_2_2; // 0x18
+	::System::UInt32 Field_2_1; // 0x10
+	::MoleMole::Arcade::BallsRace::EBrSpeedLevel Field_2_0; // 0x14
+	::MoleMole::Arcade::BallsRace::EBrSpeedLevel Field_2_7; // 0x18
 
 	::System::String* Method_2_DA1BF2C227DC3D86()
 	{

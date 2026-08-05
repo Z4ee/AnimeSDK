@@ -6,24 +6,24 @@
 
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 
-#define FOUNDATION_UNREAL_FGAMEPLAYTAGCONTAINER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18BEB5C0)
-#define FOUNDATION_UNREAL_FGAMEPLAYTAGCONTAINER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18BEB600)
-#define FOUNDATION_UNREAL_FGAMEPLAYTAGCONTAINER___C__OP_EQUALITY_B__7_0_OFFSET UNITYSDK_OFFSET(0x18BEB610)
+#define FOUNDATION_UNREAL_FGAMEPLAYTAGCONTAINER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x14C0EE20)
+#define FOUNDATION_UNREAL_FGAMEPLAYTAGCONTAINER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x14C0EE60)
+#define FOUNDATION_UNREAL_FGAMEPLAYTAGCONTAINER___C__OP_EQUALITY_B__7_0_OFFSET UNITYSDK_OFFSET(0x14C0EE70)
 
 namespace Foundation::Unreal
 {
-	inline static constexpr unsigned int FGameplayTagContainer___c_TypeDefinitionIndex = 10222;
+	inline static constexpr unsigned int FGameplayTagContainer___c_TypeDefinitionIndex = 11324;
 
 	class FGameplayTagContainer___c : public ::System::Object
 	{
 	public:
 		static ::Foundation::Unreal::FGameplayTagContainer___c** StaticGet___9()
 		{
-			return (::Foundation::Unreal::FGameplayTagContainer___c**)Il2CppClass::FromTypeDefinitionIndex(FGameplayTagContainer___c_TypeDefinitionIndex)->GetStaticField(0x78C0);
+			return (::Foundation::Unreal::FGameplayTagContainer___c**)Il2CppClass::FromTypeDefinitionIndex(FGameplayTagContainer___c_TypeDefinitionIndex)->GetStaticField(0x7990);
 		}
 		static ::System::Func_3<::Foundation::Unreal::FGameplayTag, ::Foundation::Unreal::FGameplayTagContainer, ::System::Boolean>** StaticGet___9__7_0()
 		{
-			return (::System::Func_3<::Foundation::Unreal::FGameplayTag, ::Foundation::Unreal::FGameplayTagContainer, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(FGameplayTagContainer___c_TypeDefinitionIndex)->GetStaticField(0x78C8);
+			return (::System::Func_3<::Foundation::Unreal::FGameplayTag, ::Foundation::Unreal::FGameplayTagContainer, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(FGameplayTagContainer___c_TypeDefinitionIndex)->GetStaticField(0x7998);
 		}
 
 		static ::System::Void _cctor()

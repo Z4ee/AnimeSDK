@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/EventArgs.h"
 
-#define CLASS_2_5CBA9F03834A31EC__CTOR_OFFSET UNITYSDK_OFFSET(0x16D2D7B0)
+#define CLASS_2_5CBA9F03834A31EC__CTOR_OFFSET UNITYSDK_OFFSET(0x123927E0)
 
-inline static constexpr unsigned int Class_2_5CBA9F03834A31EC_TypeDefinitionIndex = 41597;
+inline static constexpr unsigned int Class_2_5CBA9F03834A31EC_TypeDefinitionIndex = 52971;
 
 class Class_2_5CBA9F03834A31EC : public ::System::EventArgs
 {

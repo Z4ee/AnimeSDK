@@ -6,18 +6,18 @@
 namespace Foundation { class AssetRequestCompleteDel; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_728ECF47979928D7__CTOR_OFFSET UNITYSDK_OFFSET(0x160B1770)
+#define CLASS_1_728ECF47979928D7__CTOR_OFFSET UNITYSDK_OFFSET(0x17F05030)
 
-inline static constexpr unsigned int Class_1_728ECF47979928D7_TypeDefinitionIndex = 55098;
+inline static constexpr unsigned int Class_1_728ECF47979928D7_TypeDefinitionIndex = 55408;
 
 class Class_1_728ECF47979928D7 : public ::System::Object
 {
 public:
-	::Foundation::AssetRequestCompleteDel* Field_1_3; // 0x10
-	::Foundation::AssetRequestHandle Field_1_2; // 0x18
-	::System::Collections::Generic::Dictionary_2<::System::UInt64, ::System::Int32>* Field_1_4; // 0x38
+	::System::Collections::Generic::Dictionary_2<::System::UInt64, ::System::Int32>* Field_1_6; // 0x10
+	::Foundation::AssetRequestCompleteDel* Field_1_7; // 0x18
+	::Foundation::AssetRequestHandle Field_1_0; // 0x20
 	::System::Int32 Field_1_1; // 0x40
-	::System::Int32 Field_1_0; // 0x44
+	::System::Int32 Field_1_2; // 0x44
 
 	::System::Void _ctor()
 	{

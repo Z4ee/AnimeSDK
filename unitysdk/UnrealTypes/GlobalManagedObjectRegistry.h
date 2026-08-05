@@ -4,18 +4,18 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define UNREALTYPES_GLOBALMANAGEDOBJECTREGISTRY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D1B5FF0)
+#define UNREALTYPES_GLOBALMANAGEDOBJECTREGISTRY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E38F680)
 
 namespace UnrealTypes
 {
-	inline static constexpr unsigned int GlobalManagedObjectRegistry_TypeDefinitionIndex = 27755;
+	inline static constexpr unsigned int GlobalManagedObjectRegistry_TypeDefinitionIndex = 28358;
 
 	class GlobalManagedObjectRegistry : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::List_1<::System::Object*>** StaticGet_ObjectList()
 		{
-			return (::System::Collections::Generic::List_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(GlobalManagedObjectRegistry_TypeDefinitionIndex)->GetStaticField(0x22910);
+			return (::System::Collections::Generic::List_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(GlobalManagedObjectRegistry_TypeDefinitionIndex)->GetStaticField(0x24080);
 		}
 
 		static ::System::Void _cctor()

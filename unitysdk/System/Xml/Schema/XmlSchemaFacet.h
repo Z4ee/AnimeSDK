@@ -5,8 +5,8 @@
 
 namespace System { class String; }
 
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAFACET_SET_ISFIXED_OFFSET UNITYSDK_OFFSET(0x1DE465A0)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAFACET__CTOR_OFFSET UNITYSDK_OFFSET(0x1DE46630)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAFACET_SET_ISFIXED_OFFSET UNITYSDK_OFFSET(0x1F2543C0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAFACET__CTOR_OFFSET UNITYSDK_OFFSET(0x1F254450)
 
 namespace System::Xml::Schema
 {
@@ -16,8 +16,8 @@ namespace System::Xml::Schema
 	{
 	public:
 		::System::String* value; // 0x50
-		::System::Xml::Schema::FacetType facetType; // 0x58
-		::System::Boolean isFixed; // 0x5C
+		::System::Boolean isFixed; // 0x58
+		::System::Xml::Schema::FacetType facetType; // 0x5C
 
 		::System::Void _ctor()
 		{

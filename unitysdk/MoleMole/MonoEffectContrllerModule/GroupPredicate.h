@@ -5,11 +5,11 @@
 
 namespace MoleMole::MonoEffectContrllerModule { class MonoEffectPluginController_Class_1_E5308BE9EEBA8B55; }
 
-#define MOLEMOLE_MONOEFFECTCONTRLLERMODULE_GROUPPREDICATE_ISMATCH_OFFSET UNITYSDK_OFFSET(0x836050)
+#define MOLEMOLE_MONOEFFECTCONTRLLERMODULE_GROUPPREDICATE_ISMATCH_OFFSET UNITYSDK_OFFSET(0x8A9DE0)
 
 namespace MoleMole::MonoEffectContrllerModule
 {
-	inline static constexpr unsigned int GroupPredicate_TypeDefinitionIndex = 76113;
+	inline static constexpr unsigned int GroupPredicate_TypeDefinitionIndex = 48269;
 
 	struct alignas(4) GroupPredicate
 	{

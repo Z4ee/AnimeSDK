@@ -7,22 +7,22 @@
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Reflection { class FieldInfo; }
 
-#define PIPELINECAMERA_CAMERASEQUENCE_CAMERASEQUENCEVARIABLECOLLECTOR_ADDDEPENDENT_OFFSET UNITYSDK_OFFSET(0xA3DC00)
-#define PIPELINECAMERA_CAMERASEQUENCE_CAMERASEQUENCEVARIABLECOLLECTOR_ADDEXTERNAL_OFFSET UNITYSDK_OFFSET(0xA3DC10)
-#define PIPELINECAMERA_CAMERASEQUENCE_CAMERASEQUENCEVARIABLECOLLECTOR_WITHWORKSPACE_1_OFFSET UNITYSDK_OFFSET(0xA3DAF0)
-#define PIPELINECAMERA_CAMERASEQUENCE_CAMERASEQUENCEVARIABLECOLLECTOR_WITHWORKSPACE_OFFSET UNITYSDK_OFFSET(0xA3DA10)
-#define PIPELINECAMERA_CAMERASEQUENCE_CAMERASEQUENCEVARIABLECOLLECTOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DD3F7F0)
-#define PIPELINECAMERA_CAMERASEQUENCE_CAMERASEQUENCEVARIABLECOLLECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0xA3D9C0)
+#define PIPELINECAMERA_CAMERASEQUENCE_CAMERASEQUENCEVARIABLECOLLECTOR_ADDDEPENDENT_OFFSET UNITYSDK_OFFSET(0xA91AC0)
+#define PIPELINECAMERA_CAMERASEQUENCE_CAMERASEQUENCEVARIABLECOLLECTOR_ADDEXTERNAL_OFFSET UNITYSDK_OFFSET(0xA91AD0)
+#define PIPELINECAMERA_CAMERASEQUENCE_CAMERASEQUENCEVARIABLECOLLECTOR_WITHWORKSPACE_1_OFFSET UNITYSDK_OFFSET(0xA919B0)
+#define PIPELINECAMERA_CAMERASEQUENCE_CAMERASEQUENCEVARIABLECOLLECTOR_WITHWORKSPACE_OFFSET UNITYSDK_OFFSET(0xA918D0)
+#define PIPELINECAMERA_CAMERASEQUENCE_CAMERASEQUENCEVARIABLECOLLECTOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F156130)
+#define PIPELINECAMERA_CAMERASEQUENCE_CAMERASEQUENCEVARIABLECOLLECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0xA91880)
 
 namespace PipelineCamera::CameraSequence
 {
-	inline static constexpr unsigned int CameraSequenceVariableCollector_TypeDefinitionIndex = 37935;
+	inline static constexpr unsigned int CameraSequenceVariableCollector_TypeDefinitionIndex = 38596;
 
 	struct alignas(8) CameraSequenceVariableCollector
 	{
 		static ::PipelineCamera::CameraSequence::CameraSequenceEnvironmentPath* StaticGet_Root()
 		{
-			return (::PipelineCamera::CameraSequence::CameraSequenceEnvironmentPath*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceVariableCollector_TypeDefinitionIndex)->GetStaticField(0x28C10);
+			return (::PipelineCamera::CameraSequence::CameraSequenceEnvironmentPath*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceVariableCollector_TypeDefinitionIndex)->GetStaticField(0x2A530);
 		}
 		::System::Collections::Generic::Dictionary_2<::PipelineCamera::CameraSequence::CameraSequenceCollectionPath, ::System::Reflection::FieldInfo*>* _dependent; // 0x10
 		::System::Collections::Generic::Dictionary_2<::PipelineCamera::CameraSequence::CameraSequenceCollectionPath, ::System::Reflection::FieldInfo*>* _external; // 0x18

@@ -9,11 +9,11 @@ namespace MoleMole::Config { class LevelShootGameConfig_WayPathConfig; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_LEVELSHOOTGAMECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18F3F9F0)
+#define MOLEMOLE_CONFIG_LEVELSHOOTGAMECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1626A0A0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int LevelShootGameConfig_TypeDefinitionIndex = 70552;
+	inline static constexpr unsigned int LevelShootGameConfig_TypeDefinitionIndex = 52690;
 
 	class LevelShootGameConfig : public ::Foundation::MihoyoSerializedScriptableObject
 	{

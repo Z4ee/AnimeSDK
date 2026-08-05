@@ -6,7 +6,7 @@ namespace MessagePack::Formatters { template <typename T> class IMessagePackForm
 
 namespace MessagePack::Resolvers
 {
-	inline static constexpr unsigned int GraphPrimitiveEnum_Resolver_FormatterCache_1_TypeDefinitionIndex = 30806;
+	inline static constexpr unsigned int GraphPrimitiveEnum_Resolver_FormatterCache_1_TypeDefinitionIndex = 30186;
 
 	template <typename T>
 	class GraphPrimitiveEnum_Resolver_FormatterCache_1 : public ::System::Object

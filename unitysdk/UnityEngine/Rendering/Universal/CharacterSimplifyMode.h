@@ -3,14 +3,14 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int CharacterSimplifyMode_TypeDefinitionIndex = 26267;
+	inline static constexpr unsigned int CharacterSimplifyMode_TypeDefinitionIndex = 27179;
 
 	enum class CharacterSimplifyMode : ::System::Int32
 	{
-		Count = 4,
+		BlackCurtain = 3,
 		Battle = 1,
 		FrontendGame = 0,
-		BlackCurtain = 3,
 		LightDirectionFromCamera = 2,
+		Count = 4,
 	};
 }

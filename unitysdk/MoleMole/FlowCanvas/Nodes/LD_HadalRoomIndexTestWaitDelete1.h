@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FlowCanvas/Nodes/CallableFunctionNode_1.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_HADALROOMINDEXTESTWAITDELETE1_INVOKE_OFFSET UNITYSDK_OFFSET(0x15820040)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_HADALROOMINDEXTESTWAITDELETE1__CTOR_OFFSET UNITYSDK_OFFSET(0x15820230)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_HADALROOMINDEXTESTWAITDELETE1_INVOKE_OFFSET UNITYSDK_OFFSET(0x1299F320)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_HADALROOMINDEXTESTWAITDELETE1__CTOR_OFFSET UNITYSDK_OFFSET(0x1299F510)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_HadalRoomIndexTestWaitDelete1_TypeDefinitionIndex = 43092;
+	inline static constexpr unsigned int LD_HadalRoomIndexTestWaitDelete1_TypeDefinitionIndex = 60247;
 
 	class LD_HadalRoomIndexTestWaitDelete1 : public ::FlowCanvas::Nodes::CallableFunctionNode_1<::System::Int32>
 	{

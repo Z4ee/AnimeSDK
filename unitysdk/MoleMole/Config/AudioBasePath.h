@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_AUDIOBASEPATH__CTOR_OFFSET UNITYSDK_OFFSET(0x17D490F0)
+#define MOLEMOLE_CONFIG_AUDIOBASEPATH__CTOR_OFFSET UNITYSDK_OFFSET(0x17298EF0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AudioBasePath_TypeDefinitionIndex = 86905;
+	inline static constexpr unsigned int AudioBasePath_TypeDefinitionIndex = 61206;
 
 	class AudioBasePath : public ::System::Object
 	{

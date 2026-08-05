@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_3_4666E61F66433B1E_2;
+class Class_3_4666E61F66433B1E_4;
 namespace MoleMole { class UIRoleSelectPoolBtnWidgetController; }
 
-#define MOLEMOLE_UIROLESELECTPOOLBTNWIDGETCONTROLLER___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14C88970)
-#define MOLEMOLE_UIROLESELECTPOOLBTNWIDGETCONTROLLER___C__DISPLAYCLASS7_0__REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x14C88980)
+#define MOLEMOLE_UIROLESELECTPOOLBTNWIDGETCONTROLLER___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1675C9D0)
+#define MOLEMOLE_UIROLESELECTPOOLBTNWIDGETCONTROLLER___C__DISPLAYCLASS7_0__REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x1675C9E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRoleSelectPoolBtnWidgetController___c__DisplayClass7_0_TypeDefinitionIndex = 73955;
+	inline static constexpr unsigned int UIRoleSelectPoolBtnWidgetController___c__DisplayClass7_0_TypeDefinitionIndex = 56375;
 
 	class UIRoleSelectPoolBtnWidgetController___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:
-		::Class_3_4666E61F66433B1E_2* gacha; // 0x10
+		::Class_3_4666E61F66433B1E_4* gacha; // 0x10
 		::MoleMole::UIRoleSelectPoolBtnWidgetController* __4__this; // 0x18
 
 		::System::Void _ctor()

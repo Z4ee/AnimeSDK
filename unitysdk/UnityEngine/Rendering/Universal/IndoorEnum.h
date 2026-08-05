@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int IndoorEnum_TypeDefinitionIndex = 27215;
+	inline static constexpr unsigned int IndoorEnum_TypeDefinitionIndex = 27877;
 
 	enum class IndoorEnum : ::System::Int32
 	{

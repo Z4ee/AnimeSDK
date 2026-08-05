@@ -6,23 +6,23 @@
 namespace MoleMole::Config { class AnimatorEvent; }
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_ANIMATOREVENTSETSELFATTACKTARGETENTRY_CREATEANIMATIONEVENT_OFFSET UNITYSDK_OFFSET(0x13ECEC90)
-#define MOLEMOLE_CONFIG_ANIMATOREVENTSETSELFATTACKTARGETENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x13ECED10)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTSETSELFATTACKTARGETENTRY_CREATEANIMATIONEVENT_OFFSET UNITYSDK_OFFSET(0x1624AA40)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTSETSELFATTACKTARGETENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1624AAC0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AnimatorEventSetSelfAttackTargetEntry_TypeDefinitionIndex = 70174;
+	inline static constexpr unsigned int AnimatorEventSetSelfAttackTargetEntry_TypeDefinitionIndex = 45757;
 
 	class AnimatorEventSetSelfAttackTargetEntry : public ::MoleMole::Config::AnimatorEventEntry
 	{
 	public:
-		::System::String* TargetCustomKey; // 0x58
-		::System::String* SourceCustomKey; // 0x60
-		::System::Boolean OnlySetOnNull; // 0x68
-		::System::Boolean IgnoreSetAttackTargetCD; // 0x69
-		::System::Boolean ForceOverride; // 0x6A
-		::MoleMole::Config::AbilityTargetting SourceType; // 0x6C
-		::MoleMole::Config::AbilityTargetting TargetType; // 0x70
+		::System::String* SourceCustomKey; // 0x58
+		::System::String* TargetCustomKey; // 0x60
+		::MoleMole::Config::AbilityTargetting TargetType; // 0x68
+		::System::Boolean IgnoreSetAttackTargetCD; // 0x6C
+		::System::Boolean ForceOverride; // 0x6D
+		::System::Boolean OnlySetOnNull; // 0x6E
+		::MoleMole::Config::AbilityTargetting SourceType; // 0x70
 
 		::System::Void _ctor()
 		{

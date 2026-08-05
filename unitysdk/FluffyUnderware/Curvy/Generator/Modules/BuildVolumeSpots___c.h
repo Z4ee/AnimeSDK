@@ -6,24 +6,24 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace UnityEngine { class GUIContent; }
 
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_BUILDVOLUMESPOTS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E3B9270)
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_BUILDVOLUMESPOTS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1E3B92B0)
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_BUILDVOLUMESPOTS___C__GET_BOUNDSNAMES_B__57_0_OFFSET UNITYSDK_OFFSET(0x1E3B92C0)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_BUILDVOLUMESPOTS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F7A87E0)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_BUILDVOLUMESPOTS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1F7A8820)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_BUILDVOLUMESPOTS___C__GET_BOUNDSNAMES_B__57_0_OFFSET UNITYSDK_OFFSET(0x1F7A8830)
 
 namespace FluffyUnderware::Curvy::Generator::Modules
 {
-	inline static constexpr unsigned int BuildVolumeSpots___c_TypeDefinitionIndex = 38812;
+	inline static constexpr unsigned int BuildVolumeSpots___c_TypeDefinitionIndex = 39601;
 
 	class BuildVolumeSpots___c : public ::System::Object
 	{
 	public:
-		static ::FluffyUnderware::Curvy::Generator::Modules::BuildVolumeSpots___c** StaticGet___9()
-		{
-			return (::FluffyUnderware::Curvy::Generator::Modules::BuildVolumeSpots___c**)Il2CppClass::FromTypeDefinitionIndex(BuildVolumeSpots___c_TypeDefinitionIndex)->GetStaticField(0x29470);
-		}
 		static ::System::Func_2<::System::String*, ::UnityEngine::GUIContent*>** StaticGet___9__57_0()
 		{
-			return (::System::Func_2<::System::String*, ::UnityEngine::GUIContent*>**)Il2CppClass::FromTypeDefinitionIndex(BuildVolumeSpots___c_TypeDefinitionIndex)->GetStaticField(0x29478);
+			return (::System::Func_2<::System::String*, ::UnityEngine::GUIContent*>**)Il2CppClass::FromTypeDefinitionIndex(BuildVolumeSpots___c_TypeDefinitionIndex)->GetStaticField(0x2ADA0);
+		}
+		static ::FluffyUnderware::Curvy::Generator::Modules::BuildVolumeSpots___c** StaticGet___9()
+		{
+			return (::FluffyUnderware::Curvy::Generator::Modules::BuildVolumeSpots___c**)Il2CppClass::FromTypeDefinitionIndex(BuildVolumeSpots___c_TypeDefinitionIndex)->GetStaticField(0x2ADA8);
 		}
 
 		static ::System::Void _cctor()

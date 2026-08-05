@@ -6,20 +6,20 @@ namespace MiHoYo::SDK { class AccountModel; }
 namespace MiHoYo::SDK::PC::OS { class LoginManager; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_LOGINMANAGER___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C96C330)
-#define MIHOYO_SDK_PC_OS_LOGINMANAGER___C__DISPLAYCLASS10_0__ONLOGIN_B__0_OFFSET UNITYSDK_OFFSET(0x1C96C340)
-#define MIHOYO_SDK_PC_OS_LOGINMANAGER___C__DISPLAYCLASS10_0__ONLOGIN_B__1_OFFSET UNITYSDK_OFFSET(0x1C96C440)
+#define MIHOYO_SDK_PC_OS_LOGINMANAGER___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD4B5B0)
+#define MIHOYO_SDK_PC_OS_LOGINMANAGER___C__DISPLAYCLASS10_0__ONLOGIN_B__0_OFFSET UNITYSDK_OFFSET(0x1DD4B5C0)
+#define MIHOYO_SDK_PC_OS_LOGINMANAGER___C__DISPLAYCLASS10_0__ONLOGIN_B__1_OFFSET UNITYSDK_OFFSET(0x1DD4B6C0)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int LoginManager___c__DisplayClass10_0_TypeDefinitionIndex = 20458;
+	inline static constexpr unsigned int LoginManager___c__DisplayClass10_0_TypeDefinitionIndex = 20805;
 
 	class LoginManager___c__DisplayClass10_0 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::PC::OS::LoginManager* __4__this; // 0x10
+		::MiHoYo::SDK::AccountModel* accountModel; // 0x10
 		::System::String* message; // 0x18
-		::MiHoYo::SDK::AccountModel* accountModel; // 0x20
+		::MiHoYo::SDK::PC::OS::LoginManager* __4__this; // 0x20
 		::System::Int32 retcode; // 0x28
 
 		::System::Void _ctor()

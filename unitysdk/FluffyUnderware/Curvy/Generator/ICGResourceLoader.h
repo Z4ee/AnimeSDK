@@ -7,7 +7,7 @@ namespace UnityEngine { class Component; }
 
 namespace FluffyUnderware::Curvy::Generator
 {
-	inline static constexpr unsigned int ICGResourceLoader_TypeDefinitionIndex = 38874;
+	inline static constexpr unsigned int ICGResourceLoader_TypeDefinitionIndex = 39677;
 
 	class ICGResourceLoader
 	{

@@ -8,18 +8,18 @@
 namespace MoleMole { class UIActivityHotpotFoodItemWidgetController; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define MOLEMOLE_UIACTIVITYHOTPOTFOODITEMWIDGETCONTROLLER__PLAYEFFECTCOOKEDINTERNAL_D__45_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x84D960)
-#define MOLEMOLE_UIACTIVITYHOTPOTFOODITEMWIDGETCONTROLLER__PLAYEFFECTCOOKEDINTERNAL_D__45_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x283610)
+#define MOLEMOLE_UIACTIVITYHOTPOTFOODITEMWIDGETCONTROLLER__PLAYEFFECTCOOKEDINTERNAL_D__45_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x8C9EF0)
+#define MOLEMOLE_UIACTIVITYHOTPOTFOODITEMWIDGETCONTROLLER__PLAYEFFECTCOOKEDINTERNAL_D__45_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x296F30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityHotpotFoodItemWidgetController__PlayEffectCookedInternal_d__45_TypeDefinitionIndex = 79274;
+	inline static constexpr unsigned int UIActivityHotpotFoodItemWidgetController__PlayEffectCookedInternal_d__45_TypeDefinitionIndex = 80604;
 
 	struct alignas(8) UIActivityHotpotFoodItemWidgetController__PlayEffectCookedInternal_d__45
 	{
-		::MoleMole::UIActivityHotpotFoodItemWidgetController* __4__this; // 0x10
-		::Cysharp::Threading::Tasks::UniTask_1_Awaiter<::Class_1_8B550A61FC9DDA82_Enum_3_05F7423D39739F87> __u__1; // 0x18
-		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x28
+		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x10
+		::Cysharp::Threading::Tasks::UniTask_1_Awaiter<::Class_1_8B550A61FC9DDA82_Enum_3_05F7423D39739F87> __u__1; // 0x20
+		::MoleMole::UIActivityHotpotFoodItemWidgetController* __4__this; // 0x30
 		::System::Int32 __1__state; // 0x38
 
 		::System::Void MoveNext()

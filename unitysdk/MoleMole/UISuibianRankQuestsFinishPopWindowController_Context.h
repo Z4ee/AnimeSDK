@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_2_208CC9941471731A_888;
+class Class_2_208CC9941471731A_956;
 
-#define MOLEMOLE_UISUIBIANRANKQUESTSFINISHPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x161741C0)
+#define MOLEMOLE_UISUIBIANRANKQUESTSFINISHPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15E92EA0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISuibianRankQuestsFinishPopWindowController_Context_TypeDefinitionIndex = 67179;
+	inline static constexpr unsigned int UISuibianRankQuestsFinishPopWindowController_Context_TypeDefinitionIndex = 70178;
 
 	class UISuibianRankQuestsFinishPopWindowController_Context : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_2_208CC9941471731A_888* Config; // 0x28
-		::System::Int32 PrvFinishCount; // 0x30
-		::System::Int32 CurFinishCount; // 0x34
+		::Class_2_208CC9941471731A_956* Config; // 0x28
+		::System::Int32 CurFinishCount; // 0x30
+		::System::Int32 PrvFinishCount; // 0x34
 
 		::System::Void _ctor()
 		{

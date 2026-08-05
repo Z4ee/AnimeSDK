@@ -3,124 +3,124 @@
 #include "unitysdk/Foundation/AssetPath.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_F966CC1261619DFB__CCTOR_OFFSET UNITYSDK_OFFSET(0x127661D0)
+#define CLASS_1_F966CC1261619DFB__CCTOR_OFFSET UNITYSDK_OFFSET(0x11587590)
 
-inline static constexpr unsigned int Class_1_F966CC1261619DFB_TypeDefinitionIndex = 65700;
+inline static constexpr unsigned int Class_1_F966CC1261619DFB_TypeDefinitionIndex = 89957;
 
 class Class_1_F966CC1261619DFB : public ::System::Object
 {
 public:
-	static ::Foundation::AssetPath* StaticGet_Field_1_18()
+	static ::Foundation::AssetPath* StaticGet_Field_1_24()
 	{
-		return (::Foundation::AssetPath*)Il2CppClass::FromTypeDefinitionIndex(Class_1_F966CC1261619DFB_TypeDefinitionIndex)->GetStaticField(0x339F0);
-	}
-	static ::Foundation::AssetPath* StaticGet_Field_1_27()
-	{
-		return (::Foundation::AssetPath*)Il2CppClass::FromTypeDefinitionIndex(Class_1_F966CC1261619DFB_TypeDefinitionIndex)->GetStaticField(0x33A00);
-	}
-	static ::Foundation::AssetPath* StaticGet_Field_1_25()
-	{
-		return (::Foundation::AssetPath*)Il2CppClass::FromTypeDefinitionIndex(Class_1_F966CC1261619DFB_TypeDefinitionIndex)->GetStaticField(0x33A10);
-	}
-	static ::Foundation::AssetPath* StaticGet_Field_1_3()
-	{
-		return (::Foundation::AssetPath*)Il2CppClass::FromTypeDefinitionIndex(Class_1_F966CC1261619DFB_TypeDefinitionIndex)->GetStaticField(0x33A20);
-	}
-	static ::Foundation::AssetPath* StaticGet_Field_1_0()
-	{
-		return (::Foundation::AssetPath*)Il2CppClass::FromTypeDefinitionIndex(Class_1_F966CC1261619DFB_TypeDefinitionIndex)->GetStaticField(0x33A30);
-	}
-	static ::Foundation::AssetPath* StaticGet_Field_1_12()
-	{
-		return (::Foundation::AssetPath*)Il2CppClass::FromTypeDefinitionIndex(Class_1_F966CC1261619DFB_TypeDefinitionIndex)->GetStaticField(0x33A40);
-	}
-	static ::Foundation::AssetPath* StaticGet_Field_1_26()
-	{
-		return (::Foundation::AssetPath*)Il2CppClass::FromTypeDefinitionIndex(Class_1_F966CC1261619DFB_TypeDefinitionIndex)->GetStaticField(0x33A50);
-	}
-	static ::Foundation::AssetPath* StaticGet_Field_1_6()
-	{
-		return (::Foundation::AssetPath*)Il2CppClass::FromTypeDefinitionIndex(Class_1_F966CC1261619DFB_TypeDefinitionIndex)->GetStaticField(0x33A60);
-	}
-	static ::Foundation::AssetPath* StaticGet_Field_1_14()
-	{
-		return (::Foundation::AssetPath*)Il2CppClass::FromTypeDefinitionIndex(Class_1_F966CC1261619DFB_TypeDefinitionIndex)->GetStaticField(0x33A70);
-	}
-	static ::Foundation::AssetPath* StaticGet_Field_1_11()
-	{
-		return (::Foundation::AssetPath*)Il2CppClass::FromTypeDefinitionIndex(Class_1_F966CC1261619DFB_TypeDefinitionIndex)->GetStaticField(0x33A80);
-	}
-	static ::Foundation::AssetPath* StaticGet_Field_1_4()
-	{
-		return (::Foundation::AssetPath*)Il2CppClass::FromTypeDefinitionIndex(Class_1_F966CC1261619DFB_TypeDefinitionIndex)->GetStaticField(0x33A90);
-	}
-	static ::Foundation::AssetPath* StaticGet_Field_1_20()
-	{
-		return (::Foundation::AssetPath*)Il2CppClass::FromTypeDefinitionIndex(Class_1_F966CC1261619DFB_TypeDefinitionIndex)->GetStaticField(0x33AA0);
-	}
-	static ::Foundation::AssetPath* StaticGet_Field_1_15()
-	{
-		return (::Foundation::AssetPath*)Il2CppClass::FromTypeDefinitionIndex(Class_1_F966CC1261619DFB_TypeDefinitionIndex)->GetStaticField(0x33AB0);
-	}
-	static ::Foundation::AssetPath* StaticGet_Field_1_2()
-	{
-		return (::Foundation::AssetPath*)Il2CppClass::FromTypeDefinitionIndex(Class_1_F966CC1261619DFB_TypeDefinitionIndex)->GetStaticField(0x33AC0);
-	}
-	static ::Foundation::AssetPath* StaticGet_Field_1_21()
-	{
-		return (::Foundation::AssetPath*)Il2CppClass::FromTypeDefinitionIndex(Class_1_F966CC1261619DFB_TypeDefinitionIndex)->GetStaticField(0x33AD0);
-	}
-	static ::Foundation::AssetPath* StaticGet_Field_1_10()
-	{
-		return (::Foundation::AssetPath*)Il2CppClass::FromTypeDefinitionIndex(Class_1_F966CC1261619DFB_TypeDefinitionIndex)->GetStaticField(0x33AE0);
-	}
-	static ::Foundation::AssetPath* StaticGet_Field_1_16()
-	{
-		return (::Foundation::AssetPath*)Il2CppClass::FromTypeDefinitionIndex(Class_1_F966CC1261619DFB_TypeDefinitionIndex)->GetStaticField(0x33AF0);
+		return (::Foundation::AssetPath*)Il2CppClass::FromTypeDefinitionIndex(Class_1_F966CC1261619DFB_TypeDefinitionIndex)->GetStaticField(0x35C80);
 	}
 	static ::Foundation::AssetPath* StaticGet_Field_1_8()
 	{
-		return (::Foundation::AssetPath*)Il2CppClass::FromTypeDefinitionIndex(Class_1_F966CC1261619DFB_TypeDefinitionIndex)->GetStaticField(0x33B00);
+		return (::Foundation::AssetPath*)Il2CppClass::FromTypeDefinitionIndex(Class_1_F966CC1261619DFB_TypeDefinitionIndex)->GetStaticField(0x35C90);
 	}
-	static ::Foundation::AssetPath* StaticGet_Field_1_5()
+	static ::Foundation::AssetPath* StaticGet_Field_1_27()
 	{
-		return (::Foundation::AssetPath*)Il2CppClass::FromTypeDefinitionIndex(Class_1_F966CC1261619DFB_TypeDefinitionIndex)->GetStaticField(0x33B10);
-	}
-	static ::Foundation::AssetPath* StaticGet_Field_1_19()
-	{
-		return (::Foundation::AssetPath*)Il2CppClass::FromTypeDefinitionIndex(Class_1_F966CC1261619DFB_TypeDefinitionIndex)->GetStaticField(0x33B20);
-	}
-	static ::Foundation::AssetPath* StaticGet_Field_1_1()
-	{
-		return (::Foundation::AssetPath*)Il2CppClass::FromTypeDefinitionIndex(Class_1_F966CC1261619DFB_TypeDefinitionIndex)->GetStaticField(0x33B30);
-	}
-	static ::Foundation::AssetPath* StaticGet_Field_1_17()
-	{
-		return (::Foundation::AssetPath*)Il2CppClass::FromTypeDefinitionIndex(Class_1_F966CC1261619DFB_TypeDefinitionIndex)->GetStaticField(0x33B40);
-	}
-	static ::Foundation::AssetPath* StaticGet_Field_1_9()
-	{
-		return (::Foundation::AssetPath*)Il2CppClass::FromTypeDefinitionIndex(Class_1_F966CC1261619DFB_TypeDefinitionIndex)->GetStaticField(0x33B50);
-	}
-	static ::Foundation::AssetPath* StaticGet_Field_1_23()
-	{
-		return (::Foundation::AssetPath*)Il2CppClass::FromTypeDefinitionIndex(Class_1_F966CC1261619DFB_TypeDefinitionIndex)->GetStaticField(0x33B60);
-	}
-	static ::Foundation::AssetPath* StaticGet_Field_1_13()
-	{
-		return (::Foundation::AssetPath*)Il2CppClass::FromTypeDefinitionIndex(Class_1_F966CC1261619DFB_TypeDefinitionIndex)->GetStaticField(0x33B70);
+		return (::Foundation::AssetPath*)Il2CppClass::FromTypeDefinitionIndex(Class_1_F966CC1261619DFB_TypeDefinitionIndex)->GetStaticField(0x35CA0);
 	}
 	static ::Foundation::AssetPath* StaticGet_Field_1_7()
 	{
-		return (::Foundation::AssetPath*)Il2CppClass::FromTypeDefinitionIndex(Class_1_F966CC1261619DFB_TypeDefinitionIndex)->GetStaticField(0x33B80);
+		return (::Foundation::AssetPath*)Il2CppClass::FromTypeDefinitionIndex(Class_1_F966CC1261619DFB_TypeDefinitionIndex)->GetStaticField(0x35CB0);
 	}
-	static ::Foundation::AssetPath* StaticGet_Field_1_24()
+	static ::Foundation::AssetPath* StaticGet_Field_1_29()
 	{
-		return (::Foundation::AssetPath*)Il2CppClass::FromTypeDefinitionIndex(Class_1_F966CC1261619DFB_TypeDefinitionIndex)->GetStaticField(0x33B90);
+		return (::Foundation::AssetPath*)Il2CppClass::FromTypeDefinitionIndex(Class_1_F966CC1261619DFB_TypeDefinitionIndex)->GetStaticField(0x35CC0);
+	}
+	static ::Foundation::AssetPath* StaticGet_Field_1_15()
+	{
+		return (::Foundation::AssetPath*)Il2CppClass::FromTypeDefinitionIndex(Class_1_F966CC1261619DFB_TypeDefinitionIndex)->GetStaticField(0x35CD0);
+	}
+	static ::Foundation::AssetPath* StaticGet_Field_1_14()
+	{
+		return (::Foundation::AssetPath*)Il2CppClass::FromTypeDefinitionIndex(Class_1_F966CC1261619DFB_TypeDefinitionIndex)->GetStaticField(0x35CE0);
+	}
+	static ::Foundation::AssetPath* StaticGet_Field_1_30()
+	{
+		return (::Foundation::AssetPath*)Il2CppClass::FromTypeDefinitionIndex(Class_1_F966CC1261619DFB_TypeDefinitionIndex)->GetStaticField(0x35CF0);
+	}
+	static ::Foundation::AssetPath* StaticGet_Field_1_5()
+	{
+		return (::Foundation::AssetPath*)Il2CppClass::FromTypeDefinitionIndex(Class_1_F966CC1261619DFB_TypeDefinitionIndex)->GetStaticField(0x35D00);
+	}
+	static ::Foundation::AssetPath* StaticGet_Field_1_31()
+	{
+		return (::Foundation::AssetPath*)Il2CppClass::FromTypeDefinitionIndex(Class_1_F966CC1261619DFB_TypeDefinitionIndex)->GetStaticField(0x35D10);
+	}
+	static ::Foundation::AssetPath* StaticGet_Field_1_17()
+	{
+		return (::Foundation::AssetPath*)Il2CppClass::FromTypeDefinitionIndex(Class_1_F966CC1261619DFB_TypeDefinitionIndex)->GetStaticField(0x35D20);
+	}
+	static ::Foundation::AssetPath* StaticGet_Field_1_26()
+	{
+		return (::Foundation::AssetPath*)Il2CppClass::FromTypeDefinitionIndex(Class_1_F966CC1261619DFB_TypeDefinitionIndex)->GetStaticField(0x35D30);
+	}
+	static ::Foundation::AssetPath* StaticGet_Field_1_6()
+	{
+		return (::Foundation::AssetPath*)Il2CppClass::FromTypeDefinitionIndex(Class_1_F966CC1261619DFB_TypeDefinitionIndex)->GetStaticField(0x35D40);
+	}
+	static ::Foundation::AssetPath* StaticGet_Field_1_10()
+	{
+		return (::Foundation::AssetPath*)Il2CppClass::FromTypeDefinitionIndex(Class_1_F966CC1261619DFB_TypeDefinitionIndex)->GetStaticField(0x35D50);
+	}
+	static ::Foundation::AssetPath* StaticGet_Field_1_23()
+	{
+		return (::Foundation::AssetPath*)Il2CppClass::FromTypeDefinitionIndex(Class_1_F966CC1261619DFB_TypeDefinitionIndex)->GetStaticField(0x35D60);
+	}
+	static ::Foundation::AssetPath* StaticGet_Field_1_25()
+	{
+		return (::Foundation::AssetPath*)Il2CppClass::FromTypeDefinitionIndex(Class_1_F966CC1261619DFB_TypeDefinitionIndex)->GetStaticField(0x35D70);
+	}
+	static ::Foundation::AssetPath* StaticGet_Field_1_13()
+	{
+		return (::Foundation::AssetPath*)Il2CppClass::FromTypeDefinitionIndex(Class_1_F966CC1261619DFB_TypeDefinitionIndex)->GetStaticField(0x35D80);
+	}
+	static ::Foundation::AssetPath* StaticGet_Field_1_0()
+	{
+		return (::Foundation::AssetPath*)Il2CppClass::FromTypeDefinitionIndex(Class_1_F966CC1261619DFB_TypeDefinitionIndex)->GetStaticField(0x35D90);
+	}
+	static ::Foundation::AssetPath* StaticGet_Field_1_18()
+	{
+		return (::Foundation::AssetPath*)Il2CppClass::FromTypeDefinitionIndex(Class_1_F966CC1261619DFB_TypeDefinitionIndex)->GetStaticField(0x35DA0);
+	}
+	static ::Foundation::AssetPath* StaticGet_Field_1_11()
+	{
+		return (::Foundation::AssetPath*)Il2CppClass::FromTypeDefinitionIndex(Class_1_F966CC1261619DFB_TypeDefinitionIndex)->GetStaticField(0x35DB0);
+	}
+	static ::Foundation::AssetPath* StaticGet_Field_1_20()
+	{
+		return (::Foundation::AssetPath*)Il2CppClass::FromTypeDefinitionIndex(Class_1_F966CC1261619DFB_TypeDefinitionIndex)->GetStaticField(0x35DC0);
+	}
+	static ::Foundation::AssetPath* StaticGet_Field_1_16()
+	{
+		return (::Foundation::AssetPath*)Il2CppClass::FromTypeDefinitionIndex(Class_1_F966CC1261619DFB_TypeDefinitionIndex)->GetStaticField(0x35DD0);
+	}
+	static ::Foundation::AssetPath* StaticGet_Field_1_21()
+	{
+		return (::Foundation::AssetPath*)Il2CppClass::FromTypeDefinitionIndex(Class_1_F966CC1261619DFB_TypeDefinitionIndex)->GetStaticField(0x35DE0);
 	}
 	static ::Foundation::AssetPath* StaticGet_Field_1_22()
 	{
-		return (::Foundation::AssetPath*)Il2CppClass::FromTypeDefinitionIndex(Class_1_F966CC1261619DFB_TypeDefinitionIndex)->GetStaticField(0x33BA0);
+		return (::Foundation::AssetPath*)Il2CppClass::FromTypeDefinitionIndex(Class_1_F966CC1261619DFB_TypeDefinitionIndex)->GetStaticField(0x35DF0);
+	}
+	static ::Foundation::AssetPath* StaticGet_Field_1_4()
+	{
+		return (::Foundation::AssetPath*)Il2CppClass::FromTypeDefinitionIndex(Class_1_F966CC1261619DFB_TypeDefinitionIndex)->GetStaticField(0x35E00);
+	}
+	static ::Foundation::AssetPath* StaticGet_Field_1_9()
+	{
+		return (::Foundation::AssetPath*)Il2CppClass::FromTypeDefinitionIndex(Class_1_F966CC1261619DFB_TypeDefinitionIndex)->GetStaticField(0x35E10);
+	}
+	static ::Foundation::AssetPath* StaticGet_Field_1_12()
+	{
+		return (::Foundation::AssetPath*)Il2CppClass::FromTypeDefinitionIndex(Class_1_F966CC1261619DFB_TypeDefinitionIndex)->GetStaticField(0x35E20);
+	}
+	static ::Foundation::AssetPath* StaticGet_Field_1_19()
+	{
+		return (::Foundation::AssetPath*)Il2CppClass::FromTypeDefinitionIndex(Class_1_F966CC1261619DFB_TypeDefinitionIndex)->GetStaticField(0x35E30);
 	}
 
 	static ::System::Void _cctor()

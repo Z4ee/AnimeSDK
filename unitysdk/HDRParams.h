@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define HDRPARAMS_START_OFFSET UNITYSDK_OFFSET(0x153A0890)
-#define HDRPARAMS_UPDATE_OFFSET UNITYSDK_OFFSET(0x153A08E0)
-#define HDRPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x153A0930)
-#define HDRPARAMS__SETPARAM_OFFSET UNITYSDK_OFFSET(0x153A0780)
+#define HDRPARAMS_START_OFFSET UNITYSDK_OFFSET(0x12BABB20)
+#define HDRPARAMS_UPDATE_OFFSET UNITYSDK_OFFSET(0x12BABB70)
+#define HDRPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x12BABBC0)
+#define HDRPARAMS__SETPARAM_OFFSET UNITYSDK_OFFSET(0x12BABA10)
 
-inline static constexpr unsigned int HDRParams_TypeDefinitionIndex = 43267;
+inline static constexpr unsigned int HDRParams_TypeDefinitionIndex = 48136;
 
 class HDRParams : public ::UnityEngine::MonoBehaviour
 {

@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/MoleMole/LanguageType.h"
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_679_TypeDefinitionIndex = 67936;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_679_TypeDefinitionIndex = 68480;
 
-template <typename TProto, typename TInteraction, typename TFeedback>
 class Class_0_16E4307DCC419505_679
 {
 public:

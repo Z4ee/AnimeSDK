@@ -4,29 +4,29 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UISHOPPINGMALLLIMITEDCARDWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17B892B0)
-#define MOLEMOLE_UISHOPPINGMALLLIMITEDCARDWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17B892F0)
-#define MOLEMOLE_UISHOPPINGMALLLIMITEDCARDWIDGETCONTROLLER___C__ONCLICKRECEIVEBTN_B__8_0_OFFSET UNITYSDK_OFFSET(0x17B89300)
-#define MOLEMOLE_UISHOPPINGMALLLIMITEDCARDWIDGETCONTROLLER___C__ONCLICKRECEIVEBTN_B__8_1_OFFSET UNITYSDK_OFFSET(0x17B893C0)
+#define MOLEMOLE_UISHOPPINGMALLLIMITEDCARDWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x16AA7C50)
+#define MOLEMOLE_UISHOPPINGMALLLIMITEDCARDWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x16AA7C90)
+#define MOLEMOLE_UISHOPPINGMALLLIMITEDCARDWIDGETCONTROLLER___C__ONCLICKRECEIVEBTN_B__8_0_OFFSET UNITYSDK_OFFSET(0x16AA7CA0)
+#define MOLEMOLE_UISHOPPINGMALLLIMITEDCARDWIDGETCONTROLLER___C__ONCLICKRECEIVEBTN_B__8_1_OFFSET UNITYSDK_OFFSET(0x16AA7D60)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIShoppingMallLimitedCardWidgetController___c_TypeDefinitionIndex = 78666;
+	inline static constexpr unsigned int UIShoppingMallLimitedCardWidgetController___c_TypeDefinitionIndex = 77665;
 
 	class UIShoppingMallLimitedCardWidgetController___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__8_0()
+		static ::MoleMole::UIShoppingMallLimitedCardWidgetController___c** StaticGet___9()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIShoppingMallLimitedCardWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3F510);
+			return (::MoleMole::UIShoppingMallLimitedCardWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIShoppingMallLimitedCardWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x40120);
 		}
 		static ::System::Action** StaticGet___9__8_1()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIShoppingMallLimitedCardWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3F518);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIShoppingMallLimitedCardWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x40128);
 		}
-		static ::MoleMole::UIShoppingMallLimitedCardWidgetController___c** StaticGet___9()
+		static ::System::Action** StaticGet___9__8_0()
 		{
-			return (::MoleMole::UIShoppingMallLimitedCardWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIShoppingMallLimitedCardWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3F520);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIShoppingMallLimitedCardWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x40130);
 		}
 
 		static ::System::Void _cctor()

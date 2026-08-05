@@ -6,12 +6,12 @@
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class Sprite; }
 
-#define MOLEMOLE_UIRANKINGIMAGECONFIG_GETSPRITE_OFFSET UNITYSDK_OFFSET(0x1789E400)
-#define MOLEMOLE_UIRANKINGIMAGECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1789E520)
+#define MOLEMOLE_UIRANKINGIMAGECONFIG_GETSPRITE_OFFSET UNITYSDK_OFFSET(0x1845E0B0)
+#define MOLEMOLE_UIRANKINGIMAGECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1845E1D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRankingImageConfig_TypeDefinitionIndex = 44275;
+	inline static constexpr unsigned int UIRankingImageConfig_TypeDefinitionIndex = 77436;
 
 	class UIRankingImageConfig : public ::Sirenix::OdinInspector::SerializedMonoBehaviour
 	{

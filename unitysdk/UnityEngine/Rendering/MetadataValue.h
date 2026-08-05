@@ -4,7 +4,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int MetadataValue_TypeDefinitionIndex = 6218;
+	inline static constexpr unsigned int MetadataValue_TypeDefinitionIndex = 6222;
 
 	struct alignas(4) MetadataValue
 	{

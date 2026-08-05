@@ -5,12 +5,12 @@
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_TIMELINE_TIMELINECOMPONENT_CONSTRAINTSOURCEPATHINFO__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1917F9E0)
-#define MOLEMOLE_TIMELINE_TIMELINECOMPONENT_CONSTRAINTSOURCEPATHINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1917F9A0)
+#define MOLEMOLE_TIMELINE_TIMELINECOMPONENT_CONSTRAINTSOURCEPATHINFO__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B6B70E0)
+#define MOLEMOLE_TIMELINE_TIMELINECOMPONENT_CONSTRAINTSOURCEPATHINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6B70A0)
 
 namespace MoleMole::Timeline::TimelineComponent
 {
-	inline static constexpr unsigned int ConstraintSourcePathInfo_TypeDefinitionIndex = 81612;
+	inline static constexpr unsigned int ConstraintSourcePathInfo_TypeDefinitionIndex = 47736;
 
 	class ConstraintSourcePathInfo : public ::System::Object
 	{

@@ -6,7 +6,7 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int StateMachineTransitionConfig_TypeDefinitionIndex = 42644;
+	inline static constexpr unsigned int StateMachineTransitionConfig_TypeDefinitionIndex = 79056;
 
 	struct alignas(8) StateMachineTransitionConfig
 	{

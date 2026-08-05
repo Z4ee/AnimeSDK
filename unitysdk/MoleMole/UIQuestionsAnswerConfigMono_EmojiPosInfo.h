@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define MOLEMOLE_UIQUESTIONSANSWERCONFIGMONO_EMOJIPOSINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x15DC5A90)
+#define MOLEMOLE_UIQUESTIONSANSWERCONFIGMONO_EMOJIPOSINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x150F3520)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIQuestionsAnswerConfigMono_EmojiPosInfo_TypeDefinitionIndex = 60745;
+	inline static constexpr unsigned int UIQuestionsAnswerConfigMono_EmojiPosInfo_TypeDefinitionIndex = 55981;
 
 	class UIQuestionsAnswerConfigMono_EmojiPosInfo : public ::System::Object
 	{

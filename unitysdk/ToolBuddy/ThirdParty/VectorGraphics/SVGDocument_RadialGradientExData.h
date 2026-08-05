@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_RADIALGRADIENTEXDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1C60AB60)
+#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_RADIALGRADIENTEXDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1DA938B0)
 
 namespace ToolBuddy::ThirdParty::VectorGraphics
 {
-	inline static constexpr unsigned int SVGDocument_RadialGradientExData_TypeDefinitionIndex = 31127;
+	inline static constexpr unsigned int SVGDocument_RadialGradientExData_TypeDefinitionIndex = 31746;
 
 	class SVGDocument_RadialGradientExData : public ::ToolBuddy::ThirdParty::VectorGraphics::SVGDocument_GradientExData
 	{

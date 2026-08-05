@@ -3,11 +3,11 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigDataPlayStacking_TypeDefinitionIndex = 44730;
+	inline static constexpr unsigned int ConfigDataPlayStacking_TypeDefinitionIndex = 89152;
 
 	enum class ConfigDataPlayStacking : ::System::Int32
 	{
-		Base = 0,
 		Additive = 1,
+		Base = 0,
 	};
 }

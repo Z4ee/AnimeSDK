@@ -9,7 +9,7 @@ namespace System::Collections::Generic { template <typename T> class LinkedList_
 
 namespace Utf8Json::Formatters
 {
-	inline static constexpr unsigned int LinkedListFormatter_1_TypeDefinitionIndex = 91284;
+	inline static constexpr unsigned int LinkedListFormatter_1_TypeDefinitionIndex = 95217;
 
 	template <typename T>
 	class LinkedListFormatter_1 : public ::Utf8Json::Formatters::CollectionFormatterBase_4<T, ::System::Collections::Generic::LinkedList_1<T>*, ::System::Collections::Generic::LinkedList_1_Enumerator<T>, ::System::Collections::Generic::LinkedList_1<T>*>

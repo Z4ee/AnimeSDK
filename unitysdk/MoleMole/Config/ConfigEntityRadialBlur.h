@@ -10,71 +10,71 @@ namespace MoleMole::Config { class ScreenEffectBool; }
 namespace MoleMole::Config { class ScreenEffectFloat; }
 namespace MoleMole::Config { class ScreenEffectVector2; }
 
-#define MOLEMOLE_CONFIG_CONFIGENTITYRADIALBLUR_GETBLOOMMODERADIUSADD_OFFSET UNITYSDK_OFFSET(0x1AA4FBE0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYRADIALBLUR_GETBLOOMMODESAMPLECOUNTADD_OFFSET UNITYSDK_OFFSET(0x1AA4FC60)
-#define MOLEMOLE_CONFIG_CONFIGENTITYRADIALBLUR_GETCANBEDISABLEDBYGLOBALCONFIG_OFFSET UNITYSDK_OFFSET(0x1AA4FAF0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYRADIALBLUR_GETCENTERPOSITION_OFFSET UNITYSDK_OFFSET(0x1AA4F600)
-#define MOLEMOLE_CONFIG_CONFIGENTITYRADIALBLUR_GETCIRCLERANGE_OFFSET UNITYSDK_OFFSET(0x1AA4F780)
-#define MOLEMOLE_CONFIG_CONFIGENTITYRADIALBLUR_GETDOWNSAMPLELEVEL_OFFSET UNITYSDK_OFFSET(0x1AA4F430)
-#define MOLEMOLE_CONFIG_CONFIGENTITYRADIALBLUR_GETFORCEACTIVEOVERLAYDISTORTION_OFFSET UNITYSDK_OFFSET(0x1AA4F800)
-#define MOLEMOLE_CONFIG_CONFIGENTITYRADIALBLUR_GETGLARECENTERFADERANGE_OFFSET UNITYSDK_OFFSET(0x1AA4F9F0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYRADIALBLUR_GETGLAREFADESHAPERATIO_OFFSET UNITYSDK_OFFSET(0x1AA4FA70)
-#define MOLEMOLE_CONFIG_CONFIGENTITYRADIALBLUR_GETGLAREINTENSITY_OFFSET UNITYSDK_OFFSET(0x1AA4F8F0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYRADIALBLUR_GETGLARETHRESHOLD_OFFSET UNITYSDK_OFFSET(0x1AA4F970)
-#define MOLEMOLE_CONFIG_CONFIGENTITYRADIALBLUR_GETNOISESCALE_OFFSET UNITYSDK_OFFSET(0x1AA4FB60)
-#define MOLEMOLE_CONFIG_CONFIGENTITYRADIALBLUR_GETRADIUS_OFFSET UNITYSDK_OFFSET(0x1AA4F580)
-#define MOLEMOLE_CONFIG_CONFIGENTITYRADIALBLUR_GETRANGERATIO_OFFSET UNITYSDK_OFFSET(0x1AA4FCE0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYRADIALBLUR_GETSAMPLECOUNT_OFFSET UNITYSDK_OFFSET(0x1AA4F510)
-#define MOLEMOLE_CONFIG_CONFIGENTITYRADIALBLUR_GETSAMPLEDISTANCEMODE_OFFSET UNITYSDK_OFFSET(0x1AA4F4A0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYRADIALBLUR_GETTHRESHOLD_OFFSET UNITYSDK_OFFSET(0x1AA4F680)
-#define MOLEMOLE_CONFIG_CONFIGENTITYRADIALBLUR_GETUSEBLOOMMODE_OFFSET UNITYSDK_OFFSET(0x1AA4F870)
-#define MOLEMOLE_CONFIG_CONFIGENTITYRADIALBLUR_GETUSECIRCLERANGE_OFFSET UNITYSDK_OFFSET(0x1AA4F700)
-#define MOLEMOLE_CONFIG_CONFIGENTITYRADIALBLUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA4FD60)
+#define MOLEMOLE_CONFIG_CONFIGENTITYRADIALBLUR_GETBLOOMMODERADIUSADD_OFFSET UNITYSDK_OFFSET(0x1146FDE0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYRADIALBLUR_GETBLOOMMODESAMPLECOUNTADD_OFFSET UNITYSDK_OFFSET(0x1146FE60)
+#define MOLEMOLE_CONFIG_CONFIGENTITYRADIALBLUR_GETCANBEDISABLEDBYGLOBALCONFIG_OFFSET UNITYSDK_OFFSET(0x1146FCF0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYRADIALBLUR_GETCENTERPOSITION_OFFSET UNITYSDK_OFFSET(0x1146F800)
+#define MOLEMOLE_CONFIG_CONFIGENTITYRADIALBLUR_GETCIRCLERANGE_OFFSET UNITYSDK_OFFSET(0x1146F980)
+#define MOLEMOLE_CONFIG_CONFIGENTITYRADIALBLUR_GETDOWNSAMPLELEVEL_OFFSET UNITYSDK_OFFSET(0x1146F630)
+#define MOLEMOLE_CONFIG_CONFIGENTITYRADIALBLUR_GETFORCEACTIVEOVERLAYDISTORTION_OFFSET UNITYSDK_OFFSET(0x1146FA00)
+#define MOLEMOLE_CONFIG_CONFIGENTITYRADIALBLUR_GETGLARECENTERFADERANGE_OFFSET UNITYSDK_OFFSET(0x1146FBF0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYRADIALBLUR_GETGLAREFADESHAPERATIO_OFFSET UNITYSDK_OFFSET(0x1146FC70)
+#define MOLEMOLE_CONFIG_CONFIGENTITYRADIALBLUR_GETGLAREINTENSITY_OFFSET UNITYSDK_OFFSET(0x1146FAF0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYRADIALBLUR_GETGLARETHRESHOLD_OFFSET UNITYSDK_OFFSET(0x1146FB70)
+#define MOLEMOLE_CONFIG_CONFIGENTITYRADIALBLUR_GETNOISESCALE_OFFSET UNITYSDK_OFFSET(0x1146FD60)
+#define MOLEMOLE_CONFIG_CONFIGENTITYRADIALBLUR_GETRADIUS_OFFSET UNITYSDK_OFFSET(0x1146F780)
+#define MOLEMOLE_CONFIG_CONFIGENTITYRADIALBLUR_GETRANGERATIO_OFFSET UNITYSDK_OFFSET(0x1146FEE0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYRADIALBLUR_GETSAMPLECOUNT_OFFSET UNITYSDK_OFFSET(0x1146F710)
+#define MOLEMOLE_CONFIG_CONFIGENTITYRADIALBLUR_GETSAMPLEDISTANCEMODE_OFFSET UNITYSDK_OFFSET(0x1146F6A0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYRADIALBLUR_GETTHRESHOLD_OFFSET UNITYSDK_OFFSET(0x1146F880)
+#define MOLEMOLE_CONFIG_CONFIGENTITYRADIALBLUR_GETUSEBLOOMMODE_OFFSET UNITYSDK_OFFSET(0x1146FA70)
+#define MOLEMOLE_CONFIG_CONFIGENTITYRADIALBLUR_GETUSECIRCLERANGE_OFFSET UNITYSDK_OFFSET(0x1146F900)
+#define MOLEMOLE_CONFIG_CONFIGENTITYRADIALBLUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1146FF60)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigEntityRadialBlur_TypeDefinitionIndex = 47867;
+	inline static constexpr unsigned int ConfigEntityRadialBlur_TypeDefinitionIndex = 73984;
 
 	class ConfigEntityRadialBlur : public ::MoleMole::Config::ConfigEntityScreenEffectBase
 	{
 	public:
-		::MoleMole::Config::ScreenEffectVector2* circleRange; // 0x40
-		::MoleMole::Config::ScreenEffectFloat* BloomModeSampleCountAdd; // 0x48
-		::MoleMole::Config::ScreenEffectFloat* glareCenterFadeRange; // 0x50
-		::MoleMole::Config::ScreenEffectFloat* radius; // 0x58
+		::MoleMole::Config::ScreenEffectFloat* radius; // 0x40
+		::MoleMole::Config::ScreenEffectFloat* BloomModeRadiusAdd; // 0x48
+		::MoleMole::Config::ScreenEffectFloat* noiseScale; // 0x50
+		::MoleMole::Config::ScreenEffectFloat* glareFadeShapeRatio; // 0x58
 		::MoleMole::Config::ScreenEffectFloat* threshold; // 0x60
-		::MoleMole::Config::ScreenEffectFloat* BloomModeRadiusAdd; // 0x68
-		::MoleMole::Config::ScreenEffectBool* useBloomMode; // 0x70
-		::MoleMole::Config::ScreenEffectFloat* noiseScale; // 0x78
-		::MoleMole::Config::ScreenEffectFloat* glareFadeShapeRatio; // 0x80
-		::MoleMole::Config::ScreenEffectVector2* centerPosition; // 0x88
-		::MoleMole::Config::ScreenEffectBool* useCircleRange; // 0x90
-		::MoleMole::Config::ScreenEffectFloat* glareThreshold; // 0x98
+		::MoleMole::Config::ScreenEffectFloat* RangeRatio; // 0x68
+		::MoleMole::Config::ScreenEffectVector2* circleRange; // 0x70
+		::MoleMole::Config::ScreenEffectFloat* glareThreshold; // 0x78
+		::MoleMole::Config::ScreenEffectBool* useBloomMode; // 0x80
+		::MoleMole::Config::ScreenEffectFloat* BloomModeSampleCountAdd; // 0x88
+		::MoleMole::Config::ScreenEffectFloat* glareCenterFadeRange; // 0x90
+		::MoleMole::Config::ScreenEffectVector2* centerPosition; // 0x98
 		::MoleMole::Config::ScreenEffectFloat* glareIntensity; // 0xA0
-		::MoleMole::Config::ScreenEffectFloat* RangeRatio; // 0xA8
-		::MoleMole::Config::ScreenEffectFieldHandleType thresholdHandleType; // 0xB0
-		::MoleMole::Config::ScreenEffectFieldHandleType downSampleHandleType; // 0xB4
-		::MoleMole::Config::ScreenEffectFieldHandleType sampleDistanceModeHandleType; // 0xB8
-		::MoleMole::Config::ScreenEffectFieldHandleType noiseScaleHandleType; // 0xBC
+		::MoleMole::Config::ScreenEffectBool* useCircleRange; // 0xA8
+		::MoleMole::Config::ScreenEffectFieldHandleType glareCenterFadeRangeHandleType; // 0xB0
+		::MoleMole::Config::ScreenEffectFieldHandleType sampleCountHandleType; // 0xB4
+		::MoleMole::Config::ScreenEffectFieldHandleType useBloomModeHandleType; // 0xB8
+		::MoleMole::Config::ScreenEffectFieldHandleType canBeDisabledByGlobalConfigHandleType; // 0xBC
 		::System::Int32 sampleCount; // 0xC0
-		::UnityEngine::Rendering::Universal::DownSampleLevel downSampleLevel; // 0xC4
-		::MoleMole::Config::ScreenEffectFieldHandleType sampleCountHandleType; // 0xC8
-		::UnityEngine::Rendering::Universal::SampleDistanceMode sampleDistanceMode; // 0xCC
-		::MoleMole::Config::ScreenEffectFieldHandleType forceActiveOverlayDistortionHandleType; // 0xD0
-		::MoleMole::Config::ScreenEffectFieldHandleType glareCenterFadeRangeHandleType; // 0xD4
-		::MoleMole::Config::ScreenEffectFieldHandleType useBloomModeHandleType; // 0xD8
+		::MoleMole::Config::ScreenEffectFieldHandleType radiusHandleType; // 0xC4
+		::MoleMole::Config::ScreenEffectFieldHandleType sampleDistanceModeHandleType; // 0xC8
+		::MoleMole::Config::ScreenEffectFieldHandleType centerPositionHandleType; // 0xCC
+		::UnityEngine::Rendering::Universal::SampleDistanceMode sampleDistanceMode; // 0xD0
+		::MoleMole::Config::ScreenEffectFieldHandleType circleRangeHandleType; // 0xD4
+		::MoleMole::Config::ScreenEffectFieldHandleType useCircleRangeHandleType; // 0xD8
 		::MoleMole::Config::ScreenEffectFieldHandleType BloomModeRadiusAddHandleType; // 0xDC
-		::MoleMole::Config::ScreenEffectFieldHandleType glareThresholdHandleType; // 0xE0
-		::MoleMole::Config::ScreenEffectFieldHandleType radiusHandleType; // 0xE4
-		::MoleMole::Config::ScreenEffectFieldHandleType circleRangeHandleType; // 0xE8
-		::MoleMole::Config::ScreenEffectFieldHandleType centerPositionHandleType; // 0xEC
-		::MoleMole::Config::ScreenEffectFieldHandleType glareIntensityHandleType; // 0xF0
-		::MoleMole::Config::ScreenEffectFieldHandleType BloomModeSampleCountAddHandleType; // 0xF4
-		::MoleMole::Config::ScreenEffectFieldHandleType canBeDisabledByGlobalConfigHandleType; // 0xF8
-		::System::Boolean canBeDisabledByGlobalConfig; // 0xFC
-		::System::Boolean forceActiveOverlayDistortion; // 0xFD
-		::MoleMole::Config::ScreenEffectFieldHandleType glareFadeShapeRatioHandleType; // 0x100
-		::MoleMole::Config::ScreenEffectFieldHandleType useCircleRangeHandleType; // 0x104
+		::MoleMole::Config::ScreenEffectFieldHandleType glareIntensityHandleType; // 0xE0
+		::MoleMole::Config::ScreenEffectFieldHandleType downSampleHandleType; // 0xE4
+		::System::Boolean forceActiveOverlayDistortion; // 0xE8
+		::System::Boolean canBeDisabledByGlobalConfig; // 0xE9
+		::MoleMole::Config::ScreenEffectFieldHandleType glareThresholdHandleType; // 0xEC
+		::UnityEngine::Rendering::Universal::DownSampleLevel downSampleLevel; // 0xF0
+		::MoleMole::Config::ScreenEffectFieldHandleType glareFadeShapeRatioHandleType; // 0xF4
+		::MoleMole::Config::ScreenEffectFieldHandleType forceActiveOverlayDistortionHandleType; // 0xF8
+		::MoleMole::Config::ScreenEffectFieldHandleType thresholdHandleType; // 0xFC
+		::MoleMole::Config::ScreenEffectFieldHandleType BloomModeSampleCountAddHandleType; // 0x100
+		::MoleMole::Config::ScreenEffectFieldHandleType noiseScaleHandleType; // 0x104
 
 		::System::Void _ctor()
 		{

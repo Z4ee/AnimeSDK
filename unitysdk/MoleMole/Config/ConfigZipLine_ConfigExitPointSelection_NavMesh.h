@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define MOLEMOLE_CONFIG_CONFIGZIPLINE_CONFIGEXITPOINTSELECTION_NAVMESH__CTOR_OFFSET UNITYSDK_OFFSET(0x18F3D620)
+#define MOLEMOLE_CONFIG_CONFIGZIPLINE_CONFIGEXITPOINTSELECTION_NAVMESH__CTOR_OFFSET UNITYSDK_OFFSET(0x16268260)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigZipLine_ConfigExitPointSelection_NavMesh_TypeDefinitionIndex = 51222;
+	inline static constexpr unsigned int ConfigZipLine_ConfigExitPointSelection_NavMesh_TypeDefinitionIndex = 52997;
 
 	class ConfigZipLine_ConfigExitPointSelection_NavMesh : public ::System::Object
 	{

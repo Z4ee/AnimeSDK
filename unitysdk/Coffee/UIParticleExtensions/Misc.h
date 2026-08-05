@@ -5,12 +5,12 @@
 namespace UnityEngine { class Component; }
 namespace UnityEngine { class Object; }
 
-#define COFFEE_UIPARTICLEEXTENSIONS_MISC_DESTROYIMMEDIATE_OFFSET UNITYSDK_OFFSET(0x1D7E0030)
-#define COFFEE_UIPARTICLEEXTENSIONS_MISC_DESTROY_OFFSET UNITYSDK_OFFSET(0x1D7CDD00)
+#define COFFEE_UIPARTICLEEXTENSIONS_MISC_DESTROYIMMEDIATE_OFFSET UNITYSDK_OFFSET(0x1E30E7D0)
+#define COFFEE_UIPARTICLEEXTENSIONS_MISC_DESTROY_OFFSET UNITYSDK_OFFSET(0x1E2E8130)
 
 namespace Coffee::UIParticleExtensions
 {
-	inline static constexpr unsigned int Misc_TypeDefinitionIndex = 34215;
+	inline static constexpr unsigned int Misc_TypeDefinitionIndex = 34851;
 
 	class Misc : public ::System::Object
 	{

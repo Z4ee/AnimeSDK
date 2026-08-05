@@ -12,7 +12,7 @@
 #include "unitysdk/_PrivateImplementationDetails__8E8FA28D_216A_43EC_8DCB_2258D1F7BF00____StaticArrayInitTypeSize_56.h"
 #include "unitysdk/_PrivateImplementationDetails__8E8FA28D_216A_43EC_8DCB_2258D1F7BF00____StaticArrayInitTypeSize_76.h"
 
-inline static constexpr unsigned int _PrivateImplementationDetails__8E8FA28D_216A_43EC_8DCB_2258D1F7BF00__TypeDefinitionIndex = 6891;
+inline static constexpr unsigned int _PrivateImplementationDetails__8E8FA28D_216A_43EC_8DCB_2258D1F7BF00__TypeDefinitionIndex = 6895;
 
 class _PrivateImplementationDetails__8E8FA28D_216A_43EC_8DCB_2258D1F7BF00_ : public ::System::Object
 {

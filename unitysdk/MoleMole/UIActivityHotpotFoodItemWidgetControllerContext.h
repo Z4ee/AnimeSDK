@@ -7,21 +7,21 @@ class Class_2_EA973170E0B2CCF6;
 namespace MoleMole { class UIActivityHotpotFoodItemWidgetController; }
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_UIACTIVITYHOTPOTFOODITEMWIDGETCONTROLLERCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16459670)
+#define MOLEMOLE_UIACTIVITYHOTPOTFOODITEMWIDGETCONTROLLERCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x180CC4B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityHotpotFoodItemWidgetControllerContext_TypeDefinitionIndex = 58349;
+	inline static constexpr unsigned int UIActivityHotpotFoodItemWidgetControllerContext_TypeDefinitionIndex = 44464;
 
 	class UIActivityHotpotFoodItemWidgetControllerContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::System::Action_1<::MoleMole::UIActivityHotpotFoodItemWidgetController*>* OnPlayLink; // 0x28
-		::System::Action_1<::MoleMole::UIActivityHotpotFoodItemWidgetController*>* OnPlayFadeout; // 0x30
+		::System::Action_1<::MoleMole::UIActivityHotpotFoodItemWidgetController*>* OnPlayFadeout; // 0x28
+		::Class_2_EA973170E0B2CCF6* FoodCfg; // 0x30
 		::System::Action_1<::MoleMole::UIActivityHotpotFoodItemWidgetController*>* OnPlayFadein; // 0x38
-		::Class_2_EA973170E0B2CCF6* FoodCfg; // 0x40
-		::UnityEngine::Color ErosionColor; // 0x48
-		::System::Single CollisionIntensityThreshold; // 0x58
+		::System::Action_1<::MoleMole::UIActivityHotpotFoodItemWidgetController*>* OnPlayLink; // 0x40
+		::System::Single CollisionIntensityThreshold; // 0x48
+		::UnityEngine::Color ErosionColor; // 0x4C
 
 		::System::Void _ctor()
 		{

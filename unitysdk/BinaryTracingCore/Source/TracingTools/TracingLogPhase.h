@@ -3,7 +3,7 @@
 
 namespace BinaryTracingCore::Source::TracingTools
 {
-	inline static constexpr unsigned int TracingLogPhase_TypeDefinitionIndex = 33956;
+	inline static constexpr unsigned int TracingLogPhase_TypeDefinitionIndex = 34592;
 
 	enum class TracingLogPhase : ::System::Int32
 	{

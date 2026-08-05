@@ -10,12 +10,12 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCCROWD_NPCPERFORMANCECONFIGSO_GET_CULLPRIORITYSLIDERLABEL_OFFSET UNITYSDK_OFFSET(0xD956670)
-#define NPCCROWD_NPCPERFORMANCECONFIGSO__CTOR_OFFSET UNITYSDK_OFFSET(0xD9566B0)
+#define NPCCROWD_NPCPERFORMANCECONFIGSO_GET_CULLPRIORITYSLIDERLABEL_OFFSET UNITYSDK_OFFSET(0xD8AB6C0)
+#define NPCCROWD_NPCPERFORMANCECONFIGSO__CTOR_OFFSET UNITYSDK_OFFSET(0xD8AB700)
 
 namespace NPCCrowd
 {
-	inline static constexpr unsigned int NPCPerformanceConfigSO_TypeDefinitionIndex = 57813;
+	inline static constexpr unsigned int NPCPerformanceConfigSO_TypeDefinitionIndex = 54253;
 
 	class NPCPerformanceConfigSO : public ::Sirenix::OdinInspector::SerializedScriptableObject
 	{

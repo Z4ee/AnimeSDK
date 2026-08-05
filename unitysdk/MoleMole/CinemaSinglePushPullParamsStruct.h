@@ -6,7 +6,7 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CinemaSinglePushPullParamsStruct_TypeDefinitionIndex = 78102;
+	inline static constexpr unsigned int CinemaSinglePushPullParamsStruct_TypeDefinitionIndex = 69010;
 
 	struct alignas(8) CinemaSinglePushPullParamsStruct
 	{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CLIPPERLIB_MAXIMA__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFE90E0)
+#define CLIPPERLIB_MAXIMA__CTOR_OFFSET UNITYSDK_OFFSET(0x1E3C55D0)
 
 namespace ClipperLib
 {
-	inline static constexpr unsigned int Maxima_TypeDefinitionIndex = 32785;
+	inline static constexpr unsigned int Maxima_TypeDefinitionIndex = 33420;
 
 	class Maxima : public ::System::Object
 	{

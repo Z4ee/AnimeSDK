@@ -6,11 +6,11 @@ namespace MoleMole { class ConfigRhythmMoveBeatMap_BeatMap; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIGRHYTHMMOVEBEATMAP__CTOR_OFFSET UNITYSDK_OFFSET(0x190D3990)
+#define MOLEMOLE_CONFIGRHYTHMMOVEBEATMAP__CTOR_OFFSET UNITYSDK_OFFSET(0x19D6C140)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigRhythmMoveBeatMap_TypeDefinitionIndex = 68420;
+	inline static constexpr unsigned int ConfigRhythmMoveBeatMap_TypeDefinitionIndex = 65970;
 
 	class ConfigRhythmMoveBeatMap : public ::MoleMole::SerializedScriptableObjectBase
 	{

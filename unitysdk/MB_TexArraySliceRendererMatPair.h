@@ -5,9 +5,9 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Material; }
 
-#define MB_TEXARRAYSLICERENDERERMATPAIR__CTOR_OFFSET UNITYSDK_OFFSET(0x1E20FE90)
+#define MB_TEXARRAYSLICERENDERERMATPAIR__CTOR_OFFSET UNITYSDK_OFFSET(0x1F63B1F0)
 
-inline static constexpr unsigned int MB_TexArraySliceRendererMatPair_TypeDefinitionIndex = 90521;
+inline static constexpr unsigned int MB_TexArraySliceRendererMatPair_TypeDefinitionIndex = 94454;
 
 class MB_TexArraySliceRendererMatPair : public ::System::Object
 {

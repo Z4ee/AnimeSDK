@@ -3,13 +3,13 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIABInLevelPlayerItemWidgetController_ToastType_TypeDefinitionIndex = 50877;
+	inline static constexpr unsigned int UIABInLevelPlayerItemWidgetController_ToastType_TypeDefinitionIndex = 40353;
 
 	enum class UIABInLevelPlayerItemWidgetController_ToastType : ::System::Int32
 	{
 		StarUp = 99,
-		Fail = 1,
-		LevelUp = 2,
 		Win = 0,
+		LevelUp = 2,
+		Fail = 1,
 	};
 }

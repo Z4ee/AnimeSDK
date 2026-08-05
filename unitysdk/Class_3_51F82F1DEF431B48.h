@@ -1,0 +1,102 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_2_40CD888D5D4FCB5B.h"
+
+class Class_3_C93CC3D2C2AC4067;
+namespace MoleMole::Battle { class Entity; }
+namespace Nap::NapECS { class EcsEntity; }
+namespace Nap::NapECS { class EcsFilter; }
+namespace Nap::NapECS { class EcsWorld; }
+
+#define CLASS_3_51F82F1DEF431B48_CREATEFILTERS_OFFSET UNITYSDK_OFFSET(0x112AF850)
+#define CLASS_3_51F82F1DEF431B48_METHOD_3_043AAF53DC0CD872_OFFSET UNITYSDK_OFFSET(0x112B04F0)
+#define CLASS_3_51F82F1DEF431B48_METHOD_3_0FAEAA69AE346A5D_OFFSET UNITYSDK_OFFSET(0x112B0040)
+#define CLASS_3_51F82F1DEF431B48_METHOD_3_3AC685F1295A121F_OFFSET UNITYSDK_OFFSET(0x112B0C10)
+#define CLASS_3_51F82F1DEF431B48_METHOD_3_3BEE013982122797_OFFSET UNITYSDK_OFFSET(0x112B02A0)
+#define CLASS_3_51F82F1DEF431B48_METHOD_3_6B160B3CA0C58662_OFFSET UNITYSDK_OFFSET(0x112B0FE0)
+#define CLASS_3_51F82F1DEF431B48_METHOD_3_734CC02BC400E093_OFFSET UNITYSDK_OFFSET(0x112AFFB0)
+#define CLASS_3_51F82F1DEF431B48_METHOD_3_7C6CB0D5DA5A5765_OFFSET UNITYSDK_OFFSET(0x112B0440)
+#define CLASS_3_51F82F1DEF431B48_METHOD_3_AF06AF42B699F058_OFFSET UNITYSDK_OFFSET(0x112AFDF0)
+#define CLASS_3_51F82F1DEF431B48_METHOD_3_BADC81CF9C936EDA_OFFSET UNITYSDK_OFFSET(0x112AFD60)
+#define CLASS_3_51F82F1DEF431B48_METHOD_3_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x112B0F50)
+#define CLASS_3_51F82F1DEF431B48_METHOD_3_D4E92F2DE5F84390_OFFSET UNITYSDK_OFFSET(0x112B0AE0)
+#define CLASS_3_51F82F1DEF431B48_WAITFORFIXEDUPDATE_OFFSET UNITYSDK_OFFSET(0x112AFBE0)
+#define CLASS_3_51F82F1DEF431B48__CTOR_OFFSET UNITYSDK_OFFSET(0x112AFD10)
+
+inline static constexpr unsigned int Class_3_51F82F1DEF431B48_TypeDefinitionIndex = 51173;
+
+class Class_3_51F82F1DEF431B48 : public ::Class_2_40CD888D5D4FCB5B
+{
+public:
+	::Nap::NapECS::EcsFilter* Field_3_0; // 0x20
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_51F82F1DEF431B48__CTOR_OFFSET))(this);
+	}
+
+	::System::Void CreateFilters(::Nap::NapECS::EcsWorld* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Nap::NapECS::EcsWorld*))((::PBYTE)hIl2Cpp + CLASS_3_51F82F1DEF431B48_CREATEFILTERS_OFFSET))(this, a1);
+	}
+
+	::System::Void WaitForFixedUpdate()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_51F82F1DEF431B48_WAITFORFIXEDUPDATE_OFFSET))(this);
+	}
+
+	::System::Void Method_3_BADC81CF9C936EDA(::Nap::NapECS::EcsWorld* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Nap::NapECS::EcsWorld*))((::PBYTE)hIl2Cpp + CLASS_3_51F82F1DEF431B48_METHOD_3_BADC81CF9C936EDA_OFFSET))(this, a1);
+	}
+
+	static ::System::Void Method_3_AF06AF42B699F058(::Nap::NapECS::EcsEntity* a1)
+	{
+		return ((::System::Void(*)(::Nap::NapECS::EcsEntity*))((::PBYTE)hIl2Cpp + CLASS_3_51F82F1DEF431B48_METHOD_3_AF06AF42B699F058_OFFSET))(a1);
+	}
+
+	static ::System::Void Method_3_734CC02BC400E093(::System::Int32 a1)
+	{
+		return ((::System::Void(*)(::System::Int32))((::PBYTE)hIl2Cpp + CLASS_3_51F82F1DEF431B48_METHOD_3_734CC02BC400E093_OFFSET))(a1);
+	}
+
+	static ::System::Void Method_3_0FAEAA69AE346A5D(::Class_3_C93CC3D2C2AC4067* a1, ::System::Boolean a2)
+	{
+		return ((::System::Void(*)(::Class_3_C93CC3D2C2AC4067*, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_3_51F82F1DEF431B48_METHOD_3_0FAEAA69AE346A5D_OFFSET))(a1, a2);
+	}
+
+	static ::System::Void Method_3_7C6CB0D5DA5A5765(::System::Int32 a1)
+	{
+		return ((::System::Void(*)(::System::Int32))((::PBYTE)hIl2Cpp + CLASS_3_51F82F1DEF431B48_METHOD_3_7C6CB0D5DA5A5765_OFFSET))(a1);
+	}
+
+	static ::System::Void Method_3_043AAF53DC0CD872(::System::UInt32 a1)
+	{
+		return ((::System::Void(*)(::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_3_51F82F1DEF431B48_METHOD_3_043AAF53DC0CD872_OFFSET))(a1);
+	}
+
+	static ::System::Void Method_3_D4E92F2DE5F84390(::System::Boolean a1, ::MoleMole::Battle::Entity* a2)
+	{
+		return ((::System::Void(*)(::System::Boolean, ::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + CLASS_3_51F82F1DEF431B48_METHOD_3_D4E92F2DE5F84390_OFFSET))(a1, a2);
+	}
+
+	static ::System::Void Method_3_3AC685F1295A121F(::Nap::NapECS::EcsEntity* a1)
+	{
+		return ((::System::Void(*)(::Nap::NapECS::EcsEntity*))((::PBYTE)hIl2Cpp + CLASS_3_51F82F1DEF431B48_METHOD_3_3AC685F1295A121F_OFFSET))(a1);
+	}
+
+	::System::Void Method_3_CA373AA1C7054598()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_51F82F1DEF431B48_METHOD_3_CA373AA1C7054598_OFFSET))(this);
+	}
+
+	static ::System::Void Method_3_6B160B3CA0C58662(::System::UInt32 a1)
+	{
+		return ((::System::Void(*)(::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_3_51F82F1DEF431B48_METHOD_3_6B160B3CA0C58662_OFFSET))(a1);
+	}
+
+	static ::System::Boolean Method_3_3BEE013982122797()
+	{
+		return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + CLASS_3_51F82F1DEF431B48_METHOD_3_3BEE013982122797_OFFSET))();
+	}
+};

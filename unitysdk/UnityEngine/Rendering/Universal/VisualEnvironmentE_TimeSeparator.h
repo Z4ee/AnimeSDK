@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_VISUALENVIRONMENTE_TIMESEPARATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1C41CE70)
+#define UNITYENGINE_RENDERING_UNIVERSAL_VISUALENVIRONMENTE_TIMESEPARATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6FC9D0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int VisualEnvironmentE_TimeSeparator_TypeDefinitionIndex = 26510;
+	inline static constexpr unsigned int VisualEnvironmentE_TimeSeparator_TypeDefinitionIndex = 27447;
 
 	class VisualEnvironmentE_TimeSeparator : public ::System::Object
 	{

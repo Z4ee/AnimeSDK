@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIRecommendTypePropertyRowWidgetController___c__DisplayClass9_0; }
 
-#define MOLEMOLE_UIRECOMMENDTYPEPROPERTYROWWIDGETCONTROLLER___C__DISPLAYCLASS9_1__CTOR_OFFSET UNITYSDK_OFFSET(0x15C0ECC0)
-#define MOLEMOLE_UIRECOMMENDTYPEPROPERTYROWWIDGETCONTROLLER___C__DISPLAYCLASS9_1__REFRESHVIEW_B__4_OFFSET UNITYSDK_OFFSET(0x15C0ECD0)
+#define MOLEMOLE_UIRECOMMENDTYPEPROPERTYROWWIDGETCONTROLLER___C__DISPLAYCLASS9_1__CTOR_OFFSET UNITYSDK_OFFSET(0x160C7C30)
+#define MOLEMOLE_UIRECOMMENDTYPEPROPERTYROWWIDGETCONTROLLER___C__DISPLAYCLASS9_1__REFRESHVIEW_B__4_OFFSET UNITYSDK_OFFSET(0x160C7C40)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRecommendTypePropertyRowWidgetController___c__DisplayClass9_1_TypeDefinitionIndex = 83809;
+	inline static constexpr unsigned int UIRecommendTypePropertyRowWidgetController___c__DisplayClass9_1_TypeDefinitionIndex = 88465;
 
 	class UIRecommendTypePropertyRowWidgetController___c__DisplayClass9_1 : public ::System::Object
 	{

@@ -11,7 +11,7 @@ namespace UnityEngine::InputSystem { template <typename T> class InputControl_1;
 
 namespace UnityEngine::InputSystem::LowLevel
 {
-	inline static constexpr unsigned int InputStateHistory_1_TypeDefinitionIndex = 31955;
+	inline static constexpr unsigned int InputStateHistory_1_TypeDefinitionIndex = 32575;
 
 	template <typename TValue>
 	class InputStateHistory_1 : public ::UnityEngine::InputSystem::LowLevel::InputStateHistory

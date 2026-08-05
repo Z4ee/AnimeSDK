@@ -6,12 +6,12 @@ namespace MoleMole::CaseTest { class SkillDef; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CASETEST_MONSTERREPLAYCONFIG_GETALLSKILLSETTING_OFFSET UNITYSDK_OFFSET(0x13EC5450)
-#define MOLEMOLE_CASETEST_MONSTERREPLAYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x13EC5840)
+#define MOLEMOLE_CASETEST_MONSTERREPLAYCONFIG_GETALLSKILLSETTING_OFFSET UNITYSDK_OFFSET(0x16240BB0)
+#define MOLEMOLE_CASETEST_MONSTERREPLAYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16240F90)
 
 namespace MoleMole::CaseTest
 {
-	inline static constexpr unsigned int MonsterReplayConfig_TypeDefinitionIndex = 40813;
+	inline static constexpr unsigned int MonsterReplayConfig_TypeDefinitionIndex = 66431;
 
 	class MonsterReplayConfig : public ::System::Object
 	{

@@ -6,12 +6,12 @@
 namespace System { class String; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_MONOAIRBUSSEGMENT_GET_REVERSECURVE_OFFSET UNITYSDK_OFFSET(0x182FE930)
-#define MOLEMOLE_MONOAIRBUSSEGMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x182FEB10)
+#define MOLEMOLE_MONOAIRBUSSEGMENT_GET_REVERSECURVE_OFFSET UNITYSDK_OFFSET(0x199573B0)
+#define MOLEMOLE_MONOAIRBUSSEGMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x19957590)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoAirBusSegment_TypeDefinitionIndex = 68233;
+	inline static constexpr unsigned int MonoAirBusSegment_TypeDefinitionIndex = 46978;
 
 	class MonoAirBusSegment : public ::FluffyUnderware::Curvy::CurvyMetadataBase
 	{

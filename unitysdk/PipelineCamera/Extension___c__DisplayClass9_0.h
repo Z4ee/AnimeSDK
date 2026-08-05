@@ -6,12 +6,12 @@
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define PIPELINECAMERA_EXTENSION___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1DC2F740)
-#define PIPELINECAMERA_EXTENSION___C__DISPLAYCLASS9_0__DRAWELLIPSE_G__GENERATOR_0_OFFSET UNITYSDK_OFFSET(0x1DC2F750)
+#define PIPELINECAMERA_EXTENSION___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1F057B50)
+#define PIPELINECAMERA_EXTENSION___C__DISPLAYCLASS9_0__DRAWELLIPSE_G__GENERATOR_0_OFFSET UNITYSDK_OFFSET(0x1F057B60)
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int Extension___c__DisplayClass9_0_TypeDefinitionIndex = 37571;
+	inline static constexpr unsigned int Extension___c__DisplayClass9_0_TypeDefinitionIndex = 38232;
 
 	class Extension___c__DisplayClass9_0 : public ::System::Object
 	{

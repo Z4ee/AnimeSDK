@@ -6,26 +6,26 @@ namespace MoleMole { class QuestTipPopShow; }
 namespace MoleMole { class UIMainCityPageController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_QUESTTIPPOPSHOW___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16CE2150)
-#define MOLEMOLE_QUESTTIPPOPSHOW___C__DISPLAYCLASS7_0__ONPROCESS_B__0_OFFSET UNITYSDK_OFFSET(0x16CE2160)
-#define MOLEMOLE_QUESTTIPPOPSHOW___C__DISPLAYCLASS7_0__ONPROCESS_B__1_OFFSET UNITYSDK_OFFSET(0x16CE2770)
-#define MOLEMOLE_QUESTTIPPOPSHOW___C__DISPLAYCLASS7_0__ONPROCESS_B__2_OFFSET UNITYSDK_OFFSET(0x16CE2820)
-#define MOLEMOLE_QUESTTIPPOPSHOW___C__DISPLAYCLASS7_0__ONPROCESS_B__3_OFFSET UNITYSDK_OFFSET(0x16CE2850)
-#define MOLEMOLE_QUESTTIPPOPSHOW___C__DISPLAYCLASS7_0__ONPROCESS_B__4_OFFSET UNITYSDK_OFFSET(0x16CE2900)
+#define MOLEMOLE_QUESTTIPPOPSHOW___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x13ACEF20)
+#define MOLEMOLE_QUESTTIPPOPSHOW___C__DISPLAYCLASS7_0__ONPROCESS_B__0_OFFSET UNITYSDK_OFFSET(0x13ACEF30)
+#define MOLEMOLE_QUESTTIPPOPSHOW___C__DISPLAYCLASS7_0__ONPROCESS_B__1_OFFSET UNITYSDK_OFFSET(0x13ACF540)
+#define MOLEMOLE_QUESTTIPPOPSHOW___C__DISPLAYCLASS7_0__ONPROCESS_B__2_OFFSET UNITYSDK_OFFSET(0x13ACF5F0)
+#define MOLEMOLE_QUESTTIPPOPSHOW___C__DISPLAYCLASS7_0__ONPROCESS_B__3_OFFSET UNITYSDK_OFFSET(0x13ACF620)
+#define MOLEMOLE_QUESTTIPPOPSHOW___C__DISPLAYCLASS7_0__ONPROCESS_B__4_OFFSET UNITYSDK_OFFSET(0x13ACF6D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int QuestTipPopShow___c__DisplayClass7_0_TypeDefinitionIndex = 47392;
+	inline static constexpr unsigned int QuestTipPopShow___c__DisplayClass7_0_TypeDefinitionIndex = 81513;
 
 	class QuestTipPopShow___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:
-		::System::Action* __9__3; // 0x10
+		::MoleMole::UIMainCityPageController* mainPage; // 0x10
 		::MoleMole::QuestTipPopShow* __4__this; // 0x18
-		::System::Action* __9__1; // 0x20
-		::System::Action* __9__2; // 0x28
-		::System::Action* __9__4; // 0x30
-		::MoleMole::UIMainCityPageController* mainPage; // 0x38
+		::System::Action* __9__4; // 0x20
+		::System::Action* __9__3; // 0x28
+		::System::Action* __9__1; // 0x30
+		::System::Action* __9__2; // 0x38
 
 		::System::Void _ctor()
 		{

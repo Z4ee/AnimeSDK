@@ -8,18 +8,18 @@
 class Class_3_09887D9189AB5BE2;
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define CLASS_3_09887D9189AB5BE2_STRUCT_2_D8E07952AA1CA920_2_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x7BAE20)
-#define CLASS_3_09887D9189AB5BE2_STRUCT_2_D8E07952AA1CA920_2_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x283610)
+#define CLASS_3_09887D9189AB5BE2_STRUCT_2_D8E07952AA1CA920_2_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x7C4B80)
+#define CLASS_3_09887D9189AB5BE2_STRUCT_2_D8E07952AA1CA920_2_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x296F30)
 
-inline static constexpr unsigned int Class_3_09887D9189AB5BE2_Struct_2_D8E07952AA1CA920_2_TypeDefinitionIndex = 70347;
+inline static constexpr unsigned int Class_3_09887D9189AB5BE2_Struct_2_D8E07952AA1CA920_2_TypeDefinitionIndex = 72982;
 
 struct alignas(8) Class_3_09887D9189AB5BE2_Struct_2_D8E07952AA1CA920_2
 {
-	::Cysharp::Threading::Tasks::UniTask_Awaiter Field_2_4; // 0x10
-	::Class_3_09887D9189AB5BE2* Field_2_2; // 0x20
-	::System::Threading::CancellationToken Field_2_3; // 0x28
-	::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder Field_2_1; // 0x30
-	::System::Int32 Field_2_0; // 0x40
+	::Class_3_09887D9189AB5BE2* Field_2_0; // 0x10
+	::System::Threading::CancellationToken Field_2_7; // 0x18
+	::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder Field_2_1; // 0x20
+	::Cysharp::Threading::Tasks::UniTask_Awaiter Field_2_6; // 0x30
+	::System::Int32 Field_2_2; // 0x40
 
 	::System::Void MoveNext()
 	{

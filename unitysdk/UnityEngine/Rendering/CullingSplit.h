@@ -6,7 +6,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int CullingSplit_TypeDefinitionIndex = 6219;
+	inline static constexpr unsigned int CullingSplit_TypeDefinitionIndex = 6223;
 
 	struct alignas(4) CullingSplit
 	{

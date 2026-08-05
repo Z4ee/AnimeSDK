@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/MoleMole/Config/GalSplitScreenParam.h"
 #include "unitysdk/Sirenix/OdinInspector/SerializedMonoBehaviour.h"
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CONFIG_UIGALGAMECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x192AF500)
+#define MOLEMOLE_CONFIG_UIGALGAMECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1487D8A0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int UIGalgameConfig_TypeDefinitionIndex = 68163;
+	inline static constexpr unsigned int UIGalgameConfig_TypeDefinitionIndex = 72721;
 
 	class UIGalgameConfig : public ::Sirenix::OdinInspector::SerializedMonoBehaviour
 	{
 	public:
-		::System::Single splitScreenDuration; // 0x58
-		::UnityEngine::AnimationCurve* splitScreenMoveCurve; // 0x60
+		::MoleMole::Config::GalSplitScreenParam NormalSplitScreenParam; // 0x58
 		::System::Single doubleScreenImgShiftAmount; // 0x68
 		::System::Single tripleScreenImgShiftAmount; // 0x6C
 		::System::Single outsideScreenImgShiftAmount; // 0x70
@@ -34,10 +34,9 @@ namespace MoleMole::Config
 		::System::Single doubleStageFadeInBGAnimDuration; // 0xB4
 		::System::Single doubleStageFadeInBGAnimDistance; // 0xB8
 		::UnityEngine::AnimationCurve* doubleStageFadeInBGMoveCurve; // 0xC0
-		::System::Single doubleStageFadeInAvatarDelay; // 0xC8
-		::System::Single doubleStageFadeOutBGDelay; // 0xCC
-		::System::Single doubleStagefadeOutBGAnimDuration; // 0xD0
-		::System::Single doubleStageFadeOutBGAnimDistance; // 0xD4
+		::System::Single doubleStageFadeOutBGDelay; // 0xC8
+		::System::Single doubleStagefadeOutBGAnimDuration; // 0xCC
+		::System::Single doubleStageFadeOutBGAnimDistance; // 0xD0
 		::UnityEngine::AnimationCurve* doubleStageFadeOutBGMoveCurve; // 0xD8
 		::System::Single doubleStageFadeOutAvatarDelay; // 0xE0
 		::System::Single doubleStageFadeOutPageAnimDelay; // 0xE4
@@ -58,11 +57,14 @@ namespace MoleMole::Config
 		::System::Single tripleStageExitBgMoveFactor; // 0x128
 		::System::Single smallFigureFOV; // 0x12C
 		::System::Single bgEnlargeFactor; // 0x130
-		::System::Single DEFAULT_AUTO_CLICK_COUNT_DOWN; // 0x134
-		::System::Single NARRATOR_AUTO_CLICK_COUNT_DOWN_PER_LINE; // 0x138
-		::System::Single NARRATOR_AUTO_CLICK_MIN_COUNT_DOWN; // 0x13C
-		::System::Single NARRATOR_AUTO_CLICK_MAX_COUNT_DOWN; // 0x140
-		::System::Single subStoryNodeProtetTime; // 0x144
+		::System::Single ArgueEnterPerformDelay_SwitchScene; // 0x134
+		::MoleMole::Config::GalSplitScreenParam ArgueNormalSplitScreenParam; // 0x138
+		::MoleMole::Config::GalSplitScreenParam ArgueShakeSplitScreenParam; // 0x148
+		::System::Single DEFAULT_AUTO_CLICK_COUNT_DOWN; // 0x158
+		::System::Single NARRATOR_AUTO_CLICK_COUNT_DOWN_PER_LINE; // 0x15C
+		::System::Single NARRATOR_AUTO_CLICK_MIN_COUNT_DOWN; // 0x160
+		::System::Single NARRATOR_AUTO_CLICK_MAX_COUNT_DOWN; // 0x164
+		::System::Single subStoryNodeProtetTime; // 0x168
 
 		::System::Void _ctor()
 		{

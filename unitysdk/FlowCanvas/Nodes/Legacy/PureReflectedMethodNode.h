@@ -10,21 +10,21 @@ namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Reflection { class MethodInfo; }
 
-#define FLOWCANVAS_NODES_LEGACY_PUREREFLECTEDMETHODNODE_CALLMETHOD_OFFSET UNITYSDK_OFFSET(0x1D401850)
-#define FLOWCANVAS_NODES_LEGACY_PUREREFLECTEDMETHODNODE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1D400CD0)
-#define FLOWCANVAS_NODES_LEGACY_PUREREFLECTEDMETHODNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D401CB0)
+#define FLOWCANVAS_NODES_LEGACY_PUREREFLECTEDMETHODNODE_CALLMETHOD_OFFSET UNITYSDK_OFFSET(0x1E7A6F10)
+#define FLOWCANVAS_NODES_LEGACY_PUREREFLECTEDMETHODNODE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1E7A6390)
+#define FLOWCANVAS_NODES_LEGACY_PUREREFLECTEDMETHODNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7A7370)
 
 namespace FlowCanvas::Nodes::Legacy
 {
-	inline static constexpr unsigned int PureReflectedMethodNode_TypeDefinitionIndex = 29702;
+	inline static constexpr unsigned int PureReflectedMethodNode_TypeDefinitionIndex = 30329;
 
 	class PureReflectedMethodNode : public ::FlowCanvas::Nodes::Legacy::ReflectedMethodNode
 	{
 	public:
-		::System::Collections::Generic::List_1<::FlowCanvas::ValueInput*>* inputs; // 0x10
-		::System::Reflection::MethodInfo* method; // 0x18
-		::System::Type* paramsArrayType; // 0x20
-		::System::Collections::Generic::List_1<::FlowCanvas::ValueInput*>* paramsInputs; // 0x28
+		::System::Reflection::MethodInfo* method; // 0x10
+		::System::Collections::Generic::List_1<::FlowCanvas::ValueInput*>* paramsInputs; // 0x18
+		::System::Collections::Generic::List_1<::FlowCanvas::ValueInput*>* inputs; // 0x20
+		::System::Type* paramsArrayType; // 0x28
 		::System::Object* instance; // 0x30
 		::System::Object* returnValue; // 0x38
 		::Il2CppArray<::System::Object*>* args; // 0x40

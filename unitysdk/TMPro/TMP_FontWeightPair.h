@@ -6,7 +6,7 @@ namespace TMPro { class TMP_FontAsset; }
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_FontWeightPair_TypeDefinitionIndex = 39133;
+	inline static constexpr unsigned int TMP_FontWeightPair_TypeDefinitionIndex = 39799;
 
 	struct alignas(8) TMP_FontWeightPair
 	{

@@ -4,12 +4,12 @@
 
 namespace DG::Tweening { class EaseFunction; }
 
-#define DG_TWEENING_EASEFACTORY___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1E5E7330)
-#define DG_TWEENING_EASEFACTORY___C__DISPLAYCLASS2_0__STOPMOTION_B__0_OFFSET UNITYSDK_OFFSET(0x1E5E7340)
+#define DG_TWEENING_EASEFACTORY___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1F9CDE70)
+#define DG_TWEENING_EASEFACTORY___C__DISPLAYCLASS2_0__STOPMOTION_B__0_OFFSET UNITYSDK_OFFSET(0x1F9CDE80)
 
 namespace DG::Tweening
 {
-	inline static constexpr unsigned int EaseFactory___c__DisplayClass2_0_TypeDefinitionIndex = 27841;
+	inline static constexpr unsigned int EaseFactory___c__DisplayClass2_0_TypeDefinitionIndex = 28445;
 
 	class EaseFactory___c__DisplayClass2_0 : public ::System::Object
 	{

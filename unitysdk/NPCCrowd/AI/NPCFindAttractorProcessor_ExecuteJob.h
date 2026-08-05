@@ -15,12 +15,12 @@
 
 namespace NPCCrowd::Ability { class NPCAbilityRuntimeData; }
 
-#define NPCCROWD_AI_NPCFINDATTRACTORPROCESSOR_EXECUTEJOB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x731E70)
-#define NPCCROWD_AI_NPCFINDATTRACTORPROCESSOR_EXECUTEJOB__CTOR_OFFSET UNITYSDK_OFFSET(0x731E60)
+#define NPCCROWD_AI_NPCFINDATTRACTORPROCESSOR_EXECUTEJOB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x830D50)
+#define NPCCROWD_AI_NPCFINDATTRACTORPROCESSOR_EXECUTEJOB__CTOR_OFFSET UNITYSDK_OFFSET(0x830D40)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int NPCFindAttractorProcessor_ExecuteJob_TypeDefinitionIndex = 41341;
+	inline static constexpr unsigned int NPCFindAttractorProcessor_ExecuteJob_TypeDefinitionIndex = 65213;
 
 	struct alignas(8) NPCFindAttractorProcessor_ExecuteJob
 	{

@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define NPCCROWD_ANIMATION_MONTAGECLIPTIMEDATA_GETDURATION_OFFSET UNITYSDK_OFFSET(0x593BB0)
-#define NPCCROWD_ANIMATION_MONTAGECLIPTIMEDATA_GETSAFESPEED_OFFSET UNITYSDK_OFFSET(0x593C10)
+#define NPCCROWD_ANIMATION_MONTAGECLIPTIMEDATA_GETDURATION_OFFSET UNITYSDK_OFFSET(0x6AA760)
+#define NPCCROWD_ANIMATION_MONTAGECLIPTIMEDATA_GETSAFESPEED_OFFSET UNITYSDK_OFFSET(0x6AA7C0)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int MontageClipTimeData_TypeDefinitionIndex = 66564;
+	inline static constexpr unsigned int MontageClipTimeData_TypeDefinitionIndex = 81851;
 
 	struct alignas(4) MontageClipTimeData
 	{

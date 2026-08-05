@@ -6,11 +6,11 @@ namespace MoleMole::Config { class ConfigEntityGaussianBlurEffect; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGGAUSSIANBLUREFFECTS__CTOR_OFFSET UNITYSDK_OFFSET(0x1929BE30)
+#define MOLEMOLE_CONFIG_CONFIGGAUSSIANBLUREFFECTS__CTOR_OFFSET UNITYSDK_OFFSET(0x14863880)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigGaussianBlurEffects_TypeDefinitionIndex = 68981;
+	inline static constexpr unsigned int ConfigGaussianBlurEffects_TypeDefinitionIndex = 64963;
 
 	class ConfigGaussianBlurEffects : public ::Foundation::MihoyoSerializedScriptableObject
 	{

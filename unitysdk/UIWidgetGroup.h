@@ -7,11 +7,11 @@ namespace MoleMole { class UIWidgetController; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define UIWIDGETGROUP_DESTROY_OFFSET UNITYSDK_OFFSET(0x1A5162A0)
-#define UIWIDGETGROUP_GETALLCHILDLIST_OFFSET UNITYSDK_OFFSET(0x1A516260)
-#define UIWIDGETGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1A516310)
+#define UIWIDGETGROUP_DESTROY_OFFSET UNITYSDK_OFFSET(0x1DE8E580)
+#define UIWIDGETGROUP_GETALLCHILDLIST_OFFSET UNITYSDK_OFFSET(0x1DE8E540)
+#define UIWIDGETGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1DE8E5F0)
 
-inline static constexpr unsigned int UIWidgetGroup_TypeDefinitionIndex = 75330;
+inline static constexpr unsigned int UIWidgetGroup_TypeDefinitionIndex = 66504;
 
 class UIWidgetGroup : public ::System::Object
 {

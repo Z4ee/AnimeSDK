@@ -1,0 +1,52 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Enum_3_A472E51DCF07A558.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_3AEBC240D578A074;
+namespace System { class Action; }
+
+#define CLASS_1_4F129C1871E41090_METHOD_1_0D7638DBC93E5002_OFFSET UNITYSDK_OFFSET(0x12B52AB0)
+#define CLASS_1_4F129C1871E41090_METHOD_1_10EB423EF7E7ADA9_OFFSET UNITYSDK_OFFSET(0x12B52BD0)
+#define CLASS_1_4F129C1871E41090_METHOD_1_7A794BD9BA4A18A7_OFFSET UNITYSDK_OFFSET(0x12B52B00)
+#define CLASS_1_4F129C1871E41090_METHOD_1_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0x12B52B60)
+#define CLASS_1_4F129C1871E41090_METHOD_1_BF58CD85AE089CA1_OFFSET UNITYSDK_OFFSET(0x12B52C50)
+#define CLASS_1_4F129C1871E41090__CTOR_OFFSET UNITYSDK_OFFSET(0x12B52A60)
+
+inline static constexpr unsigned int Class_1_4F129C1871E41090_TypeDefinitionIndex = 50981;
+
+class Class_1_4F129C1871E41090 : public ::System::Object
+{
+public:
+	::Class_1_3AEBC240D578A074* Field_1_0; // 0x10
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_4F129C1871E41090__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_1_0D7638DBC93E5002()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_4F129C1871E41090_METHOD_1_0D7638DBC93E5002_OFFSET))(this);
+	}
+
+	::System::Void Method_1_7A794BD9BA4A18A7(::Enum_3_A472E51DCF07A558 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Enum_3_A472E51DCF07A558))((::PBYTE)hIl2Cpp + CLASS_1_4F129C1871E41090_METHOD_1_7A794BD9BA4A18A7_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_9681042564541CD6()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_4F129C1871E41090_METHOD_1_9681042564541CD6_OFFSET))(this);
+	}
+
+	::System::Void Method_1_10EB423EF7E7ADA9(::Enum_3_A472E51DCF07A558 a1, ::System::Action* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Enum_3_A472E51DCF07A558, ::System::Action*))((::PBYTE)hIl2Cpp + CLASS_1_4F129C1871E41090_METHOD_1_10EB423EF7E7ADA9_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_1_BF58CD85AE089CA1(::Enum_3_A472E51DCF07A558 a1, ::System::Action* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Enum_3_A472E51DCF07A558, ::System::Action*))((::PBYTE)hIl2Cpp + CLASS_1_4F129C1871E41090_METHOD_1_BF58CD85AE089CA1_OFFSET))(this, a1, a2);
+	}
+};

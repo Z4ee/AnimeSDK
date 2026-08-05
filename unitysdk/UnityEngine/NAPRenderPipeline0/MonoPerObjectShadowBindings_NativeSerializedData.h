@@ -5,7 +5,7 @@
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int MonoPerObjectShadowBindings_NativeSerializedData_TypeDefinitionIndex = 6121;
+	inline static constexpr unsigned int MonoPerObjectShadowBindings_NativeSerializedData_TypeDefinitionIndex = 6123;
 
 	struct alignas(4) MonoPerObjectShadowBindings_NativeSerializedData
 	{
@@ -20,5 +20,14 @@ namespace UnityEngine::NAPRenderPipeline0
 		::UnityEngine::Vector3 customLightDirection; // 0x18
 		::System::Single depthBias; // 0x24
 		::System::Single perObjectShadowResolveAlpha; // 0x28
+		::System::Single disableShadowDistance; // 0x2C
+		::System::Single fadeStartHeight; // 0x30
+		::System::Single fadeEndHeight; // 0x34
+		::System::Single fadeStartDistance; // 0x38
+		::System::Single fadeEndDistance; // 0x3C
+		::System::Byte shadowFadeWithHeight; // 0x40
+		::System::Byte needResetShadowCasting; // 0x41
+		::System::Byte _padding4; // 0x42
+		::System::Byte _padding5; // 0x43
 	};
 }

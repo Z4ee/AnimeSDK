@@ -6,12 +6,12 @@ namespace NodeCanvas::DialogueTrees { class IDialogueActor; }
 namespace NodeCanvas::DialogueTrees { class Statement; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NODECANVAS_TASKS_ACTIONS_SAYRANDOM_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1D829620)
-#define NODECANVAS_TASKS_ACTIONS_SAYRANDOM__CTOR_OFFSET UNITYSDK_OFFSET(0x1D829850)
+#define NODECANVAS_TASKS_ACTIONS_SAYRANDOM_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1EB9B920)
+#define NODECANVAS_TASKS_ACTIONS_SAYRANDOM__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB9BB50)
 
 namespace NodeCanvas::Tasks::Actions
 {
-	inline static constexpr unsigned int SayRandom_TypeDefinitionIndex = 29698;
+	inline static constexpr unsigned int SayRandom_TypeDefinitionIndex = 31443;
 
 	class SayRandom : public ::NodeCanvas::Framework::ActionTask_1<::NodeCanvas::DialogueTrees::IDialogueActor*>
 	{

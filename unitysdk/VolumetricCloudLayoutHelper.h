@@ -8,21 +8,21 @@ namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class MeshRenderer; }
 namespace UnityEngine { class Texture2D; }
 
-#define VOLUMETRICCLOUDLAYOUTHELPER_GET_HASSINGLECLOUD_OFFSET UNITYSDK_OFFSET(0x1AF6BA00)
-#define VOLUMETRICCLOUDLAYOUTHELPER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1AF6C3E0)
-#define VOLUMETRICCLOUDLAYOUTHELPER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1AF6BA80)
-#define VOLUMETRICCLOUDLAYOUTHELPER_UPDATEMPB_OFFSET UNITYSDK_OFFSET(0x1AF6BD50)
-#define VOLUMETRICCLOUDLAYOUTHELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AF6C650)
-#define VOLUMETRICCLOUDLAYOUTHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF6C490)
+#define VOLUMETRICCLOUDLAYOUTHELPER_GET_HASSINGLECLOUD_OFFSET UNITYSDK_OFFSET(0x1BC747F0)
+#define VOLUMETRICCLOUDLAYOUTHELPER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1BC751D0)
+#define VOLUMETRICCLOUDLAYOUTHELPER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1BC74870)
+#define VOLUMETRICCLOUDLAYOUTHELPER_UPDATEMPB_OFFSET UNITYSDK_OFFSET(0x1BC74B40)
+#define VOLUMETRICCLOUDLAYOUTHELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BC75440)
+#define VOLUMETRICCLOUDLAYOUTHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC75280)
 
-inline static constexpr unsigned int VolumetricCloudLayoutHelper_TypeDefinitionIndex = 27201;
+inline static constexpr unsigned int VolumetricCloudLayoutHelper_TypeDefinitionIndex = 27845;
 
 class VolumetricCloudLayoutHelper : public ::UnityEngine::MonoBehaviour
 {
 public:
 	static ::System::Collections::Generic::List_1<::VolumetricCloudLayoutHelper*>** StaticGet_activeHelpers()
 	{
-		return (::System::Collections::Generic::List_1<::VolumetricCloudLayoutHelper*>**)Il2CppClass::FromTypeDefinitionIndex(VolumetricCloudLayoutHelper_TypeDefinitionIndex)->GetStaticField(0x209C0);
+		return (::System::Collections::Generic::List_1<::VolumetricCloudLayoutHelper*>**)Il2CppClass::FromTypeDefinitionIndex(VolumetricCloudLayoutHelper_TypeDefinitionIndex)->GetStaticField(0x21C10);
 	}
 	::UnityEngine::Texture2D* sdfTexture; // 0x18
 	::System::Single densityScale; // 0x20

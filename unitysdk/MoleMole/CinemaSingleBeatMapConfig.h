@@ -6,11 +6,11 @@ namespace MoleMole { class CinemaSingleBeatMapConfig_BeatMap; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CINEMASINGLEBEATMAPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xE9583F0)
+#define MOLEMOLE_CINEMASINGLEBEATMAPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xF12C740)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CinemaSingleBeatMapConfig_TypeDefinitionIndex = 46378;
+	inline static constexpr unsigned int CinemaSingleBeatMapConfig_TypeDefinitionIndex = 67283;
 
 	class CinemaSingleBeatMapConfig : public ::MoleMole::SerializedScriptableObjectBase
 	{

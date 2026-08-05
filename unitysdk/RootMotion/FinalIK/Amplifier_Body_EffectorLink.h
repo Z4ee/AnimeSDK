@@ -3,11 +3,11 @@
 #include "unitysdk/RootMotion/FinalIK/FullBodyBipedEffector.h"
 #include "unitysdk/System/Object.h"
 
-#define ROOTMOTION_FINALIK_AMPLIFIER_BODY_EFFECTORLINK__CTOR_OFFSET UNITYSDK_OFFSET(0x1DF916D0)
+#define ROOTMOTION_FINALIK_AMPLIFIER_BODY_EFFECTORLINK__CTOR_OFFSET UNITYSDK_OFFSET(0x1F3ACE10)
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int Amplifier_Body_EffectorLink_TypeDefinitionIndex = 38327;
+	inline static constexpr unsigned int Amplifier_Body_EffectorLink_TypeDefinitionIndex = 38913;
 
 	class Amplifier_Body_EffectorLink : public ::System::Object
 	{

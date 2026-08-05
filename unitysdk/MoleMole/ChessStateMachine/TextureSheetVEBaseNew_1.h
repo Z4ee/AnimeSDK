@@ -9,7 +9,7 @@ namespace System { class String; }
 
 namespace MoleMole::ChessStateMachine
 {
-	inline static constexpr unsigned int TextureSheetVEBaseNew_1_TypeDefinitionIndex = 59665;
+	inline static constexpr unsigned int TextureSheetVEBaseNew_1_TypeDefinitionIndex = 75617;
 
 	template <typename T>
 	class TextureSheetVEBaseNew_1 : public ::MoleMole::ChessStateMachine::StateMachineNormalEntityAction_1<T>

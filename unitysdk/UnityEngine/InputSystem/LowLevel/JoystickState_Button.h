@@ -3,7 +3,7 @@
 
 namespace UnityEngine::InputSystem::LowLevel
 {
-	inline static constexpr unsigned int JoystickState_Button_TypeDefinitionIndex = 31881;
+	inline static constexpr unsigned int JoystickState_Button_TypeDefinitionIndex = 32501;
 
 	enum class JoystickState_Button : ::System::Int32
 	{

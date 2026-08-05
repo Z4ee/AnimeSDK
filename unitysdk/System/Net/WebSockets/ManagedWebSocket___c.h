@@ -7,14 +7,14 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Threading { class TimerCallback; }
 namespace System::Threading::Tasks { class Task; }
 
-#define SYSTEM_NET_WEBSOCKETS_MANAGEDWEBSOCKET___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CEDBB40)
-#define SYSTEM_NET_WEBSOCKETS_MANAGEDWEBSOCKET___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1CEDBB80)
-#define SYSTEM_NET_WEBSOCKETS_MANAGEDWEBSOCKET___C__RECEIVEASYNCPRIVATE_B__60_0_OFFSET UNITYSDK_OFFSET(0x1CEDBFC0)
-#define SYSTEM_NET_WEBSOCKETS_MANAGEDWEBSOCKET___C__SENDFRAMEFALLBACKASYNC_B__55_0_OFFSET UNITYSDK_OFFSET(0x1CEDBF30)
-#define SYSTEM_NET_WEBSOCKETS_MANAGEDWEBSOCKET___C__SENDFRAMELOCKACQUIREDNONCANCELABLEASYNC_B__54_0_OFFSET UNITYSDK_OFFSET(0x1CEDBD10)
-#define SYSTEM_NET_WEBSOCKETS_MANAGEDWEBSOCKET___C__SENDKEEPALIVEFRAMEASYNC_B__57_0_OFFSET UNITYSDK_OFFSET(0x1CEDBF90)
-#define SYSTEM_NET_WEBSOCKETS_MANAGEDWEBSOCKET___C___CTOR_B__37_0_OFFSET UNITYSDK_OFFSET(0x1CEDBB90)
-#define SYSTEM_NET_WEBSOCKETS_MANAGEDWEBSOCKET___C___CTOR_B__37_1_OFFSET UNITYSDK_OFFSET(0x1CEDBCB0)
+#define SYSTEM_NET_WEBSOCKETS_MANAGEDWEBSOCKET___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E298670)
+#define SYSTEM_NET_WEBSOCKETS_MANAGEDWEBSOCKET___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1E2986B0)
+#define SYSTEM_NET_WEBSOCKETS_MANAGEDWEBSOCKET___C__RECEIVEASYNCPRIVATE_B__60_0_OFFSET UNITYSDK_OFFSET(0x1E298AF0)
+#define SYSTEM_NET_WEBSOCKETS_MANAGEDWEBSOCKET___C__SENDFRAMEFALLBACKASYNC_B__55_0_OFFSET UNITYSDK_OFFSET(0x1E298A60)
+#define SYSTEM_NET_WEBSOCKETS_MANAGEDWEBSOCKET___C__SENDFRAMELOCKACQUIREDNONCANCELABLEASYNC_B__54_0_OFFSET UNITYSDK_OFFSET(0x1E298830)
+#define SYSTEM_NET_WEBSOCKETS_MANAGEDWEBSOCKET___C__SENDKEEPALIVEFRAMEASYNC_B__57_0_OFFSET UNITYSDK_OFFSET(0x1E298AC0)
+#define SYSTEM_NET_WEBSOCKETS_MANAGEDWEBSOCKET___C___CTOR_B__37_0_OFFSET UNITYSDK_OFFSET(0x1E2986C0)
+#define SYSTEM_NET_WEBSOCKETS_MANAGEDWEBSOCKET___C___CTOR_B__37_1_OFFSET UNITYSDK_OFFSET(0x1E2987D0)
 
 namespace System::Net::WebSockets
 {
@@ -35,21 +35,21 @@ namespace System::Net::WebSockets
 		{
 			return (::System::Action_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(ManagedWebSocket___c_TypeDefinitionIndex)->GetStaticField(0x25F0);
 		}
-		static ::System::Threading::TimerCallback** StaticGet___9__37_1()
+		static ::System::Action_1<::System::Threading::Tasks::Task*>** StaticGet___9__57_0()
 		{
-			return (::System::Threading::TimerCallback**)Il2CppClass::FromTypeDefinitionIndex(ManagedWebSocket___c_TypeDefinitionIndex)->GetStaticField(0x25F8);
+			return (::System::Action_1<::System::Threading::Tasks::Task*>**)Il2CppClass::FromTypeDefinitionIndex(ManagedWebSocket___c_TypeDefinitionIndex)->GetStaticField(0x25F8);
 		}
 		static ::System::Action_1<::System::Object*>** StaticGet___9__60_0()
 		{
 			return (::System::Action_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(ManagedWebSocket___c_TypeDefinitionIndex)->GetStaticField(0x2600);
 		}
-		static ::System::Action_1<::System::Threading::Tasks::Task*>** StaticGet___9__57_0()
-		{
-			return (::System::Action_1<::System::Threading::Tasks::Task*>**)Il2CppClass::FromTypeDefinitionIndex(ManagedWebSocket___c_TypeDefinitionIndex)->GetStaticField(0x2608);
-		}
 		static ::System::Action_2<::System::Threading::Tasks::Task*, ::System::Object*>** StaticGet___9__54_0()
 		{
-			return (::System::Action_2<::System::Threading::Tasks::Task*, ::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(ManagedWebSocket___c_TypeDefinitionIndex)->GetStaticField(0x2610);
+			return (::System::Action_2<::System::Threading::Tasks::Task*, ::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(ManagedWebSocket___c_TypeDefinitionIndex)->GetStaticField(0x2608);
+		}
+		static ::System::Threading::TimerCallback** StaticGet___9__37_1()
+		{
+			return (::System::Threading::TimerCallback**)Il2CppClass::FromTypeDefinitionIndex(ManagedWebSocket___c_TypeDefinitionIndex)->GetStaticField(0x2610);
 		}
 
 		static ::System::Void _cctor()

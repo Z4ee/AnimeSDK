@@ -11,7 +11,7 @@ namespace System { class Type; }
 
 namespace NodeCanvas::Framework
 {
-	inline static constexpr unsigned int ExposedParameter_1_TypeDefinitionIndex = 30379;
+	inline static constexpr unsigned int ExposedParameter_1_TypeDefinitionIndex = 30794;
 
 	template <typename T>
 	class ExposedParameter_1 : public ::NodeCanvas::Framework::ExposedParameter

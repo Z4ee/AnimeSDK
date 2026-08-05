@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CONFIG_CONFIGRABGAME__CTOR_OFFSET UNITYSDK_OFFSET(0x170B4940)
+#define MOLEMOLE_CONFIG_CONFIGRABGAME__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4D9940)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigRabGame_TypeDefinitionIndex = 50676;
+	inline static constexpr unsigned int ConfigRabGame_TypeDefinitionIndex = 44708;
 
 	class ConfigRabGame : public ::Foundation::MihoyoSerializedScriptableObject
 	{

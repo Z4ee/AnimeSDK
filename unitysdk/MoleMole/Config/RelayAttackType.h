@@ -3,13 +3,13 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int RelayAttackType_TypeDefinitionIndex = 70321;
+	inline static constexpr unsigned int RelayAttackType_TypeDefinitionIndex = 46516;
 
 	enum class RelayAttackType : ::System::Int32
 	{
+		Normal = 1,
 		ExQTE = 3,
 		QTE = 2,
-		Normal = 1,
 		None = 0,
 	};
 }

@@ -9,25 +9,25 @@ namespace MoleMole { class UIComicPageController; }
 namespace System { class Action; }
 namespace System { class String; }
 
-#define CLASS_1_62C3FB116B307F97_CLASS_1_50B6BE030C5316B9_METHOD_1_D0BD1377F2594D33_OFFSET UNITYSDK_OFFSET(0xD580EF0)
-#define CLASS_1_62C3FB116B307F97_CLASS_1_50B6BE030C5316B9__CTOR_OFFSET UNITYSDK_OFFSET(0xD580E50)
+#define CLASS_1_62C3FB116B307F97_CLASS_1_50B6BE030C5316B9_METHOD_1_D0BD1377F2594D33_OFFSET UNITYSDK_OFFSET(0x122B8AD0)
+#define CLASS_1_62C3FB116B307F97_CLASS_1_50B6BE030C5316B9__CTOR_OFFSET UNITYSDK_OFFSET(0x122B8A30)
 
-inline static constexpr unsigned int Class_1_62C3FB116B307F97_Class_1_50B6BE030C5316B9_TypeDefinitionIndex = 48471;
+inline static constexpr unsigned int Class_1_62C3FB116B307F97_Class_1_50B6BE030C5316B9_TypeDefinitionIndex = 74164;
 
 class Class_1_62C3FB116B307F97_Class_1_50B6BE030C5316B9 : public ::System::Object
 {
 public:
-	::Foundation::AssetRequestHandle Field_1_10; // 0x10
-	::System::Action* Field_1_9; // 0x30
-	::System::Action* Field_1_7; // 0x38
-	::System::String* Field_1_3; // 0x40
-	::MoleMole::UIComicPageController* Field_1_6; // 0x48
-	::MoleMole::UIComicPageContext* Field_1_5; // 0x50
-	::System::Action* Field_1_8; // 0x58
-	::Class_1_62C3FB116B307F97_Enum_3_6A4AA45531569675 Field_1_2; // 0x60
-	::System::Boolean Field_1_4; // 0x61
-	::System::Int32 Field_1_0; // 0x64
-	::System::Int64 Field_1_1; // 0x68
+	::System::Action* Field_1_9; // 0x10
+	::Foundation::AssetRequestHandle Field_1_8; // 0x18
+	::System::Action* Field_1_10; // 0x38
+	::MoleMole::UIComicPageController* Field_1_4; // 0x40
+	::System::String* Field_1_7; // 0x48
+	::System::Action* Field_1_11; // 0x50
+	::MoleMole::UIComicPageContext* Field_1_5; // 0x58
+	::System::Int64 Field_1_1; // 0x60
+	::System::Int32 Field_1_2; // 0x68
+	::System::Boolean Field_1_6; // 0x6C
+	::Class_1_62C3FB116B307F97_Enum_3_6A4AA45531569675 Field_1_0; // 0x6D
 
 	::System::Void _ctor(::System::Int32 a1)
 	{

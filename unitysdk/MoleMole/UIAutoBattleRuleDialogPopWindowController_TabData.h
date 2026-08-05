@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAutoBattleRuleDialogPopWindowController_TabData_TypeDefinitionIndex = 78786;
+	inline static constexpr unsigned int UIAutoBattleRuleDialogPopWindowController_TabData_TypeDefinitionIndex = 73380;
 
 	struct alignas(8) UIAutoBattleRuleDialogPopWindowController_TabData
 	{

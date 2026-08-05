@@ -7,7 +7,7 @@ namespace System { class Exception; }
 
 namespace MoleMole::Utils
 {
-	inline static constexpr unsigned int TypeErasedCompletionSourceImpl_1_TypeDefinitionIndex = 71234;
+	inline static constexpr unsigned int TypeErasedCompletionSourceImpl_1_TypeDefinitionIndex = 68763;
 
 	template <typename T>
 	struct TypeErasedCompletionSourceImpl_1

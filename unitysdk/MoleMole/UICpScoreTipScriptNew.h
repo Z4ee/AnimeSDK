@@ -15,23 +15,23 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Sprite; }
 namespace UnityEngine::UI { class Image; }
 
-#define MOLEMOLE_UICPSCORETIPSCRIPTNEW_AWAKE_OFFSET UNITYSDK_OFFSET(0x1E264810)
-#define MOLEMOLE_UICPSCORETIPSCRIPTNEW_INITDATA_OFFSET UNITYSDK_OFFSET(0x1E265D00)
-#define MOLEMOLE_UICPSCORETIPSCRIPTNEW_METHOD_5_21886A8411E71157_OFFSET UNITYSDK_OFFSET(0x1E264860)
-#define MOLEMOLE_UICPSCORETIPSCRIPTNEW_REFRESH_OFFSET UNITYSDK_OFFSET(0x1E2658B0)
-#define MOLEMOLE_UICPSCORETIPSCRIPTNEW_SETEXCLAMATIONMARK_OFFSET UNITYSDK_OFFSET(0x1E266150)
-#define MOLEMOLE_UICPSCORETIPSCRIPTNEW_SETGLODMARK_OFFSET UNITYSDK_OFFSET(0x1E266060)
-#define MOLEMOLE_UICPSCORETIPSCRIPTNEW_SETLOADER_OFFSET UNITYSDK_OFFSET(0x1E265CB0)
-#define MOLEMOLE_UICPSCORETIPSCRIPTNEW_SETNUM_OFFSET UNITYSDK_OFFSET(0x1E2663B0)
-#define MOLEMOLE_UICPSCORETIPSCRIPTNEW_SETPROPSPRITE_OFFSET UNITYSDK_OFFSET(0x1E265E70)
-#define MOLEMOLE_UICPSCORETIPSCRIPTNEW_SETRIGHTROOTACTIVE_OFFSET UNITYSDK_OFFSET(0x1E266350)
-#define MOLEMOLE_UICPSCORETIPSCRIPTNEW_SETSYMBOL_OFFSET UNITYSDK_OFFSET(0x1E266230)
-#define MOLEMOLE_UICPSCORETIPSCRIPTNEW_UPDATE_OFFSET UNITYSDK_OFFSET(0x1E2664C0)
-#define MOLEMOLE_UICPSCORETIPSCRIPTNEW__CTOR_OFFSET UNITYSDK_OFFSET(0x1E2665C0)
+#define MOLEMOLE_UICPSCORETIPSCRIPTNEW_AWAKE_OFFSET UNITYSDK_OFFSET(0x1F00D4C0)
+#define MOLEMOLE_UICPSCORETIPSCRIPTNEW_INITDATA_OFFSET UNITYSDK_OFFSET(0x1F00E9C0)
+#define MOLEMOLE_UICPSCORETIPSCRIPTNEW_METHOD_5_21886A8411E71157_OFFSET UNITYSDK_OFFSET(0x1F00D510)
+#define MOLEMOLE_UICPSCORETIPSCRIPTNEW_REFRESH_OFFSET UNITYSDK_OFFSET(0x1F00E560)
+#define MOLEMOLE_UICPSCORETIPSCRIPTNEW_SETEXCLAMATIONMARK_OFFSET UNITYSDK_OFFSET(0x1F00EE10)
+#define MOLEMOLE_UICPSCORETIPSCRIPTNEW_SETGLODMARK_OFFSET UNITYSDK_OFFSET(0x1F00ED20)
+#define MOLEMOLE_UICPSCORETIPSCRIPTNEW_SETLOADER_OFFSET UNITYSDK_OFFSET(0x1F00E970)
+#define MOLEMOLE_UICPSCORETIPSCRIPTNEW_SETNUM_OFFSET UNITYSDK_OFFSET(0x1F00F070)
+#define MOLEMOLE_UICPSCORETIPSCRIPTNEW_SETPROPSPRITE_OFFSET UNITYSDK_OFFSET(0x1F00EB30)
+#define MOLEMOLE_UICPSCORETIPSCRIPTNEW_SETRIGHTROOTACTIVE_OFFSET UNITYSDK_OFFSET(0x1F00F010)
+#define MOLEMOLE_UICPSCORETIPSCRIPTNEW_SETSYMBOL_OFFSET UNITYSDK_OFFSET(0x1F00EEF0)
+#define MOLEMOLE_UICPSCORETIPSCRIPTNEW_UPDATE_OFFSET UNITYSDK_OFFSET(0x1F00F180)
+#define MOLEMOLE_UICPSCORETIPSCRIPTNEW__CTOR_OFFSET UNITYSDK_OFFSET(0x1F00F280)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICpScoreTipScriptNew_TypeDefinitionIndex = 90836;
+	inline static constexpr unsigned int UICpScoreTipScriptNew_TypeDefinitionIndex = 94831;
 
 	class UICpScoreTipScriptNew : public ::UnityEngine::MonoBehaviour
 	{
@@ -39,27 +39,27 @@ namespace MoleMole
 		::System::Single flowDuration; // 0x18
 		::System::Collections::Generic::List_1<::UnityEngine::UI::Image*>* images; // 0x20
 		::System::Boolean hideHeadZero; // 0x28
-		::System::Action* Field_5_3; // 0x30
-		::System::Action* Field_5_4; // 0x38
+		::System::Action* Field_5_7; // 0x30
+		::System::Action* Field_5_6; // 0x38
 		::System::Collections::Generic::Dictionary_2<::MoleMole::UICpScoreTipScriptNew_Enum_3_6E7E21494AB02161, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::String*>*>* Field_5_5; // 0x40
 		::System::Collections::Generic::List_1<::System::Int32>* Nums; // 0x48
 		::System::Int32 num; // 0x50
 		::MoleMole::UICpScoreTipScriptNew_Enum_3_6E7E21494AB02161 numType; // 0x54
 		::Il2CppArray<::System::Int32>* Field_5_9; // 0x58
 		::System::Func_2<::Foundation::AssetPath, ::UnityEngine::Sprite*>* loadFunc; // 0x60
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::String*>* Field_5_11; // 0x68
-		::System::Boolean Field_5_12; // 0x70
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::String*>* Field_5_15; // 0x68
+		::System::Boolean Field_5_14; // 0x70
 		::Il2CppArray<::UnityEngine::UI::Image*>* symbols; // 0x78
 		::UnityEngine::UI::Image* exclamationMark; // 0x80
 		::UnityEngine::Canvas* exclamationCanvas; // 0x88
 		::UnityEngine::UI::Image* goldMark; // 0x90
 		::UnityEngine::GameObject* goldMarkRoot; // 0x98
 		::UnityEngine::UI::Image* propSprite; // 0xA0
-		::System::Boolean Field_5_19; // 0xA8
-		::System::Single Field_5_20; // 0xAC
+		::System::Boolean Field_5_23; // 0xA8
+		::System::Single Field_5_22; // 0xAC
 		::System::Int32 Field_5_21; // 0xB0
-		::System::Int32 Field_5_22; // 0xB4
-		::System::Int32 Field_5_23; // 0xB8
+		::System::Int32 Field_5_20; // 0xB4
+		::System::Int32 Field_5_27; // 0xB8
 
 		::System::Void _ctor()
 		{

@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/FlowCanvas/Nodes/LDRandomSelectBase_2.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDRANDOMSELECTINTFLOATNODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x12612EE0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDRANDOMSELECTINTFLOATNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x12613000)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDRANDOMSELECTINTFLOATNODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x149DFA10)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDRANDOMSELECTINTFLOATNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x149DFB30)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDRandomSelectIntFloatNode_TypeDefinitionIndex = 68889;
+	inline static constexpr unsigned int LDRandomSelectIntFloatNode_TypeDefinitionIndex = 84336;
 
 	class LDRandomSelectIntFloatNode : public ::MoleMole::FlowCanvas::Nodes::LDRandomSelectBase_2<::System::Int32, ::System::Single>
 	{

@@ -5,15 +5,15 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_ANIMTILT_AWAKE_OFFSET UNITYSDK_OFFSET(0x14DF9C20)
-#define MOLEMOLE_ANIMTILT_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x14DF9C60)
-#define MOLEMOLE_ANIMTILT_METHOD_5_CD28994AFE636FFF_OFFSET UNITYSDK_OFFSET(0x14DF9CB0)
-#define MOLEMOLE_ANIMTILT_SETTILTANGLETARGET_OFFSET UNITYSDK_OFFSET(0x14DFA140)
-#define MOLEMOLE_ANIMTILT__CTOR_OFFSET UNITYSDK_OFFSET(0x14DFA1D0)
+#define MOLEMOLE_ANIMTILT_AWAKE_OFFSET UNITYSDK_OFFSET(0x13E9E1E0)
+#define MOLEMOLE_ANIMTILT_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x13E9E220)
+#define MOLEMOLE_ANIMTILT_METHOD_5_CD28994AFE636FFF_OFFSET UNITYSDK_OFFSET(0x13E9E270)
+#define MOLEMOLE_ANIMTILT_SETTILTANGLETARGET_OFFSET UNITYSDK_OFFSET(0x13E9E700)
+#define MOLEMOLE_ANIMTILT__CTOR_OFFSET UNITYSDK_OFFSET(0x13E9E790)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int AnimTilt_TypeDefinitionIndex = 49319;
+	inline static constexpr unsigned int AnimTilt_TypeDefinitionIndex = 72441;
 
 	class AnimTilt : public ::UnityEngine::MonoBehaviour
 	{
@@ -23,9 +23,9 @@ namespace MoleMole
 		::System::Single ReturnSpeedRate; // 0x20
 		::UnityEngine::Transform* _BoneTiltRoot; // 0x28
 		::System::Collections::Generic::List_1<::UnityEngine::Transform*>* _BoneWeapons; // 0x30
-		::System::Single Field_5_5; // 0x38
-		::System::Single Field_5_6; // 0x3C
-		::System::Int32 Field_5_7; // 0x40
+		::System::Single Field_5_11; // 0x38
+		::System::Single Field_5_10; // 0x3C
+		::System::Int32 Field_5_9; // 0x40
 
 		::System::Void _ctor()
 		{

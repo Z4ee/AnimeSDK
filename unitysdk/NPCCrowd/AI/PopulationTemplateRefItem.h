@@ -4,7 +4,7 @@
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int PopulationTemplateRefItem_TypeDefinitionIndex = 73762;
+	inline static constexpr unsigned int PopulationTemplateRefItem_TypeDefinitionIndex = 82755;
 
 	struct alignas(4) PopulationTemplateRefItem
 	{

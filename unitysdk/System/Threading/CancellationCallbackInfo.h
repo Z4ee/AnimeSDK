@@ -8,9 +8,9 @@ namespace System::Threading { class ContextCallback; }
 namespace System::Threading { class ExecutionContext; }
 namespace System::Threading { class SynchronizationContext; }
 
-#define SYSTEM_THREADING_CANCELLATIONCALLBACKINFO_EXECUTECALLBACK_OFFSET UNITYSDK_OFFSET(0x1AE72570)
-#define SYSTEM_THREADING_CANCELLATIONCALLBACKINFO_EXECUTIONCONTEXTCALLBACK_OFFSET UNITYSDK_OFFSET(0x1AE726A0)
-#define SYSTEM_THREADING_CANCELLATIONCALLBACKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE72550)
+#define SYSTEM_THREADING_CANCELLATIONCALLBACKINFO_EXECUTECALLBACK_OFFSET UNITYSDK_OFFSET(0x1C346390)
+#define SYSTEM_THREADING_CANCELLATIONCALLBACKINFO_EXECUTIONCONTEXTCALLBACK_OFFSET UNITYSDK_OFFSET(0x1C3464C0)
+#define SYSTEM_THREADING_CANCELLATIONCALLBACKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1C346370)
 
 namespace System::Threading
 {
@@ -23,11 +23,11 @@ namespace System::Threading
 		{
 			return (::System::Threading::ContextCallback**)Il2CppClass::FromTypeDefinitionIndex(CancellationCallbackInfo_TypeDefinitionIndex)->GetStaticField(0x1100);
 		}
-		::System::Threading::CancellationTokenSource* CancellationTokenSource; // 0x10
-		::System::Action_1<::System::Object*>* Callback; // 0x18
-		::System::Object* StateForCallback; // 0x20
-		::System::Threading::SynchronizationContext* TargetSyncContext; // 0x28
-		::System::Threading::ExecutionContext* TargetExecutionContext; // 0x30
+		::System::Action_1<::System::Object*>* Callback; // 0x10
+		::System::Threading::CancellationTokenSource* CancellationTokenSource; // 0x18
+		::System::Threading::SynchronizationContext* TargetSyncContext; // 0x20
+		::System::Threading::ExecutionContext* TargetExecutionContext; // 0x28
+		::System::Object* StateForCallback; // 0x30
 
 		::System::Void _ctor(::System::Action_1<::System::Object*>* callback, ::System::Object* stateForCallback, ::System::Threading::SynchronizationContext* targetSyncContext, ::System::Threading::ExecutionContext* targetExecutionContext, ::System::Threading::CancellationTokenSource* cancellationTokenSource)
 		{

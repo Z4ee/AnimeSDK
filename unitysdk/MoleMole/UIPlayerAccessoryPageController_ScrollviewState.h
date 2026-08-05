@@ -3,12 +3,12 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIPlayerAccessoryPageController_ScrollviewState_TypeDefinitionIndex = 44120;
+	inline static constexpr unsigned int UIPlayerAccessoryPageController_ScrollviewState_TypeDefinitionIndex = 51566;
 
 	enum class UIPlayerAccessoryPageController_ScrollviewState : ::System::Int32
 	{
-		Empty = 1,
-		None = 0,
 		NotEmpty = 2,
+		None = 0,
+		Empty = 1,
 	};
 }

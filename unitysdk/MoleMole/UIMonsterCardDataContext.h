@@ -4,11 +4,11 @@
 
 class Class_1_86AA8F306FA75018;
 
-#define MOLEMOLE_UIMONSTERCARDDATACONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16DA2B90)
+#define MOLEMOLE_UIMONSTERCARDDATACONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x19872E30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMonsterCardDataContext_TypeDefinitionIndex = 48352;
+	inline static constexpr unsigned int UIMonsterCardDataContext_TypeDefinitionIndex = 47957;
 
 	class UIMonsterCardDataContext : public ::MoleMole::UIControllerContextBase
 	{

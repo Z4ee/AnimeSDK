@@ -5,7 +5,7 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int SpanUtils_SpanIterator_1_TypeDefinitionIndex = 8685;
+	inline static constexpr unsigned int SpanUtils_SpanIterator_1_TypeDefinitionIndex = 8713;
 
 	template <typename T>
 	struct SpanUtils_SpanIterator_1

@@ -5,7 +5,7 @@
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int AnimationSubManager_AdjustPelvisSetting_TypeDefinitionIndex = 57408;
+	inline static constexpr unsigned int AnimationSubManager_AdjustPelvisSetting_TypeDefinitionIndex = 88317;
 
 	struct alignas(4) AnimationSubManager_AdjustPelvisSetting
 	{

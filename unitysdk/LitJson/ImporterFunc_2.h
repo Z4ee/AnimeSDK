@@ -8,7 +8,7 @@ namespace System { class Object; }
 
 namespace LitJson
 {
-	inline static constexpr unsigned int ImporterFunc_2_TypeDefinitionIndex = 8249;
+	inline static constexpr unsigned int ImporterFunc_2_TypeDefinitionIndex = 8402;
 
 	template <typename TJson, typename TValue>
 	class ImporterFunc_2 : public ::System::MulticastDelegate

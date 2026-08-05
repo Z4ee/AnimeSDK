@@ -9,7 +9,7 @@ namespace UnityEngine { class Transform; }
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int NapRenderEntityBindings_SerializedData_TypeDefinitionIndex = 6123;
+	inline static constexpr unsigned int NapRenderEntityBindings_SerializedData_TypeDefinitionIndex = 6125;
 
 	struct alignas(8) NapRenderEntityBindings_SerializedData
 	{
@@ -33,15 +33,26 @@ namespace UnityEngine::NAPRenderPipeline0
 		::System::Byte fixRed; // 0x5E
 		::System::Byte enabled; // 0x5F
 		::System::Byte syncWithMonoRenderEntity; // 0x60
+		::System::Byte shadowFadeWithHeight; // 0x61
+		::System::Byte needResetShadowCasting; // 0x62
 		::UnityEngine::Vector3 customLightDirection; // 0x64
 		::System::Single customBlendedDirectionalLightSize; // 0x70
 		::System::Single rootBoneClipOffset; // 0x74
 		::System::Single perObjectShadowResolveAlpha; // 0x78
-		::System::Int32 lodIndexedRenderersCount; // 0x7C
-		::Il2CppArray<::UnityEngine::Renderer*>* lodIndexedRenderers; // 0x80
-		::System::Int32 lodRenderersCount; // 0x88
-		::Il2CppArray<::UnityEngine::Renderer*>* lodRenderers; // 0x90
-		::System::Int32 lodRendererPartIdOffsetsCount; // 0x98
-		::Il2CppArray<::System::Int32>* lodRendererPartIdOffsets; // 0xA0
+		::System::Single perObjectShadowCullDistanceScale; // 0x7C
+		::System::Single fadeStartHeight; // 0x80
+		::System::Single fadeEndHeight; // 0x84
+		::System::Single fadeStartDistance; // 0x88
+		::System::Single fadeEndDistance; // 0x8C
+		::System::Int32 lodIndexedRenderersCount; // 0x90
+		::Il2CppArray<::UnityEngine::Renderer*>* lodIndexedRenderers; // 0x98
+		::System::Int32 lodRenderersCount; // 0xA0
+		::Il2CppArray<::UnityEngine::Renderer*>* lodRenderers; // 0xA8
+		::System::Int32 lodRendererPartIdOffsetsCount; // 0xB0
+		::Il2CppArray<::System::Int32>* lodRendererPartIdOffsets; // 0xB8
+		::System::Byte perObjectShadowOptimizeSize; // 0xC0
+		::System::Single perObjectShadowMaxBoundsSize; // 0xC4
+		::System::Int32 perObjectShadowLowPriorityRenderersCount; // 0xC8
+		::Il2CppArray<::UnityEngine::Renderer*>* perObjectShadowLowPriorityRenderers; // 0xD0
 	};
 }

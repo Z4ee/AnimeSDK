@@ -6,7 +6,7 @@ namespace Sirenix::Serialization { template <typename T1, typename T2> class Mul
 
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int MultiDimensionalArrayFormatter_2___c__DisplayClass6_1_TypeDefinitionIndex = 7474;
+	inline static constexpr unsigned int MultiDimensionalArrayFormatter_2___c__DisplayClass6_1_TypeDefinitionIndex = 7478;
 
 	template <typename TArray, typename TElement>
 	class MultiDimensionalArrayFormatter_2___c__DisplayClass6_1 : public ::System::Object

@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int TeleportToAvatar_Trigger_TypeDefinitionIndex = 54673;
+	inline static constexpr unsigned int TeleportToAvatar_Trigger_TypeDefinitionIndex = 54578;
 
 	struct alignas(8) TeleportToAvatar_Trigger
 	{

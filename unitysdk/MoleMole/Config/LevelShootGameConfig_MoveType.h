@@ -3,14 +3,14 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int LevelShootGameConfig_MoveType_TypeDefinitionIndex = 70556;
+	inline static constexpr unsigned int LevelShootGameConfig_MoveType_TypeDefinitionIndex = 52700;
 
 	enum class LevelShootGameConfig_MoveType : ::System::Int32
 	{
 		NotMoving = 0,
-		ArriveTargetStop = 4,
-		ArriveTargetDestroy = 3,
-		OppositeLoop = 2,
 		Loop = 1,
+		ArriveTargetStop = 4,
+		OppositeLoop = 2,
+		ArriveTargetDestroy = 3,
 	};
 }

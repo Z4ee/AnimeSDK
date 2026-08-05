@@ -8,13 +8,13 @@
 namespace MoleMole::Timeline { class ActiveExternalBehaviour; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_TIMELINE_ACTIVEEXTERNALCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1304B890)
-#define MOLEMOLE_TIMELINE_ACTIVEEXTERNALCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1304B880)
-#define MOLEMOLE_TIMELINE_ACTIVEEXTERNALCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1304BA70)
+#define MOLEMOLE_TIMELINE_ACTIVEEXTERNALCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x173A9EC0)
+#define MOLEMOLE_TIMELINE_ACTIVEEXTERNALCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x173A9EB0)
+#define MOLEMOLE_TIMELINE_ACTIVEEXTERNALCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x173AA0A0)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int ActiveExternalClip_TypeDefinitionIndex = 61231;
+	inline static constexpr unsigned int ActiveExternalClip_TypeDefinitionIndex = 58910;
 
 	class ActiveExternalClip : public ::UnityEngine::Playables::PlayableAsset
 	{

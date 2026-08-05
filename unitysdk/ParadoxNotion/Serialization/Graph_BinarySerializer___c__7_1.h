@@ -11,7 +11,7 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace ParadoxNotion::Serialization
 {
-	inline static constexpr unsigned int Graph_BinarySerializer___c__7_1_TypeDefinitionIndex = 29500;
+	inline static constexpr unsigned int Graph_BinarySerializer___c__7_1_TypeDefinitionIndex = 29725;
 
 	template <typename T>
 	class Graph_BinarySerializer___c__7_1 : public ::System::Object

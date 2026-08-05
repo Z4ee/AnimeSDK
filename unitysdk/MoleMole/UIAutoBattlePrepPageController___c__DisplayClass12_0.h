@@ -5,18 +5,18 @@
 namespace MoleMole { class UIAutoBattlePrepPageController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIAUTOBATTLEPREPPAGECONTROLLER___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1FA740)
-#define MOLEMOLE_UIAUTOBATTLEPREPPAGECONTROLLER___C__DISPLAYCLASS12_0__SHOWINVITE_B__0_OFFSET UNITYSDK_OFFSET(0x1A1FA750)
+#define MOLEMOLE_UIAUTOBATTLEPREPPAGECONTROLLER___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0x196F9120)
+#define MOLEMOLE_UIAUTOBATTLEPREPPAGECONTROLLER___C__DISPLAYCLASS12_0__SHOWINVITE_B__0_OFFSET UNITYSDK_OFFSET(0x196F9130)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAutoBattlePrepPageController___c__DisplayClass12_0_TypeDefinitionIndex = 58245;
+	inline static constexpr unsigned int UIAutoBattlePrepPageController___c__DisplayClass12_0_TypeDefinitionIndex = 56986;
 
 	class UIAutoBattlePrepPageController___c__DisplayClass12_0 : public ::System::Object
 	{
 	public:
-		::System::Action* recursiveShowInvite; // 0x10
-		::MoleMole::UIAutoBattlePrepPageController* __4__this; // 0x18
+		::MoleMole::UIAutoBattlePrepPageController* __4__this; // 0x10
+		::System::Action* recursiveShowInvite; // 0x18
 
 		::System::Void _ctor()
 		{

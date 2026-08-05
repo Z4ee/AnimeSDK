@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int NAP_LinkInfo_TypeDefinitionIndex = 75458;
+	inline static constexpr unsigned int NAP_LinkInfo_TypeDefinitionIndex = 51366;
 
 	struct alignas(8) NAP_LinkInfo
 	{

@@ -2,23 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define UNITYENGINE_INPUTSYSTEM_GAMEPADEX_DUALSENSEGAMEPADPC_DUALSENSEHIDMINIMALINPUTREPORTV2_TOHIDINPUTREPORT_OFFSET UNITYSDK_OFFSET(0xA3C140)
-#define UNITYENGINE_INPUTSYSTEM_GAMEPADEX_DUALSENSEGAMEPADPC_DUALSENSEHIDMINIMALINPUTREPORTV2_TOHIDINPUTREPORT_OLD_OFFSET UNITYSDK_OFFSET(0xA3C230)
-#define UNITYENGINE_INPUTSYSTEM_GAMEPADEX_DUALSENSEGAMEPADPC_DUALSENSEHIDMINIMALINPUTREPORTV2__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DCFA830)
+#define UNITYENGINE_INPUTSYSTEM_GAMEPADEX_DUALSENSEGAMEPADPC_DUALSENSEHIDMINIMALINPUTREPORTV2_TOHIDINPUTREPORT_OFFSET UNITYSDK_OFFSET(0xA92350)
+#define UNITYENGINE_INPUTSYSTEM_GAMEPADEX_DUALSENSEGAMEPADPC_DUALSENSEHIDMINIMALINPUTREPORTV2_TOHIDINPUTREPORT_OLD_OFFSET UNITYSDK_OFFSET(0xA92440)
+#define UNITYENGINE_INPUTSYSTEM_GAMEPADEX_DUALSENSEGAMEPADPC_DUALSENSEHIDMINIMALINPUTREPORTV2__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F163E40)
 
 namespace UnityEngine::InputSystem::GamepadEx
 {
-	inline static constexpr unsigned int DualSenseGamepadPC_DualSenseHIDMinimalInputReportV2_TypeDefinitionIndex = 39068;
+	inline static constexpr unsigned int DualSenseGamepadPC_DualSenseHIDMinimalInputReportV2_TypeDefinitionIndex = 39734;
 
 	struct alignas(1) DualSenseGamepadPC_DualSenseHIDMinimalInputReportV2
 	{
-		static ::System::Int32* StaticGet_ExpectedSize2()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DualSenseGamepadPC_DualSenseHIDMinimalInputReportV2_TypeDefinitionIndex)->GetStaticField(0x9400);
-		}
 		static ::System::Int32* StaticGet_ExpectedSize1()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DualSenseGamepadPC_DualSenseHIDMinimalInputReportV2_TypeDefinitionIndex)->GetStaticField(0x9404);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DualSenseGamepadPC_DualSenseHIDMinimalInputReportV2_TypeDefinitionIndex)->GetStaticField(0x94F0);
+		}
+		static ::System::Int32* StaticGet_ExpectedSize2()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DualSenseGamepadPC_DualSenseHIDMinimalInputReportV2_TypeDefinitionIndex)->GetStaticField(0x94F4);
 		}
 		::System::Byte reportId; // 0x10
 		::System::Byte leftStickX; // 0x11

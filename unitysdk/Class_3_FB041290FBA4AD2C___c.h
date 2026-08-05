@@ -6,7 +6,7 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 template <typename T1, typename T2> class Class_3_FB041290FBA4AD2C___c;
 
-inline static constexpr unsigned int Class_3_FB041290FBA4AD2C___c_TypeDefinitionIndex = 28131;
+inline static constexpr unsigned int Class_3_FB041290FBA4AD2C___c_TypeDefinitionIndex = 28729;
 
 template <typename TVertex, typename TEdge>
 class Class_3_FB041290FBA4AD2C___c : public ::System::Object

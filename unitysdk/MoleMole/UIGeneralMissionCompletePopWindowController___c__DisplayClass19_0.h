@@ -7,19 +7,19 @@ namespace MoleMole { class ScrollViewItemWidgetController; }
 namespace MoleMole { class UIGeneralMissionCompletePopWindowController; }
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_UIGENERALMISSIONCOMPLETEPOPWINDOWCONTROLLER___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0x176549F0)
-#define MOLEMOLE_UIGENERALMISSIONCOMPLETEPOPWINDOWCONTROLLER___C__DISPLAYCLASS19_0__INITITEMLIST_B__0_OFFSET UNITYSDK_OFFSET(0x17654A00)
-#define MOLEMOLE_UIGENERALMISSIONCOMPLETEPOPWINDOWCONTROLLER___C__DISPLAYCLASS19_0__INITITEMLIST_B__1_OFFSET UNITYSDK_OFFSET(0x171E1770)
+#define MOLEMOLE_UIGENERALMISSIONCOMPLETEPOPWINDOWCONTROLLER___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0x185A5070)
+#define MOLEMOLE_UIGENERALMISSIONCOMPLETEPOPWINDOWCONTROLLER___C__DISPLAYCLASS19_0__INITITEMLIST_B__0_OFFSET UNITYSDK_OFFSET(0x185A5080)
+#define MOLEMOLE_UIGENERALMISSIONCOMPLETEPOPWINDOWCONTROLLER___C__DISPLAYCLASS19_0__INITITEMLIST_B__1_OFFSET UNITYSDK_OFFSET(0x185A51A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralMissionCompletePopWindowController___c__DisplayClass19_0_TypeDefinitionIndex = 77649;
+	inline static constexpr unsigned int UIGeneralMissionCompletePopWindowController___c__DisplayClass19_0_TypeDefinitionIndex = 79468;
 
 	class UIGeneralMissionCompletePopWindowController___c__DisplayClass19_0 : public ::System::Object
 	{
 	public:
-		::System::Action_1<::System::Int32>* overrideOnClickItemBtn; // 0x10
-		::MoleMole::UIGeneralMissionCompletePopWindowController* __4__this; // 0x18
+		::MoleMole::UIGeneralMissionCompletePopWindowController* __4__this; // 0x10
+		::System::Action_1<::System::Int32>* overrideOnClickItemBtn; // 0x18
 
 		::System::Void _ctor()
 		{

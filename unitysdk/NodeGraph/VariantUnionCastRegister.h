@@ -4,11 +4,11 @@
 
 namespace NodeGraph { template <typename T> class IVariantUnionCaster_1; }
 
-#define NODEGRAPH_VARIANTUNIONCASTREGISTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x13A10620)
+#define NODEGRAPH_VARIANTUNIONCASTREGISTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x177EFE00)
 
 namespace NodeGraph
 {
-	inline static constexpr unsigned int VariantUnionCastRegister_TypeDefinitionIndex = 44352;
+	inline static constexpr unsigned int VariantUnionCastRegister_TypeDefinitionIndex = 86809;
 
 	class VariantUnionCastRegister : public ::System::Object
 	{

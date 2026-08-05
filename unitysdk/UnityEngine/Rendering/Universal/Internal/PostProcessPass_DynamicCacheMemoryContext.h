@@ -4,11 +4,11 @@
 #include "unitysdk/UnityEngine/EDynamicCacheMemoryPolicy.h"
 #include "unitysdk/UnityEngine/Rendering/RenderTargetIdentifier.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_POSTPROCESSPASS_DYNAMICCACHEMEMORYCONTEXT_INIT_OFFSET UNITYSDK_OFFSET(0x98ECC0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_POSTPROCESSPASS_DYNAMICCACHEMEMORYCONTEXT_INIT_OFFSET UNITYSDK_OFFSET(0x9DB910)
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int PostProcessPass_DynamicCacheMemoryContext_TypeDefinitionIndex = 26706;
+	inline static constexpr unsigned int PostProcessPass_DynamicCacheMemoryContext_TypeDefinitionIndex = 26786;
 
 	struct alignas(8) PostProcessPass_DynamicCacheMemoryContext
 	{

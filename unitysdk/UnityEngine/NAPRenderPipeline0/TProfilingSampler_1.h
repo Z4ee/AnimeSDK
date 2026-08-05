@@ -8,7 +8,7 @@ namespace UnityEngine::NAPRenderPipeline0 { template <typename T> class TProfili
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int TProfilingSampler_1_TypeDefinitionIndex = 5976;
+	inline static constexpr unsigned int TProfilingSampler_1_TypeDefinitionIndex = 5978;
 
 	template <typename TEnum>
 	class TProfilingSampler_1 : public ::UnityEngine::NAPRenderPipeline0::ProfilingSampler

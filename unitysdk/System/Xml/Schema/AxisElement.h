@@ -6,10 +6,10 @@ namespace System { class String; }
 namespace System::Xml::Schema { class DoubleLinkAxis; }
 namespace System::Xml::Schema { class ForwardAxis; }
 
-#define SYSTEM_XML_SCHEMA_AXISELEMENT_MOVETOCHILD_OFFSET UNITYSDK_OFFSET(0x1DC406B0)
-#define SYSTEM_XML_SCHEMA_AXISELEMENT_MOVETOPARENT_OFFSET UNITYSDK_OFFSET(0x1DC405A0)
-#define SYSTEM_XML_SCHEMA_AXISELEMENT_SETDEPTH_OFFSET UNITYSDK_OFFSET(0x1DC40590)
-#define SYSTEM_XML_SCHEMA_AXISELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1DC40570)
+#define SYSTEM_XML_SCHEMA_AXISELEMENT_MOVETOCHILD_OFFSET UNITYSDK_OFFSET(0x1F0685E0)
+#define SYSTEM_XML_SCHEMA_AXISELEMENT_MOVETOPARENT_OFFSET UNITYSDK_OFFSET(0x1F0684D0)
+#define SYSTEM_XML_SCHEMA_AXISELEMENT_SETDEPTH_OFFSET UNITYSDK_OFFSET(0x1F0684C0)
+#define SYSTEM_XML_SCHEMA_AXISELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1F0684A0)
 
 namespace System::Xml::Schema
 {
@@ -19,9 +19,9 @@ namespace System::Xml::Schema
 	{
 	public:
 		::System::Xml::Schema::DoubleLinkAxis* curNode; // 0x10
-		::System::Int32 curDepth; // 0x18
+		::System::Boolean isMatch; // 0x18
 		::System::Int32 rootDepth; // 0x1C
-		::System::Boolean isMatch; // 0x20
+		::System::Int32 curDepth; // 0x20
 
 		::System::Void _ctor(::System::Xml::Schema::DoubleLinkAxis* node, ::System::Int32 depth)
 		{

@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CONFIG_UIBUBBLEMOVECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3625E0)
+#define MOLEMOLE_CONFIG_UIBUBBLEMOVECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B56A450)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int UIBubbleMoveConfig_TypeDefinitionIndex = 43612;
+	inline static constexpr unsigned int UIBubbleMoveConfig_TypeDefinitionIndex = 90066;
 
 	class UIBubbleMoveConfig : public ::Sirenix::OdinInspector::SerializedMonoBehaviour
 	{

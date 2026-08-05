@@ -7,7 +7,7 @@
 #include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/System/ValueTuple_3.h"
 
-class Class_0_16E4307DCC419505_33;
+class Class_0_16E4307DCC419505_32;
 class Class_3_3EC97B498E0B85D2;
 namespace Cysharp::Threading::Tasks { class UniTaskCompletionSource; }
 namespace Cysharp::Threading::Tasks { template <typename T> class UniTaskCompletionSource_1; }
@@ -17,28 +17,28 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define FOUNDATION_VIEWOBJECT_GROUPVARIABLEHELPER_EPILOGUE_OFFSET UNITYSDK_OFFSET(0x114D5240)
-#define FOUNDATION_VIEWOBJECT_GROUPVARIABLEHELPER_FORCESET_OFFSET UNITYSDK_OFFSET(0x114D57D0)
-#define FOUNDATION_VIEWOBJECT_GROUPVARIABLEHELPER_GETVALUE_OFFSET UNITYSDK_OFFSET(0x114D5380)
-#define FOUNDATION_VIEWOBJECT_GROUPVARIABLEHELPER_PROLOGUE_OFFSET UNITYSDK_OFFSET(0x114D51A0)
-#define FOUNDATION_VIEWOBJECT_GROUPVARIABLEHELPER_PULL_OFFSET UNITYSDK_OFFSET(0x114D5460)
-#define FOUNDATION_VIEWOBJECT_GROUPVARIABLEHELPER_PUSHSINGLE_OFFSET UNITYSDK_OFFSET(0x114D5610)
-#define FOUNDATION_VIEWOBJECT_GROUPVARIABLEHELPER_PUSH_OFFSET UNITYSDK_OFFSET(0x114D5710)
-#define FOUNDATION_VIEWOBJECT_GROUPVARIABLEHELPER_SETVALUE_OFFSET UNITYSDK_OFFSET(0x114D5510)
-#define FOUNDATION_VIEWOBJECT_GROUPVARIABLEHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0x114D5BD0)
+#define FOUNDATION_VIEWOBJECT_GROUPVARIABLEHELPER_EPILOGUE_OFFSET UNITYSDK_OFFSET(0x1503B240)
+#define FOUNDATION_VIEWOBJECT_GROUPVARIABLEHELPER_FORCESET_OFFSET UNITYSDK_OFFSET(0x1503B7C0)
+#define FOUNDATION_VIEWOBJECT_GROUPVARIABLEHELPER_GETVALUE_OFFSET UNITYSDK_OFFSET(0x1503B380)
+#define FOUNDATION_VIEWOBJECT_GROUPVARIABLEHELPER_PROLOGUE_OFFSET UNITYSDK_OFFSET(0x1503B1A0)
+#define FOUNDATION_VIEWOBJECT_GROUPVARIABLEHELPER_PULL_OFFSET UNITYSDK_OFFSET(0x1503B460)
+#define FOUNDATION_VIEWOBJECT_GROUPVARIABLEHELPER_PUSHSINGLE_OFFSET UNITYSDK_OFFSET(0x1503B610)
+#define FOUNDATION_VIEWOBJECT_GROUPVARIABLEHELPER_PUSH_OFFSET UNITYSDK_OFFSET(0x1503B700)
+#define FOUNDATION_VIEWOBJECT_GROUPVARIABLEHELPER_SETVALUE_OFFSET UNITYSDK_OFFSET(0x1503B510)
+#define FOUNDATION_VIEWOBJECT_GROUPVARIABLEHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0x1503BBD0)
 
 namespace Foundation::ViewObject
 {
-	inline static constexpr unsigned int GroupVariableHelper_TypeDefinitionIndex = 80452;
+	inline static constexpr unsigned int GroupVariableHelper_TypeDefinitionIndex = 51588;
 
 	class GroupVariableHelper : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::String*>, ::System::Int32>* _cachedGroupVariables; // 0x10
-		::System::Collections::Generic::HashSet_1<::System::UInt32>* _cachedGroups; // 0x18
-		::Cysharp::Threading::Tasks::UniTask_1<::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Class_0_16E4307DCC419505_33*>*> _pushingTask; // 0x20
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Cysharp::Threading::Tasks::UniTask>* _pullingTask; // 0x38
-		::System::Collections::Generic::List_1<::System::ValueTuple_3<::Cysharp::Threading::Tasks::UniTaskCompletionSource*, ::System::Boolean, ::System::Int32>>* _waitingQueue; // 0x40
+		::Cysharp::Threading::Tasks::UniTask_1<::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Class_0_16E4307DCC419505_32*>*> _pushingTask; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::String*>, ::System::Int32>* _cachedGroupVariables; // 0x28
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Cysharp::Threading::Tasks::UniTask>* _pullingTask; // 0x30
+		::System::Collections::Generic::List_1<::System::ValueTuple_3<::Cysharp::Threading::Tasks::UniTaskCompletionSource*, ::System::Boolean, ::System::Int32>>* _waitingQueue; // 0x38
+		::System::Collections::Generic::HashSet_1<::System::UInt32>* _cachedGroups; // 0x40
 		::System::Collections::Generic::List_1<::System::ValueTuple_3<::System::UInt32, ::System::String*, ::System::Int32>>* _pushingVariables; // 0x48
 		::System::Int32 _workingTaskCount; // 0x50
 		::Foundation::ViewObject::GroupVariableHelper_WorkingStatus _workingStatus; // 0x54
@@ -78,9 +78,9 @@ namespace Foundation::ViewObject
 			return ((::Cysharp::Threading::Tasks::UniTask_1<::System::Boolean>(*)(::PVOID, ::System::ValueTuple_2<::System::UInt32, ::System::String*>, ::System::Int32, ::Class_3_3EC97B498E0B85D2*))((::PBYTE)hIl2Cpp + FOUNDATION_VIEWOBJECT_GROUPVARIABLEHELPER_PUSHSINGLE_OFFSET))(this, key, value, reason);
 		}
 
-		::Cysharp::Threading::Tasks::UniTask Push(::Cysharp::Threading::Tasks::UniTaskCompletionSource_1<::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Class_0_16E4307DCC419505_33*>*>* resultTcs, ::Class_3_3EC97B498E0B85D2* reason)
+		::Cysharp::Threading::Tasks::UniTask Push(::Cysharp::Threading::Tasks::UniTaskCompletionSource_1<::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Class_0_16E4307DCC419505_32*>*>* resultTcs, ::Class_3_3EC97B498E0B85D2* reason)
 		{
-			return ((::Cysharp::Threading::Tasks::UniTask(*)(::PVOID, ::Cysharp::Threading::Tasks::UniTaskCompletionSource_1<::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Class_0_16E4307DCC419505_33*>*>*, ::Class_3_3EC97B498E0B85D2*))((::PBYTE)hIl2Cpp + FOUNDATION_VIEWOBJECT_GROUPVARIABLEHELPER_PUSH_OFFSET))(this, resultTcs, reason);
+			return ((::Cysharp::Threading::Tasks::UniTask(*)(::PVOID, ::Cysharp::Threading::Tasks::UniTaskCompletionSource_1<::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Class_0_16E4307DCC419505_32*>*>*, ::Class_3_3EC97B498E0B85D2*))((::PBYTE)hIl2Cpp + FOUNDATION_VIEWOBJECT_GROUPVARIABLEHELPER_PUSH_OFFSET))(this, resultTcs, reason);
 		}
 
 		::System::Void ForceSet(::System::UInt32 groupID, ::System::Collections::Generic::IDictionary_2<::System::String*, ::System::Int32>* variableMap)

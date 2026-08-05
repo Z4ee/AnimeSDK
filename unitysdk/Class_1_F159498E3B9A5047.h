@@ -7,9 +7,9 @@ namespace System { class Action; }
 namespace System { class String; }
 namespace UnityEngine::Rendering { class Volume; }
 
-#define CLASS_1_F159498E3B9A5047_METHOD_1_7B92EBAC218DB5A1_OFFSET UNITYSDK_OFFSET(0xD32AC10)
+#define CLASS_1_F159498E3B9A5047_METHOD_1_7B92EBAC218DB5A1_OFFSET UNITYSDK_OFFSET(0x13917F50)
 
-inline static constexpr unsigned int Class_1_F159498E3B9A5047_TypeDefinitionIndex = 40549;
+inline static constexpr unsigned int Class_1_F159498E3B9A5047_TypeDefinitionIndex = 48687;
 
 class Class_1_F159498E3B9A5047 : public ::System::Object
 {

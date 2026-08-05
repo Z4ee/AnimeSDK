@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace TMPro { class TMP_Text; }
 
-#define TMPRO_TMP_WORDINFO_GETWORD_OFFSET UNITYSDK_OFFSET(0xA7A840)
+#define TMPRO_TMP_WORDINFO_GETWORD_OFFSET UNITYSDK_OFFSET(0xACADF0)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_WordInfo_TypeDefinitionIndex = 39242;
+	inline static constexpr unsigned int TMP_WordInfo_TypeDefinitionIndex = 39908;
 
 	struct alignas(8) TMP_WordInfo
 	{

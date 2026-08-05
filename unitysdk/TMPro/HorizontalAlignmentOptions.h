@@ -3,7 +3,7 @@
 
 namespace TMPro
 {
-	inline static constexpr unsigned int HorizontalAlignmentOptions_TypeDefinitionIndex = 39203;
+	inline static constexpr unsigned int HorizontalAlignmentOptions_TypeDefinitionIndex = 39869;
 
 	enum class HorizontalAlignmentOptions : ::System::Int32
 	{

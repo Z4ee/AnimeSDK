@@ -9,14 +9,14 @@
 
 namespace UnityEngine::Rendering { class DLSSViewPort; }
 
-#define UNITYENGINE_RENDERING_DLSSCONTEXT_DLSSSUPPORTED_OFFSET UNITYSDK_OFFSET(0x1D58E900)
-#define UNITYENGINE_RENDERING_DLSSCONTEXT_GETOPTIMALSETTINGS_INJECTED_OFFSET UNITYSDK_OFFSET(0x1D58E960)
-#define UNITYENGINE_RENDERING_DLSSCONTEXT_GETOPTIMALSETTINGS_OFFSET UNITYSDK_OFFSET(0x1D58E910)
-#define UNITYENGINE_RENDERING_DLSSCONTEXT_SET_VP_OFFSET UNITYSDK_OFFSET(0x9F5580)
+#define UNITYENGINE_RENDERING_DLSSCONTEXT_DLSSSUPPORTED_OFFSET UNITYSDK_OFFSET(0x1E954F90)
+#define UNITYENGINE_RENDERING_DLSSCONTEXT_GETOPTIMALSETTINGS_INJECTED_OFFSET UNITYSDK_OFFSET(0x1E954FF0)
+#define UNITYENGINE_RENDERING_DLSSCONTEXT_GETOPTIMALSETTINGS_OFFSET UNITYSDK_OFFSET(0x1E954FA0)
+#define UNITYENGINE_RENDERING_DLSSCONTEXT_SET_VP_OFFSET UNITYSDK_OFFSET(0xA451C0)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int DLSSContext_TypeDefinitionIndex = 6144;
+	inline static constexpr unsigned int DLSSContext_TypeDefinitionIndex = 6146;
 
 	struct alignas(8) DLSSContext
 	{
@@ -36,12 +36,14 @@ namespace UnityEngine::Rendering
 		::System::Boolean indicatorInvertAxisY; // 0x42
 		::System::Boolean useAutoExposure; // 0x43
 		::System::Boolean useOffScreenUI; // 0x44
-		::UnityEngine::Rendering::DLSSConstants constants; // 0x48
-		::UnityEngine::Rendering::RenderTargetIdentifier colorIn; // 0x1F0
-		::UnityEngine::Rendering::RenderTargetIdentifier colorOut; // 0x218
-		::UnityEngine::Rendering::RenderTargetIdentifier depth; // 0x240
-		::UnityEngine::Rendering::RenderTargetIdentifier motion; // 0x268
-		::UnityEngine::Rendering::RenderTargetIdentifier ui; // 0x290
+		::System::Single dynamicTargetFrameRate; // 0x48
+		::System::Boolean enableUIRecomposition; // 0x4C
+		::UnityEngine::Rendering::DLSSConstants constants; // 0x50
+		::UnityEngine::Rendering::RenderTargetIdentifier colorIn; // 0x1F8
+		::UnityEngine::Rendering::RenderTargetIdentifier colorOut; // 0x220
+		::UnityEngine::Rendering::RenderTargetIdentifier depth; // 0x248
+		::UnityEngine::Rendering::RenderTargetIdentifier motion; // 0x270
+		::UnityEngine::Rendering::RenderTargetIdentifier ui; // 0x298
 
 		static ::System::Boolean DLSSSupported()
 		{

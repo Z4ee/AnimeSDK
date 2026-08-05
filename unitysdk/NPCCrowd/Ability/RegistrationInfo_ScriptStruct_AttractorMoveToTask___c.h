@@ -4,20 +4,20 @@
 
 namespace UnrealTypes { class ICppStructOps; }
 
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_ATTRACTORMOVETOTASK___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x11363610)
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_ATTRACTORMOVETOTASK___C__CTOR_OFFSET UNITYSDK_OFFSET(0x11363650)
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_ATTRACTORMOVETOTASK___C___CCTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0x11363660)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_ATTRACTORMOVETOTASK___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x13DE7000)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_ATTRACTORMOVETOTASK___C__CTOR_OFFSET UNITYSDK_OFFSET(0x13DE7040)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_ATTRACTORMOVETOTASK___C___CCTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0x13DE7050)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_AttractorMoveToTask___c_TypeDefinitionIndex = 87453;
+	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_AttractorMoveToTask___c_TypeDefinitionIndex = 72925;
 
 	class RegistrationInfo_ScriptStruct_AttractorMoveToTask___c : public ::System::Object
 	{
 	public:
 		static ::NPCCrowd::Ability::RegistrationInfo_ScriptStruct_AttractorMoveToTask___c** StaticGet___9()
 		{
-			return (::NPCCrowd::Ability::RegistrationInfo_ScriptStruct_AttractorMoveToTask___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_AttractorMoveToTask___c_TypeDefinitionIndex)->GetStaticField(0x4CF10);
+			return (::NPCCrowd::Ability::RegistrationInfo_ScriptStruct_AttractorMoveToTask___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_AttractorMoveToTask___c_TypeDefinitionIndex)->GetStaticField(0x4C800);
 		}
 
 		static ::System::Void _cctor()

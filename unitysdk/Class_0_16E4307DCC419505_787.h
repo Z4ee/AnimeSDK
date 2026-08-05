@@ -1,12 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/Vector2Int.h"
-#include "unitysdk/UnityEngine/Vector2.h"
 
-class ZzzUiCurveGraphic_CurveSegment;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_787_TypeDefinitionIndex = 80391;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_787_TypeDefinitionIndex = 81758;
-
+template <typename T>
 class Class_0_16E4307DCC419505_787
 {
 public:

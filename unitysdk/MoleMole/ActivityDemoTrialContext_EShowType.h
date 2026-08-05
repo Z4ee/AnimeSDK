@@ -3,11 +3,11 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ActivityDemoTrialContext_EShowType_TypeDefinitionIndex = 41089;
+	inline static constexpr unsigned int ActivityDemoTrialContext_EShowType_TypeDefinitionIndex = 76522;
 
 	enum class ActivityDemoTrialContext_EShowType : ::System::Int32
 	{
-		Avatar = 0,
 		Weapon = 1,
+		Avatar = 0,
 	};
 }

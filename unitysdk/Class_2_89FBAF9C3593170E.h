@@ -1,0 +1,87 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_37DF30C8B3AA0F39.h"
+#include "unitysdk/Struct_2_575273D27F02957E.h"
+
+class Class_2_AF5BA1C65F12F4B1;
+class Class_2_E87F1D15F1D4AC72;
+namespace MoleMole { class UIZenkovPresetsDialogPopWindowController_Context; }
+namespace System::Collections { class IEnumerable; }
+template <typename T> class Class_0_16E4307DCC419505_159;
+
+#define CLASS_2_89FBAF9C3593170E_METHOD_2_1290EA767C459179_OFFSET UNITYSDK_OFFSET(0xF0C0960)
+#define CLASS_2_89FBAF9C3593170E_METHOD_2_186E161241641307_OFFSET UNITYSDK_OFFSET(0xF0C1380)
+#define CLASS_2_89FBAF9C3593170E_METHOD_2_1F130271093617A5_OFFSET UNITYSDK_OFFSET(0xF0C0430)
+#define CLASS_2_89FBAF9C3593170E_METHOD_2_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0xF0C03B0)
+#define CLASS_2_89FBAF9C3593170E_METHOD_2_7CE00342764F3098_OFFSET UNITYSDK_OFFSET(0xF0C0BC0)
+#define CLASS_2_89FBAF9C3593170E_METHOD_2_9D768FB7C06C1DF3_OFFSET UNITYSDK_OFFSET(0xF0C0360)
+#define CLASS_2_89FBAF9C3593170E_METHOD_2_A967DF2722350303_OFFSET UNITYSDK_OFFSET(0xF0C1BC0)
+#define CLASS_2_89FBAF9C3593170E_METHOD_2_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0xF0C12F0)
+#define CLASS_2_89FBAF9C3593170E_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xF0C0B30)
+#define CLASS_2_89FBAF9C3593170E_METHOD_2_F7BA13C72A6B3F58_OFFSET UNITYSDK_OFFSET(0xF0C0BD0)
+#define CLASS_2_89FBAF9C3593170E__CTOR_OFFSET UNITYSDK_OFFSET(0xF0C0910)
+
+inline static constexpr unsigned int Class_2_89FBAF9C3593170E_TypeDefinitionIndex = 72404;
+
+class Class_2_89FBAF9C3593170E : public ::Class_1_37DF30C8B3AA0F39
+{
+public:
+	::Class_0_16E4307DCC419505_159<::MoleMole::UIZenkovPresetsDialogPopWindowController_Context*>* Field_2_2; // 0x50
+	::Class_2_AF5BA1C65F12F4B1* Field_2_0; // 0x58
+	::System::Int32 Field_2_1; // 0x60
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_89FBAF9C3593170E__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_2_9D768FB7C06C1DF3(::Struct_2_575273D27F02957E& a1, ::Class_2_E87F1D15F1D4AC72* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Struct_2_575273D27F02957E&, ::Class_2_E87F1D15F1D4AC72*))((::PBYTE)hIl2Cpp + CLASS_2_89FBAF9C3593170E_METHOD_2_9D768FB7C06C1DF3_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_2_4343F372F34C05BF()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_89FBAF9C3593170E_METHOD_2_4343F372F34C05BF_OFFSET))(this);
+	}
+
+	::System::Void Method_2_1F130271093617A5()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_89FBAF9C3593170E_METHOD_2_1F130271093617A5_OFFSET))(this);
+	}
+
+	::System::Void Method_2_1290EA767C459179()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_89FBAF9C3593170E_METHOD_2_1290EA767C459179_OFFSET))(this);
+	}
+
+	::System::Void Method_2_CA373AA1C7054598()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_89FBAF9C3593170E_METHOD_2_CA373AA1C7054598_OFFSET))(this);
+	}
+
+	::Class_0_16E4307DCC419505_159<::MoleMole::UIZenkovPresetsDialogPopWindowController_Context*>* Method_2_7CE00342764F3098()
+	{
+		return ((::Class_0_16E4307DCC419505_159<::MoleMole::UIZenkovPresetsDialogPopWindowController_Context*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_89FBAF9C3593170E_METHOD_2_7CE00342764F3098_OFFSET))(this);
+	}
+
+	::System::Void Method_2_F7BA13C72A6B3F58()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_89FBAF9C3593170E_METHOD_2_F7BA13C72A6B3F58_OFFSET))(this);
+	}
+
+	::System::Void Method_2_CA373AA1C7054598_1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_89FBAF9C3593170E_METHOD_2_CA373AA1C7054598_1_OFFSET))(this);
+	}
+
+	::System::Collections::IEnumerable* Method_2_186E161241641307()
+	{
+		return ((::System::Collections::IEnumerable*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_89FBAF9C3593170E_METHOD_2_186E161241641307_OFFSET))(this);
+	}
+
+	::System::Void Method_2_A967DF2722350303(::Class_0_16E4307DCC419505_159<::MoleMole::UIZenkovPresetsDialogPopWindowController_Context*>* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_159<::MoleMole::UIZenkovPresetsDialogPopWindowController_Context*>*))((::PBYTE)hIl2Cpp + CLASS_2_89FBAF9C3593170E_METHOD_2_A967DF2722350303_OFFSET))(this, a1);
+	}
+};

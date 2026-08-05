@@ -3,13 +3,13 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int LevelShootGameConfig_WaveGroupStartCondition_TypeDefinitionIndex = 70557;
+	inline static constexpr unsigned int LevelShootGameConfig_WaveGroupStartCondition_TypeDefinitionIndex = 52699;
 
 	enum class LevelShootGameConfig_WaveGroupStartCondition : ::System::Int32
 	{
 		NoCondition = 0,
-		LastGroupDie = 1,
 		LastGroupAllRefresh = 2,
+		LastGroupDie = 1,
 		LastGroupFirstRefresh = 3,
 	};
 }

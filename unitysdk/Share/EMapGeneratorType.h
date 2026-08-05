@@ -3,11 +3,11 @@
 
 namespace Share
 {
-	inline static constexpr unsigned int EMapGeneratorType_TypeDefinitionIndex = 16677;
+	inline static constexpr unsigned int EMapGeneratorType_TypeDefinitionIndex = 16152;
 
 	enum class EMapGeneratorType : ::System::Int16
 	{
-		Manual = 1,
 		Random = 0,
+		Manual = 1,
 	};
 }

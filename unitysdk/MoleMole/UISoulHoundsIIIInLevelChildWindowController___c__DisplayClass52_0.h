@@ -5,12 +5,12 @@
 namespace MoleMole { class MonoSoulHoundScore; }
 namespace MoleMole { class UISoulHoundsIIIInLevelChildWindowController; }
 
-#define MOLEMOLE_UISOULHOUNDSIIIINLEVELCHILDWINDOWCONTROLLER___C__DISPLAYCLASS52_0__CTOR_OFFSET UNITYSDK_OFFSET(0x152B9C60)
-#define MOLEMOLE_UISOULHOUNDSIIIINLEVELCHILDWINDOWCONTROLLER___C__DISPLAYCLASS52_0__ONGETSCORE_B__0_OFFSET UNITYSDK_OFFSET(0x152B9C70)
+#define MOLEMOLE_UISOULHOUNDSIIIINLEVELCHILDWINDOWCONTROLLER___C__DISPLAYCLASS52_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15191000)
+#define MOLEMOLE_UISOULHOUNDSIIIINLEVELCHILDWINDOWCONTROLLER___C__DISPLAYCLASS52_0__ONGETSCORE_B__0_OFFSET UNITYSDK_OFFSET(0x15191010)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISoulHoundsIIIInLevelChildWindowController___c__DisplayClass52_0_TypeDefinitionIndex = 41431;
+	inline static constexpr unsigned int UISoulHoundsIIIInLevelChildWindowController___c__DisplayClass52_0_TypeDefinitionIndex = 44507;
 
 	class UISoulHoundsIIIInLevelChildWindowController___c__DisplayClass52_0 : public ::System::Object
 	{

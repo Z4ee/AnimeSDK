@@ -10,22 +10,22 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Reflection { class MethodInfo; }
 
-#define FLOWCANVAS_NODES_BASEREFLECTEDMETHODNODE_ADD_ONGETAOTREFLECTEDMETHODNODE_OFFSET UNITYSDK_OFFSET(0x1D51C240)
-#define FLOWCANVAS_NODES_BASEREFLECTEDMETHODNODE_GETMETHODNODE_OFFSET UNITYSDK_OFFSET(0x1D51C3A0)
-#define FLOWCANVAS_NODES_BASEREFLECTEDMETHODNODE_INIT_OFFSET UNITYSDK_OFFSET(0x1D51C5C0)
-#define FLOWCANVAS_NODES_BASEREFLECTEDMETHODNODE_REMOVE_ONGETAOTREFLECTEDMETHODNODE_OFFSET UNITYSDK_OFFSET(0x1D51C2F0)
-#define FLOWCANVAS_NODES_BASEREFLECTEDMETHODNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D51C7D0)
+#define FLOWCANVAS_NODES_BASEREFLECTEDMETHODNODE_ADD_ONGETAOTREFLECTEDMETHODNODE_OFFSET UNITYSDK_OFFSET(0x1E8B6400)
+#define FLOWCANVAS_NODES_BASEREFLECTEDMETHODNODE_GETMETHODNODE_OFFSET UNITYSDK_OFFSET(0x1E8B6520)
+#define FLOWCANVAS_NODES_BASEREFLECTEDMETHODNODE_INIT_OFFSET UNITYSDK_OFFSET(0x1E8B6740)
+#define FLOWCANVAS_NODES_BASEREFLECTEDMETHODNODE_REMOVE_ONGETAOTREFLECTEDMETHODNODE_OFFSET UNITYSDK_OFFSET(0x1E8B6490)
+#define FLOWCANVAS_NODES_BASEREFLECTEDMETHODNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E8B6950)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int BaseReflectedMethodNode_TypeDefinitionIndex = 29412;
+	inline static constexpr unsigned int BaseReflectedMethodNode_TypeDefinitionIndex = 29767;
 
 	class BaseReflectedMethodNode : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::System::Reflection::MethodInfo*, ::FlowCanvas::Nodes::BaseReflectedMethodNode*>** StaticGet_OnGetAotReflectedMethodNode()
 		{
-			return (::System::Func_2<::System::Reflection::MethodInfo*, ::FlowCanvas::Nodes::BaseReflectedMethodNode*>**)Il2CppClass::FromTypeDefinitionIndex(BaseReflectedMethodNode_TypeDefinitionIndex)->GetStaticField(0x24580);
+			return (::System::Func_2<::System::Reflection::MethodInfo*, ::FlowCanvas::Nodes::BaseReflectedMethodNode*>**)Il2CppClass::FromTypeDefinitionIndex(BaseReflectedMethodNode_TypeDefinitionIndex)->GetStaticField(0x25E70);
 		}
 		::System::Reflection::MethodInfo* methodInfo; // 0x10
 		::FlowCanvas::Nodes::ParamDef instanceDef; // 0x18

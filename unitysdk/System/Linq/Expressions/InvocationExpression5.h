@@ -7,11 +7,11 @@ namespace System { class Type; }
 namespace System::Collections::ObjectModel { template <typename T> class ReadOnlyCollection_1; }
 namespace System::Linq::Expressions { class Expression; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INVOCATIONEXPRESSION5_GETARGUMENT_OFFSET UNITYSDK_OFFSET(0x1C793E60)
-#define SYSTEM_LINQ_EXPRESSIONS_INVOCATIONEXPRESSION5_GETORMAKEARGUMENTS_OFFSET UNITYSDK_OFFSET(0x1C793E50)
-#define SYSTEM_LINQ_EXPRESSIONS_INVOCATIONEXPRESSION5_GET_ARGUMENTCOUNT_OFFSET UNITYSDK_OFFSET(0x1C793F20)
-#define SYSTEM_LINQ_EXPRESSIONS_INVOCATIONEXPRESSION5_REWRITE_OFFSET UNITYSDK_OFFSET(0x1C793F30)
-#define SYSTEM_LINQ_EXPRESSIONS_INVOCATIONEXPRESSION5__CTOR_OFFSET UNITYSDK_OFFSET(0x1C77A350)
+#define SYSTEM_LINQ_EXPRESSIONS_INVOCATIONEXPRESSION5_GETARGUMENT_OFFSET UNITYSDK_OFFSET(0x1DC47A70)
+#define SYSTEM_LINQ_EXPRESSIONS_INVOCATIONEXPRESSION5_GETORMAKEARGUMENTS_OFFSET UNITYSDK_OFFSET(0x1DC47A60)
+#define SYSTEM_LINQ_EXPRESSIONS_INVOCATIONEXPRESSION5_GET_ARGUMENTCOUNT_OFFSET UNITYSDK_OFFSET(0x1DC47B20)
+#define SYSTEM_LINQ_EXPRESSIONS_INVOCATIONEXPRESSION5_REWRITE_OFFSET UNITYSDK_OFFSET(0x1DC47B30)
+#define SYSTEM_LINQ_EXPRESSIONS_INVOCATIONEXPRESSION5__CTOR_OFFSET UNITYSDK_OFFSET(0x1DC2E310)
 
 namespace System::Linq::Expressions
 {
@@ -21,9 +21,9 @@ namespace System::Linq::Expressions
 	{
 	public:
 		::System::Linq::Expressions::Expression* _arg2; // 0x20
-		::System::Object* _arg0; // 0x28
+		::System::Linq::Expressions::Expression* _arg4; // 0x28
 		::System::Linq::Expressions::Expression* _arg1; // 0x30
-		::System::Linq::Expressions::Expression* _arg4; // 0x38
+		::System::Object* _arg0; // 0x38
 		::System::Linq::Expressions::Expression* _arg3; // 0x40
 
 		::System::Void _ctor(::System::Linq::Expressions::Expression* lambda, ::System::Type* returnType, ::System::Linq::Expressions::Expression* arg0, ::System::Linq::Expressions::Expression* arg1, ::System::Linq::Expressions::Expression* arg2, ::System::Linq::Expressions::Expression* arg3, ::System::Linq::Expressions::Expression* arg4)

@@ -3,12 +3,12 @@
 #include "unitysdk/MoleMole/FlowCanvas/ChessboardCallableActionNode_2.h"
 #include "unitysdk/MoleMole/HollowChessboard/HollowCell.h"
 
-#define MOLEMOLE_FLOWCANVAS_HACKERGAMESETRENDERSTATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x161CEDC0)
-#define MOLEMOLE_FLOWCANVAS_HACKERGAMESETRENDERSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x161CEEB0)
+#define MOLEMOLE_FLOWCANVAS_HACKERGAMESETRENDERSTATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x144B7DD0)
+#define MOLEMOLE_FLOWCANVAS_HACKERGAMESETRENDERSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x144B7EC0)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int HackerGameSetRenderState_TypeDefinitionIndex = 72497;
+	inline static constexpr unsigned int HackerGameSetRenderState_TypeDefinitionIndex = 75961;
 
 	class HackerGameSetRenderState : public ::MoleMole::FlowCanvas::ChessboardCallableActionNode_2<::MoleMole::HollowChessboard::HollowCell, ::System::Boolean>
 	{

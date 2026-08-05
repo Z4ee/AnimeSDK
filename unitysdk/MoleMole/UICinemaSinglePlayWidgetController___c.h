@@ -11,54 +11,54 @@ namespace MoleMole { class UICinemaSingleMultiClickBubbleWidgetController; }
 namespace System { class Action; }
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_UICINEMASINGLEPLAYWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17F66C50)
-#define MOLEMOLE_UICINEMASINGLEPLAYWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17F66C90)
-#define MOLEMOLE_UICINEMASINGLEPLAYWIDGETCONTROLLER___C__RESETALLBUBBLE_B__66_0_OFFSET UNITYSDK_OFFSET(0x17F66CA0)
-#define MOLEMOLE_UICINEMASINGLEPLAYWIDGETCONTROLLER___C__RESETALLBUBBLE_B__66_1_OFFSET UNITYSDK_OFFSET(0x17F66CB0)
-#define MOLEMOLE_UICINEMASINGLEPLAYWIDGETCONTROLLER___C__RESETALLBUBBLE_B__66_2_OFFSET UNITYSDK_OFFSET(0x17F66CC0)
-#define MOLEMOLE_UICINEMASINGLEPLAYWIDGETCONTROLLER___C__RESETALLBUBBLE_B__66_3_OFFSET UNITYSDK_OFFSET(0x17F66CD0)
-#define MOLEMOLE_UICINEMASINGLEPLAYWIDGETCONTROLLER___C__RESETALLBUBBLE_B__66_4_OFFSET UNITYSDK_OFFSET(0x17F66CE0)
-#define MOLEMOLE_UICINEMASINGLEPLAYWIDGETCONTROLLER___C__RESETALLBUBBLE_B__66_5_OFFSET UNITYSDK_OFFSET(0x17F66CF0)
-#define MOLEMOLE_UICINEMASINGLEPLAYWIDGETCONTROLLER___C__SHOWBADBUBBLE_B__78_0_OFFSET UNITYSDK_OFFSET(0x17F66D00)
+#define MOLEMOLE_UICINEMASINGLEPLAYWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x192B90F0)
+#define MOLEMOLE_UICINEMASINGLEPLAYWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x192B9130)
+#define MOLEMOLE_UICINEMASINGLEPLAYWIDGETCONTROLLER___C__RESETALLBUBBLE_B__66_0_OFFSET UNITYSDK_OFFSET(0x192B9140)
+#define MOLEMOLE_UICINEMASINGLEPLAYWIDGETCONTROLLER___C__RESETALLBUBBLE_B__66_1_OFFSET UNITYSDK_OFFSET(0x192B9150)
+#define MOLEMOLE_UICINEMASINGLEPLAYWIDGETCONTROLLER___C__RESETALLBUBBLE_B__66_2_OFFSET UNITYSDK_OFFSET(0x192B9160)
+#define MOLEMOLE_UICINEMASINGLEPLAYWIDGETCONTROLLER___C__RESETALLBUBBLE_B__66_3_OFFSET UNITYSDK_OFFSET(0x192B9170)
+#define MOLEMOLE_UICINEMASINGLEPLAYWIDGETCONTROLLER___C__RESETALLBUBBLE_B__66_4_OFFSET UNITYSDK_OFFSET(0x192B9180)
+#define MOLEMOLE_UICINEMASINGLEPLAYWIDGETCONTROLLER___C__RESETALLBUBBLE_B__66_5_OFFSET UNITYSDK_OFFSET(0x192B9190)
+#define MOLEMOLE_UICINEMASINGLEPLAYWIDGETCONTROLLER___C__SHOWBADBUBBLE_B__78_0_OFFSET UNITYSDK_OFFSET(0x192B91A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICinemaSinglePlayWidgetController___c_TypeDefinitionIndex = 71506;
+	inline static constexpr unsigned int UICinemaSinglePlayWidgetController___c_TypeDefinitionIndex = 46351;
 
 	class UICinemaSinglePlayWidgetController___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::MoleMole::UICinemaPlayBubble01RightWidgetController*>** StaticGet___9__66_1()
+		static ::System::Action_1<::MoleMole::UICinemaPlayBubble01WidgetController*>** StaticGet___9__66_0()
 		{
-			return (::System::Action_1<::MoleMole::UICinemaPlayBubble01RightWidgetController*>**)Il2CppClass::FromTypeDefinitionIndex(UICinemaSinglePlayWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3F060);
-		}
-		static ::System::Action_1<::MoleMole::UICinemaSingleMultiClickBubbleWidgetController*>** StaticGet___9__66_2()
-		{
-			return (::System::Action_1<::MoleMole::UICinemaSingleMultiClickBubbleWidgetController*>**)Il2CppClass::FromTypeDefinitionIndex(UICinemaSinglePlayWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3F068);
-		}
-		static ::System::Action** StaticGet___9__78_0()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UICinemaSinglePlayWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3F070);
-		}
-		static ::System::Action_1<::MoleMole::UICinemaSingleClearAllBubbleWidgetController*>** StaticGet___9__66_5()
-		{
-			return (::System::Action_1<::MoleMole::UICinemaSingleClearAllBubbleWidgetController*>**)Il2CppClass::FromTypeDefinitionIndex(UICinemaSinglePlayWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3F078);
+			return (::System::Action_1<::MoleMole::UICinemaPlayBubble01WidgetController*>**)Il2CppClass::FromTypeDefinitionIndex(UICinemaSinglePlayWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3FC20);
 		}
 		static ::System::Action_1<::MoleMole::UICinemaSingleMultiClickBubbleRightWidgetController*>** StaticGet___9__66_3()
 		{
-			return (::System::Action_1<::MoleMole::UICinemaSingleMultiClickBubbleRightWidgetController*>**)Il2CppClass::FromTypeDefinitionIndex(UICinemaSinglePlayWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3F080);
-		}
-		static ::System::Action_1<::MoleMole::UICinemaPlayBubble01WidgetController*>** StaticGet___9__66_0()
-		{
-			return (::System::Action_1<::MoleMole::UICinemaPlayBubble01WidgetController*>**)Il2CppClass::FromTypeDefinitionIndex(UICinemaSinglePlayWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3F088);
-		}
-		static ::System::Action_1<::MoleMole::UICinemaSingleBadBubbleWidgetController*>** StaticGet___9__66_4()
-		{
-			return (::System::Action_1<::MoleMole::UICinemaSingleBadBubbleWidgetController*>**)Il2CppClass::FromTypeDefinitionIndex(UICinemaSinglePlayWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3F090);
+			return (::System::Action_1<::MoleMole::UICinemaSingleMultiClickBubbleRightWidgetController*>**)Il2CppClass::FromTypeDefinitionIndex(UICinemaSinglePlayWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3FC28);
 		}
 		static ::MoleMole::UICinemaSinglePlayWidgetController___c** StaticGet___9()
 		{
-			return (::MoleMole::UICinemaSinglePlayWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UICinemaSinglePlayWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3F098);
+			return (::MoleMole::UICinemaSinglePlayWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UICinemaSinglePlayWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3FC30);
+		}
+		static ::System::Action_1<::MoleMole::UICinemaSingleClearAllBubbleWidgetController*>** StaticGet___9__66_5()
+		{
+			return (::System::Action_1<::MoleMole::UICinemaSingleClearAllBubbleWidgetController*>**)Il2CppClass::FromTypeDefinitionIndex(UICinemaSinglePlayWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3FC38);
+		}
+		static ::System::Action_1<::MoleMole::UICinemaPlayBubble01RightWidgetController*>** StaticGet___9__66_1()
+		{
+			return (::System::Action_1<::MoleMole::UICinemaPlayBubble01RightWidgetController*>**)Il2CppClass::FromTypeDefinitionIndex(UICinemaSinglePlayWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3FC40);
+		}
+		static ::System::Action_1<::MoleMole::UICinemaSingleMultiClickBubbleWidgetController*>** StaticGet___9__66_2()
+		{
+			return (::System::Action_1<::MoleMole::UICinemaSingleMultiClickBubbleWidgetController*>**)Il2CppClass::FromTypeDefinitionIndex(UICinemaSinglePlayWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3FC48);
+		}
+		static ::System::Action_1<::MoleMole::UICinemaSingleBadBubbleWidgetController*>** StaticGet___9__66_4()
+		{
+			return (::System::Action_1<::MoleMole::UICinemaSingleBadBubbleWidgetController*>**)Il2CppClass::FromTypeDefinitionIndex(UICinemaSinglePlayWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3FC50);
+		}
+		static ::System::Action** StaticGet___9__78_0()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UICinemaSinglePlayWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3FC58);
 		}
 
 		static ::System::Void _cctor()

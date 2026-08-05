@@ -4,12 +4,12 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define IFIX_CORE_PATCHMANAGER___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1CAA4530)
-#define IFIX_CORE_PATCHMANAGER___C__DISPLAYCLASS7_0__LOAD_B__0_OFFSET UNITYSDK_OFFSET(0x1CAA4FE0)
+#define IFIX_CORE_PATCHMANAGER___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1E083330)
+#define IFIX_CORE_PATCHMANAGER___C__DISPLAYCLASS7_0__LOAD_B__0_OFFSET UNITYSDK_OFFSET(0x1E083D40)
 
 namespace IFix::Core
 {
-	inline static constexpr unsigned int PatchManager___c__DisplayClass7_0_TypeDefinitionIndex = 6919;
+	inline static constexpr unsigned int PatchManager___c__DisplayClass7_0_TypeDefinitionIndex = 6924;
 
 	class PatchManager___c__DisplayClass7_0 : public ::System::Object
 	{

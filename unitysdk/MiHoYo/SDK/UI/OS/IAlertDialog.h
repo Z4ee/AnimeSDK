@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::UI::OS
 {
-	inline static constexpr unsigned int IAlertDialog_TypeDefinitionIndex = 20232;
+	inline static constexpr unsigned int IAlertDialog_TypeDefinitionIndex = 20580;
 
 	class IAlertDialog
 	{

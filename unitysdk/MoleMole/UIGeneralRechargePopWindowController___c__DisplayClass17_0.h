@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_UIGENERALRECHARGEPOPWINDOWCONTROLLER___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15A747F0)
-#define MOLEMOLE_UIGENERALRECHARGEPOPWINDOWCONTROLLER___C__DISPLAYCLASS17_0__RECHARGE_B__1_OFFSET UNITYSDK_OFFSET(0x15A74800)
+#define MOLEMOLE_UIGENERALRECHARGEPOPWINDOWCONTROLLER___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19E85F20)
+#define MOLEMOLE_UIGENERALRECHARGEPOPWINDOWCONTROLLER___C__DISPLAYCLASS17_0__RECHARGE_B__1_OFFSET UNITYSDK_OFFSET(0x19E85F30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralRechargePopWindowController___c__DisplayClass17_0_TypeDefinitionIndex = 85992;
+	inline static constexpr unsigned int UIGeneralRechargePopWindowController___c__DisplayClass17_0_TypeDefinitionIndex = 85298;
 
 	class UIGeneralRechargePopWindowController___c__DisplayClass17_0 : public ::System::Object
 	{

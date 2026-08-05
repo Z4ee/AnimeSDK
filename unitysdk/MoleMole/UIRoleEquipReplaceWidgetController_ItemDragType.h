@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRoleEquipReplaceWidgetController_ItemDragType_TypeDefinitionIndex = 68218;
+	inline static constexpr unsigned int UIRoleEquipReplaceWidgetController_ItemDragType_TypeDefinitionIndex = 52771;
 
 	enum class UIRoleEquipReplaceWidgetController_ItemDragType : ::System::Byte
 	{

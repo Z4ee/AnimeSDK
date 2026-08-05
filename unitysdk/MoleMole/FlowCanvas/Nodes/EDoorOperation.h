@@ -3,7 +3,7 @@
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int EDoorOperation_TypeDefinitionIndex = 48282;
+	inline static constexpr unsigned int EDoorOperation_TypeDefinitionIndex = 73313;
 
 	enum class EDoorOperation : ::System::Int32
 	{

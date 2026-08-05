@@ -4,20 +4,20 @@
 
 namespace UnrealTypes { class ICppStructOps; }
 
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_NAVMESHTOPATHFOLLOWTASK___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xFFAA920)
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_NAVMESHTOPATHFOLLOWTASK___C__CTOR_OFFSET UNITYSDK_OFFSET(0xFFAA960)
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_NAVMESHTOPATHFOLLOWTASK___C___CCTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0xFFAA970)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_NAVMESHTOPATHFOLLOWTASK___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x12604530)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_NAVMESHTOPATHFOLLOWTASK___C__CTOR_OFFSET UNITYSDK_OFFSET(0x12604570)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_NAVMESHTOPATHFOLLOWTASK___C___CCTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0x12604580)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_NavmeshToPathFollowTask___c_TypeDefinitionIndex = 72461;
+	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_NavmeshToPathFollowTask___c_TypeDefinitionIndex = 63391;
 
 	class RegistrationInfo_ScriptStruct_NavmeshToPathFollowTask___c : public ::System::Object
 	{
 	public:
 		static ::NPCCrowd::Ability::RegistrationInfo_ScriptStruct_NavmeshToPathFollowTask___c** StaticGet___9()
 		{
-			return (::NPCCrowd::Ability::RegistrationInfo_ScriptStruct_NavmeshToPathFollowTask___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_NavmeshToPathFollowTask___c_TypeDefinitionIndex)->GetStaticField(0x41A70);
+			return (::NPCCrowd::Ability::RegistrationInfo_ScriptStruct_NavmeshToPathFollowTask___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_NavmeshToPathFollowTask___c_TypeDefinitionIndex)->GetStaticField(0x431D0);
 		}
 
 		static ::System::Void _cctor()

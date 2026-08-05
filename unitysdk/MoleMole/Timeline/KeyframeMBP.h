@@ -8,12 +8,12 @@
 namespace MoleMole::Timeline { class RuntimeKeyFrame; }
 namespace System { class String; }
 
-#define MOLEMOLE_TIMELINE_KEYFRAMEMBP_EQUALS_OFFSET UNITYSDK_OFFSET(0x1DE59BE0)
-#define MOLEMOLE_TIMELINE_KEYFRAMEMBP__CTOR_OFFSET UNITYSDK_OFFSET(0x1DE59B60)
+#define MOLEMOLE_TIMELINE_KEYFRAMEMBP_EQUALS_OFFSET UNITYSDK_OFFSET(0x1F23DC60)
+#define MOLEMOLE_TIMELINE_KEYFRAMEMBP__CTOR_OFFSET UNITYSDK_OFFSET(0x1F23DBE0)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int KeyframeMBP_TypeDefinitionIndex = 32161;
+	inline static constexpr unsigned int KeyframeMBP_TypeDefinitionIndex = 32791;
 
 	class KeyframeMBP : public ::System::Object
 	{

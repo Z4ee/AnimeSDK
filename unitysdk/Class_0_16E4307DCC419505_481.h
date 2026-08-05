@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/Enum_3_C3E5AF96E93F7282.h"
+#include "unitysdk/System/Nullable_1.h"
 
-class Class_2_208CC9941471731A_594;
-
-inline static constexpr unsigned int Class_0_16E4307DCC419505_481_TypeDefinitionIndex = 79967;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_481_TypeDefinitionIndex = 72918;
 
 class Class_0_16E4307DCC419505_481
 {

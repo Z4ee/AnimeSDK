@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define FOUNDATION_CONTAINER_NATIVEDATAUTILS_ENSURECACHELINELENGTH_OFFSET UNITYSDK_OFFSET(0x1E354870)
+#define FOUNDATION_CONTAINER_NATIVEDATAUTILS_ENSURECACHELINELENGTH_OFFSET UNITYSDK_OFFSET(0x1F79BB40)
 
 namespace Foundation::Container
 {
-	inline static constexpr unsigned int NativeDataUtils_TypeDefinitionIndex = 8582;
+	inline static constexpr unsigned int NativeDataUtils_TypeDefinitionIndex = 8554;
 
 	class NativeDataUtils : public ::System::Object
 	{

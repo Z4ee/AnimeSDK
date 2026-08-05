@@ -8,23 +8,23 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Shader; }
 
-#define NPCCROWDAVATARUTILS_GETCROWDSHADER_1_OFFSET UNITYSDK_OFFSET(0xF9C8760)
-#define NPCCROWDAVATARUTILS_GETCROWDSHADER_OFFSET UNITYSDK_OFFSET(0xF9C7DE0)
-#define NPCCROWDAVATARUTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0xF9C8C80)
-#define NPCCROWDAVATARUTILS__CTOR_OFFSET UNITYSDK_OFFSET(0xF9C8C70)
+#define NPCCROWDAVATARUTILS_GETCROWDSHADER_1_OFFSET UNITYSDK_OFFSET(0x17FB7B80)
+#define NPCCROWDAVATARUTILS_GETCROWDSHADER_OFFSET UNITYSDK_OFFSET(0x17FB7200)
+#define NPCCROWDAVATARUTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0x17FB80A0)
+#define NPCCROWDAVATARUTILS__CTOR_OFFSET UNITYSDK_OFFSET(0x17FB8090)
 
-inline static constexpr unsigned int NPCCrowdAvatarUtils_TypeDefinitionIndex = 67787;
+inline static constexpr unsigned int NPCCrowdAvatarUtils_TypeDefinitionIndex = 70112;
 
 class NPCCrowdAvatarUtils : public ::System::Object
 {
 public:
 	static ::System::Collections::Generic::List_1<::NPCCrowdAvatarUtils_CrowdAvatarShaderInfo*>** StaticGet_CrowdShadersInfos()
 	{
-		return (::System::Collections::Generic::List_1<::NPCCrowdAvatarUtils_CrowdAvatarShaderInfo*>**)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdAvatarUtils_TypeDefinitionIndex)->GetStaticField(0x48B90);
+		return (::System::Collections::Generic::List_1<::NPCCrowdAvatarUtils_CrowdAvatarShaderInfo*>**)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdAvatarUtils_TypeDefinitionIndex)->GetStaticField(0x45680);
 	}
 	static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::Shader*>** StaticGet__crowdShaderMap()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::Shader*>**)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdAvatarUtils_TypeDefinitionIndex)->GetStaticField(0x48B98);
+		return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::Shader*>**)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdAvatarUtils_TypeDefinitionIndex)->GetStaticField(0x45688);
 	}
 
 	::System::Void _ctor()

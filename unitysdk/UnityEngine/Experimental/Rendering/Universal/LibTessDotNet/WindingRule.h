@@ -3,14 +3,14 @@
 
 namespace UnityEngine::Experimental::Rendering::Universal::LibTessDotNet
 {
-	inline static constexpr unsigned int WindingRule_TypeDefinitionIndex = 26318;
+	inline static constexpr unsigned int WindingRule_TypeDefinitionIndex = 27406;
 
 	enum class WindingRule : ::System::Int32
 	{
 		Positive = 2,
-		Negative = 3,
 		AbsGeqTwo = 4,
-		NonZero = 1,
+		Negative = 3,
 		EvenOdd = 0,
+		NonZero = 1,
 	};
 }

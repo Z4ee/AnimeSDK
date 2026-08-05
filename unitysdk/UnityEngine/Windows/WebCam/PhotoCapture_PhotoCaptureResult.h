@@ -5,7 +5,7 @@
 
 namespace UnityEngine::Windows::WebCam
 {
-	inline static constexpr unsigned int PhotoCapture_PhotoCaptureResult_TypeDefinitionIndex = 5465;
+	inline static constexpr unsigned int PhotoCapture_PhotoCaptureResult_TypeDefinitionIndex = 5468;
 
 	struct alignas(8) PhotoCapture_PhotoCaptureResult
 	{

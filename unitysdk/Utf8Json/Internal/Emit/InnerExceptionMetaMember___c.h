@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define UTF8JSON_INTERNAL_EMIT_INNEREXCEPTIONMETAMEMBER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E7B84F0)
-#define UTF8JSON_INTERNAL_EMIT_INNEREXCEPTIONMETAMEMBER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7B8530)
+#define UTF8JSON_INTERNAL_EMIT_INNEREXCEPTIONMETAMEMBER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FB96040)
+#define UTF8JSON_INTERNAL_EMIT_INNEREXCEPTIONMETAMEMBER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB96080)
 
 namespace Utf8Json::Internal::Emit
 {
-	inline static constexpr unsigned int InnerExceptionMetaMember___c_TypeDefinitionIndex = 91256;
+	inline static constexpr unsigned int InnerExceptionMetaMember___c_TypeDefinitionIndex = 95189;
 
 	class InnerExceptionMetaMember___c : public ::System::Object
 	{
 	public:
 		static ::Utf8Json::Internal::Emit::InnerExceptionMetaMember___c** StaticGet___9()
 		{
-			return (::Utf8Json::Internal::Emit::InnerExceptionMetaMember___c**)Il2CppClass::FromTypeDefinitionIndex(InnerExceptionMetaMember___c_TypeDefinitionIndex)->GetStaticField(0x4F280);
+			return (::Utf8Json::Internal::Emit::InnerExceptionMetaMember___c**)Il2CppClass::FromTypeDefinitionIndex(InnerExceptionMetaMember___c_TypeDefinitionIndex)->GetStaticField(0x53430);
 		}
 
 		static ::System::Void _cctor()

@@ -3,7 +3,7 @@
 
 namespace ICSharpCode::SharpZipLib::Zip
 {
-	inline static constexpr unsigned int UseZip64_TypeDefinitionIndex = 6842;
+	inline static constexpr unsigned int UseZip64_TypeDefinitionIndex = 6846;
 
 	enum class UseZip64 : ::System::Int32
 	{

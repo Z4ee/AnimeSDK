@@ -3,7 +3,7 @@
 
 namespace Sirenix::OdinInspector
 {
-	inline static constexpr unsigned int ObjectFieldAlignment_TypeDefinitionIndex = 7395;
+	inline static constexpr unsigned int ObjectFieldAlignment_TypeDefinitionIndex = 7399;
 
 	enum class ObjectFieldAlignment : ::System::Int32
 	{

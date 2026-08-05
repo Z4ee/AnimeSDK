@@ -1,0 +1,26 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_0D6706375CDAAE8C;
+
+#define CLASS_2_F24DDA4566F78299_CLASS_1_DC0CA1F07A0E109A_METHOD_1_F8C7231308CD2C82_OFFSET UNITYSDK_OFFSET(0x17FDFDF0)
+#define CLASS_2_F24DDA4566F78299_CLASS_1_DC0CA1F07A0E109A__CTOR_OFFSET UNITYSDK_OFFSET(0x17FDFDE0)
+
+inline static constexpr unsigned int Class_2_F24DDA4566F78299_Class_1_DC0CA1F07A0E109A_TypeDefinitionIndex = 43027;
+
+class Class_2_F24DDA4566F78299_Class_1_DC0CA1F07A0E109A : public ::System::Object
+{
+public:
+	::Class_1_0D6706375CDAAE8C* Field_1_0; // 0x10
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_F24DDA4566F78299_CLASS_1_DC0CA1F07A0E109A__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_1_F8C7231308CD2C82()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_F24DDA4566F78299_CLASS_1_DC0CA1F07A0E109A_METHOD_1_F8C7231308CD2C82_OFFSET))(this);
+	}
+};

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define ICSHARPCODE_SHARPZIPLIB_LZW_LZWCONSTANTS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E55D210)
+#define ICSHARPCODE_SHARPZIPLIB_LZW_LZWCONSTANTS__CTOR_OFFSET UNITYSDK_OFFSET(0x1F94D290)
 
 namespace ICSharpCode::SharpZipLib::LZW
 {
-	inline static constexpr unsigned int LzwConstants_TypeDefinitionIndex = 6808;
+	inline static constexpr unsigned int LzwConstants_TypeDefinitionIndex = 6812;
 
 	class LzwConstants : public ::System::Object
 	{

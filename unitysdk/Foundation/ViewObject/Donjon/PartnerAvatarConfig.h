@@ -6,7 +6,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace Foundation::ViewObject::Donjon
 {
-	inline static constexpr unsigned int PartnerAvatarConfig_TypeDefinitionIndex = 41396;
+	inline static constexpr unsigned int PartnerAvatarConfig_TypeDefinitionIndex = 47854;
 
 	struct alignas(8) PartnerAvatarConfig
 	{

@@ -4,7 +4,7 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int IPositionRenderElement_TypeDefinitionIndex = 89536;
+	inline static constexpr unsigned int IPositionRenderElement_TypeDefinitionIndex = 93460;
 
 	class IPositionRenderElement
 	{

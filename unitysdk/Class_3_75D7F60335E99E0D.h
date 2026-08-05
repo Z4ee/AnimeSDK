@@ -1,15 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_2_9C00C44C10E42328.h"
+#include "unitysdk/Class_2_68B3FFD528A3EFF0.h"
 
 namespace MoleMole::Battle { class Entity; }
 
-#define CLASS_3_75D7F60335E99E0D_METHOD_3_56AB20857C761B0F_OFFSET UNITYSDK_OFFSET(0x14987A70)
-#define CLASS_3_75D7F60335E99E0D__CTOR_OFFSET UNITYSDK_OFFSET(0x14987B00)
+#define CLASS_3_75D7F60335E99E0D_METHOD_3_56AB20857C761B0F_OFFSET UNITYSDK_OFFSET(0x10F832C0)
+#define CLASS_3_75D7F60335E99E0D__CTOR_OFFSET UNITYSDK_OFFSET(0x10F83350)
 
-inline static constexpr unsigned int Class_3_75D7F60335E99E0D_TypeDefinitionIndex = 43779;
+inline static constexpr unsigned int Class_3_75D7F60335E99E0D_TypeDefinitionIndex = 66616;
 
-class Class_3_75D7F60335E99E0D : public ::Class_2_9C00C44C10E42328
+class Class_3_75D7F60335E99E0D : public ::Class_2_68B3FFD528A3EFF0
 {
 public:
 	::System::Void _ctor()

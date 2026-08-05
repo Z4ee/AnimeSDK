@@ -6,11 +6,11 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class ParticleSystem; }
 
-#define MOLEMOLE_MONOEFFECTSHAPE_EFFECTSHAPECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18301830)
+#define MOLEMOLE_MONOEFFECTSHAPE_EFFECTSHAPECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19959EA0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoEffectShape_EffectShapeConfig_TypeDefinitionIndex = 65435;
+	inline static constexpr unsigned int MonoEffectShape_EffectShapeConfig_TypeDefinitionIndex = 88837;
 
 	class MonoEffectShape_EffectShapeConfig : public ::System::Object
 	{

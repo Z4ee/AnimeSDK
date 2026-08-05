@@ -8,7 +8,7 @@ namespace UnityEngine { class Material; }
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int TextureBlender_TypeDefinitionIndex = 90575;
+	inline static constexpr unsigned int TextureBlender_TypeDefinitionIndex = 94508;
 
 	class TextureBlender
 	{

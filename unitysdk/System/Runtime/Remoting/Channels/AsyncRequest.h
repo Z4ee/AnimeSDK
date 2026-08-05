@@ -5,7 +5,7 @@
 namespace System::Runtime::Remoting::Messaging { class IMessage; }
 namespace System::Runtime::Remoting::Messaging { class IMessageSink; }
 
-#define SYSTEM_RUNTIME_REMOTING_CHANNELS_ASYNCREQUEST__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE52BF0)
+#define SYSTEM_RUNTIME_REMOTING_CHANNELS_ASYNCREQUEST__CTOR_OFFSET UNITYSDK_OFFSET(0x1C3263D0)
 
 namespace System::Runtime::Remoting::Channels
 {
@@ -14,8 +14,8 @@ namespace System::Runtime::Remoting::Channels
 	class AsyncRequest : public ::System::Object
 	{
 	public:
-		::System::Runtime::Remoting::Messaging::IMessageSink* ReplySink; // 0x10
-		::System::Runtime::Remoting::Messaging::IMessage* MsgRequest; // 0x18
+		::System::Runtime::Remoting::Messaging::IMessage* MsgRequest; // 0x10
+		::System::Runtime::Remoting::Messaging::IMessageSink* ReplySink; // 0x18
 
 		::System::Void _ctor(::System::Runtime::Remoting::Messaging::IMessage* msgRequest, ::System::Runtime::Remoting::Messaging::IMessageSink* replySink)
 		{

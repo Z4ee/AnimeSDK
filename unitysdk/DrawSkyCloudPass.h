@@ -13,34 +13,34 @@ namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine::NAPRenderPipeline0 { class ProfilingSampler; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define DRAWSKYCLOUDPASS_DRAWSKYEFFECT_OFFSET UNITYSDK_OFFSET(0x1D4D2620)
-#define DRAWSKYCLOUDPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1D4D1ED0)
-#define DRAWSKYCLOUDPASS_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1D4D2900)
-#define DRAWSKYCLOUDPASS_SETUP_OFFSET UNITYSDK_OFFSET(0x1D4D1E80)
-#define DRAWSKYCLOUDPASS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D4D2950)
-#define DRAWSKYCLOUDPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4D1CF0)
-#define DRAWSKYCLOUDPASS___BASE_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1D4D29B0)
+#define DRAWSKYCLOUDPASS_DRAWSKYEFFECT_OFFSET UNITYSDK_OFFSET(0x1E6596A0)
+#define DRAWSKYCLOUDPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1E658FA0)
+#define DRAWSKYCLOUDPASS_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1E659980)
+#define DRAWSKYCLOUDPASS_SETUP_OFFSET UNITYSDK_OFFSET(0x1E658F50)
+#define DRAWSKYCLOUDPASS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E6599D0)
+#define DRAWSKYCLOUDPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E658DC0)
+#define DRAWSKYCLOUDPASS___BASE_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1E659A30)
 
-inline static constexpr unsigned int DrawSkyCloudPass_TypeDefinitionIndex = 26936;
+inline static constexpr unsigned int DrawSkyCloudPass_TypeDefinitionIndex = 27966;
 
 class DrawSkyCloudPass : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 {
 public:
+	static ::System::Int32* StaticGet__SkyEffectOutlineColor()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DrawSkyCloudPass_TypeDefinitionIndex)->GetStaticField(0x6F70);
+	}
 	static ::System::Int32* StaticGet__SkyEffectOutlineParams2()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DrawSkyCloudPass_TypeDefinitionIndex)->GetStaticField(0x6FF0);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DrawSkyCloudPass_TypeDefinitionIndex)->GetStaticField(0x6F74);
 	}
 	static ::System::Int32* StaticGet__SkyEffectOutlineParams()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DrawSkyCloudPass_TypeDefinitionIndex)->GetStaticField(0x6FF4);
-	}
-	static ::System::Int32* StaticGet__SkyEffectOutlineColor()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DrawSkyCloudPass_TypeDefinitionIndex)->GetStaticField(0x6FF8);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DrawSkyCloudPass_TypeDefinitionIndex)->GetStaticField(0x6F78);
 	}
 	// static const ::System::String* k_ProfilerTag; // 0x0
-	::UnityEngine::NAPRenderPipeline0::ProfilingSampler* m_Sampler; // 0xA8
-	::UnityEngine::MaterialPropertyBlock* m_SkyEffectMaterialPropertyBlock; // 0xB0
+	::UnityEngine::MaterialPropertyBlock* m_SkyEffectMaterialPropertyBlock; // 0xA8
+	::UnityEngine::NAPRenderPipeline0::ProfilingSampler* m_Sampler; // 0xB0
 	::System::Boolean m_HasVolumetricCloudV2Pass; // 0xB8
 	::UnityEngine::Rendering::FilteringSettings m_FilterSettingsForOpaqueAfterSkyCloud; // 0xBC
 

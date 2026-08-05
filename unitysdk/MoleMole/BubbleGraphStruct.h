@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int BubbleGraphStruct_TypeDefinitionIndex = 77408;
+	inline static constexpr unsigned int BubbleGraphStruct_TypeDefinitionIndex = 86629;
 
 	struct alignas(8) BubbleGraphStruct
 	{

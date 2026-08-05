@@ -5,18 +5,18 @@
 
 namespace System { class String; }
 
-#define STRUCT_2_B12E8F52E978C28E_METHOD_2_35EA095E1AFDD9C8_OFFSET UNITYSDK_OFFSET(0x9B68F0)
-#define STRUCT_2_B12E8F52E978C28E_TOSTRING_OFFSET UNITYSDK_OFFSET(0x9B68E0)
+#define STRUCT_2_B12E8F52E978C28E_METHOD_2_35EA095E1AFDD9C8_OFFSET UNITYSDK_OFFSET(0x981F50)
+#define STRUCT_2_B12E8F52E978C28E_TOSTRING_OFFSET UNITYSDK_OFFSET(0x981F40)
 
-inline static constexpr unsigned int Struct_2_B12E8F52E978C28E_TypeDefinitionIndex = 88176;
+inline static constexpr unsigned int Struct_2_B12E8F52E978C28E_TypeDefinitionIndex = 92451;
 
 struct alignas(4) Struct_2_B12E8F52E978C28E
 {
-	::System::UInt32 Field_2_0; // 0x10
+	::System::UInt32 Field_2_2; // 0x10
 	::Enum_3_129539E974EC31DA Field_2_1; // 0x14
-	::System::Single Field_2_2; // 0x18
-	::System::Single Field_2_3; // 0x1C
-	::System::Int32 Field_2_4; // 0x20
+	::System::Single Field_2_0; // 0x18
+	::System::Single Field_2_7; // 0x1C
+	::System::Int32 Field_2_6; // 0x20
 	::System::Int32 Field_2_5; // 0x24
 
 	::System::String* ToString()

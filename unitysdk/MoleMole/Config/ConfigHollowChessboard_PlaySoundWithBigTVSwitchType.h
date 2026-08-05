@@ -9,13 +9,13 @@ namespace MoleMole::Config { class ConfigHollowChessboard_ChessEffectRunContextB
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_PLAYSOUNDWITHBIGTVSWITCHTYPE_GET_TOTALDURATION_OFFSET UNITYSDK_OFFSET(0x162AF9F0)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_PLAYSOUNDWITHBIGTVSWITCHTYPE_RUN_OFFSET UNITYSDK_OFFSET(0x162AF850)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_PLAYSOUNDWITHBIGTVSWITCHTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x162AFA00)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_PLAYSOUNDWITHBIGTVSWITCHTYPE_GET_TOTALDURATION_OFFSET UNITYSDK_OFFSET(0x16C43240)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_PLAYSOUNDWITHBIGTVSWITCHTYPE_RUN_OFFSET UNITYSDK_OFFSET(0x16C430A0)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_PLAYSOUNDWITHBIGTVSWITCHTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x16C43250)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowChessboard_PlaySoundWithBigTVSwitchType_TypeDefinitionIndex = 64442;
+	inline static constexpr unsigned int ConfigHollowChessboard_PlaySoundWithBigTVSwitchType_TypeDefinitionIndex = 59275;
 
 	class ConfigHollowChessboard_PlaySoundWithBigTVSwitchType : public ::MoleMole::Config::ConfigHollowChessboard_ChessEffectBase
 	{

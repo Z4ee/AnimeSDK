@@ -5,11 +5,11 @@
 class Class_2_31D08DC027B35B8F_Class_1_F33890CE90063A19;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIMECHBOOPRACTICERESULTPOPWINDOWCONTROLLERCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15761570)
+#define MOLEMOLE_UIMECHBOOPRACTICERESULTPOPWINDOWCONTROLLERCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x179ECD80)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMechBooPracticeResultPopWindowControllerContext_TypeDefinitionIndex = 81009;
+	inline static constexpr unsigned int UIMechBooPracticeResultPopWindowControllerContext_TypeDefinitionIndex = 52190;
 
 	class UIMechBooPracticeResultPopWindowControllerContext : public ::MoleMole::UIControllerContextBase
 	{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIGAMEUIBOARDPAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x17309800)
+#define MOLEMOLE_UIGAMEUIBOARDPAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x17D95A70)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGameUIBoardPageContext_TypeDefinitionIndex = 59692;
+	inline static constexpr unsigned int UIGameUIBoardPageContext_TypeDefinitionIndex = 54029;
 
 	class UIGameUIBoardPageContext : public ::MoleMole::UIControllerContextBase
 	{

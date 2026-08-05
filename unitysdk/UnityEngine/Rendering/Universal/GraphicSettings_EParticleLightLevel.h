@@ -3,11 +3,11 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int GraphicSettings_EParticleLightLevel_TypeDefinitionIndex = 26459;
+	inline static constexpr unsigned int GraphicSettings_EParticleLightLevel_TypeDefinitionIndex = 26979;
 
 	enum class GraphicSettings_EParticleLightLevel : ::System::Int32
 	{
-		DiffuseAndSpecular = 0,
 		DiffuseOnly = 1,
+		DiffuseAndSpecular = 0,
 	};
 }

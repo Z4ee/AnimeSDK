@@ -6,19 +6,19 @@
 namespace MiHoYo::SDK { class MiHoYoSDKServer; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_MIHOYOSDKSERVER___C__DISPLAYCLASS84_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4D67A0)
-#define MIHOYO_SDK_MIHOYOSDKSERVER___C__DISPLAYCLASS84_0__KIBANAREPORTKCPONMAINTHREAD_B__0_OFFSET UNITYSDK_OFFSET(0x1C4D67B0)
+#define MIHOYO_SDK_MIHOYOSDKSERVER___C__DISPLAYCLASS84_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1D844900)
+#define MIHOYO_SDK_MIHOYOSDKSERVER___C__DISPLAYCLASS84_0__KIBANAREPORTKCPONMAINTHREAD_B__0_OFFSET UNITYSDK_OFFSET(0x1D844910)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKServer___c__DisplayClass84_0_TypeDefinitionIndex = 36707;
+	inline static constexpr unsigned int MiHoYoSDKServer___c__DisplayClass84_0_TypeDefinitionIndex = 37368;
 
 	class MiHoYoSDKServer___c__DisplayClass84_0 : public ::System::Object
 	{
 	public:
 		::MiHoYo::SDK::MiHoYoSDKServer* __4__this; // 0x10
-		::System::String* msg; // 0x18
-		::System::String* eventStr; // 0x20
+		::System::String* eventStr; // 0x18
+		::System::String* msg; // 0x20
 		::MiHoYo::SDK::MiHoYoSDKServer_LogLevel logLevel; // 0x28
 		::System::Int32 code; // 0x2C
 

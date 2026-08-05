@@ -6,10 +6,10 @@ namespace System { class String; }
 namespace System::Globalization { class NumberFormatInfo; }
 namespace System::Text { class StringBuilder; }
 
-#define SYSTEM_NUMBERFORMATTER_CUSTOMINFO_FORMAT_OFFSET UNITYSDK_OFFSET(0x1B92A770)
-#define SYSTEM_NUMBERFORMATTER_CUSTOMINFO_GETACTIVESECTION_OFFSET UNITYSDK_OFFSET(0x1B9299A0)
-#define SYSTEM_NUMBERFORMATTER_CUSTOMINFO_PARSE_OFFSET UNITYSDK_OFFSET(0x1B929F70)
-#define SYSTEM_NUMBERFORMATTER_CUSTOMINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B92B9D0)
+#define SYSTEM_NUMBERFORMATTER_CUSTOMINFO_FORMAT_OFFSET UNITYSDK_OFFSET(0x1CD474C0)
+#define SYSTEM_NUMBERFORMATTER_CUSTOMINFO_GETACTIVESECTION_OFFSET UNITYSDK_OFFSET(0x1CD468F0)
+#define SYSTEM_NUMBERFORMATTER_CUSTOMINFO_PARSE_OFFSET UNITYSDK_OFFSET(0x1CD46DC0)
+#define SYSTEM_NUMBERFORMATTER_CUSTOMINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD486D0)
 
 namespace System
 {
@@ -18,20 +18,20 @@ namespace System
 	class NumberFormatter_CustomInfo : public ::System::Object
 	{
 	public:
-		::System::Int32 IntegerHeadPos; // 0x10
+		::System::Int32 DecimalTailSharpDigits; // 0x10
 		::System::Int32 ExponentDigits; // 0x14
-		::System::Int32 DecimalTailSharpDigits; // 0x18
-		::System::Boolean UseGroup; // 0x1C
-		::System::Boolean UseExponent; // 0x1D
-		::System::Boolean ExponentNegativeSignOnly; // 0x1E
-		::System::Int32 DecimalDigits; // 0x20
-		::System::Int32 IntegerDigits; // 0x24
-		::System::Int32 DecimalPointPos; // 0x28
-		::System::Int32 DividePlaces; // 0x2C
-		::System::Int32 Percents; // 0x30
-		::System::Int32 IntegerHeadSharpDigits; // 0x34
-		::System::Int32 Permilles; // 0x38
-		::System::Int32 ExponentTailSharpDigits; // 0x3C
+		::System::Boolean ExponentNegativeSignOnly; // 0x18
+		::System::Boolean UseGroup; // 0x19
+		::System::Boolean UseExponent; // 0x1A
+		::System::Int32 IntegerHeadPos; // 0x1C
+		::System::Int32 DecimalPointPos; // 0x20
+		::System::Int32 ExponentTailSharpDigits; // 0x24
+		::System::Int32 DecimalDigits; // 0x28
+		::System::Int32 IntegerDigits; // 0x2C
+		::System::Int32 DividePlaces; // 0x30
+		::System::Int32 Percents; // 0x34
+		::System::Int32 IntegerHeadSharpDigits; // 0x38
+		::System::Int32 Permilles; // 0x3C
 
 		::System::Void _ctor()
 		{

@@ -4,9 +4,9 @@
 
 namespace MoleMole { class UIGeneralTopCafeBuffDetailWidgetController; }
 
-#define CLASS_2_82E692415C3A4E10_CLASS_1_4BFD88CA6931108F__CTOR_OFFSET UNITYSDK_OFFSET(0x13492B20)
+#define CLASS_2_82E692415C3A4E10_CLASS_1_4BFD88CA6931108F__CTOR_OFFSET UNITYSDK_OFFSET(0x1669D090)
 
-inline static constexpr unsigned int Class_2_82E692415C3A4E10_Class_1_4BFD88CA6931108F_TypeDefinitionIndex = 83278;
+inline static constexpr unsigned int Class_2_82E692415C3A4E10_Class_1_4BFD88CA6931108F_TypeDefinitionIndex = 82050;
 
 class Class_2_82E692415C3A4E10_Class_1_4BFD88CA6931108F : public ::System::Object
 {

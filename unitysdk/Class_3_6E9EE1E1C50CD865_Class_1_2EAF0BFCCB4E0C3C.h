@@ -1,0 +1,61 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/MoleMole/EntityHandle.h"
+#include "unitysdk/Struct_2_29439DBE2B63DCF3.h"
+#include "unitysdk/System/Object.h"
+
+class Class_3_6E9EE1E1C50CD865;
+class Class_3_AF7A56E03A4D3952;
+
+#define CLASS_3_6E9EE1E1C50CD865_CLASS_1_2EAF0BFCCB4E0C3C_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x17A360C0)
+#define CLASS_3_6E9EE1E1C50CD865_CLASS_1_2EAF0BFCCB4E0C3C_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_SINGLE__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x17A36580)
+#define CLASS_3_6E9EE1E1C50CD865_CLASS_1_2EAF0BFCCB4E0C3C_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x17A365E0)
+#define CLASS_3_6E9EE1E1C50CD865_CLASS_1_2EAF0BFCCB4E0C3C_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x17A36590)
+#define CLASS_3_6E9EE1E1C50CD865_CLASS_1_2EAF0BFCCB4E0C3C_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x17A360B0)
+#define CLASS_3_6E9EE1E1C50CD865_CLASS_1_2EAF0BFCCB4E0C3C__CTOR_OFFSET UNITYSDK_OFFSET(0x17A360A0)
+
+inline static constexpr unsigned int Class_3_6E9EE1E1C50CD865_Class_1_2EAF0BFCCB4E0C3C_TypeDefinitionIndex = 83253;
+
+class Class_3_6E9EE1E1C50CD865_Class_1_2EAF0BFCCB4E0C3C : public ::System::Object
+{
+public:
+	::MoleMole::EntityHandle Field_1_10; // 0x10
+	::Class_3_6E9EE1E1C50CD865* Field_1_6; // 0x20
+	::Struct_2_29439DBE2B63DCF3 Field_1_7; // 0x28
+	::Class_3_AF7A56E03A4D3952* Field_1_9; // 0x50
+	::System::Single Field_1_0; // 0x58
+	::System::Boolean Field_1_5; // 0x5C
+	::System::Boolean Field_1_4; // 0x5D
+	::System::Boolean Field_1_11; // 0x5E
+	::System::Int32 Field_1_1; // 0x60
+
+	::System::Void _ctor(::System::Int32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_3_6E9EE1E1C50CD865_CLASS_1_2EAF0BFCCB4E0C3C__CTOR_OFFSET))(this, a1);
+	}
+
+	::System::Void System_IDisposable_Dispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_6E9EE1E1C50CD865_CLASS_1_2EAF0BFCCB4E0C3C_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET))(this);
+	}
+
+	::System::Boolean MoveNext()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_6E9EE1E1C50CD865_CLASS_1_2EAF0BFCCB4E0C3C_MOVENEXT_OFFSET))(this);
+	}
+
+	::System::Single System_Collections_Generic_IEnumerator_System_Single__get_Current()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_6E9EE1E1C50CD865_CLASS_1_2EAF0BFCCB4E0C3C_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_SINGLE__GET_CURRENT_OFFSET))(this);
+	}
+
+	::System::Void System_Collections_IEnumerator_Reset()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_6E9EE1E1C50CD865_CLASS_1_2EAF0BFCCB4E0C3C_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET))(this);
+	}
+
+	::System::Object* System_Collections_IEnumerator_get_Current()
+	{
+		return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_6E9EE1E1C50CD865_CLASS_1_2EAF0BFCCB4E0C3C_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET))(this);
+	}
+};

@@ -7,12 +7,12 @@
 
 namespace NPCCrowd::Ability { class NPCAbilityRuntimeData; }
 
-#define NPCCROWD_ABILITY_NPCABILITYAPPLYMOVEPLATFORMPROCESSOR_EXECUTE_OFFSET UNITYSDK_OFFSET(0xD92AEF0)
-#define NPCCROWD_ABILITY_NPCABILITYAPPLYMOVEPLATFORMPROCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0xD92B0F0)
+#define NPCCROWD_ABILITY_NPCABILITYAPPLYMOVEPLATFORMPROCESSOR_EXECUTE_OFFSET UNITYSDK_OFFSET(0xD883470)
+#define NPCCROWD_ABILITY_NPCABILITYAPPLYMOVEPLATFORMPROCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0xD883680)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int NPCAbilityApplyMovePlatformProcessor_TypeDefinitionIndex = 73173;
+	inline static constexpr unsigned int NPCAbilityApplyMovePlatformProcessor_TypeDefinitionIndex = 89005;
 
 	class NPCAbilityApplyMovePlatformProcessor : public ::System::Object
 	{

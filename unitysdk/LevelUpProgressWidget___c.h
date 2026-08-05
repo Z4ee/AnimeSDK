@@ -4,22 +4,22 @@
 
 namespace DG::Tweening { class TweenCallback; }
 
-#define LEVELUPPROGRESSWIDGET___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x138C2480)
-#define LEVELUPPROGRESSWIDGET___C__CTOR_OFFSET UNITYSDK_OFFSET(0x138C24C0)
-#define LEVELUPPROGRESSWIDGET___C__PROGRESSBARANIM_B__13_1_OFFSET UNITYSDK_OFFSET(0x138C24D0)
+#define LEVELUPPROGRESSWIDGET___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1509BD20)
+#define LEVELUPPROGRESSWIDGET___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1509BD60)
+#define LEVELUPPROGRESSWIDGET___C__PROGRESSBARANIM_B__13_1_OFFSET UNITYSDK_OFFSET(0x1509BD70)
 
-inline static constexpr unsigned int LevelUpProgressWidget___c_TypeDefinitionIndex = 83354;
+inline static constexpr unsigned int LevelUpProgressWidget___c_TypeDefinitionIndex = 90132;
 
 class LevelUpProgressWidget___c : public ::System::Object
 {
 public:
-	static ::LevelUpProgressWidget___c** StaticGet___9()
-	{
-		return (::LevelUpProgressWidget___c**)Il2CppClass::FromTypeDefinitionIndex(LevelUpProgressWidget___c_TypeDefinitionIndex)->GetStaticField(0x37070);
-	}
 	static ::DG::Tweening::TweenCallback** StaticGet___9__13_1()
 	{
-		return (::DG::Tweening::TweenCallback**)Il2CppClass::FromTypeDefinitionIndex(LevelUpProgressWidget___c_TypeDefinitionIndex)->GetStaticField(0x37078);
+		return (::DG::Tweening::TweenCallback**)Il2CppClass::FromTypeDefinitionIndex(LevelUpProgressWidget___c_TypeDefinitionIndex)->GetStaticField(0x39760);
+	}
+	static ::LevelUpProgressWidget___c** StaticGet___9()
+	{
+		return (::LevelUpProgressWidget___c**)Il2CppClass::FromTypeDefinitionIndex(LevelUpProgressWidget___c_TypeDefinitionIndex)->GetStaticField(0x39768);
 	}
 
 	static ::System::Void _cctor()

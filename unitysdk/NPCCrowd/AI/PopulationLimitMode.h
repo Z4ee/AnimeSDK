@@ -3,7 +3,7 @@
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int PopulationLimitMode_TypeDefinitionIndex = 49116;
+	inline static constexpr unsigned int PopulationLimitMode_TypeDefinitionIndex = 53835;
 
 	enum class PopulationLimitMode : ::System::Int32
 	{

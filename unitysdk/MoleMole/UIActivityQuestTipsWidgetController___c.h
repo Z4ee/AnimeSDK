@@ -4,24 +4,24 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UIACTIVITYQUESTTIPSWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18658470)
-#define MOLEMOLE_UIACTIVITYQUESTTIPSWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x186584B0)
-#define MOLEMOLE_UIACTIVITYQUESTTIPSWIDGETCONTROLLER___C__UPDATE_B__9_0_OFFSET UNITYSDK_OFFSET(0x186584C0)
+#define MOLEMOLE_UIACTIVITYQUESTTIPSWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B6F0180)
+#define MOLEMOLE_UIACTIVITYQUESTTIPSWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6F01C0)
+#define MOLEMOLE_UIACTIVITYQUESTTIPSWIDGETCONTROLLER___C__UPDATE_B__9_0_OFFSET UNITYSDK_OFFSET(0x1B6F01D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityQuestTipsWidgetController___c_TypeDefinitionIndex = 45112;
+	inline static constexpr unsigned int UIActivityQuestTipsWidgetController___c_TypeDefinitionIndex = 85734;
 
 	class UIActivityQuestTipsWidgetController___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::UIActivityQuestTipsWidgetController___c** StaticGet___9()
-		{
-			return (::MoleMole::UIActivityQuestTipsWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIActivityQuestTipsWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x39FD0);
-		}
 		static ::System::Action** StaticGet___9__9_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIActivityQuestTipsWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x39FD8);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIActivityQuestTipsWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3CD70);
+		}
+		static ::MoleMole::UIActivityQuestTipsWidgetController___c** StaticGet___9()
+		{
+			return (::MoleMole::UIActivityQuestTipsWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIActivityQuestTipsWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3CD78);
 		}
 
 		static ::System::Void _cctor()

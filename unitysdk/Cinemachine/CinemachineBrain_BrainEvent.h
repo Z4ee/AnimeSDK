@@ -4,11 +4,11 @@
 
 namespace Cinemachine { class CinemachineBrain; }
 
-#define CINEMACHINE_CINEMACHINEBRAIN_BRAINEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7AEB70)
+#define CINEMACHINE_CINEMACHINEBRAIN_BRAINEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB86FE0)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineBrain_BrainEvent_TypeDefinitionIndex = 34010;
+	inline static constexpr unsigned int CinemachineBrain_BrainEvent_TypeDefinitionIndex = 34646;
 
 	class CinemachineBrain_BrainEvent : public ::UnityEngine::Events::UnityEvent_1<::Cinemachine::CinemachineBrain*>
 	{

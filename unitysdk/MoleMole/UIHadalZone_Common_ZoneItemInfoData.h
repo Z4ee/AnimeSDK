@@ -4,11 +4,11 @@
 
 class Class_3_6E9568744155E92F;
 
-#define MOLEMOLE_UIHADALZONE_COMMON_ZONEITEMINFODATA__CTOR_OFFSET UNITYSDK_OFFSET(0x17784EA0)
+#define MOLEMOLE_UIHADALZONE_COMMON_ZONEITEMINFODATA__CTOR_OFFSET UNITYSDK_OFFSET(0x172FAA30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHadalZone_Common_ZoneItemInfoData_TypeDefinitionIndex = 83410;
+	inline static constexpr unsigned int UIHadalZone_Common_ZoneItemInfoData_TypeDefinitionIndex = 43792;
 
 	class UIHadalZone_Common_ZoneItemInfoData : public ::MoleMole::UIControllerContextBase
 	{
@@ -16,8 +16,8 @@ namespace MoleMole
 		::Class_3_6E9568744155E92F* entranceData; // 0x28
 		::System::Int32 entranceID; // 0x30
 		::System::Int32 curZoneID; // 0x34
-		::System::Boolean isValid; // 0x38
-		::System::Boolean isSelected; // 0x39
+		::System::Boolean isSelected; // 0x38
+		::System::Boolean isValid; // 0x39
 		::System::Boolean isLockButCanClick; // 0x3A
 
 		::System::Void _ctor()

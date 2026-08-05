@@ -7,7 +7,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace Foundation
 {
-	inline static constexpr unsigned int CustomEventAction_1_TypeDefinitionIndex = 7850;
+	inline static constexpr unsigned int CustomEventAction_1_TypeDefinitionIndex = 7848;
 
 	template <typename TKey1>
 	class CustomEventAction_1 : public ::Foundation::AbstractCustomEvent

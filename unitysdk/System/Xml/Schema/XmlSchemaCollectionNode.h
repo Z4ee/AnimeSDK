@@ -6,7 +6,7 @@ namespace System { class String; }
 namespace System::Xml::Schema { class SchemaInfo; }
 namespace System::Xml::Schema { class XmlSchema; }
 
-#define SYSTEM_XML_SCHEMA_XMLSCHEMACOLLECTIONNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DCEBEC0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMACOLLECTIONNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F10B480)
 
 namespace System::Xml::Schema
 {
@@ -15,9 +15,9 @@ namespace System::Xml::Schema
 	class XmlSchemaCollectionNode : public ::System::Object
 	{
 	public:
-		::System::String* namespaceUri; // 0x10
-		::System::Xml::Schema::SchemaInfo* schemaInfo; // 0x18
-		::System::Xml::Schema::XmlSchema* schema; // 0x20
+		::System::Xml::Schema::SchemaInfo* schemaInfo; // 0x10
+		::System::Xml::Schema::XmlSchema* schema; // 0x18
+		::System::String* namespaceUri; // 0x20
 
 		::System::Void _ctor()
 		{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_CONFIG_CONFIGSHOOTINGGROUNDSPREAD__CTOR_OFFSET UNITYSDK_OFFSET(0x144E40F0)
+#define MOLEMOLE_CONFIG_CONFIGSHOOTINGGROUNDSPREAD__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD61260)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigShootingGroundSpread_TypeDefinitionIndex = 47173;
+	inline static constexpr unsigned int ConfigShootingGroundSpread_TypeDefinitionIndex = 86024;
 
 	class ConfigShootingGroundSpread : public ::System::Object
 	{

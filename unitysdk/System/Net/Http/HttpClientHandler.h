@@ -15,39 +15,39 @@ namespace System::Net::Http { class HttpRequestMessage; }
 namespace System::Net::Http { class HttpResponseMessage; }
 namespace System::Threading::Tasks { template <typename T> class Task_1; }
 
-#define SYSTEM_NET_HTTP_HTTPCLIENTHANDLER_CREATERESPONSEMESSAGE_OFFSET UNITYSDK_OFFSET(0x1D497DF0)
-#define SYSTEM_NET_HTTP_HTTPCLIENTHANDLER_CREATEWEBREQUEST_OFFSET UNITYSDK_OFFSET(0x1D4972D0)
-#define SYSTEM_NET_HTTP_HTTPCLIENTHANDLER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1D497250)
-#define SYSTEM_NET_HTTP_HTTPCLIENTHANDLER_GET_COOKIECONTAINER_OFFSET UNITYSDK_OFFSET(0x1D4971F0)
-#define SYSTEM_NET_HTTP_HTTPCLIENTHANDLER_METHODHASBODY_OFFSET UNITYSDK_OFFSET(0x1D498300)
-#define SYSTEM_NET_HTTP_HTTPCLIENTHANDLER_SENDASYNC_OFFSET UNITYSDK_OFFSET(0x1D498430)
-#define SYSTEM_NET_HTTP_HTTPCLIENTHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4958B0)
+#define SYSTEM_NET_HTTP_HTTPCLIENTHANDLER_CREATERESPONSEMESSAGE_OFFSET UNITYSDK_OFFSET(0x1E84C050)
+#define SYSTEM_NET_HTTP_HTTPCLIENTHANDLER_CREATEWEBREQUEST_OFFSET UNITYSDK_OFFSET(0x1E84B520)
+#define SYSTEM_NET_HTTP_HTTPCLIENTHANDLER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1E84B4A0)
+#define SYSTEM_NET_HTTP_HTTPCLIENTHANDLER_GET_COOKIECONTAINER_OFFSET UNITYSDK_OFFSET(0x1E84B440)
+#define SYSTEM_NET_HTTP_HTTPCLIENTHANDLER_METHODHASBODY_OFFSET UNITYSDK_OFFSET(0x1E84C540)
+#define SYSTEM_NET_HTTP_HTTPCLIENTHANDLER_SENDASYNC_OFFSET UNITYSDK_OFFSET(0x1E84C680)
+#define SYSTEM_NET_HTTP_HTTPCLIENTHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E849A00)
 
 namespace System::Net::Http
 {
-	inline static constexpr unsigned int HttpClientHandler_TypeDefinitionIndex = 26108;
+	inline static constexpr unsigned int HttpClientHandler_TypeDefinitionIndex = 26681;
 
 	class HttpClientHandler : public ::System::Net::Http::HttpMessageHandler
 	{
 	public:
 		static ::System::Int64* StaticGet_groupCounter()
 		{
-			return (::System::Int64*)Il2CppClass::FromTypeDefinitionIndex(HttpClientHandler_TypeDefinitionIndex)->GetStaticField(0x4780);
+			return (::System::Int64*)Il2CppClass::FromTypeDefinitionIndex(HttpClientHandler_TypeDefinitionIndex)->GetStaticField(0x47B0);
 		}
 		::System::Net::ICredentials* credentials; // 0x10
 		::System::String* connectionGroupName; // 0x18
 		::System::Net::CookieContainer* cookieContainer; // 0x20
 		::System::Net::IWebProxy* proxy; // 0x28
 		::System::Int32 maxAutomaticRedirections; // 0x30
-		::System::Boolean useDefaultCredentials; // 0x34
+		::System::Boolean disposed; // 0x34
 		::System::Boolean useProxy; // 0x35
-		::System::Boolean allowAutoRedirect; // 0x36
-		::System::Boolean preAuthenticate; // 0x37
-		::System::Boolean useCookies; // 0x38
-		::System::Boolean sentRequest; // 0x39
-		::System::Boolean disposed; // 0x3A
-		::System::Net::DecompressionMethods automaticDecompression; // 0x3C
-		::System::Int64 maxRequestContentBufferSize; // 0x40
+		::System::Boolean useCookies; // 0x36
+		::System::Boolean allowAutoRedirect; // 0x37
+		::System::Int64 maxRequestContentBufferSize; // 0x38
+		::System::Net::DecompressionMethods automaticDecompression; // 0x40
+		::System::Boolean preAuthenticate; // 0x44
+		::System::Boolean useDefaultCredentials; // 0x45
+		::System::Boolean sentRequest; // 0x46
 
 		::System::Void _ctor()
 		{

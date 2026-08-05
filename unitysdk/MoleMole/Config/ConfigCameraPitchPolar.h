@@ -10,28 +10,28 @@
 class Class_1_236FD73ABC492E3F;
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGCAMERAPITCHPOLAR_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1AA4BA60)
-#define MOLEMOLE_CONFIG_CONFIGCAMERAPITCHPOLAR_FROMFLX_OFFSET UNITYSDK_OFFSET(0x1AA4AC90)
-#define MOLEMOLE_CONFIG_CONFIGCAMERAPITCHPOLAR_INTERNALFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1AA4BAC0)
-#define MOLEMOLE_CONFIG_CONFIGCAMERAPITCHPOLAR_INTERNALFROMFLX_OFFSET UNITYSDK_OFFSET(0x1AA4AD10)
-#define MOLEMOLE_CONFIG_CONFIGCAMERAPITCHPOLAR__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA4BEE0)
+#define MOLEMOLE_CONFIG_CONFIGCAMERAPITCHPOLAR_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1146C180)
+#define MOLEMOLE_CONFIG_CONFIGCAMERAPITCHPOLAR_FROMFLX_OFFSET UNITYSDK_OFFSET(0x1146B3A0)
+#define MOLEMOLE_CONFIG_CONFIGCAMERAPITCHPOLAR_INTERNALFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1146C1E0)
+#define MOLEMOLE_CONFIG_CONFIGCAMERAPITCHPOLAR_INTERNALFROMFLX_OFFSET UNITYSDK_OFFSET(0x1146B420)
+#define MOLEMOLE_CONFIG_CONFIGCAMERAPITCHPOLAR__CTOR_OFFSET UNITYSDK_OFFSET(0x1146C600)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigCameraPitchPolar_TypeDefinitionIndex = 84144;
+	inline static constexpr unsigned int ConfigCameraPitchPolar_TypeDefinitionIndex = 64667;
 
 	class ConfigCameraPitchPolar : public ::System::Object
 	{
 	public:
 		::System::String* StartCurveKey; // 0x10
-		::MoleMole::Config::ValueVariationType FovVariationType; // 0x18
-		::System::Single StartTime; // 0x1C
+		::System::Boolean IngoreTimeScale; // 0x18
+		::System::Boolean IgnoreLocalAvatar; // 0x19
+		::MoleMole::Config::ValueVariationType FovVariationType; // 0x1C
 		::MoleMole::Config::ConfigDataPriority DataPriority; // 0x20
-		::System::Boolean IngoreTimeScale; // 0x24
-		::System::Boolean IgnoreLocalAvatar; // 0x25
-		::MoleMole::Config::CameraConfigDataStacking StackingType; // 0x28
-		::System::Single PolarOffsetAngle; // 0x2C
-		::System::Single ElevationAngle; // 0x30
+		::System::Single PolarOffsetAngle; // 0x24
+		::System::Single StartTime; // 0x28
+		::System::Single ElevationAngle; // 0x2C
+		::MoleMole::Config::CameraConfigDataStacking StackingType; // 0x30
 
 		::System::Void _ctor()
 		{

@@ -5,12 +5,12 @@
 namespace MoleMole { class UIABInLevelCampInfoWidgetController; }
 namespace MoleMole { class UIABInLevelGeneralWidgetController___c__DisplayClass21_0; }
 
-#define MOLEMOLE_UIABINLEVELGENERALWIDGETCONTROLLER___C__DISPLAYCLASS21_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1643A590)
-#define MOLEMOLE_UIABINLEVELGENERALWIDGETCONTROLLER___C__DISPLAYCLASS21_1__TOGGLECAMPINFO_B__0_OFFSET UNITYSDK_OFFSET(0x1643A5A0)
+#define MOLEMOLE_UIABINLEVELGENERALWIDGETCONTROLLER___C__DISPLAYCLASS21_1__CTOR_OFFSET UNITYSDK_OFFSET(0x180AD3E0)
+#define MOLEMOLE_UIABINLEVELGENERALWIDGETCONTROLLER___C__DISPLAYCLASS21_1__TOGGLECAMPINFO_B__0_OFFSET UNITYSDK_OFFSET(0x180AD3F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIABInLevelGeneralWidgetController___c__DisplayClass21_1_TypeDefinitionIndex = 77161;
+	inline static constexpr unsigned int UIABInLevelGeneralWidgetController___c__DisplayClass21_1_TypeDefinitionIndex = 68006;
 
 	class UIABInLevelGeneralWidgetController___c__DisplayClass21_1 : public ::System::Object
 	{

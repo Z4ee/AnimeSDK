@@ -5,7 +5,7 @@ template <typename T> class Class_0_16E4307DCC41950C;
 
 namespace Share
 {
-	inline static constexpr unsigned int IPropertyOperatorHelper_1_TypeDefinitionIndex = 11024;
+	inline static constexpr unsigned int IPropertyOperatorHelper_1_TypeDefinitionIndex = 10821;
 
 	template <typename T>
 	class IPropertyOperatorHelper_1

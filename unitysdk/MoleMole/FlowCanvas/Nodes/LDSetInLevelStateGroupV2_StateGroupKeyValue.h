@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSETINLEVELSTATEGROUPV2_STATEGROUPKEYVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x19123EF0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSETINLEVELSTATEGROUPV2_STATEGROUPKEYVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x19DB6CC0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDSetInLevelStateGroupV2_StateGroupKeyValue_TypeDefinitionIndex = 83784;
+	inline static constexpr unsigned int LDSetInLevelStateGroupV2_StateGroupKeyValue_TypeDefinitionIndex = 75465;
 
 	class LDSetInLevelStateGroupV2_StateGroupKeyValue : public ::System::Object
 	{

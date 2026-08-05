@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CLOTHRENDERERS__CTOR_OFFSET UNITYSDK_OFFSET(0xE9584D0)
+#define MOLEMOLE_CLOTHRENDERERS__CTOR_OFFSET UNITYSDK_OFFSET(0xF12C820)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ClothRenderers_TypeDefinitionIndex = 47157;
+	inline static constexpr unsigned int ClothRenderers_TypeDefinitionIndex = 62192;
 
 	class ClothRenderers : public ::System::Object
 	{

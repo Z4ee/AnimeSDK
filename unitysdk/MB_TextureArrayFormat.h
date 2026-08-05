@@ -6,9 +6,9 @@
 
 namespace System { class String; }
 
-#define MB_TEXTUREARRAYFORMAT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E058D40)
+#define MB_TEXTUREARRAYFORMAT__CTOR_OFFSET UNITYSDK_OFFSET(0x1F4368E0)
 
-inline static constexpr unsigned int MB_TextureArrayFormat_TypeDefinitionIndex = 90526;
+inline static constexpr unsigned int MB_TextureArrayFormat_TypeDefinitionIndex = 94459;
 
 class MB_TextureArrayFormat : public ::System::Object
 {

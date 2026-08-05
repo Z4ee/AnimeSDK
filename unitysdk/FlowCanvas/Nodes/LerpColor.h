@@ -4,12 +4,12 @@
 #include "unitysdk/ParadoxNotion/Animation/EaseType.h"
 #include "unitysdk/UnityEngine/Color.h"
 
-#define FLOWCANVAS_NODES_LERPCOLOR_INVOKE_OFFSET UNITYSDK_OFFSET(0x1D401CC0)
-#define FLOWCANVAS_NODES_LERPCOLOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1D401D90)
+#define FLOWCANVAS_NODES_LERPCOLOR_INVOKE_OFFSET UNITYSDK_OFFSET(0x1E7A7380)
+#define FLOWCANVAS_NODES_LERPCOLOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7A7450)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LerpColor_TypeDefinitionIndex = 30041;
+	inline static constexpr unsigned int LerpColor_TypeDefinitionIndex = 29968;
 
 	class LerpColor : public ::FlowCanvas::Nodes::PureFunctionNode_5<::UnityEngine::Color, ::UnityEngine::Color, ::UnityEngine::Color, ::System::Single, ::ParadoxNotion::Animation::EaseType>
 	{

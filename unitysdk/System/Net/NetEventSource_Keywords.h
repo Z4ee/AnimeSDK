@@ -3,7 +3,7 @@
 #include "unitysdk/System/Diagnostics/Tracing/EventKeywords.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_NET_NETEVENTSOURCE_KEYWORDS__CTOR_OFFSET UNITYSDK_OFFSET(0x1C89B7C0)
+#define SYSTEM_NET_NETEVENTSOURCE_KEYWORDS__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD21D40)
 
 namespace System::Net
 {

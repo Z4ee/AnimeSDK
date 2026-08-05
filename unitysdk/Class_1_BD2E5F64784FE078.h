@@ -10,26 +10,26 @@ class Class_1_4ED21A115C97704D;
 namespace MoleMole::Config { class DynamicFloat; }
 namespace MoleMole::Config { class DynamicString; }
 
-#define CLASS_1_BD2E5F64784FE078_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x114B2650)
-#define CLASS_1_BD2E5F64784FE078_FROMFLX_OFFSET UNITYSDK_OFFSET(0x114B2AF0)
-#define CLASS_1_BD2E5F64784FE078_METHOD_1_0578713EDB32B89E_OFFSET UNITYSDK_OFFSET(0x114B2B70)
-#define CLASS_1_BD2E5F64784FE078_METHOD_1_6A03C0134352525C_OFFSET UNITYSDK_OFFSET(0x114B26B0)
-#define CLASS_1_BD2E5F64784FE078__CTOR_OFFSET UNITYSDK_OFFSET(0x114B3A50)
+#define CLASS_1_BD2E5F64784FE078_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16794960)
+#define CLASS_1_BD2E5F64784FE078_FROMFLX_OFFSET UNITYSDK_OFFSET(0x16794E00)
+#define CLASS_1_BD2E5F64784FE078_METHOD_1_0578713EDB32B89E_OFFSET UNITYSDK_OFFSET(0x16794E80)
+#define CLASS_1_BD2E5F64784FE078_METHOD_1_6A03C0134352525C_OFFSET UNITYSDK_OFFSET(0x167949C0)
+#define CLASS_1_BD2E5F64784FE078__CTOR_OFFSET UNITYSDK_OFFSET(0x16795D40)
 
-inline static constexpr unsigned int Class_1_BD2E5F64784FE078_TypeDefinitionIndex = 47677;
+inline static constexpr unsigned int Class_1_BD2E5F64784FE078_TypeDefinitionIndex = 54420;
 
 class Class_1_BD2E5F64784FE078 : public ::System::Object
 {
 public:
-	::Class_1_4ED21A115C97704D* Field_1_4; // 0x10
-	::Class_1_4ED21A115C97704D* Field_1_6; // 0x18
-	::Class_1_4ED21A115C97704D* Field_1_3; // 0x20
-	::Class_1_4ED21A115C97704D* Field_1_7; // 0x28
-	::MoleMole::Config::DynamicFloat* Field_1_8; // 0x30
-	::MoleMole::Config::DynamicString* Field_1_0; // 0x38
+	::MoleMole::Config::DynamicFloat* Field_1_1; // 0x10
+	::MoleMole::Config::DynamicFloat* Field_1_11; // 0x18
+	::Class_1_4ED21A115C97704D* Field_1_4; // 0x20
+	::Class_1_4ED21A115C97704D* Field_1_0; // 0x28
+	::MoleMole::Config::DynamicString* Field_1_3; // 0x30
+	::Class_1_4ED21A115C97704D* Field_1_7; // 0x38
 	::Class_1_4ED21A115C97704D* Field_1_5; // 0x40
-	::MoleMole::Config::DynamicFloat* Field_1_2; // 0x48
-	::MoleMole::Config::AbilityTargetting Field_1_1; // 0x50
+	::Class_1_4ED21A115C97704D* Field_1_6; // 0x48
+	::MoleMole::Config::AbilityTargetting Field_1_2; // 0x50
 
 	::System::Void _ctor()
 	{

@@ -7,7 +7,7 @@ namespace UnityEngine { class Material; }
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int MB3_TextureCombinerNonTextureProperties_MaterialPropertyValueAveraged_TypeDefinitionIndex = 90712;
+	inline static constexpr unsigned int MB3_TextureCombinerNonTextureProperties_MaterialPropertyValueAveraged_TypeDefinitionIndex = 94645;
 
 	class MB3_TextureCombinerNonTextureProperties_MaterialPropertyValueAveraged
 	{

@@ -6,14 +6,14 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class ParticleSystem; }
 
-#define MOLEMOLE_MONOLEVELDOORFXAUTOLAYOUT_METHOD_5_2CBE0B79DD36047E_OFFSET UNITYSDK_OFFSET(0x1916BFE0)
-#define MOLEMOLE_MONOLEVELDOORFXAUTOLAYOUT_METHOD_5_86365E2EC5AEA470_OFFSET UNITYSDK_OFFSET(0x1916D540)
-#define MOLEMOLE_MONOLEVELDOORFXAUTOLAYOUT_METHOD_5_87DFC1E9DCDE3B23_OFFSET UNITYSDK_OFFSET(0x1916D2B0)
-#define MOLEMOLE_MONOLEVELDOORFXAUTOLAYOUT__CTOR_OFFSET UNITYSDK_OFFSET(0x1916BF70)
+#define MOLEMOLE_MONOLEVELDOORFXAUTOLAYOUT_METHOD_5_2CBE0B79DD36047E_OFFSET UNITYSDK_OFFSET(0x118FFD90)
+#define MOLEMOLE_MONOLEVELDOORFXAUTOLAYOUT_METHOD_5_86365E2EC5AEA470_OFFSET UNITYSDK_OFFSET(0x118FFC90)
+#define MOLEMOLE_MONOLEVELDOORFXAUTOLAYOUT_METHOD_5_87DFC1E9DCDE3B23_OFFSET UNITYSDK_OFFSET(0x118FFA00)
+#define MOLEMOLE_MONOLEVELDOORFXAUTOLAYOUT__CTOR_OFFSET UNITYSDK_OFFSET(0x118FF990)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoLevelDoorFxAutoLayout_TypeDefinitionIndex = 66805;
+	inline static constexpr unsigned int MonoLevelDoorFxAutoLayout_TypeDefinitionIndex = 90602;
 
 	class MonoLevelDoorFxAutoLayout : public ::UnityEngine::MonoBehaviour
 	{
@@ -34,9 +34,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOLEVELDOORFXAUTOLAYOUT__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_5_2CBE0B79DD36047E()
+		::UnityEngine::GameObject* Method_5_87DFC1E9DCDE3B23(::UnityEngine::GameObject* a1, ::UnityEngine::Vector3 a2)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOLEVELDOORFXAUTOLAYOUT_METHOD_5_2CBE0B79DD36047E_OFFSET))(this);
+			return ((::UnityEngine::GameObject*(*)(::PVOID, ::UnityEngine::GameObject*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOLEVELDOORFXAUTOLAYOUT_METHOD_5_87DFC1E9DCDE3B23_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Method_5_86365E2EC5AEA470(::UnityEngine::ParticleSystem* a1, ::System::Int32 a2)
@@ -44,9 +44,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::ParticleSystem*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOLEVELDOORFXAUTOLAYOUT_METHOD_5_86365E2EC5AEA470_OFFSET))(this, a1, a2);
 		}
 
-		::UnityEngine::GameObject* Method_5_87DFC1E9DCDE3B23(::UnityEngine::GameObject* a1, ::UnityEngine::Vector3 a2)
+		::System::Void Method_5_2CBE0B79DD36047E()
 		{
-			return ((::UnityEngine::GameObject*(*)(::PVOID, ::UnityEngine::GameObject*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOLEVELDOORFXAUTOLAYOUT_METHOD_5_87DFC1E9DCDE3B23_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOLEVELDOORFXAUTOLAYOUT_METHOD_5_2CBE0B79DD36047E_OFFSET))(this);
 		}
 	};
 }

@@ -9,28 +9,28 @@ class Class_3_F33F9DC5F4112336;
 namespace MoleMole { class SharedGameEntity; }
 namespace MoleMole::Battle { class Entity; }
 
-#define MOLEMOLE_TRIGGERSKILL_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x191961A0)
-#define MOLEMOLE_TRIGGERSKILL_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x191964B0)
-#define MOLEMOLE_TRIGGERSKILL_UPDATESKILLINFO_OFFSET UNITYSDK_OFFSET(0x19196720)
-#define MOLEMOLE_TRIGGERSKILL__CTOR_OFFSET UNITYSDK_OFFSET(0x19196790)
-#define MOLEMOLE_TRIGGERSKILL___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x19196820)
-#define MOLEMOLE_TRIGGERSKILL___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x191968B0)
+#define MOLEMOLE_TRIGGERSKILL_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x1B6CDAE0)
+#define MOLEMOLE_TRIGGERSKILL_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1B6CDDF0)
+#define MOLEMOLE_TRIGGERSKILL_UPDATESKILLINFO_OFFSET UNITYSDK_OFFSET(0x1B6CE060)
+#define MOLEMOLE_TRIGGERSKILL__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6CE0D0)
+#define MOLEMOLE_TRIGGERSKILL___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x1B6CE160)
+#define MOLEMOLE_TRIGGERSKILL___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1B6CE1F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int TriggerSkill_TypeDefinitionIndex = 66620;
+	inline static constexpr unsigned int TriggerSkill_TypeDefinitionIndex = 83924;
 
 	class TriggerSkill : public ::BehaviorDesigner::Runtime::Tasks::Action
 	{
 	public:
-		::MoleMole::SharedGameEntity* sharedOwnerEntity; // 0x58
+		::MoleMole::Battle::Entity* _ownerEntity; // 0x58
 		::Class_3_3B42BC0680587011* _localInputComponent; // 0x60
-		::Class_3_F33F9DC5F4112336* _animatorComponent; // 0x68
-		::Class_3_B9D5951434CC70FD* _skillComponent; // 0x70
-		::MoleMole::Battle::Entity* _ownerEntity; // 0x78
-		::System::Boolean forceUpdateCD; // 0x80
-		::System::Boolean forceTriggerSkill; // 0x81
-		::System::Int32 skillBtnIndex; // 0x84
+		::Class_3_B9D5951434CC70FD* _skillComponent; // 0x68
+		::Class_3_F33F9DC5F4112336* _animatorComponent; // 0x70
+		::MoleMole::SharedGameEntity* sharedOwnerEntity; // 0x78
+		::System::Int32 skillBtnIndex; // 0x80
+		::System::Boolean forceUpdateCD; // 0x84
+		::System::Boolean forceTriggerSkill; // 0x85
 
 		::System::Void _ctor()
 		{

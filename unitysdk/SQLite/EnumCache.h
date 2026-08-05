@@ -6,19 +6,19 @@ namespace SQLite { class EnumCacheInfo; }
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define SQLITE_ENUMCACHE_GETINFO_OFFSET UNITYSDK_OFFSET(0x1D6326B0)
-#define SQLITE_ENUMCACHE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D632F70)
+#define SQLITE_ENUMCACHE_GETINFO_OFFSET UNITYSDK_OFFSET(0x1E9FA670)
+#define SQLITE_ENUMCACHE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E9FAE10)
 
 namespace SQLite
 {
-	inline static constexpr unsigned int EnumCache_TypeDefinitionIndex = 38402;
+	inline static constexpr unsigned int EnumCache_TypeDefinitionIndex = 39063;
 
 	class EnumCache : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::SQLite::EnumCacheInfo*>** StaticGet_Cache()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::SQLite::EnumCacheInfo*>**)Il2CppClass::FromTypeDefinitionIndex(EnumCache_TypeDefinitionIndex)->GetStaticField(0x28F50);
+			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::SQLite::EnumCacheInfo*>**)Il2CppClass::FromTypeDefinitionIndex(EnumCache_TypeDefinitionIndex)->GetStaticField(0x2A880);
 		}
 
 		static ::System::Void _cctor()

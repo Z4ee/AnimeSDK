@@ -17,11 +17,12 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CONFIGUICOMMON_PERFORMANCE__CTOR_OFFSET UNITYSDK_OFFSET(0x17E49670)
+#define MOLEMOLE_CONFIGUICOMMON_PERFORMANCE_TRYGETITEMRTROTATESPEED_OFFSET UNITYSDK_OFFSET(0x19BB9A10)
+#define MOLEMOLE_CONFIGUICOMMON_PERFORMANCE__CTOR_OFFSET UNITYSDK_OFFSET(0x19BB9AC0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUICommon_Performance_TypeDefinitionIndex = 43115;
+	inline static constexpr unsigned int ConfigUICommon_Performance_TypeDefinitionIndex = 59012;
 
 	class ConfigUICommon_Performance : public ::Foundation::MihoyoSerializedScriptableObject
 	{
@@ -63,57 +64,63 @@ namespace MoleMole
 		::System::Single WeaponRTTriggerPerformRotateAngle; // 0x198
 		::System::Int32 ZhenzhenSpecialWeaponItemID; // 0x19C
 		::System::Single ZhenzhenWeaponRootRotateSpeed; // 0x1A0
-		::System::Single ToPageFadeInTime; // 0x1A4
-		::System::Single SkipTime; // 0x1A8
-		::System::Single GamepadSliderPressSpeedUpMaxSpeedRatio; // 0x1AC
-		::System::Single GamepadSliderPressSpeedUpStartTime; // 0x1B0
-		::System::Single GamepadSliderPressSpeedUpReachMaxSpeedTime; // 0x1B4
-		::UnityEngine::AnimationCurve* GamepadSliderPressSpeedUpAnimationCurve; // 0x1B8
-		::System::Single GamepadSliderPressSpeedUpResetTimerMaxTime; // 0x1C0
-		::System::Collections::Generic::Dictionary_2<::MoleMole::InputLogicEventType, ::System::Int32>* MainCityLogicInputAccessDict; // 0x1C8
-		::System::String* ManualQTEOffVideoPath; // 0x1D0
-		::System::String* ManualQTEOnVideoPath; // 0x1D8
-		::System::String* MainQuestDifficultyNormalImagePath; // 0x1E0
-		::System::String* MainQuestDifficultyChallengeImagePath; // 0x1E8
-		::System::Single GeneralSmallTipsLifeTime; // 0x1F0
-		::System::Single MaskWaitTime; // 0x1F4
-		::System::Single InLevelVirtualJoystickFadeOutDelayTime; // 0x1F8
-		::System::String* infoBox; // 0x200
-		::System::Single DirectionSkillPhaseChangeCDTime; // 0x208
-		::System::Single DirectionSkillDirectionChangeCDTime; // 0x20C
-		::Foundation::AssetPath DirectionSkillUpBtnIconPath; // 0x210
-		::Foundation::AssetPath DirectionSkillDownBtnIconPath; // 0x220
-		::Foundation::AssetPath DirectionSkillLeftBtnIconPath; // 0x230
-		::Foundation::AssetPath DirectionSkillRightBtnIconPath; // 0x240
-		::System::Single DirectionSkillUpHoldTime; // 0x250
-		::System::Single DirectionSkillDownHoldTime; // 0x254
-		::System::Single DirectionSkillLeftHoldTime; // 0x258
-		::System::Single DirectionSkillRightHoldTime; // 0x25C
-		::Foundation::AssetPath DirectionSkillButtonSelectProgressMatPath; // 0x260
-		::Foundation::AssetPath SupportAttackBtnIconPath; // 0x270
-		::Foundation::AssetPath RemielleSupportAttackBtnIconPath; // 0x280
-		::Foundation::AssetPath ForbiddenAreaSwordBtnIconPath; // 0x290
-		::Foundation::AssetPath GoldenBangbooCommonBtnIconPath; // 0x2A0
-		::System::Single HudDynamicOffsetYSpeed; // 0x2B0
-		::System::Single HudDynamicOffsetThresholdY; // 0x2B4
-		::System::Single HudDynamicOffsetXSpeed; // 0x2B8
-		::System::Single HudDynamicOffsetThresholdX; // 0x2BC
-		::System::Single ShieldHudDynamicOffsetYSpeed; // 0x2C0
-		::System::Single ShieldHudDynamicOffsetThresholdY; // 0x2C4
-		::System::Single ShieldHudDynamicOffsetXSpeed; // 0x2C8
-		::System::Single ShieldHudDynamicOffsetThresholdX; // 0x2CC
-		::System::Int32 MalePhoneDelay; // 0x2D0
-		::System::Int32 FemalePhoneDelay; // 0x2D4
-		::MoleMole::ConfigMobileSetting* ConfigMobileSetting; // 0x2D8
-		::MoleMole::ConfigWeakPanel* ConfigWeakPanel; // 0x2E0
-		::Foundation::AssetPath HitBackAttackCommonBtnIconPath; // 0x2E8
-		::System::String* HitBackAttackCommonBtnReadyMaterialPath; // 0x2F8
-		::System::String* HitBackAttackCommonBtnCoolDownMaterialPath; // 0x300
-		::MoleMole::ConfigSummerMainPageGyro* ConfigSummerMainPageGyro; // 0x308
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Single>* ItemRTRotateSpeedMap; // 0x1A8
+		::System::Single ToPageFadeInTime; // 0x1B0
+		::System::Single SkipTime; // 0x1B4
+		::System::Single GamepadSliderPressSpeedUpMaxSpeedRatio; // 0x1B8
+		::System::Single GamepadSliderPressSpeedUpStartTime; // 0x1BC
+		::System::Single GamepadSliderPressSpeedUpReachMaxSpeedTime; // 0x1C0
+		::UnityEngine::AnimationCurve* GamepadSliderPressSpeedUpAnimationCurve; // 0x1C8
+		::System::Single GamepadSliderPressSpeedUpResetTimerMaxTime; // 0x1D0
+		::System::Collections::Generic::Dictionary_2<::MoleMole::InputLogicEventType, ::System::Int32>* MainCityLogicInputAccessDict; // 0x1D8
+		::System::String* ManualQTEOffVideoPath; // 0x1E0
+		::System::String* ManualQTEOnVideoPath; // 0x1E8
+		::System::String* MainQuestDifficultyNormalImagePath; // 0x1F0
+		::System::String* MainQuestDifficultyChallengeImagePath; // 0x1F8
+		::System::Single GeneralSmallTipsLifeTime; // 0x200
+		::System::Single MaskWaitTime; // 0x204
+		::System::Single InLevelVirtualJoystickFadeOutDelayTime; // 0x208
+		::System::String* infoBox; // 0x210
+		::System::Single DirectionSkillPhaseChangeCDTime; // 0x218
+		::System::Single DirectionSkillDirectionChangeCDTime; // 0x21C
+		::Foundation::AssetPath DirectionSkillUpBtnIconPath; // 0x220
+		::Foundation::AssetPath DirectionSkillDownBtnIconPath; // 0x230
+		::Foundation::AssetPath DirectionSkillLeftBtnIconPath; // 0x240
+		::Foundation::AssetPath DirectionSkillRightBtnIconPath; // 0x250
+		::System::Single DirectionSkillUpHoldTime; // 0x260
+		::System::Single DirectionSkillDownHoldTime; // 0x264
+		::System::Single DirectionSkillLeftHoldTime; // 0x268
+		::System::Single DirectionSkillRightHoldTime; // 0x26C
+		::Foundation::AssetPath DirectionSkillButtonSelectProgressMatPath; // 0x270
+		::Foundation::AssetPath SupportAttackBtnIconPath; // 0x280
+		::Foundation::AssetPath RemielleSupportAttackBtnIconPath; // 0x290
+		::Foundation::AssetPath ForbiddenAreaSwordBtnIconPath; // 0x2A0
+		::Foundation::AssetPath GoldenBangbooCommonBtnIconPath; // 0x2B0
+		::System::Single HudDynamicOffsetYSpeed; // 0x2C0
+		::System::Single HudDynamicOffsetThresholdY; // 0x2C4
+		::System::Single HudDynamicOffsetXSpeed; // 0x2C8
+		::System::Single HudDynamicOffsetThresholdX; // 0x2CC
+		::System::Single ShieldHudDynamicOffsetYSpeed; // 0x2D0
+		::System::Single ShieldHudDynamicOffsetThresholdY; // 0x2D4
+		::System::Single ShieldHudDynamicOffsetXSpeed; // 0x2D8
+		::System::Single ShieldHudDynamicOffsetThresholdX; // 0x2DC
+		::System::Int32 MalePhoneDelay; // 0x2E0
+		::System::Int32 FemalePhoneDelay; // 0x2E4
+		::MoleMole::ConfigMobileSetting* ConfigMobileSetting; // 0x2E8
+		::MoleMole::ConfigWeakPanel* ConfigWeakPanel; // 0x2F0
+		::Foundation::AssetPath HitBackAttackCommonBtnIconPath; // 0x2F8
+		::System::String* HitBackAttackCommonBtnReadyMaterialPath; // 0x308
+		::System::String* HitBackAttackCommonBtnCoolDownMaterialPath; // 0x310
+		::MoleMole::ConfigSummerMainPageGyro* ConfigSummerMainPageGyro; // 0x318
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGUICOMMON_PERFORMANCE__CTOR_OFFSET))(this);
+		}
+
+		::System::Boolean TryGetItemRTRotateSpeed(::System::Int32 itemID, ::System::Single& rotateSpeed)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::System::Single&))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGUICOMMON_PERFORMANCE_TRYGETITEMRTROTATESPEED_OFFSET))(this, itemID, rotateSpeed);
 		}
 	};
 }

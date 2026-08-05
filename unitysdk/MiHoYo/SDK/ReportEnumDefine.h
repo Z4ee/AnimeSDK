@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MIHOYO_SDK_REPORTENUMDEFINE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF12800)
+#define MIHOYO_SDK_REPORTENUMDEFINE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D283EF0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ReportEnumDefine_TypeDefinitionIndex = 36870;
+	inline static constexpr unsigned int ReportEnumDefine_TypeDefinitionIndex = 37531;
 
 	class ReportEnumDefine : public ::System::Object
 	{

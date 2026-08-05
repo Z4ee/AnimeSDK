@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace Sirenix::Utilities
 {
-	inline static constexpr unsigned int GarbageFreeIterators_DictionaryIterator_2_TypeDefinitionIndex = 6443;
+	inline static constexpr unsigned int GarbageFreeIterators_DictionaryIterator_2_TypeDefinitionIndex = 6447;
 
 	template <typename T1, typename T2>
 	struct GarbageFreeIterators_DictionaryIterator_2

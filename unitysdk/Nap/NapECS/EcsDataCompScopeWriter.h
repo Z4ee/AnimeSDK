@@ -4,12 +4,12 @@
 
 namespace Nap::NapECS { class EcsEntity; }
 
-#define NAP_NAPECS_ECSDATACOMPSCOPEWRITER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x90D4B0)
-#define NAP_NAPECS_ECSDATACOMPSCOPEWRITER__CTOR_OFFSET UNITYSDK_OFFSET(0x90D4A0)
+#define NAP_NAPECS_ECSDATACOMPSCOPEWRITER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x95BCB0)
+#define NAP_NAPECS_ECSDATACOMPSCOPEWRITER__CTOR_OFFSET UNITYSDK_OFFSET(0x95BCA0)
 
 namespace Nap::NapECS
 {
-	inline static constexpr unsigned int EcsDataCompScopeWriter_TypeDefinitionIndex = 37317;
+	inline static constexpr unsigned int EcsDataCompScopeWriter_TypeDefinitionIndex = 37983;
 
 	struct alignas(8) EcsDataCompScopeWriter
 	{

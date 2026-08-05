@@ -6,12 +6,12 @@
 namespace FlowCanvas { class FlowOutput; }
 namespace MoleMole::FlowCanvas { class HackerGameBeginTutorial; }
 
-#define MOLEMOLE_FLOWCANVAS_HACKERGAMEBEGINTUTORIAL___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A391BF0)
-#define MOLEMOLE_FLOWCANVAS_HACKERGAMEBEGINTUTORIAL___C__DISPLAYCLASS4_0__ONREGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x1A391C00)
+#define MOLEMOLE_FLOWCANVAS_HACKERGAMEBEGINTUTORIAL___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B597E70)
+#define MOLEMOLE_FLOWCANVAS_HACKERGAMEBEGINTUTORIAL___C__DISPLAYCLASS4_0__ONREGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x1B597E80)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int HackerGameBeginTutorial___c__DisplayClass4_0_TypeDefinitionIndex = 85174;
+	inline static constexpr unsigned int HackerGameBeginTutorial___c__DisplayClass4_0_TypeDefinitionIndex = 78489;
 
 	class HackerGameBeginTutorial___c__DisplayClass4_0 : public ::System::Object
 	{

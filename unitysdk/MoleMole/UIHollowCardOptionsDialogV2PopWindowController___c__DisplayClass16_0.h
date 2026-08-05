@@ -5,12 +5,12 @@
 namespace MoleMole { class UIHollowCardOptionItemWidgetController; }
 namespace MoleMole { class UIHollowCardOptionsDialogV2PopWindowController; }
 
-#define MOLEMOLE_UIHOLLOWCARDOPTIONSDIALOGV2POPWINDOWCONTROLLER___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16906070)
-#define MOLEMOLE_UIHOLLOWCARDOPTIONSDIALOGV2POPWINDOWCONTROLLER___C__DISPLAYCLASS16_0__ONUIOPEN_B__6_OFFSET UNITYSDK_OFFSET(0x16906080)
+#define MOLEMOLE_UIHOLLOWCARDOPTIONSDIALOGV2POPWINDOWCONTROLLER___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x189885B0)
+#define MOLEMOLE_UIHOLLOWCARDOPTIONSDIALOGV2POPWINDOWCONTROLLER___C__DISPLAYCLASS16_0__ONUIOPEN_B__6_OFFSET UNITYSDK_OFFSET(0x189885C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowCardOptionsDialogV2PopWindowController___c__DisplayClass16_0_TypeDefinitionIndex = 79815;
+	inline static constexpr unsigned int UIHollowCardOptionsDialogV2PopWindowController___c__DisplayClass16_0_TypeDefinitionIndex = 48367;
 
 	class UIHollowCardOptionsDialogV2PopWindowController___c__DisplayClass16_0 : public ::System::Object
 	{

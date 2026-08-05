@@ -5,7 +5,7 @@
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int NapEnvLightData_TypeDefinitionIndex = 5925;
+	inline static constexpr unsigned int NapEnvLightData_TypeDefinitionIndex = 5927;
 
 	struct alignas(4) NapEnvLightData
 	{

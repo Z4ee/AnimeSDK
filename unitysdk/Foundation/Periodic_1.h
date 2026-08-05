@@ -6,7 +6,7 @@ namespace Foundation { template <typename T> class IPeriodicPolicy_1; }
 
 namespace Foundation
 {
-	inline static constexpr unsigned int Periodic_1_TypeDefinitionIndex = 8717;
+	inline static constexpr unsigned int Periodic_1_TypeDefinitionIndex = 8737;
 
 	template <typename T>
 	struct Periodic_1

@@ -3,26 +3,26 @@
 #include "unitysdk/System/Object.h"
 
 class Class_2_12BDE7300F0E061C;
-class Class_2_208CC9941471731A_598;
+class Class_2_208CC9941471731A_1176;
 namespace MoleMole { class UIRoleEquipRecommendPopWindowController; }
 namespace MoleMole { template <typename T> class UIRoleEquipRecommendPopContext_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIROLEEQUIPRECOMMENDPOPWINDOWCONTROLLER___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15F37970)
-#define MOLEMOLE_UIROLEEQUIPRECOMMENDPOPWINDOWCONTROLLER___C__DISPLAYCLASS17_0__REFRESHRANDPROPERTYFILTERITEMS_G__ISCANSELECT_0_OFFSET UNITYSDK_OFFSET(0x15F37980)
-#define MOLEMOLE_UIROLEEQUIPRECOMMENDPOPWINDOWCONTROLLER___C__DISPLAYCLASS17_0__REFRESHRANDPROPERTYFILTERITEMS_G__ONPROPERTYROWCLICK_1_OFFSET UNITYSDK_OFFSET(0x15F37E70)
+#define MOLEMOLE_UIROLEEQUIPRECOMMENDPOPWINDOWCONTROLLER___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0x13001290)
+#define MOLEMOLE_UIROLEEQUIPRECOMMENDPOPWINDOWCONTROLLER___C__DISPLAYCLASS17_0__REFRESHRANDPROPERTYFILTERITEMS_G__ISCANSELECT_0_OFFSET UNITYSDK_OFFSET(0x130012A0)
+#define MOLEMOLE_UIROLEEQUIPRECOMMENDPOPWINDOWCONTROLLER___C__DISPLAYCLASS17_0__REFRESHRANDPROPERTYFILTERITEMS_G__ONPROPERTYROWCLICK_1_OFFSET UNITYSDK_OFFSET(0x130017A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRoleEquipRecommendPopWindowController___c__DisplayClass17_0_TypeDefinitionIndex = 51775;
+	inline static constexpr unsigned int UIRoleEquipRecommendPopWindowController___c__DisplayClass17_0_TypeDefinitionIndex = 82483;
 
 	class UIRoleEquipRecommendPopWindowController___c__DisplayClass17_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIRoleEquipRecommendPopWindowController* __4__this; // 0x10
-		::MoleMole::UIRoleEquipRecommendPopContext_1<::Class_2_12BDE7300F0E061C*>* dialogContext; // 0x18
-		::Class_2_208CC9941471731A_598* autoEquipConfig; // 0x20
-		::System::Collections::Generic::List_1<::System::UInt32>* propertyIdList; // 0x28
+		::System::Collections::Generic::List_1<::System::UInt32>* propertyIdList; // 0x10
+		::Class_2_208CC9941471731A_1176* autoEquipConfig; // 0x18
+		::MoleMole::UIRoleEquipRecommendPopContext_1<::Class_2_12BDE7300F0E061C*>* dialogContext; // 0x20
+		::MoleMole::UIRoleEquipRecommendPopWindowController* __4__this; // 0x28
 		::System::Int32 avatarID; // 0x30
 
 		::System::Void _ctor()

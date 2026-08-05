@@ -5,16 +5,16 @@
 
 namespace Code::Logic::Data::ScriptObject::Level { class MoveCoordinate; }
 
-#define CLASS_1_10088D943B58C8DF_METHOD_1_446F8F3EA4F561D7_OFFSET UNITYSDK_OFFSET(0x129A36B0)
-#define CLASS_1_10088D943B58C8DF__CTOR_OFFSET UNITYSDK_OFFSET(0x129A35D0)
+#define CLASS_1_10088D943B58C8DF_METHOD_1_446F8F3EA4F561D7_OFFSET UNITYSDK_OFFSET(0x16EEEA00)
+#define CLASS_1_10088D943B58C8DF__CTOR_OFFSET UNITYSDK_OFFSET(0x16EEE910)
 
-inline static constexpr unsigned int Class_1_10088D943B58C8DF_TypeDefinitionIndex = 77181;
+inline static constexpr unsigned int Class_1_10088D943B58C8DF_TypeDefinitionIndex = 57487;
 
 class Class_1_10088D943B58C8DF : public ::System::Object
 {
 public:
-	::Il2CppArray<::System::ValueTuple_2<::System::Int32, ::System::Int32>>* Field_1_1; // 0x10
-	::System::Single Field_1_0; // 0x18
+	::Il2CppArray<::System::ValueTuple_2<::System::Int32, ::System::Int32>>* Field_1_0; // 0x10
+	::System::Single Field_1_1; // 0x18
 
 	::System::Void _ctor(::System::Int32 a1, ::System::Int32 a2, ::System::Single a3, ::Il2CppArray<::Code::Logic::Data::ScriptObject::Level::MoveCoordinate*>* a4)
 	{

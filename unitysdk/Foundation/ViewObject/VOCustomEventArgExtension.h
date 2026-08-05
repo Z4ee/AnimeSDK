@@ -4,11 +4,11 @@
 #include "unitysdk/Foundation/ViewObject/ViewObjectHandle.h"
 #include "unitysdk/System/Object.h"
 
-#define FOUNDATION_VIEWOBJECT_VOCUSTOMEVENTARGEXTENSION_NOTIFYCOMPONENTCUSTOMEVENT_OFFSET UNITYSDK_OFFSET(0x19ED6710)
+#define FOUNDATION_VIEWOBJECT_VOCUSTOMEVENTARGEXTENSION_NOTIFYCOMPONENTCUSTOMEVENT_OFFSET UNITYSDK_OFFSET(0x15FA4CE0)
 
 namespace Foundation::ViewObject
 {
-	inline static constexpr unsigned int VOCustomEventArgExtension_TypeDefinitionIndex = 82308;
+	inline static constexpr unsigned int VOCustomEventArgExtension_TypeDefinitionIndex = 87204;
 
 	class VOCustomEventArgExtension : public ::System::Object
 	{

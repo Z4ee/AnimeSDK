@@ -10,7 +10,7 @@ namespace System::Reflection { class PropertyInfo; }
 
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int ColorBlockFormatter_1_TypeDefinitionIndex = 7576;
+	inline static constexpr unsigned int ColorBlockFormatter_1_TypeDefinitionIndex = 7580;
 
 	template <typename T>
 	class ColorBlockFormatter_1 : public ::Sirenix::Serialization::MinimalBaseFormatter_1<T>

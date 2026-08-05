@@ -10,11 +10,11 @@ namespace UnityEngine::Experimental::Rendering::Universal { class RenderObjects_
 namespace UnityEngine::Experimental::Rendering::Universal { class RenderObjects_FilterSettings; }
 namespace UnityEngine::Rendering::Universal { class StencilStateData; }
 
-#define UNITYENGINE_EXPERIMENTAL_RENDERING_UNIVERSAL_RENDEROBJECTS_RENDEROBJECTSSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0xF7947B0)
+#define UNITYENGINE_EXPERIMENTAL_RENDERING_UNIVERSAL_RENDEROBJECTS_RENDEROBJECTSSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x110915D0)
 
 namespace UnityEngine::Experimental::Rendering::Universal
 {
-	inline static constexpr unsigned int RenderObjects_RenderObjectsSettings_TypeDefinitionIndex = 26907;
+	inline static constexpr unsigned int RenderObjects_RenderObjectsSettings_TypeDefinitionIndex = 27191;
 
 	class RenderObjects_RenderObjectsSettings : public ::System::Object
 	{

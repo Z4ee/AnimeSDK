@@ -3,13 +3,13 @@
 
 namespace MoleMole::Level
 {
-	inline static constexpr unsigned int BangbooAbilityType_TypeDefinitionIndex = 41829;
+	inline static constexpr unsigned int BangbooAbilityType_TypeDefinitionIndex = 78252;
 
 	enum class BangbooAbilityType : ::System::Int32
 	{
-		Dive = 1,
+		Attack = 3,
 		Search = 2,
 		Jump = 0,
-		Attack = 3,
+		Dive = 1,
 	};
 }

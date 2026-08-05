@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MIHOYO_SDK_PC_OS_XBOXPRIVILEGEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5C1F90)
+#define MIHOYO_SDK_PC_OS_XBOXPRIVILEGEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1C932ED0)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int XboxPrivilegeParam_TypeDefinitionIndex = 20434;
+	inline static constexpr unsigned int XboxPrivilegeParam_TypeDefinitionIndex = 20781;
 
 	class XboxPrivilegeParam : public ::System::Object
 	{

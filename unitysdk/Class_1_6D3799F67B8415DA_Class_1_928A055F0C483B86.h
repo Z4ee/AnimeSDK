@@ -6,16 +6,16 @@
 namespace MoleMole::Config { class ConfigCameraStoryDatas; }
 namespace System { class Action; }
 
-#define CLASS_1_6D3799F67B8415DA_CLASS_1_928A055F0C483B86_METHOD_1_DC0C5A6B11B1C7DE_OFFSET UNITYSDK_OFFSET(0x17922950)
-#define CLASS_1_6D3799F67B8415DA_CLASS_1_928A055F0C483B86__CTOR_OFFSET UNITYSDK_OFFSET(0x17922940)
+#define CLASS_1_6D3799F67B8415DA_CLASS_1_928A055F0C483B86_METHOD_1_DC0C5A6B11B1C7DE_OFFSET UNITYSDK_OFFSET(0x15B771B0)
+#define CLASS_1_6D3799F67B8415DA_CLASS_1_928A055F0C483B86__CTOR_OFFSET UNITYSDK_OFFSET(0x15B771A0)
 
-inline static constexpr unsigned int Class_1_6D3799F67B8415DA_Class_1_928A055F0C483B86_TypeDefinitionIndex = 85497;
+inline static constexpr unsigned int Class_1_6D3799F67B8415DA_Class_1_928A055F0C483B86_TypeDefinitionIndex = 59848;
 
 class Class_1_6D3799F67B8415DA_Class_1_928A055F0C483B86 : public ::System::Object
 {
 public:
-	::System::Action* Field_1_1; // 0x10
-	::Foundation::AssetPath Field_1_0; // 0x18
+	::Foundation::AssetPath Field_1_0; // 0x10
+	::System::Action* Field_1_7; // 0x20
 
 	::System::Void _ctor()
 	{

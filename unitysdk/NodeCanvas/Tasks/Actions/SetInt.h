@@ -6,19 +6,19 @@
 namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
 namespace System { class String; }
 
-#define NODECANVAS_TASKS_ACTIONS_SETINT_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1BCCC3D0)
-#define NODECANVAS_TASKS_ACTIONS_SETINT_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1BCCC480)
-#define NODECANVAS_TASKS_ACTIONS_SETINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BCCC5A0)
+#define NODECANVAS_TASKS_ACTIONS_SETINT_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1D06DED0)
+#define NODECANVAS_TASKS_ACTIONS_SETINT_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1D06DF80)
+#define NODECANVAS_TASKS_ACTIONS_SETINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D06E080)
 
 namespace NodeCanvas::Tasks::Actions
 {
-	inline static constexpr unsigned int SetInt_TypeDefinitionIndex = 30664;
+	inline static constexpr unsigned int SetInt_TypeDefinitionIndex = 30289;
 
 	class SetInt : public ::NodeCanvas::Framework::ActionTask
 	{
 	public:
-		::NodeCanvas::Framework::BBParameter_1<::System::Int32>* valueB; // 0x60
-		::NodeCanvas::Framework::BBParameter_1<::System::Int32>* valueA; // 0x68
+		::NodeCanvas::Framework::BBParameter_1<::System::Int32>* valueA; // 0x60
+		::NodeCanvas::Framework::BBParameter_1<::System::Int32>* valueB; // 0x68
 		::ParadoxNotion::OperationMethod Operation; // 0x70
 
 		::System::Void _ctor()

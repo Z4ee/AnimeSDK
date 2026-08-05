@@ -6,29 +6,29 @@ class Class_1_F57D00757009D1EB;
 namespace System { class Action; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MOLEMOLE_UIGROCERYCHILDWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x16AA9640)
-#define MOLEMOLE_UIGROCERYCHILDWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x16AA9680)
-#define MOLEMOLE_UIGROCERYCHILDWINDOWCONTROLLER___C__INITVIEW_B__19_1_OFFSET UNITYSDK_OFFSET(0x16AA9690)
-#define MOLEMOLE_UIGROCERYCHILDWINDOWCONTROLLER___C__SETCURGOODSLIST_B__28_0_OFFSET UNITYSDK_OFFSET(0x16AA9750)
+#define MOLEMOLE_UIGROCERYCHILDWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1881FC10)
+#define MOLEMOLE_UIGROCERYCHILDWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1881FC50)
+#define MOLEMOLE_UIGROCERYCHILDWINDOWCONTROLLER___C__INITVIEW_B__19_1_OFFSET UNITYSDK_OFFSET(0x1881FC60)
+#define MOLEMOLE_UIGROCERYCHILDWINDOWCONTROLLER___C__SETCURGOODSLIST_B__28_0_OFFSET UNITYSDK_OFFSET(0x1881FD20)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGroceryChildWindowController___c_TypeDefinitionIndex = 76223;
+	inline static constexpr unsigned int UIGroceryChildWindowController___c_TypeDefinitionIndex = 88165;
 
 	class UIGroceryChildWindowController___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::Class_1_F57D00757009D1EB*, ::System::Boolean>** StaticGet___9__28_0()
 		{
-			return (::System::Func_2<::Class_1_F57D00757009D1EB*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIGroceryChildWindowController___c_TypeDefinitionIndex)->GetStaticField(0x3F120);
+			return (::System::Func_2<::Class_1_F57D00757009D1EB*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIGroceryChildWindowController___c_TypeDefinitionIndex)->GetStaticField(0x3FD50);
 		}
 		static ::MoleMole::UIGroceryChildWindowController___c** StaticGet___9()
 		{
-			return (::MoleMole::UIGroceryChildWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UIGroceryChildWindowController___c_TypeDefinitionIndex)->GetStaticField(0x3F128);
+			return (::MoleMole::UIGroceryChildWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UIGroceryChildWindowController___c_TypeDefinitionIndex)->GetStaticField(0x3FD58);
 		}
 		static ::System::Action** StaticGet___9__19_1()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIGroceryChildWindowController___c_TypeDefinitionIndex)->GetStaticField(0x3F130);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIGroceryChildWindowController___c_TypeDefinitionIndex)->GetStaticField(0x3FD60);
 		}
 
 		static ::System::Void _cctor()

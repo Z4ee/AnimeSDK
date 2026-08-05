@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define FLUFFYUNDERWARE_DEVTOOLS_OBJECTSELECTORATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D69D1A0)
+#define FLUFFYUNDERWARE_DEVTOOLS_OBJECTSELECTORATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA564B0)
 
 namespace FluffyUnderware::DevTools
 {
-	inline static constexpr unsigned int ObjectSelectorAttribute_TypeDefinitionIndex = 28366;
+	inline static constexpr unsigned int ObjectSelectorAttribute_TypeDefinitionIndex = 28970;
 
 	class ObjectSelectorAttribute : public ::FluffyUnderware::DevTools::DTPropertyAttribute
 	{

@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FlowCanvas/Nodes/PureFunctionNode_3.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_GETMONSTERTEMPLATEIDBYINTERACTIONTEMPLATENPCID_INVOKE_OFFSET UNITYSDK_OFFSET(0x1581E970)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_GETMONSTERTEMPLATEIDBYINTERACTIONTEMPLATENPCID__CTOR_OFFSET UNITYSDK_OFFSET(0x1581EAD0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_GETMONSTERTEMPLATEIDBYINTERACTIONTEMPLATENPCID_INVOKE_OFFSET UNITYSDK_OFFSET(0x1299DC40)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_GETMONSTERTEMPLATEIDBYINTERACTIONTEMPLATENPCID__CTOR_OFFSET UNITYSDK_OFFSET(0x1299DDA0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_AbyssS2_GetMonsterTemplateIdByInteractionTemplateNpcId_TypeDefinitionIndex = 47753;
+	inline static constexpr unsigned int LD_AbyssS2_GetMonsterTemplateIdByInteractionTemplateNpcId_TypeDefinitionIndex = 86117;
 
 	class LD_AbyssS2_GetMonsterTemplateIdByInteractionTemplateNpcId : public ::FlowCanvas::Nodes::PureFunctionNode_3<::System::Int32, ::System::Boolean, ::System::Int32>
 	{

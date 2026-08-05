@@ -3,11 +3,11 @@
 #include "unitysdk/Enum_3_576D2B842B630070.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_BATTLE_RBDBEHITTRIGGERDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xE94A0F0)
+#define MOLEMOLE_BATTLE_RBDBEHITTRIGGERDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xF11D4D0)
 
 namespace MoleMole::Battle
 {
-	inline static constexpr unsigned int RBDBehitTriggerData_TypeDefinitionIndex = 44588;
+	inline static constexpr unsigned int RBDBehitTriggerData_TypeDefinitionIndex = 86511;
 
 	class RBDBehitTriggerData : public ::System::Object
 	{

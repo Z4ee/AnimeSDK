@@ -6,34 +6,34 @@
 #include "unitysdk/Enum_3_34F7035555410463_1.h"
 #include "unitysdk/System/ValueType.h"
 
-class Class_2_08FFAF9759A4ED46_2;
+class Class_2_08FFAF9759A4ED46_3;
 namespace System { class Exception; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define MOLEMOLE_UISETTINGRESOURCEDOWNLOADDIALOGPOPWINDOWCONTROLLER__CALCULATESIZE_ASYNC_D__10_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x785760)
-#define MOLEMOLE_UISETTINGRESOURCEDOWNLOADDIALOGPOPWINDOWCONTROLLER__CALCULATESIZE_ASYNC_D__10_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x283610)
+#define MOLEMOLE_UISETTINGRESOURCEDOWNLOADDIALOGPOPWINDOWCONTROLLER__CALCULATESIZE_ASYNC_D__10_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x875F10)
+#define MOLEMOLE_UISETTINGRESOURCEDOWNLOADDIALOGPOPWINDOWCONTROLLER__CALCULATESIZE_ASYNC_D__10_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x296F30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISettingResourceDownloadDialogPopWindowController__CalculateSize_Async_d__10_TypeDefinitionIndex = 49868;
+	inline static constexpr unsigned int UISettingResourceDownloadDialogPopWindowController__CalculateSize_Async_d__10_TypeDefinitionIndex = 85951;
 
 	struct alignas(8) UISettingResourceDownloadDialogPopWindowController__CalculateSize_Async_d__10
 	{
-		::System::Collections::Generic::IEnumerable_1<::Enum_3_34F7035555410463_1>* _fullPackages_5__4; // 0x10
-		::Class_2_08FFAF9759A4ED46_2* picker; // 0x18
-		::System::Exception* _ex_5__7; // 0x20
-		::Cysharp::Threading::Tasks::SwitchToMainThreadAwaitable_Awaiter __u__2; // 0x28
-		::System::Action_2<::System::Int64, ::System::Int64>* finishCallback; // 0x38
-		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x40
-		::System::Object* __7__wrap1; // 0x50
-		::System::Int32 __1__state; // 0x58
-		::Cysharp::Threading::Tasks::SwitchToThreadPoolAwaitable_Awaiter __u__1; // 0x5C
+		::Class_2_08FFAF9759A4ED46_3* picker; // 0x10
+		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x18
+		::System::Object* __7__wrap1; // 0x28
+		::System::Action_2<::System::Int64, ::System::Int64>* finishCallback; // 0x30
+		::Cysharp::Threading::Tasks::SwitchToMainThreadAwaitable_Awaiter __u__2; // 0x38
+		::System::Exception* _ex_5__7; // 0x48
+		::System::Collections::Generic::IEnumerable_1<::Enum_3_34F7035555410463_1>* _fullPackages_5__4; // 0x50
+		::System::Int64 _fullSize_5__6; // 0x58
 		::System::Int32 __7__wrap2; // 0x60
-		::System::Int64 _totalSize_5__5; // 0x68
-		::System::Int64 _fullSize_5__6; // 0x70
+		::System::Int32 __1__state; // 0x64
+		::Cysharp::Threading::Tasks::SwitchToThreadPoolAwaitable_Awaiter __u__1; // 0x68
+		::System::Int64 _totalSize_5__5; // 0x70
 
 		::System::Void MoveNext()
 		{

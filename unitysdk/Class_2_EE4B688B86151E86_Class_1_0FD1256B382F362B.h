@@ -1,0 +1,57 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_2_EE4B688B86151E86;
+namespace MoleMole { class UICreateRoleNameDialogPopWindowController; }
+namespace System { class Action; }
+namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
+
+#define CLASS_2_EE4B688B86151E86_CLASS_1_0FD1256B382F362B_METHOD_1_4D43FA57FC1E3606_OFFSET UNITYSDK_OFFSET(0x1574DF50)
+#define CLASS_2_EE4B688B86151E86_CLASS_1_0FD1256B382F362B_METHOD_1_609FA3D38FA252B6_OFFSET UNITYSDK_OFFSET(0x1574E300)
+#define CLASS_2_EE4B688B86151E86_CLASS_1_0FD1256B382F362B_METHOD_1_CC32BB23BD684E52_1_OFFSET UNITYSDK_OFFSET(0x1574E4D0)
+#define CLASS_2_EE4B688B86151E86_CLASS_1_0FD1256B382F362B_METHOD_1_CC32BB23BD684E52_OFFSET UNITYSDK_OFFSET(0x1574DE40)
+#define CLASS_2_EE4B688B86151E86_CLASS_1_0FD1256B382F362B_METHOD_1_EDFD49C942C75D6C_OFFSET UNITYSDK_OFFSET(0x1574DCD0)
+#define CLASS_2_EE4B688B86151E86_CLASS_1_0FD1256B382F362B__CTOR_OFFSET UNITYSDK_OFFSET(0x1574CE00)
+
+inline static constexpr unsigned int Class_2_EE4B688B86151E86_Class_1_0FD1256B382F362B_TypeDefinitionIndex = 66739;
+
+class Class_2_EE4B688B86151E86_Class_1_0FD1256B382F362B : public ::System::Object
+{
+public:
+	::Class_2_EE4B688B86151E86* Field_1_0; // 0x10
+	::System::Action_1<::System::Boolean>* Field_1_5; // 0x18
+	::MoleMole::UICreateRoleNameDialogPopWindowController* Field_1_7; // 0x20
+	::System::Action* Field_1_6; // 0x28
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_EE4B688B86151E86_CLASS_1_0FD1256B382F362B__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_1_EDFD49C942C75D6C()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_EE4B688B86151E86_CLASS_1_0FD1256B382F362B_METHOD_1_EDFD49C942C75D6C_OFFSET))(this);
+	}
+
+	::System::Void Method_1_CC32BB23BD684E52()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_EE4B688B86151E86_CLASS_1_0FD1256B382F362B_METHOD_1_CC32BB23BD684E52_OFFSET))(this);
+	}
+
+	::System::Void Method_1_4D43FA57FC1E3606(::System::String* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_2_EE4B688B86151E86_CLASS_1_0FD1256B382F362B_METHOD_1_4D43FA57FC1E3606_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_609FA3D38FA252B6(::System::Boolean a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_2_EE4B688B86151E86_CLASS_1_0FD1256B382F362B_METHOD_1_609FA3D38FA252B6_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_CC32BB23BD684E52_1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_EE4B688B86151E86_CLASS_1_0FD1256B382F362B_METHOD_1_CC32BB23BD684E52_1_OFFSET))(this);
+	}
+};

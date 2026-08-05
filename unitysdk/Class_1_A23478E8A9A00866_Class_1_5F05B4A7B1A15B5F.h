@@ -6,16 +6,16 @@
 namespace MoleMole::Config { class ConfigSpecialEffectHitWall; }
 namespace System { class Action; }
 
-#define CLASS_1_A23478E8A9A00866_CLASS_1_5F05B4A7B1A15B5F_METHOD_1_A7BF66494A108F42_OFFSET UNITYSDK_OFFSET(0x1A0C7FA0)
-#define CLASS_1_A23478E8A9A00866_CLASS_1_5F05B4A7B1A15B5F__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0C7F90)
+#define CLASS_1_A23478E8A9A00866_CLASS_1_5F05B4A7B1A15B5F_METHOD_1_A7BF66494A108F42_OFFSET UNITYSDK_OFFSET(0x12A8CE80)
+#define CLASS_1_A23478E8A9A00866_CLASS_1_5F05B4A7B1A15B5F__CTOR_OFFSET UNITYSDK_OFFSET(0x12A8CE70)
 
-inline static constexpr unsigned int Class_1_A23478E8A9A00866_Class_1_5F05B4A7B1A15B5F_TypeDefinitionIndex = 56931;
+inline static constexpr unsigned int Class_1_A23478E8A9A00866_Class_1_5F05B4A7B1A15B5F_TypeDefinitionIndex = 65977;
 
 class Class_1_A23478E8A9A00866_Class_1_5F05B4A7B1A15B5F : public ::System::Object
 {
 public:
-	::System::Action* Field_1_0; // 0x10
-	::Foundation::AssetPath Field_1_1; // 0x18
+	::Foundation::AssetPath Field_1_7; // 0x10
+	::System::Action* Field_1_0; // 0x20
 
 	::System::Void _ctor()
 	{

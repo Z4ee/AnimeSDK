@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGHACK_HACKOBJECTTIPKEYENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x12716540)
+#define MOLEMOLE_CONFIG_CONFIGHACK_HACKOBJECTTIPKEYENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x134FC680)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHack_HackObjectTipKeyEntry_TypeDefinitionIndex = 75741;
+	inline static constexpr unsigned int ConfigHack_HackObjectTipKeyEntry_TypeDefinitionIndex = 50933;
 
 	class ConfigHack_HackObjectTipKeyEntry : public ::System::Object
 	{

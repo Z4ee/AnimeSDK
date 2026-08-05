@@ -6,7 +6,7 @@ namespace Sirenix::Serialization::Utilities { template <typename T> class Refere
 
 namespace Sirenix::Serialization::Utilities
 {
-	inline static constexpr unsigned int ReferenceEqualityComparer_1_TypeDefinitionIndex = 7660;
+	inline static constexpr unsigned int ReferenceEqualityComparer_1_TypeDefinitionIndex = 7664;
 
 	template <typename T>
 	class ReferenceEqualityComparer_1 : public ::System::Object

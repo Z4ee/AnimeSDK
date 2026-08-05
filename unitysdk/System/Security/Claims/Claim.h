@@ -8,14 +8,14 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T1, typename T2> class IDictionary_2; }
 namespace System::Security::Claims { class ClaimsIdentity; }
 
-#define SYSTEM_SECURITY_CLAIMS_CLAIM_CLONE_OFFSET UNITYSDK_OFFSET(0x1D0BDC30)
-#define SYSTEM_SECURITY_CLAIMS_CLAIM_GET_PROPERTIES_OFFSET UNITYSDK_OFFSET(0x1D0BD760)
-#define SYSTEM_SECURITY_CLAIMS_CLAIM_ONDESERIALIZEDMETHOD_OFFSET UNITYSDK_OFFSET(0x1D0BDC00)
-#define SYSTEM_SECURITY_CLAIMS_CLAIM_SET_SUBJECT_OFFSET UNITYSDK_OFFSET(0x1D0BDC20)
-#define SYSTEM_SECURITY_CLAIMS_CLAIM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1D0BDC90)
-#define SYSTEM_SECURITY_CLAIMS_CLAIM__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1D0BD550)
-#define SYSTEM_SECURITY_CLAIMS_CLAIM__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1D0BD8D0)
-#define SYSTEM_SECURITY_CLAIMS_CLAIM__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0BD520)
+#define SYSTEM_SECURITY_CLAIMS_CLAIM_CLONE_OFFSET UNITYSDK_OFFSET(0x1E44FF70)
+#define SYSTEM_SECURITY_CLAIMS_CLAIM_GET_PROPERTIES_OFFSET UNITYSDK_OFFSET(0x1E44FAA0)
+#define SYSTEM_SECURITY_CLAIMS_CLAIM_ONDESERIALIZEDMETHOD_OFFSET UNITYSDK_OFFSET(0x1E44FF40)
+#define SYSTEM_SECURITY_CLAIMS_CLAIM_SET_SUBJECT_OFFSET UNITYSDK_OFFSET(0x1E44FF60)
+#define SYSTEM_SECURITY_CLAIMS_CLAIM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E44FFD0)
+#define SYSTEM_SECURITY_CLAIMS_CLAIM__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E44F890)
+#define SYSTEM_SECURITY_CLAIMS_CLAIM__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1E44FC10)
+#define SYSTEM_SECURITY_CLAIMS_CLAIM__CTOR_OFFSET UNITYSDK_OFFSET(0x1E44F860)
 
 namespace System::Security::Claims
 {
@@ -24,14 +24,14 @@ namespace System::Security::Claims
 	class Claim : public ::System::Object
 	{
 	public:
-		::System::String* m_issuer; // 0x10
-		::System::String* m_value; // 0x18
+		::System::String* m_type; // 0x10
+		::System::Security::Claims::ClaimsIdentity* m_subject; // 0x18
 		::Il2CppArray<::System::Byte>* m_userSerializationData; // 0x20
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* m_properties; // 0x28
-		::System::String* m_type; // 0x30
-		::System::Object* m_propertyLock; // 0x38
-		::System::String* m_valueType; // 0x40
-		::System::Security::Claims::ClaimsIdentity* m_subject; // 0x48
+		::System::Object* m_propertyLock; // 0x28
+		::System::String* m_valueType; // 0x30
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* m_properties; // 0x38
+		::System::String* m_issuer; // 0x40
+		::System::String* m_value; // 0x48
 		::System::String* m_originalIssuer; // 0x50
 
 		::System::Void _ctor(::System::String* type, ::System::String* value, ::System::String* valueType, ::System::String* issuer, ::System::String* originalIssuer, ::System::Security::Claims::ClaimsIdentity* subject)

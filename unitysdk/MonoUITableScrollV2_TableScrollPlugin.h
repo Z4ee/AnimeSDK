@@ -4,9 +4,9 @@
 
 class MonoUITableScrollV2;
 
-#define MONOUITABLESCROLLV2_TABLESCROLLPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x12CA9060)
+#define MONOUITABLESCROLLV2_TABLESCROLLPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x12E88260)
 
-inline static constexpr unsigned int MonoUITableScrollV2_TableScrollPlugin_TypeDefinitionIndex = 69888;
+inline static constexpr unsigned int MonoUITableScrollV2_TableScrollPlugin_TypeDefinitionIndex = 75049;
 
 class MonoUITableScrollV2_TableScrollPlugin : public ::NAPScrollView::Plugin::BasePlugin
 {

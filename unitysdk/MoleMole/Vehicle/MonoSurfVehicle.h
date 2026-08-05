@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class Animator; }
 
-#define MOLEMOLE_VEHICLE_MONOSURFVEHICLE__CTOR_OFFSET UNITYSDK_OFFSET(0xE86EE40)
+#define MOLEMOLE_VEHICLE_MONOSURFVEHICLE__CTOR_OFFSET UNITYSDK_OFFSET(0x10F17D40)
 
 namespace MoleMole::Vehicle
 {
-	inline static constexpr unsigned int MonoSurfVehicle_TypeDefinitionIndex = 53635;
+	inline static constexpr unsigned int MonoSurfVehicle_TypeDefinitionIndex = 50260;
 
 	class MonoSurfVehicle : public ::UnityEngine::MonoBehaviour
 	{

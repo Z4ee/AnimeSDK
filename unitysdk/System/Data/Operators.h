@@ -4,28 +4,28 @@
 
 namespace System { class String; }
 
-#define SYSTEM_DATA_OPERATORS_ISARITHMETICAL_OFFSET UNITYSDK_OFFSET(0x1D0781D0)
-#define SYSTEM_DATA_OPERATORS_ISLOGICAL_OFFSET UNITYSDK_OFFSET(0x1D0781F0)
-#define SYSTEM_DATA_OPERATORS_ISRELATIONAL_OFFSET UNITYSDK_OFFSET(0x1D078210)
-#define SYSTEM_DATA_OPERATORS_PRIORITY_OFFSET UNITYSDK_OFFSET(0x1D078220)
-#define SYSTEM_DATA_OPERATORS_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1D078300)
-#define SYSTEM_DATA_OPERATORS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D0783E0)
-#define SYSTEM_DATA_OPERATORS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0781C0)
+#define SYSTEM_DATA_OPERATORS_ISARITHMETICAL_OFFSET UNITYSDK_OFFSET(0x1E3E3AD0)
+#define SYSTEM_DATA_OPERATORS_ISLOGICAL_OFFSET UNITYSDK_OFFSET(0x1E3E3AF0)
+#define SYSTEM_DATA_OPERATORS_ISRELATIONAL_OFFSET UNITYSDK_OFFSET(0x1E3E3B10)
+#define SYSTEM_DATA_OPERATORS_PRIORITY_OFFSET UNITYSDK_OFFSET(0x1E3E3B20)
+#define SYSTEM_DATA_OPERATORS_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3E3C00)
+#define SYSTEM_DATA_OPERATORS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E3E3CE0)
+#define SYSTEM_DATA_OPERATORS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E3E3AC0)
 
 namespace System::Data
 {
-	inline static constexpr unsigned int Operators_TypeDefinitionIndex = 38650;
+	inline static constexpr unsigned int Operators_TypeDefinitionIndex = 39311;
 
 	class Operators : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::Int32>** StaticGet_s_priority()
-		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Operators_TypeDefinitionIndex)->GetStaticField(0x292D0);
-		}
 		static ::Il2CppArray<::System::String*>** StaticGet_s_looks()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Operators_TypeDefinitionIndex)->GetStaticField(0x292D8);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Operators_TypeDefinitionIndex)->GetStaticField(0x2AC00);
+		}
+		static ::Il2CppArray<::System::Int32>** StaticGet_s_priority()
+		{
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Operators_TypeDefinitionIndex)->GetStaticField(0x2AC08);
 		}
 
 		::System::Void _ctor()

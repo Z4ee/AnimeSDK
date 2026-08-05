@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigTriggerCaches_KVData_TypeDefinitionIndex = 83475;
+	inline static constexpr unsigned int ConfigTriggerCaches_KVData_TypeDefinitionIndex = 69736;
 
 	struct alignas(8) ConfigTriggerCaches_KVData
 	{

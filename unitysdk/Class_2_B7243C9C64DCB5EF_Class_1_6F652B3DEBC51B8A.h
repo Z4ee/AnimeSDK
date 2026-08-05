@@ -5,22 +5,22 @@
 namespace MoleMole { class UIGeneralSubtitleV2PopWindowController; }
 namespace System { class String; }
 
-#define CLASS_2_B7243C9C64DCB5EF_CLASS_1_6F652B3DEBC51B8A_METHOD_1_0A5ADB5E7BBF1405_OFFSET UNITYSDK_OFFSET(0x13452BF0)
-#define CLASS_2_B7243C9C64DCB5EF_CLASS_1_6F652B3DEBC51B8A_METHOD_1_7F22E902205526A1_OFFSET UNITYSDK_OFFSET(0x13452580)
-#define CLASS_2_B7243C9C64DCB5EF_CLASS_1_6F652B3DEBC51B8A_METHOD_1_EDBC885B6838D667_OFFSET UNITYSDK_OFFSET(0x134529F0)
-#define CLASS_2_B7243C9C64DCB5EF_CLASS_1_6F652B3DEBC51B8A__CTOR_OFFSET UNITYSDK_OFFSET(0x13452BE0)
+#define CLASS_2_B7243C9C64DCB5EF_CLASS_1_6F652B3DEBC51B8A_METHOD_1_0A5ADB5E7BBF1405_OFFSET UNITYSDK_OFFSET(0x14C83210)
+#define CLASS_2_B7243C9C64DCB5EF_CLASS_1_6F652B3DEBC51B8A_METHOD_1_7F22E902205526A1_OFFSET UNITYSDK_OFFSET(0x14C82BA0)
+#define CLASS_2_B7243C9C64DCB5EF_CLASS_1_6F652B3DEBC51B8A_METHOD_1_EDBC885B6838D667_OFFSET UNITYSDK_OFFSET(0x14C83010)
+#define CLASS_2_B7243C9C64DCB5EF_CLASS_1_6F652B3DEBC51B8A__CTOR_OFFSET UNITYSDK_OFFSET(0x14C83200)
 
-inline static constexpr unsigned int Class_2_B7243C9C64DCB5EF_Class_1_6F652B3DEBC51B8A_TypeDefinitionIndex = 61039;
+inline static constexpr unsigned int Class_2_B7243C9C64DCB5EF_Class_1_6F652B3DEBC51B8A_TypeDefinitionIndex = 71800;
 
 class Class_2_B7243C9C64DCB5EF_Class_1_6F652B3DEBC51B8A : public ::System::Object
 {
 public:
-	static ::MoleMole::UIGeneralSubtitleV2PopWindowController** StaticGet_Field_1_0()
+	static ::MoleMole::UIGeneralSubtitleV2PopWindowController** StaticGet_Field_1_1()
 	{
-		return (::MoleMole::UIGeneralSubtitleV2PopWindowController**)Il2CppClass::FromTypeDefinitionIndex(Class_2_B7243C9C64DCB5EF_Class_1_6F652B3DEBC51B8A_TypeDefinitionIndex)->GetStaticField(0x40AD0);
+		return (::MoleMole::UIGeneralSubtitleV2PopWindowController**)Il2CppClass::FromTypeDefinitionIndex(Class_2_B7243C9C64DCB5EF_Class_1_6F652B3DEBC51B8A_TypeDefinitionIndex)->GetStaticField(0x3EF70);
 	}
-	::MoleMole::UIGeneralSubtitleV2PopWindowController* Field_1_1; // 0x10
-	::System::Boolean Field_1_2; // 0x18
+	::MoleMole::UIGeneralSubtitleV2PopWindowController* Field_1_0; // 0x10
+	::System::Boolean Field_1_7; // 0x18
 
 	::System::Void _ctor()
 	{

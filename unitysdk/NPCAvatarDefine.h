@@ -9,155 +9,155 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Tuple_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCAVATARDEFINE_COMBINEGENDERSIZEBYID_OFFSET UNITYSDK_OFFSET(0xD91E370)
-#define NPCAVATARDEFINE_GETBODYINFOFROMNAME_OFFSET UNITYSDK_OFFSET(0xD91ECA0)
-#define NPCAVATARDEFINE_GETBODYPARTTYPEFROMNAME_OFFSET UNITYSDK_OFFSET(0xD91F080)
-#define NPCAVATARDEFINE_GETGPUPARTNAMEBYPARTENUM_OFFSET UNITYSDK_OFFSET(0xD91DED0)
-#define NPCAVATARDEFINE_GETPARTBLENDSHAPEANIMNAME_OFFSET UNITYSDK_OFFSET(0xD91F750)
-#define NPCAVATARDEFINE_GETPARTLOD0MESHNAME_OFFSET UNITYSDK_OFFSET(0xD91F2C0)
-#define NPCAVATARDEFINE_GETPARTNAMEBYPARTENUM_OFFSET UNITYSDK_OFFSET(0xD91DD00)
-#define NPCAVATARDEFINE_GETPARTOVERRIDEID_OFFSET UNITYSDK_OFFSET(0xD91E230)
-#define NPCAVATARDEFINE_GETPARTSID_OFFSET UNITYSDK_OFFSET(0xD91E0A0)
-#define NPCAVATARDEFINE_GETPUREBODYPARTTYPEFROMNAME_OFFSET UNITYSDK_OFFSET(0xD91E700)
-#define NPCAVATARDEFINE_GETRANDOMNPCID_OFFSET UNITYSDK_OFFSET(0xD91E5D0)
-#define NPCAVATARDEFINE_ISINBAKEDGPUANIMATIONWHITELIST_OFFSET UNITYSDK_OFFSET(0xD91D960)
-#define NPCAVATARDEFINE_ISINSTANDARDDEVICESIZELIST_OFFSET UNITYSDK_OFFSET(0xD91DB30)
-#define NPCAVATARDEFINE_ISRANDOMNPC_OFFSET UNITYSDK_OFFSET(0xD91E480)
-#define NPCAVATARDEFINE_ISUSEEXTRASIMPLEMESH_OFFSET UNITYSDK_OFFSET(0xD91D8A0)
-#define NPCAVATARDEFINE_PARSEBODYPARTTYPEBYID_OFFSET UNITYSDK_OFFSET(0xD91E2F0)
-#define NPCAVATARDEFINE_PARSEGENDERSIZEBYID_OFFSET UNITYSDK_OFFSET(0xD91E3C0)
-#define NPCAVATARDEFINE_PARSENUMBYID_OFFSET UNITYSDK_OFFSET(0xD91E560)
-#define NPCAVATARDEFINE_SPLITPARTOVERRIDEINFOID_OFFSET UNITYSDK_OFFSET(0xD91E280)
-#define NPCAVATARDEFINE_SPLITPARTSID_OFFSET UNITYSDK_OFFSET(0xD91E110)
-#define NPCAVATARDEFINE__CCTOR_OFFSET UNITYSDK_OFFSET(0xD91F860)
+#define NPCAVATARDEFINE_COMBINEGENDERSIZEBYID_OFFSET UNITYSDK_OFFSET(0xD878EC0)
+#define NPCAVATARDEFINE_GETBODYINFOFROMNAME_OFFSET UNITYSDK_OFFSET(0xD8797F0)
+#define NPCAVATARDEFINE_GETBODYPARTTYPEFROMNAME_OFFSET UNITYSDK_OFFSET(0xD879BD0)
+#define NPCAVATARDEFINE_GETGPUPARTNAMEBYPARTENUM_OFFSET UNITYSDK_OFFSET(0xD878A20)
+#define NPCAVATARDEFINE_GETPARTBLENDSHAPEANIMNAME_OFFSET UNITYSDK_OFFSET(0xD87A290)
+#define NPCAVATARDEFINE_GETPARTLOD0MESHNAME_OFFSET UNITYSDK_OFFSET(0xD879E00)
+#define NPCAVATARDEFINE_GETPARTNAMEBYPARTENUM_OFFSET UNITYSDK_OFFSET(0xD878850)
+#define NPCAVATARDEFINE_GETPARTOVERRIDEID_OFFSET UNITYSDK_OFFSET(0xD878D80)
+#define NPCAVATARDEFINE_GETPARTSID_OFFSET UNITYSDK_OFFSET(0xD878BF0)
+#define NPCAVATARDEFINE_GETPUREBODYPARTTYPEFROMNAME_OFFSET UNITYSDK_OFFSET(0xD879250)
+#define NPCAVATARDEFINE_GETRANDOMNPCID_OFFSET UNITYSDK_OFFSET(0xD879120)
+#define NPCAVATARDEFINE_ISINBAKEDGPUANIMATIONWHITELIST_OFFSET UNITYSDK_OFFSET(0xD8784B0)
+#define NPCAVATARDEFINE_ISINSTANDARDDEVICESIZELIST_OFFSET UNITYSDK_OFFSET(0xD878680)
+#define NPCAVATARDEFINE_ISRANDOMNPC_OFFSET UNITYSDK_OFFSET(0xD878FD0)
+#define NPCAVATARDEFINE_ISUSEEXTRASIMPLEMESH_OFFSET UNITYSDK_OFFSET(0xD8783F0)
+#define NPCAVATARDEFINE_PARSEBODYPARTTYPEBYID_OFFSET UNITYSDK_OFFSET(0xD878E40)
+#define NPCAVATARDEFINE_PARSEGENDERSIZEBYID_OFFSET UNITYSDK_OFFSET(0xD878F10)
+#define NPCAVATARDEFINE_PARSENUMBYID_OFFSET UNITYSDK_OFFSET(0xD8790B0)
+#define NPCAVATARDEFINE_SPLITPARTOVERRIDEINFOID_OFFSET UNITYSDK_OFFSET(0xD878DD0)
+#define NPCAVATARDEFINE_SPLITPARTSID_OFFSET UNITYSDK_OFFSET(0xD878C60)
+#define NPCAVATARDEFINE__CCTOR_OFFSET UNITYSDK_OFFSET(0xD87A3A0)
 
-inline static constexpr unsigned int NPCAvatarDefine_TypeDefinitionIndex = 53671;
+inline static constexpr unsigned int NPCAvatarDefine_TypeDefinitionIndex = 54476;
 
 struct alignas(1) NPCAvatarDefine
 {
-	static ::System::String** StaticGet_Name_BodyPart_Body()
+	static ::System::String** StaticGet_Name_BodyPart_Screen()
 	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(NPCAvatarDefine_TypeDefinitionIndex)->GetStaticField(0x34EB0);
-	}
-	static ::System::String** StaticGet_Name_BodyPart_Hair()
-	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(NPCAvatarDefine_TypeDefinitionIndex)->GetStaticField(0x34EB8);
-	}
-	static ::System::Collections::Generic::List_1<::ENPCAvatarBodyPart>** StaticGet_AllBodyPartEnums()
-	{
-		return (::System::Collections::Generic::List_1<::ENPCAvatarBodyPart>**)Il2CppClass::FromTypeDefinitionIndex(NPCAvatarDefine_TypeDefinitionIndex)->GetStaticField(0x34EC0);
-	}
-	static ::System::String** StaticGet_Name_BodyPart_Tail()
-	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(NPCAvatarDefine_TypeDefinitionIndex)->GetStaticField(0x34EC8);
-	}
-	static ::System::String** StaticGet_Name_BodyPart_Clothes()
-	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(NPCAvatarDefine_TypeDefinitionIndex)->GetStaticField(0x34ED0);
-	}
-	static ::System::Collections::Generic::List_1<::System::String*>** StaticGet_Name_AllBodyParts()
-	{
-		return (::System::Collections::Generic::List_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(NPCAvatarDefine_TypeDefinitionIndex)->GetStaticField(0x34ED8);
-	}
-	static ::System::Collections::Generic::List_1<::System::String*>** StaticGet_Name_GPU_AllBodyParts()
-	{
-		return (::System::Collections::Generic::List_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(NPCAvatarDefine_TypeDefinitionIndex)->GetStaticField(0x34EE0);
-	}
-	static ::System::String** StaticGet_Name_GPU_BodyPart_Clothes()
-	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(NPCAvatarDefine_TypeDefinitionIndex)->GetStaticField(0x34EE8);
-	}
-	static ::System::String** StaticGet_Name_GPU_BodyPart_Face()
-	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(NPCAvatarDefine_TypeDefinitionIndex)->GetStaticField(0x34EF0);
-	}
-	static ::System::String** StaticGet_Name_GPU_BodyPart_Eyebrow()
-	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(NPCAvatarDefine_TypeDefinitionIndex)->GetStaticField(0x34EF8);
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(NPCAvatarDefine_TypeDefinitionIndex)->GetStaticField(0x37650);
 	}
 	static ::System::Collections::Generic::List_1<::System::Tuple_2<::ENPCAvatarGender, ::ENPCAvatarSize>*>** StaticGet_StandardDeviceSizeList()
 	{
-		return (::System::Collections::Generic::List_1<::System::Tuple_2<::ENPCAvatarGender, ::ENPCAvatarSize>*>**)Il2CppClass::FromTypeDefinitionIndex(NPCAvatarDefine_TypeDefinitionIndex)->GetStaticField(0x34F00);
-	}
-	static ::System::Collections::Generic::List_1<::System::Tuple_2<::ENPCAvatarGender, ::ENPCAvatarSize>*>** StaticGet_BakedGPUAnimationWhiteList()
-	{
-		return (::System::Collections::Generic::List_1<::System::Tuple_2<::ENPCAvatarGender, ::ENPCAvatarSize>*>**)Il2CppClass::FromTypeDefinitionIndex(NPCAvatarDefine_TypeDefinitionIndex)->GetStaticField(0x34F08);
-	}
-	static ::System::String** StaticGet_Name_GPU_BodyPart_Beard()
-	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(NPCAvatarDefine_TypeDefinitionIndex)->GetStaticField(0x34F10);
-	}
-	static ::System::String** StaticGet_Name_GPU_BodyPart_Screen()
-	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(NPCAvatarDefine_TypeDefinitionIndex)->GetStaticField(0x34F18);
-	}
-	static ::System::String** StaticGet_Name_BodyPart_Eyebrow()
-	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(NPCAvatarDefine_TypeDefinitionIndex)->GetStaticField(0x34F20);
-	}
-	static ::System::String** StaticGet_Name_BodyPart_Ear()
-	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(NPCAvatarDefine_TypeDefinitionIndex)->GetStaticField(0x34F28);
-	}
-	static ::System::String** StaticGet_Name_GPU_BodyPart_Eye()
-	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(NPCAvatarDefine_TypeDefinitionIndex)->GetStaticField(0x34F30);
-	}
-	static ::System::String** StaticGet_Name_BodyPart_Beard()
-	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(NPCAvatarDefine_TypeDefinitionIndex)->GetStaticField(0x34F38);
-	}
-	static ::System::String** StaticGet_Name_BodyPart_Eye()
-	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(NPCAvatarDefine_TypeDefinitionIndex)->GetStaticField(0x34F40);
-	}
-	static ::System::Collections::Generic::List_1<::ENPCAvatarBodyPart>** StaticGet_BlendShapePartTypes()
-	{
-		return (::System::Collections::Generic::List_1<::ENPCAvatarBodyPart>**)Il2CppClass::FromTypeDefinitionIndex(NPCAvatarDefine_TypeDefinitionIndex)->GetStaticField(0x34F48);
-	}
-	static ::System::String** StaticGet_Name_GPU_BodyPart_Ear()
-	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(NPCAvatarDefine_TypeDefinitionIndex)->GetStaticField(0x34F50);
-	}
-	static ::System::String** StaticGet_Name_GPU_BodyPart_Body()
-	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(NPCAvatarDefine_TypeDefinitionIndex)->GetStaticField(0x34F58);
-	}
-	static ::System::String** StaticGet_Name_BodyPart_Screen()
-	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(NPCAvatarDefine_TypeDefinitionIndex)->GetStaticField(0x34F60);
-	}
-	static ::System::String** StaticGet_Name_BodyPart_Face()
-	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(NPCAvatarDefine_TypeDefinitionIndex)->GetStaticField(0x34F68);
-	}
-	static ::System::String** StaticGet_Name_GPU_BodyPart_Tail()
-	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(NPCAvatarDefine_TypeDefinitionIndex)->GetStaticField(0x34F70);
+		return (::System::Collections::Generic::List_1<::System::Tuple_2<::ENPCAvatarGender, ::ENPCAvatarSize>*>**)Il2CppClass::FromTypeDefinitionIndex(NPCAvatarDefine_TypeDefinitionIndex)->GetStaticField(0x37658);
 	}
 	static ::System::String** StaticGet_Name_GPU_BodyPart_Hair()
 	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(NPCAvatarDefine_TypeDefinitionIndex)->GetStaticField(0x34F78);
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(NPCAvatarDefine_TypeDefinitionIndex)->GetStaticField(0x37660);
 	}
-	static ::System::Int32* StaticGet_RandomNpcCountBase()
+	static ::System::String** StaticGet_Name_BodyPart_Tail()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NPCAvatarDefine_TypeDefinitionIndex)->GetStaticField(0xCF90);
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(NPCAvatarDefine_TypeDefinitionIndex)->GetStaticField(0x37668);
+	}
+	static ::System::String** StaticGet_Name_GPU_BodyPart_Eyebrow()
+	{
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(NPCAvatarDefine_TypeDefinitionIndex)->GetStaticField(0x37670);
+	}
+	static ::System::String** StaticGet_Name_BodyPart_Body()
+	{
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(NPCAvatarDefine_TypeDefinitionIndex)->GetStaticField(0x37678);
+	}
+	static ::System::String** StaticGet_Name_BodyPart_Beard()
+	{
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(NPCAvatarDefine_TypeDefinitionIndex)->GetStaticField(0x37680);
+	}
+	static ::System::String** StaticGet_Name_BodyPart_Clothes()
+	{
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(NPCAvatarDefine_TypeDefinitionIndex)->GetStaticField(0x37688);
+	}
+	static ::System::String** StaticGet_Name_BodyPart_Eyebrow()
+	{
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(NPCAvatarDefine_TypeDefinitionIndex)->GetStaticField(0x37690);
+	}
+	static ::System::String** StaticGet_Name_GPU_BodyPart_Beard()
+	{
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(NPCAvatarDefine_TypeDefinitionIndex)->GetStaticField(0x37698);
+	}
+	static ::System::String** StaticGet_Name_GPU_BodyPart_Ear()
+	{
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(NPCAvatarDefine_TypeDefinitionIndex)->GetStaticField(0x376A0);
+	}
+	static ::System::String** StaticGet_Name_BodyPart_Hair()
+	{
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(NPCAvatarDefine_TypeDefinitionIndex)->GetStaticField(0x376A8);
+	}
+	static ::System::Collections::Generic::List_1<::ENPCAvatarBodyPart>** StaticGet_BlendShapePartTypes()
+	{
+		return (::System::Collections::Generic::List_1<::ENPCAvatarBodyPart>**)Il2CppClass::FromTypeDefinitionIndex(NPCAvatarDefine_TypeDefinitionIndex)->GetStaticField(0x376B0);
+	}
+	static ::System::String** StaticGet_Name_BodyPart_Eye()
+	{
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(NPCAvatarDefine_TypeDefinitionIndex)->GetStaticField(0x376B8);
+	}
+	static ::System::Collections::Generic::List_1<::System::String*>** StaticGet_Name_AllBodyParts()
+	{
+		return (::System::Collections::Generic::List_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(NPCAvatarDefine_TypeDefinitionIndex)->GetStaticField(0x376C0);
+	}
+	static ::System::String** StaticGet_Name_GPU_BodyPart_Face()
+	{
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(NPCAvatarDefine_TypeDefinitionIndex)->GetStaticField(0x376C8);
+	}
+	static ::System::String** StaticGet_Name_GPU_BodyPart_Clothes()
+	{
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(NPCAvatarDefine_TypeDefinitionIndex)->GetStaticField(0x376D0);
+	}
+	static ::System::Collections::Generic::List_1<::ENPCAvatarBodyPart>** StaticGet_AllBodyPartEnums()
+	{
+		return (::System::Collections::Generic::List_1<::ENPCAvatarBodyPart>**)Il2CppClass::FromTypeDefinitionIndex(NPCAvatarDefine_TypeDefinitionIndex)->GetStaticField(0x376D8);
+	}
+	static ::System::String** StaticGet_Name_BodyPart_Ear()
+	{
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(NPCAvatarDefine_TypeDefinitionIndex)->GetStaticField(0x376E0);
+	}
+	static ::System::Collections::Generic::List_1<::System::Tuple_2<::ENPCAvatarGender, ::ENPCAvatarSize>*>** StaticGet_BakedGPUAnimationWhiteList()
+	{
+		return (::System::Collections::Generic::List_1<::System::Tuple_2<::ENPCAvatarGender, ::ENPCAvatarSize>*>**)Il2CppClass::FromTypeDefinitionIndex(NPCAvatarDefine_TypeDefinitionIndex)->GetStaticField(0x376E8);
+	}
+	static ::System::String** StaticGet_Name_GPU_BodyPart_Screen()
+	{
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(NPCAvatarDefine_TypeDefinitionIndex)->GetStaticField(0x376F0);
+	}
+	static ::System::String** StaticGet_Name_BodyPart_Face()
+	{
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(NPCAvatarDefine_TypeDefinitionIndex)->GetStaticField(0x376F8);
+	}
+	static ::System::Collections::Generic::List_1<::System::String*>** StaticGet_Name_GPU_AllBodyParts()
+	{
+		return (::System::Collections::Generic::List_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(NPCAvatarDefine_TypeDefinitionIndex)->GetStaticField(0x37700);
+	}
+	static ::System::String** StaticGet_Name_GPU_BodyPart_Eye()
+	{
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(NPCAvatarDefine_TypeDefinitionIndex)->GetStaticField(0x37708);
+	}
+	static ::System::String** StaticGet_Name_GPU_BodyPart_Body()
+	{
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(NPCAvatarDefine_TypeDefinitionIndex)->GetStaticField(0x37710);
+	}
+	static ::System::String** StaticGet_Name_GPU_BodyPart_Tail()
+	{
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(NPCAvatarDefine_TypeDefinitionIndex)->GetStaticField(0x37718);
 	}
 	static ::System::Single* StaticGet_FadeOutTime()
 	{
-		return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(NPCAvatarDefine_TypeDefinitionIndex)->GetStaticField(0xCF94);
+		return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(NPCAvatarDefine_TypeDefinitionIndex)->GetStaticField(0xCFC0);
 	}
-	static ::System::Single* StaticGet_FadeInTime()
+	static ::System::Int32* StaticGet_RandomNpcCountBase()
 	{
-		return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(NPCAvatarDefine_TypeDefinitionIndex)->GetStaticField(0xCF98);
-	}
-	static ::System::Boolean* StaticGet_bUseSceneExtraSimpleMesh()
-	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(NPCAvatarDefine_TypeDefinitionIndex)->GetStaticField(0xCF9C);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NPCAvatarDefine_TypeDefinitionIndex)->GetStaticField(0xCFC4);
 	}
 	static ::System::Boolean* StaticGet_bUseExtraSimpleMesh()
 	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(NPCAvatarDefine_TypeDefinitionIndex)->GetStaticField(0xCF9D);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(NPCAvatarDefine_TypeDefinitionIndex)->GetStaticField(0xCFC8);
+	}
+	static ::System::Boolean* StaticGet_bUseSceneExtraSimpleMesh()
+	{
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(NPCAvatarDefine_TypeDefinitionIndex)->GetStaticField(0xCFC9);
+	}
+	static ::System::Single* StaticGet_FadeInTime()
+	{
+		return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(NPCAvatarDefine_TypeDefinitionIndex)->GetStaticField(0xCFCC);
 	}
 
 	static ::System::Void _cctor()

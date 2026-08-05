@@ -3,9 +3,9 @@
 #include "unitysdk/MonoUITableScrollV2_SpeedClamp_SpeedClampType.h"
 #include "unitysdk/System/Object.h"
 
-#define MONOUITABLESCROLLV2_SPEEDCLAMP__CTOR_OFFSET UNITYSDK_OFFSET(0x12A5CC00)
+#define MONOUITABLESCROLLV2_SPEEDCLAMP__CTOR_OFFSET UNITYSDK_OFFSET(0x135749D0)
 
-inline static constexpr unsigned int MonoUITableScrollV2_SpeedClamp_TypeDefinitionIndex = 69897;
+inline static constexpr unsigned int MonoUITableScrollV2_SpeedClamp_TypeDefinitionIndex = 75050;
 
 class MonoUITableScrollV2_SpeedClamp : public ::System::Object
 {

@@ -3,24 +3,24 @@
 
 namespace MoleMole::Arcade::BallsRace
 {
-	inline static constexpr unsigned int BrEntityType_TypeDefinitionIndex = 87921;
+	inline static constexpr unsigned int BrEntityType_TypeDefinitionIndex = 92641;
 
 	enum class BrEntityType : ::System::Int32
 	{
-		Player = 2,
-		None = 0,
-		Decelerate = 7,
-		FakeGeneral = 55,
-		Pillar = 51,
 		Accelerate = 6,
-		TimePoint = 5,
 		Tile = 3,
-		World = 1,
 		Arrow = 54,
-		Spike = 4,
-		BestScore = 8,
-		FakePlayer = 52,
 		WelcomeGuy = 56,
+		World = 1,
+		FakePlayer = 52,
+		Pillar = 51,
+		None = 0,
+		FakeGeneral = 55,
+		TimePoint = 5,
+		BestScore = 8,
 		StartLine = 53,
+		Decelerate = 7,
+		Spike = 4,
+		Player = 2,
 	};
 }

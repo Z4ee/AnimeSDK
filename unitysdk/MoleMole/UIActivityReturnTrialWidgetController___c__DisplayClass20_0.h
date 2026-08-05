@@ -6,20 +6,20 @@ namespace MoleMole { class UIActivityReturnTrialWidgetController; }
 namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIACTIVITYRETURNTRIALWIDGETCONTROLLER___C__DISPLAYCLASS20_0__CONFRIMSELECT_B__0_OFFSET UNITYSDK_OFFSET(0x18C5AE00)
-#define MOLEMOLE_UIACTIVITYRETURNTRIALWIDGETCONTROLLER___C__DISPLAYCLASS20_0__CONFRIMSELECT_B__2_OFFSET UNITYSDK_OFFSET(0x18C5B090)
-#define MOLEMOLE_UIACTIVITYRETURNTRIALWIDGETCONTROLLER___C__DISPLAYCLASS20_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18C5ADF0)
+#define MOLEMOLE_UIACTIVITYRETURNTRIALWIDGETCONTROLLER___C__DISPLAYCLASS20_0__CONFRIMSELECT_B__0_OFFSET UNITYSDK_OFFSET(0x1B258FC0)
+#define MOLEMOLE_UIACTIVITYRETURNTRIALWIDGETCONTROLLER___C__DISPLAYCLASS20_0__CONFRIMSELECT_B__2_OFFSET UNITYSDK_OFFSET(0x1B259250)
+#define MOLEMOLE_UIACTIVITYRETURNTRIALWIDGETCONTROLLER___C__DISPLAYCLASS20_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B258FB0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityReturnTrialWidgetController___c__DisplayClass20_0_TypeDefinitionIndex = 67657;
+	inline static constexpr unsigned int UIActivityReturnTrialWidgetController___c__DisplayClass20_0_TypeDefinitionIndex = 85382;
 
 	class UIActivityReturnTrialWidgetController___c__DisplayClass20_0 : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::Int32>* avatarList; // 0x10
-		::MoleMole::UIActivityReturnTrialWidgetController* __4__this; // 0x18
-		::System::Action* __9__2; // 0x20
+		::MoleMole::UIActivityReturnTrialWidgetController* __4__this; // 0x10
+		::System::Action* __9__2; // 0x18
+		::System::Collections::Generic::List_1<::System::Int32>* avatarList; // 0x20
 
 		::System::Void _ctor()
 		{

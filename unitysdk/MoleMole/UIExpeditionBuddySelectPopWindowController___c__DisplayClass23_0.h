@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIExpeditionBuddySelectPopWindowController; }
 
-#define MOLEMOLE_UIEXPEDITIONBUDDYSELECTPOPWINDOWCONTROLLER___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19DAE090)
-#define MOLEMOLE_UIEXPEDITIONBUDDYSELECTPOPWINDOWCONTROLLER___C__DISPLAYCLASS23_0__ONUIINIT_B__4_OFFSET UNITYSDK_OFFSET(0x19DAE0A0)
+#define MOLEMOLE_UIEXPEDITIONBUDDYSELECTPOPWINDOWCONTROLLER___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19AAE0F0)
+#define MOLEMOLE_UIEXPEDITIONBUDDYSELECTPOPWINDOWCONTROLLER___C__DISPLAYCLASS23_0__ONUIINIT_B__4_OFFSET UNITYSDK_OFFSET(0x19AAE100)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIExpeditionBuddySelectPopWindowController___c__DisplayClass23_0_TypeDefinitionIndex = 53406;
+	inline static constexpr unsigned int UIExpeditionBuddySelectPopWindowController___c__DisplayClass23_0_TypeDefinitionIndex = 57709;
 
 	class UIExpeditionBuddySelectPopWindowController___c__DisplayClass23_0 : public ::System::Object
 	{

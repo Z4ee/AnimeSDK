@@ -10,21 +10,21 @@ namespace MoleMole::Cameras { class BangbooAdjustmentCameraConfig; }
 namespace Nap::NapECS { class EcsWorld; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define CLASS_1_92DACB0281238082_STRUCT_2_78CB21BCB4D02828_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x7FC560)
-#define CLASS_1_92DACB0281238082_STRUCT_2_78CB21BCB4D02828_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x283610)
+#define CLASS_1_92DACB0281238082_STRUCT_2_78CB21BCB4D02828_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x7BE470)
+#define CLASS_1_92DACB0281238082_STRUCT_2_78CB21BCB4D02828_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x296F30)
 
-inline static constexpr unsigned int Class_1_92DACB0281238082_Struct_2_78CB21BCB4D02828_TypeDefinitionIndex = 42151;
+inline static constexpr unsigned int Class_1_92DACB0281238082_Struct_2_78CB21BCB4D02828_TypeDefinitionIndex = 75578;
 
 struct alignas(8) Class_1_92DACB0281238082_Struct_2_78CB21BCB4D02828
 {
-	::Nap::NapECS::EcsWorld* Field_2_4; // 0x10
-	::PipelineCamera::ScopedDelegateHandle Field_2_6; // 0x18
-	::MoleMole::Cameras::BangbooAdjustmentCameraConfig* Field_2_5; // 0x20
-	::Class_1_92DACB0281238082* Field_2_2; // 0x28
-	::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskVoidMethodBuilder Field_2_1; // 0x30
-	::Cysharp::Threading::Tasks::UniTask_Awaiter Field_2_7; // 0x38
+	::MoleMole::Cameras::BangbooAdjustmentCameraConfig* Field_2_11; // 0x10
+	::Cysharp::Threading::Tasks::UniTask_Awaiter Field_2_9; // 0x18
+	::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskVoidMethodBuilder Field_2_7; // 0x28
+	::PipelineCamera::ScopedDelegateHandle Field_2_10; // 0x30
+	::Nap::NapECS::EcsWorld* Field_2_4; // 0x38
+	::Class_1_92DACB0281238082* Field_2_6; // 0x40
 	::System::Int32 Field_2_0; // 0x48
-	::System::UInt32 Field_2_3; // 0x4C
+	::System::UInt32 Field_2_5; // 0x4C
 
 	::System::Void MoveNext()
 	{

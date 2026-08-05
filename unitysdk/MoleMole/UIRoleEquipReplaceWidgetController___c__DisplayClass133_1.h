@@ -2,23 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_208CC9941471731A_137;
+class Class_2_208CC9941471731A_1027;
 namespace MoleMole { class UIGeneralTipsPopWindowController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIROLEEQUIPREPLACEWIDGETCONTROLLER___C__DISPLAYCLASS133_1__CTOR_OFFSET UNITYSDK_OFFSET(0x15F38690)
-#define MOLEMOLE_UIROLEEQUIPREPLACEWIDGETCONTROLLER___C__DISPLAYCLASS133_1__TRYSHOWPROFRESSIONLACKWEAPONTIP_G__SETGENERALCTRL_4_OFFSET UNITYSDK_OFFSET(0x15F386A0)
+#define MOLEMOLE_UIROLEEQUIPREPLACEWIDGETCONTROLLER___C__DISPLAYCLASS133_1__CTOR_OFFSET UNITYSDK_OFFSET(0x13001FF0)
+#define MOLEMOLE_UIROLEEQUIPREPLACEWIDGETCONTROLLER___C__DISPLAYCLASS133_1__TRYSHOWPROFRESSIONLACKWEAPONTIP_G__SETGENERALCTRL_4_OFFSET UNITYSDK_OFFSET(0x13002000)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRoleEquipReplaceWidgetController___c__DisplayClass133_1_TypeDefinitionIndex = 68220;
+	inline static constexpr unsigned int UIRoleEquipReplaceWidgetController___c__DisplayClass133_1_TypeDefinitionIndex = 52779;
 
 	class UIRoleEquipReplaceWidgetController___c__DisplayClass133_1 : public ::System::Object
 	{
 	public:
-		::System::Action* closeCb; // 0x10
-		::Class_2_208CC9941471731A_137* generalTip; // 0x18
-		::System::Action* okBtnCb; // 0x20
+		::System::Action* okBtnCb; // 0x10
+		::System::Action* closeCb; // 0x18
+		::Class_2_208CC9941471731A_1027* generalTip; // 0x20
 
 		::System::Void _ctor()
 		{

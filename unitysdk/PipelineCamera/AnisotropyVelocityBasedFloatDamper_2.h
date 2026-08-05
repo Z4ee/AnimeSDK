@@ -8,7 +8,7 @@ namespace System { template <typename T> class Func_1; }
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int AnisotropyVelocityBasedFloatDamper_2_TypeDefinitionIndex = 37664;
+	inline static constexpr unsigned int AnisotropyVelocityBasedFloatDamper_2_TypeDefinitionIndex = 38325;
 
 	template <typename T1, typename T2>
 	struct AnisotropyVelocityBasedFloatDamper_2

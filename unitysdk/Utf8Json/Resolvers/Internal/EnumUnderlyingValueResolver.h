@@ -5,19 +5,19 @@
 namespace Utf8Json { class IJsonFormatterResolver; }
 namespace Utf8Json { template <typename T> class IJsonFormatter_1; }
 
-#define UTF8JSON_RESOLVERS_INTERNAL_ENUMUNDERLYINGVALUERESOLVER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E3197C0)
-#define UTF8JSON_RESOLVERS_INTERNAL_ENUMUNDERLYINGVALUERESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E3197B0)
+#define UTF8JSON_RESOLVERS_INTERNAL_ENUMUNDERLYINGVALUERESOLVER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F749FF0)
+#define UTF8JSON_RESOLVERS_INTERNAL_ENUMUNDERLYINGVALUERESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F749FE0)
 
 namespace Utf8Json::Resolvers::Internal
 {
-	inline static constexpr unsigned int EnumUnderlyingValueResolver_TypeDefinitionIndex = 91170;
+	inline static constexpr unsigned int EnumUnderlyingValueResolver_TypeDefinitionIndex = 95103;
 
 	class EnumUnderlyingValueResolver : public ::System::Object
 	{
 	public:
 		static ::Utf8Json::IJsonFormatterResolver** StaticGet_Instance()
 		{
-			return (::Utf8Json::IJsonFormatterResolver**)Il2CppClass::FromTypeDefinitionIndex(EnumUnderlyingValueResolver_TypeDefinitionIndex)->GetStaticField(0x4E810);
+			return (::Utf8Json::IJsonFormatterResolver**)Il2CppClass::FromTypeDefinitionIndex(EnumUnderlyingValueResolver_TypeDefinitionIndex)->GetStaticField(0x529C0);
 		}
 
 		::System::Void _ctor()

@@ -8,7 +8,7 @@ namespace UnityEngine { class Shader; }
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ShaderVariantCollection_ShaderVariant_TypeDefinitionIndex = 5390;
+	inline static constexpr unsigned int ShaderVariantCollection_ShaderVariant_TypeDefinitionIndex = 5393;
 
 	struct alignas(8) ShaderVariantCollection_ShaderVariant
 	{

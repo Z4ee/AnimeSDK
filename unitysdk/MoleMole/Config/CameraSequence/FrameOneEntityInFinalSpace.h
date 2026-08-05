@@ -11,46 +11,46 @@ namespace PipelineCamera::CameraSequence { class CameraSequenceContext; }
 namespace PipelineCamera::CameraSequence { class FrameOnePointInFinalPolicy; }
 namespace System { template <typename T1, typename T2, typename T3, typename T4, typename T5> class Func_5; }
 
-#define MOLEMOLE_CONFIG_CAMERASEQUENCE_FRAMEONEENTITYINFINALSPACE_BUILDRUNTIMEDATAPROVIDERDATAPATH_OFFSET UNITYSDK_OFFSET(0x162A17B0)
-#define MOLEMOLE_CONFIG_CAMERASEQUENCE_FRAMEONEENTITYINFINALSPACE_COLLECTVARIABLE_OFFSET UNITYSDK_OFFSET(0x162A1820)
-#define MOLEMOLE_CONFIG_CAMERASEQUENCE_FRAMEONEENTITYINFINALSPACE_GETRATESCALE_OFFSET UNITYSDK_OFFSET(0x162A19D0)
-#define MOLEMOLE_CONFIG_CAMERASEQUENCE_FRAMEONEENTITYINFINALSPACE_GETSEQUENCEDATAINTERNAL_OFFSET UNITYSDK_OFFSET(0x162A1A70)
-#define MOLEMOLE_CONFIG_CAMERASEQUENCE_FRAMEONEENTITYINFINALSPACE_GETSEQUENCELENGTH_OFFSET UNITYSDK_OFFSET(0x162A1980)
-#define MOLEMOLE_CONFIG_CAMERASEQUENCE_FRAMEONEENTITYINFINALSPACE_GET_ISCONTEXTDEPENDENT_OFFSET UNITYSDK_OFFSET(0x162A1A60)
-#define MOLEMOLE_CONFIG_CAMERASEQUENCE_FRAMEONEENTITYINFINALSPACE_ISLOOP_OFFSET UNITYSDK_OFFSET(0x162A1A20)
-#define MOLEMOLE_CONFIG_CAMERASEQUENCE_FRAMEONEENTITYINFINALSPACE_METHOD_5_24B1E1DE85E3C92F_OFFSET UNITYSDK_OFFSET(0x162A2360)
-#define MOLEMOLE_CONFIG_CAMERASEQUENCE_FRAMEONEENTITYINFINALSPACE_METHOD_5_2C57E01B5F9E414E_OFFSET UNITYSDK_OFFSET(0x162A2410)
-#define MOLEMOLE_CONFIG_CAMERASEQUENCE_FRAMEONEENTITYINFINALSPACE_METHOD_5_2F1705F475D262C6_OFFSET UNITYSDK_OFFSET(0x162A1D60)
-#define MOLEMOLE_CONFIG_CAMERASEQUENCE_FRAMEONEENTITYINFINALSPACE_METHOD_5_67A0C6C4B5A4811F_OFFSET UNITYSDK_OFFSET(0x162A22B0)
-#define MOLEMOLE_CONFIG_CAMERASEQUENCE_FRAMEONEENTITYINFINALSPACE__CCTOR_OFFSET UNITYSDK_OFFSET(0x162A2190)
-#define MOLEMOLE_CONFIG_CAMERASEQUENCE_FRAMEONEENTITYINFINALSPACE__CTOR_OFFSET UNITYSDK_OFFSET(0x162A20F0)
+#define MOLEMOLE_CONFIG_CAMERASEQUENCE_FRAMEONEENTITYINFINALSPACE_BUILDRUNTIMEDATAPROVIDERDATAPATH_OFFSET UNITYSDK_OFFSET(0x16C34EC0)
+#define MOLEMOLE_CONFIG_CAMERASEQUENCE_FRAMEONEENTITYINFINALSPACE_COLLECTVARIABLE_OFFSET UNITYSDK_OFFSET(0x16C34F30)
+#define MOLEMOLE_CONFIG_CAMERASEQUENCE_FRAMEONEENTITYINFINALSPACE_GETRATESCALE_OFFSET UNITYSDK_OFFSET(0x16C350E0)
+#define MOLEMOLE_CONFIG_CAMERASEQUENCE_FRAMEONEENTITYINFINALSPACE_GETSEQUENCEDATAINTERNAL_OFFSET UNITYSDK_OFFSET(0x16C35180)
+#define MOLEMOLE_CONFIG_CAMERASEQUENCE_FRAMEONEENTITYINFINALSPACE_GETSEQUENCELENGTH_OFFSET UNITYSDK_OFFSET(0x16C35090)
+#define MOLEMOLE_CONFIG_CAMERASEQUENCE_FRAMEONEENTITYINFINALSPACE_GET_ISCONTEXTDEPENDENT_OFFSET UNITYSDK_OFFSET(0x16C35170)
+#define MOLEMOLE_CONFIG_CAMERASEQUENCE_FRAMEONEENTITYINFINALSPACE_ISLOOP_OFFSET UNITYSDK_OFFSET(0x16C35130)
+#define MOLEMOLE_CONFIG_CAMERASEQUENCE_FRAMEONEENTITYINFINALSPACE_METHOD_5_24B1E1DE85E3C92F_OFFSET UNITYSDK_OFFSET(0x16C35A70)
+#define MOLEMOLE_CONFIG_CAMERASEQUENCE_FRAMEONEENTITYINFINALSPACE_METHOD_5_2C57E01B5F9E414E_OFFSET UNITYSDK_OFFSET(0x16C35B20)
+#define MOLEMOLE_CONFIG_CAMERASEQUENCE_FRAMEONEENTITYINFINALSPACE_METHOD_5_2F1705F475D262C6_OFFSET UNITYSDK_OFFSET(0x16C35470)
+#define MOLEMOLE_CONFIG_CAMERASEQUENCE_FRAMEONEENTITYINFINALSPACE_METHOD_5_67A0C6C4B5A4811F_OFFSET UNITYSDK_OFFSET(0x16C359C0)
+#define MOLEMOLE_CONFIG_CAMERASEQUENCE_FRAMEONEENTITYINFINALSPACE__CCTOR_OFFSET UNITYSDK_OFFSET(0x16C358A0)
+#define MOLEMOLE_CONFIG_CAMERASEQUENCE_FRAMEONEENTITYINFINALSPACE__CTOR_OFFSET UNITYSDK_OFFSET(0x16C35800)
 
 namespace MoleMole::Config::CameraSequence
 {
-	inline static constexpr unsigned int FrameOneEntityInFinalSpace_TypeDefinitionIndex = 61190;
+	inline static constexpr unsigned int FrameOneEntityInFinalSpace_TypeDefinitionIndex = 68835;
 
 	class FrameOneEntityInFinalSpace : public ::PipelineCamera::CameraSequence::CoreDataSequence
 	{
 	public:
 		static ::System::Func_5<::MoleMole::Config::CameraSequence::FrameOneEntityInFinalSpace*, ::System::Single, ::PipelineCamera::WorldBasicCameraData, ::PipelineCamera::CameraSequence::CameraSequenceContext*, ::PipelineCamera::WorldBasicCameraData>** StaticGet_GetDataDelegate()
 		{
-			return (::System::Func_5<::MoleMole::Config::CameraSequence::FrameOneEntityInFinalSpace*, ::System::Single, ::PipelineCamera::WorldBasicCameraData, ::PipelineCamera::CameraSequence::CameraSequenceContext*, ::PipelineCamera::WorldBasicCameraData>**)Il2CppClass::FromTypeDefinitionIndex(FrameOneEntityInFinalSpace_TypeDefinitionIndex)->GetStaticField(0x44980);
-		}
-		static ::Foundation::Unreal::FName* StaticGet_CachedId()
-		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(FrameOneEntityInFinalSpace_TypeDefinitionIndex)->GetStaticField(0x10A00);
-		}
-		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_resampleEachTime()
-		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(FrameOneEntityInFinalSpace_TypeDefinitionIndex)->GetStaticField(0x10A08);
+			return (::System::Func_5<::MoleMole::Config::CameraSequence::FrameOneEntityInFinalSpace*, ::System::Single, ::PipelineCamera::WorldBasicCameraData, ::PipelineCamera::CameraSequence::CameraSequenceContext*, ::PipelineCamera::WorldBasicCameraData>**)Il2CppClass::FromTypeDefinitionIndex(FrameOneEntityInFinalSpace_TypeDefinitionIndex)->GetStaticField(0x487E0);
 		}
 		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_EntityId()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(FrameOneEntityInFinalSpace_TypeDefinitionIndex)->GetStaticField(0x10A10);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(FrameOneEntityInFinalSpace_TypeDefinitionIndex)->GetStaticField(0x10C50);
+		}
+		static ::Foundation::Unreal::FName* StaticGet_CachedId()
+		{
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(FrameOneEntityInFinalSpace_TypeDefinitionIndex)->GetStaticField(0x10C58);
 		}
 		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_EntityWorld()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(FrameOneEntityInFinalSpace_TypeDefinitionIndex)->GetStaticField(0x10A18);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(FrameOneEntityInFinalSpace_TypeDefinitionIndex)->GetStaticField(0x10C60);
+		}
+		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_resampleEachTime()
+		{
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(FrameOneEntityInFinalSpace_TypeDefinitionIndex)->GetStaticField(0x10C68);
 		}
 		::System::Single playLength; // 0x18
 		::System::Boolean resampleEachTime; // 0x1C

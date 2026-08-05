@@ -3,7 +3,7 @@
 
 namespace NodeCanvas::Framework
 {
-	inline static constexpr unsigned int GlobalBlackboard_SingletonMode_TypeDefinitionIndex = 29172;
+	inline static constexpr unsigned int GlobalBlackboard_SingletonMode_TypeDefinitionIndex = 31037;
 
 	enum class GlobalBlackboard_SingletonMode : ::System::Int32
 	{

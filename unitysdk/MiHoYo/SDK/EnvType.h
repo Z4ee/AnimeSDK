@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int EnvType_TypeDefinitionIndex = 19843;
+	inline static constexpr unsigned int EnvType_TypeDefinitionIndex = 20191;
 
 	enum class EnvType : ::System::Int32
 	{

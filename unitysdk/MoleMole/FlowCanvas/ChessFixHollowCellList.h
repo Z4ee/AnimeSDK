@@ -5,12 +5,12 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_FLOWCANVAS_CHESSFIXHOLLOWCELLLIST_INVOKE_OFFSET UNITYSDK_OFFSET(0x18B15E40)
-#define MOLEMOLE_FLOWCANVAS_CHESSFIXHOLLOWCELLLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x18B15F80)
+#define MOLEMOLE_FLOWCANVAS_CHESSFIXHOLLOWCELLLIST_INVOKE_OFFSET UNITYSDK_OFFSET(0x118AAAA0)
+#define MOLEMOLE_FLOWCANVAS_CHESSFIXHOLLOWCELLLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x118AABE0)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int ChessFixHollowCellList_TypeDefinitionIndex = 74947;
+	inline static constexpr unsigned int ChessFixHollowCellList_TypeDefinitionIndex = 64105;
 
 	class ChessFixHollowCellList : public ::MoleMole::FlowCanvas::ChessboardCallableActionNode_1<::System::Collections::Generic::List_1<::MoleMole::HollowChessboard::HollowCell>*>
 	{

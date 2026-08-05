@@ -6,18 +6,18 @@
 #include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_E49F248F40AB68D1_BEFORERECYCLE_OFFSET UNITYSDK_OFFSET(0x1620AB10)
-#define CLASS_1_E49F248F40AB68D1_METHOD_1_AA2D3E889C8A52CA_OFFSET UNITYSDK_OFFSET(0x1620AB50)
-#define CLASS_1_E49F248F40AB68D1__CTOR_OFFSET UNITYSDK_OFFSET(0x1620ABC0)
+#define CLASS_1_E49F248F40AB68D1_BEFORERECYCLE_OFFSET UNITYSDK_OFFSET(0x182522D0)
+#define CLASS_1_E49F248F40AB68D1_METHOD_1_AA2D3E889C8A52CA_OFFSET UNITYSDK_OFFSET(0x18252310)
+#define CLASS_1_E49F248F40AB68D1__CTOR_OFFSET UNITYSDK_OFFSET(0x18252380)
 
-inline static constexpr unsigned int Class_1_E49F248F40AB68D1_TypeDefinitionIndex = 56953;
+inline static constexpr unsigned int Class_1_E49F248F40AB68D1_TypeDefinitionIndex = 55125;
 
 class Class_1_E49F248F40AB68D1 : public ::System::Object
 {
 public:
-	::System::Nullable_1<::MoleMole::HollowChessboard::ColorModifyBlendData> Field_1_2; // 0x10
-	::MoleMole::HollowChessboard::RangeMask Field_1_0; // 0x50
-	::MoleMole::HollowChessboard::ColorModifyInfo Field_1_1; // 0x54
+	::System::Nullable_1<::MoleMole::HollowChessboard::ColorModifyBlendData> Field_1_0; // 0x10
+	::MoleMole::HollowChessboard::ColorModifyInfo Field_1_1; // 0x50
+	::MoleMole::HollowChessboard::RangeMask Field_1_2; // 0x80
 
 	::System::Void _ctor()
 	{

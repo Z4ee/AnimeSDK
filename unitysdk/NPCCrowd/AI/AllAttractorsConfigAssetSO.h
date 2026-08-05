@@ -6,11 +6,11 @@
 
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define NPCCROWD_AI_ALLATTRACTORSCONFIGASSETSO__CTOR_OFFSET UNITYSDK_OFFSET(0x10296C70)
+#define NPCCROWD_AI_ALLATTRACTORSCONFIGASSETSO__CTOR_OFFSET UNITYSDK_OFFSET(0xE555AB0)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int AllAttractorsConfigAssetSO_TypeDefinitionIndex = 40455;
+	inline static constexpr unsigned int AllAttractorsConfigAssetSO_TypeDefinitionIndex = 70060;
 
 	class AllAttractorsConfigAssetSO : public ::Sirenix::OdinInspector::SerializedScriptableObject
 	{

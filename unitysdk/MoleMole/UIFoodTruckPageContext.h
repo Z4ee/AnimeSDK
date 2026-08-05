@@ -2,17 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIFOODTRUCKPAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16A8C550)
+#define MOLEMOLE_UIFOODTRUCKPAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18805310)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIFoodTruckPageContext_TypeDefinitionIndex = 43607;
+	inline static constexpr unsigned int UIFoodTruckPageContext_TypeDefinitionIndex = 84502;
 
 	class UIFoodTruckPageContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::System::Int32 TaskDayID; // 0x28
-		::System::Int32 JumpPage; // 0x2C
+		::System::Int32 JumpPage; // 0x28
+		::System::Int32 TaskDayID; // 0x2C
 
 		::System::Void _ctor()
 		{

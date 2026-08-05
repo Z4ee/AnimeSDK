@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int REAL_NAME_DIALOG_TYPE_TypeDefinitionIndex = 19857;
+	inline static constexpr unsigned int REAL_NAME_DIALOG_TYPE_TypeDefinitionIndex = 20205;
 
 	enum class REAL_NAME_DIALOG_TYPE : ::System::Int32
 	{

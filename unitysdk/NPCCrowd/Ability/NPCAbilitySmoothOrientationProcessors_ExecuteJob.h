@@ -7,11 +7,11 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/Unity/Collections/NativeArray_1.h"
 
-#define NPCCROWD_ABILITY_NPCABILITYSMOOTHORIENTATIONPROCESSORS_EXECUTEJOB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x748600)
+#define NPCCROWD_ABILITY_NPCABILITYSMOOTHORIENTATIONPROCESSORS_EXECUTEJOB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x60A080)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int NPCAbilitySmoothOrientationProcessors_ExecuteJob_TypeDefinitionIndex = 58115;
+	inline static constexpr unsigned int NPCAbilitySmoothOrientationProcessors_ExecuteJob_TypeDefinitionIndex = 55479;
 
 	struct alignas(8) NPCAbilitySmoothOrientationProcessors_ExecuteJob
 	{

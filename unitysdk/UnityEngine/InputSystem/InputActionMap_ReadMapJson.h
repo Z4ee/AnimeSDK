@@ -8,7 +8,7 @@ namespace System { class String; }
 
 namespace UnityEngine::InputSystem
 {
-	inline static constexpr unsigned int InputActionMap_ReadMapJson_TypeDefinitionIndex = 31542;
+	inline static constexpr unsigned int InputActionMap_ReadMapJson_TypeDefinitionIndex = 32162;
 
 	struct alignas(8) InputActionMap_ReadMapJson
 	{

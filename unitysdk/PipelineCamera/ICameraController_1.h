@@ -10,7 +10,7 @@ namespace System { class String; }
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int ICameraController_1_TypeDefinitionIndex = 37559;
+	inline static constexpr unsigned int ICameraController_1_TypeDefinitionIndex = 38220;
 
 	template <typename TController>
 	class ICameraController_1

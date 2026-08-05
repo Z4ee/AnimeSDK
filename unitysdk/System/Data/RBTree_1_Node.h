@@ -5,7 +5,7 @@
 
 namespace System::Data
 {
-	inline static constexpr unsigned int RBTree_1_Node_TypeDefinitionIndex = 38666;
+	inline static constexpr unsigned int RBTree_1_Node_TypeDefinitionIndex = 39327;
 
 	template <typename K>
 	struct RBTree_1_Node

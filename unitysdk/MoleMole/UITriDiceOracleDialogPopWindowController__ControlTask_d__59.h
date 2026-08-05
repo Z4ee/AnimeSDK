@@ -7,12 +7,12 @@
 namespace MoleMole { class UITriDiceOracleDialogPopWindowController; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define MOLEMOLE_UITRIDICEORACLEDIALOGPOPWINDOWCONTROLLER__CONTROLTASK_D__59_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x7F71A0)
-#define MOLEMOLE_UITRIDICEORACLEDIALOGPOPWINDOWCONTROLLER__CONTROLTASK_D__59_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x283610)
+#define MOLEMOLE_UITRIDICEORACLEDIALOGPOPWINDOWCONTROLLER__CONTROLTASK_D__59_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x817360)
+#define MOLEMOLE_UITRIDICEORACLEDIALOGPOPWINDOWCONTROLLER__CONTROLTASK_D__59_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x296F30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UITriDiceOracleDialogPopWindowController__ControlTask_d__59_TypeDefinitionIndex = 45213;
+	inline static constexpr unsigned int UITriDiceOracleDialogPopWindowController__ControlTask_d__59_TypeDefinitionIndex = 89295;
 
 	struct alignas(8) UITriDiceOracleDialogPopWindowController__ControlTask_d__59
 	{

@@ -4,7 +4,7 @@
 
 namespace NPCCrowd
 {
-	inline static constexpr unsigned int NPCCrowdSpawnManager_FarthestDespawnCandidate_TypeDefinitionIndex = 52258;
+	inline static constexpr unsigned int NPCCrowdSpawnManager_FarthestDespawnCandidate_TypeDefinitionIndex = 48993;
 
 	struct alignas(4) NPCCrowdSpawnManager_FarthestDespawnCandidate
 	{

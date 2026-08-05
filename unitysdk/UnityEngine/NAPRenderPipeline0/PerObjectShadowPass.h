@@ -1,6 +1,5 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/DirtyCache_1.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderPassEvent.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
@@ -11,103 +10,41 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class ComputeBuffer; }
 namespace UnityEngine::NAPRenderPipeline0 { class ProfilingSampler; }
-namespace UnityEngine::Profiling { class CustomSampler; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
+namespace UnityEngine::Rendering::Universal::Internal { class CpuFloatParams; }
+namespace UnityEngine::Rendering::Universal::Internal { class CpuVector4Params; }
+namespace UnityEngine::Rendering::Universal::Internal { class ICpuParams; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_PEROBJECTSHADOWPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1BDA7CA0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_PEROBJECTSHADOWPASS_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1BDAA3D0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_PEROBJECTSHADOWPASS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BDAA480)
-#define UNITYENGINE_NAPRENDERPIPELINE0_PEROBJECTSHADOWPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDA7B80)
-#define UNITYENGINE_NAPRENDERPIPELINE0_PEROBJECTSHADOWPASS___BASE_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1BDAA6E0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_PEROBJECTSHADOWPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1CEE2870)
+#define UNITYENGINE_NAPRENDERPIPELINE0_PEROBJECTSHADOWPASS_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1CEE5960)
+#define UNITYENGINE_NAPRENDERPIPELINE0_PEROBJECTSHADOWPASS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CEE5A10)
+#define UNITYENGINE_NAPRENDERPIPELINE0_PEROBJECTSHADOWPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1CEE2460)
+#define UNITYENGINE_NAPRENDERPIPELINE0_PEROBJECTSHADOWPASS___BASE_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1CEE5A80)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int PerObjectShadowPass_TypeDefinitionIndex = 26956;
+	inline static constexpr unsigned int PerObjectShadowPass_TypeDefinitionIndex = 27527;
 
 	class PerObjectShadowPass : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 	{
 	public:
-		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_ResetGlobalVariables()
-		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(PerObjectShadowPass_TypeDefinitionIndex)->GetStaticField(0x21410);
-		}
-		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_SetGlobalVariables()
-		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(PerObjectShadowPass_TypeDefinitionIndex)->GetStaticField(0x21418);
-		}
-		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_CheckRendererMaterialAndDraw()
-		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(PerObjectShadowPass_TypeDefinitionIndex)->GetStaticField(0x21420);
-		}
-		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_CheckMaterialNeedDraw()
-		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(PerObjectShadowPass_TypeDefinitionIndex)->GetStaticField(0x21428);
-		}
-		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_CheckIsValid()
-		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(PerObjectShadowPass_TypeDefinitionIndex)->GetStaticField(0x21430);
-		}
-		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_GetCachedSharedMaterials()
-		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(PerObjectShadowPass_TypeDefinitionIndex)->GetStaticField(0x21438);
-		}
 		static ::UnityEngine::ComputeBuffer** StaticGet_dummyUAV()
 		{
-			return (::UnityEngine::ComputeBuffer**)Il2CppClass::FromTypeDefinitionIndex(PerObjectShadowPass_TypeDefinitionIndex)->GetStaticField(0x21440);
-		}
-		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_CreateBuffer()
-		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(PerObjectShadowPass_TypeDefinitionIndex)->GetStaticField(0x21448);
-		}
-		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_ResetViewport()
-		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(PerObjectShadowPass_TypeDefinitionIndex)->GetStaticField(0x21450);
-		}
-		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_SetViewport()
-		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(PerObjectShadowPass_TypeDefinitionIndex)->GetStaticField(0x21458);
-		}
-		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_GetSubMeshCount()
-		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(PerObjectShadowPass_TypeDefinitionIndex)->GetStaticField(0x21460);
-		}
-		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_SetPerEntityVariables()
-		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(PerObjectShadowPass_TypeDefinitionIndex)->GetStaticField(0x21468);
-		}
-		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_CheckRendererNeedDraw()
-		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(PerObjectShadowPass_TypeDefinitionIndex)->GetStaticField(0x21470);
-		}
-		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_GetIPerObjectShadowRenderer()
-		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(PerObjectShadowPass_TypeDefinitionIndex)->GetStaticField(0x21478);
+			return (::UnityEngine::ComputeBuffer**)Il2CppClass::FromTypeDefinitionIndex(PerObjectShadowPass_TypeDefinitionIndex)->GetStaticField(0x22CB0);
 		}
 		static ::System::Collections::Generic::List_1<::UnityEngine::Vector4>** StaticGet_dummyUAVData()
 		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Vector4>**)Il2CppClass::FromTypeDefinitionIndex(PerObjectShadowPass_TypeDefinitionIndex)->GetStaticField(0x21480);
-		}
-		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_SetRenderTarget()
-		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(PerObjectShadowPass_TypeDefinitionIndex)->GetStaticField(0x21488);
-		}
-		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_CheckMaterialNeedDrawAndDrawRenderer()
-		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(PerObjectShadowPass_TypeDefinitionIndex)->GetStaticField(0x21490);
-		}
-		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_CheckIsMaterialAlive()
-		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(PerObjectShadowPass_TypeDefinitionIndex)->GetStaticField(0x21498);
-		}
-		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_CommandDrawRenderer()
-		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(PerObjectShadowPass_TypeDefinitionIndex)->GetStaticField(0x214A0);
-		}
-		static ::UnityEngine::NAPRenderPipeline0::DirtyCache_1<::System::Single>* StaticGet_depthBiasCache()
-		{
-			return (::UnityEngine::NAPRenderPipeline0::DirtyCache_1<::System::Single>*)Il2CppClass::FromTypeDefinitionIndex(PerObjectShadowPass_TypeDefinitionIndex)->GetStaticField(0x60E0);
+			return (::System::Collections::Generic::List_1<::UnityEngine::Vector4>**)Il2CppClass::FromTypeDefinitionIndex(PerObjectShadowPass_TypeDefinitionIndex)->GetStaticField(0x22CB8);
 		}
 		::UnityEngine::NAPRenderPipeline0::ProfilingSampler* profilingSampler; // 0xA8
+		::UnityEngine::Rendering::Universal::Internal::CpuFloatParams* PerObjectShadowDepthBias; // 0xB0
+		::UnityEngine::Rendering::Universal::Internal::CpuFloatParams* PerObjectShadowOptimizeBias; // 0xB8
+		::UnityEngine::Rendering::Universal::Internal::CpuVector4Params* PerObjectShadowPassOffsetWS; // 0xC0
+		::UnityEngine::Rendering::Universal::Internal::CpuVector4Params* ShadowPartsIDs; // 0xC8
+		::UnityEngine::Rendering::Universal::Internal::CpuFloatParams* PerObjectShadowTargetIndex; // 0xD0
+		::UnityEngine::Rendering::Universal::Internal::CpuVector4Params* PerObjectShadowAtlasSize; // 0xD8
+		::System::Collections::Generic::List_1<::UnityEngine::Rendering::Universal::Internal::ICpuParams*>* m_CpuParamsList; // 0xE0
+		::UnityEngine::Rendering::Universal::Internal::CpuFloatParams* PerObjectShadowFade; // 0xE8
 
 		::System::Void _ctor(::UnityEngine::NAPRenderPipeline0::RenderPassEvent renderPassEvent)
 		{

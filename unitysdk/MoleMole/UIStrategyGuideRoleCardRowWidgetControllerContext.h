@@ -6,20 +6,20 @@
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UISTRATEGYGUIDEROLECARDROWWIDGETCONTROLLERCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1381AC90)
+#define MOLEMOLE_UISTRATEGYGUIDEROLECARDROWWIDGETCONTROLLERCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15F7D430)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIStrategyGuideRoleCardRowWidgetControllerContext_TypeDefinitionIndex = 72870;
+	inline static constexpr unsigned int UIStrategyGuideRoleCardRowWidgetControllerContext_TypeDefinitionIndex = 53283;
 
 	class UIStrategyGuideRoleCardRowWidgetControllerContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::System::Action_1<::System::UInt32>* OnStrategyBtnClick; // 0x28
-		::System::Collections::Generic::List_1<::System::UInt32>* AvatarListId; // 0x30
-		::System::Boolean IsPreviewMode; // 0x38
-		::System::Nullable_1<::System::UInt32> AvatarId; // 0x3C
-		::System::UInt32 PageAvatarId; // 0x44
+		::System::Collections::Generic::List_1<::System::UInt32>* AvatarListId; // 0x28
+		::System::Action_1<::System::UInt32>* OnStrategyBtnClick; // 0x30
+		::System::Nullable_1<::System::UInt32> AvatarId; // 0x38
+		::System::UInt32 PageAvatarId; // 0x40
+		::System::Boolean IsPreviewMode; // 0x44
 
 		::System::Void _ctor()
 		{

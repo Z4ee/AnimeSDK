@@ -5,7 +5,7 @@
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriStructMemory_1_TypeDefinitionIndex = 34256;
+	inline static constexpr unsigned int CriStructMemory_1_TypeDefinitionIndex = 34902;
 
 	template <typename Type>
 	class CriStructMemory_1 : public ::System::Object

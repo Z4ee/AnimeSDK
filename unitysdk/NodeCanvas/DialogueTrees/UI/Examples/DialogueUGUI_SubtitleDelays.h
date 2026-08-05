@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define NODECANVAS_DIALOGUETREES_UI_EXAMPLES_DIALOGUEUGUI_SUBTITLEDELAYS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8204C0)
+#define NODECANVAS_DIALOGUETREES_UI_EXAMPLES_DIALOGUEUGUI_SUBTITLEDELAYS__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB928A0)
 
 namespace NodeCanvas::DialogueTrees::UI::Examples
 {
-	inline static constexpr unsigned int DialogueUGUI_SubtitleDelays_TypeDefinitionIndex = 30808;
+	inline static constexpr unsigned int DialogueUGUI_SubtitleDelays_TypeDefinitionIndex = 31478;
 
 	class DialogueUGUI_SubtitleDelays : public ::System::Object
 	{

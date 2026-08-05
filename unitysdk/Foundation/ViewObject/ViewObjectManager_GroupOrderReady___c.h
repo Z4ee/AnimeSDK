@@ -5,24 +5,24 @@
 
 namespace System { template <typename T> class Comparison_1; }
 
-#define FOUNDATION_VIEWOBJECT_VIEWOBJECTMANAGER_GROUPORDERREADY___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x10F2E890)
-#define FOUNDATION_VIEWOBJECT_VIEWOBJECTMANAGER_GROUPORDERREADY___C__CTOR_OFFSET UNITYSDK_OFFSET(0x10F2E8D0)
-#define FOUNDATION_VIEWOBJECT_VIEWOBJECTMANAGER_GROUPORDERREADY___C__SHOOTCACHEVO_B__13_0_OFFSET UNITYSDK_OFFSET(0x10F2E8E0)
+#define FOUNDATION_VIEWOBJECT_VIEWOBJECTMANAGER_GROUPORDERREADY___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x13274B10)
+#define FOUNDATION_VIEWOBJECT_VIEWOBJECTMANAGER_GROUPORDERREADY___C__CTOR_OFFSET UNITYSDK_OFFSET(0x13274B50)
+#define FOUNDATION_VIEWOBJECT_VIEWOBJECTMANAGER_GROUPORDERREADY___C__SHOOTCACHEVO_B__13_0_OFFSET UNITYSDK_OFFSET(0x13274B60)
 
 namespace Foundation::ViewObject
 {
-	inline static constexpr unsigned int ViewObjectManager_GroupOrderReady___c_TypeDefinitionIndex = 73617;
+	inline static constexpr unsigned int ViewObjectManager_GroupOrderReady___c_TypeDefinitionIndex = 55564;
 
 	class ViewObjectManager_GroupOrderReady___c : public ::System::Object
 	{
 	public:
-		static ::Foundation::ViewObject::ViewObjectManager_GroupOrderReady___c** StaticGet___9()
-		{
-			return (::Foundation::ViewObject::ViewObjectManager_GroupOrderReady___c**)Il2CppClass::FromTypeDefinitionIndex(ViewObjectManager_GroupOrderReady___c_TypeDefinitionIndex)->GetStaticField(0x3DE80);
-		}
 		static ::System::Comparison_1<::Foundation::ViewObject::ViewObjectHandle>** StaticGet___9__13_0()
 		{
-			return (::System::Comparison_1<::Foundation::ViewObject::ViewObjectHandle>**)Il2CppClass::FromTypeDefinitionIndex(ViewObjectManager_GroupOrderReady___c_TypeDefinitionIndex)->GetStaticField(0x3DE88);
+			return (::System::Comparison_1<::Foundation::ViewObject::ViewObjectHandle>**)Il2CppClass::FromTypeDefinitionIndex(ViewObjectManager_GroupOrderReady___c_TypeDefinitionIndex)->GetStaticField(0x3E840);
+		}
+		static ::Foundation::ViewObject::ViewObjectManager_GroupOrderReady___c** StaticGet___9()
+		{
+			return (::Foundation::ViewObject::ViewObjectManager_GroupOrderReady___c**)Il2CppClass::FromTypeDefinitionIndex(ViewObjectManager_GroupOrderReady___c_TypeDefinitionIndex)->GetStaticField(0x3E848);
 		}
 
 		static ::System::Void _cctor()

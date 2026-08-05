@@ -8,7 +8,7 @@ namespace System { class Object; }
 
 namespace Sirenix::Utilities
 {
-	inline static constexpr unsigned int WeakValueSetter_1_TypeDefinitionIndex = 6482;
+	inline static constexpr unsigned int WeakValueSetter_1_TypeDefinitionIndex = 6486;
 
 	template <typename FieldType>
 	class WeakValueSetter_1 : public ::System::MulticastDelegate

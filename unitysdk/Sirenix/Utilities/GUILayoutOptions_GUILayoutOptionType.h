@@ -3,7 +3,7 @@
 
 namespace Sirenix::Utilities
 {
-	inline static constexpr unsigned int GUILayoutOptions_GUILayoutOptionType_TypeDefinitionIndex = 6487;
+	inline static constexpr unsigned int GUILayoutOptions_GUILayoutOptionType_TypeDefinitionIndex = 6491;
 
 	enum class GUILayoutOptions_GUILayoutOptionType : ::System::Int32
 	{

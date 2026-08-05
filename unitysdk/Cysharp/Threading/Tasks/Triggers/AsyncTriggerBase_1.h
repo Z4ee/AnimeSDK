@@ -9,7 +9,7 @@ namespace Cysharp::Threading::Tasks { template <typename T> class IUniTaskAsyncE
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
-	inline static constexpr unsigned int AsyncTriggerBase_1_TypeDefinitionIndex = 31317;
+	inline static constexpr unsigned int AsyncTriggerBase_1_TypeDefinitionIndex = 31937;
 
 	template <typename T>
 	class AsyncTriggerBase_1 : public ::UnityEngine::MonoBehaviour

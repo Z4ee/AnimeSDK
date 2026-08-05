@@ -7,25 +7,25 @@ namespace ParadoxNotion::Serialization::FullSerializer { class fsSerializer; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Object; }
 
-#define PARADOXNOTION_SERIALIZATION_GRAPH_BINARYSERIALIZER_V2_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1CC4E9E0)
-#define PARADOXNOTION_SERIALIZATION_GRAPH_BINARYSERIALIZER_V2_FLUSHMEM_OFFSET UNITYSDK_OFFSET(0x1CC4E460)
-#define PARADOXNOTION_SERIALIZATION_GRAPH_BINARYSERIALIZER_V2_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1CC4E4D0)
-#define PARADOXNOTION_SERIALIZATION_GRAPH_BINARYSERIALIZER_V2__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CC4E3F0)
+#define PARADOXNOTION_SERIALIZATION_GRAPH_BINARYSERIALIZER_V2_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1DFE3C20)
+#define PARADOXNOTION_SERIALIZATION_GRAPH_BINARYSERIALIZER_V2_FLUSHMEM_OFFSET UNITYSDK_OFFSET(0x1DFE36A0)
+#define PARADOXNOTION_SERIALIZATION_GRAPH_BINARYSERIALIZER_V2_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1DFE3710)
+#define PARADOXNOTION_SERIALIZATION_GRAPH_BINARYSERIALIZER_V2__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DFE3630)
 
 namespace ParadoxNotion::Serialization
 {
-	inline static constexpr unsigned int Graph_BinarySerializer_V2_TypeDefinitionIndex = 30079;
+	inline static constexpr unsigned int Graph_BinarySerializer_V2_TypeDefinitionIndex = 31197;
 
 	class Graph_BinarySerializer_V2 : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet_s_lock()
 		{
-			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(Graph_BinarySerializer_V2_TypeDefinitionIndex)->GetStaticField(0x24040);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(Graph_BinarySerializer_V2_TypeDefinitionIndex)->GetStaticField(0x257C0);
 		}
 		static ::ParadoxNotion::Serialization::FullSerializer::fsSerializer** StaticGet_s_serializer()
 		{
-			return (::ParadoxNotion::Serialization::FullSerializer::fsSerializer**)Il2CppClass::FromTypeDefinitionIndex(Graph_BinarySerializer_V2_TypeDefinitionIndex)->GetStaticField(0x24048);
+			return (::ParadoxNotion::Serialization::FullSerializer::fsSerializer**)Il2CppClass::FromTypeDefinitionIndex(Graph_BinarySerializer_V2_TypeDefinitionIndex)->GetStaticField(0x257C8);
 		}
 
 		static ::System::Void _cctor()

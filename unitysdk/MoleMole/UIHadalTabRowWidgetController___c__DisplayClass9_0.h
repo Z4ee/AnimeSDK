@@ -5,12 +5,12 @@
 namespace MoleMole { class UIHadalGuideWidgetController_HadalTabData; }
 namespace MoleMole { class UIHadalTabRowWidgetController; }
 
-#define MOLEMOLE_UIHADALTABROWWIDGETCONTROLLER___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x186D0FC0)
-#define MOLEMOLE_UIHADALTABROWWIDGETCONTROLLER___C__DISPLAYCLASS9_0__SETTABDATA_B__0_OFFSET UNITYSDK_OFFSET(0x186D0FD0)
+#define MOLEMOLE_UIHADALTABROWWIDGETCONTROLLER___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x199D39E0)
+#define MOLEMOLE_UIHADALTABROWWIDGETCONTROLLER___C__DISPLAYCLASS9_0__SETTABDATA_B__0_OFFSET UNITYSDK_OFFSET(0x199D39F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHadalTabRowWidgetController___c__DisplayClass9_0_TypeDefinitionIndex = 68162;
+	inline static constexpr unsigned int UIHadalTabRowWidgetController___c__DisplayClass9_0_TypeDefinitionIndex = 84873;
 
 	class UIHadalTabRowWidgetController___c__DisplayClass9_0 : public ::System::Object
 	{

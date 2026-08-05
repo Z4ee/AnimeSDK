@@ -3,14 +3,14 @@
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int ESceneObjectProxyType_TypeDefinitionIndex = 26568;
+	inline static constexpr unsigned int ESceneObjectProxyType_TypeDefinitionIndex = 27926;
 
 	enum class ESceneObjectProxyType : ::System::Int32
 	{
+		PlatformTrigger = 4,
+		EmissionIntensityTrigger = 3,
 		LightIntensityTrigger = 2,
 		WeatherTrigger = 1,
-		EmissionIntensityTrigger = 3,
 		LightTrigger = 0,
-		PlatformTrigger = 4,
 	};
 }

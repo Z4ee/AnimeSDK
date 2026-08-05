@@ -5,24 +5,24 @@
 class Class_1_0D6706375CDAAE8C;
 namespace System { template <typename T> class Comparison_1; }
 
-#define MOLEMOLE_UIGENERALUPDIALOGPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x166F3A80)
-#define MOLEMOLE_UIGENERALUPDIALOGPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x166F3AC0)
-#define MOLEMOLE_UIGENERALUPDIALOGPOPWINDOWCONTROLLER___C__REFRESHVIEW_B__19_0_OFFSET UNITYSDK_OFFSET(0x166F3AD0)
+#define MOLEMOLE_UIGENERALUPDIALOGPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18EC0160)
+#define MOLEMOLE_UIGENERALUPDIALOGPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18EC01A0)
+#define MOLEMOLE_UIGENERALUPDIALOGPOPWINDOWCONTROLLER___C__REFRESHVIEW_B__19_0_OFFSET UNITYSDK_OFFSET(0x18EC01B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralUpDialogPopWindowController___c_TypeDefinitionIndex = 43512;
+	inline static constexpr unsigned int UIGeneralUpDialogPopWindowController___c_TypeDefinitionIndex = 84597;
 
 	class UIGeneralUpDialogPopWindowController___c : public ::System::Object
 	{
 	public:
 		static ::MoleMole::UIGeneralUpDialogPopWindowController___c** StaticGet___9()
 		{
-			return (::MoleMole::UIGeneralUpDialogPopWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UIGeneralUpDialogPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x37A50);
+			return (::MoleMole::UIGeneralUpDialogPopWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UIGeneralUpDialogPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x3A3E0);
 		}
 		static ::System::Comparison_1<::Class_1_0D6706375CDAAE8C*>** StaticGet___9__19_0()
 		{
-			return (::System::Comparison_1<::Class_1_0D6706375CDAAE8C*>**)Il2CppClass::FromTypeDefinitionIndex(UIGeneralUpDialogPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x37A58);
+			return (::System::Comparison_1<::Class_1_0D6706375CDAAE8C*>**)Il2CppClass::FromTypeDefinitionIndex(UIGeneralUpDialogPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x3A3E8);
 		}
 
 		static ::System::Void _cctor()

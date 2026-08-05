@@ -5,21 +5,21 @@
 namespace MoleMole::Config { class ConfigEntityTimeSlow; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_UTILS_CAMERASEQUENCE_PLAYTIMESLOWUTILS___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC939130)
-#define MOLEMOLE_UTILS_CAMERASEQUENCE_PLAYTIMESLOWUTILS___C__DISPLAYCLASS1_0__PROCESSMAXSTARTTIME_B__0_OFFSET UNITYSDK_OFFSET(0xC939140)
+#define MOLEMOLE_UTILS_CAMERASEQUENCE_PLAYTIMESLOWUTILS___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x174C1720)
+#define MOLEMOLE_UTILS_CAMERASEQUENCE_PLAYTIMESLOWUTILS___C__DISPLAYCLASS1_0__PROCESSMAXSTARTTIME_B__0_OFFSET UNITYSDK_OFFSET(0x174C1730)
 
 namespace MoleMole::Utils::CameraSequence
 {
-	inline static constexpr unsigned int PlayTimeSlowUtils___c__DisplayClass1_0_TypeDefinitionIndex = 41085;
+	inline static constexpr unsigned int PlayTimeSlowUtils___c__DisplayClass1_0_TypeDefinitionIndex = 58636;
 
 	class PlayTimeSlowUtils___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:
-		::UnityEngine::AnimationCurve* startCurve; // 0x10
-		::MoleMole::Config::ConfigEntityTimeSlow* config; // 0x18
+		::MoleMole::Config::ConfigEntityTimeSlow* config; // 0x10
+		::UnityEngine::AnimationCurve* startCurve; // 0x18
 		::System::Single delayTime; // 0x20
-		::System::Single maxStartTime; // 0x24
-		::System::Single startTime; // 0x28
+		::System::Single startTime; // 0x24
+		::System::Single maxStartTime; // 0x28
 
 		::System::Void _ctor()
 		{

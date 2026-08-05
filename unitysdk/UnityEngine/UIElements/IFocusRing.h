@@ -7,7 +7,7 @@ namespace UnityEngine::UIElements { class Focusable; }
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int IFocusRing_TypeDefinitionIndex = 27447;
+	inline static constexpr unsigned int IFocusRing_TypeDefinitionIndex = 28049;
 
 	class IFocusRing
 	{

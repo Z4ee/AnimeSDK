@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace UnityEngine::Rendering::Universal { class OverrideWeatherConfigScriptableObject; }
 
-#define MOLEMOLE_DYNAMICOVERRIDEWEATHERENTRY_ISVALID_OFFSET UNITYSDK_OFFSET(0x640850)
+#define MOLEMOLE_DYNAMICOVERRIDEWEATHERENTRY_ISVALID_OFFSET UNITYSDK_OFFSET(0x8A9720)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int DynamicOverrideWeatherEntry_TypeDefinitionIndex = 66245;
+	inline static constexpr unsigned int DynamicOverrideWeatherEntry_TypeDefinitionIndex = 68096;
 
 	struct alignas(8) DynamicOverrideWeatherEntry
 	{

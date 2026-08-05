@@ -4,11 +4,11 @@
 
 class Class_3_6F28FFD006F2B451;
 
-#define MOLEMOLE_UIBALLGAMETOOLBARBOSSWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E297DE0)
+#define MOLEMOLE_UIBALLGAMETOOLBARBOSSWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E90DEE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBallGameToolbarBOSSWidgetController_Context_TypeDefinitionIndex = 89385;
+	inline static constexpr unsigned int UIBallGameToolbarBOSSWidgetController_Context_TypeDefinitionIndex = 93273;
 
 	class UIBallGameToolbarBOSSWidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{

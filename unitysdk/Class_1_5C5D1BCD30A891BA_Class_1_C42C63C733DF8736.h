@@ -6,16 +6,16 @@ namespace MoleMole::Config { class ConfigEntityChannelMixerEffects; }
 namespace System { class Action; }
 namespace System { template <typename T> class Action_1; }
 
-#define CLASS_1_5C5D1BCD30A891BA_CLASS_1_C42C63C733DF8736_METHOD_1_512EBCD5CBE75DE4_OFFSET UNITYSDK_OFFSET(0x19644F90)
-#define CLASS_1_5C5D1BCD30A891BA_CLASS_1_C42C63C733DF8736__CTOR_OFFSET UNITYSDK_OFFSET(0x19644F80)
+#define CLASS_1_5C5D1BCD30A891BA_CLASS_1_C42C63C733DF8736_METHOD_1_512EBCD5CBE75DE4_OFFSET UNITYSDK_OFFSET(0x10A145B0)
+#define CLASS_1_5C5D1BCD30A891BA_CLASS_1_C42C63C733DF8736__CTOR_OFFSET UNITYSDK_OFFSET(0x10A145A0)
 
-inline static constexpr unsigned int Class_1_5C5D1BCD30A891BA_Class_1_C42C63C733DF8736_TypeDefinitionIndex = 77438;
+inline static constexpr unsigned int Class_1_5C5D1BCD30A891BA_Class_1_C42C63C733DF8736_TypeDefinitionIndex = 67670;
 
 class Class_1_5C5D1BCD30A891BA_Class_1_C42C63C733DF8736 : public ::System::Object
 {
 public:
-	::System::Action_1<::MoleMole::Config::ConfigEntityChannelMixerEffects*>* Field_1_2; // 0x10
-	::System::Action* Field_1_1; // 0x18
+	::System::Action_1<::MoleMole::Config::ConfigEntityChannelMixerEffects*>* Field_1_6; // 0x10
+	::System::Action* Field_1_7; // 0x18
 	::System::Int32 Field_1_0; // 0x20
 
 	::System::Void _ctor()

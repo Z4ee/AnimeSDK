@@ -5,9 +5,9 @@
 class ObjectsAnimationByCamera_DriveAudioLayer;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define OBJECTSANIMATIONBYCAMERA_DRIVEAUDIOLAYERSFOROBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x10DDAF50)
+#define OBJECTSANIMATIONBYCAMERA_DRIVEAUDIOLAYERSFOROBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0xE20DD70)
 
-inline static constexpr unsigned int ObjectsAnimationByCamera_DriveAudioLayersForObject_TypeDefinitionIndex = 80523;
+inline static constexpr unsigned int ObjectsAnimationByCamera_DriveAudioLayersForObject_TypeDefinitionIndex = 75779;
 
 class ObjectsAnimationByCamera_DriveAudioLayersForObject : public ::System::Object
 {

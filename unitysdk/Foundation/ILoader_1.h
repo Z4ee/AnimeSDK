@@ -5,7 +5,7 @@ namespace System { class Action; }
 
 namespace Foundation
 {
-	inline static constexpr unsigned int ILoader_1_TypeDefinitionIndex = 7755;
+	inline static constexpr unsigned int ILoader_1_TypeDefinitionIndex = 8018;
 
 	template <typename T>
 	class ILoader_1

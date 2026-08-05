@@ -4,19 +4,19 @@
 
 class Class_1_D72537470FC2F779;
 
-#define MOLEMOLE_CONFIG_CONFIGPLAYFULLSCENEVIDEOINDEX_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x17050DB0)
-#define MOLEMOLE_CONFIG_CONFIGPLAYFULLSCENEVIDEOINDEX__CTOR_OFFSET UNITYSDK_OFFSET(0x17050E70)
+#define MOLEMOLE_CONFIG_CONFIGPLAYFULLSCENEVIDEOINDEX_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x1B912C70)
+#define MOLEMOLE_CONFIG_CONFIGPLAYFULLSCENEVIDEOINDEX__CTOR_OFFSET UNITYSDK_OFFSET(0x1B912D30)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigPlayFullSceneVideoIndex_TypeDefinitionIndex = 42144;
+	inline static constexpr unsigned int ConfigPlayFullSceneVideoIndex_TypeDefinitionIndex = 55359;
 
 	class ConfigPlayFullSceneVideoIndex : public ::MoleMole::Config::ConfigUIBaseActionNode
 	{
 	public:
-		::System::Boolean autoPlay; // 0x18
-		::System::Boolean waitForFinish; // 0x19
-		::System::Int32 index; // 0x1C
+		::System::Int32 index; // 0x18
+		::System::Boolean waitForFinish; // 0x1C
+		::System::Boolean autoPlay; // 0x1D
 
 		::System::Void _ctor()
 		{

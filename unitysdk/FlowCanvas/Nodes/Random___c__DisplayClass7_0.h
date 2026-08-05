@@ -7,19 +7,19 @@ namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas::Nodes { class Random; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define FLOWCANVAS_NODES_RANDOM___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7B93F0)
-#define FLOWCANVAS_NODES_RANDOM___C__DISPLAYCLASS7_0__REGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x1D7B9400)
-#define FLOWCANVAS_NODES_RANDOM___C__DISPLAYCLASS7_0__REGISTERPORTS_B__1_OFFSET UNITYSDK_OFFSET(0x1D7B9540)
+#define FLOWCANVAS_NODES_RANDOM___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB6C210)
+#define FLOWCANVAS_NODES_RANDOM___C__DISPLAYCLASS7_0__REGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x1EB6C220)
+#define FLOWCANVAS_NODES_RANDOM___C__DISPLAYCLASS7_0__REGISTERPORTS_B__1_OFFSET UNITYSDK_OFFSET(0x1EB6C360)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int Random___c__DisplayClass7_0_TypeDefinitionIndex = 30169;
+	inline static constexpr unsigned int Random___c__DisplayClass7_0_TypeDefinitionIndex = 31401;
 
 	class Random___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::FlowCanvas::FlowOutput*>* outs; // 0x10
-		::FlowCanvas::Nodes::Random* __4__this; // 0x18
+		::FlowCanvas::Nodes::Random* __4__this; // 0x10
+		::System::Collections::Generic::List_1<::FlowCanvas::FlowOutput*>* outs; // 0x18
 
 		::System::Void _ctor()
 		{

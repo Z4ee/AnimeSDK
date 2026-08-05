@@ -1,7 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/Enum_3_4C7CE452CFA7A879.h"
+#include "unitysdk/UnityEngine/Vector2.h"
+#include "unitysdk/UnityEngine/Vector3.h"
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_402_TypeDefinitionIndex = 55348;
+class Class_0_16E4307DCC419505_403;
+class Class_1_9DF8A96088853ABF;
+namespace MoleMole::Battle { class Entity; }
+
+inline static constexpr unsigned int Class_0_16E4307DCC419505_402_TypeDefinitionIndex = 47994;
 
 class Class_0_16E4307DCC419505_402
 {

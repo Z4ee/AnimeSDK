@@ -1,0 +1,38 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Struct_2_6E29FB5A5F5849EE.h"
+#include "unitysdk/Struct_2_E614D3B245F96744.h"
+#include "unitysdk/System/Object.h"
+
+class Class_0_16E4307DCC419505_85;
+
+#define CLASS_1_D1D636415C294157_METHOD_1_14794F250D218DFF_OFFSET UNITYSDK_OFFSET(0x1EE0D100)
+#define CLASS_1_D1D636415C294157_METHOD_1_212B758F40274424_OFFSET UNITYSDK_OFFSET(0x1EE0CC50)
+#define CLASS_1_D1D636415C294157_METHOD_1_B919CA3D8898982C_OFFSET UNITYSDK_OFFSET(0x1EE0CEA0)
+#define CLASS_1_D1D636415C294157_METHOD_1_C7CE3437DF5168F4_OFFSET UNITYSDK_OFFSET(0x1EE0D040)
+
+inline static constexpr unsigned int Class_1_D1D636415C294157_TypeDefinitionIndex = 29646;
+
+class Class_1_D1D636415C294157 : public ::System::Object
+{
+public:
+	static ::System::Boolean Method_1_212B758F40274424(::Struct_2_E614D3B245F96744 a1, ::Class_0_16E4307DCC419505_85* a2, ::Struct_2_E614D3B245F96744 a3)
+	{
+		return ((::System::Boolean(*)(::Struct_2_E614D3B245F96744, ::Class_0_16E4307DCC419505_85*, ::Struct_2_E614D3B245F96744))((::PBYTE)hIl2Cpp + CLASS_1_D1D636415C294157_METHOD_1_212B758F40274424_OFFSET))(a1, a2, a3);
+	}
+
+	static ::System::Boolean Method_1_B919CA3D8898982C(::Struct_2_E614D3B245F96744 a1, ::Struct_2_E614D3B245F96744 a2, ::System::Single a3)
+	{
+		return ((::System::Boolean(*)(::Struct_2_E614D3B245F96744, ::Struct_2_E614D3B245F96744, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_D1D636415C294157_METHOD_1_B919CA3D8898982C_OFFSET))(a1, a2, a3);
+	}
+
+	static ::System::Boolean Method_1_14794F250D218DFF(::Struct_2_E614D3B245F96744 a1, ::Struct_2_E614D3B245F96744 a2, ::System::Single a3, ::Class_0_16E4307DCC419505_85* a4, ::Struct_2_E614D3B245F96744 a5, ::Struct_2_6E29FB5A5F5849EE& a6)
+	{
+		return ((::System::Boolean(*)(::Struct_2_E614D3B245F96744, ::Struct_2_E614D3B245F96744, ::System::Single, ::Class_0_16E4307DCC419505_85*, ::Struct_2_E614D3B245F96744, ::Struct_2_6E29FB5A5F5849EE&))((::PBYTE)hIl2Cpp + CLASS_1_D1D636415C294157_METHOD_1_14794F250D218DFF_OFFSET))(a1, a2, a3, a4, a5, a6);
+	}
+
+	static ::System::Boolean Method_1_C7CE3437DF5168F4(::Struct_2_E614D3B245F96744 a1, ::Struct_2_E614D3B245F96744 a2, ::System::Single a3, ::System::Single a4)
+	{
+		return ((::System::Boolean(*)(::Struct_2_E614D3B245F96744, ::Struct_2_E614D3B245F96744, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_D1D636415C294157_METHOD_1_C7CE3437DF5168F4_OFFSET))(a1, a2, a3, a4);
+	}
+};

@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-class Class_2_A9A857AD270B9CE1;
+class Class_2_A4D62D05D5EA8464;
 namespace System { class Action; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -10,40 +10,40 @@ namespace UnityEngine { class Animation; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::UI { class Image; }
 
-#define MOLEMOLE_MONOSOULHOUNDSCORE_METHOD_5_448C960F8C07057B_OFFSET UNITYSDK_OFFSET(0x1514C3C0)
-#define MOLEMOLE_MONOSOULHOUNDSCORE_PAUSE_OFFSET UNITYSDK_OFFSET(0x1514C5A0)
-#define MOLEMOLE_MONOSOULHOUNDSCORE_SHOWSCORENUMBER_OFFSET UNITYSDK_OFFSET(0x1514C010)
-#define MOLEMOLE_MONOSOULHOUNDSCORE_UPDATE_OFFSET UNITYSDK_OFFSET(0x1514C750)
-#define MOLEMOLE_MONOSOULHOUNDSCORE__CTOR_OFFSET UNITYSDK_OFFSET(0x1514C7F0)
+#define MOLEMOLE_MONOSOULHOUNDSCORE_METHOD_5_448C960F8C07057B_OFFSET UNITYSDK_OFFSET(0x17918E60)
+#define MOLEMOLE_MONOSOULHOUNDSCORE_PAUSE_OFFSET UNITYSDK_OFFSET(0x17919040)
+#define MOLEMOLE_MONOSOULHOUNDSCORE_SHOWSCORENUMBER_OFFSET UNITYSDK_OFFSET(0x17918AA0)
+#define MOLEMOLE_MONOSOULHOUNDSCORE_UPDATE_OFFSET UNITYSDK_OFFSET(0x179191F0)
+#define MOLEMOLE_MONOSOULHOUNDSCORE__CTOR_OFFSET UNITYSDK_OFFSET(0x17919290)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoSoulHoundScore_TypeDefinitionIndex = 48445;
+	inline static constexpr unsigned int MonoSoulHoundScore_TypeDefinitionIndex = 89887;
 
 	class MonoSoulHoundScore : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		// static const ::System::String* Field_5_4; // 0x0
+		// static const ::System::String* Field_5_6; // 0x0
 		// static const ::System::String* Field_5_5; // 0x0
 		::System::Collections::Generic::List_1<::UnityEngine::UI::Image*>* scoreImgList; // 0x18
 		::UnityEngine::RectTransform* selfTran; // 0x20
 		::UnityEngine::Animation* anim; // 0x28
 		::System::String* numberIconFloderPath; // 0x30
-		::System::Collections::Generic::List_1<::System::Int32>* Field_5_6; // 0x38
-		::System::Single Field_5_7; // 0x40
-		::System::Action* Field_5_8; // 0x48
+		::System::Collections::Generic::List_1<::System::Int32>* Field_5_4; // 0x38
+		::System::Single Field_5_11; // 0x40
+		::System::Action* Field_5_10; // 0x48
 		::System::Single Field_5_9; // 0x50
-		::System::Boolean Field_5_10; // 0x54
-		::System::Boolean Field_5_11; // 0x55
+		::System::Boolean Field_5_8; // 0x54
+		::System::Boolean Field_5_15; // 0x55
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSOULHOUNDSCORE__CTOR_OFFSET))(this);
 		}
 
-		::System::Void ShowScoreNumber(::System::Int32 a1, ::Class_2_A9A857AD270B9CE1* a2, ::System::Action* a3)
+		::System::Void ShowScoreNumber(::System::Int32 a1, ::Class_2_A4D62D05D5EA8464* a2, ::System::Action* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::Class_2_A9A857AD270B9CE1*, ::System::Action*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSOULHOUNDSCORE_SHOWSCORENUMBER_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::Class_2_A4D62D05D5EA8464*, ::System::Action*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSOULHOUNDSCORE_SHOWSCORENUMBER_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void Pause(::System::Boolean a1)

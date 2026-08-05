@@ -4,19 +4,19 @@
 
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_UIBANGKOVSPLITPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x17A50540)
+#define MOLEMOLE_UIBANGKOVSPLITPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x197F1270)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBangkovSplitPopWindowController_Context_TypeDefinitionIndex = 49934;
+	inline static constexpr unsigned int UIBangkovSplitPopWindowController_Context_TypeDefinitionIndex = 83360;
 
 	class UIBangkovSplitPopWindowController_Context : public ::MoleMole::UIControllerContextBase
 	{
 	public:
 		::System::Action_1<::System::Int32>* OnConfirmSplit; // 0x28
-		::System::Int32 CurrentNum; // 0x30
-		::System::Int32 ItemId; // 0x34
-		::System::Int32 MaxSplitNum; // 0x38
+		::System::Int32 ItemId; // 0x30
+		::System::Int32 MaxSplitNum; // 0x34
+		::System::Int32 CurrentNum; // 0x38
 
 		::System::Void _ctor()
 		{

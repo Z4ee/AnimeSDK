@@ -6,12 +6,12 @@
 class Class_3_3EC97B498E0B85D2;
 namespace System { class Action; }
 
-#define FOUNDATION_VIEWOBJECT_VIEWOBJECTMANAGER_RELOADPARAMBASE_CHECKFLAG_OFFSET UNITYSDK_OFFSET(0x19ED7510)
-#define FOUNDATION_VIEWOBJECT_VIEWOBJECTMANAGER_RELOADPARAMBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x19ED75F0)
+#define FOUNDATION_VIEWOBJECT_VIEWOBJECTMANAGER_RELOADPARAMBASE_CHECKFLAG_OFFSET UNITYSDK_OFFSET(0x15FA4DB0)
+#define FOUNDATION_VIEWOBJECT_VIEWOBJECTMANAGER_RELOADPARAMBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x15FA4E90)
 
 namespace Foundation::ViewObject
 {
-	inline static constexpr unsigned int ViewObjectManager_ReloadParamBase_TypeDefinitionIndex = 73611;
+	inline static constexpr unsigned int ViewObjectManager_ReloadParamBase_TypeDefinitionIndex = 55558;
 
 	class ViewObjectManager_ReloadParamBase : public ::System::Object
 	{

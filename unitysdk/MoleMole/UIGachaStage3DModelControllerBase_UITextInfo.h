@@ -8,7 +8,7 @@ namespace UnityEngine { class Transform; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGachaStage3DModelControllerBase_UITextInfo_TypeDefinitionIndex = 86535;
+	inline static constexpr unsigned int UIGachaStage3DModelControllerBase_UITextInfo_TypeDefinitionIndex = 54987;
 
 	struct alignas(8) UIGachaStage3DModelControllerBase_UITextInfo
 	{

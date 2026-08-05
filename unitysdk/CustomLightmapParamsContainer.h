@@ -7,11 +7,11 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Renderer; }
 
-#define CUSTOMLIGHTMAPPARAMSCONTAINER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x16C6F750)
-#define CUSTOMLIGHTMAPPARAMSCONTAINER_SETUPCUSTOMLIGHTMAPPARAMS_OFFSET UNITYSDK_OFFSET(0x16C6F7A0)
-#define CUSTOMLIGHTMAPPARAMSCONTAINER__CTOR_OFFSET UNITYSDK_OFFSET(0x16C6FAA0)
+#define CUSTOMLIGHTMAPPARAMSCONTAINER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x12F17180)
+#define CUSTOMLIGHTMAPPARAMSCONTAINER_SETUPCUSTOMLIGHTMAPPARAMS_OFFSET UNITYSDK_OFFSET(0x12F171D0)
+#define CUSTOMLIGHTMAPPARAMSCONTAINER__CTOR_OFFSET UNITYSDK_OFFSET(0x12F174D0)
 
-inline static constexpr unsigned int CustomLightmapParamsContainer_TypeDefinitionIndex = 75674;
+inline static constexpr unsigned int CustomLightmapParamsContainer_TypeDefinitionIndex = 83389;
 
 class CustomLightmapParamsContainer : public ::UnityEngine::MonoBehaviour
 {

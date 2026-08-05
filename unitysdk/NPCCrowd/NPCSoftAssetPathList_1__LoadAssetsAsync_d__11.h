@@ -10,7 +10,7 @@ namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
 namespace NPCCrowd
 {
-	inline static constexpr unsigned int NPCSoftAssetPathList_1__LoadAssetsAsync_d__11_TypeDefinitionIndex = 42371;
+	inline static constexpr unsigned int NPCSoftAssetPathList_1__LoadAssetsAsync_d__11_TypeDefinitionIndex = 86502;
 
 	template <typename T>
 	struct NPCSoftAssetPathList_1__LoadAssetsAsync_d__11

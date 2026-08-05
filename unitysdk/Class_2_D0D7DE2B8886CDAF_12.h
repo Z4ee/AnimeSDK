@@ -1,0 +1,55 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_057B1A249C805498.h"
+#include "unitysdk/Enum_3_DE516C6CF47482AF.h"
+#include "unitysdk/Struct_2_032E3093F309FC91.h"
+
+namespace MoleMole { class UIThreeDMapElement_PortalContext; }
+namespace MoleMole { class UIUrbanMapPointPortalWidgetController; }
+namespace UnityEngine { class RectTransform; }
+template <typename T> class Class_2_F16D73323D71766B;
+
+#define CLASS_2_D0D7DE2B8886CDAF_12_METHOD_2_107247B6331E64C6_OFFSET UNITYSDK_OFFSET(0x1508DD30)
+#define CLASS_2_D0D7DE2B8886CDAF_12_METHOD_2_6981BBD7972A0D79_OFFSET UNITYSDK_OFFSET(0x1508DDD0)
+#define CLASS_2_D0D7DE2B8886CDAF_12_METHOD_2_A96DCA30C6927810_OFFSET UNITYSDK_OFFSET(0x1508DF20)
+#define CLASS_2_D0D7DE2B8886CDAF_12_METHOD_2_B4DD41466244D1D9_OFFSET UNITYSDK_OFFSET(0x1508DE60)
+#define CLASS_2_D0D7DE2B8886CDAF_12_METHOD_2_E99EC2AD88D0ECFB_OFFSET UNITYSDK_OFFSET(0x1508DF70)
+#define CLASS_2_D0D7DE2B8886CDAF_12__CTOR_OFFSET UNITYSDK_OFFSET(0x1508DF30)
+
+inline static constexpr unsigned int Class_2_D0D7DE2B8886CDAF_12_TypeDefinitionIndex = 86443;
+
+class Class_2_D0D7DE2B8886CDAF_12 : public ::Class_1_057B1A249C805498<::MoleMole::UIUrbanMapPointPortalWidgetController*, ::MoleMole::UIThreeDMapElement_PortalContext*>
+{
+public:
+	::Class_2_F16D73323D71766B<::Struct_2_032E3093F309FC91>* Field_2_0; // 0x230
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_D0D7DE2B8886CDAF_12__CTOR_OFFSET))(this);
+	}
+
+	::System::Boolean Method_2_107247B6331E64C6()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_D0D7DE2B8886CDAF_12_METHOD_2_107247B6331E64C6_OFFSET))(this);
+	}
+
+	::UnityEngine::RectTransform* Method_2_6981BBD7972A0D79()
+	{
+		return ((::UnityEngine::RectTransform*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_D0D7DE2B8886CDAF_12_METHOD_2_6981BBD7972A0D79_OFFSET))(this);
+	}
+
+	::Class_2_F16D73323D71766B<::Struct_2_032E3093F309FC91>* Method_2_B4DD41466244D1D9()
+	{
+		return ((::Class_2_F16D73323D71766B<::Struct_2_032E3093F309FC91>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_D0D7DE2B8886CDAF_12_METHOD_2_B4DD41466244D1D9_OFFSET))(this);
+	}
+
+	::Enum_3_DE516C6CF47482AF Method_2_A96DCA30C6927810()
+	{
+		return ((::Enum_3_DE516C6CF47482AF(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_D0D7DE2B8886CDAF_12_METHOD_2_A96DCA30C6927810_OFFSET))(this);
+	}
+
+	::Struct_2_032E3093F309FC91 Method_2_E99EC2AD88D0ECFB()
+	{
+		return ((::Struct_2_032E3093F309FC91(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_D0D7DE2B8886CDAF_12_METHOD_2_E99EC2AD88D0ECFB_OFFSET))(this);
+	}
+};

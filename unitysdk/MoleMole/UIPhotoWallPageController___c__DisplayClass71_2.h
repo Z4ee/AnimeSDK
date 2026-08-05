@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_3056A65E74601914;
+class Class_1_5FBB235457C1293C;
 namespace MoleMole { class UIPhotoWallPageController___c__DisplayClass71_1; }
 
-#define MOLEMOLE_UIPHOTOWALLPAGECONTROLLER___C__DISPLAYCLASS71_2__CTOR_OFFSET UNITYSDK_OFFSET(0x15604370)
-#define MOLEMOLE_UIPHOTOWALLPAGECONTROLLER___C__DISPLAYCLASS71_2__ONCLICKRIGHTCALLBACK_B__2_OFFSET UNITYSDK_OFFSET(0x15604380)
+#define MOLEMOLE_UIPHOTOWALLPAGECONTROLLER___C__DISPLAYCLASS71_2__CTOR_OFFSET UNITYSDK_OFFSET(0x16A72090)
+#define MOLEMOLE_UIPHOTOWALLPAGECONTROLLER___C__DISPLAYCLASS71_2__ONCLICKRIGHTCALLBACK_B__2_OFFSET UNITYSDK_OFFSET(0x16A720A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIPhotoWallPageController___c__DisplayClass71_2_TypeDefinitionIndex = 52439;
+	inline static constexpr unsigned int UIPhotoWallPageController___c__DisplayClass71_2_TypeDefinitionIndex = 61307;
 
 	class UIPhotoWallPageController___c__DisplayClass71_2 : public ::System::Object
 	{
 	public:
-		::Class_1_3056A65E74601914* data; // 0x10
-		::MoleMole::UIPhotoWallPageController___c__DisplayClass71_1* CS___8__locals2; // 0x18
+		::MoleMole::UIPhotoWallPageController___c__DisplayClass71_1* CS___8__locals2; // 0x10
+		::Class_1_5FBB235457C1293C* data; // 0x18
 
 		::System::Void _ctor()
 		{

@@ -3,7 +3,7 @@
 
 namespace RootMotion
 {
-	inline static constexpr unsigned int ShowIfMode_TypeDefinitionIndex = 38218;
+	inline static constexpr unsigned int ShowIfMode_TypeDefinitionIndex = 38918;
 
 	enum class ShowIfMode : ::System::Int32
 	{

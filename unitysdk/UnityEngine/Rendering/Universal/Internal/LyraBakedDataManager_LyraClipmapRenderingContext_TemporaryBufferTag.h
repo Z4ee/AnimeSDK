@@ -3,18 +3,18 @@
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int LyraBakedDataManager_LyraClipmapRenderingContext_TemporaryBufferTag_TypeDefinitionIndex = 27329;
+	inline static constexpr unsigned int LyraBakedDataManager_LyraClipmapRenderingContext_TemporaryBufferTag_TypeDefinitionIndex = 26913;
 
 	enum class LyraBakedDataManager_LyraClipmapRenderingContext_TemporaryBufferTag : ::System::Int32
 	{
-		DummyPageToSectorCoord = 5,
-		IndirectArgs = 3,
 		TempBufferCount = 8,
-		EmissionBorderBuffer = 7,
-		UpdateRegions = 0,
-		PendingPages = 1,
 		PageToSectorCoord = 4,
+		PendingPages = 1,
+		IndirectArgs = 3,
+		UpdateRegions = 0,
 		PendingPagesAllocator = 2,
 		BorderBuffer = 6,
+		DummyPageToSectorCoord = 5,
+		EmissionBorderBuffer = 7,
 	};
 }

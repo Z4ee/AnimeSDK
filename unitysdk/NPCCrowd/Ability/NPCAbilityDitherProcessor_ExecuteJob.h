@@ -12,12 +12,12 @@
 namespace NPCCrowd::Ability { class NPCAbilityDitherParameters; }
 namespace NPCCrowd::Ability { class NPCAbilityRuntimeData; }
 
-#define NPCCROWD_ABILITY_NPCABILITYDITHERPROCESSOR_EXECUTEJOB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x5ED5B0)
-#define NPCCROWD_ABILITY_NPCABILITYDITHERPROCESSOR_EXECUTEJOB__CTOR_OFFSET UNITYSDK_OFFSET(0x5ED5A0)
+#define NPCCROWD_ABILITY_NPCABILITYDITHERPROCESSOR_EXECUTEJOB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x754C80)
+#define NPCCROWD_ABILITY_NPCABILITYDITHERPROCESSOR_EXECUTEJOB__CTOR_OFFSET UNITYSDK_OFFSET(0x754C70)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int NPCAbilityDitherProcessor_ExecuteJob_TypeDefinitionIndex = 48599;
+	inline static constexpr unsigned int NPCAbilityDitherProcessor_ExecuteJob_TypeDefinitionIndex = 81400;
 
 	struct alignas(8) NPCAbilityDitherProcessor_ExecuteJob
 	{

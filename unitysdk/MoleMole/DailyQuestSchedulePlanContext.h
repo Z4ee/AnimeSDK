@@ -4,11 +4,11 @@
 
 class Class_1_7C378C8BB7097B16;
 
-#define MOLEMOLE_DAILYQUESTSCHEDULEPLANCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x158D6020)
+#define MOLEMOLE_DAILYQUESTSCHEDULEPLANCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A94EB30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int DailyQuestSchedulePlanContext_TypeDefinitionIndex = 44638;
+	inline static constexpr unsigned int DailyQuestSchedulePlanContext_TypeDefinitionIndex = 52832;
 
 	class DailyQuestSchedulePlanContext : public ::MoleMole::UIControllerContextBase
 	{

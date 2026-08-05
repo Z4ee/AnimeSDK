@@ -7,21 +7,21 @@
 
 namespace PipelineCamera { template <typename T> class ICameraSubModule_1; }
 
-#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_CLASS_1_D9A9D264D97CB293_1_METHOD_1_EFC710EBABFCE318_OFFSET UNITYSDK_OFFSET(0x126FD960)
-#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_CLASS_1_D9A9D264D97CB293_1__CTOR_OFFSET UNITYSDK_OFFSET(0x126FD950)
+#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_CLASS_1_D9A9D264D97CB293_1_METHOD_1_EFC710EBABFCE318_OFFSET UNITYSDK_OFFSET(0x1B5365D0)
+#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_CLASS_1_D9A9D264D97CB293_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5365C0)
 
 namespace MoleMole::Cameras
 {
-	inline static constexpr unsigned int ScopedOverShoulderCamera_Class_1_D9A9D264D97CB293_1_TypeDefinitionIndex = 81854;
+	inline static constexpr unsigned int ScopedOverShoulderCamera_Class_1_D9A9D264D97CB293_1_TypeDefinitionIndex = 77553;
 
 	class ScopedOverShoulderCamera_Class_1_D9A9D264D97CB293_1 : public ::System::Object
 	{
 	public:
-		::System::Single Field_1_3; // 0x10
-		::System::Single Field_1_4; // 0x14
-		::Enum_3_24F60EA0D4DCCDF0 Field_1_0; // 0x18
-		::System::Single Field_1_2; // 0x1C
-		::UnityEngine::LayerMask Field_1_1; // 0x20
+		::UnityEngine::LayerMask Field_1_0; // 0x10
+		::System::Single Field_1_5; // 0x14
+		::System::Single Field_1_6; // 0x18
+		::Enum_3_24F60EA0D4DCCDF0 Field_1_1; // 0x1C
+		::System::Single Field_1_7; // 0x20
 
 		::System::Void _ctor()
 		{

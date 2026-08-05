@@ -5,19 +5,19 @@
 namespace MoleMole { class UIBallGameOptionsDialogPopWindowController; }
 namespace MoleMole { class UIGeneralToggleWidgetController; }
 
-#define MOLEMOLE_UIBALLGAMEOPTIONSDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS22_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1E589DF0)
-#define MOLEMOLE_UIBALLGAMEOPTIONSDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS22_0__INITEVENT_B__0_OFFSET UNITYSDK_OFFSET(0x1E589E00)
-#define MOLEMOLE_UIBALLGAMEOPTIONSDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS22_0__INITEVENT_B__1_OFFSET UNITYSDK_OFFSET(0x1E589FD0)
+#define MOLEMOLE_UIBALLGAMEOPTIONSDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS22_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1F36AB20)
+#define MOLEMOLE_UIBALLGAMEOPTIONSDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS22_0__INITEVENT_B__0_OFFSET UNITYSDK_OFFSET(0x1F36AB30)
+#define MOLEMOLE_UIBALLGAMEOPTIONSDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS22_0__INITEVENT_B__1_OFFSET UNITYSDK_OFFSET(0x1F36AD00)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBallGameOptionsDialogPopWindowController___c__DisplayClass22_0_TypeDefinitionIndex = 89320;
+	inline static constexpr unsigned int UIBallGameOptionsDialogPopWindowController___c__DisplayClass22_0_TypeDefinitionIndex = 93220;
 
 	class UIBallGameOptionsDialogPopWindowController___c__DisplayClass22_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIBallGameOptionsDialogPopWindowController* __4__this; // 0x10
-		::MoleMole::UIGeneralToggleWidgetController* toggle; // 0x18
+		::MoleMole::UIGeneralToggleWidgetController* toggle; // 0x10
+		::MoleMole::UIBallGameOptionsDialogPopWindowController* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

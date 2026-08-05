@@ -4,11 +4,11 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/Unity/Collections/NativeArray_1.h"
 
-#define NPCCROWD_ABILITY_NPCABILITYFLUSHTRANSFORMPROCESSOR_EXECUTEJOB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x5B20D0)
+#define NPCCROWD_ABILITY_NPCABILITYFLUSHTRANSFORMPROCESSOR_EXECUTEJOB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x6DA6C0)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int NPCAbilityFlushTransformProcessor_ExecuteJob_TypeDefinitionIndex = 70314;
+	inline static constexpr unsigned int NPCAbilityFlushTransformProcessor_ExecuteJob_TypeDefinitionIndex = 45019;
 
 	struct alignas(8) NPCAbilityFlushTransformProcessor_ExecuteJob
 	{

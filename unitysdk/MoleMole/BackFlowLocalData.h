@@ -4,11 +4,11 @@
 
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_BACKFLOWLOCALDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1358A170)
+#define MOLEMOLE_BACKFLOWLOCALDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x17797E20)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int BackFlowLocalData_TypeDefinitionIndex = 62420;
+	inline static constexpr unsigned int BackFlowLocalData_TypeDefinitionIndex = 73478;
 
 	class BackFlowLocalData : public ::System::Object
 	{

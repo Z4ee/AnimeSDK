@@ -6,13 +6,13 @@
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_MONOBPLEVELANIMATION_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x191500F0)
-#define MOLEMOLE_MONOBPLEVELANIMATION_PLAYANIMATIONPROGRESS_OFFSET UNITYSDK_OFFSET(0x19150240)
-#define MOLEMOLE_MONOBPLEVELANIMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x191505C0)
+#define MOLEMOLE_MONOBPLEVELANIMATION_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x118E4890)
+#define MOLEMOLE_MONOBPLEVELANIMATION_PLAYANIMATIONPROGRESS_OFFSET UNITYSDK_OFFSET(0x118E49E0)
+#define MOLEMOLE_MONOBPLEVELANIMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x118E4D70)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoBPLevelAnimation_TypeDefinitionIndex = 69083;
+	inline static constexpr unsigned int MonoBPLevelAnimation_TypeDefinitionIndex = 65373;
 
 	class MonoBPLevelAnimation : public ::UnityEngine::MonoBehaviour
 	{
@@ -20,10 +20,10 @@ namespace MoleMole
 		::UnityEngine::AnimationCurve* firstMoveCurve; // 0x18
 		::UnityEngine::AnimationCurve* secondMoveCurve; // 0x20
 		::UnityEngine::AnimationCurve* easeInOut; // 0x28
-		::Foundation::Coroutine::CoroutineHandle Field_5_3; // 0x30
+		::Foundation::Coroutine::CoroutineHandle Field_5_5; // 0x30
 		::System::Single Field_5_4; // 0x34
-		::System::Single Field_5_5; // 0x38
-		::System::Single Field_5_6; // 0x3C
+		::System::Single Field_5_11; // 0x38
+		::System::Single Field_5_10; // 0x3C
 
 		::System::Void _ctor()
 		{

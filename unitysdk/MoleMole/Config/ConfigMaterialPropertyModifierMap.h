@@ -7,11 +7,11 @@ namespace MoleMole { class ConfigMaterialPropertyModifier; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGMATERIALPROPERTYMODIFIERMAP__CTOR_OFFSET UNITYSDK_OFFSET(0x1A34DCF0)
+#define MOLEMOLE_CONFIG_CONFIGMATERIALPROPERTYMODIFIERMAP__CTOR_OFFSET UNITYSDK_OFFSET(0x1B54ED50)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigMaterialPropertyModifierMap_TypeDefinitionIndex = 64560;
+	inline static constexpr unsigned int ConfigMaterialPropertyModifierMap_TypeDefinitionIndex = 57730;
 
 	class ConfigMaterialPropertyModifierMap : public ::Foundation::MihoyoSerializedScriptableObject
 	{

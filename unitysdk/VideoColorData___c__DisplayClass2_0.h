@@ -5,10 +5,10 @@
 
 namespace System { class String; }
 
-#define VIDEOCOLORDATA___C__DISPLAYCLASS2_0__ADDVIDEODATA_B__0_OFFSET UNITYSDK_OFFSET(0x1E7843E0)
-#define VIDEOCOLORDATA___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7843D0)
+#define VIDEOCOLORDATA___C__DISPLAYCLASS2_0__ADDVIDEODATA_B__0_OFFSET UNITYSDK_OFFSET(0x1879C810)
+#define VIDEOCOLORDATA___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1879C800)
 
-inline static constexpr unsigned int VideoColorData___c__DisplayClass2_0_TypeDefinitionIndex = 82280;
+inline static constexpr unsigned int VideoColorData___c__DisplayClass2_0_TypeDefinitionIndex = 61573;
 
 class VideoColorData___c__DisplayClass2_0 : public ::System::Object
 {

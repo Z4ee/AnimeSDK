@@ -10,21 +10,21 @@ namespace MoleMole { class UIGeneralButtonController; }
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine::UI::Extension { class UITimeWidget; }
 
-#define MOLEMOLE_SHOPPINGMALLLIMITEDCARDCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1A9A70)
+#define MOLEMOLE_SHOPPINGMALLLIMITEDCARDCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1688FCE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ShoppingMallLimitedCardContext_TypeDefinitionIndex = 64658;
+	inline static constexpr unsigned int ShoppingMallLimitedCardContext_TypeDefinitionIndex = 41647;
 
 	class ShoppingMallLimitedCardContext : public ::MoleMole::ShoppingMallBaseContextBase
 	{
 	public:
-		::MoleMole::MonoGamepadModule* singleBuyModule; // 0x58
-		::UnityEngine::UI::Extension::UITimeWidget* Down_Timer; // 0x60
-		::MoleMole::UIGeneralButtonController* Down_ReceiveBtn; // 0x68
-		::Class_1_E43D938AEBE01021* tabData; // 0x70
-		::Class_2_B4378B46E0020E85* Down_SingleBtn; // 0x78
-		::Class_2_B4378B46E0020E85* Down_DetailBtn; // 0x80
+		::Class_1_E43D938AEBE01021* tabData; // 0x58
+		::Class_2_B4378B46E0020E85* Down_DetailBtn; // 0x60
+		::MoleMole::MonoGamepadModule* singleBuyModule; // 0x68
+		::Class_2_B4378B46E0020E85* Down_SingleBtn; // 0x70
+		::MoleMole::UIGeneralButtonController* Down_ReceiveBtn; // 0x78
+		::UnityEngine::UI::Extension::UITimeWidget* Down_Timer; // 0x80
 
 		::System::Void _ctor(::MoleMole::MonoGamepadModule* singleBuyButton, ::Class_1_E43D938AEBE01021* tabData, ::MoleMole::MonoGamepadRegion* region, ::Class_2_B4378B46E0020E85* Down_SingleBtn, ::UnityEngine::UI::Extension::UITimeWidget* Down_Timer, ::Class_2_B4378B46E0020E85* Down_DetailBtn, ::MoleMole::UIGeneralButtonController* Down_ReceiveBtn, ::System::Action_1<::System::Int32>* onClick)
 		{

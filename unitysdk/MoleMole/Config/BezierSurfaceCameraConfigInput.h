@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_CONFIG_BEZIERSURFACECAMERACONFIGINPUT__CTOR_OFFSET UNITYSDK_OFFSET(0x19291950)
+#define MOLEMOLE_CONFIG_BEZIERSURFACECAMERACONFIGINPUT__CTOR_OFFSET UNITYSDK_OFFSET(0x14858320)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int BezierSurfaceCameraConfigInput_TypeDefinitionIndex = 54593;
+	inline static constexpr unsigned int BezierSurfaceCameraConfigInput_TypeDefinitionIndex = 80955;
 
 	class BezierSurfaceCameraConfigInput : public ::System::Object
 	{

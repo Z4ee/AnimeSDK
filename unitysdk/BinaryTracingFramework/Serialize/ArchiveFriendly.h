@@ -6,12 +6,12 @@
 namespace BinaryTracingFramework::Serialize { class BaseArchive; }
 namespace BinaryTracingFramework::Serialize { class ISerializableObject; }
 
-#define BINARYTRACINGFRAMEWORK_SERIALIZE_ARCHIVEFRIENDLY_SERIALIZEOBJ_OFFSET UNITYSDK_OFFSET(0x1E22FCC0)
-#define BINARYTRACINGFRAMEWORK_SERIALIZE_ARCHIVEFRIENDLY_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1E22D1A0)
+#define BINARYTRACINGFRAMEWORK_SERIALIZE_ARCHIVEFRIENDLY_SERIALIZEOBJ_OFFSET UNITYSDK_OFFSET(0x1F653C90)
+#define BINARYTRACINGFRAMEWORK_SERIALIZE_ARCHIVEFRIENDLY_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1F651120)
 
 namespace BinaryTracingFramework::Serialize
 {
-	inline static constexpr unsigned int ArchiveFriendly_TypeDefinitionIndex = 33973;
+	inline static constexpr unsigned int ArchiveFriendly_TypeDefinitionIndex = 34609;
 
 	class ArchiveFriendly : public ::System::Object
 	{

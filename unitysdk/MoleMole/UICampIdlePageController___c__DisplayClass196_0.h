@@ -5,20 +5,20 @@
 
 class Class_1_1685EC66FBD28897;
 
-#define MOLEMOLE_UICAMPIDLEPAGECONTROLLER___C__DISPLAYCLASS196_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1760D490)
-#define MOLEMOLE_UICAMPIDLEPAGECONTROLLER___C__DISPLAYCLASS196_0__REFRESHEXPREWARDNODEINFO_B__0_OFFSET UNITYSDK_OFFSET(0x1760D4A0)
-#define MOLEMOLE_UICAMPIDLEPAGECONTROLLER___C__DISPLAYCLASS196_0__REFRESHEXPREWARDNODEINFO_B__1_OFFSET UNITYSDK_OFFSET(0x1760D5F0)
+#define MOLEMOLE_UICAMPIDLEPAGECONTROLLER___C__DISPLAYCLASS196_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1855EC60)
+#define MOLEMOLE_UICAMPIDLEPAGECONTROLLER___C__DISPLAYCLASS196_0__REFRESHEXPREWARDNODEINFO_B__0_OFFSET UNITYSDK_OFFSET(0x1855EC70)
+#define MOLEMOLE_UICAMPIDLEPAGECONTROLLER___C__DISPLAYCLASS196_0__REFRESHEXPREWARDNODEINFO_B__1_OFFSET UNITYSDK_OFFSET(0x1855EDD0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICampIdlePageController___c__DisplayClass196_0_TypeDefinitionIndex = 86934;
+	inline static constexpr unsigned int UICampIdlePageController___c__DisplayClass196_0_TypeDefinitionIndex = 75909;
 
 	class UICampIdlePageController___c__DisplayClass196_0 : public ::System::Object
 	{
 	public:
-		::System::Boolean isUpAvatar; // 0x10
-		::System::Boolean hasTakeUp; // 0x11
-		::System::Boolean hasTakeNormal; // 0x12
+		::System::Boolean hasTakeNormal; // 0x10
+		::System::Boolean isUpAvatar; // 0x11
+		::System::Boolean hasTakeUp; // 0x12
 
 		::System::Void _ctor()
 		{

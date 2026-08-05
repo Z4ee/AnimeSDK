@@ -3,15 +3,15 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int CampType_TypeDefinitionIndex = 83383;
+	inline static constexpr unsigned int CampType_TypeDefinitionIndex = 69733;
 
 	enum class CampType : ::System::Int32
 	{
-		TeamEvil = 1,
-		Unknow = 999,
-		TeamKind = 4,
-		TeamGood = 2,
 		TeamNeutral = 3,
+		TeamGood = 2,
 		TeamMember = 5,
+		TeamEvil = 1,
+		TeamKind = 4,
+		Unknow = 999,
 	};
 }

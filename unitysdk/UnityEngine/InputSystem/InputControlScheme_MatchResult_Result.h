@@ -3,7 +3,7 @@
 
 namespace UnityEngine::InputSystem
 {
-	inline static constexpr unsigned int InputControlScheme_MatchResult_Result_TypeDefinitionIndex = 31588;
+	inline static constexpr unsigned int InputControlScheme_MatchResult_Result_TypeDefinitionIndex = 32208;
 
 	enum class InputControlScheme_MatchResult_Result : ::System::Int32
 	{

@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Xml/Schema/XmlSchemaNumericFacet.h"
 
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAMAXLENGTHFACET__CTOR_OFFSET UNITYSDK_OFFSET(0x1CA579C0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAMAXLENGTHFACET__CTOR_OFFSET UNITYSDK_OFFSET(0x1DE6A460)
 
 namespace System::Xml::Schema
 {

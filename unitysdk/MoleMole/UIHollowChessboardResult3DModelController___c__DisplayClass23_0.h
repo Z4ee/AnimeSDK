@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define MOLEMOLE_UIHOLLOWCHESSBOARDRESULT3DMODELCONTROLLER___C__DISPLAYCLASS23_0__ADDGROUPMEMBER_B__0_OFFSET UNITYSDK_OFFSET(0x16977120)
-#define MOLEMOLE_UIHOLLOWCHESSBOARDRESULT3DMODELCONTROLLER___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16977110)
+#define MOLEMOLE_UIHOLLOWCHESSBOARDRESULT3DMODELCONTROLLER___C__DISPLAYCLASS23_0__ADDGROUPMEMBER_B__0_OFFSET UNITYSDK_OFFSET(0x17DB5E40)
+#define MOLEMOLE_UIHOLLOWCHESSBOARDRESULT3DMODELCONTROLLER___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17DB5E30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowChessboardResult3DModelController___c__DisplayClass23_0_TypeDefinitionIndex = 70491;
+	inline static constexpr unsigned int UIHollowChessboardResult3DModelController___c__DisplayClass23_0_TypeDefinitionIndex = 49221;
 
 	class UIHollowChessboardResult3DModelController___c__DisplayClass23_0 : public ::System::Object
 	{

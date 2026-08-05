@@ -4,7 +4,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int NapIndexBundleRef_TypeDefinitionIndex = 7675;
+	inline static constexpr unsigned int NapIndexBundleRef_TypeDefinitionIndex = 7679;
 
 	struct alignas(8) NapIndexBundleRef
 	{
@@ -14,6 +14,8 @@ namespace UnityEngine
 		::System::UInt32 offset; // 0x28
 		::System::UInt32 childrenStartIndex; // 0x2C
 		::System::UInt32 childrenEndIndex; // 0x30
-		::System::UInt32 fileSize; // 0x34
+		::System::UInt32 directChildrenStartIndex; // 0x34
+		::System::UInt32 directChildrenEndIndex; // 0x38
+		::System::UInt32 fileSize; // 0x3C
 	};
 }

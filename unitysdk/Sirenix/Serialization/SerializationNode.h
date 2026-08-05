@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int SerializationNode_TypeDefinitionIndex = 7428;
+	inline static constexpr unsigned int SerializationNode_TypeDefinitionIndex = 7432;
 
 	struct alignas(8) SerializationNode
 	{

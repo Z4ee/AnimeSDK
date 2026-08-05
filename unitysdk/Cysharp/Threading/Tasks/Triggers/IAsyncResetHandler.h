@@ -4,7 +4,7 @@
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
-	inline static constexpr unsigned int IAsyncResetHandler_TypeDefinitionIndex = 31432;
+	inline static constexpr unsigned int IAsyncResetHandler_TypeDefinitionIndex = 32052;
 
 	class IAsyncResetHandler
 	{

@@ -12,13 +12,13 @@ class PartMaterials;
 namespace NPCCrowd::Accessories { class NPCSlotAccessoryInfo; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define FNPCAVATARGENERICPARAMS_CONVERTCONFIGPARTLISTTORUNTIMEPARTLIST_OFFSET UNITYSDK_OFFSET(0x131DAE10)
-#define FNPCAVATARGENERICPARAMS_GENERATEACCITEMOVERRIDECOLORINFO_OFFSET UNITYSDK_OFFSET(0x131DBDC0)
-#define FNPCAVATARGENERICPARAMS_GENERATECOLORINFO_OFFSET UNITYSDK_OFFSET(0x131DBB50)
-#define FNPCAVATARGENERICPARAMS_GETACCESSORYINFOLIST_OFFSET UNITYSDK_OFFSET(0x131DB550)
-#define FNPCAVATARGENERICPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x7A5440)
+#define FNPCAVATARGENERICPARAMS_CONVERTCONFIGPARTLISTTORUNTIMEPARTLIST_OFFSET UNITYSDK_OFFSET(0x147900A0)
+#define FNPCAVATARGENERICPARAMS_GENERATEACCITEMOVERRIDECOLORINFO_OFFSET UNITYSDK_OFFSET(0x14791030)
+#define FNPCAVATARGENERICPARAMS_GENERATECOLORINFO_OFFSET UNITYSDK_OFFSET(0x14790DE0)
+#define FNPCAVATARGENERICPARAMS_GETACCESSORYINFOLIST_OFFSET UNITYSDK_OFFSET(0x147907E0)
+#define FNPCAVATARGENERICPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x800D80)
 
-inline static constexpr unsigned int FNpcAvatarGenericParams_TypeDefinitionIndex = 80717;
+inline static constexpr unsigned int FNpcAvatarGenericParams_TypeDefinitionIndex = 68456;
 
 struct alignas(8) FNpcAvatarGenericParams
 {
@@ -42,9 +42,9 @@ struct alignas(8) FNpcAvatarGenericParams
 	}
 
 	/*
-	static ::System::Void GenerateColorInfo(::Il2CppArray<::System::ValueTuple_2<::NapMaterialProperty, ::UnityEngine::Color32>>*& overrideColors, ::System::Boolean bOverride, ::System::Int32 overrideInfoId)
+	static ::System::Void GenerateColorInfo(::Il2CppArray<::System::ValueTuple_2<::System::Int32, ::UnityEngine::Color32>>*& overrideColors, ::System::Boolean bOverride, ::System::Int32 overrideInfoId)
 	{
-		return ((::System::Void(*)(::Il2CppArray<::System::ValueTuple_2<::NapMaterialProperty, ::UnityEngine::Color32>>*&, ::System::Boolean, ::System::Int32))((::PBYTE)hIl2Cpp + FNPCAVATARGENERICPARAMS_GENERATECOLORINFO_OFFSET))(overrideColors, bOverride, overrideInfoId);
+		return ((::System::Void(*)(::Il2CppArray<::System::ValueTuple_2<::System::Int32, ::UnityEngine::Color32>>*&, ::System::Boolean, ::System::Int32))((::PBYTE)hIl2Cpp + FNPCAVATARGENERICPARAMS_GENERATECOLORINFO_OFFSET))(overrideColors, bOverride, overrideInfoId);
 	}
 	*/
 

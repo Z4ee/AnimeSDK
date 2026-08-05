@@ -6,12 +6,12 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGVIDEOQUALITYSETTING_ISMATCHED_OFFSET UNITYSDK_OFFSET(0x162BF5C0)
-#define MOLEMOLE_CONFIG_CONFIGVIDEOQUALITYSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x162BF860)
+#define MOLEMOLE_CONFIG_CONFIGVIDEOQUALITYSETTING_ISMATCHED_OFFSET UNITYSDK_OFFSET(0x16C55EF0)
+#define MOLEMOLE_CONFIG_CONFIGVIDEOQUALITYSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x16C56180)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigVideoQualitySetting_TypeDefinitionIndex = 54302;
+	inline static constexpr unsigned int ConfigVideoQualitySetting_TypeDefinitionIndex = 91437;
 
 	class ConfigVideoQualitySetting : public ::Foundation::MihoyoSerializedScriptableObject
 	{

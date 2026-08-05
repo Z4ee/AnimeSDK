@@ -6,7 +6,7 @@ namespace System { template <typename T1, typename T2, typename T3> class Action
 
 namespace Foundation
 {
-	inline static constexpr unsigned int Invocable_1_Impl_2_TypeDefinitionIndex = 8615;
+	inline static constexpr unsigned int Invocable_1_Impl_2_TypeDefinitionIndex = 8490;
 
 	template <typename T1, typename TA1, typename TA2>
 	struct Invocable_1_Impl_2

@@ -8,9 +8,9 @@
 
 class MonoUITableScrollV2_ScrollParams_AlignParam;
 
-#define MONOUITABLESCROLLV2_SCROLLPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x19514750)
+#define MONOUITABLESCROLLV2_SCROLLPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x114A9E90)
 
-inline static constexpr unsigned int MonoUITableScrollV2_ScrollParams_TypeDefinitionIndex = 69902;
+inline static constexpr unsigned int MonoUITableScrollV2_ScrollParams_TypeDefinitionIndex = 74991;
 
 class MonoUITableScrollV2_ScrollParams : public ::System::Object
 {

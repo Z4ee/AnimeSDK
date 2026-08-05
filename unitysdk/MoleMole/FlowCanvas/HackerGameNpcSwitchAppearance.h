@@ -6,12 +6,12 @@ namespace MoleMole { class ChessEntity; }
 namespace MoleMole { class ChessEntityCollection; }
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_HACKERGAMENPCSWITCHAPPEARANCE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A391E80)
-#define MOLEMOLE_FLOWCANVAS_HACKERGAMENPCSWITCHAPPEARANCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A392350)
+#define MOLEMOLE_FLOWCANVAS_HACKERGAMENPCSWITCHAPPEARANCE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B598110)
+#define MOLEMOLE_FLOWCANVAS_HACKERGAMENPCSWITCHAPPEARANCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5985E0)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int HackerGameNpcSwitchAppearance_TypeDefinitionIndex = 74173;
+	inline static constexpr unsigned int HackerGameNpcSwitchAppearance_TypeDefinitionIndex = 72775;
 
 	class HackerGameNpcSwitchAppearance : public ::FlowCanvas::Nodes::CallableActionNode_5<::MoleMole::ChessEntity*, ::MoleMole::ChessEntityCollection*, ::System::Int32, ::System::String*, ::System::String*>
 	{

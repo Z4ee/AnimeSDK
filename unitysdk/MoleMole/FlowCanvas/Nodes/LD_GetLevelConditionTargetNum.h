@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FlowCanvas/Nodes/CallableFunctionNode_2.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_GETLEVELCONDITIONTARGETNUM_INVOKE_OFFSET UNITYSDK_OFFSET(0x10D45D90)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_GETLEVELCONDITIONTARGETNUM__CTOR_OFFSET UNITYSDK_OFFSET(0x10D46030)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_GETLEVELCONDITIONTARGETNUM_INVOKE_OFFSET UNITYSDK_OFFSET(0x1684F530)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_GETLEVELCONDITIONTARGETNUM__CTOR_OFFSET UNITYSDK_OFFSET(0x1684F7D0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_GetLevelConditionTargetNum_TypeDefinitionIndex = 59402;
+	inline static constexpr unsigned int LD_GetLevelConditionTargetNum_TypeDefinitionIndex = 81137;
 
 	class LD_GetLevelConditionTargetNum : public ::FlowCanvas::Nodes::CallableFunctionNode_2<::System::Int32, ::System::Int32>
 	{

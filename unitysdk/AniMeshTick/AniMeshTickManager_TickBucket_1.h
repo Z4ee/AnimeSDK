@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace AniMeshTick
 {
-	inline static constexpr unsigned int AniMeshTickManager_TickBucket_1_TypeDefinitionIndex = 86578;
+	inline static constexpr unsigned int AniMeshTickManager_TickBucket_1_TypeDefinitionIndex = 86038;
 
 	template <typename T>
 	class AniMeshTickManager_TickBucket_1 : public ::System::Object

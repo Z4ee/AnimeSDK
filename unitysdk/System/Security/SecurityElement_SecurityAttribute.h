@@ -4,7 +4,7 @@
 
 namespace System { class String; }
 
-#define SYSTEM_SECURITY_SECURITYELEMENT_SECURITYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C9DD400)
+#define SYSTEM_SECURITY_SECURITYELEMENT_SECURITYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DDEACE0)
 
 namespace System::Security
 {
@@ -13,8 +13,8 @@ namespace System::Security
 	class SecurityElement_SecurityAttribute : public ::System::Object
 	{
 	public:
-		::System::String* _name; // 0x10
-		::System::String* _value; // 0x18
+		::System::String* _value; // 0x10
+		::System::String* _name; // 0x18
 
 		::System::Void _ctor(::System::String* name, ::System::String* value)
 		{

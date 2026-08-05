@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/ConfigUILightParam_Enum_3_A4BD09A000F0184F.h"
+#include "unitysdk/MoleMole/ConfigUILightParam_EAttenuationType.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/LightType.h"
@@ -11,13 +11,13 @@
 namespace System { class String; }
 namespace UnityEngine::NAPRenderPipeline0 { class ColorParameter; }
 
-#define MOLEMOLE_CONFIGUILIGHTPARAM_GET_CHARTOONNORMAL_OFFSET UNITYSDK_OFFSET(0x17E49970)
-#define MOLEMOLE_CONFIGUILIGHTPARAM_SET_CHARTOONNORMAL_OFFSET UNITYSDK_OFFSET(0x17E49980)
-#define MOLEMOLE_CONFIGUILIGHTPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x17E49A00)
+#define MOLEMOLE_CONFIGUILIGHTPARAM_GET_CHARTOONNORMAL_OFFSET UNITYSDK_OFFSET(0x19BB9E60)
+#define MOLEMOLE_CONFIGUILIGHTPARAM_SET_CHARTOONNORMAL_OFFSET UNITYSDK_OFFSET(0x19BB9E70)
+#define MOLEMOLE_CONFIGUILIGHTPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x19BB9EF0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUILightParam_TypeDefinitionIndex = 80481;
+	inline static constexpr unsigned int ConfigUILightParam_TypeDefinitionIndex = 74907;
 
 	class ConfigUILightParam : public ::System::Object
 	{
@@ -29,7 +29,7 @@ namespace MoleMole
 		::System::Single Range; // 0x34
 		::UnityEngine::Color Color; // 0x38
 		::System::Single Intensity; // 0x48
-		::MoleMole::ConfigUILightParam_Enum_3_A4BD09A000F0184F AttenuationType; // 0x4C
+		::MoleMole::ConfigUILightParam_EAttenuationType AttenuationType; // 0x4C
 		::UnityEngine::Color AvatarColor; // 0x50
 		::System::Single AvatarIntensity; // 0x60
 		::UnityEngine::Rendering::Universal::AddLightMode AvatarLightMode; // 0x64
@@ -49,9 +49,9 @@ namespace MoleMole
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGUILIGHTPARAM_GET_CHARTOONNORMAL_OFFSET))(this);
 		}
 
-		::System::Void set_CharToonNormal(::System::Single a1)
+		::System::Void set_CharToonNormal(::System::Single value)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGUILIGHTPARAM_SET_CHARTOONNORMAL_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGUILIGHTPARAM_SET_CHARTOONNORMAL_OFFSET))(this, value);
 		}
 	};
 }

@@ -6,20 +6,20 @@ namespace MoleMole::Config { class InputEnableInfo; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDINPUTENABLEACTION_INVOKE_OFFSET UNITYSDK_OFFSET(0x17104390)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDINPUTENABLEACTION__CCTOR_OFFSET UNITYSDK_OFFSET(0x17104550)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDINPUTENABLEACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x17104530)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDINPUTENABLEACTION_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B532520)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDINPUTENABLEACTION__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B5326F0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDINPUTENABLEACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5326D0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDInputEnableAction_TypeDefinitionIndex = 73599;
+	inline static constexpr unsigned int LDInputEnableAction_TypeDefinitionIndex = 71290;
 
 	class LDInputEnableAction : public ::FlowCanvas::Nodes::CallableActionNode_2<::System::String*, ::System::Collections::Generic::List_1<::MoleMole::Config::InputEnableInfo*>*>
 	{
 	public:
 		static ::System::Int32* StaticGet_Level_Priority()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LDInputEnableAction_TypeDefinitionIndex)->GetStaticField(0x11460);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LDInputEnableAction_TypeDefinitionIndex)->GetStaticField(0x12130);
 		}
 
 		::System::Void _ctor()

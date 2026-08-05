@@ -5,12 +5,12 @@
 class Class_1_D72537470FC2F779;
 namespace MoleMole::Config { class IntUISpecialNum; }
 
-#define MOLEMOLE_CONFIG_CONFIGCHESSBOARDSHOWPOPWINDOWNODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x17D4CD70)
-#define MOLEMOLE_CONFIG_CONFIGCHESSBOARDSHOWPOPWINDOWNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x17D4CE30)
+#define MOLEMOLE_CONFIG_CONFIGCHESSBOARDSHOWPOPWINDOWNODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x1729D7C0)
+#define MOLEMOLE_CONFIG_CONFIGCHESSBOARDSHOWPOPWINDOWNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1729D880)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigChessboardShowPopWindowNode_TypeDefinitionIndex = 41165;
+	inline static constexpr unsigned int ConfigChessboardShowPopWindowNode_TypeDefinitionIndex = 57735;
 
 	class ConfigChessboardShowPopWindowNode : public ::MoleMole::Config::ConfigUIBaseActionNode
 	{

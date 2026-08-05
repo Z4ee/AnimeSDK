@@ -5,11 +5,11 @@
 namespace MoleMole::DataStructures::Common { class OptionalBool; }
 namespace MoleMole::DataStructures::Common { class OptionalString; }
 
-#define MOLEMOLE_CONFIG_PHOTOCAMERAMODEOVERRIDE__CTOR_OFFSET UNITYSDK_OFFSET(0x19FF9FB0)
+#define MOLEMOLE_CONFIG_PHOTOCAMERAMODEOVERRIDE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B801AF0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int PhotoCameraModeOverride_TypeDefinitionIndex = 63511;
+	inline static constexpr unsigned int PhotoCameraModeOverride_TypeDefinitionIndex = 52047;
 
 	class PhotoCameraModeOverride : public ::System::Object
 	{

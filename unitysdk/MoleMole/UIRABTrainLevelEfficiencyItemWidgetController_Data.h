@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_208CC9941471731A_981;
+class Class_2_208CC9941471731A_570;
 
-#define MOLEMOLE_UIRABTRAINLEVELEFFICIENCYITEMWIDGETCONTROLLER_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0x15C0B3B0)
+#define MOLEMOLE_UIRABTRAINLEVELEFFICIENCYITEMWIDGETCONTROLLER_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0x160C4170)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRABTrainLevelEfficiencyItemWidgetController_Data_TypeDefinitionIndex = 84012;
+	inline static constexpr unsigned int UIRABTrainLevelEfficiencyItemWidgetController_Data_TypeDefinitionIndex = 42978;
 
 	class UIRABTrainLevelEfficiencyItemWidgetController_Data : public ::System::Object
 	{
 	public:
-		::Class_2_208CC9941471731A_981* Config; // 0x10
+		::Class_2_208CC9941471731A_570* Config; // 0x10
 		::System::Boolean ShowCollectBtn; // 0x18
 
 		::System::Void _ctor()

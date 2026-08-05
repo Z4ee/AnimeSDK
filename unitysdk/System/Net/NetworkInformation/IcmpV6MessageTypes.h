@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_NET_NETWORKINFORMATION_ICMPV6MESSAGETYPES__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2ECE90)
+#define SYSTEM_NET_NETWORKINFORMATION_ICMPV6MESSAGETYPES__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6ADD10)
 
 namespace System::Net::NetworkInformation
 {

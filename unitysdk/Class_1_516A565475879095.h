@@ -20,15 +20,15 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 namespace System::Collections::Generic { template <typename T> class LinkedListNode_1; }
 namespace System::Collections::Generic { template <typename T> class LinkedList_1; }
 template <typename T1, typename T2> class Class_1_516A565475879095;
-template <typename T1, typename T2> class Class_1_516A565475879095_Class_1_248A9BE5392099A1;
+template <typename T1, typename T2> class Class_1_516A565475879095_Class_1_0F3EFC14F7A179AE;
 
-inline static constexpr unsigned int Class_1_516A565475879095_TypeDefinitionIndex = 18564;
+inline static constexpr unsigned int Class_1_516A565475879095_TypeDefinitionIndex = 18946;
 
 template <typename TKey, typename TValue>
 class Class_1_516A565475879095 : public ::System::Object
 {
 public:
-	static ::System::Collections::Generic::EqualityComparer_1<TValue>** StaticGet_Field_1_0()
+	static ::System::Collections::Generic::EqualityComparer_1<TValue>** StaticGet_Field_1_2()
 	{
 		return (::System::Collections::Generic::EqualityComparer_1<TValue>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_516A565475879095_TypeDefinitionIndex)->GetStaticField(0x0);
 	}
@@ -36,6 +36,6 @@ public:
 	{
 		return (::System::Collections::Generic::EqualityComparer_1<TKey>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_516A565475879095_TypeDefinitionIndex)->GetStaticField(0x0);
 	}
-	::System::Collections::Generic::Dictionary_2<TKey, ::System::Collections::Generic::LinkedListNode_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*>* Field_1_2; // 0x0
-	::System::Collections::Generic::LinkedList_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>* Field_1_3; // 0x0
+	::System::Collections::Generic::Dictionary_2<TKey, ::System::Collections::Generic::LinkedListNode_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*>* Field_1_0; // 0x0
+	::System::Collections::Generic::LinkedList_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>* Field_1_7; // 0x0
 };

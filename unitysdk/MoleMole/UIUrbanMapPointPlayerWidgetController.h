@@ -5,11 +5,11 @@
 class Class_3_12A3AC5F578BFE26;
 namespace MoleMole { class UIThreeDMapElement_LocalPlayerContext; }
 
-#define MOLEMOLE_UIURBANMAPPOINTPLAYERWIDGETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x157C6470)
+#define MOLEMOLE_UIURBANMAPPOINTPLAYERWIDGETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x10EF82B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIUrbanMapPointPlayerWidgetController_TypeDefinitionIndex = 79212;
+	inline static constexpr unsigned int UIUrbanMapPointPlayerWidgetController_TypeDefinitionIndex = 47731;
 
 	class UIUrbanMapPointPlayerWidgetController : public ::MoleMole::UIUrbanMapPointWidgetController_2<::Class_3_12A3AC5F578BFE26*, ::MoleMole::UIThreeDMapElement_LocalPlayerContext*>
 	{

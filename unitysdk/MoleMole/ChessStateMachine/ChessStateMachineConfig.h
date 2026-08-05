@@ -9,21 +9,21 @@ namespace MoleMole::ChessStateMachine { class TransitionConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CHESSSTATEMACHINE_CHESSSTATEMACHINECONFIG_GETDEFAULTCONFIG_OFFSET UNITYSDK_OFFSET(0xE957640)
-#define MOLEMOLE_CHESSSTATEMACHINE_CHESSSTATEMACHINECONFIG_GETNODECONFIG_OFFSET UNITYSDK_OFFSET(0xE957560)
-#define MOLEMOLE_CHESSSTATEMACHINE_CHESSSTATEMACHINECONFIG_GET_GLOBALPARAMSCONFIG_OFFSET UNITYSDK_OFFSET(0xE957380)
-#define MOLEMOLE_CHESSSTATEMACHINE_CHESSSTATEMACHINECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xE957710)
+#define MOLEMOLE_CHESSSTATEMACHINE_CHESSSTATEMACHINECONFIG_GETDEFAULTCONFIG_OFFSET UNITYSDK_OFFSET(0xF12B990)
+#define MOLEMOLE_CHESSSTATEMACHINE_CHESSSTATEMACHINECONFIG_GETNODECONFIG_OFFSET UNITYSDK_OFFSET(0xF12B8B0)
+#define MOLEMOLE_CHESSSTATEMACHINE_CHESSSTATEMACHINECONFIG_GET_GLOBALPARAMSCONFIG_OFFSET UNITYSDK_OFFSET(0xF12B6D0)
+#define MOLEMOLE_CHESSSTATEMACHINE_CHESSSTATEMACHINECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xF12BA60)
 
 namespace MoleMole::ChessStateMachine
 {
-	inline static constexpr unsigned int ChessStateMachineConfig_TypeDefinitionIndex = 63365;
+	inline static constexpr unsigned int ChessStateMachineConfig_TypeDefinitionIndex = 84139;
 
 	class ChessStateMachineConfig : public ::Foundation::MihoyoSerializedScriptableObject
 	{
 	public:
 		static ::MoleMole::ChessStateMachine::GlobalParamsConfig** StaticGet__globalParamsConfig()
 		{
-			return (::MoleMole::ChessStateMachine::GlobalParamsConfig**)Il2CppClass::FromTypeDefinitionIndex(ChessStateMachineConfig_TypeDefinitionIndex)->GetStaticField(0x4AD40);
+			return (::MoleMole::ChessStateMachine::GlobalParamsConfig**)Il2CppClass::FromTypeDefinitionIndex(ChessStateMachineConfig_TypeDefinitionIndex)->GetStaticField(0x516A0);
 		}
 		::System::String* smGuid; // 0x58
 		::System::String* smId; // 0x60

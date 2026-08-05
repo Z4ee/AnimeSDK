@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_3_E4EEC1864B2CE580;
+class Class_3_896CF41A82B374FA_1;
 namespace MoleMole::MiniGame::BangbooPartyGame { class MonoDigitConfig; }
 
-#define MOLEMOLE_UIGRANDMARCELSETTLEMENTDIALOGPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18119F40)
+#define MOLEMOLE_UIGRANDMARCELSETTLEMENTDIALOGPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x19FCDFA0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGrandMarcelSettlementDialogPopWindowController_Context_TypeDefinitionIndex = 50193;
+	inline static constexpr unsigned int UIGrandMarcelSettlementDialogPopWindowController_Context_TypeDefinitionIndex = 66351;
 
 	class UIGrandMarcelSettlementDialogPopWindowController_Context : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_3_E4EEC1864B2CE580* Notify; // 0x28
-		::MoleMole::MiniGame::BangbooPartyGame::MonoDigitConfig* MonoDigit; // 0x30
+		::MoleMole::MiniGame::BangbooPartyGame::MonoDigitConfig* MonoDigit; // 0x28
+		::Class_3_896CF41A82B374FA_1* Notify; // 0x30
 
 		::System::Void _ctor()
 		{

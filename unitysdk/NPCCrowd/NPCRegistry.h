@@ -7,7 +7,7 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_3_B7F8387EB62637EC;
+class Class_3_19291F68B291BF8F;
 class Class_3_F66EF797857EB737;
 namespace NPCCrowd { class NPCPerformanceConfigSO; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
@@ -15,52 +15,52 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 namespace System::Collections::Generic { template <typename T> class ISet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCCROWD_NPCREGISTRY_ADDFRONTPRIORITYHANDLE_OFFSET UNITYSDK_OFFSET(0xE02F6E0)
-#define NPCCROWD_NPCREGISTRY_BEGINPOLLINGSYNC_OFFSET UNITYSDK_OFFSET(0xE02F770)
-#define NPCCROWD_NPCREGISTRY_CLEAR_OFFSET UNITYSDK_OFFSET(0xE032750)
-#define NPCCROWD_NPCREGISTRY_COMPARERESTOREORDER_OFFSET UNITYSDK_OFFSET(0xE0310F0)
-#define NPCCROWD_NPCREGISTRY_CONTAINS_OFFSET UNITYSDK_OFFSET(0xE030430)
-#define NPCCROWD_NPCREGISTRY_ENDPOLLINGSYNC_OFFSET UNITYSDK_OFFSET(0xE02FF60)
-#define NPCCROWD_NPCREGISTRY_GETBACKSTAGEENTRIESFORRESTORE_OFFSET UNITYSDK_OFFSET(0xE0307B0)
-#define NPCCROWD_NPCREGISTRY_GETBACKSTAGEENTRIES_OFFSET UNITYSDK_OFFSET(0xE0304A0)
-#define NPCCROWD_NPCREGISTRY_GETCULLCANDIDATES_OFFSET UNITYSDK_OFFSET(0xE031880)
-#define NPCCROWD_NPCREGISTRY_GETDEBUGSTATS_OFFSET UNITYSDK_OFFSET(0xE032510)
-#define NPCCROWD_NPCREGISTRY_GETDISTANCESQCACHED_OFFSET UNITYSDK_OFFSET(0xE031EB0)
-#define NPCCROWD_NPCREGISTRY_GETFRONTSTAGECOUNT_OFFSET UNITYSDK_OFFSET(0xE02E8D0)
-#define NPCCROWD_NPCREGISTRY_GETFRONTSTAGELIFETIME_OFFSET UNITYSDK_OFFSET(0xE0329F0)
-#define NPCCROWD_NPCREGISTRY_GET_FRONTCULLABLECOUNT_OFFSET UNITYSDK_OFFSET(0xE02F3A0)
-#define NPCCROWD_NPCREGISTRY_GET_FRONTDELAYABLECOUNT_OFFSET UNITYSDK_OFFSET(0xE02F380)
-#define NPCCROWD_NPCREGISTRY_GET_TOTALCOUNT_OFFSET UNITYSDK_OFFSET(0xE02F360)
-#define NPCCROWD_NPCREGISTRY_REGISTER_OFFSET UNITYSDK_OFFSET(0xE02F4C0)
-#define NPCCROWD_NPCREGISTRY_REMOVEFRONTPRIORITYHANDLE_OFFSET UNITYSDK_OFFSET(0xE02FC00)
-#define NPCCROWD_NPCREGISTRY_SETBACKSTAGE_OFFSET UNITYSDK_OFFSET(0xE02FC90)
-#define NPCCROWD_NPCREGISTRY_SHOULDBLOCKRESTOREBYNEARDISTANCE_OFFSET UNITYSDK_OFFSET(0xE030EE0)
-#define NPCCROWD_NPCREGISTRY_TRYGETENTRY_OFFSET UNITYSDK_OFFSET(0xE02F3C0)
-#define NPCCROWD_NPCREGISTRY_TRYGETFRONTENTRY_OFFSET UNITYSDK_OFFSET(0xE032AB0)
-#define NPCCROWD_NPCREGISTRY_TRYGETMOSTCULLABLE_OFFSET UNITYSDK_OFFSET(0xE031F70)
-#define NPCCROWD_NPCREGISTRY_TRYGETMOSTDISTANTFROMBUCKET_OFFSET UNITYSDK_OFFSET(0xE0320B0)
-#define NPCCROWD_NPCREGISTRY_UNREGISTER_OFFSET UNITYSDK_OFFSET(0xE030300)
-#define NPCCROWD_NPCREGISTRY_UPSERTFROMPOLLING_OFFSET UNITYSDK_OFFSET(0xE02F800)
-#define NPCCROWD_NPCREGISTRY__CTOR_OFFSET UNITYSDK_OFFSET(0xE02F170)
+#define NPCCROWD_NPCREGISTRY_ADDFRONTPRIORITYHANDLE_OFFSET UNITYSDK_OFFSET(0x1194AF90)
+#define NPCCROWD_NPCREGISTRY_BEGINPOLLINGSYNC_OFFSET UNITYSDK_OFFSET(0x1194B020)
+#define NPCCROWD_NPCREGISTRY_CLEAR_OFFSET UNITYSDK_OFFSET(0x1194DF20)
+#define NPCCROWD_NPCREGISTRY_COMPARERESTOREORDER_OFFSET UNITYSDK_OFFSET(0x1194C980)
+#define NPCCROWD_NPCREGISTRY_CONTAINS_OFFSET UNITYSDK_OFFSET(0x1194BCC0)
+#define NPCCROWD_NPCREGISTRY_ENDPOLLINGSYNC_OFFSET UNITYSDK_OFFSET(0x1194B810)
+#define NPCCROWD_NPCREGISTRY_GETBACKSTAGEENTRIESFORRESTORE_OFFSET UNITYSDK_OFFSET(0x1194C030)
+#define NPCCROWD_NPCREGISTRY_GETBACKSTAGEENTRIES_OFFSET UNITYSDK_OFFSET(0x1194BD30)
+#define NPCCROWD_NPCREGISTRY_GETCULLCANDIDATES_OFFSET UNITYSDK_OFFSET(0x1194D0B0)
+#define NPCCROWD_NPCREGISTRY_GETDEBUGSTATS_OFFSET UNITYSDK_OFFSET(0x1194DD10)
+#define NPCCROWD_NPCREGISTRY_GETDISTANCESQCACHED_OFFSET UNITYSDK_OFFSET(0x1194D6B0)
+#define NPCCROWD_NPCREGISTRY_GETFRONTSTAGECOUNT_OFFSET UNITYSDK_OFFSET(0x1194A0E0)
+#define NPCCROWD_NPCREGISTRY_GETFRONTSTAGELIFETIME_OFFSET UNITYSDK_OFFSET(0x1194E1C0)
+#define NPCCROWD_NPCREGISTRY_GET_FRONTCULLABLECOUNT_OFFSET UNITYSDK_OFFSET(0x1194ABA0)
+#define NPCCROWD_NPCREGISTRY_GET_FRONTDELAYABLECOUNT_OFFSET UNITYSDK_OFFSET(0x1194AB80)
+#define NPCCROWD_NPCREGISTRY_GET_TOTALCOUNT_OFFSET UNITYSDK_OFFSET(0x1194AB60)
+#define NPCCROWD_NPCREGISTRY_REGISTER_OFFSET UNITYSDK_OFFSET(0x1194ACC0)
+#define NPCCROWD_NPCREGISTRY_REMOVEFRONTPRIORITYHANDLE_OFFSET UNITYSDK_OFFSET(0x1194B4B0)
+#define NPCCROWD_NPCREGISTRY_SETBACKSTAGE_OFFSET UNITYSDK_OFFSET(0x1194B540)
+#define NPCCROWD_NPCREGISTRY_SHOULDBLOCKRESTOREBYNEARDISTANCE_OFFSET UNITYSDK_OFFSET(0x1194C770)
+#define NPCCROWD_NPCREGISTRY_TRYGETENTRY_OFFSET UNITYSDK_OFFSET(0x1194ABC0)
+#define NPCCROWD_NPCREGISTRY_TRYGETFRONTENTRY_OFFSET UNITYSDK_OFFSET(0x1194E280)
+#define NPCCROWD_NPCREGISTRY_TRYGETMOSTCULLABLE_OFFSET UNITYSDK_OFFSET(0x1194D770)
+#define NPCCROWD_NPCREGISTRY_TRYGETMOSTDISTANTFROMBUCKET_OFFSET UNITYSDK_OFFSET(0x1194D8B0)
+#define NPCCROWD_NPCREGISTRY_UNREGISTER_OFFSET UNITYSDK_OFFSET(0x1194BB90)
+#define NPCCROWD_NPCREGISTRY_UPSERTFROMPOLLING_OFFSET UNITYSDK_OFFSET(0x1194B0B0)
+#define NPCCROWD_NPCREGISTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1194A970)
 
 namespace NPCCrowd
 {
-	inline static constexpr unsigned int NPCRegistry_TypeDefinitionIndex = 73034;
+	inline static constexpr unsigned int NPCRegistry_TypeDefinitionIndex = 63848;
 
 	class NPCRegistry : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::HashSet_1<::Foundation::ViewObject::ViewObjectHandle>* _backStageHandles; // 0x10
-		::System::Collections::Generic::HashSet_1<::Foundation::ViewObject::ViewObjectHandle>* _frontDelayableHandles; // 0x18
-		::System::Collections::Generic::HashSet_1<::Foundation::ViewObject::ViewObjectHandle>* _frontCullableHandles; // 0x20
-		::System::Collections::Generic::Dictionary_2<::Foundation::ViewObject::ViewObjectHandle, ::NPCCrowd::NPCRegistryEntry>* _entries; // 0x28
-		::System::Collections::Generic::List_1<::Foundation::ViewObject::ViewObjectHandle>* _pollingRemoveBuffer; // 0x30
-		::NPCCrowd::NPCPerformanceConfigSO* _config; // 0x38
+		::System::Collections::Generic::Dictionary_2<::Foundation::ViewObject::ViewObjectHandle, ::NPCCrowd::NPCRegistryEntry>* _entries; // 0x10
+		::System::Collections::Generic::List_1<::Foundation::ViewObject::ViewObjectHandle>* _pollingRemoveBuffer; // 0x18
+		::System::Collections::Generic::HashSet_1<::Foundation::ViewObject::ViewObjectHandle>* _pollingSeenHandles; // 0x20
+		::System::Collections::Generic::HashSet_1<::Foundation::ViewObject::ViewObjectHandle>* _frontCullableHandles; // 0x28
+		::System::Collections::Generic::HashSet_1<::Foundation::ViewObject::ViewObjectHandle>* _backStageHandles; // 0x30
+		::System::Collections::Generic::HashSet_1<::Foundation::ViewObject::ViewObjectHandle>* _frontDelayableHandles; // 0x38
 		::System::Collections::Generic::List_1<::NPCCrowd::NPCRegistryEntry>* _sortBuffer; // 0x40
-		::System::Collections::Generic::HashSet_1<::Foundation::ViewObject::ViewObjectHandle>* _pollingSeenHandles; // 0x48
+		::NPCCrowd::NPCPerformanceConfigSO* _config; // 0x48
 		::System::Collections::Generic::List_1<::NPCCrowd::NPCRegistry_EntryWithDist>* _cullCandidateBuffer; // 0x50
-		::System::UInt64 _backStageSeqCounter; // 0x58
-		::System::UInt64 _registerSeqCounter; // 0x60
+		::System::UInt64 _registerSeqCounter; // 0x58
+		::System::UInt64 _backStageSeqCounter; // 0x60
 		::System::Boolean _bInPollingSync; // 0x68
 		::System::Int32 _frontStageCount; // 0x6C
 
@@ -99,9 +99,9 @@ namespace NPCCrowd
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_NPCREGISTRY_BEGINPOLLINGSYNC_OFFSET))(this);
 		}
 
-		::System::Void UpsertFromPolling(::Foundation::ViewObject::ViewObjectHandle handle, ::NPCCrowd::EDynamicUnloadPriority dynamicUnloadPriority, ::System::UInt32 groupID, ::System::Boolean isBackStage, ::Class_3_B7F8387EB62637EC* builderComp, ::Class_3_F66EF797857EB737* memberComp)
+		::System::Void UpsertFromPolling(::Foundation::ViewObject::ViewObjectHandle handle, ::NPCCrowd::EDynamicUnloadPriority dynamicUnloadPriority, ::System::UInt32 groupID, ::System::Boolean isBackStage, ::Class_3_19291F68B291BF8F* builderComp, ::Class_3_F66EF797857EB737* memberComp)
 		{
-			return ((::System::Void(*)(::PVOID, ::Foundation::ViewObject::ViewObjectHandle, ::NPCCrowd::EDynamicUnloadPriority, ::System::UInt32, ::System::Boolean, ::Class_3_B7F8387EB62637EC*, ::Class_3_F66EF797857EB737*))((::PBYTE)hIl2Cpp + NPCCROWD_NPCREGISTRY_UPSERTFROMPOLLING_OFFSET))(this, handle, dynamicUnloadPriority, groupID, isBackStage, builderComp, memberComp);
+			return ((::System::Void(*)(::PVOID, ::Foundation::ViewObject::ViewObjectHandle, ::NPCCrowd::EDynamicUnloadPriority, ::System::UInt32, ::System::Boolean, ::Class_3_19291F68B291BF8F*, ::Class_3_F66EF797857EB737*))((::PBYTE)hIl2Cpp + NPCCROWD_NPCREGISTRY_UPSERTFROMPOLLING_OFFSET))(this, handle, dynamicUnloadPriority, groupID, isBackStage, builderComp, memberComp);
 		}
 
 		::System::Void EndPollingSync()

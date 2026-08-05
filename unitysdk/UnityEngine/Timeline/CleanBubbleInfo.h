@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define UNITYENGINE_TIMELINE_CLEANBUBBLEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD5D200)
+#define UNITYENGINE_TIMELINE_CLEANBUBBLEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1F1A2000)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int CleanBubbleInfo_TypeDefinitionIndex = 32307;
+	inline static constexpr unsigned int CleanBubbleInfo_TypeDefinitionIndex = 32938;
 
 	class CleanBubbleInfo : public ::System::Object
 	{

@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UISuibianDrinkingTeaPageController; }
 
-#define MOLEMOLE_UISUIBIANDRINKINGTEAPAGECONTROLLER___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1381AD50)
-#define MOLEMOLE_UISUIBIANDRINKINGTEAPAGECONTROLLER___C__DISPLAYCLASS25_0__SHOWNEEDITEM_B__0_OFFSET UNITYSDK_OFFSET(0x1381AD60)
+#define MOLEMOLE_UISUIBIANDRINKINGTEAPAGECONTROLLER___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15F7D4F0)
+#define MOLEMOLE_UISUIBIANDRINKINGTEAPAGECONTROLLER___C__DISPLAYCLASS25_0__SHOWNEEDITEM_B__0_OFFSET UNITYSDK_OFFSET(0x15F7D500)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISuibianDrinkingTeaPageController___c__DisplayClass25_0_TypeDefinitionIndex = 81387;
+	inline static constexpr unsigned int UISuibianDrinkingTeaPageController___c__DisplayClass25_0_TypeDefinitionIndex = 85566;
 
 	class UISuibianDrinkingTeaPageController___c__DisplayClass25_0 : public ::System::Object
 	{

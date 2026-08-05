@@ -6,21 +6,21 @@
 class Class_5_A6F8D19602712D95;
 namespace Cysharp::Threading::Tasks { class UniTaskCompletionSource; }
 
-#define CLASS_1_49776B0E09344AA8_CLASS_1_B09FF3E6F7E4C626_METHOD_1_151E25A63D14DDB0_OFFSET UNITYSDK_OFFSET(0x159E1390)
-#define CLASS_1_49776B0E09344AA8_CLASS_1_B09FF3E6F7E4C626_METHOD_1_C145705A054F47D2_OFFSET UNITYSDK_OFFSET(0x159E11F0)
-#define CLASS_1_49776B0E09344AA8_CLASS_1_B09FF3E6F7E4C626__CTOR_OFFSET UNITYSDK_OFFSET(0x159E11E0)
+#define CLASS_1_49776B0E09344AA8_CLASS_1_B09FF3E6F7E4C626_METHOD_1_151E25A63D14DDB0_OFFSET UNITYSDK_OFFSET(0x14A29BA0)
+#define CLASS_1_49776B0E09344AA8_CLASS_1_B09FF3E6F7E4C626_METHOD_1_C145705A054F47D2_OFFSET UNITYSDK_OFFSET(0x14A29A00)
+#define CLASS_1_49776B0E09344AA8_CLASS_1_B09FF3E6F7E4C626__CTOR_OFFSET UNITYSDK_OFFSET(0x14A299F0)
 
-inline static constexpr unsigned int Class_1_49776B0E09344AA8_Class_1_B09FF3E6F7E4C626_TypeDefinitionIndex = 85451;
+inline static constexpr unsigned int Class_1_49776B0E09344AA8_Class_1_B09FF3E6F7E4C626_TypeDefinitionIndex = 64784;
 
 class Class_1_49776B0E09344AA8_Class_1_B09FF3E6F7E4C626 : public ::System::Object
 {
 public:
-	::Class_5_A6F8D19602712D95* Field_1_4; // 0x10
-	::Cysharp::Threading::Tasks::UniTaskCompletionSource* Field_1_5; // 0x18
-	::UnityEngine::Vector3 Field_1_1; // 0x20
-	::System::Single Field_1_2; // 0x2C
-	::UnityEngine::Vector3 Field_1_0; // 0x30
-	::System::Single Field_1_3; // 0x3C
+	::Cysharp::Threading::Tasks::UniTaskCompletionSource* Field_1_5; // 0x10
+	::Class_5_A6F8D19602712D95* Field_1_6; // 0x18
+	::System::Single Field_1_0; // 0x20
+	::UnityEngine::Vector3 Field_1_2; // 0x24
+	::UnityEngine::Vector3 Field_1_1; // 0x30
+	::System::Single Field_1_7; // 0x3C
 
 	::System::Void _ctor()
 	{

@@ -3,7 +3,7 @@
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int ENapGIQuality_TypeDefinitionIndex = 5856;
+	inline static constexpr unsigned int ENapGIQuality_TypeDefinitionIndex = 5858;
 
 	enum class ENapGIQuality : ::System::Int32
 	{

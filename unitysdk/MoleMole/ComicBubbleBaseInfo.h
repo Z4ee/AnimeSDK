@@ -6,17 +6,17 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::Timeline { class BubbleInfo; }
 namespace UnityEngine::Timeline { class WwiseAudioInfo; }
 
-#define MOLEMOLE_COMICBUBBLEBASEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD08960)
+#define MOLEMOLE_COMICBUBBLEBASEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1F0DF970)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ComicBubbleBaseInfo_TypeDefinitionIndex = 32120;
+	inline static constexpr unsigned int ComicBubbleBaseInfo_TypeDefinitionIndex = 32748;
 
 	class ComicBubbleBaseInfo : public ::System::Object
 	{
 	public:
-		::UnityEngine::Timeline::BubbleInfo* bubbleInfo; // 0x10
-		::System::Collections::Generic::List_1<::UnityEngine::Timeline::WwiseAudioInfo*>* audioInfos; // 0x18
+		::System::Collections::Generic::List_1<::UnityEngine::Timeline::WwiseAudioInfo*>* audioInfos; // 0x10
+		::UnityEngine::Timeline::BubbleInfo* bubbleInfo; // 0x18
 		::System::Double time; // 0x20
 
 		::System::Void _ctor()

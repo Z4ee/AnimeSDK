@@ -5,7 +5,7 @@
 
 namespace NPCCrowd::Animation::Job
 {
-	inline static constexpr unsigned int FullBodyIKJob_IKLimbHandle_TypeDefinitionIndex = 72194;
+	inline static constexpr unsigned int FullBodyIKJob_IKLimbHandle_TypeDefinitionIndex = 89929;
 
 	struct alignas(4) FullBodyIKJob_IKLimbHandle
 	{

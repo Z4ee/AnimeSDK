@@ -4,7 +4,7 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int ObjectPoolOfT_TypeDefinitionIndex = 8375;
+	inline static constexpr unsigned int ObjectPoolOfT_TypeDefinitionIndex = 8352;
 
 	class ObjectPoolOfT : public ::System::Object
 	{

@@ -6,9 +6,9 @@ namespace MoleMole::HollowChessboard { class MatPropertyData; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class Material; }
 
-#define STRUCT_2_59B8D4D1943D9E41_METHOD_2_369DD16C5A3A7549_OFFSET UNITYSDK_OFFSET(0x15DFD0A0)
+#define STRUCT_2_59B8D4D1943D9E41_METHOD_2_369DD16C5A3A7549_OFFSET UNITYSDK_OFFSET(0x14A49160)
 
-inline static constexpr unsigned int Struct_2_59B8D4D1943D9E41_TypeDefinitionIndex = 44279;
+inline static constexpr unsigned int Struct_2_59B8D4D1943D9E41_TypeDefinitionIndex = 84376;
 
 struct alignas(8) Struct_2_59B8D4D1943D9E41
 {

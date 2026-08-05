@@ -3,20 +3,20 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int DirectionPlayerOnKey_TypeDefinitionIndex = 82363;
+	inline static constexpr unsigned int DirectionPlayerOnKey_TypeDefinitionIndex = 88003;
 
 	enum class DirectionPlayerOnKey : ::System::Int32
 	{
-		PushDistanceArrive = 10,
-		StringPushStart = 6,
-		ContinousMoveBlocked = 5,
-		Move = 1,
-		None = 0,
-		PushDistanceStart = 9,
-		StringPushArrive = 7,
 		ConveyerBeltPushArrive = 8,
-		BeforePushBack = 2,
+		StringPushStart = 6,
+		Move = 1,
 		PushBackArrive = 3,
+		BeforePushBack = 2,
+		PushDistanceArrive = 10,
+		StringPushArrive = 7,
 		OneStepBlocked = 4,
+		PushDistanceStart = 9,
+		None = 0,
+		ContinousMoveBlocked = 5,
 	};
 }

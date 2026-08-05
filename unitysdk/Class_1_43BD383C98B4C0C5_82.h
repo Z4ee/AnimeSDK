@@ -4,31 +4,48 @@
 
 namespace System { class String; }
 
-#define CLASS_1_43BD383C98B4C0C5_82__CTOR_OFFSET UNITYSDK_OFFSET(0x1583D830)
+#define CLASS_1_43BD383C98B4C0C5_82__CTOR_OFFSET UNITYSDK_OFFSET(0x17842D40)
 
-inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_82_TypeDefinitionIndex = 53321;
+inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_82_TypeDefinitionIndex = 48709;
 
 class Class_1_43BD383C98B4C0C5_82 : public ::System::Object
 {
 public:
-	::Il2CppArray<::System::String*>* Field_1_13; // 0x10
-	::Il2CppArray<::System::String*>* Field_1_6; // 0x18
-	::Il2CppArray<::System::String*>* Field_1_2; // 0x20
-	::Il2CppArray<::System::String*>* Field_1_1; // 0x28
-	::Il2CppArray<::System::String*>* Field_1_4; // 0x30
-	::Il2CppArray<::System::String*>* Field_1_0; // 0x38
-	::Il2CppArray<::System::String*>* Field_1_14; // 0x40
-	::Il2CppArray<::System::String*>* Field_1_7; // 0x48
-	::Il2CppArray<::System::String*>* Field_1_17; // 0x50
-	::Il2CppArray<::System::String*>* Field_1_12; // 0x58
-	::Il2CppArray<::System::String*>* Field_1_5; // 0x60
-	::Il2CppArray<::System::String*>* Field_1_10; // 0x68
-	::Il2CppArray<::System::String*>* Field_1_16; // 0x70
-	::Il2CppArray<::System::String*>* Field_1_3; // 0x78
-	::Il2CppArray<::System::String*>* Field_1_11; // 0x80
-	::Il2CppArray<::System::String*>* Field_1_15; // 0x88
-	::Il2CppArray<::System::String*>* Field_1_9; // 0x90
-	::Il2CppArray<::System::String*>* Field_1_8; // 0x98
+	// static const ::System::String* Field_1_1; // 0x0
+	// static const ::System::String* Field_1_0; // 0x0
+	// static const ::System::String* Field_1_7; // 0x0
+	// static const ::System::String* Field_1_6; // 0x0
+	// static const ::System::String* Field_1_5; // 0x0
+	// static const ::System::String* Field_1_4; // 0x0
+	// static const ::System::String* Field_1_11; // 0x0
+	// static const ::System::String* Field_1_10; // 0x0
+	// static const ::System::String* Field_1_9; // 0x0
+	// static const ::System::String* Field_1_8; // 0x0
+	// static const ::System::String* Field_1_15; // 0x0
+	// static const ::System::String* Field_1_14; // 0x0
+	// static const ::System::String* Field_1_13; // 0x0
+	// static const ::System::String* Field_1_12; // 0x0
+	// static const ::System::String* Field_1_19; // 0x0
+	// static const ::System::String* Field_1_18; // 0x0
+	// static const ::System::String* Field_1_17; // 0x0
+	// static const ::System::String* Field_1_16; // 0x0
+	// static const ::System::String* Field_1_23; // 0x0
+	// static const ::System::String* Field_1_22; // 0x0
+	// static const ::System::String* Field_1_21; // 0x0
+	// static const ::System::String* Field_1_20; // 0x0
+	// static const ::System::String* Field_1_27; // 0x0
+	// static const ::System::String* Field_1_26; // 0x0
+	// static const ::System::String* Field_1_25; // 0x0
+	// static const ::System::String* Field_1_24; // 0x0
+	// static const ::System::String* Field_1_31; // 0x0
+	// static const ::System::String* Field_1_30; // 0x0
+	// static const ::System::String* Field_1_29; // 0x0
+	// static const ::System::String* Field_1_28; // 0x0
+	// static const ::System::String* Field_1_35; // 0x0
+	// static const ::System::String* Field_1_34; // 0x0
+	// static const ::System::String* Field_1_33; // 0x0
+	// static const ::System::String* Field_1_32; // 0x0
+	// static const ::System::String* Field_1_39; // 0x0
 
 	::System::Void _ctor()
 	{

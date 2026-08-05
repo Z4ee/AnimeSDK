@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int ILogger_TypeDefinitionIndex = 6542;
+	inline static constexpr unsigned int ILogger_TypeDefinitionIndex = 6546;
 
 	class ILogger
 	{

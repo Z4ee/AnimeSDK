@@ -13,20 +13,20 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class Shader; }
 namespace UnityEngine::NAPRenderPipeline0 { class ProfilingSampler; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_RTXAODEBUGBLITPASS_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B1A1670)
-#define UNITYENGINE_RENDERING_UNIVERSAL_RTXAODEBUGBLITPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1B1A1790)
-#define UNITYENGINE_RENDERING_UNIVERSAL_RTXAODEBUGBLITPASS_SETUP_OFFSET UNITYSDK_OFFSET(0x1B1A1620)
-#define UNITYENGINE_RENDERING_UNIVERSAL_RTXAODEBUGBLITPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1A1310)
+#define UNITYENGINE_RENDERING_UNIVERSAL_RTXAODEBUGBLITPASS_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1C5D7310)
+#define UNITYENGINE_RENDERING_UNIVERSAL_RTXAODEBUGBLITPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1C5D7430)
+#define UNITYENGINE_RENDERING_UNIVERSAL_RTXAODEBUGBLITPASS_SETUP_OFFSET UNITYSDK_OFFSET(0x1C5D72C0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_RTXAODEBUGBLITPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5D6FB0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int RTXAODebugBlitPass_TypeDefinitionIndex = 26511;
+	inline static constexpr unsigned int RTXAODebugBlitPass_TypeDefinitionIndex = 27290;
 
 	class RTXAODebugBlitPass : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 	{
 	public:
-		::UnityEngine::NAPRenderPipeline0::ProfilingSampler* m_profilingSampler; // 0xA8
-		::UnityEngine::Material* m_debugBlitMaterial; // 0xB0
+		::UnityEngine::Material* m_debugBlitMaterial; // 0xA8
+		::UnityEngine::NAPRenderPipeline0::ProfilingSampler* m_profilingSampler; // 0xB0
 		::UnityEngine::NAPRenderPipeline0::RenderTargetHandle m_colorRTHandle; // 0xB8
 
 		::System::Void _ctor(::System::String* profilerTag, ::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::NAPRenderPipeline0::RenderPassEvent>* renderPassEventConfig, ::UnityEngine::Shader* debugBlitShader)

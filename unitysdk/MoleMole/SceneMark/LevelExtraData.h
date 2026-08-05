@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_SCENEMARK_LEVELEXTRADATA__CTOR_OFFSET UNITYSDK_OFFSET(0x173851D0)
+#define MOLEMOLE_SCENEMARK_LEVELEXTRADATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1792BAE0)
 
 namespace MoleMole::SceneMark
 {
-	inline static constexpr unsigned int LevelExtraData_TypeDefinitionIndex = 61647;
+	inline static constexpr unsigned int LevelExtraData_TypeDefinitionIndex = 86886;
 
 	class LevelExtraData : public ::System::Object
 	{

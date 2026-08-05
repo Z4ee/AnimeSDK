@@ -5,12 +5,12 @@
 namespace UnityEngine::InputSystem::Layouts { class InputControlLayout; }
 namespace UnityEngine::InputSystem::XR { class XRLayoutBuilder; }
 
-#define UNITYENGINE_INPUTSYSTEM_XR_XRLAYOUTBUILDER___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8B6960)
-#define UNITYENGINE_INPUTSYSTEM_XR_XRLAYOUTBUILDER___C__DISPLAYCLASS5_0__ONFINDLAYOUTFORDEVICE_B__0_OFFSET UNITYSDK_OFFSET(0x1D8B6970)
+#define UNITYENGINE_INPUTSYSTEM_XR_XRLAYOUTBUILDER___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC42230)
+#define UNITYENGINE_INPUTSYSTEM_XR_XRLAYOUTBUILDER___C__DISPLAYCLASS5_0__ONFINDLAYOUTFORDEVICE_B__0_OFFSET UNITYSDK_OFFSET(0x1EC42240)
 
 namespace UnityEngine::InputSystem::XR
 {
-	inline static constexpr unsigned int XRLayoutBuilder___c__DisplayClass5_0_TypeDefinitionIndex = 31721;
+	inline static constexpr unsigned int XRLayoutBuilder___c__DisplayClass5_0_TypeDefinitionIndex = 32341;
 
 	class XRLayoutBuilder___c__DisplayClass5_0 : public ::System::Object
 	{

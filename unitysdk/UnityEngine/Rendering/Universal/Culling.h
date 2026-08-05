@@ -6,11 +6,11 @@ namespace UnityEngine::NAPRenderPipeline0 { class BoolParameter; }
 namespace UnityEngine::NAPRenderPipeline0 { class ColorParameter; }
 namespace UnityEngine::NAPRenderPipeline0 { class FloatParameter; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_CULLING__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3D10E0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_CULLING__CTOR_OFFSET UNITYSDK_OFFSET(0x1E78D7B0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int Culling_TypeDefinitionIndex = 26314;
+	inline static constexpr unsigned int Culling_TypeDefinitionIndex = 27013;
 
 	class Culling : public ::UnityEngine::NAPRenderPipeline0::VolumeComponent
 	{

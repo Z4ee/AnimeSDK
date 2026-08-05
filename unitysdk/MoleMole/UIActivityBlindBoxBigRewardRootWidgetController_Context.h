@@ -4,11 +4,11 @@
 
 namespace MoleMole { class ActivityWidgetContext; }
 
-#define MOLEMOLE_UIACTIVITYBLINDBOXBIGREWARDROOTWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16110F10)
+#define MOLEMOLE_UIACTIVITYBLINDBOXBIGREWARDROOTWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x192701D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityBlindBoxBigRewardRootWidgetController_Context_TypeDefinitionIndex = 64169;
+	inline static constexpr unsigned int UIActivityBlindBoxBigRewardRootWidgetController_Context_TypeDefinitionIndex = 77835;
 
 	class UIActivityBlindBoxBigRewardRootWidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{

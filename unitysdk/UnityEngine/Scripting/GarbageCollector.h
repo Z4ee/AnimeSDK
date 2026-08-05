@@ -5,20 +5,20 @@
 
 namespace System { template <typename T> class Action_1; }
 
-#define UNITYENGINE_SCRIPTING_GARBAGECOLLECTOR_GETMODE_OFFSET UNITYSDK_OFFSET(0x1D58FA00)
-#define UNITYENGINE_SCRIPTING_GARBAGECOLLECTOR_SETMODE_OFFSET UNITYSDK_OFFSET(0x1D58FA10)
-#define UNITYENGINE_SCRIPTING_GARBAGECOLLECTOR_SET_GCMODE_OFFSET UNITYSDK_OFFSET(0x1D58F990)
+#define UNITYENGINE_SCRIPTING_GARBAGECOLLECTOR_GETMODE_OFFSET UNITYSDK_OFFSET(0x1E956100)
+#define UNITYENGINE_SCRIPTING_GARBAGECOLLECTOR_SETMODE_OFFSET UNITYSDK_OFFSET(0x1E956110)
+#define UNITYENGINE_SCRIPTING_GARBAGECOLLECTOR_SET_GCMODE_OFFSET UNITYSDK_OFFSET(0x1E956090)
 
 namespace UnityEngine::Scripting
 {
-	inline static constexpr unsigned int GarbageCollector_TypeDefinitionIndex = 5507;
+	inline static constexpr unsigned int GarbageCollector_TypeDefinitionIndex = 5510;
 
 	class GarbageCollector : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::UnityEngine::Scripting::GarbageCollector_Mode>** StaticGet_GCModeChanged()
 		{
-			return (::System::Action_1<::UnityEngine::Scripting::GarbageCollector_Mode>**)Il2CppClass::FromTypeDefinitionIndex(GarbageCollector_TypeDefinitionIndex)->GetStaticField(0x55C0);
+			return (::System::Action_1<::UnityEngine::Scripting::GarbageCollector_Mode>**)Il2CppClass::FromTypeDefinitionIndex(GarbageCollector_TypeDefinitionIndex)->GetStaticField(0x55D0);
 		}
 
 		static ::System::Void set_GCMode(::UnityEngine::Scripting::GarbageCollector_Mode value)

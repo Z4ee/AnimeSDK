@@ -5,9 +5,9 @@
 
 namespace LyraSector { class LyraPackedAsset; }
 
-#define TESTLYRASECTORLOADER_KEYTOPACKEDASSETDICT__CTOR_OFFSET UNITYSDK_OFFSET(0x1C3FC260)
+#define TESTLYRASECTORLOADER_KEYTOPACKEDASSETDICT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6DB6C0)
 
-inline static constexpr unsigned int TestLyraSectorLoader_KeyToPackedAssetDict_TypeDefinitionIndex = 26868;
+inline static constexpr unsigned int TestLyraSectorLoader_KeyToPackedAssetDict_TypeDefinitionIndex = 27870;
 
 class TestLyraSectorLoader_KeyToPackedAssetDict : public ::UnityEngine::Rendering::SerializedDictionary_2<::LyraSector::LyraPackedAssetUtils_PackedAssetKey, ::LyraSector::LyraPackedAsset*>
 {

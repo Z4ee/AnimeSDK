@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace FlexBuffers
 {
-	inline static constexpr unsigned int IByteArray_TypeDefinitionIndex = 6747;
+	inline static constexpr unsigned int IByteArray_TypeDefinitionIndex = 6751;
 
 	class IByteArray
 	{

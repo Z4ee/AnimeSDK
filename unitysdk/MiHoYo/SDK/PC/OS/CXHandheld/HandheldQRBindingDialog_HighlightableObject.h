@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
-	inline static constexpr unsigned int HandheldQRBindingDialog_HighlightableObject_TypeDefinitionIndex = 20561;
+	inline static constexpr unsigned int HandheldQRBindingDialog_HighlightableObject_TypeDefinitionIndex = 20908;
 
 	enum class HandheldQRBindingDialog_HighlightableObject : ::System::Int32
 	{

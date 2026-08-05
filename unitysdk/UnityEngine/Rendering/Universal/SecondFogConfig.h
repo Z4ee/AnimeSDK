@@ -5,11 +5,11 @@
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_SECONDFOGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xF7A7190)
+#define UNITYENGINE_RENDERING_UNIVERSAL_SECONDFOGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1F823240)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int SecondFogConfig_TypeDefinitionIndex = 26695;
+	inline static constexpr unsigned int SecondFogConfig_TypeDefinitionIndex = 27821;
 
 	class SecondFogConfig : public ::System::Object
 	{

@@ -8,7 +8,7 @@ namespace System { class Object; }
 
 namespace DG::Tweening::Core
 {
-	inline static constexpr unsigned int DOGetter_1_TypeDefinitionIndex = 27978;
+	inline static constexpr unsigned int DOGetter_1_TypeDefinitionIndex = 28582;
 
 	template <typename T>
 	class DOGetter_1 : public ::System::MulticastDelegate

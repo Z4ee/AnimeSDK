@@ -5,12 +5,12 @@
 namespace UnityEngine::Rendering::Universal { class PostProcessData_ShaderResources; }
 namespace UnityEngine::Rendering::Universal { class PostProcessData_TextureResources; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_POSTPROCESSDATA_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1C1515D0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_POSTPROCESSDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1518A0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_POSTPROCESSDATA_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1D310AF0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_POSTPROCESSDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1D310DD0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int PostProcessData_TypeDefinitionIndex = 26729;
+	inline static constexpr unsigned int PostProcessData_TypeDefinitionIndex = 27294;
 
 	class PostProcessData : public ::UnityEngine::ScriptableObject
 	{

@@ -6,12 +6,12 @@
 
 namespace UnityEngine { class Texture2D; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_SCENEVFXCONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x1BDDD900)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_SCENEVFXCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDDDE30)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_SCENEVFXCONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x1CF19090)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_SCENEVFXCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF195D0)
 
 namespace UnityEngine::Rendering::Universal::WeatherSystem
 {
-	inline static constexpr unsigned int SceneVFXConfig_TypeDefinitionIndex = 26414;
+	inline static constexpr unsigned int SceneVFXConfig_TypeDefinitionIndex = 27370;
 
 	class SceneVFXConfig : public ::UnityEngine::Rendering::Universal::WeatherSystem::WeatherPropertiesBase_1<::UnityEngine::Rendering::Universal::WeatherSystem::SceneVFXConfig*>
 	{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnrealTypes/Object.h"
 
-#define UNREALTYPES_PROPERTYBAGMISSINGOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1B8DF0)
+#define UNREALTYPES_PROPERTYBAGMISSINGOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E392470)
 
 namespace UnrealTypes
 {
-	inline static constexpr unsigned int PropertyBagMissingObject_TypeDefinitionIndex = 27810;
+	inline static constexpr unsigned int PropertyBagMissingObject_TypeDefinitionIndex = 28414;
 
 	class PropertyBagMissingObject : public ::UnrealTypes::Object
 	{

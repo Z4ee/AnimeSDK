@@ -6,12 +6,12 @@
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/ScriptableRenderPass.h"
 #include "unitysdk/UnityEngine/Rendering/ScriptableRenderContext.h"
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_RTXBUILDACCELERATIONSTRUCTUREPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1CF35680)
-#define UNITYENGINE_NAPRENDERPIPELINE0_RTXBUILDACCELERATIONSTRUCTUREPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF35620)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RTXBUILDACCELERATIONSTRUCTUREPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1E31A4B0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RTXBUILDACCELERATIONSTRUCTUREPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E31A450)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int RTXBuildAccelerationStructurePass_TypeDefinitionIndex = 5804;
+	inline static constexpr unsigned int RTXBuildAccelerationStructurePass_TypeDefinitionIndex = 5806;
 
 	class RTXBuildAccelerationStructurePass : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 	{

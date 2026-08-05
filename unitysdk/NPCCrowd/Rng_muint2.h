@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define NPCCROWD_RNG_MUINT2__CTOR_OFFSET UNITYSDK_OFFSET(0x2AB920)
+#define NPCCROWD_RNG_MUINT2__CTOR_OFFSET UNITYSDK_OFFSET(0x312BA0)
 
 namespace NPCCrowd
 {
-	inline static constexpr unsigned int Rng_muint2_TypeDefinitionIndex = 81958;
+	inline static constexpr unsigned int Rng_muint2_TypeDefinitionIndex = 40927;
 
 	struct alignas(4) Rng_muint2
 	{

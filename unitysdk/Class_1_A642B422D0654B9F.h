@@ -1,0 +1,83 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_2_7ACB85FE89575BF5;
+namespace System { class String; }
+namespace System::Collections::Generic { template <typename T> class HashSet_1; }
+
+#define CLASS_1_A642B422D0654B9F_METHOD_1_25390083CAA5B1DA_OFFSET UNITYSDK_OFFSET(0x145B0430)
+#define CLASS_1_A642B422D0654B9F_METHOD_1_43A46E5F9FAC62B8_OFFSET UNITYSDK_OFFSET(0x145B0AD0)
+#define CLASS_1_A642B422D0654B9F_METHOD_1_467AC3F076594137_OFFSET UNITYSDK_OFFSET(0x145AF9D0)
+#define CLASS_1_A642B422D0654B9F_METHOD_1_58BA0C8308C8127F_OFFSET UNITYSDK_OFFSET(0x145B0300)
+#define CLASS_1_A642B422D0654B9F_METHOD_1_6A1B12FFFCC4F892_OFFSET UNITYSDK_OFFSET(0x145AFBE0)
+#define CLASS_1_A642B422D0654B9F_METHOD_1_6BE484E5F636032A_OFFSET UNITYSDK_OFFSET(0x145AFAE0)
+#define CLASS_1_A642B422D0654B9F_METHOD_1_839190CC918FE165_OFFSET UNITYSDK_OFFSET(0x145B0630)
+#define CLASS_1_A642B422D0654B9F_METHOD_1_928B00241CFBD033_OFFSET UNITYSDK_OFFSET(0x145B0320)
+#define CLASS_1_A642B422D0654B9F_METHOD_1_CCD7CE05545A362B_OFFSET UNITYSDK_OFFSET(0x145B0310)
+#define CLASS_1_A642B422D0654B9F_METHOD_1_DD784213055292FB_OFFSET UNITYSDK_OFFSET(0x145AFBF0)
+#define CLASS_1_A642B422D0654B9F__CTOR_OFFSET UNITYSDK_OFFSET(0x145AF960)
+
+inline static constexpr unsigned int Class_1_A642B422D0654B9F_TypeDefinitionIndex = 62616;
+
+class Class_1_A642B422D0654B9F : public ::System::Object
+{
+public:
+	::Class_2_7ACB85FE89575BF5* Field_1_1; // 0x10
+	::System::Collections::Generic::HashSet_1<::System::UInt32>* Field_1_0; // 0x18
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_A642B422D0654B9F__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_1_467AC3F076594137(::System::UInt32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_A642B422D0654B9F_METHOD_1_467AC3F076594137_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_6BE484E5F636032A(::System::UInt32 a1, ::System::UInt32 a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_A642B422D0654B9F_METHOD_1_6BE484E5F636032A_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_1_6A1B12FFFCC4F892(::System::Collections::Generic::HashSet_1<::System::UInt32>* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::HashSet_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + CLASS_1_A642B422D0654B9F_METHOD_1_6A1B12FFFCC4F892_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_DD784213055292FB()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_A642B422D0654B9F_METHOD_1_DD784213055292FB_OFFSET))(this);
+	}
+
+	::System::Void Method_1_58BA0C8308C8127F(::Class_2_7ACB85FE89575BF5* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_2_7ACB85FE89575BF5*))((::PBYTE)hIl2Cpp + CLASS_1_A642B422D0654B9F_METHOD_1_58BA0C8308C8127F_OFFSET))(this, a1);
+	}
+
+	::System::Collections::Generic::HashSet_1<::System::UInt32>* Method_1_CCD7CE05545A362B()
+	{
+		return ((::System::Collections::Generic::HashSet_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_A642B422D0654B9F_METHOD_1_CCD7CE05545A362B_OFFSET))(this);
+	}
+
+	::System::Void Method_1_928B00241CFBD033(::System::UInt32 a1, ::System::UInt32 a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_A642B422D0654B9F_METHOD_1_928B00241CFBD033_OFFSET))(this, a1, a2);
+	}
+
+	::System::UInt32 Method_1_25390083CAA5B1DA(::System::String* a1)
+	{
+		return ((::System::UInt32(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_A642B422D0654B9F_METHOD_1_25390083CAA5B1DA_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_839190CC918FE165()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_A642B422D0654B9F_METHOD_1_839190CC918FE165_OFFSET))(this);
+	}
+
+	::Class_2_7ACB85FE89575BF5* Method_1_43A46E5F9FAC62B8()
+	{
+		return ((::Class_2_7ACB85FE89575BF5*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_A642B422D0654B9F_METHOD_1_43A46E5F9FAC62B8_OFFSET))(this);
+	}
+};

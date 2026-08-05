@@ -5,7 +5,7 @@ namespace Foundation::ViewObject::Donjon { class DonjonFloorObject; }
 
 namespace Foundation::ViewObject::Donjon
 {
-	inline static constexpr unsigned int IDonjonFloorComponent_TypeDefinitionIndex = 77224;
+	inline static constexpr unsigned int IDonjonFloorComponent_TypeDefinitionIndex = 85827;
 
 	class IDonjonFloorComponent
 	{

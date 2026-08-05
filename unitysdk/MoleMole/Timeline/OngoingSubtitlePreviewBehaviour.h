@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 
-#define MOLEMOLE_TIMELINE_ONGOINGSUBTITLEPREVIEWBEHAVIOUR_METHOD_2_A3FAE12D7B6ACD62_OFFSET UNITYSDK_OFFSET(0x17DF8C70)
-#define MOLEMOLE_TIMELINE_ONGOINGSUBTITLEPREVIEWBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x17DF8C60)
+#define MOLEMOLE_TIMELINE_ONGOINGSUBTITLEPREVIEWBEHAVIOUR_METHOD_2_A3FAE12D7B6ACD62_OFFSET UNITYSDK_OFFSET(0x190BF880)
+#define MOLEMOLE_TIMELINE_ONGOINGSUBTITLEPREVIEWBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x190BF870)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int OngoingSubtitlePreviewBehaviour_TypeDefinitionIndex = 76093;
+	inline static constexpr unsigned int OngoingSubtitlePreviewBehaviour_TypeDefinitionIndex = 75324;
 
 	class OngoingSubtitlePreviewBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{

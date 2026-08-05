@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIABYSSS3ENTRANCEMAINWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1610EE50)
+#define MOLEMOLE_UIABYSSS3ENTRANCEMAINWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1926D870)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAbyssS3EntranceMainWidgetController_Context_TypeDefinitionIndex = 59904;
+	inline static constexpr unsigned int UIAbyssS3EntranceMainWidgetController_Context_TypeDefinitionIndex = 60391;
 
 	class UIAbyssS3EntranceMainWidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{

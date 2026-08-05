@@ -5,24 +5,24 @@
 namespace PipelineCamera::CameraSequence { class CameraSequenceEvent; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define PIPELINECAMERA_CAMERASEQUENCE_CAMERASEQUENCEEVENTTRACK___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E1F3A70)
-#define PIPELINECAMERA_CAMERASEQUENCE_CAMERASEQUENCEEVENTTRACK___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1E1F3AB0)
-#define PIPELINECAMERA_CAMERASEQUENCE_CAMERASEQUENCEEVENTTRACK___C__SORTEVENTS_B__4_0_OFFSET UNITYSDK_OFFSET(0x1E1F3AC0)
+#define PIPELINECAMERA_CAMERASEQUENCE_CAMERASEQUENCEEVENTTRACK___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F620680)
+#define PIPELINECAMERA_CAMERASEQUENCE_CAMERASEQUENCEEVENTTRACK___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1F6206C0)
+#define PIPELINECAMERA_CAMERASEQUENCE_CAMERASEQUENCEEVENTTRACK___C__SORTEVENTS_B__4_0_OFFSET UNITYSDK_OFFSET(0x1F6206D0)
 
 namespace PipelineCamera::CameraSequence
 {
-	inline static constexpr unsigned int CameraSequenceEventTrack___c_TypeDefinitionIndex = 37836;
+	inline static constexpr unsigned int CameraSequenceEventTrack___c_TypeDefinitionIndex = 38497;
 
 	class CameraSequenceEventTrack___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::PipelineCamera::CameraSequence::CameraSequenceEvent*, ::System::Single>** StaticGet___9__4_0()
-		{
-			return (::System::Func_2<::PipelineCamera::CameraSequence::CameraSequenceEvent*, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceEventTrack___c_TypeDefinitionIndex)->GetStaticField(0x28C60);
-		}
 		static ::PipelineCamera::CameraSequence::CameraSequenceEventTrack___c** StaticGet___9()
 		{
-			return (::PipelineCamera::CameraSequence::CameraSequenceEventTrack___c**)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceEventTrack___c_TypeDefinitionIndex)->GetStaticField(0x28C68);
+			return (::PipelineCamera::CameraSequence::CameraSequenceEventTrack___c**)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceEventTrack___c_TypeDefinitionIndex)->GetStaticField(0x2A580);
+		}
+		static ::System::Func_2<::PipelineCamera::CameraSequence::CameraSequenceEvent*, ::System::Single>** StaticGet___9__4_0()
+		{
+			return (::System::Func_2<::PipelineCamera::CameraSequence::CameraSequenceEvent*, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceEventTrack___c_TypeDefinitionIndex)->GetStaticField(0x2A588);
 		}
 
 		static ::System::Void _cctor()

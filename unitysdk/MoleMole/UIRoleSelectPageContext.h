@@ -25,93 +25,93 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIROLESELECTPAGECONTEXT_APPLYJUMPPARAS_OFFSET UNITYSDK_OFFSET(0x156A8080)
-#define MOLEMOLE_UIROLESELECTPAGECONTEXT_DISABLEMULTISELECTTOGGLE_OFFSET UNITYSDK_OFFSET(0x156A8C00)
-#define MOLEMOLE_UIROLESELECTPAGECONTEXT_GET_COLLECTNOTOWNEDAVATARS_OFFSET UNITYSDK_OFFSET(0x156A7FC0)
-#define MOLEMOLE_UIROLESELECTPAGECONTEXT_GET_FIRSTASCAPTAIN_OFFSET UNITYSDK_OFFSET(0x156A8210)
-#define MOLEMOLE_UIROLESELECTPAGECONTEXT_GET_MULTISELECTTOGGLEDISABLED_OFFSET UNITYSDK_OFFSET(0x156A8250)
-#define MOLEMOLE_UIROLESELECTPAGECONTEXT_GET_ONBLOCKCLICKHINT_OFFSET UNITYSDK_OFFSET(0x156A8230)
-#define MOLEMOLE_UIROLESELECTPAGECONTEXT_GET_OTHERTEAMINDEX_OFFSET UNITYSDK_OFFSET(0x156A8270)
-#define MOLEMOLE_UIROLESELECTPAGECONTEXT_GET_SELECTIONS_OFFSET UNITYSDK_OFFSET(0x156A81F0)
-#define MOLEMOLE_UIROLESELECTPAGECONTEXT_GET_SELECTTYPE_OFFSET UNITYSDK_OFFSET(0x156A81D0)
-#define MOLEMOLE_UIROLESELECTPAGECONTEXT_GET_TEAMSPLITINDEX_OFFSET UNITYSDK_OFFSET(0x156A8290)
-#define MOLEMOLE_UIROLESELECTPAGECONTEXT_GET_USAGE_OFFSET UNITYSDK_OFFSET(0x156A7FB0)
-#define MOLEMOLE_UIROLESELECTPAGECONTEXT_SETBLOCKSELECTIONS_OFFSET UNITYSDK_OFFSET(0x156A8AA0)
-#define MOLEMOLE_UIROLESELECTPAGECONTEXT_SETCONFIRMEDSELECTIONS_1_OFFSET UNITYSDK_OFFSET(0x156A8940)
-#define MOLEMOLE_UIROLESELECTPAGECONTEXT_SETCONFIRMEDSELECTIONS_OFFSET UNITYSDK_OFFSET(0x156A87E0)
-#define MOLEMOLE_UIROLESELECTPAGECONTEXT_SETCUSTOMRETURNHANDLER_OFFSET UNITYSDK_OFFSET(0x156A8020)
-#define MOLEMOLE_UIROLESELECTPAGECONTEXT_SETMULTISELECTEDOTHERTEAM_OFFSET UNITYSDK_OFFSET(0x156A84F0)
-#define MOLEMOLE_UIROLESELECTPAGECONTEXT_SETMULTISELECTEDUNSELECTABLE_OFFSET UNITYSDK_OFFSET(0x156A8380)
-#define MOLEMOLE_UIROLESELECTPAGECONTEXT_SETMULTISELECTED_OFFSET UNITYSDK_OFFSET(0x15695310)
-#define MOLEMOLE_UIROLESELECTPAGECONTEXT_SETMULTISELECTFIRSTASCAPTAIN_OFFSET UNITYSDK_OFFSET(0x156A8330)
-#define MOLEMOLE_UIROLESELECTPAGECONTEXT_SETPREEMPTIBLEOTHERTEAM_OFFSET UNITYSDK_OFFSET(0x156A8670)
-#define MOLEMOLE_UIROLESELECTPAGECONTEXT_SET_FIRSTASCAPTAIN_OFFSET UNITYSDK_OFFSET(0x156A8220)
-#define MOLEMOLE_UIROLESELECTPAGECONTEXT_SET_MULTISELECTTOGGLEDISABLED_OFFSET UNITYSDK_OFFSET(0x156A8260)
-#define MOLEMOLE_UIROLESELECTPAGECONTEXT_SET_ONBLOCKCLICKHINT_OFFSET UNITYSDK_OFFSET(0x156A8240)
-#define MOLEMOLE_UIROLESELECTPAGECONTEXT_SET_OTHERTEAMINDEX_OFFSET UNITYSDK_OFFSET(0x156A8280)
-#define MOLEMOLE_UIROLESELECTPAGECONTEXT_SET_SELECTIONS_OFFSET UNITYSDK_OFFSET(0x156A8200)
-#define MOLEMOLE_UIROLESELECTPAGECONTEXT_SET_SELECTTYPE_OFFSET UNITYSDK_OFFSET(0x156A81E0)
-#define MOLEMOLE_UIROLESELECTPAGECONTEXT_SET_TEAMSPLITINDEX_OFFSET UNITYSDK_OFFSET(0x156A82A0)
-#define MOLEMOLE_UIROLESELECTPAGECONTEXT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x156A82B0)
-#define MOLEMOLE_UIROLESELECTPAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15695290)
-#define MOLEMOLE_UIROLESELECTPAGECONTEXT___BASE_APPLYJUMPPARAS_OFFSET UNITYSDK_OFFSET(0x156A8C50)
+#define MOLEMOLE_UIROLESELECTPAGECONTEXT_APPLYJUMPPARAS_OFFSET UNITYSDK_OFFSET(0x17D45270)
+#define MOLEMOLE_UIROLESELECTPAGECONTEXT_DISABLEMULTISELECTTOGGLE_OFFSET UNITYSDK_OFFSET(0x17D45DF0)
+#define MOLEMOLE_UIROLESELECTPAGECONTEXT_GET_COLLECTNOTOWNEDAVATARS_OFFSET UNITYSDK_OFFSET(0x17D451B0)
+#define MOLEMOLE_UIROLESELECTPAGECONTEXT_GET_FIRSTASCAPTAIN_OFFSET UNITYSDK_OFFSET(0x17D45400)
+#define MOLEMOLE_UIROLESELECTPAGECONTEXT_GET_MULTISELECTTOGGLEDISABLED_OFFSET UNITYSDK_OFFSET(0x17D45440)
+#define MOLEMOLE_UIROLESELECTPAGECONTEXT_GET_ONBLOCKCLICKHINT_OFFSET UNITYSDK_OFFSET(0x17D45420)
+#define MOLEMOLE_UIROLESELECTPAGECONTEXT_GET_OTHERTEAMINDEX_OFFSET UNITYSDK_OFFSET(0x17D45460)
+#define MOLEMOLE_UIROLESELECTPAGECONTEXT_GET_SELECTIONS_OFFSET UNITYSDK_OFFSET(0x17D453E0)
+#define MOLEMOLE_UIROLESELECTPAGECONTEXT_GET_SELECTTYPE_OFFSET UNITYSDK_OFFSET(0x17D453C0)
+#define MOLEMOLE_UIROLESELECTPAGECONTEXT_GET_TEAMSPLITINDEX_OFFSET UNITYSDK_OFFSET(0x17D45480)
+#define MOLEMOLE_UIROLESELECTPAGECONTEXT_GET_USAGE_OFFSET UNITYSDK_OFFSET(0x17D451A0)
+#define MOLEMOLE_UIROLESELECTPAGECONTEXT_SETBLOCKSELECTIONS_OFFSET UNITYSDK_OFFSET(0x17D45CA0)
+#define MOLEMOLE_UIROLESELECTPAGECONTEXT_SETCONFIRMEDSELECTIONS_1_OFFSET UNITYSDK_OFFSET(0x17D45B40)
+#define MOLEMOLE_UIROLESELECTPAGECONTEXT_SETCONFIRMEDSELECTIONS_OFFSET UNITYSDK_OFFSET(0x17D459E0)
+#define MOLEMOLE_UIROLESELECTPAGECONTEXT_SETCUSTOMRETURNHANDLER_OFFSET UNITYSDK_OFFSET(0x17D45210)
+#define MOLEMOLE_UIROLESELECTPAGECONTEXT_SETMULTISELECTEDOTHERTEAM_OFFSET UNITYSDK_OFFSET(0x17D456E0)
+#define MOLEMOLE_UIROLESELECTPAGECONTEXT_SETMULTISELECTEDUNSELECTABLE_OFFSET UNITYSDK_OFFSET(0x17D45570)
+#define MOLEMOLE_UIROLESELECTPAGECONTEXT_SETMULTISELECTED_OFFSET UNITYSDK_OFFSET(0x17D342D0)
+#define MOLEMOLE_UIROLESELECTPAGECONTEXT_SETMULTISELECTFIRSTASCAPTAIN_OFFSET UNITYSDK_OFFSET(0x17D45520)
+#define MOLEMOLE_UIROLESELECTPAGECONTEXT_SETPREEMPTIBLEOTHERTEAM_OFFSET UNITYSDK_OFFSET(0x17D45870)
+#define MOLEMOLE_UIROLESELECTPAGECONTEXT_SET_FIRSTASCAPTAIN_OFFSET UNITYSDK_OFFSET(0x17D45410)
+#define MOLEMOLE_UIROLESELECTPAGECONTEXT_SET_MULTISELECTTOGGLEDISABLED_OFFSET UNITYSDK_OFFSET(0x17D45450)
+#define MOLEMOLE_UIROLESELECTPAGECONTEXT_SET_ONBLOCKCLICKHINT_OFFSET UNITYSDK_OFFSET(0x17D45430)
+#define MOLEMOLE_UIROLESELECTPAGECONTEXT_SET_OTHERTEAMINDEX_OFFSET UNITYSDK_OFFSET(0x17D45470)
+#define MOLEMOLE_UIROLESELECTPAGECONTEXT_SET_SELECTIONS_OFFSET UNITYSDK_OFFSET(0x17D453F0)
+#define MOLEMOLE_UIROLESELECTPAGECONTEXT_SET_SELECTTYPE_OFFSET UNITYSDK_OFFSET(0x17D453D0)
+#define MOLEMOLE_UIROLESELECTPAGECONTEXT_SET_TEAMSPLITINDEX_OFFSET UNITYSDK_OFFSET(0x17D45490)
+#define MOLEMOLE_UIROLESELECTPAGECONTEXT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x17D454A0)
+#define MOLEMOLE_UIROLESELECTPAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x17D34250)
+#define MOLEMOLE_UIROLESELECTPAGECONTEXT___BASE_APPLYJUMPPARAS_OFFSET UNITYSDK_OFFSET(0x17D45E40)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRoleSelectPageContext_TypeDefinitionIndex = 46014;
+	inline static constexpr unsigned int UIRoleSelectPageContext_TypeDefinitionIndex = 82567;
 
 	class UIRoleSelectPageContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::System::Collections::Generic::List_1<::Class_2_1824EF69C8E376A3*>* showAvatarList; // 0x28
+		::System::Func_2<::System::Int32, ::System::Boolean>* avatarLockCheckFunc; // 0x28
 		::System::Collections::Generic::HashSet_1<::System::Int32>* blacklist; // 0x30
-		::MoleMole::UIRoleSelectPageContext_OnHandleRoleSelect* customSelectHandle; // 0x38
-		::Il2CppArray<::Enum_3_3A280D225275881D>* sortTypes; // 0x40
-		::System::Func_4<::System::Int32, ::System::Int32, ::Class_2_1824EF69C8E376A3*, ::System::String*>* CustomGetMultiIndexStr; // 0x48
-		::System::Collections::Generic::List_1<::Class_2_1824EF69C8E376A3*>* showRobots; // 0x50
-		::System::Func_2<::System::Int32, ::System::Boolean>* avatarLockCheckFunc; // 0x58
-		::Il2CppArray<::System::Int32>* _savedInitSelection; // 0x60
-		::System::Func_2<::Class_2_1824EF69C8E376A3*, ::System::ValueTuple_2<::System::Int32, ::System::Int32>>* CustomGetOtherTeamSelectIndex; // 0x68
-		::System::Func_3<::Class_1_A0B1A57C6DC75B0F*, ::System::Action_1<::System::Boolean>*, ::System::Boolean>* _customSelectCheckHandle; // 0x70
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::ValueTuple_2<::Enum_3_6A15F0394BF6F10B, ::System::UInt16>>* _Selections_k__BackingField; // 0x78
-		::System::Func_2<::System::Int32, ::System::String*>* _OnBlockClickHint_k__BackingField; // 0x80
-		::System::Collections::Generic::HashSet_1<::System::Int32>* whitelist; // 0x88
-		::System::Collections::Generic::List_1<::System::Int32>* unselectableList; // 0x90
-		::Il2CppArray<::Enum_3_3A280D225275881D>* highPrioritySortTypes; // 0x98
-		::System::String* multiSelectBtnKey; // 0xA0
-		::Class_2_F69D29AB796376C2* QuestCfg; // 0xA8
-		::System::Boolean _MultiSelectToggleDisabled_k__BackingField; // 0xB0
-		::System::Boolean _FirstAsCaptain_k__BackingField; // 0xB1
-		::System::UInt16 _selectedIndex; // 0xB2
-		::Enum_3_298DC3CE224F6DF8 banSelfOwnedAvatarMode; // 0xB4
-		::System::Int32 _TeamSplitIndex_k__BackingField; // 0xB8
-		::Enum_3_80565EDC4420BFE0 BuildBtnType; // 0xBC
-		::Enum_3_32F297C5ACECCD12 customSelectReturnType; // 0xC0
-		::System::Int32 AvatarUpgradeID; // 0xC4
-		::System::Int32 _OtherTeamIndex_k__BackingField; // 0xC8
-		::System::Int32 AutoTabIndex; // 0xCC
-		::System::Int32 slotIndexInTeam; // 0xD0
-		::System::Boolean IsFromQuickTeam; // 0xD4
-		::System::Boolean IsBigScene; // 0xD5
-		::System::Boolean ForceClickWeapon; // 0xD6
-		::System::Boolean strategyGuideNotPreview; // 0xD7
-		::System::Boolean showTrustDegreeBtn; // 0xD8
-		::System::Boolean allowSameName; // 0xD9
-		::System::Boolean ForceOpenWeaponRecommend; // 0xDA
-		::System::Boolean disableSubViewBtns; // 0xDB
-		::System::Boolean ForceOpenEquipRecommend; // 0xDC
-		::System::Boolean checkReleaseTime; // 0xDD
-		::System::Boolean IsAutoToRoleInfoPage; // 0xDE
-		::System::Boolean IsAutoToRoleInfoWithBlack; // 0xDF
-		::System::Boolean banBackFlowRobot; // 0xE0
-		::System::Boolean MultiSelectDontShowNum; // 0xE1
-		::Share::EHollowQuestType HollowQuestType; // 0xE2
-		::System::Boolean ForceClickEquip; // 0xE4
-		::System::Boolean IsForceShowOwnFilterSorter; // 0xE5
-		::System::Int32 selectMaxCount; // 0xE8
-		::System::Int32 initSelectionAvatarID; // 0xEC
-		::Enum_3_CDAC16D6E8EB95EB _usage; // 0xF0
-		::Enum_3_F4E08D0E9B554572 _SelectType_k__BackingField; // 0xF4
+		::System::Collections::Generic::List_1<::Class_2_1824EF69C8E376A3*>* showRobots; // 0x38
+		::System::Collections::Generic::List_1<::System::Int32>* unselectableList; // 0x40
+		::System::Func_2<::Class_2_1824EF69C8E376A3*, ::System::ValueTuple_2<::System::Int32, ::System::Int32>>* CustomGetOtherTeamSelectIndex; // 0x48
+		::System::Func_2<::System::Int32, ::System::String*>* _OnBlockClickHint_k__BackingField; // 0x50
+		::System::Collections::Generic::HashSet_1<::System::Int32>* whitelist; // 0x58
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::ValueTuple_2<::Enum_3_6A15F0394BF6F10B, ::System::UInt16>>* _Selections_k__BackingField; // 0x60
+		::System::Func_3<::Class_1_A0B1A57C6DC75B0F*, ::System::Action_1<::System::Boolean>*, ::System::Boolean>* _customSelectCheckHandle; // 0x68
+		::Il2CppArray<::System::Int32>* _savedInitSelection; // 0x70
+		::Il2CppArray<::Enum_3_3A280D225275881D>* sortTypes; // 0x78
+		::Il2CppArray<::Enum_3_3A280D225275881D>* highPrioritySortTypes; // 0x80
+		::System::String* multiSelectBtnKey; // 0x88
+		::Class_2_F69D29AB796376C2* QuestCfg; // 0x90
+		::System::Collections::Generic::List_1<::Class_2_1824EF69C8E376A3*>* showAvatarList; // 0x98
+		::System::Func_4<::System::Int32, ::System::Int32, ::Class_2_1824EF69C8E376A3*, ::System::String*>* CustomGetMultiIndexStr; // 0xA0
+		::MoleMole::UIRoleSelectPageContext_OnHandleRoleSelect* customSelectHandle; // 0xA8
+		::Enum_3_F4E08D0E9B554572 _SelectType_k__BackingField; // 0xB0
+		::System::Boolean ForceClickEquip; // 0xB4
+		::System::Boolean showTrustDegreeBtn; // 0xB5
+		::System::Boolean _FirstAsCaptain_k__BackingField; // 0xB6
+		::System::Boolean banBackFlowRobot; // 0xB7
+		::System::Boolean disableSubViewBtns; // 0xB8
+		::System::Boolean IsAutoToRoleInfoPage; // 0xB9
+		::System::Int32 AvatarUpgradeID; // 0xBC
+		::System::Boolean IsFromQuickTeam; // 0xC0
+		::System::Boolean strategyGuideNotPreview; // 0xC1
+		::System::Boolean ForceOpenWeaponRecommend; // 0xC2
+		::System::Boolean allowSameName; // 0xC3
+		::Enum_3_CDAC16D6E8EB95EB _usage; // 0xC4
+		::System::Boolean ForceClickWeapon; // 0xC8
+		::System::Boolean ForceOpenEquipRecommend; // 0xC9
+		::Share::EHollowQuestType HollowQuestType; // 0xCA
+		::System::Int32 initSelectionAvatarID; // 0xCC
+		::System::Int32 selectMaxCount; // 0xD0
+		::Enum_3_298DC3CE224F6DF8 banSelfOwnedAvatarMode; // 0xD4
+		::System::Int32 _OtherTeamIndex_k__BackingField; // 0xD8
+		::System::Int32 _TeamSplitIndex_k__BackingField; // 0xDC
+		::System::UInt16 _selectedIndex; // 0xE0
+		::System::Boolean IsBigScene; // 0xE2
+		::System::Boolean _MultiSelectToggleDisabled_k__BackingField; // 0xE3
+		::Enum_3_80565EDC4420BFE0 BuildBtnType; // 0xE4
+		::Enum_3_32F297C5ACECCD12 customSelectReturnType; // 0xE8
+		::System::Int32 slotIndexInTeam; // 0xEC
+		::System::Int32 AutoTabIndex; // 0xF0
+		::System::Boolean IsAutoToRoleInfoWithBlack; // 0xF4
+		::System::Boolean checkReleaseTime; // 0xF5
+		::System::Boolean MultiSelectDontShowNum; // 0xF6
+		::System::Boolean IsForceShowOwnFilterSorter; // 0xF7
 
 		::System::Void _ctor(::Enum_3_F4E08D0E9B554572 selectType)
 		{

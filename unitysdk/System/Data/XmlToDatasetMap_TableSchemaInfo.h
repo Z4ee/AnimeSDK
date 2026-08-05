@@ -5,11 +5,11 @@
 namespace System::Data { class DataTable; }
 namespace System::Data { class XmlToDatasetMap_XmlNodeIdHashtable; }
 
-#define SYSTEM_DATA_XMLTODATASETMAP_TABLESCHEMAINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1DA04180)
+#define SYSTEM_DATA_XMLTODATASETMAP_TABLESCHEMAINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED749A0)
 
 namespace System::Data
 {
-	inline static constexpr unsigned int XmlToDatasetMap_TableSchemaInfo_TypeDefinitionIndex = 38700;
+	inline static constexpr unsigned int XmlToDatasetMap_TableSchemaInfo_TypeDefinitionIndex = 39361;
 
 	class XmlToDatasetMap_TableSchemaInfo : public ::System::Object
 	{

@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_GAMIFIEDPROPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x170C0730)
+#define MOLEMOLE_CONFIG_GAMIFIEDPROPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4E4DF0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int GamifiedPropConfig_TypeDefinitionIndex = 86100;
+	inline static constexpr unsigned int GamifiedPropConfig_TypeDefinitionIndex = 68125;
 
 	class GamifiedPropConfig : public ::Foundation::MihoyoSerializedScriptableObject
 	{

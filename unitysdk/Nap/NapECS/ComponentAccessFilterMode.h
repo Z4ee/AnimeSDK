@@ -3,14 +3,14 @@
 
 namespace Nap::NapECS
 {
-	inline static constexpr unsigned int ComponentAccessFilterMode_TypeDefinitionIndex = 37320;
+	inline static constexpr unsigned int ComponentAccessFilterMode_TypeDefinitionIndex = 38020;
 
 	enum class ComponentAccessFilterMode : ::System::Int32
 	{
-		None = 0,
 		Negate = 128,
-		OneOrMoreOf = 2,
 		AllOf = 4,
+		OneOrMoreOf = 2,
 		OneOf = 1,
+		None = 0,
 	};
 }

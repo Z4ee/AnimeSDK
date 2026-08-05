@@ -5,7 +5,7 @@
 
 template <typename T> class Class_1_3D1051311D0B5F69;
 
-inline static constexpr unsigned int Class_1_3D1051311D0B5F69_TypeDefinitionIndex = 69227;
+inline static constexpr unsigned int Class_1_3D1051311D0B5F69_TypeDefinitionIndex = 58945;
 
 template <typename TStateContainer>
 class Class_1_3D1051311D0B5F69 : public ::System::Object

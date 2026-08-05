@@ -3,12 +3,12 @@
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int PerformType_TypeDefinitionIndex = 69458;
+	inline static constexpr unsigned int PerformType_TypeDefinitionIndex = 78889;
 
 	enum class PerformType : ::System::Int32
 	{
-		Custom = 2,
 		Begin = 0,
+		Custom = 2,
 		End = 1,
 	};
 }

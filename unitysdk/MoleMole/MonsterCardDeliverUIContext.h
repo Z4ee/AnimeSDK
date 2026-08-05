@@ -6,11 +6,11 @@ class Class_1_86AA8F306FA75018;
 namespace MoleMole { class PopMonsterCardDeliverShow; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_MONSTERCARDDELIVERUICONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x19171820)
+#define MOLEMOLE_MONSTERCARDDELIVERUICONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x11905FC0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonsterCardDeliverUIContext_TypeDefinitionIndex = 41447;
+	inline static constexpr unsigned int MonsterCardDeliverUIContext_TypeDefinitionIndex = 84057;
 
 	class MonsterCardDeliverUIContext : public ::MoleMole::UIControllerContextBase
 	{

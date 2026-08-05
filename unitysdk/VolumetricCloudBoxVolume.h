@@ -11,16 +11,16 @@ namespace UnityEngine { class ComputeShader; }
 namespace UnityEngine { class Object; }
 namespace UnityEngine { class RenderTexture; }
 
-#define VOLUMETRICCLOUDBOXVOLUME__CTOR_OFFSET UNITYSDK_OFFSET(0x1B825050)
+#define VOLUMETRICCLOUDBOXVOLUME__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB42720)
 
-inline static constexpr unsigned int VolumetricCloudBoxVolume_TypeDefinitionIndex = 26878;
+inline static constexpr unsigned int VolumetricCloudBoxVolume_TypeDefinitionIndex = 27548;
 
 class VolumetricCloudBoxVolume : public ::UnityEngine::MonoBehaviour
 {
 public:
 	static ::VolumetricCloudBoxVolume** StaticGet_instance()
 	{
-		return (::VolumetricCloudBoxVolume**)Il2CppClass::FromTypeDefinitionIndex(VolumetricCloudBoxVolume_TypeDefinitionIndex)->GetStaticField(0x4F3D0);
+		return (::VolumetricCloudBoxVolume**)Il2CppClass::FromTypeDefinitionIndex(VolumetricCloudBoxVolume_TypeDefinitionIndex)->GetStaticField(0x53580);
 	}
 	// static const ::System::Int32 sliceSize = 0x100; // 0x0
 	::System::Boolean layoutEditMode; // 0x18

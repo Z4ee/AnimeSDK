@@ -5,12 +5,12 @@
 namespace MoleMole { class UIMainCityPersonalOutWidgetController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIMAINCITYPERSONALOUTWIDGETCONTROLLER___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17145EF0)
-#define MOLEMOLE_UIMAINCITYPERSONALOUTWIDGETCONTROLLER___C__DISPLAYCLASS8_0__REFRESHPARTNERDATEVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x17145F00)
+#define MOLEMOLE_UIMAINCITYPERSONALOUTWIDGETCONTROLLER___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x183A6D30)
+#define MOLEMOLE_UIMAINCITYPERSONALOUTWIDGETCONTROLLER___C__DISPLAYCLASS8_0__REFRESHPARTNERDATEVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x183A6D40)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMainCityPersonalOutWidgetController___c__DisplayClass8_0_TypeDefinitionIndex = 40587;
+	inline static constexpr unsigned int UIMainCityPersonalOutWidgetController___c__DisplayClass8_0_TypeDefinitionIndex = 87359;
 
 	class UIMainCityPersonalOutWidgetController___c__DisplayClass8_0 : public ::System::Object
 	{

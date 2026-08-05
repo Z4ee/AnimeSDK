@@ -9,21 +9,21 @@ class Class_1_236FD73ABC492E3F;
 namespace MoleMole::Config { class DynamicFloat; }
 namespace System { class String; }
 
-#define CLASS_1_5071E1631062E9CA_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x140A1D30)
-#define CLASS_1_5071E1631062E9CA_FROMFLX_OFFSET UNITYSDK_OFFSET(0x140A2040)
-#define CLASS_1_5071E1631062E9CA_METHOD_1_33D9277D1D76DE9B_OFFSET UNITYSDK_OFFSET(0x140A1D90)
-#define CLASS_1_5071E1631062E9CA_METHOD_1_4E5AC15A8307DCD8_OFFSET UNITYSDK_OFFSET(0x140A20C0)
-#define CLASS_1_5071E1631062E9CA__CTOR_OFFSET UNITYSDK_OFFSET(0x140A2740)
+#define CLASS_1_5071E1631062E9CA_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x147928A0)
+#define CLASS_1_5071E1631062E9CA_FROMFLX_OFFSET UNITYSDK_OFFSET(0x14792BB0)
+#define CLASS_1_5071E1631062E9CA_METHOD_1_33D9277D1D76DE9B_OFFSET UNITYSDK_OFFSET(0x14792900)
+#define CLASS_1_5071E1631062E9CA_METHOD_1_4E5AC15A8307DCD8_OFFSET UNITYSDK_OFFSET(0x14792C30)
+#define CLASS_1_5071E1631062E9CA__CTOR_OFFSET UNITYSDK_OFFSET(0x14793280)
 
-inline static constexpr unsigned int Class_1_5071E1631062E9CA_TypeDefinitionIndex = 77363;
+inline static constexpr unsigned int Class_1_5071E1631062E9CA_TypeDefinitionIndex = 83037;
 
 class Class_1_5071E1631062E9CA : public ::System::Object
 {
 public:
-	::System::String* Field_1_1; // 0x10
-	::MoleMole::Config::DynamicFloat* Field_1_2; // 0x18
-	::MoleMole::Config::DynamicFloat* Field_1_3; // 0x20
-	::MoleMole::Config::BaseProperty Field_1_0; // 0x28
+	::MoleMole::Config::DynamicFloat* Field_1_0; // 0x10
+	::MoleMole::Config::DynamicFloat* Field_1_1; // 0x18
+	::System::String* Field_1_2; // 0x20
+	::MoleMole::Config::BaseProperty Field_1_3; // 0x28
 
 	::System::Void _ctor()
 	{

@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FlowCanvas/Nodes/PureFunctionNode_3.h"
 
-#define FLOWCANVAS_NODES_INTEGEREQUAL_INVOKE_OFFSET UNITYSDK_OFFSET(0x1D1DA740)
-#define FLOWCANVAS_NODES_INTEGEREQUAL__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1DA750)
+#define FLOWCANVAS_NODES_INTEGEREQUAL_INVOKE_OFFSET UNITYSDK_OFFSET(0x1E5365B0)
+#define FLOWCANVAS_NODES_INTEGEREQUAL__CTOR_OFFSET UNITYSDK_OFFSET(0x1E5365C0)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int IntegerEqual_TypeDefinitionIndex = 29620;
+	inline static constexpr unsigned int IntegerEqual_TypeDefinitionIndex = 31275;
 
 	class IntegerEqual : public ::FlowCanvas::Nodes::PureFunctionNode_3<::System::Boolean, ::System::Int32, ::System::Int32>
 	{

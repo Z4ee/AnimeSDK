@@ -12,31 +12,26 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T1, typename T2> class IReadOnlyDictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_732476E359ED13EB_METHOD_1_42C0B855BD850B88_OFFSET UNITYSDK_OFFSET(0x1085D9E0)
-#define CLASS_1_732476E359ED13EB_METHOD_1_4BFE4240535C31C9_OFFSET UNITYSDK_OFFSET(0x1085D5B0)
-#define CLASS_1_732476E359ED13EB_METHOD_1_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0x1085D990)
-#define CLASS_1_732476E359ED13EB_METHOD_1_7A16D4EEB3CD7896_OFFSET UNITYSDK_OFFSET(0x1085D6A0)
-#define CLASS_1_732476E359ED13EB_METHOD_1_D76E702A656B63B6_OFFSET UNITYSDK_OFFSET(0x1085CD90)
-#define CLASS_1_732476E359ED13EB__CTOR_OFFSET UNITYSDK_OFFSET(0x1085CD80)
+#define CLASS_1_732476E359ED13EB_METHOD_1_42C0B855BD850B88_OFFSET UNITYSDK_OFFSET(0x12A82C70)
+#define CLASS_1_732476E359ED13EB_METHOD_1_4BFE4240535C31C9_OFFSET UNITYSDK_OFFSET(0x12A82840)
+#define CLASS_1_732476E359ED13EB_METHOD_1_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0x12A82C20)
+#define CLASS_1_732476E359ED13EB_METHOD_1_7A16D4EEB3CD7896_OFFSET UNITYSDK_OFFSET(0x12A82930)
+#define CLASS_1_732476E359ED13EB_METHOD_1_D76E702A656B63B6_OFFSET UNITYSDK_OFFSET(0x12A82C80)
+#define CLASS_1_732476E359ED13EB__CTOR_OFFSET UNITYSDK_OFFSET(0x12A82830)
 
-inline static constexpr unsigned int Class_1_732476E359ED13EB_TypeDefinitionIndex = 74558;
+inline static constexpr unsigned int Class_1_732476E359ED13EB_TypeDefinitionIndex = 64209;
 
 class Class_1_732476E359ED13EB : public ::System::Object
 {
 public:
 	static ::System::Collections::Generic::Dictionary_2<::Foundation::Unreal::FGameplayTag, ::MoleMole::BigSceneCommonSkillConfig>** StaticGet_Field_1_0()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::Foundation::Unreal::FGameplayTag, ::MoleMole::BigSceneCommonSkillConfig>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_732476E359ED13EB_TypeDefinitionIndex)->GetStaticField(0x32F50);
+		return (::System::Collections::Generic::Dictionary_2<::Foundation::Unreal::FGameplayTag, ::MoleMole::BigSceneCommonSkillConfig>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_732476E359ED13EB_TypeDefinitionIndex)->GetStaticField(0x47A50);
 	}
 
 	::System::Void _ctor()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_732476E359ED13EB__CTOR_OFFSET))(this);
-	}
-
-	static ::System::Void Method_1_D76E702A656B63B6(::System::Collections::Generic::List_1<::MoleMole::ConfigBigSceneCommonSkill*>* a1)
-	{
-		return ((::System::Void(*)(::System::Collections::Generic::List_1<::MoleMole::ConfigBigSceneCommonSkill*>*))((::PBYTE)hIl2Cpp + CLASS_1_732476E359ED13EB_METHOD_1_D76E702A656B63B6_OFFSET))(a1);
 	}
 
 	static ::System::Void Method_1_4BFE4240535C31C9(::System::Single a1, ::System::Action_1<::System::Single>* a2, ::System::Action_1<::System::String*>* a3, ::System::String* a4)
@@ -52,6 +47,11 @@ public:
 	static ::System::Collections::Generic::IReadOnlyDictionary_2<::Foundation::Unreal::FGameplayTag, ::MoleMole::BigSceneCommonSkillConfig>* Method_1_42C0B855BD850B88()
 	{
 		return ((::System::Collections::Generic::IReadOnlyDictionary_2<::Foundation::Unreal::FGameplayTag, ::MoleMole::BigSceneCommonSkillConfig>*(*)())((::PBYTE)hIl2Cpp + CLASS_1_732476E359ED13EB_METHOD_1_42C0B855BD850B88_OFFSET))();
+	}
+
+	static ::System::Void Method_1_D76E702A656B63B6(::System::Collections::Generic::List_1<::MoleMole::ConfigBigSceneCommonSkill*>* a1)
+	{
+		return ((::System::Void(*)(::System::Collections::Generic::List_1<::MoleMole::ConfigBigSceneCommonSkill*>*))((::PBYTE)hIl2Cpp + CLASS_1_732476E359ED13EB_METHOD_1_D76E702A656B63B6_OFFSET))(a1);
 	}
 
 	static ::System::Void Method_1_7A16D4EEB3CD7896(::System::Boolean a1, ::System::Action* a2)

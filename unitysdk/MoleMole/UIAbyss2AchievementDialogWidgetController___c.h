@@ -4,24 +4,24 @@
 
 namespace System { template <typename T> class Comparison_1; }
 
-#define MOLEMOLE_UIABYSS2ACHIEVEMENTDIALOGWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18727D90)
-#define MOLEMOLE_UIABYSS2ACHIEVEMENTDIALOGWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18727DD0)
-#define MOLEMOLE_UIABYSS2ACHIEVEMENTDIALOGWIDGETCONTROLLER___C__GETBADGEMAP_B__1_0_OFFSET UNITYSDK_OFFSET(0x18727DE0)
+#define MOLEMOLE_UIABYSS2ACHIEVEMENTDIALOGWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x191CA910)
+#define MOLEMOLE_UIABYSS2ACHIEVEMENTDIALOGWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x191CA950)
+#define MOLEMOLE_UIABYSS2ACHIEVEMENTDIALOGWIDGETCONTROLLER___C__GETBADGEMAP_B__1_0_OFFSET UNITYSDK_OFFSET(0x191CA960)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAbyss2AchievementDialogWidgetController___c_TypeDefinitionIndex = 70158;
+	inline static constexpr unsigned int UIAbyss2AchievementDialogWidgetController___c_TypeDefinitionIndex = 63903;
 
 	class UIAbyss2AchievementDialogWidgetController___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::UIAbyss2AchievementDialogWidgetController___c** StaticGet___9()
-		{
-			return (::MoleMole::UIAbyss2AchievementDialogWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIAbyss2AchievementDialogWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x43060);
-		}
 		static ::System::Comparison_1<::System::Int32>** StaticGet___9__1_0()
 		{
-			return (::System::Comparison_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIAbyss2AchievementDialogWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x43068);
+			return (::System::Comparison_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIAbyss2AchievementDialogWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x46F40);
+		}
+		static ::MoleMole::UIAbyss2AchievementDialogWidgetController___c** StaticGet___9()
+		{
+			return (::MoleMole::UIAbyss2AchievementDialogWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIAbyss2AchievementDialogWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x46F48);
 		}
 
 		static ::System::Void _cctor()

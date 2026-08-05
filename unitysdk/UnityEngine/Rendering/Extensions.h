@@ -1,14 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Rendering/Universal/ForwardRendererData_ShaderConfig.h"
 #include "unitysdk/UnityEngine/Rendering/Universal/ForwardRendererData_ShaderFeature.h"
-#include "unitysdk/UnityEngine/Vector4.h"
 
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
-namespace UnityEngine { class Material; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Object; }
 namespace UnityEngine { class Renderer; }
@@ -16,38 +13,32 @@ namespace UnityEngine { class Shader; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::Profiling { class CustomSampler; }
 
-#define UNITYENGINE_RENDERING_EXTENSIONS_EDITORDESTROY_OFFSET UNITYSDK_OFFSET(0x1D4D82D0)
-#define UNITYENGINE_RENDERING_EXTENSIONS_FINDGAMEOBJECTBYPATH_OFFSET UNITYSDK_OFFSET(0x1D4D8450)
-#define UNITYENGINE_RENDERING_EXTENSIONS_FINDINALLCHILDREN_OFFSET UNITYSDK_OFFSET(0x1D4D8590)
-#define UNITYENGINE_RENDERING_EXTENSIONS_FINDROOTGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x1D4D84F0)
-#define UNITYENGINE_RENDERING_EXTENSIONS_GETFULLPATH_OFFSET UNITYSDK_OFFSET(0x1D4D7FC0)
-#define UNITYENGINE_RENDERING_EXTENSIONS_GETSHADERCONFIG_OFFSET UNITYSDK_OFFSET(0x1D4D7370)
-#define UNITYENGINE_RENDERING_EXTENSIONS_GETSHADERFEATURE_OFFSET UNITYSDK_OFFSET(0x1D4D78A0)
-#define UNITYENGINE_RENDERING_EXTENSIONS_SETCOLOREXT_1_OFFSET UNITYSDK_OFFSET(0x1D4D7A00)
-#define UNITYENGINE_RENDERING_EXTENSIONS_SETCOLOREXT_OFFSET UNITYSDK_OFFSET(0x1D4D7940)
-#define UNITYENGINE_RENDERING_EXTENSIONS_SETFLOATEXT_1_OFFSET UNITYSDK_OFFSET(0x1D4D7E50)
-#define UNITYENGINE_RENDERING_EXTENSIONS_SETFLOATEXT_OFFSET UNITYSDK_OFFSET(0x1D4D7DA0)
-#define UNITYENGINE_RENDERING_EXTENSIONS_SETPROPERTYBLOCKEXT_1_OFFSET UNITYSDK_OFFSET(0x1D4D7200)
-#define UNITYENGINE_RENDERING_EXTENSIONS_SETPROPERTYBLOCKEXT_OFFSET UNITYSDK_OFFSET(0x1D4D7080)
-#define UNITYENGINE_RENDERING_EXTENSIONS_SETVECTOREXT_1_OFFSET UNITYSDK_OFFSET(0x1D4D7C30)
-#define UNITYENGINE_RENDERING_EXTENSIONS_SETVECTOREXT_OFFSET UNITYSDK_OFFSET(0x1D4D7B70)
-#define UNITYENGINE_RENDERING_EXTENSIONS_SUPPORTFEATURE_OFFSET UNITYSDK_OFFSET(0x1D4D77F0)
-#define UNITYENGINE_RENDERING_EXTENSIONS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D4D8C80)
+#define UNITYENGINE_RENDERING_EXTENSIONS_EDITORDESTROY_OFFSET UNITYSDK_OFFSET(0x1E65EDB0)
+#define UNITYENGINE_RENDERING_EXTENSIONS_FINDGAMEOBJECTBYPATH_OFFSET UNITYSDK_OFFSET(0x1E65EF30)
+#define UNITYENGINE_RENDERING_EXTENSIONS_FINDINALLCHILDREN_OFFSET UNITYSDK_OFFSET(0x1E65F070)
+#define UNITYENGINE_RENDERING_EXTENSIONS_FINDROOTGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x1E65EFD0)
+#define UNITYENGINE_RENDERING_EXTENSIONS_GETFULLPATH_OFFSET UNITYSDK_OFFSET(0x1E65EAA0)
+#define UNITYENGINE_RENDERING_EXTENSIONS_GETSHADERCONFIG_OFFSET UNITYSDK_OFFSET(0x1E65E3C0)
+#define UNITYENGINE_RENDERING_EXTENSIONS_GETSHADERFEATURE_OFFSET UNITYSDK_OFFSET(0x1E65EA00)
+#define UNITYENGINE_RENDERING_EXTENSIONS_SETPROPERTYBLOCKEXT_1_OFFSET UNITYSDK_OFFSET(0x1E65E250)
+#define UNITYENGINE_RENDERING_EXTENSIONS_SETPROPERTYBLOCKEXT_OFFSET UNITYSDK_OFFSET(0x1E65E0D0)
+#define UNITYENGINE_RENDERING_EXTENSIONS_SUPPORTFEATURE_OFFSET UNITYSDK_OFFSET(0x1E65E950)
+#define UNITYENGINE_RENDERING_EXTENSIONS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E65F720)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int Extensions_TypeDefinitionIndex = 26291;
+	inline static constexpr unsigned int Extensions_TypeDefinitionIndex = 26988;
 
 	class Extensions : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_FindGameObject()
 		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(Extensions_TypeDefinitionIndex)->GetStaticField(0x22050);
+			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(Extensions_TypeDefinitionIndex)->GetStaticField(0x237F0);
 		}
 		static ::System::Boolean* StaticGet_optimizeFind()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Extensions_TypeDefinitionIndex)->GetStaticField(0x7000);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Extensions_TypeDefinitionIndex)->GetStaticField(0x6F80);
 		}
 
 		static ::System::Void _cctor()
@@ -78,36 +69,6 @@ namespace UnityEngine::Rendering
 		static ::UnityEngine::Rendering::Universal::ForwardRendererData_ShaderFeature GetShaderFeature(::UnityEngine::Shader* shader)
 		{
 			return ((::UnityEngine::Rendering::Universal::ForwardRendererData_ShaderFeature(*)(::UnityEngine::Shader*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_EXTENSIONS_GETSHADERFEATURE_OFFSET))(shader);
-		}
-
-		static ::System::Void SetColorExt(::UnityEngine::Material* material, ::System::String* propertyName, ::UnityEngine::Color value)
-		{
-			return ((::System::Void(*)(::UnityEngine::Material*, ::System::String*, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_EXTENSIONS_SETCOLOREXT_OFFSET))(material, propertyName, value);
-		}
-
-		static ::System::Void SetColorExt_1(::UnityEngine::Material* material, ::System::Int32 propertyID, ::UnityEngine::Color value)
-		{
-			return ((::System::Void(*)(::UnityEngine::Material*, ::System::Int32, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_EXTENSIONS_SETCOLOREXT_1_OFFSET))(material, propertyID, value);
-		}
-
-		static ::System::Void SetVectorExt(::UnityEngine::Material* material, ::System::String* propertyName, ::UnityEngine::Vector4 value)
-		{
-			return ((::System::Void(*)(::UnityEngine::Material*, ::System::String*, ::UnityEngine::Vector4))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_EXTENSIONS_SETVECTOREXT_OFFSET))(material, propertyName, value);
-		}
-
-		static ::System::Void SetVectorExt_1(::UnityEngine::Material* material, ::System::Int32 propertyID, ::UnityEngine::Vector4 value)
-		{
-			return ((::System::Void(*)(::UnityEngine::Material*, ::System::Int32, ::UnityEngine::Vector4))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_EXTENSIONS_SETVECTOREXT_1_OFFSET))(material, propertyID, value);
-		}
-
-		static ::System::Void SetFloatExt(::UnityEngine::Material* material, ::System::String* propertyName, ::System::Single value)
-		{
-			return ((::System::Void(*)(::UnityEngine::Material*, ::System::String*, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_EXTENSIONS_SETFLOATEXT_OFFSET))(material, propertyName, value);
-		}
-
-		static ::System::Void SetFloatExt_1(::UnityEngine::Material* material, ::System::Int32 propertyID, ::System::Single value)
-		{
-			return ((::System::Void(*)(::UnityEngine::Material*, ::System::Int32, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_EXTENSIONS_SETFLOATEXT_1_OFFSET))(material, propertyID, value);
 		}
 
 		static ::System::String* GetFullPath(::UnityEngine::Transform* transform)

@@ -3,18 +3,18 @@
 
 namespace MoleMole::Level
 {
-	inline static constexpr unsigned int BangbooPlayType_TypeDefinitionIndex = 46463;
+	inline static constexpr unsigned int BangbooPlayType_TypeDefinitionIndex = 66536;
 
 	enum class BangbooPlayType : ::System::Int32
 	{
-		PartyGame = 5,
-		AbyssS2Interact = 4,
-		BangKov = 8,
+		Platformer2_0 = 6,
 		SearchTarget = 2,
 		PlatformerIntro = 1,
-		Platformer2_0 = 6,
-		Platformer = 3,
 		MechBoo = 7,
 		None = 0,
+		PartyGame = 5,
+		BangKov = 8,
+		Platformer = 3,
+		AbyssS2Interact = 4,
 	};
 }

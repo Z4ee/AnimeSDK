@@ -3,16 +3,16 @@
 #include "unitysdk/Class_1_74CBA0CF575D390A.h"
 #include "unitysdk/MoleMole/HollowChessPieceSizeType.h"
 
-class Class_2_9573422533703399;
+class Class_2_D32AFEEE164C6B3D;
 namespace MoleMole::Config { class ConfigHollowChessboard; }
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_2_E4281EB9F7700496_METHOD_2_12998504E894F45B_OFFSET UNITYSDK_OFFSET(0x18EB4850)
-#define CLASS_2_E4281EB9F7700496_SPAWN_OFFSET UNITYSDK_OFFSET(0x18EB4860)
-#define CLASS_2_E4281EB9F7700496__CTOR_OFFSET UNITYSDK_OFFSET(0x18EB49A0)
+#define CLASS_2_E4281EB9F7700496_METHOD_2_12998504E894F45B_OFFSET UNITYSDK_OFFSET(0x13952FF0)
+#define CLASS_2_E4281EB9F7700496_SPAWN_OFFSET UNITYSDK_OFFSET(0x13953000)
+#define CLASS_2_E4281EB9F7700496__CTOR_OFFSET UNITYSDK_OFFSET(0x13953150)
 
-inline static constexpr unsigned int Class_2_E4281EB9F7700496_TypeDefinitionIndex = 62114;
+inline static constexpr unsigned int Class_2_E4281EB9F7700496_TypeDefinitionIndex = 41963;
 
 class Class_2_E4281EB9F7700496 : public ::Class_1_74CBA0CF575D390A
 {
@@ -27,8 +27,8 @@ public:
 		return ((::MoleMole::HollowChessPieceSizeType(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E4281EB9F7700496_METHOD_2_12998504E894F45B_OFFSET))(this);
 	}
 
-	::Class_2_9573422533703399* Spawn(::System::String* a1, ::UnityEngine::Transform* a2)
+	::Class_2_D32AFEEE164C6B3D* Spawn(::System::String* a1, ::UnityEngine::Transform* a2)
 	{
-		return ((::Class_2_9573422533703399*(*)(::PVOID, ::System::String*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + CLASS_2_E4281EB9F7700496_SPAWN_OFFSET))(this, a1, a2);
+		return ((::Class_2_D32AFEEE164C6B3D*(*)(::PVOID, ::System::String*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + CLASS_2_E4281EB9F7700496_SPAWN_OFFSET))(this, a1, a2);
 	}
 };

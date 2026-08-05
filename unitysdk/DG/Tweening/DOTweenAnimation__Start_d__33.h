@@ -7,12 +7,12 @@
 namespace DG::Tweening { class DOTweenAnimation; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define DG_TWEENING_DOTWEENANIMATION__START_D__33_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x758EA0)
-#define DG_TWEENING_DOTWEENANIMATION__START_D__33_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x646640)
+#define DG_TWEENING_DOTWEENANIMATION__START_D__33_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x7A6DF0)
+#define DG_TWEENING_DOTWEENANIMATION__START_D__33_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x52B5E0)
 
 namespace DG::Tweening
 {
-	inline static constexpr unsigned int DOTweenAnimation__Start_d__33_TypeDefinitionIndex = 91475;
+	inline static constexpr unsigned int DOTweenAnimation__Start_d__33_TypeDefinitionIndex = 95376;
 
 	struct alignas(8) DOTweenAnimation__Start_d__33
 	{

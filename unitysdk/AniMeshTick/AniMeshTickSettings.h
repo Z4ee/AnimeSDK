@@ -3,12 +3,12 @@
 #include "unitysdk/AniMeshTick/TickStage.h"
 #include "unitysdk/UnityEngine/ScriptableObject.h"
 
-#define ANIMESHTICK_ANIMESHTICKSETTINGS_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x10E3D2F0)
-#define ANIMESHTICK_ANIMESHTICKSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x10E3D3A0)
+#define ANIMESHTICK_ANIMESHTICKSETTINGS_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x139486F0)
+#define ANIMESHTICK_ANIMESHTICKSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x139487A0)
 
 namespace AniMeshTick
 {
-	inline static constexpr unsigned int AniMeshTickSettings_TypeDefinitionIndex = 78072;
+	inline static constexpr unsigned int AniMeshTickSettings_TypeDefinitionIndex = 54679;
 
 	class AniMeshTickSettings : public ::UnityEngine::ScriptableObject
 	{

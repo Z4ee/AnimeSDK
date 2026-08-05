@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINER_MBBLENDSHAPEVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DA69A70)
+#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINER_MBBLENDSHAPEVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE34870)
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int MB3_MeshCombiner_MBBlendShapeValue_TypeDefinitionIndex = 90625;
+	inline static constexpr unsigned int MB3_MeshCombiner_MBBlendShapeValue_TypeDefinitionIndex = 94558;
 
 	class MB3_MeshCombiner_MBBlendShapeValue : public ::System::Object
 	{

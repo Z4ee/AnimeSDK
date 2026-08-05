@@ -6,32 +6,32 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_12DB2AA8F0605EFE_METHOD_1_ABA3152B8019E144_OFFSET UNITYSDK_OFFSET(0x13CE7730)
-#define CLASS_1_12DB2AA8F0605EFE__CCTOR_OFFSET UNITYSDK_OFFSET(0x13CE7490)
-#define CLASS_1_12DB2AA8F0605EFE__CTOR_OFFSET UNITYSDK_OFFSET(0x13CE7720)
+#define CLASS_1_12DB2AA8F0605EFE_METHOD_1_ABA3152B8019E144_OFFSET UNITYSDK_OFFSET(0x15EEF050)
+#define CLASS_1_12DB2AA8F0605EFE__CCTOR_OFFSET UNITYSDK_OFFSET(0x15EEEDB0)
+#define CLASS_1_12DB2AA8F0605EFE__CTOR_OFFSET UNITYSDK_OFFSET(0x15EEF040)
 
-inline static constexpr unsigned int Class_1_12DB2AA8F0605EFE_TypeDefinitionIndex = 74612;
+inline static constexpr unsigned int Class_1_12DB2AA8F0605EFE_TypeDefinitionIndex = 43802;
 
 class Class_1_12DB2AA8F0605EFE : public ::System::Object
 {
 public:
 	static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::String*>** StaticGet_Field_1_13()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_12DB2AA8F0605EFE_TypeDefinitionIndex)->GetStaticField(0x47FE0);
+		return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_12DB2AA8F0605EFE_TypeDefinitionIndex)->GetStaticField(0x3B470);
 	}
-	// static const ::System::String* Field_1_0; // 0x0
-	// static const ::System::String* Field_1_1; // 0x0
 	// static const ::System::String* Field_1_2; // 0x0
-	// static const ::System::String* Field_1_3; // 0x0
-	// static const ::System::String* Field_1_4; // 0x0
-	// static const ::System::String* Field_1_5; // 0x0
-	// static const ::System::String* Field_1_6; // 0x0
+	// static const ::System::String* Field_1_1; // 0x0
+	// static const ::System::String* Field_1_0; // 0x0
 	// static const ::System::String* Field_1_7; // 0x0
-	// static const ::System::String* Field_1_8; // 0x0
-	// static const ::System::String* Field_1_9; // 0x0
-	// static const ::System::String* Field_1_10; // 0x0
+	// static const ::System::String* Field_1_6; // 0x0
+	// static const ::System::String* Field_1_5; // 0x0
+	// static const ::System::String* Field_1_4; // 0x0
 	// static const ::System::String* Field_1_11; // 0x0
-	// static const ::System::String* Field_1_12; // 0x0
+	// static const ::System::String* Field_1_10; // 0x0
+	// static const ::System::String* Field_1_9; // 0x0
+	// static const ::System::String* Field_1_8; // 0x0
+	// static const ::System::String* Field_1_15; // 0x0
+	// static const ::System::String* Field_1_14; // 0x0
 
 	static ::System::Void _cctor()
 	{

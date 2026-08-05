@@ -8,7 +8,7 @@
 
 namespace Foundation::Container
 {
-	inline static constexpr unsigned int NativeHashSet_2_TypeDefinitionIndex = 8445;
+	inline static constexpr unsigned int NativeHashSet_2_TypeDefinitionIndex = 8891;
 
 	template <typename T, typename TKeyFunc>
 	struct NativeHashSet_2

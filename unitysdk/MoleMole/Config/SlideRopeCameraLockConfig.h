@@ -5,11 +5,11 @@
 namespace MoleMole::Cameras { class CameraTrackBlending; }
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_SLIDEROPECAMERALOCKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x161A0980)
+#define MOLEMOLE_CONFIG_SLIDEROPECAMERALOCKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B927660)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int SlideRopeCameraLockConfig_TypeDefinitionIndex = 45253;
+	inline static constexpr unsigned int SlideRopeCameraLockConfig_TypeDefinitionIndex = 67429;
 
 	class SlideRopeCameraLockConfig : public ::System::Object
 	{

@@ -5,26 +5,26 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define PARADOXNOTION_SERIALIZATION_V2BINARYREGISTRY_CLEAR_OFFSET UNITYSDK_OFFSET(0x1D543500)
-#define PARADOXNOTION_SERIALIZATION_V2BINARYREGISTRY_GET_KEYTABLE_OFFSET UNITYSDK_OFFSET(0x1D543360)
-#define PARADOXNOTION_SERIALIZATION_V2BINARYREGISTRY_GET_TYPETABLE_OFFSET UNITYSDK_OFFSET(0x1D543420)
-#define PARADOXNOTION_SERIALIZATION_V2BINARYREGISTRY_SETKEYTABLE_OFFSET UNITYSDK_OFFSET(0x1D5434E0)
-#define PARADOXNOTION_SERIALIZATION_V2BINARYREGISTRY_SETTYPETABLE_OFFSET UNITYSDK_OFFSET(0x1D5434F0)
+#define PARADOXNOTION_SERIALIZATION_V2BINARYREGISTRY_CLEAR_OFFSET UNITYSDK_OFFSET(0x1E23B060)
+#define PARADOXNOTION_SERIALIZATION_V2BINARYREGISTRY_GET_KEYTABLE_OFFSET UNITYSDK_OFFSET(0x1E23AEC0)
+#define PARADOXNOTION_SERIALIZATION_V2BINARYREGISTRY_GET_TYPETABLE_OFFSET UNITYSDK_OFFSET(0x1E23AF80)
+#define PARADOXNOTION_SERIALIZATION_V2BINARYREGISTRY_SETKEYTABLE_OFFSET UNITYSDK_OFFSET(0x1E23B040)
+#define PARADOXNOTION_SERIALIZATION_V2BINARYREGISTRY_SETTYPETABLE_OFFSET UNITYSDK_OFFSET(0x1E23B050)
 
 namespace ParadoxNotion::Serialization
 {
-	inline static constexpr unsigned int V2BinaryRegistry_TypeDefinitionIndex = 30344;
+	inline static constexpr unsigned int V2BinaryRegistry_TypeDefinitionIndex = 31002;
 
 	class V2BinaryRegistry : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::String*>** StaticGet__typeTable()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(V2BinaryRegistry_TypeDefinitionIndex)->GetStaticField(0x23830);
+			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(V2BinaryRegistry_TypeDefinitionIndex)->GetStaticField(0x250A0);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::String*>** StaticGet__keyTable()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(V2BinaryRegistry_TypeDefinitionIndex)->GetStaticField(0x23838);
+			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(V2BinaryRegistry_TypeDefinitionIndex)->GetStaticField(0x250A8);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::String*>* get_KeyTable()

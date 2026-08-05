@@ -6,13 +6,13 @@
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 namespace System { class Object; }
 
-#define FLOWCANVAS_NODES_RETURN_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1D1DBD50)
-#define FLOWCANVAS_NODES_RETURN__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1DBDF0)
-#define FLOWCANVAS_NODES_RETURN__REGISTERPORTS_B__2_0_OFFSET UNITYSDK_OFFSET(0x1D1DBE40)
+#define FLOWCANVAS_NODES_RETURN_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1E537BF0)
+#define FLOWCANVAS_NODES_RETURN__CTOR_OFFSET UNITYSDK_OFFSET(0x1E537C90)
+#define FLOWCANVAS_NODES_RETURN__REGISTERPORTS_B__2_0_OFFSET UNITYSDK_OFFSET(0x1E537CE0)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int Return_TypeDefinitionIndex = 30256;
+	inline static constexpr unsigned int Return_TypeDefinitionIndex = 29957;
 
 	class Return : public ::FlowCanvas::Nodes::FlowControlNode
 	{

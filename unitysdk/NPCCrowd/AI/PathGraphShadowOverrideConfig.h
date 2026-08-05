@@ -4,7 +4,7 @@
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int PathGraphShadowOverrideConfig_TypeDefinitionIndex = 56663;
+	inline static constexpr unsigned int PathGraphShadowOverrideConfig_TypeDefinitionIndex = 53053;
 
 	struct alignas(4) PathGraphShadowOverrideConfig
 	{

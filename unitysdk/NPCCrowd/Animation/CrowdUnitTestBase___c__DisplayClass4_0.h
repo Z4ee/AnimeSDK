@@ -5,12 +5,12 @@
 class Class_2_A49223FCF7A3C1CF;
 class Class_2_F346500DFC680A13;
 
-#define NPCCROWD_ANIMATION_CROWDUNITTESTBASE___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD438210)
-#define NPCCROWD_ANIMATION_CROWDUNITTESTBASE___C__DISPLAYCLASS4_0__INIT_B__0_OFFSET UNITYSDK_OFFSET(0xD438220)
+#define NPCCROWD_ANIMATION_CROWDUNITTESTBASE___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x10664DE0)
+#define NPCCROWD_ANIMATION_CROWDUNITTESTBASE___C__DISPLAYCLASS4_0__INIT_B__0_OFFSET UNITYSDK_OFFSET(0x10664DF0)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int CrowdUnitTestBase___c__DisplayClass4_0_TypeDefinitionIndex = 87593;
+	inline static constexpr unsigned int CrowdUnitTestBase___c__DisplayClass4_0_TypeDefinitionIndex = 80640;
 
 	class CrowdUnitTestBase___c__DisplayClass4_0 : public ::System::Object
 	{

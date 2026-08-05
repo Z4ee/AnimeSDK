@@ -13,32 +13,32 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 namespace UnityEngine { class Collider; }
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_LEVELNODEEVENTTRIGGER_AWAKE_OFFSET UNITYSDK_OFFSET(0x19131F30)
-#define MOLEMOLE_LEVELNODEEVENTTRIGGER_CHECKENTERTRIGGER_OFFSET UNITYSDK_OFFSET(0x19134070)
-#define MOLEMOLE_LEVELNODEEVENTTRIGGER_CHECKEXITTRIGGER_OFFSET UNITYSDK_OFFSET(0x19133FD0)
-#define MOLEMOLE_LEVELNODEEVENTTRIGGER_CONFIGCOLLIDER_OFFSET UNITYSDK_OFFSET(0x19133210)
-#define MOLEMOLE_LEVELNODEEVENTTRIGGER_GET_ENABLESTATE_OFFSET UNITYSDK_OFFSET(0x19133080)
-#define MOLEMOLE_LEVELNODEEVENTTRIGGER_METHOD_5_C0FD77CCB1B53417_OFFSET UNITYSDK_OFFSET(0x19134160)
-#define MOLEMOLE_LEVELNODEEVENTTRIGGER_METHOD_5_F4209394A808B3B4_1_OFFSET UNITYSDK_OFFSET(0x19132A20)
-#define MOLEMOLE_LEVELNODEEVENTTRIGGER_METHOD_5_F4209394A808B3B4_OFFSET UNITYSDK_OFFSET(0x19132D50)
-#define MOLEMOLE_LEVELNODEEVENTTRIGGER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x19132320)
-#define MOLEMOLE_LEVELNODEEVENTTRIGGER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x191320E0)
-#define MOLEMOLE_LEVELNODEEVENTTRIGGER_ONTRIGGERENTER_OFFSET UNITYSDK_OFFSET(0x19133E00)
-#define MOLEMOLE_LEVELNODEEVENTTRIGGER_ONTRIGGEREXIT_OFFSET UNITYSDK_OFFSET(0x19133EE0)
-#define MOLEMOLE_LEVELNODEEVENTTRIGGER_SET_ENABLESTATE_OFFSET UNITYSDK_OFFSET(0x19133090)
-#define MOLEMOLE_LEVELNODEEVENTTRIGGER_UPDATE_OFFSET UNITYSDK_OFFSET(0x19132570)
-#define MOLEMOLE_LEVELNODEEVENTTRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x19134100)
+#define MOLEMOLE_LEVELNODEEVENTTRIGGER_AWAKE_OFFSET UNITYSDK_OFFSET(0x19DC6D30)
+#define MOLEMOLE_LEVELNODEEVENTTRIGGER_CHECKENTERTRIGGER_OFFSET UNITYSDK_OFFSET(0x19DC8E90)
+#define MOLEMOLE_LEVELNODEEVENTTRIGGER_CHECKEXITTRIGGER_OFFSET UNITYSDK_OFFSET(0x19DC8DF0)
+#define MOLEMOLE_LEVELNODEEVENTTRIGGER_CONFIGCOLLIDER_OFFSET UNITYSDK_OFFSET(0x19DC8030)
+#define MOLEMOLE_LEVELNODEEVENTTRIGGER_GET_ENABLESTATE_OFFSET UNITYSDK_OFFSET(0x19DC7EA0)
+#define MOLEMOLE_LEVELNODEEVENTTRIGGER_METHOD_5_C0FD77CCB1B53417_OFFSET UNITYSDK_OFFSET(0x19DC8F80)
+#define MOLEMOLE_LEVELNODEEVENTTRIGGER_METHOD_5_F4209394A808B3B4_1_OFFSET UNITYSDK_OFFSET(0x19DC7840)
+#define MOLEMOLE_LEVELNODEEVENTTRIGGER_METHOD_5_F4209394A808B3B4_OFFSET UNITYSDK_OFFSET(0x19DC7B70)
+#define MOLEMOLE_LEVELNODEEVENTTRIGGER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x19DC7130)
+#define MOLEMOLE_LEVELNODEEVENTTRIGGER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x19DC6EE0)
+#define MOLEMOLE_LEVELNODEEVENTTRIGGER_ONTRIGGERENTER_OFFSET UNITYSDK_OFFSET(0x19DC8C20)
+#define MOLEMOLE_LEVELNODEEVENTTRIGGER_ONTRIGGEREXIT_OFFSET UNITYSDK_OFFSET(0x19DC8D00)
+#define MOLEMOLE_LEVELNODEEVENTTRIGGER_SET_ENABLESTATE_OFFSET UNITYSDK_OFFSET(0x19DC7EB0)
+#define MOLEMOLE_LEVELNODEEVENTTRIGGER_UPDATE_OFFSET UNITYSDK_OFFSET(0x19DC73A0)
+#define MOLEMOLE_LEVELNODEEVENTTRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x19DC8F20)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int LevelNodeEventTrigger_TypeDefinitionIndex = 58466;
+	inline static constexpr unsigned int LevelNodeEventTrigger_TypeDefinitionIndex = 78150;
 
 	class LevelNodeEventTrigger : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		::UnityEngine::Collider* Field_5_0; // 0x18
-		::System::Boolean Field_5_1; // 0x20
-		::UnityEngine::Transform* Field_5_2; // 0x28
+		::UnityEngine::Collider* Field_5_1; // 0x18
+		::System::Boolean Field_5_0; // 0x20
+		::UnityEngine::Transform* Field_5_7; // 0x28
 		::System::Boolean enableAvatar; // 0x30
 		::System::Boolean enableMonster; // 0x31
 		::System::Collections::Generic::List_1<::System::String*>* enableGameplayTags; // 0x38
@@ -46,12 +46,12 @@ namespace MoleMole
 		::Foundation::CustomEventAction_1<::MoleMole::Battle::Entity*>* TriggerStayDelegate; // 0x48
 		::Foundation::CustomEventAction_1<::MoleMole::Battle::Entity*>* TriggerExitDelegate; // 0x50
 		::System::Single stayTickInterval; // 0x58
-		::System::Single Field_5_10; // 0x5C
-		::System::Collections::Generic::List_1<::MoleMole::Battle::Entity*>* Field_5_11; // 0x60
-		::System::Collections::Generic::Queue_1<::UnityEngine::Collider*>* Field_5_12; // 0x68
-		::System::Collections::Generic::HashSet_1<::System::Int32>* Field_5_13; // 0x70
-		::System::Collections::Generic::Queue_1<::UnityEngine::Collider*>* Field_5_14; // 0x78
-		::System::Collections::Generic::HashSet_1<::System::Int32>* Field_5_15; // 0x80
+		::System::Single Field_5_15; // 0x5C
+		::System::Collections::Generic::List_1<::MoleMole::Battle::Entity*>* Field_5_14; // 0x60
+		::System::Collections::Generic::Queue_1<::UnityEngine::Collider*>* Field_5_13; // 0x68
+		::System::Collections::Generic::HashSet_1<::System::Int32>* Field_5_12; // 0x70
+		::System::Collections::Generic::Queue_1<::UnityEngine::Collider*>* Field_5_19; // 0x78
+		::System::Collections::Generic::HashSet_1<::System::Int32>* Field_5_18; // 0x80
 
 		::System::Void _ctor()
 		{
@@ -113,14 +113,14 @@ namespace MoleMole
 			return ((::System::Boolean(*)(::PVOID, ::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + MOLEMOLE_LEVELNODEEVENTTRIGGER_CHECKENTERTRIGGER_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Method_5_C0FD77CCB1B53417(::MoleMole::Battle::Entity* a1)
-		{
-			return ((::System::Boolean(*)(::PVOID, ::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + MOLEMOLE_LEVELNODEEVENTTRIGGER_METHOD_5_C0FD77CCB1B53417_OFFSET))(this, a1);
-		}
-
 		::System::Void Method_5_F4209394A808B3B4(::UnityEngine::Collider* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Collider*))((::PBYTE)hIl2Cpp + MOLEMOLE_LEVELNODEEVENTTRIGGER_METHOD_5_F4209394A808B3B4_OFFSET))(this, a1);
+		}
+
+		::System::Boolean Method_5_C0FD77CCB1B53417(::MoleMole::Battle::Entity* a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + MOLEMOLE_LEVELNODEEVENTTRIGGER_METHOD_5_C0FD77CCB1B53417_OFFSET))(this, a1);
 		}
 
 		::System::Void Method_5_F4209394A808B3B4_1(::UnityEngine::Collider* a1)

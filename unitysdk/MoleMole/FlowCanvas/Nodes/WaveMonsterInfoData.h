@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_WAVEMONSTERINFODATA__CTOR_OFFSET UNITYSDK_OFFSET(0x10D4A050)
+#define MOLEMOLE_FLOWCANVAS_NODES_WAVEMONSTERINFODATA__CTOR_OFFSET UNITYSDK_OFFSET(0x16853380)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int WaveMonsterInfoData_TypeDefinitionIndex = 69400;
+	inline static constexpr unsigned int WaveMonsterInfoData_TypeDefinitionIndex = 79766;
 
 	class WaveMonsterInfoData : public ::System::Object
 	{

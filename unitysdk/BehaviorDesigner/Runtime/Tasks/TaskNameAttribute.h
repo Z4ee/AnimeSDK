@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_TASKNAMEATTRIBUTE_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1E1F8C60)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_TASKNAMEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E1F8C70)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_TASKNAMEATTRIBUTE_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1F607360)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_TASKNAMEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F607370)
 
 namespace BehaviorDesigner::Runtime::Tasks
 {
-	inline static constexpr unsigned int TaskNameAttribute_TypeDefinitionIndex = 33330;
+	inline static constexpr unsigned int TaskNameAttribute_TypeDefinitionIndex = 33966;
 
 	class TaskNameAttribute : public ::System::Attribute
 	{

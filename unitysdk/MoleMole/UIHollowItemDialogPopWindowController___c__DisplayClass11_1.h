@@ -5,12 +5,12 @@
 namespace MoleMole { class UIHollowItemDialogPopWindowController___c__DisplayClass11_0; }
 namespace MoleMole { class UIHollowItemRowWidgetController; }
 
-#define MOLEMOLE_UIHOLLOWITEMDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS11_1__CTOR_OFFSET UNITYSDK_OFFSET(0x146998B0)
-#define MOLEMOLE_UIHOLLOWITEMDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS11_1__REFRESHALLINITIATIVESLOT_B__0_OFFSET UNITYSDK_OFFSET(0x146998C0)
+#define MOLEMOLE_UIHOLLOWITEMDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS11_1__CTOR_OFFSET UNITYSDK_OFFSET(0x164D1120)
+#define MOLEMOLE_UIHOLLOWITEMDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS11_1__REFRESHALLINITIATIVESLOT_B__0_OFFSET UNITYSDK_OFFSET(0x164D1130)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowItemDialogPopWindowController___c__DisplayClass11_1_TypeDefinitionIndex = 67064;
+	inline static constexpr unsigned int UIHollowItemDialogPopWindowController___c__DisplayClass11_1_TypeDefinitionIndex = 75416;
 
 	class UIHollowItemDialogPopWindowController___c__DisplayClass11_1 : public ::System::Object
 	{

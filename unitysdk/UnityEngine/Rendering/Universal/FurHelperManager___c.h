@@ -5,24 +5,24 @@
 
 namespace System { template <typename T> class Comparison_1; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_FURHELPERMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B7F3870)
-#define UNITYENGINE_RENDERING_UNIVERSAL_FURHELPERMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7F38B0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_FURHELPERMANAGER___C__DRAWFURLAYERS_B__17_0_OFFSET UNITYSDK_OFFSET(0x1B7F38C0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FURHELPERMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CB10520)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FURHELPERMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB10560)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FURHELPERMANAGER___C__DRAWFURLAYERS_B__17_0_OFFSET UNITYSDK_OFFSET(0x1CB10570)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int FurHelperManager___c_TypeDefinitionIndex = 26385;
+	inline static constexpr unsigned int FurHelperManager___c_TypeDefinitionIndex = 27419;
 
 	class FurHelperManager___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::FurHelper_ObjectInfos>** StaticGet___9__17_0()
-		{
-			return (::System::Comparison_1<::FurHelper_ObjectInfos>**)Il2CppClass::FromTypeDefinitionIndex(FurHelperManager___c_TypeDefinitionIndex)->GetStaticField(0x21280);
-		}
 		static ::UnityEngine::Rendering::Universal::FurHelperManager___c** StaticGet___9()
 		{
-			return (::UnityEngine::Rendering::Universal::FurHelperManager___c**)Il2CppClass::FromTypeDefinitionIndex(FurHelperManager___c_TypeDefinitionIndex)->GetStaticField(0x21288);
+			return (::UnityEngine::Rendering::Universal::FurHelperManager___c**)Il2CppClass::FromTypeDefinitionIndex(FurHelperManager___c_TypeDefinitionIndex)->GetStaticField(0x22B00);
+		}
+		static ::System::Comparison_1<::FurHelper_ObjectInfos>** StaticGet___9__17_0()
+		{
+			return (::System::Comparison_1<::FurHelper_ObjectInfos>**)Il2CppClass::FromTypeDefinitionIndex(FurHelperManager___c_TypeDefinitionIndex)->GetStaticField(0x22B08);
 		}
 
 		static ::System::Void _cctor()

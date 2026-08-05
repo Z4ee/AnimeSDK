@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnrealTypes/PropertyParamsBase.h"
 
-#define UNREALTYPES_BOOLPROPERTYPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1AC600)
+#define UNREALTYPES_BOOLPROPERTYPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E382A50)
 
 namespace UnrealTypes
 {
-	inline static constexpr unsigned int BoolPropertyParams_TypeDefinitionIndex = 27744;
+	inline static constexpr unsigned int BoolPropertyParams_TypeDefinitionIndex = 28347;
 
 	class BoolPropertyParams : public ::UnrealTypes::PropertyParamsBase
 	{

@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace System { class Type; }
 
-#define SIRENIX_ODININSPECTOR_SUBTYPEFILTERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E32A540)
+#define SIRENIX_ODININSPECTOR_SUBTYPEFILTERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F7718B0)
 
 namespace Sirenix::OdinInspector
 {
-	inline static constexpr unsigned int SubTypeFilterAttribute_TypeDefinitionIndex = 7359;
+	inline static constexpr unsigned int SubTypeFilterAttribute_TypeDefinitionIndex = 7363;
 
 	class SubTypeFilterAttribute : public ::System::Attribute
 	{

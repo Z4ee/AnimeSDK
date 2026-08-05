@@ -6,18 +6,18 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define UTF8JSON_RESOLVERS_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS7_0__BUILDANONYMOUSFORMATTER_B__1_OFFSET UNITYSDK_OFFSET(0x1E7EE580)
-#define UTF8JSON_RESOLVERS_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7EE570)
+#define UTF8JSON_RESOLVERS_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS7_0__BUILDANONYMOUSFORMATTER_B__1_OFFSET UNITYSDK_OFFSET(0x1FBCEFA0)
+#define UTF8JSON_RESOLVERS_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1FBCEF90)
 
 namespace Utf8Json::Resolvers::Internal
 {
-	inline static constexpr unsigned int DynamicObjectTypeBuilder___c__DisplayClass7_0_TypeDefinitionIndex = 91156;
+	inline static constexpr unsigned int DynamicObjectTypeBuilder___c__DisplayClass7_0_TypeDefinitionIndex = 95089;
 
 	class DynamicObjectTypeBuilder___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::Object*>* serializeCustomFormatters; // 0x10
-		::System::Collections::Generic::List_1<::System::Object*>* deserializeCustomFormatters; // 0x18
+		::System::Collections::Generic::List_1<::System::Object*>* deserializeCustomFormatters; // 0x10
+		::System::Collections::Generic::List_1<::System::Object*>* serializeCustomFormatters; // 0x18
 		::System::Func_2<::System::String*, ::System::String*>* nameMutator; // 0x20
 
 		::System::Void _ctor()

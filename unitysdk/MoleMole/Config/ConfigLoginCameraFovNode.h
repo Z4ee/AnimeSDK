@@ -5,19 +5,19 @@
 class Class_1_D72537470FC2F779;
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CONFIG_CONFIGLOGINCAMERAFOVNODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x162B07A0)
-#define MOLEMOLE_CONFIG_CONFIGLOGINCAMERAFOVNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x162B0810)
+#define MOLEMOLE_CONFIG_CONFIGLOGINCAMERAFOVNODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x16C45CC0)
+#define MOLEMOLE_CONFIG_CONFIGLOGINCAMERAFOVNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x16C45D30)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigLoginCameraFovNode_TypeDefinitionIndex = 75153;
+	inline static constexpr unsigned int ConfigLoginCameraFovNode_TypeDefinitionIndex = 71560;
 
 	class ConfigLoginCameraFovNode : public ::MoleMole::Config::ConfigUIBaseActionNode
 	{
 	public:
 		::UnityEngine::AnimationCurve* curve; // 0x18
-		::System::Single Fov; // 0x20
-		::System::Single fovTime; // 0x24
+		::System::Single fovTime; // 0x20
+		::System::Single Fov; // 0x24
 
 		::System::Void _ctor()
 		{

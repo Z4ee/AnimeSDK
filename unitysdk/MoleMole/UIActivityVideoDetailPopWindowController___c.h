@@ -5,24 +5,24 @@
 class Class_1_E9529ED64113E4E9;
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_UIACTIVITYVIDEODETAILPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17335030)
-#define MOLEMOLE_UIACTIVITYVIDEODETAILPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17335070)
-#define MOLEMOLE_UIACTIVITYVIDEODETAILPOPWINDOWCONTROLLER___C__PLAYVIDEOFROMSTART_B__8_0_OFFSET UNITYSDK_OFFSET(0x17335080)
+#define MOLEMOLE_UIACTIVITYVIDEODETAILPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1894DF60)
+#define MOLEMOLE_UIACTIVITYVIDEODETAILPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1894DFA0)
+#define MOLEMOLE_UIACTIVITYVIDEODETAILPOPWINDOWCONTROLLER___C__PLAYVIDEOFROMSTART_B__8_0_OFFSET UNITYSDK_OFFSET(0x1894DFB0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityVideoDetailPopWindowController___c_TypeDefinitionIndex = 69399;
+	inline static constexpr unsigned int UIActivityVideoDetailPopWindowController___c_TypeDefinitionIndex = 57038;
 
 	class UIActivityVideoDetailPopWindowController___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::Class_1_E9529ED64113E4E9*>** StaticGet___9__8_0()
-		{
-			return (::System::Action_1<::Class_1_E9529ED64113E4E9*>**)Il2CppClass::FromTypeDefinitionIndex(UIActivityVideoDetailPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x30A60);
-		}
 		static ::MoleMole::UIActivityVideoDetailPopWindowController___c** StaticGet___9()
 		{
-			return (::MoleMole::UIActivityVideoDetailPopWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UIActivityVideoDetailPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x30A68);
+			return (::MoleMole::UIActivityVideoDetailPopWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UIActivityVideoDetailPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x32A90);
+		}
+		static ::System::Action_1<::Class_1_E9529ED64113E4E9*>** StaticGet___9__8_0()
+		{
+			return (::System::Action_1<::Class_1_E9529ED64113E4E9*>**)Il2CppClass::FromTypeDefinitionIndex(UIActivityVideoDetailPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x32A98);
 		}
 
 		static ::System::Void _cctor()

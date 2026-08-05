@@ -5,12 +5,12 @@
 class Class_1_D72537470FC2F779;
 namespace MoleMole::Config { class StringUISpecialNum; }
 
-#define MOLEMOLE_CONFIG_CONFIGCLOSEUICONTROLLERCOMMONNODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x12B360A0)
-#define MOLEMOLE_CONFIG_CONFIGCLOSEUICONTROLLERCOMMONNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x12B36110)
+#define MOLEMOLE_CONFIG_CONFIGCLOSEUICONTROLLERCOMMONNODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x1B7E4590)
+#define MOLEMOLE_CONFIG_CONFIGCLOSEUICONTROLLERCOMMONNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7E4600)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigCloseUIControllerCommonNode_TypeDefinitionIndex = 53767;
+	inline static constexpr unsigned int ConfigCloseUIControllerCommonNode_TypeDefinitionIndex = 49566;
 
 	class ConfigCloseUIControllerCommonNode : public ::MoleMole::Config::ConfigUIBaseActionNode
 	{

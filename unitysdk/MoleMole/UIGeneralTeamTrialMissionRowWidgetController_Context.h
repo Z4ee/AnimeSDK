@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIGENERALTEAMTRIALMISSIONROWWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x186C7740)
+#define MOLEMOLE_UIGENERALTEAMTRIALMISSIONROWWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x199CA4D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralTeamTrialMissionRowWidgetController_Context_TypeDefinitionIndex = 45451;
+	inline static constexpr unsigned int UIGeneralTeamTrialMissionRowWidgetController_Context_TypeDefinitionIndex = 49130;
 
 	class UIGeneralTeamTrialMissionRowWidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{

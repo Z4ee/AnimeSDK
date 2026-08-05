@@ -8,7 +8,7 @@ namespace UnityEngine { class Texture2D; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInLevelDamageTextContainerChildWindowController_WindCatalyzeTextureCacheEntry_TypeDefinitionIndex = 76091;
+	inline static constexpr unsigned int UIInLevelDamageTextContainerChildWindowController_WindCatalyzeTextureCacheEntry_TypeDefinitionIndex = 78053;
 
 	struct alignas(8) UIInLevelDamageTextContainerChildWindowController_WindCatalyzeTextureCacheEntry
 	{

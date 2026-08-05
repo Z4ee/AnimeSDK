@@ -5,24 +5,24 @@
 namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERCXHANDHELD___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BC92020)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERCXHANDHELD___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC92060)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERCXHANDHELD___C__REACTIVATEACCOUNT_B__5_0_OFFSET UNITYSDK_OFFSET(0x1BC92070)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERCXHANDHELD___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CFD27F0)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERCXHANDHELD___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFD2830)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERCXHANDHELD___C__REACTIVATEACCOUNT_B__5_0_OFFSET UNITYSDK_OFFSET(0x1CFD2840)
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
-	inline static constexpr unsigned int BindManagerCXHandheld___c_TypeDefinitionIndex = 20490;
+	inline static constexpr unsigned int BindManagerCXHandheld___c_TypeDefinitionIndex = 20837;
 
 	class BindManagerCXHandheld___c : public ::System::Object
 	{
 	public:
-		static ::MiHoYo::SDK::PC::OS::CXHandheld::BindManagerCXHandheld___c** StaticGet___9()
-		{
-			return (::MiHoYo::SDK::PC::OS::CXHandheld::BindManagerCXHandheld___c**)Il2CppClass::FromTypeDefinitionIndex(BindManagerCXHandheld___c_TypeDefinitionIndex)->GetStaticField(0xB190);
-		}
 		static ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>** StaticGet___9__5_0()
 		{
-			return (::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>**)Il2CppClass::FromTypeDefinitionIndex(BindManagerCXHandheld___c_TypeDefinitionIndex)->GetStaticField(0xB198);
+			return (::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>**)Il2CppClass::FromTypeDefinitionIndex(BindManagerCXHandheld___c_TypeDefinitionIndex)->GetStaticField(0xB1F0);
+		}
+		static ::MiHoYo::SDK::PC::OS::CXHandheld::BindManagerCXHandheld___c** StaticGet___9()
+		{
+			return (::MiHoYo::SDK::PC::OS::CXHandheld::BindManagerCXHandheld___c**)Il2CppClass::FromTypeDefinitionIndex(BindManagerCXHandheld___c_TypeDefinitionIndex)->GetStaticField(0xB1F8);
 		}
 
 		static ::System::Void _cctor()

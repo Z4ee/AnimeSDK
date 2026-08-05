@@ -6,13 +6,13 @@
 namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
 namespace System { class String; }
 
-#define NODECANVAS_TASKS_ACTIONS_WAIT_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1D359740)
-#define NODECANVAS_TASKS_ACTIONS_WAIT_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1D3597B0)
-#define NODECANVAS_TASKS_ACTIONS_WAIT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D359830)
+#define NODECANVAS_TASKS_ACTIONS_WAIT_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1E6DD0A0)
+#define NODECANVAS_TASKS_ACTIONS_WAIT_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1E6DD110)
+#define NODECANVAS_TASKS_ACTIONS_WAIT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E6DD190)
 
 namespace NodeCanvas::Tasks::Actions
 {
-	inline static constexpr unsigned int Wait_TypeDefinitionIndex = 30560;
+	inline static constexpr unsigned int Wait_TypeDefinitionIndex = 30890;
 
 	class Wait : public ::NodeCanvas::Framework::ActionTask
 	{

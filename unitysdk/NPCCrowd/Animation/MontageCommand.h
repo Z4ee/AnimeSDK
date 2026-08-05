@@ -7,7 +7,7 @@
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int MontageCommand_TypeDefinitionIndex = 53675;
+	inline static constexpr unsigned int MontageCommand_TypeDefinitionIndex = 82989;
 
 	struct alignas(4) MontageCommand
 	{

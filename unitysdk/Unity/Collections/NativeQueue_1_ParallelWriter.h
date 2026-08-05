@@ -6,7 +6,7 @@
 
 namespace Unity::Collections
 {
-	inline static constexpr unsigned int NativeQueue_1_ParallelWriter_TypeDefinitionIndex = 18467;
+	inline static constexpr unsigned int NativeQueue_1_ParallelWriter_TypeDefinitionIndex = 18874;
 
 	template <typename T>
 	struct NativeQueue_1_ParallelWriter

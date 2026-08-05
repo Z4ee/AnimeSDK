@@ -4,18 +4,18 @@
 
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_UIVIDEOSELECTROLELISTDIALOGPOPCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x11586080)
+#define MOLEMOLE_UIVIDEOSELECTROLELISTDIALOGPOPCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15ECC3D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIVideoSelectRoleListDialogPopContext_TypeDefinitionIndex = 85027;
+	inline static constexpr unsigned int UIVideoSelectRoleListDialogPopContext_TypeDefinitionIndex = 67699;
 
 	class UIVideoSelectRoleListDialogPopContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
 		::System::Action_1<::System::Int32>* OnSelectConfirm; // 0x28
-		::System::UInt32 DefaultCheckedAvatarID; // 0x30
-		::System::Int32 SelectUpSuitID; // 0x34
+		::System::Int32 SelectUpSuitID; // 0x30
+		::System::UInt32 DefaultCheckedAvatarID; // 0x34
 
 		::System::Void _ctor()
 		{

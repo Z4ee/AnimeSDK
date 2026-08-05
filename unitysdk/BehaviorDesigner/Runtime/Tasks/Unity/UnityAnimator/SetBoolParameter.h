@@ -11,33 +11,33 @@ namespace System::Collections { class IEnumerator; }
 namespace UnityEngine { class Animator; }
 namespace UnityEngine { class GameObject; }
 
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYANIMATOR_SETBOOLPARAMETER_ONRESET_OFFSET UNITYSDK_OFFSET(0x1E3315F0)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYANIMATOR_SETBOOLPARAMETER_ONSTART_OFFSET UNITYSDK_OFFSET(0x1E330FC0)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYANIMATOR_SETBOOLPARAMETER_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1E331150)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYANIMATOR_SETBOOLPARAMETER_RESETVALUE_OFFSET UNITYSDK_OFFSET(0x1E331560)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYANIMATOR_SETBOOLPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E331680)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYANIMATOR_SETBOOLPARAMETER___BASE_ONRESET_OFFSET UNITYSDK_OFFSET(0x1E331710)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYANIMATOR_SETBOOLPARAMETER___BASE_ONSTART_OFFSET UNITYSDK_OFFSET(0x1E3317A0)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYANIMATOR_SETBOOLPARAMETER___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1E331830)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYANIMATOR_SETBOOLPARAMETER_ONRESET_OFFSET UNITYSDK_OFFSET(0x1F768740)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYANIMATOR_SETBOOLPARAMETER_ONSTART_OFFSET UNITYSDK_OFFSET(0x1F768110)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYANIMATOR_SETBOOLPARAMETER_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1F7682A0)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYANIMATOR_SETBOOLPARAMETER_RESETVALUE_OFFSET UNITYSDK_OFFSET(0x1F7686B0)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYANIMATOR_SETBOOLPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F7687D0)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYANIMATOR_SETBOOLPARAMETER___BASE_ONRESET_OFFSET UNITYSDK_OFFSET(0x1F768860)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYANIMATOR_SETBOOLPARAMETER___BASE_ONSTART_OFFSET UNITYSDK_OFFSET(0x1F7688F0)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYANIMATOR_SETBOOLPARAMETER___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1F768980)
 
 namespace BehaviorDesigner::Runtime::Tasks::Unity::UnityAnimator
 {
-	inline static constexpr unsigned int SetBoolParameter_TypeDefinitionIndex = 33819;
+	inline static constexpr unsigned int SetBoolParameter_TypeDefinitionIndex = 34455;
 
 	class SetBoolParameter : public ::BehaviorDesigner::Runtime::Tasks::Action
 	{
 	public:
 		static ::System::Action_3<::UnityEngine::Animator*, ::System::Int32, ::System::Boolean>** StaticGet_OnSetBool()
 		{
-			return (::System::Action_3<::UnityEngine::Animator*, ::System::Int32, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(SetBoolParameter_TypeDefinitionIndex)->GetStaticField(0x27580);
+			return (::System::Action_3<::UnityEngine::Animator*, ::System::Int32, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(SetBoolParameter_TypeDefinitionIndex)->GetStaticField(0x28DA0);
 		}
-		::UnityEngine::GameObject* prevGameObject; // 0x58
-		::BehaviorDesigner::Runtime::SharedGameObject* targetGameObject; // 0x60
-		::UnityEngine::Animator* animator; // 0x68
-		::BehaviorDesigner::Runtime::SharedBool* boolValue; // 0x70
-		::BehaviorDesigner::Runtime::SharedString* paramaterName; // 0x78
-		::System::Boolean setOnce; // 0x80
-		::System::Int32 hashID; // 0x84
+		::BehaviorDesigner::Runtime::SharedGameObject* targetGameObject; // 0x58
+		::BehaviorDesigner::Runtime::SharedBool* boolValue; // 0x60
+		::BehaviorDesigner::Runtime::SharedString* paramaterName; // 0x68
+		::UnityEngine::Animator* animator; // 0x70
+		::UnityEngine::GameObject* prevGameObject; // 0x78
+		::System::Int32 hashID; // 0x80
+		::System::Boolean setOnce; // 0x84
 
 		::System::Void _ctor()
 		{

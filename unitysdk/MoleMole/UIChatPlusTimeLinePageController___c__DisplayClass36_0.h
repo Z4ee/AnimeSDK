@@ -2,23 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_D65512A83CF70AB7;
+class Class_2_CEC585D0736F3660;
 namespace MoleMole { class UIChatPlusTimeLinePageController; }
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_UICHATPLUSTIMELINEPAGECONTROLLER___C__DISPLAYCLASS36_0__CTOR_OFFSET UNITYSDK_OFFSET(0x172D5200)
-#define MOLEMOLE_UICHATPLUSTIMELINEPAGECONTROLLER___C__DISPLAYCLASS36_0__ONNORMALGRAPHEXIT_B__1_OFFSET UNITYSDK_OFFSET(0x172D5210)
-#define MOLEMOLE_UICHATPLUSTIMELINEPAGECONTROLLER___C__DISPLAYCLASS36_0__ONNORMALGRAPHEXIT_B__2_OFFSET UNITYSDK_OFFSET(0x172D52A0)
+#define MOLEMOLE_UICHATPLUSTIMELINEPAGECONTROLLER___C__DISPLAYCLASS36_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1957E0C0)
+#define MOLEMOLE_UICHATPLUSTIMELINEPAGECONTROLLER___C__DISPLAYCLASS36_0__ONNORMALGRAPHEXIT_B__1_OFFSET UNITYSDK_OFFSET(0x1957E0D0)
+#define MOLEMOLE_UICHATPLUSTIMELINEPAGECONTROLLER___C__DISPLAYCLASS36_0__ONNORMALGRAPHEXIT_B__2_OFFSET UNITYSDK_OFFSET(0x1957E160)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIChatPlusTimeLinePageController___c__DisplayClass36_0_TypeDefinitionIndex = 65461;
+	inline static constexpr unsigned int UIChatPlusTimeLinePageController___c__DisplayClass36_0_TypeDefinitionIndex = 79166;
 
 	class UIChatPlusTimeLinePageController___c__DisplayClass36_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIChatPlusTimeLinePageController* __4__this; // 0x10
-		::System::Action_1<::Class_1_D65512A83CF70AB7*>* onFinishCallBack; // 0x18
+		::System::Action_1<::Class_2_CEC585D0736F3660*>* onFinishCallBack; // 0x10
+		::MoleMole::UIChatPlusTimeLinePageController* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

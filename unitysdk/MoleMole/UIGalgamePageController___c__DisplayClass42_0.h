@@ -1,0 +1,74 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+namespace MoleMole { class UIGalgamePageController; }
+namespace MoleMole::GalGame { class GalPlayArgueSettleNode; }
+
+#define MOLEMOLE_UIGALGAMEPAGECONTROLLER___C__DISPLAYCLASS42_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18401090)
+#define MOLEMOLE_UIGALGAMEPAGECONTROLLER___C__DISPLAYCLASS42_0__PLAYARGUESETTLENODE_B__0_OFFSET UNITYSDK_OFFSET(0x184010A0)
+#define MOLEMOLE_UIGALGAMEPAGECONTROLLER___C__DISPLAYCLASS42_0__PLAYARGUESETTLENODE_B__1_OFFSET UNITYSDK_OFFSET(0x18401110)
+#define MOLEMOLE_UIGALGAMEPAGECONTROLLER___C__DISPLAYCLASS42_0__PLAYARGUESETTLENODE_B__2_OFFSET UNITYSDK_OFFSET(0x184011B0)
+#define MOLEMOLE_UIGALGAMEPAGECONTROLLER___C__DISPLAYCLASS42_0__PLAYARGUESETTLENODE_B__3_OFFSET UNITYSDK_OFFSET(0x18401250)
+#define MOLEMOLE_UIGALGAMEPAGECONTROLLER___C__DISPLAYCLASS42_0__PLAYARGUESETTLENODE_B__4_OFFSET UNITYSDK_OFFSET(0x18401270)
+#define MOLEMOLE_UIGALGAMEPAGECONTROLLER___C__DISPLAYCLASS42_0__PLAYARGUESETTLENODE_B__5_OFFSET UNITYSDK_OFFSET(0x184012D0)
+#define MOLEMOLE_UIGALGAMEPAGECONTROLLER___C__DISPLAYCLASS42_0__PLAYARGUESETTLENODE_B__6_OFFSET UNITYSDK_OFFSET(0x18401300)
+#define MOLEMOLE_UIGALGAMEPAGECONTROLLER___C__DISPLAYCLASS42_0__PLAYARGUESETTLENODE_B__7_OFFSET UNITYSDK_OFFSET(0x18401430)
+
+namespace MoleMole
+{
+	inline static constexpr unsigned int UIGalgamePageController___c__DisplayClass42_0_TypeDefinitionIndex = 62806;
+
+	class UIGalgamePageController___c__DisplayClass42_0 : public ::System::Object
+	{
+	public:
+		::MoleMole::UIGalgamePageController* __4__this; // 0x10
+		::MoleMole::GalGame::GalPlayArgueSettleNode* settleData; // 0x18
+		::System::Int32 resultValue; // 0x20
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIGALGAMEPAGECONTROLLER___C__DISPLAYCLASS42_0__CTOR_OFFSET))(this);
+		}
+
+		::System::Void _PlayArgueSettleNode_b__0()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIGALGAMEPAGECONTROLLER___C__DISPLAYCLASS42_0__PLAYARGUESETTLENODE_B__0_OFFSET))(this);
+		}
+
+		::System::Void _PlayArgueSettleNode_b__1()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIGALGAMEPAGECONTROLLER___C__DISPLAYCLASS42_0__PLAYARGUESETTLENODE_B__1_OFFSET))(this);
+		}
+
+		::System::Void _PlayArgueSettleNode_b__2()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIGALGAMEPAGECONTROLLER___C__DISPLAYCLASS42_0__PLAYARGUESETTLENODE_B__2_OFFSET))(this);
+		}
+
+		::System::Void _PlayArgueSettleNode_b__3()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIGALGAMEPAGECONTROLLER___C__DISPLAYCLASS42_0__PLAYARGUESETTLENODE_B__3_OFFSET))(this);
+		}
+
+		::System::Void _PlayArgueSettleNode_b__4()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIGALGAMEPAGECONTROLLER___C__DISPLAYCLASS42_0__PLAYARGUESETTLENODE_B__4_OFFSET))(this);
+		}
+
+		::System::Void _PlayArgueSettleNode_b__5()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIGALGAMEPAGECONTROLLER___C__DISPLAYCLASS42_0__PLAYARGUESETTLENODE_B__5_OFFSET))(this);
+		}
+
+		::System::Void _PlayArgueSettleNode_b__6()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIGALGAMEPAGECONTROLLER___C__DISPLAYCLASS42_0__PLAYARGUESETTLENODE_B__6_OFFSET))(this);
+		}
+
+		::System::Void _PlayArgueSettleNode_b__7()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIGALGAMEPAGECONTROLLER___C__DISPLAYCLASS42_0__PLAYARGUESETTLENODE_B__7_OFFSET))(this);
+		}
+	};
+}

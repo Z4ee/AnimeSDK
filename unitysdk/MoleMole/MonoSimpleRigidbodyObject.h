@@ -4,19 +4,19 @@
 
 class Class_3_6A6ED67B92DC299D_Config;
 
-#define MOLEMOLE_MONOSIMPLERIGIDBODYOBJECT_START_OFFSET UNITYSDK_OFFSET(0x12BD3800)
-#define MOLEMOLE_MONOSIMPLERIGIDBODYOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x12BD3990)
+#define MOLEMOLE_MONOSIMPLERIGIDBODYOBJECT_START_OFFSET UNITYSDK_OFFSET(0x13852A40)
+#define MOLEMOLE_MONOSIMPLERIGIDBODYOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x13852BD0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoSimpleRigidbodyObject_TypeDefinitionIndex = 87630;
+	inline static constexpr unsigned int MonoSimpleRigidbodyObject_TypeDefinitionIndex = 50625;
 
 	class MonoSimpleRigidbodyObject : public ::MoleMole::MonoSceneObjectBase
 	{
 	public:
-		static ::System::Int32* StaticGet_Field_7_0()
+		static ::System::Int32* StaticGet_Field_7_1()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoSimpleRigidbodyObject_TypeDefinitionIndex)->GetStaticField(0x13180);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoSimpleRigidbodyObject_TypeDefinitionIndex)->GetStaticField(0x13670);
 		}
 		::Class_3_6A6ED67B92DC299D_Config* config; // 0x28
 

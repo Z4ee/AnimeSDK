@@ -5,33 +5,33 @@
 namespace System { class String; }
 namespace System::Net::Sockets { class TcpClient; }
 
-#define ADBCONNECTION_CONNECT_OFFSET UNITYSDK_OFFSET(0x1DE0FEE0)
-#define ADBCONNECTION_CONVERTTOINT32_OFFSET UNITYSDK_OFFSET(0x1DE10400)
-#define ADBCONNECTION_DISCONNECT_OFFSET UNITYSDK_OFFSET(0x1DE10540)
-#define ADBCONNECTION_GETBYTES_OFFSET UNITYSDK_OFFSET(0x1DE10490)
-#define ADBCONNECTION_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1DE0FDF0)
-#define ADBCONNECTION_PLAYPREBAKE_OFFSET UNITYSDK_OFFSET(0x1DE10D10)
-#define ADBCONNECTION_PLAY_OFFSET UNITYSDK_OFFSET(0x1DE10660)
-#define ADBCONNECTION_STOP_OFFSET UNITYSDK_OFFSET(0x1DE11010)
-#define ADBCONNECTION__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DE11270)
-#define ADBCONNECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1DE0FED0)
+#define ADBCONNECTION_CONNECT_OFFSET UNITYSDK_OFFSET(0x1F2236D0)
+#define ADBCONNECTION_CONVERTTOINT32_OFFSET UNITYSDK_OFFSET(0x1F223BF0)
+#define ADBCONNECTION_DISCONNECT_OFFSET UNITYSDK_OFFSET(0x1F223D30)
+#define ADBCONNECTION_GETBYTES_OFFSET UNITYSDK_OFFSET(0x1F223C80)
+#define ADBCONNECTION_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1F2235E0)
+#define ADBCONNECTION_PLAYPREBAKE_OFFSET UNITYSDK_OFFSET(0x1F224500)
+#define ADBCONNECTION_PLAY_OFFSET UNITYSDK_OFFSET(0x1F223E50)
+#define ADBCONNECTION_STOP_OFFSET UNITYSDK_OFFSET(0x1F224800)
+#define ADBCONNECTION__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F224A60)
+#define ADBCONNECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1F2236C0)
 
-inline static constexpr unsigned int ADBConnection_TypeDefinitionIndex = 38074;
+inline static constexpr unsigned int ADBConnection_TypeDefinitionIndex = 38735;
 
 class ADBConnection : public ::System::Object
 {
 public:
 	static ::ADBConnection** StaticGet_instance()
 	{
-		return (::ADBConnection**)Il2CppClass::FromTypeDefinitionIndex(ADBConnection_TypeDefinitionIndex)->GetStaticField(0x28E10);
-	}
-	static ::System::Int32* StaticGet_targetPort()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ADBConnection_TypeDefinitionIndex)->GetStaticField(0x8D90);
+		return (::ADBConnection**)Il2CppClass::FromTypeDefinitionIndex(ADBConnection_TypeDefinitionIndex)->GetStaticField(0x2A730);
 	}
 	static ::System::Int32* StaticGet_localPort()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ADBConnection_TypeDefinitionIndex)->GetStaticField(0x8D94);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ADBConnection_TypeDefinitionIndex)->GetStaticField(0x8E80);
+	}
+	static ::System::Int32* StaticGet_targetPort()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ADBConnection_TypeDefinitionIndex)->GetStaticField(0x8E84);
 	}
 	// static const ::System::String* NAME; // 0x0
 	// static const ::System::Int32 HEAD = 0x12345678; // 0x0

@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERCONFIGADDITIONALDATA_HOTTWISTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC39AC0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERCONFIGADDITIONALDATA_HOTTWISTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C9B54E0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int WeatherConfigAdditionalData_HotTwistConfig_TypeDefinitionIndex = 26827;
+	inline static constexpr unsigned int WeatherConfigAdditionalData_HotTwistConfig_TypeDefinitionIndex = 27784;
 
 	class WeatherConfigAdditionalData_HotTwistConfig : public ::System::Object
 	{

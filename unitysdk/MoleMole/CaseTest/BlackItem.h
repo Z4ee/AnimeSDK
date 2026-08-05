@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CASETEST_BLACKITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x11082500)
+#define MOLEMOLE_CASETEST_BLACKITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x12EE34A0)
 
 namespace MoleMole::CaseTest
 {
-	inline static constexpr unsigned int BlackItem_TypeDefinitionIndex = 69743;
+	inline static constexpr unsigned int BlackItem_TypeDefinitionIndex = 89325;
 
 	class BlackItem : public ::System::Object
 	{

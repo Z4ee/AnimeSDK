@@ -3,45 +3,45 @@
 #include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/FlowCanvas/Nodes/FlowControlNode.h"
 
-class Class_1_8E6394891B1A4CC4;
+class Class_1_832D46E76C8F7302;
 namespace FlowCanvas { class FlowInput; }
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCHESSINPERFORMANCE_DOCHESSBOARDPERFORM_OFFSET UNITYSDK_OFFSET(0x15110CE0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCHESSINPERFORMANCE_MUTEINPUT_OFFSET UNITYSDK_OFFSET(0x15111380)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCHESSINPERFORMANCE_ONCUTSCENEDESTROY_OFFSET UNITYSDK_OFFSET(0x15110FC0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCHESSINPERFORMANCE_ONCUTSCENEFINISH_OFFSET UNITYSDK_OFFSET(0x15111040)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCHESSINPERFORMANCE_PROCESSUIFADEIN_OFFSET UNITYSDK_OFFSET(0x15111000)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCHESSINPERFORMANCE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x15110840)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCHESSINPERFORMANCE_SETUPUI_OFFSET UNITYSDK_OFFSET(0x151110E0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCHESSINPERFORMANCE_START_OFFSET UNITYSDK_OFFSET(0x151109C0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCHESSINPERFORMANCE__CCTOR_OFFSET UNITYSDK_OFFSET(0x15111A40)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCHESSINPERFORMANCE__CTOR_OFFSET UNITYSDK_OFFSET(0x15111A00)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCHESSINPERFORMANCE__DOCHESSBOARDPERFORM_B__12_0_OFFSET UNITYSDK_OFFSET(0x15111AB0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCHESSINPERFORMANCE__REGISTERPORTS_B__10_0_OFFSET UNITYSDK_OFFSET(0x15111A80)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCHESSINPERFORMANCE_DOCHESSBOARDPERFORM_OFFSET UNITYSDK_OFFSET(0x1B19C3D0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCHESSINPERFORMANCE_MUTEINPUT_OFFSET UNITYSDK_OFFSET(0x1B19CA60)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCHESSINPERFORMANCE_ONCUTSCENEDESTROY_OFFSET UNITYSDK_OFFSET(0x1B19C6B0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCHESSINPERFORMANCE_ONCUTSCENEFINISH_OFFSET UNITYSDK_OFFSET(0x1B19C730)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCHESSINPERFORMANCE_PROCESSUIFADEIN_OFFSET UNITYSDK_OFFSET(0x1B19C6F0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCHESSINPERFORMANCE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1B19BF40)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCHESSINPERFORMANCE_SETUPUI_OFFSET UNITYSDK_OFFSET(0x1B19C7D0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCHESSINPERFORMANCE_START_OFFSET UNITYSDK_OFFSET(0x1B19C0C0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCHESSINPERFORMANCE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B19D120)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCHESSINPERFORMANCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B19D0E0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCHESSINPERFORMANCE__DOCHESSBOARDPERFORM_B__12_0_OFFSET UNITYSDK_OFFSET(0x1B19D190)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCHESSINPERFORMANCE__REGISTERPORTS_B__10_0_OFFSET UNITYSDK_OFFSET(0x1B19D160)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDChessInPerformance_TypeDefinitionIndex = 46290;
+	inline static constexpr unsigned int LDChessInPerformance_TypeDefinitionIndex = 89874;
 
 	class LDChessInPerformance : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
 		static ::System::String** StaticGet_setupTag()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(LDChessInPerformance_TypeDefinitionIndex)->GetStaticField(0x40F10);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(LDChessInPerformance_TypeDefinitionIndex)->GetStaticField(0x42540);
 		}
-		::FlowCanvas::FlowInput* input; // 0xA8
-		::FlowCanvas::FlowOutput* successOutput; // 0xB0
-		::Class_1_8E6394891B1A4CC4* cachedShotTask; // 0xB8
-		::FlowCanvas::ValueInput_1<::System::String*>* cutSceneIdInput; // 0xC0
-		::FlowCanvas::FlowOutput* output; // 0xC8
-		::FlowCanvas::ValueInput_1<::System::Boolean>* isGroupDataInput; // 0xD0
-		::FlowCanvas::FlowOutput* noChessBoardOutput; // 0xD8
-		::FlowCanvas::ValueInput_1<::System::Collections::Generic::List_1<::System::String*>*>* cutScenePointsInput; // 0xE0
+		::FlowCanvas::ValueInput_1<::System::String*>* cutSceneIdInput; // 0xA8
+		::FlowCanvas::FlowOutput* output; // 0xB0
+		::FlowCanvas::ValueInput_1<::System::Boolean>* isGroupDataInput; // 0xB8
+		::FlowCanvas::ValueInput_1<::System::Collections::Generic::List_1<::System::String*>*>* cutScenePointsInput; // 0xC0
+		::FlowCanvas::FlowInput* input; // 0xC8
+		::FlowCanvas::FlowOutput* noChessBoardOutput; // 0xD0
+		::FlowCanvas::FlowOutput* successOutput; // 0xD8
+		::Class_1_832D46E76C8F7302* cachedShotTask; // 0xE0
 		::System::Boolean muteInputState; // 0xE8
 
 		::System::Void _ctor()
@@ -99,9 +99,9 @@ namespace MoleMole::FlowCanvas::Nodes
 			return ((::System::Void(*)(::PVOID, ::FlowCanvas::Flow))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LDCHESSINPERFORMANCE__REGISTERPORTS_B__10_0_OFFSET))(this, f);
 		}
 
-		::System::Void _DoChessBoardPerform_b__12_0(::Class_1_8E6394891B1A4CC4* task)
+		::System::Void _DoChessBoardPerform_b__12_0(::Class_1_832D46E76C8F7302* task)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_8E6394891B1A4CC4*))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LDCHESSINPERFORMANCE__DOCHESSBOARDPERFORM_B__12_0_OFFSET))(this, task);
+			return ((::System::Void(*)(::PVOID, ::Class_1_832D46E76C8F7302*))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LDCHESSINPERFORMANCE__DOCHESSBOARDPERFORM_B__12_0_OFFSET))(this, task);
 		}
 	};
 }

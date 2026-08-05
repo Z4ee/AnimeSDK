@@ -5,10 +5,10 @@
 namespace MoleMole { class UIMiddleTip; }
 namespace System { template <typename T> class WeakReference_1; }
 
-#define STRUCT_2_4D85C055488FC11D_DISPOSE_OFFSET UNITYSDK_OFFSET(0x79AEC0)
-#define STRUCT_2_4D85C055488FC11D__CTOR_OFFSET UNITYSDK_OFFSET(0x79AE10)
+#define STRUCT_2_4D85C055488FC11D_DISPOSE_OFFSET UNITYSDK_OFFSET(0x80FAB0)
+#define STRUCT_2_4D85C055488FC11D__CTOR_OFFSET UNITYSDK_OFFSET(0x80FA00)
 
-inline static constexpr unsigned int Struct_2_4D85C055488FC11D_TypeDefinitionIndex = 86147;
+inline static constexpr unsigned int Struct_2_4D85C055488FC11D_TypeDefinitionIndex = 43323;
 
 struct alignas(8) Struct_2_4D85C055488FC11D
 {

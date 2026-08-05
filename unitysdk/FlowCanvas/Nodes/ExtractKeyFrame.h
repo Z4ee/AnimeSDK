@@ -3,12 +3,12 @@
 #include "unitysdk/FlowCanvas/Nodes/ExtractorNode_5.h"
 #include "unitysdk/UnityEngine/Keyframe.h"
 
-#define FLOWCANVAS_NODES_EXTRACTKEYFRAME_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BC414B0)
-#define FLOWCANVAS_NODES_EXTRACTKEYFRAME__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC414E0)
+#define FLOWCANVAS_NODES_EXTRACTKEYFRAME_INVOKE_OFFSET UNITYSDK_OFFSET(0x1DB24820)
+#define FLOWCANVAS_NODES_EXTRACTKEYFRAME__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB24850)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int ExtractKeyFrame_TypeDefinitionIndex = 29847;
+	inline static constexpr unsigned int ExtractKeyFrame_TypeDefinitionIndex = 30848;
 
 	class ExtractKeyFrame : public ::FlowCanvas::Nodes::ExtractorNode_5<::UnityEngine::Keyframe, ::System::Single, ::System::Single, ::System::Single, ::System::Single>
 	{

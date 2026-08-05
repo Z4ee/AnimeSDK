@@ -4,7 +4,7 @@
 
 namespace UnrealTypes
 {
-	inline static constexpr unsigned int CppStructOpsBase_1_CppStructCapabilities_TypeDefinitionIndex = 27716;
+	inline static constexpr unsigned int CppStructOpsBase_1_CppStructCapabilities_TypeDefinitionIndex = 28319;
 
 	template <typename T>
 	struct CppStructOpsBase_1_CppStructCapabilities

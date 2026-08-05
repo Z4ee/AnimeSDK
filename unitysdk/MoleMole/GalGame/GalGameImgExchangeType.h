@@ -3,7 +3,7 @@
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int GalGameImgExchangeType_TypeDefinitionIndex = 42041;
+	inline static constexpr unsigned int GalGameImgExchangeType_TypeDefinitionIndex = 67268;
 
 	enum class GalGameImgExchangeType : ::System::Int32
 	{

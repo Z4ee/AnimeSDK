@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int PBDUpdateStage_TypeDefinitionIndex = 18740;
+	inline static constexpr unsigned int PBDUpdateStage_TypeDefinitionIndex = 19149;
 
 	enum class PBDUpdateStage : ::System::Int32
 	{

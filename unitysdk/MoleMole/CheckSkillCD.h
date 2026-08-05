@@ -7,22 +7,22 @@ class Class_3_B9D5951434CC70FD;
 namespace MoleMole { class SharedGameEntity; }
 namespace MoleMole::Battle { class Entity; }
 
-#define MOLEMOLE_CHECKSKILLCD_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x16292680)
-#define MOLEMOLE_CHECKSKILLCD_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x16292830)
-#define MOLEMOLE_CHECKSKILLCD__CTOR_OFFSET UNITYSDK_OFFSET(0x162928A0)
-#define MOLEMOLE_CHECKSKILLCD___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x16292930)
-#define MOLEMOLE_CHECKSKILLCD___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x162929C0)
+#define MOLEMOLE_CHECKSKILLCD_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x16C24E10)
+#define MOLEMOLE_CHECKSKILLCD_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x16C24FC0)
+#define MOLEMOLE_CHECKSKILLCD__CTOR_OFFSET UNITYSDK_OFFSET(0x16C25030)
+#define MOLEMOLE_CHECKSKILLCD___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x16C250C0)
+#define MOLEMOLE_CHECKSKILLCD___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x16C25150)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CheckSkillCD_TypeDefinitionIndex = 50603;
+	inline static constexpr unsigned int CheckSkillCD_TypeDefinitionIndex = 42488;
 
 	class CheckSkillCD : public ::BehaviorDesigner::Runtime::Tasks::Conditional
 	{
 	public:
-		::MoleMole::SharedGameEntity* sharedOwnerEntity; // 0x50
+		::Class_3_B9D5951434CC70FD* _skillComponent; // 0x50
 		::MoleMole::Battle::Entity* _ownerEntity; // 0x58
-		::Class_3_B9D5951434CC70FD* _skillComponent; // 0x60
+		::MoleMole::SharedGameEntity* sharedOwnerEntity; // 0x60
 		::System::Int32 skillBtnIndex; // 0x68
 
 		::System::Void _ctor()

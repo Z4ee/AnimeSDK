@@ -7,29 +7,29 @@ namespace MoleMole { class ScrollViewItemWidgetController; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_UIBPREWARDINFOWIDGETWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x176C9170)
-#define MOLEMOLE_UIBPREWARDINFOWIDGETWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x176C91B0)
-#define MOLEMOLE_UIBPREWARDINFOWIDGETWIDGETCONTROLLER___C__SCROLLVIEWSLIDETOTARGETONOPEN_B__22_0_OFFSET UNITYSDK_OFFSET(0x176C91C0)
-#define MOLEMOLE_UIBPREWARDINFOWIDGETWIDGETCONTROLLER___C__SCROLLVIEWSLIDETOTARGETONOPEN_B__22_1_OFFSET UNITYSDK_OFFSET(0x176C91E0)
+#define MOLEMOLE_UIBPREWARDINFOWIDGETWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18BF75F0)
+#define MOLEMOLE_UIBPREWARDINFOWIDGETWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18BF7630)
+#define MOLEMOLE_UIBPREWARDINFOWIDGETWIDGETCONTROLLER___C__SCROLLVIEWSLIDETOTARGETONOPEN_B__22_0_OFFSET UNITYSDK_OFFSET(0x18BF7640)
+#define MOLEMOLE_UIBPREWARDINFOWIDGETWIDGETCONTROLLER___C__SCROLLVIEWSLIDETOTARGETONOPEN_B__22_1_OFFSET UNITYSDK_OFFSET(0x18BF7660)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBPRewardInfoWidgetWidgetController___c_TypeDefinitionIndex = 47095;
+	inline static constexpr unsigned int UIBPRewardInfoWidgetWidgetController___c_TypeDefinitionIndex = 67131;
 
 	class UIBPRewardInfoWidgetWidgetController___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::GameObject*, ::MoleMole::ScrollViewItemWidgetController*>, ::System::Int32>** StaticGet___9__22_1()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::GameObject*, ::MoleMole::ScrollViewItemWidgetController*>, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIBPRewardInfoWidgetWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3C880);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::GameObject*, ::MoleMole::ScrollViewItemWidgetController*>, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIBPRewardInfoWidgetWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x48FC0);
 		}
 		static ::MoleMole::UIBPRewardInfoWidgetWidgetController___c** StaticGet___9()
 		{
-			return (::MoleMole::UIBPRewardInfoWidgetWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIBPRewardInfoWidgetWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3C888);
+			return (::MoleMole::UIBPRewardInfoWidgetWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIBPRewardInfoWidgetWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x48FC8);
 		}
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::GameObject*, ::MoleMole::ScrollViewItemWidgetController*>, ::System::Int32>** StaticGet___9__22_0()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::GameObject*, ::MoleMole::ScrollViewItemWidgetController*>, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIBPRewardInfoWidgetWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3C890);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::GameObject*, ::MoleMole::ScrollViewItemWidgetController*>, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIBPRewardInfoWidgetWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x48FD0);
 		}
 
 		static ::System::Void _cctor()

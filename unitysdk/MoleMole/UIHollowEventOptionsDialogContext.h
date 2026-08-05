@@ -7,19 +7,19 @@ class Class_2_DF73794ED874FFFB;
 class Class_3_DF51DE504C82D3C3;
 class Class_6_A8BCD8ACC39B5611;
 
-#define MOLEMOLE_UIHOLLOWEVENTOPTIONSDIALOGCONTEXT_CONTAINSCHOICE_OFFSET UNITYSDK_OFFSET(0x1881F200)
-#define MOLEMOLE_UIHOLLOWEVENTOPTIONSDIALOGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1881F410)
+#define MOLEMOLE_UIHOLLOWEVENTOPTIONSDIALOGCONTEXT_CONTAINSCHOICE_OFFSET UNITYSDK_OFFSET(0x19F18920)
+#define MOLEMOLE_UIHOLLOWEVENTOPTIONSDIALOGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x19F18B30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowEventOptionsDialogContext_TypeDefinitionIndex = 79839;
+	inline static constexpr unsigned int UIHollowEventOptionsDialogContext_TypeDefinitionIndex = 84319;
 
 	class UIHollowEventOptionsDialogContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_3_DF51DE504C82D3C3* Config; // 0x28
+		::Class_6_A8BCD8ACC39B5611* ChoiceNode; // 0x28
 		::Class_2_DF73794ED874FFFB* graph; // 0x30
-		::Class_6_A8BCD8ACC39B5611* ChoiceNode; // 0x38
+		::Class_3_DF51DE504C82D3C3* Config; // 0x38
 		::Enum_3_9BF81AE22E7B99D1 showMode; // 0x40
 
 		::System::Void _ctor()

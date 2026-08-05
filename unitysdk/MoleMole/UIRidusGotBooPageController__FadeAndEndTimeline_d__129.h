@@ -7,18 +7,18 @@
 namespace MoleMole { class UIRidusGotBooPageController; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define MOLEMOLE_UIRIDUSGOTBOOPAGECONTROLLER__FADEANDENDTIMELINE_D__129_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x7F7540)
-#define MOLEMOLE_UIRIDUSGOTBOOPAGECONTROLLER__FADEANDENDTIMELINE_D__129_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x283610)
+#define MOLEMOLE_UIRIDUSGOTBOOPAGECONTROLLER__FADEANDENDTIMELINE_D__129_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x84CC40)
+#define MOLEMOLE_UIRIDUSGOTBOOPAGECONTROLLER__FADEANDENDTIMELINE_D__129_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x296F30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRidusGotBooPageController__FadeAndEndTimeline_d__129_TypeDefinitionIndex = 40705;
+	inline static constexpr unsigned int UIRidusGotBooPageController__FadeAndEndTimeline_d__129_TypeDefinitionIndex = 91556;
 
 	struct alignas(8) UIRidusGotBooPageController__FadeAndEndTimeline_d__129
 	{
-		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x10
-		::MoleMole::UIRidusGotBooPageController* __4__this; // 0x20
-		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskVoidMethodBuilder __t__builder; // 0x28
+		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskVoidMethodBuilder __t__builder; // 0x10
+		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x18
+		::MoleMole::UIRidusGotBooPageController* __4__this; // 0x28
 		::System::Int32 __1__state; // 0x30
 
 		::System::Void MoveNext()

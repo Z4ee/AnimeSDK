@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_UIACTIVITYSKINREWARDWIDGETCONTROLLER___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x161235C0)
-#define MOLEMOLE_UIACTIVITYSKINREWARDWIDGETCONTROLLER___C__DISPLAYCLASS7_0__SETSKINREWARDSTATE_B__0_OFFSET UNITYSDK_OFFSET(0x161235D0)
+#define MOLEMOLE_UIACTIVITYSKINREWARDWIDGETCONTROLLER___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19284070)
+#define MOLEMOLE_UIACTIVITYSKINREWARDWIDGETCONTROLLER___C__DISPLAYCLASS7_0__SETSKINREWARDSTATE_B__0_OFFSET UNITYSDK_OFFSET(0x19284080)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivitySkinRewardWidgetController___c__DisplayClass7_0_TypeDefinitionIndex = 55705;
+	inline static constexpr unsigned int UIActivitySkinRewardWidgetController___c__DisplayClass7_0_TypeDefinitionIndex = 70317;
 
 	class UIActivitySkinRewardWidgetController___c__DisplayClass7_0 : public ::System::Object
 	{

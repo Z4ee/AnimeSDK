@@ -3,12 +3,12 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIFoodTruckMenuPageController_EOrderType_TypeDefinitionIndex = 63718;
+	inline static constexpr unsigned int UIFoodTruckMenuPageController_EOrderType_TypeDefinitionIndex = 49783;
 
 	enum class UIFoodTruckMenuPageController_EOrderType : ::System::Int32
 	{
-		McDay = 3,
-		McFirst = 2,
 		Normal = 1,
+		McFirst = 2,
+		McDay = 3,
 	};
 }

@@ -7,20 +7,20 @@ namespace MoleMole::Config { class ConfigFocusCameraEntry; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGFOCUSCAMERA_CLEAN_OFFSET UNITYSDK_OFFSET(0x17D56410)
-#define MOLEMOLE_CONFIG_CONFIGFOCUSCAMERA_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x17D56160)
-#define MOLEMOLE_CONFIG_CONFIGFOCUSCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x17D56460)
+#define MOLEMOLE_CONFIG_CONFIGFOCUSCAMERA_CLEAN_OFFSET UNITYSDK_OFFSET(0x172A55D0)
+#define MOLEMOLE_CONFIG_CONFIGFOCUSCAMERA_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x172A5320)
+#define MOLEMOLE_CONFIG_CONFIGFOCUSCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x172A5620)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigFocusCamera_TypeDefinitionIndex = 53452;
+	inline static constexpr unsigned int ConfigFocusCamera_TypeDefinitionIndex = 83007;
 
 	class ConfigFocusCamera : public ::Foundation::MihoyoSerializedScriptableObject
 	{
 	public:
 		static ::MoleMole::Config::ConfigFocusCamera** StaticGet__config()
 		{
-			return (::MoleMole::Config::ConfigFocusCamera**)Il2CppClass::FromTypeDefinitionIndex(ConfigFocusCamera_TypeDefinitionIndex)->GetStaticField(0x3E930);
+			return (::MoleMole::Config::ConfigFocusCamera**)Il2CppClass::FromTypeDefinitionIndex(ConfigFocusCamera_TypeDefinitionIndex)->GetStaticField(0x3F640);
 		}
 		// static const ::System::String* Path; // 0x0
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::Config::ConfigFocusCameraEntry*>* focusCameraConfigMap; // 0x58

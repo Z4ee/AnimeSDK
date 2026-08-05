@@ -4,20 +4,20 @@
 
 namespace UnrealTypes { class ICppStructOps; }
 
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_LOOKATIKTASK___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD932090)
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_LOOKATIKTASK___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD9320D0)
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_LOOKATIKTASK___C___CCTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0xD9320E0)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_LOOKATIKTASK___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD888300)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_LOOKATIKTASK___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD888340)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_LOOKATIKTASK___C___CCTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0xD888350)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_LookAtIKTask___c_TypeDefinitionIndex = 64758;
+	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_LookAtIKTask___c_TypeDefinitionIndex = 63604;
 
 	class RegistrationInfo_ScriptStruct_LookAtIKTask___c : public ::System::Object
 	{
 	public:
 		static ::NPCCrowd::Ability::RegistrationInfo_ScriptStruct_LookAtIKTask___c** StaticGet___9()
 		{
-			return (::NPCCrowd::Ability::RegistrationInfo_ScriptStruct_LookAtIKTask___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_LookAtIKTask___c_TypeDefinitionIndex)->GetStaticField(0x4B360);
+			return (::NPCCrowd::Ability::RegistrationInfo_ScriptStruct_LookAtIKTask___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_LookAtIKTask___c_TypeDefinitionIndex)->GetStaticField(0x4C850);
 		}
 
 		static ::System::Void _cctor()

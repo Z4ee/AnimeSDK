@@ -3,7 +3,7 @@
 
 namespace UnityEngine::XR
 {
-	inline static constexpr unsigned int InputFeatureType_TypeDefinitionIndex = 27638;
+	inline static constexpr unsigned int InputFeatureType_TypeDefinitionIndex = 28240;
 
 	enum class InputFeatureType : ::System::UInt32
 	{

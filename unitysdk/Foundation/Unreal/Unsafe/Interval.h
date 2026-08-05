@@ -3,25 +3,25 @@
 #include "unitysdk/Foundation/Unreal/Unsafe/IntervalBound.h"
 #include "unitysdk/System/ValueType.h"
 
-#define FOUNDATION_UNREAL_UNSAFE_INTERVAL_INCLUSIVE_OFFSET UNITYSDK_OFFSET(0x1E826CD0)
-#define FOUNDATION_UNREAL_UNSAFE_INTERVAL_OP_IMPLICIT_1_OFFSET UNITYSDK_OFFSET(0x1E826FA0)
-#define FOUNDATION_UNREAL_UNSAFE_INTERVAL_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1E826D50)
-#define FOUNDATION_UNREAL_UNSAFE_INTERVAL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E827200)
-#define FOUNDATION_UNREAL_UNSAFE_INTERVAL__CTOR_OFFSET UNITYSDK_OFFSET(0x2BDE80)
+#define FOUNDATION_UNREAL_UNSAFE_INTERVAL_INCLUSIVE_OFFSET UNITYSDK_OFFSET(0x1FC0C160)
+#define FOUNDATION_UNREAL_UNSAFE_INTERVAL_OP_IMPLICIT_1_OFFSET UNITYSDK_OFFSET(0x1FC0C430)
+#define FOUNDATION_UNREAL_UNSAFE_INTERVAL_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1FC0C1E0)
+#define FOUNDATION_UNREAL_UNSAFE_INTERVAL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FC0C690)
+#define FOUNDATION_UNREAL_UNSAFE_INTERVAL__CTOR_OFFSET UNITYSDK_OFFSET(0x346F70)
 
 namespace Foundation::Unreal::Unsafe
 {
-	inline static constexpr unsigned int Interval_TypeDefinitionIndex = 8625;
+	inline static constexpr unsigned int Interval_TypeDefinitionIndex = 8883;
 
 	struct alignas(4) Interval
 	{
 		static ::Foundation::Unreal::Unsafe::Interval* StaticGet_All()
 		{
-			return (::Foundation::Unreal::Unsafe::Interval*)Il2CppClass::FromTypeDefinitionIndex(Interval_TypeDefinitionIndex)->GetStaticField(0x3C10);
+			return (::Foundation::Unreal::Unsafe::Interval*)Il2CppClass::FromTypeDefinitionIndex(Interval_TypeDefinitionIndex)->GetStaticField(0x3C30);
 		}
 		static ::Foundation::Unreal::Unsafe::Interval* StaticGet_Empty()
 		{
-			return (::Foundation::Unreal::Unsafe::Interval*)Il2CppClass::FromTypeDefinitionIndex(Interval_TypeDefinitionIndex)->GetStaticField(0x3C20);
+			return (::Foundation::Unreal::Unsafe::Interval*)Il2CppClass::FromTypeDefinitionIndex(Interval_TypeDefinitionIndex)->GetStaticField(0x3C40);
 		}
 		::Foundation::Unreal::Unsafe::IntervalBound _lowerBound; // 0x10
 		::Foundation::Unreal::Unsafe::IntervalBound _upperBound; // 0x18

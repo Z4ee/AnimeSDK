@@ -5,12 +5,12 @@
 
 namespace NPCCrowd::Ability { class NPCAbilityRuntimeData; }
 
-#define NPCCROWD_ABILITY_BEFORENAVMESHCOMBINEPROCESSOR_EXECUTE_OFFSET UNITYSDK_OFFSET(0x10298670)
-#define NPCCROWD_ABILITY_BEFORENAVMESHCOMBINEPROCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x10298CB0)
+#define NPCCROWD_ABILITY_BEFORENAVMESHCOMBINEPROCESSOR_EXECUTE_OFFSET UNITYSDK_OFFSET(0xE5571D0)
+#define NPCCROWD_ABILITY_BEFORENAVMESHCOMBINEPROCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0xE5576C0)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int BeforeNavMeshCombineProcessor_TypeDefinitionIndex = 73441;
+	inline static constexpr unsigned int BeforeNavMeshCombineProcessor_TypeDefinitionIndex = 71108;
 
 	class BeforeNavMeshCombineProcessor : public ::System::Object
 	{

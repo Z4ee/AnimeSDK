@@ -4,12 +4,12 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UIHOLLOWEVENTWIDGETCHILDWINDOWCONTROLLER___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1881F460)
-#define MOLEMOLE_UIHOLLOWEVENTWIDGETCHILDWINDOWCONTROLLER___C__DISPLAYCLASS27_0__PLAYDETAILFADEOUT_B__0_OFFSET UNITYSDK_OFFSET(0x1881F470)
+#define MOLEMOLE_UIHOLLOWEVENTWIDGETCHILDWINDOWCONTROLLER___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19F18B80)
+#define MOLEMOLE_UIHOLLOWEVENTWIDGETCHILDWINDOWCONTROLLER___C__DISPLAYCLASS27_0__PLAYDETAILFADEOUT_B__0_OFFSET UNITYSDK_OFFSET(0x19F18B90)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowEventWidgetChildWindowController___c__DisplayClass27_0_TypeDefinitionIndex = 56242;
+	inline static constexpr unsigned int UIHollowEventWidgetChildWindowController___c__DisplayClass27_0_TypeDefinitionIndex = 77971;
 
 	class UIHollowEventWidgetChildWindowController___c__DisplayClass27_0 : public ::System::Object
 	{

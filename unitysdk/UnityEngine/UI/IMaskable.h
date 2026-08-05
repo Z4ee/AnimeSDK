@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int IMaskable_TypeDefinitionIndex = 18876;
+	inline static constexpr unsigned int IMaskable_TypeDefinitionIndex = 19218;
 
 	class IMaskable
 	{

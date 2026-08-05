@@ -7,12 +7,12 @@ namespace ExpressionV2 { class ExpressionCompiler; }
 namespace ExpressionV2 { class ExpressionEvalContext; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define EXPRESSIONV2_EXPRESSIONEVALUATOR_EVALRPN_OFFSET UNITYSDK_OFFSET(0x15A0B8D0)
-#define EXPRESSIONV2_EXPRESSIONEVALUATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x15A0C330)
+#define EXPRESSIONV2_EXPRESSIONEVALUATOR_EVALRPN_OFFSET UNITYSDK_OFFSET(0x147ECA60)
+#define EXPRESSIONV2_EXPRESSIONEVALUATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x147ED4C0)
 
 namespace ExpressionV2
 {
-	inline static constexpr unsigned int ExpressionEvaluator_TypeDefinitionIndex = 53117;
+	inline static constexpr unsigned int ExpressionEvaluator_TypeDefinitionIndex = 84043;
 
 	class ExpressionEvaluator : public ::System::Object
 	{

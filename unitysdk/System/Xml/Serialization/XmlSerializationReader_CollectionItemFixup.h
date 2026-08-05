@@ -5,7 +5,7 @@
 namespace System { class Array; }
 namespace System { class String; }
 
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONREADER_COLLECTIONITEMFIXUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1CA29BD0)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONREADER_COLLECTIONITEMFIXUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1DE3C8C0)
 
 namespace System::Xml::Serialization
 {
@@ -14,8 +14,8 @@ namespace System::Xml::Serialization
 	class XmlSerializationReader_CollectionItemFixup : public ::System::Object
 	{
 	public:
-		::System::String* id; // 0x10
-		::System::Array* list; // 0x18
+		::System::Array* list; // 0x10
+		::System::String* id; // 0x18
 		::System::Int32 index; // 0x20
 
 		::System::Void _ctor(::System::Array* list, ::System::Int32 index, ::System::String* id)

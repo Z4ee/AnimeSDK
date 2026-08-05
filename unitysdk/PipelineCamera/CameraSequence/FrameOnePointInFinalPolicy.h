@@ -4,11 +4,11 @@
 #include "unitysdk/PipelineCamera/FinalCameraData.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define PIPELINECAMERA_CAMERASEQUENCE_FRAMEONEPOINTINFINALPOLICY__CTOR_OFFSET UNITYSDK_OFFSET(0x1D233F40)
+#define PIPELINECAMERA_CAMERASEQUENCE_FRAMEONEPOINTINFINALPOLICY__CTOR_OFFSET UNITYSDK_OFFSET(0x1E5CA370)
 
 namespace PipelineCamera::CameraSequence
 {
-	inline static constexpr unsigned int FrameOnePointInFinalPolicy_TypeDefinitionIndex = 37907;
+	inline static constexpr unsigned int FrameOnePointInFinalPolicy_TypeDefinitionIndex = 38568;
 
 	class FrameOnePointInFinalPolicy : public ::PipelineCamera::CameraSequence::CameraSequenceRuntimeDataProvider_2<::PipelineCamera::FinalCameraData, ::UnityEngine::Vector3>
 	{

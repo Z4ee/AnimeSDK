@@ -3,12 +3,12 @@
 #include "unitysdk/Enum_3_133B62C3E053DEAA.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_BATTLE_MUSICBATTLESUBSYSTEM___C__DISPLAYCLASS63_0__CTOR_OFFSET UNITYSDK_OFFSET(0x10CCF920)
-#define MOLEMOLE_BATTLE_MUSICBATTLESUBSYSTEM___C__DISPLAYCLASS63_0__SENDRESULT_B__0_OFFSET UNITYSDK_OFFSET(0x10CCF930)
+#define MOLEMOLE_BATTLE_MUSICBATTLESUBSYSTEM___C__DISPLAYCLASS63_0__CTOR_OFFSET UNITYSDK_OFFSET(0x116CB490)
+#define MOLEMOLE_BATTLE_MUSICBATTLESUBSYSTEM___C__DISPLAYCLASS63_0__SENDRESULT_B__0_OFFSET UNITYSDK_OFFSET(0x116CB4A0)
 
 namespace MoleMole::Battle
 {
-	inline static constexpr unsigned int MusicBattleSubSystem___c__DisplayClass63_0_TypeDefinitionIndex = 81419;
+	inline static constexpr unsigned int MusicBattleSubSystem___c__DisplayClass63_0_TypeDefinitionIndex = 69620;
 
 	class MusicBattleSubSystem___c__DisplayClass63_0 : public ::System::Object
 	{

@@ -5,12 +5,12 @@
 class Class_1_D72537470FC2F779;
 namespace MoleMole::Config { class IntUISpecialNum; }
 
-#define MOLEMOLE_CONFIG_CONFIGPLAYCUSTOMSOUNDANDBGMNODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0xE978B30)
-#define MOLEMOLE_CONFIG_CONFIGPLAYCUSTOMSOUNDANDBGMNODE__CTOR_OFFSET UNITYSDK_OFFSET(0xE978BA0)
+#define MOLEMOLE_CONFIG_CONFIGPLAYCUSTOMSOUNDANDBGMNODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0xF147DA0)
+#define MOLEMOLE_CONFIG_CONFIGPLAYCUSTOMSOUNDANDBGMNODE__CTOR_OFFSET UNITYSDK_OFFSET(0xF147E10)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigPlayCustomSoundAndBGMNode_TypeDefinitionIndex = 71698;
+	inline static constexpr unsigned int ConfigPlayCustomSoundAndBGMNode_TypeDefinitionIndex = 64297;
 
 	class ConfigPlayCustomSoundAndBGMNode : public ::MoleMole::Config::ConfigUIBaseActionNode
 	{

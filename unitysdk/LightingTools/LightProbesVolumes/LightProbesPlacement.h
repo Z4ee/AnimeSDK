@@ -4,7 +4,7 @@
 
 namespace LightingTools::LightProbesVolumes
 {
-	inline static constexpr unsigned int LightProbesPlacement_TypeDefinitionIndex = 90512;
+	inline static constexpr unsigned int LightProbesPlacement_TypeDefinitionIndex = 94444;
 
 	class LightProbesPlacement : public ::System::Object
 	{

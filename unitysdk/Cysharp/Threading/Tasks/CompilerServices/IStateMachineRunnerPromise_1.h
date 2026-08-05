@@ -7,7 +7,7 @@ namespace System { class Exception; }
 
 namespace Cysharp::Threading::Tasks::CompilerServices
 {
-	inline static constexpr unsigned int IStateMachineRunnerPromise_1_TypeDefinitionIndex = 31494;
+	inline static constexpr unsigned int IStateMachineRunnerPromise_1_TypeDefinitionIndex = 32114;
 
 	template <typename T>
 	class IStateMachineRunnerPromise_1

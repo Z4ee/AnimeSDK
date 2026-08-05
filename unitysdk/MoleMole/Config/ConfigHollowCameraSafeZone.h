@@ -7,11 +7,11 @@
 
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCAMERASAFEZONE_GETBORDER_OFFSET UNITYSDK_OFFSET(0x86CE10)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCAMERASAFEZONE_GETBORDER_OFFSET UNITYSDK_OFFSET(0x802720)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowCameraSafeZone_TypeDefinitionIndex = 78602;
+	inline static constexpr unsigned int ConfigHollowCameraSafeZone_TypeDefinitionIndex = 88798;
 
 	struct alignas(8) ConfigHollowCameraSafeZone
 	{

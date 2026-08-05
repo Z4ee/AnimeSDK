@@ -1,24 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_3_9FECFFDCD4C7F3C8_Enum_3_84526A4A828ACE18_TypeDefinitionIndex = 60648;
+inline static constexpr unsigned int Class_3_9FECFFDCD4C7F3C8_Enum_3_84526A4A828ACE18_TypeDefinitionIndex = 75160;
 
 enum class Class_3_9FECFFDCD4C7F3C8_Enum_3_84526A4A828ACE18 : ::System::Int32
 {
-	UseHpBottleOnce = 9,
-	StunAttackOnce = 15,
-	UseGoodsSkillOnce = 6,
-	AttackOnce = 1,
-	QTEOnce = 10,
-	UseGoodsCardOnce = 7,
-	UseGoodsNormalOnce = 5,
 	DogeDummySuccessAttackOnce = 13,
-	ConsecutiveKillOnece = 11,
+	UseHpBottleOnce = 9,
+	UseGoodsCardOnce = 7,
+	QTEOnce = 10,
+	FinishBattleOnce = 4,
+	OpenChestOnce = 8,
 	DogeDummySuccessOnce = 12,
 	None = 0,
-	BehindAttackOnce = 14,
-	OpenChestOnce = 8,
+	ConsecutiveKillOnece = 11,
+	UseGoodsNormalOnce = 5,
 	HitOnce = 3,
-	FinishBattleOnce = 4,
 	KillOnce = 2,
+	UseGoodsSkillOnce = 6,
+	StunAttackOnce = 15,
+	AttackOnce = 1,
+	BehindAttackOnce = 14,
 };

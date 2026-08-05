@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYOEMOTION_ELEMENTMANAGER_BASESHAPERUNTIME__CTOR_OFFSET UNITYSDK_OFFSET(0x1BAF79C0)
+#define MIHOYOEMOTION_ELEMENTMANAGER_BASESHAPERUNTIME__CTOR_OFFSET UNITYSDK_OFFSET(0x1D03A3F0)
 
 namespace miHoYoEmotion
 {
-	inline static constexpr unsigned int ElementManager_BaseShapeRuntime_TypeDefinitionIndex = 39409;
+	inline static constexpr unsigned int ElementManager_BaseShapeRuntime_TypeDefinitionIndex = 40027;
 
 	class ElementManager_BaseShapeRuntime : public ::System::Object
 	{

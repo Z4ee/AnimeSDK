@@ -8,7 +8,7 @@ namespace Nap::NapECS { class EcsWorld; }
 
 namespace Nap::NapECS
 {
-	inline static constexpr unsigned int ReadAccessRequest_1_TypeDefinitionIndex = 37261;
+	inline static constexpr unsigned int ReadAccessRequest_1_TypeDefinitionIndex = 38006;
 
 	template <typename T>
 	class ReadAccessRequest_1 : public ::System::Object

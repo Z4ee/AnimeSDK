@@ -4,24 +4,24 @@
 
 namespace System { template <typename T> class Comparison_1; }
 
-#define MOLEMOLE_UIACTIVITYHOTPOTDELETECARDPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x183CCF90)
-#define MOLEMOLE_UIACTIVITYHOTPOTDELETECARDPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x183CCFD0)
-#define MOLEMOLE_UIACTIVITYHOTPOTDELETECARDPOPWINDOWCONTROLLER___C__ONCONFIRMBTNCLICK_B__17_0_OFFSET UNITYSDK_OFFSET(0x183CCFE0)
+#define MOLEMOLE_UIACTIVITYHOTPOTDELETECARDPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x11DA5E40)
+#define MOLEMOLE_UIACTIVITYHOTPOTDELETECARDPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x11DA5E80)
+#define MOLEMOLE_UIACTIVITYHOTPOTDELETECARDPOPWINDOWCONTROLLER___C__ONCONFIRMBTNCLICK_B__17_0_OFFSET UNITYSDK_OFFSET(0x11DA5E90)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityHotPotDeleteCardPopWindowController___c_TypeDefinitionIndex = 59764;
+	inline static constexpr unsigned int UIActivityHotPotDeleteCardPopWindowController___c_TypeDefinitionIndex = 60271;
 
 	class UIActivityHotPotDeleteCardPopWindowController___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::UIActivityHotPotDeleteCardPopWindowController___c** StaticGet___9()
-		{
-			return (::MoleMole::UIActivityHotPotDeleteCardPopWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UIActivityHotPotDeleteCardPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x46A70);
-		}
 		static ::System::Comparison_1<::System::Int32>** StaticGet___9__17_0()
 		{
-			return (::System::Comparison_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIActivityHotPotDeleteCardPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x46A78);
+			return (::System::Comparison_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIActivityHotPotDeleteCardPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x4FEA0);
+		}
+		static ::MoleMole::UIActivityHotPotDeleteCardPopWindowController___c** StaticGet___9()
+		{
+			return (::MoleMole::UIActivityHotPotDeleteCardPopWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UIActivityHotPotDeleteCardPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x4FEA8);
 		}
 
 		static ::System::Void _cctor()

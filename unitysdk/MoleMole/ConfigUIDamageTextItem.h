@@ -4,11 +4,11 @@
 
 namespace MoleMole { class ConfigUICommon_DamageText; }
 
-#define MOLEMOLE_CONFIGUIDAMAGETEXTITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1B21E2F0)
+#define MOLEMOLE_CONFIGUIDAMAGETEXTITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1C529040)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUIDamageTextItem_TypeDefinitionIndex = 44815;
+	inline static constexpr unsigned int ConfigUIDamageTextItem_TypeDefinitionIndex = 41358;
 
 	class ConfigUIDamageTextItem : public ::MoleMole::ConfigLazyLoadItem_1<::MoleMole::ConfigUICommon_DamageText*>
 	{

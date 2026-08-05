@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_TIMELINE_TEXTURESHEETCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x13F33000)
+#define MOLEMOLE_TIMELINE_TEXTURESHEETCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5F2810)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int TextureSheetConfig_TypeDefinitionIndex = 44064;
+	inline static constexpr unsigned int TextureSheetConfig_TypeDefinitionIndex = 43059;
 
 	class TextureSheetConfig : public ::System::Object
 	{

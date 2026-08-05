@@ -5,7 +5,7 @@
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int FNPCMontageLayerFragment_TypeDefinitionIndex = 65322;
+	inline static constexpr unsigned int FNPCMontageLayerFragment_TypeDefinitionIndex = 71379;
 
 	struct alignas(4) FNPCMontageLayerFragment
 	{

@@ -7,7 +7,7 @@ namespace UnrealTypes { class Struct; }
 
 namespace UnrealTypes
 {
-	inline static constexpr unsigned int FieldIteratorUtils_TypeDefinitionIndex = 27729;
+	inline static constexpr unsigned int FieldIteratorUtils_TypeDefinitionIndex = 28332;
 
 	class FieldIteratorUtils : public ::System::Object
 	{

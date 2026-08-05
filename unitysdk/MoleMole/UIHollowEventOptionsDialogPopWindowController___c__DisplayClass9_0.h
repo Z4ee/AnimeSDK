@@ -2,24 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_3_D620CB44075FFCD9_1;
+class Class_3_AC409CB634C73560_1;
 namespace MoleMole { class UIHollowEventOptionsDialogPopWindowController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIHOLLOWEVENTOPTIONSDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18258900)
-#define MOLEMOLE_UIHOLLOWEVENTOPTIONSDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS9_0__INITCHOICEOBJ_B__0_OFFSET UNITYSDK_OFFSET(0x18258910)
-#define MOLEMOLE_UIHOLLOWEVENTOPTIONSDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS9_0__INITCHOICEOBJ_B__1_OFFSET UNITYSDK_OFFSET(0x182589D0)
+#define MOLEMOLE_UIHOLLOWEVENTOPTIONSDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19EB3DE0)
+#define MOLEMOLE_UIHOLLOWEVENTOPTIONSDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS9_0__INITCHOICEOBJ_B__0_OFFSET UNITYSDK_OFFSET(0x19EB3DF0)
+#define MOLEMOLE_UIHOLLOWEVENTOPTIONSDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS9_0__INITCHOICEOBJ_B__1_OFFSET UNITYSDK_OFFSET(0x19EB3EB0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowEventOptionsDialogPopWindowController___c__DisplayClass9_0_TypeDefinitionIndex = 70448;
+	inline static constexpr unsigned int UIHollowEventOptionsDialogPopWindowController___c__DisplayClass9_0_TypeDefinitionIndex = 79696;
 
 	class UIHollowEventOptionsDialogPopWindowController___c__DisplayClass9_0 : public ::System::Object
 	{
 	public:
-		::System::Action* __9__1; // 0x10
-		::Class_3_D620CB44075FFCD9_1* currentChoice; // 0x18
-		::MoleMole::UIHollowEventOptionsDialogPopWindowController* __4__this; // 0x20
+		::Class_3_AC409CB634C73560_1* currentChoice; // 0x10
+		::MoleMole::UIHollowEventOptionsDialogPopWindowController* __4__this; // 0x18
+		::System::Action* __9__1; // 0x20
 
 		::System::Void _ctor()
 		{

@@ -7,7 +7,7 @@ class Class_1_5C777FDB0F8AF9D8;
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIOnlineChatTipsContainerWidgetController_OnlineChatOperateDataModify_TypeDefinitionIndex = 76026;
+	inline static constexpr unsigned int UIOnlineChatTipsContainerWidgetController_OnlineChatOperateDataModify_TypeDefinitionIndex = 40695;
 
 	struct alignas(8) UIOnlineChatTipsContainerWidgetController_OnlineChatOperateDataModify
 	{

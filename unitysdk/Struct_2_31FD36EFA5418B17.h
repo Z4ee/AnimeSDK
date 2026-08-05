@@ -6,12 +6,12 @@
 
 namespace System { class String; }
 
-inline static constexpr unsigned int Struct_2_31FD36EFA5418B17_TypeDefinitionIndex = 45763;
+inline static constexpr unsigned int Struct_2_31FD36EFA5418B17_TypeDefinitionIndex = 89575;
 
 struct alignas(8) Struct_2_31FD36EFA5418B17
 {
-	::MoleMole::UICameraAtom Field_2_0; // 0x10
+	::MoleMole::UICameraAtom Field_2_2; // 0x10
 	::UnityEngine::Vector3 Field_2_1; // 0x30
-	::System::String* Field_2_2; // 0x40
-	::System::Single Field_2_3; // 0x48
+	::System::String* Field_2_0; // 0x40
+	::System::Single Field_2_7; // 0x48
 };

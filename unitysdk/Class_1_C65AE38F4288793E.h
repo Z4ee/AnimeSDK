@@ -7,20 +7,20 @@ namespace MoleMole { class UIBabeltowerContext; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_C65AE38F4288793E_METHOD_1_49AC00594530B714_OFFSET UNITYSDK_OFFSET(0x126B5830)
-#define CLASS_1_C65AE38F4288793E_METHOD_1_524DAA84A84DF7B3_OFFSET UNITYSDK_OFFSET(0x126B5870)
-#define CLASS_1_C65AE38F4288793E_METHOD_1_63BD5138385D050A_OFFSET UNITYSDK_OFFSET(0x126B5BF0)
-#define CLASS_1_C65AE38F4288793E_METHOD_1_88BA70A9B47C43E4_OFFSET UNITYSDK_OFFSET(0x126B5A90)
-#define CLASS_1_C65AE38F4288793E__CTOR_OFFSET UNITYSDK_OFFSET(0x126B5A00)
+#define CLASS_1_C65AE38F4288793E_METHOD_1_49AC00594530B714_OFFSET UNITYSDK_OFFSET(0x1814FCF0)
+#define CLASS_1_C65AE38F4288793E_METHOD_1_524DAA84A84DF7B3_OFFSET UNITYSDK_OFFSET(0x1814FD30)
+#define CLASS_1_C65AE38F4288793E_METHOD_1_63BD5138385D050A_OFFSET UNITYSDK_OFFSET(0x181500B0)
+#define CLASS_1_C65AE38F4288793E_METHOD_1_88BA70A9B47C43E4_OFFSET UNITYSDK_OFFSET(0x1814FF50)
+#define CLASS_1_C65AE38F4288793E__CTOR_OFFSET UNITYSDK_OFFSET(0x1814FEC0)
 
-inline static constexpr unsigned int Class_1_C65AE38F4288793E_TypeDefinitionIndex = 73381;
+inline static constexpr unsigned int Class_1_C65AE38F4288793E_TypeDefinitionIndex = 81967;
 
 class Class_1_C65AE38F4288793E : public ::System::Object
 {
 public:
-	::System::Collections::Generic::Dictionary_2<::System::String*, ::System::UInt32>* Field_1_2; // 0x10
-	::System::Int32 Field_1_0; // 0x18
-	::System::Int32 Field_1_1; // 0x1C
+	::System::Collections::Generic::Dictionary_2<::System::String*, ::System::UInt32>* Field_1_0; // 0x10
+	::System::Int32 Field_1_1; // 0x18
+	::System::Int32 Field_1_2; // 0x1C
 
 	::System::Void _ctor()
 	{

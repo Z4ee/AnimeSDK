@@ -5,12 +5,12 @@
 
 namespace UnityEngine { class Material; }
 
-#define NPCCROWD_NPCSOFTMATERIALPATH__CTOR_1_OFFSET UNITYSDK_OFFSET(0xD4439D0)
-#define NPCCROWD_NPCSOFTMATERIALPATH__CTOR_OFFSET UNITYSDK_OFFSET(0xD4439B0)
+#define NPCCROWD_NPCSOFTMATERIALPATH__CTOR_1_OFFSET UNITYSDK_OFFSET(0x10670260)
+#define NPCCROWD_NPCSOFTMATERIALPATH__CTOR_OFFSET UNITYSDK_OFFSET(0x10670240)
 
 namespace NPCCrowd
 {
-	inline static constexpr unsigned int NPCSoftMaterialPath_TypeDefinitionIndex = 64899;
+	inline static constexpr unsigned int NPCSoftMaterialPath_TypeDefinitionIndex = 59533;
 
 	class NPCSoftMaterialPath : public ::NPCCrowd::NPCSoftAssetPath_1<::UnityEngine::Material*>
 	{

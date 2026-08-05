@@ -3,12 +3,12 @@
 #include "unitysdk/FlowCanvas/Nodes/CallableFunctionNode_2.h"
 #include "unitysdk/MoleMole/FlowCanvas/Nodes/TargetUIOperation.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDHANDLETARGETUINODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1160C830)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDHANDLETARGETUINODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1160C990)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDHANDLETARGETUINODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x19241AE0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDHANDLETARGETUINODE__CTOR_OFFSET UNITYSDK_OFFSET(0x19241C40)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDHandleTargetUINode_TypeDefinitionIndex = 64171;
+	inline static constexpr unsigned int LDHandleTargetUINode_TypeDefinitionIndex = 42329;
 
 	class LDHandleTargetUINode : public ::FlowCanvas::Nodes::CallableFunctionNode_2<::System::Boolean, ::MoleMole::FlowCanvas::Nodes::TargetUIOperation>
 	{

@@ -3,12 +3,12 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_POINTERSTATE_GET_FORMAT_OFFSET UNITYSDK_OFFSET(0xA63770)
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_POINTERSTATE_GET_KFORMAT_OFFSET UNITYSDK_OFFSET(0x1E3D0CF0)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_POINTERSTATE_GET_FORMAT_OFFSET UNITYSDK_OFFSET(0xAB53A0)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_POINTERSTATE_GET_KFORMAT_OFFSET UNITYSDK_OFFSET(0x1F810A80)
 
 namespace UnityEngine::InputSystem::LowLevel
 {
-	inline static constexpr unsigned int PointerState_TypeDefinitionIndex = 31887;
+	inline static constexpr unsigned int PointerState_TypeDefinitionIndex = 32507;
 
 	struct alignas(4) PointerState
 	{

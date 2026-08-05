@@ -6,62 +6,62 @@ namespace System::Reflection { class ConstructorInfo; }
 namespace System::Reflection { class FieldInfo; }
 namespace System::Reflection { class MethodInfo; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_CALLSITEOPS_ADDRULE_OFFSET UNITYSDK_OFFSET(0x1DADE0B0)
-#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_CALLSITEOPS_BIND_OFFSET UNITYSDK_OFFSET(0x1DADE310)
-#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_CALLSITEOPS_CLEARMATCH_OFFSET UNITYSDK_OFFSET(0x1DADDAC0)
-#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_CALLSITEOPS_CREATEMATCHMAKER_OFFSET UNITYSDK_OFFSET(0x1DADD860)
-#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_CALLSITEOPS_GETCACHEDRULES_OFFSET UNITYSDK_OFFSET(0x1DADDF80)
-#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_CALLSITEOPS_GETMATCH_OFFSET UNITYSDK_OFFSET(0x1DADD990)
-#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_CALLSITEOPS_GETRULECACHE_OFFSET UNITYSDK_OFFSET(0x1DADDE50)
-#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_CALLSITEOPS_GETRULES_OFFSET UNITYSDK_OFFSET(0x1DADDD20)
-#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_CALLSITEOPS_MOVERULE_OFFSET UNITYSDK_OFFSET(0x1DADE1E0)
-#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_CALLSITEOPS_SETNOTMATCHED_OFFSET UNITYSDK_OFFSET(0x1DADD730)
-#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_CALLSITEOPS_UPDATERULES_OFFSET UNITYSDK_OFFSET(0x1DADDBF0)
-#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_DATETIME_MINVALUE_OFFSET UNITYSDK_OFFSET(0x1DAE0100)
-#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_DECIMAL_CTOR_INT32_INT32_INT32_BOOL_BYTE_OFFSET UNITYSDK_OFFSET(0x1DADF9B0)
-#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_DECIMAL_CTOR_INT32_OFFSET UNITYSDK_OFFSET(0x1DADF3F0)
-#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_DECIMAL_CTOR_INT64_OFFSET UNITYSDK_OFFSET(0x1DADF6D0)
-#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_DECIMAL_CTOR_UINT32_OFFSET UNITYSDK_OFFSET(0x1DADF560)
-#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_DECIMAL_CTOR_UINT64_OFFSET UNITYSDK_OFFSET(0x1DADF840)
-#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_DECIMAL_MAXVALUE_OFFSET UNITYSDK_OFFSET(0x1DADFFA0)
-#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_DECIMAL_MINUSONE_OFFSET UNITYSDK_OFFSET(0x1DADFE40)
-#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_DECIMAL_MINVALUE_OFFSET UNITYSDK_OFFSET(0x1DADFEF0)
-#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_DECIMAL_ONE_OFFSET UNITYSDK_OFFSET(0x1DADFD90)
-#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_DECIMAL_OP_IMPLICIT_BYTE_OFFSET UNITYSDK_OFFSET(0x1DAE10E0)
-#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_DECIMAL_OP_IMPLICIT_CHAR_OFFSET UNITYSDK_OFFSET(0x1DAE1BE0)
-#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_DECIMAL_OP_IMPLICIT_INT16_OFFSET UNITYSDK_OFFSET(0x1DAE13A0)
-#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_DECIMAL_OP_IMPLICIT_INT32_OFFSET UNITYSDK_OFFSET(0x1DAE1660)
-#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_DECIMAL_OP_IMPLICIT_INT64_OFFSET UNITYSDK_OFFSET(0x1DAE1920)
-#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_DECIMAL_OP_IMPLICIT_SBYTE_OFFSET UNITYSDK_OFFSET(0x1DAE1240)
-#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_DECIMAL_OP_IMPLICIT_UINT16_OFFSET UNITYSDK_OFFSET(0x1DAE1500)
-#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_DECIMAL_OP_IMPLICIT_UINT32_OFFSET UNITYSDK_OFFSET(0x1DAE17C0)
-#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_DECIMAL_OP_IMPLICIT_UINT64_OFFSET UNITYSDK_OFFSET(0x1DAE1A80)
-#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_DECIMAL_ZERO_OFFSET UNITYSDK_OFFSET(0x1DAE0050)
-#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_DICTIONARYOFSTRINGINT32_ADD_STRING_INT32_OFFSET UNITYSDK_OFFSET(0x1DAE0B10)
-#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_DICTIONARYOFSTRINGINT32_CTOR_INT32_OFFSET UNITYSDK_OFFSET(0x1DAE0D10)
-#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_DYNAMICOBJECT_TRYBINARYOPERATION_OFFSET UNITYSDK_OFFSET(0x1DADEEF0)
-#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_DYNAMICOBJECT_TRYCONVERT_OFFSET UNITYSDK_OFFSET(0x1DADEB60)
-#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_DYNAMICOBJECT_TRYCREATEINSTANCE_OFFSET UNITYSDK_OFFSET(0x1DADF150)
-#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_DYNAMICOBJECT_TRYDELETEINDEX_OFFSET UNITYSDK_OFFSET(0x1DADEA30)
-#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_DYNAMICOBJECT_TRYDELETEMEMBER_OFFSET UNITYSDK_OFFSET(0x1DADE6A0)
-#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_DYNAMICOBJECT_TRYGETINDEX_OFFSET UNITYSDK_OFFSET(0x1DADE7D0)
-#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_DYNAMICOBJECT_TRYGETMEMBER_OFFSET UNITYSDK_OFFSET(0x1DADE440)
-#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_DYNAMICOBJECT_TRYINVOKEMEMBER_OFFSET UNITYSDK_OFFSET(0x1DADEDC0)
-#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_DYNAMICOBJECT_TRYINVOKE_OFFSET UNITYSDK_OFFSET(0x1DADEC90)
-#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_DYNAMICOBJECT_TRYSETINDEX_OFFSET UNITYSDK_OFFSET(0x1DADE900)
-#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_DYNAMICOBJECT_TRYSETMEMBER_OFFSET UNITYSDK_OFFSET(0x1DADE570)
-#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_DYNAMICOBJECT_TRYUNARYOPERATION_OFFSET UNITYSDK_OFFSET(0x1DADF020)
-#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_INVALIDCASTEXCEPTION_CTOR_STRING_OFFSET UNITYSDK_OFFSET(0x1DADD5C0)
-#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_MATH_POW_DOUBLE_DOUBLE_OFFSET UNITYSDK_OFFSET(0x1DAE1D40)
-#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_METHODBASE_GETMETHODFROMHANDLE_RUNTIMEMETHODHANDLE_OFFSET UNITYSDK_OFFSET(0x1DAE01B0)
-#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_METHODBASE_GETMETHODFROMHANDLE_RUNTIMEMETHODHANDLE_RUNTIMETYPEHANDLE_OFFSET UNITYSDK_OFFSET(0x1DAE0310)
-#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_METHODINFO_CREATEDELEGATE_TYPE_OBJECT_OFFSET UNITYSDK_OFFSET(0x1DAE0510)
-#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_NULLABLE_BOOLEAN_CTOR_OFFSET UNITYSDK_OFFSET(0x1DADF280)
-#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_OBJECT_GETTYPE_OFFSET UNITYSDK_OFFSET(0x1DAE0FB0)
-#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_STRING_EQUALS_STRING_STRING_OFFSET UNITYSDK_OFFSET(0x1DAE0910)
-#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_STRING_FORMAT_STRING_OBJECTARRAY_OFFSET UNITYSDK_OFFSET(0x1DADD3C0)
-#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_STRING_OP_EQUALITY_STRING_STRING_OFFSET UNITYSDK_OFFSET(0x1DAE0710)
-#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_TYPE_GETTYPEFROMHANDLE_OFFSET UNITYSDK_OFFSET(0x1DAE0E80)
+#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_CALLSITEOPS_ADDRULE_OFFSET UNITYSDK_OFFSET(0x1EEEDF40)
+#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_CALLSITEOPS_BIND_OFFSET UNITYSDK_OFFSET(0x1EEEE1A0)
+#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_CALLSITEOPS_CLEARMATCH_OFFSET UNITYSDK_OFFSET(0x1EEED950)
+#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_CALLSITEOPS_CREATEMATCHMAKER_OFFSET UNITYSDK_OFFSET(0x1EEED6F0)
+#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_CALLSITEOPS_GETCACHEDRULES_OFFSET UNITYSDK_OFFSET(0x1EEEDE10)
+#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_CALLSITEOPS_GETMATCH_OFFSET UNITYSDK_OFFSET(0x1EEED820)
+#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_CALLSITEOPS_GETRULECACHE_OFFSET UNITYSDK_OFFSET(0x1EEEDCE0)
+#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_CALLSITEOPS_GETRULES_OFFSET UNITYSDK_OFFSET(0x1EEEDBB0)
+#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_CALLSITEOPS_MOVERULE_OFFSET UNITYSDK_OFFSET(0x1EEEE070)
+#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_CALLSITEOPS_SETNOTMATCHED_OFFSET UNITYSDK_OFFSET(0x1EEED5C0)
+#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_CALLSITEOPS_UPDATERULES_OFFSET UNITYSDK_OFFSET(0x1EEEDA80)
+#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_DATETIME_MINVALUE_OFFSET UNITYSDK_OFFSET(0x1EEEFF90)
+#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_DECIMAL_CTOR_INT32_INT32_INT32_BOOL_BYTE_OFFSET UNITYSDK_OFFSET(0x1EEEF840)
+#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_DECIMAL_CTOR_INT32_OFFSET UNITYSDK_OFFSET(0x1EEEF280)
+#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_DECIMAL_CTOR_INT64_OFFSET UNITYSDK_OFFSET(0x1EEEF560)
+#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_DECIMAL_CTOR_UINT32_OFFSET UNITYSDK_OFFSET(0x1EEEF3F0)
+#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_DECIMAL_CTOR_UINT64_OFFSET UNITYSDK_OFFSET(0x1EEEF6D0)
+#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_DECIMAL_MAXVALUE_OFFSET UNITYSDK_OFFSET(0x1EEEFE30)
+#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_DECIMAL_MINUSONE_OFFSET UNITYSDK_OFFSET(0x1EEEFCD0)
+#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_DECIMAL_MINVALUE_OFFSET UNITYSDK_OFFSET(0x1EEEFD80)
+#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_DECIMAL_ONE_OFFSET UNITYSDK_OFFSET(0x1EEEFC20)
+#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_DECIMAL_OP_IMPLICIT_BYTE_OFFSET UNITYSDK_OFFSET(0x1EEF0F70)
+#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_DECIMAL_OP_IMPLICIT_CHAR_OFFSET UNITYSDK_OFFSET(0x1EEF1A70)
+#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_DECIMAL_OP_IMPLICIT_INT16_OFFSET UNITYSDK_OFFSET(0x1EEF1230)
+#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_DECIMAL_OP_IMPLICIT_INT32_OFFSET UNITYSDK_OFFSET(0x1EEF14F0)
+#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_DECIMAL_OP_IMPLICIT_INT64_OFFSET UNITYSDK_OFFSET(0x1EEF17B0)
+#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_DECIMAL_OP_IMPLICIT_SBYTE_OFFSET UNITYSDK_OFFSET(0x1EEF10D0)
+#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_DECIMAL_OP_IMPLICIT_UINT16_OFFSET UNITYSDK_OFFSET(0x1EEF1390)
+#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_DECIMAL_OP_IMPLICIT_UINT32_OFFSET UNITYSDK_OFFSET(0x1EEF1650)
+#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_DECIMAL_OP_IMPLICIT_UINT64_OFFSET UNITYSDK_OFFSET(0x1EEF1910)
+#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_DECIMAL_ZERO_OFFSET UNITYSDK_OFFSET(0x1EEEFEE0)
+#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_DICTIONARYOFSTRINGINT32_ADD_STRING_INT32_OFFSET UNITYSDK_OFFSET(0x1EEF09A0)
+#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_DICTIONARYOFSTRINGINT32_CTOR_INT32_OFFSET UNITYSDK_OFFSET(0x1EEF0BA0)
+#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_DYNAMICOBJECT_TRYBINARYOPERATION_OFFSET UNITYSDK_OFFSET(0x1EEEED80)
+#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_DYNAMICOBJECT_TRYCONVERT_OFFSET UNITYSDK_OFFSET(0x1EEEE9F0)
+#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_DYNAMICOBJECT_TRYCREATEINSTANCE_OFFSET UNITYSDK_OFFSET(0x1EEEEFE0)
+#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_DYNAMICOBJECT_TRYDELETEINDEX_OFFSET UNITYSDK_OFFSET(0x1EEEE8C0)
+#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_DYNAMICOBJECT_TRYDELETEMEMBER_OFFSET UNITYSDK_OFFSET(0x1EEEE530)
+#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_DYNAMICOBJECT_TRYGETINDEX_OFFSET UNITYSDK_OFFSET(0x1EEEE660)
+#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_DYNAMICOBJECT_TRYGETMEMBER_OFFSET UNITYSDK_OFFSET(0x1EEEE2D0)
+#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_DYNAMICOBJECT_TRYINVOKEMEMBER_OFFSET UNITYSDK_OFFSET(0x1EEEEC50)
+#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_DYNAMICOBJECT_TRYINVOKE_OFFSET UNITYSDK_OFFSET(0x1EEEEB20)
+#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_DYNAMICOBJECT_TRYSETINDEX_OFFSET UNITYSDK_OFFSET(0x1EEEE790)
+#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_DYNAMICOBJECT_TRYSETMEMBER_OFFSET UNITYSDK_OFFSET(0x1EEEE400)
+#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_DYNAMICOBJECT_TRYUNARYOPERATION_OFFSET UNITYSDK_OFFSET(0x1EEEEEB0)
+#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_INVALIDCASTEXCEPTION_CTOR_STRING_OFFSET UNITYSDK_OFFSET(0x1EEED450)
+#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_MATH_POW_DOUBLE_DOUBLE_OFFSET UNITYSDK_OFFSET(0x1EEF1BD0)
+#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_METHODBASE_GETMETHODFROMHANDLE_RUNTIMEMETHODHANDLE_OFFSET UNITYSDK_OFFSET(0x1EEF0040)
+#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_METHODBASE_GETMETHODFROMHANDLE_RUNTIMEMETHODHANDLE_RUNTIMETYPEHANDLE_OFFSET UNITYSDK_OFFSET(0x1EEF01A0)
+#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_METHODINFO_CREATEDELEGATE_TYPE_OBJECT_OFFSET UNITYSDK_OFFSET(0x1EEF03A0)
+#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_NULLABLE_BOOLEAN_CTOR_OFFSET UNITYSDK_OFFSET(0x1EEEF110)
+#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_OBJECT_GETTYPE_OFFSET UNITYSDK_OFFSET(0x1EEF0E40)
+#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_STRING_EQUALS_STRING_STRING_OFFSET UNITYSDK_OFFSET(0x1EEF07A0)
+#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_STRING_FORMAT_STRING_OBJECTARRAY_OFFSET UNITYSDK_OFFSET(0x1EEED250)
+#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_STRING_OP_EQUALITY_STRING_STRING_OFFSET UNITYSDK_OFFSET(0x1EEF05A0)
+#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_TYPE_GETTYPEFROMHANDLE_OFFSET UNITYSDK_OFFSET(0x1EEF0D10)
 
 namespace System::Linq::Expressions
 {
@@ -70,63 +70,63 @@ namespace System::Linq::Expressions
 	class CachedReflectionInfo : public ::System::Object
 	{
 	public:
-		static ::System::Reflection::MethodInfo** StaticGet_s_DynamicObject_TryGetIndex()
+		static ::System::Reflection::MethodInfo** StaticGet_s_CallSiteOps_MoveRule()
 		{
 			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x4330);
 		}
-		static ::System::Reflection::MethodInfo** StaticGet_s_Decimal_op_Implicit_SByte()
+		static ::System::Reflection::ConstructorInfo** StaticGet_s_Decimal_Ctor_Int64()
 		{
-			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x4338);
+			return (::System::Reflection::ConstructorInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x4338);
 		}
-		static ::System::Reflection::MethodInfo** StaticGet_s_CallSiteOps_GetRuleCache()
+		static ::System::Reflection::MethodInfo** StaticGet_s_DynamicObject_TryCreateInstance()
 		{
 			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x4340);
 		}
-		static ::System::Reflection::ConstructorInfo** StaticGet_s_DictionaryOfStringInt32_Ctor_Int32()
+		static ::System::Reflection::MethodInfo** StaticGet_s_DynamicObject_TryUnaryOperation()
 		{
-			return (::System::Reflection::ConstructorInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x4348);
+			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x4348);
 		}
-		static ::System::Reflection::ConstructorInfo** StaticGet_s_Nullable_Boolean_Ctor()
+		static ::System::Reflection::ConstructorInfo** StaticGet_s_Decimal_Ctor_UInt32()
 		{
 			return (::System::Reflection::ConstructorInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x4350);
 		}
-		static ::System::Reflection::MethodInfo** StaticGet_s_Decimal_op_Implicit_UInt32()
+		static ::System::Reflection::MethodInfo** StaticGet_s_CallSiteOps_CreateMatchmaker()
 		{
 			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x4358);
 		}
-		static ::System::Reflection::ConstructorInfo** StaticGet_s_Decimal_Ctor_Int32()
+		static ::System::Reflection::MethodInfo** StaticGet_s_Decimal_op_Implicit_Char()
 		{
-			return (::System::Reflection::ConstructorInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x4360);
-		}
-		static ::System::Reflection::MethodInfo** StaticGet_s_CallSiteOps_GetRules()
-		{
-			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x4368);
+			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x4360);
 		}
 		static ::System::Reflection::MethodInfo** StaticGet_s_MethodBase_GetMethodFromHandle_RuntimeMethodHandle_RuntimeTypeHandle()
 		{
+			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x4368);
+		}
+		static ::System::Reflection::MethodInfo** StaticGet_s_MethodBase_GetMethodFromHandle_RuntimeMethodHandle()
+		{
 			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x4370);
 		}
-		static ::System::Reflection::MethodInfo** StaticGet_s_CallSiteOps_Bind()
+		static ::System::Reflection::MethodInfo** StaticGet_s_CallSiteOps_GetCachedRules()
 		{
 			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x4378);
 		}
-		static ::System::Reflection::MethodInfo** StaticGet_s_Decimal_op_Implicit_Int16()
+		static ::System::Reflection::MethodInfo** StaticGet_s_DynamicObject_TryDeleteIndex()
 		{
 			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x4380);
 		}
-		static ::System::Reflection::MethodInfo** StaticGet_s_DynamicObject_TryDeleteMember()
+		static ::System::Reflection::MethodInfo** StaticGet_s_Type_GetTypeFromHandle()
 		{
 			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x4388);
 		}
-		static ::System::Reflection::MethodInfo** StaticGet_s_Decimal_op_Implicit_UInt16()
+		static ::System::Reflection::ConstructorInfo** StaticGet_s_DictionaryOfStringInt32_Ctor_Int32()
 		{
-			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x4390);
+			return (::System::Reflection::ConstructorInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x4390);
 		}
-		static ::System::Reflection::ConstructorInfo** StaticGet_s_Decimal_Ctor_Int64()
+		static ::System::Reflection::MethodInfo** StaticGet_s_CallSiteOps_Bind()
 		{
-			return (::System::Reflection::ConstructorInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x4398);
+			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x4398);
 		}
-		static ::System::Reflection::MethodInfo** StaticGet_s_DynamicObject_TryDeleteIndex()
+		static ::System::Reflection::MethodInfo** StaticGet_s_CallSiteOps_GetRuleCache()
 		{
 			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x43A0);
 		}
@@ -134,23 +134,23 @@ namespace System::Linq::Expressions
 		{
 			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x43A8);
 		}
-		static ::System::Reflection::ConstructorInfo** StaticGet_s_Decimal_Ctor_Int32_Int32_Int32_Bool_Byte()
+		static ::System::Reflection::MethodInfo** StaticGet_s_DynamicObject_TryInvoke()
 		{
-			return (::System::Reflection::ConstructorInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x43B0);
+			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x43B0);
 		}
-		static ::System::Reflection::ConstructorInfo** StaticGet_s_Decimal_Ctor_UInt32()
+		static ::System::Reflection::MethodInfo** StaticGet_s_CallSiteOps_ClearMatch()
 		{
-			return (::System::Reflection::ConstructorInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x43B8);
+			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x43B8);
 		}
-		static ::System::Reflection::MethodInfo** StaticGet_s_Decimal_op_Implicit_Int32()
+		static ::System::Reflection::MethodInfo** StaticGet_s_CallSiteOps_UpdateRules()
 		{
 			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x43C0);
 		}
-		static ::System::Reflection::MethodInfo** StaticGet_s_String_op_Equality_String_String()
+		static ::System::Reflection::ConstructorInfo** StaticGet_s_Decimal_Ctor_UInt64()
 		{
-			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x43C8);
+			return (::System::Reflection::ConstructorInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x43C8);
 		}
-		static ::System::Reflection::MethodInfo** StaticGet_s_DynamicObject_TryCreateInstance()
+		static ::System::Reflection::MethodInfo** StaticGet_s_String_op_Equality_String_String()
 		{
 			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x43D0);
 		}
@@ -158,141 +158,141 @@ namespace System::Linq::Expressions
 		{
 			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x43D8);
 		}
-		static ::System::Reflection::MethodInfo** StaticGet_s_MethodBase_GetMethodFromHandle_RuntimeMethodHandle()
-		{
-			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x43E0);
-		}
-		static ::System::Reflection::FieldInfo** StaticGet_s_Decimal_Zero()
-		{
-			return (::System::Reflection::FieldInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x43E8);
-		}
-		static ::System::Reflection::MethodInfo** StaticGet_s_CallSiteOps_MoveRule()
-		{
-			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x43F0);
-		}
-		static ::System::Reflection::MethodInfo** StaticGet_s_CallSiteOps_AddRule()
-		{
-			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x43F8);
-		}
-		static ::System::Reflection::MethodInfo** StaticGet_s_Type_GetTypeFromHandle()
-		{
-			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x4400);
-		}
-		static ::System::Reflection::MethodInfo** StaticGet_s_CallSiteOps_GetMatch()
-		{
-			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x4408);
-		}
 		static ::System::Reflection::FieldInfo** StaticGet_s_Decimal_MinusOne()
 		{
-			return (::System::Reflection::FieldInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x4410);
+			return (::System::Reflection::FieldInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x43E0);
 		}
-		static ::System::Reflection::MethodInfo** StaticGet_s_CallSiteOps_SetNotMatched()
+		static ::System::Reflection::MethodInfo** StaticGet_s_DynamicObject_TryDeleteMember()
 		{
-			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x4418);
-		}
-		static ::System::Reflection::MethodInfo** StaticGet_s_String_Equals_String_String()
-		{
-			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x4420);
-		}
-		static ::System::Reflection::MethodInfo** StaticGet_s_DynamicObject_TryUnaryOperation()
-		{
-			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x4428);
-		}
-		static ::System::Reflection::MethodInfo** StaticGet_s_DynamicObject_TryBinaryOperation()
-		{
-			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x4430);
-		}
-		static ::System::Reflection::MethodInfo** StaticGet_s_Decimal_op_Implicit_Int64()
-		{
-			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x4438);
-		}
-		static ::System::Reflection::ConstructorInfo** StaticGet_s_InvalidCastException_Ctor_String()
-		{
-			return (::System::Reflection::ConstructorInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x4440);
-		}
-		static ::System::Reflection::MethodInfo** StaticGet_s_CallSiteOps_UpdateRules()
-		{
-			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x4448);
-		}
-		static ::System::Reflection::MethodInfo** StaticGet_s_DynamicObject_TryGetMember()
-		{
-			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x4450);
-		}
-		static ::System::Reflection::MethodInfo** StaticGet_s_Object_GetType()
-		{
-			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x4458);
-		}
-		static ::System::Reflection::MethodInfo** StaticGet_s_CallSiteOps_ClearMatch()
-		{
-			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x4460);
-		}
-		static ::System::Reflection::FieldInfo** StaticGet_s_DateTime_MinValue()
-		{
-			return (::System::Reflection::FieldInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x4468);
-		}
-		static ::System::Reflection::MethodInfo** StaticGet_s_DynamicObject_TryInvoke()
-		{
-			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x4470);
-		}
-		static ::System::Reflection::MethodInfo** StaticGet_s_Math_Pow_Double_Double()
-		{
-			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x4478);
-		}
-		static ::System::Reflection::FieldInfo** StaticGet_s_Decimal_One()
-		{
-			return (::System::Reflection::FieldInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x4480);
-		}
-		static ::System::Reflection::MethodInfo** StaticGet_s_String_Format_String_ObjectArray()
-		{
-			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x4488);
-		}
-		static ::System::Reflection::MethodInfo** StaticGet_s_DynamicObject_TryConvert()
-		{
-			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x4490);
-		}
-		static ::System::Reflection::FieldInfo** StaticGet_s_Decimal_MaxValue()
-		{
-			return (::System::Reflection::FieldInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x4498);
-		}
-		static ::System::Reflection::MethodInfo** StaticGet_s_DynamicObject_TryInvokeMember()
-		{
-			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x44A0);
-		}
-		static ::System::Reflection::MethodInfo** StaticGet_s_CallSiteOps_GetCachedRules()
-		{
-			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x44A8);
-		}
-		static ::System::Reflection::MethodInfo** StaticGet_s_CallSiteOps_CreateMatchmaker()
-		{
-			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x44B0);
-		}
-		static ::System::Reflection::MethodInfo** StaticGet_s_Decimal_op_Implicit_Char()
-		{
-			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x44B8);
-		}
-		static ::System::Reflection::ConstructorInfo** StaticGet_s_Decimal_Ctor_UInt64()
-		{
-			return (::System::Reflection::ConstructorInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x44C0);
+			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x43E8);
 		}
 		static ::System::Reflection::MethodInfo** StaticGet_s_DynamicObject_TrySetIndex()
 		{
-			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x44C8);
+			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x43F0);
 		}
-		static ::System::Reflection::MethodInfo** StaticGet_s_Decimal_op_Implicit_Byte()
+		static ::System::Reflection::MethodInfo** StaticGet_s_DynamicObject_TryGetMember()
 		{
-			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x44D0);
+			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x43F8);
+		}
+		static ::System::Reflection::FieldInfo** StaticGet_s_Decimal_MaxValue()
+		{
+			return (::System::Reflection::FieldInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x4400);
 		}
 		static ::System::Reflection::MethodInfo** StaticGet_s_MethodInfo_CreateDelegate_Type_Object()
 		{
-			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x44D8);
+			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x4408);
 		}
-		static ::System::Reflection::MethodInfo** StaticGet_s_DictionaryOfStringInt32_Add_String_Int32()
+		static ::System::Reflection::ConstructorInfo** StaticGet_s_InvalidCastException_Ctor_String()
 		{
-			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x44E0);
+			return (::System::Reflection::ConstructorInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x4410);
+		}
+		static ::System::Reflection::MethodInfo** StaticGet_s_Decimal_op_Implicit_Byte()
+		{
+			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x4418);
+		}
+		static ::System::Reflection::MethodInfo** StaticGet_s_Decimal_op_Implicit_Int32()
+		{
+			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x4420);
+		}
+		static ::System::Reflection::MethodInfo** StaticGet_s_DynamicObject_TryBinaryOperation()
+		{
+			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x4428);
+		}
+		static ::System::Reflection::MethodInfo** StaticGet_s_Math_Pow_Double_Double()
+		{
+			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x4430);
+		}
+		static ::System::Reflection::ConstructorInfo** StaticGet_s_Decimal_Ctor_Int32_Int32_Int32_Bool_Byte()
+		{
+			return (::System::Reflection::ConstructorInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x4438);
+		}
+		static ::System::Reflection::FieldInfo** StaticGet_s_DateTime_MinValue()
+		{
+			return (::System::Reflection::FieldInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x4440);
+		}
+		static ::System::Reflection::FieldInfo** StaticGet_s_Decimal_One()
+		{
+			return (::System::Reflection::FieldInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x4448);
 		}
 		static ::System::Reflection::FieldInfo** StaticGet_s_Decimal_MinValue()
 		{
-			return (::System::Reflection::FieldInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x44E8);
+			return (::System::Reflection::FieldInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x4450);
+		}
+		static ::System::Reflection::MethodInfo** StaticGet_s_Decimal_op_Implicit_UInt32()
+		{
+			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x4458);
+		}
+		static ::System::Reflection::FieldInfo** StaticGet_s_Decimal_Zero()
+		{
+			return (::System::Reflection::FieldInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x4460);
+		}
+		static ::System::Reflection::MethodInfo** StaticGet_s_DictionaryOfStringInt32_Add_String_Int32()
+		{
+			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x4468);
+		}
+		static ::System::Reflection::MethodInfo** StaticGet_s_DynamicObject_TryGetIndex()
+		{
+			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x4470);
+		}
+		static ::System::Reflection::ConstructorInfo** StaticGet_s_Decimal_Ctor_Int32()
+		{
+			return (::System::Reflection::ConstructorInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x4478);
+		}
+		static ::System::Reflection::ConstructorInfo** StaticGet_s_Nullable_Boolean_Ctor()
+		{
+			return (::System::Reflection::ConstructorInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x4480);
+		}
+		static ::System::Reflection::MethodInfo** StaticGet_s_DynamicObject_TryConvert()
+		{
+			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x4488);
+		}
+		static ::System::Reflection::MethodInfo** StaticGet_s_String_Equals_String_String()
+		{
+			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x4490);
+		}
+		static ::System::Reflection::MethodInfo** StaticGet_s_Decimal_op_Implicit_Int64()
+		{
+			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x4498);
+		}
+		static ::System::Reflection::MethodInfo** StaticGet_s_Decimal_op_Implicit_SByte()
+		{
+			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x44A0);
+		}
+		static ::System::Reflection::MethodInfo** StaticGet_s_CallSiteOps_AddRule()
+		{
+			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x44A8);
+		}
+		static ::System::Reflection::MethodInfo** StaticGet_s_Decimal_op_Implicit_UInt16()
+		{
+			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x44B0);
+		}
+		static ::System::Reflection::MethodInfo** StaticGet_s_CallSiteOps_GetMatch()
+		{
+			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x44B8);
+		}
+		static ::System::Reflection::MethodInfo** StaticGet_s_CallSiteOps_GetRules()
+		{
+			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x44C0);
+		}
+		static ::System::Reflection::MethodInfo** StaticGet_s_Object_GetType()
+		{
+			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x44C8);
+		}
+		static ::System::Reflection::MethodInfo** StaticGet_s_DynamicObject_TryInvokeMember()
+		{
+			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x44D0);
+		}
+		static ::System::Reflection::MethodInfo** StaticGet_s_String_Format_String_ObjectArray()
+		{
+			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x44D8);
+		}
+		static ::System::Reflection::MethodInfo** StaticGet_s_Decimal_op_Implicit_Int16()
+		{
+			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x44E0);
+		}
+		static ::System::Reflection::MethodInfo** StaticGet_s_CallSiteOps_SetNotMatched()
+		{
+			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x44E8);
 		}
 
 		static ::System::Reflection::MethodInfo* get_String_Format_String_ObjectArray()

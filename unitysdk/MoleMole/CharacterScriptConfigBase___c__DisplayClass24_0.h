@@ -4,12 +4,12 @@
 
 namespace System { class Type; }
 
-#define MOLEMOLE_CHARACTERSCRIPTCONFIGBASE___C__DISPLAYCLASS24_0__CTOR_OFFSET UNITYSDK_OFFSET(0x11082550)
-#define MOLEMOLE_CHARACTERSCRIPTCONFIGBASE___C__DISPLAYCLASS24_0__FILTERQTECAMERABASEINFO_B__0_OFFSET UNITYSDK_OFFSET(0x11082560)
+#define MOLEMOLE_CHARACTERSCRIPTCONFIGBASE___C__DISPLAYCLASS24_0__CTOR_OFFSET UNITYSDK_OFFSET(0x12EE4F30)
+#define MOLEMOLE_CHARACTERSCRIPTCONFIGBASE___C__DISPLAYCLASS24_0__FILTERQTECAMERABASEINFO_B__0_OFFSET UNITYSDK_OFFSET(0x12EE4F40)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CharacterScriptConfigBase___c__DisplayClass24_0_TypeDefinitionIndex = 68723;
+	inline static constexpr unsigned int CharacterScriptConfigBase___c__DisplayClass24_0_TypeDefinitionIndex = 70281;
 
 	class CharacterScriptConfigBase___c__DisplayClass24_0 : public ::System::Object
 	{

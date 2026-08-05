@@ -4,7 +4,7 @@
 
 namespace Foundation::ViewObject::Container
 {
-	inline static constexpr unsigned int TSparseList_1_FDataType_TypeDefinitionIndex = 61150;
+	inline static constexpr unsigned int TSparseList_1_FDataType_TypeDefinitionIndex = 46896;
 
 	template <typename T>
 	struct TSparseList_1_FDataType

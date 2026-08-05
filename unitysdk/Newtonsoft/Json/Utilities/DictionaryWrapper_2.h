@@ -14,7 +14,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace Newtonsoft::Json::Utilities
 {
-	inline static constexpr unsigned int DictionaryWrapper_2_TypeDefinitionIndex = 7049;
+	inline static constexpr unsigned int DictionaryWrapper_2_TypeDefinitionIndex = 7053;
 
 	template <typename TKey, typename TValue>
 	class DictionaryWrapper_2 : public ::System::Object

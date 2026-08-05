@@ -7,21 +7,20 @@
 namespace FlatBuffers { class ByteBuffer; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define STRUCT_2_A3B5141C858708A0_24_GET_BYTEBUFFER_OFFSET UNITYSDK_OFFSET(0x2A99F0)
-#define STRUCT_2_A3B5141C858708A0_24_METHOD_2_4CDE2E1382E8C4EB_OFFSET UNITYSDK_OFFSET(0x13695E90)
-#define STRUCT_2_A3B5141C858708A0_24_METHOD_2_574A0EFDE858A687_OFFSET UNITYSDK_OFFSET(0x7A5A50)
-#define STRUCT_2_A3B5141C858708A0_24_METHOD_2_6C957C84B1F40239_OFFSET UNITYSDK_OFFSET(0x7A5AF0)
-#define STRUCT_2_A3B5141C858708A0_24_METHOD_2_8F54C68DC21A03C7_OFFSET UNITYSDK_OFFSET(0x13695E20)
-#define STRUCT_2_A3B5141C858708A0_24_METHOD_2_E243B4F73EA9A980_OFFSET UNITYSDK_OFFSET(0x7B90A0)
-#define STRUCT_2_A3B5141C858708A0_24_METHOD_2_E687B8530C04E50A_OFFSET UNITYSDK_OFFSET(0x7B9060)
-#define STRUCT_2_A3B5141C858708A0_24___INIT_OFFSET UNITYSDK_OFFSET(0x7B9040)
+#define STRUCT_2_A3B5141C858708A0_24_GET_BYTEBUFFER_OFFSET UNITYSDK_OFFSET(0x31CCF0)
+#define STRUCT_2_A3B5141C858708A0_24_METHOD_2_4CDE2E1382E8C4EB_OFFSET UNITYSDK_OFFSET(0x19E17A90)
+#define STRUCT_2_A3B5141C858708A0_24_METHOD_2_574A0EFDE858A687_OFFSET UNITYSDK_OFFSET(0x77D950)
+#define STRUCT_2_A3B5141C858708A0_24_METHOD_2_8F54C68DC21A03C7_OFFSET UNITYSDK_OFFSET(0x19E17AF0)
+#define STRUCT_2_A3B5141C858708A0_24_METHOD_2_E243B4F73EA9A980_OFFSET UNITYSDK_OFFSET(0x8ADF80)
+#define STRUCT_2_A3B5141C858708A0_24_METHOD_2_E687B8530C04E50A_OFFSET UNITYSDK_OFFSET(0x8ADF90)
+#define STRUCT_2_A3B5141C858708A0_24___INIT_OFFSET UNITYSDK_OFFSET(0x8ADF60)
 
-inline static constexpr unsigned int Struct_2_A3B5141C858708A0_24_TypeDefinitionIndex = 16617;
+inline static constexpr unsigned int Struct_2_A3B5141C858708A0_24_TypeDefinitionIndex = 15836;
 
 struct alignas(8) Struct_2_A3B5141C858708A0_24
 {
-	::FlatBuffers::Table Field_2_0; // 0x10
-	::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::Int32, ::System::Int32>, ::System::Int32>* Field_2_1; // 0x20
+	::FlatBuffers::Table Field_2_1; // 0x10
+	::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::Int32, ::System::Int32>, ::System::Int32>* Field_2_0; // 0x20
 
 	::FlatBuffers::ByteBuffer* get_ByteBuffer()
 	{
@@ -33,9 +32,14 @@ struct alignas(8) Struct_2_A3B5141C858708A0_24
 		return ((::System::Void(*)(::PVOID, ::System::Int32, ::FlatBuffers::ByteBuffer*))((::PBYTE)hIl2Cpp + STRUCT_2_A3B5141C858708A0_24___INIT_OFFSET))(this, a1, a2);
 	}
 
-	static ::Struct_2_A3B5141C858708A0_24 Method_2_8F54C68DC21A03C7(::FlatBuffers::ByteBuffer* a1)
+	::Il2CppArray<::System::ValueTuple_2<::System::Int32, ::System::Int32>>* Method_2_E243B4F73EA9A980()
 	{
-		return ((::Struct_2_A3B5141C858708A0_24(*)(::FlatBuffers::ByteBuffer*))((::PBYTE)hIl2Cpp + STRUCT_2_A3B5141C858708A0_24_METHOD_2_8F54C68DC21A03C7_OFFSET))(a1);
+		return ((::Il2CppArray<::System::ValueTuple_2<::System::Int32, ::System::Int32>>*(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_A3B5141C858708A0_24_METHOD_2_E243B4F73EA9A980_OFFSET))(this);
+	}
+
+	::Struct_2_A3B5141C858708A0_24 Method_2_E687B8530C04E50A(::System::Int32 a1, ::FlatBuffers::ByteBuffer* a2)
+	{
+		return ((::Struct_2_A3B5141C858708A0_24(*)(::PVOID, ::System::Int32, ::FlatBuffers::ByteBuffer*))((::PBYTE)hIl2Cpp + STRUCT_2_A3B5141C858708A0_24_METHOD_2_E687B8530C04E50A_OFFSET))(this, a1, a2);
 	}
 
 	static ::Struct_2_A3B5141C858708A0_24 Method_2_4CDE2E1382E8C4EB(::FlatBuffers::ByteBuffer* a1, ::Struct_2_A3B5141C858708A0_24 a2)
@@ -43,25 +47,13 @@ struct alignas(8) Struct_2_A3B5141C858708A0_24
 		return ((::Struct_2_A3B5141C858708A0_24(*)(::FlatBuffers::ByteBuffer*, ::Struct_2_A3B5141C858708A0_24))((::PBYTE)hIl2Cpp + STRUCT_2_A3B5141C858708A0_24_METHOD_2_4CDE2E1382E8C4EB_OFFSET))(a1, a2);
 	}
 
+	static ::Struct_2_A3B5141C858708A0_24 Method_2_8F54C68DC21A03C7(::FlatBuffers::ByteBuffer* a1)
+	{
+		return ((::Struct_2_A3B5141C858708A0_24(*)(::FlatBuffers::ByteBuffer*))((::PBYTE)hIl2Cpp + STRUCT_2_A3B5141C858708A0_24_METHOD_2_8F54C68DC21A03C7_OFFSET))(a1);
+	}
+
 	::System::Int32 Method_2_574A0EFDE858A687()
 	{
 		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_A3B5141C858708A0_24_METHOD_2_574A0EFDE858A687_OFFSET))(this);
-	}
-
-	/*
-	::System::Nullable_1<::Struct_2_58DF5669875F2C66_330> Method_2_6C957C84B1F40239(::System::Int32 a1)
-	{
-		return ((::System::Nullable_1<::Struct_2_58DF5669875F2C66_330>(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + STRUCT_2_A3B5141C858708A0_24_METHOD_2_6C957C84B1F40239_OFFSET))(this, a1);
-	}
-	*/
-
-	::Struct_2_A3B5141C858708A0_24 Method_2_E687B8530C04E50A(::System::Int32 a1, ::FlatBuffers::ByteBuffer* a2)
-	{
-		return ((::Struct_2_A3B5141C858708A0_24(*)(::PVOID, ::System::Int32, ::FlatBuffers::ByteBuffer*))((::PBYTE)hIl2Cpp + STRUCT_2_A3B5141C858708A0_24_METHOD_2_E687B8530C04E50A_OFFSET))(this, a1, a2);
-	}
-
-	::Il2CppArray<::System::ValueTuple_2<::System::Int32, ::System::Int32>>* Method_2_E243B4F73EA9A980()
-	{
-		return ((::Il2CppArray<::System::ValueTuple_2<::System::Int32, ::System::Int32>>*(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_A3B5141C858708A0_24_METHOD_2_E243B4F73EA9A980_OFFSET))(this);
 	}
 };

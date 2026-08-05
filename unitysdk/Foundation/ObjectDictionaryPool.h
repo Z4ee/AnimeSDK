@@ -6,7 +6,7 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace Foundation
 {
-	inline static constexpr unsigned int ObjectDictionaryPool_TypeDefinitionIndex = 7995;
+	inline static constexpr unsigned int ObjectDictionaryPool_TypeDefinitionIndex = 7816;
 
 	class ObjectDictionaryPool : public ::System::Object
 	{

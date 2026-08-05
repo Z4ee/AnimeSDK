@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIRABBOSSSWEEPREWARDDIALOGPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16141780)
+#define MOLEMOLE_UIRABBOSSSWEEPREWARDDIALOGPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x19894F10)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRABBossSweepRewardDialogPopWindowController_Context_TypeDefinitionIndex = 67675;
+	inline static constexpr unsigned int UIRABBossSweepRewardDialogPopWindowController_Context_TypeDefinitionIndex = 68873;
 
 	class UIRABBossSweepRewardDialogPopWindowController_Context : public ::MoleMole::UIControllerContextBase
 	{

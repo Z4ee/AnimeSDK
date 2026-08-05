@@ -3,12 +3,12 @@
 #include "unitysdk/MoleMole/FlowCanvas/ChessboardCallableActionNode_2.h"
 #include "unitysdk/MoleMole/HollowChessboard/HollowCell.h"
 
-#define MOLEMOLE_FLOWCANVAS_PLAYITEMCOLLECTEFFECT_INVOKE_OFFSET UNITYSDK_OFFSET(0x15822C90)
-#define MOLEMOLE_FLOWCANVAS_PLAYITEMCOLLECTEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x15823050)
+#define MOLEMOLE_FLOWCANVAS_PLAYITEMCOLLECTEFFECT_INVOKE_OFFSET UNITYSDK_OFFSET(0x129A2760)
+#define MOLEMOLE_FLOWCANVAS_PLAYITEMCOLLECTEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x129A2B30)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int PlayItemCollectEffect_TypeDefinitionIndex = 45362;
+	inline static constexpr unsigned int PlayItemCollectEffect_TypeDefinitionIndex = 45067;
 
 	class PlayItemCollectEffect : public ::MoleMole::FlowCanvas::ChessboardCallableActionNode_2<::MoleMole::HollowChessboard::HollowCell, ::System::Int32>
 	{

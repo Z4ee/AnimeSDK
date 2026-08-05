@@ -4,12 +4,12 @@
 
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define MOLEMOLE_UIVIDEOSHOPUPSETPOPWINDOWCONTROLLER___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x139BA020)
-#define MOLEMOLE_UIVIDEOSHOPUPSETPOPWINDOWCONTROLLER___C__DISPLAYCLASS14_0__REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x139BA030)
+#define MOLEMOLE_UIVIDEOSHOPUPSETPOPWINDOWCONTROLLER___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x162C7080)
+#define MOLEMOLE_UIVIDEOSHOPUPSETPOPWINDOWCONTROLLER___C__DISPLAYCLASS14_0__REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x162C7090)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIVideoshopUpSetPopWindowController___c__DisplayClass14_0_TypeDefinitionIndex = 69145;
+	inline static constexpr unsigned int UIVideoshopUpSetPopWindowController___c__DisplayClass14_0_TypeDefinitionIndex = 45445;
 
 	class UIVideoshopUpSetPopWindowController___c__DisplayClass14_0 : public ::System::Object
 	{

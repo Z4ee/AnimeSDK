@@ -8,11 +8,11 @@ namespace UnityEngine { class Gradient; }
 namespace UnityEngine::Rendering::Universal { class BasicWaves; }
 namespace UnityEngine::Rendering::Universal { class FoamSettings; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_WATERSURFACEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B89A430)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WATERSURFACEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1CCA73B0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int WaterSurfaceData_TypeDefinitionIndex = 26949;
+	inline static constexpr unsigned int WaterSurfaceData_TypeDefinitionIndex = 27710;
 
 	class WaterSurfaceData : public ::UnityEngine::ScriptableObject
 	{

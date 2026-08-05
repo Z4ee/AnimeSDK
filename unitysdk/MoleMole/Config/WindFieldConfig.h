@@ -6,11 +6,11 @@ namespace MoleMole::Config { class ConfigWindFieldProperty; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_WINDFIELDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x192AF950)
+#define MOLEMOLE_CONFIG_WINDFIELDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1487DCE0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int WindFieldConfig_TypeDefinitionIndex = 64866;
+	inline static constexpr unsigned int WindFieldConfig_TypeDefinitionIndex = 78322;
 
 	class WindFieldConfig : public ::Foundation::MihoyoSerializedScriptableObject
 	{

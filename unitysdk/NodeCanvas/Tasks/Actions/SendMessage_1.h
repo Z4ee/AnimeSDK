@@ -8,7 +8,7 @@ namespace UnityEngine { class Transform; }
 
 namespace NodeCanvas::Tasks::Actions
 {
-	inline static constexpr unsigned int SendMessage_1_TypeDefinitionIndex = 29380;
+	inline static constexpr unsigned int SendMessage_1_TypeDefinitionIndex = 30181;
 
 	template <typename T>
 	class SendMessage_1 : public ::NodeCanvas::Framework::ActionTask_1<::UnityEngine::Transform*>

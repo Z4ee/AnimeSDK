@@ -3,15 +3,15 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int VolumetricCloudV2Quality_TypeDefinitionIndex = 26286;
+	inline static constexpr unsigned int VolumetricCloudV2Quality_TypeDefinitionIndex = 27889;
 
 	enum class VolumetricCloudV2Quality : ::System::Int32
 	{
-		Disabled = 0,
 		High = 3,
-		Medium = 2,
-		Mobile = 5,
 		Ultra = 4,
+		Medium = 2,
 		Low = 1,
+		Disabled = 0,
+		Mobile = 5,
 	};
 }

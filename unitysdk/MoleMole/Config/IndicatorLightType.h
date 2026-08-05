@@ -3,15 +3,15 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int IndicatorLightType_TypeDefinitionIndex = 55171;
+	inline static constexpr unsigned int IndicatorLightType_TypeDefinitionIndex = 87675;
 
 	enum class IndicatorLightType : ::System::Int32
 	{
-		DecorationLight2 = 4,
 		DecorationLight1 = 3,
-		EventLight = 2,
-		PlayerOnLight = 5,
-		None = 0,
+		DecorationLight2 = 4,
 		VisibleLight = 1,
+		EventLight = 2,
+		None = 0,
+		PlayerOnLight = 5,
 	};
 }

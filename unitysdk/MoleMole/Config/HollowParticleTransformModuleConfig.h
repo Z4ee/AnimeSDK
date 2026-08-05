@@ -6,19 +6,19 @@
 class Class_1_0AC327AA661D91B2;
 namespace UnityEngine { class ParticleSystem; }
 
-#define MOLEMOLE_CONFIG_HOLLOWPARTICLETRANSFORMMODULECONFIG_CREATEMODULE_OFFSET UNITYSDK_OFFSET(0x1AA6E2C0)
-#define MOLEMOLE_CONFIG_HOLLOWPARTICLETRANSFORMMODULECONFIG_GETMODULEID_OFFSET UNITYSDK_OFFSET(0x1AA6E460)
-#define MOLEMOLE_CONFIG_HOLLOWPARTICLETRANSFORMMODULECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA6E530)
+#define MOLEMOLE_CONFIG_HOLLOWPARTICLETRANSFORMMODULECONFIG_CREATEMODULE_OFFSET UNITYSDK_OFFSET(0x1C46D7A0)
+#define MOLEMOLE_CONFIG_HOLLOWPARTICLETRANSFORMMODULECONFIG_GETMODULEID_OFFSET UNITYSDK_OFFSET(0x1C46D940)
+#define MOLEMOLE_CONFIG_HOLLOWPARTICLETRANSFORMMODULECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C46DA10)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int HollowParticleTransformModuleConfig_TypeDefinitionIndex = 47199;
+	inline static constexpr unsigned int HollowParticleTransformModuleConfig_TypeDefinitionIndex = 57009;
 
 	class HollowParticleTransformModuleConfig : public ::MoleMole::Config::HollowChessboardParticleModuleConfig
 	{
 	public:
-		::UnityEngine::Vector3 LocalPosOffset; // 0x18
-		::UnityEngine::Vector3 LocalRotOffset; // 0x24
+		::UnityEngine::Vector3 LocalRotOffset; // 0x18
+		::UnityEngine::Vector3 LocalPosOffset; // 0x24
 
 		::System::Void _ctor()
 		{

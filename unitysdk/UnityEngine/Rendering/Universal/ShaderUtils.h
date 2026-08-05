@@ -5,26 +5,23 @@
 
 namespace System { class String; }
 namespace UnityEngine { class Shader; }
-namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_SHADERUTILS_GETENUMFROMPATH_OFFSET UNITYSDK_OFFSET(0x1AF12070)
-#define UNITYENGINE_RENDERING_UNIVERSAL_SHADERUTILS_GETSHADERPATH_OFFSET UNITYSDK_OFFSET(0x1AF11FB0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_SHADERUTILS_ISLWSHADER_OFFSET UNITYSDK_OFFSET(0x1AF12160)
-#define UNITYENGINE_RENDERING_UNIVERSAL_SHADERUTILS_SETKEYWORD_1_OFFSET UNITYSDK_OFFSET(0x1AF122E0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_SHADERUTILS_SETKEYWORD_2_OFFSET UNITYSDK_OFFSET(0x1AF12360)
-#define UNITYENGINE_RENDERING_UNIVERSAL_SHADERUTILS_SETKEYWORD_OFFSET UNITYSDK_OFFSET(0x1AF12280)
-#define UNITYENGINE_RENDERING_UNIVERSAL_SHADERUTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AF123E0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_SHADERUTILS_GETENUMFROMPATH_OFFSET UNITYSDK_OFFSET(0x1C456B40)
+#define UNITYENGINE_RENDERING_UNIVERSAL_SHADERUTILS_GETSHADERPATH_OFFSET UNITYSDK_OFFSET(0x1C456A80)
+#define UNITYENGINE_RENDERING_UNIVERSAL_SHADERUTILS_ISLWSHADER_OFFSET UNITYSDK_OFFSET(0x1C456C30)
+#define UNITYENGINE_RENDERING_UNIVERSAL_SHADERUTILS_SETKEYWORD_OFFSET UNITYSDK_OFFSET(0x1C456D50)
+#define UNITYENGINE_RENDERING_UNIVERSAL_SHADERUTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C456DB0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int ShaderUtils_TypeDefinitionIndex = 26244;
+	inline static constexpr unsigned int ShaderUtils_TypeDefinitionIndex = 27691;
 
 	class ShaderUtils : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::String*>** StaticGet_s_ShaderPaths()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ShaderUtils_TypeDefinitionIndex)->GetStaticField(0x224A0);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ShaderUtils_TypeDefinitionIndex)->GetStaticField(0x23C10);
 		}
 
 		static ::System::Void _cctor()
@@ -50,16 +47,6 @@ namespace UnityEngine::Rendering::Universal
 		static ::System::Void SetKeyword(::System::String* keyword, ::System::Boolean enable)
 		{
 			return ((::System::Void(*)(::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_SHADERUTILS_SETKEYWORD_OFFSET))(keyword, enable);
-		}
-
-		static ::System::Void SetKeyword_1(::UnityEngine::Rendering::CommandBuffer* cmd, ::System::Int32 keyword, ::System::Boolean enable)
-		{
-			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_SHADERUTILS_SETKEYWORD_1_OFFSET))(cmd, keyword, enable);
-		}
-
-		static ::System::Void SetKeyword_2(::UnityEngine::Rendering::CommandBuffer* cmd, ::System::String* keyword, ::System::Boolean enable)
-		{
-			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_SHADERUTILS_SETKEYWORD_2_OFFSET))(cmd, keyword, enable);
 		}
 	};
 }

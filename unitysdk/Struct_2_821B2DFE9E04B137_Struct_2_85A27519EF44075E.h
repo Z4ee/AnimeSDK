@@ -8,25 +8,25 @@
 #include "unitysdk/System/Threading/CancellationToken.h"
 #include "unitysdk/System/ValueType.h"
 
-class Struct_2_821B2DFE9E04B137_Class_1_1A520E7D82BE4A56_4;
+class Struct_2_821B2DFE9E04B137_Class_1_1A520E7D82BE4A56_8;
 namespace System { class String; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define STRUCT_2_821B2DFE9E04B137_STRUCT_2_85A27519EF44075E_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x80E750)
-#define STRUCT_2_821B2DFE9E04B137_STRUCT_2_85A27519EF44075E_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x283610)
+#define STRUCT_2_821B2DFE9E04B137_STRUCT_2_85A27519EF44075E_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x7DEFE0)
+#define STRUCT_2_821B2DFE9E04B137_STRUCT_2_85A27519EF44075E_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x296F30)
 
-inline static constexpr unsigned int Struct_2_821B2DFE9E04B137_Struct_2_85A27519EF44075E_TypeDefinitionIndex = 51537;
+inline static constexpr unsigned int Struct_2_821B2DFE9E04B137_Struct_2_85A27519EF44075E_TypeDefinitionIndex = 58942;
 
 struct alignas(8) Struct_2_821B2DFE9E04B137_Struct_2_85A27519EF44075E
 {
-	::Struct_2_821B2DFE9E04B137_Class_1_1A520E7D82BE4A56_4* Field_2_4; // 0x10
-	::System::String* Field_2_3; // 0x18
-	::System::Threading::CancellationToken Field_2_2; // 0x20
-	::Struct_2_821B2DFE9E04B137 Field_2_5; // 0x28
-	::Cysharp::Threading::Tasks::UniTask_Awaiter Field_2_7; // 0x40
-	::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder Field_2_1; // 0x50
-	::Cysharp::Threading::Tasks::UniTask_1_Awaiter<::Struct_2_9D8B950D8621E6B3> Field_2_6; // 0x60
-	::System::Int32 Field_2_0; // 0x80
+	::System::Threading::CancellationToken Field_2_7; // 0x10
+	::Struct_2_821B2DFE9E04B137 Field_2_4; // 0x18
+	::Struct_2_821B2DFE9E04B137_Class_1_1A520E7D82BE4A56_8* Field_2_5; // 0x30
+	::Cysharp::Threading::Tasks::UniTask_1_Awaiter<::Struct_2_9D8B950D8621E6B3> Field_2_11; // 0x38
+	::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder Field_2_0; // 0x58
+	::System::String* Field_2_6; // 0x68
+	::Cysharp::Threading::Tasks::UniTask_Awaiter Field_2_10; // 0x70
+	::System::Int32 Field_2_1; // 0x80
 
 	::System::Void MoveNext()
 	{

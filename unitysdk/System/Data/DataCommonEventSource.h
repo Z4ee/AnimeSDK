@@ -4,26 +4,26 @@
 
 namespace System { class String; }
 
-#define SYSTEM_DATA_DATACOMMONEVENTSOURCE_ENTERSCOPE_OFFSET UNITYSDK_OFFSET(0x1D6D3E80)
-#define SYSTEM_DATA_DATACOMMONEVENTSOURCE_EXITSCOPE_OFFSET UNITYSDK_OFFSET(0x1D6D3ED0)
-#define SYSTEM_DATA_DATACOMMONEVENTSOURCE_TRACE_OFFSET UNITYSDK_OFFSET(0x1D6D3E70)
-#define SYSTEM_DATA_DATACOMMONEVENTSOURCE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D6D3F30)
-#define SYSTEM_DATA_DATACOMMONEVENTSOURCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6D3EE0)
+#define SYSTEM_DATA_DATACOMMONEVENTSOURCE_ENTERSCOPE_OFFSET UNITYSDK_OFFSET(0x1EAB0DE0)
+#define SYSTEM_DATA_DATACOMMONEVENTSOURCE_EXITSCOPE_OFFSET UNITYSDK_OFFSET(0x1EAB0E30)
+#define SYSTEM_DATA_DATACOMMONEVENTSOURCE_TRACE_OFFSET UNITYSDK_OFFSET(0x1EAB0DD0)
+#define SYSTEM_DATA_DATACOMMONEVENTSOURCE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EAB0E90)
+#define SYSTEM_DATA_DATACOMMONEVENTSOURCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EAB0E40)
 
 namespace System::Data
 {
-	inline static constexpr unsigned int DataCommonEventSource_TypeDefinitionIndex = 38556;
+	inline static constexpr unsigned int DataCommonEventSource_TypeDefinitionIndex = 39217;
 
 	class DataCommonEventSource : public ::System::Diagnostics::Tracing::EventSource
 	{
 	public:
 		static ::System::Data::DataCommonEventSource** StaticGet_Log()
 		{
-			return (::System::Data::DataCommonEventSource**)Il2CppClass::FromTypeDefinitionIndex(DataCommonEventSource_TypeDefinitionIndex)->GetStaticField(0x290C0);
+			return (::System::Data::DataCommonEventSource**)Il2CppClass::FromTypeDefinitionIndex(DataCommonEventSource_TypeDefinitionIndex)->GetStaticField(0x2A9F0);
 		}
 		static ::System::Int64* StaticGet_s_nextScopeId()
 		{
-			return (::System::Int64*)Il2CppClass::FromTypeDefinitionIndex(DataCommonEventSource_TypeDefinitionIndex)->GetStaticField(0x8F90);
+			return (::System::Int64*)Il2CppClass::FromTypeDefinitionIndex(DataCommonEventSource_TypeDefinitionIndex)->GetStaticField(0x9080);
 		}
 
 		::System::Void _ctor()

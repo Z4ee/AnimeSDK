@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define CHECKDUPLICATENODE__CTOR_OFFSET UNITYSDK_OFFSET(0x11A05670)
+#define CHECKDUPLICATENODE__CTOR_OFFSET UNITYSDK_OFFSET(0x123CEB60)
 
-inline static constexpr unsigned int CheckDuplicateNode_TypeDefinitionIndex = 91439;
+inline static constexpr unsigned int CheckDuplicateNode_TypeDefinitionIndex = 95381;
 
 class CheckDuplicateNode : public ::UnityEngine::MonoBehaviour
 {

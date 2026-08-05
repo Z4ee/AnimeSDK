@@ -8,16 +8,16 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Renderer; }
 
-#define MOLEMOLE_MONOCOLLIDERBINDMESHRENDERS_GETBINDMESHRENDERERS_OFFSET UNITYSDK_OFFSET(0x1418EA00)
-#define MOLEMOLE_MONOCOLLIDERBINDMESHRENDERS_GETMATERIALSLISTBYRENDERS_OFFSET UNITYSDK_OFFSET(0x1418E170)
-#define MOLEMOLE_MONOCOLLIDERBINDMESHRENDERS_GETOVERRIDERDITHERKEY_OFFSET UNITYSDK_OFFSET(0x1418E9C0)
-#define MOLEMOLE_MONOCOLLIDERBINDMESHRENDERS_METHOD_5_3306F24AC967FE79_OFFSET UNITYSDK_OFFSET(0x1418E5B0)
-#define MOLEMOLE_MONOCOLLIDERBINDMESHRENDERS_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1418E560)
-#define MOLEMOLE_MONOCOLLIDERBINDMESHRENDERS__CTOR_OFFSET UNITYSDK_OFFSET(0x1418EA40)
+#define MOLEMOLE_MONOCOLLIDERBINDMESHRENDERS_GETBINDMESHRENDERERS_OFFSET UNITYSDK_OFFSET(0x10802A70)
+#define MOLEMOLE_MONOCOLLIDERBINDMESHRENDERS_GETMATERIALSLISTBYRENDERS_OFFSET UNITYSDK_OFFSET(0x10802190)
+#define MOLEMOLE_MONOCOLLIDERBINDMESHRENDERS_GETOVERRIDERDITHERKEY_OFFSET UNITYSDK_OFFSET(0x10802A30)
+#define MOLEMOLE_MONOCOLLIDERBINDMESHRENDERS_METHOD_5_3306F24AC967FE79_OFFSET UNITYSDK_OFFSET(0x10802630)
+#define MOLEMOLE_MONOCOLLIDERBINDMESHRENDERS_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x108025E0)
+#define MOLEMOLE_MONOCOLLIDERBINDMESHRENDERS__CTOR_OFFSET UNITYSDK_OFFSET(0x10802AB0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoColliderBindMeshRenders_TypeDefinitionIndex = 72693;
+	inline static constexpr unsigned int MonoColliderBindMeshRenders_TypeDefinitionIndex = 70252;
 
 	class MonoColliderBindMeshRenders : public ::UnityEngine::MonoBehaviour
 	{
@@ -25,7 +25,7 @@ namespace MoleMole
 		::System::String* overrideDitherKey; // 0x18
 		::Il2CppArray<::UnityEngine::Renderer*>* bindMeshRenderers; // 0x20
 		::Il2CppArray<::System::String*>* AttachPoints; // 0x28
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::UnityEngine::Material*>*>* Field_5_3; // 0x30
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::UnityEngine::Material*>*>* Field_5_0; // 0x30
 
 		::System::Void _ctor()
 		{

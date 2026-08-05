@@ -5,18 +5,18 @@
 namespace System { template <typename T1, typename T2> class Tuple_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_MONOLEVELDOORWIDTHSYNC_CLASS_1_991BEB3714D9D0F5__CTOR_1_OFFSET UNITYSDK_OFFSET(0x16CD95B0)
-#define MOLEMOLE_MONOLEVELDOORWIDTHSYNC_CLASS_1_991BEB3714D9D0F5__CTOR_OFFSET UNITYSDK_OFFSET(0x16CD95A0)
+#define MOLEMOLE_MONOLEVELDOORWIDTHSYNC_CLASS_1_991BEB3714D9D0F5__CTOR_1_OFFSET UNITYSDK_OFFSET(0x11901020)
+#define MOLEMOLE_MONOLEVELDOORWIDTHSYNC_CLASS_1_991BEB3714D9D0F5__CTOR_OFFSET UNITYSDK_OFFSET(0x11901010)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoLevelDoorWidthSync_Class_1_991BEB3714D9D0F5_TypeDefinitionIndex = 56425;
+	inline static constexpr unsigned int MonoLevelDoorWidthSync_Class_1_991BEB3714D9D0F5_TypeDefinitionIndex = 84233;
 
 	class MonoLevelDoorWidthSync_Class_1_991BEB3714D9D0F5 : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::Tuple_2<::System::Single, ::System::Int16>*>* Field_1_1; // 0x10
-		::System::Single Field_1_0; // 0x18
+		::System::Collections::Generic::List_1<::System::Tuple_2<::System::Single, ::System::Int16>*>* Field_1_0; // 0x10
+		::System::Single Field_1_1; // 0x18
 
 		::System::Void _ctor()
 		{

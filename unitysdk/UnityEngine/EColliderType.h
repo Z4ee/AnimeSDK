@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int EColliderType_TypeDefinitionIndex = 7713;
+	inline static constexpr unsigned int EColliderType_TypeDefinitionIndex = 7789;
 
 	enum class EColliderType : ::System::Int32
 	{

@@ -6,12 +6,12 @@ namespace MoleMole { class ComicImgStyle; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_COMICIMGSTYLECONFIG_CLONE_OFFSET UNITYSDK_OFFSET(0x1E8663D0)
-#define MOLEMOLE_COMICIMGSTYLECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1E866430)
+#define MOLEMOLE_COMICIMGSTYLECONFIG_CLONE_OFFSET UNITYSDK_OFFSET(0x1FC16BF0)
+#define MOLEMOLE_COMICIMGSTYLECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1FC16C50)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ComicImgStyleConfig_TypeDefinitionIndex = 32139;
+	inline static constexpr unsigned int ComicImgStyleConfig_TypeDefinitionIndex = 32767;
 
 	class ComicImgStyleConfig : public ::Sirenix::OdinInspector::SerializedScriptableObject
 	{

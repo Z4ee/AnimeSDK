@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIQuestionsAnswerWidgetController___c__DisplayClass56_0; }
 
-#define MOLEMOLE_UIQUESTIONSANSWERWIDGETCONTROLLER___C__DISPLAYCLASS56_1__BEFORESTAGENPC_B__2_OFFSET UNITYSDK_OFFSET(0x18216D40)
-#define MOLEMOLE_UIQUESTIONSANSWERWIDGETCONTROLLER___C__DISPLAYCLASS56_1__CTOR_OFFSET UNITYSDK_OFFSET(0x18216D30)
+#define MOLEMOLE_UIQUESTIONSANSWERWIDGETCONTROLLER___C__DISPLAYCLASS56_1__BEFORESTAGENPC_B__2_OFFSET UNITYSDK_OFFSET(0x1757B350)
+#define MOLEMOLE_UIQUESTIONSANSWERWIDGETCONTROLLER___C__DISPLAYCLASS56_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1757B340)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIQuestionsAnswerWidgetController___c__DisplayClass56_1_TypeDefinitionIndex = 61868;
+	inline static constexpr unsigned int UIQuestionsAnswerWidgetController___c__DisplayClass56_1_TypeDefinitionIndex = 88942;
 
 	class UIQuestionsAnswerWidgetController___c__DisplayClass56_1 : public ::System::Object
 	{

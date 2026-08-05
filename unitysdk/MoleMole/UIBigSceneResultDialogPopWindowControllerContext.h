@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIBIGSCENERESULTDIALOGPOPWINDOWCONTROLLERCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x14C05E00)
+#define MOLEMOLE_UIBIGSCENERESULTDIALOGPOPWINDOWCONTROLLERCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1604BF10)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBigSceneResultDialogPopWindowControllerContext_TypeDefinitionIndex = 44631;
+	inline static constexpr unsigned int UIBigSceneResultDialogPopWindowControllerContext_TypeDefinitionIndex = 86449;
 
 	class UIBigSceneResultDialogPopWindowControllerContext : public ::MoleMole::UIControllerContextBase
 	{

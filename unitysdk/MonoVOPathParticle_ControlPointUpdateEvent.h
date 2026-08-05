@@ -5,9 +5,9 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MONOVOPATHPARTICLE_CONTROLPOINTUPDATEEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x19516170)
+#define MONOVOPATHPARTICLE_CONTROLPOINTUPDATEEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x114AB910)
 
-inline static constexpr unsigned int MonoVOPathParticle_ControlPointUpdateEvent_TypeDefinitionIndex = 74340;
+inline static constexpr unsigned int MonoVOPathParticle_ControlPointUpdateEvent_TypeDefinitionIndex = 47578;
 
 class MonoVOPathParticle_ControlPointUpdateEvent : public ::UnityEngine::Events::UnityEvent_1<::System::Collections::Generic::List_1<::UnityEngine::Vector3>*>
 {

@@ -3,9 +3,9 @@
 #include "unitysdk/MoleMole/InLevelPauseLevelTab.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_1E0CF91A5D8A4275__CTOR_OFFSET UNITYSDK_OFFSET(0x1909A280)
+#define CLASS_1_1E0CF91A5D8A4275__CTOR_OFFSET UNITYSDK_OFFSET(0x18612890)
 
-inline static constexpr unsigned int Class_1_1E0CF91A5D8A4275_TypeDefinitionIndex = 85749;
+inline static constexpr unsigned int Class_1_1E0CF91A5D8A4275_TypeDefinitionIndex = 79463;
 
 class Class_1_1E0CF91A5D8A4275 : public ::System::Object
 {

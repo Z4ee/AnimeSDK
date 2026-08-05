@@ -6,7 +6,7 @@ namespace UnityEngine { class GameObject; }
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int OffscreenParticleManager_IResourceLoader_TypeDefinitionIndex = 26716;
+	inline static constexpr unsigned int OffscreenParticleManager_IResourceLoader_TypeDefinitionIndex = 27678;
 
 	class OffscreenParticleManager_IResourceLoader
 	{

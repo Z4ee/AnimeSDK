@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define COMICBUBBLEIMGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x114554B0)
+#define COMICBUBBLEIMGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1297EF40)
 
-inline static constexpr unsigned int ComicBubbleImgConfig_TypeDefinitionIndex = 83688;
+inline static constexpr unsigned int ComicBubbleImgConfig_TypeDefinitionIndex = 63690;
 
 class ComicBubbleImgConfig : public ::UnityEngine::MonoBehaviour
 {

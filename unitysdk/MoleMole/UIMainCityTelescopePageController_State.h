@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMainCityTelescopePageController_State_TypeDefinitionIndex = 53807;
+	inline static constexpr unsigned int UIMainCityTelescopePageController_State_TypeDefinitionIndex = 84286;
 
 	enum class UIMainCityTelescopePageController_State : ::System::Int32
 	{

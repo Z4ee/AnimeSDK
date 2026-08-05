@@ -1,0 +1,105 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/MoleMole/UIWidgetController.h"
+
+class Class_2_DC68C3196744AD43;
+class Class_2_F80368D3EA795458;
+class Class_2_F8EB4D9464ADCCA1;
+namespace MoleMole { class UIActivityBossChallengeHardInfoWidgetController; }
+namespace MoleMole { class UIControlReference; }
+namespace MoleMole { class UIControllerContextBase; }
+namespace MoleMole { class UIHadalZone_Common_HadalRoom_CardContext; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define MOLEMOLE_UIACTIVITYBOSSCHALLENGEINFOCOMPWIDGETCONTROLLER_ONCLICKBOSSCARD_OFFSET UNITYSDK_OFFSET(0x1A5FEE70)
+#define MOLEMOLE_UIACTIVITYBOSSCHALLENGEINFOCOMPWIDGETCONTROLLER_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x1A5FE530)
+#define MOLEMOLE_UIACTIVITYBOSSCHALLENGEINFOCOMPWIDGETCONTROLLER_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x1A5FE5C0)
+#define MOLEMOLE_UIACTIVITYBOSSCHALLENGEINFOCOMPWIDGETCONTROLLER_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x1A5FE340)
+#define MOLEMOLE_UIACTIVITYBOSSCHALLENGEINFOCOMPWIDGETCONTROLLER_ONUIOPEN_OFFSET UNITYSDK_OFFSET(0x1A5FE490)
+#define MOLEMOLE_UIACTIVITYBOSSCHALLENGEINFOCOMPWIDGETCONTROLLER_REFRESHBOSSINFO_OFFSET UNITYSDK_OFFSET(0x1A5FE6C0)
+#define MOLEMOLE_UIACTIVITYBOSSCHALLENGEINFOCOMPWIDGETCONTROLLER_REFRESHHARDINFO_OFFSET UNITYSDK_OFFSET(0x1A5FEE10)
+#define MOLEMOLE_UIACTIVITYBOSSCHALLENGEINFOCOMPWIDGETCONTROLLER_SETACTIVITYDATA_OFFSET UNITYSDK_OFFSET(0x1A5FE640)
+#define MOLEMOLE_UIACTIVITYBOSSCHALLENGEINFOCOMPWIDGETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5FF1B0)
+#define MOLEMOLE_UIACTIVITYBOSSCHALLENGEINFOCOMPWIDGETCONTROLLER___BASE_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x1A5FF290)
+#define MOLEMOLE_UIACTIVITYBOSSCHALLENGEINFOCOMPWIDGETCONTROLLER___BASE_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x1A5FF320)
+#define MOLEMOLE_UIACTIVITYBOSSCHALLENGEINFOCOMPWIDGETCONTROLLER___BASE_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x1A5FF3B0)
+#define MOLEMOLE_UIACTIVITYBOSSCHALLENGEINFOCOMPWIDGETCONTROLLER___BASE_ONUIOPEN_OFFSET UNITYSDK_OFFSET(0x1A5FF440)
+
+namespace MoleMole
+{
+	inline static constexpr unsigned int UIActivityBossChallengeInfoCompWidgetController_TypeDefinitionIndex = 73772;
+
+	class UIActivityBossChallengeInfoCompWidgetController : public ::MoleMole::UIWidgetController
+	{
+	public:
+		::Class_2_F80368D3EA795458* _view; // 0x2C0
+		::Class_2_DC68C3196744AD43* _activityUI; // 0x2C8
+		::System::Collections::Generic::List_1<::MoleMole::UIHadalZone_Common_HadalRoom_CardContext*>* _cardList; // 0x2D0
+		::MoleMole::UIActivityBossChallengeHardInfoWidgetController* _hardInfoWidget; // 0x2D8
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYBOSSCHALLENGEINFOCOMPWIDGETCONTROLLER__CTOR_OFFSET))(this);
+		}
+
+		::System::Void OnUIInit()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYBOSSCHALLENGEINFOCOMPWIDGETCONTROLLER_ONUIINIT_OFFSET))(this);
+		}
+
+		::System::Void OnUIOpen(::MoleMole::UIControllerContextBase* openCtrlContext)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYBOSSCHALLENGEINFOCOMPWIDGETCONTROLLER_ONUIOPEN_OFFSET))(this, openCtrlContext);
+		}
+
+		::System::Void OnCreateView(::MoleMole::UIControlReference* controlReference)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYBOSSCHALLENGEINFOCOMPWIDGETCONTROLLER_ONCREATEVIEW_OFFSET))(this, controlReference);
+		}
+
+		::System::Void OnUIDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYBOSSCHALLENGEINFOCOMPWIDGETCONTROLLER_ONUIDESTROY_OFFSET))(this);
+		}
+
+		::System::Void SetActivityData(::Class_2_DC68C3196744AD43* activityUI)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_2_DC68C3196744AD43*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYBOSSCHALLENGEINFOCOMPWIDGETCONTROLLER_SETACTIVITYDATA_OFFSET))(this, activityUI);
+		}
+
+		::System::Void RefreshBossInfo()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYBOSSCHALLENGEINFOCOMPWIDGETCONTROLLER_REFRESHBOSSINFO_OFFSET))(this);
+		}
+
+		::System::Void RefreshHardInfo()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYBOSSCHALLENGEINFOCOMPWIDGETCONTROLLER_REFRESHHARDINFO_OFFSET))(this);
+		}
+
+		::System::Void OnClickBossCard(::System::Int32 roomID, ::System::Int32 monsterLevel, ::Class_2_F8EB4D9464ADCCA1* cardMonster)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::Class_2_F8EB4D9464ADCCA1*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYBOSSCHALLENGEINFOCOMPWIDGETCONTROLLER_ONCLICKBOSSCARD_OFFSET))(this, roomID, monsterLevel, cardMonster);
+		}
+
+		::System::Void __base_OnCreateView(::MoleMole::UIControlReference* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYBOSSCHALLENGEINFOCOMPWIDGETCONTROLLER___BASE_ONCREATEVIEW_OFFSET))(this, P0);
+		}
+
+		::System::Void __base_OnUIDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYBOSSCHALLENGEINFOCOMPWIDGETCONTROLLER___BASE_ONUIDESTROY_OFFSET))(this);
+		}
+
+		::System::Void __base_OnUIInit()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYBOSSCHALLENGEINFOCOMPWIDGETCONTROLLER___BASE_ONUIINIT_OFFSET))(this);
+		}
+
+		::System::Void __base_OnUIOpen(::MoleMole::UIControllerContextBase* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYBOSSCHALLENGEINFOCOMPWIDGETCONTROLLER___BASE_ONUIOPEN_OFFSET))(this, P0);
+		}
+	};
+}

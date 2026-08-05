@@ -3,14 +3,14 @@
 
 namespace MoleMole::MiniGame::TartarusHounds
 {
-	inline static constexpr unsigned int Direction_TypeDefinitionIndex = 55209;
+	inline static constexpr unsigned int Direction_TypeDefinitionIndex = 89703;
 
 	enum class Direction : ::System::Int32
 	{
+		Left = 3,
 		Right = 1,
 		None = 4,
-		Left = 3,
-		Up = 0,
 		Down = 2,
+		Up = 0,
 	};
 }

@@ -8,36 +8,36 @@
 
 namespace PipelineCamera::CameraSequence { class CameraSequenceContext; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_OPENDIRECTIONSELECTOR_AROUNDDIRECTION_COLLECTVARIABLE_OFFSET UNITYSDK_OFFSET(0x18B2FDF0)
-#define MOLEMOLE_FLOWCANVAS_NODES_OPENDIRECTIONSELECTOR_AROUNDDIRECTION_GETDATA_OFFSET UNITYSDK_OFFSET(0x18B2FF90)
-#define MOLEMOLE_FLOWCANVAS_NODES_OPENDIRECTIONSELECTOR_AROUNDDIRECTION_GET_ISCONTEXTDEPENDENT_OFFSET UNITYSDK_OFFSET(0x18B304F0)
-#define MOLEMOLE_FLOWCANVAS_NODES_OPENDIRECTIONSELECTOR_AROUNDDIRECTION_METHOD_4_24B1E1DE85E3C92F_OFFSET UNITYSDK_OFFSET(0x18B30880)
-#define MOLEMOLE_FLOWCANVAS_NODES_OPENDIRECTIONSELECTOR_AROUNDDIRECTION_METHOD_4_439B588EB4881570_OFFSET UNITYSDK_OFFSET(0x18B30930)
-#define MOLEMOLE_FLOWCANVAS_NODES_OPENDIRECTIONSELECTOR_AROUNDDIRECTION_METHOD_4_5A60CCF7370A1875_OFFSET UNITYSDK_OFFSET(0x18B30680)
-#define MOLEMOLE_FLOWCANVAS_NODES_OPENDIRECTIONSELECTOR_AROUNDDIRECTION_METHOD_4_8A5D6889494E1D04_OFFSET UNITYSDK_OFFSET(0x18B30770)
-#define MOLEMOLE_FLOWCANVAS_NODES_OPENDIRECTIONSELECTOR_AROUNDDIRECTION_METHOD_4_C1397965C8E8E75A_OFFSET UNITYSDK_OFFSET(0x18B305D0)
-#define MOLEMOLE_FLOWCANVAS_NODES_OPENDIRECTIONSELECTOR_AROUNDDIRECTION_SETPATH_OFFSET UNITYSDK_OFFSET(0x18B2FD50)
-#define MOLEMOLE_FLOWCANVAS_NODES_OPENDIRECTIONSELECTOR_AROUNDDIRECTION__CCTOR_OFFSET UNITYSDK_OFFSET(0x18B30520)
-#define MOLEMOLE_FLOWCANVAS_NODES_OPENDIRECTIONSELECTOR_AROUNDDIRECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x18B30500)
+#define MOLEMOLE_FLOWCANVAS_NODES_OPENDIRECTIONSELECTOR_AROUNDDIRECTION_COLLECTVARIABLE_OFFSET UNITYSDK_OFFSET(0x118C4DB0)
+#define MOLEMOLE_FLOWCANVAS_NODES_OPENDIRECTIONSELECTOR_AROUNDDIRECTION_GETDATA_OFFSET UNITYSDK_OFFSET(0x118C4F50)
+#define MOLEMOLE_FLOWCANVAS_NODES_OPENDIRECTIONSELECTOR_AROUNDDIRECTION_GET_ISCONTEXTDEPENDENT_OFFSET UNITYSDK_OFFSET(0x118C5440)
+#define MOLEMOLE_FLOWCANVAS_NODES_OPENDIRECTIONSELECTOR_AROUNDDIRECTION_METHOD_4_24B1E1DE85E3C92F_OFFSET UNITYSDK_OFFSET(0x118C5520)
+#define MOLEMOLE_FLOWCANVAS_NODES_OPENDIRECTIONSELECTOR_AROUNDDIRECTION_METHOD_4_439B588EB4881570_OFFSET UNITYSDK_OFFSET(0x118C56C0)
+#define MOLEMOLE_FLOWCANVAS_NODES_OPENDIRECTIONSELECTOR_AROUNDDIRECTION_METHOD_4_5A60CCF7370A1875_OFFSET UNITYSDK_OFFSET(0x118C55D0)
+#define MOLEMOLE_FLOWCANVAS_NODES_OPENDIRECTIONSELECTOR_AROUNDDIRECTION_METHOD_4_8A5D6889494E1D04_OFFSET UNITYSDK_OFFSET(0x118C5750)
+#define MOLEMOLE_FLOWCANVAS_NODES_OPENDIRECTIONSELECTOR_AROUNDDIRECTION_METHOD_4_C1397965C8E8E75A_OFFSET UNITYSDK_OFFSET(0x118C5860)
+#define MOLEMOLE_FLOWCANVAS_NODES_OPENDIRECTIONSELECTOR_AROUNDDIRECTION_SETPATH_OFFSET UNITYSDK_OFFSET(0x118C4D10)
+#define MOLEMOLE_FLOWCANVAS_NODES_OPENDIRECTIONSELECTOR_AROUNDDIRECTION__CCTOR_OFFSET UNITYSDK_OFFSET(0x118C5470)
+#define MOLEMOLE_FLOWCANVAS_NODES_OPENDIRECTIONSELECTOR_AROUNDDIRECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x118C5450)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int OpenDirectionSelector_AroundDirection_TypeDefinitionIndex = 54133;
+	inline static constexpr unsigned int OpenDirectionSelector_AroundDirection_TypeDefinitionIndex = 48344;
 
 	class OpenDirectionSelector_AroundDirection : public ::MoleMole::FlowCanvas::Nodes::OpenDirectionSelector
 	{
 	public:
 		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_projectOnXZPlane()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(OpenDirectionSelector_AroundDirection_TypeDefinitionIndex)->GetStaticField(0xE360);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(OpenDirectionSelector_AroundDirection_TypeDefinitionIndex)->GetStaticField(0xE2D0);
 		}
 		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_direction()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(OpenDirectionSelector_AroundDirection_TypeDefinitionIndex)->GetStaticField(0xE368);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(OpenDirectionSelector_AroundDirection_TypeDefinitionIndex)->GetStaticField(0xE2D8);
 		}
 		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_directionOffset()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(OpenDirectionSelector_AroundDirection_TypeDefinitionIndex)->GetStaticField(0xE370);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(OpenDirectionSelector_AroundDirection_TypeDefinitionIndex)->GetStaticField(0xE2E0);
 		}
 		::UnityEngine::Vector3 direction; // 0x40
 		::System::Boolean projectOnXZPlane; // 0x4C
@@ -74,9 +74,9 @@ namespace MoleMole::FlowCanvas::Nodes
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_OPENDIRECTIONSELECTOR_AROUNDDIRECTION_GET_ISCONTEXTDEPENDENT_OFFSET))(this);
 		}
 
-		::System::Single Method_4_C1397965C8E8E75A(::PipelineCamera::CameraSequence::CameraSequenceContext* a1)
+		::System::Boolean Method_4_24B1E1DE85E3C92F(::PipelineCamera::CameraSequence::CameraSequenceContext* a1)
 		{
-			return ((::System::Single(*)(::PVOID, ::PipelineCamera::CameraSequence::CameraSequenceContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_OPENDIRECTIONSELECTOR_AROUNDDIRECTION_METHOD_4_C1397965C8E8E75A_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::PipelineCamera::CameraSequence::CameraSequenceContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_OPENDIRECTIONSELECTOR_AROUNDDIRECTION_METHOD_4_24B1E1DE85E3C92F_OFFSET))(this, a1);
 		}
 
 		::System::Void Method_4_5A60CCF7370A1875(::PipelineCamera::CameraSequence::CameraSequenceVariableCollector a1)
@@ -84,19 +84,19 @@ namespace MoleMole::FlowCanvas::Nodes
 			return ((::System::Void(*)(::PVOID, ::PipelineCamera::CameraSequence::CameraSequenceVariableCollector))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_OPENDIRECTIONSELECTOR_AROUNDDIRECTION_METHOD_4_5A60CCF7370A1875_OFFSET))(this, a1);
 		}
 
+		::System::Void Method_4_439B588EB4881570(::PipelineCamera::CameraSequence::CameraSequenceMemberPath& a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::PipelineCamera::CameraSequence::CameraSequenceMemberPath&))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_OPENDIRECTIONSELECTOR_AROUNDDIRECTION_METHOD_4_439B588EB4881570_OFFSET))(this, a1);
+		}
+
 		::UnityEngine::Vector3 Method_4_8A5D6889494E1D04(::PipelineCamera::CameraSequence::CameraSequenceContext* a1)
 		{
 			return ((::UnityEngine::Vector3(*)(::PVOID, ::PipelineCamera::CameraSequence::CameraSequenceContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_OPENDIRECTIONSELECTOR_AROUNDDIRECTION_METHOD_4_8A5D6889494E1D04_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Method_4_24B1E1DE85E3C92F(::PipelineCamera::CameraSequence::CameraSequenceContext* a1)
+		::System::Single Method_4_C1397965C8E8E75A(::PipelineCamera::CameraSequence::CameraSequenceContext* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::PipelineCamera::CameraSequence::CameraSequenceContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_OPENDIRECTIONSELECTOR_AROUNDDIRECTION_METHOD_4_24B1E1DE85E3C92F_OFFSET))(this, a1);
-		}
-
-		::System::Void Method_4_439B588EB4881570(::PipelineCamera::CameraSequence::CameraSequenceMemberPath& a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::PipelineCamera::CameraSequence::CameraSequenceMemberPath&))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_OPENDIRECTIONSELECTOR_AROUNDDIRECTION_METHOD_4_439B588EB4881570_OFFSET))(this, a1);
+			return ((::System::Single(*)(::PVOID, ::PipelineCamera::CameraSequence::CameraSequenceContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_OPENDIRECTIONSELECTOR_AROUNDDIRECTION_METHOD_4_C1397965C8E8E75A_OFFSET))(this, a1);
 		}
 	};
 }

@@ -4,7 +4,7 @@
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int EarlyUpdate_DispatchEventQueueEvents_TypeDefinitionIndex = 5561;
+	inline static constexpr unsigned int EarlyUpdate_DispatchEventQueueEvents_TypeDefinitionIndex = 5564;
 
 	struct alignas(1) EarlyUpdate_DispatchEventQueueEvents
 	{

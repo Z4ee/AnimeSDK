@@ -11,23 +11,23 @@ class Class_1_0BF092863AC7E04F;
 namespace MoleMole::Cameras { class TelescopeCameraConfig; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define CLASS_1_0BF092863AC7E04F_STRUCT_2_0F7E7256CAEF9879_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x74EFB0)
-#define CLASS_1_0BF092863AC7E04F_STRUCT_2_0F7E7256CAEF9879_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x283610)
+#define CLASS_1_0BF092863AC7E04F_STRUCT_2_0F7E7256CAEF9879_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x886950)
+#define CLASS_1_0BF092863AC7E04F_STRUCT_2_0F7E7256CAEF9879_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x296F30)
 
-inline static constexpr unsigned int Class_1_0BF092863AC7E04F_Struct_2_0F7E7256CAEF9879_TypeDefinitionIndex = 80072;
+inline static constexpr unsigned int Class_1_0BF092863AC7E04F_Struct_2_0F7E7256CAEF9879_TypeDefinitionIndex = 50973;
 
 struct alignas(8) Class_1_0BF092863AC7E04F_Struct_2_0F7E7256CAEF9879
 {
-	::Class_1_0BF092863AC7E04F* Field_2_2; // 0x10
-	::PipelineCamera::ScopedDelegateHandle Field_2_8; // 0x18
-	::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskVoidMethodBuilder Field_2_1; // 0x20
-	::MoleMole::Cameras::TelescopeCameraConfig* Field_2_7; // 0x28
-	::Cysharp::Threading::Tasks::UniTask_Awaiter Field_2_9; // 0x30
-	::UnityEngine::Vector3 Field_2_3; // 0x40
-	::UnityEngine::Quaternion Field_2_4; // 0x4C
+	::Cysharp::Threading::Tasks::UniTask_Awaiter Field_2_9; // 0x10
+	::PipelineCamera::ScopedDelegateHandle Field_2_10; // 0x20
+	::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskVoidMethodBuilder Field_2_1; // 0x28
+	::Class_1_0BF092863AC7E04F* Field_2_0; // 0x30
+	::MoleMole::Cameras::TelescopeCameraConfig* Field_2_11; // 0x38
+	::UnityEngine::Vector3 Field_2_7; // 0x40
+	::UnityEngine::Quaternion Field_2_6; // 0x4C
 	::System::Single Field_2_5; // 0x5C
-	::System::Single Field_2_6; // 0x60
-	::System::Int32 Field_2_0; // 0x64
+	::System::Int32 Field_2_2; // 0x60
+	::System::Single Field_2_4; // 0x64
 
 	::System::Void MoveNext()
 	{

@@ -5,11 +5,11 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_MONOHACKPROGRESSITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x12BD1CD0)
+#define MOLEMOLE_MONOHACKPROGRESSITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x138509D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoHackProgressItem_TypeDefinitionIndex = 64452;
+	inline static constexpr unsigned int MonoHackProgressItem_TypeDefinitionIndex = 47325;
 
 	class MonoHackProgressItem : public ::Sirenix::OdinInspector::SerializedMonoBehaviour
 	{

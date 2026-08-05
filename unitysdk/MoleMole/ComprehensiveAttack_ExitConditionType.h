@@ -3,11 +3,11 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ComprehensiveAttack_ExitConditionType_TypeDefinitionIndex = 66001;
+	inline static constexpr unsigned int ComprehensiveAttack_ExitConditionType_TypeDefinitionIndex = 60327;
 
 	enum class ComprehensiveAttack_ExitConditionType : ::System::Int32
 	{
-		ByFrameCount = 1,
 		ByNormalizedTime = 0,
+		ByFrameCount = 1,
 	};
 }

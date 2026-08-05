@@ -5,12 +5,12 @@
 
 namespace System { class String; }
 
-#define NPCCROWD_AI_ATTRACTORTEMPLATE_GET_ELEMENTLABEL_OFFSET UNITYSDK_OFFSET(0x106EDC60)
-#define NPCCROWD_AI_ATTRACTORTEMPLATE__CTOR_OFFSET UNITYSDK_OFFSET(0x106EDD20)
+#define NPCCROWD_AI_ATTRACTORTEMPLATE_GET_ELEMENTLABEL_OFFSET UNITYSDK_OFFSET(0xF75D5B0)
+#define NPCCROWD_AI_ATTRACTORTEMPLATE__CTOR_OFFSET UNITYSDK_OFFSET(0xF75D670)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int AttractorTemplate_TypeDefinitionIndex = 61696;
+	inline static constexpr unsigned int AttractorTemplate_TypeDefinitionIndex = 90456;
 
 	class AttractorTemplate : public ::System::Object
 	{

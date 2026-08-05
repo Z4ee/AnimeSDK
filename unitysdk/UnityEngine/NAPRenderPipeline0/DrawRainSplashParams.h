@@ -8,7 +8,7 @@
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int DrawRainSplashParams_TypeDefinitionIndex = 5939;
+	inline static constexpr unsigned int DrawRainSplashParams_TypeDefinitionIndex = 5941;
 
 	struct alignas(8) DrawRainSplashParams
 	{

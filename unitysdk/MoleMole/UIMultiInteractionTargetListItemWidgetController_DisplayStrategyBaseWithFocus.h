@@ -1,0 +1,65 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/MoleMole/UIMultiInteractionTargetListItemWidgetController_DisplayStrategyBase.h"
+#include "unitysdk/Struct_2_24A53FACD918DAF7.h"
+#include "unitysdk/Struct_2_C8629618711DF8B3.h"
+
+class Class_2_60638234271CCDB8_63;
+class Class_3_D92ADC48CDFCC09B;
+namespace MoleMole { class UIMultiInteractionTargetListItemWidgetController; }
+namespace MoleMole { class UIMultiInteractionTargetListItemWidgetController_Context; }
+
+#define MOLEMOLE_UIMULTIINTERACTIONTARGETLISTITEMWIDGETCONTROLLER_DISPLAYSTRATEGYBASEWITHFOCUS_DOBIND_OFFSET UNITYSDK_OFFSET(0x168E2B00)
+#define MOLEMOLE_UIMULTIINTERACTIONTARGETLISTITEMWIDGETCONTROLLER_DISPLAYSTRATEGYBASEWITHFOCUS_DOUNBIND_OFFSET UNITYSDK_OFFSET(0x168E2ED0)
+#define MOLEMOLE_UIMULTIINTERACTIONTARGETLISTITEMWIDGETCONTROLLER_DISPLAYSTRATEGYBASEWITHFOCUS_GET__EVENTHANDLER_OFFSET UNITYSDK_OFFSET(0x168E2A60)
+#define MOLEMOLE_UIMULTIINTERACTIONTARGETLISTITEMWIDGETCONTROLLER_DISPLAYSTRATEGYBASEWITHFOCUS_ONFOCUSEDINTERACTIONCHANGED_OFFSET UNITYSDK_OFFSET(0x168E2F50)
+#define MOLEMOLE_UIMULTIINTERACTIONTARGETLISTITEMWIDGETCONTROLLER_DISPLAYSTRATEGYBASEWITHFOCUS__CTOR_OFFSET UNITYSDK_OFFSET(0x168E3130)
+#define MOLEMOLE_UIMULTIINTERACTIONTARGETLISTITEMWIDGETCONTROLLER_DISPLAYSTRATEGYBASEWITHFOCUS___BASE_DOBIND_OFFSET UNITYSDK_OFFSET(0x168E3140)
+#define MOLEMOLE_UIMULTIINTERACTIONTARGETLISTITEMWIDGETCONTROLLER_DISPLAYSTRATEGYBASEWITHFOCUS___BASE_DOUNBIND_OFFSET UNITYSDK_OFFSET(0x168E3150)
+
+namespace MoleMole
+{
+	inline static constexpr unsigned int UIMultiInteractionTargetListItemWidgetController_DisplayStrategyBaseWithFocus_TypeDefinitionIndex = 79758;
+
+	class UIMultiInteractionTargetListItemWidgetController_DisplayStrategyBaseWithFocus : public ::MoleMole::UIMultiInteractionTargetListItemWidgetController_DisplayStrategyBase
+	{
+	public:
+		::Class_3_D92ADC48CDFCC09B* __eventHandler; // 0x38
+		::Struct_2_24A53FACD918DAF7 _focusedInteractionSubscription; // 0x40
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMULTIINTERACTIONTARGETLISTITEMWIDGETCONTROLLER_DISPLAYSTRATEGYBASEWITHFOCUS__CTOR_OFFSET))(this);
+		}
+
+		::Class_3_D92ADC48CDFCC09B* get__eventHandler()
+		{
+			return ((::Class_3_D92ADC48CDFCC09B*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMULTIINTERACTIONTARGETLISTITEMWIDGETCONTROLLER_DISPLAYSTRATEGYBASEWITHFOCUS_GET__EVENTHANDLER_OFFSET))(this);
+		}
+
+		::System::Void DoBind(::MoleMole::UIMultiInteractionTargetListItemWidgetController_Context*& context, ::MoleMole::UIMultiInteractionTargetListItemWidgetController*& controller, ::Class_2_60638234271CCDB8_63*& view)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIMultiInteractionTargetListItemWidgetController_Context*&, ::MoleMole::UIMultiInteractionTargetListItemWidgetController*&, ::Class_2_60638234271CCDB8_63*&))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMULTIINTERACTIONTARGETLISTITEMWIDGETCONTROLLER_DISPLAYSTRATEGYBASEWITHFOCUS_DOBIND_OFFSET))(this, context, controller, view);
+		}
+
+		::System::Void DoUnbind()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMULTIINTERACTIONTARGETLISTITEMWIDGETCONTROLLER_DISPLAYSTRATEGYBASEWITHFOCUS_DOUNBIND_OFFSET))(this);
+		}
+
+		::System::Void OnFocusedInteractionChanged(::Struct_2_C8629618711DF8B3& e)
+		{
+			return ((::System::Void(*)(::PVOID, ::Struct_2_C8629618711DF8B3&))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMULTIINTERACTIONTARGETLISTITEMWIDGETCONTROLLER_DISPLAYSTRATEGYBASEWITHFOCUS_ONFOCUSEDINTERACTIONCHANGED_OFFSET))(this, e);
+		}
+
+		::System::Void __base_DoBind(::MoleMole::UIMultiInteractionTargetListItemWidgetController_Context*& P0, ::MoleMole::UIMultiInteractionTargetListItemWidgetController*& P1, ::Class_2_60638234271CCDB8_63*& P2)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIMultiInteractionTargetListItemWidgetController_Context*&, ::MoleMole::UIMultiInteractionTargetListItemWidgetController*&, ::Class_2_60638234271CCDB8_63*&))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMULTIINTERACTIONTARGETLISTITEMWIDGETCONTROLLER_DISPLAYSTRATEGYBASEWITHFOCUS___BASE_DOBIND_OFFSET))(this, P0, P1, P2);
+		}
+
+		::System::Void __base_DoUnbind()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMULTIINTERACTIONTARGETLISTITEMWIDGETCONTROLLER_DISPLAYSTRATEGYBASEWITHFOCUS___BASE_DOUNBIND_OFFSET))(this);
+		}
+	};
+}

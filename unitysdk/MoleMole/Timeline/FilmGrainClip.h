@@ -8,13 +8,13 @@
 namespace MoleMole::Timeline { class FilmGrainBehaviour; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_TIMELINE_FILMGRAINCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x17DF69D0)
-#define MOLEMOLE_TIMELINE_FILMGRAINCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x17DF69C0)
-#define MOLEMOLE_TIMELINE_FILMGRAINCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x17DF6BB0)
+#define MOLEMOLE_TIMELINE_FILMGRAINCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x190BD4E0)
+#define MOLEMOLE_TIMELINE_FILMGRAINCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x190BD4D0)
+#define MOLEMOLE_TIMELINE_FILMGRAINCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x190BD6C0)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int FilmGrainClip_TypeDefinitionIndex = 50869;
+	inline static constexpr unsigned int FilmGrainClip_TypeDefinitionIndex = 79495;
 
 	class FilmGrainClip : public ::UnityEngine::Playables::PlayableAsset
 	{

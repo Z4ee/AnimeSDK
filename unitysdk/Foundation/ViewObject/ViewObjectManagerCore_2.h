@@ -9,7 +9,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace Foundation::ViewObject
 {
-	inline static constexpr unsigned int ViewObjectManagerCore_2_TypeDefinitionIndex = 80340;
+	inline static constexpr unsigned int ViewObjectManagerCore_2_TypeDefinitionIndex = 43912;
 
 	template <typename TViewObjectHandle, typename TViewObject>
 	class ViewObjectManagerCore_2 : public ::System::Object

@@ -4,12 +4,12 @@
 
 namespace System::Reflection { class FieldInfo; }
 
-#define FOUNDATION_MULTIVERSIONINFO___C__DISPLAYCLASS11_0__ADDMULTIVERPATH_B__0_OFFSET UNITYSDK_OFFSET(0x1CC8FC10)
-#define FOUNDATION_MULTIVERSIONINFO___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC8FC00)
+#define FOUNDATION_MULTIVERSIONINFO___C__DISPLAYCLASS11_0__ADDMULTIVERPATH_B__0_OFFSET UNITYSDK_OFFSET(0x1E191450)
+#define FOUNDATION_MULTIVERSIONINFO___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1E191440)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int MultiVersionInfo___c__DisplayClass11_0_TypeDefinitionIndex = 7825;
+	inline static constexpr unsigned int MultiVersionInfo___c__DisplayClass11_0_TypeDefinitionIndex = 8242;
 
 	class MultiVersionInfo___c__DisplayClass11_0 : public ::System::Object
 	{

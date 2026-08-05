@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_3_D9D04A98E641E52F;
+class Class_3_3CB7782166350F5B;
 class Class_3_F92F6A6188E34427;
 
-#define MOLEMOLE_UIFRIENDCHATSPECIALWIDGETCONTROLLER___C__DISPLAYCLASS24_0__CTOR_OFFSET UNITYSDK_OFFSET(0x187EB180)
-#define MOLEMOLE_UIFRIENDCHATSPECIALWIDGETCONTROLLER___C__DISPLAYCLASS24_0__DEALJOINABLEREQUEST_B__0_OFFSET UNITYSDK_OFFSET(0x187EB190)
+#define MOLEMOLE_UIFRIENDCHATSPECIALWIDGETCONTROLLER___C__DISPLAYCLASS24_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19EE3060)
+#define MOLEMOLE_UIFRIENDCHATSPECIALWIDGETCONTROLLER___C__DISPLAYCLASS24_0__DEALJOINABLEREQUEST_B__0_OFFSET UNITYSDK_OFFSET(0x19EE3070)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIFriendChatSpecialWidgetController___c__DisplayClass24_0_TypeDefinitionIndex = 84084;
+	inline static constexpr unsigned int UIFriendChatSpecialWidgetController___c__DisplayClass24_0_TypeDefinitionIndex = 87534;
 
 	class UIFriendChatSpecialWidgetController___c__DisplayClass24_0 : public ::System::Object
 	{
 	public:
-		::Class_3_D9D04A98E641E52F* inviteRequst; // 0x10
+		::Class_3_3CB7782166350F5B* inviteRequst; // 0x10
 
 		::System::Void _ctor()
 		{

@@ -4,24 +4,24 @@
 
 namespace System { template <typename T> class Predicate_1; }
 
-#define FOUNDATION_UNREAL_GAMEPLAYTAGMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x181058C0)
-#define FOUNDATION_UNREAL_GAMEPLAYTAGMANAGER___C__CHECKVALIDGAMEPLAYTAGSIMPLESTRINGVIEW_B__18_0_OFFSET UNITYSDK_OFFSET(0x18105910)
-#define FOUNDATION_UNREAL_GAMEPLAYTAGMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18105900)
+#define FOUNDATION_UNREAL_GAMEPLAYTAGMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18F6BE00)
+#define FOUNDATION_UNREAL_GAMEPLAYTAGMANAGER___C__CHECKVALIDGAMEPLAYTAGSIMPLESTRINGVIEW_B__18_0_OFFSET UNITYSDK_OFFSET(0x18F6BE50)
+#define FOUNDATION_UNREAL_GAMEPLAYTAGMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18F6BE40)
 
 namespace Foundation::Unreal
 {
-	inline static constexpr unsigned int GameplayTagManager___c_TypeDefinitionIndex = 8982;
+	inline static constexpr unsigned int GameplayTagManager___c_TypeDefinitionIndex = 14229;
 
 	class GameplayTagManager___c : public ::System::Object
 	{
 	public:
 		static ::System::Predicate_1<::System::Char>** StaticGet___9__18_0()
 		{
-			return (::System::Predicate_1<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(GameplayTagManager___c_TypeDefinitionIndex)->GetStaticField(0x7A20);
+			return (::System::Predicate_1<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(GameplayTagManager___c_TypeDefinitionIndex)->GetStaticField(0x79E0);
 		}
 		static ::Foundation::Unreal::GameplayTagManager___c** StaticGet___9()
 		{
-			return (::Foundation::Unreal::GameplayTagManager___c**)Il2CppClass::FromTypeDefinitionIndex(GameplayTagManager___c_TypeDefinitionIndex)->GetStaticField(0x7A28);
+			return (::Foundation::Unreal::GameplayTagManager___c**)Il2CppClass::FromTypeDefinitionIndex(GameplayTagManager___c_TypeDefinitionIndex)->GetStaticField(0x79E8);
 		}
 
 		static ::System::Void _cctor()

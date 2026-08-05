@@ -12,7 +12,7 @@ namespace UnityEngine::InputSystem { class IInputActionCollection; }
 
 namespace UnityEngine::InputSystem::Users
 {
-	inline static constexpr unsigned int InputUser_UserData_TypeDefinitionIndex = 31753;
+	inline static constexpr unsigned int InputUser_UserData_TypeDefinitionIndex = 32373;
 
 	struct alignas(8) InputUser_UserData
 	{

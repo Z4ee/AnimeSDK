@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_CONFIG_CHESSBOARDFRONTVIEWCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18F2DAF0)
+#define MOLEMOLE_CONFIG_CHESSBOARDFRONTVIEWCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16257B00)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ChessboardFrontViewConfig_TypeDefinitionIndex = 64826;
+	inline static constexpr unsigned int ChessboardFrontViewConfig_TypeDefinitionIndex = 41772;
 
 	class ChessboardFrontViewConfig : public ::System::Object
 	{

@@ -5,22 +5,22 @@
 
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
-#define CLASS_1_2169C218B639631E_METHOD_1_7ABAA176B11E9110_OFFSET UNITYSDK_OFFSET(0x180887E0)
-#define CLASS_1_2169C218B639631E_METHOD_1_AF2D6C0C63EE9B7E_OFFSET UNITYSDK_OFFSET(0x180884D0)
-#define CLASS_1_2169C218B639631E_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x180888E0)
-#define CLASS_1_2169C218B639631E_METHOD_1_FA662896843C137A_OFFSET UNITYSDK_OFFSET(0x18088880)
-#define CLASS_1_2169C218B639631E__CTOR_OFFSET UNITYSDK_OFFSET(0x18088440)
+#define CLASS_1_2169C218B639631E_METHOD_1_7ABAA176B11E9110_OFFSET UNITYSDK_OFFSET(0x120D1D60)
+#define CLASS_1_2169C218B639631E_METHOD_1_AF2D6C0C63EE9B7E_OFFSET UNITYSDK_OFFSET(0x120D1A40)
+#define CLASS_1_2169C218B639631E_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x120D1E60)
+#define CLASS_1_2169C218B639631E_METHOD_1_FA662896843C137A_OFFSET UNITYSDK_OFFSET(0x120D1E00)
+#define CLASS_1_2169C218B639631E__CTOR_OFFSET UNITYSDK_OFFSET(0x120D19B0)
 
-inline static constexpr unsigned int Class_1_2169C218B639631E_TypeDefinitionIndex = 58825;
+inline static constexpr unsigned int Class_1_2169C218B639631E_TypeDefinitionIndex = 43154;
 
 class Class_1_2169C218B639631E : public ::System::Object
 {
 public:
-	// static const ::System::Int32 Field_1_0 = 0x32; // 0x0
-	// static const ::System::Single Field_1_1; // 0x0
-	::System::Collections::Generic::Queue_1<::UnityEngine::Vector3>* Field_1_4; // 0x10
-	::UnityEngine::Vector3 Field_1_3; // 0x18
-	::UnityEngine::Vector3 Field_1_2; // 0x24
+	// static const ::System::Int32 Field_1_1 = 0x32; // 0x0
+	// static const ::System::Single Field_1_0; // 0x0
+	::System::Collections::Generic::Queue_1<::UnityEngine::Vector3>* Field_1_5; // 0x10
+	::UnityEngine::Vector3 Field_1_6; // 0x18
+	::UnityEngine::Vector3 Field_1_7; // 0x24
 
 	::System::Void _ctor(::UnityEngine::Vector3 a1)
 	{

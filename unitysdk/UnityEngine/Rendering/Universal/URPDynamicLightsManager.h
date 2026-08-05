@@ -7,27 +7,27 @@ namespace UnityEngine { class Transform; }
 namespace UnityEngine::Profiling { class CustomSampler; }
 namespace UnityEngine::Rendering::Universal { class UniversalAdditionalLightData; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_URPDYNAMICLIGHTSMANAGER_GET_S_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1BDCEFC0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_URPDYNAMICLIGHTSMANAGER_REFRESHDYNAMICLIGHT_OFFSET UNITYSDK_OFFSET(0x1BDCF170)
-#define UNITYENGINE_RENDERING_UNIVERSAL_URPDYNAMICLIGHTSMANAGER_REGISTERDYNAMICLIGHT_OFFSET UNITYSDK_OFFSET(0x1BDCF360)
-#define UNITYENGINE_RENDERING_UNIVERSAL_URPDYNAMICLIGHTSMANAGER_UNREGISTERDYNAMICLIGHT_OFFSET UNITYSDK_OFFSET(0x1BDCF410)
-#define UNITYENGINE_RENDERING_UNIVERSAL_URPDYNAMICLIGHTSMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BDCF4A0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_URPDYNAMICLIGHTSMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDCEF00)
+#define UNITYENGINE_RENDERING_UNIVERSAL_URPDYNAMICLIGHTSMANAGER_GET_S_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1CF09D60)
+#define UNITYENGINE_RENDERING_UNIVERSAL_URPDYNAMICLIGHTSMANAGER_REFRESHDYNAMICLIGHT_OFFSET UNITYSDK_OFFSET(0x1CF09F10)
+#define UNITYENGINE_RENDERING_UNIVERSAL_URPDYNAMICLIGHTSMANAGER_REGISTERDYNAMICLIGHT_OFFSET UNITYSDK_OFFSET(0x1CF0A100)
+#define UNITYENGINE_RENDERING_UNIVERSAL_URPDYNAMICLIGHTSMANAGER_UNREGISTERDYNAMICLIGHT_OFFSET UNITYSDK_OFFSET(0x1CF0A1B0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_URPDYNAMICLIGHTSMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CF0A240)
+#define UNITYENGINE_RENDERING_UNIVERSAL_URPDYNAMICLIGHTSMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF09CA0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int URPDynamicLightsManager_TypeDefinitionIndex = 26714;
+	inline static constexpr unsigned int URPDynamicLightsManager_TypeDefinitionIndex = 27711;
 
 	class URPDynamicLightsManager : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::Profiling::CustomSampler** StaticGet_s_RefreshAllDynamicLight()
-		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(URPDynamicLightsManager_TypeDefinitionIndex)->GetStaticField(0x21560);
-		}
 		static ::UnityEngine::Rendering::Universal::URPDynamicLightsManager** StaticGet__s_instance()
 		{
-			return (::UnityEngine::Rendering::Universal::URPDynamicLightsManager**)Il2CppClass::FromTypeDefinitionIndex(URPDynamicLightsManager_TypeDefinitionIndex)->GetStaticField(0x21568);
+			return (::UnityEngine::Rendering::Universal::URPDynamicLightsManager**)Il2CppClass::FromTypeDefinitionIndex(URPDynamicLightsManager_TypeDefinitionIndex)->GetStaticField(0x22D90);
+		}
+		static ::UnityEngine::Profiling::CustomSampler** StaticGet_s_RefreshAllDynamicLight()
+		{
+			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(URPDynamicLightsManager_TypeDefinitionIndex)->GetStaticField(0x22D98);
 		}
 		::System::Collections::Generic::HashSet_1<::UnityEngine::Rendering::Universal::UniversalAdditionalLightData*>* m_DynamicLightsList; // 0x10
 

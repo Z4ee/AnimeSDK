@@ -4,11 +4,11 @@
 
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIGBIGSCENEGROUPENTITYPRIORITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1A077BB0)
+#define MOLEMOLE_CONFIGBIGSCENEGROUPENTITYPRIORITY__CTOR_OFFSET UNITYSDK_OFFSET(0x19FF7C80)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigBigSceneGroupEntityPriority_TypeDefinitionIndex = 42628;
+	inline static constexpr unsigned int ConfigBigSceneGroupEntityPriority_TypeDefinitionIndex = 67116;
 
 	class ConfigBigSceneGroupEntityPriority : public ::Foundation::MihoyoSerializedScriptableObject
 	{

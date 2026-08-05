@@ -6,11 +6,11 @@
 #include "unitysdk/Unity/Collections/NativeHashMap_2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define NPCCROWD_ABILITY_CROWDSPLINESNAPSHOT_ISVALIDFORSAMPLING_OFFSET UNITYSDK_OFFSET(0x6A53F0)
+#define NPCCROWD_ABILITY_CROWDSPLINESNAPSHOT_ISVALIDFORSAMPLING_OFFSET UNITYSDK_OFFSET(0x5EC860)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int CrowdSplineSnapshot_TypeDefinitionIndex = 68526;
+	inline static constexpr unsigned int CrowdSplineSnapshot_TypeDefinitionIndex = 86586;
 
 	struct alignas(8) CrowdSplineSnapshot
 	{

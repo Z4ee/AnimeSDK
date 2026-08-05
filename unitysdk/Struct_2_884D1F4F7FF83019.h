@@ -4,27 +4,27 @@
 
 namespace System { class Object; }
 
-#define STRUCT_2_884D1F4F7FF83019_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x9C6F60)
-#define STRUCT_2_884D1F4F7FF83019_EQUALS_OFFSET UNITYSDK_OFFSET(0x9C6E50)
-#define STRUCT_2_884D1F4F7FF83019_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x9C6F70)
-#define STRUCT_2_884D1F4F7FF83019_METHOD_2_6D0360BD23602584_OFFSET UNITYSDK_OFFSET(0x9C7070)
-#define STRUCT_2_884D1F4F7FF83019_METHOD_2_95780ED94B90ED36_OFFSET UNITYSDK_OFFSET(0x9C7000)
-#define STRUCT_2_884D1F4F7FF83019__CTOR_OFFSET UNITYSDK_OFFSET(0x9B65D0)
+#define STRUCT_2_884D1F4F7FF83019_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x9822B0)
+#define STRUCT_2_884D1F4F7FF83019_EQUALS_OFFSET UNITYSDK_OFFSET(0x9821A0)
+#define STRUCT_2_884D1F4F7FF83019_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x9822C0)
+#define STRUCT_2_884D1F4F7FF83019_METHOD_2_6D0360BD23602584_OFFSET UNITYSDK_OFFSET(0x9823C0)
+#define STRUCT_2_884D1F4F7FF83019_METHOD_2_95780ED94B90ED36_OFFSET UNITYSDK_OFFSET(0x982350)
+#define STRUCT_2_884D1F4F7FF83019__CTOR_OFFSET UNITYSDK_OFFSET(0x90E8E0)
 
-inline static constexpr unsigned int Struct_2_884D1F4F7FF83019_TypeDefinitionIndex = 88729;
+inline static constexpr unsigned int Struct_2_884D1F4F7FF83019_TypeDefinitionIndex = 92377;
 
 struct alignas(4) Struct_2_884D1F4F7FF83019
 {
-	// static const ::System::Int32 Field_2_0 = 0x8; // 0x0
-	::System::Int32 Field_2_1; // 0x10
-	::System::Int32 Field_2_2; // 0x14
-	::System::Int32 Field_2_3; // 0x18
-	::System::Int32 Field_2_4; // 0x1C
-	::System::Int32 Field_2_5; // 0x20
-	::System::Int32 Field_2_6; // 0x24
-	::System::Int32 Field_2_7; // 0x28
-	::System::Int32 Field_2_8; // 0x2C
-	::System::Boolean Field_2_9; // 0x30
+	// static const ::System::Int32 Field_2_3 = 0x8; // 0x0
+	::System::Int32 Field_2_2; // 0x10
+	::System::Int32 Field_2_1; // 0x14
+	::System::Int32 Field_2_0; // 0x18
+	::System::Int32 Field_2_7; // 0x1C
+	::System::Int32 Field_2_6; // 0x20
+	::System::Int32 Field_2_5; // 0x24
+	::System::Int32 Field_2_4; // 0x28
+	::System::Int32 Field_2_11; // 0x2C
+	::System::Boolean Field_2_10; // 0x30
 
 	::System::Void _ctor(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32 a5, ::System::Int32 a6, ::System::Int32 a7, ::System::Int32 a8, ::System::Boolean a9)
 	{

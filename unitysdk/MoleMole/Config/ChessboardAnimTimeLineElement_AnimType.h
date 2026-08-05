@@ -3,7 +3,7 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ChessboardAnimTimeLineElement_AnimType_TypeDefinitionIndex = 71443;
+	inline static constexpr unsigned int ChessboardAnimTimeLineElement_AnimType_TypeDefinitionIndex = 67149;
 
 	enum class ChessboardAnimTimeLineElement_AnimType : ::System::Int32
 	{

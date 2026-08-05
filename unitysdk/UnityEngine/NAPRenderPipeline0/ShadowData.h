@@ -11,7 +11,7 @@
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int ShadowData_TypeDefinitionIndex = 5946;
+	inline static constexpr unsigned int ShadowData_TypeDefinitionIndex = 5948;
 
 	struct alignas(4) ShadowData
 	{

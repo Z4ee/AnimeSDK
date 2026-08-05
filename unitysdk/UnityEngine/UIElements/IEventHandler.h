@@ -5,7 +5,7 @@ namespace UnityEngine::UIElements { class EventBase; }
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int IEventHandler_TypeDefinitionIndex = 27513;
+	inline static constexpr unsigned int IEventHandler_TypeDefinitionIndex = 28115;
 
 	class IEventHandler
 	{

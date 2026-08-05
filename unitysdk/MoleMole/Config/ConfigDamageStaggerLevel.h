@@ -5,11 +5,11 @@
 namespace MoleMole::Config { class ConfigDamageStaggerLevel_DamageStaggerLevelItem; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGDAMAGESTAGGERLEVEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1109F780)
+#define MOLEMOLE_CONFIG_CONFIGDAMAGESTAGGERLEVEL__CTOR_OFFSET UNITYSDK_OFFSET(0x12EFD170)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigDamageStaggerLevel_TypeDefinitionIndex = 78366;
+	inline static constexpr unsigned int ConfigDamageStaggerLevel_TypeDefinitionIndex = 61249;
 
 	class ConfigDamageStaggerLevel : public ::Foundation::MihoyoSerializedScriptableObject
 	{

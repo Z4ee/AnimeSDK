@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define UNITYENGINE_TIMELINE_MAKERAVOIDADDITEMFROMASSETTEMPLATECONTEXTMENUITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1E749800)
+#define UNITYENGINE_TIMELINE_MAKERAVOIDADDITEMFROMASSETTEMPLATECONTEXTMENUITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB20F20)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int MakerAvoidAddItemFromAssetTemplateContextMenuItem_TypeDefinitionIndex = 32419;
+	inline static constexpr unsigned int MakerAvoidAddItemFromAssetTemplateContextMenuItem_TypeDefinitionIndex = 33050;
 
 	class MakerAvoidAddItemFromAssetTemplateContextMenuItem : public ::System::Attribute
 	{

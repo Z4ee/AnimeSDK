@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_DATASTRUCTURES_COMMON_COMMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E5B2330)
+#define MOLEMOLE_DATASTRUCTURES_COMMON_COMMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1F9BDC20)
 
 namespace MoleMole::DataStructures::Common
 {
-	inline static constexpr unsigned int Comment_TypeDefinitionIndex = 28151;
+	inline static constexpr unsigned int Comment_TypeDefinitionIndex = 28906;
 
 	class Comment : public ::System::Object
 	{

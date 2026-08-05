@@ -6,8 +6,8 @@ namespace System::Xml::Schema { class XmlSchemaAnnotation; }
 namespace System::Xml::Schema { class XmlSchemaObjectCollection; }
 namespace System::Xml::Schema { class XmlSchemaObjectTable; }
 
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAREDEFINE_ADDANNOTATION_OFFSET UNITYSDK_OFFSET(0x1D663AD0)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAREDEFINE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D663990)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAREDEFINE_ADDANNOTATION_OFFSET UNITYSDK_OFFSET(0x1EA2F900)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAREDEFINE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA2F7C0)
 
 namespace System::Xml::Schema
 {
@@ -16,10 +16,10 @@ namespace System::Xml::Schema
 	class XmlSchemaRedefine : public ::System::Xml::Schema::XmlSchemaExternal
 	{
 	public:
-		::System::Xml::Schema::XmlSchemaObjectTable* attributeGroups; // 0x68
-		::System::Xml::Schema::XmlSchemaObjectCollection* items; // 0x70
-		::System::Xml::Schema::XmlSchemaObjectTable* types; // 0x78
-		::System::Xml::Schema::XmlSchemaObjectTable* groups; // 0x80
+		::System::Xml::Schema::XmlSchemaObjectTable* groups; // 0x68
+		::System::Xml::Schema::XmlSchemaObjectTable* types; // 0x70
+		::System::Xml::Schema::XmlSchemaObjectTable* attributeGroups; // 0x78
+		::System::Xml::Schema::XmlSchemaObjectCollection* items; // 0x80
 
 		::System::Void _ctor()
 		{

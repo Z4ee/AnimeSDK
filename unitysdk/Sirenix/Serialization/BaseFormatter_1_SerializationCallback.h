@@ -9,7 +9,7 @@ namespace System { class Object; }
 
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int BaseFormatter_1_SerializationCallback_TypeDefinitionIndex = 7447;
+	inline static constexpr unsigned int BaseFormatter_1_SerializationCallback_TypeDefinitionIndex = 7451;
 
 	template <typename T>
 	class BaseFormatter_1_SerializationCallback : public ::System::MulticastDelegate

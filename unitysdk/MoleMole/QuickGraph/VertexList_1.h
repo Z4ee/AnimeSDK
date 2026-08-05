@@ -7,7 +7,7 @@ namespace System { class Object; }
 
 namespace MoleMole::QuickGraph
 {
-	inline static constexpr unsigned int VertexList_1_TypeDefinitionIndex = 28228;
+	inline static constexpr unsigned int VertexList_1_TypeDefinitionIndex = 28770;
 
 	template <typename TVertex>
 	class VertexList_1 : public ::System::Collections::Generic::List_1<TVertex>

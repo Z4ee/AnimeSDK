@@ -10,25 +10,20 @@ namespace System { class Action; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define CLASS_1_10FEEAE9D3BD65B7_METHOD_1_0947F577F1E5AE4F_OFFSET UNITYSDK_OFFSET(0x14D07AC0)
-#define CLASS_1_10FEEAE9D3BD65B7_METHOD_1_8E2C129DE4FC3609_OFFSET UNITYSDK_OFFSET(0x14D07BB0)
-#define CLASS_1_10FEEAE9D3BD65B7_METHOD_1_B8E4B7E669EBC719_OFFSET UNITYSDK_OFFSET(0x14D07800)
-#define CLASS_1_10FEEAE9D3BD65B7_METHOD_1_DF2F0F65BDE7252E_1_OFFSET UNITYSDK_OFFSET(0x14D08140)
-#define CLASS_1_10FEEAE9D3BD65B7_METHOD_1_DF2F0F65BDE7252E_OFFSET UNITYSDK_OFFSET(0x14D07D70)
+#define CLASS_1_10FEEAE9D3BD65B7_METHOD_1_0947F577F1E5AE4F_OFFSET UNITYSDK_OFFSET(0x11C94930)
+#define CLASS_1_10FEEAE9D3BD65B7_METHOD_1_8E2C129DE4FC3609_OFFSET UNITYSDK_OFFSET(0x11C94A20)
+#define CLASS_1_10FEEAE9D3BD65B7_METHOD_1_B8E4B7E669EBC719_OFFSET UNITYSDK_OFFSET(0x11C95320)
+#define CLASS_1_10FEEAE9D3BD65B7_METHOD_1_DF2F0F65BDE7252E_1_OFFSET UNITYSDK_OFFSET(0x11C94F40)
+#define CLASS_1_10FEEAE9D3BD65B7_METHOD_1_DF2F0F65BDE7252E_OFFSET UNITYSDK_OFFSET(0x11C94BE0)
 
-inline static constexpr unsigned int Class_1_10FEEAE9D3BD65B7_TypeDefinitionIndex = 54331;
+inline static constexpr unsigned int Class_1_10FEEAE9D3BD65B7_TypeDefinitionIndex = 54651;
 
 class Class_1_10FEEAE9D3BD65B7 : public ::System::Object
 {
 public:
 	static ::MoleMole::Config::ConfigEntityUnderlyingAnimEvents** StaticGet_Field_1_0()
 	{
-		return (::MoleMole::Config::ConfigEntityUnderlyingAnimEvents**)Il2CppClass::FromTypeDefinitionIndex(Class_1_10FEEAE9D3BD65B7_TypeDefinitionIndex)->GetStaticField(0x41D40);
-	}
-
-	static ::MoleMole::Config::ConfigEntityAttackProperty* Method_1_B8E4B7E669EBC719(::System::String* a1)
-	{
-		return ((::MoleMole::Config::ConfigEntityAttackProperty*(*)(::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_10FEEAE9D3BD65B7_METHOD_1_B8E4B7E669EBC719_OFFSET))(a1);
+		return (::MoleMole::Config::ConfigEntityUnderlyingAnimEvents**)Il2CppClass::FromTypeDefinitionIndex(Class_1_10FEEAE9D3BD65B7_TypeDefinitionIndex)->GetStaticField(0x457B0);
 	}
 
 	static ::System::Void Method_1_0947F577F1E5AE4F(::System::Single a1, ::System::Action_1<::System::Single>* a2, ::System::Action_1<::System::String*>* a3, ::System::String* a4)
@@ -49,5 +44,10 @@ public:
 	static ::MoleMole::Config::ConfigEntityAttackProperty* Method_1_DF2F0F65BDE7252E_1(::MoleMole::Config::BuffGroupName a1, ::MoleMole::Config::BuffAttackPropertType a2, ::System::Int32 a3)
 	{
 		return ((::MoleMole::Config::ConfigEntityAttackProperty*(*)(::MoleMole::Config::BuffGroupName, ::MoleMole::Config::BuffAttackPropertType, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_10FEEAE9D3BD65B7_METHOD_1_DF2F0F65BDE7252E_1_OFFSET))(a1, a2, a3);
+	}
+
+	static ::MoleMole::Config::ConfigEntityAttackProperty* Method_1_B8E4B7E669EBC719(::System::String* a1)
+	{
+		return ((::MoleMole::Config::ConfigEntityAttackProperty*(*)(::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_10FEEAE9D3BD65B7_METHOD_1_B8E4B7E669EBC719_OFFSET))(a1);
 	}
 };

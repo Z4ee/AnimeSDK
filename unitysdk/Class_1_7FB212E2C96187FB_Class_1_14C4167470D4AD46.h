@@ -6,16 +6,16 @@
 class ConfigEntityJoystickOrders;
 namespace System { class Action; }
 
-#define CLASS_1_7FB212E2C96187FB_CLASS_1_14C4167470D4AD46_METHOD_1_9999B40581F1C31D_OFFSET UNITYSDK_OFFSET(0x172846C0)
-#define CLASS_1_7FB212E2C96187FB_CLASS_1_14C4167470D4AD46__CTOR_OFFSET UNITYSDK_OFFSET(0x172846B0)
+#define CLASS_1_7FB212E2C96187FB_CLASS_1_14C4167470D4AD46_METHOD_1_9999B40581F1C31D_OFFSET UNITYSDK_OFFSET(0x15334C50)
+#define CLASS_1_7FB212E2C96187FB_CLASS_1_14C4167470D4AD46__CTOR_OFFSET UNITYSDK_OFFSET(0x15334C40)
 
-inline static constexpr unsigned int Class_1_7FB212E2C96187FB_Class_1_14C4167470D4AD46_TypeDefinitionIndex = 62193;
+inline static constexpr unsigned int Class_1_7FB212E2C96187FB_Class_1_14C4167470D4AD46_TypeDefinitionIndex = 46639;
 
 class Class_1_7FB212E2C96187FB_Class_1_14C4167470D4AD46 : public ::System::Object
 {
 public:
-	::System::Action* Field_1_0; // 0x10
-	::Foundation::AssetPath Field_1_1; // 0x18
+	::Foundation::AssetPath Field_1_0; // 0x10
+	::System::Action* Field_1_1; // 0x20
 
 	::System::Void _ctor()
 	{

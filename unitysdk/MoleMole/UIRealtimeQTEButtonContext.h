@@ -7,19 +7,19 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_UIREALTIMEQTEBUTTONCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16ECCB40)
+#define MOLEMOLE_UIREALTIMEQTEBUTTONCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x17E2C0B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRealtimeQTEButtonContext_TypeDefinitionIndex = 48214;
+	inline static constexpr unsigned int UIRealtimeQTEButtonContext_TypeDefinitionIndex = 54131;
 
 	class UIRealtimeQTEButtonContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
 		::System::String* TaskCustomTag; // 0x28
-		::MoleMole::InputLogicEventType LogicEventType; // 0x30
-		::MoleMole::InputActionEventType ActionEventType; // 0x34
-		::MoleMole::LogicButtonInputType ButtonInputType; // 0x38
+		::MoleMole::InputActionEventType ActionEventType; // 0x30
+		::MoleMole::LogicButtonInputType ButtonInputType; // 0x34
+		::MoleMole::InputLogicEventType LogicEventType; // 0x38
 
 		::System::Void _ctor()
 		{

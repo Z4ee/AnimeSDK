@@ -5,10 +5,10 @@
 
 namespace UnityEngine { class Transform; }
 
-#define NAVMESHTARGETREACHABLE_UPDATE_OFFSET UNITYSDK_OFFSET(0x1E7A97E0)
-#define NAVMESHTARGETREACHABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7A9D70)
+#define NAVMESHTARGETREACHABLE_UPDATE_OFFSET UNITYSDK_OFFSET(0x1FB7FA00)
+#define NAVMESHTARGETREACHABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB7FF90)
 
-inline static constexpr unsigned int NavmeshTargetReachable_TypeDefinitionIndex = 91051;
+inline static constexpr unsigned int NavmeshTargetReachable_TypeDefinitionIndex = 94986;
 
 class NavmeshTargetReachable : public ::UnityEngine::MonoBehaviour
 {

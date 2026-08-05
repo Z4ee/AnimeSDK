@@ -4,11 +4,11 @@
 
 namespace MoleMole::Config { class DynamicInt; }
 
-#define MOLEMOLE_CONFIG_HITGROUNDWRAP__CTOR_OFFSET UNITYSDK_OFFSET(0x17E36C30)
+#define MOLEMOLE_CONFIG_HITGROUNDWRAP__CTOR_OFFSET UNITYSDK_OFFSET(0x16C5ABE0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int HitGroundWrap_TypeDefinitionIndex = 47778;
+	inline static constexpr unsigned int HitGroundWrap_TypeDefinitionIndex = 83745;
 
 	class HitGroundWrap : public ::System::Object
 	{

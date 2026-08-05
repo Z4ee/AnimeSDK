@@ -8,21 +8,21 @@ namespace System { template <typename T1, typename T2, typename T3, typename T4,
 namespace System::Collections { class IEnumerator; }
 namespace UnityEngine { class Coroutine; }
 
-#define FLOWCANVAS_NODES_SWITCHBOOL_ISCHOICENODE_OFFSET UNITYSDK_OFFSET(0x1DB942F0)
-#define FLOWCANVAS_NODES_SWITCHBOOL_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1DB941F0)
-#define FLOWCANVAS_NODES_SWITCHBOOL_STARTCOROUTINEWRAP_OFFSET UNITYSDK_OFFSET(0x1DB94300)
-#define FLOWCANVAS_NODES_SWITCHBOOL__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB94340)
+#define FLOWCANVAS_NODES_SWITCHBOOL_ISCHOICENODE_OFFSET UNITYSDK_OFFSET(0x1EF8A590)
+#define FLOWCANVAS_NODES_SWITCHBOOL_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1EF8A490)
+#define FLOWCANVAS_NODES_SWITCHBOOL_STARTCOROUTINEWRAP_OFFSET UNITYSDK_OFFSET(0x1EF8A5A0)
+#define FLOWCANVAS_NODES_SWITCHBOOL__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF8A5E0)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int SwitchBool_TypeDefinitionIndex = 29810;
+	inline static constexpr unsigned int SwitchBool_TypeDefinitionIndex = 31356;
 
 	class SwitchBool : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
 		static ::System::Func_5<::FlowCanvas::Nodes::SwitchBool*, ::FlowCanvas::Flow, ::FlowCanvas::FlowOutput*, ::System::Int32, ::System::Boolean>** StaticGet_OnCall()
 		{
-			return (::System::Func_5<::FlowCanvas::Nodes::SwitchBool*, ::FlowCanvas::Flow, ::FlowCanvas::FlowOutput*, ::System::Int32, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(SwitchBool_TypeDefinitionIndex)->GetStaticField(0x24640);
+			return (::System::Func_5<::FlowCanvas::Nodes::SwitchBool*, ::FlowCanvas::Flow, ::FlowCanvas::FlowOutput*, ::System::Int32, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(SwitchBool_TypeDefinitionIndex)->GetStaticField(0x25F30);
 		}
 		::UnityEngine::Coroutine* coroutine; // 0xA8
 

@@ -3,12 +3,12 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int LoopStyle_TypeDefinitionIndex = 84515;
+	inline static constexpr unsigned int LoopStyle_TypeDefinitionIndex = 55801;
 
 	enum class LoopStyle : ::System::Int32
 	{
-		Loop = 1,
 		PingPong = 2,
 		Once = 0,
+		Loop = 1,
 	};
 }

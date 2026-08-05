@@ -9,27 +9,27 @@ namespace MoleMole { class SharedGameEntity; }
 namespace MoleMole::Battle { class Entity; }
 namespace System { class String; }
 
-#define MOLEMOLE_SETABILITYSPECIAL_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x130449B0)
-#define MOLEMOLE_SETABILITYSPECIAL_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x13044B70)
-#define MOLEMOLE_SETABILITYSPECIAL__CTOR_OFFSET UNITYSDK_OFFSET(0x13044E50)
-#define MOLEMOLE_SETABILITYSPECIAL___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x13044EE0)
-#define MOLEMOLE_SETABILITYSPECIAL___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x13044F70)
+#define MOLEMOLE_SETABILITYSPECIAL_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x173A2AC0)
+#define MOLEMOLE_SETABILITYSPECIAL_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x173A2C90)
+#define MOLEMOLE_SETABILITYSPECIAL__CTOR_OFFSET UNITYSDK_OFFSET(0x173A2F60)
+#define MOLEMOLE_SETABILITYSPECIAL___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x173A2FF0)
+#define MOLEMOLE_SETABILITYSPECIAL___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x173A3080)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SetAbilitySpecial_TypeDefinitionIndex = 63832;
+	inline static constexpr unsigned int SetAbilitySpecial_TypeDefinitionIndex = 71059;
 
 	class SetAbilitySpecial : public ::BehaviorDesigner::Runtime::Tasks::Action
 	{
 	public:
-		::System::String* SourceAbilitySpecial; // 0x58
-		::MoleMole::Battle::Entity* ownerEntity; // 0x60
-		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x68
-		::System::String* TargetAbilityName; // 0x70
-		::BehaviorDesigner::Runtime::SharedFloat* TargetAbilitySpecialValue; // 0x78
-		::Class_3_F41D242A20F8FE06* _abilityComponent; // 0x80
-		::System::String* SourceAbilityName; // 0x88
-		::System::String* TargetAbilitySpecial; // 0x90
+		::BehaviorDesigner::Runtime::SharedFloat* TargetAbilitySpecialValue; // 0x58
+		::System::String* SourceAbilityName; // 0x60
+		::System::String* TargetAbilitySpecial; // 0x68
+		::System::String* SourceAbilitySpecial; // 0x70
+		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x78
+		::MoleMole::Battle::Entity* ownerEntity; // 0x80
+		::System::String* TargetAbilityName; // 0x88
+		::Class_3_F41D242A20F8FE06* _abilityComponent; // 0x90
 		::System::Boolean IsRefreshProperty; // 0x98
 
 		::System::Void _ctor()

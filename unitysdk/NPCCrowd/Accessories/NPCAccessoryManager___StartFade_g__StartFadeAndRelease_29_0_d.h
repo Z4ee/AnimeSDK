@@ -9,24 +9,24 @@ class Class_3_FFD0045B4597F294;
 namespace NPCCrowd::Animation { class NPCUnionAnimator; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define NPCCROWD_ACCESSORIES_NPCACCESSORYMANAGER___STARTFADE_G__STARTFADEANDRELEASE_29_0_D_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x625C60)
-#define NPCCROWD_ACCESSORIES_NPCACCESSORYMANAGER___STARTFADE_G__STARTFADEANDRELEASE_29_0_D_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x283610)
+#define NPCCROWD_ACCESSORIES_NPCACCESSORYMANAGER___STARTFADE_G__STARTFADEANDRELEASE_29_0_D_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x72BB10)
+#define NPCCROWD_ACCESSORIES_NPCACCESSORYMANAGER___STARTFADE_G__STARTFADEANDRELEASE_29_0_D_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x296F30)
 
 namespace NPCCrowd::Accessories
 {
-	inline static constexpr unsigned int NPCAccessoryManager___StartFade_g__StartFadeAndRelease_29_0_d_TypeDefinitionIndex = 49538;
+	inline static constexpr unsigned int NPCAccessoryManager___StartFade_g__StartFadeAndRelease_29_0_d_TypeDefinitionIndex = 82939;
 
 	struct alignas(8) NPCAccessoryManager___StartFade_g__StartFadeAndRelease_29_0_d
 	{
-		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x10
-		::Class_3_FFD0045B4597F294* matComponent; // 0x20
-		::Il2CppArray<::NPCCrowd::Lod::NPCLODRendererItem>* renderers; // 0x28
-		::NPCCrowd::Animation::NPCUnionAnimator* unionAnimator; // 0x30
-		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x38
-		::System::Int32 __1__state; // 0x48
-		::System::Single fadeTime; // 0x4C
-		::System::Boolean fadeIn; // 0x50
-		::System::Int32 rendererInstanceID; // 0x54
+		::Il2CppArray<::NPCCrowd::Lod::NPCLODRendererItem>* renderers; // 0x10
+		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x18
+		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x28
+		::NPCCrowd::Animation::NPCUnionAnimator* unionAnimator; // 0x38
+		::Class_3_FFD0045B4597F294* matComponent; // 0x40
+		::System::Single fadeTime; // 0x48
+		::System::Int32 rendererInstanceID; // 0x4C
+		::System::Int32 __1__state; // 0x50
+		::System::Boolean fadeIn; // 0x54
 
 		::System::Void MoveNext()
 		{

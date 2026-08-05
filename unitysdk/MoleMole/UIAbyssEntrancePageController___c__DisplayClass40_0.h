@@ -5,17 +5,17 @@
 namespace Cysharp::Threading::Tasks { class UniTaskCompletionSource; }
 namespace MoleMole { class UIAbyssEntrancePageController; }
 
-#define MOLEMOLE_UIABYSSENTRANCEPAGECONTROLLER___C__DISPLAYCLASS40_0__CTOR_OFFSET UNITYSDK_OFFSET(0x173BF980)
+#define MOLEMOLE_UIABYSSENTRANCEPAGECONTROLLER___C__DISPLAYCLASS40_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18E02180)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAbyssEntrancePageController___c__DisplayClass40_0_TypeDefinitionIndex = 79322;
+	inline static constexpr unsigned int UIAbyssEntrancePageController___c__DisplayClass40_0_TypeDefinitionIndex = 57573;
 
 	class UIAbyssEntrancePageController___c__DisplayClass40_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIAbyssEntrancePageController* __4__this; // 0x10
-		::Cysharp::Threading::Tasks::UniTaskCompletionSource* tcs; // 0x18
+		::Cysharp::Threading::Tasks::UniTaskCompletionSource* tcs; // 0x10
+		::MoleMole::UIAbyssEntrancePageController* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

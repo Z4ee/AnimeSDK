@@ -3,7 +3,7 @@
 
 namespace UniLabs::Utilities
 {
-	inline static constexpr unsigned int EditorMode_TypeDefinitionIndex = 91392;
+	inline static constexpr unsigned int EditorMode_TypeDefinitionIndex = 95325;
 
 	enum class EditorMode : ::System::Int32
 	{

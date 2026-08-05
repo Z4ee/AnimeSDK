@@ -7,9 +7,9 @@ namespace UnityEngine { class Animation; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Renderer; }
 
-#define OBJECTSANIMATIONBYCAMERA_COLLECTIONWRAPPER__CTOR_OFFSET UNITYSDK_OFFSET(0x11FCC430)
+#define OBJECTSANIMATIONBYCAMERA_COLLECTIONWRAPPER__CTOR_OFFSET UNITYSDK_OFFSET(0x16827310)
 
-inline static constexpr unsigned int ObjectsAnimationByCamera_CollectionWrapper_TypeDefinitionIndex = 80521;
+inline static constexpr unsigned int ObjectsAnimationByCamera_CollectionWrapper_TypeDefinitionIndex = 75784;
 
 class ObjectsAnimationByCamera_CollectionWrapper : public ::System::Object
 {

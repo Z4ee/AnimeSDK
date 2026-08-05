@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace Newtonsoft::Json::Serialization
 {
-	inline static constexpr unsigned int DefaultContractResolver_EnumerableDictionaryWrapper_2__GetEnumerator_d__2_TypeDefinitionIndex = 7099;
+	inline static constexpr unsigned int DefaultContractResolver_EnumerableDictionaryWrapper_2__GetEnumerator_d__2_TypeDefinitionIndex = 7103;
 
 	template <typename TEnumeratorKey, typename TEnumeratorValue>
 	class DefaultContractResolver_EnumerableDictionaryWrapper_2__GetEnumerator_d__2 : public ::System::Object

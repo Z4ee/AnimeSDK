@@ -4,12 +4,12 @@
 
 namespace MoleMole::GalGame { class BranchItem; }
 
-#define MOLEMOLE_UIBASECHATPLAYCONTROLLER___C__DISPLAYCLASS58_1__CTOR_OFFSET UNITYSDK_OFFSET(0x15E64C00)
-#define MOLEMOLE_UIBASECHATPLAYCONTROLLER___C__DISPLAYCLASS58_1__PROCESSCONDITION_B__1_OFFSET UNITYSDK_OFFSET(0x15E64C10)
+#define MOLEMOLE_UIBASECHATPLAYCONTROLLER___C__DISPLAYCLASS58_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1709F540)
+#define MOLEMOLE_UIBASECHATPLAYCONTROLLER___C__DISPLAYCLASS58_1__PROCESSCONDITION_B__1_OFFSET UNITYSDK_OFFSET(0x1709F550)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBaseChatPlayController___c__DisplayClass58_1_TypeDefinitionIndex = 42197;
+	inline static constexpr unsigned int UIBaseChatPlayController___c__DisplayClass58_1_TypeDefinitionIndex = 72967;
 
 	class UIBaseChatPlayController___c__DisplayClass58_1 : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 
 namespace FlexBuffers
 {
-	inline static constexpr unsigned int Type_TypeDefinitionIndex = 6760;
+	inline static constexpr unsigned int Type_TypeDefinitionIndex = 6764;
 
 	enum class Type : ::System::Byte
 	{

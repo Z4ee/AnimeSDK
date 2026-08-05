@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonsterAnimatorIntParam_TypeDefinitionIndex = 74190;
+	inline static constexpr unsigned int MonsterAnimatorIntParam_TypeDefinitionIndex = 82394;
 
 	struct alignas(8) MonsterAnimatorIntParam
 	{

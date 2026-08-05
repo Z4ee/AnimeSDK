@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FlowCanvas/Nodes/PureFunctionNode_1.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_GETROUNDID_INVOKE_OFFSET UNITYSDK_OFFSET(0x15124DB0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_GETROUNDID__CTOR_OFFSET UNITYSDK_OFFSET(0x15124F10)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_GETROUNDID_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B1B0160)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_GETROUNDID__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1B02C0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_AbyssS2_GetRoundID_TypeDefinitionIndex = 62792;
+	inline static constexpr unsigned int LD_AbyssS2_GetRoundID_TypeDefinitionIndex = 77161;
 
 	class LD_AbyssS2_GetRoundID : public ::FlowCanvas::Nodes::PureFunctionNode_1<::System::Int32>
 	{

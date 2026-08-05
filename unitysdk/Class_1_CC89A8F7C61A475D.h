@@ -5,20 +5,20 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_CC89A8F7C61A475D_METHOD_1_2D730252EA599DD2_OFFSET UNITYSDK_OFFSET(0x18FCEB10)
-#define CLASS_1_CC89A8F7C61A475D_METHOD_1_EC503097D6FD32F2_OFFSET UNITYSDK_OFFSET(0x18FCEBA0)
-#define CLASS_1_CC89A8F7C61A475D__CTOR_OFFSET UNITYSDK_OFFSET(0x18FCEB00)
+#define CLASS_1_CC89A8F7C61A475D_METHOD_1_2D730252EA599DD2_OFFSET UNITYSDK_OFFSET(0x1576AD60)
+#define CLASS_1_CC89A8F7C61A475D_METHOD_1_EC503097D6FD32F2_OFFSET UNITYSDK_OFFSET(0x1576ADF0)
+#define CLASS_1_CC89A8F7C61A475D__CTOR_OFFSET UNITYSDK_OFFSET(0x1576AD50)
 
-inline static constexpr unsigned int Class_1_CC89A8F7C61A475D_TypeDefinitionIndex = 84157;
+inline static constexpr unsigned int Class_1_CC89A8F7C61A475D_TypeDefinitionIndex = 64685;
 
 class Class_1_CC89A8F7C61A475D : public ::System::Object
 {
 public:
-	::Struct_2_A7DCC2EAB8522504 Field_1_4; // 0x10
-	::System::Int32 Field_1_3; // 0x70
-	::System::Int32 Field_1_1; // 0x74
-	::System::Int32 Field_1_0; // 0x78
-	::System::Boolean Field_1_2; // 0x7C
+	::Struct_2_A7DCC2EAB8522504 Field_1_6; // 0x10
+	::System::Boolean Field_1_0; // 0x70
+	::System::Int32 Field_1_2; // 0x74
+	::System::Int32 Field_1_7; // 0x78
+	::System::Int32 Field_1_1; // 0x7C
 
 	::System::Void _ctor()
 	{

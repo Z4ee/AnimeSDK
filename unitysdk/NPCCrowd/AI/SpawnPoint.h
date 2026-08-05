@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define NPCCROWD_AI_SPAWNPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x106F5760)
+#define NPCCROWD_AI_SPAWNPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0xF7650C0)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int SpawnPoint_TypeDefinitionIndex = 50791;
+	inline static constexpr unsigned int SpawnPoint_TypeDefinitionIndex = 70565;
 
 	class SpawnPoint : public ::System::Object
 	{

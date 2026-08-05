@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define NPCCROWD_ABILITY_NAVIGATIONOBSTACLEITEMEQUALSFUNC_EQUALS_OFFSET UNITYSDK_OFFSET(0x592930)
+#define NPCCROWD_ABILITY_NAVIGATIONOBSTACLEITEMEQUALSFUNC_EQUALS_OFFSET UNITYSDK_OFFSET(0x6A91B0)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int NavigationObstacleItemEqualsFunc_TypeDefinitionIndex = 39930;
+	inline static constexpr unsigned int NavigationObstacleItemEqualsFunc_TypeDefinitionIndex = 78747;
 
 	struct alignas(1) NavigationObstacleItemEqualsFunc
 	{

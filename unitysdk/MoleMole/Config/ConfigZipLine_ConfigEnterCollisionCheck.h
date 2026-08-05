@@ -7,13 +7,13 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGZIPLINE_CONFIGENTERCOLLISIONCHECK_GET_TAGIDS_OFFSET UNITYSDK_OFFSET(0x1AA657F0)
-#define MOLEMOLE_CONFIG_CONFIGZIPLINE_CONFIGENTERCOLLISIONCHECK_ONVALUECHANGED_TAG_OFFSET UNITYSDK_OFFSET(0x1AA65930)
-#define MOLEMOLE_CONFIG_CONFIGZIPLINE_CONFIGENTERCOLLISIONCHECK__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA659A0)
+#define MOLEMOLE_CONFIG_CONFIGZIPLINE_CONFIGENTERCOLLISIONCHECK_GET_TAGIDS_OFFSET UNITYSDK_OFFSET(0x1C467E20)
+#define MOLEMOLE_CONFIG_CONFIGZIPLINE_CONFIGENTERCOLLISIONCHECK_ONVALUECHANGED_TAG_OFFSET UNITYSDK_OFFSET(0x1C467F60)
+#define MOLEMOLE_CONFIG_CONFIGZIPLINE_CONFIGENTERCOLLISIONCHECK__CTOR_OFFSET UNITYSDK_OFFSET(0x1C467FD0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigZipLine_ConfigEnterCollisionCheck_TypeDefinitionIndex = 51251;
+	inline static constexpr unsigned int ConfigZipLine_ConfigEnterCollisionCheck_TypeDefinitionIndex = 53021;
 
 	class ConfigZipLine_ConfigEnterCollisionCheck : public ::System::Object
 	{

@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigLevelSound_WwiseWeatherConfig_TypeDefinitionIndex = 62781;
+	inline static constexpr unsigned int ConfigLevelSound_WwiseWeatherConfig_TypeDefinitionIndex = 56159;
 
 	struct alignas(8) ConfigLevelSound_WwiseWeatherConfig
 	{

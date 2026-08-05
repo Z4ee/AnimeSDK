@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_SKIPERRORCHECKATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E4FC4C0)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_SKIPERRORCHECKATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F8F72D0)
 
 namespace BehaviorDesigner::Runtime::Tasks
 {
-	inline static constexpr unsigned int SkipErrorCheckAttribute_TypeDefinitionIndex = 33332;
+	inline static constexpr unsigned int SkipErrorCheckAttribute_TypeDefinitionIndex = 33968;
 
 	class SkipErrorCheckAttribute : public ::System::Attribute
 	{

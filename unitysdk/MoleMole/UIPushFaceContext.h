@@ -4,11 +4,11 @@
 
 class Class_1_9F1BE78E0D1155F7;
 
-#define MOLEMOLE_UIPUSHFACECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x17177ED0)
+#define MOLEMOLE_UIPUSHFACECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15F56F40)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIPushFaceContext_TypeDefinitionIndex = 43211;
+	inline static constexpr unsigned int UIPushFaceContext_TypeDefinitionIndex = 66642;
 
 	class UIPushFaceContext : public ::MoleMole::UIControllerContextBase
 	{

@@ -4,11 +4,11 @@
 
 namespace UnityEngine::Rendering::Universal::Internal { class FootPrintSpawner; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FOOTPRINTMANAGER_FOOTPRINTARRAY__CTOR_OFFSET UNITYSDK_OFFSET(0x1CEF2C50)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FOOTPRINTMANAGER_FOOTPRINTARRAY__CTOR_OFFSET UNITYSDK_OFFSET(0x1E24CD50)
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int FootPrintManager_FootPrintArray_TypeDefinitionIndex = 26798;
+	inline static constexpr unsigned int FootPrintManager_FootPrintArray_TypeDefinitionIndex = 27141;
 
 	class FootPrintManager_FootPrintArray : public ::System::Object
 	{

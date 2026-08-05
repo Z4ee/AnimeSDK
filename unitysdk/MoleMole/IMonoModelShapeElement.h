@@ -4,11 +4,11 @@
 #include "unitysdk/Struct_2_71706210729AB681.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_IMONOMODELSHAPEELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x11624F40)
+#define MOLEMOLE_IMONOMODELSHAPEELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x19258870)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int IMonoModelShapeElement_TypeDefinitionIndex = 46123;
+	inline static constexpr unsigned int IMonoModelShapeElement_TypeDefinitionIndex = 83442;
 
 	class IMonoModelShapeElement : public ::System::Object
 	{

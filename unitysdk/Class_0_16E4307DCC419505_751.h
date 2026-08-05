@@ -1,11 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-class Class_1_BDCD1259222B5A4A;
-namespace MoleMole::Config { class EffectTimeSegmentConfig; }
-namespace System::Collections::Generic { template <typename T> class List_1; }
-
-inline static constexpr unsigned int Class_0_16E4307DCC419505_751_TypeDefinitionIndex = 76211;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_751_TypeDefinitionIndex = 75763;
 
 class Class_0_16E4307DCC419505_751
 {

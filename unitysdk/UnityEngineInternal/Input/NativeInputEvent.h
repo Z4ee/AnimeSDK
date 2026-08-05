@@ -5,7 +5,7 @@
 
 namespace UnityEngineInternal::Input
 {
-	inline static constexpr unsigned int NativeInputEvent_TypeDefinitionIndex = 27425;
+	inline static constexpr unsigned int NativeInputEvent_TypeDefinitionIndex = 28027;
 
 	struct alignas(1) NativeInputEvent
 	{

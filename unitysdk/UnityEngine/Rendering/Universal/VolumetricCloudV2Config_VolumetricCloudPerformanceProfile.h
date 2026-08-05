@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_VOLUMETRICCLOUDV2CONFIG_VOLUMETRICCLOUDPERFORMANCEPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC37CA0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_VOLUMETRICCLOUDV2CONFIG_VOLUMETRICCLOUDPERFORMANCEPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C9B3730)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int VolumetricCloudV2Config_VolumetricCloudPerformanceProfile_TypeDefinitionIndex = 27222;
+	inline static constexpr unsigned int VolumetricCloudV2Config_VolumetricCloudPerformanceProfile_TypeDefinitionIndex = 26908;
 
 	class VolumetricCloudV2Config_VolumetricCloudPerformanceProfile : public ::System::Object
 	{

@@ -13,25 +13,25 @@ namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Material; }
 
-#define NPCCROWD_AVATAR_NPCCROWDAVATARMANAGER__SETUPAVATARPARTINFOASYNC_D__42_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x6803D0)
-#define NPCCROWD_AVATAR_NPCCROWDAVATARMANAGER__SETUPAVATARPARTINFOASYNC_D__42_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x283610)
+#define NPCCROWD_AVATAR_NPCCROWDAVATARMANAGER__SETUPAVATARPARTINFOASYNC_D__42_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x634750)
+#define NPCCROWD_AVATAR_NPCCROWDAVATARMANAGER__SETUPAVATARPARTINFOASYNC_D__42_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x296F30)
 
 namespace NPCCrowd::Avatar
 {
-	inline static constexpr unsigned int NPCCrowdAvatarManager__SetupAvatarPartInfoAsync_d__42_TypeDefinitionIndex = 66887;
+	inline static constexpr unsigned int NPCCrowdAvatarManager__SetupAvatarPartInfoAsync_d__42_TypeDefinitionIndex = 60726;
 
 	struct alignas(8) NPCCrowdAvatarManager__SetupAvatarPartInfoAsync_d__42
 	{
-		::Cysharp::Threading::Tasks::UniTask_1_Awaiter<::Il2CppArray<::UnityEngine::Material*>*> __u__1; // 0x10
-		::System::Threading::CancellationToken cancellationToken; // 0x28
-		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x30
+		::System::Threading::CancellationToken cancellationToken; // 0x10
+		::Cysharp::Threading::Tasks::UniTask_1_Awaiter<::Il2CppArray<::UnityEngine::Material*>*> __u__1; // 0x18
+		::NPCCrowd::Avatar::NPCCrowdAvatarManager* __4__this; // 0x30
+		::UnityEngine::GameObject* avatarGo; // 0x38
 		::NPCCrowd::Animation::NPCCrowdAnimator* gpuAnimator; // 0x40
-		::NPCCrowd::Avatar::NPCCrowdAvatarManager* __4__this; // 0x48
-		::UnityEngine::GameObject* avatarGo; // 0x50
+		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x48
 		::NPCCrowd::Avatar::NPCAvatarGOReferenceComponentInfo* partGoInfo; // 0x58
 		::NPCAvatarMeshAssetsSO_FNPCAvatarLodMeshAssets* meshAss; // 0x60
-		::System::Int32 __1__state; // 0x68
-		::System::Boolean enableGPULod; // 0x6C
+		::System::Boolean enableGPULod; // 0x68
+		::System::Int32 __1__state; // 0x6C
 
 		::System::Void MoveNext()
 		{

@@ -8,7 +8,7 @@ namespace System { class String; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SpawnPointMaskRegion_TypeDefinitionIndex = 52131;
+	inline static constexpr unsigned int SpawnPointMaskRegion_TypeDefinitionIndex = 63161;
 
 	struct alignas(8) SpawnPointMaskRegion
 	{

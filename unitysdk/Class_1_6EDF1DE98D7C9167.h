@@ -1,0 +1,47 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Struct_2_52A902145F5BE51A_3.h"
+#include "unitysdk/System/Object.h"
+
+class Class_0_16E4307DCC419505_415;
+class Class_2_E4F99B6EE220D866;
+namespace System { class String; }
+
+#define CLASS_1_6EDF1DE98D7C9167_METHOD_1_128774387667156B_OFFSET UNITYSDK_OFFSET(0xECCF020)
+#define CLASS_1_6EDF1DE98D7C9167_METHOD_1_4AD55B5DD8A24FDC_OFFSET UNITYSDK_OFFSET(0xECCEE00)
+#define CLASS_1_6EDF1DE98D7C9167_METHOD_1_90A3442183DB196B_OFFSET UNITYSDK_OFFSET(0xECCEFC0)
+#define CLASS_1_6EDF1DE98D7C9167_TOSTRING_OFFSET UNITYSDK_OFFSET(0xECCEF20)
+#define CLASS_1_6EDF1DE98D7C9167__CTOR_OFFSET UNITYSDK_OFFSET(0xECCEDF0)
+
+inline static constexpr unsigned int Class_1_6EDF1DE98D7C9167_TypeDefinitionIndex = 82370;
+
+class Class_1_6EDF1DE98D7C9167 : public ::System::Object
+{
+public:
+	::Class_0_16E4307DCC419505_415* Field_1_0; // 0x10
+
+	::System::Void _ctor(::Class_0_16E4307DCC419505_415* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_415*))((::PBYTE)hIl2Cpp + CLASS_1_6EDF1DE98D7C9167__CTOR_OFFSET))(this, a1);
+	}
+
+	::System::Boolean Method_1_4AD55B5DD8A24FDC(::Class_2_E4F99B6EE220D866* a1, ::Struct_2_52A902145F5BE51A_3& a2)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::Class_2_E4F99B6EE220D866*, ::Struct_2_52A902145F5BE51A_3&))((::PBYTE)hIl2Cpp + CLASS_1_6EDF1DE98D7C9167_METHOD_1_4AD55B5DD8A24FDC_OFFSET))(this, a1, a2);
+	}
+
+	::System::String* ToString()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_6EDF1DE98D7C9167_TOSTRING_OFFSET))(this);
+	}
+
+	::System::Boolean Method_1_90A3442183DB196B(::Class_2_E4F99B6EE220D866* a1, ::Struct_2_52A902145F5BE51A_3& a2)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::Class_2_E4F99B6EE220D866*, ::Struct_2_52A902145F5BE51A_3&))((::PBYTE)hIl2Cpp + CLASS_1_6EDF1DE98D7C9167_METHOD_1_90A3442183DB196B_OFFSET))(this, a1, a2);
+	}
+
+	::System::String* Method_1_128774387667156B()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_6EDF1DE98D7C9167_METHOD_1_128774387667156B_OFFSET))(this);
+	}
+};

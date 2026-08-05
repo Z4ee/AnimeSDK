@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int EffectStateType_TypeDefinitionIndex = 27048;
+inline static constexpr unsigned int EffectStateType_TypeDefinitionIndex = 27194;
 
 enum class EffectStateType : ::System::Int32
 {

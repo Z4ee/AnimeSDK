@@ -5,24 +5,24 @@
 
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MOLEMOLE_UIABINLEVELSHOPWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x191A0A60)
-#define MOLEMOLE_UIABINLEVELSHOPWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x191A0AA0)
-#define MOLEMOLE_UIABINLEVELSHOPWIDGETCONTROLLER___C__GET_ACTIVATEDCAMPS_B__22_0_OFFSET UNITYSDK_OFFSET(0x191A0AB0)
+#define MOLEMOLE_UIABINLEVELSHOPWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B6D8620)
+#define MOLEMOLE_UIABINLEVELSHOPWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6D8660)
+#define MOLEMOLE_UIABINLEVELSHOPWIDGETCONTROLLER___C__GET_ACTIVATEDCAMPS_B__22_0_OFFSET UNITYSDK_OFFSET(0x1B6D8670)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIABInLevelShopWidgetController___c_TypeDefinitionIndex = 66644;
+	inline static constexpr unsigned int UIABInLevelShopWidgetController___c_TypeDefinitionIndex = 85636;
 
 	class UIABInLevelShopWidgetController___c : public ::System::Object
 	{
 	public:
 		static ::MoleMole::UIABInLevelShopWidgetController___c** StaticGet___9()
 		{
-			return (::MoleMole::UIABInLevelShopWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIABInLevelShopWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x39F80);
+			return (::MoleMole::UIABInLevelShopWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIABInLevelShopWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3CD20);
 		}
 		static ::System::Func_2<::System::ValueTuple_2<::System::Int32, ::System::Int32>, ::System::Int32>** StaticGet___9__22_0()
 		{
-			return (::System::Func_2<::System::ValueTuple_2<::System::Int32, ::System::Int32>, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIABInLevelShopWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x39F88);
+			return (::System::Func_2<::System::ValueTuple_2<::System::Int32, ::System::Int32>, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIABInLevelShopWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3CD28);
 		}
 
 		static ::System::Void _cctor()

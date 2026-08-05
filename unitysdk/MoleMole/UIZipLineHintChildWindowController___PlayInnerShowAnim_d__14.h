@@ -9,19 +9,19 @@ namespace MoleMole { class UIZipLineHintChildWindowController; }
 namespace System { class Action; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define MOLEMOLE_UIZIPLINEHINTCHILDWINDOWCONTROLLER___PLAYINNERSHOWANIM_D__14_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x7997B0)
-#define MOLEMOLE_UIZIPLINEHINTCHILDWINDOWCONTROLLER___PLAYINNERSHOWANIM_D__14_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x283610)
+#define MOLEMOLE_UIZIPLINEHINTCHILDWINDOWCONTROLLER___PLAYINNERSHOWANIM_D__14_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x7CF4C0)
+#define MOLEMOLE_UIZIPLINEHINTCHILDWINDOWCONTROLLER___PLAYINNERSHOWANIM_D__14_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x296F30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIZipLineHintChildWindowController___PlayInnerShowAnim_d__14_TypeDefinitionIndex = 52730;
+	inline static constexpr unsigned int UIZipLineHintChildWindowController___PlayInnerShowAnim_d__14_TypeDefinitionIndex = 83998;
 
 	struct alignas(8) UIZipLineHintChildWindowController___PlayInnerShowAnim_d__14
 	{
-		::System::Action* onFinish; // 0x10
-		::MoleMole::UIZipLineHintChildWindowController* __4__this; // 0x18
+		::Cysharp::Threading::Tasks::UniTask_1_Awaiter<::Class_1_8B550A61FC9DDA82_Enum_3_05F7423D39739F87> __u__1; // 0x10
 		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskVoidMethodBuilder __t__builder; // 0x20
-		::Cysharp::Threading::Tasks::UniTask_1_Awaiter<::Class_1_8B550A61FC9DDA82_Enum_3_05F7423D39739F87> __u__1; // 0x28
+		::System::Action* onFinish; // 0x28
+		::MoleMole::UIZipLineHintChildWindowController* __4__this; // 0x30
 		::System::Int32 __1__state; // 0x38
 
 		::System::Void MoveNext()

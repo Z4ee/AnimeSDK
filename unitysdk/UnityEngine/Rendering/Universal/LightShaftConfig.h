@@ -4,19 +4,19 @@
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Rendering/Universal/VisualEnvironmentE_Quality.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_LIGHTSHAFTCONFIG__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C14FBB0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_LIGHTSHAFTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C14FB80)
+#define UNITYENGINE_RENDERING_UNIVERSAL_LIGHTSHAFTCONFIG__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D30F180)
+#define UNITYENGINE_RENDERING_UNIVERSAL_LIGHTSHAFTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D30F150)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int LightShaftConfig_TypeDefinitionIndex = 26621;
+	inline static constexpr unsigned int LightShaftConfig_TypeDefinitionIndex = 27004;
 
 	class LightShaftConfig : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::Rendering::Universal::LightShaftConfig** StaticGet_DefaultLightShaftConfig()
 		{
-			return (::UnityEngine::Rendering::Universal::LightShaftConfig**)Il2CppClass::FromTypeDefinitionIndex(LightShaftConfig_TypeDefinitionIndex)->GetStaticField(0x22310);
+			return (::UnityEngine::Rendering::Universal::LightShaftConfig**)Il2CppClass::FromTypeDefinitionIndex(LightShaftConfig_TypeDefinitionIndex)->GetStaticField(0x23A80);
 		}
 		::System::Boolean lightShaft; // 0x10
 		::System::Single lightShaftThreshold; // 0x14

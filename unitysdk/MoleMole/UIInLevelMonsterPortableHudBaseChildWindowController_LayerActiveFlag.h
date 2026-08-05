@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInLevelMonsterPortableHudBaseChildWindowController_LayerActiveFlag_TypeDefinitionIndex = 72804;
+	inline static constexpr unsigned int UIInLevelMonsterPortableHudBaseChildWindowController_LayerActiveFlag_TypeDefinitionIndex = 57371;
 
 	enum class UIInLevelMonsterPortableHudBaseChildWindowController_LayerActiveFlag : ::System::Int32
 	{

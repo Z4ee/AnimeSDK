@@ -8,12 +8,12 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCCROWD_ACCESSORIES_NPCACCESSORYITEM_GET_ISMIX_OFFSET UNITYSDK_OFFSET(0xF9AD830)
-#define NPCCROWD_ACCESSORIES_NPCACCESSORYITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xF9AD880)
+#define NPCCROWD_ACCESSORIES_NPCACCESSORYITEM_GET_ISMIX_OFFSET UNITYSDK_OFFSET(0xF0D5F40)
+#define NPCCROWD_ACCESSORIES_NPCACCESSORYITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xF0D5F90)
 
 namespace NPCCrowd::Accessories
 {
-	inline static constexpr unsigned int NpcAccessoryItem_TypeDefinitionIndex = 75308;
+	inline static constexpr unsigned int NpcAccessoryItem_TypeDefinitionIndex = 62288;
 
 	class NpcAccessoryItem : public ::System::Object
 	{

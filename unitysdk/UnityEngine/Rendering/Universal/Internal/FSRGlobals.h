@@ -4,27 +4,27 @@
 
 namespace UnityEngine::NAPRenderPipeline0 { template <typename T> class ConsoleVariableT_1; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FSRGLOBALS_GET_DITHERREACTIVEVALUE_OFFSET UNITYSDK_OFFSET(0x1C14AEB0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FSRGLOBALS_GET_REACTIVEMASKDITHER_OFFSET UNITYSDK_OFFSET(0x1C14AD80)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FSRGLOBALS_GET_REACTIVEMASK_OFFSET UNITYSDK_OFFSET(0x1C14AB20)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FSRGLOBALS_GET_REACTIVEVALUE_OFFSET UNITYSDK_OFFSET(0x1C14AC50)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FSRGLOBALS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C14AFF0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FSRGLOBALS__CTOR_OFFSET UNITYSDK_OFFSET(0x1C14AFE0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FSRGLOBALS_GET_DITHERREACTIVEVALUE_OFFSET UNITYSDK_OFFSET(0x1D3069F0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FSRGLOBALS_GET_REACTIVEMASKDITHER_OFFSET UNITYSDK_OFFSET(0x1D3068C0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FSRGLOBALS_GET_REACTIVEMASK_OFFSET UNITYSDK_OFFSET(0x1D306660)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FSRGLOBALS_GET_REACTIVEVALUE_OFFSET UNITYSDK_OFFSET(0x1D306790)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FSRGLOBALS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D306B30)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FSRGLOBALS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D306B20)
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int FSRGlobals_TypeDefinitionIndex = 26580;
+	inline static constexpr unsigned int FSRGlobals_TypeDefinitionIndex = 27134;
 
 	class FSRGlobals : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Single>** StaticGet_ExtraMipBias()
 		{
-			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(FSRGlobals_TypeDefinitionIndex)->GetStaticField(0x217D0);
+			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(FSRGlobals_TypeDefinitionIndex)->GetStaticField(0x22F60);
 		}
 		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>** StaticGet_ForceReactiveMaskPass()
 		{
-			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(FSRGlobals_TypeDefinitionIndex)->GetStaticField(0x217D8);
+			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(FSRGlobals_TypeDefinitionIndex)->GetStaticField(0x22F68);
 		}
 
 		::System::Void _ctor()

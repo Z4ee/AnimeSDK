@@ -5,11 +5,11 @@
 namespace MoleMole::Config { class HollowMap; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGCITYHOLLOWMAP__CTOR_OFFSET UNITYSDK_OFFSET(0x17D4CFB0)
+#define MOLEMOLE_CONFIG_CONFIGCITYHOLLOWMAP__CTOR_OFFSET UNITYSDK_OFFSET(0x1729DA00)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigCityHollowMap_TypeDefinitionIndex = 54587;
+	inline static constexpr unsigned int ConfigCityHollowMap_TypeDefinitionIndex = 74221;
 
 	class ConfigCityHollowMap : public ::Foundation::MihoyoSerializedScriptableObject
 	{

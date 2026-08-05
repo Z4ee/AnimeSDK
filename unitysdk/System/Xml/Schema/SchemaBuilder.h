@@ -5,7 +5,7 @@
 namespace System { class String; }
 namespace System::Xml { class XmlNode; }
 
-#define SYSTEM_XML_SCHEMA_SCHEMABUILDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D176000)
+#define SYSTEM_XML_SCHEMA_SCHEMABUILDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E4E8FA0)
 
 namespace System::Xml::Schema
 {

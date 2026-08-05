@@ -3,23 +3,25 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int InLevelPauseLevelTab_TypeDefinitionIndex = 82420;
+	inline static constexpr unsigned int InLevelPauseLevelTab_TypeDefinitionIndex = 60831;
 
 	enum class InLevelPauseLevelTab : ::System::Int32
 	{
-		HouseRhythm = 9,
-		BattleInfo = 0,
-		RidusGotBoo = 3,
-		Bangkov = 12,
-		MonsterFantasy = 7,
 		ActivityHotpot = 10,
-		RAB = 11,
-		CinemaDate = 4,
-		Map = 2,
-		RhythmClick = 6,
-		CinemaSingle = 5,
 		BallGame = 13,
+		HouseRhythm = 9,
+		MonsterFantasy = 7,
+		RAB = 11,
 		CoopDetails = 8,
+		Bangkov = 12,
+		CinemaDate = 4,
+		SummerTideTreasureSelling = 15,
+		CinemaSingle = 5,
 		Setting = 1,
+		RhythmClick = 6,
+		SummerTideTreasure = 14,
+		Map = 2,
+		RidusGotBoo = 3,
+		BattleInfo = 0,
 	};
 }

@@ -9,29 +9,29 @@ class GpuBoidManager;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Camera; }
 
-#define GPUBOIDTICKMANAGER_ALLPOINTSOUTSIDEPLANEAABB_OFFSET UNITYSDK_OFFSET(0x1B7E5EE0)
-#define GPUBOIDTICKMANAGER_FRUSTUMCULLED_OFFSET UNITYSDK_OFFSET(0x1B7E5B00)
-#define GPUBOIDTICKMANAGER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1B7E5410)
-#define GPUBOIDTICKMANAGER_REGISTER_OFFSET UNITYSDK_OFFSET(0x1B7E5610)
-#define GPUBOIDTICKMANAGER_UNREGISTER_OFFSET UNITYSDK_OFFSET(0x1B7E56A0)
-#define GPUBOIDTICKMANAGER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1B7E5730)
-#define GPUBOIDTICKMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B7E6100)
-#define GPUBOIDTICKMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7E5560)
+#define GPUBOIDTICKMANAGER_ALLPOINTSOUTSIDEPLANEAABB_OFFSET UNITYSDK_OFFSET(0x1CB02180)
+#define GPUBOIDTICKMANAGER_FRUSTUMCULLED_OFFSET UNITYSDK_OFFSET(0x1CB01DA0)
+#define GPUBOIDTICKMANAGER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1CB01690)
+#define GPUBOIDTICKMANAGER_REGISTER_OFFSET UNITYSDK_OFFSET(0x1CB01890)
+#define GPUBOIDTICKMANAGER_UNREGISTER_OFFSET UNITYSDK_OFFSET(0x1CB01920)
+#define GPUBOIDTICKMANAGER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1CB019B0)
+#define GPUBOIDTICKMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CB023A0)
+#define GPUBOIDTICKMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB017E0)
 
-inline static constexpr unsigned int GpuBoidTickManager_TypeDefinitionIndex = 26285;
+inline static constexpr unsigned int GpuBoidTickManager_TypeDefinitionIndex = 27746;
 
 class GpuBoidTickManager : public ::System::Object
 {
 public:
 	static ::GpuBoidTickManager** StaticGet__Inst()
 	{
-		return (::GpuBoidTickManager**)Il2CppClass::FromTypeDefinitionIndex(GpuBoidTickManager_TypeDefinitionIndex)->GetStaticField(0x22090);
+		return (::GpuBoidTickManager**)Il2CppClass::FromTypeDefinitionIndex(GpuBoidTickManager_TypeDefinitionIndex)->GetStaticField(0x23870);
 	}
 	// static const ::System::Int32 numPlanes = 0x6; // 0x0
 	// static const ::System::Int32 numPoints = 0x8; // 0x0
-	::Il2CppArray<::UnityEngine::Plane>* planes; // 0x10
-	::Il2CppArray<::UnityEngine::Vector3>* points; // 0x18
-	::System::Collections::Generic::List_1<::GpuBoidManager*>* flocks; // 0x20
+	::Il2CppArray<::UnityEngine::Vector3>* points; // 0x10
+	::System::Collections::Generic::List_1<::GpuBoidManager*>* flocks; // 0x18
+	::Il2CppArray<::UnityEngine::Plane>* planes; // 0x20
 
 	::System::Void _ctor()
 	{

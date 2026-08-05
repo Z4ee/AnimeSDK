@@ -4,24 +4,24 @@
 
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_UIHANDBOOKSUIBIANITEMROWWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x14689000)
-#define MOLEMOLE_UIHANDBOOKSUIBIANITEMROWWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x14689040)
-#define MOLEMOLE_UIHANDBOOKSUIBIANITEMROWWIDGETCONTROLLER___C__ONUIINIT_B__1_1_OFFSET UNITYSDK_OFFSET(0x14689050)
+#define MOLEMOLE_UIHANDBOOKSUIBIANITEMROWWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A327CD0)
+#define MOLEMOLE_UIHANDBOOKSUIBIANITEMROWWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A327D10)
+#define MOLEMOLE_UIHANDBOOKSUIBIANITEMROWWIDGETCONTROLLER___C__ONUIINIT_B__1_1_OFFSET UNITYSDK_OFFSET(0x1A327D20)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHandBookSuibianItemRowWidgetController___c_TypeDefinitionIndex = 86779;
+	inline static constexpr unsigned int UIHandBookSuibianItemRowWidgetController___c_TypeDefinitionIndex = 51720;
 
 	class UIHandBookSuibianItemRowWidgetController___c : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::System::Boolean>** StaticGet___9__1_1()
 		{
-			return (::System::Action_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIHandBookSuibianItemRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3A290);
+			return (::System::Action_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIHandBookSuibianItemRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3D030);
 		}
 		static ::MoleMole::UIHandBookSuibianItemRowWidgetController___c** StaticGet___9()
 		{
-			return (::MoleMole::UIHandBookSuibianItemRowWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIHandBookSuibianItemRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3A298);
+			return (::MoleMole::UIHandBookSuibianItemRowWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIHandBookSuibianItemRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3D038);
 		}
 
 		static ::System::Void _cctor()

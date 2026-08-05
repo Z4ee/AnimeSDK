@@ -4,7 +4,7 @@
 
 namespace NPCCrowd
 {
-	inline static constexpr unsigned int PathGraphShadowOverrideApplier_ShadowFadeState_TypeDefinitionIndex = 80509;
+	inline static constexpr unsigned int PathGraphShadowOverrideApplier_ShadowFadeState_TypeDefinitionIndex = 46716;
 
 	struct alignas(4) PathGraphShadowOverrideApplier_ShadowFadeState
 	{

@@ -3,7 +3,7 @@
 
 namespace FluffyUnderware::Curvy::ThirdParty::LibTessDotNet
 {
-	inline static constexpr unsigned int ContourOrientation_TypeDefinitionIndex = 28439;
+	inline static constexpr unsigned int ContourOrientation_TypeDefinitionIndex = 29043;
 
 	enum class ContourOrientation : ::System::Int32
 	{

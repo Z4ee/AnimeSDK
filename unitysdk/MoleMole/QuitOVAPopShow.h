@@ -3,21 +3,21 @@
 #include "unitysdk/Enum_3_97930A1AD5393EA2.h"
 #include "unitysdk/MoleMole/DisplayMessageBase.h"
 
-#define MOLEMOLE_QUITOVAPOPSHOW_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x11650A30)
-#define MOLEMOLE_QUITOVAPOPSHOW_GET_PROCESSED_OFFSET UNITYSDK_OFFSET(0x11650A20)
-#define MOLEMOLE_QUITOVAPOPSHOW_ONPROCESS_OFFSET UNITYSDK_OFFSET(0x11650A90)
-#define MOLEMOLE_QUITOVAPOPSHOW__CTOR_OFFSET UNITYSDK_OFFSET(0x11650A40)
+#define MOLEMOLE_QUITOVAPOPSHOW_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x11D64EA0)
+#define MOLEMOLE_QUITOVAPOPSHOW_GET_PROCESSED_OFFSET UNITYSDK_OFFSET(0x11D64E90)
+#define MOLEMOLE_QUITOVAPOPSHOW_ONPROCESS_OFFSET UNITYSDK_OFFSET(0x11D64F00)
+#define MOLEMOLE_QUITOVAPOPSHOW__CTOR_OFFSET UNITYSDK_OFFSET(0x11D64EB0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int QuitOVAPopShow_TypeDefinitionIndex = 54659;
+	inline static constexpr unsigned int QuitOVAPopShow_TypeDefinitionIndex = 49726;
 
 	class QuitOVAPopShow : public ::MoleMole::DisplayMessageBase
 	{
 	public:
-		::System::Int32 _ovaContextID; // 0x28
+		::Enum_3_97930A1AD5393EA2 jumpSrc; // 0x28
 		::System::Boolean _processed; // 0x2C
-		::Enum_3_97930A1AD5393EA2 jumpSrc; // 0x30
+		::System::Int32 _ovaContextID; // 0x30
 
 		::System::Void _ctor(::System::Int32 ovaContextID, ::Enum_3_97930A1AD5393EA2 jumpSrc)
 		{

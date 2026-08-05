@@ -8,44 +8,44 @@ namespace FlowCanvas { class ValueInput; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define FLOWCANVAS_FLOWNODE___C__ASSIGNSELFINSTANCEPORT_B__66_0_OFFSET UNITYSDK_OFFSET(0x1D52F1E0)
-#define FLOWCANVAS_FLOWNODE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D52F0B0)
-#define FLOWCANVAS_FLOWNODE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1D52F0F0)
-#define FLOWCANVAS_FLOWNODE___C__GETFIRSTINPUTOFTYPE_B__64_0_OFFSET UNITYSDK_OFFSET(0x1D52F100)
-#define FLOWCANVAS_FLOWNODE___C__GETFIRSTOUTPUTOFTYPE_B__65_0_OFFSET UNITYSDK_OFFSET(0x1D52F170)
-#define FLOWCANVAS_FLOWNODE___C__REPLACEWITH_B__97_0_OFFSET UNITYSDK_OFFSET(0x1D52F220)
-#define FLOWCANVAS_FLOWNODE___C__REPLACEWITH_B__97_1_OFFSET UNITYSDK_OFFSET(0x1D52F230)
+#define FLOWCANVAS_FLOWNODE___C__ASSIGNSELFINSTANCEPORT_B__66_0_OFFSET UNITYSDK_OFFSET(0x1E226DA0)
+#define FLOWCANVAS_FLOWNODE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E226C70)
+#define FLOWCANVAS_FLOWNODE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1E226CB0)
+#define FLOWCANVAS_FLOWNODE___C__GETFIRSTINPUTOFTYPE_B__64_0_OFFSET UNITYSDK_OFFSET(0x1E226CC0)
+#define FLOWCANVAS_FLOWNODE___C__GETFIRSTOUTPUTOFTYPE_B__65_0_OFFSET UNITYSDK_OFFSET(0x1E226D30)
+#define FLOWCANVAS_FLOWNODE___C__REPLACEWITH_B__97_0_OFFSET UNITYSDK_OFFSET(0x1E226DE0)
+#define FLOWCANVAS_FLOWNODE___C__REPLACEWITH_B__97_1_OFFSET UNITYSDK_OFFSET(0x1E226DF0)
 
 namespace FlowCanvas
 {
-	inline static constexpr unsigned int FlowNode___c_TypeDefinitionIndex = 30612;
+	inline static constexpr unsigned int FlowNode___c_TypeDefinitionIndex = 31238;
 
 	class FlowNode___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::FlowCanvas::ValueInput*, ::System::Boolean>** StaticGet___9__66_0()
 		{
-			return (::System::Func_2<::FlowCanvas::ValueInput*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(FlowNode___c_TypeDefinitionIndex)->GetStaticField(0x23720);
-		}
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*>, ::System::String*>** StaticGet___9__97_0()
-		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*>, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(FlowNode___c_TypeDefinitionIndex)->GetStaticField(0x23728);
-		}
-		static ::System::Func_2<::FlowCanvas::Port*, ::System::Int32>** StaticGet___9__64_0()
-		{
-			return (::System::Func_2<::FlowCanvas::Port*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(FlowNode___c_TypeDefinitionIndex)->GetStaticField(0x23730);
+			return (::System::Func_2<::FlowCanvas::ValueInput*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(FlowNode___c_TypeDefinitionIndex)->GetStaticField(0x24F90);
 		}
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*>, ::System::Object*>** StaticGet___9__97_1()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*>, ::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(FlowNode___c_TypeDefinitionIndex)->GetStaticField(0x23738);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*>, ::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(FlowNode___c_TypeDefinitionIndex)->GetStaticField(0x24F98);
 		}
-		static ::FlowCanvas::FlowNode___c** StaticGet___9()
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*>, ::System::String*>** StaticGet___9__97_0()
 		{
-			return (::FlowCanvas::FlowNode___c**)Il2CppClass::FromTypeDefinitionIndex(FlowNode___c_TypeDefinitionIndex)->GetStaticField(0x23740);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*>, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(FlowNode___c_TypeDefinitionIndex)->GetStaticField(0x24FA0);
 		}
 		static ::System::Func_2<::FlowCanvas::Port*, ::System::Int32>** StaticGet___9__65_0()
 		{
-			return (::System::Func_2<::FlowCanvas::Port*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(FlowNode___c_TypeDefinitionIndex)->GetStaticField(0x23748);
+			return (::System::Func_2<::FlowCanvas::Port*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(FlowNode___c_TypeDefinitionIndex)->GetStaticField(0x24FA8);
+		}
+		static ::FlowCanvas::FlowNode___c** StaticGet___9()
+		{
+			return (::FlowCanvas::FlowNode___c**)Il2CppClass::FromTypeDefinitionIndex(FlowNode___c_TypeDefinitionIndex)->GetStaticField(0x24FB0);
+		}
+		static ::System::Func_2<::FlowCanvas::Port*, ::System::Int32>** StaticGet___9__64_0()
+		{
+			return (::System::Func_2<::FlowCanvas::Port*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(FlowNode___c_TypeDefinitionIndex)->GetStaticField(0x24FB8);
 		}
 
 		static ::System::Void _cctor()

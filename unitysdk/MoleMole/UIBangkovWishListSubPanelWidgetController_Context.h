@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIBANGKOVWISHLISTSUBPANELWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16EE6B40)
+#define MOLEMOLE_UIBANGKOVWISHLISTSUBPANELWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18D28370)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBangkovWishListSubPanelWidgetController_Context_TypeDefinitionIndex = 41154;
+	inline static constexpr unsigned int UIBangkovWishListSubPanelWidgetController_Context_TypeDefinitionIndex = 57233;
 
 	class UIBangkovWishListSubPanelWidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{

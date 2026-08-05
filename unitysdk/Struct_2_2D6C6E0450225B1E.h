@@ -4,15 +4,15 @@
 
 namespace System { class Action; }
 
-#define STRUCT_2_2D6C6E0450225B1E_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x6B4B10)
+#define STRUCT_2_2D6C6E0450225B1E_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x81D5E0)
 
-inline static constexpr unsigned int Struct_2_2D6C6E0450225B1E_TypeDefinitionIndex = 63977;
+inline static constexpr unsigned int Struct_2_2D6C6E0450225B1E_TypeDefinitionIndex = 60400;
 
 struct alignas(8) Struct_2_2D6C6E0450225B1E
 {
-	::System::Int32 Field_2_0; // 0x10
+	::System::Int32 Field_2_2; // 0x10
 	::System::Action* Field_2_1; // 0x18
-	::System::Action* Field_2_2; // 0x20
+	::System::Action* Field_2_0; // 0x20
 
 	::System::Void Method_2_CA373AA1C7054598()
 	{

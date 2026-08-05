@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_CONFIG_CONFIGONGOINGTYPEDURATIONDATA_CONFIGONGOINGSINGLELANGUAGEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA568D0)
+#define MOLEMOLE_CONFIG_CONFIGONGOINGTYPEDURATIONDATA_CONFIGONGOINGSINGLELANGUAGEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1147AEB0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigOnGoingTypeDurationData_ConfigOnGoingSingleLanguageData_TypeDefinitionIndex = 58110;
+	inline static constexpr unsigned int ConfigOnGoingTypeDurationData_ConfigOnGoingSingleLanguageData_TypeDefinitionIndex = 62339;
 
 	class ConfigOnGoingTypeDurationData_ConfigOnGoingSingleLanguageData : public ::System::Object
 	{

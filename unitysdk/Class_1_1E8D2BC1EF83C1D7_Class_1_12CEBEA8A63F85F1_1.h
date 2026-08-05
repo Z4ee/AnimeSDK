@@ -9,18 +9,18 @@ namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Object; }
 namespace UnityEngine { class Sprite; }
 
-#define CLASS_1_1E8D2BC1EF83C1D7_CLASS_1_12CEBEA8A63F85F1_1_METHOD_1_2CA7A456F23971D0_OFFSET UNITYSDK_OFFSET(0x1587C830)
-#define CLASS_1_1E8D2BC1EF83C1D7_CLASS_1_12CEBEA8A63F85F1_1_METHOD_1_93A98E249E6005CA_OFFSET UNITYSDK_OFFSET(0x1587C8C0)
-#define CLASS_1_1E8D2BC1EF83C1D7_CLASS_1_12CEBEA8A63F85F1_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1587C820)
+#define CLASS_1_1E8D2BC1EF83C1D7_CLASS_1_12CEBEA8A63F85F1_1_METHOD_1_2CA7A456F23971D0_OFFSET UNITYSDK_OFFSET(0x15615780)
+#define CLASS_1_1E8D2BC1EF83C1D7_CLASS_1_12CEBEA8A63F85F1_1_METHOD_1_93A98E249E6005CA_OFFSET UNITYSDK_OFFSET(0x15615810)
+#define CLASS_1_1E8D2BC1EF83C1D7_CLASS_1_12CEBEA8A63F85F1_1__CTOR_OFFSET UNITYSDK_OFFSET(0x15615770)
 
-inline static constexpr unsigned int Class_1_1E8D2BC1EF83C1D7_Class_1_12CEBEA8A63F85F1_1_TypeDefinitionIndex = 59077;
+inline static constexpr unsigned int Class_1_1E8D2BC1EF83C1D7_Class_1_12CEBEA8A63F85F1_1_TypeDefinitionIndex = 81117;
 
 class Class_1_1E8D2BC1EF83C1D7_Class_1_12CEBEA8A63F85F1_1 : public ::System::Object
 {
 public:
-	::Class_1_1E8D2BC1EF83C1D7* Field_1_0; // 0x10
-	::System::Action_1<::Foundation::AssetRequestHandle>* Field_1_1; // 0x18
-	::System::Action_2<::UnityEngine::Sprite*, ::Foundation::AssetRequestHandle>* Field_1_2; // 0x20
+	::System::Action_1<::Foundation::AssetRequestHandle>* Field_1_0; // 0x10
+	::System::Action_2<::UnityEngine::Sprite*, ::Foundation::AssetRequestHandle>* Field_1_7; // 0x18
+	::Class_1_1E8D2BC1EF83C1D7* Field_1_1; // 0x20
 
 	::System::Void _ctor()
 	{

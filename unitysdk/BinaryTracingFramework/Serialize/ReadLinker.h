@@ -7,20 +7,20 @@ namespace BinaryTracingFramework::Serialize { class ISerializableObject; }
 namespace System { template <typename T> class Action_1; }
 namespace System::IO { class Stream; }
 
-#define BINARYTRACINGFRAMEWORK_SERIALIZE_READLINKER_INIT_OFFSET UNITYSDK_OFFSET(0x1E2304B0)
-#define BINARYTRACINGFRAMEWORK_SERIALIZE_READLINKER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1E2305E0)
-#define BINARYTRACINGFRAMEWORK_SERIALIZE_READLINKER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E2306E0)
+#define BINARYTRACINGFRAMEWORK_SERIALIZE_READLINKER_INIT_OFFSET UNITYSDK_OFFSET(0x1F654480)
+#define BINARYTRACINGFRAMEWORK_SERIALIZE_READLINKER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1F6545B0)
+#define BINARYTRACINGFRAMEWORK_SERIALIZE_READLINKER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F6546B0)
 
 namespace BinaryTracingFramework::Serialize
 {
-	inline static constexpr unsigned int ReadLinker_TypeDefinitionIndex = 33981;
+	inline static constexpr unsigned int ReadLinker_TypeDefinitionIndex = 34617;
 
 	class ReadLinker : public ::System::Object
 	{
 	public:
-		::System::IO::Stream* _readStream; // 0x10
-		::System::Action_1<::BinaryTracingFramework::Serialize::ISerializableObject*>* _onBlockRead; // 0x18
-		::BinaryTracingFramework::Serialize::BinaryReadArchive* _readArchive; // 0x20
+		::BinaryTracingFramework::Serialize::BinaryReadArchive* _readArchive; // 0x10
+		::System::IO::Stream* _readStream; // 0x18
+		::System::Action_1<::BinaryTracingFramework::Serialize::ISerializableObject*>* _onBlockRead; // 0x20
 
 		::System::Void _ctor()
 		{

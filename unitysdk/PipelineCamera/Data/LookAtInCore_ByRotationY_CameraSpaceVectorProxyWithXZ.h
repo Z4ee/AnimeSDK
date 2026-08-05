@@ -4,12 +4,12 @@
 #include "unitysdk/Foundation/Function/WithConstant_1.h"
 #include "unitysdk/System/ValueType.h"
 
-#define PIPELINECAMERA_DATA_LOOKATINCORE_BYROTATIONY_CAMERASPACEVECTORPROXYWITHXZ_CREATE_OFFSET UNITYSDK_OFFSET(0x1D832F20)
-#define PIPELINECAMERA_DATA_LOOKATINCORE_BYROTATIONY_CAMERASPACEVECTORPROXYWITHXZ__CTOR_OFFSET UNITYSDK_OFFSET(0xA0F370)
+#define PIPELINECAMERA_DATA_LOOKATINCORE_BYROTATIONY_CAMERASPACEVECTORPROXYWITHXZ_CREATE_OFFSET UNITYSDK_OFFSET(0x1EBC7720)
+#define PIPELINECAMERA_DATA_LOOKATINCORE_BYROTATIONY_CAMERASPACEVECTORPROXYWITHXZ__CTOR_OFFSET UNITYSDK_OFFSET(0xA5E860)
 
 namespace PipelineCamera::Data
 {
-	inline static constexpr unsigned int LookAtInCore_ByRotationY_CameraSpaceVectorProxyWithXZ_TypeDefinitionIndex = 37777;
+	inline static constexpr unsigned int LookAtInCore_ByRotationY_CameraSpaceVectorProxyWithXZ_TypeDefinitionIndex = 38438;
 
 	struct alignas(8) LookAtInCore_ByRotationY_CameraSpaceVectorProxyWithXZ
 	{

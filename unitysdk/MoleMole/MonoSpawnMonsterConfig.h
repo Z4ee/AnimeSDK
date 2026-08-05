@@ -7,23 +7,23 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_MONOSPAWNMONSTERCONFIG_EMPTY_OFFSET UNITYSDK_OFFSET(0x16CDC830)
-#define MOLEMOLE_MONOSPAWNMONSTERCONFIG_GETCOMPONENTSAFELY_OFFSET UNITYSDK_OFFSET(0x16CDC940)
-#define MOLEMOLE_MONOSPAWNMONSTERCONFIG_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x16CDCB80)
-#define MOLEMOLE_MONOSPAWNMONSTERCONFIG_ONENABLE_OFFSET UNITYSDK_OFFSET(0x16CDCA70)
-#define MOLEMOLE_MONOSPAWNMONSTERCONFIG__CCTOR_OFFSET UNITYSDK_OFFSET(0x16CDCD60)
-#define MOLEMOLE_MONOSPAWNMONSTERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16CDCD00)
+#define MOLEMOLE_MONOSPAWNMONSTERCONFIG_EMPTY_OFFSET UNITYSDK_OFFSET(0x13AC4840)
+#define MOLEMOLE_MONOSPAWNMONSTERCONFIG_GETCOMPONENTSAFELY_OFFSET UNITYSDK_OFFSET(0x13AC4950)
+#define MOLEMOLE_MONOSPAWNMONSTERCONFIG_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x13AC4B90)
+#define MOLEMOLE_MONOSPAWNMONSTERCONFIG_ONENABLE_OFFSET UNITYSDK_OFFSET(0x13AC4A80)
+#define MOLEMOLE_MONOSPAWNMONSTERCONFIG__CCTOR_OFFSET UNITYSDK_OFFSET(0x13AC4D70)
+#define MOLEMOLE_MONOSPAWNMONSTERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x13AC4D10)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoSpawnMonsterConfig_TypeDefinitionIndex = 59244;
+	inline static constexpr unsigned int MonoSpawnMonsterConfig_TypeDefinitionIndex = 69892;
 
 	class MonoSpawnMonsterConfig : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::MonoSpawnMonsterConfig*>** StaticGet_Field_5_5()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::MonoSpawnMonsterConfig*>**)Il2CppClass::FromTypeDefinitionIndex(MonoSpawnMonsterConfig_TypeDefinitionIndex)->GetStaticField(0x42F80);
+			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::MonoSpawnMonsterConfig*>**)Il2CppClass::FromTypeDefinitionIndex(MonoSpawnMonsterConfig_TypeDefinitionIndex)->GetStaticField(0x46E60);
 		}
 		::MoleMole::FlowCanvas::Nodes::MonsterIDType idType; // 0x18
 		::System::Int32 monsterId; // 0x1C

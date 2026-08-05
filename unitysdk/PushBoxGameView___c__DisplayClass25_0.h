@@ -6,18 +6,18 @@ class Class_2_C03EC65F99EF4B16;
 class PushBoxGameView;
 namespace System { class String; }
 
-#define PUSHBOXGAMEVIEW___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB262B0)
-#define PUSHBOXGAMEVIEW___C__DISPLAYCLASS25_0__PLAYRESETANIM_B__0_OFFSET UNITYSDK_OFFSET(0x1BB262C0)
-#define PUSHBOXGAMEVIEW___C__DISPLAYCLASS25_0__PLAYRESETANIM_G____GETDURATION_1_OFFSET UNITYSDK_OFFSET(0x1BB262F0)
+#define PUSHBOXGAMEVIEW___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB91040)
+#define PUSHBOXGAMEVIEW___C__DISPLAYCLASS25_0__PLAYRESETANIM_B__0_OFFSET UNITYSDK_OFFSET(0x1CB91050)
+#define PUSHBOXGAMEVIEW___C__DISPLAYCLASS25_0__PLAYRESETANIM_G____GETDURATION_1_OFFSET UNITYSDK_OFFSET(0x1CB91080)
 
-inline static constexpr unsigned int PushBoxGameView___c__DisplayClass25_0_TypeDefinitionIndex = 42715;
+inline static constexpr unsigned int PushBoxGameView___c__DisplayClass25_0_TypeDefinitionIndex = 84520;
 
 class PushBoxGameView___c__DisplayClass25_0 : public ::System::Object
 {
 public:
-	::System::String* textureKey; // 0x10
+	::PushBoxGameView* __4__this; // 0x10
 	::Class_2_C03EC65F99EF4B16* eventModel; // 0x18
-	::PushBoxGameView* __4__this; // 0x20
+	::System::String* textureKey; // 0x20
 	::System::Boolean beginFromMiddle; // 0x28
 
 	::System::Void _ctor()

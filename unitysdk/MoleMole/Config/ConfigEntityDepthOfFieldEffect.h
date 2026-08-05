@@ -8,60 +8,60 @@
 namespace MoleMole::Config { class ScreenEffectBool; }
 namespace MoleMole::Config { class ScreenEffectFloat; }
 
-#define MOLEMOLE_CONFIG_CONFIGENTITYDEPTHOFFIELDEFFECT_GETAPERTURE_OFFSET UNITYSDK_OFFSET(0x17D523E0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYDEPTHOFFIELDEFFECT_GETBLADECOUNT_OFFSET UNITYSDK_OFFSET(0x17D52460)
-#define MOLEMOLE_CONFIG_CONFIGENTITYDEPTHOFFIELDEFFECT_GETBLADECURVATURE_OFFSET UNITYSDK_OFFSET(0x17D524E0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYDEPTHOFFIELDEFFECT_GETBLADEROTATION_OFFSET UNITYSDK_OFFSET(0x17D52560)
-#define MOLEMOLE_CONFIG_CONFIGENTITYDEPTHOFFIELDEFFECT_GETBLURQUALITYHIGH_OFFSET UNITYSDK_OFFSET(0x17D52660)
-#define MOLEMOLE_CONFIG_CONFIGENTITYDEPTHOFFIELDEFFECT_GETDEBUGMODE_OFFSET UNITYSDK_OFFSET(0x17D52080)
-#define MOLEMOLE_CONFIG_CONFIGENTITYDEPTHOFFIELDEFFECT_GETDISCARDNEARCOC_OFFSET UNITYSDK_OFFSET(0x17D525E0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYDEPTHOFFIELDEFFECT_GETFOCALLENGTH_OFFSET UNITYSDK_OFFSET(0x17D52360)
-#define MOLEMOLE_CONFIG_CONFIGENTITYDEPTHOFFIELDEFFECT_GETFOCUSDISTANCE_OFFSET UNITYSDK_OFFSET(0x17D522E0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYDEPTHOFFIELDEFFECT_GETFORCENODEFAULTDOF_OFFSET UNITYSDK_OFFSET(0x17D526E0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYDEPTHOFFIELDEFFECT_GETGAUSSIANEND_OFFSET UNITYSDK_OFFSET(0x17D52170)
-#define MOLEMOLE_CONFIG_CONFIGENTITYDEPTHOFFIELDEFFECT_GETGAUSSIANMAXRADIUS_OFFSET UNITYSDK_OFFSET(0x17D521F0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYDEPTHOFFIELDEFFECT_GETGAUSSIANSTART_OFFSET UNITYSDK_OFFSET(0x17D520F0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYDEPTHOFFIELDEFFECT_GETHIGHQUALITYSAMPLING_OFFSET UNITYSDK_OFFSET(0x17D52270)
-#define MOLEMOLE_CONFIG_CONFIGENTITYDEPTHOFFIELDEFFECT_GETMODE_OFFSET UNITYSDK_OFFSET(0x17D52010)
-#define MOLEMOLE_CONFIG_CONFIGENTITYDEPTHOFFIELDEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x17D52760)
+#define MOLEMOLE_CONFIG_CONFIGENTITYDEPTHOFFIELDEFFECT_GETAPERTURE_OFFSET UNITYSDK_OFFSET(0x172A15B0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYDEPTHOFFIELDEFFECT_GETBLADECOUNT_OFFSET UNITYSDK_OFFSET(0x172A1630)
+#define MOLEMOLE_CONFIG_CONFIGENTITYDEPTHOFFIELDEFFECT_GETBLADECURVATURE_OFFSET UNITYSDK_OFFSET(0x172A16B0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYDEPTHOFFIELDEFFECT_GETBLADEROTATION_OFFSET UNITYSDK_OFFSET(0x172A1730)
+#define MOLEMOLE_CONFIG_CONFIGENTITYDEPTHOFFIELDEFFECT_GETBLURQUALITYHIGH_OFFSET UNITYSDK_OFFSET(0x172A1830)
+#define MOLEMOLE_CONFIG_CONFIGENTITYDEPTHOFFIELDEFFECT_GETDEBUGMODE_OFFSET UNITYSDK_OFFSET(0x172A1250)
+#define MOLEMOLE_CONFIG_CONFIGENTITYDEPTHOFFIELDEFFECT_GETDISCARDNEARCOC_OFFSET UNITYSDK_OFFSET(0x172A17B0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYDEPTHOFFIELDEFFECT_GETFOCALLENGTH_OFFSET UNITYSDK_OFFSET(0x172A1530)
+#define MOLEMOLE_CONFIG_CONFIGENTITYDEPTHOFFIELDEFFECT_GETFOCUSDISTANCE_OFFSET UNITYSDK_OFFSET(0x172A14B0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYDEPTHOFFIELDEFFECT_GETFORCENODEFAULTDOF_OFFSET UNITYSDK_OFFSET(0x172A18B0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYDEPTHOFFIELDEFFECT_GETGAUSSIANEND_OFFSET UNITYSDK_OFFSET(0x172A1340)
+#define MOLEMOLE_CONFIG_CONFIGENTITYDEPTHOFFIELDEFFECT_GETGAUSSIANMAXRADIUS_OFFSET UNITYSDK_OFFSET(0x172A13C0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYDEPTHOFFIELDEFFECT_GETGAUSSIANSTART_OFFSET UNITYSDK_OFFSET(0x172A12C0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYDEPTHOFFIELDEFFECT_GETHIGHQUALITYSAMPLING_OFFSET UNITYSDK_OFFSET(0x172A1440)
+#define MOLEMOLE_CONFIG_CONFIGENTITYDEPTHOFFIELDEFFECT_GETMODE_OFFSET UNITYSDK_OFFSET(0x172A11E0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYDEPTHOFFIELDEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x172A1930)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigEntityDepthOfFieldEffect_TypeDefinitionIndex = 55357;
+	inline static constexpr unsigned int ConfigEntityDepthOfFieldEffect_TypeDefinitionIndex = 57174;
 
 	class ConfigEntityDepthOfFieldEffect : public ::MoleMole::Config::ConfigEntityScreenEffectBase
 	{
 	public:
-		::MoleMole::Config::ScreenEffectFloat* bladeCurvature; // 0x40
-		::MoleMole::Config::ScreenEffectBool* forceNoDefaultDof; // 0x48
-		::MoleMole::Config::ScreenEffectFloat* gaussianEnd; // 0x50
-		::MoleMole::Config::ScreenEffectFloat* bladeRotation; // 0x58
-		::MoleMole::Config::ScreenEffectFloat* bladeCount; // 0x60
+		::MoleMole::Config::ScreenEffectFloat* bladeCount; // 0x40
+		::MoleMole::Config::ScreenEffectFloat* focalLength; // 0x48
+		::MoleMole::Config::ScreenEffectFloat* gaussianStart; // 0x50
+		::MoleMole::Config::ScreenEffectBool* blurQualityHigh; // 0x58
+		::MoleMole::Config::ScreenEffectFloat* gaussianEnd; // 0x60
 		::MoleMole::Config::ScreenEffectBool* discardNearCoc; // 0x68
-		::MoleMole::Config::ScreenEffectFloat* gaussianMaxRadius; // 0x70
-		::MoleMole::Config::ScreenEffectBool* blurQualityHigh; // 0x78
-		::MoleMole::Config::ScreenEffectFloat* focalLength; // 0x80
-		::MoleMole::Config::ScreenEffectFloat* focusDistance; // 0x88
-		::MoleMole::Config::ScreenEffectFloat* aperture; // 0x90
-		::MoleMole::Config::ScreenEffectFloat* gaussianStart; // 0x98
-		::MoleMole::Config::ScreenEffectFieldHandleType bladeCountHandleType; // 0xA0
-		::MoleMole::Config::ScreenEffectFieldHandleType bladeCurvatureHandleType; // 0xA4
-		::MoleMole::Config::ScreenEffectFieldHandleType forceNoDefaultDofHandleType; // 0xA8
-		::MoleMole::Config::ScreenEffectFieldHandleType gaussianMaxRadiusHandleType; // 0xAC
-		::MoleMole::Config::ScreenEffectFieldHandleType debugModeHandleType; // 0xB0
+		::MoleMole::Config::ScreenEffectBool* forceNoDefaultDof; // 0x70
+		::MoleMole::Config::ScreenEffectFloat* bladeCurvature; // 0x78
+		::MoleMole::Config::ScreenEffectFloat* gaussianMaxRadius; // 0x80
+		::MoleMole::Config::ScreenEffectFloat* bladeRotation; // 0x88
+		::MoleMole::Config::ScreenEffectFloat* focusDistance; // 0x90
+		::MoleMole::Config::ScreenEffectFloat* aperture; // 0x98
+		::UnityEngine::Rendering::Universal::DepthOfFieldMode mode; // 0xA0
+		::MoleMole::Config::ScreenEffectFieldHandleType forceNoDefaultDofHandleType; // 0xA4
+		::System::Boolean highQualitySampling; // 0xA8
+		::UnityEngine::Rendering::Universal::DofDebugMode debugMode; // 0xAC
+		::MoleMole::Config::ScreenEffectFieldHandleType bladeCountHandleType; // 0xB0
 		::MoleMole::Config::ScreenEffectFieldHandleType gaussianEndHandleType; // 0xB4
-		::UnityEngine::Rendering::Universal::DofDebugMode debugMode; // 0xB8
-		::System::Boolean highQualitySampling; // 0xBC
-		::MoleMole::Config::ScreenEffectFieldHandleType modeHandleType; // 0xC0
-		::UnityEngine::Rendering::Universal::DepthOfFieldMode mode; // 0xC4
-		::MoleMole::Config::ScreenEffectFieldHandleType apertureHandleType; // 0xC8
-		::MoleMole::Config::ScreenEffectFieldHandleType gaussianStartHandleType; // 0xCC
+		::MoleMole::Config::ScreenEffectFieldHandleType focalLengthHandleType; // 0xB8
+		::MoleMole::Config::ScreenEffectFieldHandleType gaussianStartHandleType; // 0xBC
+		::MoleMole::Config::ScreenEffectFieldHandleType highQualitySamplingHandleType; // 0xC0
+		::MoleMole::Config::ScreenEffectFieldHandleType gaussianMaxRadiusHandleType; // 0xC4
+		::MoleMole::Config::ScreenEffectFieldHandleType debugModeHandleType; // 0xC8
+		::MoleMole::Config::ScreenEffectFieldHandleType discardNearCocHandleType; // 0xCC
 		::MoleMole::Config::ScreenEffectFieldHandleType focusDistanceHandleType; // 0xD0
-		::MoleMole::Config::ScreenEffectFieldHandleType focalLengthHandleType; // 0xD4
-		::MoleMole::Config::ScreenEffectFieldHandleType bladeRotationHandleType; // 0xD8
-		::MoleMole::Config::ScreenEffectFieldHandleType highQualitySamplingHandleType; // 0xDC
-		::MoleMole::Config::ScreenEffectFieldHandleType discardNearCocHandleType; // 0xE0
-		::MoleMole::Config::ScreenEffectFieldHandleType blurQualityHighHandleType; // 0xE4
+		::MoleMole::Config::ScreenEffectFieldHandleType blurQualityHighHandleType; // 0xD4
+		::MoleMole::Config::ScreenEffectFieldHandleType bladeCurvatureHandleType; // 0xD8
+		::MoleMole::Config::ScreenEffectFieldHandleType bladeRotationHandleType; // 0xDC
+		::MoleMole::Config::ScreenEffectFieldHandleType apertureHandleType; // 0xE0
+		::MoleMole::Config::ScreenEffectFieldHandleType modeHandleType; // 0xE4
 
 		::System::Void _ctor()
 		{

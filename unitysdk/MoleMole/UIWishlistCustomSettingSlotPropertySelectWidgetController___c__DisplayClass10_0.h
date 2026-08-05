@@ -5,18 +5,18 @@
 namespace MoleMole { class UIGeneralFilterItemRowWidgetController; }
 namespace MoleMole { class UIWishlistCustomSettingSlotPropertySelectWidgetController; }
 
-#define MOLEMOLE_UIWISHLISTCUSTOMSETTINGSLOTPROPERTYSELECTWIDGETCONTROLLER___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17BD35B0)
-#define MOLEMOLE_UIWISHLISTCUSTOMSETTINGSLOTPROPERTYSELECTWIDGETCONTROLLER___C__DISPLAYCLASS10_0__REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x17BD35C0)
+#define MOLEMOLE_UIWISHLISTCUSTOMSETTINGSLOTPROPERTYSELECTWIDGETCONTROLLER___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x11E38C60)
+#define MOLEMOLE_UIWISHLISTCUSTOMSETTINGSLOTPROPERTYSELECTWIDGETCONTROLLER___C__DISPLAYCLASS10_0__REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x11E38C70)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIWishlistCustomSettingSlotPropertySelectWidgetController___c__DisplayClass10_0_TypeDefinitionIndex = 74993;
+	inline static constexpr unsigned int UIWishlistCustomSettingSlotPropertySelectWidgetController___c__DisplayClass10_0_TypeDefinitionIndex = 89609;
 
 	class UIWishlistCustomSettingSlotPropertySelectWidgetController___c__DisplayClass10_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIWishlistCustomSettingSlotPropertySelectWidgetController* __4__this; // 0x10
-		::MoleMole::UIGeneralFilterItemRowWidgetController* itemCtrl; // 0x18
+		::MoleMole::UIGeneralFilterItemRowWidgetController* itemCtrl; // 0x10
+		::MoleMole::UIWishlistCustomSettingSlotPropertySelectWidgetController* __4__this; // 0x18
 		::System::Int32 propertyId; // 0x20
 
 		::System::Void _ctor()

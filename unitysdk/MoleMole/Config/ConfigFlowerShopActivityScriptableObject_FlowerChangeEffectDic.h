@@ -6,11 +6,11 @@
 namespace MoleMole::Config { class ConfigFlowerShopActivityScriptableObject_FlowerChangeEffectDicEntry; }
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGFLOWERSHOPACTIVITYSCRIPTABLEOBJECT_FLOWERCHANGEEFFECTDIC__CTOR_OFFSET UNITYSDK_OFFSET(0x10D09800)
+#define MOLEMOLE_CONFIG_CONFIGFLOWERSHOPACTIVITYSCRIPTABLEOBJECT_FLOWERCHANGEEFFECTDIC__CTOR_OFFSET UNITYSDK_OFFSET(0x117097C0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigFlowerShopActivityScriptableObject_FlowerChangeEffectDic_TypeDefinitionIndex = 53101;
+	inline static constexpr unsigned int ConfigFlowerShopActivityScriptableObject_FlowerChangeEffectDic_TypeDefinitionIndex = 48062;
 
 	class ConfigFlowerShopActivityScriptableObject_FlowerChangeEffectDic : public ::MoleMole::DataStructures::Lists::EasySerializeDictionary_3<::MoleMole::UI::FlowerShop::ESlotType, ::System::String*, ::MoleMole::Config::ConfigFlowerShopActivityScriptableObject_FlowerChangeEffectDicEntry*>
 	{

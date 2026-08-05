@@ -4,12 +4,12 @@
 
 namespace UnityEngine::Rendering { class Volume; }
 
-#define MOLEMOLE_VOLUMECTRL_START_OFFSET UNITYSDK_OFFSET(0x12CA67D0)
-#define MOLEMOLE_VOLUMECTRL__CTOR_OFFSET UNITYSDK_OFFSET(0x12CA6810)
+#define MOLEMOLE_VOLUMECTRL_START_OFFSET UNITYSDK_OFFSET(0x12E865C0)
+#define MOLEMOLE_VOLUMECTRL__CTOR_OFFSET UNITYSDK_OFFSET(0x12E86600)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int VolumeCtrl_TypeDefinitionIndex = 82410;
+	inline static constexpr unsigned int VolumeCtrl_TypeDefinitionIndex = 70054;
 
 	class VolumeCtrl : public ::UnityEngine::MonoBehaviour
 	{

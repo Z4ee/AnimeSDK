@@ -6,11 +6,11 @@
 
 namespace System { class String; }
 
-#define RBDDESTRUCTION_VOLUMEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B06FA00)
+#define RBDDESTRUCTION_VOLUMEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4CFB10)
 
 namespace RBDDestruction
 {
-	inline static constexpr unsigned int VolumeData_TypeDefinitionIndex = 26380;
+	inline static constexpr unsigned int VolumeData_TypeDefinitionIndex = 27373;
 
 	class VolumeData : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int IPeriodicPolicy_1_TypeDefinitionIndex = 8654;
+	inline static constexpr unsigned int IPeriodicPolicy_1_TypeDefinitionIndex = 8705;
 
 	template <typename T>
 	class IPeriodicPolicy_1

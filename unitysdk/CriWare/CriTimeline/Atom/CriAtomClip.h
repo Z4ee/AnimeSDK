@@ -1,33 +1,44 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/CriWare/CriTimeline/Atom/CriAtomClipBase.h"
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 
 namespace CriWare { class CriAtomCueSheet; }
 namespace CriWare { class CriAtomExAcb; }
 namespace CriWare { class CriAtomSourceBase; }
+namespace CriWare::CriTimeline::Atom { class CriAtomBehaviour; }
 namespace System { class String; }
+namespace UnityEngine { class GameObject; }
 
-#define CRIWARE_CRITIMELINE_ATOM_CRIATOMCLIP_GETACB_OFFSET UNITYSDK_OFFSET(0x1E312B20)
-#define CRIWARE_CRITIMELINE_ATOM_CRIATOMCLIP_GETCUESHEET_OFFSET UNITYSDK_OFFSET(0x1E312B30)
-#define CRIWARE_CRITIMELINE_ATOM_CRIATOMCLIP_GET_ACBPATH_OFFSET UNITYSDK_OFFSET(0x1E312B40)
-#define CRIWARE_CRITIMELINE_ATOM_CRIATOMCLIP_GET_AWBPATH_OFFSET UNITYSDK_OFFSET(0x1E312BD0)
-#define CRIWARE_CRITIMELINE_ATOM_CRIATOMCLIP_GET_CUENAME_OFFSET UNITYSDK_OFFSET(0x1E312B10)
-#define CRIWARE_CRITIMELINE_ATOM_CRIATOMCLIP_SETCUEFROMATOMSOURCE_OFFSET UNITYSDK_OFFSET(0x1E312C60)
-#define CRIWARE_CRITIMELINE_ATOM_CRIATOMCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1E312D30)
+#define CRIWARE_CRITIMELINE_ATOM_CRIATOMCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1F67ED50)
+#define CRIWARE_CRITIMELINE_ATOM_CRIATOMCLIP_GETACB_OFFSET UNITYSDK_OFFSET(0x1F67EE30)
+#define CRIWARE_CRITIMELINE_ATOM_CRIATOMCLIP_GETCUESHEET_OFFSET UNITYSDK_OFFSET(0x1F67EE40)
+#define CRIWARE_CRITIMELINE_ATOM_CRIATOMCLIP_GET_ACBPATH_OFFSET UNITYSDK_OFFSET(0x1F67EE50)
+#define CRIWARE_CRITIMELINE_ATOM_CRIATOMCLIP_GET_AWBPATH_OFFSET UNITYSDK_OFFSET(0x1F67EEE0)
+#define CRIWARE_CRITIMELINE_ATOM_CRIATOMCLIP_GET_CUENAME_OFFSET UNITYSDK_OFFSET(0x1F67EE20)
+#define CRIWARE_CRITIMELINE_ATOM_CRIATOMCLIP_SETCUEFROMATOMSOURCE_OFFSET UNITYSDK_OFFSET(0x1F67EF70)
+#define CRIWARE_CRITIMELINE_ATOM_CRIATOMCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1F67F040)
 
 namespace CriWare::CriTimeline::Atom
 {
-	inline static constexpr unsigned int CriAtomClip_TypeDefinitionIndex = 34389;
+	inline static constexpr unsigned int CriAtomClip_TypeDefinitionIndex = 35040;
 
 	class CriAtomClip : public ::CriWare::CriTimeline::Atom::CriAtomClipBase
 	{
 	public:
-		::System::String* cueSheet; // 0x30
-		::System::String* cueName; // 0x38
+		::System::String* cueSheet; // 0x28
+		::System::String* cueName; // 0x30
+		::CriWare::CriTimeline::Atom::CriAtomBehaviour* templateBehaviour; // 0x38
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CRIWARE_CRITIMELINE_ATOM_CRIATOMCLIP__CTOR_OFFSET))(this);
+		}
+
+		::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* owner)
+		{
+			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + CRIWARE_CRITIMELINE_ATOM_CRIATOMCLIP_CREATEPLAYABLE_OFFSET))(this, graph, owner);
 		}
 
 		::System::String* get_CueName()

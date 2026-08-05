@@ -8,9 +8,9 @@ namespace System::Xml { class XmlElementList; }
 namespace System::Xml { class XmlNodeChangedEventArgs; }
 namespace System::Xml { class XmlNodeChangedEventHandler; }
 
-#define SYSTEM_XML_XMLELEMENTLISTLISTENER_ONLISTCHANGED_OFFSET UNITYSDK_OFFSET(0x1D2E0CD0)
-#define SYSTEM_XML_XMLELEMENTLISTLISTENER_UNREGISTER_OFFSET UNITYSDK_OFFSET(0x1D2E0F40)
-#define SYSTEM_XML_XMLELEMENTLISTLISTENER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2E0B50)
+#define SYSTEM_XML_XMLELEMENTLISTLISTENER_ONLISTCHANGED_OFFSET UNITYSDK_OFFSET(0x1E62B470)
+#define SYSTEM_XML_XMLELEMENTLISTLISTENER_UNREGISTER_OFFSET UNITYSDK_OFFSET(0x1E62B6E0)
+#define SYSTEM_XML_XMLELEMENTLISTLISTENER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E62B2F0)
 
 namespace System::Xml
 {
@@ -20,8 +20,8 @@ namespace System::Xml
 	{
 	public:
 		::System::WeakReference* elemList; // 0x10
-		::System::Xml::XmlDocument* doc; // 0x18
-		::System::Xml::XmlNodeChangedEventHandler* nodeChangeHandler; // 0x20
+		::System::Xml::XmlNodeChangedEventHandler* nodeChangeHandler; // 0x18
+		::System::Xml::XmlDocument* doc; // 0x20
 
 		::System::Void _ctor(::System::Xml::XmlDocument* doc, ::System::Xml::XmlElementList* elemList)
 		{

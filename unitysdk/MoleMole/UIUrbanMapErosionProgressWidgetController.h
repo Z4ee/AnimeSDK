@@ -1,0 +1,171 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_2_4B3401D95328DA92_Struct_2_19654198622DB64B.h"
+#include "unitysdk/MoleMole/UIWidgetController.h"
+#include "unitysdk/Struct_2_575273D27F02957E.h"
+
+class Class_2_24E4FBE0793B032F;
+namespace MoleMole { class UIControlReference; }
+namespace MoleMole { class UIControllerContextBase; }
+namespace MoleMole { class UIUrbanMapErosionProgressNodeWidgetController; }
+namespace System { class EventArgs; }
+namespace System { class String; }
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define MOLEMOLE_UIURBANMAPEROSIONPROGRESSWIDGETCONTROLLER_FINDLASTEROSION_OFFSET UNITYSDK_OFFSET(0x140D71A0)
+#define MOLEMOLE_UIURBANMAPEROSIONPROGRESSWIDGETCONTROLLER_FINDNEXTEROSION_OFFSET UNITYSDK_OFFSET(0x140D6E90)
+#define MOLEMOLE_UIURBANMAPEROSIONPROGRESSWIDGETCONTROLLER_GENERATENODE_OFFSET UNITYSDK_OFFSET(0x140D7500)
+#define MOLEMOLE_UIURBANMAPEROSIONPROGRESSWIDGETCONTROLLER_GETCURRENTSTAGE_OFFSET UNITYSDK_OFFSET(0x140D73F0)
+#define MOLEMOLE_UIURBANMAPEROSIONPROGRESSWIDGETCONTROLLER_GETCURTIMER_OFFSET UNITYSDK_OFFSET(0x140D7350)
+#define MOLEMOLE_UIURBANMAPEROSIONPROGRESSWIDGETCONTROLLER_GETORCREATESTRING_OFFSET UNITYSDK_OFFSET(0x140D8A50)
+#define MOLEMOLE_UIURBANMAPEROSIONPROGRESSWIDGETCONTROLLER_GET__VIEWMODEL_OFFSET UNITYSDK_OFFSET(0x140D6390)
+#define MOLEMOLE_UIURBANMAPEROSIONPROGRESSWIDGETCONTROLLER_ONBIGSCENEDUNGEONEROSIONAREAUPDATE_OFFSET UNITYSDK_OFFSET(0x140D6580)
+#define MOLEMOLE_UIURBANMAPEROSIONPROGRESSWIDGETCONTROLLER_ONCREATEVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x140D6400)
+#define MOLEMOLE_UIURBANMAPEROSIONPROGRESSWIDGETCONTROLLER_ONSHOW_OFFSET UNITYSDK_OFFSET(0x140D6CC0)
+#define MOLEMOLE_UIURBANMAPEROSIONPROGRESSWIDGETCONTROLLER_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x140D6540)
+#define MOLEMOLE_UIURBANMAPEROSIONPROGRESSWIDGETCONTROLLER_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x140D64A0)
+#define MOLEMOLE_UIURBANMAPEROSIONPROGRESSWIDGETCONTROLLER_REFRESHBYDATA_OFFSET UNITYSDK_OFFSET(0x140D65D0)
+#define MOLEMOLE_UIURBANMAPEROSIONPROGRESSWIDGETCONTROLLER_REFRESHNODES_OFFSET UNITYSDK_OFFSET(0x140D7940)
+#define MOLEMOLE_UIURBANMAPEROSIONPROGRESSWIDGETCONTROLLER_SETTIMEROOTSTATE_OFFSET UNITYSDK_OFFSET(0x140D8240)
+#define MOLEMOLE_UIURBANMAPEROSIONPROGRESSWIDGETCONTROLLER_SETTIME_OFFSET UNITYSDK_OFFSET(0x140D8560)
+#define MOLEMOLE_UIURBANMAPEROSIONPROGRESSWIDGETCONTROLLER_SET_OFFSET UNITYSDK_OFFSET(0x140D7F40)
+#define MOLEMOLE_UIURBANMAPEROSIONPROGRESSWIDGETCONTROLLER_UPDATE_OFFSET UNITYSDK_OFFSET(0x140D83C0)
+#define MOLEMOLE_UIURBANMAPEROSIONPROGRESSWIDGETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x140D8BD0)
+#define MOLEMOLE_UIURBANMAPEROSIONPROGRESSWIDGETCONTROLLER___BASE_ONCREATEVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x140D8CC0)
+#define MOLEMOLE_UIURBANMAPEROSIONPROGRESSWIDGETCONTROLLER___BASE_ONSHOW_OFFSET UNITYSDK_OFFSET(0x140D8D60)
+#define MOLEMOLE_UIURBANMAPEROSIONPROGRESSWIDGETCONTROLLER___BASE_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x140D8E00)
+#define MOLEMOLE_UIURBANMAPEROSIONPROGRESSWIDGETCONTROLLER___BASE_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x140D8E90)
+
+namespace MoleMole
+{
+	inline static constexpr unsigned int UIUrbanMapErosionProgressWidgetController_TypeDefinitionIndex = 87227;
+
+	class UIUrbanMapErosionProgressWidgetController : public ::MoleMole::UIWidgetController
+	{
+	public:
+		::System::Boolean _isNodesInited; // 0x2C0
+		::System::Collections::Generic::List_1<::MoleMole::UIUrbanMapErosionProgressNodeWidgetController*>* _nodeList; // 0x2C8
+		::System::Boolean ShowDebugLog; // 0x2D0
+		::Class_2_4B3401D95328DA92_Struct_2_19654198622DB64B _nextErosion; // 0x2D4
+		::System::Single _lastStageTimer; // 0x2DC
+		::System::Boolean _hasNextErosion; // 0x2E0
+		::System::Single lastLeftTime; // 0x2E4
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::String*>* s_PaddedStrings2; // 0x2E8
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIURBANMAPEROSIONPROGRESSWIDGETCONTROLLER__CTOR_OFFSET))(this);
+		}
+
+		::Class_2_24E4FBE0793B032F* get__viewModel()
+		{
+			return ((::Class_2_24E4FBE0793B032F*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIURBANMAPEROSIONPROGRESSWIDGETCONTROLLER_GET__VIEWMODEL_OFFSET))(this);
+		}
+
+		::System::Void OnCreateViewModel(::Struct_2_575273D27F02957E& binderInfo, ::MoleMole::UIControlReference* controlReference)
+		{
+			return ((::System::Void(*)(::PVOID, ::Struct_2_575273D27F02957E&, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIURBANMAPEROSIONPROGRESSWIDGETCONTROLLER_ONCREATEVIEWMODEL_OFFSET))(this, binderInfo, controlReference);
+		}
+
+		::System::Void OnUIInit()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIURBANMAPEROSIONPROGRESSWIDGETCONTROLLER_ONUIINIT_OFFSET))(this);
+		}
+
+		::System::Void OnUIDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIURBANMAPEROSIONPROGRESSWIDGETCONTROLLER_ONUIDESTROY_OFFSET))(this);
+		}
+
+		::System::Void OnBigSceneDungeonErosionAreaUpdate(::System::EventArgs* args)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::EventArgs*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIURBANMAPEROSIONPROGRESSWIDGETCONTROLLER_ONBIGSCENEDUNGEONEROSIONAREAUPDATE_OFFSET))(this, args);
+		}
+
+		::System::Void OnShow(::MoleMole::UIControllerContextBase* showCtrlContext)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIURBANMAPEROSIONPROGRESSWIDGETCONTROLLER_ONSHOW_OFFSET))(this, showCtrlContext);
+		}
+
+		::System::Void RefreshByData()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIURBANMAPEROSIONPROGRESSWIDGETCONTROLLER_REFRESHBYDATA_OFFSET))(this);
+		}
+
+		::MoleMole::UIUrbanMapErosionProgressNodeWidgetController* GenerateNode(::System::Single posXRatio)
+		{
+			return ((::MoleMole::UIUrbanMapErosionProgressNodeWidgetController*(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_UIURBANMAPEROSIONPROGRESSWIDGETCONTROLLER_GENERATENODE_OFFSET))(this, posXRatio);
+		}
+
+		::System::Void RefreshNodes()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIURBANMAPEROSIONPROGRESSWIDGETCONTROLLER_REFRESHNODES_OFFSET))(this);
+		}
+
+		::System::Void SetTimeRootState(::System::Boolean show)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UIURBANMAPEROSIONPROGRESSWIDGETCONTROLLER_SETTIMEROOTSTATE_OFFSET))(this, show);
+		}
+
+		::System::Void Update()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIURBANMAPEROSIONPROGRESSWIDGETCONTROLLER_UPDATE_OFFSET))(this);
+		}
+
+		::System::Void Set(::System::Boolean hasNextErosion, ::System::Int32 currentStage, ::System::Single curTimer, ::System::Single lastStageBeginTimer)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Int32, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_UIURBANMAPEROSIONPROGRESSWIDGETCONTROLLER_SET_OFFSET))(this, hasNextErosion, currentStage, curTimer, lastStageBeginTimer);
+		}
+
+		::System::Boolean FindNextErosion(::Class_2_4B3401D95328DA92_Struct_2_19654198622DB64B& data)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::Class_2_4B3401D95328DA92_Struct_2_19654198622DB64B&))((::PBYTE)hIl2Cpp + MOLEMOLE_UIURBANMAPEROSIONPROGRESSWIDGETCONTROLLER_FINDNEXTEROSION_OFFSET))(this, data);
+		}
+
+		::System::Boolean FindLastErosion(::Class_2_4B3401D95328DA92_Struct_2_19654198622DB64B& data)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::Class_2_4B3401D95328DA92_Struct_2_19654198622DB64B&))((::PBYTE)hIl2Cpp + MOLEMOLE_UIURBANMAPEROSIONPROGRESSWIDGETCONTROLLER_FINDLASTEROSION_OFFSET))(this, data);
+		}
+
+		::System::Single GetCurTimer()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIURBANMAPEROSIONPROGRESSWIDGETCONTROLLER_GETCURTIMER_OFFSET))(this);
+		}
+
+		::System::Int32 GetCurrentStage()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIURBANMAPEROSIONPROGRESSWIDGETCONTROLLER_GETCURRENTSTAGE_OFFSET))(this);
+		}
+
+		::System::String* GetOrCreateString(::System::Int32 value)
+		{
+			return ((::System::String*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIURBANMAPEROSIONPROGRESSWIDGETCONTROLLER_GETORCREATESTRING_OFFSET))(this, value);
+		}
+
+		::System::Void SetTime(::System::UInt32 targetTimeMs)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIURBANMAPEROSIONPROGRESSWIDGETCONTROLLER_SETTIME_OFFSET))(this, targetTimeMs);
+		}
+
+		::System::Void __base_OnCreateViewModel(::Struct_2_575273D27F02957E& P0, ::MoleMole::UIControlReference* P1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Struct_2_575273D27F02957E&, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIURBANMAPEROSIONPROGRESSWIDGETCONTROLLER___BASE_ONCREATEVIEWMODEL_OFFSET))(this, P0, P1);
+		}
+
+		::System::Void __base_OnShow(::MoleMole::UIControllerContextBase* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIURBANMAPEROSIONPROGRESSWIDGETCONTROLLER___BASE_ONSHOW_OFFSET))(this, P0);
+		}
+
+		::System::Void __base_OnUIDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIURBANMAPEROSIONPROGRESSWIDGETCONTROLLER___BASE_ONUIDESTROY_OFFSET))(this);
+		}
+
+		::System::Void __base_OnUIInit()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIURBANMAPEROSIONPROGRESSWIDGETCONTROLLER___BASE_ONUIINIT_OFFSET))(this);
+		}
+	};
+}

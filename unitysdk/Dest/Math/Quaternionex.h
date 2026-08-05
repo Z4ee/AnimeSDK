@@ -5,12 +5,12 @@
 
 namespace System { class String; }
 
-#define DEST_MATH_QUATERNIONEX_DELTATO_OFFSET UNITYSDK_OFFSET(0x1DAB1100)
-#define DEST_MATH_QUATERNIONEX_TOSTRINGEX_OFFSET UNITYSDK_OFFSET(0x1DAB11E0)
+#define DEST_MATH_QUATERNIONEX_DELTATO_OFFSET UNITYSDK_OFFSET(0x1EE957E0)
+#define DEST_MATH_QUATERNIONEX_TOSTRINGEX_OFFSET UNITYSDK_OFFSET(0x1EE958B0)
 
 namespace Dest::Math
 {
-	inline static constexpr unsigned int Quaternionex_TypeDefinitionIndex = 34741;
+	inline static constexpr unsigned int Quaternionex_TypeDefinitionIndex = 35400;
 
 	class Quaternionex : public ::System::Object
 	{

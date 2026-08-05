@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_UIRABCITYWIDGETCONTROLLER_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0x11B918B0)
+#define MOLEMOLE_UIRABCITYWIDGETCONTROLLER_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0x150F6D40)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRABCityWidgetController_Data_TypeDefinitionIndex = 58951;
+	inline static constexpr unsigned int UIRABCityWidgetController_Data_TypeDefinitionIndex = 80538;
 
 	class UIRABCityWidgetController_Data : public ::System::Object
 	{

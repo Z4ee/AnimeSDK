@@ -5,20 +5,20 @@
 namespace System { class String; }
 namespace System::Diagnostics { class Stopwatch; }
 
-#define FOUNDATION_AUTOSTOPWATCH_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1D2E4D80)
-#define FOUNDATION_AUTOSTOPWATCH_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1D2E4E90)
-#define FOUNDATION_AUTOSTOPWATCH_STARTSTOPWATCH_OFFSET UNITYSDK_OFFSET(0x1D2E4D30)
-#define FOUNDATION_AUTOSTOPWATCH__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2E4C50)
+#define FOUNDATION_AUTOSTOPWATCH_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1E751D90)
+#define FOUNDATION_AUTOSTOPWATCH_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1E751EA0)
+#define FOUNDATION_AUTOSTOPWATCH_STARTSTOPWATCH_OFFSET UNITYSDK_OFFSET(0x1E751D40)
+#define FOUNDATION_AUTOSTOPWATCH__CTOR_OFFSET UNITYSDK_OFFSET(0x1E751C60)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int AutoStopWatch_TypeDefinitionIndex = 8113;
+	inline static constexpr unsigned int AutoStopWatch_TypeDefinitionIndex = 8279;
 
 	class AutoStopWatch : public ::System::Object
 	{
 	public:
-		::System::String* tips; // 0x10
-		::System::Diagnostics::Stopwatch* _stopwatch; // 0x18
+		::System::Diagnostics::Stopwatch* _stopwatch; // 0x10
+		::System::String* tips; // 0x18
 		::System::Boolean disposed; // 0x20
 		::System::Int32 warningline; // 0x24
 

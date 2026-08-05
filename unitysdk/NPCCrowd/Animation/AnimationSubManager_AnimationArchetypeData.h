@@ -33,66 +33,66 @@ namespace NPCCrowd::Animation { class AnimationSubManager_StateMachineArchetypeD
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONARCHETYPEDATA_COLLECTAVATARARCHETYPEDATA_OFFSET UNITYSDK_OFFSET(0x8C31EC0)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONARCHETYPEDATA_COLLECTCOUNT_OFFSET UNITYSDK_OFFSET(0x8C30C00)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONARCHETYPEDATA_COLLECTMONTAGEARCHETYPEDATA_OFFSET UNITYSDK_OFFSET(0x8C30E80)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONARCHETYPEDATA_COLLECTSTATEMACHINEARCHETYPEDATA_OFFSET UNITYSDK_OFFSET(0x8C2FB10)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONARCHETYPEDATA_DISPOSE_OFFSET UNITYSDK_OFFSET(0x8C2D6E0)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONARCHETYPEDATA_FREE_OFFSET UNITYSDK_OFFSET(0x8C2F3E0)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONARCHETYPEDATA_GETREDIRECTVALUE_OFFSET UNITYSDK_OFFSET(0x8C36980)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONARCHETYPEDATA_GET_INSTANCECOUNT_OFFSET UNITYSDK_OFFSET(0x8C2BF00)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONARCHETYPEDATA_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x8C2DBD0)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONARCHETYPEDATA_GET_VISIBLEINSTANCECOUNT_OFFSET UNITYSDK_OFFSET(0x8C2BF20)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONARCHETYPEDATA_ISSAMELENGTH_OFFSET UNITYSDK_OFFSET(0x8C31E00)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONARCHETYPEDATA_NEWINSTANCE_OFFSET UNITYSDK_OFFSET(0x8C2DF80)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONARCHETYPEDATA_REFRESHVISIBLE_OFFSET UNITYSDK_OFFSET(0x8C31D30)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONARCHETYPEDATA_SET_INSTANCECOUNT_OFFSET UNITYSDK_OFFSET(0x8C2BF10)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONARCHETYPEDATA_SET_VISIBLEINSTANCECOUNT_OFFSET UNITYSDK_OFFSET(0x8C2BF30)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONARCHETYPEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x8C2BF40)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONARCHETYPEDATA_COLLECTAVATARARCHETYPEDATA_OFFSET UNITYSDK_OFFSET(0x1029FE30)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONARCHETYPEDATA_COLLECTCOUNT_OFFSET UNITYSDK_OFFSET(0x1029E980)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONARCHETYPEDATA_COLLECTMONTAGEARCHETYPEDATA_OFFSET UNITYSDK_OFFSET(0x1029EC40)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONARCHETYPEDATA_COLLECTSTATEMACHINEARCHETYPEDATA_OFFSET UNITYSDK_OFFSET(0x1029D790)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONARCHETYPEDATA_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1029B340)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONARCHETYPEDATA_FREE_OFFSET UNITYSDK_OFFSET(0x1029D050)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONARCHETYPEDATA_GETREDIRECTVALUE_OFFSET UNITYSDK_OFFSET(0x102A4CB0)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONARCHETYPEDATA_GET_INSTANCECOUNT_OFFSET UNITYSDK_OFFSET(0x10299BB0)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONARCHETYPEDATA_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x1029B830)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONARCHETYPEDATA_GET_VISIBLEINSTANCECOUNT_OFFSET UNITYSDK_OFFSET(0x10299BD0)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONARCHETYPEDATA_ISSAMELENGTH_OFFSET UNITYSDK_OFFSET(0x1029FD70)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONARCHETYPEDATA_NEWINSTANCE_OFFSET UNITYSDK_OFFSET(0x1029BBF0)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONARCHETYPEDATA_REFRESHVISIBLE_OFFSET UNITYSDK_OFFSET(0x1029FBB0)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONARCHETYPEDATA_SET_INSTANCECOUNT_OFFSET UNITYSDK_OFFSET(0x10299BC0)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONARCHETYPEDATA_SET_VISIBLEINSTANCECOUNT_OFFSET UNITYSDK_OFFSET(0x10299BE0)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONARCHETYPEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x10299BF0)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int AnimationSubManager_AnimationArchetypeData_TypeDefinitionIndex = 57398;
+	inline static constexpr unsigned int AnimationSubManager_AnimationArchetypeData_TypeDefinitionIndex = 88263;
 
 	class AnimationSubManager_AnimationArchetypeData : public ::System::Object
 	{
 	public:
 		// static const ::System::Int32 ChunkSize = 0x10; // 0x0
 		// static const ::System::Int32 ChunkSizeBit = 0x4; // 0x0
-		::Foundation::Adapter::ChunkList_1<::NPCCrowd::Animation::AnimationSubManager_PoseInertializationInstanceData>* _inertializationInstances; // 0x10
-		::Foundation::Adapter::ChunkList_1<::NPCCrowd::Animation::AnimationSubManager_AdjustmentBlendingControlData>* AdjustmentBlendingControlData; // 0x18
-		::Foundation::Adapter::ChunkList2D_1<::Foundation::StateMachine::Parameter>* Params; // 0x20
+		::Foundation::Adapter::ChunkList_1<::System::Boolean>* BoneAdjustEnabledList; // 0x10
+		::Foundation::Adapter::ChunkList2D_1<::UnityEngine::NapTransformData>* Bones; // 0x18
+		::Foundation::Adapter::ChunkList2D_1<::System::Int32>* BlendShapeCurves; // 0x20
 		::Foundation::Adapter::ChunkList2D_1<::NPCCrowd::Animation::AnimationSubManager_PoseInertializationBoneDeltaData16>* _inertializationDelta; // 0x28
 		::Foundation::Adapter::ChunkList_1<::NPCCrowd::Animation::CPUStateMachine::AnimationStateDataMultiLayer>* States; // 0x30
 		::Foundation::Adapter::ChunkList_1<::NPCCrowd::Animation::CPUStateMachine::AnimationTickData>* TickData; // 0x38
-		::Foundation::Adapter::ChunkList2D_1<::System::Single>* BlendShapeValues; // 0x40
-		::Foundation::Adapter::ChunkList2D_1<::UnityEngine::NapTransformData>* _inertializationPose1; // 0x48
-		::Foundation::Adapter::ChunkList_1<::NPCCrowd::Animation::BlendShapeSampleData>* BlendShapeData; // 0x50
-		::Foundation::Adapter::ChunkList_1<::NPCCrowd::Animation::AnimationSubManager_IKControlData>* _ikControlData; // 0x58
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Single>* SlopeSpeedScaleLookupTable; // 0x60
-		::Foundation::Adapter::ChunkList2D_1<::UnityEngine::NapTransformData>* BoneAdjustIkDrivenPoseList; // 0x68
-		::Foundation::Adapter::ChunkList_1<::System::Boolean>* BoneAdjustEnabledList; // 0x70
-		::Foundation::Adapter::ChunkList_1<::System::UInt32>* Instances; // 0x78
-		::Foundation::Adapter::ManagedChunkList_1<::Class_3_F2DAD7F45F518868*>* NpcComponents; // 0x80
-		::Foundation::Adapter::ChunkList2D_1<::UnityEngine::Quaternion>* BoneAdjustMasterBoneAnimRotList; // 0x88
-		::Foundation::Adapter::ChunkList_1<::UnityEngine::NapTransformData>* Transforms; // 0x90
-		::Foundation::Adapter::ChunkList_1<::NPCCrowd::Animation::AnimationSubManager_AdjustmentBlendingWarpingTickData>* AdjustmentBlendingTickData; // 0x98
-		::Foundation::Adapter::ChunkList2D_1<::System::Int32>* BlendShapeCurves; // 0xA0
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::Foundation::StateMachine::ParameterId>* ParamLookupTable; // 0xA8
-		::Foundation::Adapter::ChunkList_1<::UnityEngine::NapTransformData>* RootMotions; // 0xB0
-		::Foundation::Adapter::ChunkList_1<::NPCCrowd::Animation::AnimationSubManager_MotionControlData>* MotionControlDatas; // 0xB8
-		::Foundation::Adapter::ChunkList_1<::NPCCrowd::Animation::AnimationSubManager_PoseInertializationCacheAdditionalData>* _inertializationAdditional1; // 0xC0
-		::Foundation::Adapter::ChunkList2D_1<::UnityEngine::NapTransformData>* Bones; // 0xC8
-		::Foundation::Adapter::ChunkList_1<::NPCCrowd::Animation::MontageTickLayerData>* MontageData; // 0xD0
-		::Foundation::Adapter::ChunkList2D_1<::UnityEngine::NapTransformData>* _inertializationPose2; // 0xD8
-		::Foundation::Adapter::ChunkList_1<::NPCCrowd::Animation::CPUStateMachine::AnimationClipDataMultiLayer>* ClipData; // 0xE0
-		::Foundation::Adapter::ChunkList2D_1<::UnityEngine::NapTransformData>* BoneAdjustAnimDrivenPoseList; // 0xE8
-		::Foundation::Adapter::ChunkList_1<::NPCCrowd::Animation::AnimationSubManager_FootStepControlData>* FootStepControlDataList; // 0xF0
-		::Foundation::Adapter::ChunkList_1<::NPCCrowd::Animation::AnimationSubManager_AdjustmentBlendingMotionTarget>* AdjustmentBlendingWarpingTarget; // 0xF8
-		::Foundation::Adapter::ChunkList_1<::NPCCrowd::Animation::AnimationSubManager_PoseInertializationCacheAdditionalData>* _inertializationAdditional2; // 0x100
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Int32>* _redirectMap; // 0x108
-		::Foundation::Adapter::ChunkList_1<::NPCCrowd::Lod::ELODLevel>* EntityLODs; // 0x110
-		::Foundation::Adapter::ChunkList_1<::NPCCrowd::Animation::AnimationSubManager_PoseInertializationRequest>* _inertializationRequest; // 0x118
+		::Foundation::Adapter::ChunkList_1<::NPCCrowd::Animation::AnimationSubManager_IKControlData>* _ikControlData; // 0x40
+		::Foundation::Adapter::ChunkList2D_1<::System::Single>* BlendShapeValues; // 0x48
+		::Foundation::Adapter::ChunkList_1<::NPCCrowd::Animation::AnimationSubManager_PoseInertializationCacheAdditionalData>* _inertializationAdditional1; // 0x50
+		::Foundation::Adapter::ChunkList2D_1<::UnityEngine::NapTransformData>* _inertializationPose1; // 0x58
+		::Foundation::Adapter::ChunkList_1<::NPCCrowd::Animation::AnimationSubManager_AdjustmentBlendingControlData>* AdjustmentBlendingControlData; // 0x60
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Single>* SlopeSpeedScaleLookupTable; // 0x68
+		::Foundation::Adapter::ChunkList2D_1<::Foundation::StateMachine::Parameter>* Params; // 0x70
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Int32>* _redirectMap; // 0x78
+		::Foundation::Adapter::ChunkList_1<::NPCCrowd::Animation::AnimationSubManager_PoseInertializationCacheAdditionalData>* _inertializationAdditional2; // 0x80
+		::Foundation::Adapter::ChunkList_1<::NPCCrowd::Animation::AnimationSubManager_MotionControlData>* MotionControlDatas; // 0x88
+		::Foundation::Adapter::ChunkList_1<::NPCCrowd::Animation::MontageTickLayerData>* MontageData; // 0x90
+		::Foundation::Adapter::ChunkList_1<::NPCCrowd::Animation::AnimationSubManager_PoseInertializationInstanceData>* _inertializationInstances; // 0x98
+		::Foundation::Adapter::ChunkList_1<::NPCCrowd::Animation::AnimationSubManager_FootStepControlData>* FootStepControlDataList; // 0xA0
+		::Foundation::Adapter::ChunkList2D_1<::UnityEngine::Quaternion>* BoneAdjustMasterBoneAnimRotList; // 0xA8
+		::Foundation::Adapter::ChunkList_1<::System::UInt32>* Instances; // 0xB0
+		::Foundation::Adapter::ChunkList2D_1<::UnityEngine::NapTransformData>* BoneAdjustAnimDrivenPoseList; // 0xB8
+		::Foundation::Adapter::ChunkList_1<::NPCCrowd::Animation::AnimationSubManager_AdjustmentBlendingWarpingTickData>* AdjustmentBlendingTickData; // 0xC0
+		::Foundation::Adapter::ManagedChunkList_1<::Class_3_F2DAD7F45F518868*>* NpcComponents; // 0xC8
+		::Foundation::Adapter::ChunkList_1<::NPCCrowd::Animation::BlendShapeSampleData>* BlendShapeData; // 0xD0
+		::Foundation::Adapter::ChunkList2D_1<::UnityEngine::NapTransformData>* BoneAdjustIkDrivenPoseList; // 0xD8
+		::Foundation::Adapter::ChunkList2D_1<::UnityEngine::NapTransformData>* _inertializationPose2; // 0xE0
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::Foundation::StateMachine::ParameterId>* ParamLookupTable; // 0xE8
+		::Foundation::Adapter::ChunkList_1<::NPCCrowd::Animation::AnimationSubManager_AdjustmentBlendingMotionTarget>* AdjustmentBlendingWarpingTarget; // 0xF0
+		::Foundation::Adapter::ChunkList_1<::NPCCrowd::Animation::CPUStateMachine::AnimationClipDataMultiLayer>* ClipData; // 0xF8
+		::Foundation::Adapter::ChunkList_1<::NPCCrowd::Lod::ELODLevel>* EntityLODs; // 0x100
+		::Foundation::Adapter::ChunkList_1<::UnityEngine::NapTransformData>* RootMotions; // 0x108
+		::Foundation::Adapter::ChunkList_1<::NPCCrowd::Animation::AnimationSubManager_PoseInertializationRequest>* _inertializationRequest; // 0x110
+		::Foundation::Adapter::ChunkList_1<::UnityEngine::NapTransformData>* Transforms; // 0x118
 		::System::Int32 _InstanceCount_k__BackingField; // 0x120
 		::System::Int32 _VisibleInstanceCount_k__BackingField; // 0x124
 

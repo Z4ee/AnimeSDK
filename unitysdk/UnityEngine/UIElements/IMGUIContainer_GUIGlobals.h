@@ -6,7 +6,7 @@
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int IMGUIContainer_GUIGlobals_TypeDefinitionIndex = 27451;
+	inline static constexpr unsigned int IMGUIContainer_GUIGlobals_TypeDefinitionIndex = 28053;
 
 	struct alignas(4) IMGUIContainer_GUIGlobals
 	{

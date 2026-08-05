@@ -10,23 +10,23 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define FOUNDATION_FILEVERIFIERUTILS_CREATEERRORINFO_OFFSET UNITYSDK_OFFSET(0x15950E30)
-#define FOUNDATION_FILEVERIFIERUTILS_GETDEFAULTCONFIG_OFFSET UNITYSDK_OFFSET(0x15950540)
-#define FOUNDATION_FILEVERIFIERUTILS_GET_PARALLELFILEHASHCONFIG_OFFSET UNITYSDK_OFFSET(0x15950500)
-#define FOUNDATION_FILEVERIFIERUTILS_ISHUAWEIDEVICE_OFFSET UNITYSDK_OFFSET(0x15950660)
-#define FOUNDATION_FILEVERIFIERUTILS_WRITEBADFILELIST_1_OFFSET UNITYSDK_OFFSET(0x159509B0)
-#define FOUNDATION_FILEVERIFIERUTILS_WRITEBADFILELIST_OFFSET UNITYSDK_OFFSET(0x15950710)
+#define FOUNDATION_FILEVERIFIERUTILS_CREATEERRORINFO_OFFSET UNITYSDK_OFFSET(0x154152F0)
+#define FOUNDATION_FILEVERIFIERUTILS_GETDEFAULTCONFIG_OFFSET UNITYSDK_OFFSET(0x15414A10)
+#define FOUNDATION_FILEVERIFIERUTILS_GET_PARALLELFILEHASHCONFIG_OFFSET UNITYSDK_OFFSET(0x154149D0)
+#define FOUNDATION_FILEVERIFIERUTILS_ISHUAWEIDEVICE_OFFSET UNITYSDK_OFFSET(0x15414B30)
+#define FOUNDATION_FILEVERIFIERUTILS_WRITEBADFILELIST_1_OFFSET UNITYSDK_OFFSET(0x15414E80)
+#define FOUNDATION_FILEVERIFIERUTILS_WRITEBADFILELIST_OFFSET UNITYSDK_OFFSET(0x15414BE0)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int FileVerifierUtils_TypeDefinitionIndex = 55179;
+	inline static constexpr unsigned int FileVerifierUtils_TypeDefinitionIndex = 45642;
 
 	class FileVerifierUtils : public ::System::Object
 	{
 	public:
 		static ::Foundation::ParallelFileHash_Config** StaticGet__parallelFileHashConfig()
 		{
-			return (::Foundation::ParallelFileHash_Config**)Il2CppClass::FromTypeDefinitionIndex(FileVerifierUtils_TypeDefinitionIndex)->GetStaticField(0x3DE60);
+			return (::Foundation::ParallelFileHash_Config**)Il2CppClass::FromTypeDefinitionIndex(FileVerifierUtils_TypeDefinitionIndex)->GetStaticField(0x3E810);
 		}
 
 		static ::Foundation::ParallelFileHash_Config* get_ParallelFileHashConfig()

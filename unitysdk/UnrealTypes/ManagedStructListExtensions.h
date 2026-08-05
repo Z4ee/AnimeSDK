@@ -6,7 +6,7 @@ namespace UnrealTypes { template <typename T> class ManagedStructList_1; }
 
 namespace UnrealTypes
 {
-	inline static constexpr unsigned int ManagedStructListExtensions_TypeDefinitionIndex = 27681;
+	inline static constexpr unsigned int ManagedStructListExtensions_TypeDefinitionIndex = 28283;
 
 	class ManagedStructListExtensions : public ::System::Object
 	{

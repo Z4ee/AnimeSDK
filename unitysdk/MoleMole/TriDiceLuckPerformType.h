@@ -3,12 +3,12 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int TriDiceLuckPerformType_TypeDefinitionIndex = 72872;
+	inline static constexpr unsigned int TriDiceLuckPerformType_TypeDefinitionIndex = 72432;
 
 	enum class TriDiceLuckPerformType : ::System::Int32
 	{
-		Excellent = 0,
-		Bad = 2,
 		Good = 1,
+		Bad = 2,
+		Excellent = 0,
 	};
 }

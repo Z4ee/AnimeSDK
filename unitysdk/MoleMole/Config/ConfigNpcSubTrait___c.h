@@ -6,24 +6,24 @@
 
 class Class_3_D92ADC48CDFCC09B_2;
 
-#define MOLEMOLE_CONFIG_CONFIGNPCSUBTRAIT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18F38D90)
-#define MOLEMOLE_CONFIG_CONFIGNPCSUBTRAIT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18F38DD0)
-#define MOLEMOLE_CONFIG_CONFIGNPCSUBTRAIT___C__INITNPCNAME_B__39_0_OFFSET UNITYSDK_OFFSET(0x18F38DE0)
+#define MOLEMOLE_CONFIG_CONFIGNPCSUBTRAIT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x162622C0)
+#define MOLEMOLE_CONFIG_CONFIGNPCSUBTRAIT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x16262300)
+#define MOLEMOLE_CONFIG_CONFIGNPCSUBTRAIT___C__INITNPCNAME_B__39_0_OFFSET UNITYSDK_OFFSET(0x16262310)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigNpcSubTrait___c_TypeDefinitionIndex = 69859;
+	inline static constexpr unsigned int ConfigNpcSubTrait___c_TypeDefinitionIndex = 43769;
 
 	class ConfigNpcSubTrait___c : public ::System::Object
 	{
 	public:
 		static ::MoleMole::Config::ConfigNpcSubTrait___c** StaticGet___9()
 		{
-			return (::MoleMole::Config::ConfigNpcSubTrait___c**)Il2CppClass::FromTypeDefinitionIndex(ConfigNpcSubTrait___c_TypeDefinitionIndex)->GetStaticField(0x303D0);
+			return (::MoleMole::Config::ConfigNpcSubTrait___c**)Il2CppClass::FromTypeDefinitionIndex(ConfigNpcSubTrait___c_TypeDefinitionIndex)->GetStaticField(0x32430);
 		}
 		static ::Class_3_D92ADC48CDFCC09B_2** StaticGet___9__39_0()
 		{
-			return (::Class_3_D92ADC48CDFCC09B_2**)Il2CppClass::FromTypeDefinitionIndex(ConfigNpcSubTrait___c_TypeDefinitionIndex)->GetStaticField(0x303D8);
+			return (::Class_3_D92ADC48CDFCC09B_2**)Il2CppClass::FromTypeDefinitionIndex(ConfigNpcSubTrait___c_TypeDefinitionIndex)->GetStaticField(0x32438);
 		}
 
 		static ::System::Void _cctor()

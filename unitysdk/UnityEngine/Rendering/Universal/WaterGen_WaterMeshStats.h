@@ -4,7 +4,7 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int WaterGen_WaterMeshStats_TypeDefinitionIndex = 26765;
+	inline static constexpr unsigned int WaterGen_WaterMeshStats_TypeDefinitionIndex = 27849;
 
 	struct alignas(8) WaterGen_WaterMeshStats
 	{

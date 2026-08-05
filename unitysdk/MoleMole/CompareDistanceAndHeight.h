@@ -11,35 +11,35 @@ namespace BehaviorDesigner::Runtime { class SharedString; }
 namespace MoleMole { class SharedGameEntity; }
 namespace System { class String; }
 
-#define MOLEMOLE_COMPAREDISTANCEANDHEIGHT_COMPAREHEIGHT_OFFSET UNITYSDK_OFFSET(0x12B1F050)
-#define MOLEMOLE_COMPAREDISTANCEANDHEIGHT_DISTANCEXZ_OFFSET UNITYSDK_OFFSET(0x12B1EF90)
-#define MOLEMOLE_COMPAREDISTANCEANDHEIGHT_GETTARGET1POS_OFFSET UNITYSDK_OFFSET(0x12B1F210)
-#define MOLEMOLE_COMPAREDISTANCEANDHEIGHT_GETTARGET2POS_OFFSET UNITYSDK_OFFSET(0x12B207C0)
-#define MOLEMOLE_COMPAREDISTANCEANDHEIGHT_GETTARGETPOSITION_OFFSET UNITYSDK_OFFSET(0x12B1F330)
-#define MOLEMOLE_COMPAREDISTANCEANDHEIGHT_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x12B1E8C0)
-#define MOLEMOLE_COMPAREDISTANCEANDHEIGHT__CTOR_OFFSET UNITYSDK_OFFSET(0x12B208E0)
-#define MOLEMOLE_COMPAREDISTANCEANDHEIGHT___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x12B20980)
+#define MOLEMOLE_COMPAREDISTANCEANDHEIGHT_COMPAREHEIGHT_OFFSET UNITYSDK_OFFSET(0x12A3CB40)
+#define MOLEMOLE_COMPAREDISTANCEANDHEIGHT_DISTANCEXZ_OFFSET UNITYSDK_OFFSET(0x12A3CA90)
+#define MOLEMOLE_COMPAREDISTANCEANDHEIGHT_GETTARGET1POS_OFFSET UNITYSDK_OFFSET(0x12A3CD00)
+#define MOLEMOLE_COMPAREDISTANCEANDHEIGHT_GETTARGET2POS_OFFSET UNITYSDK_OFFSET(0x12A3E420)
+#define MOLEMOLE_COMPAREDISTANCEANDHEIGHT_GETTARGETPOSITION_OFFSET UNITYSDK_OFFSET(0x12A3CE20)
+#define MOLEMOLE_COMPAREDISTANCEANDHEIGHT_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x12A3C480)
+#define MOLEMOLE_COMPAREDISTANCEANDHEIGHT__CTOR_OFFSET UNITYSDK_OFFSET(0x12A3E530)
+#define MOLEMOLE_COMPAREDISTANCEANDHEIGHT___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x12A3E5D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CompareDistanceAndHeight_TypeDefinitionIndex = 80958;
+	inline static constexpr unsigned int CompareDistanceAndHeight_TypeDefinitionIndex = 54990;
 
 	class CompareDistanceAndHeight : public ::BehaviorDesigner::Runtime::Tasks::Conditional
 	{
 	public:
-		::BehaviorDesigner::Runtime::SharedString* TargetAnchorName1; // 0x50
-		::BehaviorDesigner::Runtime::SharedFloat* BottomHeightOffset; // 0x58
-		::BehaviorDesigner::Runtime::SharedFloat* SharedCompareDistance; // 0x60
-		::System::String* Target1AttachPoint; // 0x68
-		::System::String* TargetTypeCustomKey2; // 0x70
-		::System::String* TargetTypeCustomKey1; // 0x78
-		::BehaviorDesigner::Runtime::SharedFloat* TopHeightOffset; // 0x80
-		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x88
-		::System::String* Target2AttachPoint; // 0x90
-		::BehaviorDesigner::Runtime::SharedString* TargetAnchorName2; // 0x98
-		::MoleMole::AIMoveTargetType TargetType2; // 0xA0
-		::MoleMole::AIMoveTargetType TargetType1; // 0xA4
-		::MoleMole::AICompareType Type; // 0xA8
+		::BehaviorDesigner::Runtime::SharedFloat* SharedCompareDistance; // 0x50
+		::BehaviorDesigner::Runtime::SharedString* TargetAnchorName2; // 0x58
+		::System::String* Target2AttachPoint; // 0x60
+		::System::String* TargetTypeCustomKey2; // 0x68
+		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x70
+		::BehaviorDesigner::Runtime::SharedFloat* BottomHeightOffset; // 0x78
+		::System::String* TargetTypeCustomKey1; // 0x80
+		::BehaviorDesigner::Runtime::SharedString* TargetAnchorName1; // 0x88
+		::System::String* Target1AttachPoint; // 0x90
+		::BehaviorDesigner::Runtime::SharedFloat* TopHeightOffset; // 0x98
+		::MoleMole::AIMoveTargetType TargetType1; // 0xA0
+		::MoleMole::AICompareType Type; // 0xA4
+		::MoleMole::AIMoveTargetType TargetType2; // 0xA8
 
 		::System::Void _ctor()
 		{

@@ -4,19 +4,19 @@
 
 namespace System { class String; }
 
-#define SIRENIX_ODININSPECTOR_TYPEFILTERATTRIBUTE_GET_MEMBERNAME_OFFSET UNITYSDK_OFFSET(0x1E32B910)
-#define SIRENIX_ODININSPECTOR_TYPEFILTERATTRIBUTE_SET_MEMBERNAME_OFFSET UNITYSDK_OFFSET(0x1E32B920)
-#define SIRENIX_ODININSPECTOR_TYPEFILTERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E32B930)
+#define SIRENIX_ODININSPECTOR_TYPEFILTERATTRIBUTE_GET_MEMBERNAME_OFFSET UNITYSDK_OFFSET(0x1F772C70)
+#define SIRENIX_ODININSPECTOR_TYPEFILTERATTRIBUTE_SET_MEMBERNAME_OFFSET UNITYSDK_OFFSET(0x1F772C80)
+#define SIRENIX_ODININSPECTOR_TYPEFILTERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F772C90)
 
 namespace Sirenix::OdinInspector
 {
-	inline static constexpr unsigned int TypeFilterAttribute_TypeDefinitionIndex = 7376;
+	inline static constexpr unsigned int TypeFilterAttribute_TypeDefinitionIndex = 7380;
 
 	class TypeFilterAttribute : public ::System::Attribute
 	{
 	public:
-		::System::String* DropdownTitle; // 0x10
-		::System::String* FilterGetter; // 0x18
+		::System::String* FilterGetter; // 0x10
+		::System::String* DropdownTitle; // 0x18
 
 		::System::Void _ctor(::System::String* filterGetter)
 		{

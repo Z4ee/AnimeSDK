@@ -6,16 +6,16 @@
 namespace MoleMole::Config { class ConfigCameraPitchPolars; }
 namespace System { class Action; }
 
-#define CLASS_1_6D3799F67B8415DA_CLASS_1_7010303583B700DE_METHOD_1_1177694CAA579203_OFFSET UNITYSDK_OFFSET(0x13250F10)
-#define CLASS_1_6D3799F67B8415DA_CLASS_1_7010303583B700DE__CTOR_OFFSET UNITYSDK_OFFSET(0x1324CA20)
+#define CLASS_1_6D3799F67B8415DA_CLASS_1_7010303583B700DE_METHOD_1_1177694CAA579203_OFFSET UNITYSDK_OFFSET(0x14530990)
+#define CLASS_1_6D3799F67B8415DA_CLASS_1_7010303583B700DE__CTOR_OFFSET UNITYSDK_OFFSET(0x14530980)
 
-inline static constexpr unsigned int Class_1_6D3799F67B8415DA_Class_1_7010303583B700DE_TypeDefinitionIndex = 85498;
+inline static constexpr unsigned int Class_1_6D3799F67B8415DA_Class_1_7010303583B700DE_TypeDefinitionIndex = 59860;
 
 class Class_1_6D3799F67B8415DA_Class_1_7010303583B700DE : public ::System::Object
 {
 public:
-	::System::Action* Field_1_0; // 0x10
-	::Foundation::AssetPath Field_1_1; // 0x18
+	::Foundation::AssetPath Field_1_0; // 0x10
+	::System::Action* Field_1_1; // 0x20
 
 	::System::Void _ctor()
 	{

@@ -4,7 +4,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int NapAnimator_GenericCurveID_TypeDefinitionIndex = 6650;
+	inline static constexpr unsigned int NapAnimator_GenericCurveID_TypeDefinitionIndex = 6656;
 
 	struct alignas(4) NapAnimator_GenericCurveID
 	{

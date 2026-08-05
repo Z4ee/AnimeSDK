@@ -2,15 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_3_9F091E965E210217_4;
+class Class_3_9F091E965E210217_26;
 namespace MoleMole { class UIMonsterFantasyBossCultivationPageController___c__DisplayClass47_0; }
 
-#define MOLEMOLE_UIMONSTERFANTASYBOSSCULTIVATIONPAGECONTROLLER___C__DISPLAYCLASS47_1__BUILDCLIENTMONSTERINFO_B__1_OFFSET UNITYSDK_OFFSET(0x17872FC0)
-#define MOLEMOLE_UIMONSTERFANTASYBOSSCULTIVATIONPAGECONTROLLER___C__DISPLAYCLASS47_1__CTOR_OFFSET UNITYSDK_OFFSET(0x17872FB0)
+#define MOLEMOLE_UIMONSTERFANTASYBOSSCULTIVATIONPAGECONTROLLER___C__DISPLAYCLASS47_1__BUILDCLIENTMONSTERINFO_B__1_OFFSET UNITYSDK_OFFSET(0x184F4200)
+#define MOLEMOLE_UIMONSTERFANTASYBOSSCULTIVATIONPAGECONTROLLER___C__DISPLAYCLASS47_1__CTOR_OFFSET UNITYSDK_OFFSET(0x184F41F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMonsterFantasyBossCultivationPageController___c__DisplayClass47_1_TypeDefinitionIndex = 72524;
+	inline static constexpr unsigned int UIMonsterFantasyBossCultivationPageController___c__DisplayClass47_1_TypeDefinitionIndex = 64166;
 
 	class UIMonsterFantasyBossCultivationPageController___c__DisplayClass47_1 : public ::System::Object
 	{
@@ -23,9 +23,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMONSTERFANTASYBOSSCULTIVATIONPAGECONTROLLER___C__DISPLAYCLASS47_1__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _BuildClientMonsterInfo_b__1(::Class_3_9F091E965E210217_4* x)
+		::System::Boolean _BuildClientMonsterInfo_b__1(::Class_3_9F091E965E210217_26* x)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_3_9F091E965E210217_4*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMONSTERFANTASYBOSSCULTIVATIONPAGECONTROLLER___C__DISPLAYCLASS47_1__BUILDCLIENTMONSTERINFO_B__1_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::Class_3_9F091E965E210217_26*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMONSTERFANTASYBOSSCULTIVATIONPAGECONTROLLER___C__DISPLAYCLASS47_1__BUILDCLIENTMONSTERINFO_B__1_OFFSET))(this, x);
 		}
 	};
 }

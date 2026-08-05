@@ -5,11 +5,11 @@
 namespace MoleMole::GalGame { class MainCityChatPlayableNodeBase; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_GALGAME_MAINCITYCHATSCRIPT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A033220)
+#define MOLEMOLE_GALGAME_MAINCITYCHATSCRIPT__CTOR_OFFSET UNITYSDK_OFFSET(0x19085EC0)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int MainCityChatScript_TypeDefinitionIndex = 85266;
+	inline static constexpr unsigned int MainCityChatScript_TypeDefinitionIndex = 51692;
 
 	class MainCityChatScript : public ::Sirenix::OdinInspector::SerializedScriptableObject
 	{

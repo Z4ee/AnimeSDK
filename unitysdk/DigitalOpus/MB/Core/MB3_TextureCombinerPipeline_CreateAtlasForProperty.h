@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINERPIPELINE_CREATEATLASFORPROPERTY_TOSTRING_OFFSET UNITYSDK_OFFSET(0xA65260)
+#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINERPIPELINE_CREATEATLASFORPROPERTY_TOSTRING_OFFSET UNITYSDK_OFFSET(0xAB6C00)
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int MB3_TextureCombinerPipeline_CreateAtlasForProperty_TypeDefinitionIndex = 90742;
+	inline static constexpr unsigned int MB3_TextureCombinerPipeline_CreateAtlasForProperty_TypeDefinitionIndex = 94675;
 
 	struct alignas(1) MB3_TextureCombinerPipeline_CreateAtlasForProperty
 	{

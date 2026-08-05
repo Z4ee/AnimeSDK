@@ -3,7 +3,7 @@
 
 namespace NPCCrowd::GPUPrefab
 {
-	inline static constexpr unsigned int MonoNPCCrowdGPUGroupController_EGPULodState_TypeDefinitionIndex = 47431;
+	inline static constexpr unsigned int MonoNPCCrowdGPUGroupController_EGPULodState_TypeDefinitionIndex = 56498;
 
 	enum class MonoNPCCrowdGPUGroupController_EGPULodState : ::System::Byte
 	{

@@ -3,21 +3,21 @@
 #include "unitysdk/MoleMole/EntityHandle.h"
 #include "unitysdk/System/Object.h"
 
-class Class_3_DFD5D1FDB9D2A4AC;
+class Class_3_C93CC3D2C2AC4067;
 namespace MoleMole { class OverlayOutlineRenderer; }
 
-#define MOLEMOLE_HACKENTRYSUBSYSTEM_SUBSIDIARYINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1417EAC0)
+#define MOLEMOLE_HACKENTRYSUBSYSTEM_SUBSIDIARYINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x107F2590)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int HackEntrySubSystem_SubsidiaryInfo_TypeDefinitionIndex = 83321;
+	inline static constexpr unsigned int HackEntrySubSystem_SubsidiaryInfo_TypeDefinitionIndex = 71361;
 
 	class HackEntrySubSystem_SubsidiaryInfo : public ::System::Object
 	{
 	public:
-		::MoleMole::EntityHandle entity; // 0x10
-		::Class_3_DFD5D1FDB9D2A4AC* characterModel; // 0x20
-		::MoleMole::OverlayOutlineRenderer* effectScript; // 0x28
+		::MoleMole::OverlayOutlineRenderer* effectScript; // 0x10
+		::Class_3_C93CC3D2C2AC4067* characterModel; // 0x18
+		::MoleMole::EntityHandle entity; // 0x20
 
 		::System::Void _ctor()
 		{

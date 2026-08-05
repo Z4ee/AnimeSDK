@@ -3,20 +3,26 @@
 #include "unitysdk/Share/EHollowQuestType.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_0A55B5A82A61DAFA;
+class Class_2_0A55B5A82A61DAFA_2;
 
-#define SHARE_HOLLOWQUESTUTIL_GETLOCKSLOTCOUNT_OFFSET UNITYSDK_OFFSET(0x1ACC01D0)
-#define SHARE_HOLLOWQUESTUTIL_GETQUESTCONFIG_OFFSET UNITYSDK_OFFSET(0x1ACC0100)
-#define SHARE_HOLLOWQUESTUTIL_ISABYSSS2QUEST_OFFSET UNITYSDK_OFFSET(0x1ACC00C0)
-#define SHARE_HOLLOWQUESTUTIL_ISHEATQUEST_OFFSET UNITYSDK_OFFSET(0x1ACC00E0)
+#define SHARE_HOLLOWQUESTUTIL_GETLOCKSLOTCOUNT_OFFSET UNITYSDK_OFFSET(0x1BC07D80)
+#define SHARE_HOLLOWQUESTUTIL_GETQUESTCONFIG_OFFSET UNITYSDK_OFFSET(0x1BC07CB0)
+#define SHARE_HOLLOWQUESTUTIL_ISABYSSQUEST_OFFSET UNITYSDK_OFFSET(0x1BC07C50)
+#define SHARE_HOLLOWQUESTUTIL_ISABYSSS2QUEST_OFFSET UNITYSDK_OFFSET(0x1BC07C70)
+#define SHARE_HOLLOWQUESTUTIL_ISHEATQUEST_OFFSET UNITYSDK_OFFSET(0x1BC07C90)
 
 namespace Share
 {
-	inline static constexpr unsigned int HollowQuestUtil_TypeDefinitionIndex = 9966;
+	inline static constexpr unsigned int HollowQuestUtil_TypeDefinitionIndex = 16298;
 
 	class HollowQuestUtil : public ::System::Object
 	{
 	public:
+		static ::System::Boolean IsAbyssQuest(::Share::EHollowQuestType questType)
+		{
+			return ((::System::Boolean(*)(::Share::EHollowQuestType))((::PBYTE)hIl2Cpp + SHARE_HOLLOWQUESTUTIL_ISABYSSQUEST_OFFSET))(questType);
+		}
+
 		static ::System::Boolean IsAbyssS2Quest(::Share::EHollowQuestType questType)
 		{
 			return ((::System::Boolean(*)(::Share::EHollowQuestType))((::PBYTE)hIl2Cpp + SHARE_HOLLOWQUESTUTIL_ISABYSSS2QUEST_OFFSET))(questType);
@@ -27,9 +33,9 @@ namespace Share
 			return ((::System::Boolean(*)(::Share::EHollowQuestType))((::PBYTE)hIl2Cpp + SHARE_HOLLOWQUESTUTIL_ISHEATQUEST_OFFSET))(questType);
 		}
 
-		static ::Class_2_0A55B5A82A61DAFA* GetQuestConfig(::System::Int32 questID)
+		static ::Class_2_0A55B5A82A61DAFA_2* GetQuestConfig(::System::Int32 questID)
 		{
-			return ((::Class_2_0A55B5A82A61DAFA*(*)(::System::Int32))((::PBYTE)hIl2Cpp + SHARE_HOLLOWQUESTUTIL_GETQUESTCONFIG_OFFSET))(questID);
+			return ((::Class_2_0A55B5A82A61DAFA_2*(*)(::System::Int32))((::PBYTE)hIl2Cpp + SHARE_HOLLOWQUESTUTIL_GETQUESTCONFIG_OFFSET))(questID);
 		}
 
 		static ::System::Int32 GetLockSlotCount(::System::Int32 questID)

@@ -10,25 +10,25 @@ namespace NodeCanvas::Framework { class IBlackboard; }
 namespace NodeCanvas::Framework { class Task; }
 namespace UnityEngine { class Component; }
 
-#define NODECANVAS_BEHAVIOURTREES_MONITOR_GET_ACTION_OFFSET UNITYSDK_OFFSET(0x1D804380)
-#define NODECANVAS_BEHAVIOURTREES_MONITOR_GET_TASK_OFFSET UNITYSDK_OFFSET(0x1D8043A0)
-#define NODECANVAS_BEHAVIOURTREES_MONITOR_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1D804420)
-#define NODECANVAS_BEHAVIOURTREES_MONITOR_ONRESET_OFFSET UNITYSDK_OFFSET(0x1D8045D0)
-#define NODECANVAS_BEHAVIOURTREES_MONITOR_SET_ACTION_OFFSET UNITYSDK_OFFSET(0x1D804390)
-#define NODECANVAS_BEHAVIOURTREES_MONITOR_SET_TASK_OFFSET UNITYSDK_OFFSET(0x1D8043B0)
-#define NODECANVAS_BEHAVIOURTREES_MONITOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1D804620)
+#define NODECANVAS_BEHAVIOURTREES_MONITOR_GET_ACTION_OFFSET UNITYSDK_OFFSET(0x1EBBA9E0)
+#define NODECANVAS_BEHAVIOURTREES_MONITOR_GET_TASK_OFFSET UNITYSDK_OFFSET(0x1EBBAA00)
+#define NODECANVAS_BEHAVIOURTREES_MONITOR_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1EBBAA80)
+#define NODECANVAS_BEHAVIOURTREES_MONITOR_ONRESET_OFFSET UNITYSDK_OFFSET(0x1EBBAC20)
+#define NODECANVAS_BEHAVIOURTREES_MONITOR_SET_ACTION_OFFSET UNITYSDK_OFFSET(0x1EBBA9F0)
+#define NODECANVAS_BEHAVIOURTREES_MONITOR_SET_TASK_OFFSET UNITYSDK_OFFSET(0x1EBBAA10)
+#define NODECANVAS_BEHAVIOURTREES_MONITOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1EBBAC70)
 
 namespace NodeCanvas::BehaviourTrees
 {
-	inline static constexpr unsigned int Monitor_TypeDefinitionIndex = 30105;
+	inline static constexpr unsigned int Monitor_TypeDefinitionIndex = 31447;
 
 	class Monitor : public ::NodeCanvas::BehaviourTrees::BTDecorator
 	{
 	public:
 		::NodeCanvas::Framework::ActionTask* _action; // 0x78
 		::NodeCanvas::BehaviourTrees::Monitor_MonitorMode monitorMode; // 0x80
-		::NodeCanvas::BehaviourTrees::Monitor_ReturnStatusMode returnMode; // 0x84
-		::NodeCanvas::Framework::Status decoratorActionStatus; // 0x88
+		::NodeCanvas::Framework::Status decoratorActionStatus; // 0x84
+		::NodeCanvas::BehaviourTrees::Monitor_ReturnStatusMode returnMode; // 0x88
 
 		::System::Void _ctor()
 		{

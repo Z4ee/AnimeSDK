@@ -4,11 +4,11 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define MOLEMOLE_NAPINPUT_IMUDATA_GET_EMPTY_OFFSET UNITYSDK_OFFSET(0x1419EF30)
+#define MOLEMOLE_NAPINPUT_IMUDATA_GET_EMPTY_OFFSET UNITYSDK_OFFSET(0x1081C750)
 
 namespace MoleMole::NAPInput
 {
-	inline static constexpr unsigned int IMUData_TypeDefinitionIndex = 50814;
+	inline static constexpr unsigned int IMUData_TypeDefinitionIndex = 56148;
 
 	struct alignas(4) IMUData
 	{

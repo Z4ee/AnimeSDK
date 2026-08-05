@@ -4,7 +4,7 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int ExcelConfigUtil_TypeDefinitionIndex = 7770;
+	inline static constexpr unsigned int ExcelConfigUtil_TypeDefinitionIndex = 8348;
 
 	class ExcelConfigUtil : public ::System::Object
 	{

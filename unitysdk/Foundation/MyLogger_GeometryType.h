@@ -3,12 +3,12 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int MyLogger_GeometryType_TypeDefinitionIndex = 7929;
+	inline static constexpr unsigned int MyLogger_GeometryType_TypeDefinitionIndex = 8393;
 
 	enum class MyLogger_GeometryType : ::System::Byte
 	{
-		Wire = 0x1,
 		Normal = 0x0,
 		Wired = 0x2,
+		Wire = 0x1,
 	};
 }

@@ -5,11 +5,11 @@
 class Class_1_90858D70BEDD91CA;
 namespace MoleMole { class UIGeneralFilterGroupRowWidgetController; }
 
-#define MOLEMOLE_UIGENERALFILTERGROUPROWWIDGETCONTROLLER___C__DISPLAYCLASS26_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16F6D000)
+#define MOLEMOLE_UIGENERALFILTERGROUPROWWIDGETCONTROLLER___C__DISPLAYCLASS26_0__CTOR_OFFSET UNITYSDK_OFFSET(0x195F96A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralFilterGroupRowWidgetController___c__DisplayClass26_0_TypeDefinitionIndex = 73638;
+	inline static constexpr unsigned int UIGeneralFilterGroupRowWidgetController___c__DisplayClass26_0_TypeDefinitionIndex = 46984;
 
 	class UIGeneralFilterGroupRowWidgetController___c__DisplayClass26_0 : public ::System::Object
 	{

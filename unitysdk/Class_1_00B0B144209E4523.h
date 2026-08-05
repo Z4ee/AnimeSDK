@@ -10,7 +10,7 @@
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Playables/ScriptPlayable_1.h"
 
-class Class_2_6131ABC6B1EC5318;
+class Class_2_226F2F5433672A12;
 namespace Foundation { class NativeMemory; }
 namespace Foundation { class NativeMemoryBuilder; }
 namespace MoleMole::Photo { class AnimationModifyCurveConfig; }
@@ -18,7 +18,7 @@ namespace MoleMole::Photo { class PlayableBlendSpace1DConfig; }
 namespace MoleMole::Photo { class Skeleton; }
 namespace UnityEngine { class Animator; }
 
-inline static constexpr unsigned int Class_1_00B0B144209E4523_TypeDefinitionIndex = 68880;
+inline static constexpr unsigned int Class_1_00B0B144209E4523_TypeDefinitionIndex = 80703;
 
 template <typename T>
 class Class_1_00B0B144209E4523 : public ::System::Object

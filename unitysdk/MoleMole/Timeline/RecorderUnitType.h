@@ -3,7 +3,7 @@
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int RecorderUnitType_TypeDefinitionIndex = 32181;
+	inline static constexpr unsigned int RecorderUnitType_TypeDefinitionIndex = 32811;
 
 	enum class RecorderUnitType : ::System::Int32
 	{

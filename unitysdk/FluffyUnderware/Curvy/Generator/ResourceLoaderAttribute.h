@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_RESOURCELOADERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E5317F0)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_RESOURCELOADERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F932B20)
 
 namespace FluffyUnderware::Curvy::Generator
 {
-	inline static constexpr unsigned int ResourceLoaderAttribute_TypeDefinitionIndex = 39017;
+	inline static constexpr unsigned int ResourceLoaderAttribute_TypeDefinitionIndex = 39497;
 
 	class ResourceLoaderAttribute : public ::System::Attribute
 	{

@@ -4,11 +4,11 @@
 #include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
 #include "unitysdk/System/Object.h"
 
-#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_STATETREECROWDCONDITIONBASE_TESTCONDITION_OFFSET UNITYSDK_OFFSET(0xE8AC2B0)
+#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_STATETREECROWDCONDITIONBASE_TESTCONDITION_OFFSET UNITYSDK_OFFSET(0x1127B1A0)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int VirtualFunctionExtensions_StateTreeCrowdConditionBase_TypeDefinitionIndex = 67502;
+	inline static constexpr unsigned int VirtualFunctionExtensions_StateTreeCrowdConditionBase_TypeDefinitionIndex = 76398;
 
 	class VirtualFunctionExtensions_StateTreeCrowdConditionBase : public ::System::Object
 	{

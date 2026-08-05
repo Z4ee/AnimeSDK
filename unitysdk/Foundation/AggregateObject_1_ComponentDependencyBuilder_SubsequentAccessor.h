@@ -6,7 +6,7 @@ namespace Foundation { template <typename T> class AggregateObject_1_ComponentDe
 
 namespace Foundation
 {
-	inline static constexpr unsigned int AggregateObject_1_ComponentDependencyBuilder_SubsequentAccessor_TypeDefinitionIndex = 8645;
+	inline static constexpr unsigned int AggregateObject_1_ComponentDependencyBuilder_SubsequentAccessor_TypeDefinitionIndex = 8751;
 
 	template <typename TEvent>
 	struct AggregateObject_1_ComponentDependencyBuilder_SubsequentAccessor

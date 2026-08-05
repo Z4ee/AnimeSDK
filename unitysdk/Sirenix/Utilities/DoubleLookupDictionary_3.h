@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class IEqualityCo
 
 namespace Sirenix::Utilities
 {
-	inline static constexpr unsigned int DoubleLookupDictionary_3_TypeDefinitionIndex = 6478;
+	inline static constexpr unsigned int DoubleLookupDictionary_3_TypeDefinitionIndex = 6482;
 
 	template <typename TFirstKey, typename TSecondKey, typename TValue>
 	class DoubleLookupDictionary_3 : public ::System::Collections::Generic::Dictionary_2<TFirstKey, ::System::Collections::Generic::Dictionary_2<TSecondKey, TValue>*>

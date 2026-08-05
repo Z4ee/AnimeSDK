@@ -14,40 +14,41 @@ namespace UnityEngine::UI { class Graphic; }
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class Text; }
 
-#define UNITYENGINE_UI_EXTENSION_IMGTEXTFEATURE_ICONENTRY_GET_IMAGE_OFFSET UNITYSDK_OFFSET(0x87A0E0)
-#define UNITYENGINE_UI_EXTENSION_IMGTEXTFEATURE_ICONENTRY_GET_TEXT_OFFSET UNITYSDK_OFFSET(0x87A070)
-#define UNITYENGINE_UI_EXTENSION_IMGTEXTFEATURE_ICONENTRY_HIDEVISUAL_OFFSET UNITYSDK_OFFSET(0x87A220)
-#define UNITYENGINE_UI_EXTENSION_IMGTEXTFEATURE_ICONENTRY_INVALIDATEMASKCLIPPING_OFFSET UNITYSDK_OFFSET(0x87A240)
-#define UNITYENGINE_UI_EXTENSION_IMGTEXTFEATURE_ICONENTRY_REFRESHITEMRECTBYSCALE_OFFSET UNITYSDK_OFFSET(0x87A210)
-#define UNITYENGINE_UI_EXTENSION_IMGTEXTFEATURE_ICONENTRY_SETITEMSIZE_OFFSET UNITYSDK_OFFSET(0x87A170)
-#define UNITYENGINE_UI_EXTENSION_IMGTEXTFEATURE_ICONENTRY_SETSPRITE_OFFSET UNITYSDK_OFFSET(0x87A150)
-#define UNITYENGINE_UI_EXTENSION_IMGTEXTFEATURE_ICONENTRY_SETTEXT_OFFSET UNITYSDK_OFFSET(0x87A160)
-#define UNITYENGINE_UI_EXTENSION_IMGTEXTFEATURE_ICONENTRY_SHOWVISUAL_OFFSET UNITYSDK_OFFSET(0x87A230)
+#define UNITYENGINE_UI_EXTENSION_IMGTEXTFEATURE_ICONENTRY_GET_IMAGE_OFFSET UNITYSDK_OFFSET(0x90BA70)
+#define UNITYENGINE_UI_EXTENSION_IMGTEXTFEATURE_ICONENTRY_GET_TEXT_OFFSET UNITYSDK_OFFSET(0x90BA00)
+#define UNITYENGINE_UI_EXTENSION_IMGTEXTFEATURE_ICONENTRY_HIDEVISUAL_OFFSET UNITYSDK_OFFSET(0x90BBB0)
+#define UNITYENGINE_UI_EXTENSION_IMGTEXTFEATURE_ICONENTRY_INVALIDATEMASKCLIPPING_OFFSET UNITYSDK_OFFSET(0x90BBD0)
+#define UNITYENGINE_UI_EXTENSION_IMGTEXTFEATURE_ICONENTRY_REFRESHITEMRECTBYSCALE_OFFSET UNITYSDK_OFFSET(0x90BBA0)
+#define UNITYENGINE_UI_EXTENSION_IMGTEXTFEATURE_ICONENTRY_SETITEMSIZE_OFFSET UNITYSDK_OFFSET(0x90BB00)
+#define UNITYENGINE_UI_EXTENSION_IMGTEXTFEATURE_ICONENTRY_SETSPRITE_OFFSET UNITYSDK_OFFSET(0x90BAE0)
+#define UNITYENGINE_UI_EXTENSION_IMGTEXTFEATURE_ICONENTRY_SETTEXT_OFFSET UNITYSDK_OFFSET(0x90BAF0)
+#define UNITYENGINE_UI_EXTENSION_IMGTEXTFEATURE_ICONENTRY_SHOWVISUAL_OFFSET UNITYSDK_OFFSET(0x90BBC0)
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int ImgTextFeature_IconEntry_TypeDefinitionIndex = 40086;
+	inline static constexpr unsigned int ImgTextFeature_IconEntry_TypeDefinitionIndex = 81067;
 
 	struct alignas(8) ImgTextFeature_IconEntry
 	{
-		::UnityEngine::RectTransform* rect; // 0x10
-		::UnityEngine::RectTransform* bgRect; // 0x18
-		::UnityEngine::Vector2 bgSize; // 0x20
-		::UnityEngine::UI::ContentSizeFitter* sizeFitter; // 0x28
-		::UnityEngine::UI::Graphic* item; // 0x30
-		::UnityEngine::UI::Extension::EImgTextIconType type; // 0x38
-		::System::Single scale; // 0x3C
-		::UnityEngine::Vector2 itemSize; // 0x40
-		::System::Single overrideHeight; // 0x48
-		::System::Single useFontSize; // 0x4C
-		::UnityEngine::Vector2 savedVertPos; // 0x50
-		::System::Boolean hasValidPosition; // 0x58
-		::UnityEngine::Rect originalQuadBounds; // 0x5C
-		::System::Boolean hasBounds; // 0x6C
-		::System::Int32 placeholderGi; // 0x70
-		::System::Int32 vertStartIndex; // 0x74
-		::System::Int32 vertEndIndex; // 0x78
-		::UnityEngine::Material* savedMat; // 0x80
+		::System::Boolean IsVisible; // 0x10
+		::UnityEngine::RectTransform* rect; // 0x18
+		::UnityEngine::RectTransform* bgRect; // 0x20
+		::UnityEngine::Vector2 bgSize; // 0x28
+		::UnityEngine::UI::ContentSizeFitter* sizeFitter; // 0x30
+		::UnityEngine::UI::Graphic* item; // 0x38
+		::UnityEngine::UI::Extension::EImgTextIconType type; // 0x40
+		::System::Single scale; // 0x44
+		::UnityEngine::Vector2 itemSize; // 0x48
+		::System::Single overrideHeight; // 0x50
+		::System::Single useFontSize; // 0x54
+		::UnityEngine::Vector2 savedVertPos; // 0x58
+		::System::Boolean hasValidPosition; // 0x60
+		::UnityEngine::Rect originalQuadBounds; // 0x64
+		::System::Boolean hasBounds; // 0x74
+		::System::Int32 placeholderGi; // 0x78
+		::System::Int32 vertStartIndex; // 0x7C
+		::System::Int32 vertEndIndex; // 0x80
+		::UnityEngine::Material* savedMat; // 0x88
 
 		::UnityEngine::UI::Text* get_Text()
 		{

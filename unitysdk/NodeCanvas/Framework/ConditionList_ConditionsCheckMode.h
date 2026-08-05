@@ -3,7 +3,7 @@
 
 namespace NodeCanvas::Framework
 {
-	inline static constexpr unsigned int ConditionList_ConditionsCheckMode_TypeDefinitionIndex = 29204;
+	inline static constexpr unsigned int ConditionList_ConditionsCheckMode_TypeDefinitionIndex = 30845;
 
 	enum class ConditionList_ConditionsCheckMode : ::System::Int32
 	{

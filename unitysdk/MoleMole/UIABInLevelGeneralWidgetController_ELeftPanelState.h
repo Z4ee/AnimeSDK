@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIABInLevelGeneralWidgetController_ELeftPanelState_TypeDefinitionIndex = 77162;
+	inline static constexpr unsigned int UIABInLevelGeneralWidgetController_ELeftPanelState_TypeDefinitionIndex = 68004;
 
 	enum class UIABInLevelGeneralWidgetController_ELeftPanelState : ::System::Int32
 	{

@@ -4,11 +4,11 @@
 #include "unitysdk/UnityEngine/Matrix4x4.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_GPUGRASSPROXY_GPUGRASSBILLBOARDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x927210)
+#define UNITYENGINE_RENDERING_UNIVERSAL_GPUGRASSPROXY_GPUGRASSBILLBOARDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x975960)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int GPUGrassProxy_GPUGrassBillboardData_TypeDefinitionIndex = 26560;
+	inline static constexpr unsigned int GPUGrassProxy_GPUGrassBillboardData_TypeDefinitionIndex = 27266;
 
 	struct alignas(4) GPUGrassProxy_GPUGrassBillboardData
 	{

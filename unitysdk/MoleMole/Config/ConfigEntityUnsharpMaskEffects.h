@@ -6,11 +6,11 @@ namespace MoleMole::Config { class ConfigEntityUnsharpMaskEffect; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGENTITYUNSHARPMASKEFFECTS__CTOR_OFFSET UNITYSDK_OFFSET(0x110A2060)
+#define MOLEMOLE_CONFIG_CONFIGENTITYUNSHARPMASKEFFECTS__CTOR_OFFSET UNITYSDK_OFFSET(0x12F00250)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigEntityUnsharpMaskEffects_TypeDefinitionIndex = 40082;
+	inline static constexpr unsigned int ConfigEntityUnsharpMaskEffects_TypeDefinitionIndex = 65717;
 
 	class ConfigEntityUnsharpMaskEffects : public ::Foundation::MihoyoSerializedScriptableObject
 	{

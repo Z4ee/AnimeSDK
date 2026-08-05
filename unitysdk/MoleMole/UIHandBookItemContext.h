@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_2_208CC9941471731A_940;
+class Class_2_208CC9941471731A_917;
 
-#define MOLEMOLE_UIHANDBOOKITEMCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1846B790)
+#define MOLEMOLE_UIHANDBOOKITEMCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1841AD70)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHandBookItemContext_TypeDefinitionIndex = 48378;
+	inline static constexpr unsigned int UIHandBookItemContext_TypeDefinitionIndex = 51463;
 
 	class UIHandBookItemContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_2_208CC9941471731A_940* navigationTemplateMap; // 0x28
+		::Class_2_208CC9941471731A_917* navigationTemplateMap; // 0x28
 
 		::System::Void _ctor()
 		{

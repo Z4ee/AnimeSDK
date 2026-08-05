@@ -7,7 +7,7 @@ namespace Foundation { template <typename T> class TickFunction_1; }
 
 namespace Foundation
 {
-	inline static constexpr unsigned int TickCollector_1_FunctionListHeader_TypeDefinitionIndex = 8520;
+	inline static constexpr unsigned int TickCollector_1_FunctionListHeader_TypeDefinitionIndex = 8844;
 
 	template <typename TTickingGroup>
 	struct TickCollector_1_FunctionListHeader

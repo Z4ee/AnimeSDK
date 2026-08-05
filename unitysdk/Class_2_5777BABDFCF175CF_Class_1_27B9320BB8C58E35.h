@@ -1,0 +1,50 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_2_5777BABDFCF175CF_Class_1_9B3AEFE224B25B34;
+namespace DG::Tweening { class Tween; }
+namespace MoleMole { class UISummerTideTreasureSellingBuffRowWidgetController; }
+
+#define CLASS_2_5777BABDFCF175CF_CLASS_1_27B9320BB8C58E35_METHOD_1_5323F2DF46A044DA_OFFSET UNITYSDK_OFFSET(0x1375D990)
+#define CLASS_2_5777BABDFCF175CF_CLASS_1_27B9320BB8C58E35_METHOD_1_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0x1375D920)
+#define CLASS_2_5777BABDFCF175CF_CLASS_1_27B9320BB8C58E35_METHOD_1_E05ADF64DE351167_OFFSET UNITYSDK_OFFSET(0x1273CB80)
+#define CLASS_2_5777BABDFCF175CF_CLASS_1_27B9320BB8C58E35_METHOD_1_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0x1273CB70)
+#define CLASS_2_5777BABDFCF175CF_CLASS_1_27B9320BB8C58E35__CTOR_OFFSET UNITYSDK_OFFSET(0x1273CB60)
+
+inline static constexpr unsigned int Class_2_5777BABDFCF175CF_Class_1_27B9320BB8C58E35_TypeDefinitionIndex = 40613;
+
+class Class_2_5777BABDFCF175CF_Class_1_27B9320BB8C58E35 : public ::System::Object
+{
+public:
+	::MoleMole::UISummerTideTreasureSellingBuffRowWidgetController* Field_1_6; // 0x10
+	::DG::Tweening::Tween* Field_1_0; // 0x18
+	::Class_2_5777BABDFCF175CF_Class_1_9B3AEFE224B25B34* Field_1_5; // 0x20
+	::System::Single Field_1_1; // 0x28
+	::System::Boolean Field_1_7; // 0x2C
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_5777BABDFCF175CF_CLASS_1_27B9320BB8C58E35__CTOR_OFFSET))(this);
+	}
+
+	::System::Boolean Method_1_F0088C88851A7DFB()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_5777BABDFCF175CF_CLASS_1_27B9320BB8C58E35_METHOD_1_F0088C88851A7DFB_OFFSET))(this);
+	}
+
+	::System::Void Method_1_E05ADF64DE351167(::System::Single a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_2_5777BABDFCF175CF_CLASS_1_27B9320BB8C58E35_METHOD_1_E05ADF64DE351167_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_B1936CE4DA97AA45()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_5777BABDFCF175CF_CLASS_1_27B9320BB8C58E35_METHOD_1_B1936CE4DA97AA45_OFFSET))(this);
+	}
+
+	::System::Single Method_1_5323F2DF46A044DA()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_5777BABDFCF175CF_CLASS_1_27B9320BB8C58E35_METHOD_1_5323F2DF46A044DA_OFFSET))(this);
+	}
+};

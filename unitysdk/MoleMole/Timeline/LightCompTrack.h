@@ -7,13 +7,15 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define MOLEMOLE_TIMELINE_LIGHTCOMPTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x183A2CB0)
-#define MOLEMOLE_TIMELINE_LIGHTCOMPTRACK_METHOD_5_652F102150AC9967_OFFSET UNITYSDK_OFFSET(0x183A2F20)
-#define MOLEMOLE_TIMELINE_LIGHTCOMPTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x183A2EC0)
+#define MOLEMOLE_TIMELINE_LIGHTCOMPTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x11D7B490)
+#define MOLEMOLE_TIMELINE_LIGHTCOMPTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x11D7B6C0)
+#define MOLEMOLE_TIMELINE_LIGHTCOMPTRACK_METHOD_5_652F102150AC9967_OFFSET UNITYSDK_OFFSET(0x11D7B8C0)
+#define MOLEMOLE_TIMELINE_LIGHTCOMPTRACK_METHOD_5_B1CEB44F8026DA0D_OFFSET UNITYSDK_OFFSET(0x11D7B880)
+#define MOLEMOLE_TIMELINE_LIGHTCOMPTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x11D7B820)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int LightCompTrack_TypeDefinitionIndex = 59905;
+	inline static constexpr unsigned int LightCompTrack_TypeDefinitionIndex = 45824;
 
 	class LightCompTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
@@ -26,6 +28,16 @@ namespace MoleMole::Timeline
 		::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::UnityEngine::Timeline::TimelineClip* a3)
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_LIGHTCOMPTRACK_CREATEPLAYABLE_OFFSET))(this, a1, a2, a3);
+		}
+
+		::UnityEngine::Playables::Playable CreateTrackMixer(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
+		{
+			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_LIGHTCOMPTRACK_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
+		}
+
+		::UnityEngine::Playables::Playable Method_5_B1CEB44F8026DA0D(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
+		{
+			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_LIGHTCOMPTRACK_METHOD_5_B1CEB44F8026DA0D_OFFSET))(this, a1, a2, a3);
 		}
 
 		::UnityEngine::Playables::Playable Method_5_652F102150AC9967(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::UnityEngine::Timeline::TimelineClip* a3)

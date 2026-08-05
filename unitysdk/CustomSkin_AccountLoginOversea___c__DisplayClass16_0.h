@@ -4,10 +4,10 @@
 
 class CustomSkin_AccountLoginOversea;
 
-#define CUSTOMSKIN_ACCOUNTLOGINOVERSEA___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1268A9B0)
-#define CUSTOMSKIN_ACCOUNTLOGINOVERSEA___C__DISPLAYCLASS16_0__GENENTRYCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0x1268A9C0)
+#define CUSTOMSKIN_ACCOUNTLOGINOVERSEA___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x124F2800)
+#define CUSTOMSKIN_ACCOUNTLOGINOVERSEA___C__DISPLAYCLASS16_0__GENENTRYCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0x124F2810)
 
-inline static constexpr unsigned int CustomSkin_AccountLoginOversea___c__DisplayClass16_0_TypeDefinitionIndex = 66161;
+inline static constexpr unsigned int CustomSkin_AccountLoginOversea___c__DisplayClass16_0_TypeDefinitionIndex = 62967;
 
 class CustomSkin_AccountLoginOversea___c__DisplayClass16_0 : public ::System::Object
 {

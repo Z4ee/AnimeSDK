@@ -4,20 +4,20 @@
 
 namespace UnityEngine::Events { class UnityAction; }
 
-#define MOLEMOLE_SUMMEREVENTPAUSECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x13F24650)
+#define MOLEMOLE_SUMMEREVENTPAUSECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x136EFBB0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SummerEventPauseContext_TypeDefinitionIndex = 63499;
+	inline static constexpr unsigned int SummerEventPauseContext_TypeDefinitionIndex = 65867;
 
 	class SummerEventPauseContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::UnityEngine::Events::UnityAction* RestartGame; // 0x28
-		::UnityEngine::Events::UnityAction* OpenSetting; // 0x30
-		::UnityEngine::Events::UnityAction* OpenTutorial; // 0x38
-		::UnityEngine::Events::UnityAction* ExitGame; // 0x40
-		::UnityEngine::Events::UnityAction* ContinueGame; // 0x48
+		::UnityEngine::Events::UnityAction* ContinueGame; // 0x28
+		::UnityEngine::Events::UnityAction* OpenTutorial; // 0x30
+		::UnityEngine::Events::UnityAction* OpenSetting; // 0x38
+		::UnityEngine::Events::UnityAction* RestartGame; // 0x40
+		::UnityEngine::Events::UnityAction* ExitGame; // 0x48
 
 		::System::Void _ctor()
 		{

@@ -9,12 +9,12 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CONFIGMAINCITYOBJECT_GETCONFIG_OFFSET UNITYSDK_OFFSET(0x15585610)
-#define CONFIGMAINCITYOBJECT_GETLIMITAREA_OFFSET UNITYSDK_OFFSET(0x15585490)
-#define CONFIGMAINCITYOBJECT_GETTRAFFICTIMELOOP_OFFSET UNITYSDK_OFFSET(0x155856F0)
-#define CONFIGMAINCITYOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x15585730)
+#define CONFIGMAINCITYOBJECT_GETCONFIG_OFFSET UNITYSDK_OFFSET(0x13CD9130)
+#define CONFIGMAINCITYOBJECT_GETLIMITAREA_OFFSET UNITYSDK_OFFSET(0x13CD8FB0)
+#define CONFIGMAINCITYOBJECT_GETTRAFFICTIMELOOP_OFFSET UNITYSDK_OFFSET(0x13CD9210)
+#define CONFIGMAINCITYOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x13CD9250)
 
-inline static constexpr unsigned int ConfigMainCityObject_TypeDefinitionIndex = 47815;
+inline static constexpr unsigned int ConfigMainCityObject_TypeDefinitionIndex = 54123;
 
 class ConfigMainCityObject : public ::Foundation::MihoyoSerializedScriptableObject
 {

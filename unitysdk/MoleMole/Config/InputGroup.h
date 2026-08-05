@@ -3,18 +3,18 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int InputGroup_TypeDefinitionIndex = 83173;
+	inline static constexpr unsigned int InputGroup_TypeDefinitionIndex = 76204;
 
 	enum class InputGroup : ::System::Int32
 	{
-		CharacterMove = 0,
-		All = 7,
+		CharacterUI = 2,
 		CharacterSwitchMute = 5,
 		CharacterSkill = 1,
-		CharacterUI = 2,
-		NotSkillHUD = 6,
-		CharacterQTEMute = 4,
 		None = 8,
 		CameraMove = 3,
+		NotSkillHUD = 6,
+		CharacterQTEMute = 4,
+		All = 7,
+		CharacterMove = 0,
 	};
 }

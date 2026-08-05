@@ -3,13 +3,14 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define UNITYENGINE_AI_NAVMESHHIT_GET_DISTANCE_OFFSET UNITYSDK_OFFSET(0x674F40)
-#define UNITYENGINE_AI_NAVMESHHIT_GET_NORMAL_OFFSET UNITYSDK_OFFSET(0x3E5840)
-#define UNITYENGINE_AI_NAVMESHHIT_GET_POSITION_OFFSET UNITYSDK_OFFSET(0x388220)
+#define UNITYENGINE_AI_NAVMESHHIT_GET_DISTANCE_OFFSET UNITYSDK_OFFSET(0x61E820)
+#define UNITYENGINE_AI_NAVMESHHIT_GET_HIT_OFFSET UNITYSDK_OFFSET(0x7C1050)
+#define UNITYENGINE_AI_NAVMESHHIT_GET_NORMAL_OFFSET UNITYSDK_OFFSET(0x457AA0)
+#define UNITYENGINE_AI_NAVMESHHIT_GET_POSITION_OFFSET UNITYSDK_OFFSET(0x34AF10)
 
 namespace UnityEngine::AI
 {
-	inline static constexpr unsigned int NavMeshHit_TypeDefinitionIndex = 27395;
+	inline static constexpr unsigned int NavMeshHit_TypeDefinitionIndex = 27997;
 
 	struct alignas(4) NavMeshHit
 	{
@@ -32,6 +33,11 @@ namespace UnityEngine::AI
 		::System::Single get_distance()
 		{
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHHIT_GET_DISTANCE_OFFSET))(this);
+		}
+
+		::System::Boolean get_hit()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_AI_NAVMESHHIT_GET_HIT_OFFSET))(this);
 		}
 	};
 }

@@ -5,22 +5,22 @@
 namespace MoleMole { class UIBabeltowerFightingBuffPopWindowController; }
 namespace MoleMole::Project::Config { class BabelFloorInfoTemplateExt; }
 
-#define MOLEMOLE_UIBABELTOWERFIGHTINGBUFFPOPWINDOWCONTROLLER___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x176C9200)
-#define MOLEMOLE_UIBABELTOWERFIGHTINGBUFFPOPWINDOWCONTROLLER___C__DISPLAYCLASS14_0__REFRESHBUFFSET_B__2_OFFSET UNITYSDK_OFFSET(0x176C9450)
-#define MOLEMOLE_UIBABELTOWERFIGHTINGBUFFPOPWINDOWCONTROLLER___C__DISPLAYCLASS14_0__REFRESHBUFFSET_G__OPENMONSTER_3_OFFSET UNITYSDK_OFFSET(0x176C9460)
-#define MOLEMOLE_UIBABELTOWERFIGHTINGBUFFPOPWINDOWCONTROLLER___C__DISPLAYCLASS14_0__REFRESHBUFFSET_G__REFRESHMONSTER_0_OFFSET UNITYSDK_OFFSET(0x176C9210)
+#define MOLEMOLE_UIBABELTOWERFIGHTINGBUFFPOPWINDOWCONTROLLER___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18BF7680)
+#define MOLEMOLE_UIBABELTOWERFIGHTINGBUFFPOPWINDOWCONTROLLER___C__DISPLAYCLASS14_0__REFRESHBUFFSET_B__2_OFFSET UNITYSDK_OFFSET(0x18BF78D0)
+#define MOLEMOLE_UIBABELTOWERFIGHTINGBUFFPOPWINDOWCONTROLLER___C__DISPLAYCLASS14_0__REFRESHBUFFSET_G__OPENMONSTER_3_OFFSET UNITYSDK_OFFSET(0x18BF78E0)
+#define MOLEMOLE_UIBABELTOWERFIGHTINGBUFFPOPWINDOWCONTROLLER___C__DISPLAYCLASS14_0__REFRESHBUFFSET_G__REFRESHMONSTER_0_OFFSET UNITYSDK_OFFSET(0x18BF7690)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBabeltowerFightingBuffPopWindowController___c__DisplayClass14_0_TypeDefinitionIndex = 77045;
+	inline static constexpr unsigned int UIBabeltowerFightingBuffPopWindowController___c__DisplayClass14_0_TypeDefinitionIndex = 42003;
 
 	class UIBabeltowerFightingBuffPopWindowController___c__DisplayClass14_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::Project::Config::BabelFloorInfoTemplateExt* floorTemplate; // 0x10
-		::MoleMole::UIBabeltowerFightingBuffPopWindowController* __4__this; // 0x18
-		::System::Int32 cardsetid; // 0x20
-		::System::UInt32 currentFloor; // 0x24
+		::MoleMole::UIBabeltowerFightingBuffPopWindowController* __4__this; // 0x10
+		::MoleMole::Project::Config::BabelFloorInfoTemplateExt* floorTemplate; // 0x18
+		::System::UInt32 currentFloor; // 0x20
+		::System::Int32 cardsetid; // 0x24
 
 		::System::Void _ctor()
 		{

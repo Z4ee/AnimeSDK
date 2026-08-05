@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/NPCCrowd/SpawnRangeConfig.h"
 
-#define NPCCROWD_GRAPHSPAWNRANGECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x10709500)
+#define NPCCROWD_GRAPHSPAWNRANGECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xF7764C0)
 
 namespace NPCCrowd
 {
-	inline static constexpr unsigned int GraphSpawnRangeConfig_TypeDefinitionIndex = 57564;
+	inline static constexpr unsigned int GraphSpawnRangeConfig_TypeDefinitionIndex = 59830;
 
 	class GraphSpawnRangeConfig : public ::NPCCrowd::SpawnRangeConfig
 	{

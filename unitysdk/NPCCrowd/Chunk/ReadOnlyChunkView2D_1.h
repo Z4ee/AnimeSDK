@@ -5,7 +5,7 @@
 
 namespace NPCCrowd::Chunk
 {
-	inline static constexpr unsigned int ReadOnlyChunkView2D_1_TypeDefinitionIndex = 8659;
+	inline static constexpr unsigned int ReadOnlyChunkView2D_1_TypeDefinitionIndex = 8718;
 
 	template <typename T>
 	struct ReadOnlyChunkView2D_1

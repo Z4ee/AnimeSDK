@@ -6,12 +6,12 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIGPOINTSCORECALCULATEPIPE_METHOD_1_6420BCE09A2E1435_OFFSET UNITYSDK_OFFSET(0x1A00DD80)
-#define MOLEMOLE_CONFIGPOINTSCORECALCULATEPIPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A00DD70)
+#define MOLEMOLE_CONFIGPOINTSCORECALCULATEPIPE_METHOD_1_25D73DC023DD8024_OFFSET UNITYSDK_OFFSET(0x1B81D150)
+#define MOLEMOLE_CONFIGPOINTSCORECALCULATEPIPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B81D140)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigPointScoreCalculatePipe_TypeDefinitionIndex = 77348;
+	inline static constexpr unsigned int ConfigPointScoreCalculatePipe_TypeDefinitionIndex = 52406;
 
 	class ConfigPointScoreCalculatePipe : public ::System::Object
 	{
@@ -23,9 +23,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGPOINTSCORECALCULATEPIPE__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_1_6420BCE09A2E1435(::Struct_2_46F3CFD626EFE3F5& a1)
+		::System::Void Method_1_25D73DC023DD8024(::Struct_2_46F3CFD626EFE3F5& a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Struct_2_46F3CFD626EFE3F5&))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGPOINTSCORECALCULATEPIPE_METHOD_1_6420BCE09A2E1435_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Struct_2_46F3CFD626EFE3F5&))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGPOINTSCORECALCULATEPIPE_METHOD_1_25D73DC023DD8024_OFFSET))(this, a1);
 		}
 	};
 }

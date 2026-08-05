@@ -5,7 +5,7 @@ namespace UnityEngine::EventSystems { class BaseEventData; }
 
 namespace UnityEngine::EventSystems
 {
-	inline static constexpr unsigned int IDeselectHandler_TypeDefinitionIndex = 19034;
+	inline static constexpr unsigned int IDeselectHandler_TypeDefinitionIndex = 19378;
 
 	class IDeselectHandler
 	{

@@ -7,12 +7,12 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIGVIDEOAUDIOMAPPING_BUILDMAP_OFFSET UNITYSDK_OFFSET(0x115F7E90)
-#define MOLEMOLE_CONFIGVIDEOAUDIOMAPPING__CTOR_OFFSET UNITYSDK_OFFSET(0x115F80B0)
+#define MOLEMOLE_CONFIGVIDEOAUDIOMAPPING_BUILDMAP_OFFSET UNITYSDK_OFFSET(0x1922C5C0)
+#define MOLEMOLE_CONFIGVIDEOAUDIOMAPPING__CTOR_OFFSET UNITYSDK_OFFSET(0x1922C7E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigVideoAudioMapping_TypeDefinitionIndex = 48756;
+	inline static constexpr unsigned int ConfigVideoAudioMapping_TypeDefinitionIndex = 40757;
 
 	class ConfigVideoAudioMapping : public ::Foundation::MihoyoSerializedScriptableObject
 	{

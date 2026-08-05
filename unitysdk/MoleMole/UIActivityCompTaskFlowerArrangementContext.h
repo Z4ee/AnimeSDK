@@ -4,11 +4,11 @@
 
 class Class_1_D375C91CCE5D3999;
 
-#define MOLEMOLE_UIACTIVITYCOMPTASKFLOWERARRANGEMENTCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x17426250)
+#define MOLEMOLE_UIACTIVITYCOMPTASKFLOWERARRANGEMENTCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18BC4760)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityCompTaskFlowerArrangementContext_TypeDefinitionIndex = 86800;
+	inline static constexpr unsigned int UIActivityCompTaskFlowerArrangementContext_TypeDefinitionIndex = 91300;
 
 	class UIActivityCompTaskFlowerArrangementContext : public ::MoleMole::UIControllerContextBase
 	{

@@ -6,7 +6,7 @@ class Class_1_1685EC66FBD28897;
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISuibianTempleResolvePageController_UIState_MaterialCost_TypeDefinitionIndex = 81365;
+	inline static constexpr unsigned int UISuibianTempleResolvePageController_UIState_MaterialCost_TypeDefinitionIndex = 60615;
 
 	struct alignas(8) UISuibianTempleResolvePageController_UIState_MaterialCost
 	{

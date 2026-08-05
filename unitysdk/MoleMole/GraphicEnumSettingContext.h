@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_GRAPHICENUMSETTINGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0342F0)
+#define MOLEMOLE_GRAPHICENUMSETTINGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x19087630)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int GraphicEnumSettingContext_TypeDefinitionIndex = 59882;
+	inline static constexpr unsigned int GraphicEnumSettingContext_TypeDefinitionIndex = 60997;
 
 	class GraphicEnumSettingContext : public ::MoleMole::SystemSettingContextBase
 	{

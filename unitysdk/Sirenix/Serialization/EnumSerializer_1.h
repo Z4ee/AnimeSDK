@@ -8,7 +8,7 @@ namespace System { class String; }
 
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int EnumSerializer_1_TypeDefinitionIndex = 7543;
+	inline static constexpr unsigned int EnumSerializer_1_TypeDefinitionIndex = 7547;
 
 	template <typename T>
 	class EnumSerializer_1 : public ::Sirenix::Serialization::Serializer_1<T>

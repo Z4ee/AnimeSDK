@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class Texture2D; }
 
-#define CODE_LOGIC_UI_UGUIEXTENSIONS_GALGAMEMATERIALMODIFIER_GALGAMELUTPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x1306A990)
+#define CODE_LOGIC_UI_UGUIEXTENSIONS_GALGAMEMATERIALMODIFIER_GALGAMELUTPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x15BC8280)
 
 namespace Code::Logic::UI::UGUIExtensions::GalGameMaterialModifier
 {
-	inline static constexpr unsigned int GalGameLutParams_TypeDefinitionIndex = 42221;
+	inline static constexpr unsigned int GalGameLutParams_TypeDefinitionIndex = 76593;
 
 	class GalGameLutParams : public ::System::Object
 	{

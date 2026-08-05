@@ -2,26 +2,26 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_D79D852F682C7303_Class_3_E5F5430D92070BCB;
+class Class_1_912E0458D58825D3_Class_3_E5F5430D92070BCB;
 
-#define UNITYENGINE_UI_EXTENSION_UITEXTTAGREPLACER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AEB3640)
-#define UNITYENGINE_UI_EXTENSION_UITEXTTAGREPLACER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1AEB3680)
-#define UNITYENGINE_UI_EXTENSION_UITEXTTAGREPLACER___C__REPLACE_B__3_0_OFFSET UNITYSDK_OFFSET(0x1AEB3690)
+#define UNITYENGINE_UI_EXTENSION_UITEXTTAGREPLACER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E835710)
+#define UNITYENGINE_UI_EXTENSION_UITEXTTAGREPLACER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1E835750)
+#define UNITYENGINE_UI_EXTENSION_UITEXTTAGREPLACER___C__REPLACE_B__3_0_OFFSET UNITYSDK_OFFSET(0x1E835760)
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int UITextTagReplacer___c_TypeDefinitionIndex = 86659;
+	inline static constexpr unsigned int UITextTagReplacer___c_TypeDefinitionIndex = 47864;
 
 	class UITextTagReplacer___c : public ::System::Object
 	{
 	public:
-		static ::Class_1_D79D852F682C7303_Class_3_E5F5430D92070BCB** StaticGet___9__3_0()
-		{
-			return (::Class_1_D79D852F682C7303_Class_3_E5F5430D92070BCB**)Il2CppClass::FromTypeDefinitionIndex(UITextTagReplacer___c_TypeDefinitionIndex)->GetStaticField(0x3D500);
-		}
 		static ::UnityEngine::UI::Extension::UITextTagReplacer___c** StaticGet___9()
 		{
-			return (::UnityEngine::UI::Extension::UITextTagReplacer___c**)Il2CppClass::FromTypeDefinitionIndex(UITextTagReplacer___c_TypeDefinitionIndex)->GetStaticField(0x3D508);
+			return (::UnityEngine::UI::Extension::UITextTagReplacer___c**)Il2CppClass::FromTypeDefinitionIndex(UITextTagReplacer___c_TypeDefinitionIndex)->GetStaticField(0x503C0);
+		}
+		static ::Class_1_912E0458D58825D3_Class_3_E5F5430D92070BCB** StaticGet___9__3_0()
+		{
+			return (::Class_1_912E0458D58825D3_Class_3_E5F5430D92070BCB**)Il2CppClass::FromTypeDefinitionIndex(UITextTagReplacer___c_TypeDefinitionIndex)->GetStaticField(0x503C8);
 		}
 
 		static ::System::Void _cctor()

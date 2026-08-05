@@ -3,11 +3,11 @@
 #include "unitysdk/MoleMole/Vector2Int.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_CONFIG_CHANGEFGITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x10CF9830)
+#define MOLEMOLE_CONFIG_CHANGEFGITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x116F8790)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ChangeFGItem_TypeDefinitionIndex = 53935;
+	inline static constexpr unsigned int ChangeFGItem_TypeDefinitionIndex = 90016;
 
 	class ChangeFGItem : public ::System::Object
 	{

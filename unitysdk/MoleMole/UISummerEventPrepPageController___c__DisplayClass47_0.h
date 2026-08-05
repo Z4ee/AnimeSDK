@@ -1,0 +1,84 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+namespace MoleMole { class UISummerEventPrepPageController; }
+namespace System { class Action; }
+
+#define MOLEMOLE_UISUMMEREVENTPREPPAGECONTROLLER___C__DISPLAYCLASS47_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15F87D30)
+#define MOLEMOLE_UISUMMEREVENTPREPPAGECONTROLLER___C__DISPLAYCLASS47_0__REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x15F881B0)
+#define MOLEMOLE_UISUMMEREVENTPREPPAGECONTROLLER___C__DISPLAYCLASS47_0__REFRESHVIEW_B__1_OFFSET UNITYSDK_OFFSET(0x15F884E0)
+#define MOLEMOLE_UISUMMEREVENTPREPPAGECONTROLLER___C__DISPLAYCLASS47_0__REFRESHVIEW_B__2_OFFSET UNITYSDK_OFFSET(0x15F88810)
+#define MOLEMOLE_UISUMMEREVENTPREPPAGECONTROLLER___C__DISPLAYCLASS47_0__REFRESHVIEW_B__3_OFFSET UNITYSDK_OFFSET(0x15F87D40)
+#define MOLEMOLE_UISUMMEREVENTPREPPAGECONTROLLER___C__DISPLAYCLASS47_0__REFRESHVIEW_B__4_OFFSET UNITYSDK_OFFSET(0x15F88020)
+#define MOLEMOLE_UISUMMEREVENTPREPPAGECONTROLLER___C__DISPLAYCLASS47_0__REFRESHVIEW_B__5_OFFSET UNITYSDK_OFFSET(0x15F881C0)
+#define MOLEMOLE_UISUMMEREVENTPREPPAGECONTROLLER___C__DISPLAYCLASS47_0__REFRESHVIEW_B__6_OFFSET UNITYSDK_OFFSET(0x15F884A0)
+#define MOLEMOLE_UISUMMEREVENTPREPPAGECONTROLLER___C__DISPLAYCLASS47_0__REFRESHVIEW_B__7_OFFSET UNITYSDK_OFFSET(0x15F884F0)
+#define MOLEMOLE_UISUMMEREVENTPREPPAGECONTROLLER___C__DISPLAYCLASS47_0__REFRESHVIEW_B__8_OFFSET UNITYSDK_OFFSET(0x15F887D0)
+
+namespace MoleMole
+{
+	inline static constexpr unsigned int UISummerEventPrepPageController___c__DisplayClass47_0_TypeDefinitionIndex = 67944;
+
+	class UISummerEventPrepPageController___c__DisplayClass47_0 : public ::System::Object
+	{
+	public:
+		::System::Action* __9__8; // 0x10
+		::MoleMole::UISummerEventPrepPageController* __4__this; // 0x18
+		::System::Action* __9__4; // 0x20
+		::System::Action* __9__6; // 0x28
+		::System::Int32 aquariumUnlockGroupID; // 0x30
+		::System::Int32 shotUnlockGroupID; // 0x34
+		::System::Int32 surfUnlockGroupID; // 0x38
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UISUMMEREVENTPREPPAGECONTROLLER___C__DISPLAYCLASS47_0__CTOR_OFFSET))(this);
+		}
+
+		::System::Void _RefreshView_b__3()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UISUMMEREVENTPREPPAGECONTROLLER___C__DISPLAYCLASS47_0__REFRESHVIEW_B__3_OFFSET))(this);
+		}
+
+		::System::Void _RefreshView_b__4()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UISUMMEREVENTPREPPAGECONTROLLER___C__DISPLAYCLASS47_0__REFRESHVIEW_B__4_OFFSET))(this);
+		}
+
+		::System::Void _RefreshView_b__0()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UISUMMEREVENTPREPPAGECONTROLLER___C__DISPLAYCLASS47_0__REFRESHVIEW_B__0_OFFSET))(this);
+		}
+
+		::System::Void _RefreshView_b__5()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UISUMMEREVENTPREPPAGECONTROLLER___C__DISPLAYCLASS47_0__REFRESHVIEW_B__5_OFFSET))(this);
+		}
+
+		::System::Void _RefreshView_b__6()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UISUMMEREVENTPREPPAGECONTROLLER___C__DISPLAYCLASS47_0__REFRESHVIEW_B__6_OFFSET))(this);
+		}
+
+		::System::Void _RefreshView_b__1()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UISUMMEREVENTPREPPAGECONTROLLER___C__DISPLAYCLASS47_0__REFRESHVIEW_B__1_OFFSET))(this);
+		}
+
+		::System::Void _RefreshView_b__7()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UISUMMEREVENTPREPPAGECONTROLLER___C__DISPLAYCLASS47_0__REFRESHVIEW_B__7_OFFSET))(this);
+		}
+
+		::System::Void _RefreshView_b__8()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UISUMMEREVENTPREPPAGECONTROLLER___C__DISPLAYCLASS47_0__REFRESHVIEW_B__8_OFFSET))(this);
+		}
+
+		::System::Void _RefreshView_b__2()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UISUMMEREVENTPREPPAGECONTROLLER___C__DISPLAYCLASS47_0__REFRESHVIEW_B__2_OFFSET))(this);
+		}
+	};
+}

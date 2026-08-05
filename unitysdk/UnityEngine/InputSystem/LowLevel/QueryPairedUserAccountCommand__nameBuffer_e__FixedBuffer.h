@@ -4,7 +4,7 @@
 
 namespace UnityEngine::InputSystem::LowLevel
 {
-	inline static constexpr unsigned int QueryPairedUserAccountCommand__nameBuffer_e__FixedBuffer_TypeDefinitionIndex = 31862;
+	inline static constexpr unsigned int QueryPairedUserAccountCommand__nameBuffer_e__FixedBuffer_TypeDefinitionIndex = 32482;
 
 	struct alignas(1) QueryPairedUserAccountCommand__nameBuffer_e__FixedBuffer
 	{

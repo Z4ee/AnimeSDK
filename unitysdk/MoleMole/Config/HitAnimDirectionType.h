@@ -3,13 +3,13 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int HitAnimDirectionType_TypeDefinitionIndex = 67389;
+	inline static constexpr unsigned int HitAnimDirectionType_TypeDefinitionIndex = 89346;
 
 	enum class HitAnimDirectionType : ::System::Int32
 	{
-		HitDown = 1,
-		HitRight = 3,
-		HitLeft = 2,
 		HitUp = 0,
+		HitDown = 1,
+		HitLeft = 2,
+		HitRight = 3,
 	};
 }

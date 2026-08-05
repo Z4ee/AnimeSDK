@@ -9,7 +9,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace Foundation
 {
-	inline static constexpr unsigned int LoginSetting_TypeDefinitionIndex = 8052;
+	inline static constexpr unsigned int LoginSetting_TypeDefinitionIndex = 8268;
 
 	struct alignas(8) LoginSetting
 	{

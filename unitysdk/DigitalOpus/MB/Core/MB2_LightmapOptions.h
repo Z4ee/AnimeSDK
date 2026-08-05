@@ -3,7 +3,7 @@
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int MB2_LightmapOptions_TypeDefinitionIndex = 90600;
+	inline static constexpr unsigned int MB2_LightmapOptions_TypeDefinitionIndex = 94533;
 
 	enum class MB2_LightmapOptions : ::System::Int32
 	{

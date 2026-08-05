@@ -8,24 +8,24 @@ namespace Utf8Json { class IJsonFormatterResolver; }
 namespace Utf8Json { template <typename T> class IJsonFormatter_1; }
 namespace Utf8Json::Internal::Emit { class DynamicAssembly; }
 
-#define UTF8JSON_RESOLVERS_DYNAMICCOMPOSITERESOLVER_CREATE_OFFSET UNITYSDK_OFFSET(0x1E70A3E0)
-#define UTF8JSON_RESOLVERS_DYNAMICCOMPOSITERESOLVER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E70A380)
-#define UTF8JSON_RESOLVERS_DYNAMICCOMPOSITERESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E70A5A0)
+#define UTF8JSON_RESOLVERS_DYNAMICCOMPOSITERESOLVER_CREATE_OFFSET UNITYSDK_OFFSET(0x1FAE7C70)
+#define UTF8JSON_RESOLVERS_DYNAMICCOMPOSITERESOLVER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FAE7C10)
+#define UTF8JSON_RESOLVERS_DYNAMICCOMPOSITERESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1FAE7E30)
 
 namespace Utf8Json::Resolvers
 {
-	inline static constexpr unsigned int DynamicCompositeResolver_TypeDefinitionIndex = 91109;
+	inline static constexpr unsigned int DynamicCompositeResolver_TypeDefinitionIndex = 95042;
 
 	class DynamicCompositeResolver : public ::System::Object
 	{
 	public:
 		static ::Utf8Json::Internal::Emit::DynamicAssembly** StaticGet_assembly()
 		{
-			return (::Utf8Json::Internal::Emit::DynamicAssembly**)Il2CppClass::FromTypeDefinitionIndex(DynamicCompositeResolver_TypeDefinitionIndex)->GetStaticField(0x4EC60);
+			return (::Utf8Json::Internal::Emit::DynamicAssembly**)Il2CppClass::FromTypeDefinitionIndex(DynamicCompositeResolver_TypeDefinitionIndex)->GetStaticField(0x52E10);
 		}
 		// static const ::System::String* ModuleName; // 0x0
-		::Il2CppArray<::Utf8Json::IJsonFormatter*>* formatters; // 0x10
-		::Il2CppArray<::Utf8Json::IJsonFormatterResolver*>* resolvers; // 0x18
+		::Il2CppArray<::Utf8Json::IJsonFormatterResolver*>* resolvers; // 0x10
+		::Il2CppArray<::Utf8Json::IJsonFormatter*>* formatters; // 0x18
 
 		static ::System::Void _cctor()
 		{

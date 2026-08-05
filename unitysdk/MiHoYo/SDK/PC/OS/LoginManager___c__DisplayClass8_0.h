@@ -6,19 +6,19 @@ namespace MiHoYo::SDK { class AccountModel; }
 namespace MiHoYo::SDK::PC::OS { class LoginManager; }
 namespace System { class Action; }
 
-#define MIHOYO_SDK_PC_OS_LOGINMANAGER___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A9A5FC0)
-#define MIHOYO_SDK_PC_OS_LOGINMANAGER___C__DISPLAYCLASS8_0__REFRESHACCOUNTINFO_B__0_OFFSET UNITYSDK_OFFSET(0x1A9A5FD0)
+#define MIHOYO_SDK_PC_OS_LOGINMANAGER___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDDC8C0)
+#define MIHOYO_SDK_PC_OS_LOGINMANAGER___C__DISPLAYCLASS8_0__REFRESHACCOUNTINFO_B__0_OFFSET UNITYSDK_OFFSET(0x1BDDC8D0)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int LoginManager___c__DisplayClass8_0_TypeDefinitionIndex = 20457;
+	inline static constexpr unsigned int LoginManager___c__DisplayClass8_0_TypeDefinitionIndex = 20804;
 
 	class LoginManager___c__DisplayClass8_0 : public ::System::Object
 	{
 	public:
-		::System::Action* callback; // 0x10
-		::MiHoYo::SDK::PC::OS::LoginManager* __4__this; // 0x18
-		::MiHoYo::SDK::AccountModel* account; // 0x20
+		::MiHoYo::SDK::PC::OS::LoginManager* __4__this; // 0x10
+		::MiHoYo::SDK::AccountModel* account; // 0x18
+		::System::Action* callback; // 0x20
 
 		::System::Void _ctor()
 		{

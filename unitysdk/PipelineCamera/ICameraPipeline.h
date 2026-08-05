@@ -12,7 +12,7 @@ namespace System { class Object; }
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int ICameraPipeline_TypeDefinitionIndex = 37590;
+	inline static constexpr unsigned int ICameraPipeline_TypeDefinitionIndex = 38251;
 
 	class ICameraPipeline
 	{

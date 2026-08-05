@@ -1,0 +1,153 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_2_E87F1D15F1D4AC72.h"
+
+class Class_2_134E5210FBBAC6E5;
+class Class_2_A4D62D05D5EA8464;
+namespace MoleMole { class MonoGamepadModule; }
+namespace MoleMole { class MonoInputKey; }
+namespace MoleMole { class UIControlCollection; }
+namespace UnityEngine { class RectTransform; }
+
+#define CLASS_3_24CA816895CCD73B_METHOD_3_29C9334B7B3AA7BF_OFFSET UNITYSDK_OFFSET(0x193FA0F0)
+#define CLASS_3_24CA816895CCD73B_METHOD_3_345795AFB8760AAE_OFFSET UNITYSDK_OFFSET(0x193FA190)
+#define CLASS_3_24CA816895CCD73B_METHOD_3_43A46E5F9FAC62B8_OFFSET UNITYSDK_OFFSET(0x193FA170)
+#define CLASS_3_24CA816895CCD73B_METHOD_3_50713ED83CCB33C4_OFFSET UNITYSDK_OFFSET(0x193F9A70)
+#define CLASS_3_24CA816895CCD73B_METHOD_3_5176DC743E478510_OFFSET UNITYSDK_OFFSET(0x193F9C00)
+#define CLASS_3_24CA816895CCD73B_METHOD_3_58BA0C8308C8127F_OFFSET UNITYSDK_OFFSET(0x193FA140)
+#define CLASS_3_24CA816895CCD73B_METHOD_3_69FAD2F9E8A43CC3_1_OFFSET UNITYSDK_OFFSET(0x193FA0B0)
+#define CLASS_3_24CA816895CCD73B_METHOD_3_69FAD2F9E8A43CC3_2_OFFSET UNITYSDK_OFFSET(0x193FA0C0)
+#define CLASS_3_24CA816895CCD73B_METHOD_3_69FAD2F9E8A43CC3_3_OFFSET UNITYSDK_OFFSET(0x193FA110)
+#define CLASS_3_24CA816895CCD73B_METHOD_3_69FAD2F9E8A43CC3_4_OFFSET UNITYSDK_OFFSET(0x193FA120)
+#define CLASS_3_24CA816895CCD73B_METHOD_3_69FAD2F9E8A43CC3_5_OFFSET UNITYSDK_OFFSET(0x193FA1A0)
+#define CLASS_3_24CA816895CCD73B_METHOD_3_69FAD2F9E8A43CC3_OFFSET UNITYSDK_OFFSET(0x193FA090)
+#define CLASS_3_24CA816895CCD73B_METHOD_3_95E323BF776B2B6D_OFFSET UNITYSDK_OFFSET(0x193FA150)
+#define CLASS_3_24CA816895CCD73B_METHOD_3_978DEB991218B150_1_OFFSET UNITYSDK_OFFSET(0x193FA0D0)
+#define CLASS_3_24CA816895CCD73B_METHOD_3_978DEB991218B150_2_OFFSET UNITYSDK_OFFSET(0x193FA0E0)
+#define CLASS_3_24CA816895CCD73B_METHOD_3_978DEB991218B150_3_OFFSET UNITYSDK_OFFSET(0x193FA130)
+#define CLASS_3_24CA816895CCD73B_METHOD_3_978DEB991218B150_4_OFFSET UNITYSDK_OFFSET(0x193FA160)
+#define CLASS_3_24CA816895CCD73B_METHOD_3_978DEB991218B150_5_OFFSET UNITYSDK_OFFSET(0x193FA180)
+#define CLASS_3_24CA816895CCD73B_METHOD_3_978DEB991218B150_OFFSET UNITYSDK_OFFSET(0x193FA0A0)
+#define CLASS_3_24CA816895CCD73B_METHOD_3_E539143AD05B1FA4_OFFSET UNITYSDK_OFFSET(0x193FA100)
+#define CLASS_3_24CA816895CCD73B__CTOR_OFFSET UNITYSDK_OFFSET(0x193FA000)
+
+inline static constexpr unsigned int Class_3_24CA816895CCD73B_TypeDefinitionIndex = 40993;
+
+class Class_3_24CA816895CCD73B : public ::Class_2_E87F1D15F1D4AC72
+{
+public:
+	::UnityEngine::RectTransform* Field_3_9; // 0x28
+	::UnityEngine::RectTransform* Field_3_0; // 0x30
+	::Class_2_134E5210FBBAC6E5* Field_3_8; // 0x38
+	::MoleMole::MonoInputKey* Field_3_11; // 0x40
+	::UnityEngine::RectTransform* Field_3_7; // 0x48
+	::UnityEngine::RectTransform* Field_3_6; // 0x50
+	::UnityEngine::RectTransform* Field_3_5; // 0x58
+	::UnityEngine::RectTransform* Field_3_4; // 0x60
+	::MoleMole::MonoGamepadModule* Field_3_10; // 0x68
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_24CA816895CCD73B__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_3_50713ED83CCB33C4(::Class_2_A4D62D05D5EA8464* a1, ::MoleMole::UIControlCollection* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_2_A4D62D05D5EA8464*, ::MoleMole::UIControlCollection*))((::PBYTE)hIl2Cpp + CLASS_3_24CA816895CCD73B_METHOD_3_50713ED83CCB33C4_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_3_69FAD2F9E8A43CC3(::UnityEngine::RectTransform* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + CLASS_3_24CA816895CCD73B_METHOD_3_69FAD2F9E8A43CC3_OFFSET))(this, a1);
+	}
+
+	::UnityEngine::RectTransform* Method_3_978DEB991218B150()
+	{
+		return ((::UnityEngine::RectTransform*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_24CA816895CCD73B_METHOD_3_978DEB991218B150_OFFSET))(this);
+	}
+
+	::System::Void Method_3_69FAD2F9E8A43CC3_1(::UnityEngine::RectTransform* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + CLASS_3_24CA816895CCD73B_METHOD_3_69FAD2F9E8A43CC3_1_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_3_69FAD2F9E8A43CC3_2(::UnityEngine::RectTransform* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + CLASS_3_24CA816895CCD73B_METHOD_3_69FAD2F9E8A43CC3_2_OFFSET))(this, a1);
+	}
+
+	::UnityEngine::RectTransform* Method_3_978DEB991218B150_1()
+	{
+		return ((::UnityEngine::RectTransform*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_24CA816895CCD73B_METHOD_3_978DEB991218B150_1_OFFSET))(this);
+	}
+
+	::UnityEngine::RectTransform* Method_3_978DEB991218B150_2()
+	{
+		return ((::UnityEngine::RectTransform*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_24CA816895CCD73B_METHOD_3_978DEB991218B150_2_OFFSET))(this);
+	}
+
+	::System::Void Method_3_29C9334B7B3AA7BF(::MoleMole::MonoInputKey* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::MoleMole::MonoInputKey*))((::PBYTE)hIl2Cpp + CLASS_3_24CA816895CCD73B_METHOD_3_29C9334B7B3AA7BF_OFFSET))(this, a1);
+	}
+
+	::MoleMole::MonoInputKey* Method_3_E539143AD05B1FA4()
+	{
+		return ((::MoleMole::MonoInputKey*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_24CA816895CCD73B_METHOD_3_E539143AD05B1FA4_OFFSET))(this);
+	}
+
+	::System::Void Method_3_69FAD2F9E8A43CC3_3(::UnityEngine::RectTransform* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + CLASS_3_24CA816895CCD73B_METHOD_3_69FAD2F9E8A43CC3_3_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_3_69FAD2F9E8A43CC3_4(::UnityEngine::RectTransform* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + CLASS_3_24CA816895CCD73B_METHOD_3_69FAD2F9E8A43CC3_4_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_3_5176DC743E478510()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_24CA816895CCD73B_METHOD_3_5176DC743E478510_OFFSET))(this);
+	}
+
+	::UnityEngine::RectTransform* Method_3_978DEB991218B150_3()
+	{
+		return ((::UnityEngine::RectTransform*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_24CA816895CCD73B_METHOD_3_978DEB991218B150_3_OFFSET))(this);
+	}
+
+	::System::Void Method_3_58BA0C8308C8127F(::Class_2_134E5210FBBAC6E5* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_2_134E5210FBBAC6E5*))((::PBYTE)hIl2Cpp + CLASS_3_24CA816895CCD73B_METHOD_3_58BA0C8308C8127F_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_3_95E323BF776B2B6D(::MoleMole::MonoGamepadModule* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::MoleMole::MonoGamepadModule*))((::PBYTE)hIl2Cpp + CLASS_3_24CA816895CCD73B_METHOD_3_95E323BF776B2B6D_OFFSET))(this, a1);
+	}
+
+	::UnityEngine::RectTransform* Method_3_978DEB991218B150_4()
+	{
+		return ((::UnityEngine::RectTransform*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_24CA816895CCD73B_METHOD_3_978DEB991218B150_4_OFFSET))(this);
+	}
+
+	::Class_2_134E5210FBBAC6E5* Method_3_43A46E5F9FAC62B8()
+	{
+		return ((::Class_2_134E5210FBBAC6E5*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_24CA816895CCD73B_METHOD_3_43A46E5F9FAC62B8_OFFSET))(this);
+	}
+
+	::UnityEngine::RectTransform* Method_3_978DEB991218B150_5()
+	{
+		return ((::UnityEngine::RectTransform*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_24CA816895CCD73B_METHOD_3_978DEB991218B150_5_OFFSET))(this);
+	}
+
+	::MoleMole::MonoGamepadModule* Method_3_345795AFB8760AAE()
+	{
+		return ((::MoleMole::MonoGamepadModule*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_24CA816895CCD73B_METHOD_3_345795AFB8760AAE_OFFSET))(this);
+	}
+
+	::System::Void Method_3_69FAD2F9E8A43CC3_5(::UnityEngine::RectTransform* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + CLASS_3_24CA816895CCD73B_METHOD_3_69FAD2F9E8A43CC3_5_OFFSET))(this, a1);
+	}
+};

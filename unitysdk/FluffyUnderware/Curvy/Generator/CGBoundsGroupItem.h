@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FluffyUnderware/Curvy/Generator/CGWeightedItem.h"
 
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_CGBOUNDSGROUPITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB091D0)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_CGBOUNDSGROUPITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1EEBD920)
 
 namespace FluffyUnderware::Curvy::Generator
 {
-	inline static constexpr unsigned int CGBoundsGroupItem_TypeDefinitionIndex = 39035;
+	inline static constexpr unsigned int CGBoundsGroupItem_TypeDefinitionIndex = 39680;
 
 	class CGBoundsGroupItem : public ::FluffyUnderware::Curvy::Generator::CGWeightedItem
 	{

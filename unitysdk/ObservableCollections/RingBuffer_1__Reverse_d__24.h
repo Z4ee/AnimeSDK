@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace ObservableCollections
 {
-	inline static constexpr unsigned int RingBuffer_1__Reverse_d__24_TypeDefinitionIndex = 28122;
+	inline static constexpr unsigned int RingBuffer_1__Reverse_d__24_TypeDefinitionIndex = 28720;
 
 	template <typename T>
 	class RingBuffer_1__Reverse_d__24 : public ::System::Object

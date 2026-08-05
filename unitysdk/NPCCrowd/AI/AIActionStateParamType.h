@@ -3,12 +3,12 @@
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int AIActionStateParamType_TypeDefinitionIndex = 84938;
+	inline static constexpr unsigned int AIActionStateParamType_TypeDefinitionIndex = 79711;
 
 	enum class AIActionStateParamType : ::System::Int32
 	{
-		Bool = 0,
 		Int = 1,
+		Bool = 0,
 		Float = 2,
 	};
 }

@@ -8,7 +8,7 @@ namespace System::Data { template <typename T1, typename T2, typename T3> class 
 
 namespace System::Data
 {
-	inline static constexpr unsigned int Listeners_1_TypeDefinitionIndex = 38682;
+	inline static constexpr unsigned int Listeners_1_TypeDefinitionIndex = 39343;
 
 	template <typename TElem>
 	class Listeners_1 : public ::System::Object

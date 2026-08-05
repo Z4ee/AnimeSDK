@@ -7,17 +7,17 @@ class MonoUITableScrollV2;
 class MonoUITableScrollV2_ScrollParams_AlignParam;
 namespace System::Collections { class IEnumerable; }
 
-#define MONOUITABLESCROLLV2_TABLESCROLLPLUGININITDATA_FILLPIVOTBOUNDSBYPIVOT_OFFSET UNITYSDK_OFFSET(0x18E8C660)
-#define MONOUITABLESCROLLV2_TABLESCROLLPLUGININITDATA_PROCESSALIGNPARAM_OFFSET UNITYSDK_OFFSET(0x18E8C350)
-#define MONOUITABLESCROLLV2_TABLESCROLLPLUGININITDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18E8C340)
+#define MONOUITABLESCROLLV2_TABLESCROLLPLUGININITDATA_FILLPIVOTBOUNDSBYPIVOT_OFFSET UNITYSDK_OFFSET(0x11A331C0)
+#define MONOUITABLESCROLLV2_TABLESCROLLPLUGININITDATA_PROCESSALIGNPARAM_OFFSET UNITYSDK_OFFSET(0x11A32EA0)
+#define MONOUITABLESCROLLV2_TABLESCROLLPLUGININITDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x11A32E90)
 
-inline static constexpr unsigned int MonoUITableScrollV2_TableScrollPluginInitData_TypeDefinitionIndex = 69920;
+inline static constexpr unsigned int MonoUITableScrollV2_TableScrollPluginInitData_TypeDefinitionIndex = 75000;
 
 class MonoUITableScrollV2_TableScrollPluginInitData : public ::MonoUITableScrollV2_TableScrollPlugin
 {
 public:
-	::MonoUITableScrollV2_ScrollParams_AlignParam* AlignParam2; // 0x18
-	::MonoUITableScrollV2_InitScrollViewData_SAlignParam AlignParam; // 0x20
+	::MonoUITableScrollV2_InitScrollViewData_SAlignParam AlignParam; // 0x18
+	::MonoUITableScrollV2_ScrollParams_AlignParam* AlignParam2; // 0x50
 
 	::System::Void _ctor(::MonoUITableScrollV2* tableScroll)
 	{

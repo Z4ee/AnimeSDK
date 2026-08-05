@@ -3,13 +3,13 @@
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int NavmeshToPathFollowType_TypeDefinitionIndex = 42204;
+	inline static constexpr unsigned int NavmeshToPathFollowType_TypeDefinitionIndex = 41761;
 
 	enum class NavmeshToPathFollowType : ::System::Int32
 	{
-		CalcObstacle = 2,
-		Default = 0,
 		IgnoreObstacle = 1,
+		CalcObstacle = 2,
 		AlreadyRes = 3,
+		Default = 0,
 	};
 }

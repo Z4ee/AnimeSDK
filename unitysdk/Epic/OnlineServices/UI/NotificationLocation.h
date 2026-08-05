@@ -3,7 +3,7 @@
 
 namespace Epic::OnlineServices::UI
 {
-	inline static constexpr unsigned int NotificationLocation_TypeDefinitionIndex = 34920;
+	inline static constexpr unsigned int NotificationLocation_TypeDefinitionIndex = 35579;
 
 	enum class NotificationLocation : ::System::Int32
 	{

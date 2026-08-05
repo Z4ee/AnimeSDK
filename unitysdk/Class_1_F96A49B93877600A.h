@@ -7,23 +7,18 @@ namespace System { class Action; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define CLASS_1_F96A49B93877600A_METHOD_1_49DFA39A30A44449_OFFSET UNITYSDK_OFFSET(0x165C06E0)
-#define CLASS_1_F96A49B93877600A_METHOD_1_502A81344CAEE4A4_OFFSET UNITYSDK_OFFSET(0x165C05F0)
-#define CLASS_1_F96A49B93877600A_METHOD_1_EBCAA5A5E837E739_OFFSET UNITYSDK_OFFSET(0x165C05A0)
+#define CLASS_1_F96A49B93877600A_METHOD_1_49DFA39A30A44449_OFFSET UNITYSDK_OFFSET(0xF1016E0)
+#define CLASS_1_F96A49B93877600A_METHOD_1_502A81344CAEE4A4_OFFSET UNITYSDK_OFFSET(0xF1015F0)
+#define CLASS_1_F96A49B93877600A_METHOD_1_EBCAA5A5E837E739_OFFSET UNITYSDK_OFFSET(0xF101900)
 
-inline static constexpr unsigned int Class_1_F96A49B93877600A_TypeDefinitionIndex = 77543;
+inline static constexpr unsigned int Class_1_F96A49B93877600A_TypeDefinitionIndex = 49754;
 
 class Class_1_F96A49B93877600A : public ::System::Object
 {
 public:
 	static ::MoleMole::Config::ConfigGroupVideo** StaticGet_Field_1_0()
 	{
-		return (::MoleMole::Config::ConfigGroupVideo**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F96A49B93877600A_TypeDefinitionIndex)->GetStaticField(0x48050);
-	}
-
-	static ::MoleMole::Config::ConfigGroupVideo* Method_1_EBCAA5A5E837E739()
-	{
-		return ((::MoleMole::Config::ConfigGroupVideo*(*)())((::PBYTE)hIl2Cpp + CLASS_1_F96A49B93877600A_METHOD_1_EBCAA5A5E837E739_OFFSET))();
+		return (::MoleMole::Config::ConfigGroupVideo**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F96A49B93877600A_TypeDefinitionIndex)->GetStaticField(0x50980);
 	}
 
 	static ::System::Void Method_1_502A81344CAEE4A4(::System::Single a1, ::System::Action_1<::System::Single>* a2, ::System::Action_1<::System::String*>* a3, ::System::String* a4)
@@ -34,5 +29,10 @@ public:
 	static ::System::Void Method_1_49DFA39A30A44449(::System::Boolean a1, ::System::Action* a2)
 	{
 		return ((::System::Void(*)(::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + CLASS_1_F96A49B93877600A_METHOD_1_49DFA39A30A44449_OFFSET))(a1, a2);
+	}
+
+	static ::MoleMole::Config::ConfigGroupVideo* Method_1_EBCAA5A5E837E739()
+	{
+		return ((::MoleMole::Config::ConfigGroupVideo*(*)())((::PBYTE)hIl2Cpp + CLASS_1_F96A49B93877600A_METHOD_1_EBCAA5A5E837E739_OFFSET))();
 	}
 };

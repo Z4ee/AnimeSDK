@@ -5,12 +5,12 @@
 namespace MoleMole { class UIBrRoleSelectChildWindowController; }
 namespace System { class String; }
 
-#define MOLEMOLE_UIBRROLESELECTCHILDWINDOWCONTROLLER___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1DDF2D70)
-#define MOLEMOLE_UIBRROLESELECTCHILDWINDOWCONTROLLER___C__DISPLAYCLASS15_0__SWITCHINFO_B__0_OFFSET UNITYSDK_OFFSET(0x1DDF35F0)
+#define MOLEMOLE_UIBRROLESELECTCHILDWINDOWCONTROLLER___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1E63AD10)
+#define MOLEMOLE_UIBRROLESELECTCHILDWINDOWCONTROLLER___C__DISPLAYCLASS15_0__SWITCHINFO_B__0_OFFSET UNITYSDK_OFFSET(0x1E63B5A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBrRoleSelectChildWindowController___c__DisplayClass15_0_TypeDefinitionIndex = 89487;
+	inline static constexpr unsigned int UIBrRoleSelectChildWindowController___c__DisplayClass15_0_TypeDefinitionIndex = 93430;
 
 	class UIBrRoleSelectChildWindowController___c__DisplayClass15_0 : public ::System::Object
 	{

@@ -5,12 +5,12 @@
 
 namespace UnityEngine::UI::Extension { class InteractionRangeParamFloat; }
 
-#define MOLEMOLE_CONFIG_PLAYERACCESSORYTABDATA_METHOD_1_E87E8159DBF445E8_OFFSET UNITYSDK_OFFSET(0x1A35FC40)
-#define MOLEMOLE_CONFIG_PLAYERACCESSORYTABDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1A35FC30)
+#define MOLEMOLE_CONFIG_PLAYERACCESSORYTABDATA_METHOD_1_E87E8159DBF445E8_OFFSET UNITYSDK_OFFSET(0x1B566B60)
+#define MOLEMOLE_CONFIG_PLAYERACCESSORYTABDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B566B50)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int PlayerAccessoryTabData_TypeDefinitionIndex = 81781;
+	inline static constexpr unsigned int PlayerAccessoryTabData_TypeDefinitionIndex = 80348;
 
 	class PlayerAccessoryTabData : public ::System::Object
 	{

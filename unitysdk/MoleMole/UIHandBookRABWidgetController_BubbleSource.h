@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHandBookRABWidgetController_BubbleSource_TypeDefinitionIndex = 81061;
+	inline static constexpr unsigned int UIHandBookRABWidgetController_BubbleSource_TypeDefinitionIndex = 83165;
 
 	struct alignas(8) UIHandBookRABWidgetController_BubbleSource
 	{

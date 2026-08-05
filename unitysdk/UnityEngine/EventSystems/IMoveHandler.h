@@ -5,7 +5,7 @@ namespace UnityEngine::EventSystems { class AxisEventData; }
 
 namespace UnityEngine::EventSystems
 {
-	inline static constexpr unsigned int IMoveHandler_TypeDefinitionIndex = 19035;
+	inline static constexpr unsigned int IMoveHandler_TypeDefinitionIndex = 19379;
 
 	class IMoveHandler
 	{

@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define SIRENIX_ODININSPECTOR_PROPERTYTOOLTIPATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E32A110)
+#define SIRENIX_ODININSPECTOR_PROPERTYTOOLTIPATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F771480)
 
 namespace Sirenix::OdinInspector
 {
-	inline static constexpr unsigned int PropertyTooltipAttribute_TypeDefinitionIndex = 7345;
+	inline static constexpr unsigned int PropertyTooltipAttribute_TypeDefinitionIndex = 7349;
 
 	class PropertyTooltipAttribute : public ::System::Attribute
 	{

@@ -5,12 +5,12 @@
 namespace MoleMole { class UIHollowMainPageController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__DISPLAYCLASS248_0__CTOR_OFFSET UNITYSDK_OFFSET(0x167C57A0)
-#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__DISPLAYCLASS248_0__SETSYSTEMCLICKSTATE_B__0_OFFSET UNITYSDK_OFFSET(0x167C57B0)
+#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__DISPLAYCLASS248_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18367650)
+#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__DISPLAYCLASS248_0__SETSYSTEMCLICKSTATE_B__0_OFFSET UNITYSDK_OFFSET(0x18367660)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowMainPageController___c__DisplayClass248_0_TypeDefinitionIndex = 78278;
+	inline static constexpr unsigned int UIHollowMainPageController___c__DisplayClass248_0_TypeDefinitionIndex = 73664;
 
 	class UIHollowMainPageController___c__DisplayClass248_0 : public ::System::Object
 	{

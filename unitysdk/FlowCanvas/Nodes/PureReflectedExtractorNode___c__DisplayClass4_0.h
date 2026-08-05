@@ -5,12 +5,12 @@
 namespace FlowCanvas::Nodes { class PureReflectedExtractorNode; }
 namespace System::Reflection { class MethodInfo; }
 
-#define FLOWCANVAS_NODES_PUREREFLECTEDEXTRACTORNODE___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7FEDF0)
-#define FLOWCANVAS_NODES_PUREREFLECTEDEXTRACTORNODE___C__DISPLAYCLASS4_0__GETPORTHANDLER_B__0_OFFSET UNITYSDK_OFFSET(0x1D7FEE00)
+#define FLOWCANVAS_NODES_PUREREFLECTEDEXTRACTORNODE___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1EBB5510)
+#define FLOWCANVAS_NODES_PUREREFLECTEDEXTRACTORNODE___C__DISPLAYCLASS4_0__GETPORTHANDLER_B__0_OFFSET UNITYSDK_OFFSET(0x1EBB5520)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int PureReflectedExtractorNode___c__DisplayClass4_0_TypeDefinitionIndex = 30461;
+	inline static constexpr unsigned int PureReflectedExtractorNode___c__DisplayClass4_0_TypeDefinitionIndex = 31076;
 
 	class PureReflectedExtractorNode___c__DisplayClass4_0 : public ::System::Object
 	{

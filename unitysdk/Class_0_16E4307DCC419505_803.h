@@ -1,7 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_803_TypeDefinitionIndex = 84545;
+namespace System { class Object; }
+namespace System::Collections { class ICollection; }
+namespace System::Collections { class IDictionaryEnumerator; }
+
+inline static constexpr unsigned int Class_0_16E4307DCC419505_803_TypeDefinitionIndex = 82512;
 
 class Class_0_16E4307DCC419505_803
 {

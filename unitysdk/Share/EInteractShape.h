@@ -3,12 +3,12 @@
 
 namespace Share
 {
-	inline static constexpr unsigned int EInteractShape_TypeDefinitionIndex = 9807;
+	inline static constexpr unsigned int EInteractShape_TypeDefinitionIndex = 11608;
 
 	enum class EInteractShape : ::System::Int16
 	{
-		Cube = 0,
 		Sphere = 1,
 		Sector = 2,
+		Cube = 0,
 	};
 }

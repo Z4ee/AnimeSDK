@@ -7,13 +7,13 @@ namespace RootMotion::FinalIK { class Amplifier_Body_EffectorLink; }
 namespace RootMotion::FinalIK { class IKSolverFullBodyBiped; }
 namespace UnityEngine { class Transform; }
 
-#define ROOTMOTION_FINALIK_AMPLIFIER_BODY_MULTIPLY_OFFSET UNITYSDK_OFFSET(0x1DA73B20)
-#define ROOTMOTION_FINALIK_AMPLIFIER_BODY_UPDATE_OFFSET UNITYSDK_OFFSET(0x1DA731A0)
-#define ROOTMOTION_FINALIK_AMPLIFIER_BODY__CTOR_OFFSET UNITYSDK_OFFSET(0x1DA73B60)
+#define ROOTMOTION_FINALIK_AMPLIFIER_BODY_MULTIPLY_OFFSET UNITYSDK_OFFSET(0x1EE3E860)
+#define ROOTMOTION_FINALIK_AMPLIFIER_BODY_UPDATE_OFFSET UNITYSDK_OFFSET(0x1EE3DF10)
+#define ROOTMOTION_FINALIK_AMPLIFIER_BODY__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE3E8A0)
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int Amplifier_Body_TypeDefinitionIndex = 38326;
+	inline static constexpr unsigned int Amplifier_Body_TypeDefinitionIndex = 38912;
 
 	class Amplifier_Body : public ::System::Object
 	{

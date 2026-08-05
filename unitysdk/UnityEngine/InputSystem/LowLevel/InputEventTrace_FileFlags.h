@@ -3,7 +3,7 @@
 
 namespace UnityEngine::InputSystem::LowLevel
 {
-	inline static constexpr unsigned int InputEventTrace_FileFlags_TypeDefinitionIndex = 31920;
+	inline static constexpr unsigned int InputEventTrace_FileFlags_TypeDefinitionIndex = 32540;
 
 	enum class InputEventTrace_FileFlags : ::System::Int32
 	{

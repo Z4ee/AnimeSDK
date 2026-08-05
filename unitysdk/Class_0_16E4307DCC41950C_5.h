@@ -1,11 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-template <typename T1, typename T2> class Class_0_16E4307DCC41950C_5;
+namespace System { class String; }
+namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
+namespace System::Collections::Generic { template <typename T> class IList_1; }
+template <typename T> class Class_0_16E4307DCC41950C_11;
+template <typename T> class Class_1_A72BFC623106BA9B;
 
-inline static constexpr unsigned int Class_0_16E4307DCC41950C_5_TypeDefinitionIndex = 28051;
+inline static constexpr unsigned int Class_0_16E4307DCC41950C_5_TypeDefinitionIndex = 28905;
 
-template <typename TVertex, typename TEdge>
+template <typename TVertex>
 class Class_0_16E4307DCC41950C_5
 {
 public:

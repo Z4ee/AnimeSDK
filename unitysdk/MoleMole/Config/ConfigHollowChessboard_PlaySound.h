@@ -7,13 +7,13 @@ class Class_5_A6F8D19602712D95;
 namespace MoleMole::Config { class ConfigHollowChessboard_ChessEffectRunContextBase; }
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_PLAYSOUND_GET_TOTALDURATION_OFFSET UNITYSDK_OFFSET(0x18F35B10)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_PLAYSOUND_RUN_OFFSET UNITYSDK_OFFSET(0x18F35A30)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_PLAYSOUND__CTOR_OFFSET UNITYSDK_OFFSET(0x18F35B20)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_PLAYSOUND_GET_TOTALDURATION_OFFSET UNITYSDK_OFFSET(0x1625F080)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_PLAYSOUND_RUN_OFFSET UNITYSDK_OFFSET(0x1625EFA0)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_PLAYSOUND__CTOR_OFFSET UNITYSDK_OFFSET(0x1625F090)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowChessboard_PlaySound_TypeDefinitionIndex = 64383;
+	inline static constexpr unsigned int ConfigHollowChessboard_PlaySound_TypeDefinitionIndex = 59282;
 
 	class ConfigHollowChessboard_PlaySound : public ::MoleMole::Config::ConfigHollowChessboard_ChessEffectBase
 	{

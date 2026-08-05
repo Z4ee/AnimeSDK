@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define EXPRESSIONV2_EXPRFUNCATTRIBUTE_GET_NAMES_OFFSET UNITYSDK_OFFSET(0x16B0BFB0)
-#define EXPRESSIONV2_EXPRFUNCATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x16B0BFC0)
+#define EXPRESSIONV2_EXPRFUNCATTRIBUTE_GET_NAMES_OFFSET UNITYSDK_OFFSET(0x17140C40)
+#define EXPRESSIONV2_EXPRFUNCATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x17140C50)
 
 namespace ExpressionV2
 {
-	inline static constexpr unsigned int ExprFuncAttribute_TypeDefinitionIndex = 47635;
+	inline static constexpr unsigned int ExprFuncAttribute_TypeDefinitionIndex = 91321;
 
 	class ExprFuncAttribute : public ::System::Attribute
 	{

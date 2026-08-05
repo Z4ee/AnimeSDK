@@ -5,11 +5,11 @@
 namespace UnityEngine { class CanvasRenderer; }
 namespace UnityEngine::UI { class RawImage; }
 
-#define MOLEMOLE_SPINESKELETONGRAPHICIMAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x173FD6B0)
+#define MOLEMOLE_SPINESKELETONGRAPHICIMAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x129DA450)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SpineSkeletonGraphicImage_TypeDefinitionIndex = 83444;
+	inline static constexpr unsigned int SpineSkeletonGraphicImage_TypeDefinitionIndex = 64999;
 
 	class SpineSkeletonGraphicImage : public ::System::Object
 	{

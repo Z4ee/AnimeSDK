@@ -3,11 +3,11 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoMaskSlider_FlashLoopAnimName_TypeDefinitionIndex = 75167;
+	inline static constexpr unsigned int MonoMaskSlider_FlashLoopAnimName_TypeDefinitionIndex = 77204;
 
 	enum class MonoMaskSlider_FlashLoopAnimName : ::System::Int32
 	{
-		EnergyPluginFlashLoop = 0,
 		ShieldRecoverFlashLoop = 1,
+		EnergyPluginFlashLoop = 0,
 	};
 }

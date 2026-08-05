@@ -9,19 +9,19 @@ namespace MoleMole::Battle { class Entity; }
 namespace UnityEngine { class BoxCollider; }
 namespace UnityEngine { class Rigidbody; }
 
-#define MOLEMOLE_MONOBUDDYCLIMBOBSTANCLE_METHOD_5_1290EA767C459179_OFFSET UNITYSDK_OFFSET(0x161FDA10)
-#define MOLEMOLE_MONOBUDDYCLIMBOBSTANCLE_METHOD_5_9D3E788D6AA8892A_OFFSET UNITYSDK_OFFSET(0x161FDAF0)
-#define MOLEMOLE_MONOBUDDYCLIMBOBSTANCLE_METHOD_5_F4ADC37B63F4E9EF_OFFSET UNITYSDK_OFFSET(0x161FDD40)
-#define MOLEMOLE_MONOBUDDYCLIMBOBSTANCLE_METHOD_5_FA61D402EDC76748_OFFSET UNITYSDK_OFFSET(0x161FD500)
-#define MOLEMOLE_MONOBUDDYCLIMBOBSTANCLE_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x161FCBF0)
-#define MOLEMOLE_MONOBUDDYCLIMBOBSTANCLE_ONENABLE_OFFSET UNITYSDK_OFFSET(0x161FCAA0)
-#define MOLEMOLE_MONOBUDDYCLIMBOBSTANCLE_ONFIXEDUPDATE_OFFSET UNITYSDK_OFFSET(0x161FCD40)
-#define MOLEMOLE_MONOBUDDYCLIMBOBSTANCLE_START_OFFSET UNITYSDK_OFFSET(0x161FC930)
-#define MOLEMOLE_MONOBUDDYCLIMBOBSTANCLE__CTOR_OFFSET UNITYSDK_OFFSET(0x161FDE60)
+#define MOLEMOLE_MONOBUDDYCLIMBOBSTANCLE_METHOD_5_1290EA767C459179_OFFSET UNITYSDK_OFFSET(0x144E3BE0)
+#define MOLEMOLE_MONOBUDDYCLIMBOBSTANCLE_METHOD_5_9D3E788D6AA8892A_OFFSET UNITYSDK_OFFSET(0x144E3CC0)
+#define MOLEMOLE_MONOBUDDYCLIMBOBSTANCLE_METHOD_5_F4ADC37B63F4E9EF_OFFSET UNITYSDK_OFFSET(0x144E3F10)
+#define MOLEMOLE_MONOBUDDYCLIMBOBSTANCLE_METHOD_5_FA61D402EDC76748_OFFSET UNITYSDK_OFFSET(0x144E36D0)
+#define MOLEMOLE_MONOBUDDYCLIMBOBSTANCLE_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x144E2DC0)
+#define MOLEMOLE_MONOBUDDYCLIMBOBSTANCLE_ONENABLE_OFFSET UNITYSDK_OFFSET(0x144E2C70)
+#define MOLEMOLE_MONOBUDDYCLIMBOBSTANCLE_ONFIXEDUPDATE_OFFSET UNITYSDK_OFFSET(0x144E2F10)
+#define MOLEMOLE_MONOBUDDYCLIMBOBSTANCLE_START_OFFSET UNITYSDK_OFFSET(0x144E2B00)
+#define MOLEMOLE_MONOBUDDYCLIMBOBSTANCLE__CTOR_OFFSET UNITYSDK_OFFSET(0x144E4030)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoBuddyClimbObstancle_TypeDefinitionIndex = 62481;
+	inline static constexpr unsigned int MonoBuddyClimbObstancle_TypeDefinitionIndex = 79939;
 
 	class MonoBuddyClimbObstancle : public ::UnityEngine::MonoBehaviour
 	{
@@ -32,16 +32,16 @@ namespace MoleMole
 		::System::Single stepSpeed; // 0x24
 		::System::Single climbTimer; // 0x28
 		::UnityEngine::LayerMask Field_5_5; // 0x2C
-		::Il2CppArray<::UnityEngine::RaycastHit>* Field_5_6; // 0x30
-		::System::Boolean Field_5_7; // 0x38
-		::MoleMole::Battle::Entity* Field_5_8; // 0x40
+		::Il2CppArray<::UnityEngine::RaycastHit>* Field_5_4; // 0x30
+		::System::Boolean Field_5_11; // 0x38
+		::MoleMole::Battle::Entity* Field_5_10; // 0x40
 		::System::Single Field_5_9; // 0x48
-		::System::Single Field_5_10; // 0x4C
-		::System::Single Field_5_11; // 0x50
+		::System::Single Field_5_8; // 0x4C
+		::System::Single Field_5_15; // 0x50
 		::System::Boolean isOpen; // 0x54
 		::UnityEngine::Rigidbody* Field_5_13; // 0x58
-		::System::Single Field_5_14; // 0x60
-		::System::Single Field_5_15; // 0x64
+		::System::Single Field_5_12; // 0x60
+		::System::Single Field_5_19; // 0x64
 
 		::System::Void _ctor()
 		{
@@ -73,9 +73,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single&, ::UnityEngine::BoxCollider*&))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBUDDYCLIMBOBSTANCLE_METHOD_5_FA61D402EDC76748_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void Method_5_F4ADC37B63F4E9EF()
+		::System::Void Method_5_9D3E788D6AA8892A(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBUDDYCLIMBOBSTANCLE_METHOD_5_F4ADC37B63F4E9EF_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBUDDYCLIMBOBSTANCLE_METHOD_5_9D3E788D6AA8892A_OFFSET))(this, a1);
 		}
 
 		::System::Void Method_5_1290EA767C459179()
@@ -83,9 +83,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBUDDYCLIMBOBSTANCLE_METHOD_5_1290EA767C459179_OFFSET))(this);
 		}
 
-		::System::Void Method_5_9D3E788D6AA8892A(::System::Single a1)
+		::System::Void Method_5_F4ADC37B63F4E9EF()
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBUDDYCLIMBOBSTANCLE_METHOD_5_9D3E788D6AA8892A_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBUDDYCLIMBOBSTANCLE_METHOD_5_F4ADC37B63F4E9EF_OFFSET))(this);
 		}
 	};
 }

@@ -4,7 +4,7 @@
 
 namespace UnityEngine::InputSystem::GamepadEx
 {
-	inline static constexpr unsigned int TriggerEffectFeedbackParam_TypeDefinitionIndex = 39075;
+	inline static constexpr unsigned int TriggerEffectFeedbackParam_TypeDefinitionIndex = 39741;
 
 	struct alignas(1) TriggerEffectFeedbackParam
 	{

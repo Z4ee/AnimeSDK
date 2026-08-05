@@ -7,56 +7,56 @@ namespace System { class Type; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define FOUNDATION_CONTAINERTYPETRAITS_ADDDYNAMICCONCURRENTQUEUEINNERTYPE_OFFSET UNITYSDK_OFFSET(0x1DF0F840)
-#define FOUNDATION_CONTAINERTYPETRAITS_ADDDYNAMICQUEUEINNERTYPE_OFFSET UNITYSDK_OFFSET(0x1DF0F6A0)
-#define FOUNDATION_CONTAINERTYPETRAITS_GETDYNAMICTYPEINDEX_OFFSET UNITYSDK_OFFSET(0x1DF0F230)
-#define FOUNDATION_CONTAINERTYPETRAITS_TRYRESETDYNAMICOBJECTBYTYPEINDEX_OFFSET UNITYSDK_OFFSET(0x1DF0FD50)
-#define FOUNDATION_CONTAINERTYPETRAITS__ADDCOLLECTIONINNERTYPEDYN_OFFSET UNITYSDK_OFFSET(0x1DF0F9E0)
-#define FOUNDATION_CONTAINERTYPETRAITS__ADDSPECIFIEDDYNAMICCLEANER_OFFSET UNITYSDK_OFFSET(0x1DF0FB70)
-#define FOUNDATION_CONTAINERTYPETRAITS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DF0EF50)
+#define FOUNDATION_CONTAINERTYPETRAITS_ADDDYNAMICCONCURRENTQUEUEINNERTYPE_OFFSET UNITYSDK_OFFSET(0x1F62CE30)
+#define FOUNDATION_CONTAINERTYPETRAITS_ADDDYNAMICQUEUEINNERTYPE_OFFSET UNITYSDK_OFFSET(0x1F62CC90)
+#define FOUNDATION_CONTAINERTYPETRAITS_GETDYNAMICTYPEINDEX_OFFSET UNITYSDK_OFFSET(0x1F62C820)
+#define FOUNDATION_CONTAINERTYPETRAITS_TRYRESETDYNAMICOBJECTBYTYPEINDEX_OFFSET UNITYSDK_OFFSET(0x1F62D340)
+#define FOUNDATION_CONTAINERTYPETRAITS__ADDCOLLECTIONINNERTYPEDYN_OFFSET UNITYSDK_OFFSET(0x1F62CFD0)
+#define FOUNDATION_CONTAINERTYPETRAITS__ADDSPECIFIEDDYNAMICCLEANER_OFFSET UNITYSDK_OFFSET(0x1F62D160)
+#define FOUNDATION_CONTAINERTYPETRAITS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F62C540)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int ContainerTypeTraits_TypeDefinitionIndex = 8126;
+	inline static constexpr unsigned int ContainerTypeTraits_TypeDefinitionIndex = 7817;
 
 	class ContainerTypeTraits : public ::System::Object
 	{
 	public:
-		static ::System::Type** StaticGet_TypeDictionary()
+		static ::System::Collections::Generic::List_1<::System::Action_1<::System::Object*>*>** StaticGet_TypeCollectionsActions()
 		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(ContainerTypeTraits_TypeDefinitionIndex)->GetStaticField(0x6F10);
-		}
-		static ::System::Collections::Generic::List_1<::System::Type*>** StaticGet_TypeCollections()
-		{
-			return (::System::Collections::Generic::List_1<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(ContainerTypeTraits_TypeDefinitionIndex)->GetStaticField(0x6F18);
+			return (::System::Collections::Generic::List_1<::System::Action_1<::System::Object*>*>**)Il2CppClass::FromTypeDefinitionIndex(ContainerTypeTraits_TypeDefinitionIndex)->GetStaticField(0x6E80);
 		}
 		static ::System::Type** StaticGet_TypeStringBuilder()
 		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(ContainerTypeTraits_TypeDefinitionIndex)->GetStaticField(0x6F20);
-		}
-		static ::System::Type** StaticGet_TypeList()
-		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(ContainerTypeTraits_TypeDefinitionIndex)->GetStaticField(0x6F28);
-		}
-		static ::System::Type** StaticGet_TypeQueue()
-		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(ContainerTypeTraits_TypeDefinitionIndex)->GetStaticField(0x6F30);
-		}
-		static ::System::Type** StaticGet_TypeStack()
-		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(ContainerTypeTraits_TypeDefinitionIndex)->GetStaticField(0x6F38);
+			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(ContainerTypeTraits_TypeDefinitionIndex)->GetStaticField(0x6E88);
 		}
 		static ::System::Type** StaticGet_iCollectionGenericType()
 		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(ContainerTypeTraits_TypeDefinitionIndex)->GetStaticField(0x6F40);
+			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(ContainerTypeTraits_TypeDefinitionIndex)->GetStaticField(0x6E90);
 		}
-		static ::System::Collections::Generic::List_1<::System::Action_1<::System::Object*>*>** StaticGet_TypeCollectionsActions()
+		static ::System::Type** StaticGet_TypeDictionary()
 		{
-			return (::System::Collections::Generic::List_1<::System::Action_1<::System::Object*>*>**)Il2CppClass::FromTypeDefinitionIndex(ContainerTypeTraits_TypeDefinitionIndex)->GetStaticField(0x6F48);
+			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(ContainerTypeTraits_TypeDefinitionIndex)->GetStaticField(0x6E98);
+		}
+		static ::System::Collections::Generic::List_1<::System::Type*>** StaticGet_TypeCollections()
+		{
+			return (::System::Collections::Generic::List_1<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(ContainerTypeTraits_TypeDefinitionIndex)->GetStaticField(0x6EA0);
+		}
+		static ::System::Type** StaticGet_TypeQueue()
+		{
+			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(ContainerTypeTraits_TypeDefinitionIndex)->GetStaticField(0x6EA8);
+		}
+		static ::System::Type** StaticGet_TypeStack()
+		{
+			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(ContainerTypeTraits_TypeDefinitionIndex)->GetStaticField(0x6EB0);
+		}
+		static ::System::Type** StaticGet_TypeList()
+		{
+			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(ContainerTypeTraits_TypeDefinitionIndex)->GetStaticField(0x6EB8);
 		}
 		static ::System::Boolean* StaticGet_isApplicationPlaying()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ContainerTypeTraits_TypeDefinitionIndex)->GetStaticField(0x3740);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ContainerTypeTraits_TypeDefinitionIndex)->GetStaticField(0x37B0);
 		}
 		// static const ::System::Int32 DYNAMIC_COLLECTION_BASE = 0x64; // 0x0
 

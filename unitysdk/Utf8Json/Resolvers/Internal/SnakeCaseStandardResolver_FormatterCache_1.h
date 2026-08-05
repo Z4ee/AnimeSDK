@@ -6,7 +6,7 @@ namespace Utf8Json { template <typename T> class IJsonFormatter_1; }
 
 namespace Utf8Json::Resolvers::Internal
 {
-	inline static constexpr unsigned int SnakeCaseStandardResolver_FormatterCache_1_TypeDefinitionIndex = 91182;
+	inline static constexpr unsigned int SnakeCaseStandardResolver_FormatterCache_1_TypeDefinitionIndex = 95115;
 
 	template <typename T>
 	class SnakeCaseStandardResolver_FormatterCache_1 : public ::System::Object

@@ -3,7 +3,7 @@
 
 namespace MoleMole::MaterialPropertyModifierEnumDefine
 {
-	inline static constexpr unsigned int ChannelEnumType_TypeDefinitionIndex = 40904;
+	inline static constexpr unsigned int ChannelEnumType_TypeDefinitionIndex = 67604;
 
 	enum class ChannelEnumType : ::System::Byte
 	{

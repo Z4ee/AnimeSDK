@@ -8,12 +8,12 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_MONOINPUTACTIONCONFIG_GETLISTENINPUTACTIONEVENTS_OFFSET UNITYSDK_OFFSET(0x16CD9420)
-#define MOLEMOLE_MONOINPUTACTIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16CD94B0)
+#define MOLEMOLE_MONOINPUTACTIONCONFIG_GETLISTENINPUTACTIONEVENTS_OFFSET UNITYSDK_OFFSET(0x13AC1410)
+#define MOLEMOLE_MONOINPUTACTIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x13AC14A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoInputActionConfig_TypeDefinitionIndex = 85012;
+	inline static constexpr unsigned int MonoInputActionConfig_TypeDefinitionIndex = 45306;
 
 	class MonoInputActionConfig : public ::UnityEngine::MonoBehaviour
 	{

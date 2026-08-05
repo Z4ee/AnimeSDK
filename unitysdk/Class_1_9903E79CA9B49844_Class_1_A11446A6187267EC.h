@@ -8,18 +8,18 @@ namespace System { class Action; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_9903E79CA9B49844_CLASS_1_A11446A6187267EC_METHOD_1_3F311BC66E33BABC_OFFSET UNITYSDK_OFFSET(0x1631E670)
-#define CLASS_1_9903E79CA9B49844_CLASS_1_A11446A6187267EC__CTOR_OFFSET UNITYSDK_OFFSET(0x1631E660)
+#define CLASS_1_9903E79CA9B49844_CLASS_1_A11446A6187267EC_METHOD_1_3F311BC66E33BABC_OFFSET UNITYSDK_OFFSET(0x19078300)
+#define CLASS_1_9903E79CA9B49844_CLASS_1_A11446A6187267EC__CTOR_OFFSET UNITYSDK_OFFSET(0x190782F0)
 
-inline static constexpr unsigned int Class_1_9903E79CA9B49844_Class_1_A11446A6187267EC_TypeDefinitionIndex = 51894;
+inline static constexpr unsigned int Class_1_9903E79CA9B49844_Class_1_A11446A6187267EC_TypeDefinitionIndex = 60704;
 
 class Class_1_9903E79CA9B49844_Class_1_A11446A6187267EC : public ::System::Object
 {
 public:
-	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::MoleMole::ConfigRichtapResource_Resource*>* Field_1_0; // 0x10
-	::System::Action* Field_1_2; // 0x18
-	::System::Action_1<::MoleMole::ConfigRichtapResource*>* Field_1_3; // 0x20
-	::System::Int32 Field_1_1; // 0x28
+	::System::Action_1<::MoleMole::ConfigRichtapResource*>* Field_1_0; // 0x10
+	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::MoleMole::ConfigRichtapResource_Resource*>* Field_1_3; // 0x18
+	::System::Action* Field_1_1; // 0x20
+	::System::Int32 Field_1_2; // 0x28
 
 	::System::Void _ctor()
 	{

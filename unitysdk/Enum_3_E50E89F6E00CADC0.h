@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Enum_3_E50E89F6E00CADC0_TypeDefinitionIndex = 81987;
+inline static constexpr unsigned int Enum_3_E50E89F6E00CADC0_TypeDefinitionIndex = 71966;
 
 enum class Enum_3_E50E89F6E00CADC0 : ::System::Int32
 {
-	SelectRole = 0,
 	SelectMovie = 1,
+	SelectRole = 0,
 };

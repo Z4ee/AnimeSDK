@@ -4,7 +4,7 @@
 
 namespace System { class String; }
 
-#define SYSTEM_SECURITY_UTIL_TOKENIZERSTRINGBLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0BE7F0)
+#define SYSTEM_SECURITY_UTIL_TOKENIZERSTRINGBLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0x1E450B40)
 
 namespace System::Security::Util
 {
@@ -13,8 +13,8 @@ namespace System::Security::Util
 	class TokenizerStringBlock : public ::System::Object
 	{
 	public:
-		::System::Security::Util::TokenizerStringBlock* m_next; // 0x10
-		::Il2CppArray<::System::String*>* m_block; // 0x18
+		::Il2CppArray<::System::String*>* m_block; // 0x10
+		::System::Security::Util::TokenizerStringBlock* m_next; // 0x18
 
 		::System::Void _ctor()
 		{

@@ -5,11 +5,11 @@
 namespace DG::Tweening { class Tween; }
 namespace UnityEngine { class Transform; }
 
-#define ANIMESHTICK_ANIMESHTICKMANAGER_TWEENDISTANCEENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x15D231A0)
+#define ANIMESHTICK_ANIMESHTICKMANAGER_TWEENDISTANCEENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0xBD975D0)
 
 namespace AniMeshTick
 {
-	inline static constexpr unsigned int AniMeshTickManager_TweenDistanceEntry_TypeDefinitionIndex = 86576;
+	inline static constexpr unsigned int AniMeshTickManager_TweenDistanceEntry_TypeDefinitionIndex = 86037;
 
 	class AniMeshTickManager_TweenDistanceEntry : public ::System::Object
 	{

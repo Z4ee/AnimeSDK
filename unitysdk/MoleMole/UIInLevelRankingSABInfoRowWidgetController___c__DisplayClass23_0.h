@@ -5,12 +5,12 @@
 namespace MoleMole { class UIInLevelRankingSABInfoRowWidgetController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIINLEVELRANKINGSABINFOROWWIDGETCONTROLLER___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16A26F00)
-#define MOLEMOLE_UIINLEVELRANKINGSABINFOROWWIDGETCONTROLLER___C__DISPLAYCLASS23_0__PLAYCLOSE_B__0_OFFSET UNITYSDK_OFFSET(0x16A26F10)
+#define MOLEMOLE_UIINLEVELRANKINGSABINFOROWWIDGETCONTROLLER___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18FF04A0)
+#define MOLEMOLE_UIINLEVELRANKINGSABINFOROWWIDGETCONTROLLER___C__DISPLAYCLASS23_0__PLAYCLOSE_B__0_OFFSET UNITYSDK_OFFSET(0x18FF04B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInLevelRankingSABInfoRowWidgetController___c__DisplayClass23_0_TypeDefinitionIndex = 41631;
+	inline static constexpr unsigned int UIInLevelRankingSABInfoRowWidgetController___c__DisplayClass23_0_TypeDefinitionIndex = 89112;
 
 	class UIInLevelRankingSABInfoRowWidgetController___c__DisplayClass23_0 : public ::System::Object
 	{

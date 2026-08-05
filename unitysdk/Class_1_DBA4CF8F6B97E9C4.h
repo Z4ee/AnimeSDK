@@ -4,31 +4,26 @@
 #include "unitysdk/MoleMole/HollowChessboard/HollowChessboardUID.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_327;
+class Class_0_16E4307DCC419505_479;
 class Class_1_0AEBFEBDADDA07AC;
 
-#define CLASS_1_DBA4CF8F6B97E9C4_METHOD_1_3C78F415A9C03C4D_OFFSET UNITYSDK_OFFSET(0x147D70A0)
-#define CLASS_1_DBA4CF8F6B97E9C4_METHOD_1_AAB958C808A9F6D2_OFFSET UNITYSDK_OFFSET(0x147D7070)
-#define CLASS_1_DBA4CF8F6B97E9C4_METHOD_1_C114A1F8E08B6F92_OFFSET UNITYSDK_OFFSET(0x147D7090)
-#define CLASS_1_DBA4CF8F6B97E9C4_METHOD_1_C74CF020AA42ED85_OFFSET UNITYSDK_OFFSET(0x147D7080)
-#define CLASS_1_DBA4CF8F6B97E9C4__CTOR_OFFSET UNITYSDK_OFFSET(0x147D7060)
+#define CLASS_1_DBA4CF8F6B97E9C4_METHOD_1_3C78F415A9C03C4D_OFFSET UNITYSDK_OFFSET(0x147FF690)
+#define CLASS_1_DBA4CF8F6B97E9C4_METHOD_1_AAB958C808A9F6D2_OFFSET UNITYSDK_OFFSET(0x147FF680)
+#define CLASS_1_DBA4CF8F6B97E9C4_METHOD_1_C114A1F8E08B6F92_OFFSET UNITYSDK_OFFSET(0x147FF670)
+#define CLASS_1_DBA4CF8F6B97E9C4_METHOD_1_C74CF020AA42ED85_OFFSET UNITYSDK_OFFSET(0x147FF660)
+#define CLASS_1_DBA4CF8F6B97E9C4__CTOR_OFFSET UNITYSDK_OFFSET(0x147FF650)
 
-inline static constexpr unsigned int Class_1_DBA4CF8F6B97E9C4_TypeDefinitionIndex = 53438;
+inline static constexpr unsigned int Class_1_DBA4CF8F6B97E9C4_TypeDefinitionIndex = 54063;
 
 class Class_1_DBA4CF8F6B97E9C4 : public ::System::Object
 {
 public:
-	::System::Int32 Field_1_0; // 0x10
-	::MoleMole::HollowChessboard::HollowChessboardUID Field_1_1; // 0x14
+	::MoleMole::HollowChessboard::HollowChessboardUID Field_1_0; // 0x10
+	::System::Int32 Field_1_1; // 0x18
 
 	::System::Void _ctor(::System::Int32 a1, ::MoleMole::HollowChessboard::HollowChessboardUID a2)
 	{
 		return ((::System::Void(*)(::PVOID, ::System::Int32, ::MoleMole::HollowChessboard::HollowChessboardUID))((::PBYTE)hIl2Cpp + CLASS_1_DBA4CF8F6B97E9C4__CTOR_OFFSET))(this, a1, a2);
-	}
-
-	::MoleMole::HollowChessboard::HollowChessboardUID Method_1_AAB958C808A9F6D2()
-	{
-		return ((::MoleMole::HollowChessboard::HollowChessboardUID(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_DBA4CF8F6B97E9C4_METHOD_1_AAB958C808A9F6D2_OFFSET))(this);
 	}
 
 	::System::Int32 Method_1_C74CF020AA42ED85()
@@ -39,6 +34,11 @@ public:
 	::System::Void Method_1_C114A1F8E08B6F92(::System::Int32 a1)
 	{
 		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_DBA4CF8F6B97E9C4_METHOD_1_C114A1F8E08B6F92_OFFSET))(this, a1);
+	}
+
+	::MoleMole::HollowChessboard::HollowChessboardUID Method_1_AAB958C808A9F6D2()
+	{
+		return ((::MoleMole::HollowChessboard::HollowChessboardUID(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_DBA4CF8F6B97E9C4_METHOD_1_AAB958C808A9F6D2_OFFSET))(this);
 	}
 
 	::System::Void Method_1_3C78F415A9C03C4D(::MoleMole::HollowChessboard::HollowChessboardUID a1)

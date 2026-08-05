@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MoleMole::Vehicle
 {
-	inline static constexpr unsigned int VehicleAttachedEffect_TypeDefinitionIndex = 73595;
+	inline static constexpr unsigned int VehicleAttachedEffect_TypeDefinitionIndex = 89795;
 
 	struct alignas(8) VehicleAttachedEffect
 	{

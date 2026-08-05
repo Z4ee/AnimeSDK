@@ -12,7 +12,7 @@ namespace System { class String; }
 
 namespace DG::Tweening::Core
 {
-	inline static constexpr unsigned int TweenerCore_3_TypeDefinitionIndex = 27995;
+	inline static constexpr unsigned int TweenerCore_3_TypeDefinitionIndex = 28599;
 
 	template <typename T1, typename T2, typename TPlugOptions>
 	class TweenerCore_3 : public ::DG::Tweening::Tweener

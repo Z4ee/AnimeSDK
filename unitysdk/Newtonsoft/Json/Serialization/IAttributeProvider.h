@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 
 namespace Newtonsoft::Json::Serialization
 {
-	inline static constexpr unsigned int IAttributeProvider_TypeDefinitionIndex = 7112;
+	inline static constexpr unsigned int IAttributeProvider_TypeDefinitionIndex = 7116;
 
 	class IAttributeProvider
 	{

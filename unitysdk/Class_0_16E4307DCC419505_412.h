@@ -1,13 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_3A280D225275881D.h"
+#include "unitysdk/Class_1_3573CA47DF091249_Enum_3_935764EEFE7A9F70.h"
+#include "unitysdk/Class_1_3573CA47DF091249_Enum_3_993C7FDEAD196818.h"
 
-namespace System::Collections::Generic { template <typename T> class IList_1; }
-namespace System::Collections::Generic { template <typename T> class List_1; }
+namespace MoleMole { class UIWindowController; }
+namespace System { class Action; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_412_TypeDefinitionIndex = 65498;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_412_TypeDefinitionIndex = 87007;
 
-template <typename TItemType>
 class Class_0_16E4307DCC419505_412
 {
 public:

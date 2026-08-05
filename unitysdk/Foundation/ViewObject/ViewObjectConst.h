@@ -3,11 +3,11 @@
 #include "unitysdk/MoleMole/SuperDebug_LogModule.h"
 #include "unitysdk/System/Object.h"
 
-#define FOUNDATION_VIEWOBJECT_VIEWOBJECTCONST_ISDYNAMICCONFIGID_OFFSET UNITYSDK_OFFSET(0x13B83620)
+#define FOUNDATION_VIEWOBJECT_VIEWOBJECTCONST_ISDYNAMICCONFIGID_OFFSET UNITYSDK_OFFSET(0x113EE520)
 
 namespace Foundation::ViewObject
 {
-	inline static constexpr unsigned int ViewObjectConst_TypeDefinitionIndex = 60492;
+	inline static constexpr unsigned int ViewObjectConst_TypeDefinitionIndex = 69644;
 
 	class ViewObjectConst : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 
 namespace UnityEngine::InputSystem
 {
-	inline static constexpr unsigned int IInputInteraction_1_TypeDefinitionIndex = 31524;
+	inline static constexpr unsigned int IInputInteraction_1_TypeDefinitionIndex = 32144;
 
 	template <typename TValue>
 	class IInputInteraction_1

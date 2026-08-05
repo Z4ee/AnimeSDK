@@ -6,17 +6,17 @@ namespace MoleMole::Config { class ConfigAvatarLayoutCamera; }
 namespace System { class Action; }
 namespace System { template <typename T> class Action_1; }
 
-#define CLASS_1_D17955143A7C521B_CLASS_1_755497395B9ACCC6_METHOD_1_14C87E4D6455F548_OFFSET UNITYSDK_OFFSET(0x13411EC0)
-#define CLASS_1_D17955143A7C521B_CLASS_1_755497395B9ACCC6__CTOR_OFFSET UNITYSDK_OFFSET(0x13411EB0)
+#define CLASS_1_D17955143A7C521B_CLASS_1_755497395B9ACCC6_METHOD_1_14C87E4D6455F548_OFFSET UNITYSDK_OFFSET(0x193E2B70)
+#define CLASS_1_D17955143A7C521B_CLASS_1_755497395B9ACCC6__CTOR_OFFSET UNITYSDK_OFFSET(0x193E2B60)
 
-inline static constexpr unsigned int Class_1_D17955143A7C521B_Class_1_755497395B9ACCC6_TypeDefinitionIndex = 66205;
+inline static constexpr unsigned int Class_1_D17955143A7C521B_Class_1_755497395B9ACCC6_TypeDefinitionIndex = 46838;
 
 class Class_1_D17955143A7C521B_Class_1_755497395B9ACCC6 : public ::System::Object
 {
 public:
-	::System::Action_1<::MoleMole::Config::ConfigAvatarLayoutCamera*>* Field_1_2; // 0x10
-	::System::Action* Field_1_1; // 0x18
-	::System::Int32 Field_1_0; // 0x20
+	::System::Action* Field_1_1; // 0x10
+	::System::Action_1<::MoleMole::Config::ConfigAvatarLayoutCamera*>* Field_1_0; // 0x18
+	::System::Int32 Field_1_2; // 0x20
 
 	::System::Void _ctor()
 	{

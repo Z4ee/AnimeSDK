@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int TextGeneratorUtils_GlyphBoundsContext_TypeDefinitionIndex = 72740;
+	inline static constexpr unsigned int TextGeneratorUtils_GlyphBoundsContext_TypeDefinitionIndex = 83742;
 
 	struct alignas(8) TextGeneratorUtils_GlyphBoundsContext
 	{

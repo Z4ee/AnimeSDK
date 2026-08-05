@@ -4,12 +4,12 @@
 
 namespace MoleMole::Battle { class Entity; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_GETVEHICLEHITCOUNT_INVOKE_OFFSET UNITYSDK_OFFSET(0x182DF430)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_GETVEHICLEHITCOUNT__CTOR_OFFSET UNITYSDK_OFFSET(0x182DF4D0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_GETVEHICLEHITCOUNT_INVOKE_OFFSET UNITYSDK_OFFSET(0x19B16BB0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_GETVEHICLEHITCOUNT__CTOR_OFFSET UNITYSDK_OFFSET(0x19B16C50)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_GetVehicleHitCount_TypeDefinitionIndex = 42507;
+	inline static constexpr unsigned int LD_GetVehicleHitCount_TypeDefinitionIndex = 79288;
 
 	class LD_GetVehicleHitCount : public ::FlowCanvas::Nodes::PureFunctionNode_2<::System::Int32, ::MoleMole::Battle::Entity*>
 	{

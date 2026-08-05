@@ -4,11 +4,11 @@
 
 class Class_1_28C0FDDF1076A6D9;
 
-#define MOLEMOLE_YOROZUYARALLYQUESTITEMCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x116BC110)
+#define MOLEMOLE_YOROZUYARALLYQUESTITEMCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x140FE4E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int YorozuyaRallyQuestItemContext_TypeDefinitionIndex = 86880;
+	inline static constexpr unsigned int YorozuyaRallyQuestItemContext_TypeDefinitionIndex = 55753;
 
 	class YorozuyaRallyQuestItemContext : public ::MoleMole::UIControllerContextBase
 	{

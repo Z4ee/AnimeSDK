@@ -15,29 +15,29 @@
 namespace UnityEngine::NAPRenderPipeline0 { class ProfilingSampler; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_DEFERREDSHADINGPASS_ADDTEXTURETRANSITIONFORPOSTGENERATEHALFSPECULAR_OFFSET UNITYSDK_OFFSET(0x1D41B630)
-#define UNITYENGINE_NAPRENDERPIPELINE0_DEFERREDSHADINGPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1D41B9C0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_DEFERREDSHADINGPASS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D425F90)
-#define UNITYENGINE_NAPRENDERPIPELINE0_DEFERREDSHADINGPASS__EXECUTE_G__ADDTEXTURETRANSITIONFORGENERATEHALFSPECULAR_27_0_OFFSET UNITYSDK_OFFSET(0x1D423570)
+#define UNITYENGINE_NAPRENDERPIPELINE0_DEFERREDSHADINGPASS_ADDTEXTURETRANSITIONFORPOSTGENERATEHALFSPECULAR_OFFSET UNITYSDK_OFFSET(0x1E7C0350)
+#define UNITYENGINE_NAPRENDERPIPELINE0_DEFERREDSHADINGPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1E7C06E0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_DEFERREDSHADINGPASS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E7CAA90)
+#define UNITYENGINE_NAPRENDERPIPELINE0_DEFERREDSHADINGPASS__EXECUTE_G__ADDTEXTURETRANSITIONFORGENERATEHALFSPECULAR_27_0_OFFSET UNITYSDK_OFFSET(0x1E7C80B0)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int DeferredShadingPass_TypeDefinitionIndex = 5827;
+	inline static constexpr unsigned int DeferredShadingPass_TypeDefinitionIndex = 5829;
 
 	class DeferredShadingPass : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 	{
 	public:
-		static ::UnityEngine::NAPRenderPipeline0::DeferredShadingPerFrameConstants* StaticGet_FrameConstants()
-		{
-			return (::UnityEngine::NAPRenderPipeline0::DeferredShadingPerFrameConstants*)Il2CppClass::FromTypeDefinitionIndex(DeferredShadingPass_TypeDefinitionIndex)->GetStaticField(0x2A80);
-		}
 		static ::System::Boolean* StaticGet_s_UseLossyForMotionVector()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(DeferredShadingPass_TypeDefinitionIndex)->GetStaticField(0x2A8C);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(DeferredShadingPass_TypeDefinitionIndex)->GetStaticField(0x2A90);
 		}
 		static ::UnityEngine::Vector2Int* StaticGet_s_PreScreenSize()
 		{
-			return (::UnityEngine::Vector2Int*)Il2CppClass::FromTypeDefinitionIndex(DeferredShadingPass_TypeDefinitionIndex)->GetStaticField(0x2A90);
+			return (::UnityEngine::Vector2Int*)Il2CppClass::FromTypeDefinitionIndex(DeferredShadingPass_TypeDefinitionIndex)->GetStaticField(0x2A94);
+		}
+		static ::UnityEngine::NAPRenderPipeline0::DeferredShadingPerFrameConstants* StaticGet_FrameConstants()
+		{
+			return (::UnityEngine::NAPRenderPipeline0::DeferredShadingPerFrameConstants*)Il2CppClass::FromTypeDefinitionIndex(DeferredShadingPass_TypeDefinitionIndex)->GetStaticField(0x2A9C);
 		}
 		::Il2CppArray<::UnityEngine::Rendering::RenderTargetIdentifier>* m_ColorBuffers; // 0xA8
 		::UnityEngine::Rendering::RenderTargetIdentifier m_UsedColorBuffer; // 0xB0

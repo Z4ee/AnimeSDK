@@ -3,12 +3,12 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIArcadeTeamChildWindowController_ReadyState_TypeDefinitionIndex = 60525;
+	inline static constexpr unsigned int UIArcadeTeamChildWindowController_ReadyState_TypeDefinitionIndex = 65754;
 
 	enum class UIArcadeTeamChildWindowController_ReadyState : ::System::Int32
 	{
-		WaitMatch = 0,
 		MatchReady = 2,
+		WaitMatch = 0,
 		Matching = 1,
 	};
 }

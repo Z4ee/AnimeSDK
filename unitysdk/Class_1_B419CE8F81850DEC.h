@@ -4,19 +4,19 @@
 #include "unitysdk/Enum_3_AA439AE9E76594AE.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_B419CE8F81850DEC__CTOR_OFFSET UNITYSDK_OFFSET(0x13B624A0)
+#define CLASS_1_B419CE8F81850DEC__CTOR_OFFSET UNITYSDK_OFFSET(0x112F9190)
 
-inline static constexpr unsigned int Class_1_B419CE8F81850DEC_TypeDefinitionIndex = 67008;
+inline static constexpr unsigned int Class_1_B419CE8F81850DEC_TypeDefinitionIndex = 80644;
 
 class Class_1_B419CE8F81850DEC : public ::System::Object
 {
 public:
-	::System::Boolean Field_1_0; // 0x10
-	::System::Boolean Field_1_3; // 0x11
-	::System::Int32 Field_1_1; // 0x14
-	::System::UInt32 Field_1_2; // 0x18
-	::Enum_3_5D14E331734C3C6B Field_1_4; // 0x1C
-	::Enum_3_AA439AE9E76594AE Field_1_5; // 0x20
+	::System::UInt32 Field_1_6; // 0x10
+	::System::Boolean Field_1_0; // 0x14
+	::System::Boolean Field_1_5; // 0x15
+	::Enum_3_5D14E331734C3C6B Field_1_4; // 0x18
+	::Enum_3_AA439AE9E76594AE Field_1_11; // 0x1C
+	::System::Int32 Field_1_7; // 0x20
 
 	::System::Void _ctor()
 	{

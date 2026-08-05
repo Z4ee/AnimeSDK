@@ -6,11 +6,11 @@
 namespace MoleMole::Config { class CampTypeConfig_CampTypeItem; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CAMPTYPECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x10CF9730)
+#define MOLEMOLE_CONFIG_CAMPTYPECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x116F8690)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int CampTypeConfig_TypeDefinitionIndex = 59169;
+	inline static constexpr unsigned int CampTypeConfig_TypeDefinitionIndex = 47254;
 
 	class CampTypeConfig : public ::Foundation::MihoyoSerializedScriptableObject
 	{

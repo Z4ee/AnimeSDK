@@ -7,11 +7,11 @@
 
 namespace Share { class CVector2; }
 
-inline static constexpr unsigned int Class_1_07D05C1A1C19075D_Struct_2_9BA966910A560186_TypeDefinitionIndex = 74907;
+inline static constexpr unsigned int Class_1_07D05C1A1C19075D_Struct_2_9BA966910A560186_TypeDefinitionIndex = 56628;
 
 struct alignas(8) Class_1_07D05C1A1C19075D_Struct_2_9BA966910A560186
 {
-	::System::Nullable_1<::MoleMole::HollowChessboard::HollowCell> Field_2_0; // 0x10
-	::System::Nullable_1<::System::ValueTuple_2<::MoleMole::HollowChessboard::HollowCell, ::MoleMole::HollowChessboard::HollowCell>> Field_2_1; // 0x20
-	::Share::CVector2* Field_2_2; // 0x40
+	::System::Nullable_1<::MoleMole::HollowChessboard::HollowCell> Field_2_1; // 0x10
+	::System::Nullable_1<::System::ValueTuple_2<::MoleMole::HollowChessboard::HollowCell, ::MoleMole::HollowChessboard::HollowCell>> Field_2_0; // 0x20
+	::Share::CVector2* Field_2_7; // 0x40
 };

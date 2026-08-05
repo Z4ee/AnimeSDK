@@ -3,7 +3,7 @@
 
 namespace MoleMole::MaterialPropertyModifierEnumDefine
 {
-	inline static constexpr unsigned int LightSource_TypeDefinitionIndex = 55154;
+	inline static constexpr unsigned int LightSource_TypeDefinitionIndex = 51037;
 
 	enum class LightSource : ::System::Byte
 	{

@@ -6,7 +6,7 @@ namespace MoleMole { class UIMusicBattleInLevelToolBarBossWidgetController; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMusicBattleInLevelToolBarBossWidgetController___c__DisplayClass12_0_TypeDefinitionIndex = 56011;
+	inline static constexpr unsigned int UIMusicBattleInLevelToolBarBossWidgetController___c__DisplayClass12_0_TypeDefinitionIndex = 77655;
 
 	struct alignas(8) UIMusicBattleInLevelToolBarBossWidgetController___c__DisplayClass12_0
 	{

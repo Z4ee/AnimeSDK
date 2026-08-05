@@ -3,7 +3,7 @@
 
 namespace UnityEngine::NAPBatch
 {
-	inline static constexpr unsigned int BatchItemValueType_TypeDefinitionIndex = 6128;
+	inline static constexpr unsigned int BatchItemValueType_TypeDefinitionIndex = 6130;
 
 	enum class BatchItemValueType : ::System::Int32
 	{

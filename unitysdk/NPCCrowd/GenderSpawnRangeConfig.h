@@ -3,11 +3,11 @@
 #include "unitysdk/ENPCAvatarGender.h"
 #include "unitysdk/NPCCrowd/SpawnRangeConfig.h"
 
-#define NPCCROWD_GENDERSPAWNRANGECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xD949420)
+#define NPCCROWD_GENDERSPAWNRANGECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xD89DD50)
 
 namespace NPCCrowd
 {
-	inline static constexpr unsigned int GenderSpawnRangeConfig_TypeDefinitionIndex = 49098;
+	inline static constexpr unsigned int GenderSpawnRangeConfig_TypeDefinitionIndex = 55043;
 
 	class GenderSpawnRangeConfig : public ::NPCCrowd::SpawnRangeConfig
 	{

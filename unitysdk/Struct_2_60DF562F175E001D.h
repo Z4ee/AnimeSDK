@@ -2,14 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define STRUCT_2_60DF562F175E001D_EQUALS_OFFSET UNITYSDK_OFFSET(0x824190)
+#define STRUCT_2_60DF562F175E001D_EQUALS_OFFSET UNITYSDK_OFFSET(0x864770)
 
-inline static constexpr unsigned int Struct_2_60DF562F175E001D_TypeDefinitionIndex = 76111;
+inline static constexpr unsigned int Struct_2_60DF562F175E001D_TypeDefinitionIndex = 63959;
 
 struct alignas(4) Struct_2_60DF562F175E001D
 {
 	::System::Int32 Field_2_0; // 0x10
-	::System::Boolean Field_2_1; // 0x14
+	::System::Boolean Field_2_7; // 0x14
 
 	::System::Boolean Equals(::Struct_2_60DF562F175E001D a1)
 	{

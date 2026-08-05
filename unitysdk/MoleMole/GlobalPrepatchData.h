@@ -6,13 +6,13 @@ namespace Foundation { class VersionFileInfo; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_GLOBALPREPATCHDATA_GET_VERSIONS_LIST_OFFSET UNITYSDK_OFFSET(0x10D4E320)
-#define MOLEMOLE_GLOBALPREPATCHDATA_SET_VERSIONS_LIST_OFFSET UNITYSDK_OFFSET(0x10D4E330)
-#define MOLEMOLE_GLOBALPREPATCHDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x10D4E340)
+#define MOLEMOLE_GLOBALPREPATCHDATA_GET_VERSIONS_LIST_OFFSET UNITYSDK_OFFSET(0x16858000)
+#define MOLEMOLE_GLOBALPREPATCHDATA_SET_VERSIONS_LIST_OFFSET UNITYSDK_OFFSET(0x16858010)
+#define MOLEMOLE_GLOBALPREPATCHDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x16858020)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int GlobalPrepatchData_TypeDefinitionIndex = 59694;
+	inline static constexpr unsigned int GlobalPrepatchData_TypeDefinitionIndex = 65674;
 
 	class GlobalPrepatchData : public ::System::Object
 	{

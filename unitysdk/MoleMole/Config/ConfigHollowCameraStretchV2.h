@@ -8,53 +8,53 @@
 namespace MoleMole::Config { class AnimCurveParam; }
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCAMERASTRETCHV2_DISTOTARGET_OFFSET UNITYSDK_OFFSET(0x1A067FA0)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCAMERASTRETCHV2__CTOR_OFFSET UNITYSDK_OFFSET(0x1A068020)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCAMERASTRETCHV2_DISTOTARGET_OFFSET UNITYSDK_OFFSET(0x177DDB50)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCAMERASTRETCHV2__CTOR_OFFSET UNITYSDK_OFFSET(0x177DDBD0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowCameraStretchV2_TypeDefinitionIndex = 75694;
+	inline static constexpr unsigned int ConfigHollowCameraStretchV2_TypeDefinitionIndex = 68216;
 
 	class ConfigHollowCameraStretchV2 : public ::System::Object
 	{
 	public:
-		::System::String* BackwardSoundActionKey; // 0x10
-		::MoleMole::Config::AnimCurveParam* BackwardDistortionCurve; // 0x18
-		::MoleMole::Config::AnimCurveParam* BackwardRotCurveZ; // 0x20
-		::MoleMole::Config::AnimCurveParam* ForwardPosCurveZ; // 0x28
-		::MoleMole::Config::AnimCurveParam* BackwardPosCurveZ; // 0x30
-		::MoleMole::Config::AnimCurveParam* BackwardRotCurveY; // 0x38
-		::MoleMole::Config::AnimCurveParam* BackwardPosCurveY; // 0x40
-		::MoleMole::Config::AnimCurveParam* ForwardRotCurveY; // 0x48
-		::MoleMole::Config::AnimCurveParam* BackwardFovCurve; // 0x50
-		::MoleMole::Config::AnimCurveParam* ForwardFovCurve; // 0x58
-		::MoleMole::Config::AnimCurveParam* ForwardRotCurveX; // 0x60
-		::System::String* ForwardSoundActionKey; // 0x68
-		::MoleMole::Config::AnimCurveParam* BackwardRotCurveX; // 0x70
-		::MoleMole::Config::AnimCurveParam* ForwardDistortionCurve; // 0x78
-		::MoleMole::Config::AnimCurveParam* BackwardPosCurveX; // 0x80
-		::MoleMole::Config::AnimCurveParam* ForwardPosCurveY; // 0x88
-		::MoleMole::Config::AnimCurveParam* ForwardPosCurveX; // 0x90
-		::MoleMole::Config::AnimCurveParam* ForwardRotCurveZ; // 0x98
-		::System::Boolean IsForwardBackwardSameZ; // 0xA0
-		::System::Boolean IsForwardBackwardSameFovCurve; // 0xA1
-		::System::Boolean IsForwardBackwardPosSameXY; // 0xA2
-		::System::Int32 BackwardSoundID; // 0xA4
-		::UnityEngine::Vector3 TargetRotDelta; // 0xA8
-		::System::Boolean IsBackwardPosCurveSameXY; // 0xB4
-		::System::Boolean IsBackwardRotCurveSameXYZ; // 0xB5
-		::System::Single TargetDistortionIntensity; // 0xB8
-		::System::Int32 ForwardSoundID; // 0xBC
-		::MoleMole::Config::HollowCameraTypeZ ConfigHollowCameraTypeZ; // 0xC0
-		::System::Single GroupFramingSize; // 0xC4
-		::UnityEngine::Vector2 ScreenCenter; // 0xC8
-		::System::Boolean IsForwardRotCurveSameXYZ; // 0xD0
-		::System::Boolean IsForwardBackwardRotSame; // 0xD1
-		::System::Boolean IsForwardBackwardSameDistortionCurve; // 0xD2
-		::System::Boolean IsForwardPosCurveSameXY; // 0xD3
-		::UnityEngine::Vector2 PosOffsetXY; // 0xD4
-		::System::Single ConfigDisToTarget; // 0xDC
-		::System::Single TargetFov; // 0xE0
+		::MoleMole::Config::AnimCurveParam* ForwardPosCurveZ; // 0x10
+		::MoleMole::Config::AnimCurveParam* ForwardPosCurveY; // 0x18
+		::MoleMole::Config::AnimCurveParam* BackwardPosCurveY; // 0x20
+		::MoleMole::Config::AnimCurveParam* BackwardFovCurve; // 0x28
+		::MoleMole::Config::AnimCurveParam* BackwardRotCurveZ; // 0x30
+		::MoleMole::Config::AnimCurveParam* BackwardRotCurveX; // 0x38
+		::MoleMole::Config::AnimCurveParam* ForwardDistortionCurve; // 0x40
+		::MoleMole::Config::AnimCurveParam* BackwardPosCurveX; // 0x48
+		::System::String* ForwardSoundActionKey; // 0x50
+		::System::String* BackwardSoundActionKey; // 0x58
+		::MoleMole::Config::AnimCurveParam* BackwardPosCurveZ; // 0x60
+		::MoleMole::Config::AnimCurveParam* BackwardRotCurveY; // 0x68
+		::MoleMole::Config::AnimCurveParam* ForwardRotCurveY; // 0x70
+		::MoleMole::Config::AnimCurveParam* ForwardPosCurveX; // 0x78
+		::MoleMole::Config::AnimCurveParam* ForwardRotCurveX; // 0x80
+		::MoleMole::Config::AnimCurveParam* ForwardRotCurveZ; // 0x88
+		::MoleMole::Config::AnimCurveParam* BackwardDistortionCurve; // 0x90
+		::MoleMole::Config::AnimCurveParam* ForwardFovCurve; // 0x98
+		::MoleMole::Config::HollowCameraTypeZ ConfigHollowCameraTypeZ; // 0xA0
+		::System::Int32 ForwardSoundID; // 0xA4
+		::System::Single TargetDistortionIntensity; // 0xA8
+		::System::Boolean IsForwardRotCurveSameXYZ; // 0xAC
+		::System::Boolean IsForwardBackwardSameDistortionCurve; // 0xAD
+		::System::Boolean IsForwardBackwardSameFovCurve; // 0xAE
+		::System::Boolean IsForwardBackwardRotSame; // 0xAF
+		::System::Boolean IsForwardPosCurveSameXY; // 0xB0
+		::System::Boolean IsForwardBackwardSameZ; // 0xB1
+		::System::Boolean IsForwardBackwardPosSameXY; // 0xB2
+		::System::Boolean IsBackwardRotCurveSameXYZ; // 0xB3
+		::System::Int32 BackwardSoundID; // 0xB4
+		::System::Single ConfigDisToTarget; // 0xB8
+		::System::Boolean IsBackwardPosCurveSameXY; // 0xBC
+		::System::Single GroupFramingSize; // 0xC0
+		::UnityEngine::Vector2 PosOffsetXY; // 0xC4
+		::System::Single TargetFov; // 0xCC
+		::UnityEngine::Vector3 TargetRotDelta; // 0xD0
+		::UnityEngine::Vector2 ScreenCenter; // 0xDC
 
 		::System::Void _ctor()
 		{

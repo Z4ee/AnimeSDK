@@ -5,11 +5,11 @@
 namespace MoleMole::Config { class AvatarScriptAndAnimOverrideConfig_ScriptAndAnimOverrideParam; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_AVATARSCRIPTANDANIMOVERRIDECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A05EFE0)
+#define MOLEMOLE_CONFIG_AVATARSCRIPTANDANIMOVERRIDECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x177CD8E0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AvatarScriptAndAnimOverrideConfig_TypeDefinitionIndex = 48989;
+	inline static constexpr unsigned int AvatarScriptAndAnimOverrideConfig_TypeDefinitionIndex = 82564;
 
 	class AvatarScriptAndAnimOverrideConfig : public ::Foundation::MihoyoSerializedScriptableObject
 	{

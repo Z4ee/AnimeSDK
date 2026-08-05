@@ -5,12 +5,12 @@
 namespace BehaviorDesigner::Runtime { class BehaviorManager_BehaviorTree; }
 namespace System { template <typename T> class Action_1; }
 
-#define BEHAVIORDESIGNER_RUNTIME_BEHAVIOR___C__DISPLAYCLASS118_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1E376EB0)
-#define BEHAVIORDESIGNER_RUNTIME_BEHAVIOR___C__DISPLAYCLASS118_0__ENABLEBEHAVIOR_B__0_OFFSET UNITYSDK_OFFSET(0x1E376EC0)
+#define BEHAVIORDESIGNER_RUNTIME_BEHAVIOR___C__DISPLAYCLASS118_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1F7C6070)
+#define BEHAVIORDESIGNER_RUNTIME_BEHAVIOR___C__DISPLAYCLASS118_0__ENABLEBEHAVIOR_B__0_OFFSET UNITYSDK_OFFSET(0x1F7C6080)
 
 namespace BehaviorDesigner::Runtime
 {
-	inline static constexpr unsigned int Behavior___c__DisplayClass118_0_TypeDefinitionIndex = 33215;
+	inline static constexpr unsigned int Behavior___c__DisplayClass118_0_TypeDefinitionIndex = 33851;
 
 	class Behavior___c__DisplayClass118_0 : public ::System::Object
 	{

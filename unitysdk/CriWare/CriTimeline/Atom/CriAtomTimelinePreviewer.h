@@ -1,51 +1,63 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/CriWare/CriAtomExPlayback.h"
-#include "unitysdk/CriWare/CriTimeline/Atom/CriAtomTimelinePreviewer_PlayerSource.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/Guid.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 
 namespace CriWare { class CriAtom; }
-namespace CriWare { class CriAtomEx3dListener; }
 namespace CriWare { class CriAtomExAcb; }
-namespace CriWare { class CriAtomExPlayer; }
+namespace CriWare { class CriAtomListener; }
+namespace CriWare { class CriAtomSourceBase; }
+namespace CriWare::CriTimeline::Atom { class CriAtomTimelinePreviewer_PlayerSource; }
+namespace CriWare::CriTimeline::Atom { class CriAtomTimelinePreviewer_PreviewListener; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+namespace UnityEngine { class Transform; }
 
-#define CRIWARE_CRITIMELINE_ATOM_CRIATOMTIMELINEPREVIEWER_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x1E24D620)
-#define CRIWARE_CRITIMELINE_ATOM_CRIATOMTIMELINEPREVIEWER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1E24DBE0)
-#define CRIWARE_CRITIMELINE_ATOM_CRIATOMTIMELINEPREVIEWER_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1E24D5B0)
-#define CRIWARE_CRITIMELINE_ATOM_CRIATOMTIMELINEPREVIEWER_GETACB_OFFSET UNITYSDK_OFFSET(0x1E24C760)
-#define CRIWARE_CRITIMELINE_ATOM_CRIATOMTIMELINEPREVIEWER_GETPLAYER_OFFSET UNITYSDK_OFFSET(0x1E24C4B0)
-#define CRIWARE_CRITIMELINE_ATOM_CRIATOMTIMELINEPREVIEWER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1E24C170)
-#define CRIWARE_CRITIMELINE_ATOM_CRIATOMTIMELINEPREVIEWER_GET_ISINITIALIZED_OFFSET UNITYSDK_OFFSET(0x1E24C490)
-#define CRIWARE_CRITIMELINE_ATOM_CRIATOMTIMELINEPREVIEWER_PLAYERUPDATEPARAMETER_OFFSET UNITYSDK_OFFSET(0x1E24D510)
-#define CRIWARE_CRITIMELINE_ATOM_CRIATOMTIMELINEPREVIEWER_PLAY_OFFSET UNITYSDK_OFFSET(0x1E24CE30)
-#define CRIWARE_CRITIMELINE_ATOM_CRIATOMTIMELINEPREVIEWER_SETAISAC_OFFSET UNITYSDK_OFFSET(0x1E24D440)
-#define CRIWARE_CRITIMELINE_ATOM_CRIATOMTIMELINEPREVIEWER_SETCUE_OFFSET UNITYSDK_OFFSET(0x1E24C610)
-#define CRIWARE_CRITIMELINE_ATOM_CRIATOMTIMELINEPREVIEWER_SETLOOP_OFFSET UNITYSDK_OFFSET(0x1E24D2A0)
-#define CRIWARE_CRITIMELINE_ATOM_CRIATOMTIMELINEPREVIEWER_SETPITCH_OFFSET UNITYSDK_OFFSET(0x1E24D390)
-#define CRIWARE_CRITIMELINE_ATOM_CRIATOMTIMELINEPREVIEWER_SETSTARTTIME_OFFSET UNITYSDK_OFFSET(0x1E24D200)
-#define CRIWARE_CRITIMELINE_ATOM_CRIATOMTIMELINEPREVIEWER_SETVOLUME_OFFSET UNITYSDK_OFFSET(0x1E24D2E0)
-#define CRIWARE_CRITIMELINE_ATOM_CRIATOMTIMELINEPREVIEWER_STOPALLTRACKS_OFFSET UNITYSDK_OFFSET(0x1E24CF50)
-#define CRIWARE_CRITIMELINE_ATOM_CRIATOMTIMELINEPREVIEWER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E24C1F0)
+#define CRIWARE_CRITIMELINE_ATOM_CRIATOMTIMELINEPREVIEWER_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x1F4D8E20)
+#define CRIWARE_CRITIMELINE_ATOM_CRIATOMTIMELINEPREVIEWER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1F4D6980)
+#define CRIWARE_CRITIMELINE_ATOM_CRIATOMTIMELINEPREVIEWER_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1F4D8DB0)
+#define CRIWARE_CRITIMELINE_ATOM_CRIATOMTIMELINEPREVIEWER_GETACB_OFFSET UNITYSDK_OFFSET(0x1F4D81A0)
+#define CRIWARE_CRITIMELINE_ATOM_CRIATOMTIMELINEPREVIEWER_GETPLAYER_OFFSET UNITYSDK_OFFSET(0x1F4D6A00)
+#define CRIWARE_CRITIMELINE_ATOM_CRIATOMTIMELINEPREVIEWER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1F4D6660)
+#define CRIWARE_CRITIMELINE_ATOM_CRIATOMTIMELINEPREVIEWER_GET_ISINITIALIZED_OFFSET UNITYSDK_OFFSET(0x1F4D69E0)
+#define CRIWARE_CRITIMELINE_ATOM_CRIATOMTIMELINEPREVIEWER_INITPREVIEWLISTENERLIST_OFFSET UNITYSDK_OFFSET(0x1F4D6F80)
+#define CRIWARE_CRITIMELINE_ATOM_CRIATOMTIMELINEPREVIEWER_INSTANCEDISPOSE_OFFSET UNITYSDK_OFFSET(0x1F4D68C0)
+#define CRIWARE_CRITIMELINE_ATOM_CRIATOMTIMELINEPREVIEWER_PLAYERUPDATEPARAMETER_OFFSET UNITYSDK_OFFSET(0x1F4D8C60)
+#define CRIWARE_CRITIMELINE_ATOM_CRIATOMTIMELINEPREVIEWER_PLAY_OFFSET UNITYSDK_OFFSET(0x1F4D86D0)
+#define CRIWARE_CRITIMELINE_ATOM_CRIATOMTIMELINEPREVIEWER_SETAISAC_OFFSET UNITYSDK_OFFSET(0x1F4D8C10)
+#define CRIWARE_CRITIMELINE_ATOM_CRIATOMTIMELINEPREVIEWER_SETCUE_OFFSET UNITYSDK_OFFSET(0x1F4D80E0)
+#define CRIWARE_CRITIMELINE_ATOM_CRIATOMTIMELINEPREVIEWER_SETLOOP_OFFSET UNITYSDK_OFFSET(0x1F4D8990)
+#define CRIWARE_CRITIMELINE_ATOM_CRIATOMTIMELINEPREVIEWER_SETPITCH_OFFSET UNITYSDK_OFFSET(0x1F4D8AF0)
+#define CRIWARE_CRITIMELINE_ATOM_CRIATOMTIMELINEPREVIEWER_SETSTARTTIME_OFFSET UNITYSDK_OFFSET(0x1F4D8870)
+#define CRIWARE_CRITIMELINE_ATOM_CRIATOMTIMELINEPREVIEWER_SETVOLUME_OFFSET UNITYSDK_OFFSET(0x1F4D89D0)
+#define CRIWARE_CRITIMELINE_ATOM_CRIATOMTIMELINEPREVIEWER_STOPALLTRACKS_OFFSET UNITYSDK_OFFSET(0x1F4D8710)
+#define CRIWARE_CRITIMELINE_ATOM_CRIATOMTIMELINEPREVIEWER_UPDATE3DTRANSFORM_OFFSET UNITYSDK_OFFSET(0x1F4D6BF0)
+#define CRIWARE_CRITIMELINE_ATOM_CRIATOMTIMELINEPREVIEWER_UPDATEALLLISTENERS_OFFSET UNITYSDK_OFFSET(0x1F4D7570)
+#define CRIWARE_CRITIMELINE_ATOM_CRIATOMTIMELINEPREVIEWER_UPDATETIMELINEEXTENSION_OFFSET UNITYSDK_OFFSET(0x1F4D8D80)
+#define CRIWARE_CRITIMELINE_ATOM_CRIATOMTIMELINEPREVIEWER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F4D66E0)
 
 namespace CriWare::CriTimeline::Atom
 {
-	inline static constexpr unsigned int CriAtomTimelinePreviewer_TypeDefinitionIndex = 34392;
+	inline static constexpr unsigned int CriAtomTimelinePreviewer_TypeDefinitionIndex = 35043;
 
 	class CriAtomTimelinePreviewer : public ::System::Object
 	{
 	public:
 		static ::CriWare::CriTimeline::Atom::CriAtomTimelinePreviewer** StaticGet_instance()
 		{
-			return (::CriWare::CriTimeline::Atom::CriAtomTimelinePreviewer**)Il2CppClass::FromTypeDefinitionIndex(CriAtomTimelinePreviewer_TypeDefinitionIndex)->GetStaticField(0x279B0);
+			return (::CriWare::CriTimeline::Atom::CriAtomTimelinePreviewer**)Il2CppClass::FromTypeDefinitionIndex(CriAtomTimelinePreviewer_TypeDefinitionIndex)->GetStaticField(0x29220);
 		}
 		::System::String* lastAcfFile; // 0x10
-		::CriWare::CriAtom* atom; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::Guid, ::CriWare::CriTimeline::Atom::CriAtomTimelinePreviewer_PlayerSource>* playerTable; // 0x20
-		::CriWare::CriAtomEx3dListener* listener3d; // 0x28
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::CriWare::CriAtomExAcb*>* acbTable; // 0x30
+		::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::System::Guid, ::CriWare::CriTimeline::Atom::CriAtomTimelinePreviewer_PreviewListener*>>* listenerPurgeList; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::CriWare::CriAtomExAcb*>* acbTable; // 0x20
+		::CriWare::CriAtom* atom; // 0x28
+		::System::Collections::Generic::Dictionary_2<::System::Guid, ::CriWare::CriTimeline::Atom::CriAtomTimelinePreviewer_PreviewListener*>* listenerTable; // 0x30
+		::System::Collections::Generic::Dictionary_2<::System::Guid, ::CriWare::CriTimeline::Atom::CriAtomTimelinePreviewer_PlayerSource*>* playerTable; // 0x38
+		::System::Nullable_1<::System::Guid> trackIdForListenerUpdate; // 0x40
 
 		::System::Void _ctor()
 		{
@@ -57,14 +69,34 @@ namespace CriWare::CriTimeline::Atom
 			return ((::CriWare::CriTimeline::Atom::CriAtomTimelinePreviewer*(*)())((::PBYTE)hIl2Cpp + CRIWARE_CRITIMELINE_ATOM_CRIATOMTIMELINEPREVIEWER_GET_INSTANCE_OFFSET))();
 		}
 
+		static ::System::Void InstanceDispose()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CRIWARE_CRITIMELINE_ATOM_CRIATOMTIMELINEPREVIEWER_INSTANCEDISPOSE_OFFSET))();
+		}
+
 		static ::System::Boolean get_IsInitialized()
 		{
 			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + CRIWARE_CRITIMELINE_ATOM_CRIATOMTIMELINEPREVIEWER_GET_ISINITIALIZED_OFFSET))();
 		}
 
-		::CriWare::CriAtomExPlayer* GetPlayer(::System::Guid trackId)
+		::CriWare::CriTimeline::Atom::CriAtomTimelinePreviewer_PlayerSource* GetPlayer(::System::Guid trackId)
 		{
-			return ((::CriWare::CriAtomExPlayer*(*)(::PVOID, ::System::Guid))((::PBYTE)hIl2Cpp + CRIWARE_CRITIMELINE_ATOM_CRIATOMTIMELINEPREVIEWER_GETPLAYER_OFFSET))(this, trackId);
+			return ((::CriWare::CriTimeline::Atom::CriAtomTimelinePreviewer_PlayerSource*(*)(::PVOID, ::System::Guid))((::PBYTE)hIl2Cpp + CRIWARE_CRITIMELINE_ATOM_CRIATOMTIMELINEPREVIEWER_GETPLAYER_OFFSET))(this, trackId);
+		}
+
+		::System::Void Update3dTransform(::System::Guid trackId, ::UnityEngine::Transform* transform, ::System::Single deltaTime)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Guid, ::UnityEngine::Transform*, ::System::Single))((::PBYTE)hIl2Cpp + CRIWARE_CRITIMELINE_ATOM_CRIATOMTIMELINEPREVIEWER_UPDATE3DTRANSFORM_OFFSET))(this, trackId, transform, deltaTime);
+		}
+
+		::System::Void InitPreviewListenerList(::Il2CppArray<::CriWare::CriAtomListener*>* listenerList)
+		{
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::CriWare::CriAtomListener*>*))((::PBYTE)hIl2Cpp + CRIWARE_CRITIMELINE_ATOM_CRIATOMTIMELINEPREVIEWER_INITPREVIEWLISTENERLIST_OFFSET))(this, listenerList);
+		}
+
+		::System::Void UpdateAllListeners(::System::Guid trackId, ::System::Single deltaTime, ::CriWare::CriAtomListener* exclusiveObj)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Guid, ::System::Single, ::CriWare::CriAtomListener*))((::PBYTE)hIl2Cpp + CRIWARE_CRITIMELINE_ATOM_CRIATOMTIMELINEPREVIEWER_UPDATEALLLISTENERS_OFFSET))(this, trackId, deltaTime, exclusiveObj);
 		}
 
 		::System::Void SetCue(::System::Guid trackId, ::CriWare::CriAtomExAcb* acb, ::System::String* cueName)
@@ -115,6 +147,11 @@ namespace CriWare::CriTimeline::Atom
 		::System::Void PlayerUpdateParameter(::System::Guid trackId, ::CriWare::CriAtomExPlayback atomExPlayback)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Guid, ::CriWare::CriAtomExPlayback))((::PBYTE)hIl2Cpp + CRIWARE_CRITIMELINE_ATOM_CRIATOMTIMELINEPREVIEWER_PLAYERUPDATEPARAMETER_OFFSET))(this, trackId, atomExPlayback);
+		}
+
+		::System::Void UpdateTimelineExtension(::CriWare::CriAtomSourceBase* bindObject, ::System::Guid trackGuid)
+		{
+			return ((::System::Void(*)(::PVOID, ::CriWare::CriAtomSourceBase*, ::System::Guid))((::PBYTE)hIl2Cpp + CRIWARE_CRITIMELINE_ATOM_CRIATOMTIMELINEPREVIEWER_UPDATETIMELINEEXTENSION_OFFSET))(this, bindObject, trackGuid);
 		}
 
 		::System::Void Finalize()

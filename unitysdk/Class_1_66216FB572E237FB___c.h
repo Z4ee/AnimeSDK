@@ -5,22 +5,22 @@
 namespace MoleMole { class UIYorozuyaMapTipsChildWindowController; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define CLASS_1_66216FB572E237FB___C_METHOD_1_4F1D95C2E2E93BCE_OFFSET UNITYSDK_OFFSET(0x1342AF20)
-#define CLASS_1_66216FB572E237FB___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1342AED0)
-#define CLASS_1_66216FB572E237FB___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1342AF10)
+#define CLASS_1_66216FB572E237FB___C_METHOD_1_4F1D95C2E2E93BCE_OFFSET UNITYSDK_OFFSET(0x1178E970)
+#define CLASS_1_66216FB572E237FB___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1178E920)
+#define CLASS_1_66216FB572E237FB___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1178E960)
 
-inline static constexpr unsigned int Class_1_66216FB572E237FB___c_TypeDefinitionIndex = 48570;
+inline static constexpr unsigned int Class_1_66216FB572E237FB___c_TypeDefinitionIndex = 84123;
 
 class Class_1_66216FB572E237FB___c : public ::System::Object
 {
 public:
-	static ::Class_1_66216FB572E237FB___c** StaticGet___9()
-	{
-		return (::Class_1_66216FB572E237FB___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_66216FB572E237FB___c_TypeDefinitionIndex)->GetStaticField(0x409A0);
-	}
 	static ::System::Comparison_1<::MoleMole::UIYorozuyaMapTipsChildWindowController*>** StaticGet___9__4_0()
 	{
-		return (::System::Comparison_1<::MoleMole::UIYorozuyaMapTipsChildWindowController*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_66216FB572E237FB___c_TypeDefinitionIndex)->GetStaticField(0x409A8);
+		return (::System::Comparison_1<::MoleMole::UIYorozuyaMapTipsChildWindowController*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_66216FB572E237FB___c_TypeDefinitionIndex)->GetStaticField(0x395D0);
+	}
+	static ::Class_1_66216FB572E237FB___c** StaticGet___9()
+	{
+		return (::Class_1_66216FB572E237FB___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_66216FB572E237FB___c_TypeDefinitionIndex)->GetStaticField(0x395D8);
 	}
 
 	static ::System::Void _cctor()

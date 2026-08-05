@@ -5,18 +5,18 @@
 namespace MiHoYo::SDK { class JSONNode; }
 namespace MiHoYo::SDK::Win { class ComboManager___c__DisplayClass16_0; }
 
-#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS16_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5E4BD0)
-#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS16_1__ONMDKORAUTHTICKETLOGIN_B__2_OFFSET UNITYSDK_OFFSET(0x1B5E4BE0)
+#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS16_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1C9558B0)
+#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS16_1__ONMDKORAUTHTICKETLOGIN_B__2_OFFSET UNITYSDK_OFFSET(0x1C9558C0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int ComboManager___c__DisplayClass16_1_TypeDefinitionIndex = 21160;
+	inline static constexpr unsigned int ComboManager___c__DisplayClass16_1_TypeDefinitionIndex = 21508;
 
 	class ComboManager___c__DisplayClass16_1 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::JSONNode* extInfo; // 0x10
-		::MiHoYo::SDK::Win::ComboManager___c__DisplayClass16_0* CS___8__locals1; // 0x18
+		::MiHoYo::SDK::Win::ComboManager___c__DisplayClass16_0* CS___8__locals1; // 0x10
+		::MiHoYo::SDK::JSONNode* extInfo; // 0x18
 
 		::System::Void _ctor()
 		{

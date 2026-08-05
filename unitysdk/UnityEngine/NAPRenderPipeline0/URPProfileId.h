@@ -3,7 +3,7 @@
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int URPProfileId_TypeDefinitionIndex = 5857;
+	inline static constexpr unsigned int URPProfileId_TypeDefinitionIndex = 5859;
 
 	enum class URPProfileId : ::System::Int32
 	{

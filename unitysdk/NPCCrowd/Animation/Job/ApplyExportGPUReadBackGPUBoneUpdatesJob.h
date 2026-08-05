@@ -5,11 +5,11 @@
 #include "unitysdk/Unity/Collections/NativeArray_1.h"
 #include "unitysdk/UnityEngine/Matrix4x4.h"
 
-#define NPCCROWD_ANIMATION_JOB_APPLYEXPORTGPUREADBACKGPUBONEUPDATESJOB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x6A6890)
+#define NPCCROWD_ANIMATION_JOB_APPLYEXPORTGPUREADBACKGPUBONEUPDATESJOB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x5EDFF0)
 
 namespace NPCCrowd::Animation::Job
 {
-	inline static constexpr unsigned int ApplyExportGPUReadBackGPUBoneUpdatesJob_TypeDefinitionIndex = 73129;
+	inline static constexpr unsigned int ApplyExportGPUReadBackGPUBoneUpdatesJob_TypeDefinitionIndex = 73256;
 
 	struct alignas(8) ApplyExportGPUReadBackGPUBoneUpdatesJob
 	{

@@ -4,11 +4,11 @@
 
 namespace System::Data { class DataSet; }
 
-#define SYSTEM_DATA_DATATABLE_DSROWDIFFIDUSAGESECTION_PREPARE_OFFSET UNITYSDK_OFFSET(0xA58680)
+#define SYSTEM_DATA_DATATABLE_DSROWDIFFIDUSAGESECTION_PREPARE_OFFSET UNITYSDK_OFFSET(0xAA9410)
 
 namespace System::Data
 {
-	inline static constexpr unsigned int DataTable_DSRowDiffIdUsageSection_TypeDefinitionIndex = 38608;
+	inline static constexpr unsigned int DataTable_DSRowDiffIdUsageSection_TypeDefinitionIndex = 39269;
 
 	struct alignas(8) DataTable_DSRowDiffIdUsageSection
 	{

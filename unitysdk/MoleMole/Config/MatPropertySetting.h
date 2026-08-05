@@ -4,7 +4,7 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int MatPropertySetting_TypeDefinitionIndex = 58789;
+	inline static constexpr unsigned int MatPropertySetting_TypeDefinitionIndex = 75647;
 
 	struct alignas(1) MatPropertySetting
 	{

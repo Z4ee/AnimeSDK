@@ -7,13 +7,13 @@ namespace System { class Exception; }
 namespace System::Threading { class ManualResetEvent; }
 namespace System::Threading { class WaitHandle; }
 
-#define SYSTEM_NET_HTTPSTREAMASYNCRESULT_COMPLETE_1_OFFSET UNITYSDK_OFFSET(0x1C2EAC00)
-#define SYSTEM_NET_HTTPSTREAMASYNCRESULT_COMPLETE_OFFSET UNITYSDK_OFFSET(0x1C2EABF0)
-#define SYSTEM_NET_HTTPSTREAMASYNCRESULT_GET_ASYNCSTATE_OFFSET UNITYSDK_OFFSET(0x1C2EAD40)
-#define SYSTEM_NET_HTTPSTREAMASYNCRESULT_GET_ASYNCWAITHANDLE_OFFSET UNITYSDK_OFFSET(0x1C2EAD50)
-#define SYSTEM_NET_HTTPSTREAMASYNCRESULT_GET_COMPLETEDSYNCHRONOUSLY_OFFSET UNITYSDK_OFFSET(0x1C2EAE60)
-#define SYSTEM_NET_HTTPSTREAMASYNCRESULT_GET_ISCOMPLETED_OFFSET UNITYSDK_OFFSET(0x1C2EAE70)
-#define SYSTEM_NET_HTTPSTREAMASYNCRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2EAF20)
+#define SYSTEM_NET_HTTPSTREAMASYNCRESULT_COMPLETE_1_OFFSET UNITYSDK_OFFSET(0x1D6ABA70)
+#define SYSTEM_NET_HTTPSTREAMASYNCRESULT_COMPLETE_OFFSET UNITYSDK_OFFSET(0x1D6ABA60)
+#define SYSTEM_NET_HTTPSTREAMASYNCRESULT_GET_ASYNCSTATE_OFFSET UNITYSDK_OFFSET(0x1D6ABBB0)
+#define SYSTEM_NET_HTTPSTREAMASYNCRESULT_GET_ASYNCWAITHANDLE_OFFSET UNITYSDK_OFFSET(0x1D6ABBC0)
+#define SYSTEM_NET_HTTPSTREAMASYNCRESULT_GET_COMPLETEDSYNCHRONOUSLY_OFFSET UNITYSDK_OFFSET(0x1D6ABCD0)
+#define SYSTEM_NET_HTTPSTREAMASYNCRESULT_GET_ISCOMPLETED_OFFSET UNITYSDK_OFFSET(0x1D6ABCE0)
+#define SYSTEM_NET_HTTPSTREAMASYNCRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6ABD90)
 
 namespace System::Net
 {
@@ -22,16 +22,16 @@ namespace System::Net
 	class HttpStreamAsyncResult : public ::System::Object
 	{
 	public:
-		::System::AsyncCallback* Callback; // 0x10
+		::Il2CppArray<::System::Byte>* Buffer; // 0x10
 		::System::Exception* Error; // 0x18
 		::System::Object* locker; // 0x20
-		::System::Threading::ManualResetEvent* handle; // 0x28
-		::System::Object* State; // 0x30
-		::Il2CppArray<::System::Byte>* Buffer; // 0x38
-		::System::Int32 Count; // 0x40
-		::System::Int32 Offset; // 0x44
-		::System::Boolean completed; // 0x48
-		::System::Int32 SynchRead; // 0x4C
+		::System::Object* State; // 0x28
+		::System::AsyncCallback* Callback; // 0x30
+		::System::Threading::ManualResetEvent* handle; // 0x38
+		::System::Int32 Offset; // 0x40
+		::System::Int32 SynchRead; // 0x44
+		::System::Int32 Count; // 0x48
+		::System::Boolean completed; // 0x4C
 
 		::System::Void _ctor()
 		{

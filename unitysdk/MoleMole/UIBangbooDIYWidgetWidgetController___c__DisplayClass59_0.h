@@ -5,12 +5,12 @@
 namespace MoleMole { class UIBuddyDIYBagItemWidgetController; }
 namespace MoleMole { class UIBuddyDIYComponentWidgetController; }
 
-#define MOLEMOLE_UIBANGBOODIYWIDGETWIDGETCONTROLLER___C__DISPLAYCLASS59_0__CTOR_OFFSET UNITYSDK_OFFSET(0x172C35A0)
-#define MOLEMOLE_UIBANGBOODIYWIDGETWIDGETCONTROLLER___C__DISPLAYCLASS59_0__ONSELECTITEMTOEDITOR_B__0_OFFSET UNITYSDK_OFFSET(0x172C35B0)
+#define MOLEMOLE_UIBANGBOODIYWIDGETWIDGETCONTROLLER___C__DISPLAYCLASS59_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1956C190)
+#define MOLEMOLE_UIBANGBOODIYWIDGETWIDGETCONTROLLER___C__DISPLAYCLASS59_0__ONSELECTITEMTOEDITOR_B__0_OFFSET UNITYSDK_OFFSET(0x1956C1A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBangbooDIYWidgetWidgetController___c__DisplayClass59_0_TypeDefinitionIndex = 79078;
+	inline static constexpr unsigned int UIBangbooDIYWidgetWidgetController___c__DisplayClass59_0_TypeDefinitionIndex = 71416;
 
 	class UIBangbooDIYWidgetWidgetController___c__DisplayClass59_0 : public ::System::Object
 	{

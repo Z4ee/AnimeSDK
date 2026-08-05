@@ -10,7 +10,7 @@ namespace System { class String; }
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int InLevelInteractionEventNode_1_TypeDefinitionIndex = 52327;
+	inline static constexpr unsigned int InLevelInteractionEventNode_1_TypeDefinitionIndex = 90338;
 
 	template <typename T>
 	class InLevelInteractionEventNode_1 : public ::FlowCanvas::Nodes::RouterEventNode_1<::NodeCanvas::Framework::GraphOwner*>

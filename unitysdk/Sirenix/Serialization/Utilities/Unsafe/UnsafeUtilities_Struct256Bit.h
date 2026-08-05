@@ -5,7 +5,7 @@
 
 namespace Sirenix::Serialization::Utilities::Unsafe
 {
-	inline static constexpr unsigned int UnsafeUtilities_Struct256Bit_TypeDefinitionIndex = 7663;
+	inline static constexpr unsigned int UnsafeUtilities_Struct256Bit_TypeDefinitionIndex = 7667;
 
 	struct alignas(4) UnsafeUtilities_Struct256Bit
 	{

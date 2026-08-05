@@ -8,11 +8,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_SECTR_SECTR_LAYERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x141A45B0)
+#define MOLEMOLE_SECTR_SECTR_LAYERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x10823F80)
 
 namespace MoleMole::SECTR
 {
-	inline static constexpr unsigned int SECTR_LayerConfig_TypeDefinitionIndex = 69170;
+	inline static constexpr unsigned int SECTR_LayerConfig_TypeDefinitionIndex = 75788;
 
 	class SECTR_LayerConfig : public ::System::Object
 	{

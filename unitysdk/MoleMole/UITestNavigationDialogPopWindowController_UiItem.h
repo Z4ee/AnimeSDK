@@ -6,18 +6,18 @@ namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class UIText; }
 namespace UnityEngine::UI::Extension { class UIButtonEx; }
 
-#define MOLEMOLE_UITESTNAVIGATIONDIALOGPOPWINDOWCONTROLLER_UIITEM_INIT_OFFSET UNITYSDK_OFFSET(0x148E41D0)
-#define MOLEMOLE_UITESTNAVIGATIONDIALOGPOPWINDOWCONTROLLER_UIITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x148E4370)
+#define MOLEMOLE_UITESTNAVIGATIONDIALOGPOPWINDOWCONTROLLER_UIITEM_INIT_OFFSET UNITYSDK_OFFSET(0x15A61450)
+#define MOLEMOLE_UITESTNAVIGATIONDIALOGPOPWINDOWCONTROLLER_UIITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x15A615F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UITestNavigationDialogPopWindowController_UiItem_TypeDefinitionIndex = 59867;
+	inline static constexpr unsigned int UITestNavigationDialogPopWindowController_UiItem_TypeDefinitionIndex = 86592;
 
 	class UITestNavigationDialogPopWindowController_UiItem : public ::System::Object
 	{
 	public:
-		::UnityEngine::UI::UIText* Text; // 0x10
-		::UnityEngine::UI::Extension::UIButtonEx* Button; // 0x18
+		::UnityEngine::UI::Extension::UIButtonEx* Button; // 0x10
+		::UnityEngine::UI::UIText* Text; // 0x18
 
 		::System::Void _ctor()
 		{

@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define UTF8JSON_JSONSERIALIZER_MEMORYPOOL_GETBUFFER_OFFSET UNITYSDK_OFFSET(0x1E568FC0)
-#define UTF8JSON_JSONSERIALIZER_MEMORYPOOL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E5690E0)
+#define UTF8JSON_JSONSERIALIZER_MEMORYPOOL_GETBUFFER_OFFSET UNITYSDK_OFFSET(0x1F95A460)
+#define UTF8JSON_JSONSERIALIZER_MEMORYPOOL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F95A580)
 
 namespace Utf8Json
 {
-	inline static constexpr unsigned int JsonSerializer_MemoryPool_TypeDefinitionIndex = 91088;
+	inline static constexpr unsigned int JsonSerializer_MemoryPool_TypeDefinitionIndex = 95021;
 
 	class JsonSerializer_MemoryPool : public ::System::Object
 	{

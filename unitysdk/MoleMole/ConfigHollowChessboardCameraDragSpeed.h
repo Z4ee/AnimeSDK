@@ -5,11 +5,11 @@
 namespace MoleMole { class ConfigHollowChessboardCameraDragSpeedItem; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIGHOLLOWCHESSBOARDCAMERADRAGSPEED__CTOR_OFFSET UNITYSDK_OFFSET(0x158CBCA0)
+#define MOLEMOLE_CONFIGHOLLOWCHESSBOARDCAMERADRAGSPEED__CTOR_OFFSET UNITYSDK_OFFSET(0x1A94AAC0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigHollowChessboardCameraDragSpeed_TypeDefinitionIndex = 54309;
+	inline static constexpr unsigned int ConfigHollowChessboardCameraDragSpeed_TypeDefinitionIndex = 77199;
 
 	class ConfigHollowChessboardCameraDragSpeed : public ::Sirenix::OdinInspector::SerializedScriptableObject
 	{

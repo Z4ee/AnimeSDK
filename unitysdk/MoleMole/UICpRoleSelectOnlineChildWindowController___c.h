@@ -4,20 +4,20 @@
 
 class Class_1_D76391934630D6CD;
 
-#define MOLEMOLE_UICPROLESELECTONLINECHILDWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E572FB0)
-#define MOLEMOLE_UICPROLESELECTONLINECHILDWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1E572FF0)
-#define MOLEMOLE_UICPROLESELECTONLINECHILDWINDOWCONTROLLER___C___CCTOR_B__57_0_OFFSET UNITYSDK_OFFSET(0x1E573000)
+#define MOLEMOLE_UICPROLESELECTONLINECHILDWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EC11650)
+#define MOLEMOLE_UICPROLESELECTONLINECHILDWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC11690)
+#define MOLEMOLE_UICPROLESELECTONLINECHILDWINDOWCONTROLLER___C___CCTOR_B__57_0_OFFSET UNITYSDK_OFFSET(0x1EC116A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICpRoleSelectOnlineChildWindowController___c_TypeDefinitionIndex = 90929;
+	inline static constexpr unsigned int UICpRoleSelectOnlineChildWindowController___c_TypeDefinitionIndex = 94732;
 
 	class UICpRoleSelectOnlineChildWindowController___c : public ::System::Object
 	{
 	public:
 		static ::MoleMole::UICpRoleSelectOnlineChildWindowController___c** StaticGet___9()
 		{
-			return (::MoleMole::UICpRoleSelectOnlineChildWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UICpRoleSelectOnlineChildWindowController___c_TypeDefinitionIndex)->GetStaticField(0x4E560);
+			return (::MoleMole::UICpRoleSelectOnlineChildWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UICpRoleSelectOnlineChildWindowController___c_TypeDefinitionIndex)->GetStaticField(0x526A0);
 		}
 
 		static ::System::Void _cctor()

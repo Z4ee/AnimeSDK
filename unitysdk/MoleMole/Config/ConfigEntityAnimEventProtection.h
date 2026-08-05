@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigEntityAnimEventProtection_TypeDefinitionIndex = 44472;
+	inline static constexpr unsigned int ConfigEntityAnimEventProtection_TypeDefinitionIndex = 77263;
 
 	struct alignas(8) ConfigEntityAnimEventProtection
 	{

@@ -1,0 +1,37 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_AAE113EF1D654B70_Class_2_577B61C36A3DB7C6.h"
+
+class Class_1_AAE113EF1D654B70;
+class Class_1_AAE113EF1D654B70_Class_1_18BFEAD82BA3C5E8_2;
+
+#define CLASS_1_AAE113EF1D654B70_CLASS_3_556428A49F107F14_METHOD_3_98B807DB0881B728_OFFSET UNITYSDK_OFFSET(0x150BE650)
+#define CLASS_1_AAE113EF1D654B70_CLASS_3_556428A49F107F14_METHOD_3_9B2A1158A714A57F_OFFSET UNITYSDK_OFFSET(0x150BE710)
+#define CLASS_1_AAE113EF1D654B70_CLASS_3_556428A49F107F14_METHOD_3_BFA7AF958919B6ED_OFFSET UNITYSDK_OFFSET(0x150BE4E0)
+#define CLASS_1_AAE113EF1D654B70_CLASS_3_556428A49F107F14__CTOR_OFFSET UNITYSDK_OFFSET(0x150BE480)
+
+inline static constexpr unsigned int Class_1_AAE113EF1D654B70_Class_3_556428A49F107F14_TypeDefinitionIndex = 77393;
+
+class Class_1_AAE113EF1D654B70_Class_3_556428A49F107F14 : public ::Class_1_AAE113EF1D654B70_Class_2_577B61C36A3DB7C6
+{
+public:
+	::System::Void _ctor(::Class_1_AAE113EF1D654B70* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_AAE113EF1D654B70*))((::PBYTE)hIl2Cpp + CLASS_1_AAE113EF1D654B70_CLASS_3_556428A49F107F14__CTOR_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_3_BFA7AF958919B6ED(::System::Boolean a1, ::System::Boolean a2, ::System::Boolean a3, ::System::Boolean a4, ::System::Boolean a5)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_AAE113EF1D654B70_CLASS_3_556428A49F107F14_METHOD_3_BFA7AF958919B6ED_OFFSET))(this, a1, a2, a3, a4, a5);
+	}
+
+	static ::Class_1_AAE113EF1D654B70_Class_1_18BFEAD82BA3C5E8_2* Method_3_98B807DB0881B728(::Class_1_AAE113EF1D654B70* a1)
+	{
+		return ((::Class_1_AAE113EF1D654B70_Class_1_18BFEAD82BA3C5E8_2*(*)(::Class_1_AAE113EF1D654B70*))((::PBYTE)hIl2Cpp + CLASS_1_AAE113EF1D654B70_CLASS_3_556428A49F107F14_METHOD_3_98B807DB0881B728_OFFSET))(a1);
+	}
+
+	::System::Void Method_3_9B2A1158A714A57F(::System::Boolean a1, ::System::Boolean a2, ::System::Boolean a3, ::System::Boolean a4, ::System::Boolean a5)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_AAE113EF1D654B70_CLASS_3_556428A49F107F14_METHOD_3_9B2A1158A714A57F_OFFSET))(this, a1, a2, a3, a4, a5);
+	}
+};

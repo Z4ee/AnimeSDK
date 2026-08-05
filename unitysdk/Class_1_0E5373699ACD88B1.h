@@ -10,20 +10,20 @@ class Class_5_A6F8D19602712D95;
 namespace MoleMole { class UIHollowChessboard3DModelController; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_0E5373699ACD88B1_METHOD_1_02E60863B3A6B2B7_OFFSET UNITYSDK_OFFSET(0x11FD93D0)
-#define CLASS_1_0E5373699ACD88B1_METHOD_1_3D0DEF9C57CB8088_OFFSET UNITYSDK_OFFSET(0x11FD9040)
-#define CLASS_1_0E5373699ACD88B1_METHOD_1_8E01C00034A2BA60_OFFSET UNITYSDK_OFFSET(0x11FD8DE0)
-#define CLASS_1_0E5373699ACD88B1_METHOD_1_CAA3FA1235DD111A_OFFSET UNITYSDK_OFFSET(0x11FD9300)
-#define CLASS_1_0E5373699ACD88B1__CTOR_OFFSET UNITYSDK_OFFSET(0x11FD8D10)
+#define CLASS_1_0E5373699ACD88B1_METHOD_1_029A86B3C7E457AE_OFFSET UNITYSDK_OFFSET(0x15FC5C00)
+#define CLASS_1_0E5373699ACD88B1_METHOD_1_3D0DEF9C57CB8088_OFFSET UNITYSDK_OFFSET(0x15FC5870)
+#define CLASS_1_0E5373699ACD88B1_METHOD_1_8E01C00034A2BA60_OFFSET UNITYSDK_OFFSET(0x15FC5610)
+#define CLASS_1_0E5373699ACD88B1_METHOD_1_CAA3FA1235DD111A_OFFSET UNITYSDK_OFFSET(0x15FC5B30)
+#define CLASS_1_0E5373699ACD88B1__CTOR_OFFSET UNITYSDK_OFFSET(0x15FC5540)
 
-inline static constexpr unsigned int Class_1_0E5373699ACD88B1_TypeDefinitionIndex = 62459;
+inline static constexpr unsigned int Class_1_0E5373699ACD88B1_TypeDefinitionIndex = 43327;
 
 class Class_1_0E5373699ACD88B1 : public ::System::Object
 {
 public:
-	::MoleMole::UIHollowChessboard3DModelController* Field_1_1; // 0x10
-	::Class_2_F5737224A0253470* Field_1_0; // 0x18
-	::System::Boolean Field_1_2; // 0x20
+	::Class_2_F5737224A0253470* Field_1_1; // 0x10
+	::MoleMole::UIHollowChessboard3DModelController* Field_1_0; // 0x18
+	::System::Boolean Field_1_7; // 0x20
 
 	::System::Void _ctor(::MoleMole::UIHollowChessboard3DModelController* a1, ::System::Boolean a2)
 	{
@@ -40,9 +40,9 @@ public:
 		return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::List_1<::MoleMole::HollowChessboard::HollowCell>*, ::MoleMole::HollowChessboard::HollowCell, ::MoleMole::HollowChessboard::HollowCell))((::PBYTE)hIl2Cpp + CLASS_1_0E5373699ACD88B1_METHOD_1_CAA3FA1235DD111A_OFFSET))(this, a1, a2, a3);
 	}
 
-	::MoleMole::PlayerOnViewState Method_1_02E60863B3A6B2B7(::MoleMole::HollowChessboard::HollowCell a1, ::MoleMole::HollowChessboard::HollowCell a2)
+	::MoleMole::PlayerOnViewState Method_1_029A86B3C7E457AE(::MoleMole::HollowChessboard::HollowCell a1, ::MoleMole::HollowChessboard::HollowCell a2)
 	{
-		return ((::MoleMole::PlayerOnViewState(*)(::PVOID, ::MoleMole::HollowChessboard::HollowCell, ::MoleMole::HollowChessboard::HollowCell))((::PBYTE)hIl2Cpp + CLASS_1_0E5373699ACD88B1_METHOD_1_02E60863B3A6B2B7_OFFSET))(this, a1, a2);
+		return ((::MoleMole::PlayerOnViewState(*)(::PVOID, ::MoleMole::HollowChessboard::HollowCell, ::MoleMole::HollowChessboard::HollowCell))((::PBYTE)hIl2Cpp + CLASS_1_0E5373699ACD88B1_METHOD_1_029A86B3C7E457AE_OFFSET))(this, a1, a2);
 	}
 
 	::System::Boolean Method_1_3D0DEF9C57CB8088(::Class_5_A6F8D19602712D95* a1)

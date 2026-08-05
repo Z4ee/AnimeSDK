@@ -8,27 +8,27 @@ namespace MoleMole::Battle { class AnimatorParamControl; }
 namespace MoleMole::Battle { class Entity; }
 namespace MoleMole::Config { class ConfigPosRot; }
 
-#define MOLEMOLE_CONFIG_ANIMATORZONEBUDDYSWITCHZONE_ONZONEENTER_OFFSET UNITYSDK_OFFSET(0x12B9B640)
-#define MOLEMOLE_CONFIG_ANIMATORZONEBUDDYSWITCHZONE_ONZONEEXIT_OFFSET UNITYSDK_OFFSET(0x12B9B870)
-#define MOLEMOLE_CONFIG_ANIMATORZONEBUDDYSWITCHZONE__CTOR_OFFSET UNITYSDK_OFFSET(0x12B9BA80)
-#define MOLEMOLE_CONFIG_ANIMATORZONEBUDDYSWITCHZONE___BASE_ONZONEENTER_OFFSET UNITYSDK_OFFSET(0x12B9BA90)
-#define MOLEMOLE_CONFIG_ANIMATORZONEBUDDYSWITCHZONE___BASE_ONZONEEXIT_OFFSET UNITYSDK_OFFSET(0x12B9BB40)
+#define MOLEMOLE_CONFIG_ANIMATORZONEBUDDYSWITCHZONE_ONZONEENTER_OFFSET UNITYSDK_OFFSET(0x1435B610)
+#define MOLEMOLE_CONFIG_ANIMATORZONEBUDDYSWITCHZONE_ONZONEEXIT_OFFSET UNITYSDK_OFFSET(0x1435B840)
+#define MOLEMOLE_CONFIG_ANIMATORZONEBUDDYSWITCHZONE__CTOR_OFFSET UNITYSDK_OFFSET(0x1435BA50)
+#define MOLEMOLE_CONFIG_ANIMATORZONEBUDDYSWITCHZONE___BASE_ONZONEENTER_OFFSET UNITYSDK_OFFSET(0x1435BA60)
+#define MOLEMOLE_CONFIG_ANIMATORZONEBUDDYSWITCHZONE___BASE_ONZONEEXIT_OFFSET UNITYSDK_OFFSET(0x1435BB10)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AnimatorZoneBuddySwitchZone_TypeDefinitionIndex = 67785;
+	inline static constexpr unsigned int AnimatorZoneBuddySwitchZone_TypeDefinitionIndex = 79404;
 
 	class AnimatorZoneBuddySwitchZone : public ::MoleMole::Config::AnimatorZone
 	{
 	public:
-		::MoleMole::Battle::AnimatorParamControl* switchInParamControl; // 0x50
-		::MoleMole::Config::ConfigPosRot* overridePosRot; // 0x58
-		::MoleMole::Battle::AnimatorParamControl* switchOutParamControl; // 0x60
-		::System::Single overrideTriggerSwitchInDelay; // 0x68
-		::System::Boolean needOverrideSwitchPosRot; // 0x6C
-		::System::Boolean needOverrideTriggerSwitchInDelay; // 0x6D
-		::System::Boolean needOverrideTriggerSwitchOutDelay; // 0x6E
-		::System::Single overrideTriggerSwitchOutDelay; // 0x70
+		::MoleMole::Battle::AnimatorParamControl* switchOutParamControl; // 0x50
+		::MoleMole::Battle::AnimatorParamControl* switchInParamControl; // 0x58
+		::MoleMole::Config::ConfigPosRot* overridePosRot; // 0x60
+		::System::Single overrideTriggerSwitchOutDelay; // 0x68
+		::System::Boolean needOverrideTriggerSwitchOutDelay; // 0x6C
+		::System::Boolean needOverrideSwitchPosRot; // 0x6D
+		::System::Boolean needOverrideTriggerSwitchInDelay; // 0x6E
+		::System::Single overrideTriggerSwitchInDelay; // 0x70
 
 		::System::Void _ctor()
 		{

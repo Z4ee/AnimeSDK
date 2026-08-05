@@ -5,9 +5,9 @@
 
 namespace System { class String; }
 
-#define SYSTEM_IO_RENAMEDEVENTARGS_GET_OLDFULLPATH_OFFSET UNITYSDK_OFFSET(0x1C6D1420)
-#define SYSTEM_IO_RENAMEDEVENTARGS_GET_OLDNAME_OFFSET UNITYSDK_OFFSET(0x1C6D1430)
-#define SYSTEM_IO_RENAMEDEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6D1390)
+#define SYSTEM_IO_RENAMEDEVENTARGS_GET_OLDFULLPATH_OFFSET UNITYSDK_OFFSET(0x1DB82EC0)
+#define SYSTEM_IO_RENAMEDEVENTARGS_GET_OLDNAME_OFFSET UNITYSDK_OFFSET(0x1DB82ED0)
+#define SYSTEM_IO_RENAMEDEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB82E30)
 
 namespace System::IO
 {
@@ -16,8 +16,8 @@ namespace System::IO
 	class RenamedEventArgs : public ::System::IO::FileSystemEventArgs
 	{
 	public:
-		::System::String* oldName; // 0x28
-		::System::String* oldFullPath; // 0x30
+		::System::String* oldFullPath; // 0x28
+		::System::String* oldName; // 0x30
 
 		::System::Void _ctor(::System::IO::WatcherChangeTypes changeType, ::System::String* directory, ::System::String* name, ::System::String* oldName)
 		{

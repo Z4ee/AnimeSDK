@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Enum_3_E894E54C3D94F028.h"
-#include "unitysdk/Struct_2_1862835F8661A21F_992.h"
+#include "unitysdk/Struct_2_1862835F8661A21F_111.h"
 #include "unitysdk/System/Object.h"
 
 namespace MoleMole::Project::Config { class EnemyWaveInformTemplateExt; }
@@ -10,30 +10,30 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define CLASS_1_6A34A2030956978C_FINALIZE_OFFSET UNITYSDK_OFFSET(0x18CDCAB0)
-#define CLASS_1_6A34A2030956978C_METHOD_1_0CC4BC19C602BCD0_OFFSET UNITYSDK_OFFSET(0x18CDC3B0)
-#define CLASS_1_6A34A2030956978C_METHOD_1_3DACC45AC8150727_OFFSET UNITYSDK_OFFSET(0x18CDC760)
-#define CLASS_1_6A34A2030956978C_METHOD_1_43D99DDD80B1E30C_OFFSET UNITYSDK_OFFSET(0x18CDC670)
-#define CLASS_1_6A34A2030956978C_METHOD_1_7DB49B5407C8FD68_OFFSET UNITYSDK_OFFSET(0x18CDC910)
-#define CLASS_1_6A34A2030956978C_METHOD_1_841A177217D05369_OFFSET UNITYSDK_OFFSET(0x18CDCD20)
-#define CLASS_1_6A34A2030956978C_METHOD_1_85A8D64CE488330E_OFFSET UNITYSDK_OFFSET(0x18CDCC30)
-#define CLASS_1_6A34A2030956978C_METHOD_1_B09E78EE7EE4F8FA_OFFSET UNITYSDK_OFFSET(0x18CDC9D0)
-#define CLASS_1_6A34A2030956978C_METHOD_1_C64F3CA8A6C36FAC_OFFSET UNITYSDK_OFFSET(0x18CDC770)
-#define CLASS_1_6A34A2030956978C_METHOD_1_CE34EA208837238D_OFFSET UNITYSDK_OFFSET(0x18CDC390)
-#define CLASS_1_6A34A2030956978C_METHOD_1_F730968E2645E14B_OFFSET UNITYSDK_OFFSET(0x18CDCD00)
-#define CLASS_1_6A34A2030956978C__CTOR_OFFSET UNITYSDK_OFFSET(0x18CDCBE0)
+#define CLASS_1_6A34A2030956978C_FINALIZE_OFFSET UNITYSDK_OFFSET(0x16E5C7A0)
+#define CLASS_1_6A34A2030956978C_METHOD_1_0CC4BC19C602BCD0_OFFSET UNITYSDK_OFFSET(0x16E5C0A0)
+#define CLASS_1_6A34A2030956978C_METHOD_1_3DACC45AC8150727_OFFSET UNITYSDK_OFFSET(0x16E5C450)
+#define CLASS_1_6A34A2030956978C_METHOD_1_43D99DDD80B1E30C_OFFSET UNITYSDK_OFFSET(0x16E5C360)
+#define CLASS_1_6A34A2030956978C_METHOD_1_7DB49B5407C8FD68_OFFSET UNITYSDK_OFFSET(0x16E5C600)
+#define CLASS_1_6A34A2030956978C_METHOD_1_841A177217D05369_OFFSET UNITYSDK_OFFSET(0x16E5C920)
+#define CLASS_1_6A34A2030956978C_METHOD_1_85A8D64CE488330E_OFFSET UNITYSDK_OFFSET(0x16E5CB50)
+#define CLASS_1_6A34A2030956978C_METHOD_1_B09E78EE7EE4F8FA_OFFSET UNITYSDK_OFFSET(0x16E5C6C0)
+#define CLASS_1_6A34A2030956978C_METHOD_1_C64F3CA8A6C36FAC_OFFSET UNITYSDK_OFFSET(0x16E5C460)
+#define CLASS_1_6A34A2030956978C_METHOD_1_CE34EA208837238D_OFFSET UNITYSDK_OFFSET(0x16E5C080)
+#define CLASS_1_6A34A2030956978C_METHOD_1_F730968E2645E14B_OFFSET UNITYSDK_OFFSET(0x16E5CB30)
+#define CLASS_1_6A34A2030956978C__CTOR_OFFSET UNITYSDK_OFFSET(0x16E5C8D0)
 
-inline static constexpr unsigned int Class_1_6A34A2030956978C_TypeDefinitionIndex = 16835;
+inline static constexpr unsigned int Class_1_6A34A2030956978C_TypeDefinitionIndex = 18345;
 
 class Class_1_6A34A2030956978C : public ::System::Object
 {
 public:
-	::Il2CppArray<::MoleMole::Project::Config::EnemyWaveInformTemplateExt*>* Field_1_1; // 0x10
-	::Struct_2_1862835F8661A21F_992 Field_1_0; // 0x18
-	::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* Field_1_2; // 0x30
-	::System::Collections::Generic::HashSet_1<::System::Int32>* Field_1_3; // 0x38
-	::System::Boolean Field_1_5; // 0x40
-	::System::Int32 Field_1_4; // 0x44
+	::System::Collections::Generic::HashSet_1<::System::Int32>* Field_1_6; // 0x10
+	::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* Field_1_7; // 0x18
+	::Struct_2_1862835F8661A21F_111 Field_1_1; // 0x20
+	::Il2CppArray<::MoleMole::Project::Config::EnemyWaveInformTemplateExt*>* Field_1_0; // 0x38
+	::System::Int32 Field_1_5; // 0x40
+	::System::Boolean Field_1_4; // 0x44
 
 	::System::Void _ctor()
 	{
@@ -75,14 +75,14 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_6A34A2030956978C_FINALIZE_OFFSET))(this);
 	}
 
-	::System::Collections::Generic::IReadOnlyList_1<::MoleMole::Project::Config::EnemyWaveInformTemplateExt*>* Method_1_85A8D64CE488330E()
-	{
-		return ((::System::Collections::Generic::IReadOnlyList_1<::MoleMole::Project::Config::EnemyWaveInformTemplateExt*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_6A34A2030956978C_METHOD_1_85A8D64CE488330E_OFFSET))(this);
-	}
-
 	::System::Void Method_1_7DB49B5407C8FD68()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_6A34A2030956978C_METHOD_1_7DB49B5407C8FD68_OFFSET))(this);
+	}
+
+	::MoleMole::Project::Config::EnemyWaveInformTemplateExt* Method_1_841A177217D05369(::System::Int32 a1)
+	{
+		return ((::MoleMole::Project::Config::EnemyWaveInformTemplateExt*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_6A34A2030956978C_METHOD_1_841A177217D05369_OFFSET))(this, a1);
 	}
 
 	::System::Void Method_1_F730968E2645E14B()
@@ -90,8 +90,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_6A34A2030956978C_METHOD_1_F730968E2645E14B_OFFSET))(this);
 	}
 
-	::MoleMole::Project::Config::EnemyWaveInformTemplateExt* Method_1_841A177217D05369(::System::Int32 a1)
+	::System::Collections::Generic::IReadOnlyList_1<::MoleMole::Project::Config::EnemyWaveInformTemplateExt*>* Method_1_85A8D64CE488330E()
 	{
-		return ((::MoleMole::Project::Config::EnemyWaveInformTemplateExt*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_6A34A2030956978C_METHOD_1_841A177217D05369_OFFSET))(this, a1);
+		return ((::System::Collections::Generic::IReadOnlyList_1<::MoleMole::Project::Config::EnemyWaveInformTemplateExt*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_6A34A2030956978C_METHOD_1_85A8D64CE488330E_OFFSET))(this);
 	}
 };

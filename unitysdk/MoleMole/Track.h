@@ -6,11 +6,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_TRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1C4FC0)
+#define MOLEMOLE_TRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x168A87A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int Track_TypeDefinitionIndex = 78996;
+	inline static constexpr unsigned int Track_TypeDefinitionIndex = 62586;
 
 	class Track : public ::System::Object
 	{

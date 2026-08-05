@@ -5,12 +5,12 @@
 class Class_3_DBB4F545E98036CC;
 namespace MoleMole { class UIDataFixNodeWidgetController; }
 
-#define MOLEMOLE_UIDATAFIXNODEWIDGETCONTROLLER___C__DISPLAYCLASS51_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19DA8E60)
-#define MOLEMOLE_UIDATAFIXNODEWIDGETCONTROLLER___C__DISPLAYCLASS51_0__SETSTATE_B__1_OFFSET UNITYSDK_OFFSET(0x19DA8E70)
+#define MOLEMOLE_UIDATAFIXNODEWIDGETCONTROLLER___C__DISPLAYCLASS51_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19AA8F40)
+#define MOLEMOLE_UIDATAFIXNODEWIDGETCONTROLLER___C__DISPLAYCLASS51_0__SETSTATE_B__1_OFFSET UNITYSDK_OFFSET(0x19AA8F50)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIDataFixNodeWidgetController___c__DisplayClass51_0_TypeDefinitionIndex = 75658;
+	inline static constexpr unsigned int UIDataFixNodeWidgetController___c__DisplayClass51_0_TypeDefinitionIndex = 50799;
 
 	class UIDataFixNodeWidgetController___c__DisplayClass51_0 : public ::System::Object
 	{

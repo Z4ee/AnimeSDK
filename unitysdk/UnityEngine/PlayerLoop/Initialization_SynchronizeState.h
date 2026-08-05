@@ -4,7 +4,7 @@
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int Initialization_SynchronizeState_TypeDefinitionIndex = 5527;
+	inline static constexpr unsigned int Initialization_SynchronizeState_TypeDefinitionIndex = 5530;
 
 	struct alignas(1) Initialization_SynchronizeState
 	{

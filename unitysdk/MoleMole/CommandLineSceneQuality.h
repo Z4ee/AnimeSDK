@@ -7,13 +7,13 @@
 
 namespace MoleMole { class SceneQualityProfileContext; }
 
-#define MOLEMOLE_COMMANDLINESCENEQUALITY_METHOD_2_9D75387FC44B35EF_OFFSET UNITYSDK_OFFSET(0x1702F3A0)
-#define MOLEMOLE_COMMANDLINESCENEQUALITY_METHOD_2_EB9779B12C7F7019_OFFSET UNITYSDK_OFFSET(0x1702F250)
-#define MOLEMOLE_COMMANDLINESCENEQUALITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1702F360)
+#define MOLEMOLE_COMMANDLINESCENEQUALITY_METHOD_2_200BFE514C980B06_OFFSET UNITYSDK_OFFSET(0x150E58D0)
+#define MOLEMOLE_COMMANDLINESCENEQUALITY_METHOD_2_EB9779B12C7F7019_OFFSET UNITYSDK_OFFSET(0x150E5780)
+#define MOLEMOLE_COMMANDLINESCENEQUALITY__CTOR_OFFSET UNITYSDK_OFFSET(0x150E5890)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CommandLineSceneQuality_TypeDefinitionIndex = 46597;
+	inline static constexpr unsigned int CommandLineSceneQuality_TypeDefinitionIndex = 85082;
 
 	class CommandLineSceneQuality : public ::MoleMole::CommandLineSettingBase_2<::MoleMole::SceneQualityProfileContext*, ::MoleMole::CommandLineSceneQuality*>
 	{
@@ -32,9 +32,9 @@ namespace MoleMole
 			return ((::MoleMole::CommandLineSceneQuality*(*)(::PVOID, ::MoleMole::SceneQualityProfileContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINESCENEQUALITY_METHOD_2_EB9779B12C7F7019_OFFSET))(this, a1);
 		}
 
-		::MoleMole::SceneQualityProfileContext* Method_2_9D75387FC44B35EF(::MoleMole::SceneQualityProfileContext* a1)
+		::MoleMole::SceneQualityProfileContext* Method_2_200BFE514C980B06(::MoleMole::SceneQualityProfileContext* a1)
 		{
-			return ((::MoleMole::SceneQualityProfileContext*(*)(::PVOID, ::MoleMole::SceneQualityProfileContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINESCENEQUALITY_METHOD_2_9D75387FC44B35EF_OFFSET))(this, a1);
+			return ((::MoleMole::SceneQualityProfileContext*(*)(::PVOID, ::MoleMole::SceneQualityProfileContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINESCENEQUALITY_METHOD_2_200BFE514C980B06_OFFSET))(this, a1);
 		}
 	};
 }

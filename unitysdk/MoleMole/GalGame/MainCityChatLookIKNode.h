@@ -9,22 +9,22 @@ namespace MoleMole { class UIMainCityChatPlayContext; }
 namespace MoleMole::GalGame { class LookIKCfg; }
 namespace System { class String; }
 
-#define MOLEMOLE_GALGAME_MAINCITYCHATLOOKIKNODE_GETLOOKIKCFG_OFFSET UNITYSDK_OFFSET(0x1261DE40)
-#define MOLEMOLE_GALGAME_MAINCITYCHATLOOKIKNODE_INSTANTIATE_OFFSET UNITYSDK_OFFSET(0x1261DEF0)
-#define MOLEMOLE_GALGAME_MAINCITYCHATLOOKIKNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1261DEE0)
+#define MOLEMOLE_GALGAME_MAINCITYCHATLOOKIKNODE_GETLOOKIKCFG_OFFSET UNITYSDK_OFFSET(0x149EAD30)
+#define MOLEMOLE_GALGAME_MAINCITYCHATLOOKIKNODE_INSTANTIATE_OFFSET UNITYSDK_OFFSET(0x149EADE0)
+#define MOLEMOLE_GALGAME_MAINCITYCHATLOOKIKNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x149EADD0)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int MainCityChatLookIKNode_TypeDefinitionIndex = 40413;
+	inline static constexpr unsigned int MainCityChatLookIKNode_TypeDefinitionIndex = 84338;
 
 	class MainCityChatLookIKNode : public ::MoleMole::GalGame::MainCityChatPlayableNodeBase
 	{
 	public:
 		::System::String* IKMemberParam; // 0x18
 		::System::String* GroupMember; // 0x20
-		::MoleMole::GalGame::MainCityChatIKType IKType; // 0x28
+		::System::Int32 AvatarID; // 0x28
 		::System::Boolean Enable; // 0x2C
-		::System::Int32 AvatarID; // 0x30
+		::MoleMole::GalGame::MainCityChatIKType IKType; // 0x30
 		::System::Int32 IKParam; // 0x34
 
 		::System::Void _ctor()

@@ -6,11 +6,11 @@
 namespace MoleMole { class UIHollowItemCollectWidgetController_GridCollectionShowData; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_UIHOLLOWITEMCOLLECTWIDGETCONTROLLER_GRIDCOLLECTIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x177AD6B0)
+#define MOLEMOLE_UIHOLLOWITEMCOLLECTWIDGETCONTROLLER_GRIDCOLLECTIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x17323AA0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowItemCollectWidgetController_GridCollectionData_TypeDefinitionIndex = 43358;
+	inline static constexpr unsigned int UIHollowItemCollectWidgetController_GridCollectionData_TypeDefinitionIndex = 54636;
 
 	class UIHollowItemCollectWidgetController_GridCollectionData : public ::System::Object
 	{

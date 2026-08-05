@@ -3,7 +3,7 @@
 
 namespace Share
 {
-	inline static constexpr unsigned int EOperator_TypeDefinitionIndex = 15063;
+	inline static constexpr unsigned int EOperator_TypeDefinitionIndex = 10571;
 
 	enum class EOperator : ::System::Int16
 	{

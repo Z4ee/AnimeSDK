@@ -3,7 +3,7 @@
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int RGBMaskType_TypeDefinitionIndex = 5874;
+	inline static constexpr unsigned int RGBMaskType_TypeDefinitionIndex = 5876;
 
 	enum class RGBMaskType : ::System::Int32
 	{

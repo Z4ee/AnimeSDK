@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_35D50070BC469EAB.h"
+#include "unitysdk/Class_1_816D4E2238E8C24A.h"
 
 namespace MoleMole::Battle { class Entity; }
 namespace MoleMole::Config { class InteractEntry; }
@@ -8,18 +8,18 @@ namespace MoleMole::Config { class InteractEntryMode_ClueView; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_F2939B8C8D21CABD_METHOD_2_1C92751553E32AE6_OFFSET UNITYSDK_OFFSET(0x137656E0)
-#define CLASS_2_F2939B8C8D21CABD_METHOD_2_A2CBE01D475F2463_OFFSET UNITYSDK_OFFSET(0x137650C0)
-#define CLASS_2_F2939B8C8D21CABD_METHOD_2_CB210D3CDDB106B2_OFFSET UNITYSDK_OFFSET(0x13765690)
-#define CLASS_2_F2939B8C8D21CABD__CTOR_OFFSET UNITYSDK_OFFSET(0x13765030)
+#define CLASS_2_F2939B8C8D21CABD_METHOD_2_1C92751553E32AE6_OFFSET UNITYSDK_OFFSET(0x1508EC30)
+#define CLASS_2_F2939B8C8D21CABD_METHOD_2_A2CBE01D475F2463_OFFSET UNITYSDK_OFFSET(0x1508E610)
+#define CLASS_2_F2939B8C8D21CABD_METHOD_2_CB210D3CDDB106B2_OFFSET UNITYSDK_OFFSET(0x1508EBE0)
+#define CLASS_2_F2939B8C8D21CABD__CTOR_OFFSET UNITYSDK_OFFSET(0x1508E580)
 
-inline static constexpr unsigned int Class_2_F2939B8C8D21CABD_TypeDefinitionIndex = 67055;
+inline static constexpr unsigned int Class_2_F2939B8C8D21CABD_TypeDefinitionIndex = 85120;
 
-class Class_2_F2939B8C8D21CABD : public ::Class_1_35D50070BC469EAB
+class Class_2_F2939B8C8D21CABD : public ::Class_1_816D4E2238E8C24A
 {
 public:
-	// static const ::System::String* Field_2_1; // 0x0
-	::MoleMole::Config::InteractEntryMode_ClueView* Field_2_0; // 0x50
+	// static const ::System::String* Field_2_0; // 0x0
+	::MoleMole::Config::InteractEntryMode_ClueView* Field_2_1; // 0x50
 
 	::System::Void _ctor(::MoleMole::Config::InteractEntry* a1)
 	{

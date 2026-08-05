@@ -5,12 +5,12 @@
 namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
 namespace System::Collections { class IList; }
 
-#define NODECANVAS_TASKS_ACTIONS_SHUFFLELIST_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1C63BBD0)
-#define NODECANVAS_TASKS_ACTIONS_SHUFFLELIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1C63BFA0)
+#define NODECANVAS_TASKS_ACTIONS_SHUFFLELIST_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1DAF3200)
+#define NODECANVAS_TASKS_ACTIONS_SHUFFLELIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1DAF35E0)
 
 namespace NodeCanvas::Tasks::Actions
 {
-	inline static constexpr unsigned int ShuffleList_TypeDefinitionIndex = 30713;
+	inline static constexpr unsigned int ShuffleList_TypeDefinitionIndex = 30108;
 
 	class ShuffleList : public ::NodeCanvas::Framework::ActionTask
 	{

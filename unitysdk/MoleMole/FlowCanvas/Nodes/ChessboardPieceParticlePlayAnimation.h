@@ -5,12 +5,12 @@
 namespace MoleMole { class UIHollowChessPieceParticle; }
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_CHESSBOARDPIECEPARTICLEPLAYANIMATION_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A392A70)
-#define MOLEMOLE_FLOWCANVAS_NODES_CHESSBOARDPIECEPARTICLEPLAYANIMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1A392B20)
+#define MOLEMOLE_FLOWCANVAS_NODES_CHESSBOARDPIECEPARTICLEPLAYANIMATION_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B598CF0)
+#define MOLEMOLE_FLOWCANVAS_NODES_CHESSBOARDPIECEPARTICLEPLAYANIMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B598DA0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int ChessboardPieceParticlePlayAnimation_TypeDefinitionIndex = 69262;
+	inline static constexpr unsigned int ChessboardPieceParticlePlayAnimation_TypeDefinitionIndex = 85473;
 
 	class ChessboardPieceParticlePlayAnimation : public ::MoleMole::FlowCanvas::ChessboardCallableActionNode_2<::MoleMole::UIHollowChessPieceParticle*, ::System::String*>
 	{

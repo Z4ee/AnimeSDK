@@ -2,22 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/MonoUIAdaptor.h"
 
-class Class_1_CF69D1566697178D;
+namespace MoleMole { class MonoUIText; }
 namespace UnityEngine::UI { class Text; }
 
-#define MOLEMOLE_TEXTADAPTOR_GET_ISCHANGED_OFFSET UNITYSDK_OFFSET(0x17DF2640)
-#define MOLEMOLE_TEXTADAPTOR_SET_ISCHANGED_OFFSET UNITYSDK_OFFSET(0x17DF2660)
-#define MOLEMOLE_TEXTADAPTOR_UPDATEPARAMS_OFFSET UNITYSDK_OFFSET(0x17DF2730)
-#define MOLEMOLE_TEXTADAPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x17DF26C0)
+#define MOLEMOLE_TEXTADAPTOR_GET_ISCHANGED_OFFSET UNITYSDK_OFFSET(0x190B91B0)
+#define MOLEMOLE_TEXTADAPTOR_SET_ISCHANGED_OFFSET UNITYSDK_OFFSET(0x190B91D0)
+#define MOLEMOLE_TEXTADAPTOR_UPDATEPARAMS_OFFSET UNITYSDK_OFFSET(0x190B92A0)
+#define MOLEMOLE_TEXTADAPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x190B9230)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int TextAdaptor_TypeDefinitionIndex = 61032;
+	inline static constexpr unsigned int TextAdaptor_TypeDefinitionIndex = 60188;
 
 	class TextAdaptor : public ::MoleMole::MonoUIAdaptor
 	{
 	public:
-		::Class_1_CF69D1566697178D* AdaptorText; // 0x10
+		::MoleMole::MonoUIText* AdaptorText; // 0x10
 
 		::System::Void _ctor(::UnityEngine::UI::Text* text)
 		{

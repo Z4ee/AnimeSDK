@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RichTap/Internal/Singleton_1.h"
 
-#define RICHTAP_RICHTAPMANAGER_ONAPPLICATIONAWAKEN_OFFSET UNITYSDK_OFFSET(0x1DE18C10)
-#define RICHTAP_RICHTAPMANAGER_ONAPPLICATIONQUITTING_OFFSET UNITYSDK_OFFSET(0x1DE18E30)
-#define RICHTAP_RICHTAPMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1DE18EB0)
+#define RICHTAP_RICHTAPMANAGER_ONAPPLICATIONAWAKEN_OFFSET UNITYSDK_OFFSET(0x1F22C370)
+#define RICHTAP_RICHTAPMANAGER_ONAPPLICATIONQUITTING_OFFSET UNITYSDK_OFFSET(0x1F22C590)
+#define RICHTAP_RICHTAPMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F22C610)
 
 namespace RichTap
 {
-	inline static constexpr unsigned int RichtapManager_TypeDefinitionIndex = 38080;
+	inline static constexpr unsigned int RichtapManager_TypeDefinitionIndex = 38741;
 
 	class RichtapManager : public ::RichTap::Internal::Singleton_1<::RichTap::RichtapManager*>
 	{

@@ -6,12 +6,12 @@ namespace UnityEngine { class Component; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_RESOURCEEXPORTINGMODULE_SAVETOSCENE_OFFSET UNITYSDK_OFFSET(0x1E88B710)
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_RESOURCEEXPORTINGMODULE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E88BA90)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_RESOURCEEXPORTINGMODULE_SAVETOSCENE_OFFSET UNITYSDK_OFFSET(0x1FC6AA10)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_RESOURCEEXPORTINGMODULE__CTOR_OFFSET UNITYSDK_OFFSET(0x1FC6AD90)
 
 namespace FluffyUnderware::Curvy::Generator::Modules
 {
-	inline static constexpr unsigned int ResourceExportingModule_TypeDefinitionIndex = 39049;
+	inline static constexpr unsigned int ResourceExportingModule_TypeDefinitionIndex = 39498;
 
 	class ResourceExportingModule : public ::FluffyUnderware::Curvy::Generator::CGModule
 	{

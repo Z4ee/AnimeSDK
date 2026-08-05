@@ -7,12 +7,12 @@ namespace DigitalOpus::MB::Core { class MB3_MeshCombinerSingle; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define DIGITALOPUS_MB_CORE_MB3_MULTIMESHCOMBINER_COMBINEDMESH_ISEMPTY_OFFSET UNITYSDK_OFFSET(0x1DE87710)
-#define DIGITALOPUS_MB_CORE_MB3_MULTIMESHCOMBINER_COMBINEDMESH__CTOR_OFFSET UNITYSDK_OFFSET(0x1DE875B0)
+#define DIGITALOPUS_MB_CORE_MB3_MULTIMESHCOMBINER_COMBINEDMESH_ISEMPTY_OFFSET UNITYSDK_OFFSET(0x1F2A4560)
+#define DIGITALOPUS_MB_CORE_MB3_MULTIMESHCOMBINER_COMBINEDMESH__CTOR_OFFSET UNITYSDK_OFFSET(0x1F2A4400)
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int MB3_MultiMeshCombiner_CombinedMesh_TypeDefinitionIndex = 90650;
+	inline static constexpr unsigned int MB3_MultiMeshCombiner_CombinedMesh_TypeDefinitionIndex = 94583;
 
 	class MB3_MultiMeshCombiner_CombinedMesh : public ::System::Object
 	{

@@ -4,7 +4,7 @@
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int AnimationSubManager_Node_1_TypeDefinitionIndex = 57433;
+	inline static constexpr unsigned int AnimationSubManager_Node_1_TypeDefinitionIndex = 88344;
 
 	template <typename T>
 	struct AnimationSubManager_Node_1

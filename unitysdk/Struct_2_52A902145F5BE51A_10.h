@@ -2,9 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-inline static constexpr unsigned int Struct_2_52A902145F5BE51A_10_TypeDefinitionIndex = 78679;
+inline static constexpr unsigned int Struct_2_52A902145F5BE51A_10_TypeDefinitionIndex = 58575;
 
-template <typename TSeg>
-struct Struct_2_52A902145F5BE51A_10
+struct alignas(1) Struct_2_52A902145F5BE51A_10
 {
 };

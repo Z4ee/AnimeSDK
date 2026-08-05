@@ -3,27 +3,27 @@
 #include "unitysdk/System/Object.h"
 
 class Class_1_E081FCEC8F87505A;
-class Class_2_0A55B5A82A61DAFA;
+class Class_2_0A55B5A82A61DAFA_2;
 class Class_2_1824EF69C8E376A3;
 namespace MoleMole { class UILineupSelectContext; }
 namespace MoleMole { class UIRoleSelectPageContext; }
 namespace MoleMole { class UIYorozuyaAbyssWidgetController; }
 
-#define MOLEMOLE_UIYOROZUYAABYSSWIDGETCONTROLLER___C__DISPLAYCLASS70_0__CTOR_OFFSET UNITYSDK_OFFSET(0x11BE4670)
-#define MOLEMOLE_UIYOROZUYAABYSSWIDGETCONTROLLER___C__DISPLAYCLASS70_0__GOTOBEGINBATTLE_B__0_OFFSET UNITYSDK_OFFSET(0x11BE5000)
-#define MOLEMOLE_UIYOROZUYAABYSSWIDGETCONTROLLER___C__DISPLAYCLASS70_0__GOTOBEGINBATTLE_B__1_OFFSET UNITYSDK_OFFSET(0x11BE4680)
-#define MOLEMOLE_UIYOROZUYAABYSSWIDGETCONTROLLER___C__DISPLAYCLASS70_0__GOTOBEGINBATTLE_B__3_OFFSET UNITYSDK_OFFSET(0x11BE4990)
+#define MOLEMOLE_UIYOROZUYAABYSSWIDGETCONTROLLER___C__DISPLAYCLASS70_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1514BAC0)
+#define MOLEMOLE_UIYOROZUYAABYSSWIDGETCONTROLLER___C__DISPLAYCLASS70_0__GOTOBEGINBATTLE_B__0_OFFSET UNITYSDK_OFFSET(0x1514C470)
+#define MOLEMOLE_UIYOROZUYAABYSSWIDGETCONTROLLER___C__DISPLAYCLASS70_0__GOTOBEGINBATTLE_B__1_OFFSET UNITYSDK_OFFSET(0x1514BAD0)
+#define MOLEMOLE_UIYOROZUYAABYSSWIDGETCONTROLLER___C__DISPLAYCLASS70_0__GOTOBEGINBATTLE_B__3_OFFSET UNITYSDK_OFFSET(0x1514BDF0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIYorozuyaAbyssWidgetController___c__DisplayClass70_0_TypeDefinitionIndex = 66515;
+	inline static constexpr unsigned int UIYorozuyaAbyssWidgetController___c__DisplayClass70_0_TypeDefinitionIndex = 68605;
 
 	class UIYorozuyaAbyssWidgetController___c__DisplayClass70_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UILineupSelectContext* selectedPageData; // 0x10
-		::MoleMole::UIYorozuyaAbyssWidgetController* __4__this; // 0x18
-		::Class_2_0A55B5A82A61DAFA* selectedConfig; // 0x20
+		::MoleMole::UIYorozuyaAbyssWidgetController* __4__this; // 0x10
+		::MoleMole::UILineupSelectContext* selectedPageData; // 0x18
+		::Class_2_0A55B5A82A61DAFA_2* selectedConfig; // 0x20
 
 		::System::Void _ctor()
 		{

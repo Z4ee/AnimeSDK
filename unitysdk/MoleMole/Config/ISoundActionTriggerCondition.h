@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ISoundActionTriggerCondition_TypeDefinitionIndex = 67138;
+	inline static constexpr unsigned int ISoundActionTriggerCondition_TypeDefinitionIndex = 80927;
 
 	class ISoundActionTriggerCondition
 	{

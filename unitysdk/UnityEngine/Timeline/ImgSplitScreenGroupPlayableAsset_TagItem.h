@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_TIMELINE_IMGSPLITSCREENGROUPPLAYABLEASSET_TAGITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1E3DE220)
+#define UNITYENGINE_TIMELINE_IMGSPLITSCREENGROUPPLAYABLEASSET_TAGITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1F81FA10)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int ImgSplitScreenGroupPlayableAsset_TagItem_TypeDefinitionIndex = 32351;
+	inline static constexpr unsigned int ImgSplitScreenGroupPlayableAsset_TagItem_TypeDefinitionIndex = 32982;
 
 	class ImgSplitScreenGroupPlayableAsset_TagItem : public ::System::Object
 	{

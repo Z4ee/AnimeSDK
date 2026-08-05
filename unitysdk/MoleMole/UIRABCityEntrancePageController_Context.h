@@ -4,19 +4,19 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UIRABCITYENTRANCEPAGECONTROLLER_CONTEXT_APPLYJUMPPARAS_OFFSET UNITYSDK_OFFSET(0x15610E20)
-#define MOLEMOLE_UIRABCITYENTRANCEPAGECONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15610E90)
-#define MOLEMOLE_UIRABCITYENTRANCEPAGECONTROLLER_CONTEXT___BASE_APPLYJUMPPARAS_OFFSET UNITYSDK_OFFSET(0x15610EF0)
+#define MOLEMOLE_UIRABCITYENTRANCEPAGECONTROLLER_CONTEXT_APPLYJUMPPARAS_OFFSET UNITYSDK_OFFSET(0x16A7E330)
+#define MOLEMOLE_UIRABCITYENTRANCEPAGECONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16A7E3A0)
+#define MOLEMOLE_UIRABCITYENTRANCEPAGECONTROLLER_CONTEXT___BASE_APPLYJUMPPARAS_OFFSET UNITYSDK_OFFSET(0x16A7E400)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRABCityEntrancePageController_Context_TypeDefinitionIndex = 57509;
+	inline static constexpr unsigned int UIRABCityEntrancePageController_Context_TypeDefinitionIndex = 59809;
 
 	class UIRABCityEntrancePageController_Context : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::System::Action* CancelAction; // 0x28
-		::System::Action* ConfirmAction; // 0x30
+		::System::Action* ConfirmAction; // 0x28
+		::System::Action* CancelAction; // 0x30
 		::System::Int32 ChallengeId; // 0x38
 
 		::System::Void _ctor()

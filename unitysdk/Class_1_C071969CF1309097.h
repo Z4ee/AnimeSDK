@@ -6,10 +6,10 @@ namespace MoleMole { class UIHollowChessPieceParticle; }
 namespace MoleMole::Config { class HollowChessboardParticleConfig; }
 namespace System { class String; }
 
-#define CLASS_1_C071969CF1309097_SPAWN_OFFSET UNITYSDK_OFFSET(0x19076BD0)
-#define CLASS_1_C071969CF1309097__CTOR_OFFSET UNITYSDK_OFFSET(0x19076CA0)
+#define CLASS_1_C071969CF1309097_SPAWN_OFFSET UNITYSDK_OFFSET(0x169BEE30)
+#define CLASS_1_C071969CF1309097__CTOR_OFFSET UNITYSDK_OFFSET(0x169BEF00)
 
-inline static constexpr unsigned int Class_1_C071969CF1309097_TypeDefinitionIndex = 61360;
+inline static constexpr unsigned int Class_1_C071969CF1309097_TypeDefinitionIndex = 57930;
 
 class Class_1_C071969CF1309097 : public ::System::Object
 {

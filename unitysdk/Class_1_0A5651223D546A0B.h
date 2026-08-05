@@ -4,9 +4,9 @@
 
 namespace UnityEngine { class Object; }
 
-#define CLASS_1_0A5651223D546A0B_METHOD_1_D92CE46E17256F68_OFFSET UNITYSDK_OFFSET(0xD3766E0)
+#define CLASS_1_0A5651223D546A0B_METHOD_1_D92CE46E17256F68_OFFSET UNITYSDK_OFFSET(0x14D6FCB0)
 
-inline static constexpr unsigned int Class_1_0A5651223D546A0B_TypeDefinitionIndex = 41939;
+inline static constexpr unsigned int Class_1_0A5651223D546A0B_TypeDefinitionIndex = 75295;
 
 class Class_1_0A5651223D546A0B : public ::System::Object
 {

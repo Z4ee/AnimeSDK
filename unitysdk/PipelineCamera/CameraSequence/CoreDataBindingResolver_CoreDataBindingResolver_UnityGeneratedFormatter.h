@@ -11,22 +11,22 @@ namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define PIPELINECAMERA_CAMERASEQUENCE_COREDATABINDINGRESOLVER_COREDATABINDINGRESOLVER_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x1DC2D0A0)
-#define PIPELINECAMERA_CAMERASEQUENCE_COREDATABINDINGRESOLVER_COREDATABINDINGRESOLVER_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x1DC2D0B0)
-#define PIPELINECAMERA_CAMERASEQUENCE_COREDATABINDINGRESOLVER_COREDATABINDINGRESOLVER_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x1DC2D290)
-#define PIPELINECAMERA_CAMERASEQUENCE_COREDATABINDINGRESOLVER_COREDATABINDINGRESOLVER_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DC2D430)
-#define PIPELINECAMERA_CAMERASEQUENCE_COREDATABINDINGRESOLVER_COREDATABINDINGRESOLVER_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1DC2D3F0)
+#define PIPELINECAMERA_CAMERASEQUENCE_COREDATABINDINGRESOLVER_COREDATABINDINGRESOLVER_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x1F0555A0)
+#define PIPELINECAMERA_CAMERASEQUENCE_COREDATABINDINGRESOLVER_COREDATABINDINGRESOLVER_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x1F0555B0)
+#define PIPELINECAMERA_CAMERASEQUENCE_COREDATABINDINGRESOLVER_COREDATABINDINGRESOLVER_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x1F055740)
+#define PIPELINECAMERA_CAMERASEQUENCE_COREDATABINDINGRESOLVER_COREDATABINDINGRESOLVER_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F0558A0)
+#define PIPELINECAMERA_CAMERASEQUENCE_COREDATABINDINGRESOLVER_COREDATABINDINGRESOLVER_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F055860)
 
 namespace PipelineCamera::CameraSequence
 {
-	inline static constexpr unsigned int CoreDataBindingResolver_CoreDataBindingResolver_UnityGeneratedFormatter_TypeDefinitionIndex = 37873;
+	inline static constexpr unsigned int CoreDataBindingResolver_CoreDataBindingResolver_UnityGeneratedFormatter_TypeDefinitionIndex = 38534;
 
 	class CoreDataBindingResolver_CoreDataBindingResolver_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::PipelineCamera::CameraSequence::CoreDataBindingResolver*>
 	{
 	public:
 		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::PipelineCamera::CameraSequence::CameraSequenceCollectionPath, ::PipelineCamera::CameraSequence::CameraSequenceMemberPath>*>** StaticGet_CachedSerializer0()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::PipelineCamera::CameraSequence::CameraSequenceCollectionPath, ::PipelineCamera::CameraSequence::CameraSequenceMemberPath>*>**)Il2CppClass::FromTypeDefinitionIndex(CoreDataBindingResolver_CoreDataBindingResolver_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x28D60);
+			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::PipelineCamera::CameraSequence::CameraSequenceCollectionPath, ::PipelineCamera::CameraSequence::CameraSequenceMemberPath>*>**)Il2CppClass::FromTypeDefinitionIndex(CoreDataBindingResolver_CoreDataBindingResolver_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x2A680);
 		}
 
 		::System::Void _ctor()

@@ -9,7 +9,7 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int MethodInfoFormatter_1___c_TypeDefinitionIndex = 7470;
+	inline static constexpr unsigned int MethodInfoFormatter_1___c_TypeDefinitionIndex = 7474;
 
 	template <typename T>
 	class MethodInfoFormatter_1___c : public ::System::Object

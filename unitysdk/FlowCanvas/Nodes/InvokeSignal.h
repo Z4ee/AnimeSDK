@@ -10,23 +10,23 @@ namespace System { class String; }
 namespace UnityEngine { class Object; }
 namespace UnityEngine { class Transform; }
 
-#define FLOWCANVAS_NODES_INVOKESIGNAL_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1DB93430)
-#define FLOWCANVAS_NODES_INVOKESIGNAL_GET_SIGNALDEFINITION_OFFSET UNITYSDK_OFFSET(0x1DB93370)
-#define FLOWCANVAS_NODES_INVOKESIGNAL_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1DB93780)
-#define FLOWCANVAS_NODES_INVOKESIGNAL_SETTARGET_OFFSET UNITYSDK_OFFSET(0x1DB936C0)
-#define FLOWCANVAS_NODES_INVOKESIGNAL_SET_SIGNALDEFINITION_OFFSET UNITYSDK_OFFSET(0x1DB933D0)
-#define FLOWCANVAS_NODES_INVOKESIGNAL__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB93C20)
+#define FLOWCANVAS_NODES_INVOKESIGNAL_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1EF896D0)
+#define FLOWCANVAS_NODES_INVOKESIGNAL_GET_SIGNALDEFINITION_OFFSET UNITYSDK_OFFSET(0x1EF89610)
+#define FLOWCANVAS_NODES_INVOKESIGNAL_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1EF89A20)
+#define FLOWCANVAS_NODES_INVOKESIGNAL_SETTARGET_OFFSET UNITYSDK_OFFSET(0x1EF89960)
+#define FLOWCANVAS_NODES_INVOKESIGNAL_SET_SIGNALDEFINITION_OFFSET UNITYSDK_OFFSET(0x1EF89670)
+#define FLOWCANVAS_NODES_INVOKESIGNAL__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF89EC0)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int InvokeSignal_TypeDefinitionIndex = 29583;
+	inline static constexpr unsigned int InvokeSignal_TypeDefinitionIndex = 30883;
 
 	class InvokeSignal : public ::FlowCanvas::FlowNode
 	{
 	public:
-		::FlowCanvas::ValueInput_1<::UnityEngine::Transform*>* target; // 0xA8
+		::NodeCanvas::Framework::BBParameter_1<::NodeCanvas::Framework::SignalDefinition*>* _signalDefinition; // 0xA8
 		::Il2CppArray<::FlowCanvas::ValueInput*>* inputArgs; // 0xB0
-		::NodeCanvas::Framework::BBParameter_1<::NodeCanvas::Framework::SignalDefinition*>* _signalDefinition; // 0xB8
+		::FlowCanvas::ValueInput_1<::UnityEngine::Transform*>* target; // 0xB8
 		::System::Boolean global; // 0xC0
 
 		::System::Void _ctor()

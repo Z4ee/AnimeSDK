@@ -10,29 +10,29 @@ namespace NodeCanvas::Framework { class Graph; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWTIP_ONCREATE_OFFSET UNITYSDK_OFFSET(0x182DB450)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWTIP_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x182DB270)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWTIP__CTOR_OFFSET UNITYSDK_OFFSET(0x182DB4F0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWTIP__GETCREATEDTIPOBJECT_OFFSET UNITYSDK_OFFSET(0x182DB4A0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWTIP__REGISTERPORTS_B__7_0_OFFSET UNITYSDK_OFFSET(0x182DB530)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWTIP__REGISTERPORTS_B__7_1_OFFSET UNITYSDK_OFFSET(0x182DB9A0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWTIP___BASE_ONCREATE_OFFSET UNITYSDK_OFFSET(0x182DB9E0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWTIP_ONCREATE_OFFSET UNITYSDK_OFFSET(0x19B12A90)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWTIP_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x19B128B0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWTIP__CTOR_OFFSET UNITYSDK_OFFSET(0x19B12B30)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWTIP__GETCREATEDTIPOBJECT_OFFSET UNITYSDK_OFFSET(0x19B12AE0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWTIP__REGISTERPORTS_B__7_0_OFFSET UNITYSDK_OFFSET(0x19B12B70)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWTIP__REGISTERPORTS_B__7_1_OFFSET UNITYSDK_OFFSET(0x19B12FF0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWTIP___BASE_ONCREATE_OFFSET UNITYSDK_OFFSET(0x19B13030)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDShowTip_TypeDefinitionIndex = 70597;
+	inline static constexpr unsigned int LDShowTip_TypeDefinitionIndex = 54702;
 
 	class LDShowTip : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::ValueInput_1<::System::String*>* tipParam; // 0xA8
-		::MoleMole::UIBubbleTips* _bubbleTip; // 0xB0
+		::FlowCanvas::FlowOutput* finish; // 0xA8
+		::FlowCanvas::ValueInput_1<::System::Boolean>* show; // 0xB0
 		::FlowCanvas::FlowOutput* output; // 0xB8
-		::FlowCanvas::ValueInput_1<::System::Int32>* showPage; // 0xC0
-		::FlowCanvas::FlowOutput* finish; // 0xC8
-		::FlowCanvas::ValueInput_1<::System::Boolean>* show; // 0xD0
+		::FlowCanvas::ValueInput_1<::System::Collections::Generic::List_1<::System::String*>*>* tipParamList; // 0xC0
+		::FlowCanvas::ValueInput_1<::System::String*>* tipParam; // 0xC8
+		::FlowCanvas::ValueInput_1<::System::Int32>* showPage; // 0xD0
 		::FlowCanvas::ValueInput_1<::System::Int32>* tipID; // 0xD8
-		::FlowCanvas::ValueInput_1<::System::Collections::Generic::List_1<::System::String*>*>* tipParamList; // 0xE0
+		::MoleMole::UIBubbleTips* _bubbleTip; // 0xE0
 		::System::Int32 defaultV; // 0xE8
 
 		::System::Void _ctor()

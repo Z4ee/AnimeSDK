@@ -3,7 +3,7 @@
 
 namespace ToolBuddy::ThirdParty::VectorGraphics
 {
-	inline static constexpr unsigned int PathEnding_TypeDefinitionIndex = 31159;
+	inline static constexpr unsigned int PathEnding_TypeDefinitionIndex = 31778;
 
 	enum class PathEnding : ::System::Int32
 	{

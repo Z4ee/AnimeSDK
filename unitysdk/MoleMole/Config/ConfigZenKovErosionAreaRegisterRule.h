@@ -1,0 +1,79 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/FlexBuffers/FlxMap.h"
+#include "unitysdk/FlexBuffers/FlxValue.h"
+#include "unitysdk/MoleMole/Config/ConfigDungeonRegisterRuleBase.h"
+
+class Class_1_236FD73ABC492E3F;
+namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
+
+#define MOLEMOLE_CONFIG_CONFIGZENKOVEROSIONAREAREGISTERRULE_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19ACB080)
+#define MOLEMOLE_CONFIG_CONFIGZENKOVEROSIONAREAREGISTERRULE_FROMFLX_OFFSET UNITYSDK_OFFSET(0x19ACB010)
+#define MOLEMOLE_CONFIG_CONFIGZENKOVEROSIONAREAREGISTERRULE_METHOD_2_35266350495949E4_OFFSET UNITYSDK_OFFSET(0x19ACB1D0)
+#define MOLEMOLE_CONFIG_CONFIGZENKOVEROSIONAREAREGISTERRULE_METHOD_2_6704D57D4F412560_OFFSET UNITYSDK_OFFSET(0x19ACAF00)
+#define MOLEMOLE_CONFIG_CONFIGZENKOVEROSIONAREAREGISTERRULE_METHOD_2_9B00DC6B301F3F39_OFFSET UNITYSDK_OFFSET(0x19ACB090)
+#define MOLEMOLE_CONFIG_CONFIGZENKOVEROSIONAREAREGISTERRULE_METHOD_2_9DD3EDD511999235_OFFSET UNITYSDK_OFFSET(0x19ACB0B0)
+#define MOLEMOLE_CONFIG_CONFIGZENKOVEROSIONAREAREGISTERRULE_METHOD_2_A042C46DE73C3043_OFFSET UNITYSDK_OFFSET(0x19ACAEF0)
+#define MOLEMOLE_CONFIG_CONFIGZENKOVEROSIONAREAREGISTERRULE_METHOD_2_C74CF020AA42ED85_OFFSET UNITYSDK_OFFSET(0x19ACB000)
+#define MOLEMOLE_CONFIG_CONFIGZENKOVEROSIONAREAREGISTERRULE_METHOD_2_D4DA1493472613E6_OFFSET UNITYSDK_OFFSET(0x19ACB070)
+#define MOLEMOLE_CONFIG_CONFIGZENKOVEROSIONAREAREGISTERRULE__CTOR_OFFSET UNITYSDK_OFFSET(0x19ACB0A0)
+
+namespace MoleMole::Config
+{
+	inline static constexpr unsigned int ConfigZenKovErosionAreaRegisterRule_TypeDefinitionIndex = 89840;
+
+	class ConfigZenKovErosionAreaRegisterRule : public ::MoleMole::Config::ConfigDungeonRegisterRuleBase
+	{
+	public:
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGZENKOVEROSIONAREAREGISTERRULE__CTOR_OFFSET))(this);
+		}
+
+		::System::Void Method_2_A042C46DE73C3043(::System::Action_1<::System::Object*>* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGZENKOVEROSIONAREAREGISTERRULE_METHOD_2_A042C46DE73C3043_OFFSET))(this, a1);
+		}
+
+		::MoleMole::Config::ConfigDungeonRegisterRuleBase* Method_2_6704D57D4F412560()
+		{
+			return ((::MoleMole::Config::ConfigDungeonRegisterRuleBase*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGZENKOVEROSIONAREAREGISTERRULE_METHOD_2_6704D57D4F412560_OFFSET))(this);
+		}
+
+		::System::Int32 Method_2_C74CF020AA42ED85()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGZENKOVEROSIONAREAREGISTERRULE_METHOD_2_C74CF020AA42ED85_OFFSET))(this);
+		}
+
+		::System::Boolean FromFlx(::FlexBuffers::FlxValue a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGZENKOVEROSIONAREAREGISTERRULE_FROMFLX_OFFSET))(this, a1);
+		}
+
+		::System::Boolean FromBinary(::Class_1_236FD73ABC492E3F* a1, ::System::Int32 a2)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGZENKOVEROSIONAREAREGISTERRULE_FROMBINARY_OFFSET))(this, a1, a2);
+		}
+
+		static ::MoleMole::Config::ConfigZenKovErosionAreaRegisterRule* Method_2_9DD3EDD511999235(::FlexBuffers::FlxValue a1)
+		{
+			return ((::MoleMole::Config::ConfigZenKovErosionAreaRegisterRule*(*)(::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGZENKOVEROSIONAREAREGISTERRULE_METHOD_2_9DD3EDD511999235_OFFSET))(a1);
+		}
+
+		::System::Boolean Method_2_9B00DC6B301F3F39(::Class_1_236FD73ABC492E3F* a1, ::System::Int32 a2)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGZENKOVEROSIONAREAREGISTERRULE_METHOD_2_9B00DC6B301F3F39_OFFSET))(this, a1, a2);
+		}
+
+		::System::Boolean Method_2_D4DA1493472613E6(::FlexBuffers::FlxMap a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxMap))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGZENKOVEROSIONAREAREGISTERRULE_METHOD_2_D4DA1493472613E6_OFFSET))(this, a1);
+		}
+
+		static ::MoleMole::Config::ConfigZenKovErosionAreaRegisterRule* Method_2_35266350495949E4(::Class_1_236FD73ABC492E3F* a1, ::System::Int32 a2)
+		{
+			return ((::MoleMole::Config::ConfigZenKovErosionAreaRegisterRule*(*)(::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGZENKOVEROSIONAREAREGISTERRULE_METHOD_2_35266350495949E4_OFFSET))(a1, a2);
+		}
+	};
+}

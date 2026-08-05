@@ -16,48 +16,48 @@ namespace UnityEngine { class Texture2DArray; }
 namespace UnityEngine::NAPRenderPipeline0 { class ProfilingSampler; }
 namespace UnityEngine::Rendering::Universal::Internal { class BakePointShadowSettings; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_BAKEDPOINTSHADOWCAPTUREPASS_COUNTSELECTEDFACES_OFFSET UNITYSDK_OFFSET(0x1D4DEB60)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_BAKEDPOINTSHADOWCAPTUREPASS_CREATERUNTIMETEXTURE2DARRAY_OFFSET UNITYSDK_OFFSET(0x1D4DF690)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_BAKEDPOINTSHADOWCAPTUREPASS_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1D4DAD80)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_BAKEDPOINTSHADOWCAPTUREPASS_ENSUREFACERT_OFFSET UNITYSDK_OFFSET(0x1D4DEF40)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_BAKEDPOINTSHADOWCAPTUREPASS_ENSUREREADBACKTEX_OFFSET UNITYSDK_OFFSET(0x1D4DF290)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_BAKEDPOINTSHADOWCAPTUREPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1D4DC360)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_BAKEDPOINTSHADOWCAPTUREPASS_RELEASERT_OFFSET UNITYSDK_OFFSET(0x1D4DAFA0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_BAKEDPOINTSHADOWCAPTUREPASS_RESOLVEMESHRENDERERS_OFFSET UNITYSDK_OFFSET(0x1D4DEBC0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_BAKEDPOINTSHADOWCAPTUREPASS_SETUP_OFFSET UNITYSDK_OFFSET(0x1D4DB1E0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_BAKEDPOINTSHADOWCAPTUREPASS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D4DF830)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_BAKEDPOINTSHADOWCAPTUREPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4DAA50)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_BAKEDPOINTSHADOWCAPTUREPASS_COUNTSELECTEDFACES_OFFSET UNITYSDK_OFFSET(0x1E665220)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_BAKEDPOINTSHADOWCAPTUREPASS_CREATERUNTIMETEXTURE2DARRAY_OFFSET UNITYSDK_OFFSET(0x1E665D50)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_BAKEDPOINTSHADOWCAPTUREPASS_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1E661390)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_BAKEDPOINTSHADOWCAPTUREPASS_ENSUREFACERT_OFFSET UNITYSDK_OFFSET(0x1E665600)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_BAKEDPOINTSHADOWCAPTUREPASS_ENSUREREADBACKTEX_OFFSET UNITYSDK_OFFSET(0x1E665950)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_BAKEDPOINTSHADOWCAPTUREPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1E6629B0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_BAKEDPOINTSHADOWCAPTUREPASS_RELEASERT_OFFSET UNITYSDK_OFFSET(0x1E6615B0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_BAKEDPOINTSHADOWCAPTUREPASS_RESOLVEMESHRENDERERS_OFFSET UNITYSDK_OFFSET(0x1E665280)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_BAKEDPOINTSHADOWCAPTUREPASS_SETUP_OFFSET UNITYSDK_OFFSET(0x1E6617F0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_BAKEDPOINTSHADOWCAPTUREPASS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E665EF0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_BAKEDPOINTSHADOWCAPTUREPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E661060)
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int BakedPointShadowCapturePass_TypeDefinitionIndex = 26676;
+	inline static constexpr unsigned int BakedPointShadowCapturePass_TypeDefinitionIndex = 27853;
 
 	class BakedPointShadowCapturePass : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 	{
 	public:
-		static ::System::Int32* StaticGet_BakedLightRangeId()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(BakedPointShadowCapturePass_TypeDefinitionIndex)->GetStaticField(0x7030);
-		}
 		static ::System::Int32* StaticGet_BakedLightWorldPosId()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(BakedPointShadowCapturePass_TypeDefinitionIndex)->GetStaticField(0x7034);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(BakedPointShadowCapturePass_TypeDefinitionIndex)->GetStaticField(0x6FA0);
 		}
 		static ::System::Int32* StaticGet_LightPositionId()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(BakedPointShadowCapturePass_TypeDefinitionIndex)->GetStaticField(0x7038);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(BakedPointShadowCapturePass_TypeDefinitionIndex)->GetStaticField(0x6FA4);
+		}
+		static ::System::Int32* StaticGet_BakedLightRangeId()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(BakedPointShadowCapturePass_TypeDefinitionIndex)->GetStaticField(0x6FA8);
 		}
 		static ::System::Int32* StaticGet_ShadowBiasId()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(BakedPointShadowCapturePass_TypeDefinitionIndex)->GetStaticField(0x703C);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(BakedPointShadowCapturePass_TypeDefinitionIndex)->GetStaticField(0x6FAC);
 		}
 		// static const ::System::String* k_ProfilerTag; // 0x0
-		::UnityEngine::Material* m_DepthMaterial; // 0xA8
-		::UnityEngine::RenderTexture* m_FaceRt; // 0xB0
-		::UnityEngine::NAPRenderPipeline0::ProfilingSampler* profilingSampler; // 0xB8
+		::UnityEngine::Rendering::Universal::Internal::BakePointShadowSettings* m_BakeSettings; // 0xA8
+		::UnityEngine::NAPRenderPipeline0::ProfilingSampler* profilingSampler; // 0xB0
+		::UnityEngine::Material* m_DepthMaterial; // 0xB8
 		::UnityEngine::Texture2D* m_ReadbackTex; // 0xC0
-		::UnityEngine::Rendering::Universal::Internal::BakePointShadowSettings* m_BakeSettings; // 0xC8
-		::System::Collections::Generic::List_1<::UnityEngine::MeshRenderer*>* m_Renderers; // 0xD0
+		::System::Collections::Generic::List_1<::UnityEngine::MeshRenderer*>* m_Renderers; // 0xC8
+		::UnityEngine::RenderTexture* m_FaceRt; // 0xD0
 
 		::System::Void _ctor()
 		{

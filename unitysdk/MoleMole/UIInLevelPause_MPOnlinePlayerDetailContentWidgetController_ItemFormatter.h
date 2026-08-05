@@ -5,17 +5,17 @@
 namespace MoleMole { class UIInLevelPauseNormalRowWidgetController; }
 namespace MoleMole { class UIInLevelPauseNormalRowWidgetController_Formatter; }
 
-#define MOLEMOLE_UIINLEVELPAUSE_MPONLINEPLAYERDETAILCONTENTWIDGETCONTROLLER_ITEMFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x16A1F180)
+#define MOLEMOLE_UIINLEVELPAUSE_MPONLINEPLAYERDETAILCONTENTWIDGETCONTROLLER_ITEMFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x18FE7D80)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInLevelPause_MPOnlinePlayerDetailContentWidgetController_ItemFormatter_TypeDefinitionIndex = 60796;
+	inline static constexpr unsigned int UIInLevelPause_MPOnlinePlayerDetailContentWidgetController_ItemFormatter_TypeDefinitionIndex = 63637;
 
 	class UIInLevelPause_MPOnlinePlayerDetailContentWidgetController_ItemFormatter : public ::System::Object
 	{
 	public:
-		::MoleMole::UIInLevelPauseNormalRowWidgetController_Formatter* formatter; // 0x10
-		::MoleMole::UIInLevelPauseNormalRowWidgetController* controller; // 0x18
+		::MoleMole::UIInLevelPauseNormalRowWidgetController* controller; // 0x10
+		::MoleMole::UIInLevelPauseNormalRowWidgetController_Formatter* formatter; // 0x18
 
 		::System::Void _ctor()
 		{

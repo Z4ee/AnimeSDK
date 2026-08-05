@@ -5,12 +5,12 @@
 
 namespace MoleMole::Battle { class Entity; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSETMONSTERTEAMNODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x12BB7D80)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSETMONSTERTEAMNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x12BB7E30)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSETMONSTERTEAMNODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x138392D0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSETMONSTERTEAMNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x13839380)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDSetMonsterTeamNode_TypeDefinitionIndex = 52893;
+	inline static constexpr unsigned int LDSetMonsterTeamNode_TypeDefinitionIndex = 67729;
 
 	class LDSetMonsterTeamNode : public ::FlowCanvas::Nodes::CallableFunctionNode_4<::System::Boolean, ::MoleMole::Battle::Entity*, ::MoleMole::Config::CampType, ::System::Boolean>
 	{

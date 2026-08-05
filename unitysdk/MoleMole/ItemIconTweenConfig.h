@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_ITEMICONTWEENCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A039650)
+#define MOLEMOLE_ITEMICONTWEENCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1908BC40)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ItemIconTweenConfig_TypeDefinitionIndex = 80378;
+	inline static constexpr unsigned int ItemIconTweenConfig_TypeDefinitionIndex = 78702;
 
 	class ItemIconTweenConfig : public ::System::Object
 	{

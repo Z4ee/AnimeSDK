@@ -4,7 +4,7 @@
 
 namespace NPCCrowd
 {
-	inline static constexpr unsigned int NPCSoftAssetPathUtils_CancelAction_1_TypeDefinitionIndex = 53417;
+	inline static constexpr unsigned int NPCSoftAssetPathUtils_CancelAction_1_TypeDefinitionIndex = 47719;
 
 	template <typename T>
 	class NPCSoftAssetPathUtils_CancelAction_1 : public ::System::Object

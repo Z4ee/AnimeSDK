@@ -10,28 +10,28 @@ namespace MoleMole::Config { class ConfigDynamicAttachItem; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_ANIMATORZONEDYNAMICATTACHMENTS_CREATEZONEINFOINSTANCE_OFFSET UNITYSDK_OFFSET(0x12C5FA50)
-#define MOLEMOLE_CONFIG_ANIMATORZONEDYNAMICATTACHMENTS_ONZONEENTER_OFFSET UNITYSDK_OFFSET(0x12C5F330)
-#define MOLEMOLE_CONFIG_ANIMATORZONEDYNAMICATTACHMENTS_ONZONEEXIT_OFFSET UNITYSDK_OFFSET(0x12C5F770)
-#define MOLEMOLE_CONFIG_ANIMATORZONEDYNAMICATTACHMENTS__CTOR_OFFSET UNITYSDK_OFFSET(0x12C5FAE0)
-#define MOLEMOLE_CONFIG_ANIMATORZONEDYNAMICATTACHMENTS___BASE_CREATEZONEINFOINSTANCE_OFFSET UNITYSDK_OFFSET(0x12C5FAF0)
-#define MOLEMOLE_CONFIG_ANIMATORZONEDYNAMICATTACHMENTS___BASE_ONZONEENTER_OFFSET UNITYSDK_OFFSET(0x12C5FBC0)
-#define MOLEMOLE_CONFIG_ANIMATORZONEDYNAMICATTACHMENTS___BASE_ONZONEEXIT_OFFSET UNITYSDK_OFFSET(0x12C5FC70)
+#define MOLEMOLE_CONFIG_ANIMATORZONEDYNAMICATTACHMENTS_CREATEZONEINFOINSTANCE_OFFSET UNITYSDK_OFFSET(0x1145F5C0)
+#define MOLEMOLE_CONFIG_ANIMATORZONEDYNAMICATTACHMENTS_ONZONEENTER_OFFSET UNITYSDK_OFFSET(0x1145EEA0)
+#define MOLEMOLE_CONFIG_ANIMATORZONEDYNAMICATTACHMENTS_ONZONEEXIT_OFFSET UNITYSDK_OFFSET(0x1145F2E0)
+#define MOLEMOLE_CONFIG_ANIMATORZONEDYNAMICATTACHMENTS__CTOR_OFFSET UNITYSDK_OFFSET(0x1145F650)
+#define MOLEMOLE_CONFIG_ANIMATORZONEDYNAMICATTACHMENTS___BASE_CREATEZONEINFOINSTANCE_OFFSET UNITYSDK_OFFSET(0x1145F660)
+#define MOLEMOLE_CONFIG_ANIMATORZONEDYNAMICATTACHMENTS___BASE_ONZONEENTER_OFFSET UNITYSDK_OFFSET(0x1145F730)
+#define MOLEMOLE_CONFIG_ANIMATORZONEDYNAMICATTACHMENTS___BASE_ONZONEEXIT_OFFSET UNITYSDK_OFFSET(0x1145F7E0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AnimatorZoneDynamicAttachments_TypeDefinitionIndex = 51940;
+	inline static constexpr unsigned int AnimatorZoneDynamicAttachments_TypeDefinitionIndex = 62753;
 
 	class AnimatorZoneDynamicAttachments : public ::MoleMole::Config::AnimatorZone
 	{
 	public:
-		::System::String* syncAttachmentAnimState; // 0x50
-		::System::String* syncParentAnimState; // 0x58
-		::System::Collections::Generic::List_1<::MoleMole::Config::ConfigDynamicAttachItem*>* attachmentGroupList; // 0x60
-		::System::Collections::Generic::List_1<::MoleMole::Config::ConfigDynamicAttachmentAnimSync>* animSyncs; // 0x68
-		::System::Single endNormalizedTime; // 0x70
-		::System::Boolean isFollow; // 0x74
-		::System::Single startNormalizedTime; // 0x78
+		::System::Collections::Generic::List_1<::MoleMole::Config::ConfigDynamicAttachmentAnimSync>* animSyncs; // 0x50
+		::System::Collections::Generic::List_1<::MoleMole::Config::ConfigDynamicAttachItem*>* attachmentGroupList; // 0x58
+		::System::String* syncAttachmentAnimState; // 0x60
+		::System::String* syncParentAnimState; // 0x68
+		::System::Single startNormalizedTime; // 0x70
+		::System::Single endNormalizedTime; // 0x74
+		::System::Boolean isFollow; // 0x78
 
 		::System::Void _ctor()
 		{

@@ -4,7 +4,7 @@
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int PostLateUpdate_TreeComputeWindPropertiesForAllVisible_TypeDefinitionIndex = 5627;
+	inline static constexpr unsigned int PostLateUpdate_TreeComputeWindPropertiesForAllVisible_TypeDefinitionIndex = 5630;
 
 	struct alignas(1) PostLateUpdate_TreeComputeWindPropertiesForAllVisible
 	{

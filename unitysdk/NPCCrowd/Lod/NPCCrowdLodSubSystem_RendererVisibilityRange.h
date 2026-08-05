@@ -6,7 +6,7 @@ namespace NPCCrowd::Animation { class NPCUnionAnimator; }
 
 namespace NPCCrowd::Lod
 {
-	inline static constexpr unsigned int NPCCrowdLodSubSystem_RendererVisibilityRange_TypeDefinitionIndex = 61129;
+	inline static constexpr unsigned int NPCCrowdLodSubSystem_RendererVisibilityRange_TypeDefinitionIndex = 58303;
 
 	struct alignas(8) NPCCrowdLodSubSystem_RendererVisibilityRange
 	{

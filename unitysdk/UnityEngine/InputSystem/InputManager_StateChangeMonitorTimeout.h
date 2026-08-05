@@ -7,7 +7,7 @@ namespace UnityEngine::InputSystem::LowLevel { class IInputStateChangeMonitor; }
 
 namespace UnityEngine::InputSystem
 {
-	inline static constexpr unsigned int InputManager_StateChangeMonitorTimeout_TypeDefinitionIndex = 31687;
+	inline static constexpr unsigned int InputManager_StateChangeMonitorTimeout_TypeDefinitionIndex = 32307;
 
 	struct alignas(8) InputManager_StateChangeMonitorTimeout
 	{

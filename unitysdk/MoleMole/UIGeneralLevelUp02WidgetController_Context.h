@@ -2,26 +2,26 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_3_AE02BC8285203464_29;
+class Class_3_AA32EAE205D9293B_2;
 namespace System { class Action; }
 
-#define MOLEMOLE_UIGENERALLEVELUP02WIDGETCONTROLLER_CONTEXT_GET_ONCLOSE_OFFSET UNITYSDK_OFFSET(0x16A98470)
-#define MOLEMOLE_UIGENERALLEVELUP02WIDGETCONTROLLER_CONTEXT_SET_ONCLOSE_OFFSET UNITYSDK_OFFSET(0x16A98480)
-#define MOLEMOLE_UIGENERALLEVELUP02WIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16A98490)
+#define MOLEMOLE_UIGENERALLEVELUP02WIDGETCONTROLLER_CONTEXT_GET_ONCLOSE_OFFSET UNITYSDK_OFFSET(0x1880F0A0)
+#define MOLEMOLE_UIGENERALLEVELUP02WIDGETCONTROLLER_CONTEXT_SET_ONCLOSE_OFFSET UNITYSDK_OFFSET(0x1880F0B0)
+#define MOLEMOLE_UIGENERALLEVELUP02WIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1880F0C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralLevelUp02WidgetController_Context_TypeDefinitionIndex = 64196;
+	inline static constexpr unsigned int UIGeneralLevelUp02WidgetController_Context_TypeDefinitionIndex = 75472;
 
 	class UIGeneralLevelUp02WidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_3_AE02BC8285203464_29* lastInfo; // 0x28
-		::System::Action* _onClose_k__BackingField; // 0x30
+		::System::Action* _onClose_k__BackingField; // 0x28
+		::Class_3_AA32EAE205D9293B_2* lastInfo; // 0x30
 
-		::System::Void _ctor(::Class_3_AE02BC8285203464_29* lastInfo, ::System::Action* onClose)
+		::System::Void _ctor(::Class_3_AA32EAE205D9293B_2* lastInfo, ::System::Action* onClose)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_3_AE02BC8285203464_29*, ::System::Action*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIGENERALLEVELUP02WIDGETCONTROLLER_CONTEXT__CTOR_OFFSET))(this, lastInfo, onClose);
+			return ((::System::Void(*)(::PVOID, ::Class_3_AA32EAE205D9293B_2*, ::System::Action*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIGENERALLEVELUP02WIDGETCONTROLLER_CONTEXT__CTOR_OFFSET))(this, lastInfo, onClose);
 		}
 
 		::System::Action* get_onClose()

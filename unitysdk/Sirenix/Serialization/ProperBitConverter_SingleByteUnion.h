@@ -4,7 +4,7 @@
 
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int ProperBitConverter_SingleByteUnion_TypeDefinitionIndex = 7522;
+	inline static constexpr unsigned int ProperBitConverter_SingleByteUnion_TypeDefinitionIndex = 7526;
 
 	struct alignas(4) ProperBitConverter_SingleByteUnion
 	{

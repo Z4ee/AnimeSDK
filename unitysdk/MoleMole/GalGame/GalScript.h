@@ -7,11 +7,11 @@ namespace MoleMole::GalGame { class GalPlayableSegment; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_GALGAME_GALSCRIPT__CTOR_OFFSET UNITYSDK_OFFSET(0x15129B30)
+#define MOLEMOLE_GALGAME_GALSCRIPT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1B5630)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int GalScript_TypeDefinitionIndex = 46007;
+	inline static constexpr unsigned int GalScript_TypeDefinitionIndex = 53406;
 
 	class GalScript : public ::Sirenix::OdinInspector::SerializedScriptableObject
 	{

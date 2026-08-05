@@ -6,11 +6,11 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_PLUGINUI_MIHOYOSDKUILISTITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1D26DF80)
+#define MIHOYO_SDK_PLUGINUI_MIHOYOSDKUILISTITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1E5C2090)
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int MiHoYoSDKUIListItem_TypeDefinitionIndex = 37251;
+	inline static constexpr unsigned int MiHoYoSDKUIListItem_TypeDefinitionIndex = 37912;
 
 	class MiHoYoSDKUIListItem : public ::System::Object
 	{

@@ -3,14 +3,14 @@
 
 namespace Share
 {
-	inline static constexpr unsigned int EOptionsShowMode_TypeDefinitionIndex = 11398;
+	inline static constexpr unsigned int EOptionsShowMode_TypeDefinitionIndex = 9681;
 
 	enum class EOptionsShowMode : ::System::Int16
 	{
-		Item = 2,
 		Challenge = 4,
+		Item = 2,
 		Normal = 0,
-		Event = 1,
 		Card = 3,
+		Event = 1,
 	};
 }

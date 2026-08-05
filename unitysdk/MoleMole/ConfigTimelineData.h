@@ -6,12 +6,12 @@ namespace MoleMole { class TimelineData; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIGTIMELINEDATA_OPENSHOWTEXTSCANTOOL_OFFSET UNITYSDK_OFFSET(0x115F2690)
-#define MOLEMOLE_CONFIGTIMELINEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x115F2720)
+#define MOLEMOLE_CONFIGTIMELINEDATA_OPENSHOWTEXTSCANTOOL_OFFSET UNITYSDK_OFFSET(0x19228AA0)
+#define MOLEMOLE_CONFIGTIMELINEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19228B30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigTimelineData_TypeDefinitionIndex = 48066;
+	inline static constexpr unsigned int ConfigTimelineData_TypeDefinitionIndex = 73985;
 
 	class ConfigTimelineData : public ::Foundation::MihoyoSerializedScriptableObject
 	{

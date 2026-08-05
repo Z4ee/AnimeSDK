@@ -15,7 +15,7 @@ namespace UnityEngine::InputSystem::LowLevel { class InputUpdateDelegate; }
 
 namespace UnityEngine::InputSystem::LowLevel
 {
-	inline static constexpr unsigned int IInputRuntime_TypeDefinitionIndex = 31929;
+	inline static constexpr unsigned int IInputRuntime_TypeDefinitionIndex = 32549;
 
 	class IInputRuntime
 	{

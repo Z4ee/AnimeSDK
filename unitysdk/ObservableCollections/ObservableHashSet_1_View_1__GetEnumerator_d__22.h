@@ -8,7 +8,7 @@ namespace ObservableCollections { template <typename T1, typename T2> class Obse
 
 namespace ObservableCollections
 {
-	inline static constexpr unsigned int ObservableHashSet_1_View_1__GetEnumerator_d__22_TypeDefinitionIndex = 28267;
+	inline static constexpr unsigned int ObservableHashSet_1_View_1__GetEnumerator_d__22_TypeDefinitionIndex = 28788;
 
 	template <typename T, typename TView>
 	class ObservableHashSet_1_View_1__GetEnumerator_d__22 : public ::System::Object

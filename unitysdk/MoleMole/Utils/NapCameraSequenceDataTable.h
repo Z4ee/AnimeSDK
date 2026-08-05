@@ -6,11 +6,11 @@ namespace MoleMole::Utils { class INapCameraSequenceDataTableEntry; }
 namespace System { class String; }
 namespace System { class Type; }
 
-#define MOLEMOLE_UTILS_NAPCAMERASEQUENCEDATATABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x11BEEAA0)
+#define MOLEMOLE_UTILS_NAPCAMERASEQUENCEDATATABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x12B267A0)
 
 namespace MoleMole::Utils
 {
-	inline static constexpr unsigned int NapCameraSequenceDataTable_TypeDefinitionIndex = 43640;
+	inline static constexpr unsigned int NapCameraSequenceDataTable_TypeDefinitionIndex = 77101;
 
 	class NapCameraSequenceDataTable : public ::Sirenix::OdinInspector::SerializedScriptableObject
 	{

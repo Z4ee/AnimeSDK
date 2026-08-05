@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define SCEPADTRIGGEREFFECTWEAPONPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x7D2BB0)
+#define SCEPADTRIGGEREFFECTWEAPONPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x885100)
 
-inline static constexpr unsigned int ScePadTriggerEffectWeaponParam_TypeDefinitionIndex = 73871;
+inline static constexpr unsigned int ScePadTriggerEffectWeaponParam_TypeDefinitionIndex = 74348;
 
 struct alignas(1) ScePadTriggerEffectWeaponParam
 {

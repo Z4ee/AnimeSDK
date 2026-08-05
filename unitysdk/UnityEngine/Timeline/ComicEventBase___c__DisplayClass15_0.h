@@ -5,12 +5,12 @@
 namespace Sirenix::OdinInspector { template <typename T> class ValueDropdownList_1; }
 namespace UnityEngine::Timeline { class ImgSplitScreenGroupPlayableAsset_TagItem; }
 
-#define UNITYENGINE_TIMELINE_COMICEVENTBASE___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD09D40)
-#define UNITYENGINE_TIMELINE_COMICEVENTBASE___C__DISPLAYCLASS15_0__ONTAGDROPDOWN_B__0_OFFSET UNITYSDK_OFFSET(0x1DD09D50)
+#define UNITYENGINE_TIMELINE_COMICEVENTBASE___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1F0E11C0)
+#define UNITYENGINE_TIMELINE_COMICEVENTBASE___C__DISPLAYCLASS15_0__ONTAGDROPDOWN_B__0_OFFSET UNITYSDK_OFFSET(0x1F0E11D0)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int ComicEventBase___c__DisplayClass15_0_TypeDefinitionIndex = 32324;
+	inline static constexpr unsigned int ComicEventBase___c__DisplayClass15_0_TypeDefinitionIndex = 32955;
 
 	class ComicEventBase___c__DisplayClass15_0 : public ::System::Object
 	{

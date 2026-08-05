@@ -1,24 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_0A3761FE34514D6C_31.h"
+#include "unitysdk/Enum_3_DB663931210BBC27_11.h"
 #include "unitysdk/System/Object.h"
 
-class Class_3_C3F0E3B5AB5977AE;
+class Class_3_C3F0E3B5AB5977AE_29;
 namespace System { class Action; }
 
-#define CLASS_2_D1CED082B4F1459A_CLASS_1_C4F6281B5188AD1B_METHOD_1_E3DE31A03057E055_OFFSET UNITYSDK_OFFSET(0x13E448F0)
-#define CLASS_2_D1CED082B4F1459A_CLASS_1_C4F6281B5188AD1B__CTOR_OFFSET UNITYSDK_OFFSET(0x13E448E0)
+#define CLASS_2_D1CED082B4F1459A_CLASS_1_C4F6281B5188AD1B_METHOD_1_E3DE31A03057E055_OFFSET UNITYSDK_OFFSET(0x12BBE7A0)
+#define CLASS_2_D1CED082B4F1459A_CLASS_1_C4F6281B5188AD1B__CTOR_OFFSET UNITYSDK_OFFSET(0x12BBE790)
 
-inline static constexpr unsigned int Class_2_D1CED082B4F1459A_Class_1_C4F6281B5188AD1B_TypeDefinitionIndex = 69679;
+inline static constexpr unsigned int Class_2_D1CED082B4F1459A_Class_1_C4F6281B5188AD1B_TypeDefinitionIndex = 87697;
 
 class Class_2_D1CED082B4F1459A_Class_1_C4F6281B5188AD1B : public ::System::Object
 {
 public:
-	::Class_3_C3F0E3B5AB5977AE* Field_1_1; // 0x10
-	::System::Action* Field_1_4; // 0x18
-	::Class_3_C3F0E3B5AB5977AE* Field_1_0; // 0x20
-	::System::Action* Field_1_3; // 0x28
-	::Enum_3_0A3761FE34514D6C_31 Field_1_2; // 0x30
+	::System::Action* Field_1_5; // 0x10
+	::Class_3_C3F0E3B5AB5977AE_29* Field_1_1; // 0x18
+	::System::Action* Field_1_6; // 0x20
+	::Class_3_C3F0E3B5AB5977AE_29* Field_1_0; // 0x28
+	::Enum_3_DB663931210BBC27_11 Field_1_7; // 0x30
 
 	::System::Void _ctor()
 	{

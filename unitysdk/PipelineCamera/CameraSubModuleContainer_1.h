@@ -16,7 +16,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int CameraSubModuleContainer_1_TypeDefinitionIndex = 37531;
+	inline static constexpr unsigned int CameraSubModuleContainer_1_TypeDefinitionIndex = 38192;
 
 	template <typename T>
 	class CameraSubModuleContainer_1 : public ::System::Object

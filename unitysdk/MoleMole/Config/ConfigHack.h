@@ -15,11 +15,11 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 namespace UnityEngine { class Gradient; }
 namespace UnityEngine { class Texture2D; }
 
-#define MOLEMOLE_CONFIG_CONFIGHACK__CTOR_OFFSET UNITYSDK_OFFSET(0x158A8970)
+#define MOLEMOLE_CONFIG_CONFIGHACK__CTOR_OFFSET UNITYSDK_OFFSET(0x143759A0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHack_TypeDefinitionIndex = 75739;
+	inline static constexpr unsigned int ConfigHack_TypeDefinitionIndex = 50932;
 
 	class ConfigHack : public ::Foundation::MihoyoSerializedScriptableObject
 	{
@@ -54,26 +54,27 @@ namespace MoleMole::Config
 		::System::String* cameraHackEnterSoundActionKey; // 0xE8
 		::System::String* cameraHackExitSoundActionKey; // 0xF0
 		::System::String* cameraMoveSpeedRtpcName; // 0xF8
-		::UnityEngine::Color AvatarOccludedOverlayColor; // 0x100
-		::System::Single AvatarOccludedOverlayIntensity; // 0x110
-		::UnityEngine::Texture2D* AvatarOccludedOverlayBaseTexture; // 0x118
-		::System::Single AvatarOccludedOverlayBaseTextureIntensity; // 0x120
-		::UnityEngine::Vector2 AvatarOccludedOverlayBaseTextureTiling; // 0x124
-		::UnityEngine::Color AvatarOccludedOverlayBaseColorA; // 0x12C
-		::UnityEngine::Color AvatarOccludedOverlayBaseColorB; // 0x13C
-		::System::Single AvatarOccludedOverlayBaseScrollSpeed; // 0x14C
-		::System::Single AvatarOccludedOcclusionDepthEpsilon; // 0x150
-		::UnityEngine::Gradient* OutlineColorGradient; // 0x158
-		::System::Single OutlineColorIntensity; // 0x160
-		::System::Single OutlineAnimLifetime; // 0x164
-		::System::Boolean OccludedByDepth; // 0x168
-		::System::Boolean OccludedByCharacters; // 0x169
-		::System::Boolean UseLODGroup; // 0x16A
-		::System::Single outlineThickness; // 0x16C
-		::System::String* HighlightMaterialPath; // 0x170
-		::UnityEngine::Color OverlayColor; // 0x178
-		::System::Single MinOpacity; // 0x188
-		::System::Single MaxOpacity; // 0x18C
+		::System::String* cameraMoveLimitSoundActionKey; // 0x100
+		::UnityEngine::Color AvatarOccludedOverlayColor; // 0x108
+		::System::Single AvatarOccludedOverlayIntensity; // 0x118
+		::UnityEngine::Texture2D* AvatarOccludedOverlayBaseTexture; // 0x120
+		::System::Single AvatarOccludedOverlayBaseTextureIntensity; // 0x128
+		::UnityEngine::Vector2 AvatarOccludedOverlayBaseTextureTiling; // 0x12C
+		::UnityEngine::Color AvatarOccludedOverlayBaseColorA; // 0x134
+		::UnityEngine::Color AvatarOccludedOverlayBaseColorB; // 0x144
+		::System::Single AvatarOccludedOverlayBaseScrollSpeed; // 0x154
+		::System::Single AvatarOccludedOcclusionDepthEpsilon; // 0x158
+		::UnityEngine::Gradient* OutlineColorGradient; // 0x160
+		::System::Single OutlineColorIntensity; // 0x168
+		::System::Single OutlineAnimLifetime; // 0x16C
+		::System::Boolean OccludedByDepth; // 0x170
+		::System::Boolean OccludedByCharacters; // 0x171
+		::System::Boolean UseLODGroup; // 0x172
+		::System::Single outlineThickness; // 0x174
+		::System::String* HighlightMaterialPath; // 0x178
+		::UnityEngine::Color OverlayColor; // 0x180
+		::System::Single MinOpacity; // 0x190
+		::System::Single MaxOpacity; // 0x194
 
 		::System::Void _ctor()
 		{

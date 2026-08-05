@@ -9,21 +9,21 @@ namespace Nap::NapECS { class IEcsComponentList; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NAP_NAPECS_ECSCOMPONENTCHUNK_REGISTERENTITY_OFFSET UNITYSDK_OFFSET(0x1B2EDBF0)
-#define NAP_NAPECS_ECSCOMPONENTCHUNK_REMOVESWAPENTITYID_OFFSET UNITYSDK_OFFSET(0x1B2EE700)
-#define NAP_NAPECS_ECSCOMPONENTCHUNK_UNREGISTERENTITY_OFFSET UNITYSDK_OFFSET(0x1B2EE0B0)
-#define NAP_NAPECS_ECSCOMPONENTCHUNK__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2E6AC0)
+#define NAP_NAPECS_ECSCOMPONENTCHUNK_REGISTERENTITY_OFFSET UNITYSDK_OFFSET(0x1C83C420)
+#define NAP_NAPECS_ECSCOMPONENTCHUNK_REMOVESWAPENTITYID_OFFSET UNITYSDK_OFFSET(0x1C83CF00)
+#define NAP_NAPECS_ECSCOMPONENTCHUNK_UNREGISTERENTITY_OFFSET UNITYSDK_OFFSET(0x1C83C8C0)
+#define NAP_NAPECS_ECSCOMPONENTCHUNK__CTOR_OFFSET UNITYSDK_OFFSET(0x1C835410)
 
 namespace Nap::NapECS
 {
-	inline static constexpr unsigned int EcsComponentChunk_TypeDefinitionIndex = 37277;
+	inline static constexpr unsigned int EcsComponentChunk_TypeDefinitionIndex = 37934;
 
 	class EcsComponentChunk : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::UInt32>* _componentIndexToEntityId; // 0x10
-		::Il2CppArray<::Nap::NapECS::IEcsComponentList*>* _components; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Int32>* _entityIdToComponentIndex; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Int32>* _entityIdToComponentIndex; // 0x10
+		::System::Collections::Generic::List_1<::System::UInt32>* _componentIndexToEntityId; // 0x18
+		::Il2CppArray<::Nap::NapECS::IEcsComponentList*>* _components; // 0x20
 		::Nap::NapECS::ComponentMask _mask; // 0x28
 
 		::System::Void _ctor(::System::Int32 worldTypeID, ::Nap::NapECS::ComponentMask& mask)

@@ -7,11 +7,11 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Mesh; }
 
-#define NAPSTREAMING_NAPSTREAMINGBRGHELPER_BATCHKEYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xE036070)
+#define NAPSTREAMING_NAPSTREAMINGBRGHELPER_BATCHKEYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x11950D40)
 
 namespace NapStreaming
 {
-	inline static constexpr unsigned int NapStreamingBRGHelper_BatchKeyData_TypeDefinitionIndex = 78933;
+	inline static constexpr unsigned int NapStreamingBRGHelper_BatchKeyData_TypeDefinitionIndex = 66356;
 
 	class NapStreamingBRGHelper_BatchKeyData : public ::System::Object
 	{
@@ -25,6 +25,7 @@ namespace NapStreaming
 		::UnityEngine::Rendering::BatchDrawVisibilityMask splitVisibilityMask; // 0x38
 		::System::Single lodScreenRelativeMin; // 0x3C
 		::System::Single lodScreenRelativeMax; // 0x40
+		::System::Boolean useDistanceLod; // 0x44
 
 		::System::Void _ctor()
 		{

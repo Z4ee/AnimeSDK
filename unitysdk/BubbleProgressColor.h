@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Color.h"
 
-#define BUBBLEPROGRESSCOLOR__CTOR_OFFSET UNITYSDK_OFFSET(0x12D45DD0)
+#define BUBBLEPROGRESSCOLOR__CTOR_OFFSET UNITYSDK_OFFSET(0x14471CD0)
 
-inline static constexpr unsigned int BubbleProgressColor_TypeDefinitionIndex = 62024;
+inline static constexpr unsigned int BubbleProgressColor_TypeDefinitionIndex = 71072;
 
 class BubbleProgressColor : public ::System::Object
 {

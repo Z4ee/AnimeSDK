@@ -9,11 +9,11 @@ namespace MoleMole::Config { class ConfigEntityRadialBlur; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGENTITYRADIALBLURS__CTOR_OFFSET UNITYSDK_OFFSET(0x12B3B920)
+#define MOLEMOLE_CONFIG_CONFIGENTITYRADIALBLURS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7EC340)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigEntityRadialBlurs_TypeDefinitionIndex = 58084;
+	inline static constexpr unsigned int ConfigEntityRadialBlurs_TypeDefinitionIndex = 68488;
 
 	class ConfigEntityRadialBlurs : public ::Foundation::MihoyoSerializedScriptableObject
 	{

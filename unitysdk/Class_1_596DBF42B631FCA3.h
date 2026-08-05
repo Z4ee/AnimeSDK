@@ -7,18 +7,18 @@ namespace System { class Action; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define CLASS_1_596DBF42B631FCA3_METHOD_1_088BD8CA5A9677BC_OFFSET UNITYSDK_OFFSET(0x13D840F0)
-#define CLASS_1_596DBF42B631FCA3_METHOD_1_49DFA39A30A44449_OFFSET UNITYSDK_OFFSET(0x13D84230)
-#define CLASS_1_596DBF42B631FCA3_METHOD_1_502A81344CAEE4A4_OFFSET UNITYSDK_OFFSET(0x13D84140)
+#define CLASS_1_596DBF42B631FCA3_METHOD_1_088BD8CA5A9677BC_OFFSET UNITYSDK_OFFSET(0x10D35160)
+#define CLASS_1_596DBF42B631FCA3_METHOD_1_49DFA39A30A44449_OFFSET UNITYSDK_OFFSET(0x10D352A0)
+#define CLASS_1_596DBF42B631FCA3_METHOD_1_502A81344CAEE4A4_OFFSET UNITYSDK_OFFSET(0x10D351B0)
 
-inline static constexpr unsigned int Class_1_596DBF42B631FCA3_TypeDefinitionIndex = 69167;
+inline static constexpr unsigned int Class_1_596DBF42B631FCA3_TypeDefinitionIndex = 88513;
 
 class Class_1_596DBF42B631FCA3 : public ::System::Object
 {
 public:
 	static ::MoleMole::ConfigBubbleGroup** StaticGet_Field_1_0()
 	{
-		return (::MoleMole::ConfigBubbleGroup**)Il2CppClass::FromTypeDefinitionIndex(Class_1_596DBF42B631FCA3_TypeDefinitionIndex)->GetStaticField(0x38DF0);
+		return (::MoleMole::ConfigBubbleGroup**)Il2CppClass::FromTypeDefinitionIndex(Class_1_596DBF42B631FCA3_TypeDefinitionIndex)->GetStaticField(0x30BF0);
 	}
 
 	static ::MoleMole::ConfigBubbleGroup* Method_1_088BD8CA5A9677BC()

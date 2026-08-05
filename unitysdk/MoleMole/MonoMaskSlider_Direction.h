@@ -3,14 +3,14 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoMaskSlider_Direction_TypeDefinitionIndex = 75168;
+	inline static constexpr unsigned int MonoMaskSlider_Direction_TypeDefinitionIndex = 77205;
 
 	enum class MonoMaskSlider_Direction : ::System::Int32
 	{
-		RightToLeft = 1,
 		TopToBottom = 3,
-		LeftToRight = 0,
 		HorizontalSideToCenter = 4,
+		RightToLeft = 1,
 		BottomToTop = 2,
+		LeftToRight = 0,
 	};
 }

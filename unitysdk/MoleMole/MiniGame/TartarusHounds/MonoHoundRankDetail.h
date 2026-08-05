@@ -8,14 +8,14 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
 
-#define MOLEMOLE_MINIGAME_TARTARUSHOUNDS_MONOHOUNDRANKDETAIL_INITNAMEVIEW_OFFSET UNITYSDK_OFFSET(0x182FA430)
-#define MOLEMOLE_MINIGAME_TARTARUSHOUNDS_MONOHOUNDRANKDETAIL_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x182FAA00)
-#define MOLEMOLE_MINIGAME_TARTARUSHOUNDS_MONOHOUNDRANKDETAIL_SWITCHACCOUNTNAMEINFO_OFFSET UNITYSDK_OFFSET(0x182FA3B0)
-#define MOLEMOLE_MINIGAME_TARTARUSHOUNDS_MONOHOUNDRANKDETAIL__CTOR_OFFSET UNITYSDK_OFFSET(0x182FACD0)
+#define MOLEMOLE_MINIGAME_TARTARUSHOUNDS_MONOHOUNDRANKDETAIL_INITNAMEVIEW_OFFSET UNITYSDK_OFFSET(0x199532B0)
+#define MOLEMOLE_MINIGAME_TARTARUSHOUNDS_MONOHOUNDRANKDETAIL_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x19953880)
+#define MOLEMOLE_MINIGAME_TARTARUSHOUNDS_MONOHOUNDRANKDETAIL_SWITCHACCOUNTNAMEINFO_OFFSET UNITYSDK_OFFSET(0x19953230)
+#define MOLEMOLE_MINIGAME_TARTARUSHOUNDS_MONOHOUNDRANKDETAIL__CTOR_OFFSET UNITYSDK_OFFSET(0x19953B50)
 
 namespace MoleMole::MiniGame::TartarusHounds
 {
-	inline static constexpr unsigned int MonoHoundRankDetail_TypeDefinitionIndex = 79836;
+	inline static constexpr unsigned int MonoHoundRankDetail_TypeDefinitionIndex = 74437;
 
 	class MonoHoundRankDetail : public ::UnityEngine::MonoBehaviour
 	{
@@ -26,12 +26,12 @@ namespace MoleMole::MiniGame::TartarusHounds
 		::UnityEngine::UI::Image* consoleIcon; // 0x30
 		::UnityEngine::UI::Extension::UILocalizationText* timeText; // 0x38
 		::UnityEngine::GameObject* myRim; // 0x40
-		::System::Boolean Field_5_6; // 0x48
-		::UnityEngine::UI::Extension::UILocalizationText* Field_5_7; // 0x50
-		::System::String* Field_5_8; // 0x58
-		::System::String* Field_5_9; // 0x60
-		::System::Boolean Field_5_10; // 0x68
-		::Foundation::AssetRequestHandle Field_5_11; // 0x70
+		::System::Boolean Field_5_5; // 0x48
+		::UnityEngine::UI::Extension::UILocalizationText* Field_5_4; // 0x50
+		::System::String* Field_5_11; // 0x58
+		::System::String* Field_5_10; // 0x60
+		::System::Boolean Field_5_9; // 0x68
+		::Foundation::AssetRequestHandle Field_5_8; // 0x70
 
 		::System::Void _ctor()
 		{

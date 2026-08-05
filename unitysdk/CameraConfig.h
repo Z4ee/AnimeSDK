@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-inline static constexpr unsigned int CameraConfig_TypeDefinitionIndex = 84324;
+inline static constexpr unsigned int CameraConfig_TypeDefinitionIndex = 66343;
 
 struct alignas(4) CameraConfig
 {

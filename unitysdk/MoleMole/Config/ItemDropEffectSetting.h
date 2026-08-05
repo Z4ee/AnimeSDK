@@ -4,14 +4,15 @@
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
+namespace MoleMole::Config { class ConfigPosRot; }
 namespace System { class String; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CONFIG_ITEMDROPEFFECTSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x17D6BD50)
+#define MOLEMOLE_CONFIG_ITEMDROPEFFECTSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x172BD030)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ItemDropEffectSetting_TypeDefinitionIndex = 71985;
+	inline static constexpr unsigned int ItemDropEffectSetting_TypeDefinitionIndex = 62713;
 
 	class ItemDropEffectSetting : public ::System::Object
 	{
@@ -45,20 +46,22 @@ namespace MoleMole::Config
 		::System::Single TargetFinalYRatio; // 0xA4
 		::System::Single DefaultColliderRadius; // 0xA8
 		::System::Single PassByDistance; // 0xAC
-		::System::Single DropRotateSpeed; // 0xB0
-		::UnityEngine::AnimationCurve* DropRotateSpeedCurve; // 0xB8
-		::System::Single IdleRotateSpeed; // 0xC0
-		::System::Single PickUpRotateSpeed; // 0xC4
-		::System::Boolean SkipIdleSate; // 0xC8
-		::System::Boolean ReplaceGravity; // 0xC9
-		::UnityEngine::Vector3 ReplaceGravityValue; // 0xCC
-		::UnityEngine::Vector2 ClampForFreeMotion; // 0xD8
-		::UnityEngine::Vector2 MaxSpeedToPick; // 0xE0
-		::System::Boolean UseDropItemFlyAcceleratedCurve; // 0xE8
-		::UnityEngine::AnimationCurve* DropItemFlyAcceleratedCurve; // 0xF0
-		::System::Boolean OverridePickUpDirSpeed; // 0xF8
-		::UnityEngine::AnimationCurve* PickUpDirSpeedCurve; // 0x100
-		::System::Single PickUpDirSpeed; // 0x108
+		::MoleMole::Config::ConfigPosRot* PickerPosConfigPosRot; // 0xB0
+		::System::Single PickPosRadius; // 0xB8
+		::System::Single DropRotateSpeed; // 0xBC
+		::UnityEngine::AnimationCurve* DropRotateSpeedCurve; // 0xC0
+		::System::Single IdleRotateSpeed; // 0xC8
+		::System::Single PickUpRotateSpeed; // 0xCC
+		::System::Boolean SkipIdleSate; // 0xD0
+		::System::Boolean ReplaceGravity; // 0xD1
+		::UnityEngine::Vector3 ReplaceGravityValue; // 0xD4
+		::UnityEngine::Vector2 ClampForFreeMotion; // 0xE0
+		::UnityEngine::Vector2 MaxSpeedToPick; // 0xE8
+		::System::Boolean UseDropItemFlyAcceleratedCurve; // 0xF0
+		::UnityEngine::AnimationCurve* DropItemFlyAcceleratedCurve; // 0xF8
+		::System::Boolean OverridePickUpDirSpeed; // 0x100
+		::UnityEngine::AnimationCurve* PickUpDirSpeedCurve; // 0x108
+		::System::Single PickUpDirSpeed; // 0x110
 
 		::System::Void _ctor()
 		{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SIRENIX_ODININSPECTOR_DONTVALIDATEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E328B60)
+#define SIRENIX_ODININSPECTOR_DONTVALIDATEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F76FF00)
 
 namespace Sirenix::OdinInspector
 {
-	inline static constexpr unsigned int DontValidateAttribute_TypeDefinitionIndex = 7288;
+	inline static constexpr unsigned int DontValidateAttribute_TypeDefinitionIndex = 7292;
 
 	class DontValidateAttribute : public ::System::Attribute
 	{

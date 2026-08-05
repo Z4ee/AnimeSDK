@@ -3,11 +3,11 @@
 #include "unitysdk/MoleMole/Config/EffectLODType.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_CONFIG_COOPVFXCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA65A90)
+#define MOLEMOLE_CONFIG_COOPVFXCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4680C0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int CoopVFXConfig_TypeDefinitionIndex = 43142;
+	inline static constexpr unsigned int CoopVFXConfig_TypeDefinitionIndex = 63906;
 
 	class CoopVFXConfig : public ::System::Object
 	{

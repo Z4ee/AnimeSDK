@@ -3,7 +3,7 @@
 
 namespace NPCCrowd::Lod
 {
-	inline static constexpr unsigned int NPCExternalLodRenderRuleConfigSO_RuleKeyType_TypeDefinitionIndex = 66248;
+	inline static constexpr unsigned int NPCExternalLodRenderRuleConfigSO_RuleKeyType_TypeDefinitionIndex = 57440;
 
 	enum class NPCExternalLodRenderRuleConfigSO_RuleKeyType : ::System::Int32
 	{

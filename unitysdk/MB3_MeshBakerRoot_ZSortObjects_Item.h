@@ -5,9 +5,9 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define MB3_MESHBAKERROOT_ZSORTOBJECTS_ITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1E20EDC0)
+#define MB3_MESHBAKERROOT_ZSORTOBJECTS_ITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1F63A120)
 
-inline static constexpr unsigned int MB3_MeshBakerRoot_ZSortObjects_Item_TypeDefinitionIndex = 90546;
+inline static constexpr unsigned int MB3_MeshBakerRoot_ZSortObjects_Item_TypeDefinitionIndex = 94479;
 
 class MB3_MeshBakerRoot_ZSortObjects_Item : public ::System::Object
 {

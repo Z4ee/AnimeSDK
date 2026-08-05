@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int ForwardRendererData_ShaderConfig_TypeDefinitionIndex = 26589;
+	inline static constexpr unsigned int ForwardRendererData_ShaderConfig_TypeDefinitionIndex = 27769;
 
 	struct alignas(8) ForwardRendererData_ShaderConfig
 	{

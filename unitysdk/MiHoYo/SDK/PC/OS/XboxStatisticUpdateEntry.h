@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_XBOXSTATISTICUPDATEENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1C0DF5E0)
+#define MIHOYO_SDK_PC_OS_XBOXSTATISTICUPDATEENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4AF730)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int XboxStatisticUpdateEntry_TypeDefinitionIndex = 20427;
+	inline static constexpr unsigned int XboxStatisticUpdateEntry_TypeDefinitionIndex = 20774;
 
 	class XboxStatisticUpdateEntry : public ::System::Object
 	{

@@ -3,13 +3,13 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int HackEntrySubSystem_HackEntrySubSystemMode_TypeDefinitionIndex = 83318;
+	inline static constexpr unsigned int HackEntrySubSystem_HackEntrySubSystemMode_TypeDefinitionIndex = 71363;
 
 	enum class HackEntrySubSystem_HackEntrySubSystemMode : ::System::Int32
 	{
+		LittleRobot = 3,
 		Camera = 1,
-		Normal = 0,
-		UAV = 3,
 		Drone = 2,
+		Normal = 0,
 	};
 }

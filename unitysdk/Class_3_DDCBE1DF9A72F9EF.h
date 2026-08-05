@@ -2,17 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
 
-class Class_1_A3AC0B6B344CF5CC;
+class Class_1_6F28ACCECAB7E5E9;
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define CLASS_3_DDCBE1DF9A72F9EF_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x11CD9090)
-#define CLASS_3_DDCBE1DF9A72F9EF_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x11CD9110)
-#define CLASS_3_DDCBE1DF9A72F9EF_INVOKE_OFFSET UNITYSDK_OFFSET(0x11CD8AF0)
-#define CLASS_3_DDCBE1DF9A72F9EF__CTOR_OFFSET UNITYSDK_OFFSET(0x11CD8AD0)
+#define CLASS_3_DDCBE1DF9A72F9EF_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1762B7C0)
+#define CLASS_3_DDCBE1DF9A72F9EF_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1762B840)
+#define CLASS_3_DDCBE1DF9A72F9EF_INVOKE_OFFSET UNITYSDK_OFFSET(0x1762B200)
+#define CLASS_3_DDCBE1DF9A72F9EF__CTOR_OFFSET UNITYSDK_OFFSET(0x1762B1E0)
 
-inline static constexpr unsigned int Class_3_DDCBE1DF9A72F9EF_TypeDefinitionIndex = 73470;
+inline static constexpr unsigned int Class_3_DDCBE1DF9A72F9EF_TypeDefinitionIndex = 41381;
 
 class Class_3_DDCBE1DF9A72F9EF : public ::System::MulticastDelegate
 {
@@ -22,14 +22,14 @@ public:
 		return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + CLASS_3_DDCBE1DF9A72F9EF__CTOR_OFFSET))(this, a1, a2);
 	}
 
-	::System::Void Invoke(::Class_1_A3AC0B6B344CF5CC* a1, ::System::Single a2)
+	::System::Void Invoke(::Class_1_6F28ACCECAB7E5E9* a1, ::System::Single a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_A3AC0B6B344CF5CC*, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_3_DDCBE1DF9A72F9EF_INVOKE_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::Class_1_6F28ACCECAB7E5E9*, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_3_DDCBE1DF9A72F9EF_INVOKE_OFFSET))(this, a1, a2);
 	}
 
-	::System::IAsyncResult* BeginInvoke(::Class_1_A3AC0B6B344CF5CC* a1, ::System::Single a2, ::System::AsyncCallback* a3, ::System::Object* a4)
+	::System::IAsyncResult* BeginInvoke(::Class_1_6F28ACCECAB7E5E9* a1, ::System::Single a2, ::System::AsyncCallback* a3, ::System::Object* a4)
 	{
-		return ((::System::IAsyncResult*(*)(::PVOID, ::Class_1_A3AC0B6B344CF5CC*, ::System::Single, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_3_DDCBE1DF9A72F9EF_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4);
+		return ((::System::IAsyncResult*(*)(::PVOID, ::Class_1_6F28ACCECAB7E5E9*, ::System::Single, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_3_DDCBE1DF9A72F9EF_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4);
 	}
 
 	::System::Void EndInvoke(::System::IAsyncResult* a1)

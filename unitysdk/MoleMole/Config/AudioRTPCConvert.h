@@ -5,25 +5,25 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_AUDIORTPCCONVERT_CONVERT_OFFSET UNITYSDK_OFFSET(0x1AA46AA0)
-#define MOLEMOLE_CONFIG_AUDIORTPCCONVERT_TESTBUTTON_OFFSET UNITYSDK_OFFSET(0x1AA46BE0)
-#define MOLEMOLE_CONFIG_AUDIORTPCCONVERT_TOGGLETESTPANEL_OFFSET UNITYSDK_OFFSET(0x1AA46BA0)
-#define MOLEMOLE_CONFIG_AUDIORTPCCONVERT__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA46C30)
+#define MOLEMOLE_CONFIG_AUDIORTPCCONVERT_CONVERT_OFFSET UNITYSDK_OFFSET(0x114672D0)
+#define MOLEMOLE_CONFIG_AUDIORTPCCONVERT_TESTBUTTON_OFFSET UNITYSDK_OFFSET(0x11467440)
+#define MOLEMOLE_CONFIG_AUDIORTPCCONVERT_TOGGLETESTPANEL_OFFSET UNITYSDK_OFFSET(0x11467400)
+#define MOLEMOLE_CONFIG_AUDIORTPCCONVERT__CTOR_OFFSET UNITYSDK_OFFSET(0x11467490)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AudioRTPCConvert_TypeDefinitionIndex = 75871;
+	inline static constexpr unsigned int AudioRTPCConvert_TypeDefinitionIndex = 75166;
 
 	class AudioRTPCConvert : public ::System::Object
 	{
 	public:
 		::System::String* rtpcName; // 0x10
-		::MoleMole::Config::AudioRTPCConvert_ConvertType convertType; // 0x18
-		::System::Single _debugOutputValue; // 0x1C
+		::System::Single maxValue; // 0x18
+		::System::Boolean _showDebug; // 0x1C
 		::System::Single minValue; // 0x20
-		::System::Single maxValue; // 0x24
-		::System::Single _debugInputValue; // 0x28
-		::System::Boolean _showDebug; // 0x2C
+		::System::Single _debugInputValue; // 0x24
+		::MoleMole::Config::AudioRTPCConvert_ConvertType convertType; // 0x28
+		::System::Single _debugOutputValue; // 0x2C
 
 		::System::Void _ctor()
 		{

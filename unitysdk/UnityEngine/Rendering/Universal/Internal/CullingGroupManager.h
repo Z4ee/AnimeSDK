@@ -5,22 +5,22 @@
 namespace System::Collections::Generic { template <typename T> class Stack_1; }
 namespace UnityEngine { class CullingGroup; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_CULLINGGROUPMANAGER_ALLOC_OFFSET UNITYSDK_OFFSET(0x1BC21950)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_CULLINGGROUPMANAGER_CLEANUP_OFFSET UNITYSDK_OFFSET(0x1BC21A90)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_CULLINGGROUPMANAGER_FREE_OFFSET UNITYSDK_OFFSET(0x1BC21A00)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_CULLINGGROUPMANAGER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1BC217E0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_CULLINGGROUPMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC218D0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_CULLINGGROUPMANAGER_ALLOC_OFFSET UNITYSDK_OFFSET(0x1C99D630)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_CULLINGGROUPMANAGER_CLEANUP_OFFSET UNITYSDK_OFFSET(0x1C99D770)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_CULLINGGROUPMANAGER_FREE_OFFSET UNITYSDK_OFFSET(0x1C99D6E0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_CULLINGGROUPMANAGER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1C99D4C0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_CULLINGGROUPMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C99D5B0)
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int CullingGroupManager_TypeDefinitionIndex = 27071;
+	inline static constexpr unsigned int CullingGroupManager_TypeDefinitionIndex = 26832;
 
 	class CullingGroupManager : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::Rendering::Universal::Internal::CullingGroupManager** StaticGet_m_Instance()
 		{
-			return (::UnityEngine::Rendering::Universal::Internal::CullingGroupManager**)Il2CppClass::FromTypeDefinitionIndex(CullingGroupManager_TypeDefinitionIndex)->GetStaticField(0x21A10);
+			return (::UnityEngine::Rendering::Universal::Internal::CullingGroupManager**)Il2CppClass::FromTypeDefinitionIndex(CullingGroupManager_TypeDefinitionIndex)->GetStaticField(0x231C0);
 		}
 		::System::Collections::Generic::Stack_1<::UnityEngine::CullingGroup*>* m_FreeList; // 0x10
 

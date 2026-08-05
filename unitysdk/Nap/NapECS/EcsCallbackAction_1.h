@@ -4,7 +4,7 @@
 
 namespace Nap::NapECS
 {
-	inline static constexpr unsigned int EcsCallbackAction_1_TypeDefinitionIndex = 37306;
+	inline static constexpr unsigned int EcsCallbackAction_1_TypeDefinitionIndex = 37946;
 
 	template <typename T>
 	class EcsCallbackAction_1 : public ::System::Object

@@ -3,7 +3,7 @@
 
 namespace MoleMole::Photo
 {
-	inline static constexpr unsigned int SlotState_TypeDefinitionIndex = 79177;
+	inline static constexpr unsigned int SlotState_TypeDefinitionIndex = 41716;
 
 	enum class SlotState : ::System::Int32
 	{

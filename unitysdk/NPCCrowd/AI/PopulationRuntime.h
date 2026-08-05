@@ -15,96 +15,96 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCCROWD_AI_POPULATIONRUNTIME_ADDAVATARID_OFFSET UNITYSDK_OFFSET(0xE00AF80)
-#define NPCCROWD_AI_POPULATIONRUNTIME_ADDTAG_OFFSET UNITYSDK_OFFSET(0xE00AC50)
-#define NPCCROWD_AI_POPULATIONRUNTIME_CHECKPOOLCONDITION_OFFSET UNITYSDK_OFFSET(0xE008E10)
-#define NPCCROWD_AI_POPULATIONRUNTIME_CLEARPOPULATIONRUNTIMES_OFFSET UNITYSDK_OFFSET(0xE008CA0)
-#define NPCCROWD_AI_POPULATIONRUNTIME_GETAVATARIDBYTAGID_OFFSET UNITYSDK_OFFSET(0xE00B130)
-#define NPCCROWD_AI_POPULATIONRUNTIME_GETDEBUGAVAILABLECOUNTMAP_OFFSET UNITYSDK_OFFSET(0xE00BC30)
-#define NPCCROWD_AI_POPULATIONRUNTIME_GETITEMBYID_OFFSET UNITYSDK_OFFSET(0xE00B490)
-#define NPCCROWD_AI_POPULATIONRUNTIME_GET_CURRENTTIMECONFIG_OFFSET UNITYSDK_OFFSET(0xE00B2A0)
-#define NPCCROWD_AI_POPULATIONRUNTIME_GET_POPULATIONID_OFFSET UNITYSDK_OFFSET(0xE00B250)
-#define NPCCROWD_AI_POPULATIONRUNTIME_GLOBALADDAVATARID_OFFSET UNITYSDK_OFFSET(0xE00AD10)
-#define NPCCROWD_AI_POPULATIONRUNTIME_GLOBALADDTAG_OFFSET UNITYSDK_OFFSET(0xE00AAC0)
-#define NPCCROWD_AI_POPULATIONRUNTIME_GLOBALREMOVEAVATARID_OFFSET UNITYSDK_OFFSET(0xE00A710)
-#define NPCCROWD_AI_POPULATIONRUNTIME_GLOBALREMOVETAG_OFFSET UNITYSDK_OFFSET(0xE00A4C0)
-#define NPCCROWD_AI_POPULATIONRUNTIME_INITIALIZE_OFFSET UNITYSDK_OFFSET(0xE009310)
-#define NPCCROWD_AI_POPULATIONRUNTIME_INNERREMOVEAVATARID_OFFSET UNITYSDK_OFFSET(0xE00B2C0)
-#define NPCCROWD_AI_POPULATIONRUNTIME_ISVALID_OFFSET UNITYSDK_OFFSET(0xE00B6C0)
-#define NPCCROWD_AI_POPULATIONRUNTIME_LEGACYRANDOMGETID_OFFSET UNITYSDK_OFFSET(0xE00B860)
-#define NPCCROWD_AI_POPULATIONRUNTIME_LOADRESOURCE_OFFSET UNITYSDK_OFFSET(0xE008700)
-#define NPCCROWD_AI_POPULATIONRUNTIME_ONNPCDESPAWN_OFFSET UNITYSDK_OFFSET(0xE00BF10)
-#define NPCCROWD_AI_POPULATIONRUNTIME_ONPRELOADFINISHED_OFFSET UNITYSDK_OFFSET(0xE008960)
-#define NPCCROWD_AI_POPULATIONRUNTIME_ONRANDOMSYSTEMSWITCHED_OFFSET UNITYSDK_OFFSET(0xE0085A0)
-#define NPCCROWD_AI_POPULATIONRUNTIME_RANDOMGETID_OFFSET UNITYSDK_OFFSET(0xE00B720)
-#define NPCCROWD_AI_POPULATIONRUNTIME_REFRESHALLPOPULATIONDATA_OFFSET UNITYSDK_OFFSET(0xE00A280)
-#define NPCCROWD_AI_POPULATIONRUNTIME_REFRESHDATA_OFFSET UNITYSDK_OFFSET(0xE00A470)
-#define NPCCROWD_AI_POPULATIONRUNTIME_REGISTERPOPULATIONRUNTIME_OFFSET UNITYSDK_OFFSET(0xE008B60)
-#define NPCCROWD_AI_POPULATIONRUNTIME_REMOVEAVATARID_OFFSET UNITYSDK_OFFSET(0xE00A980)
-#define NPCCROWD_AI_POPULATIONRUNTIME_REMOVETAG_OFFSET UNITYSDK_OFFSET(0xE00A650)
-#define NPCCROWD_AI_POPULATIONRUNTIME_RESOLVEMOVEMENTSTYLE_OFFSET UNITYSDK_OFFSET(0xE00B600)
-#define NPCCROWD_AI_POPULATIONRUNTIME_SETUSETICKETPOOLSYSTEM_OFFSET UNITYSDK_OFFSET(0xE008400)
-#define NPCCROWD_AI_POPULATIONRUNTIME_SET_CURRENTTIMECONFIG_OFFSET UNITYSDK_OFFSET(0xE00B2B0)
-#define NPCCROWD_AI_POPULATIONRUNTIME_TRYGETPOPULATIONRUNTIME_OFFSET UNITYSDK_OFFSET(0xE008FA0)
-#define NPCCROWD_AI_POPULATIONRUNTIME_UNLOADRESOURCE_OFFSET UNITYSDK_OFFSET(0xE008840)
-#define NPCCROWD_AI_POPULATIONRUNTIME__CCTOR_OFFSET UNITYSDK_OFFSET(0xE00C080)
-#define NPCCROWD_AI_POPULATIONRUNTIME__CTOR_OFFSET UNITYSDK_OFFSET(0xE0090D0)
+#define NPCCROWD_AI_POPULATIONRUNTIME_ADDAVATARID_OFFSET UNITYSDK_OFFSET(0x11929AE0)
+#define NPCCROWD_AI_POPULATIONRUNTIME_ADDTAG_OFFSET UNITYSDK_OFFSET(0x119297B0)
+#define NPCCROWD_AI_POPULATIONRUNTIME_CHECKPOOLCONDITION_OFFSET UNITYSDK_OFFSET(0x11927950)
+#define NPCCROWD_AI_POPULATIONRUNTIME_CLEARPOPULATIONRUNTIMES_OFFSET UNITYSDK_OFFSET(0x119277E0)
+#define NPCCROWD_AI_POPULATIONRUNTIME_GETAVATARIDBYTAGID_OFFSET UNITYSDK_OFFSET(0x11929C90)
+#define NPCCROWD_AI_POPULATIONRUNTIME_GETDEBUGAVAILABLECOUNTMAP_OFFSET UNITYSDK_OFFSET(0x1192A780)
+#define NPCCROWD_AI_POPULATIONRUNTIME_GETITEMBYID_OFFSET UNITYSDK_OFFSET(0x11929FE0)
+#define NPCCROWD_AI_POPULATIONRUNTIME_GET_CURRENTTIMECONFIG_OFFSET UNITYSDK_OFFSET(0x11929E00)
+#define NPCCROWD_AI_POPULATIONRUNTIME_GET_POPULATIONID_OFFSET UNITYSDK_OFFSET(0x11929DB0)
+#define NPCCROWD_AI_POPULATIONRUNTIME_GLOBALADDAVATARID_OFFSET UNITYSDK_OFFSET(0x11929870)
+#define NPCCROWD_AI_POPULATIONRUNTIME_GLOBALADDTAG_OFFSET UNITYSDK_OFFSET(0x11929620)
+#define NPCCROWD_AI_POPULATIONRUNTIME_GLOBALREMOVEAVATARID_OFFSET UNITYSDK_OFFSET(0x11929270)
+#define NPCCROWD_AI_POPULATIONRUNTIME_GLOBALREMOVETAG_OFFSET UNITYSDK_OFFSET(0x11929020)
+#define NPCCROWD_AI_POPULATIONRUNTIME_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x11927E50)
+#define NPCCROWD_AI_POPULATIONRUNTIME_INNERREMOVEAVATARID_OFFSET UNITYSDK_OFFSET(0x11929E20)
+#define NPCCROWD_AI_POPULATIONRUNTIME_ISVALID_OFFSET UNITYSDK_OFFSET(0x1192A220)
+#define NPCCROWD_AI_POPULATIONRUNTIME_LEGACYRANDOMGETID_OFFSET UNITYSDK_OFFSET(0x1192A3C0)
+#define NPCCROWD_AI_POPULATIONRUNTIME_LOADRESOURCE_OFFSET UNITYSDK_OFFSET(0x11927240)
+#define NPCCROWD_AI_POPULATIONRUNTIME_ONNPCDESPAWN_OFFSET UNITYSDK_OFFSET(0x1192AA60)
+#define NPCCROWD_AI_POPULATIONRUNTIME_ONPRELOADFINISHED_OFFSET UNITYSDK_OFFSET(0x119274A0)
+#define NPCCROWD_AI_POPULATIONRUNTIME_ONRANDOMSYSTEMSWITCHED_OFFSET UNITYSDK_OFFSET(0x119270E0)
+#define NPCCROWD_AI_POPULATIONRUNTIME_RANDOMGETID_OFFSET UNITYSDK_OFFSET(0x1192A280)
+#define NPCCROWD_AI_POPULATIONRUNTIME_REFRESHALLPOPULATIONDATA_OFFSET UNITYSDK_OFFSET(0x11928DE0)
+#define NPCCROWD_AI_POPULATIONRUNTIME_REFRESHDATA_OFFSET UNITYSDK_OFFSET(0x11928FD0)
+#define NPCCROWD_AI_POPULATIONRUNTIME_REGISTERPOPULATIONRUNTIME_OFFSET UNITYSDK_OFFSET(0x119276A0)
+#define NPCCROWD_AI_POPULATIONRUNTIME_REMOVEAVATARID_OFFSET UNITYSDK_OFFSET(0x119294E0)
+#define NPCCROWD_AI_POPULATIONRUNTIME_REMOVETAG_OFFSET UNITYSDK_OFFSET(0x119291B0)
+#define NPCCROWD_AI_POPULATIONRUNTIME_RESOLVEMOVEMENTSTYLE_OFFSET UNITYSDK_OFFSET(0x1192A160)
+#define NPCCROWD_AI_POPULATIONRUNTIME_SETUSETICKETPOOLSYSTEM_OFFSET UNITYSDK_OFFSET(0x11926F40)
+#define NPCCROWD_AI_POPULATIONRUNTIME_SET_CURRENTTIMECONFIG_OFFSET UNITYSDK_OFFSET(0x11929E10)
+#define NPCCROWD_AI_POPULATIONRUNTIME_TRYGETPOPULATIONRUNTIME_OFFSET UNITYSDK_OFFSET(0x11927AE0)
+#define NPCCROWD_AI_POPULATIONRUNTIME_UNLOADRESOURCE_OFFSET UNITYSDK_OFFSET(0x11927380)
+#define NPCCROWD_AI_POPULATIONRUNTIME__CCTOR_OFFSET UNITYSDK_OFFSET(0x1192ABD0)
+#define NPCCROWD_AI_POPULATIONRUNTIME__CTOR_OFFSET UNITYSDK_OFFSET(0x11927C10)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int PopulationRuntime_TypeDefinitionIndex = 46720;
+	inline static constexpr unsigned int PopulationRuntime_TypeDefinitionIndex = 58437;
 
 	class PopulationRuntime : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::HashSet_1<::System::Int32>** StaticGet_GlobalUsedAvatarParamIDs()
-		{
-			return (::System::Collections::Generic::HashSet_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(PopulationRuntime_TypeDefinitionIndex)->GetStaticField(0x3C5E0);
-		}
 		static ::Foundation::AssetRequestHandle* StaticGet__populationHandle()
 		{
-			return (::Foundation::AssetRequestHandle*)Il2CppClass::FromTypeDefinitionIndex(PopulationRuntime_TypeDefinitionIndex)->GetStaticField(0x3C5E8);
-		}
-		static ::Foundation::AssetRequestHandle* StaticGet__poolHandle()
-		{
-			return (::Foundation::AssetRequestHandle*)Il2CppClass::FromTypeDefinitionIndex(PopulationRuntime_TypeDefinitionIndex)->GetStaticField(0x3C608);
-		}
-		static ::NPCCrowd::AI::NPCPopulationConfigSO** StaticGet__populationSo()
-		{
-			return (::NPCCrowd::AI::NPCPopulationConfigSO**)Il2CppClass::FromTypeDefinitionIndex(PopulationRuntime_TypeDefinitionIndex)->GetStaticField(0x3C628);
+			return (::Foundation::AssetRequestHandle*)Il2CppClass::FromTypeDefinitionIndex(PopulationRuntime_TypeDefinitionIndex)->GetStaticField(0x432C0);
 		}
 		static ::System::Collections::Generic::HashSet_1<::System::Int32>** StaticGet_GlobalWhiteListedAvatarParamIDs()
 		{
-			return (::System::Collections::Generic::HashSet_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(PopulationRuntime_TypeDefinitionIndex)->GetStaticField(0x3C630);
+			return (::System::Collections::Generic::HashSet_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(PopulationRuntime_TypeDefinitionIndex)->GetStaticField(0x432E0);
+		}
+		static ::Foundation::AssetRequestHandle* StaticGet__poolHandle()
+		{
+			return (::Foundation::AssetRequestHandle*)Il2CppClass::FromTypeDefinitionIndex(PopulationRuntime_TypeDefinitionIndex)->GetStaticField(0x432E8);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::NPCCrowd::AI::PopulationRuntime*>** StaticGet_GlobalPopulationRuntimes()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::NPCCrowd::AI::PopulationRuntime*>**)Il2CppClass::FromTypeDefinitionIndex(PopulationRuntime_TypeDefinitionIndex)->GetStaticField(0x3C638);
+			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::NPCCrowd::AI::PopulationRuntime*>**)Il2CppClass::FromTypeDefinitionIndex(PopulationRuntime_TypeDefinitionIndex)->GetStaticField(0x43308);
+		}
+		static ::NPCCrowd::AI::NPCPopulationConfigSO** StaticGet__populationSo()
+		{
+			return (::NPCCrowd::AI::NPCPopulationConfigSO**)Il2CppClass::FromTypeDefinitionIndex(PopulationRuntime_TypeDefinitionIndex)->GetStaticField(0x43310);
 		}
 		static ::NPCCrowd::AI::NPCPoolConfigSO** StaticGet__poolSo()
 		{
-			return (::NPCCrowd::AI::NPCPoolConfigSO**)Il2CppClass::FromTypeDefinitionIndex(PopulationRuntime_TypeDefinitionIndex)->GetStaticField(0x3C640);
+			return (::NPCCrowd::AI::NPCPoolConfigSO**)Il2CppClass::FromTypeDefinitionIndex(PopulationRuntime_TypeDefinitionIndex)->GetStaticField(0x43318);
+		}
+		static ::System::Collections::Generic::HashSet_1<::System::Int32>** StaticGet_GlobalUsedAvatarParamIDs()
+		{
+			return (::System::Collections::Generic::HashSet_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(PopulationRuntime_TypeDefinitionIndex)->GetStaticField(0x43320);
 		}
 		static ::System::Boolean* StaticGet_UseTicketPoolSystem()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(PopulationRuntime_TypeDefinitionIndex)->GetStaticField(0xED30);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(PopulationRuntime_TypeDefinitionIndex)->GetStaticField(0xFAE0);
 		}
 		static ::System::Single* StaticGet_GlobalPopulationRatio()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(PopulationRuntime_TypeDefinitionIndex)->GetStaticField(0xED34);
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(PopulationRuntime_TypeDefinitionIndex)->GetStaticField(0xFAE4);
 		}
-		::System::Collections::Generic::List_1<::System::Int32>* curSpawnedIDs; // 0x10
-		::NPCCrowd::AI::PopulationConfig* Config; // 0x18
-		::NPCCrowd::AI::NPCPoolConfigSO* NpcPoolConfigSo; // 0x20
-		::System::Collections::Generic::List_1<::System::Int32>* spawndIDsCache; // 0x28
-		::System::Collections::Generic::List_1<::NPCCrowd::AI::NPCIDItemRuntime*>* disabledNPCIDs; // 0x30
-		::NPCCrowd::AI::PopulationTimeConfig* _CurrentTimeConfig_k__BackingField; // 0x38
-		::NPCCrowd::AI::PopulationTicketPool* _ticketPool; // 0x40
-		::System::Collections::Generic::List_1<::NPCCrowd::AI::NPCIDItemRuntime*>* allNPCIDs; // 0x48
-		::System::Collections::Generic::List_1<::NPCCrowd::AI::NPCIDItemRuntime*>* validIDList; // 0x50
-		::System::Single curValidWeight; // 0x58
+		::System::Collections::Generic::List_1<::NPCCrowd::AI::NPCIDItemRuntime*>* allNPCIDs; // 0x10
+		::NPCCrowd::AI::NPCPoolConfigSO* NpcPoolConfigSo; // 0x18
+		::NPCCrowd::AI::PopulationConfig* Config; // 0x20
+		::System::Collections::Generic::List_1<::NPCCrowd::AI::NPCIDItemRuntime*>* disabledNPCIDs; // 0x28
+		::NPCCrowd::AI::PopulationTicketPool* _ticketPool; // 0x30
+		::System::Collections::Generic::List_1<::NPCCrowd::AI::NPCIDItemRuntime*>* validIDList; // 0x38
+		::System::Collections::Generic::List_1<::System::Int32>* curSpawnedIDs; // 0x40
+		::NPCCrowd::AI::PopulationTimeConfig* _CurrentTimeConfig_k__BackingField; // 0x48
+		::System::Collections::Generic::List_1<::System::Int32>* spawndIDsCache; // 0x50
+		::System::Int32 configMaxCount; // 0x58
 		::System::Int32 maxCount; // 0x5C
-		::System::Int32 configMaxCount; // 0x60
+		::System::Single curValidWeight; // 0x60
 
 		::System::Void _ctor()
 		{

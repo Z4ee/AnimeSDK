@@ -6,13 +6,13 @@
 namespace MoleMole { class SharedGameEntity; }
 namespace System { class String; }
 
-#define MOLEMOLE_LISTENENTITYENTRY_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x17E844E0)
-#define MOLEMOLE_LISTENENTITYENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x17E84660)
-#define MOLEMOLE_LISTENENTITYENTRY___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x17E846F0)
+#define MOLEMOLE_LISTENENTITYENTRY_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x19BF7230)
+#define MOLEMOLE_LISTENENTITYENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x19BF73B0)
+#define MOLEMOLE_LISTENENTITYENTRY___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x19BF7440)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ListenEntityEntry_TypeDefinitionIndex = 81018;
+	inline static constexpr unsigned int ListenEntityEntry_TypeDefinitionIndex = 49099;
 
 	class ListenEntityEntry : public ::BehaviorDesigner::Runtime::Tasks::Action
 	{

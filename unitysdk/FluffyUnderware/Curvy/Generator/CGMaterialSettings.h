@@ -4,11 +4,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_CGMATERIALSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E1CB450)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_CGMATERIALSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1F5F1790)
 
 namespace FluffyUnderware::Curvy::Generator
 {
-	inline static constexpr unsigned int CGMaterialSettings_TypeDefinitionIndex = 39020;
+	inline static constexpr unsigned int CGMaterialSettings_TypeDefinitionIndex = 39540;
 
 	class CGMaterialSettings : public ::System::Object
 	{

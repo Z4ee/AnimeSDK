@@ -1,0 +1,54 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+namespace MoleMole { class UIRouletteWidgetControllerBase; }
+
+#define MOLEMOLE_UIROULETTEWIDGETCONTROLLERBASE___C__DISPLAYCLASS54_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17A2D900)
+#define MOLEMOLE_UIROULETTEWIDGETCONTROLLERBASE___C__DISPLAYCLASS54_0__INITBUTTONCALLBACKS_B__0_OFFSET UNITYSDK_OFFSET(0x17A2D910)
+#define MOLEMOLE_UIROULETTEWIDGETCONTROLLERBASE___C__DISPLAYCLASS54_0__INITBUTTONCALLBACKS_B__1_OFFSET UNITYSDK_OFFSET(0x17A2DA00)
+#define MOLEMOLE_UIROULETTEWIDGETCONTROLLERBASE___C__DISPLAYCLASS54_0__INITBUTTONCALLBACKS_B__2_OFFSET UNITYSDK_OFFSET(0x17A2DA60)
+#define MOLEMOLE_UIROULETTEWIDGETCONTROLLERBASE___C__DISPLAYCLASS54_0__INITBUTTONCALLBACKS_B__3_OFFSET UNITYSDK_OFFSET(0x17A2DA90)
+#define MOLEMOLE_UIROULETTEWIDGETCONTROLLERBASE___C__DISPLAYCLASS54_0__INITBUTTONCALLBACKS_B__4_OFFSET UNITYSDK_OFFSET(0x17A2DAC0)
+
+namespace MoleMole
+{
+	inline static constexpr unsigned int UIRouletteWidgetControllerBase___c__DisplayClass54_0_TypeDefinitionIndex = 72948;
+
+	class UIRouletteWidgetControllerBase___c__DisplayClass54_0 : public ::System::Object
+	{
+	public:
+		::MoleMole::UIRouletteWidgetControllerBase* __4__this; // 0x10
+		::System::Int32 index; // 0x18
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIROULETTEWIDGETCONTROLLERBASE___C__DISPLAYCLASS54_0__CTOR_OFFSET))(this);
+		}
+
+		::System::Void _InitButtonCallbacks_b__0()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIROULETTEWIDGETCONTROLLERBASE___C__DISPLAYCLASS54_0__INITBUTTONCALLBACKS_B__0_OFFSET))(this);
+		}
+
+		::System::Void _InitButtonCallbacks_b__1()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIROULETTEWIDGETCONTROLLERBASE___C__DISPLAYCLASS54_0__INITBUTTONCALLBACKS_B__1_OFFSET))(this);
+		}
+
+		::System::Void _InitButtonCallbacks_b__2()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIROULETTEWIDGETCONTROLLERBASE___C__DISPLAYCLASS54_0__INITBUTTONCALLBACKS_B__2_OFFSET))(this);
+		}
+
+		::System::Void _InitButtonCallbacks_b__3()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIROULETTEWIDGETCONTROLLERBASE___C__DISPLAYCLASS54_0__INITBUTTONCALLBACKS_B__3_OFFSET))(this);
+		}
+
+		::System::Void _InitButtonCallbacks_b__4()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIROULETTEWIDGETCONTROLLERBASE___C__DISPLAYCLASS54_0__INITBUTTONCALLBACKS_B__4_OFFSET))(this);
+		}
+	};
+}

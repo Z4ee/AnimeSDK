@@ -3,7 +3,7 @@
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int MB3_MeshCombiner_MeshCombiningStatus_TypeDefinitionIndex = 90622;
+	inline static constexpr unsigned int MB3_MeshCombiner_MeshCombiningStatus_TypeDefinitionIndex = 94555;
 
 	enum class MB3_MeshCombiner_MeshCombiningStatus : ::System::Int32
 	{

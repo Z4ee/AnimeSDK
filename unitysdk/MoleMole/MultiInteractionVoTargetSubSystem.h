@@ -1,0 +1,150 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/MoleMole/GameSubsystemBaseEx_1.h"
+
+class Class_2_72BDD67FEA972F1C;
+namespace System { template <typename T1, typename T2> class Func_2; }
+namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define MOLEMOLE_MULTIINTERACTIONVOTARGETSUBSYSTEM_GET_ACTIVATEDINTERACTIONLIST_OFFSET UNITYSDK_OFFSET(0x190A10B0)
+#define MOLEMOLE_MULTIINTERACTIONVOTARGETSUBSYSTEM_GET_CURRENTFOCUSEDINDEX_OFFSET UNITYSDK_OFFSET(0x190A10C0)
+#define MOLEMOLE_MULTIINTERACTIONVOTARGETSUBSYSTEM_GET_CURRENTFOCUSEDINTERACTION_OFFSET UNITYSDK_OFFSET(0x190A1130)
+#define MOLEMOLE_MULTIINTERACTIONVOTARGETSUBSYSTEM_GET_HASFOCUSEDINTERACTION_OFFSET UNITYSDK_OFFSET(0x190A10E0)
+#define MOLEMOLE_MULTIINTERACTIONVOTARGETSUBSYSTEM_GET__INTERACTIONACTIVATEDPREDICATE_OFFSET UNITYSDK_OFFSET(0x190A20E0)
+#define MOLEMOLE_MULTIINTERACTIONVOTARGETSUBSYSTEM_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x190A1950)
+#define MOLEMOLE_MULTIINTERACTIONVOTARGETSUBSYSTEM_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x190A2430)
+#define MOLEMOLE_MULTIINTERACTIONVOTARGETSUBSYSTEM_ONFIXEDUPDATE_OFFSET UNITYSDK_OFFSET(0x190A1AF0)
+#define MOLEMOLE_MULTIINTERACTIONVOTARGETSUBSYSTEM_SET_CURRENTFOCUSEDINDEX_OFFSET UNITYSDK_OFFSET(0x190A10D0)
+#define MOLEMOLE_MULTIINTERACTIONVOTARGETSUBSYSTEM_TRYFOCUSFIRST_OFFSET UNITYSDK_OFFSET(0x190A1430)
+#define MOLEMOLE_MULTIINTERACTIONVOTARGETSUBSYSTEM_TRYFOCUSLAST_OFFSET UNITYSDK_OFFSET(0x190A1510)
+#define MOLEMOLE_MULTIINTERACTIONVOTARGETSUBSYSTEM_TRYFOCUSNEXT_OFFSET UNITYSDK_OFFSET(0x190A11F0)
+#define MOLEMOLE_MULTIINTERACTIONVOTARGETSUBSYSTEM_TRYFOCUS_1_OFFSET UNITYSDK_OFFSET(0x190A1840)
+#define MOLEMOLE_MULTIINTERACTIONVOTARGETSUBSYSTEM_TRYFOCUS_OFFSET UNITYSDK_OFFSET(0x190A1610)
+#define MOLEMOLE_MULTIINTERACTIONVOTARGETSUBSYSTEM_TRYNOTIFYFOCUSCHANGE_OFFSET UNITYSDK_OFFSET(0x190A1300)
+#define MOLEMOLE_MULTIINTERACTIONVOTARGETSUBSYSTEM_TRYNOTIFYLISTCHANGE_OFFSET UNITYSDK_OFFSET(0x190A2200)
+#define MOLEMOLE_MULTIINTERACTIONVOTARGETSUBSYSTEM_UPDATEACTIVATEDINTERACTIONLIST_OFFSET UNITYSDK_OFFSET(0x190A1C50)
+#define MOLEMOLE_MULTIINTERACTIONVOTARGETSUBSYSTEM__CTOR_OFFSET UNITYSDK_OFFSET(0x190A2540)
+#define MOLEMOLE_MULTIINTERACTIONVOTARGETSUBSYSTEM___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x190A2550)
+#define MOLEMOLE_MULTIINTERACTIONVOTARGETSUBSYSTEM___BASE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x190A25E0)
+#define MOLEMOLE_MULTIINTERACTIONVOTARGETSUBSYSTEM___BASE_ONFIXEDUPDATE_OFFSET UNITYSDK_OFFSET(0x190A2670)
+
+namespace MoleMole
+{
+	inline static constexpr unsigned int MultiInteractionVoTargetSubSystem_TypeDefinitionIndex = 44510;
+
+	class MultiInteractionVoTargetSubSystem : public ::MoleMole::GameSubsystemBaseEx_1<::MoleMole::MultiInteractionVoTargetSubSystem*>
+	{
+	public:
+		::System::Func_2<::Class_2_72BDD67FEA972F1C*, ::System::Boolean>* __interactionActivatedPredicate; // 0x10
+		::System::Collections::Generic::List_1<::Class_2_72BDD67FEA972F1C*>* _activatedInteractionList; // 0x18
+		::System::Collections::Generic::List_1<::Class_2_72BDD67FEA972F1C*>* _lastActivatedInteractions; // 0x20
+		::System::Collections::Generic::List_1<::Class_2_72BDD67FEA972F1C*>* _tempInteractionList; // 0x28
+		::System::Int32 _CurrentFocusedIndex_k__BackingField; // 0x30
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MULTIINTERACTIONVOTARGETSUBSYSTEM__CTOR_OFFSET))(this);
+		}
+
+		::System::Collections::Generic::IReadOnlyList_1<::Class_2_72BDD67FEA972F1C*>* get_ActivatedInteractionList()
+		{
+			return ((::System::Collections::Generic::IReadOnlyList_1<::Class_2_72BDD67FEA972F1C*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MULTIINTERACTIONVOTARGETSUBSYSTEM_GET_ACTIVATEDINTERACTIONLIST_OFFSET))(this);
+		}
+
+		::System::Int32 get_CurrentFocusedIndex()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MULTIINTERACTIONVOTARGETSUBSYSTEM_GET_CURRENTFOCUSEDINDEX_OFFSET))(this);
+		}
+
+		::System::Void set_CurrentFocusedIndex(::System::Int32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_MULTIINTERACTIONVOTARGETSUBSYSTEM_SET_CURRENTFOCUSEDINDEX_OFFSET))(this, value);
+		}
+
+		::System::Boolean get_HasFocusedInteraction()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MULTIINTERACTIONVOTARGETSUBSYSTEM_GET_HASFOCUSEDINTERACTION_OFFSET))(this);
+		}
+
+		::Class_2_72BDD67FEA972F1C* get_CurrentFocusedInteraction()
+		{
+			return ((::Class_2_72BDD67FEA972F1C*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MULTIINTERACTIONVOTARGETSUBSYSTEM_GET_CURRENTFOCUSEDINTERACTION_OFFSET))(this);
+		}
+
+		::System::Boolean TryFocusNext(::System::Int32 step, ::System::Boolean circular)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_MULTIINTERACTIONVOTARGETSUBSYSTEM_TRYFOCUSNEXT_OFFSET))(this, step, circular);
+		}
+
+		::System::Boolean TryFocusFirst()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MULTIINTERACTIONVOTARGETSUBSYSTEM_TRYFOCUSFIRST_OFFSET))(this);
+		}
+
+		::System::Boolean TryFocusLast()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MULTIINTERACTIONVOTARGETSUBSYSTEM_TRYFOCUSLAST_OFFSET))(this);
+		}
+
+		::System::Boolean TryFocus(::Class_2_72BDD67FEA972F1C* instance)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::Class_2_72BDD67FEA972F1C*))((::PBYTE)hIl2Cpp + MOLEMOLE_MULTIINTERACTIONVOTARGETSUBSYSTEM_TRYFOCUS_OFFSET))(this, instance);
+		}
+
+		::System::Boolean TryFocus_1(::System::Int32 index)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_MULTIINTERACTIONVOTARGETSUBSYSTEM_TRYFOCUS_1_OFFSET))(this, index);
+		}
+
+		::System::Void OnAwake()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MULTIINTERACTIONVOTARGETSUBSYSTEM_ONAWAKE_OFFSET))(this);
+		}
+
+		::System::Void OnFixedUpdate(::System::Single deltaTime)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_MULTIINTERACTIONVOTARGETSUBSYSTEM_ONFIXEDUPDATE_OFFSET))(this, deltaTime);
+		}
+
+		::System::Void UpdateActivatedInteractionList()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MULTIINTERACTIONVOTARGETSUBSYSTEM_UPDATEACTIVATEDINTERACTIONLIST_OFFSET))(this);
+		}
+
+		static ::System::Void TryNotifyListChange(::System::Collections::Generic::List_1<::Class_2_72BDD67FEA972F1C*>* oldList, ::System::Collections::Generic::List_1<::Class_2_72BDD67FEA972F1C*>* newList)
+		{
+			return ((::System::Void(*)(::System::Collections::Generic::List_1<::Class_2_72BDD67FEA972F1C*>*, ::System::Collections::Generic::List_1<::Class_2_72BDD67FEA972F1C*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_MULTIINTERACTIONVOTARGETSUBSYSTEM_TRYNOTIFYLISTCHANGE_OFFSET))(oldList, newList);
+		}
+
+		static ::System::Void TryNotifyFocusChange(::Class_2_72BDD67FEA972F1C* oldFocus, ::Class_2_72BDD67FEA972F1C* newFocus)
+		{
+			return ((::System::Void(*)(::Class_2_72BDD67FEA972F1C*, ::Class_2_72BDD67FEA972F1C*))((::PBYTE)hIl2Cpp + MOLEMOLE_MULTIINTERACTIONVOTARGETSUBSYSTEM_TRYNOTIFYFOCUSCHANGE_OFFSET))(oldFocus, newFocus);
+		}
+
+		::System::Void OnDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MULTIINTERACTIONVOTARGETSUBSYSTEM_ONDESTROY_OFFSET))(this);
+		}
+
+		::System::Func_2<::Class_2_72BDD67FEA972F1C*, ::System::Boolean>* get__interactionActivatedPredicate()
+		{
+			return ((::System::Func_2<::Class_2_72BDD67FEA972F1C*, ::System::Boolean>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MULTIINTERACTIONVOTARGETSUBSYSTEM_GET__INTERACTIONACTIVATEDPREDICATE_OFFSET))(this);
+		}
+
+		::System::Void __base_OnAwake()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MULTIINTERACTIONVOTARGETSUBSYSTEM___BASE_ONAWAKE_OFFSET))(this);
+		}
+
+		::System::Void __base_OnDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MULTIINTERACTIONVOTARGETSUBSYSTEM___BASE_ONDESTROY_OFFSET))(this);
+		}
+
+		::System::Void __base_OnFixedUpdate(::System::Single P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_MULTIINTERACTIONVOTARGETSUBSYSTEM___BASE_ONFIXEDUPDATE_OFFSET))(this, P0);
+		}
+	};
+}

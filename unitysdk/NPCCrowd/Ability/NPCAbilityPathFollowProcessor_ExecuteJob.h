@@ -6,11 +6,11 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/Unity/Collections/NativeArray_1.h"
 
-#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_EXECUTEJOB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x650CD0)
+#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_EXECUTEJOB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x652520)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int NPCAbilityPathFollowProcessor_ExecuteJob_TypeDefinitionIndex = 67698;
+	inline static constexpr unsigned int NPCAbilityPathFollowProcessor_ExecuteJob_TypeDefinitionIndex = 68221;
 
 	struct alignas(8) NPCAbilityPathFollowProcessor_ExecuteJob
 	{

@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_43BD383C98B4C0C5_56.h"
+#include "unitysdk/Class_1_43BD383C98B4C0C5_29.h"
 
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_050607CE11C92251_METHOD_2_30D1209326FA87FC_OFFSET UNITYSDK_OFFSET(0x18798F10)
-#define CLASS_2_050607CE11C92251_METHOD_2_90498271B7016520_OFFSET UNITYSDK_OFFSET(0x18798D50)
-#define CLASS_2_050607CE11C92251_METHOD_2_E06292D0E0A940EC_OFFSET UNITYSDK_OFFSET(0x18798E30)
-#define CLASS_2_050607CE11C92251__CTOR_OFFSET UNITYSDK_OFFSET(0x18798CC0)
+#define CLASS_2_050607CE11C92251_METHOD_2_30D1209326FA87FC_OFFSET UNITYSDK_OFFSET(0x15B65890)
+#define CLASS_2_050607CE11C92251_METHOD_2_90498271B7016520_OFFSET UNITYSDK_OFFSET(0x15B656D0)
+#define CLASS_2_050607CE11C92251_METHOD_2_E06292D0E0A940EC_OFFSET UNITYSDK_OFFSET(0x15B657B0)
+#define CLASS_2_050607CE11C92251__CTOR_OFFSET UNITYSDK_OFFSET(0x15B65640)
 
-inline static constexpr unsigned int Class_2_050607CE11C92251_TypeDefinitionIndex = 80519;
+inline static constexpr unsigned int Class_2_050607CE11C92251_TypeDefinitionIndex = 68426;
 
-class Class_2_050607CE11C92251 : public ::Class_1_43BD383C98B4C0C5_56
+class Class_2_050607CE11C92251 : public ::Class_1_43BD383C98B4C0C5_29
 {
 public:
 	::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::System::Int32>*>* Field_2_0; // 0x10

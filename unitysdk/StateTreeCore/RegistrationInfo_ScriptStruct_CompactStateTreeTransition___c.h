@@ -4,20 +4,20 @@
 
 namespace UnrealTypes { class ICppStructOps; }
 
-#define STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_COMPACTSTATETREETRANSITION___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E809630)
-#define STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_COMPACTSTATETREETRANSITION___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1E809670)
-#define STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_COMPACTSTATETREETRANSITION___C___CCTOR_B__15_0_OFFSET UNITYSDK_OFFSET(0x1E809680)
+#define STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_COMPACTSTATETREETRANSITION___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FBE0FB0)
+#define STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_COMPACTSTATETREETRANSITION___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1FBE0FF0)
+#define STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_COMPACTSTATETREETRANSITION___C___CCTOR_B__15_0_OFFSET UNITYSDK_OFFSET(0x1FBE1000)
 
 namespace StateTreeCore
 {
-	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_CompactStateTreeTransition___c_TypeDefinitionIndex = 31098;
+	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_CompactStateTreeTransition___c_TypeDefinitionIndex = 31717;
 
 	class RegistrationInfo_ScriptStruct_CompactStateTreeTransition___c : public ::System::Object
 	{
 	public:
 		static ::StateTreeCore::RegistrationInfo_ScriptStruct_CompactStateTreeTransition___c** StaticGet___9()
 		{
-			return (::StateTreeCore::RegistrationInfo_ScriptStruct_CompactStateTreeTransition___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_CompactStateTreeTransition___c_TypeDefinitionIndex)->GetStaticField(0x25490);
+			return (::StateTreeCore::RegistrationInfo_ScriptStruct_CompactStateTreeTransition___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_CompactStateTreeTransition___c_TypeDefinitionIndex)->GetStaticField(0x26C10);
 		}
 
 		static ::System::Void _cctor()

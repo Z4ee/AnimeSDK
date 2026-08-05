@@ -6,11 +6,11 @@
 class Class_1_AA85AE72A9D601F2;
 namespace UnityEngine { class RenderTexture; }
 
-#define MOLEMOLE_UIACTIVITYCAMERASETTLEMENTCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18A28EA0)
+#define MOLEMOLE_UIACTIVITYCAMERASETTLEMENTCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A602DB0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityCameraSettlementContext_TypeDefinitionIndex = 84962;
+	inline static constexpr unsigned int UIActivityCameraSettlementContext_TypeDefinitionIndex = 71199;
 
 	class UIActivityCameraSettlementContext : public ::MoleMole::UIControllerContextBase
 	{

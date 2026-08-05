@@ -6,18 +6,18 @@
 namespace PipelineCamera { class TimeBasedAlphaGenerator; }
 namespace System { template <typename T> class Func_1; }
 
-#define STRUCT_2_FC8D9EFDEDD88792_METHOD_2_7A86137D066BDD7E_OFFSET UNITYSDK_OFFSET(0x13CE5710)
-#define STRUCT_2_FC8D9EFDEDD88792_METHOD_2_E4254673D05762A3_OFFSET UNITYSDK_OFFSET(0x7C3EA0)
-#define STRUCT_2_FC8D9EFDEDD88792__CTOR_OFFSET UNITYSDK_OFFSET(0x7C3E60)
+#define STRUCT_2_FC8D9EFDEDD88792_METHOD_2_7A86137D066BDD7E_OFFSET UNITYSDK_OFFSET(0x11B0FB40)
+#define STRUCT_2_FC8D9EFDEDD88792_METHOD_2_E4254673D05762A3_OFFSET UNITYSDK_OFFSET(0x7601C0)
+#define STRUCT_2_FC8D9EFDEDD88792__CTOR_OFFSET UNITYSDK_OFFSET(0x760180)
 
-inline static constexpr unsigned int Struct_2_FC8D9EFDEDD88792_TypeDefinitionIndex = 71942;
+inline static constexpr unsigned int Struct_2_FC8D9EFDEDD88792_TypeDefinitionIndex = 41130;
 
 struct alignas(8) Struct_2_FC8D9EFDEDD88792
 {
 	::PipelineCamera::WorldBasicCameraDeltaData Field_2_0; // 0x10
-	::PipelineCamera::TimeBasedAlphaGenerator* Field_2_1; // 0x48
-	::System::Boolean Field_2_2; // 0x50
-	::System::Func_1<::System::Single>* Field_2_3; // 0x58
+	::PipelineCamera::TimeBasedAlphaGenerator* Field_2_7; // 0x48
+	::System::Boolean Field_2_6; // 0x50
+	::System::Func_1<::System::Single>* Field_2_5; // 0x58
 	::System::Single Field_2_4; // 0x60
 
 	::System::Void _ctor(::PipelineCamera::WorldBasicCameraDeltaData& a1, ::System::Func_1<::System::Single>* a2, ::PipelineCamera::TimeBasedAlphaGenerator* a3)

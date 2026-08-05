@@ -4,11 +4,11 @@
 
 class Class_1_57F7F2BF8C55D6B6;
 
-#define MOLEMOLE_UIFRIENDSYSTEMPLAYERINFOPAGECONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x17632E40)
+#define MOLEMOLE_UIFRIENDSYSTEMPLAYERINFOPAGECONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18584C60)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIFriendSystemPlayerInfoPageController_Context_TypeDefinitionIndex = 54349;
+	inline static constexpr unsigned int UIFriendSystemPlayerInfoPageController_Context_TypeDefinitionIndex = 54357;
 
 	class UIFriendSystemPlayerInfoPageController_Context : public ::MoleMole::UIControllerContextBase
 	{

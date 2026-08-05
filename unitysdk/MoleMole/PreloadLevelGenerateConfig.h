@@ -8,13 +8,13 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_PRELOADLEVELGENERATECONFIG_ISLEVELIGNORE_OFFSET UNITYSDK_OFFSET(0x173FB4E0)
-#define MOLEMOLE_PRELOADLEVELGENERATECONFIG_ISSHADERSUPPORTASYNCCREATE_OFFSET UNITYSDK_OFFSET(0x173FB3F0)
-#define MOLEMOLE_PRELOADLEVELGENERATECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x173FB5A0)
+#define MOLEMOLE_PRELOADLEVELGENERATECONFIG_ISLEVELIGNORE_OFFSET UNITYSDK_OFFSET(0x129D8350)
+#define MOLEMOLE_PRELOADLEVELGENERATECONFIG_ISSHADERSUPPORTASYNCCREATE_OFFSET UNITYSDK_OFFSET(0x129D8260)
+#define MOLEMOLE_PRELOADLEVELGENERATECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x129D8410)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int PreloadLevelGenerateConfig_TypeDefinitionIndex = 76352;
+	inline static constexpr unsigned int PreloadLevelGenerateConfig_TypeDefinitionIndex = 55126;
 
 	class PreloadLevelGenerateConfig : public ::Foundation::MihoyoSerializedScriptableObject
 	{

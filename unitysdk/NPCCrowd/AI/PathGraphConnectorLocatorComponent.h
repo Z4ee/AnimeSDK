@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/NPCCrowd/AI/PathGraphFreePositionLocatorComponent.h"
 
-#define NPCCROWD_AI_PATHGRAPHCONNECTORLOCATORCOMPONENT_GET_NEARESTCONNECTORNODEINDEX_OFFSET UNITYSDK_OFFSET(0xFFA1DA0)
-#define NPCCROWD_AI_PATHGRAPHCONNECTORLOCATORCOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0xFFA1DB0)
+#define NPCCROWD_AI_PATHGRAPHCONNECTORLOCATORCOMPONENT_GET_NEARESTCONNECTORNODEINDEX_OFFSET UNITYSDK_OFFSET(0x125FBF50)
+#define NPCCROWD_AI_PATHGRAPHCONNECTORLOCATORCOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0x125FBF60)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int PathGraphConnectorLocatorComponent_TypeDefinitionIndex = 62672;
+	inline static constexpr unsigned int PathGraphConnectorLocatorComponent_TypeDefinitionIndex = 55802;
 
 	class PathGraphConnectorLocatorComponent : public ::NPCCrowd::AI::PathGraphFreePositionLocatorComponent
 	{

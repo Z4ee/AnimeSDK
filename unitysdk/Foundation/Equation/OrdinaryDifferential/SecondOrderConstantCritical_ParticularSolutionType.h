@@ -3,7 +3,7 @@
 
 namespace Foundation::Equation::OrdinaryDifferential
 {
-	inline static constexpr unsigned int SecondOrderConstantCritical_ParticularSolutionType_TypeDefinitionIndex = 8477;
+	inline static constexpr unsigned int SecondOrderConstantCritical_ParticularSolutionType_TypeDefinitionIndex = 8817;
 
 	enum class SecondOrderConstantCritical_ParticularSolutionType : ::System::Int32
 	{

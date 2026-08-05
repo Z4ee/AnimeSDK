@@ -3,7 +3,7 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int DamageHitType_TypeDefinitionIndex = 60996;
+	inline static constexpr unsigned int DamageHitType_TypeDefinitionIndex = 88759;
 
 	enum class DamageHitType : ::System::Int32
 	{

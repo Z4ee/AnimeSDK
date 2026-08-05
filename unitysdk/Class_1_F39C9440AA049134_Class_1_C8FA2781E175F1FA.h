@@ -4,9 +4,9 @@
 #include "unitysdk/MoleMole/Vector2Int.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_F39C9440AA049134_CLASS_1_C8FA2781E175F1FA_METHOD_1_B64877F34303AD2C_OFFSET UNITYSDK_OFFSET(0xD0B7290)
+#define CLASS_1_F39C9440AA049134_CLASS_1_C8FA2781E175F1FA_METHOD_1_B64877F34303AD2C_OFFSET UNITYSDK_OFFSET(0x10985DE0)
 
-inline static constexpr unsigned int Class_1_F39C9440AA049134_Class_1_C8FA2781E175F1FA_TypeDefinitionIndex = 71816;
+inline static constexpr unsigned int Class_1_F39C9440AA049134_Class_1_C8FA2781E175F1FA_TypeDefinitionIndex = 81449;
 
 class Class_1_F39C9440AA049134_Class_1_C8FA2781E175F1FA : public ::System::Object
 {

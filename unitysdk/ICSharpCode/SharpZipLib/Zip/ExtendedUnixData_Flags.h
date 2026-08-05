@@ -3,7 +3,7 @@
 
 namespace ICSharpCode::SharpZipLib::Zip
 {
-	inline static constexpr unsigned int ExtendedUnixData_Flags_TypeDefinitionIndex = 6856;
+	inline static constexpr unsigned int ExtendedUnixData_Flags_TypeDefinitionIndex = 6860;
 
 	enum class ExtendedUnixData_Flags : ::System::Byte
 	{

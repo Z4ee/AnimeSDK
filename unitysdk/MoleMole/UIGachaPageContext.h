@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIGACHAPAGECONTEXT_APPLYJUMPPARAS_OFFSET UNITYSDK_OFFSET(0x19DB6A80)
-#define MOLEMOLE_UIGACHAPAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x19DB6BA0)
-#define MOLEMOLE_UIGACHAPAGECONTEXT___BASE_APPLYJUMPPARAS_OFFSET UNITYSDK_OFFSET(0x19DB6C10)
+#define MOLEMOLE_UIGACHAPAGECONTEXT_APPLYJUMPPARAS_OFFSET UNITYSDK_OFFSET(0x19AB70D0)
+#define MOLEMOLE_UIGACHAPAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x19AB71F0)
+#define MOLEMOLE_UIGACHAPAGECONTEXT___BASE_APPLYJUMPPARAS_OFFSET UNITYSDK_OFFSET(0x19AB7250)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGachaPageContext_TypeDefinitionIndex = 69307;
+	inline static constexpr unsigned int UIGachaPageContext_TypeDefinitionIndex = 40807;
 
 	class UIGachaPageContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
 		::System::Int32 GachaID; // 0x28
-		::System::Int32 GachaScheduleIdForUIGroup; // 0x2C
-		::System::Boolean openRoleSelect; // 0x30
-		::System::Int32 defaultSelectRoleIndex; // 0x34
+		::System::Boolean openRoleSelect; // 0x2C
+		::System::Int32 defaultSelectRoleIndex; // 0x30
+		::System::Int32 GachaScheduleIdForUIGroup; // 0x34
 
 		::System::Void _ctor()
 		{

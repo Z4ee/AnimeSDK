@@ -4,51 +4,34 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_LOCALSPHEREVOLUMETRICFOGPROXY_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1D3E1BA0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_LOCALSPHEREVOLUMETRICFOGPROXY_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x1D3E1F70)
-#define UNITYENGINE_RENDERING_UNIVERSAL_LOCALSPHEREVOLUMETRICFOGPROXY_REFRESHMPB_OFFSET UNITYSDK_OFFSET(0x1D3E1BF0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_LOCALSPHEREVOLUMETRICFOGPROXY_START_OFFSET UNITYSDK_OFFSET(0x1D3E1F20)
-#define UNITYENGINE_RENDERING_UNIVERSAL_LOCALSPHEREVOLUMETRICFOGPROXY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D3E2040)
-#define UNITYENGINE_RENDERING_UNIVERSAL_LOCALSPHEREVOLUMETRICFOGPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3E1FC0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_LOCALSPHEREVOLUMETRICFOGPROXY_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1E79E7E0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_LOCALSPHEREVOLUMETRICFOGPROXY_REFRESHMPB_OFFSET UNITYSDK_OFFSET(0x1E79E830)
+#define UNITYENGINE_RENDERING_UNIVERSAL_LOCALSPHEREVOLUMETRICFOGPROXY_START_OFFSET UNITYSDK_OFFSET(0x1E79EB60)
+#define UNITYENGINE_RENDERING_UNIVERSAL_LOCALSPHEREVOLUMETRICFOGPROXY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E79EC30)
+#define UNITYENGINE_RENDERING_UNIVERSAL_LOCALSPHEREVOLUMETRICFOGPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x1E79EBB0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int LocalSphereVolumetricFogProxy_TypeDefinitionIndex = 26231;
+	inline static constexpr unsigned int LocalSphereVolumetricFogProxy_TypeDefinitionIndex = 27160;
 
 	class LocalSphereVolumetricFogProxy : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		static ::System::Int32* StaticGet__FogScatterColor()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LocalSphereVolumetricFogProxy_TypeDefinitionIndex)->GetStaticField(0x6060);
-		}
-		static ::System::Int32* StaticGet__Density()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LocalSphereVolumetricFogProxy_TypeDefinitionIndex)->GetStaticField(0x6064);
-		}
-		static ::System::Int32* StaticGet__ScatterAmt()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LocalSphereVolumetricFogProxy_TypeDefinitionIndex)->GetStaticField(0x6068);
-		}
-		static ::System::Int32* StaticGet__LocalSphereFogFadeRanges()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LocalSphereVolumetricFogProxy_TypeDefinitionIndex)->GetStaticField(0x606C);
-		}
-		static ::System::Int32* StaticGet__FadePow2()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LocalSphereVolumetricFogProxy_TypeDefinitionIndex)->GetStaticField(0x6070);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LocalSphereVolumetricFogProxy_TypeDefinitionIndex)->GetStaticField(0x6040);
 		}
 		static ::System::Int32* StaticGet__LocalSphereFogParams1()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LocalSphereVolumetricFogProxy_TypeDefinitionIndex)->GetStaticField(0x6074);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LocalSphereVolumetricFogProxy_TypeDefinitionIndex)->GetStaticField(0x6044);
+		}
+		static ::System::Int32* StaticGet__LocalSphereFogFadeRanges()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LocalSphereVolumetricFogProxy_TypeDefinitionIndex)->GetStaticField(0x6048);
 		}
 		static ::System::Int32* StaticGet__LocalSphereFogFadeFlags()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LocalSphereVolumetricFogProxy_TypeDefinitionIndex)->GetStaticField(0x6078);
-		}
-		static ::System::Int32* StaticGet__FadePow()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LocalSphereVolumetricFogProxy_TypeDefinitionIndex)->GetStaticField(0x607C);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LocalSphereVolumetricFogProxy_TypeDefinitionIndex)->GetStaticField(0x604C);
 		}
 		::UnityEngine::Color fogScatterColor; // 0x18
 		::System::Single fadePow; // 0x28
@@ -78,11 +61,6 @@ namespace UnityEngine::Rendering::Universal
 		::System::Void Start()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_LOCALSPHEREVOLUMETRICFOGPROXY_START_OFFSET))(this);
-		}
-
-		::System::Void OnValidate()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_LOCALSPHEREVOLUMETRICFOGPROXY_ONVALIDATE_OFFSET))(this);
 		}
 
 		::System::Void RefreshMpb()

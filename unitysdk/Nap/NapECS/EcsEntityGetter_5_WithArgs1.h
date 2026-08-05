@@ -6,7 +6,7 @@ namespace System { template <typename T1, typename T2, typename T3, typename T4,
 
 namespace Nap::NapECS
 {
-	inline static constexpr unsigned int EcsEntityGetter_5_WithArgs1_TypeDefinitionIndex = 37286;
+	inline static constexpr unsigned int EcsEntityGetter_5_WithArgs1_TypeDefinitionIndex = 37954;
 
 	template <typename T1, typename T2, typename T3, typename T4, typename TResult>
 	struct EcsEntityGetter_5_WithArgs1

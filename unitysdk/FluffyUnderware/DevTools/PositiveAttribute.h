@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FluffyUnderware/DevTools/MinAttribute.h"
 
-#define FLUFFYUNDERWARE_DEVTOOLS_POSITIVEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D69E970)
+#define FLUFFYUNDERWARE_DEVTOOLS_POSITIVEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA57C90)
 
 namespace FluffyUnderware::DevTools
 {
-	inline static constexpr unsigned int PositiveAttribute_TypeDefinitionIndex = 28361;
+	inline static constexpr unsigned int PositiveAttribute_TypeDefinitionIndex = 28965;
 
 	class PositiveAttribute : public ::FluffyUnderware::DevTools::MinAttribute
 	{

@@ -8,19 +8,19 @@ namespace MoleMole { class UISwitchTeamInFightQTEButtonChildWindowController; }
 namespace System { class Action; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define MOLEMOLE_UISWITCHTEAMINFIGHTQTEBUTTONCHILDWINDOWCONTROLLER__PLAYHIDEANIMATION_D__14_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x815300)
-#define MOLEMOLE_UISWITCHTEAMINFIGHTQTEBUTTONCHILDWINDOWCONTROLLER__PLAYHIDEANIMATION_D__14_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x283610)
+#define MOLEMOLE_UISWITCHTEAMINFIGHTQTEBUTTONCHILDWINDOWCONTROLLER__PLAYHIDEANIMATION_D__14_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x836830)
+#define MOLEMOLE_UISWITCHTEAMINFIGHTQTEBUTTONCHILDWINDOWCONTROLLER__PLAYHIDEANIMATION_D__14_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x296F30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISwitchTeamInFightQTEButtonChildWindowController__PlayHideAnimation_d__14_TypeDefinitionIndex = 55626;
+	inline static constexpr unsigned int UISwitchTeamInFightQTEButtonChildWindowController__PlayHideAnimation_d__14_TypeDefinitionIndex = 48951;
 
 	struct alignas(8) UISwitchTeamInFightQTEButtonChildWindowController__PlayHideAnimation_d__14
 	{
-		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskVoidMethodBuilder __t__builder; // 0x10
+		::MoleMole::UISwitchTeamInFightQTEButtonChildWindowController* __4__this; // 0x10
 		::System::Action* callback; // 0x18
 		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x20
-		::MoleMole::UISwitchTeamInFightQTEButtonChildWindowController* __4__this; // 0x30
+		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskVoidMethodBuilder __t__builder; // 0x30
 		::System::Int32 __1__state; // 0x38
 
 		::System::Void MoveNext()

@@ -4,11 +4,11 @@
 #include "unitysdk/Unity/Collections/AllocatorManager_BlockHandle.h"
 #include "unitysdk/Unity/Collections/AllocatorManager_SmallAllocatorHandle.h"
 
-#define UNITY_COLLECTIONS_ALLOCATORMANAGER_RANGE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA80680)
+#define UNITY_COLLECTIONS_ALLOCATORMANAGER_RANGE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xAD0DD0)
 
 namespace Unity::Collections
 {
-	inline static constexpr unsigned int AllocatorManager_Range_TypeDefinitionIndex = 18451;
+	inline static constexpr unsigned int AllocatorManager_Range_TypeDefinitionIndex = 18857;
 
 	struct alignas(8) AllocatorManager_Range
 	{

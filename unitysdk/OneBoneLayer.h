@@ -8,7 +8,7 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-inline static constexpr unsigned int OneBoneLayer_TypeDefinitionIndex = 56435;
+inline static constexpr unsigned int OneBoneLayer_TypeDefinitionIndex = 52983;
 
 struct alignas(8) OneBoneLayer
 {

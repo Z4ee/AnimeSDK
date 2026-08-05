@@ -8,38 +8,38 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class Material; }
 
-#define CLASS_4_B9CC09FBBCE232C5_METHOD_4_4343F372F34C05BF_1_OFFSET UNITYSDK_OFFSET(0x167FD8F0)
-#define CLASS_4_B9CC09FBBCE232C5_METHOD_4_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x167FD330)
-#define CLASS_4_B9CC09FBBCE232C5_METHOD_4_729ABA6AA3B854F7_OFFSET UNITYSDK_OFFSET(0x167FCF30)
-#define CLASS_4_B9CC09FBBCE232C5_METHOD_4_924C62BE8591D2FD_OFFSET UNITYSDK_OFFSET(0x167FD390)
-#define CLASS_4_B9CC09FBBCE232C5_METHOD_4_F4ADC37B63F4E9EF_OFFSET UNITYSDK_OFFSET(0x167FCE80)
-#define CLASS_4_B9CC09FBBCE232C5__CTOR_OFFSET UNITYSDK_OFFSET(0x167FD8E0)
+#define CLASS_4_B9CC09FBBCE232C5_METHOD_4_4343F372F34C05BF_1_OFFSET UNITYSDK_OFFSET(0x1BC36300)
+#define CLASS_4_B9CC09FBBCE232C5_METHOD_4_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x1BC35D70)
+#define CLASS_4_B9CC09FBBCE232C5_METHOD_4_57D5ED2C4C06D908_OFFSET UNITYSDK_OFFSET(0x1BC35DD0)
+#define CLASS_4_B9CC09FBBCE232C5_METHOD_4_7E1E8D4D4624B158_OFFSET UNITYSDK_OFFSET(0x1BC35990)
+#define CLASS_4_B9CC09FBBCE232C5_METHOD_4_C561FF611C07A44C_OFFSET UNITYSDK_OFFSET(0x1BC358E0)
+#define CLASS_4_B9CC09FBBCE232C5__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC362F0)
 
-inline static constexpr unsigned int Class_4_B9CC09FBBCE232C5_TypeDefinitionIndex = 77818;
+inline static constexpr unsigned int Class_4_B9CC09FBBCE232C5_TypeDefinitionIndex = 46102;
 
 class Class_4_B9CC09FBBCE232C5 : public ::Class_3_65C2BD0D1B91C740
 {
 public:
-	::MoleMole::Config::ConfigCurveCtrlMatIntensityNode* Field_4_0; // 0x48
-	::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::Color>* Field_4_5; // 0x50
-	::Il2CppArray<::UnityEngine::Material*>* Field_4_1; // 0x58
-	::System::String* Field_4_2; // 0x60
-	::System::Boolean Field_4_4; // 0x68
-	::UnityEngine::Color Field_4_3; // 0x6C
+	::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::Color>* Field_4_5; // 0x48
+	::Il2CppArray<::UnityEngine::Material*>* Field_4_1; // 0x50
+	::MoleMole::Config::ConfigCurveCtrlMatIntensityNode* Field_4_2; // 0x58
+	::System::String* Field_4_0; // 0x60
+	::UnityEngine::Color Field_4_7; // 0x68
+	::System::Boolean Field_4_6; // 0x78
 
 	::System::Void _ctor()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_B9CC09FBBCE232C5__CTOR_OFFSET))(this);
 	}
 
-	::System::Void Method_4_F4ADC37B63F4E9EF()
+	::System::Void Method_4_C561FF611C07A44C()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_B9CC09FBBCE232C5_METHOD_4_F4ADC37B63F4E9EF_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_B9CC09FBBCE232C5_METHOD_4_C561FF611C07A44C_OFFSET))(this);
 	}
 
-	::System::Void Method_4_729ABA6AA3B854F7()
+	::System::Void Method_4_7E1E8D4D4624B158()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_B9CC09FBBCE232C5_METHOD_4_729ABA6AA3B854F7_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_B9CC09FBBCE232C5_METHOD_4_7E1E8D4D4624B158_OFFSET))(this);
 	}
 
 	::System::Void Method_4_4343F372F34C05BF()
@@ -47,9 +47,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_B9CC09FBBCE232C5_METHOD_4_4343F372F34C05BF_OFFSET))(this);
 	}
 
-	::System::Void Method_4_924C62BE8591D2FD()
+	::System::Void Method_4_57D5ED2C4C06D908()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_B9CC09FBBCE232C5_METHOD_4_924C62BE8591D2FD_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_B9CC09FBBCE232C5_METHOD_4_57D5ED2C4C06D908_OFFSET))(this);
 	}
 
 	::System::Void Method_4_4343F372F34C05BF_1()

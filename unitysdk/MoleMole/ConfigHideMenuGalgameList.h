@@ -4,11 +4,11 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIGHIDEMENUGALGAMELIST__CTOR_OFFSET UNITYSDK_OFFSET(0x115EB7C0)
+#define MOLEMOLE_CONFIGHIDEMENUGALGAMELIST__CTOR_OFFSET UNITYSDK_OFFSET(0x19215740)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigHideMenuGalgameList_TypeDefinitionIndex = 67957;
+	inline static constexpr unsigned int ConfigHideMenuGalgameList_TypeDefinitionIndex = 62071;
 
 	class ConfigHideMenuGalgameList : public ::Foundation::MihoyoSerializedScriptableObject
 	{

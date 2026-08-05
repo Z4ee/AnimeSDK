@@ -6,19 +6,19 @@
 namespace MoleMole::Arcade::BallPit { class BallPitGameEngine; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_ARCADE_BALLPIT_BALLPITGAMEENGINE_CLASS_1_587EE23982EA9A1A_METHOD_1_3B957A33DA293080_OFFSET UNITYSDK_OFFSET(0x1D9B1FC0)
-#define MOLEMOLE_ARCADE_BALLPIT_BALLPITGAMEENGINE_CLASS_1_587EE23982EA9A1A__CTOR_OFFSET UNITYSDK_OFFSET(0x1D9B1FB0)
+#define MOLEMOLE_ARCADE_BALLPIT_BALLPITGAMEENGINE_CLASS_1_587EE23982EA9A1A_METHOD_1_3B957A33DA293080_OFFSET UNITYSDK_OFFSET(0x1FB9ACC0)
+#define MOLEMOLE_ARCADE_BALLPIT_BALLPITGAMEENGINE_CLASS_1_587EE23982EA9A1A__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB9ACB0)
 
 namespace MoleMole::Arcade::BallPit
 {
-	inline static constexpr unsigned int BallPitGameEngine_Class_1_587EE23982EA9A1A_TypeDefinitionIndex = 89493;
+	inline static constexpr unsigned int BallPitGameEngine_Class_1_587EE23982EA9A1A_TypeDefinitionIndex = 93437;
 
 	class BallPitGameEngine_Class_1_587EE23982EA9A1A : public ::System::Object
 	{
 	public:
-		::MoleMole::Arcade::BallPit::BallPitGameEngine* Field_1_2; // 0x10
-		::System::Int32 Field_1_0; // 0x18
-		::System::Int32 Field_1_1; // 0x1C
+		::MoleMole::Arcade::BallPit::BallPitGameEngine* Field_1_6; // 0x10
+		::System::Int32 Field_1_7; // 0x18
+		::System::Int32 Field_1_0; // 0x1C
 
 		::System::Void _ctor()
 		{

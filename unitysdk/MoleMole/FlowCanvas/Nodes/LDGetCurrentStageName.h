@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETCURRENTSTAGENAME_INVOKE_OFFSET UNITYSDK_OFFSET(0x161D6400)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETCURRENTSTAGENAME__CTOR_OFFSET UNITYSDK_OFFSET(0x161D6520)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETCURRENTSTAGENAME_INVOKE_OFFSET UNITYSDK_OFFSET(0x144BF140)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETCURRENTSTAGENAME__CTOR_OFFSET UNITYSDK_OFFSET(0x144BF260)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDGetCurrentStageName_TypeDefinitionIndex = 69039;
+	inline static constexpr unsigned int LDGetCurrentStageName_TypeDefinitionIndex = 63024;
 
 	class LDGetCurrentStageName : public ::FlowCanvas::Nodes::PureFunctionNode_1<::System::String*>
 	{

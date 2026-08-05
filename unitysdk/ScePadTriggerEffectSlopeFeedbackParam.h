@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define SCEPADTRIGGEREFFECTSLOPEFEEDBACKPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x776250)
+#define SCEPADTRIGGEREFFECTSLOPEFEEDBACKPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x881B70)
 
-inline static constexpr unsigned int ScePadTriggerEffectSlopeFeedbackParam_TypeDefinitionIndex = 87511;
+inline static constexpr unsigned int ScePadTriggerEffectSlopeFeedbackParam_TypeDefinitionIndex = 86527;
 
 struct alignas(1) ScePadTriggerEffectSlopeFeedbackParam
 {

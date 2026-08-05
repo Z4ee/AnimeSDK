@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CLIPPERLIB_SCANBEAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFF8310)
+#define CLIPPERLIB_SCANBEAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1E3D4620)
 
 namespace ClipperLib
 {
-	inline static constexpr unsigned int Scanbeam_TypeDefinitionIndex = 32784;
+	inline static constexpr unsigned int Scanbeam_TypeDefinitionIndex = 33419;
 
 	class Scanbeam : public ::System::Object
 	{

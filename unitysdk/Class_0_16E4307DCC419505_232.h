@@ -1,11 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/Battle/EntityBodySize.h"
 
-namespace Nap::NapECS { class EcsWorld; }
-namespace UnityEngine { class Collider; }
+namespace System { class String; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+namespace UnityEngine { class Material; }
+namespace UnityEngine { class Renderer; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_232_TypeDefinitionIndex = 61257;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_232_TypeDefinitionIndex = 73207;
 
 class Class_0_16E4307DCC419505_232
 {

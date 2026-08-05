@@ -7,18 +7,18 @@ namespace MoleMole { class UIBaseController; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_UIINTERKNOTOVERNIGHTCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x17828E10)
+#define MOLEMOLE_UIINTERKNOTOVERNIGHTCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x17C16230)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInterKnotOverNightContext_TypeDefinitionIndex = 82793;
+	inline static constexpr unsigned int UIInterKnotOverNightContext_TypeDefinitionIndex = 81897;
 
 	class UIInterKnotOverNightContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_3_E342D954CB576697* FirstPost; // 0x28
-		::MoleMole::UIBaseController* FromController; // 0x30
-		::System::Action_1<::System::String*>* OnClose; // 0x38
+		::System::Action_1<::System::String*>* OnClose; // 0x28
+		::Class_3_E342D954CB576697* FirstPost; // 0x30
+		::MoleMole::UIBaseController* FromController; // 0x38
 		::System::Single FadeOut; // 0x40
 
 		::System::Void _ctor()

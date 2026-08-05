@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_CONSTUTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D6A5C50)
+#define UNITYENGINE_NAPRENDERPIPELINE0_CONSTUTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA5F2C0)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int ConstUtils_TypeDefinitionIndex = 5846;
+	inline static constexpr unsigned int ConstUtils_TypeDefinitionIndex = 5848;
 
 	class ConstUtils : public ::System::Object
 	{

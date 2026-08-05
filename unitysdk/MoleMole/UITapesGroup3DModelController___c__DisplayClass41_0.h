@@ -6,12 +6,12 @@
 namespace MoleMole { class UITapesGroup3DModelController; }
 namespace MoleMole::Config { class ConfigSetCameraStateCommonNode_CameraState; }
 
-#define MOLEMOLE_UITAPESGROUP3DMODELCONTROLLER___C__DISPLAYCLASS41_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16DEA9E0)
-#define MOLEMOLE_UITAPESGROUP3DMODELCONTROLLER___C__DISPLAYCLASS41_0__SWITCHPERFORMANCE_B__0_OFFSET UNITYSDK_OFFSET(0x16DEA9F0)
+#define MOLEMOLE_UITAPESGROUP3DMODELCONTROLLER___C__DISPLAYCLASS41_0__CTOR_OFFSET UNITYSDK_OFFSET(0x140D0C80)
+#define MOLEMOLE_UITAPESGROUP3DMODELCONTROLLER___C__DISPLAYCLASS41_0__SWITCHPERFORMANCE_B__0_OFFSET UNITYSDK_OFFSET(0x140D0C90)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UITapesGroup3DModelController___c__DisplayClass41_0_TypeDefinitionIndex = 72710;
+	inline static constexpr unsigned int UITapesGroup3DModelController___c__DisplayClass41_0_TypeDefinitionIndex = 60815;
 
 	class UITapesGroup3DModelController___c__DisplayClass41_0 : public ::System::Object
 	{

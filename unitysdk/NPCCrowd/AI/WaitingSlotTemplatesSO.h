@@ -5,11 +5,11 @@
 namespace NPCCrowd::AI { class WaitingSlotTemplate; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCCROWD_AI_WAITINGSLOTTEMPLATESSO__CTOR_OFFSET UNITYSDK_OFFSET(0xEBC2F90)
+#define NPCCROWD_AI_WAITINGSLOTTEMPLATESSO__CTOR_OFFSET UNITYSDK_OFFSET(0xF5FB970)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int WaitingSlotTemplatesSO_TypeDefinitionIndex = 42690;
+	inline static constexpr unsigned int WaitingSlotTemplatesSO_TypeDefinitionIndex = 75885;
 
 	class WaitingSlotTemplatesSO : public ::Sirenix::OdinInspector::SerializedScriptableObject
 	{

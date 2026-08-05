@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define NPCCROWD_ABILITY_NPCABILITYSTANDINGSTEERINGPARAMETERS__CTOR_OFFSET UNITYSDK_OFFSET(0xEBC82F0)
+#define NPCCROWD_ABILITY_NPCABILITYSTANDINGSTEERINGPARAMETERS__CTOR_OFFSET UNITYSDK_OFFSET(0xF6007F0)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int NPCAbilityStandingSteeringParameters_TypeDefinitionIndex = 74101;
+	inline static constexpr unsigned int NPCAbilityStandingSteeringParameters_TypeDefinitionIndex = 61353;
 
 	class NPCAbilityStandingSteeringParameters : public ::System::Object
 	{

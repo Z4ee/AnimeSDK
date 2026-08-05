@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Animations
 {
-	inline static constexpr unsigned int JobMethodIndex_TypeDefinitionIndex = 6668;
+	inline static constexpr unsigned int JobMethodIndex_TypeDefinitionIndex = 6672;
 
 	enum class JobMethodIndex : ::System::Int32
 	{

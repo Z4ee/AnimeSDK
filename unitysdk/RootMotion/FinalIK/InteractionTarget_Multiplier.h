@@ -3,11 +3,11 @@
 #include "unitysdk/RootMotion/FinalIK/InteractionObject_WeightCurve_Type.h"
 #include "unitysdk/System/Object.h"
 
-#define ROOTMOTION_FINALIK_INTERACTIONTARGET_MULTIPLIER__CTOR_OFFSET UNITYSDK_OFFSET(0x1DA86FE0)
+#define ROOTMOTION_FINALIK_INTERACTIONTARGET_MULTIPLIER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE517F0)
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int InteractionTarget_Multiplier_TypeDefinitionIndex = 38288;
+	inline static constexpr unsigned int InteractionTarget_Multiplier_TypeDefinitionIndex = 38928;
 
 	class InteractionTarget_Multiplier : public ::System::Object
 	{

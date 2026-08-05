@@ -1,13 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Enum_3_958E03692E69DAB1_1_TypeDefinitionIndex = 71445;
+inline static constexpr unsigned int Enum_3_958E03692E69DAB1_1_TypeDefinitionIndex = 74465;
 
 enum class Enum_3_958E03692E69DAB1_1 : ::System::Int32
 {
-	Inited = 1,
+	Running = 1,
+	None = 0,
 	Interrupted = 4,
-	Empty = 0,
-	Final = 3,
-	Runing = 2,
+	End = 3,
+	Paused = 2,
 };

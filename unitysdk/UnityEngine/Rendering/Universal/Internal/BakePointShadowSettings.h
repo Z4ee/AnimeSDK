@@ -11,23 +11,23 @@ namespace UnityEngine { class MeshRenderer; }
 namespace UnityEngine { class Texture2DArray; }
 namespace UnityEngine::Rendering::Universal::Internal { class BakedPointShadowAtlas; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_BAKEPOINTSHADOWSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1C403190)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_BAKEPOINTSHADOWSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6E25C0)
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int BakePointShadowSettings_TypeDefinitionIndex = 27296;
+	inline static constexpr unsigned int BakePointShadowSettings_TypeDefinitionIndex = 27084;
 
 	class BakePointShadowSettings : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::UnityEngine::MeshRenderer*>* explicitMeshRenderers; // 0x10
 		::UnityEngine::Light* targetLight; // 0x18
-		::UnityEngine::Texture2DArray* outputTexture2DArray; // 0x20
-		::UnityEngine::Rendering::Universal::Internal::BakedPointShadowAtlas* atlas; // 0x28
-		::UnityEngine::LayerMask geometryMask; // 0x30
-		::UnityEngine::Rendering::Universal::Internal::BakedPointShadowFaceResolution fallbackFaceResolution; // 0x34
-		::System::Boolean onlyStaticGameObjects; // 0x38
-		::UnityEngine::Rendering::Universal::Internal::BakedPointShadowBakeFaceMask fallbackBakeFaceMask; // 0x3C
+		::UnityEngine::Rendering::Universal::Internal::BakedPointShadowAtlas* atlas; // 0x20
+		::UnityEngine::Texture2DArray* outputTexture2DArray; // 0x28
+		::UnityEngine::Rendering::Universal::Internal::BakedPointShadowFaceResolution fallbackFaceResolution; // 0x30
+		::UnityEngine::Rendering::Universal::Internal::BakedPointShadowBakeFaceMask fallbackBakeFaceMask; // 0x34
+		::UnityEngine::LayerMask geometryMask; // 0x38
+		::System::Boolean onlyStaticGameObjects; // 0x3C
 
 		::System::Void _ctor()
 		{

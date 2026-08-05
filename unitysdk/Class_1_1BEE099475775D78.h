@@ -3,19 +3,19 @@
 #include "unitysdk/Enum_3_067CA7F45E71A430.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_75B55FBF5B9BC90B;
+class Class_2_6DA289675FB59393;
 namespace System { class String; }
 
-#define CLASS_1_1BEE099475775D78__CTOR_OFFSET UNITYSDK_OFFSET(0x1284DE20)
+#define CLASS_1_1BEE099475775D78__CTOR_OFFSET UNITYSDK_OFFSET(0x13969C40)
 
-inline static constexpr unsigned int Class_1_1BEE099475775D78_TypeDefinitionIndex = 73138;
+inline static constexpr unsigned int Class_1_1BEE099475775D78_TypeDefinitionIndex = 57838;
 
 class Class_1_1BEE099475775D78 : public ::System::Object
 {
 public:
-	::Class_2_75B55FBF5B9BC90B* Field_1_0; // 0x10
-	::System::String* Field_1_1; // 0x18
-	::Enum_3_067CA7F45E71A430 Field_1_2; // 0x20
+	::System::String* Field_1_7; // 0x10
+	::Class_2_6DA289675FB59393* Field_1_0; // 0x18
+	::Enum_3_067CA7F45E71A430 Field_1_6; // 0x20
 
 	::System::Void _ctor()
 	{

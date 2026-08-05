@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Analytics
 {
-	inline static constexpr unsigned int AnalyticsSessionState_TypeDefinitionIndex = 89804;
+	inline static constexpr unsigned int AnalyticsSessionState_TypeDefinitionIndex = 93735;
 
 	enum class AnalyticsSessionState : ::System::Int32
 	{

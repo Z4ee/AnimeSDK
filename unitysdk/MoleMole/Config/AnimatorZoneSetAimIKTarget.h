@@ -12,31 +12,31 @@ namespace MoleMole::Config { class ConfigPosRot; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_ANIMATORZONESETAIMIKTARGET_ONZONEENTER_OFFSET UNITYSDK_OFFSET(0x1A05B7F0)
-#define MOLEMOLE_CONFIG_ANIMATORZONESETAIMIKTARGET_ONZONEEXIT_OFFSET UNITYSDK_OFFSET(0x1A05BB00)
-#define MOLEMOLE_CONFIG_ANIMATORZONESETAIMIKTARGET_TRYSETAIMIK_OFFSET UNITYSDK_OFFSET(0x1A05B9C0)
-#define MOLEMOLE_CONFIG_ANIMATORZONESETAIMIKTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x1A05BCF0)
-#define MOLEMOLE_CONFIG_ANIMATORZONESETAIMIKTARGET___BASE_ONZONEENTER_OFFSET UNITYSDK_OFFSET(0x1A05BD60)
-#define MOLEMOLE_CONFIG_ANIMATORZONESETAIMIKTARGET___BASE_ONZONEEXIT_OFFSET UNITYSDK_OFFSET(0x1A05BE10)
+#define MOLEMOLE_CONFIG_ANIMATORZONESETAIMIKTARGET_ONZONEENTER_OFFSET UNITYSDK_OFFSET(0x177CBDD0)
+#define MOLEMOLE_CONFIG_ANIMATORZONESETAIMIKTARGET_ONZONEEXIT_OFFSET UNITYSDK_OFFSET(0x177CC0E0)
+#define MOLEMOLE_CONFIG_ANIMATORZONESETAIMIKTARGET_TRYSETAIMIK_OFFSET UNITYSDK_OFFSET(0x177CBFA0)
+#define MOLEMOLE_CONFIG_ANIMATORZONESETAIMIKTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x177CC2D0)
+#define MOLEMOLE_CONFIG_ANIMATORZONESETAIMIKTARGET___BASE_ONZONEENTER_OFFSET UNITYSDK_OFFSET(0x177CC340)
+#define MOLEMOLE_CONFIG_ANIMATORZONESETAIMIKTARGET___BASE_ONZONEEXIT_OFFSET UNITYSDK_OFFSET(0x177CC3F0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AnimatorZoneSetAimIKTarget_TypeDefinitionIndex = 76841;
+	inline static constexpr unsigned int AnimatorZoneSetAimIKTarget_TypeDefinitionIndex = 48454;
 
 	class AnimatorZoneSetAimIKTarget : public ::MoleMole::Config::AnimatorZone
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::String*>* aimControllerTagList; // 0x50
+		::System::String* AimIkId; // 0x50
 		::System::String* AttachPoint; // 0x58
 		::MoleMole::Config::ConfigPosRot* CustomPosRot; // 0x60
-		::System::String* AimIkId; // 0x68
-		::System::Single UIViewPortZ; // 0x70
-		::UnityEngine::Vector3 Offset; // 0x74
-		::MoleMole::Config::AimIKLockTargetType LockTargetType; // 0x80
-		::System::Boolean UseOverrideAttachPoint; // 0x84
-		::System::Boolean UseOverrideOffset; // 0x85
-		::System::Boolean MultipleAimIk; // 0x86
-		::UnityEngine::Vector2 UIViewPort; // 0x88
+		::System::Collections::Generic::List_1<::System::String*>* aimControllerTagList; // 0x68
+		::UnityEngine::Vector3 Offset; // 0x70
+		::System::Boolean UseOverrideOffset; // 0x7C
+		::System::Boolean UseOverrideAttachPoint; // 0x7D
+		::System::Boolean MultipleAimIk; // 0x7E
+		::System::Single UIViewPortZ; // 0x80
+		::UnityEngine::Vector2 UIViewPort; // 0x84
+		::MoleMole::Config::AimIKLockTargetType LockTargetType; // 0x8C
 
 		::System::Void _ctor()
 		{

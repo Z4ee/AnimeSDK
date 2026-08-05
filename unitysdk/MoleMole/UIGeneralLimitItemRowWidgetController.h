@@ -1,0 +1,102 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/MoleMole/UIWidgetController.h"
+#include "unitysdk/Share/EItemType.h"
+#include "unitysdk/Struct_2_575273D27F02957E.h"
+
+class Class_1_2352DF1ADE2D65E3;
+class Class_2_6B7D81B78C21BD5F;
+namespace MoleMole { class UIControlReference; }
+namespace MoleMole { class UIControllerContextBase; }
+namespace MoleMole { class UIGeneralLimitItemRowWidgetController_Context; }
+
+#define MOLEMOLE_UIGENERALLIMITITEMROWWIDGETCONTROLLER_GET_DATA_OFFSET UNITYSDK_OFFSET(0x1A3132C0)
+#define MOLEMOLE_UIGENERALLIMITITEMROWWIDGETCONTROLLER_GET_ITEMID_OFFSET UNITYSDK_OFFSET(0x1A313400)
+#define MOLEMOLE_UIGENERALLIMITITEMROWWIDGETCONTROLLER_GET_ITEMTYPE_OFFSET UNITYSDK_OFFSET(0x1A313320)
+#define MOLEMOLE_UIGENERALLIMITITEMROWWIDGETCONTROLLER_GET__VIEWMODEL_OFFSET UNITYSDK_OFFSET(0x1A313250)
+#define MOLEMOLE_UIGENERALLIMITITEMROWWIDGETCONTROLLER_ISSELECTED_OFFSET UNITYSDK_OFFSET(0x1A313930)
+#define MOLEMOLE_UIGENERALLIMITITEMROWWIDGETCONTROLLER_ONBUTTONCLICK_OFFSET UNITYSDK_OFFSET(0x1A3138A0)
+#define MOLEMOLE_UIGENERALLIMITITEMROWWIDGETCONTROLLER_ONCREATEVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x1A3134D0)
+#define MOLEMOLE_UIGENERALLIMITITEMROWWIDGETCONTROLLER_ONITEMBUTTONCLICK_OFFSET UNITYSDK_OFFSET(0x1A313980)
+#define MOLEMOLE_UIGENERALLIMITITEMROWWIDGETCONTROLLER_ONSHOW_OFFSET UNITYSDK_OFFSET(0x1A313570)
+#define MOLEMOLE_UIGENERALLIMITITEMROWWIDGETCONTROLLER_SETSELECTED_OFFSET UNITYSDK_OFFSET(0x1A3137F0)
+#define MOLEMOLE_UIGENERALLIMITITEMROWWIDGETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A313A20)
+#define MOLEMOLE_UIGENERALLIMITITEMROWWIDGETCONTROLLER___BASE_ONCREATEVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x1A313A80)
+#define MOLEMOLE_UIGENERALLIMITITEMROWWIDGETCONTROLLER___BASE_ONSHOW_OFFSET UNITYSDK_OFFSET(0x1A313B20)
+
+namespace MoleMole
+{
+	inline static constexpr unsigned int UIGeneralLimitItemRowWidgetController_TypeDefinitionIndex = 86305;
+
+	class UIGeneralLimitItemRowWidgetController : public ::MoleMole::UIWidgetController
+	{
+	public:
+		::MoleMole::UIGeneralLimitItemRowWidgetController_Context* _context; // 0x2C0
+		::System::Boolean _isSelected; // 0x2C8
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIGENERALLIMITITEMROWWIDGETCONTROLLER__CTOR_OFFSET))(this);
+		}
+
+		::Class_2_6B7D81B78C21BD5F* get__viewModel()
+		{
+			return ((::Class_2_6B7D81B78C21BD5F*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIGENERALLIMITITEMROWWIDGETCONTROLLER_GET__VIEWMODEL_OFFSET))(this);
+		}
+
+		::Class_1_2352DF1ADE2D65E3* get_Data()
+		{
+			return ((::Class_1_2352DF1ADE2D65E3*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIGENERALLIMITITEMROWWIDGETCONTROLLER_GET_DATA_OFFSET))(this);
+		}
+
+		::Share::EItemType get_ItemType()
+		{
+			return ((::Share::EItemType(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIGENERALLIMITITEMROWWIDGETCONTROLLER_GET_ITEMTYPE_OFFSET))(this);
+		}
+
+		::System::UInt32 get_ItemId()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIGENERALLIMITITEMROWWIDGETCONTROLLER_GET_ITEMID_OFFSET))(this);
+		}
+
+		::System::Void OnCreateViewModel(::Struct_2_575273D27F02957E& binderInfo, ::MoleMole::UIControlReference* controlReference)
+		{
+			return ((::System::Void(*)(::PVOID, ::Struct_2_575273D27F02957E&, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIGENERALLIMITITEMROWWIDGETCONTROLLER_ONCREATEVIEWMODEL_OFFSET))(this, binderInfo, controlReference);
+		}
+
+		::System::Void OnShow(::MoleMole::UIControllerContextBase* showCtrlContext)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIGENERALLIMITITEMROWWIDGETCONTROLLER_ONSHOW_OFFSET))(this, showCtrlContext);
+		}
+
+		::System::Void OnButtonClick()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIGENERALLIMITITEMROWWIDGETCONTROLLER_ONBUTTONCLICK_OFFSET))(this);
+		}
+
+		::System::Void SetSelected(::System::Boolean isSelected)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UIGENERALLIMITITEMROWWIDGETCONTROLLER_SETSELECTED_OFFSET))(this, isSelected);
+		}
+
+		::System::Boolean IsSelected()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIGENERALLIMITITEMROWWIDGETCONTROLLER_ISSELECTED_OFFSET))(this);
+		}
+
+		::System::Void OnItemButtonClick()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIGENERALLIMITITEMROWWIDGETCONTROLLER_ONITEMBUTTONCLICK_OFFSET))(this);
+		}
+
+		::System::Void __base_OnCreateViewModel(::Struct_2_575273D27F02957E& P0, ::MoleMole::UIControlReference* P1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Struct_2_575273D27F02957E&, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIGENERALLIMITITEMROWWIDGETCONTROLLER___BASE_ONCREATEVIEWMODEL_OFFSET))(this, P0, P1);
+		}
+
+		::System::Void __base_OnShow(::MoleMole::UIControllerContextBase* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIGENERALLIMITITEMROWWIDGETCONTROLLER___BASE_ONSHOW_OFFSET))(this, P0);
+		}
+	};
+}

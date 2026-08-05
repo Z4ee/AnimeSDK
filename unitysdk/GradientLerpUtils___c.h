@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define GRADIENTLERPUTILS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B7E6110)
-#define GRADIENTLERPUTILS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7E6150)
-#define GRADIENTLERPUTILS___C___CCTOR_B__13_0_OFFSET UNITYSDK_OFFSET(0x1B7E6160)
+#define GRADIENTLERPUTILS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CB023B0)
+#define GRADIENTLERPUTILS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB023F0)
+#define GRADIENTLERPUTILS___C___CCTOR_B__13_0_OFFSET UNITYSDK_OFFSET(0x1CB02400)
 
-inline static constexpr unsigned int GradientLerpUtils___c_TypeDefinitionIndex = 26751;
+inline static constexpr unsigned int GradientLerpUtils___c_TypeDefinitionIndex = 27088;
 
 class GradientLerpUtils___c : public ::System::Object
 {
 public:
 	static ::GradientLerpUtils___c** StaticGet___9()
 	{
-		return (::GradientLerpUtils___c**)Il2CppClass::FromTypeDefinitionIndex(GradientLerpUtils___c_TypeDefinitionIndex)->GetStaticField(0x220A0);
+		return (::GradientLerpUtils___c**)Il2CppClass::FromTypeDefinitionIndex(GradientLerpUtils___c_TypeDefinitionIndex)->GetStaticField(0x23880);
 	}
 
 	static ::System::Void _cctor()

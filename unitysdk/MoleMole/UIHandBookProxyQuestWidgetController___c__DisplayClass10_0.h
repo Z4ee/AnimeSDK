@@ -5,12 +5,12 @@
 
 namespace MoleMole { class UIHandBookProxyQuestWidgetController; }
 
-#define MOLEMOLE_UIHANDBOOKPROXYQUESTWIDGETCONTROLLER___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x186D1860)
-#define MOLEMOLE_UIHANDBOOKPROXYQUESTWIDGETCONTROLLER___C__DISPLAYCLASS10_0__REFRESHPROXYLEVEL_B__0_OFFSET UNITYSDK_OFFSET(0x186D1870)
+#define MOLEMOLE_UIHANDBOOKPROXYQUESTWIDGETCONTROLLER___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x199D4280)
+#define MOLEMOLE_UIHANDBOOKPROXYQUESTWIDGETCONTROLLER___C__DISPLAYCLASS10_0__REFRESHPROXYLEVEL_B__0_OFFSET UNITYSDK_OFFSET(0x199D4290)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHandBookProxyQuestWidgetController___c__DisplayClass10_0_TypeDefinitionIndex = 59044;
+	inline static constexpr unsigned int UIHandBookProxyQuestWidgetController___c__DisplayClass10_0_TypeDefinitionIndex = 79450;
 
 	class UIHandBookProxyQuestWidgetController___c__DisplayClass10_0 : public ::System::Object
 	{

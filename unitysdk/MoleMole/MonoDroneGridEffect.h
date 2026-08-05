@@ -5,17 +5,17 @@
 
 namespace UnityEngine { class MeshRenderer; }
 
-#define MOLEMOLE_MONODRONEGRIDEFFECT_SYNCCHARACTERPOS_OFFSET UNITYSDK_OFFSET(0x1262E3D0)
-#define MOLEMOLE_MONODRONEGRIDEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1262E4D0)
+#define MOLEMOLE_MONODRONEGRIDEFFECT_SYNCCHARACTERPOS_OFFSET UNITYSDK_OFFSET(0x149FD320)
+#define MOLEMOLE_MONODRONEGRIDEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x149FD420)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoDroneGridEffect_TypeDefinitionIndex = 82838;
+	inline static constexpr unsigned int MonoDroneGridEffect_TypeDefinitionIndex = 82609;
 
 	class MonoDroneGridEffect : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		::System::Int32 Field_5_0; // 0x18
+		::System::Int32 Field_5_1; // 0x18
 		::UnityEngine::MeshRenderer* MeshRenderer; // 0x20
 
 		::System::Void _ctor()

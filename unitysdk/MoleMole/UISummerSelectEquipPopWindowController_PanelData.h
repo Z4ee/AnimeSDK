@@ -4,19 +4,19 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_UISUMMERSELECTEQUIPPOPWINDOWCONTROLLER_PANELDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x16545990)
+#define MOLEMOLE_UISUMMERSELECTEQUIPPOPWINDOWCONTROLLER_PANELDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x191455F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISummerSelectEquipPopWindowController_PanelData_TypeDefinitionIndex = 51459;
+	inline static constexpr unsigned int UISummerSelectEquipPopWindowController_PanelData_TypeDefinitionIndex = 90595;
 
 	class UISummerSelectEquipPopWindowController_PanelData : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::System::String* Title2; // 0x28
-		::System::String* Title; // 0x30
-		::System::Int32 LevelId; // 0x38
-		::System::Boolean IsShooting; // 0x3C
+		::System::String* Title; // 0x28
+		::System::String* Title2; // 0x30
+		::System::Boolean IsShooting; // 0x38
+		::System::Int32 LevelId; // 0x3C
 
 		::System::Void _ctor()
 		{

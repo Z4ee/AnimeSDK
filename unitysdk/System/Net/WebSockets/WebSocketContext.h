@@ -10,7 +10,7 @@ namespace System::Net { class CookieCollection; }
 namespace System::Net::WebSockets { class WebSocket; }
 namespace System::Security::Principal { class IPrincipal; }
 
-#define SYSTEM_NET_WEBSOCKETS_WEBSOCKETCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1C02E490)
+#define SYSTEM_NET_WEBSOCKETS_WEBSOCKETCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D414D80)
 
 namespace System::Net::WebSockets
 {

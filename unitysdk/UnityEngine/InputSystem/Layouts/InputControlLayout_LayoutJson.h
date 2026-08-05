@@ -6,12 +6,12 @@ namespace System { class String; }
 namespace UnityEngine::InputSystem::Layouts { class InputControlLayout; }
 namespace UnityEngine::InputSystem::Layouts { class InputControlLayout_ControlItemJson; }
 
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_LAYOUTJSON_FROMLAYOUT_OFFSET UNITYSDK_OFFSET(0x1CD26800)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_LAYOUTJSON_TOLAYOUT_OFFSET UNITYSDK_OFFSET(0x9B8340)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_LAYOUTJSON_FROMLAYOUT_OFFSET UNITYSDK_OFFSET(0x1E0E0070)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_LAYOUTJSON_TOLAYOUT_OFFSET UNITYSDK_OFFSET(0xA01810)
 
 namespace UnityEngine::InputSystem::Layouts
 {
-	inline static constexpr unsigned int InputControlLayout_LayoutJson_TypeDefinitionIndex = 31984;
+	inline static constexpr unsigned int InputControlLayout_LayoutJson_TypeDefinitionIndex = 32604;
 
 	struct alignas(8) InputControlLayout_LayoutJson
 	{

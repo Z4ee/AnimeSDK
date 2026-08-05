@@ -8,31 +8,31 @@ namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_C219469667DBAA6A_CLASS_1_8D71409DB69A3F23_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x12CBCB50)
-#define CLASS_2_C219469667DBAA6A_CLASS_1_8D71409DB69A3F23_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x12CBD400)
-#define CLASS_2_C219469667DBAA6A_CLASS_1_8D71409DB69A3F23_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x12CBD460)
-#define CLASS_2_C219469667DBAA6A_CLASS_1_8D71409DB69A3F23_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x12CBD410)
-#define CLASS_2_C219469667DBAA6A_CLASS_1_8D71409DB69A3F23_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x12CBCB40)
-#define CLASS_2_C219469667DBAA6A_CLASS_1_8D71409DB69A3F23__CTOR_OFFSET UNITYSDK_OFFSET(0x12CBCB30)
+#define CLASS_2_C219469667DBAA6A_CLASS_1_8D71409DB69A3F23_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x12ED9B90)
+#define CLASS_2_C219469667DBAA6A_CLASS_1_8D71409DB69A3F23_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x12EDA450)
+#define CLASS_2_C219469667DBAA6A_CLASS_1_8D71409DB69A3F23_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x12EDA4B0)
+#define CLASS_2_C219469667DBAA6A_CLASS_1_8D71409DB69A3F23_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x12EDA460)
+#define CLASS_2_C219469667DBAA6A_CLASS_1_8D71409DB69A3F23_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x12ED9B80)
+#define CLASS_2_C219469667DBAA6A_CLASS_1_8D71409DB69A3F23__CTOR_OFFSET UNITYSDK_OFFSET(0x12ED9B70)
 
-inline static constexpr unsigned int Class_2_C219469667DBAA6A_Class_1_8D71409DB69A3F23_TypeDefinitionIndex = 39752;
+inline static constexpr unsigned int Class_2_C219469667DBAA6A_Class_1_8D71409DB69A3F23_TypeDefinitionIndex = 65643;
 
 class Class_2_C219469667DBAA6A_Class_1_8D71409DB69A3F23 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::System::String*>* Field_1_7; // 0x10
-	::Class_2_C219469667DBAA6A* Field_1_2; // 0x18
-	::System::Action_1<::System::Single>* Field_1_5; // 0x20
-	::System::Collections::Generic::List_1<::System::String*>* Field_1_6; // 0x28
-	::System::Collections::Generic::List_1<::System::Boolean>* Field_1_8; // 0x30
-	::Foundation::AssetRequestHandle Field_1_12; // 0x38
-	::System::Object* Field_1_1; // 0x58
-	::System::String* Field_1_3; // 0x60
-	::System::Int32 Field_1_0; // 0x68
-	::System::Single Field_1_11; // 0x6C
-	::System::Single Field_1_4; // 0x70
-	::System::Int32 Field_1_9; // 0x74
-	::System::Int32 Field_1_10; // 0x78
+	::System::Object* Field_1_1; // 0x10
+	::System::Collections::Generic::List_1<::System::String*>* Field_1_4; // 0x18
+	::System::String* Field_1_7; // 0x20
+	::System::Action_1<::System::Single>* Field_1_5; // 0x28
+	::Class_2_C219469667DBAA6A* Field_1_0; // 0x30
+	::System::Collections::Generic::List_1<::System::String*>* Field_1_11; // 0x38
+	::System::Collections::Generic::List_1<::System::Boolean>* Field_1_10; // 0x40
+	::Foundation::AssetRequestHandle Field_1_14; // 0x48
+	::System::Single Field_1_6; // 0x68
+	::System::Int32 Field_1_2; // 0x6C
+	::System::Int32 Field_1_9; // 0x70
+	::System::Int32 Field_1_8; // 0x74
+	::System::Single Field_1_15; // 0x78
 
 	::System::Void _ctor(::System::Int32 a1)
 	{

@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int BubbleSpeakerPair_TypeDefinitionIndex = 56551;
+	inline static constexpr unsigned int BubbleSpeakerPair_TypeDefinitionIndex = 72631;
 
 	struct alignas(8) BubbleSpeakerPair
 	{

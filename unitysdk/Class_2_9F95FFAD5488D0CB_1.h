@@ -1,0 +1,68 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_2DD57B8CAD4CF82D.h"
+#include "unitysdk/Enum_3_C64432A6918BE61F.h"
+
+class Class_0_16E4307DCC419505_207;
+class Class_2_9F95FFAD5488D0CB_1_Class_2_8504E12A716501A1_12;
+namespace MoleMole { class UIMultiInteractionTargetListChildWindowController; }
+namespace MoleMole { class UIWindowController; }
+namespace System { class EventArgs; }
+
+#define CLASS_2_9F95FFAD5488D0CB_1_METHOD_2_57C6ADDE1BC3E5FE_OFFSET UNITYSDK_OFFSET(0x10B303A0)
+#define CLASS_2_9F95FFAD5488D0CB_1_METHOD_2_A96DCA30C6927810_OFFSET UNITYSDK_OFFSET(0x10B30080)
+#define CLASS_2_9F95FFAD5488D0CB_1_METHOD_2_ACE888BF6F5BC5FD_OFFSET UNITYSDK_OFFSET(0x10B30150)
+#define CLASS_2_9F95FFAD5488D0CB_1_METHOD_2_B74D3688C9F7FE4B_OFFSET UNITYSDK_OFFSET(0x10B30090)
+#define CLASS_2_9F95FFAD5488D0CB_1_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x10B302C0)
+#define CLASS_2_9F95FFAD5488D0CB_1_METHOD_2_F4ADC37B63F4E9EF_1_OFFSET UNITYSDK_OFFSET(0x10B30350)
+#define CLASS_2_9F95FFAD5488D0CB_1_METHOD_2_F4ADC37B63F4E9EF_OFFSET UNITYSDK_OFFSET(0x10B30270)
+#define CLASS_2_9F95FFAD5488D0CB_1__CTOR_OFFSET UNITYSDK_OFFSET(0x10B30260)
+
+inline static constexpr unsigned int Class_2_9F95FFAD5488D0CB_1_TypeDefinitionIndex = 59180;
+
+class Class_2_9F95FFAD5488D0CB_1 : public ::Class_1_2DD57B8CAD4CF82D
+{
+public:
+	::Class_2_9F95FFAD5488D0CB_1_Class_2_8504E12A716501A1_12* Field_2_1; // 0x28
+	::MoleMole::UIMultiInteractionTargetListChildWindowController* Field_2_0; // 0x30
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_9F95FFAD5488D0CB_1__CTOR_OFFSET))(this);
+	}
+
+	::Enum_3_C64432A6918BE61F Method_2_A96DCA30C6927810()
+	{
+		return ((::Enum_3_C64432A6918BE61F(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_9F95FFAD5488D0CB_1_METHOD_2_A96DCA30C6927810_OFFSET))(this);
+	}
+
+	::System::Void Method_2_B74D3688C9F7FE4B(::Class_0_16E4307DCC419505_207* a1, ::MoleMole::UIWindowController* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_207*, ::MoleMole::UIWindowController*))((::PBYTE)hIl2Cpp + CLASS_2_9F95FFAD5488D0CB_1_METHOD_2_B74D3688C9F7FE4B_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_2_ACE888BF6F5BC5FD()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_9F95FFAD5488D0CB_1_METHOD_2_ACE888BF6F5BC5FD_OFFSET))(this);
+	}
+
+	::System::Void Method_2_F4ADC37B63F4E9EF()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_9F95FFAD5488D0CB_1_METHOD_2_F4ADC37B63F4E9EF_OFFSET))(this);
+	}
+
+	::System::Void Method_2_CA373AA1C7054598()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_9F95FFAD5488D0CB_1_METHOD_2_CA373AA1C7054598_OFFSET))(this);
+	}
+
+	::System::Void Method_2_F4ADC37B63F4E9EF_1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_9F95FFAD5488D0CB_1_METHOD_2_F4ADC37B63F4E9EF_1_OFFSET))(this);
+	}
+
+	::System::Void Method_2_57C6ADDE1BC3E5FE(::System::EventArgs* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::EventArgs*))((::PBYTE)hIl2Cpp + CLASS_2_9F95FFAD5488D0CB_1_METHOD_2_57C6ADDE1BC3E5FE_OFFSET))(this, a1);
+	}
+};

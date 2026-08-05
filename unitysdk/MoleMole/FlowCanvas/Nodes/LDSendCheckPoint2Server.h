@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FlowCanvas/Nodes/CallableActionNode.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSENDCHECKPOINT2SERVER_INVOKE_OFFSET UNITYSDK_OFFSET(0x161E15B0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSENDCHECKPOINT2SERVER__CTOR_OFFSET UNITYSDK_OFFSET(0x161E1730)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSENDCHECKPOINT2SERVER_INVOKE_OFFSET UNITYSDK_OFFSET(0x144C9F20)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSENDCHECKPOINT2SERVER__CTOR_OFFSET UNITYSDK_OFFSET(0x144CA0A0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDSendCheckPoint2Server_TypeDefinitionIndex = 48888;
+	inline static constexpr unsigned int LDSendCheckPoint2Server_TypeDefinitionIndex = 60547;
 
 	class LDSendCheckPoint2Server : public ::FlowCanvas::Nodes::CallableActionNode
 	{

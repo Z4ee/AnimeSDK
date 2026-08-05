@@ -1,10 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Foundation/ResourceFileType.h"
+#include "unitysdk/Struct_2_ACD0EF80A5330786.h"
 
-namespace System::Collections::Generic { template <typename T> class HashSet_1; }
-
-inline static constexpr unsigned int Class_0_16E4307DCC419505_356_TypeDefinitionIndex = 86275;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_356_TypeDefinitionIndex = 46518;
 
 class Class_0_16E4307DCC419505_356
 {

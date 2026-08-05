@@ -9,25 +9,25 @@ namespace MoleMole { class ItemIconTweenConfig; }
 namespace MoleMole { class MonoRefreshMaterial___c__DisplayClass5_0; }
 namespace UnityEngine { class RectTransform; }
 
-#define MOLEMOLE_MONOREFRESHMATERIAL___C__DISPLAYCLASS5_2__CTOR_OFFSET UNITYSDK_OFFSET(0x13F14FF0)
-#define MOLEMOLE_MONOREFRESHMATERIAL___C__DISPLAYCLASS5_2__PLAYITEMICONADDANI_B__3_OFFSET UNITYSDK_OFFSET(0x13F15000)
-#define MOLEMOLE_MONOREFRESHMATERIAL___C__DISPLAYCLASS5_2__PLAYITEMICONADDANI_B__4_OFFSET UNITYSDK_OFFSET(0x13F152D0)
-#define MOLEMOLE_MONOREFRESHMATERIAL___C__DISPLAYCLASS5_2__PLAYITEMICONADDANI_B__5_OFFSET UNITYSDK_OFFSET(0x13F15310)
+#define MOLEMOLE_MONOREFRESHMATERIAL___C__DISPLAYCLASS5_2__CTOR_OFFSET UNITYSDK_OFFSET(0x136DF030)
+#define MOLEMOLE_MONOREFRESHMATERIAL___C__DISPLAYCLASS5_2__PLAYITEMICONADDANI_B__3_OFFSET UNITYSDK_OFFSET(0x136DF040)
+#define MOLEMOLE_MONOREFRESHMATERIAL___C__DISPLAYCLASS5_2__PLAYITEMICONADDANI_B__4_OFFSET UNITYSDK_OFFSET(0x136DF310)
+#define MOLEMOLE_MONOREFRESHMATERIAL___C__DISPLAYCLASS5_2__PLAYITEMICONADDANI_B__5_OFFSET UNITYSDK_OFFSET(0x136DF350)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoRefreshMaterial___c__DisplayClass5_2_TypeDefinitionIndex = 79564;
+	inline static constexpr unsigned int MonoRefreshMaterial___c__DisplayClass5_2_TypeDefinitionIndex = 48752;
 
 	class MonoRefreshMaterial___c__DisplayClass5_2 : public ::System::Object
 	{
 	public:
 		::MoleMole::ItemIconTweenConfig* tweenConfig; // 0x10
-		::DG::Tweening::Core::DOGetter_1<::System::Single>* __9__4; // 0x18
-		::MoleMole::MonoRefreshMaterial___c__DisplayClass5_0* CS___8__locals2; // 0x20
-		::UnityEngine::RectTransform* rect0; // 0x28
-		::DG::Tweening::Core::DOSetter_1<::System::Single>* __9__5; // 0x30
-		::System::Single duration; // 0x38
-		::UnityEngine::Vector2 posEnd; // 0x3C
+		::DG::Tweening::Core::DOSetter_1<::System::Single>* __9__5; // 0x18
+		::DG::Tweening::Core::DOGetter_1<::System::Single>* __9__4; // 0x20
+		::MoleMole::MonoRefreshMaterial___c__DisplayClass5_0* CS___8__locals2; // 0x28
+		::UnityEngine::RectTransform* rect0; // 0x30
+		::UnityEngine::Vector2 posEnd; // 0x38
+		::System::Single duration; // 0x40
 
 		::System::Void _ctor()
 		{

@@ -6,12 +6,12 @@ namespace MoleMole::Timeline::OverrideAnimation { class SkinOverrideAnimationTra
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define MOLEMOLE_TIMELINE_OVERRIDEANIMATION_SKINOVERRIDEANIMATIONPLAYABLEASSET_ANICLIPKEYS_OFFSET UNITYSDK_OFFSET(0x1E757720)
-#define MOLEMOLE_TIMELINE_OVERRIDEANIMATION_SKINOVERRIDEANIMATIONPLAYABLEASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1E757730)
+#define MOLEMOLE_TIMELINE_OVERRIDEANIMATION_SKINOVERRIDEANIMATIONPLAYABLEASSET_ANICLIPKEYS_OFFSET UNITYSDK_OFFSET(0x1FB33F80)
+#define MOLEMOLE_TIMELINE_OVERRIDEANIMATION_SKINOVERRIDEANIMATIONPLAYABLEASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB33F90)
 
 namespace MoleMole::Timeline::OverrideAnimation
 {
-	inline static constexpr unsigned int SkinOverrideAnimationPlayableAsset_TypeDefinitionIndex = 32234;
+	inline static constexpr unsigned int SkinOverrideAnimationPlayableAsset_TypeDefinitionIndex = 32864;
 
 	class SkinOverrideAnimationPlayableAsset : public ::UnityEngine::Timeline::AnimationPlayableAsset
 	{

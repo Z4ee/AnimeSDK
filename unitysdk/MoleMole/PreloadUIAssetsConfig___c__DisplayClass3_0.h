@@ -6,12 +6,12 @@ namespace MoleMole { class PreloadObject; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define MOLEMOLE_PRELOADUIASSETSCONFIG___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17DE06B0)
-#define MOLEMOLE_PRELOADUIASSETSCONFIG___C__DISPLAYCLASS3_0__REMOVEREPEATEDS_G__RMFUNC_0_OFFSET UNITYSDK_OFFSET(0x17DE06C0)
+#define MOLEMOLE_PRELOADUIASSETSCONFIG___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x190A66F0)
+#define MOLEMOLE_PRELOADUIASSETSCONFIG___C__DISPLAYCLASS3_0__REMOVEREPEATEDS_G__RMFUNC_0_OFFSET UNITYSDK_OFFSET(0x190A6700)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int PreloadUIAssetsConfig___c__DisplayClass3_0_TypeDefinitionIndex = 59104;
+	inline static constexpr unsigned int PreloadUIAssetsConfig___c__DisplayClass3_0_TypeDefinitionIndex = 76753;
 
 	class PreloadUIAssetsConfig___c__DisplayClass3_0 : public ::System::Object
 	{

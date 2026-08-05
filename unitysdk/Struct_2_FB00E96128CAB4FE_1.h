@@ -3,9 +3,10 @@
 #include "unitysdk/Foundation/AssetPath.h"
 #include "unitysdk/System/ValueType.h"
 
-inline static constexpr unsigned int Struct_2_FB00E96128CAB4FE_1_TypeDefinitionIndex = 70426;
+inline static constexpr unsigned int Struct_2_FB00E96128CAB4FE_1_TypeDefinitionIndex = 84134;
 
 struct alignas(8) Struct_2_FB00E96128CAB4FE_1
 {
-	::Foundation::AssetPath Field_2_0; // 0x10
+	::Foundation::AssetPath Field_2_1; // 0x10
+	::Foundation::AssetPath Field_2_0; // 0x20
 };

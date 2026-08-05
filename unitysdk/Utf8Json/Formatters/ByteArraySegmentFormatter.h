@@ -8,21 +8,21 @@
 namespace Utf8Json { class IJsonFormatterResolver; }
 namespace Utf8Json { template <typename T> class IJsonFormatter_1; }
 
-#define UTF8JSON_FORMATTERS_BYTEARRAYSEGMENTFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1E73CAA0)
-#define UTF8JSON_FORMATTERS_BYTEARRAYSEGMENTFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1E73CA60)
-#define UTF8JSON_FORMATTERS_BYTEARRAYSEGMENTFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E73CB20)
-#define UTF8JSON_FORMATTERS_BYTEARRAYSEGMENTFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E73CB10)
+#define UTF8JSON_FORMATTERS_BYTEARRAYSEGMENTFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1FB235B0)
+#define UTF8JSON_FORMATTERS_BYTEARRAYSEGMENTFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1FB23570)
+#define UTF8JSON_FORMATTERS_BYTEARRAYSEGMENTFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FB23630)
+#define UTF8JSON_FORMATTERS_BYTEARRAYSEGMENTFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB23620)
 
 namespace Utf8Json::Formatters
 {
-	inline static constexpr unsigned int ByteArraySegmentFormatter_TypeDefinitionIndex = 91369;
+	inline static constexpr unsigned int ByteArraySegmentFormatter_TypeDefinitionIndex = 95302;
 
 	class ByteArraySegmentFormatter : public ::System::Object
 	{
 	public:
 		static ::Utf8Json::IJsonFormatter_1<::System::ArraySegment_1<::System::Byte>>** StaticGet_Default()
 		{
-			return (::Utf8Json::IJsonFormatter_1<::System::ArraySegment_1<::System::Byte>>**)Il2CppClass::FromTypeDefinitionIndex(ByteArraySegmentFormatter_TypeDefinitionIndex)->GetStaticField(0x4F010);
+			return (::Utf8Json::IJsonFormatter_1<::System::ArraySegment_1<::System::Byte>>**)Il2CppClass::FromTypeDefinitionIndex(ByteArraySegmentFormatter_TypeDefinitionIndex)->GetStaticField(0x531C0);
 		}
 
 		::System::Void _ctor()

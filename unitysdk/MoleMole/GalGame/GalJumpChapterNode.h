@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/GalGame/GalPlayableNodeBase.h"
 
-#define MOLEMOLE_GALGAME_GALJUMPCHAPTERNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x13EDE100)
+#define MOLEMOLE_GALGAME_GALJUMPCHAPTERNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x136A4060)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int GalJumpChapterNode_TypeDefinitionIndex = 71265;
+	inline static constexpr unsigned int GalJumpChapterNode_TypeDefinitionIndex = 42037;
 
 	class GalJumpChapterNode : public ::MoleMole::GalGame::GalPlayableNodeBase
 	{

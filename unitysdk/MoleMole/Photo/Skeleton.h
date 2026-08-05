@@ -13,35 +13,35 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace UnityEngine { class Animator; }
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_PHOTO_SKELETON_GETBONECOUNT_OFFSET UNITYSDK_OFFSET(0x18CF53C0)
-#define MOLEMOLE_PHOTO_SKELETON_GETBONEINDEX_1_OFFSET UNITYSDK_OFFSET(0x18CF56E0)
-#define MOLEMOLE_PHOTO_SKELETON_GETBONEINDEX_OFFSET UNITYSDK_OFFSET(0x18CF5460)
-#define MOLEMOLE_PHOTO_SKELETON_GETBONETRANSFORM_OFFSET UNITYSDK_OFFSET(0x18CF5920)
-#define MOLEMOLE_PHOTO_SKELETON_GETSKELETON_OFFSET UNITYSDK_OFFSET(0x18CF5B10)
-#define MOLEMOLE_PHOTO_SKELETON_METHOD_5_33ACA6CB2ABC73F7_OFFSET UNITYSDK_OFFSET(0x18CF5F80)
-#define MOLEMOLE_PHOTO_SKELETON_METHOD_5_4DA6D4A624E42CAB_OFFSET UNITYSDK_OFFSET(0x18CF7640)
-#define MOLEMOLE_PHOTO_SKELETON_METHOD_5_A55FB24DE3C0D372_OFFSET UNITYSDK_OFFSET(0x18CF6080)
-#define MOLEMOLE_PHOTO_SKELETON_METHOD_5_C168F1882EBAD801_OFFSET UNITYSDK_OFFSET(0x18CF6360)
-#define MOLEMOLE_PHOTO_SKELETON_METHOD_5_CB69C24FD8D4A0A4_OFFSET UNITYSDK_OFFSET(0x18CF6700)
-#define MOLEMOLE_PHOTO_SKELETON_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x18CF62C0)
-#define MOLEMOLE_PHOTO_SKELETON_START_OFFSET UNITYSDK_OFFSET(0x18CF5CC0)
-#define MOLEMOLE_PHOTO_SKELETON__CTOR_OFFSET UNITYSDK_OFFSET(0x18CF6310)
+#define MOLEMOLE_PHOTO_SKELETON_GETBONECOUNT_OFFSET UNITYSDK_OFFSET(0x144FD620)
+#define MOLEMOLE_PHOTO_SKELETON_GETBONEINDEX_1_OFFSET UNITYSDK_OFFSET(0x144FD950)
+#define MOLEMOLE_PHOTO_SKELETON_GETBONEINDEX_OFFSET UNITYSDK_OFFSET(0x144FD6D0)
+#define MOLEMOLE_PHOTO_SKELETON_GETBONETRANSFORM_OFFSET UNITYSDK_OFFSET(0x144FDB90)
+#define MOLEMOLE_PHOTO_SKELETON_GETSKELETON_OFFSET UNITYSDK_OFFSET(0x144FDD80)
+#define MOLEMOLE_PHOTO_SKELETON_METHOD_5_33ACA6CB2ABC73F7_OFFSET UNITYSDK_OFFSET(0x144FE1F0)
+#define MOLEMOLE_PHOTO_SKELETON_METHOD_5_4DA6D4A624E42CAB_OFFSET UNITYSDK_OFFSET(0x144FF960)
+#define MOLEMOLE_PHOTO_SKELETON_METHOD_5_76C8F5C883C0012D_OFFSET UNITYSDK_OFFSET(0x144FE970)
+#define MOLEMOLE_PHOTO_SKELETON_METHOD_5_A55FB24DE3C0D372_OFFSET UNITYSDK_OFFSET(0x144FE2F0)
+#define MOLEMOLE_PHOTO_SKELETON_METHOD_5_C168F1882EBAD801_OFFSET UNITYSDK_OFFSET(0x144FE5D0)
+#define MOLEMOLE_PHOTO_SKELETON_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x144FE530)
+#define MOLEMOLE_PHOTO_SKELETON_START_OFFSET UNITYSDK_OFFSET(0x144FDF30)
+#define MOLEMOLE_PHOTO_SKELETON__CTOR_OFFSET UNITYSDK_OFFSET(0x144FE580)
 
 namespace MoleMole::Photo
 {
-	inline static constexpr unsigned int Skeleton_TypeDefinitionIndex = 40008;
+	inline static constexpr unsigned int Skeleton_TypeDefinitionIndex = 47791;
 
 	class Skeleton : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::UnityEngine::Transform* root; // 0x18
-		::System::Int32 Field_5_1; // 0x20
-		::Foundation::NameValueArray_1<::Struct_2_0E3F30CCF139806D> Field_5_2; // 0x28
-		::Foundation::NativeMemory* Field_5_3; // 0x48
+		::System::Int32 Field_5_7; // 0x20
+		::Foundation::NameValueArray_1<::Struct_2_0E3F30CCF139806D> Field_5_6; // 0x28
+		::Foundation::NativeMemory* Field_5_5; // 0x48
 		::System::Collections::Generic::Dictionary_2<::UnityEngine::Transform*, ::System::Int32>* Field_5_4; // 0x50
-		::System::Collections::Generic::Dictionary_2<::UnityEngine::Transform*, ::System::Int32>* Field_5_5; // 0x58
-		::Il2CppArray<::UnityEngine::Transform*>* Field_5_6; // 0x60
-		::UnityEngine::Animations::TransformSceneHandle Field_5_7; // 0x68
+		::System::Collections::Generic::Dictionary_2<::UnityEngine::Transform*, ::System::Int32>* Field_5_11; // 0x58
+		::Il2CppArray<::UnityEngine::Transform*>* Field_5_10; // 0x60
+		::UnityEngine::Animations::TransformSceneHandle Field_5_9; // 0x68
 
 		::System::Void _ctor()
 		{
@@ -83,19 +83,9 @@ namespace MoleMole::Photo
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_PHOTO_SKELETON_ONDESTROY_OFFSET))(this);
 		}
 
-		static ::System::Void Method_5_C168F1882EBAD801(::Il2CppArray<::UnityEngine::Transform*>*& a1, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Transform*, ::System::Int32>*& a2, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Transform*, ::System::Int32>*& a3, ::UnityEngine::Animator* a4, ::UnityEngine::Transform* a5)
-		{
-			return ((::System::Void(*)(::Il2CppArray<::UnityEngine::Transform*>*&, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Transform*, ::System::Int32>*&, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Transform*, ::System::Int32>*&, ::UnityEngine::Animator*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + MOLEMOLE_PHOTO_SKELETON_METHOD_5_C168F1882EBAD801_OFFSET))(a1, a2, a3, a4, a5);
-		}
-
 		::System::Void Method_5_33ACA6CB2ABC73F7()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_PHOTO_SKELETON_METHOD_5_33ACA6CB2ABC73F7_OFFSET))(this);
-		}
-
-		::System::Void Method_5_CB69C24FD8D4A0A4(::Foundation::NameValueArray_1<::Struct_2_0E3F30CCF139806D>& a1, ::Foundation::NativeMemory*& a2, ::UnityEngine::Animator* a3, ::System::String*& a4)
-		{
-			return ((::System::Void(*)(::PVOID, ::Foundation::NameValueArray_1<::Struct_2_0E3F30CCF139806D>&, ::Foundation::NativeMemory*&, ::UnityEngine::Animator*, ::System::String*&))((::PBYTE)hIl2Cpp + MOLEMOLE_PHOTO_SKELETON_METHOD_5_CB69C24FD8D4A0A4_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void Method_5_A55FB24DE3C0D372(::UnityEngine::Animator* a1)
@@ -106,6 +96,16 @@ namespace MoleMole::Photo
 		::System::Boolean Method_5_4DA6D4A624E42CAB()
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_PHOTO_SKELETON_METHOD_5_4DA6D4A624E42CAB_OFFSET))(this);
+		}
+
+		::System::Void Method_5_76C8F5C883C0012D(::Foundation::NameValueArray_1<::Struct_2_0E3F30CCF139806D>& a1, ::Foundation::NativeMemory*& a2, ::UnityEngine::Animator* a3, ::System::String*& a4)
+		{
+			return ((::System::Void(*)(::PVOID, ::Foundation::NameValueArray_1<::Struct_2_0E3F30CCF139806D>&, ::Foundation::NativeMemory*&, ::UnityEngine::Animator*, ::System::String*&))((::PBYTE)hIl2Cpp + MOLEMOLE_PHOTO_SKELETON_METHOD_5_76C8F5C883C0012D_OFFSET))(this, a1, a2, a3, a4);
+		}
+
+		static ::System::Void Method_5_C168F1882EBAD801(::Il2CppArray<::UnityEngine::Transform*>*& a1, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Transform*, ::System::Int32>*& a2, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Transform*, ::System::Int32>*& a3, ::UnityEngine::Animator* a4, ::UnityEngine::Transform* a5)
+		{
+			return ((::System::Void(*)(::Il2CppArray<::UnityEngine::Transform*>*&, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Transform*, ::System::Int32>*&, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Transform*, ::System::Int32>*&, ::UnityEngine::Animator*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + MOLEMOLE_PHOTO_SKELETON_METHOD_5_C168F1882EBAD801_OFFSET))(a1, a2, a3, a4, a5);
 		}
 	};
 }

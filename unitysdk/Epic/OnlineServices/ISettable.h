@@ -5,7 +5,7 @@ namespace System { class Object; }
 
 namespace Epic::OnlineServices
 {
-	inline static constexpr unsigned int ISettable_TypeDefinitionIndex = 34857;
+	inline static constexpr unsigned int ISettable_TypeDefinitionIndex = 35516;
 
 	class ISettable
 	{

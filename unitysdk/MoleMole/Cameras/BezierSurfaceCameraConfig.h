@@ -7,11 +7,11 @@
 namespace Foundation::Geometry { class SmoothBezierSurface3D; }
 namespace Foundation::Geometry { class SmoothBezierSurfaceDirection3D; }
 
-#define MOLEMOLE_CAMERAS_BEZIERSURFACECAMERACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x12C53A50)
+#define MOLEMOLE_CAMERAS_BEZIERSURFACECAMERACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x114512D0)
 
 namespace MoleMole::Cameras
 {
-	inline static constexpr unsigned int BezierSurfaceCameraConfig_TypeDefinitionIndex = 49730;
+	inline static constexpr unsigned int BezierSurfaceCameraConfig_TypeDefinitionIndex = 49485;
 
 	class BezierSurfaceCameraConfig : public ::System::Object
 	{

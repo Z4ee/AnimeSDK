@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define SCEPADTRIGGEREFFECTVIBRATIONPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x7D2BB0)
+#define SCEPADTRIGGEREFFECTVIBRATIONPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x885100)
 
-inline static constexpr unsigned int ScePadTriggerEffectVibrationParam_TypeDefinitionIndex = 83501;
+inline static constexpr unsigned int ScePadTriggerEffectVibrationParam_TypeDefinitionIndex = 66307;
 
 struct alignas(1) ScePadTriggerEffectVibrationParam
 {

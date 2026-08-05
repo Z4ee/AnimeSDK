@@ -4,11 +4,11 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UIMONSTERFANTASYSTORYINFOPAGECONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16DA7BF0)
+#define MOLEMOLE_UIMONSTERFANTASYSTORYINFOPAGECONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x19877FC0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMonsterFantasyStoryInfoPageController_Context_TypeDefinitionIndex = 72772;
+	inline static constexpr unsigned int UIMonsterFantasyStoryInfoPageController_Context_TypeDefinitionIndex = 46621;
 
 	class UIMonsterFantasyStoryInfoPageController_Context : public ::MoleMole::UIControllerContextBase
 	{

@@ -12,17 +12,17 @@ namespace System::IO { class Stream; }
 namespace System::Net::Mail { class BufferBuilder; }
 namespace System::Net::Mime { class MultiAsyncResult; }
 
-#define SYSTEM_NET_MIME_BASEWRITER_BEGINGETCONTENTSTREAM_OFFSET UNITYSDK_OFFSET(0x1CAFBF60)
-#define SYSTEM_NET_MIME_BASEWRITER_CHECKBOUNDARY_OFFSET UNITYSDK_OFFSET(0x1CAFC4E0)
-#define SYSTEM_NET_MIME_BASEWRITER_ENDGETCONTENTSTREAM_OFFSET UNITYSDK_OFFSET(0x1CAFC170)
-#define SYSTEM_NET_MIME_BASEWRITER_FLUSH_OFFSET UNITYSDK_OFFSET(0x1CAFBCC0)
-#define SYSTEM_NET_MIME_BASEWRITER_GETCONTENTSTREAM_1_OFFSET UNITYSDK_OFFSET(0x1CAFBB70)
-#define SYSTEM_NET_MIME_BASEWRITER_GETCONTENTSTREAM_OFFSET UNITYSDK_OFFSET(0x1CAFBB60)
-#define SYSTEM_NET_MIME_BASEWRITER_ONWRITE_OFFSET UNITYSDK_OFFSET(0x1CAFC220)
-#define SYSTEM_NET_MIME_BASEWRITER_WRITEANDFOLD_OFFSET UNITYSDK_OFFSET(0x1CAFB830)
-#define SYSTEM_NET_MIME_BASEWRITER_WRITEHEADER_OFFSET UNITYSDK_OFFSET(0x1CAFB670)
-#define SYSTEM_NET_MIME_BASEWRITER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CAFC4F0)
-#define SYSTEM_NET_MIME_BASEWRITER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CAFB510)
+#define SYSTEM_NET_MIME_BASEWRITER_BEGINGETCONTENTSTREAM_OFFSET UNITYSDK_OFFSET(0x1DEC33A0)
+#define SYSTEM_NET_MIME_BASEWRITER_CHECKBOUNDARY_OFFSET UNITYSDK_OFFSET(0x1DEC3920)
+#define SYSTEM_NET_MIME_BASEWRITER_ENDGETCONTENTSTREAM_OFFSET UNITYSDK_OFFSET(0x1DEC35B0)
+#define SYSTEM_NET_MIME_BASEWRITER_FLUSH_OFFSET UNITYSDK_OFFSET(0x1DEC3100)
+#define SYSTEM_NET_MIME_BASEWRITER_GETCONTENTSTREAM_1_OFFSET UNITYSDK_OFFSET(0x1DEC2FB0)
+#define SYSTEM_NET_MIME_BASEWRITER_GETCONTENTSTREAM_OFFSET UNITYSDK_OFFSET(0x1DEC2FA0)
+#define SYSTEM_NET_MIME_BASEWRITER_ONWRITE_OFFSET UNITYSDK_OFFSET(0x1DEC3660)
+#define SYSTEM_NET_MIME_BASEWRITER_WRITEANDFOLD_OFFSET UNITYSDK_OFFSET(0x1DEC2C90)
+#define SYSTEM_NET_MIME_BASEWRITER_WRITEHEADER_OFFSET UNITYSDK_OFFSET(0x1DEC2AD0)
+#define SYSTEM_NET_MIME_BASEWRITER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DEC3930)
+#define SYSTEM_NET_MIME_BASEWRITER__CTOR_OFFSET UNITYSDK_OFFSET(0x1DEC2970)
 
 namespace System::Net::Mime
 {
@@ -31,25 +31,25 @@ namespace System::Net::Mime
 	class BaseWriter : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::Byte>** StaticGet_CRLF()
-		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(BaseWriter_TypeDefinitionIndex)->GetStaticField(0x27B0);
-		}
 		static ::System::AsyncCallback** StaticGet_onWrite()
 		{
-			return (::System::AsyncCallback**)Il2CppClass::FromTypeDefinitionIndex(BaseWriter_TypeDefinitionIndex)->GetStaticField(0x27B8);
+			return (::System::AsyncCallback**)Il2CppClass::FromTypeDefinitionIndex(BaseWriter_TypeDefinitionIndex)->GetStaticField(0x27B0);
+		}
+		static ::Il2CppArray<::System::Byte>** StaticGet_CRLF()
+		{
+			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(BaseWriter_TypeDefinitionIndex)->GetStaticField(0x27B8);
 		}
 		static ::System::Int32* StaticGet_DefaultLineLength()
 		{
 			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(BaseWriter_TypeDefinitionIndex)->GetStaticField(0x1020);
 		}
-		::System::Net::Mail::BufferBuilder* bufferBuilder; // 0x10
-		::System::EventHandler* onCloseHandler; // 0x18
-		::System::IO::Stream* stream; // 0x20
-		::System::IO::Stream* contentStream; // 0x28
+		::System::IO::Stream* contentStream; // 0x10
+		::System::IO::Stream* stream; // 0x18
+		::System::Net::Mail::BufferBuilder* bufferBuilder; // 0x20
+		::System::EventHandler* onCloseHandler; // 0x28
 		::System::Int32 lineLength; // 0x30
-		::System::Boolean shouldEncodeLeadingDots; // 0x34
-		::System::Boolean isInContent; // 0x35
+		::System::Boolean isInContent; // 0x34
+		::System::Boolean shouldEncodeLeadingDots; // 0x35
 
 		::System::Void _ctor(::System::IO::Stream* stream, ::System::Boolean shouldEncodeLeadingDots)
 		{

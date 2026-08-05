@@ -6,11 +6,11 @@
 namespace UnityEngine { class Mesh; }
 namespace UnityEngine { class OcclusionArea; }
 
-#define MESHOPTIMIZATION_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1BBFF780)
-#define MESHOPTIMIZATION_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1BBFF4B0)
-#define MESHOPTIMIZATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBFFA50)
+#define MESHOPTIMIZATION_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1C97B810)
+#define MESHOPTIMIZATION_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1C97B540)
+#define MESHOPTIMIZATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1C97BAE0)
 
-inline static constexpr unsigned int MeshOptimization_TypeDefinitionIndex = 26723;
+inline static constexpr unsigned int MeshOptimization_TypeDefinitionIndex = 27636;
 
 class MeshOptimization : public ::UnityEngine::MonoBehaviour
 {

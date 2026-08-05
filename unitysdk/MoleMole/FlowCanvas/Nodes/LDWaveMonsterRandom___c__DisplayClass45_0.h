@@ -5,12 +5,12 @@
 
 namespace MoleMole::FlowCanvas::Nodes { class LDWaveMonsterRandom; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTERRANDOM___C__DISPLAYCLASS45_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18B29680)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTERRANDOM___C__DISPLAYCLASS45_0__INTERNALCOROUTINE_B__0_OFFSET UNITYSDK_OFFSET(0x18B29690)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTERRANDOM___C__DISPLAYCLASS45_0__CTOR_OFFSET UNITYSDK_OFFSET(0x118BE0D0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTERRANDOM___C__DISPLAYCLASS45_0__INTERNALCOROUTINE_B__0_OFFSET UNITYSDK_OFFSET(0x118BE0E0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDWaveMonsterRandom___c__DisplayClass45_0_TypeDefinitionIndex = 56514;
+	inline static constexpr unsigned int LDWaveMonsterRandom___c__DisplayClass45_0_TypeDefinitionIndex = 66967;
 
 	class LDWaveMonsterRandom___c__DisplayClass45_0 : public ::System::Object
 	{

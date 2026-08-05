@@ -5,25 +5,25 @@
 
 namespace System { class String; }
 
-#define MESSAGEPACK_MESSAGEPACKCODE_ISSIGNEDINTEGER_OFFSET UNITYSDK_OFFSET(0x1D40C510)
-#define MESSAGEPACK_MESSAGEPACKCODE_TOFORMATNAME_OFFSET UNITYSDK_OFFSET(0x1D40C470)
-#define MESSAGEPACK_MESSAGEPACKCODE_TOMESSAGEPACKTYPE_OFFSET UNITYSDK_OFFSET(0x1D40C3D0)
-#define MESSAGEPACK_MESSAGEPACKCODE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D40B260)
+#define MESSAGEPACK_MESSAGEPACKCODE_ISSIGNEDINTEGER_OFFSET UNITYSDK_OFFSET(0x1E7B1C20)
+#define MESSAGEPACK_MESSAGEPACKCODE_TOFORMATNAME_OFFSET UNITYSDK_OFFSET(0x1E7B1B80)
+#define MESSAGEPACK_MESSAGEPACKCODE_TOMESSAGEPACKTYPE_OFFSET UNITYSDK_OFFSET(0x1E7B1AE0)
+#define MESSAGEPACK_MESSAGEPACKCODE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E7B0890)
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int MessagePackCode_TypeDefinitionIndex = 30436;
+	inline static constexpr unsigned int MessagePackCode_TypeDefinitionIndex = 30258;
 
 	class MessagePackCode : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::String*>** StaticGet_FormatNameTable()
-		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MessagePackCode_TypeDefinitionIndex)->GetStaticField(0x244F0);
-		}
 		static ::Il2CppArray<::MessagePack::MessagePackType>** StaticGet_TypeLookupTable()
 		{
-			return (::Il2CppArray<::MessagePack::MessagePackType>**)Il2CppClass::FromTypeDefinitionIndex(MessagePackCode_TypeDefinitionIndex)->GetStaticField(0x244F8);
+			return (::Il2CppArray<::MessagePack::MessagePackType>**)Il2CppClass::FromTypeDefinitionIndex(MessagePackCode_TypeDefinitionIndex)->GetStaticField(0x25DE0);
+		}
+		static ::Il2CppArray<::System::String*>** StaticGet_FormatNameTable()
+		{
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MessagePackCode_TypeDefinitionIndex)->GetStaticField(0x25DE8);
 		}
 		// static const ::System::Byte MinFixInt = 0x0; // 0x0
 		// static const ::System::Byte MaxFixInt = 0x7F; // 0x0

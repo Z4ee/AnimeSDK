@@ -5,9 +5,9 @@
 
 class MonoUITableScrollV2_ConfigItemAnim;
 
-#define MONOUITABLESCROLLV2_CONFIGITEMANIM_ONSHOW__CTOR_OFFSET UNITYSDK_OFFSET(0x11BFF300)
+#define MONOUITABLESCROLLV2_CONFIGITEMANIM_ONSHOW__CTOR_OFFSET UNITYSDK_OFFSET(0x12B36FC0)
 
-inline static constexpr unsigned int MonoUITableScrollV2_ConfigItemAnim_OnShow_TypeDefinitionIndex = 69911;
+inline static constexpr unsigned int MonoUITableScrollV2_ConfigItemAnim_OnShow_TypeDefinitionIndex = 75061;
 
 class MonoUITableScrollV2_ConfigItemAnim_OnShow : public ::System::Object
 {

@@ -8,21 +8,21 @@ class Class_2_3CC769D284A54927_1;
 namespace MoleMole::Config { class ConfigHollowCameraShake; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define CLASS_2_3CC769D284A54927_1_STRUCT_2_1F832ECCEAD52105_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x87FF50)
-#define CLASS_2_3CC769D284A54927_1_STRUCT_2_1F832ECCEAD52105_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x283610)
+#define CLASS_2_3CC769D284A54927_1_STRUCT_2_1F832ECCEAD52105_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x802E10)
+#define CLASS_2_3CC769D284A54927_1_STRUCT_2_1F832ECCEAD52105_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x296F30)
 
-inline static constexpr unsigned int Class_2_3CC769D284A54927_1_Struct_2_1F832ECCEAD52105_TypeDefinitionIndex = 86298;
+inline static constexpr unsigned int Class_2_3CC769D284A54927_1_Struct_2_1F832ECCEAD52105_TypeDefinitionIndex = 62912;
 
 struct alignas(8) Class_2_3CC769D284A54927_1_Struct_2_1F832ECCEAD52105
 {
-	::Cysharp::Threading::Tasks::UniTask_Awaiter Field_2_7; // 0x10
-	::MoleMole::Config::ConfigHollowCameraShake* Field_2_3; // 0x20
-	::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder_1<::System::Boolean> Field_2_1; // 0x28
-	::Class_2_3CC769D284A54927_1* Field_2_2; // 0x40
-	::System::Single Field_2_6; // 0x48
-	::System::Int32 Field_2_0; // 0x4C
-	::System::Int32 Field_2_5; // 0x50
-	::System::Single Field_2_4; // 0x54
+	::MoleMole::Config::ConfigHollowCameraShake* Field_2_5; // 0x10
+	::Class_2_3CC769D284A54927_1* Field_2_6; // 0x18
+	::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder_1<::System::Boolean> Field_2_7; // 0x20
+	::Cysharp::Threading::Tasks::UniTask_Awaiter Field_2_9; // 0x38
+	::System::Single Field_2_4; // 0x48
+	::System::Single Field_2_10; // 0x4C
+	::System::Int32 Field_2_0; // 0x50
+	::System::Int32 Field_2_11; // 0x54
 
 	::System::Void MoveNext()
 	{

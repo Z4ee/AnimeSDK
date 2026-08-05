@@ -4,17 +4,17 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_ROLERARITYICONITEMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1870CCD0)
+#define MOLEMOLE_ROLERARITYICONITEMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x191B29B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int RoleRarityIconItemConfig_TypeDefinitionIndex = 66686;
+	inline static constexpr unsigned int RoleRarityIconItemConfig_TypeDefinitionIndex = 41817;
 
 	class RoleRarityIconItemConfig : public ::System::Object
 	{
 	public:
-		::System::String* RarityBigPath; // 0x10
-		::System::String* RaritySmallPath; // 0x18
+		::System::String* RaritySmallPath; // 0x10
+		::System::String* RarityBigPath; // 0x18
 
 		::System::Void _ctor()
 		{

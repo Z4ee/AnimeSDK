@@ -17,7 +17,7 @@ template <typename T> class Class_0_16E4307DCC41950C;
 
 namespace Share
 {
-	inline static constexpr unsigned int CPropertyOperator_1_TypeDefinitionIndex = 10803;
+	inline static constexpr unsigned int CPropertyOperator_1_TypeDefinitionIndex = 16867;
 
 	template <typename T>
 	class CPropertyOperator_1 : public ::System::Object

@@ -3,7 +3,7 @@
 
 namespace MoleMole::EffectSimulate
 {
-	inline static constexpr unsigned int IEvaluateCurve_Enum_3_5B7DFEE45EE0DDC3_TypeDefinitionIndex = 53679;
+	inline static constexpr unsigned int IEvaluateCurve_Enum_3_5B7DFEE45EE0DDC3_TypeDefinitionIndex = 60076;
 
 	enum class IEvaluateCurve_Enum_3_5B7DFEE45EE0DDC3 : ::System::Int32
 	{

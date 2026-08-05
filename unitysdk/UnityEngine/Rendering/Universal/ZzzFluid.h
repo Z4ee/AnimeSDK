@@ -26,45 +26,48 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 namespace UnityEngine::Rendering::Universal { class ForwardRendererData_FluidFXResources; }
 namespace UnityEngine::Rendering::Universal { class ZzzFluid_WindSource; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_AWAKE_OFFSET UNITYSDK_OFFSET(0x1D4ED630)
-#define UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_DRAWSOURCEACTOR_OFFSET UNITYSDK_OFFSET(0x1D4F1920)
-#define UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_GETPLANEPROJECTIONMATRIX_OFFSET UNITYSDK_OFFSET(0x1D4F1BE0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1D4ED680)
-#define UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_INSTANCEMATERIALANDSETRENDERQUEUE_OFFSET UNITYSDK_OFFSET(0x1D4EC400)
-#define UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1D4EF260)
-#define UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1D4EC0D0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1D4EBF90)
-#define UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_ONLIGHTWEIGHTACTIVE_OFFSET UNITYSDK_OFFSET(0x1D4EC340)
-#define UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_ONLIGHTWEIGHTDEACTIVE_OFFSET UNITYSDK_OFFSET(0x1D4EC3A0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_ONREALDISABLE_OFFSET UNITYSDK_OFFSET(0x1D4EC190)
-#define UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_ONREALENABLE_OFFSET UNITYSDK_OFFSET(0x1D4EC050)
-#define UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_REFRESHWINDACTORS_OFFSET UNITYSDK_OFFSET(0x1D4EC790)
-#define UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_SETUPCOMMANDBUFFER_OFFSET UNITYSDK_OFFSET(0x1D4F0190)
-#define UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_SIMULATEFLUID_OFFSET UNITYSDK_OFFSET(0x1D4F00D0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_UPDATE_OFFSET UNITYSDK_OFFSET(0x1D4EF3C0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D4F2CF0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4F2AA0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_AWAKE_OFFSET UNITYSDK_OFFSET(0x1E675BD0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_CHECKSOURCEMATERIALRENDERQUEUE_OFFSET UNITYSDK_OFFSET(0x1E675890)
+#define UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_CLEARFLUIDRENDERTARGETS_OFFSET UNITYSDK_OFFSET(0x1E678480)
+#define UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_CREATEFLUIDRESOURCES_OFFSET UNITYSDK_OFFSET(0x1E675C20)
+#define UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_DRAWSOURCEACTOR_OFFSET UNITYSDK_OFFSET(0x1E67AEB0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_ENABLEFLUIDRUNTIME_OFFSET UNITYSDK_OFFSET(0x1E677B60)
+#define UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_GETPLANEPROJECTIONMATRIX_OFFSET UNITYSDK_OFFSET(0x1E67B170)
+#define UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_INSTANCESOURCEMATERIAL_OFFSET UNITYSDK_OFFSET(0x1E675490)
+#define UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1E678020)
+#define UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1E675290)
+#define UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1E675100)
+#define UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_ONLIGHTWEIGHTACTIVE_OFFSET UNITYSDK_OFFSET(0x1E6753D0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_ONLIGHTWEIGHTDEACTIVE_OFFSET UNITYSDK_OFFSET(0x1E675430)
+#define UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_ONREALDISABLE_OFFSET UNITYSDK_OFFSET(0x1E675350)
+#define UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_ONREALENABLE_OFFSET UNITYSDK_OFFSET(0x1E6751C0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_RELEASEFLUIDRESOURCES_OFFSET UNITYSDK_OFFSET(0x1E678300)
+#define UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_RESETSOURCEMATERIALRENDERQUEUE_OFFSET UNITYSDK_OFFSET(0x1E6757B0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_SETUPCOMMANDBUFFER_OFFSET UNITYSDK_OFFSET(0x1E679790)
+#define UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_SIMULATEFLUID_OFFSET UNITYSDK_OFFSET(0x1E6796D0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_UPDATE_OFFSET UNITYSDK_OFFSET(0x1E678A10)
+#define UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E67C320)
+#define UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID__CTOR_OFFSET UNITYSDK_OFFSET(0x1E67C010)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int ZzzFluid_TypeDefinitionIndex = 27165;
+	inline static constexpr unsigned int ZzzFluid_TypeDefinitionIndex = 27533;
 
 	class ZzzFluid : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		static ::UnityEngine::Mesh** StaticGet_Quad()
 		{
-			return (::UnityEngine::Mesh**)Il2CppClass::FromTypeDefinitionIndex(ZzzFluid_TypeDefinitionIndex)->GetStaticField(0x22070);
+			return (::UnityEngine::Mesh**)Il2CppClass::FromTypeDefinitionIndex(ZzzFluid_TypeDefinitionIndex)->GetStaticField(0x23840);
 		}
 		static ::UnityEngine::RenderTextureFormat* StaticGet_DefaultRTFormat()
 		{
-			return (::UnityEngine::RenderTextureFormat*)Il2CppClass::FromTypeDefinitionIndex(ZzzFluid_TypeDefinitionIndex)->GetStaticField(0x7160);
+			return (::UnityEngine::RenderTextureFormat*)Il2CppClass::FromTypeDefinitionIndex(ZzzFluid_TypeDefinitionIndex)->GetStaticField(0x7100);
 		}
 		// static const ::System::Int32 maxWindSource = 0xA; // 0x0
 		::Il2CppArray<::UnityEngine::Rendering::Universal::ZzzFluid_WindSource*>* windActors; // 0x18
-		::System::Int32 singleRenderIndex; // 0x20
-		::System::Boolean useFluidSourceMaterial; // 0x24
-		::UnityEngine::Vector2Int Resolution; // 0x28
+		::System::Boolean useFluidSourceMaterial; // 0x20
+		::UnityEngine::Vector2Int Resolution; // 0x24
 		::UnityEngine::Material* outputMaterial; // 0x30
 		::System::Single DensityTxtMult; // 0x38
 		::System::Single FlowFeedback; // 0x3C
@@ -118,21 +121,26 @@ namespace UnityEngine::Rendering::Universal
 		::UnityEngine::Vector3 SnapOffset; // 0x164
 		::UnityEngine::Rendering::DrawingSettings m_DrawSetting; // 0x170
 		::UnityEngine::Rendering::FilteringSettings m_FilterSettings; // 0x2A8
-		::System::Collections::Generic::List_1<::UnityEngine::Material*>* m_InstancedMaterials; // 0x2C8
-		::UnityEngine::Rendering::Universal::ForwardRendererData_FluidFXResources* m_Resource; // 0x2D0
-		::System::Boolean isFirstTimeCreated; // 0x2D8
-		::System::Single preTime; // 0x2DC
-		::UnityEngine::Vector3 preScreenPosition; // 0x2E0
-		::UnityEngine::Vector3 preWorldPosition; // 0x2EC
-		::System::Boolean positionIsReady; // 0x2F8
-		::UnityEngine::Camera* targetGameCamera; // 0x300
-		::UnityEngine::MaterialPropertyBlock* addInputMatProperties; // 0x308
-		::UnityEngine::MaterialPropertyBlock* advectMatProperties; // 0x310
-		::UnityEngine::MaterialPropertyBlock* calcVProjectionMatProperties; // 0x318
-		::UnityEngine::MaterialPropertyBlock* windSourceMatProperties; // 0x320
-		::UnityEngine::MaterialPropertyBlock* calcDivergenceMatProperties; // 0x328
-		::UnityEngine::MaterialPropertyBlock* jacobiMatProperties; // 0x330
-		::UnityEngine::MaterialPropertyBlock* jacobiUnrollMatProperties; // 0x338
+		::System::Int32 m_SingleRenderIndex; // 0x2C4
+		::System::Int32 m_TargetRenderQueue; // 0x2C8
+		::System::Collections::Generic::List_1<::UnityEngine::Material*>* m_InstancedSourceMaterials; // 0x2D0
+		::System::Collections::Generic::List_1<::UnityEngine::Material*>* m_InstancedTargetMaterials; // 0x2D8
+		::System::Collections::Generic::List_1<::UnityEngine::Renderer*>* m_InstancedSourceMaterialsRenderer; // 0x2E0
+		::UnityEngine::Rendering::Universal::ForwardRendererData_FluidFXResources* m_Resource; // 0x2E8
+		::System::Boolean isFirstTimeCreated; // 0x2F0
+		::System::Boolean m_ResourcesCreated; // 0x2F1
+		::System::Single preTime; // 0x2F4
+		::UnityEngine::Vector3 preScreenPosition; // 0x2F8
+		::UnityEngine::Vector3 preWorldPosition; // 0x304
+		::System::Boolean positionIsReady; // 0x310
+		::UnityEngine::Camera* targetGameCamera; // 0x318
+		::UnityEngine::MaterialPropertyBlock* addInputMatProperties; // 0x320
+		::UnityEngine::MaterialPropertyBlock* advectMatProperties; // 0x328
+		::UnityEngine::MaterialPropertyBlock* calcVProjectionMatProperties; // 0x330
+		::UnityEngine::MaterialPropertyBlock* windSourceMatProperties; // 0x338
+		::UnityEngine::MaterialPropertyBlock* calcDivergenceMatProperties; // 0x340
+		::UnityEngine::MaterialPropertyBlock* jacobiMatProperties; // 0x348
+		::UnityEngine::MaterialPropertyBlock* jacobiUnrollMatProperties; // 0x350
 
 		::System::Void _ctor()
 		{
@@ -164,14 +172,19 @@ namespace UnityEngine::Rendering::Universal
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_ONLIGHTWEIGHTDEACTIVE_OFFSET))(this);
 		}
 
-		::System::Void InstanceMaterialAndSetRenderQueue(::UnityEngine::Renderer* render, ::System::Int32 targetRenderQueue)
+		::System::Void InstanceSourceMaterial(::UnityEngine::Renderer* render)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Renderer*, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_INSTANCEMATERIALANDSETRENDERQUEUE_OFFSET))(this, render, targetRenderQueue);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Renderer*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_INSTANCESOURCEMATERIAL_OFFSET))(this, render);
 		}
 
-		::System::Void RefreshWindActors()
+		::System::Void ResetSourceMaterialRenderQueue()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_REFRESHWINDACTORS_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_RESETSOURCEMATERIALRENDERQUEUE_OFFSET))(this);
+		}
+
+		::System::Void CheckSourceMaterialRenderQueue()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_CHECKSOURCEMATERIALRENDERQUEUE_OFFSET))(this);
 		}
 
 		::System::Void Awake()
@@ -194,9 +207,24 @@ namespace UnityEngine::Rendering::Universal
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_ONDESTROY_OFFSET))(this);
 		}
 
-		::System::Void Initialize(::UnityEngine::Camera* camera)
+		::System::Void CreateFluidResources()
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_INITIALIZE_OFFSET))(this, camera);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_CREATEFLUIDRESOURCES_OFFSET))(this);
+		}
+
+		::System::Void ReleaseFluidResources()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_RELEASEFLUIDRESOURCES_OFFSET))(this);
+		}
+
+		::System::Void ClearFluidRenderTargets()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_CLEARFLUIDRENDERTARGETS_OFFSET))(this);
+		}
+
+		::System::Void EnableFluidRuntime(::UnityEngine::Camera* camera)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_ENABLEFLUIDRUNTIME_OFFSET))(this, camera);
 		}
 
 		::System::Void Update()

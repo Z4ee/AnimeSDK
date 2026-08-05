@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SIRENIX_UTILITIES_SIRENIXASSETPATHS___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1DE560C0)
-#define SIRENIX_UTILITIES_SIRENIXASSETPATHS___C__DISPLAYCLASS12_0__TOPATHSAFESTRING_B__0_OFFSET UNITYSDK_OFFSET(0x1DE560D0)
+#define SIRENIX_UTILITIES_SIRENIXASSETPATHS___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1F263D20)
+#define SIRENIX_UTILITIES_SIRENIXASSETPATHS___C__DISPLAYCLASS12_0__TOPATHSAFESTRING_B__0_OFFSET UNITYSDK_OFFSET(0x1F263D30)
 
 namespace Sirenix::Utilities
 {
-	inline static constexpr unsigned int SirenixAssetPaths___c__DisplayClass12_0_TypeDefinitionIndex = 6508;
+	inline static constexpr unsigned int SirenixAssetPaths___c__DisplayClass12_0_TypeDefinitionIndex = 6512;
 
 	class SirenixAssetPaths___c__DisplayClass12_0 : public ::System::Object
 	{

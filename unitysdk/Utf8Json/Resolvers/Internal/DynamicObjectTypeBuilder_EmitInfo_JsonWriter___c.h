@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define UTF8JSON_RESOLVERS_INTERNAL_DYNAMICOBJECTTYPEBUILDER_EMITINFO_JSONWRITER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E319760)
-#define UTF8JSON_RESOLVERS_INTERNAL_DYNAMICOBJECTTYPEBUILDER_EMITINFO_JSONWRITER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1E3197A0)
+#define UTF8JSON_RESOLVERS_INTERNAL_DYNAMICOBJECTTYPEBUILDER_EMITINFO_JSONWRITER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F749F90)
+#define UTF8JSON_RESOLVERS_INTERNAL_DYNAMICOBJECTTYPEBUILDER_EMITINFO_JSONWRITER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1F749FD0)
 
 namespace Utf8Json::Resolvers::Internal
 {
-	inline static constexpr unsigned int DynamicObjectTypeBuilder_EmitInfo_JsonWriter___c_TypeDefinitionIndex = 91145;
+	inline static constexpr unsigned int DynamicObjectTypeBuilder_EmitInfo_JsonWriter___c_TypeDefinitionIndex = 95078;
 
 	class DynamicObjectTypeBuilder_EmitInfo_JsonWriter___c : public ::System::Object
 	{
 	public:
 		static ::Utf8Json::Resolvers::Internal::DynamicObjectTypeBuilder_EmitInfo_JsonWriter___c** StaticGet___9()
 		{
-			return (::Utf8Json::Resolvers::Internal::DynamicObjectTypeBuilder_EmitInfo_JsonWriter___c**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder_EmitInfo_JsonWriter___c_TypeDefinitionIndex)->GetStaticField(0x4E800);
+			return (::Utf8Json::Resolvers::Internal::DynamicObjectTypeBuilder_EmitInfo_JsonWriter___c**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder_EmitInfo_JsonWriter___c_TypeDefinitionIndex)->GetStaticField(0x529B0);
 		}
 
 		static ::System::Void _cctor()

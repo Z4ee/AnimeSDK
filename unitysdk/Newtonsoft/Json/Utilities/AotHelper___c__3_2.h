@@ -7,7 +7,7 @@ namespace System { class Action; }
 
 namespace Newtonsoft::Json::Utilities
 {
-	inline static constexpr unsigned int AotHelper___c__3_2_TypeDefinitionIndex = 7032;
+	inline static constexpr unsigned int AotHelper___c__3_2_TypeDefinitionIndex = 7036;
 
 	template <typename TKey, typename TValue>
 	class AotHelper___c__3_2 : public ::System::Object

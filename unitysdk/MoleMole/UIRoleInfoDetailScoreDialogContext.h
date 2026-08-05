@@ -5,22 +5,22 @@
 
 class Class_2_1824EF69C8E376A3;
 
-#define MOLEMOLE_UIROLEINFODETAILSCOREDIALOGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x14C88710)
+#define MOLEMOLE_UIROLEINFODETAILSCOREDIALOGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1675C770)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRoleInfoDetailScoreDialogContext_TypeDefinitionIndex = 53962;
+	inline static constexpr unsigned int UIRoleInfoDetailScoreDialogContext_TypeDefinitionIndex = 75475;
 
 	class UIRoleInfoDetailScoreDialogContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
 		::Class_2_1824EF69C8E376A3* avatarItemData; // 0x28
-		::Enum_3_CAE10C54ABAE6FAF skillScore; // 0x30
+		::Enum_3_CAE10C54ABAE6FAF levelScore; // 0x30
 		::Enum_3_CAE10C54ABAE6FAF equipScore; // 0x34
-		::Enum_3_CAE10C54ABAE6FAF levelScore; // 0x38
-		::Enum_3_CAE10C54ABAE6FAF totalScore; // 0x3C
-		::Enum_3_CAE10C54ABAE6FAF weaponScore; // 0x40
-		::System::Int32 index; // 0x44
+		::Enum_3_CAE10C54ABAE6FAF skillScore; // 0x38
+		::Enum_3_CAE10C54ABAE6FAF weaponScore; // 0x3C
+		::System::Int32 index; // 0x40
+		::Enum_3_CAE10C54ABAE6FAF totalScore; // 0x44
 
 		::System::Void _ctor()
 		{

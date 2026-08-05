@@ -5,7 +5,7 @@
 
 namespace NPCCrowd::Accessories
 {
-	inline static constexpr unsigned int NPCAccessoryAnimationInfo_FollowMdbPose_TypeDefinitionIndex = 53343;
+	inline static constexpr unsigned int NPCAccessoryAnimationInfo_FollowMdbPose_TypeDefinitionIndex = 59883;
 
 	struct alignas(4) NPCAccessoryAnimationInfo_FollowMdbPose
 	{

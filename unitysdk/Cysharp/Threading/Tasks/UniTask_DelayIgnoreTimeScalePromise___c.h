@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CYSHARP_THREADING_TASKS_UNITASK_DELAYIGNORETIMESCALEPROMISE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E84D050)
-#define CYSHARP_THREADING_TASKS_UNITASK_DELAYIGNORETIMESCALEPROMISE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1E84D090)
-#define CYSHARP_THREADING_TASKS_UNITASK_DELAYIGNORETIMESCALEPROMISE___C___CCTOR_B__4_0_OFFSET UNITYSDK_OFFSET(0x1E84D0A0)
+#define CYSHARP_THREADING_TASKS_UNITASK_DELAYIGNORETIMESCALEPROMISE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FC29F00)
+#define CYSHARP_THREADING_TASKS_UNITASK_DELAYIGNORETIMESCALEPROMISE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1FC29F40)
+#define CYSHARP_THREADING_TASKS_UNITASK_DELAYIGNORETIMESCALEPROMISE___C___CCTOR_B__4_0_OFFSET UNITYSDK_OFFSET(0x1FC29F50)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTask_DelayIgnoreTimeScalePromise___c_TypeDefinitionIndex = 31246;
+	inline static constexpr unsigned int UniTask_DelayIgnoreTimeScalePromise___c_TypeDefinitionIndex = 31865;
 
 	class UniTask_DelayIgnoreTimeScalePromise___c : public ::System::Object
 	{
 	public:
 		static ::Cysharp::Threading::Tasks::UniTask_DelayIgnoreTimeScalePromise___c** StaticGet___9()
 		{
-			return (::Cysharp::Threading::Tasks::UniTask_DelayIgnoreTimeScalePromise___c**)Il2CppClass::FromTypeDefinitionIndex(UniTask_DelayIgnoreTimeScalePromise___c_TypeDefinitionIndex)->GetStaticField(0x259F0);
+			return (::Cysharp::Threading::Tasks::UniTask_DelayIgnoreTimeScalePromise___c**)Il2CppClass::FromTypeDefinitionIndex(UniTask_DelayIgnoreTimeScalePromise___c_TypeDefinitionIndex)->GetStaticField(0x27170);
 		}
 
 		static ::System::Void _cctor()

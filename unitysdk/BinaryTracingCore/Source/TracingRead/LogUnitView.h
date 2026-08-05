@@ -8,12 +8,12 @@ namespace BinaryTracingCore::Source::TracingTools { class LogUnit; }
 namespace ReadTools::Core { class IMetaContainers; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define BINARYTRACINGCORE_SOURCE_TRACINGREAD_LOGUNITVIEW_READ_OFFSET UNITYSDK_OFFSET(0x1E22A910)
-#define BINARYTRACINGCORE_SOURCE_TRACINGREAD_LOGUNITVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x1E22B420)
+#define BINARYTRACINGCORE_SOURCE_TRACINGREAD_LOGUNITVIEW_READ_OFFSET UNITYSDK_OFFSET(0x1F64E900)
+#define BINARYTRACINGCORE_SOURCE_TRACINGREAD_LOGUNITVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x1F64F420)
 
 namespace BinaryTracingCore::Source::TracingRead
 {
-	inline static constexpr unsigned int LogUnitView_TypeDefinitionIndex = 33969;
+	inline static constexpr unsigned int LogUnitView_TypeDefinitionIndex = 34605;
 
 	class LogUnitView : public ::System::Object
 	{

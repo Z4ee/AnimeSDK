@@ -11,7 +11,7 @@ namespace UnityEngine { class GameObject; }
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int RouterEventNode_1_TypeDefinitionIndex = 29598;
+	inline static constexpr unsigned int RouterEventNode_1_TypeDefinitionIndex = 30542;
 
 	template <typename T>
 	class RouterEventNode_1 : public ::FlowCanvas::Nodes::EventNode

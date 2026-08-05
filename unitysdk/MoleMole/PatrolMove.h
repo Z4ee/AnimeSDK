@@ -11,13 +11,13 @@
 
 class Class_2_934813404382511A;
 class Class_3_3B42BC0680587011;
-class Class_3_6D73516CC6FEADD7;
+class Class_3_707412604A129938;
 class Class_3_883E597458B91E77;
 class Class_3_AA6DF3A878195D3F;
-class Class_3_B8F2A25A5ADF5CEE;
+class Class_3_C93CC3D2C2AC4067;
 class Class_3_D2084E0C2DD39509;
+class Class_3_D252341484B6EB1D;
 class Class_3_D902FC5F64432838;
-class Class_3_DFD5D1FDB9D2A4AC;
 class Class_3_F33F9DC5F4112336;
 namespace BehaviorDesigner::Runtime { class SharedBool; }
 namespace BehaviorDesigner::Runtime { class SharedFloat; }
@@ -29,101 +29,101 @@ namespace MoleMole::Battle { class Entity; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_PATROLMOVE_ALLOCATECONTINUESTICKTASK_OFFSET UNITYSDK_OFFSET(0x10D77A30)
-#define MOLEMOLE_PATROLMOVE_CALCULATEPATHINNAVMESH_OFFSET UNITYSDK_OFFSET(0x10D79A90)
-#define MOLEMOLE_PATROLMOVE_CHECKARRIVETARGETPOINT_OFFSET UNITYSDK_OFFSET(0x10D79D60)
-#define MOLEMOLE_PATROLMOVE_CLEARCACHEINPUTDATA_OFFSET UNITYSDK_OFFSET(0x10D77610)
-#define MOLEMOLE_PATROLMOVE_CONSUMEINPUTDATA_OFFSET UNITYSDK_OFFSET(0x10D78800)
-#define MOLEMOLE_PATROLMOVE_DEALLOCATECONTINUESTICKTASK_OFFSET UNITYSDK_OFFSET(0x10D7CC70)
-#define MOLEMOLE_PATROLMOVE_ENTERSTAYWAIT_OFFSET UNITYSDK_OFFSET(0x10D7C7F0)
-#define MOLEMOLE_PATROLMOVE_EXITSTAY_OFFSET UNITYSDK_OFFSET(0x10D7BF80)
-#define MOLEMOLE_PATROLMOVE_FINISHMOVE_OFFSET UNITYSDK_OFFSET(0x10D7C330)
-#define MOLEMOLE_PATROLMOVE_GETHITDIRECTION_OFFSET UNITYSDK_OFFSET(0x10D7ABF0)
-#define MOLEMOLE_PATROLMOVE_GETWAYPATHBYSPLINE_OFFSET UNITYSDK_OFFSET(0x10D78A10)
-#define MOLEMOLE_PATROLMOVE_GET_TIMESCALE_OFFSET UNITYSDK_OFFSET(0x10D7C790)
-#define MOLEMOLE_PATROLMOVE_INITWAYPOINT_OFFSET UNITYSDK_OFFSET(0x10D77C30)
-#define MOLEMOLE_PATROLMOVE_ISSTREAMINGGAME_OFFSET UNITYSDK_OFFSET(0x10D788F0)
-#define MOLEMOLE_PATROLMOVE_LOGICTICK_OFFSET UNITYSDK_OFFSET(0x10D77B70)
-#define MOLEMOLE_PATROLMOVE_NEEDSTEER_OFFSET UNITYSDK_OFFSET(0x10D7D0A0)
-#define MOLEMOLE_PATROLMOVE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x10D76D40)
-#define MOLEMOLE_PATROLMOVE_ONEND_OFFSET UNITYSDK_OFFSET(0x10D7CA90)
-#define MOLEMOLE_PATROLMOVE_ONENTERWAYPOINT_OFFSET UNITYSDK_OFFSET(0x10D7A5C0)
-#define MOLEMOLE_PATROLMOVE_ONFIXEDUPDATE_OFFSET UNITYSDK_OFFSET(0x10D79040)
-#define MOLEMOLE_PATROLMOVE_ONLEAVEWAYPOINT_OFFSET UNITYSDK_OFFSET(0x10D7C2C0)
-#define MOLEMOLE_PATROLMOVE_ONSTART_OFFSET UNITYSDK_OFFSET(0x10D77690)
-#define MOLEMOLE_PATROLMOVE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x10D77B20)
-#define MOLEMOLE_PATROLMOVE_RECORDMOVEINPUT_OFFSET UNITYSDK_OFFSET(0x10D7BEE0)
-#define MOLEMOLE_PATROLMOVE_RECORDSTOPINPUT_OFFSET UNITYSDK_OFFSET(0x10D79A40)
-#define MOLEMOLE_PATROLMOVE_SELFCONTAINSMETHOD_OFFSET UNITYSDK_OFFSET(0x10D7D220)
-#define MOLEMOLE_PATROLMOVE_SENDWAYPOINTEVT_OFFSET UNITYSDK_OFFSET(0x10D7C880)
-#define MOLEMOLE_PATROLMOVE_SQRDISTANCETOSEGMENT_OFFSET UNITYSDK_OFFSET(0x10D7CDF0)
-#define MOLEMOLE_PATROLMOVE_STAYWAIT_OFFSET UNITYSDK_OFFSET(0x10D784A0)
-#define MOLEMOLE_PATROLMOVE_TICKMOVING_OFFSET UNITYSDK_OFFSET(0x10D790A0)
-#define MOLEMOLE_PATROLMOVE_UPDATEMOVING_OFFSET UNITYSDK_OFFSET(0x10D783B0)
-#define MOLEMOLE_PATROLMOVE__CTOR_OFFSET UNITYSDK_OFFSET(0x10D7D2A0)
-#define MOLEMOLE_PATROLMOVE___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x10D7D480)
-#define MOLEMOLE_PATROLMOVE___BASE_ONEND_OFFSET UNITYSDK_OFFSET(0x10D7D510)
-#define MOLEMOLE_PATROLMOVE___BASE_ONFIXEDUPDATE_OFFSET UNITYSDK_OFFSET(0x10D7D5A0)
-#define MOLEMOLE_PATROLMOVE___BASE_ONSTART_OFFSET UNITYSDK_OFFSET(0x10D7D630)
-#define MOLEMOLE_PATROLMOVE___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x10D7D6C0)
-#define MOLEMOLE_PATROLMOVE___BASE_SELFCONTAINSMETHOD_OFFSET UNITYSDK_OFFSET(0x10D7D750)
+#define MOLEMOLE_PATROLMOVE_ALLOCATECONTINUESTICKTASK_OFFSET UNITYSDK_OFFSET(0x1687FC60)
+#define MOLEMOLE_PATROLMOVE_CALCULATEPATHINNAVMESH_OFFSET UNITYSDK_OFFSET(0x16881DA0)
+#define MOLEMOLE_PATROLMOVE_CHECKARRIVETARGETPOINT_OFFSET UNITYSDK_OFFSET(0x16882050)
+#define MOLEMOLE_PATROLMOVE_CLEARCACHEINPUTDATA_OFFSET UNITYSDK_OFFSET(0x1687F9B0)
+#define MOLEMOLE_PATROLMOVE_CONSUMEINPUTDATA_OFFSET UNITYSDK_OFFSET(0x16880B00)
+#define MOLEMOLE_PATROLMOVE_DEALLOCATECONTINUESTICKTASK_OFFSET UNITYSDK_OFFSET(0x16885140)
+#define MOLEMOLE_PATROLMOVE_ENTERSTAYWAIT_OFFSET UNITYSDK_OFFSET(0x16884B90)
+#define MOLEMOLE_PATROLMOVE_EXITSTAY_OFFSET UNITYSDK_OFFSET(0x16884310)
+#define MOLEMOLE_PATROLMOVE_FINISHMOVE_OFFSET UNITYSDK_OFFSET(0x168846C0)
+#define MOLEMOLE_PATROLMOVE_GETHITDIRECTION_OFFSET UNITYSDK_OFFSET(0x16882F80)
+#define MOLEMOLE_PATROLMOVE_GETWAYPATHBYSPLINE_OFFSET UNITYSDK_OFFSET(0x16880D10)
+#define MOLEMOLE_PATROLMOVE_GET_TIMESCALE_OFFSET UNITYSDK_OFFSET(0x16884B20)
+#define MOLEMOLE_PATROLMOVE_INITWAYPOINT_OFFSET UNITYSDK_OFFSET(0x1687FE50)
+#define MOLEMOLE_PATROLMOVE_ISSTREAMINGGAME_OFFSET UNITYSDK_OFFSET(0x16880BF0)
+#define MOLEMOLE_PATROLMOVE_LOGICTICK_OFFSET UNITYSDK_OFFSET(0x1687FDA0)
+#define MOLEMOLE_PATROLMOVE_NEEDSTEER_OFFSET UNITYSDK_OFFSET(0x16885520)
+#define MOLEMOLE_PATROLMOVE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x1687EF60)
+#define MOLEMOLE_PATROLMOVE_ONEND_OFFSET UNITYSDK_OFFSET(0x16884F60)
+#define MOLEMOLE_PATROLMOVE_ONENTERWAYPOINT_OFFSET UNITYSDK_OFFSET(0x16882950)
+#define MOLEMOLE_PATROLMOVE_ONFIXEDUPDATE_OFFSET UNITYSDK_OFFSET(0x16881360)
+#define MOLEMOLE_PATROLMOVE_ONLEAVEWAYPOINT_OFFSET UNITYSDK_OFFSET(0x16884650)
+#define MOLEMOLE_PATROLMOVE_ONSTART_OFFSET UNITYSDK_OFFSET(0x1687FA30)
+#define MOLEMOLE_PATROLMOVE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1687FD50)
+#define MOLEMOLE_PATROLMOVE_RECORDMOVEINPUT_OFFSET UNITYSDK_OFFSET(0x16884270)
+#define MOLEMOLE_PATROLMOVE_RECORDSTOPINPUT_OFFSET UNITYSDK_OFFSET(0x16881D50)
+#define MOLEMOLE_PATROLMOVE_SELFCONTAINSMETHOD_OFFSET UNITYSDK_OFFSET(0x168856A0)
+#define MOLEMOLE_PATROLMOVE_SENDWAYPOINTEVT_OFFSET UNITYSDK_OFFSET(0x16884C20)
+#define MOLEMOLE_PATROLMOVE_SQRDISTANCETOSEGMENT_OFFSET UNITYSDK_OFFSET(0x168852D0)
+#define MOLEMOLE_PATROLMOVE_STAYWAIT_OFFSET UNITYSDK_OFFSET(0x168806D0)
+#define MOLEMOLE_PATROLMOVE_TICKMOVING_OFFSET UNITYSDK_OFFSET(0x168813C0)
+#define MOLEMOLE_PATROLMOVE_UPDATEMOVING_OFFSET UNITYSDK_OFFSET(0x168805E0)
+#define MOLEMOLE_PATROLMOVE__CTOR_OFFSET UNITYSDK_OFFSET(0x16885720)
+#define MOLEMOLE_PATROLMOVE___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x16885900)
+#define MOLEMOLE_PATROLMOVE___BASE_ONEND_OFFSET UNITYSDK_OFFSET(0x16885990)
+#define MOLEMOLE_PATROLMOVE___BASE_ONFIXEDUPDATE_OFFSET UNITYSDK_OFFSET(0x16885A20)
+#define MOLEMOLE_PATROLMOVE___BASE_ONSTART_OFFSET UNITYSDK_OFFSET(0x16885AB0)
+#define MOLEMOLE_PATROLMOVE___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x16885B40)
+#define MOLEMOLE_PATROLMOVE___BASE_SELFCONTAINSMETHOD_OFFSET UNITYSDK_OFFSET(0x16885BD0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int PatrolMove_TypeDefinitionIndex = 65059;
+	inline static constexpr unsigned int PatrolMove_TypeDefinitionIndex = 65430;
 
 	class PatrolMove : public ::BehaviorDesigner::Runtime::Tasks::ContinuesTickAction
 	{
 	public:
 		// static const ::System::Double Const_ExpectTickDeltaTime; // 0x0
-		::BehaviorDesigner::Runtime::SharedString* wayPathName; // 0x58
-		::BehaviorDesigner::Runtime::SharedFloat* HitCheckRadius; // 0x60
-		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* _recheckcheckStartPos; // 0x68
-		::Class_3_D902FC5F64432838* timeSlowEffectComponent; // 0x70
-		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x78
-		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* checkStartPos; // 0x80
-		::Class_3_883E597458B91E77* characterMovement; // 0x88
-		::Class_2_934813404382511A* patrolMoveTask; // 0x90
-		::BehaviorDesigner::Runtime::SharedFloat* PatrolRotationSpeed; // 0x98
+		::Class_3_D252341484B6EB1D* aiComponent; // 0x58
+		::Class_3_883E597458B91E77* characterMovement; // 0x60
+		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x68
+		::BehaviorDesigner::Runtime::SharedBool* ApplyAvoidObstacle; // 0x70
+		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* checkStartPos; // 0x78
+		::BehaviorDesigner::Runtime::SharedFloat* reachPointStayTime; // 0x80
+		::MoleMole::MonoWayPath* wayPath; // 0x88
+		::BehaviorDesigner::Runtime::SharedString* wayPathName; // 0x90
+		::Class_3_AA6DF3A878195D3F* steerComponent; // 0x98
 		::BehaviorDesigner::Runtime::SharedFloat* CollisionCheckWidth; // 0xA0
-		::Class_3_B8F2A25A5ADF5CEE* dataComponent; // 0xA8
-		::Class_3_3B42BC0680587011* inputComp; // 0xB0
-		::MoleMole::Battle::Entity* ownerEntity; // 0xB8
+		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* calculatePath; // 0xA8
+		::BehaviorDesigner::Runtime::SharedFloat* HitCheckRadius; // 0xB0
+		::Class_3_C93CC3D2C2AC4067* modelComponent; // 0xB8
 		::BehaviorDesigner::Runtime::SharedString* NextPatrolNode; // 0xC0
-		::Class_3_DFD5D1FDB9D2A4AC* modelComponent; // 0xC8
-		::MoleMole::MonoWayPoint* currentTarget; // 0xD0
-		::Class_3_6D73516CC6FEADD7* aiComponent; // 0xD8
-		::BehaviorDesigner::Runtime::SharedBool* ApplyAvoidObstacle; // 0xE0
-		::Class_3_AA6DF3A878195D3F* steerComponent; // 0xE8
-		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* calculatePath; // 0xF0
-		::System::String* pathName; // 0xF8
-		::Class_3_F33F9DC5F4112336* animCharacter; // 0x100
-		::BehaviorDesigner::Runtime::SharedFloat* arrivalPrecision; // 0x108
-		::BehaviorDesigner::Runtime::SharedFloat* reachPointStayTime; // 0x110
-		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* pathPosList; // 0x118
-		::Class_3_D2084E0C2DD39509* characterNavmeshAgentComponent; // 0x120
-		::MoleMole::MonoWayPath* wayPath; // 0x128
-		::MoleMole::PatrolMove_RotationType rotationType; // 0x130
-		::System::Byte cacheSteerType; // 0x134
-		::System::Boolean isAnimatorFixedUpdate; // 0x135
-		::UnityEngine::Vector3 lastTargetPosition; // 0x138
-		::MoleMole::PatrolMove_MoveState moveState; // 0x144
-		::UnityEngine::Vector3 lastPosition; // 0x148
-		::System::Boolean needApplyInputInUpdate; // 0x154
-		::System::Boolean IsDirectionalMove; // 0x155
-		::System::Boolean isStreamingGame; // 0x156
-		::System::Boolean cacheStopMove; // 0x157
-		::System::Double lastTickTime; // 0x158
-		::UnityEngine::Vector3 checkBefore; // 0x160
-		::System::Int32 inputFrameCount; // 0x16C
-		::UnityEngine::LayerMask _collisionLayerMask; // 0x170
-		::BehaviorDesigner::Runtime::Tasks::TaskStatus physicsTickMovingResult; // 0x174
-		::System::Single colliderRadius; // 0x178
-		::UnityEngine::Vector3 faceJoysticDir; // 0x17C
-		::System::Single rotationSpeed; // 0x188
-		::System::Single stayTimer; // 0x18C
-		::MoleMole::PatrolMove_StartMode MoveStartType; // 0x190
-		::UnityEngine::Vector3 TargetSourceVec; // 0x194
+		::Class_3_3B42BC0680587011* inputComp; // 0xC8
+		::BehaviorDesigner::Runtime::SharedFloat* PatrolRotationSpeed; // 0xD0
+		::Class_2_934813404382511A* patrolMoveTask; // 0xD8
+		::MoleMole::MonoWayPoint* currentTarget; // 0xE0
+		::MoleMole::Battle::Entity* ownerEntity; // 0xE8
+		::Class_3_D2084E0C2DD39509* characterNavmeshAgentComponent; // 0xF0
+		::BehaviorDesigner::Runtime::SharedFloat* arrivalPrecision; // 0xF8
+		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* pathPosList; // 0x100
+		::System::String* pathName; // 0x108
+		::Class_3_D902FC5F64432838* timeSlowEffectComponent; // 0x110
+		::Class_3_F33F9DC5F4112336* animCharacter; // 0x118
+		::Class_3_707412604A129938* dataComponent; // 0x120
+		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* _recheckcheckStartPos; // 0x128
+		::System::Boolean cacheStopMove; // 0x130
+		::System::Boolean isAnimatorFixedUpdate; // 0x131
+		::System::Byte cacheSteerType; // 0x132
+		::System::Boolean isStreamingGame; // 0x133
+		::System::Boolean IsDirectionalMove; // 0x134
+		::System::Boolean needApplyInputInUpdate; // 0x135
+		::MoleMole::PatrolMove_MoveState moveState; // 0x138
+		::System::Int32 inputFrameCount; // 0x13C
+		::System::Double lastTickTime; // 0x140
+		::UnityEngine::Vector3 faceJoysticDir; // 0x148
+		::System::Single colliderRadius; // 0x154
+		::System::Single rotationSpeed; // 0x158
+		::MoleMole::PatrolMove_StartMode MoveStartType; // 0x15C
+		::BehaviorDesigner::Runtime::Tasks::TaskStatus physicsTickMovingResult; // 0x160
+		::UnityEngine::Vector3 checkBefore; // 0x164
+		::System::Single stayTimer; // 0x170
+		::UnityEngine::Vector3 lastTargetPosition; // 0x174
+		::MoleMole::PatrolMove_RotationType rotationType; // 0x180
+		::UnityEngine::Vector3 TargetSourceVec; // 0x184
+		::UnityEngine::LayerMask _collisionLayerMask; // 0x190
+		::UnityEngine::Vector3 lastPosition; // 0x194
 
 		::System::Void _ctor()
 		{

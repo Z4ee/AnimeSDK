@@ -7,21 +7,21 @@ namespace NodeCanvas::DialogueTrees { class IStatement; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define NODECANVAS_DIALOGUETREES_MULTIPLECHOICEREQUESTINFO__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1D538320)
-#define NODECANVAS_DIALOGUETREES_MULTIPLECHOICEREQUESTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1D538300)
+#define NODECANVAS_DIALOGUETREES_MULTIPLECHOICEREQUESTINFO__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E22FE70)
+#define NODECANVAS_DIALOGUETREES_MULTIPLECHOICEREQUESTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1E22FE40)
 
 namespace NodeCanvas::DialogueTrees
 {
-	inline static constexpr unsigned int MultipleChoiceRequestInfo_TypeDefinitionIndex = 30147;
+	inline static constexpr unsigned int MultipleChoiceRequestInfo_TypeDefinitionIndex = 30936;
 
 	class MultipleChoiceRequestInfo : public ::System::Object
 	{
 	public:
-		::NodeCanvas::DialogueTrees::IDialogueActor* actor; // 0x10
+		::System::Collections::Generic::Dictionary_2<::NodeCanvas::DialogueTrees::IStatement*, ::System::Int32>* options; // 0x10
 		::System::Action_1<::System::Int32>* SelectOption; // 0x18
-		::System::Collections::Generic::Dictionary_2<::NodeCanvas::DialogueTrees::IStatement*, ::System::Int32>* options; // 0x20
-		::System::Single availableTime; // 0x28
-		::System::Boolean showLastStatement; // 0x2C
+		::NodeCanvas::DialogueTrees::IDialogueActor* actor; // 0x20
+		::System::Boolean showLastStatement; // 0x28
+		::System::Single availableTime; // 0x2C
 
 		::System::Void _ctor(::NodeCanvas::DialogueTrees::IDialogueActor* actor, ::System::Collections::Generic::Dictionary_2<::NodeCanvas::DialogueTrees::IStatement*, ::System::Int32>* options, ::System::Single availableTime, ::System::Boolean showLastStatement, ::System::Action_1<::System::Int32>* callback)
 		{

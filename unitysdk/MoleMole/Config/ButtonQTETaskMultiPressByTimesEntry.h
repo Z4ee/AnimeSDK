@@ -4,20 +4,20 @@
 
 class Class_1_D47998EF092D4845;
 
-#define MOLEMOLE_CONFIG_BUTTONQTETASKMULTIPRESSBYTIMESENTRY_CREATEREALTIMEQTETASK_OFFSET UNITYSDK_OFFSET(0x1A05F0C0)
-#define MOLEMOLE_CONFIG_BUTTONQTETASKMULTIPRESSBYTIMESENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1A05F210)
-#define MOLEMOLE_CONFIG_BUTTONQTETASKMULTIPRESSBYTIMESENTRY___BASE_CREATEREALTIMEQTETASK_OFFSET UNITYSDK_OFFSET(0x1A05F280)
+#define MOLEMOLE_CONFIG_BUTTONQTETASKMULTIPRESSBYTIMESENTRY_CREATEREALTIMEQTETASK_OFFSET UNITYSDK_OFFSET(0x177D2A80)
+#define MOLEMOLE_CONFIG_BUTTONQTETASKMULTIPRESSBYTIMESENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x177D2BD0)
+#define MOLEMOLE_CONFIG_BUTTONQTETASKMULTIPRESSBYTIMESENTRY___BASE_CREATEREALTIMEQTETASK_OFFSET UNITYSDK_OFFSET(0x177D2C40)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ButtonQTETaskMultiPressByTimesEntry_TypeDefinitionIndex = 40660;
+	inline static constexpr unsigned int ButtonQTETaskMultiPressByTimesEntry_TypeDefinitionIndex = 60406;
 
 	class ButtonQTETaskMultiPressByTimesEntry : public ::MoleMole::Config::ButtonQTETaskEntryBase
 	{
 	public:
-		::System::Boolean IsInfinitePressTimes; // 0x98
-		::System::Int32 ListenTimes; // 0x9C
-		::System::Single PressIntervalTimeThreshold; // 0xA0
+		::System::Boolean IsInfinitePressTimes; // 0xA8
+		::System::Int32 ListenTimes; // 0xAC
+		::System::Single PressIntervalTimeThreshold; // 0xB0
 
 		::System::Void _ctor()
 		{

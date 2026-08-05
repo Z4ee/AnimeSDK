@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_GETRALLYQUESTCONDPROGRESS_PROGRESSPAIR__CTOR_OFFSET UNITYSDK_OFFSET(0x15820030)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_GETRALLYQUESTCONDPROGRESS_PROGRESSPAIR__CTOR_OFFSET UNITYSDK_OFFSET(0x1299F310)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_GetRallyQuestCondProgress_ProgressPair_TypeDefinitionIndex = 83878;
+	inline static constexpr unsigned int LD_GetRallyQuestCondProgress_ProgressPair_TypeDefinitionIndex = 55729;
 
 	class LD_GetRallyQuestCondProgress_ProgressPair : public ::System::Object
 	{

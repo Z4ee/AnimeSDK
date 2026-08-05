@@ -3,12 +3,12 @@
 #include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 
-#define FOUNDATION_ARRAYX_ISIN_OFFSET UNITYSDK_OFFSET(0x1BFD7060)
-#define FOUNDATION_ARRAYX_ISNOTIN_OFFSET UNITYSDK_OFFSET(0x1BFD70F0)
+#define FOUNDATION_ARRAYX_ISIN_OFFSET UNITYSDK_OFFSET(0x1D58A520)
+#define FOUNDATION_ARRAYX_ISNOTIN_OFFSET UNITYSDK_OFFSET(0x1D58A5B0)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int ArrayX_TypeDefinitionIndex = 7832;
+	inline static constexpr unsigned int ArrayX_TypeDefinitionIndex = 8199;
 
 	class ArrayX : public ::System::Object
 	{

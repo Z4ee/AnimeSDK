@@ -6,12 +6,12 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MIHOYO_SDK_H5LOGFILTERCONFIG_ISREPORTENABLE_OFFSET UNITYSDK_OFFSET(0x1BF654B0)
-#define MIHOYO_SDK_H5LOGFILTERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF647A0)
+#define MIHOYO_SDK_H5LOGFILTERCONFIG_ISREPORTENABLE_OFFSET UNITYSDK_OFFSET(0x1D3B2520)
+#define MIHOYO_SDK_H5LOGFILTERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3B1800)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int H5logFilterConfig_TypeDefinitionIndex = 19677;
+	inline static constexpr unsigned int H5logFilterConfig_TypeDefinitionIndex = 20025;
 
 	class H5logFilterConfig : public ::System::Object
 	{

@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MoleMole::Utils::CameraSequence
 {
-	inline static constexpr unsigned int CameraCustomEffectOperation_TypeDefinitionIndex = 50459;
+	inline static constexpr unsigned int CameraCustomEffectOperation_TypeDefinitionIndex = 52764;
 
 	struct alignas(8) CameraCustomEffectOperation
 	{

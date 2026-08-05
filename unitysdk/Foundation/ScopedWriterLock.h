@@ -6,7 +6,7 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int ScopedWriterLock_TypeDefinitionIndex = 8726;
+	inline static constexpr unsigned int ScopedWriterLock_TypeDefinitionIndex = 8708;
 
 	class ScopedWriterLock : public ::System::Object
 	{

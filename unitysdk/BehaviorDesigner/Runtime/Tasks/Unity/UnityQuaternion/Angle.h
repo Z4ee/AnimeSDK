@@ -6,22 +6,22 @@
 namespace BehaviorDesigner::Runtime { class SharedFloat; }
 namespace BehaviorDesigner::Runtime { class SharedQuaternion; }
 
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYQUATERNION_ANGLE_ONRESET_OFFSET UNITYSDK_OFFSET(0x1E199A30)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYQUATERNION_ANGLE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1E199830)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYQUATERNION_ANGLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E199AA0)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYQUATERNION_ANGLE___BASE_ONRESET_OFFSET UNITYSDK_OFFSET(0x1E199B30)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYQUATERNION_ANGLE___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1E199B70)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYQUATERNION_ANGLE_ONRESET_OFFSET UNITYSDK_OFFSET(0x1F5DAE70)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYQUATERNION_ANGLE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1F5DAC70)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYQUATERNION_ANGLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F5DAEE0)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYQUATERNION_ANGLE___BASE_ONRESET_OFFSET UNITYSDK_OFFSET(0x1F5DAF70)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYQUATERNION_ANGLE___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1F5DAFB0)
 
 namespace BehaviorDesigner::Runtime::Tasks::Unity::UnityQuaternion
 {
-	inline static constexpr unsigned int Angle_TypeDefinitionIndex = 33578;
+	inline static constexpr unsigned int Angle_TypeDefinitionIndex = 34214;
 
 	class Angle : public ::BehaviorDesigner::Runtime::Tasks::Action
 	{
 	public:
-		::BehaviorDesigner::Runtime::SharedQuaternion* secondRotation; // 0x58
-		::BehaviorDesigner::Runtime::SharedFloat* storeResult; // 0x60
-		::BehaviorDesigner::Runtime::SharedQuaternion* firstRotation; // 0x68
+		::BehaviorDesigner::Runtime::SharedFloat* storeResult; // 0x58
+		::BehaviorDesigner::Runtime::SharedQuaternion* firstRotation; // 0x60
+		::BehaviorDesigner::Runtime::SharedQuaternion* secondRotation; // 0x68
 
 		::System::Void _ctor()
 		{

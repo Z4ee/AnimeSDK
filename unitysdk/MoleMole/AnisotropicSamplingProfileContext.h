@@ -3,11 +3,11 @@
 #include "unitysdk/MoleMole/GraphicSettingProfileContextBase.h"
 #include "unitysdk/MoleMole/NapAnisotropicSamplingType.h"
 
-#define MOLEMOLE_ANISOTROPICSAMPLINGPROFILECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x10CCC3A0)
+#define MOLEMOLE_ANISOTROPICSAMPLINGPROFILECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x116C6B70)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int AnisotropicSamplingProfileContext_TypeDefinitionIndex = 51719;
+	inline static constexpr unsigned int AnisotropicSamplingProfileContext_TypeDefinitionIndex = 82274;
 
 	class AnisotropicSamplingProfileContext : public ::MoleMole::GraphicSettingProfileContextBase
 	{

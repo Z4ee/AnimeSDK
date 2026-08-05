@@ -5,12 +5,12 @@
 namespace MiHoYo::SDK { class LoadingTips; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_LOADINGTIPS___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBBC3E0)
-#define MIHOYO_SDK_LOADINGTIPS___C__DISPLAYCLASS10_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1BBBC3F0)
+#define MIHOYO_SDK_LOADINGTIPS___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF37410)
+#define MIHOYO_SDK_LOADINGTIPS___C__DISPLAYCLASS10_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1CF37420)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int LoadingTips___c__DisplayClass10_0_TypeDefinitionIndex = 20008;
+	inline static constexpr unsigned int LoadingTips___c__DisplayClass10_0_TypeDefinitionIndex = 20356;
 
 	class LoadingTips___c__DisplayClass10_0 : public ::System::Object
 	{

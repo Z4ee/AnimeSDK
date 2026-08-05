@@ -6,22 +6,22 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_SHOWNPCMULTIBODYPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x115E8740)
+#define MOLEMOLE_CONFIG_SHOWNPCMULTIBODYPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1920FE90)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ShowNpcMultiBodyParam_TypeDefinitionIndex = 47243;
+	inline static constexpr unsigned int ShowNpcMultiBodyParam_TypeDefinitionIndex = 73334;
 
 	class ShowNpcMultiBodyParam : public ::System::Object
 	{
 	public:
-		::System::String* TextureSheet; // 0x10
-		::System::String* RefTextureSheet; // 0x18
-		::System::Nullable_1<::MoleMole::HollowPieceBlendMode> BlendMode; // 0x20
-		::System::Boolean UseAsset; // 0x28
-		::System::Boolean NeedUseOffset; // 0x29
-		::System::Boolean ClearSwitchEffectIfAnim; // 0x2A
-		::System::Int32 ScreenIndex; // 0x2C
+		::System::String* RefTextureSheet; // 0x10
+		::System::String* TextureSheet; // 0x18
+		::System::Int32 ScreenIndex; // 0x20
+		::System::Boolean UseAsset; // 0x24
+		::System::Boolean ClearSwitchEffectIfAnim; // 0x25
+		::System::Boolean NeedUseOffset; // 0x26
+		::System::Nullable_1<::MoleMole::HollowPieceBlendMode> BlendMode; // 0x28
 		::System::Int32 SpecialScreenLayerTransparent; // 0x30
 
 		::System::Void _ctor()

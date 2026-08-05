@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_UIMUSICALBATTLELEVELPAGECONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16DA9700)
+#define MOLEMOLE_UIMUSICALBATTLELEVELPAGECONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x19879CF0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMusicalBattleLevelPageController_Context_TypeDefinitionIndex = 43865;
+	inline static constexpr unsigned int UIMusicalBattleLevelPageController_Context_TypeDefinitionIndex = 44038;
 
 	class UIMusicalBattleLevelPageController_Context : public ::System::Object
 	{

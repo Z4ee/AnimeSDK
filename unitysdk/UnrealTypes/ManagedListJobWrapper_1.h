@@ -6,7 +6,7 @@
 
 namespace UnrealTypes
 {
-	inline static constexpr unsigned int ManagedListJobWrapper_1_TypeDefinitionIndex = 27678;
+	inline static constexpr unsigned int ManagedListJobWrapper_1_TypeDefinitionIndex = 28280;
 
 	template <typename T>
 	class ManagedListJobWrapper_1 : public ::UnrealTypes::ManagedList_1<T>

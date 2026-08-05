@@ -4,7 +4,7 @@
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int UniversalAssetMainLightShadowParams_TypeDefinitionIndex = 5932;
+	inline static constexpr unsigned int UniversalAssetMainLightShadowParams_TypeDefinitionIndex = 5934;
 
 	struct alignas(4) UniversalAssetMainLightShadowParams
 	{

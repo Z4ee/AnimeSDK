@@ -4,17 +4,17 @@
 
 namespace System::Text { class StringBuilder; }
 
-#define ZXING_ONED_UPCEANEXTENSION2SUPPORT__CTOR_OFFSET UNITYSDK_OFFSET(0x1AB538F0)
+#define ZXING_ONED_UPCEANEXTENSION2SUPPORT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE94100)
 
 namespace ZXing::OneD
 {
-	inline static constexpr unsigned int UPCEANExtension2Support_TypeDefinitionIndex = 19186;
+	inline static constexpr unsigned int UPCEANExtension2Support_TypeDefinitionIndex = 19531;
 
 	class UPCEANExtension2Support : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::Int32>* decodeMiddleCounters; // 0x10
-		::System::Text::StringBuilder* decodeRowStringBuffer; // 0x18
+		::System::Text::StringBuilder* decodeRowStringBuffer; // 0x10
+		::Il2CppArray<::System::Int32>* decodeMiddleCounters; // 0x18
 
 		::System::Void _ctor()
 		{

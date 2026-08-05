@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define UNREALTYPES_ALIGNMENTUTILS_ALIGN_OFFSET UNITYSDK_OFFSET(0x1D1AC2B0)
-#define UNREALTYPES_ALIGNMENTUTILS_ISALIGNED_OFFSET UNITYSDK_OFFSET(0x1D1AC2C0)
-#define UNREALTYPES_ALIGNMENTUTILS_ISPOWEROFTWO_OFFSET UNITYSDK_OFFSET(0x1D1AC370)
+#define UNREALTYPES_ALIGNMENTUTILS_ALIGN_OFFSET UNITYSDK_OFFSET(0x1E382700)
+#define UNREALTYPES_ALIGNMENTUTILS_ISALIGNED_OFFSET UNITYSDK_OFFSET(0x1E382710)
+#define UNREALTYPES_ALIGNMENTUTILS_ISPOWEROFTWO_OFFSET UNITYSDK_OFFSET(0x1E3827C0)
 
 namespace UnrealTypes
 {
-	inline static constexpr unsigned int AlignmentUtils_TypeDefinitionIndex = 27700;
+	inline static constexpr unsigned int AlignmentUtils_TypeDefinitionIndex = 28303;
 
 	class AlignmentUtils : public ::System::Object
 	{

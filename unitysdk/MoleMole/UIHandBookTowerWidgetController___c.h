@@ -4,24 +4,24 @@
 
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MOLEMOLE_UIHANDBOOKTOWERWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x16F82660)
-#define MOLEMOLE_UIHANDBOOKTOWERWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x16F826A0)
-#define MOLEMOLE_UIHANDBOOKTOWERWIDGETCONTROLLER___C__ONUIINIT_B__2_2_OFFSET UNITYSDK_OFFSET(0x16F826B0)
+#define MOLEMOLE_UIHANDBOOKTOWERWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1960FFF0)
+#define MOLEMOLE_UIHANDBOOKTOWERWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19610030)
+#define MOLEMOLE_UIHANDBOOKTOWERWIDGETCONTROLLER___C__ONUIINIT_B__2_2_OFFSET UNITYSDK_OFFSET(0x19610040)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHandBookTowerWidgetController___c_TypeDefinitionIndex = 71351;
+	inline static constexpr unsigned int UIHandBookTowerWidgetController___c_TypeDefinitionIndex = 41311;
 
 	class UIHandBookTowerWidgetController___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::System::Int32, ::System::Int32>** StaticGet___9__2_2()
 		{
-			return (::System::Func_2<::System::Int32, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIHandBookTowerWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x49FC0);
+			return (::System::Func_2<::System::Int32, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIHandBookTowerWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x450F0);
 		}
 		static ::MoleMole::UIHandBookTowerWidgetController___c** StaticGet___9()
 		{
-			return (::MoleMole::UIHandBookTowerWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIHandBookTowerWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x49FC8);
+			return (::MoleMole::UIHandBookTowerWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIHandBookTowerWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x450F8);
 		}
 
 		static ::System::Void _cctor()

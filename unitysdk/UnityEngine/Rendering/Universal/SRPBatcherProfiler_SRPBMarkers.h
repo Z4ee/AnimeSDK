@@ -3,25 +3,25 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int SRPBatcherProfiler_SRPBMarkers_TypeDefinitionIndex = 26212;
+	inline static constexpr unsigned int SRPBatcherProfiler_SRPBMarkers_TypeDefinitionIndex = 27758;
 
 	enum class SRPBatcherProfiler_SRPBMarkers : ::System::Int32
 	{
-		kStdShadowDraw = 1,
-		kVolumetricFog = 13,
-		kStdRenderDraw = 0,
-		kSMAA = 12,
-		kNapBloom = 11,
-		kSRPBShadowDraw = 3,
-		kSRPSetRenderTarget = 9,
-		kSRPBRenderDraw = 2,
 		kNAPRenderTransparents = 15,
-		kRenderIntoDBuffer = 14,
-		kStdRenderApplyShader = 5,
-		kPrepareBatchRendererGroupNodes = 10,
 		kSRPBRenderApplyShader = 7,
+		kStdRenderApplyShader = 5,
 		kSRPBShadowApplyShader = 8,
-		kRenderThreadIdle = 4,
 		kStdShadowApplyShader = 6,
+		kVolumetricFog = 13,
+		kPrepareBatchRendererGroupNodes = 10,
+		kRenderThreadIdle = 4,
+		kNapBloom = 11,
+		kStdShadowDraw = 1,
+		kSRPSetRenderTarget = 9,
+		kStdRenderDraw = 0,
+		kRenderIntoDBuffer = 14,
+		kSRPBShadowDraw = 3,
+		kSRPBRenderDraw = 2,
+		kSMAA = 12,
 	};
 }

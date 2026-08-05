@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_LEVELSHOOTGAMECONFIG_WAVEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0746F0)
+#define MOLEMOLE_CONFIG_LEVELSHOOTGAMECONFIG_WAVEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x19FF4FB0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int LevelShootGameConfig_WaveParam_TypeDefinitionIndex = 70553;
+	inline static constexpr unsigned int LevelShootGameConfig_WaveParam_TypeDefinitionIndex = 52697;
 
 	class LevelShootGameConfig_WaveParam : public ::System::Object
 	{

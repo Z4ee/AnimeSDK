@@ -8,7 +8,7 @@ namespace System { class Object; }
 
 namespace ParadoxNotion
 {
-	inline static constexpr unsigned int ActionCall_1_TypeDefinitionIndex = 29646;
+	inline static constexpr unsigned int ActionCall_1_TypeDefinitionIndex = 30460;
 
 	template <typename T1>
 	class ActionCall_1 : public ::System::MulticastDelegate

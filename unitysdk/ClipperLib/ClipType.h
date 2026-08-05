@@ -3,7 +3,7 @@
 
 namespace ClipperLib
 {
-	inline static constexpr unsigned int ClipType_TypeDefinitionIndex = 32773;
+	inline static constexpr unsigned int ClipType_TypeDefinitionIndex = 33408;
 
 	enum class ClipType : ::System::Int32
 	{

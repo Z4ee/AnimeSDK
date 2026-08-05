@@ -20,34 +20,34 @@ namespace System::Net { class EndPoint; }
 namespace System::Net { class IPAddress; }
 namespace System::Net::Sockets { class Socket; }
 
-#define SYSTEM_NET_SOCKETS_SOCKETTASKEXTENSIONS___C__ACCEPTASYNC_B__0_0_OFFSET UNITYSDK_OFFSET(0x1C02B8D0)
-#define SYSTEM_NET_SOCKETS_SOCKETTASKEXTENSIONS___C__ACCEPTASYNC_B__0_1_OFFSET UNITYSDK_OFFSET(0x1C02B950)
-#define SYSTEM_NET_SOCKETS_SOCKETTASKEXTENSIONS___C__ACCEPTASYNC_B__1_0_OFFSET UNITYSDK_OFFSET(0x1C02BA70)
-#define SYSTEM_NET_SOCKETS_SOCKETTASKEXTENSIONS___C__ACCEPTASYNC_B__1_1_OFFSET UNITYSDK_OFFSET(0x1C02BB00)
-#define SYSTEM_NET_SOCKETS_SOCKETTASKEXTENSIONS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C02B880)
-#define SYSTEM_NET_SOCKETS_SOCKETTASKEXTENSIONS___C__CONNECTASYNC_B__2_0_OFFSET UNITYSDK_OFFSET(0x1C02BC20)
-#define SYSTEM_NET_SOCKETS_SOCKETTASKEXTENSIONS___C__CONNECTASYNC_B__2_1_OFFSET UNITYSDK_OFFSET(0x1C02BCA0)
-#define SYSTEM_NET_SOCKETS_SOCKETTASKEXTENSIONS___C__CONNECTASYNC_B__3_0_OFFSET UNITYSDK_OFFSET(0x1C02BDB0)
-#define SYSTEM_NET_SOCKETS_SOCKETTASKEXTENSIONS___C__CONNECTASYNC_B__3_1_OFFSET UNITYSDK_OFFSET(0x1C02BE40)
-#define SYSTEM_NET_SOCKETS_SOCKETTASKEXTENSIONS___C__CONNECTASYNC_B__4_0_OFFSET UNITYSDK_OFFSET(0x1C02BF50)
-#define SYSTEM_NET_SOCKETS_SOCKETTASKEXTENSIONS___C__CONNECTASYNC_B__4_1_OFFSET UNITYSDK_OFFSET(0x1C02BFE0)
-#define SYSTEM_NET_SOCKETS_SOCKETTASKEXTENSIONS___C__CONNECTASYNC_B__5_0_OFFSET UNITYSDK_OFFSET(0x1C02C0F0)
-#define SYSTEM_NET_SOCKETS_SOCKETTASKEXTENSIONS___C__CONNECTASYNC_B__5_1_OFFSET UNITYSDK_OFFSET(0x1C02C180)
-#define SYSTEM_NET_SOCKETS_SOCKETTASKEXTENSIONS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1C02B8C0)
-#define SYSTEM_NET_SOCKETS_SOCKETTASKEXTENSIONS___C__RECEIVEASYNC_B__6_0_OFFSET UNITYSDK_OFFSET(0x1C02C290)
-#define SYSTEM_NET_SOCKETS_SOCKETTASKEXTENSIONS___C__RECEIVEASYNC_B__6_1_OFFSET UNITYSDK_OFFSET(0x1C02C3C0)
-#define SYSTEM_NET_SOCKETS_SOCKETTASKEXTENSIONS___C__RECEIVEASYNC_B__7_0_OFFSET UNITYSDK_OFFSET(0x1C02C530)
-#define SYSTEM_NET_SOCKETS_SOCKETTASKEXTENSIONS___C__RECEIVEASYNC_B__7_1_OFFSET UNITYSDK_OFFSET(0x1C02C630)
-#define SYSTEM_NET_SOCKETS_SOCKETTASKEXTENSIONS___C__RECEIVEFROMASYNC_B__8_0_OFFSET UNITYSDK_OFFSET(0x1C02C7A0)
-#define SYSTEM_NET_SOCKETS_SOCKETTASKEXTENSIONS___C__RECEIVEFROMASYNC_B__8_1_OFFSET UNITYSDK_OFFSET(0x1C02C990)
-#define SYSTEM_NET_SOCKETS_SOCKETTASKEXTENSIONS___C__RECEIVEMESSAGEFROMASYNC_B__9_0_OFFSET UNITYSDK_OFFSET(0x1C02CB80)
-#define SYSTEM_NET_SOCKETS_SOCKETTASKEXTENSIONS___C__RECEIVEMESSAGEFROMASYNC_B__9_1_OFFSET UNITYSDK_OFFSET(0x1C02CD50)
-#define SYSTEM_NET_SOCKETS_SOCKETTASKEXTENSIONS___C__SENDASYNC_B__10_0_OFFSET UNITYSDK_OFFSET(0x1C02CFB0)
-#define SYSTEM_NET_SOCKETS_SOCKETTASKEXTENSIONS___C__SENDASYNC_B__10_1_OFFSET UNITYSDK_OFFSET(0x1C02D0E0)
-#define SYSTEM_NET_SOCKETS_SOCKETTASKEXTENSIONS___C__SENDASYNC_B__11_0_OFFSET UNITYSDK_OFFSET(0x1C02D250)
-#define SYSTEM_NET_SOCKETS_SOCKETTASKEXTENSIONS___C__SENDASYNC_B__11_1_OFFSET UNITYSDK_OFFSET(0x1C02D350)
-#define SYSTEM_NET_SOCKETS_SOCKETTASKEXTENSIONS___C__SENDTOASYNC_B__12_0_OFFSET UNITYSDK_OFFSET(0x1C02D4C0)
-#define SYSTEM_NET_SOCKETS_SOCKETTASKEXTENSIONS___C__SENDTOASYNC_B__12_1_OFFSET UNITYSDK_OFFSET(0x1C02D570)
+#define SYSTEM_NET_SOCKETS_SOCKETTASKEXTENSIONS___C__ACCEPTASYNC_B__0_0_OFFSET UNITYSDK_OFFSET(0x1D412150)
+#define SYSTEM_NET_SOCKETS_SOCKETTASKEXTENSIONS___C__ACCEPTASYNC_B__0_1_OFFSET UNITYSDK_OFFSET(0x1D4121D0)
+#define SYSTEM_NET_SOCKETS_SOCKETTASKEXTENSIONS___C__ACCEPTASYNC_B__1_0_OFFSET UNITYSDK_OFFSET(0x1D4122F0)
+#define SYSTEM_NET_SOCKETS_SOCKETTASKEXTENSIONS___C__ACCEPTASYNC_B__1_1_OFFSET UNITYSDK_OFFSET(0x1D412380)
+#define SYSTEM_NET_SOCKETS_SOCKETTASKEXTENSIONS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D412100)
+#define SYSTEM_NET_SOCKETS_SOCKETTASKEXTENSIONS___C__CONNECTASYNC_B__2_0_OFFSET UNITYSDK_OFFSET(0x1D4124A0)
+#define SYSTEM_NET_SOCKETS_SOCKETTASKEXTENSIONS___C__CONNECTASYNC_B__2_1_OFFSET UNITYSDK_OFFSET(0x1D412520)
+#define SYSTEM_NET_SOCKETS_SOCKETTASKEXTENSIONS___C__CONNECTASYNC_B__3_0_OFFSET UNITYSDK_OFFSET(0x1D412630)
+#define SYSTEM_NET_SOCKETS_SOCKETTASKEXTENSIONS___C__CONNECTASYNC_B__3_1_OFFSET UNITYSDK_OFFSET(0x1D4126C0)
+#define SYSTEM_NET_SOCKETS_SOCKETTASKEXTENSIONS___C__CONNECTASYNC_B__4_0_OFFSET UNITYSDK_OFFSET(0x1D4127D0)
+#define SYSTEM_NET_SOCKETS_SOCKETTASKEXTENSIONS___C__CONNECTASYNC_B__4_1_OFFSET UNITYSDK_OFFSET(0x1D412860)
+#define SYSTEM_NET_SOCKETS_SOCKETTASKEXTENSIONS___C__CONNECTASYNC_B__5_0_OFFSET UNITYSDK_OFFSET(0x1D412970)
+#define SYSTEM_NET_SOCKETS_SOCKETTASKEXTENSIONS___C__CONNECTASYNC_B__5_1_OFFSET UNITYSDK_OFFSET(0x1D412A00)
+#define SYSTEM_NET_SOCKETS_SOCKETTASKEXTENSIONS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1D412140)
+#define SYSTEM_NET_SOCKETS_SOCKETTASKEXTENSIONS___C__RECEIVEASYNC_B__6_0_OFFSET UNITYSDK_OFFSET(0x1D412B10)
+#define SYSTEM_NET_SOCKETS_SOCKETTASKEXTENSIONS___C__RECEIVEASYNC_B__6_1_OFFSET UNITYSDK_OFFSET(0x1D412C40)
+#define SYSTEM_NET_SOCKETS_SOCKETTASKEXTENSIONS___C__RECEIVEASYNC_B__7_0_OFFSET UNITYSDK_OFFSET(0x1D412DB0)
+#define SYSTEM_NET_SOCKETS_SOCKETTASKEXTENSIONS___C__RECEIVEASYNC_B__7_1_OFFSET UNITYSDK_OFFSET(0x1D412EB0)
+#define SYSTEM_NET_SOCKETS_SOCKETTASKEXTENSIONS___C__RECEIVEFROMASYNC_B__8_0_OFFSET UNITYSDK_OFFSET(0x1D413020)
+#define SYSTEM_NET_SOCKETS_SOCKETTASKEXTENSIONS___C__RECEIVEFROMASYNC_B__8_1_OFFSET UNITYSDK_OFFSET(0x1D413210)
+#define SYSTEM_NET_SOCKETS_SOCKETTASKEXTENSIONS___C__RECEIVEMESSAGEFROMASYNC_B__9_0_OFFSET UNITYSDK_OFFSET(0x1D413410)
+#define SYSTEM_NET_SOCKETS_SOCKETTASKEXTENSIONS___C__RECEIVEMESSAGEFROMASYNC_B__9_1_OFFSET UNITYSDK_OFFSET(0x1D4135E0)
+#define SYSTEM_NET_SOCKETS_SOCKETTASKEXTENSIONS___C__SENDASYNC_B__10_0_OFFSET UNITYSDK_OFFSET(0x1D413840)
+#define SYSTEM_NET_SOCKETS_SOCKETTASKEXTENSIONS___C__SENDASYNC_B__10_1_OFFSET UNITYSDK_OFFSET(0x1D413970)
+#define SYSTEM_NET_SOCKETS_SOCKETTASKEXTENSIONS___C__SENDASYNC_B__11_0_OFFSET UNITYSDK_OFFSET(0x1D413AE0)
+#define SYSTEM_NET_SOCKETS_SOCKETTASKEXTENSIONS___C__SENDASYNC_B__11_1_OFFSET UNITYSDK_OFFSET(0x1D413BE0)
+#define SYSTEM_NET_SOCKETS_SOCKETTASKEXTENSIONS___C__SENDTOASYNC_B__12_0_OFFSET UNITYSDK_OFFSET(0x1D413D50)
+#define SYSTEM_NET_SOCKETS_SOCKETTASKEXTENSIONS___C__SENDTOASYNC_B__12_1_OFFSET UNITYSDK_OFFSET(0x1D413E00)
 
 namespace System::Net::Sockets
 {
@@ -56,113 +56,113 @@ namespace System::Net::Sockets
 	class SocketTaskExtensions___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::IAsyncResult*, ::System::Int32>** StaticGet___9__6_1()
+		static ::System::Func_5<::System::ArraySegment_1<::System::Byte>, ::System::Net::Sockets::SocketFlags, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>** StaticGet___9__8_0()
 		{
-			return (::System::Func_2<::System::IAsyncResult*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(SocketTaskExtensions___c_TypeDefinitionIndex)->GetStaticField(0x2ED0);
-		}
-		static ::System::Func_2<::System::IAsyncResult*, ::System::Net::Sockets::Socket*>** StaticGet___9__1_1()
-		{
-			return (::System::Func_2<::System::IAsyncResult*, ::System::Net::Sockets::Socket*>**)Il2CppClass::FromTypeDefinitionIndex(SocketTaskExtensions___c_TypeDefinitionIndex)->GetStaticField(0x2ED8);
-		}
-		static ::System::Func_3<::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>** StaticGet___9__0_0()
-		{
-			return (::System::Func_3<::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>**)Il2CppClass::FromTypeDefinitionIndex(SocketTaskExtensions___c_TypeDefinitionIndex)->GetStaticField(0x2EE0);
-		}
-		static ::System::Func_5<::System::ArraySegment_1<::System::Byte>, ::System::Net::Sockets::SocketFlags, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>** StaticGet___9__10_0()
-		{
-			return (::System::Func_5<::System::ArraySegment_1<::System::Byte>, ::System::Net::Sockets::SocketFlags, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>**)Il2CppClass::FromTypeDefinitionIndex(SocketTaskExtensions___c_TypeDefinitionIndex)->GetStaticField(0x2EE8);
+			return (::System::Func_5<::System::ArraySegment_1<::System::Byte>, ::System::Net::Sockets::SocketFlags, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>**)Il2CppClass::FromTypeDefinitionIndex(SocketTaskExtensions___c_TypeDefinitionIndex)->GetStaticField(0x2ED0);
 		}
 		static ::System::Net::Sockets::SocketTaskExtensions___c** StaticGet___9()
 		{
-			return (::System::Net::Sockets::SocketTaskExtensions___c**)Il2CppClass::FromTypeDefinitionIndex(SocketTaskExtensions___c_TypeDefinitionIndex)->GetStaticField(0x2EF0);
+			return (::System::Net::Sockets::SocketTaskExtensions___c**)Il2CppClass::FromTypeDefinitionIndex(SocketTaskExtensions___c_TypeDefinitionIndex)->GetStaticField(0x2ED8);
 		}
-		static ::System::Func_5<::System::Net::Sockets::Socket*, ::System::Int32, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>** StaticGet___9__1_0()
+		static ::System::Func_2<::System::IAsyncResult*, ::System::Int32>** StaticGet___9__12_1()
 		{
-			return (::System::Func_5<::System::Net::Sockets::Socket*, ::System::Int32, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>**)Il2CppClass::FromTypeDefinitionIndex(SocketTaskExtensions___c_TypeDefinitionIndex)->GetStaticField(0x2EF8);
+			return (::System::Func_2<::System::IAsyncResult*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(SocketTaskExtensions___c_TypeDefinitionIndex)->GetStaticField(0x2EE0);
 		}
-		static ::System::Func_5<::System::Collections::Generic::IList_1<::System::ArraySegment_1<::System::Byte>>*, ::System::Net::Sockets::SocketFlags, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>** StaticGet___9__11_0()
+		static ::System::Func_2<::System::IAsyncResult*, ::System::Int32>** StaticGet___9__10_1()
 		{
-			return (::System::Func_5<::System::Collections::Generic::IList_1<::System::ArraySegment_1<::System::Byte>>*, ::System::Net::Sockets::SocketFlags, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>**)Il2CppClass::FromTypeDefinitionIndex(SocketTaskExtensions___c_TypeDefinitionIndex)->GetStaticField(0x2F00);
+			return (::System::Func_2<::System::IAsyncResult*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(SocketTaskExtensions___c_TypeDefinitionIndex)->GetStaticField(0x2EE8);
 		}
-		static ::System::Func_2<::System::IAsyncResult*, ::System::Net::Sockets::SocketReceiveFromResult>** StaticGet___9__8_1()
+		static ::System::Func_2<::System::IAsyncResult*, ::System::Int32>** StaticGet___9__11_1()
 		{
-			return (::System::Func_2<::System::IAsyncResult*, ::System::Net::Sockets::SocketReceiveFromResult>**)Il2CppClass::FromTypeDefinitionIndex(SocketTaskExtensions___c_TypeDefinitionIndex)->GetStaticField(0x2F08);
-		}
-		static ::System::Action_1<::System::IAsyncResult*>** StaticGet___9__3_1()
-		{
-			return (::System::Action_1<::System::IAsyncResult*>**)Il2CppClass::FromTypeDefinitionIndex(SocketTaskExtensions___c_TypeDefinitionIndex)->GetStaticField(0x2F10);
-		}
-		static ::System::Func_2<::System::IAsyncResult*, ::System::Net::Sockets::SocketReceiveMessageFromResult>** StaticGet___9__9_1()
-		{
-			return (::System::Func_2<::System::IAsyncResult*, ::System::Net::Sockets::SocketReceiveMessageFromResult>**)Il2CppClass::FromTypeDefinitionIndex(SocketTaskExtensions___c_TypeDefinitionIndex)->GetStaticField(0x2F18);
-		}
-		static ::System::Func_2<::System::IAsyncResult*, ::System::Int32>** StaticGet___9__7_1()
-		{
-			return (::System::Func_2<::System::IAsyncResult*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(SocketTaskExtensions___c_TypeDefinitionIndex)->GetStaticField(0x2F20);
+			return (::System::Func_2<::System::IAsyncResult*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(SocketTaskExtensions___c_TypeDefinitionIndex)->GetStaticField(0x2EF0);
 		}
 		static ::System::Func_6<::System::ArraySegment_1<::System::Byte>, ::System::Net::Sockets::SocketFlags, ::System::Net::EndPoint*, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>** StaticGet___9__12_0()
 		{
-			return (::System::Func_6<::System::ArraySegment_1<::System::Byte>, ::System::Net::Sockets::SocketFlags, ::System::Net::EndPoint*, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>**)Il2CppClass::FromTypeDefinitionIndex(SocketTaskExtensions___c_TypeDefinitionIndex)->GetStaticField(0x2F28);
+			return (::System::Func_6<::System::ArraySegment_1<::System::Byte>, ::System::Net::Sockets::SocketFlags, ::System::Net::EndPoint*, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>**)Il2CppClass::FromTypeDefinitionIndex(SocketTaskExtensions___c_TypeDefinitionIndex)->GetStaticField(0x2EF8);
+		}
+		static ::System::Action_1<::System::IAsyncResult*>** StaticGet___9__3_1()
+		{
+			return (::System::Action_1<::System::IAsyncResult*>**)Il2CppClass::FromTypeDefinitionIndex(SocketTaskExtensions___c_TypeDefinitionIndex)->GetStaticField(0x2F00);
+		}
+		static ::System::Func_2<::System::IAsyncResult*, ::System::Int32>** StaticGet___9__7_1()
+		{
+			return (::System::Func_2<::System::IAsyncResult*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(SocketTaskExtensions___c_TypeDefinitionIndex)->GetStaticField(0x2F08);
+		}
+		static ::System::Action_1<::System::IAsyncResult*>** StaticGet___9__2_1()
+		{
+			return (::System::Action_1<::System::IAsyncResult*>**)Il2CppClass::FromTypeDefinitionIndex(SocketTaskExtensions___c_TypeDefinitionIndex)->GetStaticField(0x2F10);
+		}
+		static ::System::Func_4<::System::Net::EndPoint*, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>** StaticGet___9__2_0()
+		{
+			return (::System::Func_4<::System::Net::EndPoint*, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>**)Il2CppClass::FromTypeDefinitionIndex(SocketTaskExtensions___c_TypeDefinitionIndex)->GetStaticField(0x2F18);
+		}
+		static ::System::Func_5<::System::Net::Sockets::Socket*, ::System::Int32, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>** StaticGet___9__1_0()
+		{
+			return (::System::Func_5<::System::Net::Sockets::Socket*, ::System::Int32, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>**)Il2CppClass::FromTypeDefinitionIndex(SocketTaskExtensions___c_TypeDefinitionIndex)->GetStaticField(0x2F20);
+		}
+		static ::System::Func_5<::System::Collections::Generic::IList_1<::System::ArraySegment_1<::System::Byte>>*, ::System::Net::Sockets::SocketFlags, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>** StaticGet___9__7_0()
+		{
+			return (::System::Func_5<::System::Collections::Generic::IList_1<::System::ArraySegment_1<::System::Byte>>*, ::System::Net::Sockets::SocketFlags, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>**)Il2CppClass::FromTypeDefinitionIndex(SocketTaskExtensions___c_TypeDefinitionIndex)->GetStaticField(0x2F28);
+		}
+		static ::System::Func_2<::System::IAsyncResult*, ::System::Net::Sockets::SocketReceiveMessageFromResult>** StaticGet___9__9_1()
+		{
+			return (::System::Func_2<::System::IAsyncResult*, ::System::Net::Sockets::SocketReceiveMessageFromResult>**)Il2CppClass::FromTypeDefinitionIndex(SocketTaskExtensions___c_TypeDefinitionIndex)->GetStaticField(0x2F30);
 		}
 		static ::System::Func_5<::System::ArraySegment_1<::System::Byte>, ::System::Net::Sockets::SocketFlags, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>** StaticGet___9__6_0()
 		{
-			return (::System::Func_5<::System::ArraySegment_1<::System::Byte>, ::System::Net::Sockets::SocketFlags, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>**)Il2CppClass::FromTypeDefinitionIndex(SocketTaskExtensions___c_TypeDefinitionIndex)->GetStaticField(0x2F30);
-		}
-		static ::System::Func_5<::System::ArraySegment_1<::System::Byte>, ::System::Net::Sockets::SocketFlags, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>** StaticGet___9__8_0()
-		{
 			return (::System::Func_5<::System::ArraySegment_1<::System::Byte>, ::System::Net::Sockets::SocketFlags, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>**)Il2CppClass::FromTypeDefinitionIndex(SocketTaskExtensions___c_TypeDefinitionIndex)->GetStaticField(0x2F38);
+		}
+		static ::System::Func_4<::System::ArraySegment_1<::System::Byte>, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>** StaticGet___9__9_0()
+		{
+			return (::System::Func_4<::System::ArraySegment_1<::System::Byte>, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>**)Il2CppClass::FromTypeDefinitionIndex(SocketTaskExtensions___c_TypeDefinitionIndex)->GetStaticField(0x2F40);
 		}
 		static ::System::Action_1<::System::IAsyncResult*>** StaticGet___9__4_1()
 		{
-			return (::System::Action_1<::System::IAsyncResult*>**)Il2CppClass::FromTypeDefinitionIndex(SocketTaskExtensions___c_TypeDefinitionIndex)->GetStaticField(0x2F40);
-		}
-		static ::System::Action_1<::System::IAsyncResult*>** StaticGet___9__5_1()
-		{
 			return (::System::Action_1<::System::IAsyncResult*>**)Il2CppClass::FromTypeDefinitionIndex(SocketTaskExtensions___c_TypeDefinitionIndex)->GetStaticField(0x2F48);
 		}
-		static ::System::Func_2<::System::IAsyncResult*, ::System::Net::Sockets::Socket*>** StaticGet___9__0_1()
+		static ::System::Func_5<::System::ArraySegment_1<::System::Byte>, ::System::Net::Sockets::SocketFlags, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>** StaticGet___9__10_0()
 		{
-			return (::System::Func_2<::System::IAsyncResult*, ::System::Net::Sockets::Socket*>**)Il2CppClass::FromTypeDefinitionIndex(SocketTaskExtensions___c_TypeDefinitionIndex)->GetStaticField(0x2F50);
+			return (::System::Func_5<::System::ArraySegment_1<::System::Byte>, ::System::Net::Sockets::SocketFlags, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>**)Il2CppClass::FromTypeDefinitionIndex(SocketTaskExtensions___c_TypeDefinitionIndex)->GetStaticField(0x2F50);
 		}
-		static ::System::Func_5<::Il2CppArray<::System::Net::IPAddress*>*, ::System::Int32, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>** StaticGet___9__4_0()
+		static ::System::Func_5<::System::Collections::Generic::IList_1<::System::ArraySegment_1<::System::Byte>>*, ::System::Net::Sockets::SocketFlags, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>** StaticGet___9__11_0()
 		{
-			return (::System::Func_5<::Il2CppArray<::System::Net::IPAddress*>*, ::System::Int32, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>**)Il2CppClass::FromTypeDefinitionIndex(SocketTaskExtensions___c_TypeDefinitionIndex)->GetStaticField(0x2F58);
+			return (::System::Func_5<::System::Collections::Generic::IList_1<::System::ArraySegment_1<::System::Byte>>*, ::System::Net::Sockets::SocketFlags, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>**)Il2CppClass::FromTypeDefinitionIndex(SocketTaskExtensions___c_TypeDefinitionIndex)->GetStaticField(0x2F58);
 		}
 		static ::System::Func_5<::System::String*, ::System::Int32, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>** StaticGet___9__5_0()
 		{
 			return (::System::Func_5<::System::String*, ::System::Int32, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>**)Il2CppClass::FromTypeDefinitionIndex(SocketTaskExtensions___c_TypeDefinitionIndex)->GetStaticField(0x2F60);
 		}
-		static ::System::Func_2<::System::IAsyncResult*, ::System::Int32>** StaticGet___9__11_1()
+		static ::System::Func_2<::System::IAsyncResult*, ::System::Net::Sockets::Socket*>** StaticGet___9__1_1()
 		{
-			return (::System::Func_2<::System::IAsyncResult*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(SocketTaskExtensions___c_TypeDefinitionIndex)->GetStaticField(0x2F68);
+			return (::System::Func_2<::System::IAsyncResult*, ::System::Net::Sockets::Socket*>**)Il2CppClass::FromTypeDefinitionIndex(SocketTaskExtensions___c_TypeDefinitionIndex)->GetStaticField(0x2F68);
 		}
-		static ::System::Func_2<::System::IAsyncResult*, ::System::Int32>** StaticGet___9__10_1()
+		static ::System::Action_1<::System::IAsyncResult*>** StaticGet___9__5_1()
 		{
-			return (::System::Func_2<::System::IAsyncResult*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(SocketTaskExtensions___c_TypeDefinitionIndex)->GetStaticField(0x2F70);
+			return (::System::Action_1<::System::IAsyncResult*>**)Il2CppClass::FromTypeDefinitionIndex(SocketTaskExtensions___c_TypeDefinitionIndex)->GetStaticField(0x2F70);
 		}
-		static ::System::Func_5<::System::Collections::Generic::IList_1<::System::ArraySegment_1<::System::Byte>>*, ::System::Net::Sockets::SocketFlags, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>** StaticGet___9__7_0()
+		static ::System::Func_2<::System::IAsyncResult*, ::System::Net::Sockets::SocketReceiveFromResult>** StaticGet___9__8_1()
 		{
-			return (::System::Func_5<::System::Collections::Generic::IList_1<::System::ArraySegment_1<::System::Byte>>*, ::System::Net::Sockets::SocketFlags, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>**)Il2CppClass::FromTypeDefinitionIndex(SocketTaskExtensions___c_TypeDefinitionIndex)->GetStaticField(0x2F78);
-		}
-		static ::System::Action_1<::System::IAsyncResult*>** StaticGet___9__2_1()
-		{
-			return (::System::Action_1<::System::IAsyncResult*>**)Il2CppClass::FromTypeDefinitionIndex(SocketTaskExtensions___c_TypeDefinitionIndex)->GetStaticField(0x2F80);
+			return (::System::Func_2<::System::IAsyncResult*, ::System::Net::Sockets::SocketReceiveFromResult>**)Il2CppClass::FromTypeDefinitionIndex(SocketTaskExtensions___c_TypeDefinitionIndex)->GetStaticField(0x2F78);
 		}
 		static ::System::Func_5<::System::Net::IPAddress*, ::System::Int32, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>** StaticGet___9__3_0()
 		{
-			return (::System::Func_5<::System::Net::IPAddress*, ::System::Int32, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>**)Il2CppClass::FromTypeDefinitionIndex(SocketTaskExtensions___c_TypeDefinitionIndex)->GetStaticField(0x2F88);
+			return (::System::Func_5<::System::Net::IPAddress*, ::System::Int32, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>**)Il2CppClass::FromTypeDefinitionIndex(SocketTaskExtensions___c_TypeDefinitionIndex)->GetStaticField(0x2F80);
 		}
-		static ::System::Func_2<::System::IAsyncResult*, ::System::Int32>** StaticGet___9__12_1()
+		static ::System::Func_2<::System::IAsyncResult*, ::System::Int32>** StaticGet___9__6_1()
 		{
-			return (::System::Func_2<::System::IAsyncResult*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(SocketTaskExtensions___c_TypeDefinitionIndex)->GetStaticField(0x2F90);
+			return (::System::Func_2<::System::IAsyncResult*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(SocketTaskExtensions___c_TypeDefinitionIndex)->GetStaticField(0x2F88);
 		}
-		static ::System::Func_4<::System::Net::EndPoint*, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>** StaticGet___9__2_0()
+		static ::System::Func_5<::Il2CppArray<::System::Net::IPAddress*>*, ::System::Int32, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>** StaticGet___9__4_0()
 		{
-			return (::System::Func_4<::System::Net::EndPoint*, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>**)Il2CppClass::FromTypeDefinitionIndex(SocketTaskExtensions___c_TypeDefinitionIndex)->GetStaticField(0x2F98);
+			return (::System::Func_5<::Il2CppArray<::System::Net::IPAddress*>*, ::System::Int32, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>**)Il2CppClass::FromTypeDefinitionIndex(SocketTaskExtensions___c_TypeDefinitionIndex)->GetStaticField(0x2F90);
 		}
-		static ::System::Func_4<::System::ArraySegment_1<::System::Byte>, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>** StaticGet___9__9_0()
+		static ::System::Func_3<::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>** StaticGet___9__0_0()
 		{
-			return (::System::Func_4<::System::ArraySegment_1<::System::Byte>, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>**)Il2CppClass::FromTypeDefinitionIndex(SocketTaskExtensions___c_TypeDefinitionIndex)->GetStaticField(0x2FA0);
+			return (::System::Func_3<::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>**)Il2CppClass::FromTypeDefinitionIndex(SocketTaskExtensions___c_TypeDefinitionIndex)->GetStaticField(0x2F98);
+		}
+		static ::System::Func_2<::System::IAsyncResult*, ::System::Net::Sockets::Socket*>** StaticGet___9__0_1()
+		{
+			return (::System::Func_2<::System::IAsyncResult*, ::System::Net::Sockets::Socket*>**)Il2CppClass::FromTypeDefinitionIndex(SocketTaskExtensions___c_TypeDefinitionIndex)->GetStaticField(0x2FA0);
 		}
 
 		static ::System::Void _cctor()

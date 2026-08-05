@@ -1,27 +1,30 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Audio_PINVOKE_GlobalStats.h"
+#include "unitysdk/Audio_PINVOKE_ScePadColor.h"
 #include "unitysdk/Audio_PINVOKE_ScePadJackState.h"
 #include "unitysdk/Audio_PINVOKE_ScePadVolumeGain.h"
 #include "unitysdk/System/Object.h"
 
 namespace System { class String; }
 
-#define AUDIO_PINVOKE_GETGLOBALSTATS_OFFSET UNITYSDK_OFFSET(0x15D231B0)
-#define AUDIO_PINVOKE_GETMODULEHANDLE_OFFSET UNITYSDK_OFFSET(0x15D232C0)
-#define AUDIO_PINVOKE_GETPADERROR_OFFSET UNITYSDK_OFFSET(0x15D23880)
-#define AUDIO_PINVOKE_NAP_GETAUDIOBUFFER_OFFSET UNITYSDK_OFFSET(0x15D23230)
-#define AUDIO_PINVOKE_SCEPADCLOSE_OFFSET UNITYSDK_OFFSET(0x15D235C0)
-#define AUDIO_PINVOKE_SCEPADGETHANDLE_OFFSET UNITYSDK_OFFSET(0x15D23530)
-#define AUDIO_PINVOKE_SCEPADGETJACKSTATE_OFFSET UNITYSDK_OFFSET(0x15D23750)
-#define AUDIO_PINVOKE_SCEPADINIT_OFFSET UNITYSDK_OFFSET(0x15D23390)
-#define AUDIO_PINVOKE_SCEPADOPEN_OFFSET UNITYSDK_OFFSET(0x15D23490)
-#define AUDIO_PINVOKE_SCEPADSETAUDIOOUTPATH_OFFSET UNITYSDK_OFFSET(0x15D23640)
-#define AUDIO_PINVOKE_SCEPADSETVOLUMEGAIN_OFFSET UNITYSDK_OFFSET(0x15D236C0)
-#define AUDIO_PINVOKE_SCEPADTERMINATE_OFFSET UNITYSDK_OFFSET(0x15D23410)
-#define AUDIO_PINVOKE__CTOR_OFFSET UNITYSDK_OFFSET(0x15D23990)
+#define AUDIO_PINVOKE_GETGLOBALSTATS_OFFSET UNITYSDK_OFFSET(0xBD975E0)
+#define AUDIO_PINVOKE_GETMODULEHANDLE_OFFSET UNITYSDK_OFFSET(0xBD976F0)
+#define AUDIO_PINVOKE_GETPADERROR_OFFSET UNITYSDK_OFFSET(0xBD97D90)
+#define AUDIO_PINVOKE_NAP_GETAUDIOBUFFER_OFFSET UNITYSDK_OFFSET(0xBD97660)
+#define AUDIO_PINVOKE_SCEPADCLOSE_OFFSET UNITYSDK_OFFSET(0xBD979E0)
+#define AUDIO_PINVOKE_SCEPADGETHANDLE_OFFSET UNITYSDK_OFFSET(0xBD97950)
+#define AUDIO_PINVOKE_SCEPADGETJACKSTATE_OFFSET UNITYSDK_OFFSET(0xBD97B60)
+#define AUDIO_PINVOKE_SCEPADINIT_OFFSET UNITYSDK_OFFSET(0xBD977C0)
+#define AUDIO_PINVOKE_SCEPADOPEN_OFFSET UNITYSDK_OFFSET(0xBD978C0)
+#define AUDIO_PINVOKE_SCEPADRESETLIGHTBAR_OFFSET UNITYSDK_OFFSET(0xBD97D10)
+#define AUDIO_PINVOKE_SCEPADSETAUDIOOUTPATH_OFFSET UNITYSDK_OFFSET(0xBD97A60)
+#define AUDIO_PINVOKE_SCEPADSETLIGHTBAR_OFFSET UNITYSDK_OFFSET(0xBD97C90)
+#define AUDIO_PINVOKE_SCEPADSETVOLUMEGAIN_OFFSET UNITYSDK_OFFSET(0xBD97AE0)
+#define AUDIO_PINVOKE_SCEPADTERMINATE_OFFSET UNITYSDK_OFFSET(0xBD97840)
+#define AUDIO_PINVOKE__CTOR_OFFSET UNITYSDK_OFFSET(0xBD97E90)
 
-inline static constexpr unsigned int Audio_PINVOKE_TypeDefinitionIndex = 86132;
+inline static constexpr unsigned int Audio_PINVOKE_TypeDefinitionIndex = 80168;
 
 class Audio_PINVOKE : public ::System::Object
 {
@@ -48,9 +51,9 @@ public:
 		return ((::System::IntPtr(*)(::System::String*))((::PBYTE)hIl2Cpp + AUDIO_PINVOKE_GETMODULEHANDLE_OFFSET))(lpModuleName);
 	}
 
-	static ::System::UInt32 scePadInit()
+	static ::System::Int32 scePadInit()
 	{
-		return ((::System::UInt32(*)())((::PBYTE)hIl2Cpp + AUDIO_PINVOKE_SCEPADINIT_OFFSET))();
+		return ((::System::Int32(*)())((::PBYTE)hIl2Cpp + AUDIO_PINVOKE_SCEPADINIT_OFFSET))();
 	}
 
 	static ::System::Void scePadTerminate()
@@ -68,24 +71,34 @@ public:
 		return ((::System::Int32(*)(::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + AUDIO_PINVOKE_SCEPADGETHANDLE_OFFSET))(userId, type, index);
 	}
 
-	static ::System::UInt32 scePadClose(::System::Int32 handle)
+	static ::System::Int32 scePadClose(::System::Int32 handle)
 	{
-		return ((::System::UInt32(*)(::System::Int32))((::PBYTE)hIl2Cpp + AUDIO_PINVOKE_SCEPADCLOSE_OFFSET))(handle);
+		return ((::System::Int32(*)(::System::Int32))((::PBYTE)hIl2Cpp + AUDIO_PINVOKE_SCEPADCLOSE_OFFSET))(handle);
 	}
 
-	static ::System::UInt32 scePadSetAudioOutPath(::System::Int32 handle, ::System::Int32 path)
+	static ::System::Int32 scePadSetAudioOutPath(::System::Int32 handle, ::System::Int32 path)
 	{
-		return ((::System::UInt32(*)(::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + AUDIO_PINVOKE_SCEPADSETAUDIOOUTPATH_OFFSET))(handle, path);
+		return ((::System::Int32(*)(::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + AUDIO_PINVOKE_SCEPADSETAUDIOOUTPATH_OFFSET))(handle, path);
 	}
 
-	static ::System::UInt32 scePadSetVolumeGain(::System::Int32 handle, ::Audio_PINVOKE_ScePadVolumeGain& pGain)
+	static ::System::Int32 scePadSetVolumeGain(::System::Int32 handle, ::Audio_PINVOKE_ScePadVolumeGain& pGain)
 	{
-		return ((::System::UInt32(*)(::System::Int32, ::Audio_PINVOKE_ScePadVolumeGain&))((::PBYTE)hIl2Cpp + AUDIO_PINVOKE_SCEPADSETVOLUMEGAIN_OFFSET))(handle, pGain);
+		return ((::System::Int32(*)(::System::Int32, ::Audio_PINVOKE_ScePadVolumeGain&))((::PBYTE)hIl2Cpp + AUDIO_PINVOKE_SCEPADSETVOLUMEGAIN_OFFSET))(handle, pGain);
 	}
 
-	static ::System::UInt32 scePadGetJackState(::System::Int32 handle, ::Audio_PINVOKE_ScePadJackState& pState)
+	static ::System::Int32 scePadGetJackState(::System::Int32 handle, ::Audio_PINVOKE_ScePadJackState& pState)
 	{
-		return ((::System::UInt32(*)(::System::Int32, ::Audio_PINVOKE_ScePadJackState&))((::PBYTE)hIl2Cpp + AUDIO_PINVOKE_SCEPADGETJACKSTATE_OFFSET))(handle, pState);
+		return ((::System::Int32(*)(::System::Int32, ::Audio_PINVOKE_ScePadJackState&))((::PBYTE)hIl2Cpp + AUDIO_PINVOKE_SCEPADGETJACKSTATE_OFFSET))(handle, pState);
+	}
+
+	static ::System::Int32 scePadSetLightBar(::System::Int32 handle, ::Audio_PINVOKE_ScePadColor& pParam)
+	{
+		return ((::System::Int32(*)(::System::Int32, ::Audio_PINVOKE_ScePadColor&))((::PBYTE)hIl2Cpp + AUDIO_PINVOKE_SCEPADSETLIGHTBAR_OFFSET))(handle, pParam);
+	}
+
+	static ::System::Int32 scePadResetLightBar(::System::Int32 handle)
+	{
+		return ((::System::Int32(*)(::System::Int32))((::PBYTE)hIl2Cpp + AUDIO_PINVOKE_SCEPADRESETLIGHTBAR_OFFSET))(handle);
 	}
 
 	static ::System::String* GetPadError(::System::UInt32 ret)

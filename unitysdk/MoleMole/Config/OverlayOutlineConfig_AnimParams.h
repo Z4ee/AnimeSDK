@@ -4,11 +4,11 @@
 
 class NapGradient;
 
-#define MOLEMOLE_CONFIG_OVERLAYOUTLINECONFIG_ANIMPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x170C58D0)
+#define MOLEMOLE_CONFIG_OVERLAYOUTLINECONFIG_ANIMPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4EB480)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int OverlayOutlineConfig_AnimParams_TypeDefinitionIndex = 73115;
+	inline static constexpr unsigned int OverlayOutlineConfig_AnimParams_TypeDefinitionIndex = 54297;
 
 	class OverlayOutlineConfig_AnimParams : public ::System::Object
 	{

@@ -3,15 +3,15 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int LayerMaskStatic_Enum_3_BA21CC391326FDD3_TypeDefinitionIndex = 45669;
+	inline static constexpr unsigned int LayerMaskStatic_Enum_3_BA21CC391326FDD3_TypeDefinitionIndex = 88459;
 
 	enum class LayerMaskStatic_Enum_3_BA21CC391326FDD3 : ::System::Int32
 	{
+		BodyTrigger = 2,
+		FieldRange = 5,
 		HitboxTrigger = 1,
 		BulletReflect = 4,
-		BodyTrigger = 2,
-		ProtectShield = 3,
 		Empty = 0,
-		FieldRange = 5,
+		ProtectShield = 3,
 	};
 }

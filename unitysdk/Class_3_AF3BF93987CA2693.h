@@ -1,0 +1,74 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_2_CEC393DDA7BD65D6.h"
+#include "unitysdk/Enum_3_8664E76D40232F76.h"
+#include "unitysdk/Struct_2_5674E7B417F2830A_3.h"
+#include "unitysdk/Struct_2_96AF1FF555C6D2CD.h"
+
+class Class_1_EBE4EC615642D335;
+class Class_1_EDECBB3B4D362847;
+class Class_2_785FDC7D0DA58280;
+class Class_3_412776396A6B9A05_1;
+namespace MoleMole::Arcade::CompanionProject { class CpSkillEffectData; }
+namespace System { template <typename T1, typename T2, typename T3, typename T4> class Func_4; }
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define CLASS_3_AF3BF93987CA2693_METHOD_3_1077E7450CDA6BAB_OFFSET UNITYSDK_OFFSET(0x1E0A5B10)
+#define CLASS_3_AF3BF93987CA2693_METHOD_3_2685B6183E614529_OFFSET UNITYSDK_OFFSET(0x1E0A65C0)
+#define CLASS_3_AF3BF93987CA2693_METHOD_3_4408DD7C6603EFE5_OFFSET UNITYSDK_OFFSET(0x1E0A5D00)
+#define CLASS_3_AF3BF93987CA2693_METHOD_3_5022DB1DC5AA8CB4_OFFSET UNITYSDK_OFFSET(0x1E0A5BF0)
+#define CLASS_3_AF3BF93987CA2693_METHOD_3_80E865940D51EC54_OFFSET UNITYSDK_OFFSET(0x1E0A6340)
+#define CLASS_3_AF3BF93987CA2693_METHOD_3_E9A575D18A0748D9_1_OFFSET UNITYSDK_OFFSET(0x1E0A6530)
+#define CLASS_3_AF3BF93987CA2693_METHOD_3_E9A575D18A0748D9_OFFSET UNITYSDK_OFFSET(0x1E0A62B0)
+#define CLASS_3_AF3BF93987CA2693__CTOR_OFFSET UNITYSDK_OFFSET(0x1E0A6160)
+
+inline static constexpr unsigned int Class_3_AF3BF93987CA2693_TypeDefinitionIndex = 93174;
+
+class Class_3_AF3BF93987CA2693 : public ::Class_2_CEC393DDA7BD65D6
+{
+public:
+	::Class_3_412776396A6B9A05_1* Field_3_1; // 0x28
+	::System::Collections::Generic::List_1<::Class_1_EBE4EC615642D335*>* Field_3_7; // 0x30
+	::System::Collections::Generic::Dictionary_2<::Enum_3_8664E76D40232F76, ::System::Func_4<::Class_2_785FDC7D0DA58280*, ::MoleMole::Arcade::CompanionProject::CpSkillEffectData*, ::Struct_2_96AF1FF555C6D2CD, ::Class_1_EBE4EC615642D335*>*>* Field_3_0; // 0x38
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_AF3BF93987CA2693__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_3_1077E7450CDA6BAB(::Class_1_EDECBB3B4D362847* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_EDECBB3B4D362847*))((::PBYTE)hIl2Cpp + CLASS_3_AF3BF93987CA2693_METHOD_3_1077E7450CDA6BAB_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_3_5022DB1DC5AA8CB4(::Class_1_EDECBB3B4D362847* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_EDECBB3B4D362847*))((::PBYTE)hIl2Cpp + CLASS_3_AF3BF93987CA2693_METHOD_3_5022DB1DC5AA8CB4_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_3_4408DD7C6603EFE5(::System::Single a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_3_AF3BF93987CA2693_METHOD_3_4408DD7C6603EFE5_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_3_E9A575D18A0748D9(::Class_1_EDECBB3B4D362847* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_EDECBB3B4D362847*))((::PBYTE)hIl2Cpp + CLASS_3_AF3BF93987CA2693_METHOD_3_E9A575D18A0748D9_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_3_80E865940D51EC54(::Struct_2_5674E7B417F2830A_3<::MoleMole::Arcade::CompanionProject::CpSkillEffectData*, ::Struct_2_96AF1FF555C6D2CD> a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Struct_2_5674E7B417F2830A_3<::MoleMole::Arcade::CompanionProject::CpSkillEffectData*, ::Struct_2_96AF1FF555C6D2CD>))((::PBYTE)hIl2Cpp + CLASS_3_AF3BF93987CA2693_METHOD_3_80E865940D51EC54_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_3_E9A575D18A0748D9_1(::Class_1_EDECBB3B4D362847* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_EDECBB3B4D362847*))((::PBYTE)hIl2Cpp + CLASS_3_AF3BF93987CA2693_METHOD_3_E9A575D18A0748D9_1_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_3_2685B6183E614529(::System::Single a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_3_AF3BF93987CA2693_METHOD_3_2685B6183E614529_OFFSET))(this, a1);
+	}
+};

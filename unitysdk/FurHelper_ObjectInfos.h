@@ -1,13 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
+#include "unitysdk/UnityEngine/Matrix4x4.h"
 
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Mesh; }
 namespace UnityEngine { class Renderer; }
 
-inline static constexpr unsigned int FurHelper_ObjectInfos_TypeDefinitionIndex = 26938;
+inline static constexpr unsigned int FurHelper_ObjectInfos_TypeDefinitionIndex = 27704;
 
 struct alignas(8) FurHelper_ObjectInfos
 {
@@ -18,5 +19,6 @@ struct alignas(8) FurHelper_ObjectInfos
 	::UnityEngine::Material* furMat; // 0x30
 	::System::Int32 furMatIdx; // 0x38
 	::System::Single distanceToCamera; // 0x3C
-	::System::Single LOD; // 0x40
+	::UnityEngine::Matrix4x4 localToWorldMatrix; // 0x40
+	::System::Boolean isOddScale; // 0x80
 };

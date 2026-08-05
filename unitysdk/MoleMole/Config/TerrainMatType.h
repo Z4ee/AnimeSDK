@@ -3,17 +3,17 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int TerrainMatType_TypeDefinitionIndex = 41414;
+	inline static constexpr unsigned int TerrainMatType_TypeDefinitionIndex = 89616;
 
 	enum class TerrainMatType : ::System::Int32
 	{
-		Grass = 1,
-		Sand = 2,
-		Metal = 5,
 		Carpet = 6,
-		Water = 3,
+		Sand = 2,
+		Grass = 1,
 		Default = -1,
-		Wood = 4,
 		Concrete = 0,
+		Water = 3,
+		Metal = 5,
+		Wood = 4,
 	};
 }

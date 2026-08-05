@@ -6,24 +6,24 @@
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define UNITYENGINE_INPUTSYSTEM_INPUTCONTROLPATH___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D8DB220)
-#define UNITYENGINE_INPUTSYSTEM_INPUTCONTROLPATH___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8DB260)
-#define UNITYENGINE_INPUTSYSTEM_INPUTCONTROLPATH___C__TRYGETDEVICEUSAGES_B__9_0_OFFSET UNITYSDK_OFFSET(0x1D8DB270)
+#define UNITYENGINE_INPUTSYSTEM_INPUTCONTROLPATH___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EC48790)
+#define UNITYENGINE_INPUTSYSTEM_INPUTCONTROLPATH___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC487D0)
+#define UNITYENGINE_INPUTSYSTEM_INPUTCONTROLPATH___C__TRYGETDEVICEUSAGES_B__9_0_OFFSET UNITYSDK_OFFSET(0x1EC487E0)
 
 namespace UnityEngine::InputSystem
 {
-	inline static constexpr unsigned int InputControlPath___c_TypeDefinitionIndex = 31623;
+	inline static constexpr unsigned int InputControlPath___c_TypeDefinitionIndex = 32243;
 
 	class InputControlPath___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::UnityEngine::InputSystem::Utilities::Substring, ::System::String*>** StaticGet___9__9_0()
 		{
-			return (::System::Func_2<::UnityEngine::InputSystem::Utilities::Substring, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(InputControlPath___c_TypeDefinitionIndex)->GetStaticField(0x261D0);
+			return (::System::Func_2<::UnityEngine::InputSystem::Utilities::Substring, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(InputControlPath___c_TypeDefinitionIndex)->GetStaticField(0x27950);
 		}
 		static ::UnityEngine::InputSystem::InputControlPath___c** StaticGet___9()
 		{
-			return (::UnityEngine::InputSystem::InputControlPath___c**)Il2CppClass::FromTypeDefinitionIndex(InputControlPath___c_TypeDefinitionIndex)->GetStaticField(0x261D8);
+			return (::UnityEngine::InputSystem::InputControlPath___c**)Il2CppClass::FromTypeDefinitionIndex(InputControlPath___c_TypeDefinitionIndex)->GetStaticField(0x27958);
 		}
 
 		static ::System::Void _cctor()

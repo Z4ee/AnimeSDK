@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int StyleSelectorRelationship_TypeDefinitionIndex = 27600;
+	inline static constexpr unsigned int StyleSelectorRelationship_TypeDefinitionIndex = 28202;
 
 	enum class StyleSelectorRelationship : ::System::Int32
 	{

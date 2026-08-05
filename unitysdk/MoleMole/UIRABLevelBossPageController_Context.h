@@ -3,19 +3,19 @@
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 #include "unitysdk/MoleMole/UIRABLevelBossPageController_EOnUIOpenSelectType.h"
 
-#define MOLEMOLE_UIRABLEVELBOSSPAGECONTROLLER_CONTEXT_APPLYJUMPPARAS_OFFSET UNITYSDK_OFFSET(0x15F2CEF0)
-#define MOLEMOLE_UIRABLEVELBOSSPAGECONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15F2CF90)
-#define MOLEMOLE_UIRABLEVELBOSSPAGECONTROLLER_CONTEXT___BASE_APPLYJUMPPARAS_OFFSET UNITYSDK_OFFSET(0x15F2CFF0)
+#define MOLEMOLE_UIRABLEVELBOSSPAGECONTROLLER_CONTEXT_APPLYJUMPPARAS_OFFSET UNITYSDK_OFFSET(0x12FF6840)
+#define MOLEMOLE_UIRABLEVELBOSSPAGECONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x12FF68E0)
+#define MOLEMOLE_UIRABLEVELBOSSPAGECONTROLLER_CONTEXT___BASE_APPLYJUMPPARAS_OFFSET UNITYSDK_OFFSET(0x12FF6940)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRABLevelBossPageController_Context_TypeDefinitionIndex = 40044;
+	inline static constexpr unsigned int UIRABLevelBossPageController_Context_TypeDefinitionIndex = 61938;
 
 	class UIRABLevelBossPageController_Context : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::MoleMole::UIRABLevelBossPageController_EOnUIOpenSelectType selectType; // 0x28
-		::System::Int32 selectBossID; // 0x2C
+		::System::Int32 selectBossID; // 0x28
+		::MoleMole::UIRABLevelBossPageController_EOnUIOpenSelectType selectType; // 0x2C
 
 		::System::Void _ctor()
 		{

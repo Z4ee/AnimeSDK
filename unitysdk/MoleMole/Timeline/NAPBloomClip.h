@@ -8,13 +8,13 @@
 namespace MoleMole::Timeline { class NAPBloomBehaviour; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_TIMELINE_NAPBLOOMCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x126643F0)
-#define MOLEMOLE_TIMELINE_NAPBLOOMCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x126643E0)
-#define MOLEMOLE_TIMELINE_NAPBLOOMCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x126645D0)
+#define MOLEMOLE_TIMELINE_NAPBLOOMCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1891CBC0)
+#define MOLEMOLE_TIMELINE_NAPBLOOMCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1891CBB0)
+#define MOLEMOLE_TIMELINE_NAPBLOOMCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1891CDA0)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int NAPBloomClip_TypeDefinitionIndex = 87029;
+	inline static constexpr unsigned int NAPBloomClip_TypeDefinitionIndex = 79987;
 
 	class NAPBloomClip : public ::UnityEngine::Playables::PlayableAsset
 	{

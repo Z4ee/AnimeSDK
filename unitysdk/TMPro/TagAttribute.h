@@ -4,7 +4,7 @@
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TagAttribute_TypeDefinitionIndex = 39247;
+	inline static constexpr unsigned int TagAttribute_TypeDefinitionIndex = 39913;
 
 	struct alignas(4) TagAttribute
 	{

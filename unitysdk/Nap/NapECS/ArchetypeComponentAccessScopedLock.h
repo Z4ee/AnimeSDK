@@ -4,12 +4,12 @@
 
 namespace Nap::NapECS { class EcsWorld; }
 
-#define NAP_NAPECS_ARCHETYPECOMPONENTACCESSSCOPEDLOCK_CREATE_OFFSET UNITYSDK_OFFSET(0x1B2E0790)
-#define NAP_NAPECS_ARCHETYPECOMPONENTACCESSSCOPEDLOCK_DISPOSE_OFFSET UNITYSDK_OFFSET(0x90C610)
+#define NAP_NAPECS_ARCHETYPECOMPONENTACCESSSCOPEDLOCK_CREATE_OFFSET UNITYSDK_OFFSET(0x1C82F010)
+#define NAP_NAPECS_ARCHETYPECOMPONENTACCESSSCOPEDLOCK_DISPOSE_OFFSET UNITYSDK_OFFSET(0x95AD80)
 
 namespace Nap::NapECS
 {
-	inline static constexpr unsigned int ArchetypeComponentAccessScopedLock_TypeDefinitionIndex = 37313;
+	inline static constexpr unsigned int ArchetypeComponentAccessScopedLock_TypeDefinitionIndex = 38014;
 
 	struct alignas(1) ArchetypeComponentAccessScopedLock
 	{

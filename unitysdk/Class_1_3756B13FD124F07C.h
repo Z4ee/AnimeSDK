@@ -1,0 +1,39 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Enum_3_13256E311AF13FFD.h"
+#include "unitysdk/Struct_2_B679E4D914A10080_2.h"
+#include "unitysdk/System/Object.h"
+
+class Class_0_16E4307DCC419505_424;
+namespace MoleMole::Battle { class Entity; }
+
+#define CLASS_1_3756B13FD124F07C_METHOD_1_87B67CD1024DBA76_OFFSET UNITYSDK_OFFSET(0x117CC3D0)
+#define CLASS_1_3756B13FD124F07C_METHOD_1_C74CF020AA42ED85_OFFSET UNITYSDK_OFFSET(0x117CC100)
+#define CLASS_1_3756B13FD124F07C_METHOD_1_F77D06DA5F30DD1F_OFFSET UNITYSDK_OFFSET(0x117CC110)
+#define CLASS_1_3756B13FD124F07C__CTOR_OFFSET UNITYSDK_OFFSET(0x117CC760)
+
+inline static constexpr unsigned int Class_1_3756B13FD124F07C_TypeDefinitionIndex = 85766;
+
+class Class_1_3756B13FD124F07C : public ::System::Object
+{
+public:
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_3756B13FD124F07C__CTOR_OFFSET))(this);
+	}
+
+	::System::Int32 Method_1_C74CF020AA42ED85()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_3756B13FD124F07C_METHOD_1_C74CF020AA42ED85_OFFSET))(this);
+	}
+
+	::Enum_3_13256E311AF13FFD Method_1_F77D06DA5F30DD1F(::MoleMole::Battle::Entity* a1, ::Struct_2_B679E4D914A10080_2 a2, ::Class_0_16E4307DCC419505_424* a3)
+	{
+		return ((::Enum_3_13256E311AF13FFD(*)(::PVOID, ::MoleMole::Battle::Entity*, ::Struct_2_B679E4D914A10080_2, ::Class_0_16E4307DCC419505_424*))((::PBYTE)hIl2Cpp + CLASS_1_3756B13FD124F07C_METHOD_1_F77D06DA5F30DD1F_OFFSET))(this, a1, a2, a3);
+	}
+
+	::Enum_3_13256E311AF13FFD Method_1_87B67CD1024DBA76(::MoleMole::Battle::Entity* a1, ::Struct_2_B679E4D914A10080_2 a2, ::Class_0_16E4307DCC419505_424* a3)
+	{
+		return ((::Enum_3_13256E311AF13FFD(*)(::PVOID, ::MoleMole::Battle::Entity*, ::Struct_2_B679E4D914A10080_2, ::Class_0_16E4307DCC419505_424*))((::PBYTE)hIl2Cpp + CLASS_1_3756B13FD124F07C_METHOD_1_87B67CD1024DBA76_OFFSET))(this, a1, a2, a3);
+	}
+};

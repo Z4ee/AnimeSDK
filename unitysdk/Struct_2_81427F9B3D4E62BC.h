@@ -5,12 +5,12 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-inline static constexpr unsigned int Struct_2_81427F9B3D4E62BC_TypeDefinitionIndex = 80931;
+inline static constexpr unsigned int Struct_2_81427F9B3D4E62BC_TypeDefinitionIndex = 86189;
 
 struct alignas(4) Struct_2_81427F9B3D4E62BC
 {
-	::UnityEngine::Vector3 Field_2_0; // 0x10
+	::UnityEngine::Vector3 Field_2_2; // 0x10
 	::UnityEngine::Quaternion Field_2_1; // 0x1C
-	::UnityEngine::Vector3 Field_2_2; // 0x2C
-	::UnityEngine::Bounds Field_2_3; // 0x38
+	::UnityEngine::Vector3 Field_2_0; // 0x2C
+	::UnityEngine::Bounds Field_2_7; // 0x38
 };

@@ -4,7 +4,7 @@
 
 namespace NPCCrowd::Lod
 {
-	inline static constexpr unsigned int LodLevelOverrideEntry_TypeDefinitionIndex = 60669;
+	inline static constexpr unsigned int LodLevelOverrideEntry_TypeDefinitionIndex = 79943;
 
 	struct alignas(4) LodLevelOverrideEntry
 	{

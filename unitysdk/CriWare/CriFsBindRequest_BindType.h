@@ -3,7 +3,7 @@
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriFsBindRequest_BindType_TypeDefinitionIndex = 34320;
+	inline static constexpr unsigned int CriFsBindRequest_BindType_TypeDefinitionIndex = 34968;
 
 	enum class CriFsBindRequest_BindType : ::System::Int32
 	{

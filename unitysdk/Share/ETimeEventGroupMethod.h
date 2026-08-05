@@ -3,11 +3,11 @@
 
 namespace Share
 {
-	inline static constexpr unsigned int ETimeEventGroupMethod_TypeDefinitionIndex = 10741;
+	inline static constexpr unsigned int ETimeEventGroupMethod_TypeDefinitionIndex = 10123;
 
 	enum class ETimeEventGroupMethod : ::System::Int16
 	{
-		AllOfEvent = 1,
 		RandomEvent = 0,
+		AllOfEvent = 1,
 	};
 }

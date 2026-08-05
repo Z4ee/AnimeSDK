@@ -9,7 +9,7 @@ namespace System { class Object; }
 
 namespace NPCCrowd::Jobs
 {
-	inline static constexpr unsigned int IChunkJobParallelForExtensions_ParallelForJobStruct_1_ExecuteJobFunction_TypeDefinitionIndex = 8560;
+	inline static constexpr unsigned int IChunkJobParallelForExtensions_ParallelForJobStruct_1_ExecuteJobFunction_TypeDefinitionIndex = 8509;
 
 	template <typename T>
 	class IChunkJobParallelForExtensions_ParallelForJobStruct_1_ExecuteJobFunction : public ::System::MulticastDelegate

@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CameraShotData_ShotAttachOffsetData_TypeDefinitionIndex = 84621;
+	inline static constexpr unsigned int CameraShotData_ShotAttachOffsetData_TypeDefinitionIndex = 62605;
 
 	struct alignas(8) CameraShotData_ShotAttachOffsetData
 	{

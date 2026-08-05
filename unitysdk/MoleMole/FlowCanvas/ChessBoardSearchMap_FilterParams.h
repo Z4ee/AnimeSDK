@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int ChessBoardSearchMap_FilterParams_TypeDefinitionIndex = 85067;
+	inline static constexpr unsigned int ChessBoardSearchMap_FilterParams_TypeDefinitionIndex = 46382;
 
 	struct alignas(8) ChessBoardSearchMap_FilterParams
 	{

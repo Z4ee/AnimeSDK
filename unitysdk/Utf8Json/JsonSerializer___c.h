@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define UTF8JSON_JSONSERIALIZER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E510620)
-#define UTF8JSON_JSONSERIALIZER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1E510660)
-#define UTF8JSON_JSONSERIALIZER___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E510670)
+#define UTF8JSON_JSONSERIALIZER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F9151A0)
+#define UTF8JSON_JSONSERIALIZER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1F9151E0)
+#define UTF8JSON_JSONSERIALIZER___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1F9151F0)
 
 namespace Utf8Json
 {
-	inline static constexpr unsigned int JsonSerializer___c_TypeDefinitionIndex = 91089;
+	inline static constexpr unsigned int JsonSerializer___c_TypeDefinitionIndex = 95022;
 
 	class JsonSerializer___c : public ::System::Object
 	{
 	public:
 		static ::Utf8Json::JsonSerializer___c** StaticGet___9()
 		{
-			return (::Utf8Json::JsonSerializer___c**)Il2CppClass::FromTypeDefinitionIndex(JsonSerializer___c_TypeDefinitionIndex)->GetStaticField(0x4F0E0);
+			return (::Utf8Json::JsonSerializer___c**)Il2CppClass::FromTypeDefinitionIndex(JsonSerializer___c_TypeDefinitionIndex)->GetStaticField(0x53290);
 		}
 
 		static ::System::Void _cctor()

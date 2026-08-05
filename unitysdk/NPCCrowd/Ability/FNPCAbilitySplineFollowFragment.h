@@ -4,7 +4,7 @@
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int FNPCAbilitySplineFollowFragment_TypeDefinitionIndex = 83820;
+	inline static constexpr unsigned int FNPCAbilitySplineFollowFragment_TypeDefinitionIndex = 46074;
 
 	struct alignas(4) FNPCAbilitySplineFollowFragment
 	{

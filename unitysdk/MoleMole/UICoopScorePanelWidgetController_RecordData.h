@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICoopScorePanelWidgetController_RecordData_TypeDefinitionIndex = 39784;
+	inline static constexpr unsigned int UICoopScorePanelWidgetController_RecordData_TypeDefinitionIndex = 66233;
 
 	struct alignas(8) UICoopScorePanelWidgetController_RecordData
 	{

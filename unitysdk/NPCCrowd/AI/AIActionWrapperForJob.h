@@ -5,7 +5,7 @@
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int AIActionWrapperForJob_TypeDefinitionIndex = 40113;
+	inline static constexpr unsigned int AIActionWrapperForJob_TypeDefinitionIndex = 89834;
 
 	struct alignas(8) AIActionWrapperForJob
 	{

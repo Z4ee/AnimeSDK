@@ -1,0 +1,93 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/MoleMole/UIWidgetController.h"
+
+class Class_2_36865368388A1C3B;
+namespace MoleMole { class UIControlReference; }
+namespace MoleMole { class UINewbieGuideRoleItemWidgetController_Data; }
+namespace System { class Object; }
+
+#define MOLEMOLE_UINEWBIEGUIDEROLEITEMWIDGETCONTROLLER_ONBTNCLICK_OFFSET UNITYSDK_OFFSET(0x17A04F30)
+#define MOLEMOLE_UINEWBIEGUIDEROLEITEMWIDGETCONTROLLER_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x17A046C0)
+#define MOLEMOLE_UINEWBIEGUIDEROLEITEMWIDGETCONTROLLER_ONSETDATA_OFFSET UNITYSDK_OFFSET(0x17A047D0)
+#define MOLEMOLE_UINEWBIEGUIDEROLEITEMWIDGETCONTROLLER_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x17A04750)
+#define MOLEMOLE_UINEWBIEGUIDEROLEITEMWIDGETCONTROLLER_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x17A04560)
+#define MOLEMOLE_UINEWBIEGUIDEROLEITEMWIDGETCONTROLLER_REFRESHVIEW_OFFSET UNITYSDK_OFFSET(0x17A04890)
+#define MOLEMOLE_UINEWBIEGUIDEROLEITEMWIDGETCONTROLLER_SETSELECTED_OFFSET UNITYSDK_OFFSET(0x17A04E10)
+#define MOLEMOLE_UINEWBIEGUIDEROLEITEMWIDGETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x17A04FC0)
+#define MOLEMOLE_UINEWBIEGUIDEROLEITEMWIDGETCONTROLLER___BASE_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x17A05020)
+#define MOLEMOLE_UINEWBIEGUIDEROLEITEMWIDGETCONTROLLER___BASE_ONSETDATA_OFFSET UNITYSDK_OFFSET(0x17A050B0)
+#define MOLEMOLE_UINEWBIEGUIDEROLEITEMWIDGETCONTROLLER___BASE_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x17A05140)
+#define MOLEMOLE_UINEWBIEGUIDEROLEITEMWIDGETCONTROLLER___BASE_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x17A051D0)
+
+namespace MoleMole
+{
+	inline static constexpr unsigned int UINewbieGuideRoleItemWidgetController_TypeDefinitionIndex = 41856;
+
+	class UINewbieGuideRoleItemWidgetController : public ::MoleMole::UIWidgetController
+	{
+	public:
+		::Class_2_36865368388A1C3B* _view; // 0x2C0
+		::MoleMole::UINewbieGuideRoleItemWidgetController_Data* _data; // 0x2C8
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UINEWBIEGUIDEROLEITEMWIDGETCONTROLLER__CTOR_OFFSET))(this);
+		}
+
+		::System::Void OnUIInit()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UINEWBIEGUIDEROLEITEMWIDGETCONTROLLER_ONUIINIT_OFFSET))(this);
+		}
+
+		::System::Void OnCreateView(::MoleMole::UIControlReference* controlReference)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UINEWBIEGUIDEROLEITEMWIDGETCONTROLLER_ONCREATEVIEW_OFFSET))(this, controlReference);
+		}
+
+		::System::Void OnUIDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UINEWBIEGUIDEROLEITEMWIDGETCONTROLLER_ONUIDESTROY_OFFSET))(this);
+		}
+
+		::System::Void OnSetData(::System::Object* data)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_UINEWBIEGUIDEROLEITEMWIDGETCONTROLLER_ONSETDATA_OFFSET))(this, data);
+		}
+
+		::System::Void RefreshView()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UINEWBIEGUIDEROLEITEMWIDGETCONTROLLER_REFRESHVIEW_OFFSET))(this);
+		}
+
+		::System::Void SetSelected(::System::Boolean isSelected)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UINEWBIEGUIDEROLEITEMWIDGETCONTROLLER_SETSELECTED_OFFSET))(this, isSelected);
+		}
+
+		::System::Void OnBtnClick()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UINEWBIEGUIDEROLEITEMWIDGETCONTROLLER_ONBTNCLICK_OFFSET))(this);
+		}
+
+		::System::Void __base_OnCreateView(::MoleMole::UIControlReference* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UINEWBIEGUIDEROLEITEMWIDGETCONTROLLER___BASE_ONCREATEVIEW_OFFSET))(this, P0);
+		}
+
+		::System::Void __base_OnSetData(::System::Object* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_UINEWBIEGUIDEROLEITEMWIDGETCONTROLLER___BASE_ONSETDATA_OFFSET))(this, P0);
+		}
+
+		::System::Void __base_OnUIDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UINEWBIEGUIDEROLEITEMWIDGETCONTROLLER___BASE_ONUIDESTROY_OFFSET))(this);
+		}
+
+		::System::Void __base_OnUIInit()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UINEWBIEGUIDEROLEITEMWIDGETCONTROLLER___BASE_ONUIINIT_OFFSET))(this);
+		}
+	};
+}

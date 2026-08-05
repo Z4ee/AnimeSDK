@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define UNILABS_UTILITIES_MATHEXTENSIONS_POSITIVEMODULO_1_OFFSET UNITYSDK_OFFSET(0x1E7DA410)
-#define UNILABS_UTILITIES_MATHEXTENSIONS_POSITIVEMODULO_OFFSET UNITYSDK_OFFSET(0x1E7DA3F0)
+#define UNILABS_UTILITIES_MATHEXTENSIONS_POSITIVEMODULO_1_OFFSET UNITYSDK_OFFSET(0x1FBBB2F0)
+#define UNILABS_UTILITIES_MATHEXTENSIONS_POSITIVEMODULO_OFFSET UNITYSDK_OFFSET(0x1FBBB2D0)
 
 namespace UniLabs::Utilities
 {
-	inline static constexpr unsigned int MathExtensions_TypeDefinitionIndex = 91394;
+	inline static constexpr unsigned int MathExtensions_TypeDefinitionIndex = 95327;
 
 	class MathExtensions : public ::System::Object
 	{

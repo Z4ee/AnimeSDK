@@ -4,11 +4,11 @@
 
 class Class_1_98DE5B0AA67D49FB;
 
-#define MOLEMOLE_GENERALBUFFDIALOGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x10D4D7B0)
+#define MOLEMOLE_GENERALBUFFDIALOGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16857320)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int GeneralBuffDialogContext_TypeDefinitionIndex = 49830;
+	inline static constexpr unsigned int GeneralBuffDialogContext_TypeDefinitionIndex = 50986;
 
 	class GeneralBuffDialogContext : public ::MoleMole::UIControllerContextBase
 	{

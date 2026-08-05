@@ -5,17 +5,17 @@
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define CONFIGTEXTURESHEETDATA___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1268A670)
-#define CONFIGTEXTURESHEETDATA___C__DISPLAYCLASS3_0__RELOADFROMFILEASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x1268A680)
+#define CONFIGTEXTURESHEETDATA___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x124F24C0)
+#define CONFIGTEXTURESHEETDATA___C__DISPLAYCLASS3_0__RELOADFROMFILEASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x124F24D0)
 
-inline static constexpr unsigned int ConfigTextureSheetData___c__DisplayClass3_0_TypeDefinitionIndex = 62961;
+inline static constexpr unsigned int ConfigTextureSheetData___c__DisplayClass3_0_TypeDefinitionIndex = 72803;
 
 class ConfigTextureSheetData___c__DisplayClass3_0 : public ::System::Object
 {
 public:
-	::System::Action_1<::System::String*>* finishCallback; // 0x10
+	::System::String* dataName; // 0x10
 	::System::Action_1<::System::Single>* moveOneStepCallback; // 0x18
-	::System::String* dataName; // 0x20
+	::System::Action_1<::System::String*>* finishCallback; // 0x20
 	::System::Single progressSpan; // 0x28
 
 	::System::Void _ctor()

@@ -14,12 +14,12 @@ namespace System::Reflection { class MemberInfo; }
 namespace System::Reflection { class MethodInfo; }
 namespace System::Reflection { class PropertyInfo; }
 
-#define MESSAGEPACK_INTERNAL_EXPRESSIONUTILITY_GETMETHODINFOCORE_OFFSET UNITYSDK_OFFSET(0x1BC541E0)
-#define MESSAGEPACK_INTERNAL_EXPRESSIONUTILITY_GETMETHODINFO_OFFSET UNITYSDK_OFFSET(0x1BC54280)
+#define MESSAGEPACK_INTERNAL_EXPRESSIONUTILITY_GETMETHODINFOCORE_OFFSET UNITYSDK_OFFSET(0x1DB2BB00)
+#define MESSAGEPACK_INTERNAL_EXPRESSIONUTILITY_GETMETHODINFO_OFFSET UNITYSDK_OFFSET(0x1DB2BBA0)
 
 namespace MessagePack::Internal
 {
-	inline static constexpr unsigned int ExpressionUtility_TypeDefinitionIndex = 29320;
+	inline static constexpr unsigned int ExpressionUtility_TypeDefinitionIndex = 29810;
 
 	class ExpressionUtility : public ::System::Object
 	{

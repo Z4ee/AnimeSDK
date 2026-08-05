@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define TESTPLAYSOUND__CTOR_OFFSET UNITYSDK_OFFSET(0x1A516070)
+#define TESTPLAYSOUND__CTOR_OFFSET UNITYSDK_OFFSET(0x1DE8E350)
 
-inline static constexpr unsigned int TestPlaySound_TypeDefinitionIndex = 62898;
+inline static constexpr unsigned int TestPlaySound_TypeDefinitionIndex = 48496;
 
 class TestPlaySound : public ::UnityEngine::MonoBehaviour
 {

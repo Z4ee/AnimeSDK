@@ -1,0 +1,47 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_8D5FFC93C8348BAE;
+class Class_3_01E03BF53558728A;
+class Class_3_848BA58F81F05F34;
+class Class_3_848BA58F81F05F34_1;
+namespace System { class String; }
+
+#define CLASS_1_8D5FFC93C8348BAE_CLASS_1_2065B0D6031530EA_METHOD_1_773955B55AFEDAFF_OFFSET UNITYSDK_OFFSET(0x17844580)
+#define CLASS_1_8D5FFC93C8348BAE_CLASS_1_2065B0D6031530EA_METHOD_1_7DA9F041C9A4F57E_OFFSET UNITYSDK_OFFSET(0x178443C0)
+#define CLASS_1_8D5FFC93C8348BAE_CLASS_1_2065B0D6031530EA_METHOD_1_C95CD1E82F14102B_OFFSET UNITYSDK_OFFSET(0x17844420)
+#define CLASS_1_8D5FFC93C8348BAE_CLASS_1_2065B0D6031530EA__CTOR_OFFSET UNITYSDK_OFFSET(0x178443B0)
+
+inline static constexpr unsigned int Class_1_8D5FFC93C8348BAE_Class_1_2065B0D6031530EA_TypeDefinitionIndex = 78722;
+
+class Class_1_8D5FFC93C8348BAE_Class_1_2065B0D6031530EA : public ::System::Object
+{
+public:
+	::Class_3_848BA58F81F05F34* Field_1_5; // 0x10
+	::Class_1_8D5FFC93C8348BAE* Field_1_0; // 0x18
+	::Class_3_848BA58F81F05F34_1* Field_1_11; // 0x20
+	::System::String* Field_1_6; // 0x28
+	::Class_3_01E03BF53558728A* Field_1_4; // 0x30
+	::System::Single Field_1_7; // 0x38
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_8D5FFC93C8348BAE_CLASS_1_2065B0D6031530EA__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_1_7DA9F041C9A4F57E(::System::UInt32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_8D5FFC93C8348BAE_CLASS_1_2065B0D6031530EA_METHOD_1_7DA9F041C9A4F57E_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_C95CD1E82F14102B(::System::UInt32 a1, ::System::UInt32 a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_8D5FFC93C8348BAE_CLASS_1_2065B0D6031530EA_METHOD_1_C95CD1E82F14102B_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_1_773955B55AFEDAFF(::System::UInt32 a1, ::System::UInt32 a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_8D5FFC93C8348BAE_CLASS_1_2065B0D6031530EA_METHOD_1_773955B55AFEDAFF_OFFSET))(this, a1, a2);
+	}
+};

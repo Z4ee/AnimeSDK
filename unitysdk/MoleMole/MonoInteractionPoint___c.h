@@ -6,24 +6,24 @@
 namespace MoleMole { class InteractionPoint; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define MOLEMOLE_MONOINTERACTIONPOINT___C_METHOD_1_E6A3DB74FD95A566_OFFSET UNITYSDK_OFFSET(0x17DD6410)
-#define MOLEMOLE_MONOINTERACTIONPOINT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17DD63C0)
-#define MOLEMOLE_MONOINTERACTIONPOINT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17DD6400)
+#define MOLEMOLE_MONOINTERACTIONPOINT___C_METHOD_1_E6A3DB74FD95A566_OFFSET UNITYSDK_OFFSET(0x1909ABE0)
+#define MOLEMOLE_MONOINTERACTIONPOINT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1909AB90)
+#define MOLEMOLE_MONOINTERACTIONPOINT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1909ABD0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoInteractionPoint___c_TypeDefinitionIndex = 55624;
+	inline static constexpr unsigned int MonoInteractionPoint___c_TypeDefinitionIndex = 66401;
 
 	class MonoInteractionPoint___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::System::ValueTuple_2<::MoleMole::InteractionPoint*, ::System::Single>>** StaticGet___9__5_0()
-		{
-			return (::System::Comparison_1<::System::ValueTuple_2<::MoleMole::InteractionPoint*, ::System::Single>>**)Il2CppClass::FromTypeDefinitionIndex(MonoInteractionPoint___c_TypeDefinitionIndex)->GetStaticField(0x44EB0);
-		}
 		static ::MoleMole::MonoInteractionPoint___c** StaticGet___9()
 		{
-			return (::MoleMole::MonoInteractionPoint___c**)Il2CppClass::FromTypeDefinitionIndex(MonoInteractionPoint___c_TypeDefinitionIndex)->GetStaticField(0x44EB8);
+			return (::MoleMole::MonoInteractionPoint___c**)Il2CppClass::FromTypeDefinitionIndex(MonoInteractionPoint___c_TypeDefinitionIndex)->GetStaticField(0x48E60);
+		}
+		static ::System::Comparison_1<::System::ValueTuple_2<::MoleMole::InteractionPoint*, ::System::Single>>** StaticGet___9__5_0()
+		{
+			return (::System::Comparison_1<::System::ValueTuple_2<::MoleMole::InteractionPoint*, ::System::Single>>**)Il2CppClass::FromTypeDefinitionIndex(MonoInteractionPoint___c_TypeDefinitionIndex)->GetStaticField(0x48E68);
 		}
 
 		static ::System::Void _cctor()

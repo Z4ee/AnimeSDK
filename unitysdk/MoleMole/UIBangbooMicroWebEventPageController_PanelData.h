@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIBANGBOOMICROWEBEVENTPAGECONTROLLER_PANELDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x17600970)
+#define MOLEMOLE_UIBANGBOOMICROWEBEVENTPAGECONTROLLER_PANELDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18E3DE70)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBangbooMicroWebEventPageController_PanelData_TypeDefinitionIndex = 72538;
+	inline static constexpr unsigned int UIBangbooMicroWebEventPageController_PanelData_TypeDefinitionIndex = 72584;
 
 	class UIBangbooMicroWebEventPageController_PanelData : public ::MoleMole::UIControllerContextBase
 	{

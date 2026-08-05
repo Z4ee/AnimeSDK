@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define UNITYENGINE_MHYSECURITY_DECRYPTBUFFER_OFFSET UNITYSDK_OFFSET(0x1E890B80)
+#define UNITYENGINE_MHYSECURITY_DECRYPTBUFFER_OFFSET UNITYSDK_OFFSET(0x1FC6FA10)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int MhySecurity_TypeDefinitionIndex = 39294;
+	inline static constexpr unsigned int MhySecurity_TypeDefinitionIndex = 39960;
 
 	class MhySecurity : public ::System::Object
 	{

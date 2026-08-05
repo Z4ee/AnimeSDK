@@ -9,28 +9,28 @@ namespace System::Collections::Generic { template <typename T> class Stack_1; }
 namespace UnityEngine { class Animator; }
 namespace UnityEngine { class GameObject; }
 
-#define CLASS_3_09C6D749A1B6BB3E_GETCLASSID_OFFSET UNITYSDK_OFFSET(0xB791CA0)
-#define CLASS_3_09C6D749A1B6BB3E_GET_SOUNDACTIONSOURCEHINT_OFFSET UNITYSDK_OFFSET(0xB791C80)
-#define CLASS_3_09C6D749A1B6BB3E_GET_SOUNDGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0xB791800)
-#define CLASS_3_09C6D749A1B6BB3E_METHOD_3_043C7D36DE4B7257_OFFSET UNITYSDK_OFFSET(0xB791FD0)
-#define CLASS_3_09C6D749A1B6BB3E_METHOD_3_A1D8CD775DEC3C21_OFFSET UNITYSDK_OFFSET(0xB791EC0)
-#define CLASS_3_09C6D749A1B6BB3E_METHOD_3_CCBE730AF445BBD4_OFFSET UNITYSDK_OFFSET(0xB791F50)
-#define CLASS_3_09C6D749A1B6BB3E_ONCLEAN_OFFSET UNITYSDK_OFFSET(0xB791420)
-#define CLASS_3_09C6D749A1B6BB3E__CCTOR_OFFSET UNITYSDK_OFFSET(0xB791CF0)
-#define CLASS_3_09C6D749A1B6BB3E__CTOR_OFFSET UNITYSDK_OFFSET(0xB791D70)
+#define CLASS_3_09C6D749A1B6BB3E_GETCLASSID_OFFSET UNITYSDK_OFFSET(0xF75AC80)
+#define CLASS_3_09C6D749A1B6BB3E_GET_SOUNDACTIONSOURCEHINT_OFFSET UNITYSDK_OFFSET(0xF75AC60)
+#define CLASS_3_09C6D749A1B6BB3E_GET_SOUNDGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0xF75A7E0)
+#define CLASS_3_09C6D749A1B6BB3E_METHOD_3_043C7D36DE4B7257_OFFSET UNITYSDK_OFFSET(0xF75AFB0)
+#define CLASS_3_09C6D749A1B6BB3E_METHOD_3_A1D8CD775DEC3C21_OFFSET UNITYSDK_OFFSET(0xF75AEA0)
+#define CLASS_3_09C6D749A1B6BB3E_METHOD_3_CCBE730AF445BBD4_OFFSET UNITYSDK_OFFSET(0xF75AF30)
+#define CLASS_3_09C6D749A1B6BB3E_ONCLEAN_OFFSET UNITYSDK_OFFSET(0xF75A400)
+#define CLASS_3_09C6D749A1B6BB3E__CCTOR_OFFSET UNITYSDK_OFFSET(0xF75ACD0)
+#define CLASS_3_09C6D749A1B6BB3E__CTOR_OFFSET UNITYSDK_OFFSET(0xF75AD50)
 
-inline static constexpr unsigned int Class_3_09C6D749A1B6BB3E_TypeDefinitionIndex = 80008;
+inline static constexpr unsigned int Class_3_09C6D749A1B6BB3E_TypeDefinitionIndex = 78808;
 
 class Class_3_09C6D749A1B6BB3E : public ::Class_2_F3CFF1AFF7EE7DCD
 {
 public:
-	// static const ::System::Int32 Field_3_6 = 0xA; // 0x0
-	::System::Collections::Generic::Queue_1<::UnityEngine::GameObject*>* Field_3_5; // 0x48
-	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::UnityEngine::GameObject*>* Field_3_2; // 0x50
-	::System::Collections::Generic::Stack_1<::UnityEngine::GameObject*>* Field_3_4; // 0x58
-	::UnityEngine::GameObject* Field_3_0; // 0x60
-	::System::String* Field_3_3; // 0x68
-	::System::Boolean Field_3_1; // 0x70
+	// static const ::System::Int32 Field_3_11 = 0xA; // 0x0
+	::System::Collections::Generic::Queue_1<::UnityEngine::GameObject*>* Field_3_4; // 0x48
+	::System::Collections::Generic::Stack_1<::UnityEngine::GameObject*>* Field_3_5; // 0x50
+	::UnityEngine::GameObject* Field_3_1; // 0x58
+	::System::String* Field_3_6; // 0x60
+	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::UnityEngine::GameObject*>* Field_3_7; // 0x68
+	::System::Boolean Field_3_0; // 0x70
 
 	static ::System::Void _cctor()
 	{

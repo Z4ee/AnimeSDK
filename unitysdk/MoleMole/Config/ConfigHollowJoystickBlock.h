@@ -4,12 +4,12 @@
 
 class Class_1_D72537470FC2F779;
 
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWJOYSTICKBLOCK_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x18F35F60)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWJOYSTICKBLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0x18F36020)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWJOYSTICKBLOCK_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x1625F4D0)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWJOYSTICKBLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0x1625F590)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowJoystickBlock_TypeDefinitionIndex = 87034;
+	inline static constexpr unsigned int ConfigHollowJoystickBlock_TypeDefinitionIndex = 58736;
 
 	class ConfigHollowJoystickBlock : public ::MoleMole::Config::ConfigUIBaseActionNode
 	{

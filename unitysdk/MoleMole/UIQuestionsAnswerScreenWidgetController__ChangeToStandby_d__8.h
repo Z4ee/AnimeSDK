@@ -8,12 +8,12 @@
 namespace MoleMole { class UIQuestionsAnswerScreenWidgetController; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define MOLEMOLE_UIQUESTIONSANSWERSCREENWIDGETCONTROLLER__CHANGETOSTANDBY_D__8_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x82EE40)
-#define MOLEMOLE_UIQUESTIONSANSWERSCREENWIDGETCONTROLLER__CHANGETOSTANDBY_D__8_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x283610)
+#define MOLEMOLE_UIQUESTIONSANSWERSCREENWIDGETCONTROLLER__CHANGETOSTANDBY_D__8_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x8824B0)
+#define MOLEMOLE_UIQUESTIONSANSWERSCREENWIDGETCONTROLLER__CHANGETOSTANDBY_D__8_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x296F30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIQuestionsAnswerScreenWidgetController__ChangeToStandby_d__8_TypeDefinitionIndex = 49063;
+	inline static constexpr unsigned int UIQuestionsAnswerScreenWidgetController__ChangeToStandby_d__8_TypeDefinitionIndex = 81796;
 
 	struct alignas(8) UIQuestionsAnswerScreenWidgetController__ChangeToStandby_d__8
 	{

@@ -5,7 +5,7 @@ namespace UnityEngine::EventSystems { class PointerEventData; }
 
 namespace UnityEngine::EventSystems
 {
-	inline static constexpr unsigned int IScrollHandler_TypeDefinitionIndex = 19031;
+	inline static constexpr unsigned int IScrollHandler_TypeDefinitionIndex = 19375;
 
 	class IScrollHandler
 	{

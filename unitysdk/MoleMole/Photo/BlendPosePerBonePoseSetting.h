@@ -5,11 +5,11 @@
 
 namespace MoleMole::Photo { class PlayableGraphFloatAttributeConfig; }
 
-#define MOLEMOLE_PHOTO_BLENDPOSEPERBONEPOSESETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x12BDA3E0)
+#define MOLEMOLE_PHOTO_BLENDPOSEPERBONEPOSESETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x138597A0)
 
 namespace MoleMole::Photo
 {
-	inline static constexpr unsigned int BlendPosePerBonePoseSetting_TypeDefinitionIndex = 41389;
+	inline static constexpr unsigned int BlendPosePerBonePoseSetting_TypeDefinitionIndex = 69772;
 
 	class BlendPosePerBonePoseSetting : public ::System::Object
 	{

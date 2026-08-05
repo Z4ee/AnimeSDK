@@ -5,11 +5,11 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CONFIG_CONFIGFOCUSCAMERAENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x17D565D0)
+#define MOLEMOLE_CONFIG_CONFIGFOCUSCAMERAENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x172A5790)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigFocusCameraEntry_TypeDefinitionIndex = 46287;
+	inline static constexpr unsigned int ConfigFocusCameraEntry_TypeDefinitionIndex = 54603;
 
 	class ConfigFocusCameraEntry : public ::System::Object
 	{

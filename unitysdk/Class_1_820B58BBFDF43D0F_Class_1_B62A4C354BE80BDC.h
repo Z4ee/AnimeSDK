@@ -8,10 +8,10 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define CLASS_1_820B58BBFDF43D0F_CLASS_1_B62A4C354BE80BDC_METHOD_1_2DE9F8AA012075ED_OFFSET UNITYSDK_OFFSET(0x131B7E50)
-#define CLASS_1_820B58BBFDF43D0F_CLASS_1_B62A4C354BE80BDC__CTOR_OFFSET UNITYSDK_OFFSET(0x131B7E40)
+#define CLASS_1_820B58BBFDF43D0F_CLASS_1_B62A4C354BE80BDC_METHOD_1_2DE9F8AA012075ED_OFFSET UNITYSDK_OFFSET(0x113C3520)
+#define CLASS_1_820B58BBFDF43D0F_CLASS_1_B62A4C354BE80BDC__CTOR_OFFSET UNITYSDK_OFFSET(0x113C3510)
 
-inline static constexpr unsigned int Class_1_820B58BBFDF43D0F_Class_1_B62A4C354BE80BDC_TypeDefinitionIndex = 40974;
+inline static constexpr unsigned int Class_1_820B58BBFDF43D0F_Class_1_B62A4C354BE80BDC_TypeDefinitionIndex = 58887;
 
 class Class_1_820B58BBFDF43D0F_Class_1_B62A4C354BE80BDC : public ::System::Object
 {

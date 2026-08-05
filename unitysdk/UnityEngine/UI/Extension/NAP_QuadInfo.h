@@ -5,7 +5,7 @@
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int NAP_QuadInfo_TypeDefinitionIndex = 62809;
+	inline static constexpr unsigned int NAP_QuadInfo_TypeDefinitionIndex = 84138;
 
 	struct alignas(4) NAP_QuadInfo
 	{

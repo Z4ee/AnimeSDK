@@ -4,9 +4,9 @@
 
 namespace System { class String; }
 
-#define SYSTEM_CODEDOM_COMPILER_GENERATEDCODEATTRIBUTE_GET_TOOL_OFFSET UNITYSDK_OFFSET(0x1D5C9F40)
-#define SYSTEM_CODEDOM_COMPILER_GENERATEDCODEATTRIBUTE_GET_VERSION_OFFSET UNITYSDK_OFFSET(0x1D5C9F50)
-#define SYSTEM_CODEDOM_COMPILER_GENERATEDCODEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5C9F30)
+#define SYSTEM_CODEDOM_COMPILER_GENERATEDCODEATTRIBUTE_GET_TOOL_OFFSET UNITYSDK_OFFSET(0x1E970600)
+#define SYSTEM_CODEDOM_COMPILER_GENERATEDCODEATTRIBUTE_GET_VERSION_OFFSET UNITYSDK_OFFSET(0x1E970610)
+#define SYSTEM_CODEDOM_COMPILER_GENERATEDCODEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E9705F0)
 
 namespace System::CodeDom::Compiler
 {
@@ -15,8 +15,8 @@ namespace System::CodeDom::Compiler
 	class GeneratedCodeAttribute : public ::System::Attribute
 	{
 	public:
-		::System::String* tool; // 0x10
-		::System::String* version; // 0x18
+		::System::String* version; // 0x10
+		::System::String* tool; // 0x18
 
 		::System::Void _ctor(::System::String* tool, ::System::String* version)
 		{

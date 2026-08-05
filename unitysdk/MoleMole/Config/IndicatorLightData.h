@@ -5,7 +5,7 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int IndicatorLightData_TypeDefinitionIndex = 74423;
+	inline static constexpr unsigned int IndicatorLightData_TypeDefinitionIndex = 65519;
 
 	struct alignas(4) IndicatorLightData
 	{

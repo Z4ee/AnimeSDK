@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int VisualElement_MeasureMode_TypeDefinitionIndex = 27477;
+	inline static constexpr unsigned int VisualElement_MeasureMode_TypeDefinitionIndex = 28079;
 
 	enum class VisualElement_MeasureMode : ::System::Int32
 	{

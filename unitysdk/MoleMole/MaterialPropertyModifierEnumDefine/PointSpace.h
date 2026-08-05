@@ -3,7 +3,7 @@
 
 namespace MoleMole::MaterialPropertyModifierEnumDefine
 {
-	inline static constexpr unsigned int PointSpace_TypeDefinitionIndex = 85337;
+	inline static constexpr unsigned int PointSpace_TypeDefinitionIndex = 79986;
 
 	enum class PointSpace : ::System::Byte
 	{

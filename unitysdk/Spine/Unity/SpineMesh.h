@@ -5,11 +5,11 @@
 
 namespace UnityEngine { class Mesh; }
 
-#define SPINE_UNITY_SPINEMESH_NEWSKELETONMESH_OFFSET UNITYSDK_OFFSET(0x1AD22B10)
+#define SPINE_UNITY_SPINEMESH_NEWSKELETONMESH_OFFSET UNITYSDK_OFFSET(0x1C170CF0)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int SpineMesh_TypeDefinitionIndex = 39511;
+	inline static constexpr unsigned int SpineMesh_TypeDefinitionIndex = 40176;
 
 	class SpineMesh : public ::System::Object
 	{

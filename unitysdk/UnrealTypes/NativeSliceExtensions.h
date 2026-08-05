@@ -6,7 +6,7 @@
 
 namespace UnrealTypes
 {
-	inline static constexpr unsigned int NativeSliceExtensions_TypeDefinitionIndex = 27671;
+	inline static constexpr unsigned int NativeSliceExtensions_TypeDefinitionIndex = 28273;
 
 	class NativeSliceExtensions : public ::System::Object
 	{

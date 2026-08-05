@@ -10,63 +10,38 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define CLASS_1_A1EE698EF0A57F54_METHOD_1_0868EF727040C390_OFFSET UNITYSDK_OFFSET(0x145EBF60)
-#define CLASS_1_A1EE698EF0A57F54_METHOD_1_10D9D5FE5370D277_OFFSET UNITYSDK_OFFSET(0x145EC200)
-#define CLASS_1_A1EE698EF0A57F54_METHOD_1_415752109343FC19_OFFSET UNITYSDK_OFFSET(0x145ECDE0)
-#define CLASS_1_A1EE698EF0A57F54_METHOD_1_52602057F66CDED2_OFFSET UNITYSDK_OFFSET(0x145ECD60)
-#define CLASS_1_A1EE698EF0A57F54_METHOD_1_77BC484DA531C1E6_OFFSET UNITYSDK_OFFSET(0x145EC170)
-#define CLASS_1_A1EE698EF0A57F54_METHOD_1_96C7FAA41B688781_OFFSET UNITYSDK_OFFSET(0x145EC320)
-#define CLASS_1_A1EE698EF0A57F54_METHOD_1_B43C848B078B3C34_OFFSET UNITYSDK_OFFSET(0x145EC670)
-#define CLASS_1_A1EE698EF0A57F54_METHOD_1_FED495674D14D7AC_OFFSET UNITYSDK_OFFSET(0x145ECF90)
-#define CLASS_1_A1EE698EF0A57F54__CCTOR_OFFSET UNITYSDK_OFFSET(0x145EBE10)
+#define CLASS_1_A1EE698EF0A57F54_METHOD_1_0868EF727040C390_OFFSET UNITYSDK_OFFSET(0x16716330)
+#define CLASS_1_A1EE698EF0A57F54_METHOD_1_10D9D5FE5370D277_OFFSET UNITYSDK_OFFSET(0x16716FA0)
+#define CLASS_1_A1EE698EF0A57F54_METHOD_1_415752109343FC19_OFFSET UNITYSDK_OFFSET(0x16716070)
+#define CLASS_1_A1EE698EF0A57F54_METHOD_1_52602057F66CDED2_OFFSET UNITYSDK_OFFSET(0x167162B0)
+#define CLASS_1_A1EE698EF0A57F54_METHOD_1_77BC484DA531C1E6_OFFSET UNITYSDK_OFFSET(0x16716220)
+#define CLASS_1_A1EE698EF0A57F54_METHOD_1_96C7FAA41B688781_OFFSET UNITYSDK_OFFSET(0x16716C40)
+#define CLASS_1_A1EE698EF0A57F54_METHOD_1_B43C848B078B3C34_OFFSET UNITYSDK_OFFSET(0x16716540)
+#define CLASS_1_A1EE698EF0A57F54_METHOD_1_FED495674D14D7AC_OFFSET UNITYSDK_OFFSET(0x167170B0)
+#define CLASS_1_A1EE698EF0A57F54__CCTOR_OFFSET UNITYSDK_OFFSET(0x16715F20)
 
-inline static constexpr unsigned int Class_1_A1EE698EF0A57F54_TypeDefinitionIndex = 64292;
+inline static constexpr unsigned int Class_1_A1EE698EF0A57F54_TypeDefinitionIndex = 49979;
 
 class Class_1_A1EE698EF0A57F54 : public ::System::Object
 {
 public:
-	static ::MoleMole::Config::ConfigHollowChessboardLight** StaticGet_Field_1_3()
+	static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::HashSet_1<::System::Int32>*>** StaticGet_Field_1_7()
 	{
-		return (::MoleMole::Config::ConfigHollowChessboardLight**)Il2CppClass::FromTypeDefinitionIndex(Class_1_A1EE698EF0A57F54_TypeDefinitionIndex)->GetStaticField(0x391B0);
+		return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::HashSet_1<::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_A1EE698EF0A57F54_TypeDefinitionIndex)->GetStaticField(0x4A1C0);
 	}
-	static ::System::Collections::Generic::Dictionary_2<::MoleMole::Vector2Int, ::System::Int32>** StaticGet_Field_1_1()
+	static ::MoleMole::Config::ConfigHollowChessboardLight** StaticGet_Field_1_6()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::MoleMole::Vector2Int, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_A1EE698EF0A57F54_TypeDefinitionIndex)->GetStaticField(0x391B8);
+		return (::MoleMole::Config::ConfigHollowChessboardLight**)Il2CppClass::FromTypeDefinitionIndex(Class_1_A1EE698EF0A57F54_TypeDefinitionIndex)->GetStaticField(0x4A1C8);
 	}
-	static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::HashSet_1<::System::Int32>*>** StaticGet_Field_1_2()
+	static ::System::Collections::Generic::Dictionary_2<::MoleMole::Vector2Int, ::System::Int32>** StaticGet_Field_1_0()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::HashSet_1<::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_A1EE698EF0A57F54_TypeDefinitionIndex)->GetStaticField(0x391C0);
+		return (::System::Collections::Generic::Dictionary_2<::MoleMole::Vector2Int, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_A1EE698EF0A57F54_TypeDefinitionIndex)->GetStaticField(0x4A1D0);
 	}
-	// static const ::System::Int32 Field_1_0 = 0x1F; // 0x0
+	// static const ::System::Int32 Field_1_1 = 0x1F; // 0x0
 
 	static ::System::Void _cctor()
 	{
 		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CLASS_1_A1EE698EF0A57F54__CCTOR_OFFSET))();
-	}
-
-	static ::System::Void Method_1_0868EF727040C390()
-	{
-		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CLASS_1_A1EE698EF0A57F54_METHOD_1_0868EF727040C390_OFFSET))();
-	}
-
-	static ::System::Boolean Method_1_10D9D5FE5370D277(::MoleMole::Vector2Int a1, ::System::Int32& a2)
-	{
-		return ((::System::Boolean(*)(::MoleMole::Vector2Int, ::System::Int32&))((::PBYTE)hIl2Cpp + CLASS_1_A1EE698EF0A57F54_METHOD_1_10D9D5FE5370D277_OFFSET))(a1, a2);
-	}
-
-	static ::System::Void Method_1_96C7FAA41B688781(::System::Boolean a1, ::System::Action* a2)
-	{
-		return ((::System::Void(*)(::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + CLASS_1_A1EE698EF0A57F54_METHOD_1_96C7FAA41B688781_OFFSET))(a1, a2);
-	}
-
-	static ::System::Void Method_1_77BC484DA531C1E6(::System::Boolean a1, ::System::Action* a2)
-	{
-		return ((::System::Void(*)(::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + CLASS_1_A1EE698EF0A57F54_METHOD_1_77BC484DA531C1E6_OFFSET))(a1, a2);
-	}
-
-	static ::System::Void Method_1_B43C848B078B3C34()
-	{
-		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CLASS_1_A1EE698EF0A57F54_METHOD_1_B43C848B078B3C34_OFFSET))();
 	}
 
 	static ::System::Void Method_1_415752109343FC19(::System::Single a1, ::System::Action_1<::System::Single>* a2, ::System::Action_1<::System::String*>* a3, ::System::String* a4)
@@ -79,8 +54,33 @@ public:
 		return ((::MoleMole::Config::ConfigHollowChessboardLight*(*)())((::PBYTE)hIl2Cpp + CLASS_1_A1EE698EF0A57F54_METHOD_1_52602057F66CDED2_OFFSET))();
 	}
 
+	static ::System::Void Method_1_B43C848B078B3C34()
+	{
+		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CLASS_1_A1EE698EF0A57F54_METHOD_1_B43C848B078B3C34_OFFSET))();
+	}
+
+	static ::System::Void Method_1_96C7FAA41B688781(::System::Boolean a1, ::System::Action* a2)
+	{
+		return ((::System::Void(*)(::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + CLASS_1_A1EE698EF0A57F54_METHOD_1_96C7FAA41B688781_OFFSET))(a1, a2);
+	}
+
+	static ::System::Void Method_1_77BC484DA531C1E6(::System::Boolean a1, ::System::Action* a2)
+	{
+		return ((::System::Void(*)(::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + CLASS_1_A1EE698EF0A57F54_METHOD_1_77BC484DA531C1E6_OFFSET))(a1, a2);
+	}
+
+	static ::System::Boolean Method_1_10D9D5FE5370D277(::MoleMole::Vector2Int a1, ::System::Int32& a2)
+	{
+		return ((::System::Boolean(*)(::MoleMole::Vector2Int, ::System::Int32&))((::PBYTE)hIl2Cpp + CLASS_1_A1EE698EF0A57F54_METHOD_1_10D9D5FE5370D277_OFFSET))(a1, a2);
+	}
+
 	static ::System::Collections::Generic::HashSet_1<::System::Int32>* Method_1_FED495674D14D7AC(::System::Int32 a1)
 	{
 		return ((::System::Collections::Generic::HashSet_1<::System::Int32>*(*)(::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_A1EE698EF0A57F54_METHOD_1_FED495674D14D7AC_OFFSET))(a1);
+	}
+
+	static ::System::Void Method_1_0868EF727040C390()
+	{
+		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CLASS_1_A1EE698EF0A57F54_METHOD_1_0868EF727040C390_OFFSET))();
 	}
 };

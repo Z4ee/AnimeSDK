@@ -4,12 +4,12 @@
 
 namespace UnityEngine { class CanvasGroup; }
 
-#define MOLEMOLE_UISUIBIANTEMPLEPRODUCTIONPANELWIDGETCONTROLLER___C__DISPLAYCLASS31_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15C372E0)
-#define MOLEMOLE_UISUIBIANTEMPLEPRODUCTIONPANELWIDGETCONTROLLER___C__DISPLAYCLASS31_0__ONOPENMANAGEINFO_B__0_OFFSET UNITYSDK_OFFSET(0x15C372F0)
+#define MOLEMOLE_UISUIBIANTEMPLEPRODUCTIONPANELWIDGETCONTROLLER___C__DISPLAYCLASS31_0__CTOR_OFFSET UNITYSDK_OFFSET(0x160F0300)
+#define MOLEMOLE_UISUIBIANTEMPLEPRODUCTIONPANELWIDGETCONTROLLER___C__DISPLAYCLASS31_0__ONOPENMANAGEINFO_B__0_OFFSET UNITYSDK_OFFSET(0x160F0310)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISuibianTempleProductionPanelWidgetController___c__DisplayClass31_0_TypeDefinitionIndex = 51213;
+	inline static constexpr unsigned int UISuibianTempleProductionPanelWidgetController___c__DisplayClass31_0_TypeDefinitionIndex = 90730;
 
 	class UISuibianTempleProductionPanelWidgetController___c__DisplayClass31_0 : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigGachaPerformanceAnimSpeedNode_GachaPerformanceAnimSpeed_TypeDefinitionIndex = 39923;
+	inline static constexpr unsigned int ConfigGachaPerformanceAnimSpeedNode_GachaPerformanceAnimSpeed_TypeDefinitionIndex = 61175;
 
 	enum class ConfigGachaPerformanceAnimSpeedNode_GachaPerformanceAnimSpeed : ::System::Int32
 	{

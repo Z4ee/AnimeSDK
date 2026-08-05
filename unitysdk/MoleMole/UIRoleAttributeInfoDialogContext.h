@@ -5,11 +5,11 @@
 class IUIProperty;
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define MOLEMOLE_UIROLEATTRIBUTEINFODIALOGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x161548A0)
+#define MOLEMOLE_UIROLEATTRIBUTEINFODIALOGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15E731D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRoleAttributeInfoDialogContext_TypeDefinitionIndex = 57067;
+	inline static constexpr unsigned int UIRoleAttributeInfoDialogContext_TypeDefinitionIndex = 70685;
 
 	class UIRoleAttributeInfoDialogContext : public ::MoleMole::UIControllerContextBase
 	{

@@ -7,12 +7,12 @@
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_DISPLAYCASE_DISPLAYGROUPITEMDATA_METHOD_1_A6E9594884C4CCF7_OFFSET UNITYSDK_OFFSET(0x17E55490)
-#define MOLEMOLE_DISPLAYCASE_DISPLAYGROUPITEMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x17E55110)
+#define MOLEMOLE_DISPLAYCASE_DISPLAYGROUPITEMDATA_METHOD_1_A6E9594884C4CCF7_OFFSET UNITYSDK_OFFSET(0x19BC5BF0)
+#define MOLEMOLE_DISPLAYCASE_DISPLAYGROUPITEMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19BC5870)
 
 namespace MoleMole::DisplayCase
 {
-	inline static constexpr unsigned int DisplayGroupItemData_TypeDefinitionIndex = 71149;
+	inline static constexpr unsigned int DisplayGroupItemData_TypeDefinitionIndex = 53745;
 
 	class DisplayGroupItemData : public ::System::Object
 	{

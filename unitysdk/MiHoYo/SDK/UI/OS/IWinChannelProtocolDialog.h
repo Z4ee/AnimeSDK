@@ -6,7 +6,7 @@ namespace System { class Action; }
 
 namespace MiHoYo::SDK::UI::OS
 {
-	inline static constexpr unsigned int IWinChannelProtocolDialog_TypeDefinitionIndex = 20217;
+	inline static constexpr unsigned int IWinChannelProtocolDialog_TypeDefinitionIndex = 20565;
 
 	class IWinChannelProtocolDialog
 	{

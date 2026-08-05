@@ -5,12 +5,12 @@
 class Class_1_757827E019DC7C45;
 namespace MoleMole { class UIMonsterFantasyBossInfoPageController; }
 
-#define MOLEMOLE_UIMONSTERFANTASYBOSSINFOPAGECONTROLLER___C__DISPLAYCLASS45_0__CTOR_OFFSET UNITYSDK_OFFSET(0x178BF920)
-#define MOLEMOLE_UIMONSTERFANTASYBOSSINFOPAGECONTROLLER___C__DISPLAYCLASS45_0__ONUIOPEN_B__2_OFFSET UNITYSDK_OFFSET(0x178BF930)
+#define MOLEMOLE_UIMONSTERFANTASYBOSSINFOPAGECONTROLLER___C__DISPLAYCLASS45_0__CTOR_OFFSET UNITYSDK_OFFSET(0x183420B0)
+#define MOLEMOLE_UIMONSTERFANTASYBOSSINFOPAGECONTROLLER___C__DISPLAYCLASS45_0__ONUIOPEN_B__2_OFFSET UNITYSDK_OFFSET(0x183420C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMonsterFantasyBossInfoPageController___c__DisplayClass45_0_TypeDefinitionIndex = 50851;
+	inline static constexpr unsigned int UIMonsterFantasyBossInfoPageController___c__DisplayClass45_0_TypeDefinitionIndex = 49465;
 
 	class UIMonsterFantasyBossInfoPageController___c__DisplayClass45_0 : public ::System::Object
 	{

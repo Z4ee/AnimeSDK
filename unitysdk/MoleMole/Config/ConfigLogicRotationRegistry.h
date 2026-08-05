@@ -6,11 +6,11 @@ namespace MoleMole::Config { class ConfigRotation; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGLOGICROTATIONREGISTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x17049A30)
+#define MOLEMOLE_CONFIG_CONFIGLOGICROTATIONREGISTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1B90AA20)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigLogicRotationRegistry_TypeDefinitionIndex = 44325;
+	inline static constexpr unsigned int ConfigLogicRotationRegistry_TypeDefinitionIndex = 71779;
 
 	class ConfigLogicRotationRegistry : public ::Foundation::MihoyoSerializedScriptableObject
 	{

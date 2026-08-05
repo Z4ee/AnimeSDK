@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_CONFIG_ASSETINDEXCONTAINER_CLASS_1_18022CE16F7A069A_CLASS_1_A3D745FFB9FB9E8F__CTOR_OFFSET UNITYSDK_OFFSET(0x17038D60)
+#define MOLEMOLE_CONFIG_ASSETINDEXCONTAINER_CLASS_1_18022CE16F7A069A_CLASS_1_A3D745FFB9FB9E8F__CTOR_OFFSET UNITYSDK_OFFSET(0x12EF7D10)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AssetIndexContainer_Class_1_18022CE16F7A069A_Class_1_A3D745FFB9FB9E8F_TypeDefinitionIndex = 40838;
+	inline static constexpr unsigned int AssetIndexContainer_Class_1_18022CE16F7A069A_Class_1_A3D745FFB9FB9E8F_TypeDefinitionIndex = 54205;
 
 	class AssetIndexContainer_Class_1_18022CE16F7A069A_Class_1_A3D745FFB9FB9E8F : public ::System::Object
 	{
 	public:
-		::System::Int64 Field_1_0; // 0x10
-		::System::Int64 Field_1_4; // 0x18
-		::System::Int64 Field_1_1; // 0x20
-		::System::Int64 Field_1_2; // 0x28
-		::System::Int64 Field_1_3; // 0x30
+		::System::Int64 Field_1_1; // 0x10
+		::System::Int64 Field_1_0; // 0x18
+		::System::Int64 Field_1_2; // 0x20
+		::System::Int64 Field_1_6; // 0x28
+		::System::Int64 Field_1_7; // 0x30
 
 		::System::Void _ctor()
 		{

@@ -4,7 +4,7 @@
 
 namespace UnrealTypes
 {
-	inline static constexpr unsigned int ICppStructOps_TypeDefinitionIndex = 27714;
+	inline static constexpr unsigned int ICppStructOps_TypeDefinitionIndex = 28317;
 
 	class ICppStructOps
 	{

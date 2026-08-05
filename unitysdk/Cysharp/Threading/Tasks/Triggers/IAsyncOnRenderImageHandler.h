@@ -7,7 +7,7 @@ namespace UnityEngine { class RenderTexture; }
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
-	inline static constexpr unsigned int IAsyncOnRenderImageHandler_TypeDefinitionIndex = 31406;
+	inline static constexpr unsigned int IAsyncOnRenderImageHandler_TypeDefinitionIndex = 32026;
 
 	class IAsyncOnRenderImageHandler
 	{

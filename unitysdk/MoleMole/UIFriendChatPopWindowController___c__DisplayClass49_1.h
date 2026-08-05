@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_DF2C726EEEEC912D;
+class Class_2_E23E4CB2769CC93F;
 namespace MoleMole { class UIFriendChatPopWindowController___c__DisplayClass49_0; }
 
-#define MOLEMOLE_UIFRIENDCHATPOPWINDOWCONTROLLER___C__DISPLAYCLASS49_1__CTOR_OFFSET UNITYSDK_OFFSET(0x17632C60)
-#define MOLEMOLE_UIFRIENDCHATPOPWINDOWCONTROLLER___C__DISPLAYCLASS49_1__ONCIRCLECHATITEMSELECT_B__0_OFFSET UNITYSDK_OFFSET(0x17632C70)
+#define MOLEMOLE_UIFRIENDCHATPOPWINDOWCONTROLLER___C__DISPLAYCLASS49_1__CTOR_OFFSET UNITYSDK_OFFSET(0x18584A70)
+#define MOLEMOLE_UIFRIENDCHATPOPWINDOWCONTROLLER___C__DISPLAYCLASS49_1__ONCIRCLECHATITEMSELECT_B__0_OFFSET UNITYSDK_OFFSET(0x18584A80)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIFriendChatPopWindowController___c__DisplayClass49_1_TypeDefinitionIndex = 81244;
+	inline static constexpr unsigned int UIFriendChatPopWindowController___c__DisplayClass49_1_TypeDefinitionIndex = 66613;
 
 	class UIFriendChatPopWindowController___c__DisplayClass49_1 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIFriendChatPopWindowController___c__DisplayClass49_0* CS___8__locals1; // 0x10
-		::Class_2_DF2C726EEEEC912D* circleDataExt; // 0x18
+		::Class_2_E23E4CB2769CC93F* circleDataExt; // 0x10
+		::MoleMole::UIFriendChatPopWindowController___c__DisplayClass49_0* CS___8__locals1; // 0x18
 
 		::System::Void _ctor()
 		{

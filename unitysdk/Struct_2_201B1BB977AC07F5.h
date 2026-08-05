@@ -5,17 +5,17 @@
 
 class Class_1_236FD73ABC492E3F;
 
-#define STRUCT_2_201B1BB977AC07F5_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x80B950)
-#define STRUCT_2_201B1BB977AC07F5_FROMFLX_OFFSET UNITYSDK_OFFSET(0x80B8C0)
-#define STRUCT_2_201B1BB977AC07F5_METHOD_2_016792848AB8C203_OFFSET UNITYSDK_OFFSET(0x80B9B0)
-#define STRUCT_2_201B1BB977AC07F5_METHOD_2_D4DA1493472613E6_OFFSET UNITYSDK_OFFSET(0x80B9C0)
+#define STRUCT_2_201B1BB977AC07F5_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x881680)
+#define STRUCT_2_201B1BB977AC07F5_FROMFLX_OFFSET UNITYSDK_OFFSET(0x8815F0)
+#define STRUCT_2_201B1BB977AC07F5_METHOD_2_016792848AB8C203_OFFSET UNITYSDK_OFFSET(0x881710)
+#define STRUCT_2_201B1BB977AC07F5_METHOD_2_D4DA1493472613E6_OFFSET UNITYSDK_OFFSET(0x8816E0)
 
-inline static constexpr unsigned int Struct_2_201B1BB977AC07F5_TypeDefinitionIndex = 64870;
+inline static constexpr unsigned int Struct_2_201B1BB977AC07F5_TypeDefinitionIndex = 65511;
 
 struct alignas(4) Struct_2_201B1BB977AC07F5
 {
-	::UnityEngine::Vector3 Field_2_0; // 0x10
-	::UnityEngine::Vector3 Field_2_1; // 0x1C
+	::UnityEngine::Vector3 Field_2_1; // 0x10
+	::UnityEngine::Vector3 Field_2_0; // 0x1C
 
 	/*
 	::System::Boolean FromFlx(::FlexBuffers::FlxValue a1)
@@ -29,15 +29,15 @@ struct alignas(4) Struct_2_201B1BB977AC07F5
 		return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + STRUCT_2_201B1BB977AC07F5_FROMBINARY_OFFSET))(this, a1, a2);
 	}
 
-	::System::Boolean Method_2_016792848AB8C203(::Class_1_236FD73ABC492E3F* a1, ::System::Int32 a2)
-	{
-		return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + STRUCT_2_201B1BB977AC07F5_METHOD_2_016792848AB8C203_OFFSET))(this, a1, a2);
-	}
-
 	/*
 	::System::Boolean Method_2_D4DA1493472613E6(::FlexBuffers::FlxMap a1)
 	{
 		return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxMap))((::PBYTE)hIl2Cpp + STRUCT_2_201B1BB977AC07F5_METHOD_2_D4DA1493472613E6_OFFSET))(this, a1);
 	}
 	*/
+
+	::System::Boolean Method_2_016792848AB8C203(::Class_1_236FD73ABC492E3F* a1, ::System::Int32 a2)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + STRUCT_2_201B1BB977AC07F5_METHOD_2_016792848AB8C203_OFFSET))(this, a1, a2);
+	}
 };

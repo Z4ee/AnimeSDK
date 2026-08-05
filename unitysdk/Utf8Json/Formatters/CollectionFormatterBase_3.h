@@ -6,7 +6,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace Utf8Json::Formatters
 {
-	inline static constexpr unsigned int CollectionFormatterBase_3_TypeDefinitionIndex = 91281;
+	inline static constexpr unsigned int CollectionFormatterBase_3_TypeDefinitionIndex = 95214;
 
 	template <typename TElement, typename TIntermediate, typename TCollection>
 	class CollectionFormatterBase_3 : public ::Utf8Json::Formatters::CollectionFormatterBase_4<TElement, TIntermediate, ::System::Collections::Generic::IEnumerator_1<TElement>*, TCollection>

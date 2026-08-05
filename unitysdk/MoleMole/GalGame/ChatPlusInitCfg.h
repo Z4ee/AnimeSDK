@@ -15,12 +15,12 @@ namespace MoleMole::GalGame { class TimelinePair; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_GALGAME_CHATPLUSINITCFG_CREATTIMECFG_OFFSET UNITYSDK_OFFSET(0x158238A0)
-#define MOLEMOLE_GALGAME_CHATPLUSINITCFG__CTOR_OFFSET UNITYSDK_OFFSET(0x15823920)
+#define MOLEMOLE_GALGAME_CHATPLUSINITCFG_CREATTIMECFG_OFFSET UNITYSDK_OFFSET(0x129A3380)
+#define MOLEMOLE_GALGAME_CHATPLUSINITCFG__CTOR_OFFSET UNITYSDK_OFFSET(0x129A3400)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int ChatPlusInitCfg_TypeDefinitionIndex = 73663;
+	inline static constexpr unsigned int ChatPlusInitCfg_TypeDefinitionIndex = 57878;
 
 	class ChatPlusInitCfg : public ::System::Object
 	{

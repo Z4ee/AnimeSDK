@@ -5,16 +5,16 @@
 namespace MoleMole { class NewConfigUICommon; }
 namespace System { class Action; }
 
-#define CLASS_1_8F84CBAF7E25A53F_CLASS_1_C7053B60B3CA173F_METHOD_1_FD19510E37590296_OFFSET UNITYSDK_OFFSET(0x10A1EFE0)
-#define CLASS_1_8F84CBAF7E25A53F_CLASS_1_C7053B60B3CA173F__CTOR_OFFSET UNITYSDK_OFFSET(0x10A1EFD0)
+#define CLASS_1_8F84CBAF7E25A53F_CLASS_1_C7053B60B3CA173F_METHOD_1_FD19510E37590296_OFFSET UNITYSDK_OFFSET(0x1508ACD0)
+#define CLASS_1_8F84CBAF7E25A53F_CLASS_1_C7053B60B3CA173F__CTOR_OFFSET UNITYSDK_OFFSET(0x1508ACC0)
 
-inline static constexpr unsigned int Class_1_8F84CBAF7E25A53F_Class_1_C7053B60B3CA173F_TypeDefinitionIndex = 81604;
+inline static constexpr unsigned int Class_1_8F84CBAF7E25A53F_Class_1_C7053B60B3CA173F_TypeDefinitionIndex = 81894;
 
 class Class_1_8F84CBAF7E25A53F_Class_1_C7053B60B3CA173F : public ::System::Object
 {
 public:
-	::System::Action* Field_1_1; // 0x10
-	::System::Boolean Field_1_0; // 0x18
+	::System::Action* Field_1_0; // 0x10
+	::System::Boolean Field_1_1; // 0x18
 
 	::System::Void _ctor()
 	{

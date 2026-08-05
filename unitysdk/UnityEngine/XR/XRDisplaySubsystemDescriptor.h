@@ -4,11 +4,11 @@
 
 namespace UnityEngine::XR { class XRDisplaySubsystem; }
 
-#define UNITYENGINE_XR_XRDISPLAYSUBSYSTEMDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1E78EC30)
+#define UNITYENGINE_XR_XRDISPLAYSUBSYSTEMDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB67140)
 
 namespace UnityEngine::XR
 {
-	inline static constexpr unsigned int XRDisplaySubsystemDescriptor_TypeDefinitionIndex = 27651;
+	inline static constexpr unsigned int XRDisplaySubsystemDescriptor_TypeDefinitionIndex = 28253;
 
 	class XRDisplaySubsystemDescriptor : public ::UnityEngine::IntegratedSubsystemDescriptor_1<::UnityEngine::XR::XRDisplaySubsystem*>
 	{

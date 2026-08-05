@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_MONOUIOVERLORDFEASTLEVELCONFIG_LEVELUPGRADECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x12BD6130)
+#define MOLEMOLE_MONOUIOVERLORDFEASTLEVELCONFIG_LEVELUPGRADECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x13855340)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoUIOverlordFeastLevelConfig_LevelUpgradeConfig_TypeDefinitionIndex = 67456;
+	inline static constexpr unsigned int MonoUIOverlordFeastLevelConfig_LevelUpgradeConfig_TypeDefinitionIndex = 80990;
 
 	class MonoUIOverlordFeastLevelConfig_LevelUpgradeConfig : public ::System::Object
 	{

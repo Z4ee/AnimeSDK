@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_UIVIDEOSHOPSELECTPROPERTYPOPWINDOWCONTROLLER___C__DISPLAYCLASS33_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1089A4D0)
-#define MOLEMOLE_UIVIDEOSHOPSELECTPROPERTYPOPWINDOWCONTROLLER___C__DISPLAYCLASS33_1__REFRESHCONSUME_B__2_OFFSET UNITYSDK_OFFSET(0x1089A4E0)
+#define MOLEMOLE_UIVIDEOSHOPSELECTPROPERTYPOPWINDOWCONTROLLER___C__DISPLAYCLASS33_1__CTOR_OFFSET UNITYSDK_OFFSET(0x112C5E80)
+#define MOLEMOLE_UIVIDEOSHOPSELECTPROPERTYPOPWINDOWCONTROLLER___C__DISPLAYCLASS33_1__REFRESHCONSUME_B__2_OFFSET UNITYSDK_OFFSET(0x112C5E90)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIVideoShopSelectPropertyPopWindowController___c__DisplayClass33_1_TypeDefinitionIndex = 56558;
+	inline static constexpr unsigned int UIVideoShopSelectPropertyPopWindowController___c__DisplayClass33_1_TypeDefinitionIndex = 68103;
 
 	class UIVideoShopSelectPropertyPopWindowController___c__DisplayClass33_1 : public ::System::Object
 	{

@@ -4,31 +4,31 @@
 #include "unitysdk/BehaviorDesigner/Runtime/Tasks/TaskStatus.h"
 
 class Class_3_AA6DF3A878195D3F;
-class Class_3_DFD5D1FDB9D2A4AC;
+class Class_3_C93CC3D2C2AC4067;
 namespace MoleMole { class SharedGameEntity; }
 namespace MoleMole::Battle { class Entity; }
 namespace MoleMole::Battle { class MonoSteerCamera; }
 
-#define MOLEMOLE_STEERCAMERAUPDATE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x12655300)
-#define MOLEMOLE_STEERCAMERAUPDATE_ONSTART_OFFSET UNITYSDK_OFFSET(0x12655560)
-#define MOLEMOLE_STEERCAMERAUPDATE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x12655970)
-#define MOLEMOLE_STEERCAMERAUPDATE__CTOR_OFFSET UNITYSDK_OFFSET(0x126559C0)
-#define MOLEMOLE_STEERCAMERAUPDATE___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x12655A60)
-#define MOLEMOLE_STEERCAMERAUPDATE___BASE_ONSTART_OFFSET UNITYSDK_OFFSET(0x12655AF0)
-#define MOLEMOLE_STEERCAMERAUPDATE___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x12655B80)
+#define MOLEMOLE_STEERCAMERAUPDATE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x14A21B60)
+#define MOLEMOLE_STEERCAMERAUPDATE_ONSTART_OFFSET UNITYSDK_OFFSET(0x14A21DC0)
+#define MOLEMOLE_STEERCAMERAUPDATE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x14A22280)
+#define MOLEMOLE_STEERCAMERAUPDATE__CTOR_OFFSET UNITYSDK_OFFSET(0x14A222D0)
+#define MOLEMOLE_STEERCAMERAUPDATE___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x14A22370)
+#define MOLEMOLE_STEERCAMERAUPDATE___BASE_ONSTART_OFFSET UNITYSDK_OFFSET(0x14A22400)
+#define MOLEMOLE_STEERCAMERAUPDATE___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x14A22490)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SteerCameraUpdate_TypeDefinitionIndex = 85477;
+	inline static constexpr unsigned int SteerCameraUpdate_TypeDefinitionIndex = 66501;
 
 	class SteerCameraUpdate : public ::BehaviorDesigner::Runtime::Tasks::Action
 	{
 	public:
-		::MoleMole::Battle::MonoSteerCamera* monoSteer; // 0x58
-		::MoleMole::Battle::Entity* ownerEntity; // 0x60
-		::Class_3_AA6DF3A878195D3F* steerComponent; // 0x68
+		::MoleMole::Battle::Entity* ownerEntity; // 0x58
+		::Class_3_AA6DF3A878195D3F* steerComponent; // 0x60
+		::Class_3_C93CC3D2C2AC4067* modelComponent; // 0x68
 		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x70
-		::Class_3_DFD5D1FDB9D2A4AC* modelComponent; // 0x78
+		::MoleMole::Battle::MonoSteerCamera* monoSteer; // 0x78
 		::System::Boolean Enable; // 0x80
 
 		::System::Void _ctor()

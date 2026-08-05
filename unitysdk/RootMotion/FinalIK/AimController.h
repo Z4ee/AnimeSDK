@@ -7,25 +7,37 @@
 
 namespace RootMotion::FinalIK { class AimIK; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Func_2; }
+namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class Transform; }
 
-#define ROOTMOTION_FINALIK_AIMCONTROLLER_APPLYMINDISTANCE_OFFSET UNITYSDK_OFFSET(0x1E062F50)
-#define ROOTMOTION_FINALIK_AIMCONTROLLER_FIXEDLERP_OFFSET UNITYSDK_OFFSET(0x1E062F00)
-#define ROOTMOTION_FINALIK_AIMCONTROLLER_GET_PIVOT_OFFSET UNITYSDK_OFFSET(0x1E060630)
-#define ROOTMOTION_FINALIK_AIMCONTROLLER_INNERHANDLETARGETOFFSET_OFFSET UNITYSDK_OFFSET(0x1E060840)
-#define ROOTMOTION_FINALIK_AIMCONTROLLER_INNERUPDATEAIMCOORDINATEOFFSET_OFFSET UNITYSDK_OFFSET(0x1E0608E0)
-#define ROOTMOTION_FINALIK_AIMCONTROLLER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1E0610F0)
-#define ROOTMOTION_FINALIK_AIMCONTROLLER_ROOTROTATION_OFFSET UNITYSDK_OFFSET(0x1E0630C0)
-#define ROOTMOTION_FINALIK_AIMCONTROLLER_START_OFFSET UNITYSDK_OFFSET(0x1E060410)
-#define ROOTMOTION_FINALIK_AIMCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E0635E0)
+#define ROOTMOTION_FINALIK_AIMCONTROLLER_APPLYMINDISTANCE_OFFSET UNITYSDK_OFFSET(0x1F423740)
+#define ROOTMOTION_FINALIK_AIMCONTROLLER_FIXEDLERP_OFFSET UNITYSDK_OFFSET(0x1F4236F0)
+#define ROOTMOTION_FINALIK_AIMCONTROLLER_GETBLENDCURVE_OFFSET UNITYSDK_OFFSET(0x1F420A30)
+#define ROOTMOTION_FINALIK_AIMCONTROLLER_GET_PIVOT_OFFSET UNITYSDK_OFFSET(0x1F420D50)
+#define ROOTMOTION_FINALIK_AIMCONTROLLER_INNERHANDLETARGETOFFSET_OFFSET UNITYSDK_OFFSET(0x1F420F70)
+#define ROOTMOTION_FINALIK_AIMCONTROLLER_INNERUPDATEAIMCOORDINATEOFFSET_OFFSET UNITYSDK_OFFSET(0x1F421010)
+#define ROOTMOTION_FINALIK_AIMCONTROLLER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1F4217F0)
+#define ROOTMOTION_FINALIK_AIMCONTROLLER_ROOTROTATION_OFFSET UNITYSDK_OFFSET(0x1F423810)
+#define ROOTMOTION_FINALIK_AIMCONTROLLER_START_OFFSET UNITYSDK_OFFSET(0x1F420B30)
+#define ROOTMOTION_FINALIK_AIMCONTROLLER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F423EC0)
+#define ROOTMOTION_FINALIK_AIMCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F423D40)
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int AimController_TypeDefinitionIndex = 38316;
+	inline static constexpr unsigned int AimController_TypeDefinitionIndex = 38933;
 
 	class AimController : public ::UnityEngine::MonoBehaviour
 	{
 	public:
+		static ::UnityEngine::AnimationCurve** StaticGet__defaultLinearCurve()
+		{
+			return (::UnityEngine::AnimationCurve**)Il2CppClass::FromTypeDefinitionIndex(AimController_TypeDefinitionIndex)->GetStaticField(0x2A830);
+		}
+		static ::System::Func_2<::System::String*, ::UnityEngine::AnimationCurve*>** StaticGet_CurveResolver()
+		{
+			return (::System::Func_2<::System::String*, ::UnityEngine::AnimationCurve*>**)Il2CppClass::FromTypeDefinitionIndex(AimController_TypeDefinitionIndex)->GetStaticField(0x2A838);
+		}
 		::RootMotion::FinalIK::AimIK* ik; // 0x18
 		::System::Single weight; // 0x20
 		::UnityEngine::Transform* target; // 0x28
@@ -34,38 +46,57 @@ namespace RootMotion::FinalIK
 		::System::Boolean useOverrideOffset; // 0x40
 		::UnityEngine::Vector3 overrideOffset; // 0x44
 		::System::Single targetSwitchSmoothTime; // 0x50
-		::System::Single weightSmoothTime; // 0x54
-		::System::Boolean smoothTurnTowardsTarget; // 0x58
-		::System::Boolean enableRootRotation; // 0x59
-		::RootMotion::FinalIK::AimController_AimJointType aimHingerType; // 0x5C
-		::System::Single hingerYawSpeed; // 0x60
-		::System::Single hingerPitchSpeed; // 0x64
-		::System::Single hingerDistanceSpeed; // 0x68
-		::System::Single maxRadiansDelta; // 0x6C
-		::System::Single maxMagnitudeDelta; // 0x70
-		::System::Single slerpSpeed; // 0x74
-		::UnityEngine::Vector3 pivotOffsetFromRoot; // 0x78
-		::System::Single minDistance; // 0x84
-		::UnityEngine::Vector3 offset; // 0x88
-		::System::Boolean UseAimCoordinateOffset; // 0x94
-		::UnityEngine::Vector3 AimCoordinateRelativeOffset; // 0x98
-		::System::Single maxRootAngle; // 0xA4
-		::System::Boolean useAnimatedAimDirection; // 0xA8
-		::UnityEngine::Vector3 animatedAimDirection; // 0xAC
-		::System::String* tag; // 0xB8
-		::UnityEngine::Transform* lastTarget; // 0xC0
-		::System::Single switchWeight; // 0xC8
-		::System::Single switchWeightV; // 0xCC
-		::System::Single weightV; // 0xD0
-		::UnityEngine::Vector3 lastPosition; // 0xD4
-		::UnityEngine::Vector3 dir; // 0xE0
-		::System::Boolean lastSmoothTowardsTarget; // 0xEC
-		::UnityEngine::Vector3 _prevHingerAimPos; // 0xF0
-		::RootMotion::FinalIK::AimController_AimLocalCoordinate _aimLocalCoordinate; // 0xFC
+		::System::Single blendInSmoothTime; // 0x54
+		::System::String* blendInCurveKey; // 0x58
+		::System::Single blendOutSmoothTime; // 0x60
+		::System::String* blendOutCurveKey; // 0x68
+		::System::Boolean smoothTurnTowardsTarget; // 0x70
+		::System::Boolean enableRootRotation; // 0x71
+		::RootMotion::FinalIK::AimController_AimJointType aimHingerType; // 0x74
+		::System::Single hingerYawSpeed; // 0x78
+		::System::Single hingerPitchSpeed; // 0x7C
+		::System::Single hingerDistanceSpeed; // 0x80
+		::System::Single maxRadiansDelta; // 0x84
+		::System::Single maxMagnitudeDelta; // 0x88
+		::System::Single slerpSpeed; // 0x8C
+		::UnityEngine::Vector3 pivotOffsetFromRoot; // 0x90
+		::System::Single minDistance; // 0x9C
+		::UnityEngine::Vector3 offset; // 0xA0
+		::System::Boolean UseAimCoordinateOffset; // 0xAC
+		::UnityEngine::Vector3 AimCoordinateRelativeOffset; // 0xB0
+		::System::Single maxRootAngle; // 0xBC
+		::System::Boolean useAnimatedAimDirection; // 0xC0
+		::UnityEngine::Vector3 animatedAimDirection; // 0xC4
+		::System::String* tag; // 0xD0
+		::UnityEngine::Transform* lastTarget; // 0xD8
+		::System::Single switchWeight; // 0xE0
+		::System::Single switchWeightV; // 0xE4
+		::System::Single _blendTimer; // 0xE8
+		::System::Single _blendStartWeight; // 0xEC
+		::System::Boolean _lastBlendIn; // 0xF0
+		::UnityEngine::AnimationCurve* _cachedBlendInCurve; // 0xF8
+		::UnityEngine::AnimationCurve* _cachedBlendOutCurve; // 0x100
+		::System::String* _cachedBlendInKey; // 0x108
+		::System::String* _cachedBlendOutKey; // 0x110
+		::UnityEngine::Vector3 lastPosition; // 0x118
+		::UnityEngine::Vector3 dir; // 0x124
+		::System::Boolean lastSmoothTowardsTarget; // 0x130
+		::UnityEngine::Vector3 _prevHingerAimPos; // 0x134
+		::RootMotion::FinalIK::AimController_AimLocalCoordinate _aimLocalCoordinate; // 0x140
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_AIMCONTROLLER__CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_AIMCONTROLLER__CCTOR_OFFSET))();
+		}
+
+		::UnityEngine::AnimationCurve* GetBlendCurve(::System::String* curveKey, ::UnityEngine::AnimationCurve*& cache, ::System::String*& cachedKey)
+		{
+			return ((::UnityEngine::AnimationCurve*(*)(::PVOID, ::System::String*, ::UnityEngine::AnimationCurve*&, ::System::String*&))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_AIMCONTROLLER_GETBLENDCURVE_OFFSET))(this, curveKey, cache, cachedKey);
 		}
 
 		::System::Void Start()

@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace MoleMole::ChessStateMachine
 {
-	inline static constexpr unsigned int StateMachineParamsWrapper_TypeDefinitionIndex = 80619;
+	inline static constexpr unsigned int StateMachineParamsWrapper_TypeDefinitionIndex = 82092;
 
 	struct alignas(8) StateMachineParamsWrapper
 	{

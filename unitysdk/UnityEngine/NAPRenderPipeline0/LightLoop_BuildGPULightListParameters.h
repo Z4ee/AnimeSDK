@@ -9,7 +9,7 @@ namespace UnityEngine { class ComputeShader; }
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int LightLoop_BuildGPULightListParameters_TypeDefinitionIndex = 6006;
+	inline static constexpr unsigned int LightLoop_BuildGPULightListParameters_TypeDefinitionIndex = 6008;
 
 	struct alignas(8) LightLoop_BuildGPULightListParameters
 	{

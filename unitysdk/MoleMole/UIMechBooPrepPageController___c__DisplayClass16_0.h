@@ -2,14 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_3_48A3D3A34C52331D_49;
+class Class_3_48A3D3A34C52331D_41;
 
-#define MOLEMOLE_UIMECHBOOPREPPAGECONTROLLER___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15761F50)
-#define MOLEMOLE_UIMECHBOOPREPPAGECONTROLLER___C__DISPLAYCLASS16_0__GOTOSCRIPT_B__0_OFFSET UNITYSDK_OFFSET(0x15761F60)
+#define MOLEMOLE_UIMECHBOOPREPPAGECONTROLLER___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x179ED760)
+#define MOLEMOLE_UIMECHBOOPREPPAGECONTROLLER___C__DISPLAYCLASS16_0__GOTOSCRIPT_B__0_OFFSET UNITYSDK_OFFSET(0x179ED770)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMechBooPrepPageController___c__DisplayClass16_0_TypeDefinitionIndex = 73539;
+	inline static constexpr unsigned int UIMechBooPrepPageController___c__DisplayClass16_0_TypeDefinitionIndex = 53950;
 
 	class UIMechBooPrepPageController___c__DisplayClass16_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMECHBOOPREPPAGECONTROLLER___C__DISPLAYCLASS16_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _GotoScript_b__0(::Class_3_48A3D3A34C52331D_49* rsp)
+		::System::Void _GotoScript_b__0(::Class_3_48A3D3A34C52331D_41* rsp)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_3_48A3D3A34C52331D_49*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMECHBOOPREPPAGECONTROLLER___C__DISPLAYCLASS16_0__GOTOSCRIPT_B__0_OFFSET))(this, rsp);
+			return ((::System::Void(*)(::PVOID, ::Class_3_48A3D3A34C52331D_41*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMECHBOOPREPPAGECONTROLLER___C__DISPLAYCLASS16_0__GOTOSCRIPT_B__0_OFFSET))(this, rsp);
 		}
 	};
 }

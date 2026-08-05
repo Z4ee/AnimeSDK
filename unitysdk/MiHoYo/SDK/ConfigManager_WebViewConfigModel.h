@@ -5,11 +5,11 @@
 namespace MiHoYo::SDK { class ConfigManager_WebViewABTestModel; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MIHOYO_SDK_CONFIGMANAGER_WEBVIEWCONFIGMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1C389200)
+#define MIHOYO_SDK_CONFIGMANAGER_WEBVIEWCONFIGMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1D761220)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ConfigManager_WebViewConfigModel_TypeDefinitionIndex = 19968;
+	inline static constexpr unsigned int ConfigManager_WebViewConfigModel_TypeDefinitionIndex = 20316;
 
 	class ConfigManager_WebViewConfigModel : public ::System::Object
 	{

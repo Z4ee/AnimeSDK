@@ -4,11 +4,11 @@
 
 namespace FluffyUnderware::Curvy { class CurvyCGEventArgs; }
 
-#define FLUFFYUNDERWARE_CURVY_CURVYCGEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D605020)
+#define FLUFFYUNDERWARE_CURVY_CURVYCGEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E9A27F0)
 
 namespace FluffyUnderware::Curvy
 {
-	inline static constexpr unsigned int CurvyCGEvent_TypeDefinitionIndex = 38823;
+	inline static constexpr unsigned int CurvyCGEvent_TypeDefinitionIndex = 39479;
 
 	class CurvyCGEvent : public ::FluffyUnderware::DevTools::UnityEventEx_1<::FluffyUnderware::Curvy::CurvyCGEventArgs*>
 	{

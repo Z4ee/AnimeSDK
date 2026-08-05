@@ -3,12 +3,12 @@
 #include "unitysdk/NPCCrowd/AI/ConditionContext.h"
 #include "unitysdk/NPCCrowd/AI/CrowdConditionBase.h"
 
-#define NPCCROWD_AI_TRUECONDITION_CHECK_OFFSET UNITYSDK_OFFSET(0x109F23F0)
-#define NPCCROWD_AI_TRUECONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0x109F23E0)
+#define NPCCROWD_AI_TRUECONDITION_CHECK_OFFSET UNITYSDK_OFFSET(0x157A70D0)
+#define NPCCROWD_AI_TRUECONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0x157A70C0)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int TrueCondition_TypeDefinitionIndex = 83245;
+	inline static constexpr unsigned int TrueCondition_TypeDefinitionIndex = 67715;
 
 	class TrueCondition : public ::NPCCrowd::AI::CrowdConditionBase
 	{

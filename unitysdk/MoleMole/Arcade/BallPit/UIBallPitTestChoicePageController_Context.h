@@ -5,11 +5,11 @@
 
 class Class_3_6F28FFD006F2B451;
 
-#define MOLEMOLE_ARCADE_BALLPIT_UIBALLPITTESTCHOICEPAGECONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB78EE0)
+#define MOLEMOLE_ARCADE_BALLPIT_UIBALLPITTESTCHOICEPAGECONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1F83D3A0)
 
 namespace MoleMole::Arcade::BallPit
 {
-	inline static constexpr unsigned int UIBallPitTestChoicePageController_Context_TypeDefinitionIndex = 89306;
+	inline static constexpr unsigned int UIBallPitTestChoicePageController_Context_TypeDefinitionIndex = 93377;
 
 	class UIBallPitTestChoicePageController_Context : public ::MoleMole::UIControllerContextBase
 	{

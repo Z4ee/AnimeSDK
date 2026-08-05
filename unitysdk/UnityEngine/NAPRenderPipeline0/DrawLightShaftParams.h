@@ -6,7 +6,7 @@
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int DrawLightShaftParams_TypeDefinitionIndex = 5933;
+	inline static constexpr unsigned int DrawLightShaftParams_TypeDefinitionIndex = 5935;
 
 	struct alignas(4) DrawLightShaftParams
 	{

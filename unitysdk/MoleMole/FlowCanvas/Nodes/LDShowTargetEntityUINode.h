@@ -3,23 +3,23 @@
 #include "unitysdk/FlowCanvas/Nodes/CallableFunctionNode_5.h"
 #include "unitysdk/MoleMole/Config/CampType.h"
 
-class Class_1_1CAC0F23A7272040;
+class Class_1_D7E535A5B5558900;
 namespace MoleMole::Battle { class Entity; }
 namespace MoleMole::FlowCanvas::Nodes { class LDShowTargetEntityUINode_GuideEntityTargetCameraViewChecker; }
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWTARGETENTITYUINODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x182DAD70)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWTARGETENTITYUINODE__CTOR_OFFSET UNITYSDK_OFFSET(0x182DB0C0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWTARGETENTITYUINODE__INVOKE_B__2_0_OFFSET UNITYSDK_OFFSET(0x182DB110)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWTARGETENTITYUINODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x19B123A0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWTARGETENTITYUINODE__CTOR_OFFSET UNITYSDK_OFFSET(0x19B12700)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWTARGETENTITYUINODE__INVOKE_B__2_0_OFFSET UNITYSDK_OFFSET(0x19B12750)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDShowTargetEntityUINode_TypeDefinitionIndex = 83982;
+	inline static constexpr unsigned int LDShowTargetEntityUINode_TypeDefinitionIndex = 64070;
 
 	class LDShowTargetEntityUINode : public ::FlowCanvas::Nodes::CallableFunctionNode_5<::System::UInt32, ::MoleMole::Config::CampType, ::MoleMole::Battle::Entity*, ::System::String*, ::System::Boolean>
 	{
 	public:
-		::Class_1_1CAC0F23A7272040* param; // 0x40
+		::Class_1_D7E535A5B5558900* param; // 0x40
 
 		::System::Void _ctor()
 		{

@@ -7,29 +7,29 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_UIALLROUNDGENERALTUTORIALPOPWINDOWCONTROLLER_LOGICDELEGATE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x183EC790)
-#define MOLEMOLE_UIALLROUNDGENERALTUTORIALPOPWINDOWCONTROLLER_LOGICDELEGATE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x183EC7D0)
-#define MOLEMOLE_UIALLROUNDGENERALTUTORIALPOPWINDOWCONTROLLER_LOGICDELEGATE___C__ONTUTORIALBTNCLICKED_B__51_2_OFFSET UNITYSDK_OFFSET(0x183EC800)
-#define MOLEMOLE_UIALLROUNDGENERALTUTORIALPOPWINDOWCONTROLLER_LOGICDELEGATE___C__REFRESHPAGE_B__41_0_OFFSET UNITYSDK_OFFSET(0x183EC7E0)
+#define MOLEMOLE_UIALLROUNDGENERALTUTORIALPOPWINDOWCONTROLLER_LOGICDELEGATE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19550920)
+#define MOLEMOLE_UIALLROUNDGENERALTUTORIALPOPWINDOWCONTROLLER_LOGICDELEGATE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19550960)
+#define MOLEMOLE_UIALLROUNDGENERALTUTORIALPOPWINDOWCONTROLLER_LOGICDELEGATE___C__ONTUTORIALBTNCLICKED_B__51_2_OFFSET UNITYSDK_OFFSET(0x19550990)
+#define MOLEMOLE_UIALLROUNDGENERALTUTORIALPOPWINDOWCONTROLLER_LOGICDELEGATE___C__REFRESHPAGE_B__41_0_OFFSET UNITYSDK_OFFSET(0x19550970)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAllroundGeneralTutorialPopWindowController_LogicDelegate___c_TypeDefinitionIndex = 46869;
+	inline static constexpr unsigned int UIAllroundGeneralTutorialPopWindowController_LogicDelegate___c_TypeDefinitionIndex = 52176;
 
 	class UIAllroundGeneralTutorialPopWindowController_LogicDelegate___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::System::Int32, ::System::String*>** StaticGet___9__51_2()
 		{
-			return (::System::Func_2<::System::Int32, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(UIAllroundGeneralTutorialPopWindowController_LogicDelegate___c_TypeDefinitionIndex)->GetStaticField(0x3EF50);
+			return (::System::Func_2<::System::Int32, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(UIAllroundGeneralTutorialPopWindowController_LogicDelegate___c_TypeDefinitionIndex)->GetStaticField(0x3FB10);
 		}
 		static ::MoleMole::UIAllroundGeneralTutorialPopWindowController_LogicDelegate___c** StaticGet___9()
 		{
-			return (::MoleMole::UIAllroundGeneralTutorialPopWindowController_LogicDelegate___c**)Il2CppClass::FromTypeDefinitionIndex(UIAllroundGeneralTutorialPopWindowController_LogicDelegate___c_TypeDefinitionIndex)->GetStaticField(0x3EF58);
+			return (::MoleMole::UIAllroundGeneralTutorialPopWindowController_LogicDelegate___c**)Il2CppClass::FromTypeDefinitionIndex(UIAllroundGeneralTutorialPopWindowController_LogicDelegate___c_TypeDefinitionIndex)->GetStaticField(0x3FB18);
 		}
 		static ::System::Action_1<::Class_1_E9529ED64113E4E9*>** StaticGet___9__41_0()
 		{
-			return (::System::Action_1<::Class_1_E9529ED64113E4E9*>**)Il2CppClass::FromTypeDefinitionIndex(UIAllroundGeneralTutorialPopWindowController_LogicDelegate___c_TypeDefinitionIndex)->GetStaticField(0x3EF60);
+			return (::System::Action_1<::Class_1_E9529ED64113E4E9*>**)Il2CppClass::FromTypeDefinitionIndex(UIAllroundGeneralTutorialPopWindowController_LogicDelegate___c_TypeDefinitionIndex)->GetStaticField(0x3FB20);
 		}
 
 		static ::System::Void _cctor()

@@ -5,12 +5,12 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCCROWD_GROUPLEVELRESOLVER_GETASSOCIATEDMEMBERS_OFFSET UNITYSDK_OFFSET(0xD43F410)
-#define NPCCROWD_GROUPLEVELRESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0xD43FA10)
+#define NPCCROWD_GROUPLEVELRESOLVER_GETASSOCIATEDMEMBERS_OFFSET UNITYSDK_OFFSET(0x1066BB90)
+#define NPCCROWD_GROUPLEVELRESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1066C250)
 
 namespace NPCCrowd
 {
-	inline static constexpr unsigned int GroupLevelResolver_TypeDefinitionIndex = 53897;
+	inline static constexpr unsigned int GroupLevelResolver_TypeDefinitionIndex = 90503;
 
 	class GroupLevelResolver : public ::System::Object
 	{

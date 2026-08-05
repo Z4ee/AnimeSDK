@@ -25,7 +25,7 @@ namespace UnityEngine { class Transform; }
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int MBVersionInterface_TypeDefinitionIndex = 90610;
+	inline static constexpr unsigned int MBVersionInterface_TypeDefinitionIndex = 94543;
 
 	class MBVersionInterface
 	{

@@ -4,7 +4,7 @@
 
 namespace System
 {
-	inline static constexpr unsigned int SpanHelpers_Reg16_TypeDefinitionIndex = 6562;
+	inline static constexpr unsigned int SpanHelpers_Reg16_TypeDefinitionIndex = 6566;
 
 	struct alignas(1) SpanHelpers_Reg16
 	{

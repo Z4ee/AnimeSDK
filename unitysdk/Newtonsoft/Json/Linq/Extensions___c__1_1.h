@@ -9,7 +9,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace Newtonsoft::Json::Linq
 {
-	inline static constexpr unsigned int Extensions___c__1_1_TypeDefinitionIndex = 7160;
+	inline static constexpr unsigned int Extensions___c__1_1_TypeDefinitionIndex = 7164;
 
 	template <typename T>
 	class Extensions___c__1_1 : public ::System::Object

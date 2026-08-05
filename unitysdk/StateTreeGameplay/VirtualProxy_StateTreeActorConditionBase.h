@@ -4,12 +4,12 @@
 #include "unitysdk/StateTreeCore/VirtualProxy_StateTreeConditionBase.h"
 #include "unitysdk/UnrealTypes/FReadOnlyStructView.h"
 
-#define STATETREEGAMEPLAY_VIRTUALPROXY_STATETREEACTORCONDITIONBASE_TESTCONDITION_OFFSET UNITYSDK_OFFSET(0x1BF4FD90)
-#define STATETREEGAMEPLAY_VIRTUALPROXY_STATETREEACTORCONDITIONBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF4FE30)
+#define STATETREEGAMEPLAY_VIRTUALPROXY_STATETREEACTORCONDITIONBASE_TESTCONDITION_OFFSET UNITYSDK_OFFSET(0x1E352850)
+#define STATETREEGAMEPLAY_VIRTUALPROXY_STATETREEACTORCONDITIONBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E3528F0)
 
 namespace StateTreeGameplay
 {
-	inline static constexpr unsigned int VirtualProxy_StateTreeActorConditionBase_TypeDefinitionIndex = 79708;
+	inline static constexpr unsigned int VirtualProxy_StateTreeActorConditionBase_TypeDefinitionIndex = 50877;
 
 	class VirtualProxy_StateTreeActorConditionBase : public ::StateTreeCore::VirtualProxy_StateTreeConditionBase
 	{

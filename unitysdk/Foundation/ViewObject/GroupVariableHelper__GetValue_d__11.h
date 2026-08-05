@@ -9,19 +9,19 @@ namespace Foundation::ViewObject { class GroupVariableHelper; }
 namespace System { class String; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define FOUNDATION_VIEWOBJECT_GROUPVARIABLEHELPER__GETVALUE_D__11_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x702AE0)
-#define FOUNDATION_VIEWOBJECT_GROUPVARIABLEHELPER__GETVALUE_D__11_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x283610)
+#define FOUNDATION_VIEWOBJECT_GROUPVARIABLEHELPER__GETVALUE_D__11_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x82B890)
+#define FOUNDATION_VIEWOBJECT_GROUPVARIABLEHELPER__GETVALUE_D__11_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x296F30)
 
 namespace Foundation::ViewObject
 {
-	inline static constexpr unsigned int GroupVariableHelper__GetValue_d__11_TypeDefinitionIndex = 80461;
+	inline static constexpr unsigned int GroupVariableHelper__GetValue_d__11_TypeDefinitionIndex = 51593;
 
 	struct alignas(8) GroupVariableHelper__GetValue_d__11
 	{
-		::Foundation::ViewObject::GroupVariableHelper* __4__this; // 0x10
-		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x18
-		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder_1<::System::ValueTuple_2<::System::Boolean, ::System::Int32>> __t__builder; // 0x28
-		::System::ValueTuple_2<::System::UInt32, ::System::String*> key; // 0x40
+		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x10
+		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder_1<::System::ValueTuple_2<::System::Boolean, ::System::Int32>> __t__builder; // 0x20
+		::System::ValueTuple_2<::System::UInt32, ::System::String*> key; // 0x38
+		::Foundation::ViewObject::GroupVariableHelper* __4__this; // 0x48
 		::System::Int32 __1__state; // 0x50
 
 		::System::Void MoveNext()

@@ -3,15 +3,15 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int CubeLightBakeOnly_NamedFace_TypeDefinitionIndex = 27210;
+	inline static constexpr unsigned int CubeLightBakeOnly_NamedFace_TypeDefinitionIndex = 27647;
 
 	enum class CubeLightBakeOnly_NamedFace : ::System::Int32
 	{
-		Left = 2,
-		Bottom = 5,
-		Back = 3,
-		Right = 0,
-		Front = 1,
 		Top = 4,
+		Left = 2,
+		Front = 1,
+		Back = 3,
+		Bottom = 5,
+		Right = 0,
 	};
 }

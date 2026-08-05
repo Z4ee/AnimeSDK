@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/PropertyAttribute.h"
 
-#define POSTPROCESS_MKGLOW_MINMAXRANGEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B85A490)
+#define POSTPROCESS_MKGLOW_MINMAXRANGEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC67A00)
 
 namespace PostProcess::MKGlow
 {
-	inline static constexpr unsigned int MinMaxRangeAttribute_TypeDefinitionIndex = 26215;
+	inline static constexpr unsigned int MinMaxRangeAttribute_TypeDefinitionIndex = 27930;
 
 	class MinMaxRangeAttribute : public ::UnityEngine::PropertyAttribute
 	{

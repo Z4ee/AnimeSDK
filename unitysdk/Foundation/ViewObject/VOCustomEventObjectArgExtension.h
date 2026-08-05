@@ -6,7 +6,7 @@
 
 namespace Foundation::ViewObject
 {
-	inline static constexpr unsigned int VOCustomEventObjectArgExtension_TypeDefinitionIndex = 73240;
+	inline static constexpr unsigned int VOCustomEventObjectArgExtension_TypeDefinitionIndex = 89987;
 
 	class VOCustomEventObjectArgExtension : public ::System::Object
 	{

@@ -4,7 +4,7 @@
 
 template <typename T> class Class_1_D3E9DE860A70D99F;
 
-inline static constexpr unsigned int Class_1_EFC058D486072C3C_TypeDefinitionIndex = 88533;
+inline static constexpr unsigned int Class_1_EFC058D486072C3C_TypeDefinitionIndex = 92626;
 
 template <typename TParam>
 class Class_1_EFC058D486072C3C : public ::System::Object

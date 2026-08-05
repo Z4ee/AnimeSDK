@@ -3,10 +3,10 @@
 #include "unitysdk/UnityEngine/Bounds.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define SUNSHADOWPVSBAKERANGE_GETAABB_OFFSET UNITYSDK_OFFSET(0x1AADD110)
-#define SUNSHADOWPVSBAKERANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AADD220)
+#define SUNSHADOWPVSBAKERANGE_GETAABB_OFFSET UNITYSDK_OFFSET(0x1BC41D40)
+#define SUNSHADOWPVSBAKERANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC41E50)
 
-inline static constexpr unsigned int SunShadowPVSBakeRange_TypeDefinitionIndex = 60407;
+inline static constexpr unsigned int SunShadowPVSBakeRange_TypeDefinitionIndex = 66706;
 
 class SunShadowPVSBakeRange : public ::UnityEngine::MonoBehaviour
 {

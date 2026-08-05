@@ -4,7 +4,7 @@
 
 namespace System { class String; }
 
-#define SYSTEM_ENUM_VALUESANDNAMES__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4E3F10)
+#define SYSTEM_ENUM_VALUESANDNAMES__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8B0400)
 
 namespace System
 {
@@ -13,8 +13,8 @@ namespace System
 	class Enum_ValuesAndNames : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt64>* Values; // 0x10
-		::Il2CppArray<::System::String*>* Names; // 0x18
+		::Il2CppArray<::System::String*>* Names; // 0x10
+		::Il2CppArray<::System::UInt64>* Values; // 0x18
 
 		::System::Void _ctor(::Il2CppArray<::System::UInt64>* values, ::Il2CppArray<::System::String*>* names)
 		{

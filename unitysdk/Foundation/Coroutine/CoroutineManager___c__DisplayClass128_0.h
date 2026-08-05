@@ -6,12 +6,12 @@
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 namespace UnityEngine { class CustomYieldInstruction; }
 
-#define FOUNDATION_COROUTINE_COROUTINEMANAGER___C__DISPLAYCLASS128_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1E4F12B0)
-#define FOUNDATION_COROUTINE_COROUTINEMANAGER___C__DISPLAYCLASS128_0__WAITUNTILDONE_B__0_OFFSET UNITYSDK_OFFSET(0x1E4F12C0)
+#define FOUNDATION_COROUTINE_COROUTINEMANAGER___C__DISPLAYCLASS128_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1F7814E0)
+#define FOUNDATION_COROUTINE_COROUTINEMANAGER___C__DISPLAYCLASS128_0__WAITUNTILDONE_B__0_OFFSET UNITYSDK_OFFSET(0x1F7814F0)
 
 namespace Foundation::Coroutine
 {
-	inline static constexpr unsigned int CoroutineManager___c__DisplayClass128_0_TypeDefinitionIndex = 8018;
+	inline static constexpr unsigned int CoroutineManager___c__DisplayClass128_0_TypeDefinitionIndex = 8045;
 
 	class CoroutineManager___c__DisplayClass128_0 : public ::System::Object
 	{

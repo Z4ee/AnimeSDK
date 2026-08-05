@@ -7,14 +7,14 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define UNITYENGINE_ONANIMATORFIXEDUPDATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1E83A910)
-#define UNITYENGINE_ONANIMATORFIXEDUPDATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1E83A940)
-#define UNITYENGINE_ONANIMATORFIXEDUPDATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1E83A5A0)
-#define UNITYENGINE_ONANIMATORFIXEDUPDATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E83A580)
+#define UNITYENGINE_ONANIMATORFIXEDUPDATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1FC14B50)
+#define UNITYENGINE_ONANIMATORFIXEDUPDATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1FC14BC0)
+#define UNITYENGINE_ONANIMATORFIXEDUPDATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1FC146C0)
+#define UNITYENGINE_ONANIMATORFIXEDUPDATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1FC146A0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int OnAnimatorFixedUpdate_TypeDefinitionIndex = 6627;
+	inline static constexpr unsigned int OnAnimatorFixedUpdate_TypeDefinitionIndex = 6633;
 
 	class OnAnimatorFixedUpdate : public ::System::MulticastDelegate
 	{
@@ -24,14 +24,14 @@ namespace UnityEngine
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_ONANIMATORFIXEDUPDATE__CTOR_OFFSET))(this, object, method);
 		}
 
-		::Unity::Jobs::JobHandle Invoke()
+		::Unity::Jobs::JobHandle Invoke(::Unity::Jobs::JobHandle dependsOn)
 		{
-			return ((::Unity::Jobs::JobHandle(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_ONANIMATORFIXEDUPDATE_INVOKE_OFFSET))(this);
+			return ((::Unity::Jobs::JobHandle(*)(::PVOID, ::Unity::Jobs::JobHandle))((::PBYTE)hIl2Cpp + UNITYENGINE_ONANIMATORFIXEDUPDATE_INVOKE_OFFSET))(this, dependsOn);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::Unity::Jobs::JobHandle dependsOn, ::System::AsyncCallback* callback, ::System::Object* object)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_ONANIMATORFIXEDUPDATE_BEGININVOKE_OFFSET))(this, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::Unity::Jobs::JobHandle, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_ONANIMATORFIXEDUPDATE_BEGININVOKE_OFFSET))(this, dependsOn, callback, object);
 		}
 
 		::Unity::Jobs::JobHandle EndInvoke(::System::IAsyncResult* result)

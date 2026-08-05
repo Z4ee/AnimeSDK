@@ -7,7 +7,7 @@ namespace UnityEngine::NAPRenderPipeline0 { template <typename T> class ObjectPo
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int DictionaryPool_2_TypeDefinitionIndex = 5973;
+	inline static constexpr unsigned int DictionaryPool_2_TypeDefinitionIndex = 5975;
 
 	template <typename TKey, typename TValue>
 	class DictionaryPool_2 : public ::System::Object

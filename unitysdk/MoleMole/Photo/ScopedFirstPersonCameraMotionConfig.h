@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define MOLEMOLE_PHOTO_SCOPEDFIRSTPERSONCAMERAMOTIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x12BDA760)
+#define MOLEMOLE_PHOTO_SCOPEDFIRSTPERSONCAMERAMOTIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x13859B20)
 
 namespace MoleMole::Photo
 {
-	inline static constexpr unsigned int ScopedFirstPersonCameraMotionConfig_TypeDefinitionIndex = 86967;
+	inline static constexpr unsigned int ScopedFirstPersonCameraMotionConfig_TypeDefinitionIndex = 78361;
 
 	class ScopedFirstPersonCameraMotionConfig : public ::System::Object
 	{

@@ -6,11 +6,11 @@
 namespace System { class String; }
 namespace UnityEngine::InputSystem { class InputAction; }
 
-#define UNITYENGINE_INPUTSYSTEM_INPUTACTIONMAP_READACTIONJSON_TOACTION_OFFSET UNITYSDK_OFFSET(0xA42CB0)
+#define UNITYENGINE_INPUTSYSTEM_INPUTACTIONMAP_READACTIONJSON_TOACTION_OFFSET UNITYSDK_OFFSET(0xA95D90)
 
 namespace UnityEngine::InputSystem
 {
-	inline static constexpr unsigned int InputActionMap_ReadActionJson_TypeDefinitionIndex = 31540;
+	inline static constexpr unsigned int InputActionMap_ReadActionJson_TypeDefinitionIndex = 32160;
 
 	struct alignas(8) InputActionMap_ReadActionJson
 	{

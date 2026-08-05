@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class LineRenderer; }
 
-#define MOLEMOLE_LASERSEGMENTS__CTOR_OFFSET UNITYSDK_OFFSET(0x1582AC00)
+#define MOLEMOLE_LASERSEGMENTS__CTOR_OFFSET UNITYSDK_OFFSET(0x129AB8C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int LaserSegments_TypeDefinitionIndex = 61282;
+	inline static constexpr unsigned int LaserSegments_TypeDefinitionIndex = 71422;
 
 	class LaserSegments : public ::System::Object
 	{

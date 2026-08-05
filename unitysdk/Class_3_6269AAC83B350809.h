@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_2_CCFE785C3F41C676.h"
+#include "unitysdk/Class_2_B0798E1629E01207.h"
 
 class Class_1_8A50BFB20D9D2482;
 namespace MoleMole { template <typename T> class TwoValue_1; }
@@ -12,36 +12,36 @@ namespace UnityEngine::NAPRenderPipeline0 { class VolumeProfile_NativeSRP; }
 namespace UnityEngine::Rendering { class Volume; }
 namespace UnityEngine::Rendering::Universal { class ColorCurves; }
 
-#define CLASS_3_6269AAC83B350809_METHOD_3_0E3F6339CCA1EC9C_OFFSET UNITYSDK_OFFSET(0x13E25A50)
-#define CLASS_3_6269AAC83B350809_METHOD_3_217DB5C60ACF018E_OFFSET UNITYSDK_OFFSET(0x13E27BB0)
-#define CLASS_3_6269AAC83B350809_METHOD_3_76A35C083DB15DF6_OFFSET UNITYSDK_OFFSET(0x13E25160)
-#define CLASS_3_6269AAC83B350809_METHOD_3_81B89C939D3CDEA1_OFFSET UNITYSDK_OFFSET(0x13E264E0)
-#define CLASS_3_6269AAC83B350809_METHOD_3_95DC40DE475F1C94_OFFSET UNITYSDK_OFFSET(0x13E244F0)
-#define CLASS_3_6269AAC83B350809_METHOD_3_98BE208E9066128C_OFFSET UNITYSDK_OFFSET(0x13E271C0)
-#define CLASS_3_6269AAC83B350809_TOSTRING_OFFSET UNITYSDK_OFFSET(0x13E28020)
-#define CLASS_3_6269AAC83B350809__CTOR_OFFSET UNITYSDK_OFFSET(0x13E24320)
+#define CLASS_3_6269AAC83B350809_METHOD_3_0E3F6339CCA1EC9C_OFFSET UNITYSDK_OFFSET(0x15984F10)
+#define CLASS_3_6269AAC83B350809_METHOD_3_217DB5C60ACF018E_OFFSET UNITYSDK_OFFSET(0x15987020)
+#define CLASS_3_6269AAC83B350809_METHOD_3_76A35C083DB15DF6_OFFSET UNITYSDK_OFFSET(0x15984630)
+#define CLASS_3_6269AAC83B350809_METHOD_3_81B89C939D3CDEA1_OFFSET UNITYSDK_OFFSET(0x15985980)
+#define CLASS_3_6269AAC83B350809_METHOD_3_95DC40DE475F1C94_OFFSET UNITYSDK_OFFSET(0x159839D0)
+#define CLASS_3_6269AAC83B350809_METHOD_3_98BE208E9066128C_OFFSET UNITYSDK_OFFSET(0x15986640)
+#define CLASS_3_6269AAC83B350809_TOSTRING_OFFSET UNITYSDK_OFFSET(0x15987480)
+#define CLASS_3_6269AAC83B350809__CTOR_OFFSET UNITYSDK_OFFSET(0x15983800)
 
-inline static constexpr unsigned int Class_3_6269AAC83B350809_TypeDefinitionIndex = 51676;
+inline static constexpr unsigned int Class_3_6269AAC83B350809_TypeDefinitionIndex = 66573;
 
-class Class_3_6269AAC83B350809 : public ::Class_2_CCFE785C3F41C676<::UnityEngine::Rendering::Universal::ColorCurves*, ::MoleMole::Config::ConfigEntityColorCurvesEffect*>
+class Class_3_6269AAC83B350809 : public ::Class_2_B0798E1629E01207<::UnityEngine::Rendering::Universal::ColorCurves*, ::MoleMole::Config::ConfigEntityColorCurvesEffect*>
 {
 public:
-	::MoleMole::TwoValue_1<::UnityEngine::NAPRenderPipeline0::TextureCurve*>* Field_3_4; // 0xA8
-	::UnityEngine::NAPRenderPipeline0::TextureCurve* Field_3_7; // 0xB0
-	::UnityEngine::NAPRenderPipeline0::TextureCurve* Field_3_11; // 0xB8
-	::MoleMole::TwoValue_1<::UnityEngine::NAPRenderPipeline0::TextureCurve*>* Field_3_8; // 0xC0
-	::MoleMole::TwoValue_1<::UnityEngine::NAPRenderPipeline0::TextureCurve*>* Field_3_0; // 0xC8
-	::UnityEngine::NAPRenderPipeline0::TextureCurve* Field_3_9; // 0xD0
-	::MoleMole::TwoValue_1<::UnityEngine::NAPRenderPipeline0::TextureCurve*>* Field_3_12; // 0xD8
-	::MoleMole::TwoValue_1<::UnityEngine::NAPRenderPipeline0::TextureCurve*>* Field_3_10; // 0xE0
-	::UnityEngine::NAPRenderPipeline0::TextureCurve* Field_3_5; // 0xE8
-	::MoleMole::TwoValue_1<::UnityEngine::NAPRenderPipeline0::TextureCurve*>* Field_3_14; // 0xF0
-	::MoleMole::TwoValue_1<::UnityEngine::NAPRenderPipeline0::TextureCurve*>* Field_3_6; // 0xF8
-	::UnityEngine::NAPRenderPipeline0::TextureCurve* Field_3_3; // 0x100
-	::UnityEngine::NAPRenderPipeline0::TextureCurve* Field_3_1; // 0x108
-	::UnityEngine::NAPRenderPipeline0::TextureCurve* Field_3_15; // 0x110
-	::MoleMole::TwoValue_1<::UnityEngine::NAPRenderPipeline0::TextureCurve*>* Field_3_2; // 0x118
-	::UnityEngine::NAPRenderPipeline0::TextureCurve* Field_3_13; // 0x120
+	::UnityEngine::NAPRenderPipeline0::TextureCurve* Field_3_8; // 0xA8
+	::UnityEngine::NAPRenderPipeline0::TextureCurve* Field_3_6; // 0xB0
+	::UnityEngine::NAPRenderPipeline0::TextureCurve* Field_3_0; // 0xB8
+	::MoleMole::TwoValue_1<::UnityEngine::NAPRenderPipeline0::TextureCurve*>* Field_3_13; // 0xC0
+	::MoleMole::TwoValue_1<::UnityEngine::NAPRenderPipeline0::TextureCurve*>* Field_3_11; // 0xC8
+	::UnityEngine::NAPRenderPipeline0::TextureCurve* Field_3_14; // 0xD0
+	::MoleMole::TwoValue_1<::UnityEngine::NAPRenderPipeline0::TextureCurve*>* Field_3_7; // 0xD8
+	::UnityEngine::NAPRenderPipeline0::TextureCurve* Field_3_10; // 0xE0
+	::MoleMole::TwoValue_1<::UnityEngine::NAPRenderPipeline0::TextureCurve*>* Field_3_15; // 0xE8
+	::MoleMole::TwoValue_1<::UnityEngine::NAPRenderPipeline0::TextureCurve*>* Field_3_9; // 0xF0
+	::UnityEngine::NAPRenderPipeline0::TextureCurve* Field_3_12; // 0xF8
+	::UnityEngine::NAPRenderPipeline0::TextureCurve* Field_3_4; // 0x100
+	::MoleMole::TwoValue_1<::UnityEngine::NAPRenderPipeline0::TextureCurve*>* Field_3_3; // 0x108
+	::MoleMole::TwoValue_1<::UnityEngine::NAPRenderPipeline0::TextureCurve*>* Field_3_5; // 0x110
+	::MoleMole::TwoValue_1<::UnityEngine::NAPRenderPipeline0::TextureCurve*>* Field_3_1; // 0x118
+	::UnityEngine::NAPRenderPipeline0::TextureCurve* Field_3_2; // 0x120
 
 	::System::Void _ctor(::System::String* a1, ::MoleMole::Config::ConfigEntityColorCurvesEffect* a2, ::UnityEngine::Rendering::Volume* a3, ::MoleMole::Battle::Entity* a4, ::Class_1_8A50BFB20D9D2482* a5)
 	{

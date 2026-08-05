@@ -7,10 +7,10 @@ namespace System { class String; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Mesh; }
 
-#define MONODAMAGETEXTROOT_START_OFFSET UNITYSDK_OFFSET(0x13849650)
-#define MONODAMAGETEXTROOT__CTOR_OFFSET UNITYSDK_OFFSET(0x13849790)
+#define MONODAMAGETEXTROOT_START_OFFSET UNITYSDK_OFFSET(0x15B21760)
+#define MONODAMAGETEXTROOT__CTOR_OFFSET UNITYSDK_OFFSET(0x15B218A0)
 
-inline static constexpr unsigned int MonoDamageTextRoot_TypeDefinitionIndex = 68904;
+inline static constexpr unsigned int MonoDamageTextRoot_TypeDefinitionIndex = 49062;
 
 class MonoDamageTextRoot : public ::UnityEngine::MonoBehaviour
 {

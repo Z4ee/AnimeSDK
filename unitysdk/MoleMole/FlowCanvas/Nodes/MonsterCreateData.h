@@ -5,11 +5,11 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_MONSTERCREATEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x10D49E30)
+#define MOLEMOLE_FLOWCANVAS_NODES_MONSTERCREATEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x16853160)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int MonsterCreateData_TypeDefinitionIndex = 46324;
+	inline static constexpr unsigned int MonsterCreateData_TypeDefinitionIndex = 85558;
 
 	class MonsterCreateData : public ::MoleMole::FlowCanvas::Nodes::MonsterCreateDataBase
 	{

@@ -4,7 +4,7 @@
 
 namespace UnityEngine { class Material; }
 
-inline static constexpr unsigned int UISinWaveGraphic_MaterialEntry_TypeDefinitionIndex = 65651;
+inline static constexpr unsigned int UISinWaveGraphic_MaterialEntry_TypeDefinitionIndex = 89855;
 
 struct alignas(8) UISinWaveGraphic_MaterialEntry
 {

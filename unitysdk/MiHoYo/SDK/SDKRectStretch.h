@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SDKRectStretch_TypeDefinitionIndex = 19768;
+	inline static constexpr unsigned int SDKRectStretch_TypeDefinitionIndex = 20116;
 
 	enum class SDKRectStretch : ::System::Int32
 	{

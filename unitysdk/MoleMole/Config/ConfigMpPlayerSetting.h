@@ -3,12 +3,12 @@
 #include "unitysdk/MoleMole/Config/ConfigSubSystemSettingBase.h"
 #include "unitysdk/MoleMole/ESystemSettingType.h"
 
-#define MOLEMOLE_CONFIG_CONFIGMPPLAYERSETTING_GET_SYSTEMSETTINGTYPE_OFFSET UNITYSDK_OFFSET(0x144E2C20)
-#define MOLEMOLE_CONFIG_CONFIGMPPLAYERSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x144E2C30)
+#define MOLEMOLE_CONFIG_CONFIGMPPLAYERSETTING_GET_SYSTEMSETTINGTYPE_OFFSET UNITYSDK_OFFSET(0x1BD5FC80)
+#define MOLEMOLE_CONFIG_CONFIGMPPLAYERSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD5FC90)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigMpPlayerSetting_TypeDefinitionIndex = 42327;
+	inline static constexpr unsigned int ConfigMpPlayerSetting_TypeDefinitionIndex = 43684;
 
 	class ConfigMpPlayerSetting : public ::MoleMole::Config::ConfigSubSystemSettingBase
 	{

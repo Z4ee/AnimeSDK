@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIDepositoryPageController_ERefreshType_TypeDefinitionIndex = 82558;
+	inline static constexpr unsigned int UIDepositoryPageController_ERefreshType_TypeDefinitionIndex = 41665;
 
 	enum class UIDepositoryPageController_ERefreshType : ::System::Int32
 	{

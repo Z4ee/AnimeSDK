@@ -6,11 +6,11 @@ namespace MoleMole::Config { class ConfigEntityShadowsMidtonesHighlightsEffect; 
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGENTITYSHADOWSMIDTONESHIGHLIGHTSEFFECTS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A344C10)
+#define MOLEMOLE_CONFIG_CONFIGENTITYSHADOWSMIDTONESHIGHLIGHTSEFFECTS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B54BE80)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigEntityShadowsMidtonesHighlightsEffects_TypeDefinitionIndex = 46882;
+	inline static constexpr unsigned int ConfigEntityShadowsMidtonesHighlightsEffects_TypeDefinitionIndex = 72175;
 
 	class ConfigEntityShadowsMidtonesHighlightsEffects : public ::Foundation::MihoyoSerializedScriptableObject
 	{

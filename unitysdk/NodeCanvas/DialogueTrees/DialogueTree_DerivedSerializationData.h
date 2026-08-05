@@ -5,11 +5,11 @@
 namespace NodeCanvas::DialogueTrees { class DialogueTree_ActorParameter; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NODECANVAS_DIALOGUETREES_DIALOGUETREE_DERIVEDSERIALIZATIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1D820160)
+#define NODECANVAS_DIALOGUETREES_DIALOGUETREE_DERIVEDSERIALIZATIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB92540)
 
 namespace NodeCanvas::DialogueTrees
 {
-	inline static constexpr unsigned int DialogueTree_DerivedSerializationData_TypeDefinitionIndex = 30115;
+	inline static constexpr unsigned int DialogueTree_DerivedSerializationData_TypeDefinitionIndex = 31165;
 
 	class DialogueTree_DerivedSerializationData : public ::System::Object
 	{

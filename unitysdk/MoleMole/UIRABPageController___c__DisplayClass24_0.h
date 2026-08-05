@@ -5,12 +5,12 @@
 namespace MoleMole { class UIRABPageController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIRABPAGECONTROLLER___C__DISPLAYCLASS24_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1569E980)
-#define MOLEMOLE_UIRABPAGECONTROLLER___C__DISPLAYCLASS24_0__PLAYBLACKMASKANI_B__0_OFFSET UNITYSDK_OFFSET(0x1569E990)
+#define MOLEMOLE_UIRABPAGECONTROLLER___C__DISPLAYCLASS24_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17D3D6A0)
+#define MOLEMOLE_UIRABPAGECONTROLLER___C__DISPLAYCLASS24_0__PLAYBLACKMASKANI_B__0_OFFSET UNITYSDK_OFFSET(0x17D3D6B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRABPageController___c__DisplayClass24_0_TypeDefinitionIndex = 65004;
+	inline static constexpr unsigned int UIRABPageController___c__DisplayClass24_0_TypeDefinitionIndex = 71015;
 
 	class UIRABPageController___c__DisplayClass24_0 : public ::System::Object
 	{

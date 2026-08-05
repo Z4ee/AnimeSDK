@@ -7,34 +7,34 @@ namespace Nap::NapECS { class EcsFilter; }
 namespace System { template <typename T> class Comparison_1; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define NAP_NAPECS_ECSWORLD___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B307E50)
-#define NAP_NAPECS_ECSWORLD___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B307E90)
-#define NAP_NAPECS_ECSWORLD___C__LINKFILTERARCHETYPE_B__59_0_OFFSET UNITYSDK_OFFSET(0x1B307EC0)
-#define NAP_NAPECS_ECSWORLD___C__MODIFYENTITYCOMPONENTSINTERNAL_B__53_0_OFFSET UNITYSDK_OFFSET(0x1B307EA0)
-#define NAP_NAPECS_ECSWORLD___C__MODIFYENTITYCOMPONENTSINTERNAL_B__53_1_OFFSET UNITYSDK_OFFSET(0x1B307EB0)
+#define NAP_NAPECS_ECSWORLD___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C856D40)
+#define NAP_NAPECS_ECSWORLD___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1C856D80)
+#define NAP_NAPECS_ECSWORLD___C__LINKFILTERARCHETYPE_B__59_0_OFFSET UNITYSDK_OFFSET(0x1C856DB0)
+#define NAP_NAPECS_ECSWORLD___C__MODIFYENTITYCOMPONENTSINTERNAL_B__53_0_OFFSET UNITYSDK_OFFSET(0x1C856D90)
+#define NAP_NAPECS_ECSWORLD___C__MODIFYENTITYCOMPONENTSINTERNAL_B__53_1_OFFSET UNITYSDK_OFFSET(0x1C856DA0)
 
 namespace Nap::NapECS
 {
-	inline static constexpr unsigned int EcsWorld___c_TypeDefinitionIndex = 37369;
+	inline static constexpr unsigned int EcsWorld___c_TypeDefinitionIndex = 37978;
 
 	class EcsWorld___c : public ::System::Object
 	{
 	public:
 		static ::System::Predicate_1<::Nap::NapECS::EcsComponent*>** StaticGet___9__53_1()
 		{
-			return (::System::Predicate_1<::Nap::NapECS::EcsComponent*>**)Il2CppClass::FromTypeDefinitionIndex(EcsWorld___c_TypeDefinitionIndex)->GetStaticField(0x28AC0);
-		}
-		static ::Nap::NapECS::EcsWorld___c** StaticGet___9()
-		{
-			return (::Nap::NapECS::EcsWorld___c**)Il2CppClass::FromTypeDefinitionIndex(EcsWorld___c_TypeDefinitionIndex)->GetStaticField(0x28AC8);
+			return (::System::Predicate_1<::Nap::NapECS::EcsComponent*>**)Il2CppClass::FromTypeDefinitionIndex(EcsWorld___c_TypeDefinitionIndex)->GetStaticField(0x2A3E0);
 		}
 		static ::System::Predicate_1<::Nap::NapECS::EcsComponent*>** StaticGet___9__53_0()
 		{
-			return (::System::Predicate_1<::Nap::NapECS::EcsComponent*>**)Il2CppClass::FromTypeDefinitionIndex(EcsWorld___c_TypeDefinitionIndex)->GetStaticField(0x28AD0);
+			return (::System::Predicate_1<::Nap::NapECS::EcsComponent*>**)Il2CppClass::FromTypeDefinitionIndex(EcsWorld___c_TypeDefinitionIndex)->GetStaticField(0x2A3E8);
 		}
 		static ::System::Comparison_1<::Nap::NapECS::EcsFilter*>** StaticGet___9__59_0()
 		{
-			return (::System::Comparison_1<::Nap::NapECS::EcsFilter*>**)Il2CppClass::FromTypeDefinitionIndex(EcsWorld___c_TypeDefinitionIndex)->GetStaticField(0x28AD8);
+			return (::System::Comparison_1<::Nap::NapECS::EcsFilter*>**)Il2CppClass::FromTypeDefinitionIndex(EcsWorld___c_TypeDefinitionIndex)->GetStaticField(0x2A3F0);
+		}
+		static ::Nap::NapECS::EcsWorld___c** StaticGet___9()
+		{
+			return (::Nap::NapECS::EcsWorld___c**)Il2CppClass::FromTypeDefinitionIndex(EcsWorld___c_TypeDefinitionIndex)->GetStaticField(0x2A3F8);
 		}
 
 		static ::System::Void _cctor()

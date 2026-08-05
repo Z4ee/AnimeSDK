@@ -5,19 +5,19 @@
 namespace System { class String; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
 
-#define MOLEMOLE_UISNAKEENDINGANIMSCRIPT_STRUCT_2_48E0785800803AF7_METHOD_2_DFE8217DFAECE9D2_OFFSET UNITYSDK_OFFSET(0xA67120)
-#define MOLEMOLE_UISNAKEENDINGANIMSCRIPT_STRUCT_2_48E0785800803AF7__CTOR_OFFSET UNITYSDK_OFFSET(0xA67100)
+#define MOLEMOLE_UISNAKEENDINGANIMSCRIPT_STRUCT_2_48E0785800803AF7_METHOD_2_DFE8217DFAECE9D2_OFFSET UNITYSDK_OFFSET(0xAA9220)
+#define MOLEMOLE_UISNAKEENDINGANIMSCRIPT_STRUCT_2_48E0785800803AF7__CTOR_OFFSET UNITYSDK_OFFSET(0xAA9200)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISnakeEndingAnimScript_Struct_2_48E0785800803AF7_TypeDefinitionIndex = 90994;
+	inline static constexpr unsigned int UISnakeEndingAnimScript_Struct_2_48E0785800803AF7_TypeDefinitionIndex = 94913;
 
 	struct alignas(8) UISnakeEndingAnimScript_Struct_2_48E0785800803AF7
 	{
 		::UnityEngine::UI::Extension::UILocalizationText* Field_2_0; // 0x10
-		::System::String* Field_2_1; // 0x18
-		::System::String* Field_2_2; // 0x20
-		::System::Boolean Field_2_3; // 0x28
+		::System::String* Field_2_7; // 0x18
+		::System::String* Field_2_6; // 0x20
+		::System::Boolean Field_2_5; // 0x28
 
 		::System::Void _ctor(::UnityEngine::UI::Extension::UILocalizationText* a1, ::System::String* a2, ::System::String* a3, ::System::Boolean a4)
 		{

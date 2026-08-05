@@ -7,13 +7,13 @@ namespace FlowCanvas { class FlowNode; }
 namespace ParadoxNotion { class ActionCall; }
 namespace System::Reflection { class MethodInfo; }
 
-#define FLOWCANVAS_NODES_LEGACY_REFLECTEDACTIONNODE_CALL_OFFSET UNITYSDK_OFFSET(0x1D81D6E0)
-#define FLOWCANVAS_NODES_LEGACY_REFLECTEDACTIONNODE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1D81D700)
-#define FLOWCANVAS_NODES_LEGACY_REFLECTEDACTIONNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D81D810)
+#define FLOWCANVAS_NODES_LEGACY_REFLECTEDACTIONNODE_CALL_OFFSET UNITYSDK_OFFSET(0x1EB8FAB0)
+#define FLOWCANVAS_NODES_LEGACY_REFLECTEDACTIONNODE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1EB8FAD0)
+#define FLOWCANVAS_NODES_LEGACY_REFLECTEDACTIONNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB8FBE0)
 
 namespace FlowCanvas::Nodes::Legacy
 {
-	inline static constexpr unsigned int ReflectedActionNode_TypeDefinitionIndex = 30880;
+	inline static constexpr unsigned int ReflectedActionNode_TypeDefinitionIndex = 30953;
 
 	class ReflectedActionNode : public ::FlowCanvas::Nodes::Legacy::ReflectedMethodNode
 	{

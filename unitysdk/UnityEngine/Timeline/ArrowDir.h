@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int ArrowDir_TypeDefinitionIndex = 32354;
+	inline static constexpr unsigned int ArrowDir_TypeDefinitionIndex = 32985;
 
 	enum class ArrowDir : ::System::Byte
 	{

@@ -6,7 +6,7 @@ namespace UnityEngine { class Transform; }
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int PBDParticleHook_TypeDefinitionIndex = 18746;
+	inline static constexpr unsigned int PBDParticleHook_TypeDefinitionIndex = 19155;
 
 	struct alignas(8) PBDParticleHook
 	{

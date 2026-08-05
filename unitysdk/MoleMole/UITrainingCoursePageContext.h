@@ -1,19 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_7A4252233BCEB3A9.h"
+#include "unitysdk/Enum_3_DBF2701137F18AA6.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UITRAININGCOURSEPAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16DF0070)
+#define MOLEMOLE_UITRAININGCOURSEPAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x140D6340)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UITrainingCoursePageContext_TypeDefinitionIndex = 54066;
+	inline static constexpr unsigned int UITrainingCoursePageContext_TypeDefinitionIndex = 69614;
 
 	class UITrainingCoursePageContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Enum_3_7A4252233BCEB3A9 FromCtrl; // 0x28
-		::System::Int32 LastSpecialID; // 0x30
+		::System::Int32 LastSpecialID; // 0x28
+		::Enum_3_DBF2701137F18AA6 FromCtrl; // 0x30
 
 		::System::Void _ctor()
 		{

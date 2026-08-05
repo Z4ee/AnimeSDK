@@ -7,11 +7,11 @@ namespace MoleMole::Config { class ConfigEntityRunState; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGENTITYRUNSTATES__CTOR_OFFSET UNITYSDK_OFFSET(0x17D52880)
+#define MOLEMOLE_CONFIG_CONFIGENTITYRUNSTATES__CTOR_OFFSET UNITYSDK_OFFSET(0x172A1A50)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigEntityRunStates_TypeDefinitionIndex = 67126;
+	inline static constexpr unsigned int ConfigEntityRunStates_TypeDefinitionIndex = 77288;
 
 	class ConfigEntityRunStates : public ::Foundation::MihoyoSerializedScriptableObject
 	{

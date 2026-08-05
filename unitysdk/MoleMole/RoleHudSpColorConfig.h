@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Color.h"
 
-#define MOLEMOLE_ROLEHUDSPCOLORCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18CF8810)
+#define MOLEMOLE_ROLEHUDSPCOLORCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x14500EB0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int RoleHudSpColorConfig_TypeDefinitionIndex = 82689;
+	inline static constexpr unsigned int RoleHudSpColorConfig_TypeDefinitionIndex = 67953;
 
 	class RoleHudSpColorConfig : public ::System::Object
 	{

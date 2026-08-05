@@ -4,11 +4,11 @@
 
 namespace UnityEngine::Timeline::Comic::DataSplitter { class BGMPageInfo; }
 
-#define UNITYENGINE_TIMELINE_COMIC_DATASPLITTER_BGMPAGEINFOSPLITTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E748CB0)
+#define UNITYENGINE_TIMELINE_COMIC_DATASPLITTER_BGMPAGEINFOSPLITTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB203D0)
 
 namespace UnityEngine::Timeline::Comic::DataSplitter
 {
-	inline static constexpr unsigned int BGMPageInfoSplitter_TypeDefinitionIndex = 32465;
+	inline static constexpr unsigned int BGMPageInfoSplitter_TypeDefinitionIndex = 33097;
 
 	class BGMPageInfoSplitter : public ::UnityEngine::Timeline::Comic::DataSplitter::DataSplitterBase_1<::UnityEngine::Timeline::Comic::DataSplitter::BGMPageInfo*>
 	{

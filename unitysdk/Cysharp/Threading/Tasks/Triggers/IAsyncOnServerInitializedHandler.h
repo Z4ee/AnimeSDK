@@ -4,7 +4,7 @@
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
-	inline static constexpr unsigned int IAsyncOnServerInitializedHandler_TypeDefinitionIndex = 31410;
+	inline static constexpr unsigned int IAsyncOnServerInitializedHandler_TypeDefinitionIndex = 32030;
 
 	class IAsyncOnServerInitializedHandler
 	{

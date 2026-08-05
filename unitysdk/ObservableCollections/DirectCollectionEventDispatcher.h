@@ -5,20 +5,20 @@
 namespace ObservableCollections { class CollectionEventDispatcherEventArgs; }
 namespace ObservableCollections { class ICollectionEventDispatcher; }
 
-#define OBSERVABLECOLLECTIONS_DIRECTCOLLECTIONEVENTDISPATCHER_POST_OFFSET UNITYSDK_OFFSET(0x1E5B2D40)
-#define OBSERVABLECOLLECTIONS_DIRECTCOLLECTIONEVENTDISPATCHER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E5B2E00)
-#define OBSERVABLECOLLECTIONS_DIRECTCOLLECTIONEVENTDISPATCHER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E5B2D30)
+#define OBSERVABLECOLLECTIONS_DIRECTCOLLECTIONEVENTDISPATCHER_POST_OFFSET UNITYSDK_OFFSET(0x1F9BE430)
+#define OBSERVABLECOLLECTIONS_DIRECTCOLLECTIONEVENTDISPATCHER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F9BE4F0)
+#define OBSERVABLECOLLECTIONS_DIRECTCOLLECTIONEVENTDISPATCHER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F9BE420)
 
 namespace ObservableCollections
 {
-	inline static constexpr unsigned int DirectCollectionEventDispatcher_TypeDefinitionIndex = 28190;
+	inline static constexpr unsigned int DirectCollectionEventDispatcher_TypeDefinitionIndex = 28677;
 
 	class DirectCollectionEventDispatcher : public ::System::Object
 	{
 	public:
 		static ::ObservableCollections::ICollectionEventDispatcher** StaticGet_Instance()
 		{
-			return (::ObservableCollections::ICollectionEventDispatcher**)Il2CppClass::FromTypeDefinitionIndex(DirectCollectionEventDispatcher_TypeDefinitionIndex)->GetStaticField(0x22D40);
+			return (::ObservableCollections::ICollectionEventDispatcher**)Il2CppClass::FromTypeDefinitionIndex(DirectCollectionEventDispatcher_TypeDefinitionIndex)->GetStaticField(0x24490);
 		}
 
 		::System::Void _ctor()

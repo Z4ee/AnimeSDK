@@ -4,11 +4,11 @@
 #include "unitysdk/UnityEngine/Rendering/Universal/LightOptimizeConfig_CommonOptimizeOption.h"
 #include "unitysdk/UnityEngine/Rendering/Universal/LightOptimizeConfig_FeatureToggleOptimizeOption.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_LIGHTOPTIMIZECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B19D3E0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_LIGHTOPTIMIZECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5D2F00)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int LightOptimizeConfig_TypeDefinitionIndex = 26972;
+	inline static constexpr unsigned int LightOptimizeConfig_TypeDefinitionIndex = 27161;
 
 	class LightOptimizeConfig : public ::System::Object
 	{

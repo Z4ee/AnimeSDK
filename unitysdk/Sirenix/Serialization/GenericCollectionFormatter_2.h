@@ -8,7 +8,7 @@ namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int GenericCollectionFormatter_2_TypeDefinitionIndex = 7463;
+	inline static constexpr unsigned int GenericCollectionFormatter_2_TypeDefinitionIndex = 7467;
 
 	template <typename TCollection, typename TElement>
 	class GenericCollectionFormatter_2 : public ::Sirenix::Serialization::BaseFormatter_1<TCollection>

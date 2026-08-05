@@ -3,18 +3,18 @@
 #include "unitysdk/Foundation/ViewObject/ViewObjectHandle.h"
 #include "unitysdk/System/ValueType.h"
 
-class Class_3_07AAFA6F7F79BEB3_1;
+class Class_3_07AAFA6F7F79BEB3;
 
-#define FOUNDATION_VIEWOBJECT_SCENEENTITYDATA_GET_CONFIGID_OFFSET UNITYSDK_OFFSET(0x8017B0)
-#define FOUNDATION_VIEWOBJECT_SCENEENTITYDATA_GET_GROUPID_OFFSET UNITYSDK_OFFSET(0x801750)
+#define FOUNDATION_VIEWOBJECT_SCENEENTITYDATA_GET_CONFIGID_OFFSET UNITYSDK_OFFSET(0x80FC20)
+#define FOUNDATION_VIEWOBJECT_SCENEENTITYDATA_GET_GROUPID_OFFSET UNITYSDK_OFFSET(0x80FBC0)
 
 namespace Foundation::ViewObject
 {
-	inline static constexpr unsigned int SceneEntityData_TypeDefinitionIndex = 43703;
+	inline static constexpr unsigned int SceneEntityData_TypeDefinitionIndex = 81024;
 
 	struct alignas(8) SceneEntityData
 	{
-		::Class_3_07AAFA6F7F79BEB3_1* ServerInfo; // 0x10
+		::Class_3_07AAFA6F7F79BEB3* ServerInfo; // 0x10
 		::Foundation::ViewObject::ViewObjectHandle ViewObjectHandle; // 0x18
 		::System::UInt64 CombineConfigID; // 0x28
 

@@ -5,11 +5,11 @@
 class Class_3_9D33A2E94B3E53DC;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIFISHQUICKSELECTPOPWINDOWCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x175D1650)
+#define MOLEMOLE_UIFISHQUICKSELECTPOPWINDOWCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x19384240)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIFishQuickSelectPopWindowContext_TypeDefinitionIndex = 63240;
+	inline static constexpr unsigned int UIFishQuickSelectPopWindowContext_TypeDefinitionIndex = 86456;
 
 	class UIFishQuickSelectPopWindowContext : public ::MoleMole::UIControllerContextBase
 	{

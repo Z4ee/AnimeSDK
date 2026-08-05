@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define NPCCROWD_ANIMATION_EXPOSEBONEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x10A03020)
+#define NPCCROWD_ANIMATION_EXPOSEBONEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x157B77A0)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int ExposeBoneInfo_TypeDefinitionIndex = 65103;
+	inline static constexpr unsigned int ExposeBoneInfo_TypeDefinitionIndex = 71547;
 
 	class ExposeBoneInfo : public ::System::Object
 	{

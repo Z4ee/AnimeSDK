@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UILiveHousePlay3DModelController; }
 
-#define MOLEMOLE_UILIVEHOUSEPLAY3DMODELCONTROLLER___C__DISPLAYCLASS67_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15279750)
-#define MOLEMOLE_UILIVEHOUSEPLAY3DMODELCONTROLLER___C__DISPLAYCLASS67_0__PLAYEMOJI_B__0_OFFSET UNITYSDK_OFFSET(0x15279760)
+#define MOLEMOLE_UILIVEHOUSEPLAY3DMODELCONTROLLER___C__DISPLAYCLASS67_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16515820)
+#define MOLEMOLE_UILIVEHOUSEPLAY3DMODELCONTROLLER___C__DISPLAYCLASS67_0__PLAYEMOJI_B__0_OFFSET UNITYSDK_OFFSET(0x16515830)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UILiveHousePlay3DModelController___c__DisplayClass67_0_TypeDefinitionIndex = 74330;
+	inline static constexpr unsigned int UILiveHousePlay3DModelController___c__DisplayClass67_0_TypeDefinitionIndex = 76436;
 
 	class UILiveHousePlay3DModelController___c__DisplayClass67_0 : public ::System::Object
 	{

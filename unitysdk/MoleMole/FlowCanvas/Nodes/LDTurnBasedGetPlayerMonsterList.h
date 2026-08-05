@@ -5,12 +5,12 @@
 namespace MoleMole::FlowCanvas::Nodes { class MonsterFantasyMonsterInfo; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDTURNBASEDGETPLAYERMONSTERLIST_INVOKE_OFFSET UNITYSDK_OFFSET(0x161E6FA0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDTURNBASEDGETPLAYERMONSTERLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x161E7170)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDTURNBASEDGETPLAYERMONSTERLIST_INVOKE_OFFSET UNITYSDK_OFFSET(0x144CF8E0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDTURNBASEDGETPLAYERMONSTERLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x144CFAB0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDTurnBasedGetPlayerMonsterList_TypeDefinitionIndex = 49976;
+	inline static constexpr unsigned int LDTurnBasedGetPlayerMonsterList_TypeDefinitionIndex = 73709;
 
 	class LDTurnBasedGetPlayerMonsterList : public ::FlowCanvas::Nodes::CallableFunctionNode_1<::System::Collections::Generic::List_1<::MoleMole::FlowCanvas::Nodes::MonsterFantasyMonsterInfo*>*>
 	{

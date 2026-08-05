@@ -4,10 +4,10 @@
 #include "unitysdk/System/ValueTuple_2.h"
 
 class Class_1_04057F2C2F6EB8E0;
-class Class_1_E85C6B6436A9E3DA;
-template <typename T> class Class_0_16E4307DCC41950C_10;
+class Class_1_EDECBB3B4D362847;
+template <typename T> class Class_0_16E4307DCC41950C_13;
 
-inline static constexpr unsigned int Class_1_FEA8684B102D7D9C_TypeDefinitionIndex = 28608;
+inline static constexpr unsigned int Class_1_FEA8684B102D7D9C_TypeDefinitionIndex = 29249;
 
 template <typename T1, typename T2>
 class Class_1_FEA8684B102D7D9C : public ::System::Object

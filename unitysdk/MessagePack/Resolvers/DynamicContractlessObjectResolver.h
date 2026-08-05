@@ -7,23 +7,23 @@ namespace MessagePack::Internal { class DynamicAssembly; }
 namespace System { class String; }
 namespace System { template <typename T> class Lazy_1; }
 
-#define MESSAGEPACK_RESOLVERS_DYNAMICCONTRACTLESSOBJECTRESOLVER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BCC72C0)
-#define MESSAGEPACK_RESOLVERS_DYNAMICCONTRACTLESSOBJECTRESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BCC72B0)
+#define MESSAGEPACK_RESOLVERS_DYNAMICCONTRACTLESSOBJECTRESOLVER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D068E10)
+#define MESSAGEPACK_RESOLVERS_DYNAMICCONTRACTLESSOBJECTRESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D068E00)
 
 namespace MessagePack::Resolvers
 {
-	inline static constexpr unsigned int DynamicContractlessObjectResolver_TypeDefinitionIndex = 30644;
+	inline static constexpr unsigned int DynamicContractlessObjectResolver_TypeDefinitionIndex = 30818;
 
 	class DynamicContractlessObjectResolver : public ::System::Object
 	{
 	public:
 		static ::MessagePack::Resolvers::DynamicContractlessObjectResolver** StaticGet_Instance()
 		{
-			return (::MessagePack::Resolvers::DynamicContractlessObjectResolver**)Il2CppClass::FromTypeDefinitionIndex(DynamicContractlessObjectResolver_TypeDefinitionIndex)->GetStaticField(0x241A0);
+			return (::MessagePack::Resolvers::DynamicContractlessObjectResolver**)Il2CppClass::FromTypeDefinitionIndex(DynamicContractlessObjectResolver_TypeDefinitionIndex)->GetStaticField(0x25AC0);
 		}
 		static ::System::Lazy_1<::MessagePack::Internal::DynamicAssembly*>** StaticGet_DynamicAssembly()
 		{
-			return (::System::Lazy_1<::MessagePack::Internal::DynamicAssembly*>**)Il2CppClass::FromTypeDefinitionIndex(DynamicContractlessObjectResolver_TypeDefinitionIndex)->GetStaticField(0x241A8);
+			return (::System::Lazy_1<::MessagePack::Internal::DynamicAssembly*>**)Il2CppClass::FromTypeDefinitionIndex(DynamicContractlessObjectResolver_TypeDefinitionIndex)->GetStaticField(0x25AC8);
 		}
 		// static const ::System::String* ModuleName; // 0x0
 

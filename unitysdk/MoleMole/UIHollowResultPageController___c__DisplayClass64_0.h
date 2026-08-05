@@ -5,12 +5,12 @@
 class Class_1_0D6706375CDAAE8C;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIHOLLOWRESULTPAGECONTROLLER___C__DISPLAYCLASS64_0__CTOR_OFFSET UNITYSDK_OFFSET(0x169F1A90)
-#define MOLEMOLE_UIHOLLOWRESULTPAGECONTROLLER___C__DISPLAYCLASS64_0__INITCARD_B__0_OFFSET UNITYSDK_OFFSET(0x169F1AA0)
+#define MOLEMOLE_UIHOLLOWRESULTPAGECONTROLLER___C__DISPLAYCLASS64_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18FB9080)
+#define MOLEMOLE_UIHOLLOWRESULTPAGECONTROLLER___C__DISPLAYCLASS64_0__INITCARD_B__0_OFFSET UNITYSDK_OFFSET(0x18FB9090)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowResultPageController___c__DisplayClass64_0_TypeDefinitionIndex = 57545;
+	inline static constexpr unsigned int UIHollowResultPageController___c__DisplayClass64_0_TypeDefinitionIndex = 41916;
 
 	class UIHollowResultPageController___c__DisplayClass64_0 : public ::System::Object
 	{

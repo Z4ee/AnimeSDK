@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SIRENIX_SERIALIZATION_REFLECTIONBEHAVIOURWATCHER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E88DC80)
+#define SIRENIX_SERIALIZATION_REFLECTIONBEHAVIOURWATCHER__CTOR_OFFSET UNITYSDK_OFFSET(0x1FC6CF90)
 
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int ReflectionBehaviourWatcher_TypeDefinitionIndex = 89782;
+	inline static constexpr unsigned int ReflectionBehaviourWatcher_TypeDefinitionIndex = 93713;
 
 	class ReflectionBehaviourWatcher : public ::System::Object
 	{

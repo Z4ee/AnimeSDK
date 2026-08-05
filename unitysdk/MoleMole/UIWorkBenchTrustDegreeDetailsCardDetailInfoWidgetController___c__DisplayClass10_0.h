@@ -6,7 +6,7 @@ class Class_2_CEF0D076577A9E4E;
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIWorkBenchTrustDegreeDetailsCardDetailInfoWidgetController___c__DisplayClass10_0_TypeDefinitionIndex = 85831;
+	inline static constexpr unsigned int UIWorkBenchTrustDegreeDetailsCardDetailInfoWidgetController___c__DisplayClass10_0_TypeDefinitionIndex = 42871;
 
 	struct alignas(8) UIWorkBenchTrustDegreeDetailsCardDetailInfoWidgetController___c__DisplayClass10_0
 	{

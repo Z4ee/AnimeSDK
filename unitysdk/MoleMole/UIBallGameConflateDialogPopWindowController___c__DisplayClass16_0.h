@@ -2,23 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_5C6F1F73B006644B;
-class Class_4_3F792B6B18E788BC;
+class Class_2_CBA88C3064AB66D1;
+class Class_4_4B20EFB7DF33E64F;
 namespace MoleMole { class UIBallGameConflateDialogPopWindowController; }
 
-#define MOLEMOLE_UIBALLGAMECONFLATEDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1E295FF0)
-#define MOLEMOLE_UIBALLGAMECONFLATEDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS16_0__PLAYCOMBINEANIMATION_B__0_OFFSET UNITYSDK_OFFSET(0x1E296000)
+#define MOLEMOLE_UIBALLGAMECONFLATEDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1E90C0E0)
+#define MOLEMOLE_UIBALLGAMECONFLATEDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS16_0__PLAYCOMBINEANIMATION_B__0_OFFSET UNITYSDK_OFFSET(0x1E90C0F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBallGameConflateDialogPopWindowController___c__DisplayClass16_0_TypeDefinitionIndex = 89360;
+	inline static constexpr unsigned int UIBallGameConflateDialogPopWindowController___c__DisplayClass16_0_TypeDefinitionIndex = 93282;
 
 	class UIBallGameConflateDialogPopWindowController___c__DisplayClass16_0 : public ::System::Object
 	{
 	public:
-		::Class_4_3F792B6B18E788BC* eventComponent; // 0x10
+		::Class_4_4B20EFB7DF33E64F* eventComponent; // 0x10
 		::MoleMole::UIBallGameConflateDialogPopWindowController* __4__this; // 0x18
-		::Class_2_5C6F1F73B006644B* model; // 0x20
+		::Class_2_CBA88C3064AB66D1* model; // 0x20
 
 		::System::Void _ctor()
 		{

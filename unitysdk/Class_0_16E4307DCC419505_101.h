@@ -1,10 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_63408CD90D50D6A5.h"
+#include "unitysdk/Struct_2_AFE109E3626F1DB3.h"
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_101_TypeDefinitionIndex = 28757;
+class Class_1_EDECBB3B4D362847;
 
-template <typename TEnv, typename TCtx, typename TParam>
+inline static constexpr unsigned int Class_0_16E4307DCC419505_101_TypeDefinitionIndex = 29589;
+
 class Class_0_16E4307DCC419505_101
 {
 public:

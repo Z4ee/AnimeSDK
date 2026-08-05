@@ -4,7 +4,7 @@
 
 namespace UnityEngine::InputSystem::LowLevel
 {
-	inline static constexpr unsigned int ActionEvent__m_ValueData_e__FixedBuffer_TypeDefinitionIndex = 31899;
+	inline static constexpr unsigned int ActionEvent__m_ValueData_e__FixedBuffer_TypeDefinitionIndex = 32519;
 
 	struct alignas(1) ActionEvent__m_ValueData_e__FixedBuffer
 	{

@@ -9,21 +9,21 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class MeshRenderer; }
 namespace UnityEngine::Rendering::Universal::Internal { class BakedPointShadowAtlas; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_BAKEDPOINTSHADOWLIGHTBAKER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1CEF27D0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_BAKEDPOINTSHADOWLIGHTBAKER_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x1CEF2B00)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_BAKEDPOINTSHADOWLIGHTBAKER_PUSHVALUETOLIGHT_OFFSET UNITYSDK_OFFSET(0x1CEF2820)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_BAKEDPOINTSHADOWLIGHTBAKER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CEF2B50)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_BAKEDPOINTSHADOWLIGHTBAKER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1E24C8D0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_BAKEDPOINTSHADOWLIGHTBAKER_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x1E24CC00)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_BAKEDPOINTSHADOWLIGHTBAKER_PUSHVALUETOLIGHT_OFFSET UNITYSDK_OFFSET(0x1E24C920)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_BAKEDPOINTSHADOWLIGHTBAKER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E24CC50)
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int BakedPointShadowLightBaker_TypeDefinitionIndex = 27192;
+	inline static constexpr unsigned int BakedPointShadowLightBaker_TypeDefinitionIndex = 26806;
 
 	class BakedPointShadowLightBaker : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		static ::UnityEngine::Rendering::Universal::Internal::BakedPointShadowLightBaker** StaticGet_instance()
 		{
-			return (::UnityEngine::Rendering::Universal::Internal::BakedPointShadowLightBaker**)Il2CppClass::FromTypeDefinitionIndex(BakedPointShadowLightBaker_TypeDefinitionIndex)->GetStaticField(0x22060);
+			return (::UnityEngine::Rendering::Universal::Internal::BakedPointShadowLightBaker**)Il2CppClass::FromTypeDefinitionIndex(BakedPointShadowLightBaker_TypeDefinitionIndex)->GetStaticField(0x23800);
 		}
 		::System::String* outputAssetPath; // 0x18
 		::System::String* outputAssetFileName; // 0x20

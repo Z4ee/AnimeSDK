@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class IComparer_1
 
 namespace Foundation
 {
-	inline static constexpr unsigned int IRenderLayerConfig_TypeDefinitionIndex = 89363;
+	inline static constexpr unsigned int IRenderLayerConfig_TypeDefinitionIndex = 93319;
 
 	class IRenderLayerConfig
 	{

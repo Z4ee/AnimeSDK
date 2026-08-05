@@ -6,21 +6,21 @@
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Renderer; }
 
-#define VATANIMATIONPLAYER_APPLYFRAMETORENDERERS_OFFSET UNITYSDK_OFFSET(0x1A0F6DF0)
-#define VATANIMATIONPLAYER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1A0F6BC0)
-#define VATANIMATIONPLAYER_PLAYANIMATION_OFFSET UNITYSDK_OFFSET(0x1A0F6CD0)
-#define VATANIMATIONPLAYER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1A0F70D0)
-#define VATANIMATIONPLAYER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A0F72B0)
-#define VATANIMATIONPLAYER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0F7210)
+#define VATANIMATIONPLAYER_APPLYFRAMETORENDERERS_OFFSET UNITYSDK_OFFSET(0x1C3FA720)
+#define VATANIMATIONPLAYER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1C3FA510)
+#define VATANIMATIONPLAYER_PLAYANIMATION_OFFSET UNITYSDK_OFFSET(0x1C3FA620)
+#define VATANIMATIONPLAYER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1C3FAA30)
+#define VATANIMATIONPLAYER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C3FAC10)
+#define VATANIMATIONPLAYER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C3FAB70)
 
-inline static constexpr unsigned int VATAnimationPlayer_TypeDefinitionIndex = 67997;
+inline static constexpr unsigned int VATAnimationPlayer_TypeDefinitionIndex = 80224;
 
 class VATAnimationPlayer : public ::Sirenix::OdinInspector::SerializedMonoBehaviour
 {
 public:
 	static ::System::Int32* StaticGet__Frame()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VATAnimationPlayer_TypeDefinitionIndex)->GetStaticField(0x11D60);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VATAnimationPlayer_TypeDefinitionIndex)->GetStaticField(0x12F30);
 	}
 	::System::Boolean useUnifiedSpeed; // 0x58
 	::System::Single playSpeed; // 0x5C

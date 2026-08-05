@@ -1,0 +1,67 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_D375C91CCE5D3999;
+class Class_2_208CC9941471731A_671;
+namespace MoleMole { class UIActivityCompRowTaskListWidgetController; }
+namespace System { class String; }
+
+#define CLASS_1_71EEEB3C4D8E4070_METHOD_1_46028E075EB9BD86_OFFSET UNITYSDK_OFFSET(0x18216900)
+#define CLASS_1_71EEEB3C4D8E4070_METHOD_1_683BB6672A796225_OFFSET UNITYSDK_OFFSET(0x182163E0)
+#define CLASS_1_71EEEB3C4D8E4070_METHOD_1_7223CD34BEFCBF48_OFFSET UNITYSDK_OFFSET(0x18216270)
+#define CLASS_1_71EEEB3C4D8E4070_METHOD_1_913947B6596EB50A_OFFSET UNITYSDK_OFFSET(0x18216A60)
+#define CLASS_1_71EEEB3C4D8E4070_METHOD_1_C3A527740D5A99C7_OFFSET UNITYSDK_OFFSET(0x182165C0)
+#define CLASS_1_71EEEB3C4D8E4070_METHOD_1_D545E2F706415F81_OFFSET UNITYSDK_OFFSET(0x18216B70)
+#define CLASS_1_71EEEB3C4D8E4070_METHOD_1_EDCDEA50000D48BF_OFFSET UNITYSDK_OFFSET(0x18216B20)
+#define CLASS_1_71EEEB3C4D8E4070__CTOR_OFFSET UNITYSDK_OFFSET(0x18216260)
+
+inline static constexpr unsigned int Class_1_71EEEB3C4D8E4070_TypeDefinitionIndex = 72913;
+
+class Class_1_71EEEB3C4D8E4070 : public ::System::Object
+{
+public:
+	::Class_1_D375C91CCE5D3999* Field_1_0; // 0x10
+	::System::String* Field_1_7; // 0x18
+	::MoleMole::UIActivityCompRowTaskListWidgetController* Field_1_6; // 0x20
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_71EEEB3C4D8E4070__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_1_7223CD34BEFCBF48()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_71EEEB3C4D8E4070_METHOD_1_7223CD34BEFCBF48_OFFSET))(this);
+	}
+
+	::System::Void Method_1_683BB6672A796225(::Class_2_208CC9941471731A_671* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_2_208CC9941471731A_671*))((::PBYTE)hIl2Cpp + CLASS_1_71EEEB3C4D8E4070_METHOD_1_683BB6672A796225_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_C3A527740D5A99C7(::Class_2_208CC9941471731A_671* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_2_208CC9941471731A_671*))((::PBYTE)hIl2Cpp + CLASS_1_71EEEB3C4D8E4070_METHOD_1_C3A527740D5A99C7_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_46028E075EB9BD86(::MoleMole::UIActivityCompRowTaskListWidgetController* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::MoleMole::UIActivityCompRowTaskListWidgetController*))((::PBYTE)hIl2Cpp + CLASS_1_71EEEB3C4D8E4070_METHOD_1_46028E075EB9BD86_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_913947B6596EB50A()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_71EEEB3C4D8E4070_METHOD_1_913947B6596EB50A_OFFSET))(this);
+	}
+
+	::System::Void Method_1_EDCDEA50000D48BF(::Class_1_D375C91CCE5D3999* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_D375C91CCE5D3999*))((::PBYTE)hIl2Cpp + CLASS_1_71EEEB3C4D8E4070_METHOD_1_EDCDEA50000D48BF_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_D545E2F706415F81()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_71EEEB3C4D8E4070_METHOD_1_D545E2F706415F81_OFFSET))(this);
+	}
+};

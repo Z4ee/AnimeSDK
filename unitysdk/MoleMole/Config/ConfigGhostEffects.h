@@ -8,11 +8,11 @@ namespace MoleMole::Config { class ConfigGhostMove; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGGHOSTEFFECTS__CTOR_OFFSET UNITYSDK_OFFSET(0x1929C090)
+#define MOLEMOLE_CONFIG_CONFIGGHOSTEFFECTS__CTOR_OFFSET UNITYSDK_OFFSET(0x14863AE0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigGhostEffects_TypeDefinitionIndex = 43593;
+	inline static constexpr unsigned int ConfigGhostEffects_TypeDefinitionIndex = 63252;
 
 	class ConfigGhostEffects : public ::Foundation::MihoyoSerializedScriptableObject
 	{

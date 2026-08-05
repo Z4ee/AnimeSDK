@@ -6,7 +6,7 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoUITimerCounter_RollConfig_TypeDefinitionIndex = 46884;
+	inline static constexpr unsigned int MonoUITimerCounter_RollConfig_TypeDefinitionIndex = 79331;
 
 	struct alignas(8) MonoUITimerCounter_RollConfig
 	{

@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_29;
+class Class_0_16E4307DCC419505_36;
 namespace MoleMole { class UIFlowerMainPageController___c__DisplayClass24_0; }
 
-#define MOLEMOLE_UIFLOWERMAINPAGECONTROLLER___C__DISPLAYCLASS24_2__CTOR_OFFSET UNITYSDK_OFFSET(0x1770CB50)
-#define MOLEMOLE_UIFLOWERMAINPAGECONTROLLER___C__DISPLAYCLASS24_2__FINISHFLOWER_B__8_OFFSET UNITYSDK_OFFSET(0x1770CB60)
+#define MOLEMOLE_UIFLOWERMAINPAGECONTROLLER___C__DISPLAYCLASS24_2__CTOR_OFFSET UNITYSDK_OFFSET(0x186AFDE0)
+#define MOLEMOLE_UIFLOWERMAINPAGECONTROLLER___C__DISPLAYCLASS24_2__FINISHFLOWER_B__8_OFFSET UNITYSDK_OFFSET(0x186AFDF0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIFlowerMainPageController___c__DisplayClass24_2_TypeDefinitionIndex = 67753;
+	inline static constexpr unsigned int UIFlowerMainPageController___c__DisplayClass24_2_TypeDefinitionIndex = 79455;
 
 	class UIFlowerMainPageController___c__DisplayClass24_2 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIFlowerMainPageController___c__DisplayClass24_0* CS___8__locals2; // 0x10
-		::Class_0_16E4307DCC419505_29* message; // 0x18
+		::Class_0_16E4307DCC419505_36* message; // 0x10
+		::MoleMole::UIFlowerMainPageController___c__DisplayClass24_0* CS___8__locals2; // 0x18
 
 		::System::Void _ctor()
 		{

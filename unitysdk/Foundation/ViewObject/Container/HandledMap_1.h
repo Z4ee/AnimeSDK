@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace Foundation::ViewObject::Container
 {
-	inline static constexpr unsigned int HandledMap_1_TypeDefinitionIndex = 70487;
+	inline static constexpr unsigned int HandledMap_1_TypeDefinitionIndex = 65225;
 
 	template <typename T>
 	class HandledMap_1 : public ::System::Object

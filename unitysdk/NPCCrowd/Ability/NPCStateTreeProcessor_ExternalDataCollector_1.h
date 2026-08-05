@@ -5,7 +5,7 @@
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int NPCStateTreeProcessor_ExternalDataCollector_1_TypeDefinitionIndex = 87473;
+	inline static constexpr unsigned int NPCStateTreeProcessor_ExternalDataCollector_1_TypeDefinitionIndex = 86822;
 
 	template <typename TJob>
 	struct NPCStateTreeProcessor_ExternalDataCollector_1

@@ -3,7 +3,7 @@
 
 namespace MoleMole::MaterialPropertyModifierEnumDefine
 {
-	inline static constexpr unsigned int AvatarShaderBlendMode_TypeDefinitionIndex = 78586;
+	inline static constexpr unsigned int AvatarShaderBlendMode_TypeDefinitionIndex = 70813;
 
 	enum class AvatarShaderBlendMode : ::System::Byte
 	{

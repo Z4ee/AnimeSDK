@@ -4,7 +4,7 @@
 
 namespace UnityEngine::InputSystem::DualShock::LowLevel
 {
-	inline static constexpr unsigned int DualSenseHIDBluetoothOutputReport__rawData_e__FixedBuffer_TypeDefinitionIndex = 31833;
+	inline static constexpr unsigned int DualSenseHIDBluetoothOutputReport__rawData_e__FixedBuffer_TypeDefinitionIndex = 32453;
 
 	struct alignas(1) DualSenseHIDBluetoothOutputReport__rawData_e__FixedBuffer
 	{

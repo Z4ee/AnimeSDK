@@ -4,18 +4,18 @@
 
 namespace System { class String; }
 
-#define FLUFFYUNDERWARE_DEVTOOLS_TABATTRIBUTE_SPLIT_OFFSET UNITYSDK_OFFSET(0x1D69F4B0)
-#define FLUFFYUNDERWARE_DEVTOOLS_TABATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D69F420)
+#define FLUFFYUNDERWARE_DEVTOOLS_TABATTRIBUTE_SPLIT_OFFSET UNITYSDK_OFFSET(0x1EA588A0)
+#define FLUFFYUNDERWARE_DEVTOOLS_TABATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA58740)
 
 namespace FluffyUnderware::DevTools
 {
-	inline static constexpr unsigned int TabAttribute_TypeDefinitionIndex = 28321;
+	inline static constexpr unsigned int TabAttribute_TypeDefinitionIndex = 28925;
 
 	class TabAttribute : public ::FluffyUnderware::DevTools::GroupAttribute
 	{
 	public:
-		::System::String* TabBarName; // 0x48
-		::System::String* TabName; // 0x50
+		::System::String* TabName; // 0x48
+		::System::String* TabBarName; // 0x50
 
 		::System::Void _ctor(::System::String* pathAndName)
 		{

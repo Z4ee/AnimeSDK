@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define PARADOXNOTION_HIERARCHYTREE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB9F350)
+#define PARADOXNOTION_HIERARCHYTREE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF95480)
 
 namespace ParadoxNotion
 {
-	inline static constexpr unsigned int HierarchyTree_TypeDefinitionIndex = 29878;
+	inline static constexpr unsigned int HierarchyTree_TypeDefinitionIndex = 30317;
 
 	class HierarchyTree : public ::System::Object
 	{

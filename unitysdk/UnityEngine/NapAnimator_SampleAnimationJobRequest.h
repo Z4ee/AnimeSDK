@@ -4,7 +4,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int NapAnimator_SampleAnimationJobRequest_TypeDefinitionIndex = 6651;
+	inline static constexpr unsigned int NapAnimator_SampleAnimationJobRequest_TypeDefinitionIndex = 6657;
 
 	struct alignas(8) NapAnimator_SampleAnimationJobRequest
 	{

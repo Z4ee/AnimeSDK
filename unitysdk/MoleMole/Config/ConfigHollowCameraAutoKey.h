@@ -7,12 +7,12 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCAMERAAUTOKEY_GETHOLLOWCAMERAKEY_OFFSET UNITYSDK_OFFSET(0xE96B730)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCAMERAAUTOKEY__CTOR_OFFSET UNITYSDK_OFFSET(0xE96B930)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCAMERAAUTOKEY_GETHOLLOWCAMERAKEY_OFFSET UNITYSDK_OFFSET(0xF13AF80)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCAMERAAUTOKEY__CTOR_OFFSET UNITYSDK_OFFSET(0xF13B180)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowCameraAutoKey_TypeDefinitionIndex = 45934;
+	inline static constexpr unsigned int ConfigHollowCameraAutoKey_TypeDefinitionIndex = 82831;
 
 	class ConfigHollowCameraAutoKey : public ::Foundation::MihoyoSerializedScriptableObject
 	{

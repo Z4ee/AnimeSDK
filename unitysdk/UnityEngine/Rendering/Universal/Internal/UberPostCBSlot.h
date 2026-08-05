@@ -3,13 +3,13 @@
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int UberPostCBSlot_TypeDefinitionIndex = 27014;
+	inline static constexpr unsigned int UberPostCBSlot_TypeDefinitionIndex = 27592;
 
 	enum class UberPostCBSlot : ::System::Int32
 	{
-		Base = 3,
 		ColorCorrection = 0,
-		ScreenEffectRandom = 2,
+		Base = 3,
 		ScreenEffectBase = 1,
+		ScreenEffectRandom = 2,
 	};
 }

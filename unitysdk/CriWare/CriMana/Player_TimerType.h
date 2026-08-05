@@ -3,7 +3,7 @@
 
 namespace CriWare::CriMana
 {
-	inline static constexpr unsigned int Player_TimerType_TypeDefinitionIndex = 34405;
+	inline static constexpr unsigned int Player_TimerType_TypeDefinitionIndex = 35059;
 
 	enum class Player_TimerType : ::System::Int32
 	{

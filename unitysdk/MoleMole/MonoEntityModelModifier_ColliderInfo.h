@@ -7,12 +7,12 @@ namespace MoleMole::Battle { class Entity; }
 namespace System { class String; }
 namespace UnityEngine { class Collider; }
 
-#define MOLEMOLE_MONOENTITYMODELMODIFIER_COLLIDERINFO_METHOD_1_E789FF67ABF2058D_OFFSET UNITYSDK_OFFSET(0x18301850)
-#define MOLEMOLE_MONOENTITYMODELMODIFIER_COLLIDERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18301840)
+#define MOLEMOLE_MONOENTITYMODELMODIFIER_COLLIDERINFO_METHOD_1_E789FF67ABF2058D_OFFSET UNITYSDK_OFFSET(0x19959EC0)
+#define MOLEMOLE_MONOENTITYMODELMODIFIER_COLLIDERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x19959EB0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoEntityModelModifier_ColliderInfo_TypeDefinitionIndex = 77654;
+	inline static constexpr unsigned int MonoEntityModelModifier_ColliderInfo_TypeDefinitionIndex = 60627;
 
 	class MonoEntityModelModifier_ColliderInfo : public ::System::Object
 	{

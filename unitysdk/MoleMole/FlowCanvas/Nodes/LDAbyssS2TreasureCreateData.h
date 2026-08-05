@@ -4,12 +4,12 @@
 
 namespace MoleMole::FlowCanvas::Nodes { class S2TreasureCreateData; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDABYSSS2TREASURECREATEDATA_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x12609930)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDABYSSS2TREASURECREATEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x12609B40)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDABYSSS2TREASURECREATEDATA_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x149D6710)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDABYSSS2TREASURECREATEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x149D6920)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDAbyssS2TreasureCreateData_TypeDefinitionIndex = 77783;
+	inline static constexpr unsigned int LDAbyssS2TreasureCreateData_TypeDefinitionIndex = 81635;
 
 	class LDAbyssS2TreasureCreateData : public ::MoleMole::FlowCanvas::Nodes::ObjectFunctionNode_1<::MoleMole::FlowCanvas::Nodes::S2TreasureCreateData*>
 	{

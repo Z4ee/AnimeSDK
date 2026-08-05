@@ -4,24 +4,24 @@
 
 namespace System { template <typename T> class Comparison_1; }
 
-#define MOLEMOLE_MONOGAMEPADLINKMODULE___C_METHOD_1_19AD88039E2EEBF8_OFFSET UNITYSDK_OFFSET(0x15142240)
-#define MOLEMOLE_MONOGAMEPADLINKMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x151421F0)
-#define MOLEMOLE_MONOGAMEPADLINKMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15142230)
+#define MOLEMOLE_MONOGAMEPADLINKMODULE___C_METHOD_1_19AD88039E2EEBF8_OFFSET UNITYSDK_OFFSET(0x179168A0)
+#define MOLEMOLE_MONOGAMEPADLINKMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17916850)
+#define MOLEMOLE_MONOGAMEPADLINKMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17916890)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoGamepadLinkModule___c_TypeDefinitionIndex = 47359;
+	inline static constexpr unsigned int MonoGamepadLinkModule___c_TypeDefinitionIndex = 82505;
 
 	class MonoGamepadLinkModule___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::System::Single>** StaticGet___9__132_0()
-		{
-			return (::System::Comparison_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(MonoGamepadLinkModule___c_TypeDefinitionIndex)->GetStaticField(0x41190);
-		}
 		static ::MoleMole::MonoGamepadLinkModule___c** StaticGet___9()
 		{
-			return (::MoleMole::MonoGamepadLinkModule___c**)Il2CppClass::FromTypeDefinitionIndex(MonoGamepadLinkModule___c_TypeDefinitionIndex)->GetStaticField(0x41198);
+			return (::MoleMole::MonoGamepadLinkModule___c**)Il2CppClass::FromTypeDefinitionIndex(MonoGamepadLinkModule___c_TypeDefinitionIndex)->GetStaticField(0x427E0);
+		}
+		static ::System::Comparison_1<::System::Single>** StaticGet___9__132_0()
+		{
+			return (::System::Comparison_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(MonoGamepadLinkModule___c_TypeDefinitionIndex)->GetStaticField(0x427E8);
 		}
 
 		static ::System::Void _cctor()

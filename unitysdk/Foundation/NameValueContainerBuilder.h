@@ -13,10 +13,10 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class Comparer_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define FOUNDATION_NAMEVALUECONTAINERBUILDER_ADDNAME_OFFSET UNITYSDK_OFFSET(0x1E148560)
-#define FOUNDATION_NAMEVALUECONTAINERBUILDER_SORT_OFFSET UNITYSDK_OFFSET(0x1E1485A0)
-#define FOUNDATION_NAMEVALUECONTAINERBUILDER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E1486E0)
-#define FOUNDATION_NAMEVALUECONTAINERBUILDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E148650)
+#define FOUNDATION_NAMEVALUECONTAINERBUILDER_ADDNAME_OFFSET UNITYSDK_OFFSET(0x1F562490)
+#define FOUNDATION_NAMEVALUECONTAINERBUILDER_SORT_OFFSET UNITYSDK_OFFSET(0x1F5624D0)
+#define FOUNDATION_NAMEVALUECONTAINERBUILDER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F562610)
+#define FOUNDATION_NAMEVALUECONTAINERBUILDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F562580)
 
 namespace Foundation
 {
@@ -27,7 +27,7 @@ namespace Foundation
 	public:
 		static ::System::Collections::Generic::Comparer_1<::System::ValueTuple_2<::Foundation::Unreal::FName, ::System::Int32>>** StaticGet_Comparer()
 		{
-			return (::System::Collections::Generic::Comparer_1<::System::ValueTuple_2<::Foundation::Unreal::FName, ::System::Int32>>**)Il2CppClass::FromTypeDefinitionIndex(NameValueContainerBuilder_TypeDefinitionIndex)->GetStaticField(0x7510);
+			return (::System::Collections::Generic::Comparer_1<::System::ValueTuple_2<::Foundation::Unreal::FName, ::System::Int32>>**)Il2CppClass::FromTypeDefinitionIndex(NameValueContainerBuilder_TypeDefinitionIndex)->GetStaticField(0x7550);
 		}
 		::System::Collections::Generic::List_1<::System::ValueTuple_2<::Foundation::Unreal::FName, ::System::Int32>>* _names; // 0x10
 		::Foundation::NativeMemoryRequestHandle _keyRequest; // 0x18

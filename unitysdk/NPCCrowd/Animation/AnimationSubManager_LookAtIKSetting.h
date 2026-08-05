@@ -8,7 +8,7 @@
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int AnimationSubManager_LookAtIKSetting_TypeDefinitionIndex = 57463;
+	inline static constexpr unsigned int AnimationSubManager_LookAtIKSetting_TypeDefinitionIndex = 88311;
 
 	struct alignas(8) AnimationSubManager_LookAtIKSetting
 	{

@@ -3,12 +3,12 @@
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int GalPlayStoryNode_SwitchContinuousShakeType_TypeDefinitionIndex = 58729;
+	inline static constexpr unsigned int GalPlayStoryNode_SwitchContinuousShakeType_TypeDefinitionIndex = 59468;
 
 	enum class GalPlayStoryNode_SwitchContinuousShakeType : ::System::Int32
 	{
 		Attend = 1,
-		Exit = 2,
 		None = 0,
+		Exit = 2,
 	};
 }

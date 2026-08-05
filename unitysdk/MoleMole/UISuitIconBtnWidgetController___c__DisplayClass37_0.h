@@ -5,18 +5,18 @@
 namespace MoleMole { class UISuitIconBtnWidgetController; }
 namespace UnityEngine::Events { template <typename T> class UnityAction_1; }
 
-#define MOLEMOLE_UISUITICONBTNWIDGETCONTROLLER___C__DISPLAYCLASS37_0__CTOR_OFFSET UNITYSDK_OFFSET(0x122B93A0)
-#define MOLEMOLE_UISUITICONBTNWIDGETCONTROLLER___C__DISPLAYCLASS37_0__SETENABLEEMPTYCLICK_B__0_OFFSET UNITYSDK_OFFSET(0x122B93B0)
+#define MOLEMOLE_UISUITICONBTNWIDGETCONTROLLER___C__DISPLAYCLASS37_0__CTOR_OFFSET UNITYSDK_OFFSET(0x119F3E10)
+#define MOLEMOLE_UISUITICONBTNWIDGETCONTROLLER___C__DISPLAYCLASS37_0__SETENABLEEMPTYCLICK_B__0_OFFSET UNITYSDK_OFFSET(0x119F3E20)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISuitIconBtnWidgetController___c__DisplayClass37_0_TypeDefinitionIndex = 80847;
+	inline static constexpr unsigned int UISuitIconBtnWidgetController___c__DisplayClass37_0_TypeDefinitionIndex = 65200;
 
 	class UISuitIconBtnWidgetController___c__DisplayClass37_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UISuitIconBtnWidgetController* __4__this; // 0x10
-		::UnityEngine::Events::UnityAction_1<::System::Int32>* onClickEmpty; // 0x18
+		::UnityEngine::Events::UnityAction_1<::System::Int32>* onClickEmpty; // 0x10
+		::MoleMole::UISuitIconBtnWidgetController* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

@@ -9,12 +9,12 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_INVOKEONRENDEROBJECTCALLBACKPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1D6A6280)
-#define UNITYENGINE_NAPRENDERPIPELINE0_INVOKEONRENDEROBJECTCALLBACKPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6A61F0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_INVOKEONRENDEROBJECTCALLBACKPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1EA5F8F0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_INVOKEONRENDEROBJECTCALLBACKPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA5F860)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int InvokeOnRenderObjectCallbackPass_TypeDefinitionIndex = 5748;
+	inline static constexpr unsigned int InvokeOnRenderObjectCallbackPass_TypeDefinitionIndex = 5750;
 
 	class InvokeOnRenderObjectCallbackPass : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 	{

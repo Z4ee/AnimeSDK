@@ -4,11 +4,11 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NAPSTREAMING_NAPSTREAMINGDATA_STREAMINGPVSDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x13A09330)
+#define NAPSTREAMING_NAPSTREAMINGDATA_STREAMINGPVSDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x177E8AA0)
 
 namespace NapStreaming
 {
-	inline static constexpr unsigned int NapStreamingData_StreamingPVSData_TypeDefinitionIndex = 78659;
+	inline static constexpr unsigned int NapStreamingData_StreamingPVSData_TypeDefinitionIndex = 41796;
 
 	class NapStreamingData_StreamingPVSData : public ::System::Object
 	{

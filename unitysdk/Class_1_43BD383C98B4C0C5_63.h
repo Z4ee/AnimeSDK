@@ -1,13 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_76CCAEE20B3AE57C.h"
 #include "unitysdk/System/Object.h"
 
-namespace MoleMole { class UIUrbanMapPointWidgetContext; }
+#define CLASS_1_43BD383C98B4C0C5_63__CTOR_OFFSET UNITYSDK_OFFSET(0x159C2220)
 
-#define CLASS_1_43BD383C98B4C0C5_63__CTOR_OFFSET UNITYSDK_OFFSET(0x16FE4AC0)
-
-inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_63_TypeDefinitionIndex = 75509;
+inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_63_TypeDefinitionIndex = 44951;
 
 class Class_1_43BD383C98B4C0C5_63 : public ::System::Object
 {

@@ -6,19 +6,19 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace System::Reflection { class MethodInfo; }
 
-#define UTF8JSON_JSONSERIALIZER_NONGENERIC_COMPILEDMETHODS___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1E56AE00)
-#define UTF8JSON_JSONSERIALIZER_NONGENERIC_COMPILEDMETHODS___C__DISPLAYCLASS11_0__GETMETHOD_B__0_OFFSET UNITYSDK_OFFSET(0x1E56AE10)
-#define UTF8JSON_JSONSERIALIZER_NONGENERIC_COMPILEDMETHODS___C__DISPLAYCLASS11_0__GETMETHOD_B__1_OFFSET UNITYSDK_OFFSET(0x1E56AE70)
+#define UTF8JSON_JSONSERIALIZER_NONGENERIC_COMPILEDMETHODS___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1F95C2B0)
+#define UTF8JSON_JSONSERIALIZER_NONGENERIC_COMPILEDMETHODS___C__DISPLAYCLASS11_0__GETMETHOD_B__0_OFFSET UNITYSDK_OFFSET(0x1F95C2C0)
+#define UTF8JSON_JSONSERIALIZER_NONGENERIC_COMPILEDMETHODS___C__DISPLAYCLASS11_0__GETMETHOD_B__1_OFFSET UNITYSDK_OFFSET(0x1F95C320)
 
 namespace Utf8Json
 {
-	inline static constexpr unsigned int JsonSerializer_NonGeneric_CompiledMethods___c__DisplayClass11_0_TypeDefinitionIndex = 91086;
+	inline static constexpr unsigned int JsonSerializer_NonGeneric_CompiledMethods___c__DisplayClass11_0_TypeDefinitionIndex = 95019;
 
 	class JsonSerializer_NonGeneric_CompiledMethods___c__DisplayClass11_0 : public ::System::Object
 	{
 	public:
-		::System::String* name; // 0x10
-		::Il2CppArray<::System::Type*>* arguments; // 0x18
+		::Il2CppArray<::System::Type*>* arguments; // 0x10
+		::System::String* name; // 0x18
 
 		::System::Void _ctor()
 		{

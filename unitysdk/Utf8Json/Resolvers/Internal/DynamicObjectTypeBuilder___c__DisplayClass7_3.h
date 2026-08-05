@@ -6,12 +6,12 @@ namespace System::Reflection::Emit { class ILGenerator; }
 namespace Utf8Json::Internal::Emit { class MetaMember; }
 namespace Utf8Json::Resolvers::Internal { class DynamicObjectTypeBuilder___c__DisplayClass7_0; }
 
-#define UTF8JSON_RESOLVERS_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS7_3__BUILDANONYMOUSFORMATTER_B__7_OFFSET UNITYSDK_OFFSET(0x1E770A70)
-#define UTF8JSON_RESOLVERS_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS7_3__CTOR_OFFSET UNITYSDK_OFFSET(0x1E770A60)
+#define UTF8JSON_RESOLVERS_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS7_3__BUILDANONYMOUSFORMATTER_B__7_OFFSET UNITYSDK_OFFSET(0x1FB46150)
+#define UTF8JSON_RESOLVERS_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS7_3__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB46140)
 
 namespace Utf8Json::Resolvers::Internal
 {
-	inline static constexpr unsigned int DynamicObjectTypeBuilder___c__DisplayClass7_3_TypeDefinitionIndex = 91159;
+	inline static constexpr unsigned int DynamicObjectTypeBuilder___c__DisplayClass7_3_TypeDefinitionIndex = 95092;
 
 	class DynamicObjectTypeBuilder___c__DisplayClass7_3 : public ::System::Object
 	{

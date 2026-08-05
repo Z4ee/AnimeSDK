@@ -4,29 +4,29 @@
 
 namespace System { class Action; }
 
-#define NODEGRAPH_MAINCITY_REQUESTHALLGAMEEND___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x113768A0)
-#define NODEGRAPH_MAINCITY_REQUESTHALLGAMEEND___C__CTOR_OFFSET UNITYSDK_OFFSET(0x113768E0)
-#define NODEGRAPH_MAINCITY_REQUESTHALLGAMEEND___C__ONNODEACTIVE_B__6_0_OFFSET UNITYSDK_OFFSET(0x113768F0)
-#define NODEGRAPH_MAINCITY_REQUESTHALLGAMEEND___C__ONNODEACTIVE_B__6_1_OFFSET UNITYSDK_OFFSET(0x11376900)
+#define NODEGRAPH_MAINCITY_REQUESTHALLGAMEEND___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x13DFFC30)
+#define NODEGRAPH_MAINCITY_REQUESTHALLGAMEEND___C__CTOR_OFFSET UNITYSDK_OFFSET(0x13DFFC70)
+#define NODEGRAPH_MAINCITY_REQUESTHALLGAMEEND___C__ONNODEACTIVE_B__6_0_OFFSET UNITYSDK_OFFSET(0x13DFFC80)
+#define NODEGRAPH_MAINCITY_REQUESTHALLGAMEEND___C__ONNODEACTIVE_B__6_1_OFFSET UNITYSDK_OFFSET(0x13DFFC90)
 
 namespace NodeGraph::MainCity
 {
-	inline static constexpr unsigned int RequestHallGameEnd___c_TypeDefinitionIndex = 44942;
+	inline static constexpr unsigned int RequestHallGameEnd___c_TypeDefinitionIndex = 84432;
 
 	class RequestHallGameEnd___c : public ::System::Object
 	{
 	public:
 		static ::System::Action** StaticGet___9__6_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(RequestHallGameEnd___c_TypeDefinitionIndex)->GetStaticField(0x47050);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(RequestHallGameEnd___c_TypeDefinitionIndex)->GetStaticField(0x4DCA0);
 		}
 		static ::NodeGraph::MainCity::RequestHallGameEnd___c** StaticGet___9()
 		{
-			return (::NodeGraph::MainCity::RequestHallGameEnd___c**)Il2CppClass::FromTypeDefinitionIndex(RequestHallGameEnd___c_TypeDefinitionIndex)->GetStaticField(0x47058);
+			return (::NodeGraph::MainCity::RequestHallGameEnd___c**)Il2CppClass::FromTypeDefinitionIndex(RequestHallGameEnd___c_TypeDefinitionIndex)->GetStaticField(0x4DCA8);
 		}
 		static ::System::Action** StaticGet___9__6_1()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(RequestHallGameEnd___c_TypeDefinitionIndex)->GetStaticField(0x47060);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(RequestHallGameEnd___c_TypeDefinitionIndex)->GetStaticField(0x4DCB0);
 		}
 
 		static ::System::Void _cctor()

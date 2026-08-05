@@ -4,54 +4,54 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15E64270)
-#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15E642B0)
-#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER___C__ONCLICKDESTROY_B__64_1_OFFSET UNITYSDK_OFFSET(0x15E642C0)
-#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER___C__ONCLICKDESTROY_B__64_3_OFFSET UNITYSDK_OFFSET(0x15E642D0)
-#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER___C__ONCLICKMOVETOCONTAINER_B__71_1_OFFSET UNITYSDK_OFFSET(0x15E642F0)
-#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER___C__ONCLICKREPAIR_B__78_1_OFFSET UNITYSDK_OFFSET(0x15E64320)
-#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER___C__ONCLICKSELL_B__65_1_OFFSET UNITYSDK_OFFSET(0x15E642E0)
-#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER___C__ONCLICKSPLIT_B__74_2_OFFSET UNITYSDK_OFFSET(0x15E64300)
-#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER___C__ONCLICKUSEITEM_B__76_1_OFFSET UNITYSDK_OFFSET(0x15E64310)
+#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1709EBA0)
+#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1709EBE0)
+#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER___C__ONCLICKDESTROY_B__64_1_OFFSET UNITYSDK_OFFSET(0x1709EBF0)
+#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER___C__ONCLICKDESTROY_B__64_3_OFFSET UNITYSDK_OFFSET(0x1709EC00)
+#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER___C__ONCLICKMOVETOCONTAINER_B__71_1_OFFSET UNITYSDK_OFFSET(0x1709EC20)
+#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER___C__ONCLICKREPAIR_B__78_1_OFFSET UNITYSDK_OFFSET(0x1709EC50)
+#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER___C__ONCLICKSELL_B__65_1_OFFSET UNITYSDK_OFFSET(0x1709EC10)
+#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER___C__ONCLICKSPLIT_B__74_2_OFFSET UNITYSDK_OFFSET(0x1709EC30)
+#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER___C__ONCLICKUSEITEM_B__76_1_OFFSET UNITYSDK_OFFSET(0x1709EC40)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBangkovItemInfoWidgetController___c_TypeDefinitionIndex = 44862;
+	inline static constexpr unsigned int UIBangkovItemInfoWidgetController___c_TypeDefinitionIndex = 56446;
 
 	class UIBangkovItemInfoWidgetController___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__64_1()
+		static ::System::Action** StaticGet___9__76_1()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIBangkovItemInfoWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3A150);
-		}
-		static ::MoleMole::UIBangkovItemInfoWidgetController___c** StaticGet___9()
-		{
-			return (::MoleMole::UIBangkovItemInfoWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIBangkovItemInfoWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3A158);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIBangkovItemInfoWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3CED0);
 		}
 		static ::System::Action** StaticGet___9__74_2()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIBangkovItemInfoWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3A160);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIBangkovItemInfoWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3CED8);
 		}
-		static ::System::Action** StaticGet___9__64_3()
+		static ::MoleMole::UIBangkovItemInfoWidgetController___c** StaticGet___9()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIBangkovItemInfoWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3A168);
-		}
-		static ::System::Action** StaticGet___9__78_1()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIBangkovItemInfoWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3A170);
-		}
-		static ::System::Action** StaticGet___9__76_1()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIBangkovItemInfoWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3A178);
+			return (::MoleMole::UIBangkovItemInfoWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIBangkovItemInfoWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3CEE0);
 		}
 		static ::System::Action** StaticGet___9__65_1()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIBangkovItemInfoWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3A180);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIBangkovItemInfoWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3CEE8);
+		}
+		static ::System::Action** StaticGet___9__64_3()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIBangkovItemInfoWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3CEF0);
 		}
 		static ::System::Action** StaticGet___9__71_1()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIBangkovItemInfoWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3A188);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIBangkovItemInfoWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3CEF8);
+		}
+		static ::System::Action** StaticGet___9__64_1()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIBangkovItemInfoWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3CF00);
+		}
+		static ::System::Action** StaticGet___9__78_1()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIBangkovItemInfoWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3CF08);
 		}
 
 		static ::System::Void _cctor()

@@ -9,19 +9,19 @@ namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MESSAGEPACK_FORMATTERS_GRAPH_COMPOSITERESOLVER_CACHINGRESOLVER_ATTACHMOREFORMATTERS_OFFSET UNITYSDK_OFFSET(0x1D4032F0)
-#define MESSAGEPACK_FORMATTERS_GRAPH_COMPOSITERESOLVER_CACHINGRESOLVER_ATTACHMORERESOLVERS_OFFSET UNITYSDK_OFFSET(0x1D4034A0)
-#define MESSAGEPACK_FORMATTERS_GRAPH_COMPOSITERESOLVER_CACHINGRESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4031E0)
+#define MESSAGEPACK_FORMATTERS_GRAPH_COMPOSITERESOLVER_CACHINGRESOLVER_ATTACHMOREFORMATTERS_OFFSET UNITYSDK_OFFSET(0x1E7A89A0)
+#define MESSAGEPACK_FORMATTERS_GRAPH_COMPOSITERESOLVER_CACHINGRESOLVER_ATTACHMORERESOLVERS_OFFSET UNITYSDK_OFFSET(0x1E7A8B50)
+#define MESSAGEPACK_FORMATTERS_GRAPH_COMPOSITERESOLVER_CACHINGRESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7A8890)
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int Graph_CompositeResolver_CachingResolver_TypeDefinitionIndex = 30868;
+	inline static constexpr unsigned int Graph_CompositeResolver_CachingResolver_TypeDefinitionIndex = 30518;
 
 	class Graph_CompositeResolver_CachingResolver : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::MessagePack::Formatters::IMessagePackFormatter*>* subFormatters; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::Type*, ::MessagePack::Formatters::IMessagePackFormatter*>* formattersCache; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::Type*, ::MessagePack::Formatters::IMessagePackFormatter*>* formattersCache; // 0x10
+		::Il2CppArray<::MessagePack::Formatters::IMessagePackFormatter*>* subFormatters; // 0x18
 		::Il2CppArray<::MessagePack::IFormatterResolver*>* subResolvers; // 0x20
 
 		::System::Void _ctor(::Il2CppArray<::MessagePack::Formatters::IMessagePackFormatter*>* subFormatters, ::Il2CppArray<::MessagePack::IFormatterResolver*>* subResolvers)

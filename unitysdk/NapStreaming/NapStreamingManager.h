@@ -16,118 +16,119 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Camera; }
 namespace UnityEngine { class GameObject; }
 
-#define NAPSTREAMING_NAPSTREAMINGMANAGER_ADDADDITIONALPOSITION_OFFSET UNITYSDK_OFFSET(0xE0370D0)
-#define NAPSTREAMING_NAPSTREAMINGMANAGER_ADDSTREAMINGPOSPROVIDER_OFFSET UNITYSDK_OFFSET(0xE037720)
-#define NAPSTREAMING_NAPSTREAMINGMANAGER_APPLYSTREAMINGLAYERNEEDLOAD_OFFSET UNITYSDK_OFFSET(0xE036690)
-#define NAPSTREAMING_NAPSTREAMINGMANAGER_AWAKE_OFFSET UNITYSDK_OFFSET(0xE036290)
-#define NAPSTREAMING_NAPSTREAMINGMANAGER_CHECKISSTREAMINGDONE_OFFSET UNITYSDK_OFFSET(0xE039E20)
-#define NAPSTREAMING_NAPSTREAMINGMANAGER_DESTROYOBJECT_OFFSET UNITYSDK_OFFSET(0xE0393E0)
-#define NAPSTREAMING_NAPSTREAMINGMANAGER_FORCEUPDATESTREAMING_OFFSET UNITYSDK_OFFSET(0xE038210)
-#define NAPSTREAMING_NAPSTREAMINGMANAGER_GETLOGGINGCOSTTIME_OFFSET UNITYSDK_OFFSET(0xE036250)
-#define NAPSTREAMING_NAPSTREAMINGMANAGER_GETLOGGINGSUPPORT_OFFSET UNITYSDK_OFFSET(0xE0361C0)
-#define NAPSTREAMING_NAPSTREAMINGMANAGER_GET_ININITLOADING_OFFSET UNITYSDK_OFFSET(0xE038CA0)
-#define NAPSTREAMING_NAPSTREAMINGMANAGER_GET_INSTREAMINGSCENE_OFFSET UNITYSDK_OFFSET(0xE038B50)
-#define NAPSTREAMING_NAPSTREAMINGMANAGER_INVOKEADDITIONALPOSITIONLOADDONE_OFFSET UNITYSDK_OFFSET(0xE037360)
-#define NAPSTREAMING_NAPSTREAMINGMANAGER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xE03A7C0)
-#define NAPSTREAMING_NAPSTREAMINGMANAGER_LOADASSETASYNC_OFFSET UNITYSDK_OFFSET(0xE0392F0)
-#define NAPSTREAMING_NAPSTREAMINGMANAGER_LOADINITASSET_OFFSET UNITYSDK_OFFSET(0xE038EC0)
-#define NAPSTREAMING_NAPSTREAMINGMANAGER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xE03A890)
-#define NAPSTREAMING_NAPSTREAMINGMANAGER_REGISTERORRUNAFTERLOADACTION_OFFSET UNITYSDK_OFFSET(0xE0388C0)
-#define NAPSTREAMING_NAPSTREAMINGMANAGER_REMOVEADDTIONALPOSITION_OFFSET UNITYSDK_OFFSET(0xE0374F0)
-#define NAPSTREAMING_NAPSTREAMINGMANAGER_REMOVESTREAMINGPOSPROVIDER_OFFSET UNITYSDK_OFFSET(0xE037910)
-#define NAPSTREAMING_NAPSTREAMINGMANAGER_SETENABLEPOI_OFFSET UNITYSDK_OFFSET(0xE036F00)
-#define NAPSTREAMING_NAPSTREAMINGMANAGER_SETENABLEPVS_OFFSET UNITYSDK_OFFSET(0xE036D30)
-#define NAPSTREAMING_NAPSTREAMINGMANAGER_SETLOGGINGCOSTTIME_OFFSET UNITYSDK_OFFSET(0xE036200)
-#define NAPSTREAMING_NAPSTREAMINGMANAGER_SETLOGGINGSUPPORT_OFFSET UNITYSDK_OFFSET(0xE036170)
-#define NAPSTREAMING_NAPSTREAMINGMANAGER_SETSTREAMINGLAYERNEEDLOAD_OFFSET UNITYSDK_OFFSET(0xE0395C0)
-#define NAPSTREAMING_NAPSTREAMINGMANAGER_SETSTREAMINGOBJECTSVISIBLE_OFFSET UNITYSDK_OFFSET(0xE039AE0)
-#define NAPSTREAMING_NAPSTREAMINGMANAGER_STARTSTREAMING_OFFSET UNITYSDK_OFFSET(0xE038AF0)
-#define NAPSTREAMING_NAPSTREAMINGMANAGER_START_OFFSET UNITYSDK_OFFSET(0xE036970)
-#define NAPSTREAMING_NAPSTREAMINGMANAGER_UNLOADASSET_OFFSET UNITYSDK_OFFSET(0xE039460)
-#define NAPSTREAMING_NAPSTREAMINGMANAGER_UPDATESTREAMINGBYMAINCAMERA_OFFSET UNITYSDK_OFFSET(0xE03A210)
-#define NAPSTREAMING_NAPSTREAMINGMANAGER_UPDATESTREAMING_OFFSET UNITYSDK_OFFSET(0xE037E90)
-#define NAPSTREAMING_NAPSTREAMINGMANAGER_UPDATE_OFFSET UNITYSDK_OFFSET(0xE03A6F0)
-#define NAPSTREAMING_NAPSTREAMINGMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0xE03AD70)
-#define NAPSTREAMING_NAPSTREAMINGMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0xE03AC00)
+#define NAPSTREAMING_NAPSTREAMINGMANAGER_ADDADDITIONALPOSITION_OFFSET UNITYSDK_OFFSET(0x11951E10)
+#define NAPSTREAMING_NAPSTREAMINGMANAGER_ADDSTREAMINGPOSPROVIDER_OFFSET UNITYSDK_OFFSET(0x11952460)
+#define NAPSTREAMING_NAPSTREAMINGMANAGER_APPLYSTREAMINGLAYERNEEDLOAD_OFFSET UNITYSDK_OFFSET(0x119513D0)
+#define NAPSTREAMING_NAPSTREAMINGMANAGER_AWAKE_OFFSET UNITYSDK_OFFSET(0x11950F60)
+#define NAPSTREAMING_NAPSTREAMINGMANAGER_CHECKISSTREAMINGDONE_OFFSET UNITYSDK_OFFSET(0x11954F20)
+#define NAPSTREAMING_NAPSTREAMINGMANAGER_DESTROYOBJECT_OFFSET UNITYSDK_OFFSET(0x11954110)
+#define NAPSTREAMING_NAPSTREAMINGMANAGER_FORCEUPDATESTREAMING_OFFSET UNITYSDK_OFFSET(0x11952F50)
+#define NAPSTREAMING_NAPSTREAMINGMANAGER_GETLOGGINGCOSTTIME_OFFSET UNITYSDK_OFFSET(0x11950F20)
+#define NAPSTREAMING_NAPSTREAMINGMANAGER_GETLOGGINGSUPPORT_OFFSET UNITYSDK_OFFSET(0x11950E90)
+#define NAPSTREAMING_NAPSTREAMINGMANAGER_GETSTREAMINGLAYERNEEDLOAD_OFFSET UNITYSDK_OFFSET(0x119542F0)
+#define NAPSTREAMING_NAPSTREAMINGMANAGER_GET_ININITLOADING_OFFSET UNITYSDK_OFFSET(0x119539D0)
+#define NAPSTREAMING_NAPSTREAMINGMANAGER_GET_INSTREAMINGSCENE_OFFSET UNITYSDK_OFFSET(0x11953880)
+#define NAPSTREAMING_NAPSTREAMINGMANAGER_INVOKEADDITIONALPOSITIONLOADDONE_OFFSET UNITYSDK_OFFSET(0x119520A0)
+#define NAPSTREAMING_NAPSTREAMINGMANAGER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x119558C0)
+#define NAPSTREAMING_NAPSTREAMINGMANAGER_LOADASSETASYNC_OFFSET UNITYSDK_OFFSET(0x11954020)
+#define NAPSTREAMING_NAPSTREAMINGMANAGER_LOADINITASSET_OFFSET UNITYSDK_OFFSET(0x11953BF0)
+#define NAPSTREAMING_NAPSTREAMINGMANAGER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x11955990)
+#define NAPSTREAMING_NAPSTREAMINGMANAGER_REGISTERORRUNAFTERLOADACTION_OFFSET UNITYSDK_OFFSET(0x119535F0)
+#define NAPSTREAMING_NAPSTREAMINGMANAGER_REMOVEADDITIONALPOSITION_OFFSET UNITYSDK_OFFSET(0x11952230)
+#define NAPSTREAMING_NAPSTREAMINGMANAGER_REMOVESTREAMINGPOSPROVIDER_OFFSET UNITYSDK_OFFSET(0x11952650)
+#define NAPSTREAMING_NAPSTREAMINGMANAGER_SETENABLEPOI_OFFSET UNITYSDK_OFFSET(0x11951C40)
+#define NAPSTREAMING_NAPSTREAMINGMANAGER_SETENABLEPVS_OFFSET UNITYSDK_OFFSET(0x11951A70)
+#define NAPSTREAMING_NAPSTREAMINGMANAGER_SETLOGGINGCOSTTIME_OFFSET UNITYSDK_OFFSET(0x11950ED0)
+#define NAPSTREAMING_NAPSTREAMINGMANAGER_SETLOGGINGSUPPORT_OFFSET UNITYSDK_OFFSET(0x11950E40)
+#define NAPSTREAMING_NAPSTREAMINGMANAGER_SETSTREAMINGLAYERNEEDLOAD_OFFSET UNITYSDK_OFFSET(0x119546C0)
+#define NAPSTREAMING_NAPSTREAMINGMANAGER_SETSTREAMINGOBJECTSVISIBLE_OFFSET UNITYSDK_OFFSET(0x11954BE0)
+#define NAPSTREAMING_NAPSTREAMINGMANAGER_STARTSTREAMING_OFFSET UNITYSDK_OFFSET(0x11953820)
+#define NAPSTREAMING_NAPSTREAMINGMANAGER_START_OFFSET UNITYSDK_OFFSET(0x119516B0)
+#define NAPSTREAMING_NAPSTREAMINGMANAGER_UNLOADASSET_OFFSET UNITYSDK_OFFSET(0x11954190)
+#define NAPSTREAMING_NAPSTREAMINGMANAGER_UPDATESTREAMINGBYMAINCAMERA_OFFSET UNITYSDK_OFFSET(0x11955320)
+#define NAPSTREAMING_NAPSTREAMINGMANAGER_UPDATESTREAMING_OFFSET UNITYSDK_OFFSET(0x11952BD0)
+#define NAPSTREAMING_NAPSTREAMINGMANAGER_UPDATE_OFFSET UNITYSDK_OFFSET(0x119557F0)
+#define NAPSTREAMING_NAPSTREAMINGMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x11955ED0)
+#define NAPSTREAMING_NAPSTREAMINGMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x11955D60)
 
 namespace NapStreaming
 {
-	inline static constexpr unsigned int NapStreamingManager_TypeDefinitionIndex = 60037;
+	inline static constexpr unsigned int NapStreamingManager_TypeDefinitionIndex = 76988;
 
 	class NapStreamingManager : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::NapStreaming::NapStreamingManager** StaticGet_s_currentInstance()
-		{
-			return (::NapStreaming::NapStreamingManager**)Il2CppClass::FromTypeDefinitionIndex(NapStreamingManager_TypeDefinitionIndex)->GetStaticField(0x31240);
-		}
-		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::Vector3>** StaticGet_AdditionalPositions()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(NapStreamingManager_TypeDefinitionIndex)->GetStaticField(0x31248);
-		}
-		static ::System::Collections::Generic::Dictionary_2<::NapStreaming::StreamingLayer, ::System::Boolean>** StaticGet_ModifiedLayerLoadDict()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::NapStreaming::StreamingLayer, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(NapStreamingManager_TypeDefinitionIndex)->GetStaticField(0x31250);
-		}
 		static ::System::Collections::Generic::List_1<::System::String*>** StaticGet_ProviderTags()
 		{
-			return (::System::Collections::Generic::List_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(NapStreamingManager_TypeDefinitionIndex)->GetStaticField(0x31258);
+			return (::System::Collections::Generic::List_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(NapStreamingManager_TypeDefinitionIndex)->GetStaticField(0x33520);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::NapStreaming::NapStreamingManager_StreamingPosProvider*>** StaticGet_PosProviders()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::NapStreaming::NapStreamingManager_StreamingPosProvider*>**)Il2CppClass::FromTypeDefinitionIndex(NapStreamingManager_TypeDefinitionIndex)->GetStaticField(0x31260);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::NapStreaming::NapStreamingManager_StreamingPosProvider*>**)Il2CppClass::FromTypeDefinitionIndex(NapStreamingManager_TypeDefinitionIndex)->GetStaticField(0x33528);
+		}
+		static ::NapStreaming::NapStreamingManager** StaticGet_s_currentInstance()
+		{
+			return (::NapStreaming::NapStreamingManager**)Il2CppClass::FromTypeDefinitionIndex(NapStreamingManager_TypeDefinitionIndex)->GetStaticField(0x33530);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::NapStreaming::StreamingLayer, ::System::Boolean>** StaticGet_ModifiedLayerLoadDict()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::NapStreaming::StreamingLayer, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(NapStreamingManager_TypeDefinitionIndex)->GetStaticField(0x33538);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::Vector3>** StaticGet_AdditionalPositions()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(NapStreamingManager_TypeDefinitionIndex)->GetStaticField(0x33540);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Action*>** StaticGet_AdditionalLoadDoneCallbacks()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Action*>**)Il2CppClass::FromTypeDefinitionIndex(NapStreamingManager_TypeDefinitionIndex)->GetStaticField(0x31268);
-		}
-		static ::System::Int32* StaticGet_UnloadBatchCount()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NapStreamingManager_TypeDefinitionIndex)->GetStaticField(0xB270);
-		}
-		static ::System::Int32* StaticGet_AdditionalGlobalId()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NapStreamingManager_TypeDefinitionIndex)->GetStaticField(0xB274);
-		}
-		static ::System::Single* StaticGet_HLODDistanceCoefficient()
-		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(NapStreamingManager_TypeDefinitionIndex)->GetStaticField(0xB278);
-		}
-		static ::System::Int32* StaticGet_UnloadCurrentCount()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NapStreamingManager_TypeDefinitionIndex)->GetStaticField(0xB27C);
-		}
-		static ::UnityEngine::Vector3* StaticGet_ForceUpdateGap()
-		{
-			return (::UnityEngine::Vector3*)Il2CppClass::FromTypeDefinitionIndex(NapStreamingManager_TypeDefinitionIndex)->GetStaticField(0xB280);
+			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Action*>**)Il2CppClass::FromTypeDefinitionIndex(NapStreamingManager_TypeDefinitionIndex)->GetStaticField(0x33548);
 		}
 		static ::System::Single* StaticGet_LoadDistanceCoefficient()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(NapStreamingManager_TypeDefinitionIndex)->GetStaticField(0xB28C);
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(NapStreamingManager_TypeDefinitionIndex)->GetStaticField(0xB4B0);
 		}
-		static ::System::Boolean* StaticGet_EnablePOI()
+		static ::System::Int32* StaticGet_UnloadCurrentCount()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(NapStreamingManager_TypeDefinitionIndex)->GetStaticField(0xB290);
-		}
-		static ::System::Boolean* StaticGet_OpenLowPrefab()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(NapStreamingManager_TypeDefinitionIndex)->GetStaticField(0xB291);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NapStreamingManager_TypeDefinitionIndex)->GetStaticField(0xB4B4);
 		}
 		static ::System::Boolean* StaticGet_EnablePVS()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(NapStreamingManager_TypeDefinitionIndex)->GetStaticField(0xB292);
-		}
-		static ::System::Boolean* StaticGet_UseLowPrefab()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(NapStreamingManager_TypeDefinitionIndex)->GetStaticField(0xB293);
-		}
-		static ::System::Boolean* StaticGet_Enable()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(NapStreamingManager_TypeDefinitionIndex)->GetStaticField(0xB294);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(NapStreamingManager_TypeDefinitionIndex)->GetStaticField(0xB4B8);
 		}
 		static ::System::Boolean* StaticGet_OpenLoad()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(NapStreamingManager_TypeDefinitionIndex)->GetStaticField(0xB295);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(NapStreamingManager_TypeDefinitionIndex)->GetStaticField(0xB4B9);
+		}
+		static ::System::Boolean* StaticGet_UseLowPrefab()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(NapStreamingManager_TypeDefinitionIndex)->GetStaticField(0xB4BA);
+		}
+		static ::System::Boolean* StaticGet_OpenLowPrefab()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(NapStreamingManager_TypeDefinitionIndex)->GetStaticField(0xB4BB);
+		}
+		static ::System::Int32* StaticGet_UnloadBatchCount()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NapStreamingManager_TypeDefinitionIndex)->GetStaticField(0xB4BC);
+		}
+		static ::UnityEngine::Vector3* StaticGet_ForceUpdateGap()
+		{
+			return (::UnityEngine::Vector3*)Il2CppClass::FromTypeDefinitionIndex(NapStreamingManager_TypeDefinitionIndex)->GetStaticField(0xB4C0);
+		}
+		static ::System::Single* StaticGet_HLODDistanceCoefficient()
+		{
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(NapStreamingManager_TypeDefinitionIndex)->GetStaticField(0xB4CC);
+		}
+		static ::System::Boolean* StaticGet_EnablePOI()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(NapStreamingManager_TypeDefinitionIndex)->GetStaticField(0xB4D0);
+		}
+		static ::System::Boolean* StaticGet_Enable()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(NapStreamingManager_TypeDefinitionIndex)->GetStaticField(0xB4D1);
+		}
+		static ::System::Int32* StaticGet_AdditionalGlobalId()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NapStreamingManager_TypeDefinitionIndex)->GetStaticField(0xB4D4);
 		}
 		// static const ::System::String* SceneLoadTag; // 0x0
 		// static const ::System::Int32 InitTickCount = 0x3C; // 0x0
@@ -138,7 +139,8 @@ namespace NapStreaming
 		::System::Boolean checkVisible; // 0x28
 		::System::Boolean checkPOI; // 0x29
 		::System::Boolean forceStop; // 0x2A
-		::System::Boolean inInitLoading; // 0x2B
+		::System::Boolean forceUseLowPrefab; // 0x2B
+		::System::Boolean inInitLoading; // 0x2C
 		::System::Collections::Generic::Dictionary_2<::Foundation::AssetPath, ::Foundation::AssetRequestCompleteDel*>* startLoadedPaths; // 0x30
 		::System::Boolean additionalDirty; // 0x38
 		::System::Collections::Generic::List_1<::Foundation::AssetPath>* tickPaths; // 0x40
@@ -208,9 +210,9 @@ namespace NapStreaming
 			return ((::System::Void(*)(::System::Int32))((::PBYTE)hIl2Cpp + NAPSTREAMING_NAPSTREAMINGMANAGER_INVOKEADDITIONALPOSITIONLOADDONE_OFFSET))(additionalId);
 		}
 
-		static ::System::Void RemoveAddtionalPosition(::System::Int32 additionalId)
+		static ::System::Void RemoveAdditionalPosition(::System::Int32 additionalId)
 		{
-			return ((::System::Void(*)(::System::Int32))((::PBYTE)hIl2Cpp + NAPSTREAMING_NAPSTREAMINGMANAGER_REMOVEADDTIONALPOSITION_OFFSET))(additionalId);
+			return ((::System::Void(*)(::System::Int32))((::PBYTE)hIl2Cpp + NAPSTREAMING_NAPSTREAMINGMANAGER_REMOVEADDITIONALPOSITION_OFFSET))(additionalId);
 		}
 
 		static ::System::Void AddStreamingPosProvider(::System::String* tag, ::NapStreaming::NapStreamingManager_StreamingPosProvider* provider)
@@ -261,6 +263,11 @@ namespace NapStreaming
 		static ::System::Void UnloadAsset(::Foundation::AssetRequestHandle h, ::System::Boolean immediate)
 		{
 			return ((::System::Void(*)(::Foundation::AssetRequestHandle, ::System::Boolean))((::PBYTE)hIl2Cpp + NAPSTREAMING_NAPSTREAMINGMANAGER_UNLOADASSET_OFFSET))(h, immediate);
+		}
+
+		static ::System::Boolean GetStreamingLayerNeedLoad(::NapStreaming::StreamingLayer layer)
+		{
+			return ((::System::Boolean(*)(::NapStreaming::StreamingLayer))((::PBYTE)hIl2Cpp + NAPSTREAMING_NAPSTREAMINGMANAGER_GETSTREAMINGLAYERNEEDLOAD_OFFSET))(layer);
 		}
 
 		static ::System::Void SetStreamingLayerNeedLoad(::NapStreaming::StreamingLayer layer, ::System::Boolean needLoad)

@@ -3,12 +3,12 @@
 #include "unitysdk/Class_2_97B8C5560BEC00CB.h"
 
 namespace System { class String; }
-template <typename T> class Class_0_16E4307DCC41950C_18;
+template <typename T> class Class_0_16E4307DCC41950C_17;
 
-#define CLASS_3_DD4E81D56D779236_METHOD_3_2368D262BE3375E9_OFFSET UNITYSDK_OFFSET(0x1621B8B0)
-#define CLASS_3_DD4E81D56D779236__CTOR_OFFSET UNITYSDK_OFFSET(0x1621B840)
+#define CLASS_3_DD4E81D56D779236_METHOD_3_2368D262BE3375E9_OFFSET UNITYSDK_OFFSET(0x1420B130)
+#define CLASS_3_DD4E81D56D779236__CTOR_OFFSET UNITYSDK_OFFSET(0x1420B0C0)
 
-inline static constexpr unsigned int Class_3_DD4E81D56D779236_TypeDefinitionIndex = 59642;
+inline static constexpr unsigned int Class_3_DD4E81D56D779236_TypeDefinitionIndex = 50561;
 
 class Class_3_DD4E81D56D779236 : public ::Class_2_97B8C5560BEC00CB<::System::Int32, ::System::Int32>
 {
@@ -18,8 +18,8 @@ public:
 		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_3_DD4E81D56D779236__CTOR_OFFSET))(this, a1);
 	}
 
-	::Class_0_16E4307DCC41950C_18<::System::Int32>* Method_3_2368D262BE3375E9(::System::String* a1)
+	::Class_0_16E4307DCC41950C_17<::System::Int32>* Method_3_2368D262BE3375E9(::System::String* a1)
 	{
-		return ((::Class_0_16E4307DCC41950C_18<::System::Int32>*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_3_DD4E81D56D779236_METHOD_3_2368D262BE3375E9_OFFSET))(this, a1);
+		return ((::Class_0_16E4307DCC41950C_17<::System::Int32>*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_3_DD4E81D56D779236_METHOD_3_2368D262BE3375E9_OFFSET))(this, a1);
 	}
 };

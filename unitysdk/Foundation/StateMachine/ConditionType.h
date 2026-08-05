@@ -3,19 +3,19 @@
 
 namespace Foundation::StateMachine
 {
-	inline static constexpr unsigned int ConditionType_TypeDefinitionIndex = 8508;
+	inline static constexpr unsigned int ConditionType_TypeDefinitionIndex = 8592;
 
 	enum class ConditionType : ::System::Byte
 	{
-		IfNot = 0x2,
-		GreaterEquals = 0x9,
 		NotEqual = 0x7,
-		If = 0x1,
-		LessEquals = 0xA,
 		None = 0x0,
+		Max = 0xB,
 		Less = 0x4,
 		Greater = 0x3,
-		Max = 0xB,
+		LessEquals = 0xA,
+		GreaterEquals = 0x9,
+		IfNot = 0x2,
+		If = 0x1,
 		Equals = 0x6,
 	};
 }

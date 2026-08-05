@@ -8,7 +8,7 @@ namespace Foundation { template <typename T> class TickFunction_1; }
 
 namespace Foundation
 {
-	inline static constexpr unsigned int TickCollector_1_Node_TypeDefinitionIndex = 8524;
+	inline static constexpr unsigned int TickCollector_1_Node_TypeDefinitionIndex = 8846;
 
 	template <typename TTickingGroup>
 	struct TickCollector_1_Node

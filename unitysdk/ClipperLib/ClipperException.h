@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define CLIPPERLIB_CLIPPEREXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFE94E0)
+#define CLIPPERLIB_CLIPPEREXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1E3C59B0)
 
 namespace ClipperLib
 {
-	inline static constexpr unsigned int ClipperException_TypeDefinitionIndex = 32793;
+	inline static constexpr unsigned int ClipperException_TypeDefinitionIndex = 33428;
 
 	class ClipperException : public ::System::Exception
 	{

@@ -4,7 +4,7 @@
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int IValueBasedDamper_TypeDefinitionIndex = 37652;
+	inline static constexpr unsigned int IValueBasedDamper_TypeDefinitionIndex = 38313;
 
 	class IValueBasedDamper
 	{

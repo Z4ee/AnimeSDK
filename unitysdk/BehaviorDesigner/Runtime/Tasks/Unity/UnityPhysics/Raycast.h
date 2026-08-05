@@ -9,27 +9,27 @@ namespace BehaviorDesigner::Runtime { class SharedFloat; }
 namespace BehaviorDesigner::Runtime { class SharedGameObject; }
 namespace BehaviorDesigner::Runtime { class SharedVector3; }
 
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYPHYSICS_RAYCAST_ONRESET_OFFSET UNITYSDK_OFFSET(0x1E5FE250)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYPHYSICS_RAYCAST_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1E5FDA00)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYPHYSICS_RAYCAST__CTOR_OFFSET UNITYSDK_OFFSET(0x1E5FE310)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYPHYSICS_RAYCAST___BASE_ONRESET_OFFSET UNITYSDK_OFFSET(0x1E5FE3D0)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYPHYSICS_RAYCAST___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1E5FE460)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYPHYSICS_RAYCAST_ONRESET_OFFSET UNITYSDK_OFFSET(0x1F9E4C70)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYPHYSICS_RAYCAST_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1F9E4420)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYPHYSICS_RAYCAST__CTOR_OFFSET UNITYSDK_OFFSET(0x1F9E4D30)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYPHYSICS_RAYCAST___BASE_ONRESET_OFFSET UNITYSDK_OFFSET(0x1F9E4DF0)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYPHYSICS_RAYCAST___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1F9E4E80)
 
 namespace BehaviorDesigner::Runtime::Tasks::Unity::UnityPhysics
 {
-	inline static constexpr unsigned int Raycast_TypeDefinitionIndex = 33603;
+	inline static constexpr unsigned int Raycast_TypeDefinitionIndex = 34239;
 
 	class Raycast : public ::BehaviorDesigner::Runtime::Tasks::Action
 	{
 	public:
-		::BehaviorDesigner::Runtime::SharedGameObject* storeHitObject; // 0x58
-		::BehaviorDesigner::Runtime::SharedVector3* storeHitNormal; // 0x60
-		::BehaviorDesigner::Runtime::SharedVector3* originPosition; // 0x68
-		::BehaviorDesigner::Runtime::SharedGameObject* originGameObject; // 0x70
-		::BehaviorDesigner::Runtime::SharedFloat* storeHitDistance; // 0x78
-		::BehaviorDesigner::Runtime::SharedVector3* storeHitPoint; // 0x80
-		::BehaviorDesigner::Runtime::SharedVector3* direction; // 0x88
-		::BehaviorDesigner::Runtime::SharedFloat* distance; // 0x90
+		::BehaviorDesigner::Runtime::SharedGameObject* originGameObject; // 0x58
+		::BehaviorDesigner::Runtime::SharedGameObject* storeHitObject; // 0x60
+		::BehaviorDesigner::Runtime::SharedFloat* distance; // 0x68
+		::BehaviorDesigner::Runtime::SharedFloat* storeHitDistance; // 0x70
+		::BehaviorDesigner::Runtime::SharedVector3* storeHitPoint; // 0x78
+		::BehaviorDesigner::Runtime::SharedVector3* direction; // 0x80
+		::BehaviorDesigner::Runtime::SharedVector3* originPosition; // 0x88
+		::BehaviorDesigner::Runtime::SharedVector3* storeHitNormal; // 0x90
 		::UnityEngine::LayerMask layerMask; // 0x98
 		::UnityEngine::Space space; // 0x9C
 

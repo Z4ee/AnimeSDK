@@ -1,16 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/GalGame/GalPlayableNodeBase.h"
+#include "unitysdk/MoleMole/GalGame/GalPlayableNodeType.h"
 
 namespace MoleMole::GalGame { class BranchItem; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_GALGAME_GALCONDITIONNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x12BBD780)
+#define MOLEMOLE_GALGAME_GALCONDITIONNODE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1383EBF0)
+#define MOLEMOLE_GALGAME_GALCONDITIONNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1383EBB0)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int GalConditionNode_TypeDefinitionIndex = 46221;
+	inline static constexpr unsigned int GalConditionNode_TypeDefinitionIndex = 78072;
 
 	class GalConditionNode : public ::MoleMole::GalGame::GalPlayableNodeBase
 	{
@@ -22,6 +24,11 @@ namespace MoleMole::GalGame
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_GALGAME_GALCONDITIONNODE__CTOR_OFFSET))(this);
+		}
+
+		::System::Void _ctor_1(::MoleMole::GalGame::GalPlayableNodeType childNodeType)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::GalGame::GalPlayableNodeType))((::PBYTE)hIl2Cpp + MOLEMOLE_GALGAME_GALCONDITIONNODE__CTOR_1_OFFSET))(this, childNodeType);
 		}
 	};
 }

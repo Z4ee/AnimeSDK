@@ -1,0 +1,300 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Enum_3_03024D6472FC8F3A.h"
+#include "unitysdk/Enum_3_3A3DB9885CDD5378.h"
+#include "unitysdk/Enum_3_3EDF246633A325B0.h"
+#include "unitysdk/Enum_3_D29916242A61A1C4.h"
+#include "unitysdk/Foundation/AssetPath.h"
+#include "unitysdk/MoleMole/InputActionEvent.h"
+#include "unitysdk/MoleMole/UIWindowController.h"
+#include "unitysdk/Struct_2_575273D27F02957E.h"
+#include "unitysdk/UnityEngine/Vector3.h"
+
+class Class_1_A11CB4C08EF906E4;
+class Class_2_7251A3702ED38135;
+namespace MoleMole { class ConfigNewbie_HighLightDynamicData; }
+namespace MoleMole { class MonoGamepadModule; }
+namespace MoleMole { class UIControlReference; }
+namespace MoleMole { class UIControllerContextBase; }
+namespace MoleMole { class UISummerTideSellingMakingOrderWidgetController; }
+namespace MoleMole { class UISummerTideTreasureSellingBuffRowWidgetController; }
+namespace MoleMole { class UISummerTideTreasureSellingMiniBuffRowWidgetController; }
+namespace MoleMole { class UISummerTideTreasureSellingOrderListRowWidgetController; }
+namespace System { class Action; }
+namespace System { class EventArgs; }
+namespace System { class String; }
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+namespace System::Collections::Generic { template <typename T> class Queue_1; }
+namespace UnityEngine { class GameObject; }
+namespace UnityEngine { class Transform; }
+
+#define MOLEMOLE_UISUMMERTIDETREASURESELLINGPAGECONTROLLER_CLOSENIEWHANDLE_OFFSET UNITYSDK_OFFSET(0x160F42A0)
+#define MOLEMOLE_UISUMMERTIDETREASURESELLINGPAGECONTROLLER_GETBOTTOMTIPSROOT_OFFSET UNITYSDK_OFFSET(0x160F3860)
+#define MOLEMOLE_UISUMMERTIDETREASURESELLINGPAGECONTROLLER_GETBUFFWIDGET_OFFSET UNITYSDK_OFFSET(0x160F6210)
+#define MOLEMOLE_UISUMMERTIDETREASURESELLINGPAGECONTROLLER_GETMAKINGORDERBUFFWIDGET_OFFSET UNITYSDK_OFFSET(0x160F69A0)
+#define MOLEMOLE_UISUMMERTIDETREASURESELLINGPAGECONTROLLER_GETMAKINGORDERWIDGET_OFFSET UNITYSDK_OFFSET(0x160F6710)
+#define MOLEMOLE_UISUMMERTIDETREASURESELLINGPAGECONTROLLER_GETNEWBIEDYNAMICOBJECT_OFFSET UNITYSDK_OFFSET(0x160FB7C0)
+#define MOLEMOLE_UISUMMERTIDETREASURESELLINGPAGECONTROLLER_GETNEWEFFECT_OFFSET UNITYSDK_OFFSET(0x160F5AF0)
+#define MOLEMOLE_UISUMMERTIDETREASURESELLINGPAGECONTROLLER_GETORDERWIDGET_OFFSET UNITYSDK_OFFSET(0x160F70E0)
+#define MOLEMOLE_UISUMMERTIDETREASURESELLINGPAGECONTROLLER_GETSTARTRECTWORLDPOS_OFFSET UNITYSDK_OFFSET(0x160F7770)
+#define MOLEMOLE_UISUMMERTIDETREASURESELLINGPAGECONTROLLER_GETTARGETRECTWORLDPOS_OFFSET UNITYSDK_OFFSET(0x160F8B20)
+#define MOLEMOLE_UISUMMERTIDETREASURESELLINGPAGECONTROLLER_GET_WINDOWTYPE_OFFSET UNITYSDK_OFFSET(0x160F36B0)
+#define MOLEMOLE_UISUMMERTIDETREASURESELLINGPAGECONTROLLER_GET__VIEWMODEL_OFFSET UNITYSDK_OFFSET(0x160F3750)
+#define MOLEMOLE_UISUMMERTIDETREASURESELLINGPAGECONTROLLER_ONCREATEVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x160F37C0)
+#define MOLEMOLE_UISUMMERTIDETREASURESELLINGPAGECONTROLLER_ONGAMEPADMODULESELECTINDEX_OFFSET UNITYSDK_OFFSET(0x160FAEA0)
+#define MOLEMOLE_UISUMMERTIDETREASURESELLINGPAGECONTROLLER_ONHIDE_OFFSET UNITYSDK_OFFSET(0x160F5920)
+#define MOLEMOLE_UISUMMERTIDETREASURESELLINGPAGECONTROLLER_ONINPUTACTION_OFFSET UNITYSDK_OFFSET(0x160FB6C0)
+#define MOLEMOLE_UISUMMERTIDETREASURESELLINGPAGECONTROLLER_ONLAYOUTPLATFORMCHANGED_OFFSET UNITYSDK_OFFSET(0x160F3DD0)
+#define MOLEMOLE_UISUMMERTIDETREASURESELLINGPAGECONTROLLER_ONPREINPUTACTION_OFFSET UNITYSDK_OFFSET(0x160FAF90)
+#define MOLEMOLE_UISUMMERTIDETREASURESELLINGPAGECONTROLLER_ONUICLOSE_OFFSET UNITYSDK_OFFSET(0x160FBEA0)
+#define MOLEMOLE_UISUMMERTIDETREASURESELLINGPAGECONTROLLER_ONUIOPEN_OFFSET UNITYSDK_OFFSET(0x160F3A30)
+#define MOLEMOLE_UISUMMERTIDETREASURESELLINGPAGECONTROLLER_RECYCLEEFFECT_OFFSET UNITYSDK_OFFSET(0x160F6000)
+#define MOLEMOLE_UISUMMERTIDETREASURESELLINGPAGECONTROLLER_SETUIWINDOWSETTING_OFFSET UNITYSDK_OFFSET(0x160F36C0)
+#define MOLEMOLE_UISUMMERTIDETREASURESELLINGPAGECONTROLLER_SHOWBOTTOMTIPS_OFFSET UNITYSDK_OFFSET(0x160FAA90)
+#define MOLEMOLE_UISUMMERTIDETREASURESELLINGPAGECONTROLLER_SHOWMASK_OFFSET UNITYSDK_OFFSET(0x160FABF0)
+#define MOLEMOLE_UISUMMERTIDETREASURESELLINGPAGECONTROLLER_SHOWTOPTIPS_OFFSET UNITYSDK_OFFSET(0x160FAB40)
+#define MOLEMOLE_UISUMMERTIDETREASURESELLINGPAGECONTROLLER_SUMMERTIDEONMAKINGORDERHANDLE_OFFSET UNITYSDK_OFFSET(0x160F4620)
+#define MOLEMOLE_UISUMMERTIDETREASURESELLINGPAGECONTROLLER_SUMMERTIDEONREFRESHORDERHANDLE_OFFSET UNITYSDK_OFFSET(0x160F4B40)
+#define MOLEMOLE_UISUMMERTIDETREASURESELLINGPAGECONTROLLER_SUMMERTIDEONSKILLCDACTIVEHANDLE_OFFSET UNITYSDK_OFFSET(0x160F56B0)
+#define MOLEMOLE_UISUMMERTIDETREASURESELLINGPAGECONTROLLER_SUMMERTIDESHOWCHATHANDLE_OFFSET UNITYSDK_OFFSET(0x160F5980)
+#define MOLEMOLE_UISUMMERTIDETREASURESELLINGPAGECONTROLLER_UPDATE_OFFSET UNITYSDK_OFFSET(0x160FAE00)
+#define MOLEMOLE_UISUMMERTIDETREASURESELLINGPAGECONTROLLER__CLOSENIEWHANDLE_B__12_0_OFFSET UNITYSDK_OFFSET(0x160FC030)
+#define MOLEMOLE_UISUMMERTIDETREASURESELLINGPAGECONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x160FBF90)
+#define MOLEMOLE_UISUMMERTIDETREASURESELLINGPAGECONTROLLER___BASE_GETBOTTOMTIPSROOT_OFFSET UNITYSDK_OFFSET(0x160FC220)
+#define MOLEMOLE_UISUMMERTIDETREASURESELLINGPAGECONTROLLER___BASE_GETNEWBIEDYNAMICOBJECT_OFFSET UNITYSDK_OFFSET(0x160FC2B0)
+#define MOLEMOLE_UISUMMERTIDETREASURESELLINGPAGECONTROLLER___BASE_ONCREATEVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x160FC340)
+#define MOLEMOLE_UISUMMERTIDETREASURESELLINGPAGECONTROLLER___BASE_ONGAMEPADMODULESELECTINDEX_OFFSET UNITYSDK_OFFSET(0x160FC3E0)
+#define MOLEMOLE_UISUMMERTIDETREASURESELLINGPAGECONTROLLER___BASE_ONHIDE_OFFSET UNITYSDK_OFFSET(0x160FC490)
+#define MOLEMOLE_UISUMMERTIDETREASURESELLINGPAGECONTROLLER___BASE_ONINPUTACTION_OFFSET UNITYSDK_OFFSET(0x160FC520)
+#define MOLEMOLE_UISUMMERTIDETREASURESELLINGPAGECONTROLLER___BASE_ONLAYOUTPLATFORMCHANGED_OFFSET UNITYSDK_OFFSET(0x160FC550)
+#define MOLEMOLE_UISUMMERTIDETREASURESELLINGPAGECONTROLLER___BASE_ONPREINPUTACTION_OFFSET UNITYSDK_OFFSET(0x160FC5E0)
+#define MOLEMOLE_UISUMMERTIDETREASURESELLINGPAGECONTROLLER___BASE_ONUICLOSE_OFFSET UNITYSDK_OFFSET(0x160FC690)
+#define MOLEMOLE_UISUMMERTIDETREASURESELLINGPAGECONTROLLER___BASE_ONUIOPEN_OFFSET UNITYSDK_OFFSET(0x160FC750)
+#define MOLEMOLE_UISUMMERTIDETREASURESELLINGPAGECONTROLLER___BASE_SETUIWINDOWSETTING_OFFSET UNITYSDK_OFFSET(0x160FC7E0)
+
+namespace MoleMole
+{
+	inline static constexpr unsigned int UISummerTideTreasureSellingPageController_TypeDefinitionIndex = 44291;
+
+	class UISummerTideTreasureSellingPageController : public ::MoleMole::UIWindowController
+	{
+	public:
+		::System::Collections::Generic::Dictionary_2<::System::UInt64, ::System::Collections::Generic::Queue_1<::UnityEngine::GameObject*>*>* _effectPool; // 0x318
+		::System::Int32 _maskCount; // 0x320
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UISUMMERTIDETREASURESELLINGPAGECONTROLLER__CTOR_OFFSET))(this);
+		}
+
+		::Enum_3_3EDF246633A325B0 get_windowType()
+		{
+			return ((::Enum_3_3EDF246633A325B0(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UISUMMERTIDETREASURESELLINGPAGECONTROLLER_GET_WINDOWTYPE_OFFSET))(this);
+		}
+
+		::System::Void SetUIWindowSetting()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UISUMMERTIDETREASURESELLINGPAGECONTROLLER_SETUIWINDOWSETTING_OFFSET))(this);
+		}
+
+		::Class_2_7251A3702ED38135* get__viewModel()
+		{
+			return ((::Class_2_7251A3702ED38135*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UISUMMERTIDETREASURESELLINGPAGECONTROLLER_GET__VIEWMODEL_OFFSET))(this);
+		}
+
+		::System::Void OnCreateViewModel(::Struct_2_575273D27F02957E& binderInfo, ::MoleMole::UIControlReference* controlReference)
+		{
+			return ((::System::Void(*)(::PVOID, ::Struct_2_575273D27F02957E&, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UISUMMERTIDETREASURESELLINGPAGECONTROLLER_ONCREATEVIEWMODEL_OFFSET))(this, binderInfo, controlReference);
+		}
+
+		::UnityEngine::Transform* GetBottomTipsRoot()
+		{
+			return ((::UnityEngine::Transform*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UISUMMERTIDETREASURESELLINGPAGECONTROLLER_GETBOTTOMTIPSROOT_OFFSET))(this);
+		}
+
+		::System::Void OnUIOpen(::MoleMole::UIControllerContextBase* openCtrlContext)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UISUMMERTIDETREASURESELLINGPAGECONTROLLER_ONUIOPEN_OFFSET))(this, openCtrlContext);
+		}
+
+		::System::Void OnLayoutPlatformChanged()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UISUMMERTIDETREASURESELLINGPAGECONTROLLER_ONLAYOUTPLATFORMCHANGED_OFFSET))(this);
+		}
+
+		::System::Void CloseNiewHandle(::System::EventArgs* obj)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::EventArgs*))((::PBYTE)hIl2Cpp + MOLEMOLE_UISUMMERTIDETREASURESELLINGPAGECONTROLLER_CLOSENIEWHANDLE_OFFSET))(this, obj);
+		}
+
+		::System::Void SummerTideOnMakingOrderHandle(::System::EventArgs* obj)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::EventArgs*))((::PBYTE)hIl2Cpp + MOLEMOLE_UISUMMERTIDETREASURESELLINGPAGECONTROLLER_SUMMERTIDEONMAKINGORDERHANDLE_OFFSET))(this, obj);
+		}
+
+		::System::Void SummerTideOnRefreshOrderHandle(::System::EventArgs* obj)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::EventArgs*))((::PBYTE)hIl2Cpp + MOLEMOLE_UISUMMERTIDETREASURESELLINGPAGECONTROLLER_SUMMERTIDEONREFRESHORDERHANDLE_OFFSET))(this, obj);
+		}
+
+		::System::Void SummerTideOnSkillCDActiveHandle(::System::EventArgs* obj)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::EventArgs*))((::PBYTE)hIl2Cpp + MOLEMOLE_UISUMMERTIDETREASURESELLINGPAGECONTROLLER_SUMMERTIDEONSKILLCDACTIVEHANDLE_OFFSET))(this, obj);
+		}
+
+		::System::Void OnHide()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UISUMMERTIDETREASURESELLINGPAGECONTROLLER_ONHIDE_OFFSET))(this);
+		}
+
+		::System::Void SummerTideShowChatHandle(::System::EventArgs* obj)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::EventArgs*))((::PBYTE)hIl2Cpp + MOLEMOLE_UISUMMERTIDETREASURESELLINGPAGECONTROLLER_SUMMERTIDESHOWCHATHANDLE_OFFSET))(this, obj);
+		}
+
+		::UnityEngine::GameObject* GetNewEffect(::Foundation::AssetPath path)
+		{
+			return ((::UnityEngine::GameObject*(*)(::PVOID, ::Foundation::AssetPath))((::PBYTE)hIl2Cpp + MOLEMOLE_UISUMMERTIDETREASURESELLINGPAGECONTROLLER_GETNEWEFFECT_OFFSET))(this, path);
+		}
+
+		::System::Void RecycleEffect(::Foundation::AssetPath path, ::UnityEngine::GameObject* ga)
+		{
+			return ((::System::Void(*)(::PVOID, ::Foundation::AssetPath, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + MOLEMOLE_UISUMMERTIDETREASURESELLINGPAGECONTROLLER_RECYCLEEFFECT_OFFSET))(this, path, ga);
+		}
+
+		::MoleMole::UISummerTideTreasureSellingBuffRowWidgetController* GetBuffWidget(::System::Int32 buffConfigId)
+		{
+			return ((::MoleMole::UISummerTideTreasureSellingBuffRowWidgetController*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UISUMMERTIDETREASURESELLINGPAGECONTROLLER_GETBUFFWIDGET_OFFSET))(this, buffConfigId);
+		}
+
+		::MoleMole::UISummerTideSellingMakingOrderWidgetController* GetMakingOrderWidget()
+		{
+			return ((::MoleMole::UISummerTideSellingMakingOrderWidgetController*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UISUMMERTIDETREASURESELLINGPAGECONTROLLER_GETMAKINGORDERWIDGET_OFFSET))(this);
+		}
+
+		::MoleMole::UISummerTideTreasureSellingMiniBuffRowWidgetController* GetMakingOrderBuffWidget(::System::Int32 buffConfigId)
+		{
+			return ((::MoleMole::UISummerTideTreasureSellingMiniBuffRowWidgetController*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UISUMMERTIDETREASURESELLINGPAGECONTROLLER_GETMAKINGORDERBUFFWIDGET_OFFSET))(this, buffConfigId);
+		}
+
+		::MoleMole::UISummerTideTreasureSellingOrderListRowWidgetController* GetOrderWidget(::System::Int32 orderVOId)
+		{
+			return ((::MoleMole::UISummerTideTreasureSellingOrderListRowWidgetController*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UISUMMERTIDETREASURESELLINGPAGECONTROLLER_GETORDERWIDGET_OFFSET))(this, orderVOId);
+		}
+
+		::UnityEngine::Vector3 GetStartRectWorldPos(::Enum_3_3A3DB9885CDD5378 fromType, ::System::Int32 specialParam)
+		{
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::Enum_3_3A3DB9885CDD5378, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UISUMMERTIDETREASURESELLINGPAGECONTROLLER_GETSTARTRECTWORLDPOS_OFFSET))(this, fromType, specialParam);
+		}
+
+		::UnityEngine::Vector3 GetTargetRectWorldPos(::Enum_3_D29916242A61A1C4 targetType, ::System::Int32 specialParam, ::System::Int32 specialParam2)
+		{
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::Enum_3_D29916242A61A1C4, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UISUMMERTIDETREASURESELLINGPAGECONTROLLER_GETTARGETRECTWORLDPOS_OFFSET))(this, targetType, specialParam, specialParam2);
+		}
+
+		::System::Void ShowBottomTips(::System::String* textKey, ::System::Action* callback)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MOLEMOLE_UISUMMERTIDETREASURESELLINGPAGECONTROLLER_SHOWBOTTOMTIPS_OFFSET))(this, textKey, callback);
+		}
+
+		::System::Void ShowTopTips(::System::String* textKey, ::System::Action* callback)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MOLEMOLE_UISUMMERTIDETREASURESELLINGPAGECONTROLLER_SHOWTOPTIPS_OFFSET))(this, textKey, callback);
+		}
+
+		::System::Void ShowMask(::System::Boolean active)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UISUMMERTIDETREASURESELLINGPAGECONTROLLER_SHOWMASK_OFFSET))(this, active);
+		}
+
+		::System::Void Update()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UISUMMERTIDETREASURESELLINGPAGECONTROLLER_UPDATE_OFFSET))(this);
+		}
+
+		::System::Void OnGamepadModuleSelectIndex(::MoleMole::MonoGamepadModule* gamepadModule, ::System::Int32 index, ::UnityEngine::Transform* trans, ::Enum_3_03024D6472FC8F3A result)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::MonoGamepadModule*, ::System::Int32, ::UnityEngine::Transform*, ::Enum_3_03024D6472FC8F3A))((::PBYTE)hIl2Cpp + MOLEMOLE_UISUMMERTIDETREASURESELLINGPAGECONTROLLER_ONGAMEPADMODULESELECTINDEX_OFFSET))(this, gamepadModule, index, trans, result);
+		}
+
+		::System::Boolean OnPreInputAction(::MoleMole::InputActionEvent inputAction)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::MoleMole::InputActionEvent))((::PBYTE)hIl2Cpp + MOLEMOLE_UISUMMERTIDETREASURESELLINGPAGECONTROLLER_ONPREINPUTACTION_OFFSET))(this, inputAction);
+		}
+
+		::System::Boolean OnInputAction(::MoleMole::InputActionEvent inputAction)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::MoleMole::InputActionEvent))((::PBYTE)hIl2Cpp + MOLEMOLE_UISUMMERTIDETREASURESELLINGPAGECONTROLLER_ONINPUTACTION_OFFSET))(this, inputAction);
+		}
+
+		::Class_1_A11CB4C08EF906E4* GetNewbieDynamicObject(::MoleMole::ConfigNewbie_HighLightDynamicData* config)
+		{
+			return ((::Class_1_A11CB4C08EF906E4*(*)(::PVOID, ::MoleMole::ConfigNewbie_HighLightDynamicData*))((::PBYTE)hIl2Cpp + MOLEMOLE_UISUMMERTIDETREASURESELLINGPAGECONTROLLER_GETNEWBIEDYNAMICOBJECT_OFFSET))(this, config);
+		}
+
+		::System::Void OnUIClose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UISUMMERTIDETREASURESELLINGPAGECONTROLLER_ONUICLOSE_OFFSET))(this);
+		}
+
+		::System::Void _CloseNiewHandle_b__12_0()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UISUMMERTIDETREASURESELLINGPAGECONTROLLER__CLOSENIEWHANDLE_B__12_0_OFFSET))(this);
+		}
+
+		::UnityEngine::Transform* __base_GetBottomTipsRoot()
+		{
+			return ((::UnityEngine::Transform*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UISUMMERTIDETREASURESELLINGPAGECONTROLLER___BASE_GETBOTTOMTIPSROOT_OFFSET))(this);
+		}
+
+		::Class_1_A11CB4C08EF906E4* __base_GetNewbieDynamicObject(::MoleMole::ConfigNewbie_HighLightDynamicData* P0)
+		{
+			return ((::Class_1_A11CB4C08EF906E4*(*)(::PVOID, ::MoleMole::ConfigNewbie_HighLightDynamicData*))((::PBYTE)hIl2Cpp + MOLEMOLE_UISUMMERTIDETREASURESELLINGPAGECONTROLLER___BASE_GETNEWBIEDYNAMICOBJECT_OFFSET))(this, P0);
+		}
+
+		::System::Void __base_OnCreateViewModel(::Struct_2_575273D27F02957E& P0, ::MoleMole::UIControlReference* P1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Struct_2_575273D27F02957E&, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UISUMMERTIDETREASURESELLINGPAGECONTROLLER___BASE_ONCREATEVIEWMODEL_OFFSET))(this, P0, P1);
+		}
+
+		::System::Void __base_OnGamepadModuleSelectIndex(::MoleMole::MonoGamepadModule* P0, ::System::Int32 P1, ::UnityEngine::Transform* P2, ::Enum_3_03024D6472FC8F3A P3)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::MonoGamepadModule*, ::System::Int32, ::UnityEngine::Transform*, ::Enum_3_03024D6472FC8F3A))((::PBYTE)hIl2Cpp + MOLEMOLE_UISUMMERTIDETREASURESELLINGPAGECONTROLLER___BASE_ONGAMEPADMODULESELECTINDEX_OFFSET))(this, P0, P1, P2, P3);
+		}
+
+		::System::Void __base_OnHide()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UISUMMERTIDETREASURESELLINGPAGECONTROLLER___BASE_ONHIDE_OFFSET))(this);
+		}
+
+		::System::Boolean __base_OnInputAction(::MoleMole::InputActionEvent P0)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::MoleMole::InputActionEvent))((::PBYTE)hIl2Cpp + MOLEMOLE_UISUMMERTIDETREASURESELLINGPAGECONTROLLER___BASE_ONINPUTACTION_OFFSET))(this, P0);
+		}
+
+		::System::Void __base_OnLayoutPlatformChanged()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UISUMMERTIDETREASURESELLINGPAGECONTROLLER___BASE_ONLAYOUTPLATFORMCHANGED_OFFSET))(this);
+		}
+
+		::System::Boolean __base_OnPreInputAction(::MoleMole::InputActionEvent P0)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::MoleMole::InputActionEvent))((::PBYTE)hIl2Cpp + MOLEMOLE_UISUMMERTIDETREASURESELLINGPAGECONTROLLER___BASE_ONPREINPUTACTION_OFFSET))(this, P0);
+		}
+
+		::System::Void __base_OnUIClose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UISUMMERTIDETREASURESELLINGPAGECONTROLLER___BASE_ONUICLOSE_OFFSET))(this);
+		}
+
+		::System::Void __base_OnUIOpen(::MoleMole::UIControllerContextBase* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UISUMMERTIDETREASURESELLINGPAGECONTROLLER___BASE_ONUIOPEN_OFFSET))(this, P0);
+		}
+
+		::System::Void __base_SetUIWindowSetting()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UISUMMERTIDETREASURESELLINGPAGECONTROLLER___BASE_SETUIWINDOWSETTING_OFFSET))(this);
+		}
+	};
+}

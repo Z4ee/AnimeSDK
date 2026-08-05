@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int UILinearTransition_RampDirection_TypeDefinitionIndex = 58928;
+	inline static constexpr unsigned int UILinearTransition_RampDirection_TypeDefinitionIndex = 65691;
 
 	enum class UILinearTransition_RampDirection : ::System::Int32
 	{

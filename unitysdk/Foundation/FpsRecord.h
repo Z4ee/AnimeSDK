@@ -4,7 +4,7 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int FpsRecord_TypeDefinitionIndex = 7812;
+	inline static constexpr unsigned int FpsRecord_TypeDefinitionIndex = 7899;
 
 	struct alignas(4) FpsRecord
 	{

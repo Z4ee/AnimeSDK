@@ -7,12 +7,12 @@ namespace MoleMole { class UIBaseChatPlayController; }
 namespace MoleMole { class UIMainCityChatPlayContext; }
 namespace System { class String; }
 
-#define MOLEMOLE_GALGAME_CHATCHANGEEFFECTSTATENODE_INSTANTIATE_OFFSET UNITYSDK_OFFSET(0x19128D90)
-#define MOLEMOLE_GALGAME_CHATCHANGEEFFECTSTATENODE__CTOR_OFFSET UNITYSDK_OFFSET(0x19128D80)
+#define MOLEMOLE_GALGAME_CHATCHANGEEFFECTSTATENODE_INSTANTIATE_OFFSET UNITYSDK_OFFSET(0x19DBC290)
+#define MOLEMOLE_GALGAME_CHATCHANGEEFFECTSTATENODE__CTOR_OFFSET UNITYSDK_OFFSET(0x19DBC280)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int ChatChangeEffectStateNode_TypeDefinitionIndex = 77245;
+	inline static constexpr unsigned int ChatChangeEffectStateNode_TypeDefinitionIndex = 64961;
 
 	class ChatChangeEffectStateNode : public ::MoleMole::GalGame::MainCityChatPlayableNodeBase
 	{

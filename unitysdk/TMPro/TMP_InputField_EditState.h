@@ -3,7 +3,7 @@
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_InputField_EditState_TypeDefinitionIndex = 39162;
+	inline static constexpr unsigned int TMP_InputField_EditState_TypeDefinitionIndex = 39828;
 
 	enum class TMP_InputField_EditState : ::System::Int32
 	{

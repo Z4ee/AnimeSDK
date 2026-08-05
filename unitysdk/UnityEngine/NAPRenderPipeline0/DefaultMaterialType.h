@@ -3,7 +3,7 @@
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int DefaultMaterialType_TypeDefinitionIndex = 5887;
+	inline static constexpr unsigned int DefaultMaterialType_TypeDefinitionIndex = 5889;
 
 	enum class DefaultMaterialType : ::System::Int32
 	{

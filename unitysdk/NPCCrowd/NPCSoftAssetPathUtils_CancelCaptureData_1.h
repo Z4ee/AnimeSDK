@@ -10,7 +10,7 @@ namespace System::Collections::Generic { template <typename T> class Stack_1; }
 
 namespace NPCCrowd
 {
-	inline static constexpr unsigned int NPCSoftAssetPathUtils_CancelCaptureData_1_TypeDefinitionIndex = 53415;
+	inline static constexpr unsigned int NPCSoftAssetPathUtils_CancelCaptureData_1_TypeDefinitionIndex = 47721;
 
 	template <typename T>
 	class NPCSoftAssetPathUtils_CancelCaptureData_1 : public ::System::Object

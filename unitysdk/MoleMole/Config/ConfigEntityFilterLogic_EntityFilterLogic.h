@@ -3,11 +3,11 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigEntityFilterLogic_EntityFilterLogic_TypeDefinitionIndex = 68580;
+	inline static constexpr unsigned int ConfigEntityFilterLogic_EntityFilterLogic_TypeDefinitionIndex = 58284;
 
 	enum class ConfigEntityFilterLogic_EntityFilterLogic : ::System::Int32
 	{
-		Or = 1,
 		And = 0,
+		Or = 1,
 	};
 }

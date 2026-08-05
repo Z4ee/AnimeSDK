@@ -3,7 +3,7 @@
 
 namespace ProfilingRecorder
 {
-	inline static constexpr unsigned int IProfilerRecorder_TypeDefinitionIndex = 37345;
+	inline static constexpr unsigned int IProfilerRecorder_TypeDefinitionIndex = 38031;
 
 	class IProfilerRecorder
 	{

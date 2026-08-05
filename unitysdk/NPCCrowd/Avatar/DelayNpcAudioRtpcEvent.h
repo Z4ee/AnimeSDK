@@ -6,7 +6,7 @@ namespace UnityEngine { class GameObject; }
 
 namespace NPCCrowd::Avatar
 {
-	inline static constexpr unsigned int DelayNpcAudioRtpcEvent_TypeDefinitionIndex = 41236;
+	inline static constexpr unsigned int DelayNpcAudioRtpcEvent_TypeDefinitionIndex = 62282;
 
 	struct alignas(8) DelayNpcAudioRtpcEvent
 	{

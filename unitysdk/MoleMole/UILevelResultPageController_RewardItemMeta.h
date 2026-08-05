@@ -5,11 +5,11 @@
 
 class Class_1_0D6706375CDAAE8C;
 
-#define MOLEMOLE_UILEVELRESULTPAGECONTROLLER_REWARDITEMMETA__CTOR_OFFSET UNITYSDK_OFFSET(0x8242F0)
+#define MOLEMOLE_UILEVELRESULTPAGECONTROLLER_REWARDITEMMETA__CTOR_OFFSET UNITYSDK_OFFSET(0x8AA1A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UILevelResultPageController_RewardItemMeta_TypeDefinitionIndex = 47047;
+	inline static constexpr unsigned int UILevelResultPageController_RewardItemMeta_TypeDefinitionIndex = 69278;
 
 	struct alignas(8) UILevelResultPageController_RewardItemMeta
 	{

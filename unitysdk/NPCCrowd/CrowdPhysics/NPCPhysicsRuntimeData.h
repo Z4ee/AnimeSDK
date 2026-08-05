@@ -3,20 +3,20 @@
 #include "unitysdk/NPCCrowd/CrowdPhysics/DitherState.h"
 #include "unitysdk/System/Object.h"
 
-#define NPCCROWD_CROWDPHYSICS_NPCPHYSICSRUNTIMEDATA_CLEAN_OFFSET UNITYSDK_OFFSET(0x10709330)
-#define NPCCROWD_CROWDPHYSICS_NPCPHYSICSRUNTIMEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x107093C0)
+#define NPCCROWD_CROWDPHYSICS_NPCPHYSICSRUNTIMEDATA_CLEAN_OFFSET UNITYSDK_OFFSET(0xF7762F0)
+#define NPCCROWD_CROWDPHYSICS_NPCPHYSICSRUNTIMEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xF776380)
 
 namespace NPCCrowd::CrowdPhysics
 {
-	inline static constexpr unsigned int NPCPhysicsRuntimeData_TypeDefinitionIndex = 82011;
+	inline static constexpr unsigned int NPCPhysicsRuntimeData_TypeDefinitionIndex = 63242;
 
 	class NPCPhysicsRuntimeData : public ::System::Object
 	{
 	public:
-		::System::Boolean EnableCollision; // 0x10
-		::System::Boolean InitEnableCollision; // 0x11
-		::System::Boolean EnableNavmeshObstacle; // 0x12
-		::NPCCrowd::CrowdPhysics::DitherState DitherState; // 0x14
+		::NPCCrowd::CrowdPhysics::DitherState DitherState; // 0x10
+		::System::Boolean EnableNavmeshObstacle; // 0x1C
+		::System::Boolean InitEnableCollision; // 0x1D
+		::System::Boolean EnableCollision; // 0x1E
 
 		::System::Void _ctor()
 		{

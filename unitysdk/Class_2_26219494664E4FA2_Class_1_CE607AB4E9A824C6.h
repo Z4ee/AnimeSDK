@@ -4,9 +4,9 @@
 
 namespace MoleMole { class UIUrbanMapPageController; }
 
-#define CLASS_2_26219494664E4FA2_CLASS_1_CE607AB4E9A824C6__CTOR_OFFSET UNITYSDK_OFFSET(0x17DA5210)
+#define CLASS_2_26219494664E4FA2_CLASS_1_CE607AB4E9A824C6__CTOR_OFFSET UNITYSDK_OFFSET(0x138C2070)
 
-inline static constexpr unsigned int Class_2_26219494664E4FA2_Class_1_CE607AB4E9A824C6_TypeDefinitionIndex = 80139;
+inline static constexpr unsigned int Class_2_26219494664E4FA2_Class_1_CE607AB4E9A824C6_TypeDefinitionIndex = 44530;
 
 class Class_2_26219494664E4FA2_Class_1_CE607AB4E9A824C6 : public ::System::Object
 {

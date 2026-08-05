@@ -10,22 +10,22 @@ namespace MoleMole { class UINounDetailPanelWidgetController; }
 namespace MoleMole { class UINounDetailPanelWidgetController_Data; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define CLASS_2_4BE54C5E423619FD_STRUCT_2_96B20A23C5E2DB6C_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x765F90)
-#define CLASS_2_4BE54C5E423619FD_STRUCT_2_96B20A23C5E2DB6C_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x283610)
+#define CLASS_2_4BE54C5E423619FD_STRUCT_2_96B20A23C5E2DB6C_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x73C280)
+#define CLASS_2_4BE54C5E423619FD_STRUCT_2_96B20A23C5E2DB6C_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x296F30)
 
-inline static constexpr unsigned int Class_2_4BE54C5E423619FD_Struct_2_96B20A23C5E2DB6C_TypeDefinitionIndex = 84064;
+inline static constexpr unsigned int Class_2_4BE54C5E423619FD_Struct_2_96B20A23C5E2DB6C_TypeDefinitionIndex = 55153;
 
 struct alignas(8) Class_2_4BE54C5E423619FD_Struct_2_96B20A23C5E2DB6C
 {
-	::MoleMole::UINounDetailPanelWidgetController_Data* Field_2_6; // 0x10
-	::Class_2_4BE54C5E423619FD* Field_2_2; // 0x18
-	::MoleMole::UINounDetailPanelWidgetController* Field_2_7; // 0x20
-	::Cysharp::Threading::Tasks::UniTask_Awaiter Field_2_8; // 0x28
-	::System::Threading::CancellationToken Field_2_4; // 0x38
-	::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskVoidMethodBuilder Field_2_1; // 0x40
-	::System::Int32 Field_2_3; // 0x48
-	::System::Int32 Field_2_0; // 0x4C
-	::System::Int32 Field_2_5; // 0x50
+	::MoleMole::UINounDetailPanelWidgetController_Data* Field_2_4; // 0x10
+	::Class_2_4BE54C5E423619FD* Field_2_0; // 0x18
+	::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskVoidMethodBuilder Field_2_1; // 0x20
+	::Cysharp::Threading::Tasks::UniTask_Awaiter Field_2_10; // 0x28
+	::System::Threading::CancellationToken Field_2_6; // 0x38
+	::MoleMole::UINounDetailPanelWidgetController* Field_2_11; // 0x40
+	::System::Int32 Field_2_2; // 0x48
+	::System::Int32 Field_2_5; // 0x4C
+	::System::Int32 Field_2_7; // 0x50
 
 	::System::Void MoveNext()
 	{

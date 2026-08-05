@@ -4,7 +4,7 @@
 
 namespace UnityEngine::XR
 {
-	inline static constexpr unsigned int XRDisplaySubsystem_XRMirrorViewBlitDesc_TypeDefinitionIndex = 27650;
+	inline static constexpr unsigned int XRDisplaySubsystem_XRMirrorViewBlitDesc_TypeDefinitionIndex = 28252;
 
 	struct alignas(8) XRDisplaySubsystem_XRMirrorViewBlitDesc
 	{

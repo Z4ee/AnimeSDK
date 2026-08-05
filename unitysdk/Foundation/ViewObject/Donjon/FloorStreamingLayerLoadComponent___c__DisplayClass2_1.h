@@ -2,15 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_3_620977F55CD7E401;
+class Class_3_620977F55CD7E401_3;
 namespace Foundation::ViewObject::Donjon { class FloorStreamingLayerLoadComponent___c__DisplayClass2_0; }
 
-#define FOUNDATION_VIEWOBJECT_DONJON_FLOORSTREAMINGLAYERLOADCOMPONENT___C__DISPLAYCLASS2_1__CTOR_OFFSET UNITYSDK_OFFSET(0x142F8670)
-#define FOUNDATION_VIEWOBJECT_DONJON_FLOORSTREAMINGLAYERLOADCOMPONENT___C__DISPLAYCLASS2_1__ONENABLE_B__1_OFFSET UNITYSDK_OFFSET(0x142F8680)
+#define FOUNDATION_VIEWOBJECT_DONJON_FLOORSTREAMINGLAYERLOADCOMPONENT___C__DISPLAYCLASS2_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1199FCB0)
+#define FOUNDATION_VIEWOBJECT_DONJON_FLOORSTREAMINGLAYERLOADCOMPONENT___C__DISPLAYCLASS2_1__ONENABLE_B__1_OFFSET UNITYSDK_OFFSET(0x1199FCC0)
 
 namespace Foundation::ViewObject::Donjon
 {
-	inline static constexpr unsigned int FloorStreamingLayerLoadComponent___c__DisplayClass2_1_TypeDefinitionIndex = 83374;
+	inline static constexpr unsigned int FloorStreamingLayerLoadComponent___c__DisplayClass2_1_TypeDefinitionIndex = 68017;
 
 	class FloorStreamingLayerLoadComponent___c__DisplayClass2_1 : public ::System::Object
 	{
@@ -23,9 +23,9 @@ namespace Foundation::ViewObject::Donjon
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FOUNDATION_VIEWOBJECT_DONJON_FLOORSTREAMINGLAYERLOADCOMPONENT___C__DISPLAYCLASS2_1__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _OnEnable_b__1(::System::Boolean success, ::Class_3_620977F55CD7E401* rsp)
+		::System::Void _OnEnable_b__1(::System::Boolean success, ::Class_3_620977F55CD7E401_3* rsp)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::Class_3_620977F55CD7E401*))((::PBYTE)hIl2Cpp + FOUNDATION_VIEWOBJECT_DONJON_FLOORSTREAMINGLAYERLOADCOMPONENT___C__DISPLAYCLASS2_1__ONENABLE_B__1_OFFSET))(this, success, rsp);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::Class_3_620977F55CD7E401_3*))((::PBYTE)hIl2Cpp + FOUNDATION_VIEWOBJECT_DONJON_FLOORSTREAMINGLAYERLOADCOMPONENT___C__DISPLAYCLASS2_1__ONENABLE_B__1_OFFSET))(this, success, rsp);
 		}
 	};
 }

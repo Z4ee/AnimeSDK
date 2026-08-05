@@ -6,11 +6,11 @@ namespace MoleMole::Config { class ConfigEntityAnimEvent; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGCOMMONENTITYANIMEVENTS__CTOR_OFFSET UNITYSDK_OFFSET(0x144D8AF0)
+#define MOLEMOLE_CONFIG_CONFIGCOMMONENTITYANIMEVENTS__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD54620)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigCommonEntityAnimEvents_TypeDefinitionIndex = 57024;
+	inline static constexpr unsigned int ConfigCommonEntityAnimEvents_TypeDefinitionIndex = 49022;
 
 	class ConfigCommonEntityAnimEvents : public ::Foundation::MihoyoSerializedScriptableObject
 	{

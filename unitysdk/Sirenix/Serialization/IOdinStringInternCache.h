@@ -5,7 +5,7 @@ namespace System { class String; }
 
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int IOdinStringInternCache_TypeDefinitionIndex = 7415;
+	inline static constexpr unsigned int IOdinStringInternCache_TypeDefinitionIndex = 7419;
 
 	class IOdinStringInternCache
 	{

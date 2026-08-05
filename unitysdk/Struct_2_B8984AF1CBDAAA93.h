@@ -4,14 +4,14 @@
 #include "unitysdk/Struct_2_4E049E2562254C08.h"
 #include "unitysdk/System/ValueType.h"
 
-#define STRUCT_2_B8984AF1CBDAAA93__CTOR_OFFSET UNITYSDK_OFFSET(0x7E1620)
+#define STRUCT_2_B8984AF1CBDAAA93__CTOR_OFFSET UNITYSDK_OFFSET(0x862BA0)
 
-inline static constexpr unsigned int Struct_2_B8984AF1CBDAAA93_TypeDefinitionIndex = 81983;
+inline static constexpr unsigned int Struct_2_B8984AF1CBDAAA93_TypeDefinitionIndex = 69220;
 
 struct alignas(4) Struct_2_B8984AF1CBDAAA93
 {
-	::Struct_2_4E049E2562254C08 Field_2_0; // 0x10
-	::PipelineCamera::WorldBasicCameraData Field_2_1; // 0x64
+	::Struct_2_4E049E2562254C08 Field_2_1; // 0x10
+	::PipelineCamera::WorldBasicCameraData Field_2_0; // 0x64
 
 	::System::Void _ctor(::Struct_2_4E049E2562254C08 a1, ::PipelineCamera::WorldBasicCameraData a2)
 	{

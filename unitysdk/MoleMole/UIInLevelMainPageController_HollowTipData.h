@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInLevelMainPageController_HollowTipData_TypeDefinitionIndex = 82574;
+	inline static constexpr unsigned int UIInLevelMainPageController_HollowTipData_TypeDefinitionIndex = 56209;
 
 	struct alignas(8) UIInLevelMainPageController_HollowTipData
 	{

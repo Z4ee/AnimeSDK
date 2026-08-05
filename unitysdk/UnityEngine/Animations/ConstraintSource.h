@@ -4,12 +4,12 @@
 
 namespace UnityEngine { class Transform; }
 
-#define UNITYENGINE_ANIMATIONS_CONSTRAINTSOURCE_GET_SOURCETRANSFORM_OFFSET UNITYSDK_OFFSET(0x246290)
-#define UNITYENGINE_ANIMATIONS_CONSTRAINTSOURCE_SET_SOURCETRANSFORM_OFFSET UNITYSDK_OFFSET(0x2B6D10)
+#define UNITYENGINE_ANIMATIONS_CONSTRAINTSOURCE_GET_SOURCETRANSFORM_OFFSET UNITYSDK_OFFSET(0x259D70)
+#define UNITYENGINE_ANIMATIONS_CONSTRAINTSOURCE_SET_SOURCETRANSFORM_OFFSET UNITYSDK_OFFSET(0x324D50)
 
 namespace UnityEngine::Animations
 {
-	inline static constexpr unsigned int ConstraintSource_TypeDefinitionIndex = 6692;
+	inline static constexpr unsigned int ConstraintSource_TypeDefinitionIndex = 6696;
 
 	struct alignas(8) ConstraintSource
 	{

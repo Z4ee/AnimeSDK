@@ -10,11 +10,11 @@ namespace MoleMole::Config { class ConfigGachaPerformanceLight; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGGACHAPERFORMANCELIGHTS__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA509B0)
+#define MOLEMOLE_CONFIG_CONFIGGACHAPERFORMANCELIGHTS__CTOR_OFFSET UNITYSDK_OFFSET(0x114707A0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigGachaPerformanceLights_TypeDefinitionIndex = 44209;
+	inline static constexpr unsigned int ConfigGachaPerformanceLights_TypeDefinitionIndex = 87132;
 
 	class ConfigGachaPerformanceLights : public ::Foundation::MihoyoSerializedScriptableObject
 	{

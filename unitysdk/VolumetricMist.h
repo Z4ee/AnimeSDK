@@ -9,117 +9,80 @@
 #include "unitysdk/VolumetricMist_MistModeType.h"
 #include "unitysdk/VolumetricMist_VolumetricMistRenderInfo.h"
 
-namespace System { class String; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Mesh; }
 namespace UnityEngine { class MeshRenderer; }
 namespace UnityEngine { class Texture2D; }
 namespace UnityEngine { class Texture3D; }
 
-#define VOLUMETRICMIST_APPLYQUALITYSETTING_OFFSET UNITYSDK_OFFSET(0x1AF6CAC0)
-#define VOLUMETRICMIST_GENERATEOPTIMIZEMESH_OFFSET UNITYSDK_OFFSET(0x1AF6CFB0)
-#define VOLUMETRICMIST_INITMATERIAL_OFFSET UNITYSDK_OFFSET(0x1AF6C900)
-#define VOLUMETRICMIST_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1AF6E460)
-#define VOLUMETRICMIST_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1AF6C6E0)
-#define VOLUMETRICMIST_ONLIGHTWEIGHTACTIVE_OFFSET UNITYSDK_OFFSET(0x1AF6C8A0)
-#define VOLUMETRICMIST_ONREALENABLE_OFFSET UNITYSDK_OFFSET(0x1AF6C7A0)
-#define VOLUMETRICMIST_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x1AF6E4F0)
-#define VOLUMETRICMIST_ONWILLRENDEROBJECT_OFFSET UNITYSDK_OFFSET(0x1AF6E540)
-#define VOLUMETRICMIST__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AF6F050)
-#define VOLUMETRICMIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF6EFA0)
+#define VOLUMETRICMIST_APPLYQUALITYSETTING_OFFSET UNITYSDK_OFFSET(0x1BC758B0)
+#define VOLUMETRICMIST_GENERATEOPTIMIZEMESH_OFFSET UNITYSDK_OFFSET(0x1BC75CB0)
+#define VOLUMETRICMIST_INITMATERIAL_OFFSET UNITYSDK_OFFSET(0x1BC756F0)
+#define VOLUMETRICMIST_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1BC77160)
+#define VOLUMETRICMIST_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1BC754D0)
+#define VOLUMETRICMIST_ONLIGHTWEIGHTACTIVE_OFFSET UNITYSDK_OFFSET(0x1BC75690)
+#define VOLUMETRICMIST_ONREALENABLE_OFFSET UNITYSDK_OFFSET(0x1BC75590)
+#define VOLUMETRICMIST_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x1BC771F0)
+#define VOLUMETRICMIST_ONWILLRENDEROBJECT_OFFSET UNITYSDK_OFFSET(0x1BC77240)
+#define VOLUMETRICMIST__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BC77AC0)
+#define VOLUMETRICMIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC77A10)
 
-inline static constexpr unsigned int VolumetricMist_TypeDefinitionIndex = 26808;
+inline static constexpr unsigned int VolumetricMist_TypeDefinitionIndex = 27339;
 
 class VolumetricMist : public ::UnityEngine::MonoBehaviour
 {
 public:
-	static ::System::String** StaticGet__V_MIST_QUALITY_CUSTOM()
-	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(VolumetricMist_TypeDefinitionIndex)->GetStaticField(0x209E0);
-	}
-	static ::System::String** StaticGet__V_MIST_DO_NOT_RECEIVE_SHADOW()
-	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(VolumetricMist_TypeDefinitionIndex)->GetStaticField(0x209E8);
-	}
-	static ::System::String** StaticGet__V_MIST_DISABLE_OCEAN_FADE()
-	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(VolumetricMist_TypeDefinitionIndex)->GetStaticField(0x209F0);
-	}
-	static ::System::String** StaticGet__V_MIST_WITH_NOISE()
-	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(VolumetricMist_TypeDefinitionIndex)->GetStaticField(0x209F8);
-	}
-	static ::System::String** StaticGet__V_MIST_MASK_FADE()
-	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(VolumetricMist_TypeDefinitionIndex)->GetStaticField(0x20A00);
-	}
-	static ::System::String** StaticGet__V_MIST_QUALITY_HIGH()
-	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(VolumetricMist_TypeDefinitionIndex)->GetStaticField(0x20A08);
-	}
-	static ::System::String** StaticGet__V_MIST_AROUND_SURFACE()
-	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(VolumetricMist_TypeDefinitionIndex)->GetStaticField(0x20A10);
-	}
-	static ::System::String** StaticGet__V_MIST_MASK_CUT()
-	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(VolumetricMist_TypeDefinitionIndex)->GetStaticField(0x20A18);
-	}
-	static ::System::String** StaticGet__V_MIST_QUALITY_MIDDLE()
-	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(VolumetricMist_TypeDefinitionIndex)->GetStaticField(0x20A20);
-	}
-	static ::System::Int32* StaticGet__MistMaskMap()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VolumetricMist_TypeDefinitionIndex)->GetStaticField(0x54A0);
-	}
-	static ::System::Int32* StaticGet__NoiseChannelWeights()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VolumetricMist_TypeDefinitionIndex)->GetStaticField(0x54A4);
-	}
 	static ::System::Int32* StaticGet__VolumeNoise()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VolumetricMist_TypeDefinitionIndex)->GetStaticField(0x54A8);
-	}
-	static ::System::Int32* StaticGet__MistParamsPartA()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VolumetricMist_TypeDefinitionIndex)->GetStaticField(0x54AC);
-	}
-	static ::System::Int32* StaticGet__NoiseScale()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VolumetricMist_TypeDefinitionIndex)->GetStaticField(0x54B0);
-	}
-	static ::System::Int32* StaticGet__MainLightScatteringColor()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VolumetricMist_TypeDefinitionIndex)->GetStaticField(0x54B4);
-	}
-	static ::System::Int32* StaticGet__AmbientScatteringColor()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VolumetricMist_TypeDefinitionIndex)->GetStaticField(0x54B8);
-	}
-	static ::System::Int32* StaticGet__EdgeFade()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VolumetricMist_TypeDefinitionIndex)->GetStaticField(0x54BC);
-	}
-	static ::System::Int32* StaticGet__MistParams1()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VolumetricMist_TypeDefinitionIndex)->GetStaticField(0x54C0);
-	}
-	static ::System::Int32* StaticGet__BoundingBoxScale()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VolumetricMist_TypeDefinitionIndex)->GetStaticField(0x54C4);
-	}
-	static ::System::Int32* StaticGet__NoiseOffset()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VolumetricMist_TypeDefinitionIndex)->GetStaticField(0x54C8);
-	}
-	static ::System::Int32* StaticGet__CustomVolumetricParams()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VolumetricMist_TypeDefinitionIndex)->GetStaticField(0x54CC);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VolumetricMist_TypeDefinitionIndex)->GetStaticField(0x5310);
 	}
 	static ::System::Int32* StaticGet__MistParams2()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VolumetricMist_TypeDefinitionIndex)->GetStaticField(0x54D0);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VolumetricMist_TypeDefinitionIndex)->GetStaticField(0x5314);
+	}
+	static ::System::Int32* StaticGet__EdgeFade()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VolumetricMist_TypeDefinitionIndex)->GetStaticField(0x5318);
+	}
+	static ::System::Int32* StaticGet__BoundingBoxScale()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VolumetricMist_TypeDefinitionIndex)->GetStaticField(0x531C);
+	}
+	static ::System::Int32* StaticGet__NoiseScale()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VolumetricMist_TypeDefinitionIndex)->GetStaticField(0x5320);
+	}
+	static ::System::Int32* StaticGet__AmbientScatteringColor()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VolumetricMist_TypeDefinitionIndex)->GetStaticField(0x5324);
+	}
+	static ::System::Int32* StaticGet__NoiseChannelWeights()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VolumetricMist_TypeDefinitionIndex)->GetStaticField(0x5328);
+	}
+	static ::System::Int32* StaticGet__MistParamsPartA()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VolumetricMist_TypeDefinitionIndex)->GetStaticField(0x532C);
+	}
+	static ::System::Int32* StaticGet__MistParams1()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VolumetricMist_TypeDefinitionIndex)->GetStaticField(0x5330);
+	}
+	static ::System::Int32* StaticGet__MistMaskMap()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VolumetricMist_TypeDefinitionIndex)->GetStaticField(0x5334);
+	}
+	static ::System::Int32* StaticGet__MainLightScatteringColor()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VolumetricMist_TypeDefinitionIndex)->GetStaticField(0x5338);
+	}
+	static ::System::Int32* StaticGet__CustomVolumetricParams()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VolumetricMist_TypeDefinitionIndex)->GetStaticField(0x533C);
+	}
+	static ::System::Int32* StaticGet__NoiseOffset()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VolumetricMist_TypeDefinitionIndex)->GetStaticField(0x5340);
 	}
 	::UnityEngine::Material* VolumetricMistMaterial; // 0x18
 	::VolumetricMist_MistModeType MistMode; // 0x20

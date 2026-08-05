@@ -5,15 +5,15 @@
 class Class_3_EB3A38E60C647F98;
 namespace System::Reflection { class FieldInfo; }
 
-#define CLASS_1_8EAF75EE983FA1E7__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5AE1E0)
+#define CLASS_1_8EAF75EE983FA1E7__CTOR_OFFSET UNITYSDK_OFFSET(0x1F2DCF70)
 
-inline static constexpr unsigned int Class_1_8EAF75EE983FA1E7_TypeDefinitionIndex = 28797;
+inline static constexpr unsigned int Class_1_8EAF75EE983FA1E7_TypeDefinitionIndex = 29418;
 
 class Class_1_8EAF75EE983FA1E7 : public ::System::Object
 {
 public:
-	::System::Reflection::FieldInfo* Field_1_0; // 0x10
-	::Class_3_EB3A38E60C647F98* Field_1_1; // 0x18
+	::Class_3_EB3A38E60C647F98* Field_1_0; // 0x10
+	::System::Reflection::FieldInfo* Field_1_1; // 0x18
 
 	::System::Void _ctor()
 	{

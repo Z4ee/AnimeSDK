@@ -6,11 +6,11 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_ACTIVITYRHYTHMCLICKBEATMAPCONFIG_BEATMAP__CTOR_OFFSET UNITYSDK_OFFSET(0xE944A90)
+#define MOLEMOLE_ACTIVITYRHYTHMCLICKBEATMAPCONFIG_BEATMAP__CTOR_OFFSET UNITYSDK_OFFSET(0xF1197D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ActivityRhythmClickBeatmapConfig_BeatMap_TypeDefinitionIndex = 44726;
+	inline static constexpr unsigned int ActivityRhythmClickBeatmapConfig_BeatMap_TypeDefinitionIndex = 65343;
 
 	class ActivityRhythmClickBeatmapConfig_BeatMap : public ::System::Object
 	{

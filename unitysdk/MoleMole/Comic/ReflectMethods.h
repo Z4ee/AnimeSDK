@@ -33,167 +33,167 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 namespace UnityEngine::Timeline { class TrackAsset; }
 namespace UnityEngine::Timeline { class VoiceDecorateEvent; }
 
-#define MOLEMOLE_COMIC_REFLECTMETHODS_BUBBLE_ADAPTIVEWIDGET_OFFSET UNITYSDK_OFFSET(0x1DFA37B0)
-#define MOLEMOLE_COMIC_REFLECTMETHODS_BUBBLE_MAKEDRAWARROW_OFFSET UNITYSDK_OFFSET(0x1DFA3970)
-#define MOLEMOLE_COMIC_REFLECTMETHODS_CALCULATEARROWLENGTHINSIDEFRAME_OFFSET UNITYSDK_OFFSET(0x1DFA55F0)
-#define MOLEMOLE_COMIC_REFLECTMETHODS_CREATEBUBBLE_OFFSET UNITYSDK_OFFSET(0x1DFA3440)
-#define MOLEMOLE_COMIC_REFLECTMETHODS_EDITORPREVIEWINITPS5BUTTON_OFFSET UNITYSDK_OFFSET(0x1DFA5B00)
-#define MOLEMOLE_COMIC_REFLECTMETHODS_GETCOMICCONFIGASSETBYNAME_OFFSET UNITYSDK_OFFSET(0x1DFA5960)
-#define MOLEMOLE_COMIC_REFLECTMETHODS_GETCOMICSHAKETEMPLATEKEYDROPDOWN_OFFSET UNITYSDK_OFFSET(0x1DFA5C90)
-#define MOLEMOLE_COMIC_REFLECTMETHODS_GETTALKERNAMEBYIDBYTIMELINEASSET_OFFSET UNITYSDK_OFFSET(0x1DFA5100)
-#define MOLEMOLE_COMIC_REFLECTMETHODS_GETTALKERNAMEBYID_OFFSET UNITYSDK_OFFSET(0x1DFA4F60)
-#define MOLEMOLE_COMIC_REFLECTMETHODS_GET_ADAPTERTYPE_OFFSET UNITYSDK_OFFSET(0x1DFA2CD0)
-#define MOLEMOLE_COMIC_REFLECTMETHODS_GET_SPLITIMGCOM_INIT_DELEGATE_OFFSET UNITYSDK_OFFSET(0x1DFA2CE0)
-#define MOLEMOLE_COMIC_REFLECTMETHODS_GET_SPLITIMGCOM_RESET_DELEGATE_OFFSET UNITYSDK_OFFSET(0x1DFA30B0)
-#define MOLEMOLE_COMIC_REFLECTMETHODS_GET_SPLITIMGCOM_SIMULATE_DELEGATE_OFFSET UNITYSDK_OFFSET(0x1DFA2EC0)
-#define MOLEMOLE_COMIC_REFLECTMETHODS_IMAGEEXCHANGE_TRIGGER_OFFSET UNITYSDK_OFFSET(0x1DFA4040)
-#define MOLEMOLE_COMIC_REFLECTMETHODS_IMAGEEXCHANGE_TRIGGER_ZONEVER_OFFSET UNITYSDK_OFFSET(0x1DFA41F0)
-#define MOLEMOLE_COMIC_REFLECTMETHODS_INITBUBBLE_OFFSET UNITYSDK_OFFSET(0x1DFA35F0)
-#define MOLEMOLE_COMIC_REFLECTMETHODS_ISAUDIOEDITMODE_OFFSET UNITYSDK_OFFSET(0x1DFA57C0)
-#define MOLEMOLE_COMIC_REFLECTMETHODS_ISMALE_OFFSET UNITYSDK_OFFSET(0x1DFA52B0)
-#define MOLEMOLE_COMIC_REFLECTMETHODS_ONTALKERNAMEIDDROPDOWN_OFFSET UNITYSDK_OFFSET(0x1DFA4DC0)
-#define MOLEMOLE_COMIC_REFLECTMETHODS_ONTRACKADDCLIP_OFFSET UNITYSDK_OFFSET(0x1DFA4700)
-#define MOLEMOLE_COMIC_REFLECTMETHODS_ONTRACKADDMARKER_OFFSET UNITYSDK_OFFSET(0x1DFA48B0)
-#define MOLEMOLE_COMIC_REFLECTMETHODS_ONTRACKDELETECLIP_OFFSET UNITYSDK_OFFSET(0x1DFA4A60)
-#define MOLEMOLE_COMIC_REFLECTMETHODS_ONTRACKDELETEMARKER_OFFSET UNITYSDK_OFFSET(0x1DFA4C10)
-#define MOLEMOLE_COMIC_REFLECTMETHODS_PICTUREDECORATIONCOM_INIT_OFFSET UNITYSDK_OFFSET(0x1DFA43A0)
-#define MOLEMOLE_COMIC_REFLECTMETHODS_PICTUREDECORATIONCOM_SIMULATE_OFFSET UNITYSDK_OFFSET(0x1DFA4550)
-#define MOLEMOLE_COMIC_REFLECTMETHODS_SETRANGEINFOVAL_OFFSET UNITYSDK_OFFSET(0x1DFA3280)
-#define MOLEMOLE_COMIC_REFLECTMETHODS_SHOWMAXRANGEBUBBLE_OFFSET UNITYSDK_OFFSET(0x1DFA5450)
-#define MOLEMOLE_COMIC_REFLECTMETHODS_SPLITIMGCOM_INIT_OFFSET UNITYSDK_OFFSET(0x1DFA2E50)
-#define MOLEMOLE_COMIC_REFLECTMETHODS_SPLITIMGCOM_RESET_OFFSET UNITYSDK_OFFSET(0x1DFA3220)
-#define MOLEMOLE_COMIC_REFLECTMETHODS_SPLITIMGCOM_SIMULATE_OFFSET UNITYSDK_OFFSET(0x1DFA3030)
-#define MOLEMOLE_COMIC_REFLECTMETHODS_VOICEDECORATIONCOM_INIT_OFFSET UNITYSDK_OFFSET(0x1DFA3B40)
-#define MOLEMOLE_COMIC_REFLECTMETHODS_VOICEDECORATIONCOM_SIMULATE_OFFSET UNITYSDK_OFFSET(0x1DFA3E90)
-#define MOLEMOLE_COMIC_REFLECTMETHODS_VOICEDECORATIONCOM_TOFINISHSTATE_OFFSET UNITYSDK_OFFSET(0x1DFA3CF0)
-#define MOLEMOLE_COMIC_REFLECTMETHODS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DFA5E30)
+#define MOLEMOLE_COMIC_REFLECTMETHODS_BUBBLE_ADAPTIVEWIDGET_OFFSET UNITYSDK_OFFSET(0x1F39D540)
+#define MOLEMOLE_COMIC_REFLECTMETHODS_BUBBLE_MAKEDRAWARROW_OFFSET UNITYSDK_OFFSET(0x1F39D700)
+#define MOLEMOLE_COMIC_REFLECTMETHODS_CALCULATEARROWLENGTHINSIDEFRAME_OFFSET UNITYSDK_OFFSET(0x1F39F380)
+#define MOLEMOLE_COMIC_REFLECTMETHODS_CREATEBUBBLE_OFFSET UNITYSDK_OFFSET(0x1F39D1D0)
+#define MOLEMOLE_COMIC_REFLECTMETHODS_EDITORPREVIEWINITPS5BUTTON_OFFSET UNITYSDK_OFFSET(0x1F39F890)
+#define MOLEMOLE_COMIC_REFLECTMETHODS_GETCOMICCONFIGASSETBYNAME_OFFSET UNITYSDK_OFFSET(0x1F39F6F0)
+#define MOLEMOLE_COMIC_REFLECTMETHODS_GETCOMICSHAKETEMPLATEKEYDROPDOWN_OFFSET UNITYSDK_OFFSET(0x1F39FA20)
+#define MOLEMOLE_COMIC_REFLECTMETHODS_GETTALKERNAMEBYIDBYTIMELINEASSET_OFFSET UNITYSDK_OFFSET(0x1F39EE90)
+#define MOLEMOLE_COMIC_REFLECTMETHODS_GETTALKERNAMEBYID_OFFSET UNITYSDK_OFFSET(0x1F39ECF0)
+#define MOLEMOLE_COMIC_REFLECTMETHODS_GET_ADAPTERTYPE_OFFSET UNITYSDK_OFFSET(0x1F39CA60)
+#define MOLEMOLE_COMIC_REFLECTMETHODS_GET_SPLITIMGCOM_INIT_DELEGATE_OFFSET UNITYSDK_OFFSET(0x1F39CA70)
+#define MOLEMOLE_COMIC_REFLECTMETHODS_GET_SPLITIMGCOM_RESET_DELEGATE_OFFSET UNITYSDK_OFFSET(0x1F39CE40)
+#define MOLEMOLE_COMIC_REFLECTMETHODS_GET_SPLITIMGCOM_SIMULATE_DELEGATE_OFFSET UNITYSDK_OFFSET(0x1F39CC50)
+#define MOLEMOLE_COMIC_REFLECTMETHODS_IMAGEEXCHANGE_TRIGGER_OFFSET UNITYSDK_OFFSET(0x1F39DDD0)
+#define MOLEMOLE_COMIC_REFLECTMETHODS_IMAGEEXCHANGE_TRIGGER_ZONEVER_OFFSET UNITYSDK_OFFSET(0x1F39DF80)
+#define MOLEMOLE_COMIC_REFLECTMETHODS_INITBUBBLE_OFFSET UNITYSDK_OFFSET(0x1F39D380)
+#define MOLEMOLE_COMIC_REFLECTMETHODS_ISAUDIOEDITMODE_OFFSET UNITYSDK_OFFSET(0x1F39F550)
+#define MOLEMOLE_COMIC_REFLECTMETHODS_ISMALE_OFFSET UNITYSDK_OFFSET(0x1F39F040)
+#define MOLEMOLE_COMIC_REFLECTMETHODS_ONTALKERNAMEIDDROPDOWN_OFFSET UNITYSDK_OFFSET(0x1F39EB50)
+#define MOLEMOLE_COMIC_REFLECTMETHODS_ONTRACKADDCLIP_OFFSET UNITYSDK_OFFSET(0x1F39E490)
+#define MOLEMOLE_COMIC_REFLECTMETHODS_ONTRACKADDMARKER_OFFSET UNITYSDK_OFFSET(0x1F39E640)
+#define MOLEMOLE_COMIC_REFLECTMETHODS_ONTRACKDELETECLIP_OFFSET UNITYSDK_OFFSET(0x1F39E7F0)
+#define MOLEMOLE_COMIC_REFLECTMETHODS_ONTRACKDELETEMARKER_OFFSET UNITYSDK_OFFSET(0x1F39E9A0)
+#define MOLEMOLE_COMIC_REFLECTMETHODS_PICTUREDECORATIONCOM_INIT_OFFSET UNITYSDK_OFFSET(0x1F39E130)
+#define MOLEMOLE_COMIC_REFLECTMETHODS_PICTUREDECORATIONCOM_SIMULATE_OFFSET UNITYSDK_OFFSET(0x1F39E2E0)
+#define MOLEMOLE_COMIC_REFLECTMETHODS_SETRANGEINFOVAL_OFFSET UNITYSDK_OFFSET(0x1F39D010)
+#define MOLEMOLE_COMIC_REFLECTMETHODS_SHOWMAXRANGEBUBBLE_OFFSET UNITYSDK_OFFSET(0x1F39F1E0)
+#define MOLEMOLE_COMIC_REFLECTMETHODS_SPLITIMGCOM_INIT_OFFSET UNITYSDK_OFFSET(0x1F39CBE0)
+#define MOLEMOLE_COMIC_REFLECTMETHODS_SPLITIMGCOM_RESET_OFFSET UNITYSDK_OFFSET(0x1F39CFB0)
+#define MOLEMOLE_COMIC_REFLECTMETHODS_SPLITIMGCOM_SIMULATE_OFFSET UNITYSDK_OFFSET(0x1F39CDC0)
+#define MOLEMOLE_COMIC_REFLECTMETHODS_VOICEDECORATIONCOM_INIT_OFFSET UNITYSDK_OFFSET(0x1F39D8D0)
+#define MOLEMOLE_COMIC_REFLECTMETHODS_VOICEDECORATIONCOM_SIMULATE_OFFSET UNITYSDK_OFFSET(0x1F39DC20)
+#define MOLEMOLE_COMIC_REFLECTMETHODS_VOICEDECORATIONCOM_TOFINISHSTATE_OFFSET UNITYSDK_OFFSET(0x1F39DA80)
+#define MOLEMOLE_COMIC_REFLECTMETHODS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F39FBC0)
 
 namespace MoleMole::Comic
 {
-	inline static constexpr unsigned int ReflectMethods_TypeDefinitionIndex = 32140;
+	inline static constexpr unsigned int ReflectMethods_TypeDefinitionIndex = 32768;
 
 	class ReflectMethods : public ::System::Object
 	{
 	public:
-		static ::System::Func_3<::UnityEngine::Transform*, ::System::String*, ::UnityEngine::Transform*>** StaticGet_m_fcCreateBubble()
+		static ::System::Func_4<::System::Single, ::System::Single, ::System::Single, ::System::Single>** StaticGet_m_fcCalculateArrowLengthInsideFrame()
 		{
-			return (::System::Func_3<::UnityEngine::Transform*, ::System::String*, ::UnityEngine::Transform*>**)Il2CppClass::FromTypeDefinitionIndex(ReflectMethods_TypeDefinitionIndex)->GetStaticField(0x26B40);
-		}
-		static ::System::Func_2<::System::Int32, ::System::String*>** StaticGet_m_fcGetTalkerNameByID()
-		{
-			return (::System::Func_2<::System::Int32, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ReflectMethods_TypeDefinitionIndex)->GetStaticField(0x26B48);
-		}
-		static ::System::Action_2<::UnityEngine::GameObject*, ::UnityEngine::Timeline::VoiceDecorateEvent*>** StaticGet_m_fcVoiceDecorationCom_Init()
-		{
-			return (::System::Action_2<::UnityEngine::GameObject*, ::UnityEngine::Timeline::VoiceDecorateEvent*>**)Il2CppClass::FromTypeDefinitionIndex(ReflectMethods_TypeDefinitionIndex)->GetStaticField(0x26B50);
-		}
-		static ::System::Action_2<::UnityEngine::GameObject*, ::UnityEngine::Timeline::ImageExchangeEvent*>** StaticGet_m_fcImageExchangeEvent_Trigger()
-		{
-			return (::System::Action_2<::UnityEngine::GameObject*, ::UnityEngine::Timeline::ImageExchangeEvent*>**)Il2CppClass::FromTypeDefinitionIndex(ReflectMethods_TypeDefinitionIndex)->GetStaticField(0x26B58);
-		}
-		static ::System::Func_1<::System::Boolean>** StaticGet_m_fcIsMale()
-		{
-			return (::System::Func_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ReflectMethods_TypeDefinitionIndex)->GetStaticField(0x26B60);
-		}
-		static ::System::Action_2<::UnityEngine::GameObject*, ::UnityEngine::Timeline::ImageExchangeEventZoneVer*>** StaticGet_m_fcImageExchange_Trigger_ZoneVer()
-		{
-			return (::System::Action_2<::UnityEngine::GameObject*, ::UnityEngine::Timeline::ImageExchangeEventZoneVer*>**)Il2CppClass::FromTypeDefinitionIndex(ReflectMethods_TypeDefinitionIndex)->GetStaticField(0x26B68);
-		}
-		static ::System::Func_1<::Sirenix::OdinInspector::ValueDropdownList_1<::System::Int32>*>** StaticGet_m_fcOnTalkerNameIDDropDown()
-		{
-			return (::System::Func_1<::Sirenix::OdinInspector::ValueDropdownList_1<::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(ReflectMethods_TypeDefinitionIndex)->GetStaticField(0x26B70);
-		}
-		static ::System::Func_1<::System::Boolean>** StaticGet_m_fcIsAudioEditMode()
-		{
-			return (::System::Func_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ReflectMethods_TypeDefinitionIndex)->GetStaticField(0x26B78);
+			return (::System::Func_4<::System::Single, ::System::Single, ::System::Single, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(ReflectMethods_TypeDefinitionIndex)->GetStaticField(0x28350);
 		}
 		static ::System::Action_2<::UnityEngine::Timeline::TrackAsset*, ::UnityEngine::Timeline::TimelineClip*>** StaticGet_m_fcOnTrackDeleteClip()
 		{
-			return (::System::Action_2<::UnityEngine::Timeline::TrackAsset*, ::UnityEngine::Timeline::TimelineClip*>**)Il2CppClass::FromTypeDefinitionIndex(ReflectMethods_TypeDefinitionIndex)->GetStaticField(0x26B80);
-		}
-		static ::System::Action_2<::UnityEngine::Timeline::TrackAsset*, ::UnityEngine::Timeline::Marker*>** StaticGet_m_fcOnTrackAddMarker()
-		{
-			return (::System::Action_2<::UnityEngine::Timeline::TrackAsset*, ::UnityEngine::Timeline::Marker*>**)Il2CppClass::FromTypeDefinitionIndex(ReflectMethods_TypeDefinitionIndex)->GetStaticField(0x26B88);
+			return (::System::Action_2<::UnityEngine::Timeline::TrackAsset*, ::UnityEngine::Timeline::TimelineClip*>**)Il2CppClass::FromTypeDefinitionIndex(ReflectMethods_TypeDefinitionIndex)->GetStaticField(0x28358);
 		}
 		static ::System::Action_2<::UnityEngine::GameObject*, ::UnityEngine::Timeline::PictureDecorateEvent*>** StaticGet_m_fcPictureDecorationCom_Init()
 		{
-			return (::System::Action_2<::UnityEngine::GameObject*, ::UnityEngine::Timeline::PictureDecorateEvent*>**)Il2CppClass::FromTypeDefinitionIndex(ReflectMethods_TypeDefinitionIndex)->GetStaticField(0x26B90);
-		}
-		static ::System::Action_2<::UnityEngine::Timeline::TrackAsset*, ::UnityEngine::Timeline::Marker*>** StaticGet_m_fcOnTrackDeleteMarker()
-		{
-			return (::System::Action_2<::UnityEngine::Timeline::TrackAsset*, ::UnityEngine::Timeline::Marker*>**)Il2CppClass::FromTypeDefinitionIndex(ReflectMethods_TypeDefinitionIndex)->GetStaticField(0x26B98);
-		}
-		static ::System::Action** StaticGet_m_fcEditorPreviewInitPS5Button()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(ReflectMethods_TypeDefinitionIndex)->GetStaticField(0x26BA0);
-		}
-		static ::System::Func_1<::System::Collections::Generic::List_1<::System::String*>*>** StaticGet_m_fcGetComicShakeTemplateKeyDropdown()
-		{
-			return (::System::Func_1<::System::Collections::Generic::List_1<::System::String*>*>**)Il2CppClass::FromTypeDefinitionIndex(ReflectMethods_TypeDefinitionIndex)->GetStaticField(0x26BA8);
-		}
-		static ::System::Type** StaticGet_m_stAdapterType()
-		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(ReflectMethods_TypeDefinitionIndex)->GetStaticField(0x26BB0);
-		}
-		static ::System::Action_1<::UnityEngine::GameObject*>** StaticGet_m_fcVoiceDecorationCom_ToFinishState()
-		{
-			return (::System::Action_1<::UnityEngine::GameObject*>**)Il2CppClass::FromTypeDefinitionIndex(ReflectMethods_TypeDefinitionIndex)->GetStaticField(0x26BB8);
-		}
-		static ::System::Action_2<::UnityEngine::GameObject*, ::System::Single>** StaticGet_m_fcPictureDecorationCom_Simulate()
-		{
-			return (::System::Action_2<::UnityEngine::GameObject*, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(ReflectMethods_TypeDefinitionIndex)->GetStaticField(0x26BC0);
-		}
-		static ::System::Func_4<::System::Single, ::System::Single, ::System::Single, ::System::Single>** StaticGet_m_fcCalculateArrowLengthInsideFrame()
-		{
-			return (::System::Func_4<::System::Single, ::System::Single, ::System::Single, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(ReflectMethods_TypeDefinitionIndex)->GetStaticField(0x26BC8);
-		}
-		static ::System::Action_4<::UnityEngine::RectTransform*, ::UnityEngine::Vector2, ::UnityEngine::Timeline::BubbleEvent*, ::System::Boolean>** StaticGet_m_fcBubble_MakeDrawArrow()
-		{
-			return (::System::Action_4<::UnityEngine::RectTransform*, ::UnityEngine::Vector2, ::UnityEngine::Timeline::BubbleEvent*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ReflectMethods_TypeDefinitionIndex)->GetStaticField(0x26BD0);
-		}
-		static ::System::Func_1<::System::Boolean>** StaticGet_m_fcShowMaxRangeBubble()
-		{
-			return (::System::Func_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ReflectMethods_TypeDefinitionIndex)->GetStaticField(0x26BD8);
-		}
-		static ::System::Action_2<::UnityEngine::GameObject*, ::System::Single>** StaticGet_m_fcVoiceDecorationCom_Simulate()
-		{
-			return (::System::Action_2<::UnityEngine::GameObject*, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(ReflectMethods_TypeDefinitionIndex)->GetStaticField(0x26BE0);
-		}
-		static ::System::Action_2<::UnityEngine::Timeline::TrackAsset*, ::UnityEngine::Timeline::TimelineClip*>** StaticGet_m_fcOnTrackAddClip()
-		{
-			return (::System::Action_2<::UnityEngine::Timeline::TrackAsset*, ::UnityEngine::Timeline::TimelineClip*>**)Il2CppClass::FromTypeDefinitionIndex(ReflectMethods_TypeDefinitionIndex)->GetStaticField(0x26BE8);
-		}
-		static ::System::Func_2<::System::String*, ::MoleMole::ComicConfig*>** StaticGet_m_fcGetComicConfigAssetByName()
-		{
-			return (::System::Func_2<::System::String*, ::MoleMole::ComicConfig*>**)Il2CppClass::FromTypeDefinitionIndex(ReflectMethods_TypeDefinitionIndex)->GetStaticField(0x26BF0);
+			return (::System::Action_2<::UnityEngine::GameObject*, ::UnityEngine::Timeline::PictureDecorateEvent*>**)Il2CppClass::FromTypeDefinitionIndex(ReflectMethods_TypeDefinitionIndex)->GetStaticField(0x28360);
 		}
 		static ::System::Action_3<::UnityEngine::GameObject*, ::UnityEngine::Timeline::SplitScreenEvent*, ::System::Single>** StaticGet_m_fcSplitImgCom_Simulate()
 		{
-			return (::System::Action_3<::UnityEngine::GameObject*, ::UnityEngine::Timeline::SplitScreenEvent*, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(ReflectMethods_TypeDefinitionIndex)->GetStaticField(0x26BF8);
+			return (::System::Action_3<::UnityEngine::GameObject*, ::UnityEngine::Timeline::SplitScreenEvent*, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(ReflectMethods_TypeDefinitionIndex)->GetStaticField(0x28368);
 		}
-		static ::System::Func_4<::UnityEngine::Transform*, ::UnityEngine::Timeline::BubbleEvent*, ::System::Boolean, ::UnityEngine::Vector2>** StaticGet_m_fcBubble_AdaptiveWidget()
+		static ::System::Func_1<::System::Collections::Generic::List_1<::System::String*>*>** StaticGet_m_fcGetComicShakeTemplateKeyDropdown()
 		{
-			return (::System::Func_4<::UnityEngine::Transform*, ::UnityEngine::Timeline::BubbleEvent*, ::System::Boolean, ::UnityEngine::Vector2>**)Il2CppClass::FromTypeDefinitionIndex(ReflectMethods_TypeDefinitionIndex)->GetStaticField(0x26C00);
+			return (::System::Func_1<::System::Collections::Generic::List_1<::System::String*>*>**)Il2CppClass::FromTypeDefinitionIndex(ReflectMethods_TypeDefinitionIndex)->GetStaticField(0x28370);
 		}
-		static ::System::Action_3<::UnityEngine::GameObject*, ::MoleMole::ComicImgStyle*, ::System::Collections::Generic::List_1<::UnityEngine::Timeline::ImgSplitScreenGroupPlayableAsset_SpriteItem*>*>** StaticGet_m_fcSplitImgCom_Init()
+		static ::System::Func_1<::System::Boolean>** StaticGet_m_fcIsAudioEditMode()
 		{
-			return (::System::Action_3<::UnityEngine::GameObject*, ::MoleMole::ComicImgStyle*, ::System::Collections::Generic::List_1<::UnityEngine::Timeline::ImgSplitScreenGroupPlayableAsset_SpriteItem*>*>**)Il2CppClass::FromTypeDefinitionIndex(ReflectMethods_TypeDefinitionIndex)->GetStaticField(0x26C08);
+			return (::System::Func_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ReflectMethods_TypeDefinitionIndex)->GetStaticField(0x28378);
+		}
+		static ::System::Action_2<::UnityEngine::Timeline::TrackAsset*, ::UnityEngine::Timeline::TimelineClip*>** StaticGet_m_fcOnTrackAddClip()
+		{
+			return (::System::Action_2<::UnityEngine::Timeline::TrackAsset*, ::UnityEngine::Timeline::TimelineClip*>**)Il2CppClass::FromTypeDefinitionIndex(ReflectMethods_TypeDefinitionIndex)->GetStaticField(0x28380);
+		}
+		static ::System::Action_1<::UnityEngine::GameObject*>** StaticGet_m_fcVoiceDecorationCom_ToFinishState()
+		{
+			return (::System::Action_1<::UnityEngine::GameObject*>**)Il2CppClass::FromTypeDefinitionIndex(ReflectMethods_TypeDefinitionIndex)->GetStaticField(0x28388);
 		}
 		static ::System::Func_3<::UnityEngine::Timeline::TimelineAsset*, ::System::Int32, ::System::String*>** StaticGet_m_fcGetTalkerNameByIDByTimelineAsset()
 		{
-			return (::System::Func_3<::UnityEngine::Timeline::TimelineAsset*, ::System::Int32, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ReflectMethods_TypeDefinitionIndex)->GetStaticField(0x26C10);
+			return (::System::Func_3<::UnityEngine::Timeline::TimelineAsset*, ::System::Int32, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ReflectMethods_TypeDefinitionIndex)->GetStaticField(0x28390);
 		}
-		static ::System::Action_2<::System::Single, ::System::Single>** StaticGet_m_fcSetRangeInfoVal()
+		static ::System::Action_2<::UnityEngine::GameObject*, ::System::Single>** StaticGet_m_fcPictureDecorationCom_Simulate()
 		{
-			return (::System::Action_2<::System::Single, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(ReflectMethods_TypeDefinitionIndex)->GetStaticField(0x26C18);
+			return (::System::Action_2<::UnityEngine::GameObject*, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(ReflectMethods_TypeDefinitionIndex)->GetStaticField(0x28398);
 		}
-		static ::System::Action_1<::UnityEngine::GameObject*>** StaticGet_m_fcSplitImgCom_Reset()
+		static ::System::Type** StaticGet_m_stAdapterType()
 		{
-			return (::System::Action_1<::UnityEngine::GameObject*>**)Il2CppClass::FromTypeDefinitionIndex(ReflectMethods_TypeDefinitionIndex)->GetStaticField(0x26C20);
+			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(ReflectMethods_TypeDefinitionIndex)->GetStaticField(0x283A0);
+		}
+		static ::System::Action** StaticGet_m_fcEditorPreviewInitPS5Button()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(ReflectMethods_TypeDefinitionIndex)->GetStaticField(0x283A8);
+		}
+		static ::System::Action_2<::UnityEngine::GameObject*, ::UnityEngine::Timeline::VoiceDecorateEvent*>** StaticGet_m_fcVoiceDecorationCom_Init()
+		{
+			return (::System::Action_2<::UnityEngine::GameObject*, ::UnityEngine::Timeline::VoiceDecorateEvent*>**)Il2CppClass::FromTypeDefinitionIndex(ReflectMethods_TypeDefinitionIndex)->GetStaticField(0x283B0);
+		}
+		static ::System::Action_3<::UnityEngine::GameObject*, ::MoleMole::ComicImgStyle*, ::System::Collections::Generic::List_1<::UnityEngine::Timeline::ImgSplitScreenGroupPlayableAsset_SpriteItem*>*>** StaticGet_m_fcSplitImgCom_Init()
+		{
+			return (::System::Action_3<::UnityEngine::GameObject*, ::MoleMole::ComicImgStyle*, ::System::Collections::Generic::List_1<::UnityEngine::Timeline::ImgSplitScreenGroupPlayableAsset_SpriteItem*>*>**)Il2CppClass::FromTypeDefinitionIndex(ReflectMethods_TypeDefinitionIndex)->GetStaticField(0x283B8);
+		}
+		static ::System::Func_1<::System::Boolean>** StaticGet_m_fcIsMale()
+		{
+			return (::System::Func_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ReflectMethods_TypeDefinitionIndex)->GetStaticField(0x283C0);
 		}
 		static ::System::Action_3<::UnityEngine::Transform*, ::UnityEngine::Transform*, ::UnityEngine::Timeline::BubbleEvent*>** StaticGet_m_fcInitBubble()
 		{
-			return (::System::Action_3<::UnityEngine::Transform*, ::UnityEngine::Transform*, ::UnityEngine::Timeline::BubbleEvent*>**)Il2CppClass::FromTypeDefinitionIndex(ReflectMethods_TypeDefinitionIndex)->GetStaticField(0x26C28);
+			return (::System::Action_3<::UnityEngine::Transform*, ::UnityEngine::Transform*, ::UnityEngine::Timeline::BubbleEvent*>**)Il2CppClass::FromTypeDefinitionIndex(ReflectMethods_TypeDefinitionIndex)->GetStaticField(0x283C8);
+		}
+		static ::System::Func_3<::UnityEngine::Transform*, ::System::String*, ::UnityEngine::Transform*>** StaticGet_m_fcCreateBubble()
+		{
+			return (::System::Func_3<::UnityEngine::Transform*, ::System::String*, ::UnityEngine::Transform*>**)Il2CppClass::FromTypeDefinitionIndex(ReflectMethods_TypeDefinitionIndex)->GetStaticField(0x283D0);
+		}
+		static ::System::Action_2<::System::Single, ::System::Single>** StaticGet_m_fcSetRangeInfoVal()
+		{
+			return (::System::Action_2<::System::Single, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(ReflectMethods_TypeDefinitionIndex)->GetStaticField(0x283D8);
+		}
+		static ::System::Action_2<::UnityEngine::GameObject*, ::System::Single>** StaticGet_m_fcVoiceDecorationCom_Simulate()
+		{
+			return (::System::Action_2<::UnityEngine::GameObject*, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(ReflectMethods_TypeDefinitionIndex)->GetStaticField(0x283E0);
+		}
+		static ::System::Func_4<::UnityEngine::Transform*, ::UnityEngine::Timeline::BubbleEvent*, ::System::Boolean, ::UnityEngine::Vector2>** StaticGet_m_fcBubble_AdaptiveWidget()
+		{
+			return (::System::Func_4<::UnityEngine::Transform*, ::UnityEngine::Timeline::BubbleEvent*, ::System::Boolean, ::UnityEngine::Vector2>**)Il2CppClass::FromTypeDefinitionIndex(ReflectMethods_TypeDefinitionIndex)->GetStaticField(0x283E8);
+		}
+		static ::System::Func_1<::Sirenix::OdinInspector::ValueDropdownList_1<::System::Int32>*>** StaticGet_m_fcOnTalkerNameIDDropDown()
+		{
+			return (::System::Func_1<::Sirenix::OdinInspector::ValueDropdownList_1<::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(ReflectMethods_TypeDefinitionIndex)->GetStaticField(0x283F0);
+		}
+		static ::System::Action_2<::UnityEngine::Timeline::TrackAsset*, ::UnityEngine::Timeline::Marker*>** StaticGet_m_fcOnTrackDeleteMarker()
+		{
+			return (::System::Action_2<::UnityEngine::Timeline::TrackAsset*, ::UnityEngine::Timeline::Marker*>**)Il2CppClass::FromTypeDefinitionIndex(ReflectMethods_TypeDefinitionIndex)->GetStaticField(0x283F8);
+		}
+		static ::System::Func_1<::System::Boolean>** StaticGet_m_fcShowMaxRangeBubble()
+		{
+			return (::System::Func_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ReflectMethods_TypeDefinitionIndex)->GetStaticField(0x28400);
+		}
+		static ::System::Action_4<::UnityEngine::RectTransform*, ::UnityEngine::Vector2, ::UnityEngine::Timeline::BubbleEvent*, ::System::Boolean>** StaticGet_m_fcBubble_MakeDrawArrow()
+		{
+			return (::System::Action_4<::UnityEngine::RectTransform*, ::UnityEngine::Vector2, ::UnityEngine::Timeline::BubbleEvent*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ReflectMethods_TypeDefinitionIndex)->GetStaticField(0x28408);
+		}
+		static ::System::Action_2<::UnityEngine::GameObject*, ::UnityEngine::Timeline::ImageExchangeEvent*>** StaticGet_m_fcImageExchangeEvent_Trigger()
+		{
+			return (::System::Action_2<::UnityEngine::GameObject*, ::UnityEngine::Timeline::ImageExchangeEvent*>**)Il2CppClass::FromTypeDefinitionIndex(ReflectMethods_TypeDefinitionIndex)->GetStaticField(0x28410);
+		}
+		static ::System::Func_2<::System::String*, ::MoleMole::ComicConfig*>** StaticGet_m_fcGetComicConfigAssetByName()
+		{
+			return (::System::Func_2<::System::String*, ::MoleMole::ComicConfig*>**)Il2CppClass::FromTypeDefinitionIndex(ReflectMethods_TypeDefinitionIndex)->GetStaticField(0x28418);
+		}
+		static ::System::Action_1<::UnityEngine::GameObject*>** StaticGet_m_fcSplitImgCom_Reset()
+		{
+			return (::System::Action_1<::UnityEngine::GameObject*>**)Il2CppClass::FromTypeDefinitionIndex(ReflectMethods_TypeDefinitionIndex)->GetStaticField(0x28420);
+		}
+		static ::System::Action_2<::UnityEngine::Timeline::TrackAsset*, ::UnityEngine::Timeline::Marker*>** StaticGet_m_fcOnTrackAddMarker()
+		{
+			return (::System::Action_2<::UnityEngine::Timeline::TrackAsset*, ::UnityEngine::Timeline::Marker*>**)Il2CppClass::FromTypeDefinitionIndex(ReflectMethods_TypeDefinitionIndex)->GetStaticField(0x28428);
+		}
+		static ::System::Func_2<::System::Int32, ::System::String*>** StaticGet_m_fcGetTalkerNameByID()
+		{
+			return (::System::Func_2<::System::Int32, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ReflectMethods_TypeDefinitionIndex)->GetStaticField(0x28430);
+		}
+		static ::System::Action_2<::UnityEngine::GameObject*, ::UnityEngine::Timeline::ImageExchangeEventZoneVer*>** StaticGet_m_fcImageExchange_Trigger_ZoneVer()
+		{
+			return (::System::Action_2<::UnityEngine::GameObject*, ::UnityEngine::Timeline::ImageExchangeEventZoneVer*>**)Il2CppClass::FromTypeDefinitionIndex(ReflectMethods_TypeDefinitionIndex)->GetStaticField(0x28438);
 		}
 
 		static ::System::Void _cctor()

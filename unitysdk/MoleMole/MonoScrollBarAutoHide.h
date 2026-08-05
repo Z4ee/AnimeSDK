@@ -4,22 +4,22 @@
 
 namespace UnityEngine { class CanvasGroup; }
 
-#define MOLEMOLE_MONOSCROLLBARAUTOHIDE_AWAKE_OFFSET UNITYSDK_OFFSET(0x17DD7950)
-#define MOLEMOLE_MONOSCROLLBARAUTOHIDE_UPDATESTATUS_1_OFFSET UNITYSDK_OFFSET(0x17DD7BB0)
-#define MOLEMOLE_MONOSCROLLBARAUTOHIDE_UPDATESTATUS_OFFSET UNITYSDK_OFFSET(0x17DD7B10)
-#define MOLEMOLE_MONOSCROLLBARAUTOHIDE_UPDATE_OFFSET UNITYSDK_OFFSET(0x17DD7A50)
-#define MOLEMOLE_MONOSCROLLBARAUTOHIDE__CTOR_OFFSET UNITYSDK_OFFSET(0x17DD7DA0)
+#define MOLEMOLE_MONOSCROLLBARAUTOHIDE_AWAKE_OFFSET UNITYSDK_OFFSET(0x1909C150)
+#define MOLEMOLE_MONOSCROLLBARAUTOHIDE_UPDATESTATUS_1_OFFSET UNITYSDK_OFFSET(0x1909C3B0)
+#define MOLEMOLE_MONOSCROLLBARAUTOHIDE_UPDATESTATUS_OFFSET UNITYSDK_OFFSET(0x1909C310)
+#define MOLEMOLE_MONOSCROLLBARAUTOHIDE_UPDATE_OFFSET UNITYSDK_OFFSET(0x1909C250)
+#define MOLEMOLE_MONOSCROLLBARAUTOHIDE__CTOR_OFFSET UNITYSDK_OFFSET(0x1909C5A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoScrollBarAutoHide_TypeDefinitionIndex = 65982;
+	inline static constexpr unsigned int MonoScrollBarAutoHide_TypeDefinitionIndex = 62364;
 
 	class MonoScrollBarAutoHide : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		::System::Boolean Field_5_0; // 0x18
-		::UnityEngine::CanvasGroup* Field_5_1; // 0x20
-		::System::Single Field_5_2; // 0x28
+		::System::Boolean Field_5_3; // 0x18
+		::UnityEngine::CanvasGroup* Field_5_2; // 0x20
+		::System::Single Field_5_1; // 0x28
 		::System::Single fadeOutTimeSpan; // 0x2C
 		::System::Boolean hidebyDefault; // 0x30
 

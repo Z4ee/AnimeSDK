@@ -4,11 +4,11 @@
 
 namespace MoleMole::Config { class ConfigPhotoCameraFrame; }
 
-#define MOLEMOLE_CONFIG_CONFIGPHOTOCAMERAFRAMEOUTER__CTOR_OFFSET UNITYSDK_OFFSET(0x12B3D750)
+#define MOLEMOLE_CONFIG_CONFIGPHOTOCAMERAFRAMEOUTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7EE980)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigPhotoCameraFrameOuter_TypeDefinitionIndex = 71918;
+	inline static constexpr unsigned int ConfigPhotoCameraFrameOuter_TypeDefinitionIndex = 78250;
 
 	class ConfigPhotoCameraFrameOuter : public ::Foundation::MihoyoSerializedScriptableObject
 	{

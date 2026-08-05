@@ -9,7 +9,7 @@
 
 namespace StateTreeCore
 {
-	inline static constexpr unsigned int IExternalDataCollector_TypeDefinitionIndex = 30932;
+	inline static constexpr unsigned int IExternalDataCollector_TypeDefinitionIndex = 31536;
 
 	class IExternalDataCollector
 	{

@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_GALGAME_LOOKIKCFG__CTOR_OFFSET UNITYSDK_OFFSET(0x13020880)
+#define MOLEMOLE_GALGAME_LOOKIKCFG__CTOR_OFFSET UNITYSDK_OFFSET(0x17378390)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int LookIKCfg_TypeDefinitionIndex = 45924;
+	inline static constexpr unsigned int LookIKCfg_TypeDefinitionIndex = 56291;
 
 	class LookIKCfg : public ::System::Object
 	{

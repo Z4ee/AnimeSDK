@@ -4,11 +4,11 @@
 
 namespace UnityEngine::UI { class VertexHelper; }
 
-#define EMPTY4RAYCAST_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0x13B42210)
-#define EMPTY4RAYCAST__CTOR_OFFSET UNITYSDK_OFFSET(0x13B421F0)
-#define EMPTY4RAYCAST___BASE_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0x13B42270)
+#define EMPTY4RAYCAST_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0x109AF9B0)
+#define EMPTY4RAYCAST__CTOR_OFFSET UNITYSDK_OFFSET(0x109AF990)
+#define EMPTY4RAYCAST___BASE_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0x109AFA10)
 
-inline static constexpr unsigned int Empty4RayCast_TypeDefinitionIndex = 84698;
+inline static constexpr unsigned int Empty4RayCast_TypeDefinitionIndex = 85338;
 
 class Empty4RayCast : public ::UnityEngine::UI::MaskableGraphic
 {

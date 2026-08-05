@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK::PC::Native::OS
 {
-	inline static constexpr unsigned int Win32_DeviceForm_TypeDefinitionIndex = 20243;
+	inline static constexpr unsigned int Win32_DeviceForm_TypeDefinitionIndex = 20591;
 
 	enum class Win32_DeviceForm : ::System::Int32
 	{

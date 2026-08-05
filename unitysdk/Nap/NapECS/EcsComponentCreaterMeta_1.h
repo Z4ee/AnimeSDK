@@ -6,7 +6,7 @@ namespace System { template <typename T> class Func_1; }
 
 namespace Nap::NapECS
 {
-	inline static constexpr unsigned int EcsComponentCreaterMeta_1_TypeDefinitionIndex = 37362;
+	inline static constexpr unsigned int EcsComponentCreaterMeta_1_TypeDefinitionIndex = 38032;
 
 	template <typename T>
 	class EcsComponentCreaterMeta_1 : public ::System::Object

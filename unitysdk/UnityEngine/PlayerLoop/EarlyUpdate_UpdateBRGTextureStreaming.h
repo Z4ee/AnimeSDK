@@ -4,7 +4,7 @@
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int EarlyUpdate_UpdateBRGTextureStreaming_TypeDefinitionIndex = 5546;
+	inline static constexpr unsigned int EarlyUpdate_UpdateBRGTextureStreaming_TypeDefinitionIndex = 5549;
 
 	struct alignas(1) EarlyUpdate_UpdateBRGTextureStreaming
 	{

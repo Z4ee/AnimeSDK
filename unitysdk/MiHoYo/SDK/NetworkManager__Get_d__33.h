@@ -11,32 +11,32 @@ namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MIHOYO_SDK_NETWORKMANAGER__GET_D__33_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1BE495F0)
-#define MIHOYO_SDK_NETWORKMANAGER__GET_D__33_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1BE49BB0)
-#define MIHOYO_SDK_NETWORKMANAGER__GET_D__33_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1BE49C10)
-#define MIHOYO_SDK_NETWORKMANAGER__GET_D__33_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1BE49BC0)
-#define MIHOYO_SDK_NETWORKMANAGER__GET_D__33_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1BE495E0)
-#define MIHOYO_SDK_NETWORKMANAGER__GET_D__33__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE495D0)
+#define MIHOYO_SDK_NETWORKMANAGER__GET_D__33_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1D1BAC50)
+#define MIHOYO_SDK_NETWORKMANAGER__GET_D__33_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1D1BB1D0)
+#define MIHOYO_SDK_NETWORKMANAGER__GET_D__33_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1D1BB230)
+#define MIHOYO_SDK_NETWORKMANAGER__GET_D__33_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1D1BB1E0)
+#define MIHOYO_SDK_NETWORKMANAGER__GET_D__33_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1D1BAC40)
+#define MIHOYO_SDK_NETWORKMANAGER__GET_D__33__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1BAC30)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int NetworkManager__Get_d__33_TypeDefinitionIndex = 19919;
+	inline static constexpr unsigned int NetworkManager__Get_d__33_TypeDefinitionIndex = 20267;
 
 	class NetworkManager__Get_d__33 : public ::System::Object
 	{
 	public:
-		::System::Action_1<::System::String*>* callback; // 0x10
-		::MiHoYo::SDK::JSONNode_KeyEnumerator __s__4; // 0x18
-		::MiHoYo::SDK::NetworkManager* __4__this; // 0x60
-		::System::String* _queryString_5__2; // 0x68
-		::MiHoYo::SDK::JSONNode* _extHeaderNode_5__3; // 0x70
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* _newHeaders_5__1; // 0x78
-		::System::Action* timeoutCallback; // 0x80
-		::System::String* _key_5__5; // 0x88
-		::System::String* requestUrl; // 0x90
-		::System::Object* __2__current; // 0x98
-		::System::String* extHeaders; // 0xA0
-		::MiHoYo::SDK::JSONObject* query; // 0xA8
+		::System::String* _queryString_5__2; // 0x10
+		::System::String* _key_5__5; // 0x18
+		::MiHoYo::SDK::JSONObject* query; // 0x20
+		::MiHoYo::SDK::JSONNode* _extHeaderNode_5__3; // 0x28
+		::System::String* requestUrl; // 0x30
+		::MiHoYo::SDK::NetworkManager* __4__this; // 0x38
+		::System::Action_1<::System::String*>* callback; // 0x40
+		::System::Action* timeoutCallback; // 0x48
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* _newHeaders_5__1; // 0x50
+		::System::String* extHeaders; // 0x58
+		::MiHoYo::SDK::JSONNode_KeyEnumerator __s__4; // 0x60
+		::System::Object* __2__current; // 0xA8
 		::System::Single timeoutSecond; // 0xB0
 		::System::Int32 __1__state; // 0xB4
 		::System::Int32 retryTime; // 0xB8

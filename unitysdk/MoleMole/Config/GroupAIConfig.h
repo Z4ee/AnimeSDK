@@ -10,15 +10,15 @@ namespace MoleMole::Config { class ConfigLevelGlobalAIBTreeData; }
 namespace MoleMole::Config { class ConfigLevelGlobalAICounterstrokeData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_GROUPAICONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x10D10390)
-#define MOLEMOLE_CONFIG_GROUPAICONFIG_FROMFLX_OFFSET UNITYSDK_OFFSET(0x10D0FDA0)
-#define MOLEMOLE_CONFIG_GROUPAICONFIG_METHOD_1_5B0202969299569F_OFFSET UNITYSDK_OFFSET(0x10D0FE20)
-#define MOLEMOLE_CONFIG_GROUPAICONFIG_METHOD_1_C68CB15A07D0E2EF_OFFSET UNITYSDK_OFFSET(0x10D103F0)
-#define MOLEMOLE_CONFIG_GROUPAICONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x10D106F0)
+#define MOLEMOLE_CONFIG_GROUPAICONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x117123E0)
+#define MOLEMOLE_CONFIG_GROUPAICONFIG_FROMFLX_OFFSET UNITYSDK_OFFSET(0x11711E00)
+#define MOLEMOLE_CONFIG_GROUPAICONFIG_METHOD_1_0BD393E566CD3D4A_OFFSET UNITYSDK_OFFSET(0x11711E80)
+#define MOLEMOLE_CONFIG_GROUPAICONFIG_METHOD_1_C68CB15A07D0E2EF_OFFSET UNITYSDK_OFFSET(0x11712440)
+#define MOLEMOLE_CONFIG_GROUPAICONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x11712740)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int GroupAIConfig_TypeDefinitionIndex = 64519;
+	inline static constexpr unsigned int GroupAIConfig_TypeDefinitionIndex = 66428;
 
 	class GroupAIConfig : public ::System::Object
 	{
@@ -42,14 +42,14 @@ namespace MoleMole::Config
 			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_GROUPAICONFIG_FROMBINARY_OFFSET))(this, a1, a2);
 		}
 
+		::System::Boolean Method_1_0BD393E566CD3D4A(::FlexBuffers::FlxMap a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxMap))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_GROUPAICONFIG_METHOD_1_0BD393E566CD3D4A_OFFSET))(this, a1);
+		}
+
 		::System::Boolean Method_1_C68CB15A07D0E2EF(::Class_1_236FD73ABC492E3F* a1, ::System::Int32 a2)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_GROUPAICONFIG_METHOD_1_C68CB15A07D0E2EF_OFFSET))(this, a1, a2);
-		}
-
-		::System::Boolean Method_1_5B0202969299569F(::FlexBuffers::FlxMap a1)
-		{
-			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxMap))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_GROUPAICONFIG_METHOD_1_5B0202969299569F_OFFSET))(this, a1);
 		}
 	};
 }

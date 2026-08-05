@@ -4,7 +4,7 @@
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int GlobalBufferManager_HistoryBuffers_TypeDefinitionIndex = 6024;
+	inline static constexpr unsigned int GlobalBufferManager_HistoryBuffers_TypeDefinitionIndex = 6026;
 
 	class GlobalBufferManager_HistoryBuffers
 	{

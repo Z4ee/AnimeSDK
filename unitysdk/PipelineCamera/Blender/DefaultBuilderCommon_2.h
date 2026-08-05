@@ -9,7 +9,7 @@ namespace System { class String; }
 
 namespace PipelineCamera::Blender
 {
-	inline static constexpr unsigned int DefaultBuilderCommon_2_TypeDefinitionIndex = 37988;
+	inline static constexpr unsigned int DefaultBuilderCommon_2_TypeDefinitionIndex = 38649;
 
 	template <typename TReserveKey, typename TPriority>
 	struct DefaultBuilderCommon_2

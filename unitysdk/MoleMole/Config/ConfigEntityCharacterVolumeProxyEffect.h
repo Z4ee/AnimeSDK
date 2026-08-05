@@ -5,12 +5,12 @@
 
 namespace MoleMole::Config { class ScreenEffectFloat; }
 
-#define MOLEMOLE_CONFIG_CONFIGENTITYCHARACTERVOLUMEPROXYEFFECT_GETINDOORWEIGHT_OFFSET UNITYSDK_OFFSET(0x106D2D00)
-#define MOLEMOLE_CONFIG_CONFIGENTITYCHARACTERVOLUMEPROXYEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x106D2D80)
+#define MOLEMOLE_CONFIG_CONFIGENTITYCHARACTERVOLUMEPROXYEFFECT_GETINDOORWEIGHT_OFFSET UNITYSDK_OFFSET(0x1A4AC3B0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYCHARACTERVOLUMEPROXYEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4AC430)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigEntityCharacterVolumeProxyEffect_TypeDefinitionIndex = 86795;
+	inline static constexpr unsigned int ConfigEntityCharacterVolumeProxyEffect_TypeDefinitionIndex = 89313;
 
 	class ConfigEntityCharacterVolumeProxyEffect : public ::MoleMole::Config::ConfigEntityScreenEffectBase
 	{

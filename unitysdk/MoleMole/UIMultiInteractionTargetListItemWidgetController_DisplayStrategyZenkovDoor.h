@@ -1,0 +1,78 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Enum_3_3626AD8252BC4724.h"
+#include "unitysdk/MoleMole/UIMultiInteractionTargetListItemWidgetController_DisplayStrategyBaseWithFocus.h"
+#include "unitysdk/MoleMole/UIMultiInteractionTargetListItemWidgetController_DisplayStrategyType.h"
+#include "unitysdk/Struct_2_24A53FACD918DAF7.h"
+#include "unitysdk/Struct_2_C8629618711DF8B3.h"
+
+class Class_2_60638234271CCDB8_63;
+class Class_2_72BDD67FEA972F1C;
+namespace MoleMole { class UIMultiInteractionTargetListItemWidgetController; }
+namespace MoleMole { class UIMultiInteractionTargetListItemWidgetController_Context; }
+
+#define MOLEMOLE_UIMULTIINTERACTIONTARGETLISTITEMWIDGETCONTROLLER_DISPLAYSTRATEGYZENKOVDOOR_DOBIND_OFFSET UNITYSDK_OFFSET(0x184F5380)
+#define MOLEMOLE_UIMULTIINTERACTIONTARGETLISTITEMWIDGETCONTROLLER_DISPLAYSTRATEGYZENKOVDOOR_DOUNBIND_OFFSET UNITYSDK_OFFSET(0x184F5B90)
+#define MOLEMOLE_UIMULTIINTERACTIONTARGETLISTITEMWIDGETCONTROLLER_DISPLAYSTRATEGYZENKOVDOOR_GET_STRATEGYTYPE_OFFSET UNITYSDK_OFFSET(0x184F5370)
+#define MOLEMOLE_UIMULTIINTERACTIONTARGETLISTITEMWIDGETCONTROLLER_DISPLAYSTRATEGYZENKOVDOOR_ONINTERACTIONSTATENOTIFICATION_OFFSET UNITYSDK_OFFSET(0x184F5D50)
+#define MOLEMOLE_UIMULTIINTERACTIONTARGETLISTITEMWIDGETCONTROLLER_DISPLAYSTRATEGYZENKOVDOOR_ONZENKOVBAGITEMCOUNTCHANGED_OFFSET UNITYSDK_OFFSET(0x184F5D00)
+#define MOLEMOLE_UIMULTIINTERACTIONTARGETLISTITEMWIDGETCONTROLLER_DISPLAYSTRATEGYZENKOVDOOR_REFRESHNAME_OFFSET UNITYSDK_OFFSET(0x184F56F0)
+#define MOLEMOLE_UIMULTIINTERACTIONTARGETLISTITEMWIDGETCONTROLLER_DISPLAYSTRATEGYZENKOVDOOR__CTOR_OFFSET UNITYSDK_OFFSET(0x184F5DC0)
+#define MOLEMOLE_UIMULTIINTERACTIONTARGETLISTITEMWIDGETCONTROLLER_DISPLAYSTRATEGYZENKOVDOOR___BASE_DOBIND_OFFSET UNITYSDK_OFFSET(0x184F5DD0)
+#define MOLEMOLE_UIMULTIINTERACTIONTARGETLISTITEMWIDGETCONTROLLER_DISPLAYSTRATEGYZENKOVDOOR___BASE_DOUNBIND_OFFSET UNITYSDK_OFFSET(0x184F5DE0)
+
+namespace MoleMole
+{
+	inline static constexpr unsigned int UIMultiInteractionTargetListItemWidgetController_DisplayStrategyZenkovDoor_TypeDefinitionIndex = 79759;
+
+	class UIMultiInteractionTargetListItemWidgetController_DisplayStrategyZenkovDoor : public ::MoleMole::UIMultiInteractionTargetListItemWidgetController_DisplayStrategyBaseWithFocus
+	{
+	public:
+		::Struct_2_24A53FACD918DAF7 _itemCountSubscription; // 0x50
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMULTIINTERACTIONTARGETLISTITEMWIDGETCONTROLLER_DISPLAYSTRATEGYZENKOVDOOR__CTOR_OFFSET))(this);
+		}
+
+		::MoleMole::UIMultiInteractionTargetListItemWidgetController_DisplayStrategyType get_StrategyType()
+		{
+			return ((::MoleMole::UIMultiInteractionTargetListItemWidgetController_DisplayStrategyType(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMULTIINTERACTIONTARGETLISTITEMWIDGETCONTROLLER_DISPLAYSTRATEGYZENKOVDOOR_GET_STRATEGYTYPE_OFFSET))(this);
+		}
+
+		::System::Void DoBind(::MoleMole::UIMultiInteractionTargetListItemWidgetController_Context*& context, ::MoleMole::UIMultiInteractionTargetListItemWidgetController*& controller, ::Class_2_60638234271CCDB8_63*& view)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIMultiInteractionTargetListItemWidgetController_Context*&, ::MoleMole::UIMultiInteractionTargetListItemWidgetController*&, ::Class_2_60638234271CCDB8_63*&))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMULTIINTERACTIONTARGETLISTITEMWIDGETCONTROLLER_DISPLAYSTRATEGYZENKOVDOOR_DOBIND_OFFSET))(this, context, controller, view);
+		}
+
+		::System::Void DoUnbind()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMULTIINTERACTIONTARGETLISTITEMWIDGETCONTROLLER_DISPLAYSTRATEGYZENKOVDOOR_DOUNBIND_OFFSET))(this);
+		}
+
+		::System::Void OnZenkovBagItemCountChanged(::Struct_2_C8629618711DF8B3& e)
+		{
+			return ((::System::Void(*)(::PVOID, ::Struct_2_C8629618711DF8B3&))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMULTIINTERACTIONTARGETLISTITEMWIDGETCONTROLLER_DISPLAYSTRATEGYZENKOVDOOR_ONZENKOVBAGITEMCOUNTCHANGED_OFFSET))(this, e);
+		}
+
+		::System::Void RefreshName()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMULTIINTERACTIONTARGETLISTITEMWIDGETCONTROLLER_DISPLAYSTRATEGYZENKOVDOOR_REFRESHNAME_OFFSET))(this);
+		}
+
+		::System::Void OnInteractionStateNotification(::Class_2_72BDD67FEA972F1C*& interaction, ::Enum_3_3626AD8252BC4724& type)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_2_72BDD67FEA972F1C*&, ::Enum_3_3626AD8252BC4724&))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMULTIINTERACTIONTARGETLISTITEMWIDGETCONTROLLER_DISPLAYSTRATEGYZENKOVDOOR_ONINTERACTIONSTATENOTIFICATION_OFFSET))(this, interaction, type);
+		}
+
+		::System::Void __base_DoBind(::MoleMole::UIMultiInteractionTargetListItemWidgetController_Context*& P0, ::MoleMole::UIMultiInteractionTargetListItemWidgetController*& P1, ::Class_2_60638234271CCDB8_63*& P2)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIMultiInteractionTargetListItemWidgetController_Context*&, ::MoleMole::UIMultiInteractionTargetListItemWidgetController*&, ::Class_2_60638234271CCDB8_63*&))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMULTIINTERACTIONTARGETLISTITEMWIDGETCONTROLLER_DISPLAYSTRATEGYZENKOVDOOR___BASE_DOBIND_OFFSET))(this, P0, P1, P2);
+		}
+
+		::System::Void __base_DoUnbind()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMULTIINTERACTIONTARGETLISTITEMWIDGETCONTROLLER_DISPLAYSTRATEGYZENKOVDOOR___BASE_DOUNBIND_OFFSET))(this);
+		}
+	};
+}

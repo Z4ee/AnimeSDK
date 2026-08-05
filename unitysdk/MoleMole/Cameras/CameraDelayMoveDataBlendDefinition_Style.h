@@ -3,17 +3,17 @@
 
 namespace MoleMole::Cameras
 {
-	inline static constexpr unsigned int CameraDelayMoveDataBlendDefinition_Style_TypeDefinitionIndex = 78630;
+	inline static constexpr unsigned int CameraDelayMoveDataBlendDefinition_Style_TypeDefinitionIndex = 54832;
 
 	enum class CameraDelayMoveDataBlendDefinition_Style : ::System::Int32
 	{
-		EaseIn = 2,
-		EaseOut = 3,
 		Cut = 0,
-		HardOut = 5,
+		Custom = 7,
+		EaseOut = 3,
 		HardIn = 4,
+		EaseIn = 2,
+		HardOut = 5,
 		Linear = 6,
 		EaseInOut = 1,
-		Custom = 7,
 	};
 }

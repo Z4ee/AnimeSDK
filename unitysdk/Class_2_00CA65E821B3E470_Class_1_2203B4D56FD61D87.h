@@ -6,16 +6,16 @@
 class Class_2_00CA65E821B3E470;
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 
-#define CLASS_2_00CA65E821B3E470_CLASS_1_2203B4D56FD61D87_METHOD_1_F026F9F94BAA5E1F_OFFSET UNITYSDK_OFFSET(0x13E1C2A0)
-#define CLASS_2_00CA65E821B3E470_CLASS_1_2203B4D56FD61D87__CTOR_OFFSET UNITYSDK_OFFSET(0x13E1C290)
+#define CLASS_2_00CA65E821B3E470_CLASS_1_2203B4D56FD61D87_METHOD_1_F026F9F94BAA5E1F_OFFSET UNITYSDK_OFFSET(0x170069B0)
+#define CLASS_2_00CA65E821B3E470_CLASS_1_2203B4D56FD61D87__CTOR_OFFSET UNITYSDK_OFFSET(0x170069A0)
 
-inline static constexpr unsigned int Class_2_00CA65E821B3E470_Class_1_2203B4D56FD61D87_TypeDefinitionIndex = 86853;
+inline static constexpr unsigned int Class_2_00CA65E821B3E470_Class_1_2203B4D56FD61D87_TypeDefinitionIndex = 54133;
 
 class Class_2_00CA65E821B3E470_Class_1_2203B4D56FD61D87 : public ::System::Object
 {
 public:
-	::Class_2_00CA65E821B3E470* Field_1_1; // 0x10
-	::System::Func_3<::NodeGraph::VariantUnion, ::System::Int32, ::System::Int32>* Field_1_0; // 0x18
+	::Class_2_00CA65E821B3E470* Field_1_0; // 0x10
+	::System::Func_3<::NodeGraph::VariantUnion, ::System::Int32, ::System::Int32>* Field_1_1; // 0x18
 
 	::System::Void _ctor()
 	{

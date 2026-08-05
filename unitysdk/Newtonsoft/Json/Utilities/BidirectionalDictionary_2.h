@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class IEqualityCo
 
 namespace Newtonsoft::Json::Utilities
 {
-	inline static constexpr unsigned int BidirectionalDictionary_2_TypeDefinitionIndex = 7034;
+	inline static constexpr unsigned int BidirectionalDictionary_2_TypeDefinitionIndex = 7038;
 
 	template <typename TFirst, typename TSecond>
 	class BidirectionalDictionary_2 : public ::System::Object

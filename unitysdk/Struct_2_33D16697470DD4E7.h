@@ -3,7 +3,7 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/ZzzUiCurveGraphic_CurveType.h"
 
-inline static constexpr unsigned int Struct_2_33D16697470DD4E7_TypeDefinitionIndex = 76136;
+inline static constexpr unsigned int Struct_2_33D16697470DD4E7_TypeDefinitionIndex = 49481;
 
 struct alignas(4) Struct_2_33D16697470DD4E7
 {

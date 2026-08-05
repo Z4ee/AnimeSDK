@@ -7,12 +7,12 @@
 namespace MoleMole { class UIBangBooUAVLevelPageController; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define MOLEMOLE_UIBANGBOOUAVLEVELPAGECONTROLLER__SHOWTIPSASYNC_D__22_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x7EA380)
-#define MOLEMOLE_UIBANGBOOUAVLEVELPAGECONTROLLER__SHOWTIPSASYNC_D__22_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x283610)
+#define MOLEMOLE_UIBANGBOOUAVLEVELPAGECONTROLLER__SHOWTIPSASYNC_D__22_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x838240)
+#define MOLEMOLE_UIBANGBOOUAVLEVELPAGECONTROLLER__SHOWTIPSASYNC_D__22_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x296F30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBangBooUAVLevelPageController__ShowTipsAsync_d__22_TypeDefinitionIndex = 61529;
+	inline static constexpr unsigned int UIBangBooUAVLevelPageController__ShowTipsAsync_d__22_TypeDefinitionIndex = 65627;
 
 	struct alignas(8) UIBangBooUAVLevelPageController__ShowTipsAsync_d__22
 	{

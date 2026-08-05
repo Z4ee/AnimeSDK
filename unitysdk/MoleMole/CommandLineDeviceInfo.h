@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CommandLineDeviceInfo_TypeDefinitionIndex = 49455;
+	inline static constexpr unsigned int CommandLineDeviceInfo_TypeDefinitionIndex = 49677;
 
 	struct alignas(8) CommandLineDeviceInfo
 	{

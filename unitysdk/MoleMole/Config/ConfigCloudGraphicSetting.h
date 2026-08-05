@@ -3,12 +3,12 @@
 #include "unitysdk/MoleMole/Config/ConfigSubSystemSettingBase.h"
 #include "unitysdk/MoleMole/ESystemSettingType.h"
 
-#define MOLEMOLE_CONFIG_CONFIGCLOUDGRAPHICSETTING_GET_SYSTEMSETTINGTYPE_OFFSET UNITYSDK_OFFSET(0x1AA4C240)
-#define MOLEMOLE_CONFIG_CONFIGCLOUDGRAPHICSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA4C250)
+#define MOLEMOLE_CONFIG_CONFIGCLOUDGRAPHICSETTING_GET_SYSTEMSETTINGTYPE_OFFSET UNITYSDK_OFFSET(0x1146C960)
+#define MOLEMOLE_CONFIG_CONFIGCLOUDGRAPHICSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x1146C970)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigCloudGraphicSetting_TypeDefinitionIndex = 39601;
+	inline static constexpr unsigned int ConfigCloudGraphicSetting_TypeDefinitionIndex = 46510;
 
 	class ConfigCloudGraphicSetting : public ::MoleMole::Config::ConfigSubSystemSettingBase
 	{

@@ -9,7 +9,7 @@ namespace PipelineCamera { class ICameraDataBlender; }
 
 namespace PipelineCamera::Blender
 {
-	inline static constexpr unsigned int EasingBlenderBuilder_2_TypeDefinitionIndex = 37989;
+	inline static constexpr unsigned int EasingBlenderBuilder_2_TypeDefinitionIndex = 38650;
 
 	template <typename TReserveKey, typename TPriority>
 	class EasingBlenderBuilder_2 : public ::PipelineCamera::CameraDataBlenderBuilder_1<TPriority>

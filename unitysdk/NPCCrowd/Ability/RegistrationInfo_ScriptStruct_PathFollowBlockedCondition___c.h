@@ -4,20 +4,20 @@
 
 namespace UnrealTypes { class ICppStructOps; }
 
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_PATHFOLLOWBLOCKEDCONDITION___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD413D00)
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_PATHFOLLOWBLOCKEDCONDITION___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD413D40)
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_PATHFOLLOWBLOCKEDCONDITION___C___CCTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0xD413D50)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_PATHFOLLOWBLOCKEDCONDITION___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x10641A60)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_PATHFOLLOWBLOCKEDCONDITION___C__CTOR_OFFSET UNITYSDK_OFFSET(0x10641AA0)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_PATHFOLLOWBLOCKEDCONDITION___C___CCTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0x10641AB0)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_PathFollowBlockedCondition___c_TypeDefinitionIndex = 69328;
+	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_PathFollowBlockedCondition___c_TypeDefinitionIndex = 66095;
 
 	class RegistrationInfo_ScriptStruct_PathFollowBlockedCondition___c : public ::System::Object
 	{
 	public:
 		static ::NPCCrowd::Ability::RegistrationInfo_ScriptStruct_PathFollowBlockedCondition___c** StaticGet___9()
 		{
-			return (::NPCCrowd::Ability::RegistrationInfo_ScriptStruct_PathFollowBlockedCondition___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_PathFollowBlockedCondition___c_TypeDefinitionIndex)->GetStaticField(0x455F0);
+			return (::NPCCrowd::Ability::RegistrationInfo_ScriptStruct_PathFollowBlockedCondition___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_PathFollowBlockedCondition___c_TypeDefinitionIndex)->GetStaticField(0x494F0);
 		}
 
 		static ::System::Void _cctor()

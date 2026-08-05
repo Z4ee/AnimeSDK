@@ -6,17 +6,18 @@ namespace System { class IFormatProvider; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define UNITY_MATHEMATICS_UINT3_EQUALS_1_OFFSET UNITYSDK_OFFSET(0xA85BC0)
-#define UNITY_MATHEMATICS_UINT3_EQUALS_OFFSET UNITYSDK_OFFSET(0x9C4980)
-#define UNITY_MATHEMATICS_UINT3_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xA85C80)
-#define UNITY_MATHEMATICS_UINT3_OP_MULTIPLY_OFFSET UNITYSDK_OFFSET(0x1E87D6F0)
-#define UNITY_MATHEMATICS_UINT3_TOSTRING_1_OFFSET UNITYSDK_OFFSET(0xA85D60)
-#define UNITY_MATHEMATICS_UINT3_TOSTRING_OFFSET UNITYSDK_OFFSET(0xA85CA0)
-#define UNITY_MATHEMATICS_UINT3__CTOR_OFFSET UNITYSDK_OFFSET(0x4E6C30)
+#define UNITY_MATHEMATICS_UINT3_EQUALS_1_OFFSET UNITYSDK_OFFSET(0xA637C0)
+#define UNITY_MATHEMATICS_UINT3_EQUALS_OFFSET UNITYSDK_OFFSET(0xA0F0F0)
+#define UNITY_MATHEMATICS_UINT3_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xA63880)
+#define UNITY_MATHEMATICS_UINT3_OP_ADDITION_OFFSET UNITYSDK_OFFSET(0x1EBD4E10)
+#define UNITY_MATHEMATICS_UINT3_OP_MULTIPLY_OFFSET UNITYSDK_OFFSET(0x1EBD4DE0)
+#define UNITY_MATHEMATICS_UINT3_TOSTRING_1_OFFSET UNITYSDK_OFFSET(0xA63960)
+#define UNITY_MATHEMATICS_UINT3_TOSTRING_OFFSET UNITYSDK_OFFSET(0xA638A0)
+#define UNITY_MATHEMATICS_UINT3__CTOR_OFFSET UNITYSDK_OFFSET(0x586780)
 
 namespace Unity::Mathematics
 {
-	inline static constexpr unsigned int uint3_TypeDefinitionIndex = 32111;
+	inline static constexpr unsigned int uint3_TypeDefinitionIndex = 32738;
 
 	struct alignas(4) uint3
 	{
@@ -32,6 +33,11 @@ namespace Unity::Mathematics
 		static ::Unity::Mathematics::uint3 op_Multiply(::Unity::Mathematics::uint3 lhs, ::Unity::Mathematics::uint3 rhs)
 		{
 			return ((::Unity::Mathematics::uint3(*)(::Unity::Mathematics::uint3, ::Unity::Mathematics::uint3))((::PBYTE)hIl2Cpp + UNITY_MATHEMATICS_UINT3_OP_MULTIPLY_OFFSET))(lhs, rhs);
+		}
+
+		static ::Unity::Mathematics::uint3 op_Addition(::Unity::Mathematics::uint3 lhs, ::Unity::Mathematics::uint3 rhs)
+		{
+			return ((::Unity::Mathematics::uint3(*)(::Unity::Mathematics::uint3, ::Unity::Mathematics::uint3))((::PBYTE)hIl2Cpp + UNITY_MATHEMATICS_UINT3_OP_ADDITION_OFFSET))(lhs, rhs);
 		}
 
 		::System::Boolean Equals(::Unity::Mathematics::uint3 rhs)

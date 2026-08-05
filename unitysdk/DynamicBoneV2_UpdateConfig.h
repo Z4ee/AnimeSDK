@@ -6,9 +6,9 @@
 
 namespace UnityEngine { class Transform; }
 
-#define DYNAMICBONEV2_UPDATECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1E1B7520)
+#define DYNAMICBONEV2_UPDATECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1F5F1080)
 
-inline static constexpr unsigned int DynamicBoneV2_UpdateConfig_TypeDefinitionIndex = 34632;
+inline static constexpr unsigned int DynamicBoneV2_UpdateConfig_TypeDefinitionIndex = 35291;
 
 class DynamicBoneV2_UpdateConfig : public ::System::Object
 {

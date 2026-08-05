@@ -1,11 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace System { class Exception; }
-namespace System { class String; }
-namespace System { template <typename T1, typename T2> class Action_2; }
+class Class_3_F5D329C44116898C;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_295_TypeDefinitionIndex = 72856;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_295_TypeDefinitionIndex = 57944;
 
 class Class_0_16E4307DCC419505_295
 {

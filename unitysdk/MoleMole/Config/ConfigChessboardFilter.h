@@ -6,11 +6,11 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGCHESSBOARDFILTER__CTOR_OFFSET UNITYSDK_OFFSET(0x144D88E0)
+#define MOLEMOLE_CONFIG_CONFIGCHESSBOARDFILTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD54410)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigChessboardFilter_TypeDefinitionIndex = 65785;
+	inline static constexpr unsigned int ConfigChessboardFilter_TypeDefinitionIndex = 69002;
 
 	class ConfigChessboardFilter : public ::System::Object
 	{

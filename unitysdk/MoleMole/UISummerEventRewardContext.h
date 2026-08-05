@@ -4,11 +4,11 @@
 
 class Class_1_D375C91CCE5D3999;
 
-#define MOLEMOLE_UISUMMEREVENTREWARDCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x122BA580)
+#define MOLEMOLE_UISUMMEREVENTREWARDCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x119F5010)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISummerEventRewardContext_TypeDefinitionIndex = 80907;
+	inline static constexpr unsigned int UISummerEventRewardContext_TypeDefinitionIndex = 47813;
 
 	class UISummerEventRewardContext : public ::MoleMole::UIControllerContextBase
 	{

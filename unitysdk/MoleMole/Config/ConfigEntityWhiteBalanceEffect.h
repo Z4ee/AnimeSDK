@@ -5,21 +5,21 @@
 
 namespace MoleMole::Config { class ScreenEffectFloat; }
 
-#define MOLEMOLE_CONFIG_CONFIGENTITYWHITEBALANCEEFFECT_GETTEMPERATURE_OFFSET UNITYSDK_OFFSET(0x1929BD20)
-#define MOLEMOLE_CONFIG_CONFIGENTITYWHITEBALANCEEFFECT_GETTINT_OFFSET UNITYSDK_OFFSET(0x1929BDA0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYWHITEBALANCEEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1929BE20)
+#define MOLEMOLE_CONFIG_CONFIGENTITYWHITEBALANCEEFFECT_GETTEMPERATURE_OFFSET UNITYSDK_OFFSET(0x148633F0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYWHITEBALANCEEFFECT_GETTINT_OFFSET UNITYSDK_OFFSET(0x14863470)
+#define MOLEMOLE_CONFIG_CONFIGENTITYWHITEBALANCEEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x148634F0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigEntityWhiteBalanceEffect_TypeDefinitionIndex = 62295;
+	inline static constexpr unsigned int ConfigEntityWhiteBalanceEffect_TypeDefinitionIndex = 82790;
 
 	class ConfigEntityWhiteBalanceEffect : public ::MoleMole::Config::ConfigEntityScreenEffectBase
 	{
 	public:
 		::MoleMole::Config::ScreenEffectFloat* tint; // 0x40
 		::MoleMole::Config::ScreenEffectFloat* temperature; // 0x48
-		::MoleMole::Config::ScreenEffectFieldHandleType temperatureHandleType; // 0x50
-		::MoleMole::Config::ScreenEffectFieldHandleType tintHandleType; // 0x54
+		::MoleMole::Config::ScreenEffectFieldHandleType tintHandleType; // 0x50
+		::MoleMole::Config::ScreenEffectFieldHandleType temperatureHandleType; // 0x54
 
 		::System::Void _ctor()
 		{

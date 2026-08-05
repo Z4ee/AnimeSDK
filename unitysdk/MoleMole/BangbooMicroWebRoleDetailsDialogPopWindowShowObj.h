@@ -3,12 +3,12 @@
 #include "unitysdk/Enum_3_205B03D40B9BD873.h"
 #include "unitysdk/MoleMole/DisplayMessageBase.h"
 
-#define MOLEMOLE_BANGBOOMICROWEBROLEDETAILSDIALOGPOPWINDOWSHOWOBJ_ONPROCESS_OFFSET UNITYSDK_OFFSET(0xE9471C0)
-#define MOLEMOLE_BANGBOOMICROWEBROLEDETAILSDIALOGPOPWINDOWSHOWOBJ__CTOR_OFFSET UNITYSDK_OFFSET(0xE947180)
+#define MOLEMOLE_BANGBOOMICROWEBROLEDETAILSDIALOGPOPWINDOWSHOWOBJ_ONPROCESS_OFFSET UNITYSDK_OFFSET(0xF11A790)
+#define MOLEMOLE_BANGBOOMICROWEBROLEDETAILSDIALOGPOPWINDOWSHOWOBJ__CTOR_OFFSET UNITYSDK_OFFSET(0xF11A750)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int BangbooMicroWebRoleDetailsDialogPopWindowShowObj_TypeDefinitionIndex = 81307;
+	inline static constexpr unsigned int BangbooMicroWebRoleDetailsDialogPopWindowShowObj_TypeDefinitionIndex = 63496;
 
 	class BangbooMicroWebRoleDetailsDialogPopWindowShowObj : public ::MoleMole::DisplayMessageBase
 	{

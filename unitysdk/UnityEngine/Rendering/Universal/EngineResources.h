@@ -19,468 +19,468 @@ namespace UnityEngine::Rendering::Universal { class ForwardRendererData; }
 namespace UnityEngine::Rendering::Universal { class ForwardRendererExtension; }
 namespace UnityEngine::Rendering::Universal { class UniversalRenderPipelineAsset; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_ENGINERESOURCES_CLEARENGINEMATERIAL_OFFSET UNITYSDK_OFFSET(0x1CEF1340)
-#define UNITYENGINE_RENDERING_UNIVERSAL_ENGINERESOURCES_CREATEDAMAGEDECALTEXTUREARRAY_OFFSET UNITYSDK_OFFSET(0x1CEF09D0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_ENGINERESOURCES_CREATEENGINEMATERIALS_OFFSET UNITYSDK_OFFSET(0x1CEEDE60)
-#define UNITYENGINE_RENDERING_UNIVERSAL_ENGINERESOURCES_CREATEENGINEMATERIAL_1_OFFSET UNITYSDK_OFFSET(0x1CEF10E0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_ENGINERESOURCES_CREATEENGINEMATERIAL_OFFSET UNITYSDK_OFFSET(0x1CEF02F0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_ENGINERESOURCES_GETBLACKSHADOWMAP_OFFSET UNITYSDK_OFFSET(0x1CEF0570)
-#define UNITYENGINE_RENDERING_UNIVERSAL_ENGINERESOURCES_GETINSTANCEID_OFFSET UNITYSDK_OFFSET(0x1CEEBE80)
-#define UNITYENGINE_RENDERING_UNIVERSAL_ENGINERESOURCES_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1CEEBFE0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_ENGINERESOURCES_RESETSHADOWPROXYMATERIAL_OFFSET UNITYSDK_OFFSET(0x1CEF14F0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_ENGINERESOURCES__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CEF1B90)
-#define UNITYENGINE_RENDERING_UNIVERSAL_ENGINERESOURCES__CTOR_OFFSET UNITYSDK_OFFSET(0x1CEF1B80)
+#define UNITYENGINE_RENDERING_UNIVERSAL_ENGINERESOURCES_CLEARENGINEMATERIAL_OFFSET UNITYSDK_OFFSET(0x1E24B4C0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_ENGINERESOURCES_CREATEDAMAGEDECALTEXTUREARRAY_OFFSET UNITYSDK_OFFSET(0x1E24A8E0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_ENGINERESOURCES_CREATEENGINEMATERIALS_OFFSET UNITYSDK_OFFSET(0x1E247D90)
+#define UNITYENGINE_RENDERING_UNIVERSAL_ENGINERESOURCES_CREATEENGINEMATERIAL_1_OFFSET UNITYSDK_OFFSET(0x1E24B260)
+#define UNITYENGINE_RENDERING_UNIVERSAL_ENGINERESOURCES_CREATEENGINEMATERIAL_OFFSET UNITYSDK_OFFSET(0x1E24A220)
+#define UNITYENGINE_RENDERING_UNIVERSAL_ENGINERESOURCES_GETBLACKSHADOWMAP_OFFSET UNITYSDK_OFFSET(0x1E24A4A0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_ENGINERESOURCES_GETINSTANCEID_OFFSET UNITYSDK_OFFSET(0x1E245DA0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_ENGINERESOURCES_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1E245F00)
+#define UNITYENGINE_RENDERING_UNIVERSAL_ENGINERESOURCES_RESETSHADOWPROXYMATERIAL_OFFSET UNITYSDK_OFFSET(0x1E24B670)
+#define UNITYENGINE_RENDERING_UNIVERSAL_ENGINERESOURCES__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E24BD10)
+#define UNITYENGINE_RENDERING_UNIVERSAL_ENGINERESOURCES__CTOR_OFFSET UNITYSDK_OFFSET(0x1E24BD00)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int EngineResources_TypeDefinitionIndex = 27344;
+	inline static constexpr unsigned int EngineResources_TypeDefinitionIndex = 27105;
 
 	class EngineResources : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::Material** StaticGet_m_FluidFxPressure()
+		static ::UnityEngine::Material** StaticGet_m_OcclusionBlurMaterial()
 		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x20020);
-		}
-		static ::UnityEngine::Material** StaticGet_m_OpaqueOverdrawMaterial()
-		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x20028);
-		}
-		static ::UnityEngine::Material** StaticGet_m_OutlineObjectMaterial()
-		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x20030);
-		}
-		static ::UnityEngine::Material** StaticGet_m_FxPostProcessFogPSMaterial()
-		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x20038);
-		}
-		static ::UnityEngine::Material** StaticGet_m_BlitCubeTextureFaceMaterial()
-		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x20040);
-		}
-		static ::UnityEngine::Material** StaticGet_m_OutlineEffectsMaterial()
-		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x20048);
-		}
-		static ::UnityEngine::Material** StaticGet_m_BulletHoleMaterial()
-		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x20050);
-		}
-		static ::UnityEngine::Material** StaticGet_m_CaptureMaterial()
-		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x20058);
-		}
-		static ::UnityEngine::ComputeShader** StaticGet_HQNapBloomBlurCS()
-		{
-			return (::UnityEngine::ComputeShader**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x20060);
-		}
-		static ::UnityEngine::Material** StaticGet_m_UVViewMaterial()
-		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x20068);
-		}
-		static ::UnityEngine::Material** StaticGet_m_ScreenSpaceReflectionMaterial()
-		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x20070);
-		}
-		static ::UnityEngine::Texture2D** StaticGet_FSRLuminanceBiasLut()
-		{
-			return (::UnityEngine::Texture2D**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x20078);
-		}
-		static ::UnityEngine::Material** StaticGet_m_TemporalAntializeMaterial()
-		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x20080);
-		}
-		static ::UnityEngine::Material** StaticGet_m_CopyDepthForOffScreenParticlesMaterial()
-		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x20088);
-		}
-		static ::UnityEngine::ComputeShader** StaticGet_HQNapBloomUpCombineCS()
-		{
-			return (::UnityEngine::ComputeShader**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x20090);
-		}
-		static ::UnityEngine::NAPRenderPipeline0::TextureCurve** StaticGet_blue()
-		{
-			return (::UnityEngine::NAPRenderPipeline0::TextureCurve**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x20098);
-		}
-		static ::UnityEngine::Material** StaticGet_m_PerObjectShadowResolveMaterial()
-		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x200A0);
-		}
-		static ::UnityEngine::Material** StaticGet_m_FluidFxComposisteAndGradient()
-		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x200A8);
-		}
-		static ::UnityEngine::Material** StaticGet_m_OcclusionProcessMaterial()
-		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x200B0);
-		}
-		static ::UnityEngine::Material** StaticGet_m_VisiblePixelCountMaterial()
-		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x200B8);
-		}
-		static ::UnityEngine::Material** StaticGet_m_ScreenSpaceGlobalIlluminationMaterial()
-		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x200C0);
-		}
-		static ::UnityEngine::Material** StaticGet_m_LyraGISectorVisualizationMaterial()
-		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x200C8);
-		}
-		static ::UnityEngine::NAPRenderPipeline0::TextureCurve** StaticGet_red()
-		{
-			return (::UnityEngine::NAPRenderPipeline0::TextureCurve**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x200D0);
-		}
-		static ::UnityEngine::Material** StaticGet_m_HDROutputMaterial()
-		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x200D8);
-		}
-		static ::UnityEngine::NAPRenderPipeline0::TextureCurve** StaticGet_hueVsHue()
-		{
-			return (::UnityEngine::NAPRenderPipeline0::TextureCurve**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x200E0);
-		}
-		static ::UnityEngine::Material** StaticGet_m_CharacterGhostMaterial()
-		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x200E8);
-		}
-		static ::UnityEngine::Material** StaticGet_m_SamplingMaterial()
-		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x200F0);
-		}
-		static ::UnityEngine::Material** StaticGet_m_NapBloomGaussHMaterial()
-		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x200F8);
-		}
-		static ::UnityEngine::Material** StaticGet_m_LutBuilderLdr()
-		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x20100);
-		}
-		static ::UnityEngine::Material** StaticGet_m_BlitShadowMaterial()
-		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x20108);
-		}
-		static ::UnityEngine::Material** StaticGet_m_SkyboxMaterialMiddleOn()
-		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x20110);
-		}
-		static ::UnityEngine::Material** StaticGet_m_GaussianBlurForScreenSpaceShadow()
-		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x20118);
-		}
-		static ::UnityEngine::Material** StaticGet_m_CharacterGhostBlitMaterial()
-		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x20120);
-		}
-		static ::UnityEngine::Material** StaticGet_m_ExtraMotionVectorPassMaterial()
-		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x20128);
-		}
-		static ::Il2CppArray<::UnityEngine::Material*>** StaticGet_colorGradingLutBuilder()
-		{
-			return (::Il2CppArray<::UnityEngine::Material*>**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x20130);
-		}
-		static ::UnityEngine::Material** StaticGet_m_CopyDepthMaterial()
-		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x20138);
-		}
-		static ::UnityEngine::Material** StaticGet_m_VolumetricCloudSampleMaterial()
-		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x20140);
-		}
-		static ::System::Collections::Generic::List_1<::UnityEngine::Material*>** StaticGet_m_EngineMaterialList()
-		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Material*>**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x20148);
-		}
-		static ::UnityEngine::Material** StaticGet_m_LutBuilderHdr()
-		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x20150);
-		}
-		static ::UnityEngine::Material** StaticGet_m_OpaqueUberPostMaterial()
-		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x20158);
-		}
-		static ::UnityEngine::Material** StaticGet_m_DeferredShadingMaterial()
-		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x20160);
-		}
-		static ::UnityEngine::Material** StaticGet_m_PPFilterMaterial()
-		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x20168);
-		}
-		static ::UnityEngine::Mesh** StaticGet_m_LocalSphereVolumetricFogMesh()
-		{
-			return (::UnityEngine::Mesh**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x20170);
-		}
-		static ::UnityEngine::Material** StaticGet_m_LightShaftMaterial()
-		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x20178);
-		}
-		static ::UnityEngine::Material** StaticGet_m_FSRMaterial()
-		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x20180);
-		}
-		static ::UnityEngine::Material** StaticGet_m_FluidFxAdvection()
-		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x20188);
-		}
-		static ::UnityEngine::Material** StaticGet_m_CameraMotionVectorMaterial()
-		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x20190);
-		}
-		static ::UnityEngine::Material** StaticGet_m_MeshWindSource()
-		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x20198);
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x210C0);
 		}
 		static ::UnityEngine::Material** StaticGet_m_DepthPyramidMaterial()
 		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x201A0);
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x210C8);
 		}
-		static ::UnityEngine::NAPRenderPipeline0::TextureCurve** StaticGet_lumVsSat()
+		static ::UnityEngine::Material** StaticGet_m_OutlineEffectsMaterial()
 		{
-			return (::UnityEngine::NAPRenderPipeline0::TextureCurve**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x201A8);
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x210D0);
 		}
-		static ::UnityEngine::Material** StaticGet_m_VolumetricMistBlitMat()
+		static ::UnityEngine::Material** StaticGet_m_TemporalAntializeMaterial()
 		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x201B0);
-		}
-		static ::UnityEngine::NAPRenderPipeline0::TextureCurve** StaticGet_hueVsSat()
-		{
-			return (::UnityEngine::NAPRenderPipeline0::TextureCurve**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x201B8);
-		}
-		static ::UnityEngine::Material** StaticGet_m_GaussianBlurForEasyMirrorReflection()
-		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x201C0);
-		}
-		static ::UnityEngine::Material** StaticGet_m_HQNapBloomMaterial()
-		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x201C8);
-		}
-		static ::UnityEngine::Material** StaticGet_m_TransparentMaskMaterial()
-		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x201D0);
-		}
-		static ::UnityEngine::Material** StaticGet_m_VolumetricFogBlitMaterial()
-		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x201D8);
-		}
-		static ::UnityEngine::Material** StaticGet_m_BlitMaterial()
-		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x201E0);
-		}
-		static ::UnityEngine::Material** StaticGet_m_LensFlareDataDriveMaterial()
-		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x201E8);
-		}
-		static ::UnityEngine::ComputeShader** StaticGet_m_RegionDetectFlareCS()
-		{
-			return (::UnityEngine::ComputeShader**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x201F0);
-		}
-		static ::UnityEngine::Rendering::Universal::ForwardRendererExtension** StaticGet_m_Extension()
-		{
-			return (::UnityEngine::Rendering::Universal::ForwardRendererExtension**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x201F8);
-		}
-		static ::UnityEngine::Material** StaticGet_m_SkyboxMaterial()
-		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x20200);
-		}
-		static ::UnityEngine::Material** StaticGet_m_GaussianBlurForScreenSpaceReflection()
-		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x20208);
-		}
-		static ::UnityEngine::Material** StaticGet_m_CharacterRampMateiral()
-		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x20210);
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x210D8);
 		}
 		static ::UnityEngine::Mesh** StaticGet_m_RainMesh()
 		{
-			return (::UnityEngine::Mesh**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x20218);
+			return (::UnityEngine::Mesh**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x210E0);
 		}
-		static ::UnityEngine::Material** StaticGet_m_GaussianBlurForScreenSpaceReflectionB()
+		static ::UnityEngine::Material** StaticGet_m_GaussianBlurForScreenSpaceReflection()
 		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x20220);
-		}
-		static ::UnityEngine::Material** StaticGet_m_VolumetricFogMaterial()
-		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x20228);
-		}
-		static ::UnityEngine::Material** StaticGet_m_OutlineProcessMaterial()
-		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x20230);
-		}
-		static ::UnityEngine::Texture2DArray** StaticGet_decalTextureArray()
-		{
-			return (::UnityEngine::Texture2DArray**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x20238);
-		}
-		static ::UnityEngine::Material** StaticGet_m_RegionBlitMaterial()
-		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x20240);
-		}
-		static ::UnityEngine::ComputeShader** StaticGet_m_VfxVolumetricShadow()
-		{
-			return (::UnityEngine::ComputeShader**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x20248);
-		}
-		static ::UnityEngine::Material** StaticGet_m_LocalSphereVolumetricFogMaterial()
-		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x20250);
-		}
-		static ::UnityEngine::NAPRenderPipeline0::TextureCurve** StaticGet_satVsSat()
-		{
-			return (::UnityEngine::NAPRenderPipeline0::TextureCurve**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x20258);
-		}
-		static ::UnityEngine::Material** StaticGet_m_BlendOffScreenUIMat()
-		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x20260);
-		}
-		static ::UnityEngine::Material** StaticGet_m_LightShaftOcclusionMaterial()
-		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x20268);
-		}
-		static ::UnityEngine::Rendering::Universal::ForwardRendererData** StaticGet_s_Data()
-		{
-			return (::UnityEngine::Rendering::Universal::ForwardRendererData**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x20270);
-		}
-		static ::UnityEngine::Material** StaticGet_m_PostLightMaterial()
-		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x20278);
-		}
-		static ::UnityEngine::Material** StaticGet_m_ScreenspaceShadowsMaterial()
-		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x20280);
-		}
-		static ::UnityEngine::Material** StaticGet_m_SpriteMaterial()
-		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x20288);
-		}
-		static ::UnityEngine::Material** StaticGet_m_TextureSheetAnimationMaterial()
-		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x20290);
-		}
-		static ::UnityEngine::Material** StaticGet_m_OcclusionBlurMaterial()
-		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x20298);
-		}
-		static ::UnityEngine::Material** StaticGet_m_FluidFxDivergence()
-		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x202A0);
-		}
-		static ::UnityEngine::RenderTexture** StaticGet_m_BlackShadowMap()
-		{
-			return (::UnityEngine::RenderTexture**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x202A8);
-		}
-		static ::UnityEngine::ComputeShader** StaticGet_m_ScreenSpaceGlobalIllumination()
-		{
-			return (::UnityEngine::ComputeShader**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x202B0);
-		}
-		static ::UnityEngine::Material** StaticGet_m_DrawSkyLutMaterial()
-		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x202B8);
-		}
-		static ::UnityEngine::NAPRenderPipeline0::TextureCurve** StaticGet_master()
-		{
-			return (::UnityEngine::NAPRenderPipeline0::TextureCurve**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x202C0);
-		}
-		static ::UnityEngine::Material** StaticGet_m_NapBloomGaussVMaterial()
-		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x202C8);
-		}
-		static ::UnityEngine::Material** StaticGet_m_ShowLightMapResolution()
-		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x202D0);
-		}
-		static ::UnityEngine::Material** StaticGet_m_ContactShadowMaterial()
-		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x202D8);
-		}
-		static ::UnityEngine::Material** StaticGet_m_CharacterIgnisFatuusMaterial()
-		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x202E0);
-		}
-		static ::UnityEngine::NAPRenderPipeline0::TextureCurve** StaticGet_green()
-		{
-			return (::UnityEngine::NAPRenderPipeline0::TextureCurve**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x202E8);
-		}
-		static ::UnityEngine::Material** StaticGet_m_DownSampleDepthMaterial()
-		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x202F0);
-		}
-		static ::UnityEngine::Material** StaticGet_m_LightShaftBlurMaterial()
-		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x202F8);
-		}
-		static ::UnityEngine::Material** StaticGet_m_TransparentOverdrawMaterial()
-		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x20300);
-		}
-		static ::System::Collections::Generic::List_1<::UnityEngine::Texture2D*>** StaticGet_decalDamageTextures()
-		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Texture2D*>**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x20308);
-		}
-		static ::UnityEngine::ComputeShader** StaticGet_m_RayDtenctionCS()
-		{
-			return (::UnityEngine::ComputeShader**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x20310);
-		}
-		static ::UnityEngine::Material** StaticGet_m_GaussianBlurMaterial()
-		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x20318);
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x210E8);
 		}
 		static ::UnityEngine::NAPRenderPipeline0::HableCurve** StaticGet_hableCurve()
 		{
-			return (::UnityEngine::NAPRenderPipeline0::HableCurve**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x20320);
+			return (::UnityEngine::NAPRenderPipeline0::HableCurve**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x210F0);
 		}
-		static ::UnityEngine::Texture2D** StaticGet_characterOverlayTexture()
+		static ::UnityEngine::Material** StaticGet_m_FxPostProcessFogPSMaterial()
 		{
-			return (::UnityEngine::Texture2D**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x20328);
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x210F8);
 		}
-		static ::UnityEngine::Material** StaticGet_m_CharacterIgnisFatuusBlitMaterial()
+		static ::UnityEngine::Material** StaticGet_m_DeferredShadingMaterial()
 		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x20330);
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x21100);
 		}
-		static ::UnityEngine::Mesh** StaticGet_s_TextureStreamingFakerMesh()
+		static ::UnityEngine::Material** StaticGet_m_CopyDepthForOffScreenParticlesMaterial()
 		{
-			return (::UnityEngine::Mesh**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x20338);
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x21108);
 		}
-		static ::UnityEngine::Material** StaticGet_m_NapBloomMaterial()
+		static ::UnityEngine::Material** StaticGet_m_ScreenSpaceReflectionMaterial()
 		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x20340);
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x21110);
 		}
-		static ::UnityEngine::Material** StaticGet_m_ClearStencil421Material()
+		static ::UnityEngine::Material** StaticGet_m_LightShaftOcclusionMaterial()
 		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x20348);
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x21118);
 		}
-		static ::UnityEngine::Material** StaticGet_m_OffScreenParticleBlitMaterial()
+		static ::UnityEngine::Material** StaticGet_m_LutBuilderHdr()
 		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x20350);
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x21120);
+		}
+		static ::UnityEngine::Material** StaticGet_m_CharacterRampMateiral()
+		{
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x21128);
 		}
 		static ::UnityEngine::MaterialPropertyBlock** StaticGet_m_BlurMaterialPropertyBlock()
 		{
-			return (::UnityEngine::MaterialPropertyBlock**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x20358);
+			return (::UnityEngine::MaterialPropertyBlock**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x21130);
 		}
-		static ::System::Int32* StaticGet_m_SpriteMaterialID()
+		static ::UnityEngine::Material** StaticGet_m_OutlineObjectMaterial()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x5220);
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x21138);
 		}
-		static ::System::Int32* StaticGet_m_RegionDetectFlareCSID()
+		static ::UnityEngine::Material** StaticGet_m_VisiblePixelCountMaterial()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x5224);
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x21140);
 		}
-		static ::System::Int32* StaticGet_m_BlitMaterialID()
+		static ::UnityEngine::Material** StaticGet_m_OpaqueOverdrawMaterial()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x5228);
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x21148);
 		}
-		static ::System::Int32* StaticGet_m_SkyboxMaterialMiddleOnID()
+		static ::UnityEngine::Material** StaticGet_m_LyraGISectorVisualizationMaterial()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x522C);
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x21150);
+		}
+		static ::UnityEngine::Material** StaticGet_m_GaussianBlurForScreenSpaceReflectionB()
+		{
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x21158);
+		}
+		static ::UnityEngine::Material** StaticGet_m_PPFilterMaterial()
+		{
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x21160);
+		}
+		static ::UnityEngine::Material** StaticGet_m_FSRMaterial()
+		{
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x21168);
+		}
+		static ::UnityEngine::Material** StaticGet_m_DrawSkyLutMaterial()
+		{
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x21170);
+		}
+		static ::UnityEngine::NAPRenderPipeline0::TextureCurve** StaticGet_master()
+		{
+			return (::UnityEngine::NAPRenderPipeline0::TextureCurve**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x21178);
+		}
+		static ::UnityEngine::Material** StaticGet_m_NapBloomGaussVMaterial()
+		{
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x21180);
+		}
+		static ::UnityEngine::Material** StaticGet_m_ScreenSpaceGlobalIlluminationMaterial()
+		{
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x21188);
+		}
+		static ::UnityEngine::Material** StaticGet_m_CaptureMaterial()
+		{
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x21190);
+		}
+		static ::UnityEngine::ComputeShader** StaticGet_m_RayDtenctionCS()
+		{
+			return (::UnityEngine::ComputeShader**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x21198);
+		}
+		static ::UnityEngine::Material** StaticGet_m_CharacterIgnisFatuusBlitMaterial()
+		{
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x211A0);
+		}
+		static ::UnityEngine::Material** StaticGet_m_TextureSheetAnimationMaterial()
+		{
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x211A8);
+		}
+		static ::UnityEngine::Material** StaticGet_m_LightShaftBlurMaterial()
+		{
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x211B0);
+		}
+		static ::UnityEngine::Material** StaticGet_m_OutlineProcessMaterial()
+		{
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x211B8);
+		}
+		static ::UnityEngine::Material** StaticGet_m_TransparentOverdrawMaterial()
+		{
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x211C0);
+		}
+		static ::UnityEngine::Material** StaticGet_m_UVViewMaterial()
+		{
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x211C8);
+		}
+		static ::UnityEngine::Material** StaticGet_m_FluidFxComposisteAndGradient()
+		{
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x211D0);
+		}
+		static ::UnityEngine::NAPRenderPipeline0::TextureCurve** StaticGet_red()
+		{
+			return (::UnityEngine::NAPRenderPipeline0::TextureCurve**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x211D8);
+		}
+		static ::UnityEngine::Texture2D** StaticGet_characterOverlayTexture()
+		{
+			return (::UnityEngine::Texture2D**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x211E0);
+		}
+		static ::UnityEngine::NAPRenderPipeline0::TextureCurve** StaticGet_hueVsHue()
+		{
+			return (::UnityEngine::NAPRenderPipeline0::TextureCurve**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x211E8);
+		}
+		static ::UnityEngine::Material** StaticGet_m_CopyDepthMaterial()
+		{
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x211F0);
+		}
+		static ::UnityEngine::ComputeShader** StaticGet_m_ScreenSpaceGlobalIllumination()
+		{
+			return (::UnityEngine::ComputeShader**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x211F8);
+		}
+		static ::UnityEngine::Material** StaticGet_m_FluidFxPressure()
+		{
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x21200);
+		}
+		static ::UnityEngine::Texture2D** StaticGet_FSRLuminanceBiasLut()
+		{
+			return (::UnityEngine::Texture2D**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x21208);
+		}
+		static ::UnityEngine::Material** StaticGet_m_GaussianBlurMaterial()
+		{
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x21210);
+		}
+		static ::UnityEngine::Material** StaticGet_m_SkyboxMaterialMiddleOn()
+		{
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x21218);
+		}
+		static ::UnityEngine::Mesh** StaticGet_m_LocalSphereVolumetricFogMesh()
+		{
+			return (::UnityEngine::Mesh**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x21220);
+		}
+		static ::UnityEngine::Material** StaticGet_m_FluidFxDivergence()
+		{
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x21228);
+		}
+		static ::UnityEngine::Material** StaticGet_m_ExtraMotionVectorPassMaterial()
+		{
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x21230);
+		}
+		static ::UnityEngine::Material** StaticGet_m_LensFlareDataDriveMaterial()
+		{
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x21238);
+		}
+		static ::UnityEngine::Material** StaticGet_m_HDROutputMaterial()
+		{
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x21240);
+		}
+		static ::UnityEngine::Rendering::Universal::ForwardRendererData** StaticGet_s_Data()
+		{
+			return (::UnityEngine::Rendering::Universal::ForwardRendererData**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x21248);
+		}
+		static ::UnityEngine::NAPRenderPipeline0::TextureCurve** StaticGet_hueVsSat()
+		{
+			return (::UnityEngine::NAPRenderPipeline0::TextureCurve**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x21250);
+		}
+		static ::UnityEngine::Mesh** StaticGet_s_TextureStreamingFakerMesh()
+		{
+			return (::UnityEngine::Mesh**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x21258);
+		}
+		static ::UnityEngine::Material** StaticGet_m_ShowLightMapResolution()
+		{
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x21260);
+		}
+		static ::UnityEngine::Material** StaticGet_m_VolumetricFogMaterial()
+		{
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x21268);
+		}
+		static ::UnityEngine::Material** StaticGet_m_PerObjectShadowResolveMaterial()
+		{
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x21270);
+		}
+		static ::UnityEngine::Material** StaticGet_m_CharacterIgnisFatuusMaterial()
+		{
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x21278);
+		}
+		static ::UnityEngine::Material** StaticGet_m_TransparentMaskMaterial()
+		{
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x21280);
+		}
+		static ::UnityEngine::Material** StaticGet_m_VolumetricMistBlitMat()
+		{
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x21288);
+		}
+		static ::UnityEngine::Material** StaticGet_m_VolumetricCloudSampleMaterial()
+		{
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x21290);
+		}
+		static ::UnityEngine::Material** StaticGet_m_NapBloomGaussHMaterial()
+		{
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x21298);
+		}
+		static ::UnityEngine::Material** StaticGet_m_LutBuilderLdr()
+		{
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x212A0);
+		}
+		static ::UnityEngine::Material** StaticGet_m_BulletHoleMaterial()
+		{
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x212A8);
+		}
+		static ::UnityEngine::Material** StaticGet_m_BlitCubeTextureFaceMaterial()
+		{
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x212B0);
+		}
+		static ::System::Collections::Generic::List_1<::UnityEngine::Texture2D*>** StaticGet_decalDamageTextures()
+		{
+			return (::System::Collections::Generic::List_1<::UnityEngine::Texture2D*>**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x212B8);
+		}
+		static ::UnityEngine::Material** StaticGet_m_BlendOffScreenUIMat()
+		{
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x212C0);
+		}
+		static ::UnityEngine::Material** StaticGet_m_LocalSphereVolumetricFogMaterial()
+		{
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x212C8);
+		}
+		static ::UnityEngine::ComputeShader** StaticGet_HQNapBloomUpCombineCS()
+		{
+			return (::UnityEngine::ComputeShader**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x212D0);
+		}
+		static ::UnityEngine::Material** StaticGet_m_BlitShadowMaterial()
+		{
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x212D8);
+		}
+		static ::UnityEngine::NAPRenderPipeline0::TextureCurve** StaticGet_blue()
+		{
+			return (::UnityEngine::NAPRenderPipeline0::TextureCurve**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x212E0);
+		}
+		static ::UnityEngine::Material** StaticGet_m_ContactShadowMaterial()
+		{
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x212E8);
+		}
+		static ::UnityEngine::Material** StaticGet_m_PostLightMaterial()
+		{
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x212F0);
+		}
+		static ::UnityEngine::Material** StaticGet_m_CameraMotionVectorMaterial()
+		{
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x212F8);
+		}
+		static ::System::Collections::Generic::List_1<::UnityEngine::Material*>** StaticGet_m_EngineMaterialList()
+		{
+			return (::System::Collections::Generic::List_1<::UnityEngine::Material*>**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x21300);
+		}
+		static ::UnityEngine::Material** StaticGet_m_OffScreenParticleBlitMaterial()
+		{
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x21308);
+		}
+		static ::UnityEngine::Material** StaticGet_m_DownSampleDepthMaterial()
+		{
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x21310);
+		}
+		static ::UnityEngine::Material** StaticGet_m_MeshWindSource()
+		{
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x21318);
+		}
+		static ::UnityEngine::Material** StaticGet_m_OcclusionProcessMaterial()
+		{
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x21320);
+		}
+		static ::UnityEngine::Material** StaticGet_m_VolumetricFogBlitMaterial()
+		{
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x21328);
+		}
+		static ::UnityEngine::Material** StaticGet_m_HQNapBloomMaterial()
+		{
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x21330);
+		}
+		static ::UnityEngine::Material** StaticGet_m_LightShaftMaterial()
+		{
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x21338);
+		}
+		static ::UnityEngine::Material** StaticGet_m_SpriteMaterial()
+		{
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x21340);
+		}
+		static ::UnityEngine::Material** StaticGet_m_FluidFxAdvection()
+		{
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x21348);
+		}
+		static ::UnityEngine::NAPRenderPipeline0::TextureCurve** StaticGet_satVsSat()
+		{
+			return (::UnityEngine::NAPRenderPipeline0::TextureCurve**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x21350);
+		}
+		static ::UnityEngine::Material** StaticGet_m_ScreenspaceShadowsMaterial()
+		{
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x21358);
+		}
+		static ::UnityEngine::Material** StaticGet_m_ClearStencil421Material()
+		{
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x21360);
+		}
+		static ::UnityEngine::Material** StaticGet_m_CharacterGhostBlitMaterial()
+		{
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x21368);
+		}
+		static ::UnityEngine::Material** StaticGet_m_GaussianBlurForScreenSpaceShadow()
+		{
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x21370);
+		}
+		static ::UnityEngine::ComputeShader** StaticGet_HQNapBloomBlurCS()
+		{
+			return (::UnityEngine::ComputeShader**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x21378);
+		}
+		static ::UnityEngine::Material** StaticGet_m_SamplingMaterial()
+		{
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x21380);
+		}
+		static ::UnityEngine::NAPRenderPipeline0::TextureCurve** StaticGet_lumVsSat()
+		{
+			return (::UnityEngine::NAPRenderPipeline0::TextureCurve**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x21388);
+		}
+		static ::UnityEngine::ComputeShader** StaticGet_m_VfxVolumetricShadow()
+		{
+			return (::UnityEngine::ComputeShader**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x21390);
+		}
+		static ::UnityEngine::Material** StaticGet_m_GaussianBlurForEasyMirrorReflection()
+		{
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x21398);
+		}
+		static ::Il2CppArray<::UnityEngine::Material*>** StaticGet_colorGradingLutBuilder()
+		{
+			return (::Il2CppArray<::UnityEngine::Material*>**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x213A0);
+		}
+		static ::UnityEngine::Material** StaticGet_m_CharacterGhostMaterial()
+		{
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x213A8);
+		}
+		static ::UnityEngine::Material** StaticGet_m_RegionBlitMaterial()
+		{
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x213B0);
+		}
+		static ::UnityEngine::RenderTexture** StaticGet_m_BlackShadowMap()
+		{
+			return (::UnityEngine::RenderTexture**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x213B8);
+		}
+		static ::UnityEngine::Rendering::Universal::ForwardRendererExtension** StaticGet_m_Extension()
+		{
+			return (::UnityEngine::Rendering::Universal::ForwardRendererExtension**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x213C0);
+		}
+		static ::UnityEngine::ComputeShader** StaticGet_m_RegionDetectFlareCS()
+		{
+			return (::UnityEngine::ComputeShader**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x213C8);
+		}
+		static ::UnityEngine::Material** StaticGet_m_BlitMaterial()
+		{
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x213D0);
+		}
+		static ::UnityEngine::Texture2DArray** StaticGet_decalTextureArray()
+		{
+			return (::UnityEngine::Texture2DArray**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x213D8);
+		}
+		static ::UnityEngine::NAPRenderPipeline0::TextureCurve** StaticGet_green()
+		{
+			return (::UnityEngine::NAPRenderPipeline0::TextureCurve**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x213E0);
+		}
+		static ::UnityEngine::Material** StaticGet_m_SkyboxMaterial()
+		{
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x213E8);
+		}
+		static ::UnityEngine::Material** StaticGet_m_OpaqueUberPostMaterial()
+		{
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x213F0);
+		}
+		static ::UnityEngine::Material** StaticGet_m_NapBloomMaterial()
+		{
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x213F8);
 		}
 		static ::System::Int32* StaticGet_m_RainMeshID()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x5230);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x5080);
+		}
+		static ::System::Int32* StaticGet_m_BlitMaterialID()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x5084);
+		}
+		static ::System::Int32* StaticGet_m_SpriteMaterialID()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x5088);
 		}
 		static ::System::Int32* StaticGet_m_SkyboxMaterialID()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x5234);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x508C);
+		}
+		static ::System::Int32* StaticGet_m_RegionDetectFlareCSID()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x5090);
 		}
 		static ::System::Int32* StaticGet_m_CopyDepthForOffScreenParticlesMaterialID()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x5238);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x5094);
+		}
+		static ::System::Int32* StaticGet_m_SkyboxMaterialMiddleOnID()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(EngineResources_TypeDefinitionIndex)->GetStaticField(0x5098);
 		}
 
 		::System::Void _ctor()

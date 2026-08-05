@@ -5,12 +5,12 @@
 namespace MoleMole { class UIForbiddenAreaTalentPageController; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIFORBIDDENAREATALENTPAGECONTROLLER___C__DISPLAYCLASS40_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16790E70)
-#define MOLEMOLE_UIFORBIDDENAREATALENTPAGECONTROLLER___C__DISPLAYCLASS40_0__ONCLICKRESETBTN_B__1_OFFSET UNITYSDK_OFFSET(0x16790E80)
+#define MOLEMOLE_UIFORBIDDENAREATALENTPAGECONTROLLER___C__DISPLAYCLASS40_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18AC8320)
+#define MOLEMOLE_UIFORBIDDENAREATALENTPAGECONTROLLER___C__DISPLAYCLASS40_0__ONCLICKRESETBTN_B__1_OFFSET UNITYSDK_OFFSET(0x18AC8330)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIForbiddenAreaTalentPageController___c__DisplayClass40_0_TypeDefinitionIndex = 68755;
+	inline static constexpr unsigned int UIForbiddenAreaTalentPageController___c__DisplayClass40_0_TypeDefinitionIndex = 82656;
 
 	class UIForbiddenAreaTalentPageController___c__DisplayClass40_0 : public ::System::Object
 	{

@@ -1,0 +1,32 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Struct_2_2703FEBB9D7FB90B.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_76DB84416A8BD8BA;
+class Class_1_A862B1AB621733B6_Class_0_16E7307DCC43CB2C_49;
+namespace System { template <typename T> class Action_1; }
+
+#define CLASS_1_A862B1AB621733B6_CLASS_1_55409E41E97835AD_CLASS_1_D4F30FA037C0F6B9_METHOD_1_19B91D58E02869BC_OFFSET UNITYSDK_OFFSET(0x14EFB440)
+#define CLASS_1_A862B1AB621733B6_CLASS_1_55409E41E97835AD_CLASS_1_D4F30FA037C0F6B9__CTOR_OFFSET UNITYSDK_OFFSET(0x14EFB430)
+
+inline static constexpr unsigned int Class_1_A862B1AB621733B6_Class_1_55409E41E97835AD_Class_1_D4F30FA037C0F6B9_TypeDefinitionIndex = 58353;
+
+class Class_1_A862B1AB621733B6_Class_1_55409E41E97835AD_Class_1_D4F30FA037C0F6B9 : public ::System::Object
+{
+public:
+	::Class_1_76DB84416A8BD8BA* Field_1_5; // 0x10
+	::Struct_2_2703FEBB9D7FB90B Field_1_7; // 0x18
+	::Class_1_A862B1AB621733B6_Class_0_16E7307DCC43CB2C_49* Field_1_0; // 0x48
+	::System::Action_1<::System::Boolean>* Field_1_6; // 0x50
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_A862B1AB621733B6_CLASS_1_55409E41E97835AD_CLASS_1_D4F30FA037C0F6B9__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_1_19B91D58E02869BC()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_A862B1AB621733B6_CLASS_1_55409E41E97835AD_CLASS_1_D4F30FA037C0F6B9_METHOD_1_19B91D58E02869BC_OFFSET))(this);
+	}
+};

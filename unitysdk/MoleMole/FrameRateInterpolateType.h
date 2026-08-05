@@ -3,13 +3,13 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int FrameRateInterpolateType_TypeDefinitionIndex = 55619;
+	inline static constexpr unsigned int FrameRateInterpolateType_TypeDefinitionIndex = 84100;
 
 	enum class FrameRateInterpolateType : ::System::Int32
 	{
-		High = 3,
 		None = 0,
-		Middle = 2,
+		High = 3,
 		Low = 1,
+		Middle = 2,
 	};
 }

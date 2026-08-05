@@ -5,12 +5,12 @@
 
 namespace UnityEngine { class Mesh; }
 
-#define NPCCROWD_NPCSOFTMESHPATH__CTOR_1_OFFSET UNITYSDK_OFFSET(0x12748590)
-#define NPCCROWD_NPCSOFTMESHPATH__CTOR_OFFSET UNITYSDK_OFFSET(0x12748570)
+#define NPCCROWD_NPCSOFTMESHPATH__CTOR_1_OFFSET UNITYSDK_OFFSET(0x10CB3D30)
+#define NPCCROWD_NPCSOFTMESHPATH__CTOR_OFFSET UNITYSDK_OFFSET(0x10CB3D10)
 
 namespace NPCCrowd
 {
-	inline static constexpr unsigned int NPCSoftMeshPath_TypeDefinitionIndex = 56419;
+	inline static constexpr unsigned int NPCSoftMeshPath_TypeDefinitionIndex = 46072;
 
 	class NPCSoftMeshPath : public ::NPCCrowd::NPCSoftAssetPath_1<::UnityEngine::Mesh*>
 	{

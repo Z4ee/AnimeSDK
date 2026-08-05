@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_KEYSIZES_ISLEGALKEYSIZE_OFFSET UNITYSDK_OFFSET(0x1C2D4590)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_KEYSIZES_ISLEGAL_OFFSET UNITYSDK_OFFSET(0x1C2D4550)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_KEYSIZES__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2AE3D0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_KEYSIZES_ISLEGALKEYSIZE_OFFSET UNITYSDK_OFFSET(0x1D6955A0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_KEYSIZES_ISLEGAL_OFFSET UNITYSDK_OFFSET(0x1D695560)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_KEYSIZES__CTOR_OFFSET UNITYSDK_OFFSET(0x1D66F1C0)
 
 namespace System::Security::Cryptography
 {
@@ -13,8 +13,8 @@ namespace System::Security::Cryptography
 	class KeySizes : public ::System::Object
 	{
 	public:
-		::System::Int32 m_maxSize; // 0x10
-		::System::Int32 m_skipSize; // 0x14
+		::System::Int32 m_skipSize; // 0x10
+		::System::Int32 m_maxSize; // 0x14
 		::System::Int32 m_minSize; // 0x18
 
 		::System::Void _ctor(::System::Int32 minSize, ::System::Int32 maxSize, ::System::Int32 skipSize)

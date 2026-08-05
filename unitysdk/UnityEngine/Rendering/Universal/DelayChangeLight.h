@@ -7,7 +7,7 @@ namespace UnityEngine::Rendering::Universal { class UniversalAdditionalLightData
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int DelayChangeLight_TypeDefinitionIndex = 27302;
+	inline static constexpr unsigned int DelayChangeLight_TypeDefinitionIndex = 27368;
 
 	struct alignas(8) DelayChangeLight
 	{

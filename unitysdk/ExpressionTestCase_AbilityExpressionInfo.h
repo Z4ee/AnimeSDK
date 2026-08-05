@@ -4,9 +4,9 @@
 
 namespace System { class String; }
 
-#define EXPRESSIONTESTCASE_ABILITYEXPRESSIONINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x2BDE80)
+#define EXPRESSIONTESTCASE_ABILITYEXPRESSIONINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x346F70)
 
-inline static constexpr unsigned int ExpressionTestCase_AbilityExpressionInfo_TypeDefinitionIndex = 44995;
+inline static constexpr unsigned int ExpressionTestCase_AbilityExpressionInfo_TypeDefinitionIndex = 58912;
 
 struct alignas(8) ExpressionTestCase_AbilityExpressionInfo
 {

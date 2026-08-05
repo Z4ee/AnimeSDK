@@ -5,24 +5,24 @@
 class Class_1_CC89A8F7C61A475D;
 namespace System { template <typename T> class Comparison_1; }
 
-#define MOLEMOLE_UIURBANMAPNAVIGATIONPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1655BE90)
-#define MOLEMOLE_UIURBANMAPNAVIGATIONPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1655BED0)
-#define MOLEMOLE_UIURBANMAPNAVIGATIONPAGECONTROLLER___C__GETCHILDAREALIST_B__25_0_OFFSET UNITYSDK_OFFSET(0x1655BEE0)
+#define MOLEMOLE_UIURBANMAPNAVIGATIONPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x191692A0)
+#define MOLEMOLE_UIURBANMAPNAVIGATIONPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x191692E0)
+#define MOLEMOLE_UIURBANMAPNAVIGATIONPAGECONTROLLER___C__GETCHILDAREALIST_B__25_0_OFFSET UNITYSDK_OFFSET(0x191692F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIUrbanMapNavigationPageController___c_TypeDefinitionIndex = 67401;
+	inline static constexpr unsigned int UIUrbanMapNavigationPageController___c_TypeDefinitionIndex = 71783;
 
 	class UIUrbanMapNavigationPageController___c : public ::System::Object
 	{
 	public:
 		static ::MoleMole::UIUrbanMapNavigationPageController___c** StaticGet___9()
 		{
-			return (::MoleMole::UIUrbanMapNavigationPageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIUrbanMapNavigationPageController___c_TypeDefinitionIndex)->GetStaticField(0x34A40);
+			return (::MoleMole::UIUrbanMapNavigationPageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIUrbanMapNavigationPageController___c_TypeDefinitionIndex)->GetStaticField(0x37080);
 		}
 		static ::System::Comparison_1<::Class_1_CC89A8F7C61A475D*>** StaticGet___9__25_0()
 		{
-			return (::System::Comparison_1<::Class_1_CC89A8F7C61A475D*>**)Il2CppClass::FromTypeDefinitionIndex(UIUrbanMapNavigationPageController___c_TypeDefinitionIndex)->GetStaticField(0x34A48);
+			return (::System::Comparison_1<::Class_1_CC89A8F7C61A475D*>**)Il2CppClass::FromTypeDefinitionIndex(UIUrbanMapNavigationPageController___c_TypeDefinitionIndex)->GetStaticField(0x37088);
 		}
 
 		static ::System::Void _cctor()

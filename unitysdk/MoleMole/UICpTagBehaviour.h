@@ -8,11 +8,11 @@ namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class TextItalicAdobeStyle; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
 
-#define MOLEMOLE_UICPTAGBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1E4E9C40)
+#define MOLEMOLE_UICPTAGBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1FC0B670)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICpTagBehaviour_TypeDefinitionIndex = 90860;
+	inline static constexpr unsigned int UICpTagBehaviour_TypeDefinitionIndex = 94865;
 
 	class UICpTagBehaviour : public ::UnityEngine::MonoBehaviour
 	{

@@ -8,27 +8,27 @@ class Class_1_8377BAB19A574A40;
 namespace MoleMole::Battle { class Entity; }
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_ANIMATORZONEGAMEPADTRIGGEREFFECT_ONZONEENTER_OFFSET UNITYSDK_OFFSET(0x17D3DCD0)
-#define MOLEMOLE_CONFIG_ANIMATORZONEGAMEPADTRIGGEREFFECT_ONZONEEXIT_OFFSET UNITYSDK_OFFSET(0x17D3DF60)
-#define MOLEMOLE_CONFIG_ANIMATORZONEGAMEPADTRIGGEREFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x17D3E1D0)
-#define MOLEMOLE_CONFIG_ANIMATORZONEGAMEPADTRIGGEREFFECT___BASE_ONZONEENTER_OFFSET UNITYSDK_OFFSET(0x17D3E1E0)
-#define MOLEMOLE_CONFIG_ANIMATORZONEGAMEPADTRIGGEREFFECT___BASE_ONZONEEXIT_OFFSET UNITYSDK_OFFSET(0x17D3E290)
+#define MOLEMOLE_CONFIG_ANIMATORZONEGAMEPADTRIGGEREFFECT_ONZONEENTER_OFFSET UNITYSDK_OFFSET(0x1728D380)
+#define MOLEMOLE_CONFIG_ANIMATORZONEGAMEPADTRIGGEREFFECT_ONZONEEXIT_OFFSET UNITYSDK_OFFSET(0x1728D620)
+#define MOLEMOLE_CONFIG_ANIMATORZONEGAMEPADTRIGGEREFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1728D890)
+#define MOLEMOLE_CONFIG_ANIMATORZONEGAMEPADTRIGGEREFFECT___BASE_ONZONEENTER_OFFSET UNITYSDK_OFFSET(0x1728D8A0)
+#define MOLEMOLE_CONFIG_ANIMATORZONEGAMEPADTRIGGEREFFECT___BASE_ONZONEEXIT_OFFSET UNITYSDK_OFFSET(0x1728D950)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AnimatorZoneGamepadTriggerEffect_TypeDefinitionIndex = 70105;
+	inline static constexpr unsigned int AnimatorZoneGamepadTriggerEffect_TypeDefinitionIndex = 53664;
 
 	class AnimatorZoneGamepadTriggerEffect : public ::MoleMole::Config::AnimatorZone
 	{
 	public:
 		// static const ::System::String* _gamepadTriggerEffectTag; // 0x0
-		::System::String* RightTriggerEffectKey; // 0x50
-		::System::String* LeftTriggerEffectKey; // 0x58
-		::MoleMole::Config::InputType RightTriggerListenInputType; // 0x60
-		::System::Boolean RightTriggerEnableListenInputType; // 0x64
-		::System::Boolean EnableRightTriggerControl; // 0x65
-		::System::Boolean LeftTriggerEnableListenInputType; // 0x66
-		::System::Boolean EnableLeftTriggerControl; // 0x67
+		::System::String* LeftTriggerEffectKey; // 0x50
+		::System::String* RightTriggerEffectKey; // 0x58
+		::System::Boolean RightTriggerEnableListenInputType; // 0x60
+		::System::Boolean EnableRightTriggerControl; // 0x61
+		::System::Boolean LeftTriggerEnableListenInputType; // 0x62
+		::System::Boolean EnableLeftTriggerControl; // 0x63
+		::MoleMole::Config::InputType RightTriggerListenInputType; // 0x64
 		::MoleMole::Config::InputType LeftTriggerListenInputType; // 0x68
 
 		::System::Void _ctor()

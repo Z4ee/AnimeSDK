@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int TValueUISpecialNum_1_TypeDefinitionIndex = 45031;
+	inline static constexpr unsigned int TValueUISpecialNum_1_TypeDefinitionIndex = 73265;
 
 	template <typename T>
 	class TValueUISpecialNum_1 : public ::MoleMole::Config::BaseObjectUISpecialNum

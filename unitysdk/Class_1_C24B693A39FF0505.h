@@ -1,20 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_64AF41BC9BBBF913.h"
+#include "unitysdk/Enum_3_DB663931210BBC27_13.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_C24B693A39FF0505__CTOR_OFFSET UNITYSDK_OFFSET(0x14499ED0)
+#define CLASS_1_C24B693A39FF0505__CTOR_OFFSET UNITYSDK_OFFSET(0xE97B6D0)
 
-inline static constexpr unsigned int Class_1_C24B693A39FF0505_TypeDefinitionIndex = 45809;
+inline static constexpr unsigned int Class_1_C24B693A39FF0505_TypeDefinitionIndex = 68684;
 
 class Class_1_C24B693A39FF0505 : public ::System::Object
 {
 public:
-	::System::Int32 Field_1_0; // 0x10
-	::System::Boolean Field_1_1; // 0x14
-	::Enum_3_64AF41BC9BBBF913 Field_1_4; // 0x15
-	::Enum_3_64AF41BC9BBBF913 Field_1_3; // 0x16
-	::System::Boolean Field_1_2; // 0x17
+	::Enum_3_DB663931210BBC27_13 Field_1_5; // 0x10
+	::System::Boolean Field_1_7; // 0x14
+	::System::Boolean Field_1_0; // 0x15
+	::System::Boolean Field_1_1; // 0x16
+	::System::Int32 Field_1_6; // 0x18
+	::System::Int32 Field_1_11; // 0x1C
+	::System::Int32 Field_1_4; // 0x20
+	::System::Int32 Field_1_10; // 0x24
 
 	::System::Void _ctor()
 	{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/NPCCrowd/AI/EventStimulusItem.h"
 
-#define NPCCROWD_AI_TRIGGEREVENTSTIMULUSITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xD924FF0)
+#define NPCCROWD_AI_TRIGGEREVENTSTIMULUSITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xD87FC30)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int TriggerEventStimulusItem_TypeDefinitionIndex = 42190;
+	inline static constexpr unsigned int TriggerEventStimulusItem_TypeDefinitionIndex = 55765;
 
 	class TriggerEventStimulusItem : public ::NPCCrowd::AI::EventStimulusItem
 	{

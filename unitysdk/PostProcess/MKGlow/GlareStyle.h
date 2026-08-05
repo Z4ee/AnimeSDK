@@ -3,15 +3,15 @@
 
 namespace PostProcess::MKGlow
 {
-	inline static constexpr unsigned int GlareStyle_TypeDefinitionIndex = 26848;
+	inline static constexpr unsigned int GlareStyle_TypeDefinitionIndex = 27816;
 
 	enum class GlareStyle : ::System::Int32
 	{
-		Cross = 3,
 		Tri = 2,
-		Flake = 6,
 		Custom = 0,
+		Flake = 6,
 		Line = 1,
+		Cross = 3,
 		Star = 5,
 		DistortedCross = 4,
 	};

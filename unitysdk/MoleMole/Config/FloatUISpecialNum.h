@@ -4,12 +4,12 @@
 
 namespace MoleMole::Config { class UISpecialNumGroup; }
 
-#define MOLEMOLE_CONFIG_FLOATUISPECIALNUM_GET_OFFSET UNITYSDK_OFFSET(0x19FF5570)
-#define MOLEMOLE_CONFIG_FLOATUISPECIALNUM__CTOR_OFFSET UNITYSDK_OFFSET(0x19FF5680)
+#define MOLEMOLE_CONFIG_FLOATUISPECIALNUM_GET_OFFSET UNITYSDK_OFFSET(0x1B7FDA60)
+#define MOLEMOLE_CONFIG_FLOATUISPECIALNUM__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7FDB70)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int FloatUISpecialNum_TypeDefinitionIndex = 78695;
+	inline static constexpr unsigned int FloatUISpecialNum_TypeDefinitionIndex = 46606;
 
 	class FloatUISpecialNum : public ::MoleMole::Config::BaseObjectUISpecialNum
 	{

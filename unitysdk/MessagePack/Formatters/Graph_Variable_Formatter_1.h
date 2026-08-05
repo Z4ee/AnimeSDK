@@ -9,7 +9,7 @@ namespace NodeCanvas::Framework { template <typename T> class Variable_1; }
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int Graph_Variable_Formatter_1_TypeDefinitionIndex = 29753;
+	inline static constexpr unsigned int Graph_Variable_Formatter_1_TypeDefinitionIndex = 30131;
 
 	template <typename T>
 	class Graph_Variable_Formatter_1 : public ::System::Object

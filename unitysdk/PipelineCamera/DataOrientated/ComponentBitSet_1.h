@@ -7,7 +7,7 @@ namespace System { class Object; }
 
 namespace PipelineCamera::DataOrientated
 {
-	inline static constexpr unsigned int ComponentBitSet_1_TypeDefinitionIndex = 37728;
+	inline static constexpr unsigned int ComponentBitSet_1_TypeDefinitionIndex = 38389;
 
 	template <typename TScope>
 	struct ComponentBitSet_1

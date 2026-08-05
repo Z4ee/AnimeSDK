@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIRABBOSSTOPTABWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15610970)
+#define MOLEMOLE_UIRABBOSSTOPTABWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16A7DE70)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRABBossTopTabWidgetController_Context_TypeDefinitionIndex = 51946;
+	inline static constexpr unsigned int UIRABBossTopTabWidgetController_Context_TypeDefinitionIndex = 55277;
 
 	class UIRABBossTopTabWidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{

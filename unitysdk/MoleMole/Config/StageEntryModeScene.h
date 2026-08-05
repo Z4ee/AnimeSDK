@@ -5,18 +5,18 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_STAGEENTRYMODESCENE__CTOR_OFFSET UNITYSDK_OFFSET(0x157D3A10)
+#define MOLEMOLE_CONFIG_STAGEENTRYMODESCENE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD767A0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int StageEntryModeScene_TypeDefinitionIndex = 60663;
+	inline static constexpr unsigned int StageEntryModeScene_TypeDefinitionIndex = 49670;
 
 	class StageEntryModeScene : public ::MoleMole::Config::StageEntryMode
 	{
 	public:
-		::System::String* sceneName; // 0x10
+		::System::String* onlyLoadInBakePrefabPath; // 0x10
 		::System::String* locationPointName; // 0x18
-		::System::String* onlyLoadInBakePrefabPath; // 0x20
+		::System::String* sceneName; // 0x20
 		::System::String* envPrefabPath; // 0x28
 		::UnityEngine::Vector2 MapStartAnchor; // 0x30
 		::UnityEngine::Vector2 MapEndAnchor; // 0x38

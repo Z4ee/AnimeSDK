@@ -7,12 +7,12 @@ namespace MessagePack::Internal { class ObjectSerializationInfo_EmittableMember;
 namespace System { class Action; }
 namespace System::Reflection::Emit { class ILGenerator; }
 
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS4_3__BUILDFORMATTERTODYNAMICMETHOD_B__6_OFFSET UNITYSDK_OFFSET(0x1D408280)
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS4_3__CTOR_OFFSET UNITYSDK_OFFSET(0x1D408270)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS4_3__BUILDFORMATTERTODYNAMICMETHOD_B__6_OFFSET UNITYSDK_OFFSET(0x1E7AD8F0)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS4_3__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7AD8E0)
 
 namespace MessagePack::Internal
 {
-	inline static constexpr unsigned int DynamicObjectTypeBuilder___c__DisplayClass4_3_TypeDefinitionIndex = 29284;
+	inline static constexpr unsigned int DynamicObjectTypeBuilder___c__DisplayClass4_3_TypeDefinitionIndex = 31048;
 
 	class DynamicObjectTypeBuilder___c__DisplayClass4_3 : public ::System::Object
 	{

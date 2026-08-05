@@ -9,22 +9,22 @@ namespace FlowCanvas { class FlowInput; }
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 
-#define MOLEMOLE_FLOWCANVAS_LDDESTROYENTITY_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x170FB290)
-#define MOLEMOLE_FLOWCANVAS_LDDESTROYENTITY_REMOVESUMMONEDENTITY_OFFSET UNITYSDK_OFFSET(0x170FBA70)
-#define MOLEMOLE_FLOWCANVAS_LDDESTROYENTITY_START_OFFSET UNITYSDK_OFFSET(0x170FB3A0)
-#define MOLEMOLE_FLOWCANVAS_LDDESTROYENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0x170FBE60)
+#define MOLEMOLE_FLOWCANVAS_LDDESTROYENTITY_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1B5294C0)
+#define MOLEMOLE_FLOWCANVAS_LDDESTROYENTITY_REMOVESUMMONEDENTITY_OFFSET UNITYSDK_OFFSET(0x1B529CA0)
+#define MOLEMOLE_FLOWCANVAS_LDDESTROYENTITY_START_OFFSET UNITYSDK_OFFSET(0x1B5295D0)
+#define MOLEMOLE_FLOWCANVAS_LDDESTROYENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1B52A0A0)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int LDDestroyEntity_TypeDefinitionIndex = 51164;
+	inline static constexpr unsigned int LDDestroyEntity_TypeDefinitionIndex = 40738;
 
 	class LDDestroyEntity : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
 		::FlowCanvas::FlowInput* Input; // 0xA8
-		::FlowCanvas::FlowOutput* Output; // 0xB0
+		::FlowCanvas::ValueInput_1<::MoleMole::FlowCanvas::LDDestroyEntity_DestroyEntityType>* DestroyEntityTypeInput; // 0xB0
 		::FlowCanvas::ValueInput_1<::MoleMole::EntityHandle>* TargetEntity; // 0xB8
-		::FlowCanvas::ValueInput_1<::MoleMole::FlowCanvas::LDDestroyEntity_DestroyEntityType>* DestroyEntityTypeInput; // 0xC0
+		::FlowCanvas::FlowOutput* Output; // 0xC0
 
 		::System::Void _ctor()
 		{

@@ -9,7 +9,7 @@ namespace Utf8Json { class IJsonFormatterResolver; }
 
 namespace Utf8Json::Formatters
 {
-	inline static constexpr unsigned int InterfaceLookupFormatter_2_TypeDefinitionIndex = 91293;
+	inline static constexpr unsigned int InterfaceLookupFormatter_2_TypeDefinitionIndex = 95226;
 
 	template <typename TKey, typename TElement>
 	class InterfaceLookupFormatter_2 : public ::System::Object

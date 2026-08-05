@@ -4,12 +4,12 @@
 #include "unitysdk/UnityEngine/Rendering/Universal/Internal/Vector4i.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRAUPDATEPROBEPASS_PROBECLIPMAPDATA_PACKDATA_OFFSET UNITYSDK_OFFSET(0x926EE0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRAUPDATEPROBEPASS_PROBECLIPMAPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x926E60)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRAUPDATEPROBEPASS_PROBECLIPMAPDATA_PACKDATA_OFFSET UNITYSDK_OFFSET(0x96A440)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRAUPDATEPROBEPASS_PROBECLIPMAPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x96A3C0)
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int LyraUpdateProbePass_ProbeClipmapData_TypeDefinitionIndex = 26444;
+	inline static constexpr unsigned int LyraUpdateProbePass_ProbeClipmapData_TypeDefinitionIndex = 26937;
 
 	struct alignas(8) LyraUpdateProbePass_ProbeClipmapData
 	{

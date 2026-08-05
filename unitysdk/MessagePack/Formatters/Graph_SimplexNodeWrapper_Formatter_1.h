@@ -9,7 +9,7 @@ namespace MessagePack { class MessagePackSerializerOptions; }
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int Graph_SimplexNodeWrapper_Formatter_1_TypeDefinitionIndex = 29181;
+	inline static constexpr unsigned int Graph_SimplexNodeWrapper_Formatter_1_TypeDefinitionIndex = 30696;
 
 	template <typename T>
 	class Graph_SimplexNodeWrapper_Formatter_1 : public ::System::Object

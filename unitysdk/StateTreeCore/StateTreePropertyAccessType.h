@@ -3,7 +3,7 @@
 
 namespace StateTreeCore
 {
-	inline static constexpr unsigned int StateTreePropertyAccessType_TypeDefinitionIndex = 31004;
+	inline static constexpr unsigned int StateTreePropertyAccessType_TypeDefinitionIndex = 31609;
 
 	enum class StateTreePropertyAccessType : ::System::Byte
 	{

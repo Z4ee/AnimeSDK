@@ -3,14 +3,14 @@
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int UIButtonEx_LongPressState_TypeDefinitionIndex = 70893;
+	inline static constexpr unsigned int UIButtonEx_LongPressState_TypeDefinitionIndex = 85046;
 
 	enum class UIButtonEx_LongPressState : ::System::Int32
 	{
-		UpPendingPress = 3,
 		UpPendingDown = 4,
-		Pressing = 2,
 		Down = 1,
+		UpPendingPress = 3,
+		Pressing = 2,
 		Up = 0,
 	};
 }

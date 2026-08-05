@@ -7,8 +7,8 @@
 
 namespace System::Threading { class Timer; }
 
-#define SYSTEM_THREADING_TASKS_TASK_DELAYPROMISE_COMPLETE_OFFSET UNITYSDK_OFFSET(0x1AE75BD0)
-#define SYSTEM_THREADING_TASKS_TASK_DELAYPROMISE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE75AA0)
+#define SYSTEM_THREADING_TASKS_TASK_DELAYPROMISE_COMPLETE_OFFSET UNITYSDK_OFFSET(0x1C349A00)
+#define SYSTEM_THREADING_TASKS_TASK_DELAYPROMISE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C3498D0)
 
 namespace System::Threading::Tasks
 {
@@ -17,9 +17,9 @@ namespace System::Threading::Tasks
 	class Task_DelayPromise : public ::System::Threading::Tasks::Task_1<::System::Threading::Tasks::VoidTaskResult>
 	{
 	public:
-		::System::Threading::CancellationTokenRegistration Registration; // 0x50
-		::System::Threading::CancellationToken Token; // 0x68
-		::System::Threading::Timer* Timer; // 0x70
+		::System::Threading::Timer* Timer; // 0x50
+		::System::Threading::CancellationToken Token; // 0x58
+		::System::Threading::CancellationTokenRegistration Registration; // 0x60
 
 		::System::Void _ctor(::System::Threading::CancellationToken token)
 		{

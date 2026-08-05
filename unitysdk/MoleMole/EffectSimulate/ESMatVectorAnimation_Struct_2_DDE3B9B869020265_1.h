@@ -7,13 +7,13 @@ namespace System { class String; }
 
 namespace MoleMole::EffectSimulate
 {
-	inline static constexpr unsigned int ESMatVectorAnimation_Struct_2_DDE3B9B869020265_1_TypeDefinitionIndex = 71405;
+	inline static constexpr unsigned int ESMatVectorAnimation_Struct_2_DDE3B9B869020265_1_TypeDefinitionIndex = 88739;
 
 	struct alignas(8) ESMatVectorAnimation_Struct_2_DDE3B9B869020265_1
 	{
-		::MoleMole::EffectSimulate::Vector4Curve* Field_2_3; // 0x10
-		::System::String* Field_2_0; // 0x18
-		::System::Single Field_2_2; // 0x20
-		::System::Single Field_2_1; // 0x24
+		::MoleMole::EffectSimulate::Vector4Curve* Field_2_7; // 0x10
+		::System::String* Field_2_2; // 0x18
+		::System::Single Field_2_1; // 0x20
+		::System::Single Field_2_0; // 0x24
 	};
 }

@@ -4,24 +4,24 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_NONGACHAPERFORMSHOW___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1264EC20)
-#define MOLEMOLE_NONGACHAPERFORMSHOW___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1264EC60)
-#define MOLEMOLE_NONGACHAPERFORMSHOW___C__DOPROCESS_B__6_0_OFFSET UNITYSDK_OFFSET(0x1264EC70)
+#define MOLEMOLE_NONGACHAPERFORMSHOW___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x14A1B570)
+#define MOLEMOLE_NONGACHAPERFORMSHOW___C__CTOR_OFFSET UNITYSDK_OFFSET(0x14A1B5B0)
+#define MOLEMOLE_NONGACHAPERFORMSHOW___C__DOPROCESS_B__6_0_OFFSET UNITYSDK_OFFSET(0x14A1B5C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int NonGachaPerformShow___c_TypeDefinitionIndex = 68648;
+	inline static constexpr unsigned int NonGachaPerformShow___c_TypeDefinitionIndex = 59429;
 
 	class NonGachaPerformShow___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__6_0()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(NonGachaPerformShow___c_TypeDefinitionIndex)->GetStaticField(0x30870);
-		}
 		static ::MoleMole::NonGachaPerformShow___c** StaticGet___9()
 		{
-			return (::MoleMole::NonGachaPerformShow___c**)Il2CppClass::FromTypeDefinitionIndex(NonGachaPerformShow___c_TypeDefinitionIndex)->GetStaticField(0x30878);
+			return (::MoleMole::NonGachaPerformShow___c**)Il2CppClass::FromTypeDefinitionIndex(NonGachaPerformShow___c_TypeDefinitionIndex)->GetStaticField(0x32820);
+		}
+		static ::System::Action** StaticGet___9__6_0()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(NonGachaPerformShow___c_TypeDefinitionIndex)->GetStaticField(0x32828);
 		}
 
 		static ::System::Void _cctor()

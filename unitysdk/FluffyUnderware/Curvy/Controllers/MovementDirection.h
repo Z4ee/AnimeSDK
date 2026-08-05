@@ -3,11 +3,11 @@
 
 namespace FluffyUnderware::Curvy::Controllers
 {
-	inline static constexpr unsigned int MovementDirection_TypeDefinitionIndex = 38962;
+	inline static constexpr unsigned int MovementDirection_TypeDefinitionIndex = 39485;
 
 	enum class MovementDirection : ::System::Int32
 	{
-		Forward = 0,
 		Backward = 1,
+		Forward = 0,
 	};
 }

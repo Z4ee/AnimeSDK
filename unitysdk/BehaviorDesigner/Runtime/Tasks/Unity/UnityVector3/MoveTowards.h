@@ -6,23 +6,23 @@
 namespace BehaviorDesigner::Runtime { class SharedFloat; }
 namespace BehaviorDesigner::Runtime { class SharedVector3; }
 
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYVECTOR3_MOVETOWARDS_ONRESET_OFFSET UNITYSDK_OFFSET(0x1E384080)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYVECTOR3_MOVETOWARDS_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1E383D30)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYVECTOR3_MOVETOWARDS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E384100)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYVECTOR3_MOVETOWARDS___BASE_ONRESET_OFFSET UNITYSDK_OFFSET(0x1E384190)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYVECTOR3_MOVETOWARDS___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1E384220)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYVECTOR3_MOVETOWARDS_ONRESET_OFFSET UNITYSDK_OFFSET(0x1F7D3210)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYVECTOR3_MOVETOWARDS_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1F7D2EF0)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYVECTOR3_MOVETOWARDS__CTOR_OFFSET UNITYSDK_OFFSET(0x1F7D3290)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYVECTOR3_MOVETOWARDS___BASE_ONRESET_OFFSET UNITYSDK_OFFSET(0x1F7D3320)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYVECTOR3_MOVETOWARDS___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1F7D33B0)
 
 namespace BehaviorDesigner::Runtime::Tasks::Unity::UnityVector3
 {
-	inline static constexpr unsigned int MoveTowards_TypeDefinitionIndex = 33399;
+	inline static constexpr unsigned int MoveTowards_TypeDefinitionIndex = 34035;
 
 	class MoveTowards : public ::BehaviorDesigner::Runtime::Tasks::Action
 	{
 	public:
-		::BehaviorDesigner::Runtime::SharedVector3* targetPosition; // 0x58
-		::BehaviorDesigner::Runtime::SharedFloat* speed; // 0x60
-		::BehaviorDesigner::Runtime::SharedVector3* currentPosition; // 0x68
-		::BehaviorDesigner::Runtime::SharedVector3* storeResult; // 0x70
+		::BehaviorDesigner::Runtime::SharedVector3* currentPosition; // 0x58
+		::BehaviorDesigner::Runtime::SharedVector3* storeResult; // 0x60
+		::BehaviorDesigner::Runtime::SharedVector3* targetPosition; // 0x68
+		::BehaviorDesigner::Runtime::SharedFloat* speed; // 0x70
 
 		::System::Void _ctor()
 		{

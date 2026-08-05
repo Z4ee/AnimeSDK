@@ -4,13 +4,13 @@
 
 namespace System { class String; }
 
-#define NAPPROFILER_FPSCALC_START_OFFSET UNITYSDK_OFFSET(0x102C6510)
-#define NAPPROFILER_FPSCALC_UPDATE_OFFSET UNITYSDK_OFFSET(0x102C65C0)
-#define NAPPROFILER_FPSCALC__CTOR_OFFSET UNITYSDK_OFFSET(0x102C66C0)
+#define NAPPROFILER_FPSCALC_START_OFFSET UNITYSDK_OFFSET(0xE585350)
+#define NAPPROFILER_FPSCALC_UPDATE_OFFSET UNITYSDK_OFFSET(0xE585400)
+#define NAPPROFILER_FPSCALC__CTOR_OFFSET UNITYSDK_OFFSET(0xE585500)
 
 namespace NapProfiler
 {
-	inline static constexpr unsigned int FpsCalc_TypeDefinitionIndex = 77899;
+	inline static constexpr unsigned int FpsCalc_TypeDefinitionIndex = 89906;
 
 	class FpsCalc : public ::UnityEngine::MonoBehaviour
 	{
@@ -21,11 +21,11 @@ namespace NapProfiler
 		::System::Single fps; // 0x24
 		::System::Single fpsAvg; // 0x28
 		::System::String* logContext; // 0x30
-		::System::Single Field_5_6; // 0x38
-		::System::Int32 Field_5_7; // 0x3C
-		::System::Single Field_5_8; // 0x40
-		::System::Single Field_5_9; // 0x44
-		::System::Int32 Field_5_10; // 0x48
+		::System::Single Field_5_5; // 0x38
+		::System::Int32 Field_5_4; // 0x3C
+		::System::Single Field_5_11; // 0x40
+		::System::Single Field_5_10; // 0x44
+		::System::Int32 Field_5_9; // 0x48
 
 		::System::Void _ctor()
 		{

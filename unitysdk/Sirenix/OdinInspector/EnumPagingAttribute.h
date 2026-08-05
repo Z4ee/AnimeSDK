@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SIRENIX_ODININSPECTOR_ENUMPAGINGATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E328BE0)
+#define SIRENIX_ODININSPECTOR_ENUMPAGINGATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F76FF80)
 
 namespace Sirenix::OdinInspector
 {
-	inline static constexpr unsigned int EnumPagingAttribute_TypeDefinitionIndex = 7293;
+	inline static constexpr unsigned int EnumPagingAttribute_TypeDefinitionIndex = 7297;
 
 	class EnumPagingAttribute : public ::System::Attribute
 	{

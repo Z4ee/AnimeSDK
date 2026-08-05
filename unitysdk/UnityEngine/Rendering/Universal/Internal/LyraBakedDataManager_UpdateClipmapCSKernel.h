@@ -3,24 +3,24 @@
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int LyraBakedDataManager_UpdateClipmapCSKernel_TypeDefinitionIndex = 27332;
+	inline static constexpr unsigned int LyraBakedDataManager_UpdateClipmapCSKernel_TypeDefinitionIndex = 26918;
 
 	enum class LyraBakedDataManager_UpdateClipmapCSKernel : ::System::Int32
 	{
-		kClearTextureKernelCount = 3,
-		kMinKernelCount = 29,
+		kCollectPages = 0,
+		kInitUpdatePagesIndirectArgsKernelCount = 3,
+		kFillBorders = 17,
 		kUpdatePagesKernelCount = 6,
+		kMinKernelCount = 29,
+		kInitUpdatePagesIndirectArgs = 2,
+		kClearTextureKernelCount = 3,
+		kPropagate = 16,
+		kClearPagesKernelCount = 5,
+		kClearPages = 11,
+		kFillBordersKernelCount = 9,
+		kClearTexture = 26,
+		kCollectPagesKernelCount = 2,
 		kPropagateKernelCount = 1,
 		kUpdatePages = 5,
-		kFillBordersKernelCount = 9,
-		kCollectPages = 0,
-		kPropagate = 16,
-		kClearPages = 11,
-		kCollectPagesKernelCount = 2,
-		kFillBorders = 17,
-		kClearPagesKernelCount = 5,
-		kInitUpdatePagesIndirectArgsKernelCount = 3,
-		kInitUpdatePagesIndirectArgs = 2,
-		kClearTexture = 26,
 	};
 }

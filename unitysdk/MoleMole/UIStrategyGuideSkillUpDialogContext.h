@@ -4,11 +4,11 @@
 
 class Class_2_1824EF69C8E376A3;
 
-#define MOLEMOLE_UISTRATEGYGUIDESKILLUPDIALOGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x14C8F370)
+#define MOLEMOLE_UISTRATEGYGUIDESKILLUPDIALOGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16762ED0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIStrategyGuideSkillUpDialogContext_TypeDefinitionIndex = 55969;
+	inline static constexpr unsigned int UIStrategyGuideSkillUpDialogContext_TypeDefinitionIndex = 83611;
 
 	class UIStrategyGuideSkillUpDialogContext : public ::MoleMole::UIControllerContextBase
 	{

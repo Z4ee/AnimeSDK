@@ -5,24 +5,24 @@
 
 namespace MoleMole { class UIPhotoWallPageController; }
 
-#define MOLEMOLE_UIPHOTOWALLPAGECONTROLLER___C__DISPLAYCLASS85_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18210630)
-#define MOLEMOLE_UIPHOTOWALLPAGECONTROLLER___C__DISPLAYCLASS85_0__MOVECAMERATO_B__0_OFFSET UNITYSDK_OFFSET(0x18210640)
-#define MOLEMOLE_UIPHOTOWALLPAGECONTROLLER___C__DISPLAYCLASS85_0__MOVECAMERATO_B__1_OFFSET UNITYSDK_OFFSET(0x18210650)
-#define MOLEMOLE_UIPHOTOWALLPAGECONTROLLER___C__DISPLAYCLASS85_0__MOVECAMERATO_B__2_OFFSET UNITYSDK_OFFSET(0x182108A0)
+#define MOLEMOLE_UIPHOTOWALLPAGECONTROLLER___C__DISPLAYCLASS85_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17574BF0)
+#define MOLEMOLE_UIPHOTOWALLPAGECONTROLLER___C__DISPLAYCLASS85_0__MOVECAMERATO_B__0_OFFSET UNITYSDK_OFFSET(0x17574C00)
+#define MOLEMOLE_UIPHOTOWALLPAGECONTROLLER___C__DISPLAYCLASS85_0__MOVECAMERATO_B__1_OFFSET UNITYSDK_OFFSET(0x17574C10)
+#define MOLEMOLE_UIPHOTOWALLPAGECONTROLLER___C__DISPLAYCLASS85_0__MOVECAMERATO_B__2_OFFSET UNITYSDK_OFFSET(0x17574E60)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIPhotoWallPageController___c__DisplayClass85_0_TypeDefinitionIndex = 52434;
+	inline static constexpr unsigned int UIPhotoWallPageController___c__DisplayClass85_0_TypeDefinitionIndex = 61315;
 
 	class UIPhotoWallPageController___c__DisplayClass85_0 : public ::System::Object
 	{
 	public:
 		::MoleMole::UIPhotoWallPageController* __4__this; // 0x10
 		::System::Single currentFov; // 0x18
-		::UnityEngine::Vector2 currentPos; // 0x1C
-		::System::Single time; // 0x24
-		::UnityEngine::Vector2 deltaPos; // 0x28
-		::System::Single fov; // 0x30
+		::System::Single fov; // 0x1C
+		::UnityEngine::Vector2 deltaPos; // 0x20
+		::System::Single time; // 0x28
+		::UnityEngine::Vector2 currentPos; // 0x2C
 
 		::System::Void _ctor()
 		{

@@ -14,7 +14,7 @@ namespace System::Collections::Generic { template <typename T> class Stack_1; }
 
 namespace ObservableCollections
 {
-	inline static constexpr unsigned int ObservableStack_1_TypeDefinitionIndex = 28156;
+	inline static constexpr unsigned int ObservableStack_1_TypeDefinitionIndex = 28821;
 
 	template <typename T>
 	class ObservableStack_1 : public ::System::Object

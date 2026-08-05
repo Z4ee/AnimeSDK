@@ -3,7 +3,7 @@
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int AtlasAssetBase_LoadingMode_TypeDefinitionIndex = 39420;
+	inline static constexpr unsigned int AtlasAssetBase_LoadingMode_TypeDefinitionIndex = 40085;
 
 	enum class AtlasAssetBase_LoadingMode : ::System::Int32
 	{

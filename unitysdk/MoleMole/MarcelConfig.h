@@ -9,11 +9,11 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_MARCELCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17E848B0)
+#define MOLEMOLE_MARCELCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19BF7600)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MarcelConfig_TypeDefinitionIndex = 59858;
+	inline static constexpr unsigned int MarcelConfig_TypeDefinitionIndex = 58047;
 
 	class MarcelConfig : public ::Foundation::MihoyoSerializedScriptableObject
 	{

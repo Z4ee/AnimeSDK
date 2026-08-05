@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define IFIX_VERSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1CABD5A0)
+#define IFIX_VERSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1E09C4F0)
 
 namespace IFix
 {
-	inline static constexpr unsigned int Version_TypeDefinitionIndex = 6913;
+	inline static constexpr unsigned int Version_TypeDefinitionIndex = 6918;
 
 	class Version : public ::System::Object
 	{

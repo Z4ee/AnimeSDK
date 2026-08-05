@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_UIHOUSERHYTHMTASKCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16BDA520)
+#define MOLEMOLE_UIHOUSERHYTHMTASKCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x19C684C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHouseRhythmTaskContext_TypeDefinitionIndex = 74174;
+	inline static constexpr unsigned int UIHouseRhythmTaskContext_TypeDefinitionIndex = 79115;
 
 	class UIHouseRhythmTaskContext : public ::MoleMole::UIControllerContextBase
 	{

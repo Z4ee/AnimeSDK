@@ -2,14 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_2_E87F1D15F1D4AC72.h"
 
-class Class_2_A9A857AD270B9CE1;
+class Class_2_A4D62D05D5EA8464;
 namespace MoleMole { class UIControlCollection; }
 
-#define CLASS_3_16EA94C053C1817B_1_METHOD_3_445108444CB6DC1F_OFFSET UNITYSDK_OFFSET(0x15159A80)
-#define CLASS_3_16EA94C053C1817B_1_METHOD_3_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x15159B00)
-#define CLASS_3_16EA94C053C1817B_1__CTOR_OFFSET UNITYSDK_OFFSET(0x15159B40)
+#define CLASS_3_16EA94C053C1817B_1_METHOD_3_445108444CB6DC1F_OFFSET UNITYSDK_OFFSET(0x161B1290)
+#define CLASS_3_16EA94C053C1817B_1_METHOD_3_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x161B1310)
+#define CLASS_3_16EA94C053C1817B_1__CTOR_OFFSET UNITYSDK_OFFSET(0x161B1350)
 
-inline static constexpr unsigned int Class_3_16EA94C053C1817B_1_TypeDefinitionIndex = 52466;
+inline static constexpr unsigned int Class_3_16EA94C053C1817B_1_TypeDefinitionIndex = 52582;
 
 class Class_3_16EA94C053C1817B_1 : public ::Class_2_E87F1D15F1D4AC72
 {
@@ -19,9 +19,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_16EA94C053C1817B_1__CTOR_OFFSET))(this);
 	}
 
-	::System::Void Method_3_445108444CB6DC1F(::Class_2_A9A857AD270B9CE1* a1, ::MoleMole::UIControlCollection* a2)
+	::System::Void Method_3_445108444CB6DC1F(::Class_2_A4D62D05D5EA8464* a1, ::MoleMole::UIControlCollection* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_2_A9A857AD270B9CE1*, ::MoleMole::UIControlCollection*))((::PBYTE)hIl2Cpp + CLASS_3_16EA94C053C1817B_1_METHOD_3_445108444CB6DC1F_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::Class_2_A4D62D05D5EA8464*, ::MoleMole::UIControlCollection*))((::PBYTE)hIl2Cpp + CLASS_3_16EA94C053C1817B_1_METHOD_3_445108444CB6DC1F_OFFSET))(this, a1, a2);
 	}
 
 	::System::Void Method_3_CA373AA1C7054598()

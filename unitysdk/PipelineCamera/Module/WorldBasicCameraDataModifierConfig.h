@@ -5,7 +5,7 @@
 
 namespace PipelineCamera::Module
 {
-	inline static constexpr unsigned int WorldBasicCameraDataModifierConfig_TypeDefinitionIndex = 38005;
+	inline static constexpr unsigned int WorldBasicCameraDataModifierConfig_TypeDefinitionIndex = 38666;
 
 	struct alignas(4) WorldBasicCameraDataModifierConfig
 	{

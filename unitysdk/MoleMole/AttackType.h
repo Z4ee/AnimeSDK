@@ -3,14 +3,14 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int AttackType_TypeDefinitionIndex = 60385;
+	inline static constexpr unsigned int AttackType_TypeDefinitionIndex = 69260;
 
 	enum class AttackType : ::System::Int32
 	{
-		Unknown = 0,
-		Mix = 3,
-		Melee = 1,
 		Max = 4,
 		Range = 2,
+		Melee = 1,
+		Mix = 3,
+		Unknown = 0,
 	};
 }

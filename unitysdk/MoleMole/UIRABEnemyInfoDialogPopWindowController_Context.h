@@ -5,11 +5,11 @@
 namespace MoleMole { class UIRABLevelEnemyRowWidgetController_Data; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIRABENEMYINFODIALOGPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16669E40)
+#define MOLEMOLE_UIRABENEMYINFODIALOGPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x179973B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRABEnemyInfoDialogPopWindowController_Context_TypeDefinitionIndex = 44890;
+	inline static constexpr unsigned int UIRABEnemyInfoDialogPopWindowController_Context_TypeDefinitionIndex = 78411;
 
 	class UIRABEnemyInfoDialogPopWindowController_Context : public ::MoleMole::UIControllerContextBase
 	{

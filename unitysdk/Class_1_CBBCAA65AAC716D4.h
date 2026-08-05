@@ -5,18 +5,18 @@
 class Class_1_7E6A3ED5019D7E79;
 namespace System { template <typename T> class Action_1; }
 
-#define CLASS_1_CBBCAA65AAC716D4_METHOD_1_8DA2C45C7019FA48_OFFSET UNITYSDK_OFFSET(0x19071E30)
-#define CLASS_1_CBBCAA65AAC716D4__CTOR_OFFSET UNITYSDK_OFFSET(0x19071E20)
+#define CLASS_1_CBBCAA65AAC716D4_METHOD_1_8DA2C45C7019FA48_OFFSET UNITYSDK_OFFSET(0x1399E440)
+#define CLASS_1_CBBCAA65AAC716D4__CTOR_OFFSET UNITYSDK_OFFSET(0x1399E430)
 
-inline static constexpr unsigned int Class_1_CBBCAA65AAC716D4_TypeDefinitionIndex = 47088;
+inline static constexpr unsigned int Class_1_CBBCAA65AAC716D4_TypeDefinitionIndex = 87728;
 
 class Class_1_CBBCAA65AAC716D4 : public ::System::Object
 {
 public:
-	::Class_1_7E6A3ED5019D7E79* Field_1_0; // 0x10
-	::System::Action_1<::System::Boolean>* Field_1_3; // 0x18
-	::System::Boolean Field_1_1; // 0x20
-	::System::Boolean Field_1_2; // 0x21
+	::System::Action_1<::System::Boolean>* Field_1_6; // 0x10
+	::Class_1_7E6A3ED5019D7E79* Field_1_1; // 0x18
+	::System::Boolean Field_1_0; // 0x20
+	::System::Boolean Field_1_7; // 0x21
 
 	::System::Void _ctor()
 	{

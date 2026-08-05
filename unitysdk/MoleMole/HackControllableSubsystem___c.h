@@ -5,24 +5,24 @@
 
 namespace System { template <typename T> class Func_1; }
 
-#define MOLEMOLE_HACKCONTROLLABLESUBSYSTEM___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x13EECE30)
-#define MOLEMOLE_HACKCONTROLLABLESUBSYSTEM___C__CTOR_OFFSET UNITYSDK_OFFSET(0x13EECE70)
-#define MOLEMOLE_HACKCONTROLLABLESUBSYSTEM___C__ENTERCONTROLLABLECAMERA_B__38_0_OFFSET UNITYSDK_OFFSET(0x13EECE80)
+#define MOLEMOLE_HACKCONTROLLABLESUBSYSTEM___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x136B61E0)
+#define MOLEMOLE_HACKCONTROLLABLESUBSYSTEM___C__CTOR_OFFSET UNITYSDK_OFFSET(0x136B6220)
+#define MOLEMOLE_HACKCONTROLLABLESUBSYSTEM___C__ENTERCONTROLLABLECAMERA_B__47_0_OFFSET UNITYSDK_OFFSET(0x136B6230)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int HackControllableSubsystem___c_TypeDefinitionIndex = 80685;
+	inline static constexpr unsigned int HackControllableSubsystem___c_TypeDefinitionIndex = 57110;
 
 	class HackControllableSubsystem___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_1<::UnityEngine::Vector3>** StaticGet___9__38_0()
-		{
-			return (::System::Func_1<::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(HackControllableSubsystem___c_TypeDefinitionIndex)->GetStaticField(0x4D950);
-		}
 		static ::MoleMole::HackControllableSubsystem___c** StaticGet___9()
 		{
-			return (::MoleMole::HackControllableSubsystem___c**)Il2CppClass::FromTypeDefinitionIndex(HackControllableSubsystem___c_TypeDefinitionIndex)->GetStaticField(0x4D958);
+			return (::MoleMole::HackControllableSubsystem___c**)Il2CppClass::FromTypeDefinitionIndex(HackControllableSubsystem___c_TypeDefinitionIndex)->GetStaticField(0x4D700);
+		}
+		static ::System::Func_1<::UnityEngine::Vector3>** StaticGet___9__47_0()
+		{
+			return (::System::Func_1<::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(HackControllableSubsystem___c_TypeDefinitionIndex)->GetStaticField(0x4D708);
 		}
 
 		static ::System::Void _cctor()
@@ -35,9 +35,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_HACKCONTROLLABLESUBSYSTEM___C__CTOR_OFFSET))(this);
 		}
 
-		::UnityEngine::Vector3 _EnterControllableCamera_b__38_0()
+		::UnityEngine::Vector3 _EnterControllableCamera_b__47_0()
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_HACKCONTROLLABLESUBSYSTEM___C__ENTERCONTROLLABLECAMERA_B__38_0_OFFSET))(this);
+			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_HACKCONTROLLABLESUBSYSTEM___C__ENTERCONTROLLABLECAMERA_B__47_0_OFFSET))(this);
 		}
 	};
 }

@@ -6,17 +6,17 @@ namespace RootMotion::FinalIK { class AimController; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_8DEED67EBA66D5AC_CLASS_1_C410E4CC68654EB4_METHOD_1_A7FDBEE0C53EA747_OFFSET UNITYSDK_OFFSET(0x12859730)
-#define CLASS_3_8DEED67EBA66D5AC_CLASS_1_C410E4CC68654EB4_METHOD_1_D98E43E328ECCE1C_OFFSET UNITYSDK_OFFSET(0x128599D0)
-#define CLASS_3_8DEED67EBA66D5AC_CLASS_1_C410E4CC68654EB4__CTOR_OFFSET UNITYSDK_OFFSET(0x12859720)
+#define CLASS_3_8DEED67EBA66D5AC_CLASS_1_C410E4CC68654EB4_METHOD_1_A7FDBEE0C53EA747_OFFSET UNITYSDK_OFFSET(0x17C51310)
+#define CLASS_3_8DEED67EBA66D5AC_CLASS_1_C410E4CC68654EB4_METHOD_1_D98E43E328ECCE1C_OFFSET UNITYSDK_OFFSET(0x17C515B0)
+#define CLASS_3_8DEED67EBA66D5AC_CLASS_1_C410E4CC68654EB4__CTOR_OFFSET UNITYSDK_OFFSET(0x17C51300)
 
-inline static constexpr unsigned int Class_3_8DEED67EBA66D5AC_Class_1_C410E4CC68654EB4_TypeDefinitionIndex = 81727;
+inline static constexpr unsigned int Class_3_8DEED67EBA66D5AC_Class_1_C410E4CC68654EB4_TypeDefinitionIndex = 60312;
 
 class Class_3_8DEED67EBA66D5AC_Class_1_C410E4CC68654EB4 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::System::String*>* Field_1_1; // 0x10
-	::System::String* Field_1_0; // 0x18
+	::System::String* Field_1_1; // 0x10
+	::System::Collections::Generic::List_1<::System::String*>* Field_1_0; // 0x18
 
 	::System::Void _ctor()
 	{

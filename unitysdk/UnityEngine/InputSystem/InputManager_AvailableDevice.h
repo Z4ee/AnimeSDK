@@ -5,7 +5,7 @@
 
 namespace UnityEngine::InputSystem
 {
-	inline static constexpr unsigned int InputManager_AvailableDevice_TypeDefinitionIndex = 31684;
+	inline static constexpr unsigned int InputManager_AvailableDevice_TypeDefinitionIndex = 32304;
 
 	struct alignas(8) InputManager_AvailableDevice
 	{

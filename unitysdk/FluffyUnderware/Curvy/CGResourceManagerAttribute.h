@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define FLUFFYUNDERWARE_CURVY_CGRESOURCEMANAGERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E0210C0)
+#define FLUFFYUNDERWARE_CURVY_CGRESOURCEMANAGERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F4069E0)
 
 namespace FluffyUnderware::Curvy
 {
-	inline static constexpr unsigned int CGResourceManagerAttribute_TypeDefinitionIndex = 38977;
+	inline static constexpr unsigned int CGResourceManagerAttribute_TypeDefinitionIndex = 39675;
 
 	class CGResourceManagerAttribute : public ::FluffyUnderware::DevTools::DTPropertyAttribute
 	{

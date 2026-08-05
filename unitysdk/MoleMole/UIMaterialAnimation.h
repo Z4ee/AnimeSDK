@@ -13,19 +13,19 @@ namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class MeshRenderer; }
 namespace UnityEngine::UI { class MaskableGraphic; }
 
-#define MOLEMOLE_UIMATERIALANIMATION_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1714CD10)
-#define MOLEMOLE_UIMATERIALANIMATION_METHOD_5_151E25A63D14DDB0_OFFSET UNITYSDK_OFFSET(0x1714CC10)
-#define MOLEMOLE_UIMATERIALANIMATION_METHOD_5_3D32A8D32FBB901A_OFFSET UNITYSDK_OFFSET(0x1714D240)
-#define MOLEMOLE_UIMATERIALANIMATION_METHOD_5_78037B64B814568E_OFFSET UNITYSDK_OFFSET(0x1714C720)
-#define MOLEMOLE_UIMATERIALANIMATION_METHOD_5_D7852DE078ACC1F1_OFFSET UNITYSDK_OFFSET(0x1714D670)
-#define MOLEMOLE_UIMATERIALANIMATION_METHOD_5_EDFD49C942C75D6C_OFFSET UNITYSDK_OFFSET(0x1714D000)
-#define MOLEMOLE_UIMATERIALANIMATION_PLAYDEFAULTBYLOADMATERIAL_OFFSET UNITYSDK_OFFSET(0x1714C300)
-#define MOLEMOLE_UIMATERIALANIMATION_PLAYUIMATANIBYLOAD_OFFSET UNITYSDK_OFFSET(0x1714C370)
-#define MOLEMOLE_UIMATERIALANIMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1714D530)
+#define MOLEMOLE_UIMATERIALANIMATION_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x183B2610)
+#define MOLEMOLE_UIMATERIALANIMATION_METHOD_5_151E25A63D14DDB0_OFFSET UNITYSDK_OFFSET(0x183B2510)
+#define MOLEMOLE_UIMATERIALANIMATION_METHOD_5_3D32A8D32FBB901A_OFFSET UNITYSDK_OFFSET(0x183B2B40)
+#define MOLEMOLE_UIMATERIALANIMATION_METHOD_5_78037B64B814568E_OFFSET UNITYSDK_OFFSET(0x183B2020)
+#define MOLEMOLE_UIMATERIALANIMATION_METHOD_5_D7852DE078ACC1F1_OFFSET UNITYSDK_OFFSET(0x183B2F70)
+#define MOLEMOLE_UIMATERIALANIMATION_METHOD_5_EDFD49C942C75D6C_OFFSET UNITYSDK_OFFSET(0x183B2900)
+#define MOLEMOLE_UIMATERIALANIMATION_PLAYDEFAULTBYLOADMATERIAL_OFFSET UNITYSDK_OFFSET(0x183B1C00)
+#define MOLEMOLE_UIMATERIALANIMATION_PLAYUIMATANIBYLOAD_OFFSET UNITYSDK_OFFSET(0x183B1C70)
+#define MOLEMOLE_UIMATERIALANIMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x183B2E30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMaterialAnimation_TypeDefinitionIndex = 44318;
+	inline static constexpr unsigned int UIMaterialAnimation_TypeDefinitionIndex = 63880;
 
 	class UIMaterialAnimation : public ::UnityEngine::MonoBehaviour
 	{
@@ -33,18 +33,18 @@ namespace MoleMole
 		::System::Collections::Generic::List_1<::MoleMole::MatAnimationData*>* Property; // 0x18
 		::System::Collections::Generic::List_1<::MoleMole::MatAnimationData*>* ApplyProperty; // 0x20
 		::System::String* animationName; // 0x28
-		::UnityEngine::UI::MaskableGraphic* Field_5_3; // 0x30
-		::UnityEngine::Material* Field_5_4; // 0x38
-		::Foundation::AssetRequestHandle Field_5_5; // 0x40
-		::UnityEngine::MeshRenderer* Field_5_6; // 0x60
-		::UnityEngine::MaterialPropertyBlock* Field_5_7; // 0x68
-		::UnityEngine::Animation* Field_5_8; // 0x70
-		::System::Boolean Field_5_9; // 0x78
-		::System::Single Field_5_10; // 0x7C
-		::System::Single Field_5_11; // 0x80
-		::UnityEngine::Material* Field_5_12; // 0x88
-		::UnityEngine::Color Field_5_13; // 0x90
-		::System::Boolean Field_5_14; // 0xA0
+		::UnityEngine::UI::MaskableGraphic* Field_5_0; // 0x30
+		::UnityEngine::Material* Field_5_7; // 0x38
+		::Foundation::AssetRequestHandle Field_5_6; // 0x40
+		::UnityEngine::MeshRenderer* Field_5_5; // 0x60
+		::UnityEngine::MaterialPropertyBlock* Field_5_4; // 0x68
+		::UnityEngine::Animation* Field_5_11; // 0x70
+		::System::Boolean Field_5_10; // 0x78
+		::System::Single Field_5_9; // 0x7C
+		::System::Single Field_5_8; // 0x80
+		::UnityEngine::Material* Field_5_15; // 0x88
+		::UnityEngine::Color Field_5_14; // 0x90
+		::System::Boolean Field_5_13; // 0xA0
 
 		::System::Void _ctor()
 		{
@@ -66,14 +66,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMATERIALANIMATION_LATEUPDATE_OFFSET))(this);
 		}
 
-		::System::Void Method_5_EDFD49C942C75D6C()
+		::System::Void Method_5_D7852DE078ACC1F1()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMATERIALANIMATION_METHOD_5_EDFD49C942C75D6C_OFFSET))(this);
-		}
-
-		::System::Void Method_5_3D32A8D32FBB901A(::System::String* a1, ::System::String* a2)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMATERIALANIMATION_METHOD_5_3D32A8D32FBB901A_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMATERIALANIMATION_METHOD_5_D7852DE078ACC1F1_OFFSET))(this);
 		}
 
 		::System::Void Method_5_78037B64B814568E()
@@ -81,14 +76,19 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMATERIALANIMATION_METHOD_5_78037B64B814568E_OFFSET))(this);
 		}
 
-		::System::Void Method_5_D7852DE078ACC1F1()
+		::System::Void Method_5_EDFD49C942C75D6C()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMATERIALANIMATION_METHOD_5_D7852DE078ACC1F1_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMATERIALANIMATION_METHOD_5_EDFD49C942C75D6C_OFFSET))(this);
 		}
 
 		::System::Void Method_5_151E25A63D14DDB0()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMATERIALANIMATION_METHOD_5_151E25A63D14DDB0_OFFSET))(this);
+		}
+
+		::System::Void Method_5_3D32A8D32FBB901A(::System::String* a1, ::System::String* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMATERIALANIMATION_METHOD_5_3D32A8D32FBB901A_OFFSET))(this, a1, a2);
 		}
 	};
 }

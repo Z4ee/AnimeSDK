@@ -6,24 +6,24 @@
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define PARADOXNOTION_SERIALIZATION_FULLSERIALIZER_FSBASECONVERTER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D35DAE0)
-#define PARADOXNOTION_SERIALIZATION_FULLSERIALIZER_FSBASECONVERTER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1D35DB20)
-#define PARADOXNOTION_SERIALIZATION_FULLSERIALIZER_FSBASECONVERTER___C__FAILEXPECTEDTYPE_B__6_0_OFFSET UNITYSDK_OFFSET(0x1D35DB30)
+#define PARADOXNOTION_SERIALIZATION_FULLSERIALIZER_FSBASECONVERTER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E6E12C0)
+#define PARADOXNOTION_SERIALIZATION_FULLSERIALIZER_FSBASECONVERTER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1E6E1300)
+#define PARADOXNOTION_SERIALIZATION_FULLSERIALIZER_FSBASECONVERTER___C__FAILEXPECTEDTYPE_B__6_0_OFFSET UNITYSDK_OFFSET(0x1E6E1310)
 
 namespace ParadoxNotion::Serialization::FullSerializer
 {
-	inline static constexpr unsigned int fsBaseConverter___c_TypeDefinitionIndex = 30765;
+	inline static constexpr unsigned int fsBaseConverter___c_TypeDefinitionIndex = 31497;
 
 	class fsBaseConverter___c : public ::System::Object
 	{
 	public:
 		static ::ParadoxNotion::Serialization::FullSerializer::fsBaseConverter___c** StaticGet___9()
 		{
-			return (::ParadoxNotion::Serialization::FullSerializer::fsBaseConverter___c**)Il2CppClass::FromTypeDefinitionIndex(fsBaseConverter___c_TypeDefinitionIndex)->GetStaticField(0x24210);
+			return (::ParadoxNotion::Serialization::FullSerializer::fsBaseConverter___c**)Il2CppClass::FromTypeDefinitionIndex(fsBaseConverter___c_TypeDefinitionIndex)->GetStaticField(0x25B30);
 		}
 		static ::System::Func_2<::ParadoxNotion::Serialization::FullSerializer::fsDataType, ::System::String*>** StaticGet___9__6_0()
 		{
-			return (::System::Func_2<::ParadoxNotion::Serialization::FullSerializer::fsDataType, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(fsBaseConverter___c_TypeDefinitionIndex)->GetStaticField(0x24218);
+			return (::System::Func_2<::ParadoxNotion::Serialization::FullSerializer::fsDataType, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(fsBaseConverter___c_TypeDefinitionIndex)->GetStaticField(0x25B38);
 		}
 
 		static ::System::Void _cctor()

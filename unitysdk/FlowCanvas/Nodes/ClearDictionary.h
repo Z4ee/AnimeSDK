@@ -4,12 +4,12 @@
 
 namespace System::Collections { class IDictionary; }
 
-#define FLOWCANVAS_NODES_CLEARDICTIONARY_INVOKE_OFFSET UNITYSDK_OFFSET(0x1D7FDBB0)
-#define FLOWCANVAS_NODES_CLEARDICTIONARY__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7FDC80)
+#define FLOWCANVAS_NODES_CLEARDICTIONARY_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EBB42F0)
+#define FLOWCANVAS_NODES_CLEARDICTIONARY__CTOR_OFFSET UNITYSDK_OFFSET(0x1EBB43C0)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int ClearDictionary_TypeDefinitionIndex = 30364;
+	inline static constexpr unsigned int ClearDictionary_TypeDefinitionIndex = 29766;
 
 	class ClearDictionary : public ::FlowCanvas::Nodes::CallableFunctionNode_2<::System::Collections::IDictionary*, ::System::Collections::IDictionary*>
 	{

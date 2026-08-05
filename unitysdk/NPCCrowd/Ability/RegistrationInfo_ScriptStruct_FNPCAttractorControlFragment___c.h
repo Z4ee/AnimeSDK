@@ -4,20 +4,20 @@
 
 namespace UnrealTypes { class ICppStructOps; }
 
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_FNPCATTRACTORCONTROLFRAGMENT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xE8AB950)
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_FNPCATTRACTORCONTROLFRAGMENT___C__CTOR_OFFSET UNITYSDK_OFFSET(0xE8AB990)
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_FNPCATTRACTORCONTROLFRAGMENT___C___CCTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0xE8AB9A0)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_FNPCATTRACTORCONTROLFRAGMENT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1127A8B0)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_FNPCATTRACTORCONTROLFRAGMENT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1127A8F0)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_FNPCATTRACTORCONTROLFRAGMENT___C___CCTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0x1127A900)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_FNPCAttractorControlFragment___c_TypeDefinitionIndex = 76438;
+	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_FNPCAttractorControlFragment___c_TypeDefinitionIndex = 79262;
 
 	class RegistrationInfo_ScriptStruct_FNPCAttractorControlFragment___c : public ::System::Object
 	{
 	public:
 		static ::NPCCrowd::Ability::RegistrationInfo_ScriptStruct_FNPCAttractorControlFragment___c** StaticGet___9()
 		{
-			return (::NPCCrowd::Ability::RegistrationInfo_ScriptStruct_FNPCAttractorControlFragment___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_FNPCAttractorControlFragment___c_TypeDefinitionIndex)->GetStaticField(0x3AA10);
+			return (::NPCCrowd::Ability::RegistrationInfo_ScriptStruct_FNPCAttractorControlFragment___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_FNPCAttractorControlFragment___c_TypeDefinitionIndex)->GetStaticField(0x3D850);
 		}
 
 		static ::System::Void _cctor()

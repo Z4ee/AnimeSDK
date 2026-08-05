@@ -6,11 +6,11 @@ namespace MoleMole::Config { class ConfigShootingGround; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGSHOOTINGGROUNDSCRIPTABLEOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x18F39130)
+#define MOLEMOLE_CONFIG_CONFIGSHOOTINGGROUNDSCRIPTABLEOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x16262650)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigShootingGroundScriptableObject_TypeDefinitionIndex = 69643;
+	inline static constexpr unsigned int ConfigShootingGroundScriptableObject_TypeDefinitionIndex = 44434;
 
 	class ConfigShootingGroundScriptableObject : public ::Foundation::MihoyoSerializedScriptableObject
 	{

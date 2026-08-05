@@ -6,11 +6,11 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Object; }
 
-#define BEHAVIORDESIGNER_RUNTIME_FIELDSERIALIZATIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4A4900)
+#define BEHAVIORDESIGNER_RUNTIME_FIELDSERIALIZATIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1E858D20)
 
 namespace BehaviorDesigner::Runtime
 {
-	inline static constexpr unsigned int FieldSerializationData_TypeDefinitionIndex = 33263;
+	inline static constexpr unsigned int FieldSerializationData_TypeDefinitionIndex = 33899;
 
 	class FieldSerializationData : public ::System::Object
 	{

@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIABStandbyPhaseWidgetController___c__DisplayClass43_0; }
 
-#define MOLEMOLE_UIABSTANDBYPHASEWIDGETCONTROLLER___C__DISPLAYCLASS43_2__BINDVIEW_B__12_OFFSET UNITYSDK_OFFSET(0x17413910)
-#define MOLEMOLE_UIABSTANDBYPHASEWIDGETCONTROLLER___C__DISPLAYCLASS43_2__CTOR_OFFSET UNITYSDK_OFFSET(0x17413900)
+#define MOLEMOLE_UIABSTANDBYPHASEWIDGETCONTROLLER___C__DISPLAYCLASS43_2__BINDVIEW_B__12_OFFSET UNITYSDK_OFFSET(0x18BB1580)
+#define MOLEMOLE_UIABSTANDBYPHASEWIDGETCONTROLLER___C__DISPLAYCLASS43_2__CTOR_OFFSET UNITYSDK_OFFSET(0x18BB1570)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIABStandbyPhaseWidgetController___c__DisplayClass43_2_TypeDefinitionIndex = 86082;
+	inline static constexpr unsigned int UIABStandbyPhaseWidgetController___c__DisplayClass43_2_TypeDefinitionIndex = 45253;
 
 	class UIABStandbyPhaseWidgetController___c__DisplayClass43_2 : public ::System::Object
 	{

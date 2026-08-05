@@ -7,24 +7,24 @@ namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
 namespace System { class String; }
 namespace UnityEngine { class Animator; }
 
-#define NODECANVAS_TASKS_ACTIONS_MECANIMPLAYANIMATION_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1D53DB50)
-#define NODECANVAS_TASKS_ACTIONS_MECANIMPLAYANIMATION_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1D53DBB0)
-#define NODECANVAS_TASKS_ACTIONS_MECANIMPLAYANIMATION_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1D53DD80)
-#define NODECANVAS_TASKS_ACTIONS_MECANIMPLAYANIMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D53DF30)
+#define NODECANVAS_TASKS_ACTIONS_MECANIMPLAYANIMATION_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1E2356A0)
+#define NODECANVAS_TASKS_ACTIONS_MECANIMPLAYANIMATION_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1E235700)
+#define NODECANVAS_TASKS_ACTIONS_MECANIMPLAYANIMATION_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1E2358D0)
+#define NODECANVAS_TASKS_ACTIONS_MECANIMPLAYANIMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1E235A90)
 
 namespace NodeCanvas::Tasks::Actions
 {
-	inline static constexpr unsigned int MecanimPlayAnimation_TypeDefinitionIndex = 29929;
+	inline static constexpr unsigned int MecanimPlayAnimation_TypeDefinitionIndex = 31359;
 
 	class MecanimPlayAnimation : public ::NodeCanvas::Framework::ActionTask_1<::UnityEngine::Animator*>
 	{
 	public:
 		::NodeCanvas::Framework::BBParameter_1<::System::String*>* stateName; // 0x60
 		::NodeCanvas::Framework::BBParameter_1<::System::Int32>* layerIndex; // 0x68
-		::System::Boolean waitUntilFinish; // 0x70
-		::System::Boolean played; // 0x71
-		::UnityEngine::AnimatorStateInfo stateInfo; // 0x74
-		::System::Single transitTime; // 0x9C
+		::UnityEngine::AnimatorStateInfo stateInfo; // 0x70
+		::System::Single transitTime; // 0x98
+		::System::Boolean played; // 0x9C
+		::System::Boolean waitUntilFinish; // 0x9D
 
 		::System::Void _ctor()
 		{

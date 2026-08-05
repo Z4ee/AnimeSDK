@@ -6,7 +6,7 @@ namespace UnityEngine { class GameObject; }
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int GetComponent_1_TypeDefinitionIndex = 30617;
+	inline static constexpr unsigned int GetComponent_1_TypeDefinitionIndex = 30552;
 
 	template <typename T>
 	class GetComponent_1 : public ::FlowCanvas::Nodes::PureFunctionNode_2<T, ::UnityEngine::GameObject*>

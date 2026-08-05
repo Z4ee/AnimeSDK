@@ -4,7 +4,7 @@
 
 namespace UnityEngine::InputSystem::LowLevel
 {
-	inline static constexpr unsigned int IEventMerger_TypeDefinitionIndex = 31876;
+	inline static constexpr unsigned int IEventMerger_TypeDefinitionIndex = 32496;
 
 	class IEventMerger
 	{

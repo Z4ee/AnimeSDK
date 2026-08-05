@@ -4,10 +4,10 @@
 
 namespace Foundation { class IRenderElement; }
 
-#define CLASS_1_ED9F3D62EB1C9461_COMPARE_OFFSET UNITYSDK_OFFSET(0x1DB76690)
-#define CLASS_1_ED9F3D62EB1C9461__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB76880)
+#define CLASS_1_ED9F3D62EB1C9461_COMPARE_OFFSET UNITYSDK_OFFSET(0x1F9EEFB0)
+#define CLASS_1_ED9F3D62EB1C9461__CTOR_OFFSET UNITYSDK_OFFSET(0x1F9EF1A0)
 
-inline static constexpr unsigned int Class_1_ED9F3D62EB1C9461_TypeDefinitionIndex = 89429;
+inline static constexpr unsigned int Class_1_ED9F3D62EB1C9461_TypeDefinitionIndex = 93227;
 
 class Class_1_ED9F3D62EB1C9461 : public ::System::Object
 {

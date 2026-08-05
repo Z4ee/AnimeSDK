@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FlowCanvas/Nodes/PureFunctionNode_1.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_BABELTOWER_GETCURFLOORINDEX_INVOKE_OFFSET UNITYSDK_OFFSET(0x1581F260)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_BABELTOWER_GETCURFLOORINDEX__CTOR_OFFSET UNITYSDK_OFFSET(0x1581F380)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_BABELTOWER_GETCURFLOORINDEX_INVOKE_OFFSET UNITYSDK_OFFSET(0x1299E530)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_BABELTOWER_GETCURFLOORINDEX__CTOR_OFFSET UNITYSDK_OFFSET(0x1299E650)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_BabelTower_GetCurFloorIndex_TypeDefinitionIndex = 85545;
+	inline static constexpr unsigned int LD_BabelTower_GetCurFloorIndex_TypeDefinitionIndex = 78813;
 
 	class LD_BabelTower_GetCurFloorIndex : public ::FlowCanvas::Nodes::PureFunctionNode_1<::System::Int32>
 	{

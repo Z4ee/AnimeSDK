@@ -5,19 +5,19 @@
 
 namespace MoleMole::FlowCanvas::Nodes { class LDCurveMove; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCURVEMOVE___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0x12BB1470)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCURVEMOVE___C__DISPLAYCLASS17_0__INTERNALCOROUTINE_B__0_OFFSET UNITYSDK_OFFSET(0x12BB1480)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCURVEMOVE___C__DISPLAYCLASS17_0__INTERNALCOROUTINE_G__FINISH_1_OFFSET UNITYSDK_OFFSET(0x12BB14D0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCURVEMOVE___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0x138329A0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCURVEMOVE___C__DISPLAYCLASS17_0__INTERNALCOROUTINE_B__0_OFFSET UNITYSDK_OFFSET(0x138329B0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCURVEMOVE___C__DISPLAYCLASS17_0__INTERNALCOROUTINE_G__FINISH_1_OFFSET UNITYSDK_OFFSET(0x13832A00)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDCurveMove___c__DisplayClass17_0_TypeDefinitionIndex = 79096;
+	inline static constexpr unsigned int LDCurveMove___c__DisplayClass17_0_TypeDefinitionIndex = 78882;
 
 	class LDCurveMove___c__DisplayClass17_0 : public ::System::Object
 	{
 	public:
-		::FlowCanvas::Flow f; // 0x10
-		::MoleMole::FlowCanvas::Nodes::LDCurveMove* __4__this; // 0x38
+		::MoleMole::FlowCanvas::Nodes::LDCurveMove* __4__this; // 0x10
+		::FlowCanvas::Flow f; // 0x18
 
 		::System::Void _ctor()
 		{

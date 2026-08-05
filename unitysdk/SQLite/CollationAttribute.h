@@ -4,13 +4,13 @@
 
 namespace System { class String; }
 
-#define SQLITE_COLLATIONATTRIBUTE_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1D6325A0)
-#define SQLITE_COLLATIONATTRIBUTE_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x1D6325B0)
-#define SQLITE_COLLATIONATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6325C0)
+#define SQLITE_COLLATIONATTRIBUTE_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1E9FA560)
+#define SQLITE_COLLATIONATTRIBUTE_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x1E9FA570)
+#define SQLITE_COLLATIONATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E9FA580)
 
 namespace SQLite
 {
-	inline static constexpr unsigned int CollationAttribute_TypeDefinitionIndex = 38388;
+	inline static constexpr unsigned int CollationAttribute_TypeDefinitionIndex = 39049;
 
 	class CollationAttribute : public ::System::Attribute
 	{

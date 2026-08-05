@@ -12,25 +12,25 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace UnityEngine { class ComputeShader; }
 namespace UnityEngine::NAPRenderPipeline0 { class ProfilingSampler; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_GPUBOIDUPDATEPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1AF54F80)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_GPUBOIDUPDATEPASS_SETUP_OFFSET UNITYSDK_OFFSET(0x1AF54D30)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_GPUBOIDUPDATEPASS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AF55040)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_GPUBOIDUPDATEPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF54BE0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_GPUBOIDUPDATEPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1BC5B9C0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_GPUBOIDUPDATEPASS_SETUP_OFFSET UNITYSDK_OFFSET(0x1BC5B770)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_GPUBOIDUPDATEPASS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BC5BA80)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_GPUBOIDUPDATEPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC5B620)
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int GpuBoidUpdatePass_TypeDefinitionIndex = 26326;
+	inline static constexpr unsigned int GpuBoidUpdatePass_TypeDefinitionIndex = 27225;
 
 	class GpuBoidUpdatePass : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 	{
 	public:
 		static ::System::Boolean* StaticGet_s_GPUBoidActive()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(GpuBoidUpdatePass_TypeDefinitionIndex)->GetStaticField(0x5250);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(GpuBoidUpdatePass_TypeDefinitionIndex)->GetStaticField(0x50B0);
 		}
 		::UnityEngine::ComputeShader* m_GpuBoidCS; // 0xA8
-		::System::String* m_ProfilerTag; // 0xB0
-		::UnityEngine::NAPRenderPipeline0::ProfilingSampler* m_ProfilingSampler; // 0xB8
+		::UnityEngine::NAPRenderPipeline0::ProfilingSampler* m_ProfilingSampler; // 0xB0
+		::System::String* m_ProfilerTag; // 0xB8
 		::System::Boolean m_IsPreviewOrUIOrReflectionCamera; // 0xC0
 
 		::System::Void _ctor(::System::String* profilerTag, ::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::NAPRenderPipeline0::RenderPassEvent>* renderPassEventsConfig, ::UnityEngine::ComputeShader* gpuBoidCS)

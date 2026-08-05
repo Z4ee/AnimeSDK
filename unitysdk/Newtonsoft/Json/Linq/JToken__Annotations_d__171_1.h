@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace Newtonsoft::Json::Linq
 {
-	inline static constexpr unsigned int JToken__Annotations_d__171_1_TypeDefinitionIndex = 7189;
+	inline static constexpr unsigned int JToken__Annotations_d__171_1_TypeDefinitionIndex = 7193;
 
 	template <typename T>
 	class JToken__Annotations_d__171_1 : public ::System::Object

@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRidusGotBooPageController_InputPeriod_TypeDefinitionIndex = 40717;
+	inline static constexpr unsigned int UIRidusGotBooPageController_InputPeriod_TypeDefinitionIndex = 91538;
 
 	enum class UIRidusGotBooPageController_InputPeriod : ::System::Int32
 	{

@@ -4,11 +4,11 @@
 
 namespace MoleMole::Config { class ConfigShaderCustomFogItem; }
 
-#define MOLEMOLE_CONFIG_CONFIGSHADERCUSTOMFOGMAP__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA60A30)
+#define MOLEMOLE_CONFIG_CONFIGSHADERCUSTOMFOGMAP__CTOR_OFFSET UNITYSDK_OFFSET(0x1C462510)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigShaderCustomFogMap_TypeDefinitionIndex = 67461;
+	inline static constexpr unsigned int ConfigShaderCustomFogMap_TypeDefinitionIndex = 82734;
 
 	class ConfigShaderCustomFogMap : public ::MoleMole::Config::ConfigShaderCustomBaseMap_1<::MoleMole::Config::ConfigShaderCustomFogItem*>
 	{

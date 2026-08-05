@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int HollowCameraAutoKey_TypeDefinitionIndex = 56439;
+	inline static constexpr unsigned int HollowCameraAutoKey_TypeDefinitionIndex = 66897;
 
 	struct alignas(8) HollowCameraAutoKey
 	{

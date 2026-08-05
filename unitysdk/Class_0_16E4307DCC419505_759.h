@@ -1,11 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/Enum_3_0A9AE66EF2B76936.h"
+#include "unitysdk/Foundation/ViewObject/ViewObjectHandle.h"
 
-namespace UnityEngine { class Material; }
+inline static constexpr unsigned int Class_0_16E4307DCC419505_759_TypeDefinitionIndex = 76568;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_759_TypeDefinitionIndex = 77628;
-
-template <typename T>
 class Class_0_16E4307DCC419505_759
 {
 public:

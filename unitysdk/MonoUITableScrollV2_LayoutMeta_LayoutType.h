@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int MonoUITableScrollV2_LayoutMeta_LayoutType_TypeDefinitionIndex = 69953;
+inline static constexpr unsigned int MonoUITableScrollV2_LayoutMeta_LayoutType_TypeDefinitionIndex = 75005;
 
 enum class MonoUITableScrollV2_LayoutMeta_LayoutType : ::System::Int32
 {

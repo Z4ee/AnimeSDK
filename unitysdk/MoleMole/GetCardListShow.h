@@ -5,13 +5,13 @@
 class Class_1_0D6706375CDAAE8C;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_GETCARDLISTSHOW_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x15826C80)
-#define MOLEMOLE_GETCARDLISTSHOW_ONPROCESS_OFFSET UNITYSDK_OFFSET(0x15826CD0)
-#define MOLEMOLE_GETCARDLISTSHOW__CTOR_OFFSET UNITYSDK_OFFSET(0x15826C90)
+#define MOLEMOLE_GETCARDLISTSHOW_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x129A75A0)
+#define MOLEMOLE_GETCARDLISTSHOW_ONPROCESS_OFFSET UNITYSDK_OFFSET(0x129A75F0)
+#define MOLEMOLE_GETCARDLISTSHOW__CTOR_OFFSET UNITYSDK_OFFSET(0x129A75B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int GetCardListShow_TypeDefinitionIndex = 63480;
+	inline static constexpr unsigned int GetCardListShow_TypeDefinitionIndex = 42410;
 
 	class GetCardListShow : public ::MoleMole::DisplayMessageBase
 	{

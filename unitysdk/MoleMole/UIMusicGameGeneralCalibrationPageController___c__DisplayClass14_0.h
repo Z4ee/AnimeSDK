@@ -5,22 +5,22 @@
 namespace MoleMole { class UIMusicGameGeneralCalibrationPageController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIMUSICGAMEGENERALCALIBRATIONPAGECONTROLLER___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15DBAD00)
-#define MOLEMOLE_UIMUSICGAMEGENERALCALIBRATIONPAGECONTROLLER___C__DISPLAYCLASS14_0__SWITCHSTAGE_B__0_OFFSET UNITYSDK_OFFSET(0x15DBAD10)
-#define MOLEMOLE_UIMUSICGAMEGENERALCALIBRATIONPAGECONTROLLER___C__DISPLAYCLASS14_0__SWITCHSTAGE_B__1_OFFSET UNITYSDK_OFFSET(0x15DBADB0)
-#define MOLEMOLE_UIMUSICGAMEGENERALCALIBRATIONPAGECONTROLLER___C__DISPLAYCLASS14_0__SWITCHSTAGE_B__2_OFFSET UNITYSDK_OFFSET(0x15DBAF40)
+#define MOLEMOLE_UIMUSICGAMEGENERALCALIBRATIONPAGECONTROLLER___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1867B400)
+#define MOLEMOLE_UIMUSICGAMEGENERALCALIBRATIONPAGECONTROLLER___C__DISPLAYCLASS14_0__SWITCHSTAGE_B__0_OFFSET UNITYSDK_OFFSET(0x1867B410)
+#define MOLEMOLE_UIMUSICGAMEGENERALCALIBRATIONPAGECONTROLLER___C__DISPLAYCLASS14_0__SWITCHSTAGE_B__1_OFFSET UNITYSDK_OFFSET(0x1867B4B0)
+#define MOLEMOLE_UIMUSICGAMEGENERALCALIBRATIONPAGECONTROLLER___C__DISPLAYCLASS14_0__SWITCHSTAGE_B__2_OFFSET UNITYSDK_OFFSET(0x1867B640)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMusicGameGeneralCalibrationPageController___c__DisplayClass14_0_TypeDefinitionIndex = 51308;
+	inline static constexpr unsigned int UIMusicGameGeneralCalibrationPageController___c__DisplayClass14_0_TypeDefinitionIndex = 87792;
 
 	class UIMusicGameGeneralCalibrationPageController___c__DisplayClass14_0 : public ::System::Object
 	{
 	public:
-		::System::Action* onCompletelyBlackCallback; // 0x10
-		::System::Action* __9__2; // 0x18
+		::System::Action* __9__2; // 0x10
+		::System::Action* __9__1; // 0x18
 		::MoleMole::UIMusicGameGeneralCalibrationPageController* __4__this; // 0x20
-		::System::Action* __9__1; // 0x28
+		::System::Action* onCompletelyBlackCallback; // 0x28
 
 		::System::Void _ctor()
 		{

@@ -4,11 +4,11 @@
 #include "unitysdk/StateTreeGameplay/StateTreeCommonConditionBase.h"
 #include "unitysdk/System/Object.h"
 
-#define STATETREEGAMEPLAY_VIRTUALFUNCTIONEXTENSIONS_STATETREECOMMONCONDITIONBASE_TESTCONDITION_OFFSET UNITYSDK_OFFSET(0x143B8280)
+#define STATETREEGAMEPLAY_VIRTUALFUNCTIONEXTENSIONS_STATETREECOMMONCONDITIONBASE_TESTCONDITION_OFFSET UNITYSDK_OFFSET(0x18B49D40)
 
 namespace StateTreeGameplay
 {
-	inline static constexpr unsigned int VirtualFunctionExtensions_StateTreeCommonConditionBase_TypeDefinitionIndex = 85188;
+	inline static constexpr unsigned int VirtualFunctionExtensions_StateTreeCommonConditionBase_TypeDefinitionIndex = 65444;
 
 	class VirtualFunctionExtensions_StateTreeCommonConditionBase : public ::System::Object
 	{

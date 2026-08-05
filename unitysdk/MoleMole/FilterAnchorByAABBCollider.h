@@ -9,21 +9,21 @@
 namespace MoleMole { class SharedGameEntity; }
 namespace MoleMole { class SharedStrList; }
 
-#define MOLEMOLE_FILTERANCHORBYAABBCOLLIDER_CREATEBOUNDS_OFFSET UNITYSDK_OFFSET(0x182C91C0)
-#define MOLEMOLE_FILTERANCHORBYAABBCOLLIDER_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x182C88A0)
-#define MOLEMOLE_FILTERANCHORBYAABBCOLLIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x182C94F0)
-#define MOLEMOLE_FILTERANCHORBYAABBCOLLIDER___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x182C9580)
+#define MOLEMOLE_FILTERANCHORBYAABBCOLLIDER_CREATEBOUNDS_OFFSET UNITYSDK_OFFSET(0x19B00840)
+#define MOLEMOLE_FILTERANCHORBYAABBCOLLIDER_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x19AFFF20)
+#define MOLEMOLE_FILTERANCHORBYAABBCOLLIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x19B00BC0)
+#define MOLEMOLE_FILTERANCHORBYAABBCOLLIDER___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x19B00C50)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int FilterAnchorByAABBCollider_TypeDefinitionIndex = 62386;
+	inline static constexpr unsigned int FilterAnchorByAABBCollider_TypeDefinitionIndex = 48774;
 
 	class FilterAnchorByAABBCollider : public ::BehaviorDesigner::Runtime::Tasks::Action
 	{
 	public:
-		::MoleMole::SharedStrList* OutList; // 0x58
+		::MoleMole::SharedStrList* AnchorList; // 0x58
 		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x60
-		::MoleMole::SharedStrList* AnchorList; // 0x68
+		::MoleMole::SharedStrList* OutList; // 0x68
 		::UnityEngine::Vector3 PresetAnchorSize; // 0x70
 		::UnityEngine::Vector3 PresetOwnerSize; // 0x7C
 

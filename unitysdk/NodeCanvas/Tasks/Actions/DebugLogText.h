@@ -9,25 +9,25 @@ namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define NODECANVAS_TASKS_ACTIONS_DEBUGLOGTEXT_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1CC48AF0)
-#define NODECANVAS_TASKS_ACTIONS_DEBUGLOGTEXT_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1CC48BA0)
-#define NODECANVAS_TASKS_ACTIONS_DEBUGLOGTEXT_ONGUI_OFFSET UNITYSDK_OFFSET(0x1CC48F90)
-#define NODECANVAS_TASKS_ACTIONS_DEBUGLOGTEXT_ONSTOP_OFFSET UNITYSDK_OFFSET(0x1CC48E40)
-#define NODECANVAS_TASKS_ACTIONS_DEBUGLOGTEXT_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1CC48F40)
-#define NODECANVAS_TASKS_ACTIONS_DEBUGLOGTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC494D0)
+#define NODECANVAS_TASKS_ACTIONS_DEBUGLOGTEXT_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1DFDDDC0)
+#define NODECANVAS_TASKS_ACTIONS_DEBUGLOGTEXT_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1DFDDE70)
+#define NODECANVAS_TASKS_ACTIONS_DEBUGLOGTEXT_ONGUI_OFFSET UNITYSDK_OFFSET(0x1DFDE260)
+#define NODECANVAS_TASKS_ACTIONS_DEBUGLOGTEXT_ONSTOP_OFFSET UNITYSDK_OFFSET(0x1DFDE110)
+#define NODECANVAS_TASKS_ACTIONS_DEBUGLOGTEXT_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1DFDE210)
+#define NODECANVAS_TASKS_ACTIONS_DEBUGLOGTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1DFDE7A0)
 
 namespace NodeCanvas::Tasks::Actions
 {
-	inline static constexpr unsigned int DebugLogText_TypeDefinitionIndex = 30298;
+	inline static constexpr unsigned int DebugLogText_TypeDefinitionIndex = 29975;
 
 	class DebugLogText : public ::NodeCanvas::Framework::ActionTask_1<::UnityEngine::Transform*>
 	{
 	public:
 		::NodeCanvas::Framework::BBParameter_1<::System::String*>* log; // 0x60
-		::NodeCanvas::Tasks::Actions::DebugLogText_VerboseMode verboseMode; // 0x68
-		::NodeCanvas::Tasks::Actions::DebugLogText_LogMode logMode; // 0x6C
-		::System::Single labelYOffset; // 0x70
-		::System::Single secondsToRun; // 0x74
+		::System::Single secondsToRun; // 0x68
+		::System::Single labelYOffset; // 0x6C
+		::NodeCanvas::Tasks::Actions::DebugLogText_VerboseMode verboseMode; // 0x70
+		::NodeCanvas::Tasks::Actions::DebugLogText_LogMode logMode; // 0x74
 		::ParadoxNotion::CompactStatus finishStatus; // 0x78
 
 		::System::Void _ctor()

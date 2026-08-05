@@ -5,12 +5,12 @@
 namespace Sirenix::OdinInspector { template <typename T> class ValueDropdownList_1; }
 namespace System { class String; }
 
-#define MOLEMOLE_TIMELINEDATAEXTRA___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x191959C0)
-#define MOLEMOLE_TIMELINEDATAEXTRA___C__DISPLAYCLASS7_0__GETIDS_B__0_OFFSET UNITYSDK_OFFSET(0x191959D0)
+#define MOLEMOLE_TIMELINEDATAEXTRA___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6CD310)
+#define MOLEMOLE_TIMELINEDATAEXTRA___C__DISPLAYCLASS7_0__GETIDS_B__0_OFFSET UNITYSDK_OFFSET(0x1B6CD320)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int TimelineDataExtra___c__DisplayClass7_0_TypeDefinitionIndex = 64268;
+	inline static constexpr unsigned int TimelineDataExtra___c__DisplayClass7_0_TypeDefinitionIndex = 85140;
 
 	class TimelineDataExtra___c__DisplayClass7_0 : public ::System::Object
 	{

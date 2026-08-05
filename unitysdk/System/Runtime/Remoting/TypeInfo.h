@@ -5,8 +5,8 @@
 namespace System { class String; }
 namespace System { class Type; }
 
-#define SYSTEM_RUNTIME_REMOTING_TYPEINFO_GET_TYPENAME_OFFSET UNITYSDK_OFFSET(0x1B8AFD80)
-#define SYSTEM_RUNTIME_REMOTING_TYPEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8AEE80)
+#define SYSTEM_RUNTIME_REMOTING_TYPEINFO_GET_TYPENAME_OFFSET UNITYSDK_OFFSET(0x1CCBCB80)
+#define SYSTEM_RUNTIME_REMOTING_TYPEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1CCBBC70)
 
 namespace System::Runtime::Remoting
 {
@@ -15,9 +15,9 @@ namespace System::Runtime::Remoting
 	class TypeInfo : public ::System::Object
 	{
 	public:
-		::System::String* serverType; // 0x10
-		::Il2CppArray<::System::String*>* serverHierarchy; // 0x18
-		::Il2CppArray<::System::String*>* interfacesImplemented; // 0x20
+		::Il2CppArray<::System::String*>* interfacesImplemented; // 0x10
+		::System::String* serverType; // 0x18
+		::Il2CppArray<::System::String*>* serverHierarchy; // 0x20
 
 		::System::Void _ctor(::System::Type* type)
 		{

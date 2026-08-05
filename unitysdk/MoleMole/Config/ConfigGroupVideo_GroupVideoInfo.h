@@ -5,11 +5,11 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGGROUPVIDEO_GROUPVIDEOINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x144E06D0)
+#define MOLEMOLE_CONFIG_CONFIGGROUPVIDEO_GROUPVIDEOINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD5D250)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigGroupVideo_GroupVideoInfo_TypeDefinitionIndex = 40620;
+	inline static constexpr unsigned int ConfigGroupVideo_GroupVideoInfo_TypeDefinitionIndex = 62213;
 
 	class ConfigGroupVideo_GroupVideoInfo : public ::System::Object
 	{

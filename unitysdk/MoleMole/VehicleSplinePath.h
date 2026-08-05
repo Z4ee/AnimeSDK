@@ -4,11 +4,11 @@
 
 namespace MoleMole { class VehicleSplineSegment; }
 
-#define MOLEMOLE_VEHICLESPLINEPATH__CTOR_OFFSET UNITYSDK_OFFSET(0x12A2B420)
+#define MOLEMOLE_VEHICLESPLINEPATH__CTOR_OFFSET UNITYSDK_OFFSET(0x1353A370)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int VehicleSplinePath_TypeDefinitionIndex = 65040;
+	inline static constexpr unsigned int VehicleSplinePath_TypeDefinitionIndex = 78081;
 
 	class VehicleSplinePath : public ::UnityEngine::MonoBehaviour
 	{

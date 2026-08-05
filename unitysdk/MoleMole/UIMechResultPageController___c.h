@@ -5,20 +5,20 @@
 class Class_1_0D6706375CDAAE8C;
 class Class_1_1685EC66FBD28897;
 
-#define MOLEMOLE_UIMECHRESULTPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x16E9ADD0)
-#define MOLEMOLE_UIMECHRESULTPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x16E9AE10)
-#define MOLEMOLE_UIMECHRESULTPAGECONTROLLER___C__REFRESHREWARDVIEW_G__INTO_5_0_OFFSET UNITYSDK_OFFSET(0x16E9AE20)
+#define MOLEMOLE_UIMECHRESULTPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17DF87E0)
+#define MOLEMOLE_UIMECHRESULTPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17DF8820)
+#define MOLEMOLE_UIMECHRESULTPAGECONTROLLER___C__REFRESHREWARDVIEW_G__INTO_5_0_OFFSET UNITYSDK_OFFSET(0x17DF8830)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMechResultPageController___c_TypeDefinitionIndex = 80319;
+	inline static constexpr unsigned int UIMechResultPageController___c_TypeDefinitionIndex = 41197;
 
 	class UIMechResultPageController___c : public ::System::Object
 	{
 	public:
 		static ::MoleMole::UIMechResultPageController___c** StaticGet___9()
 		{
-			return (::MoleMole::UIMechResultPageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIMechResultPageController___c_TypeDefinitionIndex)->GetStaticField(0x30F30);
+			return (::MoleMole::UIMechResultPageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIMechResultPageController___c_TypeDefinitionIndex)->GetStaticField(0x330D0);
 		}
 
 		static ::System::Void _cctor()

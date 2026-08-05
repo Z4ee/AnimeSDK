@@ -4,19 +4,19 @@
 
 namespace MoleMole { class UIInLevelRemielleSupportAttackButtonController; }
 
-#define MOLEMOLE_UIINLEVELREMIELLESUPPORTATTACKBUTTONCONTROLLER___C__DISPLAYCLASS20_0__CLOSECOMMONBUTTON_B__0_OFFSET UNITYSDK_OFFSET(0x146B3B10)
-#define MOLEMOLE_UIINLEVELREMIELLESUPPORTATTACKBUTTONCONTROLLER___C__DISPLAYCLASS20_0__CTOR_OFFSET UNITYSDK_OFFSET(0x146B3B00)
+#define MOLEMOLE_UIINLEVELREMIELLESUPPORTATTACKBUTTONCONTROLLER___C__DISPLAYCLASS20_0__CLOSECOMMONBUTTON_B__0_OFFSET UNITYSDK_OFFSET(0x164EB5E0)
+#define MOLEMOLE_UIINLEVELREMIELLESUPPORTATTACKBUTTONCONTROLLER___C__DISPLAYCLASS20_0__CTOR_OFFSET UNITYSDK_OFFSET(0x164EB5D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInLevelRemielleSupportAttackButtonController___c__DisplayClass20_0_TypeDefinitionIndex = 70204;
+	inline static constexpr unsigned int UIInLevelRemielleSupportAttackButtonController___c__DisplayClass20_0_TypeDefinitionIndex = 41012;
 
 	class UIInLevelRemielleSupportAttackButtonController___c__DisplayClass20_0 : public ::System::Object
 	{
 	public:
 		::MoleMole::UIInLevelRemielleSupportAttackButtonController* __4__this; // 0x10
-		::System::Boolean checkCache; // 0x18
-		::System::Boolean ignoreAnim; // 0x19
+		::System::Boolean ignoreAnim; // 0x18
+		::System::Boolean checkCache; // 0x19
 
 		::System::Void _ctor()
 		{

@@ -1,0 +1,35 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_2_208CC9941471731A_462;
+class Class_3_88D140F5E09465E1_2;
+namespace MoleMole { class UILineupSelectContext; }
+
+#define CLASS_2_15B27E259D99036B_CLASS_1_80E744AC6D09BF53_METHOD_1_797B0DC3D00A8877_OFFSET UNITYSDK_OFFSET(0x126E5A30)
+#define CLASS_2_15B27E259D99036B_CLASS_1_80E744AC6D09BF53_METHOD_1_FA7C50AAE8AD1CF8_OFFSET UNITYSDK_OFFSET(0x126E58D0)
+#define CLASS_2_15B27E259D99036B_CLASS_1_80E744AC6D09BF53__CTOR_OFFSET UNITYSDK_OFFSET(0x126E58C0)
+
+inline static constexpr unsigned int Class_2_15B27E259D99036B_Class_1_80E744AC6D09BF53_TypeDefinitionIndex = 43448;
+
+class Class_2_15B27E259D99036B_Class_1_80E744AC6D09BF53 : public ::System::Object
+{
+public:
+	::Class_2_208CC9941471731A_462* Field_1_0; // 0x10
+	::MoleMole::UILineupSelectContext* Field_1_7; // 0x18
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_15B27E259D99036B_CLASS_1_80E744AC6D09BF53__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_1_FA7C50AAE8AD1CF8(::Class_3_88D140F5E09465E1_2* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_3_88D140F5E09465E1_2*))((::PBYTE)hIl2Cpp + CLASS_2_15B27E259D99036B_CLASS_1_80E744AC6D09BF53_METHOD_1_FA7C50AAE8AD1CF8_OFFSET))(this, a1);
+	}
+
+	::System::Boolean Method_1_797B0DC3D00A8877(::System::Int32 a1)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_2_15B27E259D99036B_CLASS_1_80E744AC6D09BF53_METHOD_1_797B0DC3D00A8877_OFFSET))(this, a1);
+	}
+};

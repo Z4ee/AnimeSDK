@@ -8,22 +8,22 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_BD6D8F4F4FA3C8FC_METHOD_1_367B9590522079D1_OFFSET UNITYSDK_OFFSET(0x17498B60)
-#define CLASS_1_BD6D8F4F4FA3C8FC_METHOD_1_BE58C98ED0702F10_OFFSET UNITYSDK_OFFSET(0x17498DB0)
-#define CLASS_1_BD6D8F4F4FA3C8FC_METHOD_1_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0x174989F0)
-#define CLASS_1_BD6D8F4F4FA3C8FC_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x174989B0)
-#define CLASS_1_BD6D8F4F4FA3C8FC__CTOR_OFFSET UNITYSDK_OFFSET(0x17498A30)
+#define CLASS_1_BD6D8F4F4FA3C8FC_METHOD_1_367B9590522079D1_OFFSET UNITYSDK_OFFSET(0x1614F8C0)
+#define CLASS_1_BD6D8F4F4FA3C8FC_METHOD_1_57DA8B662A133075_OFFSET UNITYSDK_OFFSET(0x1614FB10)
+#define CLASS_1_BD6D8F4F4FA3C8FC_METHOD_1_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0x1614F750)
+#define CLASS_1_BD6D8F4F4FA3C8FC_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x1614F710)
+#define CLASS_1_BD6D8F4F4FA3C8FC__CTOR_OFFSET UNITYSDK_OFFSET(0x1614F790)
 
-inline static constexpr unsigned int Class_1_BD6D8F4F4FA3C8FC_TypeDefinitionIndex = 86669;
+inline static constexpr unsigned int Class_1_BD6D8F4F4FA3C8FC_TypeDefinitionIndex = 89630;
 
 class Class_1_BD6D8F4F4FA3C8FC : public ::System::Object
 {
 public:
-	::System::Collections::Generic::HashSet_1<::System::UInt32>* Field_1_4; // 0x10
-	::System::Collections::Generic::Dictionary_2<::System::Int32, ::Class_1_0A0B50D6899733CD*>* Field_1_0; // 0x18
-	::System::Collections::Generic::Dictionary_2<::System::Int32, ::Class_1_5FB2F93A997B7BFE*>* Field_1_1; // 0x20
-	::System::Int32 Field_1_3; // 0x28
-	::System::Boolean Field_1_2; // 0x2C
+	::System::Collections::Generic::Dictionary_2<::System::Int32, ::Class_1_5FB2F93A997B7BFE*>* Field_1_2; // 0x10
+	::System::Collections::Generic::Dictionary_2<::System::Int32, ::Class_1_0A0B50D6899733CD*>* Field_1_3; // 0x18
+	::System::Collections::Generic::HashSet_1<::System::UInt32>* Field_1_7; // 0x20
+	::System::Int32 Field_1_0; // 0x28
+	::System::Boolean Field_1_1; // 0x2C
 
 	::System::Void _ctor()
 	{
@@ -45,8 +45,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_BD6D8F4F4FA3C8FC_METHOD_1_367B9590522079D1_OFFSET))(this);
 	}
 
-	::System::Collections::Generic::List_1<::Class_1_0A0B50D6899733CD*>* Method_1_BE58C98ED0702F10()
+	::System::Collections::Generic::List_1<::Class_1_0A0B50D6899733CD*>* Method_1_57DA8B662A133075()
 	{
-		return ((::System::Collections::Generic::List_1<::Class_1_0A0B50D6899733CD*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_BD6D8F4F4FA3C8FC_METHOD_1_BE58C98ED0702F10_OFFSET))(this);
+		return ((::System::Collections::Generic::List_1<::Class_1_0A0B50D6899733CD*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_BD6D8F4F4FA3C8FC_METHOD_1_57DA8B662A133075_OFFSET))(this);
 	}
 };

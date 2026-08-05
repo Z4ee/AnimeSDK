@@ -6,60 +6,60 @@
 namespace MoleMole::Config { class ScreenEffectBool; }
 namespace MoleMole::Config { class ScreenEffectFloat; }
 
-#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENSPACEAMBIENTOCCLUSIONEFFECT_GETBILATERALUPSAMPLE_OFFSET UNITYSDK_OFFSET(0x10D03E60)
-#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENSPACEAMBIENTOCCLUSIONEFFECT_GETBLURSHARPNESS_OFFSET UNITYSDK_OFFSET(0x10D03BE0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENSPACEAMBIENTOCCLUSIONEFFECT_GETDEBUGMODE_OFFSET UNITYSDK_OFFSET(0x10D03FE0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENSPACEAMBIENTOCCLUSIONEFFECT_GETDENOISERRADIUS_OFFSET UNITYSDK_OFFSET(0x10D03D60)
-#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENSPACEAMBIENTOCCLUSIONEFFECT_GETDENOISE_OFFSET UNITYSDK_OFFSET(0x10D03CE0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENSPACEAMBIENTOCCLUSIONEFFECT_GETDIRECTIONCOUNT_OFFSET UNITYSDK_OFFSET(0x10D03F60)
-#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENSPACEAMBIENTOCCLUSIONEFFECT_GETDIRECTLIGHTINGSTRENGTH_OFFSET UNITYSDK_OFFSET(0x10D03960)
-#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENSPACEAMBIENTOCCLUSIONEFFECT_GETFULLRESOLUTION_OFFSET UNITYSDK_OFFSET(0x10D03A60)
-#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENSPACEAMBIENTOCCLUSIONEFFECT_GETGHOSTINGREDUCTION_OFFSET UNITYSDK_OFFSET(0x10D03B60)
-#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENSPACEAMBIENTOCCLUSIONEFFECT_GETINTENSITY_OFFSET UNITYSDK_OFFSET(0x10D038E0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENSPACEAMBIENTOCCLUSIONEFFECT_GETMAXIMUMRADIUSINPIXELS_OFFSET UNITYSDK_OFFSET(0x10D03EE0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENSPACEAMBIENTOCCLUSIONEFFECT_GETRADIUS_OFFSET UNITYSDK_OFFSET(0x10D039E0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENSPACEAMBIENTOCCLUSIONEFFECT_GETSAMPLECOUNT_OFFSET UNITYSDK_OFFSET(0x10D03C60)
-#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENSPACEAMBIENTOCCLUSIONEFFECT_GETSTEPCOUNT_OFFSET UNITYSDK_OFFSET(0x10D03DE0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENSPACEAMBIENTOCCLUSIONEFFECT_GETTEMPORALACCUMULATION_OFFSET UNITYSDK_OFFSET(0x10D03AE0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENSPACEAMBIENTOCCLUSIONEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x10D04060)
+#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENSPACEAMBIENTOCCLUSIONEFFECT_GETBILATERALUPSAMPLE_OFFSET UNITYSDK_OFFSET(0x11703E20)
+#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENSPACEAMBIENTOCCLUSIONEFFECT_GETBLURSHARPNESS_OFFSET UNITYSDK_OFFSET(0x11703BA0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENSPACEAMBIENTOCCLUSIONEFFECT_GETDEBUGMODE_OFFSET UNITYSDK_OFFSET(0x11703FA0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENSPACEAMBIENTOCCLUSIONEFFECT_GETDENOISERRADIUS_OFFSET UNITYSDK_OFFSET(0x11703D20)
+#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENSPACEAMBIENTOCCLUSIONEFFECT_GETDENOISE_OFFSET UNITYSDK_OFFSET(0x11703CA0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENSPACEAMBIENTOCCLUSIONEFFECT_GETDIRECTIONCOUNT_OFFSET UNITYSDK_OFFSET(0x11703F20)
+#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENSPACEAMBIENTOCCLUSIONEFFECT_GETDIRECTLIGHTINGSTRENGTH_OFFSET UNITYSDK_OFFSET(0x11703920)
+#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENSPACEAMBIENTOCCLUSIONEFFECT_GETFULLRESOLUTION_OFFSET UNITYSDK_OFFSET(0x11703A20)
+#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENSPACEAMBIENTOCCLUSIONEFFECT_GETGHOSTINGREDUCTION_OFFSET UNITYSDK_OFFSET(0x11703B20)
+#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENSPACEAMBIENTOCCLUSIONEFFECT_GETINTENSITY_OFFSET UNITYSDK_OFFSET(0x117038A0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENSPACEAMBIENTOCCLUSIONEFFECT_GETMAXIMUMRADIUSINPIXELS_OFFSET UNITYSDK_OFFSET(0x11703EA0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENSPACEAMBIENTOCCLUSIONEFFECT_GETRADIUS_OFFSET UNITYSDK_OFFSET(0x117039A0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENSPACEAMBIENTOCCLUSIONEFFECT_GETSAMPLECOUNT_OFFSET UNITYSDK_OFFSET(0x11703C20)
+#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENSPACEAMBIENTOCCLUSIONEFFECT_GETSTEPCOUNT_OFFSET UNITYSDK_OFFSET(0x11703DA0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENSPACEAMBIENTOCCLUSIONEFFECT_GETTEMPORALACCUMULATION_OFFSET UNITYSDK_OFFSET(0x11703AA0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENSPACEAMBIENTOCCLUSIONEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x11704020)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigEntityScreenSpaceAmbientOcclusionEffect_TypeDefinitionIndex = 69207;
+	inline static constexpr unsigned int ConfigEntityScreenSpaceAmbientOcclusionEffect_TypeDefinitionIndex = 50236;
 
 	class ConfigEntityScreenSpaceAmbientOcclusionEffect : public ::MoleMole::Config::ConfigEntityScreenEffectBase
 	{
 	public:
-		::MoleMole::Config::ScreenEffectBool* BilateralUpsample; // 0x40
-		::MoleMole::Config::ScreenEffectFloat* DirectLightingStrength; // 0x48
-		::MoleMole::Config::ScreenEffectFloat* BlurSharpness; // 0x50
-		::MoleMole::Config::ScreenEffectBool* Denoise; // 0x58
-		::MoleMole::Config::ScreenEffectFloat* DirectionCount; // 0x60
-		::MoleMole::Config::ScreenEffectFloat* Intensity; // 0x68
-		::MoleMole::Config::ScreenEffectFloat* SampleCount; // 0x70
-		::MoleMole::Config::ScreenEffectBool* DebugMode; // 0x78
-		::MoleMole::Config::ScreenEffectBool* FullResolution; // 0x80
-		::MoleMole::Config::ScreenEffectFloat* Radius; // 0x88
-		::MoleMole::Config::ScreenEffectBool* TemporalAccumulation; // 0x90
-		::MoleMole::Config::ScreenEffectFloat* StepCount; // 0x98
-		::MoleMole::Config::ScreenEffectFloat* GhostingReduction; // 0xA0
-		::MoleMole::Config::ScreenEffectFloat* DenoiserRadius; // 0xA8
-		::MoleMole::Config::ScreenEffectFloat* MaximumRadiusInPixels; // 0xB0
-		::MoleMole::Config::ScreenEffectFieldHandleType TemporalAccumulationHandleType; // 0xB8
-		::MoleMole::Config::ScreenEffectFieldHandleType DirectionCountHandleType; // 0xBC
-		::MoleMole::Config::ScreenEffectFieldHandleType SampleCountHandleType; // 0xC0
-		::MoleMole::Config::ScreenEffectFieldHandleType GhostingReductionHandleType; // 0xC4
-		::MoleMole::Config::ScreenEffectFieldHandleType StepCountHandleType; // 0xC8
-		::MoleMole::Config::ScreenEffectFieldHandleType IntensityHandleType; // 0xCC
-		::MoleMole::Config::ScreenEffectFieldHandleType DenoiserRadiusHandleType; // 0xD0
-		::MoleMole::Config::ScreenEffectFieldHandleType DirectLightingStrengthHandleType; // 0xD4
-		::MoleMole::Config::ScreenEffectFieldHandleType FullResolutionHandleType; // 0xD8
-		::MoleMole::Config::ScreenEffectFieldHandleType DebugModeHandleType; // 0xDC
-		::MoleMole::Config::ScreenEffectFieldHandleType DenoiseHandleType; // 0xE0
-		::MoleMole::Config::ScreenEffectFieldHandleType MaximumRadiusInPixelsHandleType; // 0xE4
-		::MoleMole::Config::ScreenEffectFieldHandleType BlurSharpnessHandleType; // 0xE8
-		::MoleMole::Config::ScreenEffectFieldHandleType BilateralUpsampleHandleType; // 0xEC
-		::MoleMole::Config::ScreenEffectFieldHandleType RadiusHandleType; // 0xF0
+		::MoleMole::Config::ScreenEffectFloat* MaximumRadiusInPixels; // 0x40
+		::MoleMole::Config::ScreenEffectBool* DebugMode; // 0x48
+		::MoleMole::Config::ScreenEffectBool* TemporalAccumulation; // 0x50
+		::MoleMole::Config::ScreenEffectBool* FullResolution; // 0x58
+		::MoleMole::Config::ScreenEffectFloat* StepCount; // 0x60
+		::MoleMole::Config::ScreenEffectFloat* DirectionCount; // 0x68
+		::MoleMole::Config::ScreenEffectFloat* GhostingReduction; // 0x70
+		::MoleMole::Config::ScreenEffectFloat* SampleCount; // 0x78
+		::MoleMole::Config::ScreenEffectFloat* DenoiserRadius; // 0x80
+		::MoleMole::Config::ScreenEffectFloat* DirectLightingStrength; // 0x88
+		::MoleMole::Config::ScreenEffectFloat* Radius; // 0x90
+		::MoleMole::Config::ScreenEffectBool* BilateralUpsample; // 0x98
+		::MoleMole::Config::ScreenEffectBool* Denoise; // 0xA0
+		::MoleMole::Config::ScreenEffectFloat* Intensity; // 0xA8
+		::MoleMole::Config::ScreenEffectFloat* BlurSharpness; // 0xB0
+		::MoleMole::Config::ScreenEffectFieldHandleType IntensityHandleType; // 0xB8
+		::MoleMole::Config::ScreenEffectFieldHandleType BilateralUpsampleHandleType; // 0xBC
+		::MoleMole::Config::ScreenEffectFieldHandleType DenoiseHandleType; // 0xC0
+		::MoleMole::Config::ScreenEffectFieldHandleType DebugModeHandleType; // 0xC4
+		::MoleMole::Config::ScreenEffectFieldHandleType FullResolutionHandleType; // 0xC8
+		::MoleMole::Config::ScreenEffectFieldHandleType BlurSharpnessHandleType; // 0xCC
+		::MoleMole::Config::ScreenEffectFieldHandleType GhostingReductionHandleType; // 0xD0
+		::MoleMole::Config::ScreenEffectFieldHandleType StepCountHandleType; // 0xD4
+		::MoleMole::Config::ScreenEffectFieldHandleType SampleCountHandleType; // 0xD8
+		::MoleMole::Config::ScreenEffectFieldHandleType RadiusHandleType; // 0xDC
+		::MoleMole::Config::ScreenEffectFieldHandleType DirectionCountHandleType; // 0xE0
+		::MoleMole::Config::ScreenEffectFieldHandleType DirectLightingStrengthHandleType; // 0xE4
+		::MoleMole::Config::ScreenEffectFieldHandleType TemporalAccumulationHandleType; // 0xE8
+		::MoleMole::Config::ScreenEffectFieldHandleType DenoiserRadiusHandleType; // 0xEC
+		::MoleMole::Config::ScreenEffectFieldHandleType MaximumRadiusInPixelsHandleType; // 0xF0
 
 		::System::Void _ctor()
 		{

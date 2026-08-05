@@ -6,11 +6,11 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/Unity/Collections/NativeArray_1.h"
 
-#define NPCCROWD_ABILITY_NPCABILITYANIMATEPROCESSORS_EXECUTEJOB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x67EF30)
+#define NPCCROWD_ABILITY_NPCABILITYANIMATEPROCESSORS_EXECUTEJOB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x633280)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int NPCAbilityAnimateProcessors_ExecuteJob_TypeDefinitionIndex = 67465;
+	inline static constexpr unsigned int NPCAbilityAnimateProcessors_ExecuteJob_TypeDefinitionIndex = 72247;
 
 	struct alignas(8) NPCAbilityAnimateProcessors_ExecuteJob
 	{

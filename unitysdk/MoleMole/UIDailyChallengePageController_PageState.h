@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIDailyChallengePageController_PageState_TypeDefinitionIndex = 74591;
+	inline static constexpr unsigned int UIDailyChallengePageController_PageState_TypeDefinitionIndex = 83094;
 
 	enum class UIDailyChallengePageController_PageState : ::System::Int32
 	{

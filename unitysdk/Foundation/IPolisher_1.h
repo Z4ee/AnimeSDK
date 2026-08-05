@@ -3,7 +3,7 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int IPolisher_1_TypeDefinitionIndex = 7819;
+	inline static constexpr unsigned int IPolisher_1_TypeDefinitionIndex = 7991;
 
 	template <typename T>
 	class IPolisher_1

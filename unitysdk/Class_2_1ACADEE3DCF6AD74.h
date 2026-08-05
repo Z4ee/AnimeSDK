@@ -1,41 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_FF80A1ACD786CECB_2.h"
-#include "unitysdk/Class_2_1ACADEE3DCF6AD74_Struct_2_70C2C4621DAE0507.h"
+#include "unitysdk/Class_2_D1CED082B4F1459A_Class_1_B90FFA85C12C7978.h"
 
-#define CLASS_2_1ACADEE3DCF6AD74_DISPOSE_OFFSET UNITYSDK_OFFSET(0xF8C8FE0)
-#define CLASS_2_1ACADEE3DCF6AD74_METHOD_2_42C5BADE1C9EFC80_OFFSET UNITYSDK_OFFSET(0xF8C9040)
-#define CLASS_2_1ACADEE3DCF6AD74_METHOD_2_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0xF8C8FA0)
-#define CLASS_2_1ACADEE3DCF6AD74_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xF8C8F60)
-#define CLASS_2_1ACADEE3DCF6AD74__CTOR_OFFSET UNITYSDK_OFFSET(0xF8C9030)
+class Class_2_68CAEAB6BAB4C007;
 
-inline static constexpr unsigned int Class_2_1ACADEE3DCF6AD74_TypeDefinitionIndex = 62912;
+#define CLASS_2_1ACADEE3DCF6AD74__CTOR_OFFSET UNITYSDK_OFFSET(0x17FFE3D0)
 
-class Class_2_1ACADEE3DCF6AD74 : public ::Class_1_FF80A1ACD786CECB_2
+inline static constexpr unsigned int Class_2_1ACADEE3DCF6AD74_TypeDefinitionIndex = 54333;
+
+class Class_2_1ACADEE3DCF6AD74 : public ::Class_2_D1CED082B4F1459A_Class_1_B90FFA85C12C7978
 {
 public:
 	::System::Void _ctor(::System::Int32 a1)
 	{
 		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_2_1ACADEE3DCF6AD74__CTOR_OFFSET))(this, a1);
-	}
-
-	::System::Void Method_2_CA373AA1C7054598()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_1ACADEE3DCF6AD74_METHOD_2_CA373AA1C7054598_OFFSET))(this);
-	}
-
-	::System::Void Method_2_CA373AA1C7054598_1()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_1ACADEE3DCF6AD74_METHOD_2_CA373AA1C7054598_1_OFFSET))(this);
-	}
-
-	::System::Void Dispose()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_1ACADEE3DCF6AD74_DISPOSE_OFFSET))(this);
-	}
-
-	::System::Boolean Method_2_42C5BADE1C9EFC80()
-	{
-		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_1ACADEE3DCF6AD74_METHOD_2_42C5BADE1C9EFC80_OFFSET))(this);
 	}
 };

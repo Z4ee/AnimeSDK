@@ -3,16 +3,16 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityRhythmDiskColor_TypeDefinitionIndex = 49297;
+	inline static constexpr unsigned int UIActivityRhythmDiskColor_TypeDefinitionIndex = 87423;
 
 	enum class UIActivityRhythmDiskColor : ::System::Int32
 	{
-		Orange = 5,
-		Green = 3,
-		Yellow = 4,
-		Blue = 1,
 		Red = 6,
-		NavyBlue = 2,
+		Orange = 5,
+		Yellow = 4,
 		Purple = 0,
+		Green = 3,
+		Blue = 1,
+		NavyBlue = 2,
 	};
 }

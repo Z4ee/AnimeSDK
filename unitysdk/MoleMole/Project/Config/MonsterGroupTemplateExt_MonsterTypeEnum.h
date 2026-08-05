@@ -3,7 +3,7 @@
 
 namespace MoleMole::Project::Config
 {
-	inline static constexpr unsigned int MonsterGroupTemplateExt_MonsterTypeEnum_TypeDefinitionIndex = 71173;
+	inline static constexpr unsigned int MonsterGroupTemplateExt_MonsterTypeEnum_TypeDefinitionIndex = 57437;
 
 	enum class MonsterGroupTemplateExt_MonsterTypeEnum : ::System::Int32
 	{

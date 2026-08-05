@@ -1,16 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MessagePack/MessagePackReader.h"
-#include "unitysdk/MessagePack/MessagePackWriter.h"
-#include "unitysdk/Struct_2_174BD6D3EB04B2EE.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_291;
-namespace MessagePack { class MessagePackSerializerOptions; }
+class Class_1_37DF30C8B3AA0F39;
+namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
+namespace System::Collections::Generic { template <typename T1, typename T2> class IReadOnlyDictionary_2; }
+namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
+template <typename T1, typename T2> class Class_0_16E4307DCC419505_161;
+template <typename T> class Class_0_16E4307DCC419505_164;
+template <typename T> class Class_0_16E4307DCC41950C_14;
 
-inline static constexpr unsigned int Class_1_534AF681CC2BD5FD_266_TypeDefinitionIndex = 46616;
+inline static constexpr unsigned int Class_1_534AF681CC2BD5FD_266_TypeDefinitionIndex = 62151;
 
-template <typename T>
 class Class_1_534AF681CC2BD5FD_266 : public ::System::Object
 {
 public:

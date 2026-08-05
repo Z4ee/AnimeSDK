@@ -6,19 +6,19 @@ namespace MoleMole::HollowChessboard { class HollowEntityRenderTrack; }
 namespace MoleMole::HollowChessboard { class RenderTrackBase; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWENTITYRENDERSEQUENCE_GETMAINTRACK_OFFSET UNITYSDK_OFFSET(0x11622EF0)
-#define MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWENTITYRENDERSEQUENCE_GETSUBTRACKS_OFFSET UNITYSDK_OFFSET(0x11622F30)
-#define MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWENTITYRENDERSEQUENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x11623040)
+#define MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWENTITYRENDERSEQUENCE_GETMAINTRACK_OFFSET UNITYSDK_OFFSET(0x19255DB0)
+#define MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWENTITYRENDERSEQUENCE_GETSUBTRACKS_OFFSET UNITYSDK_OFFSET(0x19255DF0)
+#define MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWENTITYRENDERSEQUENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x19255F00)
 
 namespace MoleMole::HollowChessboard
 {
-	inline static constexpr unsigned int HollowEntityRenderSequence_TypeDefinitionIndex = 80153;
+	inline static constexpr unsigned int HollowEntityRenderSequence_TypeDefinitionIndex = 83706;
 
 	class HollowEntityRenderSequence : public ::MoleMole::HollowChessboard::RenderSequenceBase
 	{
 	public:
-		::MoleMole::HollowChessboard::HollowEntityRenderTrack* MainTrack; // 0x10
-		::System::Collections::Generic::List_1<::MoleMole::HollowChessboard::HollowEntityRenderTrack*>* SubTracks; // 0x18
+		::System::Collections::Generic::List_1<::MoleMole::HollowChessboard::HollowEntityRenderTrack*>* SubTracks; // 0x10
+		::MoleMole::HollowChessboard::HollowEntityRenderTrack* MainTrack; // 0x18
 
 		::System::Void _ctor()
 		{

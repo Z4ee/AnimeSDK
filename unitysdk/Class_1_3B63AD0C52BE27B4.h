@@ -8,10 +8,10 @@ namespace MoleMole::Config { class RenderMaterial; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_3B63AD0C52BE27B4_METHOD_1_9F3866E5A3B6C214_OFFSET UNITYSDK_OFFSET(0xFE2FDA0)
-#define CLASS_1_3B63AD0C52BE27B4_METHOD_1_DCAE6BD7A5AD7DD3_OFFSET UNITYSDK_OFFSET(0xFE2F8C0)
+#define CLASS_1_3B63AD0C52BE27B4_METHOD_1_9F3866E5A3B6C214_OFFSET UNITYSDK_OFFSET(0x12C89570)
+#define CLASS_1_3B63AD0C52BE27B4_METHOD_1_DCAE6BD7A5AD7DD3_OFFSET UNITYSDK_OFFSET(0x12C890B0)
 
-inline static constexpr unsigned int Class_1_3B63AD0C52BE27B4_TypeDefinitionIndex = 63170;
+inline static constexpr unsigned int Class_1_3B63AD0C52BE27B4_TypeDefinitionIndex = 49659;
 
 class Class_1_3B63AD0C52BE27B4 : public ::System::Object
 {

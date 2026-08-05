@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 
 namespace Foundation
 {
-	inline static constexpr unsigned int IRenderLayerBucket_TypeDefinitionIndex = 89495;
+	inline static constexpr unsigned int IRenderLayerBucket_TypeDefinitionIndex = 93438;
 
 	class IRenderLayerBucket
 	{

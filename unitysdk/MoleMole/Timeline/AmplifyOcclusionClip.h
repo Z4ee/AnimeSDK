@@ -8,13 +8,13 @@
 namespace MoleMole::Timeline { class AmplifyOcclusionBehaviour; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_TIMELINE_AMPLIFYOCCLUSIONCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x173FE8C0)
-#define MOLEMOLE_TIMELINE_AMPLIFYOCCLUSIONCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x173FE8B0)
-#define MOLEMOLE_TIMELINE_AMPLIFYOCCLUSIONCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x173FEAA0)
+#define MOLEMOLE_TIMELINE_AMPLIFYOCCLUSIONCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x129DB660)
+#define MOLEMOLE_TIMELINE_AMPLIFYOCCLUSIONCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x129DB650)
+#define MOLEMOLE_TIMELINE_AMPLIFYOCCLUSIONCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x129DB840)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int AmplifyOcclusionClip_TypeDefinitionIndex = 85288;
+	inline static constexpr unsigned int AmplifyOcclusionClip_TypeDefinitionIndex = 81842;
 
 	class AmplifyOcclusionClip : public ::UnityEngine::Playables::PlayableAsset
 	{

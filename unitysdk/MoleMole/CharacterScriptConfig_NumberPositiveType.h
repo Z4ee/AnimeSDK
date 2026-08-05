@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CharacterScriptConfig_NumberPositiveType_TypeDefinitionIndex = 72231;
+	inline static constexpr unsigned int CharacterScriptConfig_NumberPositiveType_TypeDefinitionIndex = 48412;
 
 	enum class CharacterScriptConfig_NumberPositiveType : ::System::Int32
 	{

@@ -7,7 +7,7 @@ namespace MoleMole::DataStructures::Lists { template <typename T1, typename T2> 
 
 namespace MoleMole::DataStructures::Lists
 {
-	inline static constexpr unsigned int EasySerializeDictionaryEntry_2_TypeDefinitionIndex = 28292;
+	inline static constexpr unsigned int EasySerializeDictionaryEntry_2_TypeDefinitionIndex = 28769;
 
 	template <typename TKey, typename TValue>
 	class EasySerializeDictionaryEntry_2 : public ::System::Object

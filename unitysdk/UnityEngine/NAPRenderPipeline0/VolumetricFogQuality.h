@@ -3,7 +3,7 @@
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int VolumetricFogQuality_TypeDefinitionIndex = 5891;
+	inline static constexpr unsigned int VolumetricFogQuality_TypeDefinitionIndex = 5893;
 
 	enum class VolumetricFogQuality : ::System::Int32
 	{

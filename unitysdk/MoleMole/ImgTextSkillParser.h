@@ -7,27 +7,27 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Text::RegularExpressions { class Regex; }
 
-#define MOLEMOLE_IMGTEXTSKILLPARSER_METHOD_6_81BFB84A5077EF23_OFFSET UNITYSDK_OFFSET(0x12BC5DB0)
-#define MOLEMOLE_IMGTEXTSKILLPARSER_METHOD_6_FDA1EA0B9E0923F3_OFFSET UNITYSDK_OFFSET(0x12BC6550)
-#define MOLEMOLE_IMGTEXTSKILLPARSER_SETLEVEL_OFFSET UNITYSDK_OFFSET(0x12BC5D60)
-#define MOLEMOLE_IMGTEXTSKILLPARSER__CCTOR_OFFSET UNITYSDK_OFFSET(0x12BC6670)
-#define MOLEMOLE_IMGTEXTSKILLPARSER__CTOR_OFFSET UNITYSDK_OFFSET(0x12BC6610)
-#define MOLEMOLE_IMGTEXTSKILLPARSER___BASE_GETPARSEDTEXT_OFFSET UNITYSDK_OFFSET(0x12BC6780)
+#define MOLEMOLE_IMGTEXTSKILLPARSER_METHOD_6_81BFB84A5077EF23_OFFSET UNITYSDK_OFFSET(0x13844DA0)
+#define MOLEMOLE_IMGTEXTSKILLPARSER_METHOD_6_FDA1EA0B9E0923F3_OFFSET UNITYSDK_OFFSET(0x13845560)
+#define MOLEMOLE_IMGTEXTSKILLPARSER_SETLEVEL_OFFSET UNITYSDK_OFFSET(0x13844D50)
+#define MOLEMOLE_IMGTEXTSKILLPARSER__CCTOR_OFFSET UNITYSDK_OFFSET(0x13845680)
+#define MOLEMOLE_IMGTEXTSKILLPARSER__CTOR_OFFSET UNITYSDK_OFFSET(0x13845620)
+#define MOLEMOLE_IMGTEXTSKILLPARSER___BASE_GETPARSEDTEXT_OFFSET UNITYSDK_OFFSET(0x13845790)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ImgTextSkillParser_TypeDefinitionIndex = 46978;
+	inline static constexpr unsigned int ImgTextSkillParser_TypeDefinitionIndex = 79548;
 
 	class ImgTextSkillParser : public ::MoleMole::ImgTextParserBase
 	{
 	public:
-		static ::System::Text::RegularExpressions::Regex** StaticGet_Field_6_0()
-		{
-			return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(ImgTextSkillParser_TypeDefinitionIndex)->GetStaticField(0x3ED90);
-		}
 		static ::System::Collections::Generic::List_1<::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::String*>>** StaticGet_Field_6_1()
 		{
-			return (::System::Collections::Generic::List_1<::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::String*>>**)Il2CppClass::FromTypeDefinitionIndex(ImgTextSkillParser_TypeDefinitionIndex)->GetStaticField(0x3ED98);
+			return (::System::Collections::Generic::List_1<::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::String*>>**)Il2CppClass::FromTypeDefinitionIndex(ImgTextSkillParser_TypeDefinitionIndex)->GetStaticField(0x3F940);
+		}
+		static ::System::Text::RegularExpressions::Regex** StaticGet_Field_6_2()
+		{
+			return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(ImgTextSkillParser_TypeDefinitionIndex)->GetStaticField(0x3F948);
 		}
 		::System::Int32 m_skillLevel; // 0x40
 

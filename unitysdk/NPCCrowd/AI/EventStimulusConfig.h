@@ -6,7 +6,7 @@ namespace NPCCrowd::AI { class EventStimulusItem; }
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int EventStimulusConfig_TypeDefinitionIndex = 40926;
+	inline static constexpr unsigned int EventStimulusConfig_TypeDefinitionIndex = 51078;
 
 	struct alignas(8) EventStimulusConfig
 	{

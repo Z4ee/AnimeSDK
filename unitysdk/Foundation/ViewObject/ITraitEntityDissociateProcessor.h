@@ -4,7 +4,7 @@
 
 namespace Foundation::ViewObject
 {
-	inline static constexpr unsigned int ITraitEntityDissociateProcessor_TypeDefinitionIndex = 66225;
+	inline static constexpr unsigned int ITraitEntityDissociateProcessor_TypeDefinitionIndex = 61258;
 
 	class ITraitEntityDissociateProcessor
 	{

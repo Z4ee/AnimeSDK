@@ -6,9 +6,9 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace System::Linq::Expressions::Interpreter { class ExceptionFilter; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_EXCEPTIONHANDLER_MATCHES_OFFSET UNITYSDK_OFFSET(0x1E116830)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_EXCEPTIONHANDLER_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E116860)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_EXCEPTIONHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E116810)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_EXCEPTIONHANDLER_MATCHES_OFFSET UNITYSDK_OFFSET(0x1F51FA90)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_EXCEPTIONHANDLER_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1F51FAC0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_EXCEPTIONHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F51FA70)
 
 namespace System::Linq::Expressions::Interpreter
 {
@@ -19,9 +19,9 @@ namespace System::Linq::Expressions::Interpreter
 	public:
 		::System::Type* _exceptionType; // 0x10
 		::System::Linq::Expressions::Interpreter::ExceptionFilter* Filter; // 0x18
-		::System::Int32 HandlerStartIndex; // 0x20
+		::System::Int32 LabelIndex; // 0x20
 		::System::Int32 HandlerEndIndex; // 0x24
-		::System::Int32 LabelIndex; // 0x28
+		::System::Int32 HandlerStartIndex; // 0x28
 
 		::System::Void _ctor(::System::Int32 labelIndex, ::System::Int32 handlerStartIndex, ::System::Int32 handlerEndIndex, ::System::Type* exceptionType, ::System::Linq::Expressions::Interpreter::ExceptionFilter* filter)
 		{

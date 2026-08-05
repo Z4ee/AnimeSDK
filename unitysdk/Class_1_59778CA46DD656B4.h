@@ -6,16 +6,16 @@
 namespace System { class Action; }
 namespace System { class String; }
 
-#define CLASS_1_59778CA46DD656B4__CTOR_OFFSET UNITYSDK_OFFSET(0x155A3450)
+#define CLASS_1_59778CA46DD656B4__CTOR_OFFSET UNITYSDK_OFFSET(0x117CA450)
 
-inline static constexpr unsigned int Class_1_59778CA46DD656B4_TypeDefinitionIndex = 56960;
+inline static constexpr unsigned int Class_1_59778CA46DD656B4_TypeDefinitionIndex = 68753;
 
 class Class_1_59778CA46DD656B4 : public ::System::Object
 {
 public:
-	::System::Action* Field_1_0; // 0x10
-	::System::String* Field_1_1; // 0x18
-	::System::Nullable_1<::System::Boolean> Field_1_2; // 0x20
+	::System::String* Field_1_1; // 0x10
+	::System::Action* Field_1_2; // 0x18
+	::System::Nullable_1<::System::Boolean> Field_1_0; // 0x20
 
 	::System::Void _ctor()
 	{

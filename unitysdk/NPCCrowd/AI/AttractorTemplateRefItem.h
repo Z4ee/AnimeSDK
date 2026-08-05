@@ -3,11 +3,11 @@
 #include "unitysdk/NPCCrowd/AI/AttractorDefinition.h"
 #include "unitysdk/System/ValueType.h"
 
-#define NPCCROWD_AI_ATTRACTORTEMPLATEREFITEM_SETATTRACTORID_OFFSET UNITYSDK_OFFSET(0x4103E0)
+#define NPCCROWD_AI_ATTRACTORTEMPLATEREFITEM_SETATTRACTORID_OFFSET UNITYSDK_OFFSET(0x69C990)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int AttractorTemplateRefItem_TypeDefinitionIndex = 79653;
+	inline static constexpr unsigned int AttractorTemplateRefItem_TypeDefinitionIndex = 44731;
 
 	struct alignas(8) AttractorTemplateRefItem
 	{

@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_2_DF2C726EEEEC912D;
+class Class_2_E23E4CB2769CC93F;
 
-#define MOLEMOLE_UISOCIALCIRCLEMEMBERCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x178FB030)
+#define MOLEMOLE_UISOCIALCIRCLEMEMBERCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18875C90)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISocialCircleMemberContext_TypeDefinitionIndex = 49865;
+	inline static constexpr unsigned int UISocialCircleMemberContext_TypeDefinitionIndex = 68292;
 
 	class UISocialCircleMemberContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_2_DF2C726EEEEC912D* CircleData; // 0x28
+		::Class_2_E23E4CB2769CC93F* CircleData; // 0x28
 		::System::Int32 TabIndex; // 0x30
 
 		::System::Void _ctor()

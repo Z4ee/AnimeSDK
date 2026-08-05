@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIYorozuyaDifficultWidgetController_TabType_TypeDefinitionIndex = 51048;
+	inline static constexpr unsigned int UIYorozuyaDifficultWidgetController_TabType_TypeDefinitionIndex = 49966;
 
 	enum class UIYorozuyaDifficultWidgetController_TabType : ::System::Int32
 	{

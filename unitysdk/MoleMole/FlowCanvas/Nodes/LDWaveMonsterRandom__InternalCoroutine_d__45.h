@@ -8,29 +8,29 @@ namespace MoleMole::FlowCanvas::Nodes { class LDWaveMonsterRandom___c__DisplayCl
 namespace MoleMole::FlowCanvas::Nodes { class MonsterCreateData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTERRANDOM__INTERNALCOROUTINE_D__45_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1A02B780)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTERRANDOM__INTERNALCOROUTINE_D__45_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1A02CBE0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTERRANDOM__INTERNALCOROUTINE_D__45_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1A02CC40)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTERRANDOM__INTERNALCOROUTINE_D__45_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1A02CBF0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTERRANDOM__INTERNALCOROUTINE_D__45_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A02B770)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTERRANDOM__INTERNALCOROUTINE_D__45__CTOR_OFFSET UNITYSDK_OFFSET(0x1A02B760)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTERRANDOM__INTERNALCOROUTINE_D__45_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1907D330)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTERRANDOM__INTERNALCOROUTINE_D__45_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1907E6A0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTERRANDOM__INTERNALCOROUTINE_D__45_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1907E700)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTERRANDOM__INTERNALCOROUTINE_D__45_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1907E6B0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTERRANDOM__INTERNALCOROUTINE_D__45_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1907D320)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTERRANDOM__INTERNALCOROUTINE_D__45__CTOR_OFFSET UNITYSDK_OFFSET(0x1907D310)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDWaveMonsterRandom__InternalCoroutine_d__45_TypeDefinitionIndex = 56515;
+	inline static constexpr unsigned int LDWaveMonsterRandom__InternalCoroutine_d__45_TypeDefinitionIndex = 66968;
 
 	class LDWaveMonsterRandom__InternalCoroutine_d__45 : public ::System::Object
 	{
 	public:
-		::FlowCanvas::Flow f; // 0x10
-		::MoleMole::FlowCanvas::Nodes::MonsterCreateData* _createData_5__3; // 0x38
-		::System::Collections::Generic::List_1<::MoleMole::FlowCanvas::Nodes::MonsterCreateData*>* _list_5__2; // 0x40
-		::MoleMole::FlowCanvas::Nodes::LDWaveMonsterRandom* __4__this; // 0x48
-		::MoleMole::FlowCanvas::Nodes::LDWaveMonsterRandom___c__DisplayClass45_0* __8__1; // 0x50
-		::System::Object* __2__current; // 0x58
-		::System::Int32 _aiConfigId_5__5; // 0x60
-		::System::Int32 __1__state; // 0x64
-		::System::Boolean _tryRead_5__6; // 0x68
+		::MoleMole::FlowCanvas::Nodes::LDWaveMonsterRandom___c__DisplayClass45_0* __8__1; // 0x10
+		::MoleMole::FlowCanvas::Nodes::MonsterCreateData* _createData_5__3; // 0x18
+		::System::Object* __2__current; // 0x20
+		::FlowCanvas::Flow f; // 0x28
+		::System::Collections::Generic::List_1<::MoleMole::FlowCanvas::Nodes::MonsterCreateData*>* _list_5__2; // 0x50
+		::MoleMole::FlowCanvas::Nodes::LDWaveMonsterRandom* __4__this; // 0x58
+		::System::Int32 __1__state; // 0x60
+		::System::Boolean _tryRead_5__6; // 0x64
+		::System::Int32 _aiConfigId_5__5; // 0x68
 		::System::Int32 _monsterId_5__4; // 0x6C
 
 		::System::Void _ctor(::System::Int32 __1__state)

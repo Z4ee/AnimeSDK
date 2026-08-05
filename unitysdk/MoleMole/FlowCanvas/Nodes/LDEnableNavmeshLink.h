@@ -3,12 +3,12 @@
 #include "unitysdk/FlowCanvas/Nodes/CallableActionNode_2.h"
 #include "unitysdk/MoleMole/GameplayTag.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDENABLENAVMESHLINK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A396CB0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDENABLENAVMESHLINK__CTOR_OFFSET UNITYSDK_OFFSET(0x1A396F10)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDENABLENAVMESHLINK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1368F280)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDENABLENAVMESHLINK__CTOR_OFFSET UNITYSDK_OFFSET(0x1368F4E0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDEnableNavmeshLink_TypeDefinitionIndex = 67796;
+	inline static constexpr unsigned int LDEnableNavmeshLink_TypeDefinitionIndex = 90921;
 
 	class LDEnableNavmeshLink : public ::FlowCanvas::Nodes::CallableActionNode_2<::MoleMole::GameplayTag, ::System::Boolean>
 	{

@@ -8,7 +8,7 @@ namespace System { template <typename T> class WeakReference_1; }
 
 namespace Foundation::ViewObject::Container
 {
-	inline static constexpr unsigned int SparseElementHandle_1_TypeDefinitionIndex = 53430;
+	inline static constexpr unsigned int SparseElementHandle_1_TypeDefinitionIndex = 91299;
 
 	template <typename T>
 	struct SparseElementHandle_1

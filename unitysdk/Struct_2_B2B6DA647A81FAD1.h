@@ -7,14 +7,14 @@
 
 namespace System { class String; }
 
-inline static constexpr unsigned int Struct_2_B2B6DA647A81FAD1_TypeDefinitionIndex = 69134;
+inline static constexpr unsigned int Struct_2_B2B6DA647A81FAD1_TypeDefinitionIndex = 65987;
 
 struct alignas(8) Struct_2_B2B6DA647A81FAD1
 {
 	::System::String* Field_2_0; // 0x10
-	::MoleMole::EntityHandle Field_2_1; // 0x18
-	::System::Boolean Field_2_2; // 0x28
-	::System::Boolean Field_2_3; // 0x29
+	::MoleMole::EntityHandle Field_2_7; // 0x18
+	::System::Boolean Field_2_6; // 0x28
+	::System::Boolean Field_2_5; // 0x29
 	::UnityEngine::Vector3 Field_2_4; // 0x2C
-	::UnityEngine::Quaternion Field_2_5; // 0x38
+	::UnityEngine::Quaternion Field_2_11; // 0x38
 };

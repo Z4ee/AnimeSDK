@@ -1,13 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Audio_PINVOKE_DeviceClass_TypeDefinitionIndex = 86133;
+inline static constexpr unsigned int Audio_PINVOKE_DeviceClass_TypeDefinitionIndex = 80170;
 
 enum class Audio_PINVOKE_DeviceClass : ::System::Int32
 {
-	Keyboard = 3,
-	All = 0,
 	Device = 1,
-	Pointer = 2,
+	Keyboard = 3,
 	GameControl = 4,
+	All = 0,
+	Pointer = 2,
 };

@@ -8,7 +8,7 @@ namespace UnityEngine { class Material; }
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int FootPrintConfigData_TypeDefinitionIndex = 26491;
+	inline static constexpr unsigned int FootPrintConfigData_TypeDefinitionIndex = 26888;
 
 	struct alignas(8) FootPrintConfigData
 	{

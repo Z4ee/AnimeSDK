@@ -6,7 +6,7 @@ namespace UnityEngine { class Transform; }
 
 namespace MoleMole::Cameras
 {
-	inline static constexpr unsigned int VCameraTargetGroup_Target_TypeDefinitionIndex = 73249;
+	inline static constexpr unsigned int VCameraTargetGroup_Target_TypeDefinitionIndex = 62758;
 
 	struct alignas(8) VCameraTargetGroup_Target
 	{

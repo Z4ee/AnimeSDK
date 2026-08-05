@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_DESTROYLEVELTIMER_INVOKE_OFFSET UNITYSDK_OFFSET(0x19125ED0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_DESTROYLEVELTIMER__CTOR_OFFSET UNITYSDK_OFFSET(0x19125F30)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_DESTROYLEVELTIMER_INVOKE_OFFSET UNITYSDK_OFFSET(0x19DB8CC0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_DESTROYLEVELTIMER__CTOR_OFFSET UNITYSDK_OFFSET(0x19DB8D20)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_DestroyLevelTimer_TypeDefinitionIndex = 66751;
+	inline static constexpr unsigned int LD_DestroyLevelTimer_TypeDefinitionIndex = 64643;
 
 	class LD_DestroyLevelTimer : public ::FlowCanvas::Nodes::CallableActionNode_2<::System::String*, ::System::Boolean>
 	{

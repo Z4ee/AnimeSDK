@@ -26,26 +26,26 @@ namespace System::Net { class UploadValuesCompletedEventArgs; }
 namespace System::Net { class UploadValuesCompletedEventHandler; }
 namespace System::Net { class WebClient; }
 
-#define SYSTEM_NET_WEBCLIENT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B41B440)
-#define SYSTEM_NET_WEBCLIENT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B41B480)
-#define SYSTEM_NET_WEBCLIENT___C__DOWNLOADDATATASKASYNC_B__231_1_OFFSET UNITYSDK_OFFSET(0x1B41B790)
-#define SYSTEM_NET_WEBCLIENT___C__DOWNLOADDATATASKASYNC_B__231_2_OFFSET UNITYSDK_OFFSET(0x1B41B7C0)
-#define SYSTEM_NET_WEBCLIENT___C__DOWNLOADFILETASKASYNC_B__233_1_OFFSET UNITYSDK_OFFSET(0x1B41B850)
-#define SYSTEM_NET_WEBCLIENT___C__DOWNLOADFILETASKASYNC_B__233_2_OFFSET UNITYSDK_OFFSET(0x1B41B860)
-#define SYSTEM_NET_WEBCLIENT___C__DOWNLOADSTRINGTASKASYNC_B__219_1_OFFSET UNITYSDK_OFFSET(0x1B41B490)
-#define SYSTEM_NET_WEBCLIENT___C__DOWNLOADSTRINGTASKASYNC_B__219_2_OFFSET UNITYSDK_OFFSET(0x1B41B4C0)
-#define SYSTEM_NET_WEBCLIENT___C__OPENREADTASKASYNC_B__221_1_OFFSET UNITYSDK_OFFSET(0x1B41B550)
-#define SYSTEM_NET_WEBCLIENT___C__OPENREADTASKASYNC_B__221_2_OFFSET UNITYSDK_OFFSET(0x1B41B580)
-#define SYSTEM_NET_WEBCLIENT___C__OPENWRITETASKASYNC_B__225_1_OFFSET UNITYSDK_OFFSET(0x1B41B610)
-#define SYSTEM_NET_WEBCLIENT___C__OPENWRITETASKASYNC_B__225_2_OFFSET UNITYSDK_OFFSET(0x1B41B640)
-#define SYSTEM_NET_WEBCLIENT___C__UPLOADDATATASKASYNC_B__237_1_OFFSET UNITYSDK_OFFSET(0x1B41B8F0)
-#define SYSTEM_NET_WEBCLIENT___C__UPLOADDATATASKASYNC_B__237_2_OFFSET UNITYSDK_OFFSET(0x1B41B920)
-#define SYSTEM_NET_WEBCLIENT___C__UPLOADFILETASKASYNC_B__241_1_OFFSET UNITYSDK_OFFSET(0x1B41B9B0)
-#define SYSTEM_NET_WEBCLIENT___C__UPLOADFILETASKASYNC_B__241_2_OFFSET UNITYSDK_OFFSET(0x1B41B9E0)
-#define SYSTEM_NET_WEBCLIENT___C__UPLOADSTRINGTASKASYNC_B__229_1_OFFSET UNITYSDK_OFFSET(0x1B41B6D0)
-#define SYSTEM_NET_WEBCLIENT___C__UPLOADSTRINGTASKASYNC_B__229_2_OFFSET UNITYSDK_OFFSET(0x1B41B700)
-#define SYSTEM_NET_WEBCLIENT___C__UPLOADVALUESTASKASYNC_B__245_1_OFFSET UNITYSDK_OFFSET(0x1B41BA70)
-#define SYSTEM_NET_WEBCLIENT___C__UPLOADVALUESTASKASYNC_B__245_2_OFFSET UNITYSDK_OFFSET(0x1B41BAA0)
+#define SYSTEM_NET_WEBCLIENT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C896BB0)
+#define SYSTEM_NET_WEBCLIENT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1C896BF0)
+#define SYSTEM_NET_WEBCLIENT___C__DOWNLOADDATATASKASYNC_B__231_1_OFFSET UNITYSDK_OFFSET(0x1C896F00)
+#define SYSTEM_NET_WEBCLIENT___C__DOWNLOADDATATASKASYNC_B__231_2_OFFSET UNITYSDK_OFFSET(0x1C896F30)
+#define SYSTEM_NET_WEBCLIENT___C__DOWNLOADFILETASKASYNC_B__233_1_OFFSET UNITYSDK_OFFSET(0x1C896FC0)
+#define SYSTEM_NET_WEBCLIENT___C__DOWNLOADFILETASKASYNC_B__233_2_OFFSET UNITYSDK_OFFSET(0x1C896FD0)
+#define SYSTEM_NET_WEBCLIENT___C__DOWNLOADSTRINGTASKASYNC_B__219_1_OFFSET UNITYSDK_OFFSET(0x1C896C00)
+#define SYSTEM_NET_WEBCLIENT___C__DOWNLOADSTRINGTASKASYNC_B__219_2_OFFSET UNITYSDK_OFFSET(0x1C896C30)
+#define SYSTEM_NET_WEBCLIENT___C__OPENREADTASKASYNC_B__221_1_OFFSET UNITYSDK_OFFSET(0x1C896CC0)
+#define SYSTEM_NET_WEBCLIENT___C__OPENREADTASKASYNC_B__221_2_OFFSET UNITYSDK_OFFSET(0x1C896CF0)
+#define SYSTEM_NET_WEBCLIENT___C__OPENWRITETASKASYNC_B__225_1_OFFSET UNITYSDK_OFFSET(0x1C896D80)
+#define SYSTEM_NET_WEBCLIENT___C__OPENWRITETASKASYNC_B__225_2_OFFSET UNITYSDK_OFFSET(0x1C896DB0)
+#define SYSTEM_NET_WEBCLIENT___C__UPLOADDATATASKASYNC_B__237_1_OFFSET UNITYSDK_OFFSET(0x1C897060)
+#define SYSTEM_NET_WEBCLIENT___C__UPLOADDATATASKASYNC_B__237_2_OFFSET UNITYSDK_OFFSET(0x1C897090)
+#define SYSTEM_NET_WEBCLIENT___C__UPLOADFILETASKASYNC_B__241_1_OFFSET UNITYSDK_OFFSET(0x1C897120)
+#define SYSTEM_NET_WEBCLIENT___C__UPLOADFILETASKASYNC_B__241_2_OFFSET UNITYSDK_OFFSET(0x1C897150)
+#define SYSTEM_NET_WEBCLIENT___C__UPLOADSTRINGTASKASYNC_B__229_1_OFFSET UNITYSDK_OFFSET(0x1C896E40)
+#define SYSTEM_NET_WEBCLIENT___C__UPLOADSTRINGTASKASYNC_B__229_2_OFFSET UNITYSDK_OFFSET(0x1C896E70)
+#define SYSTEM_NET_WEBCLIENT___C__UPLOADVALUESTASKASYNC_B__245_1_OFFSET UNITYSDK_OFFSET(0x1C8971E0)
+#define SYSTEM_NET_WEBCLIENT___C__UPLOADVALUESTASKASYNC_B__245_2_OFFSET UNITYSDK_OFFSET(0x1C897210)
 
 namespace System::Net
 {
@@ -54,81 +54,81 @@ namespace System::Net
 	class WebClient___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Net::OpenReadCompletedEventArgs*, ::System::IO::Stream*>** StaticGet___9__221_1()
+		static ::System::Action_2<::System::Net::WebClient*, ::System::Net::OpenWriteCompletedEventHandler*>** StaticGet___9__225_2()
 		{
-			return (::System::Func_2<::System::Net::OpenReadCompletedEventArgs*, ::System::IO::Stream*>**)Il2CppClass::FromTypeDefinitionIndex(WebClient___c_TypeDefinitionIndex)->GetStaticField(0x30B0);
+			return (::System::Action_2<::System::Net::WebClient*, ::System::Net::OpenWriteCompletedEventHandler*>**)Il2CppClass::FromTypeDefinitionIndex(WebClient___c_TypeDefinitionIndex)->GetStaticField(0x30B0);
 		}
 		static ::System::Action_2<::System::Net::WebClient*, ::System::Net::UploadFileCompletedEventHandler*>** StaticGet___9__241_2()
 		{
 			return (::System::Action_2<::System::Net::WebClient*, ::System::Net::UploadFileCompletedEventHandler*>**)Il2CppClass::FromTypeDefinitionIndex(WebClient___c_TypeDefinitionIndex)->GetStaticField(0x30B8);
 		}
-		static ::System::Func_2<::System::Net::OpenWriteCompletedEventArgs*, ::System::IO::Stream*>** StaticGet___9__225_1()
+		static ::System::Func_2<::System::Net::UploadFileCompletedEventArgs*, ::Il2CppArray<::System::Byte>*>** StaticGet___9__241_1()
 		{
-			return (::System::Func_2<::System::Net::OpenWriteCompletedEventArgs*, ::System::IO::Stream*>**)Il2CppClass::FromTypeDefinitionIndex(WebClient___c_TypeDefinitionIndex)->GetStaticField(0x30C0);
-		}
-		static ::System::Action_2<::System::Net::WebClient*, ::System::Net::UploadStringCompletedEventHandler*>** StaticGet___9__229_2()
-		{
-			return (::System::Action_2<::System::Net::WebClient*, ::System::Net::UploadStringCompletedEventHandler*>**)Il2CppClass::FromTypeDefinitionIndex(WebClient___c_TypeDefinitionIndex)->GetStaticField(0x30C8);
-		}
-		static ::System::Action_2<::System::Net::WebClient*, ::System::ComponentModel::AsyncCompletedEventHandler*>** StaticGet___9__233_2()
-		{
-			return (::System::Action_2<::System::Net::WebClient*, ::System::ComponentModel::AsyncCompletedEventHandler*>**)Il2CppClass::FromTypeDefinitionIndex(WebClient___c_TypeDefinitionIndex)->GetStaticField(0x30D0);
-		}
-		static ::System::Func_2<::System::Net::DownloadDataCompletedEventArgs*, ::Il2CppArray<::System::Byte>*>** StaticGet___9__231_1()
-		{
-			return (::System::Func_2<::System::Net::DownloadDataCompletedEventArgs*, ::Il2CppArray<::System::Byte>*>**)Il2CppClass::FromTypeDefinitionIndex(WebClient___c_TypeDefinitionIndex)->GetStaticField(0x30D8);
-		}
-		static ::System::Action_2<::System::Net::WebClient*, ::System::Net::UploadValuesCompletedEventHandler*>** StaticGet___9__245_2()
-		{
-			return (::System::Action_2<::System::Net::WebClient*, ::System::Net::UploadValuesCompletedEventHandler*>**)Il2CppClass::FromTypeDefinitionIndex(WebClient___c_TypeDefinitionIndex)->GetStaticField(0x30E0);
-		}
-		static ::System::Action_2<::System::Net::WebClient*, ::System::Net::DownloadDataCompletedEventHandler*>** StaticGet___9__231_2()
-		{
-			return (::System::Action_2<::System::Net::WebClient*, ::System::Net::DownloadDataCompletedEventHandler*>**)Il2CppClass::FromTypeDefinitionIndex(WebClient___c_TypeDefinitionIndex)->GetStaticField(0x30E8);
-		}
-		static ::System::Net::WebClient___c** StaticGet___9()
-		{
-			return (::System::Net::WebClient___c**)Il2CppClass::FromTypeDefinitionIndex(WebClient___c_TypeDefinitionIndex)->GetStaticField(0x30F0);
-		}
-		static ::System::Action_2<::System::Net::WebClient*, ::System::Net::DownloadStringCompletedEventHandler*>** StaticGet___9__219_2()
-		{
-			return (::System::Action_2<::System::Net::WebClient*, ::System::Net::DownloadStringCompletedEventHandler*>**)Il2CppClass::FromTypeDefinitionIndex(WebClient___c_TypeDefinitionIndex)->GetStaticField(0x30F8);
-		}
-		static ::System::Func_2<::System::Net::UploadDataCompletedEventArgs*, ::Il2CppArray<::System::Byte>*>** StaticGet___9__237_1()
-		{
-			return (::System::Func_2<::System::Net::UploadDataCompletedEventArgs*, ::Il2CppArray<::System::Byte>*>**)Il2CppClass::FromTypeDefinitionIndex(WebClient___c_TypeDefinitionIndex)->GetStaticField(0x3100);
-		}
-		static ::System::Func_2<::System::ComponentModel::AsyncCompletedEventArgs*, ::System::Object*>** StaticGet___9__233_1()
-		{
-			return (::System::Func_2<::System::ComponentModel::AsyncCompletedEventArgs*, ::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(WebClient___c_TypeDefinitionIndex)->GetStaticField(0x3108);
-		}
-		static ::System::Func_2<::System::Net::DownloadStringCompletedEventArgs*, ::System::String*>** StaticGet___9__219_1()
-		{
-			return (::System::Func_2<::System::Net::DownloadStringCompletedEventArgs*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(WebClient___c_TypeDefinitionIndex)->GetStaticField(0x3110);
-		}
-		static ::System::Action_2<::System::Net::WebClient*, ::System::Net::OpenWriteCompletedEventHandler*>** StaticGet___9__225_2()
-		{
-			return (::System::Action_2<::System::Net::WebClient*, ::System::Net::OpenWriteCompletedEventHandler*>**)Il2CppClass::FromTypeDefinitionIndex(WebClient___c_TypeDefinitionIndex)->GetStaticField(0x3118);
+			return (::System::Func_2<::System::Net::UploadFileCompletedEventArgs*, ::Il2CppArray<::System::Byte>*>**)Il2CppClass::FromTypeDefinitionIndex(WebClient___c_TypeDefinitionIndex)->GetStaticField(0x30C0);
 		}
 		static ::System::Func_2<::System::Net::UploadStringCompletedEventArgs*, ::System::String*>** StaticGet___9__229_1()
 		{
-			return (::System::Func_2<::System::Net::UploadStringCompletedEventArgs*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(WebClient___c_TypeDefinitionIndex)->GetStaticField(0x3120);
+			return (::System::Func_2<::System::Net::UploadStringCompletedEventArgs*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(WebClient___c_TypeDefinitionIndex)->GetStaticField(0x30C8);
 		}
-		static ::System::Action_2<::System::Net::WebClient*, ::System::Net::OpenReadCompletedEventHandler*>** StaticGet___9__221_2()
+		static ::System::Func_2<::System::Net::UploadDataCompletedEventArgs*, ::Il2CppArray<::System::Byte>*>** StaticGet___9__237_1()
 		{
-			return (::System::Action_2<::System::Net::WebClient*, ::System::Net::OpenReadCompletedEventHandler*>**)Il2CppClass::FromTypeDefinitionIndex(WebClient___c_TypeDefinitionIndex)->GetStaticField(0x3128);
-		}
-		static ::System::Func_2<::System::Net::UploadValuesCompletedEventArgs*, ::Il2CppArray<::System::Byte>*>** StaticGet___9__245_1()
-		{
-			return (::System::Func_2<::System::Net::UploadValuesCompletedEventArgs*, ::Il2CppArray<::System::Byte>*>**)Il2CppClass::FromTypeDefinitionIndex(WebClient___c_TypeDefinitionIndex)->GetStaticField(0x3130);
+			return (::System::Func_2<::System::Net::UploadDataCompletedEventArgs*, ::Il2CppArray<::System::Byte>*>**)Il2CppClass::FromTypeDefinitionIndex(WebClient___c_TypeDefinitionIndex)->GetStaticField(0x30D0);
 		}
 		static ::System::Action_2<::System::Net::WebClient*, ::System::Net::UploadDataCompletedEventHandler*>** StaticGet___9__237_2()
 		{
-			return (::System::Action_2<::System::Net::WebClient*, ::System::Net::UploadDataCompletedEventHandler*>**)Il2CppClass::FromTypeDefinitionIndex(WebClient___c_TypeDefinitionIndex)->GetStaticField(0x3138);
+			return (::System::Action_2<::System::Net::WebClient*, ::System::Net::UploadDataCompletedEventHandler*>**)Il2CppClass::FromTypeDefinitionIndex(WebClient___c_TypeDefinitionIndex)->GetStaticField(0x30D8);
 		}
-		static ::System::Func_2<::System::Net::UploadFileCompletedEventArgs*, ::Il2CppArray<::System::Byte>*>** StaticGet___9__241_1()
+		static ::System::Func_2<::System::Net::DownloadDataCompletedEventArgs*, ::Il2CppArray<::System::Byte>*>** StaticGet___9__231_1()
 		{
-			return (::System::Func_2<::System::Net::UploadFileCompletedEventArgs*, ::Il2CppArray<::System::Byte>*>**)Il2CppClass::FromTypeDefinitionIndex(WebClient___c_TypeDefinitionIndex)->GetStaticField(0x3140);
+			return (::System::Func_2<::System::Net::DownloadDataCompletedEventArgs*, ::Il2CppArray<::System::Byte>*>**)Il2CppClass::FromTypeDefinitionIndex(WebClient___c_TypeDefinitionIndex)->GetStaticField(0x30E0);
+		}
+		static ::System::Action_2<::System::Net::WebClient*, ::System::Net::OpenReadCompletedEventHandler*>** StaticGet___9__221_2()
+		{
+			return (::System::Action_2<::System::Net::WebClient*, ::System::Net::OpenReadCompletedEventHandler*>**)Il2CppClass::FromTypeDefinitionIndex(WebClient___c_TypeDefinitionIndex)->GetStaticField(0x30E8);
+		}
+		static ::System::Action_2<::System::Net::WebClient*, ::System::Net::UploadValuesCompletedEventHandler*>** StaticGet___9__245_2()
+		{
+			return (::System::Action_2<::System::Net::WebClient*, ::System::Net::UploadValuesCompletedEventHandler*>**)Il2CppClass::FromTypeDefinitionIndex(WebClient___c_TypeDefinitionIndex)->GetStaticField(0x30F0);
+		}
+		static ::System::Action_2<::System::Net::WebClient*, ::System::ComponentModel::AsyncCompletedEventHandler*>** StaticGet___9__233_2()
+		{
+			return (::System::Action_2<::System::Net::WebClient*, ::System::ComponentModel::AsyncCompletedEventHandler*>**)Il2CppClass::FromTypeDefinitionIndex(WebClient___c_TypeDefinitionIndex)->GetStaticField(0x30F8);
+		}
+		static ::System::Func_2<::System::Net::OpenWriteCompletedEventArgs*, ::System::IO::Stream*>** StaticGet___9__225_1()
+		{
+			return (::System::Func_2<::System::Net::OpenWriteCompletedEventArgs*, ::System::IO::Stream*>**)Il2CppClass::FromTypeDefinitionIndex(WebClient___c_TypeDefinitionIndex)->GetStaticField(0x3100);
+		}
+		static ::System::Action_2<::System::Net::WebClient*, ::System::Net::UploadStringCompletedEventHandler*>** StaticGet___9__229_2()
+		{
+			return (::System::Action_2<::System::Net::WebClient*, ::System::Net::UploadStringCompletedEventHandler*>**)Il2CppClass::FromTypeDefinitionIndex(WebClient___c_TypeDefinitionIndex)->GetStaticField(0x3108);
+		}
+		static ::System::Net::WebClient___c** StaticGet___9()
+		{
+			return (::System::Net::WebClient___c**)Il2CppClass::FromTypeDefinitionIndex(WebClient___c_TypeDefinitionIndex)->GetStaticField(0x3110);
+		}
+		static ::System::Action_2<::System::Net::WebClient*, ::System::Net::DownloadDataCompletedEventHandler*>** StaticGet___9__231_2()
+		{
+			return (::System::Action_2<::System::Net::WebClient*, ::System::Net::DownloadDataCompletedEventHandler*>**)Il2CppClass::FromTypeDefinitionIndex(WebClient___c_TypeDefinitionIndex)->GetStaticField(0x3118);
+		}
+		static ::System::Action_2<::System::Net::WebClient*, ::System::Net::DownloadStringCompletedEventHandler*>** StaticGet___9__219_2()
+		{
+			return (::System::Action_2<::System::Net::WebClient*, ::System::Net::DownloadStringCompletedEventHandler*>**)Il2CppClass::FromTypeDefinitionIndex(WebClient___c_TypeDefinitionIndex)->GetStaticField(0x3120);
+		}
+		static ::System::Func_2<::System::ComponentModel::AsyncCompletedEventArgs*, ::System::Object*>** StaticGet___9__233_1()
+		{
+			return (::System::Func_2<::System::ComponentModel::AsyncCompletedEventArgs*, ::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(WebClient___c_TypeDefinitionIndex)->GetStaticField(0x3128);
+		}
+		static ::System::Func_2<::System::Net::DownloadStringCompletedEventArgs*, ::System::String*>** StaticGet___9__219_1()
+		{
+			return (::System::Func_2<::System::Net::DownloadStringCompletedEventArgs*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(WebClient___c_TypeDefinitionIndex)->GetStaticField(0x3130);
+		}
+		static ::System::Func_2<::System::Net::OpenReadCompletedEventArgs*, ::System::IO::Stream*>** StaticGet___9__221_1()
+		{
+			return (::System::Func_2<::System::Net::OpenReadCompletedEventArgs*, ::System::IO::Stream*>**)Il2CppClass::FromTypeDefinitionIndex(WebClient___c_TypeDefinitionIndex)->GetStaticField(0x3138);
+		}
+		static ::System::Func_2<::System::Net::UploadValuesCompletedEventArgs*, ::Il2CppArray<::System::Byte>*>** StaticGet___9__245_1()
+		{
+			return (::System::Func_2<::System::Net::UploadValuesCompletedEventArgs*, ::Il2CppArray<::System::Byte>*>**)Il2CppClass::FromTypeDefinitionIndex(WebClient___c_TypeDefinitionIndex)->GetStaticField(0x3140);
 		}
 
 		static ::System::Void _cctor()

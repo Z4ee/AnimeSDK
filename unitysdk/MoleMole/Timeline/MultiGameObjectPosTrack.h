@@ -7,12 +7,12 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define MOLEMOLE_TIMELINE_MULTIGAMEOBJECTPOSTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1DD94DD0)
-#define MOLEMOLE_TIMELINE_MULTIGAMEOBJECTPOSTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD95340)
+#define MOLEMOLE_TIMELINE_MULTIGAMEOBJECTPOSTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1F111AE0)
+#define MOLEMOLE_TIMELINE_MULTIGAMEOBJECTPOSTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1F111FF0)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int MultiGameObjectPosTrack_TypeDefinitionIndex = 32228;
+	inline static constexpr unsigned int MultiGameObjectPosTrack_TypeDefinitionIndex = 32858;
 
 	class MultiGameObjectPosTrack : public ::UnityEngine::Timeline::TrackAsset
 	{

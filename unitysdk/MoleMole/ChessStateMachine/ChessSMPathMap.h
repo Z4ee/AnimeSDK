@@ -6,11 +6,11 @@ class Class_1_13AC300048CDEA17;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CHESSSTATEMACHINE_CHESSSMPATHMAP__CTOR_OFFSET UNITYSDK_OFFSET(0x12B97A90)
+#define MOLEMOLE_CHESSSTATEMACHINE_CHESSSMPATHMAP__CTOR_OFFSET UNITYSDK_OFFSET(0x14358DA0)
 
 namespace MoleMole::ChessStateMachine
 {
-	inline static constexpr unsigned int ChessSMPathMap_TypeDefinitionIndex = 77262;
+	inline static constexpr unsigned int ChessSMPathMap_TypeDefinitionIndex = 57929;
 
 	class ChessSMPathMap : public ::Sirenix::OdinInspector::SerializedScriptableObject
 	{

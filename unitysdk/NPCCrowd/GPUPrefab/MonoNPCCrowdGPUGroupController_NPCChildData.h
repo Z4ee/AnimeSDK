@@ -11,7 +11,7 @@ namespace UnityEngine { class Transform; }
 
 namespace NPCCrowd::GPUPrefab
 {
-	inline static constexpr unsigned int MonoNPCCrowdGPUGroupController_NPCChildData_TypeDefinitionIndex = 47433;
+	inline static constexpr unsigned int MonoNPCCrowdGPUGroupController_NPCChildData_TypeDefinitionIndex = 56497;
 
 	struct alignas(8) MonoNPCCrowdGPUGroupController_NPCChildData
 	{

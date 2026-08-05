@@ -3,11 +3,11 @@
 #include "unitysdk/Enum_3_15A8EF2824547B27.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIRELICSELECTCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x11B9C9C0)
+#define MOLEMOLE_UIRELICSELECTCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15101EC0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRelicSelectContext_TypeDefinitionIndex = 56587;
+	inline static constexpr unsigned int UIRelicSelectContext_TypeDefinitionIndex = 61476;
 
 	class UIRelicSelectContext : public ::MoleMole::UIControllerContextBase
 	{

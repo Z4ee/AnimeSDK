@@ -5,12 +5,12 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_UIDEFENCELARGETVSETTING_METHOD_5_98F5AAA93BF786AA_OFFSET UNITYSDK_OFFSET(0x167759F0)
-#define MOLEMOLE_UIDEFENCELARGETVSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x167757C0)
+#define MOLEMOLE_UIDEFENCELARGETVSETTING_METHOD_5_5BCE9210F4ACDD0B_OFFSET UNITYSDK_OFFSET(0x18AAD390)
+#define MOLEMOLE_UIDEFENCELARGETVSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x18AAD180)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIDefenceLargeTVSetting_TypeDefinitionIndex = 53927;
+	inline static constexpr unsigned int UIDefenceLargeTVSetting_TypeDefinitionIndex = 72808;
 
 	class UIDefenceLargeTVSetting : public ::UnityEngine::MonoBehaviour
 	{
@@ -29,9 +29,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIDEFENCELARGETVSETTING__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_5_98F5AAA93BF786AA()
+		::System::Void Method_5_5BCE9210F4ACDD0B()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIDEFENCELARGETVSETTING_METHOD_5_98F5AAA93BF786AA_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIDEFENCELARGETVSETTING_METHOD_5_5BCE9210F4ACDD0B_OFFSET))(this);
 		}
 	};
 }

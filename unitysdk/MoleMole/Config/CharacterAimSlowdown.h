@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int CharacterAimSlowdown_TypeDefinitionIndex = 69876;
+	inline static constexpr unsigned int CharacterAimSlowdown_TypeDefinitionIndex = 68542;
 
 	struct alignas(8) CharacterAimSlowdown
 	{

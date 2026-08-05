@@ -5,39 +5,39 @@
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Reflection { class CustomAttributeData; }
 
-#define SQLITE_ORM___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D634880)
-#define SQLITE_ORM___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6348C0)
-#define SQLITE_ORM___C__ISAUTOINC_B__8_0_OFFSET UNITYSDK_OFFSET(0x1D634930)
-#define SQLITE_ORM___C__ISFALLBACKONERROR_B__16_0_OFFSET UNITYSDK_OFFSET(0x1D6349F0)
-#define SQLITE_ORM___C__ISMARKEDNOTNULL_B__15_0_OFFSET UNITYSDK_OFFSET(0x1D634990)
-#define SQLITE_ORM___C__ISPK_B__6_0_OFFSET UNITYSDK_OFFSET(0x1D6348D0)
+#define SQLITE_ORM___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E9FC720)
+#define SQLITE_ORM___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1E9FC760)
+#define SQLITE_ORM___C__ISAUTOINC_B__8_0_OFFSET UNITYSDK_OFFSET(0x1E9FC7D0)
+#define SQLITE_ORM___C__ISFALLBACKONERROR_B__16_0_OFFSET UNITYSDK_OFFSET(0x1E9FC890)
+#define SQLITE_ORM___C__ISMARKEDNOTNULL_B__15_0_OFFSET UNITYSDK_OFFSET(0x1E9FC830)
+#define SQLITE_ORM___C__ISPK_B__6_0_OFFSET UNITYSDK_OFFSET(0x1E9FC770)
 
 namespace SQLite
 {
-	inline static constexpr unsigned int Orm___c_TypeDefinitionIndex = 38404;
+	inline static constexpr unsigned int Orm___c_TypeDefinitionIndex = 39065;
 
 	class Orm___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Reflection::CustomAttributeData*, ::System::Boolean>** StaticGet___9__15_0()
-		{
-			return (::System::Func_2<::System::Reflection::CustomAttributeData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Orm___c_TypeDefinitionIndex)->GetStaticField(0x28F70);
-		}
 		static ::System::Func_2<::System::Reflection::CustomAttributeData*, ::System::Boolean>** StaticGet___9__6_0()
 		{
-			return (::System::Func_2<::System::Reflection::CustomAttributeData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Orm___c_TypeDefinitionIndex)->GetStaticField(0x28F78);
+			return (::System::Func_2<::System::Reflection::CustomAttributeData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Orm___c_TypeDefinitionIndex)->GetStaticField(0x2A8A0);
 		}
 		static ::System::Func_2<::System::Reflection::CustomAttributeData*, ::System::Boolean>** StaticGet___9__8_0()
 		{
-			return (::System::Func_2<::System::Reflection::CustomAttributeData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Orm___c_TypeDefinitionIndex)->GetStaticField(0x28F80);
+			return (::System::Func_2<::System::Reflection::CustomAttributeData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Orm___c_TypeDefinitionIndex)->GetStaticField(0x2A8A8);
 		}
-		static ::SQLite::Orm___c** StaticGet___9()
+		static ::System::Func_2<::System::Reflection::CustomAttributeData*, ::System::Boolean>** StaticGet___9__15_0()
 		{
-			return (::SQLite::Orm___c**)Il2CppClass::FromTypeDefinitionIndex(Orm___c_TypeDefinitionIndex)->GetStaticField(0x28F88);
+			return (::System::Func_2<::System::Reflection::CustomAttributeData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Orm___c_TypeDefinitionIndex)->GetStaticField(0x2A8B0);
 		}
 		static ::System::Func_2<::System::Reflection::CustomAttributeData*, ::System::Boolean>** StaticGet___9__16_0()
 		{
-			return (::System::Func_2<::System::Reflection::CustomAttributeData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Orm___c_TypeDefinitionIndex)->GetStaticField(0x28F90);
+			return (::System::Func_2<::System::Reflection::CustomAttributeData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Orm___c_TypeDefinitionIndex)->GetStaticField(0x2A8B8);
+		}
+		static ::SQLite::Orm___c** StaticGet___9()
+		{
+			return (::SQLite::Orm___c**)Il2CppClass::FromTypeDefinitionIndex(Orm___c_TypeDefinitionIndex)->GetStaticField(0x2A8C0);
 		}
 
 		static ::System::Void _cctor()

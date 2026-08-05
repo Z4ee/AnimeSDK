@@ -7,7 +7,7 @@ namespace System { class Delegate; }
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int UniversalDelegateParam_1___c__DisplayClass6_0_TypeDefinitionIndex = 30427;
+	inline static constexpr unsigned int UniversalDelegateParam_1___c__DisplayClass6_0_TypeDefinitionIndex = 30126;
 
 	template <typename T>
 	class UniversalDelegateParam_1___c__DisplayClass6_0 : public ::System::Object

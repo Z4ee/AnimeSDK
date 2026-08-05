@@ -2,18 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Foundation/MihoyoSerializedScriptableObject.h"
 
-namespace MoleMole { class ChatPlusTimelineExtraData; }
 namespace MoleMole { class TimelineDataExtra; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIGTIMELINEDATAEXTRA_GET_CHATPLUSTIMELINEEXTRADATAS_OFFSET UNITYSDK_OFFSET(0x158D5280)
-#define MOLEMOLE_CONFIGTIMELINEDATAEXTRA_SET_CHATPLUSTIMELINEEXTRADATAS_OFFSET UNITYSDK_OFFSET(0x158D54C0)
-#define MOLEMOLE_CONFIGTIMELINEDATAEXTRA__CTOR_OFFSET UNITYSDK_OFFSET(0x158D54D0)
+#define MOLEMOLE_CONFIGTIMELINEDATAEXTRA_ENSURETIMELINEEXTRADATASDEFAULTTYPES_OFFSET UNITYSDK_OFFSET(0x1A94D960)
+#define MOLEMOLE_CONFIGTIMELINEDATAEXTRA_ONTIMELINEEXTRADATASCOLLECTIONCHANGED_OFFSET UNITYSDK_OFFSET(0x1A94D910)
+#define MOLEMOLE_CONFIGTIMELINEDATAEXTRA__CTOR_OFFSET UNITYSDK_OFFSET(0x1A94DD80)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigTimelineDataExtra_TypeDefinitionIndex = 56720;
+	inline static constexpr unsigned int ConfigTimelineDataExtra_TypeDefinitionIndex = 45765;
 
 	class ConfigTimelineDataExtra : public ::Foundation::MihoyoSerializedScriptableObject
 	{
@@ -27,14 +26,14 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGTIMELINEDATAEXTRA__CTOR_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::ChatPlusTimelineExtraData*>* get_chatPlusTimelineExtraDatas()
+		::System::Void OnTimelineExtraDatasCollectionChanged()
 		{
-			return ((::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::ChatPlusTimelineExtraData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGTIMELINEDATAEXTRA_GET_CHATPLUSTIMELINEEXTRADATAS_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGTIMELINEDATAEXTRA_ONTIMELINEEXTRADATASCOLLECTIONCHANGED_OFFSET))(this);
 		}
 
-		::System::Void set_chatPlusTimelineExtraDatas(::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::ChatPlusTimelineExtraData*>* value)
+		::System::Void EnsureTimelineExtraDatasDefaultTypes()
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::ChatPlusTimelineExtraData*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGTIMELINEDATAEXTRA_SET_CHATPLUSTIMELINEEXTRADATAS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGTIMELINEDATAEXTRA_ENSURETIMELINEEXTRADATASDEFAULTTYPES_OFFSET))(this);
 		}
 	};
 }

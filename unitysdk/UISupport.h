@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define UISUPPORT_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1DD7CB40)
+#define UISUPPORT_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1F166A40)
 
-inline static constexpr unsigned int UISupport_TypeDefinitionIndex = 31502;
+inline static constexpr unsigned int UISupport_TypeDefinitionIndex = 32122;
 
 class UISupport : public ::System::Object
 {

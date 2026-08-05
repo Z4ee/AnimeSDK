@@ -8,7 +8,7 @@ namespace UnityEngine::Timeline { class TrackAsset; }
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int ICurvesOwner_TypeDefinitionIndex = 32261;
+	inline static constexpr unsigned int ICurvesOwner_TypeDefinitionIndex = 32892;
 
 	class ICurvesOwner
 	{

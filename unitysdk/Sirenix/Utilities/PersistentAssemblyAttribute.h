@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SIRENIX_UTILITIES_PERSISTENTASSEMBLYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DE53500)
+#define SIRENIX_UTILITIES_PERSISTENTASSEMBLYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F261190)
 
 namespace Sirenix::Utilities
 {
-	inline static constexpr unsigned int PersistentAssemblyAttribute_TypeDefinitionIndex = 6504;
+	inline static constexpr unsigned int PersistentAssemblyAttribute_TypeDefinitionIndex = 6508;
 
 	class PersistentAssemblyAttribute : public ::System::Attribute
 	{

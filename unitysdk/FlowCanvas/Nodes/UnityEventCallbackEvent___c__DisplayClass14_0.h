@@ -4,12 +4,12 @@
 
 namespace FlowCanvas::Nodes { class UnityEventCallbackEvent; }
 
-#define FLOWCANVAS_NODES_UNITYEVENTCALLBACKEVENT___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6204E0)
-#define FLOWCANVAS_NODES_UNITYEVENTCALLBACKEVENT___C__DISPLAYCLASS14_0__REGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x1C6204F0)
+#define FLOWCANVAS_NODES_UNITYEVENTCALLBACKEVENT___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1DAD7F80)
+#define FLOWCANVAS_NODES_UNITYEVENTCALLBACKEVENT___C__DISPLAYCLASS14_0__REGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x1DAD7F90)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int UnityEventCallbackEvent___c__DisplayClass14_0_TypeDefinitionIndex = 29534;
+	inline static constexpr unsigned int UnityEventCallbackEvent___c__DisplayClass14_0_TypeDefinitionIndex = 30373;
 
 	class UnityEventCallbackEvent___c__DisplayClass14_0 : public ::System::Object
 	{

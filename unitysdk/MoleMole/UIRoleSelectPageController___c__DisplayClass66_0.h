@@ -4,12 +4,12 @@
 
 class Class_2_1824EF69C8E376A3;
 
-#define MOLEMOLE_UIROLESELECTPAGECONTROLLER___C__DISPLAYCLASS66_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1668DE80)
-#define MOLEMOLE_UIROLESELECTPAGECONTROLLER___C__DISPLAYCLASS66_0__ONSHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1668DE90)
+#define MOLEMOLE_UIROLESELECTPAGECONTROLLER___C__DISPLAYCLASS66_0__CTOR_OFFSET UNITYSDK_OFFSET(0x179BBD40)
+#define MOLEMOLE_UIROLESELECTPAGECONTROLLER___C__DISPLAYCLASS66_0__ONSHOW_B__0_OFFSET UNITYSDK_OFFSET(0x179BBD50)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRoleSelectPageController___c__DisplayClass66_0_TypeDefinitionIndex = 76907;
+	inline static constexpr unsigned int UIRoleSelectPageController___c__DisplayClass66_0_TypeDefinitionIndex = 47751;
 
 	class UIRoleSelectPageController___c__DisplayClass66_0 : public ::System::Object
 	{

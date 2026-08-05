@@ -5,11 +5,11 @@
 
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_TIMELINE_IKBINDTARGETBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x17DF7090)
+#define MOLEMOLE_TIMELINE_IKBINDTARGETBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x190BDBA0)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int IKBindTargetBehaviour_TypeDefinitionIndex = 65317;
+	inline static constexpr unsigned int IKBindTargetBehaviour_TypeDefinitionIndex = 54856;
 
 	class IKBindTargetBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{

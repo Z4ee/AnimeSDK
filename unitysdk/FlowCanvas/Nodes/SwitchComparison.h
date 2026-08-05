@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FlowCanvas/Nodes/FlowControlNode.h"
 
-#define FLOWCANVAS_NODES_SWITCHCOMPARISON_ISCHOICENODE_OFFSET UNITYSDK_OFFSET(0x1D81EF60)
-#define FLOWCANVAS_NODES_SWITCHCOMPARISON_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1D81EE20)
-#define FLOWCANVAS_NODES_SWITCHCOMPARISON__CTOR_OFFSET UNITYSDK_OFFSET(0x1D81EF70)
+#define FLOWCANVAS_NODES_SWITCHCOMPARISON_ISCHOICENODE_OFFSET UNITYSDK_OFFSET(0x1EB91340)
+#define FLOWCANVAS_NODES_SWITCHCOMPARISON_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1EB91200)
+#define FLOWCANVAS_NODES_SWITCHCOMPARISON__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB91350)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int SwitchComparison_TypeDefinitionIndex = 29328;
+	inline static constexpr unsigned int SwitchComparison_TypeDefinitionIndex = 31117;
 
 	class SwitchComparison : public ::FlowCanvas::Nodes::FlowControlNode
 	{

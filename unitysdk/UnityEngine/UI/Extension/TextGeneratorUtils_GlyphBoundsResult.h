@@ -6,7 +6,7 @@
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int TextGeneratorUtils_GlyphBoundsResult_TypeDefinitionIndex = 72739;
+	inline static constexpr unsigned int TextGeneratorUtils_GlyphBoundsResult_TypeDefinitionIndex = 83741;
 
 	struct alignas(4) TextGeneratorUtils_GlyphBoundsResult
 	{
@@ -14,6 +14,7 @@ namespace UnityEngine::UI::Extension
 		::UnityEngine::Vector2 topRight; // 0x18
 		::UnityEngine::Vector2 bottomRight; // 0x20
 		::UnityEngine::Vector2 bottomLeft; // 0x28
-		::UnityEngine::Color32 underlineColor; // 0x30
+		::UnityEngine::Color32 color; // 0x30
+		::UnityEngine::Color32 underlineColor; // 0x34
 	};
 }

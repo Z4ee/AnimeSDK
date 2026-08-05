@@ -6,7 +6,7 @@ namespace Nap::NapECS { class EcsComponent; }
 
 namespace Nap::NapECS
 {
-	inline static constexpr unsigned int IEcsComponentList_TypeDefinitionIndex = 37346;
+	inline static constexpr unsigned int IEcsComponentList_TypeDefinitionIndex = 37969;
 
 	class IEcsComponentList
 	{

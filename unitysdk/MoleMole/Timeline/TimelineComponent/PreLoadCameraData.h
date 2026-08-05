@@ -4,12 +4,12 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define MOLEMOLE_TIMELINE_TIMELINECOMPONENT_PRELOADCAMERADATA__CTOR_1_OFFSET UNITYSDK_OFFSET(0x160FE6E0)
-#define MOLEMOLE_TIMELINE_TIMELINECOMPONENT_PRELOADCAMERADATA__CTOR_OFFSET UNITYSDK_OFFSET(0x160FE6C0)
+#define MOLEMOLE_TIMELINE_TIMELINECOMPONENT_PRELOADCAMERADATA__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1999D260)
+#define MOLEMOLE_TIMELINE_TIMELINECOMPONENT_PRELOADCAMERADATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1999D240)
 
 namespace MoleMole::Timeline::TimelineComponent
 {
-	inline static constexpr unsigned int PreLoadCameraData_TypeDefinitionIndex = 76144;
+	inline static constexpr unsigned int PreLoadCameraData_TypeDefinitionIndex = 81688;
 
 	class PreLoadCameraData : public ::System::Object
 	{

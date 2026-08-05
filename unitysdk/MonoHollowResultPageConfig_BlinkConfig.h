@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-inline static constexpr unsigned int MonoHollowResultPageConfig_BlinkConfig_TypeDefinitionIndex = 74966;
+inline static constexpr unsigned int MonoHollowResultPageConfig_BlinkConfig_TypeDefinitionIndex = 41015;
 
 struct alignas(4) MonoHollowResultPageConfig_BlinkConfig
 {

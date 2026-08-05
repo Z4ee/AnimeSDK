@@ -5,12 +5,12 @@
 #include "unitysdk/UnityEngine/Rendering/SphericalHarmonicsL2.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_GICONFIG_GICONFIGGETKODAMAGIPARAMS_OFFSET UNITYSDK_OFFSET(0x1B7F3920)
-#define UNITYENGINE_RENDERING_UNIVERSAL_GICONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7F3AB0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_GICONFIG_GICONFIGGETKODAMAGIPARAMS_OFFSET UNITYSDK_OFFSET(0x1CB105D0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_GICONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB10760)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int GIConfig_TypeDefinitionIndex = 27079;
+	inline static constexpr unsigned int GIConfig_TypeDefinitionIndex = 27299;
 
 	class GIConfig : public ::System::Object
 	{

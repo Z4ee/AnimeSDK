@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define SIRENIX_ODININSPECTOR_MAXVALUEATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E329970)
-#define SIRENIX_ODININSPECTOR_MAXVALUEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E329960)
+#define SIRENIX_ODININSPECTOR_MAXVALUEATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F770D00)
+#define SIRENIX_ODININSPECTOR_MAXVALUEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F770CF0)
 
 namespace Sirenix::OdinInspector
 {
-	inline static constexpr unsigned int MaxValueAttribute_TypeDefinitionIndex = 7327;
+	inline static constexpr unsigned int MaxValueAttribute_TypeDefinitionIndex = 7331;
 
 	class MaxValueAttribute : public ::System::Attribute
 	{

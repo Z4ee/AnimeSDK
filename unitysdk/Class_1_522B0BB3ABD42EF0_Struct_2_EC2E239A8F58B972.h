@@ -10,20 +10,20 @@
 class Class_1_522B0BB3ABD42EF0;
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define CLASS_1_522B0BB3ABD42EF0_STRUCT_2_EC2E239A8F58B972_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x67E010)
-#define CLASS_1_522B0BB3ABD42EF0_STRUCT_2_EC2E239A8F58B972_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x283610)
+#define CLASS_1_522B0BB3ABD42EF0_STRUCT_2_EC2E239A8F58B972_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x7566F0)
+#define CLASS_1_522B0BB3ABD42EF0_STRUCT_2_EC2E239A8F58B972_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x296F30)
 
-inline static constexpr unsigned int Class_1_522B0BB3ABD42EF0_Struct_2_EC2E239A8F58B972_TypeDefinitionIndex = 41929;
+inline static constexpr unsigned int Class_1_522B0BB3ABD42EF0_Struct_2_EC2E239A8F58B972_TypeDefinitionIndex = 67983;
 
 struct alignas(8) Class_1_522B0BB3ABD42EF0_Struct_2_EC2E239A8F58B972
 {
-	::Cysharp::Threading::Tasks::UniTask_1_Awaiter<::System::Int32> Field_2_6; // 0x10
-	::Class_1_522B0BB3ABD42EF0* Field_2_2; // 0x20
-	::PipelineCamera::ScopedDelegateHandle Field_2_3; // 0x28
-	::Cysharp::Threading::Tasks::UniTask_Awaiter Field_2_4; // 0x30
-	::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskVoidMethodBuilder Field_2_1; // 0x40
-	::Class_1_522B0BB3ABD42EF0_Struct_2_486D88986C0FC677 Field_2_5; // 0x48
-	::System::Int32 Field_2_0; // 0x50
+	::Class_1_522B0BB3ABD42EF0* Field_2_7; // 0x10
+	::Cysharp::Threading::Tasks::UniTask_1_Awaiter<::System::Int32> Field_2_11; // 0x18
+	::Cysharp::Threading::Tasks::UniTask_Awaiter Field_2_5; // 0x28
+	::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskVoidMethodBuilder Field_2_0; // 0x38
+	::PipelineCamera::ScopedDelegateHandle Field_2_6; // 0x40
+	::Class_1_522B0BB3ABD42EF0_Struct_2_486D88986C0FC677 Field_2_4; // 0x48
+	::System::Int32 Field_2_1; // 0x50
 
 	::System::Void MoveNext()
 	{

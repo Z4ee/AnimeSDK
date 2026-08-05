@@ -19,21 +19,22 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 
 class Class_2_CDD73C57CE893967;
+class Class_3_06419CA21ECB69E6;
 class Class_3_0D4C1A014C7CC9DE;
 class Class_3_3B42BC0680587011;
-class Class_3_6D73516CC6FEADD7;
+class Class_3_707412604A129938;
 class Class_3_883E597458B91E77;
 class Class_3_AA6DF3A878195D3F;
-class Class_3_B8F2A25A5ADF5CEE;
-class Class_3_CF6254B260CF5CF4;
+class Class_3_C93CC3D2C2AC4067;
 class Class_3_D2084E0C2DD39509;
-class Class_3_DFD5D1FDB9D2A4AC;
+class Class_3_D252341484B6EB1D;
 class Class_3_E2819F45333A39BF;
 class Class_3_F33F9DC5F4112336;
 namespace BehaviorDesigner::Runtime { class SharedBool; }
 namespace BehaviorDesigner::Runtime { class SharedFloat; }
 namespace BehaviorDesigner::Runtime { class SharedString; }
 namespace BehaviorDesigner::Runtime { class SharedVariable; }
+namespace BehaviorDesigner::Runtime { class SharedVector3; }
 namespace MoleMole { class AnimatorBlendData; }
 namespace MoleMole { class AnimatorBlendGroup; }
 namespace MoleMole { class AnimatorClipBlendData; }
@@ -44,161 +45,163 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_BASEMOVE_ALLOCATECONTINUESTICKTASK_OFFSET UNITYSDK_OFFSET(0x1346AA10)
-#define MOLEMOLE_BASEMOVE_CALCULATEPATHINNAVMESH_OFFSET UNITYSDK_OFFSET(0x1346DD80)
-#define MOLEMOLE_BASEMOVE_CANMOVE_OFFSET UNITYSDK_OFFSET(0x1346B020)
-#define MOLEMOLE_BASEMOVE_CHECKHITTEDSTATE_1_OFFSET UNITYSDK_OFFSET(0x1346DEB0)
-#define MOLEMOLE_BASEMOVE_CHECKHITTEDSTATE_OFFSET UNITYSDK_OFFSET(0x134741B0)
-#define MOLEMOLE_BASEMOVE_CLEARLERPPARAMETER_OFFSET UNITYSDK_OFFSET(0x13470F00)
-#define MOLEMOLE_BASEMOVE_CORRECTDIRECTION_OFFSET UNITYSDK_OFFSET(0x134727F0)
-#define MOLEMOLE_BASEMOVE_CUSTOMLERPANGLE_OFFSET UNITYSDK_OFFSET(0x13473730)
-#define MOLEMOLE_BASEMOVE_CUSTOMLERP_OFFSET UNITYSDK_OFFSET(0x134738D0)
-#define MOLEMOLE_BASEMOVE_DEALLOCATECONTINUESTICKTASK_OFFSET UNITYSDK_OFFSET(0x13470F70)
-#define MOLEMOLE_BASEMOVE_GETAITARGETPOS_OFFSET UNITYSDK_OFFSET(0x134718D0)
-#define MOLEMOLE_BASEMOVE_GETANGLE360_OFFSET UNITYSDK_OFFSET(0x13472BD0)
-#define MOLEMOLE_BASEMOVE_GETANGLEXY_OFFSET UNITYSDK_OFFSET(0x13473590)
-#define MOLEMOLE_BASEMOVE_GETAROUNDTARGETPOS_OFFSET UNITYSDK_OFFSET(0x13473A00)
-#define MOLEMOLE_BASEMOVE_GETBLENDDATA_OFFSET UNITYSDK_OFFSET(0x13472DC0)
-#define MOLEMOLE_BASEMOVE_GETHITTEDDIRECTION_OFFSET UNITYSDK_OFFSET(0x1346F240)
-#define MOLEMOLE_BASEMOVE_GETMIRRORANGLE_OFFSET UNITYSDK_OFFSET(0x1346DFF0)
-#define MOLEMOLE_BASEMOVE_GETNEARESTDIRECTION_OFFSET UNITYSDK_OFFSET(0x13473630)
-#define MOLEMOLE_BASEMOVE_GETSELFFORWARD_OFFSET UNITYSDK_OFFSET(0x13471190)
-#define MOLEMOLE_BASEMOVE_GETSELFRIGHT_OFFSET UNITYSDK_OFFSET(0x134714F0)
-#define MOLEMOLE_BASEMOVE_GETTARGETENTITY_OFFSET UNITYSDK_OFFSET(0x13471060)
-#define MOLEMOLE_BASEMOVE_GETTARGET_OFFSET UNITYSDK_OFFSET(0x13471110)
-#define MOLEMOLE_BASEMOVE_ISFREESTYLE_OFFSET UNITYSDK_OFFSET(0x1346DBD0)
-#define MOLEMOLE_BASEMOVE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x13468C00)
-#define MOLEMOLE_BASEMOVE_ONEND_OFFSET UNITYSDK_OFFSET(0x13470DE0)
-#define MOLEMOLE_BASEMOVE_ONSTART_OFFSET UNITYSDK_OFFSET(0x13469730)
-#define MOLEMOLE_BASEMOVE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1346B1E0)
-#define MOLEMOLE_BASEMOVE_SETAROUNDTARGETRANGEANDANGLE_OFFSET UNITYSDK_OFFSET(0x13469EF0)
-#define MOLEMOLE_BASEMOVE_SETBLENDDATA_OFFSET UNITYSDK_OFFSET(0x1346A7B0)
-#define MOLEMOLE_BASEMOVE_TARGETDIRECTIONPOSTPROCESS_OFFSET UNITYSDK_OFFSET(0x1346E070)
-#define MOLEMOLE_BASEMOVE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x134747C0)
-#define MOLEMOLE_BASEMOVE_UPDATEAROUNDTARGETPOS_OFFSET UNITYSDK_OFFSET(0x1346A440)
-#define MOLEMOLE_BASEMOVE_UPDATELERPPARAMETER_OFFSET UNITYSDK_OFFSET(0x13470580)
-#define MOLEMOLE_BASEMOVE__CTOR_OFFSET UNITYSDK_OFFSET(0x13474DD0)
-#define MOLEMOLE_BASEMOVE__GETAROUNDTARGETPOS_G__RANDOMPOS_141_0_OFFSET UNITYSDK_OFFSET(0x13474120)
-#define MOLEMOLE_BASEMOVE___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x13474FE0)
-#define MOLEMOLE_BASEMOVE___BASE_ONEND_OFFSET UNITYSDK_OFFSET(0x13475070)
-#define MOLEMOLE_BASEMOVE___BASE_ONSTART_OFFSET UNITYSDK_OFFSET(0x13475100)
-#define MOLEMOLE_BASEMOVE___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x13475190)
-#define MOLEMOLE_BASEMOVE___BASE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x13475220)
+#define MOLEMOLE_BASEMOVE_ALLOCATECONTINUESTICKTASK_OFFSET UNITYSDK_OFFSET(0x14834260)
+#define MOLEMOLE_BASEMOVE_CALCULATEPATHINNAVMESH_OFFSET UNITYSDK_OFFSET(0x148377A0)
+#define MOLEMOLE_BASEMOVE_CANMOVE_OFFSET UNITYSDK_OFFSET(0x14834870)
+#define MOLEMOLE_BASEMOVE_CHECKHITTEDSTATE_1_OFFSET UNITYSDK_OFFSET(0x148378C0)
+#define MOLEMOLE_BASEMOVE_CHECKHITTEDSTATE_OFFSET UNITYSDK_OFFSET(0x1483DC70)
+#define MOLEMOLE_BASEMOVE_CLEARLERPPARAMETER_OFFSET UNITYSDK_OFFSET(0x1483A700)
+#define MOLEMOLE_BASEMOVE_CORRECTDIRECTION_OFFSET UNITYSDK_OFFSET(0x1483C1D0)
+#define MOLEMOLE_BASEMOVE_CUSTOMLERPANGLE_OFFSET UNITYSDK_OFFSET(0x1483D110)
+#define MOLEMOLE_BASEMOVE_CUSTOMLERP_OFFSET UNITYSDK_OFFSET(0x1483D390)
+#define MOLEMOLE_BASEMOVE_DEALLOCATECONTINUESTICKTASK_OFFSET UNITYSDK_OFFSET(0x1483A770)
+#define MOLEMOLE_BASEMOVE_GETAITARGETPOS_OFFSET UNITYSDK_OFFSET(0x1483B190)
+#define MOLEMOLE_BASEMOVE_GETANGLE360_OFFSET UNITYSDK_OFFSET(0x1483C590)
+#define MOLEMOLE_BASEMOVE_GETANGLEXY_OFFSET UNITYSDK_OFFSET(0x1483CF70)
+#define MOLEMOLE_BASEMOVE_GETAROUNDTARGETPOS_OFFSET UNITYSDK_OFFSET(0x1483D4C0)
+#define MOLEMOLE_BASEMOVE_GETBLENDDATA_OFFSET UNITYSDK_OFFSET(0x1483C780)
+#define MOLEMOLE_BASEMOVE_GETHITTEDDIRECTION_OFFSET UNITYSDK_OFFSET(0x14838BD0)
+#define MOLEMOLE_BASEMOVE_GETMIRRORANGLE_OFFSET UNITYSDK_OFFSET(0x14837A00)
+#define MOLEMOLE_BASEMOVE_GETNEARESTDIRECTION_OFFSET UNITYSDK_OFFSET(0x1483D010)
+#define MOLEMOLE_BASEMOVE_GETSELFFORWARD_OFFSET UNITYSDK_OFFSET(0x1483A980)
+#define MOLEMOLE_BASEMOVE_GETSELFRIGHT_OFFSET UNITYSDK_OFFSET(0x1483ADA0)
+#define MOLEMOLE_BASEMOVE_GETTARGETENTITY_OFFSET UNITYSDK_OFFSET(0x1483A860)
+#define MOLEMOLE_BASEMOVE_GETTARGET_OFFSET UNITYSDK_OFFSET(0x1483A900)
+#define MOLEMOLE_BASEMOVE_ISFREESTYLE_OFFSET UNITYSDK_OFFSET(0x148375F0)
+#define MOLEMOLE_BASEMOVE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x148323E0)
+#define MOLEMOLE_BASEMOVE_ONEND_OFFSET UNITYSDK_OFFSET(0x1483A5E0)
+#define MOLEMOLE_BASEMOVE_ONSTART_OFFSET UNITYSDK_OFFSET(0x14832F10)
+#define MOLEMOLE_BASEMOVE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x14834A30)
+#define MOLEMOLE_BASEMOVE_SETAROUNDTARGETRANGEANDANGLE_OFFSET UNITYSDK_OFFSET(0x14833780)
+#define MOLEMOLE_BASEMOVE_SETBLENDDATA_OFFSET UNITYSDK_OFFSET(0x14834000)
+#define MOLEMOLE_BASEMOVE_TARGETDIRECTIONPOSTPROCESS_OFFSET UNITYSDK_OFFSET(0x14837A80)
+#define MOLEMOLE_BASEMOVE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1483E260)
+#define MOLEMOLE_BASEMOVE_UPDATEAROUNDTARGETPOS_OFFSET UNITYSDK_OFFSET(0x14833CD0)
+#define MOLEMOLE_BASEMOVE_UPDATELERPPARAMETER_OFFSET UNITYSDK_OFFSET(0x14839F20)
+#define MOLEMOLE_BASEMOVE__CTOR_OFFSET UNITYSDK_OFFSET(0x1483E870)
+#define MOLEMOLE_BASEMOVE__GETAROUNDTARGETPOS_G__RANDOMPOS_143_0_OFFSET UNITYSDK_OFFSET(0x1483DBE0)
+#define MOLEMOLE_BASEMOVE___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x1483EA80)
+#define MOLEMOLE_BASEMOVE___BASE_ONEND_OFFSET UNITYSDK_OFFSET(0x1483EB10)
+#define MOLEMOLE_BASEMOVE___BASE_ONSTART_OFFSET UNITYSDK_OFFSET(0x1483EBA0)
+#define MOLEMOLE_BASEMOVE___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1483EC30)
+#define MOLEMOLE_BASEMOVE___BASE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1483ECC0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int BaseMove_TypeDefinitionIndex = 44561;
+	inline static constexpr unsigned int BaseMove_TypeDefinitionIndex = 49945;
 
 	class BaseMove : public ::BehaviorDesigner::Runtime::Tasks::ContinuesTickAction
 	{
 	public:
-		::BehaviorDesigner::Runtime::SharedVariable* canIdleVar; // 0x58
-		::BehaviorDesigner::Runtime::SharedBool* ApplyAvoidObstacle; // 0x60
-		::System::String* AsideVerticalCurveKey; // 0x68
-		::Class_3_883E597458B91E77* characterMovement; // 0x70
-		::System::String* AsideHorizontalCurveKey; // 0x78
-		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x80
-		::MoleMole::AnimatorBlendData* _blendData; // 0x88
-		::BehaviorDesigner::Runtime::SharedBool* AroundFaceToAttackTarget; // 0x90
-		::BehaviorDesigner::Runtime::SharedString* TargetSavePointName; // 0x98
-		::System::String* SavePointTargetCustomKey; // 0xA0
-		::BehaviorDesigner::Runtime::SharedFloat* minDistanceNegtive; // 0xA8
-		::BehaviorDesigner::Runtime::SharedFloat* minDistance; // 0xB0
-		::Class_3_DFD5D1FDB9D2A4AC* characterModel; // 0xB8
-		::Class_3_D2084E0C2DD39509* navmeshAgentComponent; // 0xC0
-		::Class_3_F33F9DC5F4112336* animCharacter; // 0xC8
-		::BehaviorDesigner::Runtime::SharedFloat* AroundAngleMin; // 0xD0
-		::MoleMole::Battle::Entity* ownerEntity; // 0xD8
-		::Class_3_B8F2A25A5ADF5CEE* characterData; // 0xE0
-		::BehaviorDesigner::Runtime::SharedFloat* SteerMaxThinkTime; // 0xE8
-		::BehaviorDesigner::Runtime::SharedString* targetGroupPoint; // 0xF0
-		::BehaviorDesigner::Runtime::SharedFloat* HitCheckRadius; // 0xF8
-		::BehaviorDesigner::Runtime::SharedString* targetFloorPoint; // 0x100
-		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* _recheckcheckStartPos; // 0x108
-		::BehaviorDesigner::Runtime::SharedFloat* CollisionCheckWidth; // 0x110
-		::BehaviorDesigner::Runtime::SharedString* selfForwardAttachPoint; // 0x118
-		::BehaviorDesigner::Runtime::SharedFloat* minDistancePositive; // 0x120
-		::BehaviorDesigner::Runtime::SharedVariable* steerLengthVar; // 0x128
-		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* _checkStartPos; // 0x130
-		::Class_3_CF6254B260CF5CF4* attackTargetComponent; // 0x138
-		::BehaviorDesigner::Runtime::SharedFloat* SteerMinThinkTime; // 0x140
-		::BehaviorDesigner::Runtime::SharedFloat* AroundRange; // 0x148
-		::BehaviorDesigner::Runtime::SharedBool* bSkipNearPoint; // 0x150
-		::UnityEngine::Transform* _selfForwardPoint; // 0x158
-		::BehaviorDesigner::Runtime::SharedFloat* AroundRangeMin; // 0x160
-		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* calculatePath; // 0x168
-		::BehaviorDesigner::Runtime::SharedString* targetAnchorName; // 0x170
-		::Class_2_CDD73C57CE893967* baseMoveTask; // 0x178
-		::MoleMole::SkillCharacterScriptConfig* config; // 0x180
-		::BehaviorDesigner::Runtime::SharedFloat* SkipPointDistance; // 0x188
-		::BehaviorDesigner::Runtime::SharedFloat* moveTime; // 0x190
-		::BehaviorDesigner::Runtime::SharedString* targetAttachPoint; // 0x198
-		::BehaviorDesigner::Runtime::SharedFloat* AroundAngleMax; // 0x1A0
-		::Class_3_0D4C1A014C7CC9DE* levelaiComponent; // 0x1A8
-		::Class_3_3B42BC0680587011* inputComp; // 0x1B0
-		::System::String* TargetAngleCurve; // 0x1B8
-		::BehaviorDesigner::Runtime::SharedFloat* maxDistance; // 0x1C0
-		::Class_3_AA6DF3A878195D3F* steerComponent; // 0x1C8
-		::BehaviorDesigner::Runtime::SharedFloat* AroundRangeMax; // 0x1D0
-		::BehaviorDesigner::Runtime::SharedVariable* steerVar; // 0x1D8
-		::Class_3_E2819F45333A39BF* characterBattle; // 0x1E0
-		::Class_3_6D73516CC6FEADD7* aiComponent; // 0x1E8
-		::UnityEngine::Vector3 _checkBefore; // 0x1F0
-		::System::Single _idleThinkTimer; // 0x1FC
-		::System::Single _lastAngle; // 0x200
-		::UnityEngine::Vector3 TargetSourceVec; // 0x204
-		::MoleMole::BaseMove_AIMoveTargetState _moveState; // 0x210
-		::System::Boolean _isBlendMoving; // 0x214
-		::System::Boolean applyMoveTime; // 0x215
-		::MoleMole::BaseMove_TypeOfAngleCheck TypeOfChecking; // 0x218
-		::UnityEngine::LayerMask _collisionLayerMask; // 0x21C
-		::MoleMole::BaseMove_AroundAxis Axis; // 0x220
-		::MoleMole::Config::Boolean IgnoreTimeScale; // 0x224
-		::UnityEngine::Vector3 _lastForce; // 0x228
-		::MoleMole::Config::BaseMoveType MoveType; // 0x234
-		::System::Int32 _slotIndex; // 0x238
-		::MoleMole::AIMoveTargetType type; // 0x23C
-		::System::Single _fixMinDistance; // 0x240
-		::BehaviorDesigner::Runtime::Tasks::TaskStatus reachMinRst; // 0x244
-		::System::Int32 _moveType; // 0x248
-		::UnityEngine::RaycastHit _hitInfo; // 0x24C
-		::MoleMole::BaseMove_AroundUpdateMode AroundMode; // 0x280
-		::MoleMole::BaseMove_EAroundMoveMode AroundMoveMode; // 0x284
-		::System::Single _selectTargetDir; // 0x288
-		::System::Single RandomAroundAngle; // 0x28C
-		::System::Single AroundDirRefreshInterval; // 0x290
-		::System::Single AngleMin; // 0x294
-		::System::Single _asideTimer; // 0x298
-		::System::Boolean TestSteerLog; // 0x29C
-		::System::Boolean IsSymmetry; // 0x29D
-		::System::Boolean applyMinDistanceRange; // 0x29E
-		::System::Boolean IsTargetAngleCurveMirror; // 0x29F
-		::System::Single angleOffsetA; // 0x2A0
-		::System::Single _curTargetAngle; // 0x2A4
+		::BehaviorDesigner::Runtime::SharedFloat* maxDistance; // 0x58
+		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x60
+		::Class_3_06419CA21ECB69E6* attackTargetComponent; // 0x68
+		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* _checkStartPos; // 0x70
+		::BehaviorDesigner::Runtime::SharedString* TargetSavePointName; // 0x78
+		::Class_3_0D4C1A014C7CC9DE* levelaiComponent; // 0x80
+		::BehaviorDesigner::Runtime::SharedFloat* SkipPointDistance; // 0x88
+		::System::String* TargetAngleCurve; // 0x90
+		::BehaviorDesigner::Runtime::SharedString* selfForwardAttachPoint; // 0x98
+		::UnityEngine::Transform* _selfForwardPoint; // 0xA0
+		::BehaviorDesigner::Runtime::SharedFloat* moveTime; // 0xA8
+		::Class_3_C93CC3D2C2AC4067* characterModel; // 0xB0
+		::BehaviorDesigner::Runtime::SharedFloat* HitCheckRadius; // 0xB8
+		::MoleMole::AnimatorBlendData* _blendData; // 0xC0
+		::Class_3_D252341484B6EB1D* aiComponent; // 0xC8
+		::MoleMole::SkillCharacterScriptConfig* config; // 0xD0
+		::BehaviorDesigner::Runtime::SharedVariable* canIdleVar; // 0xD8
+		::BehaviorDesigner::Runtime::SharedFloat* minDistanceNegtive; // 0xE0
+		::BehaviorDesigner::Runtime::SharedFloat* CollisionCheckWidth; // 0xE8
+		::Class_3_AA6DF3A878195D3F* steerComponent; // 0xF0
+		::BehaviorDesigner::Runtime::SharedVariable* steerLengthVar; // 0xF8
+		::BehaviorDesigner::Runtime::SharedBool* ApplyAvoidObstacle; // 0x100
+		::BehaviorDesigner::Runtime::SharedVector3* OverrideBornPos; // 0x108
+		::BehaviorDesigner::Runtime::SharedFloat* SteerMaxThinkTime; // 0x110
+		::BehaviorDesigner::Runtime::SharedBool* AroundFaceToAttackTarget; // 0x118
+		::BehaviorDesigner::Runtime::SharedString* targetAnchorName; // 0x120
+		::BehaviorDesigner::Runtime::SharedFloat* AroundRangeMax; // 0x128
+		::Class_3_883E597458B91E77* characterMovement; // 0x130
+		::BehaviorDesigner::Runtime::SharedString* targetFloorPoint; // 0x138
+		::Class_3_F33F9DC5F4112336* animCharacter; // 0x140
+		::BehaviorDesigner::Runtime::SharedString* targetGroupPoint; // 0x148
+		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* calculatePath; // 0x150
+		::BehaviorDesigner::Runtime::SharedFloat* AroundAngleMin; // 0x158
+		::Class_3_3B42BC0680587011* inputComp; // 0x160
+		::BehaviorDesigner::Runtime::SharedFloat* AroundAngleMax; // 0x168
+		::BehaviorDesigner::Runtime::SharedFloat* minDistancePositive; // 0x170
+		::BehaviorDesigner::Runtime::SharedBool* bSkipNearPoint; // 0x178
+		::BehaviorDesigner::Runtime::SharedFloat* AroundRange; // 0x180
+		::BehaviorDesigner::Runtime::SharedVariable* steerVar; // 0x188
+		::Class_2_CDD73C57CE893967* baseMoveTask; // 0x190
+		::System::String* AsideVerticalCurveKey; // 0x198
+		::BehaviorDesigner::Runtime::SharedFloat* minDistance; // 0x1A0
+		::BehaviorDesigner::Runtime::SharedFloat* AroundRangeMin; // 0x1A8
+		::BehaviorDesigner::Runtime::SharedString* targetAttachPoint; // 0x1B0
+		::Class_3_E2819F45333A39BF* characterBattle; // 0x1B8
+		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* _recheckcheckStartPos; // 0x1C0
+		::BehaviorDesigner::Runtime::SharedFloat* SteerMinThinkTime; // 0x1C8
+		::System::String* AsideHorizontalCurveKey; // 0x1D0
+		::MoleMole::Battle::Entity* ownerEntity; // 0x1D8
+		::Class_3_D2084E0C2DD39509* navmeshAgentComponent; // 0x1E0
+		::Class_3_707412604A129938* characterData; // 0x1E8
+		::System::String* SavePointTargetCustomKey; // 0x1F0
+		::UnityEngine::LayerMask _collisionLayerMask; // 0x1F8
+		::System::Boolean IsSymmetry; // 0x1FC
+		::System::Boolean _isHitted; // 0x1FD
+		::System::Boolean ApplyAngleExitCheck; // 0x1FE
+		::System::Boolean _targetDirLocked; // 0x1FF
+		::System::Single _currentLerp; // 0x200
+		::MoleMole::Config::Boolean IgnoreTimeScale; // 0x204
+		::UnityEngine::Vector3 TargetSourceVec; // 0x208
+		::MoleMole::BaseMove_AroundAxis Axis; // 0x214
+		::System::Int32 _moveType; // 0x218
+		::UnityEngine::Vector3 AroundTargetPos; // 0x21C
+		::BehaviorDesigner::Runtime::Tasks::TaskStatus ExitAngleRst; // 0x228
+		::System::Single AngleMin; // 0x22C
+		::MoleMole::BaseMove_EAroundMoveMode AroundMoveMode; // 0x230
+		::System::Single TestSteerAngle; // 0x234
+		::System::Single _currentLerpK; // 0x238
+		::System::Single angleOffsetA; // 0x23C
+		::System::Single AngleMax; // 0x240
+		::UnityEngine::Vector3 _lastForce; // 0x244
+		::MoleMole::BaseMove_MoveDirectionMode directionMode; // 0x250
+		::System::Single _selectTargetDir; // 0x254
+		::System::Single _lerpAngle; // 0x258
+		::System::Single RandomAroundRange; // 0x25C
+		::System::Single _fixMinDistance; // 0x260
+		::UnityEngine::Vector3 _checkBefore; // 0x264
+		::System::Single _freeTimer; // 0x270
+		::MoleMole::BaseMove_AIMoveTargetState _moveState; // 0x274
+		::BehaviorDesigner::Runtime::Tasks::TaskStatus reachMinRst; // 0x278
+		::MoleMole::BaseMove_TypeOfAngleCheck TypeOfChecking; // 0x27C
+		::System::Boolean IsTargetAngleCurveMirror; // 0x280
+		::System::Boolean TestSteerMode; // 0x281
+		::System::Boolean applyMinDistanceRange; // 0x282
+		::MoleMole::Config::BaseMoveType MoveType; // 0x284
+		::System::Single _followCheckTimer; // 0x288
+		::MoleMole::BaseMove_AroundUpdateMode AroundMode; // 0x28C
+		::System::Single _targetDistance; // 0x290
+		::System::Single randomCurveMirror; // 0x294
+		::BehaviorDesigner::Runtime::Tasks::TaskStatus reachMaxRst; // 0x298
+		::MoleMole::AIMoveTargetType type; // 0x29C
+		::System::Boolean IsOverrideBornPos; // 0x2A0
+		::System::Boolean _isBlendMoving; // 0x2A1
+		::System::Boolean TestSteerLog; // 0x2A2
+		::System::Boolean applyMoveTime; // 0x2A3
+		::System::Single angleOffsetB; // 0x2A4
 		::System::Single AroundDirRefreshMaxDistance; // 0x2A8
-		::System::Single _currentLerp; // 0x2AC
-		::UnityEngine::Vector3 _slotTargetPos; // 0x2B0
-		::UnityEngine::Vector3 AroundTargetPos; // 0x2BC
-		::MoleMole::BaseMove_MoveDirectionMode directionMode; // 0x2C8
-		::BehaviorDesigner::Runtime::Tasks::TaskStatus ExitAngleRst; // 0x2CC
-		::System::Single _currentLerpK; // 0x2D0
-		::System::Single _freeTimer; // 0x2D4
-		::System::Single _moveTimer; // 0x2D8
-		::UnityEngine::Vector3 lastVect; // 0x2DC
-		::System::Single _targetDistance; // 0x2E8
-		::System::Single RandomAroundRange; // 0x2EC
-		::System::Single angleOffsetB; // 0x2F0
-		::System::Single _followCheckTimer; // 0x2F4
-		::BehaviorDesigner::Runtime::Tasks::TaskStatus reachMoveTimeRst; // 0x2F8
-		::BehaviorDesigner::Runtime::Tasks::TaskStatus reachMaxRst; // 0x2FC
-		::System::Single AngleMax; // 0x300
-		::System::Single _lerpAngle; // 0x304
-		::System::Single randomCurveMirror; // 0x308
-		::System::Single TestSteerAngle; // 0x30C
-		::System::Boolean ApplyAngleExitCheck; // 0x310
-		::System::Boolean _isHitted; // 0x311
-		::System::Boolean _targetDirLocked; // 0x312
-		::System::Boolean TestSteerMode; // 0x313
+		::System::Single _idleThinkTimer; // 0x2AC
+		::System::Single AroundDirRefreshInterval; // 0x2B0
+		::System::Single RandomAroundAngle; // 0x2B4
+		::System::Single _asideTimer; // 0x2B8
+		::System::Int32 _slotIndex; // 0x2BC
+		::System::Single _curTargetAngle; // 0x2C0
+		::System::Single _moveTimer; // 0x2C4
+		::System::Single _lastAngle; // 0x2C8
+		::UnityEngine::Vector3 lastVect; // 0x2CC
+		::BehaviorDesigner::Runtime::Tasks::TaskStatus reachMoveTimeRst; // 0x2D8
+		::UnityEngine::Vector3 _slotTargetPos; // 0x2DC
+		::UnityEngine::RaycastHit _hitInfo; // 0x2E8
 
 		::System::Void _ctor()
 		{
@@ -370,9 +373,9 @@ namespace MoleMole
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_BASEMOVE_TOSTRING_OFFSET))(this);
 		}
 
-		static ::UnityEngine::Vector3 _GetAroundTargetPos_g__RandomPos_141_0(::System::Single targetRange, ::UnityEngine::Vector3 pos)
+		static ::UnityEngine::Vector3 _GetAroundTargetPos_g__RandomPos_143_0(::System::Single targetRange, ::UnityEngine::Vector3 pos)
 		{
-			return ((::UnityEngine::Vector3(*)(::System::Single, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + MOLEMOLE_BASEMOVE__GETAROUNDTARGETPOS_G__RANDOMPOS_141_0_OFFSET))(targetRange, pos);
+			return ((::UnityEngine::Vector3(*)(::System::Single, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + MOLEMOLE_BASEMOVE__GETAROUNDTARGETPOS_G__RANDOMPOS_143_0_OFFSET))(targetRange, pos);
 		}
 
 		::System::Void __base_OnAwake()

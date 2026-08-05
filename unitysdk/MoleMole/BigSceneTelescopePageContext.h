@@ -6,21 +6,21 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_BIGSCENETELESCOPEPAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x106ACE80)
+#define MOLEMOLE_BIGSCENETELESCOPEPAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x167EBAF0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int BigSceneTelescopePageContext_TypeDefinitionIndex = 74495;
+	inline static constexpr unsigned int BigSceneTelescopePageContext_TypeDefinitionIndex = 56910;
 
 	class BigSceneTelescopePageContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
 		::System::String* TelescopeConfigKey; // 0x28
-		::System::Single NeraClip; // 0x30
-		::System::Single FarClip; // 0x34
-		::System::Int32 Fov; // 0x38
-		::UnityEngine::Quaternion Rotation; // 0x3C
-		::UnityEngine::Vector3 Position; // 0x4C
+		::System::Single FarClip; // 0x30
+		::System::Int32 Fov; // 0x34
+		::System::Single NeraClip; // 0x38
+		::UnityEngine::Vector3 Position; // 0x3C
+		::UnityEngine::Quaternion Rotation; // 0x48
 
 		::System::Void _ctor()
 		{

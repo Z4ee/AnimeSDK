@@ -6,7 +6,7 @@
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-inline static constexpr unsigned int AMLegIKParamsData_TypeDefinitionIndex = 54646;
+inline static constexpr unsigned int AMLegIKParamsData_TypeDefinitionIndex = 86448;
 
 struct alignas(8) AMLegIKParamsData
 {

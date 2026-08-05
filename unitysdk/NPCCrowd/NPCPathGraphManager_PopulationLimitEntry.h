@@ -4,7 +4,7 @@
 
 namespace NPCCrowd
 {
-	inline static constexpr unsigned int NPCPathGraphManager_PopulationLimitEntry_TypeDefinitionIndex = 42105;
+	inline static constexpr unsigned int NPCPathGraphManager_PopulationLimitEntry_TypeDefinitionIndex = 51826;
 
 	struct alignas(4) NPCPathGraphManager_PopulationLimitEntry
 	{

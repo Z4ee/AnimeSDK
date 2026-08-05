@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIRABStageInfoPopWindowController; }
 
-#define MOLEMOLE_UIRABSTAGEINFOPOPWINDOWCONTROLLER___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1789D1F0)
-#define MOLEMOLE_UIRABSTAGEINFOPOPWINDOWCONTROLLER___C__DISPLAYCLASS9_0__ONUIOPEN_G__ONAFTERREFRESH_0_OFFSET UNITYSDK_OFFSET(0x1789D200)
+#define MOLEMOLE_UIRABSTAGEINFOPOPWINDOWCONTROLLER___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1845CE90)
+#define MOLEMOLE_UIRABSTAGEINFOPOPWINDOWCONTROLLER___C__DISPLAYCLASS9_0__ONUIOPEN_G__ONAFTERREFRESH_0_OFFSET UNITYSDK_OFFSET(0x1845CEA0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRABStageInfoPopWindowController___c__DisplayClass9_0_TypeDefinitionIndex = 49135;
+	inline static constexpr unsigned int UIRABStageInfoPopWindowController___c__DisplayClass9_0_TypeDefinitionIndex = 91172;
 
 	class UIRABStageInfoPopWindowController___c__DisplayClass9_0 : public ::System::Object
 	{

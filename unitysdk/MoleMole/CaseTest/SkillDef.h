@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CASETEST_SKILLDEF__CTOR_OFFSET UNITYSDK_OFFSET(0xE954FC0)
+#define MOLEMOLE_CASETEST_SKILLDEF__CTOR_OFFSET UNITYSDK_OFFSET(0xF128430)
 
 namespace MoleMole::CaseTest
 {
-	inline static constexpr unsigned int SkillDef_TypeDefinitionIndex = 48379;
+	inline static constexpr unsigned int SkillDef_TypeDefinitionIndex = 71795;
 
 	class SkillDef : public ::System::Object
 	{

@@ -3,11 +3,11 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int VerifyBy_TypeDefinitionIndex = 7789;
+	inline static constexpr unsigned int VerifyBy_TypeDefinitionIndex = 7845;
 
 	enum class VerifyBy : ::System::Int32
 	{
-		CRC = 1,
 		Size = 0,
+		CRC = 1,
 	};
 }

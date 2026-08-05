@@ -3,19 +3,19 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define ROOTMOTION_FINALIK_AIMCONTROLLER_AIMLOCALCOORDINATE_GET_RIGHT_OFFSET UNITYSDK_OFFSET(0xA4A770)
-#define ROOTMOTION_FINALIK_AIMCONTROLLER_AIMLOCALCOORDINATE_OFFSET_OFFSET UNITYSDK_OFFSET(0xA4A840)
-#define ROOTMOTION_FINALIK_AIMCONTROLLER_AIMLOCALCOORDINATE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DEA3E80)
+#define ROOTMOTION_FINALIK_AIMCONTROLLER_AIMLOCALCOORDINATE_GET_RIGHT_OFFSET UNITYSDK_OFFSET(0xA9C6A0)
+#define ROOTMOTION_FINALIK_AIMCONTROLLER_AIMLOCALCOORDINATE_OFFSET_OFFSET UNITYSDK_OFFSET(0xA9C740)
+#define ROOTMOTION_FINALIK_AIMCONTROLLER_AIMLOCALCOORDINATE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F28D0D0)
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int AimController_AimLocalCoordinate_TypeDefinitionIndex = 38317;
+	inline static constexpr unsigned int AimController_AimLocalCoordinate_TypeDefinitionIndex = 38934;
 
 	struct alignas(4) AimController_AimLocalCoordinate
 	{
 		static ::RootMotion::FinalIK::AimController_AimLocalCoordinate* StaticGet_Identity()
 		{
-			return (::RootMotion::FinalIK::AimController_AimLocalCoordinate*)Il2CppClass::FromTypeDefinitionIndex(AimController_AimLocalCoordinate_TypeDefinitionIndex)->GetStaticField(0x8DC0);
+			return (::RootMotion::FinalIK::AimController_AimLocalCoordinate*)Il2CppClass::FromTypeDefinitionIndex(AimController_AimLocalCoordinate_TypeDefinitionIndex)->GetStaticField(0x8EB0);
 		}
 		::UnityEngine::Vector3 Origin; // 0x10
 		::UnityEngine::Vector3 Up; // 0x1C

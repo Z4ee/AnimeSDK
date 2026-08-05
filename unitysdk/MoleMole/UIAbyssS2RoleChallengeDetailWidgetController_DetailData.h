@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_UIABYSSS2ROLECHALLENGEDETAILWIDGETCONTROLLER_DETAILDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x15E3BF50)
+#define MOLEMOLE_UIABYSSS2ROLECHALLENGEDETAILWIDGETCONTROLLER_DETAILDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x173CA090)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAbyssS2RoleChallengeDetailWidgetController_DetailData_TypeDefinitionIndex = 56884;
+	inline static constexpr unsigned int UIAbyssS2RoleChallengeDetailWidgetController_DetailData_TypeDefinitionIndex = 54922;
 
 	class UIAbyssS2RoleChallengeDetailWidgetController_DetailData : public ::System::Object
 	{

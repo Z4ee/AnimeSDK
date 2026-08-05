@@ -5,10 +5,10 @@
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define CONFIGCHESSENTITYDATA___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15CF4A10)
-#define CONFIGCHESSENTITYDATA___C__DISPLAYCLASS1_0__RELOADFROMFILEASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x15CF4A20)
+#define CONFIGCHESSENTITYDATA___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17EC87C0)
+#define CONFIGCHESSENTITYDATA___C__DISPLAYCLASS1_0__RELOADFROMFILEASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x17EC87D0)
 
-inline static constexpr unsigned int ConfigChessEntityData___c__DisplayClass1_0_TypeDefinitionIndex = 67017;
+inline static constexpr unsigned int ConfigChessEntityData___c__DisplayClass1_0_TypeDefinitionIndex = 60093;
 
 class ConfigChessEntityData___c__DisplayClass1_0 : public ::System::Object
 {

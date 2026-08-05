@@ -6,7 +6,7 @@ namespace Foundation { template <typename T> class ArrayExt___c__DisplayClass27_
 
 namespace Foundation
 {
-	inline static constexpr unsigned int ArrayExt___c__DisplayClass27_1_1_TypeDefinitionIndex = 8346;
+	inline static constexpr unsigned int ArrayExt___c__DisplayClass27_1_1_TypeDefinitionIndex = 7840;
 
 	template <typename TValue>
 	class ArrayExt___c__DisplayClass27_1_1 : public ::System::Object

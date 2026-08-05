@@ -9,7 +9,7 @@ namespace System { class String; }
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int WriteFlowParameter_1___c__DisplayClass0_0_TypeDefinitionIndex = 30098;
+	inline static constexpr unsigned int WriteFlowParameter_1___c__DisplayClass0_0_TypeDefinitionIndex = 29902;
 
 	template <typename T>
 	class WriteFlowParameter_1___c__DisplayClass0_0 : public ::System::Object

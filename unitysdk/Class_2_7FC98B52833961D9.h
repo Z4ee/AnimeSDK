@@ -7,11 +7,11 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class IDictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define CLASS_2_7FC98B52833961D9_METHOD_2_ECACF35FC5589571_OFFSET UNITYSDK_OFFSET(0x11EA27C0)
-#define CLASS_2_7FC98B52833961D9__CTOR_1_OFFSET UNITYSDK_OFFSET(0x11EA2730)
-#define CLASS_2_7FC98B52833961D9__CTOR_OFFSET UNITYSDK_OFFSET(0x11EA26A0)
+#define CLASS_2_7FC98B52833961D9_METHOD_2_ECACF35FC5589571_OFFSET UNITYSDK_OFFSET(0x18C434F0)
+#define CLASS_2_7FC98B52833961D9__CTOR_1_OFFSET UNITYSDK_OFFSET(0x18C43460)
+#define CLASS_2_7FC98B52833961D9__CTOR_OFFSET UNITYSDK_OFFSET(0x18C433D0)
 
-inline static constexpr unsigned int Class_2_7FC98B52833961D9_TypeDefinitionIndex = 58517;
+inline static constexpr unsigned int Class_2_7FC98B52833961D9_TypeDefinitionIndex = 52854;
 
 class Class_2_7FC98B52833961D9 : public ::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::DownloadFileInfo*>
 {

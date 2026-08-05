@@ -11,47 +11,47 @@ namespace UnrealTypes { class StructParams; }
 namespace UnrealTypes { class StructPropertyParams; }
 namespace UnrealTypes { class UInt8PropertyParams; }
 
-#define STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREEEXTERNALDATADESC_ENSURERUNTIMEINITIALIZE_OFFSET UNITYSDK_OFFSET(0x1E78AC30)
-#define STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREEEXTERNALDATADESC__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E78A580)
+#define STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREEEXTERNALDATADESC_ENSURERUNTIMEINITIALIZE_OFFSET UNITYSDK_OFFSET(0x1FB537C0)
+#define STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREEEXTERNALDATADESC__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FB53110)
 
 namespace StateTreeCore
 {
-	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_StateTreeExternalDataDesc_TypeDefinitionIndex = 30965;
+	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_StateTreeExternalDataDesc_TypeDefinitionIndex = 31569;
 
 	class RegistrationInfo_ScriptStruct_StateTreeExternalDataDesc : public ::System::Object
 	{
 	public:
-		static ::UnrealTypes::StructParams** StaticGet_StructParams()
-		{
-			return (::UnrealTypes::StructParams**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_StateTreeExternalDataDesc_TypeDefinitionIndex)->GetStaticField(0x250F0);
-		}
-		static ::UnrealTypes::ScriptStruct** StaticGet_ScriptStruct()
-		{
-			return (::UnrealTypes::ScriptStruct**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_StateTreeExternalDataDesc_TypeDefinitionIndex)->GetStaticField(0x250F8);
-		}
-		static ::Il2CppArray<::UnrealTypes::PropertyParamsBase*>** StaticGet_Properties()
-		{
-			return (::Il2CppArray<::UnrealTypes::PropertyParamsBase*>**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_StateTreeExternalDataDesc_TypeDefinitionIndex)->GetStaticField(0x25100);
-		}
-		static ::UnrealTypes::ObjectPropertyParams** StaticGet_Property_Struct()
-		{
-			return (::UnrealTypes::ObjectPropertyParams**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_StateTreeExternalDataDesc_TypeDefinitionIndex)->GetStaticField(0x25108);
-		}
-		static ::UnrealTypes::StructPropertyParams** StaticGet_Property_Handle()
-		{
-			return (::UnrealTypes::StructPropertyParams**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_StateTreeExternalDataDesc_TypeDefinitionIndex)->GetStaticField(0x25110);
-		}
 		static ::UnrealTypes::EnumPropertyParams** StaticGet_Property_Requirement()
 		{
-			return (::UnrealTypes::EnumPropertyParams**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_StateTreeExternalDataDesc_TypeDefinitionIndex)->GetStaticField(0x25118);
-		}
-		static ::UnrealTypes::UInt8PropertyParams** StaticGet_Property_Requirement_Underlying()
-		{
-			return (::UnrealTypes::UInt8PropertyParams**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_StateTreeExternalDataDesc_TypeDefinitionIndex)->GetStaticField(0x25120);
+			return (::UnrealTypes::EnumPropertyParams**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_StateTreeExternalDataDesc_TypeDefinitionIndex)->GetStaticField(0x26870);
 		}
 		static ::UnrealTypes::NamePropertyParams** StaticGet_Property_Name()
 		{
-			return (::UnrealTypes::NamePropertyParams**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_StateTreeExternalDataDesc_TypeDefinitionIndex)->GetStaticField(0x25128);
+			return (::UnrealTypes::NamePropertyParams**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_StateTreeExternalDataDesc_TypeDefinitionIndex)->GetStaticField(0x26878);
+		}
+		static ::UnrealTypes::UInt8PropertyParams** StaticGet_Property_Requirement_Underlying()
+		{
+			return (::UnrealTypes::UInt8PropertyParams**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_StateTreeExternalDataDesc_TypeDefinitionIndex)->GetStaticField(0x26880);
+		}
+		static ::UnrealTypes::StructPropertyParams** StaticGet_Property_Handle()
+		{
+			return (::UnrealTypes::StructPropertyParams**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_StateTreeExternalDataDesc_TypeDefinitionIndex)->GetStaticField(0x26888);
+		}
+		static ::UnrealTypes::StructParams** StaticGet_StructParams()
+		{
+			return (::UnrealTypes::StructParams**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_StateTreeExternalDataDesc_TypeDefinitionIndex)->GetStaticField(0x26890);
+		}
+		static ::UnrealTypes::ObjectPropertyParams** StaticGet_Property_Struct()
+		{
+			return (::UnrealTypes::ObjectPropertyParams**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_StateTreeExternalDataDesc_TypeDefinitionIndex)->GetStaticField(0x26898);
+		}
+		static ::Il2CppArray<::UnrealTypes::PropertyParamsBase*>** StaticGet_Properties()
+		{
+			return (::Il2CppArray<::UnrealTypes::PropertyParamsBase*>**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_StateTreeExternalDataDesc_TypeDefinitionIndex)->GetStaticField(0x268A0);
+		}
+		static ::UnrealTypes::ScriptStruct** StaticGet_ScriptStruct()
+		{
+			return (::UnrealTypes::ScriptStruct**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_StateTreeExternalDataDesc_TypeDefinitionIndex)->GetStaticField(0x268A8);
 		}
 
 		static ::System::Void _cctor()

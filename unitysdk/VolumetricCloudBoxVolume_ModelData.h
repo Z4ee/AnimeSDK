@@ -3,7 +3,7 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Matrix4x4.h"
 
-inline static constexpr unsigned int VolumetricCloudBoxVolume_ModelData_TypeDefinitionIndex = 26880;
+inline static constexpr unsigned int VolumetricCloudBoxVolume_ModelData_TypeDefinitionIndex = 27549;
 
 struct alignas(4) VolumetricCloudBoxVolume_ModelData
 {

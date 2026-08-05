@@ -4,12 +4,12 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDDISABLEBLACKCURTAIN_INVOKE_OFFSET UNITYSDK_OFFSET(0x182D4380)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDDISABLEBLACKCURTAIN__CTOR_OFFSET UNITYSDK_OFFSET(0x182D44C0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDDISABLEBLACKCURTAIN_INVOKE_OFFSET UNITYSDK_OFFSET(0x19B0B9A0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDDISABLEBLACKCURTAIN__CTOR_OFFSET UNITYSDK_OFFSET(0x19B0BAE0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDDisableBlackCurtain_TypeDefinitionIndex = 80586;
+	inline static constexpr unsigned int LDDisableBlackCurtain_TypeDefinitionIndex = 50942;
 
 	class LDDisableBlackCurtain : public ::FlowCanvas::Nodes::CallableFunctionNode_3<::System::Boolean, ::System::Single, ::UnityEngine::AnimationCurve*>
 	{

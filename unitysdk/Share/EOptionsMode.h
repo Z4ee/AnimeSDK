@@ -3,13 +3,13 @@
 
 namespace Share
 {
-	inline static constexpr unsigned int EOptionsMode_TypeDefinitionIndex = 11730;
+	inline static constexpr unsigned int EOptionsMode_TypeDefinitionIndex = 18154;
 
 	enum class EOptionsMode : ::System::Int16
 	{
-		RandomByNum = 2,
-		SelectByGroup = 1,
 		Normal = 0,
+		SelectByGroup = 1,
+		RandomByNum = 2,
 		EnumCount = 3,
 	};
 }

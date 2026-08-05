@@ -5,29 +5,29 @@
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MOLEMOLE_CONFIGDEBUGSOUND_WATCHSTATESBLOCK___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x157D4120)
-#define MOLEMOLE_CONFIGDEBUGSOUND_WATCHSTATESBLOCK___C__CREATEFROMCLIPBOARD_B__4_0_OFFSET UNITYSDK_OFFSET(0x157D4170)
-#define MOLEMOLE_CONFIGDEBUGSOUND_WATCHSTATESBLOCK___C__CREATEFROMCLIPBOARD_B__4_1_OFFSET UNITYSDK_OFFSET(0x157D4190)
-#define MOLEMOLE_CONFIGDEBUGSOUND_WATCHSTATESBLOCK___C__CTOR_OFFSET UNITYSDK_OFFSET(0x157D4160)
+#define MOLEMOLE_CONFIGDEBUGSOUND_WATCHSTATESBLOCK___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BD7D7C0)
+#define MOLEMOLE_CONFIGDEBUGSOUND_WATCHSTATESBLOCK___C__CREATEFROMCLIPBOARD_B__4_0_OFFSET UNITYSDK_OFFSET(0x1BD7D810)
+#define MOLEMOLE_CONFIGDEBUGSOUND_WATCHSTATESBLOCK___C__CREATEFROMCLIPBOARD_B__4_1_OFFSET UNITYSDK_OFFSET(0x1BD7D830)
+#define MOLEMOLE_CONFIGDEBUGSOUND_WATCHSTATESBLOCK___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD7D800)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigDebugSound_WatchStatesBlock___c_TypeDefinitionIndex = 49308;
+	inline static constexpr unsigned int ConfigDebugSound_WatchStatesBlock___c_TypeDefinitionIndex = 69748;
 
 	class ConfigDebugSound_WatchStatesBlock___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::String*, ::System::String*>** StaticGet___9__4_0()
-		{
-			return (::System::Func_2<::System::String*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigDebugSound_WatchStatesBlock___c_TypeDefinitionIndex)->GetStaticField(0x3C2F0);
-		}
 		static ::MoleMole::ConfigDebugSound_WatchStatesBlock___c** StaticGet___9()
 		{
-			return (::MoleMole::ConfigDebugSound_WatchStatesBlock___c**)Il2CppClass::FromTypeDefinitionIndex(ConfigDebugSound_WatchStatesBlock___c_TypeDefinitionIndex)->GetStaticField(0x3C2F8);
+			return (::MoleMole::ConfigDebugSound_WatchStatesBlock___c**)Il2CppClass::FromTypeDefinitionIndex(ConfigDebugSound_WatchStatesBlock___c_TypeDefinitionIndex)->GetStaticField(0x4D480);
 		}
 		static ::System::Func_2<::System::String*, ::System::Boolean>** StaticGet___9__4_1()
 		{
-			return (::System::Func_2<::System::String*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ConfigDebugSound_WatchStatesBlock___c_TypeDefinitionIndex)->GetStaticField(0x3C300);
+			return (::System::Func_2<::System::String*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ConfigDebugSound_WatchStatesBlock___c_TypeDefinitionIndex)->GetStaticField(0x4D488);
+		}
+		static ::System::Func_2<::System::String*, ::System::String*>** StaticGet___9__4_0()
+		{
+			return (::System::Func_2<::System::String*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigDebugSound_WatchStatesBlock___c_TypeDefinitionIndex)->GetStaticField(0x4D490);
 		}
 
 		static ::System::Void _cctor()

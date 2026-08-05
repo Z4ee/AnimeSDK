@@ -3,12 +3,12 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIVHSStorePromoterSelectWidgetController_MoodLevel_TypeDefinitionIndex = 79400;
+	inline static constexpr unsigned int UIVHSStorePromoterSelectWidgetController_MoodLevel_TypeDefinitionIndex = 90759;
 
 	enum class UIVHSStorePromoterSelectWidgetController_MoodLevel : ::System::Int32
 	{
-		Good = 0,
 		Normal = 1,
+		Good = 0,
 		Bad = 2,
 	};
 }

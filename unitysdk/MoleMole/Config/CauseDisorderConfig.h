@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int CauseDisorderConfig_TypeDefinitionIndex = 73234;
+	inline static constexpr unsigned int CauseDisorderConfig_TypeDefinitionIndex = 65821;
 
 	struct alignas(8) CauseDisorderConfig
 	{

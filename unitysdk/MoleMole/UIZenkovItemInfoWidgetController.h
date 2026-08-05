@@ -1,0 +1,360 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Enum_3_DBF2701137F18AA6.h"
+#include "unitysdk/MoleMole/InputActionEvent.h"
+#include "unitysdk/MoleMole/UIBaseDynamicTipsWidgetController.h"
+#include "unitysdk/Struct_2_575273D27F02957E.h"
+#include "unitysdk/UnityEngine/EventSystems/RaycastResult.h"
+
+class Class_2_82E0CEB8CCB8EA8E;
+class Class_3_C3F0E3B5AB5977AE_29;
+namespace MoleMole { class MonoGamepadModule; }
+namespace MoleMole { class UIControlReference; }
+namespace MoleMole { class UIControllerContextBase; }
+namespace MoleMole { class UIFadeConfig; }
+namespace MoleMole { class UIZenkovItemInfoWidgetController_Context; }
+namespace System { class String; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+namespace UnityEngine { class GameObject; }
+namespace UnityEngine { class Transform; }
+namespace UnityEngine::EventSystems { class PointerEventData; }
+namespace UnityEngine::EventSystems { template <typename T> class ExecuteEvents_EventFunction_1; }
+
+#define MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER_CLOSEORHIDEPANEL_OFFSET UNITYSDK_OFFSET(0x112D79F0)
+#define MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER_GETKOVINDEX_OFFSET UNITYSDK_OFFSET(0x112D7930)
+#define MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER_GETKOVITEMID_OFFSET UNITYSDK_OFFSET(0x112D7990)
+#define MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER_GETLOCATETRANSFORM_OFFSET UNITYSDK_OFFSET(0x112D4980)
+#define MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER_GETOVERRIDEFADEINANIM_OFFSET UNITYSDK_OFFSET(0x112D7710)
+#define MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER_GETOVERRIDEFADEOUTANIM_OFFSET UNITYSDK_OFFSET(0x112D77C0)
+#define MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER_GET_ISALLOWINPUTPASS_OFFSET UNITYSDK_OFFSET(0x112D4970)
+#define MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER_GET_NEEDCACHE_OFFSET UNITYSDK_OFFSET(0x112D48E0)
+#define MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER_GET__VIEWMODEL_OFFSET UNITYSDK_OFFSET(0x112D4900)
+#define MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER_ISCHILDORSELF_OFFSET UNITYSDK_OFFSET(0x112D6A60)
+#define MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER_NOTIFYCLOSECALLBACKINVOKED_OFFSET UNITYSDK_OFFSET(0x112D6DF0)
+#define MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER_ONCREATEVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x112D4A30)
+#define MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER_ONHIDE_OFFSET UNITYSDK_OFFSET(0x112D7020)
+#define MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER_ONINPUTACTION_OFFSET UNITYSDK_OFFSET(0x112D6C20)
+#define MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER_ONLAYOUTPLATFORMCHANGED_OFFSET UNITYSDK_OFFSET(0x112D4B90)
+#define MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER_ONLONGPRESSPOINTERUP_OFFSET UNITYSDK_OFFSET(0x112D5C60)
+#define MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER_ONMASKCLICKED_OFFSET UNITYSDK_OFFSET(0x112D65D0)
+#define MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER_ONMASKPOINTDRAG_OFFSET UNITYSDK_OFFSET(0x112D5CB0)
+#define MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER_ONPOINTERDOWN_OFFSET UNITYSDK_OFFSET(0x112D6140)
+#define MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER_ONPOINTERPRESS_OFFSET UNITYSDK_OFFSET(0x112D5180)
+#define MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER_ONPOINTERUP_OFFSET UNITYSDK_OFFSET(0x112D5590)
+#define MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER_ONSHOW_OFFSET UNITYSDK_OFFSET(0x112D4E20)
+#define MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER_ONUICLOSE_OFFSET UNITYSDK_OFFSET(0x112D6F20)
+#define MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x112D6E40)
+#define MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER_ONUIOPEN_OFFSET UNITYSDK_OFFSET(0x112D4AD0)
+#define MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER_OPENWEAPONINFODIALOG_OFFSET UNITYSDK_OFFSET(0x112D7A90)
+#define MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER_PARENTISNULL_OFFSET UNITYSDK_OFFSET(0x112D6C90)
+#define MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER_PLAYREFRESHANIMATION_OFFSET UNITYSDK_OFFSET(0x112D7620)
+#define MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER_REFRESHDATA_OFFSET UNITYSDK_OFFSET(0x112D7150)
+#define MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER_REFRESHPOSITION_OFFSET UNITYSDK_OFFSET(0x112D72F0)
+#define MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER_RELEASEPENETRATEDPRESS_OFFSET UNITYSDK_OFFSET(0x112D5A40)
+#define MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER_SETBTNSPOPUPPANEL_OFFSET UNITYSDK_OFFSET(0x112D7B40)
+#define MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER_SET_NEEDCACHE_OFFSET UNITYSDK_OFFSET(0x112D48F0)
+#define MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER_UPDATE_OFFSET UNITYSDK_OFFSET(0x112D7870)
+#define MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x112D7C10)
+#define MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER__ONSHOW_B__30_0_OFFSET UNITYSDK_OFFSET(0x112D7C90)
+#define MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER___BASE_GETLOCATETRANSFORM_OFFSET UNITYSDK_OFFSET(0x112D7EB0)
+#define MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER___BASE_GETOVERRIDEFADEINANIM_OFFSET UNITYSDK_OFFSET(0x112D7F40)
+#define MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER___BASE_GETOVERRIDEFADEOUTANIM_OFFSET UNITYSDK_OFFSET(0x112D7F50)
+#define MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER___BASE_ONCREATEVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x112D7F60)
+#define MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER___BASE_ONHIDE_OFFSET UNITYSDK_OFFSET(0x112D8000)
+#define MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER___BASE_ONINPUTACTION_OFFSET UNITYSDK_OFFSET(0x112D8090)
+#define MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER___BASE_ONLAYOUTPLATFORMCHANGED_OFFSET UNITYSDK_OFFSET(0x112D80C0)
+#define MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER___BASE_ONLONGPRESSPOINTERUP_OFFSET UNITYSDK_OFFSET(0x112D8150)
+#define MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER___BASE_ONMASKCLICKED_OFFSET UNITYSDK_OFFSET(0x112D81E0)
+#define MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER___BASE_ONMASKPOINTDRAG_OFFSET UNITYSDK_OFFSET(0x112D8270)
+#define MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER___BASE_ONPOINTERDOWN_OFFSET UNITYSDK_OFFSET(0x112D8300)
+#define MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER___BASE_ONPOINTERPRESS_OFFSET UNITYSDK_OFFSET(0x112D8390)
+#define MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER___BASE_ONPOINTERUP_OFFSET UNITYSDK_OFFSET(0x112D8420)
+#define MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER___BASE_ONSHOW_OFFSET UNITYSDK_OFFSET(0x112D84B0)
+#define MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER___BASE_ONUICLOSE_OFFSET UNITYSDK_OFFSET(0x112D8550)
+#define MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER___BASE_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x112D8560)
+#define MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER___BASE_ONUIOPEN_OFFSET UNITYSDK_OFFSET(0x112D85F0)
+
+namespace MoleMole
+{
+	inline static constexpr unsigned int UIZenkovItemInfoWidgetController_TypeDefinitionIndex = 64003;
+
+	class UIZenkovItemInfoWidgetController : public ::MoleMole::UIBaseDynamicTipsWidgetController
+	{
+	public:
+		::System::Boolean _NeedCache_k__BackingField; // 0x2D0
+		::MoleMole::UIZenkovItemInfoWidgetController_Context* _context; // 0x2D8
+		::System::Boolean _closeCallbackInvoked; // 0x2E0
+		::System::Int32 _processedPointerPressFrame; // 0x2E4
+		::System::Int32 _processedPointerClickFrame; // 0x2E8
+		::System::Int32 _processedMousePointerDrag; // 0x2EC
+		::System::Int32 _processedMousePointerUpFrame; // 0x2F0
+		::System::Int32 _processedMousePointerDownFrame; // 0x2F4
+		::UnityEngine::GameObject* _penetratedPressTarget; // 0x2F8
+		::MoleMole::MonoGamepadModule* _btnModule; // 0x300
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER__CTOR_OFFSET))(this);
+		}
+
+		::System::Boolean get_NeedCache()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER_GET_NEEDCACHE_OFFSET))(this);
+		}
+
+		::System::Void set_NeedCache(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER_SET_NEEDCACHE_OFFSET))(this, value);
+		}
+
+		::Class_2_82E0CEB8CCB8EA8E* get__viewModel()
+		{
+			return ((::Class_2_82E0CEB8CCB8EA8E*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER_GET__VIEWMODEL_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsAllowInputPass()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER_GET_ISALLOWINPUTPASS_OFFSET))(this);
+		}
+
+		::UnityEngine::Transform* GetLocateTransform()
+		{
+			return ((::UnityEngine::Transform*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER_GETLOCATETRANSFORM_OFFSET))(this);
+		}
+
+		::System::Void OnCreateViewModel(::Struct_2_575273D27F02957E& binderInfo, ::MoleMole::UIControlReference* controlReference)
+		{
+			return ((::System::Void(*)(::PVOID, ::Struct_2_575273D27F02957E&, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER_ONCREATEVIEWMODEL_OFFSET))(this, binderInfo, controlReference);
+		}
+
+		::System::Void OnUIOpen(::MoleMole::UIControllerContextBase* openCtrlContext)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER_ONUIOPEN_OFFSET))(this, openCtrlContext);
+		}
+
+		::System::Void OnLayoutPlatformChanged()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER_ONLAYOUTPLATFORMCHANGED_OFFSET))(this);
+		}
+
+		::System::Void OnShow(::MoleMole::UIControllerContextBase* showCtrlContext)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER_ONSHOW_OFFSET))(this, showCtrlContext);
+		}
+
+		::System::Void OnPointerPress()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER_ONPOINTERPRESS_OFFSET))(this);
+		}
+
+		::System::Void OnPointerUp()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER_ONPOINTERUP_OFFSET))(this);
+		}
+
+		::System::Void OnLongPressPointerUp()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER_ONLONGPRESSPOINTERUP_OFFSET))(this);
+		}
+
+		::System::Void OnMaskPointDrag(::UnityEngine::EventSystems::PointerEventData* eventData)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER_ONMASKPOINTDRAG_OFFSET))(this, eventData);
+		}
+
+		::System::Void OnPointerDown()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER_ONPOINTERDOWN_OFFSET))(this);
+		}
+
+		::System::Void OnMaskClicked()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER_ONMASKCLICKED_OFFSET))(this);
+		}
+
+		::System::Boolean ReleasePenetratedPress(::UnityEngine::EventSystems::PointerEventData* eventData)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER_RELEASEPENETRATEDPRESS_OFFSET))(this, eventData);
+		}
+
+		::System::Boolean IsChildOrSelf(::UnityEngine::Transform* target, ::UnityEngine::Transform* root)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Transform*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER_ISCHILDORSELF_OFFSET))(this, target, root);
+		}
+
+		::System::Boolean OnInputAction(::MoleMole::InputActionEvent inputAction)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::MoleMole::InputActionEvent))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER_ONINPUTACTION_OFFSET))(this, inputAction);
+		}
+
+		::System::Boolean ParentIsNull()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER_PARENTISNULL_OFFSET))(this);
+		}
+
+		::System::Void NotifyCloseCallbackInvoked()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER_NOTIFYCLOSECALLBACKINVOKED_OFFSET))(this);
+		}
+
+		::System::Void OnUIDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER_ONUIDESTROY_OFFSET))(this);
+		}
+
+		::System::Void OnUIClose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER_ONUICLOSE_OFFSET))(this);
+		}
+
+		::System::Void OnHide()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER_ONHIDE_OFFSET))(this);
+		}
+
+		::System::Void RefreshData(::MoleMole::UIZenkovItemInfoWidgetController_Context* newCtx)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIZenkovItemInfoWidgetController_Context*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER_REFRESHDATA_OFFSET))(this, newCtx);
+		}
+
+		::System::Void PlayRefreshAnimation()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER_PLAYREFRESHANIMATION_OFFSET))(this);
+		}
+
+		::System::String* GetOverrideFadeInAnim(::MoleMole::UIFadeConfig* fadeData, ::Enum_3_DBF2701137F18AA6 fromCtrl)
+		{
+			return ((::System::String*(*)(::PVOID, ::MoleMole::UIFadeConfig*, ::Enum_3_DBF2701137F18AA6))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER_GETOVERRIDEFADEINANIM_OFFSET))(this, fadeData, fromCtrl);
+		}
+
+		::System::String* GetOverrideFadeOutAnim(::MoleMole::UIFadeConfig* fadeData, ::Enum_3_DBF2701137F18AA6 nextPage)
+		{
+			return ((::System::String*(*)(::PVOID, ::MoleMole::UIFadeConfig*, ::Enum_3_DBF2701137F18AA6))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER_GETOVERRIDEFADEOUTANIM_OFFSET))(this, fadeData, nextPage);
+		}
+
+		::System::Void Update()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER_UPDATE_OFFSET))(this);
+		}
+
+		::System::Void RefreshPosition()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER_REFRESHPOSITION_OFFSET))(this);
+		}
+
+		::Class_3_C3F0E3B5AB5977AE_29* GetKovIndex()
+		{
+			return ((::Class_3_C3F0E3B5AB5977AE_29*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER_GETKOVINDEX_OFFSET))(this);
+		}
+
+		::System::Int32 GetKovItemId()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER_GETKOVITEMID_OFFSET))(this);
+		}
+
+		::System::Void CloseOrHidePanel()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER_CLOSEORHIDEPANEL_OFFSET))(this);
+		}
+
+		::System::Void OpenWeaponInfoDialog()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER_OPENWEAPONINFODIALOG_OFFSET))(this);
+		}
+
+		::System::Void SetBtnsPopupPanel(::System::Boolean flag)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER_SETBTNSPOPUPPANEL_OFFSET))(this, flag);
+		}
+
+		::System::Void _OnShow_b__30_0()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER__ONSHOW_B__30_0_OFFSET))(this);
+		}
+
+		::UnityEngine::Transform* __base_GetLocateTransform()
+		{
+			return ((::UnityEngine::Transform*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER___BASE_GETLOCATETRANSFORM_OFFSET))(this);
+		}
+
+		::System::String* __base_GetOverrideFadeInAnim(::MoleMole::UIFadeConfig* P0, ::Enum_3_DBF2701137F18AA6 P1)
+		{
+			return ((::System::String*(*)(::PVOID, ::MoleMole::UIFadeConfig*, ::Enum_3_DBF2701137F18AA6))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER___BASE_GETOVERRIDEFADEINANIM_OFFSET))(this, P0, P1);
+		}
+
+		::System::String* __base_GetOverrideFadeOutAnim(::MoleMole::UIFadeConfig* P0, ::Enum_3_DBF2701137F18AA6 P1)
+		{
+			return ((::System::String*(*)(::PVOID, ::MoleMole::UIFadeConfig*, ::Enum_3_DBF2701137F18AA6))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER___BASE_GETOVERRIDEFADEOUTANIM_OFFSET))(this, P0, P1);
+		}
+
+		::System::Void __base_OnCreateViewModel(::Struct_2_575273D27F02957E& P0, ::MoleMole::UIControlReference* P1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Struct_2_575273D27F02957E&, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER___BASE_ONCREATEVIEWMODEL_OFFSET))(this, P0, P1);
+		}
+
+		::System::Void __base_OnHide()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER___BASE_ONHIDE_OFFSET))(this);
+		}
+
+		::System::Boolean __base_OnInputAction(::MoleMole::InputActionEvent P0)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::MoleMole::InputActionEvent))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER___BASE_ONINPUTACTION_OFFSET))(this, P0);
+		}
+
+		::System::Void __base_OnLayoutPlatformChanged()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER___BASE_ONLAYOUTPLATFORMCHANGED_OFFSET))(this);
+		}
+
+		::System::Void __base_OnLongPressPointerUp()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER___BASE_ONLONGPRESSPOINTERUP_OFFSET))(this);
+		}
+
+		::System::Void __base_OnMaskClicked()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER___BASE_ONMASKCLICKED_OFFSET))(this);
+		}
+
+		::System::Void __base_OnMaskPointDrag(::UnityEngine::EventSystems::PointerEventData* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER___BASE_ONMASKPOINTDRAG_OFFSET))(this, P0);
+		}
+
+		::System::Void __base_OnPointerDown()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER___BASE_ONPOINTERDOWN_OFFSET))(this);
+		}
+
+		::System::Void __base_OnPointerPress()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER___BASE_ONPOINTERPRESS_OFFSET))(this);
+		}
+
+		::System::Void __base_OnPointerUp()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER___BASE_ONPOINTERUP_OFFSET))(this);
+		}
+
+		::System::Void __base_OnShow(::MoleMole::UIControllerContextBase* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER___BASE_ONSHOW_OFFSET))(this, P0);
+		}
+
+		::System::Void __base_OnUIClose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER___BASE_ONUICLOSE_OFFSET))(this);
+		}
+
+		::System::Void __base_OnUIDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER___BASE_ONUIDESTROY_OFFSET))(this);
+		}
+
+		::System::Void __base_OnUIOpen(::MoleMole::UIControllerContextBase* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVITEMINFOWIDGETCONTROLLER___BASE_ONUIOPEN_OFFSET))(this, P0);
+		}
+	};
+}

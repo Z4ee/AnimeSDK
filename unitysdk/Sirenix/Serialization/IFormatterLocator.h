@@ -8,7 +8,7 @@ namespace System { class Type; }
 
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int IFormatterLocator_TypeDefinitionIndex = 7440;
+	inline static constexpr unsigned int IFormatterLocator_TypeDefinitionIndex = 7444;
 
 	class IFormatterLocator
 	{

@@ -3,12 +3,12 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigDataPriority_TypeDefinitionIndex = 67854;
+	inline static constexpr unsigned int ConfigDataPriority_TypeDefinitionIndex = 90363;
 
 	enum class ConfigDataPriority : ::System::Int32
 	{
 		World = 2,
-		Character = 0,
 		Level = 1,
+		Character = 0,
 	};
 }

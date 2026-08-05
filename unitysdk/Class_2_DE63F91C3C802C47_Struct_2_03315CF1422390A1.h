@@ -4,10 +4,10 @@
 
 namespace System { class String; }
 
-inline static constexpr unsigned int Class_2_DE63F91C3C802C47_Struct_2_03315CF1422390A1_TypeDefinitionIndex = 14680;
+inline static constexpr unsigned int Class_2_DE63F91C3C802C47_Struct_2_03315CF1422390A1_TypeDefinitionIndex = 9212;
 
 struct alignas(8) Class_2_DE63F91C3C802C47_Struct_2_03315CF1422390A1
 {
 	::System::String* Field_2_0; // 0x10
-	::System::String* Field_2_1; // 0x18
+	::System::String* Field_2_7; // 0x18
 };

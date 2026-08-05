@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnrealTypes/StructOpsTraitsBase.h"
 
-#define NPCCROWD_ABILITY_WAITINGSLOTFINDTASK_STRUCTOPSTYPETRAITS_GET_ISPLAINOLDDATA_OFFSET UNITYSDK_OFFSET(0xD5C5330)
-#define NPCCROWD_ABILITY_WAITINGSLOTFINDTASK_STRUCTOPSTYPETRAITS__CTOR_OFFSET UNITYSDK_OFFSET(0xD5C5340)
+#define NPCCROWD_ABILITY_WAITINGSLOTFINDTASK_STRUCTOPSTYPETRAITS_GET_ISPLAINOLDDATA_OFFSET UNITYSDK_OFFSET(0x10C938F0)
+#define NPCCROWD_ABILITY_WAITINGSLOTFINDTASK_STRUCTOPSTYPETRAITS__CTOR_OFFSET UNITYSDK_OFFSET(0x10C93900)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int WaitingSlotFindTask_StructOpsTypeTraits_TypeDefinitionIndex = 66534;
+	inline static constexpr unsigned int WaitingSlotFindTask_StructOpsTypeTraits_TypeDefinitionIndex = 82249;
 
 	class WaitingSlotFindTask_StructOpsTypeTraits : public ::UnrealTypes::StructOpsTraitsBase
 	{

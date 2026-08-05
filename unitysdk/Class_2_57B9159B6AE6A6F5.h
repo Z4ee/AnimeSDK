@@ -8,18 +8,18 @@ namespace MoleMole { class UIDailyChallengeCardRowWidgetController; }
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class RectTransform; }
 
-#define CLASS_2_57B9159B6AE6A6F5_METHOD_2_68885DCEABB3061F_OFFSET UNITYSDK_OFFSET(0x12DC5E10)
-#define CLASS_2_57B9159B6AE6A6F5_METHOD_2_7C0ABCE8E7C44D4E_OFFSET UNITYSDK_OFFSET(0x12DC5B50)
-#define CLASS_2_57B9159B6AE6A6F5_METHOD_2_F629B26C5D2B092E_OFFSET UNITYSDK_OFFSET(0x12DC62B0)
-#define CLASS_2_57B9159B6AE6A6F5__CTOR_OFFSET UNITYSDK_OFFSET(0x12DC5DC0)
+#define CLASS_2_57B9159B6AE6A6F5_METHOD_2_68885DCEABB3061F_OFFSET UNITYSDK_OFFSET(0x15439980)
+#define CLASS_2_57B9159B6AE6A6F5_METHOD_2_7C0ABCE8E7C44D4E_OFFSET UNITYSDK_OFFSET(0x154396C0)
+#define CLASS_2_57B9159B6AE6A6F5_METHOD_2_F629B26C5D2B092E_OFFSET UNITYSDK_OFFSET(0x15439E20)
+#define CLASS_2_57B9159B6AE6A6F5__CTOR_OFFSET UNITYSDK_OFFSET(0x15439930)
 
-inline static constexpr unsigned int Class_2_57B9159B6AE6A6F5_TypeDefinitionIndex = 49206;
+inline static constexpr unsigned int Class_2_57B9159B6AE6A6F5_TypeDefinitionIndex = 84767;
 
 class Class_2_57B9159B6AE6A6F5 : public ::Class_1_37DF30C8B3AA0F39
 {
 public:
-	::UnityEngine::RectTransform* Field_2_0; // 0x50
-	::MoleMole::UIDailyChallengeCardRowWidgetController* Field_2_1; // 0x58
+	::MoleMole::UIDailyChallengeCardRowWidgetController* Field_2_0; // 0x50
+	::UnityEngine::RectTransform* Field_2_1; // 0x58
 
 	::System::Void _ctor()
 	{

@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_54486B88E1863A04.h"
+#include "unitysdk/Enum_3_7FA27888FA17A22A.h"
 #include "unitysdk/MoleMole/GraphicEnumSettingEntryBase.h"
 #include "unitysdk/MoleMole/GraphicSettingProfileType.h"
 
-#define MOLEMOLE_MODELQUALITYSETTINGENTRY_GET_PROFILETYPE_OFFSET UNITYSDK_OFFSET(0x15139D40)
-#define MOLEMOLE_MODELQUALITYSETTINGENTRY_GET_SETTINGCONTENTTYPE_OFFSET UNITYSDK_OFFSET(0x15139D30)
-#define MOLEMOLE_MODELQUALITYSETTINGENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x15139D50)
+#define MOLEMOLE_MODELQUALITYSETTINGENTRY_GET_PROFILETYPE_OFFSET UNITYSDK_OFFSET(0x1790EAD0)
+#define MOLEMOLE_MODELQUALITYSETTINGENTRY_GET_SETTINGCONTENTTYPE_OFFSET UNITYSDK_OFFSET(0x1790EAC0)
+#define MOLEMOLE_MODELQUALITYSETTINGENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1790EAE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ModelQualitySettingEntry_TypeDefinitionIndex = 79556;
+	inline static constexpr unsigned int ModelQualitySettingEntry_TypeDefinitionIndex = 83850;
 
 	class ModelQualitySettingEntry : public ::MoleMole::GraphicEnumSettingEntryBase
 	{
@@ -20,9 +20,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MODELQUALITYSETTINGENTRY__CTOR_OFFSET))(this);
 		}
 
-		::Enum_3_54486B88E1863A04 get_SettingContentType()
+		::Enum_3_7FA27888FA17A22A get_SettingContentType()
 		{
-			return ((::Enum_3_54486B88E1863A04(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MODELQUALITYSETTINGENTRY_GET_SETTINGCONTENTTYPE_OFFSET))(this);
+			return ((::Enum_3_7FA27888FA17A22A(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MODELQUALITYSETTINGENTRY_GET_SETTINGCONTENTTYPE_OFFSET))(this);
 		}
 
 		::MoleMole::GraphicSettingProfileType get_ProfileType()

@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define ROOTMOTION_BIPEDREFERENCES_AUTODETECTPARAMS_GET_DEFAULT_OFFSET UNITYSDK_OFFSET(0x1DAF5D60)
-#define ROOTMOTION_BIPEDREFERENCES_AUTODETECTPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x417DA0)
+#define ROOTMOTION_BIPEDREFERENCES_AUTODETECTPARAMS_GET_DEFAULT_OFFSET UNITYSDK_OFFSET(0x1EEDB7C0)
+#define ROOTMOTION_BIPEDREFERENCES_AUTODETECTPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x342140)
 
 namespace RootMotion
 {
-	inline static constexpr unsigned int BipedReferences_AutoDetectParams_TypeDefinitionIndex = 38257;
+	inline static constexpr unsigned int BipedReferences_AutoDetectParams_TypeDefinitionIndex = 39008;
 
 	struct alignas(1) BipedReferences_AutoDetectParams
 	{

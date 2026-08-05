@@ -2,50 +2,67 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { class Type; }
+namespace System { class Action; }
 
-#define CRIWARE_CRIMANAPLUGIN_CRIMANAUNITY_GETPRIMEBUFFERALIGNMENTSIZE_OFFSET UNITYSDK_OFFSET(0x1E7DF3A0)
-#define CRIWARE_CRIMANAPLUGIN_CRIMANAUNITY_USELEGACYDECODER_PC_OFFSET UNITYSDK_OFFSET(0x1E7DE970)
-#define CRIWARE_CRIMANAPLUGIN_CRIWARE611B78A5_OFFSET UNITYSDK_OFFSET(0x1E7DF1D0)
-#define CRIWARE_CRIMANAPLUGIN_CRIWARE62B7B053_OFFSET UNITYSDK_OFFSET(0x1E7DE810)
-#define CRIWARE_CRIMANAPLUGIN_CRIWARE7BFC56AA_OFFSET UNITYSDK_OFFSET(0x1E7DF150)
-#define CRIWARE_CRIMANAPLUGIN_CRIWARECFA78B41_OFFSET UNITYSDK_OFFSET(0x1E7DDEF0)
-#define CRIWARE_CRIMANAPLUGIN_CRIWARED672C36F_OFFSET UNITYSDK_OFFSET(0x1E7DF250)
-#define CRIWARE_CRIMANAPLUGIN_FINALIZELIBRARY_OFFSET UNITYSDK_OFFSET(0x1E7DEDD0)
-#define CRIWARE_CRIMANAPLUGIN_GETPRIMEBUFFERALIGNMENTSIZE_OFFSET UNITYSDK_OFFSET(0x1E7DF2D0)
-#define CRIWARE_CRIMANAPLUGIN_GETVP9EXPANSIONCLASS_OFFSET UNITYSDK_OFFSET(0x1E7DE2B0)
-#define CRIWARE_CRIMANAPLUGIN_INITIALIZELIBRARY_OFFSET UNITYSDK_OFFSET(0x1E7DE9F0)
-#define CRIWARE_CRIMANAPLUGIN_ISLIBRARYINITIALIZED_OFFSET UNITYSDK_OFFSET(0x1E7DECF0)
-#define CRIWARE_CRIMANAPLUGIN_ISVP9CODECSUPPORTED_OFFSET UNITYSDK_OFFSET(0x1E7DE3F0)
-#define CRIWARE_CRIMANAPLUGIN_SETCONFIGADDITONALPARAMETERS_PC_OFFSET UNITYSDK_OFFSET(0x1E7DE730)
-#define CRIWARE_CRIMANAPLUGIN_SETCONFIGPARAMETERS_OFFSET UNITYSDK_OFFSET(0x1E7DDD90)
-#define CRIWARE_CRIMANAPLUGIN_SETUPVP9_OFFSET UNITYSDK_OFFSET(0x1E7DDF80)
-#define CRIWARE_CRIMANAPLUGIN_USELEGACYDECODER_PC_OFFSET UNITYSDK_OFFSET(0x1E7DE890)
-#define CRIWARE_CRIMANAPLUGIN__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E7DF430)
-#define CRIWARE_CRIMANAPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7DF420)
+#define CRIWARE_CRIMANAPLUGIN_ADD_ONBEFOREINITIALIZE_OFFSET UNITYSDK_OFFSET(0x1FBC39E0)
+#define CRIWARE_CRIMANAPLUGIN_CRIMANAUNITY_USELEGACYDECODER_PC_OFFSET UNITYSDK_OFFSET(0x1FBC3FD0)
+#define CRIWARE_CRIMANAPLUGIN_CRIMANA_USESTREAMERMANAGER_OFFSET UNITYSDK_OFFSET(0x1FBC4C10)
+#define CRIWARE_CRIMANAPLUGIN_CRIWARE2348B5C8_OFFSET UNITYSDK_OFFSET(0x1FBC4AB0)
+#define CRIWARE_CRIMANAPLUGIN_CRIWARE356279DC_OFFSET UNITYSDK_OFFSET(0x1FBC4A30)
+#define CRIWARE_CRIMANAPLUGIN_CRIWARE3D003B8C_OFFSET UNITYSDK_OFFSET(0x1FBC3E70)
+#define CRIWARE_CRIMANAPLUGIN_CRIWARE4084722B_OFFSET UNITYSDK_OFFSET(0x1FBC4D60)
+#define CRIWARE_CRIMANAPLUGIN_CRIWARE5013D8DF_OFFSET UNITYSDK_OFFSET(0x1FBC3D00)
+#define CRIWARE_CRIMANAPLUGIN_CRIWARE88224C7A_OFFSET UNITYSDK_OFFSET(0x1FBC49B0)
+#define CRIWARE_CRIMANAPLUGIN_FINALIZELIBRARY_OFFSET UNITYSDK_OFFSET(0x1FBC45B0)
+#define CRIWARE_CRIMANAPLUGIN_GETPRIMEBUFFERALIGNMENTSIZE_OFFSET UNITYSDK_OFFSET(0x1FBC4C90)
+#define CRIWARE_CRIMANAPLUGIN_INITIALIZELIBRARY_OFFSET UNITYSDK_OFFSET(0x1FBC4050)
+#define CRIWARE_CRIMANAPLUGIN_ISLIBRARYINITIALIZED_OFFSET UNITYSDK_OFFSET(0x1FBC44E0)
+#define CRIWARE_CRIMANAPLUGIN_REMOVE_ONBEFOREINITIALIZE_OFFSET UNITYSDK_OFFSET(0x1FBC3AC0)
+#define CRIWARE_CRIMANAPLUGIN_SETCONFIGADDITONALPARAMETERS_PC_OFFSET UNITYSDK_OFFSET(0x1FBC3D90)
+#define CRIWARE_CRIMANAPLUGIN_SETCONFIGPARAMETERS_OFFSET UNITYSDK_OFFSET(0x1FBC3BA0)
+#define CRIWARE_CRIMANAPLUGIN_USELEGACYDECODER_PC_OFFSET UNITYSDK_OFFSET(0x1FBC3EF0)
+#define CRIWARE_CRIMANAPLUGIN_USESTREAMERMANAGER_OFFSET UNITYSDK_OFFSET(0x1FBC4B30)
+#define CRIWARE_CRIMANAPLUGIN__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FBC4DF0)
+#define CRIWARE_CRIMANAPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1FBC4DE0)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriManaPlugin_TypeDefinitionIndex = 34328;
+	inline static constexpr unsigned int CriManaPlugin_TypeDefinitionIndex = 34976;
 
 	class CriManaPlugin : public ::System::Object
 	{
 	public:
-		static ::System::Int32* StaticGet_renderingEventOffset()
+		static ::System::Action** StaticGet_OnBeforeInitialize()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CriManaPlugin_TypeDefinitionIndex)->GetStaticField(0x8400);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(CriManaPlugin_TypeDefinitionIndex)->GetStaticField(0x29300);
 		}
-		static ::System::Boolean* StaticGet_isConfigured()
+		static ::System::Action** StaticGet_OnInitialized()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(CriManaPlugin_TypeDefinitionIndex)->GetStaticField(0x8404);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(CriManaPlugin_TypeDefinitionIndex)->GetStaticField(0x29308);
+		}
+		static ::System::Action** StaticGet_OnBeforeFinalize()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(CriManaPlugin_TypeDefinitionIndex)->GetStaticField(0x29310);
+		}
+		static ::System::Action** StaticGet_OnFinalized()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(CriManaPlugin_TypeDefinitionIndex)->GetStaticField(0x29318);
 		}
 		static ::System::Boolean* StaticGet_enabledMultithreadedRendering()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(CriManaPlugin_TypeDefinitionIndex)->GetStaticField(0x8405);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(CriManaPlugin_TypeDefinitionIndex)->GetStaticField(0x84D0);
+		}
+		static ::System::Boolean* StaticGet_isConfigured()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(CriManaPlugin_TypeDefinitionIndex)->GetStaticField(0x84D1);
+		}
+		static ::System::Int32* StaticGet_renderingEventOffset()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CriManaPlugin_TypeDefinitionIndex)->GetStaticField(0x84D4);
 		}
 		static ::System::Int32* StaticGet_initializationCount()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CriManaPlugin_TypeDefinitionIndex)->GetStaticField(0x8408);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CriManaPlugin_TypeDefinitionIndex)->GetStaticField(0x84D8);
 		}
 
 		::System::Void _ctor()
@@ -58,14 +75,19 @@ namespace CriWare
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CRIWARE_CRIMANAPLUGIN__CCTOR_OFFSET))();
 		}
 
+		static ::System::Void add_OnBeforeInitialize(::System::Action* value)
+		{
+			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANAPLUGIN_ADD_ONBEFOREINITIALIZE_OFFSET))(value);
+		}
+
+		static ::System::Void remove_OnBeforeInitialize(::System::Action* value)
+		{
+			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANAPLUGIN_REMOVE_ONBEFOREINITIALIZE_OFFSET))(value);
+		}
+
 		static ::System::Void SetConfigParameters(::System::Boolean graphicsMultiThreaded, ::System::Int32 num_decoders, ::System::Int32 max_num_of_entries)
 		{
 			return ((::System::Void(*)(::System::Boolean, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANAPLUGIN_SETCONFIGPARAMETERS_OFFSET))(graphicsMultiThreaded, num_decoders, max_num_of_entries);
-		}
-
-		static ::System::Void SetupVp9()
-		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CRIWARE_CRIMANAPLUGIN_SETUPVP9_OFFSET))();
 		}
 
 		static ::System::Void SetConfigAdditonalParameters_PC(::System::Boolean use_h264_playback)
@@ -93,14 +115,9 @@ namespace CriWare
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CRIWARE_CRIMANAPLUGIN_FINALIZELIBRARY_OFFSET))();
 		}
 
-		static ::System::Type* GetVp9ExpansionClass()
+		static ::System::Void UseStreamerManager(::System::Boolean flag)
 		{
-			return ((::System::Type*(*)())((::PBYTE)hIl2Cpp + CRIWARE_CRIMANAPLUGIN_GETVP9EXPANSIONCLASS_OFFSET))();
-		}
-
-		static ::System::Boolean IsVp9CodecSupported()
-		{
-			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + CRIWARE_CRIMANAPLUGIN_ISVP9CODECSUPPORTED_OFFSET))();
+			return ((::System::Void(*)(::System::Boolean))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANAPLUGIN_USESTREAMERMANAGER_OFFSET))(flag);
 		}
 
 		static ::System::UInt32 GetPrimeBufferAlignmentSize()
@@ -108,29 +125,34 @@ namespace CriWare
 			return ((::System::UInt32(*)())((::PBYTE)hIl2Cpp + CRIWARE_CRIMANAPLUGIN_GETPRIMEBUFFERALIGNMENTSIZE_OFFSET))();
 		}
 
-		static ::System::Void CRIWARECFA78B41(::System::Int32 graphics_api, ::System::Boolean graphics_multi_threaded, ::System::Int32 num_decoders, ::System::Int32 num_of_max_entries)
+		static ::System::Void CRIWARE5013D8DF(::System::Int32 graphics_api, ::System::Boolean graphics_multi_threaded, ::System::Int32 num_decoders, ::System::Int32 num_of_max_entries)
 		{
-			return ((::System::Void(*)(::System::Int32, ::System::Boolean, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANAPLUGIN_CRIWARECFA78B41_OFFSET))(graphics_api, graphics_multi_threaded, num_decoders, num_of_max_entries);
+			return ((::System::Void(*)(::System::Int32, ::System::Boolean, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANAPLUGIN_CRIWARE5013D8DF_OFFSET))(graphics_api, graphics_multi_threaded, num_decoders, num_of_max_entries);
 		}
 
-		static ::System::Void CRIWARE7BFC56AA()
+		static ::System::Void CRIWARE88224C7A()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CRIWARE_CRIMANAPLUGIN_CRIWARE7BFC56AA_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CRIWARE_CRIMANAPLUGIN_CRIWARE88224C7A_OFFSET))();
 		}
 
-		static ::System::Boolean CRIWARE611B78A5()
+		static ::System::Boolean CRIWARE356279DC()
 		{
-			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + CRIWARE_CRIMANAPLUGIN_CRIWARE611B78A5_OFFSET))();
+			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + CRIWARE_CRIMANAPLUGIN_CRIWARE356279DC_OFFSET))();
 		}
 
-		static ::System::Void CRIWARED672C36F()
+		static ::System::Void CRIWARE2348B5C8()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CRIWARE_CRIMANAPLUGIN_CRIWARED672C36F_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CRIWARE_CRIMANAPLUGIN_CRIWARE2348B5C8_OFFSET))();
 		}
 
-		static ::System::UInt32 criManaUnity_GetPrimeBufferAlignmentSize()
+		static ::System::UInt32 CRIWARE4084722B()
 		{
-			return ((::System::UInt32(*)())((::PBYTE)hIl2Cpp + CRIWARE_CRIMANAPLUGIN_CRIMANAUNITY_GETPRIMEBUFFERALIGNMENTSIZE_OFFSET))();
+			return ((::System::UInt32(*)())((::PBYTE)hIl2Cpp + CRIWARE_CRIMANAPLUGIN_CRIWARE4084722B_OFFSET))();
+		}
+
+		static ::System::Void criMana_UseStreamerManager(::System::Boolean flag)
+		{
+			return ((::System::Void(*)(::System::Boolean))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANAPLUGIN_CRIMANA_USESTREAMERMANAGER_OFFSET))(flag);
 		}
 
 		static ::System::Void criManaUnity_UseLegacyDecoder_PC(::System::Boolean enable)
@@ -138,9 +160,9 @@ namespace CriWare
 			return ((::System::Void(*)(::System::Boolean))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANAPLUGIN_CRIMANAUNITY_USELEGACYDECODER_PC_OFFSET))(enable);
 		}
 
-		static ::System::Void CRIWARE62B7B053(::System::Boolean enable)
+		static ::System::Void CRIWARE3D003B8C(::System::Boolean enable)
 		{
-			return ((::System::Void(*)(::System::Boolean))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANAPLUGIN_CRIWARE62B7B053_OFFSET))(enable);
+			return ((::System::Void(*)(::System::Boolean))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANAPLUGIN_CRIWARE3D003B8C_OFFSET))(enable);
 		}
 	};
 }

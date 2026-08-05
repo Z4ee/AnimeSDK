@@ -7,20 +7,20 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class Component; }
 
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_CGMODULE_RESOURCENAMER_CLEARCACHE_OFFSET UNITYSDK_OFFSET(0x1DB0CC70)
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_CGMODULE_RESOURCENAMER_GETRESOURCENAME_OFFSET UNITYSDK_OFFSET(0x1DB0CCE0)
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_CGMODULE_RESOURCENAMER_RENAME_OFFSET UNITYSDK_OFFSET(0x1DB0D3F0)
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_CGMODULE_RESOURCENAMER__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB0CBD0)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_CGMODULE_RESOURCENAMER_CLEARCACHE_OFFSET UNITYSDK_OFFSET(0x1EEC1350)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_CGMODULE_RESOURCENAMER_GETRESOURCENAME_OFFSET UNITYSDK_OFFSET(0x1EEC13C0)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_CGMODULE_RESOURCENAMER_RENAME_OFFSET UNITYSDK_OFFSET(0x1EEC1AF0)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_CGMODULE_RESOURCENAMER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EEC12B0)
 
 namespace FluffyUnderware::Curvy::Generator
 {
-	inline static constexpr unsigned int CGModule_ResourceNamer_TypeDefinitionIndex = 38906;
+	inline static constexpr unsigned int CGModule_ResourceNamer_TypeDefinitionIndex = 39712;
 
 	class CGModule_ResourceNamer : public ::System::Object
 	{
 	public:
-		::FluffyUnderware::Curvy::Generator::CGModule* cgModule; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::String*>*>* resourcesNameCache; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::String*>*>* resourcesNameCache; // 0x10
+		::FluffyUnderware::Curvy::Generator::CGModule* cgModule; // 0x18
 
 		::System::Void _ctor(::FluffyUnderware::Curvy::Generator::CGModule* cgModule)
 		{

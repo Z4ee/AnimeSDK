@@ -3,13 +3,13 @@
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int ENPCCPUAnimatorControllerType_TypeDefinitionIndex = 81208;
+	inline static constexpr unsigned int ENPCCPUAnimatorControllerType_TypeDefinitionIndex = 64002;
 
 	enum class ENPCCPUAnimatorControllerType : ::System::Byte
 	{
-		PathFollow = 0x0,
-		StateMachine = 0x1,
 		Bits = 0x1,
 		Mask = 0x1,
+		PathFollow = 0x0,
+		StateMachine = 0x1,
 	};
 }

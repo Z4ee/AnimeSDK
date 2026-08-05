@@ -4,7 +4,7 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int ReferenceValue_1_TypeDefinitionIndex = 8796;
+	inline static constexpr unsigned int ReferenceValue_1_TypeDefinitionIndex = 8655;
 
 	template <typename T>
 	class ReferenceValue_1 : public ::System::Object

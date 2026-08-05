@@ -9,7 +9,7 @@ namespace UnityEngine { class GameObject; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICpInlevelChildWindowController_NumInfo_TypeDefinitionIndex = 90775;
+	inline static constexpr unsigned int UICpInlevelChildWindowController_NumInfo_TypeDefinitionIndex = 94869;
 
 	struct alignas(8) UICpInlevelChildWindowController_NumInfo
 	{

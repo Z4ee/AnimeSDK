@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int ParticleInstancingBatchCount_TypeDefinitionIndex = 27285;
+	inline static constexpr unsigned int ParticleInstancingBatchCount_TypeDefinitionIndex = 26770;
 
 	enum class ParticleInstancingBatchCount : ::System::Int32
 	{

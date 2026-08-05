@@ -7,7 +7,7 @@ namespace UnityEngine { class Mesh; }
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int DrawSkyCoverParams_TypeDefinitionIndex = 5937;
+	inline static constexpr unsigned int DrawSkyCoverParams_TypeDefinitionIndex = 5939;
 
 	struct alignas(8) DrawSkyCoverParams
 	{

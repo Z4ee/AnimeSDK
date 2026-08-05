@@ -2,24 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_208CC9941471731A_423;
+class Class_2_208CC9941471731A_360;
 namespace MoleMole { class UIWorkBenchMemoryDialogPopWindowController_Context; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIWORKBENCHMEMORYDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x11BE39B0)
-#define MOLEMOLE_UIWORKBENCHMEMORYDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS11_0__SELECTEDMEMORY_B__0_OFFSET UNITYSDK_OFFSET(0x11BE39C0)
-#define MOLEMOLE_UIWORKBENCHMEMORYDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS11_0__SELECTEDMEMORY_B__1_OFFSET UNITYSDK_OFFSET(0x11BE3B60)
+#define MOLEMOLE_UIWORKBENCHMEMORYDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1514AE00)
+#define MOLEMOLE_UIWORKBENCHMEMORYDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS11_0__SELECTEDMEMORY_B__0_OFFSET UNITYSDK_OFFSET(0x1514AE10)
+#define MOLEMOLE_UIWORKBENCHMEMORYDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS11_0__SELECTEDMEMORY_B__1_OFFSET UNITYSDK_OFFSET(0x1514AFB0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIWorkBenchMemoryDialogPopWindowController___c__DisplayClass11_0_TypeDefinitionIndex = 59579;
+	inline static constexpr unsigned int UIWorkBenchMemoryDialogPopWindowController___c__DisplayClass11_0_TypeDefinitionIndex = 72606;
 
 	class UIWorkBenchMemoryDialogPopWindowController___c__DisplayClass11_0 : public ::System::Object
 	{
 	public:
 		::MoleMole::UIWorkBenchMemoryDialogPopWindowController_Context* context; // 0x10
-		::System::Action* __9__1; // 0x18
-		::Class_2_208CC9941471731A_423* templateData; // 0x20
+		::Class_2_208CC9941471731A_360* templateData; // 0x18
+		::System::Action* __9__1; // 0x20
 
 		::System::Void _ctor()
 		{

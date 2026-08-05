@@ -3,12 +3,12 @@
 
 namespace FluffyUnderware::Curvy::Generator
 {
-	inline static constexpr unsigned int CGKeepAspectMode_TypeDefinitionIndex = 38838;
+	inline static constexpr unsigned int CGKeepAspectMode_TypeDefinitionIndex = 39720;
 
 	enum class CGKeepAspectMode : ::System::Int32
 	{
 		ScaleU = 1,
-		Off = 0,
 		ScaleV = 2,
+		Off = 0,
 	};
 }

@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ExitUntilAnimationSuccess_AnimationTimeType_TypeDefinitionIndex = 45832;
+	inline static constexpr unsigned int ExitUntilAnimationSuccess_AnimationTimeType_TypeDefinitionIndex = 85966;
 
 	enum class ExitUntilAnimationSuccess_AnimationTimeType : ::System::Int32
 	{

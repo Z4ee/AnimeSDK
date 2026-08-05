@@ -10,7 +10,7 @@ namespace System::Text { class StringBuilder; }
 
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int ThreeDimensionalArrayFormatter_1_TypeDefinitionIndex = 7477;
+	inline static constexpr unsigned int ThreeDimensionalArrayFormatter_1_TypeDefinitionIndex = 7481;
 
 	template <typename T>
 	class ThreeDimensionalArrayFormatter_1 : public ::Sirenix::Serialization::MinimalBaseFormatter_1<::Il2CppArray<T>*>

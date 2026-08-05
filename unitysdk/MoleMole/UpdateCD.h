@@ -3,34 +3,34 @@
 #include "unitysdk/BehaviorDesigner/Runtime/Tasks/Action.h"
 #include "unitysdk/BehaviorDesigner/Runtime/Tasks/TaskStatus.h"
 
-class Class_3_6D73516CC6FEADD7;
+class Class_3_D252341484B6EB1D;
 namespace BehaviorDesigner::Runtime { class SharedFloat; }
 namespace System { class String; }
 
-#define MOLEMOLE_UPDATECD_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x122DDFA0)
-#define MOLEMOLE_UPDATECD_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x122DE1E0)
-#define MOLEMOLE_UPDATECD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x122DE520)
-#define MOLEMOLE_UPDATECD__CTOR_OFFSET UNITYSDK_OFFSET(0x122DE770)
-#define MOLEMOLE_UPDATECD___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x122DE8A0)
-#define MOLEMOLE_UPDATECD___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x122DE810)
-#define MOLEMOLE_UPDATECD___BASE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x122DE930)
+#define MOLEMOLE_UPDATECD_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x11A24230)
+#define MOLEMOLE_UPDATECD_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x11A24450)
+#define MOLEMOLE_UPDATECD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x11A24860)
+#define MOLEMOLE_UPDATECD__CTOR_OFFSET UNITYSDK_OFFSET(0x11A24AB0)
+#define MOLEMOLE_UPDATECD___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x11A24BE0)
+#define MOLEMOLE_UPDATECD___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x11A24B50)
+#define MOLEMOLE_UPDATECD___BASE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x11A24C70)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UpdateCD_TypeDefinitionIndex = 78834;
+	inline static constexpr unsigned int UpdateCD_TypeDefinitionIndex = 80906;
 
 	class UpdateCD : public ::BehaviorDesigner::Runtime::Tasks::Action
 	{
 	public:
 		::BehaviorDesigner::Runtime::SharedFloat* UpdateRatio; // 0x58
-		::Class_3_6D73516CC6FEADD7* _aiCharacter; // 0x60
-		::BehaviorDesigner::Runtime::SharedFloat* CD; // 0x68
-		::System::Single defaultTime; // 0x70
-		::System::Single randomRangePositive; // 0x74
-		::System::Boolean keepUpdating; // 0x78
-		::System::Boolean applyPositiveRandom; // 0x79
-		::System::Boolean applyNegetiveRandom; // 0x7A
-		::System::Single randomRangeNegtive; // 0x7C
+		::BehaviorDesigner::Runtime::SharedFloat* CD; // 0x60
+		::Class_3_D252341484B6EB1D* _aiCharacter; // 0x68
+		::System::Single randomRangePositive; // 0x70
+		::System::Single defaultTime; // 0x74
+		::System::Single randomRangeNegtive; // 0x78
+		::System::Boolean keepUpdating; // 0x7C
+		::System::Boolean applyPositiveRandom; // 0x7D
+		::System::Boolean applyNegetiveRandom; // 0x7E
 
 		::System::Void _ctor()
 		{

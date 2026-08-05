@@ -3,12 +3,12 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int SsrQuality_TypeDefinitionIndex = 26747;
+	inline static constexpr unsigned int SsrQuality_TypeDefinitionIndex = 27683;
 
 	enum class SsrQuality : ::System::Int32
 	{
-		Low = 0,
-		Middle = 1,
 		High = 2,
+		Middle = 1,
+		Low = 0,
 	};
 }

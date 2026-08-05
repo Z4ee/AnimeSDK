@@ -5,21 +5,21 @@
 
 namespace Foundation { template <typename T> class IEnumerableX_Set_1; }
 
-#define FOUNDATION_BUNDLEINDEXARRAYCOMPARER_EQUALS_OFFSET UNITYSDK_OFFSET(0x1D882740)
-#define FOUNDATION_BUNDLEINDEXARRAYCOMPARER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1D882810)
-#define FOUNDATION_BUNDLEINDEXARRAYCOMPARER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D882900)
-#define FOUNDATION_BUNDLEINDEXARRAYCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8828F0)
+#define FOUNDATION_BUNDLEINDEXARRAYCOMPARER_EQUALS_OFFSET UNITYSDK_OFFSET(0x1ED8CB30)
+#define FOUNDATION_BUNDLEINDEXARRAYCOMPARER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1ED8CC00)
+#define FOUNDATION_BUNDLEINDEXARRAYCOMPARER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1ED8CD00)
+#define FOUNDATION_BUNDLEINDEXARRAYCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED8CCF0)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int BundleIndexArrayComparer_TypeDefinitionIndex = 8141;
+	inline static constexpr unsigned int BundleIndexArrayComparer_TypeDefinitionIndex = 8423;
 
 	class BundleIndexArrayComparer : public ::System::Object
 	{
 	public:
 		static ::Foundation::IEnumerableX_Set_1<::Foundation::BundleID>** StaticGet_s_set()
 		{
-			return (::Foundation::IEnumerableX_Set_1<::Foundation::BundleID>**)Il2CppClass::FromTypeDefinitionIndex(BundleIndexArrayComparer_TypeDefinitionIndex)->GetStaticField(0x6BB0);
+			return (::Foundation::IEnumerableX_Set_1<::Foundation::BundleID>**)Il2CppClass::FromTypeDefinitionIndex(BundleIndexArrayComparer_TypeDefinitionIndex)->GetStaticField(0x6B10);
 		}
 
 		::System::Void _ctor()

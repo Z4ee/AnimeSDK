@@ -2,34 +2,33 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_1_EEA0111A28582B57.h"
 
-class Class_2_A9A857AD270B9CE1;
+class Class_2_A4D62D05D5EA8464;
 namespace MoleMole { class UIControlCollection; }
 namespace UnityEngine { class RectTransform; }
 
-#define CLASS_2_5E2FBACADDB625B7_17_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x14DE1A10)
-#define CLASS_2_5E2FBACADDB625B7_17_METHOD_2_E9A21D244C9D6B36_OFFSET UNITYSDK_OFFSET(0x14DE1950)
-#define CLASS_2_5E2FBACADDB625B7_17__CTOR_OFFSET UNITYSDK_OFFSET(0x14DE1A00)
+#define CLASS_2_5E2FBACADDB625B7_17_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x12941B30)
+#define CLASS_2_5E2FBACADDB625B7_17_METHOD_2_E9A21D244C9D6B36_OFFSET UNITYSDK_OFFSET(0x12941A90)
+#define CLASS_2_5E2FBACADDB625B7_17__CTOR_OFFSET UNITYSDK_OFFSET(0x12941B20)
 
-inline static constexpr unsigned int Class_2_5E2FBACADDB625B7_17_TypeDefinitionIndex = 48835;
+inline static constexpr unsigned int Class_2_5E2FBACADDB625B7_17_TypeDefinitionIndex = 53739;
 
 class Class_2_5E2FBACADDB625B7_17 : public ::Class_1_EEA0111A28582B57
 {
 public:
 	::UnityEngine::RectTransform* Field_2_0; // 0x18
-	::UnityEngine::RectTransform* Field_2_1; // 0x20
 
 	::System::Void _ctor()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_5E2FBACADDB625B7_17__CTOR_OFFSET))(this);
 	}
 
-	::System::Void Method_2_E9A21D244C9D6B36(::Class_2_A9A857AD270B9CE1* a1, ::MoleMole::UIControlCollection* a2)
+	::System::Void Method_2_E9A21D244C9D6B36(::Class_2_A4D62D05D5EA8464* a1, ::MoleMole::UIControlCollection* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_2_A9A857AD270B9CE1*, ::MoleMole::UIControlCollection*))((::PBYTE)hIl2Cpp + CLASS_2_5E2FBACADDB625B7_17_METHOD_2_E9A21D244C9D6B36_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::Class_2_A4D62D05D5EA8464*, ::MoleMole::UIControlCollection*))((::PBYTE)hIl2Cpp + CLASS_2_5E2FBACADDB625B7_17_METHOD_2_E9A21D244C9D6B36_OFFSET))(this, a1, a2);
 	}
 
-	::System::Void Method_2_C8903A36ECBA4078(::Class_2_A9A857AD270B9CE1* a1, ::MoleMole::UIControlCollection* a2)
+	::System::Void Method_2_C8903A36ECBA4078(::Class_2_A4D62D05D5EA8464* a1, ::MoleMole::UIControlCollection* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_2_A9A857AD270B9CE1*, ::MoleMole::UIControlCollection*))((::PBYTE)hIl2Cpp + CLASS_2_5E2FBACADDB625B7_17_METHOD_2_C8903A36ECBA4078_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::Class_2_A4D62D05D5EA8464*, ::MoleMole::UIControlCollection*))((::PBYTE)hIl2Cpp + CLASS_2_5E2FBACADDB625B7_17_METHOD_2_C8903A36ECBA4078_OFFSET))(this, a1, a2);
 	}
 };

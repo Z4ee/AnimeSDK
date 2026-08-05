@@ -5,12 +5,12 @@
 class Class_1_A5FC45CC23522FB5;
 namespace MoleMole { class UIInterKnotMissionWidgetController; }
 
-#define MOLEMOLE_UIINTERKNOTMISSIONWIDGETCONTROLLER___C__DISPLAYCLASS46_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16D86240)
-#define MOLEMOLE_UIINTERKNOTMISSIONWIDGETCONTROLLER___C__DISPLAYCLASS46_0__INITMISSION_B__1_OFFSET UNITYSDK_OFFSET(0x16D86250)
+#define MOLEMOLE_UIINTERKNOTMISSIONWIDGETCONTROLLER___C__DISPLAYCLASS46_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19856170)
+#define MOLEMOLE_UIINTERKNOTMISSIONWIDGETCONTROLLER___C__DISPLAYCLASS46_0__INITMISSION_B__1_OFFSET UNITYSDK_OFFSET(0x19856180)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInterKnotMissionWidgetController___c__DisplayClass46_0_TypeDefinitionIndex = 84828;
+	inline static constexpr unsigned int UIInterKnotMissionWidgetController___c__DisplayClass46_0_TypeDefinitionIndex = 91287;
 
 	class UIInterKnotMissionWidgetController___c__DisplayClass46_0 : public ::System::Object
 	{

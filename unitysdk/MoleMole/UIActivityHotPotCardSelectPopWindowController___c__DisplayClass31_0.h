@@ -5,11 +5,11 @@
 namespace MoleMole { class UIActivityHotPotCardSelectPopWindowController; }
 namespace MoleMole { class UserLocalDataItem; }
 
-#define MOLEMOLE_UIACTIVITYHOTPOTCARDSELECTPOPWINDOWCONTROLLER___C__DISPLAYCLASS31_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15E44350)
+#define MOLEMOLE_UIACTIVITYHOTPOTCARDSELECTPOPWINDOWCONTROLLER___C__DISPLAYCLASS31_0__CTOR_OFFSET UNITYSDK_OFFSET(0x173D2280)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityHotPotCardSelectPopWindowController___c__DisplayClass31_0_TypeDefinitionIndex = 63903;
+	inline static constexpr unsigned int UIActivityHotPotCardSelectPopWindowController___c__DisplayClass31_0_TypeDefinitionIndex = 58837;
 
 	class UIActivityHotPotCardSelectPopWindowController___c__DisplayClass31_0 : public ::System::Object
 	{

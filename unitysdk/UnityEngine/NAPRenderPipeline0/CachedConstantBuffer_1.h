@@ -4,7 +4,7 @@
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int CachedConstantBuffer_1_TypeDefinitionIndex = 5996;
+	inline static constexpr unsigned int CachedConstantBuffer_1_TypeDefinitionIndex = 5998;
 
 	template <typename T>
 	class CachedConstantBuffer_1 : public ::UnityEngine::NAPRenderPipeline0::BaseCachedConstantBuffer

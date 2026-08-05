@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_7594C8C40FFC1AE0.h"
+#include "unitysdk/Enum_3_75A5C8C4100A8E33.h"
 #include "unitysdk/Foundation/AssetPath.h"
 #include "unitysdk/MoleMole/Config/TerrainMatType.h"
 #include "unitysdk/MoleMole/GameplayTag.h"
@@ -36,13 +36,13 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_LEVEL_LEVELCONFIG_GETLEVELABYSSGLOBALAICONFIG_OFFSET UNITYSDK_OFFSET(0x1582ADF0)
-#define MOLEMOLE_LEVEL_LEVELCONFIG_TRYGETFOCUSICONPATH_OFFSET UNITYSDK_OFFSET(0x1582AF00)
-#define MOLEMOLE_LEVEL_LEVELCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1582B010)
+#define MOLEMOLE_LEVEL_LEVELCONFIG_GETLEVELABYSSGLOBALAICONFIG_OFFSET UNITYSDK_OFFSET(0x129AB8E0)
+#define MOLEMOLE_LEVEL_LEVELCONFIG_TRYGETFOCUSICONPATH_OFFSET UNITYSDK_OFFSET(0x129AB9F0)
+#define MOLEMOLE_LEVEL_LEVELCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x129ABB00)
 
 namespace MoleMole::Level
 {
-	inline static constexpr unsigned int LevelConfig_TypeDefinitionIndex = 47017;
+	inline static constexpr unsigned int LevelConfig_TypeDefinitionIndex = 86294;
 
 	class LevelConfig : public ::MoleMole::NapSplitSerialized_MainScriptableObject
 	{
@@ -90,7 +90,7 @@ namespace MoleMole::Level
 		::System::Single LongFight_Fadeout_BlackDuration; // 0x13C
 		::UnityEngine::AnimationCurve* LongFight_Fadeout_Curve; // 0x140
 		::System::Collections::Generic::Dictionary_2<::MoleMole::MissionResult, ::System::Int32>* LongFightMissionResultTypeReflect; // 0x148
-		::System::Collections::Generic::List_1<::Enum_3_7594C8C40FFC1AE0>* ApplyRatingQuestTypes; // 0x150
+		::System::Collections::Generic::List_1<::Enum_3_75A5C8C4100A8E33>* ApplyRatingQuestTypes; // 0x150
 		::System::Collections::Generic::Dictionary_2<::MoleMole::MissionResult, ::System::Int32>* LongFightMissionResultWithFinish; // 0x158
 		::System::Boolean use_checkarea_culling; // 0x160
 		::System::Boolean use_checkarea_effect_culling; // 0x161

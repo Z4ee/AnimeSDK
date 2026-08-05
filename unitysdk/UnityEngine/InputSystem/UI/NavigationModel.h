@@ -6,11 +6,11 @@
 
 namespace UnityEngine::EventSystems { class AxisEventData; }
 
-#define UNITYENGINE_INPUTSYSTEM_UI_NAVIGATIONMODEL_RESET_OFFSET UNITYSDK_OFFSET(0x92A590)
+#define UNITYENGINE_INPUTSYSTEM_UI_NAVIGATIONMODEL_RESET_OFFSET UNITYSDK_OFFSET(0x97A120)
 
 namespace UnityEngine::InputSystem::UI
 {
-	inline static constexpr unsigned int NavigationModel_TypeDefinitionIndex = 31770;
+	inline static constexpr unsigned int NavigationModel_TypeDefinitionIndex = 32390;
 
 	struct alignas(8) NavigationModel
 	{

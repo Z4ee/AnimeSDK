@@ -12,12 +12,12 @@ namespace System::Collections { class IEnumerable; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_TIMELINEDATAEXTRA_GETIDS_OFFSET UNITYSDK_OFFSET(0x1740D630)
-#define MOLEMOLE_TIMELINEDATAEXTRA__CTOR_OFFSET UNITYSDK_OFFSET(0x1740D770)
+#define MOLEMOLE_TIMELINEDATAEXTRA_GETIDS_OFFSET UNITYSDK_OFFSET(0x129EA4A0)
+#define MOLEMOLE_TIMELINEDATAEXTRA__CTOR_OFFSET UNITYSDK_OFFSET(0x129EA5E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int TimelineDataExtra_TypeDefinitionIndex = 64267;
+	inline static constexpr unsigned int TimelineDataExtra_TypeDefinitionIndex = 85139;
 
 	class TimelineDataExtra : public ::System::Object
 	{

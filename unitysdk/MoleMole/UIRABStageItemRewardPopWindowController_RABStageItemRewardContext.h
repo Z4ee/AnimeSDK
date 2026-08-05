@@ -4,11 +4,11 @@
 
 template <typename T1, typename T2> class Class_1_516A565475879095;
 
-#define MOLEMOLE_UIRABSTAGEITEMREWARDPOPWINDOWCONTROLLER_RABSTAGEITEMREWARDCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16ECCAA0)
+#define MOLEMOLE_UIRABSTAGEITEMREWARDPOPWINDOWCONTROLLER_RABSTAGEITEMREWARDCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x17E2C010)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRABStageItemRewardPopWindowController_RABStageItemRewardContext_TypeDefinitionIndex = 43276;
+	inline static constexpr unsigned int UIRABStageItemRewardPopWindowController_RABStageItemRewardContext_TypeDefinitionIndex = 89508;
 
 	class UIRABStageItemRewardPopWindowController_RABStageItemRewardContext : public ::MoleMole::UIControllerContextBase
 	{

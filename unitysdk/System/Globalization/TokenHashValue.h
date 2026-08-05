@@ -5,7 +5,7 @@
 
 namespace System { class String; }
 
-#define SYSTEM_GLOBALIZATION_TOKENHASHVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8A2740)
+#define SYSTEM_GLOBALIZATION_TOKENHASHVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CCAF650)
 
 namespace System::Globalization
 {
@@ -15,8 +15,8 @@ namespace System::Globalization
 	{
 	public:
 		::System::String* tokenString; // 0x10
-		::System::Int32 tokenValue; // 0x18
-		::System::TokenType tokenType; // 0x1C
+		::System::TokenType tokenType; // 0x18
+		::System::Int32 tokenValue; // 0x1C
 
 		::System::Void _ctor(::System::String* tokenString, ::System::TokenType tokenType, ::System::Int32 tokenValue)
 		{

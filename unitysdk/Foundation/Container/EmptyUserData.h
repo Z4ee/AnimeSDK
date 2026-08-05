@@ -4,7 +4,7 @@
 
 namespace Foundation::Container
 {
-	inline static constexpr unsigned int EmptyUserData_TypeDefinitionIndex = 8604;
+	inline static constexpr unsigned int EmptyUserData_TypeDefinitionIndex = 8551;
 
 	struct alignas(1) EmptyUserData
 	{

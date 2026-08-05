@@ -3,7 +3,7 @@
 
 namespace UnityEngine::InputSystem::Controls
 {
-	inline static constexpr unsigned int AxisControl_Clamp_TypeDefinitionIndex = 32008;
+	inline static constexpr unsigned int AxisControl_Clamp_TypeDefinitionIndex = 32628;
 
 	enum class AxisControl_Clamp : ::System::Int32
 	{

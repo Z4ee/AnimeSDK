@@ -8,20 +8,20 @@
 namespace LitJson { class JsonWriter; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 
-#define LITJSON_UNITYTYPEBINDINGS___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1E3731F0)
-#define LITJSON_UNITYTYPEBINDINGS___C__DISPLAYCLASS1_0__REGISTER_B__10_OFFSET UNITYSDK_OFFSET(0x1E3732D0)
-#define LITJSON_UNITYTYPEBINDINGS___C__DISPLAYCLASS1_0__REGISTER_B__3_OFFSET UNITYSDK_OFFSET(0x1E373200)
-#define LITJSON_UNITYTYPEBINDINGS___C__DISPLAYCLASS1_0__REGISTER_B__5_OFFSET UNITYSDK_OFFSET(0x1E373260)
+#define LITJSON_UNITYTYPEBINDINGS___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1F6660F0)
+#define LITJSON_UNITYTYPEBINDINGS___C__DISPLAYCLASS1_0__REGISTER_B__10_OFFSET UNITYSDK_OFFSET(0x1F6661D0)
+#define LITJSON_UNITYTYPEBINDINGS___C__DISPLAYCLASS1_0__REGISTER_B__3_OFFSET UNITYSDK_OFFSET(0x1F666100)
+#define LITJSON_UNITYTYPEBINDINGS___C__DISPLAYCLASS1_0__REGISTER_B__5_OFFSET UNITYSDK_OFFSET(0x1F666160)
 
 namespace LitJson
 {
-	inline static constexpr unsigned int UnityTypeBindings___c__DisplayClass1_0_TypeDefinitionIndex = 8172;
+	inline static constexpr unsigned int UnityTypeBindings___c__DisplayClass1_0_TypeDefinitionIndex = 8333;
 
 	class UnityTypeBindings___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:
-		::System::Action_2<::UnityEngine::Vector3, ::LitJson::JsonWriter*>* writeVector3; // 0x10
-		::System::Action_2<::UnityEngine::Vector2, ::LitJson::JsonWriter*>* writeVector2; // 0x18
+		::System::Action_2<::UnityEngine::Vector2, ::LitJson::JsonWriter*>* writeVector2; // 0x10
+		::System::Action_2<::UnityEngine::Vector3, ::LitJson::JsonWriter*>* writeVector3; // 0x18
 
 		::System::Void _ctor()
 		{

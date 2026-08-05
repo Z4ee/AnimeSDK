@@ -8,11 +8,11 @@ namespace MoleMole::Config { class ConfigInspireZoneOperation; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_FEVERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19115AB0)
+#define MOLEMOLE_FEVERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19DA7E50)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int FeverConfig_TypeDefinitionIndex = 64309;
+	inline static constexpr unsigned int FeverConfig_TypeDefinitionIndex = 90244;
 
 	class FeverConfig : public ::Foundation::MihoyoSerializedScriptableObject
 	{

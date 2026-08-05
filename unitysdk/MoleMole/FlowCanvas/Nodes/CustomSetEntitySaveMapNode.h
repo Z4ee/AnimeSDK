@@ -5,11 +5,11 @@
 namespace MoleMole::FlowCanvas::Nodes { class EntityData; }
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_CUSTOMSETENTITYSAVEMAPNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3932E0)
+#define MOLEMOLE_FLOWCANVAS_NODES_CUSTOMSETENTITYSAVEMAPNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B599560)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int CustomSetEntitySaveMapNode_TypeDefinitionIndex = 84713;
+	inline static constexpr unsigned int CustomSetEntitySaveMapNode_TypeDefinitionIndex = 70229;
 
 	class CustomSetEntitySaveMapNode : public ::MoleMole::FlowCanvas::Nodes::CustomSetVariableNode_2<::MoleMole::FlowCanvas::Nodes::EntityData*, ::System::String*>
 	{

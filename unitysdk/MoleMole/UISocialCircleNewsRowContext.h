@@ -5,17 +5,17 @@
 class Class_2_27DB1968BCF5D736;
 class Class_2_CAF7806674A7A8B7;
 
-#define MOLEMOLE_UISOCIALCIRCLENEWSROWCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x178FB4E0)
+#define MOLEMOLE_UISOCIALCIRCLENEWSROWCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18876150)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISocialCircleNewsRowContext_TypeDefinitionIndex = 85332;
+	inline static constexpr unsigned int UISocialCircleNewsRowContext_TypeDefinitionIndex = 58224;
 
 	class UISocialCircleNewsRowContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_2_CAF7806674A7A8B7* NewsData; // 0x28
-		::Class_2_27DB1968BCF5D736* LogData; // 0x30
+		::Class_2_27DB1968BCF5D736* LogData; // 0x28
+		::Class_2_CAF7806674A7A8B7* NewsData; // 0x30
 		::System::Boolean IsTimeTitle; // 0x38
 		::System::Int32 Day; // 0x3C
 

@@ -1,0 +1,42 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+namespace MoleMole { class UITutorialDialog; }
+namespace System { class Action; }
+
+#define CLASS_1_34B2CCDF40A4699D_CLASS_1_8E672701A542B127_METHOD_1_5790A55946AA509D_1_OFFSET UNITYSDK_OFFSET(0x1750FA20)
+#define CLASS_1_34B2CCDF40A4699D_CLASS_1_8E672701A542B127_METHOD_1_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0x1750F770)
+#define CLASS_1_34B2CCDF40A4699D_CLASS_1_8E672701A542B127_METHOD_1_6BA3F6FAA35776D7_OFFSET UNITYSDK_OFFSET(0x1750F780)
+#define CLASS_1_34B2CCDF40A4699D_CLASS_1_8E672701A542B127__CTOR_OFFSET UNITYSDK_OFFSET(0x1750F760)
+
+inline static constexpr unsigned int Class_1_34B2CCDF40A4699D_Class_1_8E672701A542B127_TypeDefinitionIndex = 70812;
+
+class Class_1_34B2CCDF40A4699D_Class_1_8E672701A542B127 : public ::System::Object
+{
+public:
+	::MoleMole::UITutorialDialog* Field_1_7; // 0x10
+	::System::Action* Field_1_0; // 0x18
+	::System::Int32 Field_1_1; // 0x20
+	::System::Int32 Field_1_2; // 0x24
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_34B2CCDF40A4699D_CLASS_1_8E672701A542B127__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_1_5790A55946AA509D()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_34B2CCDF40A4699D_CLASS_1_8E672701A542B127_METHOD_1_5790A55946AA509D_OFFSET))(this);
+	}
+
+	::System::Void Method_1_6BA3F6FAA35776D7()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_34B2CCDF40A4699D_CLASS_1_8E672701A542B127_METHOD_1_6BA3F6FAA35776D7_OFFSET))(this);
+	}
+
+	::System::Void Method_1_5790A55946AA509D_1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_34B2CCDF40A4699D_CLASS_1_8E672701A542B127_METHOD_1_5790A55946AA509D_1_OFFSET))(this);
+	}
+};

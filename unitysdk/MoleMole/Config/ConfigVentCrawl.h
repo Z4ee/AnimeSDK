@@ -6,11 +6,11 @@ namespace MoleMole::Battle { class AnimatorParamControl; }
 namespace MoleMole::Cameras { class OverShoulderCameraConfig; }
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGVENTCRAWL__CTOR_OFFSET UNITYSDK_OFFSET(0x17D63A60)
+#define MOLEMOLE_CONFIG_CONFIGVENTCRAWL__CTOR_OFFSET UNITYSDK_OFFSET(0x172B3940)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigVentCrawl_TypeDefinitionIndex = 81467;
+	inline static constexpr unsigned int ConfigVentCrawl_TypeDefinitionIndex = 44550;
 
 	class ConfigVentCrawl : public ::Foundation::MihoyoSerializedScriptableObject
 	{

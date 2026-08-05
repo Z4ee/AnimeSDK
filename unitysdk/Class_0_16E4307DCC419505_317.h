@@ -1,10 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Foundation/ViewObject/GroupMemberIdentifier.h"
-#include "unitysdk/System/ValueTuple_2.h"
-#include "unitysdk/UnityEngine/Vector3.h"
+#include "unitysdk/Struct_2_3959D6851A344518.h"
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_317_TypeDefinitionIndex = 64496;
+class Class_1_05CB482B8638F6BA;
+class Class_1_FD31E4216DD30F97;
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+inline static constexpr unsigned int Class_0_16E4307DCC419505_317_TypeDefinitionIndex = 54699;
 
 class Class_0_16E4307DCC419505_317
 {

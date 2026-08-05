@@ -7,7 +7,7 @@ namespace System::Reflection { class MethodInfo; }
 
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int BaseFormatter_1___c__DisplayClass11_0_TypeDefinitionIndex = 7448;
+	inline static constexpr unsigned int BaseFormatter_1___c__DisplayClass11_0_TypeDefinitionIndex = 7452;
 
 	template <typename T>
 	class BaseFormatter_1___c__DisplayClass11_0 : public ::System::Object

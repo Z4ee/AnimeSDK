@@ -6,10 +6,10 @@
 
 namespace UnityEngine { class Texture; }
 
-#define OVAATLASPROXY_ATLASCONFIG_INITLOCALDATA_OFFSET UNITYSDK_OFFSET(0x1B7F00E0)
-#define OVAATLASPROXY_ATLASCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7F0510)
+#define OVAATLASPROXY_ATLASCONFIG_INITLOCALDATA_OFFSET UNITYSDK_OFFSET(0x1CB0CD90)
+#define OVAATLASPROXY_ATLASCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB0D1C0)
 
-inline static constexpr unsigned int OVAAtlasProxy_AtlasConfig_TypeDefinitionIndex = 26196;
+inline static constexpr unsigned int OVAAtlasProxy_AtlasConfig_TypeDefinitionIndex = 27964;
 
 class OVAAtlasProxy_AtlasConfig : public ::System::Object
 {

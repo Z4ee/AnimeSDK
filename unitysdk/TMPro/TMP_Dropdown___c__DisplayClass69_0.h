@@ -5,18 +5,18 @@
 namespace TMPro { class TMP_Dropdown; }
 namespace TMPro { class TMP_Dropdown_DropdownItem; }
 
-#define TMPRO_TMP_DROPDOWN___C__DISPLAYCLASS69_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7AA190)
-#define TMPRO_TMP_DROPDOWN___C__DISPLAYCLASS69_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1E7AA1A0)
+#define TMPRO_TMP_DROPDOWN___C__DISPLAYCLASS69_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB82600)
+#define TMPRO_TMP_DROPDOWN___C__DISPLAYCLASS69_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1FB82610)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_Dropdown___c__DisplayClass69_0_TypeDefinitionIndex = 39125;
+	inline static constexpr unsigned int TMP_Dropdown___c__DisplayClass69_0_TypeDefinitionIndex = 39791;
 
 	class TMP_Dropdown___c__DisplayClass69_0 : public ::System::Object
 	{
 	public:
-		::TMPro::TMP_Dropdown* __4__this; // 0x10
-		::TMPro::TMP_Dropdown_DropdownItem* item; // 0x18
+		::TMPro::TMP_Dropdown_DropdownItem* item; // 0x10
+		::TMPro::TMP_Dropdown* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

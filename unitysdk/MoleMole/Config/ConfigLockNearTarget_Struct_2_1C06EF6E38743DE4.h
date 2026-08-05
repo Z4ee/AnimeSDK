@@ -5,11 +5,11 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigLockNearTarget_Struct_2_1C06EF6E38743DE4_TypeDefinitionIndex = 45094;
+	inline static constexpr unsigned int ConfigLockNearTarget_Struct_2_1C06EF6E38743DE4_TypeDefinitionIndex = 88924;
 
 	struct alignas(4) ConfigLockNearTarget_Struct_2_1C06EF6E38743DE4
 	{
-		::System::Single Field_2_0; // 0x10
-		::MoleMole::Config::CharacterAliveState Field_2_1; // 0x14
+		::MoleMole::Config::CharacterAliveState Field_2_0; // 0x10
+		::System::Single Field_2_1; // 0x14
 	};
 }

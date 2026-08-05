@@ -8,21 +8,21 @@ namespace System { class String; }
 namespace UnityEngine { class Texture2D; }
 namespace UnityEngine { class Texture; }
 
-#define MOLEMOLE_CONFIG_CONFIGENTITYCOLORLOOKUPEFFECT_GETCONTRIBUTION_OFFSET UNITYSDK_OFFSET(0x1A067BC0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYCOLORLOOKUPEFFECT_GETTEXTURE_OFFSET UNITYSDK_OFFSET(0x1A067B50)
-#define MOLEMOLE_CONFIG_CONFIGENTITYCOLORLOOKUPEFFECT_GET_TEXTURE_OFFSET UNITYSDK_OFFSET(0x1A067960)
-#define MOLEMOLE_CONFIG_CONFIGENTITYCOLORLOOKUPEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A067C40)
+#define MOLEMOLE_CONFIG_CONFIGENTITYCOLORLOOKUPEFFECT_GETCONTRIBUTION_OFFSET UNITYSDK_OFFSET(0x177DC200)
+#define MOLEMOLE_CONFIG_CONFIGENTITYCOLORLOOKUPEFFECT_GETTEXTURE_OFFSET UNITYSDK_OFFSET(0x177DC190)
+#define MOLEMOLE_CONFIG_CONFIGENTITYCOLORLOOKUPEFFECT_GET_TEXTURE_OFFSET UNITYSDK_OFFSET(0x177DBFA0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYCOLORLOOKUPEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x177DC280)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigEntityColorLookupEffect_TypeDefinitionIndex = 44514;
+	inline static constexpr unsigned int ConfigEntityColorLookupEffect_TypeDefinitionIndex = 88675;
 
 	class ConfigEntityColorLookupEffect : public ::MoleMole::Config::ConfigEntityScreenEffectBase
 	{
 	public:
-		::UnityEngine::Texture2D* _texture; // 0x40
+		::MoleMole::Config::ScreenEffectFloat* contribution; // 0x40
 		::System::String* texturePath; // 0x48
-		::MoleMole::Config::ScreenEffectFloat* contribution; // 0x50
+		::UnityEngine::Texture2D* _texture; // 0x50
 		::MoleMole::Config::ScreenEffectFieldHandleType textureHandleType; // 0x58
 		::MoleMole::Config::ScreenEffectFieldHandleType contributionHandleType; // 0x5C
 

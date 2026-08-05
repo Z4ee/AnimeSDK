@@ -3,7 +3,7 @@
 
 namespace UnrealTypes
 {
-	inline static constexpr unsigned int IStructWrapper_1_TypeDefinitionIndex = 27704;
+	inline static constexpr unsigned int IStructWrapper_1_TypeDefinitionIndex = 28307;
 
 	template <typename T>
 	class IStructWrapper_1

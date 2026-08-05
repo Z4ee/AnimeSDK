@@ -9,7 +9,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace Dest::Math
 {
-	inline static constexpr unsigned int ShuffleBag_1_TypeDefinitionIndex = 34808;
+	inline static constexpr unsigned int ShuffleBag_1_TypeDefinitionIndex = 35467;
 
 	template <typename T>
 	class ShuffleBag_1 : public ::System::Object

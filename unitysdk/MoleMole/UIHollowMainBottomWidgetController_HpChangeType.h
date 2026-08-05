@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowMainBottomWidgetController_HpChangeType_TypeDefinitionIndex = 47523;
+	inline static constexpr unsigned int UIHollowMainBottomWidgetController_HpChangeType_TypeDefinitionIndex = 83694;
 
 	enum class UIHollowMainBottomWidgetController_HpChangeType : ::System::Int32
 	{

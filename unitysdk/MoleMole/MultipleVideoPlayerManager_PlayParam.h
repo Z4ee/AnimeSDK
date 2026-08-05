@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_MULTIPLEVIDEOPLAYERMANAGER_PLAYPARAM_EQUALS_OFFSET UNITYSDK_OFFSET(0x819680)
+#define MOLEMOLE_MULTIPLEVIDEOPLAYERMANAGER_PLAYPARAM_EQUALS_OFFSET UNITYSDK_OFFSET(0x879E10)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MultipleVideoPlayerManager_PlayParam_TypeDefinitionIndex = 67962;
+	inline static constexpr unsigned int MultipleVideoPlayerManager_PlayParam_TypeDefinitionIndex = 70082;
 
 	struct alignas(8) MultipleVideoPlayerManager_PlayParam
 	{

@@ -4,12 +4,12 @@
 #include "unitysdk/System/Object.h"
 
 namespace System { template <typename T1, typename T2, typename T3, typename T4> class Func_4; }
-template <typename T> class Class_1_1D2D64B0F11327DE;
+template <typename T> class Class_1_1D2D64B0F11327D7;
 
-#define CLASS_3_493953025FA316DA_CLASS_1_D406B2D1A122D455_METHOD_1_476ED10B573CD6F9_OFFSET UNITYSDK_OFFSET(0x11E655F0)
-#define CLASS_3_493953025FA316DA_CLASS_1_D406B2D1A122D455__CTOR_OFFSET UNITYSDK_OFFSET(0x11E655E0)
+#define CLASS_3_493953025FA316DA_CLASS_1_D406B2D1A122D455_METHOD_1_476ED10B573CD6F9_OFFSET UNITYSDK_OFFSET(0x17C67960)
+#define CLASS_3_493953025FA316DA_CLASS_1_D406B2D1A122D455__CTOR_OFFSET UNITYSDK_OFFSET(0x17C67950)
 
-inline static constexpr unsigned int Class_3_493953025FA316DA_Class_1_D406B2D1A122D455_TypeDefinitionIndex = 46358;
+inline static constexpr unsigned int Class_3_493953025FA316DA_Class_1_D406B2D1A122D455_TypeDefinitionIndex = 47533;
 
 class Class_3_493953025FA316DA_Class_1_D406B2D1A122D455 : public ::System::Object
 {
@@ -21,8 +21,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_493953025FA316DA_CLASS_1_D406B2D1A122D455__CTOR_OFFSET))(this);
 	}
 
-	::System::Double Method_1_476ED10B573CD6F9(::Class_1_1D2D64B0F11327DE<::MoleMole::HollowChessboard::HollowCell>* a1)
+	::System::Double Method_1_476ED10B573CD6F9(::Class_1_1D2D64B0F11327D7<::MoleMole::HollowChessboard::HollowCell>* a1)
 	{
-		return ((::System::Double(*)(::PVOID, ::Class_1_1D2D64B0F11327DE<::MoleMole::HollowChessboard::HollowCell>*))((::PBYTE)hIl2Cpp + CLASS_3_493953025FA316DA_CLASS_1_D406B2D1A122D455_METHOD_1_476ED10B573CD6F9_OFFSET))(this, a1);
+		return ((::System::Double(*)(::PVOID, ::Class_1_1D2D64B0F11327D7<::MoleMole::HollowChessboard::HollowCell>*))((::PBYTE)hIl2Cpp + CLASS_3_493953025FA316DA_CLASS_1_D406B2D1A122D455_METHOD_1_476ED10B573CD6F9_OFFSET))(this, a1);
 	}
 };

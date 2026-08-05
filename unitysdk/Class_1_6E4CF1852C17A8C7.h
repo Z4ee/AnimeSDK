@@ -1,0 +1,149 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/CriWare/CriMana/Player_Status.h"
+#include "unitysdk/System/Object.h"
+
+namespace MoleMole { class CriManaMovieControllerForNap; }
+namespace System { class String; }
+
+#define CLASS_1_6E4CF1852C17A8C7_METHOD_1_02A3D10A9D535169_1_OFFSET UNITYSDK_OFFSET(0x12D53E40)
+#define CLASS_1_6E4CF1852C17A8C7_METHOD_1_02A3D10A9D535169_OFFSET UNITYSDK_OFFSET(0x12D548A0)
+#define CLASS_1_6E4CF1852C17A8C7_METHOD_1_071850D2764E9D4C_OFFSET UNITYSDK_OFFSET(0x12D543D0)
+#define CLASS_1_6E4CF1852C17A8C7_METHOD_1_0B1EB5C9B94BAB66_OFFSET UNITYSDK_OFFSET(0x12D54A30)
+#define CLASS_1_6E4CF1852C17A8C7_METHOD_1_126AB3935214AA22_OFFSET UNITYSDK_OFFSET(0x12D54380)
+#define CLASS_1_6E4CF1852C17A8C7_METHOD_1_136ADF9126C24EC1_OFFSET UNITYSDK_OFFSET(0x12D54850)
+#define CLASS_1_6E4CF1852C17A8C7_METHOD_1_43EFD7E439EB8850_OFFSET UNITYSDK_OFFSET(0x12D54BB0)
+#define CLASS_1_6E4CF1852C17A8C7_METHOD_1_47BF6C38E3BDB289_OFFSET UNITYSDK_OFFSET(0x12D54320)
+#define CLASS_1_6E4CF1852C17A8C7_METHOD_1_7786DC814C2FC3BE_OFFSET UNITYSDK_OFFSET(0x12D54B80)
+#define CLASS_1_6E4CF1852C17A8C7_METHOD_1_7D201B4343E63821_OFFSET UNITYSDK_OFFSET(0x12D54BA0)
+#define CLASS_1_6E4CF1852C17A8C7_METHOD_1_8ADAD6329467088A_OFFSET UNITYSDK_OFFSET(0x12D54120)
+#define CLASS_1_6E4CF1852C17A8C7_METHOD_1_988D426B878EF143_OFFSET UNITYSDK_OFFSET(0x12D53E50)
+#define CLASS_1_6E4CF1852C17A8C7_METHOD_1_9CB95F99172198AA_OFFSET UNITYSDK_OFFSET(0x12D54F10)
+#define CLASS_1_6E4CF1852C17A8C7_METHOD_1_A6544B958241856F_OFFSET UNITYSDK_OFFSET(0x12D54130)
+#define CLASS_1_6E4CF1852C17A8C7_METHOD_1_C74E50CBD41F0264_OFFSET UNITYSDK_OFFSET(0x12D54B90)
+#define CLASS_1_6E4CF1852C17A8C7_METHOD_1_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0x12D54390)
+#define CLASS_1_6E4CF1852C17A8C7_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x12D54330)
+#define CLASS_1_6E4CF1852C17A8C7_METHOD_1_D0DF0505F244B465_OFFSET UNITYSDK_OFFSET(0x12D548B0)
+#define CLASS_1_6E4CF1852C17A8C7_METHOD_1_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0x12D54370)
+#define CLASS_1_6E4CF1852C17A8C7__CCTOR_OFFSET UNITYSDK_OFFSET(0x12D54110)
+#define CLASS_1_6E4CF1852C17A8C7__CTOR_OFFSET UNITYSDK_OFFSET(0x12D53E20)
+
+inline static constexpr unsigned int Class_1_6E4CF1852C17A8C7_TypeDefinitionIndex = 80862;
+
+class Class_1_6E4CF1852C17A8C7 : public ::System::Object
+{
+public:
+	static ::System::UInt32* StaticGet_Field_1_1()
+	{
+		return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_6E4CF1852C17A8C7_TypeDefinitionIndex)->GetStaticField(0xFB20);
+	}
+	::System::String* Field_1_5; // 0x10
+	::MoleMole::CriManaMovieControllerForNap* Field_1_7; // 0x18
+	::System::UInt32 Field_1_6; // 0x20
+	::System::Boolean Field_1_0; // 0x24
+
+	::System::Void _ctor(::System::String* a1, ::System::Boolean a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_6E4CF1852C17A8C7__CTOR_OFFSET))(this, a1, a2);
+	}
+
+	static ::System::Void _cctor()
+	{
+		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CLASS_1_6E4CF1852C17A8C7__CCTOR_OFFSET))();
+	}
+
+	::MoleMole::CriManaMovieControllerForNap* Method_1_8ADAD6329467088A()
+	{
+		return ((::MoleMole::CriManaMovieControllerForNap*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_6E4CF1852C17A8C7_METHOD_1_8ADAD6329467088A_OFFSET))(this);
+	}
+
+	::System::Void Method_1_A6544B958241856F()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_6E4CF1852C17A8C7_METHOD_1_A6544B958241856F_OFFSET))(this);
+	}
+
+	::System::Void Method_1_47BF6C38E3BDB289(::MoleMole::CriManaMovieControllerForNap* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::MoleMole::CriManaMovieControllerForNap*))((::PBYTE)hIl2Cpp + CLASS_1_6E4CF1852C17A8C7_METHOD_1_47BF6C38E3BDB289_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_988D426B878EF143(::System::String* a1, ::System::Boolean a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_6E4CF1852C17A8C7_METHOD_1_988D426B878EF143_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_1_CA373AA1C7054598()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_6E4CF1852C17A8C7_METHOD_1_CA373AA1C7054598_OFFSET))(this);
+	}
+
+	::System::Boolean Method_1_F0088C88851A7DFB()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_6E4CF1852C17A8C7_METHOD_1_F0088C88851A7DFB_OFFSET))(this);
+	}
+
+	::System::String* Method_1_126AB3935214AA22()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_6E4CF1852C17A8C7_METHOD_1_126AB3935214AA22_OFFSET))(this);
+	}
+
+	::System::Void Method_1_CA373AA1C7054598_1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_6E4CF1852C17A8C7_METHOD_1_CA373AA1C7054598_1_OFFSET))(this);
+	}
+
+	::System::Void Method_1_071850D2764E9D4C()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_6E4CF1852C17A8C7_METHOD_1_071850D2764E9D4C_OFFSET))(this);
+	}
+
+	::System::Void Method_1_136ADF9126C24EC1(::CriWare::CriMana::Player_Status a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::CriWare::CriMana::Player_Status))((::PBYTE)hIl2Cpp + CLASS_1_6E4CF1852C17A8C7_METHOD_1_136ADF9126C24EC1_OFFSET))(this, a1);
+	}
+
+	::System::UInt32 Method_1_02A3D10A9D535169()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_6E4CF1852C17A8C7_METHOD_1_02A3D10A9D535169_OFFSET))(this);
+	}
+
+	::System::Void Method_1_D0DF0505F244B465()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_6E4CF1852C17A8C7_METHOD_1_D0DF0505F244B465_OFFSET))(this);
+	}
+
+	static ::System::UInt32 Method_1_02A3D10A9D535169_1()
+	{
+		return ((::System::UInt32(*)())((::PBYTE)hIl2Cpp + CLASS_1_6E4CF1852C17A8C7_METHOD_1_02A3D10A9D535169_1_OFFSET))();
+	}
+
+	::System::Void Method_1_7786DC814C2FC3BE(::System::UInt32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_6E4CF1852C17A8C7_METHOD_1_7786DC814C2FC3BE_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_C74E50CBD41F0264(::System::Boolean a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_6E4CF1852C17A8C7_METHOD_1_C74E50CBD41F0264_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_7D201B4343E63821(::System::String* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_6E4CF1852C17A8C7_METHOD_1_7D201B4343E63821_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_43EFD7E439EB8850(::System::String* a1, ::System::Boolean a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_6E4CF1852C17A8C7_METHOD_1_43EFD7E439EB8850_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_1_9CB95F99172198AA(::System::String* a1, ::System::Boolean a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_6E4CF1852C17A8C7_METHOD_1_9CB95F99172198AA_OFFSET))(this, a1, a2);
+	}
+
+	::System::Boolean Method_1_0B1EB5C9B94BAB66()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_6E4CF1852C17A8C7_METHOD_1_0B1EB5C9B94BAB66_OFFSET))(this);
+	}
+};

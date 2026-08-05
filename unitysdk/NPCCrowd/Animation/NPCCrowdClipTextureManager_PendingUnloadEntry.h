@@ -5,11 +5,11 @@
 namespace NPCCrowd::Animation { class ClipTextureEntry; }
 namespace NPCCrowd::Animation { class NPCCrowdAnimationData; }
 
-#define NPCCROWD_ANIMATION_NPCCROWDCLIPTEXTUREMANAGER_PENDINGUNLOADENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x2BDE80)
+#define NPCCROWD_ANIMATION_NPCCROWDCLIPTEXTUREMANAGER_PENDINGUNLOADENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x346F70)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int NPCCrowdClipTextureManager_PendingUnloadEntry_TypeDefinitionIndex = 84947;
+	inline static constexpr unsigned int NPCCrowdClipTextureManager_PendingUnloadEntry_TypeDefinitionIndex = 79430;
 
 	struct alignas(8) NPCCrowdClipTextureManager_PendingUnloadEntry
 	{

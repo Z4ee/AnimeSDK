@@ -8,35 +8,35 @@ namespace NPCCrowd::Animation { class NPCUnionAnimator; }
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 
-#define NPCCROWD_AVATAR_NPCLODDITHERTASK_DISPOSE_OFFSET UNITYSDK_OFFSET(0xD948230)
-#define NPCCROWD_AVATAR_NPCLODDITHERTASK_ISCOMPLETEVISIBLE_OFFSET UNITYSDK_OFFSET(0xD9481A0)
-#define NPCCROWD_AVATAR_NPCLODDITHERTASK_POSTUPDATE_OFFSET UNITYSDK_OFFSET(0xD947EE0)
-#define NPCCROWD_AVATAR_NPCLODDITHERTASK_RESETDATA_OFFSET UNITYSDK_OFFSET(0xD946440)
-#define NPCCROWD_AVATAR_NPCLODDITHERTASK_SETMATDITHERENABLE_OFFSET UNITYSDK_OFFSET(0xD9465D0)
-#define NPCCROWD_AVATAR_NPCLODDITHERTASK_UPDATE_OFFSET UNITYSDK_OFFSET(0xD946B60)
-#define NPCCROWD_AVATAR_NPCLODDITHERTASK__CTOR_OFFSET UNITYSDK_OFFSET(0xD9482E0)
+#define NPCCROWD_AVATAR_NPCLODDITHERTASK_DISPOSE_OFFSET UNITYSDK_OFFSET(0xD89CAD0)
+#define NPCCROWD_AVATAR_NPCLODDITHERTASK_ISCOMPLETEVISIBLE_OFFSET UNITYSDK_OFFSET(0xD89CA40)
+#define NPCCROWD_AVATAR_NPCLODDITHERTASK_POSTUPDATE_OFFSET UNITYSDK_OFFSET(0xD89C780)
+#define NPCCROWD_AVATAR_NPCLODDITHERTASK_RESETDATA_OFFSET UNITYSDK_OFFSET(0xD89AD00)
+#define NPCCROWD_AVATAR_NPCLODDITHERTASK_SETMATDITHERENABLE_OFFSET UNITYSDK_OFFSET(0xD89AE90)
+#define NPCCROWD_AVATAR_NPCLODDITHERTASK_UPDATE_OFFSET UNITYSDK_OFFSET(0xD89B420)
+#define NPCCROWD_AVATAR_NPCLODDITHERTASK__CTOR_OFFSET UNITYSDK_OFFSET(0xD89CB80)
 
 namespace NPCCrowd::Avatar
 {
-	inline static constexpr unsigned int NPCLODDitherTask_TypeDefinitionIndex = 67621;
+	inline static constexpr unsigned int NPCLODDitherTask_TypeDefinitionIndex = 76612;
 
 	class NPCLODDitherTask : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::MaterialPropertyBlock** StaticGet_cachePropertyBlock()
 		{
-			return (::UnityEngine::MaterialPropertyBlock**)Il2CppClass::FromTypeDefinitionIndex(NPCLODDitherTask_TypeDefinitionIndex)->GetStaticField(0x437C0);
+			return (::UnityEngine::MaterialPropertyBlock**)Il2CppClass::FromTypeDefinitionIndex(NPCLODDitherTask_TypeDefinitionIndex)->GetStaticField(0x47670);
 		}
-		::System::Action_1<::System::Boolean>* callback; // 0x10
+		::Il2CppArray<::NPCCrowd::Lod::NPCLODRendererItem>* renderers; // 0x10
 		::NPCCrowd::Animation::NPCUnionAnimator* unionAnimator; // 0x18
-		::Class_3_FFD0045B4597F294* matCmp; // 0x20
-		::Il2CppArray<::NPCCrowd::Lod::NPCLODRendererItem>* renderers; // 0x28
-		::System::Int32 tag; // 0x30
+		::System::Action_1<::System::Boolean>* callback; // 0x20
+		::Class_3_FFD0045B4597F294* matCmp; // 0x28
+		::System::Single fadeSpeed; // 0x30
 		::System::Single startVal; // 0x34
-		::System::Single fadeSpeed; // 0x38
-		::System::Single elapsedTime; // 0x3C
+		::System::Single elapsedTime; // 0x38
+		::System::Boolean completed; // 0x3C
 		::System::Single curVal; // 0x40
-		::System::Boolean completed; // 0x44
+		::System::Int32 tag; // 0x44
 		::System::Single targetVal; // 0x48
 
 		::System::Void _ctor()

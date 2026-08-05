@@ -6,11 +6,11 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/Unity/Collections/NativeArray_1.h"
 
-#define NPCCROWD_ABILITY_CROWDSPLINEFOLLOWPROCESSOR_EXECUTEJOB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x5EC650)
+#define NPCCROWD_ABILITY_CROWDSPLINEFOLLOWPROCESSOR_EXECUTEJOB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x753D10)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int CrowdSplineFollowProcessor_ExecuteJob_TypeDefinitionIndex = 55131;
+	inline static constexpr unsigned int CrowdSplineFollowProcessor_ExecuteJob_TypeDefinitionIndex = 87979;
 
 	struct alignas(8) CrowdSplineFollowProcessor_ExecuteJob
 	{

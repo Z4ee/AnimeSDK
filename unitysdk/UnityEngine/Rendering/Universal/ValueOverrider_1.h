@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int ValueOverrider_1_TypeDefinitionIndex = 27067;
+	inline static constexpr unsigned int ValueOverrider_1_TypeDefinitionIndex = 27403;
 
 	template <typename T>
 	class ValueOverrider_1 : public ::System::Object

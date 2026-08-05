@@ -7,21 +7,21 @@
 namespace System { class String; }
 namespace Utf8Json { class IJsonFormatterResolver; }
 
-#define UTF8JSON_FORMATTERS_NULLABLESTRINGARRAYFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1E314500)
-#define UTF8JSON_FORMATTERS_NULLABLESTRINGARRAYFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1E314380)
-#define UTF8JSON_FORMATTERS_NULLABLESTRINGARRAYFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E314900)
-#define UTF8JSON_FORMATTERS_NULLABLESTRINGARRAYFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E3148F0)
+#define UTF8JSON_FORMATTERS_NULLABLESTRINGARRAYFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1F744D50)
+#define UTF8JSON_FORMATTERS_NULLABLESTRINGARRAYFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1F744BD0)
+#define UTF8JSON_FORMATTERS_NULLABLESTRINGARRAYFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F7452D0)
+#define UTF8JSON_FORMATTERS_NULLABLESTRINGARRAYFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F7452C0)
 
 namespace Utf8Json::Formatters
 {
-	inline static constexpr unsigned int NullableStringArrayFormatter_TypeDefinitionIndex = 91371;
+	inline static constexpr unsigned int NullableStringArrayFormatter_TypeDefinitionIndex = 95304;
 
 	class NullableStringArrayFormatter : public ::System::Object
 	{
 	public:
 		static ::Utf8Json::Formatters::NullableStringArrayFormatter** StaticGet_Default()
 		{
-			return (::Utf8Json::Formatters::NullableStringArrayFormatter**)Il2CppClass::FromTypeDefinitionIndex(NullableStringArrayFormatter_TypeDefinitionIndex)->GetStaticField(0x4E6E0);
+			return (::Utf8Json::Formatters::NullableStringArrayFormatter**)Il2CppClass::FromTypeDefinitionIndex(NullableStringArrayFormatter_TypeDefinitionIndex)->GetStaticField(0x52890);
 		}
 
 		::System::Void _ctor()

@@ -5,11 +5,11 @@
 namespace MoleMole::SceneMark { class SceneMarkDataBase; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_SCENEMARK_MONOSCENEMARK__CTOR_OFFSET UNITYSDK_OFFSET(0x173851E0)
+#define MOLEMOLE_SCENEMARK_MONOSCENEMARK__CTOR_OFFSET UNITYSDK_OFFSET(0x1792BAF0)
 
 namespace MoleMole::SceneMark
 {
-	inline static constexpr unsigned int MonoSceneMark_TypeDefinitionIndex = 47829;
+	inline static constexpr unsigned int MonoSceneMark_TypeDefinitionIndex = 81870;
 
 	class MonoSceneMark : public ::Sirenix::OdinInspector::SerializedMonoBehaviour
 	{

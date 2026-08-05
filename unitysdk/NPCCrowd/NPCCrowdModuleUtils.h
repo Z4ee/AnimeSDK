@@ -4,7 +4,7 @@
 
 namespace NPCCrowd
 {
-	inline static constexpr unsigned int NPCCrowdModuleUtils_TypeDefinitionIndex = 53977;
+	inline static constexpr unsigned int NPCCrowdModuleUtils_TypeDefinitionIndex = 90229;
 
 	class NPCCrowdModuleUtils : public ::System::Object
 	{

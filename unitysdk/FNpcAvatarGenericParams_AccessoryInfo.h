@@ -9,7 +9,7 @@
 
 namespace System { class String; }
 
-inline static constexpr unsigned int FNpcAvatarGenericParams_AccessoryInfo_TypeDefinitionIndex = 82924;
+inline static constexpr unsigned int FNpcAvatarGenericParams_AccessoryInfo_TypeDefinitionIndex = 58427;
 
 struct alignas(8) FNpcAvatarGenericParams_AccessoryInfo
 {

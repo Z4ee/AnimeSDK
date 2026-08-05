@@ -3,12 +3,12 @@
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int MontageTrackTypeFlags_TypeDefinitionIndex = 58293;
+	inline static constexpr unsigned int MontageTrackTypeFlags_TypeDefinitionIndex = 88773;
 
 	enum class MontageTrackTypeFlags : ::System::Byte
 	{
-		AnimTrack = 0x1,
-		None = 0x0,
 		SequenceTrack = 0x2,
+		None = 0x0,
+		AnimTrack = 0x1,
 	};
 }

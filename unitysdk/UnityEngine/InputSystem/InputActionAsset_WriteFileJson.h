@@ -8,7 +8,7 @@ namespace System { class String; }
 
 namespace UnityEngine::InputSystem
 {
-	inline static constexpr unsigned int InputActionAsset_WriteFileJson_TypeDefinitionIndex = 31530;
+	inline static constexpr unsigned int InputActionAsset_WriteFileJson_TypeDefinitionIndex = 32150;
 
 	struct alignas(8) InputActionAsset_WriteFileJson
 	{

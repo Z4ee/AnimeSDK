@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/ParticleBaseDataType.h"
 
-#define PARTICLEVECTOR4DATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1CEE3800)
+#define PARTICLEVECTOR4DATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1E23D5C0)
 
-inline static constexpr unsigned int ParticleVector4Data_TypeDefinitionIndex = 27311;
+inline static constexpr unsigned int ParticleVector4Data_TypeDefinitionIndex = 26965;
 
 class ParticleVector4Data : public ::ParticleBaseDataType
 {

@@ -4,21 +4,21 @@
 
 namespace UnityEngine { class Material; }
 
-#define CLASS_1_8AD00B3E434B607C_1_METHOD_1_8FAD57395F26ACC4_OFFSET UNITYSDK_OFFSET(0x102DB590)
-#define CLASS_1_8AD00B3E434B607C_1_METHOD_1_D64FD9A228A1C4E0_OFFSET UNITYSDK_OFFSET(0x102DB510)
-#define CLASS_1_8AD00B3E434B607C_1__CCTOR_OFFSET UNITYSDK_OFFSET(0x102DB4D0)
-#define CLASS_1_8AD00B3E434B607C_1__CTOR_OFFSET UNITYSDK_OFFSET(0x102DB4C0)
+#define CLASS_1_8AD00B3E434B607C_1_METHOD_1_8FAD57395F26ACC4_OFFSET UNITYSDK_OFFSET(0x10F4EB80)
+#define CLASS_1_8AD00B3E434B607C_1_METHOD_1_D64FD9A228A1C4E0_OFFSET UNITYSDK_OFFSET(0x10F4EB00)
+#define CLASS_1_8AD00B3E434B607C_1__CCTOR_OFFSET UNITYSDK_OFFSET(0x10F4EAC0)
+#define CLASS_1_8AD00B3E434B607C_1__CTOR_OFFSET UNITYSDK_OFFSET(0x10F4EAB0)
 
-inline static constexpr unsigned int Class_1_8AD00B3E434B607C_1_TypeDefinitionIndex = 83757;
+inline static constexpr unsigned int Class_1_8AD00B3E434B607C_1_TypeDefinitionIndex = 83917;
 
 class Class_1_8AD00B3E434B607C_1 : public ::System::Object
 {
 public:
-	static ::System::Int32* StaticGet_Field_1_1()
+	static ::System::Int32* StaticGet_Field_1_0()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_8AD00B3E434B607C_1_TypeDefinitionIndex)->GetStaticField(0xD0B0);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_8AD00B3E434B607C_1_TypeDefinitionIndex)->GetStaticField(0xE200);
 	}
-	::UnityEngine::Material* Field_1_0; // 0x10
+	::UnityEngine::Material* Field_1_1; // 0x10
 
 	::System::Void _ctor(::UnityEngine::Material* a1)
 	{

@@ -8,22 +8,22 @@ namespace FlowCanvas { template <typename T> class ValueInput_1; }
 namespace MoleMole::Battle { class Entity; }
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_FORBIDINTERACT_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x12BBAD90)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_FORBIDINTERACT__CTOR_OFFSET UNITYSDK_OFFSET(0x12BBB560)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_FORBIDINTERACT__REGISTERPORTS_B__4_0_OFFSET UNITYSDK_OFFSET(0x12BBB5A0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_FORBIDINTERACT__STARTMUTE_OFFSET UNITYSDK_OFFSET(0x12BBAEC0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_FORBIDINTERACT_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1383C300)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_FORBIDINTERACT__CTOR_OFFSET UNITYSDK_OFFSET(0x1383CAF0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_FORBIDINTERACT__REGISTERPORTS_B__4_0_OFFSET UNITYSDK_OFFSET(0x1383CB30)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_FORBIDINTERACT__STARTMUTE_OFFSET UNITYSDK_OFFSET(0x1383C430)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_ForbidInteract_TypeDefinitionIndex = 79904;
+	inline static constexpr unsigned int LD_ForbidInteract_TypeDefinitionIndex = 78305;
 
 	class LD_ForbidInteract : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::FlowOutput* output; // 0xA8
-		::FlowCanvas::ValueInput_1<::System::String*>* interactTag; // 0xB0
-		::FlowCanvas::ValueInput_1<::MoleMole::Battle::Entity*>* ownerEntity; // 0xB8
-		::FlowCanvas::ValueInput_1<::System::Boolean>* isForbid; // 0xC0
+		::FlowCanvas::ValueInput_1<::System::Boolean>* isForbid; // 0xA8
+		::FlowCanvas::ValueInput_1<::MoleMole::Battle::Entity*>* ownerEntity; // 0xB0
+		::FlowCanvas::ValueInput_1<::System::String*>* interactTag; // 0xB8
+		::FlowCanvas::FlowOutput* output; // 0xC0
 
 		::System::Void _ctor()
 		{

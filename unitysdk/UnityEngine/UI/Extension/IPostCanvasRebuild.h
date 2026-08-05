@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int IPostCanvasRebuild_TypeDefinitionIndex = 47912;
+	inline static constexpr unsigned int IPostCanvasRebuild_TypeDefinitionIndex = 54439;
 
 	class IPostCanvasRebuild
 	{

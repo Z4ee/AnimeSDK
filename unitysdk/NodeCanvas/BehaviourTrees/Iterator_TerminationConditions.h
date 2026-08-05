@@ -3,7 +3,7 @@
 
 namespace NodeCanvas::BehaviourTrees
 {
-	inline static constexpr unsigned int Iterator_TerminationConditions_TypeDefinitionIndex = 30069;
+	inline static constexpr unsigned int Iterator_TerminationConditions_TypeDefinitionIndex = 30997;
 
 	enum class Iterator_TerminationConditions : ::System::Int32
 	{

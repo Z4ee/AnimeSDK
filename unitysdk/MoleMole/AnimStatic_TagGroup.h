@@ -3,15 +3,15 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int AnimStatic_TagGroup_TypeDefinitionIndex = 77075;
+	inline static constexpr unsigned int AnimStatic_TagGroup_TypeDefinitionIndex = 86263;
 
 	enum class AnimStatic_TagGroup : ::System::Int32
 	{
-		Stable = 4,
-		AttackOrSkill = 3,
 		Movement = 5,
+		Stable = 4,
 		MuteSkill = 1,
-		MuteMove = 0,
+		AttackOrSkill = 3,
 		MuteSteer = 2,
+		MuteMove = 0,
 	};
 }

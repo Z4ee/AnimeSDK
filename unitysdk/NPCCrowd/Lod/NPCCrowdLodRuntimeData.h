@@ -13,61 +13,61 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Mesh; }
 
-#define NPCCROWD_LOD_NPCCROWDLODRUNTIMEDATA_CLEAN_OFFSET UNITYSDK_OFFSET(0x10D8EF10)
-#define NPCCROWD_LOD_NPCCROWDLODRUNTIMEDATA_CLEAREXTERNALRENDERRULES_OFFSET UNITYSDK_OFFSET(0x10D8F410)
-#define NPCCROWD_LOD_NPCCROWDLODRUNTIMEDATA_CONSUMEOVERRIDEFADE_OFFSET UNITYSDK_OFFSET(0x10D8EE30)
-#define NPCCROWD_LOD_NPCCROWDLODRUNTIMEDATA_FORCELOD0_OFFSET UNITYSDK_OFFSET(0x10D8EE90)
-#define NPCCROWD_LOD_NPCCROWDLODRUNTIMEDATA_GETLODTICKBATCH_OFFSET UNITYSDK_OFFSET(0x10D8F4E0)
-#define NPCCROWD_LOD_NPCCROWDLODRUNTIMEDATA_GETLOD_OFFSET UNITYSDK_OFFSET(0x10D8F600)
-#define NPCCROWD_LOD_NPCCROWDLODRUNTIMEDATA_GET_FORCELODLEVEL_OFFSET UNITYSDK_OFFSET(0x10D8EA90)
-#define NPCCROWD_LOD_NPCCROWDLODRUNTIMEDATA_GET_ISCHANGEING_OFFSET UNITYSDK_OFFSET(0x10D8F4D0)
-#define NPCCROWD_LOD_NPCCROWDLODRUNTIMEDATA_GET_LODLEVEL_OFFSET UNITYSDK_OFFSET(0x10D8E750)
-#define NPCCROWD_LOD_NPCCROWDLODRUNTIMEDATA_ONVISIBLE_OFFSET UNITYSDK_OFFSET(0x10D8EDE0)
-#define NPCCROWD_LOD_NPCCROWDLODRUNTIMEDATA_REFRESHACTIVEEXTERNALRENDERRULECACHE_OFFSET UNITYSDK_OFFSET(0x10D8F900)
-#define NPCCROWD_LOD_NPCCROWDLODRUNTIMEDATA_REGISTERORUPDATEEXTERNALRENDERRULE_OFFSET UNITYSDK_OFFSET(0x10D8F640)
-#define NPCCROWD_LOD_NPCCROWDLODRUNTIMEDATA_REMOVEEXTERNALRENDERRULE_OFFSET UNITYSDK_OFFSET(0x10D8F7E0)
-#define NPCCROWD_LOD_NPCCROWDLODRUNTIMEDATA_SETLODTICKBATCH_OFFSET UNITYSDK_OFFSET(0x10D8F590)
-#define NPCCROWD_LOD_NPCCROWDLODRUNTIMEDATA_SET_FORCELODLEVEL_OFFSET UNITYSDK_OFFSET(0x10D8EAA0)
-#define NPCCROWD_LOD_NPCCROWDLODRUNTIMEDATA_SET_ISCHANGEING_OFFSET UNITYSDK_OFFSET(0x10D8F3C0)
-#define NPCCROWD_LOD_NPCCROWDLODRUNTIMEDATA_SET_LODLEVEL_OFFSET UNITYSDK_OFFSET(0x10D8E760)
-#define NPCCROWD_LOD_NPCCROWDLODRUNTIMEDATA_TRYGETACTIVEEXTERNALRENDERRULE_OFFSET UNITYSDK_OFFSET(0x10D8F870)
-#define NPCCROWD_LOD_NPCCROWDLODRUNTIMEDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x10D8FBD0)
-#define NPCCROWD_LOD_NPCCROWDLODRUNTIMEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x10D8FA90)
+#define NPCCROWD_LOD_NPCCROWDLODRUNTIMEDATA_CLEAN_OFFSET UNITYSDK_OFFSET(0x102C4CE0)
+#define NPCCROWD_LOD_NPCCROWDLODRUNTIMEDATA_CLEAREXTERNALRENDERRULES_OFFSET UNITYSDK_OFFSET(0x102C51F0)
+#define NPCCROWD_LOD_NPCCROWDLODRUNTIMEDATA_CONSUMEOVERRIDEFADE_OFFSET UNITYSDK_OFFSET(0x102C4C00)
+#define NPCCROWD_LOD_NPCCROWDLODRUNTIMEDATA_FORCELOD0_OFFSET UNITYSDK_OFFSET(0x102C4C60)
+#define NPCCROWD_LOD_NPCCROWDLODRUNTIMEDATA_GETLODTICKBATCH_OFFSET UNITYSDK_OFFSET(0x102C52C0)
+#define NPCCROWD_LOD_NPCCROWDLODRUNTIMEDATA_GETLOD_OFFSET UNITYSDK_OFFSET(0x102C53E0)
+#define NPCCROWD_LOD_NPCCROWDLODRUNTIMEDATA_GET_FORCELODLEVEL_OFFSET UNITYSDK_OFFSET(0x102C4860)
+#define NPCCROWD_LOD_NPCCROWDLODRUNTIMEDATA_GET_ISCHANGEING_OFFSET UNITYSDK_OFFSET(0x102C52B0)
+#define NPCCROWD_LOD_NPCCROWDLODRUNTIMEDATA_GET_LODLEVEL_OFFSET UNITYSDK_OFFSET(0x102C4520)
+#define NPCCROWD_LOD_NPCCROWDLODRUNTIMEDATA_ONVISIBLE_OFFSET UNITYSDK_OFFSET(0x102C4BB0)
+#define NPCCROWD_LOD_NPCCROWDLODRUNTIMEDATA_REFRESHACTIVEEXTERNALRENDERRULECACHE_OFFSET UNITYSDK_OFFSET(0x102C56E0)
+#define NPCCROWD_LOD_NPCCROWDLODRUNTIMEDATA_REGISTERORUPDATEEXTERNALRENDERRULE_OFFSET UNITYSDK_OFFSET(0x102C5420)
+#define NPCCROWD_LOD_NPCCROWDLODRUNTIMEDATA_REMOVEEXTERNALRENDERRULE_OFFSET UNITYSDK_OFFSET(0x102C55C0)
+#define NPCCROWD_LOD_NPCCROWDLODRUNTIMEDATA_SETLODTICKBATCH_OFFSET UNITYSDK_OFFSET(0x102C5370)
+#define NPCCROWD_LOD_NPCCROWDLODRUNTIMEDATA_SET_FORCELODLEVEL_OFFSET UNITYSDK_OFFSET(0x102C4870)
+#define NPCCROWD_LOD_NPCCROWDLODRUNTIMEDATA_SET_ISCHANGEING_OFFSET UNITYSDK_OFFSET(0x102C51A0)
+#define NPCCROWD_LOD_NPCCROWDLODRUNTIMEDATA_SET_LODLEVEL_OFFSET UNITYSDK_OFFSET(0x102C4530)
+#define NPCCROWD_LOD_NPCCROWDLODRUNTIMEDATA_TRYGETACTIVEEXTERNALRENDERRULE_OFFSET UNITYSDK_OFFSET(0x102C5650)
+#define NPCCROWD_LOD_NPCCROWDLODRUNTIMEDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x102C59B0)
+#define NPCCROWD_LOD_NPCCROWDLODRUNTIMEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x102C5870)
 
 namespace NPCCrowd::Lod
 {
-	inline static constexpr unsigned int NPCCrowdLodRuntimeData_TypeDefinitionIndex = 64147;
+	inline static constexpr unsigned int NPCCrowdLodRuntimeData_TypeDefinitionIndex = 65046;
 
 	class NPCCrowdLodRuntimeData : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::List_1<::System::Int32>** StaticGet_cache()
 		{
-			return (::System::Collections::Generic::List_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdLodRuntimeData_TypeDefinitionIndex)->GetStaticField(0x31A20);
+			return (::System::Collections::Generic::List_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdLodRuntimeData_TypeDefinitionIndex)->GetStaticField(0x33BA0);
 		}
-		::System::Collections::Generic::Dictionary_2<::NPCCrowd::Lod::NPCCrowdLodManager_LODRenderRulePriority, ::NPCCrowd::Lod::NPCCrowdLodRuntimeData_ExternalRenderRuleData>* _externalRenderRules; // 0x10
-		::System::Collections::Generic::List_1<::NPCCrowd::NPCSoftAssetPath_1<::UnityEngine::Mesh*>*>* lastAssetRef; // 0x18
-		::Il2CppArray<::NPCCrowd::Lod::NPCLODRendererItem>* curLODRenderers; // 0x20
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::UInt32>* LODTickBatchCount; // 0x28
-		::Il2CppArray<::NPCCrowd::Lod::NPCLODRendererItem>* oldLODRenderers; // 0x30
-		::System::Action* lodInitCallback; // 0x38
-		::NPCCrowd::Lod::NPCCrowdLodManager_LODRenderRuleConfig _activeExternalRenderRuleConfig; // 0x40
-		::System::Boolean bOverrideHide; // 0x45
-		::System::Boolean lodPreloadFinished; // 0x46
-		::System::Boolean _isChangeing; // 0x47
-		::NPCCrowd::Lod::ELODLevel _lodLevel; // 0x48
-		::NPCCrowd::Lod::ELODLevel physicsLodLevel; // 0x4C
-		::System::Boolean _externalRenderRuleDirty; // 0x50
-		::System::Boolean _hasActiveExternalRenderRule; // 0x51
-		::System::Boolean lodChangedCurFrame; // 0x52
-		::NPCCrowd::Lod::ELODLevel nextLodLevel; // 0x54
-		::NPCCrowd::Lod::NPCCrowdLodManager_LODRenderRulePriority _activeExternalRenderRulePriority; // 0x58
-		::System::Boolean bOverrideFadeTrigger; // 0x5C
-		::System::Boolean bOverrideFade; // 0x5D
-		::System::Boolean bOverrideShow; // 0x5E
-		::System::Boolean isVisible; // 0x5F
-		::NPCCrowd::Lod::ELODLevel _forceLodLevel; // 0x60
-		::System::Single lastMatCmpAlphaValue; // 0x64
+		::Il2CppArray<::NPCCrowd::Lod::NPCLODRendererItem>* oldLODRenderers; // 0x10
+		::Il2CppArray<::NPCCrowd::Lod::NPCLODRendererItem>* curLODRenderers; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::UInt32>* LODTickBatchCount; // 0x20
+		::System::Action* lodInitCallback; // 0x28
+		::System::Collections::Generic::Dictionary_2<::NPCCrowd::Lod::NPCCrowdLodManager_LODRenderRulePriority, ::NPCCrowd::Lod::NPCCrowdLodRuntimeData_ExternalRenderRuleData>* _externalRenderRules; // 0x30
+		::System::Collections::Generic::List_1<::NPCCrowd::NPCSoftAssetPath_1<::UnityEngine::Mesh*>*>* lastAssetRef; // 0x38
+		::NPCCrowd::Lod::NPCCrowdLodManager_LODRenderRulePriority _activeExternalRenderRulePriority; // 0x40
+		::NPCCrowd::Lod::ELODLevel _lodLevel; // 0x44
+		::NPCCrowd::Lod::ELODLevel nextLodLevel; // 0x48
+		::System::Single lastMatCmpAlphaValue; // 0x4C
+		::NPCCrowd::Lod::ELODLevel physicsLodLevel; // 0x50
+		::System::Boolean bOverrideHide; // 0x54
+		::System::Boolean isVisible; // 0x55
+		::NPCCrowd::Lod::NPCCrowdLodManager_LODRenderRuleConfig _activeExternalRenderRuleConfig; // 0x56
+		::System::Boolean lodPreloadFinished; // 0x5B
+		::NPCCrowd::Lod::ELODLevel _forceLodLevel; // 0x5C
+		::System::Boolean _hasActiveExternalRenderRule; // 0x60
+		::System::Boolean lodChangedCurFrame; // 0x61
+		::System::Boolean bOverrideFade; // 0x62
+		::System::Boolean _isChangeing; // 0x63
+		::System::Boolean bOverrideShow; // 0x64
+		::System::Boolean _externalRenderRuleDirty; // 0x65
+		::System::Boolean bOverrideFadeTrigger; // 0x66
 
 		::System::Void _ctor()
 		{

@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define INTERIORMAPPINGGEN__CTOR_OFFSET UNITYSDK_OFFSET(0x1E813480)
+#define INTERIORMAPPINGGEN__CTOR_OFFSET UNITYSDK_OFFSET(0x1FBF1920)
 
-inline static constexpr unsigned int InteriorMappingGen_TypeDefinitionIndex = 34642;
+inline static constexpr unsigned int InteriorMappingGen_TypeDefinitionIndex = 35300;
 
 class InteriorMappingGen : public ::UnityEngine::MonoBehaviour
 {

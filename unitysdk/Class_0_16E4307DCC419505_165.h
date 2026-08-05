@@ -1,9 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/SGF/SEvent/DelegateEx.h"
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_165_TypeDefinitionIndex = 34608;
+class Class_0_16E4307DCC419505_130;
+class Class_3_D92ADC48CDFCC09B;
 
-template <typename T>
+inline static constexpr unsigned int Class_0_16E4307DCC419505_165_TypeDefinitionIndex = 35271;
+
+template <typename TDrived>
 class Class_0_16E4307DCC419505_165
 {
 public:

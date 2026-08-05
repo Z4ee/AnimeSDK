@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_UISTRATEGYGUIDEROLEINFOPOPWINDOWCONTROLLER___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1381ACE0)
-#define MOLEMOLE_UISTRATEGYGUIDEROLEINFOPOPWINDOWCONTROLLER___C__DISPLAYCLASS17_0__REFRESHWEAPONS_B__0_OFFSET UNITYSDK_OFFSET(0x1381ACF0)
+#define MOLEMOLE_UISTRATEGYGUIDEROLEINFOPOPWINDOWCONTROLLER___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15F7D480)
+#define MOLEMOLE_UISTRATEGYGUIDEROLEINFOPOPWINDOWCONTROLLER___C__DISPLAYCLASS17_0__REFRESHWEAPONS_B__0_OFFSET UNITYSDK_OFFSET(0x15F7D490)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIStrategyGuideRoleInfoPopWindowController___c__DisplayClass17_0_TypeDefinitionIndex = 64272;
+	inline static constexpr unsigned int UIStrategyGuideRoleInfoPopWindowController___c__DisplayClass17_0_TypeDefinitionIndex = 74932;
 
 	class UIStrategyGuideRoleInfoPopWindowController___c__DisplayClass17_0 : public ::System::Object
 	{

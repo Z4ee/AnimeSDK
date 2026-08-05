@@ -4,21 +4,21 @@
 
 namespace System { class Object; }
 
-#define FOUNDATION_FBEHAVIORHANDLE_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x9CA830)
-#define FOUNDATION_FBEHAVIORHANDLE_EQUALS_OFFSET UNITYSDK_OFFSET(0x7C6300)
-#define FOUNDATION_FBEHAVIORHANDLE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x9CA8A0)
-#define FOUNDATION_FBEHAVIORHANDLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CFFC2C0)
-#define FOUNDATION_FBEHAVIORHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x2BF4C0)
+#define FOUNDATION_FBEHAVIORHANDLE_EQUALS_1_OFFSET UNITYSDK_OFFSET(0xA16D90)
+#define FOUNDATION_FBEHAVIORHANDLE_EQUALS_OFFSET UNITYSDK_OFFSET(0x82A660)
+#define FOUNDATION_FBEHAVIORHANDLE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xA16E00)
+#define FOUNDATION_FBEHAVIORHANDLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E3B6310)
+#define FOUNDATION_FBEHAVIORHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x42A0A0)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int FBehaviorHandle_TypeDefinitionIndex = 8748;
+	inline static constexpr unsigned int FBehaviorHandle_TypeDefinitionIndex = 8746;
 
 	struct alignas(2) FBehaviorHandle
 	{
 		static ::Foundation::FBehaviorHandle* StaticGet_Invalid()
 		{
-			return (::Foundation::FBehaviorHandle*)Il2CppClass::FromTypeDefinitionIndex(FBehaviorHandle_TypeDefinitionIndex)->GetStaticField(0x3DA0);
+			return (::Foundation::FBehaviorHandle*)Il2CppClass::FromTypeDefinitionIndex(FBehaviorHandle_TypeDefinitionIndex)->GetStaticField(0x3DC0);
 		}
 		::System::Int16 Index; // 0x10
 		::System::UInt16 Version; // 0x12

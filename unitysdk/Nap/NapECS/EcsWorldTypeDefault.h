@@ -4,7 +4,7 @@
 
 namespace Nap::NapECS
 {
-	inline static constexpr unsigned int EcsWorldTypeDefault_TypeDefinitionIndex = 37330;
+	inline static constexpr unsigned int EcsWorldTypeDefault_TypeDefinitionIndex = 38001;
 
 	struct alignas(1) EcsWorldTypeDefault
 	{

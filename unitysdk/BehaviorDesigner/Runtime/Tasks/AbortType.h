@@ -3,7 +3,7 @@
 
 namespace BehaviorDesigner::Runtime::Tasks
 {
-	inline static constexpr unsigned int AbortType_TypeDefinitionIndex = 33348;
+	inline static constexpr unsigned int AbortType_TypeDefinitionIndex = 33984;
 
 	enum class AbortType : ::System::Int32
 	{

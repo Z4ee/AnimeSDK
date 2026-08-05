@@ -4,7 +4,7 @@
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int IPerObjectShadowSystem_TypeDefinitionIndex = 5917;
+	inline static constexpr unsigned int IPerObjectShadowSystem_TypeDefinitionIndex = 5919;
 
 	class IPerObjectShadowSystem
 	{

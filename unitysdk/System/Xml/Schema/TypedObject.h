@@ -7,13 +7,13 @@ namespace System { class String; }
 namespace System::Xml::Schema { class TypedObject_DecimalStruct; }
 namespace System::Xml::Schema { class XmlSchemaDatatype; }
 
-#define SYSTEM_XML_SCHEMA_TYPEDOBJECT_EQUALS_OFFSET UNITYSDK_OFFSET(0x1CA49EA0)
-#define SYSTEM_XML_SCHEMA_TYPEDOBJECT_GET_DVALUE_OFFSET UNITYSDK_OFFSET(0x1CA49D60)
-#define SYSTEM_XML_SCHEMA_TYPEDOBJECT_GET_ISDECIMAL_OFFSET UNITYSDK_OFFSET(0x1CA49D40)
-#define SYSTEM_XML_SCHEMA_TYPEDOBJECT_LISTDVALUEEQUALS_OFFSET UNITYSDK_OFFSET(0x1CA54640)
-#define SYSTEM_XML_SCHEMA_TYPEDOBJECT_SETDECIMAL_OFFSET UNITYSDK_OFFSET(0x1CA498F0)
-#define SYSTEM_XML_SCHEMA_TYPEDOBJECT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1CA54630)
-#define SYSTEM_XML_SCHEMA_TYPEDOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1CA54420)
+#define SYSTEM_XML_SCHEMA_TYPEDOBJECT_EQUALS_OFFSET UNITYSDK_OFFSET(0x1DE5CB70)
+#define SYSTEM_XML_SCHEMA_TYPEDOBJECT_GET_DVALUE_OFFSET UNITYSDK_OFFSET(0x1DE5CA30)
+#define SYSTEM_XML_SCHEMA_TYPEDOBJECT_GET_ISDECIMAL_OFFSET UNITYSDK_OFFSET(0x1DE5CA10)
+#define SYSTEM_XML_SCHEMA_TYPEDOBJECT_LISTDVALUEEQUALS_OFFSET UNITYSDK_OFFSET(0x1DE670A0)
+#define SYSTEM_XML_SCHEMA_TYPEDOBJECT_SETDECIMAL_OFFSET UNITYSDK_OFFSET(0x1DE5C5C0)
+#define SYSTEM_XML_SCHEMA_TYPEDOBJECT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE67090)
+#define SYSTEM_XML_SCHEMA_TYPEDOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1DE66E80)
 
 namespace System::Xml::Schema
 {
@@ -22,12 +22,12 @@ namespace System::Xml::Schema
 	class TypedObject : public ::System::Object
 	{
 	public:
-		::System::Object* ovalue; // 0x10
+		::System::Xml::Schema::TypedObject_DecimalStruct* dstruct; // 0x10
 		::System::String* svalue; // 0x18
-		::System::Xml::Schema::TypedObject_DecimalStruct* dstruct; // 0x20
-		::System::Xml::Schema::XmlSchemaDatatype* xsdtype; // 0x28
-		::System::Int32 dim; // 0x30
-		::System::Boolean isList; // 0x34
+		::System::Xml::Schema::XmlSchemaDatatype* xsdtype; // 0x20
+		::System::Object* ovalue; // 0x28
+		::System::Boolean isList; // 0x30
+		::System::Int32 dim; // 0x34
 
 		::System::Void _ctor(::System::Object* obj, ::System::String* svalue, ::System::Xml::Schema::XmlSchemaDatatype* xsdtype)
 		{

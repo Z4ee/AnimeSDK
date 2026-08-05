@@ -4,20 +4,20 @@
 
 namespace Cinemachine { class CinemachineBrain; }
 
-#define MOLEMOLE_UTILS_CAMERASEQUENCE_TRIGGERCAMERACUT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x108A2AE0)
-#define MOLEMOLE_UTILS_CAMERASEQUENCE_TRIGGERCAMERACUT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x108A2B20)
-#define MOLEMOLE_UTILS_CAMERASEQUENCE_TRIGGERCAMERACUT___C___CCTOR_B__3_0_OFFSET UNITYSDK_OFFSET(0x108A2B30)
+#define MOLEMOLE_UTILS_CAMERASEQUENCE_TRIGGERCAMERACUT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x112E78E0)
+#define MOLEMOLE_UTILS_CAMERASEQUENCE_TRIGGERCAMERACUT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x112E7920)
+#define MOLEMOLE_UTILS_CAMERASEQUENCE_TRIGGERCAMERACUT___C___CCTOR_B__3_0_OFFSET UNITYSDK_OFFSET(0x112E7930)
 
 namespace MoleMole::Utils::CameraSequence
 {
-	inline static constexpr unsigned int TriggerCameraCut___c_TypeDefinitionIndex = 55344;
+	inline static constexpr unsigned int TriggerCameraCut___c_TypeDefinitionIndex = 77753;
 
 	class TriggerCameraCut___c : public ::System::Object
 	{
 	public:
 		static ::MoleMole::Utils::CameraSequence::TriggerCameraCut___c** StaticGet___9()
 		{
-			return (::MoleMole::Utils::CameraSequence::TriggerCameraCut___c**)Il2CppClass::FromTypeDefinitionIndex(TriggerCameraCut___c_TypeDefinitionIndex)->GetStaticField(0x3CCC0);
+			return (::MoleMole::Utils::CameraSequence::TriggerCameraCut___c**)Il2CppClass::FromTypeDefinitionIndex(TriggerCameraCut___c_TypeDefinitionIndex)->GetStaticField(0x42F70);
 		}
 
 		static ::System::Void _cctor()

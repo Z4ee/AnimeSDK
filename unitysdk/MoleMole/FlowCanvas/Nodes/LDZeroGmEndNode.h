@@ -3,12 +3,12 @@
 #include "unitysdk/FlowCanvas/Nodes/CallableFunctionNode_3.h"
 #include "unitysdk/MoleMole/FlowCanvas/Nodes/LDLevelEndNode_LevelEndPerformType.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDZEROGMENDNODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x161E7B10)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDZEROGMENDNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x161E7C00)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDZEROGMENDNODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x144D03C0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDZEROGMENDNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x144D04B0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDZeroGmEndNode_TypeDefinitionIndex = 74698;
+	inline static constexpr unsigned int LDZeroGmEndNode_TypeDefinitionIndex = 80976;
 
 	class LDZeroGmEndNode : public ::FlowCanvas::Nodes::CallableFunctionNode_3<::System::Boolean, ::System::Boolean, ::MoleMole::FlowCanvas::Nodes::LDLevelEndNode_LevelEndPerformType>
 	{

@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define MOLEMOLE_CONFIG_CONFIGZIPLINE_CONFIGPREENTERPOINTSELECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1A35D530)
+#define MOLEMOLE_CONFIG_CONFIGZIPLINE_CONFIGPREENTERPOINTSELECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B562800)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigZipLine_ConfigPreEnterPointSelection_TypeDefinitionIndex = 51221;
+	inline static constexpr unsigned int ConfigZipLine_ConfigPreEnterPointSelection_TypeDefinitionIndex = 53007;
 
 	class ConfigZipLine_ConfigPreEnterPointSelection : public ::System::Object
 	{

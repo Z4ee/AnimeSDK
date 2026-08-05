@@ -3,7 +3,7 @@
 
 namespace Ara
 {
-	inline static constexpr unsigned int AraTrail_Timescale_TypeDefinitionIndex = 32925;
+	inline static constexpr unsigned int AraTrail_Timescale_TypeDefinitionIndex = 33560;
 
 	enum class AraTrail_Timescale : ::System::Int32
 	{

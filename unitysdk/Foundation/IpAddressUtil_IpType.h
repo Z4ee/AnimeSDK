@@ -3,12 +3,12 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int IpAddressUtil_IpType_TypeDefinitionIndex = 7982;
+	inline static constexpr unsigned int IpAddressUtil_IpType_TypeDefinitionIndex = 7986;
 
 	enum class IpAddressUtil_IpType : ::System::Int32
 	{
-		IPv4 = 1,
-		IPv6 = 2,
 		Invalid = 0,
+		IPv6 = 2,
+		IPv4 = 1,
 	};
 }

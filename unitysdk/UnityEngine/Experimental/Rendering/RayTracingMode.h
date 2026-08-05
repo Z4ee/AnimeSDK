@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Experimental::Rendering
 {
-	inline static constexpr unsigned int RayTracingMode_TypeDefinitionIndex = 6334;
+	inline static constexpr unsigned int RayTracingMode_TypeDefinitionIndex = 6338;
 
 	enum class RayTracingMode : ::System::Int32
 	{

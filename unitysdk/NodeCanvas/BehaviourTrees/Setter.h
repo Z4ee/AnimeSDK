@@ -8,12 +8,12 @@ namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
 namespace UnityEngine { class Component; }
 namespace UnityEngine { class GameObject; }
 
-#define NODECANVAS_BEHAVIOURTREES_SETTER_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1CC47950)
-#define NODECANVAS_BEHAVIOURTREES_SETTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC47B10)
+#define NODECANVAS_BEHAVIOURTREES_SETTER_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1DFDCC10)
+#define NODECANVAS_BEHAVIOURTREES_SETTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1DFDCDE0)
 
 namespace NodeCanvas::BehaviourTrees
 {
-	inline static constexpr unsigned int Setter_TypeDefinitionIndex = 30442;
+	inline static constexpr unsigned int Setter_TypeDefinitionIndex = 29851;
 
 	class Setter : public ::NodeCanvas::BehaviourTrees::BTDecorator
 	{

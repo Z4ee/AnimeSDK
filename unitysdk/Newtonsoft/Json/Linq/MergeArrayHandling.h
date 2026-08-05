@@ -3,7 +3,7 @@
 
 namespace Newtonsoft::Json::Linq
 {
-	inline static constexpr unsigned int MergeArrayHandling_TypeDefinitionIndex = 7196;
+	inline static constexpr unsigned int MergeArrayHandling_TypeDefinitionIndex = 7200;
 
 	enum class MergeArrayHandling : ::System::Int32
 	{

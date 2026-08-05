@@ -3,11 +3,11 @@
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/EnumVolumeParameter_1.h"
 #include "unitysdk/UnityEngine/Rendering/Universal/ComponentMask.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_COMPONENTMASKPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0xF798650)
+#define UNITYENGINE_RENDERING_UNIVERSAL_COMPONENTMASKPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x11098100)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int ComponentMaskParameter_TypeDefinitionIndex = 26665;
+	inline static constexpr unsigned int ComponentMaskParameter_TypeDefinitionIndex = 27157;
 
 	class ComponentMaskParameter : public ::UnityEngine::NAPRenderPipeline0::EnumVolumeParameter_1<::UnityEngine::Rendering::Universal::ComponentMask>
 	{

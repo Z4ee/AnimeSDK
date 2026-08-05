@@ -52,12 +52,12 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class Texture2D; }
 
-#define MOLEMOLE_CONFIGUICOMMON_INITINTERKNOTPOSTHEIGHT_OFFSET UNITYSDK_OFFSET(0x17E47970)
-#define MOLEMOLE_CONFIGUICOMMON__CTOR_OFFSET UNITYSDK_OFFSET(0x17E481C0)
+#define MOLEMOLE_CONFIGUICOMMON_INITINTERKNOTPOSTHEIGHT_OFFSET UNITYSDK_OFFSET(0x19BB7CF0)
+#define MOLEMOLE_CONFIGUICOMMON__CTOR_OFFSET UNITYSDK_OFFSET(0x19BB8560)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUICommon_TypeDefinitionIndex = 70274;
+	inline static constexpr unsigned int ConfigUICommon_TypeDefinitionIndex = 42210;
 
 	class ConfigUICommon : public ::Foundation::MihoyoSerializedScriptableObject
 	{

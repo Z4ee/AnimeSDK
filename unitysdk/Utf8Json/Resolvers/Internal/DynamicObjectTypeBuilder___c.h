@@ -7,89 +7,89 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Reflection { class MethodInfo; }
 namespace Utf8Json::Internal::Emit { class MetaMember; }
 
-#define UTF8JSON_RESOLVERS_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__BUILDANONYMOUSFORMATTER_B__7_0_OFFSET UNITYSDK_OFFSET(0x1E56B5B0)
-#define UTF8JSON_RESOLVERS_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__BUILDANONYMOUSFORMATTER_B__7_3_OFFSET UNITYSDK_OFFSET(0x1E56B5F0)
-#define UTF8JSON_RESOLVERS_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__BUILDANONYMOUSFORMATTER_B__7_4_OFFSET UNITYSDK_OFFSET(0x1E56B610)
-#define UTF8JSON_RESOLVERS_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__BUILDCONSTRUCTOR_B__8_0_OFFSET UNITYSDK_OFFSET(0x1E56B630)
-#define UTF8JSON_RESOLVERS_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__BUILDCONSTRUCTOR_B__8_1_OFFSET UNITYSDK_OFFSET(0x1E56B650)
-#define UTF8JSON_RESOLVERS_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__BUILDCUSTOMFORMATTERFIELD_B__9_0_OFFSET UNITYSDK_OFFSET(0x1E56B670)
-#define UTF8JSON_RESOLVERS_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__BUILDDESERIALIZE_B__12_1_OFFSET UNITYSDK_OFFSET(0x1E56B710)
-#define UTF8JSON_RESOLVERS_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__BUILDSERIALIZE_B__10_0_OFFSET UNITYSDK_OFFSET(0x1E56B6A0)
-#define UTF8JSON_RESOLVERS_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__BUILDSERIALIZE_B__10_2_OFFSET UNITYSDK_OFFSET(0x1E56B6C0)
-#define UTF8JSON_RESOLVERS_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__BUILDTYPE_B__6_0_OFFSET UNITYSDK_OFFSET(0x1E56B570)
-#define UTF8JSON_RESOLVERS_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E56B520)
-#define UTF8JSON_RESOLVERS_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1E56B560)
-#define UTF8JSON_RESOLVERS_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__EMITDESERIALIZEVALUE_B__13_0_OFFSET UNITYSDK_OFFSET(0x1E56B740)
-#define UTF8JSON_RESOLVERS_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__EMITNEWOBJECT_B__14_1_OFFSET UNITYSDK_OFFSET(0x1E56B770)
-#define UTF8JSON_RESOLVERS_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__EMITNEWOBJECT_B__14_3_OFFSET UNITYSDK_OFFSET(0x1E56B790)
-#define UTF8JSON_RESOLVERS_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__EMITSERIALIZEVALUE_B__11_0_OFFSET UNITYSDK_OFFSET(0x1E56B6E0)
+#define UTF8JSON_RESOLVERS_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__BUILDANONYMOUSFORMATTER_B__7_0_OFFSET UNITYSDK_OFFSET(0x1F95CA60)
+#define UTF8JSON_RESOLVERS_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__BUILDANONYMOUSFORMATTER_B__7_3_OFFSET UNITYSDK_OFFSET(0x1F95CAA0)
+#define UTF8JSON_RESOLVERS_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__BUILDANONYMOUSFORMATTER_B__7_4_OFFSET UNITYSDK_OFFSET(0x1F95CAC0)
+#define UTF8JSON_RESOLVERS_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__BUILDCONSTRUCTOR_B__8_0_OFFSET UNITYSDK_OFFSET(0x1F95CAE0)
+#define UTF8JSON_RESOLVERS_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__BUILDCONSTRUCTOR_B__8_1_OFFSET UNITYSDK_OFFSET(0x1F95CB00)
+#define UTF8JSON_RESOLVERS_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__BUILDCUSTOMFORMATTERFIELD_B__9_0_OFFSET UNITYSDK_OFFSET(0x1F95CB20)
+#define UTF8JSON_RESOLVERS_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__BUILDDESERIALIZE_B__12_1_OFFSET UNITYSDK_OFFSET(0x1F95CBC0)
+#define UTF8JSON_RESOLVERS_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__BUILDSERIALIZE_B__10_0_OFFSET UNITYSDK_OFFSET(0x1F95CB50)
+#define UTF8JSON_RESOLVERS_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__BUILDSERIALIZE_B__10_2_OFFSET UNITYSDK_OFFSET(0x1F95CB70)
+#define UTF8JSON_RESOLVERS_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__BUILDTYPE_B__6_0_OFFSET UNITYSDK_OFFSET(0x1F95CA20)
+#define UTF8JSON_RESOLVERS_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F95C9D0)
+#define UTF8JSON_RESOLVERS_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1F95CA10)
+#define UTF8JSON_RESOLVERS_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__EMITDESERIALIZEVALUE_B__13_0_OFFSET UNITYSDK_OFFSET(0x1F95CBF0)
+#define UTF8JSON_RESOLVERS_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__EMITNEWOBJECT_B__14_1_OFFSET UNITYSDK_OFFSET(0x1F95CC20)
+#define UTF8JSON_RESOLVERS_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__EMITNEWOBJECT_B__14_3_OFFSET UNITYSDK_OFFSET(0x1F95CC40)
+#define UTF8JSON_RESOLVERS_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__EMITSERIALIZEVALUE_B__11_0_OFFSET UNITYSDK_OFFSET(0x1F95CB90)
 
 namespace Utf8Json::Resolvers::Internal
 {
-	inline static constexpr unsigned int DynamicObjectTypeBuilder___c_TypeDefinitionIndex = 91155;
+	inline static constexpr unsigned int DynamicObjectTypeBuilder___c_TypeDefinitionIndex = 95088;
 
 	class DynamicObjectTypeBuilder___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::Utf8Json::Internal::Emit::MetaMember*, ::System::Boolean>** StaticGet___9__6_0()
-		{
-			return (::System::Func_2<::Utf8Json::Internal::Emit::MetaMember*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder___c_TypeDefinitionIndex)->GetStaticField(0x4EA40);
-		}
-		static ::System::Func_2<::System::Reflection::MethodInfo*, ::System::Int32>** StaticGet___9__13_0()
-		{
-			return (::System::Func_2<::System::Reflection::MethodInfo*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder___c_TypeDefinitionIndex)->GetStaticField(0x4EA48);
-		}
-		static ::Utf8Json::Resolvers::Internal::DynamicObjectTypeBuilder___c** StaticGet___9()
-		{
-			return (::Utf8Json::Resolvers::Internal::DynamicObjectTypeBuilder___c**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder___c_TypeDefinitionIndex)->GetStaticField(0x4EA50);
-		}
-		static ::System::Func_2<::Utf8Json::Resolvers::Internal::DynamicObjectTypeBuilder_DeserializeInfo, ::System::Boolean>** StaticGet___9__14_3()
-		{
-			return (::System::Func_2<::Utf8Json::Resolvers::Internal::DynamicObjectTypeBuilder_DeserializeInfo, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder___c_TypeDefinitionIndex)->GetStaticField(0x4EA58);
-		}
-		static ::System::Func_2<::Utf8Json::Internal::Emit::MetaMember*, ::System::Boolean>** StaticGet___9__8_0()
-		{
-			return (::System::Func_2<::Utf8Json::Internal::Emit::MetaMember*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder___c_TypeDefinitionIndex)->GetStaticField(0x4EA60);
-		}
 		static ::System::Func_2<::Utf8Json::Internal::Emit::MetaMember*, ::System::Boolean>** StaticGet___9__7_3()
 		{
-			return (::System::Func_2<::Utf8Json::Internal::Emit::MetaMember*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder___c_TypeDefinitionIndex)->GetStaticField(0x4EA68);
-		}
-		static ::System::Func_2<::Utf8Json::Internal::Emit::MetaMember*, ::System::Boolean>** StaticGet___9__7_4()
-		{
-			return (::System::Func_2<::Utf8Json::Internal::Emit::MetaMember*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder___c_TypeDefinitionIndex)->GetStaticField(0x4EA70);
-		}
-		static ::System::Func_2<::Utf8Json::Internal::Emit::MetaMember*, ::System::Boolean>** StaticGet___9__10_0()
-		{
-			return (::System::Func_2<::Utf8Json::Internal::Emit::MetaMember*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder___c_TypeDefinitionIndex)->GetStaticField(0x4EA78);
+			return (::System::Func_2<::Utf8Json::Internal::Emit::MetaMember*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder___c_TypeDefinitionIndex)->GetStaticField(0x52BF0);
 		}
 		static ::System::Func_2<::Utf8Json::Internal::Emit::MetaMember*, ::System::Boolean>** StaticGet___9__12_1()
 		{
-			return (::System::Func_2<::Utf8Json::Internal::Emit::MetaMember*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder___c_TypeDefinitionIndex)->GetStaticField(0x4EA80);
+			return (::System::Func_2<::Utf8Json::Internal::Emit::MetaMember*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder___c_TypeDefinitionIndex)->GetStaticField(0x52BF8);
 		}
 		static ::System::Func_2<::Utf8Json::Internal::Emit::MetaMember*, ::System::Boolean>** StaticGet___9__7_0()
 		{
-			return (::System::Func_2<::Utf8Json::Internal::Emit::MetaMember*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder___c_TypeDefinitionIndex)->GetStaticField(0x4EA88);
-		}
-		static ::System::Func_2<::Utf8Json::Resolvers::Internal::DynamicObjectTypeBuilder_DeserializeInfo, ::System::Boolean>** StaticGet___9__14_1()
-		{
-			return (::System::Func_2<::Utf8Json::Resolvers::Internal::DynamicObjectTypeBuilder_DeserializeInfo, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder___c_TypeDefinitionIndex)->GetStaticField(0x4EA90);
+			return (::System::Func_2<::Utf8Json::Internal::Emit::MetaMember*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder___c_TypeDefinitionIndex)->GetStaticField(0x52C00);
 		}
 		static ::System::Func_2<::Utf8Json::Internal::Emit::MetaMember*, ::System::Boolean>** StaticGet___9__8_1()
 		{
-			return (::System::Func_2<::Utf8Json::Internal::Emit::MetaMember*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder___c_TypeDefinitionIndex)->GetStaticField(0x4EA98);
+			return (::System::Func_2<::Utf8Json::Internal::Emit::MetaMember*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder___c_TypeDefinitionIndex)->GetStaticField(0x52C08);
 		}
-		static ::System::Func_2<::Utf8Json::Internal::Emit::MetaMember*, ::System::Boolean>** StaticGet___9__10_2()
+		static ::System::Func_2<::Utf8Json::Internal::Emit::MetaMember*, ::System::Boolean>** StaticGet___9__6_0()
 		{
-			return (::System::Func_2<::Utf8Json::Internal::Emit::MetaMember*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder___c_TypeDefinitionIndex)->GetStaticField(0x4EAA0);
+			return (::System::Func_2<::Utf8Json::Internal::Emit::MetaMember*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder___c_TypeDefinitionIndex)->GetStaticField(0x52C10);
+		}
+		static ::System::Func_2<::Utf8Json::Internal::Emit::MetaMember*, ::System::Boolean>** StaticGet___9__8_0()
+		{
+			return (::System::Func_2<::Utf8Json::Internal::Emit::MetaMember*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder___c_TypeDefinitionIndex)->GetStaticField(0x52C18);
+		}
+		static ::System::Func_2<::Utf8Json::Internal::Emit::MetaMember*, ::System::Boolean>** StaticGet___9__10_0()
+		{
+			return (::System::Func_2<::Utf8Json::Internal::Emit::MetaMember*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder___c_TypeDefinitionIndex)->GetStaticField(0x52C20);
+		}
+		static ::Utf8Json::Resolvers::Internal::DynamicObjectTypeBuilder___c** StaticGet___9()
+		{
+			return (::Utf8Json::Resolvers::Internal::DynamicObjectTypeBuilder___c**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder___c_TypeDefinitionIndex)->GetStaticField(0x52C28);
+		}
+		static ::System::Func_2<::System::Reflection::MethodInfo*, ::System::Int32>** StaticGet___9__13_0()
+		{
+			return (::System::Func_2<::System::Reflection::MethodInfo*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder___c_TypeDefinitionIndex)->GetStaticField(0x52C30);
 		}
 		static ::System::Func_2<::Utf8Json::Internal::Emit::MetaMember*, ::System::Boolean>** StaticGet___9__9_0()
 		{
-			return (::System::Func_2<::Utf8Json::Internal::Emit::MetaMember*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder___c_TypeDefinitionIndex)->GetStaticField(0x4EAA8);
+			return (::System::Func_2<::Utf8Json::Internal::Emit::MetaMember*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder___c_TypeDefinitionIndex)->GetStaticField(0x52C38);
+		}
+		static ::System::Func_2<::Utf8Json::Internal::Emit::MetaMember*, ::System::Boolean>** StaticGet___9__10_2()
+		{
+			return (::System::Func_2<::Utf8Json::Internal::Emit::MetaMember*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder___c_TypeDefinitionIndex)->GetStaticField(0x52C40);
+		}
+		static ::System::Func_2<::Utf8Json::Internal::Emit::MetaMember*, ::System::Boolean>** StaticGet___9__7_4()
+		{
+			return (::System::Func_2<::Utf8Json::Internal::Emit::MetaMember*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder___c_TypeDefinitionIndex)->GetStaticField(0x52C48);
+		}
+		static ::System::Func_2<::Utf8Json::Resolvers::Internal::DynamicObjectTypeBuilder_DeserializeInfo, ::System::Boolean>** StaticGet___9__14_3()
+		{
+			return (::System::Func_2<::Utf8Json::Resolvers::Internal::DynamicObjectTypeBuilder_DeserializeInfo, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder___c_TypeDefinitionIndex)->GetStaticField(0x52C50);
+		}
+		static ::System::Func_2<::Utf8Json::Resolvers::Internal::DynamicObjectTypeBuilder_DeserializeInfo, ::System::Boolean>** StaticGet___9__14_1()
+		{
+			return (::System::Func_2<::Utf8Json::Resolvers::Internal::DynamicObjectTypeBuilder_DeserializeInfo, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder___c_TypeDefinitionIndex)->GetStaticField(0x52C58);
 		}
 		static ::System::Func_2<::System::Reflection::MethodInfo*, ::System::Int32>** StaticGet___9__11_0()
 		{
-			return (::System::Func_2<::System::Reflection::MethodInfo*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder___c_TypeDefinitionIndex)->GetStaticField(0x4EAB0);
+			return (::System::Func_2<::System::Reflection::MethodInfo*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder___c_TypeDefinitionIndex)->GetStaticField(0x52C60);
 		}
 
 		static ::System::Void _cctor()

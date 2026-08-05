@@ -8,76 +8,76 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class MeshRenderer; }
 namespace UnityEngine { class Texture2D; }
 
-#define SCENEFOGCARD_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1BDA6C50)
-#define SCENEFOGCARD_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1BDA6360)
-#define SCENEFOGCARD_REFRESHMATERIALPROPERTIES_OFFSET UNITYSDK_OFFSET(0x1BDA66E0)
-#define SCENEFOGCARD__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BDA6F70)
-#define SCENEFOGCARD__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDA6EE0)
+#define SCENEFOGCARD_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1CEE1520)
+#define SCENEFOGCARD_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1CEE0C30)
+#define SCENEFOGCARD_REFRESHMATERIALPROPERTIES_OFFSET UNITYSDK_OFFSET(0x1CEE0FB0)
+#define SCENEFOGCARD__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CEE1840)
+#define SCENEFOGCARD__CTOR_OFFSET UNITYSDK_OFFSET(0x1CEE17B0)
 
-inline static constexpr unsigned int SceneFogCard_TypeDefinitionIndex = 26925;
+inline static constexpr unsigned int SceneFogCard_TypeDefinitionIndex = 27464;
 
 class SceneFogCard : public ::UnityEngine::MonoBehaviour
 {
 public:
-	static ::System::String** StaticGet__Noise()
-	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(SceneFogCard_TypeDefinitionIndex)->GetStaticField(0x210E0);
-	}
 	static ::System::String** StaticGet__SofDepth()
 	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(SceneFogCard_TypeDefinitionIndex)->GetStaticField(0x210E8);
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(SceneFogCard_TypeDefinitionIndex)->GetStaticField(0x22950);
+	}
+	static ::System::String** StaticGet__Noise()
+	{
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(SceneFogCard_TypeDefinitionIndex)->GetStaticField(0x22958);
 	}
 	static ::System::String** StaticGet__VSpeed()
 	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(SceneFogCard_TypeDefinitionIndex)->GetStaticField(0x210F0);
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(SceneFogCard_TypeDefinitionIndex)->GetStaticField(0x22960);
 	}
 	static ::System::String** StaticGet__USpeed()
 	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(SceneFogCard_TypeDefinitionIndex)->GetStaticField(0x210F8);
-	}
-	static ::System::Int32* StaticGet__BottomFade()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SceneFogCard_TypeDefinitionIndex)->GetStaticField(0x58E0);
-	}
-	static ::System::Int32* StaticGet__MainLightScatteringColor()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SceneFogCard_TypeDefinitionIndex)->GetStaticField(0x58E4);
-	}
-	static ::System::Int32* StaticGet__FallOff()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SceneFogCard_TypeDefinitionIndex)->GetStaticField(0x58E8);
-	}
-	static ::System::Int32* StaticGet__EdgeFade()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SceneFogCard_TypeDefinitionIndex)->GetStaticField(0x58EC);
-	}
-	static ::System::Int32* StaticGet__Density()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SceneFogCard_TypeDefinitionIndex)->GetStaticField(0x58F0);
-	}
-	static ::System::Int32* StaticGet__AmbientScatteringColor()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SceneFogCard_TypeDefinitionIndex)->GetStaticField(0x58F4);
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(SceneFogCard_TypeDefinitionIndex)->GetStaticField(0x22968);
 	}
 	static ::System::Int32* StaticGet__Coverage()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SceneFogCard_TypeDefinitionIndex)->GetStaticField(0x58F8);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SceneFogCard_TypeDefinitionIndex)->GetStaticField(0x5770);
 	}
-	static ::UnityEngine::Color* StaticGet_weatherControledSceneFogCardAmbientScatteringColor()
+	static ::System::Int32* StaticGet__EdgeFade()
 	{
-		return (::UnityEngine::Color*)Il2CppClass::FromTypeDefinitionIndex(SceneFogCard_TypeDefinitionIndex)->GetStaticField(0x58FC);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SceneFogCard_TypeDefinitionIndex)->GetStaticField(0x5774);
 	}
-	static ::System::Int32* StaticGet__NoiseScale()
+	static ::System::Int32* StaticGet__FallOff()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SceneFogCard_TypeDefinitionIndex)->GetStaticField(0x590C);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SceneFogCard_TypeDefinitionIndex)->GetStaticField(0x5778);
 	}
 	static ::System::Int32* StaticGet__HeightFogColorBlend()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SceneFogCard_TypeDefinitionIndex)->GetStaticField(0x5910);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SceneFogCard_TypeDefinitionIndex)->GetStaticField(0x577C);
+	}
+	static ::System::Int32* StaticGet__BottomFade()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SceneFogCard_TypeDefinitionIndex)->GetStaticField(0x5780);
+	}
+	static ::System::Int32* StaticGet__NoiseScale()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SceneFogCard_TypeDefinitionIndex)->GetStaticField(0x5784);
 	}
 	static ::System::Int32* StaticGet__MieG()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SceneFogCard_TypeDefinitionIndex)->GetStaticField(0x5914);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SceneFogCard_TypeDefinitionIndex)->GetStaticField(0x5788);
+	}
+	static ::UnityEngine::Color* StaticGet_weatherControledSceneFogCardAmbientScatteringColor()
+	{
+		return (::UnityEngine::Color*)Il2CppClass::FromTypeDefinitionIndex(SceneFogCard_TypeDefinitionIndex)->GetStaticField(0x578C);
+	}
+	static ::System::Int32* StaticGet__Density()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SceneFogCard_TypeDefinitionIndex)->GetStaticField(0x579C);
+	}
+	static ::System::Int32* StaticGet__AmbientScatteringColor()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SceneFogCard_TypeDefinitionIndex)->GetStaticField(0x57A0);
+	}
+	static ::System::Int32* StaticGet__MainLightScatteringColor()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SceneFogCard_TypeDefinitionIndex)->GetStaticField(0x57A4);
 	}
 	::UnityEngine::Color MainLightScatteringColor; // 0x18
 	::UnityEngine::Color AmbientScatteringColor; // 0x28

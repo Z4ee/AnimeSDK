@@ -4,11 +4,11 @@
 
 namespace UnityEngine::UI { class IMeshModifier; }
 
-#define UNITYENGINE_UI_MESHMODIFIERREGISTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1E65DC30)
+#define UNITYENGINE_UI_MESHMODIFIERREGISTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1FA2B3D0)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int MeshModifierRegistry_TypeDefinitionIndex = 18991;
+	inline static constexpr unsigned int MeshModifierRegistry_TypeDefinitionIndex = 19335;
 
 	class MeshModifierRegistry : public ::UnityEngine::UI::GraphicRegistry_2<::UnityEngine::UI::MeshModifierRegistry*, ::UnityEngine::UI::IMeshModifier*>
 	{

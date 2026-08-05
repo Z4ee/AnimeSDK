@@ -7,28 +7,28 @@ namespace System { class String; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Text; }
 
-#define MOLEMOLE_UIINLEVELPAUSEBATTLEINFOWIDGETCONTROLLER_CHALLENGEROWWIDGETITEM_SETCHALLENGEFINISHSTATE_OFFSET UNITYSDK_OFFSET(0x181570D0)
-#define MOLEMOLE_UIINLEVELPAUSEBATTLEINFOWIDGETCONTROLLER_CHALLENGEROWWIDGETITEM_SETDATANUM_OFFSET UNITYSDK_OFFSET(0x18157460)
-#define MOLEMOLE_UIINLEVELPAUSEBATTLEINFOWIDGETCONTROLLER_CHALLENGEROWWIDGETITEM_SETTITLETEXT_OFFSET UNITYSDK_OFFSET(0x18157520)
-#define MOLEMOLE_UIINLEVELPAUSEBATTLEINFOWIDGETCONTROLLER_CHALLENGEROWWIDGETITEM_SETVISIBLE_OFFSET UNITYSDK_OFFSET(0x181576B0)
-#define MOLEMOLE_UIINLEVELPAUSEBATTLEINFOWIDGETCONTROLLER_CHALLENGEROWWIDGETITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x18155F00)
+#define MOLEMOLE_UIINLEVELPAUSEBATTLEINFOWIDGETCONTROLLER_CHALLENGEROWWIDGETITEM_SETCHALLENGEFINISHSTATE_OFFSET UNITYSDK_OFFSET(0x182AFF40)
+#define MOLEMOLE_UIINLEVELPAUSEBATTLEINFOWIDGETCONTROLLER_CHALLENGEROWWIDGETITEM_SETDATANUM_OFFSET UNITYSDK_OFFSET(0x182B02D0)
+#define MOLEMOLE_UIINLEVELPAUSEBATTLEINFOWIDGETCONTROLLER_CHALLENGEROWWIDGETITEM_SETTITLETEXT_OFFSET UNITYSDK_OFFSET(0x182B0390)
+#define MOLEMOLE_UIINLEVELPAUSEBATTLEINFOWIDGETCONTROLLER_CHALLENGEROWWIDGETITEM_SETVISIBLE_OFFSET UNITYSDK_OFFSET(0x182B0520)
+#define MOLEMOLE_UIINLEVELPAUSEBATTLEINFOWIDGETCONTROLLER_CHALLENGEROWWIDGETITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x182AED70)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInLevelPauseBattleInfoWidgetController_ChallengeRowWidgetItem_TypeDefinitionIndex = 84608;
+	inline static constexpr unsigned int UIInLevelPauseBattleInfoWidgetController_ChallengeRowWidgetItem_TypeDefinitionIndex = 88183;
 
 	class UIInLevelPauseBattleInfoWidgetController_ChallengeRowWidgetItem : public ::System::Object
 	{
 	public:
-		::UnityEngine::Transform* _loseIcon; // 0x10
+		::UnityEngine::Transform* _uncompleteIcon; // 0x10
 		::UnityEngine::UI::Text* _titleText; // 0x18
-		::UnityEngine::Transform* _root; // 0x20
-		::UnityEngine::UI::Text* _finishText; // 0x28
-		::UnityEngine::UI::Text* _curNumText; // 0x30
-		::UnityEngine::Transform* _completeIcon; // 0x38
-		::UnityEngine::Transform* _uncompleteIcon; // 0x40
-		::UnityEngine::Transform* _dataNumArea; // 0x48
-		::UnityEngine::UI::Text* _totalNumText; // 0x50
+		::UnityEngine::Transform* _dataNumArea; // 0x20
+		::UnityEngine::UI::Text* _curNumText; // 0x28
+		::UnityEngine::UI::Text* _totalNumText; // 0x30
+		::UnityEngine::Transform* _root; // 0x38
+		::UnityEngine::Transform* _completeIcon; // 0x40
+		::UnityEngine::Transform* _loseIcon; // 0x48
+		::UnityEngine::UI::Text* _finishText; // 0x50
 
 		::System::Void _ctor(::UnityEngine::Transform* root)
 		{

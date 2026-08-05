@@ -16,12 +16,12 @@ namespace UnityEngine::Rendering::Universal { class WeatherConfigAdditionalData_
 namespace UnityEngine::Rendering::Universal { class WeatherConfigAdditionalData_SceneBloomConfig; }
 namespace UnityEngine::Rendering::Universal { class WeatherConfigAdditionalData_SpecularTonemappingConfig; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERCONFIGADDITIONALDATA_SYNWEATHERADDITIONALDATA_OFFSET UNITYSDK_OFFSET(0x1B823890)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERCONFIGADDITIONALDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B823B50)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERCONFIGADDITIONALDATA_SYNWEATHERADDITIONALDATA_OFFSET UNITYSDK_OFFSET(0x1CB40DC0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERCONFIGADDITIONALDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB41080)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int WeatherConfigAdditionalData_TypeDefinitionIndex = 26826;
+	inline static constexpr unsigned int WeatherConfigAdditionalData_TypeDefinitionIndex = 27783;
 
 	class WeatherConfigAdditionalData : public ::System::Object
 	{

@@ -6,11 +6,11 @@
 class Class_1_F71F7FB55BBEB1D9;
 namespace MoleMole { class UIVHSStoreLimitWidgetController_Context; }
 
-#define MOLEMOLE_UIVHSSTOREPAGECONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1383D160)
+#define MOLEMOLE_UIVHSSTOREPAGECONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15FA2010)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIVHSStorePageController_Context_TypeDefinitionIndex = 85469;
+	inline static constexpr unsigned int UIVHSStorePageController_Context_TypeDefinitionIndex = 86475;
 
 	class UIVHSStorePageController_Context : public ::MoleMole::UIControllerContextBase
 	{

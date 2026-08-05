@@ -4,29 +4,24 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define CLASS_1_27F9D79D82229746_METHOD_1_4487776BEE04D471_OFFSET UNITYSDK_OFFSET(0x15A1B290)
-#define CLASS_1_27F9D79D82229746_METHOD_1_6FBD043A86C5A8DC_OFFSET UNITYSDK_OFFSET(0x15A1B210)
-#define CLASS_1_27F9D79D82229746_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x15A1B400)
-#define CLASS_1_27F9D79D82229746_METHOD_1_CA6BDDCC5F7CE11E_OFFSET UNITYSDK_OFFSET(0x15A1B1A0)
-#define CLASS_1_27F9D79D82229746__CTOR_OFFSET UNITYSDK_OFFSET(0x15A1B190)
+#define CLASS_1_27F9D79D82229746_METHOD_1_4487776BEE04D471_OFFSET UNITYSDK_OFFSET(0x13770530)
+#define CLASS_1_27F9D79D82229746_METHOD_1_6FBD043A86C5A8DC_OFFSET UNITYSDK_OFFSET(0x137704B0)
+#define CLASS_1_27F9D79D82229746_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x13770710)
+#define CLASS_1_27F9D79D82229746_METHOD_1_CA6BDDCC5F7CE11E_OFFSET UNITYSDK_OFFSET(0x137706A0)
+#define CLASS_1_27F9D79D82229746__CTOR_OFFSET UNITYSDK_OFFSET(0x137704A0)
 
-inline static constexpr unsigned int Class_1_27F9D79D82229746_TypeDefinitionIndex = 59661;
+inline static constexpr unsigned int Class_1_27F9D79D82229746_TypeDefinitionIndex = 68486;
 
 class Class_1_27F9D79D82229746 : public ::System::Object
 {
 public:
-	::UnityEngine::GameObject* Field_1_0; // 0x10
-	::System::Single Field_1_2; // 0x18
-	::System::Single Field_1_1; // 0x1C
+	::UnityEngine::GameObject* Field_1_1; // 0x10
+	::System::Single Field_1_7; // 0x18
+	::System::Single Field_1_0; // 0x1C
 
 	::System::Void _ctor()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_27F9D79D82229746__CTOR_OFFSET))(this);
-	}
-
-	::System::Void Method_1_CA6BDDCC5F7CE11E(::System::Single a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_27F9D79D82229746_METHOD_1_CA6BDDCC5F7CE11E_OFFSET))(this, a1);
 	}
 
 	::System::Void Method_1_6FBD043A86C5A8DC(::UnityEngine::GameObject* a1, ::System::Single a2)
@@ -37,6 +32,11 @@ public:
 	::System::Boolean Method_1_4487776BEE04D471()
 	{
 		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_27F9D79D82229746_METHOD_1_4487776BEE04D471_OFFSET))(this);
+	}
+
+	::System::Void Method_1_CA6BDDCC5F7CE11E(::System::Single a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_27F9D79D82229746_METHOD_1_CA6BDDCC5F7CE11E_OFFSET))(this, a1);
 	}
 
 	::System::Void Method_1_CA373AA1C7054598()

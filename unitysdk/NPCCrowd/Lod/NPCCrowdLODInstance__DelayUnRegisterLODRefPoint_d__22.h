@@ -8,18 +8,18 @@ namespace NPCCrowd::Lod { class INPCCrowdDistanceCheckInterface; }
 namespace NPCCrowd::Lod { class NPCCrowdLODInstance; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define NPCCROWD_LOD_NPCCROWDLODINSTANCE__DELAYUNREGISTERLODREFPOINT_D__22_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x6A6D60)
-#define NPCCROWD_LOD_NPCCROWDLODINSTANCE__DELAYUNREGISTERLODREFPOINT_D__22_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x283610)
+#define NPCCROWD_LOD_NPCCROWDLODINSTANCE__DELAYUNREGISTERLODREFPOINT_D__22_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x5EE4D0)
+#define NPCCROWD_LOD_NPCCROWDLODINSTANCE__DELAYUNREGISTERLODREFPOINT_D__22_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x296F30)
 
 namespace NPCCrowd::Lod
 {
-	inline static constexpr unsigned int NPCCrowdLODInstance__DelayUnRegisterLODRefPoint_d__22_TypeDefinitionIndex = 53692;
+	inline static constexpr unsigned int NPCCrowdLODInstance__DelayUnRegisterLODRefPoint_d__22_TypeDefinitionIndex = 58064;
 
 	struct alignas(8) NPCCrowdLODInstance__DelayUnRegisterLODRefPoint_d__22
 	{
-		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskVoidMethodBuilder __t__builder; // 0x10
-		::NPCCrowd::Lod::NPCCrowdLODInstance* __4__this; // 0x18
-		::NPCCrowd::Lod::INPCCrowdDistanceCheckInterface* refPoint; // 0x20
+		::NPCCrowd::Lod::NPCCrowdLODInstance* __4__this; // 0x10
+		::NPCCrowd::Lod::INPCCrowdDistanceCheckInterface* refPoint; // 0x18
+		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskVoidMethodBuilder __t__builder; // 0x20
 		::Cysharp::Threading::Tasks::YieldAwaitable_Awaiter __u__1; // 0x28
 		::System::Int32 __1__state; // 0x2C
 

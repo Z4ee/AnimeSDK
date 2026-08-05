@@ -4,26 +4,26 @@
 
 namespace System { class String; }
 
-#define NPCCROWD_AI_NPCAIDATACONSTANTS__CCTOR_OFFSET UNITYSDK_OFFSET(0xEBC0C10)
+#define NPCCROWD_AI_NPCAIDATACONSTANTS__CCTOR_OFFSET UNITYSDK_OFFSET(0xF5FA160)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int NPCAIDataConstants_TypeDefinitionIndex = 84511;
+	inline static constexpr unsigned int NPCAIDataConstants_TypeDefinitionIndex = 59297;
 
 	class NPCAIDataConstants : public ::System::Object
 	{
 	public:
-		static ::System::String** StaticGet_ATTRACTOR_DATA_PATH()
+		static ::System::String** StaticGet_AIACTION_DATA()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(NPCAIDataConstants_TypeDefinitionIndex)->GetStaticField(0x3A920);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(NPCAIDataConstants_TypeDefinitionIndex)->GetStaticField(0x3D790);
 		}
 		static ::System::String** StaticGet_ATTRACTOR_TEMPLATE_DATA()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(NPCAIDataConstants_TypeDefinitionIndex)->GetStaticField(0x3A928);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(NPCAIDataConstants_TypeDefinitionIndex)->GetStaticField(0x3D798);
 		}
-		static ::System::String** StaticGet_AIACTION_DATA()
+		static ::System::String** StaticGet_ATTRACTOR_DATA_PATH()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(NPCAIDataConstants_TypeDefinitionIndex)->GetStaticField(0x3A930);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(NPCAIDataConstants_TypeDefinitionIndex)->GetStaticField(0x3D7A0);
 		}
 
 		static ::System::Void _cctor()

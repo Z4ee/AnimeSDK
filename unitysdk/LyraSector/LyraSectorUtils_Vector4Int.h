@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define LYRASECTOR_LYRASECTORUTILS_VECTOR4INT__CTOR_OFFSET UNITYSDK_OFFSET(0x588040)
+#define LYRASECTOR_LYRASECTORUTILS_VECTOR4INT__CTOR_OFFSET UNITYSDK_OFFSET(0x6245C0)
 
 namespace LyraSector
 {
-	inline static constexpr unsigned int LyraSectorUtils_Vector4Int_TypeDefinitionIndex = 26885;
+	inline static constexpr unsigned int LyraSectorUtils_Vector4Int_TypeDefinitionIndex = 27503;
 
 	struct alignas(4) LyraSectorUtils_Vector4Int
 	{

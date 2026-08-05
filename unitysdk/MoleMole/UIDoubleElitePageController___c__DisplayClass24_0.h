@@ -5,12 +5,12 @@
 class Class_1_0D6706375CDAAE8C;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIDOUBLEELITEPAGECONTROLLER___C__DISPLAYCLASS24_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19DAC8C0)
-#define MOLEMOLE_UIDOUBLEELITEPAGECONTROLLER___C__DISPLAYCLASS24_0__ONCLICKCONSOLECHECKCONSUMEBTN_G__ONCLICKITEMBTN_0_OFFSET UNITYSDK_OFFSET(0x19DAC8D0)
+#define MOLEMOLE_UIDOUBLEELITEPAGECONTROLLER___C__DISPLAYCLASS24_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19AAC930)
+#define MOLEMOLE_UIDOUBLEELITEPAGECONTROLLER___C__DISPLAYCLASS24_0__ONCLICKCONSOLECHECKCONSUMEBTN_G__ONCLICKITEMBTN_0_OFFSET UNITYSDK_OFFSET(0x19AAC940)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIDoubleElitePageController___c__DisplayClass24_0_TypeDefinitionIndex = 47226;
+	inline static constexpr unsigned int UIDoubleElitePageController___c__DisplayClass24_0_TypeDefinitionIndex = 59303;
 
 	class UIDoubleElitePageController___c__DisplayClass24_0 : public ::System::Object
 	{

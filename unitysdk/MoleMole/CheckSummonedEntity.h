@@ -6,20 +6,20 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CHECKSUMMONEDENTITY_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x12C55800)
-#define MOLEMOLE_CHECKSUMMONEDENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0x12C55AE0)
-#define MOLEMOLE_CHECKSUMMONEDENTITY___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x12C55B70)
+#define MOLEMOLE_CHECKSUMMONEDENTITY_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x114557A0)
+#define MOLEMOLE_CHECKSUMMONEDENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0x11455A70)
+#define MOLEMOLE_CHECKSUMMONEDENTITY___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x11455B00)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CheckSummonedEntity_TypeDefinitionIndex = 66339;
+	inline static constexpr unsigned int CheckSummonedEntity_TypeDefinitionIndex = 67407;
 
 	class CheckSummonedEntity : public ::BehaviorDesigner::Runtime::Tasks::Conditional
 	{
 	public:
 		::System::String* SummonTag; // 0x50
-		::MoleMole::AICompareType CompareType; // 0x58
-		::System::Int32 SummonCheckCount; // 0x5C
+		::System::Int32 SummonCheckCount; // 0x58
+		::MoleMole::AICompareType CompareType; // 0x5C
 
 		::System::Void _ctor()
 		{

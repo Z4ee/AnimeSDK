@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIRidusGotBooPageController; }
 
-#define MOLEMOLE_UIRIDUSGOTBOOPAGECONTROLLER___C__DISPLAYCLASS211_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1579AC50)
-#define MOLEMOLE_UIRIDUSGOTBOOPAGECONTROLLER___C__DISPLAYCLASS211_0__WAITUNTILTIMECURSOR_B__0_OFFSET UNITYSDK_OFFSET(0x1579AC60)
+#define MOLEMOLE_UIRIDUSGOTBOOPAGECONTROLLER___C__DISPLAYCLASS211_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17A2BDD0)
+#define MOLEMOLE_UIRIDUSGOTBOOPAGECONTROLLER___C__DISPLAYCLASS211_0__WAITUNTILTIMECURSOR_B__0_OFFSET UNITYSDK_OFFSET(0x17A2BDE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRidusGotBooPageController___c__DisplayClass211_0_TypeDefinitionIndex = 40733;
+	inline static constexpr unsigned int UIRidusGotBooPageController___c__DisplayClass211_0_TypeDefinitionIndex = 91541;
 
 	class UIRidusGotBooPageController___c__DisplayClass211_0 : public ::System::Object
 	{

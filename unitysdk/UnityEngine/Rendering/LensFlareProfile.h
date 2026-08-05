@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/LensFlareProfile_NativeSRP.h"
 
-#define UNITYENGINE_RENDERING_LENSFLAREPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4D8D00)
+#define UNITYENGINE_RENDERING_LENSFLAREPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E65F7A0)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int LensFlareProfile_TypeDefinitionIndex = 26350;
+	inline static constexpr unsigned int LensFlareProfile_TypeDefinitionIndex = 27822;
 
 	class LensFlareProfile : public ::UnityEngine::NAPRenderPipeline0::LensFlareProfile_NativeSRP
 	{

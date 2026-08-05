@@ -9,7 +9,7 @@ namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int KeyValuePairFormatter_2_TypeDefinitionIndex = 7467;
+	inline static constexpr unsigned int KeyValuePairFormatter_2_TypeDefinitionIndex = 7471;
 
 	template <typename TKey, typename TValue>
 	class KeyValuePairFormatter_2 : public ::Sirenix::Serialization::MinimalBaseFormatter_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>

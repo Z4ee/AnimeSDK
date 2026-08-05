@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_3_816015CAFD8353F7_Enum_3_1A21FE4EAFEF3879_TypeDefinitionIndex = 61737;
+inline static constexpr unsigned int Class_3_816015CAFD8353F7_Enum_3_1A21FE4EAFEF3879_TypeDefinitionIndex = 60668;
 
 enum class Class_3_816015CAFD8353F7_Enum_3_1A21FE4EAFEF3879 : ::System::Int32
 {
-	Closed = 0,
 	SustainOpen = 2,
 	TriggerOpen = 1,
+	Closed = 0,
 };

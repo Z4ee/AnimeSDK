@@ -6,15 +6,15 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define STRUCT_2_217EE568A28FAED7_METHOD_2_512ABA22325655A1_OFFSET UNITYSDK_OFFSET(0x246290)
+#define STRUCT_2_217EE568A28FAED7_METHOD_2_512ABA22325655A1_OFFSET UNITYSDK_OFFSET(0x259D70)
 
-inline static constexpr unsigned int Struct_2_217EE568A28FAED7_TypeDefinitionIndex = 81141;
+inline static constexpr unsigned int Struct_2_217EE568A28FAED7_TypeDefinitionIndex = 83572;
 
 struct alignas(8) Struct_2_217EE568A28FAED7
 {
-	::System::Collections::Generic::List_1<::MoleMole::HollowChessboard::RenderDataHandle>* Field_2_0; // 0x10
+	::System::Collections::Generic::List_1<::MoleMole::HollowChessboard::RenderDataHandle>* Field_2_2; // 0x10
 	::System::Nullable_1<::System::Int32> Field_2_1; // 0x18
-	::System::Nullable_1<::System::Int32> Field_2_2; // 0x20
+	::System::Nullable_1<::System::Int32> Field_2_0; // 0x20
 
 	::System::Collections::Generic::List_1<::MoleMole::HollowChessboard::RenderDataHandle>* Method_2_512ABA22325655A1()
 	{

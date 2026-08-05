@@ -6,7 +6,7 @@ namespace System::Reflection { class MemberInfo; }
 
 namespace ParadoxNotion::Serialization
 {
-	inline static constexpr unsigned int ISerializedReflectedInfo_TypeDefinitionIndex = 30707;
+	inline static constexpr unsigned int ISerializedReflectedInfo_TypeDefinitionIndex = 31004;
 
 	class ISerializedReflectedInfo
 	{

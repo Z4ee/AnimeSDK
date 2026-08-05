@@ -7,13 +7,13 @@ namespace UnityEngine { class CharacterController; }
 namespace UnityEngine { class Collider; }
 namespace UnityEngine { class GameObject; }
 
-#define UNITYENGINE_CONTROLLERCOLLIDERHIT_GET_GAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x1DB2CA70)
-#define UNITYENGINE_CONTROLLERCOLLIDERHIT_GET_POINT_OFFSET UNITYSDK_OFFSET(0x1DB2CA90)
-#define UNITYENGINE_CONTROLLERCOLLIDERHIT__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB2CAB0)
+#define UNITYENGINE_CONTROLLERCOLLIDERHIT_GET_GAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x1ED9D800)
+#define UNITYENGINE_CONTROLLERCOLLIDERHIT_GET_POINT_OFFSET UNITYSDK_OFFSET(0x1ED9D820)
+#define UNITYENGINE_CONTROLLERCOLLIDERHIT__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED9D840)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ControllerColliderHit_TypeDefinitionIndex = 7702;
+	inline static constexpr unsigned int ControllerColliderHit_TypeDefinitionIndex = 7775;
 
 	class ControllerColliderHit : public ::System::Object
 	{

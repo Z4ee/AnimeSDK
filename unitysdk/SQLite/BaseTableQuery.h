@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SQLITE_BASETABLEQUERY__CTOR_OFFSET UNITYSDK_OFFSET(0x1D632540)
+#define SQLITE_BASETABLEQUERY__CTOR_OFFSET UNITYSDK_OFFSET(0x1E9FA500)
 
 namespace SQLite
 {
-	inline static constexpr unsigned int BaseTableQuery_TypeDefinitionIndex = 38418;
+	inline static constexpr unsigned int BaseTableQuery_TypeDefinitionIndex = 39079;
 
 	class BaseTableQuery : public ::System::Object
 	{

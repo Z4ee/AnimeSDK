@@ -4,12 +4,12 @@
 
 namespace UnityEngine { class Material; }
 
-#define MOLEMOLE_TEXTURESHEETMATERIALPROXY_GETTEXTURESHEETMATERIAL_OFFSET UNITYSDK_OFFSET(0x1A1AADC0)
-#define MOLEMOLE_TEXTURESHEETMATERIALPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1AB060)
+#define MOLEMOLE_TEXTURESHEETMATERIALPROXY_GETTEXTURESHEETMATERIAL_OFFSET UNITYSDK_OFFSET(0x16891450)
+#define MOLEMOLE_TEXTURESHEETMATERIALPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x168916F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int TextureSheetMaterialProxy_TypeDefinitionIndex = 55719;
+	inline static constexpr unsigned int TextureSheetMaterialProxy_TypeDefinitionIndex = 56301;
 
 	class TextureSheetMaterialProxy : public ::UnityEngine::MonoBehaviour
 	{

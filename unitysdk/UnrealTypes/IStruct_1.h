@@ -7,7 +7,7 @@ namespace UnrealTypes { class StructOpsTraitsBase; }
 
 namespace UnrealTypes
 {
-	inline static constexpr unsigned int IStruct_1_TypeDefinitionIndex = 27703;
+	inline static constexpr unsigned int IStruct_1_TypeDefinitionIndex = 28306;
 
 	template <typename T>
 	class IStruct_1

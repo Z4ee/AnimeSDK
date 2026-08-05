@@ -6,7 +6,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int DoubleEliteCardInfo_TypeDefinitionIndex = 80357;
+	inline static constexpr unsigned int DoubleEliteCardInfo_TypeDefinitionIndex = 69522;
 
 	struct alignas(8) DoubleEliteCardInfo
 	{

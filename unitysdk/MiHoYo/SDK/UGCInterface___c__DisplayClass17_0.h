@@ -10,28 +10,28 @@ namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MIHOYO_SDK_UGCINTERFACE___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7D95D0)
-#define MIHOYO_SDK_UGCINTERFACE___C__DISPLAYCLASS17_0__HTTPPOSTCARRYTOKENIMPL_B__0_OFFSET UNITYSDK_OFFSET(0x1B7DCE90)
-#define MIHOYO_SDK_UGCINTERFACE___C__DISPLAYCLASS17_0__HTTPPOSTCARRYTOKENIMPL_B__1_OFFSET UNITYSDK_OFFSET(0x1B7DCFB0)
-#define MIHOYO_SDK_UGCINTERFACE___C__DISPLAYCLASS17_0__HTTPPOSTCARRYTOKENIMPL_B__2_OFFSET UNITYSDK_OFFSET(0x1B7DD020)
+#define MIHOYO_SDK_UGCINTERFACE___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC60EE0)
+#define MIHOYO_SDK_UGCINTERFACE___C__DISPLAYCLASS17_0__HTTPPOSTCARRYTOKENIMPL_B__0_OFFSET UNITYSDK_OFFSET(0x1CC64730)
+#define MIHOYO_SDK_UGCINTERFACE___C__DISPLAYCLASS17_0__HTTPPOSTCARRYTOKENIMPL_B__1_OFFSET UNITYSDK_OFFSET(0x1CC64850)
+#define MIHOYO_SDK_UGCINTERFACE___C__DISPLAYCLASS17_0__HTTPPOSTCARRYTOKENIMPL_B__2_OFFSET UNITYSDK_OFFSET(0x1CC648C0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int UGCInterface___c__DisplayClass17_0_TypeDefinitionIndex = 36827;
+	inline static constexpr unsigned int UGCInterface___c__DisplayClass17_0_TypeDefinitionIndex = 37488;
 
 	class UGCInterface___c__DisplayClass17_0 : public ::System::Object
 	{
 	public:
-		::System::String* strRegion; // 0x10
-		::System::String* strBody; // 0x18
-		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* callback; // 0x20
+		::System::String* strUrl; // 0x10
+		::MiHoYo::SDK::UGCInterface* __4__this; // 0x18
+		::System::String* strBody; // 0x20
 		::System::Action_2<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*, ::System::String*>* __9__1; // 0x28
-		::System::String* strUId; // 0x30
-		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* tokenFailedCallback; // 0x38
-		::System::String* strUrl; // 0x40
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* headers; // 0x48
-		::System::Action* __9__2; // 0x50
-		::MiHoYo::SDK::UGCInterface* __4__this; // 0x58
+		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* callback; // 0x30
+		::System::Action* __9__2; // 0x38
+		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* tokenFailedCallback; // 0x40
+		::System::String* strRegion; // 0x48
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* headers; // 0x50
+		::System::String* strUId; // 0x58
 		::System::Single nTimeoutSeconds; // 0x60
 		::System::Int32 nRetryCount; // 0x64
 

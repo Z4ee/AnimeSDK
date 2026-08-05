@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define LITJSON_CMAPPOSCONFIG__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C5ED670)
-#define LITJSON_CMAPPOSCONFIG__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1C5ED680)
-#define LITJSON_CMAPPOSCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5ED660)
+#define LITJSON_CMAPPOSCONFIG__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1D988ED0)
+#define LITJSON_CMAPPOSCONFIG__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1D988EE0)
+#define LITJSON_CMAPPOSCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D988EC0)
 
 namespace LitJson
 {
-	inline static constexpr unsigned int CMapPosConfig_TypeDefinitionIndex = 7793;
+	inline static constexpr unsigned int CMapPosConfig_TypeDefinitionIndex = 7805;
 
 	class CMapPosConfig : public ::System::Object
 	{

@@ -4,11 +4,11 @@
 
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARDPERFORMID__CTOR_OFFSET UNITYSDK_OFFSET(0x1929DA20)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARDPERFORMID__CTOR_OFFSET UNITYSDK_OFFSET(0x14865A90)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowChessboardPerformID_TypeDefinitionIndex = 63210;
+	inline static constexpr unsigned int ConfigHollowChessboardPerformID_TypeDefinitionIndex = 64880;
 
 	class ConfigHollowChessboardPerformID : public ::Foundation::MihoyoSerializedScriptableObject
 	{

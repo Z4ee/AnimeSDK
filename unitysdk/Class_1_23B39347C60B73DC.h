@@ -13,30 +13,40 @@ namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_23B39347C60B73DC_METHOD_1_04312D3BB4D35FD8_OFFSET UNITYSDK_OFFSET(0x12889750)
-#define CLASS_1_23B39347C60B73DC_METHOD_1_1E6B5D948B290800_OFFSET UNITYSDK_OFFSET(0x12889A10)
-#define CLASS_1_23B39347C60B73DC_METHOD_1_6C6B1DC857A4DEB1_OFFSET UNITYSDK_OFFSET(0x128898A0)
-#define CLASS_1_23B39347C60B73DC_METHOD_1_BA3FF423D670F592_OFFSET UNITYSDK_OFFSET(0x12889B20)
-#define CLASS_1_23B39347C60B73DC_METHOD_1_DD73038DFA9AFB62_OFFSET UNITYSDK_OFFSET(0x1288A230)
-#define CLASS_1_23B39347C60B73DC__CCTOR_OFFSET UNITYSDK_OFFSET(0x12889630)
+#define CLASS_1_23B39347C60B73DC_METHOD_1_04312D3BB4D35FD8_OFFSET UNITYSDK_OFFSET(0x18E52870)
+#define CLASS_1_23B39347C60B73DC_METHOD_1_1E6B5D948B290800_OFFSET UNITYSDK_OFFSET(0x18E52760)
+#define CLASS_1_23B39347C60B73DC_METHOD_1_6C6B1DC857A4DEB1_OFFSET UNITYSDK_OFFSET(0x18E529C0)
+#define CLASS_1_23B39347C60B73DC_METHOD_1_BA3FF423D670F592_OFFSET UNITYSDK_OFFSET(0x18E52040)
+#define CLASS_1_23B39347C60B73DC_METHOD_1_DD73038DFA9AFB62_OFFSET UNITYSDK_OFFSET(0x18E52B10)
+#define CLASS_1_23B39347C60B73DC__CCTOR_OFFSET UNITYSDK_OFFSET(0x18E51F20)
 
-inline static constexpr unsigned int Class_1_23B39347C60B73DC_TypeDefinitionIndex = 81323;
+inline static constexpr unsigned int Class_1_23B39347C60B73DC_TypeDefinitionIndex = 42452;
 
 class Class_1_23B39347C60B73DC : public ::System::Object
 {
 public:
 	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::RealtimeQTETaskEntryBase*>** StaticGet_Field_1_0()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::RealtimeQTETaskEntryBase*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_23B39347C60B73DC_TypeDefinitionIndex)->GetStaticField(0x45C30);
+		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::RealtimeQTETaskEntryBase*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_23B39347C60B73DC_TypeDefinitionIndex)->GetStaticField(0x41A60);
 	}
-	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::RealtimeQTEStyleEntryBase*>** StaticGet_Field_1_1()
+	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::RealtimeQTEStyleEntryBase*>** StaticGet_Field_1_7()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::RealtimeQTEStyleEntryBase*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_23B39347C60B73DC_TypeDefinitionIndex)->GetStaticField(0x45C38);
+		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::RealtimeQTEStyleEntryBase*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_23B39347C60B73DC_TypeDefinitionIndex)->GetStaticField(0x41A68);
 	}
 
 	static ::System::Void _cctor()
 	{
 		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CLASS_1_23B39347C60B73DC__CCTOR_OFFSET))();
+	}
+
+	static ::System::Void Method_1_BA3FF423D670F592(::System::Boolean a1, ::System::Action* a2)
+	{
+		return ((::System::Void(*)(::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + CLASS_1_23B39347C60B73DC_METHOD_1_BA3FF423D670F592_OFFSET))(a1, a2);
+	}
+
+	static ::System::Void Method_1_1E6B5D948B290800(::System::Single a1, ::System::Action_1<::System::Single>* a2, ::System::Action_1<::System::String*>* a3, ::System::String* a4)
+	{
+		return ((::System::Void(*)(::System::Single, ::System::Action_1<::System::Single>*, ::System::Action_1<::System::String*>*, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_23B39347C60B73DC_METHOD_1_1E6B5D948B290800_OFFSET))(a1, a2, a3, a4);
 	}
 
 	static ::MoleMole::Config::RealtimeQTETaskEntryBase* Method_1_04312D3BB4D35FD8(::System::String* a1)
@@ -49,18 +59,8 @@ public:
 		return ((::System::Boolean(*)(::MoleMole::ButtonQTETaskInputType, ::MoleMole::LogicButtonInputType&, ::MoleMole::InputActionEventType&, ::MoleMole::InputLogicEventType&))((::PBYTE)hIl2Cpp + CLASS_1_23B39347C60B73DC_METHOD_1_6C6B1DC857A4DEB1_OFFSET))(a1, a2, a3, a4);
 	}
 
-	static ::System::Void Method_1_1E6B5D948B290800(::System::Single a1, ::System::Action_1<::System::Single>* a2, ::System::Action_1<::System::String*>* a3, ::System::String* a4)
-	{
-		return ((::System::Void(*)(::System::Single, ::System::Action_1<::System::Single>*, ::System::Action_1<::System::String*>*, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_23B39347C60B73DC_METHOD_1_1E6B5D948B290800_OFFSET))(a1, a2, a3, a4);
-	}
-
 	static ::MoleMole::Config::RealtimeQTEStyleEntryBase* Method_1_DD73038DFA9AFB62(::System::String* a1)
 	{
 		return ((::MoleMole::Config::RealtimeQTEStyleEntryBase*(*)(::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_23B39347C60B73DC_METHOD_1_DD73038DFA9AFB62_OFFSET))(a1);
-	}
-
-	static ::System::Void Method_1_BA3FF423D670F592(::System::Boolean a1, ::System::Action* a2)
-	{
-		return ((::System::Void(*)(::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + CLASS_1_23B39347C60B73DC_METHOD_1_BA3FF423D670F592_OFFSET))(a1, a2);
 	}
 };

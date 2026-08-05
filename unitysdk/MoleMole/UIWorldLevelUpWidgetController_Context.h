@@ -4,11 +4,11 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UIWORLDLEVELUPWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1041F9C0)
+#define MOLEMOLE_UIWORLDLEVELUPWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x14D8F1D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIWorldLevelUpWidgetController_Context_TypeDefinitionIndex = 75394;
+	inline static constexpr unsigned int UIWorldLevelUpWidgetController_Context_TypeDefinitionIndex = 41569;
 
 	class UIWorldLevelUpWidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{

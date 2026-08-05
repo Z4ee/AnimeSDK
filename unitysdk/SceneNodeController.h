@@ -6,69 +6,69 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Light; }
 
-#define SCENENODECONTROLLER_ENABLELODGROUP_OFFSET UNITYSDK_OFFSET(0x1A0E4C50)
-#define SCENENODECONTROLLER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1A0E4D30)
-#define SCENENODECONTROLLER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1A0E4F80)
-#define SCENENODECONTROLLER_VISBLEPREFABCOUNT_OFFSET UNITYSDK_OFFSET(0x1A0E4E40)
-#define SCENENODECONTROLLER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A0E5320)
-#define SCENENODECONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0E5240)
+#define SCENENODECONTROLLER_ENABLELODGROUP_OFFSET UNITYSDK_OFFSET(0x1C3E7490)
+#define SCENENODECONTROLLER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1C3E7570)
+#define SCENENODECONTROLLER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1C3E77C0)
+#define SCENENODECONTROLLER_VISBLEPREFABCOUNT_OFFSET UNITYSDK_OFFSET(0x1C3E7680)
+#define SCENENODECONTROLLER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C3E7B60)
+#define SCENENODECONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C3E7A80)
 
-inline static constexpr unsigned int SceneNodeController_TypeDefinitionIndex = 78749;
+inline static constexpr unsigned int SceneNodeController_TypeDefinitionIndex = 91466;
 
 class SceneNodeController : public ::UnityEngine::MonoBehaviour
 {
 public:
-	static ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>** StaticGet_Lod1MeshList()
-	{
-		return (::System::Collections::Generic::List_1<::UnityEngine::GameObject*>**)Il2CppClass::FromTypeDefinitionIndex(SceneNodeController_TypeDefinitionIndex)->GetStaticField(0x4B4E0);
-	}
-	static ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>** StaticGet_Lod0MeshList()
-	{
-		return (::System::Collections::Generic::List_1<::UnityEngine::GameObject*>**)Il2CppClass::FromTypeDefinitionIndex(SceneNodeController_TypeDefinitionIndex)->GetStaticField(0x4B4E8);
-	}
 	static ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>** StaticGet_InvisbleMeshList()
 	{
-		return (::System::Collections::Generic::List_1<::UnityEngine::GameObject*>**)Il2CppClass::FromTypeDefinitionIndex(SceneNodeController_TypeDefinitionIndex)->GetStaticField(0x4B4F0);
+		return (::System::Collections::Generic::List_1<::UnityEngine::GameObject*>**)Il2CppClass::FromTypeDefinitionIndex(SceneNodeController_TypeDefinitionIndex)->GetStaticField(0x51D10);
 	}
 	static ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>** StaticGet_VisbleMeshList()
 	{
-		return (::System::Collections::Generic::List_1<::UnityEngine::GameObject*>**)Il2CppClass::FromTypeDefinitionIndex(SceneNodeController_TypeDefinitionIndex)->GetStaticField(0x4B4F8);
+		return (::System::Collections::Generic::List_1<::UnityEngine::GameObject*>**)Il2CppClass::FromTypeDefinitionIndex(SceneNodeController_TypeDefinitionIndex)->GetStaticField(0x51D18);
 	}
-	static ::System::Int32* StaticGet_Lod0MeshRenderNumber()
+	static ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>** StaticGet_Lod0MeshList()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SceneNodeController_TypeDefinitionIndex)->GetStaticField(0x11D40);
+		return (::System::Collections::Generic::List_1<::UnityEngine::GameObject*>**)Il2CppClass::FromTypeDefinitionIndex(SceneNodeController_TypeDefinitionIndex)->GetStaticField(0x51D20);
 	}
-	static ::System::Boolean* StaticGet_EnableLodGroup()
+	static ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>** StaticGet_Lod1MeshList()
 	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SceneNodeController_TypeDefinitionIndex)->GetStaticField(0x11D44);
-	}
-	static ::System::Boolean* StaticGet_EndbaleRefreshMeshRender()
-	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SceneNodeController_TypeDefinitionIndex)->GetStaticField(0x11D45);
-	}
-	static ::System::Boolean* StaticGet_EnableLodTest()
-	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SceneNodeController_TypeDefinitionIndex)->GetStaticField(0x11D46);
-	}
-	static ::System::Int32* StaticGet_MeshRenderNumber()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SceneNodeController_TypeDefinitionIndex)->GetStaticField(0x11D48);
-	}
-	static ::System::Int32* StaticGet_InvisbleMeshRenderNumber()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SceneNodeController_TypeDefinitionIndex)->GetStaticField(0x11D4C);
+		return (::System::Collections::Generic::List_1<::UnityEngine::GameObject*>**)Il2CppClass::FromTypeDefinitionIndex(SceneNodeController_TypeDefinitionIndex)->GetStaticField(0x51D28);
 	}
 	static ::System::Int32* StaticGet_Lod1MeshRenderNumber()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SceneNodeController_TypeDefinitionIndex)->GetStaticField(0x11D50);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SceneNodeController_TypeDefinitionIndex)->GetStaticField(0x12F10);
 	}
-	static ::System::Int32* StaticGet_VisbleMeshRenderNumber()
+	static ::System::Boolean* StaticGet_EndbaleRefreshMeshRender()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SceneNodeController_TypeDefinitionIndex)->GetStaticField(0x11D54);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SceneNodeController_TypeDefinitionIndex)->GetStaticField(0x12F14);
+	}
+	static ::System::Boolean* StaticGet_EnableLodGroup()
+	{
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SceneNodeController_TypeDefinitionIndex)->GetStaticField(0x12F15);
+	}
+	static ::System::Boolean* StaticGet_EnableLodTest()
+	{
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SceneNodeController_TypeDefinitionIndex)->GetStaticField(0x12F16);
 	}
 	static ::System::Single* StaticGet_Disblelight()
 	{
-		return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(SceneNodeController_TypeDefinitionIndex)->GetStaticField(0x11D58);
+		return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(SceneNodeController_TypeDefinitionIndex)->GetStaticField(0x12F18);
+	}
+	static ::System::Int32* StaticGet_VisbleMeshRenderNumber()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SceneNodeController_TypeDefinitionIndex)->GetStaticField(0x12F1C);
+	}
+	static ::System::Int32* StaticGet_MeshRenderNumber()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SceneNodeController_TypeDefinitionIndex)->GetStaticField(0x12F20);
+	}
+	static ::System::Int32* StaticGet_InvisbleMeshRenderNumber()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SceneNodeController_TypeDefinitionIndex)->GetStaticField(0x12F24);
+	}
+	static ::System::Int32* StaticGet_Lod0MeshRenderNumber()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SceneNodeController_TypeDefinitionIndex)->GetStaticField(0x12F28);
 	}
 	::System::Collections::Generic::List_1<::UnityEngine::Light*>* lights; // 0x18
 

@@ -6,29 +6,29 @@ namespace MoleMole { class UIHandBookManualWidgetController_TabItem; }
 namespace System { template <typename T> class Action_1; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define MOLEMOLE_UIHANDBOOKMANUALWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x177940D0)
-#define MOLEMOLE_UIHANDBOOKMANUALWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17794110)
-#define MOLEMOLE_UIHANDBOOKMANUALWIDGETCONTROLLER___C__INITTAB_B__19_0_OFFSET UNITYSDK_OFFSET(0x17794120)
-#define MOLEMOLE_UIHANDBOOKMANUALWIDGETCONTROLLER___C__UPDATEWISHLISTSYSTEMPLAN_B__21_0_OFFSET UNITYSDK_OFFSET(0x17794190)
+#define MOLEMOLE_UIHANDBOOKMANUALWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1730A2A0)
+#define MOLEMOLE_UIHANDBOOKMANUALWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1730A2E0)
+#define MOLEMOLE_UIHANDBOOKMANUALWIDGETCONTROLLER___C__INITTAB_B__19_0_OFFSET UNITYSDK_OFFSET(0x1730A2F0)
+#define MOLEMOLE_UIHANDBOOKMANUALWIDGETCONTROLLER___C__UPDATEWISHLISTSYSTEMPLAN_B__21_0_OFFSET UNITYSDK_OFFSET(0x1730A360)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHandBookManualWidgetController___c_TypeDefinitionIndex = 82138;
+	inline static constexpr unsigned int UIHandBookManualWidgetController___c_TypeDefinitionIndex = 81346;
 
 	class UIHandBookManualWidgetController___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::System::Int32>** StaticGet___9__21_0()
-		{
-			return (::System::Action_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIHandBookManualWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x49F80);
-		}
 		static ::System::Comparison_1<::MoleMole::UIHandBookManualWidgetController_TabItem*>** StaticGet___9__19_0()
 		{
-			return (::System::Comparison_1<::MoleMole::UIHandBookManualWidgetController_TabItem*>**)Il2CppClass::FromTypeDefinitionIndex(UIHandBookManualWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x49F88);
+			return (::System::Comparison_1<::MoleMole::UIHandBookManualWidgetController_TabItem*>**)Il2CppClass::FromTypeDefinitionIndex(UIHandBookManualWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x450B0);
+		}
+		static ::System::Action_1<::System::Int32>** StaticGet___9__21_0()
+		{
+			return (::System::Action_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIHandBookManualWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x450B8);
 		}
 		static ::MoleMole::UIHandBookManualWidgetController___c** StaticGet___9()
 		{
-			return (::MoleMole::UIHandBookManualWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIHandBookManualWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x49F90);
+			return (::MoleMole::UIHandBookManualWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIHandBookManualWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x450C0);
 		}
 
 		static ::System::Void _cctor()

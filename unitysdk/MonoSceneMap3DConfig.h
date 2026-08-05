@@ -30,93 +30,97 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class MeshRenderer; }
 
-#define MONOSCENEMAP3DCONFIG_ADDSCENEMAPFOGITEM_OFFSET UNITYSDK_OFFSET(0x11BF5040)
-#define MONOSCENEMAP3DCONFIG_CREATELIFT_OFFSET UNITYSDK_OFFSET(0x11BF0280)
-#define MONOSCENEMAP3DCONFIG_GENERATEBOTTOM_OFFSET UNITYSDK_OFFSET(0x11BEFBF0)
-#define MONOSCENEMAP3DCONFIG_GENERATEOUTLINE_OFFSET UNITYSDK_OFFSET(0x11BF3A30)
-#define MONOSCENEMAP3DCONFIG_GETMAPBOUNDS_OFFSET UNITYSDK_OFFSET(0x11BEF8B0)
-#define MONOSCENEMAP3DCONFIG_GETVIRTUALMAPCONFIG_OFFSET UNITYSDK_OFFSET(0x11BF1030)
-#define MONOSCENEMAP3DCONFIG_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x11BF62F0)
-#define MONOSCENEMAP3DCONFIG_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x11BF5E30)
-#define MONOSCENEMAP3DCONFIG_ONENABLE_OFFSET UNITYSDK_OFFSET(0x11BF0A00)
-#define MONOSCENEMAP3DCONFIG_PLAYCHANGELAYERANIMATION_OFFSET UNITYSDK_OFFSET(0x11BF6080)
-#define MONOSCENEMAP3DCONFIG_PUSHFOGITEMDATATOGPU_OFFSET UNITYSDK_OFFSET(0x11BF3F60)
-#define MONOSCENEMAP3DCONFIG_REFRESHCHARACTERARROWMATOCCLUSION_OFFSET UNITYSDK_OFFSET(0x11BF44D0)
-#define MONOSCENEMAP3DCONFIG_REFRESHCOLORBOX_OFFSET UNITYSDK_OFFSET(0x11BF2FC0)
-#define MONOSCENEMAP3DCONFIG_REFRESHFONT_OFFSET UNITYSDK_OFFSET(0x11BF1320)
-#define MONOSCENEMAP3DCONFIG_REFRESHLIFTLAYER_OFFSET UNITYSDK_OFFSET(0x11BF0880)
-#define MONOSCENEMAP3DCONFIG_REFRESHLIGHT_OFFSET UNITYSDK_OFFSET(0x11BF1DA0)
-#define MONOSCENEMAP3DCONFIG_REMOVESCENEMAPFOGITEM_OFFSET UNITYSDK_OFFSET(0x11BF5160)
-#define MONOSCENEMAP3DCONFIG_SETCURRENTLAYERCENTERANDHEIGHT_OFFSET UNITYSDK_OFFSET(0x11BF4820)
-#define MONOSCENEMAP3DCONFIG_TESTBOTTOM_OFFSET UNITYSDK_OFFSET(0x11BEF850)
-#define MONOSCENEMAP3DCONFIG_UPDATE_OFFSET UNITYSDK_OFFSET(0x11BF5200)
-#define MONOSCENEMAP3DCONFIG__CCTOR_OFFSET UNITYSDK_OFFSET(0x11BF6830)
-#define MONOSCENEMAP3DCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x11BF64A0)
+#define MONOSCENEMAP3DCONFIG_ADDSCENEMAPFOGITEM_OFFSET UNITYSDK_OFFSET(0x12B2CD00)
+#define MONOSCENEMAP3DCONFIG_CREATELIFT_OFFSET UNITYSDK_OFFSET(0x12B27EE0)
+#define MONOSCENEMAP3DCONFIG_GENERATEBOTTOM_OFFSET UNITYSDK_OFFSET(0x12B27830)
+#define MONOSCENEMAP3DCONFIG_GENERATEOUTLINE_OFFSET UNITYSDK_OFFSET(0x12B2B6A0)
+#define MONOSCENEMAP3DCONFIG_GETMAPBOUNDS_OFFSET UNITYSDK_OFFSET(0x12B274F0)
+#define MONOSCENEMAP3DCONFIG_GETVIRTUALMAPCONFIG_OFFSET UNITYSDK_OFFSET(0x12B28CA0)
+#define MONOSCENEMAP3DCONFIG_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x12B2DFE0)
+#define MONOSCENEMAP3DCONFIG_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x12B2DB00)
+#define MONOSCENEMAP3DCONFIG_ONENABLE_OFFSET UNITYSDK_OFFSET(0x12B28660)
+#define MONOSCENEMAP3DCONFIG_PLAYCHANGELAYERANIMATION_OFFSET UNITYSDK_OFFSET(0x12B2DD70)
+#define MONOSCENEMAP3DCONFIG_PUSHFOGITEMDATATOGPU_OFFSET UNITYSDK_OFFSET(0x12B2BBD0)
+#define MONOSCENEMAP3DCONFIG_REFRESHCHARACTERARROWMATOCCLUSION_OFFSET UNITYSDK_OFFSET(0x12B2C150)
+#define MONOSCENEMAP3DCONFIG_REFRESHCOLORBOX_OFFSET UNITYSDK_OFFSET(0x12B2AC30)
+#define MONOSCENEMAP3DCONFIG_REFRESHFONT_OFFSET UNITYSDK_OFFSET(0x12B28F90)
+#define MONOSCENEMAP3DCONFIG_REFRESHLIFTLAYER_OFFSET UNITYSDK_OFFSET(0x12B284E0)
+#define MONOSCENEMAP3DCONFIG_REFRESHLIGHT_OFFSET UNITYSDK_OFFSET(0x12B29A10)
+#define MONOSCENEMAP3DCONFIG_REMOVESCENEMAPFOGITEM_OFFSET UNITYSDK_OFFSET(0x12B2CE20)
+#define MONOSCENEMAP3DCONFIG_SETCURRENTLAYERCENTERANDHEIGHT_OFFSET UNITYSDK_OFFSET(0x12B2C4C0)
+#define MONOSCENEMAP3DCONFIG_TESTBOTTOM_OFFSET UNITYSDK_OFFSET(0x12B27490)
+#define MONOSCENEMAP3DCONFIG_UPDATE_OFFSET UNITYSDK_OFFSET(0x12B2CEC0)
+#define MONOSCENEMAP3DCONFIG__CCTOR_OFFSET UNITYSDK_OFFSET(0x12B2E540)
+#define MONOSCENEMAP3DCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x12B2E190)
 
-inline static constexpr unsigned int MonoSceneMap3DConfig_TypeDefinitionIndex = 40574;
+inline static constexpr unsigned int MonoSceneMap3DConfig_TypeDefinitionIndex = 50691;
 
 class MonoSceneMap3DConfig : public ::UnityEngine::MonoBehaviour
 {
 public:
-	static ::System::Int32* StaticGet__FogItems()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoSceneMap3DConfig_TypeDefinitionIndex)->GetStaticField(0x10400);
-	}
-	static ::System::Int32* StaticGet__EnableFarOutlineFix()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoSceneMap3DConfig_TypeDefinitionIndex)->GetStaticField(0x10404);
-	}
-	static ::System::Int32* StaticGet__BoundsCenter()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoSceneMap3DConfig_TypeDefinitionIndex)->GetStaticField(0x10408);
-	}
-	static ::System::Int32* StaticGet__GridOffset()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoSceneMap3DConfig_TypeDefinitionIndex)->GetStaticField(0x1040C);
-	}
-	static ::System::Int32* StaticGet__RotateAngle()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoSceneMap3DConfig_TypeDefinitionIndex)->GetStaticField(0x10410);
-	}
-	static ::System::Int32* StaticGet__CircleOffset()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoSceneMap3DConfig_TypeDefinitionIndex)->GetStaticField(0x10414);
-	}
-	static ::System::Int32* StaticGet__Map3DColorBoxSizeDatas()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoSceneMap3DConfig_TypeDefinitionIndex)->GetStaticField(0x10418);
-	}
-	static ::System::Int32* StaticGet__CameraDitherAlphaAndCharacterPos()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoSceneMap3DConfig_TypeDefinitionIndex)->GetStaticField(0x1041C);
-	}
-	static ::System::Int32* StaticGet__FogItemCount()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoSceneMap3DConfig_TypeDefinitionIndex)->GetStaticField(0x10420);
-	}
-	static ::System::Int32* StaticGet__Map3DColorBoxCount()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoSceneMap3DConfig_TypeDefinitionIndex)->GetStaticField(0x10424);
-	}
-	static ::System::Int32* StaticGet__DisableOcclusionColor()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoSceneMap3DConfig_TypeDefinitionIndex)->GetStaticField(0x10428);
-	}
 	static ::System::Int32* StaticGet__RotateCenter()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoSceneMap3DConfig_TypeDefinitionIndex)->GetStaticField(0x1042C);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoSceneMap3DConfig_TypeDefinitionIndex)->GetStaticField(0x108D0);
 	}
-	static ::System::Int32* StaticGet__Map3DColorBoxColorData()
+	static ::System::Int32* StaticGet__LocalCameraDitherAlphaAndCharacterPos()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoSceneMap3DConfig_TypeDefinitionIndex)->GetStaticField(0x10430);
-	}
-	static ::System::Int32* StaticGet__GridTilling()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoSceneMap3DConfig_TypeDefinitionIndex)->GetStaticField(0x10434);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoSceneMap3DConfig_TypeDefinitionIndex)->GetStaticField(0x108D4);
 	}
 	static ::System::Int32* StaticGet__BoundsSize()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoSceneMap3DConfig_TypeDefinitionIndex)->GetStaticField(0x10438);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoSceneMap3DConfig_TypeDefinitionIndex)->GetStaticField(0x108D8);
+	}
+	static ::System::Int32* StaticGet__Map3DColorBoxColorData()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoSceneMap3DConfig_TypeDefinitionIndex)->GetStaticField(0x108DC);
+	}
+	static ::System::Int32* StaticGet__GridTilling()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoSceneMap3DConfig_TypeDefinitionIndex)->GetStaticField(0x108E0);
+	}
+	static ::System::Int32* StaticGet__Map3DColorBoxCount()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoSceneMap3DConfig_TypeDefinitionIndex)->GetStaticField(0x108E4);
+	}
+	static ::System::Int32* StaticGet__Map3DColorBoxSizeDatas()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoSceneMap3DConfig_TypeDefinitionIndex)->GetStaticField(0x108E8);
+	}
+	static ::System::Int32* StaticGet__FogItemCount()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoSceneMap3DConfig_TypeDefinitionIndex)->GetStaticField(0x108EC);
+	}
+	static ::System::Int32* StaticGet__GridOffset()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoSceneMap3DConfig_TypeDefinitionIndex)->GetStaticField(0x108F0);
+	}
+	static ::System::Int32* StaticGet__EnableFarOutlineFix()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoSceneMap3DConfig_TypeDefinitionIndex)->GetStaticField(0x108F4);
+	}
+	static ::System::Int32* StaticGet__CircleOffset()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoSceneMap3DConfig_TypeDefinitionIndex)->GetStaticField(0x108F8);
+	}
+	static ::System::Int32* StaticGet__DisableOcclusionColor()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoSceneMap3DConfig_TypeDefinitionIndex)->GetStaticField(0x108FC);
+	}
+	static ::System::Int32* StaticGet__CameraDitherAlphaAndCharacterPos()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoSceneMap3DConfig_TypeDefinitionIndex)->GetStaticField(0x10900);
+	}
+	static ::System::Int32* StaticGet__RotateAngle()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoSceneMap3DConfig_TypeDefinitionIndex)->GetStaticField(0x10904);
+	}
+	static ::System::Int32* StaticGet__FogItems()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoSceneMap3DConfig_TypeDefinitionIndex)->GetStaticField(0x10908);
+	}
+	static ::System::Int32* StaticGet__BoundsCenter()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoSceneMap3DConfig_TypeDefinitionIndex)->GetStaticField(0x1090C);
 	}
 	// static const ::System::Int32 MAX_FOG_ITEM_COUNT = 0xA; // 0x0
 	::NapSceneMap3DConfig* m_SceneMap3DConfig; // 0x18
@@ -133,39 +137,41 @@ public:
 	::Il2CppArray<::UnityEngine::MeshRenderer*>* CullRenderList; // 0x68
 	::System::Boolean EnableLayerClipOverride; // 0x70
 	::System::Single LayerClipYOffsetOverride; // 0x74
-	::UnityEngine::MaterialPropertyBlock* m_PropertyBlock; // 0x78
-	::UnityEngine::MaterialPropertyBlock* m_BottomPropertyBlock; // 0x80
-	::UnityEngine::ComputeBuffer* m_FogItemDataForGPU; // 0x88
-	::Il2CppArray<::MonoSceneMap3DConfig_URPFogItemData>* m_FogItemDataForCPU; // 0x90
-	::System::Collections::Generic::List_1<::MoleMole::MapChangeLayerSwitchConfig*>* EnableCameraChangeLayer; // 0x98
-	::Il2CppArray<::MoleMole::MapChangeLayerConfig*>* CameraChangeLayerPoints; // 0xA0
-	::MoleMole::Cameras::CameraTrackBlending* _cameraChangeLayerRadiusDuration; // 0xA8
-	::System::Single _cameraChangeLayerMoveDelay; // 0xB0
-	::MoleMole::Cameras::CameraTrackBlending* _cameraChangeLayerMoveDuration; // 0xB8
-	::System::String* _cameraChangeLayerMoveGlichKey; // 0xC0
-	::System::Single _cameraChangeLayerShowIconDelay; // 0xC8
-	::System::Single _cameraChangeLayerMoveFocusDelay; // 0xCC
-	::MoleMole::Cameras::CameraTrackBlending* _cameraChangeLayerMoveFocusDuration; // 0xD0
-	::System::Boolean KeepCameraRotation; // 0xD8
-	::MonoSceneMap3DFogAnimationConfig* m_FogAnimationConfig; // 0xE0
-	::UnityEngine::Bounds customMapBounds; // 0xE8
-	::System::Collections::Generic::List_1<::MonoSceneMap3DBlockDitherProxy*>* blockColliders; // 0x100
-	::Il2CppArray<::UnityEngine::Vector4>* colorBoxSizeData; // 0x108
-	::Il2CppArray<::UnityEngine::Vector4>* colorBoxColorData; // 0x110
-	::MoleMole::Config::SceneMap3DVisualConfig* m_VisualConfigs; // 0x118
-	::MoleMole::Config::Map3DVisualConfigItem* m_MapConfig; // 0x120
-	::System::String* m_VisualConfigKey; // 0x128
-	::UnityEngine::Vector4 m_LayerSize; // 0x130
-	::UnityEngine::Vector4 m_LayerCenterAndHeight; // 0x140
-	::System::Single m_LayerClipYOffset; // 0x150
-	::System::Collections::Generic::HashSet_1<::Map3DFogItem*>* fogItems; // 0x158
-	::System::Collections::Generic::List_1<::Map3DFogItem*>* removedList; // 0x160
-	::System::Boolean needChangeLayerFlick; // 0x168
-	::UnityEngine::AnimationCurve* changeLayerFlickCurve; // 0x170
-	::System::Single changeLayerFlickCurveLength; // 0x178
-	::Il2CppArray<::ChangeLayerFlickHolder*>* changeLayerFlickLayerHolder; // 0x180
-	::Map3DFogItem* testFogItem; // 0x188
-	::UnityEngine::MeshRenderer* bottomMeshRenderer; // 0x190
+	::UnityEngine::Vector3 LayerClipExSize; // 0x78
+	::UnityEngine::MaterialPropertyBlock* m_PropertyBlock; // 0x88
+	::UnityEngine::MaterialPropertyBlock* m_BottomPropertyBlock; // 0x90
+	::UnityEngine::ComputeBuffer* m_FogItemDataForGPU; // 0x98
+	::Il2CppArray<::MonoSceneMap3DConfig_URPFogItemData>* m_FogItemDataForCPU; // 0xA0
+	::System::Collections::Generic::List_1<::MoleMole::MapChangeLayerSwitchConfig*>* EnableCameraChangeLayer; // 0xA8
+	::Il2CppArray<::MoleMole::MapChangeLayerConfig*>* CameraChangeLayerPoints; // 0xB0
+	::MoleMole::Cameras::CameraTrackBlending* _cameraChangeLayerRadiusDuration; // 0xB8
+	::System::Single _cameraChangeLayerMoveDelay; // 0xC0
+	::MoleMole::Cameras::CameraTrackBlending* _cameraChangeLayerMoveDuration; // 0xC8
+	::System::String* _cameraChangeLayerMoveGlichKey; // 0xD0
+	::System::Single _cameraChangeLayerShowIconDelay; // 0xD8
+	::System::Single _cameraChangeLayerMoveFocusDelay; // 0xDC
+	::MoleMole::Cameras::CameraTrackBlending* _cameraChangeLayerMoveFocusDuration; // 0xE0
+	::System::Boolean KeepCameraRotation; // 0xE8
+	::MonoSceneMap3DFogAnimationConfig* m_FogAnimationConfig; // 0xF0
+	::UnityEngine::Bounds customMapBounds; // 0xF8
+	::System::Collections::Generic::List_1<::MonoSceneMap3DBlockDitherProxy*>* blockColliders; // 0x110
+	::System::Boolean enableCameraDither; // 0x118
+	::Il2CppArray<::UnityEngine::Vector4>* colorBoxSizeData; // 0x120
+	::Il2CppArray<::UnityEngine::Vector4>* colorBoxColorData; // 0x128
+	::MoleMole::Config::SceneMap3DVisualConfig* m_VisualConfigs; // 0x130
+	::MoleMole::Config::Map3DVisualConfigItem* m_MapConfig; // 0x138
+	::System::String* m_VisualConfigKey; // 0x140
+	::UnityEngine::Vector4 m_LayerSize; // 0x148
+	::UnityEngine::Vector4 m_LayerCenterAndHeight; // 0x158
+	::System::Single m_LayerClipYOffset; // 0x168
+	::System::Collections::Generic::HashSet_1<::Map3DFogItem*>* fogItems; // 0x170
+	::System::Collections::Generic::List_1<::Map3DFogItem*>* removedList; // 0x178
+	::System::Boolean needChangeLayerFlick; // 0x180
+	::UnityEngine::AnimationCurve* changeLayerFlickCurve; // 0x188
+	::System::Single changeLayerFlickCurveLength; // 0x190
+	::Il2CppArray<::ChangeLayerFlickHolder*>* changeLayerFlickLayerHolder; // 0x198
+	::Map3DFogItem* testFogItem; // 0x1A0
+	::UnityEngine::MeshRenderer* bottomMeshRenderer; // 0x1A8
 
 	::System::Void _ctor()
 	{

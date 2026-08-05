@@ -6,7 +6,7 @@ namespace UnityEngine { class Transform; }
 
 namespace miHoYoEmotion
 {
-	inline static constexpr unsigned int EyeKey___c__DisplayClass94_0_TypeDefinitionIndex = 39366;
+	inline static constexpr unsigned int EyeKey___c__DisplayClass94_0_TypeDefinitionIndex = 40078;
 
 	struct alignas(8) EyeKey___c__DisplayClass94_0
 	{

@@ -1,0 +1,165 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Enum_3_3EDF246633A325B0.h"
+#include "unitysdk/MoleMole/UIWindowController.h"
+
+class Class_2_0F6690D7DB3D7B5C;
+class Class_2_AF5BA1C65F12F4B1;
+namespace MoleMole { class UIControlReference; }
+namespace MoleMole { class UIControllerContextBase; }
+namespace MoleMole { class UIZenkovDetailDialogPopWindowController_AffixGroup; }
+namespace MoleMole { class UIZenkovSkillLvRowWidgetController; }
+namespace MoleMole { class UIZenkovSkillLvTabBtnWidgetController; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define MOLEMOLE_UIZENKOVDETAILDIALOGPOPWINDOWCONTROLLER_BUILDAFFIXGROUPS_OFFSET UNITYSDK_OFFSET(0x191A1B80)
+#define MOLEMOLE_UIZENKOVDETAILDIALOGPOPWINDOWCONTROLLER_GET_WINDOWTYPE_OFFSET UNITYSDK_OFFSET(0x191A2730)
+#define MOLEMOLE_UIZENKOVDETAILDIALOGPOPWINDOWCONTROLLER_INITLVBTN_OFFSET UNITYSDK_OFFSET(0x191A2FE0)
+#define MOLEMOLE_UIZENKOVDETAILDIALOGPOPWINDOWCONTROLLER_INITSKILLBTNWIDGETS_OFFSET UNITYSDK_OFFSET(0x191A2C30)
+#define MOLEMOLE_UIZENKOVDETAILDIALOGPOPWINDOWCONTROLLER_LOADDATA_OFFSET UNITYSDK_OFFSET(0x191A2BD0)
+#define MOLEMOLE_UIZENKOVDETAILDIALOGPOPWINDOWCONTROLLER_ONCLICKCLOSE_OFFSET UNITYSDK_OFFSET(0x191A3F20)
+#define MOLEMOLE_UIZENKOVDETAILDIALOGPOPWINDOWCONTROLLER_ONCLICKLEFTITEM_OFFSET UNITYSDK_OFFSET(0x191A3F70)
+#define MOLEMOLE_UIZENKOVDETAILDIALOGPOPWINDOWCONTROLLER_ONCLICKLVTAB_OFFSET UNITYSDK_OFFSET(0x191A3FC0)
+#define MOLEMOLE_UIZENKOVDETAILDIALOGPOPWINDOWCONTROLLER_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x191A3290)
+#define MOLEMOLE_UIZENKOVDETAILDIALOGPOPWINDOWCONTROLLER_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x191A3450)
+#define MOLEMOLE_UIZENKOVDETAILDIALOGPOPWINDOWCONTROLLER_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x191A2740)
+#define MOLEMOLE_UIZENKOVDETAILDIALOGPOPWINDOWCONTROLLER_ONUIOPEN_OFFSET UNITYSDK_OFFSET(0x191A2A50)
+#define MOLEMOLE_UIZENKOVDETAILDIALOGPOPWINDOWCONTROLLER_REFRESHLEFTITEMSELECTSTATE_OFFSET UNITYSDK_OFFSET(0x191A3A40)
+#define MOLEMOLE_UIZENKOVDETAILDIALOGPOPWINDOWCONTROLLER_REFRESHLEFTSCROLLVIEWGAMEPADGRID_OFFSET UNITYSDK_OFFSET(0x191A3B70)
+#define MOLEMOLE_UIZENKOVDETAILDIALOGPOPWINDOWCONTROLLER_REFRESHSKILLLVROWS_OFFSET UNITYSDK_OFFSET(0x191A34D0)
+#define MOLEMOLE_UIZENKOVDETAILDIALOGPOPWINDOWCONTROLLER_REFRESHTALENTDESC_OFFSET UNITYSDK_OFFSET(0x191A3970)
+#define MOLEMOLE_UIZENKOVDETAILDIALOGPOPWINDOWCONTROLLER_SELECTTALENT_OFFSET UNITYSDK_OFFSET(0x191A3060)
+#define MOLEMOLE_UIZENKOVDETAILDIALOGPOPWINDOWCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x191A4270)
+#define MOLEMOLE_UIZENKOVDETAILDIALOGPOPWINDOWCONTROLLER___BASE_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x191A4300)
+#define MOLEMOLE_UIZENKOVDETAILDIALOGPOPWINDOWCONTROLLER___BASE_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x191A4390)
+#define MOLEMOLE_UIZENKOVDETAILDIALOGPOPWINDOWCONTROLLER___BASE_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x191A43A0)
+#define MOLEMOLE_UIZENKOVDETAILDIALOGPOPWINDOWCONTROLLER___BASE_ONUIOPEN_OFFSET UNITYSDK_OFFSET(0x191A43B0)
+
+namespace MoleMole
+{
+	inline static constexpr unsigned int UIZenkovDetailDialogPopWindowController_TypeDefinitionIndex = 63875;
+
+	class UIZenkovDetailDialogPopWindowController : public ::MoleMole::UIWindowController
+	{
+	public:
+		// static const ::System::Int32 TALENT_NUM = 0x8; // 0x0
+		::Class_2_0F6690D7DB3D7B5C* _view; // 0x318
+		::System::Int32 _productId; // 0x320
+		::Class_2_AF5BA1C65F12F4B1* _zenkovModel; // 0x328
+		::System::Collections::Generic::List_1<::MoleMole::UIZenkovDetailDialogPopWindowController_AffixGroup*>* _affixGroups; // 0x330
+		::System::Int32 _selectedAffixIndex; // 0x338
+		::System::Int32 _selectedLevelIndex; // 0x33C
+		::System::Collections::Generic::List_1<::MoleMole::UIZenkovSkillLvTabBtnWidgetController*>* _skillBtnWidgets; // 0x340
+		::System::Collections::Generic::List_1<::MoleMole::UIZenkovSkillLvRowWidgetController*>* _skillLvRowWidgets; // 0x348
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVDETAILDIALOGPOPWINDOWCONTROLLER__CTOR_OFFSET))(this);
+		}
+
+		static ::System::Collections::Generic::List_1<::MoleMole::UIZenkovDetailDialogPopWindowController_AffixGroup*>* BuildAffixGroups(::System::Int32 productId)
+		{
+			return ((::System::Collections::Generic::List_1<::MoleMole::UIZenkovDetailDialogPopWindowController_AffixGroup*>*(*)(::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVDETAILDIALOGPOPWINDOWCONTROLLER_BUILDAFFIXGROUPS_OFFSET))(productId);
+		}
+
+		::Enum_3_3EDF246633A325B0 get_windowType()
+		{
+			return ((::Enum_3_3EDF246633A325B0(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVDETAILDIALOGPOPWINDOWCONTROLLER_GET_WINDOWTYPE_OFFSET))(this);
+		}
+
+		::System::Void OnUIInit()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVDETAILDIALOGPOPWINDOWCONTROLLER_ONUIINIT_OFFSET))(this);
+		}
+
+		::System::Void OnUIOpen(::MoleMole::UIControllerContextBase* openCtrlContext)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVDETAILDIALOGPOPWINDOWCONTROLLER_ONUIOPEN_OFFSET))(this, openCtrlContext);
+		}
+
+		::System::Void OnCreateView(::MoleMole::UIControlReference* controlReference)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVDETAILDIALOGPOPWINDOWCONTROLLER_ONCREATEVIEW_OFFSET))(this, controlReference);
+		}
+
+		::System::Void OnUIDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVDETAILDIALOGPOPWINDOWCONTROLLER_ONUIDESTROY_OFFSET))(this);
+		}
+
+		::System::Void LoadData(::System::Int32 productId)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVDETAILDIALOGPOPWINDOWCONTROLLER_LOADDATA_OFFSET))(this, productId);
+		}
+
+		::System::Void InitSkillBtnWidgets()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVDETAILDIALOGPOPWINDOWCONTROLLER_INITSKILLBTNWIDGETS_OFFSET))(this);
+		}
+
+		::System::Void InitLvBtn()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVDETAILDIALOGPOPWINDOWCONTROLLER_INITLVBTN_OFFSET))(this);
+		}
+
+		::System::Void RefreshTalentDesc()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVDETAILDIALOGPOPWINDOWCONTROLLER_REFRESHTALENTDESC_OFFSET))(this);
+		}
+
+		::System::Void RefreshSkillLvRows()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVDETAILDIALOGPOPWINDOWCONTROLLER_REFRESHSKILLLVROWS_OFFSET))(this);
+		}
+
+		::System::Void RefreshLeftItemSelectState()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVDETAILDIALOGPOPWINDOWCONTROLLER_REFRESHLEFTITEMSELECTSTATE_OFFSET))(this);
+		}
+
+		::System::Void RefreshLeftScrollViewGamepadGrid()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVDETAILDIALOGPOPWINDOWCONTROLLER_REFRESHLEFTSCROLLVIEWGAMEPADGRID_OFFSET))(this);
+		}
+
+		::System::Void OnClickClose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVDETAILDIALOGPOPWINDOWCONTROLLER_ONCLICKCLOSE_OFFSET))(this);
+		}
+
+		::System::Void OnClickLeftItem(::System::Int32 index)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVDETAILDIALOGPOPWINDOWCONTROLLER_ONCLICKLEFTITEM_OFFSET))(this, index);
+		}
+
+		::System::Void OnClickLvTab(::System::Int32 key)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVDETAILDIALOGPOPWINDOWCONTROLLER_ONCLICKLVTAB_OFFSET))(this, key);
+		}
+
+		::System::Void SelectTalent(::System::Int32 talentIndex)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVDETAILDIALOGPOPWINDOWCONTROLLER_SELECTTALENT_OFFSET))(this, talentIndex);
+		}
+
+		::System::Void __base_OnCreateView(::MoleMole::UIControlReference* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVDETAILDIALOGPOPWINDOWCONTROLLER___BASE_ONCREATEVIEW_OFFSET))(this, P0);
+		}
+
+		::System::Void __base_OnUIDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVDETAILDIALOGPOPWINDOWCONTROLLER___BASE_ONUIDESTROY_OFFSET))(this);
+		}
+
+		::System::Void __base_OnUIInit()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVDETAILDIALOGPOPWINDOWCONTROLLER___BASE_ONUIINIT_OFFSET))(this);
+		}
+
+		::System::Void __base_OnUIOpen(::MoleMole::UIControllerContextBase* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVDETAILDIALOGPOPWINDOWCONTROLLER___BASE_ONUIOPEN_OFFSET))(this, P0);
+		}
+	};
+}

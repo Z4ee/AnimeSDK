@@ -5,10 +5,10 @@
 
 namespace System { class String; }
 
-inline static constexpr unsigned int Class_1_F39C9440AA049134_Struct_2_40EBF0D7256C0D80_TypeDefinitionIndex = 71818;
+inline static constexpr unsigned int Class_1_F39C9440AA049134_Struct_2_40EBF0D7256C0D80_TypeDefinitionIndex = 81451;
 
 struct alignas(8) Class_1_F39C9440AA049134_Struct_2_40EBF0D7256C0D80
 {
-	::System::String* Field_2_0; // 0x10
-	::UnityEngine::Color Field_2_1; // 0x18
+	::System::String* Field_2_1; // 0x10
+	::UnityEngine::Color Field_2_0; // 0x18
 };

@@ -7,12 +7,12 @@ namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 
-#define MIHOYO_SDK_MMTMANAGER___C__DISPLAYCLASS13_0__CREATEMMT_B__0_OFFSET UNITYSDK_OFFSET(0x1A9974C0)
-#define MIHOYO_SDK_MMTMANAGER___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A9974B0)
+#define MIHOYO_SDK_MMTMANAGER___C__DISPLAYCLASS13_0__CREATEMMT_B__0_OFFSET UNITYSDK_OFFSET(0x1BDCDDA0)
+#define MIHOYO_SDK_MMTMANAGER___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDCDD90)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MmtManager___c__DisplayClass13_0_TypeDefinitionIndex = 19799;
+	inline static constexpr unsigned int MmtManager___c__DisplayClass13_0_TypeDefinitionIndex = 20147;
 
 	class MmtManager___c__DisplayClass13_0 : public ::System::Object
 	{

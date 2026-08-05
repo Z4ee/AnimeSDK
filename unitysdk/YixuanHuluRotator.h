@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define YIXUANHULUROTATOR_UPDATE_OFFSET UNITYSDK_OFFSET(0x1E57DAE0)
-#define YIXUANHULUROTATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1E57E0D0)
+#define YIXUANHULUROTATOR_UPDATE_OFFSET UNITYSDK_OFFSET(0x1F96F760)
+#define YIXUANHULUROTATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1F96FD70)
 
-inline static constexpr unsigned int YixuanHuluRotator_TypeDefinitionIndex = 38048;
+inline static constexpr unsigned int YixuanHuluRotator_TypeDefinitionIndex = 38709;
 
 class YixuanHuluRotator : public ::UnityEngine::MonoBehaviour
 {

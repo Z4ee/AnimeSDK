@@ -10,7 +10,7 @@ namespace ZXing::Common { class BitMatrix; }
 
 namespace ZXing
 {
-	inline static constexpr unsigned int Writer_TypeDefinitionIndex = 19094;
+	inline static constexpr unsigned int Writer_TypeDefinitionIndex = 19439;
 
 	class Writer
 	{

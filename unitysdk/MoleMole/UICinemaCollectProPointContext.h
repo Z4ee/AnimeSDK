@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_1_C31F776B3FE6F486_1;
+class Class_1_C31F776B3FE6F486;
 namespace MoleMole { class UICinemaCollectPageController; }
 
-#define MOLEMOLE_UICINEMACOLLECTPROPOINTCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x19D9D160)
+#define MOLEMOLE_UICINEMACOLLECTPROPOINTCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x19A9D590)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICinemaCollectProPointContext_TypeDefinitionIndex = 53293;
+	inline static constexpr unsigned int UICinemaCollectProPointContext_TypeDefinitionIndex = 62249;
 
 	class UICinemaCollectProPointContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
 		::MoleMole::UICinemaCollectPageController* collectPage; // 0x28
-		::Class_1_C31F776B3FE6F486_1* rewardData; // 0x30
+		::Class_1_C31F776B3FE6F486* rewardData; // 0x30
 
 		::System::Void _ctor()
 		{

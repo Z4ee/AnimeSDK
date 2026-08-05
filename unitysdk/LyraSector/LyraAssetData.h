@@ -3,11 +3,11 @@
 #include "unitysdk/UnityEngine/CompressionType.h"
 #include "unitysdk/UnityEngine/ScriptableObject.h"
 
-#define LYRASECTOR_LYRAASSETDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1C997020)
+#define LYRASECTOR_LYRAASSETDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1DDF3720)
 
 namespace LyraSector
 {
-	inline static constexpr unsigned int LyraAssetData_TypeDefinitionIndex = 26720;
+	inline static constexpr unsigned int LyraAssetData_TypeDefinitionIndex = 27135;
 
 	class LyraAssetData : public ::UnityEngine::ScriptableObject
 	{

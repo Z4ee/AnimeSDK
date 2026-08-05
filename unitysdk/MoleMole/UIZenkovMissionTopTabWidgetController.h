@@ -1,0 +1,86 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Enum_3_A68785F6A7B435D9.h"
+#include "unitysdk/MoleMole/UIWidgetController.h"
+#include "unitysdk/Struct_2_575273D27F02957E.h"
+
+class Class_2_A1969E767B7B3807;
+namespace MoleMole { class UIControlReference; }
+namespace MoleMole { class UIControllerContextBase; }
+template <typename T> class Class_0_16E4307DCC419505_164;
+
+#define MOLEMOLE_UIZENKOVMISSIONTOPTABWIDGETCONTROLLER_GET_ISLOCKED_OFFSET UNITYSDK_OFFSET(0x12E6E450)
+#define MOLEMOLE_UIZENKOVMISSIONTOPTABWIDGETCONTROLLER_GET_UNLOCKTYPE_OFFSET UNITYSDK_OFFSET(0x12E6E4C0)
+#define MOLEMOLE_UIZENKOVMISSIONTOPTABWIDGETCONTROLLER_GET__VIEWMODEL_OFFSET UNITYSDK_OFFSET(0x12E6E3E0)
+#define MOLEMOLE_UIZENKOVMISSIONTOPTABWIDGETCONTROLLER_KEEPREDSIGNONCE_OFFSET UNITYSDK_OFFSET(0x12E6E850)
+#define MOLEMOLE_UIZENKOVMISSIONTOPTABWIDGETCONTROLLER_ONCREATEVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x12E6E530)
+#define MOLEMOLE_UIZENKOVMISSIONTOPTABWIDGETCONTROLLER_ONSHOW_OFFSET UNITYSDK_OFFSET(0x12E6E5D0)
+#define MOLEMOLE_UIZENKOVMISSIONTOPTABWIDGETCONTROLLER_REFRESHCROPSTATE_OFFSET UNITYSDK_OFFSET(0x12E6E8F0)
+#define MOLEMOLE_UIZENKOVMISSIONTOPTABWIDGETCONTROLLER_SETCONTEXT_OFFSET UNITYSDK_OFFSET(0x12E6E620)
+#define MOLEMOLE_UIZENKOVMISSIONTOPTABWIDGETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x12E6EBF0)
+#define MOLEMOLE_UIZENKOVMISSIONTOPTABWIDGETCONTROLLER___BASE_ONCREATEVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x12E6EC50)
+#define MOLEMOLE_UIZENKOVMISSIONTOPTABWIDGETCONTROLLER___BASE_ONSHOW_OFFSET UNITYSDK_OFFSET(0x12E6ECF0)
+
+namespace MoleMole
+{
+	inline static constexpr unsigned int UIZenkovMissionTopTabWidgetController_TypeDefinitionIndex = 44554;
+
+	class UIZenkovMissionTopTabWidgetController : public ::MoleMole::UIWidgetController
+	{
+	public:
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVMISSIONTOPTABWIDGETCONTROLLER__CTOR_OFFSET))(this);
+		}
+
+		::Class_2_A1969E767B7B3807* get__viewModel()
+		{
+			return ((::Class_2_A1969E767B7B3807*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVMISSIONTOPTABWIDGETCONTROLLER_GET__VIEWMODEL_OFFSET))(this);
+		}
+
+		::Class_0_16E4307DCC419505_164<::System::Boolean>* get_IsLocked()
+		{
+			return ((::Class_0_16E4307DCC419505_164<::System::Boolean>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVMISSIONTOPTABWIDGETCONTROLLER_GET_ISLOCKED_OFFSET))(this);
+		}
+
+		::Enum_3_A68785F6A7B435D9 get_UnlockType()
+		{
+			return ((::Enum_3_A68785F6A7B435D9(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVMISSIONTOPTABWIDGETCONTROLLER_GET_UNLOCKTYPE_OFFSET))(this);
+		}
+
+		::System::Void OnCreateViewModel(::Struct_2_575273D27F02957E& binderInfo, ::MoleMole::UIControlReference* controlReference)
+		{
+			return ((::System::Void(*)(::PVOID, ::Struct_2_575273D27F02957E&, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVMISSIONTOPTABWIDGETCONTROLLER_ONCREATEVIEWMODEL_OFFSET))(this, binderInfo, controlReference);
+		}
+
+		::System::Void OnShow(::MoleMole::UIControllerContextBase* showCtrlContext)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVMISSIONTOPTABWIDGETCONTROLLER_ONSHOW_OFFSET))(this, showCtrlContext);
+		}
+
+		::System::Void SetContext(::MoleMole::UIControllerContextBase* newContext)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVMISSIONTOPTABWIDGETCONTROLLER_SETCONTEXT_OFFSET))(this, newContext);
+		}
+
+		::System::Void KeepRedSignOnce()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVMISSIONTOPTABWIDGETCONTROLLER_KEEPREDSIGNONCE_OFFSET))(this);
+		}
+
+		::System::Void RefreshCropState()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVMISSIONTOPTABWIDGETCONTROLLER_REFRESHCROPSTATE_OFFSET))(this);
+		}
+
+		::System::Void __base_OnCreateViewModel(::Struct_2_575273D27F02957E& P0, ::MoleMole::UIControlReference* P1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Struct_2_575273D27F02957E&, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVMISSIONTOPTABWIDGETCONTROLLER___BASE_ONCREATEVIEWMODEL_OFFSET))(this, P0, P1);
+		}
+
+		::System::Void __base_OnShow(::MoleMole::UIControllerContextBase* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVMISSIONTOPTABWIDGETCONTROLLER___BASE_ONSHOW_OFFSET))(this, P0);
+		}
+	};
+}

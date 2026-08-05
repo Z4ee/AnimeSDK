@@ -23,33 +23,34 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NAPSTREAMING_NAPSTREAMINGDATA_ADDITIONALPOSUPDATE_OFFSET UNITYSDK_OFFSET(0xD44F770)
-#define NAPSTREAMING_NAPSTREAMINGDATA_APPLYRESULT_OFFSET UNITYSDK_OFFSET(0xD44DC60)
-#define NAPSTREAMING_NAPSTREAMINGDATA_DISPOSE_OFFSET UNITYSDK_OFFSET(0xD450F90)
-#define NAPSTREAMING_NAPSTREAMINGDATA_GETGRIDSTATEUNSAFE_OFFSET UNITYSDK_OFFSET(0xD44D5D0)
-#define NAPSTREAMING_NAPSTREAMINGDATA_GETLOADDISTANCECOEFFICIENT_OFFSET UNITYSDK_OFFSET(0xD44CF70)
-#define NAPSTREAMING_NAPSTREAMINGDATA_GETMOVEVELOCITY_OFFSET UNITYSDK_OFFSET(0xD44D180)
-#define NAPSTREAMING_NAPSTREAMINGDATA_GETPVSINDEX_OFFSET UNITYSDK_OFFSET(0xD44CCC0)
-#define NAPSTREAMING_NAPSTREAMINGDATA_GETSTREAMINGASSETPATH_OFFSET UNITYSDK_OFFSET(0xD44CDF0)
-#define NAPSTREAMING_NAPSTREAMINGDATA_INIT_OFFSET UNITYSDK_OFFSET(0xD44FF80)
-#define NAPSTREAMING_NAPSTREAMINGDATA_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xD450F40)
-#define NAPSTREAMING_NAPSTREAMINGDATA_POSUPDATE_OFFSET UNITYSDK_OFFSET(0xD44D640)
-#define NAPSTREAMING_NAPSTREAMINGDATA_SETGRIDSTATETHREADSAFE_OFFSET UNITYSDK_OFFSET(0xD44D530)
-#define NAPSTREAMING_NAPSTREAMINGDATA_SETSTREAMINGLAYERNEEDLOAD_OFFSET UNITYSDK_OFFSET(0xD450B90)
-#define NAPSTREAMING_NAPSTREAMINGDATA_SETSTREAMINGOBJECTSVISIBLE_OFFSET UNITYSDK_OFFSET(0xD450BF0)
-#define NAPSTREAMING_NAPSTREAMINGDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0xD451460)
-#define NAPSTREAMING_NAPSTREAMINGDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xD451330)
+#define NAPSTREAMING_NAPSTREAMINGDATA_ADDITIONALPOSUPDATE_OFFSET UNITYSDK_OFFSET(0x106800B0)
+#define NAPSTREAMING_NAPSTREAMINGDATA_APPLYRESULT_OFFSET UNITYSDK_OFFSET(0x1067E660)
+#define NAPSTREAMING_NAPSTREAMINGDATA_DISPOSE_OFFSET UNITYSDK_OFFSET(0x10681A80)
+#define NAPSTREAMING_NAPSTREAMINGDATA_GETGRIDSTATEUNSAFE_OFFSET UNITYSDK_OFFSET(0x1067E080)
+#define NAPSTREAMING_NAPSTREAMINGDATA_GETLOADDISTANCECOEFFICIENT_OFFSET UNITYSDK_OFFSET(0x1067DA20)
+#define NAPSTREAMING_NAPSTREAMINGDATA_GETMOVEVELOCITY_OFFSET UNITYSDK_OFFSET(0x1067DC30)
+#define NAPSTREAMING_NAPSTREAMINGDATA_GETPVSINDEX_OFFSET UNITYSDK_OFFSET(0x1067D760)
+#define NAPSTREAMING_NAPSTREAMINGDATA_GETSTREAMINGASSETPATH_OFFSET UNITYSDK_OFFSET(0x1067D890)
+#define NAPSTREAMING_NAPSTREAMINGDATA_GETSTREAMINGLAYERNEEDLOAD_OFFSET UNITYSDK_OFFSET(0x106814A0)
+#define NAPSTREAMING_NAPSTREAMINGDATA_INIT_OFFSET UNITYSDK_OFFSET(0x106808B0)
+#define NAPSTREAMING_NAPSTREAMINGDATA_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x10681A30)
+#define NAPSTREAMING_NAPSTREAMINGDATA_POSUPDATE_OFFSET UNITYSDK_OFFSET(0x1067E0F0)
+#define NAPSTREAMING_NAPSTREAMINGDATA_SETGRIDSTATETHREADSAFE_OFFSET UNITYSDK_OFFSET(0x1067DFE0)
+#define NAPSTREAMING_NAPSTREAMINGDATA_SETSTREAMINGLAYERNEEDLOAD_OFFSET UNITYSDK_OFFSET(0x10681680)
+#define NAPSTREAMING_NAPSTREAMINGDATA_SETSTREAMINGOBJECTSVISIBLE_OFFSET UNITYSDK_OFFSET(0x106816E0)
+#define NAPSTREAMING_NAPSTREAMINGDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x10681F50)
+#define NAPSTREAMING_NAPSTREAMINGDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x10681E20)
 
 namespace NapStreaming
 {
-	inline static constexpr unsigned int NapStreamingData_TypeDefinitionIndex = 78658;
+	inline static constexpr unsigned int NapStreamingData_TypeDefinitionIndex = 41792;
 
 	class NapStreamingData : public ::UnityEngine::ScriptableObject
 	{
 	public:
 		static ::System::Boolean* StaticGet_isMobileShadowOff()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(NapStreamingData_TypeDefinitionIndex)->GetStaticField(0x10D00);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(NapStreamingData_TypeDefinitionIndex)->GetStaticField(0x10E50);
 		}
 		::System::Collections::Generic::List_1<::NapStreaming::NapStreamingData_StreamingLayerData*>* layers; // 0x18
 		::System::Collections::Generic::List_1<::NapStreaming::NapStreamingData_StreamingGridData*>* grids; // 0x20
@@ -64,21 +65,24 @@ namespace NapStreaming
 		::System::Boolean cookedPVS; // 0x70
 		::System::Boolean cookedPOI; // 0x71
 		::System::Boolean cookedLowPrefab; // 0x72
-		::System::String* prefabPathPrefix; // 0x78
-		::System::String* lowPrefabPathPrefix; // 0x80
-		::System::String* hlodPathPrefix; // 0x88
-		::Unity::Collections::NativeArray_1<::NapStreaming::StreamingGridJobData> gridDatas; // 0x90
-		::Unity::Collections::NativeList_1<::NapStreaming::StreamingCommand> gridCommands; // 0xA0
-		::Unity::Collections::NativeArray_1<::System::Boolean> pvsVisibleStates; // 0xB0
-		::Unity::Collections::NativeArray_1<::NapStreaming::StreamingLayerJobData> layerDatas; // 0xC0
-		::Unity::Collections::NativeArray_1<::NapStreaming::StreamingState> gridStates; // 0xD0
-		::Unity::Collections::NativeArray_1<::System::Boolean> poiVisibleStates; // 0xE0
-		::Unity::Collections::NativeArray_1<::NapStreaming::AdditionLockLevel> additionalLockStates; // 0xF0
-		::Unity::Jobs::JobHandle updateHandle; // 0x100
-		::System::Boolean dispatched; // 0x110
-		::System::Int32 poiIndex; // 0x114
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::System::Int32>*>* additionalLoadChecks; // 0x118
-		::System::Collections::Generic::List_1<::System::Int32>* loadDoneAdditionalIds; // 0x120
+		::System::Boolean cookedEffectLowPrefab; // 0x73
+		::System::Boolean cookedYGap; // 0x74
+		::System::Single yGapDistance; // 0x78
+		::System::String* prefabPathPrefix; // 0x80
+		::System::String* lowPrefabPathPrefix; // 0x88
+		::System::String* hlodPathPrefix; // 0x90
+		::Unity::Collections::NativeArray_1<::NapStreaming::StreamingGridJobData> gridDatas; // 0x98
+		::Unity::Collections::NativeList_1<::NapStreaming::StreamingCommand> gridCommands; // 0xA8
+		::Unity::Collections::NativeArray_1<::System::Boolean> pvsVisibleStates; // 0xB8
+		::Unity::Collections::NativeArray_1<::NapStreaming::StreamingLayerJobData> layerDatas; // 0xC8
+		::Unity::Collections::NativeArray_1<::NapStreaming::StreamingState> gridStates; // 0xD8
+		::Unity::Collections::NativeArray_1<::System::Boolean> poiVisibleStates; // 0xE8
+		::Unity::Collections::NativeArray_1<::NapStreaming::AdditionLockLevel> additionalLockStates; // 0xF8
+		::Unity::Jobs::JobHandle updateHandle; // 0x108
+		::System::Boolean dispatched; // 0x118
+		::System::Int32 poiIndex; // 0x11C
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::System::Int32>*>* additionalLoadChecks; // 0x120
+		::System::Collections::Generic::List_1<::System::Int32>* loadDoneAdditionalIds; // 0x128
 
 		::System::Void _ctor()
 		{
@@ -138,6 +142,11 @@ namespace NapStreaming
 		::System::Void Init()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NAPSTREAMING_NAPSTREAMINGDATA_INIT_OFFSET))(this);
+		}
+
+		::System::Boolean GetStreamingLayerNeedLoad(::NapStreaming::StreamingLayer layer)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::NapStreaming::StreamingLayer))((::PBYTE)hIl2Cpp + NAPSTREAMING_NAPSTREAMINGDATA_GETSTREAMINGLAYERNEEDLOAD_OFFSET))(this, layer);
 		}
 
 		::System::Void SetStreamingLayerNeedLoad(::NapStreaming::StreamingLayer layer, ::System::Boolean needLoad)

@@ -3,11 +3,11 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int LongPressTotalTimeType_TypeDefinitionIndex = 85644;
+	inline static constexpr unsigned int LongPressTotalTimeType_TypeDefinitionIndex = 48814;
 
 	enum class LongPressTotalTimeType : ::System::Int32
 	{
-		ByEffect = 1,
 		Number = 0,
+		ByEffect = 1,
 	};
 }

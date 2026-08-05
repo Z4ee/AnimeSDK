@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/Enum_3_53DE1BD33AC0B056.h"
 
-class Class_2_B4378B46E0020E85;
-namespace UnityEngine { class RectTransform; }
+namespace System { class String; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_252_TypeDefinitionIndex = 42478;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_252_TypeDefinitionIndex = 86434;
 
 class Class_0_16E4307DCC419505_252
 {

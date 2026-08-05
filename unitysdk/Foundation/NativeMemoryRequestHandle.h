@@ -4,21 +4,21 @@
 
 namespace Foundation { class NativeMemory; }
 
-#define FOUNDATION_NATIVEMEMORYREQUESTHANDLE_GET_ISNULL_OFFSET UNITYSDK_OFFSET(0x643A20)
-#define FOUNDATION_NATIVEMEMORYREQUESTHANDLE_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1E358120)
-#define FOUNDATION_NATIVEMEMORYREQUESTHANDLE_RESOLVEBLOB_OFFSET UNITYSDK_OFFSET(0xA61240)
-#define FOUNDATION_NATIVEMEMORYREQUESTHANDLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E3584D0)
-#define FOUNDATION_NATIVEMEMORYREQUESTHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x2BDE80)
+#define FOUNDATION_NATIVEMEMORYREQUESTHANDLE_GET_ISNULL_OFFSET UNITYSDK_OFFSET(0x699420)
+#define FOUNDATION_NATIVEMEMORYREQUESTHANDLE_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1F79F3F0)
+#define FOUNDATION_NATIVEMEMORYREQUESTHANDLE_RESOLVEBLOB_OFFSET UNITYSDK_OFFSET(0xAB2500)
+#define FOUNDATION_NATIVEMEMORYREQUESTHANDLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F79F770)
+#define FOUNDATION_NATIVEMEMORYREQUESTHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x346F70)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int NativeMemoryRequestHandle_TypeDefinitionIndex = 8668;
+	inline static constexpr unsigned int NativeMemoryRequestHandle_TypeDefinitionIndex = 8721;
 
 	struct alignas(8) NativeMemoryRequestHandle
 	{
 		static ::Foundation::NativeMemoryRequestHandle* StaticGet_Null()
 		{
-			return (::Foundation::NativeMemoryRequestHandle*)Il2CppClass::FromTypeDefinitionIndex(NativeMemoryRequestHandle_TypeDefinitionIndex)->GetStaticField(0x3B20);
+			return (::Foundation::NativeMemoryRequestHandle*)Il2CppClass::FromTypeDefinitionIndex(NativeMemoryRequestHandle_TypeDefinitionIndex)->GetStaticField(0x3B40);
 		}
 		::System::UInt64 _allocatorId; // 0x10
 		::System::UInt64 _requestId; // 0x18

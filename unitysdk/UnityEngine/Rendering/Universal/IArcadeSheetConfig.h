@@ -7,7 +7,7 @@ namespace UnityEngine { class Texture2D; }
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int IArcadeSheetConfig_TypeDefinitionIndex = 26963;
+	inline static constexpr unsigned int IArcadeSheetConfig_TypeDefinitionIndex = 27405;
 
 	class IArcadeSheetConfig
 	{

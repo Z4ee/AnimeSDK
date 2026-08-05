@@ -12,11 +12,11 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_SCENESOUNDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x173FCA60)
+#define MOLEMOLE_SCENESOUNDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x129D9810)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SceneSoundData_TypeDefinitionIndex = 68077;
+	inline static constexpr unsigned int SceneSoundData_TypeDefinitionIndex = 49902;
 
 	class SceneSoundData : public ::Sirenix::OdinInspector::SerializedMonoBehaviour
 	{

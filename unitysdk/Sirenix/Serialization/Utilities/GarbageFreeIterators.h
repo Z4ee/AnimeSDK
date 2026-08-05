@@ -12,7 +12,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace Sirenix::Serialization::Utilities
 {
-	inline static constexpr unsigned int GarbageFreeIterators_TypeDefinitionIndex = 7611;
+	inline static constexpr unsigned int GarbageFreeIterators_TypeDefinitionIndex = 7615;
 
 	class GarbageFreeIterators : public ::System::Object
 	{

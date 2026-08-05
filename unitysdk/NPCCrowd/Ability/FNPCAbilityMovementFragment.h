@@ -5,7 +5,7 @@
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int FNPCAbilityMovementFragment_TypeDefinitionIndex = 41534;
+	inline static constexpr unsigned int FNPCAbilityMovementFragment_TypeDefinitionIndex = 78626;
 
 	struct alignas(4) FNPCAbilityMovementFragment
 	{

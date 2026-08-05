@@ -5,11 +5,11 @@
 
 namespace UnityEngine { class ParticleSystem; }
 
-#define MOLEMOLE_MONOCANVASGROUPALPHAMODIFIERFORPARTICLESYSTEM_PARTICLESYSTEMINFO_METHOD_2_57F015DFC718ABA3_OFFSET UNITYSDK_OFFSET(0x824C10)
+#define MOLEMOLE_MONOCANVASGROUPALPHAMODIFIERFORPARTICLESYSTEM_PARTICLESYSTEMINFO_METHOD_2_57F015DFC718ABA3_OFFSET UNITYSDK_OFFSET(0x7DA160)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoCanvasGroupAlphaModifierForParticleSystem_ParticleSystemInfo_TypeDefinitionIndex = 58215;
+	inline static constexpr unsigned int MonoCanvasGroupAlphaModifierForParticleSystem_ParticleSystemInfo_TypeDefinitionIndex = 43557;
 
 	struct alignas(8) MonoCanvasGroupAlphaModifierForParticleSystem_ParticleSystemInfo
 	{

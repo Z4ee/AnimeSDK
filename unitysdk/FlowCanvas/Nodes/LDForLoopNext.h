@@ -6,31 +6,31 @@
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 
-#define FLOWCANVAS_NODES_LDFORLOOPNEXT_DOSTEP_OFFSET UNITYSDK_OFFSET(0x154B5FD0)
-#define FLOWCANVAS_NODES_LDFORLOOPNEXT_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x154B5DB0)
-#define FLOWCANVAS_NODES_LDFORLOOPNEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x154B6450)
-#define FLOWCANVAS_NODES_LDFORLOOPNEXT__REGISTERPORTS_B__9_0_OFFSET UNITYSDK_OFFSET(0x154B6490)
-#define FLOWCANVAS_NODES_LDFORLOOPNEXT__REGISTERPORTS_B__9_1_OFFSET UNITYSDK_OFFSET(0x154B64A0)
-#define FLOWCANVAS_NODES_LDFORLOOPNEXT__REGISTERPORTS_B__9_2_OFFSET UNITYSDK_OFFSET(0x154B6580)
-#define FLOWCANVAS_NODES_LDFORLOOPNEXT__REGISTERPORTS_B__9_3_OFFSET UNITYSDK_OFFSET(0x154B65B0)
-#define FLOWCANVAS_NODES_LDFORLOOPNEXT__REGISTERPORTS_B__9_4_OFFSET UNITYSDK_OFFSET(0x154B6570)
+#define FLOWCANVAS_NODES_LDFORLOOPNEXT_DOSTEP_OFFSET UNITYSDK_OFFSET(0x178A3760)
+#define FLOWCANVAS_NODES_LDFORLOOPNEXT_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x178A3540)
+#define FLOWCANVAS_NODES_LDFORLOOPNEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x178A3BE0)
+#define FLOWCANVAS_NODES_LDFORLOOPNEXT__REGISTERPORTS_B__9_0_OFFSET UNITYSDK_OFFSET(0x178A3C20)
+#define FLOWCANVAS_NODES_LDFORLOOPNEXT__REGISTERPORTS_B__9_1_OFFSET UNITYSDK_OFFSET(0x178A3C30)
+#define FLOWCANVAS_NODES_LDFORLOOPNEXT__REGISTERPORTS_B__9_2_OFFSET UNITYSDK_OFFSET(0x178A3D00)
+#define FLOWCANVAS_NODES_LDFORLOOPNEXT__REGISTERPORTS_B__9_3_OFFSET UNITYSDK_OFFSET(0x178A3D30)
+#define FLOWCANVAS_NODES_LDFORLOOPNEXT__REGISTERPORTS_B__9_4_OFFSET UNITYSDK_OFFSET(0x178A3CF0)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDForLoopNext_TypeDefinitionIndex = 68264;
+	inline static constexpr unsigned int LDForLoopNext_TypeDefinitionIndex = 82057;
 
 	class LDForLoopNext : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::FlowOutput* fCurrent; // 0xA8
-		::FlowCanvas::ValueInput_1<::System::Int32>* last; // 0xB0
+		::FlowCanvas::FlowOutput* fFinish; // 0xA8
+		::FlowCanvas::ValueInput_1<::System::Int32>* step; // 0xB0
 		::FlowCanvas::ValueInput_1<::System::Int32>* first; // 0xB8
-		::FlowCanvas::ValueInput_1<::System::Int32>* step; // 0xC0
-		::FlowCanvas::FlowOutput* fFinish; // 0xC8
-		::System::Int32 current; // 0xD0
-		::System::Boolean broken; // 0xD4
-		::System::Boolean reverse; // 0xD5
-		::System::Int32 enumatorIndex; // 0xD8
+		::FlowCanvas::FlowOutput* fCurrent; // 0xC0
+		::FlowCanvas::ValueInput_1<::System::Int32>* last; // 0xC8
+		::System::Boolean broken; // 0xD0
+		::System::Boolean reverse; // 0xD1
+		::System::Int32 enumatorIndex; // 0xD4
+		::System::Int32 current; // 0xD8
 
 		::System::Void _ctor()
 		{

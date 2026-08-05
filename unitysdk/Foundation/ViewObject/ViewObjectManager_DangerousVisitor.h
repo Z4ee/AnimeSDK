@@ -4,12 +4,12 @@
 
 namespace Foundation::ViewObject { class ViewObjectManager; }
 
-#define FOUNDATION_VIEWOBJECT_VIEWOBJECTMANAGER_DANGEROUSVISITOR_CLEARALL_OFFSET UNITYSDK_OFFSET(0x7966E0)
-#define FOUNDATION_VIEWOBJECT_VIEWOBJECTMANAGER_DANGEROUSVISITOR__CTOR_OFFSET UNITYSDK_OFFSET(0x2B6D10)
+#define FOUNDATION_VIEWOBJECT_VIEWOBJECTMANAGER_DANGEROUSVISITOR_CLEARALL_OFFSET UNITYSDK_OFFSET(0x7B3740)
+#define FOUNDATION_VIEWOBJECT_VIEWOBJECTMANAGER_DANGEROUSVISITOR__CTOR_OFFSET UNITYSDK_OFFSET(0x324D50)
 
 namespace Foundation::ViewObject
 {
-	inline static constexpr unsigned int ViewObjectManager_DangerousVisitor_TypeDefinitionIndex = 73631;
+	inline static constexpr unsigned int ViewObjectManager_DangerousVisitor_TypeDefinitionIndex = 55576;
 
 	struct alignas(8) ViewObjectManager_DangerousVisitor
 	{

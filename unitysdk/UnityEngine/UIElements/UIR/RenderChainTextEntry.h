@@ -6,7 +6,7 @@ namespace UnityEngine::UIElements::UIR { class RenderChainCommand; }
 
 namespace UnityEngine::UIElements::UIR
 {
-	inline static constexpr unsigned int RenderChainTextEntry_TypeDefinitionIndex = 27612;
+	inline static constexpr unsigned int RenderChainTextEntry_TypeDefinitionIndex = 28214;
 
 	struct alignas(8) RenderChainTextEntry
 	{

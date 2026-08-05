@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/StateMachineBehaviour.h"
 
-#define UNITYENGINE_MDBSTATEMACHINEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1E86D4D0)
+#define UNITYENGINE_MDBSTATEMACHINEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1FC4DFC0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int MDBStateMachineBehaviour_TypeDefinitionIndex = 6606;
+	inline static constexpr unsigned int MDBStateMachineBehaviour_TypeDefinitionIndex = 6610;
 
 	class MDBStateMachineBehaviour : public ::UnityEngine::StateMachineBehaviour
 	{

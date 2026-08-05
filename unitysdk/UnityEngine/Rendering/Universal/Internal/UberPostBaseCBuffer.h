@@ -5,7 +5,7 @@
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int UberPostBaseCBuffer_TypeDefinitionIndex = 26528;
+	inline static constexpr unsigned int UberPostBaseCBuffer_TypeDefinitionIndex = 26870;
 
 	struct alignas(4) UberPostBaseCBuffer
 	{

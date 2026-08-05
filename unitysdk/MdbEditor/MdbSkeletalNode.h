@@ -5,27 +5,27 @@
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define MDBEDITOR_MDBSKELETALNODE_GET_BONENAME_OFFSET UNITYSDK_OFFSET(0x11A64DD0)
-#define MDBEDITOR_MDBSKELETALNODE_GET_CURRTRANS_OFFSET UNITYSDK_OFFSET(0x11A64DA0)
-#define MDBEDITOR_MDBSKELETALNODE_GET_ISENDPOINT_OFFSET UNITYSDK_OFFSET(0x11A64DE0)
-#define MDBEDITOR_MDBSKELETALNODE_GET_ISSKINBONE_OFFSET UNITYSDK_OFFSET(0x11A64DF0)
-#define MDBEDITOR_MDBSKELETALNODE_GET_PARENTINDEX_OFFSET UNITYSDK_OFFSET(0x11A64DC0)
-#define MDBEDITOR_MDBSKELETALNODE_GET_PARENTTRANS_OFFSET UNITYSDK_OFFSET(0x11A64DB0)
-#define MDBEDITOR_MDBSKELETALNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x11A64D70)
+#define MDBEDITOR_MDBSKELETALNODE_GET_BONENAME_OFFSET UNITYSDK_OFFSET(0x12421180)
+#define MDBEDITOR_MDBSKELETALNODE_GET_CURRTRANS_OFFSET UNITYSDK_OFFSET(0x12421150)
+#define MDBEDITOR_MDBSKELETALNODE_GET_ISENDPOINT_OFFSET UNITYSDK_OFFSET(0x12421190)
+#define MDBEDITOR_MDBSKELETALNODE_GET_ISSKINBONE_OFFSET UNITYSDK_OFFSET(0x124211A0)
+#define MDBEDITOR_MDBSKELETALNODE_GET_PARENTINDEX_OFFSET UNITYSDK_OFFSET(0x12421170)
+#define MDBEDITOR_MDBSKELETALNODE_GET_PARENTTRANS_OFFSET UNITYSDK_OFFSET(0x12421160)
+#define MDBEDITOR_MDBSKELETALNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x12421120)
 
 namespace MdbEditor
 {
-	inline static constexpr unsigned int MdbSkeletalNode_TypeDefinitionIndex = 91437;
+	inline static constexpr unsigned int MdbSkeletalNode_TypeDefinitionIndex = 95390;
 
 	class MdbSkeletalNode : public ::System::Object
 	{
 	public:
-		::UnityEngine::Transform* _currTrans; // 0x10
-		::UnityEngine::Transform* _parentTrans; // 0x18
-		::System::String* _boneName; // 0x20
+		::System::String* _boneName; // 0x10
+		::UnityEngine::Transform* _currTrans; // 0x18
+		::UnityEngine::Transform* _parentTrans; // 0x20
 		::System::Int32 _parentIndex; // 0x28
-		::System::Boolean _isSkinBone; // 0x2C
-		::System::Boolean _isEndPoint; // 0x2D
+		::System::Boolean _isEndPoint; // 0x2C
+		::System::Boolean _isSkinBone; // 0x2D
 
 		::System::Void _ctor(::UnityEngine::Transform* currTrans, ::UnityEngine::Transform* parentTrans, ::System::Int32 parentIndex, ::System::String* boneName, ::System::Boolean endPoint, ::System::Boolean skinPoint)
 		{

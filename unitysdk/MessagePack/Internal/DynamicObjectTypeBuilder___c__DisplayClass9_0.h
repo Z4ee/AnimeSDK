@@ -12,22 +12,22 @@ namespace System { template <typename T1, typename T2, typename T3> class Func_3
 namespace System::Reflection::Emit { class ILGenerator; }
 namespace System::Reflection::Emit { class LocalBuilder; }
 
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS9_0__BUILDDESERIALIZE_B__0_OFFSET UNITYSDK_OFFSET(0x1D408550)
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1D408540)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS9_0__BUILDDESERIALIZE_B__0_OFFSET UNITYSDK_OFFSET(0x1E7ADBC0)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7ADBB0)
 
 namespace MessagePack::Internal
 {
-	inline static constexpr unsigned int DynamicObjectTypeBuilder___c__DisplayClass9_0_TypeDefinitionIndex = 29294;
+	inline static constexpr unsigned int DynamicObjectTypeBuilder___c__DisplayClass9_0_TypeDefinitionIndex = 31065;
 
 	class DynamicObjectTypeBuilder___c__DisplayClass9_0 : public ::System::Object
 	{
 	public:
-		::MessagePack::Internal::ArgumentField reader; // 0x10
-		::MessagePack::Internal::ArgumentField argOptions; // 0x20
-		::System::Reflection::Emit::LocalBuilder* localResolver; // 0x30
-		::System::Reflection::Emit::ILGenerator* il; // 0x38
-		::System::Func_3<::System::Int32, ::MessagePack::Internal::ObjectSerializationInfo_EmittableMember*, ::System::Action*>* tryEmitLoadCustomFormatter; // 0x40
-		::Il2CppArray<::MessagePack::Internal::DynamicObjectTypeBuilder_DeserializeInfo*>* infoList; // 0x48
+		::System::Reflection::Emit::LocalBuilder* localResolver; // 0x10
+		::MessagePack::Internal::ArgumentField argOptions; // 0x18
+		::Il2CppArray<::MessagePack::Internal::DynamicObjectTypeBuilder_DeserializeInfo*>* infoList; // 0x28
+		::MessagePack::Internal::ArgumentField reader; // 0x30
+		::System::Reflection::Emit::ILGenerator* il; // 0x40
+		::System::Func_3<::System::Int32, ::MessagePack::Internal::ObjectSerializationInfo_EmittableMember*, ::System::Action*>* tryEmitLoadCustomFormatter; // 0x48
 		::System::Nullable_1<::System::Reflection::Emit::Label> gotoDefault; // 0x50
 
 		::System::Void _ctor()

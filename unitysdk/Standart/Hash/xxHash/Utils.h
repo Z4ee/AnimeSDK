@@ -4,13 +4,13 @@
 #include "unitysdk/System/Guid.h"
 #include "unitysdk/System/Object.h"
 
-#define STANDART_HASH_XXHASH_UTILS_BLOCKCOPY_OFFSET UNITYSDK_OFFSET(0x1DA404C0)
-#define STANDART_HASH_XXHASH_UTILS_TOBYTES_OFFSET UNITYSDK_OFFSET(0x1DA40440)
-#define STANDART_HASH_XXHASH_UTILS_TOGUID_OFFSET UNITYSDK_OFFSET(0x1DA403D0)
+#define STANDART_HASH_XXHASH_UTILS_BLOCKCOPY_OFFSET UNITYSDK_OFFSET(0x1EF88CA0)
+#define STANDART_HASH_XXHASH_UTILS_TOBYTES_OFFSET UNITYSDK_OFFSET(0x1EF88C20)
+#define STANDART_HASH_XXHASH_UTILS_TOGUID_OFFSET UNITYSDK_OFFSET(0x1EF88BB0)
 
 namespace Standart::Hash::xxHash
 {
-	inline static constexpr unsigned int Utils_TypeDefinitionIndex = 8216;
+	inline static constexpr unsigned int Utils_TypeDefinitionIndex = 8169;
 
 	class Utils : public ::System::Object
 	{

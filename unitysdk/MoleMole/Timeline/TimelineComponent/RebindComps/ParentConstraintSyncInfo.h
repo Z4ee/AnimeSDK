@@ -4,12 +4,12 @@
 
 namespace UnityEngine::Animations { class ParentConstraint; }
 
-#define MOLEMOLE_TIMELINE_TIMELINECOMPONENT_REBINDCOMPS_PARENTCONSTRAINTSYNCINFO__CTOR_1_OFFSET UNITYSDK_OFFSET(0x160FE7A0)
-#define MOLEMOLE_TIMELINE_TIMELINECOMPONENT_REBINDCOMPS_PARENTCONSTRAINTSYNCINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x160FE720)
+#define MOLEMOLE_TIMELINE_TIMELINECOMPONENT_REBINDCOMPS_PARENTCONSTRAINTSYNCINFO__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1999D320)
+#define MOLEMOLE_TIMELINE_TIMELINECOMPONENT_REBINDCOMPS_PARENTCONSTRAINTSYNCINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1999D2A0)
 
 namespace MoleMole::Timeline::TimelineComponent::RebindComps
 {
-	inline static constexpr unsigned int ParentConstraintSyncInfo_TypeDefinitionIndex = 66441;
+	inline static constexpr unsigned int ParentConstraintSyncInfo_TypeDefinitionIndex = 88207;
 
 	class ParentConstraintSyncInfo : public ::MoleMole::Timeline::TimelineComponent::NoSeamlessConstraintReferenceCompInfo_1<::UnityEngine::Animations::ParentConstraint*>
 	{

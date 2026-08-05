@@ -8,14 +8,14 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_OVERLAYOUTLINECONFIG_GET_ANIMPARAMSDICT_OFFSET UNITYSDK_OFFSET(0x18ADCC10)
-#define MOLEMOLE_CONFIG_OVERLAYOUTLINECONFIG_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x18ADCF30)
-#define MOLEMOLE_CONFIG_OVERLAYOUTLINECONFIG_SETANIMPARAMSDIRTY_OFFSET UNITYSDK_OFFSET(0x18ADCEE0)
-#define MOLEMOLE_CONFIG_OVERLAYOUTLINECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18ADCF80)
+#define MOLEMOLE_CONFIG_OVERLAYOUTLINECONFIG_GET_ANIMPARAMSDICT_OFFSET UNITYSDK_OFFSET(0x1A4BD350)
+#define MOLEMOLE_CONFIG_OVERLAYOUTLINECONFIG_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x1A4BD670)
+#define MOLEMOLE_CONFIG_OVERLAYOUTLINECONFIG_SETANIMPARAMSDIRTY_OFFSET UNITYSDK_OFFSET(0x1A4BD620)
+#define MOLEMOLE_CONFIG_OVERLAYOUTLINECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4BD6C0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int OverlayOutlineConfig_TypeDefinitionIndex = 73113;
+	inline static constexpr unsigned int OverlayOutlineConfig_TypeDefinitionIndex = 54296;
 
 	class OverlayOutlineConfig : public ::Foundation::MihoyoSerializedScriptableObject
 	{
@@ -25,7 +25,8 @@ namespace MoleMole::Config
 		::System::Boolean OutlinePerObject; // 0x61
 		::System::Boolean OccludedByDepthPerObject; // 0x62
 		::System::Boolean OccludedByCharacters; // 0x63
-		::System::Boolean UseLODGroup; // 0x64
+		::System::Boolean ForceVisible; // 0x64
+		::System::Boolean UseLODGroup; // 0x65
 		::System::Single OutlineColorIntensity; // 0x68
 		::System::Single OutlineThickness; // 0x6C
 		::System::Boolean DrawOverlayBeforeOpaquePostProcess; // 0x70

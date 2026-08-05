@@ -6,11 +6,11 @@ namespace MoleMole { class NpcPrototypeNavMeshObstacleData; }
 namespace MoleMole { class NpcPrototypeRigidbodyData; }
 namespace System { class String; }
 
-#define MOLEMOLE_NPCPROTOTYPEDATAINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x160E0810)
+#define MOLEMOLE_NPCPROTOTYPEDATAINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1997DEA0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int NpcPrototypeDataInfo_TypeDefinitionIndex = 68281;
+	inline static constexpr unsigned int NpcPrototypeDataInfo_TypeDefinitionIndex = 68081;
 
 	class NpcPrototypeDataInfo : public ::System::Object
 	{

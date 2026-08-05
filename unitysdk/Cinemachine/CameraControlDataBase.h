@@ -3,12 +3,12 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define CINEMACHINE_CAMERACONTROLDATABASE_COPYFROM_OFFSET UNITYSDK_OFFSET(0xA75EA0)
-#define CINEMACHINE_CAMERACONTROLDATABASE_RESET_OFFSET UNITYSDK_OFFSET(0xA75E80)
+#define CINEMACHINE_CAMERACONTROLDATABASE_COPYFROM_OFFSET UNITYSDK_OFFSET(0xAC60E0)
+#define CINEMACHINE_CAMERACONTROLDATABASE_RESET_OFFSET UNITYSDK_OFFSET(0xAC60C0)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CameraControlDataBase_TypeDefinitionIndex = 34146;
+	inline static constexpr unsigned int CameraControlDataBase_TypeDefinitionIndex = 34782;
 
 	struct alignas(4) CameraControlDataBase
 	{

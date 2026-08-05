@@ -5,9 +5,9 @@
 
 namespace UnityEngine { class Transform; }
 
-#define COORDINATEHELPER_WORLDPOSITIONTOLOCALPOSITION_OFFSET UNITYSDK_OFFSET(0x1268A6F0)
+#define COORDINATEHELPER_WORLDPOSITIONTOLOCALPOSITION_OFFSET UNITYSDK_OFFSET(0x124F2540)
 
-inline static constexpr unsigned int CoordinateHelper_TypeDefinitionIndex = 47882;
+inline static constexpr unsigned int CoordinateHelper_TypeDefinitionIndex = 90120;
 
 class CoordinateHelper : public ::System::Object
 {

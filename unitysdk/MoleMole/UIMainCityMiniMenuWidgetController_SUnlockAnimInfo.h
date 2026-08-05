@@ -6,7 +6,7 @@ namespace System { class Action; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMainCityMiniMenuWidgetController_SUnlockAnimInfo_TypeDefinitionIndex = 87201;
+	inline static constexpr unsigned int UIMainCityMiniMenuWidgetController_SUnlockAnimInfo_TypeDefinitionIndex = 51080;
 
 	struct alignas(8) UIMainCityMiniMenuWidgetController_SUnlockAnimInfo
 	{

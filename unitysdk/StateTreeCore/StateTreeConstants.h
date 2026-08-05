@@ -4,7 +4,7 @@
 
 namespace StateTreeCore
 {
-	inline static constexpr unsigned int StateTreeConstants_TypeDefinitionIndex = 31060;
+	inline static constexpr unsigned int StateTreeConstants_TypeDefinitionIndex = 31679;
 
 	class StateTreeConstants : public ::System::Object
 	{

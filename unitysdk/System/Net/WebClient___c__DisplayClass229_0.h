@@ -8,8 +8,8 @@ namespace System::Net { class UploadStringCompletedEventHandler; }
 namespace System::Net { class WebClient; }
 namespace System::Threading::Tasks { template <typename T> class TaskCompletionSource_1; }
 
-#define SYSTEM_NET_WEBCLIENT___C__DISPLAYCLASS229_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C8A5A50)
-#define SYSTEM_NET_WEBCLIENT___C__DISPLAYCLASS229_0__UPLOADSTRINGTASKASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x1C8A5A60)
+#define SYSTEM_NET_WEBCLIENT___C__DISPLAYCLASS229_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD2BDF0)
+#define SYSTEM_NET_WEBCLIENT___C__DISPLAYCLASS229_0__UPLOADSTRINGTASKASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x1DD2BE00)
 
 namespace System::Net
 {
@@ -18,9 +18,9 @@ namespace System::Net
 	class WebClient___c__DisplayClass229_0 : public ::System::Object
 	{
 	public:
-		::System::Net::WebClient* __4__this; // 0x10
+		::System::Threading::Tasks::TaskCompletionSource_1<::System::String*>* tcs; // 0x10
 		::System::Net::UploadStringCompletedEventHandler* handler; // 0x18
-		::System::Threading::Tasks::TaskCompletionSource_1<::System::String*>* tcs; // 0x20
+		::System::Net::WebClient* __4__this; // 0x20
 
 		::System::Void _ctor()
 		{

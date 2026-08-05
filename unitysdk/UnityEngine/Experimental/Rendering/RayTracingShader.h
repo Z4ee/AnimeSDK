@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Object.h"
 
-#define UNITYENGINE_EXPERIMENTAL_RENDERING_RAYTRACINGSHADER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D66B840)
+#define UNITYENGINE_EXPERIMENTAL_RENDERING_RAYTRACINGSHADER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA0EA60)
 
 namespace UnityEngine::Experimental::Rendering
 {
-	inline static constexpr unsigned int RayTracingShader_TypeDefinitionIndex = 6349;
+	inline static constexpr unsigned int RayTracingShader_TypeDefinitionIndex = 6353;
 
 	class RayTracingShader : public ::UnityEngine::Object
 	{

@@ -7,7 +7,7 @@ namespace UnrealTypes { class Struct; }
 
 namespace UnrealTypes
 {
-	inline static constexpr unsigned int FieldEnumerator_1_Enumerator_TypeDefinitionIndex = 27728;
+	inline static constexpr unsigned int FieldEnumerator_1_Enumerator_TypeDefinitionIndex = 28331;
 
 	template <typename T>
 	struct FieldEnumerator_1_Enumerator

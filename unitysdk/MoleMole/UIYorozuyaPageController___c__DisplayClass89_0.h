@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIYorozuyaPageController; }
 
-#define MOLEMOLE_UIYOROZUYAPAGECONTROLLER___C__DISPLAYCLASS89_0__CTOR_OFFSET UNITYSDK_OFFSET(0x10422270)
-#define MOLEMOLE_UIYOROZUYAPAGECONTROLLER___C__DISPLAYCLASS89_0__INIT3DCONTROLLER_B__0_OFFSET UNITYSDK_OFFSET(0x10422280)
+#define MOLEMOLE_UIYOROZUYAPAGECONTROLLER___C__DISPLAYCLASS89_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14D91A90)
+#define MOLEMOLE_UIYOROZUYAPAGECONTROLLER___C__DISPLAYCLASS89_0__INIT3DCONTROLLER_B__0_OFFSET UNITYSDK_OFFSET(0x14D91AA0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIYorozuyaPageController___c__DisplayClass89_0_TypeDefinitionIndex = 74411;
+	inline static constexpr unsigned int UIYorozuyaPageController___c__DisplayClass89_0_TypeDefinitionIndex = 54553;
 
 	class UIYorozuyaPageController___c__DisplayClass89_0 : public ::System::Object
 	{

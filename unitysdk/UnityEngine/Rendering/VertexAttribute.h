@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int VertexAttribute_TypeDefinitionIndex = 6157;
+	inline static constexpr unsigned int VertexAttribute_TypeDefinitionIndex = 6161;
 
 	enum class VertexAttribute : ::System::Int32
 	{

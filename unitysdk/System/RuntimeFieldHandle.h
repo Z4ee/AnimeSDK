@@ -9,13 +9,13 @@ namespace System::Reflection { class FieldInfo; }
 namespace System::Reflection { class RtFieldInfo; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_RUNTIMEFIELDHANDLE_METHOD_2_19D4B4EB534ABBEA_OFFSET UNITYSDK_OFFSET(0x99E2B0)
-#define SYSTEM_RUNTIMEFIELDHANDLE_METHOD_2_2D9A8F3394962A5B_OFFSET UNITYSDK_OFFSET(0x99E2A0)
-#define SYSTEM_RUNTIMEFIELDHANDLE_METHOD_2_571E199764B048BD_OFFSET UNITYSDK_OFFSET(0x1CB2A7C0)
-#define SYSTEM_RUNTIMEFIELDHANDLE_METHOD_2_67F6AE7F9001053A_OFFSET UNITYSDK_OFFSET(0x99E2C0)
-#define SYSTEM_RUNTIMEFIELDHANDLE_METHOD_2_8004D4ED772C50A9_OFFSET UNITYSDK_OFFSET(0x1CB2A7A0)
-#define SYSTEM_RUNTIMEFIELDHANDLE_METHOD_2_8B1F4DC8AD6A3756_OFFSET UNITYSDK_OFFSET(0x1CB2A7B0)
-#define SYSTEM_RUNTIMEFIELDHANDLE_METHOD_2_C74CF020AA42ED85_OFFSET UNITYSDK_OFFSET(0x2B68B0)
+#define SYSTEM_RUNTIMEFIELDHANDLE_METHOD_2_2D9A8F3394962A5B_OFFSET UNITYSDK_OFFSET(0x9EA280)
+#define SYSTEM_RUNTIMEFIELDHANDLE_METHOD_2_67F6AE7F9001053A_OFFSET UNITYSDK_OFFSET(0x9EA2A0)
+#define SYSTEM_RUNTIMEFIELDHANDLE_METHOD_2_6B44E7165373C497_OFFSET UNITYSDK_OFFSET(0x9EA290)
+#define SYSTEM_RUNTIMEFIELDHANDLE_METHOD_2_8004D4ED772C50A9_OFFSET UNITYSDK_OFFSET(0x1DF41EC0)
+#define SYSTEM_RUNTIMEFIELDHANDLE_METHOD_2_8B1F4DC8AD6A3756_OFFSET UNITYSDK_OFFSET(0x1DF41ED0)
+#define SYSTEM_RUNTIMEFIELDHANDLE_METHOD_2_C74CF020AA42ED85_OFFSET UNITYSDK_OFFSET(0x325570)
+#define SYSTEM_RUNTIMEFIELDHANDLE_METHOD_2_E6DDD0CF9F0E6310_OFFSET UNITYSDK_OFFSET(0x1DF41EE0)
 
 namespace System
 {
@@ -33,9 +33,9 @@ namespace System
 		*/
 
 		/*
-		::System::Void Method_2_19D4B4EB534ABBEA(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context)
+		::System::Void Method_2_6B44E7165373C497(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIMEFIELDHANDLE_METHOD_2_19D4B4EB534ABBEA_OFFSET))(this, info, context);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIMEFIELDHANDLE_METHOD_2_6B44E7165373C497_OFFSET))(this, info, context);
 		}
 		*/
 
@@ -59,9 +59,9 @@ namespace System
 			return ((::System::Void(*)(::System::Reflection::RtFieldInfo*, ::System::Object*, ::System::Object*, ::System::RuntimeType*, ::System::Reflection::FieldAttributes, ::System::RuntimeType*, ::System::Boolean&))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIMEFIELDHANDLE_METHOD_2_8B1F4DC8AD6A3756_OFFSET))(field, obj, value, fieldType, fieldAttr, declaringType, domainInitialized);
 		}
 
-		static ::System::Void Method_2_571E199764B048BD(::System::Reflection::RtFieldInfo* field, ::System::RuntimeType* fieldType, ::System::Void* pTypedRef, ::System::Object* value, ::System::RuntimeType* contextType)
+		static ::System::Void Method_2_E6DDD0CF9F0E6310(::System::Reflection::RtFieldInfo* field, ::System::RuntimeType* fieldType, ::System::Void* pTypedRef, ::System::Object* value, ::System::RuntimeType* contextType)
 		{
-			return ((::System::Void(*)(::System::Reflection::RtFieldInfo*, ::System::RuntimeType*, ::System::Void*, ::System::Object*, ::System::RuntimeType*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIMEFIELDHANDLE_METHOD_2_571E199764B048BD_OFFSET))(field, fieldType, pTypedRef, value, contextType);
+			return ((::System::Void(*)(::System::Reflection::RtFieldInfo*, ::System::RuntimeType*, ::System::Void*, ::System::Object*, ::System::RuntimeType*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIMEFIELDHANDLE_METHOD_2_E6DDD0CF9F0E6310_OFFSET))(field, fieldType, pTypedRef, value, contextType);
 		}
 	};
 }

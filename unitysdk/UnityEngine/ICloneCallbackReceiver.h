@@ -5,7 +5,7 @@ namespace UnityEngine { class Object; }
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ICloneCallbackReceiver_TypeDefinitionIndex = 5383;
+	inline static constexpr unsigned int ICloneCallbackReceiver_TypeDefinitionIndex = 5384;
 
 	class ICloneCallbackReceiver
 	{

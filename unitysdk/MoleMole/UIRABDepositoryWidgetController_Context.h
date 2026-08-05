@@ -3,11 +3,11 @@
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 #include "unitysdk/Struct_2_D7E802D2192B688B.h"
 
-#define MOLEMOLE_UIRABDEPOSITORYWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15611580)
+#define MOLEMOLE_UIRABDEPOSITORYWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16A7EAA0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRABDepositoryWidgetController_Context_TypeDefinitionIndex = 48544;
+	inline static constexpr unsigned int UIRABDepositoryWidgetController_Context_TypeDefinitionIndex = 72201;
 
 	class UIRABDepositoryWidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{

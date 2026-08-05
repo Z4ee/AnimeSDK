@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_2_534AF681CC2BD5FD_260.h"
+#include "unitysdk/Class_2_2BB5A4A452E9A1B4.h"
 
 namespace MoleMole { class UIBabeltowerTrickScoreRowWidgetController; }
 namespace System { class String; }
 
-#define CLASS_3_E78CEF8E9E8392AB_METHOD_3_92604CDED0B60F25_OFFSET UNITYSDK_OFFSET(0x1317D4A0)
-#define CLASS_3_E78CEF8E9E8392AB_METHOD_3_DCE0A903A9E7E199_OFFSET UNITYSDK_OFFSET(0x1317D500)
-#define CLASS_3_E78CEF8E9E8392AB__CTOR_OFFSET UNITYSDK_OFFSET(0x1317D470)
+#define CLASS_3_E78CEF8E9E8392AB_METHOD_3_92604CDED0B60F25_OFFSET UNITYSDK_OFFSET(0x16A09AF0)
+#define CLASS_3_E78CEF8E9E8392AB_METHOD_3_DCE0A903A9E7E199_OFFSET UNITYSDK_OFFSET(0x16A09B50)
+#define CLASS_3_E78CEF8E9E8392AB__CTOR_OFFSET UNITYSDK_OFFSET(0x16A09AC0)
 
-inline static constexpr unsigned int Class_3_E78CEF8E9E8392AB_TypeDefinitionIndex = 55124;
+inline static constexpr unsigned int Class_3_E78CEF8E9E8392AB_TypeDefinitionIndex = 69924;
 
-class Class_3_E78CEF8E9E8392AB : public ::Class_2_534AF681CC2BD5FD_260<::MoleMole::UIBabeltowerTrickScoreRowWidgetController*>
+class Class_3_E78CEF8E9E8392AB : public ::Class_2_2BB5A4A452E9A1B4<::MoleMole::UIBabeltowerTrickScoreRowWidgetController*>
 {
 public:
 	::System::Int32 Field_3_0; // 0x28

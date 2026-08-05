@@ -8,12 +8,12 @@
 namespace MoleMole { class UIActivityHotpotInGamePageController; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define MOLEMOLE_UIACTIVITYHOTPOTINGAMEPAGECONTROLLER__FETCHBYCLICKINTERNAL_D__28_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x85AC10)
-#define MOLEMOLE_UIACTIVITYHOTPOTINGAMEPAGECONTROLLER__FETCHBYCLICKINTERNAL_D__28_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x283610)
+#define MOLEMOLE_UIACTIVITYHOTPOTINGAMEPAGECONTROLLER__FETCHBYCLICKINTERNAL_D__28_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x8BE890)
+#define MOLEMOLE_UIACTIVITYHOTPOTINGAMEPAGECONTROLLER__FETCHBYCLICKINTERNAL_D__28_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x296F30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityHotpotInGamePageController__FetchByClickInternal_d__28_TypeDefinitionIndex = 75066;
+	inline static constexpr unsigned int UIActivityHotpotInGamePageController__FetchByClickInternal_d__28_TypeDefinitionIndex = 87260;
 
 	struct alignas(8) UIActivityHotpotInGamePageController__FetchByClickInternal_d__28
 	{

@@ -4,7 +4,7 @@
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int HollowEntityGetCanMoveNeighborPosition_Param_TypeDefinitionIndex = 48907;
+	inline static constexpr unsigned int HollowEntityGetCanMoveNeighborPosition_Param_TypeDefinitionIndex = 47536;
 
 	struct alignas(1) HollowEntityGetCanMoveNeighborPosition_Param
 	{

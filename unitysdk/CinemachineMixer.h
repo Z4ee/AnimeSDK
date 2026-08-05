@@ -8,24 +8,24 @@ class CinemachineMixer_MasterDirectorDelegate;
 namespace Cinemachine { class CinemachineBrain; }
 namespace System { class Object; }
 
-#define CINEMACHINEMIXER_GETDELTATIME_OFFSET UNITYSDK_OFFSET(0x1E6A0600)
-#define CINEMACHINEMIXER_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0x1E69F520)
-#define CINEMACHINEMIXER_PREPAREFRAME_OFFSET UNITYSDK_OFFSET(0x1E69F670)
-#define CINEMACHINEMIXER_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x1E69F680)
-#define CINEMACHINEMIXER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E6A0690)
+#define CINEMACHINEMIXER_GETDELTATIME_OFFSET UNITYSDK_OFFSET(0x1FA7C1E0)
+#define CINEMACHINEMIXER_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0x1FA7B110)
+#define CINEMACHINEMIXER_PREPAREFRAME_OFFSET UNITYSDK_OFFSET(0x1FA7B260)
+#define CINEMACHINEMIXER_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x1FA7B270)
+#define CINEMACHINEMIXER__CTOR_OFFSET UNITYSDK_OFFSET(0x1FA7C270)
 
-inline static constexpr unsigned int CinemachineMixer_TypeDefinitionIndex = 33999;
+inline static constexpr unsigned int CinemachineMixer_TypeDefinitionIndex = 34635;
 
 class CinemachineMixer : public ::UnityEngine::Playables::PlayableBehaviour
 {
 public:
 	static ::CinemachineMixer_MasterDirectorDelegate** StaticGet_GetMasterPlayableDirector()
 	{
-		return (::CinemachineMixer_MasterDirectorDelegate**)Il2CppClass::FromTypeDefinitionIndex(CinemachineMixer_TypeDefinitionIndex)->GetStaticField(0x4F3E0);
+		return (::CinemachineMixer_MasterDirectorDelegate**)Il2CppClass::FromTypeDefinitionIndex(CinemachineMixer_TypeDefinitionIndex)->GetStaticField(0x53590);
 	}
 	::Cinemachine::CinemachineBrain* mBrain; // 0x10
-	::System::Boolean mPreviewPlay; // 0x18
-	::System::Int32 mBrainOverrideId; // 0x1C
+	::System::Int32 mBrainOverrideId; // 0x18
+	::System::Boolean mPreviewPlay; // 0x1C
 
 	::System::Void _ctor()
 	{

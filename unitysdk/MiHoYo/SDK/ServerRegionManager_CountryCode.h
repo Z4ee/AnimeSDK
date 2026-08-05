@@ -5,19 +5,19 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define MIHOYO_SDK_SERVERREGIONMANAGER_COUNTRYCODE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BA957F0)
-#define MIHOYO_SDK_SERVERREGIONMANAGER_COUNTRYCODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA957E0)
+#define MIHOYO_SDK_SERVERREGIONMANAGER_COUNTRYCODE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CD179A0)
+#define MIHOYO_SDK_SERVERREGIONMANAGER_COUNTRYCODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD17990)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ServerRegionManager_CountryCode_TypeDefinitionIndex = 19728;
+	inline static constexpr unsigned int ServerRegionManager_CountryCode_TypeDefinitionIndex = 20076;
 
 	class ServerRegionManager_CountryCode : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::HashSet_1<::System::String*>** StaticGet_EU()
 		{
-			return (::System::Collections::Generic::HashSet_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ServerRegionManager_CountryCode_TypeDefinitionIndex)->GetStaticField(0xA5C0);
+			return (::System::Collections::Generic::HashSet_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ServerRegionManager_CountryCode_TypeDefinitionIndex)->GetStaticField(0xA620);
 		}
 		// static const ::System::String* AT; // 0x0
 		// static const ::System::String* BE; // 0x0

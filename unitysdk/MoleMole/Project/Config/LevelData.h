@@ -12,11 +12,11 @@ namespace MoleMole::Project::Config { class TargetPointData; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_PROJECT_CONFIG_LEVELDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1A94F0A0)
+#define MOLEMOLE_PROJECT_CONFIG_LEVELDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x17CBEEC0)
 
 namespace MoleMole::Project::Config
 {
-	inline static constexpr unsigned int LevelData_TypeDefinitionIndex = 13606;
+	inline static constexpr unsigned int LevelData_TypeDefinitionIndex = 12136;
 
 	class LevelData : public ::System::Object
 	{

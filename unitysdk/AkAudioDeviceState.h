@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int AkAudioDeviceState_TypeDefinitionIndex = 32941;
+inline static constexpr unsigned int AkAudioDeviceState_TypeDefinitionIndex = 33576;
 
 enum class AkAudioDeviceState : ::System::Int32
 {

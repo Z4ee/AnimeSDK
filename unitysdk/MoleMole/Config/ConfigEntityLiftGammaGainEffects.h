@@ -6,11 +6,11 @@ namespace MoleMole::Config { class ConfigEntityLiftGammaGainEffect; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGENTITYLIFTGAMMAGAINEFFECTS__CTOR_OFFSET UNITYSDK_OFFSET(0x18F32CC0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYLIFTGAMMAGAINEFFECTS__CTOR_OFFSET UNITYSDK_OFFSET(0x1625C850)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigEntityLiftGammaGainEffects_TypeDefinitionIndex = 82593;
+	inline static constexpr unsigned int ConfigEntityLiftGammaGainEffects_TypeDefinitionIndex = 54109;
 
 	class ConfigEntityLiftGammaGainEffects : public ::Foundation::MihoyoSerializedScriptableObject
 	{

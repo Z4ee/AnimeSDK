@@ -4,7 +4,7 @@
 
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int DictionaryKeyUtility_FallbackKeyComparer_1_TypeDefinitionIndex = 7561;
+	inline static constexpr unsigned int DictionaryKeyUtility_FallbackKeyComparer_1_TypeDefinitionIndex = 7565;
 
 	template <typename T>
 	class DictionaryKeyUtility_FallbackKeyComparer_1 : public ::System::Object

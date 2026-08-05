@@ -7,30 +7,30 @@ class Class_2_B4378B46E0020E85;
 class Class_2_FDFE69FE7B72463B;
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_UIMONSTERFANTASYROLEITEMWIDGETCONTROLLER_VIEWCONTENT_VIEWDETAILS__CTOR_OFFSET UNITYSDK_OFFSET(0x17168A60)
+#define MOLEMOLE_UIMONSTERFANTASYROLEITEMWIDGETCONTROLLER_VIEWCONTENT_VIEWDETAILS__CTOR_OFFSET UNITYSDK_OFFSET(0x15F3EC60)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMonsterFantasyRoleItemWidgetController_ViewContent_ViewDetails_TypeDefinitionIndex = 57112;
+	inline static constexpr unsigned int UIMonsterFantasyRoleItemWidgetController_ViewContent_ViewDetails_TypeDefinitionIndex = 45816;
 
 	class UIMonsterFantasyRoleItemWidgetController_ViewContent_ViewDetails : public ::System::Object
 	{
 	public:
-		::Class_2_1A39E1B51756BF41* Img; // 0x10
-		::UnityEngine::GameObject* Go; // 0x18
-		::Class_2_1A39E1B51756BF41* TagLeftImg; // 0x20
-		::Class_2_B4378B46E0020E85* Btn; // 0x28
-		::Class_2_1A39E1B51756BF41* LongPressFillImg; // 0x30
-		::UnityEngine::GameObject* LongPressGo; // 0x38
-		::UnityEngine::GameObject* EnemyTagGo; // 0x40
-		::UnityEngine::GameObject* ExtraGo; // 0x48
-		::Class_2_FDFE69FE7B72463B* HpAddLight; // 0x50
-		::Class_2_1A39E1B51756BF41* HpImg; // 0x58
-		::Class_2_1A39E1B51756BF41* TagRightImg; // 0x60
-		::UnityEngine::GameObject* DisableGo; // 0x68
-		::UnityEngine::GameObject* PlayerTagGo; // 0x70
-		::UnityEngine::GameObject* TagGo; // 0x78
-		::Class_2_1A39E1B51756BF41* TagImg; // 0x80
+		::UnityEngine::GameObject* ExtraGo; // 0x10
+		::Class_2_1A39E1B51756BF41* HpImg; // 0x18
+		::Class_2_B4378B46E0020E85* Btn; // 0x20
+		::Class_2_1A39E1B51756BF41* LongPressFillImg; // 0x28
+		::Class_2_1A39E1B51756BF41* Img; // 0x30
+		::Class_2_1A39E1B51756BF41* TagLeftImg; // 0x38
+		::Class_2_1A39E1B51756BF41* TagImg; // 0x40
+		::UnityEngine::GameObject* LongPressGo; // 0x48
+		::UnityEngine::GameObject* DisableGo; // 0x50
+		::UnityEngine::GameObject* TagGo; // 0x58
+		::UnityEngine::GameObject* PlayerTagGo; // 0x60
+		::Class_2_1A39E1B51756BF41* TagRightImg; // 0x68
+		::UnityEngine::GameObject* Go; // 0x70
+		::UnityEngine::GameObject* EnemyTagGo; // 0x78
+		::Class_2_FDFE69FE7B72463B* HpAddLight; // 0x80
 
 		::System::Void _ctor()
 		{

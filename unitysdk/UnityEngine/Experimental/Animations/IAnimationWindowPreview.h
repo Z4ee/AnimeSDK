@@ -4,7 +4,7 @@
 
 namespace UnityEngine::Experimental::Animations
 {
-	inline static constexpr unsigned int IAnimationWindowPreview_TypeDefinitionIndex = 6664;
+	inline static constexpr unsigned int IAnimationWindowPreview_TypeDefinitionIndex = 6668;
 
 	class IAnimationWindowPreview
 	{

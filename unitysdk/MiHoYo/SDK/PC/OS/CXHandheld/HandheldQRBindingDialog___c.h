@@ -5,24 +5,24 @@
 namespace MiHoYo::SDK::PC::OS::CXHandheld { class HandheldQRBindingDialog; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDQRBINDINGDIALOG___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BA81E20)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDQRBINDINGDIALOG___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA81E60)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDQRBINDINGDIALOG___C__SHOW_B__40_0_OFFSET UNITYSDK_OFFSET(0x1BA81E70)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDQRBINDINGDIALOG___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CD02870)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDQRBINDINGDIALOG___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD028B0)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDQRBINDINGDIALOG___C__SHOW_B__40_0_OFFSET UNITYSDK_OFFSET(0x1CD028C0)
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
-	inline static constexpr unsigned int HandheldQRBindingDialog___c_TypeDefinitionIndex = 20562;
+	inline static constexpr unsigned int HandheldQRBindingDialog___c_TypeDefinitionIndex = 20909;
 
 	class HandheldQRBindingDialog___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::MiHoYo::SDK::PC::OS::CXHandheld::HandheldQRBindingDialog*>** StaticGet___9__40_0()
-		{
-			return (::System::Action_1<::MiHoYo::SDK::PC::OS::CXHandheld::HandheldQRBindingDialog*>**)Il2CppClass::FromTypeDefinitionIndex(HandheldQRBindingDialog___c_TypeDefinitionIndex)->GetStaticField(0x9130);
-		}
 		static ::MiHoYo::SDK::PC::OS::CXHandheld::HandheldQRBindingDialog___c** StaticGet___9()
 		{
-			return (::MiHoYo::SDK::PC::OS::CXHandheld::HandheldQRBindingDialog___c**)Il2CppClass::FromTypeDefinitionIndex(HandheldQRBindingDialog___c_TypeDefinitionIndex)->GetStaticField(0x9138);
+			return (::MiHoYo::SDK::PC::OS::CXHandheld::HandheldQRBindingDialog___c**)Il2CppClass::FromTypeDefinitionIndex(HandheldQRBindingDialog___c_TypeDefinitionIndex)->GetStaticField(0x9170);
+		}
+		static ::System::Action_1<::MiHoYo::SDK::PC::OS::CXHandheld::HandheldQRBindingDialog*>** StaticGet___9__40_0()
+		{
+			return (::System::Action_1<::MiHoYo::SDK::PC::OS::CXHandheld::HandheldQRBindingDialog*>**)Il2CppClass::FromTypeDefinitionIndex(HandheldQRBindingDialog___c_TypeDefinitionIndex)->GetStaticField(0x9178);
 		}
 
 		static ::System::Void _cctor()

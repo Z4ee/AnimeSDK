@@ -8,13 +8,13 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_CONFIGVOICETOEVENT_TRYGETRULELIST_OFFSET UNITYSDK_OFFSET(0x1A00EB90)
-#define MOLEMOLE_CONFIGVOICETOEVENT_TRYGETWWISEEVENT_OFFSET UNITYSDK_OFFSET(0x1A00EE00)
-#define MOLEMOLE_CONFIGVOICETOEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A00F0D0)
+#define MOLEMOLE_CONFIGVOICETOEVENT_TRYGETRULELIST_OFFSET UNITYSDK_OFFSET(0x1B820AA0)
+#define MOLEMOLE_CONFIGVOICETOEVENT_TRYGETWWISEEVENT_OFFSET UNITYSDK_OFFSET(0x1B820D10)
+#define MOLEMOLE_CONFIGVOICETOEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B820FC0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigVoiceToEvent_TypeDefinitionIndex = 71240;
+	inline static constexpr unsigned int ConfigVoiceToEvent_TypeDefinitionIndex = 53934;
 
 	class ConfigVoiceToEvent : public ::Foundation::MihoyoSerializedScriptableObject
 	{

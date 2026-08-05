@@ -9,23 +9,23 @@ namespace MoleMole::Battle { class Entity; }
 namespace MoleMole::Config { class ConfigPosRot; }
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_CREATEATTACHEFFECTNODE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x16CA9B40)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_CREATEATTACHEFFECTNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x16CA9CC0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_CREATEATTACHEFFECTNODE__REGISTERPORTS_B__6_0_OFFSET UNITYSDK_OFFSET(0x16CA9D00)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_CREATEATTACHEFFECTNODE__REGISTERPORTS_B__6_1_OFFSET UNITYSDK_OFFSET(0x16CA9D10)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_CREATEATTACHEFFECTNODE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x13A8CC90)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_CREATEATTACHEFFECTNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x13A8CE10)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_CREATEATTACHEFFECTNODE__REGISTERPORTS_B__6_0_OFFSET UNITYSDK_OFFSET(0x13A8CE50)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_CREATEATTACHEFFECTNODE__REGISTERPORTS_B__6_1_OFFSET UNITYSDK_OFFSET(0x13A8CE60)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_CreateAttachEffectNode_TypeDefinitionIndex = 60628;
+	inline static constexpr unsigned int LD_CreateAttachEffectNode_TypeDefinitionIndex = 48479;
 
 	class LD_CreateAttachEffectNode : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::FlowOutput* _flowOutput; // 0xA8
-		::MoleMole::Battle::Entity* _effectEntity; // 0xB0
-		::FlowCanvas::ValueInput_1<::System::String*>* attachPointName; // 0xB8
+		::FlowCanvas::ValueInput_1<::System::String*>* attachPointName; // 0xA8
+		::FlowCanvas::FlowOutput* _flowOutput; // 0xB0
+		::FlowCanvas::ValueInput_1<::System::String*>* effectName; // 0xB8
 		::FlowCanvas::ValueInput_1<::MoleMole::Battle::Entity*>* attachEntity; // 0xC0
-		::FlowCanvas::ValueInput_1<::System::String*>* effectName; // 0xC8
+		::MoleMole::Battle::Entity* _effectEntity; // 0xC8
 		::MoleMole::Config::ConfigPosRot* posRot; // 0xD0
 
 		::System::Void _ctor()

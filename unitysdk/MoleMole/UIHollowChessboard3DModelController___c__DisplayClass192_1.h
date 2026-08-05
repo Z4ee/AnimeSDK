@@ -5,18 +5,18 @@
 class Class_4_444D64FC19B4A3CC;
 namespace MoleMole { class UIHollowChessboard3DModelController___c__DisplayClass192_0; }
 
-#define MOLEMOLE_UIHOLLOWCHESSBOARD3DMODELCONTROLLER___C__DISPLAYCLASS192_1__CTOR_OFFSET UNITYSDK_OFFSET(0x16D526D0)
-#define MOLEMOLE_UIHOLLOWCHESSBOARD3DMODELCONTROLLER___C__DISPLAYCLASS192_1__RESETGLOBALTARGET_B__0_OFFSET UNITYSDK_OFFSET(0x16D526E0)
+#define MOLEMOLE_UIHOLLOWCHESSBOARD3DMODELCONTROLLER___C__DISPLAYCLASS192_1__CTOR_OFFSET UNITYSDK_OFFSET(0x18EF0EA0)
+#define MOLEMOLE_UIHOLLOWCHESSBOARD3DMODELCONTROLLER___C__DISPLAYCLASS192_1__RESETGLOBALTARGET_B__0_OFFSET UNITYSDK_OFFSET(0x18EF0EB0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowChessboard3DModelController___c__DisplayClass192_1_TypeDefinitionIndex = 58372;
+	inline static constexpr unsigned int UIHollowChessboard3DModelController___c__DisplayClass192_1_TypeDefinitionIndex = 63274;
 
 	class UIHollowChessboard3DModelController___c__DisplayClass192_1 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIHollowChessboard3DModelController___c__DisplayClass192_0* CS___8__locals1; // 0x10
-		::Class_4_444D64FC19B4A3CC* strategyComponent; // 0x18
+		::Class_4_444D64FC19B4A3CC* strategyComponent; // 0x10
+		::MoleMole::UIHollowChessboard3DModelController___c__DisplayClass192_0* CS___8__locals1; // 0x18
 
 		::System::Void _ctor()
 		{

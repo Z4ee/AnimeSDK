@@ -1,0 +1,377 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_C4CB11A2FD957208_Struct_2_98E057419FFAAB00.h"
+#include "unitysdk/Enum_3_3EDF246633A325B0.h"
+#include "unitysdk/Foundation/AssetPath.h"
+#include "unitysdk/MoleMole/InputActionEvent.h"
+#include "unitysdk/MoleMole/UIWindowController.h"
+#include "unitysdk/Struct_2_9E75F47F2670B678.h"
+
+class Class_1_3437E8F8CEFA7AE1;
+class Class_1_578D626AD8D36DB6;
+class Class_1_B7E341C5F1A6F199;
+class Class_2_208CC9941471731A_602;
+class Class_2_2AB46C9F111C45AE;
+class Class_2_60638234271CCDB8_98;
+class Class_2_AF5BA1C65F12F4B1;
+class Class_3_92F997031AF90696;
+class Class_3_C3F0E3B5AB5977AE_52;
+class UIToWorldRTOutput;
+namespace MoleMole { class UIControlReference; }
+namespace MoleMole { class UIControllerContextBase; }
+namespace MoleMole { class UIGeneralTipsPopWindowController; }
+namespace MoleMole { class UIZenkovLotteryGameRoleHudWidgetController; }
+namespace MoleMole { class UIZenkovLotteryGameRoleHudWidgetControllerContext; }
+namespace MoleMole::Battle { class Entity; }
+namespace System { class Action; }
+namespace System { class EventArgs; }
+namespace System { class String; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_BINDBTNS_OFFSET UNITYSDK_OFFSET(0x14DA3670)
+#define MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_CLOSEALLTIPS_OFFSET UNITYSDK_OFFSET(0x14DA43A0)
+#define MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_GETGENERALCHALLENGEREWARDLIST_OFFSET UNITYSDK_OFFSET(0x14DA1620)
+#define MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_GETHEADICON_OFFSET UNITYSDK_OFFSET(0x14DA29F0)
+#define MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_GETREWARDINFODATALIST_OFFSET UNITYSDK_OFFSET(0x14DA1A90)
+#define MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_GET_COMPONENTCLASSIDS_OFFSET UNITYSDK_OFFSET(0x14D9FC30)
+#define MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_GET_EVENTSMASK_OFFSET UNITYSDK_OFFSET(0x14D9FC00)
+#define MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_GET_WINDOWTYPE_OFFSET UNITYSDK_OFFSET(0x14DA2F50)
+#define MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_GET__MAXROLLCOUNT_OFFSET UNITYSDK_OFFSET(0x14DA2EF0)
+#define MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_GET__REWARDPOOLTEMPLATEID_OFFSET UNITYSDK_OFFSET(0x14DA1390)
+#define MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_INITREWARDPREVIEW_OFFSET UNITYSDK_OFFSET(0x14DA0A20)
+#define MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_INITROLLSCROLLVIEW_OFFSET UNITYSDK_OFFSET(0x14DA4D70)
+#define MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_INITSUBSCRIBE_OFFSET UNITYSDK_OFFSET(0x14D9FC40)
+#define MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_INITUI_OFFSET UNITYSDK_OFFSET(0x14DA09C0)
+#define MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_ISLASTAVATARMAYDIEANDGAMEEND_OFFSET UNITYSDK_OFFSET(0x14DA2860)
+#define MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_NEEDOVERRIDEGAMEPAUSE_OFFSET UNITYSDK_OFFSET(0x14DA2EA0)
+#define MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_ONAVATARHITTED_OFFSET UNITYSDK_OFFSET(0x14DA0350)
+#define MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_ONAVATARKILLED_OFFSET UNITYSDK_OFFSET(0x14DA00E0)
+#define MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_ONCLICKCLOSEBTN_OFFSET UNITYSDK_OFFSET(0x14DA39F0)
+#define MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_ONCLICKPAYBTN_OFFSET UNITYSDK_OFFSET(0x14DA3A40)
+#define MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_ONCLICKREWARDBTN_OFFSET UNITYSDK_OFFSET(0x14DA13F0)
+#define MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_ONCLICKREWARDDIALOGITEM_OFFSET UNITYSDK_OFFSET(0x14DA2B40)
+#define MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_ONCLICKRULE_OFFSET UNITYSDK_OFFSET(0x14DA2450)
+#define MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x14DA5480)
+#define MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_ONEVENT_OFFSET UNITYSDK_OFFSET(0x14D9FD40)
+#define MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_ONINPUTACTION_OFFSET UNITYSDK_OFFSET(0x14DA44F0)
+#define MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_ONLEVELENDREQUESTSEND_OFFSET UNITYSDK_OFFSET(0x14DA3950)
+#define MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_ONLOCALAVATARCHANGE_OFFSET UNITYSDK_OFFSET(0x14DA39A0)
+#define MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_ONLOTTERYRESULTRSPREFRESHUI_OFFSET UNITYSDK_OFFSET(0x14DA0970)
+#define MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x14DA5510)
+#define MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x14DA2F60)
+#define MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_ONUIOPEN_OFFSET UNITYSDK_OFFSET(0x14DA46B0)
+#define MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_POPTIP_OFFSET UNITYSDK_OFFSET(0x14DA4220)
+#define MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_PUSHTIP_OFFSET UNITYSDK_OFFSET(0x14DA0730)
+#define MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_REBUILDTEAMAVATARCONTEXTS_OFFSET UNITYSDK_OFFSET(0x14DA1CD0)
+#define MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_REFRESHAGENTMAYDIETIPS_OFFSET UNITYSDK_OFFSET(0x14DA0630)
+#define MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_REFRESHAVATARUI_OFFSET UNITYSDK_OFFSET(0x14DA03E0)
+#define MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_REFRESHLOTTERYDATA_OFFSET UNITYSDK_OFFSET(0x14DA4D00)
+#define MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_REFRESHNEXTTIMEREDUCEHP_OFFSET UNITYSDK_OFFSET(0x14DA2290)
+#define MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_SENDREQUEST_OFFSET UNITYSDK_OFFSET(0x14DA3F40)
+#define MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_SETTIME_OFFSET UNITYSDK_OFFSET(0x14DA1180)
+#define MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_TICKAVATARINFO_OFFSET UNITYSDK_OFFSET(0x14DA0FF0)
+#define MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_UPDATE_OFFSET UNITYSDK_OFFSET(0x14DA1090)
+#define MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_WAITFORROLL_OFFSET UNITYSDK_OFFSET(0x14DA50E0)
+#define MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x14DA5660)
+#define MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER___BASE_NEEDOVERRIDEGAMEPAUSE_OFFSET UNITYSDK_OFFSET(0x14DA57D0)
+#define MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER___BASE_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x14DA5870)
+#define MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER___BASE_ONINPUTACTION_OFFSET UNITYSDK_OFFSET(0x14DA5900)
+#define MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER___BASE_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x14DA5930)
+#define MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER___BASE_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x14DA5940)
+#define MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER___BASE_ONUIOPEN_OFFSET UNITYSDK_OFFSET(0x14DA5950)
+
+namespace MoleMole
+{
+	inline static constexpr unsigned int UIZenkovLotteryGamePageController_TypeDefinitionIndex = 66016;
+
+	class UIZenkovLotteryGamePageController : public ::MoleMole::UIWindowController
+	{
+	public:
+		// static const ::System::Single TickInterval; // 0x0
+		// static const ::System::String* probFormat; // 0x0
+		// static const ::System::Int32 _teamAvatarUiSlotsCount = 0x3; // 0x0
+		// static const ::System::Int32 _generalTipsIdOnGetReward = 0x2DD353; // 0x0
+		// static const ::System::Int32 _generalTipsIdOnMayDie = 0x2DD354; // 0x0
+		::Struct_2_9E75F47F2670B678 _eventsMask; // 0x318
+		::Il2CppArray<::System::Int32>* _componentClassIds; // 0x358
+		::Class_1_578D626AD8D36DB6* _subscriber; // 0x360
+		::System::Single _lastTimeTick; // 0x368
+		::System::Single _curTimer; // 0x36C
+		::System::Single lastLeftTime; // 0x370
+		::System::Collections::Generic::List_1<::Class_2_2AB46C9F111C45AE*>* _rewardTemplateList; // 0x378
+		::System::Boolean _isAvatarHudWidgetsCreated; // 0x380
+		::System::Collections::Generic::List_1<::MoleMole::UIZenkovLotteryGameRoleHudWidgetController*>* _hudWidgets; // 0x388
+		::System::Collections::Generic::List_1<::MoleMole::UIZenkovLotteryGameRoleHudWidgetControllerContext*>* _teamAvatarContexts; // 0x390
+		::System::Int32 _lotteryTemplateID; // 0x398
+		::System::Action* _onUiClose; // 0x3A0
+		::Class_2_208CC9941471731A_602* _cfg; // 0x3A8
+		::Class_2_60638234271CCDB8_98* _view; // 0x3B0
+		::System::String* DefaultScrollSpeed; // 0x3B8
+		::System::Single DefaultSelectAlignTime; // 0x3C0
+		::System::String* RollSelectAlignTime; // 0x3C8
+		::System::String* RollLoopCount; // 0x3D0
+		::System::String* RollCurveKey; // 0x3D8
+		::Class_3_92F997031AF90696* _lotteryData; // 0x3E0
+		::System::UInt32 _groupID; // 0x3E8
+		::System::UInt32 _memberID; // 0x3EC
+		::Class_2_AF5BA1C65F12F4B1* _zenkovModel; // 0x3F0
+		::System::Collections::Generic::List_1<::Class_2_2AB46C9F111C45AE*>* _rollList; // 0x3F8
+		::UIToWorldRTOutput* _uiToWorldRoot; // 0x400
+		::System::Collections::Generic::List_1<::MoleMole::UIGeneralTipsPopWindowController*>* _tipsDialogList; // 0x408
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER__CTOR_OFFSET))(this);
+		}
+
+		::Struct_2_9E75F47F2670B678 get_EventsMask()
+		{
+			return ((::Struct_2_9E75F47F2670B678(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_GET_EVENTSMASK_OFFSET))(this);
+		}
+
+		::Il2CppArray<::System::Int32>* get_ComponentClassIds()
+		{
+			return ((::Il2CppArray<::System::Int32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_GET_COMPONENTCLASSIDS_OFFSET))(this);
+		}
+
+		::System::Void InitSubscribe()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_INITSUBSCRIBE_OFFSET))(this);
+		}
+
+		::System::Void OnEvent(::Class_1_B7E341C5F1A6F199* evt)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_B7E341C5F1A6F199*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_ONEVENT_OFFSET))(this, evt);
+		}
+
+		::System::Void OnAvatarKilled()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_ONAVATARKILLED_OFFSET))(this);
+		}
+
+		::System::Void OnAvatarHitted()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_ONAVATARHITTED_OFFSET))(this);
+		}
+
+		::System::Void OnLotteryResultRspRefreshUI()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_ONLOTTERYRESULTRSPREFRESHUI_OFFSET))(this);
+		}
+
+		::System::Void InitUI()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_INITUI_OFFSET))(this);
+		}
+
+		::System::Void TickAvatarInfo(::System::Single deltaTime)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_TICKAVATARINFO_OFFSET))(this, deltaTime);
+		}
+
+		::System::Void Update()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_UPDATE_OFFSET))(this);
+		}
+
+		::System::Void SetTime(::System::UInt32 targetTimeMs)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_SETTIME_OFFSET))(this, targetTimeMs);
+		}
+
+		::System::Int32 get__rewardPoolTemplateId()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_GET__REWARDPOOLTEMPLATEID_OFFSET))(this);
+		}
+
+		::System::Void InitRewardPreview()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_INITREWARDPREVIEW_OFFSET))(this);
+		}
+
+		::System::Void OnClickRewardBtn()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_ONCLICKREWARDBTN_OFFSET))(this);
+		}
+
+		::System::Collections::Generic::List_1<::Class_1_C4CB11A2FD957208_Struct_2_98E057419FFAAB00>* GetGeneralChallengeRewardList(::System::Int32 rewardPoolID)
+		{
+			return ((::System::Collections::Generic::List_1<::Class_1_C4CB11A2FD957208_Struct_2_98E057419FFAAB00>*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_GETGENERALCHALLENGEREWARDLIST_OFFSET))(this, rewardPoolID);
+		}
+
+		::System::Collections::Generic::List_1<::Class_1_3437E8F8CEFA7AE1*>* GetRewardInfoDataList(::System::Collections::Generic::List_1<::Class_1_C4CB11A2FD957208_Struct_2_98E057419FFAAB00>* tempList)
+		{
+			return ((::System::Collections::Generic::List_1<::Class_1_3437E8F8CEFA7AE1*>*(*)(::PVOID, ::System::Collections::Generic::List_1<::Class_1_C4CB11A2FD957208_Struct_2_98E057419FFAAB00>*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_GETREWARDINFODATALIST_OFFSET))(this, tempList);
+		}
+
+		::System::Void RefreshAvatarUI()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_REFRESHAVATARUI_OFFSET))(this);
+		}
+
+		::System::Void RefreshNextTimeReduceHp()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_REFRESHNEXTTIMEREDUCEHP_OFFSET))(this);
+		}
+
+		::System::Void OnClickRule()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_ONCLICKRULE_OFFSET))(this);
+		}
+
+		::System::Void RefreshAgentMayDieTips()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_REFRESHAGENTMAYDIETIPS_OFFSET))(this);
+		}
+
+		::System::Boolean IsLastAvatarMayDieAndGameEnd()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_ISLASTAVATARMAYDIEANDGAMEEND_OFFSET))(this);
+		}
+
+		::System::Void RebuildTeamAvatarContexts()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_REBUILDTEAMAVATARCONTEXTS_OFFSET))(this);
+		}
+
+		::Foundation::AssetPath GetHeadIcon(::MoleMole::Battle::Entity* entity)
+		{
+			return ((::Foundation::AssetPath(*)(::PVOID, ::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_GETHEADICON_OFFSET))(this, entity);
+		}
+
+		::System::Void OnClickRewardDialogItem(::System::Int32 itemID)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_ONCLICKREWARDDIALOGITEM_OFFSET))(this, itemID);
+		}
+
+		::System::Boolean NeedOverrideGamePause(::System::Boolean& needPause)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::Boolean&))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_NEEDOVERRIDEGAMEPAUSE_OFFSET))(this, needPause);
+		}
+
+		::System::Int32 get__maxRollCount()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_GET__MAXROLLCOUNT_OFFSET))(this);
+		}
+
+		::Enum_3_3EDF246633A325B0 get_windowType()
+		{
+			return ((::Enum_3_3EDF246633A325B0(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_GET_WINDOWTYPE_OFFSET))(this);
+		}
+
+		::System::Void OnUIInit()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_ONUIINIT_OFFSET))(this);
+		}
+
+		::System::Void OnLevelEndRequestSend(::System::EventArgs* args)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::EventArgs*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_ONLEVELENDREQUESTSEND_OFFSET))(this, args);
+		}
+
+		::System::Void OnLocalAvatarChange(::System::EventArgs* args)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::EventArgs*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_ONLOCALAVATARCHANGE_OFFSET))(this, args);
+		}
+
+		::System::Void BindBtns()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_BINDBTNS_OFFSET))(this);
+		}
+
+		::System::Void OnClickCloseBtn()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_ONCLICKCLOSEBTN_OFFSET))(this);
+		}
+
+		::System::Void OnClickPayBtn()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_ONCLICKPAYBTN_OFFSET))(this);
+		}
+
+		::System::Void SendRequest(::Class_3_C3F0E3B5AB5977AE_52* nextResult)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_3_C3F0E3B5AB5977AE_52*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_SENDREQUEST_OFFSET))(this, nextResult);
+		}
+
+		::System::Void PushTip(::MoleMole::UIGeneralTipsPopWindowController* tip)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIGeneralTipsPopWindowController*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_PUSHTIP_OFFSET))(this, tip);
+		}
+
+		::System::Void PopTip(::MoleMole::UIGeneralTipsPopWindowController* tip)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIGeneralTipsPopWindowController*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_POPTIP_OFFSET))(this, tip);
+		}
+
+		::System::Void CloseAllTips()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_CLOSEALLTIPS_OFFSET))(this);
+		}
+
+		::System::Boolean OnInputAction(::MoleMole::InputActionEvent inputAction)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::MoleMole::InputActionEvent))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_ONINPUTACTION_OFFSET))(this, inputAction);
+		}
+
+		::System::Void OnUIOpen(::MoleMole::UIControllerContextBase* openCtrlContext)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_ONUIOPEN_OFFSET))(this, openCtrlContext);
+		}
+
+		::System::Void InitRollScrollview()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_INITROLLSCROLLVIEW_OFFSET))(this);
+		}
+
+		::System::Void RefreshLotteryData()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_REFRESHLOTTERYDATA_OFFSET))(this);
+		}
+
+		::System::Void WaitForRoll()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_WAITFORROLL_OFFSET))(this);
+		}
+
+		::System::Void OnCreateView(::MoleMole::UIControlReference* controlReference)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_ONCREATEVIEW_OFFSET))(this, controlReference);
+		}
+
+		::System::Void OnUIDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_ONUIDESTROY_OFFSET))(this);
+		}
+
+		::System::Boolean __base_NeedOverrideGamePause(::System::Boolean& P0)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::Boolean&))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER___BASE_NEEDOVERRIDEGAMEPAUSE_OFFSET))(this, P0);
+		}
+
+		::System::Void __base_OnCreateView(::MoleMole::UIControlReference* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER___BASE_ONCREATEVIEW_OFFSET))(this, P0);
+		}
+
+		::System::Boolean __base_OnInputAction(::MoleMole::InputActionEvent P0)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::MoleMole::InputActionEvent))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER___BASE_ONINPUTACTION_OFFSET))(this, P0);
+		}
+
+		::System::Void __base_OnUIDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER___BASE_ONUIDESTROY_OFFSET))(this);
+		}
+
+		::System::Void __base_OnUIInit()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER___BASE_ONUIINIT_OFFSET))(this);
+		}
+
+		::System::Void __base_OnUIOpen(::MoleMole::UIControllerContextBase* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER___BASE_ONUIOPEN_OFFSET))(this, P0);
+		}
+	};
+}

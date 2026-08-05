@@ -7,13 +7,13 @@ namespace MoleMole { class ComicScreenInfo_AnimInfo; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_COMICSCREENINFO_READDATATOUIGO_OFFSET UNITYSDK_OFFSET(0x1DFA5FA0)
-#define MOLEMOLE_COMICSCREENINFO_WRITEDATAFROMUIGO_OFFSET UNITYSDK_OFFSET(0x1DFA63A0)
-#define MOLEMOLE_COMICSCREENINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1DFA6880)
+#define MOLEMOLE_COMICSCREENINFO_READDATATOUIGO_OFFSET UNITYSDK_OFFSET(0x1F39FD30)
+#define MOLEMOLE_COMICSCREENINFO_WRITEDATAFROMUIGO_OFFSET UNITYSDK_OFFSET(0x1F3A0130)
+#define MOLEMOLE_COMICSCREENINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1F3A0600)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ComicScreenInfo_TypeDefinitionIndex = 32130;
+	inline static constexpr unsigned int ComicScreenInfo_TypeDefinitionIndex = 32758;
 
 	class ComicScreenInfo : public ::System::Object
 	{

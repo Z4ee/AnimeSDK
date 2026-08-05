@@ -4,11 +4,11 @@
 
 namespace MiHoYo::SDK::PC::OS { class XboxRecentPlayerEntry; }
 
-#define MIHOYO_SDK_PC_OS_XBOXRECENTPLAYERSPARAMEXTENSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB49EA0)
+#define MIHOYO_SDK_PC_OS_XBOXRECENTPLAYERSPARAMEXTENSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1CEADEA0)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int XboxRecentPlayersParamExtension_TypeDefinitionIndex = 20421;
+	inline static constexpr unsigned int XboxRecentPlayersParamExtension_TypeDefinitionIndex = 20768;
 
 	class XboxRecentPlayersParamExtension : public ::System::Object
 	{

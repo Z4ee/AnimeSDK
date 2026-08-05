@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define CYSHARP_THREADING_TASKS_SWITCHTOTHREADPOOLAWAITABLE_GETAWAITER_OFFSET UNITYSDK_OFFSET(0x332AB0)
+#define CYSHARP_THREADING_TASKS_SWITCHTOTHREADPOOLAWAITABLE_GETAWAITER_OFFSET UNITYSDK_OFFSET(0x3CADC0)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int SwitchToThreadPoolAwaitable_TypeDefinitionIndex = 31275;
+	inline static constexpr unsigned int SwitchToThreadPoolAwaitable_TypeDefinitionIndex = 31895;
 
 	struct alignas(1) SwitchToThreadPoolAwaitable
 	{

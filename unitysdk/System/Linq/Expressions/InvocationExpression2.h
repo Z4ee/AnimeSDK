@@ -7,11 +7,11 @@ namespace System { class Type; }
 namespace System::Collections::ObjectModel { template <typename T> class ReadOnlyCollection_1; }
 namespace System::Linq::Expressions { class Expression; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INVOCATIONEXPRESSION2_GETARGUMENT_OFFSET UNITYSDK_OFFSET(0x1E50A490)
-#define SYSTEM_LINQ_EXPRESSIONS_INVOCATIONEXPRESSION2_GETORMAKEARGUMENTS_OFFSET UNITYSDK_OFFSET(0x1E50A480)
-#define SYSTEM_LINQ_EXPRESSIONS_INVOCATIONEXPRESSION2_GET_ARGUMENTCOUNT_OFFSET UNITYSDK_OFFSET(0x1E50A520)
-#define SYSTEM_LINQ_EXPRESSIONS_INVOCATIONEXPRESSION2_REWRITE_OFFSET UNITYSDK_OFFSET(0x1E50A530)
-#define SYSTEM_LINQ_EXPRESSIONS_INVOCATIONEXPRESSION2__CTOR_OFFSET UNITYSDK_OFFSET(0x1E50A400)
+#define SYSTEM_LINQ_EXPRESSIONS_INVOCATIONEXPRESSION2_GETARGUMENT_OFFSET UNITYSDK_OFFSET(0x1F90EF70)
+#define SYSTEM_LINQ_EXPRESSIONS_INVOCATIONEXPRESSION2_GETORMAKEARGUMENTS_OFFSET UNITYSDK_OFFSET(0x1F90EF60)
+#define SYSTEM_LINQ_EXPRESSIONS_INVOCATIONEXPRESSION2_GET_ARGUMENTCOUNT_OFFSET UNITYSDK_OFFSET(0x1F90F000)
+#define SYSTEM_LINQ_EXPRESSIONS_INVOCATIONEXPRESSION2_REWRITE_OFFSET UNITYSDK_OFFSET(0x1F90F010)
+#define SYSTEM_LINQ_EXPRESSIONS_INVOCATIONEXPRESSION2__CTOR_OFFSET UNITYSDK_OFFSET(0x1F90EEE0)
 
 namespace System::Linq::Expressions
 {
@@ -20,8 +20,8 @@ namespace System::Linq::Expressions
 	class InvocationExpression2 : public ::System::Linq::Expressions::InvocationExpression
 	{
 	public:
-		::System::Linq::Expressions::Expression* _arg1; // 0x20
-		::System::Object* _arg0; // 0x28
+		::System::Object* _arg0; // 0x20
+		::System::Linq::Expressions::Expression* _arg1; // 0x28
 
 		::System::Void _ctor(::System::Linq::Expressions::Expression* lambda, ::System::Type* returnType, ::System::Linq::Expressions::Expression* arg0, ::System::Linq::Expressions::Expression* arg1)
 		{

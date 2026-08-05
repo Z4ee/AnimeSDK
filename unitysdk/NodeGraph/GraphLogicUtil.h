@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_4A4C0A974BEEA403.h"
+#include "unitysdk/Enum_3_4A723913001600E1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
@@ -10,30 +10,30 @@ namespace MoleMole::Battle { class Entity; }
 namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define NODEGRAPH_GRAPHLOGICUTIL_CONVERTTOSKINAVATARTAG_OFFSET UNITYSDK_OFFSET(0x102C79A0)
-#define NODEGRAPH_GRAPHLOGICUTIL_GETSWITCHINPOS_1_OFFSET UNITYSDK_OFFSET(0x102C82C0)
-#define NODEGRAPH_GRAPHLOGICUTIL_GETSWITCHINPOS_OFFSET UNITYSDK_OFFSET(0x102C8160)
-#define NODEGRAPH_GRAPHLOGICUTIL_ISGRAPHUPDATEVALID_OFFSET UNITYSDK_OFFSET(0x102C9400)
-#define NODEGRAPH_GRAPHLOGICUTIL_ISSAMEAVATARTAG_OFFSET UNITYSDK_OFFSET(0x102C7390)
-#define NODEGRAPH_GRAPHLOGICUTIL_ISTELEPORTING_OFFSET UNITYSDK_OFFSET(0x102C8030)
-#define NODEGRAPH_GRAPHLOGICUTIL_SETAIACTIVE_OFFSET UNITYSDK_OFFSET(0x102C8B90)
-#define NODEGRAPH_GRAPHLOGICUTIL_TELEPORTTOPOS_OFFSET UNITYSDK_OFFSET(0x102C8640)
-#define NODEGRAPH_GRAPHLOGICUTIL__CCTOR_OFFSET UNITYSDK_OFFSET(0x102C97B0)
+#define NODEGRAPH_GRAPHLOGICUTIL_CONVERTTOSKINAVATARTAG_OFFSET UNITYSDK_OFFSET(0xE5867D0)
+#define NODEGRAPH_GRAPHLOGICUTIL_GETSWITCHINPOS_1_OFFSET UNITYSDK_OFFSET(0xE546B40)
+#define NODEGRAPH_GRAPHLOGICUTIL_GETSWITCHINPOS_OFFSET UNITYSDK_OFFSET(0xE54D3C0)
+#define NODEGRAPH_GRAPHLOGICUTIL_ISGRAPHUPDATEVALID_OFFSET UNITYSDK_OFFSET(0xE587D60)
+#define NODEGRAPH_GRAPHLOGICUTIL_ISSAMEAVATARTAG_OFFSET UNITYSDK_OFFSET(0xE5861D0)
+#define NODEGRAPH_GRAPHLOGICUTIL_ISTELEPORTING_OFFSET UNITYSDK_OFFSET(0xE586E70)
+#define NODEGRAPH_GRAPHLOGICUTIL_SETAIACTIVE_OFFSET UNITYSDK_OFFSET(0xE5874F0)
+#define NODEGRAPH_GRAPHLOGICUTIL_TELEPORTTOPOS_OFFSET UNITYSDK_OFFSET(0xE586FA0)
+#define NODEGRAPH_GRAPHLOGICUTIL__CCTOR_OFFSET UNITYSDK_OFFSET(0xE588110)
 
 namespace NodeGraph
 {
-	inline static constexpr unsigned int GraphLogicUtil_TypeDefinitionIndex = 61091;
+	inline static constexpr unsigned int GraphLogicUtil_TypeDefinitionIndex = 80843;
 
 	class GraphLogicUtil : public ::System::Object
 	{
 	public:
-		static ::MoleMole::Battle::AnimatorParamControl** StaticGet_AnimatorParamControl()
-		{
-			return (::MoleMole::Battle::AnimatorParamControl**)Il2CppClass::FromTypeDefinitionIndex(GraphLogicUtil_TypeDefinitionIndex)->GetStaticField(0x31A90);
-		}
 		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Boolean>** StaticGet__teleporting()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(GraphLogicUtil_TypeDefinitionIndex)->GetStaticField(0x31A98);
+			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(GraphLogicUtil_TypeDefinitionIndex)->GetStaticField(0x33C30);
+		}
+		static ::MoleMole::Battle::AnimatorParamControl** StaticGet_AnimatorParamControl()
+		{
+			return (::MoleMole::Battle::AnimatorParamControl**)Il2CppClass::FromTypeDefinitionIndex(GraphLogicUtil_TypeDefinitionIndex)->GetStaticField(0x33C38);
 		}
 
 		static ::System::Void _cctor()
@@ -71,9 +71,9 @@ namespace NodeGraph
 			return ((::System::Boolean(*)(::MoleMole::Battle::Entity*, ::UnityEngine::Vector3, ::System::Single, ::System::Action*))((::PBYTE)hIl2Cpp + NODEGRAPH_GRAPHLOGICUTIL_TELEPORTTOPOS_OFFSET))(ownerEntity, switchInPos, faceDir, callback);
 		}
 
-		static ::System::Void SetAIActive(::MoleMole::Battle::Entity* entity, ::System::Boolean active, ::Enum_3_4A4C0A974BEEA403 flag)
+		static ::System::Void SetAIActive(::MoleMole::Battle::Entity* entity, ::System::Boolean active, ::Enum_3_4A723913001600E1 flag)
 		{
-			return ((::System::Void(*)(::MoleMole::Battle::Entity*, ::System::Boolean, ::Enum_3_4A4C0A974BEEA403))((::PBYTE)hIl2Cpp + NODEGRAPH_GRAPHLOGICUTIL_SETAIACTIVE_OFFSET))(entity, active, flag);
+			return ((::System::Void(*)(::MoleMole::Battle::Entity*, ::System::Boolean, ::Enum_3_4A723913001600E1))((::PBYTE)hIl2Cpp + NODEGRAPH_GRAPHLOGICUTIL_SETAIACTIVE_OFFSET))(entity, active, flag);
 		}
 
 		static ::System::Boolean IsGraphUpdateValid()

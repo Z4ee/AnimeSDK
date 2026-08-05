@@ -3,7 +3,7 @@
 
 namespace UnityEngine::InputSystem::XR
 {
-	inline static constexpr unsigned int TrackedPoseDriver_TrackingType_TypeDefinitionIndex = 31718;
+	inline static constexpr unsigned int TrackedPoseDriver_TrackingType_TypeDefinitionIndex = 32338;
 
 	enum class TrackedPoseDriver_TrackingType : ::System::Int32
 	{

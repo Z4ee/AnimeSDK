@@ -4,12 +4,12 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UIGENERALPLAYEREXPBTNWIDGETCONTROLLER___C__DISPLAYCLASS4_0__BINDCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0x16A9E480)
-#define MOLEMOLE_UIGENERALPLAYEREXPBTNWIDGETCONTROLLER___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16A9E470)
+#define MOLEMOLE_UIGENERALPLAYEREXPBTNWIDGETCONTROLLER___C__DISPLAYCLASS4_0__BINDCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0x18814A10)
+#define MOLEMOLE_UIGENERALPLAYEREXPBTNWIDGETCONTROLLER___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18814A00)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralPlayerExpBtnWidgetController___c__DisplayClass4_0_TypeDefinitionIndex = 60928;
+	inline static constexpr unsigned int UIGeneralPlayerExpBtnWidgetController___c__DisplayClass4_0_TypeDefinitionIndex = 42988;
 
 	class UIGeneralPlayerExpBtnWidgetController___c__DisplayClass4_0 : public ::System::Object
 	{

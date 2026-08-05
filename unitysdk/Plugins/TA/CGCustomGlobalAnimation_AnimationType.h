@@ -3,7 +3,7 @@
 
 namespace Plugins::TA
 {
-	inline static constexpr unsigned int CGCustomGlobalAnimation_AnimationType_TypeDefinitionIndex = 38058;
+	inline static constexpr unsigned int CGCustomGlobalAnimation_AnimationType_TypeDefinitionIndex = 38719;
 
 	enum class CGCustomGlobalAnimation_AnimationType : ::System::Int32
 	{

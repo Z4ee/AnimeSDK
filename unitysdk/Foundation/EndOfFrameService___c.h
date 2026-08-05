@@ -5,24 +5,24 @@
 namespace System { template <typename T> class Func_1; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define FOUNDATION_ENDOFFRAMESERVICE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E822950)
-#define FOUNDATION_ENDOFFRAMESERVICE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1E822990)
-#define FOUNDATION_ENDOFFRAMESERVICE___C__INVOKESELFDETERMINEDCALLBACK_B__8_0_OFFSET UNITYSDK_OFFSET(0x1E8229A0)
+#define FOUNDATION_ENDOFFRAMESERVICE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FBFD440)
+#define FOUNDATION_ENDOFFRAMESERVICE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1FBFD480)
+#define FOUNDATION_ENDOFFRAMESERVICE___C__INVOKESELFDETERMINEDCALLBACK_B__8_0_OFFSET UNITYSDK_OFFSET(0x1FBFD490)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int EndOfFrameService___c_TypeDefinitionIndex = 8431;
+	inline static constexpr unsigned int EndOfFrameService___c_TypeDefinitionIndex = 8679;
 
 	class EndOfFrameService___c : public ::System::Object
 	{
 	public:
 		static ::Foundation::EndOfFrameService___c** StaticGet___9()
 		{
-			return (::Foundation::EndOfFrameService___c**)Il2CppClass::FromTypeDefinitionIndex(EndOfFrameService___c_TypeDefinitionIndex)->GetStaticField(0x7570);
+			return (::Foundation::EndOfFrameService___c**)Il2CppClass::FromTypeDefinitionIndex(EndOfFrameService___c_TypeDefinitionIndex)->GetStaticField(0x75B0);
 		}
 		static ::System::Predicate_1<::System::Func_1<::System::Boolean>*>** StaticGet___9__8_0()
 		{
-			return (::System::Predicate_1<::System::Func_1<::System::Boolean>*>**)Il2CppClass::FromTypeDefinitionIndex(EndOfFrameService___c_TypeDefinitionIndex)->GetStaticField(0x7578);
+			return (::System::Predicate_1<::System::Func_1<::System::Boolean>*>**)Il2CppClass::FromTypeDefinitionIndex(EndOfFrameService___c_TypeDefinitionIndex)->GetStaticField(0x75B8);
 		}
 
 		static ::System::Void _cctor()

@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define PARADOXNOTION_DESIGN_NODEHIDEIFATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1E8E20)
+#define PARADOXNOTION_DESIGN_NODEHIDEIFATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E544B90)
 
 namespace ParadoxNotion::Design
 {
-	inline static constexpr unsigned int NodeHideIfAttribute_TypeDefinitionIndex = 30565;
+	inline static constexpr unsigned int NodeHideIfAttribute_TypeDefinitionIndex = 30106;
 
 	class NodeHideIfAttribute : public ::System::Attribute
 	{

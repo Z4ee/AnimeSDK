@@ -5,7 +5,7 @@
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int PartialBlurCBuffer_TypeDefinitionIndex = 26692;
+	inline static constexpr unsigned int PartialBlurCBuffer_TypeDefinitionIndex = 27171;
 
 	struct alignas(4) PartialBlurCBuffer
 	{

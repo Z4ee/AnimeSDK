@@ -6,23 +6,23 @@ namespace MoleMole { class UIMechBooPracticeResultPopWindowController; }
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Material; }
 
-#define MOLEMOLE_UIMECHBOOPRACTICERESULTPOPWINDOWCONTROLLER___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16E99A40)
-#define MOLEMOLE_UIMECHBOOPRACTICERESULTPOPWINDOWCONTROLLER___C__DISPLAYCLASS14_0__DELAYRECOVERHP_B__0_OFFSET UNITYSDK_OFFSET(0x16E99A50)
-#define MOLEMOLE_UIMECHBOOPRACTICERESULTPOPWINDOWCONTROLLER___C__DISPLAYCLASS14_0__DELAYRECOVERHP_B__1_OFFSET UNITYSDK_OFFSET(0x16E99B50)
+#define MOLEMOLE_UIMECHBOOPRACTICERESULTPOPWINDOWCONTROLLER___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17DF7450)
+#define MOLEMOLE_UIMECHBOOPRACTICERESULTPOPWINDOWCONTROLLER___C__DISPLAYCLASS14_0__DELAYRECOVERHP_B__0_OFFSET UNITYSDK_OFFSET(0x17DF7460)
+#define MOLEMOLE_UIMECHBOOPRACTICERESULTPOPWINDOWCONTROLLER___C__DISPLAYCLASS14_0__DELAYRECOVERHP_B__1_OFFSET UNITYSDK_OFFSET(0x17DF7560)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMechBooPracticeResultPopWindowController___c__DisplayClass14_0_TypeDefinitionIndex = 56476;
+	inline static constexpr unsigned int UIMechBooPracticeResultPopWindowController___c__DisplayClass14_0_TypeDefinitionIndex = 78591;
 
 	class UIMechBooPracticeResultPopWindowController___c__DisplayClass14_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIMechBooPracticeResultPopWindowController* __4__this; // 0x10
-		::UnityEngine::Material* hpMat; // 0x18
-		::System::Action_1<::System::Int32>* __9__1; // 0x20
-		::System::Int32 newHP; // 0x28
-		::System::Int32 oldHP; // 0x2C
-		::System::Int32 maxHP; // 0x30
+		::UnityEngine::Material* hpMat; // 0x10
+		::System::Action_1<::System::Int32>* __9__1; // 0x18
+		::MoleMole::UIMechBooPracticeResultPopWindowController* __4__this; // 0x20
+		::System::Int32 maxHP; // 0x28
+		::System::Int32 newHP; // 0x2C
+		::System::Int32 oldHP; // 0x30
 
 		::System::Void _ctor()
 		{

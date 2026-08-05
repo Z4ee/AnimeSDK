@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/CodeDom/CodeExpression.h"
 
-#define SYSTEM_CODEDOM_CODETHISREFERENCEEXPRESSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1C64AC00)
+#define SYSTEM_CODEDOM_CODETHISREFERENCEEXPRESSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1DAAEC30)
 
 namespace System::CodeDom
 {

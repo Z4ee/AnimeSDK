@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define MOLEMOLE_SKILLBUTTONCONTAINER_SETBUTTONABILITYS_OFFSET UNITYSDK_OFFSET(0x17387870)
-#define MOLEMOLE_SKILLBUTTONCONTAINER__CTOR_OFFSET UNITYSDK_OFFSET(0x173878B0)
+#define MOLEMOLE_SKILLBUTTONCONTAINER_SETBUTTONABILITYS_OFFSET UNITYSDK_OFFSET(0x1792DFC0)
+#define MOLEMOLE_SKILLBUTTONCONTAINER__CTOR_OFFSET UNITYSDK_OFFSET(0x1792E000)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SkillButtonContainer_TypeDefinitionIndex = 48117;
+	inline static constexpr unsigned int SkillButtonContainer_TypeDefinitionIndex = 80811;
 
 	class SkillButtonContainer : public ::UnityEngine::MonoBehaviour
 	{

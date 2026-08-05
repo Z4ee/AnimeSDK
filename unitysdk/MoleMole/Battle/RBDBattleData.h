@@ -10,11 +10,11 @@ namespace RBDDestruction { class BuildingConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Collider; }
 
-#define MOLEMOLE_BATTLE_RBDBATTLEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x13476550)
+#define MOLEMOLE_BATTLE_RBDBATTLEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1483FFD0)
 
 namespace MoleMole::Battle
 {
-	inline static constexpr unsigned int RBDBattleData_TypeDefinitionIndex = 81246;
+	inline static constexpr unsigned int RBDBattleData_TypeDefinitionIndex = 84522;
 
 	class RBDBattleData : public ::UnityEngine::MonoBehaviour
 	{

@@ -10,7 +10,7 @@ namespace System::Collections::Generic { template <typename T> class IEqualityCo
 
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int DictionaryFormatter_2_TypeDefinitionIndex = 7454;
+	inline static constexpr unsigned int DictionaryFormatter_2_TypeDefinitionIndex = 7458;
 
 	template <typename TKey, typename TValue>
 	class DictionaryFormatter_2 : public ::Sirenix::Serialization::MinimalBaseFormatter_1<::System::Collections::Generic::Dictionary_2<TKey, TValue>*>

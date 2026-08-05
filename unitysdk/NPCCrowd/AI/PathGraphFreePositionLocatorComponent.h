@@ -3,11 +3,11 @@
 #include "unitysdk/NPCCrowd/AI/PathGraphLocatorComponent.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define NPCCROWD_AI_PATHGRAPHFREEPOSITIONLOCATORCOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0xE003040)
+#define NPCCROWD_AI_PATHGRAPHFREEPOSITIONLOCATORCOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0x11921710)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int PathGraphFreePositionLocatorComponent_TypeDefinitionIndex = 48201;
+	inline static constexpr unsigned int PathGraphFreePositionLocatorComponent_TypeDefinitionIndex = 89758;
 
 	class PathGraphFreePositionLocatorComponent : public ::NPCCrowd::AI::PathGraphLocatorComponent
 	{

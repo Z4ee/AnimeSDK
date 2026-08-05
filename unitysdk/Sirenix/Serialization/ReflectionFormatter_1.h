@@ -8,7 +8,7 @@ namespace Sirenix::Serialization { class ISerializationPolicy; }
 
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int ReflectionFormatter_1_TypeDefinitionIndex = 7482;
+	inline static constexpr unsigned int ReflectionFormatter_1_TypeDefinitionIndex = 7486;
 
 	template <typename T>
 	class ReflectionFormatter_1 : public ::Sirenix::Serialization::BaseFormatter_1<T>

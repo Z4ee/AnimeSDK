@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace PipelineCamera::SubModule
 {
-	inline static constexpr unsigned int PivotLocationDamperConfig_TypeDefinitionIndex = 38025;
+	inline static constexpr unsigned int PivotLocationDamperConfig_TypeDefinitionIndex = 38686;
 
 	struct alignas(8) PivotLocationDamperConfig
 	{

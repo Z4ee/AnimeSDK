@@ -4,7 +4,7 @@
 
 namespace System { class String; }
 
-#define MONO_SECURITY_X509_X520_OID__CTOR_OFFSET UNITYSDK_OFFSET(0x1E1E6500)
+#define MONO_SECURITY_X509_X520_OID__CTOR_OFFSET UNITYSDK_OFFSET(0x1F603C70)
 
 namespace Mono::Security::X509
 {

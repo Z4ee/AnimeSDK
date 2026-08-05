@@ -5,7 +5,7 @@ namespace System { class Object; }
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int ISetArg_TypeDefinitionIndex = 84097;
+	inline static constexpr unsigned int ISetArg_TypeDefinitionIndex = 65593;
 
 	class ISetArg
 	{

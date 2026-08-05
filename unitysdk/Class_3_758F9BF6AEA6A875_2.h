@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_2_AB0C166B76D82BF6.h"
+#include "unitysdk/Class_2_76B74AA768347996.h"
 
 namespace MoleMole { class SystemSettingContextBase; }
 namespace MoleMole { class SystemSettingEntryBase; }
 
-#define CLASS_3_758F9BF6AEA6A875_2_METHOD_3_6001ED1983AD0FC0_OFFSET UNITYSDK_OFFSET(0x165BFF30)
-#define CLASS_3_758F9BF6AEA6A875_2_METHOD_3_B5C3FEFD7DA82C08_OFFSET UNITYSDK_OFFSET(0x165BFDA0)
-#define CLASS_3_758F9BF6AEA6A875_2__CTOR_OFFSET UNITYSDK_OFFSET(0x165BFD90)
+#define CLASS_3_758F9BF6AEA6A875_2_METHOD_3_6001ED1983AD0FC0_OFFSET UNITYSDK_OFFSET(0x125803E0)
+#define CLASS_3_758F9BF6AEA6A875_2_METHOD_3_B5C3FEFD7DA82C08_OFFSET UNITYSDK_OFFSET(0x12580250)
+#define CLASS_3_758F9BF6AEA6A875_2__CTOR_OFFSET UNITYSDK_OFFSET(0x12580240)
 
-inline static constexpr unsigned int Class_3_758F9BF6AEA6A875_2_TypeDefinitionIndex = 42828;
+inline static constexpr unsigned int Class_3_758F9BF6AEA6A875_2_TypeDefinitionIndex = 42322;
 
-class Class_3_758F9BF6AEA6A875_2 : public ::Class_2_AB0C166B76D82BF6
+class Class_3_758F9BF6AEA6A875_2 : public ::Class_2_76B74AA768347996
 {
 public:
 	::System::Void _ctor(::MoleMole::SystemSettingEntryBase* a1)

@@ -5,12 +5,12 @@
 namespace MoleMole::Config { class ConfigHollowChessboard_GeneralIntRange2IntRangeConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_GENERALRANGE2RANGEGROUPCONFIG_GETRANDOMVALUE_OFFSET UNITYSDK_OFFSET(0x17D56D60)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_GENERALRANGE2RANGEGROUPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17D56ED0)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_GENERALRANGE2RANGEGROUPCONFIG_GETRANDOMVALUE_OFFSET UNITYSDK_OFFSET(0x172A5B20)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_GENERALRANGE2RANGEGROUPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x172A5C90)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowChessboard_GeneralRange2RangeGroupConfig_TypeDefinitionIndex = 64439;
+	inline static constexpr unsigned int ConfigHollowChessboard_GeneralRange2RangeGroupConfig_TypeDefinitionIndex = 59264;
 
 	class ConfigHollowChessboard_GeneralRange2RangeGroupConfig : public ::System::Object
 	{

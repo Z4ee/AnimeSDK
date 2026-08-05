@@ -4,12 +4,12 @@
 
 namespace System { class Action; }
 
-#define PARADOXNOTION_SERVICES_THREADER___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC50750)
-#define PARADOXNOTION_SERVICES_THREADER___C__DISPLAYCLASS7_0__STARTACTION_B__0_OFFSET UNITYSDK_OFFSET(0x1CC50760)
+#define PARADOXNOTION_SERVICES_THREADER___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1DFE59A0)
+#define PARADOXNOTION_SERVICES_THREADER___C__DISPLAYCLASS7_0__STARTACTION_B__0_OFFSET UNITYSDK_OFFSET(0x1DFE59B0)
 
 namespace ParadoxNotion::Services
 {
-	inline static constexpr unsigned int Threader___c__DisplayClass7_0_TypeDefinitionIndex = 30822;
+	inline static constexpr unsigned int Threader___c__DisplayClass7_0_TypeDefinitionIndex = 30276;
 
 	class Threader___c__DisplayClass7_0 : public ::System::Object
 	{

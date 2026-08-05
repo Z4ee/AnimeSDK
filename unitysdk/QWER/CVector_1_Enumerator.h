@@ -6,7 +6,7 @@ namespace QWER { template <typename T> class CVector_1; }
 
 namespace QWER
 {
-	inline static constexpr unsigned int CVector_1_Enumerator_TypeDefinitionIndex = 8824;
+	inline static constexpr unsigned int CVector_1_Enumerator_TypeDefinitionIndex = 8911;
 
 	template <typename T>
 	class CVector_1_Enumerator : public ::System::Object

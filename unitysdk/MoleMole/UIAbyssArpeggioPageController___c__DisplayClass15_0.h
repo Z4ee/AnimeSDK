@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIAbyssArpeggioPageController; }
 
-#define MOLEMOLE_UIABYSSARPEGGIOPAGECONTROLLER___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0x141CF320)
-#define MOLEMOLE_UIABYSSARPEGGIOPAGECONTROLLER___C__DISPLAYCLASS15_0__ONUIOPEN_B__0_OFFSET UNITYSDK_OFFSET(0x141CF330)
+#define MOLEMOLE_UIABYSSARPEGGIOPAGECONTROLLER___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0x197AA960)
+#define MOLEMOLE_UIABYSSARPEGGIOPAGECONTROLLER___C__DISPLAYCLASS15_0__ONUIOPEN_B__0_OFFSET UNITYSDK_OFFSET(0x197AA970)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAbyssArpeggioPageController___c__DisplayClass15_0_TypeDefinitionIndex = 68405;
+	inline static constexpr unsigned int UIAbyssArpeggioPageController___c__DisplayClass15_0_TypeDefinitionIndex = 41616;
 
 	class UIAbyssArpeggioPageController___c__DisplayClass15_0 : public ::System::Object
 	{

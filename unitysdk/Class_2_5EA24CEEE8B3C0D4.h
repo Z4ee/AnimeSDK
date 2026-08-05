@@ -1,0 +1,91 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_5F7D9CB35A10310E.h"
+
+class Class_1_D375C91CCE5D3999;
+class Class_1_EEA0111A28582B57;
+class Class_1_F4BC7A67D37045F0;
+class Class_2_1B1C05BC0A38A2D5;
+class Class_2_1BB071BAE5B88115;
+namespace MoleMole { class ActivityGuideUIBaseWidgetController; }
+namespace MoleMole { class UIActivityCompDoubleWidgetController; }
+namespace MoleMole { class UIActivityGuideInfoWidgetController; }
+
+#define CLASS_2_5EA24CEEE8B3C0D4_METHOD_2_2CFD4BD2FF5B5145_OFFSET UNITYSDK_OFFSET(0x18DA3350)
+#define CLASS_2_5EA24CEEE8B3C0D4_METHOD_2_3CAD92CFB876DBF6_OFFSET UNITYSDK_OFFSET(0x18DA35D0)
+#define CLASS_2_5EA24CEEE8B3C0D4_METHOD_2_913947B6596EB50A_OFFSET UNITYSDK_OFFSET(0x18DA37C0)
+#define CLASS_2_5EA24CEEE8B3C0D4_METHOD_2_A134E903C4692403_OFFSET UNITYSDK_OFFSET(0x18DA3A90)
+#define CLASS_2_5EA24CEEE8B3C0D4_METHOD_2_B0E88616F17CA767_OFFSET UNITYSDK_OFFSET(0x18DA39F0)
+#define CLASS_2_5EA24CEEE8B3C0D4_METHOD_2_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0x18DA3960)
+#define CLASS_2_5EA24CEEE8B3C0D4_METHOD_2_CA373AA1C7054598_2_OFFSET UNITYSDK_OFFSET(0x18DA3B30)
+#define CLASS_2_5EA24CEEE8B3C0D4_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x18DA38D0)
+#define CLASS_2_5EA24CEEE8B3C0D4_METHOD_2_D9E34E162363C06E_OFFSET UNITYSDK_OFFSET(0x18DA3880)
+#define CLASS_2_5EA24CEEE8B3C0D4_METHOD_2_F5447CD65612575D_OFFSET UNITYSDK_OFFSET(0x18DA3750)
+#define CLASS_2_5EA24CEEE8B3C0D4__CTOR_OFFSET UNITYSDK_OFFSET(0x18DA3310)
+
+inline static constexpr unsigned int Class_2_5EA24CEEE8B3C0D4_TypeDefinitionIndex = 41343;
+
+class Class_2_5EA24CEEE8B3C0D4 : public ::Class_1_5F7D9CB35A10310E
+{
+public:
+	::Class_1_F4BC7A67D37045F0* Field_2_5; // 0x38
+	::MoleMole::UIActivityGuideInfoWidgetController* Field_2_0; // 0x40
+	::Class_2_1BB071BAE5B88115* Field_2_4; // 0x48
+	::MoleMole::UIActivityCompDoubleWidgetController* Field_2_6; // 0x50
+	::Class_2_1B1C05BC0A38A2D5* Field_2_7; // 0x58
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_5EA24CEEE8B3C0D4__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_2_2CFD4BD2FF5B5145(::MoleMole::ActivityGuideUIBaseWidgetController* a1, ::Class_1_EEA0111A28582B57* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::MoleMole::ActivityGuideUIBaseWidgetController*, ::Class_1_EEA0111A28582B57*))((::PBYTE)hIl2Cpp + CLASS_2_5EA24CEEE8B3C0D4_METHOD_2_2CFD4BD2FF5B5145_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_2_3CAD92CFB876DBF6()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_5EA24CEEE8B3C0D4_METHOD_2_3CAD92CFB876DBF6_OFFSET))(this);
+	}
+
+	::System::Void Method_2_913947B6596EB50A()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_5EA24CEEE8B3C0D4_METHOD_2_913947B6596EB50A_OFFSET))(this);
+	}
+
+	::System::Void Method_2_D9E34E162363C06E()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_5EA24CEEE8B3C0D4_METHOD_2_D9E34E162363C06E_OFFSET))(this);
+	}
+
+	::System::Void Method_2_CA373AA1C7054598()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_5EA24CEEE8B3C0D4_METHOD_2_CA373AA1C7054598_OFFSET))(this);
+	}
+
+	::System::Void Method_2_CA373AA1C7054598_1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_5EA24CEEE8B3C0D4_METHOD_2_CA373AA1C7054598_1_OFFSET))(this);
+	}
+
+	::System::Void Method_2_B0E88616F17CA767(::MoleMole::ActivityGuideUIBaseWidgetController* a1, ::Class_1_EEA0111A28582B57* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::MoleMole::ActivityGuideUIBaseWidgetController*, ::Class_1_EEA0111A28582B57*))((::PBYTE)hIl2Cpp + CLASS_2_5EA24CEEE8B3C0D4_METHOD_2_B0E88616F17CA767_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_2_A134E903C4692403(::Class_1_D375C91CCE5D3999* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_D375C91CCE5D3999*))((::PBYTE)hIl2Cpp + CLASS_2_5EA24CEEE8B3C0D4_METHOD_2_A134E903C4692403_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_CA373AA1C7054598_2()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_5EA24CEEE8B3C0D4_METHOD_2_CA373AA1C7054598_2_OFFSET))(this);
+	}
+
+	::System::Void Method_2_F5447CD65612575D()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_5EA24CEEE8B3C0D4_METHOD_2_F5447CD65612575D_OFFSET))(this);
+	}
+};

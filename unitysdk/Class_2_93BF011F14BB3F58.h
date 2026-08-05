@@ -1,0 +1,89 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Foundation/SingletonDisposable_1.h"
+#include "unitysdk/Struct_2_E223907A17AC5B62.h"
+#include "unitysdk/Unity/Jobs/JobHandle.h"
+
+class Class_1_463E8E2D3909DF52;
+namespace UnityEngine { class Transform; }
+
+#define CLASS_2_93BF011F14BB3F58_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1D330C30)
+#define CLASS_2_93BF011F14BB3F58_METHOD_2_17C2BBE3CA88BBC8_OFFSET UNITYSDK_OFFSET(0x1D331420)
+#define CLASS_2_93BF011F14BB3F58_METHOD_2_2685B6183E614529_OFFSET UNITYSDK_OFFSET(0x1D330D70)
+#define CLASS_2_93BF011F14BB3F58_METHOD_2_3D4EAC64666D4A03_OFFSET UNITYSDK_OFFSET(0x1D330DD0)
+#define CLASS_2_93BF011F14BB3F58_METHOD_2_84B92802FDAFF6C8_OFFSET UNITYSDK_OFFSET(0x1D331190)
+#define CLASS_2_93BF011F14BB3F58_METHOD_2_8D45AF24BFA72243_OFFSET UNITYSDK_OFFSET(0x1D3327F0)
+#define CLASS_2_93BF011F14BB3F58_METHOD_2_B839AD5CB4E018CF_OFFSET UNITYSDK_OFFSET(0x1D330E60)
+#define CLASS_2_93BF011F14BB3F58_METHOD_2_C50A2293958CA940_OFFSET UNITYSDK_OFFSET(0x1D3310D0)
+#define CLASS_2_93BF011F14BB3F58_METHOD_2_D2DAD824A8B3FDC1_OFFSET UNITYSDK_OFFSET(0x1D332820)
+#define CLASS_2_93BF011F14BB3F58_METHOD_2_ECA72114536D14FE_OFFSET UNITYSDK_OFFSET(0x1D330CB0)
+#define CLASS_2_93BF011F14BB3F58_ONCREATE_OFFSET UNITYSDK_OFFSET(0x1D330BB0)
+#define CLASS_2_93BF011F14BB3F58__CTOR_OFFSET UNITYSDK_OFFSET(0x1D330C90)
+
+inline static constexpr unsigned int Class_2_93BF011F14BB3F58_TypeDefinitionIndex = 90406;
+
+class Class_2_93BF011F14BB3F58 : public ::Foundation::SingletonDisposable_1<::Class_2_93BF011F14BB3F58*>
+{
+public:
+	::Class_1_463E8E2D3909DF52* Field_2_0; // 0x10
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_93BF011F14BB3F58__CTOR_OFFSET))(this);
+	}
+
+	::System::Void OnCreate()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_93BF011F14BB3F58_ONCREATE_OFFSET))(this);
+	}
+
+	::System::Void Dispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_93BF011F14BB3F58_DISPOSE_OFFSET))(this);
+	}
+
+	::System::Void Method_2_ECA72114536D14FE(::UnityEngine::Transform* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + CLASS_2_93BF011F14BB3F58_METHOD_2_ECA72114536D14FE_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_2685B6183E614529(::System::Single a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_2_93BF011F14BB3F58_METHOD_2_2685B6183E614529_OFFSET))(this, a1);
+	}
+
+	::Struct_2_E223907A17AC5B62 Method_2_3D4EAC64666D4A03(::System::Int32 a1)
+	{
+		return ((::Struct_2_E223907A17AC5B62(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_2_93BF011F14BB3F58_METHOD_2_3D4EAC64666D4A03_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_B839AD5CB4E018CF()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_93BF011F14BB3F58_METHOD_2_B839AD5CB4E018CF_OFFSET))(this);
+	}
+
+	::System::Void Method_2_C50A2293958CA940(::System::Int32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_2_93BF011F14BB3F58_METHOD_2_C50A2293958CA940_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_84B92802FDAFF6C8()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_93BF011F14BB3F58_METHOD_2_84B92802FDAFF6C8_OFFSET))(this);
+	}
+
+	::System::Void Method_2_17C2BBE3CA88BBC8(::System::Single a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_2_93BF011F14BB3F58_METHOD_2_17C2BBE3CA88BBC8_OFFSET))(this, a1);
+	}
+
+	::Unity::Jobs::JobHandle Method_2_8D45AF24BFA72243()
+	{
+		return ((::Unity::Jobs::JobHandle(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_93BF011F14BB3F58_METHOD_2_8D45AF24BFA72243_OFFSET))(this);
+	}
+
+	::System::Void Method_2_D2DAD824A8B3FDC1(::System::Single a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_2_93BF011F14BB3F58_METHOD_2_D2DAD824A8B3FDC1_OFFSET))(this, a1);
+	}
+};

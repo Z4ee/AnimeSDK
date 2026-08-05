@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define NPCCROWD_AI_POPULATIONPOOLREF_GETCLAMPEDWEIGHT_OFFSET UNITYSDK_OFFSET(0x6243E0)
-#define NPCCROWD_AI_POPULATIONPOOLREF__CTOR_OFFSET UNITYSDK_OFFSET(0x6243D0)
+#define NPCCROWD_AI_POPULATIONPOOLREF_GETCLAMPEDWEIGHT_OFFSET UNITYSDK_OFFSET(0x72A380)
+#define NPCCROWD_AI_POPULATIONPOOLREF__CTOR_OFFSET UNITYSDK_OFFSET(0x72A370)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int PopulationPoolRef_TypeDefinitionIndex = 70436;
+	inline static constexpr unsigned int PopulationPoolRef_TypeDefinitionIndex = 76975;
 
 	struct alignas(4) PopulationPoolRef
 	{

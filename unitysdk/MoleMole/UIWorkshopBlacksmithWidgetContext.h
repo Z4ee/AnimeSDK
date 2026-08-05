@@ -5,11 +5,11 @@
 
 class Class_1_F71F7FB55BBEB1D9;
 
-#define MOLEMOLE_UIWORKSHOPBLACKSMITHWIDGETCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xE86A460)
+#define MOLEMOLE_UIWORKSHOPBLACKSMITHWIDGETCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x10F0F3E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIWorkshopBlacksmithWidgetContext_TypeDefinitionIndex = 44430;
+	inline static constexpr unsigned int UIWorkshopBlacksmithWidgetContext_TypeDefinitionIndex = 71908;
 
 	class UIWorkshopBlacksmithWidgetContext : public ::MoleMole::UIControllerContextBase
 	{

@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_323;
+class Class_0_16E4307DCC419505_264;
 
-inline static constexpr unsigned int Class_1_455124A410922D9D_2_TypeDefinitionIndex = 47575;
+inline static constexpr unsigned int Class_1_455124A410922D9D_2_TypeDefinitionIndex = 79929;
 
 template <typename T>
 class Class_1_455124A410922D9D_2 : public ::System::Object

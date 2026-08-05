@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_UIMONSTERCARDINFOPOPWINDOWCONTROLLER_MONSTERINFOEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x152FCCC0)
+#define MOLEMOLE_UIMONSTERCARDINFOPOPWINDOWCONTROLLER_MONSTERINFOEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x168D4FC0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMonsterCardInfoPopWindowController_MonsterInfoExt_TypeDefinitionIndex = 69311;
+	inline static constexpr unsigned int UIMonsterCardInfoPopWindowController_MonsterInfoExt_TypeDefinitionIndex = 66171;
 
 	class UIMonsterCardInfoPopWindowController_MonsterInfoExt : public ::System::Object
 	{

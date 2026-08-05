@@ -3,12 +3,12 @@
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int PathGraphNodeConfig_NodeType_TypeDefinitionIndex = 80157;
+	inline static constexpr unsigned int PathGraphNodeConfig_NodeType_TypeDefinitionIndex = 50980;
 
 	enum class PathGraphNodeConfig_NodeType : ::System::Int32
 	{
-		Spline = 1,
 		Connector = 2,
+		Spline = 1,
 		None = 0,
 	};
 }

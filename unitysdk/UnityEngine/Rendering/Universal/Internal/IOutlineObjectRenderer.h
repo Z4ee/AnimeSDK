@@ -4,7 +4,7 @@
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int IOutlineObjectRenderer_TypeDefinitionIndex = 26740;
+	inline static constexpr unsigned int IOutlineObjectRenderer_TypeDefinitionIndex = 27613;
 
 	class IOutlineObjectRenderer
 	{

@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_BLACKMASKFADECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17D49110)
+#define MOLEMOLE_CONFIG_BLACKMASKFADECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17298F10)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int BlackMaskFadeConfig_TypeDefinitionIndex = 54407;
+	inline static constexpr unsigned int BlackMaskFadeConfig_TypeDefinitionIndex = 55984;
 
 	class BlackMaskFadeConfig : public ::System::Object
 	{

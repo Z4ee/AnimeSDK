@@ -4,7 +4,7 @@
 
 namespace UnityEngine::Experimental::Rendering::Universal::LibTessDotNet
 {
-	inline static constexpr unsigned int PriorityHeap_1_HandleElem_TypeDefinitionIndex = 26395;
+	inline static constexpr unsigned int PriorityHeap_1_HandleElem_TypeDefinitionIndex = 27977;
 
 	template <typename TValue>
 	class PriorityHeap_1_HandleElem : public ::System::Object

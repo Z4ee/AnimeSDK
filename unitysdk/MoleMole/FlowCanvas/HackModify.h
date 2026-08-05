@@ -5,12 +5,12 @@
 namespace MoleMole { class ChessEntity; }
 namespace MoleMole::FlowCanvas { class HackShardedInfo; }
 
-#define MOLEMOLE_FLOWCANVAS_HACKMODIFY_MODIFY_OFFSET UNITYSDK_OFFSET(0x15807D00)
-#define MOLEMOLE_FLOWCANVAS_HACKMODIFY__CTOR_OFFSET UNITYSDK_OFFSET(0x15807DE0)
+#define MOLEMOLE_FLOWCANVAS_HACKMODIFY_MODIFY_OFFSET UNITYSDK_OFFSET(0x12987200)
+#define MOLEMOLE_FLOWCANVAS_HACKMODIFY__CTOR_OFFSET UNITYSDK_OFFSET(0x129872E0)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int HackModify_TypeDefinitionIndex = 79126;
+	inline static constexpr unsigned int HackModify_TypeDefinitionIndex = 47963;
 
 	class HackModify : public ::System::Object
 	{

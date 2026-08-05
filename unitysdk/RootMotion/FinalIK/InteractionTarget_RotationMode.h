@@ -3,11 +3,11 @@
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int InteractionTarget_RotationMode_TypeDefinitionIndex = 38287;
+	inline static constexpr unsigned int InteractionTarget_RotationMode_TypeDefinitionIndex = 38927;
 
 	enum class InteractionTarget_RotationMode : ::System::Int32
 	{
-		ThreeDOF = 1,
 		TwoDOF = 0,
+		ThreeDOF = 1,
 	};
 }

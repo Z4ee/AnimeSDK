@@ -6,7 +6,7 @@
 
 namespace System { class String; }
 
-#define SYSTEM_IO_FILEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1C4770)
+#define SYSTEM_IO_FILEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1D61A050)
 
 namespace System::IO
 {
@@ -16,10 +16,10 @@ namespace System::IO
 	{
 	public:
 		::System::String* Directory; // 0x10
-		::System::IO::FileAttributes Attributes; // 0x18
-		::System::Boolean NotExists; // 0x1C
-		::System::DateTime LastWriteTime; // 0x20
-		::System::DateTime CreationTime; // 0x28
+		::System::DateTime CreationTime; // 0x18
+		::System::IO::FileAttributes Attributes; // 0x20
+		::System::Boolean NotExists; // 0x24
+		::System::DateTime LastWriteTime; // 0x28
 
 		::System::Void _ctor()
 		{

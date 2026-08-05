@@ -7,37 +7,37 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Renderer; }
 
-#define PIPLINEMANAGER_CACHERENDERERS_OFFSET UNITYSDK_OFFSET(0x16826F90)
-#define PIPLINEMANAGER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x16826F00)
-#define PIPLINEMANAGER_REFRESHRENDERERS_OFFSET UNITYSDK_OFFSET(0x16827A60)
-#define PIPLINEMANAGER_UPDATE_OFFSET UNITYSDK_OFFSET(0x16827630)
-#define PIPLINEMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x16827B10)
-#define PIPLINEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x16827AB0)
+#define PIPLINEMANAGER_CACHERENDERERS_OFFSET UNITYSDK_OFFSET(0x1D5C7460)
+#define PIPLINEMANAGER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1D5C73D0)
+#define PIPLINEMANAGER_REFRESHRENDERERS_OFFSET UNITYSDK_OFFSET(0x1D5C7F20)
+#define PIPLINEMANAGER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1D5C7B00)
+#define PIPLINEMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D5C7FD0)
+#define PIPLINEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5C7F70)
 
-inline static constexpr unsigned int PiplineManager_TypeDefinitionIndex = 67038;
+inline static constexpr unsigned int PiplineManager_TypeDefinitionIndex = 56436;
 
 class PiplineManager : public ::UnityEngine::MonoBehaviour
 {
 public:
 	static ::System::String** StaticGet_TargetShaderName()
 	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PiplineManager_TypeDefinitionIndex)->GetStaticField(0x4A4A0);
-	}
-	static ::System::Int32* StaticGet_CharacterPosID()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PiplineManager_TypeDefinitionIndex)->GetStaticField(0x118F0);
-	}
-	static ::System::Int32* StaticGet_RadiusFixID()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PiplineManager_TypeDefinitionIndex)->GetStaticField(0x118F4);
-	}
-	static ::System::Int32* StaticGet_EffectRadiusID()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PiplineManager_TypeDefinitionIndex)->GetStaticField(0x118F8);
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PiplineManager_TypeDefinitionIndex)->GetStaticField(0x459E0);
 	}
 	static ::System::Int32* StaticGet_DisplacementStrengthID()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PiplineManager_TypeDefinitionIndex)->GetStaticField(0x118FC);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PiplineManager_TypeDefinitionIndex)->GetStaticField(0x10230);
+	}
+	static ::System::Int32* StaticGet_RadiusFixID()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PiplineManager_TypeDefinitionIndex)->GetStaticField(0x10234);
+	}
+	static ::System::Int32* StaticGet_CharacterPosID()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PiplineManager_TypeDefinitionIndex)->GetStaticField(0x10238);
+	}
+	static ::System::Int32* StaticGet_EffectRadiusID()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PiplineManager_TypeDefinitionIndex)->GetStaticField(0x1023C);
 	}
 	::UnityEngine::GameObject* characterProxy; // 0x18
 	::System::Single effectRadius; // 0x20

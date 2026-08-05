@@ -6,12 +6,12 @@
 namespace MessagePack { class MessagePackSerializerOptions; }
 namespace System { class Object; }
 
-#define MESSAGEPACK_RESOLVERS_EXPANDOOBJECTRESOLVER_PRIMITIVEOBJECTWITHEXPANDOMAPS_DESERIALIZEMAP_OFFSET UNITYSDK_OFFSET(0x1D34F000)
-#define MESSAGEPACK_RESOLVERS_EXPANDOOBJECTRESOLVER_PRIMITIVEOBJECTWITHEXPANDOMAPS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D34F4B0)
+#define MESSAGEPACK_RESOLVERS_EXPANDOOBJECTRESOLVER_PRIMITIVEOBJECTWITHEXPANDOMAPS_DESERIALIZEMAP_OFFSET UNITYSDK_OFFSET(0x1E6D29A0)
+#define MESSAGEPACK_RESOLVERS_EXPANDOOBJECTRESOLVER_PRIMITIVEOBJECTWITHEXPANDOMAPS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E6D2E40)
 
 namespace MessagePack::Resolvers
 {
-	inline static constexpr unsigned int ExpandoObjectResolver_PrimitiveObjectWithExpandoMaps_TypeDefinitionIndex = 30517;
+	inline static constexpr unsigned int ExpandoObjectResolver_PrimitiveObjectWithExpandoMaps_TypeDefinitionIndex = 30665;
 
 	class ExpandoObjectResolver_PrimitiveObjectWithExpandoMaps : public ::MessagePack::Formatters::PrimitiveObjectFormatter
 	{

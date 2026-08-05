@@ -3,14 +3,14 @@
 
 namespace FluffyUnderware::Curvy
 {
-	inline static constexpr unsigned int CurvyInterpolation_TypeDefinitionIndex = 39048;
+	inline static constexpr unsigned int CurvyInterpolation_TypeDefinitionIndex = 39593;
 
 	enum class CurvyInterpolation : ::System::Int32
 	{
-		CatmullRom = 1,
-		TCB = 2,
 		Linear = 0,
-		BSpline = 4,
+		TCB = 2,
+		CatmullRom = 1,
 		Bezier = 3,
+		BSpline = 4,
 	};
 }

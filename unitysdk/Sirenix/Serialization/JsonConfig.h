@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int JsonConfig_TypeDefinitionIndex = 7424;
+	inline static constexpr unsigned int JsonConfig_TypeDefinitionIndex = 7428;
 
 	class JsonConfig : public ::System::Object
 	{

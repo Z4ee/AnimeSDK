@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-class Class_1_EA1FEF8121ADE963;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_729_TypeDefinitionIndex = 73853;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_729_TypeDefinitionIndex = 74007;
-
+template <typename TProto, typename TInteraction, typename TFeedback>
 class Class_0_16E4307DCC419505_729
 {
 public:

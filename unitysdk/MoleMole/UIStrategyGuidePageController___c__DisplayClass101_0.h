@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIStrategyGuidePageController; }
 
-#define MOLEMOLE_UISTRATEGYGUIDEPAGECONTROLLER___C__DISPLAYCLASS101_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16529030)
-#define MOLEMOLE_UISTRATEGYGUIDEPAGECONTROLLER___C__DISPLAYCLASS101_0__ONMAXLEVELRECOMMENDTOGGLECLICK_B__0_OFFSET UNITYSDK_OFFSET(0x16529040)
+#define MOLEMOLE_UISTRATEGYGUIDEPAGECONTROLLER___C__DISPLAYCLASS101_0__CTOR_OFFSET UNITYSDK_OFFSET(0x175A9820)
+#define MOLEMOLE_UISTRATEGYGUIDEPAGECONTROLLER___C__DISPLAYCLASS101_0__ONMAXLEVELRECOMMENDTOGGLECLICK_B__0_OFFSET UNITYSDK_OFFSET(0x175A9830)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIStrategyGuidePageController___c__DisplayClass101_0_TypeDefinitionIndex = 69298;
+	inline static constexpr unsigned int UIStrategyGuidePageController___c__DisplayClass101_0_TypeDefinitionIndex = 78614;
 
 	class UIStrategyGuidePageController___c__DisplayClass101_0 : public ::System::Object
 	{

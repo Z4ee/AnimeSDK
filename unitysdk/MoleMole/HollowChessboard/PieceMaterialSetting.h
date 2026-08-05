@@ -7,11 +7,11 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class Material; }
 
-#define MOLEMOLE_HOLLOWCHESSBOARD_PIECEMATERIALSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x10D4EEF0)
+#define MOLEMOLE_HOLLOWCHESSBOARD_PIECEMATERIALSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x16858F50)
 
 namespace MoleMole::HollowChessboard
 {
-	inline static constexpr unsigned int PieceMaterialSetting_TypeDefinitionIndex = 81590;
+	inline static constexpr unsigned int PieceMaterialSetting_TypeDefinitionIndex = 83834;
 
 	class PieceMaterialSetting : public ::Sirenix::OdinInspector::SerializedScriptableObject
 	{

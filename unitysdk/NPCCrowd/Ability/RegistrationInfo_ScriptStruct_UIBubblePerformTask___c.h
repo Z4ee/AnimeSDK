@@ -4,20 +4,20 @@
 
 namespace UnrealTypes { class ICppStructOps; }
 
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_UIBUBBLEPERFORMTASK___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD932250)
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_UIBUBBLEPERFORMTASK___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD932290)
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_UIBUBBLEPERFORMTASK___C___CCTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0xD9322A0)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_UIBUBBLEPERFORMTASK___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD8884C0)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_UIBUBBLEPERFORMTASK___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD888500)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_UIBUBBLEPERFORMTASK___C___CCTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0xD888510)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_UIBubblePerformTask___c_TypeDefinitionIndex = 59398;
+	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_UIBubblePerformTask___c_TypeDefinitionIndex = 65767;
 
 	class RegistrationInfo_ScriptStruct_UIBubblePerformTask___c : public ::System::Object
 	{
 	public:
 		static ::NPCCrowd::Ability::RegistrationInfo_ScriptStruct_UIBubblePerformTask___c** StaticGet___9()
 		{
-			return (::NPCCrowd::Ability::RegistrationInfo_ScriptStruct_UIBubblePerformTask___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_UIBubblePerformTask___c_TypeDefinitionIndex)->GetStaticField(0x31860);
+			return (::NPCCrowd::Ability::RegistrationInfo_ScriptStruct_UIBubblePerformTask___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_UIBubblePerformTask___c_TypeDefinitionIndex)->GetStaticField(0x339E0);
 		}
 
 		static ::System::Void _cctor()

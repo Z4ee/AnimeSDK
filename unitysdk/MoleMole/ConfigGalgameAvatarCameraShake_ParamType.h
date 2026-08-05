@@ -3,11 +3,11 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigGalgameAvatarCameraShake_ParamType_TypeDefinitionIndex = 44252;
+	inline static constexpr unsigned int ConfigGalgameAvatarCameraShake_ParamType_TypeDefinitionIndex = 58095;
 
 	enum class ConfigGalgameAvatarCameraShake_ParamType : ::System::Int32
 	{
-		AutoGen = 0,
 		Manual = 1,
+		AutoGen = 0,
 	};
 }

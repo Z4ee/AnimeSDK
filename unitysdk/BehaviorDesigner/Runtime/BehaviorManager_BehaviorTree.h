@@ -11,52 +11,52 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Collections::Generic { template <typename T> class Stack_1; }
 
-#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORTREE_GET_CURRENTNONPARENTTASKINDEX_OFFSET UNITYSDK_OFFSET(0x1E3C14D0)
-#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORTREE_GET_CURRENTNONPARENTTASK_OFFSET UNITYSDK_OFFSET(0x1E3C1510)
-#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORTREE_GET_LASTNONPARENTTASKINFO_INDEX_OFFSET UNITYSDK_OFFSET(0x1E3C15D0)
-#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORTREE_GET_LASTNONPARENTTASKINFO_NAME_OFFSET UNITYSDK_OFFSET(0x1E3C15B0)
-#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORTREE_GET_LASTNONPARENTTASKSTATUS_OFFSET UNITYSDK_OFFSET(0x1E3C1590)
-#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORTREE_GET_LASTNONPARENTTASK_OFFSET UNITYSDK_OFFSET(0x1E3C14F0)
-#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORTREE_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1E3C15F0)
-#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORTREE_SET_CURRENTNONPARENTTASKINDEX_OFFSET UNITYSDK_OFFSET(0x1E3C14E0)
-#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORTREE_SET_CURRENTNONPARENTTASK_OFFSET UNITYSDK_OFFSET(0x1E3C1520)
-#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORTREE_SET_LASTNONPARENTTASKINFO_INDEX_OFFSET UNITYSDK_OFFSET(0x1E3C15E0)
-#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORTREE_SET_LASTNONPARENTTASKINFO_NAME_OFFSET UNITYSDK_OFFSET(0x1E3C15C0)
-#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORTREE_SET_LASTNONPARENTTASKSTATUS_OFFSET UNITYSDK_OFFSET(0x1E3C15A0)
-#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORTREE_SET_LASTNONPARENTTASK_OFFSET UNITYSDK_OFFSET(0x1E3C1500)
-#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORTREE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E3C1A90)
+#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORTREE_GET_CURRENTNONPARENTTASKINDEX_OFFSET UNITYSDK_OFFSET(0x1F801260)
+#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORTREE_GET_CURRENTNONPARENTTASK_OFFSET UNITYSDK_OFFSET(0x1F8012A0)
+#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORTREE_GET_LASTNONPARENTTASKINFO_INDEX_OFFSET UNITYSDK_OFFSET(0x1F801350)
+#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORTREE_GET_LASTNONPARENTTASKINFO_NAME_OFFSET UNITYSDK_OFFSET(0x1F801330)
+#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORTREE_GET_LASTNONPARENTTASKSTATUS_OFFSET UNITYSDK_OFFSET(0x1F801310)
+#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORTREE_GET_LASTNONPARENTTASK_OFFSET UNITYSDK_OFFSET(0x1F801280)
+#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORTREE_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1F801370)
+#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORTREE_SET_CURRENTNONPARENTTASKINDEX_OFFSET UNITYSDK_OFFSET(0x1F801270)
+#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORTREE_SET_CURRENTNONPARENTTASK_OFFSET UNITYSDK_OFFSET(0x1F8012B0)
+#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORTREE_SET_LASTNONPARENTTASKINFO_INDEX_OFFSET UNITYSDK_OFFSET(0x1F801360)
+#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORTREE_SET_LASTNONPARENTTASKINFO_NAME_OFFSET UNITYSDK_OFFSET(0x1F801340)
+#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORTREE_SET_LASTNONPARENTTASKSTATUS_OFFSET UNITYSDK_OFFSET(0x1F801320)
+#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORTREE_SET_LASTNONPARENTTASK_OFFSET UNITYSDK_OFFSET(0x1F801290)
+#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORTREE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F801810)
 
 namespace BehaviorDesigner::Runtime
 {
-	inline static constexpr unsigned int BehaviorManager_BehaviorTree_TypeDefinitionIndex = 33224;
+	inline static constexpr unsigned int BehaviorManager_BehaviorTree_TypeDefinitionIndex = 33860;
 
 	class BehaviorManager_BehaviorTree : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::System::Int32>*>* childrenIndex; // 0x10
-		::System::Collections::Generic::List_1<::BehaviorDesigner::Runtime::Tasks::Task*>* taskList; // 0x18
-		::System::Collections::Generic::List_1<::System::Collections::Generic::Stack_1<::System::Int32>*>* activeStack; // 0x20
-		::System::String* errorState; // 0x28
-		::BehaviorDesigner::Runtime::Behavior* behavior; // 0x30
-		::System::Collections::Generic::List_1<::BehaviorDesigner::Runtime::BehaviorManager_BehaviorTree_ConditionalReevaluate*>* conditionalReevaluate; // 0x38
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::BehaviorDesigner::Runtime::BehaviorManager_BehaviorTree_ConditionalReevaluate*>* conditionalReevaluateMap; // 0x40
-		::System::Collections::Generic::List_1<::System::Int32>* parentReevaluate; // 0x48
-		::System::Collections::Generic::List_1<::System::Int32>* interruptionIndex; // 0x50
-		::BehaviorDesigner::Runtime::Tasks::Task* _currentNonParentTask; // 0x58
-		::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::System::Int32>*>* childConditionalIndex; // 0x60
-		::System::String* _LastNonParentTaskInfo_Name_k__BackingField; // 0x68
-		::System::Collections::Generic::List_1<::System::Int32>* parentCompositeIndex; // 0x70
-		::System::Collections::Generic::List_1<::BehaviorDesigner::Runtime::Tasks::TaskStatus>* interruptionTaskStatus; // 0x78
-		::System::Collections::Generic::List_1<::BehaviorDesigner::Runtime::Tasks::TaskStatus>* nonInstantTaskStatus; // 0x80
-		::BehaviorDesigner::Runtime::Tasks::Task* _lastNonParentTask_k__BackingField; // 0x88
-		::System::Collections::Generic::List_1<::System::Int32>* parentIndex; // 0x90
-		::System::Collections::Generic::List_1<::System::Int32>* relativeChildIndex; // 0x98
-		::System::Int32 executionCount; // 0xA0
-		::System::Int32 _LastNonParentTaskInfo_Index_k__BackingField; // 0xA4
-		::System::Boolean destroyBehavior; // 0xA8
-		::System::Int32 stepTag; // 0xAC
+		::System::Collections::Generic::List_1<::System::Int32>* parentReevaluate; // 0x10
+		::System::Collections::Generic::List_1<::System::Int32>* parentIndex; // 0x18
+		::System::Collections::Generic::List_1<::System::Int32>* relativeChildIndex; // 0x20
+		::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::System::Int32>*>* childrenIndex; // 0x28
+		::System::String* _LastNonParentTaskInfo_Name_k__BackingField; // 0x30
+		::System::Collections::Generic::List_1<::System::Int32>* parentCompositeIndex; // 0x38
+		::System::Collections::Generic::List_1<::BehaviorDesigner::Runtime::Tasks::TaskStatus>* interruptionTaskStatus; // 0x40
+		::BehaviorDesigner::Runtime::Tasks::Task* _currentNonParentTask; // 0x48
+		::System::Collections::Generic::List_1<::BehaviorDesigner::Runtime::Tasks::TaskStatus>* nonInstantTaskStatus; // 0x50
+		::System::Collections::Generic::List_1<::System::Collections::Generic::Stack_1<::System::Int32>*>* activeStack; // 0x58
+		::BehaviorDesigner::Runtime::Behavior* behavior; // 0x60
+		::BehaviorDesigner::Runtime::Tasks::Task* _lastNonParentTask_k__BackingField; // 0x68
+		::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::System::Int32>*>* childConditionalIndex; // 0x70
+		::System::Collections::Generic::List_1<::BehaviorDesigner::Runtime::BehaviorManager_BehaviorTree_ConditionalReevaluate*>* conditionalReevaluate; // 0x78
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::BehaviorDesigner::Runtime::BehaviorManager_BehaviorTree_ConditionalReevaluate*>* conditionalReevaluateMap; // 0x80
+		::System::Collections::Generic::List_1<::System::Int32>* interruptionIndex; // 0x88
+		::System::String* errorState; // 0x90
+		::System::Collections::Generic::List_1<::BehaviorDesigner::Runtime::Tasks::Task*>* taskList; // 0x98
+		::System::Int32 stepTag; // 0xA0
+		::System::Boolean destroyBehavior; // 0xA4
+		::System::Int32 _currentNonParentTaskIndex_k__BackingField; // 0xA8
+		::System::Int32 executionCount; // 0xAC
 		::BehaviorDesigner::Runtime::Tasks::TaskStatus _LastNonParentTaskStatus_k__BackingField; // 0xB0
-		::System::Int32 _currentNonParentTaskIndex_k__BackingField; // 0xB4
+		::System::Int32 _LastNonParentTaskInfo_Index_k__BackingField; // 0xB4
 
 		::System::Void _ctor()
 		{

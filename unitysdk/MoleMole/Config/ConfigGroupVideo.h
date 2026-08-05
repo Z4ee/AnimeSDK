@@ -6,11 +6,11 @@ namespace MoleMole::Config { class ConfigGroupVideo_GroupVideoInfo; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGGROUPVIDEO__CTOR_OFFSET UNITYSDK_OFFSET(0x10D09A90)
+#define MOLEMOLE_CONFIG_CONFIGGROUPVIDEO__CTOR_OFFSET UNITYSDK_OFFSET(0x11709DD0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigGroupVideo_TypeDefinitionIndex = 40619;
+	inline static constexpr unsigned int ConfigGroupVideo_TypeDefinitionIndex = 62212;
 
 	class ConfigGroupVideo : public ::Foundation::MihoyoSerializedScriptableObject
 	{

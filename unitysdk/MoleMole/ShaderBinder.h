@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define MOLEMOLE_SHADERBINDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC99800)
+#define MOLEMOLE_SHADERBINDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E197980)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ShaderBinder_TypeDefinitionIndex = 7842;
+	inline static constexpr unsigned int ShaderBinder_TypeDefinitionIndex = 8168;
 
 	class ShaderBinder : public ::UnityEngine::MonoBehaviour
 	{

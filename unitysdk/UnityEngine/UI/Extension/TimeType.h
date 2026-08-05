@@ -3,13 +3,13 @@
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int TimeType_TypeDefinitionIndex = 80222;
+	inline static constexpr unsigned int TimeType_TypeDefinitionIndex = 83727;
 
 	enum class TimeType : ::System::Int32
 	{
-		Minutes = 2,
 		Day = 0,
 		Hour = 1,
 		Seconds = 3,
+		Minutes = 2,
 	};
 }

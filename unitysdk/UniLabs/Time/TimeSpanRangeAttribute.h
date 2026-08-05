@@ -5,19 +5,19 @@
 
 namespace System { class String; }
 
-#define UNILABS_TIME_TIMESPANRANGEATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E7D6790)
-#define UNILABS_TIME_TIMESPANRANGEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7D6780)
+#define UNILABS_TIME_TIMESPANRANGEATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1FBB77C0)
+#define UNILABS_TIME_TIMESPANRANGEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1FBB77B0)
 
 namespace UniLabs::Time
 {
-	inline static constexpr unsigned int TimeSpanRangeAttribute_TypeDefinitionIndex = 91396;
+	inline static constexpr unsigned int TimeSpanRangeAttribute_TypeDefinitionIndex = 95329;
 
 	class TimeSpanRangeAttribute : public ::System::Attribute
 	{
 	public:
-		::System::String* DisableMinMaxIf; // 0x10
-		::System::String* MaxGetter; // 0x18
-		::System::String* MinGetter; // 0x20
+		::System::String* MaxGetter; // 0x10
+		::System::String* MinGetter; // 0x18
+		::System::String* DisableMinMaxIf; // 0x20
 		::System::Boolean Inline; // 0x28
 		::UniLabs::Time::TimeUnit SnappingUnit; // 0x2C
 

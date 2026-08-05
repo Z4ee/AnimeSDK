@@ -8,18 +8,18 @@ class Class_1_98EB31C24C284B75;
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace UnityEngine { class Object; }
 
-#define CLASS_1_98EB31C24C284B75_CLASS_1_456B1735B09328D8_METHOD_1_65F273241BCD3CFD_OFFSET UNITYSDK_OFFSET(0x17B633A0)
-#define CLASS_1_98EB31C24C284B75_CLASS_1_456B1735B09328D8__CTOR_OFFSET UNITYSDK_OFFSET(0x17B63390)
+#define CLASS_1_98EB31C24C284B75_CLASS_1_456B1735B09328D8_METHOD_1_65F273241BCD3CFD_OFFSET UNITYSDK_OFFSET(0x174E3FD0)
+#define CLASS_1_98EB31C24C284B75_CLASS_1_456B1735B09328D8__CTOR_OFFSET UNITYSDK_OFFSET(0x174E3FC0)
 
-inline static constexpr unsigned int Class_1_98EB31C24C284B75_Class_1_456B1735B09328D8_TypeDefinitionIndex = 59910;
+inline static constexpr unsigned int Class_1_98EB31C24C284B75_Class_1_456B1735B09328D8_TypeDefinitionIndex = 64043;
 
 class Class_1_98EB31C24C284B75_Class_1_456B1735B09328D8 : public ::System::Object
 {
 public:
-	::System::Action_2<::System::Boolean, ::Class_1_98EB31C24C284B75_Struct_2_E9D871EB4F62E1AD>* Field_1_3; // 0x10
-	::Class_1_98EB31C24C284B75_Struct_2_E9D871EB4F62E1AD Field_1_0; // 0x18
-	::Class_1_98EB31C24C284B75* Field_1_1; // 0x48
-	::System::Int32 Field_1_2; // 0x50
+	::Class_1_98EB31C24C284B75_Struct_2_E9D871EB4F62E1AD Field_1_1; // 0x10
+	::System::Action_2<::System::Boolean, ::Class_1_98EB31C24C284B75_Struct_2_E9D871EB4F62E1AD>* Field_1_6; // 0x40
+	::Class_1_98EB31C24C284B75* Field_1_0; // 0x48
+	::System::Int32 Field_1_7; // 0x50
 
 	::System::Void _ctor()
 	{

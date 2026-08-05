@@ -5,12 +5,12 @@
 namespace MiHoYo::SDK { class Toast; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_TOAST___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA969B0)
-#define MIHOYO_SDK_TOAST___C__DISPLAYCLASS8_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1BA969C0)
+#define MIHOYO_SDK_TOAST___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD18B70)
+#define MIHOYO_SDK_TOAST___C__DISPLAYCLASS8_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1CD18B80)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int Toast___c__DisplayClass8_0_TypeDefinitionIndex = 19992;
+	inline static constexpr unsigned int Toast___c__DisplayClass8_0_TypeDefinitionIndex = 20340;
 
 	class Toast___c__DisplayClass8_0 : public ::System::Object
 	{

@@ -3,12 +3,12 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int HollowUseItemOperateType_TypeDefinitionIndex = 43212;
+	inline static constexpr unsigned int HollowUseItemOperateType_TypeDefinitionIndex = 73737;
 
 	enum class HollowUseItemOperateType : ::System::Int32
 	{
-		LongPress = 2,
-		None = 0,
 		Click = 1,
+		None = 0,
+		LongPress = 2,
 	};
 }

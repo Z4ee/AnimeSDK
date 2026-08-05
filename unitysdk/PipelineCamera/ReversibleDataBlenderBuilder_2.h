@@ -8,7 +8,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int ReversibleDataBlenderBuilder_2_TypeDefinitionIndex = 37580;
+	inline static constexpr unsigned int ReversibleDataBlenderBuilder_2_TypeDefinitionIndex = 38241;
 
 	template <typename TReverseKey, typename TPriority>
 	class ReversibleDataBlenderBuilder_2 : public ::PipelineCamera::CameraDataBlenderBuilder_1<TPriority>

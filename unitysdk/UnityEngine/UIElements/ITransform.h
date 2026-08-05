@@ -4,7 +4,7 @@
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int ITransform_TypeDefinitionIndex = 27452;
+	inline static constexpr unsigned int ITransform_TypeDefinitionIndex = 28054;
 
 	class ITransform
 	{

@@ -6,9 +6,9 @@
 class UISnakeEndingAnimScriptParam_GrowAnimParams;
 class UISnakeEndingAnimScriptParam_ScaleAnimParams;
 
-#define UISNAKEENDINGANIMSCRIPTPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1E726E60)
+#define UISNAKEENDINGANIMSCRIPTPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1FC24690)
 
-inline static constexpr unsigned int UISnakeEndingAnimScriptParam_TypeDefinitionIndex = 91028;
+inline static constexpr unsigned int UISnakeEndingAnimScriptParam_TypeDefinitionIndex = 94975;
 
 class UISnakeEndingAnimScriptParam : public ::UnityEngine::MonoBehaviour
 {

@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace FluffyUnderware::DevTools
 {
-	inline static constexpr unsigned int Ring_1_TypeDefinitionIndex = 28376;
+	inline static constexpr unsigned int Ring_1_TypeDefinitionIndex = 28980;
 
 	template <typename T>
 	class Ring_1 : public ::System::Object

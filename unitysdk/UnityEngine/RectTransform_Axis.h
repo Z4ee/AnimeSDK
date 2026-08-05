@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int RectTransform_Axis_TypeDefinitionIndex = 5411;
+	inline static constexpr unsigned int RectTransform_Axis_TypeDefinitionIndex = 5414;
 
 	enum class RectTransform_Axis : ::System::Int32
 	{

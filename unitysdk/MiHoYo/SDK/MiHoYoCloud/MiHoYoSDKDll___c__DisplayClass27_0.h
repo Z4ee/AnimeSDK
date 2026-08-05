@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_MIHOYOCLOUD_MIHOYOSDKDLL___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A997490)
-#define MIHOYO_SDK_MIHOYOCLOUD_MIHOYOSDKDLL___C__DISPLAYCLASS27_0__INVOKERETURN_B__0_OFFSET UNITYSDK_OFFSET(0x1A9974A0)
+#define MIHOYO_SDK_MIHOYOCLOUD_MIHOYOSDKDLL___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDCDD70)
+#define MIHOYO_SDK_MIHOYOCLOUD_MIHOYOSDKDLL___C__DISPLAYCLASS27_0__INVOKERETURN_B__0_OFFSET UNITYSDK_OFFSET(0x1BDCDD80)
 
 namespace MiHoYo::SDK::MiHoYoCloud
 {
-	inline static constexpr unsigned int MiHoYoSDKDll___c__DisplayClass27_0_TypeDefinitionIndex = 20873;
+	inline static constexpr unsigned int MiHoYoSDKDll___c__DisplayClass27_0_TypeDefinitionIndex = 21220;
 
 	class MiHoYoSDKDll___c__DisplayClass27_0 : public ::System::Object
 	{

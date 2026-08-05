@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIYOROZUYAABYSSS3PAGECONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x104221B0)
+#define MOLEMOLE_UIYOROZUYAABYSSS3PAGECONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x14D919D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIYorozuyaAbyssS3PageController_Context_TypeDefinitionIndex = 60319;
+	inline static constexpr unsigned int UIYorozuyaAbyssS3PageController_Context_TypeDefinitionIndex = 72205;
 
 	class UIYorozuyaAbyssS3PageController_Context : public ::MoleMole::UIControllerContextBase
 	{

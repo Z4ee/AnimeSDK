@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace Foundation::ViewObject::Structures
 {
-	inline static constexpr unsigned int FTriggerEventArgs_TypeDefinitionIndex = 70383;
+	inline static constexpr unsigned int FTriggerEventArgs_TypeDefinitionIndex = 45341;
 
 	struct alignas(8) FTriggerEventArgs
 	{

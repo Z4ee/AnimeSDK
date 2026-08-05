@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MoleMole::Battle
 {
-	inline static constexpr unsigned int AbilityEventMaskList_1_TypeDefinitionIndex = 54449;
+	inline static constexpr unsigned int AbilityEventMaskList_1_TypeDefinitionIndex = 49912;
 
 	template <typename T>
 	struct AbilityEventMaskList_1

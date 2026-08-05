@@ -6,12 +6,12 @@
 class Class_2_AF4036FBC298303A;
 namespace MoleMole { class UIFlowerMain_RightWidgetController; }
 
-#define MOLEMOLE_UIFLOWERMAIN_RIGHTWIDGETCONTROLLER___C__DISPLAYCLASS11_0__BUILDDATABINDING_VIEWMODEL2CONTEXT_B__1_OFFSET UNITYSDK_OFFSET(0x17F8BC00)
-#define MOLEMOLE_UIFLOWERMAIN_RIGHTWIDGETCONTROLLER___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17F8BBF0)
+#define MOLEMOLE_UIFLOWERMAIN_RIGHTWIDGETCONTROLLER___C__DISPLAYCLASS11_0__BUILDDATABINDING_VIEWMODEL2CONTEXT_B__1_OFFSET UNITYSDK_OFFSET(0x19F9DFB0)
+#define MOLEMOLE_UIFLOWERMAIN_RIGHTWIDGETCONTROLLER___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19F9DFA0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIFlowerMain_RightWidgetController___c__DisplayClass11_0_TypeDefinitionIndex = 83292;
+	inline static constexpr unsigned int UIFlowerMain_RightWidgetController___c__DisplayClass11_0_TypeDefinitionIndex = 68811;
 
 	class UIFlowerMain_RightWidgetController___c__DisplayClass11_0 : public ::System::Object
 	{

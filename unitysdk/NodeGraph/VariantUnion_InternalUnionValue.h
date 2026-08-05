@@ -8,7 +8,7 @@ namespace System { class String; }
 
 namespace NodeGraph
 {
-	inline static constexpr unsigned int VariantUnion_InternalUnionValue_TypeDefinitionIndex = 87542;
+	inline static constexpr unsigned int VariantUnion_InternalUnionValue_TypeDefinitionIndex = 64411;
 
 	struct alignas(8) VariantUnion_InternalUnionValue
 	{
@@ -17,7 +17,7 @@ namespace NodeGraph
 		::System::Int64 longValue; // 0x18
 		::System::Single floatValue; // 0x18
 		::System::Double doubleValue; // 0x18
-		::NodeGraph::VariantUnion_VariantType ValueType; // 0x1C
+		::NodeGraph::VariantUnion_VariantType ValueType; // 0x20
 		::System::String* stringValue; // 0x10
 		::System::Object* objectValue; // 0x10
 	};

@@ -5,12 +5,12 @@
 
 namespace MoleMole { class UIHollowProgressCircleRowWidgetController; }
 
-#define MOLEMOLE_UIGENERALPHASEPROGRESSWIDGETCONTROLLER___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x171E20C0)
-#define MOLEMOLE_UIGENERALPHASEPROGRESSWIDGETCONTROLLER___C__DISPLAYCLASS10_0__MAINICONANIM_B__0_OFFSET UNITYSDK_OFFSET(0x171E20D0)
+#define MOLEMOLE_UIGENERALPHASEPROGRESSWIDGETCONTROLLER___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x185A5BE0)
+#define MOLEMOLE_UIGENERALPHASEPROGRESSWIDGETCONTROLLER___C__DISPLAYCLASS10_0__MAINICONANIM_B__0_OFFSET UNITYSDK_OFFSET(0x185A5BF0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralPhaseProgressWidgetController___c__DisplayClass10_0_TypeDefinitionIndex = 67908;
+	inline static constexpr unsigned int UIGeneralPhaseProgressWidgetController___c__DisplayClass10_0_TypeDefinitionIndex = 70529;
 
 	class UIGeneralPhaseProgressWidgetController___c__DisplayClass10_0 : public ::System::Object
 	{

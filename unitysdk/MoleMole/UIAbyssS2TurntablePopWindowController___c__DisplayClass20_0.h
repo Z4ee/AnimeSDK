@@ -2,15 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_3_32CD58E95ADFF8F5_18;
+class Class_3_87492AF8E794E45E_47;
 namespace MoleMole { class UIAbyssS2TurntablePopWindowController; }
 
-#define MOLEMOLE_UIABYSSS2TURNTABLEPOPWINDOWCONTROLLER___C__DISPLAYCLASS20_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17A2A210)
-#define MOLEMOLE_UIABYSSS2TURNTABLEPOPWINDOWCONTROLLER___C__DISPLAYCLASS20_0__ONCLICKPAYBTN_B__0_OFFSET UNITYSDK_OFFSET(0x17A2A220)
+#define MOLEMOLE_UIABYSSS2TURNTABLEPOPWINDOWCONTROLLER___C__DISPLAYCLASS20_0__CTOR_OFFSET UNITYSDK_OFFSET(0x197C6A60)
+#define MOLEMOLE_UIABYSSS2TURNTABLEPOPWINDOWCONTROLLER___C__DISPLAYCLASS20_0__ONCLICKPAYBTN_B__0_OFFSET UNITYSDK_OFFSET(0x197C6A70)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAbyssS2TurntablePopWindowController___c__DisplayClass20_0_TypeDefinitionIndex = 82799;
+	inline static constexpr unsigned int UIAbyssS2TurntablePopWindowController___c__DisplayClass20_0_TypeDefinitionIndex = 45686;
 
 	class UIAbyssS2TurntablePopWindowController___c__DisplayClass20_0 : public ::System::Object
 	{
@@ -23,9 +23,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIABYSSS2TURNTABLEPOPWINDOWCONTROLLER___C__DISPLAYCLASS20_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _OnClickPayBtn_b__0(::Class_3_32CD58E95ADFF8F5_18* rsp)
+		::System::Void _OnClickPayBtn_b__0(::Class_3_87492AF8E794E45E_47* rsp)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_3_32CD58E95ADFF8F5_18*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIABYSSS2TURNTABLEPOPWINDOWCONTROLLER___C__DISPLAYCLASS20_0__ONCLICKPAYBTN_B__0_OFFSET))(this, rsp);
+			return ((::System::Void(*)(::PVOID, ::Class_3_87492AF8E794E45E_47*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIABYSSS2TURNTABLEPOPWINDOWCONTROLLER___C__DISPLAYCLASS20_0__ONCLICKPAYBTN_B__0_OFFSET))(this, rsp);
 		}
 	};
 }

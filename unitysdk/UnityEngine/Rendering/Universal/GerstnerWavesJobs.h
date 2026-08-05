@@ -9,64 +9,64 @@
 
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_GERSTNERWAVESJOBS_CLEANUP_OFFSET UNITYSDK_OFFSET(0x1C4028C0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_GERSTNERWAVESJOBS_COMPLETEJOBS_OFFSET UNITYSDK_OFFSET(0x1C402C20)
-#define UNITYENGINE_RENDERING_UNIVERSAL_GERSTNERWAVESJOBS_GETDATA_OFFSET UNITYSDK_OFFSET(0x1C402D20)
-#define UNITYENGINE_RENDERING_UNIVERSAL_GERSTNERWAVESJOBS_INIT_OFFSET UNITYSDK_OFFSET(0x1C402840)
-#define UNITYENGINE_RENDERING_UNIVERSAL_GERSTNERWAVESJOBS_UPDATEHEIGHTS_OFFSET UNITYSDK_OFFSET(0x1C402EF0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_GERSTNERWAVESJOBS_UPDATESAMPLEPOINTS_OFFSET UNITYSDK_OFFSET(0x1C402A10)
-#define UNITYENGINE_RENDERING_UNIVERSAL_GERSTNERWAVESJOBS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C4030C0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_GERSTNERWAVESJOBS_CLEANUP_OFFSET UNITYSDK_OFFSET(0x1D6E1CE0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_GERSTNERWAVESJOBS_COMPLETEJOBS_OFFSET UNITYSDK_OFFSET(0x1D6E2040)
+#define UNITYENGINE_RENDERING_UNIVERSAL_GERSTNERWAVESJOBS_GETDATA_OFFSET UNITYSDK_OFFSET(0x1D6E2140)
+#define UNITYENGINE_RENDERING_UNIVERSAL_GERSTNERWAVESJOBS_INIT_OFFSET UNITYSDK_OFFSET(0x1D6E1C60)
+#define UNITYENGINE_RENDERING_UNIVERSAL_GERSTNERWAVESJOBS_UPDATEHEIGHTS_OFFSET UNITYSDK_OFFSET(0x1D6E2310)
+#define UNITYENGINE_RENDERING_UNIVERSAL_GERSTNERWAVESJOBS_UPDATESAMPLEPOINTS_OFFSET UNITYSDK_OFFSET(0x1D6E1E30)
+#define UNITYENGINE_RENDERING_UNIVERSAL_GERSTNERWAVESJOBS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D6E24F0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int GerstnerWavesJobs_TypeDefinitionIndex = 26945;
+	inline static constexpr unsigned int GerstnerWavesJobs_TypeDefinitionIndex = 27247;
 
 	class GerstnerWavesJobs : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::Vector2Int>** StaticGet_Registry()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::Vector2Int>**)Il2CppClass::FromTypeDefinitionIndex(GerstnerWavesJobs_TypeDefinitionIndex)->GetStaticField(0x21FD0);
-		}
-		static ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::Universal::Wave>* StaticGet__waveData()
-		{
-			return (::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::Universal::Wave>*)Il2CppClass::FromTypeDefinitionIndex(GerstnerWavesJobs_TypeDefinitionIndex)->GetStaticField(0x6EC0);
+			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::Vector2Int>**)Il2CppClass::FromTypeDefinitionIndex(GerstnerWavesJobs_TypeDefinitionIndex)->GetStaticField(0x23770);
 		}
 		static ::Unity::Collections::NativeArray_1<::UnityEngine::Vector3>* StaticGet__wavePos()
 		{
-			return (::Unity::Collections::NativeArray_1<::UnityEngine::Vector3>*)Il2CppClass::FromTypeDefinitionIndex(GerstnerWavesJobs_TypeDefinitionIndex)->GetStaticField(0x6ED0);
+			return (::Unity::Collections::NativeArray_1<::UnityEngine::Vector3>*)Il2CppClass::FromTypeDefinitionIndex(GerstnerWavesJobs_TypeDefinitionIndex)->GetStaticField(0x6E40);
 		}
 		static ::Unity::Collections::NativeArray_1<::UnityEngine::Vector3>* StaticGet__positions()
 		{
-			return (::Unity::Collections::NativeArray_1<::UnityEngine::Vector3>*)Il2CppClass::FromTypeDefinitionIndex(GerstnerWavesJobs_TypeDefinitionIndex)->GetStaticField(0x6EE0);
+			return (::Unity::Collections::NativeArray_1<::UnityEngine::Vector3>*)Il2CppClass::FromTypeDefinitionIndex(GerstnerWavesJobs_TypeDefinitionIndex)->GetStaticField(0x6E50);
+		}
+		static ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::Universal::Wave>* StaticGet__waveData()
+		{
+			return (::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::Universal::Wave>*)Il2CppClass::FromTypeDefinitionIndex(GerstnerWavesJobs_TypeDefinitionIndex)->GetStaticField(0x6E60);
 		}
 		static ::Unity::Jobs::JobHandle* StaticGet__waterHeightHandle()
 		{
-			return (::Unity::Jobs::JobHandle*)Il2CppClass::FromTypeDefinitionIndex(GerstnerWavesJobs_TypeDefinitionIndex)->GetStaticField(0x6EF0);
-		}
-		static ::System::Boolean* StaticGet__processing()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(GerstnerWavesJobs_TypeDefinitionIndex)->GetStaticField(0x6F00);
-		}
-		static ::System::Boolean* StaticGet_Initialized()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(GerstnerWavesJobs_TypeDefinitionIndex)->GetStaticField(0x6F01);
-		}
-		static ::System::Boolean* StaticGet__firstFrame()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(GerstnerWavesJobs_TypeDefinitionIndex)->GetStaticField(0x6F02);
+			return (::Unity::Jobs::JobHandle*)Il2CppClass::FromTypeDefinitionIndex(GerstnerWavesJobs_TypeDefinitionIndex)->GetStaticField(0x6E70);
 		}
 		static ::System::Int32* StaticGet__waveCount()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(GerstnerWavesJobs_TypeDefinitionIndex)->GetStaticField(0x6F04);
-		}
-		static ::Unity::Collections::NativeArray_1<::UnityEngine::Vector3>* StaticGet__waveNormal()
-		{
-			return (::Unity::Collections::NativeArray_1<::UnityEngine::Vector3>*)Il2CppClass::FromTypeDefinitionIndex(GerstnerWavesJobs_TypeDefinitionIndex)->GetStaticField(0x6F08);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(GerstnerWavesJobs_TypeDefinitionIndex)->GetStaticField(0x6E80);
 		}
 		static ::System::Int32* StaticGet__positionCount()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(GerstnerWavesJobs_TypeDefinitionIndex)->GetStaticField(0x6F18);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(GerstnerWavesJobs_TypeDefinitionIndex)->GetStaticField(0x6E84);
+		}
+		static ::System::Boolean* StaticGet__firstFrame()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(GerstnerWavesJobs_TypeDefinitionIndex)->GetStaticField(0x6E88);
+		}
+		static ::System::Boolean* StaticGet_Initialized()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(GerstnerWavesJobs_TypeDefinitionIndex)->GetStaticField(0x6E89);
+		}
+		static ::System::Boolean* StaticGet__processing()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(GerstnerWavesJobs_TypeDefinitionIndex)->GetStaticField(0x6E8A);
+		}
+		static ::Unity::Collections::NativeArray_1<::UnityEngine::Vector3>* StaticGet__waveNormal()
+		{
+			return (::Unity::Collections::NativeArray_1<::UnityEngine::Vector3>*)Il2CppClass::FromTypeDefinitionIndex(GerstnerWavesJobs_TypeDefinitionIndex)->GetStaticField(0x6E90);
 		}
 
 		static ::System::Void _cctor()

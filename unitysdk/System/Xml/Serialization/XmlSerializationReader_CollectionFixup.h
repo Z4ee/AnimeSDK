@@ -5,7 +5,7 @@
 namespace System { class String; }
 namespace System::Xml::Serialization { class XmlSerializationCollectionFixupCallback; }
 
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONREADER_COLLECTIONFIXUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1DC499A0)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONREADER_COLLECTIONFIXUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1F0718F0)
 
 namespace System::Xml::Serialization
 {
@@ -16,8 +16,8 @@ namespace System::Xml::Serialization
 	public:
 		::System::Object* collectionItems; // 0x10
 		::System::Object* collection; // 0x18
-		::System::String* id; // 0x20
-		::System::Xml::Serialization::XmlSerializationCollectionFixupCallback* callback; // 0x28
+		::System::Xml::Serialization::XmlSerializationCollectionFixupCallback* callback; // 0x20
+		::System::String* id; // 0x28
 
 		::System::Void _ctor(::System::Object* collection, ::System::Xml::Serialization::XmlSerializationCollectionFixupCallback* callback, ::System::String* id)
 		{

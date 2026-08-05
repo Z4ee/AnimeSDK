@@ -6,22 +6,22 @@ class Class_1_8A5136246E588D6D;
 namespace MoleMole { class UIAvatarStoryActivityPageController; }
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_UIAVATARSTORYACTIVITYPAGECONTROLLER___C__DISPLAYCLASS37_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18C7C980)
-#define MOLEMOLE_UIAVATARSTORYACTIVITYPAGECONTROLLER___C__DISPLAYCLASS37_0__ONENTEROVA_B__0_OFFSET UNITYSDK_OFFSET(0x18C7C990)
-#define MOLEMOLE_UIAVATARSTORYACTIVITYPAGECONTROLLER___C__DISPLAYCLASS37_0__ONENTEROVA_B__1_OFFSET UNITYSDK_OFFSET(0x18C7CBC0)
-#define MOLEMOLE_UIAVATARSTORYACTIVITYPAGECONTROLLER___C__DISPLAYCLASS37_0__ONENTEROVA_B__3_OFFSET UNITYSDK_OFFSET(0x18C7CCB0)
+#define MOLEMOLE_UIAVATARSTORYACTIVITYPAGECONTROLLER___C__DISPLAYCLASS37_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18016BB0)
+#define MOLEMOLE_UIAVATARSTORYACTIVITYPAGECONTROLLER___C__DISPLAYCLASS37_0__ONENTEROVA_B__0_OFFSET UNITYSDK_OFFSET(0x18016BC0)
+#define MOLEMOLE_UIAVATARSTORYACTIVITYPAGECONTROLLER___C__DISPLAYCLASS37_0__ONENTEROVA_B__1_OFFSET UNITYSDK_OFFSET(0x18016DF0)
+#define MOLEMOLE_UIAVATARSTORYACTIVITYPAGECONTROLLER___C__DISPLAYCLASS37_0__ONENTEROVA_B__3_OFFSET UNITYSDK_OFFSET(0x18016EE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAvatarStoryActivityPageController___c__DisplayClass37_0_TypeDefinitionIndex = 61112;
+	inline static constexpr unsigned int UIAvatarStoryActivityPageController___c__DisplayClass37_0_TypeDefinitionIndex = 50992;
 
 	class UIAvatarStoryActivityPageController___c__DisplayClass37_0 : public ::System::Object
 	{
 	public:
-		::System::Action_1<::System::Boolean>* __9__3; // 0x10
-		::System::Action_1<::System::Boolean>* __9__1; // 0x18
-		::MoleMole::UIAvatarStoryActivityPageController* __4__this; // 0x20
-		::Class_1_8A5136246E588D6D* value; // 0x28
+		::MoleMole::UIAvatarStoryActivityPageController* __4__this; // 0x10
+		::Class_1_8A5136246E588D6D* value; // 0x18
+		::System::Action_1<::System::Boolean>* __9__1; // 0x20
+		::System::Action_1<::System::Boolean>* __9__3; // 0x28
 
 		::System::Void _ctor()
 		{

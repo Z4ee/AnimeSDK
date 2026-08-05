@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define NPCCROWD_ANIMATION_CURVEGENERATOR_ADJUSTMENTBLENDINGCURVEGENERATOR_GETRATIOCURVENAME_OFFSET UNITYSDK_OFFSET(0xEBDA790)
+#define NPCCROWD_ANIMATION_CURVEGENERATOR_ADJUSTMENTBLENDINGCURVEGENERATOR_GETRATIOCURVENAME_OFFSET UNITYSDK_OFFSET(0xF6128B0)
 
 namespace NPCCrowd::Animation::CurveGenerator
 {
-	inline static constexpr unsigned int AdjustmentBlendingCurveGenerator_TypeDefinitionIndex = 39756;
+	inline static constexpr unsigned int AdjustmentBlendingCurveGenerator_TypeDefinitionIndex = 56904;
 
 	struct alignas(1) AdjustmentBlendingCurveGenerator
 	{

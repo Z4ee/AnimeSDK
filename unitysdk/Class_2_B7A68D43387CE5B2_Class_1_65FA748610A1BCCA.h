@@ -5,15 +5,15 @@
 namespace MoleMole { class NotificationBadge; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
 
-#define CLASS_2_B7A68D43387CE5B2_CLASS_1_65FA748610A1BCCA__CTOR_OFFSET UNITYSDK_OFFSET(0x14FC0820)
+#define CLASS_2_B7A68D43387CE5B2_CLASS_1_65FA748610A1BCCA__CTOR_OFFSET UNITYSDK_OFFSET(0x1662B370)
 
-inline static constexpr unsigned int Class_2_B7A68D43387CE5B2_Class_1_65FA748610A1BCCA_TypeDefinitionIndex = 41531;
+inline static constexpr unsigned int Class_2_B7A68D43387CE5B2_Class_1_65FA748610A1BCCA_TypeDefinitionIndex = 49055;
 
 class Class_2_B7A68D43387CE5B2_Class_1_65FA748610A1BCCA : public ::System::Object
 {
 public:
-	::UnityEngine::UI::Extension::UILocalizationText* Field_1_1; // 0x10
-	::MoleMole::NotificationBadge* Field_1_0; // 0x18
+	::MoleMole::NotificationBadge* Field_1_1; // 0x10
+	::UnityEngine::UI::Extension::UILocalizationText* Field_1_0; // 0x18
 
 	::System::Void _ctor()
 	{

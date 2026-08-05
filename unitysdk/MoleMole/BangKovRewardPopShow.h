@@ -6,21 +6,21 @@ class Class_1_0D6706375CDAAE8C;
 namespace MoleMole { class UIBangkovReplenishDialogPopWindowController; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_BANGKOVREWARDPOPSHOW_ONPROCESS_OFFSET UNITYSDK_OFFSET(0x14DFBE90)
-#define MOLEMOLE_BANGKOVREWARDPOPSHOW_SETMESSAGECONFIG_OFFSET UNITYSDK_OFFSET(0x14DFBE30)
-#define MOLEMOLE_BANGKOVREWARDPOPSHOW__CTOR_OFFSET UNITYSDK_OFFSET(0x14DFBD70)
-#define MOLEMOLE_BANGKOVREWARDPOPSHOW__ONPROCESS_B__4_1_OFFSET UNITYSDK_OFFSET(0x14DFC270)
-#define MOLEMOLE_BANGKOVREWARDPOPSHOW___BASE_SETMESSAGECONFIG_OFFSET UNITYSDK_OFFSET(0x14DFC2A0)
+#define MOLEMOLE_BANGKOVREWARDPOPSHOW_ONPROCESS_OFFSET UNITYSDK_OFFSET(0x13E9F980)
+#define MOLEMOLE_BANGKOVREWARDPOPSHOW_SETMESSAGECONFIG_OFFSET UNITYSDK_OFFSET(0x13E9F920)
+#define MOLEMOLE_BANGKOVREWARDPOPSHOW__CTOR_OFFSET UNITYSDK_OFFSET(0x13E9F860)
+#define MOLEMOLE_BANGKOVREWARDPOPSHOW__ONPROCESS_B__4_1_OFFSET UNITYSDK_OFFSET(0x13E9FD60)
+#define MOLEMOLE_BANGKOVREWARDPOPSHOW___BASE_SETMESSAGECONFIG_OFFSET UNITYSDK_OFFSET(0x13E9FD90)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int BangKovRewardPopShow_TypeDefinitionIndex = 80263;
+	inline static constexpr unsigned int BangKovRewardPopShow_TypeDefinitionIndex = 62984;
 
 	class BangKovRewardPopShow : public ::MoleMole::LogicMessageBase
 	{
 	public:
-		::MoleMole::UIBangkovReplenishDialogPopWindowController* replenishDialog; // 0x20
-		::System::Collections::Generic::List_1<::Class_1_0D6706375CDAAE8C*>* items; // 0x28
+		::System::Collections::Generic::List_1<::Class_1_0D6706375CDAAE8C*>* items; // 0x20
+		::MoleMole::UIBangkovReplenishDialogPopWindowController* replenishDialog; // 0x28
 
 		::System::Void _ctor(::System::Collections::Generic::List_1<::Class_1_0D6706375CDAAE8C*>* items)
 		{

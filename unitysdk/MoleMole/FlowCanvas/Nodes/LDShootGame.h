@@ -3,7 +3,7 @@
 #include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/FlowCanvas/Nodes/FlowControlNode.h"
 
-class Class_1_C546E5BF9CD6AD69;
+class Class_1_144F26BB0E45261D;
 namespace FlowCanvas { class FlowInput; }
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
@@ -11,28 +11,28 @@ namespace System { class String; }
 namespace System::Collections { class IEnumerator; }
 namespace UnityEngine { class Coroutine; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOOTGAME_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x16CA2660)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOOTGAME_START_OFFSET UNITYSDK_OFFSET(0x16CA27D0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOOTGAME_WAITGAMEFINISHED_OFFSET UNITYSDK_OFFSET(0x16CA33E0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOOTGAME__CTOR_OFFSET UNITYSDK_OFFSET(0x16CA3460)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOOTGAME__REGISTERPORTS_B__9_0_OFFSET UNITYSDK_OFFSET(0x16CA34A0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOOTGAME_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x13A857D0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOOTGAME_START_OFFSET UNITYSDK_OFFSET(0x13A85940)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOOTGAME_WAITGAMEFINISHED_OFFSET UNITYSDK_OFFSET(0x13A86550)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOOTGAME__CTOR_OFFSET UNITYSDK_OFFSET(0x13A865D0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOOTGAME__REGISTERPORTS_B__9_0_OFFSET UNITYSDK_OFFSET(0x13A86610)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDShootGame_TypeDefinitionIndex = 79783;
+	inline static constexpr unsigned int LDShootGame_TypeDefinitionIndex = 75602;
 
 	class LDShootGame : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::ValueInput_1<::System::Int32>* gameIdInput; // 0xA8
-		::FlowCanvas::FlowOutput* output; // 0xB0
-		::FlowCanvas::ValueInput_1<::System::Boolean>* isStoryModeInput; // 0xB8
-		::UnityEngine::Coroutine* waitGameCoro; // 0xC0
+		::FlowCanvas::ValueInput_1<::System::Boolean>* isStoryModeInput; // 0xA8
+		::FlowCanvas::FlowInput* input; // 0xB0
+		::Class_1_144F26BB0E45261D* gameModule; // 0xB8
+		::FlowCanvas::FlowOutput* output; // 0xC0
 		::FlowCanvas::FlowOutput* gameEndOutput; // 0xC8
 		::FlowCanvas::ValueInput_1<::System::String*>* avatarPositionInput; // 0xD0
-		::Class_1_C546E5BF9CD6AD69* gameModule; // 0xD8
+		::UnityEngine::Coroutine* waitGameCoro; // 0xD8
 		::FlowCanvas::ValueInput_1<::System::Boolean>* exitShootModeInput; // 0xE0
-		::FlowCanvas::FlowInput* input; // 0xE8
+		::FlowCanvas::ValueInput_1<::System::Int32>* gameIdInput; // 0xE8
 
 		::System::Void _ctor()
 		{

@@ -2,15 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_1_EEA0111A28582B57.h"
 
-class Class_2_A9A857AD270B9CE1;
+class Class_2_A4D62D05D5EA8464;
 class Class_2_FDFE69FE7B72463B;
 namespace MoleMole { class UIControlCollection; }
 
-#define CLASS_2_7ABF2118692E7A85_13_METHOD_2_5DE301B3C0032BA5_OFFSET UNITYSDK_OFFSET(0x1081AAB0)
-#define CLASS_2_7ABF2118692E7A85_13_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x1081AB80)
-#define CLASS_2_7ABF2118692E7A85_13__CTOR_OFFSET UNITYSDK_OFFSET(0x1081AB70)
+#define CLASS_2_7ABF2118692E7A85_13_METHOD_2_5DE301B3C0032BA5_OFFSET UNITYSDK_OFFSET(0x141C1FD0)
+#define CLASS_2_7ABF2118692E7A85_13_METHOD_2_C8903A36ECBA4078_OFFSET UNITYSDK_OFFSET(0x141C20A0)
+#define CLASS_2_7ABF2118692E7A85_13__CTOR_OFFSET UNITYSDK_OFFSET(0x141C2090)
 
-inline static constexpr unsigned int Class_2_7ABF2118692E7A85_13_TypeDefinitionIndex = 81441;
+inline static constexpr unsigned int Class_2_7ABF2118692E7A85_13_TypeDefinitionIndex = 89639;
 
 class Class_2_7ABF2118692E7A85_13 : public ::Class_1_EEA0111A28582B57
 {
@@ -22,13 +22,13 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_7ABF2118692E7A85_13__CTOR_OFFSET))(this);
 	}
 
-	::System::Void Method_2_5DE301B3C0032BA5(::Class_2_A9A857AD270B9CE1* a1, ::MoleMole::UIControlCollection* a2)
+	::System::Void Method_2_5DE301B3C0032BA5(::Class_2_A4D62D05D5EA8464* a1, ::MoleMole::UIControlCollection* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_2_A9A857AD270B9CE1*, ::MoleMole::UIControlCollection*))((::PBYTE)hIl2Cpp + CLASS_2_7ABF2118692E7A85_13_METHOD_2_5DE301B3C0032BA5_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::Class_2_A4D62D05D5EA8464*, ::MoleMole::UIControlCollection*))((::PBYTE)hIl2Cpp + CLASS_2_7ABF2118692E7A85_13_METHOD_2_5DE301B3C0032BA5_OFFSET))(this, a1, a2);
 	}
 
-	::System::Void Method_2_C8903A36ECBA4078(::Class_2_A9A857AD270B9CE1* a1, ::MoleMole::UIControlCollection* a2)
+	::System::Void Method_2_C8903A36ECBA4078(::Class_2_A4D62D05D5EA8464* a1, ::MoleMole::UIControlCollection* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_2_A9A857AD270B9CE1*, ::MoleMole::UIControlCollection*))((::PBYTE)hIl2Cpp + CLASS_2_7ABF2118692E7A85_13_METHOD_2_C8903A36ECBA4078_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::Class_2_A4D62D05D5EA8464*, ::MoleMole::UIControlCollection*))((::PBYTE)hIl2Cpp + CLASS_2_7ABF2118692E7A85_13_METHOD_2_C8903A36ECBA4078_OFFSET))(this, a1, a2);
 	}
 };

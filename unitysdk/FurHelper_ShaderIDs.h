@@ -2,60 +2,60 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define FURHELPER_SHADERIDS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C996F10)
+#define FURHELPER_SHADERIDS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DDF3610)
 
-inline static constexpr unsigned int FurHelper_ShaderIDs_TypeDefinitionIndex = 26940;
+inline static constexpr unsigned int FurHelper_ShaderIDs_TypeDefinitionIndex = 27705;
 
 class FurHelper_ShaderIDs : public ::System::Object
 {
 public:
-	static ::System::Int32* StaticGet_SHBg()
+	static ::System::Int32* StaticGet_NO_ADDITIONAL_LIGHTS()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FurHelper_ShaderIDs_TypeDefinitionIndex)->GetStaticField(0x6280);
-	}
-	static ::System::Int32* StaticGet_SHAg()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FurHelper_ShaderIDs_TypeDefinitionIndex)->GetStaticField(0x6284);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FurHelper_ShaderIDs_TypeDefinitionIndex)->GetStaticField(0x6240);
 	}
 	static ::System::Int32* StaticGet_SHAb()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FurHelper_ShaderIDs_TypeDefinitionIndex)->GetStaticField(0x6288);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FurHelper_ShaderIDs_TypeDefinitionIndex)->GetStaticField(0x6244);
 	}
-	static ::System::Int32* StaticGet_SHBb()
+	static ::System::Int32* StaticGet__FurStep()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FurHelper_ShaderIDs_TypeDefinitionIndex)->GetStaticField(0x628C);
-	}
-	static ::System::Int32* StaticGet_RenderingLayer()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FurHelper_ShaderIDs_TypeDefinitionIndex)->GetStaticField(0x6290);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FurHelper_ShaderIDs_TypeDefinitionIndex)->GetStaticField(0x6248);
 	}
 	static ::System::Int32* StaticGet_LIGHTMAP_ON()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FurHelper_ShaderIDs_TypeDefinitionIndex)->GetStaticField(0x6294);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FurHelper_ShaderIDs_TypeDefinitionIndex)->GetStaticField(0x624C);
 	}
-	static ::System::Int32* StaticGet_SHBr()
+	static ::System::Int32* StaticGet__FurLayerCount()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FurHelper_ShaderIDs_TypeDefinitionIndex)->GetStaticField(0x6298);
-	}
-	static ::System::Int32* StaticGet_SHC()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FurHelper_ShaderIDs_TypeDefinitionIndex)->GetStaticField(0x629C);
-	}
-	static ::System::Int32* StaticGet_NO_ADDITIONAL_LIGHTS()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FurHelper_ShaderIDs_TypeDefinitionIndex)->GetStaticField(0x62A0);
-	}
-	static ::System::Int32* StaticGet_FurLayerCount()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FurHelper_ShaderIDs_TypeDefinitionIndex)->GetStaticField(0x62A4);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FurHelper_ShaderIDs_TypeDefinitionIndex)->GetStaticField(0x6250);
 	}
 	static ::System::Int32* StaticGet_SHAr()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FurHelper_ShaderIDs_TypeDefinitionIndex)->GetStaticField(0x62A8);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FurHelper_ShaderIDs_TypeDefinitionIndex)->GetStaticField(0x6254);
 	}
-	static ::System::Int32* StaticGet_FurStep()
+	static ::System::Int32* StaticGet_SHAg()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FurHelper_ShaderIDs_TypeDefinitionIndex)->GetStaticField(0x62AC);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FurHelper_ShaderIDs_TypeDefinitionIndex)->GetStaticField(0x6258);
+	}
+	static ::System::Int32* StaticGet_SHBg()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FurHelper_ShaderIDs_TypeDefinitionIndex)->GetStaticField(0x625C);
+	}
+	static ::System::Int32* StaticGet_unity_RenderingLayer()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FurHelper_ShaderIDs_TypeDefinitionIndex)->GetStaticField(0x6260);
+	}
+	static ::System::Int32* StaticGet_SHBr()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FurHelper_ShaderIDs_TypeDefinitionIndex)->GetStaticField(0x6264);
+	}
+	static ::System::Int32* StaticGet_SHC()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FurHelper_ShaderIDs_TypeDefinitionIndex)->GetStaticField(0x6268);
+	}
+	static ::System::Int32* StaticGet_SHBb()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FurHelper_ShaderIDs_TypeDefinitionIndex)->GetStaticField(0x626C);
 	}
 
 	static ::System::Void _cctor()

@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace SGF::SEvent
 {
-	inline static constexpr unsigned int AbstractSignalCommon_SCustomDebugName_TypeDefinitionIndex = 8223;
+	inline static constexpr unsigned int AbstractSignalCommon_SCustomDebugName_TypeDefinitionIndex = 7843;
 
 	struct alignas(8) AbstractSignalCommon_SCustomDebugName
 	{

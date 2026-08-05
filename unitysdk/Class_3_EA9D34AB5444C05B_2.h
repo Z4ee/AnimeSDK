@@ -1,17 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_2_A78FC80A78B3367C.h"
-#include "unitysdk/Enum_3_4D23D4D1211777E9.h"
+#include "unitysdk/Class_2_FB50CDBDDEDBBCC8.h"
+#include "unitysdk/Enum_3_22DDD7B50F316EE2.h"
 
-namespace NodeGraph::MainCity { class InteractiveNavigateContainer; }
+#define CLASS_3_EA9D34AB5444C05B_2_METHOD_3_A96DCA30C6927810_OFFSET UNITYSDK_OFFSET(0x109F3C60)
+#define CLASS_3_EA9D34AB5444C05B_2_METHOD_3_C638E91FC0D3A13A_OFFSET UNITYSDK_OFFSET(0x109F3C70)
+#define CLASS_3_EA9D34AB5444C05B_2__CTOR_OFFSET UNITYSDK_OFFSET(0x109F3E30)
 
-#define CLASS_3_EA9D34AB5444C05B_2_METHOD_3_39FD7185C859CEAD_OFFSET UNITYSDK_OFFSET(0xF8C3650)
-#define CLASS_3_EA9D34AB5444C05B_2_METHOD_3_A96DCA30C6927810_OFFSET UNITYSDK_OFFSET(0xF8C3640)
-#define CLASS_3_EA9D34AB5444C05B_2__CTOR_OFFSET UNITYSDK_OFFSET(0xF8C3920)
+inline static constexpr unsigned int Class_3_EA9D34AB5444C05B_2_TypeDefinitionIndex = 43773;
 
-inline static constexpr unsigned int Class_3_EA9D34AB5444C05B_2_TypeDefinitionIndex = 63883;
-
-class Class_3_EA9D34AB5444C05B_2 : public ::Class_2_A78FC80A78B3367C<::NodeGraph::MainCity::InteractiveNavigateContainer*>
+class Class_3_EA9D34AB5444C05B_2 : public ::Class_2_FB50CDBDDEDBBCC8<::System::Int32>
 {
 public:
 	::System::Void _ctor()
@@ -19,13 +17,13 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_EA9D34AB5444C05B_2__CTOR_OFFSET))(this);
 	}
 
-	::Enum_3_4D23D4D1211777E9 Method_3_A96DCA30C6927810()
+	::Enum_3_22DDD7B50F316EE2 Method_3_A96DCA30C6927810()
 	{
-		return ((::Enum_3_4D23D4D1211777E9(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_EA9D34AB5444C05B_2_METHOD_3_A96DCA30C6927810_OFFSET))(this);
+		return ((::Enum_3_22DDD7B50F316EE2(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_EA9D34AB5444C05B_2_METHOD_3_A96DCA30C6927810_OFFSET))(this);
 	}
 
-	::System::Void Method_3_39FD7185C859CEAD()
+	::System::Void Method_3_C638E91FC0D3A13A()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_EA9D34AB5444C05B_2_METHOD_3_39FD7185C859CEAD_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_EA9D34AB5444C05B_2_METHOD_3_C638E91FC0D3A13A_OFFSET))(this);
 	}
 };

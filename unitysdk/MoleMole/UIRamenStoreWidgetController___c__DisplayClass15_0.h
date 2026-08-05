@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIRamenStoreWidgetController; }
 
-#define MOLEMOLE_UIRAMENSTOREWIDGETCONTROLLER___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0x11B9B0A0)
-#define MOLEMOLE_UIRAMENSTOREWIDGETCONTROLLER___C__DISPLAYCLASS15_0__ONSHOWGETRAMENFINISHED_B__0_OFFSET UNITYSDK_OFFSET(0x11B9B0B0)
+#define MOLEMOLE_UIRAMENSTOREWIDGETCONTROLLER___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15100590)
+#define MOLEMOLE_UIRAMENSTOREWIDGETCONTROLLER___C__DISPLAYCLASS15_0__ONSHOWGETRAMENFINISHED_B__0_OFFSET UNITYSDK_OFFSET(0x151005A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRamenStoreWidgetController___c__DisplayClass15_0_TypeDefinitionIndex = 47808;
+	inline static constexpr unsigned int UIRamenStoreWidgetController___c__DisplayClass15_0_TypeDefinitionIndex = 85136;
 
 	class UIRamenStoreWidgetController___c__DisplayClass15_0 : public ::System::Object
 	{

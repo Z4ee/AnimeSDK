@@ -6,7 +6,7 @@ namespace MiHoYo::SDK::Protobuf::Collections { template <typename T> class Repea
 
 namespace MiHoYo::SDK::Protobuf::Collections
 {
-	inline static constexpr unsigned int RepeatedField_1__GetEnumerator_d__21_TypeDefinitionIndex = 28604;
+	inline static constexpr unsigned int RepeatedField_1__GetEnumerator_d__21_TypeDefinitionIndex = 29208;
 
 	template <typename T>
 	class RepeatedField_1__GetEnumerator_d__21 : public ::System::Object

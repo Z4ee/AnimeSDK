@@ -7,7 +7,7 @@ namespace System { class Object; }
 
 namespace Foundation
 {
-	inline static constexpr unsigned int ExposedList_1_Enumerator_TypeDefinitionIndex = 7735;
+	inline static constexpr unsigned int ExposedList_1_Enumerator_TypeDefinitionIndex = 8339;
 
 	template <typename T>
 	struct ExposedList_1_Enumerator

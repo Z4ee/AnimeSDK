@@ -11,7 +11,7 @@ namespace System::Collections::Generic { template <typename T> class IComparer_1
 
 namespace ObservableCollections
 {
-	inline static constexpr unsigned int ObservableCollectionsExtensions_TypeDefinitionIndex = 28029;
+	inline static constexpr unsigned int ObservableCollectionsExtensions_TypeDefinitionIndex = 28860;
 
 	class ObservableCollectionsExtensions : public ::System::Object
 	{

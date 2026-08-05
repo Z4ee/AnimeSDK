@@ -7,7 +7,7 @@ namespace NPCCrowd::Lod { class NPCCrowdDistanceManager_NpcCrowdDistanceCheck; }
 
 namespace NPCCrowd::Lod
 {
-	inline static constexpr unsigned int RegisterData_TypeDefinitionIndex = 53006;
+	inline static constexpr unsigned int RegisterData_TypeDefinitionIndex = 71649;
 
 	struct alignas(8) RegisterData
 	{

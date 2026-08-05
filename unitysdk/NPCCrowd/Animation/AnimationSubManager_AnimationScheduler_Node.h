@@ -4,11 +4,11 @@
 #include "unitysdk/NPCCrowd/Animation/AnimationSubManager_AnimationScheduler_NodeFlag.h"
 #include "unitysdk/System/ValueType.h"
 
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONSCHEDULER_NODE_EQUALS_OFFSET UNITYSDK_OFFSET(0x592B90)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONSCHEDULER_NODE_EQUALS_OFFSET UNITYSDK_OFFSET(0x6A9410)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int AnimationSubManager_AnimationScheduler_Node_TypeDefinitionIndex = 57452;
+	inline static constexpr unsigned int AnimationSubManager_AnimationScheduler_Node_TypeDefinitionIndex = 88365;
 
 	struct alignas(8) AnimationSubManager_AnimationScheduler_Node
 	{

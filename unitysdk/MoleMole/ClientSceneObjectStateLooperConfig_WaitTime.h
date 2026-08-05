@@ -6,12 +6,12 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CLIENTSCENEOBJECTSTATELOOPERCONFIG_WAITTIME_GET_LOOPCONDITIONTYPE_OFFSET UNITYSDK_OFFSET(0x106B2FE0)
-#define MOLEMOLE_CLIENTSCENEOBJECTSTATELOOPERCONFIG_WAITTIME__CTOR_OFFSET UNITYSDK_OFFSET(0x106B2FF0)
+#define MOLEMOLE_CLIENTSCENEOBJECTSTATELOOPERCONFIG_WAITTIME_GET_LOOPCONDITIONTYPE_OFFSET UNITYSDK_OFFSET(0x1A494200)
+#define MOLEMOLE_CLIENTSCENEOBJECTSTATELOOPERCONFIG_WAITTIME__CTOR_OFFSET UNITYSDK_OFFSET(0x1A494210)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ClientSceneObjectStateLooperConfig_WaitTime_TypeDefinitionIndex = 83899;
+	inline static constexpr unsigned int ClientSceneObjectStateLooperConfig_WaitTime_TypeDefinitionIndex = 74260;
 
 	class ClientSceneObjectStateLooperConfig_WaitTime : public ::MoleMole::ClientSceneObjectStateLooperConfigBase
 	{

@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/PropertyAttribute.h"
 
-#define SIRENIX_ODININSPECTOR_EXTENSION_NAPTEXTAREAATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1CC9B0D0)
-#define SIRENIX_ODININSPECTOR_EXTENSION_NAPTEXTAREAATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC9B0C0)
+#define SIRENIX_ODININSPECTOR_EXTENSION_NAPTEXTAREAATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E198D60)
+#define SIRENIX_ODININSPECTOR_EXTENSION_NAPTEXTAREAATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E198D50)
 
 namespace Sirenix::OdinInspector::Extension
 {
-	inline static constexpr unsigned int NapTextAreaAttribute_TypeDefinitionIndex = 7999;
+	inline static constexpr unsigned int NapTextAreaAttribute_TypeDefinitionIndex = 7953;
 
 	class NapTextAreaAttribute : public ::UnityEngine::PropertyAttribute
 	{

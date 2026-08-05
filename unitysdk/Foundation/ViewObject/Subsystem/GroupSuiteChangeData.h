@@ -5,7 +5,7 @@
 
 namespace Foundation::ViewObject::Subsystem
 {
-	inline static constexpr unsigned int GroupSuiteChangeData_TypeDefinitionIndex = 62352;
+	inline static constexpr unsigned int GroupSuiteChangeData_TypeDefinitionIndex = 62080;
 
 	struct alignas(4) GroupSuiteChangeData
 	{

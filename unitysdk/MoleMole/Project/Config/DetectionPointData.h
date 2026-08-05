@@ -5,11 +5,11 @@
 
 namespace MoleMole::Project::Config { class CollisionShapeData; }
 
-#define MOLEMOLE_PROJECT_CONFIG_DETECTIONPOINTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19E5A740)
+#define MOLEMOLE_PROJECT_CONFIG_DETECTIONPOINTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2421C0)
 
 namespace MoleMole::Project::Config
 {
-	inline static constexpr unsigned int DetectionPointData_TypeDefinitionIndex = 16916;
+	inline static constexpr unsigned int DetectionPointData_TypeDefinitionIndex = 15724;
 
 	class DetectionPointData : public ::MoleMole::Project::Config::PointBaseData
 	{

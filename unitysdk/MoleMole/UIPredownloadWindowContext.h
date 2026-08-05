@@ -4,11 +4,11 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UIPREDOWNLOADWINDOWCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16EB7B40)
+#define MOLEMOLE_UIPREDOWNLOADWINDOWCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x17E162F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIPredownloadWindowContext_TypeDefinitionIndex = 41876;
+	inline static constexpr unsigned int UIPredownloadWindowContext_TypeDefinitionIndex = 89132;
 
 	class UIPredownloadWindowContext : public ::MoleMole::UIControllerContextBase
 	{

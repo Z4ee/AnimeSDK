@@ -4,12 +4,12 @@
 #include "unitysdk/NPCCrowd/EDynamicUnloadPriority.h"
 #include "unitysdk/System/ValueType.h"
 
-class Class_3_B7F8387EB62637EC;
+class Class_3_19291F68B291BF8F;
 class Class_3_F66EF797857EB737;
 
 namespace NPCCrowd
 {
-	inline static constexpr unsigned int NPCRegistryEntry_TypeDefinitionIndex = 66121;
+	inline static constexpr unsigned int NPCRegistryEntry_TypeDefinitionIndex = 67002;
 
 	struct alignas(8) NPCRegistryEntry
 	{
@@ -23,7 +23,7 @@ namespace NPCCrowd
 		::System::Single frontStageEnterTime; // 0x38
 		::System::UInt64 registerOrderSeq; // 0x40
 		::System::UInt64 backStageOrderSeq; // 0x48
-		::Class_3_B7F8387EB62637EC* cachedBuilderComp; // 0x50
+		::Class_3_19291F68B291BF8F* cachedBuilderComp; // 0x50
 		::Class_3_F66EF797857EB737* cachedMemberComp; // 0x58
 	};
 }

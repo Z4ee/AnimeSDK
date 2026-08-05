@@ -6,11 +6,11 @@
 namespace MoleMole::Config { class ConfigZipLine_CIntFloatDic; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CONFIG_CONFIGZIPLINE_CONFIGSPEEDMODIFIER_SLOPE__CTOR_OFFSET UNITYSDK_OFFSET(0x19FF33C0)
+#define MOLEMOLE_CONFIG_CONFIGZIPLINE_CONFIGSPEEDMODIFIER_SLOPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7FB750)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigZipLine_ConfigSpeedModifier_Slope_TypeDefinitionIndex = 51233;
+	inline static constexpr unsigned int ConfigZipLine_ConfigSpeedModifier_Slope_TypeDefinitionIndex = 53012;
 
 	class ConfigZipLine_ConfigSpeedModifier_Slope : public ::System::Object
 	{

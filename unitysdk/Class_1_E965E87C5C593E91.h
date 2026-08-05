@@ -4,16 +4,16 @@
 
 namespace MoleMole { class UIActivityRhythmRankWidgetController; }
 
-#define CLASS_1_E965E87C5C593E91_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x1771DAA0)
-#define CLASS_1_E965E87C5C593E91__CTOR_OFFSET UNITYSDK_OFFSET(0x1771DA90)
+#define CLASS_1_E965E87C5C593E91_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x194A5E20)
+#define CLASS_1_E965E87C5C593E91__CTOR_OFFSET UNITYSDK_OFFSET(0x194A5E10)
 
-inline static constexpr unsigned int Class_1_E965E87C5C593E91_TypeDefinitionIndex = 41210;
+inline static constexpr unsigned int Class_1_E965E87C5C593E91_TypeDefinitionIndex = 68010;
 
 class Class_1_E965E87C5C593E91 : public ::System::Object
 {
 public:
-	::MoleMole::UIActivityRhythmRankWidgetController* Field_1_1; // 0x10
-	::System::Boolean Field_1_0; // 0x18
+	::MoleMole::UIActivityRhythmRankWidgetController* Field_1_0; // 0x10
+	::System::Boolean Field_1_1; // 0x18
 
 	::System::Void _ctor(::System::Boolean a1, ::MoleMole::UIActivityRhythmRankWidgetController* a2)
 	{

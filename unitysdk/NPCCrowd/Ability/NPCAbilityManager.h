@@ -9,6 +9,7 @@
 #include "unitysdk/NPCCrowd/Ability/FNPCNavigationObstacleGridCellLocationFragment.h"
 #include "unitysdk/NPCCrowd/Ability/FTransformFragment.h"
 #include "unitysdk/NPCCrowd/Ability/NPCAbilityBehavioursDefine.h"
+#include "unitysdk/NPCCrowd/Ability/NPCAbilityManager_CustomAttachTransformData.h"
 #include "unitysdk/NPCCrowd/Ability/NPCAbilityObstacleFlushProcessor_ExecuteJob.h"
 #include "unitysdk/NPCCrowd/Ability/NavigationObstacleItem.h"
 #include "unitysdk/NPCCrowd/Ability/NavigationObstacleItemEqualsFunc.h"
@@ -16,6 +17,7 @@
 #include "unitysdk/NPCCrowd/NPCCrowdModuleManagerBase.h"
 #include "unitysdk/Unity/Collections/NativeArray_1.h"
 #include "unitysdk/Unity/Jobs/JobHandle.h"
+#include "unitysdk/UnityEngine/Jobs/TransformAccessArray.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
@@ -37,164 +39,200 @@ namespace NPCCrowd::Ability { class NPCAbilityApplyMovePlatformProcessor; }
 namespace NPCCrowd::Ability { class NPCAbilityDitherProcessor; }
 namespace NPCCrowd::Ability { class NPCAbilityFirstProcessors; }
 namespace NPCCrowd::Ability { class NPCAbilityFlushTransformProcessor; }
-namespace NPCCrowd::Ability { class NPCAbilityManager_MovePlatformAttachSparseCache; }
+namespace NPCCrowd::Ability { class NPCAbilityManager_AttachTransformSparseCache; }
+namespace NPCCrowd::Ability { class NPCAbilityManager_CustomAttachTransformProvider; }
 namespace NPCCrowd::Ability { class NPCAbilityMoveAvoidanceProcessors; }
 namespace NPCCrowd::Ability { class NPCAbilityObstacleFlushProcessor; }
 namespace NPCCrowd::Ability { class NPCAbilityParameters; }
 namespace NPCCrowd::Ability { class NPCAbilityPathFollowProcessor; }
-namespace NPCCrowd::Ability { class NPCAbilityPathFollowProcessors; }
 namespace NPCCrowd::Ability { class NPCAbilityRuntimeData; }
 namespace NPCCrowd::Ability { class NPCAbilitySmoothOrientationProcessors; }
 namespace NPCCrowd::Ability { class NPCAbilitySteerToMoveTargetProcessor; }
 namespace NPCCrowd::Ability { class NPCApplyMovementProcessor; }
 namespace NPCCrowd::Ability { class NPCNavmeshProcessor; }
 namespace NPCCrowd::Ability { class NPCStateTreeProcessor; }
+namespace Nap::NapECS { class EcsFilter; }
+namespace Nap::NapECS { class EcsWorld; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCCROWD_ABILITY_NPCABILITYMANAGER_BEGINPREPAREMOVEPLATFORMATTACHDATALATEUPDATE_OFFSET UNITYSDK_OFFSET(0xA674CF0)
-#define NPCCROWD_ABILITY_NPCABILITYMANAGER_CREATEABILITYENTITY_OFFSET UNITYSDK_OFFSET(0xA674580)
-#define NPCCROWD_ABILITY_NPCABILITYMANAGER_DISPATCHCOMBINEJOB_OFFSET UNITYSDK_OFFSET(0xA674040)
-#define NPCCROWD_ABILITY_NPCABILITYMANAGER_DISPATCHFLUSHJOB_OFFSET UNITYSDK_OFFSET(0xA672B00)
-#define NPCCROWD_ABILITY_NPCABILITYMANAGER_DISPATCHINLIST_OFFSET UNITYSDK_OFFSET(0xA671D80)
-#define NPCCROWD_ABILITY_NPCABILITYMANAGER_DISPATCHJOB_OFFSET UNITYSDK_OFFSET(0xA672080)
-#define NPCCROWD_ABILITY_NPCABILITYMANAGER_DISPATCHTRANSFORMOBSTACLEFLUSHJOB_OFFSET UNITYSDK_OFFSET(0xA675170)
-#define NPCCROWD_ABILITY_NPCABILITYMANAGER_DISPATCH_OFFSET UNITYSDK_OFFSET(0xA671A70)
-#define NPCCROWD_ABILITY_NPCABILITYMANAGER_GETABILITYEFFECTIVEBEHAVIOURS_OFFSET UNITYSDK_OFFSET(0xA66C120)
-#define NPCCROWD_ABILITY_NPCABILITYMANAGER_GETCURRENTABILITYMOVEACTIONID_OFFSET UNITYSDK_OFFSET(0xA670C10)
-#define NPCCROWD_ABILITY_NPCABILITYMANAGER_GETCURRENTABILITYMOVEACTIONTYPE_OFFSET UNITYSDK_OFFSET(0xA670D40)
-#define NPCCROWD_ABILITY_NPCABILITYMANAGER_GETORCREATEMOVEPLATFORMATTACHCACHE_OFFSET UNITYSDK_OFFSET(0xA6731D0)
-#define NPCCROWD_ABILITY_NPCABILITYMANAGER_GET_OFFSET UNITYSDK_OFFSET(0xA667E00)
-#define NPCCROWD_ABILITY_NPCABILITYMANAGER_INITDEFAULTDATA_OFFSET UNITYSDK_OFFSET(0xA66F390)
-#define NPCCROWD_ABILITY_NPCABILITYMANAGER_INIT_OFFSET UNITYSDK_OFFSET(0xA66AB80)
-#define NPCCROWD_ABILITY_NPCABILITYMANAGER_ISPATHFOLLOWFINISHED_OFFSET UNITYSDK_OFFSET(0xA6708D0)
-#define NPCCROWD_ABILITY_NPCABILITYMANAGER_ISPATHFOLLOWSTARTED_OFFSET UNITYSDK_OFFSET(0xA670720)
-#define NPCCROWD_ABILITY_NPCABILITYMANAGER_ISSPLINEFOLLOWFINISHED_OFFSET UNITYSDK_OFFSET(0xA6706B0)
-#define NPCCROWD_ABILITY_NPCABILITYMANAGER_ISSTARTMOVEPROCESS_OFFSET UNITYSDK_OFFSET(0xA670E70)
-#define NPCCROWD_ABILITY_NPCABILITYMANAGER_ONABILITYREMOVED_OFFSET UNITYSDK_OFFSET(0xA6702B0)
-#define NPCCROWD_ABILITY_NPCABILITYMANAGER_ONCHANGESECTION_OFFSET UNITYSDK_OFFSET(0xA66B0F0)
-#define NPCCROWD_ABILITY_NPCABILITYMANAGER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xA66B860)
-#define NPCCROWD_ABILITY_NPCABILITYMANAGER_OVERRIDEABILITYSWITCH_OFFSET UNITYSDK_OFFSET(0xA66BDC0)
-#define NPCCROWD_ABILITY_NPCABILITYMANAGER_PENDINGUPDATEJOBS_OFFSET UNITYSDK_OFFSET(0xA674370)
-#define NPCCROWD_ABILITY_NPCABILITYMANAGER_PRELOADASSETS_OFFSET UNITYSDK_OFFSET(0xA66B730)
-#define NPCCROWD_ABILITY_NPCABILITYMANAGER_PREUPDATE_OFFSET UNITYSDK_OFFSET(0xA673430)
-#define NPCCROWD_ABILITY_NPCABILITYMANAGER_PROCESSPENDINGSPLINEFOLLOWCOMMANDS_OFFSET UNITYSDK_OFFSET(0xA6719F0)
-#define NPCCROWD_ABILITY_NPCABILITYMANAGER_RELEASEMOVEPLATFORMATTACHCACHES_OFFSET UNITYSDK_OFFSET(0xA66BB90)
-#define NPCCROWD_ABILITY_NPCABILITYMANAGER_REMOVEABILITYENTITY_OFFSET UNITYSDK_OFFSET(0xA674A30)
-#define NPCCROWD_ABILITY_NPCABILITYMANAGER_RESOLVEBEHAVIOURSBYPATHSTARTNODE_OFFSET UNITYSDK_OFFSET(0xA66BE60)
-#define NPCCROWD_ABILITY_NPCABILITYMANAGER_RESOLVEPOPULATIONOVERRIDEMOVEMENTSTYLE_OFFSET UNITYSDK_OFFSET(0xA670140)
-#define NPCCROWD_ABILITY_NPCABILITYMANAGER_SETABILITYEFFECTIVEBEHAVIOURS_OFFSET UNITYSDK_OFFSET(0xA66C040)
-#define NPCCROWD_ABILITY_NPCABILITYMANAGER_SETABILITYPATHFOLLOWTYPE_OFFSET UNITYSDK_OFFSET(0xA66C230)
-#define NPCCROWD_ABILITY_NPCABILITYMANAGER_SETNPCABILITYMOVETARGET_OFFSET UNITYSDK_OFFSET(0xA66C2E0)
-#define NPCCROWD_ABILITY_NPCABILITYMANAGER_SETNPCABILITYPATHFOLLOW_1_OFFSET UNITYSDK_OFFSET(0xA66E6E0)
-#define NPCCROWD_ABILITY_NPCABILITYMANAGER_SETNPCABILITYPATHFOLLOW_OFFSET UNITYSDK_OFFSET(0xA66CF40)
-#define NPCCROWD_ABILITY_NPCABILITYMANAGER_SETNPCABILITYSMOOTHROTATIONTOTARGET_OFFSET UNITYSDK_OFFSET(0xA66CE50)
-#define NPCCROWD_ABILITY_NPCABILITYMANAGER_SHOULDTICK_OFFSET UNITYSDK_OFFSET(0xA66B640)
-#define NPCCROWD_ABILITY_NPCABILITYMANAGER_STANDTURNASYNC_OFFSET UNITYSDK_OFFSET(0xA66F030)
-#define NPCCROWD_ABILITY_NPCABILITYMANAGER_STARTSPLINEFOLLOW_OFFSET UNITYSDK_OFFSET(0xA6703D0)
-#define NPCCROWD_ABILITY_NPCABILITYMANAGER_STARTSTANDTURN_OFFSET UNITYSDK_OFFSET(0xA66EF00)
-#define NPCCROWD_ABILITY_NPCABILITYMANAGER_STARTSTATETREE_OFFSET UNITYSDK_OFFSET(0xA6755B0)
-#define NPCCROWD_ABILITY_NPCABILITYMANAGER_STOPCURRENTMOVEACTION_OFFSET UNITYSDK_OFFSET(0xA670AA0)
-#define NPCCROWD_ABILITY_NPCABILITYMANAGER_STOPMOVEACTION_OFFSET UNITYSDK_OFFSET(0xA670930)
-#define NPCCROWD_ABILITY_NPCABILITYMANAGER_STOPSPLINEFOLLOW_OFFSET UNITYSDK_OFFSET(0xA670530)
-#define NPCCROWD_ABILITY_NPCABILITYMANAGER_STOPSTATETREE_OFFSET UNITYSDK_OFFSET(0xA675620)
-#define NPCCROWD_ABILITY_NPCABILITYMANAGER_TELEPORTTO_1_OFFSET UNITYSDK_OFFSET(0xA6715E0)
-#define NPCCROWD_ABILITY_NPCABILITYMANAGER_TELEPORTTO_OFFSET UNITYSDK_OFFSET(0xA670EE0)
-#define NPCCROWD_ABILITY_NPCABILITYMANAGER_TRYCOLLECTMOVEPLATFORMATTACHTRANSFORM_OFFSET UNITYSDK_OFFSET(0xA674EB0)
-#define NPCCROWD_ABILITY_NPCABILITYMANAGER_TRYGETABILITY_OFFSET UNITYSDK_OFFSET(0xA667F80)
-#define NPCCROWD_ABILITY_NPCABILITYMANAGER_TRYGETSPLINEFOLLOWSTATE_OFFSET UNITYSDK_OFFSET(0xA670590)
-#define NPCCROWD_ABILITY_NPCABILITYMANAGER_TRYGETSTANDTURNCONTEXT_OFFSET UNITYSDK_OFFSET(0xA66F230)
-#define NPCCROWD_ABILITY_NPCABILITYMANAGER_UPDATE_OFFSET UNITYSDK_OFFSET(0xA673610)
-#define NPCCROWD_ABILITY_NPCABILITYMANAGER_WAITFOROBSTACLE_OFFSET UNITYSDK_OFFSET(0xA675550)
-#define NPCCROWD_ABILITY_NPCABILITYMANAGER_WAITFORSTANDTURNFINISHASYNC_OFFSET UNITYSDK_OFFSET(0xA66F190)
-#define NPCCROWD_ABILITY_NPCABILITYMANAGER_WAITFORSTANDTURNFINISH_OFFSET UNITYSDK_OFFSET(0xA66F0C0)
-#define NPCCROWD_ABILITY_NPCABILITYMANAGER_WAITFORTRANSFORM_OFFSET UNITYSDK_OFFSET(0xA66BE00)
-#define NPCCROWD_ABILITY_NPCABILITYMANAGER_WAITUNTILIDLEASYNC_OFFSET UNITYSDK_OFFSET(0xA66F2E0)
-#define NPCCROWD_ABILITY_NPCABILITYMANAGER_WAIT_OFFSET UNITYSDK_OFFSET(0xA66BAC0)
-#define NPCCROWD_ABILITY_NPCABILITYMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0xA6756C0)
-#define NPCCROWD_ABILITY_NPCABILITYMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0xA6756B0)
-#define NPCCROWD_ABILITY_NPCABILITYMANAGER___BASE_INIT_OFFSET UNITYSDK_OFFSET(0xA675760)
-#define NPCCROWD_ABILITY_NPCABILITYMANAGER___BASE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xA6757F0)
-#define NPCCROWD_ABILITY_NPCABILITYMANAGER___BASE_PREUPDATE_OFFSET UNITYSDK_OFFSET(0xA675880)
-#define NPCCROWD_ABILITY_NPCABILITYMANAGER___BASE_SHOULDTICK_OFFSET UNITYSDK_OFFSET(0xA675920)
-#define NPCCROWD_ABILITY_NPCABILITYMANAGER___BASE_UPDATE_OFFSET UNITYSDK_OFFSET(0xA6759B0)
+#define NPCCROWD_ABILITY_NPCABILITYMANAGER_BEGINPREPAREMOVEPLATFORMATTACHDATALATEUPDATE_OFFSET UNITYSDK_OFFSET(0xF85D680)
+#define NPCCROWD_ABILITY_NPCABILITYMANAGER_CREATEABILITYENTITY_OFFSET UNITYSDK_OFFSET(0xF85E0D0)
+#define NPCCROWD_ABILITY_NPCABILITYMANAGER_CREATEFILTERS_OFFSET UNITYSDK_OFFSET(0xF854FC0)
+#define NPCCROWD_ABILITY_NPCABILITYMANAGER_DISPATCHCOMBINEJOB_OFFSET UNITYSDK_OFFSET(0xF85CDF0)
+#define NPCCROWD_ABILITY_NPCABILITYMANAGER_DISPATCHFLUSHJOBCOMBINED_OFFSET UNITYSDK_OFFSET(0xF85AF70)
+#define NPCCROWD_ABILITY_NPCABILITYMANAGER_DISPATCHFLUSHJOBPERRUNTIME_OFFSET UNITYSDK_OFFSET(0xF85B8C0)
+#define NPCCROWD_ABILITY_NPCABILITYMANAGER_DISPATCHFLUSHJOB_OFFSET UNITYSDK_OFFSET(0xF85ADD0)
+#define NPCCROWD_ABILITY_NPCABILITYMANAGER_DISPATCHINLIST_OFFSET UNITYSDK_OFFSET(0xF85A090)
+#define NPCCROWD_ABILITY_NPCABILITYMANAGER_DISPATCHJOB_OFFSET UNITYSDK_OFFSET(0xF85A390)
+#define NPCCROWD_ABILITY_NPCABILITYMANAGER_DISPATCHTRANSFORMOBSTACLEFLUSHJOB_OFFSET UNITYSDK_OFFSET(0xF85DCD0)
+#define NPCCROWD_ABILITY_NPCABILITYMANAGER_DISPATCH_OFFSET UNITYSDK_OFFSET(0xF859D80)
+#define NPCCROWD_ABILITY_NPCABILITYMANAGER_DISPOSECOMBINEDTRANSFORMARRAYS_OFFSET UNITYSDK_OFFSET(0xF856370)
+#define NPCCROWD_ABILITY_NPCABILITYMANAGER_GETABILITYEFFECTIVEBEHAVIOURS_OFFSET UNITYSDK_OFFSET(0xF856A90)
+#define NPCCROWD_ABILITY_NPCABILITYMANAGER_GETCURRENTABILITYMOVEACTIONID_OFFSET UNITYSDK_OFFSET(0xF8590A0)
+#define NPCCROWD_ABILITY_NPCABILITYMANAGER_GETCURRENTABILITYMOVEACTIONTYPE_OFFSET UNITYSDK_OFFSET(0xF8591D0)
+#define NPCCROWD_ABILITY_NPCABILITYMANAGER_GETORCREATEMOVEPLATFORMATTACHCACHE_OFFSET UNITYSDK_OFFSET(0xF85BF20)
+#define NPCCROWD_ABILITY_NPCABILITYMANAGER_GET_OFFSET UNITYSDK_OFFSET(0xF852290)
+#define NPCCROWD_ABILITY_NPCABILITYMANAGER_HASCUSTOMATTACHTRANSFORMFORENTITY_OFFSET UNITYSDK_OFFSET(0xF85F080)
+#define NPCCROWD_ABILITY_NPCABILITYMANAGER_HASCUSTOMATTACHTRANSFORM_OFFSET UNITYSDK_OFFSET(0xF85F1B0)
+#define NPCCROWD_ABILITY_NPCABILITYMANAGER_INITDEFAULTDATA_OFFSET UNITYSDK_OFFSET(0xF8579B0)
+#define NPCCROWD_ABILITY_NPCABILITYMANAGER_INIT_OFFSET UNITYSDK_OFFSET(0xF855110)
+#define NPCCROWD_ABILITY_NPCABILITYMANAGER_ISPATHFOLLOWFINISHED_OFFSET UNITYSDK_OFFSET(0xF858CE0)
+#define NPCCROWD_ABILITY_NPCABILITYMANAGER_ISPATHFOLLOWSTARTED_OFFSET UNITYSDK_OFFSET(0xF858C40)
+#define NPCCROWD_ABILITY_NPCABILITYMANAGER_ISSPLINEFOLLOWFINISHED_OFFSET UNITYSDK_OFFSET(0xF858BD0)
+#define NPCCROWD_ABILITY_NPCABILITYMANAGER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xF85D450)
+#define NPCCROWD_ABILITY_NPCABILITYMANAGER_ONABILITYREMOVED_OFFSET UNITYSDK_OFFSET(0xF858790)
+#define NPCCROWD_ABILITY_NPCABILITYMANAGER_ONCHANGESECTION_OFFSET UNITYSDK_OFFSET(0xF855740)
+#define NPCCROWD_ABILITY_NPCABILITYMANAGER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xF855EA0)
+#define NPCCROWD_ABILITY_NPCABILITYMANAGER_OVERRIDEABILITYSWITCH_OFFSET UNITYSDK_OFFSET(0xF856740)
+#define NPCCROWD_ABILITY_NPCABILITYMANAGER_PENDINGUPDATEJOBS_OFFSET UNITYSDK_OFFSET(0xF85DEC0)
+#define NPCCROWD_ABILITY_NPCABILITYMANAGER_POSTLATEUPDATE_OFFSET UNITYSDK_OFFSET(0xF85DDB0)
+#define NPCCROWD_ABILITY_NPCABILITYMANAGER_PRELOADASSETS_OFFSET UNITYSDK_OFFSET(0xF855D70)
+#define NPCCROWD_ABILITY_NPCABILITYMANAGER_PREPARECUSTOMATTACHDATALATEUPDATE_OFFSET UNITYSDK_OFFSET(0xF85D840)
+#define NPCCROWD_ABILITY_NPCABILITYMANAGER_PREUPDATE_OFFSET UNITYSDK_OFFSET(0xF85C580)
+#define NPCCROWD_ABILITY_NPCABILITYMANAGER_PROCESSMOVEPLATFORM_OFFSET UNITYSDK_OFFSET(0xF85D120)
+#define NPCCROWD_ABILITY_NPCABILITYMANAGER_PROCESSPENDINGSPLINEFOLLOWCOMMANDS_OFFSET UNITYSDK_OFFSET(0xF859CF0)
+#define NPCCROWD_ABILITY_NPCABILITYMANAGER_REBUILDCOMBINEDTRANSFORMACCESSARRAY_OFFSET UNITYSDK_OFFSET(0xF85C180)
+#define NPCCROWD_ABILITY_NPCABILITYMANAGER_REGISTERCUSTOMATTACHTRANSFORM_OFFSET UNITYSDK_OFFSET(0xF85EE10)
+#define NPCCROWD_ABILITY_NPCABILITYMANAGER_RELEASECUSTOMATTACHTRANSFORMS_OFFSET UNITYSDK_OFFSET(0xF856670)
+#define NPCCROWD_ABILITY_NPCABILITYMANAGER_RELEASEMOVEPLATFORMATTACHCACHES_OFFSET UNITYSDK_OFFSET(0xF856440)
+#define NPCCROWD_ABILITY_NPCABILITYMANAGER_REMOVEABILITYENTITY_OFFSET UNITYSDK_OFFSET(0xF85E590)
+#define NPCCROWD_ABILITY_NPCABILITYMANAGER_REMOVECUSTOMATTACHTRANSFORMSFORENTITY_OFFSET UNITYSDK_OFFSET(0xF85E860)
+#define NPCCROWD_ABILITY_NPCABILITYMANAGER_REMOVECUSTOMATTACHTRANSFORM_OFFSET UNITYSDK_OFFSET(0xF85F010)
+#define NPCCROWD_ABILITY_NPCABILITYMANAGER_RESOLVEBEHAVIOURSBYPATHSTARTNODE_OFFSET UNITYSDK_OFFSET(0xF8567E0)
+#define NPCCROWD_ABILITY_NPCABILITYMANAGER_RESOLVEPOPULATIONOVERRIDEMOVEMENTSTYLE_OFFSET UNITYSDK_OFFSET(0xF858620)
+#define NPCCROWD_ABILITY_NPCABILITYMANAGER_SETABILITYEFFECTIVEBEHAVIOURS_OFFSET UNITYSDK_OFFSET(0xF8569C0)
+#define NPCCROWD_ABILITY_NPCABILITYMANAGER_SETABILITYPATHFOLLOWTYPE_OFFSET UNITYSDK_OFFSET(0xF856B90)
+#define NPCCROWD_ABILITY_NPCABILITYMANAGER_SETNPCABILITYPATHFOLLOW_OFFSET UNITYSDK_OFFSET(0xF856D20)
+#define NPCCROWD_ABILITY_NPCABILITYMANAGER_SETNPCABILITYSMOOTHROTATIONTOTARGET_OFFSET UNITYSDK_OFFSET(0xF856C30)
+#define NPCCROWD_ABILITY_NPCABILITYMANAGER_SHOULDTICK_OFFSET UNITYSDK_OFFSET(0xF855C80)
+#define NPCCROWD_ABILITY_NPCABILITYMANAGER_STANDTURNASYNC_OFFSET UNITYSDK_OFFSET(0xF857650)
+#define NPCCROWD_ABILITY_NPCABILITYMANAGER_STARTSPLINEFOLLOW_OFFSET UNITYSDK_OFFSET(0xF8588B0)
+#define NPCCROWD_ABILITY_NPCABILITYMANAGER_STARTSTANDTURN_OFFSET UNITYSDK_OFFSET(0xF857530)
+#define NPCCROWD_ABILITY_NPCABILITYMANAGER_STARTSTATETREE_OFFSET UNITYSDK_OFFSET(0xF85F790)
+#define NPCCROWD_ABILITY_NPCABILITYMANAGER_STOPCURRENTMOVEACTION_OFFSET UNITYSDK_OFFSET(0xF858F30)
+#define NPCCROWD_ABILITY_NPCABILITYMANAGER_STOPMOVEACTION_OFFSET UNITYSDK_OFFSET(0xF858DC0)
+#define NPCCROWD_ABILITY_NPCABILITYMANAGER_STOPSPLINEFOLLOW_OFFSET UNITYSDK_OFFSET(0xF858A10)
+#define NPCCROWD_ABILITY_NPCABILITYMANAGER_STOPSTATETREE_OFFSET UNITYSDK_OFFSET(0xF85F800)
+#define NPCCROWD_ABILITY_NPCABILITYMANAGER_TELEPORTTO_1_OFFSET UNITYSDK_OFFSET(0xF8598E0)
+#define NPCCROWD_ABILITY_NPCABILITYMANAGER_TELEPORTTO_OFFSET UNITYSDK_OFFSET(0xF859300)
+#define NPCCROWD_ABILITY_NPCABILITYMANAGER_TRYCOLLECTMOVEPLATFORMATTACHTRANSFORM_OFFSET UNITYSDK_OFFSET(0xF85D190)
+#define NPCCROWD_ABILITY_NPCABILITYMANAGER_TRYGETABILITYTRANSFORM_OFFSET UNITYSDK_OFFSET(0xF85EAE0)
+#define NPCCROWD_ABILITY_NPCABILITYMANAGER_TRYGETABILITY_OFFSET UNITYSDK_OFFSET(0xF852410)
+#define NPCCROWD_ABILITY_NPCABILITYMANAGER_TRYGETPENDINGATTACHBASETRANSFORM_OFFSET UNITYSDK_OFFSET(0xF85F260)
+#define NPCCROWD_ABILITY_NPCABILITYMANAGER_TRYGETSPLINEFOLLOWSTATE_OFFSET UNITYSDK_OFFSET(0xF858A70)
+#define NPCCROWD_ABILITY_NPCABILITYMANAGER_TRYGETSTANDTURNCONTEXT_OFFSET UNITYSDK_OFFSET(0xF857850)
+#define NPCCROWD_ABILITY_NPCABILITYMANAGER_TRYGETVALIDABILITYRUNTIME_OFFSET UNITYSDK_OFFSET(0xF85ED70)
+#define NPCCROWD_ABILITY_NPCABILITYMANAGER_UPDATE_OFFSET UNITYSDK_OFFSET(0xF85C760)
+#define NPCCROWD_ABILITY_NPCABILITYMANAGER_WAITFOROBSTACLE_OFFSET UNITYSDK_OFFSET(0xF85DE60)
+#define NPCCROWD_ABILITY_NPCABILITYMANAGER_WAITFORSTANDTURNFINISHASYNC_OFFSET UNITYSDK_OFFSET(0xF8577B0)
+#define NPCCROWD_ABILITY_NPCABILITYMANAGER_WAITFORSTANDTURNFINISH_OFFSET UNITYSDK_OFFSET(0xF8576E0)
+#define NPCCROWD_ABILITY_NPCABILITYMANAGER_WAITFORTRANSFORM_OFFSET UNITYSDK_OFFSET(0xF856780)
+#define NPCCROWD_ABILITY_NPCABILITYMANAGER_WAITUNTILIDLEASYNC_OFFSET UNITYSDK_OFFSET(0xF857900)
+#define NPCCROWD_ABILITY_NPCABILITYMANAGER_WAIT_OFFSET UNITYSDK_OFFSET(0xF8562A0)
+#define NPCCROWD_ABILITY_NPCABILITYMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0xF85F8A0)
+#define NPCCROWD_ABILITY_NPCABILITYMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0xF85F890)
+#define NPCCROWD_ABILITY_NPCABILITYMANAGER___BASE_CREATEFILTERS_OFFSET UNITYSDK_OFFSET(0xF85F980)
+#define NPCCROWD_ABILITY_NPCABILITYMANAGER___BASE_INIT_OFFSET UNITYSDK_OFFSET(0xF85FA10)
+#define NPCCROWD_ABILITY_NPCABILITYMANAGER___BASE_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xF85FAA0)
+#define NPCCROWD_ABILITY_NPCABILITYMANAGER___BASE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xF85FB40)
+#define NPCCROWD_ABILITY_NPCABILITYMANAGER___BASE_POSTLATEUPDATE_OFFSET UNITYSDK_OFFSET(0xF85FBD0)
+#define NPCCROWD_ABILITY_NPCABILITYMANAGER___BASE_PREUPDATE_OFFSET UNITYSDK_OFFSET(0xF85FC70)
+#define NPCCROWD_ABILITY_NPCABILITYMANAGER___BASE_SHOULDTICK_OFFSET UNITYSDK_OFFSET(0xF85FD10)
+#define NPCCROWD_ABILITY_NPCABILITYMANAGER___BASE_UPDATE_OFFSET UNITYSDK_OFFSET(0xF85FDA0)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int NPCAbilityManager_TypeDefinitionIndex = 51072;
+	inline static constexpr unsigned int NPCAbilityManager_TypeDefinitionIndex = 78958;
 
 	class NPCAbilityManager : public ::NPCCrowd::NPCCrowdModuleManagerBase
 	{
 	public:
-		static ::Foundation::AssetRequestHandle* StaticGet__configAssetRequest()
+		static ::System::Action_3<::Class_3_F2DAD7F45F518868*, ::Class_3_52E0F81CBC57DA32*, ::NPCCrowd::Ability::NPCAbilityManager*>** StaticGet_MovePlatformForEachDelegate()
 		{
-			return (::Foundation::AssetRequestHandle*)Il2CppClass::FromTypeDefinitionIndex(NPCAbilityManager_TypeDefinitionIndex)->GetStaticField(0x34D60);
+			return (::System::Action_3<::Class_3_F2DAD7F45F518868*, ::Class_3_52E0F81CBC57DA32*, ::NPCCrowd::Ability::NPCAbilityManager*>**)Il2CppClass::FromTypeDefinitionIndex(NPCAbilityManager_TypeDefinitionIndex)->GetStaticField(0x37500);
 		}
 		static ::NPCCrowd::NPCSectionAbilitySwitchConfigSO** StaticGet__configSO()
 		{
-			return (::NPCCrowd::NPCSectionAbilitySwitchConfigSO**)Il2CppClass::FromTypeDefinitionIndex(NPCAbilityManager_TypeDefinitionIndex)->GetStaticField(0x34D80);
-		}
-		static ::System::String** StaticGet_SwitchConfigPath()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(NPCAbilityManager_TypeDefinitionIndex)->GetStaticField(0x34D88);
+			return (::NPCCrowd::NPCSectionAbilitySwitchConfigSO**)Il2CppClass::FromTypeDefinitionIndex(NPCAbilityManager_TypeDefinitionIndex)->GetStaticField(0x37508);
 		}
 		static ::System::Collections::Generic::List_1<::Unity::Jobs::JobHandle>** StaticGet_allUpdateJobs()
 		{
-			return (::System::Collections::Generic::List_1<::Unity::Jobs::JobHandle>**)Il2CppClass::FromTypeDefinitionIndex(NPCAbilityManager_TypeDefinitionIndex)->GetStaticField(0x34D90);
+			return (::System::Collections::Generic::List_1<::Unity::Jobs::JobHandle>**)Il2CppClass::FromTypeDefinitionIndex(NPCAbilityManager_TypeDefinitionIndex)->GetStaticField(0x37510);
 		}
-		static ::System::Int32* StaticGet_MaxEntityNum()
+		static ::System::String** StaticGet_SwitchConfigPath()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NPCAbilityManager_TypeDefinitionIndex)->GetStaticField(0xCF70);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(NPCAbilityManager_TypeDefinitionIndex)->GetStaticField(0x37518);
 		}
-		static ::NPCCrowd::AbilitySwitchSetting* StaticGet_DefaultAbilitySwitchSetting()
+		static ::Foundation::AssetRequestHandle* StaticGet__configAssetRequest()
 		{
-			return (::NPCCrowd::AbilitySwitchSetting*)Il2CppClass::FromTypeDefinitionIndex(NPCAbilityManager_TypeDefinitionIndex)->GetStaticField(0xCF74);
-		}
-		static ::NPCCrowd::AbilitySwitchSetting* StaticGet_AbilitySwitchSetting()
-		{
-			return (::NPCCrowd::AbilitySwitchSetting*)Il2CppClass::FromTypeDefinitionIndex(NPCAbilityManager_TypeDefinitionIndex)->GetStaticField(0xCF78);
+			return (::Foundation::AssetRequestHandle*)Il2CppClass::FromTypeDefinitionIndex(NPCAbilityManager_TypeDefinitionIndex)->GetStaticField(0x37520);
 		}
 		static ::System::Boolean* StaticGet_ActivateMoveAvoidance()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(NPCAbilityManager_TypeDefinitionIndex)->GetStaticField(0xCF7C);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(NPCAbilityManager_TypeDefinitionIndex)->GetStaticField(0xCF90);
+		}
+		static ::NPCCrowd::AbilitySwitchSetting* StaticGet_AbilitySwitchSetting()
+		{
+			return (::NPCCrowd::AbilitySwitchSetting*)Il2CppClass::FromTypeDefinitionIndex(NPCAbilityManager_TypeDefinitionIndex)->GetStaticField(0xCF91);
+		}
+		static ::System::Int32* StaticGet_MaxEntityNum()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NPCAbilityManager_TypeDefinitionIndex)->GetStaticField(0xCF98);
+		}
+		static ::NPCCrowd::AbilitySwitchSetting* StaticGet_DefaultAbilitySwitchSetting()
+		{
+			return (::NPCCrowd::AbilitySwitchSetting*)Il2CppClass::FromTypeDefinitionIndex(NPCAbilityManager_TypeDefinitionIndex)->GetStaticField(0xCF9C);
+		}
+		static ::System::Boolean* StaticGet_EnableCombinedFlush()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(NPCAbilityManager_TypeDefinitionIndex)->GetStaticField(0xCFA0);
 		}
 		static ::System::Boolean* StaticGet_EnableCrowdDither()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(NPCAbilityManager_TypeDefinitionIndex)->GetStaticField(0xCF7D);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(NPCAbilityManager_TypeDefinitionIndex)->GetStaticField(0xCFA1);
 		}
 		static ::System::Boolean* StaticGet_EnableAbilityCombine()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(NPCAbilityManager_TypeDefinitionIndex)->GetStaticField(0xCF7E);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(NPCAbilityManager_TypeDefinitionIndex)->GetStaticField(0xCFA2);
 		}
-		::NPCCrowd::Ability::NPCAbilityMoveAvoidanceProcessors* moveAvoidanceProcessors; // 0x18
-		::NPCCrowd::Ability::BeforeNavMeshCombineProcessor* beforeNaveMeshProcessor; // 0x20
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::NPCCrowd::Ability::NPCAbility*>* abilities; // 0x28
-		::System::Collections::Generic::Dictionary_2<::NPCCrowd::Ability::NPCAbilityRuntimeData*, ::NPCCrowd::Ability::NPCAbilityManager_MovePlatformAttachSparseCache*>* _movePlatformAttachCaches; // 0x30
-		::NPCCrowd::Ability::NPCAbilityFlushTransformProcessor* flushTransformProcessor; // 0x38
-		::NPCCrowd::Ability::NPCAbilityDitherProcessor* ditherProcessor; // 0x40
-		::System::Collections::Generic::Dictionary_2<::NPCCrowd::Ability::NPCAbilityParameters*, ::NPCCrowd::Ability::NPCAbilityRuntimeData*>* allAbilityRuntimeDataDict; // 0x48
-		::NPCCrowd::AI::AIActionProcessor* actionProcessor; // 0x50
-		::NPCCrowd::Ability::NPCAbilityPathFollowProcessors* pathFollowingProcessors; // 0x58
-		::NPCCrowd::Ability::NPCNavmeshProcessor* navmeshProcessor; // 0x60
-		::NPCCrowd::Ability::NPCAbilityObstacleFlushProcessor* obstacleFlushProcessor; // 0x68
-		::System::Collections::Generic::List_1<::NPCCrowd::Ability::NPCAbilityObstacleFlushProcessor_ExecuteJob>* obstacleFlushProcessorJobs; // 0x70
-		::NPCCrowd::NPCIDGeneratorInt* IDGen; // 0x78
-		::NPCCrowd::Ability::NPCAbilitySmoothOrientationProcessors* smoothOrientationProcessors; // 0x80
-		::NPCCrowd::Ability::AfterNavMeshCombineProcessor* afterNavMeshProcessor; // 0x88
-		::NPCCrowd::Ability::NPCAbilityAnimateProcessors* animateProcessors; // 0x90
-		::NPCCrowd::Ability::NPCAbilityFirstProcessors* firstProcessor; // 0x98
-		::NPCCrowd::Ability::NPCAbilitySteerToMoveTargetProcessor* steerToMoveTargetProcessor; // 0xA0
-		::NPCCrowd::Ability::NPCAbilityApplyMovePlatformProcessor* applyMovePlatformProcessor; // 0xA8
-		::NPCCrowd::Ability::NPCAIProcessor* aiProcessors; // 0xB0
-		::NPCCrowd::Ability::NPCAbilityPathFollowProcessor* pathFollowingProcessor; // 0xB8
-		::System::Collections::Generic::List_1<::NPCCrowd::Ability::NPCAbilityRuntimeData*>* allAbilityRuntimeDatas; // 0xC0
-		::NPCCrowd::Ability::NPCApplyMovementProcessor* applyMovementProcessor; // 0xC8
-		::NPCCrowd::Ability::CrowdSplineFollowProcessor* splineFollowProcessor; // 0xD0
-		::NPCCrowd::Ability::NPCStateTreeProcessor* stateTreeProcessor; // 0xD8
-		::Unity::Jobs::JobHandle _jobHandle; // 0xE0
-		::Unity::Jobs::JobHandle _obstacleJobHandle; // 0xF0
+		::NPCCrowd::Ability::NPCAbilityAnimateProcessors* animateProcessors; // 0x18
+		::NPCCrowd::Ability::NPCAbilityMoveAvoidanceProcessors* moveAvoidanceProcessors; // 0x20
+		::NPCCrowd::NPCIDGeneratorInt* IDGen; // 0x28
+		::System::Collections::Generic::Dictionary_2<::NPCCrowd::Ability::NPCAbilityRuntimeData*, ::NPCCrowd::Ability::NPCAbilityManager_AttachTransformSparseCache*>* _movePlatformAttachCaches; // 0x30
+		::System::Collections::Generic::List_1<::NPCCrowd::Ability::NPCAbilityObstacleFlushProcessor_ExecuteJob>* obstacleFlushProcessorJobs; // 0x38
+		::Nap::NapECS::EcsFilter* _movePlatformFilter; // 0x40
+		::NPCCrowd::Ability::NPCAbilityObstacleFlushProcessor* obstacleFlushProcessor; // 0x48
+		::System::Collections::Generic::Dictionary_2<::NPCCrowd::Ability::NPCAbilityParameters*, ::NPCCrowd::Ability::NPCAbilityRuntimeData*>* allAbilityRuntimeDataDict; // 0x50
+		::NPCCrowd::Ability::AfterNavMeshCombineProcessor* afterNavMeshProcessor; // 0x58
+		::NPCCrowd::Ability::NPCAIProcessor* aiProcessors; // 0x60
+		::NPCCrowd::Ability::NPCAbilityPathFollowProcessor* pathFollowingProcessor; // 0x68
+		::NPCCrowd::Ability::BeforeNavMeshCombineProcessor* beforeNaveMeshProcessor; // 0x70
+		::NPCCrowd::Ability::NPCAbilityFlushTransformProcessor* flushTransformProcessor; // 0x78
+		::NPCCrowd::Ability::NPCAbilityDitherProcessor* ditherProcessor; // 0x80
+		::NPCCrowd::Ability::NPCNavmeshProcessor* navmeshProcessor; // 0x88
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::NPCCrowd::Ability::NPCAbilityManager_CustomAttachTransformData>* _customAttachTransforms; // 0x90
+		::NPCCrowd::Ability::CrowdSplineFollowProcessor* splineFollowProcessor; // 0x98
+		::NPCCrowd::Ability::NPCAbilitySmoothOrientationProcessors* smoothOrientationProcessors; // 0xA0
+		::NPCCrowd::Ability::NPCAbilitySteerToMoveTargetProcessor* steerToMoveTargetProcessor; // 0xA8
+		::NPCCrowd::Ability::NPCAbilityApplyMovePlatformProcessor* applyMovePlatformProcessor; // 0xB0
+		::System::Collections::Generic::List_1<::NPCCrowd::Ability::NPCAbilityRuntimeData*>* allAbilityRuntimeDatas; // 0xB8
+		::NPCCrowd::Ability::NPCApplyMovementProcessor* applyMovementProcessor; // 0xC0
+		::NPCCrowd::Ability::NPCAbilityFirstProcessors* firstProcessor; // 0xC8
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::NPCCrowd::Ability::NPCAbility*>* abilities; // 0xD0
+		::NPCCrowd::AI::AIActionProcessor* actionProcessor; // 0xD8
+		::System::Collections::Generic::List_1<::System::Int32>* _customAttachRemoveCache; // 0xE0
+		::NPCCrowd::Ability::NPCStateTreeProcessor* stateTreeProcessor; // 0xE8
+		::UnityEngine::Jobs::TransformAccessArray _combinedTransformAccessArray; // 0xF0
+		::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FTransformFragment> _combinedTransformFragments; // 0xF8
+		::Unity::Jobs::JobHandle _obstacleJobHandle; // 0x108
+		::System::Int32 _combinedTransformTotalCapacity; // 0x118
+		::System::Boolean _combinedTransformDirty; // 0x11C
+		::Unity::Jobs::JobHandle _jobHandle; // 0x120
+		::Unity::Collections::NativeArray_1<::System::Boolean> _combinedIsUsing; // 0x130
 
 		::System::Void _ctor()
 		{
@@ -209,6 +247,11 @@ namespace NPCCrowd::Ability
 		static ::NPCCrowd::Ability::NPCAbilityManager* Get()
 		{
 			return ((::NPCCrowd::Ability::NPCAbilityManager*(*)())((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCABILITYMANAGER_GET_OFFSET))();
+		}
+
+		::System::Void CreateFilters(::Nap::NapECS::EcsWorld* world)
+		{
+			return ((::System::Void(*)(::PVOID, ::Nap::NapECS::EcsWorld*))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCABILITYMANAGER_CREATEFILTERS_OFFSET))(this, world);
 		}
 
 		::System::Void Init()
@@ -261,24 +304,14 @@ namespace NPCCrowd::Ability
 			return ((::System::Void(*)(::NPCCrowd::Ability::NPCAbilityRuntimeData*, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCABILITYMANAGER_SETABILITYPATHFOLLOWTYPE_OFFSET))(runtimeData, idx, usePathFollow);
 		}
 
-		::NPCCrowd::Ability::FNPCAbilityMovementActionHandle SetNPCAbilityMoveTarget(::NPCCrowd::Ability::NPCAbilityRuntimeData* runtimeData, ::System::Int32 idx, ::UnityEngine::Vector3 targetCenter, ::System::String* style)
-		{
-			return ((::NPCCrowd::Ability::FNPCAbilityMovementActionHandle(*)(::PVOID, ::NPCCrowd::Ability::NPCAbilityRuntimeData*, ::System::Int32, ::UnityEngine::Vector3, ::System::String*))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCABILITYMANAGER_SETNPCABILITYMOVETARGET_OFFSET))(this, runtimeData, idx, targetCenter, style);
-		}
-
 		::NPCCrowd::Ability::FNPCAbilityMovementActionHandle SetNPCAbilitySmoothRotationToTarget(::NPCCrowd::Ability::NPCAbilityRuntimeData* runtimeData, ::System::Int32 idx, ::UnityEngine::Vector3 rotTarget)
 		{
 			return ((::NPCCrowd::Ability::FNPCAbilityMovementActionHandle(*)(::PVOID, ::NPCCrowd::Ability::NPCAbilityRuntimeData*, ::System::Int32, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCABILITYMANAGER_SETNPCABILITYSMOOTHROTATIONTOTARGET_OFFSET))(this, runtimeData, idx, rotTarget);
 		}
 
-		::NPCCrowd::Ability::FNPCAbilityMovementActionHandle SetNPCAbilityPathFollow(::NPCCrowd::Ability::NPCAbilityRuntimeData* runtimeData, ::System::Int32 idx, ::System::Collections::Generic::List_1<::System::UInt16>*& pathFollowNodes, ::System::Boolean teleportToFirstPoint, ::System::String* style)
+		::NPCCrowd::Ability::FNPCAbilityMovementActionHandle SetNPCAbilityPathFollow(::NPCCrowd::Ability::NPCAbility* ability, ::NPCCrowd::Ability::NPCAbilityRuntimeData* runtimeData, ::System::Int32 idx, ::NPCCrowd::AI::PathGraphRuntime_PathFindingResult* pathResult, ::System::Boolean teleportToFirstPoint, ::System::Int32 laneIndex, ::System::Single laneInnerOffset, ::System::String* style, ::System::Single endFadeOutTime, ::System::Int32 pathID)
 		{
-			return ((::NPCCrowd::Ability::FNPCAbilityMovementActionHandle(*)(::PVOID, ::NPCCrowd::Ability::NPCAbilityRuntimeData*, ::System::Int32, ::System::Collections::Generic::List_1<::System::UInt16>*&, ::System::Boolean, ::System::String*))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCABILITYMANAGER_SETNPCABILITYPATHFOLLOW_OFFSET))(this, runtimeData, idx, pathFollowNodes, teleportToFirstPoint, style);
-		}
-
-		::NPCCrowd::Ability::FNPCAbilityMovementActionHandle SetNPCAbilityPathFollow_1(::NPCCrowd::Ability::NPCAbility* ability, ::NPCCrowd::Ability::NPCAbilityRuntimeData* runtimeData, ::System::Int32 idx, ::NPCCrowd::AI::PathGraphRuntime_PathFindingResult* pathResult, ::System::Boolean teleportToFirstPoint, ::System::Int32 laneIndex, ::System::Single laneInnerOffset, ::System::String* style, ::System::Single endFadeOutTime, ::System::Int32 pathID)
-		{
-			return ((::NPCCrowd::Ability::FNPCAbilityMovementActionHandle(*)(::PVOID, ::NPCCrowd::Ability::NPCAbility*, ::NPCCrowd::Ability::NPCAbilityRuntimeData*, ::System::Int32, ::NPCCrowd::AI::PathGraphRuntime_PathFindingResult*, ::System::Boolean, ::System::Int32, ::System::Single, ::System::String*, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCABILITYMANAGER_SETNPCABILITYPATHFOLLOW_1_OFFSET))(this, ability, runtimeData, idx, pathResult, teleportToFirstPoint, laneIndex, laneInnerOffset, style, endFadeOutTime, pathID);
+			return ((::NPCCrowd::Ability::FNPCAbilityMovementActionHandle(*)(::PVOID, ::NPCCrowd::Ability::NPCAbility*, ::NPCCrowd::Ability::NPCAbilityRuntimeData*, ::System::Int32, ::NPCCrowd::AI::PathGraphRuntime_PathFindingResult*, ::System::Boolean, ::System::Int32, ::System::Single, ::System::String*, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCABILITYMANAGER_SETNPCABILITYPATHFOLLOW_OFFSET))(this, ability, runtimeData, idx, pathResult, teleportToFirstPoint, laneIndex, laneInnerOffset, style, endFadeOutTime, pathID);
 		}
 
 		::System::Void StartStandTurn(::NPCCrowd::Ability::NPCAbilityRuntimeData* runtimeData, ::System::Int32 idx, ::System::Single angle)
@@ -376,11 +409,6 @@ namespace NPCCrowd::Ability
 			return ((::NPCCrowd::Ability::ENPCAbilityMovementAction(*)(::PVOID, ::NPCCrowd::Ability::NPCAbilityRuntimeData*, ::System::Int32))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCABILITYMANAGER_GETCURRENTABILITYMOVEACTIONTYPE_OFFSET))(this, runtimeData, idx);
 		}
 
-		::System::Boolean IsStartMoveProcess(::NPCCrowd::Ability::NPCAbilityRuntimeData* runtimeData, ::System::Int32 idx)
-		{
-			return ((::System::Boolean(*)(::PVOID, ::NPCCrowd::Ability::NPCAbilityRuntimeData*, ::System::Int32))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCABILITYMANAGER_ISSTARTMOVEPROCESS_OFFSET))(this, runtimeData, idx);
-		}
-
 		::System::Void TeleportTo(::NPCCrowd::Ability::NPCAbilityRuntimeData* runtimeData, ::System::Int32 idx, ::UnityEngine::Vector3 pos, ::UnityEngine::Quaternion rot)
 		{
 			return ((::System::Void(*)(::PVOID, ::NPCCrowd::Ability::NPCAbilityRuntimeData*, ::System::Int32, ::UnityEngine::Vector3, ::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCABILITYMANAGER_TELEPORTTO_OFFSET))(this, runtimeData, idx, pos, rot);
@@ -416,6 +444,16 @@ namespace NPCCrowd::Ability
 			return ((::System::Void(*)(::PVOID, ::NPCCrowd::Ability::NPCAbilityApplyMovePlatformProcessor*, ::NPCCrowd::Ability::NPCAbilityFlushTransformProcessor*, ::NPCCrowd::Ability::NPCAbilityObstacleFlushProcessor*, ::System::Single, ::Unity::Collections::NativeArray_1<::Unity::Jobs::JobHandle>, ::Unity::Jobs::JobHandle))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCABILITYMANAGER_DISPATCHFLUSHJOB_OFFSET))(this, attachProcessor, transformProcessor, obstacleFlushProcessor, deltaTime, buffer, dependsOn);
 		}
 
+		::System::Void DispatchFlushJobPerRuntime(::NPCCrowd::Ability::NPCAbilityApplyMovePlatformProcessor* attachProcessor, ::NPCCrowd::Ability::NPCAbilityFlushTransformProcessor* transformProcessor, ::NPCCrowd::Ability::NPCAbilityObstacleFlushProcessor* obstacleFlushProcessor, ::System::Single deltaTime, ::Unity::Collections::NativeArray_1<::Unity::Jobs::JobHandle> buffer, ::Unity::Jobs::JobHandle dependsOn)
+		{
+			return ((::System::Void(*)(::PVOID, ::NPCCrowd::Ability::NPCAbilityApplyMovePlatformProcessor*, ::NPCCrowd::Ability::NPCAbilityFlushTransformProcessor*, ::NPCCrowd::Ability::NPCAbilityObstacleFlushProcessor*, ::System::Single, ::Unity::Collections::NativeArray_1<::Unity::Jobs::JobHandle>, ::Unity::Jobs::JobHandle))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCABILITYMANAGER_DISPATCHFLUSHJOBPERRUNTIME_OFFSET))(this, attachProcessor, transformProcessor, obstacleFlushProcessor, deltaTime, buffer, dependsOn);
+		}
+
+		::System::Void DispatchFlushJobCombined(::NPCCrowd::Ability::NPCAbilityApplyMovePlatformProcessor* attachProcessor, ::NPCCrowd::Ability::NPCAbilityFlushTransformProcessor* transformProcessor, ::NPCCrowd::Ability::NPCAbilityObstacleFlushProcessor* obstacleFlushProcessor, ::System::Single deltaTime, ::Unity::Collections::NativeArray_1<::Unity::Jobs::JobHandle> buffer, ::Unity::Jobs::JobHandle dependsOn)
+		{
+			return ((::System::Void(*)(::PVOID, ::NPCCrowd::Ability::NPCAbilityApplyMovePlatformProcessor*, ::NPCCrowd::Ability::NPCAbilityFlushTransformProcessor*, ::NPCCrowd::Ability::NPCAbilityObstacleFlushProcessor*, ::System::Single, ::Unity::Collections::NativeArray_1<::Unity::Jobs::JobHandle>, ::Unity::Jobs::JobHandle))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCABILITYMANAGER_DISPATCHFLUSHJOBCOMBINED_OFFSET))(this, attachProcessor, transformProcessor, obstacleFlushProcessor, deltaTime, buffer, dependsOn);
+		}
+
 		::System::Void PreUpdate(::System::Single deltaTime)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCABILITYMANAGER_PREUPDATE_OFFSET))(this, deltaTime);
@@ -424,6 +462,21 @@ namespace NPCCrowd::Ability
 		::System::Void Update(::System::Single deltaTime)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCABILITYMANAGER_UPDATE_OFFSET))(this, deltaTime);
+		}
+
+		static ::System::Void ProcessMovePlatform(::Class_3_F2DAD7F45F518868* npcComponent, ::Class_3_52E0F81CBC57DA32* movePlatformComponent, ::NPCCrowd::Ability::NPCAbilityManager* self)
+		{
+			return ((::System::Void(*)(::Class_3_F2DAD7F45F518868*, ::Class_3_52E0F81CBC57DA32*, ::NPCCrowd::Ability::NPCAbilityManager*))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCABILITYMANAGER_PROCESSMOVEPLATFORM_OFFSET))(npcComponent, movePlatformComponent, self);
+		}
+
+		::System::Void LateUpdate(::System::Single deltaTime)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCABILITYMANAGER_LATEUPDATE_OFFSET))(this, deltaTime);
+		}
+
+		::System::Void PostLateUpdate(::System::Single deltaTime)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCABILITYMANAGER_POSTLATEUPDATE_OFFSET))(this, deltaTime);
 		}
 
 		static ::System::Void PendingUpdateJobs()
@@ -444,6 +497,51 @@ namespace NPCCrowd::Ability
 		::System::Boolean TryGetAbility(::System::UInt32 entityId, ::NPCCrowd::Ability::NPCAbility*& ability)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::UInt32, ::NPCCrowd::Ability::NPCAbility*&))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCABILITYMANAGER_TRYGETABILITY_OFFSET))(this, entityId, ability);
+		}
+
+		::System::Boolean TryGetAbilityTransform(::System::UInt32 entityId, ::NPCCrowd::Ability::FTransformFragment& transform)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32, ::NPCCrowd::Ability::FTransformFragment&))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCABILITYMANAGER_TRYGETABILITYTRANSFORM_OFFSET))(this, entityId, transform);
+		}
+
+		::System::Boolean RegisterCustomAttachTransform(::System::Int32 handler, ::System::UInt32 entityId, ::NPCCrowd::Ability::NPCAbilityManager_CustomAttachTransformProvider* provider, ::System::Boolean overrideSameEntity)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::System::UInt32, ::NPCCrowd::Ability::NPCAbilityManager_CustomAttachTransformProvider*, ::System::Boolean))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCABILITYMANAGER_REGISTERCUSTOMATTACHTRANSFORM_OFFSET))(this, handler, entityId, provider, overrideSameEntity);
+		}
+
+		::System::Void RemoveCustomAttachTransform(::System::Int32 handler)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCABILITYMANAGER_REMOVECUSTOMATTACHTRANSFORM_OFFSET))(this, handler);
+		}
+
+		::System::Boolean HasCustomAttachTransform(::System::Int32 handler, ::System::UInt32 entityId)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::System::UInt32))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCABILITYMANAGER_HASCUSTOMATTACHTRANSFORM_OFFSET))(this, handler, entityId);
+		}
+
+		static ::System::Boolean TryGetValidAbilityRuntime(::NPCCrowd::Ability::NPCAbility* ability, ::NPCCrowd::Ability::NPCAbilityRuntimeData*& runtimeData, ::System::Int32& idx)
+		{
+			return ((::System::Boolean(*)(::NPCCrowd::Ability::NPCAbility*, ::NPCCrowd::Ability::NPCAbilityRuntimeData*&, ::System::Int32&))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCABILITYMANAGER_TRYGETVALIDABILITYRUNTIME_OFFSET))(ability, runtimeData, idx);
+		}
+
+		::System::Void RemoveCustomAttachTransformsForEntity(::System::UInt32 entityId, ::System::Int32 exceptHandler)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Int32))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCABILITYMANAGER_REMOVECUSTOMATTACHTRANSFORMSFORENTITY_OFFSET))(this, entityId, exceptHandler);
+		}
+
+		::System::Boolean HasCustomAttachTransformForEntity(::System::UInt32 entityId, ::System::Int32 exceptHandler)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32, ::System::Int32))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCABILITYMANAGER_HASCUSTOMATTACHTRANSFORMFORENTITY_OFFSET))(this, entityId, exceptHandler);
+		}
+
+		::System::Void PrepareCustomAttachDataLateUpdate()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCABILITYMANAGER_PREPARECUSTOMATTACHDATALATEUPDATE_OFFSET))(this);
+		}
+
+		::System::Boolean TryGetPendingAttachBaseTransform(::NPCCrowd::Ability::NPCAbilityRuntimeData* runtimeData, ::System::Int32 idx, ::NPCCrowd::Ability::FTransformFragment& baseTransform)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::NPCCrowd::Ability::NPCAbilityRuntimeData*, ::System::Int32, ::NPCCrowd::Ability::FTransformFragment&))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCABILITYMANAGER_TRYGETPENDINGATTACHBASETRANSFORM_OFFSET))(this, runtimeData, idx, baseTransform);
 		}
 
 		::System::Void BeginPrepareMovePlatformAttachDataLateUpdate()
@@ -491,9 +589,19 @@ namespace NPCCrowd::Ability
 			return ((::System::Void(*)(::PVOID, ::NPCCrowd::Ability::NPCAbilityRuntimeData*, ::System::Int32))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCABILITYMANAGER_STOPSTATETREE_OFFSET))(this, runtimeData, abilityIdx);
 		}
 
-		::NPCCrowd::Ability::NPCAbilityManager_MovePlatformAttachSparseCache* GetOrCreateMovePlatformAttachCache(::NPCCrowd::Ability::NPCAbilityRuntimeData* runtimeData)
+		::NPCCrowd::Ability::NPCAbilityManager_AttachTransformSparseCache* GetOrCreateMovePlatformAttachCache(::NPCCrowd::Ability::NPCAbilityRuntimeData* runtimeData)
 		{
-			return ((::NPCCrowd::Ability::NPCAbilityManager_MovePlatformAttachSparseCache*(*)(::PVOID, ::NPCCrowd::Ability::NPCAbilityRuntimeData*))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCABILITYMANAGER_GETORCREATEMOVEPLATFORMATTACHCACHE_OFFSET))(this, runtimeData);
+			return ((::NPCCrowd::Ability::NPCAbilityManager_AttachTransformSparseCache*(*)(::PVOID, ::NPCCrowd::Ability::NPCAbilityRuntimeData*))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCABILITYMANAGER_GETORCREATEMOVEPLATFORMATTACHCACHE_OFFSET))(this, runtimeData);
+		}
+
+		::System::Void DisposeCombinedTransformArrays()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCABILITYMANAGER_DISPOSECOMBINEDTRANSFORMARRAYS_OFFSET))(this);
+		}
+
+		::System::Void RebuildCombinedTransformAccessArray()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCABILITYMANAGER_REBUILDCOMBINEDTRANSFORMACCESSARRAY_OFFSET))(this);
 		}
 
 		::System::Void ReleaseMovePlatformAttachCaches()
@@ -501,14 +609,34 @@ namespace NPCCrowd::Ability
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCABILITYMANAGER_RELEASEMOVEPLATFORMATTACHCACHES_OFFSET))(this);
 		}
 
+		::System::Void ReleaseCustomAttachTransforms()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCABILITYMANAGER_RELEASECUSTOMATTACHTRANSFORMS_OFFSET))(this);
+		}
+
+		::System::Void __base_CreateFilters(::Nap::NapECS::EcsWorld* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::Nap::NapECS::EcsWorld*))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCABILITYMANAGER___BASE_CREATEFILTERS_OFFSET))(this, P0);
+		}
+
 		::System::Void __base_Init()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCABILITYMANAGER___BASE_INIT_OFFSET))(this);
 		}
 
+		::System::Void __base_LateUpdate(::System::Single P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCABILITYMANAGER___BASE_LATEUPDATE_OFFSET))(this, P0);
+		}
+
 		::System::Void __base_OnDestroy()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCABILITYMANAGER___BASE_ONDESTROY_OFFSET))(this);
+		}
+
+		::System::Void __base_PostLateUpdate(::System::Single P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCABILITYMANAGER___BASE_POSTLATEUPDATE_OFFSET))(this, P0);
 		}
 
 		::System::Void __base_PreUpdate(::System::Single P0)

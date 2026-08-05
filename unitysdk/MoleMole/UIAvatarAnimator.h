@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIBaseAnimator.h"
 
-#define MOLEMOLE_UIAVATARANIMATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x172B5510)
+#define MOLEMOLE_UIAVATARANIMATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1955E230)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAvatarAnimator_TypeDefinitionIndex = 54193;
+	inline static constexpr unsigned int UIAvatarAnimator_TypeDefinitionIndex = 51297;
 
 	class UIAvatarAnimator : public ::MoleMole::UIBaseAnimator
 	{

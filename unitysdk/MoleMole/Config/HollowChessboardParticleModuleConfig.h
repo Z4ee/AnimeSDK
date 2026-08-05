@@ -7,11 +7,11 @@ namespace MoleMole::HollowChessboard { class HollowChessboardEffectEventBase; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class ParticleSystem; }
 
-#define MOLEMOLE_CONFIG_HOLLOWCHESSBOARDPARTICLEMODULECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x157CD4D0)
+#define MOLEMOLE_CONFIG_HOLLOWCHESSBOARDPARTICLEMODULECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD6FF80)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int HollowChessboardParticleModuleConfig_TypeDefinitionIndex = 64339;
+	inline static constexpr unsigned int HollowChessboardParticleModuleConfig_TypeDefinitionIndex = 66080;
 
 	class HollowChessboardParticleModuleConfig : public ::System::Object
 	{

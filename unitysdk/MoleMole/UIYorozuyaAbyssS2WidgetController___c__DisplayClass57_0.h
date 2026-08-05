@@ -3,19 +3,19 @@
 #include "unitysdk/System/Object.h"
 
 class Class_1_E081FCEC8F87505A;
-class Class_2_0A55B5A82A61DAFA;
+class Class_2_0A55B5A82A61DAFA_2;
 
-#define MOLEMOLE_UIYOROZUYAABYSSS2WIDGETCONTROLLER___C__DISPLAYCLASS57_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14910F20)
-#define MOLEMOLE_UIYOROZUYAABYSSS2WIDGETCONTROLLER___C__DISPLAYCLASS57_0__GOLINEUPSELECT_B__0_OFFSET UNITYSDK_OFFSET(0x14910F30)
+#define MOLEMOLE_UIYOROZUYAABYSSS2WIDGETCONTROLLER___C__DISPLAYCLASS57_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1147DF40)
+#define MOLEMOLE_UIYOROZUYAABYSSS2WIDGETCONTROLLER___C__DISPLAYCLASS57_0__GOLINEUPSELECT_B__0_OFFSET UNITYSDK_OFFSET(0x1147DF50)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIYorozuyaAbyssS2WidgetController___c__DisplayClass57_0_TypeDefinitionIndex = 42765;
+	inline static constexpr unsigned int UIYorozuyaAbyssS2WidgetController___c__DisplayClass57_0_TypeDefinitionIndex = 77401;
 
 	class UIYorozuyaAbyssS2WidgetController___c__DisplayClass57_0 : public ::System::Object
 	{
 	public:
-		::Class_2_0A55B5A82A61DAFA* selectedConfig; // 0x10
+		::Class_2_0A55B5A82A61DAFA_2* selectedConfig; // 0x10
 
 		::System::Void _ctor()
 		{

@@ -9,29 +9,29 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIBALLGAMEMAINPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CFA0980)
-#define MOLEMOLE_UIBALLGAMEMAINPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFA09C0)
-#define MOLEMOLE_UIBALLGAMEMAINPAGECONTROLLER___C__ONNEWBIEEND_B__26_0_OFFSET UNITYSDK_OFFSET(0x1CFA09D0)
-#define MOLEMOLE_UIBALLGAMEMAINPAGECONTROLLER___C__ONPAUSE_B__31_0_OFFSET UNITYSDK_OFFSET(0x1CFA0A80)
+#define MOLEMOLE_UIBALLGAMEMAINPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F3E8540)
+#define MOLEMOLE_UIBALLGAMEMAINPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1F3E8580)
+#define MOLEMOLE_UIBALLGAMEMAINPAGECONTROLLER___C__ONNEWBIEEND_B__26_0_OFFSET UNITYSDK_OFFSET(0x1F3E8590)
+#define MOLEMOLE_UIBALLGAMEMAINPAGECONTROLLER___C__ONPAUSE_B__31_0_OFFSET UNITYSDK_OFFSET(0x1F3E8640)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBallGameMainPageController___c_TypeDefinitionIndex = 89376;
+	inline static constexpr unsigned int UIBallGameMainPageController___c_TypeDefinitionIndex = 93366;
 
 	class UIBallGameMainPageController___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__26_0()
+		static ::System::Action_1<::System::Collections::Generic::Dictionary_2<::MoleMole::InLevelPauseLevelTab, ::System::Collections::Generic::List_1<::MoleMole::ESystemSettingType>*>*>** StaticGet___9__31_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIBallGameMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x4E030);
+			return (::System::Action_1<::System::Collections::Generic::Dictionary_2<::MoleMole::InLevelPauseLevelTab, ::System::Collections::Generic::List_1<::MoleMole::ESystemSettingType>*>*>**)Il2CppClass::FromTypeDefinitionIndex(UIBallGameMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x52230);
 		}
 		static ::MoleMole::UIBallGameMainPageController___c** StaticGet___9()
 		{
-			return (::MoleMole::UIBallGameMainPageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIBallGameMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x4E038);
+			return (::MoleMole::UIBallGameMainPageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIBallGameMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x52238);
 		}
-		static ::System::Action_1<::System::Collections::Generic::Dictionary_2<::MoleMole::InLevelPauseLevelTab, ::System::Collections::Generic::List_1<::MoleMole::ESystemSettingType>*>*>** StaticGet___9__31_0()
+		static ::System::Action** StaticGet___9__26_0()
 		{
-			return (::System::Action_1<::System::Collections::Generic::Dictionary_2<::MoleMole::InLevelPauseLevelTab, ::System::Collections::Generic::List_1<::MoleMole::ESystemSettingType>*>*>**)Il2CppClass::FromTypeDefinitionIndex(UIBallGameMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x4E040);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIBallGameMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x52240);
 		}
 
 		static ::System::Void _cctor()

@@ -5,7 +5,7 @@
 namespace System::Collections::Generic { template <typename T> class ICollection_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-inline static constexpr unsigned int Class_1_60E51A97183BF7AB_TypeDefinitionIndex = 40622;
+inline static constexpr unsigned int Class_1_60E51A97183BF7AB_TypeDefinitionIndex = 40290;
 
 template <typename TKey, typename TValue>
 class Class_1_60E51A97183BF7AB : public ::System::Object

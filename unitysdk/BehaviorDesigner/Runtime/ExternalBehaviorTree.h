@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/BehaviorDesigner/Runtime/ExternalBehavior.h"
 
-#define BEHAVIORDESIGNER_RUNTIME_EXTERNALBEHAVIORTREE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E100D00)
+#define BEHAVIORDESIGNER_RUNTIME_EXTERNALBEHAVIORTREE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F523E70)
 
 namespace BehaviorDesigner::Runtime
 {
-	inline static constexpr unsigned int ExternalBehaviorTree_TypeDefinitionIndex = 33241;
+	inline static constexpr unsigned int ExternalBehaviorTree_TypeDefinitionIndex = 33877;
 
 	class ExternalBehaviorTree : public ::BehaviorDesigner::Runtime::ExternalBehavior
 	{

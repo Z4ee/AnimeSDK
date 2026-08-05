@@ -8,9 +8,9 @@ namespace System::Net { class IPAddress; }
 namespace System::Net::NetworkInformation { class Ping; }
 namespace System::Net::NetworkInformation { class PingOptions; }
 
-#define SYSTEM_NET_NETWORKINFORMATION_PING___C__DISPLAYCLASS39_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1CD680)
-#define SYSTEM_NET_NETWORKINFORMATION_PING___C__DISPLAYCLASS39_0__SENDASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x1B1CD690)
-#define SYSTEM_NET_NETWORKINFORMATION_PING___C__DISPLAYCLASS39_0__SENDASYNC_B__1_OFFSET UNITYSDK_OFFSET(0x1B1CD740)
+#define SYSTEM_NET_NETWORKINFORMATION_PING___C__DISPLAYCLASS39_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C70E430)
+#define SYSTEM_NET_NETWORKINFORMATION_PING___C__DISPLAYCLASS39_0__SENDASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x1C70E440)
+#define SYSTEM_NET_NETWORKINFORMATION_PING___C__DISPLAYCLASS39_0__SENDASYNC_B__1_OFFSET UNITYSDK_OFFSET(0x1C70E4F0)
 
 namespace System::Net::NetworkInformation
 {
@@ -20,8 +20,8 @@ namespace System::Net::NetworkInformation
 	{
 	public:
 		::System::Net::NetworkInformation::PingOptions* options; // 0x10
-		::System::Net::NetworkInformation::Ping* __4__this; // 0x18
-		::Il2CppArray<::System::Byte>* buffer; // 0x20
+		::Il2CppArray<::System::Byte>* buffer; // 0x18
+		::System::Net::NetworkInformation::Ping* __4__this; // 0x20
 		::System::Net::IPAddress* address; // 0x28
 		::System::Int32 timeout; // 0x30
 

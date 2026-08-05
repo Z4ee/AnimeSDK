@@ -5,10 +5,10 @@
 namespace Newtonsoft::Json::Linq { class JToken; }
 namespace System { class String; }
 
-#define NEWTONSOFTEXTENSIONS_ISVALIDJSON_OFFSET UNITYSDK_OFFSET(0x11A68030)
-#define NEWTONSOFTEXTENSIONS_RENAME_OFFSET UNITYSDK_OFFSET(0x11A68240)
+#define NEWTONSOFTEXTENSIONS_ISVALIDJSON_OFFSET UNITYSDK_OFFSET(0x12424370)
+#define NEWTONSOFTEXTENSIONS_RENAME_OFFSET UNITYSDK_OFFSET(0x12424580)
 
-inline static constexpr unsigned int NewtonsoftExtensions_TypeDefinitionIndex = 91429;
+inline static constexpr unsigned int NewtonsoftExtensions_TypeDefinitionIndex = 95394;
 
 class NewtonsoftExtensions : public ::System::Object
 {

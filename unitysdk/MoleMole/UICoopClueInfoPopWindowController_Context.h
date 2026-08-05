@@ -4,11 +4,11 @@
 
 class Class_2_E64AC454BBA9F160_Class_1_84D29A777CDEE069;
 
-#define MOLEMOLE_UICOOPCLUEINFOPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15E720D0)
+#define MOLEMOLE_UICOOPCLUEINFOPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x170ACE00)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICoopClueInfoPopWindowController_Context_TypeDefinitionIndex = 60153;
+	inline static constexpr unsigned int UICoopClueInfoPopWindowController_Context_TypeDefinitionIndex = 42305;
 
 	class UICoopClueInfoPopWindowController_Context : public ::MoleMole::UIControllerContextBase
 	{

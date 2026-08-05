@@ -1,0 +1,137 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/MoleMole/EntityHandle.h"
+#include "unitysdk/MoleMole/GameSubsystemBaseEx_1.h"
+#include "unitysdk/Struct_2_4C8453486C91E3A1_20.h"
+#include "unitysdk/Struct_2_A179366BBBE4C80D_1.h"
+
+class Class_1_B7E341C5F1A6F199;
+namespace MoleMole { class RobotPartnerAvatarPreloadRefCountSubSystem; }
+namespace PipelineCamera { template <typename T> class ReferenceDoubleBuffer_1; }
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define MOLEMOLE_ZENKOVYOKAIHENSHINENTITYPRELOADSUBSYSTEM_GET_RUNTIMEDATA_OFFSET UNITYSDK_OFFSET(0x11A2C7C0)
+#define MOLEMOLE_ZENKOVYOKAIHENSHINENTITYPRELOADSUBSYSTEM_HANDLEEVTPOSTTEAMAVATARSALREADY_OFFSET UNITYSDK_OFFSET(0x11A2BB20)
+#define MOLEMOLE_ZENKOVYOKAIHENSHINENTITYPRELOADSUBSYSTEM_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x11A2C7D0)
+#define MOLEMOLE_ZENKOVYOKAIHENSHINENTITYPRELOADSUBSYSTEM_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x11A2C870)
+#define MOLEMOLE_ZENKOVYOKAIHENSHINENTITYPRELOADSUBSYSTEM_ONEVENTFROMANYONE_OFFSET UNITYSDK_OFFSET(0x11A2BA60)
+#define MOLEMOLE_ZENKOVYOKAIHENSHINENTITYPRELOADSUBSYSTEM_REGISTEREVENTSYSTEMCALLBACK_OFFSET UNITYSDK_OFFSET(0x11A2B5D0)
+#define MOLEMOLE_ZENKOVYOKAIHENSHINENTITYPRELOADSUBSYSTEM_RELEASEALLMONSTERAVATARPRELOAD_OFFSET UNITYSDK_OFFSET(0x11A2C8C0)
+#define MOLEMOLE_ZENKOVYOKAIHENSHINENTITYPRELOADSUBSYSTEM_RELEASEMONSTERAVATARPRELOAD_OFFSET UNITYSDK_OFFSET(0x11A2CF90)
+#define MOLEMOLE_ZENKOVYOKAIHENSHINENTITYPRELOADSUBSYSTEM_REMOVEMONSTERENTITY_OFFSET UNITYSDK_OFFSET(0x11A2CDB0)
+#define MOLEMOLE_ZENKOVYOKAIHENSHINENTITYPRELOADSUBSYSTEM_RETAINMONSTERAVATARPRELOAD_OFFSET UNITYSDK_OFFSET(0x11A2CD40)
+#define MOLEMOLE_ZENKOVYOKAIHENSHINENTITYPRELOADSUBSYSTEM_UNREGISTEREVENTSYSTEMCALLBACK_OFFSET UNITYSDK_OFFSET(0x11A2B880)
+#define MOLEMOLE_ZENKOVYOKAIHENSHINENTITYPRELOADSUBSYSTEM_UPDATEMONSTERSKILL_OFFSET UNITYSDK_OFFSET(0x11A2BBB0)
+#define MOLEMOLE_ZENKOVYOKAIHENSHINENTITYPRELOADSUBSYSTEM__CTOR_OFFSET UNITYSDK_OFFSET(0x11A2D000)
+#define MOLEMOLE_ZENKOVYOKAIHENSHINENTITYPRELOADSUBSYSTEM___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x11A2D160)
+#define MOLEMOLE_ZENKOVYOKAIHENSHINENTITYPRELOADSUBSYSTEM___BASE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x11A2D1F0)
+#define MOLEMOLE_ZENKOVYOKAIHENSHINENTITYPRELOADSUBSYSTEM___BASE_ONEVENTFROMANYONE_OFFSET UNITYSDK_OFFSET(0x11A2D280)
+#define MOLEMOLE_ZENKOVYOKAIHENSHINENTITYPRELOADSUBSYSTEM___BASE_REGISTEREVENTSYSTEMCALLBACK_OFFSET UNITYSDK_OFFSET(0x11A2D310)
+#define MOLEMOLE_ZENKOVYOKAIHENSHINENTITYPRELOADSUBSYSTEM___BASE_UNREGISTEREVENTSYSTEMCALLBACK_OFFSET UNITYSDK_OFFSET(0x11A2D3A0)
+
+namespace MoleMole
+{
+	inline static constexpr unsigned int ZenkovYokaiHenshinEntityPreloadSubSystem_TypeDefinitionIndex = 77580;
+
+	class ZenkovYokaiHenshinEntityPreloadSubSystem : public ::MoleMole::GameSubsystemBaseEx_1<::MoleMole::ZenkovYokaiHenshinEntityPreloadSubSystem*>
+	{
+	public:
+		::MoleMole::RobotPartnerAvatarPreloadRefCountSubSystem* _robotPartnerAvatarPreloadRefCountSubSystem; // 0x10
+		::PipelineCamera::ReferenceDoubleBuffer_1<::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::EntityHandle>*>* _entityByItemID; // 0x18
+		::System::Collections::Generic::List_1<::Struct_2_4C8453486C91E3A1_20>* _contextToBuild; // 0x20
+		::System::Collections::Generic::List_1<::Struct_2_A179366BBBE4C80D_1>* _runtimeData; // 0x28
+		::System::Boolean _isEntityPreloadAllowed; // 0x30
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_ZENKOVYOKAIHENSHINENTITYPRELOADSUBSYSTEM__CTOR_OFFSET))(this);
+		}
+
+		::System::Void RegisterEventSystemCallBack()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_ZENKOVYOKAIHENSHINENTITYPRELOADSUBSYSTEM_REGISTEREVENTSYSTEMCALLBACK_OFFSET))(this);
+		}
+
+		::System::Void UnRegisterEventSystemCallBack()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_ZENKOVYOKAIHENSHINENTITYPRELOADSUBSYSTEM_UNREGISTEREVENTSYSTEMCALLBACK_OFFSET))(this);
+		}
+
+		::System::Void OnEventFromAnyone(::Class_1_B7E341C5F1A6F199* evt)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_B7E341C5F1A6F199*))((::PBYTE)hIl2Cpp + MOLEMOLE_ZENKOVYOKAIHENSHINENTITYPRELOADSUBSYSTEM_ONEVENTFROMANYONE_OFFSET))(this, evt);
+		}
+
+		::System::Void HandleEvtPostTeamAvatarsAlready(::Class_1_B7E341C5F1A6F199* evt)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_B7E341C5F1A6F199*))((::PBYTE)hIl2Cpp + MOLEMOLE_ZENKOVYOKAIHENSHINENTITYPRELOADSUBSYSTEM_HANDLEEVTPOSTTEAMAVATARSALREADY_OFFSET))(this, evt);
+		}
+
+		::System::Collections::Generic::IReadOnlyList_1<::Struct_2_A179366BBBE4C80D_1>* get_RuntimeData()
+		{
+			return ((::System::Collections::Generic::IReadOnlyList_1<::Struct_2_A179366BBBE4C80D_1>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_ZENKOVYOKAIHENSHINENTITYPRELOADSUBSYSTEM_GET_RUNTIMEDATA_OFFSET))(this);
+		}
+
+		::System::Void OnAwake()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_ZENKOVYOKAIHENSHINENTITYPRELOADSUBSYSTEM_ONAWAKE_OFFSET))(this);
+		}
+
+		::System::Void OnDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_ZENKOVYOKAIHENSHINENTITYPRELOADSUBSYSTEM_ONDESTROY_OFFSET))(this);
+		}
+
+		::System::Void UpdateMonsterSkill(::System::Collections::Generic::List_1<::Struct_2_4C8453486C91E3A1_20>* monsterSkillItems)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::Struct_2_4C8453486C91E3A1_20>*))((::PBYTE)hIl2Cpp + MOLEMOLE_ZENKOVYOKAIHENSHINENTITYPRELOADSUBSYSTEM_UPDATEMONSTERSKILL_OFFSET))(this, monsterSkillItems);
+		}
+
+		::System::Void RetainMonsterAvatarPreload(::MoleMole::EntityHandle entityHandle)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::EntityHandle))((::PBYTE)hIl2Cpp + MOLEMOLE_ZENKOVYOKAIHENSHINENTITYPRELOADSUBSYSTEM_RETAINMONSTERAVATARPRELOAD_OFFSET))(this, entityHandle);
+		}
+
+		::System::Void ReleaseMonsterAvatarPreload(::MoleMole::EntityHandle entityHandle)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::EntityHandle))((::PBYTE)hIl2Cpp + MOLEMOLE_ZENKOVYOKAIHENSHINENTITYPRELOADSUBSYSTEM_RELEASEMONSTERAVATARPRELOAD_OFFSET))(this, entityHandle);
+		}
+
+		::System::Void RemoveMonsterEntity(::MoleMole::EntityHandle entityHandle)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::EntityHandle))((::PBYTE)hIl2Cpp + MOLEMOLE_ZENKOVYOKAIHENSHINENTITYPRELOADSUBSYSTEM_REMOVEMONSTERENTITY_OFFSET))(this, entityHandle);
+		}
+
+		::System::Void ReleaseAllMonsterAvatarPreload()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_ZENKOVYOKAIHENSHINENTITYPRELOADSUBSYSTEM_RELEASEALLMONSTERAVATARPRELOAD_OFFSET))(this);
+		}
+
+		::System::Void __base_OnAwake()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_ZENKOVYOKAIHENSHINENTITYPRELOADSUBSYSTEM___BASE_ONAWAKE_OFFSET))(this);
+		}
+
+		::System::Void __base_OnDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_ZENKOVYOKAIHENSHINENTITYPRELOADSUBSYSTEM___BASE_ONDESTROY_OFFSET))(this);
+		}
+
+		::System::Void __base_OnEventFromAnyone(::Class_1_B7E341C5F1A6F199* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_B7E341C5F1A6F199*))((::PBYTE)hIl2Cpp + MOLEMOLE_ZENKOVYOKAIHENSHINENTITYPRELOADSUBSYSTEM___BASE_ONEVENTFROMANYONE_OFFSET))(this, P0);
+		}
+
+		::System::Void __base_RegisterEventSystemCallBack()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_ZENKOVYOKAIHENSHINENTITYPRELOADSUBSYSTEM___BASE_REGISTEREVENTSYSTEMCALLBACK_OFFSET))(this);
+		}
+
+		::System::Void __base_UnRegisterEventSystemCallBack()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_ZENKOVYOKAIHENSHINENTITYPRELOADSUBSYSTEM___BASE_UNREGISTEREVENTSYSTEMCALLBACK_OFFSET))(this);
+		}
+	};
+}

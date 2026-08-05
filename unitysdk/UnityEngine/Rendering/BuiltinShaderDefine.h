@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int BuiltinShaderDefine_TypeDefinitionIndex = 6192;
+	inline static constexpr unsigned int BuiltinShaderDefine_TypeDefinitionIndex = 6196;
 
 	enum class BuiltinShaderDefine : ::System::Int32
 	{

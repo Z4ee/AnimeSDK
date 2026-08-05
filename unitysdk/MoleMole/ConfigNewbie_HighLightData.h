@@ -4,16 +4,19 @@
 #include "unitysdk/FlexBuffers/FlxMap.h"
 #include "unitysdk/MoleMole/ConfigNewbie_TargetPath.h"
 
+namespace SimpleJSON { class JSONClass; }
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIGNEWBIE_HIGHLIGHTDATA_LOADFROMBYTES_OFFSET UNITYSDK_OFFSET(0x170D4910)
-#define MOLEMOLE_CONFIGNEWBIE_HIGHLIGHTDATA__CTOR_1_OFFSET UNITYSDK_OFFSET(0x170D4900)
-#define MOLEMOLE_CONFIGNEWBIE_HIGHLIGHTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x170D48C0)
-#define MOLEMOLE_CONFIGNEWBIE_HIGHLIGHTDATA___BASE_LOADFROMBYTES_OFFSET UNITYSDK_OFFSET(0x170D4C50)
+#define MOLEMOLE_CONFIGNEWBIE_HIGHLIGHTDATA_LOADFROMBYTES_OFFSET UNITYSDK_OFFSET(0x1B500D30)
+#define MOLEMOLE_CONFIGNEWBIE_HIGHLIGHTDATA_LOADFROMJSON_OFFSET UNITYSDK_OFFSET(0x1B5010B0)
+#define MOLEMOLE_CONFIGNEWBIE_HIGHLIGHTDATA__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B500D20)
+#define MOLEMOLE_CONFIGNEWBIE_HIGHLIGHTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B500CE0)
+#define MOLEMOLE_CONFIGNEWBIE_HIGHLIGHTDATA___BASE_LOADFROMBYTES_OFFSET UNITYSDK_OFFSET(0x1B5014D0)
+#define MOLEMOLE_CONFIGNEWBIE_HIGHLIGHTDATA___BASE_LOADFROMJSON_OFFSET UNITYSDK_OFFSET(0x1B501500)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigNewbie_HighLightData_TypeDefinitionIndex = 49752;
+	inline static constexpr unsigned int ConfigNewbie_HighLightData_TypeDefinitionIndex = 78131;
 
 	class ConfigNewbie_HighLightData : public ::MoleMole::ConfigNewbie_TargetPath
 	{
@@ -39,9 +42,19 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID, ::FlexBuffers::FlxMap))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGNEWBIE_HIGHLIGHTDATA_LOADFROMBYTES_OFFSET))(this, flexMap);
 		}
 
+		::System::Void LoadFromJson(::SimpleJSON::JSONClass* jsonNode)
+		{
+			return ((::System::Void(*)(::PVOID, ::SimpleJSON::JSONClass*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGNEWBIE_HIGHLIGHTDATA_LOADFROMJSON_OFFSET))(this, jsonNode);
+		}
+
 		::System::Void __base_LoadFromBytes(::FlexBuffers::FlxMap P0)
 		{
 			return ((::System::Void(*)(::PVOID, ::FlexBuffers::FlxMap))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGNEWBIE_HIGHLIGHTDATA___BASE_LOADFROMBYTES_OFFSET))(this, P0);
+		}
+
+		::System::Void __base_LoadFromJson(::SimpleJSON::JSONClass* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::SimpleJSON::JSONClass*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGNEWBIE_HIGHLIGHTDATA___BASE_LOADFROMJSON_OFFSET))(this, P0);
 		}
 	};
 }

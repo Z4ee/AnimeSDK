@@ -3,7 +3,7 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigSoundAction_Random_RandomType_TypeDefinitionIndex = 54980;
+	inline static constexpr unsigned int ConfigSoundAction_Random_RandomType_TypeDefinitionIndex = 66548;
 
 	enum class ConfigSoundAction_Random_RandomType : ::System::Int32
 	{

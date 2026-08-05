@@ -6,11 +6,11 @@ namespace MoleMole::Config { class GamepadTriggerEffectEntryBase; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGGAMEPADTRIGGEREFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x12B3BF50)
+#define MOLEMOLE_CONFIG_CONFIGGAMEPADTRIGGEREFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7EC970)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigGamepadTriggerEffect_TypeDefinitionIndex = 79202;
+	inline static constexpr unsigned int ConfigGamepadTriggerEffect_TypeDefinitionIndex = 50713;
 
 	class ConfigGamepadTriggerEffect : public ::Foundation::MihoyoSerializedScriptableObject
 	{

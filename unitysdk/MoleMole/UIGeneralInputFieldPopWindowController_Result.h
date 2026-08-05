@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralInputFieldPopWindowController_Result_TypeDefinitionIndex = 56269;
+	inline static constexpr unsigned int UIGeneralInputFieldPopWindowController_Result_TypeDefinitionIndex = 52256;
 
 	enum class UIGeneralInputFieldPopWindowController_Result : ::System::Int32
 	{

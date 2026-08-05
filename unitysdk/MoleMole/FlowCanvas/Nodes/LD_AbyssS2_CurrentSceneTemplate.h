@@ -4,12 +4,12 @@
 
 namespace MoleMole::FlatBuffers::Config { class AbyssS2SceneTemplate; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_CURRENTSCENETEMPLATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x15123690)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_CURRENTSCENETEMPLATE__CTOR_OFFSET UNITYSDK_OFFSET(0x151237B0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_CURRENTSCENETEMPLATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B1AEA40)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_CURRENTSCENETEMPLATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1AEB60)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_AbyssS2_CurrentSceneTemplate_TypeDefinitionIndex = 78656;
+	inline static constexpr unsigned int LD_AbyssS2_CurrentSceneTemplate_TypeDefinitionIndex = 74106;
 
 	class LD_AbyssS2_CurrentSceneTemplate : public ::FlowCanvas::Nodes::PureFunctionNode_1<::MoleMole::FlatBuffers::Config::AbyssS2SceneTemplate*>
 	{

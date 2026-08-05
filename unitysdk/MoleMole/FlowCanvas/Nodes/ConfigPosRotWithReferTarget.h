@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/Config/ConfigPosRot.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_CONFIGPOSROTWITHREFERTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x18B1C5D0)
+#define MOLEMOLE_FLOWCANVAS_NODES_CONFIGPOSROTWITHREFERTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x118B11C0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int ConfigPosRotWithReferTarget_TypeDefinitionIndex = 80151;
+	inline static constexpr unsigned int ConfigPosRotWithReferTarget_TypeDefinitionIndex = 42626;
 
 	class ConfigPosRotWithReferTarget : public ::MoleMole::Config::ConfigPosRot
 	{

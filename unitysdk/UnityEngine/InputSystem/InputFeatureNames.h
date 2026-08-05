@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace UnityEngine::InputSystem
 {
-	inline static constexpr unsigned int InputFeatureNames_TypeDefinitionIndex = 31681;
+	inline static constexpr unsigned int InputFeatureNames_TypeDefinitionIndex = 32301;
 
 	class InputFeatureNames : public ::System::Object
 	{

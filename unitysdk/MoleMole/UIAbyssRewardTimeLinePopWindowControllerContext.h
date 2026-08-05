@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIABYSSREWARDTIMELINEPOPWINDOWCONTROLLERCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18735E50)
+#define MOLEMOLE_UIABYSSREWARDTIMELINEPOPWINDOWCONTROLLERCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x191D89A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAbyssRewardTimeLinePopWindowControllerContext_TypeDefinitionIndex = 71963;
+	inline static constexpr unsigned int UIAbyssRewardTimeLinePopWindowControllerContext_TypeDefinitionIndex = 49604;
 
 	class UIAbyssRewardTimeLinePopWindowControllerContext : public ::MoleMole::UIControllerContextBase
 	{

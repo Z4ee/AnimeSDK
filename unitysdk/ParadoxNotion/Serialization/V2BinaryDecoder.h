@@ -7,22 +7,22 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::IO { class BinaryReader; }
 
-#define PARADOXNOTION_SERIALIZATION_V2BINARYDECODER_DECODE_OFFSET UNITYSDK_OFFSET(0x1D82D260)
-#define PARADOXNOTION_SERIALIZATION_V2BINARYDECODER_READ7BITINT_OFFSET UNITYSDK_OFFSET(0x1D82E390)
-#define PARADOXNOTION_SERIALIZATION_V2BINARYDECODER_READNODE_OFFSET UNITYSDK_OFFSET(0x1D82DA20)
-#define PARADOXNOTION_SERIALIZATION_V2BINARYDECODER_READSTRING_OFFSET UNITYSDK_OFFSET(0x1D82E1E0)
-#define PARADOXNOTION_SERIALIZATION_V2BINARYDECODER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D82E3F0)
+#define PARADOXNOTION_SERIALIZATION_V2BINARYDECODER_DECODE_OFFSET UNITYSDK_OFFSET(0x1EB9F550)
+#define PARADOXNOTION_SERIALIZATION_V2BINARYDECODER_READ7BITINT_OFFSET UNITYSDK_OFFSET(0x1EBA0650)
+#define PARADOXNOTION_SERIALIZATION_V2BINARYDECODER_READNODE_OFFSET UNITYSDK_OFFSET(0x1EB9FD10)
+#define PARADOXNOTION_SERIALIZATION_V2BINARYDECODER_READSTRING_OFFSET UNITYSDK_OFFSET(0x1EBA04A0)
+#define PARADOXNOTION_SERIALIZATION_V2BINARYDECODER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EBA06B0)
 
 namespace ParadoxNotion::Serialization
 {
-	inline static constexpr unsigned int V2BinaryDecoder_TypeDefinitionIndex = 29978;
+	inline static constexpr unsigned int V2BinaryDecoder_TypeDefinitionIndex = 30511;
 
 	class V2BinaryDecoder : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::Byte>** StaticGet_ExpectedMagic()
 		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(V2BinaryDecoder_TypeDefinitionIndex)->GetStaticField(0x248F0);
+			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(V2BinaryDecoder_TypeDefinitionIndex)->GetStaticField(0x26190);
 		}
 		// static const ::System::Byte TAG_NULL = 0x0; // 0x0
 		// static const ::System::Byte TAG_FALSE = 0x1; // 0x0

@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-inline static constexpr unsigned int Struct_2_B76C9DBDAECC6C19_TypeDefinitionIndex = 80324;
+inline static constexpr unsigned int Struct_2_B76C9DBDAECC6C19_TypeDefinitionIndex = 80198;
 
 struct alignas(4) Struct_2_B76C9DBDAECC6C19
 {
-	::System::Boolean Field_2_0; // 0x10
-	::System::Single Field_2_1; // 0x14
+	::System::Boolean Field_2_1; // 0x10
+	::System::Single Field_2_0; // 0x14
 };

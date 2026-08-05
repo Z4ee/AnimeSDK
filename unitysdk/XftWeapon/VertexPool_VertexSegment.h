@@ -4,12 +4,12 @@
 
 namespace XftWeapon { class VertexPool; }
 
-#define XFTWEAPON_VERTEXPOOL_VERTEXSEGMENT_CLEARINDICES_OFFSET UNITYSDK_OFFSET(0x1D5737D0)
-#define XFTWEAPON_VERTEXPOOL_VERTEXSEGMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5728D0)
+#define XFTWEAPON_VERTEXPOOL_VERTEXSEGMENT_CLEARINDICES_OFFSET UNITYSDK_OFFSET(0x1E922A20)
+#define XFTWEAPON_VERTEXPOOL_VERTEXSEGMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E921B20)
 
 namespace XftWeapon
 {
-	inline static constexpr unsigned int VertexPool_VertexSegment_TypeDefinitionIndex = 39303;
+	inline static constexpr unsigned int VertexPool_VertexSegment_TypeDefinitionIndex = 39969;
 
 	class VertexPool_VertexSegment : public ::System::Object
 	{

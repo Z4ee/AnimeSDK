@@ -4,12 +4,12 @@
 #include "unitysdk/PipelineCamera/CameraSequence/CameraSequenceMemberPath.h"
 #include "unitysdk/PipelineCamera/WorldBasicCameraData.h"
 
-#define MOLEMOLE_UTILS_LEVELFAILEDCAMERASEQUENCECONTEXT_CALCULATEDESIREDFIELDOFVIEW_OFFSET UNITYSDK_OFFSET(0xC9391C0)
-#define MOLEMOLE_UTILS_LEVELFAILEDCAMERASEQUENCECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xC939530)
+#define MOLEMOLE_UTILS_LEVELFAILEDCAMERASEQUENCECONTEXT_CALCULATEDESIREDFIELDOFVIEW_OFFSET UNITYSDK_OFFSET(0x174C17B0)
+#define MOLEMOLE_UTILS_LEVELFAILEDCAMERASEQUENCECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x174C1B20)
 
 namespace MoleMole::Utils
 {
-	inline static constexpr unsigned int LevelFailedCameraSequenceContext_TypeDefinitionIndex = 58742;
+	inline static constexpr unsigned int LevelFailedCameraSequenceContext_TypeDefinitionIndex = 72851;
 
 	class LevelFailedCameraSequenceContext : public ::MoleMole::Utils::NapCameraSequenceContext
 	{

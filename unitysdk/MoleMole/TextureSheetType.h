@@ -3,27 +3,27 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int TextureSheetType_TypeDefinitionIndex = 73987;
+	inline static constexpr unsigned int TextureSheetType_TypeDefinitionIndex = 51526;
 
 	enum class TextureSheetType : ::System::Int32
 	{
-		Weapon = 12,
 		SnakeDuel = 7,
-		BallPit = 16,
-		SoulHounds = 3,
-		CommonUI = 11,
+		Battle = 8,
+		Weapon = 12,
+		HollowChessboard = 0,
+		InterKnot = 13,
+		ArcadeGame = 2,
 		MiniGame = 15,
+		Galgame = 14,
+		BallPit = 16,
+		HollowItemCollect = 6,
 		GachaPerform = 4,
 		MainCityObject = 1,
-		Count = 17,
-		Battle = 8,
-		ArcadeGame = 2,
-		InterKnot = 13,
-		Tips = 10,
-		HollowItemCollect = 6,
-		Level = 9,
-		HollowChessboard = 0,
-		Galgame = 14,
 		HollowChessboardPushBox = 5,
+		Count = 17,
+		Level = 9,
+		CommonUI = 11,
+		SoulHounds = 3,
+		Tips = 10,
 	};
 }

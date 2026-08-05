@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SIRENIX_SERIALIZATION_EMITTEDFORMATTERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E5121E0)
+#define SIRENIX_SERIALIZATION_EMITTEDFORMATTERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F916D30)
 
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int EmittedFormatterAttribute_TypeDefinitionIndex = 7457;
+	inline static constexpr unsigned int EmittedFormatterAttribute_TypeDefinitionIndex = 7461;
 
 	class EmittedFormatterAttribute : public ::System::Attribute
 	{

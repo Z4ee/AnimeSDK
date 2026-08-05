@@ -1,0 +1,64 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_2_40CD888D5D4FCB5B.h"
+
+class Class_3_3F053D39E8E0E58E;
+namespace Nap::NapECS { class EcsFilter; }
+namespace Nap::NapECS { class EcsWorld; }
+
+#define CLASS_3_C54A0DFF1F15D375_CREATEFILTERS_OFFSET UNITYSDK_OFFSET(0x1BC1F760)
+#define CLASS_3_C54A0DFF1F15D375_METHOD_3_91D97064765DCBF1_OFFSET UNITYSDK_OFFSET(0x1BC20220)
+#define CLASS_3_C54A0DFF1F15D375_METHOD_3_BADC81CF9C936EDA_OFFSET UNITYSDK_OFFSET(0x1BC1FFB0)
+#define CLASS_3_C54A0DFF1F15D375_METHOD_3_BDE65CEC092FFD5C_OFFSET UNITYSDK_OFFSET(0x1BC20040)
+#define CLASS_3_C54A0DFF1F15D375_METHOD_3_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x1BC20190)
+#define CLASS_3_C54A0DFF1F15D375_METHOD_3_CE944E12A64032F6_OFFSET UNITYSDK_OFFSET(0x1BC1FAF0)
+#define CLASS_3_C54A0DFF1F15D375_UPDATE_OFFSET UNITYSDK_OFFSET(0x1BC1F940)
+#define CLASS_3_C54A0DFF1F15D375__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC1FAA0)
+
+inline static constexpr unsigned int Class_3_C54A0DFF1F15D375_TypeDefinitionIndex = 90043;
+
+class Class_3_C54A0DFF1F15D375 : public ::Class_2_40CD888D5D4FCB5B
+{
+public:
+	::Nap::NapECS::EcsFilter* Field_3_0; // 0x20
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_C54A0DFF1F15D375__CTOR_OFFSET))(this);
+	}
+
+	::System::Void CreateFilters(::Nap::NapECS::EcsWorld* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Nap::NapECS::EcsWorld*))((::PBYTE)hIl2Cpp + CLASS_3_C54A0DFF1F15D375_CREATEFILTERS_OFFSET))(this, a1);
+	}
+
+	::System::Void Update()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_C54A0DFF1F15D375_UPDATE_OFFSET))(this);
+	}
+
+	::System::Void Method_3_CE944E12A64032F6(::System::UInt32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_3_C54A0DFF1F15D375_METHOD_3_CE944E12A64032F6_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_3_BADC81CF9C936EDA(::Nap::NapECS::EcsWorld* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Nap::NapECS::EcsWorld*))((::PBYTE)hIl2Cpp + CLASS_3_C54A0DFF1F15D375_METHOD_3_BADC81CF9C936EDA_OFFSET))(this, a1);
+	}
+
+	static ::System::Void Method_3_BDE65CEC092FFD5C(::Class_3_3F053D39E8E0E58E* a1)
+	{
+		return ((::System::Void(*)(::Class_3_3F053D39E8E0E58E*))((::PBYTE)hIl2Cpp + CLASS_3_C54A0DFF1F15D375_METHOD_3_BDE65CEC092FFD5C_OFFSET))(a1);
+	}
+
+	::System::Void Method_3_CA373AA1C7054598()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_C54A0DFF1F15D375_METHOD_3_CA373AA1C7054598_OFFSET))(this);
+	}
+
+	static ::System::Void Method_3_91D97064765DCBF1(::Class_3_3F053D39E8E0E58E* a1)
+	{
+		return ((::System::Void(*)(::Class_3_3F053D39E8E0E58E*))((::PBYTE)hIl2Cpp + CLASS_3_C54A0DFF1F15D375_METHOD_3_91D97064765DCBF1_OFFSET))(a1);
+	}
+};

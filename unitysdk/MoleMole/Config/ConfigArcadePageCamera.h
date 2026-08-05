@@ -5,27 +5,27 @@
 namespace MoleMole::Config { class ConfigArcadeCameraBlendCurve; }
 namespace MoleMole::Config { class ConfigArcadeCameraPoint; }
 
-#define MOLEMOLE_CONFIG_CONFIGARCADEPAGECAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x106C8C10)
+#define MOLEMOLE_CONFIG_CONFIGARCADEPAGECAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4A71A0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigArcadePageCamera_TypeDefinitionIndex = 86855;
+	inline static constexpr unsigned int ConfigArcadePageCamera_TypeDefinitionIndex = 45139;
 
 	class ConfigArcadePageCamera : public ::MoleMole::Config::ConfigPageCameraBase
 	{
 	public:
-		::MoleMole::Config::ConfigArcadeCameraPoint* ArcadeMachinePoint; // 0x10
-		::MoleMole::Config::ConfigArcadeCameraBlendCurve* SpinningTableToEntranceBlend; // 0x18
-		::MoleMole::Config::ConfigArcadeCameraBlendCurve* ArcadeMachineToSpinningTableBlend; // 0x20
-		::MoleMole::Config::ConfigArcadeCameraBlendCurve* PlayGameToSpinningTableBlend; // 0x28
-		::MoleMole::Config::ConfigArcadeCameraPoint* PlayGamePoint; // 0x30
-		::MoleMole::Config::ConfigArcadeCameraPoint* EntrancePoint; // 0x38
-		::MoleMole::Config::ConfigArcadeCameraPoint* SpinningTablePoint; // 0x40
-		::MoleMole::Config::ConfigArcadeCameraBlendCurve* ArcadeMachineToPlayGameBlend; // 0x48
-		::MoleMole::Config::ConfigArcadeCameraBlendCurve* SpinningTableToArcadeMachineBlend; // 0x50
-		::MoleMole::Config::ConfigArcadeCameraBlendCurve* PlayGameToArcadeMachineBlend; // 0x58
-		::MoleMole::Config::ConfigArcadeCameraBlendCurve* EntranceToSpinningTableBlend; // 0x60
-		::MoleMole::Config::ConfigArcadeCameraBlendCurve* SpinningTableToPlayGameBlend; // 0x68
+		::MoleMole::Config::ConfigArcadeCameraBlendCurve* EntranceToSpinningTableBlend; // 0x10
+		::MoleMole::Config::ConfigArcadeCameraPoint* EntrancePoint; // 0x18
+		::MoleMole::Config::ConfigArcadeCameraPoint* PlayGamePoint; // 0x20
+		::MoleMole::Config::ConfigArcadeCameraBlendCurve* SpinningTableToEntranceBlend; // 0x28
+		::MoleMole::Config::ConfigArcadeCameraBlendCurve* PlayGameToArcadeMachineBlend; // 0x30
+		::MoleMole::Config::ConfigArcadeCameraBlendCurve* SpinningTableToPlayGameBlend; // 0x38
+		::MoleMole::Config::ConfigArcadeCameraBlendCurve* ArcadeMachineToPlayGameBlend; // 0x40
+		::MoleMole::Config::ConfigArcadeCameraBlendCurve* ArcadeMachineToSpinningTableBlend; // 0x48
+		::MoleMole::Config::ConfigArcadeCameraPoint* SpinningTablePoint; // 0x50
+		::MoleMole::Config::ConfigArcadeCameraPoint* ArcadeMachinePoint; // 0x58
+		::MoleMole::Config::ConfigArcadeCameraBlendCurve* SpinningTableToArcadeMachineBlend; // 0x60
+		::MoleMole::Config::ConfigArcadeCameraBlendCurve* PlayGameToSpinningTableBlend; // 0x68
 
 		::System::Void _ctor()
 		{

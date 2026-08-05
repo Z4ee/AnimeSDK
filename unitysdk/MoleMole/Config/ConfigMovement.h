@@ -1,34 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_31420365C5F30A4E.h"
+#include "unitysdk/Enum_3_31420365C5F30A4E_1.h"
 #include "unitysdk/FlexBuffers/FlxMap.h"
 #include "unitysdk/FlexBuffers/FlxValue.h"
 #include "unitysdk/System/Object.h"
 
 class Class_1_236FD73ABC492E3F;
-class Class_2_167BB37617B940E3;
+class Class_2_14986121AA61AD99;
 class Class_3_248DACE3BB3053DD;
-class Class_3_DFD5D1FDB9D2A4AC;
+class Class_3_C93CC3D2C2AC4067;
 namespace MoleMole::Battle { class Entity; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGMOVEMENT_CLONE_OFFSET UNITYSDK_OFFSET(0x18AD5C60)
-#define MOLEMOLE_CONFIG_CONFIGMOVEMENT_FOREACHREFTYPEMEMBER_OFFSET UNITYSDK_OFFSET(0x18AD5C10)
-#define MOLEMOLE_CONFIG_CONFIGMOVEMENT_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18AD6D20)
-#define MOLEMOLE_CONFIG_CONFIGMOVEMENT_FROMFLX_OFFSET UNITYSDK_OFFSET(0x18AD5DD0)
-#define MOLEMOLE_CONFIG_CONFIGMOVEMENT_GETFIXEDMOVEMENTRATIO_OFFSET UNITYSDK_OFFSET(0x18AD5A70)
-#define MOLEMOLE_CONFIG_CONFIGMOVEMENT_GETHASHNUM_OFFSET UNITYSDK_OFFSET(0x18AD5D60)
-#define MOLEMOLE_CONFIG_CONFIGMOVEMENT_INTERNALFROMBINARY_OFFSET UNITYSDK_OFFSET(0x18AD6D80)
-#define MOLEMOLE_CONFIG_CONFIGMOVEMENT_INTERNALFROMFLX_OFFSET UNITYSDK_OFFSET(0x18AD5E50)
-#define MOLEMOLE_CONFIG_CONFIGMOVEMENT_PARSEFROMBINARY_OFFSET UNITYSDK_OFFSET(0x18AD7280)
-#define MOLEMOLE_CONFIG_CONFIGMOVEMENT_PARSEFROMFLX_OFFSET UNITYSDK_OFFSET(0x18AD6C50)
-#define MOLEMOLE_CONFIG_CONFIGMOVEMENT_SETUPLOGICMOVEMENT_OFFSET UNITYSDK_OFFSET(0x18AD59D0)
-#define MOLEMOLE_CONFIG_CONFIGMOVEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x18AD73D0)
+#define MOLEMOLE_CONFIG_CONFIGMOVEMENT_CLONE_OFFSET UNITYSDK_OFFSET(0x1A4B4670)
+#define MOLEMOLE_CONFIG_CONFIGMOVEMENT_FOREACHREFTYPEMEMBER_OFFSET UNITYSDK_OFFSET(0x1A4B4620)
+#define MOLEMOLE_CONFIG_CONFIGMOVEMENT_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A4B56B0)
+#define MOLEMOLE_CONFIG_CONFIGMOVEMENT_FROMFLX_OFFSET UNITYSDK_OFFSET(0x1A4B4780)
+#define MOLEMOLE_CONFIG_CONFIGMOVEMENT_GETFIXEDMOVEMENTRATIO_OFFSET UNITYSDK_OFFSET(0x1A4B4480)
+#define MOLEMOLE_CONFIG_CONFIGMOVEMENT_GETHASHNUM_OFFSET UNITYSDK_OFFSET(0x1A4B4770)
+#define MOLEMOLE_CONFIG_CONFIGMOVEMENT_INTERNALFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A4B5710)
+#define MOLEMOLE_CONFIG_CONFIGMOVEMENT_INTERNALFROMFLX_OFFSET UNITYSDK_OFFSET(0x1A4B4800)
+#define MOLEMOLE_CONFIG_CONFIGMOVEMENT_PARSEFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A4B5C00)
+#define MOLEMOLE_CONFIG_CONFIGMOVEMENT_PARSEFROMFLX_OFFSET UNITYSDK_OFFSET(0x1A4B55E0)
+#define MOLEMOLE_CONFIG_CONFIGMOVEMENT_SETUPLOGICMOVEMENT_OFFSET UNITYSDK_OFFSET(0x1A4B43E0)
+#define MOLEMOLE_CONFIG_CONFIGMOVEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4B5D50)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigMovement_TypeDefinitionIndex = 71046;
+	inline static constexpr unsigned int ConfigMovement_TypeDefinitionIndex = 63663;
 
 	class ConfigMovement : public ::System::Object
 	{
@@ -37,23 +37,23 @@ namespace MoleMole::Config
 		// static const ::System::Single SQR_MIN_SPEED; // 0x0
 		// static const ::System::Single REACH_THRESHOLD; // 0x0
 		::System::String* ConfigKey; // 0x10
-		::System::Boolean MuteRootMotionMovement; // 0x18
-		::System::Boolean IgnoreMovementCurveRatio; // 0x19
-		::System::Single Gravity; // 0x1C
-		::Enum_3_31420365C5F30A4E TimesUpMoveOption; // 0x20
-		::System::Single Duration; // 0x24
-		::System::Single HitTangentialRatio; // 0x28
-		::System::Int32 MaxHitNumber; // 0x2C
-		::System::Single HitNormalRatio; // 0x30
+		::System::Single Duration; // 0x18
+		::System::Boolean MuteRootMotionMovement; // 0x1C
+		::System::Boolean IgnoreMovementCurveRatio; // 0x1D
+		::System::Int32 MaxHitNumber; // 0x20
+		::System::Single Gravity; // 0x24
+		::System::Single HitNormalRatio; // 0x28
+		::Enum_3_31420365C5F30A4E_1 TimesUpMoveOption; // 0x2C
+		::System::Single HitTangentialRatio; // 0x30
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGMOVEMENT__CTOR_OFFSET))(this);
 		}
 
-		::System::Void SetupLogicMovement(::Class_3_248DACE3BB3053DD* movementComponent, ::MoleMole::Battle::Entity* other, ::MoleMole::Battle::Entity* caster, ::Class_2_167BB37617B940E3* instancedAbility)
+		::System::Void SetupLogicMovement(::Class_3_248DACE3BB3053DD* movementComponent, ::MoleMole::Battle::Entity* other, ::MoleMole::Battle::Entity* caster, ::Class_2_14986121AA61AD99* instancedAbility)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_3_248DACE3BB3053DD*, ::MoleMole::Battle::Entity*, ::MoleMole::Battle::Entity*, ::Class_2_167BB37617B940E3*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGMOVEMENT_SETUPLOGICMOVEMENT_OFFSET))(this, movementComponent, other, caster, instancedAbility);
+			return ((::System::Void(*)(::PVOID, ::Class_3_248DACE3BB3053DD*, ::MoleMole::Battle::Entity*, ::MoleMole::Battle::Entity*, ::Class_2_14986121AA61AD99*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGMOVEMENT_SETUPLOGICMOVEMENT_OFFSET))(this, movementComponent, other, caster, instancedAbility);
 		}
 
 		::System::Single GetFixedMovementRatio(::MoleMole::Battle::Entity* entity)

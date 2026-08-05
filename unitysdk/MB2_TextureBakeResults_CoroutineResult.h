@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MB2_TEXTUREBAKERESULTS_COROUTINERESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1DE8C150)
+#define MB2_TEXTUREBAKERESULTS_COROUTINERESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1F2A8F70)
 
-inline static constexpr unsigned int MB2_TextureBakeResults_CoroutineResult_TypeDefinitionIndex = 90530;
+inline static constexpr unsigned int MB2_TextureBakeResults_CoroutineResult_TypeDefinitionIndex = 94463;
 
 class MB2_TextureBakeResults_CoroutineResult : public ::System::Object
 {

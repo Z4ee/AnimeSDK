@@ -6,13 +6,13 @@ namespace Foundation { class VersionFileInfo; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CDNSILENCEDATA_GET_VERSIONS_LIST_OFFSET UNITYSDK_OFFSET(0x17D258B0)
-#define MOLEMOLE_CDNSILENCEDATA_SET_VERSIONS_LIST_OFFSET UNITYSDK_OFFSET(0x17D258C0)
-#define MOLEMOLE_CDNSILENCEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x17D258D0)
+#define MOLEMOLE_CDNSILENCEDATA_GET_VERSIONS_LIST_OFFSET UNITYSDK_OFFSET(0x17273320)
+#define MOLEMOLE_CDNSILENCEDATA_SET_VERSIONS_LIST_OFFSET UNITYSDK_OFFSET(0x17273330)
+#define MOLEMOLE_CDNSILENCEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x17273340)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CDNSilenceData_TypeDefinitionIndex = 75148;
+	inline static constexpr unsigned int CDNSilenceData_TypeDefinitionIndex = 68752;
 
 	class CDNSilenceData : public ::System::Object
 	{

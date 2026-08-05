@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_CONFIG_CONFIGZIPLINE_CONFIGFAILED__CTOR_OFFSET UNITYSDK_OFFSET(0x17056EE0)
+#define MOLEMOLE_CONFIG_CONFIGZIPLINE_CONFIGFAILED__CTOR_OFFSET UNITYSDK_OFFSET(0x1B919910)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigZipLine_ConfigFailed_TypeDefinitionIndex = 51239;
+	inline static constexpr unsigned int ConfigZipLine_ConfigFailed_TypeDefinitionIndex = 53004;
 
 	class ConfigZipLine_ConfigFailed : public ::System::Object
 	{

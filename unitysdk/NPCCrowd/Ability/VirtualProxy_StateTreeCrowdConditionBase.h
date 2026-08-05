@@ -4,12 +4,12 @@
 #include "unitysdk/StateTreeCore/VirtualProxy_StateTreeConditionBase.h"
 #include "unitysdk/UnrealTypes/FReadOnlyStructView.h"
 
-#define NPCCROWD_ABILITY_VIRTUALPROXY_STATETREECROWDCONDITIONBASE_TESTCONDITION_OFFSET UNITYSDK_OFFSET(0xD5C5290)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_STATETREECROWDCONDITIONBASE__CTOR_OFFSET UNITYSDK_OFFSET(0xD5C5280)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_STATETREECROWDCONDITIONBASE_TESTCONDITION_OFFSET UNITYSDK_OFFSET(0x10C93850)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_STATETREECROWDCONDITIONBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x10C93840)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int VirtualProxy_StateTreeCrowdConditionBase_TypeDefinitionIndex = 50597;
+	inline static constexpr unsigned int VirtualProxy_StateTreeCrowdConditionBase_TypeDefinitionIndex = 43178;
 
 	class VirtualProxy_StateTreeCrowdConditionBase : public ::StateTreeCore::VirtualProxy_StateTreeConditionBase
 	{

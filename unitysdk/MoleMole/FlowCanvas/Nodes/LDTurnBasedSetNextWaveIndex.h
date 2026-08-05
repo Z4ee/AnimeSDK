@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FlowCanvas/Nodes/CallableActionNode.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDTURNBASEDSETNEXTWAVEINDEX_INVOKE_OFFSET UNITYSDK_OFFSET(0x19124720)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDTURNBASEDSETNEXTWAVEINDEX__CTOR_OFFSET UNITYSDK_OFFSET(0x19124850)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDTURNBASEDSETNEXTWAVEINDEX_INVOKE_OFFSET UNITYSDK_OFFSET(0x19DB7500)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDTURNBASEDSETNEXTWAVEINDEX__CTOR_OFFSET UNITYSDK_OFFSET(0x19DB7630)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDTurnBasedSetNextWaveIndex_TypeDefinitionIndex = 58183;
+	inline static constexpr unsigned int LDTurnBasedSetNextWaveIndex_TypeDefinitionIndex = 62115;
 
 	class LDTurnBasedSetNextWaveIndex : public ::FlowCanvas::Nodes::CallableActionNode
 	{

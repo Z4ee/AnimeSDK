@@ -3,11 +3,11 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralPackageDialogContext_DialogType_TypeDefinitionIndex = 85850;
+	inline static constexpr unsigned int UIGeneralPackageDialogContext_DialogType_TypeDefinitionIndex = 65233;
 
 	enum class UIGeneralPackageDialogContext_DialogType : ::System::Int32
 	{
-		Gift = 0,
 		MonthCard = 1,
+		Gift = 0,
 	};
 }

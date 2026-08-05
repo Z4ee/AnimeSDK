@@ -6,9 +6,9 @@ namespace Foundation::Unreal { class SerializableGameplayTagQuery; }
 namespace NPCCrowd::AI { class AIActionRefItem; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCAVATARMESHASSETSSO_GAMEPLAYTAGACTIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xD5AA590)
+#define NPCAVATARMESHASSETSSO_GAMEPLAYTAGACTIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x10B386C0)
 
-inline static constexpr unsigned int NPCAvatarMeshAssetsSO_GameplayTagActionConfig_TypeDefinitionIndex = 67212;
+inline static constexpr unsigned int NPCAvatarMeshAssetsSO_GameplayTagActionConfig_TypeDefinitionIndex = 55884;
 
 class NPCAvatarMeshAssetsSO_GameplayTagActionConfig : public ::System::Object
 {

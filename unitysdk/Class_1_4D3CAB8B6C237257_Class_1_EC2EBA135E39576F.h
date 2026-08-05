@@ -1,0 +1,56 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+namespace System { class Action; }
+
+#define CLASS_1_4D3CAB8B6C237257_CLASS_1_EC2EBA135E39576F_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x11ECDB80)
+#define CLASS_1_4D3CAB8B6C237257_CLASS_1_EC2EBA135E39576F_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_SINGLE__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x11ECDE50)
+#define CLASS_1_4D3CAB8B6C237257_CLASS_1_EC2EBA135E39576F_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x11ECDEB0)
+#define CLASS_1_4D3CAB8B6C237257_CLASS_1_EC2EBA135E39576F_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x11ECDE60)
+#define CLASS_1_4D3CAB8B6C237257_CLASS_1_EC2EBA135E39576F_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x11ECDB70)
+#define CLASS_1_4D3CAB8B6C237257_CLASS_1_EC2EBA135E39576F__CTOR_OFFSET UNITYSDK_OFFSET(0x11ECDB60)
+
+inline static constexpr unsigned int Class_1_4D3CAB8B6C237257_Class_1_EC2EBA135E39576F_TypeDefinitionIndex = 87030;
+
+class Class_1_4D3CAB8B6C237257_Class_1_EC2EBA135E39576F : public ::System::Object
+{
+public:
+	::System::Action* Field_1_6; // 0x10
+	::System::Single Field_1_1; // 0x18
+	::System::Int32 Field_1_2; // 0x1C
+	::System::Single Field_1_5; // 0x20
+	::System::Single Field_1_7; // 0x24
+	::System::Boolean Field_1_0; // 0x28
+	::System::Boolean Field_1_4; // 0x29
+
+	::System::Void _ctor(::System::Int32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_4D3CAB8B6C237257_CLASS_1_EC2EBA135E39576F__CTOR_OFFSET))(this, a1);
+	}
+
+	::System::Void System_IDisposable_Dispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_4D3CAB8B6C237257_CLASS_1_EC2EBA135E39576F_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET))(this);
+	}
+
+	::System::Boolean MoveNext()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_4D3CAB8B6C237257_CLASS_1_EC2EBA135E39576F_MOVENEXT_OFFSET))(this);
+	}
+
+	::System::Single System_Collections_Generic_IEnumerator_System_Single__get_Current()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_4D3CAB8B6C237257_CLASS_1_EC2EBA135E39576F_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_SINGLE__GET_CURRENT_OFFSET))(this);
+	}
+
+	::System::Void System_Collections_IEnumerator_Reset()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_4D3CAB8B6C237257_CLASS_1_EC2EBA135E39576F_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET))(this);
+	}
+
+	::System::Object* System_Collections_IEnumerator_get_Current()
+	{
+		return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_4D3CAB8B6C237257_CLASS_1_EC2EBA135E39576F_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET))(this);
+	}
+};

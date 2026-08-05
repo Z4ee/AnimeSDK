@@ -6,7 +6,7 @@
 
 namespace UnityEngine::InputSystem
 {
-	inline static constexpr unsigned int InputSystem_DeltaStateEventBuffer_TypeDefinitionIndex = 31600;
+	inline static constexpr unsigned int InputSystem_DeltaStateEventBuffer_TypeDefinitionIndex = 32220;
 
 	struct alignas(1) InputSystem_DeltaStateEventBuffer
 	{

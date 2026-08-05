@@ -11,7 +11,7 @@ namespace UnityEngine { class Transform; }
 
 namespace FluffyUnderware::DevTools
 {
-	inline static constexpr unsigned int UnityObjectPool_1_TypeDefinitionIndex = 28394;
+	inline static constexpr unsigned int UnityObjectPool_1_TypeDefinitionIndex = 28998;
 
 	template <typename T>
 	class UnityObjectPool_1 : public ::FluffyUnderware::DevTools::DTVersionedMonoBehaviour

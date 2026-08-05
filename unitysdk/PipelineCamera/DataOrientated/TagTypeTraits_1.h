@@ -4,7 +4,7 @@
 
 namespace PipelineCamera::DataOrientated
 {
-	inline static constexpr unsigned int TagTypeTraits_1_TypeDefinitionIndex = 37742;
+	inline static constexpr unsigned int TagTypeTraits_1_TypeDefinitionIndex = 38403;
 
 	template <typename T>
 	class TagTypeTraits_1 : public ::System::Object

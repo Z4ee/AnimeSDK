@@ -4,12 +4,12 @@
 
 namespace System::Security::Cryptography { class Aes; }
 
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_AESTRANSFORM_DECRYPT128_OFFSET UNITYSDK_OFFSET(0x1DAEACF0)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_AESTRANSFORM_ECB_OFFSET UNITYSDK_OFFSET(0x1DAE7460)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_AESTRANSFORM_ENCRYPT128_OFFSET UNITYSDK_OFFSET(0x1DAE7480)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_AESTRANSFORM_SUBBYTE_OFFSET UNITYSDK_OFFSET(0x1DAE7330)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_AESTRANSFORM__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DAEE530)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_AESTRANSFORM__CTOR_OFFSET UNITYSDK_OFFSET(0x1DAE6A70)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_AESTRANSFORM_DECRYPT128_OFFSET UNITYSDK_OFFSET(0x1EEFAB10)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_AESTRANSFORM_ECB_OFFSET UNITYSDK_OFFSET(0x1EEF72C0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_AESTRANSFORM_ENCRYPT128_OFFSET UNITYSDK_OFFSET(0x1EEF72E0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_AESTRANSFORM_SUBBYTE_OFFSET UNITYSDK_OFFSET(0x1EEF7190)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_AESTRANSFORM__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EEFE2A0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_AESTRANSFORM__CTOR_OFFSET UNITYSDK_OFFSET(0x1EEF68C0)
 
 namespace System::Security::Cryptography
 {
@@ -18,47 +18,47 @@ namespace System::Security::Cryptography
 	class AesTransform : public ::Mono::Security::Cryptography::SymmetricTransform
 	{
 	public:
-		static ::Il2CppArray<::System::UInt32>** StaticGet_T1()
-		{
-			return (::Il2CppArray<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(AesTransform_TypeDefinitionIndex)->GetStaticField(0x4590);
-		}
 		static ::Il2CppArray<::System::Byte>** StaticGet_SBox()
 		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(AesTransform_TypeDefinitionIndex)->GetStaticField(0x4598);
-		}
-		static ::Il2CppArray<::System::UInt32>** StaticGet_T2()
-		{
-			return (::Il2CppArray<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(AesTransform_TypeDefinitionIndex)->GetStaticField(0x45A0);
-		}
-		static ::Il2CppArray<::System::Byte>** StaticGet_iSBox()
-		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(AesTransform_TypeDefinitionIndex)->GetStaticField(0x45A8);
-		}
-		static ::Il2CppArray<::System::UInt32>** StaticGet_T3()
-		{
-			return (::Il2CppArray<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(AesTransform_TypeDefinitionIndex)->GetStaticField(0x45B0);
-		}
-		static ::Il2CppArray<::System::UInt32>** StaticGet_Rcon()
-		{
-			return (::Il2CppArray<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(AesTransform_TypeDefinitionIndex)->GetStaticField(0x45B8);
-		}
-		static ::Il2CppArray<::System::UInt32>** StaticGet_iT1()
-		{
-			return (::Il2CppArray<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(AesTransform_TypeDefinitionIndex)->GetStaticField(0x45C0);
-		}
-		static ::Il2CppArray<::System::UInt32>** StaticGet_T0()
-		{
-			return (::Il2CppArray<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(AesTransform_TypeDefinitionIndex)->GetStaticField(0x45C8);
+			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(AesTransform_TypeDefinitionIndex)->GetStaticField(0x4590);
 		}
 		static ::Il2CppArray<::System::UInt32>** StaticGet_iT0()
 		{
-			return (::Il2CppArray<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(AesTransform_TypeDefinitionIndex)->GetStaticField(0x45D0);
+			return (::Il2CppArray<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(AesTransform_TypeDefinitionIndex)->GetStaticField(0x4598);
 		}
-		static ::Il2CppArray<::System::UInt32>** StaticGet_iT2()
+		static ::Il2CppArray<::System::UInt32>** StaticGet_iT3()
+		{
+			return (::Il2CppArray<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(AesTransform_TypeDefinitionIndex)->GetStaticField(0x45A0);
+		}
+		static ::Il2CppArray<::System::UInt32>** StaticGet_T1()
+		{
+			return (::Il2CppArray<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(AesTransform_TypeDefinitionIndex)->GetStaticField(0x45A8);
+		}
+		static ::Il2CppArray<::System::UInt32>** StaticGet_iT1()
+		{
+			return (::Il2CppArray<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(AesTransform_TypeDefinitionIndex)->GetStaticField(0x45B0);
+		}
+		static ::Il2CppArray<::System::UInt32>** StaticGet_T0()
+		{
+			return (::Il2CppArray<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(AesTransform_TypeDefinitionIndex)->GetStaticField(0x45B8);
+		}
+		static ::Il2CppArray<::System::UInt32>** StaticGet_Rcon()
+		{
+			return (::Il2CppArray<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(AesTransform_TypeDefinitionIndex)->GetStaticField(0x45C0);
+		}
+		static ::Il2CppArray<::System::UInt32>** StaticGet_T2()
+		{
+			return (::Il2CppArray<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(AesTransform_TypeDefinitionIndex)->GetStaticField(0x45C8);
+		}
+		static ::Il2CppArray<::System::Byte>** StaticGet_iSBox()
+		{
+			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(AesTransform_TypeDefinitionIndex)->GetStaticField(0x45D0);
+		}
+		static ::Il2CppArray<::System::UInt32>** StaticGet_T3()
 		{
 			return (::Il2CppArray<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(AesTransform_TypeDefinitionIndex)->GetStaticField(0x45D8);
 		}
-		static ::Il2CppArray<::System::UInt32>** StaticGet_iT3()
+		static ::Il2CppArray<::System::UInt32>** StaticGet_iT2()
 		{
 			return (::Il2CppArray<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(AesTransform_TypeDefinitionIndex)->GetStaticField(0x45E0);
 		}

@@ -7,21 +7,21 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 namespace System::Reflection { class Assembly; }
 template <typename T1, typename T2> class __f__AnonymousType0_2;
 
-#define SIRENIX_SERIALIZATION_DICTIONARYKEYUTILITY___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E7BA4F0)
-#define SIRENIX_SERIALIZATION_DICTIONARYKEYUTILITY___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7BA530)
-#define SIRENIX_SERIALIZATION_DICTIONARYKEYUTILITY___C___CCTOR_B__12_0_OFFSET UNITYSDK_OFFSET(0x1E7BA540)
-#define SIRENIX_SERIALIZATION_DICTIONARYKEYUTILITY___C___CCTOR_B__12_1_OFFSET UNITYSDK_OFFSET(0x1E7BA6C0)
+#define SIRENIX_SERIALIZATION_DICTIONARYKEYUTILITY___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FB97DE0)
+#define SIRENIX_SERIALIZATION_DICTIONARYKEYUTILITY___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB97E20)
+#define SIRENIX_SERIALIZATION_DICTIONARYKEYUTILITY___C___CCTOR_B__12_0_OFFSET UNITYSDK_OFFSET(0x1FB97E30)
+#define SIRENIX_SERIALIZATION_DICTIONARYKEYUTILITY___C___CCTOR_B__12_1_OFFSET UNITYSDK_OFFSET(0x1FB97FB0)
 
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int DictionaryKeyUtility___c_TypeDefinitionIndex = 7564;
+	inline static constexpr unsigned int DictionaryKeyUtility___c_TypeDefinitionIndex = 7568;
 
 	class DictionaryKeyUtility___c : public ::System::Object
 	{
 	public:
 		static ::Sirenix::Serialization::DictionaryKeyUtility___c** StaticGet___9()
 		{
-			return (::Sirenix::Serialization::DictionaryKeyUtility___c**)Il2CppClass::FromTypeDefinitionIndex(DictionaryKeyUtility___c_TypeDefinitionIndex)->GetStaticField(0x6350);
+			return (::Sirenix::Serialization::DictionaryKeyUtility___c**)Il2CppClass::FromTypeDefinitionIndex(DictionaryKeyUtility___c_TypeDefinitionIndex)->GetStaticField(0x6360);
 		}
 
 		static ::System::Void _cctor()

@@ -1,0 +1,14 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int Enum_3_BF1E90E241F2A0E5_TypeDefinitionIndex = 23098;
+
+enum class Enum_3_BF1E90E241F2A0E5 : ::System::Int32
+{
+	HOLLOW_BATTLE_EVENT_TYPE_ELITE = 2,
+	HOLLOW_BATTLE_EVENT_TYPE_BOSS = 3,
+	HOLLOW_BATTLE_EVENT_TYPE_LEVEL_FIN = 5,
+	HOLLOW_BATTLE_EVENT_TYPE_LEVEL_END = 4,
+	HOLLOW_BATTLE_EVENT_TYPE_NORMAL = 1,
+	HOLLOW_BATTLE_EVENT_TYPE_DEFAULT = 0,
+};

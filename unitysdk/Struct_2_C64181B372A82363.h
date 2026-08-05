@@ -7,19 +7,19 @@ class Class_1_236FD73ABC492E3F;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define STRUCT_2_C64181B372A82363_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x834D80)
-#define STRUCT_2_C64181B372A82363_FROMFLX_OFFSET UNITYSDK_OFFSET(0x834CF0)
-#define STRUCT_2_C64181B372A82363_METHOD_2_D4DA1493472613E6_OFFSET UNITYSDK_OFFSET(0x834DE0)
-#define STRUCT_2_C64181B372A82363_METHOD_2_DDBE9A358A92FDCB_OFFSET UNITYSDK_OFFSET(0x834E10)
+#define STRUCT_2_C64181B372A82363_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x610150)
+#define STRUCT_2_C64181B372A82363_FROMFLX_OFFSET UNITYSDK_OFFSET(0x6100C0)
+#define STRUCT_2_C64181B372A82363_METHOD_2_D4DA1493472613E6_OFFSET UNITYSDK_OFFSET(0x6101B0)
+#define STRUCT_2_C64181B372A82363_METHOD_2_DDBE9A358A92FDCB_OFFSET UNITYSDK_OFFSET(0x6101E0)
 
-inline static constexpr unsigned int Struct_2_C64181B372A82363_TypeDefinitionIndex = 49288;
+inline static constexpr unsigned int Struct_2_C64181B372A82363_TypeDefinitionIndex = 69314;
 
 struct alignas(8) Struct_2_C64181B372A82363
 {
-	::UnityEngine::Vector3 Field_2_0; // 0x10
-	::UnityEngine::Vector3 Field_2_1; // 0x1C
-	::System::String* Field_2_2; // 0x28
-	::System::Collections::Generic::List_1<::System::String*>* Field_2_3; // 0x30
+	::UnityEngine::Vector3 Field_2_1; // 0x10
+	::UnityEngine::Vector3 Field_2_0; // 0x1C
+	::System::String* Field_2_7; // 0x28
+	::System::Collections::Generic::List_1<::System::String*>* Field_2_6; // 0x30
 
 	/*
 	::System::Boolean FromFlx(::FlexBuffers::FlxValue a1)

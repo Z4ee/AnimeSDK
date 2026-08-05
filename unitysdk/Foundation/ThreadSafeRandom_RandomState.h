@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define FOUNDATION_THREADSAFERANDOM_RANDOMSTATE_NEXT_OFFSET UNITYSDK_OFFSET(0xA574F0)
-#define FOUNDATION_THREADSAFERANDOM_RANDOMSTATE_SETSEED_OFFSET UNITYSDK_OFFSET(0xA57410)
+#define FOUNDATION_THREADSAFERANDOM_RANDOMSTATE_NEXT_OFFSET UNITYSDK_OFFSET(0xAA8A70)
+#define FOUNDATION_THREADSAFERANDOM_RANDOMSTATE_SETSEED_OFFSET UNITYSDK_OFFSET(0xAA8990)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int ThreadSafeRandom_RandomState_TypeDefinitionIndex = 8807;
+	inline static constexpr unsigned int ThreadSafeRandom_RandomState_TypeDefinitionIndex = 8626;
 
 	struct alignas(4) ThreadSafeRandom_RandomState
 	{

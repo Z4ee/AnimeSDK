@@ -3,15 +3,15 @@
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int BakedPointShadowCubemapFace_TypeDefinitionIndex = 26957;
+	inline static constexpr unsigned int BakedPointShadowCubemapFace_TypeDefinitionIndex = 27716;
 
 	enum class BakedPointShadowCubemapFace : ::System::Int32
 	{
-		NegativeZ = 5,
-		PositiveY = 2,
-		NegativeX = 1,
-		PositiveX = 0,
 		PositiveZ = 4,
+		NegativeX = 1,
 		NegativeY = 3,
+		NegativeZ = 5,
+		PositiveX = 0,
+		PositiveY = 2,
 	};
 }

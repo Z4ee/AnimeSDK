@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-inline static constexpr unsigned int LineLightingV2_LineLightingV2Param_TypeDefinitionIndex = 34657;
+inline static constexpr unsigned int LineLightingV2_LineLightingV2Param_TypeDefinitionIndex = 35316;
 
 struct alignas(4) LineLightingV2_LineLightingV2Param
 {

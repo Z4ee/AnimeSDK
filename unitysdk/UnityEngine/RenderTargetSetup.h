@@ -6,7 +6,7 @@
 #include "unitysdk/UnityEngine/Rendering/RenderBufferLoadAction.h"
 #include "unitysdk/UnityEngine/Rendering/RenderBufferStoreAction.h"
 
-#define UNITYENGINE_RENDERTARGETSETUP__CTOR_OFFSET UNITYSDK_OFFSET(0xA09490)
+#define UNITYENGINE_RENDERTARGETSETUP__CTOR_OFFSET UNITYSDK_OFFSET(0xA56200)
 
 namespace UnityEngine
 {

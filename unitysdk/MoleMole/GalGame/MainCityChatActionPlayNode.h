@@ -8,12 +8,12 @@ namespace MoleMole { class UIMainCityChatPlayContext; }
 namespace MoleMole::GalGame { class MainCityChatActionBase; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_GALGAME_MAINCITYCHATACTIONPLAYNODE_INSTANTIATE_OFFSET UNITYSDK_OFFSET(0x17E7D5A0)
-#define MOLEMOLE_GALGAME_MAINCITYCHATACTIONPLAYNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x17E7D590)
+#define MOLEMOLE_GALGAME_MAINCITYCHATACTIONPLAYNODE_INSTANTIATE_OFFSET UNITYSDK_OFFSET(0x19BEF410)
+#define MOLEMOLE_GALGAME_MAINCITYCHATACTIONPLAYNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x19BEF400)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int MainCityChatActionPlayNode_TypeDefinitionIndex = 57946;
+	inline static constexpr unsigned int MainCityChatActionPlayNode_TypeDefinitionIndex = 66561;
 
 	class MainCityChatActionPlayNode : public ::MoleMole::GalGame::MainCityChatPlayableNodeBase
 	{

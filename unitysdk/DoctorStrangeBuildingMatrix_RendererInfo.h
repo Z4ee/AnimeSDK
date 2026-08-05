@@ -4,7 +4,7 @@
 
 namespace UnityEngine { class Renderer; }
 
-inline static constexpr unsigned int DoctorStrangeBuildingMatrix_RendererInfo_TypeDefinitionIndex = 55341;
+inline static constexpr unsigned int DoctorStrangeBuildingMatrix_RendererInfo_TypeDefinitionIndex = 66799;
 
 struct alignas(8) DoctorStrangeBuildingMatrix_RendererInfo
 {

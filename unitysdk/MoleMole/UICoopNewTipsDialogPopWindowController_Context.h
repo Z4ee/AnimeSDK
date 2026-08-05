@@ -5,12 +5,12 @@
 namespace MoleMole { class UICoopLevelUnlockRowWidgetController_Context; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UICOOPNEWTIPSDIALOGPOPWINDOWCONTROLLER_CONTEXT_ADDUNLOCKROWWITHMERGE_OFFSET UNITYSDK_OFFSET(0x175C4D70)
-#define MOLEMOLE_UICOOPNEWTIPSDIALOGPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x175C4F70)
+#define MOLEMOLE_UICOOPNEWTIPSDIALOGPOPWINDOWCONTROLLER_CONTEXT_ADDUNLOCKROWWITHMERGE_OFFSET UNITYSDK_OFFSET(0x19377980)
+#define MOLEMOLE_UICOOPNEWTIPSDIALOGPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x19377B80)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICoopNewTipsDialogPopWindowController_Context_TypeDefinitionIndex = 50295;
+	inline static constexpr unsigned int UICoopNewTipsDialogPopWindowController_Context_TypeDefinitionIndex = 51758;
 
 	class UICoopNewTipsDialogPopWindowController_Context : public ::MoleMole::UIControllerContextBase
 	{

@@ -7,18 +7,18 @@ namespace BehaviorDesigner::Runtime::Tasks { class GameObjectGetter; }
 namespace BehaviorDesigner::Runtime::Tasks { class SubTreeBehaviorReference; }
 namespace UnityEngine { class GameObject; }
 
-#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORSUBTREELOADDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7E4020)
+#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_BEHAVIORSUBTREELOADDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC8A120)
 
 namespace BehaviorDesigner::Runtime
 {
-	inline static constexpr unsigned int BehaviorManager_BehaviorSubTreeLoadData_TypeDefinitionIndex = 33222;
+	inline static constexpr unsigned int BehaviorManager_BehaviorSubTreeLoadData_TypeDefinitionIndex = 33858;
 
 	class BehaviorManager_BehaviorSubTreeLoadData : public ::System::Object
 	{
 	public:
 		::BehaviorDesigner::Runtime::Tasks::SubTreeBehaviorReference* subTreeLinkNode; // 0x10
-		::BehaviorDesigner::Runtime::Behavior* parentBehavior; // 0x18
-		::BehaviorDesigner::Runtime::Tasks::GameObjectGetter* parentBehaviorGameObjectGetter; // 0x20
+		::BehaviorDesigner::Runtime::Tasks::GameObjectGetter* parentBehaviorGameObjectGetter; // 0x18
+		::BehaviorDesigner::Runtime::Behavior* parentBehavior; // 0x20
 		::UnityEngine::GameObject* parentBehaviorGameObject; // 0x28
 
 		::System::Void _ctor()

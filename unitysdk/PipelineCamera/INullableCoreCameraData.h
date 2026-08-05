@@ -6,7 +6,7 @@
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int INullableCoreCameraData_TypeDefinitionIndex = 37565;
+	inline static constexpr unsigned int INullableCoreCameraData_TypeDefinitionIndex = 38226;
 
 	class INullableCoreCameraData
 	{

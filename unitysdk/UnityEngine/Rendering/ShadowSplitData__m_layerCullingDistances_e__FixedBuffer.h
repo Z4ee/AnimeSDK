@@ -4,7 +4,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int ShadowSplitData__m_layerCullingDistances_e__FixedBuffer_TypeDefinitionIndex = 6261;
+	inline static constexpr unsigned int ShadowSplitData__m_layerCullingDistances_e__FixedBuffer_TypeDefinitionIndex = 6265;
 
 	struct alignas(4) ShadowSplitData__m_layerCullingDistances_e__FixedBuffer
 	{

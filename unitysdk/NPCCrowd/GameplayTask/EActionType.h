@@ -3,7 +3,7 @@
 
 namespace NPCCrowd::GameplayTask
 {
-	inline static constexpr unsigned int EActionType_TypeDefinitionIndex = 67507;
+	inline static constexpr unsigned int EActionType_TypeDefinitionIndex = 76805;
 
 	enum class EActionType : ::System::Int32
 	{

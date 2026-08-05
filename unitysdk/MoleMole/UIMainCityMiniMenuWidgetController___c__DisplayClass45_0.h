@@ -5,12 +5,12 @@
 namespace MoleMole { class UIMainCityMiniMenuWidgetController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIMAINCITYMINIMENUWIDGETCONTROLLER___C__DISPLAYCLASS45_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1527F8E0)
-#define MOLEMOLE_UIMAINCITYMINIMENUWIDGETCONTROLLER___C__DISPLAYCLASS45_0__SETFOLDERSTATE_B__0_OFFSET UNITYSDK_OFFSET(0x1527F8F0)
+#define MOLEMOLE_UIMAINCITYMINIMENUWIDGETCONTROLLER___C__DISPLAYCLASS45_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1651B9F0)
+#define MOLEMOLE_UIMAINCITYMINIMENUWIDGETCONTROLLER___C__DISPLAYCLASS45_0__SETFOLDERSTATE_B__0_OFFSET UNITYSDK_OFFSET(0x1651BA00)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMainCityMiniMenuWidgetController___c__DisplayClass45_0_TypeDefinitionIndex = 87200;
+	inline static constexpr unsigned int UIMainCityMiniMenuWidgetController___c__DisplayClass45_0_TypeDefinitionIndex = 51081;
 
 	class UIMainCityMiniMenuWidgetController___c__DisplayClass45_0 : public ::System::Object
 	{

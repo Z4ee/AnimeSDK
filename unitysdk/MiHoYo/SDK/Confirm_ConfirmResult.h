@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int Confirm_ConfirmResult_TypeDefinitionIndex = 19996;
+	inline static constexpr unsigned int Confirm_ConfirmResult_TypeDefinitionIndex = 20344;
 
 	enum class Confirm_ConfirmResult : ::System::Int32
 	{

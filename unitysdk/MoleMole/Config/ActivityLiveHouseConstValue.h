@@ -6,11 +6,11 @@
 namespace MoleMole { class ActivityLivehouseRhythmBeatmapConfig; }
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_ACTIVITYLIVEHOUSECONSTVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x12701B40)
+#define MOLEMOLE_CONFIG_ACTIVITYLIVEHOUSECONSTVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x134E8690)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ActivityLiveHouseConstValue_TypeDefinitionIndex = 80771;
+	inline static constexpr unsigned int ActivityLiveHouseConstValue_TypeDefinitionIndex = 89610;
 
 	class ActivityLiveHouseConstValue : public ::System::Object
 	{

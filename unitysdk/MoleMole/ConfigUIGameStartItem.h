@@ -4,11 +4,11 @@
 
 namespace MoleMole { class ConfigUICommon_GameStart; }
 
-#define MOLEMOLE_CONFIGUIGAMESTARTITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xE986240)
+#define MOLEMOLE_CONFIGUIGAMESTARTITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x19AD9F90)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUIGameStartItem_TypeDefinitionIndex = 81015;
+	inline static constexpr unsigned int ConfigUIGameStartItem_TypeDefinitionIndex = 42369;
 
 	class ConfigUIGameStartItem : public ::MoleMole::ConfigLazyLoadItem_1<::MoleMole::ConfigUICommon_GameStart*>
 	{

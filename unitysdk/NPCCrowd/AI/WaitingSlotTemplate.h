@@ -5,11 +5,11 @@
 namespace NPCCrowd::AI { class WaitingSlot; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCCROWD_AI_WAITINGSLOTTEMPLATE__CTOR_OFFSET UNITYSDK_OFFSET(0xF99CD00)
+#define NPCCROWD_AI_WAITINGSLOTTEMPLATE__CTOR_OFFSET UNITYSDK_OFFSET(0xF0CAC50)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int WaitingSlotTemplate_TypeDefinitionIndex = 43297;
+	inline static constexpr unsigned int WaitingSlotTemplate_TypeDefinitionIndex = 73250;
 
 	class WaitingSlotTemplate : public ::System::Object
 	{

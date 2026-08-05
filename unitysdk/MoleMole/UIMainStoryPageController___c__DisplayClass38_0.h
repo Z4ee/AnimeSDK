@@ -5,18 +5,18 @@
 namespace MoleMole { class UIMainStoryPageController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIMAINSTORYPAGECONTROLLER___C__DISPLAYCLASS38_0__CTOR_OFFSET UNITYSDK_OFFSET(0x178AF1A0)
-#define MOLEMOLE_UIMAINSTORYPAGECONTROLLER___C__DISPLAYCLASS38_0__HIDETAPEDECKINFO_G__HIDEDECKINFO_0_OFFSET UNITYSDK_OFFSET(0x178AF1B0)
+#define MOLEMOLE_UIMAINSTORYPAGECONTROLLER___C__DISPLAYCLASS38_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18331B50)
+#define MOLEMOLE_UIMAINSTORYPAGECONTROLLER___C__DISPLAYCLASS38_0__HIDETAPEDECKINFO_G__HIDEDECKINFO_0_OFFSET UNITYSDK_OFFSET(0x18331B60)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMainStoryPageController___c__DisplayClass38_0_TypeDefinitionIndex = 76828;
+	inline static constexpr unsigned int UIMainStoryPageController___c__DisplayClass38_0_TypeDefinitionIndex = 84549;
 
 	class UIMainStoryPageController___c__DisplayClass38_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIMainStoryPageController* __4__this; // 0x10
-		::System::Action* callback; // 0x18
+		::System::Action* callback; // 0x10
+		::MoleMole::UIMainStoryPageController* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

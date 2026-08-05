@@ -7,19 +7,19 @@ namespace Foundation { class MultiVersionInfo; }
 namespace Foundation { class MultiVersionInfo_CheckAssetPathDelegate; }
 namespace System { class String; }
 
-#define FOUNDATION_MULTIVERSIONDIFFCONFIG___C__DISPLAYCLASS2_0__CONTAINS_B__0_OFFSET UNITYSDK_OFFSET(0x1DCC2FF0)
-#define FOUNDATION_MULTIVERSIONDIFFCONFIG___C__DISPLAYCLASS2_0__CONTAINS_B__1_OFFSET UNITYSDK_OFFSET(0x1DCC3070)
-#define FOUNDATION_MULTIVERSIONDIFFCONFIG___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1DCC2FE0)
+#define FOUNDATION_MULTIVERSIONDIFFCONFIG___C__DISPLAYCLASS2_0__CONTAINS_B__0_OFFSET UNITYSDK_OFFSET(0x1EF48E30)
+#define FOUNDATION_MULTIVERSIONDIFFCONFIG___C__DISPLAYCLASS2_0__CONTAINS_B__1_OFFSET UNITYSDK_OFFSET(0x1EF48EB0)
+#define FOUNDATION_MULTIVERSIONDIFFCONFIG___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF48E20)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int MultiVersionDiffConfig___c__DisplayClass2_0_TypeDefinitionIndex = 7740;
+	inline static constexpr unsigned int MultiVersionDiffConfig___c__DisplayClass2_0_TypeDefinitionIndex = 7943;
 
 	class MultiVersionDiffConfig___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:
-		::System::String* path; // 0x10
-		::Foundation::MultiVersionInfo_CheckAssetPathDelegate* __9__1; // 0x18
+		::Foundation::MultiVersionInfo_CheckAssetPathDelegate* __9__1; // 0x10
+		::System::String* path; // 0x18
 
 		::System::Void _ctor()
 		{

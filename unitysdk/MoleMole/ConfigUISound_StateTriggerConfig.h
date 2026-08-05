@@ -8,11 +8,11 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIGUISOUND_STATETRIGGERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x158D5F30)
+#define MOLEMOLE_CONFIGUISOUND_STATETRIGGERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A94EA40)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUISound_StateTriggerConfig_TypeDefinitionIndex = 41779;
+	inline static constexpr unsigned int ConfigUISound_StateTriggerConfig_TypeDefinitionIndex = 90157;
 
 	class ConfigUISound_StateTriggerConfig : public ::System::Object
 	{

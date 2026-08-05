@@ -4,18 +4,18 @@
 
 namespace MoleMole::Config { class AnimatorEvent; }
 
-#define MOLEMOLE_CONFIG_ANIMATOREVENTBANGBOOQTEENDENTRY_CREATEANIMATIONEVENT_OFFSET UNITYSDK_OFFSET(0x1927F460)
-#define MOLEMOLE_CONFIG_ANIMATOREVENTBANGBOOQTEENDENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1927F4E0)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTBANGBOOQTEENDENTRY_CREATEANIMATIONEVENT_OFFSET UNITYSDK_OFFSET(0x1484A9F0)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTBANGBOOQTEENDENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1484AA70)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AnimatorEventBangbooQTEEndEntry_TypeDefinitionIndex = 65444;
+	inline static constexpr unsigned int AnimatorEventBangbooQTEEndEntry_TypeDefinitionIndex = 76060;
 
 	class AnimatorEventBangbooQTEEndEntry : public ::MoleMole::Config::AnimatorEventEntry
 	{
 	public:
-		::System::Int32 overrideSwitchInIndex; // 0x58
-		::System::Boolean isAssaultAid; // 0x5C
+		::System::Boolean isAssaultAid; // 0x58
+		::System::Int32 overrideSwitchInIndex; // 0x5C
 
 		::System::Void _ctor()
 		{

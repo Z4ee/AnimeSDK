@@ -3,7 +3,7 @@
 
 namespace Newtonsoft::Json::Serialization
 {
-	inline static constexpr unsigned int JsonSerializerInternalReader_PropertyPresence_TypeDefinitionIndex = 7138;
+	inline static constexpr unsigned int JsonSerializerInternalReader_PropertyPresence_TypeDefinitionIndex = 7142;
 
 	enum class JsonSerializerInternalReader_PropertyPresence : ::System::Int32
 	{

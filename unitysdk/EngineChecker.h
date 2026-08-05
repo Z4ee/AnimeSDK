@@ -3,20 +3,20 @@
 #include "unitysdk/EngineChecker_CheckLevel.h"
 #include "unitysdk/System/Object.h"
 
-#define ENGINECHECKER_GET_BASEOBJECTCHECKLEVEL_OFFSET UNITYSDK_OFFSET(0x133972F0)
-#define ENGINECHECKER_INITENGINECHECKFLAGS_OFFSET UNITYSDK_OFFSET(0x13397390)
-#define ENGINECHECKER_SET_BASEOBJECTCHECKLEVEL_OFFSET UNITYSDK_OFFSET(0x13397300)
-#define ENGINECHECKER__CCTOR_OFFSET UNITYSDK_OFFSET(0x13397460)
-#define ENGINECHECKER__CTOR_OFFSET UNITYSDK_OFFSET(0x13397450)
+#define ENGINECHECKER_GET_BASEOBJECTCHECKLEVEL_OFFSET UNITYSDK_OFFSET(0x14A84040)
+#define ENGINECHECKER_INITENGINECHECKFLAGS_OFFSET UNITYSDK_OFFSET(0x14A840E0)
+#define ENGINECHECKER_SET_BASEOBJECTCHECKLEVEL_OFFSET UNITYSDK_OFFSET(0x14A84050)
+#define ENGINECHECKER__CCTOR_OFFSET UNITYSDK_OFFSET(0x14A841B0)
+#define ENGINECHECKER__CTOR_OFFSET UNITYSDK_OFFSET(0x14A841A0)
 
-inline static constexpr unsigned int EngineChecker_TypeDefinitionIndex = 50061;
+inline static constexpr unsigned int EngineChecker_TypeDefinitionIndex = 81997;
 
 class EngineChecker : public ::System::Object
 {
 public:
 	static ::EngineChecker_CheckLevel* StaticGet_s_LastSetLevel()
 	{
-		return (::EngineChecker_CheckLevel*)Il2CppClass::FromTypeDefinitionIndex(EngineChecker_TypeDefinitionIndex)->GetStaticField(0x11DC0);
+		return (::EngineChecker_CheckLevel*)Il2CppClass::FromTypeDefinitionIndex(EngineChecker_TypeDefinitionIndex)->GetStaticField(0x10F60);
 	}
 
 	::System::Void _ctor()

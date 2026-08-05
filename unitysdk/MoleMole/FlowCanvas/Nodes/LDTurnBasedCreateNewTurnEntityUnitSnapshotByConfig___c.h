@@ -2,28 +2,28 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_3_9F091E965E210217_4;
+class Class_3_9F091E965E210217_26;
 namespace MoleMole::FlowCanvas::Nodes { class MonsterFantasySkillInfo; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDTURNBASEDCREATENEWTURNENTITYUNITSNAPSHOTBYCONFIG___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1710F7D0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDTURNBASEDCREATENEWTURNENTITYUNITSNAPSHOTBYCONFIG___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1710F810)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDTURNBASEDCREATENEWTURNENTITYUNITSNAPSHOTBYCONFIG___C__INVOKE_B__0_0_OFFSET UNITYSDK_OFFSET(0x1710F820)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDTURNBASEDCREATENEWTURNENTITYUNITSNAPSHOTBYCONFIG___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x107D4690)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDTURNBASEDCREATENEWTURNENTITYUNITSNAPSHOTBYCONFIG___C__CTOR_OFFSET UNITYSDK_OFFSET(0x107D46D0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDTURNBASEDCREATENEWTURNENTITYUNITSNAPSHOTBYCONFIG___C__INVOKE_B__0_0_OFFSET UNITYSDK_OFFSET(0x107D46E0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDTurnBasedCreateNewTurnEntityUnitSnapshotByConfig___c_TypeDefinitionIndex = 48793;
+	inline static constexpr unsigned int LDTurnBasedCreateNewTurnEntityUnitSnapshotByConfig___c_TypeDefinitionIndex = 62133;
 
 	class LDTurnBasedCreateNewTurnEntityUnitSnapshotByConfig___c : public ::System::Object
 	{
 	public:
 		static ::MoleMole::FlowCanvas::Nodes::LDTurnBasedCreateNewTurnEntityUnitSnapshotByConfig___c** StaticGet___9()
 		{
-			return (::MoleMole::FlowCanvas::Nodes::LDTurnBasedCreateNewTurnEntityUnitSnapshotByConfig___c**)Il2CppClass::FromTypeDefinitionIndex(LDTurnBasedCreateNewTurnEntityUnitSnapshotByConfig___c_TypeDefinitionIndex)->GetStaticField(0x40F20);
+			return (::MoleMole::FlowCanvas::Nodes::LDTurnBasedCreateNewTurnEntityUnitSnapshotByConfig___c**)Il2CppClass::FromTypeDefinitionIndex(LDTurnBasedCreateNewTurnEntityUnitSnapshotByConfig___c_TypeDefinitionIndex)->GetStaticField(0x42550);
 		}
-		static ::System::Func_2<::MoleMole::FlowCanvas::Nodes::MonsterFantasySkillInfo*, ::Class_3_9F091E965E210217_4*>** StaticGet___9__0_0()
+		static ::System::Func_2<::MoleMole::FlowCanvas::Nodes::MonsterFantasySkillInfo*, ::Class_3_9F091E965E210217_26*>** StaticGet___9__0_0()
 		{
-			return (::System::Func_2<::MoleMole::FlowCanvas::Nodes::MonsterFantasySkillInfo*, ::Class_3_9F091E965E210217_4*>**)Il2CppClass::FromTypeDefinitionIndex(LDTurnBasedCreateNewTurnEntityUnitSnapshotByConfig___c_TypeDefinitionIndex)->GetStaticField(0x40F28);
+			return (::System::Func_2<::MoleMole::FlowCanvas::Nodes::MonsterFantasySkillInfo*, ::Class_3_9F091E965E210217_26*>**)Il2CppClass::FromTypeDefinitionIndex(LDTurnBasedCreateNewTurnEntityUnitSnapshotByConfig___c_TypeDefinitionIndex)->GetStaticField(0x42558);
 		}
 
 		static ::System::Void _cctor()
@@ -36,9 +36,9 @@ namespace MoleMole::FlowCanvas::Nodes
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LDTURNBASEDCREATENEWTURNENTITYUNITSNAPSHOTBYCONFIG___C__CTOR_OFFSET))(this);
 		}
 
-		::Class_3_9F091E965E210217_4* _Invoke_b__0_0(::MoleMole::FlowCanvas::Nodes::MonsterFantasySkillInfo* v)
+		::Class_3_9F091E965E210217_26* _Invoke_b__0_0(::MoleMole::FlowCanvas::Nodes::MonsterFantasySkillInfo* v)
 		{
-			return ((::Class_3_9F091E965E210217_4*(*)(::PVOID, ::MoleMole::FlowCanvas::Nodes::MonsterFantasySkillInfo*))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LDTURNBASEDCREATENEWTURNENTITYUNITSNAPSHOTBYCONFIG___C__INVOKE_B__0_0_OFFSET))(this, v);
+			return ((::Class_3_9F091E965E210217_26*(*)(::PVOID, ::MoleMole::FlowCanvas::Nodes::MonsterFantasySkillInfo*))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LDTURNBASEDCREATENEWTURNENTITYUNITSNAPSHOTBYCONFIG___C__INVOKE_B__0_0_OFFSET))(this, v);
 		}
 	};
 }

@@ -5,12 +5,12 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define BEHAVIORDESIGNER_RUNTIME_SHAREDTRANSFORMLIST_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1E4FB230)
-#define BEHAVIORDESIGNER_RUNTIME_SHAREDTRANSFORMLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1E4FB2F0)
+#define BEHAVIORDESIGNER_RUNTIME_SHAREDTRANSFORMLIST_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1F8F5FD0)
+#define BEHAVIORDESIGNER_RUNTIME_SHAREDTRANSFORMLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1F8F6090)
 
 namespace BehaviorDesigner::Runtime
 {
-	inline static constexpr unsigned int SharedTransformList_TypeDefinitionIndex = 33295;
+	inline static constexpr unsigned int SharedTransformList_TypeDefinitionIndex = 33931;
 
 	class SharedTransformList : public ::BehaviorDesigner::Runtime::SharedVariable_1<::System::Collections::Generic::List_1<::UnityEngine::Transform*>*>
 	{

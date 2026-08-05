@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_1CD8BF1A5728E705__CTOR_OFFSET UNITYSDK_OFFSET(0x144366A0)
+#define CLASS_1_1CD8BF1A5728E705__CTOR_OFFSET UNITYSDK_OFFSET(0x13C33CA0)
 
-inline static constexpr unsigned int Class_1_1CD8BF1A5728E705_TypeDefinitionIndex = 83386;
+inline static constexpr unsigned int Class_1_1CD8BF1A5728E705_TypeDefinitionIndex = 50493;
 
 class Class_1_1CD8BF1A5728E705 : public ::System::Object
 {
 public:
-	::Il2CppArray<::System::Int32>* Field_1_4; // 0x10
-	::System::Int32 Field_1_0; // 0x18
-	::System::Byte Field_1_2; // 0x1C
-	::System::Byte Field_1_3; // 0x1D
-	::System::Byte Field_1_1; // 0x1E
+	::Il2CppArray<::System::Int32>* Field_1_6; // 0x10
+	::System::Byte Field_1_1; // 0x18
+	::System::Byte Field_1_7; // 0x19
+	::System::Byte Field_1_0; // 0x1A
+	::System::Int32 Field_1_2; // 0x1C
 
 	::System::Void _ctor()
 	{

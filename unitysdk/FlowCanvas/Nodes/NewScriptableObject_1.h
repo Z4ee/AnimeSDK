@@ -4,7 +4,7 @@
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int NewScriptableObject_1_TypeDefinitionIndex = 30588;
+	inline static constexpr unsigned int NewScriptableObject_1_TypeDefinitionIndex = 29728;
 
 	template <typename T>
 	class NewScriptableObject_1 : public ::FlowCanvas::Nodes::CallableFunctionNode_1<T>

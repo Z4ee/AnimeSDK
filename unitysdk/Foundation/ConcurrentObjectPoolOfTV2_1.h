@@ -6,7 +6,7 @@ namespace System::Collections::Concurrent { template <typename T> class Concurre
 
 namespace Foundation
 {
-	inline static constexpr unsigned int ConcurrentObjectPoolOfTV2_1_TypeDefinitionIndex = 7847;
+	inline static constexpr unsigned int ConcurrentObjectPoolOfTV2_1_TypeDefinitionIndex = 8353;
 
 	template <typename T>
 	class ConcurrentObjectPoolOfTV2_1 : public ::System::Object

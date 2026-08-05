@@ -10,25 +10,25 @@ namespace MoleMole { class UIBaseChatPlayController; }
 namespace MoleMole { class UIMainCityChatPlayContext; }
 namespace System { class String; }
 
-#define MOLEMOLE_GALGAME_MAINCITYCHATPLAYMONTAGENODE_GET_SHOWGROUPMEMBERID_OFFSET UNITYSDK_OFFSET(0x15824B90)
-#define MOLEMOLE_GALGAME_MAINCITYCHATPLAYMONTAGENODE_GET_SHOWTAGID_OFFSET UNITYSDK_OFFSET(0x15824B80)
-#define MOLEMOLE_GALGAME_MAINCITYCHATPLAYMONTAGENODE_INSTANTIATE_OFFSET UNITYSDK_OFFSET(0x15824BA0)
-#define MOLEMOLE_GALGAME_MAINCITYCHATPLAYMONTAGENODE__CTOR_OFFSET UNITYSDK_OFFSET(0x15824B60)
+#define MOLEMOLE_GALGAME_MAINCITYCHATPLAYMONTAGENODE_GET_SHOWGROUPMEMBERID_OFFSET UNITYSDK_OFFSET(0x129A5880)
+#define MOLEMOLE_GALGAME_MAINCITYCHATPLAYMONTAGENODE_GET_SHOWTAGID_OFFSET UNITYSDK_OFFSET(0x129A5870)
+#define MOLEMOLE_GALGAME_MAINCITYCHATPLAYMONTAGENODE_INSTANTIATE_OFFSET UNITYSDK_OFFSET(0x129A5890)
+#define MOLEMOLE_GALGAME_MAINCITYCHATPLAYMONTAGENODE__CTOR_OFFSET UNITYSDK_OFFSET(0x129A5850)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int MainCityChatPlayMontageNode_TypeDefinitionIndex = 52672;
+	inline static constexpr unsigned int MainCityChatPlayMontageNode_TypeDefinitionIndex = 55288;
 
 	class MainCityChatPlayMontageNode : public ::MoleMole::GalGame::MainCityChatPlayableNodeBase
 	{
 	public:
 		::System::String* GroupMemberID; // 0x18
-		::System::Boolean MontageIDUseAnimationID; // 0x20
-		::Enum_3_D90D63B32AE2841C EntitySourceType; // 0x24
-		::NPCCrowd::Ability::EMontagePriorityLayer PriorityLayer; // 0x28
-		::NPCCrowd::Ability::EMontageEndBehavior EndBehavior; // 0x2C
-		::System::Int32 TagID; // 0x30
-		::System::Int32 MontageID; // 0x34
+		::NPCCrowd::Ability::EMontagePriorityLayer PriorityLayer; // 0x20
+		::NPCCrowd::Ability::EMontageEndBehavior EndBehavior; // 0x24
+		::System::Int32 MontageID; // 0x28
+		::Enum_3_D90D63B32AE2841C EntitySourceType; // 0x2C
+		::System::Boolean MontageIDUseAnimationID; // 0x30
+		::System::Int32 TagID; // 0x34
 
 		::System::Void _ctor()
 		{

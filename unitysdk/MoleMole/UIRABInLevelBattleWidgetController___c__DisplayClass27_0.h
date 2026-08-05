@@ -5,12 +5,12 @@
 namespace MoleMole { class UIRABHudWidgetController; }
 namespace UnityEngine { class Camera; }
 
-#define MOLEMOLE_UIRABINLEVELBATTLEWIDGETCONTROLLER___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15325A40)
-#define MOLEMOLE_UIRABINLEVELBATTLEWIDGETCONTROLLER___C__DISPLAYCLASS27_0__UPDATEHUDRENDERORDER_B__0_OFFSET UNITYSDK_OFFSET(0x15325A50)
+#define MOLEMOLE_UIRABINLEVELBATTLEWIDGETCONTROLLER___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16903FA0)
+#define MOLEMOLE_UIRABINLEVELBATTLEWIDGETCONTROLLER___C__DISPLAYCLASS27_0__UPDATEHUDRENDERORDER_B__0_OFFSET UNITYSDK_OFFSET(0x16903FB0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRABInLevelBattleWidgetController___c__DisplayClass27_0_TypeDefinitionIndex = 85611;
+	inline static constexpr unsigned int UIRABInLevelBattleWidgetController___c__DisplayClass27_0_TypeDefinitionIndex = 83791;
 
 	class UIRABInLevelBattleWidgetController___c__DisplayClass27_0 : public ::System::Object
 	{

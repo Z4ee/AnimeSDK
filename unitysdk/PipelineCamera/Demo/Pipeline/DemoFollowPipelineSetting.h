@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define PIPELINECAMERA_DEMO_PIPELINE_DEMOFOLLOWPIPELINESETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x1DAC9D80)
+#define PIPELINECAMERA_DEMO_PIPELINE_DEMOFOLLOWPIPELINESETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x1EED2C90)
 
 namespace PipelineCamera::Demo::Pipeline
 {
-	inline static constexpr unsigned int DemoFollowPipelineSetting_TypeDefinitionIndex = 37768;
+	inline static constexpr unsigned int DemoFollowPipelineSetting_TypeDefinitionIndex = 38429;
 
 	class DemoFollowPipelineSetting : public ::System::Object
 	{

@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_54486B88E1863A04.h"
+#include "unitysdk/Enum_3_7FA27888FA17A22A.h"
 #include "unitysdk/MoleMole/GraphicEnumSettingEntryBase.h"
 #include "unitysdk/MoleMole/GraphicSettingProfileType.h"
 
-#define MOLEMOLE_ANTIALIASSETTINGENTRY_GET_PROFILETYPE_OFFSET UNITYSDK_OFFSET(0x126E10E0)
-#define MOLEMOLE_ANTIALIASSETTINGENTRY_GET_SETTINGCONTENTTYPE_OFFSET UNITYSDK_OFFSET(0x126E10D0)
-#define MOLEMOLE_ANTIALIASSETTINGENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x126E10F0)
+#define MOLEMOLE_ANTIALIASSETTINGENTRY_GET_PROFILETYPE_OFFSET UNITYSDK_OFFSET(0x134C6610)
+#define MOLEMOLE_ANTIALIASSETTINGENTRY_GET_SETTINGCONTENTTYPE_OFFSET UNITYSDK_OFFSET(0x134C6600)
+#define MOLEMOLE_ANTIALIASSETTINGENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x134C6620)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int AntiAliasSettingEntry_TypeDefinitionIndex = 82792;
+	inline static constexpr unsigned int AntiAliasSettingEntry_TypeDefinitionIndex = 55739;
 
 	class AntiAliasSettingEntry : public ::MoleMole::GraphicEnumSettingEntryBase
 	{
@@ -20,9 +20,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_ANTIALIASSETTINGENTRY__CTOR_OFFSET))(this);
 		}
 
-		::Enum_3_54486B88E1863A04 get_SettingContentType()
+		::Enum_3_7FA27888FA17A22A get_SettingContentType()
 		{
-			return ((::Enum_3_54486B88E1863A04(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_ANTIALIASSETTINGENTRY_GET_SETTINGCONTENTTYPE_OFFSET))(this);
+			return ((::Enum_3_7FA27888FA17A22A(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_ANTIALIASSETTINGENTRY_GET_SETTINGCONTENTTYPE_OFFSET))(this);
 		}
 
 		::MoleMole::GraphicSettingProfileType get_ProfileType()

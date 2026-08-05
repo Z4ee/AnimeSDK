@@ -7,27 +7,27 @@ class Class_3_F97B015544BE936B;
 namespace System { template <typename T> class Action_1; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define CLASS_3_E20366D1301D6555___C_METHOD_1_5FFF477DE12718CC_OFFSET UNITYSDK_OFFSET(0x11AB1580)
-#define CLASS_3_E20366D1301D6555___C_METHOD_1_BA3FC1059BEC36A5_OFFSET UNITYSDK_OFFSET(0x11AB1550)
-#define CLASS_3_E20366D1301D6555___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x11AB1500)
-#define CLASS_3_E20366D1301D6555___C__CTOR_OFFSET UNITYSDK_OFFSET(0x11AB1540)
+#define CLASS_3_E20366D1301D6555___C_METHOD_1_5FFF477DE12718CC_OFFSET UNITYSDK_OFFSET(0x12FA43D0)
+#define CLASS_3_E20366D1301D6555___C_METHOD_1_BA3FC1059BEC36A5_OFFSET UNITYSDK_OFFSET(0x12FA43A0)
+#define CLASS_3_E20366D1301D6555___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x12FA4350)
+#define CLASS_3_E20366D1301D6555___C__CTOR_OFFSET UNITYSDK_OFFSET(0x12FA4390)
 
-inline static constexpr unsigned int Class_3_E20366D1301D6555___c_TypeDefinitionIndex = 56749;
+inline static constexpr unsigned int Class_3_E20366D1301D6555___c_TypeDefinitionIndex = 83802;
 
 class Class_3_E20366D1301D6555___c : public ::System::Object
 {
 public:
-	static ::Class_3_E20366D1301D6555___c** StaticGet___9()
-	{
-		return (::Class_3_E20366D1301D6555___c**)Il2CppClass::FromTypeDefinitionIndex(Class_3_E20366D1301D6555___c_TypeDefinitionIndex)->GetStaticField(0x325E0);
-	}
 	static ::System::Action_1<::Class_3_F97B015544BE936B*>** StaticGet___9__21_0()
 	{
-		return (::System::Action_1<::Class_3_F97B015544BE936B*>**)Il2CppClass::FromTypeDefinitionIndex(Class_3_E20366D1301D6555___c_TypeDefinitionIndex)->GetStaticField(0x325E8);
+		return (::System::Action_1<::Class_3_F97B015544BE936B*>**)Il2CppClass::FromTypeDefinitionIndex(Class_3_E20366D1301D6555___c_TypeDefinitionIndex)->GetStaticField(0x353E0);
 	}
-	static ::System::Comparison_1<::Class_3_F97B015544BE936B_Struct_2_9547F87A6A8A7BE8>** StaticGet___9__44_0()
+	static ::Class_3_E20366D1301D6555___c** StaticGet___9()
 	{
-		return (::System::Comparison_1<::Class_3_F97B015544BE936B_Struct_2_9547F87A6A8A7BE8>**)Il2CppClass::FromTypeDefinitionIndex(Class_3_E20366D1301D6555___c_TypeDefinitionIndex)->GetStaticField(0x325F0);
+		return (::Class_3_E20366D1301D6555___c**)Il2CppClass::FromTypeDefinitionIndex(Class_3_E20366D1301D6555___c_TypeDefinitionIndex)->GetStaticField(0x353E8);
+	}
+	static ::System::Comparison_1<::Class_3_F97B015544BE936B_Struct_2_9547F87A6A8A7BE8>** StaticGet___9__48_0()
+	{
+		return (::System::Comparison_1<::Class_3_F97B015544BE936B_Struct_2_9547F87A6A8A7BE8>**)Il2CppClass::FromTypeDefinitionIndex(Class_3_E20366D1301D6555___c_TypeDefinitionIndex)->GetStaticField(0x353F0);
 	}
 
 	static ::System::Void _cctor()

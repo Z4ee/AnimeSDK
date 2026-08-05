@@ -7,12 +7,12 @@
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define CRIWARE_CRITIMELINE_ATOM_CRIATOMTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x1E7C7BF0)
-#define CRIWARE_CRITIMELINE_ATOM_CRIATOMTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7C83B0)
+#define CRIWARE_CRITIMELINE_ATOM_CRIATOMTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x1FB94570)
+#define CRIWARE_CRITIMELINE_ATOM_CRIATOMTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB94AC0)
 
 namespace CriWare::CriTimeline::Atom
 {
-	inline static constexpr unsigned int CriAtomTrack_TypeDefinitionIndex = 34394;
+	inline static constexpr unsigned int CriAtomTrack_TypeDefinitionIndex = 35046;
 
 	class CriAtomTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
@@ -20,6 +20,8 @@ namespace CriWare::CriTimeline::Atom
 		::System::String* m_AisacControls; // 0xB0
 		::System::Boolean m_StopOnWrapping; // 0xB8
 		::System::Boolean m_StopAtGraphEnd; // 0xB9
+		::System::Boolean m_ApplyPlayableSpeed; // 0xBA
+		::System::Boolean m_CheckPosWithinClip; // 0xBB
 
 		::System::Void _ctor()
 		{

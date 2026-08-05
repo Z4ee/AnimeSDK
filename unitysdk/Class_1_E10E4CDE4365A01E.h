@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Enum_3_E894E54C3D94F028.h"
-#include "unitysdk/Struct_2_1862835F8661A21F_276.h"
+#include "unitysdk/Struct_2_1862835F8661A21F_1133.h"
 #include "unitysdk/System/Object.h"
 
 namespace MoleMole::Project::Config { class BangbooDefenseDataTemplateExt; }
@@ -9,29 +9,29 @@ namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define CLASS_1_E10E4CDE4365A01E_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1BE9F560)
-#define CLASS_1_E10E4CDE4365A01E_METHOD_1_0CC4BC19C602BCD0_OFFSET UNITYSDK_OFFSET(0x1BE9EE80)
-#define CLASS_1_E10E4CDE4365A01E_METHOD_1_3DACC45AC8150727_OFFSET UNITYSDK_OFFSET(0x1BE9F220)
-#define CLASS_1_E10E4CDE4365A01E_METHOD_1_43D99DDD80B1E30C_OFFSET UNITYSDK_OFFSET(0x1BE9F140)
-#define CLASS_1_E10E4CDE4365A01E_METHOD_1_7DB49B5407C8FD68_OFFSET UNITYSDK_OFFSET(0x1BE9F3C0)
-#define CLASS_1_E10E4CDE4365A01E_METHOD_1_875F4CB94A6D665B_OFFSET UNITYSDK_OFFSET(0x1BE9F6E0)
-#define CLASS_1_E10E4CDE4365A01E_METHOD_1_B09E78EE7EE4F8FA_OFFSET UNITYSDK_OFFSET(0x1BE9F480)
-#define CLASS_1_E10E4CDE4365A01E_METHOD_1_C64F3CA8A6C36FAC_OFFSET UNITYSDK_OFFSET(0x1BE9F230)
-#define CLASS_1_E10E4CDE4365A01E_METHOD_1_CE34EA208837238D_OFFSET UNITYSDK_OFFSET(0x1BE9EE60)
-#define CLASS_1_E10E4CDE4365A01E_METHOD_1_F730968E2645E14B_OFFSET UNITYSDK_OFFSET(0x1BE9F940)
-#define CLASS_1_E10E4CDE4365A01E__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE9F690)
+#define CLASS_1_E10E4CDE4365A01E_FINALIZE_OFFSET UNITYSDK_OFFSET(0x17C79F20)
+#define CLASS_1_E10E4CDE4365A01E_METHOD_1_0CC4BC19C602BCD0_OFFSET UNITYSDK_OFFSET(0x17C79820)
+#define CLASS_1_E10E4CDE4365A01E_METHOD_1_3DACC45AC8150727_OFFSET UNITYSDK_OFFSET(0x17C79BD0)
+#define CLASS_1_E10E4CDE4365A01E_METHOD_1_43D99DDD80B1E30C_OFFSET UNITYSDK_OFFSET(0x17C79AE0)
+#define CLASS_1_E10E4CDE4365A01E_METHOD_1_7DB49B5407C8FD68_OFFSET UNITYSDK_OFFSET(0x17C79D80)
+#define CLASS_1_E10E4CDE4365A01E_METHOD_1_B09E78EE7EE4F8FA_OFFSET UNITYSDK_OFFSET(0x17C79E40)
+#define CLASS_1_E10E4CDE4365A01E_METHOD_1_C64F3CA8A6C36FAC_OFFSET UNITYSDK_OFFSET(0x17C79BE0)
+#define CLASS_1_E10E4CDE4365A01E_METHOD_1_CE34EA208837238D_OFFSET UNITYSDK_OFFSET(0x17C79800)
+#define CLASS_1_E10E4CDE4365A01E_METHOD_1_F730968E2645E14B_OFFSET UNITYSDK_OFFSET(0x17C7A0A0)
+#define CLASS_1_E10E4CDE4365A01E_METHOD_1_FC90649509923526_OFFSET UNITYSDK_OFFSET(0x17C7A0C0)
+#define CLASS_1_E10E4CDE4365A01E__CTOR_OFFSET UNITYSDK_OFFSET(0x17C7A050)
 
-inline static constexpr unsigned int Class_1_E10E4CDE4365A01E_TypeDefinitionIndex = 9757;
+inline static constexpr unsigned int Class_1_E10E4CDE4365A01E_TypeDefinitionIndex = 13685;
 
 class Class_1_E10E4CDE4365A01E : public ::System::Object
 {
 public:
-	::Struct_2_1862835F8661A21F_276 Field_1_0; // 0x10
-	::System::Collections::Generic::HashSet_1<::System::Int32>* Field_1_3; // 0x28
-	::Il2CppArray<::MoleMole::Project::Config::BangbooDefenseDataTemplateExt*>* Field_1_1; // 0x30
-	::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* Field_1_2; // 0x38
-	::System::Int32 Field_1_4; // 0x40
-	::System::Boolean Field_1_5; // 0x44
+	::Il2CppArray<::MoleMole::Project::Config::BangbooDefenseDataTemplateExt*>* Field_1_0; // 0x10
+	::Struct_2_1862835F8661A21F_1133 Field_1_1; // 0x18
+	::System::Collections::Generic::HashSet_1<::System::Int32>* Field_1_6; // 0x30
+	::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* Field_1_7; // 0x38
+	::System::Int32 Field_1_5; // 0x40
+	::System::Boolean Field_1_4; // 0x44
 
 	::System::Void _ctor()
 	{
@@ -73,18 +73,18 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_E10E4CDE4365A01E_FINALIZE_OFFSET))(this);
 	}
 
+	::System::Void Method_1_F730968E2645E14B()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_E10E4CDE4365A01E_METHOD_1_F730968E2645E14B_OFFSET))(this);
+	}
+
 	::System::Void Method_1_7DB49B5407C8FD68()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_E10E4CDE4365A01E_METHOD_1_7DB49B5407C8FD68_OFFSET))(this);
 	}
 
-	::MoleMole::Project::Config::BangbooDefenseDataTemplateExt* Method_1_875F4CB94A6D665B(::System::Int32 a1)
+	::MoleMole::Project::Config::BangbooDefenseDataTemplateExt* Method_1_FC90649509923526(::System::Int32 a1)
 	{
-		return ((::MoleMole::Project::Config::BangbooDefenseDataTemplateExt*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_E10E4CDE4365A01E_METHOD_1_875F4CB94A6D665B_OFFSET))(this, a1);
-	}
-
-	::System::Void Method_1_F730968E2645E14B()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_E10E4CDE4365A01E_METHOD_1_F730968E2645E14B_OFFSET))(this);
+		return ((::MoleMole::Project::Config::BangbooDefenseDataTemplateExt*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_E10E4CDE4365A01E_METHOD_1_FC90649509923526_OFFSET))(this, a1);
 	}
 };

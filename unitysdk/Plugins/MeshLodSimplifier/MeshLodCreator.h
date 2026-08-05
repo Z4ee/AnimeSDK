@@ -6,11 +6,11 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define PLUGINS_MESHLODSIMPLIFIER_MESHLODCREATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1E890B90)
+#define PLUGINS_MESHLODSIMPLIFIER_MESHLODCREATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1FC6FA20)
 
 namespace Plugins::MeshLodSimplifier
 {
-	inline static constexpr unsigned int MeshLodCreator_TypeDefinitionIndex = 90757;
+	inline static constexpr unsigned int MeshLodCreator_TypeDefinitionIndex = 94690;
 
 	class MeshLodCreator : public ::UnityEngine::MonoBehaviour
 	{

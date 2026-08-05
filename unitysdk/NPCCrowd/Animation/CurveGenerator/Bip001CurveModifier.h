@@ -4,7 +4,7 @@
 
 namespace NPCCrowd::Animation::CurveGenerator
 {
-	inline static constexpr unsigned int Bip001CurveModifier_TypeDefinitionIndex = 66916;
+	inline static constexpr unsigned int Bip001CurveModifier_TypeDefinitionIndex = 83452;
 
 	struct alignas(1) Bip001CurveModifier
 	{

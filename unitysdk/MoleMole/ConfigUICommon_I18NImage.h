@@ -6,11 +6,11 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIGUICOMMON_I18NIMAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x190D3E70)
+#define MOLEMOLE_CONFIGUICOMMON_I18NIMAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x19D6DD80)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUICommon_I18NImage_TypeDefinitionIndex = 78362;
+	inline static constexpr unsigned int ConfigUICommon_I18NImage_TypeDefinitionIndex = 88414;
 
 	class ConfigUICommon_I18NImage : public ::Foundation::MihoyoSerializedScriptableObject
 	{

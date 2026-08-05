@@ -5,7 +5,7 @@
 
 namespace DG::Tweening::Plugins::Options
 {
-	inline static constexpr unsigned int VectorOptions_TypeDefinitionIndex = 27964;
+	inline static constexpr unsigned int VectorOptions_TypeDefinitionIndex = 28568;
 
 	struct alignas(4) VectorOptions
 	{

@@ -10,29 +10,29 @@ namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MIHOYO_SDK_UGCINTERFACE___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE35720)
-#define MIHOYO_SDK_UGCINTERFACE___C__DISPLAYCLASS16_0__HTTPGETCARRYTOKENIMPL_B__0_OFFSET UNITYSDK_OFFSET(0x1AE35730)
-#define MIHOYO_SDK_UGCINTERFACE___C__DISPLAYCLASS16_0__HTTPGETCARRYTOKENIMPL_B__1_OFFSET UNITYSDK_OFFSET(0x1AE35850)
-#define MIHOYO_SDK_UGCINTERFACE___C__DISPLAYCLASS16_0__HTTPGETCARRYTOKENIMPL_B__2_OFFSET UNITYSDK_OFFSET(0x1AE358C0)
+#define MIHOYO_SDK_UGCINTERFACE___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C308D90)
+#define MIHOYO_SDK_UGCINTERFACE___C__DISPLAYCLASS16_0__HTTPGETCARRYTOKENIMPL_B__0_OFFSET UNITYSDK_OFFSET(0x1C308DA0)
+#define MIHOYO_SDK_UGCINTERFACE___C__DISPLAYCLASS16_0__HTTPGETCARRYTOKENIMPL_B__1_OFFSET UNITYSDK_OFFSET(0x1C308EC0)
+#define MIHOYO_SDK_UGCINTERFACE___C__DISPLAYCLASS16_0__HTTPGETCARRYTOKENIMPL_B__2_OFFSET UNITYSDK_OFFSET(0x1C308F30)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int UGCInterface___c__DisplayClass16_0_TypeDefinitionIndex = 36826;
+	inline static constexpr unsigned int UGCInterface___c__DisplayClass16_0_TypeDefinitionIndex = 37487;
 
 	class UGCInterface___c__DisplayClass16_0 : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* headers; // 0x10
-		::System::String* strRegion; // 0x18
-		::System::Action_2<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*, ::System::String*>* __9__1; // 0x20
-		::MiHoYo::SDK::UGCInterface* __4__this; // 0x28
-		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* callback; // 0x30
-		::System::String* strUrl; // 0x38
-		::System::Action* __9__2; // 0x40
-		::System::String* strUId; // 0x48
-		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* tokenFailedCallback; // 0x50
-		::System::Int32 nRetryCount; // 0x58
-		::System::Single nTimeoutSeconds; // 0x5C
+		::System::Action_2<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*, ::System::String*>* __9__1; // 0x10
+		::MiHoYo::SDK::UGCInterface* __4__this; // 0x18
+		::System::String* strRegion; // 0x20
+		::System::String* strUId; // 0x28
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* headers; // 0x30
+		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* callback; // 0x38
+		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* tokenFailedCallback; // 0x40
+		::System::String* strUrl; // 0x48
+		::System::Action* __9__2; // 0x50
+		::System::Single nTimeoutSeconds; // 0x58
+		::System::Int32 nRetryCount; // 0x5C
 
 		::System::Void _ctor()
 		{

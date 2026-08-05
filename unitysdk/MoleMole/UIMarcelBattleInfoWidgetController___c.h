@@ -5,24 +5,24 @@
 class Class_1_1685EC66FBD28897;
 namespace System { template <typename T> class Comparison_1; }
 
-#define MOLEMOLE_UIMARCELBATTLEINFOWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x16942B80)
-#define MOLEMOLE_UIMARCELBATTLEINFOWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x16942BC0)
-#define MOLEMOLE_UIMARCELBATTLEINFOWIDGETCONTROLLER___C__FILLREWARDMAP_B__1_0_OFFSET UNITYSDK_OFFSET(0x16942BD0)
+#define MOLEMOLE_UIMARCELBATTLEINFOWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x189CA550)
+#define MOLEMOLE_UIMARCELBATTLEINFOWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x189CA590)
+#define MOLEMOLE_UIMARCELBATTLEINFOWIDGETCONTROLLER___C__FILLREWARDMAP_B__1_0_OFFSET UNITYSDK_OFFSET(0x189CA5A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMarcelBattleInfoWidgetController___c_TypeDefinitionIndex = 73044;
+	inline static constexpr unsigned int UIMarcelBattleInfoWidgetController___c_TypeDefinitionIndex = 42409;
 
 	class UIMarcelBattleInfoWidgetController___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::UIMarcelBattleInfoWidgetController___c** StaticGet___9()
-		{
-			return (::MoleMole::UIMarcelBattleInfoWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIMarcelBattleInfoWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x45260);
-		}
 		static ::System::Comparison_1<::Class_1_1685EC66FBD28897*>** StaticGet___9__1_0()
 		{
-			return (::System::Comparison_1<::Class_1_1685EC66FBD28897*>**)Il2CppClass::FromTypeDefinitionIndex(UIMarcelBattleInfoWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x45268);
+			return (::System::Comparison_1<::Class_1_1685EC66FBD28897*>**)Il2CppClass::FromTypeDefinitionIndex(UIMarcelBattleInfoWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x49180);
+		}
+		static ::MoleMole::UIMarcelBattleInfoWidgetController___c** StaticGet___9()
+		{
+			return (::MoleMole::UIMarcelBattleInfoWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIMarcelBattleInfoWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x49188);
 		}
 
 		static ::System::Void _cctor()

@@ -5,12 +5,12 @@
 
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define NPCCROWD_NPCPATHGRAPHMANAGER_NODEPOPULATIONLIMITDATA_CLEARCALCULATED_OFFSET UNITYSDK_OFFSET(0x793CA0)
-#define NPCCROWD_NPCPATHGRAPHMANAGER_NODEPOPULATIONLIMITDATA_ENSUREINIT_OFFSET UNITYSDK_OFFSET(0x793C90)
+#define NPCCROWD_NPCPATHGRAPHMANAGER_NODEPOPULATIONLIMITDATA_CLEARCALCULATED_OFFSET UNITYSDK_OFFSET(0x6F4E10)
+#define NPCCROWD_NPCPATHGRAPHMANAGER_NODEPOPULATIONLIMITDATA_ENSUREINIT_OFFSET UNITYSDK_OFFSET(0x6F4E00)
 
 namespace NPCCrowd
 {
-	inline static constexpr unsigned int NPCPathGraphManager_NodePopulationLimitData_TypeDefinitionIndex = 42106;
+	inline static constexpr unsigned int NPCPathGraphManager_NodePopulationLimitData_TypeDefinitionIndex = 51828;
 
 	struct alignas(8) NPCPathGraphManager_NodePopulationLimitData
 	{

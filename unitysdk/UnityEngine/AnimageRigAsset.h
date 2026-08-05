@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/AnimageAssetBase.h"
 
-#define UNITYENGINE_ANIMAGERIGASSET_INTERNAL_CREATE_OFFSET UNITYSDK_OFFSET(0x1E88D350)
-#define UNITYENGINE_ANIMAGERIGASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1E88D2F0)
+#define UNITYENGINE_ANIMAGERIGASSET_INTERNAL_CREATE_OFFSET UNITYSDK_OFFSET(0x1FC6C660)
+#define UNITYENGINE_ANIMAGERIGASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1FC6C600)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int AnimageRigAsset_TypeDefinitionIndex = 39281;
+	inline static constexpr unsigned int AnimageRigAsset_TypeDefinitionIndex = 39947;
 
 	class AnimageRigAsset : public ::UnityEngine::AnimageAssetBase
 	{

@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/DisplayMessageBase.h"
 
-#define MOLEMOLE_PSGAMEINTENT_ARCADEGAME_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x11648220)
-#define MOLEMOLE_PSGAMEINTENT_ARCADEGAME_ONPROCESS_OFFSET UNITYSDK_OFFSET(0x11648240)
-#define MOLEMOLE_PSGAMEINTENT_ARCADEGAME__CTOR_OFFSET UNITYSDK_OFFSET(0x11648230)
+#define MOLEMOLE_PSGAMEINTENT_ARCADEGAME_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x11D5BCF0)
+#define MOLEMOLE_PSGAMEINTENT_ARCADEGAME_ONPROCESS_OFFSET UNITYSDK_OFFSET(0x11D5BD10)
+#define MOLEMOLE_PSGAMEINTENT_ARCADEGAME__CTOR_OFFSET UNITYSDK_OFFSET(0x11D5BD00)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int PSGameIntent_ArcadeGame_TypeDefinitionIndex = 71792;
+	inline static constexpr unsigned int PSGameIntent_ArcadeGame_TypeDefinitionIndex = 53379;
 
 	class PSGameIntent_ArcadeGame : public ::MoleMole::DisplayMessageBase
 	{

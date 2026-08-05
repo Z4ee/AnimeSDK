@@ -6,7 +6,7 @@
 
 namespace UnityEngine::XR
 {
-	inline static constexpr unsigned int XRDisplaySubsystem_XRRenderPass_TypeDefinitionIndex = 27649;
+	inline static constexpr unsigned int XRDisplaySubsystem_XRRenderPass_TypeDefinitionIndex = 28251;
 
 	struct alignas(8) XRDisplaySubsystem_XRRenderPass
 	{

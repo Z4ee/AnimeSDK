@@ -3,7 +3,7 @@
 
 namespace Newtonsoft::Json
 {
-	inline static constexpr unsigned int StringEscapeHandling_TypeDefinitionIndex = 7026;
+	inline static constexpr unsigned int StringEscapeHandling_TypeDefinitionIndex = 7030;
 
 	enum class StringEscapeHandling : ::System::Int32
 	{

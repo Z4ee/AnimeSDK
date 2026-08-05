@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_HOLLOWCARDOPTIONITEMWIDGETCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x17E82DA0)
+#define MOLEMOLE_HOLLOWCARDOPTIONITEMWIDGETCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x19BF61B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int HollowCardOptionItemWidgetContext_TypeDefinitionIndex = 63951;
+	inline static constexpr unsigned int HollowCardOptionItemWidgetContext_TypeDefinitionIndex = 70585;
 
 	class HollowCardOptionItemWidgetContext : public ::MoleMole::UIControllerContextBase
 	{

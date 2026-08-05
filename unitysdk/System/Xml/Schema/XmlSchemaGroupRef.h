@@ -6,8 +6,8 @@ namespace System::Xml { class XmlQualifiedName; }
 namespace System::Xml::Schema { class XmlSchemaGroup; }
 namespace System::Xml::Schema { class XmlSchemaGroupBase; }
 
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAGROUPREF_SET_REFNAME_OFFSET UNITYSDK_OFFSET(0x1CA57820)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAGROUPREF__CTOR_OFFSET UNITYSDK_OFFSET(0x1CA578C0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAGROUPREF_SET_REFNAME_OFFSET UNITYSDK_OFFSET(0x1DE6A2C0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAGROUPREF__CTOR_OFFSET UNITYSDK_OFFSET(0x1DE6A360)
 
 namespace System::Xml::Schema
 {
@@ -17,8 +17,8 @@ namespace System::Xml::Schema
 	{
 	public:
 		::System::Xml::Schema::XmlSchemaGroup* refined; // 0x78
-		::System::Xml::XmlQualifiedName* refName; // 0x80
-		::System::Xml::Schema::XmlSchemaGroupBase* particle; // 0x88
+		::System::Xml::Schema::XmlSchemaGroupBase* particle; // 0x80
+		::System::Xml::XmlQualifiedName* refName; // 0x88
 
 		::System::Void _ctor()
 		{

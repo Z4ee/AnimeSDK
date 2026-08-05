@@ -20,7 +20,7 @@ namespace UnityEngine { class Material; }
 
 namespace TMPro
 {
-	inline static constexpr unsigned int WordWrapState_TypeDefinitionIndex = 39246;
+	inline static constexpr unsigned int WordWrapState_TypeDefinitionIndex = 39912;
 
 	struct alignas(8) WordWrapState
 	{

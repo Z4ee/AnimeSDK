@@ -1,13 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MessagePack/MessagePackReader.h"
-#include "unitysdk/MessagePack/MessagePackWriter.h"
+#include "unitysdk/Enum_3_920458D80F7BA16E.h"
+#include "unitysdk/MoleMole/HollowChessboard/HollowCell.h"
+#include "unitysdk/Share/GridDir.h"
 
-namespace MessagePack { class MessagePackSerializerOptions; }
+namespace System { class Action; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_445_TypeDefinitionIndex = 50052;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_445_TypeDefinitionIndex = 74396;
 
-template <typename T>
 class Class_0_16E4307DCC419505_445
 {
 public:

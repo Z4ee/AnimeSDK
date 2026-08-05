@@ -8,10 +8,10 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Xml { class XmlQualifiedName; }
 namespace System::Xml::Schema { class XmlSchemaObject; }
 
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAOBJECTTABLE_XSOENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1DD22300)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAOBJECTTABLE_XSOENUMERATOR_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1DD22480)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAOBJECTTABLE_XSOENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1DD224F0)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAOBJECTTABLE_XSOENUMERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD222E0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAOBJECTTABLE_XSOENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1F14ECE0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAOBJECTTABLE_XSOENUMERATOR_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1F14EE60)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAOBJECTTABLE_XSOENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1F14EED0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAOBJECTTABLE_XSOENUMERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1F14ECC0)
 
 namespace System::Xml::Schema
 {
@@ -20,8 +20,8 @@ namespace System::Xml::Schema
 	class XmlSchemaObjectTable_XSOEnumerator : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::Xml::Schema::XmlSchemaObjectTable_XmlSchemaObjectEntry>* entries; // 0x10
-		::System::Xml::XmlQualifiedName* currentKey; // 0x18
+		::System::Xml::XmlQualifiedName* currentKey; // 0x10
+		::System::Collections::Generic::List_1<::System::Xml::Schema::XmlSchemaObjectTable_XmlSchemaObjectEntry>* entries; // 0x18
 		::System::Xml::Schema::XmlSchemaObject* currentValue; // 0x20
 		::System::Xml::Schema::XmlSchemaObjectTable_EnumeratorType enumType; // 0x28
 		::System::Int32 currentIndex; // 0x2C

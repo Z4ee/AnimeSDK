@@ -15,7 +15,7 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace Nap::NapECS
 {
-	inline static constexpr unsigned int EntityAction_TypeDefinitionIndex = 37262;
+	inline static constexpr unsigned int EntityAction_TypeDefinitionIndex = 38021;
 
 	class EntityAction : public ::System::Object
 	{

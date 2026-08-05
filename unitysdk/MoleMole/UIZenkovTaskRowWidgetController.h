@@ -1,0 +1,145 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Enum_3_F80BFD5B986D5503_8.h"
+#include "unitysdk/MoleMole/UIWidgetController.h"
+
+class Class_1_2181504E881DDEE4;
+class Class_1_84A668B8DE4853ED;
+class Class_2_208CC9941471731A_160;
+class Class_2_61C99D337397632C;
+namespace MoleMole { class UIControlReference; }
+namespace MoleMole { class UIControllerContextBase; }
+namespace MoleMole { class UIZenkovTaskRowWidgetController_Context; }
+
+#define MOLEMOLE_UIZENKOVTASKROWWIDGETCONTROLLER_APPLYQUESTTYPEROOTS_OFFSET UNITYSDK_OFFSET(0x11C2BB30)
+#define MOLEMOLE_UIZENKOVTASKROWWIDGETCONTROLLER_APPLYTRACKICON_OFFSET UNITYSDK_OFFSET(0x11C2BCD0)
+#define MOLEMOLE_UIZENKOVTASKROWWIDGETCONTROLLER_INVOKEGAMEPADSELECT_OFFSET UNITYSDK_OFFSET(0x11C2B9C0)
+#define MOLEMOLE_UIZENKOVTASKROWWIDGETCONTROLLER_ISCURRENTLYTRACKING_OFFSET UNITYSDK_OFFSET(0x11C2BE80)
+#define MOLEMOLE_UIZENKOVTASKROWWIDGETCONTROLLER_ONCLICKROW_OFFSET UNITYSDK_OFFSET(0x11C2BA10)
+#define MOLEMOLE_UIZENKOVTASKROWWIDGETCONTROLLER_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x11C2B2A0)
+#define MOLEMOLE_UIZENKOVTASKROWWIDGETCONTROLLER_ONSHOW_OFFSET UNITYSDK_OFFSET(0x11C2B330)
+#define MOLEMOLE_UIZENKOVTASKROWWIDGETCONTROLLER_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x11C2B8E0)
+#define MOLEMOLE_UIZENKOVTASKROWWIDGETCONTROLLER_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x11C2B140)
+#define MOLEMOLE_UIZENKOVTASKROWWIDGETCONTROLLER_REFRESHPROGRESSNUM_OFFSET UNITYSDK_OFFSET(0x11C2C040)
+#define MOLEMOLE_UIZENKOVTASKROWWIDGETCONTROLLER_REFRESHROW_OFFSET UNITYSDK_OFFSET(0x11C2B420)
+#define MOLEMOLE_UIZENKOVTASKROWWIDGETCONTROLLER_REFRESHTASKPROGRESS_OFFSET UNITYSDK_OFFSET(0x11C2BC10)
+#define MOLEMOLE_UIZENKOVTASKROWWIDGETCONTROLLER_SETPROGRESSNUM_OFFSET UNITYSDK_OFFSET(0x11C2C1A0)
+#define MOLEMOLE_UIZENKOVTASKROWWIDGETCONTROLLER_SETSELECTED_OFFSET UNITYSDK_OFFSET(0x11C2BAB0)
+#define MOLEMOLE_UIZENKOVTASKROWWIDGETCONTROLLER_UPDATEDATA_OFFSET UNITYSDK_OFFSET(0x11C2B960)
+#define MOLEMOLE_UIZENKOVTASKROWWIDGETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x11C2C270)
+#define MOLEMOLE_UIZENKOVTASKROWWIDGETCONTROLLER___BASE_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x11C2C2D0)
+#define MOLEMOLE_UIZENKOVTASKROWWIDGETCONTROLLER___BASE_ONSHOW_OFFSET UNITYSDK_OFFSET(0x11C2C360)
+#define MOLEMOLE_UIZENKOVTASKROWWIDGETCONTROLLER___BASE_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x11C2C400)
+#define MOLEMOLE_UIZENKOVTASKROWWIDGETCONTROLLER___BASE_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x11C2C490)
+
+namespace MoleMole
+{
+	inline static constexpr unsigned int UIZenkovTaskRowWidgetController_TypeDefinitionIndex = 55928;
+
+	class UIZenkovTaskRowWidgetController : public ::MoleMole::UIWidgetController
+	{
+	public:
+		::Class_2_61C99D337397632C* _view; // 0x2C0
+		::MoleMole::UIZenkovTaskRowWidgetController_Context* _context; // 0x2C8
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVTASKROWWIDGETCONTROLLER__CTOR_OFFSET))(this);
+		}
+
+		::System::Void OnUIInit()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVTASKROWWIDGETCONTROLLER_ONUIINIT_OFFSET))(this);
+		}
+
+		::System::Void OnCreateView(::MoleMole::UIControlReference* controlReference)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVTASKROWWIDGETCONTROLLER_ONCREATEVIEW_OFFSET))(this, controlReference);
+		}
+
+		::System::Void OnShow(::MoleMole::UIControllerContextBase* showCtrlContext)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVTASKROWWIDGETCONTROLLER_ONSHOW_OFFSET))(this, showCtrlContext);
+		}
+
+		::System::Void OnUIDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVTASKROWWIDGETCONTROLLER_ONUIDESTROY_OFFSET))(this);
+		}
+
+		::System::Void UpdateData(::MoleMole::UIZenkovTaskRowWidgetController_Context* newContext)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIZenkovTaskRowWidgetController_Context*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVTASKROWWIDGETCONTROLLER_UPDATEDATA_OFFSET))(this, newContext);
+		}
+
+		::System::Void InvokeGamepadSelect()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVTASKROWWIDGETCONTROLLER_INVOKEGAMEPADSELECT_OFFSET))(this);
+		}
+
+		::System::Void OnClickRow()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVTASKROWWIDGETCONTROLLER_ONCLICKROW_OFFSET))(this);
+		}
+
+		::System::Void SetSelected(::System::Boolean selected)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVTASKROWWIDGETCONTROLLER_SETSELECTED_OFFSET))(this, selected);
+		}
+
+		::System::Void RefreshRow()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVTASKROWWIDGETCONTROLLER_REFRESHROW_OFFSET))(this);
+		}
+
+		static ::System::Boolean IsCurrentlyTracking(::Class_1_84A668B8DE4853ED* questData, ::Class_1_2181504E881DDEE4* manual)
+		{
+			return ((::System::Boolean(*)(::Class_1_84A668B8DE4853ED*, ::Class_1_2181504E881DDEE4*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVTASKROWWIDGETCONTROLLER_ISCURRENTLYTRACKING_OFFSET))(questData, manual);
+		}
+
+		::System::Void ApplyQuestTypeRoots(::Enum_3_F80BFD5B986D5503_8 questType)
+		{
+			return ((::System::Void(*)(::PVOID, ::Enum_3_F80BFD5B986D5503_8))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVTASKROWWIDGETCONTROLLER_APPLYQUESTTYPEROOTS_OFFSET))(this, questType);
+		}
+
+		::System::Void RefreshTaskProgress(::Class_2_208CC9941471731A_160* zenkovCfg, ::Class_1_84A668B8DE4853ED* questData)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_2_208CC9941471731A_160*, ::Class_1_84A668B8DE4853ED*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVTASKROWWIDGETCONTROLLER_REFRESHTASKPROGRESS_OFFSET))(this, zenkovCfg, questData);
+		}
+
+		::System::Void RefreshProgressNum(::Class_1_84A668B8DE4853ED* questData)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_84A668B8DE4853ED*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVTASKROWWIDGETCONTROLLER_REFRESHPROGRESSNUM_OFFSET))(this, questData);
+		}
+
+		::System::Void ApplyTrackIcon(::Enum_3_F80BFD5B986D5503_8 questType)
+		{
+			return ((::System::Void(*)(::PVOID, ::Enum_3_F80BFD5B986D5503_8))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVTASKROWWIDGETCONTROLLER_APPLYTRACKICON_OFFSET))(this, questType);
+		}
+
+		::System::Void SetProgressNum(::System::Int32 currentNum, ::System::Int32 targetNum)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVTASKROWWIDGETCONTROLLER_SETPROGRESSNUM_OFFSET))(this, currentNum, targetNum);
+		}
+
+		::System::Void __base_OnCreateView(::MoleMole::UIControlReference* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVTASKROWWIDGETCONTROLLER___BASE_ONCREATEVIEW_OFFSET))(this, P0);
+		}
+
+		::System::Void __base_OnShow(::MoleMole::UIControllerContextBase* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVTASKROWWIDGETCONTROLLER___BASE_ONSHOW_OFFSET))(this, P0);
+		}
+
+		::System::Void __base_OnUIDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVTASKROWWIDGETCONTROLLER___BASE_ONUIDESTROY_OFFSET))(this);
+		}
+
+		::System::Void __base_OnUIInit()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVTASKROWWIDGETCONTROLLER___BASE_ONUIINIT_OFFSET))(this);
+		}
+	};
+}

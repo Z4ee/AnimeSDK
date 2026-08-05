@@ -5,8 +5,8 @@
 
 namespace System::ComponentModel::Design { class CommandID; }
 
-#define SYSTEM_COMPONENTMODEL_DESIGN_STANDARDCOMMANDS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CEC3930)
-#define SYSTEM_COMPONENTMODEL_DESIGN_STANDARDCOMMANDS__CTOR_OFFSET UNITYSDK_OFFSET(0x1CEC3920)
+#define SYSTEM_COMPONENTMODEL_DESIGN_STANDARDCOMMANDS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E280580)
+#define SYSTEM_COMPONENTMODEL_DESIGN_STANDARDCOMMANDS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E280570)
 
 namespace System::ComponentModel::Design
 {
@@ -15,211 +15,211 @@ namespace System::ComponentModel::Design
 	class StandardCommands : public ::System::Object
 	{
 	public:
-		static ::System::ComponentModel::Design::CommandID** StaticGet_SendToBack()
+		static ::System::ComponentModel::Design::CommandID** StaticGet_HorizSpaceMakeEqual()
 		{
 			return (::System::ComponentModel::Design::CommandID**)Il2CppClass::FromTypeDefinitionIndex(StandardCommands_TypeDefinitionIndex)->GetStaticField(0x3800);
 		}
-		static ::System::ComponentModel::Design::CommandID** StaticGet_VerbFirst()
+		static ::System::ComponentModel::Design::CommandID** StaticGet_ViewCode()
 		{
 			return (::System::ComponentModel::Design::CommandID**)Il2CppClass::FromTypeDefinitionIndex(StandardCommands_TypeDefinitionIndex)->GetStaticField(0x3808);
 		}
-		static ::System::ComponentModel::Design::CommandID** StaticGet_HorizSpaceIncrease()
+		static ::System::ComponentModel::Design::CommandID** StaticGet_ArrangeIcons()
 		{
 			return (::System::ComponentModel::Design::CommandID**)Il2CppClass::FromTypeDefinitionIndex(StandardCommands_TypeDefinitionIndex)->GetStaticField(0x3810);
 		}
-		static ::System::ComponentModel::Design::CommandID** StaticGet_HorizSpaceMakeEqual()
+		static ::System::ComponentModel::Design::CommandID** StaticGet_AlignBottom()
 		{
 			return (::System::ComponentModel::Design::CommandID**)Il2CppClass::FromTypeDefinitionIndex(StandardCommands_TypeDefinitionIndex)->GetStaticField(0x3818);
 		}
-		static ::System::ComponentModel::Design::CommandID** StaticGet_ShowGrid()
+		static ::System::ComponentModel::Design::CommandID** StaticGet_AlignToGrid()
 		{
 			return (::System::ComponentModel::Design::CommandID**)Il2CppClass::FromTypeDefinitionIndex(StandardCommands_TypeDefinitionIndex)->GetStaticField(0x3820);
 		}
-		static ::System::ComponentModel::Design::CommandID** StaticGet_TabOrder()
+		static ::System::ComponentModel::Design::CommandID** StaticGet_PropertiesWindow()
 		{
 			return (::System::ComponentModel::Design::CommandID**)Il2CppClass::FromTypeDefinitionIndex(StandardCommands_TypeDefinitionIndex)->GetStaticField(0x3828);
 		}
-		static ::System::ComponentModel::Design::CommandID** StaticGet_MultiLevelUndo()
+		static ::System::ComponentModel::Design::CommandID** StaticGet_SelectAll()
 		{
 			return (::System::ComponentModel::Design::CommandID**)Il2CppClass::FromTypeDefinitionIndex(StandardCommands_TypeDefinitionIndex)->GetStaticField(0x3830);
 		}
-		static ::System::ComponentModel::Design::CommandID** StaticGet_SelectAll()
+		static ::System::ComponentModel::Design::CommandID** StaticGet_Delete()
 		{
 			return (::System::ComponentModel::Design::CommandID**)Il2CppClass::FromTypeDefinitionIndex(StandardCommands_TypeDefinitionIndex)->GetStaticField(0x3838);
 		}
-		static ::System::ComponentModel::Design::CommandID** StaticGet_Undo()
+		static ::System::ComponentModel::Design::CommandID** StaticGet_SizeToGrid()
 		{
 			return (::System::ComponentModel::Design::CommandID**)Il2CppClass::FromTypeDefinitionIndex(StandardCommands_TypeDefinitionIndex)->GetStaticField(0x3840);
 		}
-		static ::System::ComponentModel::Design::CommandID** StaticGet_VertSpaceConcatenate()
+		static ::System::ComponentModel::Design::CommandID** StaticGet_AlignTop()
 		{
 			return (::System::ComponentModel::Design::CommandID**)Il2CppClass::FromTypeDefinitionIndex(StandardCommands_TypeDefinitionIndex)->GetStaticField(0x3848);
 		}
-		static ::System::ComponentModel::Design::CommandID** StaticGet_AlignLeft()
+		static ::System::ComponentModel::Design::CommandID** StaticGet_CenterVertically()
 		{
 			return (::System::ComponentModel::Design::CommandID**)Il2CppClass::FromTypeDefinitionIndex(StandardCommands_TypeDefinitionIndex)->GetStaticField(0x3850);
 		}
-		static ::System::ComponentModel::Design::CommandID** StaticGet_BringToFront()
+		static ::System::ComponentModel::Design::CommandID** StaticGet_ShowGrid()
 		{
 			return (::System::ComponentModel::Design::CommandID**)Il2CppClass::FromTypeDefinitionIndex(StandardCommands_TypeDefinitionIndex)->GetStaticField(0x3858);
 		}
-		static ::System::ComponentModel::Design::CommandID** StaticGet_Delete()
+		static ::System::ComponentModel::Design::CommandID** StaticGet_Replace()
 		{
 			return (::System::ComponentModel::Design::CommandID**)Il2CppClass::FromTypeDefinitionIndex(StandardCommands_TypeDefinitionIndex)->GetStaticField(0x3860);
 		}
-		static ::System::ComponentModel::Design::CommandID** StaticGet_AlignRight()
+		static ::System::ComponentModel::Design::CommandID** StaticGet_LineupIcons()
 		{
 			return (::System::ComponentModel::Design::CommandID**)Il2CppClass::FromTypeDefinitionIndex(StandardCommands_TypeDefinitionIndex)->GetStaticField(0x3868);
 		}
-		static ::System::ComponentModel::Design::CommandID** StaticGet_LineupIcons()
+		static ::System::ComponentModel::Design::CommandID** StaticGet_LockControls()
 		{
 			return (::System::ComponentModel::Design::CommandID**)Il2CppClass::FromTypeDefinitionIndex(StandardCommands_TypeDefinitionIndex)->GetStaticField(0x3870);
 		}
-		static ::System::ComponentModel::Design::CommandID** StaticGet_AlignVerticalCenters()
+		static ::System::ComponentModel::Design::CommandID** StaticGet_VertSpaceMakeEqual()
 		{
 			return (::System::ComponentModel::Design::CommandID**)Il2CppClass::FromTypeDefinitionIndex(StandardCommands_TypeDefinitionIndex)->GetStaticField(0x3878);
 		}
-		static ::System::ComponentModel::Design::CommandID** StaticGet_AlignToGrid()
+		static ::System::ComponentModel::Design::CommandID** StaticGet_ViewGrid()
 		{
 			return (::System::ComponentModel::Design::CommandID**)Il2CppClass::FromTypeDefinitionIndex(StandardCommands_TypeDefinitionIndex)->GetStaticField(0x3880);
 		}
-		static ::System::ComponentModel::Design::CommandID** StaticGet_VertSpaceMakeEqual()
+		static ::System::ComponentModel::Design::CommandID** StaticGet_SizeToControlHeight()
 		{
 			return (::System::ComponentModel::Design::CommandID**)Il2CppClass::FromTypeDefinitionIndex(StandardCommands_TypeDefinitionIndex)->GetStaticField(0x3888);
 		}
-		static ::System::ComponentModel::Design::CommandID** StaticGet_HorizSpaceConcatenate()
+		static ::System::ComponentModel::Design::CommandID** StaticGet_SendToBack()
 		{
 			return (::System::ComponentModel::Design::CommandID**)Il2CppClass::FromTypeDefinitionIndex(StandardCommands_TypeDefinitionIndex)->GetStaticField(0x3890);
 		}
-		static ::System::ComponentModel::Design::CommandID** StaticGet_AlignTop()
+		static ::System::ComponentModel::Design::CommandID** StaticGet_Ungroup()
 		{
 			return (::System::ComponentModel::Design::CommandID**)Il2CppClass::FromTypeDefinitionIndex(StandardCommands_TypeDefinitionIndex)->GetStaticField(0x3898);
 		}
-		static ::System::ComponentModel::Design::CommandID** StaticGet_Cut()
+		static ::System::ComponentModel::Design::CommandID** StaticGet_SizeToControl()
 		{
 			return (::System::ComponentModel::Design::CommandID**)Il2CppClass::FromTypeDefinitionIndex(StandardCommands_TypeDefinitionIndex)->GetStaticField(0x38A0);
 		}
-		static ::System::ComponentModel::Design::CommandID** StaticGet_DocumentOutline()
+		static ::System::ComponentModel::Design::CommandID** StaticGet_VertSpaceConcatenate()
 		{
 			return (::System::ComponentModel::Design::CommandID**)Il2CppClass::FromTypeDefinitionIndex(StandardCommands_TypeDefinitionIndex)->GetStaticField(0x38A8);
 		}
-		static ::System::ComponentModel::Design::CommandID** StaticGet_MultiLevelRedo()
+		static ::System::ComponentModel::Design::CommandID** StaticGet_AlignVerticalCenters()
 		{
 			return (::System::ComponentModel::Design::CommandID**)Il2CppClass::FromTypeDefinitionIndex(StandardCommands_TypeDefinitionIndex)->GetStaticField(0x38B0);
 		}
-		static ::System::ComponentModel::Design::CommandID** StaticGet_CenterVertically()
+		static ::System::ComponentModel::Design::CommandID** StaticGet_BringForward()
 		{
 			return (::System::ComponentModel::Design::CommandID**)Il2CppClass::FromTypeDefinitionIndex(StandardCommands_TypeDefinitionIndex)->GetStaticField(0x38B8);
 		}
-		static ::System::ComponentModel::Design::CommandID** StaticGet_AlignHorizontalCenters()
+		static ::System::ComponentModel::Design::CommandID** StaticGet_F1Help()
 		{
 			return (::System::ComponentModel::Design::CommandID**)Il2CppClass::FromTypeDefinitionIndex(StandardCommands_TypeDefinitionIndex)->GetStaticField(0x38C0);
 		}
-		static ::System::ComponentModel::Design::CommandID** StaticGet_ArrangeIcons()
+		static ::System::ComponentModel::Design::CommandID** StaticGet_Cut()
 		{
 			return (::System::ComponentModel::Design::CommandID**)Il2CppClass::FromTypeDefinitionIndex(StandardCommands_TypeDefinitionIndex)->GetStaticField(0x38C8);
 		}
-		static ::System::ComponentModel::Design::CommandID** StaticGet_ViewCode()
+		static ::System::ComponentModel::Design::CommandID** StaticGet_BringToFront()
 		{
 			return (::System::ComponentModel::Design::CommandID**)Il2CppClass::FromTypeDefinitionIndex(StandardCommands_TypeDefinitionIndex)->GetStaticField(0x38D0);
 		}
-		static ::System::ComponentModel::Design::CommandID** StaticGet_HorizSpaceDecrease()
+		static ::System::ComponentModel::Design::CommandID** StaticGet_SendBackward()
 		{
 			return (::System::ComponentModel::Design::CommandID**)Il2CppClass::FromTypeDefinitionIndex(StandardCommands_TypeDefinitionIndex)->GetStaticField(0x38D8);
 		}
-		static ::System::ComponentModel::Design::CommandID** StaticGet_Group()
+		static ::System::ComponentModel::Design::CommandID** StaticGet_AlignRight()
 		{
 			return (::System::ComponentModel::Design::CommandID**)Il2CppClass::FromTypeDefinitionIndex(StandardCommands_TypeDefinitionIndex)->GetStaticField(0x38E0);
 		}
-		static ::System::ComponentModel::Design::CommandID** StaticGet_ArrangeBottom()
+		static ::System::ComponentModel::Design::CommandID** StaticGet_Paste()
 		{
 			return (::System::ComponentModel::Design::CommandID**)Il2CppClass::FromTypeDefinitionIndex(StandardCommands_TypeDefinitionIndex)->GetStaticField(0x38E8);
 		}
-		static ::System::ComponentModel::Design::CommandID** StaticGet_VertSpaceDecrease()
+		static ::System::ComponentModel::Design::CommandID** StaticGet_AlignHorizontalCenters()
 		{
 			return (::System::ComponentModel::Design::CommandID**)Il2CppClass::FromTypeDefinitionIndex(StandardCommands_TypeDefinitionIndex)->GetStaticField(0x38F0);
 		}
-		static ::System::ComponentModel::Design::CommandID** StaticGet_ShowLargeIcons()
+		static ::System::ComponentModel::Design::CommandID** StaticGet_SnapToGrid()
 		{
 			return (::System::ComponentModel::Design::CommandID**)Il2CppClass::FromTypeDefinitionIndex(StandardCommands_TypeDefinitionIndex)->GetStaticField(0x38F8);
 		}
-		static ::System::ComponentModel::Design::CommandID** StaticGet_SizeToFit()
+		static ::System::ComponentModel::Design::CommandID** StaticGet_MultiLevelUndo()
 		{
 			return (::System::ComponentModel::Design::CommandID**)Il2CppClass::FromTypeDefinitionIndex(StandardCommands_TypeDefinitionIndex)->GetStaticField(0x3900);
 		}
-		static ::System::ComponentModel::Design::CommandID** StaticGet_LockControls()
+		static ::System::ComponentModel::Design::CommandID** StaticGet_VertSpaceIncrease()
 		{
 			return (::System::ComponentModel::Design::CommandID**)Il2CppClass::FromTypeDefinitionIndex(StandardCommands_TypeDefinitionIndex)->GetStaticField(0x3908);
 		}
-		static ::System::ComponentModel::Design::CommandID** StaticGet_SizeToControlWidth()
+		static ::System::ComponentModel::Design::CommandID** StaticGet_Group()
 		{
 			return (::System::ComponentModel::Design::CommandID**)Il2CppClass::FromTypeDefinitionIndex(StandardCommands_TypeDefinitionIndex)->GetStaticField(0x3910);
 		}
-		static ::System::ComponentModel::Design::CommandID** StaticGet_Redo()
+		static ::System::ComponentModel::Design::CommandID** StaticGet_DocumentOutline()
 		{
 			return (::System::ComponentModel::Design::CommandID**)Il2CppClass::FromTypeDefinitionIndex(StandardCommands_TypeDefinitionIndex)->GetStaticField(0x3918);
 		}
-		static ::System::ComponentModel::Design::CommandID** StaticGet_PropertiesWindow()
+		static ::System::ComponentModel::Design::CommandID** StaticGet_ShowLargeIcons()
 		{
 			return (::System::ComponentModel::Design::CommandID**)Il2CppClass::FromTypeDefinitionIndex(StandardCommands_TypeDefinitionIndex)->GetStaticField(0x3920);
 		}
-		static ::System::ComponentModel::Design::CommandID** StaticGet_SendBackward()
+		static ::System::ComponentModel::Design::CommandID** StaticGet_VertSpaceDecrease()
 		{
 			return (::System::ComponentModel::Design::CommandID**)Il2CppClass::FromTypeDefinitionIndex(StandardCommands_TypeDefinitionIndex)->GetStaticField(0x3928);
 		}
-		static ::System::ComponentModel::Design::CommandID** StaticGet_F1Help()
+		static ::System::ComponentModel::Design::CommandID** StaticGet_AlignLeft()
 		{
 			return (::System::ComponentModel::Design::CommandID**)Il2CppClass::FromTypeDefinitionIndex(StandardCommands_TypeDefinitionIndex)->GetStaticField(0x3930);
 		}
-		static ::System::ComponentModel::Design::CommandID** StaticGet_SizeToGrid()
+		static ::System::ComponentModel::Design::CommandID** StaticGet_VerbFirst()
 		{
 			return (::System::ComponentModel::Design::CommandID**)Il2CppClass::FromTypeDefinitionIndex(StandardCommands_TypeDefinitionIndex)->GetStaticField(0x3938);
 		}
-		static ::System::ComponentModel::Design::CommandID** StaticGet_SizeToControlHeight()
+		static ::System::ComponentModel::Design::CommandID** StaticGet_Undo()
 		{
 			return (::System::ComponentModel::Design::CommandID**)Il2CppClass::FromTypeDefinitionIndex(StandardCommands_TypeDefinitionIndex)->GetStaticField(0x3940);
 		}
-		static ::System::ComponentModel::Design::CommandID** StaticGet_AlignBottom()
+		static ::System::ComponentModel::Design::CommandID** StaticGet_HorizSpaceConcatenate()
 		{
 			return (::System::ComponentModel::Design::CommandID**)Il2CppClass::FromTypeDefinitionIndex(StandardCommands_TypeDefinitionIndex)->GetStaticField(0x3948);
 		}
-		static ::System::ComponentModel::Design::CommandID** StaticGet_VerbLast()
+		static ::System::ComponentModel::Design::CommandID** StaticGet_Copy()
 		{
 			return (::System::ComponentModel::Design::CommandID**)Il2CppClass::FromTypeDefinitionIndex(StandardCommands_TypeDefinitionIndex)->GetStaticField(0x3950);
 		}
-		static ::System::ComponentModel::Design::CommandID** StaticGet_ViewGrid()
+		static ::System::ComponentModel::Design::CommandID** StaticGet_SizeToFit()
 		{
 			return (::System::ComponentModel::Design::CommandID**)Il2CppClass::FromTypeDefinitionIndex(StandardCommands_TypeDefinitionIndex)->GetStaticField(0x3958);
 		}
-		static ::System::ComponentModel::Design::CommandID** StaticGet_BringForward()
+		static ::System::ComponentModel::Design::CommandID** StaticGet_HorizSpaceDecrease()
 		{
 			return (::System::ComponentModel::Design::CommandID**)Il2CppClass::FromTypeDefinitionIndex(StandardCommands_TypeDefinitionIndex)->GetStaticField(0x3960);
 		}
-		static ::System::ComponentModel::Design::CommandID** StaticGet_SizeToControl()
+		static ::System::ComponentModel::Design::CommandID** StaticGet_CenterHorizontally()
 		{
 			return (::System::ComponentModel::Design::CommandID**)Il2CppClass::FromTypeDefinitionIndex(StandardCommands_TypeDefinitionIndex)->GetStaticField(0x3968);
 		}
-		static ::System::ComponentModel::Design::CommandID** StaticGet_Properties()
+		static ::System::ComponentModel::Design::CommandID** StaticGet_MultiLevelRedo()
 		{
 			return (::System::ComponentModel::Design::CommandID**)Il2CppClass::FromTypeDefinitionIndex(StandardCommands_TypeDefinitionIndex)->GetStaticField(0x3970);
 		}
-		static ::System::ComponentModel::Design::CommandID** StaticGet_Replace()
+		static ::System::ComponentModel::Design::CommandID** StaticGet_TabOrder()
 		{
 			return (::System::ComponentModel::Design::CommandID**)Il2CppClass::FromTypeDefinitionIndex(StandardCommands_TypeDefinitionIndex)->GetStaticField(0x3978);
 		}
-		static ::System::ComponentModel::Design::CommandID** StaticGet_Paste()
+		static ::System::ComponentModel::Design::CommandID** StaticGet_Redo()
 		{
 			return (::System::ComponentModel::Design::CommandID**)Il2CppClass::FromTypeDefinitionIndex(StandardCommands_TypeDefinitionIndex)->GetStaticField(0x3980);
 		}
-		static ::System::ComponentModel::Design::CommandID** StaticGet_VertSpaceIncrease()
+		static ::System::ComponentModel::Design::CommandID** StaticGet_ArrangeBottom()
 		{
 			return (::System::ComponentModel::Design::CommandID**)Il2CppClass::FromTypeDefinitionIndex(StandardCommands_TypeDefinitionIndex)->GetStaticField(0x3988);
 		}
-		static ::System::ComponentModel::Design::CommandID** StaticGet_Ungroup()
+		static ::System::ComponentModel::Design::CommandID** StaticGet_Properties()
 		{
 			return (::System::ComponentModel::Design::CommandID**)Il2CppClass::FromTypeDefinitionIndex(StandardCommands_TypeDefinitionIndex)->GetStaticField(0x3990);
 		}
-		static ::System::ComponentModel::Design::CommandID** StaticGet_CenterHorizontally()
+		static ::System::ComponentModel::Design::CommandID** StaticGet_VerbLast()
 		{
 			return (::System::ComponentModel::Design::CommandID**)Il2CppClass::FromTypeDefinitionIndex(StandardCommands_TypeDefinitionIndex)->GetStaticField(0x3998);
 		}
@@ -227,19 +227,19 @@ namespace System::ComponentModel::Design
 		{
 			return (::System::ComponentModel::Design::CommandID**)Il2CppClass::FromTypeDefinitionIndex(StandardCommands_TypeDefinitionIndex)->GetStaticField(0x39A0);
 		}
-		static ::System::ComponentModel::Design::CommandID** StaticGet_Copy()
+		static ::System::ComponentModel::Design::CommandID** StaticGet_HorizSpaceIncrease()
 		{
 			return (::System::ComponentModel::Design::CommandID**)Il2CppClass::FromTypeDefinitionIndex(StandardCommands_TypeDefinitionIndex)->GetStaticField(0x39A8);
 		}
-		static ::System::ComponentModel::Design::CommandID** StaticGet_SnapToGrid()
+		static ::System::ComponentModel::Design::CommandID** StaticGet_SizeToControlWidth()
 		{
 			return (::System::ComponentModel::Design::CommandID**)Il2CppClass::FromTypeDefinitionIndex(StandardCommands_TypeDefinitionIndex)->GetStaticField(0x39B0);
 		}
-		static ::System::Guid* StaticGet_ndpCommandSet()
+		static ::System::Guid* StaticGet_standardCommandSet()
 		{
 			return (::System::Guid*)Il2CppClass::FromTypeDefinitionIndex(StandardCommands_TypeDefinitionIndex)->GetStaticField(0x1430);
 		}
-		static ::System::Guid* StaticGet_standardCommandSet()
+		static ::System::Guid* StaticGet_ndpCommandSet()
 		{
 			return (::System::Guid*)Il2CppClass::FromTypeDefinitionIndex(StandardCommands_TypeDefinitionIndex)->GetStaticField(0x1440);
 		}

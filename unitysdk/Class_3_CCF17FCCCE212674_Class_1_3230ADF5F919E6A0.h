@@ -7,16 +7,16 @@
 class Class_3_CCF17FCCCE212674;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_3_CCF17FCCCE212674_CLASS_1_3230ADF5F919E6A0_METHOD_1_8E89BE9866A768ED_OFFSET UNITYSDK_OFFSET(0x10EA05C0)
-#define CLASS_3_CCF17FCCCE212674_CLASS_1_3230ADF5F919E6A0__CTOR_OFFSET UNITYSDK_OFFSET(0x10EA05B0)
+#define CLASS_3_CCF17FCCCE212674_CLASS_1_3230ADF5F919E6A0_METHOD_1_8E89BE9866A768ED_OFFSET UNITYSDK_OFFSET(0x145E7670)
+#define CLASS_3_CCF17FCCCE212674_CLASS_1_3230ADF5F919E6A0__CTOR_OFFSET UNITYSDK_OFFSET(0x145E7660)
 
-inline static constexpr unsigned int Class_3_CCF17FCCCE212674_Class_1_3230ADF5F919E6A0_TypeDefinitionIndex = 54377;
+inline static constexpr unsigned int Class_3_CCF17FCCCE212674_Class_1_3230ADF5F919E6A0_TypeDefinitionIndex = 52449;
 
 class Class_3_CCF17FCCCE212674_Class_1_3230ADF5F919E6A0 : public ::System::Object
 {
 public:
-	::Class_3_CCF17FCCCE212674* Field_1_2; // 0x10
-	::System::Collections::Generic::Dictionary_2<::MoleMole::LogicButtonInputType, ::System::Int32>* Field_1_0; // 0x18
+	::System::Collections::Generic::Dictionary_2<::MoleMole::LogicButtonInputType, ::System::Int32>* Field_1_2; // 0x10
+	::Class_3_CCF17FCCCE212674* Field_1_0; // 0x18
 	::Enum_3_A019F766F8C74696 Field_1_1; // 0x20
 
 	::System::Void _ctor()

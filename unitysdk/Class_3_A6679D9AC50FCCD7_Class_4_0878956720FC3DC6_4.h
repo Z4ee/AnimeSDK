@@ -1,0 +1,77 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_3_EC48112425141A9B.h"
+
+class Class_2_A4D62D05D5EA8464;
+namespace MoleMole { class UIControlCollection; }
+namespace System { class String; }
+namespace UnityEngine { class RectTransform; }
+namespace UnityEngine::UI::Extension { class UILocalizationText; }
+
+#define CLASS_3_A6679D9AC50FCCD7_CLASS_4_0878956720FC3DC6_4_METHOD_4_69FAD2F9E8A43CC3_1_OFFSET UNITYSDK_OFFSET(0x15BCF0F0)
+#define CLASS_3_A6679D9AC50FCCD7_CLASS_4_0878956720FC3DC6_4_METHOD_4_69FAD2F9E8A43CC3_OFFSET UNITYSDK_OFFSET(0x15BCF0D0)
+#define CLASS_3_A6679D9AC50FCCD7_CLASS_4_0878956720FC3DC6_4_METHOD_4_6A3AD666D3CC56B6_OFFSET UNITYSDK_OFFSET(0x15BCF0C0)
+#define CLASS_3_A6679D9AC50FCCD7_CLASS_4_0878956720FC3DC6_4_METHOD_4_79D44D69484C8F4A_OFFSET UNITYSDK_OFFSET(0x15BCED90)
+#define CLASS_3_A6679D9AC50FCCD7_CLASS_4_0878956720FC3DC6_4_METHOD_4_978DEB991218B150_1_OFFSET UNITYSDK_OFFSET(0x15BCF0E0)
+#define CLASS_3_A6679D9AC50FCCD7_CLASS_4_0878956720FC3DC6_4_METHOD_4_978DEB991218B150_OFFSET UNITYSDK_OFFSET(0x15BCF0A0)
+#define CLASS_3_A6679D9AC50FCCD7_CLASS_4_0878956720FC3DC6_4_METHOD_4_D33F8087E6D98A2B_OFFSET UNITYSDK_OFFSET(0x15BCF0B0)
+#define CLASS_3_A6679D9AC50FCCD7_CLASS_4_0878956720FC3DC6_4_METHOD_4_DDA8A2337932DF10_OFFSET UNITYSDK_OFFSET(0x15BCEE60)
+#define CLASS_3_A6679D9AC50FCCD7_CLASS_4_0878956720FC3DC6_4__CTOR_OFFSET UNITYSDK_OFFSET(0x15BCF010)
+
+inline static constexpr unsigned int Class_3_A6679D9AC50FCCD7_Class_4_0878956720FC3DC6_4_TypeDefinitionIndex = 88683;
+
+class Class_3_A6679D9AC50FCCD7_Class_4_0878956720FC3DC6_4 : public ::Class_3_EC48112425141A9B
+{
+public:
+	// static const ::System::String* Field_4_0; // 0x0
+	// static const ::System::String* Field_4_7; // 0x0
+	// static const ::System::String* Field_4_6; // 0x0
+	::UnityEngine::RectTransform* Field_4_4; // 0x28
+	::UnityEngine::UI::Extension::UILocalizationText* Field_4_5; // 0x30
+	::UnityEngine::RectTransform* Field_4_11; // 0x38
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_A6679D9AC50FCCD7_CLASS_4_0878956720FC3DC6_4__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_4_79D44D69484C8F4A(::Class_2_A4D62D05D5EA8464* a1, ::MoleMole::UIControlCollection* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_2_A4D62D05D5EA8464*, ::MoleMole::UIControlCollection*))((::PBYTE)hIl2Cpp + CLASS_3_A6679D9AC50FCCD7_CLASS_4_0878956720FC3DC6_4_METHOD_4_79D44D69484C8F4A_OFFSET))(this, a1, a2);
+	}
+
+	::UnityEngine::RectTransform* Method_4_978DEB991218B150()
+	{
+		return ((::UnityEngine::RectTransform*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_A6679D9AC50FCCD7_CLASS_4_0878956720FC3DC6_4_METHOD_4_978DEB991218B150_OFFSET))(this);
+	}
+
+	::System::Void Method_4_DDA8A2337932DF10()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_A6679D9AC50FCCD7_CLASS_4_0878956720FC3DC6_4_METHOD_4_DDA8A2337932DF10_OFFSET))(this);
+	}
+
+	::System::Void Method_4_D33F8087E6D98A2B(::UnityEngine::UI::Extension::UILocalizationText* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::Extension::UILocalizationText*))((::PBYTE)hIl2Cpp + CLASS_3_A6679D9AC50FCCD7_CLASS_4_0878956720FC3DC6_4_METHOD_4_D33F8087E6D98A2B_OFFSET))(this, a1);
+	}
+
+	::UnityEngine::UI::Extension::UILocalizationText* Method_4_6A3AD666D3CC56B6()
+	{
+		return ((::UnityEngine::UI::Extension::UILocalizationText*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_A6679D9AC50FCCD7_CLASS_4_0878956720FC3DC6_4_METHOD_4_6A3AD666D3CC56B6_OFFSET))(this);
+	}
+
+	::System::Void Method_4_69FAD2F9E8A43CC3(::UnityEngine::RectTransform* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + CLASS_3_A6679D9AC50FCCD7_CLASS_4_0878956720FC3DC6_4_METHOD_4_69FAD2F9E8A43CC3_OFFSET))(this, a1);
+	}
+
+	::UnityEngine::RectTransform* Method_4_978DEB991218B150_1()
+	{
+		return ((::UnityEngine::RectTransform*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_A6679D9AC50FCCD7_CLASS_4_0878956720FC3DC6_4_METHOD_4_978DEB991218B150_1_OFFSET))(this);
+	}
+
+	::System::Void Method_4_69FAD2F9E8A43CC3_1(::UnityEngine::RectTransform* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + CLASS_3_A6679D9AC50FCCD7_CLASS_4_0878956720FC3DC6_4_METHOD_4_69FAD2F9E8A43CC3_1_OFFSET))(this, a1);
+	}
+};

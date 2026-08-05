@@ -1,19 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Cysharp/Threading/Tasks/UniTaskVoid.h"
 #include "unitysdk/MoleMole/DisplayMessageBase.h"
 
-class Class_2_208CC9941471731A_22;
-
-#define MOLEMOLE_SEASONPREUNLOCKAFTERLEAVEPOPSHOW_CHECKRESOURCE_OFFSET UNITYSDK_OFFSET(0x16CE4260)
-#define MOLEMOLE_SEASONPREUNLOCKAFTERLEAVEPOPSHOW_DOPREUNLOCKASYNC_OFFSET UNITYSDK_OFFSET(0x16CE4450)
-#define MOLEMOLE_SEASONPREUNLOCKAFTERLEAVEPOPSHOW_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x16CE3D20)
-#define MOLEMOLE_SEASONPREUNLOCKAFTERLEAVEPOPSHOW_ONPROCESS_OFFSET UNITYSDK_OFFSET(0x16CE3D70)
-#define MOLEMOLE_SEASONPREUNLOCKAFTERLEAVEPOPSHOW__CTOR_OFFSET UNITYSDK_OFFSET(0x16CE3D30)
+#define MOLEMOLE_SEASONPREUNLOCKAFTERLEAVEPOPSHOW_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x13AD02C0)
+#define MOLEMOLE_SEASONPREUNLOCKAFTERLEAVEPOPSHOW_ONPROCESS_OFFSET UNITYSDK_OFFSET(0x13AD0310)
+#define MOLEMOLE_SEASONPREUNLOCKAFTERLEAVEPOPSHOW__CTOR_OFFSET UNITYSDK_OFFSET(0x13AD02D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SeasonPreUnlockAfterLeavePopShow_TypeDefinitionIndex = 59672;
+	inline static constexpr unsigned int SeasonPreUnlockAfterLeavePopShow_TypeDefinitionIndex = 40633;
 
 	class SeasonPreUnlockAfterLeavePopShow : public ::MoleMole::DisplayMessageBase
 	{
@@ -33,16 +28,6 @@ namespace MoleMole
 		::System::Void OnProcess()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SEASONPREUNLOCKAFTERLEAVEPOPSHOW_ONPROCESS_OFFSET))(this);
-		}
-
-		static ::System::Boolean CheckResource(::Class_2_208CC9941471731A_22* template_)
-		{
-			return ((::System::Boolean(*)(::Class_2_208CC9941471731A_22*))((::PBYTE)hIl2Cpp + MOLEMOLE_SEASONPREUNLOCKAFTERLEAVEPOPSHOW_CHECKRESOURCE_OFFSET))(template_);
-		}
-
-		::Cysharp::Threading::Tasks::UniTaskVoid DoPreUnlockAsync()
-		{
-			return ((::Cysharp::Threading::Tasks::UniTaskVoid(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SEASONPREUNLOCKAFTERLEAVEPOPSHOW_DOPREUNLOCKASYNC_OFFSET))(this);
 		}
 	};
 }

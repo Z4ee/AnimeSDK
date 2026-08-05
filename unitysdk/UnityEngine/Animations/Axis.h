@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Animations
 {
-	inline static constexpr unsigned int Axis_TypeDefinitionIndex = 6691;
+	inline static constexpr unsigned int Axis_TypeDefinitionIndex = 6695;
 
 	enum class Axis : ::System::Int32
 	{

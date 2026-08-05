@@ -3,7 +3,7 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int MultiVer_TypeDefinitionIndex = 8028;
+	inline static constexpr unsigned int MultiVer_TypeDefinitionIndex = 8330;
 
 	enum class MultiVer : ::System::Int32
 	{

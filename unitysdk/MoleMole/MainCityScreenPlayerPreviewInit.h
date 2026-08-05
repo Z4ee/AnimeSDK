@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define MOLEMOLE_MAINCITYSCREENPLAYERPREVIEWINIT__CTOR_OFFSET UNITYSDK_OFFSET(0x141887A0)
+#define MOLEMOLE_MAINCITYSCREENPLAYERPREVIEWINIT__CTOR_OFFSET UNITYSDK_OFFSET(0x107FB990)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MainCityScreenPlayerPreviewInit_TypeDefinitionIndex = 52130;
+	inline static constexpr unsigned int MainCityScreenPlayerPreviewInit_TypeDefinitionIndex = 41504;
 
 	class MainCityScreenPlayerPreviewInit : public ::UnityEngine::MonoBehaviour
 	{

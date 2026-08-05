@@ -5,7 +5,7 @@ namespace NPCCrowd::Animation { class NPCCPUAnimationGraphScriptBase; }
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int INPCCPUAnimator_StateJob_TypeDefinitionIndex = 48936;
+	inline static constexpr unsigned int INPCCPUAnimator_StateJob_TypeDefinitionIndex = 61887;
 
 	class INPCCPUAnimator_StateJob
 	{

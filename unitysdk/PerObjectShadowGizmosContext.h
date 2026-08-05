@@ -5,7 +5,7 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
-inline static constexpr unsigned int PerObjectShadowGizmosContext_TypeDefinitionIndex = 26542;
+inline static constexpr unsigned int PerObjectShadowGizmosContext_TypeDefinitionIndex = 27382;
 
 struct alignas(4) PerObjectShadowGizmosContext
 {

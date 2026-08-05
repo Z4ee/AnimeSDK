@@ -1,0 +1,138 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Enum_3_3EDF246633A325B0.h"
+#include "unitysdk/MoleMole/UIWindowController.h"
+#include "unitysdk/Struct_2_575273D27F02957E.h"
+
+class Class_2_208CC9941471731A_664;
+class Class_2_ECE6F0133FFDC02D;
+namespace MoleMole { class UIControlReference; }
+namespace MoleMole { class UIControllerContextBase; }
+namespace System { class EventArgs; }
+
+#define MOLEMOLE_UIZENKOVMISSIONPAGECONTROLLER_AFTERNEWBIE_OFFSET UNITYSDK_OFFSET(0x13523A40)
+#define MOLEMOLE_UIZENKOVMISSIONPAGECONTROLLER_GET_TRIGGERNEWBIEONSHOW_OFFSET UNITYSDK_OFFSET(0x13523CE0)
+#define MOLEMOLE_UIZENKOVMISSIONPAGECONTROLLER_GET_WINDOWTYPE_OFFSET UNITYSDK_OFFSET(0x135223A0)
+#define MOLEMOLE_UIZENKOVMISSIONPAGECONTROLLER_GET__VIEWMODEL_OFFSET UNITYSDK_OFFSET(0x135223B0)
+#define MOLEMOLE_UIZENKOVMISSIONPAGECONTROLLER_ISBETTERDUNGEON_OFFSET UNITYSDK_OFFSET(0x13522E20)
+#define MOLEMOLE_UIZENKOVMISSIONPAGECONTROLLER_ONCREATEVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x13522420)
+#define MOLEMOLE_UIZENKOVMISSIONPAGECONTROLLER_ONPOSTPAGESHOWED_OFFSET UNITYSDK_OFFSET(0x13523D00)
+#define MOLEMOLE_UIZENKOVMISSIONPAGECONTROLLER_ONSHOW_OFFSET UNITYSDK_OFFSET(0x13522ED0)
+#define MOLEMOLE_UIZENKOVMISSIONPAGECONTROLLER_ONUICLOSE_OFFSET UNITYSDK_OFFSET(0x13523850)
+#define MOLEMOLE_UIZENKOVMISSIONPAGECONTROLLER_ONUIOPEN_OFFSET UNITYSDK_OFFSET(0x135224C0)
+#define MOLEMOLE_UIZENKOVMISSIONPAGECONTROLLER_SELECTBESTDUNGEON_OFFSET UNITYSDK_OFFSET(0x135226C0)
+#define MOLEMOLE_UIZENKOVMISSIONPAGECONTROLLER_SET_TRIGGERNEWBIEONSHOW_OFFSET UNITYSDK_OFFSET(0x13523CF0)
+#define MOLEMOLE_UIZENKOVMISSIONPAGECONTROLLER_TRIGGERNEWBIE_OFFSET UNITYSDK_OFFSET(0x13523630)
+#define MOLEMOLE_UIZENKOVMISSIONPAGECONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x13524050)
+#define MOLEMOLE_UIZENKOVMISSIONPAGECONTROLLER___BASE_ONCREATEVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x13524060)
+#define MOLEMOLE_UIZENKOVMISSIONPAGECONTROLLER___BASE_ONPOSTPAGESHOWED_OFFSET UNITYSDK_OFFSET(0x13524100)
+#define MOLEMOLE_UIZENKOVMISSIONPAGECONTROLLER___BASE_ONSHOW_OFFSET UNITYSDK_OFFSET(0x13524110)
+#define MOLEMOLE_UIZENKOVMISSIONPAGECONTROLLER___BASE_ONUICLOSE_OFFSET UNITYSDK_OFFSET(0x13524120)
+#define MOLEMOLE_UIZENKOVMISSIONPAGECONTROLLER___BASE_ONUIOPEN_OFFSET UNITYSDK_OFFSET(0x135241E0)
+
+namespace MoleMole
+{
+	inline static constexpr unsigned int UIZenkovMissionPageController_TypeDefinitionIndex = 83731;
+
+	class UIZenkovMissionPageController : public ::MoleMole::UIWindowController
+	{
+	public:
+		// static const ::System::Int32 newbieID = 0xC50E; // 0x0
+		::System::Boolean _TriggerNewbieOnShow_k__BackingField; // 0x318
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVMISSIONPAGECONTROLLER__CTOR_OFFSET))(this);
+		}
+
+		::Enum_3_3EDF246633A325B0 get_windowType()
+		{
+			return ((::Enum_3_3EDF246633A325B0(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVMISSIONPAGECONTROLLER_GET_WINDOWTYPE_OFFSET))(this);
+		}
+
+		::Class_2_ECE6F0133FFDC02D* get__viewModel()
+		{
+			return ((::Class_2_ECE6F0133FFDC02D*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVMISSIONPAGECONTROLLER_GET__VIEWMODEL_OFFSET))(this);
+		}
+
+		::System::Void OnCreateViewModel(::Struct_2_575273D27F02957E& binderInfo, ::MoleMole::UIControlReference* controlReference)
+		{
+			return ((::System::Void(*)(::PVOID, ::Struct_2_575273D27F02957E&, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVMISSIONPAGECONTROLLER_ONCREATEVIEWMODEL_OFFSET))(this, binderInfo, controlReference);
+		}
+
+		::System::Void OnUIOpen(::MoleMole::UIControllerContextBase* openCtrlContext)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVMISSIONPAGECONTROLLER_ONUIOPEN_OFFSET))(this, openCtrlContext);
+		}
+
+		::System::Void SelectBestDungeon()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVMISSIONPAGECONTROLLER_SELECTBESTDUNGEON_OFFSET))(this);
+		}
+
+		::System::Boolean IsBetterDungeon(::Class_2_208CC9941471731A_664* lhs, ::Class_2_208CC9941471731A_664* rhs)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::Class_2_208CC9941471731A_664*, ::Class_2_208CC9941471731A_664*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVMISSIONPAGECONTROLLER_ISBETTERDUNGEON_OFFSET))(this, lhs, rhs);
+		}
+
+		::System::Void OnShow(::MoleMole::UIControllerContextBase* showCtrlContext)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVMISSIONPAGECONTROLLER_ONSHOW_OFFSET))(this, showCtrlContext);
+		}
+
+		::System::Void OnUIClose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVMISSIONPAGECONTROLLER_ONUICLOSE_OFFSET))(this);
+		}
+
+		::System::Void AfterNewbie(::System::EventArgs* args)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::EventArgs*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVMISSIONPAGECONTROLLER_AFTERNEWBIE_OFFSET))(this, args);
+		}
+
+		::System::Boolean get_TriggerNewbieOnShow()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVMISSIONPAGECONTROLLER_GET_TRIGGERNEWBIEONSHOW_OFFSET))(this);
+		}
+
+		::System::Void set_TriggerNewbieOnShow(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVMISSIONPAGECONTROLLER_SET_TRIGGERNEWBIEONSHOW_OFFSET))(this, value);
+		}
+
+		::System::Void OnPostPageShowed()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVMISSIONPAGECONTROLLER_ONPOSTPAGESHOWED_OFFSET))(this);
+		}
+
+		::System::Void TriggerNewbie()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVMISSIONPAGECONTROLLER_TRIGGERNEWBIE_OFFSET))(this);
+		}
+
+		::System::Void __base_OnCreateViewModel(::Struct_2_575273D27F02957E& P0, ::MoleMole::UIControlReference* P1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Struct_2_575273D27F02957E&, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVMISSIONPAGECONTROLLER___BASE_ONCREATEVIEWMODEL_OFFSET))(this, P0, P1);
+		}
+
+		::System::Void __base_OnPostPageShowed()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVMISSIONPAGECONTROLLER___BASE_ONPOSTPAGESHOWED_OFFSET))(this);
+		}
+
+		::System::Void __base_OnShow(::MoleMole::UIControllerContextBase* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVMISSIONPAGECONTROLLER___BASE_ONSHOW_OFFSET))(this, P0);
+		}
+
+		::System::Void __base_OnUIClose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVMISSIONPAGECONTROLLER___BASE_ONUICLOSE_OFFSET))(this);
+		}
+
+		::System::Void __base_OnUIOpen(::MoleMole::UIControllerContextBase* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVMISSIONPAGECONTROLLER___BASE_ONUIOPEN_OFFSET))(this, P0);
+		}
+	};
+}

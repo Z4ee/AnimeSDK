@@ -5,24 +5,24 @@
 class Class_1_0D6706375CDAAE8C;
 namespace System { template <typename T> class Comparison_1; }
 
-#define MOLEMOLE_UIHOLLOWREWARDBAGDIALOGPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1825A6F0)
-#define MOLEMOLE_UIHOLLOWREWARDBAGDIALOGPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1825A730)
-#define MOLEMOLE_UIHOLLOWREWARDBAGDIALOGPOPWINDOWCONTROLLER___C__REFRESHVIEW_B__14_0_OFFSET UNITYSDK_OFFSET(0x1825A740)
+#define MOLEMOLE_UIHOLLOWREWARDBAGDIALOGPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19EB5B70)
+#define MOLEMOLE_UIHOLLOWREWARDBAGDIALOGPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19EB5BB0)
+#define MOLEMOLE_UIHOLLOWREWARDBAGDIALOGPOPWINDOWCONTROLLER___C__REFRESHVIEW_B__14_0_OFFSET UNITYSDK_OFFSET(0x19EB5BC0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowRewardBagDialogPopWindowController___c_TypeDefinitionIndex = 45780;
+	inline static constexpr unsigned int UIHollowRewardBagDialogPopWindowController___c_TypeDefinitionIndex = 76823;
 
 	class UIHollowRewardBagDialogPopWindowController___c : public ::System::Object
 	{
 	public:
 		static ::MoleMole::UIHollowRewardBagDialogPopWindowController___c** StaticGet___9()
 		{
-			return (::MoleMole::UIHollowRewardBagDialogPopWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UIHollowRewardBagDialogPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x30DB0);
+			return (::MoleMole::UIHollowRewardBagDialogPopWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UIHollowRewardBagDialogPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x32EC0);
 		}
 		static ::System::Comparison_1<::Class_1_0D6706375CDAAE8C*>** StaticGet___9__14_0()
 		{
-			return (::System::Comparison_1<::Class_1_0D6706375CDAAE8C*>**)Il2CppClass::FromTypeDefinitionIndex(UIHollowRewardBagDialogPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x30DB8);
+			return (::System::Comparison_1<::Class_1_0D6706375CDAAE8C*>**)Il2CppClass::FromTypeDefinitionIndex(UIHollowRewardBagDialogPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x32EC8);
 		}
 
 		static ::System::Void _cctor()

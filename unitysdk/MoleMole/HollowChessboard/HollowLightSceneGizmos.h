@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWLIGHTSCENEGIZMOS__CTOR_OFFSET UNITYSDK_OFFSET(0x15133D00)
+#define MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWLIGHTSCENEGIZMOS__CTOR_OFFSET UNITYSDK_OFFSET(0x17908690)
 
 namespace MoleMole::HollowChessboard
 {
-	inline static constexpr unsigned int HollowLightSceneGizmos_TypeDefinitionIndex = 62444;
+	inline static constexpr unsigned int HollowLightSceneGizmos_TypeDefinitionIndex = 58396;
 
 	class HollowLightSceneGizmos : public ::UnityEngine::MonoBehaviour
 	{

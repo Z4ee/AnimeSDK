@@ -8,11 +8,11 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class MeshFilter; }
 namespace UnityEngine::NAPRenderPipeline0 { class PlanarReflectionCubeProbe_NativeSRP; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_PLANARREFLECTIONCUBEMANAGER_NATIVESRP__CTOR_OFFSET UNITYSDK_OFFSET(0x1D730320)
+#define UNITYENGINE_NAPRENDERPIPELINE0_PLANARREFLECTIONCUBEMANAGER_NATIVESRP__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA6DAB0)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int PlanarReflectionCubeManager_NativeSRP_TypeDefinitionIndex = 6012;
+	inline static constexpr unsigned int PlanarReflectionCubeManager_NativeSRP_TypeDefinitionIndex = 6014;
 
 	class PlanarReflectionCubeManager_NativeSRP : public ::UnityEngine::MonoBehaviour
 	{

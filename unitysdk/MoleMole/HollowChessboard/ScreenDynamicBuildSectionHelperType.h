@@ -3,7 +3,7 @@
 
 namespace MoleMole::HollowChessboard
 {
-	inline static constexpr unsigned int ScreenDynamicBuildSectionHelperType_TypeDefinitionIndex = 70223;
+	inline static constexpr unsigned int ScreenDynamicBuildSectionHelperType_TypeDefinitionIndex = 59561;
 
 	enum class ScreenDynamicBuildSectionHelperType : ::System::UInt32
 	{

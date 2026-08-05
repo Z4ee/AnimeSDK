@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace Newtonsoft::Json::Utilities
 {
-	inline static constexpr unsigned int ThreadSafeStore_2_TypeDefinitionIndex = 7089;
+	inline static constexpr unsigned int ThreadSafeStore_2_TypeDefinitionIndex = 7093;
 
 	template <typename TKey, typename TValue>
 	class ThreadSafeStore_2 : public ::System::Object

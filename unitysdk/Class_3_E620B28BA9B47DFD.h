@@ -4,9 +4,9 @@
 
 class Class_3_9D33A2E94B3E53DC;
 namespace System { class String; }
-template <typename T> class Class_0_16E4307DCC41950C_18;
+template <typename T> class Class_0_16E4307DCC41950C_17;
 
-inline static constexpr unsigned int Class_3_E620B28BA9B47DFD_TypeDefinitionIndex = 51406;
+inline static constexpr unsigned int Class_3_E620B28BA9B47DFD_TypeDefinitionIndex = 64923;
 
 template <typename TFilter>
 class Class_3_E620B28BA9B47DFD : public ::Class_2_97B8C5560BEC00CB<::Class_3_9D33A2E94B3E53DC*, TFilter>

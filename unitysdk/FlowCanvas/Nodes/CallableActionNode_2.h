@@ -6,7 +6,7 @@ namespace FlowCanvas { class FlowNode; }
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int CallableActionNode_2_TypeDefinitionIndex = 30077;
+	inline static constexpr unsigned int CallableActionNode_2_TypeDefinitionIndex = 30127;
 
 	template <typename T1, typename T2>
 	class CallableActionNode_2 : public ::FlowCanvas::Nodes::CallableActionNodeBase

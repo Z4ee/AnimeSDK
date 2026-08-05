@@ -7,13 +7,13 @@ namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 namespace MoleMole::Battle { class Entity; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_DESTROYEFFECTNODE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x13ED8AC0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_DESTROYEFFECTNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x13ED8BB0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_DESTROYEFFECTNODE__REGISTERPORTS_B__3_0_OFFSET UNITYSDK_OFFSET(0x13ED8BF0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_DESTROYEFFECTNODE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1369E200)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_DESTROYEFFECTNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1369E2F0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_DESTROYEFFECTNODE__REGISTERPORTS_B__3_0_OFFSET UNITYSDK_OFFSET(0x1369E330)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_DestroyEffectNode_TypeDefinitionIndex = 73452;
+	inline static constexpr unsigned int LD_DestroyEffectNode_TypeDefinitionIndex = 62346;
 
 	class LD_DestroyEffectNode : public ::FlowCanvas::Nodes::FlowControlNode
 	{

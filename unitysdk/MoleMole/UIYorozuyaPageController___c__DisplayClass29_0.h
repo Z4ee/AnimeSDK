@@ -5,12 +5,12 @@
 namespace MoleMole { class UIYorozuyaPageController; }
 namespace System { template <typename T1, typename T2> class Tuple_2; }
 
-#define MOLEMOLE_UIYOROZUYAPAGECONTROLLER___C__DISPLAYCLASS29_0__CTOR_OFFSET UNITYSDK_OFFSET(0x10422200)
-#define MOLEMOLE_UIYOROZUYAPAGECONTROLLER___C__DISPLAYCLASS29_0__REFRESHCAPTERMES_B__2_OFFSET UNITYSDK_OFFSET(0x10422210)
+#define MOLEMOLE_UIYOROZUYAPAGECONTROLLER___C__DISPLAYCLASS29_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14D91A20)
+#define MOLEMOLE_UIYOROZUYAPAGECONTROLLER___C__DISPLAYCLASS29_0__REFRESHCAPTERMES_B__2_OFFSET UNITYSDK_OFFSET(0x14D91A30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIYorozuyaPageController___c__DisplayClass29_0_TypeDefinitionIndex = 74414;
+	inline static constexpr unsigned int UIYorozuyaPageController___c__DisplayClass29_0_TypeDefinitionIndex = 54557;
 
 	class UIYorozuyaPageController___c__DisplayClass29_0 : public ::System::Object
 	{

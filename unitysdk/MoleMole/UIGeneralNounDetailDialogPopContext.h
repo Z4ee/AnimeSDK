@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_UIGENERALNOUNDETAILDIALOGPOPCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x181105E0)
+#define MOLEMOLE_UIGENERALNOUNDETAILDIALOGPOPCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x19FC4680)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralNounDetailDialogPopContext_TypeDefinitionIndex = 63067;
+	inline static constexpr unsigned int UIGeneralNounDetailDialogPopContext_TypeDefinitionIndex = 63249;
 
 	class UIGeneralNounDetailDialogPopContext : public ::MoleMole::UIControllerContextBase
 	{

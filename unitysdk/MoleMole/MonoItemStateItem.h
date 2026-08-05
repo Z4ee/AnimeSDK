@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_MONOITEMSTATEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x13F138C0)
+#define MOLEMOLE_MONOITEMSTATEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x136DD870)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoItemStateItem_TypeDefinitionIndex = 67612;
+	inline static constexpr unsigned int MonoItemStateItem_TypeDefinitionIndex = 69428;
 
 	class MonoItemStateItem : public ::System::Object
 	{

@@ -5,7 +5,7 @@
 
 namespace PipeSplineDeformation
 {
-	inline static constexpr unsigned int PipeSplineGpuConverter_DenseSample_TypeDefinitionIndex = 26760;
+	inline static constexpr unsigned int PipeSplineGpuConverter_DenseSample_TypeDefinitionIndex = 27401;
 
 	struct alignas(4) PipeSplineGpuConverter_DenseSample
 	{

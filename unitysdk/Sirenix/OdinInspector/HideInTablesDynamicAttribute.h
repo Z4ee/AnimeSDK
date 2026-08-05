@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define SIRENIX_ODININSPECTOR_HIDEINTABLESDYNAMICATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E329240)
+#define SIRENIX_ODININSPECTOR_HIDEINTABLESDYNAMICATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F7705E0)
 
 namespace Sirenix::OdinInspector
 {
-	inline static constexpr unsigned int HideInTablesDynamicAttribute_TypeDefinitionIndex = 7311;
+	inline static constexpr unsigned int HideInTablesDynamicAttribute_TypeDefinitionIndex = 7315;
 
 	class HideInTablesDynamicAttribute : public ::System::Attribute
 	{

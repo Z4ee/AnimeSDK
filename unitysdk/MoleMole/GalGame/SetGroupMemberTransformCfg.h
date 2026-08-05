@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_GALGAME_SETGROUPMEMBERTRANSFORMCFG__CTOR_OFFSET UNITYSDK_OFFSET(0x182E29F0)
+#define MOLEMOLE_GALGAME_SETGROUPMEMBERTRANSFORMCFG__CTOR_OFFSET UNITYSDK_OFFSET(0x19B19140)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int SetGroupMemberTransformCfg_TypeDefinitionIndex = 40598;
+	inline static constexpr unsigned int SetGroupMemberTransformCfg_TypeDefinitionIndex = 62381;
 
 	class SetGroupMemberTransformCfg : public ::System::Object
 	{

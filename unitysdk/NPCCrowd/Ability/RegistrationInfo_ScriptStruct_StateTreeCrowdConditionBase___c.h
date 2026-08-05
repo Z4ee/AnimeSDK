@@ -4,20 +4,20 @@
 
 namespace UnrealTypes { class ICppStructOps; }
 
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREECROWDCONDITIONBASE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xE015940)
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREECROWDCONDITIONBASE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xE015980)
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREECROWDCONDITIONBASE___C___CCTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0xE015990)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREECROWDCONDITIONBASE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x11931740)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREECROWDCONDITIONBASE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x11931780)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREECROWDCONDITIONBASE___C___CCTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0x11931790)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_StateTreeCrowdConditionBase___c_TypeDefinitionIndex = 64010;
+	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_StateTreeCrowdConditionBase___c_TypeDefinitionIndex = 63714;
 
 	class RegistrationInfo_ScriptStruct_StateTreeCrowdConditionBase___c : public ::System::Object
 	{
 	public:
 		static ::NPCCrowd::Ability::RegistrationInfo_ScriptStruct_StateTreeCrowdConditionBase___c** StaticGet___9()
 		{
-			return (::NPCCrowd::Ability::RegistrationInfo_ScriptStruct_StateTreeCrowdConditionBase___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_StateTreeCrowdConditionBase___c_TypeDefinitionIndex)->GetStaticField(0x3F8A0);
+			return (::NPCCrowd::Ability::RegistrationInfo_ScriptStruct_StateTreeCrowdConditionBase___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_StateTreeCrowdConditionBase___c_TypeDefinitionIndex)->GetStaticField(0x40EC0);
 		}
 
 		static ::System::Void _cctor()

@@ -6,10 +6,10 @@ namespace MoleMole::DataBind { class AsyncDestroyTrigger; }
 namespace UnityEngine { class Component; }
 namespace UnityEngine { class GameObject; }
 
-#define CLASS_1_A56E1EEF29B13396_METHOD_1_0855FF79C8DAEC86_OFFSET UNITYSDK_OFFSET(0x1C9081B0)
-#define CLASS_1_A56E1EEF29B13396_METHOD_1_181FFB5F87A4F2D0_OFFSET UNITYSDK_OFFSET(0x1C908210)
+#define CLASS_1_A56E1EEF29B13396_METHOD_1_0855FF79C8DAEC86_OFFSET UNITYSDK_OFFSET(0x1D912330)
+#define CLASS_1_A56E1EEF29B13396_METHOD_1_181FFB5F87A4F2D0_OFFSET UNITYSDK_OFFSET(0x1D912390)
 
-inline static constexpr unsigned int Class_1_A56E1EEF29B13396_TypeDefinitionIndex = 34592;
+inline static constexpr unsigned int Class_1_A56E1EEF29B13396_TypeDefinitionIndex = 35208;
 
 class Class_1_A56E1EEF29B13396 : public ::System::Object
 {

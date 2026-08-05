@@ -4,11 +4,11 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define NPCCROWD_AI_ATTRACTORTESTINSTANCE__CTOR_OFFSET UNITYSDK_OFFSET(0x117842D0)
+#define NPCCROWD_AI_ATTRACTORTESTINSTANCE__CTOR_OFFSET UNITYSDK_OFFSET(0xE92CEE0)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int AttractorTestInstance_TypeDefinitionIndex = 81970;
+	inline static constexpr unsigned int AttractorTestInstance_TypeDefinitionIndex = 54354;
 
 	class AttractorTestInstance : public ::System::Object
 	{

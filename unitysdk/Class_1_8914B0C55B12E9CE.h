@@ -10,14 +10,14 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyCollection_1; }
 
-inline static constexpr unsigned int Class_1_8914B0C55B12E9CE_TypeDefinitionIndex = 28065;
+inline static constexpr unsigned int Class_1_8914B0C55B12E9CE_TypeDefinitionIndex = 28694;
 
 template <typename T>
 class Class_1_8914B0C55B12E9CE : public ::System::Object
 {
 public:
 	// static const ::System::Int32 Field_1_0 = 0x8; // 0x0
-	::Il2CppArray<T>* Field_1_1; // 0x0
-	::System::Int32 Field_1_2; // 0x0
-	::System::Int32 Field_1_3; // 0x0
+	::Il2CppArray<T>* Field_1_7; // 0x0
+	::System::Int32 Field_1_6; // 0x0
+	::System::Int32 Field_1_5; // 0x0
 };

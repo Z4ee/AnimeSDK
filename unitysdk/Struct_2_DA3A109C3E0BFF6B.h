@@ -5,12 +5,12 @@
 
 namespace MoleMole { class UIPerformPageController; }
 
-inline static constexpr unsigned int Struct_2_DA3A109C3E0BFF6B_TypeDefinitionIndex = 67593;
+inline static constexpr unsigned int Struct_2_DA3A109C3E0BFF6B_TypeDefinitionIndex = 78514;
 
 struct alignas(8) Struct_2_DA3A109C3E0BFF6B
 {
 	::System::Boolean Field_2_0; // 0x10
-	::Enum_3_95B09D25BBC8F884 Field_2_1; // 0x14
-	::System::Boolean Field_2_2; // 0x18
-	::MoleMole::UIPerformPageController* Field_2_3; // 0x20
+	::Enum_3_95B09D25BBC8F884 Field_2_7; // 0x14
+	::System::Boolean Field_2_6; // 0x18
+	::MoleMole::UIPerformPageController* Field_2_5; // 0x20
 };

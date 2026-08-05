@@ -11,31 +11,31 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIURBANMAPLEFTLOCATIONROWCONTEXT_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x157C62B0)
-#define MOLEMOLE_UIURBANMAPLEFTLOCATIONROWCONTEXT_EQUALS_OFFSET UNITYSDK_OFFSET(0x157C6200)
-#define MOLEMOLE_UIURBANMAPLEFTLOCATIONROWCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x157C6410)
-#define MOLEMOLE_UIURBANMAPLEFTLOCATIONROWCONTEXT___BASE_EQUALS_OFFSET UNITYSDK_OFFSET(0x157C6460)
+#define MOLEMOLE_UIURBANMAPLEFTLOCATIONROWCONTEXT_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x10EF80F0)
+#define MOLEMOLE_UIURBANMAPLEFTLOCATIONROWCONTEXT_EQUALS_OFFSET UNITYSDK_OFFSET(0x10EF8040)
+#define MOLEMOLE_UIURBANMAPLEFTLOCATIONROWCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x10EF8250)
+#define MOLEMOLE_UIURBANMAPLEFTLOCATIONROWCONTEXT___BASE_EQUALS_OFFSET UNITYSDK_OFFSET(0x10EF82A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIUrbanMapLeftLocationRowContext_TypeDefinitionIndex = 51013;
+	inline static constexpr unsigned int UIUrbanMapLeftLocationRowContext_TypeDefinitionIndex = 48464;
 
 	class UIUrbanMapLeftLocationRowContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::System::Func_2<::MoleMole::UIUrbanMapLeftLocationRowContext*, ::System::Boolean>* CurrentSelectFlag; // 0x28
-		::System::Action_1<::MoleMole::UIUrbanMapLeftLocationRowContext*>* OnClick; // 0x30
-		::System::Collections::Generic::List_1<::Class_1_1685EC66FBD28897*>* ItemList; // 0x38
-		::System::String* Title; // 0x40
-		::System::Func_2<::MoleMole::UIUrbanMapLeftLocationRowContext*, ::Foundation::AssetPath>* Icon; // 0x48
-		::System::Func_2<::MoleMole::UIUrbanMapLeftLocationRowContext*, ::System::Boolean>* PlayerInFlag; // 0x50
-		::System::Action* OnClickClose; // 0x58
-		::System::Func_2<::MoleMole::UIUrbanMapLeftLocationRowContext*, ::System::Boolean>* IsLock; // 0x60
-		::System::Int32 LeftNum; // 0x68
+		::System::String* Title; // 0x28
+		::System::Func_2<::MoleMole::UIUrbanMapLeftLocationRowContext*, ::System::Boolean>* PlayerInFlag; // 0x30
+		::System::Func_2<::MoleMole::UIUrbanMapLeftLocationRowContext*, ::Foundation::AssetPath>* Icon; // 0x38
+		::System::Action_1<::MoleMole::UIUrbanMapLeftLocationRowContext*>* OnClick; // 0x40
+		::System::Action* OnClickClose; // 0x48
+		::System::Func_2<::MoleMole::UIUrbanMapLeftLocationRowContext*, ::System::Boolean>* IsLock; // 0x50
+		::System::Func_2<::MoleMole::UIUrbanMapLeftLocationRowContext*, ::System::Boolean>* CurrentSelectFlag; // 0x58
+		::System::Collections::Generic::List_1<::Class_1_1685EC66FBD28897*>* ItemList; // 0x60
+		::System::Boolean IsSimpleTitleMode; // 0x68
+		::System::Boolean IsEmpty; // 0x69
+		::System::Boolean IsFinish; // 0x6A
 		::System::Int32 SpecialId; // 0x6C
-		::System::Boolean IsFinish; // 0x70
-		::System::Boolean IsSimpleTitleMode; // 0x71
-		::System::Boolean IsEmpty; // 0x72
+		::System::Int32 LeftNum; // 0x70
 		::System::Int32 RightNum; // 0x74
 
 		::System::Void _ctor()

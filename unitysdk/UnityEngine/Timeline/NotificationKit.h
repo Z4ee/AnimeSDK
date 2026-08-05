@@ -6,22 +6,22 @@ namespace System { template <typename T> class Action_1; }
 namespace UnityEngine::Timeline { class INapNotification; }
 namespace UnityEngine::Timeline { class INapNotifyData; }
 
-#define UNITYENGINE_TIMELINE_NOTIFICATIONKIT_NOTIFY_1_OFFSET UNITYSDK_OFFSET(0x1DD0E370)
-#define UNITYENGINE_TIMELINE_NOTIFICATIONKIT_NOTIFY_OFFSET UNITYSDK_OFFSET(0x1DD0E270)
-#define UNITYENGINE_TIMELINE_NOTIFICATIONKIT_REGISTERNAPNOTIFICATION_OFFSET UNITYSDK_OFFSET(0x1DD0E3D0)
-#define UNITYENGINE_TIMELINE_NOTIFICATIONKIT_UNREGISTERNAPNOTIFICATION_OFFSET UNITYSDK_OFFSET(0x1DD0E3E0)
-#define UNITYENGINE_TIMELINE_NOTIFICATIONKIT__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD0E400)
+#define UNITYENGINE_TIMELINE_NOTIFICATIONKIT_NOTIFY_1_OFFSET UNITYSDK_OFFSET(0x1F0E57C0)
+#define UNITYENGINE_TIMELINE_NOTIFICATIONKIT_NOTIFY_OFFSET UNITYSDK_OFFSET(0x1F0E56C0)
+#define UNITYENGINE_TIMELINE_NOTIFICATIONKIT_REGISTERNAPNOTIFICATION_OFFSET UNITYSDK_OFFSET(0x1F0E5820)
+#define UNITYENGINE_TIMELINE_NOTIFICATIONKIT_UNREGISTERNAPNOTIFICATION_OFFSET UNITYSDK_OFFSET(0x1F0E5830)
+#define UNITYENGINE_TIMELINE_NOTIFICATIONKIT__CTOR_OFFSET UNITYSDK_OFFSET(0x1F0E5850)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int NotificationKit_TypeDefinitionIndex = 32435;
+	inline static constexpr unsigned int NotificationKit_TypeDefinitionIndex = 33066;
 
 	class NotificationKit : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::UnityEngine::Timeline::INapNotifyData*>** StaticGet_NotifyAction()
 		{
-			return (::System::Action_1<::UnityEngine::Timeline::INapNotifyData*>**)Il2CppClass::FromTypeDefinitionIndex(NotificationKit_TypeDefinitionIndex)->GetStaticField(0x26890);
+			return (::System::Action_1<::UnityEngine::Timeline::INapNotifyData*>**)Il2CppClass::FromTypeDefinitionIndex(NotificationKit_TypeDefinitionIndex)->GetStaticField(0x28080);
 		}
 
 		::System::Void _ctor()

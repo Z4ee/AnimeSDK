@@ -9,30 +9,30 @@
 
 namespace UnityEngine::UI { class GridLayoutGroup; }
 
-#define MOLEMOLE_UIGRIDLAYOUTGROUP_GET_VALUECHANGED_OFFSET UNITYSDK_OFFSET(0x1880FE90)
-#define MOLEMOLE_UIGRIDLAYOUTGROUP_MARKVALUECHANGE_OFFSET UNITYSDK_OFFSET(0x1880FEB0)
-#define MOLEMOLE_UIGRIDLAYOUTGROUP_REINITFROMGRIDLAYOUTGROUP_OFFSET UNITYSDK_OFFSET(0x1880FCA0)
-#define MOLEMOLE_UIGRIDLAYOUTGROUP_SET_VALUECHANGED_OFFSET UNITYSDK_OFFSET(0x1880FEA0)
-#define MOLEMOLE_UIGRIDLAYOUTGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1880FC90)
+#define MOLEMOLE_UIGRIDLAYOUTGROUP_GET_VALUECHANGED_OFFSET UNITYSDK_OFFSET(0x19F09430)
+#define MOLEMOLE_UIGRIDLAYOUTGROUP_MARKVALUECHANGE_OFFSET UNITYSDK_OFFSET(0x19F09450)
+#define MOLEMOLE_UIGRIDLAYOUTGROUP_REINITFROMGRIDLAYOUTGROUP_OFFSET UNITYSDK_OFFSET(0x19F09230)
+#define MOLEMOLE_UIGRIDLAYOUTGROUP_SET_VALUECHANGED_OFFSET UNITYSDK_OFFSET(0x19F09440)
+#define MOLEMOLE_UIGRIDLAYOUTGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x19F09220)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGridLayoutGroup_TypeDefinitionIndex = 73737;
+	inline static constexpr unsigned int UIGridLayoutGroup_TypeDefinitionIndex = 49070;
 
 	class UIGridLayoutGroup : public ::System::Object
 	{
 	public:
-		::UnityEngine::Vector2 spacing; // 0x10
-		::UnityEngine::Vector2 cellSize; // 0x18
-		::System::Int32 padding_left; // 0x20
-		::UnityEngine::TextAnchor childAlignment; // 0x24
-		::System::Boolean _valueChanged_k__BackingField; // 0x28
-		::System::Int32 padding_bottom; // 0x2C
-		::UnityEngine::UI::GridLayoutGroup_Constraint constraint; // 0x30
-		::UnityEngine::UI::GridLayoutGroup_Corner startCorner; // 0x34
-		::UnityEngine::UI::GridLayoutGroup_Axis startAxis; // 0x38
-		::System::Int32 padding_top; // 0x3C
-		::System::Int32 padding_right; // 0x40
+		::UnityEngine::UI::GridLayoutGroup_Constraint constraint; // 0x10
+		::UnityEngine::TextAnchor childAlignment; // 0x14
+		::UnityEngine::Vector2 spacing; // 0x18
+		::System::Int32 padding_bottom; // 0x20
+		::UnityEngine::UI::GridLayoutGroup_Axis startAxis; // 0x24
+		::System::Int32 padding_right; // 0x28
+		::System::Boolean _valueChanged_k__BackingField; // 0x2C
+		::System::Int32 padding_top; // 0x30
+		::UnityEngine::Vector2 cellSize; // 0x34
+		::System::Int32 padding_left; // 0x3C
+		::UnityEngine::UI::GridLayoutGroup_Corner startCorner; // 0x40
 
 		::System::Void _ctor(::UnityEngine::UI::GridLayoutGroup* gridLayout)
 		{

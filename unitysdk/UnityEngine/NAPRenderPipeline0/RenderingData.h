@@ -19,7 +19,7 @@
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int RenderingData_TypeDefinitionIndex = 5951;
+	inline static constexpr unsigned int RenderingData_TypeDefinitionIndex = 5953;
 
 	struct alignas(8) RenderingData
 	{

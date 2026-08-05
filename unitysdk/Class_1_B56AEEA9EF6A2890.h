@@ -8,23 +8,23 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_B56AEEA9EF6A2890_METHOD_1_E8AB4741BCF48DBE_1_OFFSET UNITYSDK_OFFSET(0x12A67A50)
-#define CLASS_1_B56AEEA9EF6A2890_METHOD_1_E8AB4741BCF48DBE_OFFSET UNITYSDK_OFFSET(0x12A678C0)
-#define CLASS_1_B56AEEA9EF6A2890__CCTOR_OFFSET UNITYSDK_OFFSET(0x12A67880)
-#define CLASS_1_B56AEEA9EF6A2890__CTOR_OFFSET UNITYSDK_OFFSET(0x12A67740)
+#define CLASS_1_B56AEEA9EF6A2890_METHOD_1_E8AB4741BCF48DBE_1_OFFSET UNITYSDK_OFFSET(0x1A8C1E60)
+#define CLASS_1_B56AEEA9EF6A2890_METHOD_1_E8AB4741BCF48DBE_OFFSET UNITYSDK_OFFSET(0x1A8C1CD0)
+#define CLASS_1_B56AEEA9EF6A2890__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A8C1C90)
+#define CLASS_1_B56AEEA9EF6A2890__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8C1B60)
 
-inline static constexpr unsigned int Class_1_B56AEEA9EF6A2890_TypeDefinitionIndex = 40894;
+inline static constexpr unsigned int Class_1_B56AEEA9EF6A2890_TypeDefinitionIndex = 64982;
 
 class Class_1_B56AEEA9EF6A2890 : public ::System::Object
 {
 public:
-	static ::System::Int32* StaticGet_Field_1_3()
+	static ::System::Int32* StaticGet_Field_1_6()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_B56AEEA9EF6A2890_TypeDefinitionIndex)->GetStaticField(0xCF10);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_B56AEEA9EF6A2890_TypeDefinitionIndex)->GetStaticField(0x10F10);
 	}
-	::System::Collections::Generic::HashSet_1<::System::String*>* Field_1_2; // 0x10
-	::UnityEngine::Color Field_1_0; // 0x18
-	::UnityEngine::Color Field_1_1; // 0x28
+	::System::Collections::Generic::HashSet_1<::System::String*>* Field_1_7; // 0x10
+	::UnityEngine::Color Field_1_1; // 0x18
+	::UnityEngine::Color Field_1_0; // 0x28
 
 	::System::Void _ctor(::System::Collections::Generic::List_1<::System::String*>* a1, ::UnityEngine::Color a2, ::UnityEngine::Color a3)
 	{

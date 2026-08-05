@@ -6,12 +6,12 @@ class Class_1_2D5DADE6FF36AA79;
 namespace MoleMole { class UIBaseChatPlayController; }
 namespace MoleMole { class UIMainCityChatPlayContext; }
 
-#define MOLEMOLE_GALGAME_MAINCITYCHATCLOSEUINODE_INSTANTIATE_OFFSET UNITYSDK_OFFSET(0x17E7E9D0)
-#define MOLEMOLE_GALGAME_MAINCITYCHATCLOSEUINODE__CTOR_OFFSET UNITYSDK_OFFSET(0x17E7E9C0)
+#define MOLEMOLE_GALGAME_MAINCITYCHATCLOSEUINODE_INSTANTIATE_OFFSET UNITYSDK_OFFSET(0x19BEF520)
+#define MOLEMOLE_GALGAME_MAINCITYCHATCLOSEUINODE__CTOR_OFFSET UNITYSDK_OFFSET(0x19BEF510)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int MainCityChatCloseUINode_TypeDefinitionIndex = 58547;
+	inline static constexpr unsigned int MainCityChatCloseUINode_TypeDefinitionIndex = 79396;
 
 	class MainCityChatCloseUINode : public ::MoleMole::GalGame::MainCityChatPlayableNodeBase
 	{

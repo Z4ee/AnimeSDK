@@ -6,11 +6,11 @@ namespace RBDDestruction { class RBDAsset; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class ComputeShader; }
 
-#define RBDDESTRUCTION_RBDASSETSCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xF7945D0)
+#define RBDDESTRUCTION_RBDASSETSCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x110913A0)
 
 namespace RBDDestruction
 {
-	inline static constexpr unsigned int RBDAssetsConfig_TypeDefinitionIndex = 26981;
+	inline static constexpr unsigned int RBDAssetsConfig_TypeDefinitionIndex = 27152;
 
 	class RBDAssetsConfig : public ::Foundation::MihoyoSerializedScriptableObject
 	{

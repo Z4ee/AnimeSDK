@@ -5,12 +5,12 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCHARACTERGIWEATHER_GETLAYER_OFFSET UNITYSDK_OFFSET(0x1CF0B0B0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCHARACTERGIWEATHER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF0B140)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCHARACTERGIWEATHER_GETLAYER_OFFSET UNITYSDK_OFFSET(0x1E2651B0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCHARACTERGIWEATHER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E265230)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int NapCharacterGIWeather_TypeDefinitionIndex = 27355;
+	inline static constexpr unsigned int NapCharacterGIWeather_TypeDefinitionIndex = 27734;
 
 	class NapCharacterGIWeather : public ::System::Object
 	{

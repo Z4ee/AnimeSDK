@@ -7,18 +7,18 @@ namespace System { class Action; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_5433D78E0C2B29D1__CTOR_OFFSET UNITYSDK_OFFSET(0x123DDCC0)
+#define CLASS_1_5433D78E0C2B29D1__CTOR_OFFSET UNITYSDK_OFFSET(0x10981EA0)
 
-inline static constexpr unsigned int Class_1_5433D78E0C2B29D1_TypeDefinitionIndex = 42032;
+inline static constexpr unsigned int Class_1_5433D78E0C2B29D1_TypeDefinitionIndex = 43741;
 
 class Class_1_5433D78E0C2B29D1 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::Class_1_1685EC66FBD28897*>* Field_1_0; // 0x10
-	::System::String* Field_1_4; // 0x18
-	::System::Action* Field_1_2; // 0x20
-	::System::String* Field_1_3; // 0x28
-	::System::Collections::Generic::List_1<::Class_1_1685EC66FBD28897*>* Field_1_1; // 0x30
+	::System::Collections::Generic::List_1<::Class_1_1685EC66FBD28897*>* Field_1_7; // 0x10
+	::System::Action* Field_1_6; // 0x18
+	::System::Collections::Generic::List_1<::Class_1_1685EC66FBD28897*>* Field_1_0; // 0x20
+	::System::String* Field_1_5; // 0x28
+	::System::String* Field_1_4; // 0x30
 
 	::System::Void _ctor()
 	{

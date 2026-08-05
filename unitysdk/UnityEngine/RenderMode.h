@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int RenderMode_TypeDefinitionIndex = 18405;
+	inline static constexpr unsigned int RenderMode_TypeDefinitionIndex = 18811;
 
 	enum class RenderMode : ::System::Int32
 	{

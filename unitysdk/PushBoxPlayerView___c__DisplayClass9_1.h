@@ -5,10 +5,10 @@
 
 class PushBoxPlayerView___c__DisplayClass9_0;
 
-#define PUSHBOXPLAYERVIEW___C__DISPLAYCLASS9_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1A514B90)
-#define PUSHBOXPLAYERVIEW___C__DISPLAYCLASS9_1__SETAPPEARANCE_B__0_OFFSET UNITYSDK_OFFSET(0x1A514BA0)
+#define PUSHBOXPLAYERVIEW___C__DISPLAYCLASS9_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1DE8CA90)
+#define PUSHBOXPLAYERVIEW___C__DISPLAYCLASS9_1__SETAPPEARANCE_B__0_OFFSET UNITYSDK_OFFSET(0x1DE8CAA0)
 
-inline static constexpr unsigned int PushBoxPlayerView___c__DisplayClass9_1_TypeDefinitionIndex = 41329;
+inline static constexpr unsigned int PushBoxPlayerView___c__DisplayClass9_1_TypeDefinitionIndex = 42400;
 
 class PushBoxPlayerView___c__DisplayClass9_1 : public ::System::Object
 {

@@ -3,12 +3,12 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ScreenSwitchType_TypeDefinitionIndex = 41766;
+	inline static constexpr unsigned int ScreenSwitchType_TypeDefinitionIndex = 42486;
 
 	enum class ScreenSwitchType : ::System::Int32
 	{
 		Close = 2,
-		Open = 0,
 		Switch = 1,
+		Open = 0,
 	};
 }

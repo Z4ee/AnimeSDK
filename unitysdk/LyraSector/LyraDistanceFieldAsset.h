@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/LyraSector/LyraAssetData.h"
 
-#define LYRASECTOR_LYRADISTANCEFIELDASSET_SETOFFSET_OFFSET UNITYSDK_OFFSET(0x1C3F1800)
-#define LYRASECTOR_LYRADISTANCEFIELDASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1C3F17A0)
+#define LYRASECTOR_LYRADISTANCEFIELDASSET_SETOFFSET_OFFSET UNITYSDK_OFFSET(0x1D6D0E00)
+#define LYRASECTOR_LYRADISTANCEFIELDASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6D0DA0)
 
 namespace LyraSector
 {
-	inline static constexpr unsigned int LyraDistanceFieldAsset_TypeDefinitionIndex = 27117;
+	inline static constexpr unsigned int LyraDistanceFieldAsset_TypeDefinitionIndex = 27091;
 
 	class LyraDistanceFieldAsset : public ::LyraSector::LyraAssetData
 	{

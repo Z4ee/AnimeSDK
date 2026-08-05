@@ -5,11 +5,11 @@
 
 namespace MoleMole { class FishFreeCameraConfig; }
 
-#define MOLEMOLE_FISHCAMERACONFIGGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x161CB2E0)
+#define MOLEMOLE_FISHCAMERACONFIGGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1B951B20)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int FishCameraConfigGroup_TypeDefinitionIndex = 56463;
+	inline static constexpr unsigned int FishCameraConfigGroup_TypeDefinitionIndex = 89052;
 
 	class FishCameraConfigGroup : public ::System::Object
 	{

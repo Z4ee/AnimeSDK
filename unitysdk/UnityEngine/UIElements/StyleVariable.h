@@ -6,11 +6,11 @@
 namespace System { class String; }
 namespace UnityEngine::UIElements { class StyleSheet; }
 
-#define UNITYENGINE_UIELEMENTS_STYLEVARIABLE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x934110)
+#define UNITYENGINE_UIELEMENTS_STYLEVARIABLE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x97FD90)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int StyleVariable_TypeDefinitionIndex = 27608;
+	inline static constexpr unsigned int StyleVariable_TypeDefinitionIndex = 28210;
 
 	struct alignas(8) StyleVariable
 	{

@@ -9,19 +9,19 @@ namespace MoleMole { class UIQuestionsAnswerWidgetController___c__DisplayClass56
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define MOLEMOLE_UIQUESTIONSANSWERWIDGETCONTROLLER___C__DISPLAYCLASS56_0___BEFORESTAGENPC_G__CHATFADEANDSHOW_1_D_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x82CCF0)
-#define MOLEMOLE_UIQUESTIONSANSWERWIDGETCONTROLLER___C__DISPLAYCLASS56_0___BEFORESTAGENPC_G__CHATFADEANDSHOW_1_D_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x283610)
+#define MOLEMOLE_UIQUESTIONSANSWERWIDGETCONTROLLER___C__DISPLAYCLASS56_0___BEFORESTAGENPC_G__CHATFADEANDSHOW_1_D_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x837360)
+#define MOLEMOLE_UIQUESTIONSANSWERWIDGETCONTROLLER___C__DISPLAYCLASS56_0___BEFORESTAGENPC_G__CHATFADEANDSHOW_1_D_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x296F30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIQuestionsAnswerWidgetController___c__DisplayClass56_0___BeforeStageNpc_g__ChatFadeAndShow_1_d_TypeDefinitionIndex = 61872;
+	inline static constexpr unsigned int UIQuestionsAnswerWidgetController___c__DisplayClass56_0___BeforeStageNpc_g__ChatFadeAndShow_1_d_TypeDefinitionIndex = 88940;
 
 	struct alignas(8) UIQuestionsAnswerWidgetController___c__DisplayClass56_0___BeforeStageNpc_g__ChatFadeAndShow_1_d
 	{
-		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x10
-		::MoleMole::UIQuestionsAnswerWidgetController___c__DisplayClass56_0* __4__this; // 0x20
-		::System::Collections::Generic::List_1<::Class_1_6CC3841F9D35D206*>* _optionList_5__2; // 0x28
-		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x30
+		::MoleMole::UIQuestionsAnswerWidgetController___c__DisplayClass56_0* __4__this; // 0x10
+		::System::Collections::Generic::List_1<::Class_1_6CC3841F9D35D206*>* _optionList_5__2; // 0x18
+		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x20
+		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x30
 		::System::Int32 __1__state; // 0x40
 
 		::System::Void MoveNext()

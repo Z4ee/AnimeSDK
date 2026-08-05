@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigAutoMoveMode_TypeDefinitionIndex = 72625;
+	inline static constexpr unsigned int ConfigAutoMoveMode_TypeDefinitionIndex = 58616;
 
 	struct alignas(8) ConfigAutoMoveMode
 	{

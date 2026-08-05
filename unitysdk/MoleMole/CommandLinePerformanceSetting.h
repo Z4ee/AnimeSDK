@@ -2,6 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/CommandLineSettingBase_2.h"
 #include "unitysdk/MoleMole/Config/ConfigViewObjectMisc_EntityCreate.h"
+#include "unitysdk/MoleMole/Config/ConfigViewObjectMisc_ZKReward.h"
 #include "unitysdk/MoleMole/ECrowdShadowFineness.h"
 #include "unitysdk/MoleMole/FrameRateInterpolateType.h"
 #include "unitysdk/MoleMole/InLevelNPCCrowdLevel.h"
@@ -25,13 +26,13 @@
 
 namespace MoleMole { class PerformanceSettingProfile; }
 
-#define MOLEMOLE_COMMANDLINEPERFORMANCESETTING_METHOD_2_9FC70C958B16100F_OFFSET UNITYSDK_OFFSET(0x106B3060)
-#define MOLEMOLE_COMMANDLINEPERFORMANCESETTING_METHOD_2_F1BB5925BFFCAC6C_OFFSET UNITYSDK_OFFSET(0x106B3C50)
-#define MOLEMOLE_COMMANDLINEPERFORMANCESETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x106B3C10)
+#define MOLEMOLE_COMMANDLINEPERFORMANCESETTING_METHOD_2_9FC70C958B16100F_OFFSET UNITYSDK_OFFSET(0x1A494280)
+#define MOLEMOLE_COMMANDLINEPERFORMANCESETTING_METHOD_2_F1BB5925BFFCAC6C_OFFSET UNITYSDK_OFFSET(0x1A494EB0)
+#define MOLEMOLE_COMMANDLINEPERFORMANCESETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x1A494E70)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CommandLinePerformanceSetting_TypeDefinitionIndex = 84326;
+	inline static constexpr unsigned int CommandLinePerformanceSetting_TypeDefinitionIndex = 68961;
 
 	class CommandLinePerformanceSetting : public ::MoleMole::CommandLineSettingBase_2<::MoleMole::PerformanceSettingProfile*, ::MoleMole::CommandLinePerformanceSetting*>
 	{
@@ -160,9 +161,10 @@ namespace MoleMole
 		::System::Nullable_1<::System::Boolean> needExtraDownSampleForFrostedGlass; // 0x316
 		::System::Nullable_1<::System::Boolean> enableParticleLightCountOptimize; // 0x318
 		::System::Nullable_1<::MoleMole::Config::ConfigViewObjectMisc_EntityCreate> Vo_EntityCreate; // 0x320
-		::System::Nullable_1<::UnityEngine::NAPRenderPipeline0::SSAOQuality> ssaoMaxQuality; // 0x348
-		::System::Nullable_1<::UnityEngine::Rendering::Universal::RTXAOQuality> rtxAOQuality; // 0x350
-		::System::Nullable_1<::UnityEngine::NAPRenderPipeline0::SSDOQuality> ssdoQuality; // 0x358
+		::System::Nullable_1<::MoleMole::Config::ConfigViewObjectMisc_ZKReward> Vo_ZKReward; // 0x348
+		::System::Nullable_1<::UnityEngine::NAPRenderPipeline0::SSAOQuality> ssaoMaxQuality; // 0x358
+		::System::Nullable_1<::UnityEngine::Rendering::Universal::RTXAOQuality> rtxAOQuality; // 0x360
+		::System::Nullable_1<::UnityEngine::NAPRenderPipeline0::SSDOQuality> ssdoQuality; // 0x368
 
 		::System::Void _ctor()
 		{

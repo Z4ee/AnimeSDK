@@ -5,14 +5,14 @@
 
 class Class_1_FD31E4216DD30F97;
 
-#define STRUCT_2_F85FE3BBCD81BA32__CTOR_OFFSET UNITYSDK_OFFSET(0x3E3F10)
+#define STRUCT_2_F85FE3BBCD81BA32__CTOR_OFFSET UNITYSDK_OFFSET(0x351C10)
 
-inline static constexpr unsigned int Struct_2_F85FE3BBCD81BA32_TypeDefinitionIndex = 70881;
+inline static constexpr unsigned int Struct_2_F85FE3BBCD81BA32_TypeDefinitionIndex = 77772;
 
 struct alignas(8) Struct_2_F85FE3BBCD81BA32
 {
-	::MoleMole::HollowChessboard::RenderDataHandle Field_2_0; // 0x10
-	::Class_1_FD31E4216DD30F97* Field_2_1; // 0x20
+	::MoleMole::HollowChessboard::RenderDataHandle Field_2_1; // 0x10
+	::Class_1_FD31E4216DD30F97* Field_2_0; // 0x20
 
 	::System::Void _ctor(::MoleMole::HollowChessboard::RenderDataHandle a1, ::Class_1_FD31E4216DD30F97* a2)
 	{

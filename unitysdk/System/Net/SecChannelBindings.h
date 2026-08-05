@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_NET_SECCHANNELBINDINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1CFDD0)
+#define SYSTEM_NET_SECCHANNELBINDINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1C710B70)
 
 namespace System::Net
 {

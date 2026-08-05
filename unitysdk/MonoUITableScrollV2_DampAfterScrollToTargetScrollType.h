@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int MonoUITableScrollV2_DampAfterScrollToTargetScrollType_TypeDefinitionIndex = 69900;
+inline static constexpr unsigned int MonoUITableScrollV2_DampAfterScrollToTargetScrollType_TypeDefinitionIndex = 74962;
 
 enum class MonoUITableScrollV2_DampAfterScrollToTargetScrollType : ::System::Int32
 {

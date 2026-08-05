@@ -9,7 +9,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace Foundation
 {
-	inline static constexpr unsigned int LINQX__DoX_d__3_1_TypeDefinitionIndex = 8094;
+	inline static constexpr unsigned int LINQX__DoX_d__3_1_TypeDefinitionIndex = 8109;
 
 	template <typename T>
 	class LINQX__DoX_d__3_1 : public ::System::Object

@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_UIVIDEOSHOPSHOWCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x139B9FD0)
+#define MOLEMOLE_UIVIDEOSHOPSHOWCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x162C7030)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIVideoshopShowContext_TypeDefinitionIndex = 58389;
+	inline static constexpr unsigned int UIVideoshopShowContext_TypeDefinitionIndex = 69073;
 
 	class UIVideoshopShowContext : public ::MoleMole::UIControllerContextBase
 	{

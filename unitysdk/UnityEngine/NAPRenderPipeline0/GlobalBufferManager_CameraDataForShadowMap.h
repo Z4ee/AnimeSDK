@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_GLOBALBUFFERMANAGER_CAMERADATAFORSHADOWMAP__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4F7250)
+#define UNITYENGINE_NAPRENDERPIPELINE0_GLOBALBUFFERMANAGER_CAMERADATAFORSHADOWMAP__CTOR_OFFSET UNITYSDK_OFFSET(0x1E8AB5F0)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int GlobalBufferManager_CameraDataForShadowMap_TypeDefinitionIndex = 6022;
+	inline static constexpr unsigned int GlobalBufferManager_CameraDataForShadowMap_TypeDefinitionIndex = 6024;
 
 	class GlobalBufferManager_CameraDataForShadowMap : public ::System::Object
 	{

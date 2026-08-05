@@ -4,11 +4,11 @@
 
 namespace MoleMole::Config { class AnimatorEventPattern; }
 
-#define MOLEMOLE_CONFIG_CONFIGANIMATOREVENTPATTERN__CTOR_OFFSET UNITYSDK_OFFSET(0x18F2EF80)
+#define MOLEMOLE_CONFIG_CONFIGANIMATOREVENTPATTERN__CTOR_OFFSET UNITYSDK_OFFSET(0x16258F60)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigAnimatorEventPattern_TypeDefinitionIndex = 74527;
+	inline static constexpr unsigned int ConfigAnimatorEventPattern_TypeDefinitionIndex = 56662;
 
 	class ConfigAnimatorEventPattern : public ::Foundation::MihoyoSerializedScriptableObject
 	{

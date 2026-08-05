@@ -5,12 +5,12 @@
 
 namespace Foundation { class ReservedObjectPool___c__DisplayClass28_0; }
 
-#define FOUNDATION_RESERVEDOBJECTPOOL___C__DISPLAYCLASS28_1__CTOR_OFFSET UNITYSDK_OFFSET(0x12E6A720)
-#define FOUNDATION_RESERVEDOBJECTPOOL___C__DISPLAYCLASS28_1__INIT_B__2_OFFSET UNITYSDK_OFFSET(0x12E6A730)
+#define FOUNDATION_RESERVEDOBJECTPOOL___C__DISPLAYCLASS28_1__CTOR_OFFSET UNITYSDK_OFFSET(0x11EAE800)
+#define FOUNDATION_RESERVEDOBJECTPOOL___C__DISPLAYCLASS28_1__INIT_B__2_OFFSET UNITYSDK_OFFSET(0x11EAE810)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int ReservedObjectPool___c__DisplayClass28_1_TypeDefinitionIndex = 62279;
+	inline static constexpr unsigned int ReservedObjectPool___c__DisplayClass28_1_TypeDefinitionIndex = 86655;
 
 	class ReservedObjectPool___c__DisplayClass28_1 : public ::System::Object
 	{

@@ -8,26 +8,26 @@ class Class_3_CF43FA1E89397A1C;
 class Class_3_DCB7F8B839F0C44B_4;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
-template <typename T> class Class_4_F91115D9A1F02F5F;
+template <typename T> class Class_4_2FF7D360A2F3EC48;
 
-#define CLASS_3_4CA1CF812F25F8C6_METHOD_3_28EB11670A8E5A86_OFFSET UNITYSDK_OFFSET(0x131E26E0)
-#define CLASS_3_4CA1CF812F25F8C6_METHOD_3_47125C76AFDB961E_OFFSET UNITYSDK_OFFSET(0x131E2A00)
-#define CLASS_3_4CA1CF812F25F8C6_METHOD_3_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x131E30E0)
-#define CLASS_3_4CA1CF812F25F8C6__CTOR_OFFSET UNITYSDK_OFFSET(0x131E2E20)
+#define CLASS_3_4CA1CF812F25F8C6_METHOD_3_28EB11670A8E5A86_OFFSET UNITYSDK_OFFSET(0x133CC490)
+#define CLASS_3_4CA1CF812F25F8C6_METHOD_3_47125C76AFDB961E_OFFSET UNITYSDK_OFFSET(0x133CC7B0)
+#define CLASS_3_4CA1CF812F25F8C6_METHOD_3_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x133CCE90)
+#define CLASS_3_4CA1CF812F25F8C6__CTOR_OFFSET UNITYSDK_OFFSET(0x133CCBD0)
 
-inline static constexpr unsigned int Class_3_4CA1CF812F25F8C6_TypeDefinitionIndex = 68567;
+inline static constexpr unsigned int Class_3_4CA1CF812F25F8C6_TypeDefinitionIndex = 68369;
 
 class Class_3_4CA1CF812F25F8C6 : public ::Class_2_52F82E04F7FEE529
 {
 public:
-	::Class_3_CF43FA1E89397A1C* Field_3_7; // 0x18
-	::Class_4_F91115D9A1F02F5F<::System::Collections::Generic::List_1<::System::String*>*>* Field_3_1; // 0x20
-	::Class_3_DCB7F8B839F0C44B_4* Field_3_0; // 0x28
-	::Class_3_CF43FA1E89397A1C* Field_3_6; // 0x30
-	::Class_4_F91115D9A1F02F5F<::System::Collections::Generic::List_1<::System::String*>*>* Field_3_3; // 0x38
-	::Class_4_F91115D9A1F02F5F<::System::Boolean>* Field_3_2; // 0x40
-	::Class_4_F91115D9A1F02F5F<::System::Collections::Generic::List_1<::System::String*>*>* Field_3_4; // 0x48
-	::Class_3_B537A0AA78803363* Field_3_5; // 0x50
+	::Class_3_DCB7F8B839F0C44B_4* Field_3_2; // 0x18
+	::Class_3_B537A0AA78803363* Field_3_5; // 0x20
+	::Class_3_CF43FA1E89397A1C* Field_3_4; // 0x28
+	::Class_4_2FF7D360A2F3EC48<::System::Collections::Generic::List_1<::System::String*>*>* Field_3_6; // 0x30
+	::Class_4_2FF7D360A2F3EC48<::System::Collections::Generic::List_1<::System::String*>*>* Field_3_1; // 0x38
+	::Class_4_2FF7D360A2F3EC48<::System::Boolean>* Field_3_0; // 0x40
+	::Class_3_CF43FA1E89397A1C* Field_3_11; // 0x48
+	::Class_4_2FF7D360A2F3EC48<::System::Collections::Generic::List_1<::System::String*>*>* Field_3_7; // 0x50
 
 	::System::Void _ctor()
 	{

@@ -9,12 +9,12 @@ namespace System::IO { class Stream; }
 namespace System::Net { class HttpWebRequest; }
 namespace System::Net { class WebHeaderCollection; }
 
-#define SYSTEM_NET_WEBCONNECTIONDATA_GET_READSTATE_OFFSET UNITYSDK_OFFSET(0x1B1D57B0)
-#define SYSTEM_NET_WEBCONNECTIONDATA_GET_REQUEST_OFFSET UNITYSDK_OFFSET(0x1B1D5790)
-#define SYSTEM_NET_WEBCONNECTIONDATA_SET_READSTATE_OFFSET UNITYSDK_OFFSET(0x1B1D57C0)
-#define SYSTEM_NET_WEBCONNECTIONDATA_SET_REQUEST_OFFSET UNITYSDK_OFFSET(0x1B1D57A0)
-#define SYSTEM_NET_WEBCONNECTIONDATA__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B1D5780)
-#define SYSTEM_NET_WEBCONNECTIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1D5770)
+#define SYSTEM_NET_WEBCONNECTIONDATA_GET_READSTATE_OFFSET UNITYSDK_OFFSET(0x1C716560)
+#define SYSTEM_NET_WEBCONNECTIONDATA_GET_REQUEST_OFFSET UNITYSDK_OFFSET(0x1C716540)
+#define SYSTEM_NET_WEBCONNECTIONDATA_SET_READSTATE_OFFSET UNITYSDK_OFFSET(0x1C716570)
+#define SYSTEM_NET_WEBCONNECTIONDATA_SET_REQUEST_OFFSET UNITYSDK_OFFSET(0x1C716550)
+#define SYSTEM_NET_WEBCONNECTIONDATA__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C716530)
+#define SYSTEM_NET_WEBCONNECTIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1C716520)
 
 namespace System::Net
 {
@@ -23,13 +23,13 @@ namespace System::Net
 	class WebConnectionData : public ::System::Object
 	{
 	public:
-		::System::Version* Version; // 0x10
-		::System::Net::HttpWebRequest* _request; // 0x18
-		::Il2CppArray<::System::String*>* Challenge; // 0x20
-		::System::Version* ProxyVersion; // 0x28
-		::System::IO::Stream* stream; // 0x30
-		::System::String* StatusDescription; // 0x38
-		::System::Net::WebHeaderCollection* Headers; // 0x40
+		::System::IO::Stream* stream; // 0x10
+		::Il2CppArray<::System::String*>* Challenge; // 0x18
+		::System::Version* ProxyVersion; // 0x20
+		::System::Net::WebHeaderCollection* Headers; // 0x28
+		::System::Version* Version; // 0x30
+		::System::Net::HttpWebRequest* _request; // 0x38
+		::System::String* StatusDescription; // 0x40
 		::System::Net::ReadState _readState; // 0x48
 		::System::Int32 StatusCode; // 0x4C
 

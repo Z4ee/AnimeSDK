@@ -6,7 +6,7 @@
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int DrawVolumetricFogWeatherConfigParams_TypeDefinitionIndex = 5927;
+	inline static constexpr unsigned int DrawVolumetricFogWeatherConfigParams_TypeDefinitionIndex = 5929;
 
 	struct alignas(4) DrawVolumetricFogWeatherConfigParams
 	{

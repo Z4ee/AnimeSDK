@@ -8,12 +8,12 @@
 namespace NPCCrowd::Animation { class IMontageClipTimeDataProvider; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCCROWD_ANIMATION_MONTAGEDATA_GETLENGTH_OFFSET UNITYSDK_OFFSET(0x4123F0)
-#define NPCCROWD_ANIMATION_MONTAGEDATA__GETLENGTH_G__CALCLENGTH_3_0_OFFSET UNITYSDK_OFFSET(0x8C4A210)
+#define NPCCROWD_ANIMATION_MONTAGEDATA_GETLENGTH_OFFSET UNITYSDK_OFFSET(0x69E810)
+#define NPCCROWD_ANIMATION_MONTAGEDATA__GETLENGTH_G__CALCLENGTH_3_0_OFFSET UNITYSDK_OFFSET(0x102B7790)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int MontageData_TypeDefinitionIndex = 68347;
+	inline static constexpr unsigned int MontageData_TypeDefinitionIndex = 48736;
 
 	struct alignas(8) MontageData
 	{

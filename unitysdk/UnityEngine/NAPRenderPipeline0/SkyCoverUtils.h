@@ -6,20 +6,20 @@
 
 namespace UnityEngine::NAPRenderPipeline0 { class SkyCoverStates; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_SKYCOVERUTILS_DRAWSKYCOVER_OFFSET UNITYSDK_OFFSET(0x1D6731D0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_SKYCOVERUTILS_GETSKYCOVERSTATES_OFFSET UNITYSDK_OFFSET(0x1D673170)
-#define UNITYENGINE_NAPRENDERPIPELINE0_SKYCOVERUTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D6734F0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SKYCOVERUTILS_DRAWSKYCOVER_OFFSET UNITYSDK_OFFSET(0x1EA16360)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SKYCOVERUTILS_GETSKYCOVERSTATES_OFFSET UNITYSDK_OFFSET(0x1EA16300)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SKYCOVERUTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA16670)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int SkyCoverUtils_TypeDefinitionIndex = 5986;
+	inline static constexpr unsigned int SkyCoverUtils_TypeDefinitionIndex = 5988;
 
 	class SkyCoverUtils : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::NAPRenderPipeline0::SkyCoverStates** StaticGet_g_SkyCoverStates()
 		{
-			return (::UnityEngine::NAPRenderPipeline0::SkyCoverStates**)Il2CppClass::FromTypeDefinitionIndex(SkyCoverUtils_TypeDefinitionIndex)->GetStaticField(0x5720);
+			return (::UnityEngine::NAPRenderPipeline0::SkyCoverStates**)Il2CppClass::FromTypeDefinitionIndex(SkyCoverUtils_TypeDefinitionIndex)->GetStaticField(0x5730);
 		}
 
 		static ::System::Void _cctor()

@@ -4,7 +4,7 @@
 
 namespace Unity::Collections
 {
-	inline static constexpr unsigned int AllocatorManager_BlockHandle_TypeDefinitionIndex = 18450;
+	inline static constexpr unsigned int AllocatorManager_BlockHandle_TypeDefinitionIndex = 18856;
 
 	struct alignas(2) AllocatorManager_BlockHandle
 	{

@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/DisplayMessageBase.h"
 
-#define MOLEMOLE_OPENSYNCTIPDIALOGMESSAGE_ONPROCESS_OFFSET UNITYSDK_OFFSET(0x1870C0E0)
-#define MOLEMOLE_OPENSYNCTIPDIALOGMESSAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1870C0A0)
+#define MOLEMOLE_OPENSYNCTIPDIALOGMESSAGE_ONPROCESS_OFFSET UNITYSDK_OFFSET(0x191B1DD0)
+#define MOLEMOLE_OPENSYNCTIPDIALOGMESSAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x191B1D90)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int OpenSyncTipDialogMessage_TypeDefinitionIndex = 82477;
+	inline static constexpr unsigned int OpenSyncTipDialogMessage_TypeDefinitionIndex = 78340;
 
 	class OpenSyncTipDialogMessage : public ::MoleMole::DisplayMessageBase
 	{

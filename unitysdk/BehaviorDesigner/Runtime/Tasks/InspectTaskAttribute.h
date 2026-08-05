@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_INSPECTTASKATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E5F68F0)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_INSPECTTASKATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F9DD320)
 
 namespace BehaviorDesigner::Runtime::Tasks
 {
-	inline static constexpr unsigned int InspectTaskAttribute_TypeDefinitionIndex = 33321;
+	inline static constexpr unsigned int InspectTaskAttribute_TypeDefinitionIndex = 33957;
 
 	class InspectTaskAttribute : public ::System::Attribute
 	{

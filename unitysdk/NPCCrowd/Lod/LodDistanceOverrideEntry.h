@@ -4,11 +4,11 @@
 #include "unitysdk/NPCCrowd/Lod/LodLevelOverrideEntry.h"
 #include "unitysdk/System/ValueType.h"
 
-#define NPCCROWD_LOD_LODDISTANCEOVERRIDEENTRY_GETENTRY_OFFSET UNITYSDK_OFFSET(0x651D40)
+#define NPCCROWD_LOD_LODDISTANCEOVERRIDEENTRY_GETENTRY_OFFSET UNITYSDK_OFFSET(0x6533A0)
 
 namespace NPCCrowd::Lod
 {
-	inline static constexpr unsigned int LodDistanceOverrideEntry_TypeDefinitionIndex = 41213;
+	inline static constexpr unsigned int LodDistanceOverrideEntry_TypeDefinitionIndex = 86679;
 
 	struct alignas(4) LodDistanceOverrideEntry
 	{

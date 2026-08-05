@@ -12,16 +12,16 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_CONFIG_CONFIGLOCKNEARINMAINCITYTARGET_METHOD_2_239EC760F3584848_OFFSET UNITYSDK_OFFSET(0x18F36740)
-#define MOLEMOLE_CONFIG_CONFIGLOCKNEARINMAINCITYTARGET_METHOD_2_5300B9691BDFE1A7_OFFSET UNITYSDK_OFFSET(0x18F37190)
-#define MOLEMOLE_CONFIG_CONFIGLOCKNEARINMAINCITYTARGET_METHOD_2_5D1477C5FE3AC65D_OFFSET UNITYSDK_OFFSET(0x18F36630)
-#define MOLEMOLE_CONFIG_CONFIGLOCKNEARINMAINCITYTARGET_METHOD_2_8E9F7E1960DBA771_OFFSET UNITYSDK_OFFSET(0x18F38190)
-#define MOLEMOLE_CONFIG_CONFIGLOCKNEARINMAINCITYTARGET_METHOD_2_BA68D59D457B979D_OFFSET UNITYSDK_OFFSET(0x18F38BC0)
-#define MOLEMOLE_CONFIG_CONFIGLOCKNEARINMAINCITYTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x18F38B00)
+#define MOLEMOLE_CONFIG_CONFIGLOCKNEARINMAINCITYTARGET_METHOD_2_08C3C70C28F243E0_OFFSET UNITYSDK_OFFSET(0x162606E0)
+#define MOLEMOLE_CONFIG_CONFIGLOCKNEARINMAINCITYTARGET_METHOD_2_239EC760F3584848_OFFSET UNITYSDK_OFFSET(0x1625FC90)
+#define MOLEMOLE_CONFIG_CONFIGLOCKNEARINMAINCITYTARGET_METHOD_2_5D1477C5FE3AC65D_OFFSET UNITYSDK_OFFSET(0x1625FB80)
+#define MOLEMOLE_CONFIG_CONFIGLOCKNEARINMAINCITYTARGET_METHOD_2_8E9F7E1960DBA771_OFFSET UNITYSDK_OFFSET(0x162616E0)
+#define MOLEMOLE_CONFIG_CONFIGLOCKNEARINMAINCITYTARGET_METHOD_2_BA68D59D457B979D_OFFSET UNITYSDK_OFFSET(0x162620F0)
+#define MOLEMOLE_CONFIG_CONFIGLOCKNEARINMAINCITYTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x16262030)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigLockNearInMainCityTarget_TypeDefinitionIndex = 45846;
+	inline static constexpr unsigned int ConfigLockNearInMainCityTarget_TypeDefinitionIndex = 65170;
 
 	class ConfigLockNearInMainCityTarget : public ::MoleMole::Config::ConfigLockTarget
 	{
@@ -48,9 +48,9 @@ namespace MoleMole::Config
 			return ((::Struct_2_FA5F50563E60AFBA(*)(::PVOID, ::MoleMole::Battle::Entity*, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Func_3<::MoleMole::Battle::Entity*, ::MoleMole::Battle::Entity*, ::System::Boolean>*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGLOCKNEARINMAINCITYTARGET_METHOD_2_5D1477C5FE3AC65D_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8);
 		}
 
-		::Class_1_CB7F0487F7A6164A* Method_2_5300B9691BDFE1A7(::MoleMole::Battle::Entity* a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::System::Collections::Generic::List_1<::Class_1_CB7F0487F7A6164A*>* a4, ::System::Single a5, ::System::Single a6, ::System::Boolean a7)
+		::Class_1_CB7F0487F7A6164A* Method_2_08C3C70C28F243E0(::MoleMole::Battle::Entity* a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::System::Collections::Generic::List_1<::Class_1_CB7F0487F7A6164A*>* a4, ::System::Single a5, ::System::Single a6, ::System::Boolean a7)
 		{
-			return ((::Class_1_CB7F0487F7A6164A*(*)(::PVOID, ::MoleMole::Battle::Entity*, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Collections::Generic::List_1<::Class_1_CB7F0487F7A6164A*>*, ::System::Single, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGLOCKNEARINMAINCITYTARGET_METHOD_2_5300B9691BDFE1A7_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
+			return ((::Class_1_CB7F0487F7A6164A*(*)(::PVOID, ::MoleMole::Battle::Entity*, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Collections::Generic::List_1<::Class_1_CB7F0487F7A6164A*>*, ::System::Single, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGLOCKNEARINMAINCITYTARGET_METHOD_2_08C3C70C28F243E0_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
 		::System::Collections::Generic::List_1<::Class_1_CB7F0487F7A6164A*>* Method_2_8E9F7E1960DBA771(::MoleMole::Battle::Entity* a1, ::System::Collections::Generic::List_1<::System::UInt32>* a2, ::System::Single a3, ::UnityEngine::Vector3 a4, ::System::Boolean& a5)

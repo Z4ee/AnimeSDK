@@ -6,12 +6,12 @@
 namespace System { class String; }
 namespace ToolBuddy::ThirdParty::VectorGraphics { class SVGPropertySheet; }
 
-#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGSTYLESHEET___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C616D40)
-#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGSTYLESHEET___C__DISPLAYCLASS3_0__SET_ITEM_B__0_OFFSET UNITYSDK_OFFSET(0x1C616E20)
+#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGSTYLESHEET___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1DA9FA40)
+#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGSTYLESHEET___C__DISPLAYCLASS3_0__SET_ITEM_B__0_OFFSET UNITYSDK_OFFSET(0x1DA9FB20)
 
 namespace ToolBuddy::ThirdParty::VectorGraphics
 {
-	inline static constexpr unsigned int SVGStyleSheet___c__DisplayClass3_0_TypeDefinitionIndex = 31148;
+	inline static constexpr unsigned int SVGStyleSheet___c__DisplayClass3_0_TypeDefinitionIndex = 31767;
 
 	class SVGStyleSheet___c__DisplayClass3_0 : public ::System::Object
 	{

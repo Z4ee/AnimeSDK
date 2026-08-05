@@ -5,7 +5,7 @@
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int IMontageClipTimeDataProvider_TypeDefinitionIndex = 74563;
+	inline static constexpr unsigned int IMontageClipTimeDataProvider_TypeDefinitionIndex = 87164;
 
 	class IMontageClipTimeDataProvider
 	{

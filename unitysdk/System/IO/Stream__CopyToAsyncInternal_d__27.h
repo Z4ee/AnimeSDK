@@ -9,8 +9,8 @@
 namespace System::IO { class Stream; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define SYSTEM_IO_STREAM__COPYTOASYNCINTERNAL_D__27_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x927680)
-#define SYSTEM_IO_STREAM__COPYTOASYNCINTERNAL_D__27_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x67A600)
+#define SYSTEM_IO_STREAM__COPYTOASYNCINTERNAL_D__27_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x975E00)
+#define SYSTEM_IO_STREAM__COPYTOASYNCINTERNAL_D__27_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x8715A0)
 
 namespace System::IO
 {
@@ -18,16 +18,16 @@ namespace System::IO
 
 	struct alignas(8) Stream__CopyToAsyncInternal_d__27
 	{
-		::Il2CppArray<::System::Byte>* _buffer_5__1; // 0x10
-		::System::IO::Stream* __4__this; // 0x18
+		::System::Threading::CancellationToken cancellationToken; // 0x10
+		::Il2CppArray<::System::Byte>* _buffer_5__1; // 0x18
 		::System::IO::Stream* destination; // 0x20
-		::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Int32> __u__2; // 0x28
-		::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder; // 0x38
-		::System::Threading::CancellationToken cancellationToken; // 0x50
-		::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1; // 0x58
-		::System::Int32 _bytesRead_5__2; // 0x68
-		::System::Int32 bufferSize; // 0x6C
-		::System::Int32 __1__state; // 0x70
+		::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1; // 0x28
+		::System::IO::Stream* __4__this; // 0x38
+		::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder; // 0x40
+		::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Int32> __u__2; // 0x58
+		::System::Int32 __1__state; // 0x68
+		::System::Int32 _bytesRead_5__2; // 0x6C
+		::System::Int32 bufferSize; // 0x70
 
 		::System::Void MoveNext()
 		{

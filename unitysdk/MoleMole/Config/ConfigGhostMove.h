@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CONFIG_CONFIGGHOSTMOVE__CTOR_OFFSET UNITYSDK_OFFSET(0x18F35970)
+#define MOLEMOLE_CONFIG_CONFIGGHOSTMOVE__CTOR_OFFSET UNITYSDK_OFFSET(0x1625EEE0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigGhostMove_TypeDefinitionIndex = 78947;
+	inline static constexpr unsigned int ConfigGhostMove_TypeDefinitionIndex = 60576;
 
 	class ConfigGhostMove : public ::System::Object
 	{

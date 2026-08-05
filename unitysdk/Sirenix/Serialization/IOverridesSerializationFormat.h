@@ -4,7 +4,7 @@
 
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int IOverridesSerializationFormat_TypeDefinitionIndex = 7604;
+	inline static constexpr unsigned int IOverridesSerializationFormat_TypeDefinitionIndex = 7608;
 
 	class IOverridesSerializationFormat
 	{

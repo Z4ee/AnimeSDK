@@ -5,17 +5,17 @@
 class Class_1_B96586FA1613D67F;
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MOLEMOLE_UISOCIALCIRCLEFRIENDCARDCONTEXT_REPORT__CTOR_OFFSET UNITYSDK_OFFSET(0x15C263F0)
+#define MOLEMOLE_UISOCIALCIRCLEFRIENDCARDCONTEXT_REPORT__CTOR_OFFSET UNITYSDK_OFFSET(0x160DF280)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISocialCircleFriendCardContext_Report_TypeDefinitionIndex = 46803;
+	inline static constexpr unsigned int UISocialCircleFriendCardContext_Report_TypeDefinitionIndex = 62379;
 
 	class UISocialCircleFriendCardContext_Report : public ::MoleMole::UISocialCircleFriendCardContext
 	{
 	public:
-		::Class_1_B96586FA1613D67F* ReportData; // 0x70
 		::System::Func_2<::System::Int32, ::System::Boolean>* OnClickCheckMark; // 0x78
+		::Class_1_B96586FA1613D67F* ReportData; // 0x80
 
 		::System::Void _ctor()
 		{

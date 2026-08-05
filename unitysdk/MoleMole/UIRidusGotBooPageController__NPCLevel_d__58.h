@@ -9,23 +9,23 @@ namespace MoleMole { class UIRidusGotBooPageController; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define MOLEMOLE_UIRIDUSGOTBOOPAGECONTROLLER__NPCLEVEL_D__58_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x811240)
-#define MOLEMOLE_UIRIDUSGOTBOOPAGECONTROLLER__NPCLEVEL_D__58_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x283610)
+#define MOLEMOLE_UIRIDUSGOTBOOPAGECONTROLLER__NPCLEVEL_D__58_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x7C5230)
+#define MOLEMOLE_UIRIDUSGOTBOOPAGECONTROLLER__NPCLEVEL_D__58_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x296F30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRidusGotBooPageController__NPCLevel_d__58_TypeDefinitionIndex = 40723;
+	inline static constexpr unsigned int UIRidusGotBooPageController__NPCLevel_d__58_TypeDefinitionIndex = 91554;
 
 	struct alignas(8) UIRidusGotBooPageController__NPCLevel_d__58
 	{
-		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x10
+		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x10
 		::System::Collections::Generic::List_1<::Class_1_B9D6E7E76075C6E2*>* _popups_5__2; // 0x20
 		::MoleMole::UIRidusGotBooPageController* __4__this; // 0x28
-		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x30
-		::System::Int32 _interval_5__3; // 0x40
+		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x30
+		::System::Int32 _i_5__5; // 0x40
 		::System::Int32 __1__state; // 0x44
-		::System::Boolean _firstSkillPlayed_5__4; // 0x48
-		::System::Int32 _i_5__5; // 0x4C
+		::System::Int32 _interval_5__3; // 0x48
+		::System::Boolean _firstSkillPlayed_5__4; // 0x4C
 
 		::System::Void MoveNext()
 		{

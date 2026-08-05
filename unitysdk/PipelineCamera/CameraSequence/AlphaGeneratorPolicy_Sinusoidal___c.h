@@ -5,24 +5,24 @@
 
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define PIPELINECAMERA_CAMERASEQUENCE_ALPHAGENERATORPOLICY_SINUSOIDAL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D2320E0)
-#define PIPELINECAMERA_CAMERASEQUENCE_ALPHAGENERATORPOLICY_SINUSOIDAL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1D232120)
-#define PIPELINECAMERA_CAMERASEQUENCE_ALPHAGENERATORPOLICY_SINUSOIDAL___C__GETDATA_B__7_0_OFFSET UNITYSDK_OFFSET(0x1D232130)
+#define PIPELINECAMERA_CAMERASEQUENCE_ALPHAGENERATORPOLICY_SINUSOIDAL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E5C8520)
+#define PIPELINECAMERA_CAMERASEQUENCE_ALPHAGENERATORPOLICY_SINUSOIDAL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1E5C8560)
+#define PIPELINECAMERA_CAMERASEQUENCE_ALPHAGENERATORPOLICY_SINUSOIDAL___C__GETDATA_B__7_0_OFFSET UNITYSDK_OFFSET(0x1E5C8570)
 
 namespace PipelineCamera::CameraSequence
 {
-	inline static constexpr unsigned int AlphaGeneratorPolicy_Sinusoidal___c_TypeDefinitionIndex = 37886;
+	inline static constexpr unsigned int AlphaGeneratorPolicy_Sinusoidal___c_TypeDefinitionIndex = 38547;
 
 	class AlphaGeneratorPolicy_Sinusoidal___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::System::Single, ::Foundation::Function::Sinusoidal>** StaticGet___9__7_0()
 		{
-			return (::System::Func_2<::System::Single, ::Foundation::Function::Sinusoidal>**)Il2CppClass::FromTypeDefinitionIndex(AlphaGeneratorPolicy_Sinusoidal___c_TypeDefinitionIndex)->GetStaticField(0x28D20);
+			return (::System::Func_2<::System::Single, ::Foundation::Function::Sinusoidal>**)Il2CppClass::FromTypeDefinitionIndex(AlphaGeneratorPolicy_Sinusoidal___c_TypeDefinitionIndex)->GetStaticField(0x2A640);
 		}
 		static ::PipelineCamera::CameraSequence::AlphaGeneratorPolicy_Sinusoidal___c** StaticGet___9()
 		{
-			return (::PipelineCamera::CameraSequence::AlphaGeneratorPolicy_Sinusoidal___c**)Il2CppClass::FromTypeDefinitionIndex(AlphaGeneratorPolicy_Sinusoidal___c_TypeDefinitionIndex)->GetStaticField(0x28D28);
+			return (::PipelineCamera::CameraSequence::AlphaGeneratorPolicy_Sinusoidal___c**)Il2CppClass::FromTypeDefinitionIndex(AlphaGeneratorPolicy_Sinusoidal___c_TypeDefinitionIndex)->GetStaticField(0x2A648);
 		}
 
 		static ::System::Void _cctor()

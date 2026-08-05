@@ -25,11 +25,11 @@ namespace MoleMole::Config { class ConfigZipLine_TransitionMode_FixedTargetPoint
 namespace MoleMole::Config { class ConfigZipLine_TransitionMode_FloatTargetPoint; }
 namespace MoleMole::Config { class ConfigZipLine_TransitionMode_PredicateTargetPoint; }
 
-#define MOLEMOLE_CONFIG_CONFIGZIPLINE__CTOR_OFFSET UNITYSDK_OFFSET(0x12722F00)
+#define MOLEMOLE_CONFIG_CONFIGZIPLINE__CTOR_OFFSET UNITYSDK_OFFSET(0x1350A420)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigZipLine_TypeDefinitionIndex = 51220;
+	inline static constexpr unsigned int ConfigZipLine_TypeDefinitionIndex = 52991;
 
 	class ConfigZipLine : public ::Foundation::MihoyoSerializedScriptableObject
 	{

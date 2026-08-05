@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int DroneExplodeTargetRenderer_Enum_3_2F6E6B060CDCFABB_TypeDefinitionIndex = 59808;
+	inline static constexpr unsigned int DroneExplodeTargetRenderer_Enum_3_2F6E6B060CDCFABB_TypeDefinitionIndex = 69426;
 
 	enum class DroneExplodeTargetRenderer_Enum_3_2F6E6B060CDCFABB : ::System::Int32
 	{

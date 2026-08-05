@@ -4,16 +4,16 @@
 #include "unitysdk/Struct_2_90E529DB4DCB014F.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_978858B86AA44864__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB20600)
+#define CLASS_1_978858B86AA44864__CTOR_OFFSET UNITYSDK_OFFSET(0x1556B7D0)
 
-inline static constexpr unsigned int Class_1_978858B86AA44864_TypeDefinitionIndex = 65118;
+inline static constexpr unsigned int Class_1_978858B86AA44864_TypeDefinitionIndex = 62521;
 
 class Class_1_978858B86AA44864 : public ::System::Object
 {
 public:
-	::Struct_2_90E529DB4DCB014F Field_1_0; // 0x10
-	::MoleMole::HollowChessboard::HollowChessboardUID Field_1_2; // 0x18
-	::Struct_2_90E529DB4DCB014F Field_1_1; // 0x20
+	::MoleMole::HollowChessboard::HollowChessboardUID Field_1_6; // 0x10
+	::Struct_2_90E529DB4DCB014F Field_1_0; // 0x18
+	::Struct_2_90E529DB4DCB014F Field_1_7; // 0x20
 
 	::System::Void _ctor()
 	{

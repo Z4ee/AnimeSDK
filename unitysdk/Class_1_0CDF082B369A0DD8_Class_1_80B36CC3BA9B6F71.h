@@ -7,17 +7,17 @@ namespace MoleMole { class ConfigMaterialPropertyModifier; }
 namespace MoleMole::Config { class ConfigMaterialPropertyModifierMap; }
 namespace System { class String; }
 
-#define CLASS_1_0CDF082B369A0DD8_CLASS_1_80B36CC3BA9B6F71_METHOD_1_16B48B95B7F6E803_OFFSET UNITYSDK_OFFSET(0x143A0740)
-#define CLASS_1_0CDF082B369A0DD8_CLASS_1_80B36CC3BA9B6F71__CTOR_OFFSET UNITYSDK_OFFSET(0x143A0730)
+#define CLASS_1_0CDF082B369A0DD8_CLASS_1_80B36CC3BA9B6F71_METHOD_1_16B48B95B7F6E803_OFFSET UNITYSDK_OFFSET(0x12E96CF0)
+#define CLASS_1_0CDF082B369A0DD8_CLASS_1_80B36CC3BA9B6F71__CTOR_OFFSET UNITYSDK_OFFSET(0x12E96CE0)
 
-inline static constexpr unsigned int Class_1_0CDF082B369A0DD8_Class_1_80B36CC3BA9B6F71_TypeDefinitionIndex = 71537;
+inline static constexpr unsigned int Class_1_0CDF082B369A0DD8_Class_1_80B36CC3BA9B6F71_TypeDefinitionIndex = 80189;
 
 class Class_1_0CDF082B369A0DD8_Class_1_80B36CC3BA9B6F71 : public ::System::Object
 {
 public:
-	::System::String* Field_1_0; // 0x10
-	::MoleMole::ConfigMaterialPropertyModifier* Field_1_1; // 0x18
-	::Foundation::AssetPath Field_1_2; // 0x20
+	::MoleMole::ConfigMaterialPropertyModifier* Field_1_1; // 0x10
+	::Foundation::AssetPath Field_1_0; // 0x18
+	::System::String* Field_1_2; // 0x28
 
 	::System::Void _ctor()
 	{

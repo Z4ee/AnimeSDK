@@ -5,18 +5,18 @@
 
 namespace MoleMole { class UIBangBooUAVCardItemCollectPageController; }
 
-#define MOLEMOLE_UIBANGBOOUAVCARDITEMCOLLECTPAGECONTROLLER___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18C86EF0)
-#define MOLEMOLE_UIBANGBOOUAVCARDITEMCOLLECTPAGECONTROLLER___C__DISPLAYCLASS12_0__INITTAB_B__0_OFFSET UNITYSDK_OFFSET(0x18C86F00)
+#define MOLEMOLE_UIBANGBOOUAVCARDITEMCOLLECTPAGECONTROLLER___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0x180211A0)
+#define MOLEMOLE_UIBANGBOOUAVCARDITEMCOLLECTPAGECONTROLLER___C__DISPLAYCLASS12_0__INITTAB_B__0_OFFSET UNITYSDK_OFFSET(0x180211B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBangBooUAVCardItemCollectPageController___c__DisplayClass12_0_TypeDefinitionIndex = 56682;
+	inline static constexpr unsigned int UIBangBooUAVCardItemCollectPageController___c__DisplayClass12_0_TypeDefinitionIndex = 56671;
 
 	class UIBangBooUAVCardItemCollectPageController___c__DisplayClass12_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIBangBooUAVCardItemCollectPageController* __4__this; // 0x10
-		::MoleMole::UIBangBooUAVCardItemCollectPageController_TabData tabData; // 0x18
+		::MoleMole::UIBangBooUAVCardItemCollectPageController_TabData tabData; // 0x10
+		::MoleMole::UIBangBooUAVCardItemCollectPageController* __4__this; // 0x28
 
 		::System::Void _ctor()
 		{

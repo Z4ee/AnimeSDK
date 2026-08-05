@@ -3,16 +3,16 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int EtherEyesObjectType_TypeDefinitionIndex = 45125;
+	inline static constexpr unsigned int EtherEyesObjectType_TypeDefinitionIndex = 57778;
 
 	enum class EtherEyesObjectType : ::System::Int32
 	{
-		Fix = 6,
-		Path = 4,
+		Show = 2,
 		Find = 3,
 		BreakCore = 1,
 		Break = 0,
+		Fix = 6,
 		PathWire = 5,
-		Show = 2,
+		Path = 4,
 	};
 }

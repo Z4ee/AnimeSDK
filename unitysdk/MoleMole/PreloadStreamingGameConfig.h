@@ -5,11 +5,11 @@
 namespace MoleMole { class PreloadSingleStreaminGameConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_PRELOADSTREAMINGGAMECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x13043050)
+#define MOLEMOLE_PRELOADSTREAMINGGAMECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x173A1680)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int PreloadStreamingGameConfig_TypeDefinitionIndex = 68050;
+	inline static constexpr unsigned int PreloadStreamingGameConfig_TypeDefinitionIndex = 74549;
 
 	class PreloadStreamingGameConfig : public ::Foundation::MihoyoSerializedScriptableObject
 	{

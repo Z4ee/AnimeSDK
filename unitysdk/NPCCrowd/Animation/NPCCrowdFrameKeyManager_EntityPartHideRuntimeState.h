@@ -5,11 +5,11 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCCROWD_ANIMATION_NPCCROWDFRAMEKEYMANAGER_ENTITYPARTHIDERUNTIMESTATE__CTOR_OFFSET UNITYSDK_OFFSET(0xEBDBCB0)
+#define NPCCROWD_ANIMATION_NPCCROWDFRAMEKEYMANAGER_ENTITYPARTHIDERUNTIMESTATE__CTOR_OFFSET UNITYSDK_OFFSET(0xF613DA0)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int NPCCrowdFrameKeyManager_EntityPartHideRuntimeState_TypeDefinitionIndex = 87208;
+	inline static constexpr unsigned int NPCCrowdFrameKeyManager_EntityPartHideRuntimeState_TypeDefinitionIndex = 56703;
 
 	class NPCCrowdFrameKeyManager_EntityPartHideRuntimeState : public ::System::Object
 	{

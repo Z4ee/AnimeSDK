@@ -5,19 +5,19 @@
 class Class_1_06C40FD353242AA8;
 namespace MoleMole { class UIGoldMiningDayTodoListPageController; }
 
-#define MOLEMOLE_UIGOLDMININGDAYTODOLISTPAGECONTROLLER___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0x175EC410)
-#define MOLEMOLE_UIGOLDMININGDAYTODOLISTPAGECONTROLLER___C__DISPLAYCLASS19_0__DOACCESS_B__0_OFFSET UNITYSDK_OFFSET(0x175EC420)
-#define MOLEMOLE_UIGOLDMININGDAYTODOLISTPAGECONTROLLER___C__DISPLAYCLASS19_0__DOACCESS_B__1_OFFSET UNITYSDK_OFFSET(0x175EC450)
+#define MOLEMOLE_UIGOLDMININGDAYTODOLISTPAGECONTROLLER___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1897AB10)
+#define MOLEMOLE_UIGOLDMININGDAYTODOLISTPAGECONTROLLER___C__DISPLAYCLASS19_0__DOACCESS_B__0_OFFSET UNITYSDK_OFFSET(0x1897AB20)
+#define MOLEMOLE_UIGOLDMININGDAYTODOLISTPAGECONTROLLER___C__DISPLAYCLASS19_0__DOACCESS_B__1_OFFSET UNITYSDK_OFFSET(0x1897AB50)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGoldMiningDayTodoListPageController___c__DisplayClass19_0_TypeDefinitionIndex = 73202;
+	inline static constexpr unsigned int UIGoldMiningDayTodoListPageController___c__DisplayClass19_0_TypeDefinitionIndex = 50959;
 
 	class UIGoldMiningDayTodoListPageController___c__DisplayClass19_0 : public ::System::Object
 	{
 	public:
-		::Class_1_06C40FD353242AA8* todoQuest; // 0x10
-		::MoleMole::UIGoldMiningDayTodoListPageController* __4__this; // 0x18
+		::MoleMole::UIGoldMiningDayTodoListPageController* __4__this; // 0x10
+		::Class_1_06C40FD353242AA8* todoQuest; // 0x18
 
 		::System::Void _ctor()
 		{

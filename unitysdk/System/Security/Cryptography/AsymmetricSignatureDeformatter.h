@@ -5,7 +5,7 @@
 namespace System { class String; }
 namespace System::Security::Cryptography { class AsymmetricAlgorithm; }
 
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_ASYMMETRICSIGNATUREDEFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0BDD10)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_ASYMMETRICSIGNATUREDEFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E450050)
 
 namespace System::Security::Cryptography
 {

@@ -3,11 +3,11 @@
 
 namespace NodeCanvas::BehaviourTrees
 {
-	inline static constexpr unsigned int Guard_GuardMode_TypeDefinitionIndex = 30699;
+	inline static constexpr unsigned int Guard_GuardMode_TypeDefinitionIndex = 29799;
 
 	enum class Guard_GuardMode : ::System::Int32
 	{
-		ReturnFailure = 0,
 		WaitUntilReleased = 1,
+		ReturnFailure = 0,
 	};
 }

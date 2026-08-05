@@ -4,7 +4,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int DefaultCameraElevationTrack_TypeDefinitionIndex = 65122;
+	inline static constexpr unsigned int DefaultCameraElevationTrack_TypeDefinitionIndex = 40238;
 
 	struct alignas(4) DefaultCameraElevationTrack
 	{

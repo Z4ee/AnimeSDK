@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define LABACKGROUND__CTOR_OFFSET UNITYSDK_OFFSET(0x10232750)
+#define LABACKGROUND__CTOR_OFFSET UNITYSDK_OFFSET(0x176921B0)
 
-inline static constexpr unsigned int LABackGround_TypeDefinitionIndex = 56341;
+inline static constexpr unsigned int LABackGround_TypeDefinitionIndex = 54889;
 
 class LABackGround : public ::UnityEngine::MonoBehaviour
 {

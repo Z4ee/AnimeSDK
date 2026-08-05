@@ -3,13 +3,13 @@
 #include "unitysdk/Nap/NapECS/ComponentMask.h"
 #include "unitysdk/System/ValueType.h"
 
-#define NAP_NAPECS_ECSCOMPFILTER_ADDEXCLUDE_OFFSET UNITYSDK_OFFSET(0x90D2A0)
-#define NAP_NAPECS_ECSCOMPFILTER_ADDINCLUDE_OFFSET UNITYSDK_OFFSET(0x90D290)
-#define NAP_NAPECS_ECSCOMPFILTER_FILTER_OFFSET UNITYSDK_OFFSET(0x90D2B0)
+#define NAP_NAPECS_ECSCOMPFILTER_ADDEXCLUDE_OFFSET UNITYSDK_OFFSET(0x95BAA0)
+#define NAP_NAPECS_ECSCOMPFILTER_ADDINCLUDE_OFFSET UNITYSDK_OFFSET(0x95BA90)
+#define NAP_NAPECS_ECSCOMPFILTER_FILTER_OFFSET UNITYSDK_OFFSET(0x95BAB0)
 
 namespace Nap::NapECS
 {
-	inline static constexpr unsigned int EcsCompFilter_TypeDefinitionIndex = 37331;
+	inline static constexpr unsigned int EcsCompFilter_TypeDefinitionIndex = 37945;
 
 	struct alignas(8) EcsCompFilter
 	{

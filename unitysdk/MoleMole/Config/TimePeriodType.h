@@ -3,13 +3,13 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int TimePeriodType_TypeDefinitionIndex = 69284;
+	inline static constexpr unsigned int TimePeriodType_TypeDefinitionIndex = 82064;
 
 	enum class TimePeriodType : ::System::Int32
 	{
+		Night = 2,
 		Dusk = 1,
 		Noon = 3,
-		Night = 2,
 		Morning = 0,
 	};
 }

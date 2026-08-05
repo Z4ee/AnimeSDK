@@ -15,54 +15,51 @@ namespace NPCCrowd::Ability { class NPCAbilityBridgeData; }
 namespace NPCCrowd::Ability { class NPCAbilityRuntimeData; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
-namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCCROWD_ABILITY_NPCABILITY_CLEAR_OFFSET UNITYSDK_OFFSET(0xD40F240)
-#define NPCCROWD_ABILITY_NPCABILITY_GETCURRENTACTIONID_OFFSET UNITYSDK_OFFSET(0xD40F970)
-#define NPCCROWD_ABILITY_NPCABILITY_GETCURRENTACTIONTYPE_OFFSET UNITYSDK_OFFSET(0xD40FAB0)
-#define NPCCROWD_ABILITY_NPCABILITY_GETMOVEMENTMAG_OFFSET UNITYSDK_OFFSET(0xD410530)
-#define NPCCROWD_ABILITY_NPCABILITY_GETPOSITION_OFFSET UNITYSDK_OFFSET(0xD4105E0)
-#define NPCCROWD_ABILITY_NPCABILITY_GETTRANSFORM_OFFSET UNITYSDK_OFFSET(0xD40F2E0)
-#define NPCCROWD_ABILITY_NPCABILITY_ISPATHFOLLOWFINISHED_OFFSET UNITYSDK_OFFSET(0xD405B80)
-#define NPCCROWD_ABILITY_NPCABILITY_ISPATHFOLLOWHUMAN_1_OFFSET UNITYSDK_OFFSET(0xD410030)
-#define NPCCROWD_ABILITY_NPCABILITY_ISPATHFOLLOWHUMAN_2_OFFSET UNITYSDK_OFFSET(0xD410120)
-#define NPCCROWD_ABILITY_NPCABILITY_ISPATHFOLLOWHUMAN_OFFSET UNITYSDK_OFFSET(0xD40FFE0)
-#define NPCCROWD_ABILITY_NPCABILITY_ISPATHFOLLOWSTARTED_OFFSET UNITYSDK_OFFSET(0xD40FA10)
-#define NPCCROWD_ABILITY_NPCABILITY_ISSTARTMOVEPROCESS_OFFSET UNITYSDK_OFFSET(0xD40FB50)
-#define NPCCROWD_ABILITY_NPCABILITY_MOVETO_OFFSET UNITYSDK_OFFSET(0xD40F370)
-#define NPCCROWD_ABILITY_NPCABILITY_ONABILITYREMOVED_OFFSET UNITYSDK_OFFSET(0xD40F8D0)
-#define NPCCROWD_ABILITY_NPCABILITY_PATHFOLLOW_1_OFFSET UNITYSDK_OFFSET(0xD40F5A0)
-#define NPCCROWD_ABILITY_NPCABILITY_PATHFOLLOW_OFFSET UNITYSDK_OFFSET(0xD40F490)
-#define NPCCROWD_ABILITY_NPCABILITY_REFRESHDATA_OFFSET UNITYSDK_OFFSET(0xD410650)
-#define NPCCROWD_ABILITY_NPCABILITY_SETBORNTRANSFORM_OFFSET UNITYSDK_OFFSET(0xD410210)
-#define NPCCROWD_ABILITY_NPCABILITY_SMOOTHROTATIONTO_OFFSET UNITYSDK_OFFSET(0xD40FDD0)
-#define NPCCROWD_ABILITY_NPCABILITY_STARTSTANDTURN_OFFSET UNITYSDK_OFFSET(0xD40F720)
-#define NPCCROWD_ABILITY_NPCABILITY_STARTSTATETREE_1_OFFSET UNITYSDK_OFFSET(0xD4109C0)
-#define NPCCROWD_ABILITY_NPCABILITY_STARTSTATETREE_OFFSET UNITYSDK_OFFSET(0xD410800)
-#define NPCCROWD_ABILITY_NPCABILITY_STOPCURRENTMOVEACTION_OFFSET UNITYSDK_OFFSET(0xD40FD10)
-#define NPCCROWD_ABILITY_NPCABILITY_STOPMOVEACTION_OFFSET UNITYSDK_OFFSET(0xD40FC60)
-#define NPCCROWD_ABILITY_NPCABILITY_STOPSTATETREE_OFFSET UNITYSDK_OFFSET(0xD410B80)
-#define NPCCROWD_ABILITY_NPCABILITY_TELEPORTTO_OFFSET UNITYSDK_OFFSET(0xD40FEE0)
-#define NPCCROWD_ABILITY_NPCABILITY_WAITFORSTANDTURNFINISH_OFFSET UNITYSDK_OFFSET(0xD40F7E0)
-#define NPCCROWD_ABILITY_NPCABILITY__CTOR_OFFSET UNITYSDK_OFFSET(0xD410CB0)
+#define NPCCROWD_ABILITY_NPCABILITY_CLEAR_OFFSET UNITYSDK_OFFSET(0x114E0DA0)
+#define NPCCROWD_ABILITY_NPCABILITY_GETCURRENTACTIONID_OFFSET UNITYSDK_OFFSET(0x114E12B0)
+#define NPCCROWD_ABILITY_NPCABILITY_GETCURRENTACTIONTYPE_OFFSET UNITYSDK_OFFSET(0x114E13F0)
+#define NPCCROWD_ABILITY_NPCABILITY_GETMOVEMENTMAG_OFFSET UNITYSDK_OFFSET(0x114E1D60)
+#define NPCCROWD_ABILITY_NPCABILITY_GETPOSITION_OFFSET UNITYSDK_OFFSET(0x114E1E00)
+#define NPCCROWD_ABILITY_NPCABILITY_GETTRANSFORM_OFFSET UNITYSDK_OFFSET(0x114E0E40)
+#define NPCCROWD_ABILITY_NPCABILITY_GET_NEEDREFRESHDATA_OFFSET UNITYSDK_OFFSET(0x114E1E70)
+#define NPCCROWD_ABILITY_NPCABILITY_ISPATHFOLLOWFINISHED_OFFSET UNITYSDK_OFFSET(0x114D77C0)
+#define NPCCROWD_ABILITY_NPCABILITY_ISPATHFOLLOWHUMAN_1_OFFSET UNITYSDK_OFFSET(0x114E1860)
+#define NPCCROWD_ABILITY_NPCABILITY_ISPATHFOLLOWHUMAN_2_OFFSET UNITYSDK_OFFSET(0x114E1940)
+#define NPCCROWD_ABILITY_NPCABILITY_ISPATHFOLLOWHUMAN_OFFSET UNITYSDK_OFFSET(0x114E1810)
+#define NPCCROWD_ABILITY_NPCABILITY_ISPATHFOLLOWSTARTED_OFFSET UNITYSDK_OFFSET(0x114E1350)
+#define NPCCROWD_ABILITY_NPCABILITY_ONABILITYREMOVED_OFFSET UNITYSDK_OFFSET(0x114E1210)
+#define NPCCROWD_ABILITY_NPCABILITY_PATHFOLLOW_OFFSET UNITYSDK_OFFSET(0x114E0ED0)
+#define NPCCROWD_ABILITY_NPCABILITY_REFRESHDATA_OFFSET UNITYSDK_OFFSET(0x114E1E80)
+#define NPCCROWD_ABILITY_NPCABILITY_SETBORNTRANSFORM_OFFSET UNITYSDK_OFFSET(0x114E1A40)
+#define NPCCROWD_ABILITY_NPCABILITY_SMOOTHROTATIONTO_OFFSET UNITYSDK_OFFSET(0x114E1600)
+#define NPCCROWD_ABILITY_NPCABILITY_STARTSTANDTURN_OFFSET UNITYSDK_OFFSET(0x114E1060)
+#define NPCCROWD_ABILITY_NPCABILITY_STARTSTATETREE_1_OFFSET UNITYSDK_OFFSET(0x1063E6D0)
+#define NPCCROWD_ABILITY_NPCABILITY_STARTSTATETREE_OFFSET UNITYSDK_OFFSET(0x114E2030)
+#define NPCCROWD_ABILITY_NPCABILITY_STOPCURRENTMOVEACTION_OFFSET UNITYSDK_OFFSET(0x114E1540)
+#define NPCCROWD_ABILITY_NPCABILITY_STOPMOVEACTION_OFFSET UNITYSDK_OFFSET(0x114E1490)
+#define NPCCROWD_ABILITY_NPCABILITY_STOPSTATETREE_OFFSET UNITYSDK_OFFSET(0x1063E8F0)
+#define NPCCROWD_ABILITY_NPCABILITY_TELEPORTTO_OFFSET UNITYSDK_OFFSET(0x114E1710)
+#define NPCCROWD_ABILITY_NPCABILITY_WAITFORSTANDTURNFINISH_OFFSET UNITYSDK_OFFSET(0x114E1120)
+#define NPCCROWD_ABILITY_NPCABILITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1063EA20)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int NPCAbility_TypeDefinitionIndex = 56869;
+	inline static constexpr unsigned int NPCAbility_TypeDefinitionIndex = 72684;
 
 	class NPCAbility : public ::System::Object
 	{
 	public:
 		// static const ::System::Int32 INVALID_ABILITY_IDX = 0xFFFFFFFF; // 0x0
 		::NPCCrowd::Ability::NPCAbilityRuntimeData* runtimeData; // 0x10
-		::NPCCrowd::Ability::FNPCAbilityMovementStyleSpeedParameters movementParams; // 0x18
-		::NPCCrowd::Ability::NPCAbilityBridgeData* bridgeData; // 0xB0
+		::NPCCrowd::Ability::NPCAbilityBridgeData* bridgeData; // 0x18
+		::NPCCrowd::Ability::FNPCAbilityMovementStyleSpeedParameters movementParams; // 0x20
 		::UnityEngine::Vector3 lastPosCache; // 0xB8
-		::NPCCrowd::Ability::NPCAbilityBehavioursDefine effectiveBehaviours; // 0xC4
-		::System::Boolean usePathFollow; // 0xF4
-		::System::Int32 abilityIdx; // 0xF8
-		::UnityEngine::Vector3 posCache; // 0xFC
-		::NPCCrowd::NPCPhysicsManager_PhysicsHandle physicsHandle; // 0x108
+		::NPCCrowd::NPCPhysicsManager_PhysicsHandle physicsHandle; // 0xC4
+		::System::Boolean usePathFollow; // 0xC8
+		::UnityEngine::Vector3 posCache; // 0xCC
+		::NPCCrowd::Ability::NPCAbilityBehavioursDefine effectiveBehaviours; // 0xD8
+		::System::Int32 abilityIdx; // 0x108
 
 		::System::Void _ctor()
 		{
@@ -79,19 +76,9 @@ namespace NPCCrowd::Ability
 			return ((::NPCCrowd::Ability::FTransformFragment(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCABILITY_GETTRANSFORM_OFFSET))(this);
 		}
 
-		::NPCCrowd::Ability::FNPCAbilityMovementActionHandle MoveTo(::UnityEngine::Vector3 target, ::System::String* style)
+		::NPCCrowd::Ability::FNPCAbilityMovementActionHandle PathFollow(::NPCCrowd::AI::PathGraphRuntime_PathFindingResult* pathResult, ::System::String* moveStyle, ::System::Boolean teleportToFirstPoint, ::System::Int32 laneIndex, ::System::Single laneInnerOffset, ::System::Single endFadeOutTime, ::System::Int32 pathID)
 		{
-			return ((::NPCCrowd::Ability::FNPCAbilityMovementActionHandle(*)(::PVOID, ::UnityEngine::Vector3, ::System::String*))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCABILITY_MOVETO_OFFSET))(this, target, style);
-		}
-
-		::NPCCrowd::Ability::FNPCAbilityMovementActionHandle PathFollow(::System::Collections::Generic::List_1<::System::UInt16>*& nodes, ::System::String* moveStyle, ::System::Boolean teleportToFirstPoint)
-		{
-			return ((::NPCCrowd::Ability::FNPCAbilityMovementActionHandle(*)(::PVOID, ::System::Collections::Generic::List_1<::System::UInt16>*&, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCABILITY_PATHFOLLOW_OFFSET))(this, nodes, moveStyle, teleportToFirstPoint);
-		}
-
-		::NPCCrowd::Ability::FNPCAbilityMovementActionHandle PathFollow_1(::NPCCrowd::AI::PathGraphRuntime_PathFindingResult* pathResult, ::System::String* moveStyle, ::System::Boolean teleportToFirstPoint, ::System::Int32 laneIndex, ::System::Single laneInnerOffset, ::System::Single endFadeOutTime, ::System::Int32 pathID)
-		{
-			return ((::NPCCrowd::Ability::FNPCAbilityMovementActionHandle(*)(::PVOID, ::NPCCrowd::AI::PathGraphRuntime_PathFindingResult*, ::System::String*, ::System::Boolean, ::System::Int32, ::System::Single, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCABILITY_PATHFOLLOW_1_OFFSET))(this, pathResult, moveStyle, teleportToFirstPoint, laneIndex, laneInnerOffset, endFadeOutTime, pathID);
+			return ((::NPCCrowd::Ability::FNPCAbilityMovementActionHandle(*)(::PVOID, ::NPCCrowd::AI::PathGraphRuntime_PathFindingResult*, ::System::String*, ::System::Boolean, ::System::Int32, ::System::Single, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCABILITY_PATHFOLLOW_OFFSET))(this, pathResult, moveStyle, teleportToFirstPoint, laneIndex, laneInnerOffset, endFadeOutTime, pathID);
 		}
 
 		::System::Void StartStandTurn(::System::Single angle)
@@ -127,11 +114,6 @@ namespace NPCCrowd::Ability
 		::NPCCrowd::Ability::ENPCAbilityMovementAction GetCurrentActionType()
 		{
 			return ((::NPCCrowd::Ability::ENPCAbilityMovementAction(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCABILITY_GETCURRENTACTIONTYPE_OFFSET))(this);
-		}
-
-		::System::Boolean IsStartMoveProcess()
-		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCABILITY_ISSTARTMOVEPROCESS_OFFSET))(this);
 		}
 
 		::System::Void StopMoveAction(::NPCCrowd::Ability::FNPCAbilityMovementActionHandle& handle)
@@ -182,6 +164,11 @@ namespace NPCCrowd::Ability
 		::UnityEngine::Vector3 GetPosition()
 		{
 			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCABILITY_GETPOSITION_OFFSET))(this);
+		}
+
+		::System::Boolean get_NeedRefreshData()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCABILITY_GET_NEEDREFRESHDATA_OFFSET))(this);
 		}
 
 		::System::Void RefreshData()

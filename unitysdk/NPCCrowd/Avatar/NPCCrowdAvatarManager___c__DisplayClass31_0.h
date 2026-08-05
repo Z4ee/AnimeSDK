@@ -5,12 +5,12 @@
 namespace NPCCrowd::Accessories { class NPCAccessory; }
 namespace NPCCrowd::Animation { class NPCCPUAnimationSlotInfo; }
 
-#define NPCCROWD_AVATAR_NPCCROWDAVATARMANAGER___C__DISPLAYCLASS31_0__CTOR_OFFSET UNITYSDK_OFFSET(0x102BDB80)
-#define NPCCROWD_AVATAR_NPCCROWDAVATARMANAGER___C__DISPLAYCLASS31_0__POSTLOADAVATARACCESSORYGALGAME_B__0_OFFSET UNITYSDK_OFFSET(0x102BDB90)
+#define NPCCROWD_AVATAR_NPCCROWDAVATARMANAGER___C__DISPLAYCLASS31_0__CTOR_OFFSET UNITYSDK_OFFSET(0xE57C0B0)
+#define NPCCROWD_AVATAR_NPCCROWDAVATARMANAGER___C__DISPLAYCLASS31_0__POSTLOADAVATARACCESSORYGALGAME_B__0_OFFSET UNITYSDK_OFFSET(0xE57C0C0)
 
 namespace NPCCrowd::Avatar
 {
-	inline static constexpr unsigned int NPCCrowdAvatarManager___c__DisplayClass31_0_TypeDefinitionIndex = 66884;
+	inline static constexpr unsigned int NPCCrowdAvatarManager___c__DisplayClass31_0_TypeDefinitionIndex = 60724;
 
 	class NPCCrowdAvatarManager___c__DisplayClass31_0 : public ::System::Object
 	{

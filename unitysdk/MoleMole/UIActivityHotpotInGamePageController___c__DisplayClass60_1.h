@@ -5,12 +5,12 @@
 namespace MoleMole { class UIActivityHotPotCardSelectPopWindowController; }
 namespace MoleMole { class UIActivityHotpotInGamePageController; }
 
-#define MOLEMOLE_UIACTIVITYHOTPOTINGAMEPAGECONTROLLER___C__DISPLAYCLASS60_1__CTOR_OFFSET UNITYSDK_OFFSET(0x186555E0)
-#define MOLEMOLE_UIACTIVITYHOTPOTINGAMEPAGECONTROLLER___C__DISPLAYCLASS60_1__ONHOTPOTCARDGACHA_B__1_OFFSET UNITYSDK_OFFSET(0x186555F0)
+#define MOLEMOLE_UIACTIVITYHOTPOTINGAMEPAGECONTROLLER___C__DISPLAYCLASS60_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6EC550)
+#define MOLEMOLE_UIACTIVITYHOTPOTINGAMEPAGECONTROLLER___C__DISPLAYCLASS60_1__ONHOTPOTCARDGACHA_B__1_OFFSET UNITYSDK_OFFSET(0x1B6EC560)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityHotpotInGamePageController___c__DisplayClass60_1_TypeDefinitionIndex = 75068;
+	inline static constexpr unsigned int UIActivityHotpotInGamePageController___c__DisplayClass60_1_TypeDefinitionIndex = 87252;
 
 	class UIActivityHotpotInGamePageController___c__DisplayClass60_1 : public ::System::Object
 	{

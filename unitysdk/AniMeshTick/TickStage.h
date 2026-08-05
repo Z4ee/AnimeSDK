@@ -3,7 +3,7 @@
 
 namespace AniMeshTick
 {
-	inline static constexpr unsigned int TickStage_TypeDefinitionIndex = 43304;
+	inline static constexpr unsigned int TickStage_TypeDefinitionIndex = 71269;
 
 	enum class TickStage : ::System::Int32
 	{

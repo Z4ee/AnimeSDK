@@ -6,13 +6,13 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define PROFILINGRECORDER_ECSRECORDER_ECSDELTA_TOJSON_OFFSET UNITYSDK_OFFSET(0x970200)
-#define PROFILINGRECORDER_ECSRECORDER_ECSDELTA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x9701B0)
-#define PROFILINGRECORDER_ECSRECORDER_ECSDELTA___BASE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x970210)
+#define PROFILINGRECORDER_ECSRECORDER_ECSDELTA_TOJSON_OFFSET UNITYSDK_OFFSET(0x8FF490)
+#define PROFILINGRECORDER_ECSRECORDER_ECSDELTA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x8FF440)
+#define PROFILINGRECORDER_ECSRECORDER_ECSDELTA___BASE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x8FF4A0)
 
 namespace ProfilingRecorder
 {
-	inline static constexpr unsigned int EcsRecorder_EcsDelta_TypeDefinitionIndex = 42553;
+	inline static constexpr unsigned int EcsRecorder_EcsDelta_TypeDefinitionIndex = 85711;
 
 	struct alignas(8) EcsRecorder_EcsDelta
 	{

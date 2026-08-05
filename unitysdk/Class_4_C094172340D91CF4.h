@@ -5,22 +5,22 @@
 
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
-template <typename T> class Class_4_B51FB35349ACD175;
-template <typename T> class Class_4_F91115D9A1F02F5F;
+template <typename T> class Class_4_2FF7D360A2F3EC48;
+template <typename T> class Class_4_8D3E479B491881B3;
 
-#define CLASS_4_C094172340D91CF4_METHOD_4_1290EA767C459179_OFFSET UNITYSDK_OFFSET(0xF979D10)
-#define CLASS_4_C094172340D91CF4_METHOD_4_25DEA5C65A602671_OFFSET UNITYSDK_OFFSET(0xF97A040)
-#define CLASS_4_C094172340D91CF4_METHOD_4_C2E8BBDD048A1B46_OFFSET UNITYSDK_OFFSET(0xF979E60)
-#define CLASS_4_C094172340D91CF4__CTOR_OFFSET UNITYSDK_OFFSET(0xF979F10)
+#define CLASS_4_C094172340D91CF4_METHOD_4_1290EA767C459179_OFFSET UNITYSDK_OFFSET(0x17F074E0)
+#define CLASS_4_C094172340D91CF4_METHOD_4_25DEA5C65A602671_OFFSET UNITYSDK_OFFSET(0x17F07810)
+#define CLASS_4_C094172340D91CF4_METHOD_4_C2E8BBDD048A1B46_OFFSET UNITYSDK_OFFSET(0x17F07630)
+#define CLASS_4_C094172340D91CF4__CTOR_OFFSET UNITYSDK_OFFSET(0x17F076E0)
 
-inline static constexpr unsigned int Class_4_C094172340D91CF4_TypeDefinitionIndex = 52491;
+inline static constexpr unsigned int Class_4_C094172340D91CF4_TypeDefinitionIndex = 67186;
 
 class Class_4_C094172340D91CF4 : public ::Class_3_F3948D237059FA7A
 {
 public:
-	::Class_4_F91115D9A1F02F5F<::System::Int32>* Field_4_0; // 0x28
-	::Class_4_F91115D9A1F02F5F<::System::Collections::Generic::List_1<::System::Object*>*>* Field_4_1; // 0x30
-	::Class_4_B51FB35349ACD175<::System::Int32>* Field_4_2; // 0x38
+	::Class_4_2FF7D360A2F3EC48<::System::Int32>* Field_4_1; // 0x28
+	::Class_4_2FF7D360A2F3EC48<::System::Collections::Generic::List_1<::System::Object*>*>* Field_4_0; // 0x30
+	::Class_4_8D3E479B491881B3<::System::Int32>* Field_4_7; // 0x38
 
 	::System::Void _ctor()
 	{

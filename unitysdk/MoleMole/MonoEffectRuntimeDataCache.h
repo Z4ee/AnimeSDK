@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-class Class_2_69EA47680D9A92E8;
+class Class_2_00AA9B880D4AB75A;
 namespace MoleMole { class FloatRendererFader; }
 namespace MoleMole { class LightFader; }
 namespace MoleMole { class MatKeyPropValueFaderByIndex; }
@@ -10,11 +10,12 @@ namespace MoleMole { class MatKeyWordFaderByIndex; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_MONOEFFECTRUNTIMEDATACACHE_GET_FULLYCACHED_OFFSET UNITYSDK_OFFSET(0x8194A0)
+#define MOLEMOLE_MONOEFFECTRUNTIMEDATACACHE_GET_FULLYCACHED_OFFSET UNITYSDK_OFFSET(0x8AC8A0)
+#define MOLEMOLE_MONOEFFECTRUNTIMEDATACACHE_METHOD_2_D71E064BBA8DAFD1_OFFSET UNITYSDK_OFFSET(0x8AC900)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoEffectRuntimeDataCache_TypeDefinitionIndex = 79421;
+	inline static constexpr unsigned int MonoEffectRuntimeDataCache_TypeDefinitionIndex = 71690;
 
 	struct alignas(8) MonoEffectRuntimeDataCache
 	{
@@ -32,11 +33,16 @@ namespace MoleMole
 		::Il2CppArray<::MoleMole::MatKeyPropValueFaderByIndex*>* ColorCorrectionMatLerpFaderArray; // 0x68
 		::System::Boolean BuffFadersCached; // 0x70
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::MoleMole::FloatRendererFader*>*>* BuffRendererFaderDict; // 0x78
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::Class_2_69EA47680D9A92E8*>*>* BuffKeywordFaderDict; // 0x80
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::Class_2_00AA9B880D4AB75A*>*>* BuffKeywordFaderDict; // 0x80
 
 		::System::Boolean get_FullyCached()
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECTRUNTIMEDATACACHE_GET_FULLYCACHED_OFFSET))(this);
+		}
+
+		::System::Void Method_2_D71E064BBA8DAFD1()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECTRUNTIMEDATACACHE_METHOD_2_D71E064BBA8DAFD1_OFFSET))(this);
 		}
 	};
 }

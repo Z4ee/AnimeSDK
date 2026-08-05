@@ -6,13 +6,13 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGMULTIPLAYERUI_GET_COLORLIST_OFFSET UNITYSDK_OFFSET(0x1AA56350)
-#define MOLEMOLE_CONFIG_CONFIGMULTIPLAYERUI_GET_GRADIENTCOLORLIST_OFFSET UNITYSDK_OFFSET(0x1AA56440)
-#define MOLEMOLE_CONFIG_CONFIGMULTIPLAYERUI__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA56700)
+#define MOLEMOLE_CONFIG_CONFIGMULTIPLAYERUI_GET_COLORLIST_OFFSET UNITYSDK_OFFSET(0x1147A930)
+#define MOLEMOLE_CONFIG_CONFIGMULTIPLAYERUI_GET_GRADIENTCOLORLIST_OFFSET UNITYSDK_OFFSET(0x1147AA20)
+#define MOLEMOLE_CONFIG_CONFIGMULTIPLAYERUI__CTOR_OFFSET UNITYSDK_OFFSET(0x1147ACE0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigMultiplayerUI_TypeDefinitionIndex = 43944;
+	inline static constexpr unsigned int ConfigMultiplayerUI_TypeDefinitionIndex = 40493;
 
 	class ConfigMultiplayerUI : public ::Foundation::MihoyoSerializedScriptableObject
 	{

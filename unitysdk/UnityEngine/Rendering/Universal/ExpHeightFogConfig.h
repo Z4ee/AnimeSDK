@@ -4,11 +4,11 @@
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_EXPHEIGHTFOGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B179470)
+#define UNITYENGINE_RENDERING_UNIVERSAL_EXPHEIGHTFOGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5B0610)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int ExpHeightFogConfig_TypeDefinitionIndex = 26812;
+	inline static constexpr unsigned int ExpHeightFogConfig_TypeDefinitionIndex = 27557;
 
 	class ExpHeightFogConfig : public ::System::Object
 	{

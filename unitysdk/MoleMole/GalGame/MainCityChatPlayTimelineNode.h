@@ -7,19 +7,19 @@ namespace MoleMole { class UIBaseChatPlayController; }
 namespace MoleMole { class UIMainCityChatPlayContext; }
 namespace System { class String; }
 
-#define MOLEMOLE_GALGAME_MAINCITYCHATPLAYTIMELINENODE_INSTANTIATE_OFFSET UNITYSDK_OFFSET(0x1912A1B0)
-#define MOLEMOLE_GALGAME_MAINCITYCHATPLAYTIMELINENODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1912A1A0)
+#define MOLEMOLE_GALGAME_MAINCITYCHATPLAYTIMELINENODE_INSTANTIATE_OFFSET UNITYSDK_OFFSET(0x19DBE880)
+#define MOLEMOLE_GALGAME_MAINCITYCHATPLAYTIMELINENODE__CTOR_OFFSET UNITYSDK_OFFSET(0x19DBE870)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int MainCityChatPlayTimelineNode_TypeDefinitionIndex = 48152;
+	inline static constexpr unsigned int MainCityChatPlayTimelineNode_TypeDefinitionIndex = 41268;
 
 	class MainCityChatPlayTimelineNode : public ::MoleMole::GalGame::MainCityChatPlayableNodeBase
 	{
 	public:
 		::System::String* TimelineKey; // 0x18
-		::System::Boolean WaitFinish; // 0x20
-		::System::Boolean IsStop; // 0x21
+		::System::Boolean IsStop; // 0x20
+		::System::Boolean WaitFinish; // 0x21
 
 		::System::Void _ctor()
 		{

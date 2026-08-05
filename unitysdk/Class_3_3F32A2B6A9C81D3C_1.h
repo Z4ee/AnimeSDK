@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/PropertyAttribute.h"
 
-#define CLASS_3_3F32A2B6A9C81D3C_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1406A3C0)
+#define CLASS_3_3F32A2B6A9C81D3C_1__CTOR_OFFSET UNITYSDK_OFFSET(0x17832500)
 
-inline static constexpr unsigned int Class_3_3F32A2B6A9C81D3C_1_TypeDefinitionIndex = 53761;
+inline static constexpr unsigned int Class_3_3F32A2B6A9C81D3C_1_TypeDefinitionIndex = 52920;
 
 class Class_3_3F32A2B6A9C81D3C_1 : public ::UnityEngine::PropertyAttribute
 {

@@ -8,15 +8,15 @@
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_LIGHTFILTER_CULL_OFFSET UNITYSDK_OFFSET(0x927330)
-#define UNITYENGINE_RENDERING_UNIVERSAL_LIGHTFILTER_GETLIGHTATINDEX_OFFSET UNITYSDK_OFFSET(0x9273D0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_LIGHTFILTER_GETVALUE_OFFSET UNITYSDK_OFFSET(0x9273C0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_LIGHTFILTER_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x927360)
-#define UNITYENGINE_RENDERING_UNIVERSAL_LIGHTFILTER_TILELIGHTS_OFFSET UNITYSDK_OFFSET(0x927320)
+#define UNITYENGINE_RENDERING_UNIVERSAL_LIGHTFILTER_CULL_OFFSET UNITYSDK_OFFSET(0x975A40)
+#define UNITYENGINE_RENDERING_UNIVERSAL_LIGHTFILTER_GETLIGHTATINDEX_OFFSET UNITYSDK_OFFSET(0x975AE0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_LIGHTFILTER_GETVALUE_OFFSET UNITYSDK_OFFSET(0x975AD0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_LIGHTFILTER_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x975A70)
+#define UNITYENGINE_RENDERING_UNIVERSAL_LIGHTFILTER_TILELIGHTS_OFFSET UNITYSDK_OFFSET(0x975A30)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int LightFilter_TypeDefinitionIndex = 26451;
+	inline static constexpr unsigned int LightFilter_TypeDefinitionIndex = 26824;
 
 	struct alignas(8) LightFilter
 	{
@@ -29,14 +29,12 @@ namespace UnityEngine::Rendering::Universal
 		::System::Collections::Generic::HashSet_1<::System::Int32>* cullResultHashSet; // 0x28
 		::System::Collections::Generic::List_1<::System::Int32>* cullResultList; // 0x30
 		::System::Int32 iterationIndex; // 0x38
-		::System::Boolean useNativeTBL; // 0x3C
-		::UnityEngine::Vector2 min; // 0x40
-		::UnityEngine::Vector2 max; // 0x48
-		::UnityEngine::Vector2 invTileSize; // 0x50
-		::Il2CppArray<::UnityEngine::NAPRenderPipeline0::NapLightData>* napLightDatas; // 0x58
-		::Unity::Collections::NativeArray_1<::UnityEngine::NAPRenderPipeline0::NapLightData> napLightDatas1; // 0x60
-		::System::Collections::Generic::List_1<::System::Single>* lightRadius; // 0x70
-		::System::Int32 lightCount; // 0x78
+		::UnityEngine::Vector2 min; // 0x3C
+		::UnityEngine::Vector2 max; // 0x44
+		::UnityEngine::Vector2 invTileSize; // 0x4C
+		::Unity::Collections::NativeArray_1<::UnityEngine::NAPRenderPipeline0::NapLightData> napLightDatas1; // 0x58
+		::System::Collections::Generic::List_1<::System::Single>* lightRadius; // 0x68
+		::System::Int32 lightCount; // 0x70
 
 		::System::Void TileLights(::System::Single minTileSize)
 		{

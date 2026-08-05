@@ -3,7 +3,7 @@
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int SampleCountLevel_TypeDefinitionIndex = 5817;
+	inline static constexpr unsigned int SampleCountLevel_TypeDefinitionIndex = 5819;
 
 	enum class SampleCountLevel : ::System::Int32
 	{

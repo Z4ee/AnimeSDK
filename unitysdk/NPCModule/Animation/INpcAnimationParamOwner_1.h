@@ -3,7 +3,7 @@
 
 namespace NPCModule::Animation
 {
-	inline static constexpr unsigned int INpcAnimationParamOwner_1_TypeDefinitionIndex = 59615;
+	inline static constexpr unsigned int INpcAnimationParamOwner_1_TypeDefinitionIndex = 67263;
 
 	template <typename TParam>
 	class INpcAnimationParamOwner_1

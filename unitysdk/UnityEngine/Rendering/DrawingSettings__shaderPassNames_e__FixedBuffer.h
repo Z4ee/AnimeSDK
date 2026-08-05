@@ -4,7 +4,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int DrawingSettings__shaderPassNames_e__FixedBuffer_TypeDefinitionIndex = 6241;
+	inline static constexpr unsigned int DrawingSettings__shaderPassNames_e__FixedBuffer_TypeDefinitionIndex = 6245;
 
 	struct alignas(4) DrawingSettings__shaderPassNames_e__FixedBuffer
 	{

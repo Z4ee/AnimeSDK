@@ -4,12 +4,12 @@
 
 namespace MoleMole::Battle { class Entity; }
 
-#define MOLEMOLE_SHAREDGAMEENTITY_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x18CFEA30)
-#define MOLEMOLE_SHAREDGAMEENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0x18CFEB00)
+#define MOLEMOLE_SHAREDGAMEENTITY_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x145071A0)
+#define MOLEMOLE_SHAREDGAMEENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0x14507270)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SharedGameEntity_TypeDefinitionIndex = 41589;
+	inline static constexpr unsigned int SharedGameEntity_TypeDefinitionIndex = 84526;
 
 	class SharedGameEntity : public ::BehaviorDesigner::Runtime::SharedVariable_1<::MoleMole::Battle::Entity*>
 	{

@@ -1,8 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_BA48F385FE228ACF.h"
+#include "unitysdk/Enum_3_B3CD8B0677150E06.h"
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_142_TypeDefinitionIndex = 34519;
+class Class_0_16E4307DCC419505_137;
+class Class_2_4404167111A26FF8;
+namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
+namespace System { template <typename T> class Func_1; }
+namespace System::Collections { class IEnumerable; }
+namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
+template <typename T1, typename T2> class Class_1_D60416EB550789D9;
+template <typename T> class Class_1_BBE667D4A3124D9B;
+template <typename T> class Class_2_000597E145D7A42A;
+template <typename T> class Class_2_079388E7AC1F6E21;
+template <typename T> class Class_2_0ABEDEEC42FD90B1;
+template <typename T> class Class_2_246E81337537F1CE;
+template <typename T> class Class_2_5D89926D4D0CB2F6;
+template <typename T> class Class_2_F16D73323D71766B;
+template <typename T> class Class_2_F16D73323D71766B_Class_3_B6136C2F127116DF_5;
+
+inline static constexpr unsigned int Class_0_16E4307DCC419505_142_TypeDefinitionIndex = 35259;
 
 class Class_0_16E4307DCC419505_142
 {

@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MIHOYO_SDK_CONSOLE_MIHOYOSDKDLL___C__DISPLAYCLASS40_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5B42F0)
-#define MIHOYO_SDK_CONSOLE_MIHOYOSDKDLL___C__DISPLAYCLASS40_0__LOGIN_OPEN_URL_WITH_LOGIN_STATUS_B__0_OFFSET UNITYSDK_OFFSET(0x1B5B4300)
+#define MIHOYO_SDK_CONSOLE_MIHOYOSDKDLL___C__DISPLAYCLASS40_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C9251B0)
+#define MIHOYO_SDK_CONSOLE_MIHOYOSDKDLL___C__DISPLAYCLASS40_0__LOGIN_OPEN_URL_WITH_LOGIN_STATUS_B__0_OFFSET UNITYSDK_OFFSET(0x1C9251C0)
 
 namespace MiHoYo::SDK::Console
 {
-	inline static constexpr unsigned int MiHoYoSDKDll___c__DisplayClass40_0_TypeDefinitionIndex = 20697;
+	inline static constexpr unsigned int MiHoYoSDKDll___c__DisplayClass40_0_TypeDefinitionIndex = 21044;
 
 	class MiHoYoSDKDll___c__DisplayClass40_0 : public ::System::Object
 	{

@@ -6,20 +6,20 @@
 
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_SCREENUIATLASRECTDATA_TRYGETFONTATLASRECT_OFFSET UNITYSDK_OFFSET(0x17D6C4C0)
-#define MOLEMOLE_CONFIG_SCREENUIATLASRECTDATA_TRYGETFONTBGATLASRECT_OFFSET UNITYSDK_OFFSET(0x17D6C690)
-#define MOLEMOLE_CONFIG_SCREENUIATLASRECTDATA_TRYGETICONATLASRECT_OFFSET UNITYSDK_OFFSET(0x17D6C570)
-#define MOLEMOLE_CONFIG_SCREENUIATLASRECTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x17D6C740)
+#define MOLEMOLE_CONFIG_SCREENUIATLASRECTDATA_TRYGETFONTATLASRECT_OFFSET UNITYSDK_OFFSET(0x172BDDB0)
+#define MOLEMOLE_CONFIG_SCREENUIATLASRECTDATA_TRYGETFONTBGATLASRECT_OFFSET UNITYSDK_OFFSET(0x172BDF80)
+#define MOLEMOLE_CONFIG_SCREENUIATLASRECTDATA_TRYGETICONATLASRECT_OFFSET UNITYSDK_OFFSET(0x172BDE60)
+#define MOLEMOLE_CONFIG_SCREENUIATLASRECTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x172BE030)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ScreenUIAtlasRectData_TypeDefinitionIndex = 69770;
+	inline static constexpr unsigned int ScreenUIAtlasRectData_TypeDefinitionIndex = 57060;
 
 	class ScreenUIAtlasRectData : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::ProtoScript::ChessUIIconType, ::UnityEngine::Vector4>* IconAtlasRect; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::Char, ::UnityEngine::Vector4>* FontAtlasRect; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::Char, ::UnityEngine::Vector4>* FontAtlasRect; // 0x10
+		::System::Collections::Generic::Dictionary_2<::ProtoScript::ChessUIIconType, ::UnityEngine::Vector4>* IconAtlasRect; // 0x18
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::Vector4>* FontBGAtlasRect; // 0x20
 
 		::System::Void _ctor()

@@ -8,27 +8,27 @@ namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 namespace FlowCanvas { template <typename T> class ValueOutput_1; }
 
-#define MOLEMOLE_FLOWCANVAS_FEVERUPDATENODE_ADVANCE_OFFSET UNITYSDK_OFFSET(0x18B16D20)
-#define MOLEMOLE_FLOWCANVAS_FEVERUPDATENODE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x18B16B80)
-#define MOLEMOLE_FLOWCANVAS_FEVERUPDATENODE_START_OFFSET UNITYSDK_OFFSET(0x18B16E10)
-#define MOLEMOLE_FLOWCANVAS_FEVERUPDATENODE__CTOR_OFFSET UNITYSDK_OFFSET(0x18B16F00)
-#define MOLEMOLE_FLOWCANVAS_FEVERUPDATENODE__REGISTERPORTS_B__0_0_OFFSET UNITYSDK_OFFSET(0x18B16F40)
-#define MOLEMOLE_FLOWCANVAS_FEVERUPDATENODE__REGISTERPORTS_B__0_1_OFFSET UNITYSDK_OFFSET(0x18B17050)
-#define MOLEMOLE_FLOWCANVAS_FEVERUPDATENODE__REGISTERPORTS_B__0_2_OFFSET UNITYSDK_OFFSET(0x18B17080)
+#define MOLEMOLE_FLOWCANVAS_FEVERUPDATENODE_ADVANCE_OFFSET UNITYSDK_OFFSET(0x118AB980)
+#define MOLEMOLE_FLOWCANVAS_FEVERUPDATENODE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x118AB7E0)
+#define MOLEMOLE_FLOWCANVAS_FEVERUPDATENODE_START_OFFSET UNITYSDK_OFFSET(0x118ABA70)
+#define MOLEMOLE_FLOWCANVAS_FEVERUPDATENODE__CTOR_OFFSET UNITYSDK_OFFSET(0x118ABB60)
+#define MOLEMOLE_FLOWCANVAS_FEVERUPDATENODE__REGISTERPORTS_B__0_0_OFFSET UNITYSDK_OFFSET(0x118ABBA0)
+#define MOLEMOLE_FLOWCANVAS_FEVERUPDATENODE__REGISTERPORTS_B__0_1_OFFSET UNITYSDK_OFFSET(0x118ABCB0)
+#define MOLEMOLE_FLOWCANVAS_FEVERUPDATENODE__REGISTERPORTS_B__0_2_OFFSET UNITYSDK_OFFSET(0x118ABCE0)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int FeverUpdateNode_TypeDefinitionIndex = 52060;
+	inline static constexpr unsigned int FeverUpdateNode_TypeDefinitionIndex = 64433;
 
 	class FeverUpdateNode : public ::FlowCanvas::FlowNode
 	{
 	public:
-		::FlowCanvas::FlowInput* _advance; // 0xA8
-		::FlowCanvas::FlowInput* _start; // 0xB0
+		::FlowCanvas::FlowInput* _start; // 0xA8
+		::FlowCanvas::FlowOutput* _update; // 0xB0
 		::FlowCanvas::FlowOutput* _finish; // 0xB8
-		::FlowCanvas::ValueOutput_1<::System::Int32>* Frame; // 0xC0
-		::FlowCanvas::FlowOutput* _update; // 0xC8
-		::FlowCanvas::ValueInput_1<::System::Int32>* feverFrame; // 0xD0
+		::FlowCanvas::ValueInput_1<::System::Int32>* feverFrame; // 0xC0
+		::FlowCanvas::FlowInput* _advance; // 0xC8
+		::FlowCanvas::ValueOutput_1<::System::Int32>* Frame; // 0xD0
 		::System::Int32 _curFrameCount; // 0xD8
 
 		::System::Void _ctor()

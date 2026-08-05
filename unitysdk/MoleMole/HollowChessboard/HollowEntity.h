@@ -3,11 +3,11 @@
 #include "unitysdk/Nap/NapECS/ComponentMask.h"
 #include "unitysdk/Nap/NapECS/EcsEntity.h"
 
-#define MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0x12BC59A0)
+#define MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0x13844820)
 
 namespace MoleMole::HollowChessboard
 {
-	inline static constexpr unsigned int HollowEntity_TypeDefinitionIndex = 87581;
+	inline static constexpr unsigned int HollowEntity_TypeDefinitionIndex = 53242;
 
 	class HollowEntity : public ::Nap::NapECS::EcsEntity
 	{

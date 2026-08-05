@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ColliderErrorState2D_TypeDefinitionIndex = 18380;
+	inline static constexpr unsigned int ColliderErrorState2D_TypeDefinitionIndex = 18786;
 
 	enum class ColliderErrorState2D : ::System::Int32
 	{

@@ -8,20 +8,20 @@ namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MIHOYO_SDK_WINDOWS_OS_CHANNEL_BINDMANAGER___C__DISPLAYCLASS54_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A9EA320)
-#define MIHOYO_SDK_WINDOWS_OS_CHANNEL_BINDMANAGER___C__DISPLAYCLASS54_0__REQUESTCREATEACTIONTICKET_B__0_OFFSET UNITYSDK_OFFSET(0x1A9EA330)
+#define MIHOYO_SDK_WINDOWS_OS_CHANNEL_BINDMANAGER___C__DISPLAYCLASS54_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE20A00)
+#define MIHOYO_SDK_WINDOWS_OS_CHANNEL_BINDMANAGER___C__DISPLAYCLASS54_0__REQUESTCREATEACTIONTICKET_B__0_OFFSET UNITYSDK_OFFSET(0x1BE20A10)
 
 namespace MiHoYo::SDK::Windows::OS::Channel
 {
-	inline static constexpr unsigned int BindManager___c__DisplayClass54_0_TypeDefinitionIndex = 20129;
+	inline static constexpr unsigned int BindManager___c__DisplayClass54_0_TypeDefinitionIndex = 20477;
 
 	class BindManager___c__DisplayClass54_0 : public ::System::Object
 	{
 	public:
-		::System::Action_1<::MiHoYo::SDK::NetworkResponseModelEx*>* callback; // 0x10
-		::System::String* account; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* extHeaders; // 0x20
-		::MiHoYo::SDK::Windows::OS::Channel::BindManager* __4__this; // 0x28
+		::System::String* account; // 0x10
+		::MiHoYo::SDK::Windows::OS::Channel::BindManager* __4__this; // 0x18
+		::System::Action_1<::MiHoYo::SDK::NetworkResponseModelEx*>* callback; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* extHeaders; // 0x28
 		::System::String* actionType; // 0x30
 
 		::System::Void _ctor()

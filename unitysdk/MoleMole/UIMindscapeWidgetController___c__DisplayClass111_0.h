@@ -8,18 +8,18 @@ namespace System { class Action; }
 namespace System { class String; }
 namespace UnityEngine { class Object; }
 
-#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER___C__DISPLAYCLASS111_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1574E100)
-#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER___C__DISPLAYCLASS111_0__SETBGMODEL_B__0_OFFSET UNITYSDK_OFFSET(0x1574E110)
+#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER___C__DISPLAYCLASS111_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17AF4660)
+#define MOLEMOLE_UIMINDSCAPEWIDGETCONTROLLER___C__DISPLAYCLASS111_0__SETBGMODEL_B__0_OFFSET UNITYSDK_OFFSET(0x17AF4670)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMindscapeWidgetController___c__DisplayClass111_0_TypeDefinitionIndex = 43479;
+	inline static constexpr unsigned int UIMindscapeWidgetController___c__DisplayClass111_0_TypeDefinitionIndex = 78687;
 
 	class UIMindscapeWidgetController___c__DisplayClass111_0 : public ::System::Object
 	{
 	public:
-		::System::Action* completeHandle; // 0x10
-		::System::String* bgName; // 0x18
+		::System::String* bgName; // 0x10
+		::System::Action* completeHandle; // 0x18
 		::MoleMole::UIMindscapeWidgetController* __4__this; // 0x20
 
 		::System::Void _ctor()

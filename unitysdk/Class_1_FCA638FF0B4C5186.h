@@ -4,9 +4,9 @@
 
 namespace MoleMole { class AbyssS2_IMapGenerator; }
 
-#define CLASS_1_FCA638FF0B4C5186_METHOD_1_F298466970D09361_OFFSET UNITYSDK_OFFSET(0xD0D7E80)
+#define CLASS_1_FCA638FF0B4C5186_METHOD_1_F298466970D09361_OFFSET UNITYSDK_OFFSET(0x15757610)
 
-inline static constexpr unsigned int Class_1_FCA638FF0B4C5186_TypeDefinitionIndex = 66418;
+inline static constexpr unsigned int Class_1_FCA638FF0B4C5186_TypeDefinitionIndex = 49600;
 
 class Class_1_FCA638FF0B4C5186 : public ::System::Object
 {

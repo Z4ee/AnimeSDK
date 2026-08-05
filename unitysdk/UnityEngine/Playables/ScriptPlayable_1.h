@@ -10,7 +10,7 @@ namespace UnityEngine::Playables { class IPlayableBehaviour; }
 
 namespace UnityEngine::Playables
 {
-	inline static constexpr unsigned int ScriptPlayable_1_TypeDefinitionIndex = 6300;
+	inline static constexpr unsigned int ScriptPlayable_1_TypeDefinitionIndex = 6304;
 
 	template <typename T>
 	struct ScriptPlayable_1

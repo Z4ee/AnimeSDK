@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_A6875CC70890641D.h"
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_326_TypeDefinitionIndex = 44079;
+namespace MoleMole::Battle { class Entity; }
 
-template <typename TSlotState>
+inline static constexpr unsigned int Class_0_16E4307DCC419505_326_TypeDefinitionIndex = 45311;
+
 class Class_0_16E4307DCC419505_326
 {
 public:

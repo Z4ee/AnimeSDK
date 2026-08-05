@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMindscapeWidgetController_EGyroType_TypeDefinitionIndex = 43471;
+	inline static constexpr unsigned int UIMindscapeWidgetController_EGyroType_TypeDefinitionIndex = 78679;
 
 	enum class UIMindscapeWidgetController_EGyroType : ::System::Int32
 	{

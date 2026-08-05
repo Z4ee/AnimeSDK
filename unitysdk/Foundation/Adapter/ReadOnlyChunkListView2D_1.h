@@ -5,7 +5,7 @@
 
 namespace Foundation::Adapter
 {
-	inline static constexpr unsigned int ReadOnlyChunkListView2D_1_TypeDefinitionIndex = 8573;
+	inline static constexpr unsigned int ReadOnlyChunkListView2D_1_TypeDefinitionIndex = 8628;
 
 	template <typename T>
 	struct ReadOnlyChunkListView2D_1

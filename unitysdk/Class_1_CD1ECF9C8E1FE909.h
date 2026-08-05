@@ -1,5 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Collections/Generic/List_1_Enumerator.h"
 #include "unitysdk/System/Object.h"
 
 namespace System::Collections { class IEnumerator; }
@@ -7,12 +8,12 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-inline static constexpr unsigned int Class_1_CD1ECF9C8E1FE909_TypeDefinitionIndex = 28075;
+inline static constexpr unsigned int Class_1_CD1ECF9C8E1FE909_TypeDefinitionIndex = 28701;
 
 template <typename T>
 class Class_1_CD1ECF9C8E1FE909 : public ::System::Object
 {
 public:
 	::System::Collections::Generic::HashSet_1<T>* Field_1_0; // 0x0
-	::System::Collections::Generic::List_1<T>* Field_1_1; // 0x0
+	::System::Collections::Generic::List_1<T>* Field_1_7; // 0x0
 };

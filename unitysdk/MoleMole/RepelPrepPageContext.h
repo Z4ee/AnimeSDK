@@ -5,11 +5,11 @@
 
 class Class_1_A13822D5BC2AB737;
 
-#define MOLEMOLE_REPELPREPPAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x173FB600)
+#define MOLEMOLE_REPELPREPPAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x129D8470)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int RepelPrepPageContext_TypeDefinitionIndex = 79913;
+	inline static constexpr unsigned int RepelPrepPageContext_TypeDefinitionIndex = 84278;
 
 	class RepelPrepPageContext : public ::MoleMole::UIControllerContextBase
 	{

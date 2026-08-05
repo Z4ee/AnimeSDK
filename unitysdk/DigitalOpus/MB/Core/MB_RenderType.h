@@ -3,7 +3,7 @@
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int MB_RenderType_TypeDefinitionIndex = 90598;
+	inline static constexpr unsigned int MB_RenderType_TypeDefinitionIndex = 94531;
 
 	enum class MB_RenderType : ::System::Int32
 	{

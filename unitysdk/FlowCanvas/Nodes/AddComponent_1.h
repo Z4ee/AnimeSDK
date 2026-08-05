@@ -6,7 +6,7 @@ namespace UnityEngine { class GameObject; }
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int AddComponent_1_TypeDefinitionIndex = 30266;
+	inline static constexpr unsigned int AddComponent_1_TypeDefinitionIndex = 30948;
 
 	template <typename T>
 	class AddComponent_1 : public ::FlowCanvas::Nodes::CallableFunctionNode_3<T, ::UnityEngine::GameObject*, ::System::Boolean>

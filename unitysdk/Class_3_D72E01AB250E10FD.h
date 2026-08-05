@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_2_9C00C44C10E42328.h"
+#include "unitysdk/Class_2_68B3FFD528A3EFF0.h"
 
 namespace MoleMole::Battle { class Entity; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_D72E01AB250E10FD_METHOD_3_40D741483CBF207D_OFFSET UNITYSDK_OFFSET(0x15987330)
-#define CLASS_3_D72E01AB250E10FD__CTOR_OFFSET UNITYSDK_OFFSET(0x15987230)
+#define CLASS_3_D72E01AB250E10FD_METHOD_3_40D741483CBF207D_OFFSET UNITYSDK_OFFSET(0x1592EA90)
+#define CLASS_3_D72E01AB250E10FD__CTOR_OFFSET UNITYSDK_OFFSET(0x1592E930)
 
-inline static constexpr unsigned int Class_3_D72E01AB250E10FD_TypeDefinitionIndex = 81006;
+inline static constexpr unsigned int Class_3_D72E01AB250E10FD_TypeDefinitionIndex = 84656;
 
-class Class_3_D72E01AB250E10FD : public ::Class_2_9C00C44C10E42328
+class Class_3_D72E01AB250E10FD : public ::Class_2_68B3FFD528A3EFF0
 {
 public:
-	::System::Collections::Generic::List_1<::System::String*>* Field_3_0; // 0x18
+	::System::Collections::Generic::List_1<::System::String*>* Field_3_0; // 0x20
 
 	::System::Void _ctor(::System::Collections::Generic::List_1<::System::String*>*& a1)
 	{

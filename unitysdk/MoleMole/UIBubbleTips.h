@@ -15,23 +15,23 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIBUBBLETIPS_FILLPARAMMAP_OFFSET UNITYSDK_OFFSET(0x15E6C8E0)
-#define MOLEMOLE_UIBUBBLETIPS_FILLPARAM_OFFSET UNITYSDK_OFFSET(0x15E6C700)
-#define MOLEMOLE_UIBUBBLETIPS_GETBUBBLETEXT_OFFSET UNITYSDK_OFFSET(0x15E6C580)
-#define MOLEMOLE_UIBUBBLETIPS_GET_ISDELAYSHOW_OFFSET UNITYSDK_OFFSET(0x15E6D5B0)
-#define MOLEMOLE_UIBUBBLETIPS_ISMIDDLETIPWHITELIST_OFFSET UNITYSDK_OFFSET(0x15E6D5C0)
-#define MOLEMOLE_UIBUBBLETIPS_ONPROCESS_OFFSET UNITYSDK_OFFSET(0x15E6D770)
-#define MOLEMOLE_UIBUBBLETIPS_RESET_OFFSET UNITYSDK_OFFSET(0x15E6BE30)
-#define MOLEMOLE_UIBUBBLETIPS_SENDEXTRAFINISH_OFFSET UNITYSDK_OFFSET(0x15E6D200)
-#define MOLEMOLE_UIBUBBLETIPS_SENDFINISH_OFFSET UNITYSDK_OFFSET(0x15E6D270)
-#define MOLEMOLE_UIBUBBLETIPS_TRIGGERWAITSTART_OFFSET UNITYSDK_OFFSET(0x15E6D550)
-#define MOLEMOLE_UIBUBBLETIPS__CTOR_OFFSET UNITYSDK_OFFSET(0x15E6BEA0)
-#define MOLEMOLE_UIBUBBLETIPS__FILLPARAMMAP_G___FILLPARAMMAP_48_0_OFFSET UNITYSDK_OFFSET(0x15E6CAB0)
-#define MOLEMOLE_UIBUBBLETIPS__ONPROCESS_B__55_0_OFFSET UNITYSDK_OFFSET(0x15E6DCC0)
+#define MOLEMOLE_UIBUBBLETIPS_FILLPARAMMAP_OFFSET UNITYSDK_OFFSET(0x170A7630)
+#define MOLEMOLE_UIBUBBLETIPS_FILLPARAM_OFFSET UNITYSDK_OFFSET(0x170A7440)
+#define MOLEMOLE_UIBUBBLETIPS_GETBUBBLETEXT_OFFSET UNITYSDK_OFFSET(0x170A72C0)
+#define MOLEMOLE_UIBUBBLETIPS_GET_ISDELAYSHOW_OFFSET UNITYSDK_OFFSET(0x170A8320)
+#define MOLEMOLE_UIBUBBLETIPS_ISMIDDLETIPWHITELIST_OFFSET UNITYSDK_OFFSET(0x170A8330)
+#define MOLEMOLE_UIBUBBLETIPS_ONPROCESS_OFFSET UNITYSDK_OFFSET(0x170A84E0)
+#define MOLEMOLE_UIBUBBLETIPS_RESET_OFFSET UNITYSDK_OFFSET(0x170A6B70)
+#define MOLEMOLE_UIBUBBLETIPS_SENDEXTRAFINISH_OFFSET UNITYSDK_OFFSET(0x170A7F70)
+#define MOLEMOLE_UIBUBBLETIPS_SENDFINISH_OFFSET UNITYSDK_OFFSET(0x170A7FE0)
+#define MOLEMOLE_UIBUBBLETIPS_TRIGGERWAITSTART_OFFSET UNITYSDK_OFFSET(0x170A82C0)
+#define MOLEMOLE_UIBUBBLETIPS__CTOR_OFFSET UNITYSDK_OFFSET(0x170A6BE0)
+#define MOLEMOLE_UIBUBBLETIPS__FILLPARAMMAP_G___FILLPARAMMAP_48_0_OFFSET UNITYSDK_OFFSET(0x170A7800)
+#define MOLEMOLE_UIBUBBLETIPS__ONPROCESS_B__55_0_OFFSET UNITYSDK_OFFSET(0x170A8A30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBubbleTips_TypeDefinitionIndex = 46609;
+	inline static constexpr unsigned int UIBubbleTips_TypeDefinitionIndex = 55461;
 
 	class UIBubbleTips : public ::MoleMole::TipShowObj
 	{
@@ -43,43 +43,43 @@ namespace MoleMole
 		// static const ::System::String* PureCurrent; // 0x0
 		// static const ::System::String* PureItemID; // 0x0
 		// static const ::System::Int32 PopWindowTipID = 0x1895F; // 0x0
-		::System::Action* finishCallback; // 0x30
-		::System::String* taskDesc; // 0x38
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>* specialsDic; // 0x40
-		::Struct_2_DBBF6AB516C866C7 bubbleData; // 0x48
-		::System::Func_2<::System::String*, ::System::String*>* InitTextCallback; // 0x78
-		::System::String* tipText; // 0x80
-		::System::Action_1<::Struct_2_0CDD0BEB64607A45>* UpdateTextCallback; // 0x88
-		::System::Action* OnShowed; // 0x90
-		::System::Action* startAddWaitListCallback; // 0x98
-		::System::String* UpdateTextCallbackCacheStringParam; // 0xA0
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>* paramMap; // 0xA8
-		::Class_1_F04CEC6677F446B8* extra; // 0xB0
-		::System::Action* CustomInitAction; // 0xB8
-		::System::String* UpdateTextCallbackCacheString; // 0xC0
-		::System::String* voiceKey; // 0xC8
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>* sceneVarDic; // 0xD0
-		::System::String* soundKey; // 0xD8
-		::System::String* RealShowText; // 0xE0
-		::System::String* overrideTipsIcon; // 0xE8
-		::System::Collections::Generic::List_1<::System::String*>* UpdateTextCallbackCacheStringParamList; // 0xF0
-		::System::Int32 soundID; // 0xF8
-		::System::Int32 taskTotal; // 0xFC
-		::System::Int32 tipflagid; // 0x100
-		::System::Int32 OverrideAvatarId; // 0x104
-		::System::Int32 tipid; // 0x108
-		::System::Int32 VoiceSourceTag; // 0x10C
-		::System::Int32 taskCurrent; // 0x110
-		::System::Int32 extParam; // 0x114
-		::System::Boolean IsUpdateTextAnim; // 0x118
-		::System::Nullable_1<::System::Boolean> ShowWhenMiddleTip; // 0x119
-		::System::Boolean hasExtra; // 0x11B
-		::System::Single soundPlayedTime; // 0x11C
-		::System::Boolean isSoundPlayed; // 0x120
-		::System::Boolean UseUpdateTextAnim; // 0x121
-		::System::Boolean SoundPlayedFinish; // 0x122
-		::System::Boolean canSkip; // 0x123
-		::Enum_3_E84F57C37B6186B1 UpdateType; // 0x124
+		::System::String* RealShowText; // 0x30
+		::System::String* UpdateTextCallbackCacheStringParam; // 0x38
+		::Struct_2_DBBF6AB516C866C7 bubbleData; // 0x40
+		::System::String* soundKey; // 0x70
+		::System::Action* finishCallback; // 0x78
+		::System::Action* startAddWaitListCallback; // 0x80
+		::System::Action* OnShowed; // 0x88
+		::Class_1_F04CEC6677F446B8* extra; // 0x90
+		::System::String* tipText; // 0x98
+		::System::Action* CustomInitAction; // 0xA0
+		::System::Func_2<::System::String*, ::System::String*>* InitTextCallback; // 0xA8
+		::System::Action_1<::Struct_2_0CDD0BEB64607A45>* UpdateTextCallback; // 0xB0
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>* sceneVarDic; // 0xB8
+		::System::Collections::Generic::List_1<::System::String*>* UpdateTextCallbackCacheStringParamList; // 0xC0
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>* paramMap; // 0xC8
+		::System::String* taskDesc; // 0xD0
+		::System::String* UpdateTextCallbackCacheString; // 0xD8
+		::System::String* overrideTipsIcon; // 0xE0
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>* specialsDic; // 0xE8
+		::System::String* voiceKey; // 0xF0
+		::System::Int32 extParam; // 0xF8
+		::System::Int32 OverrideAvatarId; // 0xFC
+		::System::Single soundPlayedTime; // 0x100
+		::System::Boolean isSoundPlayed; // 0x104
+		::System::Nullable_1<::System::Boolean> ShowWhenMiddleTip; // 0x105
+		::System::Boolean canSkip; // 0x107
+		::System::Int32 taskTotal; // 0x108
+		::System::Int32 taskCurrent; // 0x10C
+		::System::Boolean hasExtra; // 0x110
+		::System::Boolean IsUpdateTextAnim; // 0x111
+		::System::Boolean UseUpdateTextAnim; // 0x112
+		::System::Boolean SoundPlayedFinish; // 0x113
+		::System::Int32 tipflagid; // 0x114
+		::System::Int32 VoiceSourceTag; // 0x118
+		::Enum_3_E84F57C37B6186B1 UpdateType; // 0x11C
+		::System::Int32 soundID; // 0x120
+		::System::Int32 tipid; // 0x124
 
 		::System::Void _ctor(::System::Int32 tipid, ::Enum_3_205B03D40B9BD873 page, ::System::Nullable_1<::Struct_2_DBBF6AB516C866C7> bubbleParam, ::Class_1_F04CEC6677F446B8* extra, ::System::Action* finishCallback)
 		{

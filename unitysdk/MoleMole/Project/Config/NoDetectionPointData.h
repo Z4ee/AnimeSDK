@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/Project/Config/PointBaseData.h"
 
-#define MOLEMOLE_PROJECT_CONFIG_NODETECTIONPOINTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC1DC30)
+#define MOLEMOLE_PROJECT_CONFIG_NODETECTIONPOINTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1C354510)
 
 namespace MoleMole::Project::Config
 {
-	inline static constexpr unsigned int NoDetectionPointData_TypeDefinitionIndex = 11151;
+	inline static constexpr unsigned int NoDetectionPointData_TypeDefinitionIndex = 9182;
 
 	class NoDetectionPointData : public ::MoleMole::Project::Config::PointBaseData
 	{

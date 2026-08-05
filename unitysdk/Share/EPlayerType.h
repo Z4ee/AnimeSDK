@@ -3,14 +3,14 @@
 
 namespace Share
 {
-	inline static constexpr unsigned int EPlayerType_TypeDefinitionIndex = 17351;
+	inline static constexpr unsigned int EPlayerType_TypeDefinitionIndex = 16141;
 
 	enum class EPlayerType : ::System::Int16
 	{
-		All = 0,
-		TeamCharacter1 = 1,
-		TeamCharacter3 = 3,
 		EnumCount = 4,
 		TeamCharacter2 = 2,
+		TeamCharacter1 = 1,
+		TeamCharacter3 = 3,
+		All = 0,
 	};
 }

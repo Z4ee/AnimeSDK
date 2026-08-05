@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define FOUNDATION_TESTFILE_GET_FILEPATH_OFFSET UNITYSDK_OFFSET(0x11720030)
-#define FOUNDATION_TESTFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x11720020)
+#define FOUNDATION_TESTFILE_GET_FILEPATH_OFFSET UNITYSDK_OFFSET(0x14798920)
+#define FOUNDATION_TESTFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x14798910)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int TestFile_TypeDefinitionIndex = 82143;
+	inline static constexpr unsigned int TestFile_TypeDefinitionIndex = 79438;
 
 	class TestFile : public ::System::Object
 	{

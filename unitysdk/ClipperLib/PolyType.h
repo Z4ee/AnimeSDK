@@ -3,7 +3,7 @@
 
 namespace ClipperLib
 {
-	inline static constexpr unsigned int PolyType_TypeDefinitionIndex = 32774;
+	inline static constexpr unsigned int PolyType_TypeDefinitionIndex = 33409;
 
 	enum class PolyType : ::System::Int32
 	{

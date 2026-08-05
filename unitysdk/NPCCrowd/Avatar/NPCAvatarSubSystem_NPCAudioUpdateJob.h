@@ -3,11 +3,11 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define NPCCROWD_AVATAR_NPCAVATARSUBSYSTEM_NPCAUDIOUPDATEJOB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x793A60)
+#define NPCCROWD_AVATAR_NPCAVATARSUBSYSTEM_NPCAUDIOUPDATEJOB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x6F4B90)
 
 namespace NPCCrowd::Avatar
 {
-	inline static constexpr unsigned int NPCAvatarSubSystem_NPCAudioUpdateJob_TypeDefinitionIndex = 82932;
+	inline static constexpr unsigned int NPCAvatarSubSystem_NPCAudioUpdateJob_TypeDefinitionIndex = 58538;
 
 	struct alignas(4) NPCAvatarSubSystem_NPCAudioUpdateJob
 	{

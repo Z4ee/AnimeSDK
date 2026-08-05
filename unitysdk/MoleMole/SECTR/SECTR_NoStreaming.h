@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define MOLEMOLE_SECTR_SECTR_NOSTREAMING__CTOR_OFFSET UNITYSDK_OFFSET(0x1642CB60)
+#define MOLEMOLE_SECTR_SECTR_NOSTREAMING__CTOR_OFFSET UNITYSDK_OFFSET(0x1809CAA0)
 
 namespace MoleMole::SECTR
 {
-	inline static constexpr unsigned int SECTR_NoStreaming_TypeDefinitionIndex = 47155;
+	inline static constexpr unsigned int SECTR_NoStreaming_TypeDefinitionIndex = 83015;
 
 	class SECTR_NoStreaming : public ::UnityEngine::MonoBehaviour
 	{

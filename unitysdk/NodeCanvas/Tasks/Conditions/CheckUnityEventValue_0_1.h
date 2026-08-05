@@ -7,7 +7,7 @@ namespace System { class Type; }
 
 namespace NodeCanvas::Tasks::Conditions
 {
-	inline static constexpr unsigned int CheckUnityEventValue_0_1_TypeDefinitionIndex = 29543;
+	inline static constexpr unsigned int CheckUnityEventValue_0_1_TypeDefinitionIndex = 30862;
 
 	template <typename T>
 	class CheckUnityEventValue_0_1 : public ::System::Object

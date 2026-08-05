@@ -3,17 +3,17 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigLevelResultPerforms_LoseButtonTrigger_TypeDefinitionIndex = 65849;
+	inline static constexpr unsigned int ConfigLevelResultPerforms_LoseButtonTrigger_TypeDefinitionIndex = 73020;
 
 	enum class ConfigLevelResultPerforms_LoseButtonTrigger : ::System::Int32
 	{
-		Retreat = 0,
-		CountDown_TimeOut = 7,
-		Analyze = 3,
 		Init = 4,
-		Replay = 2,
 		CountDown_Tick = 6,
+		Analyze = 3,
+		CountDown_TimeOut = 7,
 		Rewind = 1,
+		Retreat = 0,
 		StartCount = 5,
+		Replay = 2,
 	};
 }

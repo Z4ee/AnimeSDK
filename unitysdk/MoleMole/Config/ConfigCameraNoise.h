@@ -4,18 +4,18 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGCAMERANOISE__CTOR_OFFSET UNITYSDK_OFFSET(0xE967330)
+#define MOLEMOLE_CONFIG_CONFIGCAMERANOISE__CTOR_OFFSET UNITYSDK_OFFSET(0xF138560)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigCameraNoise_TypeDefinitionIndex = 60059;
+	inline static constexpr unsigned int ConfigCameraNoise_TypeDefinitionIndex = 55371;
 
 	class ConfigCameraNoise : public ::System::Object
 	{
 	public:
 		::System::String* noiseProfilePath; // 0x10
-		::System::Single noiseFrequencyGain; // 0x18
-		::System::Single noiseAmplitudeGain; // 0x1C
+		::System::Single noiseAmplitudeGain; // 0x18
+		::System::Single noiseFrequencyGain; // 0x1C
 
 		::System::Void _ctor()
 		{

@@ -7,41 +7,41 @@ namespace System { class Action; }
 namespace System { class String; }
 namespace UnityEngine { class Animator; }
 
-#define MOLEMOLE_UIMODIFICATIONSHOP3DMODELCONTROLLER_BUDDYFADEGROUP_CLEAR_OFFSET UNITYSDK_OFFSET(0x16DA2640)
-#define MOLEMOLE_UIMODIFICATIONSHOP3DMODELCONTROLLER_BUDDYFADEGROUP_START_OFFSET UNITYSDK_OFFSET(0x16DA2800)
-#define MOLEMOLE_UIMODIFICATIONSHOP3DMODELCONTROLLER_BUDDYFADEGROUP_WAITDONE_OFFSET UNITYSDK_OFFSET(0x16DA27B0)
-#define MOLEMOLE_UIMODIFICATIONSHOP3DMODELCONTROLLER_BUDDYFADEGROUP__CCTOR_OFFSET UNITYSDK_OFFSET(0x16DA2B20)
-#define MOLEMOLE_UIMODIFICATIONSHOP3DMODELCONTROLLER_BUDDYFADEGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x16DA2B10)
+#define MOLEMOLE_UIMODIFICATIONSHOP3DMODELCONTROLLER_BUDDYFADEGROUP_CLEAR_OFFSET UNITYSDK_OFFSET(0x198728E0)
+#define MOLEMOLE_UIMODIFICATIONSHOP3DMODELCONTROLLER_BUDDYFADEGROUP_START_OFFSET UNITYSDK_OFFSET(0x19872AA0)
+#define MOLEMOLE_UIMODIFICATIONSHOP3DMODELCONTROLLER_BUDDYFADEGROUP_WAITDONE_OFFSET UNITYSDK_OFFSET(0x19872A50)
+#define MOLEMOLE_UIMODIFICATIONSHOP3DMODELCONTROLLER_BUDDYFADEGROUP__CCTOR_OFFSET UNITYSDK_OFFSET(0x19872DC0)
+#define MOLEMOLE_UIMODIFICATIONSHOP3DMODELCONTROLLER_BUDDYFADEGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x19872DB0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIModificationShop3DModelController_BuddyFadeGroup_TypeDefinitionIndex = 48303;
+	inline static constexpr unsigned int UIModificationShop3DModelController_BuddyFadeGroup_TypeDefinitionIndex = 67401;
 
 	class UIModificationShop3DModelController_BuddyFadeGroup : public ::System::Object
 	{
 	public:
 		static ::System::String** StaticGet_Switch_Out_Right()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(UIModificationShop3DModelController_BuddyFadeGroup_TypeDefinitionIndex)->GetStaticField(0x37C10);
-		}
-		static ::System::String** StaticGet_Switch_Out_Left()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(UIModificationShop3DModelController_BuddyFadeGroup_TypeDefinitionIndex)->GetStaticField(0x37C18);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(UIModificationShop3DModelController_BuddyFadeGroup_TypeDefinitionIndex)->GetStaticField(0x3A5C0);
 		}
 		static ::System::String** StaticGet_Switch_In_Right()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(UIModificationShop3DModelController_BuddyFadeGroup_TypeDefinitionIndex)->GetStaticField(0x37C20);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(UIModificationShop3DModelController_BuddyFadeGroup_TypeDefinitionIndex)->GetStaticField(0x3A5C8);
 		}
 		static ::System::String** StaticGet_Switch_In_Left()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(UIModificationShop3DModelController_BuddyFadeGroup_TypeDefinitionIndex)->GetStaticField(0x37C28);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(UIModificationShop3DModelController_BuddyFadeGroup_TypeDefinitionIndex)->GetStaticField(0x3A5D0);
+		}
+		static ::System::String** StaticGet_Switch_Out_Left()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(UIModificationShop3DModelController_BuddyFadeGroup_TypeDefinitionIndex)->GetStaticField(0x3A5D8);
 		}
 		// static const ::System::Single switchInTimeOffset; // 0x0
 		// static const ::System::Single switchOutTimeOffset; // 0x0
-		::UnityEngine::Animator* fadeOut; // 0x10
-		::System::Action* waitDone; // 0x18
-		::System::Action* endCall; // 0x20
-		::UnityEngine::Animator* fadeIn; // 0x28
+		::UnityEngine::Animator* fadeIn; // 0x10
+		::UnityEngine::Animator* fadeOut; // 0x18
+		::System::Action* waitDone; // 0x20
+		::System::Action* endCall; // 0x28
 		::Foundation::Coroutine::CoroutineHandle fadeIn_Coroutine; // 0x30
 		::Foundation::Coroutine::CoroutineHandle fadeOut_Coroutine; // 0x34
 

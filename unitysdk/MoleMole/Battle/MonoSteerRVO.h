@@ -2,16 +2,16 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/MonoSteer.h"
 
-class Class_1_5AA2BE468EDCE452;
+class Class_1_D33A7AE9308D51C5;
 namespace MoleMole::Battle { class Entity; }
 
-#define MOLEMOLE_BATTLE_MONOSTEERRVO_GETWEIGHT_OFFSET UNITYSDK_OFFSET(0x13FEEDC0)
-#define MOLEMOLE_BATTLE_MONOSTEERRVO_ONSTEERCREATE_OFFSET UNITYSDK_OFFSET(0x13FEED00)
-#define MOLEMOLE_BATTLE_MONOSTEERRVO__CTOR_OFFSET UNITYSDK_OFFSET(0x13FEEED0)
+#define MOLEMOLE_BATTLE_MONOSTEERRVO_GETWEIGHT_OFFSET UNITYSDK_OFFSET(0x1279CC90)
+#define MOLEMOLE_BATTLE_MONOSTEERRVO_ONSTEERCREATE_OFFSET UNITYSDK_OFFSET(0x1279CBD0)
+#define MOLEMOLE_BATTLE_MONOSTEERRVO__CTOR_OFFSET UNITYSDK_OFFSET(0x1279CDA0)
 
 namespace MoleMole::Battle
 {
-	inline static constexpr unsigned int MonoSteerRVO_TypeDefinitionIndex = 77206;
+	inline static constexpr unsigned int MonoSteerRVO_TypeDefinitionIndex = 89583;
 
 	class MonoSteerRVO : public ::MoleMole::MonoSteer
 	{
@@ -23,9 +23,9 @@ namespace MoleMole::Battle
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_MONOSTEERRVO__CTOR_OFFSET))(this);
 		}
 
-		::Class_1_5AA2BE468EDCE452* OnSteerCreate(::MoleMole::MonoSteer* a1, ::MoleMole::Battle::Entity* a2)
+		::Class_1_D33A7AE9308D51C5* OnSteerCreate(::MoleMole::MonoSteer* a1, ::MoleMole::Battle::Entity* a2)
 		{
-			return ((::Class_1_5AA2BE468EDCE452*(*)(::PVOID, ::MoleMole::MonoSteer*, ::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_MONOSTEERRVO_ONSTEERCREATE_OFFSET))(this, a1, a2);
+			return ((::Class_1_D33A7AE9308D51C5*(*)(::PVOID, ::MoleMole::MonoSteer*, ::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_MONOSTEERRVO_ONSTEERCREATE_OFFSET))(this, a1, a2);
 		}
 
 		::System::Single GetWeight(::MoleMole::Battle::Entity* a1)

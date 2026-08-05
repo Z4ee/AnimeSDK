@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace PipelineCamera::SubModule
 {
-	inline static constexpr unsigned int DefaultCollisionResolverConfig_2_TypeDefinitionIndex = 38021;
+	inline static constexpr unsigned int DefaultCollisionResolverConfig_2_TypeDefinitionIndex = 38682;
 
 	template <typename T1, typename T2>
 	struct DefaultCollisionResolverConfig_2

@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnrealTypes/StructOpsTraitsBase.h"
 
-#define NPCCROWD_ABILITY_ATTRACTORCANDIDATECONDITION_STRUCTOPSTYPETRAITS_GET_ISPLAINOLDDATA_OFFSET UNITYSDK_OFFSET(0xD5AE680)
-#define NPCCROWD_ABILITY_ATTRACTORCANDIDATECONDITION_STRUCTOPSTYPETRAITS__CTOR_OFFSET UNITYSDK_OFFSET(0xD5AE690)
+#define NPCCROWD_ABILITY_ATTRACTORCANDIDATECONDITION_STRUCTOPSTYPETRAITS_GET_ISPLAINOLDDATA_OFFSET UNITYSDK_OFFSET(0x10B3BC40)
+#define NPCCROWD_ABILITY_ATTRACTORCANDIDATECONDITION_STRUCTOPSTYPETRAITS__CTOR_OFFSET UNITYSDK_OFFSET(0x10B3BC50)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int AttractorCandidateCondition_StructOpsTypeTraits_TypeDefinitionIndex = 46802;
+	inline static constexpr unsigned int AttractorCandidateCondition_StructOpsTypeTraits_TypeDefinitionIndex = 45147;
 
 	class AttractorCandidateCondition_StructOpsTypeTraits : public ::UnrealTypes::StructOpsTraitsBase
 	{

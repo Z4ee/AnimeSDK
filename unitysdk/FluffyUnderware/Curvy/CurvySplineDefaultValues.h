@@ -6,7 +6,7 @@
 
 namespace FluffyUnderware::Curvy
 {
-	inline static constexpr unsigned int CurvySplineDefaultValues_TypeDefinitionIndex = 38950;
+	inline static constexpr unsigned int CurvySplineDefaultValues_TypeDefinitionIndex = 39507;
 
 	class CurvySplineDefaultValues : public ::System::Object
 	{

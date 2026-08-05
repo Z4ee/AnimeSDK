@@ -9,26 +9,26 @@ namespace FlowCanvas { class FlowNode; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Reflection { class FieldInfo; }
 
-#define FLOWCANVAS_NODES_BASEREFLECTEDFIELDNODE_ADD_ONGETAOTREFLECTEDFIELDNODE_OFFSET UNITYSDK_OFFSET(0x1D3FFB60)
-#define FLOWCANVAS_NODES_BASEREFLECTEDFIELDNODE_GETFIELDNODE_OFFSET UNITYSDK_OFFSET(0x1D3FFCC0)
-#define FLOWCANVAS_NODES_BASEREFLECTEDFIELDNODE_INIT_OFFSET UNITYSDK_OFFSET(0x1D3FFFB0)
-#define FLOWCANVAS_NODES_BASEREFLECTEDFIELDNODE_REMOVE_ONGETAOTREFLECTEDFIELDNODE_OFFSET UNITYSDK_OFFSET(0x1D3FFC10)
-#define FLOWCANVAS_NODES_BASEREFLECTEDFIELDNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D400190)
+#define FLOWCANVAS_NODES_BASEREFLECTEDFIELDNODE_ADD_ONGETAOTREFLECTEDFIELDNODE_OFFSET UNITYSDK_OFFSET(0x1E7A5270)
+#define FLOWCANVAS_NODES_BASEREFLECTEDFIELDNODE_GETFIELDNODE_OFFSET UNITYSDK_OFFSET(0x1E7A5390)
+#define FLOWCANVAS_NODES_BASEREFLECTEDFIELDNODE_INIT_OFFSET UNITYSDK_OFFSET(0x1E7A5680)
+#define FLOWCANVAS_NODES_BASEREFLECTEDFIELDNODE_REMOVE_ONGETAOTREFLECTEDFIELDNODE_OFFSET UNITYSDK_OFFSET(0x1E7A5300)
+#define FLOWCANVAS_NODES_BASEREFLECTEDFIELDNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7A5850)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int BaseReflectedFieldNode_TypeDefinitionIndex = 30346;
+	inline static constexpr unsigned int BaseReflectedFieldNode_TypeDefinitionIndex = 31445;
 
 	class BaseReflectedFieldNode : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::System::Reflection::FieldInfo*, ::FlowCanvas::Nodes::BaseReflectedFieldNode*>** StaticGet_OnGetAotReflectedFieldNode()
 		{
-			return (::System::Func_2<::System::Reflection::FieldInfo*, ::FlowCanvas::Nodes::BaseReflectedFieldNode*>**)Il2CppClass::FromTypeDefinitionIndex(BaseReflectedFieldNode_TypeDefinitionIndex)->GetStaticField(0x24220);
+			return (::System::Func_2<::System::Reflection::FieldInfo*, ::FlowCanvas::Nodes::BaseReflectedFieldNode*>**)Il2CppClass::FromTypeDefinitionIndex(BaseReflectedFieldNode_TypeDefinitionIndex)->GetStaticField(0x25B40);
 		}
-		::FlowCanvas::Nodes::ParamDef resultDef; // 0x10
-		::FlowCanvas::Nodes::ParamDef instanceDef; // 0x48
-		::System::Reflection::FieldInfo* fieldInfo; // 0x80
+		::FlowCanvas::Nodes::ParamDef instanceDef; // 0x10
+		::System::Reflection::FieldInfo* fieldInfo; // 0x48
+		::FlowCanvas::Nodes::ParamDef resultDef; // 0x50
 
 		::System::Void _ctor()
 		{

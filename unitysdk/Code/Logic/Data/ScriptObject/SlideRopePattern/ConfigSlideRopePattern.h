@@ -8,22 +8,22 @@ namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CODE_LOGIC_DATA_SCRIPTOBJECT_SLIDEROPEPATTERN_CONFIGSLIDEROPEPATTERN_GETCONFIG_OFFSET UNITYSDK_OFFSET(0x118412D0)
-#define CODE_LOGIC_DATA_SCRIPTOBJECT_SLIDEROPEPATTERN_CONFIGSLIDEROPEPATTERN_RELOADFROMFILEASYNC_OFFSET UNITYSDK_OFFSET(0x11841AD0)
-#define CODE_LOGIC_DATA_SCRIPTOBJECT_SLIDEROPEPATTERN_CONFIGSLIDEROPEPATTERN_RELOADFROMFILE_OFFSET UNITYSDK_OFFSET(0x11841410)
-#define CODE_LOGIC_DATA_SCRIPTOBJECT_SLIDEROPEPATTERN_CONFIGSLIDEROPEPATTERN__CCTOR_OFFSET UNITYSDK_OFFSET(0x11841CC0)
-#define CODE_LOGIC_DATA_SCRIPTOBJECT_SLIDEROPEPATTERN_CONFIGSLIDEROPEPATTERN__CTOR_OFFSET UNITYSDK_OFFSET(0x11841BE0)
+#define CODE_LOGIC_DATA_SCRIPTOBJECT_SLIDEROPEPATTERN_CONFIGSLIDEROPEPATTERN_GETCONFIG_OFFSET UNITYSDK_OFFSET(0x18731930)
+#define CODE_LOGIC_DATA_SCRIPTOBJECT_SLIDEROPEPATTERN_CONFIGSLIDEROPEPATTERN_RELOADFROMFILEASYNC_OFFSET UNITYSDK_OFFSET(0x18732130)
+#define CODE_LOGIC_DATA_SCRIPTOBJECT_SLIDEROPEPATTERN_CONFIGSLIDEROPEPATTERN_RELOADFROMFILE_OFFSET UNITYSDK_OFFSET(0x18731A70)
+#define CODE_LOGIC_DATA_SCRIPTOBJECT_SLIDEROPEPATTERN_CONFIGSLIDEROPEPATTERN__CCTOR_OFFSET UNITYSDK_OFFSET(0x18732320)
+#define CODE_LOGIC_DATA_SCRIPTOBJECT_SLIDEROPEPATTERN_CONFIGSLIDEROPEPATTERN__CTOR_OFFSET UNITYSDK_OFFSET(0x18732240)
 
 namespace Code::Logic::Data::ScriptObject::SlideRopePattern
 {
-	inline static constexpr unsigned int ConfigSlideRopePattern_TypeDefinitionIndex = 67587;
+	inline static constexpr unsigned int ConfigSlideRopePattern_TypeDefinitionIndex = 74498;
 
 	class ConfigSlideRopePattern : public ::Foundation::MihoyoSerializedScriptableObject
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::Code::Logic::Data::ScriptObject::SlideRopePattern::SlideRopePatternConfig*>** StaticGet__dicRuntimeSlideRopePatternConfig()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::Code::Logic::Data::ScriptObject::SlideRopePattern::SlideRopePatternConfig*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigSlideRopePattern_TypeDefinitionIndex)->GetStaticField(0x38C90);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::Code::Logic::Data::ScriptObject::SlideRopePattern::SlideRopePatternConfig*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigSlideRopePattern_TypeDefinitionIndex)->GetStaticField(0x3B710);
 		}
 		// static const ::System::String* DEFAULT_KEY; // 0x0
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::Code::Logic::Data::ScriptObject::SlideRopePattern::SlideRopePatternConfig*>* DicSlideRopePatternConfig; // 0x58

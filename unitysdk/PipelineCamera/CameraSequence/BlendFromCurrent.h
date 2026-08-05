@@ -11,35 +11,35 @@ namespace PipelineCamera::CameraSequence { class CameraSequenceContext; }
 namespace System { template <typename T1, typename T2, typename T3, typename T4, typename T5> class Func_5; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define PIPELINECAMERA_CAMERASEQUENCE_BLENDFROMCURRENT_BUILDRUNTIMEDATAPROVIDERDATAPATH_OFFSET UNITYSDK_OFFSET(0x1D2321B0)
-#define PIPELINECAMERA_CAMERASEQUENCE_BLENDFROMCURRENT_COLLECTVARIABLE_OFFSET UNITYSDK_OFFSET(0x1D232220)
-#define PIPELINECAMERA_CAMERASEQUENCE_BLENDFROMCURRENT_FETCH_LASTCAMERADATA_OFFSET UNITYSDK_OFFSET(0x1D232380)
-#define PIPELINECAMERA_CAMERASEQUENCE_BLENDFROMCURRENT_GETRATESCALE_OFFSET UNITYSDK_OFFSET(0x1D2324E0)
-#define PIPELINECAMERA_CAMERASEQUENCE_BLENDFROMCURRENT_GETSEQUENCEDATAINTERNAL_OFFSET UNITYSDK_OFFSET(0x1D232570)
-#define PIPELINECAMERA_CAMERASEQUENCE_BLENDFROMCURRENT_GETSEQUENCELENGTH_OFFSET UNITYSDK_OFFSET(0x1D232490)
-#define PIPELINECAMERA_CAMERASEQUENCE_BLENDFROMCURRENT_GET_ISCONTEXTDEPENDENT_OFFSET UNITYSDK_OFFSET(0x1D232930)
-#define PIPELINECAMERA_CAMERASEQUENCE_BLENDFROMCURRENT_ISLOOP_OFFSET UNITYSDK_OFFSET(0x1D232530)
-#define PIPELINECAMERA_CAMERASEQUENCE_BLENDFROMCURRENT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D2329F0)
-#define PIPELINECAMERA_CAMERASEQUENCE_BLENDFROMCURRENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D232940)
+#define PIPELINECAMERA_CAMERASEQUENCE_BLENDFROMCURRENT_BUILDRUNTIMEDATAPROVIDERDATAPATH_OFFSET UNITYSDK_OFFSET(0x1E5C85D0)
+#define PIPELINECAMERA_CAMERASEQUENCE_BLENDFROMCURRENT_COLLECTVARIABLE_OFFSET UNITYSDK_OFFSET(0x1E5C8640)
+#define PIPELINECAMERA_CAMERASEQUENCE_BLENDFROMCURRENT_FETCH_LASTCAMERADATA_OFFSET UNITYSDK_OFFSET(0x1E5C87A0)
+#define PIPELINECAMERA_CAMERASEQUENCE_BLENDFROMCURRENT_GETRATESCALE_OFFSET UNITYSDK_OFFSET(0x1E5C8900)
+#define PIPELINECAMERA_CAMERASEQUENCE_BLENDFROMCURRENT_GETSEQUENCEDATAINTERNAL_OFFSET UNITYSDK_OFFSET(0x1E5C8990)
+#define PIPELINECAMERA_CAMERASEQUENCE_BLENDFROMCURRENT_GETSEQUENCELENGTH_OFFSET UNITYSDK_OFFSET(0x1E5C88B0)
+#define PIPELINECAMERA_CAMERASEQUENCE_BLENDFROMCURRENT_GET_ISCONTEXTDEPENDENT_OFFSET UNITYSDK_OFFSET(0x1E5C8D50)
+#define PIPELINECAMERA_CAMERASEQUENCE_BLENDFROMCURRENT_ISLOOP_OFFSET UNITYSDK_OFFSET(0x1E5C8950)
+#define PIPELINECAMERA_CAMERASEQUENCE_BLENDFROMCURRENT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E5C8E10)
+#define PIPELINECAMERA_CAMERASEQUENCE_BLENDFROMCURRENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E5C8D60)
 
 namespace PipelineCamera::CameraSequence
 {
-	inline static constexpr unsigned int BlendFromCurrent_TypeDefinitionIndex = 37962;
+	inline static constexpr unsigned int BlendFromCurrent_TypeDefinitionIndex = 38623;
 
 	class BlendFromCurrent : public ::PipelineCamera::CameraSequence::CoreDataSequence
 	{
 	public:
 		static ::System::Func_5<::PipelineCamera::CameraSequence::BlendFromCurrent*, ::PipelineCamera::CameraSequence::CameraSequenceContext*, ::PipelineCamera::WorldBasicCameraData, ::PipelineCamera::WorldBasicCameraDataDeltaFlag, ::PipelineCamera::WorldBasicCameraDeltaData>** StaticGet_BuildDeltaData()
 		{
-			return (::System::Func_5<::PipelineCamera::CameraSequence::BlendFromCurrent*, ::PipelineCamera::CameraSequence::CameraSequenceContext*, ::PipelineCamera::WorldBasicCameraData, ::PipelineCamera::WorldBasicCameraDataDeltaFlag, ::PipelineCamera::WorldBasicCameraDeltaData>**)Il2CppClass::FromTypeDefinitionIndex(BlendFromCurrent_TypeDefinitionIndex)->GetStaticField(0x28D00);
-		}
-		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_LastCameraData()
-		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(BlendFromCurrent_TypeDefinitionIndex)->GetStaticField(0x8B30);
+			return (::System::Func_5<::PipelineCamera::CameraSequence::BlendFromCurrent*, ::PipelineCamera::CameraSequence::CameraSequenceContext*, ::PipelineCamera::WorldBasicCameraData, ::PipelineCamera::WorldBasicCameraDataDeltaFlag, ::PipelineCamera::WorldBasicCameraDeltaData>**)Il2CppClass::FromTypeDefinitionIndex(BlendFromCurrent_TypeDefinitionIndex)->GetStaticField(0x2A620);
 		}
 		static ::Foundation::Unreal::FName* StaticGet_DeltaDataId()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(BlendFromCurrent_TypeDefinitionIndex)->GetStaticField(0x8B38);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(BlendFromCurrent_TypeDefinitionIndex)->GetStaticField(0x8C20);
+		}
+		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_LastCameraData()
+		{
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(BlendFromCurrent_TypeDefinitionIndex)->GetStaticField(0x8C28);
 		}
 		::UnityEngine::AnimationCurve* blendCurve; // 0x18
 		::PipelineCamera::WorldBasicCameraDataDeltaFlag deltaFlag; // 0x20

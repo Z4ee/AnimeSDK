@@ -3,13 +3,13 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBabeltowerFightingInfoWidgetController_BabeltowerSelectType_TypeDefinitionIndex = 57679;
+	inline static constexpr unsigned int UIBabeltowerFightingInfoWidgetController_BabeltowerSelectType_TypeDefinitionIndex = 40684;
 
 	enum class UIBabeltowerFightingInfoWidgetController_BabeltowerSelectType : ::System::Int32
 	{
-		NeedAddBuddy = 2,
+		NeedAddPool = 0,
 		None = 3,
 		NeedAddAvatar = 1,
-		NeedAddPool = 0,
+		NeedAddBuddy = 2,
 	};
 }

@@ -1,0 +1,34 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_2_6D212096371432EC_Class_1_42A070AFA9061F6A_1;
+namespace Cysharp::Threading::Tasks { class UniTaskCompletionSource; }
+
+#define CLASS_2_6D212096371432EC_CLASS_1_32534E73504ACD04_METHOD_1_D62B9256DD010494_OFFSET UNITYSDK_OFFSET(0x16FDB400)
+#define CLASS_2_6D212096371432EC_CLASS_1_32534E73504ACD04_METHOD_1_F730968E2645E14B_OFFSET UNITYSDK_OFFSET(0x16FDB3B0)
+#define CLASS_2_6D212096371432EC_CLASS_1_32534E73504ACD04__CTOR_OFFSET UNITYSDK_OFFSET(0x16FDB3A0)
+
+inline static constexpr unsigned int Class_2_6D212096371432EC_Class_1_32534E73504ACD04_TypeDefinitionIndex = 73463;
+
+class Class_2_6D212096371432EC_Class_1_32534E73504ACD04 : public ::System::Object
+{
+public:
+	::Class_2_6D212096371432EC_Class_1_42A070AFA9061F6A_1* Field_1_0; // 0x10
+	::Cysharp::Threading::Tasks::UniTaskCompletionSource* Field_1_1; // 0x18
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_6D212096371432EC_CLASS_1_32534E73504ACD04__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_1_F730968E2645E14B()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_6D212096371432EC_CLASS_1_32534E73504ACD04_METHOD_1_F730968E2645E14B_OFFSET))(this);
+	}
+
+	::System::Void Method_1_D62B9256DD010494()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_6D212096371432EC_CLASS_1_32534E73504ACD04_METHOD_1_D62B9256DD010494_OFFSET))(this);
+	}
+};

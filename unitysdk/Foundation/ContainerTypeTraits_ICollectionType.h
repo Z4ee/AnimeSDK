@@ -3,12 +3,12 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int ContainerTypeTraits_ICollectionType_TypeDefinitionIndex = 8129;
+	inline static constexpr unsigned int ContainerTypeTraits_ICollectionType_TypeDefinitionIndex = 7818;
 
 	enum class ContainerTypeTraits_ICollectionType : ::System::Int32
 	{
-		Queue = 2,
 		ConcurrentQueue = 3,
+		Queue = 2,
 		Stack = 1,
 	};
 }

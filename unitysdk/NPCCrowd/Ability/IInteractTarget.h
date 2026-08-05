@@ -7,7 +7,7 @@ namespace NPCCrowd::Ability { class InteractSlot; }
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int IInteractTarget_TypeDefinitionIndex = 79258;
+	inline static constexpr unsigned int IInteractTarget_TypeDefinitionIndex = 77942;
 
 	class IInteractTarget
 	{

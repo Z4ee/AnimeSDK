@@ -4,20 +4,20 @@
 
 namespace UnrealTypes { class ICppStructOps; }
 
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_PATHFOLLOWIGNOREBLOCKCONDITION___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xE015860)
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_PATHFOLLOWIGNOREBLOCKCONDITION___C__CTOR_OFFSET UNITYSDK_OFFSET(0xE0158A0)
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_PATHFOLLOWIGNOREBLOCKCONDITION___C___CCTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0xE0158B0)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_PATHFOLLOWIGNOREBLOCKCONDITION___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x11931660)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_PATHFOLLOWIGNOREBLOCKCONDITION___C__CTOR_OFFSET UNITYSDK_OFFSET(0x119316A0)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_PATHFOLLOWIGNOREBLOCKCONDITION___C___CCTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0x119316B0)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_PathFollowIgnoreBlockCondition___c_TypeDefinitionIndex = 81004;
+	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_PathFollowIgnoreBlockCondition___c_TypeDefinitionIndex = 62394;
 
 	class RegistrationInfo_ScriptStruct_PathFollowIgnoreBlockCondition___c : public ::System::Object
 	{
 	public:
 		static ::NPCCrowd::Ability::RegistrationInfo_ScriptStruct_PathFollowIgnoreBlockCondition___c** StaticGet___9()
 		{
-			return (::NPCCrowd::Ability::RegistrationInfo_ScriptStruct_PathFollowIgnoreBlockCondition___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_PathFollowIgnoreBlockCondition___c_TypeDefinitionIndex)->GetStaticField(0x31830);
+			return (::NPCCrowd::Ability::RegistrationInfo_ScriptStruct_PathFollowIgnoreBlockCondition___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_PathFollowIgnoreBlockCondition___c_TypeDefinitionIndex)->GetStaticField(0x339B0);
 		}
 
 		static ::System::Void _cctor()

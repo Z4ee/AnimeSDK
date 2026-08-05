@@ -4,7 +4,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int BallGameRoleLocalData_TypeDefinitionIndex = 45134;
+	inline static constexpr unsigned int BallGameRoleLocalData_TypeDefinitionIndex = 44599;
 
 	struct alignas(4) BallGameRoleLocalData
 	{

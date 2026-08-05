@@ -5,11 +5,11 @@
 namespace MoleMole::Comic { class AudioContent; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_COMIC_SCREENSPLITANIMAUDIODATAWRAPPER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E755560)
+#define MOLEMOLE_COMIC_SCREENSPLITANIMAUDIODATAWRAPPER__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB31DB0)
 
 namespace MoleMole::Comic
 {
-	inline static constexpr unsigned int ScreenSplitAnimAudioDataWrapper_TypeDefinitionIndex = 32145;
+	inline static constexpr unsigned int ScreenSplitAnimAudioDataWrapper_TypeDefinitionIndex = 32774;
 
 	class ScreenSplitAnimAudioDataWrapper : public ::System::Object
 	{

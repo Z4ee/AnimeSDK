@@ -7,12 +7,12 @@ namespace MoleMole { class UIBaseChatPlayController; }
 namespace MoleMole { class UIMainCityChatPlayContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_GALGAME_RESOURCEDELETECHECKNODE_INSTANTIATE_OFFSET UNITYSDK_OFFSET(0x16CAE500)
-#define MOLEMOLE_GALGAME_RESOURCEDELETECHECKNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x16CAE490)
+#define MOLEMOLE_GALGAME_RESOURCEDELETECHECKNODE_INSTANTIATE_OFFSET UNITYSDK_OFFSET(0x13A919D0)
+#define MOLEMOLE_GALGAME_RESOURCEDELETECHECKNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x13A91960)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int ResourceDeleteCheckNode_TypeDefinitionIndex = 83568;
+	inline static constexpr unsigned int ResourceDeleteCheckNode_TypeDefinitionIndex = 48097;
 
 	class ResourceDeleteCheckNode : public ::MoleMole::GalGame::MainCityChatPlayableNodeBase
 	{

@@ -5,11 +5,11 @@
 #include "unitysdk/Unity/Collections/NativeArray_1.h"
 #include "unitysdk/Unity/Collections/NativeList_1.h"
 
-#define NPCCROWD_ABILITY_NPCABILITYAPPLYMOVEPLATFORMPROCESSOR_EXECUTEJOB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x694F00)
+#define NPCCROWD_ABILITY_NPCABILITYAPPLYMOVEPLATFORMPROCESSOR_EXECUTEJOB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x463C60)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int NPCAbilityApplyMovePlatformProcessor_ExecuteJob_TypeDefinitionIndex = 73174;
+	inline static constexpr unsigned int NPCAbilityApplyMovePlatformProcessor_ExecuteJob_TypeDefinitionIndex = 89006;
 
 	struct alignas(8) NPCAbilityApplyMovePlatformProcessor_ExecuteJob
 	{

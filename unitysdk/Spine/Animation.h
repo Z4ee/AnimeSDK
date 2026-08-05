@@ -11,27 +11,27 @@ namespace Spine { template <typename T> class ExposedList_1; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define SPINE_ANIMATION_APPLY_OFFSET UNITYSDK_OFFSET(0x1E5E0B50)
-#define SPINE_ANIMATION_GET_DURATION_OFFSET UNITYSDK_OFFSET(0x1E5E0A80)
-#define SPINE_ANIMATION_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1E5E0AA0)
-#define SPINE_ANIMATION_GET_TIMELINES_OFFSET UNITYSDK_OFFSET(0x1E5E0A60)
-#define SPINE_ANIMATION_HASTIMELINE_OFFSET UNITYSDK_OFFSET(0x1E5E0AB0)
-#define SPINE_ANIMATION_SETTIMELINES_OFFSET UNITYSDK_OFFSET(0x1E5E06E0)
-#define SPINE_ANIMATION_SET_DURATION_OFFSET UNITYSDK_OFFSET(0x1E5E0A90)
-#define SPINE_ANIMATION_SET_TIMELINES_OFFSET UNITYSDK_OFFSET(0x1E5E0A70)
-#define SPINE_ANIMATION_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5E0D00)
-#define SPINE_ANIMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1E5E0640)
+#define SPINE_ANIMATION_APPLY_OFFSET UNITYSDK_OFFSET(0x1F9C7780)
+#define SPINE_ANIMATION_GET_DURATION_OFFSET UNITYSDK_OFFSET(0x1F9C76B0)
+#define SPINE_ANIMATION_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1F9C76D0)
+#define SPINE_ANIMATION_GET_TIMELINES_OFFSET UNITYSDK_OFFSET(0x1F9C7690)
+#define SPINE_ANIMATION_HASTIMELINE_OFFSET UNITYSDK_OFFSET(0x1F9C76E0)
+#define SPINE_ANIMATION_SETTIMELINES_OFFSET UNITYSDK_OFFSET(0x1F9C7320)
+#define SPINE_ANIMATION_SET_DURATION_OFFSET UNITYSDK_OFFSET(0x1F9C76C0)
+#define SPINE_ANIMATION_SET_TIMELINES_OFFSET UNITYSDK_OFFSET(0x1F9C76A0)
+#define SPINE_ANIMATION_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1F9C7930)
+#define SPINE_ANIMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1F9C7280)
 
 namespace Spine
 {
-	inline static constexpr unsigned int Animation_TypeDefinitionIndex = 32798;
+	inline static constexpr unsigned int Animation_TypeDefinitionIndex = 33433;
 
 	class Animation : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::HashSet_1<::System::String*>* timelineIds; // 0x10
-		::Spine::ExposedList_1<::Spine::Timeline*>* timelines; // 0x18
-		::System::String* name; // 0x20
+		::System::String* name; // 0x10
+		::System::Collections::Generic::HashSet_1<::System::String*>* timelineIds; // 0x18
+		::Spine::ExposedList_1<::Spine::Timeline*>* timelines; // 0x20
 		::System::Single duration; // 0x28
 
 		::System::Void _ctor(::System::String* name, ::Spine::ExposedList_1<::Spine::Timeline*>* timelines, ::System::Single duration)

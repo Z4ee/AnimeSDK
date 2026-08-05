@@ -7,12 +7,12 @@ namespace MiHoYo::SDK { template <typename T> class CallbackModel_1; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS16_2__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA9AC30)
-#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS16_2__ONMDKORAUTHTICKETLOGIN_B__5_OFFSET UNITYSDK_OFFSET(0x1BA9AC40)
+#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS16_2__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD1D010)
+#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS16_2__ONMDKORAUTHTICKETLOGIN_B__5_OFFSET UNITYSDK_OFFSET(0x1CD1D020)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int ComboManager___c__DisplayClass16_2_TypeDefinitionIndex = 21161;
+	inline static constexpr unsigned int ComboManager___c__DisplayClass16_2_TypeDefinitionIndex = 21509;
 
 	class ComboManager___c__DisplayClass16_2 : public ::System::Object
 	{

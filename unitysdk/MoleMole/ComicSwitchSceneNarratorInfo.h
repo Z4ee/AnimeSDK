@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_COMICSWITCHSCENENARRATORINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD08970)
+#define MOLEMOLE_COMICSWITCHSCENENARRATORINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1F0DF980)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ComicSwitchSceneNarratorInfo_TypeDefinitionIndex = 32122;
+	inline static constexpr unsigned int ComicSwitchSceneNarratorInfo_TypeDefinitionIndex = 32750;
 
 	class ComicSwitchSceneNarratorInfo : public ::System::Object
 	{

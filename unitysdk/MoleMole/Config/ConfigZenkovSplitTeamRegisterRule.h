@@ -1,0 +1,79 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/FlexBuffers/FlxMap.h"
+#include "unitysdk/FlexBuffers/FlxValue.h"
+#include "unitysdk/MoleMole/Config/ConfigDungeonRegisterRuleBase.h"
+
+class Class_1_236FD73ABC492E3F;
+namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
+
+#define MOLEMOLE_CONFIG_CONFIGZENKOVSPLITTEAMREGISTERRULE_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C467B70)
+#define MOLEMOLE_CONFIG_CONFIGZENKOVSPLITTEAMREGISTERRULE_FROMFLX_OFFSET UNITYSDK_OFFSET(0x1C467B00)
+#define MOLEMOLE_CONFIG_CONFIGZENKOVSPLITTEAMREGISTERRULE_METHOD_2_6704D57D4F412560_OFFSET UNITYSDK_OFFSET(0x1C4679F0)
+#define MOLEMOLE_CONFIG_CONFIGZENKOVSPLITTEAMREGISTERRULE_METHOD_2_7BB4E41B27A3D7A4_OFFSET UNITYSDK_OFFSET(0x1C467BA0)
+#define MOLEMOLE_CONFIG_CONFIGZENKOVSPLITTEAMREGISTERRULE_METHOD_2_9B00DC6B301F3F39_OFFSET UNITYSDK_OFFSET(0x1C467B80)
+#define MOLEMOLE_CONFIG_CONFIGZENKOVSPLITTEAMREGISTERRULE_METHOD_2_A042C46DE73C3043_OFFSET UNITYSDK_OFFSET(0x1C4679E0)
+#define MOLEMOLE_CONFIG_CONFIGZENKOVSPLITTEAMREGISTERRULE_METHOD_2_A92700899E7F6953_OFFSET UNITYSDK_OFFSET(0x1C467CC0)
+#define MOLEMOLE_CONFIG_CONFIGZENKOVSPLITTEAMREGISTERRULE_METHOD_2_C74CF020AA42ED85_OFFSET UNITYSDK_OFFSET(0x1C467AF0)
+#define MOLEMOLE_CONFIG_CONFIGZENKOVSPLITTEAMREGISTERRULE_METHOD_2_D4DA1493472613E6_OFFSET UNITYSDK_OFFSET(0x1C467B60)
+#define MOLEMOLE_CONFIG_CONFIGZENKOVSPLITTEAMREGISTERRULE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C467B90)
+
+namespace MoleMole::Config
+{
+	inline static constexpr unsigned int ConfigZenkovSplitTeamRegisterRule_TypeDefinitionIndex = 90641;
+
+	class ConfigZenkovSplitTeamRegisterRule : public ::MoleMole::Config::ConfigDungeonRegisterRuleBase
+	{
+	public:
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGZENKOVSPLITTEAMREGISTERRULE__CTOR_OFFSET))(this);
+		}
+
+		::System::Void Method_2_A042C46DE73C3043(::System::Action_1<::System::Object*>* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGZENKOVSPLITTEAMREGISTERRULE_METHOD_2_A042C46DE73C3043_OFFSET))(this, a1);
+		}
+
+		::MoleMole::Config::ConfigDungeonRegisterRuleBase* Method_2_6704D57D4F412560()
+		{
+			return ((::MoleMole::Config::ConfigDungeonRegisterRuleBase*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGZENKOVSPLITTEAMREGISTERRULE_METHOD_2_6704D57D4F412560_OFFSET))(this);
+		}
+
+		::System::Int32 Method_2_C74CF020AA42ED85()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGZENKOVSPLITTEAMREGISTERRULE_METHOD_2_C74CF020AA42ED85_OFFSET))(this);
+		}
+
+		::System::Boolean FromFlx(::FlexBuffers::FlxValue a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGZENKOVSPLITTEAMREGISTERRULE_FROMFLX_OFFSET))(this, a1);
+		}
+
+		::System::Boolean FromBinary(::Class_1_236FD73ABC492E3F* a1, ::System::Int32 a2)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGZENKOVSPLITTEAMREGISTERRULE_FROMBINARY_OFFSET))(this, a1, a2);
+		}
+
+		::System::Boolean Method_2_9B00DC6B301F3F39(::Class_1_236FD73ABC492E3F* a1, ::System::Int32 a2)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGZENKOVSPLITTEAMREGISTERRULE_METHOD_2_9B00DC6B301F3F39_OFFSET))(this, a1, a2);
+		}
+
+		static ::MoleMole::Config::ConfigZenkovSplitTeamRegisterRule* Method_2_7BB4E41B27A3D7A4(::FlexBuffers::FlxValue a1)
+		{
+			return ((::MoleMole::Config::ConfigZenkovSplitTeamRegisterRule*(*)(::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGZENKOVSPLITTEAMREGISTERRULE_METHOD_2_7BB4E41B27A3D7A4_OFFSET))(a1);
+		}
+
+		::System::Boolean Method_2_D4DA1493472613E6(::FlexBuffers::FlxMap a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxMap))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGZENKOVSPLITTEAMREGISTERRULE_METHOD_2_D4DA1493472613E6_OFFSET))(this, a1);
+		}
+
+		static ::MoleMole::Config::ConfigZenkovSplitTeamRegisterRule* Method_2_A92700899E7F6953(::Class_1_236FD73ABC492E3F* a1, ::System::Int32 a2)
+		{
+			return ((::MoleMole::Config::ConfigZenkovSplitTeamRegisterRule*(*)(::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGZENKOVSPLITTEAMREGISTERRULE_METHOD_2_A92700899E7F6953_OFFSET))(a1, a2);
+		}
+	};
+}

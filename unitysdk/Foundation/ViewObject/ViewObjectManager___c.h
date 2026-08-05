@@ -6,31 +6,31 @@
 namespace Foundation::ViewObject { class ViewObject; }
 namespace System { template <typename T> class Func_1; }
 
-#define FOUNDATION_VIEWOBJECT_VIEWOBJECTMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x125849B0)
-#define FOUNDATION_VIEWOBJECT_VIEWOBJECTMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x125849F0)
-#define FOUNDATION_VIEWOBJECT_VIEWOBJECTMANAGER___C__DORELOADALLGROUP_B__132_0_OFFSET UNITYSDK_OFFSET(0x12584A00)
-#define FOUNDATION_VIEWOBJECT_VIEWOBJECTMANAGER___C__DORELOADGROUPSUITE_B__133_0_OFFSET UNITYSDK_OFFSET(0x12584AC0)
-#define FOUNDATION_VIEWOBJECT_VIEWOBJECTMANAGER___C___CCTOR_B__195_0_OFFSET UNITYSDK_OFFSET(0x12584B80)
-#define FOUNDATION_VIEWOBJECT_VIEWOBJECTMANAGER___C___CCTOR_B__195_1_OFFSET UNITYSDK_OFFSET(0x12584C00)
+#define FOUNDATION_VIEWOBJECT_VIEWOBJECTMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x16DFB9D0)
+#define FOUNDATION_VIEWOBJECT_VIEWOBJECTMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x16DFBA10)
+#define FOUNDATION_VIEWOBJECT_VIEWOBJECTMANAGER___C__DORELOADALLGROUP_B__135_0_OFFSET UNITYSDK_OFFSET(0x16DFBA20)
+#define FOUNDATION_VIEWOBJECT_VIEWOBJECTMANAGER___C__DORELOADGROUPSUITE_B__136_0_OFFSET UNITYSDK_OFFSET(0x16DFBAE0)
+#define FOUNDATION_VIEWOBJECT_VIEWOBJECTMANAGER___C___CCTOR_B__198_0_OFFSET UNITYSDK_OFFSET(0x16DFBBA0)
+#define FOUNDATION_VIEWOBJECT_VIEWOBJECTMANAGER___C___CCTOR_B__198_1_OFFSET UNITYSDK_OFFSET(0x16DFBC20)
 
 namespace Foundation::ViewObject
 {
-	inline static constexpr unsigned int ViewObjectManager___c_TypeDefinitionIndex = 73620;
+	inline static constexpr unsigned int ViewObjectManager___c_TypeDefinitionIndex = 55547;
 
 	class ViewObjectManager___c : public ::System::Object
 	{
 	public:
+		static ::System::Func_1<::System::Boolean>** StaticGet___9__136_0()
+		{
+			return (::System::Func_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ViewObjectManager___c_TypeDefinitionIndex)->GetStaticField(0x419A0);
+		}
 		static ::Foundation::ViewObject::ViewObjectManager___c** StaticGet___9()
 		{
-			return (::Foundation::ViewObject::ViewObjectManager___c**)Il2CppClass::FromTypeDefinitionIndex(ViewObjectManager___c_TypeDefinitionIndex)->GetStaticField(0x3B6E0);
+			return (::Foundation::ViewObject::ViewObjectManager___c**)Il2CppClass::FromTypeDefinitionIndex(ViewObjectManager___c_TypeDefinitionIndex)->GetStaticField(0x419A8);
 		}
-		static ::System::Func_1<::System::Boolean>** StaticGet___9__133_0()
+		static ::System::Func_1<::System::Boolean>** StaticGet___9__135_0()
 		{
-			return (::System::Func_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ViewObjectManager___c_TypeDefinitionIndex)->GetStaticField(0x3B6E8);
-		}
-		static ::System::Func_1<::System::Boolean>** StaticGet___9__132_0()
-		{
-			return (::System::Func_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ViewObjectManager___c_TypeDefinitionIndex)->GetStaticField(0x3B6F0);
+			return (::System::Func_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ViewObjectManager___c_TypeDefinitionIndex)->GetStaticField(0x419B0);
 		}
 
 		static ::System::Void _cctor()
@@ -43,24 +43,24 @@ namespace Foundation::ViewObject
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FOUNDATION_VIEWOBJECT_VIEWOBJECTMANAGER___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _DoReloadAllGroup_b__132_0()
+		::System::Boolean _DoReloadAllGroup_b__135_0()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + FOUNDATION_VIEWOBJECT_VIEWOBJECTMANAGER___C__DORELOADALLGROUP_B__132_0_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + FOUNDATION_VIEWOBJECT_VIEWOBJECTMANAGER___C__DORELOADALLGROUP_B__135_0_OFFSET))(this);
 		}
 
-		::System::Boolean _DoReloadGroupSuite_b__133_0()
+		::System::Boolean _DoReloadGroupSuite_b__136_0()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + FOUNDATION_VIEWOBJECT_VIEWOBJECTMANAGER___C__DORELOADGROUPSUITE_B__133_0_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + FOUNDATION_VIEWOBJECT_VIEWOBJECTMANAGER___C__DORELOADGROUPSUITE_B__136_0_OFFSET))(this);
 		}
 
-		::System::Void __cctor_b__195_0(::Foundation::ViewObject::ViewObject*& value, ::Foundation::ViewObject::Container::SparseElementHandle_1<::Foundation::ViewObject::ViewObject*> handle)
+		::System::Void __cctor_b__198_0(::Foundation::ViewObject::ViewObject*& value, ::Foundation::ViewObject::Container::SparseElementHandle_1<::Foundation::ViewObject::ViewObject*> handle)
 		{
-			return ((::System::Void(*)(::PVOID, ::Foundation::ViewObject::ViewObject*&, ::Foundation::ViewObject::Container::SparseElementHandle_1<::Foundation::ViewObject::ViewObject*>))((::PBYTE)hIl2Cpp + FOUNDATION_VIEWOBJECT_VIEWOBJECTMANAGER___C___CCTOR_B__195_0_OFFSET))(this, value, handle);
+			return ((::System::Void(*)(::PVOID, ::Foundation::ViewObject::ViewObject*&, ::Foundation::ViewObject::Container::SparseElementHandle_1<::Foundation::ViewObject::ViewObject*>))((::PBYTE)hIl2Cpp + FOUNDATION_VIEWOBJECT_VIEWOBJECTMANAGER___C___CCTOR_B__198_0_OFFSET))(this, value, handle);
 		}
 
-		::System::Void __cctor_b__195_1(::Foundation::ViewObject::ViewObject*& value, ::Foundation::ViewObject::Container::SparseElementHandle_1<::Foundation::ViewObject::ViewObject*> handle)
+		::System::Void __cctor_b__198_1(::Foundation::ViewObject::ViewObject*& value, ::Foundation::ViewObject::Container::SparseElementHandle_1<::Foundation::ViewObject::ViewObject*> handle)
 		{
-			return ((::System::Void(*)(::PVOID, ::Foundation::ViewObject::ViewObject*&, ::Foundation::ViewObject::Container::SparseElementHandle_1<::Foundation::ViewObject::ViewObject*>))((::PBYTE)hIl2Cpp + FOUNDATION_VIEWOBJECT_VIEWOBJECTMANAGER___C___CCTOR_B__195_1_OFFSET))(this, value, handle);
+			return ((::System::Void(*)(::PVOID, ::Foundation::ViewObject::ViewObject*&, ::Foundation::ViewObject::Container::SparseElementHandle_1<::Foundation::ViewObject::ViewObject*>))((::PBYTE)hIl2Cpp + FOUNDATION_VIEWOBJECT_VIEWOBJECTMANAGER___C___CCTOR_B__198_1_OFFSET))(this, value, handle);
 		}
 	};
 }

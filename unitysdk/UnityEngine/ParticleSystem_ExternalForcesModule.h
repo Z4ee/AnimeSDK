@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class ParticleSystem; }
 
-#define UNITYENGINE_PARTICLESYSTEM_EXTERNALFORCESMODULE__CTOR_OFFSET UNITYSDK_OFFSET(0x2B6D10)
+#define UNITYENGINE_PARTICLESYSTEM_EXTERNALFORCESMODULE__CTOR_OFFSET UNITYSDK_OFFSET(0x324D50)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ParticleSystem_ExternalForcesModule_TypeDefinitionIndex = 18792;
+	inline static constexpr unsigned int ParticleSystem_ExternalForcesModule_TypeDefinitionIndex = 7733;
 
 	struct alignas(8) ParticleSystem_ExternalForcesModule
 	{

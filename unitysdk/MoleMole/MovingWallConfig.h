@@ -9,21 +9,21 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_MOVINGWALLCONFIG_GETWALLCONFIG_OFFSET UNITYSDK_OFFSET(0x19171BD0)
-#define MOLEMOLE_MOVINGWALLCONFIG_RELOADFROMFILEASYNC_OFFSET UNITYSDK_OFFSET(0x19171AE0)
-#define MOLEMOLE_MOVINGWALLCONFIG_RELOADFROMFILE_OFFSET UNITYSDK_OFFSET(0x191718C0)
-#define MOLEMOLE_MOVINGWALLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19171C60)
+#define MOLEMOLE_MOVINGWALLCONFIG_GETWALLCONFIG_OFFSET UNITYSDK_OFFSET(0x11906370)
+#define MOLEMOLE_MOVINGWALLCONFIG_RELOADFROMFILEASYNC_OFFSET UNITYSDK_OFFSET(0x11906280)
+#define MOLEMOLE_MOVINGWALLCONFIG_RELOADFROMFILE_OFFSET UNITYSDK_OFFSET(0x11906060)
+#define MOLEMOLE_MOVINGWALLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x11906400)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MovingWallConfig_TypeDefinitionIndex = 76512;
+	inline static constexpr unsigned int MovingWallConfig_TypeDefinitionIndex = 51402;
 
 	class MovingWallConfig : public ::Foundation::MihoyoSerializedScriptableObject
 	{
 	public:
 		static ::MoleMole::MovingWallConfig** StaticGet__instance()
 		{
-			return (::MoleMole::MovingWallConfig**)Il2CppClass::FromTypeDefinitionIndex(MovingWallConfig_TypeDefinitionIndex)->GetStaticField(0x39F10);
+			return (::MoleMole::MovingWallConfig**)Il2CppClass::FromTypeDefinitionIndex(MovingWallConfig_TypeDefinitionIndex)->GetStaticField(0x3CCA0);
 		}
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::MoleMole::WallConfig*>*>* Walls; // 0x58
 

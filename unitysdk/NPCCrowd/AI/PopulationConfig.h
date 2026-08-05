@@ -8,13 +8,13 @@
 namespace NPCCrowd::AI { class PopulationTimeConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCCROWD_AI_POPULATIONCONFIG_GETTIMECONFIG_1_OFFSET UNITYSDK_OFFSET(0xA665AB0)
-#define NPCCROWD_AI_POPULATIONCONFIG_GETTIMECONFIG_OFFSET UNITYSDK_OFFSET(0xA665960)
-#define NPCCROWD_AI_POPULATIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xA665C60)
+#define NPCCROWD_AI_POPULATIONCONFIG_GETTIMECONFIG_1_OFFSET UNITYSDK_OFFSET(0xF84FF20)
+#define NPCCROWD_AI_POPULATIONCONFIG_GETTIMECONFIG_OFFSET UNITYSDK_OFFSET(0xF84FDD0)
+#define NPCCROWD_AI_POPULATIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xF8500D0)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int PopulationConfig_TypeDefinitionIndex = 60974;
+	inline static constexpr unsigned int PopulationConfig_TypeDefinitionIndex = 71131;
 
 	class PopulationConfig : public ::System::Object
 	{

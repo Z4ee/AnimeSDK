@@ -5,11 +5,11 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define MOLEMOLE_MONOEFFECTPLUGINATTACHTOCAMERA_ASPECTOFFSET_GET_SUBISSHOWADDFOVMINMAX_OFFSET UNITYSDK_OFFSET(0x4107A0)
+#define MOLEMOLE_MONOEFFECTPLUGINATTACHTOCAMERA_ASPECTOFFSET_GET_SUBISSHOWADDFOVMINMAX_OFFSET UNITYSDK_OFFSET(0x42ABB0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoEffectPluginAttachToCamera_AspectOffset_TypeDefinitionIndex = 51513;
+	inline static constexpr unsigned int MonoEffectPluginAttachToCamera_AspectOffset_TypeDefinitionIndex = 56271;
 
 	struct alignas(4) MonoEffectPluginAttachToCamera_AspectOffset
 	{

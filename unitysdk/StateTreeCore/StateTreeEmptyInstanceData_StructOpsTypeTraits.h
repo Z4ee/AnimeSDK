@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnrealTypes/StructOpsTraitsBase.h"
 
-#define STATETREECORE_STATETREEEMPTYINSTANCEDATA_STRUCTOPSTYPETRAITS_GET_ISPLAINOLDDATA_OFFSET UNITYSDK_OFFSET(0x1E6F3F80)
-#define STATETREECORE_STATETREEEMPTYINSTANCEDATA_STRUCTOPSTYPETRAITS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E6F3F90)
+#define STATETREECORE_STATETREEEMPTYINSTANCEDATA_STRUCTOPSTYPETRAITS_GET_ISPLAINOLDDATA_OFFSET UNITYSDK_OFFSET(0x1FAA4A20)
+#define STATETREECORE_STATETREEEMPTYINSTANCEDATA_STRUCTOPSTYPETRAITS__CTOR_OFFSET UNITYSDK_OFFSET(0x1FAA4A30)
 
 namespace StateTreeCore
 {
-	inline static constexpr unsigned int StateTreeEmptyInstanceData_StructOpsTypeTraits_TypeDefinitionIndex = 30988;
+	inline static constexpr unsigned int StateTreeEmptyInstanceData_StructOpsTypeTraits_TypeDefinitionIndex = 31593;
 
 	class StateTreeEmptyInstanceData_StructOpsTypeTraits : public ::UnrealTypes::StructOpsTraitsBase
 	{

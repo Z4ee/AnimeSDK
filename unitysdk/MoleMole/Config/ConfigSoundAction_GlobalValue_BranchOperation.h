@@ -5,19 +5,19 @@
 namespace MoleMole::Config { class ConfigSoundActionGeneral; }
 namespace System::Collections { class IEnumerable; }
 
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_GLOBALVALUE_BRANCHOPERATION__CCTOR_OFFSET UNITYSDK_OFFSET(0x144E5830)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_GLOBALVALUE_BRANCHOPERATION__CTOR_OFFSET UNITYSDK_OFFSET(0x144E5820)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_GLOBALVALUE_BRANCHOPERATION__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BD61C90)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_GLOBALVALUE_BRANCHOPERATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD61C80)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigSoundAction_GlobalValue_BranchOperation_TypeDefinitionIndex = 82130;
+	inline static constexpr unsigned int ConfigSoundAction_GlobalValue_BranchOperation_TypeDefinitionIndex = 85079;
 
 	class ConfigSoundAction_GlobalValue_BranchOperation : public ::System::Object
 	{
 	public:
 		static ::System::Collections::IEnumerable** StaticGet_ops()
 		{
-			return (::System::Collections::IEnumerable**)Il2CppClass::FromTypeDefinitionIndex(ConfigSoundAction_GlobalValue_BranchOperation_TypeDefinitionIndex)->GetStaticField(0x3C2B0);
+			return (::System::Collections::IEnumerable**)Il2CppClass::FromTypeDefinitionIndex(ConfigSoundAction_GlobalValue_BranchOperation_TypeDefinitionIndex)->GetStaticField(0x50D20);
 		}
 		::System::Int32 op; // 0x10
 		::System::Int32 value; // 0x14

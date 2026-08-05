@@ -9,9 +9,9 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MONOUIFOCUSINPUTGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0xF968D00)
+#define MONOUIFOCUSINPUTGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x11E57950)
 
-inline static constexpr unsigned int MonoUIFocusInputGroup_TypeDefinitionIndex = 87216;
+inline static constexpr unsigned int MonoUIFocusInputGroup_TypeDefinitionIndex = 68089;
 
 class MonoUIFocusInputGroup : public ::Sirenix::OdinInspector::SerializedMonoBehaviour
 {

@@ -3,13 +3,13 @@
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int GalgameRainMode_TypeDefinitionIndex = 76509;
+	inline static constexpr unsigned int GalgameRainMode_TypeDefinitionIndex = 69662;
 
 	enum class GalgameRainMode : ::System::Int32
 	{
-		None = 0,
-		FollowScene = 1,
-		ForceClear = 3,
 		ForceRain = 2,
+		None = 0,
+		ForceClear = 3,
+		FollowScene = 1,
 	};
 }

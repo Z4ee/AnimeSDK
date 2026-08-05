@@ -6,17 +6,17 @@ namespace MoleMole { class ConfigUIMainPageShowSetting; }
 namespace MoleMole { class MainPageItemShowSetting; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIGUIMAINPAGEGENERALSHOWITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1A07FB20)
+#define MOLEMOLE_CONFIGUIMAINPAGEGENERALSHOWITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0047E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUIMainPageGeneralShowItem_TypeDefinitionIndex = 74572;
+	inline static constexpr unsigned int ConfigUIMainPageGeneralShowItem_TypeDefinitionIndex = 50766;
 
 	class ConfigUIMainPageGeneralShowItem : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::MoleMole::MainPageItemShowSetting*>* ItemShowSettings; // 0x10
-		::MoleMole::ConfigUIMainPageShowSetting* MainPageShowSetting; // 0x18
+		::MoleMole::ConfigUIMainPageShowSetting* MainPageShowSetting; // 0x10
+		::System::Collections::Generic::List_1<::MoleMole::MainPageItemShowSetting*>* ItemShowSettings; // 0x18
 		::System::Int32 PostGirlID; // 0x20
 
 		::System::Void _ctor()

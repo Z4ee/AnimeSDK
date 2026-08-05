@@ -4,12 +4,12 @@
 
 namespace System::Collections { class IList; }
 
-#define FLOWCANVAS_NODES_CLEARLIST_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BC40D90)
-#define FLOWCANVAS_NODES_CLEARLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC40E60)
+#define FLOWCANVAS_NODES_CLEARLIST_INVOKE_OFFSET UNITYSDK_OFFSET(0x1DB24100)
+#define FLOWCANVAS_NODES_CLEARLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB241D0)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int ClearList_TypeDefinitionIndex = 29457;
+	inline static constexpr unsigned int ClearList_TypeDefinitionIndex = 31309;
 
 	class ClearList : public ::FlowCanvas::Nodes::CallableFunctionNode_2<::System::Collections::IList*, ::System::Collections::IList*>
 	{

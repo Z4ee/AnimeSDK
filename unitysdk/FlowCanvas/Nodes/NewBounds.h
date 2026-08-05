@@ -4,12 +4,12 @@
 #include "unitysdk/UnityEngine/Bounds.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define FLOWCANVAS_NODES_NEWBOUNDS_INVOKE_OFFSET UNITYSDK_OFFSET(0x1D348170)
-#define FLOWCANVAS_NODES_NEWBOUNDS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3481B0)
+#define FLOWCANVAS_NODES_NEWBOUNDS_INVOKE_OFFSET UNITYSDK_OFFSET(0x1E6CBB40)
+#define FLOWCANVAS_NODES_NEWBOUNDS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E6CBB80)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int NewBounds_TypeDefinitionIndex = 30779;
+	inline static constexpr unsigned int NewBounds_TypeDefinitionIndex = 30479;
 
 	class NewBounds : public ::FlowCanvas::Nodes::PureFunctionNode_3<::UnityEngine::Bounds, ::UnityEngine::Vector3, ::UnityEngine::Vector3>
 	{

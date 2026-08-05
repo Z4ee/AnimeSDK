@@ -7,12 +7,12 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define UNITYENGINE_TIMELINE_ANIMATIONPARAMSTRIGGERTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1E563B60)
-#define UNITYENGINE_TIMELINE_ANIMATIONPARAMSTRIGGERTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1E563D10)
+#define UNITYENGINE_TIMELINE_ANIMATIONPARAMSTRIGGERTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1F961810)
+#define UNITYENGINE_TIMELINE_ANIMATIONPARAMSTRIGGERTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1F9619C0)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int AnimationParamsTriggerTrack_TypeDefinitionIndex = 32247;
+	inline static constexpr unsigned int AnimationParamsTriggerTrack_TypeDefinitionIndex = 32878;
 
 	class AnimationParamsTriggerTrack : public ::UnityEngine::Timeline::TrackAsset
 	{

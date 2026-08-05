@@ -6,11 +6,11 @@
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class Gradient; }
 
-#define ONAGER_FXMESH_FXMESHSETTINGS_CHANNELINFO_GET_ENABLED_OFFSET UNITYSDK_OFFSET(0x677870)
+#define ONAGER_FXMESH_FXMESHSETTINGS_CHANNELINFO_GET_ENABLED_OFFSET UNITYSDK_OFFSET(0x669870)
 
 namespace Onager::FXMesh
 {
-	inline static constexpr unsigned int FXMeshSettings_ChannelInfo_TypeDefinitionIndex = 38054;
+	inline static constexpr unsigned int FXMeshSettings_ChannelInfo_TypeDefinitionIndex = 38715;
 
 	struct alignas(8) FXMeshSettings_ChannelInfo
 	{

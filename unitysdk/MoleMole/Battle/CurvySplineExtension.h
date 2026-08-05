@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_BATTLE_CURVYSPLINEEXTENSION__CTOR_OFFSET UNITYSDK_OFFSET(0x13475760)
+#define MOLEMOLE_BATTLE_CURVYSPLINEEXTENSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1483F1F0)
 
 namespace MoleMole::Battle
 {
-	inline static constexpr unsigned int CurvySplineExtension_TypeDefinitionIndex = 40542;
+	inline static constexpr unsigned int CurvySplineExtension_TypeDefinitionIndex = 70760;
 
 	class CurvySplineExtension : public ::UnityEngine::MonoBehaviour
 	{

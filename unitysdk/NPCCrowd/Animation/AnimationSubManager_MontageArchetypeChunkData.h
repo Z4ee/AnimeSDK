@@ -3,15 +3,15 @@
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int AnimationSubManager_MontageArchetypeChunkData_TypeDefinitionIndex = 57343;
+	inline static constexpr unsigned int AnimationSubManager_MontageArchetypeChunkData_TypeDefinitionIndex = 88236;
 
 	enum class AnimationSubManager_MontageArchetypeChunkData : ::System::Int32
 	{
-		ClipData = 1,
-		Max = 5,
-		EntityId = 2,
 		TickData = 0,
-		MontageData = 4,
+		ClipData = 1,
+		EntityId = 2,
+		Max = 5,
 		BlendingRequest = 3,
+		MontageData = 4,
 	};
 }

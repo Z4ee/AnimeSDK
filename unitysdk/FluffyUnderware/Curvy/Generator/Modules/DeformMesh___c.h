@@ -7,39 +7,39 @@ namespace FluffyUnderware::Curvy::Generator { class CGVMesh; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Action_1; }
 
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_DEFORMMESH___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DC8FEF0)
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_DEFORMMESH___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1DC8FF30)
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_DEFORMMESH___C__REFRESH_B__12_0_OFFSET UNITYSDK_OFFSET(0x1DC8FF60)
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_DEFORMMESH___C__REFRESH_B__12_1_OFFSET UNITYSDK_OFFSET(0x1DC8FF40)
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_DEFORMMESH___C__TOONEDIMENSIONALARRAY_B__17_0_OFFSET UNITYSDK_OFFSET(0x1DC8FF80)
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_DEFORMMESH___C__TOONEDIMENSIONALARRAY_B__17_1_OFFSET UNITYSDK_OFFSET(0x1DC8FF90)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_DEFORMMESH___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EFB5390)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_DEFORMMESH___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1EFB53D0)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_DEFORMMESH___C__REFRESH_B__12_0_OFFSET UNITYSDK_OFFSET(0x1EFB5400)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_DEFORMMESH___C__REFRESH_B__12_1_OFFSET UNITYSDK_OFFSET(0x1EFB53E0)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_DEFORMMESH___C__TOONEDIMENSIONALARRAY_B__17_0_OFFSET UNITYSDK_OFFSET(0x1EFB5420)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_DEFORMMESH___C__TOONEDIMENSIONALARRAY_B__17_1_OFFSET UNITYSDK_OFFSET(0x1EFB5430)
 
 namespace FluffyUnderware::Curvy::Generator::Modules
 {
-	inline static constexpr unsigned int DeformMesh___c_TypeDefinitionIndex = 38831;
+	inline static constexpr unsigned int DeformMesh___c_TypeDefinitionIndex = 39613;
 
 	class DeformMesh___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::FluffyUnderware::Curvy::Generator::CGSpots*, ::System::Int32>** StaticGet___9__17_1()
 		{
-			return (::System::Func_2<::FluffyUnderware::Curvy::Generator::CGSpots*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(DeformMesh___c_TypeDefinitionIndex)->GetStaticField(0x29610);
-		}
-		static ::FluffyUnderware::Curvy::Generator::Modules::DeformMesh___c** StaticGet___9()
-		{
-			return (::FluffyUnderware::Curvy::Generator::Modules::DeformMesh___c**)Il2CppClass::FromTypeDefinitionIndex(DeformMesh___c_TypeDefinitionIndex)->GetStaticField(0x29618);
+			return (::System::Func_2<::FluffyUnderware::Curvy::Generator::CGSpots*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(DeformMesh___c_TypeDefinitionIndex)->GetStaticField(0x2AF40);
 		}
 		static ::System::Action_1<::FluffyUnderware::Curvy::Generator::CGVMesh*>** StaticGet___9__12_0()
 		{
-			return (::System::Action_1<::FluffyUnderware::Curvy::Generator::CGVMesh*>**)Il2CppClass::FromTypeDefinitionIndex(DeformMesh___c_TypeDefinitionIndex)->GetStaticField(0x29620);
+			return (::System::Action_1<::FluffyUnderware::Curvy::Generator::CGVMesh*>**)Il2CppClass::FromTypeDefinitionIndex(DeformMesh___c_TypeDefinitionIndex)->GetStaticField(0x2AF48);
 		}
-		static ::System::Action_1<::FluffyUnderware::Curvy::Generator::CGSpots*>** StaticGet___9__12_1()
+		static ::FluffyUnderware::Curvy::Generator::Modules::DeformMesh___c** StaticGet___9()
 		{
-			return (::System::Action_1<::FluffyUnderware::Curvy::Generator::CGSpots*>**)Il2CppClass::FromTypeDefinitionIndex(DeformMesh___c_TypeDefinitionIndex)->GetStaticField(0x29628);
+			return (::FluffyUnderware::Curvy::Generator::Modules::DeformMesh___c**)Il2CppClass::FromTypeDefinitionIndex(DeformMesh___c_TypeDefinitionIndex)->GetStaticField(0x2AF50);
 		}
 		static ::System::Func_2<::FluffyUnderware::Curvy::Generator::CGSpots*, ::System::Boolean>** StaticGet___9__17_0()
 		{
-			return (::System::Func_2<::FluffyUnderware::Curvy::Generator::CGSpots*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(DeformMesh___c_TypeDefinitionIndex)->GetStaticField(0x29630);
+			return (::System::Func_2<::FluffyUnderware::Curvy::Generator::CGSpots*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(DeformMesh___c_TypeDefinitionIndex)->GetStaticField(0x2AF58);
+		}
+		static ::System::Action_1<::FluffyUnderware::Curvy::Generator::CGSpots*>** StaticGet___9__12_1()
+		{
+			return (::System::Action_1<::FluffyUnderware::Curvy::Generator::CGSpots*>**)Il2CppClass::FromTypeDefinitionIndex(DeformMesh___c_TypeDefinitionIndex)->GetStaticField(0x2AF60);
 		}
 
 		static ::System::Void _cctor()

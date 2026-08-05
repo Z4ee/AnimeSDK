@@ -5,15 +5,15 @@
 class Class_1_EBACA96C31DAB7D8;
 namespace UnityEngine { class Material; }
 
-#define STRUCT_2_0896984AE113E8C5_METHOD_2_6A99B7B83C9A643A_OFFSET UNITYSDK_OFFSET(0x6B38F0)
-#define STRUCT_2_0896984AE113E8C5__CTOR_OFFSET UNITYSDK_OFFSET(0x3DD440)
+#define STRUCT_2_0896984AE113E8C5_METHOD_2_6A99B7B83C9A643A_OFFSET UNITYSDK_OFFSET(0x7D2660)
+#define STRUCT_2_0896984AE113E8C5__CTOR_OFFSET UNITYSDK_OFFSET(0x424FB0)
 
-inline static constexpr unsigned int Struct_2_0896984AE113E8C5_TypeDefinitionIndex = 83770;
+inline static constexpr unsigned int Struct_2_0896984AE113E8C5_TypeDefinitionIndex = 76515;
 
 struct alignas(8) Struct_2_0896984AE113E8C5
 {
 	::Class_1_EBACA96C31DAB7D8* Field_2_0; // 0x10
-	::System::Single Field_2_1; // 0x18
+	::System::Single Field_2_7; // 0x18
 
 	::System::Void _ctor(::Class_1_EBACA96C31DAB7D8* a1, ::System::Single a2)
 	{

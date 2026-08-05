@@ -6,12 +6,12 @@
 namespace UnrealTypes { class BoolPropertyParams; }
 namespace UnrealTypes { class IFieldVariant; }
 
-#define UNREALTYPES_BOOLPROPERTY__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1D1AC5D0)
-#define UNREALTYPES_BOOLPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1AC5A0)
+#define UNREALTYPES_BOOLPROPERTY__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E382A20)
+#define UNREALTYPES_BOOLPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x1E3829F0)
 
 namespace UnrealTypes
 {
-	inline static constexpr unsigned int BoolProperty_TypeDefinitionIndex = 27775;
+	inline static constexpr unsigned int BoolProperty_TypeDefinitionIndex = 28378;
 
 	class BoolProperty : public ::UnrealTypes::UnmanagedProperty_1<::System::Boolean>
 	{

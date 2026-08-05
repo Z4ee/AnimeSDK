@@ -7,21 +7,21 @@ class Class_1_1FCBF6F207BFD09E;
 class Class_1_22EF90524645AFD7;
 namespace MoleMole::HollowChessboard { class SceneAnimRenderSection_Config; }
 
-#define MOLEMOLE_HOLLOWCHESSBOARD_SCENEANIMRENDERSECTION_CREATEINSTANCE_OFFSET UNITYSDK_OFFSET(0x12622370)
-#define MOLEMOLE_HOLLOWCHESSBOARD_SCENEANIMRENDERSECTION_GETRELATIVESCREENLAYER_OFFSET UNITYSDK_OFFSET(0x12622420)
-#define MOLEMOLE_HOLLOWCHESSBOARD_SCENEANIMRENDERSECTION__CCTOR_OFFSET UNITYSDK_OFFSET(0x12622470)
-#define MOLEMOLE_HOLLOWCHESSBOARD_SCENEANIMRENDERSECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x12622460)
+#define MOLEMOLE_HOLLOWCHESSBOARD_SCENEANIMRENDERSECTION_CREATEINSTANCE_OFFSET UNITYSDK_OFFSET(0x149EFFA0)
+#define MOLEMOLE_HOLLOWCHESSBOARD_SCENEANIMRENDERSECTION_GETRELATIVESCREENLAYER_OFFSET UNITYSDK_OFFSET(0x149F0050)
+#define MOLEMOLE_HOLLOWCHESSBOARD_SCENEANIMRENDERSECTION__CCTOR_OFFSET UNITYSDK_OFFSET(0x149F00A0)
+#define MOLEMOLE_HOLLOWCHESSBOARD_SCENEANIMRENDERSECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x149F0090)
 
 namespace MoleMole::HollowChessboard
 {
-	inline static constexpr unsigned int SceneAnimRenderSection_TypeDefinitionIndex = 84372;
+	inline static constexpr unsigned int SceneAnimRenderSection_TypeDefinitionIndex = 52704;
 
 	class SceneAnimRenderSection : public ::System::Object
 	{
 	public:
 		static ::MoleMole::HollowChessboard::RenderSequenceSectionType* StaticGet_SectionType()
 		{
-			return (::MoleMole::HollowChessboard::RenderSequenceSectionType*)Il2CppClass::FromTypeDefinitionIndex(SceneAnimRenderSection_TypeDefinitionIndex)->GetStaticField(0xAFE0);
+			return (::MoleMole::HollowChessboard::RenderSequenceSectionType*)Il2CppClass::FromTypeDefinitionIndex(SceneAnimRenderSection_TypeDefinitionIndex)->GetStaticField(0xB190);
 		}
 		::MoleMole::HollowChessboard::SceneAnimRenderSection_Config* SectionConfig; // 0x10
 		::System::Int32 screenIndex; // 0x18

@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_ACTIVITYREDDOTRECORDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x17020E70)
+#define MOLEMOLE_ACTIVITYREDDOTRECORDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x150D84E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ActivityRedDotRecordData_TypeDefinitionIndex = 59339;
+	inline static constexpr unsigned int ActivityRedDotRecordData_TypeDefinitionIndex = 62258;
 
 	class ActivityRedDotRecordData : public ::System::Object
 	{

@@ -5,12 +5,12 @@
 
 namespace RBDDestruction { class RBDManager; }
 
-#define RBDDESTRUCTION_RBDMANAGER___C__DISPLAYCLASS104_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3CF460)
-#define RBDDESTRUCTION_RBDMANAGER___C__DISPLAYCLASS104_0__PROCESSDESTROYEVENTS_B__0_OFFSET UNITYSDK_OFFSET(0x1D3CF470)
+#define RBDDESTRUCTION_RBDMANAGER___C__DISPLAYCLASS104_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1E78BB30)
+#define RBDDESTRUCTION_RBDMANAGER___C__DISPLAYCLASS104_0__PROCESSDESTROYEVENTS_B__0_OFFSET UNITYSDK_OFFSET(0x1E78BB40)
 
 namespace RBDDestruction
 {
-	inline static constexpr unsigned int RBDManager___c__DisplayClass104_0_TypeDefinitionIndex = 27127;
+	inline static constexpr unsigned int RBDManager___c__DisplayClass104_0_TypeDefinitionIndex = 27069;
 
 	class RBDManager___c__DisplayClass104_0 : public ::System::Object
 	{

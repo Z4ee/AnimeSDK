@@ -1,9 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/Struct_2_52A902145F5BE51A_3.h"
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_414_TypeDefinitionIndex = 48502;
+namespace System { class String; }
 
-template <typename TOuterCtx>
+inline static constexpr unsigned int Class_0_16E4307DCC419505_414_TypeDefinitionIndex = 65357;
+
 class Class_0_16E4307DCC419505_414
 {
 public:

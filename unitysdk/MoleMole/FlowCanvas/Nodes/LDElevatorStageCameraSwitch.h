@@ -3,19 +3,19 @@
 #include "unitysdk/FlowCanvas/Nodes/CallableFunctionNode_8.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_3_DFD5D1FDB9D2A4AC;
+class Class_3_C93CC3D2C2AC4067;
 class Class_3_E82A8DEF8081DA8E;
 namespace MoleMole::Battle { class Entity; }
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDELEVATORSTAGECAMERASWITCH_GETAVAILABLEVIRTUALCAMERAKEY_OFFSET UNITYSDK_OFFSET(0x10D384F0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDELEVATORSTAGECAMERASWITCH_INVOKE_OFFSET UNITYSDK_OFFSET(0x10D37F00)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDELEVATORSTAGECAMERASWITCH_ISVIRTUALCAMERASAMEDIRECTION_OFFSET UNITYSDK_OFFSET(0x10D390D0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDELEVATORSTAGECAMERASWITCH__CTOR_OFFSET UNITYSDK_OFFSET(0x10D39450)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDELEVATORSTAGECAMERASWITCH_GETAVAILABLEVIRTUALCAMERAKEY_OFFSET UNITYSDK_OFFSET(0x1A99CB40)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDELEVATORSTAGECAMERASWITCH_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A99C540)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDELEVATORSTAGECAMERASWITCH_ISVIRTUALCAMERASAMEDIRECTION_OFFSET UNITYSDK_OFFSET(0x1A99D720)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDELEVATORSTAGECAMERASWITCH__CTOR_OFFSET UNITYSDK_OFFSET(0x1A99DAA0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDElevatorStageCameraSwitch_TypeDefinitionIndex = 79774;
+	inline static constexpr unsigned int LDElevatorStageCameraSwitch_TypeDefinitionIndex = 59135;
 
 	class LDElevatorStageCameraSwitch : public ::FlowCanvas::Nodes::CallableFunctionNode_8<::System::Boolean, ::System::Boolean, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::MoleMole::Battle::Entity*>
 	{
@@ -35,9 +35,9 @@ namespace MoleMole::FlowCanvas::Nodes
 			return ((::System::String*(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LDELEVATORSTAGECAMERASWITCH_GETAVAILABLEVIRTUALCAMERAKEY_OFFSET))(this, frontCameraKey1, frontCameraKey2, backCameraKey1, backCameraKey2, elevatorEntity);
 		}
 
-		::System::Boolean IsVirtualCameraSameDirection(::Class_3_E82A8DEF8081DA8E* behaviorDataComponent, ::Class_3_DFD5D1FDB9D2A4AC* elevatorModelComponent, ::System::String* vcamKey, ::UnityEngine::Vector3 crossVec, ::System::Boolean mainCameraFlag)
+		::System::Boolean IsVirtualCameraSameDirection(::Class_3_E82A8DEF8081DA8E* behaviorDataComponent, ::Class_3_C93CC3D2C2AC4067* elevatorModelComponent, ::System::String* vcamKey, ::UnityEngine::Vector3 crossVec, ::System::Boolean mainCameraFlag)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_3_E82A8DEF8081DA8E*, ::Class_3_DFD5D1FDB9D2A4AC*, ::System::String*, ::UnityEngine::Vector3, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LDELEVATORSTAGECAMERASWITCH_ISVIRTUALCAMERASAMEDIRECTION_OFFSET))(this, behaviorDataComponent, elevatorModelComponent, vcamKey, crossVec, mainCameraFlag);
+			return ((::System::Boolean(*)(::PVOID, ::Class_3_E82A8DEF8081DA8E*, ::Class_3_C93CC3D2C2AC4067*, ::System::String*, ::UnityEngine::Vector3, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LDELEVATORSTAGECAMERASWITCH_ISVIRTUALCAMERASAMEDIRECTION_OFFSET))(this, behaviorDataComponent, elevatorModelComponent, vcamKey, crossVec, mainCameraFlag);
 		}
 	};
 }

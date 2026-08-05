@@ -7,12 +7,12 @@ namespace UnityEngine { class Shader; }
 namespace UnityEngine { class TextAsset; }
 namespace UnityEngine::Experimental::Rendering { class RayTracingShader; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_RAYTRACINGRESOURCES_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1D6A9DB0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_RAYTRACINGRESOURCES__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6A9DC0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RAYTRACINGRESOURCES_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1EA63440)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RAYTRACINGRESOURCES__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA63450)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int RayTracingResources_TypeDefinitionIndex = 6037;
+	inline static constexpr unsigned int RayTracingResources_TypeDefinitionIndex = 6039;
 
 	class RayTracingResources : public ::System::Object
 	{

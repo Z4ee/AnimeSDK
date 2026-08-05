@@ -3,13 +3,13 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define MOLEMOLE_CAMERAS_CAMERACONTROLFLAG_GET_POINTERDRAGDELTAMULTIPLATFORM_OFFSET UNITYSDK_OFFSET(0x6C57A0)
-#define MOLEMOLE_CAMERAS_CAMERACONTROLFLAG_METHOD_2_3787E7B8A3FA157C_OFFSET UNITYSDK_OFFSET(0x6C57B0)
-#define MOLEMOLE_CAMERAS_CAMERACONTROLFLAG_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x6C5860)
+#define MOLEMOLE_CAMERAS_CAMERACONTROLFLAG_GET_POINTERDRAGDELTAMULTIPLATFORM_OFFSET UNITYSDK_OFFSET(0x84A710)
+#define MOLEMOLE_CAMERAS_CAMERACONTROLFLAG_METHOD_2_3787E7B8A3FA157C_OFFSET UNITYSDK_OFFSET(0x84A780)
+#define MOLEMOLE_CAMERAS_CAMERACONTROLFLAG_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x84A720)
 
 namespace MoleMole::Cameras
 {
-	inline static constexpr unsigned int CameraControlFlag_TypeDefinitionIndex = 53717;
+	inline static constexpr unsigned int CameraControlFlag_TypeDefinitionIndex = 85285;
 
 	struct alignas(4) CameraControlFlag
 	{
@@ -26,14 +26,14 @@ namespace MoleMole::Cameras
 			return ((::UnityEngine::Vector2(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_CAMERACONTROLFLAG_GET_POINTERDRAGDELTAMULTIPLATFORM_OFFSET))(this);
 		}
 
-		::System::Void Method_2_3787E7B8A3FA157C(::MoleMole::Cameras::CameraControlFlag a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::Cameras::CameraControlFlag))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_CAMERACONTROLFLAG_METHOD_2_3787E7B8A3FA157C_OFFSET))(this, a1);
-		}
-
 		::System::Void Method_2_CA373AA1C7054598()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_CAMERACONTROLFLAG_METHOD_2_CA373AA1C7054598_OFFSET))(this);
+		}
+
+		::System::Void Method_2_3787E7B8A3FA157C(::MoleMole::Cameras::CameraControlFlag a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::Cameras::CameraControlFlag))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_CAMERACONTROLFLAG_METHOD_2_3787E7B8A3FA157C_OFFSET))(this, a1);
 		}
 	};
 }

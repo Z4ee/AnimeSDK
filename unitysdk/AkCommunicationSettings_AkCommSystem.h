@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int AkCommunicationSettings_AkCommSystem_TypeDefinitionIndex = 33024;
+inline static constexpr unsigned int AkCommunicationSettings_AkCommSystem_TypeDefinitionIndex = 33659;
 
 enum class AkCommunicationSettings_AkCommSystem : ::System::Int32
 {

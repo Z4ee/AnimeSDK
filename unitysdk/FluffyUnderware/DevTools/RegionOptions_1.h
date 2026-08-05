@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace FluffyUnderware::DevTools
 {
-	inline static constexpr unsigned int RegionOptions_1_TypeDefinitionIndex = 28373;
+	inline static constexpr unsigned int RegionOptions_1_TypeDefinitionIndex = 28977;
 
 	template <typename T>
 	struct RegionOptions_1

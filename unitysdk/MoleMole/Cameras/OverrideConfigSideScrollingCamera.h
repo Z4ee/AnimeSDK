@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define MOLEMOLE_CAMERAS_OVERRIDECONFIGSIDESCROLLINGCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0xE954F60)
+#define MOLEMOLE_CAMERAS_OVERRIDECONFIGSIDESCROLLINGCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0xF128380)
 
 namespace MoleMole::Cameras
 {
-	inline static constexpr unsigned int OverrideConfigSideScrollingCamera_TypeDefinitionIndex = 43196;
+	inline static constexpr unsigned int OverrideConfigSideScrollingCamera_TypeDefinitionIndex = 60154;
 
 	class OverrideConfigSideScrollingCamera : public ::System::Object
 	{

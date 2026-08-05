@@ -5,11 +5,11 @@
 namespace MoleMole::Comic { class AudioContent; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define UNITYENGINE_TIMELINE_COMIC_DATASPLITTER_AUDIOCONTENTLISTSPLITTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1DFAC510)
+#define UNITYENGINE_TIMELINE_COMIC_DATASPLITTER_AUDIOCONTENTLISTSPLITTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F3A64C0)
 
 namespace UnityEngine::Timeline::Comic::DataSplitter
 {
-	inline static constexpr unsigned int AudioContentListSplitter_TypeDefinitionIndex = 32463;
+	inline static constexpr unsigned int AudioContentListSplitter_TypeDefinitionIndex = 33094;
 
 	class AudioContentListSplitter : public ::UnityEngine::Timeline::Comic::DataSplitter::DataSplitterBase_1<::System::Collections::Generic::List_1<::MoleMole::Comic::AudioContent*>*>
 	{

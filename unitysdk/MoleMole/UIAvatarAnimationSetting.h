@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_UIAVATARANIMATIONSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x172B5500)
+#define MOLEMOLE_UIAVATARANIMATIONSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x1955E220)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAvatarAnimationSetting_TypeDefinitionIndex = 65721;
+	inline static constexpr unsigned int UIAvatarAnimationSetting_TypeDefinitionIndex = 61004;
 
 	class UIAvatarAnimationSetting : public ::System::Object
 	{

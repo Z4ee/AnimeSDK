@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define DEST_MATH_SPLINEBASE_ARCLENGTHPARAMETRIZATION_GETAPPROXIMATETIMEPARAMETER_OFFSET UNITYSDK_OFFSET(0x1E6F09C0)
-#define DEST_MATH_SPLINEBASE_ARCLENGTHPARAMETRIZATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1E6F0B20)
+#define DEST_MATH_SPLINEBASE_ARCLENGTHPARAMETRIZATION_GETAPPROXIMATETIMEPARAMETER_OFFSET UNITYSDK_OFFSET(0x1FAD4DB0)
+#define DEST_MATH_SPLINEBASE_ARCLENGTHPARAMETRIZATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1FAD4F10)
 
 namespace Dest::Math
 {
-	inline static constexpr unsigned int SplineBase_ArcLengthParametrization_TypeDefinitionIndex = 34798;
+	inline static constexpr unsigned int SplineBase_ArcLengthParametrization_TypeDefinitionIndex = 35457;
 
 	class SplineBase_ArcLengthParametrization : public ::System::Object
 	{

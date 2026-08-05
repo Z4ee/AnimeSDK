@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define SIRENIX_ODININSPECTOR_COLORPALETTEATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E328950)
-#define SIRENIX_ODININSPECTOR_COLORPALETTEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E328940)
+#define SIRENIX_ODININSPECTOR_COLORPALETTEATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F76FCF0)
+#define SIRENIX_ODININSPECTOR_COLORPALETTEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F76FCE0)
 
 namespace Sirenix::OdinInspector
 {
-	inline static constexpr unsigned int ColorPaletteAttribute_TypeDefinitionIndex = 7267;
+	inline static constexpr unsigned int ColorPaletteAttribute_TypeDefinitionIndex = 7271;
 
 	class ColorPaletteAttribute : public ::System::Attribute
 	{

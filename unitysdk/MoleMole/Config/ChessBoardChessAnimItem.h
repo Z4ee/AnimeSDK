@@ -6,12 +6,12 @@
 namespace System { class String; }
 namespace System::Collections { class IEnumerable; }
 
-#define MOLEMOLE_CONFIG_CHESSBOARDCHESSANIMITEM_GETANIMLISTVALUEDROPDOWN_OFFSET UNITYSDK_OFFSET(0x1A33CC90)
-#define MOLEMOLE_CONFIG_CHESSBOARDCHESSANIMITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1A33CEF0)
+#define MOLEMOLE_CONFIG_CHESSBOARDCHESSANIMITEM_GETANIMLISTVALUEDROPDOWN_OFFSET UNITYSDK_OFFSET(0x1B544A50)
+#define MOLEMOLE_CONFIG_CHESSBOARDCHESSANIMITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1B544DE0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ChessBoardChessAnimItem_TypeDefinitionIndex = 48532;
+	inline static constexpr unsigned int ChessBoardChessAnimItem_TypeDefinitionIndex = 91268;
 
 	class ChessBoardChessAnimItem : public ::System::Object
 	{

@@ -3,19 +3,19 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define MOLEMOLE_CONFIG_CONFIGARCADECAMERAPOINT_COPYFROM_OFFSET UNITYSDK_OFFSET(0x1109EB40)
-#define MOLEMOLE_CONFIG_CONFIGARCADECAMERAPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1109EBC0)
+#define MOLEMOLE_CONFIG_CONFIGARCADECAMERAPOINT_COPYFROM_OFFSET UNITYSDK_OFFSET(0x12EFBF10)
+#define MOLEMOLE_CONFIG_CONFIGARCADECAMERAPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x12EFBF90)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigArcadeCameraPoint_TypeDefinitionIndex = 72301;
+	inline static constexpr unsigned int ConfigArcadeCameraPoint_TypeDefinitionIndex = 74642;
 
 	class ConfigArcadeCameraPoint : public ::System::Object
 	{
 	public:
-		::UnityEngine::Vector3 Rotation; // 0x10
-		::System::Single FOV; // 0x1C
-		::UnityEngine::Vector3 Position; // 0x20
+		::System::Single FOV; // 0x10
+		::UnityEngine::Vector3 Position; // 0x14
+		::UnityEngine::Vector3 Rotation; // 0x20
 
 		::System::Void _ctor()
 		{

@@ -4,7 +4,7 @@
 
 namespace System { class Delegate; }
 
-#define SYSTEM_COMPONENTMODEL_EVENTHANDLERLIST_LISTENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6C4A00)
+#define SYSTEM_COMPONENTMODEL_EVENTHANDLERLIST_LISTENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB76470)
 
 namespace System::ComponentModel
 {
@@ -14,8 +14,8 @@ namespace System::ComponentModel
 	{
 	public:
 		::System::Object* key; // 0x10
-		::System::ComponentModel::EventHandlerList_ListEntry* next; // 0x18
-		::System::Delegate* handler; // 0x20
+		::System::Delegate* handler; // 0x18
+		::System::ComponentModel::EventHandlerList_ListEntry* next; // 0x20
 
 		::System::Void _ctor(::System::Object* key, ::System::Delegate* handler, ::System::ComponentModel::EventHandlerList_ListEntry* next)
 		{

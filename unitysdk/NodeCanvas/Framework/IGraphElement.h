@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace NodeCanvas::Framework
 {
-	inline static constexpr unsigned int IGraphElement_TypeDefinitionIndex = 30054;
+	inline static constexpr unsigned int IGraphElement_TypeDefinitionIndex = 31388;
 
 	class IGraphElement
 	{

@@ -6,7 +6,7 @@ namespace UnityEngine { class Renderer; }
 
 namespace NPCCrowd::Lod
 {
-	inline static constexpr unsigned int NPCLODRendererItem_TypeDefinitionIndex = 65468;
+	inline static constexpr unsigned int NPCLODRendererItem_TypeDefinitionIndex = 84989;
 
 	struct alignas(8) NPCLODRendererItem
 	{

@@ -6,18 +6,18 @@
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas::Nodes { class CallableActionNode; }
 
-#define FLOWCANVAS_NODES_CALLABLEACTIONNODE___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1D346E10)
-#define FLOWCANVAS_NODES_CALLABLEACTIONNODE___C__DISPLAYCLASS1_0__ONREGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x1D346E20)
+#define FLOWCANVAS_NODES_CALLABLEACTIONNODE___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1E6CA800)
+#define FLOWCANVAS_NODES_CALLABLEACTIONNODE___C__DISPLAYCLASS1_0__ONREGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x1E6CA810)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int CallableActionNode___c__DisplayClass1_0_TypeDefinitionIndex = 30010;
+	inline static constexpr unsigned int CallableActionNode___c__DisplayClass1_0_TypeDefinitionIndex = 30778;
 
 	class CallableActionNode___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:
-		::FlowCanvas::Nodes::CallableActionNode* __4__this; // 0x10
-		::FlowCanvas::FlowOutput* o; // 0x18
+		::FlowCanvas::FlowOutput* o; // 0x10
+		::FlowCanvas::Nodes::CallableActionNode* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

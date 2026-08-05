@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_UIFISHINGCONTESTQUESTPAGECONTROLLER___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19DB3750)
+#define MOLEMOLE_UIFISHINGCONTESTQUESTPAGECONTROLLER___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19AB37D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIFishingContestQuestPageController___c__DisplayClass19_0_TypeDefinitionIndex = 66407;
+	inline static constexpr unsigned int UIFishingContestQuestPageController___c__DisplayClass19_0_TypeDefinitionIndex = 46618;
 
 	class UIFishingContestQuestPageController___c__DisplayClass19_0 : public ::System::Object
 	{

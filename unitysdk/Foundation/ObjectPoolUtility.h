@@ -2,34 +2,34 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define FOUNDATION_OBJECTPOOLUTILITY_GET_MAINTHREADID_OFFSET UNITYSDK_OFFSET(0x1D8FBCB0)
-#define FOUNDATION_OBJECTPOOLUTILITY_ISTHISMAINTHREAD_OFFSET UNITYSDK_OFFSET(0x1D8FBF00)
-#define FOUNDATION_OBJECTPOOLUTILITY_MARKMAINTHREADID_OFFSET UNITYSDK_OFFSET(0x1D8FBD70)
-#define FOUNDATION_OBJECTPOOLUTILITY_SET_MAINTHREADID_OFFSET UNITYSDK_OFFSET(0x1D8FBD10)
-#define FOUNDATION_OBJECTPOOLUTILITY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D8FC180)
+#define FOUNDATION_OBJECTPOOLUTILITY_GET_MAINTHREADID_OFFSET UNITYSDK_OFFSET(0x1E9C12C0)
+#define FOUNDATION_OBJECTPOOLUTILITY_ISTHISMAINTHREAD_OFFSET UNITYSDK_OFFSET(0x1E9C1510)
+#define FOUNDATION_OBJECTPOOLUTILITY_MARKMAINTHREADID_OFFSET UNITYSDK_OFFSET(0x1E9C1380)
+#define FOUNDATION_OBJECTPOOLUTILITY_SET_MAINTHREADID_OFFSET UNITYSDK_OFFSET(0x1E9C1320)
+#define FOUNDATION_OBJECTPOOLUTILITY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E9C1790)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int ObjectPoolUtility_TypeDefinitionIndex = 8284;
+	inline static constexpr unsigned int ObjectPoolUtility_TypeDefinitionIndex = 8026;
 
 	class ObjectPoolUtility : public ::System::Object
 	{
 	public:
 		static ::System::Int32* StaticGet__MainThreadID_k__BackingField()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ObjectPoolUtility_TypeDefinitionIndex)->GetStaticField(0x3540);
-		}
-		static ::System::Boolean* StaticGet_isOpenThreadCheck()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ObjectPoolUtility_TypeDefinitionIndex)->GetStaticField(0x3544);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ObjectPoolUtility_TypeDefinitionIndex)->GetStaticField(0x3550);
 		}
 		static ::System::Boolean* StaticGet_UseObjectPool()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ObjectPoolUtility_TypeDefinitionIndex)->GetStaticField(0x3545);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ObjectPoolUtility_TypeDefinitionIndex)->GetStaticField(0x3554);
+		}
+		static ::System::Boolean* StaticGet_isOpenThreadCheck()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ObjectPoolUtility_TypeDefinitionIndex)->GetStaticField(0x3555);
 		}
 		static ::System::Int32* StaticGet_ObjectPoolSize()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ObjectPoolUtility_TypeDefinitionIndex)->GetStaticField(0x3548);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ObjectPoolUtility_TypeDefinitionIndex)->GetStaticField(0x3558);
 		}
 
 		static ::System::Void _cctor()

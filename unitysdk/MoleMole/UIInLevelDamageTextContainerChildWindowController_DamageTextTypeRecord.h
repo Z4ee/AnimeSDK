@@ -7,7 +7,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInLevelDamageTextContainerChildWindowController_DamageTextTypeRecord_TypeDefinitionIndex = 76092;
+	inline static constexpr unsigned int UIInLevelDamageTextContainerChildWindowController_DamageTextTypeRecord_TypeDefinitionIndex = 78051;
 
 	struct alignas(8) UIInLevelDamageTextContainerChildWindowController_DamageTextTypeRecord
 	{

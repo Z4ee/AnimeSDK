@@ -4,12 +4,12 @@
 
 namespace RootMotion::FinalIK { class Amplifier_Body; }
 
-#define ROOTMOTION_FINALIK_AMPLIFIER_ONMODIFYOFFSET_OFFSET UNITYSDK_OFFSET(0x1E0066F0)
-#define ROOTMOTION_FINALIK_AMPLIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E006880)
+#define ROOTMOTION_FINALIK_AMPLIFIER_ONMODIFYOFFSET_OFFSET UNITYSDK_OFFSET(0x1F3C7CF0)
+#define ROOTMOTION_FINALIK_AMPLIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F3C7E90)
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int Amplifier_TypeDefinitionIndex = 38325;
+	inline static constexpr unsigned int Amplifier_TypeDefinitionIndex = 38911;
 
 	class Amplifier : public ::RootMotion::FinalIK::OffsetModifier
 	{

@@ -4,12 +4,12 @@
 
 namespace MoleMole::Battle { class Entity; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDMUTEHUDANDLOCKED_INVOKE_OFFSET UNITYSDK_OFFSET(0x19121980)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDMUTEHUDANDLOCKED__CTOR_OFFSET UNITYSDK_OFFSET(0x19121EC0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDMUTEHUDANDLOCKED_INVOKE_OFFSET UNITYSDK_OFFSET(0x19DB4730)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDMUTEHUDANDLOCKED__CTOR_OFFSET UNITYSDK_OFFSET(0x19DB4C70)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDMuteHUDAndLocked_TypeDefinitionIndex = 65108;
+	inline static constexpr unsigned int LDMuteHUDAndLocked_TypeDefinitionIndex = 51210;
 
 	class LDMuteHUDAndLocked : public ::FlowCanvas::Nodes::CallableFunctionNode_4<::System::Boolean, ::MoleMole::Battle::Entity*, ::System::Boolean, ::System::Boolean>
 	{

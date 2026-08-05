@@ -6,13 +6,13 @@ namespace UnityEngine::NAPRenderPipeline0 { class ClampedFloatParameter; }
 namespace UnityEngine::NAPRenderPipeline0 { class FloatParameter; }
 namespace UnityEngine::NAPRenderPipeline0 { class Vector2Parameter; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_LENSDISTORTION_ISACTIVE_OFFSET UNITYSDK_OFFSET(0x1B0A0DF0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_LENSDISTORTION_ISTILECOMPATIBLE_OFFSET UNITYSDK_OFFSET(0x1B0B2E70)
-#define UNITYENGINE_RENDERING_UNIVERSAL_LENSDISTORTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0B2EB0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_LENSDISTORTION_ISACTIVE_OFFSET UNITYSDK_OFFSET(0x1C502470)
+#define UNITYENGINE_RENDERING_UNIVERSAL_LENSDISTORTION_ISTILECOMPATIBLE_OFFSET UNITYSDK_OFFSET(0x1C514D40)
+#define UNITYENGINE_RENDERING_UNIVERSAL_LENSDISTORTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1C514D80)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int LensDistortion_TypeDefinitionIndex = 26648;
+	inline static constexpr unsigned int LensDistortion_TypeDefinitionIndex = 26850;
 
 	class LensDistortion : public ::UnityEngine::NAPRenderPipeline0::VolumeComponent
 	{

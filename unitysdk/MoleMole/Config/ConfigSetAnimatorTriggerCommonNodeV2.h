@@ -5,12 +5,12 @@
 class Class_1_D72537470FC2F779;
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGSETANIMATORTRIGGERCOMMONNODEV2_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x1A354380)
-#define MOLEMOLE_CONFIG_CONFIGSETANIMATORTRIGGERCOMMONNODEV2__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3543F0)
+#define MOLEMOLE_CONFIG_CONFIGSETANIMATORTRIGGERCOMMONNODEV2_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x1B557C20)
+#define MOLEMOLE_CONFIG_CONFIGSETANIMATORTRIGGERCOMMONNODEV2__CTOR_OFFSET UNITYSDK_OFFSET(0x1B557C90)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigSetAnimatorTriggerCommonNodeV2_TypeDefinitionIndex = 66477;
+	inline static constexpr unsigned int ConfigSetAnimatorTriggerCommonNodeV2_TypeDefinitionIndex = 70174;
 
 	class ConfigSetAnimatorTriggerCommonNodeV2 : public ::MoleMole::Config::ConfigConditionPredicateNode
 	{

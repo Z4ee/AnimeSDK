@@ -7,7 +7,7 @@ namespace UnrealTypes { class Class; }
 
 namespace UnrealTypes
 {
-	inline static constexpr unsigned int TSubclassOf_1_TypeDefinitionIndex = 27786;
+	inline static constexpr unsigned int TSubclassOf_1_TypeDefinitionIndex = 28389;
 
 	template <typename T>
 	struct TSubclassOf_1

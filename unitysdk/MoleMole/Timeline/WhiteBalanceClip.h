@@ -8,13 +8,13 @@
 namespace MoleMole::Timeline { class WhiteBalanceBehaviour; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_TIMELINE_WHITEBALANCECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1740D0D0)
-#define MOLEMOLE_TIMELINE_WHITEBALANCECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1740D0C0)
-#define MOLEMOLE_TIMELINE_WHITEBALANCECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1740D2B0)
+#define MOLEMOLE_TIMELINE_WHITEBALANCECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x129E9F40)
+#define MOLEMOLE_TIMELINE_WHITEBALANCECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x129E9F30)
+#define MOLEMOLE_TIMELINE_WHITEBALANCECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x129EA120)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int WhiteBalanceClip_TypeDefinitionIndex = 43385;
+	inline static constexpr unsigned int WhiteBalanceClip_TypeDefinitionIndex = 62650;
 
 	class WhiteBalanceClip : public ::UnityEngine::Playables::PlayableAsset
 	{

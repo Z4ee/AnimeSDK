@@ -6,19 +6,19 @@ namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace MiHoYo::SDK::PS { class BindingManagerPSCN; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_PS_BINDINGMANAGERPSCN___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B337EA0)
-#define MIHOYO_SDK_PS_BINDINGMANAGERPSCN___C__DISPLAYCLASS10_0__PERFORMBINDINGFLOW_B__0_OFFSET UNITYSDK_OFFSET(0x1B337EB0)
-#define MIHOYO_SDK_PS_BINDINGMANAGERPSCN___C__DISPLAYCLASS10_0__PERFORMBINDINGFLOW_B__1_OFFSET UNITYSDK_OFFSET(0x1B338120)
+#define MIHOYO_SDK_PS_BINDINGMANAGERPSCN___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C7D3A90)
+#define MIHOYO_SDK_PS_BINDINGMANAGERPSCN___C__DISPLAYCLASS10_0__PERFORMBINDINGFLOW_B__0_OFFSET UNITYSDK_OFFSET(0x1C7D3AA0)
+#define MIHOYO_SDK_PS_BINDINGMANAGERPSCN___C__DISPLAYCLASS10_0__PERFORMBINDINGFLOW_B__1_OFFSET UNITYSDK_OFFSET(0x1C7D3D10)
 
 namespace MiHoYo::SDK::PS
 {
-	inline static constexpr unsigned int BindingManagerPSCN___c__DisplayClass10_0_TypeDefinitionIndex = 20643;
+	inline static constexpr unsigned int BindingManagerPSCN___c__DisplayClass10_0_TypeDefinitionIndex = 20990;
 
 	class BindingManagerPSCN___c__DisplayClass10_0 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::PS::BindingManagerPSCN* __4__this; // 0x10
-		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* OnReactivateInfo; // 0x18
+		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* OnReactivateInfo; // 0x10
+		::MiHoYo::SDK::PS::BindingManagerPSCN* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

@@ -4,11 +4,11 @@
 
 namespace MoleMole::Config { class HollowNpcConfigData; }
 
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWNPC__CTOR_OFFSET UNITYSDK_OFFSET(0x158A9BD0)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWNPC__CTOR_OFFSET UNITYSDK_OFFSET(0x14376B70)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowNpc_TypeDefinitionIndex = 83590;
+	inline static constexpr unsigned int ConfigHollowNpc_TypeDefinitionIndex = 76566;
 
 	class ConfigHollowNpc : public ::Foundation::MihoyoSerializedScriptableObject
 	{

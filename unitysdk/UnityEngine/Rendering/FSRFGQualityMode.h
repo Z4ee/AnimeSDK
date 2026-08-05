@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int FSRFGQualityMode_TypeDefinitionIndex = 6148;
+	inline static constexpr unsigned int FSRFGQualityMode_TypeDefinitionIndex = 6150;
 
 	enum class FSRFGQualityMode : ::System::Int32
 	{

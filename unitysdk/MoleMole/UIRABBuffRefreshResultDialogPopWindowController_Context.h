@@ -2,29 +2,29 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_2_F68C1397F46993E4;
+class Class_2_B9416AD3CF7CE7E5;
 namespace System { class Action; }
 namespace System { class Object; }
 
-#define MOLEMOLE_UIRABBUFFREFRESHRESULTDIALOGPOPWINDOWCONTROLLER_CONTEXT_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x152A8F40)
-#define MOLEMOLE_UIRABBUFFREFRESHRESULTDIALOGPOPWINDOWCONTROLLER_CONTEXT_EQUALS_OFFSET UNITYSDK_OFFSET(0x152A8E80)
-#define MOLEMOLE_UIRABBUFFREFRESHRESULTDIALOGPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x152A9030)
-#define MOLEMOLE_UIRABBUFFREFRESHRESULTDIALOGPOPWINDOWCONTROLLER_CONTEXT___BASE_EQUALS_OFFSET UNITYSDK_OFFSET(0x152A9080)
+#define MOLEMOLE_UIRABBUFFREFRESHRESULTDIALOGPOPWINDOWCONTROLLER_CONTEXT_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1517D920)
+#define MOLEMOLE_UIRABBUFFREFRESHRESULTDIALOGPOPWINDOWCONTROLLER_CONTEXT_EQUALS_OFFSET UNITYSDK_OFFSET(0x1517D860)
+#define MOLEMOLE_UIRABBUFFREFRESHRESULTDIALOGPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1517DA10)
+#define MOLEMOLE_UIRABBUFFREFRESHRESULTDIALOGPOPWINDOWCONTROLLER_CONTEXT___BASE_EQUALS_OFFSET UNITYSDK_OFFSET(0x1517DA60)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRABBuffRefreshResultDialogPopWindowController_Context_TypeDefinitionIndex = 82585;
+	inline static constexpr unsigned int UIRABBuffRefreshResultDialogPopWindowController_Context_TypeDefinitionIndex = 46501;
 
 	class UIRABBuffRefreshResultDialogPopWindowController_Context : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_2_F68C1397F46993E4* BuddyData; // 0x28
+		::Class_2_B9416AD3CF7CE7E5* BuddyData; // 0x28
 		::System::Action* OnConfirm; // 0x30
-		::System::Int32 ItemId; // 0x38
-		::System::Int32 FactorType; // 0x3C
-		::System::Int32 FactorIndex; // 0x40
-		::System::Int32 NewFactorId; // 0x44
-		::System::Int32 OldFactorId; // 0x48
+		::System::Int32 OldFactorId; // 0x38
+		::System::Int32 FactorIndex; // 0x3C
+		::System::Int32 NewFactorId; // 0x40
+		::System::Int32 ItemId; // 0x44
+		::System::Int32 FactorType; // 0x48
 
 		::System::Void _ctor()
 		{

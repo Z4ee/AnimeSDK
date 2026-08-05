@@ -5,21 +5,21 @@
 
 namespace System { class String; }
 
-#define STRUCT_2_E19890BBE708E5DF_METHOD_2_25FAAA687894E58A_OFFSET UNITYSDK_OFFSET(0x82D090)
-#define STRUCT_2_E19890BBE708E5DF_METHOD_2_35EA095E1AFDD9C8_OFFSET UNITYSDK_OFFSET(0x82D180)
-#define STRUCT_2_E19890BBE708E5DF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x82D080)
+#define STRUCT_2_E19890BBE708E5DF_METHOD_2_25FAAA687894E58A_OFFSET UNITYSDK_OFFSET(0x7B9120)
+#define STRUCT_2_E19890BBE708E5DF_METHOD_2_35EA095E1AFDD9C8_OFFSET UNITYSDK_OFFSET(0x7B9210)
+#define STRUCT_2_E19890BBE708E5DF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x7B9110)
 
-inline static constexpr unsigned int Struct_2_E19890BBE708E5DF_TypeDefinitionIndex = 51171;
+inline static constexpr unsigned int Struct_2_E19890BBE708E5DF_TypeDefinitionIndex = 54135;
 
 struct alignas(8) Struct_2_E19890BBE708E5DF
 {
-	::System::Double Field_2_0; // 0x10
-	::System::Double Field_2_1; // 0x18
-	::System::Double Field_2_2; // 0x20
-	::System::Double Field_2_3; // 0x28
-	::System::Double Field_2_4; // 0x30
-	::System::Double Field_2_5; // 0x38
-	::System::Double Field_2_6; // 0x40
+	::System::Double Field_2_3; // 0x10
+	::System::Double Field_2_2; // 0x18
+	::System::Double Field_2_1; // 0x20
+	::System::Double Field_2_0; // 0x28
+	::System::Double Field_2_7; // 0x30
+	::System::Double Field_2_6; // 0x38
+	::System::Double Field_2_5; // 0x40
 
 	::System::String* ToString()
 	{

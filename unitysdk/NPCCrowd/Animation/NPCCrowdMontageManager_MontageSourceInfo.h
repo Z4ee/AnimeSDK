@@ -4,7 +4,7 @@
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int NPCCrowdMontageManager_MontageSourceInfo_TypeDefinitionIndex = 65142;
+	inline static constexpr unsigned int NPCCrowdMontageManager_MontageSourceInfo_TypeDefinitionIndex = 66974;
 
 	struct alignas(4) NPCCrowdMontageManager_MontageSourceInfo
 	{

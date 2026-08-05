@@ -6,7 +6,7 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace MoleMole::EffectSimulate
 {
-	inline static constexpr unsigned int EvaluateAnimationCurve_1_TypeDefinitionIndex = 45216;
+	inline static constexpr unsigned int EvaluateAnimationCurve_1_TypeDefinitionIndex = 89168;
 
 	template <typename T>
 	class EvaluateAnimationCurve_1 : public ::MoleMole::EffectSimulate::IEvaluateCurve_1<T>

@@ -5,17 +5,17 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGCOMMONBUFF__CTOR_OFFSET UNITYSDK_OFFSET(0x12B36180)
+#define MOLEMOLE_CONFIG_CONFIGCOMMONBUFF__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7E4670)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigCommonBuff_TypeDefinitionIndex = 68918;
+	inline static constexpr unsigned int ConfigCommonBuff_TypeDefinitionIndex = 40627;
 
 	class ConfigCommonBuff : public ::System::Object
 	{
 	public:
-		::System::String* DamageAudio; // 0x10
-		::MoleMole::Config::ConfigBuffMisc_EffectByCharacterSize EffectsBySize; // 0x18
+		::MoleMole::Config::ConfigBuffMisc_EffectByCharacterSize EffectsBySize; // 0x10
+		::System::String* DamageAudio; // 0x28
 
 		::System::Void _ctor()
 		{

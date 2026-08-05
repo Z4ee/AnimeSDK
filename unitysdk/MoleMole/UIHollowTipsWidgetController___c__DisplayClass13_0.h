@@ -6,23 +6,23 @@ namespace MoleMole { class UIHollowTipsWidgetController; }
 namespace System { class Action; }
 namespace UnityEngine { class Animation; }
 
-#define MOLEMOLE_UIHOLLOWTIPSWIDGETCONTROLLER___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x186DC400)
-#define MOLEMOLE_UIHOLLOWTIPSWIDGETCONTROLLER___C__DISPLAYCLASS13_0__SHOWHOLLOWCHALLENGE_B__0_OFFSET UNITYSDK_OFFSET(0x186DC750)
-#define MOLEMOLE_UIHOLLOWTIPSWIDGETCONTROLLER___C__DISPLAYCLASS13_0__SHOWHOLLOWCHALLENGE_B__1_OFFSET UNITYSDK_OFFSET(0x186DC780)
-#define MOLEMOLE_UIHOLLOWTIPSWIDGETCONTROLLER___C__DISPLAYCLASS13_0__SHOWHOLLOWCHALLENGE_B__2_OFFSET UNITYSDK_OFFSET(0x186DC990)
+#define MOLEMOLE_UIHOLLOWTIPSWIDGETCONTROLLER___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x199DF290)
+#define MOLEMOLE_UIHOLLOWTIPSWIDGETCONTROLLER___C__DISPLAYCLASS13_0__SHOWHOLLOWCHALLENGE_B__0_OFFSET UNITYSDK_OFFSET(0x199DF5E0)
+#define MOLEMOLE_UIHOLLOWTIPSWIDGETCONTROLLER___C__DISPLAYCLASS13_0__SHOWHOLLOWCHALLENGE_B__1_OFFSET UNITYSDK_OFFSET(0x199DF610)
+#define MOLEMOLE_UIHOLLOWTIPSWIDGETCONTROLLER___C__DISPLAYCLASS13_0__SHOWHOLLOWCHALLENGE_B__2_OFFSET UNITYSDK_OFFSET(0x199DF820)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowTipsWidgetController___c__DisplayClass13_0_TypeDefinitionIndex = 43162;
+	inline static constexpr unsigned int UIHollowTipsWidgetController___c__DisplayClass13_0_TypeDefinitionIndex = 41363;
 
 	class UIHollowTipsWidgetController___c__DisplayClass13_0 : public ::System::Object
 	{
 	public:
-		::System::Action* __9__2; // 0x10
-		::MoleMole::UIHollowTipsWidgetController* __4__this; // 0x18
-		::UnityEngine::Animation* textAnim; // 0x20
-		::System::Int32 totalProgress; // 0x28
-		::System::Int32 currentProgress; // 0x2C
+		::UnityEngine::Animation* textAnim; // 0x10
+		::System::Action* __9__2; // 0x18
+		::MoleMole::UIHollowTipsWidgetController* __4__this; // 0x20
+		::System::Int32 currentProgress; // 0x28
+		::System::Int32 totalProgress; // 0x2C
 
 		::System::Void _ctor()
 		{

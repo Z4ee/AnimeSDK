@@ -6,7 +6,7 @@
 
 namespace Nap::NapECS
 {
-	inline static constexpr unsigned int ComponentMaskFilter_ComplexMask_TypeDefinitionIndex = 37293;
+	inline static constexpr unsigned int ComponentMaskFilter_ComplexMask_TypeDefinitionIndex = 38046;
 
 	struct alignas(8) ComponentMaskFilter_ComplexMask
 	{

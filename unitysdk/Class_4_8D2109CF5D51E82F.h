@@ -8,38 +8,38 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class Material; }
 
-#define CLASS_4_8D2109CF5D51E82F_METHOD_4_4343F372F34C05BF_1_OFFSET UNITYSDK_OFFSET(0x14433DE0)
-#define CLASS_4_8D2109CF5D51E82F_METHOD_4_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x14433AF0)
-#define CLASS_4_8D2109CF5D51E82F_METHOD_4_729ABA6AA3B854F7_OFFSET UNITYSDK_OFFSET(0x144336F0)
-#define CLASS_4_8D2109CF5D51E82F_METHOD_4_F04C04E6DB6D6224_OFFSET UNITYSDK_OFFSET(0x14433B50)
-#define CLASS_4_8D2109CF5D51E82F_METHOD_4_F4ADC37B63F4E9EF_OFFSET UNITYSDK_OFFSET(0x14433640)
-#define CLASS_4_8D2109CF5D51E82F__CTOR_OFFSET UNITYSDK_OFFSET(0x14433DD0)
+#define CLASS_4_8D2109CF5D51E82F_METHOD_4_4343F372F34C05BF_1_OFFSET UNITYSDK_OFFSET(0x128A2A90)
+#define CLASS_4_8D2109CF5D51E82F_METHOD_4_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x128A2760)
+#define CLASS_4_8D2109CF5D51E82F_METHOD_4_7E1E8D4D4624B158_OFFSET UNITYSDK_OFFSET(0x128A2380)
+#define CLASS_4_8D2109CF5D51E82F_METHOD_4_C561FF611C07A44C_OFFSET UNITYSDK_OFFSET(0x128A22D0)
+#define CLASS_4_8D2109CF5D51E82F_METHOD_4_F04C04E6DB6D6224_OFFSET UNITYSDK_OFFSET(0x128A27C0)
+#define CLASS_4_8D2109CF5D51E82F__CTOR_OFFSET UNITYSDK_OFFSET(0x128A2A80)
 
-inline static constexpr unsigned int Class_4_8D2109CF5D51E82F_TypeDefinitionIndex = 85805;
+inline static constexpr unsigned int Class_4_8D2109CF5D51E82F_TypeDefinitionIndex = 89400;
 
 class Class_4_8D2109CF5D51E82F : public ::Class_3_65C2BD0D1B91C740
 {
 public:
-	::MoleMole::Config::ConfigCurveCtrlMatColorNode* Field_4_0; // 0x48
-	::Il2CppArray<::UnityEngine::Material*>* Field_4_1; // 0x50
-	::System::String* Field_4_2; // 0x58
-	::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::Color>* Field_4_5; // 0x60
-	::System::Boolean Field_4_4; // 0x68
-	::UnityEngine::Color Field_4_3; // 0x6C
+	::System::String* Field_4_6; // 0x48
+	::Il2CppArray<::UnityEngine::Material*>* Field_4_7; // 0x50
+	::MoleMole::Config::ConfigCurveCtrlMatColorNode* Field_4_0; // 0x58
+	::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::Color>* Field_4_11; // 0x60
+	::UnityEngine::Color Field_4_5; // 0x68
+	::System::Boolean Field_4_4; // 0x78
 
 	::System::Void _ctor()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_8D2109CF5D51E82F__CTOR_OFFSET))(this);
 	}
 
-	::System::Void Method_4_F4ADC37B63F4E9EF()
+	::System::Void Method_4_C561FF611C07A44C()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_8D2109CF5D51E82F_METHOD_4_F4ADC37B63F4E9EF_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_8D2109CF5D51E82F_METHOD_4_C561FF611C07A44C_OFFSET))(this);
 	}
 
-	::System::Void Method_4_729ABA6AA3B854F7()
+	::System::Void Method_4_7E1E8D4D4624B158()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_8D2109CF5D51E82F_METHOD_4_729ABA6AA3B854F7_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_8D2109CF5D51E82F_METHOD_4_7E1E8D4D4624B158_OFFSET))(this);
 	}
 
 	::System::Void Method_4_4343F372F34C05BF()

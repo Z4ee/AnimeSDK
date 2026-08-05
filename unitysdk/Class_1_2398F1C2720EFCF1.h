@@ -7,30 +7,30 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_2398F1C2720EFCF1__CCTOR_OFFSET UNITYSDK_OFFSET(0x141DE690)
+#define CLASS_1_2398F1C2720EFCF1__CCTOR_OFFSET UNITYSDK_OFFSET(0x12372840)
 
-inline static constexpr unsigned int Class_1_2398F1C2720EFCF1_TypeDefinitionIndex = 80569;
+inline static constexpr unsigned int Class_1_2398F1C2720EFCF1_TypeDefinitionIndex = 44152;
 
 class Class_1_2398F1C2720EFCF1 : public ::System::Object
 {
 public:
-	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Ability::InLevelAbilityTargetMask>** StaticGet_Field_1_4()
-	{
-		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Ability::InLevelAbilityTargetMask>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_2398F1C2720EFCF1_TypeDefinitionIndex)->GetStaticField(0x32CA0);
-	}
 	static ::MoleMole::GameplayTag* StaticGet_Field_1_1()
 	{
-		return (::MoleMole::GameplayTag*)Il2CppClass::FromTypeDefinitionIndex(Class_1_2398F1C2720EFCF1_TypeDefinitionIndex)->GetStaticField(0x32CA8);
+		return (::MoleMole::GameplayTag*)Il2CppClass::FromTypeDefinitionIndex(Class_1_2398F1C2720EFCF1_TypeDefinitionIndex)->GetStaticField(0x389A0);
 	}
-	static ::MoleMole::GameplayTag* StaticGet_Field_1_2()
+	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Ability::InLevelAbilityTargetMask>** StaticGet_Field_1_6()
 	{
-		return (::MoleMole::GameplayTag*)Il2CppClass::FromTypeDefinitionIndex(Class_1_2398F1C2720EFCF1_TypeDefinitionIndex)->GetStaticField(0x32CB8);
+		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Ability::InLevelAbilityTargetMask>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_2398F1C2720EFCF1_TypeDefinitionIndex)->GetStaticField(0x389B0);
 	}
-	static ::MoleMole::Ability::InLevelAbilityTargetMask* StaticGet_Field_1_3()
+	static ::MoleMole::GameplayTag* StaticGet_Field_1_0()
 	{
-		return (::MoleMole::Ability::InLevelAbilityTargetMask*)Il2CppClass::FromTypeDefinitionIndex(Class_1_2398F1C2720EFCF1_TypeDefinitionIndex)->GetStaticField(0xC590);
+		return (::MoleMole::GameplayTag*)Il2CppClass::FromTypeDefinitionIndex(Class_1_2398F1C2720EFCF1_TypeDefinitionIndex)->GetStaticField(0x389B8);
 	}
-	// static const ::System::String* Field_1_0; // 0x0
+	static ::MoleMole::Ability::InLevelAbilityTargetMask* StaticGet_Field_1_7()
+	{
+		return (::MoleMole::Ability::InLevelAbilityTargetMask*)Il2CppClass::FromTypeDefinitionIndex(Class_1_2398F1C2720EFCF1_TypeDefinitionIndex)->GetStaticField(0xD6E0);
+	}
+	// static const ::System::String* Field_1_2; // 0x0
 
 	static ::System::Void _cctor()
 	{

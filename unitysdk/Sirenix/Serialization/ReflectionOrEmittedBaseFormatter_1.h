@@ -4,7 +4,7 @@
 
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int ReflectionOrEmittedBaseFormatter_1_TypeDefinitionIndex = 7483;
+	inline static constexpr unsigned int ReflectionOrEmittedBaseFormatter_1_TypeDefinitionIndex = 7487;
 
 	template <typename T>
 	class ReflectionOrEmittedBaseFormatter_1 : public ::Sirenix::Serialization::ReflectionFormatter_1<T>

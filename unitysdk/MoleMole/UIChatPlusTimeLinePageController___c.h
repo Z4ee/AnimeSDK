@@ -4,24 +4,24 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UICHATPLUSTIMELINEPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15B63590)
-#define MOLEMOLE_UICHATPLUSTIMELINEPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15B635D0)
-#define MOLEMOLE_UICHATPLUSTIMELINEPAGECONTROLLER___C__ONNORMALGRAPHEXIT_B__36_0_OFFSET UNITYSDK_OFFSET(0x15B635E0)
+#define MOLEMOLE_UICHATPLUSTIMELINEPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19327D70)
+#define MOLEMOLE_UICHATPLUSTIMELINEPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19327DB0)
+#define MOLEMOLE_UICHATPLUSTIMELINEPAGECONTROLLER___C__ONNORMALGRAPHEXIT_B__36_0_OFFSET UNITYSDK_OFFSET(0x19327DC0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIChatPlusTimeLinePageController___c_TypeDefinitionIndex = 65462;
+	inline static constexpr unsigned int UIChatPlusTimeLinePageController___c_TypeDefinitionIndex = 79165;
 
 	class UIChatPlusTimeLinePageController___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::UIChatPlusTimeLinePageController___c** StaticGet___9()
-		{
-			return (::MoleMole::UIChatPlusTimeLinePageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIChatPlusTimeLinePageController___c_TypeDefinitionIndex)->GetStaticField(0x4B110);
-		}
 		static ::System::Action** StaticGet___9__36_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIChatPlusTimeLinePageController___c_TypeDefinitionIndex)->GetStaticField(0x4B118);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIChatPlusTimeLinePageController___c_TypeDefinitionIndex)->GetStaticField(0x4AC40);
+		}
+		static ::MoleMole::UIChatPlusTimeLinePageController___c** StaticGet___9()
+		{
+			return (::MoleMole::UIChatPlusTimeLinePageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIChatPlusTimeLinePageController___c_TypeDefinitionIndex)->GetStaticField(0x4AC48);
 		}
 
 		static ::System::Void _cctor()

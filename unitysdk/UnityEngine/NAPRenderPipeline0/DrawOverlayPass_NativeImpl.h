@@ -8,12 +8,12 @@
 
 namespace UnityEngine::NAPRenderPipeline0 { class DrawOverlayPassNativeState; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_DRAWOVERLAYPASS_NATIVEIMPL_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1DF572D0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_DRAWOVERLAYPASS_NATIVEIMPL__CTOR_OFFSET UNITYSDK_OFFSET(0x1DF57250)
+#define UNITYENGINE_NAPRENDERPIPELINE0_DRAWOVERLAYPASS_NATIVEIMPL_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1F346590)
+#define UNITYENGINE_NAPRENDERPIPELINE0_DRAWOVERLAYPASS_NATIVEIMPL__CTOR_OFFSET UNITYSDK_OFFSET(0x1F346510)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int DrawOverlayPass_NativeImpl_TypeDefinitionIndex = 5737;
+	inline static constexpr unsigned int DrawOverlayPass_NativeImpl_TypeDefinitionIndex = 5739;
 
 	class DrawOverlayPass_NativeImpl : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 	{

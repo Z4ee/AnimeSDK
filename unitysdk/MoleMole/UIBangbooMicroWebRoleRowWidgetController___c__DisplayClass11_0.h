@@ -1,0 +1,31 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+namespace MoleMole { class UIBangbooMicroWebRoleRowWidgetController; }
+namespace System { class Action; }
+
+#define MOLEMOLE_UIBANGBOOMICROWEBROLEROWWIDGETCONTROLLER___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19701A30)
+#define MOLEMOLE_UIBANGBOOMICROWEBROLEROWWIDGETCONTROLLER___C__DISPLAYCLASS11_0__PLAYUNLOCKANIMATION_B__0_OFFSET UNITYSDK_OFFSET(0x19701A40)
+
+namespace MoleMole
+{
+	inline static constexpr unsigned int UIBangbooMicroWebRoleRowWidgetController___c__DisplayClass11_0_TypeDefinitionIndex = 50476;
+
+	class UIBangbooMicroWebRoleRowWidgetController___c__DisplayClass11_0 : public ::System::Object
+	{
+	public:
+		::System::Action* onComplete; // 0x10
+		::MoleMole::UIBangbooMicroWebRoleRowWidgetController* __4__this; // 0x18
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGBOOMICROWEBROLEROWWIDGETCONTROLLER___C__DISPLAYCLASS11_0__CTOR_OFFSET))(this);
+		}
+
+		::System::Void _PlayUnlockAnimation_b__0()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGBOOMICROWEBROLEROWWIDGETCONTROLLER___C__DISPLAYCLASS11_0__PLAYUNLOCKANIMATION_B__0_OFFSET))(this);
+		}
+	};
+}

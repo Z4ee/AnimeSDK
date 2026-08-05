@@ -3,13 +3,13 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int EAvatarLightChangeType_TypeDefinitionIndex = 85778;
+	inline static constexpr unsigned int EAvatarLightChangeType_TypeDefinitionIndex = 64361;
 
 	enum class EAvatarLightChangeType : ::System::Int32
 	{
-		ByCurve = 3,
 		Instant = 0,
-		Lerp = 1,
 		Linear = 2,
+		ByCurve = 3,
+		Lerp = 1,
 	};
 }

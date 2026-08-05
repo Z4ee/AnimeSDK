@@ -4,11 +4,11 @@
 
 class Class_2_7ADAC692329D9ED8;
 
-#define MOLEMOLE_UIRABLEVELTASKROWWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15C06BF0)
+#define MOLEMOLE_UIRABLEVELTASKROWWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x160BF990)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRABLevelTaskRowWidgetController_Context_TypeDefinitionIndex = 68119;
+	inline static constexpr unsigned int UIRABLevelTaskRowWidgetController_Context_TypeDefinitionIndex = 72094;
 
 	class UIRABLevelTaskRowWidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{

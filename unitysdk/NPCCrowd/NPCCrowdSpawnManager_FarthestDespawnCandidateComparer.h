@@ -3,12 +3,12 @@
 #include "unitysdk/NPCCrowd/NPCCrowdSpawnManager_FarthestDespawnCandidate.h"
 #include "unitysdk/System/Object.h"
 
-#define NPCCROWD_NPCCROWDSPAWNMANAGER_FARTHESTDESPAWNCANDIDATECOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0xF9C2650)
-#define NPCCROWD_NPCCROWDSPAWNMANAGER_FARTHESTDESPAWNCANDIDATECOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0xF9C26F0)
+#define NPCCROWD_NPCCROWDSPAWNMANAGER_FARTHESTDESPAWNCANDIDATECOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0x17FB1AB0)
+#define NPCCROWD_NPCCROWDSPAWNMANAGER_FARTHESTDESPAWNCANDIDATECOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x17FB1B50)
 
 namespace NPCCrowd
 {
-	inline static constexpr unsigned int NPCCrowdSpawnManager_FarthestDespawnCandidateComparer_TypeDefinitionIndex = 52257;
+	inline static constexpr unsigned int NPCCrowdSpawnManager_FarthestDespawnCandidateComparer_TypeDefinitionIndex = 48987;
 
 	class NPCCrowdSpawnManager_FarthestDespawnCandidateComparer : public ::System::Object
 	{

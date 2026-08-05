@@ -7,21 +7,21 @@ namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 namespace MoleMole::Battle { class Entity; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCHANGEMONSTERAI_PROCESSCHANGEAI_OFFSET UNITYSDK_OFFSET(0x1510F8E0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCHANGEMONSTERAI_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1510F7C0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCHANGEMONSTERAI__CTOR_OFFSET UNITYSDK_OFFSET(0x1510FCD0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCHANGEMONSTERAI__REGISTERPORTS_B__3_0_OFFSET UNITYSDK_OFFSET(0x1510FD10)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCHANGEMONSTERAI_PROCESSCHANGEAI_OFFSET UNITYSDK_OFFSET(0x1B19AFD0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCHANGEMONSTERAI_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1B19AEB0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCHANGEMONSTERAI__CTOR_OFFSET UNITYSDK_OFFSET(0x1B19B3D0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCHANGEMONSTERAI__REGISTERPORTS_B__3_0_OFFSET UNITYSDK_OFFSET(0x1B19B410)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDChangeMonsterAI_TypeDefinitionIndex = 58434;
+	inline static constexpr unsigned int LDChangeMonsterAI_TypeDefinitionIndex = 87145;
 
 	class LDChangeMonsterAI : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
 		::FlowCanvas::ValueInput_1<::System::Int32>* inputAIID; // 0xA8
-		::FlowCanvas::FlowOutput* output; // 0xB0
-		::FlowCanvas::ValueInput_1<::MoleMole::Battle::Entity*>* inputEntity; // 0xB8
+		::FlowCanvas::ValueInput_1<::MoleMole::Battle::Entity*>* inputEntity; // 0xB0
+		::FlowCanvas::FlowOutput* output; // 0xB8
 
 		::System::Void _ctor()
 		{

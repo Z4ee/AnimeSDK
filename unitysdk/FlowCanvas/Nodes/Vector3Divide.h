@@ -3,12 +3,12 @@
 #include "unitysdk/FlowCanvas/Nodes/PureFunctionNode_3.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define FLOWCANVAS_NODES_VECTOR3DIVIDE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1D534B50)
-#define FLOWCANVAS_NODES_VECTOR3DIVIDE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D534B80)
+#define FLOWCANVAS_NODES_VECTOR3DIVIDE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1E22C6A0)
+#define FLOWCANVAS_NODES_VECTOR3DIVIDE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E22C6D0)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int Vector3Divide_TypeDefinitionIndex = 29440;
+	inline static constexpr unsigned int Vector3Divide_TypeDefinitionIndex = 30142;
 
 	class Vector3Divide : public ::FlowCanvas::Nodes::PureFunctionNode_3<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single>
 	{

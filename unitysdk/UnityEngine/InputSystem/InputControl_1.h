@@ -9,7 +9,7 @@ namespace UnityEngine::InputSystem { template <typename T> class InputProcessor_
 
 namespace UnityEngine::InputSystem
 {
-	inline static constexpr unsigned int InputControl_1_TypeDefinitionIndex = 31606;
+	inline static constexpr unsigned int InputControl_1_TypeDefinitionIndex = 32226;
 
 	template <typename TValue>
 	class InputControl_1 : public ::UnityEngine::InputSystem::InputControl

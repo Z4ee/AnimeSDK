@@ -4,8 +4,8 @@
 
 namespace System::Threading::Tasks { template <typename T> class Task_1; }
 
-#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCTASKCACHE_CREATEINT32TASKS_OFFSET UNITYSDK_OFFSET(0x1B9301A0)
-#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCTASKCACHE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B9302B0)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCTASKCACHE_CREATEINT32TASKS_OFFSET UNITYSDK_OFFSET(0x1CD4CF00)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCTASKCACHE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CD4D010)
 
 namespace System::Runtime::CompilerServices
 {
@@ -14,17 +14,17 @@ namespace System::Runtime::CompilerServices
 	class AsyncTaskCache : public ::System::Object
 	{
 	public:
-		static ::System::Threading::Tasks::Task_1<::System::Boolean>** StaticGet_TrueTask()
+		static ::System::Threading::Tasks::Task_1<::System::Boolean>** StaticGet_FalseTask()
 		{
 			return (::System::Threading::Tasks::Task_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(AsyncTaskCache_TypeDefinitionIndex)->GetStaticField(0xB50);
 		}
-		static ::System::Threading::Tasks::Task_1<::System::Boolean>** StaticGet_FalseTask()
-		{
-			return (::System::Threading::Tasks::Task_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(AsyncTaskCache_TypeDefinitionIndex)->GetStaticField(0xB58);
-		}
 		static ::Il2CppArray<::System::Threading::Tasks::Task_1<::System::Int32>*>** StaticGet_Int32Tasks()
 		{
-			return (::Il2CppArray<::System::Threading::Tasks::Task_1<::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(AsyncTaskCache_TypeDefinitionIndex)->GetStaticField(0xB60);
+			return (::Il2CppArray<::System::Threading::Tasks::Task_1<::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(AsyncTaskCache_TypeDefinitionIndex)->GetStaticField(0xB58);
+		}
+		static ::System::Threading::Tasks::Task_1<::System::Boolean>** StaticGet_TrueTask()
+		{
+			return (::System::Threading::Tasks::Task_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(AsyncTaskCache_TypeDefinitionIndex)->GetStaticField(0xB60);
 		}
 
 		static ::System::Void _cctor()

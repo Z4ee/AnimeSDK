@@ -3,20 +3,20 @@
 #include "unitysdk/MessagePack/MessagePackSecurity_CollisionResistantHasher_1.h"
 #include "unitysdk/System/Guid.h"
 
-#define MESSAGEPACK_MESSAGEPACKSECURITY_GUIDEQUALITYCOMPARER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1D802E80)
-#define MESSAGEPACK_MESSAGEPACKSECURITY_GUIDEQUALITYCOMPARER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D802F40)
-#define MESSAGEPACK_MESSAGEPACKSECURITY_GUIDEQUALITYCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D802EE0)
+#define MESSAGEPACK_MESSAGEPACKSECURITY_GUIDEQUALITYCOMPARER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1EBB94F0)
+#define MESSAGEPACK_MESSAGEPACKSECURITY_GUIDEQUALITYCOMPARER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EBB95B0)
+#define MESSAGEPACK_MESSAGEPACKSECURITY_GUIDEQUALITYCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EBB9550)
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int MessagePackSecurity_GuidEqualityComparer_TypeDefinitionIndex = 30413;
+	inline static constexpr unsigned int MessagePackSecurity_GuidEqualityComparer_TypeDefinitionIndex = 29831;
 
 	class MessagePackSecurity_GuidEqualityComparer : public ::MessagePack::MessagePackSecurity_CollisionResistantHasher_1<::System::Guid>
 	{
 	public:
 		static ::MessagePack::MessagePackSecurity_GuidEqualityComparer** StaticGet_Instance()
 		{
-			return (::MessagePack::MessagePackSecurity_GuidEqualityComparer**)Il2CppClass::FromTypeDefinitionIndex(MessagePackSecurity_GuidEqualityComparer_TypeDefinitionIndex)->GetStaticField(0x23DB0);
+			return (::MessagePack::MessagePackSecurity_GuidEqualityComparer**)Il2CppClass::FromTypeDefinitionIndex(MessagePackSecurity_GuidEqualityComparer_TypeDefinitionIndex)->GetStaticField(0x255F0);
 		}
 
 		::System::Void _ctor()

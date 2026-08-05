@@ -8,18 +8,18 @@ namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T> class IObserver_1; }
 namespace UnityEngine::InputSystem { class InputDevice; }
 
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTEVENTLISTENER_OBSERVERSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8B3B20)
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTEVENTLISTENER_OBSERVERSTATE___CTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0x1D8B3B80)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTEVENTLISTENER_OBSERVERSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC3F3F0)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTEVENTLISTENER_OBSERVERSTATE___CTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0x1EC3F450)
 
 namespace UnityEngine::InputSystem::LowLevel
 {
-	inline static constexpr unsigned int InputEventListener_ObserverState_TypeDefinitionIndex = 31914;
+	inline static constexpr unsigned int InputEventListener_ObserverState_TypeDefinitionIndex = 32534;
 
 	class InputEventListener_ObserverState : public ::System::Object
 	{
 	public:
-		::System::Action_2<::UnityEngine::InputSystem::LowLevel::InputEventPtr, ::UnityEngine::InputSystem::InputDevice*>* onEventDelegate; // 0x10
-		::UnityEngine::InputSystem::Utilities::InlinedArray_1<::System::IObserver_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>*> observers; // 0x18
+		::UnityEngine::InputSystem::Utilities::InlinedArray_1<::System::IObserver_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>*> observers; // 0x10
+		::System::Action_2<::UnityEngine::InputSystem::LowLevel::InputEventPtr, ::UnityEngine::InputSystem::InputDevice*>* onEventDelegate; // 0x28
 
 		::System::Void _ctor()
 		{

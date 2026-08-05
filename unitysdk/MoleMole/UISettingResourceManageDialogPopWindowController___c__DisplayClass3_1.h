@@ -6,12 +6,12 @@ class Class_1_EDE736B446DA1113;
 namespace MoleMole { class UISettingResourceManageDialogPopWindowController___c__DisplayClass3_0; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UISETTINGRESOURCEMANAGEDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS3_1__CTOR_OFFSET UNITYSDK_OFFSET(0x15C23B50)
-#define MOLEMOLE_UISETTINGRESOURCEMANAGEDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS3_1__ONUIINIT_B__4_OFFSET UNITYSDK_OFFSET(0x15C23B60)
+#define MOLEMOLE_UISETTINGRESOURCEMANAGEDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS3_1__CTOR_OFFSET UNITYSDK_OFFSET(0x160DC9B0)
+#define MOLEMOLE_UISETTINGRESOURCEMANAGEDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS3_1__ONUIINIT_B__4_OFFSET UNITYSDK_OFFSET(0x160DC9C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISettingResourceManageDialogPopWindowController___c__DisplayClass3_1_TypeDefinitionIndex = 45000;
+	inline static constexpr unsigned int UISettingResourceManageDialogPopWindowController___c__DisplayClass3_1_TypeDefinitionIndex = 73781;
 
 	class UISettingResourceManageDialogPopWindowController___c__DisplayClass3_1 : public ::System::Object
 	{

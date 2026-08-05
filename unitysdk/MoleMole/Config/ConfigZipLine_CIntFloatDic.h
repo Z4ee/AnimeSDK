@@ -5,12 +5,12 @@
 
 namespace MoleMole::Config { class ConfigZipLine_CIntFloatEntry; }
 
-#define MOLEMOLE_CONFIG_CONFIGZIPLINE_CINTFLOATDIC_FINDBYRANGE_OFFSET UNITYSDK_OFFSET(0x10D0D610)
-#define MOLEMOLE_CONFIG_CONFIGZIPLINE_CINTFLOATDIC__CTOR_OFFSET UNITYSDK_OFFSET(0x10D0D9E0)
+#define MOLEMOLE_CONFIG_CONFIGZIPLINE_CINTFLOATDIC_FINDBYRANGE_OFFSET UNITYSDK_OFFSET(0x1170F570)
+#define MOLEMOLE_CONFIG_CONFIGZIPLINE_CINTFLOATDIC__CTOR_OFFSET UNITYSDK_OFFSET(0x1170F930)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigZipLine_CIntFloatDic_TypeDefinitionIndex = 51229;
+	inline static constexpr unsigned int ConfigZipLine_CIntFloatDic_TypeDefinitionIndex = 53011;
 
 	class ConfigZipLine_CIntFloatDic : public ::MoleMole::DataStructures::Lists::EasySerializeDictionary_3<::System::Int32, ::System::Single, ::MoleMole::Config::ConfigZipLine_CIntFloatEntry*>
 	{

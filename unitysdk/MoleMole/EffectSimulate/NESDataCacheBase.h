@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_EFFECTSIMULATE_NESDATACACHEBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x18B13F40)
+#define MOLEMOLE_EFFECTSIMULATE_NESDATACACHEBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x118A8600)
 
 namespace MoleMole::EffectSimulate
 {
-	inline static constexpr unsigned int NESDataCacheBase_TypeDefinitionIndex = 63583;
+	inline static constexpr unsigned int NESDataCacheBase_TypeDefinitionIndex = 79039;
 
 	class NESDataCacheBase : public ::System::Object
 	{

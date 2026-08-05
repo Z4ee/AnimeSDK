@@ -4,19 +4,19 @@
 
 namespace MoleMole { class UIHackInteractSkillBtnChildWindowController; }
 
-#define MOLEMOLE_UIHACKINTERACTSKILLBTNCHILDWINDOWCONTROLLER___C__DISPLAYCLASS14_0__CLOSECOMMONBUTTON_B__0_OFFSET UNITYSDK_OFFSET(0x16AA9B50)
-#define MOLEMOLE_UIHACKINTERACTSKILLBTNCHILDWINDOWCONTROLLER___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16AA9B40)
+#define MOLEMOLE_UIHACKINTERACTSKILLBTNCHILDWINDOWCONTROLLER___C__DISPLAYCLASS14_0__CLOSECOMMONBUTTON_B__0_OFFSET UNITYSDK_OFFSET(0x18820130)
+#define MOLEMOLE_UIHACKINTERACTSKILLBTNCHILDWINDOWCONTROLLER___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18820120)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHackInteractSkillBtnChildWindowController___c__DisplayClass14_0_TypeDefinitionIndex = 77611;
+	inline static constexpr unsigned int UIHackInteractSkillBtnChildWindowController___c__DisplayClass14_0_TypeDefinitionIndex = 75934;
 
 	class UIHackInteractSkillBtnChildWindowController___c__DisplayClass14_0 : public ::System::Object
 	{
 	public:
 		::MoleMole::UIHackInteractSkillBtnChildWindowController* __4__this; // 0x10
-		::System::Boolean checkCache; // 0x18
-		::System::Boolean ignoreAnim; // 0x19
+		::System::Boolean ignoreAnim; // 0x18
+		::System::Boolean checkCache; // 0x19
 
 		::System::Void _ctor()
 		{

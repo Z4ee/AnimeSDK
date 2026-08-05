@@ -15,7 +15,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace Foundation
 {
-	inline static constexpr unsigned int KeyBasedBehaviorManager_1_TypeDefinitionIndex = 8736;
+	inline static constexpr unsigned int KeyBasedBehaviorManager_1_TypeDefinitionIndex = 8873;
 
 	template <typename TData>
 	class KeyBasedBehaviorManager_1 : public ::System::Object

@@ -7,18 +7,18 @@ namespace System { class Action; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define CLASS_1_1BF1AD02EA908993_METHOD_1_0BE1846AC20D43BE_OFFSET UNITYSDK_OFFSET(0x1A0BCB90)
-#define CLASS_1_1BF1AD02EA908993_METHOD_1_A8AE4A9A45E37F95_OFFSET UNITYSDK_OFFSET(0x1A0BCDA0)
-#define CLASS_1_1BF1AD02EA908993_METHOD_1_EACE6053B8DF1FA2_OFFSET UNITYSDK_OFFSET(0x1A0BCE90)
+#define CLASS_1_1BF1AD02EA908993_METHOD_1_0BE1846AC20D43BE_OFFSET UNITYSDK_OFFSET(0x16792230)
+#define CLASS_1_1BF1AD02EA908993_METHOD_1_A8AE4A9A45E37F95_OFFSET UNITYSDK_OFFSET(0x16792450)
+#define CLASS_1_1BF1AD02EA908993_METHOD_1_EACE6053B8DF1FA2_OFFSET UNITYSDK_OFFSET(0x16792540)
 
-inline static constexpr unsigned int Class_1_1BF1AD02EA908993_TypeDefinitionIndex = 69782;
+inline static constexpr unsigned int Class_1_1BF1AD02EA908993_TypeDefinitionIndex = 79301;
 
 class Class_1_1BF1AD02EA908993 : public ::System::Object
 {
 public:
 	static ::MoleMole::Config::ConfigSwitchTeamActivity** StaticGet_Field_1_0()
 	{
-		return (::MoleMole::Config::ConfigSwitchTeamActivity**)Il2CppClass::FromTypeDefinitionIndex(Class_1_1BF1AD02EA908993_TypeDefinitionIndex)->GetStaticField(0x3AF40);
+		return (::MoleMole::Config::ConfigSwitchTeamActivity**)Il2CppClass::FromTypeDefinitionIndex(Class_1_1BF1AD02EA908993_TypeDefinitionIndex)->GetStaticField(0x3C620);
 	}
 
 	static ::System::Void Method_1_0BE1846AC20D43BE(::System::Boolean a1, ::System::Action* a2)

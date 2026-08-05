@@ -5,11 +5,11 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_SECTR_SECTORBINDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x141A45C0)
+#define MOLEMOLE_SECTR_SECTORBINDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x10823F90)
 
 namespace MoleMole::SECTR
 {
-	inline static constexpr unsigned int SectorBinData_TypeDefinitionIndex = 60203;
+	inline static constexpr unsigned int SectorBinData_TypeDefinitionIndex = 60687;
 
 	class SectorBinData : public ::Foundation::MihoyoSerializedScriptableObject
 	{

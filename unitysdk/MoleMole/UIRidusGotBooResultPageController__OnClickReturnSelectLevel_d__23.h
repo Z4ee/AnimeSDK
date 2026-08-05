@@ -6,17 +6,17 @@
 namespace MoleMole { class UIRidusGotBooResultPageController; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define MOLEMOLE_UIRIDUSGOTBOORESULTPAGECONTROLLER__ONCLICKRETURNSELECTLEVEL_D__23_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x844100)
-#define MOLEMOLE_UIRIDUSGOTBOORESULTPAGECONTROLLER__ONCLICKRETURNSELECTLEVEL_D__23_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x5B0AE0)
+#define MOLEMOLE_UIRIDUSGOTBOORESULTPAGECONTROLLER__ONCLICKRETURNSELECTLEVEL_D__23_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x86B560)
+#define MOLEMOLE_UIRIDUSGOTBOORESULTPAGECONTROLLER__ONCLICKRETURNSELECTLEVEL_D__23_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x52B600)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRidusGotBooResultPageController__OnClickReturnSelectLevel_d__23_TypeDefinitionIndex = 46216;
+	inline static constexpr unsigned int UIRidusGotBooResultPageController__OnClickReturnSelectLevel_d__23_TypeDefinitionIndex = 67151;
 
 	struct alignas(8) UIRidusGotBooResultPageController__OnClickReturnSelectLevel_d__23
 	{
-		::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder; // 0x10
-		::MoleMole::UIRidusGotBooResultPageController* __4__this; // 0x30
+		::MoleMole::UIRidusGotBooResultPageController* __4__this; // 0x10
+		::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder; // 0x18
 		::System::Int32 __1__state; // 0x38
 
 		::System::Void MoveNext()

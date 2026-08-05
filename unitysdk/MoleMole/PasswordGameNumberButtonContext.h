@@ -5,18 +5,18 @@
 
 class Class_3_E6A377784A0B8569;
 
-#define MOLEMOLE_PASSWORDGAMENUMBERBUTTONCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x19173390)
+#define MOLEMOLE_PASSWORDGAMENUMBERBUTTONCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x11907E00)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int PasswordGameNumberButtonContext_TypeDefinitionIndex = 46646;
+	inline static constexpr unsigned int PasswordGameNumberButtonContext_TypeDefinitionIndex = 67025;
 
 	class PasswordGameNumberButtonContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_3_E6A377784A0B8569* UIModel; // 0x28
-		::Foundation::AssetPath NumImageKey; // 0x30
-		::Foundation::AssetPath NumTextImageKey; // 0x40
+		::Foundation::AssetPath NumImageKey; // 0x28
+		::Foundation::AssetPath NumTextImageKey; // 0x38
+		::Class_3_E6A377784A0B8569* UIModel; // 0x48
 		::System::Char Input; // 0x50
 		::System::Boolean IsLocked; // 0x52
 

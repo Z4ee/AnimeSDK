@@ -6,7 +6,7 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int LevelGlobalAIScriptConfigData_AIGroupTagWeight_TypeDefinitionIndex = 54605;
+	inline static constexpr unsigned int LevelGlobalAIScriptConfigData_AIGroupTagWeight_TypeDefinitionIndex = 41346;
 
 	struct alignas(8) LevelGlobalAIScriptConfigData_AIGroupTagWeight
 	{

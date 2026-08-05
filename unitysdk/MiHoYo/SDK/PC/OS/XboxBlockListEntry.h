@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_XBOXBLOCKLISTENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1B337E80)
+#define MIHOYO_SDK_PC_OS_XBOXBLOCKLISTENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1C7D3A70)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int XboxBlockListEntry_TypeDefinitionIndex = 20412;
+	inline static constexpr unsigned int XboxBlockListEntry_TypeDefinitionIndex = 20759;
 
 	class XboxBlockListEntry : public ::System::Object
 	{

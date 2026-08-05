@@ -4,19 +4,19 @@
 #include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 
-#define FOUNDATION_IDGENERATOR_GETINTERNALCOUNTER_OFFSET UNITYSDK_OFFSET(0x1CFFE030)
-#define FOUNDATION_IDGENERATOR_INVOKE_OFFSET UNITYSDK_OFFSET(0x1CFFE1B0)
+#define FOUNDATION_IDGENERATOR_GETINTERNALCOUNTER_OFFSET UNITYSDK_OFFSET(0x1E3B7FE0)
+#define FOUNDATION_IDGENERATOR_INVOKE_OFFSET UNITYSDK_OFFSET(0x1E3B8160)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int IDGenerator_TypeDefinitionIndex = 8469;
+	inline static constexpr unsigned int IDGenerator_TypeDefinitionIndex = 8498;
 
 	class IDGenerator : public ::System::Object
 	{
 	public:
 		static ::System::Int32* StaticGet__threadID()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(IDGenerator_TypeDefinitionIndex)->GetStaticField(0x3D30);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(IDGenerator_TypeDefinitionIndex)->GetStaticField(0x3D50);
 		}
 		static ::System::Nullable_1<::Foundation::IDGenerator_Impl>* StaticGet__impl()
 		{

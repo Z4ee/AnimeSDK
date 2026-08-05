@@ -5,24 +5,24 @@
 namespace System { class EventArgs; }
 namespace System { class EventHandler; }
 
-#define FLATBUFFERS_NATIVEARRAYALLOCATOR___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E215F60)
-#define FLATBUFFERS_NATIVEARRAYALLOCATOR___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1E215FA0)
-#define FLATBUFFERS_NATIVEARRAYALLOCATOR___C___CTOR_B__5_0_OFFSET UNITYSDK_OFFSET(0x1E215FB0)
+#define FLATBUFFERS_NATIVEARRAYALLOCATOR___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F62A390)
+#define FLATBUFFERS_NATIVEARRAYALLOCATOR___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1F62A3D0)
+#define FLATBUFFERS_NATIVEARRAYALLOCATOR___C___CTOR_B__5_0_OFFSET UNITYSDK_OFFSET(0x1F62A3E0)
 
 namespace FlatBuffers
 {
-	inline static constexpr unsigned int NativeArrayAllocator___c_TypeDefinitionIndex = 6722;
+	inline static constexpr unsigned int NativeArrayAllocator___c_TypeDefinitionIndex = 6726;
 
 	class NativeArrayAllocator___c : public ::System::Object
 	{
 	public:
-		static ::FlatBuffers::NativeArrayAllocator___c** StaticGet___9()
-		{
-			return (::FlatBuffers::NativeArrayAllocator___c**)Il2CppClass::FromTypeDefinitionIndex(NativeArrayAllocator___c_TypeDefinitionIndex)->GetStaticField(0x5BA0);
-		}
 		static ::System::EventHandler** StaticGet___9__5_0()
 		{
-			return (::System::EventHandler**)Il2CppClass::FromTypeDefinitionIndex(NativeArrayAllocator___c_TypeDefinitionIndex)->GetStaticField(0x5BA8);
+			return (::System::EventHandler**)Il2CppClass::FromTypeDefinitionIndex(NativeArrayAllocator___c_TypeDefinitionIndex)->GetStaticField(0x5BB0);
+		}
+		static ::FlatBuffers::NativeArrayAllocator___c** StaticGet___9()
+		{
+			return (::FlatBuffers::NativeArrayAllocator___c**)Il2CppClass::FromTypeDefinitionIndex(NativeArrayAllocator___c_TypeDefinitionIndex)->GetStaticField(0x5BB8);
 		}
 
 		static ::System::Void _cctor()

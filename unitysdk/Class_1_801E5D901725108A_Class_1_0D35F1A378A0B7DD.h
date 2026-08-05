@@ -8,13 +8,13 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 template <typename T1, typename T2, typename T3> class Class_1_801E5D901725108A;
 
-inline static constexpr unsigned int Class_1_801E5D901725108A_Class_1_0D35F1A378A0B7DD_TypeDefinitionIndex = 28805;
+inline static constexpr unsigned int Class_1_801E5D901725108A_Class_1_0D35F1A378A0B7DD_TypeDefinitionIndex = 29636;
 
 template <typename TKey, typename TSubKey, typename TValue>
 class Class_1_801E5D901725108A_Class_1_0D35F1A378A0B7DD : public ::System::Object
 {
 public:
 	::Class_1_801E5D901725108A<TKey, TSubKey, TValue>* Field_1_0; // 0x0
-	::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TKey, ::System::Collections::Generic::Dictionary_2<TSubKey, TValue>*>>* Field_1_1; // 0x0
-	::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TSubKey, TValue>>* Field_1_2; // 0x0
+	::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TKey, ::System::Collections::Generic::Dictionary_2<TSubKey, TValue>*>>* Field_1_7; // 0x0
+	::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TSubKey, TValue>>* Field_1_6; // 0x0
 };

@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class Sprite; }
 
-#define UNITYENGINE_TIMELINE_IMAGEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1E5A9220)
+#define UNITYENGINE_TIMELINE_IMAGEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1F990650)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int ImageBehaviour_TypeDefinitionIndex = 32384;
+	inline static constexpr unsigned int ImageBehaviour_TypeDefinitionIndex = 33015;
 
 	class ImageBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{

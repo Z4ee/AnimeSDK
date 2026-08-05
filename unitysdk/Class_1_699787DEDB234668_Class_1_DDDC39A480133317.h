@@ -7,18 +7,18 @@ class Class_1_699787DEDB234668;
 namespace System { class Action; }
 namespace UnityEngine { class GameObject; }
 
-#define CLASS_1_699787DEDB234668_CLASS_1_DDDC39A480133317_METHOD_1_703283F983C624F4_OFFSET UNITYSDK_OFFSET(0xD355020)
-#define CLASS_1_699787DEDB234668_CLASS_1_DDDC39A480133317__CTOR_OFFSET UNITYSDK_OFFSET(0xD355010)
+#define CLASS_1_699787DEDB234668_CLASS_1_DDDC39A480133317_METHOD_1_703283F983C624F4_OFFSET UNITYSDK_OFFSET(0x174F52F0)
+#define CLASS_1_699787DEDB234668_CLASS_1_DDDC39A480133317__CTOR_OFFSET UNITYSDK_OFFSET(0x174F52E0)
 
-inline static constexpr unsigned int Class_1_699787DEDB234668_Class_1_DDDC39A480133317_TypeDefinitionIndex = 49562;
+inline static constexpr unsigned int Class_1_699787DEDB234668_Class_1_DDDC39A480133317_TypeDefinitionIndex = 47033;
 
 class Class_1_699787DEDB234668_Class_1_DDDC39A480133317 : public ::System::Object
 {
 public:
-	::System::Action* Field_1_2; // 0x10
-	::Class_1_699787DEDB234668* Field_1_0; // 0x18
-	::System::Action* Field_1_1; // 0x20
-	::System::Int32 Field_1_3; // 0x28
+	::System::Action* Field_1_0; // 0x10
+	::System::Action* Field_1_1; // 0x18
+	::Class_1_699787DEDB234668* Field_1_2; // 0x20
+	::System::Int32 Field_1_7; // 0x28
 
 	::System::Void _ctor()
 	{

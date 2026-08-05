@@ -6,13 +6,13 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Xml { class XmlDocument; }
 
-#define SYSTEM_DATA_XMLIGNORENAMESPACEREADER_MOVETOFIRSTATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1E1862E0)
-#define SYSTEM_DATA_XMLIGNORENAMESPACEREADER_MOVETONEXTATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1E186470)
-#define SYSTEM_DATA_XMLIGNORENAMESPACEREADER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E186270)
+#define SYSTEM_DATA_XMLIGNORENAMESPACEREADER_MOVETOFIRSTATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1F5BDBE0)
+#define SYSTEM_DATA_XMLIGNORENAMESPACEREADER_MOVETONEXTATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1F5BDD70)
+#define SYSTEM_DATA_XMLIGNORENAMESPACEREADER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F5BDB70)
 
 namespace System::Data
 {
-	inline static constexpr unsigned int XmlIgnoreNamespaceReader_TypeDefinitionIndex = 38694;
+	inline static constexpr unsigned int XmlIgnoreNamespaceReader_TypeDefinitionIndex = 39355;
 
 	class XmlIgnoreNamespaceReader : public ::System::Xml::XmlNodeReader
 	{

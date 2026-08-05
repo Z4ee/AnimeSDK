@@ -6,21 +6,21 @@ class DynamicSceneLightChainProxy;
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace UnityEngine { class Light; }
 
-#define SCENELIGHTINGCHAIN_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1D3CFA60)
-#define SCENELIGHTINGCHAIN_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1D3CF710)
-#define SCENELIGHTINGCHAIN_REGISTERDYNAMICSCENELIGHT_OFFSET UNITYSDK_OFFSET(0x1D3CF580)
-#define SCENELIGHTINGCHAIN_UNREGISTERDYNAMICSCENELIGHT_OFFSET UNITYSDK_OFFSET(0x1D3CF660)
-#define SCENELIGHTINGCHAIN__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D3CFE00)
-#define SCENELIGHTINGCHAIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3CFDB0)
+#define SCENELIGHTINGCHAIN_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1E78C130)
+#define SCENELIGHTINGCHAIN_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1E78BDE0)
+#define SCENELIGHTINGCHAIN_REGISTERDYNAMICSCENELIGHT_OFFSET UNITYSDK_OFFSET(0x1E78BC50)
+#define SCENELIGHTINGCHAIN_UNREGISTERDYNAMICSCENELIGHT_OFFSET UNITYSDK_OFFSET(0x1E78BD30)
+#define SCENELIGHTINGCHAIN__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E78C4D0)
+#define SCENELIGHTINGCHAIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1E78C480)
 
-inline static constexpr unsigned int SceneLightingChain_TypeDefinitionIndex = 26276;
+inline static constexpr unsigned int SceneLightingChain_TypeDefinitionIndex = 27652;
 
 class SceneLightingChain : public ::UnityEngine::MonoBehaviour
 {
 public:
 	static ::System::Collections::Generic::HashSet_1<::DynamicSceneLightChainProxy*>** StaticGet_DynamicElementsOnTheLightingChain()
 	{
-		return (::System::Collections::Generic::HashSet_1<::DynamicSceneLightChainProxy*>**)Il2CppClass::FromTypeDefinitionIndex(SceneLightingChain_TypeDefinitionIndex)->GetStaticField(0x21240);
+		return (::System::Collections::Generic::HashSet_1<::DynamicSceneLightChainProxy*>**)Il2CppClass::FromTypeDefinitionIndex(SceneLightingChain_TypeDefinitionIndex)->GetStaticField(0x22AC0);
 	}
 	::Il2CppArray<::UnityEngine::Light*>* ElementsOnTheLightingChain; // 0x18
 

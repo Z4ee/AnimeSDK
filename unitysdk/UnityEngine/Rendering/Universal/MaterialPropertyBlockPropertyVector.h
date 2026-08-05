@@ -3,11 +3,11 @@
 #include "unitysdk/UnityEngine/Rendering/Universal/MaterialPropertyBlockProperty_1.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_MATERIALPROPERTYBLOCKPROPERTYVECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDC1FA0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_MATERIALPROPERTYBLOCKPROPERTYVECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1CEFD700)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int MaterialPropertyBlockPropertyVector_TypeDefinitionIndex = 26843;
+	inline static constexpr unsigned int MaterialPropertyBlockPropertyVector_TypeDefinitionIndex = 27850;
 
 	class MaterialPropertyBlockPropertyVector : public ::UnityEngine::Rendering::Universal::MaterialPropertyBlockProperty_1<::UnityEngine::Vector4>
 	{

@@ -3,11 +3,11 @@
 #include "unitysdk/Enum_3_C6855DE1E2953473.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UISETTINGRESOURCEMANAGEPAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x14C8C9A0)
+#define MOLEMOLE_UISETTINGRESOURCEMANAGEPAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16760A40)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISettingResourceManagePageContext_TypeDefinitionIndex = 42949;
+	inline static constexpr unsigned int UISettingResourceManagePageContext_TypeDefinitionIndex = 55220;
 
 	class UISettingResourceManagePageContext : public ::MoleMole::UIControllerContextBase
 	{

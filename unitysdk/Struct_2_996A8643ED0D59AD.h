@@ -4,55 +4,55 @@
 #include "unitysdk/MoleMole/Photo/AnimationBlendPosePerBoneFlag.h"
 #include "unitysdk/Struct_2_ACD0EF80A5330786.h"
 #include "unitysdk/Struct_2_D0A3658446FCD9A2.h"
-#include "unitysdk/Struct_2_F780BA94AF5E7E37.h"
+#include "unitysdk/Struct_2_F780BA94AF5E7E37_1.h"
 #include "unitysdk/System/ValueType.h"
 
-#define STRUCT_2_996A8643ED0D59AD_METHOD_2_01F38F43D3BC4B6A_OFFSET UNITYSDK_OFFSET(0x144FED00)
-#define STRUCT_2_996A8643ED0D59AD_METHOD_2_1F8314262457963A_OFFSET UNITYSDK_OFFSET(0x7D5AC0)
-#define STRUCT_2_996A8643ED0D59AD_METHOD_2_222592086BA83928_OFFSET UNITYSDK_OFFSET(0x7D5AB0)
-#define STRUCT_2_996A8643ED0D59AD_METHOD_2_5489F9CD0AA85DE6_OFFSET UNITYSDK_OFFSET(0x7D5A40)
-#define STRUCT_2_996A8643ED0D59AD_METHOD_2_AA8855F9297B902F_1_OFFSET UNITYSDK_OFFSET(0x7D5BF0)
-#define STRUCT_2_996A8643ED0D59AD_METHOD_2_AA8855F9297B902F_OFFSET UNITYSDK_OFFSET(0x7D5AE0)
-#define STRUCT_2_996A8643ED0D59AD_METHOD_2_BFBB01A221943146_1_OFFSET UNITYSDK_OFFSET(0x7D5B50)
-#define STRUCT_2_996A8643ED0D59AD_METHOD_2_BFBB01A221943146_2_OFFSET UNITYSDK_OFFSET(0x7D5BA0)
-#define STRUCT_2_996A8643ED0D59AD_METHOD_2_BFBB01A221943146_3_OFFSET UNITYSDK_OFFSET(0x7D5C10)
-#define STRUCT_2_996A8643ED0D59AD_METHOD_2_BFBB01A221943146_4_OFFSET UNITYSDK_OFFSET(0x7D5C60)
-#define STRUCT_2_996A8643ED0D59AD_METHOD_2_BFBB01A221943146_5_OFFSET UNITYSDK_OFFSET(0x7D5CB0)
-#define STRUCT_2_996A8643ED0D59AD_METHOD_2_BFBB01A221943146_6_OFFSET UNITYSDK_OFFSET(0x7D5D00)
-#define STRUCT_2_996A8643ED0D59AD_METHOD_2_BFBB01A221943146_7_OFFSET UNITYSDK_OFFSET(0x7D5D50)
-#define STRUCT_2_996A8643ED0D59AD_METHOD_2_BFBB01A221943146_OFFSET UNITYSDK_OFFSET(0x7D5B00)
-#define STRUCT_2_996A8643ED0D59AD_METHOD_2_C3B21C74C45D6F86_OFFSET UNITYSDK_OFFSET(0x7D5A70)
-#define STRUCT_2_996A8643ED0D59AD_PROCESSANIMATION_OFFSET UNITYSDK_OFFSET(0x7D59C0)
-#define STRUCT_2_996A8643ED0D59AD_PROCESSROOTMOTION_OFFSET UNITYSDK_OFFSET(0x7D5A00)
-#define STRUCT_2_996A8643ED0D59AD__CCTOR_OFFSET UNITYSDK_OFFSET(0x144FEA80)
-#define STRUCT_2_996A8643ED0D59AD__CTOR_OFFSET UNITYSDK_OFFSET(0x7D5950)
+#define STRUCT_2_996A8643ED0D59AD_METHOD_2_01F38F43D3BC4B6A_OFFSET UNITYSDK_OFFSET(0x15607E50)
+#define STRUCT_2_996A8643ED0D59AD_METHOD_2_1F8314262457963A_OFFSET UNITYSDK_OFFSET(0x8204A0)
+#define STRUCT_2_996A8643ED0D59AD_METHOD_2_222592086BA83928_OFFSET UNITYSDK_OFFSET(0x820490)
+#define STRUCT_2_996A8643ED0D59AD_METHOD_2_5489F9CD0AA85DE6_OFFSET UNITYSDK_OFFSET(0x820420)
+#define STRUCT_2_996A8643ED0D59AD_METHOD_2_AA8855F9297B902F_1_OFFSET UNITYSDK_OFFSET(0x820710)
+#define STRUCT_2_996A8643ED0D59AD_METHOD_2_AA8855F9297B902F_OFFSET UNITYSDK_OFFSET(0x820650)
+#define STRUCT_2_996A8643ED0D59AD_METHOD_2_BFBB01A221943146_1_OFFSET UNITYSDK_OFFSET(0x820510)
+#define STRUCT_2_996A8643ED0D59AD_METHOD_2_BFBB01A221943146_2_OFFSET UNITYSDK_OFFSET(0x820560)
+#define STRUCT_2_996A8643ED0D59AD_METHOD_2_BFBB01A221943146_3_OFFSET UNITYSDK_OFFSET(0x8205B0)
+#define STRUCT_2_996A8643ED0D59AD_METHOD_2_BFBB01A221943146_4_OFFSET UNITYSDK_OFFSET(0x820600)
+#define STRUCT_2_996A8643ED0D59AD_METHOD_2_BFBB01A221943146_5_OFFSET UNITYSDK_OFFSET(0x820670)
+#define STRUCT_2_996A8643ED0D59AD_METHOD_2_BFBB01A221943146_6_OFFSET UNITYSDK_OFFSET(0x8206C0)
+#define STRUCT_2_996A8643ED0D59AD_METHOD_2_BFBB01A221943146_7_OFFSET UNITYSDK_OFFSET(0x820730)
+#define STRUCT_2_996A8643ED0D59AD_METHOD_2_BFBB01A221943146_OFFSET UNITYSDK_OFFSET(0x8204C0)
+#define STRUCT_2_996A8643ED0D59AD_METHOD_2_C3B21C74C45D6F86_OFFSET UNITYSDK_OFFSET(0x820450)
+#define STRUCT_2_996A8643ED0D59AD_PROCESSANIMATION_OFFSET UNITYSDK_OFFSET(0x8203A0)
+#define STRUCT_2_996A8643ED0D59AD_PROCESSROOTMOTION_OFFSET UNITYSDK_OFFSET(0x8203E0)
+#define STRUCT_2_996A8643ED0D59AD__CCTOR_OFFSET UNITYSDK_OFFSET(0x15606F60)
+#define STRUCT_2_996A8643ED0D59AD__CTOR_OFFSET UNITYSDK_OFFSET(0x820330)
 
-inline static constexpr unsigned int Struct_2_996A8643ED0D59AD_TypeDefinitionIndex = 47869;
+inline static constexpr unsigned int Struct_2_996A8643ED0D59AD_TypeDefinitionIndex = 58956;
 
 struct alignas(8) Struct_2_996A8643ED0D59AD
 {
-	static ::Struct_2_996A8643ED0D59AD* StaticGet_Field_2_14()
+	static ::Struct_2_996A8643ED0D59AD* StaticGet_Field_2_13()
 	{
-		return (::Struct_2_996A8643ED0D59AD*)Il2CppClass::FromTypeDefinitionIndex(Struct_2_996A8643ED0D59AD_TypeDefinitionIndex)->GetStaticField(0xA210);
+		return (::Struct_2_996A8643ED0D59AD*)Il2CppClass::FromTypeDefinitionIndex(Struct_2_996A8643ED0D59AD_TypeDefinitionIndex)->GetStaticField(0x11890);
 	}
-	// static const ::System::Int32 Field_2_0 = 0x0; // 0x0
-	// static const ::System::Int32 Field_2_1 = 0x1; // 0x0
-	// static const ::System::Int32 Field_2_2 = 0x2; // 0x0
-	// static const ::System::Int32 Field_2_3 = 0x3; // 0x0
-	// static const ::System::Int32 Field_2_4 = 0x4; // 0x0
-	// static const ::System::Int32 Field_2_5 = 0x5; // 0x0
-	// static const ::System::Int32 Field_2_6 = 0x6; // 0x0
-	// static const ::System::Int32 Field_2_7 = 0x7; // 0x0
-	// static const ::System::Int32 Field_2_8 = 0x8; // 0x0
-	::System::Int32 Field_2_9; // 0x10
-	::Foundation::ReadOnlyNativeVariableArray_1<::Struct_2_F780BA94AF5E7E37> Field_2_10; // 0x18
-	::Foundation::ReadOnlyNativeVariableArray_1<::Struct_2_D0A3658446FCD9A2> Field_2_11; // 0x28
-	::MoleMole::Photo::AnimationBlendPosePerBoneFlag Field_2_12; // 0x38
-	::Struct_2_ACD0EF80A5330786 Field_2_13; // 0x40
+	// static const ::System::Int32 Field_2_3 = 0x0; // 0x0
+	// static const ::System::Int32 Field_2_2 = 0x1; // 0x0
+	// static const ::System::Int32 Field_2_1 = 0x2; // 0x0
+	// static const ::System::Int32 Field_2_0 = 0x3; // 0x0
+	// static const ::System::Int32 Field_2_7 = 0x4; // 0x0
+	// static const ::System::Int32 Field_2_6 = 0x5; // 0x0
+	// static const ::System::Int32 Field_2_5 = 0x6; // 0x0
+	// static const ::System::Int32 Field_2_4 = 0x7; // 0x0
+	// static const ::System::Int32 Field_2_11 = 0x8; // 0x0
+	::System::Int32 Field_2_10; // 0x10
+	::Foundation::ReadOnlyNativeVariableArray_1<::Struct_2_F780BA94AF5E7E37_1> Field_2_9; // 0x18
+	::Foundation::ReadOnlyNativeVariableArray_1<::Struct_2_D0A3658446FCD9A2> Field_2_8; // 0x28
+	::MoleMole::Photo::AnimationBlendPosePerBoneFlag Field_2_15; // 0x38
+	::Struct_2_ACD0EF80A5330786 Field_2_14; // 0x40
 
-	::System::Void _ctor(::Struct_2_ACD0EF80A5330786 a1, ::Foundation::ReadOnlyNativeVariableArray_1<::Struct_2_F780BA94AF5E7E37> a2, ::Foundation::ReadOnlyNativeVariableArray_1<::Struct_2_D0A3658446FCD9A2> a3, ::MoleMole::Photo::AnimationBlendPosePerBoneFlag a4)
+	::System::Void _ctor(::Struct_2_ACD0EF80A5330786 a1, ::Foundation::ReadOnlyNativeVariableArray_1<::Struct_2_F780BA94AF5E7E37_1> a2, ::Foundation::ReadOnlyNativeVariableArray_1<::Struct_2_D0A3658446FCD9A2> a3, ::MoleMole::Photo::AnimationBlendPosePerBoneFlag a4)
 	{
-		return ((::System::Void(*)(::PVOID, ::Struct_2_ACD0EF80A5330786, ::Foundation::ReadOnlyNativeVariableArray_1<::Struct_2_F780BA94AF5E7E37>, ::Foundation::ReadOnlyNativeVariableArray_1<::Struct_2_D0A3658446FCD9A2>, ::MoleMole::Photo::AnimationBlendPosePerBoneFlag))((::PBYTE)hIl2Cpp + STRUCT_2_996A8643ED0D59AD__CTOR_OFFSET))(this, a1, a2, a3, a4);
+		return ((::System::Void(*)(::PVOID, ::Struct_2_ACD0EF80A5330786, ::Foundation::ReadOnlyNativeVariableArray_1<::Struct_2_F780BA94AF5E7E37_1>, ::Foundation::ReadOnlyNativeVariableArray_1<::Struct_2_D0A3658446FCD9A2>, ::MoleMole::Photo::AnimationBlendPosePerBoneFlag))((::PBYTE)hIl2Cpp + STRUCT_2_996A8643ED0D59AD__CTOR_OFFSET))(this, a1, a2, a3, a4);
 	}
 
 	static ::System::Void _cctor()
@@ -99,9 +99,58 @@ struct alignas(8) Struct_2_996A8643ED0D59AD
 	}
 
 	/*
-	::Foundation::NativeVariableArray_1<::Struct_2_D0A3658446FCD9A2> Method_2_AA8855F9297B902F()
+	::Struct_2_9D8D4EA8E3D44652 Method_2_BFBB01A221943146(::UnityEngine::Animations::AnimationStream a1)
 	{
-		return ((::Foundation::NativeVariableArray_1<::Struct_2_D0A3658446FCD9A2>(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_996A8643ED0D59AD_METHOD_2_AA8855F9297B902F_OFFSET))(this);
+		return ((::Struct_2_9D8D4EA8E3D44652(*)(::PVOID, ::UnityEngine::Animations::AnimationStream))((::PBYTE)hIl2Cpp + STRUCT_2_996A8643ED0D59AD_METHOD_2_BFBB01A221943146_OFFSET))(this, a1);
+	}
+	*/
+
+	/*
+	::Struct_2_2FC66E3156F6912B Method_2_BFBB01A221943146_1(::UnityEngine::Animations::AnimationStream a1)
+	{
+		return ((::Struct_2_2FC66E3156F6912B(*)(::PVOID, ::UnityEngine::Animations::AnimationStream))((::PBYTE)hIl2Cpp + STRUCT_2_996A8643ED0D59AD_METHOD_2_BFBB01A221943146_1_OFFSET))(this, a1);
+	}
+	*/
+
+	/*
+	::Struct_2_3044AC8F6668B13C Method_2_BFBB01A221943146_2(::UnityEngine::Animations::AnimationStream a1)
+	{
+		return ((::Struct_2_3044AC8F6668B13C(*)(::PVOID, ::UnityEngine::Animations::AnimationStream))((::PBYTE)hIl2Cpp + STRUCT_2_996A8643ED0D59AD_METHOD_2_BFBB01A221943146_2_OFFSET))(this, a1);
+	}
+	*/
+
+	/*
+	::Struct_2_891DE7EA798ADDB4 Method_2_BFBB01A221943146_3(::UnityEngine::Animations::AnimationStream a1)
+	{
+		return ((::Struct_2_891DE7EA798ADDB4(*)(::PVOID, ::UnityEngine::Animations::AnimationStream))((::PBYTE)hIl2Cpp + STRUCT_2_996A8643ED0D59AD_METHOD_2_BFBB01A221943146_3_OFFSET))(this, a1);
+	}
+	*/
+
+	/*
+	::Struct_2_28674DF51079A3EA Method_2_BFBB01A221943146_4(::UnityEngine::Animations::AnimationStream a1)
+	{
+		return ((::Struct_2_28674DF51079A3EA(*)(::PVOID, ::UnityEngine::Animations::AnimationStream))((::PBYTE)hIl2Cpp + STRUCT_2_996A8643ED0D59AD_METHOD_2_BFBB01A221943146_4_OFFSET))(this, a1);
+	}
+	*/
+
+	/*
+	::Foundation::NativeVariableArray_1<::Struct_2_F780BA94AF5E7E37_1> Method_2_AA8855F9297B902F()
+	{
+		return ((::Foundation::NativeVariableArray_1<::Struct_2_F780BA94AF5E7E37_1>(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_996A8643ED0D59AD_METHOD_2_AA8855F9297B902F_OFFSET))(this);
+	}
+	*/
+
+	/*
+	::Struct_2_FAF6BD1B736DEE22 Method_2_BFBB01A221943146_5(::UnityEngine::Animations::AnimationStream a1)
+	{
+		return ((::Struct_2_FAF6BD1B736DEE22(*)(::PVOID, ::UnityEngine::Animations::AnimationStream))((::PBYTE)hIl2Cpp + STRUCT_2_996A8643ED0D59AD_METHOD_2_BFBB01A221943146_5_OFFSET))(this, a1);
+	}
+	*/
+
+	/*
+	::Struct_2_B156A1B941F9951F Method_2_BFBB01A221943146_6(::UnityEngine::Animations::AnimationStream a1)
+	{
+		return ((::Struct_2_B156A1B941F9951F(*)(::PVOID, ::UnityEngine::Animations::AnimationStream))((::PBYTE)hIl2Cpp + STRUCT_2_996A8643ED0D59AD_METHOD_2_BFBB01A221943146_6_OFFSET))(this, a1);
 	}
 	*/
 
@@ -113,65 +162,16 @@ struct alignas(8) Struct_2_996A8643ED0D59AD
 	*/
 
 	/*
-	::Struct_2_2FC66E3156F6912B Method_2_BFBB01A221943146(::UnityEngine::Animations::AnimationStream a1)
+	::Foundation::NativeVariableArray_1<::Struct_2_D0A3658446FCD9A2> Method_2_AA8855F9297B902F_1()
 	{
-		return ((::Struct_2_2FC66E3156F6912B(*)(::PVOID, ::UnityEngine::Animations::AnimationStream))((::PBYTE)hIl2Cpp + STRUCT_2_996A8643ED0D59AD_METHOD_2_BFBB01A221943146_OFFSET))(this, a1);
+		return ((::Foundation::NativeVariableArray_1<::Struct_2_D0A3658446FCD9A2>(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_996A8643ED0D59AD_METHOD_2_AA8855F9297B902F_1_OFFSET))(this);
 	}
 	*/
 
 	/*
-	::Struct_2_3044AC8F6668B13C Method_2_BFBB01A221943146_1(::UnityEngine::Animations::AnimationStream a1)
+	::Struct_2_233C8AFD4256ACE6 Method_2_BFBB01A221943146_7(::UnityEngine::Animations::AnimationStream a1)
 	{
-		return ((::Struct_2_3044AC8F6668B13C(*)(::PVOID, ::UnityEngine::Animations::AnimationStream))((::PBYTE)hIl2Cpp + STRUCT_2_996A8643ED0D59AD_METHOD_2_BFBB01A221943146_1_OFFSET))(this, a1);
-	}
-	*/
-
-	/*
-	::Struct_2_B156A1B941F9951F Method_2_BFBB01A221943146_2(::UnityEngine::Animations::AnimationStream a1)
-	{
-		return ((::Struct_2_B156A1B941F9951F(*)(::PVOID, ::UnityEngine::Animations::AnimationStream))((::PBYTE)hIl2Cpp + STRUCT_2_996A8643ED0D59AD_METHOD_2_BFBB01A221943146_2_OFFSET))(this, a1);
-	}
-	*/
-
-	/*
-	::Foundation::NativeVariableArray_1<::Struct_2_F780BA94AF5E7E37> Method_2_AA8855F9297B902F_1()
-	{
-		return ((::Foundation::NativeVariableArray_1<::Struct_2_F780BA94AF5E7E37>(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_996A8643ED0D59AD_METHOD_2_AA8855F9297B902F_1_OFFSET))(this);
-	}
-	*/
-
-	/*
-	::Struct_2_9D8D4EA8E3D44652 Method_2_BFBB01A221943146_3(::UnityEngine::Animations::AnimationStream a1)
-	{
-		return ((::Struct_2_9D8D4EA8E3D44652(*)(::PVOID, ::UnityEngine::Animations::AnimationStream))((::PBYTE)hIl2Cpp + STRUCT_2_996A8643ED0D59AD_METHOD_2_BFBB01A221943146_3_OFFSET))(this, a1);
-	}
-	*/
-
-	/*
-	::Struct_2_FAF6BD1B736DEE22 Method_2_BFBB01A221943146_4(::UnityEngine::Animations::AnimationStream a1)
-	{
-		return ((::Struct_2_FAF6BD1B736DEE22(*)(::PVOID, ::UnityEngine::Animations::AnimationStream))((::PBYTE)hIl2Cpp + STRUCT_2_996A8643ED0D59AD_METHOD_2_BFBB01A221943146_4_OFFSET))(this, a1);
-	}
-	*/
-
-	/*
-	::Struct_2_891DE7EA798ADDB4 Method_2_BFBB01A221943146_5(::UnityEngine::Animations::AnimationStream a1)
-	{
-		return ((::Struct_2_891DE7EA798ADDB4(*)(::PVOID, ::UnityEngine::Animations::AnimationStream))((::PBYTE)hIl2Cpp + STRUCT_2_996A8643ED0D59AD_METHOD_2_BFBB01A221943146_5_OFFSET))(this, a1);
-	}
-	*/
-
-	/*
-	::Struct_2_233C8AFD4256ACE6 Method_2_BFBB01A221943146_6(::UnityEngine::Animations::AnimationStream a1)
-	{
-		return ((::Struct_2_233C8AFD4256ACE6(*)(::PVOID, ::UnityEngine::Animations::AnimationStream))((::PBYTE)hIl2Cpp + STRUCT_2_996A8643ED0D59AD_METHOD_2_BFBB01A221943146_6_OFFSET))(this, a1);
-	}
-	*/
-
-	/*
-	::Struct_2_28674DF51079A3EA Method_2_BFBB01A221943146_7(::UnityEngine::Animations::AnimationStream a1)
-	{
-		return ((::Struct_2_28674DF51079A3EA(*)(::PVOID, ::UnityEngine::Animations::AnimationStream))((::PBYTE)hIl2Cpp + STRUCT_2_996A8643ED0D59AD_METHOD_2_BFBB01A221943146_7_OFFSET))(this, a1);
+		return ((::Struct_2_233C8AFD4256ACE6(*)(::PVOID, ::UnityEngine::Animations::AnimationStream))((::PBYTE)hIl2Cpp + STRUCT_2_996A8643ED0D59AD_METHOD_2_BFBB01A221943146_7_OFFSET))(this, a1);
 	}
 	*/
 };

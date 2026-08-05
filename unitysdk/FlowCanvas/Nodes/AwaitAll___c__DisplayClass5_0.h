@@ -5,12 +5,12 @@
 
 namespace FlowCanvas::Nodes { class AwaitAll; }
 
-#define FLOWCANVAS_NODES_AWAITALL___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB92ED0)
-#define FLOWCANVAS_NODES_AWAITALL___C__DISPLAYCLASS5_0__REGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x1DB92EE0)
+#define FLOWCANVAS_NODES_AWAITALL___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF89170)
+#define FLOWCANVAS_NODES_AWAITALL___C__DISPLAYCLASS5_0__REGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x1EF89180)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int AwaitAll___c__DisplayClass5_0_TypeDefinitionIndex = 30508;
+	inline static constexpr unsigned int AwaitAll___c__DisplayClass5_0_TypeDefinitionIndex = 30914;
 
 	class AwaitAll___c__DisplayClass5_0 : public ::System::Object
 	{

@@ -9,33 +9,33 @@ namespace MoleMole { class UIMainCityChatPlayContext; }
 namespace MoleMole::GalGame { class SpeakerActionCfg; }
 namespace System { class String; }
 
-#define MOLEMOLE_GALGAME_MAINCITYCHATPLAYSTORYNODE_INSTANTIATE_OFFSET UNITYSDK_OFFSET(0x10D4BBB0)
-#define MOLEMOLE_GALGAME_MAINCITYCHATPLAYSTORYNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x10D4BB90)
+#define MOLEMOLE_GALGAME_MAINCITYCHATPLAYSTORYNODE_INSTANTIATE_OFFSET UNITYSDK_OFFSET(0x168560D0)
+#define MOLEMOLE_GALGAME_MAINCITYCHATPLAYSTORYNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x168560B0)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int MainCityChatPlayStoryNode_TypeDefinitionIndex = 43080;
+	inline static constexpr unsigned int MainCityChatPlayStoryNode_TypeDefinitionIndex = 61251;
 
 	class MainCityChatPlayStoryNode : public ::MoleMole::GalGame::MainCityChatPlayableNodeBase
 	{
 	public:
-		::System::String* soundAction; // 0x18
-		::System::String* avatarName; // 0x20
-		::System::String* avatarShowingKey; // 0x28
-		::System::String* dialogueKey; // 0x30
-		::MoleMole::GalGame::SpeakerActionCfg* speakerCfg; // 0x38
-		::System::String* soundEvent; // 0x40
-		::System::String* externalVoiceKey; // 0x48
-		::System::Int32 soundEventType; // 0x50
-		::System::Single speakSpeed; // 0x54
+		::System::String* avatarShowingKey; // 0x18
+		::System::String* soundAction; // 0x20
+		::System::String* avatarName; // 0x28
+		::MoleMole::GalGame::SpeakerActionCfg* speakerCfg; // 0x30
+		::System::String* dialogueKey; // 0x38
+		::System::String* externalVoiceKey; // 0x40
+		::System::String* soundEvent; // 0x48
+		::System::Single time; // 0x50
+		::System::Int32 avatarId; // 0x54
 		::System::Int32 actionDelay; // 0x58
-		::MoleMole::GalGame::MainCityChatNPCLocation npcLocation; // 0x5C
-		::System::Single time; // 0x60
-		::System::Boolean hideAvatarName; // 0x64
-		::System::Boolean showBlackMask; // 0x65
-		::System::Boolean autoDoNext; // 0x66
-		::System::Boolean triggerOnFinish; // 0x67
-		::System::Int32 avatarId; // 0x68
+		::System::Single speakSpeed; // 0x5C
+		::MoleMole::GalGame::MainCityChatNPCLocation npcLocation; // 0x60
+		::System::Int32 soundEventType; // 0x64
+		::System::Boolean showBlackMask; // 0x68
+		::System::Boolean hideAvatarName; // 0x69
+		::System::Boolean triggerOnFinish; // 0x6A
+		::System::Boolean autoDoNext; // 0x6B
 
 		::System::Void _ctor()
 		{

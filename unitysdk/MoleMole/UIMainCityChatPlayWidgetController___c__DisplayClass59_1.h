@@ -5,12 +5,12 @@
 namespace MoleMole { class UIMainCityChatPlayWidgetController___c__DisplayClass59_0; }
 namespace System { class String; }
 
-#define MOLEMOLE_UIMAINCITYCHATPLAYWIDGETCONTROLLER___C__DISPLAYCLASS59_1__CTOR_OFFSET UNITYSDK_OFFSET(0x16E88850)
-#define MOLEMOLE_UIMAINCITYCHATPLAYWIDGETCONTROLLER___C__DISPLAYCLASS59_1__PLAYSTORYNODE_B__1_OFFSET UNITYSDK_OFFSET(0x16E88860)
+#define MOLEMOLE_UIMAINCITYCHATPLAYWIDGETCONTROLLER___C__DISPLAYCLASS59_1__CTOR_OFFSET UNITYSDK_OFFSET(0x19139AD0)
+#define MOLEMOLE_UIMAINCITYCHATPLAYWIDGETCONTROLLER___C__DISPLAYCLASS59_1__PLAYSTORYNODE_B__1_OFFSET UNITYSDK_OFFSET(0x19139AE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMainCityChatPlayWidgetController___c__DisplayClass59_1_TypeDefinitionIndex = 83711;
+	inline static constexpr unsigned int UIMainCityChatPlayWidgetController___c__DisplayClass59_1_TypeDefinitionIndex = 77927;
 
 	class UIMainCityChatPlayWidgetController___c__DisplayClass59_1 : public ::System::Object
 	{

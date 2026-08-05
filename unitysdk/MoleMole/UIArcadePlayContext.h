@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_F80BFD5B986D5503.h"
+#include "unitysdk/Enum_3_F80BFD5B986D5503_1.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIARCADEPLAYCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15E507A0)
+#define MOLEMOLE_UIARCADEPLAYCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1708A520)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIArcadePlayContext_TypeDefinitionIndex = 43653;
+	inline static constexpr unsigned int UIArcadePlayContext_TypeDefinitionIndex = 57988;
 
 	class UIArcadePlayContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::System::Boolean IsMultiPlayerGame; // 0x28
+		::Enum_3_F80BFD5B986D5503_1 MiniGameType; // 0x28
 		::System::Int32 ArcadeID; // 0x2C
-		::Enum_3_F80BFD5B986D5503 MiniGameType; // 0x30
+		::System::Boolean IsMultiPlayerGame; // 0x30
 
 		::System::Void _ctor()
 		{

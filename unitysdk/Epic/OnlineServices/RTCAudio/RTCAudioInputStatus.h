@@ -3,7 +3,7 @@
 
 namespace Epic::OnlineServices::RTCAudio
 {
-	inline static constexpr unsigned int RTCAudioInputStatus_TypeDefinitionIndex = 35253;
+	inline static constexpr unsigned int RTCAudioInputStatus_TypeDefinitionIndex = 35912;
 
 	enum class RTCAudioInputStatus : ::System::Int32
 	{

@@ -4,7 +4,7 @@
 
 namespace MoleMole::DataStructures::Common
 {
-	inline static constexpr unsigned int Optional_1_TypeDefinitionIndex = 28080;
+	inline static constexpr unsigned int Optional_1_TypeDefinitionIndex = 28732;
 
 	template <typename T>
 	class Optional_1 : public ::System::Object

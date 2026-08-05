@@ -6,13 +6,13 @@ namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
 namespace System { class String; }
 namespace UnityEngine { class Object; }
 
-#define NODECANVAS_TASKS_CONDITIONS_CHECKUNITYOBJECT_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1D1E8D20)
-#define NODECANVAS_TASKS_CONDITIONS_CHECKUNITYOBJECT_ONCHECK_OFFSET UNITYSDK_OFFSET(0x1D1E8D60)
-#define NODECANVAS_TASKS_CONDITIONS_CHECKUNITYOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1E8DF0)
+#define NODECANVAS_TASKS_CONDITIONS_CHECKUNITYOBJECT_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1E544A90)
+#define NODECANVAS_TASKS_CONDITIONS_CHECKUNITYOBJECT_ONCHECK_OFFSET UNITYSDK_OFFSET(0x1E544AD0)
+#define NODECANVAS_TASKS_CONDITIONS_CHECKUNITYOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E544B60)
 
 namespace NodeCanvas::Tasks::Conditions
 {
-	inline static constexpr unsigned int CheckUnityObject_TypeDefinitionIndex = 29180;
+	inline static constexpr unsigned int CheckUnityObject_TypeDefinitionIndex = 31159;
 
 	class CheckUnityObject : public ::NodeCanvas::Framework::ConditionTask
 	{

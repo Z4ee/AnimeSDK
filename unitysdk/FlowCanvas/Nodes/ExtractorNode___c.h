@@ -5,24 +5,24 @@
 namespace System { class Type; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define FLOWCANVAS_NODES_EXTRACTORNODE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D3881A0)
-#define FLOWCANVAS_NODES_EXTRACTORNODE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3881E0)
-#define FLOWCANVAS_NODES_EXTRACTORNODE___C__GETEXTRACTORTYPE_B__1_0_OFFSET UNITYSDK_OFFSET(0x1D3881F0)
+#define FLOWCANVAS_NODES_EXTRACTORNODE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E7219D0)
+#define FLOWCANVAS_NODES_EXTRACTORNODE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1E721A10)
+#define FLOWCANVAS_NODES_EXTRACTORNODE___C__GETEXTRACTORTYPE_B__1_0_OFFSET UNITYSDK_OFFSET(0x1E721A20)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int ExtractorNode___c_TypeDefinitionIndex = 30176;
+	inline static constexpr unsigned int ExtractorNode___c_TypeDefinitionIndex = 31302;
 
 	class ExtractorNode___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::System::Type*, ::System::Boolean>** StaticGet___9__1_0()
 		{
-			return (::System::Func_2<::System::Type*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ExtractorNode___c_TypeDefinitionIndex)->GetStaticField(0x245A0);
+			return (::System::Func_2<::System::Type*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ExtractorNode___c_TypeDefinitionIndex)->GetStaticField(0x25E90);
 		}
 		static ::FlowCanvas::Nodes::ExtractorNode___c** StaticGet___9()
 		{
-			return (::FlowCanvas::Nodes::ExtractorNode___c**)Il2CppClass::FromTypeDefinitionIndex(ExtractorNode___c_TypeDefinitionIndex)->GetStaticField(0x245A8);
+			return (::FlowCanvas::Nodes::ExtractorNode___c**)Il2CppClass::FromTypeDefinitionIndex(ExtractorNode___c_TypeDefinitionIndex)->GetStaticField(0x25E98);
 		}
 
 		static ::System::Void _cctor()

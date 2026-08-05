@@ -8,21 +8,21 @@ namespace Foundation { class AssetRequestCompleteDel; }
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Object; }
 
-#define FOUNDATION_TEXTDATAASSETPROXY___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1861F180)
-#define FOUNDATION_TEXTDATAASSETPROXY___C__DISPLAYCLASS5_0__LOADBYTESASSET_B__0_OFFSET UNITYSDK_OFFSET(0x1861F190)
-#define FOUNDATION_TEXTDATAASSETPROXY___C__DISPLAYCLASS5_0__LOADBYTESASSET_B__1_OFFSET UNITYSDK_OFFSET(0x1861F5E0)
-#define FOUNDATION_TEXTDATAASSETPROXY___C__DISPLAYCLASS5_0__LOADBYTESASSET_B__2_OFFSET UNITYSDK_OFFSET(0x1861F280)
-#define FOUNDATION_TEXTDATAASSETPROXY___C__DISPLAYCLASS5_0__LOADBYTESASSET_B__3_OFFSET UNITYSDK_OFFSET(0x1861F390)
+#define FOUNDATION_TEXTDATAASSETPROXY___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14826F00)
+#define FOUNDATION_TEXTDATAASSETPROXY___C__DISPLAYCLASS5_0__LOADBYTESASSET_B__0_OFFSET UNITYSDK_OFFSET(0x14826F10)
+#define FOUNDATION_TEXTDATAASSETPROXY___C__DISPLAYCLASS5_0__LOADBYTESASSET_B__1_OFFSET UNITYSDK_OFFSET(0x14827360)
+#define FOUNDATION_TEXTDATAASSETPROXY___C__DISPLAYCLASS5_0__LOADBYTESASSET_B__2_OFFSET UNITYSDK_OFFSET(0x14827000)
+#define FOUNDATION_TEXTDATAASSETPROXY___C__DISPLAYCLASS5_0__LOADBYTESASSET_B__3_OFFSET UNITYSDK_OFFSET(0x14827110)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int TextDataAssetProxy___c__DisplayClass5_0_TypeDefinitionIndex = 68444;
+	inline static constexpr unsigned int TextDataAssetProxy___c__DisplayClass5_0_TypeDefinitionIndex = 76783;
 
 	class TextDataAssetProxy___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:
-		::System::Action_1<::Foundation::AssetRequestHandle>* __9__3; // 0x10
-		::Foundation::AssetRequestCompleteDel* __9__2; // 0x18
+		::Foundation::AssetRequestCompleteDel* __9__2; // 0x10
+		::System::Action_1<::Foundation::AssetRequestHandle>* __9__3; // 0x18
 		::System::Action_1<::Il2CppArray<::System::Byte>*>* complete; // 0x20
 
 		::System::Void _ctor()

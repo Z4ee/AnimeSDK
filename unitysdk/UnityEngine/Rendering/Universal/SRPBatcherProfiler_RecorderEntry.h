@@ -5,20 +5,20 @@
 namespace System { class String; }
 namespace UnityEngine::Profiling { class Recorder; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_SRPBATCHERPROFILER_RECORDERENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4E7B90)
+#define UNITYENGINE_RENDERING_UNIVERSAL_SRPBATCHERPROFILER_RECORDERENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1E670DE0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int SRPBatcherProfiler_RecorderEntry_TypeDefinitionIndex = 26211;
+	inline static constexpr unsigned int SRPBatcherProfiler_RecorderEntry_TypeDefinitionIndex = 27757;
 
 	class SRPBatcherProfiler_RecorderEntry : public ::System::Object
 	{
 	public:
-		::System::String* oldName; // 0x10
-		::UnityEngine::Profiling::Recorder* recorder; // 0x18
-		::System::String* name; // 0x20
-		::System::Single accTime; // 0x28
-		::System::Int32 callCount; // 0x2C
+		::UnityEngine::Profiling::Recorder* recorder; // 0x10
+		::System::String* name; // 0x18
+		::System::String* oldName; // 0x20
+		::System::Int32 callCount; // 0x28
+		::System::Single accTime; // 0x2C
 
 		::System::Void _ctor()
 		{

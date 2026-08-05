@@ -4,7 +4,7 @@
 
 namespace Foundation::ViewObject::Subsystem
 {
-	inline static constexpr unsigned int IGroupStateChangeListener_TypeDefinitionIndex = 49112;
+	inline static constexpr unsigned int IGroupStateChangeListener_TypeDefinitionIndex = 47148;
 
 	class IGroupStateChangeListener
 	{

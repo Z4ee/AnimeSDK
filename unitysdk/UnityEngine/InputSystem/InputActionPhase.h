@@ -3,7 +3,7 @@
 
 namespace UnityEngine::InputSystem
 {
-	inline static constexpr unsigned int InputActionPhase_TypeDefinitionIndex = 31546;
+	inline static constexpr unsigned int InputActionPhase_TypeDefinitionIndex = 32166;
 
 	enum class InputActionPhase : ::System::Int32
 	{

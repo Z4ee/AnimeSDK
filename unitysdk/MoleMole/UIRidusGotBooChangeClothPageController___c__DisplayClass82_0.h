@@ -2,17 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_3_025FF4981524A424_303;
-class Class_3_8F63A57C1693E5AC_10;
+class Class_3_025FF4981524A424_179;
+class Class_3_D42977F88D59ACE7_16;
 namespace MoleMole { class UIRidusGotBooChangeClothPageController; }
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_UIRIDUSGOTBOOCHANGECLOTHPAGECONTROLLER___C__DISPLAYCLASS82_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1821DBE0)
-#define MOLEMOLE_UIRIDUSGOTBOOCHANGECLOTHPAGECONTROLLER___C__DISPLAYCLASS82_0__TRYSAVEFASHIONPART_B__0_OFFSET UNITYSDK_OFFSET(0x1821DBF0)
+#define MOLEMOLE_UIRIDUSGOTBOOCHANGECLOTHPAGECONTROLLER___C__DISPLAYCLASS82_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17582210)
+#define MOLEMOLE_UIRIDUSGOTBOOCHANGECLOTHPAGECONTROLLER___C__DISPLAYCLASS82_0__TRYSAVEFASHIONPART_B__0_OFFSET UNITYSDK_OFFSET(0x17582220)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRidusGotBooChangeClothPageController___c__DisplayClass82_0_TypeDefinitionIndex = 70899;
+	inline static constexpr unsigned int UIRidusGotBooChangeClothPageController___c__DisplayClass82_0_TypeDefinitionIndex = 86080;
 
 	class UIRidusGotBooChangeClothPageController___c__DisplayClass82_0 : public ::System::Object
 	{
@@ -26,9 +26,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRIDUSGOTBOOCHANGECLOTHPAGECONTROLLER___C__DISPLAYCLASS82_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _TrySaveFashionPart_b__0(::Class_3_025FF4981524A424_303* rsp, ::Class_3_8F63A57C1693E5AC_10* req)
+		::System::Void _TrySaveFashionPart_b__0(::Class_3_025FF4981524A424_179* rsp, ::Class_3_D42977F88D59ACE7_16* req)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_3_025FF4981524A424_303*, ::Class_3_8F63A57C1693E5AC_10*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRIDUSGOTBOOCHANGECLOTHPAGECONTROLLER___C__DISPLAYCLASS82_0__TRYSAVEFASHIONPART_B__0_OFFSET))(this, rsp, req);
+			return ((::System::Void(*)(::PVOID, ::Class_3_025FF4981524A424_179*, ::Class_3_D42977F88D59ACE7_16*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRIDUSGOTBOOCHANGECLOTHPAGECONTROLLER___C__DISPLAYCLASS82_0__TRYSAVEFASHIONPART_B__0_OFFSET))(this, rsp, req);
 		}
 	};
 }

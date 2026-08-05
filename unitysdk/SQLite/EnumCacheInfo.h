@@ -6,24 +6,24 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define SQLITE_ENUMCACHEINFO_GET_ENUMVALUES_OFFSET UNITYSDK_OFFSET(0x1D633050)
-#define SQLITE_ENUMCACHEINFO_GET_ISENUM_OFFSET UNITYSDK_OFFSET(0x1D633010)
-#define SQLITE_ENUMCACHEINFO_GET_STOREASTEXT_OFFSET UNITYSDK_OFFSET(0x1D633030)
-#define SQLITE_ENUMCACHEINFO_SET_ENUMVALUES_OFFSET UNITYSDK_OFFSET(0x1D633060)
-#define SQLITE_ENUMCACHEINFO_SET_ISENUM_OFFSET UNITYSDK_OFFSET(0x1D633020)
-#define SQLITE_ENUMCACHEINFO_SET_STOREASTEXT_OFFSET UNITYSDK_OFFSET(0x1D633040)
-#define SQLITE_ENUMCACHEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1D632940)
+#define SQLITE_ENUMCACHEINFO_GET_ENUMVALUES_OFFSET UNITYSDK_OFFSET(0x1E9FAEF0)
+#define SQLITE_ENUMCACHEINFO_GET_ISENUM_OFFSET UNITYSDK_OFFSET(0x1E9FAEB0)
+#define SQLITE_ENUMCACHEINFO_GET_STOREASTEXT_OFFSET UNITYSDK_OFFSET(0x1E9FAED0)
+#define SQLITE_ENUMCACHEINFO_SET_ENUMVALUES_OFFSET UNITYSDK_OFFSET(0x1E9FAF00)
+#define SQLITE_ENUMCACHEINFO_SET_ISENUM_OFFSET UNITYSDK_OFFSET(0x1E9FAEC0)
+#define SQLITE_ENUMCACHEINFO_SET_STOREASTEXT_OFFSET UNITYSDK_OFFSET(0x1E9FAEE0)
+#define SQLITE_ENUMCACHEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1E9FA900)
 
 namespace SQLite
 {
-	inline static constexpr unsigned int EnumCacheInfo_TypeDefinitionIndex = 38400;
+	inline static constexpr unsigned int EnumCacheInfo_TypeDefinitionIndex = 39061;
 
 	class EnumCacheInfo : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::String*>* _EnumValues_k__BackingField; // 0x10
-		::System::Boolean _StoreAsText_k__BackingField; // 0x18
-		::System::Boolean _IsEnum_k__BackingField; // 0x19
+		::System::Boolean _IsEnum_k__BackingField; // 0x18
+		::System::Boolean _StoreAsText_k__BackingField; // 0x19
 
 		::System::Void _ctor(::System::Type* type)
 		{

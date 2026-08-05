@@ -7,22 +7,22 @@ namespace BehaviorDesigner::Runtime { class SharedGameObject; }
 namespace BehaviorDesigner::Runtime { class SharedString; }
 namespace BehaviorDesigner::Runtime { class SharedVariable; }
 
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_COMPAREPROPERTYVALUE_ONRESET_OFFSET UNITYSDK_OFFSET(0x1E3E1BB0)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_COMPAREPROPERTYVALUE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1E3E1660)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_COMPAREPROPERTYVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E3E1C00)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_COMPAREPROPERTYVALUE___BASE_ONRESET_OFFSET UNITYSDK_OFFSET(0x1E3E1C90)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_COMPAREPROPERTYVALUE___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1E3E1D20)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_COMPAREPROPERTYVALUE_ONRESET_OFFSET UNITYSDK_OFFSET(0x1F82C000)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_COMPAREPROPERTYVALUE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1F82BAB0)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_COMPAREPROPERTYVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F82C050)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_COMPAREPROPERTYVALUE___BASE_ONRESET_OFFSET UNITYSDK_OFFSET(0x1F82C0E0)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_COMPAREPROPERTYVALUE___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1F82C170)
 
 namespace BehaviorDesigner::Runtime::Tasks
 {
-	inline static constexpr unsigned int ComparePropertyValue_TypeDefinitionIndex = 33364;
+	inline static constexpr unsigned int ComparePropertyValue_TypeDefinitionIndex = 34000;
 
 	class ComparePropertyValue : public ::BehaviorDesigner::Runtime::Tasks::Conditional
 	{
 	public:
 		::BehaviorDesigner::Runtime::SharedVariable* compareValue; // 0x50
-		::BehaviorDesigner::Runtime::SharedString* propertyName; // 0x58
-		::BehaviorDesigner::Runtime::SharedString* componentName; // 0x60
+		::BehaviorDesigner::Runtime::SharedString* componentName; // 0x58
+		::BehaviorDesigner::Runtime::SharedString* propertyName; // 0x60
 		::BehaviorDesigner::Runtime::SharedGameObject* targetGameObject; // 0x68
 
 		::System::Void _ctor()

@@ -1,0 +1,52 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Enum_3_B3B3531DBF055167.h"
+#include "unitysdk/System/Object.h"
+
+#define CLASS_3_F118437738B4CCD5_3___C_METHOD_1_4C706B6019B13D4A_1_OFFSET UNITYSDK_OFFSET(0x1AD3EE90)
+#define CLASS_3_F118437738B4CCD5_3___C_METHOD_1_4C706B6019B13D4A_OFFSET UNITYSDK_OFFSET(0x1AD3EE70)
+#define CLASS_3_F118437738B4CCD5_3___C_METHOD_1_7439D2F0DCA77B50_1_OFFSET UNITYSDK_OFFSET(0x1AD3EE80)
+#define CLASS_3_F118437738B4CCD5_3___C_METHOD_1_7439D2F0DCA77B50_OFFSET UNITYSDK_OFFSET(0x1AD3EE60)
+#define CLASS_3_F118437738B4CCD5_3___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AD3EE10)
+#define CLASS_3_F118437738B4CCD5_3___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD3EE50)
+
+inline static constexpr unsigned int Class_3_F118437738B4CCD5_3___c_TypeDefinitionIndex = 26421;
+
+class Class_3_F118437738B4CCD5_3___c : public ::System::Object
+{
+public:
+	static ::Class_3_F118437738B4CCD5_3___c** StaticGet___9()
+	{
+		return (::Class_3_F118437738B4CCD5_3___c**)Il2CppClass::FromTypeDefinitionIndex(Class_3_F118437738B4CCD5_3___c_TypeDefinitionIndex)->GetStaticField(0xEAD0);
+	}
+
+	static ::System::Void _cctor()
+	{
+		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CLASS_3_F118437738B4CCD5_3___C__CCTOR_OFFSET))();
+	}
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_F118437738B4CCD5_3___C__CTOR_OFFSET))(this);
+	}
+
+	::Enum_3_B3B3531DBF055167 Method_1_7439D2F0DCA77B50(::System::Int32 a1)
+	{
+		return ((::Enum_3_B3B3531DBF055167(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_3_F118437738B4CCD5_3___C_METHOD_1_7439D2F0DCA77B50_OFFSET))(this, a1);
+	}
+
+	::System::Int32 Method_1_4C706B6019B13D4A(::Enum_3_B3B3531DBF055167 a1)
+	{
+		return ((::System::Int32(*)(::PVOID, ::Enum_3_B3B3531DBF055167))((::PBYTE)hIl2Cpp + CLASS_3_F118437738B4CCD5_3___C_METHOD_1_4C706B6019B13D4A_OFFSET))(this, a1);
+	}
+
+	::Enum_3_B3B3531DBF055167 Method_1_7439D2F0DCA77B50_1(::System::Int32 a1)
+	{
+		return ((::Enum_3_B3B3531DBF055167(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_3_F118437738B4CCD5_3___C_METHOD_1_7439D2F0DCA77B50_1_OFFSET))(this, a1);
+	}
+
+	::System::Int32 Method_1_4C706B6019B13D4A_1(::Enum_3_B3B3531DBF055167 a1)
+	{
+		return ((::System::Int32(*)(::PVOID, ::Enum_3_B3B3531DBF055167))((::PBYTE)hIl2Cpp + CLASS_3_F118437738B4CCD5_3___C_METHOD_1_4C706B6019B13D4A_1_OFFSET))(this, a1);
+	}
+};

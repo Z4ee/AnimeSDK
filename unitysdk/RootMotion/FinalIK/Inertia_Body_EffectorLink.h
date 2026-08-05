@@ -3,11 +3,11 @@
 #include "unitysdk/RootMotion/FinalIK/FullBodyBipedEffector.h"
 #include "unitysdk/System/Object.h"
 
-#define ROOTMOTION_FINALIK_INERTIA_BODY_EFFECTORLINK__CTOR_OFFSET UNITYSDK_OFFSET(0x1E6E8460)
+#define ROOTMOTION_FINALIK_INERTIA_BODY_EFFECTORLINK__CTOR_OFFSET UNITYSDK_OFFSET(0x1FACC820)
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int Inertia_Body_EffectorLink_TypeDefinitionIndex = 38225;
+	inline static constexpr unsigned int Inertia_Body_EffectorLink_TypeDefinitionIndex = 38866;
 
 	class Inertia_Body_EffectorLink : public ::System::Object
 	{

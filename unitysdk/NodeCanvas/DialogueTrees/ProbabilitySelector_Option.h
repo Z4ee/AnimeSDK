@@ -6,17 +6,17 @@ namespace NodeCanvas::Framework { class ConditionTask; }
 namespace NodeCanvas::Framework { class IBlackboard; }
 namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
 
-#define NODECANVAS_DIALOGUETREES_PROBABILITYSELECTOR_OPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D820170)
+#define NODECANVAS_DIALOGUETREES_PROBABILITYSELECTOR_OPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB92550)
 
 namespace NodeCanvas::DialogueTrees
 {
-	inline static constexpr unsigned int ProbabilitySelector_Option_TypeDefinitionIndex = 29827;
+	inline static constexpr unsigned int ProbabilitySelector_Option_TypeDefinitionIndex = 30098;
 
 	class ProbabilitySelector_Option : public ::System::Object
 	{
 	public:
-		::NodeCanvas::Framework::BBParameter_1<::System::Single>* weight; // 0x10
-		::NodeCanvas::Framework::ConditionTask* condition; // 0x18
+		::NodeCanvas::Framework::ConditionTask* condition; // 0x10
+		::NodeCanvas::Framework::BBParameter_1<::System::Single>* weight; // 0x18
 
 		::System::Void _ctor(::System::Single weightValue, ::NodeCanvas::Framework::IBlackboard* bbValue)
 		{

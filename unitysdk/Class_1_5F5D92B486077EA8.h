@@ -6,16 +6,16 @@
 namespace System { class Random; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_5F5D92B486077EA8_METHOD_1_8FC5C096B5A46ED1_OFFSET UNITYSDK_OFFSET(0x1539E170)
-#define CLASS_1_5F5D92B486077EA8__CTOR_OFFSET UNITYSDK_OFFSET(0x1539E0B0)
+#define CLASS_1_5F5D92B486077EA8_METHOD_1_8FC5C096B5A46ED1_OFFSET UNITYSDK_OFFSET(0x11CA57A0)
+#define CLASS_1_5F5D92B486077EA8__CTOR_OFFSET UNITYSDK_OFFSET(0x11CA56E0)
 
-inline static constexpr unsigned int Class_1_5F5D92B486077EA8_TypeDefinitionIndex = 41879;
+inline static constexpr unsigned int Class_1_5F5D92B486077EA8_TypeDefinitionIndex = 76548;
 
 class Class_1_5F5D92B486077EA8 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::Struct_2_33D16697470DD4E7>* Field_1_0; // 0x10
-	::System::Random* Field_1_1; // 0x18
+	::System::Collections::Generic::List_1<::Struct_2_33D16697470DD4E7>* Field_1_1; // 0x10
+	::System::Random* Field_1_0; // 0x18
 
 	::System::Void _ctor()
 	{

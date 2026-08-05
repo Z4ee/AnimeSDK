@@ -7,21 +7,21 @@ namespace MoleMole::Config { class AnimationCurveUISpecialNum; }
 namespace MoleMole::Config { class FloatUISpecialNum; }
 namespace MoleMole::Config { class IntUISpecialNum; }
 
-#define MOLEMOLE_CONFIG_CONFIGCHESSBOARDGROUPANIMNODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x106C9870)
-#define MOLEMOLE_CONFIG_CONFIGCHESSBOARDGROUPANIMNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x106C98F0)
+#define MOLEMOLE_CONFIG_CONFIGCHESSBOARDGROUPANIMNODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x1A4A81B0)
+#define MOLEMOLE_CONFIG_CONFIGCHESSBOARDGROUPANIMNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4A8230)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigChessboardGroupAnimNode_TypeDefinitionIndex = 71028;
+	inline static constexpr unsigned int ConfigChessboardGroupAnimNode_TypeDefinitionIndex = 55746;
 
 	class ConfigChessboardGroupAnimNode : public ::MoleMole::Config::ConfigUIBaseActionNode
 	{
 	public:
-		::MoleMole::Config::FloatUISpecialNum* FrequencyMin; // 0x18
-		::MoleMole::Config::FloatUISpecialNum* FrequencyMax; // 0x20
+		::MoleMole::Config::AnimationCurveUISpecialNum* FrequencyCurve; // 0x18
+		::MoleMole::Config::IntUISpecialNum* CustomSoundEventID; // 0x20
 		::MoleMole::Config::IntUISpecialNum* AnimType; // 0x28
-		::MoleMole::Config::IntUISpecialNum* CustomSoundEventID; // 0x30
-		::MoleMole::Config::AnimationCurveUISpecialNum* FrequencyCurve; // 0x38
+		::MoleMole::Config::FloatUISpecialNum* FrequencyMin; // 0x30
+		::MoleMole::Config::FloatUISpecialNum* FrequencyMax; // 0x38
 
 		::System::Void _ctor()
 		{

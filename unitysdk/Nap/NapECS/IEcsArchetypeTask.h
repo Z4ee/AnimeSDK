@@ -4,7 +4,7 @@
 
 namespace Nap::NapECS
 {
-	inline static constexpr unsigned int IEcsArchetypeTask_TypeDefinitionIndex = 37327;
+	inline static constexpr unsigned int IEcsArchetypeTask_TypeDefinitionIndex = 38028;
 
 	class IEcsArchetypeTask
 	{

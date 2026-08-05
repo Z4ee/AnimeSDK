@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_NET_WEBCLIENT_PROGRESSDATA_RESET_OFFSET UNITYSDK_OFFSET(0x1CED70F0)
-#define SYSTEM_NET_WEBCLIENT_PROGRESSDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1CED7110)
+#define SYSTEM_NET_WEBCLIENT_PROGRESSDATA_RESET_OFFSET UNITYSDK_OFFSET(0x1E293C90)
+#define SYSTEM_NET_WEBCLIENT_PROGRESSDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1E293CB0)
 
 namespace System::Net
 {
@@ -13,10 +13,10 @@ namespace System::Net
 	{
 	public:
 		::System::Int64 TotalBytesToSend; // 0x10
-		::System::Int64 BytesSent; // 0x18
-		::System::Boolean HasUploadPhase; // 0x20
-		::System::Int64 TotalBytesToReceive; // 0x28
-		::System::Int64 BytesReceived; // 0x30
+		::System::Int64 TotalBytesToReceive; // 0x18
+		::System::Int64 BytesReceived; // 0x20
+		::System::Int64 BytesSent; // 0x28
+		::System::Boolean HasUploadPhase; // 0x30
 
 		::System::Void _ctor()
 		{

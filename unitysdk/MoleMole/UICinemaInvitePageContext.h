@@ -6,11 +6,11 @@
 class Class_1_270AC9529BDD8E1A;
 class Class_2_23EC6E39A5C61502;
 
-#define MOLEMOLE_UICINEMAINVITEPAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x14C0D570)
+#define MOLEMOLE_UICINEMAINVITEPAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16052AA0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICinemaInvitePageContext_TypeDefinitionIndex = 76105;
+	inline static constexpr unsigned int UICinemaInvitePageContext_TypeDefinitionIndex = 61575;
 
 	class UICinemaInvitePageContext : public ::MoleMole::UIControllerContextBase
 	{

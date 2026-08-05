@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Bounds.h"
 
-#define MOLEMOLE_SMAPGROUPMEMBERSTATECONFIGBOUNDS__CTOR_OFFSET UNITYSDK_OFFSET(0x16CE2C30)
+#define MOLEMOLE_SMAPGROUPMEMBERSTATECONFIGBOUNDS__CTOR_OFFSET UNITYSDK_OFFSET(0x13ACFA00)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SMapGroupMemberStateConfigBounds_TypeDefinitionIndex = 45678;
+	inline static constexpr unsigned int SMapGroupMemberStateConfigBounds_TypeDefinitionIndex = 45883;
 
 	class SMapGroupMemberStateConfigBounds : public ::System::Object
 	{

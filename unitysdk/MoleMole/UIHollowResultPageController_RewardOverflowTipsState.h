@@ -3,12 +3,12 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowResultPageController_RewardOverflowTipsState_TypeDefinitionIndex = 57539;
+	inline static constexpr unsigned int UIHollowResultPageController_RewardOverflowTipsState_TypeDefinitionIndex = 41925;
 
 	enum class UIHollowResultPageController_RewardOverflowTipsState : ::System::Int32
 	{
 		CanShow = 1,
-		None = 0,
 		Done = 2,
+		None = 0,
 	};
 }

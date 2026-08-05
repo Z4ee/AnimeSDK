@@ -5,12 +5,12 @@
 class Class_2_EF0B7B770198FEB2;
 namespace MoleMole { class UINewsStandPuzzlePieceWidgetController; }
 
-#define MOLEMOLE_UINEWSSTANDPUZZLEGAMEWIDGETCONTROLLER___C__DISPLAYCLASS45_0__CTOR_OFFSET UNITYSDK_OFFSET(0x174ECC90)
-#define MOLEMOLE_UINEWSSTANDPUZZLEGAMEWIDGETCONTROLLER___C__DISPLAYCLASS45_0__INITCURCHAPTERPIECES_B__0_OFFSET UNITYSDK_OFFSET(0x174ECCA0)
+#define MOLEMOLE_UINEWSSTANDPUZZLEGAMEWIDGETCONTROLLER___C__DISPLAYCLASS45_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17464B90)
+#define MOLEMOLE_UINEWSSTANDPUZZLEGAMEWIDGETCONTROLLER___C__DISPLAYCLASS45_0__INITCURCHAPTERPIECES_B__0_OFFSET UNITYSDK_OFFSET(0x17464BA0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UINewsStandPuzzleGameWidgetController___c__DisplayClass45_0_TypeDefinitionIndex = 52458;
+	inline static constexpr unsigned int UINewsStandPuzzleGameWidgetController___c__DisplayClass45_0_TypeDefinitionIndex = 50641;
 
 	class UINewsStandPuzzleGameWidgetController___c__DisplayClass45_0 : public ::System::Object
 	{

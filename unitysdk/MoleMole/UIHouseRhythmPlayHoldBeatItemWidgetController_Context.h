@@ -5,11 +5,11 @@
 
 class Class_4_EDAF922741458586;
 
-#define MOLEMOLE_UIHOUSERHYTHMPLAYHOLDBEATITEMWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1691A0F0)
+#define MOLEMOLE_UIHOUSERHYTHMPLAYHOLDBEATITEMWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1899C780)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHouseRhythmPlayHoldBeatItemWidgetController_Context_TypeDefinitionIndex = 62910;
+	inline static constexpr unsigned int UIHouseRhythmPlayHoldBeatItemWidgetController_Context_TypeDefinitionIndex = 50737;
 
 	class UIHouseRhythmPlayHoldBeatItemWidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{

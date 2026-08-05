@@ -7,7 +7,7 @@ namespace UnityEngine { class GameObject; }
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int DefaultControls_IFactoryControls_TypeDefinitionIndex = 18858;
+	inline static constexpr unsigned int DefaultControls_IFactoryControls_TypeDefinitionIndex = 19200;
 
 	class DefaultControls_IFactoryControls
 	{

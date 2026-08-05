@@ -7,7 +7,7 @@
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int StimulusItem_TypeDefinitionIndex = 46962;
+	inline static constexpr unsigned int StimulusItem_TypeDefinitionIndex = 91302;
 
 	struct alignas(8) StimulusItem
 	{

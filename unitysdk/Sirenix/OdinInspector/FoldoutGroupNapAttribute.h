@@ -4,21 +4,21 @@
 
 namespace System { class String; }
 
-#define SIRENIX_ODININSPECTOR_FOLDOUTGROUPNAPATTRIBUTE_GET_HASDEFINEDEXPANDED_OFFSET UNITYSDK_OFFSET(0x1D8922F0)
-#define SIRENIX_ODININSPECTOR_FOLDOUTGROUPNAPATTRIBUTE_SET_HASDEFINEDEXPANDED_OFFSET UNITYSDK_OFFSET(0x1D892300)
-#define SIRENIX_ODININSPECTOR_FOLDOUTGROUPNAPATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1D8922E0)
-#define SIRENIX_ODININSPECTOR_FOLDOUTGROUPNAPATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8922D0)
+#define SIRENIX_ODININSPECTOR_FOLDOUTGROUPNAPATTRIBUTE_GET_HASDEFINEDEXPANDED_OFFSET UNITYSDK_OFFSET(0x1ED9C4A0)
+#define SIRENIX_ODININSPECTOR_FOLDOUTGROUPNAPATTRIBUTE_SET_HASDEFINEDEXPANDED_OFFSET UNITYSDK_OFFSET(0x1ED9C4B0)
+#define SIRENIX_ODININSPECTOR_FOLDOUTGROUPNAPATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1ED9C490)
+#define SIRENIX_ODININSPECTOR_FOLDOUTGROUPNAPATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED9C480)
 
 namespace Sirenix::OdinInspector
 {
-	inline static constexpr unsigned int FoldoutGroupNapAttribute_TypeDefinitionIndex = 8361;
+	inline static constexpr unsigned int FoldoutGroupNapAttribute_TypeDefinitionIndex = 8412;
 
 	class FoldoutGroupNapAttribute : public ::System::Attribute
 	{
 	public:
 		::System::String* MethodName; // 0x10
-		::System::Boolean _HasDefinedExpanded_k__BackingField; // 0x18
-		::System::Boolean Expanded; // 0x19
+		::System::Boolean Expanded; // 0x18
+		::System::Boolean _HasDefinedExpanded_k__BackingField; // 0x19
 
 		::System::Void _ctor(::System::String* groupName, ::System::Boolean expanded)
 		{

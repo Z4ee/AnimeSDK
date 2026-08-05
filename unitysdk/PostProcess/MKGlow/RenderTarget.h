@@ -7,7 +7,7 @@ namespace UnityEngine { class RenderTexture; }
 
 namespace PostProcess::MKGlow
 {
-	inline static constexpr unsigned int RenderTarget_TypeDefinitionIndex = 26236;
+	inline static constexpr unsigned int RenderTarget_TypeDefinitionIndex = 27681;
 
 	struct alignas(8) RenderTarget
 	{

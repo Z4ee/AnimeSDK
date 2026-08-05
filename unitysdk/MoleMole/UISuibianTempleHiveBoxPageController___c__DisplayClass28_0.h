@@ -6,12 +6,12 @@ class Class_1_0D6706375CDAAE8C;
 namespace MoleMole { class UISuibianTempleHiveBoxPageController; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UISUIBIANTEMPLEHIVEBOXPAGECONTROLLER___C__DISPLAYCLASS28_0__CTOR_OFFSET UNITYSDK_OFFSET(0x103EC500)
-#define MOLEMOLE_UISUIBIANTEMPLEHIVEBOXPAGECONTROLLER___C__DISPLAYCLASS28_0__ONCLICKBUYBTN_B__1_OFFSET UNITYSDK_OFFSET(0x103EC510)
+#define MOLEMOLE_UISUIBIANTEMPLEHIVEBOXPAGECONTROLLER___C__DISPLAYCLASS28_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18897450)
+#define MOLEMOLE_UISUIBIANTEMPLEHIVEBOXPAGECONTROLLER___C__DISPLAYCLASS28_0__ONCLICKBUYBTN_B__1_OFFSET UNITYSDK_OFFSET(0x18897460)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISuibianTempleHiveBoxPageController___c__DisplayClass28_0_TypeDefinitionIndex = 40594;
+	inline static constexpr unsigned int UISuibianTempleHiveBoxPageController___c__DisplayClass28_0_TypeDefinitionIndex = 60452;
 
 	class UISuibianTempleHiveBoxPageController___c__DisplayClass28_0 : public ::System::Object
 	{

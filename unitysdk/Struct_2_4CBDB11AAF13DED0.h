@@ -8,36 +8,36 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define STRUCT_2_4CBDB11AAF13DED0_METHOD_2_1F8314262457963A_OFFSET UNITYSDK_OFFSET(0x7949A0)
-#define STRUCT_2_4CBDB11AAF13DED0_METHOD_2_224D6B6433F0D411_OFFSET UNITYSDK_OFFSET(0x794B70)
-#define STRUCT_2_4CBDB11AAF13DED0_METHOD_2_5489F9CD0AA85DE6_OFFSET UNITYSDK_OFFSET(0x794A80)
-#define STRUCT_2_4CBDB11AAF13DED0_METHOD_2_6FDE72CACFA8F12A_OFFSET UNITYSDK_OFFSET(0x794B10)
-#define STRUCT_2_4CBDB11AAF13DED0_METHOD_2_89C1A5C779599670_OFFSET UNITYSDK_OFFSET(0x794B30)
-#define STRUCT_2_4CBDB11AAF13DED0_METHOD_2_8A2AC7CD7EA66CAC_OFFSET UNITYSDK_OFFSET(0x794990)
-#define STRUCT_2_4CBDB11AAF13DED0_METHOD_2_AC2B82F3D026F3EA_OFFSET UNITYSDK_OFFSET(0x794BB0)
-#define STRUCT_2_4CBDB11AAF13DED0_METHOD_2_BCDF1C0553E211C6_OFFSET UNITYSDK_OFFSET(0x794B50)
-#define STRUCT_2_4CBDB11AAF13DED0_METHOD_2_C3B21C74C45D6F86_OFFSET UNITYSDK_OFFSET(0x7949C0)
-#define STRUCT_2_4CBDB11AAF13DED0_METHOD_2_C4535F0EE3975627_OFFSET UNITYSDK_OFFSET(0x127B72E0)
-#define STRUCT_2_4CBDB11AAF13DED0_METHOD_2_CD6A58B30CAF51C3_OFFSET UNITYSDK_OFFSET(0x794AD0)
-#define STRUCT_2_4CBDB11AAF13DED0_METHOD_2_FBC63D7D2D0D1E10_OFFSET UNITYSDK_OFFSET(0x794AB0)
-#define STRUCT_2_4CBDB11AAF13DED0_PROCESSANIMATION_OFFSET UNITYSDK_OFFSET(0x794A00)
-#define STRUCT_2_4CBDB11AAF13DED0_PROCESSROOTMOTION_OFFSET UNITYSDK_OFFSET(0x794A40)
-#define STRUCT_2_4CBDB11AAF13DED0__CCTOR_OFFSET UNITYSDK_OFFSET(0x127B7640)
-#define STRUCT_2_4CBDB11AAF13DED0__CTOR_OFFSET UNITYSDK_OFFSET(0x794900)
+#define STRUCT_2_4CBDB11AAF13DED0_METHOD_2_1F8314262457963A_OFFSET UNITYSDK_OFFSET(0x69B800)
+#define STRUCT_2_4CBDB11AAF13DED0_METHOD_2_224D6B6433F0D411_OFFSET UNITYSDK_OFFSET(0x69BA70)
+#define STRUCT_2_4CBDB11AAF13DED0_METHOD_2_5489F9CD0AA85DE6_OFFSET UNITYSDK_OFFSET(0x69B9E0)
+#define STRUCT_2_4CBDB11AAF13DED0_METHOD_2_6FDE72CACFA8F12A_OFFSET UNITYSDK_OFFSET(0x69BA10)
+#define STRUCT_2_4CBDB11AAF13DED0_METHOD_2_89C1A5C779599670_OFFSET UNITYSDK_OFFSET(0x69BAF0)
+#define STRUCT_2_4CBDB11AAF13DED0_METHOD_2_8A2AC7CD7EA66CAC_OFFSET UNITYSDK_OFFSET(0x69B7F0)
+#define STRUCT_2_4CBDB11AAF13DED0_METHOD_2_AC2B82F3D026F3EA_OFFSET UNITYSDK_OFFSET(0x69BAB0)
+#define STRUCT_2_4CBDB11AAF13DED0_METHOD_2_BCDF1C0553E211C6_OFFSET UNITYSDK_OFFSET(0x69BB10)
+#define STRUCT_2_4CBDB11AAF13DED0_METHOD_2_C3B21C74C45D6F86_OFFSET UNITYSDK_OFFSET(0x69B820)
+#define STRUCT_2_4CBDB11AAF13DED0_METHOD_2_C4535F0EE3975627_OFFSET UNITYSDK_OFFSET(0x1018D020)
+#define STRUCT_2_4CBDB11AAF13DED0_METHOD_2_CD6A58B30CAF51C3_OFFSET UNITYSDK_OFFSET(0x69BA30)
+#define STRUCT_2_4CBDB11AAF13DED0_METHOD_2_FBC63D7D2D0D1E10_OFFSET UNITYSDK_OFFSET(0x69BAD0)
+#define STRUCT_2_4CBDB11AAF13DED0_PROCESSANIMATION_OFFSET UNITYSDK_OFFSET(0x69B960)
+#define STRUCT_2_4CBDB11AAF13DED0_PROCESSROOTMOTION_OFFSET UNITYSDK_OFFSET(0x69B9A0)
+#define STRUCT_2_4CBDB11AAF13DED0__CCTOR_OFFSET UNITYSDK_OFFSET(0x1018D390)
+#define STRUCT_2_4CBDB11AAF13DED0__CTOR_OFFSET UNITYSDK_OFFSET(0x69B760)
 
-inline static constexpr unsigned int Struct_2_4CBDB11AAF13DED0_TypeDefinitionIndex = 86427;
+inline static constexpr unsigned int Struct_2_4CBDB11AAF13DED0_TypeDefinitionIndex = 79838;
 
 struct alignas(8) Struct_2_4CBDB11AAF13DED0
 {
-	static ::Struct_2_4CBDB11AAF13DED0* StaticGet_Field_2_5()
+	static ::Struct_2_4CBDB11AAF13DED0* StaticGet_Field_2_4()
 	{
-		return (::Struct_2_4CBDB11AAF13DED0*)Il2CppClass::FromTypeDefinitionIndex(Struct_2_4CBDB11AAF13DED0_TypeDefinitionIndex)->GetStaticField(0xA7E0);
+		return (::Struct_2_4CBDB11AAF13DED0*)Il2CppClass::FromTypeDefinitionIndex(Struct_2_4CBDB11AAF13DED0_TypeDefinitionIndex)->GetStaticField(0x10710);
 	}
-	::Foundation::ReadOnlyNativeVariable_1<::Foundation::Unreal::FTransform3D> Field_2_0; // 0x10
-	::Foundation::ReadOnlyNativeVariable_1<::UnityEngine::Vector3> Field_2_1; // 0x20
-	::Foundation::ReadOnlyNativeVariable_1<::Struct_2_D0A3658446FCD9A2> Field_2_2; // 0x30
-	::Foundation::ReadOnlyNativeVariable_1<::Struct_2_35B7E50E408923AA> Field_2_3; // 0x40
-	::Struct_2_ACD0EF80A5330786 Field_2_4; // 0x50
+	::Foundation::ReadOnlyNativeVariable_1<::Foundation::Unreal::FTransform3D> Field_2_1; // 0x10
+	::Foundation::ReadOnlyNativeVariable_1<::UnityEngine::Vector3> Field_2_0; // 0x20
+	::Foundation::ReadOnlyNativeVariable_1<::Struct_2_D0A3658446FCD9A2> Field_2_7; // 0x30
+	::Foundation::ReadOnlyNativeVariable_1<::Struct_2_35B7E50E408923AA> Field_2_6; // 0x40
+	::Struct_2_ACD0EF80A5330786 Field_2_5; // 0x50
 
 	::System::Void _ctor(::Struct_2_ACD0EF80A5330786 a1, ::Foundation::ReadOnlyNativeVariable_1<::Foundation::Unreal::FTransform3D> a2, ::Foundation::ReadOnlyNativeVariable_1<::UnityEngine::Vector3> a3, ::Foundation::ReadOnlyNativeVariable_1<::Struct_2_D0A3658446FCD9A2> a4, ::Foundation::ReadOnlyNativeVariable_1<::Struct_2_35B7E50E408923AA> a5)
 	{
@@ -87,10 +87,12 @@ struct alignas(8) Struct_2_4CBDB11AAF13DED0
 	}
 	*/
 
-	::System::Void Method_2_FBC63D7D2D0D1E10(::Foundation::ReadOnlyNativeVariable_1<::Foundation::Unreal::FTransform3D> a1)
+	/*
+	::Foundation::NativeVariable_1<::Foundation::Unreal::FTransform3D> Method_2_6FDE72CACFA8F12A()
 	{
-		return ((::System::Void(*)(::PVOID, ::Foundation::ReadOnlyNativeVariable_1<::Foundation::Unreal::FTransform3D>))((::PBYTE)hIl2Cpp + STRUCT_2_4CBDB11AAF13DED0_METHOD_2_FBC63D7D2D0D1E10_OFFSET))(this, a1);
+		return ((::Foundation::NativeVariable_1<::Foundation::Unreal::FTransform3D>(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_4CBDB11AAF13DED0_METHOD_2_6FDE72CACFA8F12A_OFFSET))(this);
 	}
+	*/
 
 	/*
 	::System::Void Method_2_CD6A58B30CAF51C3(::UnityEngine::Animations::AnimationStream a1, ::Foundation::Unreal::FTransform3D& a2, ::UnityEngine::Vector3& a3)
@@ -100,21 +102,9 @@ struct alignas(8) Struct_2_4CBDB11AAF13DED0
 	*/
 
 	/*
-	::Foundation::NativeVariable_1<::Foundation::Unreal::FTransform3D> Method_2_6FDE72CACFA8F12A()
+	static ::System::Void Method_2_C4535F0EE3975627(::Struct_2_35B7E50E408923AA& a1, ::Struct_2_63DDC2FA7A3D55CD& a2, ::Foundation::Unreal::FTransform3D a3, ::UnityEngine::Vector3 a4, ::System::Single a5)
 	{
-		return ((::Foundation::NativeVariable_1<::Foundation::Unreal::FTransform3D>(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_4CBDB11AAF13DED0_METHOD_2_6FDE72CACFA8F12A_OFFSET))(this);
-	}
-	*/
-
-	::System::Void Method_2_89C1A5C779599670(::Foundation::ReadOnlyNativeVariable_1<::UnityEngine::Vector3> a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::Foundation::ReadOnlyNativeVariable_1<::UnityEngine::Vector3>))((::PBYTE)hIl2Cpp + STRUCT_2_4CBDB11AAF13DED0_METHOD_2_89C1A5C779599670_OFFSET))(this, a1);
-	}
-
-	/*
-	::Foundation::NativeVariable_1<::UnityEngine::Vector3> Method_2_BCDF1C0553E211C6()
-	{
-		return ((::Foundation::NativeVariable_1<::UnityEngine::Vector3>(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_4CBDB11AAF13DED0_METHOD_2_BCDF1C0553E211C6_OFFSET))(this);
+		return ((::System::Void(*)(::Struct_2_35B7E50E408923AA&, ::Struct_2_63DDC2FA7A3D55CD&, ::Foundation::Unreal::FTransform3D, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + STRUCT_2_4CBDB11AAF13DED0_METHOD_2_C4535F0EE3975627_OFFSET))(a1, a2, a3, a4, a5);
 	}
 	*/
 
@@ -132,10 +122,20 @@ struct alignas(8) Struct_2_4CBDB11AAF13DED0
 	}
 	*/
 
-	/*
-	static ::System::Void Method_2_C4535F0EE3975627(::Struct_2_35B7E50E408923AA& a1, ::Struct_2_63DDC2FA7A3D55CD& a2, ::Foundation::Unreal::FTransform3D a3, ::UnityEngine::Vector3 a4, ::System::Single a5)
+	::System::Void Method_2_FBC63D7D2D0D1E10(::Foundation::ReadOnlyNativeVariable_1<::Foundation::Unreal::FTransform3D> a1)
 	{
-		return ((::System::Void(*)(::Struct_2_35B7E50E408923AA&, ::Struct_2_63DDC2FA7A3D55CD&, ::Foundation::Unreal::FTransform3D, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + STRUCT_2_4CBDB11AAF13DED0_METHOD_2_C4535F0EE3975627_OFFSET))(a1, a2, a3, a4, a5);
+		return ((::System::Void(*)(::PVOID, ::Foundation::ReadOnlyNativeVariable_1<::Foundation::Unreal::FTransform3D>))((::PBYTE)hIl2Cpp + STRUCT_2_4CBDB11AAF13DED0_METHOD_2_FBC63D7D2D0D1E10_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_89C1A5C779599670(::Foundation::ReadOnlyNativeVariable_1<::UnityEngine::Vector3> a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Foundation::ReadOnlyNativeVariable_1<::UnityEngine::Vector3>))((::PBYTE)hIl2Cpp + STRUCT_2_4CBDB11AAF13DED0_METHOD_2_89C1A5C779599670_OFFSET))(this, a1);
+	}
+
+	/*
+	::Foundation::NativeVariable_1<::UnityEngine::Vector3> Method_2_BCDF1C0553E211C6()
+	{
+		return ((::Foundation::NativeVariable_1<::UnityEngine::Vector3>(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_4CBDB11AAF13DED0_METHOD_2_BCDF1C0553E211C6_OFFSET))(this);
 	}
 	*/
 };

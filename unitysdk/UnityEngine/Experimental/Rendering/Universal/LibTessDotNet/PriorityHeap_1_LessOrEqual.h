@@ -8,7 +8,7 @@ namespace System { class Object; }
 
 namespace UnityEngine::Experimental::Rendering::Universal::LibTessDotNet
 {
-	inline static constexpr unsigned int PriorityHeap_1_LessOrEqual_TypeDefinitionIndex = 26396;
+	inline static constexpr unsigned int PriorityHeap_1_LessOrEqual_TypeDefinitionIndex = 27976;
 
 	template <typename TValue>
 	class PriorityHeap_1_LessOrEqual : public ::System::MulticastDelegate

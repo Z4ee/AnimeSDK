@@ -4,11 +4,11 @@
 
 namespace System::IO { class DirectoryInfo; }
 
-#define SIRENIX_SERIALIZATION_UTILITIES_PATHUTILITIES_HASSUBDIRECTORY_OFFSET UNITYSDK_OFFSET(0x1E877EE0)
+#define SIRENIX_SERIALIZATION_UTILITIES_PATHUTILITIES_HASSUBDIRECTORY_OFFSET UNITYSDK_OFFSET(0x1FC572E0)
 
 namespace Sirenix::Serialization::Utilities
 {
-	inline static constexpr unsigned int PathUtilities_TypeDefinitionIndex = 7621;
+	inline static constexpr unsigned int PathUtilities_TypeDefinitionIndex = 7625;
 
 	class PathUtilities : public ::System::Object
 	{

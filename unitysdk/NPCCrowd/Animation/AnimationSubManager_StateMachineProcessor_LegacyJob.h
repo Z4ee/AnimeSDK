@@ -6,13 +6,13 @@
 #include "unitysdk/Foundation/StateMachine/Machine.h"
 #include "unitysdk/Foundation/StateMachine/Parameter.h"
 #include "unitysdk/Foundation/StateMachine/ParameterId.h"
-#include "unitysdk/NPCCrowd/Accessories/NPCUnionAnimatorManager_CompositeKey.h"
 #include "unitysdk/NPCCrowd/Animation/AnimationSubManager_PoseInertializationRequest.h"
 #include "unitysdk/NPCCrowd/Animation/CPUStateMachine/AnimationClipDataMultiLayer.h"
 #include "unitysdk/NPCCrowd/Animation/CPUStateMachine/AnimationStateDataMultiLayer.h"
 #include "unitysdk/NPCCrowd/Animation/CPUStateMachine/AnimationTickData.h"
 #include "unitysdk/NPCCrowd/Animation/CPUStateMachine/SharedData.h"
 #include "unitysdk/NPCCrowd/Animation/CPUStateMachine/SharedStateData.h"
+#include "unitysdk/NPCCrowd/Animation/NPCUnionAnimatorManager_CompositeKey.h"
 #include "unitysdk/NPCCrowd/Chunk/ChunkView2D_1.h"
 #include "unitysdk/NPCCrowd/Chunk/ChunkView_1.h"
 #include "unitysdk/NPCCrowd/Chunk/ReadOnlyChunkView_1.h"
@@ -21,16 +21,16 @@
 
 namespace NPCCrowd::Animation { class AnimationSubManager_StateMachineArchetypeData; }
 
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_STATEMACHINEPROCESSOR_LEGACYJOB_ADVANCEANIMATION_OFFSET UNITYSDK_OFFSET(0x5EF1B0)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_STATEMACHINEPROCESSOR_LEGACYJOB_CREATEJOB_OFFSET UNITYSDK_OFFSET(0xE0242F0)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_STATEMACHINEPROCESSOR_LEGACYJOB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x5EF200)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_STATEMACHINEPROCESSOR_LEGACYJOB_GETSHAREDDATA_OFFSET UNITYSDK_OFFSET(0x5EF1A0)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_STATEMACHINEPROCESSOR_LEGACYJOB_GET_CHUNKCOUNT_OFFSET UNITYSDK_OFFSET(0x5EF190)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_STATEMACHINEPROCESSOR_LEGACYJOB_UPDATESTATE_OFFSET UNITYSDK_OFFSET(0x5EF1F0)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_STATEMACHINEPROCESSOR_LEGACYJOB_ADVANCEANIMATION_OFFSET UNITYSDK_OFFSET(0x756200)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_STATEMACHINEPROCESSOR_LEGACYJOB_CREATEJOB_OFFSET UNITYSDK_OFFSET(0x1193FDB0)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_STATEMACHINEPROCESSOR_LEGACYJOB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x756250)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_STATEMACHINEPROCESSOR_LEGACYJOB_GETSHAREDDATA_OFFSET UNITYSDK_OFFSET(0x7561F0)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_STATEMACHINEPROCESSOR_LEGACYJOB_GET_CHUNKCOUNT_OFFSET UNITYSDK_OFFSET(0x7561E0)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_STATEMACHINEPROCESSOR_LEGACYJOB_UPDATESTATE_OFFSET UNITYSDK_OFFSET(0x756240)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int AnimationSubManager_StateMachineProcessor_LegacyJob_TypeDefinitionIndex = 57430;
+	inline static constexpr unsigned int AnimationSubManager_StateMachineProcessor_LegacyJob_TypeDefinitionIndex = 88304;
 
 	struct alignas(8) AnimationSubManager_StateMachineProcessor_LegacyJob
 	{
@@ -46,7 +46,7 @@ namespace NPCCrowd::Animation
 		::NPCCrowd::Chunk::ChunkView_1<::NPCCrowd::Animation::CPUStateMachine::AnimationClipDataMultiLayer> _animations; // 0x188
 		::NPCCrowd::Chunk::ChunkView_1<::NPCCrowd::Animation::CPUStateMachine::AnimationTickData> _tickData; // 0x1A8
 		::NPCCrowd::Chunk::ChunkView_1<::NPCCrowd::Animation::AnimationSubManager_PoseInertializationRequest> _blendingRequests; // 0x1C8
-		::Unity::Collections::NativeHashMap_2<::NPCCrowd::Accessories::NPCUnionAnimatorManager_CompositeKey, ::System::Single> _transitionDictionary; // 0x1E8
+		::Unity::Collections::NativeHashMap_2<::NPCCrowd::Animation::NPCUnionAnimatorManager_CompositeKey, ::System::Single> _transitionDictionary; // 0x1E8
 		::System::Single _defaultTransitionTime; // 0x1F8
 
 		/*

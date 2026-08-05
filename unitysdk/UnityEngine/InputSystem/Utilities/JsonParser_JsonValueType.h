@@ -3,7 +3,7 @@
 
 namespace UnityEngine::InputSystem::Utilities
 {
-	inline static constexpr unsigned int JsonParser_JsonValueType_TypeDefinitionIndex = 32052;
+	inline static constexpr unsigned int JsonParser_JsonValueType_TypeDefinitionIndex = 32672;
 
 	enum class JsonParser_JsonValueType : ::System::Int32
 	{

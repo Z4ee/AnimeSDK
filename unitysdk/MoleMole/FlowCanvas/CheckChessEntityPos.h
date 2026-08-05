@@ -4,12 +4,12 @@
 
 namespace MoleMole { class ChessEntity; }
 
-#define MOLEMOLE_FLOWCANVAS_CHECKCHESSENTITYPOS_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A390BB0)
-#define MOLEMOLE_FLOWCANVAS_CHECKCHESSENTITYPOS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A390C60)
+#define MOLEMOLE_FLOWCANVAS_CHECKCHESSENTITYPOS_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B596E20)
+#define MOLEMOLE_FLOWCANVAS_CHECKCHESSENTITYPOS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B596ED0)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int CheckChessEntityPos_TypeDefinitionIndex = 50076;
+	inline static constexpr unsigned int CheckChessEntityPos_TypeDefinitionIndex = 46764;
 
 	class CheckChessEntityPos : public ::FlowCanvas::Nodes::PureFunctionNode_6<::System::Boolean, ::MoleMole::ChessEntity*, ::System::Boolean, ::System::Boolean, ::System::Int32, ::System::Int32>
 	{

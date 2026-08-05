@@ -8,24 +8,24 @@ namespace MoleMole::Battle { class Entity; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_ANIMATORZONEHIDEUI_CREATEZONEINFOINSTANCE_OFFSET UNITYSDK_OFFSET(0x11093400)
-#define MOLEMOLE_CONFIG_ANIMATORZONEHIDEUI_ONZONEENTER_OFFSET UNITYSDK_OFFSET(0x11093180)
-#define MOLEMOLE_CONFIG_ANIMATORZONEHIDEUI_ONZONEEXIT_OFFSET UNITYSDK_OFFSET(0x110932E0)
-#define MOLEMOLE_CONFIG_ANIMATORZONEHIDEUI__CTOR_OFFSET UNITYSDK_OFFSET(0x11093490)
-#define MOLEMOLE_CONFIG_ANIMATORZONEHIDEUI___BASE_CREATEZONEINFOINSTANCE_OFFSET UNITYSDK_OFFSET(0x110934A0)
-#define MOLEMOLE_CONFIG_ANIMATORZONEHIDEUI___BASE_ONZONEENTER_OFFSET UNITYSDK_OFFSET(0x11093570)
-#define MOLEMOLE_CONFIG_ANIMATORZONEHIDEUI___BASE_ONZONEEXIT_OFFSET UNITYSDK_OFFSET(0x11093620)
+#define MOLEMOLE_CONFIG_ANIMATORZONEHIDEUI_CREATEZONEINFOINSTANCE_OFFSET UNITYSDK_OFFSET(0x12EF4080)
+#define MOLEMOLE_CONFIG_ANIMATORZONEHIDEUI_ONZONEENTER_OFFSET UNITYSDK_OFFSET(0x12EF3DF0)
+#define MOLEMOLE_CONFIG_ANIMATORZONEHIDEUI_ONZONEEXIT_OFFSET UNITYSDK_OFFSET(0x12EF3F60)
+#define MOLEMOLE_CONFIG_ANIMATORZONEHIDEUI__CTOR_OFFSET UNITYSDK_OFFSET(0x12EF4110)
+#define MOLEMOLE_CONFIG_ANIMATORZONEHIDEUI___BASE_CREATEZONEINFOINSTANCE_OFFSET UNITYSDK_OFFSET(0x12EF4120)
+#define MOLEMOLE_CONFIG_ANIMATORZONEHIDEUI___BASE_ONZONEENTER_OFFSET UNITYSDK_OFFSET(0x12EF41F0)
+#define MOLEMOLE_CONFIG_ANIMATORZONEHIDEUI___BASE_ONZONEEXIT_OFFSET UNITYSDK_OFFSET(0x12EF42A0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AnimatorZoneHideUI_TypeDefinitionIndex = 53162;
+	inline static constexpr unsigned int AnimatorZoneHideUI_TypeDefinitionIndex = 48551;
 
 	class AnimatorZoneHideUI : public ::MoleMole::Config::AnimatorZone
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::String*>* HighlightTags; // 0x50
-		::System::Collections::Generic::List_1<::System::String*>* ShowUITags; // 0x58
-		::System::Collections::Generic::List_1<::System::String*>* HideUITags; // 0x60
+		::System::Collections::Generic::List_1<::System::String*>* ShowUITags; // 0x50
+		::System::Collections::Generic::List_1<::System::String*>* HideUITags; // 0x58
+		::System::Collections::Generic::List_1<::System::String*>* HighlightTags; // 0x60
 		::System::Boolean IgnoreFadeAnimationOnEnter; // 0x68
 		::System::Boolean IgnoreFadeAnimationOnExit; // 0x69
 

@@ -3,7 +3,7 @@
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int CameraDebugStatus_TypeDefinitionIndex = 37583;
+	inline static constexpr unsigned int CameraDebugStatus_TypeDefinitionIndex = 38244;
 
 	enum class CameraDebugStatus : ::System::Int32
 	{

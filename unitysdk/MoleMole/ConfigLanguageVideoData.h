@@ -10,23 +10,23 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIGLANGUAGEVIDEODATA_GETLANGUAGEVIDEOS_OFFSET UNITYSDK_OFFSET(0x157D4710)
-#define MOLEMOLE_CONFIGLANGUAGEVIDEODATA_METHOD_5_8EC5E797B6E3D088_OFFSET UNITYSDK_OFFSET(0x157D4880)
-#define MOLEMOLE_CONFIGLANGUAGEVIDEODATA_RELOADFROMFILEASYNC_OFFSET UNITYSDK_OFFSET(0x157D4340)
-#define MOLEMOLE_CONFIGLANGUAGEVIDEODATA_RELOADFROMFILE_OFFSET UNITYSDK_OFFSET(0x157D4450)
-#define MOLEMOLE_CONFIGLANGUAGEVIDEODATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x157D47E0)
-#define MOLEMOLE_CONFIGLANGUAGEVIDEODATA__CTOR_OFFSET UNITYSDK_OFFSET(0x157D4790)
+#define MOLEMOLE_CONFIGLANGUAGEVIDEODATA_GETLANGUAGEVIDEOS_OFFSET UNITYSDK_OFFSET(0x1BD7DDC0)
+#define MOLEMOLE_CONFIGLANGUAGEVIDEODATA_METHOD_5_8EC5E797B6E3D088_OFFSET UNITYSDK_OFFSET(0x1BD7DF30)
+#define MOLEMOLE_CONFIGLANGUAGEVIDEODATA_RELOADFROMFILEASYNC_OFFSET UNITYSDK_OFFSET(0x1BD7D9E0)
+#define MOLEMOLE_CONFIGLANGUAGEVIDEODATA_RELOADFROMFILE_OFFSET UNITYSDK_OFFSET(0x1BD7DB00)
+#define MOLEMOLE_CONFIGLANGUAGEVIDEODATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BD7DE90)
+#define MOLEMOLE_CONFIGLANGUAGEVIDEODATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD7DE40)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigLanguageVideoData_TypeDefinitionIndex = 80820;
+	inline static constexpr unsigned int ConfigLanguageVideoData_TypeDefinitionIndex = 60501;
 
 	class ConfigLanguageVideoData : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::LanguageVideo*>** StaticGet_Field_5_0()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::LanguageVideo*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigLanguageVideoData_TypeDefinitionIndex)->GetStaticField(0x3C310);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::LanguageVideo*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigLanguageVideoData_TypeDefinitionIndex)->GetStaticField(0x50DD0);
 		}
 
 		::System::Void _ctor()

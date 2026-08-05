@@ -4,11 +4,11 @@
 
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define FOUNDATION_VIEWOBJECT_GROUPMEMBERCOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x114D5150)
+#define FOUNDATION_VIEWOBJECT_GROUPMEMBERCOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1503B150)
 
 namespace Foundation::ViewObject
 {
-	inline static constexpr unsigned int GroupMemberCollection_TypeDefinitionIndex = 67610;
+	inline static constexpr unsigned int GroupMemberCollection_TypeDefinitionIndex = 70586;
 
 	class GroupMemberCollection : public ::System::Object
 	{

@@ -6,16 +6,16 @@ namespace MoleMole::Config { class ConfigEntityMonsterIgnisFatuusEffects; }
 namespace System { class Action; }
 namespace System { template <typename T> class Action_1; }
 
-#define CLASS_1_5C5D1BCD30A891BA_CLASS_1_9A6A2B1D03D7935E_METHOD_1_379EA02B4CCC434A_OFFSET UNITYSDK_OFFSET(0x1605EC90)
-#define CLASS_1_5C5D1BCD30A891BA_CLASS_1_9A6A2B1D03D7935E__CTOR_OFFSET UNITYSDK_OFFSET(0x1605EC80)
+#define CLASS_1_5C5D1BCD30A891BA_CLASS_1_9A6A2B1D03D7935E_METHOD_1_379EA02B4CCC434A_OFFSET UNITYSDK_OFFSET(0x146422A0)
+#define CLASS_1_5C5D1BCD30A891BA_CLASS_1_9A6A2B1D03D7935E__CTOR_OFFSET UNITYSDK_OFFSET(0x14642290)
 
-inline static constexpr unsigned int Class_1_5C5D1BCD30A891BA_Class_1_9A6A2B1D03D7935E_TypeDefinitionIndex = 77451;
+inline static constexpr unsigned int Class_1_5C5D1BCD30A891BA_Class_1_9A6A2B1D03D7935E_TypeDefinitionIndex = 67630;
 
 class Class_1_5C5D1BCD30A891BA_Class_1_9A6A2B1D03D7935E : public ::System::Object
 {
 public:
-	::System::Action_1<::MoleMole::Config::ConfigEntityMonsterIgnisFatuusEffects*>* Field_1_2; // 0x10
-	::System::Action* Field_1_1; // 0x18
+	::System::Action* Field_1_7; // 0x10
+	::System::Action_1<::MoleMole::Config::ConfigEntityMonsterIgnisFatuusEffects*>* Field_1_6; // 0x18
 	::System::Int32 Field_1_0; // 0x20
 
 	::System::Void _ctor()

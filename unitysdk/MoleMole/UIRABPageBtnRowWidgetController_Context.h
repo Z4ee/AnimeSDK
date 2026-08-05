@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIRABPAGEBTNROWWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1578CC10)
+#define MOLEMOLE_UIRABPAGEBTNROWWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x17A1DE60)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRABPageBtnRowWidgetController_Context_TypeDefinitionIndex = 48088;
+	inline static constexpr unsigned int UIRABPageBtnRowWidgetController_Context_TypeDefinitionIndex = 68942;
 
 	class UIRABPageBtnRowWidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{

@@ -4,11 +4,11 @@
 
 class Class_1_F71F7FB55BBEB1D9;
 
-#define MOLEMOLE_UIRAMENSTOREWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1569F7A0)
+#define MOLEMOLE_UIRAMENSTOREWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x17D3E4D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRamenStoreWidgetController_Context_TypeDefinitionIndex = 47811;
+	inline static constexpr unsigned int UIRamenStoreWidgetController_Context_TypeDefinitionIndex = 85137;
 
 	class UIRamenStoreWidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{

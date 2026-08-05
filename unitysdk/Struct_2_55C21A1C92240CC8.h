@@ -5,14 +5,14 @@
 
 class Class_1_D375C91CCE5D3999;
 
-#define STRUCT_2_55C21A1C92240CC8__CTOR_OFFSET UNITYSDK_OFFSET(0x3E4BB0)
+#define STRUCT_2_55C21A1C92240CC8__CTOR_OFFSET UNITYSDK_OFFSET(0x41F420)
 
-inline static constexpr unsigned int Struct_2_55C21A1C92240CC8_TypeDefinitionIndex = 52170;
+inline static constexpr unsigned int Struct_2_55C21A1C92240CC8_TypeDefinitionIndex = 63792;
 
 struct alignas(8) Struct_2_55C21A1C92240CC8
 {
 	::Class_1_D375C91CCE5D3999* Field_2_0; // 0x10
-	::Struct_2_AABA1B8087026F0F Field_2_1; // 0x18
+	::Struct_2_AABA1B8087026F0F Field_2_7; // 0x18
 
 	::System::Void _ctor(::Class_1_D375C91CCE5D3999* a1, ::Struct_2_AABA1B8087026F0F a2)
 	{

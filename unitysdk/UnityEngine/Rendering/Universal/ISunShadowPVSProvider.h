@@ -5,7 +5,7 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int ISunShadowPVSProvider_TypeDefinitionIndex = 26637;
+	inline static constexpr unsigned int ISunShadowPVSProvider_TypeDefinitionIndex = 27578;
 
 	class ISunShadowPVSProvider
 	{

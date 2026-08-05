@@ -2,23 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_3_F85B24841F00817E_9;
+class Class_3_0D78EA91F90092C6_2;
 namespace MoleMole::HollowChessboard { class HollowEntity; }
 namespace System { class String; }
 
-#define CLASS_1_697F316590647033_METHOD_1_096D063DBFBC481A_OFFSET UNITYSDK_OFFSET(0xC95BE50)
-#define CLASS_1_697F316590647033_METHOD_1_C563BDE29D4CE5A5_OFFSET UNITYSDK_OFFSET(0xC95C920)
-#define CLASS_1_697F316590647033__CCTOR_OFFSET UNITYSDK_OFFSET(0xC95BE10)
-#define CLASS_1_697F316590647033__CTOR_OFFSET UNITYSDK_OFFSET(0xC95BE00)
+#define CLASS_1_697F316590647033_METHOD_1_68131D32DAC80789_OFFSET UNITYSDK_OFFSET(0x15EDDBB0)
+#define CLASS_1_697F316590647033_METHOD_1_C563BDE29D4CE5A5_OFFSET UNITYSDK_OFFSET(0x15EDE660)
+#define CLASS_1_697F316590647033__CCTOR_OFFSET UNITYSDK_OFFSET(0x15EDDB70)
+#define CLASS_1_697F316590647033__CTOR_OFFSET UNITYSDK_OFFSET(0x15EDDB60)
 
-inline static constexpr unsigned int Class_1_697F316590647033_TypeDefinitionIndex = 79181;
+inline static constexpr unsigned int Class_1_697F316590647033_TypeDefinitionIndex = 43877;
 
 class Class_1_697F316590647033 : public ::System::Object
 {
 public:
 	static ::System::String** StaticGet_Field_1_0()
 	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_697F316590647033_TypeDefinitionIndex)->GetStaticField(0x4A1A0);
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_697F316590647033_TypeDefinitionIndex)->GetStaticField(0x3B430);
 	}
 
 	::System::Void _ctor()
@@ -31,9 +31,9 @@ public:
 		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CLASS_1_697F316590647033__CCTOR_OFFSET))();
 	}
 
-	static ::System::Void Method_1_096D063DBFBC481A(::Class_3_F85B24841F00817E_9* a1)
+	static ::System::Void Method_1_68131D32DAC80789(::Class_3_0D78EA91F90092C6_2* a1)
 	{
-		return ((::System::Void(*)(::Class_3_F85B24841F00817E_9*))((::PBYTE)hIl2Cpp + CLASS_1_697F316590647033_METHOD_1_096D063DBFBC481A_OFFSET))(a1);
+		return ((::System::Void(*)(::Class_3_0D78EA91F90092C6_2*))((::PBYTE)hIl2Cpp + CLASS_1_697F316590647033_METHOD_1_68131D32DAC80789_OFFSET))(a1);
 	}
 
 	static ::System::Void Method_1_C563BDE29D4CE5A5(::MoleMole::HollowChessboard::HollowEntity* a1, ::System::UInt32 a2)

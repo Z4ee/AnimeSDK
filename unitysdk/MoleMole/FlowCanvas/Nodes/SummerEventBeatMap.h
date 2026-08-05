@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_SUMMEREVENTBEATMAP__CTOR_OFFSET UNITYSDK_OFFSET(0x182E06C0)
+#define MOLEMOLE_FLOWCANVAS_NODES_SUMMEREVENTBEATMAP__CTOR_OFFSET UNITYSDK_OFFSET(0x19B17E30)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int SummerEventBeatMap_TypeDefinitionIndex = 66052;
+	inline static constexpr unsigned int SummerEventBeatMap_TypeDefinitionIndex = 82365;
 
 	class SummerEventBeatMap : public ::System::Object
 	{

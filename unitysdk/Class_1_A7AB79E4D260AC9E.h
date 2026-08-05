@@ -5,15 +5,15 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define CLASS_1_A7AB79E4D260AC9E__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB15FC0)
+#define CLASS_1_A7AB79E4D260AC9E__CTOR_OFFSET UNITYSDK_OFFSET(0x141D3D90)
 
-inline static constexpr unsigned int Class_1_A7AB79E4D260AC9E_TypeDefinitionIndex = 40800;
+inline static constexpr unsigned int Class_1_A7AB79E4D260AC9E_TypeDefinitionIndex = 59647;
 
 class Class_1_A7AB79E4D260AC9E : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::UnityEngine::AnimationCurve*>* Field_1_0; // 0x10
-	::System::Single Field_1_1; // 0x18
+	::System::Collections::Generic::List_1<::UnityEngine::AnimationCurve*>* Field_1_1; // 0x10
+	::System::Single Field_1_0; // 0x18
 
 	::System::Void _ctor()
 	{

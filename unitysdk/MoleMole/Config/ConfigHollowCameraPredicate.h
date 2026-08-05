@@ -6,11 +6,11 @@ namespace MoleMole::Config { class IHollowCameraPredicate; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCAMERAPREDICATE__CTOR_OFFSET UNITYSDK_OFFSET(0x17D56900)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCAMERAPREDICATE__CTOR_OFFSET UNITYSDK_OFFSET(0x172A5AC0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowCameraPredicate_TypeDefinitionIndex = 46959;
+	inline static constexpr unsigned int ConfigHollowCameraPredicate_TypeDefinitionIndex = 66448;
 
 	class ConfigHollowCameraPredicate : public ::Foundation::MihoyoSerializedScriptableObject
 	{

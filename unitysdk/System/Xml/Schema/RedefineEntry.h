@@ -5,7 +5,7 @@
 namespace System::Xml::Schema { class XmlSchema; }
 namespace System::Xml::Schema { class XmlSchemaRedefine; }
 
-#define SYSTEM_XML_SCHEMA_REDEFINEENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2D1830)
+#define SYSTEM_XML_SCHEMA_REDEFINEENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1E61BFB0)
 
 namespace System::Xml::Schema
 {

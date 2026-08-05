@@ -6,12 +6,12 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define LIGHTINGTOOLS_LIGHTPROBESVOLUMES_LIGHTPROBESFILTER_REMOVECONFLICTPROBES_OFFSET UNITYSDK_OFFSET(0x1E890390)
-#define LIGHTINGTOOLS_LIGHTPROBESVOLUMES_LIGHTPROBESFILTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E8903A0)
+#define LIGHTINGTOOLS_LIGHTPROBESVOLUMES_LIGHTPROBESFILTER_REMOVECONFLICTPROBES_OFFSET UNITYSDK_OFFSET(0x1FC6EE90)
+#define LIGHTINGTOOLS_LIGHTPROBESVOLUMES_LIGHTPROBESFILTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1FC6EEA0)
 
 namespace LightingTools::LightProbesVolumes
 {
-	inline static constexpr unsigned int LightProbesFilter_TypeDefinitionIndex = 90511;
+	inline static constexpr unsigned int LightProbesFilter_TypeDefinitionIndex = 94443;
 
 	class LightProbesFilter : public ::System::Object
 	{

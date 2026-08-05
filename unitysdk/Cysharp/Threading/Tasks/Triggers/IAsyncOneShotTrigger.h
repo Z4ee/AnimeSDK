@@ -4,7 +4,7 @@
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
-	inline static constexpr unsigned int IAsyncOneShotTrigger_TypeDefinitionIndex = 31320;
+	inline static constexpr unsigned int IAsyncOneShotTrigger_TypeDefinitionIndex = 31940;
 
 	class IAsyncOneShotTrigger
 	{

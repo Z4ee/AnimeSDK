@@ -10,11 +10,11 @@ namespace MoleMole::Config { class ConfigAvatarGround; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGBUDDYMISC__CTOR_OFFSET UNITYSDK_OFFSET(0x106C9610)
+#define MOLEMOLE_CONFIG_CONFIGBUDDYMISC__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4A7730)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigBuddyMisc_TypeDefinitionIndex = 76297;
+	inline static constexpr unsigned int ConfigBuddyMisc_TypeDefinitionIndex = 57714;
 
 	class ConfigBuddyMisc : public ::Foundation::MihoyoSerializedScriptableObject
 	{

@@ -3,7 +3,7 @@
 
 namespace Sirenix::Serialization::Utilities
 {
-	inline static constexpr unsigned int IImmutableList_1_TypeDefinitionIndex = 7652;
+	inline static constexpr unsigned int IImmutableList_1_TypeDefinitionIndex = 7656;
 
 	template <typename T>
 	class IImmutableList_1

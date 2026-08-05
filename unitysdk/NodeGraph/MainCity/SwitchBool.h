@@ -10,30 +10,30 @@ namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define NODEGRAPH_MAINCITY_SWITCHBOOL_ONNODEACTIVE_OFFSET UNITYSDK_OFFSET(0x11377100)
-#define NODEGRAPH_MAINCITY_SWITCHBOOL_ONREGISTERPARAM_OFFSET UNITYSDK_OFFSET(0x11376F50)
-#define NODEGRAPH_MAINCITY_SWITCHBOOL__CTOR_OFFSET UNITYSDK_OFFSET(0x11376300)
-#define NODEGRAPH_MAINCITY_SWITCHBOOL__ONREGISTERPARAM_B__10_0_OFFSET UNITYSDK_OFFSET(0x113772F0)
-#define NODEGRAPH_MAINCITY_SWITCHBOOL__ONREGISTERPARAM_B__10_1_OFFSET UNITYSDK_OFFSET(0x11377320)
-#define NODEGRAPH_MAINCITY_SWITCHBOOL___BASE_ONNODEACTIVE_OFFSET UNITYSDK_OFFSET(0x11377350)
-#define NODEGRAPH_MAINCITY_SWITCHBOOL___BASE_ONREGISTERPARAM_OFFSET UNITYSDK_OFFSET(0x11377360)
+#define NODEGRAPH_MAINCITY_SWITCHBOOL_ONNODEACTIVE_OFFSET UNITYSDK_OFFSET(0x13E00490)
+#define NODEGRAPH_MAINCITY_SWITCHBOOL_ONREGISTERPARAM_OFFSET UNITYSDK_OFFSET(0x13E002E0)
+#define NODEGRAPH_MAINCITY_SWITCHBOOL__CTOR_OFFSET UNITYSDK_OFFSET(0x13DFF690)
+#define NODEGRAPH_MAINCITY_SWITCHBOOL__ONREGISTERPARAM_B__10_0_OFFSET UNITYSDK_OFFSET(0x13E00680)
+#define NODEGRAPH_MAINCITY_SWITCHBOOL__ONREGISTERPARAM_B__10_1_OFFSET UNITYSDK_OFFSET(0x13E006B0)
+#define NODEGRAPH_MAINCITY_SWITCHBOOL___BASE_ONNODEACTIVE_OFFSET UNITYSDK_OFFSET(0x13E006E0)
+#define NODEGRAPH_MAINCITY_SWITCHBOOL___BASE_ONREGISTERPARAM_OFFSET UNITYSDK_OFFSET(0x13E006F0)
 
 namespace NodeGraph::MainCity
 {
-	inline static constexpr unsigned int SwitchBool_TypeDefinitionIndex = 60229;
+	inline static constexpr unsigned int SwitchBool_TypeDefinitionIndex = 42154;
 
 	class SwitchBool : public ::NodeGraph::GraphNodeFlow
 	{
 	public:
-		::NodeGraph::GraphOutputPort* True; // 0x58
-		::NodeGraph::GraphOutputPort* False; // 0x60
-		::NodeGraph::GraphInputValuePort* IndexValuePort; // 0x68
-		::NodeGraph::GraphOutputPort* Index1; // 0x70
-		::NodeGraph::GraphInputValuePort* ValuePort; // 0x78
-		::NodeGraph::GraphOutputPort* Index3; // 0x80
-		::NodeGraph::GraphOutputPort* Index2; // 0x88
-		::System::Boolean IndexMode; // 0x90
-		::System::Boolean Value; // 0x91
+		::NodeGraph::GraphInputValuePort* IndexValuePort; // 0x58
+		::NodeGraph::GraphOutputPort* Index1; // 0x60
+		::NodeGraph::GraphOutputPort* Index3; // 0x68
+		::NodeGraph::GraphOutputPort* True; // 0x70
+		::NodeGraph::GraphOutputPort* Index2; // 0x78
+		::NodeGraph::GraphInputValuePort* ValuePort; // 0x80
+		::NodeGraph::GraphOutputPort* False; // 0x88
+		::System::Boolean Value; // 0x90
+		::System::Boolean IndexMode; // 0x91
 
 		::System::Void _ctor(::NodeGraph::NodeGraphBase* nodeGraphBase)
 		{

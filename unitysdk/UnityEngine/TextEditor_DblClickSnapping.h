@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int TextEditor_DblClickSnapping_TypeDefinitionIndex = 6434;
+	inline static constexpr unsigned int TextEditor_DblClickSnapping_TypeDefinitionIndex = 6438;
 
 	enum class TextEditor_DblClickSnapping : ::System::Byte
 	{

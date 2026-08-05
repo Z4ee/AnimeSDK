@@ -4,20 +4,20 @@
 
 namespace UnrealTypes { class ICppStructOps; }
 
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_SETSTATEMACHINEPARAMTASK___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xE8AC080)
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_SETSTATEMACHINEPARAMTASK___C__CTOR_OFFSET UNITYSDK_OFFSET(0xE8AC0C0)
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_SETSTATEMACHINEPARAMTASK___C___CCTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0xE8AC0D0)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_SETSTATEMACHINEPARAMTASK___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1127AFE0)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_SETSTATEMACHINEPARAMTASK___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1127B020)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_SETSTATEMACHINEPARAMTASK___C___CCTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0x1127B030)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_SetStateMachineParamTask___c_TypeDefinitionIndex = 67861;
+	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_SetStateMachineParamTask___c_TypeDefinitionIndex = 78652;
 
 	class RegistrationInfo_ScriptStruct_SetStateMachineParamTask___c : public ::System::Object
 	{
 	public:
 		static ::NPCCrowd::Ability::RegistrationInfo_ScriptStruct_SetStateMachineParamTask___c** StaticGet___9()
 		{
-			return (::NPCCrowd::Ability::RegistrationInfo_ScriptStruct_SetStateMachineParamTask___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_SetStateMachineParamTask___c_TypeDefinitionIndex)->GetStaticField(0x46FB0);
+			return (::NPCCrowd::Ability::RegistrationInfo_ScriptStruct_SetStateMachineParamTask___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_SetStateMachineParamTask___c_TypeDefinitionIndex)->GetStaticField(0x4B220);
 		}
 
 		static ::System::Void _cctor()

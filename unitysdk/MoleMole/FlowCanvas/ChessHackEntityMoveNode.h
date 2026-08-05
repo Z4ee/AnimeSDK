@@ -17,33 +17,33 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_FLOWCANVAS_CHESSHACKENTITYMOVENODE_CONVERTGRIDDIRTODIR_OFFSET UNITYSDK_OFFSET(0x16C9A1A0)
-#define MOLEMOLE_FLOWCANVAS_CHESSHACKENTITYMOVENODE_GETPREDICTIONCELL_OFFSET UNITYSDK_OFFSET(0x16C9A070)
-#define MOLEMOLE_FLOWCANVAS_CHESSHACKENTITYMOVENODE_MOVEHACKENTITY_OFFSET UNITYSDK_OFFSET(0x16C99970)
-#define MOLEMOLE_FLOWCANVAS_CHESSHACKENTITYMOVENODE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x16C994C0)
-#define MOLEMOLE_FLOWCANVAS_CHESSHACKENTITYMOVENODE_SOLVECOLLISION_OFFSET UNITYSDK_OFFSET(0x16C9A600)
-#define MOLEMOLE_FLOWCANVAS_CHESSHACKENTITYMOVENODE_START_OFFSET UNITYSDK_OFFSET(0x16C99690)
-#define MOLEMOLE_FLOWCANVAS_CHESSHACKENTITYMOVENODE_STEPMOVE_OFFSET UNITYSDK_OFFSET(0x16C9A270)
-#define MOLEMOLE_FLOWCANVAS_CHESSHACKENTITYMOVENODE__CTOR_OFFSET UNITYSDK_OFFSET(0x16C9B860)
-#define MOLEMOLE_FLOWCANVAS_CHESSHACKENTITYMOVENODE__REGISTERPORTS_B__9_0_OFFSET UNITYSDK_OFFSET(0x16C9B970)
-#define MOLEMOLE_FLOWCANVAS_CHESSHACKENTITYMOVENODE__REGISTERPORTS_B__9_1_OFFSET UNITYSDK_OFFSET(0x16C9B9A0)
+#define MOLEMOLE_FLOWCANVAS_CHESSHACKENTITYMOVENODE_CONVERTGRIDDIRTODIR_OFFSET UNITYSDK_OFFSET(0x13A7D1C0)
+#define MOLEMOLE_FLOWCANVAS_CHESSHACKENTITYMOVENODE_GETPREDICTIONCELL_OFFSET UNITYSDK_OFFSET(0x13A7D0A0)
+#define MOLEMOLE_FLOWCANVAS_CHESSHACKENTITYMOVENODE_MOVEHACKENTITY_OFFSET UNITYSDK_OFFSET(0x13A7C9A0)
+#define MOLEMOLE_FLOWCANVAS_CHESSHACKENTITYMOVENODE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x13A7C500)
+#define MOLEMOLE_FLOWCANVAS_CHESSHACKENTITYMOVENODE_SOLVECOLLISION_OFFSET UNITYSDK_OFFSET(0x13A7D630)
+#define MOLEMOLE_FLOWCANVAS_CHESSHACKENTITYMOVENODE_START_OFFSET UNITYSDK_OFFSET(0x13A7C6D0)
+#define MOLEMOLE_FLOWCANVAS_CHESSHACKENTITYMOVENODE_STEPMOVE_OFFSET UNITYSDK_OFFSET(0x13A7D290)
+#define MOLEMOLE_FLOWCANVAS_CHESSHACKENTITYMOVENODE__CTOR_OFFSET UNITYSDK_OFFSET(0x13A7E8A0)
+#define MOLEMOLE_FLOWCANVAS_CHESSHACKENTITYMOVENODE__REGISTERPORTS_B__9_0_OFFSET UNITYSDK_OFFSET(0x13A7E9B0)
+#define MOLEMOLE_FLOWCANVAS_CHESSHACKENTITYMOVENODE__REGISTERPORTS_B__9_1_OFFSET UNITYSDK_OFFSET(0x13A7E9E0)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int ChessHackEntityMoveNode_TypeDefinitionIndex = 78981;
+	inline static constexpr unsigned int ChessHackEntityMoveNode_TypeDefinitionIndex = 82867;
 
 	class ChessHackEntityMoveNode : public ::MoleMole::FlowCanvas::ChessboardFlowNode
 	{
 	public:
-		::FlowCanvas::ValueInput_1<::Share::GridDir>* _dir; // 0xA8
-		::FlowCanvas::ValueInput_1<::System::String*>* _moveSound; // 0xB0
-		::FlowCanvas::ValueOutput_1<::System::Boolean>* _result; // 0xB8
-		::FlowCanvas::ValueInput_1<::MoleMole::ChessEntityCollection*>* _collection; // 0xC0
-		::FlowCanvas::FlowInput* _in; // 0xC8
-		::FlowCanvas::FlowOutput* _out; // 0xD0
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::MoleMole::FlowCanvas::ChessHackEntityMoveNode_MoveInfoEntry>* _moveInfoEntries; // 0xD8
-		::FlowCanvas::ValueInput_1<::System::Int32>* _mainEntity; // 0xE0
-		::FlowCanvas::ValueInput_1<::System::Collections::Generic::List_1<::MoleMole::HollowChessboard::HollowCell>*>* _boundList; // 0xE8
+		::FlowCanvas::ValueInput_1<::System::Int32>* _mainEntity; // 0xA8
+		::FlowCanvas::FlowOutput* _out; // 0xB0
+		::FlowCanvas::ValueInput_1<::MoleMole::ChessEntityCollection*>* _collection; // 0xB8
+		::FlowCanvas::FlowInput* _in; // 0xC0
+		::FlowCanvas::ValueOutput_1<::System::Boolean>* _result; // 0xC8
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::MoleMole::FlowCanvas::ChessHackEntityMoveNode_MoveInfoEntry>* _moveInfoEntries; // 0xD0
+		::FlowCanvas::ValueInput_1<::System::Collections::Generic::List_1<::MoleMole::HollowChessboard::HollowCell>*>* _boundList; // 0xD8
+		::FlowCanvas::ValueInput_1<::System::String*>* _moveSound; // 0xE0
+		::FlowCanvas::ValueInput_1<::Share::GridDir>* _dir; // 0xE8
 		::System::Boolean cacheSuccess; // 0xF0
 
 		::System::Void _ctor()

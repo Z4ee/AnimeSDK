@@ -10,7 +10,7 @@ namespace Utf8Json::Resolvers::Internal { template <typename T> class AnonymousJ
 
 namespace Utf8Json::Resolvers::Internal
 {
-	inline static constexpr unsigned int DynamicMethodAnonymousFormatter_1_TypeDefinitionIndex = 91167;
+	inline static constexpr unsigned int DynamicMethodAnonymousFormatter_1_TypeDefinitionIndex = 95100;
 
 	template <typename T>
 	class DynamicMethodAnonymousFormatter_1 : public ::System::Object

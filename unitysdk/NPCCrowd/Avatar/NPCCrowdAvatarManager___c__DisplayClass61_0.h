@@ -5,12 +5,12 @@
 class NapRenderer;
 namespace NPCCrowd::Avatar { class NPCAvatarGOReferenceComponentInfo; }
 
-#define NPCCROWD_AVATAR_NPCCROWDAVATARMANAGER___C__DISPLAYCLASS61_0__CTOR_OFFSET UNITYSDK_OFFSET(0x102BDBC0)
-#define NPCCROWD_AVATAR_NPCCROWDAVATARMANAGER___C__DISPLAYCLASS61_0__INITCPUMATERIALCOLORS_B__0_OFFSET UNITYSDK_OFFSET(0x102BDBD0)
+#define NPCCROWD_AVATAR_NPCCROWDAVATARMANAGER___C__DISPLAYCLASS61_0__CTOR_OFFSET UNITYSDK_OFFSET(0xE57C0F0)
+#define NPCCROWD_AVATAR_NPCCROWDAVATARMANAGER___C__DISPLAYCLASS61_0__INITCPUMATERIALCOLORS_B__0_OFFSET UNITYSDK_OFFSET(0xE57C100)
 
 namespace NPCCrowd::Avatar
 {
-	inline static constexpr unsigned int NPCCrowdAvatarManager___c__DisplayClass61_0_TypeDefinitionIndex = 66892;
+	inline static constexpr unsigned int NPCCrowdAvatarManager___c__DisplayClass61_0_TypeDefinitionIndex = 60722;
 
 	class NPCCrowdAvatarManager___c__DisplayClass61_0 : public ::System::Object
 	{

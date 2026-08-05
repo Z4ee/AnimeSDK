@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Enum_3_A263CE1D33E7489A_TypeDefinitionIndex = 59101;
+inline static constexpr unsigned int Enum_3_A263CE1D33E7489A_TypeDefinitionIndex = 46340;
 
 enum class Enum_3_A263CE1D33E7489A : ::System::Int32
 {
-	CompanionAIDead = 9,
 	CompanionWin = 10,
-	SoulAINotFirst = 7,
-	SnakeLose = 4,
-	SnakeAIDead = 2,
-	None = 0,
-	CompanionBossDead = 8,
-	SoulAIFirst = 6,
-	SoulAIDead = 5,
-	CompanionLose = 11,
 	SnakeWin = 3,
 	SnakeAIKill = 1,
+	SnakeAIDead = 2,
+	CompanionAIDead = 9,
+	SoulAIFirst = 6,
+	SoulAINotFirst = 7,
+	SnakeLose = 4,
+	CompanionBossDead = 8,
+	SoulAIDead = 5,
+	CompanionLose = 11,
+	None = 0,
 };

@@ -5,14 +5,14 @@
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int GasBakeVolume_Struct_2_69E606C7FA677E19_TypeDefinitionIndex = 58508;
+	inline static constexpr unsigned int GasBakeVolume_Struct_2_69E606C7FA677E19_TypeDefinitionIndex = 66231;
 
 	struct alignas(4) GasBakeVolume_Struct_2_69E606C7FA677E19
 	{
-		::UnityEngine::Vector4 Field_2_0; // 0x10
-		::UnityEngine::Vector4 Field_2_1; // 0x20
-		::UnityEngine::Vector4 Field_2_2; // 0x30
-		::UnityEngine::Vector4 Field_2_3; // 0x40
-		::UnityEngine::Vector4 Field_2_4; // 0x50
+		::UnityEngine::Vector4 Field_2_3; // 0x10
+		::UnityEngine::Vector4 Field_2_2; // 0x20
+		::UnityEngine::Vector4 Field_2_1; // 0x30
+		::UnityEngine::Vector4 Field_2_0; // 0x40
+		::UnityEngine::Vector4 Field_2_7; // 0x50
 	};
 }

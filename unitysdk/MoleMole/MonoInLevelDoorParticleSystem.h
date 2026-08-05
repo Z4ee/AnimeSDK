@@ -4,12 +4,12 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_MONOINLEVELDOORPARTICLESYSTEM_ONPARTICLESYSTEMSTOPPED_OFFSET UNITYSDK_OFFSET(0x12643A50)
-#define MOLEMOLE_MONOINLEVELDOORPARTICLESYSTEM__CTOR_OFFSET UNITYSDK_OFFSET(0x12643BD0)
+#define MOLEMOLE_MONOINLEVELDOORPARTICLESYSTEM_ONPARTICLESYSTEMSTOPPED_OFFSET UNITYSDK_OFFSET(0x14A10A50)
+#define MOLEMOLE_MONOINLEVELDOORPARTICLESYSTEM__CTOR_OFFSET UNITYSDK_OFFSET(0x14A10BD0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoInLevelDoorParticleSystem_TypeDefinitionIndex = 46266;
+	inline static constexpr unsigned int MonoInLevelDoorParticleSystem_TypeDefinitionIndex = 68816;
 
 	class MonoInLevelDoorParticleSystem : public ::UnityEngine::MonoBehaviour
 	{

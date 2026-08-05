@@ -6,14 +6,14 @@ namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
 
-#define MOLEMOLE_UIENDINGONLINEPLAYERSCRIPT_AWAKE_OFFSET UNITYSDK_OFFSET(0x1E6FAB30)
-#define MOLEMOLE_UIENDINGONLINEPLAYERSCRIPT_PLAYRESULTANIM_OFFSET UNITYSDK_OFFSET(0x1E6FAC20)
-#define MOLEMOLE_UIENDINGONLINEPLAYERSCRIPT_SETVALUE_OFFSET UNITYSDK_OFFSET(0x1E6FABA0)
-#define MOLEMOLE_UIENDINGONLINEPLAYERSCRIPT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E6FAD90)
+#define MOLEMOLE_UIENDINGONLINEPLAYERSCRIPT_AWAKE_OFFSET UNITYSDK_OFFSET(0x1FC60670)
+#define MOLEMOLE_UIENDINGONLINEPLAYERSCRIPT_PLAYRESULTANIM_OFFSET UNITYSDK_OFFSET(0x1FC60760)
+#define MOLEMOLE_UIENDINGONLINEPLAYERSCRIPT_SETVALUE_OFFSET UNITYSDK_OFFSET(0x1FC606E0)
+#define MOLEMOLE_UIENDINGONLINEPLAYERSCRIPT__CTOR_OFFSET UNITYSDK_OFFSET(0x1FC608D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIEndingOnlinePlayerScript_TypeDefinitionIndex = 91016;
+	inline static constexpr unsigned int UIEndingOnlinePlayerScript_TypeDefinitionIndex = 94889;
 
 	class UIEndingOnlinePlayerScript : public ::UnityEngine::MonoBehaviour
 	{
@@ -23,7 +23,7 @@ namespace MoleMole
 		::UnityEngine::UI::Extension::UILocalizationText* score; // 0x28
 		::System::String* winAnim; // 0x30
 		::System::String* loseAnim; // 0x38
-		::System::Boolean Field_5_5; // 0x40
+		::System::Boolean Field_5_6; // 0x40
 
 		::System::Void _ctor()
 		{

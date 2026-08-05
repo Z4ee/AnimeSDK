@@ -5,11 +5,11 @@
 namespace UnityEngine { class ComputeShader; }
 namespace UnityEngine { class Shader; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINEEDITORRESOURCES_SHADERRESOURCES__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF13120)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINEEDITORRESOURCES_SHADERRESOURCES__CTOR_OFFSET UNITYSDK_OFFSET(0x1C457640)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int UniversalRenderPipelineEditorResources_ShaderResources_TypeDefinitionIndex = 26531;
+	inline static constexpr unsigned int UniversalRenderPipelineEditorResources_ShaderResources_TypeDefinitionIndex = 27476;
 
 	class UniversalRenderPipelineEditorResources_ShaderResources : public ::System::Object
 	{

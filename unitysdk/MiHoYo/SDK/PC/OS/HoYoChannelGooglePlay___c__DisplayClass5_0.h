@@ -8,12 +8,12 @@ namespace MiHoYo::SDK::PC::OS { class HoYoChannelProductsResult; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF74D90)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__DISPLAYCLASS5_0__GETPRODUCTLIST_B__0_OFFSET UNITYSDK_OFFSET(0x1BF74DA0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3C1D90)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__DISPLAYCLASS5_0__GETPRODUCTLIST_B__0_OFFSET UNITYSDK_OFFSET(0x1D3C1DA0)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannelGooglePlay___c__DisplayClass5_0_TypeDefinitionIndex = 20319;
+	inline static constexpr unsigned int HoYoChannelGooglePlay___c__DisplayClass5_0_TypeDefinitionIndex = 20666;
 
 	class HoYoChannelGooglePlay___c__DisplayClass5_0 : public ::System::Object
 	{

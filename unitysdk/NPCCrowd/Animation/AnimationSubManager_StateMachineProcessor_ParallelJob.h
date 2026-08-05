@@ -1,32 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/NPCCrowd/Accessories/NPCUnionAnimatorManager_CompositeKey.h"
+#include "unitysdk/NPCCrowd/Animation/NPCUnionAnimatorManager_CompositeKey.h"
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/Unity/Collections/NativeHashMap_2.h"
 
 namespace NPCCrowd::Animation { class AnimationSubManager_StateMachineArchetypeData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_STATEMACHINEPROCESSOR_PARALLELJOB_ADVANCEANIMATION_OFFSET UNITYSDK_OFFSET(0xD435EB0)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_STATEMACHINEPROCESSOR_PARALLELJOB_EXECUTEWITHCONTEXT_OFFSET UNITYSDK_OFFSET(0x5938D0)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_STATEMACHINEPROCESSOR_PARALLELJOB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x5938C0)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_STATEMACHINEPROCESSOR_PARALLELJOB_GETSHAREDDATA_OFFSET UNITYSDK_OFFSET(0xD435CF0)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_STATEMACHINEPROCESSOR_PARALLELJOB_TRYRESOLVEDISPATCHINDEX_OFFSET UNITYSDK_OFFSET(0xD435B80)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_STATEMACHINEPROCESSOR_PARALLELJOB_UPDATESTATE_OFFSET UNITYSDK_OFFSET(0xD4361D0)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_STATEMACHINEPROCESSOR_PARALLELJOB_ADVANCEANIMATION_OFFSET UNITYSDK_OFFSET(0x10662AF0)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_STATEMACHINEPROCESSOR_PARALLELJOB_EXECUTEWITHCONTEXT_OFFSET UNITYSDK_OFFSET(0x6AA480)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_STATEMACHINEPROCESSOR_PARALLELJOB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x6AA370)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_STATEMACHINEPROCESSOR_PARALLELJOB_GETSHAREDDATA_OFFSET UNITYSDK_OFFSET(0x10662930)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_STATEMACHINEPROCESSOR_PARALLELJOB_TRYRESOLVEDISPATCHINDEX_OFFSET UNITYSDK_OFFSET(0x106627D0)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_STATEMACHINEPROCESSOR_PARALLELJOB_UPDATESTATE_OFFSET UNITYSDK_OFFSET(0x10662DE0)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int AnimationSubManager_StateMachineProcessor_ParallelJob_TypeDefinitionIndex = 57431;
+	inline static constexpr unsigned int AnimationSubManager_StateMachineProcessor_ParallelJob_TypeDefinitionIndex = 88302;
 
 	struct alignas(8) AnimationSubManager_StateMachineProcessor_ParallelJob
 	{
 		static ::System::Collections::Generic::List_1<::NPCCrowd::Animation::AnimationSubManager_StateMachineArchetypeData*>** StaticGet_s_sources()
 		{
-			return (::System::Collections::Generic::List_1<::NPCCrowd::Animation::AnimationSubManager_StateMachineArchetypeData*>**)Il2CppClass::FromTypeDefinitionIndex(AnimationSubManager_StateMachineProcessor_ParallelJob_TypeDefinitionIndex)->GetStaticField(0x45660);
+			return (::System::Collections::Generic::List_1<::NPCCrowd::Animation::AnimationSubManager_StateMachineArchetypeData*>**)Il2CppClass::FromTypeDefinitionIndex(AnimationSubManager_StateMachineProcessor_ParallelJob_TypeDefinitionIndex)->GetStaticField(0x49530);
 		}
 		::System::Single _deltaTime; // 0x10
 		::System::Int32 _frameCount; // 0x14
-		::Unity::Collections::NativeHashMap_2<::NPCCrowd::Accessories::NPCUnionAnimatorManager_CompositeKey, ::System::Single> _transitionDictionary; // 0x18
+		::Unity::Collections::NativeHashMap_2<::NPCCrowd::Animation::NPCUnionAnimatorManager_CompositeKey, ::System::Single> _transitionDictionary; // 0x18
 		::System::Single _defaultTransitionTime; // 0x28
 		::System::Int32 _sourceIndex; // 0x2C
 
@@ -63,9 +63,9 @@ namespace NPCCrowd::Animation
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_STATEMACHINEPROCESSOR_PARALLELJOB_EXECUTE_OFFSET))(this, chunkIndex);
 		}
 
-		::System::Void ExecuteWithContext(::System::Int32 chunkIndex, ::System::Single deltaTime, ::System::Int32 frameCount, ::Unity::Collections::NativeHashMap_2<::NPCCrowd::Accessories::NPCUnionAnimatorManager_CompositeKey, ::System::Single> transitionDictionary, ::System::Single defaultTransitionTime)
+		::System::Void ExecuteWithContext(::System::Int32 chunkIndex, ::System::Single deltaTime, ::System::Int32 frameCount, ::Unity::Collections::NativeHashMap_2<::NPCCrowd::Animation::NPCUnionAnimatorManager_CompositeKey, ::System::Single> transitionDictionary, ::System::Single defaultTransitionTime)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Single, ::System::Int32, ::Unity::Collections::NativeHashMap_2<::NPCCrowd::Accessories::NPCUnionAnimatorManager_CompositeKey, ::System::Single>, ::System::Single))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_STATEMACHINEPROCESSOR_PARALLELJOB_EXECUTEWITHCONTEXT_OFFSET))(this, chunkIndex, deltaTime, frameCount, transitionDictionary, defaultTransitionTime);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Single, ::System::Int32, ::Unity::Collections::NativeHashMap_2<::NPCCrowd::Animation::NPCUnionAnimatorManager_CompositeKey, ::System::Single>, ::System::Single))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_STATEMACHINEPROCESSOR_PARALLELJOB_EXECUTEWITHCONTEXT_OFFSET))(this, chunkIndex, deltaTime, frameCount, transitionDictionary, defaultTransitionTime);
 		}
 	};
 }

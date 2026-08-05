@@ -9,7 +9,7 @@ namespace System { class Object; }
 
 namespace NodeCanvas::Framework::Internal
 {
-	inline static constexpr unsigned int ReflectedFunction_7_TypeDefinitionIndex = 29659;
+	inline static constexpr unsigned int ReflectedFunction_7_TypeDefinitionIndex = 30384;
 
 	template <typename TResult, typename T1, typename T2, typename T3, typename T4, typename T5, typename T6>
 	class ReflectedFunction_7 : public ::NodeCanvas::Framework::Internal::ReflectedFunctionWrapper

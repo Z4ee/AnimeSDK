@@ -3,12 +3,12 @@
 
 namespace UnityEngine::Experimental::Rendering::Universal::LibTessDotNet
 {
-	inline static constexpr unsigned int ElementType_TypeDefinitionIndex = 27270;
+	inline static constexpr unsigned int ElementType_TypeDefinitionIndex = 27607;
 
 	enum class ElementType : ::System::Int32
 	{
-		BoundaryContours = 2,
 		Polygons = 0,
+		BoundaryContours = 2,
 		ConnectedPolygons = 1,
 	};
 }

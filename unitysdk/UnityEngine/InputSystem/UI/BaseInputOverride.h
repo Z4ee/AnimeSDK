@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_INPUTSYSTEM_UI_BASEINPUTOVERRIDE_GET_COMPOSITIONSTRING_OFFSET UNITYSDK_OFFSET(0x1E3D1100)
-#define UNITYENGINE_INPUTSYSTEM_UI_BASEINPUTOVERRIDE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E3D1110)
+#define UNITYENGINE_INPUTSYSTEM_UI_BASEINPUTOVERRIDE_GET_COMPOSITIONSTRING_OFFSET UNITYSDK_OFFSET(0x1F810EA0)
+#define UNITYENGINE_INPUTSYSTEM_UI_BASEINPUTOVERRIDE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F810EB0)
 
 namespace UnityEngine::InputSystem::UI
 {
-	inline static constexpr unsigned int BaseInputOverride_TypeDefinitionIndex = 31762;
+	inline static constexpr unsigned int BaseInputOverride_TypeDefinitionIndex = 32382;
 
 	class BaseInputOverride : public ::UnityEngine::EventSystems::BaseInput
 	{

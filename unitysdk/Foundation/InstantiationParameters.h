@@ -6,12 +6,12 @@
 
 namespace UnityEngine { class Transform; }
 
-#define FOUNDATION_INSTANTIATIONPARAMETERS__CTOR_1_OFFSET UNITYSDK_OFFSET(0xA462A0)
-#define FOUNDATION_INSTANTIATIONPARAMETERS__CTOR_OFFSET UNITYSDK_OFFSET(0xA46270)
+#define FOUNDATION_INSTANTIATIONPARAMETERS__CTOR_1_OFFSET UNITYSDK_OFFSET(0xA8AF40)
+#define FOUNDATION_INSTANTIATIONPARAMETERS__CTOR_OFFSET UNITYSDK_OFFSET(0xA8AF00)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int InstantiationParameters_TypeDefinitionIndex = 7810;
+	inline static constexpr unsigned int InstantiationParameters_TypeDefinitionIndex = 8263;
 
 	struct alignas(8) InstantiationParameters
 	{

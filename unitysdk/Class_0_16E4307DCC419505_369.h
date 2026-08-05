@@ -1,9 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/Enum_3_CAEA556991ED2261.h"
 
-namespace MoleMole::HollowChessboard { class RenderSequenceBase; }
-
-inline static constexpr unsigned int Class_0_16E4307DCC419505_369_TypeDefinitionIndex = 45766;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_369_TypeDefinitionIndex = 78356;
 
 class Class_0_16E4307DCC419505_369
 {

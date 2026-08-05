@@ -1,26 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_5DA2E7556103D5A3_72.h"
-#include "unitysdk/Class_2_208CC9941471731A_265_Enum_3_B6D76BC3F4E02345.h"
-#include "unitysdk/Struct_2_3E75877A2888D88A_306.h"
+#include "unitysdk/Class_1_48F4A404A08692BE_46.h"
+#include "unitysdk/Struct_2_3E75877A2888D88A_449.h"
 
 class Class_0_16E4307DCC419505_7;
 
-#define CLASS_2_208CC9941471731A_265_METHOD_2_54F43380B1685E65_OFFSET UNITYSDK_OFFSET(0x15BB4140)
-#define CLASS_2_208CC9941471731A_265__CTOR_OFFSET UNITYSDK_OFFSET(0x15BB4130)
+#define CLASS_2_208CC9941471731A_265__CTOR_OFFSET UNITYSDK_OFFSET(0x173F4F40)
 
-inline static constexpr unsigned int Class_2_208CC9941471731A_265_TypeDefinitionIndex = 10021;
+inline static constexpr unsigned int Class_2_208CC9941471731A_265_TypeDefinitionIndex = 10153;
 
-class Class_2_208CC9941471731A_265 : public ::Class_1_5DA2E7556103D5A3_72
+class Class_2_208CC9941471731A_265 : public ::Class_1_48F4A404A08692BE_46
 {
 public:
-	::System::Void _ctor(::Struct_2_3E75877A2888D88A_306 a1, ::Class_0_16E4307DCC419505_7* a2)
+	::System::Void _ctor(::Struct_2_3E75877A2888D88A_449 a1, ::Class_0_16E4307DCC419505_7* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::Struct_2_3E75877A2888D88A_306, ::Class_0_16E4307DCC419505_7*))((::PBYTE)hIl2Cpp + CLASS_2_208CC9941471731A_265__CTOR_OFFSET))(this, a1, a2);
-	}
-
-	::Class_2_208CC9941471731A_265_Enum_3_B6D76BC3F4E02345 Method_2_54F43380B1685E65()
-	{
-		return ((::Class_2_208CC9941471731A_265_Enum_3_B6D76BC3F4E02345(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_208CC9941471731A_265_METHOD_2_54F43380B1685E65_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID, ::Struct_2_3E75877A2888D88A_449, ::Class_0_16E4307DCC419505_7*))((::PBYTE)hIl2Cpp + CLASS_2_208CC9941471731A_265__CTOR_OFFSET))(this, a1, a2);
 	}
 };

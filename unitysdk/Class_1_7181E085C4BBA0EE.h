@@ -6,15 +6,15 @@
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_7181E085C4BBA0EE_METHOD_1_EC63BBE23B4A2074_OFFSET UNITYSDK_OFFSET(0xB7D0C00)
-#define CLASS_1_7181E085C4BBA0EE__CTOR_OFFSET UNITYSDK_OFFSET(0xB7D0B70)
+#define CLASS_1_7181E085C4BBA0EE_METHOD_1_EC63BBE23B4A2074_OFFSET UNITYSDK_OFFSET(0x119C3E20)
+#define CLASS_1_7181E085C4BBA0EE__CTOR_OFFSET UNITYSDK_OFFSET(0x119C3D90)
 
-inline static constexpr unsigned int Class_1_7181E085C4BBA0EE_TypeDefinitionIndex = 45989;
+inline static constexpr unsigned int Class_1_7181E085C4BBA0EE_TypeDefinitionIndex = 85077;
 
 class Class_1_7181E085C4BBA0EE : public ::System::Object
 {
 public:
-	::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::MoleMole::Vector2Int>*>* Field_1_1; // 0x10
+	::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::MoleMole::Vector2Int>*>* Field_1_7; // 0x10
 	::System::Int32 Field_1_0; // 0x18
 
 	::System::Void _ctor()

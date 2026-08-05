@@ -4,12 +4,12 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define NPCCROWD_AI_AIACTIONNAVMESHTOCONFIG_GETBASEACTIONCONFIG_OFFSET UNITYSDK_OFFSET(0x6D9C70)
-#define NPCCROWD_AI_AIACTIONNAVMESHTOCONFIG_ISMULTITHREAD_OFFSET UNITYSDK_OFFSET(0x6D9CC0)
+#define NPCCROWD_AI_AIACTIONNAVMESHTOCONFIG_GETBASEACTIONCONFIG_OFFSET UNITYSDK_OFFSET(0x8240C0)
+#define NPCCROWD_AI_AIACTIONNAVMESHTOCONFIG_ISMULTITHREAD_OFFSET UNITYSDK_OFFSET(0x824110)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int AIActionNavmeshToConfig_TypeDefinitionIndex = 64499;
+	inline static constexpr unsigned int AIActionNavmeshToConfig_TypeDefinitionIndex = 51034;
 
 	struct alignas(8) AIActionNavmeshToConfig
 	{

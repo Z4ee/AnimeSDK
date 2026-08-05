@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MHYSDKC_Console_ButtonId_TypeDefinitionIndex = 36547;
+	inline static constexpr unsigned int MHYSDKC_Console_ButtonId_TypeDefinitionIndex = 37206;
 
 	enum class MHYSDKC_Console_ButtonId : ::System::Int32
 	{

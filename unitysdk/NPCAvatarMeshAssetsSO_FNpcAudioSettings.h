@@ -4,7 +4,7 @@
 
 namespace System { class String; }
 
-inline static constexpr unsigned int NPCAvatarMeshAssetsSO_FNpcAudioSettings_TypeDefinitionIndex = 67210;
+inline static constexpr unsigned int NPCAvatarMeshAssetsSO_FNpcAudioSettings_TypeDefinitionIndex = 55899;
 
 struct alignas(8) NPCAvatarMeshAssetsSO_FNpcAudioSettings
 {

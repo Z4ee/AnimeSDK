@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MIHOYO_SDK_HTTPINTERCEPTORMANAGER_INIT_OFFSET UNITYSDK_OFFSET(0x1C9614F0)
+#define MIHOYO_SDK_HTTPINTERCEPTORMANAGER_INIT_OFFSET UNITYSDK_OFFSET(0x1DD40710)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int HttpInterceptorManager_TypeDefinitionIndex = 19724;
+	inline static constexpr unsigned int HttpInterceptorManager_TypeDefinitionIndex = 20072;
 
 	class HttpInterceptorManager : public ::System::Object
 	{

@@ -9,7 +9,7 @@ namespace UnityEngine { class Material; }
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int MB_TexSet_PipelineVariation_TypeDefinitionIndex = 90704;
+	inline static constexpr unsigned int MB_TexSet_PipelineVariation_TypeDefinitionIndex = 94637;
 
 	class MB_TexSet_PipelineVariation
 	{

@@ -3,16 +3,16 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHandBookPopWindowController_EHandBookTab_TypeDefinitionIndex = 53602;
+	inline static constexpr unsigned int UIHandBookPopWindowController_EHandBookTab_TypeDefinitionIndex = 85075;
 
 	enum class UIHandBookPopWindowController_EHandBookTab : ::System::Int32
 	{
-		DailyQuest = 1,
-		HardQuest = 3,
-		NormalQuest = 2,
-		MAX = 5,
-		None = -1,
-		ProxyQuest = 0,
 		Tactics = 4,
+		ProxyQuest = 0,
+		MAX = 5,
+		HardQuest = 3,
+		DailyQuest = 1,
+		None = -1,
+		NormalQuest = 2,
 	};
 }

@@ -3,7 +3,7 @@
 
 namespace Nap::NapECS
 {
-	inline static constexpr unsigned int IEcsEntityAction_1_TypeDefinitionIndex = 37300;
+	inline static constexpr unsigned int IEcsEntityAction_1_TypeDefinitionIndex = 38024;
 
 	template <typename T1>
 	class IEcsEntityAction_1

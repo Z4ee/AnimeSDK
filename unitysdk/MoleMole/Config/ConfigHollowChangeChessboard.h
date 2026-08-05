@@ -6,12 +6,12 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHANGECHESSBOARD_GET_DEFAULTKEY_OFFSET UNITYSDK_OFFSET(0x158A8DC0)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHANGECHESSBOARD__CTOR_OFFSET UNITYSDK_OFFSET(0x158A8E00)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHANGECHESSBOARD_GET_DEFAULTKEY_OFFSET UNITYSDK_OFFSET(0x14375DF0)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHANGECHESSBOARD__CTOR_OFFSET UNITYSDK_OFFSET(0x14375E30)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowChangeChessboard_TypeDefinitionIndex = 71672;
+	inline static constexpr unsigned int ConfigHollowChangeChessboard_TypeDefinitionIndex = 44161;
 
 	class ConfigHollowChangeChessboard : public ::Foundation::MihoyoSerializedScriptableObject
 	{

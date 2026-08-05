@@ -8,13 +8,13 @@
 namespace MoleMole::Timeline { class ColorLookupBehaviour; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_TIMELINE_COLORLOOKUPCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x181800B0)
-#define MOLEMOLE_TIMELINE_COLORLOOKUPCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x181800A0)
-#define MOLEMOLE_TIMELINE_COLORLOOKUPCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x18180290)
+#define MOLEMOLE_TIMELINE_COLORLOOKUPCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x13AE0280)
+#define MOLEMOLE_TIMELINE_COLORLOOKUPCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x13AE0270)
+#define MOLEMOLE_TIMELINE_COLORLOOKUPCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x13AE0460)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int ColorLookupClip_TypeDefinitionIndex = 43727;
+	inline static constexpr unsigned int ColorLookupClip_TypeDefinitionIndex = 40337;
 
 	class ColorLookupClip : public ::UnityEngine::Playables::PlayableAsset
 	{

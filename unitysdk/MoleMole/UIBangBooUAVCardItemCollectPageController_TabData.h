@@ -8,7 +8,7 @@ namespace System { class String; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBangBooUAVCardItemCollectPageController_TabData_TypeDefinitionIndex = 56683;
+	inline static constexpr unsigned int UIBangBooUAVCardItemCollectPageController_TabData_TypeDefinitionIndex = 56673;
 
 	struct alignas(8) UIBangBooUAVCardItemCollectPageController_TabData
 	{

@@ -8,7 +8,7 @@ namespace MoleMole::Config { class ScopedFrontCameraControlConfigInput; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIDisplayCase3DModelController_CameraCfg_TypeDefinitionIndex = 42918;
+	inline static constexpr unsigned int UIDisplayCase3DModelController_CameraCfg_TypeDefinitionIndex = 76319;
 
 	struct alignas(8) UIDisplayCase3DModelController_CameraCfg
 	{

@@ -7,7 +7,7 @@ namespace System { template <typename T1, typename T2> class Action_2; }
 
 namespace HexagonalLib
 {
-	inline static constexpr unsigned int HexagonalGrid___c__DisplayClass80_0_1_TypeDefinitionIndex = 28866;
+	inline static constexpr unsigned int HexagonalGrid___c__DisplayClass80_0_1_TypeDefinitionIndex = 29406;
 
 	template <typename T>
 	class HexagonalGrid___c__DisplayClass80_0_1 : public ::System::Object

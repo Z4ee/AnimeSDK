@@ -7,23 +7,23 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnrealTypes { class Object; }
 
-#define UNREALTYPES_GLOBALOBJECTHASHTABLES_FINDOBJECTBYTYPEID_OFFSET UNITYSDK_OFFSET(0x1D1B60A0)
-#define UNREALTYPES_GLOBALOBJECTHASHTABLES__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D1B61D0)
+#define UNREALTYPES_GLOBALOBJECTHASHTABLES_FINDOBJECTBYTYPEID_OFFSET UNITYSDK_OFFSET(0x1E38F730)
+#define UNREALTYPES_GLOBALOBJECTHASHTABLES__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E38F860)
 
 namespace UnrealTypes
 {
-	inline static constexpr unsigned int GlobalObjectHashTables_TypeDefinitionIndex = 27756;
+	inline static constexpr unsigned int GlobalObjectHashTables_TypeDefinitionIndex = 28359;
 
 	class GlobalObjectHashTables : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::UnrealTypes::TObjectHandle_1<::UnrealTypes::Object*>>** StaticGet_TypeId2ObjectHandle()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::UnrealTypes::TObjectHandle_1<::UnrealTypes::Object*>>**)Il2CppClass::FromTypeDefinitionIndex(GlobalObjectHashTables_TypeDefinitionIndex)->GetStaticField(0x227C0);
-		}
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::UnrealTypes::TObjectHandle_1<::UnrealTypes::Object*>>** StaticGet_FullName2ObjectHandle()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::UnrealTypes::TObjectHandle_1<::UnrealTypes::Object*>>**)Il2CppClass::FromTypeDefinitionIndex(GlobalObjectHashTables_TypeDefinitionIndex)->GetStaticField(0x227C8);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::UnrealTypes::TObjectHandle_1<::UnrealTypes::Object*>>**)Il2CppClass::FromTypeDefinitionIndex(GlobalObjectHashTables_TypeDefinitionIndex)->GetStaticField(0x23F30);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::UnrealTypes::TObjectHandle_1<::UnrealTypes::Object*>>** StaticGet_TypeId2ObjectHandle()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::UnrealTypes::TObjectHandle_1<::UnrealTypes::Object*>>**)Il2CppClass::FromTypeDefinitionIndex(GlobalObjectHashTables_TypeDefinitionIndex)->GetStaticField(0x23F38);
 		}
 
 		static ::System::Void _cctor()

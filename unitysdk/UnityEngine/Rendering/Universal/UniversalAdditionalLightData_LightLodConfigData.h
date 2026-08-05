@@ -8,7 +8,7 @@ namespace UnityEngine { class Transform; }
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int UniversalAdditionalLightData_LightLodConfigData_TypeDefinitionIndex = 26424;
+	inline static constexpr unsigned int UniversalAdditionalLightData_LightLodConfigData_TypeDefinitionIndex = 27572;
 
 	struct alignas(8) UniversalAdditionalLightData_LightLodConfigData
 	{
@@ -21,5 +21,6 @@ namespace UnityEngine::Rendering::Universal
 		::UnityEngine::LayerMask triggerLayerMask; // 0x2C
 		::System::Boolean triggerActive; // 0x30
 		::System::Boolean isRTXActive; // 0x31
+		::System::Boolean supportsAdditionalLightShadows; // 0x32
 	};
 }

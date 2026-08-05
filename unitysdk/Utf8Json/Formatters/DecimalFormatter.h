@@ -8,22 +8,22 @@
 namespace Utf8Json { class IJsonFormatterResolver; }
 namespace Utf8Json { template <typename T> class IJsonFormatter_1; }
 
-#define UTF8JSON_FORMATTERS_DECIMALFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1E855800)
-#define UTF8JSON_FORMATTERS_DECIMALFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1E8556C0)
-#define UTF8JSON_FORMATTERS_DECIMALFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E855A20)
-#define UTF8JSON_FORMATTERS_DECIMALFORMATTER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E8556B0)
-#define UTF8JSON_FORMATTERS_DECIMALFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E8556A0)
+#define UTF8JSON_FORMATTERS_DECIMALFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1FC36380)
+#define UTF8JSON_FORMATTERS_DECIMALFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1FC36250)
+#define UTF8JSON_FORMATTERS_DECIMALFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FC365A0)
+#define UTF8JSON_FORMATTERS_DECIMALFORMATTER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1FC36240)
+#define UTF8JSON_FORMATTERS_DECIMALFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1FC36230)
 
 namespace Utf8Json::Formatters
 {
-	inline static constexpr unsigned int DecimalFormatter_TypeDefinitionIndex = 91376;
+	inline static constexpr unsigned int DecimalFormatter_TypeDefinitionIndex = 95309;
 
 	class DecimalFormatter : public ::System::Object
 	{
 	public:
 		static ::Utf8Json::IJsonFormatter_1<::System::Decimal>** StaticGet_Default()
 		{
-			return (::Utf8Json::IJsonFormatter_1<::System::Decimal>**)Il2CppClass::FromTypeDefinitionIndex(DecimalFormatter_TypeDefinitionIndex)->GetStaticField(0x4EF20);
+			return (::Utf8Json::IJsonFormatter_1<::System::Decimal>**)Il2CppClass::FromTypeDefinitionIndex(DecimalFormatter_TypeDefinitionIndex)->GetStaticField(0x530D0);
 		}
 		::System::Boolean serializeAsString; // 0x10
 

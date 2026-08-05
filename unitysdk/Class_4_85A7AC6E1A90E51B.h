@@ -5,27 +5,27 @@
 #include "unitysdk/Struct_2_29439DBE2B63DCF3.h"
 
 namespace System { class String; }
-template <typename T> class Class_4_F91115D9A1F02F5F;
+template <typename T> class Class_4_2FF7D360A2F3EC48;
 
-#define CLASS_4_85A7AC6E1A90E51B_METHOD_4_25DEA5C65A602671_OFFSET UNITYSDK_OFFSET(0x14435090)
-#define CLASS_4_85A7AC6E1A90E51B_METHOD_4_47125C76AFDB961E_OFFSET UNITYSDK_OFFSET(0x14434920)
-#define CLASS_4_85A7AC6E1A90E51B_METHOD_4_497833CF065C1894_OFFSET UNITYSDK_OFFSET(0x144345A0)
-#define CLASS_4_85A7AC6E1A90E51B__CTOR_OFFSET UNITYSDK_OFFSET(0x14434E00)
+#define CLASS_4_85A7AC6E1A90E51B_METHOD_4_25DEA5C65A602671_OFFSET UNITYSDK_OFFSET(0x1404C4E0)
+#define CLASS_4_85A7AC6E1A90E51B_METHOD_4_47125C76AFDB961E_OFFSET UNITYSDK_OFFSET(0x1404BD70)
+#define CLASS_4_85A7AC6E1A90E51B_METHOD_4_497833CF065C1894_OFFSET UNITYSDK_OFFSET(0x1404B9F0)
+#define CLASS_4_85A7AC6E1A90E51B__CTOR_OFFSET UNITYSDK_OFFSET(0x1404C250)
 
-inline static constexpr unsigned int Class_4_85A7AC6E1A90E51B_TypeDefinitionIndex = 74856;
+inline static constexpr unsigned int Class_4_85A7AC6E1A90E51B_TypeDefinitionIndex = 41951;
 
 class Class_4_85A7AC6E1A90E51B : public ::Class_3_F3948D237059FA7A
 {
 public:
-	::Class_4_F91115D9A1F02F5F<::System::String*>* Field_4_4; // 0x28
-	::Class_4_F91115D9A1F02F5F<::System::Single>* Field_4_8; // 0x30
-	::Class_4_F91115D9A1F02F5F<::MoleMole::EntityHandle>* Field_4_1; // 0x38
-	::Class_4_F91115D9A1F02F5F<::System::Single>* Field_4_7; // 0x40
-	::Class_4_F91115D9A1F02F5F<::System::String*>* Field_4_6; // 0x48
-	::Class_4_F91115D9A1F02F5F<::System::Int32>* Field_4_0; // 0x50
-	::Class_4_F91115D9A1F02F5F<::MoleMole::EntityHandle>* Field_4_3; // 0x58
-	::Class_4_F91115D9A1F02F5F<::MoleMole::EntityHandle>* Field_4_5; // 0x60
-	::Class_4_F91115D9A1F02F5F<::System::String*>* Field_4_2; // 0x68
+	::Class_4_2FF7D360A2F3EC48<::MoleMole::EntityHandle>* Field_4_0; // 0x28
+	::Class_4_2FF7D360A2F3EC48<::System::Int32>* Field_4_1; // 0x30
+	::Class_4_2FF7D360A2F3EC48<::System::String*>* Field_4_5; // 0x38
+	::Class_4_2FF7D360A2F3EC48<::System::String*>* Field_4_11; // 0x40
+	::Class_4_2FF7D360A2F3EC48<::System::Single>* Field_4_9; // 0x48
+	::Class_4_2FF7D360A2F3EC48<::MoleMole::EntityHandle>* Field_4_4; // 0x50
+	::Class_4_2FF7D360A2F3EC48<::MoleMole::EntityHandle>* Field_4_6; // 0x58
+	::Class_4_2FF7D360A2F3EC48<::System::String*>* Field_4_7; // 0x60
+	::Class_4_2FF7D360A2F3EC48<::System::Single>* Field_4_10; // 0x68
 
 	::System::Void _ctor()
 	{

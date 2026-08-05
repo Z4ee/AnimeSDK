@@ -3,13 +3,13 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigZipLine_TransitionMode_TypeDefinitionIndex = 51226;
+	inline static constexpr unsigned int ConfigZipLine_TransitionMode_TypeDefinitionIndex = 53017;
 
 	enum class ConfigZipLine_TransitionMode : ::System::Int32
 	{
-		FixedTargetPoint = 0,
 		FloatTargetPoint = 1,
-		MixedMode = 3,
 		PredicateTargetPoint = 2,
+		FixedTargetPoint = 0,
+		MixedMode = 3,
 	};
 }

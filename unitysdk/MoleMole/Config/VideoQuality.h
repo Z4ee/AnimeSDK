@@ -3,13 +3,13 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int VideoQuality_TypeDefinitionIndex = 40898;
+	inline static constexpr unsigned int VideoQuality_TypeDefinitionIndex = 83521;
 
 	enum class VideoQuality : ::System::Int32
 	{
 		LD = 3,
 		HD = 1,
-		SD = 0,
 		CD = 2,
+		SD = 0,
 	};
 }

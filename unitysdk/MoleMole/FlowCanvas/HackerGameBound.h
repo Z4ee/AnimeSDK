@@ -7,13 +7,13 @@ namespace FlowCanvas { class FlowNode; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_FLOWCANVAS_HACKERGAMEBOUND_INVOKE_OFFSET UNITYSDK_OFFSET(0x17E685E0)
-#define MOLEMOLE_FLOWCANVAS_HACKERGAMEBOUND_ONREGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x17E683B0)
-#define MOLEMOLE_FLOWCANVAS_HACKERGAMEBOUND__CTOR_OFFSET UNITYSDK_OFFSET(0x17E68720)
+#define MOLEMOLE_FLOWCANVAS_HACKERGAMEBOUND_INVOKE_OFFSET UNITYSDK_OFFSET(0x19BD8F00)
+#define MOLEMOLE_FLOWCANVAS_HACKERGAMEBOUND_ONREGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x19BD8CD0)
+#define MOLEMOLE_FLOWCANVAS_HACKERGAMEBOUND__CTOR_OFFSET UNITYSDK_OFFSET(0x19BD9040)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int HackerGameBound_TypeDefinitionIndex = 85087;
+	inline static constexpr unsigned int HackerGameBound_TypeDefinitionIndex = 84586;
 
 	class HackerGameBound : public ::FlowCanvas::Nodes::CallableFunctionNodeBase
 	{
@@ -21,8 +21,8 @@ namespace MoleMole::FlowCanvas
 		::FlowCanvas::ValueInput_1<::System::Collections::Generic::List_1<::MoleMole::HollowChessboard::HollowCell>*>* _bound; // 0x38
 		::System::Int32 maxY; // 0x40
 		::System::Int32 minY; // 0x44
-		::System::Int32 minX; // 0x48
-		::System::Int32 maxX; // 0x4C
+		::System::Int32 maxX; // 0x48
+		::System::Int32 minX; // 0x4C
 
 		::System::Void _ctor()
 		{

@@ -6,7 +6,7 @@ namespace UnityEngine { class ControllerColliderHit; }
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
-	inline static constexpr unsigned int IAsyncOnControllerColliderHitHandler_TypeDefinitionIndex = 31358;
+	inline static constexpr unsigned int IAsyncOnControllerColliderHitHandler_TypeDefinitionIndex = 31978;
 
 	class IAsyncOnControllerColliderHitHandler
 	{

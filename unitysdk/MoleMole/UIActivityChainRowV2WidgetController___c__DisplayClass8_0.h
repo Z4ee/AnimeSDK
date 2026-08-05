@@ -4,19 +4,19 @@
 
 class Class_1_1685EC66FBD28897;
 class Class_3_1699D6295DC3F818_1;
-class Class_3_BD954AEAE8F1A57B;
+class Class_3_AE02BC8285203464_18;
 
-#define MOLEMOLE_UIACTIVITYCHAINROWV2WIDGETCONTROLLER___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16112730)
-#define MOLEMOLE_UIACTIVITYCHAINROWV2WIDGETCONTROLLER___C__DISPLAYCLASS8_0__ONSCROLLITEMUPDATE_B__0_OFFSET UNITYSDK_OFFSET(0x16112740)
+#define MOLEMOLE_UIACTIVITYCHAINROWV2WIDGETCONTROLLER___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19272CD0)
+#define MOLEMOLE_UIACTIVITYCHAINROWV2WIDGETCONTROLLER___C__DISPLAYCLASS8_0__ONSCROLLITEMUPDATE_B__0_OFFSET UNITYSDK_OFFSET(0x19272CE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityChainRowV2WidgetController___c__DisplayClass8_0_TypeDefinitionIndex = 47065;
+	inline static constexpr unsigned int UIActivityChainRowV2WidgetController___c__DisplayClass8_0_TypeDefinitionIndex = 73495;
 
 	class UIActivityChainRowV2WidgetController___c__DisplayClass8_0 : public ::System::Object
 	{
 	public:
-		::Class_3_BD954AEAE8F1A57B* task; // 0x10
+		::Class_3_AE02BC8285203464_18* task; // 0x10
 
 		::System::Void _ctor()
 		{

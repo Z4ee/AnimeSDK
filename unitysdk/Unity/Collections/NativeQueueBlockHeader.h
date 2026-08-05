@@ -4,7 +4,7 @@
 
 namespace Unity::Collections
 {
-	inline static constexpr unsigned int NativeQueueBlockHeader_TypeDefinitionIndex = 18462;
+	inline static constexpr unsigned int NativeQueueBlockHeader_TypeDefinitionIndex = 18869;
 
 	struct alignas(8) NativeQueueBlockHeader
 	{

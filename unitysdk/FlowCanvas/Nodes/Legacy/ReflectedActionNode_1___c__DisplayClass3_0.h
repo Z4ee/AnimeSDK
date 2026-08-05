@@ -9,7 +9,7 @@ namespace FlowCanvas::Nodes::Legacy { template <typename T> class ReflectedActio
 
 namespace FlowCanvas::Nodes::Legacy
 {
-	inline static constexpr unsigned int ReflectedActionNode_1___c__DisplayClass3_0_TypeDefinitionIndex = 29455;
+	inline static constexpr unsigned int ReflectedActionNode_1___c__DisplayClass3_0_TypeDefinitionIndex = 30112;
 
 	template <typename T1>
 	class ReflectedActionNode_1___c__DisplayClass3_0 : public ::System::Object

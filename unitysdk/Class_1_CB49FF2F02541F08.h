@@ -9,16 +9,16 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 template <typename T1, typename T2> class Class_1_CB49FF2F02541F08;
 
-inline static constexpr unsigned int Class_1_CB49FF2F02541F08_TypeDefinitionIndex = 78689;
+inline static constexpr unsigned int Class_1_CB49FF2F02541F08_TypeDefinitionIndex = 89811;
 
 template <typename T, typename TTarget>
 class Class_1_CB49FF2F02541F08 : public ::System::Object
 {
 public:
-	static ::Class_1_CB49FF2F02541F08<T, TTarget>** StaticGet_Field_1_0()
+	static ::Class_1_CB49FF2F02541F08<T, TTarget>** StaticGet_Field_1_1()
 	{
 		return (::Class_1_CB49FF2F02541F08<T, TTarget>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_CB49FF2F02541F08_TypeDefinitionIndex)->GetStaticField(0x0);
 	}
-	::System::Collections::Generic::IList_1<T>* Field_1_1; // 0x0
-	::System::Func_2<T, TTarget>* Field_1_2; // 0x0
+	::System::Collections::Generic::IList_1<T>* Field_1_0; // 0x0
+	::System::Func_2<T, TTarget>* Field_1_7; // 0x0
 };

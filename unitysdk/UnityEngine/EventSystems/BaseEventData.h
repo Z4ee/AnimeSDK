@@ -5,12 +5,12 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::EventSystems { class EventSystem; }
 
-#define UNITYENGINE_EVENTSYSTEMS_BASEEVENTDATA_SET_SELECTEDOBJECT_OFFSET UNITYSDK_OFFSET(0x1E4ABE30)
-#define UNITYENGINE_EVENTSYSTEMS_BASEEVENTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1E4ABE20)
+#define UNITYENGINE_EVENTSYSTEMS_BASEEVENTDATA_SET_SELECTEDOBJECT_OFFSET UNITYSDK_OFFSET(0x1F811600)
+#define UNITYENGINE_EVENTSYSTEMS_BASEEVENTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1F8115F0)
 
 namespace UnityEngine::EventSystems
 {
-	inline static constexpr unsigned int BaseEventData_TypeDefinitionIndex = 19015;
+	inline static constexpr unsigned int BaseEventData_TypeDefinitionIndex = 19359;
 
 	class BaseEventData : public ::UnityEngine::EventSystems::AbstractEventData
 	{

@@ -6,11 +6,11 @@
 namespace NPCCrowd::AI { class PathGraphConnectorConfig_PathGraphConnection; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCCROWD_AI_PATHGRAPHCONNECTORCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xD5ABF30)
+#define NPCCROWD_AI_PATHGRAPHCONNECTORCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x10B394F0)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int PathGraphConnectorConfig_TypeDefinitionIndex = 74184;
+	inline static constexpr unsigned int PathGraphConnectorConfig_TypeDefinitionIndex = 88707;
 
 	class PathGraphConnectorConfig : public ::NPCCrowd::AI::PathGraphNodeConfig
 	{

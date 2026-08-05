@@ -3,7 +3,7 @@
 
 namespace ObservableCollections
 {
-	inline static constexpr unsigned int IReadOnlyObservableList_1_TypeDefinitionIndex = 28014;
+	inline static constexpr unsigned int IReadOnlyObservableList_1_TypeDefinitionIndex = 28805;
 
 	template <typename T>
 	class IReadOnlyObservableList_1

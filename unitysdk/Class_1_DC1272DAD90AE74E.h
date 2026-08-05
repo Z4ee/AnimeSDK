@@ -18,26 +18,26 @@ namespace MoleMole::Photo { class Skeleton; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_DC1272DAD90AE74E_METHOD_1_170484CF64D444FC_OFFSET UNITYSDK_OFFSET(0x1255DD90)
-#define CLASS_1_DC1272DAD90AE74E_METHOD_1_805A1176D6D48274_OFFSET UNITYSDK_OFFSET(0x12560CF0)
-#define CLASS_1_DC1272DAD90AE74E_METHOD_1_976F2D84A4D5D9B7_OFFSET UNITYSDK_OFFSET(0x1255F900)
-#define CLASS_1_DC1272DAD90AE74E_METHOD_1_D27A045D6D2D7121_OFFSET UNITYSDK_OFFSET(0x1255F720)
-#define CLASS_1_DC1272DAD90AE74E_METHOD_1_E1270750936A4EA2_OFFSET UNITYSDK_OFFSET(0x1255FB00)
-#define CLASS_1_DC1272DAD90AE74E_METHOD_1_E8AC0942E184E7D0_OFFSET UNITYSDK_OFFSET(0x12560BF0)
-#define CLASS_1_DC1272DAD90AE74E__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1255DD10)
-#define CLASS_1_DC1272DAD90AE74E__CTOR_OFFSET UNITYSDK_OFFSET(0x1255DC90)
+#define CLASS_1_DC1272DAD90AE74E_METHOD_1_170484CF64D444FC_OFFSET UNITYSDK_OFFSET(0x12116890)
+#define CLASS_1_DC1272DAD90AE74E_METHOD_1_805A1176D6D48274_OFFSET UNITYSDK_OFFSET(0x12116060)
+#define CLASS_1_DC1272DAD90AE74E_METHOD_1_976F2D84A4D5D9B7_OFFSET UNITYSDK_OFFSET(0x12116590)
+#define CLASS_1_DC1272DAD90AE74E_METHOD_1_D27A045D6D2D7121_OFFSET UNITYSDK_OFFSET(0x121163B0)
+#define CLASS_1_DC1272DAD90AE74E_METHOD_1_E1270750936A4EA2_OFFSET UNITYSDK_OFFSET(0x12114F50)
+#define CLASS_1_DC1272DAD90AE74E_METHOD_1_E8AC0942E184E7D0_OFFSET UNITYSDK_OFFSET(0x12116790)
+#define CLASS_1_DC1272DAD90AE74E__CTOR_1_OFFSET UNITYSDK_OFFSET(0x12114ED0)
+#define CLASS_1_DC1272DAD90AE74E__CTOR_OFFSET UNITYSDK_OFFSET(0x12114E50)
 
-inline static constexpr unsigned int Class_1_DC1272DAD90AE74E_TypeDefinitionIndex = 57049;
+inline static constexpr unsigned int Class_1_DC1272DAD90AE74E_TypeDefinitionIndex = 56406;
 
 class Class_1_DC1272DAD90AE74E : public ::System::Object
 {
 public:
-	::System::Collections::Generic::Dictionary_2<::Foundation::Unreal::FName, ::System::ValueTuple_2<::Struct_2_F0CFA50094D8FF32_Struct_2_D2AF02AB9D5157BD, ::Struct_2_6402D4A3EAB8BDC8>>* Field_1_2; // 0x10
-	::Foundation::NameValueContainerBuilder* Field_1_1; // 0x18
-	::Il2CppArray<::Foundation::NativeMemoryRequestHandle>* Field_1_4; // 0x20
-	::MoleMole::Photo::ReferenceSkeletonConfig* Field_1_0; // 0x28
-	::Foundation::NameValueContainerBuilder* Field_1_3; // 0x30
-	::Struct_2_60DB83E0FA9E5BFC Field_1_5; // 0x38
+	::MoleMole::Photo::ReferenceSkeletonConfig* Field_1_1; // 0x10
+	::System::Collections::Generic::Dictionary_2<::Foundation::Unreal::FName, ::System::ValueTuple_2<::Struct_2_F0CFA50094D8FF32_Struct_2_D2AF02AB9D5157BD, ::Struct_2_6402D4A3EAB8BDC8>>* Field_1_7; // 0x18
+	::Foundation::NameValueContainerBuilder* Field_1_6; // 0x20
+	::Foundation::NameValueContainerBuilder* Field_1_0; // 0x28
+	::Il2CppArray<::Foundation::NativeMemoryRequestHandle>* Field_1_5; // 0x30
+	::Struct_2_60DB83E0FA9E5BFC Field_1_4; // 0x38
 
 	::System::Void _ctor(::MoleMole::Photo::ReferenceSkeletonConfig* a1)
 	{
@@ -49,9 +49,14 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_DC1272DAD90AE74E__CTOR_1_OFFSET))(this);
 	}
 
-	::System::Void Method_1_170484CF64D444FC(::Foundation::NativeMemoryBuilder* a1, ::System::String*& a2)
+	::Struct_2_ACD0EF80A5330786 Method_1_E1270750936A4EA2(::Foundation::NativeMemory* a1, ::System::String*& a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::Foundation::NativeMemoryBuilder*, ::System::String*&))((::PBYTE)hIl2Cpp + CLASS_1_DC1272DAD90AE74E_METHOD_1_170484CF64D444FC_OFFSET))(this, a1, a2);
+		return ((::Struct_2_ACD0EF80A5330786(*)(::PVOID, ::Foundation::NativeMemory*, ::System::String*&))((::PBYTE)hIl2Cpp + CLASS_1_DC1272DAD90AE74E_METHOD_1_E1270750936A4EA2_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_1_805A1176D6D48274(::Foundation::NativeMemoryBuilder* a1, ::System::String*& a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Foundation::NativeMemoryBuilder*, ::System::String*&))((::PBYTE)hIl2Cpp + CLASS_1_DC1272DAD90AE74E_METHOD_1_805A1176D6D48274_OFFSET))(this, a1, a2);
 	}
 
 	::Struct_2_6402D4A3EAB8BDC8 Method_1_D27A045D6D2D7121(::Foundation::Unreal::FName a1)
@@ -64,18 +69,13 @@ public:
 		return ((::System::Boolean(*)(::PVOID, ::MoleMole::Photo::BoneSocketConfig*))((::PBYTE)hIl2Cpp + CLASS_1_DC1272DAD90AE74E_METHOD_1_976F2D84A4D5D9B7_OFFSET))(this, a1);
 	}
 
-	::Struct_2_ACD0EF80A5330786 Method_1_E1270750936A4EA2(::Foundation::NativeMemory* a1, ::System::String*& a2)
-	{
-		return ((::Struct_2_ACD0EF80A5330786(*)(::PVOID, ::Foundation::NativeMemory*, ::System::String*&))((::PBYTE)hIl2Cpp + CLASS_1_DC1272DAD90AE74E_METHOD_1_E1270750936A4EA2_OFFSET))(this, a1, a2);
-	}
-
 	::System::Void Method_1_E8AC0942E184E7D0(::Foundation::NativeMemoryBuilder* a1, ::MoleMole::Photo::Skeleton* a2, ::System::String*& a3)
 	{
 		return ((::System::Void(*)(::PVOID, ::Foundation::NativeMemoryBuilder*, ::MoleMole::Photo::Skeleton*, ::System::String*&))((::PBYTE)hIl2Cpp + CLASS_1_DC1272DAD90AE74E_METHOD_1_E8AC0942E184E7D0_OFFSET))(this, a1, a2, a3);
 	}
 
-	::System::Void Method_1_805A1176D6D48274(::Foundation::NativeMemoryBuilder* a1, ::System::String*& a2)
+	::System::Void Method_1_170484CF64D444FC(::Foundation::NativeMemoryBuilder* a1, ::System::String*& a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::Foundation::NativeMemoryBuilder*, ::System::String*&))((::PBYTE)hIl2Cpp + CLASS_1_DC1272DAD90AE74E_METHOD_1_805A1176D6D48274_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::Foundation::NativeMemoryBuilder*, ::System::String*&))((::PBYTE)hIl2Cpp + CLASS_1_DC1272DAD90AE74E_METHOD_1_170484CF64D444FC_OFFSET))(this, a1, a2);
 	}
 };

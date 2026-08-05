@@ -5,18 +5,18 @@
 class Class_0_16E4307DCC419505_197;
 namespace MoleMole::Config { class ConfigSoundAction_DelayAction; }
 
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_DELAYACTION___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA60BE0)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_DELAYACTION___C__DISPLAYCLASS4_0__EXECUTE_B__0_OFFSET UNITYSDK_OFFSET(0x1AA60BF0)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_DELAYACTION___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C462C40)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_DELAYACTION___C__DISPLAYCLASS4_0__EXECUTE_B__0_OFFSET UNITYSDK_OFFSET(0x1C462C50)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigSoundAction_DelayAction___c__DisplayClass4_0_TypeDefinitionIndex = 75386;
+	inline static constexpr unsigned int ConfigSoundAction_DelayAction___c__DisplayClass4_0_TypeDefinitionIndex = 50022;
 
 	class ConfigSoundAction_DelayAction___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:
-		::Class_0_16E4307DCC419505_197* context; // 0x10
-		::MoleMole::Config::ConfigSoundAction_DelayAction* __4__this; // 0x18
+		::MoleMole::Config::ConfigSoundAction_DelayAction* __4__this; // 0x10
+		::Class_0_16E4307DCC419505_197* context; // 0x18
 
 		::System::Void _ctor()
 		{

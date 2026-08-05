@@ -7,7 +7,7 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace MoleMole::DataStructures::Lists
 {
-	inline static constexpr unsigned int EasySerializeDictionary_3___c_TypeDefinitionIndex = 28115;
+	inline static constexpr unsigned int EasySerializeDictionary_3___c_TypeDefinitionIndex = 28898;
 
 	template <typename TKey, typename TValue, typename TEntry>
 	class EasySerializeDictionary_3___c : public ::System::Object

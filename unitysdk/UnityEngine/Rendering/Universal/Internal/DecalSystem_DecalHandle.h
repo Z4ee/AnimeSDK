@@ -4,20 +4,20 @@
 
 namespace UnityEngine::Rendering::Universal::Internal { class DecalProjector; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECALSYSTEM_DECALHANDLE_ISVALID_OFFSET UNITYSDK_OFFSET(0x1BC22DC0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECALSYSTEM_DECALHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC22D70)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECALSYSTEM_DECALHANDLE_ISVALID_OFFSET UNITYSDK_OFFSET(0x1C99EAA0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECALSYSTEM_DECALHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C99EA50)
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int DecalSystem_DecalHandle_TypeDefinitionIndex = 26365;
+	inline static constexpr unsigned int DecalSystem_DecalHandle_TypeDefinitionIndex = 26881;
 
 	class DecalSystem_DecalHandle : public ::System::Object
 	{
 	public:
 		::UnityEngine::Rendering::Universal::Internal::DecalProjector* m_Projector; // 0x10
-		::System::Int32 m_Index; // 0x18
+		::System::Int32 m_InstanceID; // 0x18
 		::System::Int32 cachedSiblingIndex; // 0x1C
-		::System::Int32 m_InstanceID; // 0x20
+		::System::Int32 m_Index; // 0x20
 
 		::System::Void _ctor(::System::Int32 index, ::System::Int32 instanceID, ::UnityEngine::Rendering::Universal::Internal::DecalProjector* projector)
 		{

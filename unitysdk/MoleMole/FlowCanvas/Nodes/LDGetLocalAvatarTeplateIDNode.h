@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FlowCanvas/Nodes/CallableFunctionNode_1.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETLOCALAVATARTEPLATEIDNODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x16C9F9F0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETLOCALAVATARTEPLATEIDNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x16C9FC50)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETLOCALAVATARTEPLATEIDNODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x13A82B60)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETLOCALAVATARTEPLATEIDNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x13A82DD0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDGetLocalAvatarTeplateIDNode_TypeDefinitionIndex = 84770;
+	inline static constexpr unsigned int LDGetLocalAvatarTeplateIDNode_TypeDefinitionIndex = 70338;
 
 	class LDGetLocalAvatarTeplateIDNode : public ::FlowCanvas::Nodes::CallableFunctionNode_1<::System::Int32>
 	{

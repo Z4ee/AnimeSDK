@@ -13,22 +13,22 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 namespace UnityEngine { class RenderTexture; }
 
-#define CLASS_1_841BB7283C5EE854_STRUCT_2_0856A0E6AA5EDC34_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x702830)
-#define CLASS_1_841BB7283C5EE854_STRUCT_2_0856A0E6AA5EDC34_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x283610)
+#define CLASS_1_841BB7283C5EE854_STRUCT_2_0856A0E6AA5EDC34_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x86FB20)
+#define CLASS_1_841BB7283C5EE854_STRUCT_2_0856A0E6AA5EDC34_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x296F30)
 
-inline static constexpr unsigned int Class_1_841BB7283C5EE854_Struct_2_0856A0E6AA5EDC34_TypeDefinitionIndex = 80299;
+inline static constexpr unsigned int Class_1_841BB7283C5EE854_Struct_2_0856A0E6AA5EDC34_TypeDefinitionIndex = 82474;
 
 struct alignas(8) Class_1_841BB7283C5EE854_Struct_2_0856A0E6AA5EDC34
 {
-	::UnityEngine::RenderTexture* Field_2_7; // 0x10
-	::PhotoFrame* Field_2_2; // 0x18
-	::MoleMole::PhotoFrameRender* Field_2_5; // 0x20
-	::Cysharp::Threading::Tasks::UniTask_1_Awaiter<::MoleMole::PhotoFrameRender*> Field_2_6; // 0x28
-	::System::Func_2<::UnityEngine::RenderTexture*, ::Cysharp::Threading::Tasks::UniTask>* Field_2_3; // 0x40
-	::MoleMole::UIBaseController* Field_2_4; // 0x48
-	::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder Field_2_1; // 0x50
-	::Cysharp::Threading::Tasks::UniTask_Awaiter Field_2_8; // 0x60
-	::System::Int32 Field_2_0; // 0x70
+	::UnityEngine::RenderTexture* Field_2_10; // 0x10
+	::Cysharp::Threading::Tasks::UniTask_1_Awaiter<::MoleMole::PhotoFrameRender*> Field_2_11; // 0x18
+	::MoleMole::PhotoFrameRender* Field_2_4; // 0x30
+	::MoleMole::UIBaseController* Field_2_5; // 0x38
+	::Cysharp::Threading::Tasks::UniTask_Awaiter Field_2_9; // 0x40
+	::System::Func_2<::UnityEngine::RenderTexture*, ::Cysharp::Threading::Tasks::UniTask>* Field_2_6; // 0x50
+	::PhotoFrame* Field_2_7; // 0x58
+	::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder Field_2_0; // 0x60
+	::System::Int32 Field_2_1; // 0x70
 
 	::System::Void MoveNext()
 	{

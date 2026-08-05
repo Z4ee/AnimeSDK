@@ -5,15 +5,15 @@
 class Class_1_FBBD974B239A498C;
 class Class_3_F33F9DC5F4112336;
 
-#define STRUCT_2_7B4A5895C2061251_DISPOSE_OFFSET UNITYSDK_OFFSET(0x6C9120)
-#define STRUCT_2_7B4A5895C2061251__CTOR_OFFSET UNITYSDK_OFFSET(0x6C9060)
+#define STRUCT_2_7B4A5895C2061251_DISPOSE_OFFSET UNITYSDK_OFFSET(0x7A5360)
+#define STRUCT_2_7B4A5895C2061251__CTOR_OFFSET UNITYSDK_OFFSET(0x7A52A0)
 
-inline static constexpr unsigned int Struct_2_7B4A5895C2061251_TypeDefinitionIndex = 56448;
+inline static constexpr unsigned int Struct_2_7B4A5895C2061251_TypeDefinitionIndex = 45094;
 
 struct alignas(8) Struct_2_7B4A5895C2061251
 {
-	::Class_3_F33F9DC5F4112336* Field_2_0; // 0x10
-	::System::Boolean Field_2_1; // 0x18
+	::Class_3_F33F9DC5F4112336* Field_2_1; // 0x10
+	::System::Boolean Field_2_0; // 0x18
 
 	::System::Void _ctor(::Class_3_F33F9DC5F4112336* a1, ::Class_1_FBBD974B239A498C* a2)
 	{

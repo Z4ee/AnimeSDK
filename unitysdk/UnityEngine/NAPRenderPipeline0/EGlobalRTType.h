@@ -3,7 +3,7 @@
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int EGlobalRTType_TypeDefinitionIndex = 5905;
+	inline static constexpr unsigned int EGlobalRTType_TypeDefinitionIndex = 5907;
 
 	enum class EGlobalRTType : ::System::Int32
 	{

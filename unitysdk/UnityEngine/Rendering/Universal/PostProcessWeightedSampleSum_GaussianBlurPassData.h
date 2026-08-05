@@ -9,7 +9,7 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int PostProcessWeightedSampleSum_GaussianBlurPassData_TypeDefinitionIndex = 26306;
+	inline static constexpr unsigned int PostProcessWeightedSampleSum_GaussianBlurPassData_TypeDefinitionIndex = 27979;
 
 	struct alignas(8) PostProcessWeightedSampleSum_GaussianBlurPassData
 	{

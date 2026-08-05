@@ -5,11 +5,11 @@
 namespace MoleMole { class GraphicSettingProfileBase; }
 namespace System { class String; }
 
-#define CLASS_2_B82F43BE25916F7C_4_METHOD_2_6424DA16BE1ACD1D_OFFSET UNITYSDK_OFFSET(0x1A83D3D0)
-#define CLASS_2_B82F43BE25916F7C_4_METHOD_2_D77A433E32B3609D_OFFSET UNITYSDK_OFFSET(0x1A83CD10)
-#define CLASS_2_B82F43BE25916F7C_4__CTOR_OFFSET UNITYSDK_OFFSET(0x1A83CD00)
+#define CLASS_2_B82F43BE25916F7C_4_METHOD_2_6424DA16BE1ACD1D_OFFSET UNITYSDK_OFFSET(0x14DFA4A0)
+#define CLASS_2_B82F43BE25916F7C_4_METHOD_2_CF27EDB12528CE39_OFFSET UNITYSDK_OFFSET(0x14DF9CB0)
+#define CLASS_2_B82F43BE25916F7C_4__CTOR_OFFSET UNITYSDK_OFFSET(0x14DF9CA0)
 
-inline static constexpr unsigned int Class_2_B82F43BE25916F7C_4_TypeDefinitionIndex = 50391;
+inline static constexpr unsigned int Class_2_B82F43BE25916F7C_4_TypeDefinitionIndex = 54712;
 
 class Class_2_B82F43BE25916F7C_4 : public ::Class_1_480FC3B3774489BF
 {
@@ -19,9 +19,9 @@ public:
 		return ((::System::Void(*)(::PVOID, ::MoleMole::GraphicSettingProfileBase*))((::PBYTE)hIl2Cpp + CLASS_2_B82F43BE25916F7C_4__CTOR_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_2_D77A433E32B3609D(::System::String* a1, ::System::Boolean a2)
+	::System::Void Method_2_CF27EDB12528CE39(::System::String* a1, ::System::Boolean a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_2_B82F43BE25916F7C_4_METHOD_2_D77A433E32B3609D_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_2_B82F43BE25916F7C_4_METHOD_2_CF27EDB12528CE39_OFFSET))(this, a1, a2);
 	}
 
 	::System::Void Method_2_6424DA16BE1ACD1D(::System::String* a1, ::System::Boolean a2)

@@ -9,11 +9,11 @@ namespace MoleMole::Config { class ConfigHollowPlayerMove; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWPLAYER__CTOR_OFFSET UNITYSDK_OFFSET(0x162AFAF0)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWPLAYER__CTOR_OFFSET UNITYSDK_OFFSET(0x16C43340)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowPlayer_TypeDefinitionIndex = 49960;
+	inline static constexpr unsigned int ConfigHollowPlayer_TypeDefinitionIndex = 71112;
 
 	class ConfigHollowPlayer : public ::Foundation::MihoyoSerializedScriptableObject
 	{

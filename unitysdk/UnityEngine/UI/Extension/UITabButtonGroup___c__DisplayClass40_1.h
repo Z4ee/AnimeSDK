@@ -3,12 +3,12 @@
 #include "unitysdk/Struct_2_EBC86B04CFFF8F2C.h"
 #include "unitysdk/System/Object.h"
 
-#define UNITYENGINE_UI_EXTENSION_UITABBUTTONGROUP___C__DISPLAYCLASS40_1__ADDLOCKTAB_B__2_OFFSET UNITYSDK_OFFSET(0x1AEB33B0)
-#define UNITYENGINE_UI_EXTENSION_UITABBUTTONGROUP___C__DISPLAYCLASS40_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1AEB33A0)
+#define UNITYENGINE_UI_EXTENSION_UITABBUTTONGROUP___C__DISPLAYCLASS40_1__ADDLOCKTAB_B__2_OFFSET UNITYSDK_OFFSET(0x1E835480)
+#define UNITYENGINE_UI_EXTENSION_UITABBUTTONGROUP___C__DISPLAYCLASS40_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1E835470)
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int UITabButtonGroup___c__DisplayClass40_1_TypeDefinitionIndex = 56163;
+	inline static constexpr unsigned int UITabButtonGroup___c__DisplayClass40_1_TypeDefinitionIndex = 50416;
 
 	class UITabButtonGroup___c__DisplayClass40_1 : public ::System::Object
 	{

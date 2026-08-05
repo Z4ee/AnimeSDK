@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDHADAL_GETTIMERVALUE_INVOKE_OFFSET UNITYSDK_OFFSET(0x13001900)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDHADAL_GETTIMERVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x13001A90)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDHADAL_GETTIMERVALUE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A0436F0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDHADAL_GETTIMERVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A043890)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDHadal_GetTimerValue_TypeDefinitionIndex = 48727;
+	inline static constexpr unsigned int LDHadal_GetTimerValue_TypeDefinitionIndex = 67899;
 
 	class LDHadal_GetTimerValue : public ::FlowCanvas::Nodes::PureFunctionNode_2<::System::Single, ::System::String*>
 	{

@@ -3,12 +3,12 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigSurfGameItemSpeedCurveType_TypeDefinitionIndex = 85184;
+	inline static constexpr unsigned int ConfigSurfGameItemSpeedCurveType_TypeDefinitionIndex = 75747;
 
 	enum class ConfigSurfGameItemSpeedCurveType : ::System::Int32
 	{
-		Acceleration = 1,
-		None = 0,
 		Deceleration = 2,
+		None = 0,
+		Acceleration = 1,
 	};
 }

@@ -4,12 +4,12 @@
 #include "unitysdk/MoleMole/FlowCanvas/Nodes/TargetArrowUIKind.h"
 #include "unitysdk/MoleMole/FlowCanvas/Nodes/TargetUIOperation.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSETTARGETARROWUIVISIABLENODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x15118A90)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSETTARGETARROWUIVISIABLENODE__CTOR_OFFSET UNITYSDK_OFFSET(0x15118CE0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSETTARGETARROWUIVISIABLENODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B1A40F0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSETTARGETARROWUIVISIABLENODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1A4340)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDSetTargetArrowUIVisiableNode_TypeDefinitionIndex = 69544;
+	inline static constexpr unsigned int LDSetTargetArrowUIVisiableNode_TypeDefinitionIndex = 69346;
 
 	class LDSetTargetArrowUIVisiableNode : public ::FlowCanvas::Nodes::CallableFunctionNode_3<::System::Boolean, ::MoleMole::FlowCanvas::Nodes::TargetUIOperation, ::MoleMole::FlowCanvas::Nodes::TargetArrowUIKind>
 	{

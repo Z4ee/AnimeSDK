@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int GPUGrassBillboardSourceMaterialSwitchStage_TypeDefinitionIndex = 27243;
+	inline static constexpr unsigned int GPUGrassBillboardSourceMaterialSwitchStage_TypeDefinitionIndex = 27490;
 
 	enum class GPUGrassBillboardSourceMaterialSwitchStage : ::System::Int32
 	{

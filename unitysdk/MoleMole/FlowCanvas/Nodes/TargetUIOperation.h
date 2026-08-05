@@ -3,7 +3,7 @@
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int TargetUIOperation_TypeDefinitionIndex = 51470;
+	inline static constexpr unsigned int TargetUIOperation_TypeDefinitionIndex = 58759;
 
 	enum class TargetUIOperation : ::System::Int32
 	{

@@ -7,7 +7,7 @@ namespace MessagePack { class MessagePackSerializerOptions; }
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int IMessagePackFormatter_1_TypeDefinitionIndex = 29942;
+	inline static constexpr unsigned int IMessagePackFormatter_1_TypeDefinitionIndex = 30169;
 
 	template <typename T>
 	class IMessagePackFormatter_1

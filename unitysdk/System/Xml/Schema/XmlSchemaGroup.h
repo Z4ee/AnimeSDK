@@ -9,11 +9,11 @@ namespace System::Xml::Schema { class XmlSchemaGroupBase; }
 namespace System::Xml::Schema { class XmlSchemaObject; }
 namespace System::Xml::Schema { class XmlSchemaParticle; }
 
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAGROUP_CLONE_1_OFFSET UNITYSDK_OFFSET(0x1DD22090)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAGROUP_CLONE_OFFSET UNITYSDK_OFFSET(0x1DD22080)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAGROUP_GET_NAMEATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1DD22060)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAGROUP_SET_NAMEATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1DD22070)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD22270)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAGROUP_CLONE_1_OFFSET UNITYSDK_OFFSET(0x1F14EA60)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAGROUP_CLONE_OFFSET UNITYSDK_OFFSET(0x1F14EA50)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAGROUP_GET_NAMEATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1F14EA30)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAGROUP_SET_NAMEATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1F14EA40)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1F14EC50)
 
 namespace System::Xml::Schema
 {
@@ -22,11 +22,11 @@ namespace System::Xml::Schema
 	class XmlSchemaGroup : public ::System::Xml::Schema::XmlSchemaAnnotated
 	{
 	public:
-		::System::Xml::Schema::XmlSchemaGroupBase* particle; // 0x50
-		::System::Xml::Schema::XmlSchemaParticle* canonicalParticle; // 0x58
+		::System::Xml::XmlQualifiedName* qname; // 0x50
+		::System::String* name; // 0x58
 		::System::Xml::Schema::XmlSchemaGroup* redefined; // 0x60
-		::System::String* name; // 0x68
-		::System::Xml::XmlQualifiedName* qname; // 0x70
+		::System::Xml::Schema::XmlSchemaGroupBase* particle; // 0x68
+		::System::Xml::Schema::XmlSchemaParticle* canonicalParticle; // 0x70
 		::System::Int32 selfReferenceCount; // 0x78
 
 		::System::Void _ctor()

@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define FLOWCANVAS_NODES_GENERATEDKEYATTRIBUTE_GET_MEMBERNAME_OFFSET UNITYSDK_OFFSET(0x1D531EB0)
-#define FLOWCANVAS_NODES_GENERATEDKEYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D531EA0)
+#define FLOWCANVAS_NODES_GENERATEDKEYATTRIBUTE_GET_MEMBERNAME_OFFSET UNITYSDK_OFFSET(0x1E229A50)
+#define FLOWCANVAS_NODES_GENERATEDKEYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E229A40)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int GeneratedKeyAttribute_TypeDefinitionIndex = 30650;
+	inline static constexpr unsigned int GeneratedKeyAttribute_TypeDefinitionIndex = 31107;
 
 	class GeneratedKeyAttribute : public ::System::Attribute
 	{

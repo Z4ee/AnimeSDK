@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SYSTEM_RUNTIME_SERIALIZATION_DATACONTRACTATTRIBUTE_GET_ISREFERENCE_OFFSET UNITYSDK_OFFSET(0x1E890A50)
-#define SYSTEM_RUNTIME_SERIALIZATION_DATACONTRACTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E890A40)
+#define SYSTEM_RUNTIME_SERIALIZATION_DATACONTRACTATTRIBUTE_GET_ISREFERENCE_OFFSET UNITYSDK_OFFSET(0x1FC6F8E0)
+#define SYSTEM_RUNTIME_SERIALIZATION_DATACONTRACTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1FC6F8D0)
 
 namespace System::Runtime::Serialization
 {
-	inline static constexpr unsigned int DataContractAttribute_TypeDefinitionIndex = 6601;
+	inline static constexpr unsigned int DataContractAttribute_TypeDefinitionIndex = 6605;
 
 	class DataContractAttribute : public ::System::Attribute
 	{

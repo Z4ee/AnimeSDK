@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace SQLite
 {
-	inline static constexpr unsigned int TableQuery_1_CompileResult_TypeDefinitionIndex = 38421;
+	inline static constexpr unsigned int TableQuery_1_CompileResult_TypeDefinitionIndex = 39082;
 
 	template <typename T>
 	class TableQuery_1_CompileResult : public ::System::Object

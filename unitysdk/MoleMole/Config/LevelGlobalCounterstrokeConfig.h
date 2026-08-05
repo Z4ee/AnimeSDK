@@ -6,11 +6,11 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_LEVELGLOBALCOUNTERSTROKECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17E37060)
+#define MOLEMOLE_CONFIG_LEVELGLOBALCOUNTERSTROKECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16C5AC00)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int LevelGlobalCounterstrokeConfig_TypeDefinitionIndex = 43774;
+	inline static constexpr unsigned int LevelGlobalCounterstrokeConfig_TypeDefinitionIndex = 71821;
 
 	class LevelGlobalCounterstrokeConfig : public ::Foundation::MihoyoSerializedScriptableObject
 	{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_HOUSERHYTHMAVATARUNLOCKCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x11624EE0)
+#define MOLEMOLE_HOUSERHYTHMAVATARUNLOCKCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x19258810)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int HouseRhythmAvatarUnlockContext_TypeDefinitionIndex = 81379;
+	inline static constexpr unsigned int HouseRhythmAvatarUnlockContext_TypeDefinitionIndex = 80325;
 
 	class HouseRhythmAvatarUnlockContext : public ::MoleMole::UIControllerContextBase
 	{

@@ -3,11 +3,11 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int VirtualJoystickMoveType_TypeDefinitionIndex = 55814;
+	inline static constexpr unsigned int VirtualJoystickMoveType_TypeDefinitionIndex = 86154;
 
 	enum class VirtualJoystickMoveType : ::System::Int32
 	{
-		Classic = 0,
 		Modern = 1,
+		Classic = 0,
 	};
 }

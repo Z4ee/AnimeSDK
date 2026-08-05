@@ -7,19 +7,19 @@
 namespace MessagePack { class MessagePackSerializerOptions; }
 namespace MoleMole::Config { class InputEnableInfo; }
 
-#define CLASS_1_7F1CB224E73F8936_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1337CDE0)
-#define CLASS_1_7F1CB224E73F8936_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1337CD50)
-#define CLASS_1_7F1CB224E73F8936__CCTOR_OFFSET UNITYSDK_OFFSET(0x1337CEA0)
-#define CLASS_1_7F1CB224E73F8936__CTOR_OFFSET UNITYSDK_OFFSET(0x1337CE90)
+#define CLASS_1_7F1CB224E73F8936_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1A552650)
+#define CLASS_1_7F1CB224E73F8936_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1A5525C0)
+#define CLASS_1_7F1CB224E73F8936__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A552710)
+#define CLASS_1_7F1CB224E73F8936__CTOR_OFFSET UNITYSDK_OFFSET(0x1A552700)
 
-inline static constexpr unsigned int Class_1_7F1CB224E73F8936_TypeDefinitionIndex = 77571;
+inline static constexpr unsigned int Class_1_7F1CB224E73F8936_TypeDefinitionIndex = 85401;
 
 class Class_1_7F1CB224E73F8936 : public ::System::Object
 {
 public:
 	static ::Class_1_7F1CB224E73F8936** StaticGet_Field_1_0()
 	{
-		return (::Class_1_7F1CB224E73F8936**)Il2CppClass::FromTypeDefinitionIndex(Class_1_7F1CB224E73F8936_TypeDefinitionIndex)->GetStaticField(0x36250);
+		return (::Class_1_7F1CB224E73F8936**)Il2CppClass::FromTypeDefinitionIndex(Class_1_7F1CB224E73F8936_TypeDefinitionIndex)->GetStaticField(0x41960);
 	}
 
 	::System::Void _ctor()

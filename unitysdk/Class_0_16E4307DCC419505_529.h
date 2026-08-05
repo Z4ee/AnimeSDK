@@ -1,7 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_529_TypeDefinitionIndex = 55713;
+namespace SimpleJSON { class JSONNode; }
+namespace System { class String; }
+
+inline static constexpr unsigned int Class_0_16E4307DCC419505_529_TypeDefinitionIndex = 54802;
 
 class Class_0_16E4307DCC419505_529
 {

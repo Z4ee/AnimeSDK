@@ -6,11 +6,11 @@
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Func_1; }
 
-#define MOLEMOLE_UIMAINCITYMINIMENUBUTTONWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16D96010)
+#define MOLEMOLE_UIMAINCITYMINIMENUBUTTONWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x19865DB0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMainCityMiniMenuButtonWidgetController_Context_TypeDefinitionIndex = 65454;
+	inline static constexpr unsigned int UIMainCityMiniMenuButtonWidgetController_Context_TypeDefinitionIndex = 87749;
 
 	class UIMainCityMiniMenuButtonWidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{

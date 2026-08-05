@@ -5,36 +5,36 @@
 #include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-class Class_1_273278230A48923F;
+class Class_1_D3B7D4BDDD2DA34D;
 namespace MoleMole { class MonoRawImageBasedCurve; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace UnityEngine::UI { class Text; }
 
-#define MOLEMOLE_MONOONSCREENLOGGER_CLEARCURVE_OFFSET UNITYSDK_OFFSET(0x16CDA140)
-#define MOLEMOLE_MONOONSCREENLOGGER_ISDRAWING_OFFSET UNITYSDK_OFFSET(0x16CD9FE0)
-#define MOLEMOLE_MONOONSCREENLOGGER_METHOD_5_012ED2CBCD67557A_OFFSET UNITYSDK_OFFSET(0x16CDA5E0)
-#define MOLEMOLE_MONOONSCREENLOGGER_METHOD_5_35D8A1FE53B06D5C_OFFSET UNITYSDK_OFFSET(0x16CDA650)
-#define MOLEMOLE_MONOONSCREENLOGGER_METHOD_5_92193DE475EFDCC9_OFFSET UNITYSDK_OFFSET(0x16CDA1F0)
-#define MOLEMOLE_MONOONSCREENLOGGER_METHOD_5_AFC8215C57A0845A_OFFSET UNITYSDK_OFFSET(0x16CDA320)
-#define MOLEMOLE_MONOONSCREENLOGGER_METHOD_5_B98E1DF7C6A97151_OFFSET UNITYSDK_OFFSET(0x16CDA580)
-#define MOLEMOLE_MONOONSCREENLOGGER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x16CD9DF0)
-#define MOLEMOLE_MONOONSCREENLOGGER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x16CD9C00)
-#define MOLEMOLE_MONOONSCREENLOGGER_START_OFFSET UNITYSDK_OFFSET(0x16CD9A10)
-#define MOLEMOLE_MONOONSCREENLOGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x16CDA1A0)
+#define MOLEMOLE_MONOONSCREENLOGGER_CLEARCURVE_OFFSET UNITYSDK_OFFSET(0x13AC2140)
+#define MOLEMOLE_MONOONSCREENLOGGER_ISDRAWING_OFFSET UNITYSDK_OFFSET(0x13AC1FE0)
+#define MOLEMOLE_MONOONSCREENLOGGER_METHOD_5_012ED2CBCD67557A_OFFSET UNITYSDK_OFFSET(0x13AC2250)
+#define MOLEMOLE_MONOONSCREENLOGGER_METHOD_5_35D8A1FE53B06D5C_OFFSET UNITYSDK_OFFSET(0x13AC2730)
+#define MOLEMOLE_MONOONSCREENLOGGER_METHOD_5_92193DE475EFDCC9_OFFSET UNITYSDK_OFFSET(0x13AC2940)
+#define MOLEMOLE_MONOONSCREENLOGGER_METHOD_5_AFC8215C57A0845A_OFFSET UNITYSDK_OFFSET(0x13AC22C0)
+#define MOLEMOLE_MONOONSCREENLOGGER_METHOD_5_B98E1DF7C6A97151_OFFSET UNITYSDK_OFFSET(0x13AC21F0)
+#define MOLEMOLE_MONOONSCREENLOGGER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x13AC1DF0)
+#define MOLEMOLE_MONOONSCREENLOGGER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x13AC1C00)
+#define MOLEMOLE_MONOONSCREENLOGGER_START_OFFSET UNITYSDK_OFFSET(0x13AC1A10)
+#define MOLEMOLE_MONOONSCREENLOGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x13AC21A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoOnScreenLogger_TypeDefinitionIndex = 82733;
+	inline static constexpr unsigned int MonoOnScreenLogger_TypeDefinitionIndex = 42893;
 
 	class MonoOnScreenLogger : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::UnityEngine::UI::Text* Field_5_0; // 0x18
-		::MoleMole::MonoRawImageBasedCurve* Field_5_1; // 0x20
-		::MoleMole::MonoRawImageBasedCurve* Field_5_2; // 0x28
-		::System::Func_2<::Class_1_273278230A48923F*, ::System::Boolean>* Field_5_3; // 0x30
-		::System::Func_2<::Class_1_273278230A48923F*, ::System::Boolean>* Field_5_4; // 0x38
+		::MoleMole::MonoRawImageBasedCurve* Field_5_7; // 0x20
+		::MoleMole::MonoRawImageBasedCurve* Field_5_6; // 0x28
+		::System::Func_2<::Class_1_D3B7D4BDDD2DA34D*, ::System::Boolean>* Field_5_5; // 0x30
+		::System::Func_2<::Class_1_D3B7D4BDDD2DA34D*, ::System::Boolean>* Field_5_4; // 0x38
 		::System::Boolean disableScreenLog; // 0x40
 
 		::System::Void _ctor()
@@ -67,14 +67,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOONSCREENLOGGER_CLEARCURVE_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_5_92193DE475EFDCC9(::System::Single a1)
+		::System::Void Method_5_B98E1DF7C6A97151(::System::Int32 a1, ::System::Func_2<::Class_1_D3B7D4BDDD2DA34D*, ::System::Boolean>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOONSCREENLOGGER_METHOD_5_92193DE475EFDCC9_OFFSET))(this, a1);
-		}
-
-		::System::Void Method_5_B98E1DF7C6A97151(::System::Int32 a1, ::System::Func_2<::Class_1_273278230A48923F*, ::System::Boolean>* a2)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Func_2<::Class_1_273278230A48923F*, ::System::Boolean>*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOONSCREENLOGGER_METHOD_5_B98E1DF7C6A97151_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Func_2<::Class_1_D3B7D4BDDD2DA34D*, ::System::Boolean>*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOONSCREENLOGGER_METHOD_5_B98E1DF7C6A97151_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean Method_5_012ED2CBCD67557A(::System::Int32 a1, ::MoleMole::MonoRawImageBasedCurve*& a2)
@@ -82,14 +77,19 @@ namespace MoleMole
 			return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::MoleMole::MonoRawImageBasedCurve*&))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOONSCREENLOGGER_METHOD_5_012ED2CBCD67557A_OFFSET))(this, a1, a2);
 		}
 
-		static ::System::Void Method_5_35D8A1FE53B06D5C(::System::Func_2<::Class_1_273278230A48923F*, ::System::Boolean>*& a1, ::MoleMole::MonoRawImageBasedCurve* a2)
-		{
-			return ((::System::Void(*)(::System::Func_2<::Class_1_273278230A48923F*, ::System::Boolean>*&, ::MoleMole::MonoRawImageBasedCurve*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOONSCREENLOGGER_METHOD_5_35D8A1FE53B06D5C_OFFSET))(a1, a2);
-		}
-
 		::System::Void Method_5_AFC8215C57A0845A()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOONSCREENLOGGER_METHOD_5_AFC8215C57A0845A_OFFSET))(this);
+		}
+
+		static ::System::Void Method_5_35D8A1FE53B06D5C(::System::Func_2<::Class_1_D3B7D4BDDD2DA34D*, ::System::Boolean>*& a1, ::MoleMole::MonoRawImageBasedCurve* a2)
+		{
+			return ((::System::Void(*)(::System::Func_2<::Class_1_D3B7D4BDDD2DA34D*, ::System::Boolean>*&, ::MoleMole::MonoRawImageBasedCurve*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOONSCREENLOGGER_METHOD_5_35D8A1FE53B06D5C_OFFSET))(a1, a2);
+		}
+
+		::System::Void Method_5_92193DE475EFDCC9(::System::Single a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOONSCREENLOGGER_METHOD_5_92193DE475EFDCC9_OFFSET))(this, a1);
 		}
 	};
 }

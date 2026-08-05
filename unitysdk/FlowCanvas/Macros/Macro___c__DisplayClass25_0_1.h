@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace FlowCanvas::Macros
 {
-	inline static constexpr unsigned int Macro___c__DisplayClass25_0_1_TypeDefinitionIndex = 29775;
+	inline static constexpr unsigned int Macro___c__DisplayClass25_0_1_TypeDefinitionIndex = 31370;
 
 	template <typename T>
 	class Macro___c__DisplayClass25_0_1 : public ::System::Object

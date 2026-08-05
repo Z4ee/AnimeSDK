@@ -1,23 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Enum_3_9551447D1A470CDC_TypeDefinitionIndex = 58684;
+inline static constexpr unsigned int Enum_3_9551447D1A470CDC_TypeDefinitionIndex = 69927;
 
 enum class Enum_3_9551447D1A470CDC : ::System::Int32
 {
-	DialogMessageWindow = 6,
-	HallRefresh = 8,
-	PerformOnly = 11,
-	RamenExit = 4,
-	LockSwitchAvatar = 14,
-	MainCityPageShow = 5,
-	MainCityPage = 1,
-	InteractButton = 13,
-	AvatarAnimator = 9,
-	EnterSection = 3,
-	AllEntityLoaded = 7,
 	MessageCenter = 12,
-	ChangeAvatar = 10,
-	Custom = 30,
+	MainCityPage = 1,
+	HallRefresh = 8,
+	MainCityPageShow = 5,
+	AllEntityLoaded = 7,
 	HollowWaitExit = 2,
+	EnterSection = 3,
+	AvatarAnimator = 9,
+	RamenExit = 4,
+	Custom = 30,
+	DialogMessageWindow = 6,
+	LockSwitchAvatar = 14,
+	InteractButton = 13,
+	PerformOnly = 11,
+	ChangeAvatar = 10,
 };

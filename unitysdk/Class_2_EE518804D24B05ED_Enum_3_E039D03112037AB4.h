@@ -1,0 +1,18 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int Class_2_EE518804D24B05ED_Enum_3_E039D03112037AB4_TypeDefinitionIndex = 60026;
+
+enum class Class_2_EE518804D24B05ED_Enum_3_E039D03112037AB4 : ::System::UInt32
+{
+	NAP_GAME_APPLY_PARAMS_SUCCESS = 0x3,
+	NAP_UIEvent_PointerDown = 0x65,
+	NAP_GAME_PRELOAD_FAILED = 0x2,
+	NAP_SDK_ENTER_GAME = 0x5,
+	NAP_GETLOCALDATA_FAILED = 0x7,
+	NAP_GETSERVERDIAPTCH_FAILED = 0x8,
+	NAP_GAME_APPLY_PARAMS_FAILED = 0x4,
+	NAP_SDK_ENTER_FAILED = 0x6,
+	NAP_GAME_PRELOAD_SUCCESS = 0x1,
+	NAP_UIEvent_BeginDrag = 0x66,
+};

@@ -8,16 +8,16 @@ class Class_3_35068C29F7A55A3D;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_3_673462C4273FC17A_METHOD_3_98F5AAA93BF786AA_OFFSET UNITYSDK_OFFSET(0x10FCA160)
-#define CLASS_3_673462C4273FC17A_METHOD_3_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x10FCA1D0)
-#define CLASS_3_673462C4273FC17A__CTOR_OFFSET UNITYSDK_OFFSET(0x10FCA040)
+#define CLASS_3_673462C4273FC17A_METHOD_3_98F5AAA93BF786AA_OFFSET UNITYSDK_OFFSET(0x120C5B40)
+#define CLASS_3_673462C4273FC17A_METHOD_3_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x120C5BB0)
+#define CLASS_3_673462C4273FC17A__CTOR_OFFSET UNITYSDK_OFFSET(0x120C5A20)
 
-inline static constexpr unsigned int Class_3_673462C4273FC17A_TypeDefinitionIndex = 81866;
+inline static constexpr unsigned int Class_3_673462C4273FC17A_TypeDefinitionIndex = 76285;
 
 class Class_3_673462C4273FC17A : public ::Class_2_BCA32DB678A03168
 {
 public:
-	::Class_3_35068C29F7A55A3D* Field_3_1; // 0x38
+	::Class_3_35068C29F7A55A3D* Field_3_7; // 0x38
 	::MoleMole::Config::TimePeriodType Field_3_0; // 0x40
 
 	::System::Void _ctor(::System::Int32 a1, ::Enum_3_316FC8E376D95053 a2, ::System::Int32 a3, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>* a4)

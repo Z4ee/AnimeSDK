@@ -5,10 +5,10 @@
 class ScreenPlayData;
 namespace System { class String; }
 
-#define TV_WALL_GETSHOWDATA_OFFSET UNITYSDK_OFFSET(0x1AEAB650)
-#define TV_WALL__CTOR_OFFSET UNITYSDK_OFFSET(0x1AEAB6F0)
+#define TV_WALL_GETSHOWDATA_OFFSET UNITYSDK_OFFSET(0x1E82B150)
+#define TV_WALL__CTOR_OFFSET UNITYSDK_OFFSET(0x1E82B1F0)
 
-inline static constexpr unsigned int TV_Wall_TypeDefinitionIndex = 59686;
+inline static constexpr unsigned int TV_Wall_TypeDefinitionIndex = 55345;
 
 class TV_Wall : public ::System::Object
 {

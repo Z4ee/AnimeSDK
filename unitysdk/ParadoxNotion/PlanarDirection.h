@@ -3,12 +3,12 @@
 
 namespace ParadoxNotion
 {
-	inline static constexpr unsigned int PlanarDirection_TypeDefinitionIndex = 30206;
+	inline static constexpr unsigned int PlanarDirection_TypeDefinitionIndex = 29717;
 
 	enum class PlanarDirection : ::System::Int32
 	{
-		Vertical = 1,
-		Auto = 2,
 		Horizontal = 0,
+		Auto = 2,
+		Vertical = 1,
 	};
 }

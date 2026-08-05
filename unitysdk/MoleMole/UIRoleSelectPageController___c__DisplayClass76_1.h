@@ -6,7 +6,7 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRoleSelectPageController___c__DisplayClass76_1_TypeDefinitionIndex = 76905;
+	inline static constexpr unsigned int UIRoleSelectPageController___c__DisplayClass76_1_TypeDefinitionIndex = 47755;
 
 	struct alignas(8) UIRoleSelectPageController___c__DisplayClass76_1
 	{

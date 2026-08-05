@@ -7,15 +7,15 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define MOLEMOLE_TIMELINE_AVATARGRAPHICS_AVATARGRAPHICSTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x173FF380)
-#define MOLEMOLE_TIMELINE_AVATARGRAPHICS_AVATARGRAPHICSTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x173FF5D0)
-#define MOLEMOLE_TIMELINE_AVATARGRAPHICS_AVATARGRAPHICSTRACK_METHOD_5_652F102150AC9967_OFFSET UNITYSDK_OFFSET(0x173FF790)
-#define MOLEMOLE_TIMELINE_AVATARGRAPHICS_AVATARGRAPHICSTRACK_METHOD_5_B1CEB44F8026DA0D_OFFSET UNITYSDK_OFFSET(0x173FF7D0)
-#define MOLEMOLE_TIMELINE_AVATARGRAPHICS_AVATARGRAPHICSTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x173FF730)
+#define MOLEMOLE_TIMELINE_AVATARGRAPHICS_AVATARGRAPHICSTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x129DC130)
+#define MOLEMOLE_TIMELINE_AVATARGRAPHICS_AVATARGRAPHICSTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x129DC380)
+#define MOLEMOLE_TIMELINE_AVATARGRAPHICS_AVATARGRAPHICSTRACK_METHOD_5_652F102150AC9967_OFFSET UNITYSDK_OFFSET(0x129DC580)
+#define MOLEMOLE_TIMELINE_AVATARGRAPHICS_AVATARGRAPHICSTRACK_METHOD_5_B1CEB44F8026DA0D_OFFSET UNITYSDK_OFFSET(0x129DC540)
+#define MOLEMOLE_TIMELINE_AVATARGRAPHICS_AVATARGRAPHICSTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x129DC4E0)
 
 namespace MoleMole::Timeline::AvatarGraphics
 {
-	inline static constexpr unsigned int AvatarGraphicsTrack_TypeDefinitionIndex = 78426;
+	inline static constexpr unsigned int AvatarGraphicsTrack_TypeDefinitionIndex = 67212;
 
 	class AvatarGraphicsTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
@@ -35,14 +35,14 @@ namespace MoleMole::Timeline::AvatarGraphics
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_AVATARGRAPHICS_AVATARGRAPHICSTRACK_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
 		}
 
-		::UnityEngine::Playables::Playable Method_5_652F102150AC9967(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::UnityEngine::Timeline::TimelineClip* a3)
-		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_AVATARGRAPHICS_AVATARGRAPHICSTRACK_METHOD_5_652F102150AC9967_OFFSET))(this, a1, a2, a3);
-		}
-
 		::UnityEngine::Playables::Playable Method_5_B1CEB44F8026DA0D(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_AVATARGRAPHICS_AVATARGRAPHICSTRACK_METHOD_5_B1CEB44F8026DA0D_OFFSET))(this, a1, a2, a3);
+		}
+
+		::UnityEngine::Playables::Playable Method_5_652F102150AC9967(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::UnityEngine::Timeline::TimelineClip* a3)
+		{
+			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_AVATARGRAPHICS_AVATARGRAPHICSTRACK_METHOD_5_652F102150AC9967_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

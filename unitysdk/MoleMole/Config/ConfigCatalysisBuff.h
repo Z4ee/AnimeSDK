@@ -9,18 +9,18 @@
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGCATALYSISBUFF__CTOR_OFFSET UNITYSDK_OFFSET(0x162A8810)
+#define MOLEMOLE_CONFIG_CONFIGCATALYSISBUFF__CTOR_OFFSET UNITYSDK_OFFSET(0x16C3B7D0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigCatalysisBuff_TypeDefinitionIndex = 48567;
+	inline static constexpr unsigned int ConfigCatalysisBuff_TypeDefinitionIndex = 78136;
 
 	class ConfigCatalysisBuff : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::MoleMole::Config::DamageElementType, ::MoleMole::Config::ConfigBuffMisc_AnimEventByCharacterSize>* CatalyzeAOEAnimEvents; // 0x10
+		::System::Collections::Generic::Dictionary_2<::MoleMole::Config::DamageElementType, ::MoleMole::Config::ConfigBuffMisc_EffectsByCharacterSize>* CatalyzeEffects; // 0x10
 		::System::Collections::Generic::HashSet_1<::MoleMole::Config::BuffGroupName>* CatalyzableBuffGroups; // 0x18
-		::System::Collections::Generic::Dictionary_2<::MoleMole::Config::DamageElementType, ::MoleMole::Config::ConfigBuffMisc_EffectsByCharacterSize>* CatalyzeEffects; // 0x20
+		::System::Collections::Generic::Dictionary_2<::MoleMole::Config::DamageElementType, ::MoleMole::Config::ConfigBuffMisc_AnimEventByCharacterSize>* CatalyzeAOEAnimEvents; // 0x20
 
 		::System::Void _ctor()
 		{

@@ -5,29 +5,29 @@
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine::Events { class UnityAction; }
 
-#define MOLEMOLE_UIROLEDEVELOPPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1380BAA0)
-#define MOLEMOLE_UIROLEDEVELOPPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1380BAE0)
-#define MOLEMOLE_UIROLEDEVELOPPOPWINDOWCONTROLLER___C__ONUIINIT_B__11_0_OFFSET UNITYSDK_OFFSET(0x1380BAF0)
-#define MOLEMOLE_UIROLEDEVELOPPOPWINDOWCONTROLLER___C__ONUIINIT_B__11_1_OFFSET UNITYSDK_OFFSET(0x1380BCD0)
+#define MOLEMOLE_UIROLEDEVELOPPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15F6E710)
+#define MOLEMOLE_UIROLEDEVELOPPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15F6E750)
+#define MOLEMOLE_UIROLEDEVELOPPOPWINDOWCONTROLLER___C__ONUIINIT_B__11_0_OFFSET UNITYSDK_OFFSET(0x15F6E760)
+#define MOLEMOLE_UIROLEDEVELOPPOPWINDOWCONTROLLER___C__ONUIINIT_B__11_1_OFFSET UNITYSDK_OFFSET(0x15F6E940)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRoleDevelopPopWindowController___c_TypeDefinitionIndex = 87150;
+	inline static constexpr unsigned int UIRoleDevelopPopWindowController___c_TypeDefinitionIndex = 42263;
 
 	class UIRoleDevelopPopWindowController___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::UIRoleDevelopPopWindowController___c** StaticGet___9()
-		{
-			return (::MoleMole::UIRoleDevelopPopWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UIRoleDevelopPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x37E30);
-		}
 		static ::System::Action_1<::System::Boolean>** StaticGet___9__11_1()
 		{
-			return (::System::Action_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIRoleDevelopPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x37E38);
+			return (::System::Action_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIRoleDevelopPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x3A820);
 		}
 		static ::UnityEngine::Events::UnityAction** StaticGet___9__11_0()
 		{
-			return (::UnityEngine::Events::UnityAction**)Il2CppClass::FromTypeDefinitionIndex(UIRoleDevelopPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x37E40);
+			return (::UnityEngine::Events::UnityAction**)Il2CppClass::FromTypeDefinitionIndex(UIRoleDevelopPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x3A828);
+		}
+		static ::MoleMole::UIRoleDevelopPopWindowController___c** StaticGet___9()
+		{
+			return (::MoleMole::UIRoleDevelopPopWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UIRoleDevelopPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x3A830);
 		}
 
 		static ::System::Void _cctor()

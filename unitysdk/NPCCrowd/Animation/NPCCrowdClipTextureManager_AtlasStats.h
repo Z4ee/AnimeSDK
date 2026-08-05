@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int NPCCrowdClipTextureManager_AtlasStats_TypeDefinitionIndex = 84948;
+	inline static constexpr unsigned int NPCCrowdClipTextureManager_AtlasStats_TypeDefinitionIndex = 79429;
 
 	struct alignas(8) NPCCrowdClipTextureManager_AtlasStats
 	{

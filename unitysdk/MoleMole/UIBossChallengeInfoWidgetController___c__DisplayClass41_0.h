@@ -5,41 +5,33 @@
 namespace MoleMole { class UIBossChallengeInfoWidgetController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIBOSSCHALLENGEINFOWIDGETCONTROLLER___C__DISPLAYCLASS41_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14C05E50)
-#define MOLEMOLE_UIBOSSCHALLENGEINFOWIDGETCONTROLLER___C__DISPLAYCLASS41_0__OPENBUFFDIALOG_B__0_OFFSET UNITYSDK_OFFSET(0x14C05E60)
-#define MOLEMOLE_UIBOSSCHALLENGEINFOWIDGETCONTROLLER___C__DISPLAYCLASS41_0__OPENBUFFDIALOG_B__1_OFFSET UNITYSDK_OFFSET(0x14C06140)
-#define MOLEMOLE_UIBOSSCHALLENGEINFOWIDGETCONTROLLER___C__DISPLAYCLASS41_0__OPENBUFFDIALOG_B__2_OFFSET UNITYSDK_OFFSET(0x14C06160)
+#define MOLEMOLE_UIBOSSCHALLENGEINFOWIDGETCONTROLLER___C__DISPLAYCLASS41_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1604BF60)
+#define MOLEMOLE_UIBOSSCHALLENGEINFOWIDGETCONTROLLER___C__DISPLAYCLASS41_0__RECONFIRMSELECTIONCHANGEDONLINEUPCLOSE_B__0_OFFSET UNITYSDK_OFFSET(0x1604BF70)
+#define MOLEMOLE_UIBOSSCHALLENGEINFOWIDGETCONTROLLER___C__DISPLAYCLASS41_0__RECONFIRMSELECTIONCHANGEDONLINEUPCLOSE_B__1_OFFSET UNITYSDK_OFFSET(0x1604BFC0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBossChallengeInfoWidgetController___c__DisplayClass41_0_TypeDefinitionIndex = 45348;
+	inline static constexpr unsigned int UIBossChallengeInfoWidgetController___c__DisplayClass41_0_TypeDefinitionIndex = 80236;
 
 	class UIBossChallengeInfoWidgetController___c__DisplayClass41_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIBossChallengeInfoWidgetController* __4__this; // 0x10
-		::System::Action* buffSelectCallback; // 0x18
-		::System::Action* __9__1; // 0x20
-		::System::Action* __9__2; // 0x28
+		::System::Action* onFinished; // 0x10
+		::MoleMole::UIBossChallengeInfoWidgetController* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBOSSCHALLENGEINFOWIDGETCONTROLLER___C__DISPLAYCLASS41_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _OpenBuffDialog_b__0(::System::Int32 buffID)
+		::System::Void _ReConfirmSelectionChangedOnLineupClose_b__0()
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBOSSCHALLENGEINFOWIDGETCONTROLLER___C__DISPLAYCLASS41_0__OPENBUFFDIALOG_B__0_OFFSET))(this, buffID);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBOSSCHALLENGEINFOWIDGETCONTROLLER___C__DISPLAYCLASS41_0__RECONFIRMSELECTIONCHANGEDONLINEUPCLOSE_B__0_OFFSET))(this);
 		}
 
-		::System::Void _OpenBuffDialog_b__1()
+		::System::Void _ReConfirmSelectionChangedOnLineupClose_b__1()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBOSSCHALLENGEINFOWIDGETCONTROLLER___C__DISPLAYCLASS41_0__OPENBUFFDIALOG_B__1_OFFSET))(this);
-		}
-
-		::System::Void _OpenBuffDialog_b__2()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBOSSCHALLENGEINFOWIDGETCONTROLLER___C__DISPLAYCLASS41_0__OPENBUFFDIALOG_B__2_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBOSSCHALLENGEINFOWIDGETCONTROLLER___C__DISPLAYCLASS41_0__RECONFIRMSELECTIONCHANGEDONLINEUPCLOSE_B__1_OFFSET))(this);
 		}
 	};
 }

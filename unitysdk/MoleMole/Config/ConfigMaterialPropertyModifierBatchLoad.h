@@ -5,11 +5,11 @@
 
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGMATERIALPROPERTYMODIFIERBATCHLOAD__CTOR_OFFSET UNITYSDK_OFFSET(0x158ABC00)
+#define MOLEMOLE_CONFIG_CONFIGMATERIALPROPERTYMODIFIERBATCHLOAD__CTOR_OFFSET UNITYSDK_OFFSET(0x14378A10)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigMaterialPropertyModifierBatchLoad_TypeDefinitionIndex = 71681;
+	inline static constexpr unsigned int ConfigMaterialPropertyModifierBatchLoad_TypeDefinitionIndex = 78948;
 
 	class ConfigMaterialPropertyModifierBatchLoad : public ::Foundation::MihoyoSerializedScriptableObject
 	{

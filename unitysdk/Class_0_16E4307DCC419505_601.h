@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-class Class_0_16E4307DCC419505_539;
-namespace MoleMole::Battle { class Entity; }
+class Class_1_D840400A176259F3;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_601_TypeDefinitionIndex = 77397;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_601_TypeDefinitionIndex = 61352;
 
 class Class_0_16E4307DCC419505_601
 {

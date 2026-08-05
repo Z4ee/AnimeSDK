@@ -6,19 +6,19 @@ namespace MoleMole { class UIDataAdjustGameWidgetController; }
 namespace System { class String; }
 namespace UnityEngine { class Animation; }
 
-#define MOLEMOLE_UIDATAADJUSTGAMEWIDGETCONTROLLER___C__DISPLAYCLASS39_0__CTOR_OFFSET UNITYSDK_OFFSET(0x172E3C80)
-#define MOLEMOLE_UIDATAADJUSTGAMEWIDGETCONTROLLER___C__DISPLAYCLASS39_0__ONPOINTUPADJUST_B__0_OFFSET UNITYSDK_OFFSET(0x172E3C90)
+#define MOLEMOLE_UIDATAADJUSTGAMEWIDGETCONTROLLER___C__DISPLAYCLASS39_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1958CB60)
+#define MOLEMOLE_UIDATAADJUSTGAMEWIDGETCONTROLLER___C__DISPLAYCLASS39_0__ONPOINTUPADJUST_B__0_OFFSET UNITYSDK_OFFSET(0x1958CB70)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIDataAdjustGameWidgetController___c__DisplayClass39_0_TypeDefinitionIndex = 71160;
+	inline static constexpr unsigned int UIDataAdjustGameWidgetController___c__DisplayClass39_0_TypeDefinitionIndex = 49741;
 
 	class UIDataAdjustGameWidgetController___c__DisplayClass39_0 : public ::System::Object
 	{
 	public:
-		::UnityEngine::Animation* anim; // 0x10
-		::MoleMole::UIDataAdjustGameWidgetController* __4__this; // 0x18
-		::System::String* clip; // 0x20
+		::MoleMole::UIDataAdjustGameWidgetController* __4__this; // 0x10
+		::System::String* clip; // 0x18
+		::UnityEngine::Animation* anim; // 0x20
 
 		::System::Void _ctor()
 		{

@@ -5,12 +5,12 @@
 namespace MoleMole { class UIYorozuyaSphereItemWidgetController; }
 namespace System { class String; }
 
-#define MOLEMOLE_UIYOROZUYASPHEREITEMWIDGETCONTROLLER___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x10427AB0)
-#define MOLEMOLE_UIYOROZUYASPHEREITEMWIDGETCONTROLLER___C__DISPLAYCLASS11_0__PLAYIDLEANI_B__0_OFFSET UNITYSDK_OFFSET(0x10427AC0)
+#define MOLEMOLE_UIYOROZUYASPHEREITEMWIDGETCONTROLLER___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14D97320)
+#define MOLEMOLE_UIYOROZUYASPHEREITEMWIDGETCONTROLLER___C__DISPLAYCLASS11_0__PLAYIDLEANI_B__0_OFFSET UNITYSDK_OFFSET(0x14D97330)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIYorozuyaSphereItemWidgetController___c__DisplayClass11_0_TypeDefinitionIndex = 62731;
+	inline static constexpr unsigned int UIYorozuyaSphereItemWidgetController___c__DisplayClass11_0_TypeDefinitionIndex = 66498;
 
 	class UIYorozuyaSphereItemWidgetController___c__DisplayClass11_0 : public ::System::Object
 	{

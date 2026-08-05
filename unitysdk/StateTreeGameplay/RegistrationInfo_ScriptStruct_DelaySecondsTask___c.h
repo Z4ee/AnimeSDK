@@ -4,20 +4,20 @@
 
 namespace UnrealTypes { class ICppStructOps; }
 
-#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_DELAYSECONDSTASK___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x16832210)
-#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_DELAYSECONDSTASK___C__CTOR_OFFSET UNITYSDK_OFFSET(0x16832250)
-#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_DELAYSECONDSTASK___C___CCTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0x16832260)
+#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_DELAYSECONDSTASK___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D5D2850)
+#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_DELAYSECONDSTASK___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5D2890)
+#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_DELAYSECONDSTASK___C___CCTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0x1D5D28A0)
 
 namespace StateTreeGameplay
 {
-	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_DelaySecondsTask___c_TypeDefinitionIndex = 55249;
+	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_DelaySecondsTask___c_TypeDefinitionIndex = 72272;
 
 	class RegistrationInfo_ScriptStruct_DelaySecondsTask___c : public ::System::Object
 	{
 	public:
 		static ::StateTreeGameplay::RegistrationInfo_ScriptStruct_DelaySecondsTask___c** StaticGet___9()
 		{
-			return (::StateTreeGameplay::RegistrationInfo_ScriptStruct_DelaySecondsTask___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_DelaySecondsTask___c_TypeDefinitionIndex)->GetStaticField(0x4A500);
+			return (::StateTreeGameplay::RegistrationInfo_ScriptStruct_DelaySecondsTask___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_DelaySecondsTask___c_TypeDefinitionIndex)->GetStaticField(0x45A50);
 		}
 
 		static ::System::Void _cctor()

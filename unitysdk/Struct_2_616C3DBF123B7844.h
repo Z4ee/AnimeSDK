@@ -5,17 +5,17 @@
 
 namespace System { class String; }
 
-#define STRUCT_2_616C3DBF123B7844__CCTOR_OFFSET UNITYSDK_OFFSET(0x13343EA0)
+#define STRUCT_2_616C3DBF123B7844__CCTOR_OFFSET UNITYSDK_OFFSET(0x148EBF00)
 
-inline static constexpr unsigned int Struct_2_616C3DBF123B7844_TypeDefinitionIndex = 51971;
+inline static constexpr unsigned int Struct_2_616C3DBF123B7844_TypeDefinitionIndex = 41895;
 
 struct alignas(8) Struct_2_616C3DBF123B7844
 {
-	static ::System::String** StaticGet_Field_2_2()
+	static ::System::String** StaticGet_Field_2_0()
 	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Struct_2_616C3DBF123B7844_TypeDefinitionIndex)->GetStaticField(0x47380);
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Struct_2_616C3DBF123B7844_TypeDefinitionIndex)->GetStaticField(0x4EFF0);
 	}
-	::System::String* Field_2_0; // 0x10
+	::System::String* Field_2_2; // 0x10
 	::MoleMole::Config::InlevelCameraState Field_2_1; // 0x18
 
 	static ::System::Void _cctor()

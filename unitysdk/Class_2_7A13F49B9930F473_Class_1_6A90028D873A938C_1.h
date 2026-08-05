@@ -8,33 +8,33 @@ namespace MoleMole::MiniGame::BangbooPartyGame { class MonoBangbooPartyAIPathPoi
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::AI { class NavMeshPath; }
 
-#define CLASS_2_7A13F49B9930F473_CLASS_1_6A90028D873A938C_1__CTOR_OFFSET UNITYSDK_OFFSET(0x130E0AA0)
+#define CLASS_2_7A13F49B9930F473_CLASS_1_6A90028D873A938C_1__CTOR_OFFSET UNITYSDK_OFFSET(0x12D4D540)
 
-inline static constexpr unsigned int Class_2_7A13F49B9930F473_Class_1_6A90028D873A938C_1_TypeDefinitionIndex = 70179;
+inline static constexpr unsigned int Class_2_7A13F49B9930F473_Class_1_6A90028D873A938C_1_TypeDefinitionIndex = 72597;
 
 class Class_2_7A13F49B9930F473_Class_1_6A90028D873A938C_1 : public ::System::Object
 {
 public:
-	::UnityEngine::AI::NavMeshPath* Field_1_2; // 0x10
-	::MoleMole::Battle::Entity* Field_1_0; // 0x18
-	::MoleMole::MiniGame::BangbooPartyGame::MonoBangbooPartyAIPathPoint* Field_1_1; // 0x20
-	::MoleMole::MiniGame::BangbooPartyGame::MonoBangbooPartyAIPathPoint* Field_1_9; // 0x28
-	::System::Collections::Generic::List_1<::MoleMole::MiniGame::BangbooPartyGame::MonoBangbooPartyAIPathPoint*>* Field_1_10; // 0x30
-	::System::Single Field_1_5; // 0x38
-	::System::Single Field_1_19; // 0x3C
-	::System::Single Field_1_17; // 0x40
-	::Class_2_7A13F49B9930F473_Enum_3_5F55AD85534EEC41 Field_1_4; // 0x44
-	::System::Single Field_1_7; // 0x48
-	::System::Int32 Field_1_3; // 0x4C
-	::System::Boolean Field_1_15; // 0x50
-	::System::Boolean Field_1_14; // 0x51
-	::System::Boolean Field_1_6; // 0x52
-	::System::Single Field_1_13; // 0x54
-	::System::Single Field_1_8; // 0x58
-	::System::Single Field_1_18; // 0x5C
-	::System::Single Field_1_12; // 0x60
-	::System::Single Field_1_16; // 0x64
-	::System::Int32 Field_1_11; // 0x68
+	::MoleMole::Battle::Entity* Field_1_0; // 0x10
+	::System::Collections::Generic::List_1<::MoleMole::MiniGame::BangbooPartyGame::MonoBangbooPartyAIPathPoint*>* Field_1_14; // 0x18
+	::MoleMole::MiniGame::BangbooPartyGame::MonoBangbooPartyAIPathPoint* Field_1_15; // 0x20
+	::MoleMole::MiniGame::BangbooPartyGame::MonoBangbooPartyAIPathPoint* Field_1_7; // 0x28
+	::UnityEngine::AI::NavMeshPath* Field_1_6; // 0x30
+	::System::Int32 Field_1_5; // 0x38
+	::System::Single Field_1_22; // 0x3C
+	::System::Single Field_1_19; // 0x40
+	::System::Int32 Field_1_13; // 0x44
+	::System::Single Field_1_21; // 0x48
+	::System::Single Field_1_8; // 0x4C
+	::System::Single Field_1_23; // 0x50
+	::System::Single Field_1_16; // 0x54
+	::System::Single Field_1_11; // 0x58
+	::System::Single Field_1_12; // 0x5C
+	::System::Boolean Field_1_18; // 0x60
+	::System::Boolean Field_1_17; // 0x61
+	::System::Boolean Field_1_10; // 0x62
+	::Class_2_7A13F49B9930F473_Enum_3_5F55AD85534EEC41 Field_1_4; // 0x64
+	::System::Single Field_1_9; // 0x68
 
 	::System::Void _ctor()
 	{

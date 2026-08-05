@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int AvatarMaskCompressQuality_TypeDefinitionIndex = 6640;
+	inline static constexpr unsigned int AvatarMaskCompressQuality_TypeDefinitionIndex = 6646;
 
 	enum class AvatarMaskCompressQuality : ::System::Int32
 	{

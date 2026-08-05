@@ -4,29 +4,29 @@
 
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define UNITYENGINE_TIMELINE_TIMEUTILITY___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DD97C60)
-#define UNITYENGINE_TIMELINE_TIMEUTILITY___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD97CA0)
-#define UNITYENGINE_TIMELINE_TIMEUTILITY___C__PARSETIMECODE_B__14_0_OFFSET UNITYSDK_OFFSET(0x1DD97CB0)
-#define UNITYENGINE_TIMELINE_TIMEUTILITY___C__PARSETIMECODE_B__14_1_OFFSET UNITYSDK_OFFSET(0x1DD97D40)
+#define UNITYENGINE_TIMELINE_TIMEUTILITY___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F1148F0)
+#define UNITYENGINE_TIMELINE_TIMEUTILITY___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1F114930)
+#define UNITYENGINE_TIMELINE_TIMEUTILITY___C__PARSETIMECODE_B__14_0_OFFSET UNITYSDK_OFFSET(0x1F114940)
+#define UNITYENGINE_TIMELINE_TIMEUTILITY___C__PARSETIMECODE_B__14_1_OFFSET UNITYSDK_OFFSET(0x1F1149D0)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int TimeUtility___c_TypeDefinitionIndex = 32438;
+	inline static constexpr unsigned int TimeUtility___c_TypeDefinitionIndex = 33069;
 
 	class TimeUtility___c : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::Timeline::TimeUtility___c** StaticGet___9()
-		{
-			return (::UnityEngine::Timeline::TimeUtility___c**)Il2CppClass::FromTypeDefinitionIndex(TimeUtility___c_TypeDefinitionIndex)->GetStaticField(0x26A60);
-		}
 		static ::System::Func_2<::System::Char, ::System::Boolean>** StaticGet___9__14_1()
 		{
-			return (::System::Func_2<::System::Char, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(TimeUtility___c_TypeDefinitionIndex)->GetStaticField(0x26A68);
+			return (::System::Func_2<::System::Char, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(TimeUtility___c_TypeDefinitionIndex)->GetStaticField(0x281D0);
+		}
+		static ::UnityEngine::Timeline::TimeUtility___c** StaticGet___9()
+		{
+			return (::UnityEngine::Timeline::TimeUtility___c**)Il2CppClass::FromTypeDefinitionIndex(TimeUtility___c_TypeDefinitionIndex)->GetStaticField(0x281D8);
 		}
 		static ::System::Func_2<::System::Char, ::System::Boolean>** StaticGet___9__14_0()
 		{
-			return (::System::Func_2<::System::Char, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(TimeUtility___c_TypeDefinitionIndex)->GetStaticField(0x26A70);
+			return (::System::Func_2<::System::Char, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(TimeUtility___c_TypeDefinitionIndex)->GetStaticField(0x281E0);
 		}
 
 		static ::System::Void _cctor()

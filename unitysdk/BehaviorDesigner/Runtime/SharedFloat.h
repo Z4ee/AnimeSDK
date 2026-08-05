@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/BehaviorDesigner/Runtime/SharedVariable_1.h"
 
-#define BEHAVIORDESIGNER_RUNTIME_SHAREDFLOAT_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1E5F6720)
-#define BEHAVIORDESIGNER_RUNTIME_SHAREDFLOAT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E5F6800)
+#define BEHAVIORDESIGNER_RUNTIME_SHAREDFLOAT_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1F9DD150)
+#define BEHAVIORDESIGNER_RUNTIME_SHAREDFLOAT__CTOR_OFFSET UNITYSDK_OFFSET(0x1F9DD230)
 
 namespace BehaviorDesigner::Runtime
 {
-	inline static constexpr unsigned int SharedFloat_TypeDefinitionIndex = 33279;
+	inline static constexpr unsigned int SharedFloat_TypeDefinitionIndex = 33915;
 
 	class SharedFloat : public ::BehaviorDesigner::Runtime::SharedVariable_1<::System::Single>
 	{

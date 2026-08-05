@@ -4,22 +4,22 @@
 
 namespace System { class Action; }
 
-#define CLASS_2_5F679CAF37982968___C_METHOD_1_06A2B758FCB8A24E_OFFSET UNITYSDK_OFFSET(0xF972820)
-#define CLASS_2_5F679CAF37982968___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xF9727D0)
-#define CLASS_2_5F679CAF37982968___C__CTOR_OFFSET UNITYSDK_OFFSET(0xF972810)
+#define CLASS_2_5F679CAF37982968___C_METHOD_1_277F8930086803D1_OFFSET UNITYSDK_OFFSET(0x15905DA0)
+#define CLASS_2_5F679CAF37982968___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15905D50)
+#define CLASS_2_5F679CAF37982968___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15905D90)
 
-inline static constexpr unsigned int Class_2_5F679CAF37982968___c_TypeDefinitionIndex = 80936;
+inline static constexpr unsigned int Class_2_5F679CAF37982968___c_TypeDefinitionIndex = 63796;
 
 class Class_2_5F679CAF37982968___c : public ::System::Object
 {
 public:
 	static ::System::Action** StaticGet___9__12_0()
 	{
-		return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(Class_2_5F679CAF37982968___c_TypeDefinitionIndex)->GetStaticField(0x38090);
+		return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(Class_2_5F679CAF37982968___c_TypeDefinitionIndex)->GetStaticField(0x42040);
 	}
 	static ::Class_2_5F679CAF37982968___c** StaticGet___9()
 	{
-		return (::Class_2_5F679CAF37982968___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_5F679CAF37982968___c_TypeDefinitionIndex)->GetStaticField(0x38098);
+		return (::Class_2_5F679CAF37982968___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_5F679CAF37982968___c_TypeDefinitionIndex)->GetStaticField(0x42048);
 	}
 
 	static ::System::Void _cctor()
@@ -32,8 +32,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_5F679CAF37982968___C__CTOR_OFFSET))(this);
 	}
 
-	::System::Void Method_1_06A2B758FCB8A24E()
+	::System::Void Method_1_277F8930086803D1()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_5F679CAF37982968___C_METHOD_1_06A2B758FCB8A24E_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_5F679CAF37982968___C_METHOD_1_277F8930086803D1_OFFSET))(this);
 	}
 };

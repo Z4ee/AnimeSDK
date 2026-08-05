@@ -8,7 +8,7 @@ namespace System { class Object; }
 
 namespace UnityEngine::Events
 {
-	inline static constexpr unsigned int UnityAction_1_TypeDefinitionIndex = 5497;
+	inline static constexpr unsigned int UnityAction_1_TypeDefinitionIndex = 5500;
 
 	template <typename T0>
 	class UnityAction_1 : public ::System::MulticastDelegate

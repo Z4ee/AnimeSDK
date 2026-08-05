@@ -11,31 +11,31 @@ namespace System { class String; }
 namespace System::Collections { class IEnumerator; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_UPDATELEVELZEROSPECIALEFFECT_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1261BA10)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_UPDATELEVELZEROSPECIALEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1261BBE0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_UPDATELEVELZEROSPECIALEFFECT__REGISTERPORTS_B__11_0_OFFSET UNITYSDK_OFFSET(0x1261BC20)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_UPDATELEVELZEROSPECIALEFFECT__REGISTERPORTS_B__11_1_OFFSET UNITYSDK_OFFSET(0x1261BC30)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_UPDATELEVELZEROSPECIALEFFECT__UPDATEINTERNAL_OFFSET UNITYSDK_OFFSET(0x1261BB60)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_UPDATELEVELZEROSPECIALEFFECT_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x149E84C0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_UPDATELEVELZEROSPECIALEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x149E8690)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_UPDATELEVELZEROSPECIALEFFECT__REGISTERPORTS_B__11_0_OFFSET UNITYSDK_OFFSET(0x149E86D0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_UPDATELEVELZEROSPECIALEFFECT__REGISTERPORTS_B__11_1_OFFSET UNITYSDK_OFFSET(0x149E86E0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_UPDATELEVELZEROSPECIALEFFECT__UPDATEINTERNAL_OFFSET UNITYSDK_OFFSET(0x149E8610)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_UpdateLevelZeroSpecialEffect_TypeDefinitionIndex = 74882;
+	inline static constexpr unsigned int LD_UpdateLevelZeroSpecialEffect_TypeDefinitionIndex = 62581;
 
 	class LD_UpdateLevelZeroSpecialEffect : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::System::String* RTKey; // 0xA8
+		::FlowCanvas::FlowOutput* output; // 0xA8
 		::FlowCanvas::ValueInput_1<::MoleMole::Cameras::AsistantCameraEffect*>* _inEffInstance; // 0xB0
-		::FlowCanvas::FlowOutput* output; // 0xB8
-		::System::String* ValKey; // 0xC0
-		::UnityEngine::GameObject* _outputEffectGO; // 0xC8
-		::System::String* effectInsKey; // 0xD0
-		::FlowCanvas::FlowOutput* onFinish; // 0xD8
-		::UnityEngine::Vector2 rangeValue; // 0xE0
-		::System::Single delayTime; // 0xE8
+		::System::String* ValKey; // 0xB8
+		::FlowCanvas::FlowOutput* onFinish; // 0xC0
+		::System::String* effectInsKey; // 0xC8
+		::System::String* RTKey; // 0xD0
+		::UnityEngine::GameObject* _outputEffectGO; // 0xD8
+		::System::Single delayTime; // 0xE0
+		::System::Single effectDuration; // 0xE4
+		::System::Boolean _isInUpdateProgress; // 0xE8
 		::System::Single _dt; // 0xEC
-		::System::Single effectDuration; // 0xF0
-		::System::Boolean _isInUpdateProgress; // 0xF4
+		::UnityEngine::Vector2 rangeValue; // 0xF0
 
 		::System::Void _ctor()
 		{

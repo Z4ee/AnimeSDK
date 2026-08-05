@@ -4,7 +4,7 @@
 
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int FormatterEmitter_AOTEmittedFormatter_1_TypeDefinitionIndex = 7460;
+	inline static constexpr unsigned int FormatterEmitter_AOTEmittedFormatter_1_TypeDefinitionIndex = 7464;
 
 	template <typename T>
 	class FormatterEmitter_AOTEmittedFormatter_1 : public ::Sirenix::Serialization::EasyBaseFormatter_1<T>

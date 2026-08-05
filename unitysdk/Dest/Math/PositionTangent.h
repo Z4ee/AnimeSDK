@@ -5,7 +5,7 @@
 
 namespace Dest::Math
 {
-	inline static constexpr unsigned int PositionTangent_TypeDefinitionIndex = 34794;
+	inline static constexpr unsigned int PositionTangent_TypeDefinitionIndex = 35453;
 
 	struct alignas(4) PositionTangent
 	{

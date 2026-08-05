@@ -3,7 +3,7 @@
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int IAlphaModifier_TypeDefinitionIndex = 37671;
+	inline static constexpr unsigned int IAlphaModifier_TypeDefinitionIndex = 38332;
 
 	class IAlphaModifier
 	{

@@ -3,11 +3,11 @@
 #include "unitysdk/MoleMole/Config/BaseProperty.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_FLOWCANVAS_MODIFYPROPITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x182CDD00)
+#define MOLEMOLE_FLOWCANVAS_MODIFYPROPITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x19B05340)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int ModifyPropItem_TypeDefinitionIndex = 47551;
+	inline static constexpr unsigned int ModifyPropItem_TypeDefinitionIndex = 56977;
 
 	class ModifyPropItem : public ::System::Object
 	{

@@ -6,7 +6,7 @@ namespace UnityEngine::NAPRenderPipeline0 { class LensFlareComponentSRP; }
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int LensFlareCommonSRP_LensFlareRuntimeData_TypeDefinitionIndex = 26639;
+	inline static constexpr unsigned int LensFlareCommonSRP_LensFlareRuntimeData_TypeDefinitionIndex = 26960;
 
 	struct alignas(8) LensFlareCommonSRP_LensFlareRuntimeData
 	{

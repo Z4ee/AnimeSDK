@@ -3,12 +3,12 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowMainPageController_BottomTipsForbidMask_TypeDefinitionIndex = 78300;
+	inline static constexpr unsigned int UIHollowMainPageController_BottomTipsForbidMask_TypeDefinitionIndex = 73688;
 
 	enum class UIHollowMainPageController_BottomTipsForbidMask : ::System::Int32
 	{
-		PopMiniGame = 4,
 		ShowTipsQueue = 2,
+		PopMiniGame = 4,
 		InDialogCamera = 1,
 	};
 }

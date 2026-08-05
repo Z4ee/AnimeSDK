@@ -3,11 +3,11 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICpRoleSelectOnlineChildWindowController_PageState_TypeDefinitionIndex = 90928;
+	inline static constexpr unsigned int UICpRoleSelectOnlineChildWindowController_PageState_TypeDefinitionIndex = 94731;
 
 	enum class UICpRoleSelectOnlineChildWindowController_PageState : ::System::Int32
 	{
-		RoleSelect = 0,
 		DifficultySelect = 1,
+		RoleSelect = 0,
 	};
 }

@@ -1,0 +1,159 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_37DF30C8B3AA0F39.h"
+#include "unitysdk/Class_1_5A17F85799580BCA_Enum_3_6E0E8267CDDC65CF.h"
+#include "unitysdk/Struct_2_575273D27F02957E.h"
+
+class Class_2_E87F1D15F1D4AC72;
+namespace MoleMole { class UISummerTideTreasureSellingBuffRowWidgetController_Data; }
+namespace MoleMole { class UISummerTideTreasureSellingProductRowWidgetController_Data; }
+namespace MoleMole { class UISummerTideTreasureSellingResultDialogPopWindowController_Context; }
+namespace System { class String; }
+namespace System::Collections { class IEnumerable; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+template <typename T> class Class_0_16E4307DCC419505_159;
+template <typename T> class Class_2_F16D73323D71766B;
+
+#define CLASS_2_8637A64D9F58041E_METHOD_2_07DE80631480FB75_OFFSET UNITYSDK_OFFSET(0x1480EBD0)
+#define CLASS_2_8637A64D9F58041E_METHOD_2_0D24F6AA2CC0D811_OFFSET UNITYSDK_OFFSET(0x14810F80)
+#define CLASS_2_8637A64D9F58041E_METHOD_2_33ACA6CB2ABC73F7_OFFSET UNITYSDK_OFFSET(0x1480FC80)
+#define CLASS_2_8637A64D9F58041E_METHOD_2_41A074549EF25F63_OFFSET UNITYSDK_OFFSET(0x1480EF80)
+#define CLASS_2_8637A64D9F58041E_METHOD_2_4318CCE67F3050A3_OFFSET UNITYSDK_OFFSET(0x1480FDA0)
+#define CLASS_2_8637A64D9F58041E_METHOD_2_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x1480EEC0)
+#define CLASS_2_8637A64D9F58041E_METHOD_2_48AA4837B24750C5_OFFSET UNITYSDK_OFFSET(0x14810960)
+#define CLASS_2_8637A64D9F58041E_METHOD_2_67C142C8523FB4DC_OFFSET UNITYSDK_OFFSET(0x14812760)
+#define CLASS_2_8637A64D9F58041E_METHOD_2_8D0C9C9733ACF710_OFFSET UNITYSDK_OFFSET(0x1480FC70)
+#define CLASS_2_8637A64D9F58041E_METHOD_2_90DA083510741DA5_OFFSET UNITYSDK_OFFSET(0x1480F810)
+#define CLASS_2_8637A64D9F58041E_METHOD_2_910DAC79A7F71E50_OFFSET UNITYSDK_OFFSET(0x14810460)
+#define CLASS_2_8637A64D9F58041E_METHOD_2_913512265AC8B7A9_OFFSET UNITYSDK_OFFSET(0x148119E0)
+#define CLASS_2_8637A64D9F58041E_METHOD_2_9B0C43B0B6D3BA9B_OFFSET UNITYSDK_OFFSET(0x14810C80)
+#define CLASS_2_8637A64D9F58041E_METHOD_2_A78A3A2829178A6C_OFFSET UNITYSDK_OFFSET(0x148125C0)
+#define CLASS_2_8637A64D9F58041E_METHOD_2_AF3DE7EEF4AB88EF_OFFSET UNITYSDK_OFFSET(0x148124D0)
+#define CLASS_2_8637A64D9F58041E_METHOD_2_BD5B14E333F744D7_OFFSET UNITYSDK_OFFSET(0x148116C0)
+#define CLASS_2_8637A64D9F58041E_METHOD_2_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0x14813AB0)
+#define CLASS_2_8637A64D9F58041E_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x14812440)
+#define CLASS_2_8637A64D9F58041E_METHOD_2_CADA008AEDB4C7B3_OFFSET UNITYSDK_OFFSET(0x148125B0)
+#define CLASS_2_8637A64D9F58041E_METHOD_2_E6FB44D7ED26A2F9_OFFSET UNITYSDK_OFFSET(0x14811DD0)
+#define CLASS_2_8637A64D9F58041E_METHOD_2_F6BEE2D412DBE0C4_OFFSET UNITYSDK_OFFSET(0x14812FF0)
+#define CLASS_2_8637A64D9F58041E__CTOR_OFFSET UNITYSDK_OFFSET(0x1480F720)
+
+inline static constexpr unsigned int Class_2_8637A64D9F58041E_TypeDefinitionIndex = 69745;
+
+class Class_2_8637A64D9F58041E : public ::Class_1_37DF30C8B3AA0F39
+{
+public:
+	::System::Collections::Generic::List_1<::MoleMole::UISummerTideTreasureSellingBuffRowWidgetController_Data*>* Field_2_1; // 0x50
+	::System::Collections::Generic::List_1<::MoleMole::UISummerTideTreasureSellingProductRowWidgetController_Data*>* Field_2_0; // 0x58
+	::Class_2_F16D73323D71766B<::System::Int32>* Field_2_2; // 0x60
+	::Class_0_16E4307DCC419505_159<::MoleMole::UISummerTideTreasureSellingResultDialogPopWindowController_Context*>* Field_2_3; // 0x68
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_8637A64D9F58041E__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_2_07DE80631480FB75(::Struct_2_575273D27F02957E& a1, ::Class_2_E87F1D15F1D4AC72* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Struct_2_575273D27F02957E&, ::Class_2_E87F1D15F1D4AC72*))((::PBYTE)hIl2Cpp + CLASS_2_8637A64D9F58041E_METHOD_2_07DE80631480FB75_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_2_4343F372F34C05BF()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_8637A64D9F58041E_METHOD_2_4343F372F34C05BF_OFFSET))(this);
+	}
+
+	::System::Void Method_2_41A074549EF25F63()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_8637A64D9F58041E_METHOD_2_41A074549EF25F63_OFFSET))(this);
+	}
+
+	::System::Collections::IEnumerable* Method_2_90DA083510741DA5()
+	{
+		return ((::System::Collections::IEnumerable*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_8637A64D9F58041E_METHOD_2_90DA083510741DA5_OFFSET))(this);
+	}
+
+	::Class_0_16E4307DCC419505_159<::MoleMole::UISummerTideTreasureSellingResultDialogPopWindowController_Context*>* Method_2_8D0C9C9733ACF710()
+	{
+		return ((::Class_0_16E4307DCC419505_159<::MoleMole::UISummerTideTreasureSellingResultDialogPopWindowController_Context*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_8637A64D9F58041E_METHOD_2_8D0C9C9733ACF710_OFFSET))(this);
+	}
+
+	::System::Void Method_2_33ACA6CB2ABC73F7()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_8637A64D9F58041E_METHOD_2_33ACA6CB2ABC73F7_OFFSET))(this);
+	}
+
+	::System::String* Method_2_4318CCE67F3050A3()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_8637A64D9F58041E_METHOD_2_4318CCE67F3050A3_OFFSET))(this);
+	}
+
+	::System::String* Method_2_910DAC79A7F71E50()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_8637A64D9F58041E_METHOD_2_910DAC79A7F71E50_OFFSET))(this);
+	}
+
+	::System::Void Method_2_48AA4837B24750C5(::Class_1_5A17F85799580BCA_Enum_3_6E0E8267CDDC65CF a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_5A17F85799580BCA_Enum_3_6E0E8267CDDC65CF))((::PBYTE)hIl2Cpp + CLASS_2_8637A64D9F58041E_METHOD_2_48AA4837B24750C5_OFFSET))(this, a1);
+	}
+
+	::System::Boolean Method_2_9B0C43B0B6D3BA9B()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_8637A64D9F58041E_METHOD_2_9B0C43B0B6D3BA9B_OFFSET))(this);
+	}
+
+	::System::Int64 Method_2_0D24F6AA2CC0D811()
+	{
+		return ((::System::Int64(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_8637A64D9F58041E_METHOD_2_0D24F6AA2CC0D811_OFFSET))(this);
+	}
+
+	::System::Boolean Method_2_BD5B14E333F744D7()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_8637A64D9F58041E_METHOD_2_BD5B14E333F744D7_OFFSET))(this);
+	}
+
+	::System::String* Method_2_913512265AC8B7A9()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_8637A64D9F58041E_METHOD_2_913512265AC8B7A9_OFFSET))(this);
+	}
+
+	::System::Boolean Method_2_E6FB44D7ED26A2F9()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_8637A64D9F58041E_METHOD_2_E6FB44D7ED26A2F9_OFFSET))(this);
+	}
+
+	::System::Void Method_2_CA373AA1C7054598()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_8637A64D9F58041E_METHOD_2_CA373AA1C7054598_OFFSET))(this);
+	}
+
+	::System::Int32 Method_2_AF3DE7EEF4AB88EF()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_8637A64D9F58041E_METHOD_2_AF3DE7EEF4AB88EF_OFFSET))(this);
+	}
+
+	::System::Void Method_2_CADA008AEDB4C7B3(::Class_0_16E4307DCC419505_159<::MoleMole::UISummerTideTreasureSellingResultDialogPopWindowController_Context*>* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_159<::MoleMole::UISummerTideTreasureSellingResultDialogPopWindowController_Context*>*))((::PBYTE)hIl2Cpp + CLASS_2_8637A64D9F58041E_METHOD_2_CADA008AEDB4C7B3_OFFSET))(this, a1);
+	}
+
+	::System::Int32 Method_2_A78A3A2829178A6C()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_8637A64D9F58041E_METHOD_2_A78A3A2829178A6C_OFFSET))(this);
+	}
+
+	::System::Boolean Method_2_67C142C8523FB4DC()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_8637A64D9F58041E_METHOD_2_67C142C8523FB4DC_OFFSET))(this);
+	}
+
+	::System::Collections::IEnumerable* Method_2_F6BEE2D412DBE0C4()
+	{
+		return ((::System::Collections::IEnumerable*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_8637A64D9F58041E_METHOD_2_F6BEE2D412DBE0C4_OFFSET))(this);
+	}
+
+	::System::Void Method_2_CA373AA1C7054598_1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_8637A64D9F58041E_METHOD_2_CA373AA1C7054598_1_OFFSET))(this);
+	}
+};

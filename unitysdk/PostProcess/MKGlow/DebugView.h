@@ -3,17 +3,17 @@
 
 namespace PostProcess::MKGlow
 {
-	inline static constexpr unsigned int DebugView_TypeDefinitionIndex = 26393;
+	inline static constexpr unsigned int DebugView_TypeDefinitionIndex = 27884;
 
 	enum class DebugView : ::System::Int32
 	{
-		RawGlare = 3,
-		Bloom = 4,
-		Glare = 6,
-		RawBloom = 1,
-		Composite = 7,
 		LensFlare = 5,
+		Composite = 7,
+		RawGlare = 3,
+		Glare = 6,
 		RawLensFlare = 2,
+		RawBloom = 1,
+		Bloom = 4,
 		None = 0,
 	};
 }

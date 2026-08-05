@@ -6,15 +6,15 @@
 class Class_1_18A0E8F41D481606;
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define CLASS_1_18A0E8F41D481606_STRUCT_2_FA3B819162B851FB_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x623280)
-#define CLASS_1_18A0E8F41D481606_STRUCT_2_FA3B819162B851FB_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x5B0AE0)
+#define CLASS_1_18A0E8F41D481606_STRUCT_2_FA3B819162B851FB_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x879700)
+#define CLASS_1_18A0E8F41D481606_STRUCT_2_FA3B819162B851FB_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x59F4E0)
 
-inline static constexpr unsigned int Class_1_18A0E8F41D481606_Struct_2_FA3B819162B851FB_TypeDefinitionIndex = 85736;
+inline static constexpr unsigned int Class_1_18A0E8F41D481606_Struct_2_FA3B819162B851FB_TypeDefinitionIndex = 79634;
 
 struct alignas(8) Class_1_18A0E8F41D481606_Struct_2_FA3B819162B851FB
 {
-	::System::Runtime::CompilerServices::AsyncVoidMethodBuilder Field_2_1; // 0x10
-	::Class_1_18A0E8F41D481606* Field_2_2; // 0x30
+	::System::Runtime::CompilerServices::AsyncVoidMethodBuilder Field_2_7; // 0x10
+	::Class_1_18A0E8F41D481606* Field_2_6; // 0x30
 	::System::Int32 Field_2_0; // 0x38
 
 	::System::Void MoveNext()

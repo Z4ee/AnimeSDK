@@ -10,21 +10,21 @@ namespace MoleMole::Config { class ConfigDecorBase; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_D2BA87226C48A494_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1719F370)
-#define CLASS_1_D2BA87226C48A494_FROMFLX_OFFSET UNITYSDK_OFFSET(0x1719EDE0)
-#define CLASS_1_D2BA87226C48A494_METHOD_1_01A38C1C04BF8076_OFFSET UNITYSDK_OFFSET(0x1719F3D0)
-#define CLASS_1_D2BA87226C48A494_METHOD_1_4E5AC15A8307DCD8_OFFSET UNITYSDK_OFFSET(0x1719EE60)
-#define CLASS_1_D2BA87226C48A494_METHOD_1_F62E96DF0CE4717C_OFFSET UNITYSDK_OFFSET(0x1719F720)
-#define CLASS_1_D2BA87226C48A494__CTOR_OFFSET UNITYSDK_OFFSET(0x1719F710)
+#define CLASS_1_D2BA87226C48A494_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16F416A0)
+#define CLASS_1_D2BA87226C48A494_FROMFLX_OFFSET UNITYSDK_OFFSET(0x16F41150)
+#define CLASS_1_D2BA87226C48A494_METHOD_1_01A38C1C04BF8076_OFFSET UNITYSDK_OFFSET(0x16F41700)
+#define CLASS_1_D2BA87226C48A494_METHOD_1_8741A88D50268453_OFFSET UNITYSDK_OFFSET(0x16F411D0)
+#define CLASS_1_D2BA87226C48A494_METHOD_1_F62E96DF0CE4717C_OFFSET UNITYSDK_OFFSET(0x16F41A50)
+#define CLASS_1_D2BA87226C48A494__CTOR_OFFSET UNITYSDK_OFFSET(0x16F41A40)
 
-inline static constexpr unsigned int Class_1_D2BA87226C48A494_TypeDefinitionIndex = 75939;
+inline static constexpr unsigned int Class_1_D2BA87226C48A494_TypeDefinitionIndex = 55688;
 
 class Class_1_D2BA87226C48A494 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::MoleMole::Config::ConfigDecorBase*>* Field_1_2; // 0x10
-	::System::String* Field_1_1; // 0x18
-	::System::Int32 Field_1_0; // 0x20
+	::System::String* Field_1_1; // 0x10
+	::System::Collections::Generic::List_1<::MoleMole::Config::ConfigDecorBase*>* Field_1_0; // 0x18
+	::System::Int32 Field_1_2; // 0x20
 
 	::System::Void _ctor()
 	{
@@ -41,18 +41,18 @@ public:
 		return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_D2BA87226C48A494_FROMBINARY_OFFSET))(this, a1, a2);
 	}
 
-	::System::Boolean Method_1_4E5AC15A8307DCD8(::FlexBuffers::FlxMap a1)
+	::System::Boolean Method_1_8741A88D50268453(::FlexBuffers::FlxMap a1)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxMap))((::PBYTE)hIl2Cpp + CLASS_1_D2BA87226C48A494_METHOD_1_4E5AC15A8307DCD8_OFFSET))(this, a1);
-	}
-
-	::System::Boolean Method_1_F62E96DF0CE4717C(::Foundation::ViewObject::Donjon::DonjonFloorObjectBuildContext* a1)
-	{
-		return ((::System::Boolean(*)(::PVOID, ::Foundation::ViewObject::Donjon::DonjonFloorObjectBuildContext*))((::PBYTE)hIl2Cpp + CLASS_1_D2BA87226C48A494_METHOD_1_F62E96DF0CE4717C_OFFSET))(this, a1);
+		return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxMap))((::PBYTE)hIl2Cpp + CLASS_1_D2BA87226C48A494_METHOD_1_8741A88D50268453_OFFSET))(this, a1);
 	}
 
 	::System::Boolean Method_1_01A38C1C04BF8076(::Class_1_236FD73ABC492E3F* a1, ::System::Int32 a2)
 	{
 		return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_D2BA87226C48A494_METHOD_1_01A38C1C04BF8076_OFFSET))(this, a1, a2);
+	}
+
+	::System::Boolean Method_1_F62E96DF0CE4717C(::Foundation::ViewObject::Donjon::DonjonFloorObjectBuildContext* a1)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::Foundation::ViewObject::Donjon::DonjonFloorObjectBuildContext*))((::PBYTE)hIl2Cpp + CLASS_1_D2BA87226C48A494_METHOD_1_F62E96DF0CE4717C_OFFSET))(this, a1);
 	}
 };

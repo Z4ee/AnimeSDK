@@ -5,7 +5,7 @@
 
 namespace BinaryTracingFramework::Serialize
 {
-	inline static constexpr unsigned int TypeTrait_1_TypeDefinitionIndex = 33984;
+	inline static constexpr unsigned int TypeTrait_1_TypeDefinitionIndex = 34620;
 
 	template <typename T>
 	class TypeTrait_1 : public ::System::Object

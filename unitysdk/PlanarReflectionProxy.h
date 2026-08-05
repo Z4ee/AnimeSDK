@@ -11,42 +11,42 @@ namespace System { class String; }
 namespace UnityEngine { class Camera; }
 namespace UnityEngine::Rendering::Universal { class UniversalRenderPipelineAsset; }
 
-#define PLANARREFLECTIONPROXY_GET_DEBUGVIEWDATA_OFFSET UNITYSDK_OFFSET(0x1C13EA20)
-#define PLANARREFLECTIONPROXY_ISPRNEEDDISABLEDFORSCENE_OFFSET UNITYSDK_OFFSET(0x1C13DB80)
-#define PLANARREFLECTIONPROXY_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1C13E250)
-#define PLANARREFLECTIONPROXY_ONDRAWGIZMOSSELECTED_OFFSET UNITYSDK_OFFSET(0x1C13E2F0)
-#define PLANARREFLECTIONPROXY_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1C13D740)
-#define PLANARREFLECTIONPROXY_PREPAREDEBUGVIEWDATA_OFFSET UNITYSDK_OFFSET(0x1C13E6D0)
-#define PLANARREFLECTIONPROXY_SET_DEBUGVIEWDATA_OFFSET UNITYSDK_OFFSET(0x1C13EA30)
-#define PLANARREFLECTIONPROXY_SYNCCULLINGPARAMS_OFFSET UNITYSDK_OFFSET(0x1C13DAD0)
-#define PLANARREFLECTIONPROXY_UPDATESSPRFORCEDISABLESCENE_OFFSET UNITYSDK_OFFSET(0x1C13DF60)
-#define PLANARREFLECTIONPROXY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C13EC10)
-#define PLANARREFLECTIONPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x1C13EA40)
+#define PLANARREFLECTIONPROXY_GET_DEBUGVIEWDATA_OFFSET UNITYSDK_OFFSET(0x1D2FA5D0)
+#define PLANARREFLECTIONPROXY_ISPRNEEDDISABLEDFORSCENE_OFFSET UNITYSDK_OFFSET(0x1D2F9720)
+#define PLANARREFLECTIONPROXY_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1D2F9DF0)
+#define PLANARREFLECTIONPROXY_ONDRAWGIZMOSSELECTED_OFFSET UNITYSDK_OFFSET(0x1D2F9E90)
+#define PLANARREFLECTIONPROXY_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1D2F92E0)
+#define PLANARREFLECTIONPROXY_PREPAREDEBUGVIEWDATA_OFFSET UNITYSDK_OFFSET(0x1D2FA290)
+#define PLANARREFLECTIONPROXY_SET_DEBUGVIEWDATA_OFFSET UNITYSDK_OFFSET(0x1D2FA5E0)
+#define PLANARREFLECTIONPROXY_SYNCCULLINGPARAMS_OFFSET UNITYSDK_OFFSET(0x1D2F9670)
+#define PLANARREFLECTIONPROXY_UPDATESSPRFORCEDISABLESCENE_OFFSET UNITYSDK_OFFSET(0x1D2F9B00)
+#define PLANARREFLECTIONPROXY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D2FA7C0)
+#define PLANARREFLECTIONPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2FA5F0)
 
-inline static constexpr unsigned int PlanarReflectionProxy_TypeDefinitionIndex = 26635;
+inline static constexpr unsigned int PlanarReflectionProxy_TypeDefinitionIndex = 27377;
 
 class PlanarReflectionProxy : public ::UnityEngine::NAPRenderPipeline0::PlanarReflectionProxy_NativeSRP
 {
 public:
-	static ::System::Single* StaticGet_s_ScreenCullingRadiosForMiddle()
+	static ::System::Int32* StaticGet_s_MaxVisibleLightCount()
 	{
-		return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(PlanarReflectionProxy_TypeDefinitionIndex)->GetStaticField(0x73F0);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PlanarReflectionProxy_TypeDefinitionIndex)->GetStaticField(0x73B0);
 	}
 	static ::UnityEngine::LayerMask* StaticGet_s_ScreenCullingRadiosForMiddleLayer()
 	{
-		return (::UnityEngine::LayerMask*)Il2CppClass::FromTypeDefinitionIndex(PlanarReflectionProxy_TypeDefinitionIndex)->GetStaticField(0x73F4);
+		return (::UnityEngine::LayerMask*)Il2CppClass::FromTypeDefinitionIndex(PlanarReflectionProxy_TypeDefinitionIndex)->GetStaticField(0x73B4);
 	}
-	static ::System::Int32* StaticGet_s_MaxVisibleLightCount()
+	static ::System::Single* StaticGet_s_ScreenCullingRadiosForMiddle()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PlanarReflectionProxy_TypeDefinitionIndex)->GetStaticField(0x73F8);
-	}
-	static ::UnityEngine::LayerMask* StaticGet_s_ScreenCullingRadiosForSmallLayer()
-	{
-		return (::UnityEngine::LayerMask*)Il2CppClass::FromTypeDefinitionIndex(PlanarReflectionProxy_TypeDefinitionIndex)->GetStaticField(0x73FC);
+		return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(PlanarReflectionProxy_TypeDefinitionIndex)->GetStaticField(0x73B8);
 	}
 	static ::System::Single* StaticGet_s_ScreenCullingRadiosForSmall()
 	{
-		return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(PlanarReflectionProxy_TypeDefinitionIndex)->GetStaticField(0x7400);
+		return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(PlanarReflectionProxy_TypeDefinitionIndex)->GetStaticField(0x73BC);
+	}
+	static ::UnityEngine::LayerMask* StaticGet_s_ScreenCullingRadiosForSmallLayer()
+	{
+		return (::UnityEngine::LayerMask*)Il2CppClass::FromTypeDefinitionIndex(PlanarReflectionProxy_TypeDefinitionIndex)->GetStaticField(0x73C0);
 	}
 	::System::Boolean _ignoreSmallStepDown; // 0x50
 	::System::Boolean smoothFollowCharacter; // 0x51

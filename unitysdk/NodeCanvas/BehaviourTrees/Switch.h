@@ -10,22 +10,22 @@ namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
 namespace NodeCanvas::Framework::Internal { class BBObjectParameter; }
 namespace UnityEngine { class Component; }
 
-#define NODECANVAS_BEHAVIOURTREES_SWITCH_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1D840060)
-#define NODECANVAS_BEHAVIOURTREES_SWITCH__CTOR_OFFSET UNITYSDK_OFFSET(0x1D840360)
+#define NODECANVAS_BEHAVIOURTREES_SWITCH_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1EB828D0)
+#define NODECANVAS_BEHAVIOURTREES_SWITCH__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB82BE0)
 
 namespace NodeCanvas::BehaviourTrees
 {
-	inline static constexpr unsigned int Switch_TypeDefinitionIndex = 29720;
+	inline static constexpr unsigned int Switch_TypeDefinitionIndex = 29848;
 
 	class Switch : public ::NodeCanvas::BehaviourTrees::BTComposite
 	{
 	public:
 		::NodeCanvas::Framework::BBParameter_1<::System::Int32>* intCase; // 0x78
 		::NodeCanvas::Framework::Internal::BBObjectParameter* enumCase; // 0x80
-		::System::Boolean dynamic; // 0x88
-		::System::Int32 runningIndex; // 0x8C
-		::System::Int32 current; // 0x90
-		::NodeCanvas::BehaviourTrees::Switch_CaseSelectionMode selectionMode; // 0x94
+		::System::Int32 current; // 0x88
+		::NodeCanvas::BehaviourTrees::Switch_CaseSelectionMode selectionMode; // 0x8C
+		::System::Int32 runningIndex; // 0x90
+		::System::Boolean dynamic; // 0x94
 		::NodeCanvas::BehaviourTrees::Switch_OutOfRangeMode outOfRangeMode; // 0x98
 
 		::System::Void _ctor()

@@ -6,16 +6,16 @@
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_4_DA19DD65175B97CF;
+class Class_4_AC6D98911872E0CE;
 namespace Share { class CVector2; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define CLASS_1_17C16694410E7397_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x13118F10)
-#define CLASS_1_17C16694410E7397_METHOD_1_DA2132B3D655C6CE_OFFSET UNITYSDK_OFFSET(0x13118FA0)
-#define CLASS_1_17C16694410E7397__CTOR_OFFSET UNITYSDK_OFFSET(0x13118F50)
+#define CLASS_1_17C16694410E7397_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x17C51830)
+#define CLASS_1_17C16694410E7397_METHOD_1_DA2132B3D655C6CE_OFFSET UNITYSDK_OFFSET(0x17C518C0)
+#define CLASS_1_17C16694410E7397__CTOR_OFFSET UNITYSDK_OFFSET(0x17C51870)
 
-inline static constexpr unsigned int Class_1_17C16694410E7397_TypeDefinitionIndex = 52243;
+inline static constexpr unsigned int Class_1_17C16694410E7397_TypeDefinitionIndex = 89361;
 
 class Class_1_17C16694410E7397 : public ::System::Object
 {

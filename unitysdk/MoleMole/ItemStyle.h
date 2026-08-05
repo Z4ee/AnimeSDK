@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_ITEMSTYLE__CTOR_OFFSET UNITYSDK_OFFSET(0x19131F00)
+#define MOLEMOLE_ITEMSTYLE__CTOR_OFFSET UNITYSDK_OFFSET(0x19DC54D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ItemStyle_TypeDefinitionIndex = 70475;
+	inline static constexpr unsigned int ItemStyle_TypeDefinitionIndex = 89362;
 
 	class ItemStyle : public ::System::Object
 	{
@@ -19,9 +19,10 @@ namespace MoleMole
 		::System::String* fadeInAnimation; // 0x20
 		::System::String* fadeOutAnimation; // 0x28
 		::System::String* imageTarget; // 0x30
-		::System::Boolean enableDynamicAlpha; // 0x38
-		::System::Single maxShowDistance; // 0x3C
-		::UnityEngine::AnimationCurve* alphaCurve; // 0x40
+		::System::String* arrowTarget; // 0x38
+		::System::Boolean enableDynamicAlpha; // 0x40
+		::System::Single maxShowDistance; // 0x44
+		::UnityEngine::AnimationCurve* alphaCurve; // 0x48
 
 		::System::Void _ctor()
 		{

@@ -7,23 +7,23 @@
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Texture2D; }
 
-#define CLASS_2_A3348528EDFA3F39_METHOD_2_071850D2764E9D4C_OFFSET UNITYSDK_OFFSET(0x15915D80)
-#define CLASS_2_A3348528EDFA3F39_METHOD_2_C0B0DC26F08F2104_OFFSET UNITYSDK_OFFSET(0x15916210)
-#define CLASS_2_A3348528EDFA3F39_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x159164E0)
-#define CLASS_2_A3348528EDFA3F39__CCTOR_OFFSET UNITYSDK_OFFSET(0x159161D0)
-#define CLASS_2_A3348528EDFA3F39__CTOR_OFFSET UNITYSDK_OFFSET(0x15915D10)
+#define CLASS_2_A3348528EDFA3F39_METHOD_2_071850D2764E9D4C_OFFSET UNITYSDK_OFFSET(0x13EB60F0)
+#define CLASS_2_A3348528EDFA3F39_METHOD_2_C0B0DC26F08F2104_OFFSET UNITYSDK_OFFSET(0x13EB6580)
+#define CLASS_2_A3348528EDFA3F39_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x13EB6850)
+#define CLASS_2_A3348528EDFA3F39__CCTOR_OFFSET UNITYSDK_OFFSET(0x13EB6540)
+#define CLASS_2_A3348528EDFA3F39__CTOR_OFFSET UNITYSDK_OFFSET(0x13EB6080)
 
-inline static constexpr unsigned int Class_2_A3348528EDFA3F39_TypeDefinitionIndex = 40859;
+inline static constexpr unsigned int Class_2_A3348528EDFA3F39_TypeDefinitionIndex = 51378;
 
 class Class_2_A3348528EDFA3F39 : public ::Class_1_53DDAF81FA4D5748
 {
 public:
-	static ::System::Int32* StaticGet_Field_2_2()
+	static ::System::Int32* StaticGet_Field_2_0()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_A3348528EDFA3F39_TypeDefinitionIndex)->GetStaticField(0xF190);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_A3348528EDFA3F39_TypeDefinitionIndex)->GetStaticField(0xE920);
 	}
-	::UnityEngine::Texture2D* Field_2_0; // 0x68
-	::Foundation::AssetRequestHandle Field_2_1; // 0x70
+	::Foundation::AssetRequestHandle Field_2_1; // 0x68
+	::UnityEngine::Texture2D* Field_2_2; // 0x88
 
 	::System::Void _ctor(::MoleMole::GalGame::GalgameFilterType a1, ::UnityEngine::Material* a2, ::Foundation::AssetRequestHandle a3, ::UnityEngine::Material* a4, ::Foundation::AssetRequestHandle a5)
 	{

@@ -21,74 +21,74 @@ namespace UnityEngine::Rendering::Universal { class UniversalRenderPipelineAsset
 namespace UnityEngine::Rendering::Universal::Internal { class FootPrintManager_FootPrintArray; }
 namespace UnityEngine::Rendering::Universal::Internal { class FootPrintSpawner; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FOOTPRINTMANAGER_ADDTONPCFOOTPRINTQUEUE_OFFSET UNITYSDK_OFFSET(0x1D3D7D80)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FOOTPRINTMANAGER_CLEARCACHEDDATA_OFFSET UNITYSDK_OFFSET(0x1D3D6470)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FOOTPRINTMANAGER_CLEARTARGETHOLDER_OFFSET UNITYSDK_OFFSET(0x1D3D7600)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FOOTPRINTMANAGER_DRAWFOOTPRINT_OFFSET UNITYSDK_OFFSET(0x1D3D9530)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FOOTPRINTMANAGER_DUMPFOOTPRINTPASSMASK_OFFSET UNITYSDK_OFFSET(0x1D3D8A90)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FOOTPRINTMANAGER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1D3D6380)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FOOTPRINTMANAGER_NEEDDRAWFOOTPRINTPASS_OFFSET UNITYSDK_OFFSET(0x1D3D9270)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FOOTPRINTMANAGER_TICKNPCFOOTPRINTDATA_OFFSET UNITYSDK_OFFSET(0x1D3D7EC0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FOOTPRINTMANAGER_TRYBINDFOOTPRINTSPAWNER_OFFSET UNITYSDK_OFFSET(0x1D3DB1E0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FOOTPRINTMANAGER_TRYBINDWHEELPRINTSPAWNER_OFFSET UNITYSDK_OFFSET(0x1D3DA800)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FOOTPRINTMANAGER_TRYSPAWNCOMMONFOOTPRINT_OFFSET UNITYSDK_OFFSET(0x1D3D8380)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FOOTPRINTMANAGER_TRYSPAWNMAINCHARACTERFOOTPRINT_OFFSET UNITYSDK_OFFSET(0x1D3D8260)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FOOTPRINTMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D3DC110)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FOOTPRINTMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3D6190)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FOOTPRINTMANAGER_ADDTONPCFOOTPRINTQUEUE_OFFSET UNITYSDK_OFFSET(0x1E794AF0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FOOTPRINTMANAGER_CLEARCACHEDDATA_OFFSET UNITYSDK_OFFSET(0x1E7931E0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FOOTPRINTMANAGER_CLEARTARGETHOLDER_OFFSET UNITYSDK_OFFSET(0x1E794370)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FOOTPRINTMANAGER_DRAWFOOTPRINT_OFFSET UNITYSDK_OFFSET(0x1E796290)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FOOTPRINTMANAGER_DUMPFOOTPRINTPASSMASK_OFFSET UNITYSDK_OFFSET(0x1E7957F0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FOOTPRINTMANAGER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1E7930F0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FOOTPRINTMANAGER_NEEDDRAWFOOTPRINTPASS_OFFSET UNITYSDK_OFFSET(0x1E795FD0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FOOTPRINTMANAGER_TICKNPCFOOTPRINTDATA_OFFSET UNITYSDK_OFFSET(0x1E794C30)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FOOTPRINTMANAGER_TRYBINDFOOTPRINTSPAWNER_OFFSET UNITYSDK_OFFSET(0x1E797F70)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FOOTPRINTMANAGER_TRYBINDWHEELPRINTSPAWNER_OFFSET UNITYSDK_OFFSET(0x1E797560)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FOOTPRINTMANAGER_TRYSPAWNCOMMONFOOTPRINT_OFFSET UNITYSDK_OFFSET(0x1E7950E0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FOOTPRINTMANAGER_TRYSPAWNMAINCHARACTERFOOTPRINT_OFFSET UNITYSDK_OFFSET(0x1E794FC0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FOOTPRINTMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E798ED0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FOOTPRINTMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E792F00)
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int FootPrintManager_TypeDefinitionIndex = 26797;
+	inline static constexpr unsigned int FootPrintManager_TypeDefinitionIndex = 27137;
 
 	class FootPrintManager : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::Profiling::CustomSampler** StaticGet_Sampler_TrySpawnNPCFootPrint()
-		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(FootPrintManager_TypeDefinitionIndex)->GetStaticField(0x20370);
-		}
-		static ::UnityEngine::Profiling::CustomSampler** StaticGet_Sampler_TryBindNPCFootPrint()
-		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(FootPrintManager_TypeDefinitionIndex)->GetStaticField(0x20378);
-		}
-		static ::UnityEngine::Profiling::CustomSampler** StaticGet_Sampler_TrySpawnMainCharacterFootPrint()
-		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(FootPrintManager_TypeDefinitionIndex)->GetStaticField(0x20380);
-		}
 		static ::UnityEngine::Profiling::CustomSampler** StaticGet_Sampler_LateUpdateFootPrintDrawData()
 		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(FootPrintManager_TypeDefinitionIndex)->GetStaticField(0x20388);
+			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(FootPrintManager_TypeDefinitionIndex)->GetStaticField(0x21410);
 		}
-		static ::UnityEngine::Rendering::Universal::Internal::FootPrintManager** StaticGet__instance()
+		static ::UnityEngine::Profiling::CustomSampler** StaticGet_Sampler_TrySpawnNPCFootPrint()
 		{
-			return (::UnityEngine::Rendering::Universal::Internal::FootPrintManager**)Il2CppClass::FromTypeDefinitionIndex(FootPrintManager_TypeDefinitionIndex)->GetStaticField(0x20390);
+			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(FootPrintManager_TypeDefinitionIndex)->GetStaticField(0x21418);
 		}
 		static ::UnityEngine::Profiling::CustomSampler** StaticGet_Sampler_UpdateFootPrintDrawData()
 		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(FootPrintManager_TypeDefinitionIndex)->GetStaticField(0x20398);
+			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(FootPrintManager_TypeDefinitionIndex)->GetStaticField(0x21420);
 		}
-		static ::System::Int32* StaticGet__FootParams()
+		static ::UnityEngine::Rendering::Universal::Internal::FootPrintManager** StaticGet__instance()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FootPrintManager_TypeDefinitionIndex)->GetStaticField(0x5240);
+			return (::UnityEngine::Rendering::Universal::Internal::FootPrintManager**)Il2CppClass::FromTypeDefinitionIndex(FootPrintManager_TypeDefinitionIndex)->GetStaticField(0x21428);
+		}
+		static ::UnityEngine::Profiling::CustomSampler** StaticGet_Sampler_TryBindNPCFootPrint()
+		{
+			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(FootPrintManager_TypeDefinitionIndex)->GetStaticField(0x21430);
+		}
+		static ::UnityEngine::Profiling::CustomSampler** StaticGet_Sampler_TrySpawnMainCharacterFootPrint()
+		{
+			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(FootPrintManager_TypeDefinitionIndex)->GetStaticField(0x21438);
 		}
 		static ::System::Boolean* StaticGet_enableNPCFootPrint()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(FootPrintManager_TypeDefinitionIndex)->GetStaticField(0x5244);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(FootPrintManager_TypeDefinitionIndex)->GetStaticField(0x50A0);
 		}
 		static ::System::Boolean* StaticGet_s_EnableDebugLog()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(FootPrintManager_TypeDefinitionIndex)->GetStaticField(0x5245);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(FootPrintManager_TypeDefinitionIndex)->GetStaticField(0x50A1);
+		}
+		static ::System::Int32* StaticGet__FootParams()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FootPrintManager_TypeDefinitionIndex)->GetStaticField(0x50A4);
 		}
 		// static const ::System::Int32 MAX_NPC_FOOT_PRINT_NUM = 0x64; // 0x0
 		// static const ::System::Int32 kMaxFootPrintBatchCountForNPC = 0xC8; // 0x0
-		::Il2CppArray<::UnityEngine::Vector4>* m_FootParamsForNPC; // 0x10
-		::Il2CppArray<::UnityEngine::Matrix4x4>* m_LocalToWorldMatrixArrayForNPC; // 0x18
-		::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::UnityEngine::Rendering::Universal::Internal::FootPrintSpawner*>* cachedWheelPrintData; // 0x20
-		::Il2CppArray<::UnityEngine::MaterialPropertyBlock*>* m_MaterialPropertyBlockForNPC; // 0x28
-		::Il2CppArray<::UnityEngine::Rendering::Universal::Internal::FootPrintManager_CachedFootPrintRenderItem>* m_CandidateNPCFootPrintCpuDates; // 0x30
-		::System::Collections::Generic::Queue_1<::UnityEngine::Rendering::Universal::Internal::FootPrintManager_FootPrintRenderItem>* m_NPCFootPrintCpuDates; // 0x38
-		::System::Collections::Generic::List_1<::UnityEngine::Rendering::Universal::Internal::FootPrintSpawner*>* FootPrintSpawners; // 0x40
-		::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::UnityEngine::Rendering::Universal::Internal::FootPrintManager_FootPrintArray*>* cachedFootPrintData; // 0x48
+		::Il2CppArray<::UnityEngine::Rendering::Universal::Internal::FootPrintManager_CachedFootPrintRenderItem>* m_CandidateNPCFootPrintCpuDates; // 0x10
+		::Il2CppArray<::UnityEngine::Vector4>* m_FootParamsForNPC; // 0x18
+		::System::Collections::Generic::Queue_1<::UnityEngine::Rendering::Universal::Internal::FootPrintManager_FootPrintRenderItem>* m_NPCFootPrintCpuDates; // 0x20
+		::Il2CppArray<::UnityEngine::Matrix4x4>* m_LocalToWorldMatrixArrayForNPC; // 0x28
+		::System::Collections::Generic::List_1<::UnityEngine::Rendering::Universal::Internal::FootPrintSpawner*>* FootPrintSpawners; // 0x30
+		::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::UnityEngine::Rendering::Universal::Internal::FootPrintSpawner*>* cachedWheelPrintData; // 0x38
+		::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::UnityEngine::Rendering::Universal::Internal::FootPrintManager_FootPrintArray*>* cachedFootPrintData; // 0x40
+		::Il2CppArray<::UnityEngine::MaterialPropertyBlock*>* m_MaterialPropertyBlockForNPC; // 0x48
 		::System::Int32 m_CandidateNPCFootPrintCpuDatesCount; // 0x50
 
 		::System::Void _ctor()

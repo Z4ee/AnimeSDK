@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int EmptyList_1_TypeDefinitionIndex = 44529;
+	inline static constexpr unsigned int EmptyList_1_TypeDefinitionIndex = 44495;
 
 	template <typename T>
 	class EmptyList_1 : public ::System::Collections::Generic::List_1<T>

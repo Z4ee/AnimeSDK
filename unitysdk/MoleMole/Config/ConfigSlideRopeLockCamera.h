@@ -8,22 +8,22 @@ namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGSLIDEROPELOCKCAMERA_GETCONFIG_OFFSET UNITYSDK_OFFSET(0x17D5E710)
-#define MOLEMOLE_CONFIG_CONFIGSLIDEROPELOCKCAMERA_RELOADFROMFILEASYNC_OFFSET UNITYSDK_OFFSET(0x17D5EFC0)
-#define MOLEMOLE_CONFIG_CONFIGSLIDEROPELOCKCAMERA_RELOADFROMFILE_OFFSET UNITYSDK_OFFSET(0x17D5E910)
-#define MOLEMOLE_CONFIG_CONFIGSLIDEROPELOCKCAMERA__CCTOR_OFFSET UNITYSDK_OFFSET(0x17D5F1B0)
-#define MOLEMOLE_CONFIG_CONFIGSLIDEROPELOCKCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x17D5F0D0)
+#define MOLEMOLE_CONFIG_CONFIGSLIDEROPELOCKCAMERA_GETCONFIG_OFFSET UNITYSDK_OFFSET(0x172AF350)
+#define MOLEMOLE_CONFIG_CONFIGSLIDEROPELOCKCAMERA_RELOADFROMFILEASYNC_OFFSET UNITYSDK_OFFSET(0x172AFC00)
+#define MOLEMOLE_CONFIG_CONFIGSLIDEROPELOCKCAMERA_RELOADFROMFILE_OFFSET UNITYSDK_OFFSET(0x172AF550)
+#define MOLEMOLE_CONFIG_CONFIGSLIDEROPELOCKCAMERA__CCTOR_OFFSET UNITYSDK_OFFSET(0x172AFDF0)
+#define MOLEMOLE_CONFIG_CONFIGSLIDEROPELOCKCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x172AFD10)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigSlideRopeLockCamera_TypeDefinitionIndex = 47774;
+	inline static constexpr unsigned int ConfigSlideRopeLockCamera_TypeDefinitionIndex = 49396;
 
 	class ConfigSlideRopeLockCamera : public ::Foundation::MihoyoSerializedScriptableObject
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::SlideRopeCameraLockConfig*>** StaticGet__dicRuntimeCameraConfig()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::SlideRopeCameraLockConfig*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigSlideRopeLockCamera_TypeDefinitionIndex)->GetStaticField(0x3E970);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::SlideRopeCameraLockConfig*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigSlideRopeLockCamera_TypeDefinitionIndex)->GetStaticField(0x3F6B0);
 		}
 		// static const ::System::String* DEFAULT_KEY; // 0x0
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::SlideRopeCameraLockConfig*>* DicCameraConfig; // 0x58

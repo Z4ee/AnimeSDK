@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_CONFIG_CONFIGZIPLINE_CONFIGSPEEDMODIFIER_SWITCH__CTOR_OFFSET UNITYSDK_OFFSET(0x19FF34C0)
+#define MOLEMOLE_CONFIG_CONFIGZIPLINE_CONFIGSPEEDMODIFIER_SWITCH__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7FB850)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigZipLine_ConfigSpeedModifier_Switch_TypeDefinitionIndex = 51253;
+	inline static constexpr unsigned int ConfigZipLine_ConfigSpeedModifier_Switch_TypeDefinitionIndex = 53008;
 
 	class ConfigZipLine_ConfigSpeedModifier_Switch : public ::System::Object
 	{

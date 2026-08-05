@@ -7,7 +7,7 @@ namespace System { class Action; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigLazyLoadItem_1_TypeDefinitionIndex = 43393;
+	inline static constexpr unsigned int ConfigLazyLoadItem_1_TypeDefinitionIndex = 59448;
 
 	template <typename SoType>
 	class ConfigLazyLoadItem_1 : public ::System::Object

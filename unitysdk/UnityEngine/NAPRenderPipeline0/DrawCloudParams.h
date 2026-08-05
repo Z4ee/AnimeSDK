@@ -6,7 +6,7 @@
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int DrawCloudParams_TypeDefinitionIndex = 5936;
+	inline static constexpr unsigned int DrawCloudParams_TypeDefinitionIndex = 5938;
 
 	struct alignas(8) DrawCloudParams
 	{

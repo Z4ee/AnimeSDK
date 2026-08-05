@@ -1,13 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_59937F72FEA575BF_2.h"
+#include "unitysdk/Enum_3_59937F72FEA575BF_1.h"
 #include "unitysdk/System/ValueType.h"
 
 namespace System { class String; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SMapGroupMemberStateExConfig_TypeDefinitionIndex = 61120;
+	inline static constexpr unsigned int SMapGroupMemberStateExConfig_TypeDefinitionIndex = 70803;
 
 	struct alignas(8) SMapGroupMemberStateExConfig
 	{
@@ -15,6 +15,6 @@ namespace MoleMole
 		::System::Int32 MemberId; // 0x14
 		::System::String* StateName; // 0x18
 		::System::Int32 StateValue; // 0x20
-		::Enum_3_59937F72FEA575BF_2 Operator; // 0x24
+		::Enum_3_59937F72FEA575BF_1 Operator; // 0x24
 	};
 }

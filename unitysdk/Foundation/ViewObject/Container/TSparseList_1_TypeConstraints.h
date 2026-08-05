@@ -6,7 +6,7 @@ namespace Foundation::ViewObject::Container { template <typename T> class TSpars
 
 namespace Foundation::ViewObject::Container
 {
-	inline static constexpr unsigned int TSparseList_1_TypeConstraints_TypeDefinitionIndex = 61148;
+	inline static constexpr unsigned int TSparseList_1_TypeConstraints_TypeDefinitionIndex = 46898;
 
 	template <typename T>
 	class TSparseList_1_TypeConstraints : public ::System::Object

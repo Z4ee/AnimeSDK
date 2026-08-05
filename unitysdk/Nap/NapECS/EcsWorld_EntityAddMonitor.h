@@ -5,12 +5,12 @@
 namespace Nap::NapECS { class EcsEntity; }
 namespace Nap::NapECS { class EcsWorld_EntityComponentMaskMap; }
 
-#define NAP_NAPECS_ECSWORLD_ENTITYADDMONITOR_DISPOSE_OFFSET UNITYSDK_OFFSET(0x90D520)
-#define NAP_NAPECS_ECSWORLD_ENTITYADDMONITOR__CTOR_OFFSET UNITYSDK_OFFSET(0x2BDE80)
+#define NAP_NAPECS_ECSWORLD_ENTITYADDMONITOR_DISPOSE_OFFSET UNITYSDK_OFFSET(0x95BD20)
+#define NAP_NAPECS_ECSWORLD_ENTITYADDMONITOR__CTOR_OFFSET UNITYSDK_OFFSET(0x346F70)
 
 namespace Nap::NapECS
 {
-	inline static constexpr unsigned int EcsWorld_EntityAddMonitor_TypeDefinitionIndex = 37372;
+	inline static constexpr unsigned int EcsWorld_EntityAddMonitor_TypeDefinitionIndex = 37975;
 
 	struct alignas(8) EcsWorld_EntityAddMonitor
 	{

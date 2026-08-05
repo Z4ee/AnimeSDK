@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int IMarkTemplateOverridable_TypeDefinitionIndex = 77369;
+	inline static constexpr unsigned int IMarkTemplateOverridable_TypeDefinitionIndex = 44453;
 
 	class IMarkTemplateOverridable
 	{

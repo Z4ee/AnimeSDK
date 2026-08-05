@@ -4,9 +4,9 @@
 
 namespace System { class String; }
 
-#define MONOUIEXPANDANDSHRINKCELL_CONIG__CTOR_OFFSET UNITYSDK_OFFSET(0x12A2EE50)
+#define MONOUIEXPANDANDSHRINKCELL_CONIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1353FE60)
 
-inline static constexpr unsigned int MonoUIExpandAndShrinkCell_Conig_TypeDefinitionIndex = 67010;
+inline static constexpr unsigned int MonoUIExpandAndShrinkCell_Conig_TypeDefinitionIndex = 51337;
 
 class MonoUIExpandAndShrinkCell_Conig : public ::System::Object
 {

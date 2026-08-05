@@ -11,7 +11,7 @@ namespace System::Collections::Generic { template <typename T> class IEqualityCo
 
 namespace Foundation
 {
-	inline static constexpr unsigned int ArrayExt_TypeDefinitionIndex = 8343;
+	inline static constexpr unsigned int ArrayExt_TypeDefinitionIndex = 7838;
 
 	class ArrayExt : public ::System::Object
 	{

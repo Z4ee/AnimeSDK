@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/Timeline/MaterialBaseBehavior.h"
 
-#define MOLEMOLE_TIMELINE_MATERIALRECORDERBEHAVIOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD5BBE0)
+#define MOLEMOLE_TIMELINE_MATERIALRECORDERBEHAVIOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1F1A09E0)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int MaterialRecorderBehavior_TypeDefinitionIndex = 32195;
+	inline static constexpr unsigned int MaterialRecorderBehavior_TypeDefinitionIndex = 32825;
 
 	class MaterialRecorderBehavior : public ::MoleMole::Timeline::MaterialBaseBehavior
 	{

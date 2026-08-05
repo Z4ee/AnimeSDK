@@ -6,7 +6,7 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CinemaDistanceRatioRotationStruct_TypeDefinitionIndex = 80773;
+	inline static constexpr unsigned int CinemaDistanceRatioRotationStruct_TypeDefinitionIndex = 57067;
 
 	struct alignas(8) CinemaDistanceRatioRotationStruct
 	{

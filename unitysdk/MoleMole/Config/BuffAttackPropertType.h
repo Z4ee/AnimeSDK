@@ -3,12 +3,12 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int BuffAttackPropertType_TypeDefinitionIndex = 74326;
+	inline static constexpr unsigned int BuffAttackPropertType_TypeDefinitionIndex = 41083;
 
 	enum class BuffAttackPropertType : ::System::Int32
 	{
-		SpecialType = 1,
 		DamageType = 0,
+		SpecialType = 1,
 		HitType = 2,
 	};
 }

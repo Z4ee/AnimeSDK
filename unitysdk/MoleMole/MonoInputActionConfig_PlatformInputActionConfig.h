@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoInputActionConfig_PlatformInputActionConfig_TypeDefinitionIndex = 85013;
+	inline static constexpr unsigned int MonoInputActionConfig_PlatformInputActionConfig_TypeDefinitionIndex = 45307;
 
 	struct alignas(8) MonoInputActionConfig_PlatformInputActionConfig
 	{

@@ -3,7 +3,7 @@
 
 namespace NodeCanvas::BehaviourTrees
 {
-	inline static constexpr unsigned int Repeater_RepeaterMode_TypeDefinitionIndex = 30181;
+	inline static constexpr unsigned int Repeater_RepeaterMode_TypeDefinitionIndex = 31451;
 
 	enum class Repeater_RepeaterMode : ::System::Int32
 	{

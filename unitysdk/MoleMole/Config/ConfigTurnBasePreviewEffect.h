@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGTURNBASEPREVIEWEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x12722440)
+#define MOLEMOLE_CONFIG_CONFIGTURNBASEPREVIEWEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x13509960)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigTurnBasePreviewEffect_TypeDefinitionIndex = 54062;
+	inline static constexpr unsigned int ConfigTurnBasePreviewEffect_TypeDefinitionIndex = 90997;
 
 	class ConfigTurnBasePreviewEffect : public ::System::Object
 	{

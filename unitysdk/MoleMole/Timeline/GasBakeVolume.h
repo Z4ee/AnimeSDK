@@ -23,48 +23,48 @@ namespace UnityEngine { class RenderTexture; }
 namespace UnityEngine { class Texture2D; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define MOLEMOLE_TIMELINE_GASBAKEVOLUME_BAKEEXISTINGVOLUME_OFFSET UNITYSDK_OFFSET(0x15E2AD30)
-#define MOLEMOLE_TIMELINE_GASBAKEVOLUME_BAKEVOLUME_OFFSET UNITYSDK_OFFSET(0x15E29490)
-#define MOLEMOLE_TIMELINE_GASBAKEVOLUME_BLURSCATTERLEVEL_OFFSET UNITYSDK_OFFSET(0x13055EC0)
-#define MOLEMOLE_TIMELINE_GASBAKEVOLUME_CALCULATESPOTDIRECTIONPOINTLIGHTS_OFFSET UNITYSDK_OFFSET(0x13054440)
-#define MOLEMOLE_TIMELINE_GASBAKEVOLUME_COMPOSEFINALCOLOR_OFFSET UNITYSDK_OFFSET(0x13054D90)
-#define MOLEMOLE_TIMELINE_GASBAKEVOLUME_COMPUTEBLURREDEMISSIONVOLUME_OFFSET UNITYSDK_OFFSET(0x15E28B60)
-#define MOLEMOLE_TIMELINE_GASBAKEVOLUME_COMPUTEINITIALEMISSIONVOLUME_OFFSET UNITYSDK_OFFSET(0x13055A10)
-#define MOLEMOLE_TIMELINE_GASBAKEVOLUME_EVALSPOTDIRECTIONPOINTLIGHTS_OFFSET UNITYSDK_OFFSET(0x13053BC0)
-#define MOLEMOLE_TIMELINE_GASBAKEVOLUME_GENERATEDENSITYLOD_OFFSET UNITYSDK_OFFSET(0x13053670)
-#define MOLEMOLE_TIMELINE_GASBAKEVOLUME_INITKERNEL_OFFSET UNITYSDK_OFFSET(0x13052D60)
-#define MOLEMOLE_TIMELINE_GASBAKEVOLUME_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x15E2BD20)
-#define MOLEMOLE_TIMELINE_GASBAKEVOLUME_METHOD_5_223FBB3600E44315_OFFSET UNITYSDK_OFFSET(0x15E2CCC0)
-#define MOLEMOLE_TIMELINE_GASBAKEVOLUME_METHOD_5_50A895BC16CB300F_OFFSET UNITYSDK_OFFSET(0x15E296F0)
-#define MOLEMOLE_TIMELINE_GASBAKEVOLUME_METHOD_5_5C1D9CE9065DBC99_OFFSET UNITYSDK_OFFSET(0x15E2C920)
-#define MOLEMOLE_TIMELINE_GASBAKEVOLUME_METHOD_5_66636C0942A3A511_OFFSET UNITYSDK_OFFSET(0x15E2B860)
-#define MOLEMOLE_TIMELINE_GASBAKEVOLUME_METHOD_5_C90D87BC640003E6_OFFSET UNITYSDK_OFFSET(0x15E2C190)
-#define MOLEMOLE_TIMELINE_GASBAKEVOLUME_METHOD_5_E00377DCD6A5DDE6_OFFSET UNITYSDK_OFFSET(0x15E2C0A0)
-#define MOLEMOLE_TIMELINE_GASBAKEVOLUME_METHOD_5_ED65AE7582736594_OFFSET UNITYSDK_OFFSET(0x15E2C5A0)
-#define MOLEMOLE_TIMELINE_GASBAKEVOLUME_METHOD_5_ED75E4E7234FB470_OFFSET UNITYSDK_OFFSET(0x15E2AF80)
-#define MOLEMOLE_TIMELINE_GASBAKEVOLUME_METHOD_5_F1DDFF64125B0A1C_OFFSET UNITYSDK_OFFSET(0x15E2B6E0)
-#define MOLEMOLE_TIMELINE_GASBAKEVOLUME_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x15E2B900)
-#define MOLEMOLE_TIMELINE_GASBAKEVOLUME_ONENABLE_OFFSET UNITYSDK_OFFSET(0x15E2B8C0)
-#define MOLEMOLE_TIMELINE_GASBAKEVOLUME_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x15E2B950)
-#define MOLEMOLE_TIMELINE_GASBAKEVOLUME_RELEASE_OFFSET UNITYSDK_OFFSET(0x15E2B020)
-#define MOLEMOLE_TIMELINE_GASBAKEVOLUME_RESET_OFFSET UNITYSDK_OFFSET(0x15E2B9A0)
-#define MOLEMOLE_TIMELINE_GASBAKEVOLUME_SETINPUTVOLUME_OFFSET UNITYSDK_OFFSET(0x13053030)
-#define MOLEMOLE_TIMELINE_GASBAKEVOLUME_SETMATERIALTEXTURE_OFFSET UNITYSDK_OFFSET(0x15E2A4F0)
-#define MOLEMOLE_TIMELINE_GASBAKEVOLUME__CCTOR_OFFSET UNITYSDK_OFFSET(0x15E2C090)
-#define MOLEMOLE_TIMELINE_GASBAKEVOLUME__CTOR_OFFSET UNITYSDK_OFFSET(0x15E2BD70)
+#define MOLEMOLE_TIMELINE_GASBAKEVOLUME_BAKEEXISTINGVOLUME_OFFSET UNITYSDK_OFFSET(0x173B8570)
+#define MOLEMOLE_TIMELINE_GASBAKEVOLUME_BAKEVOLUME_OFFSET UNITYSDK_OFFSET(0x173B6D30)
+#define MOLEMOLE_TIMELINE_GASBAKEVOLUME_BLURSCATTERLEVEL_OFFSET UNITYSDK_OFFSET(0x173B58C0)
+#define MOLEMOLE_TIMELINE_GASBAKEVOLUME_CALCULATESPOTDIRECTIONPOINTLIGHTS_OFFSET UNITYSDK_OFFSET(0x173B35C0)
+#define MOLEMOLE_TIMELINE_GASBAKEVOLUME_COMPOSEFINALCOLOR_OFFSET UNITYSDK_OFFSET(0x173B4000)
+#define MOLEMOLE_TIMELINE_GASBAKEVOLUME_COMPUTEBLURREDEMISSIONVOLUME_OFFSET UNITYSDK_OFFSET(0x173B63E0)
+#define MOLEMOLE_TIMELINE_GASBAKEVOLUME_COMPUTEINITIALEMISSIONVOLUME_OFFSET UNITYSDK_OFFSET(0x173B5090)
+#define MOLEMOLE_TIMELINE_GASBAKEVOLUME_EVALSPOTDIRECTIONPOINTLIGHTS_OFFSET UNITYSDK_OFFSET(0x173B2530)
+#define MOLEMOLE_TIMELINE_GASBAKEVOLUME_GENERATEDENSITYLOD_OFFSET UNITYSDK_OFFSET(0x173B1FD0)
+#define MOLEMOLE_TIMELINE_GASBAKEVOLUME_INITKERNEL_OFFSET UNITYSDK_OFFSET(0x173B1330)
+#define MOLEMOLE_TIMELINE_GASBAKEVOLUME_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x173B9570)
+#define MOLEMOLE_TIMELINE_GASBAKEVOLUME_METHOD_5_57F55FE10BEB9C8B_OFFSET UNITYSDK_OFFSET(0x173B6F90)
+#define MOLEMOLE_TIMELINE_GASBAKEVOLUME_METHOD_5_5C1D9CE9065DBC99_OFFSET UNITYSDK_OFFSET(0x173B1C40)
+#define MOLEMOLE_TIMELINE_GASBAKEVOLUME_METHOD_5_66636C0942A3A511_OFFSET UNITYSDK_OFFSET(0x173B90B0)
+#define MOLEMOLE_TIMELINE_GASBAKEVOLUME_METHOD_5_7AB45E73635D588D_OFFSET UNITYSDK_OFFSET(0x173B4C70)
+#define MOLEMOLE_TIMELINE_GASBAKEVOLUME_METHOD_5_BA17D3C6F101301A_OFFSET UNITYSDK_OFFSET(0x173B2DD0)
+#define MOLEMOLE_TIMELINE_GASBAKEVOLUME_METHOD_5_E00377DCD6A5DDE6_OFFSET UNITYSDK_OFFSET(0x173B3F10)
+#define MOLEMOLE_TIMELINE_GASBAKEVOLUME_METHOD_5_ED65AE7582736594_OFFSET UNITYSDK_OFFSET(0x173B5540)
+#define MOLEMOLE_TIMELINE_GASBAKEVOLUME_METHOD_5_ED75E4E7234FB470_OFFSET UNITYSDK_OFFSET(0x173B87C0)
+#define MOLEMOLE_TIMELINE_GASBAKEVOLUME_METHOD_5_F1DDFF64125B0A1C_OFFSET UNITYSDK_OFFSET(0x173B8F30)
+#define MOLEMOLE_TIMELINE_GASBAKEVOLUME_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x173B9150)
+#define MOLEMOLE_TIMELINE_GASBAKEVOLUME_ONENABLE_OFFSET UNITYSDK_OFFSET(0x173B9110)
+#define MOLEMOLE_TIMELINE_GASBAKEVOLUME_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x173B91A0)
+#define MOLEMOLE_TIMELINE_GASBAKEVOLUME_RELEASE_OFFSET UNITYSDK_OFFSET(0x173B8860)
+#define MOLEMOLE_TIMELINE_GASBAKEVOLUME_RESET_OFFSET UNITYSDK_OFFSET(0x173B91F0)
+#define MOLEMOLE_TIMELINE_GASBAKEVOLUME_SETINPUTVOLUME_OFFSET UNITYSDK_OFFSET(0x173B1600)
+#define MOLEMOLE_TIMELINE_GASBAKEVOLUME_SETMATERIALTEXTURE_OFFSET UNITYSDK_OFFSET(0x173B7DC0)
+#define MOLEMOLE_TIMELINE_GASBAKEVOLUME__CCTOR_OFFSET UNITYSDK_OFFSET(0x173B98E0)
+#define MOLEMOLE_TIMELINE_GASBAKEVOLUME__CTOR_OFFSET UNITYSDK_OFFSET(0x173B95C0)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int GasBakeVolume_TypeDefinitionIndex = 58507;
+	inline static constexpr unsigned int GasBakeVolume_TypeDefinitionIndex = 66230;
 
 	class GasBakeVolume : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::Int32* StaticGet_Field_5_39()
+		static ::System::Int32* StaticGet_Field_5_36()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(GasBakeVolume_TypeDefinitionIndex)->GetStaticField(0x117C0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(GasBakeVolume_TypeDefinitionIndex)->GetStaticField(0x10090);
 		}
-		::UnityEngine::Rendering::CommandBuffer* Field_5_0; // 0x18
+		::UnityEngine::Rendering::CommandBuffer* Field_5_3; // 0x18
 		::UnityEngine::ComputeShader* bakeVolumeShader; // 0x20
 		::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* lights; // 0x28
 		::System::Boolean useDisabledLight; // 0x30
@@ -73,7 +73,7 @@ namespace MoleMole::Timeline
 		::UnityEngine::Color smokeColor; // 0x44
 		::System::Boolean smokeColorByDensity; // 0x54
 		::UnityEngine::Gradient* densityColorRamp; // 0x58
-		::UnityEngine::Texture2D* Field_5_9; // 0x60
+		::UnityEngine::Texture2D* Field_5_10; // 0x60
 		::UnityEngine::Vector2 densityColorMinMax; // 0x68
 		::UnityEngine::Color shadowColor; // 0x70
 		::System::Single shadowDensity; // 0x80
@@ -83,7 +83,7 @@ namespace MoleMole::Timeline
 		::System::Boolean enableScatter; // 0x98
 		::System::Single scatterIntensity; // 0x9C
 		::UnityEngine::Gradient* scatterColorRamp; // 0xA0
-		::UnityEngine::Texture2D* Field_5_19; // 0xA8
+		::UnityEngine::Texture2D* Field_5_16; // 0xA8
 		::UnityEngine::Vector2 scatterRampMinMax; // 0xB0
 		::System::Boolean enableScatterBlur; // 0xB8
 		::System::Int32 scatterBlurSteps; // 0xBC
@@ -95,34 +95,34 @@ namespace MoleMole::Timeline
 		::System::Boolean enableFire; // 0xD4
 		::System::Single fireIntensity; // 0xD8
 		::UnityEngine::Gradient* fireColorRamp; // 0xE0
-		::UnityEngine::Texture2D* Field_5_31; // 0xE8
+		::UnityEngine::Texture2D* Field_5_28; // 0xE8
 		::UnityEngine::Vector2 fireRampMinMax; // 0xF0
 		::System::Boolean enableFireMask; // 0xF8
 		::System::Single fireMaskCenter; // 0xFC
 		::System::Single fireMaskWidth; // 0x100
 		::System::Boolean smoothShade; // 0x104
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::Light*>* Field_5_37; // 0x108
-		::UnityEngine::RenderTexture* Field_5_38; // 0x110
-		::Il2CppArray<::UnityEngine::RenderTexture*>* Field_5_40; // 0x118
-		::UnityEngine::RenderTexture* Field_5_41; // 0x120
-		::UnityEngine::RenderTexture* Field_5_42; // 0x128
-		::Il2CppArray<::UnityEngine::RenderTexture*>* Field_5_43; // 0x130
-		::Il2CppArray<::UnityEngine::RenderTexture*>* Field_5_44; // 0x138
-		::Il2CppArray<::System::Single>* Field_5_45; // 0x140
-		::Il2CppArray<::System::Single>* Field_5_46; // 0x148
-		::Il2CppArray<::UnityEngine::Vector3Int>* Field_5_47; // 0x150
-		::UnityEngine::ComputeBuffer* Field_5_48; // 0x158
-		::System::Int32 Field_5_49; // 0x160
-		::System::Int32 Field_5_50; // 0x164
-		::System::Int32 Field_5_51; // 0x168
-		::System::Int32 Field_5_52; // 0x16C
-		::System::Int32 Field_5_53; // 0x170
-		::System::Int32 Field_5_54; // 0x174
-		::System::Int32 Field_5_55; // 0x178
-		::System::Int32 Field_5_56; // 0x17C
-		::System::Int32 Field_5_57; // 0x180
-		::System::Int32 Field_5_58; // 0x184
-		::UnityEngine::MaterialPropertyBlock* Field_5_59; // 0x188
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::Light*>* Field_5_38; // 0x108
+		::UnityEngine::RenderTexture* Field_5_37; // 0x110
+		::Il2CppArray<::UnityEngine::RenderTexture*>* Field_5_43; // 0x118
+		::UnityEngine::RenderTexture* Field_5_42; // 0x120
+		::UnityEngine::RenderTexture* Field_5_41; // 0x128
+		::Il2CppArray<::UnityEngine::RenderTexture*>* Field_5_40; // 0x130
+		::Il2CppArray<::UnityEngine::RenderTexture*>* Field_5_47; // 0x138
+		::Il2CppArray<::System::Single>* Field_5_46; // 0x140
+		::Il2CppArray<::System::Single>* Field_5_45; // 0x148
+		::Il2CppArray<::UnityEngine::Vector3Int>* Field_5_44; // 0x150
+		::UnityEngine::ComputeBuffer* Field_5_51; // 0x158
+		::System::Int32 Field_5_50; // 0x160
+		::System::Int32 Field_5_49; // 0x164
+		::System::Int32 Field_5_48; // 0x168
+		::System::Int32 Field_5_55; // 0x16C
+		::System::Int32 Field_5_54; // 0x170
+		::System::Int32 Field_5_53; // 0x174
+		::System::Int32 Field_5_52; // 0x178
+		::System::Int32 Field_5_59; // 0x17C
+		::System::Int32 Field_5_58; // 0x180
+		::System::Int32 Field_5_57; // 0x184
+		::UnityEngine::MaterialPropertyBlock* Field_5_56; // 0x188
 
 		::System::Void _ctor()
 		{
@@ -224,14 +224,14 @@ namespace MoleMole::Timeline
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_GASBAKEVOLUME_LATEUPDATE_OFFSET))(this);
 		}
 
-		::UnityEngine::Vector4 Method_5_ED75E4E7234FB470(::UnityEngine::Vector3 a1, ::System::Single a2)
+		::System::Void Method_5_F1DDFF64125B0A1C(::UnityEngine::RenderTexture*& a1)
 		{
-			return ((::UnityEngine::Vector4(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_GASBAKEVOLUME_METHOD_5_ED75E4E7234FB470_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::RenderTexture*&))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_GASBAKEVOLUME_METHOD_5_F1DDFF64125B0A1C_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_5_66636C0942A3A511(::UnityEngine::ComputeBuffer*& a1)
+		::System::Void Method_5_57F55FE10BEB9C8B(::UnityEngine::Rendering::CommandBuffer* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::ComputeBuffer*&))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_GASBAKEVOLUME_METHOD_5_66636C0942A3A511_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_GASBAKEVOLUME_METHOD_5_57F55FE10BEB9C8B_OFFSET))(this, a1);
 		}
 
 		::Il2CppArray<::System::Single>* Method_5_E00377DCD6A5DDE6(::UnityEngine::Vector3 a1)
@@ -239,19 +239,9 @@ namespace MoleMole::Timeline
 			return ((::Il2CppArray<::System::Single>*(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_GASBAKEVOLUME_METHOD_5_E00377DCD6A5DDE6_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_5_F1DDFF64125B0A1C(::UnityEngine::RenderTexture*& a1)
+		::System::Void Method_5_66636C0942A3A511(::UnityEngine::ComputeBuffer*& a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::RenderTexture*&))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_GASBAKEVOLUME_METHOD_5_F1DDFF64125B0A1C_OFFSET))(this, a1);
-		}
-
-		::System::Void Method_5_C90D87BC640003E6(::UnityEngine::Texture2D*& a1, ::UnityEngine::Gradient* a2)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Texture2D*&, ::UnityEngine::Gradient*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_GASBAKEVOLUME_METHOD_5_C90D87BC640003E6_OFFSET))(this, a1, a2);
-		}
-
-		::System::Void Method_5_ED65AE7582736594()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_GASBAKEVOLUME_METHOD_5_ED65AE7582736594_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::ComputeBuffer*&))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_GASBAKEVOLUME_METHOD_5_66636C0942A3A511_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::RenderTexture* Method_5_5C1D9CE9065DBC99(::UnityEngine::RenderTexture* a1, ::UnityEngine::Vector3Int a2, ::UnityEngine::RenderTextureFormat a3, ::UnityEngine::RenderTextureReadWrite a4)
@@ -259,14 +249,24 @@ namespace MoleMole::Timeline
 			return ((::UnityEngine::RenderTexture*(*)(::PVOID, ::UnityEngine::RenderTexture*, ::UnityEngine::Vector3Int, ::UnityEngine::RenderTextureFormat, ::UnityEngine::RenderTextureReadWrite))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_GASBAKEVOLUME_METHOD_5_5C1D9CE9065DBC99_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void Method_5_50A895BC16CB300F(::UnityEngine::Rendering::CommandBuffer* a1)
+		::System::Void Method_5_ED65AE7582736594()
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_GASBAKEVOLUME_METHOD_5_50A895BC16CB300F_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_GASBAKEVOLUME_METHOD_5_ED65AE7582736594_OFFSET))(this);
 		}
 
-		::MoleMole::Timeline::GasBakeVolume_Struct_2_69E606C7FA677E19 Method_5_223FBB3600E44315(::UnityEngine::Light* a1)
+		::MoleMole::Timeline::GasBakeVolume_Struct_2_69E606C7FA677E19 Method_5_BA17D3C6F101301A(::UnityEngine::Light* a1)
 		{
-			return ((::MoleMole::Timeline::GasBakeVolume_Struct_2_69E606C7FA677E19(*)(::PVOID, ::UnityEngine::Light*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_GASBAKEVOLUME_METHOD_5_223FBB3600E44315_OFFSET))(this, a1);
+			return ((::MoleMole::Timeline::GasBakeVolume_Struct_2_69E606C7FA677E19(*)(::PVOID, ::UnityEngine::Light*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_GASBAKEVOLUME_METHOD_5_BA17D3C6F101301A_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_5_7AB45E73635D588D(::UnityEngine::Texture2D*& a1, ::UnityEngine::Gradient* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Texture2D*&, ::UnityEngine::Gradient*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_GASBAKEVOLUME_METHOD_5_7AB45E73635D588D_OFFSET))(this, a1, a2);
+		}
+
+		::UnityEngine::Vector4 Method_5_ED75E4E7234FB470(::UnityEngine::Vector3 a1, ::System::Single a2)
+		{
+			return ((::UnityEngine::Vector4(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_GASBAKEVOLUME_METHOD_5_ED75E4E7234FB470_OFFSET))(this, a1, a2);
 		}
 	};
 }

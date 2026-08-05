@@ -5,10 +5,10 @@
 namespace MoleMole { class ConfigChessEntityMap; }
 namespace System { class Action; }
 
-#define CONFIGCHESSENTITYDATA___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15CF4A90)
-#define CONFIGCHESSENTITYDATA___C__DISPLAYCLASS2_0__RELOADFROMFILE_B__0_OFFSET UNITYSDK_OFFSET(0x15CF4AA0)
+#define CONFIGCHESSENTITYDATA___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17EC8840)
+#define CONFIGCHESSENTITYDATA___C__DISPLAYCLASS2_0__RELOADFROMFILE_B__0_OFFSET UNITYSDK_OFFSET(0x17EC8850)
 
-inline static constexpr unsigned int ConfigChessEntityData___c__DisplayClass2_0_TypeDefinitionIndex = 67018;
+inline static constexpr unsigned int ConfigChessEntityData___c__DisplayClass2_0_TypeDefinitionIndex = 60094;
 
 class ConfigChessEntityData___c__DisplayClass2_0 : public ::System::Object
 {

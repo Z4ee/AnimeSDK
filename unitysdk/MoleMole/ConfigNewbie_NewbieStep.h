@@ -8,15 +8,17 @@
 
 namespace MoleMole { class ConfigNewbie_CircleEffect; }
 namespace MoleMole { class ConfigNewbie_HighLightData; }
+namespace SimpleJSON { class JSONClass; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIGNEWBIE_NEWBIESTEP_LOADFROMBYTES_OFFSET UNITYSDK_OFFSET(0x17E458B0)
-#define MOLEMOLE_CONFIGNEWBIE_NEWBIESTEP__CTOR_OFFSET UNITYSDK_OFFSET(0x17E46820)
+#define MOLEMOLE_CONFIGNEWBIE_NEWBIESTEP_LOADFROMBYTES_OFFSET UNITYSDK_OFFSET(0x19BB4760)
+#define MOLEMOLE_CONFIGNEWBIE_NEWBIESTEP_LOADFROMJSON_OFFSET UNITYSDK_OFFSET(0x19BB5F30)
+#define MOLEMOLE_CONFIGNEWBIE_NEWBIESTEP__CTOR_OFFSET UNITYSDK_OFFSET(0x19BB7870)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigNewbie_NewbieStep_TypeDefinitionIndex = 49748;
+	inline static constexpr unsigned int ConfigNewbie_NewbieStep_TypeDefinitionIndex = 78129;
 
 	class ConfigNewbie_NewbieStep : public ::System::Object
 	{
@@ -40,6 +42,18 @@ namespace MoleMole
 		::MoleMole::ConfigNewbie_CircleEffect* ConsoleCircleEffect; // 0x70
 		::System::Boolean ForceHideCursor; // 0x78
 		::System::Boolean SendEndNewBieBeforeLastStepFadeout; // 0x79
+		::System::Boolean IsDragGuide; // 0x7A
+		::MoleMole::ConfigNewbie_HighLightData* DragSourceTarget; // 0x80
+		::MoleMole::ConfigNewbie_HighLightData* DragDestTarget; // 0x88
+		::System::Boolean ShowDragGesture; // 0x90
+		::System::Boolean UseDragCondition; // 0x91
+		::System::Int32 DragConditionMatch; // 0x94
+		::System::Boolean BlockDoubleClick; // 0x98
+		::System::Boolean IsDoubleClickGuide; // 0x99
+		::MoleMole::ConfigNewbie_HighLightData* DoubleClickTarget; // 0xA0
+		::System::Boolean ShowDoubleClickGesture; // 0xA8
+		::System::Boolean UseDoubleClickCondition; // 0xA9
+		::System::Int32 DoubleClickConditionMatch; // 0xAC
 
 		::System::Void _ctor()
 		{
@@ -49,6 +63,11 @@ namespace MoleMole
 		::System::Void LoadFromBytes(::FlexBuffers::FlxMap flexMap)
 		{
 			return ((::System::Void(*)(::PVOID, ::FlexBuffers::FlxMap))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGNEWBIE_NEWBIESTEP_LOADFROMBYTES_OFFSET))(this, flexMap);
+		}
+
+		::System::Void LoadFromJson(::SimpleJSON::JSONClass* jsonNode)
+		{
+			return ((::System::Void(*)(::PVOID, ::SimpleJSON::JSONClass*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGNEWBIE_NEWBIESTEP_LOADFROMJSON_OFFSET))(this, jsonNode);
 		}
 	};
 }

@@ -3,11 +3,11 @@
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/EnumVolumeParameter_1.h"
 #include "unitysdk/UnityEngine/Rendering/Universal/ScanlineBlendMode.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_SCANLINEBLENDMODEPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C151910)
+#define UNITYENGINE_RENDERING_UNIVERSAL_SCANLINEBLENDMODEPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D310E40)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int ScanlineBlendModeParameter_TypeDefinitionIndex = 26259;
+	inline static constexpr unsigned int ScanlineBlendModeParameter_TypeDefinitionIndex = 27589;
 
 	class ScanlineBlendModeParameter : public ::UnityEngine::NAPRenderPipeline0::EnumVolumeParameter_1<::UnityEngine::Rendering::Universal::ScanlineBlendMode>
 	{

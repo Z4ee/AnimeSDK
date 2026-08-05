@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRidusGotBooPageController_PlayerMaskType_TypeDefinitionIndex = 40725;
+	inline static constexpr unsigned int UIRidusGotBooPageController_PlayerMaskType_TypeDefinitionIndex = 91530;
 
 	enum class UIRidusGotBooPageController_PlayerMaskType : ::System::Int32
 	{

@@ -6,16 +6,16 @@ class Class_2_2F3C7D4EFC74D485;
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define CLASS_2_2F3C7D4EFC74D485_CLASS_1_316EE078E2C07813_METHOD_1_0903930C3497DAF5_OFFSET UNITYSDK_OFFSET(0x16596E30)
-#define CLASS_2_2F3C7D4EFC74D485_CLASS_1_316EE078E2C07813__CTOR_OFFSET UNITYSDK_OFFSET(0x16596E20)
+#define CLASS_2_2F3C7D4EFC74D485_CLASS_1_316EE078E2C07813_METHOD_1_0903930C3497DAF5_OFFSET UNITYSDK_OFFSET(0x13AF69A0)
+#define CLASS_2_2F3C7D4EFC74D485_CLASS_1_316EE078E2C07813__CTOR_OFFSET UNITYSDK_OFFSET(0x13AF6990)
 
-inline static constexpr unsigned int Class_2_2F3C7D4EFC74D485_Class_1_316EE078E2C07813_TypeDefinitionIndex = 63002;
+inline static constexpr unsigned int Class_2_2F3C7D4EFC74D485_Class_1_316EE078E2C07813_TypeDefinitionIndex = 43440;
 
 class Class_2_2F3C7D4EFC74D485_Class_1_316EE078E2C07813 : public ::System::Object
 {
 public:
-	::System::Action_1<::System::Boolean>* Field_1_2; // 0x10
-	::Class_2_2F3C7D4EFC74D485* Field_1_0; // 0x18
+	::System::Action_1<::System::Boolean>* Field_1_0; // 0x10
+	::Class_2_2F3C7D4EFC74D485* Field_1_2; // 0x18
 	::System::String* Field_1_1; // 0x20
 
 	::System::Void _ctor()

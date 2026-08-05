@@ -4,9 +4,9 @@
 
 class Class_1_D375C91CCE5D3999;
 
-#define CLASS_2_8DE4455BA0C8D634__CTOR_OFFSET UNITYSDK_OFFSET(0x13448240)
+#define CLASS_2_8DE4455BA0C8D634__CTOR_OFFSET UNITYSDK_OFFSET(0x150BF030)
 
-inline static constexpr unsigned int Class_2_8DE4455BA0C8D634_TypeDefinitionIndex = 79741;
+inline static constexpr unsigned int Class_2_8DE4455BA0C8D634_TypeDefinitionIndex = 56745;
 
 class Class_2_8DE4455BA0C8D634 : public ::MoleMole::UIGeneralNumTabBtnWidgetController_GeneralNumTabBtnData
 {

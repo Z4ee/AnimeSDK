@@ -4,12 +4,12 @@
 #include "unitysdk/NPCCrowd/Lod/NPCCrowdLodManager_LODRenderMode.h"
 #include "unitysdk/System/ValueType.h"
 
-#define NPCCROWD_LOD_NPCCROWDLODMANAGER_LODRENDERRULECONFIG_GETRENDERMODE_OFFSET UNITYSDK_OFFSET(0x733D10)
-#define NPCCROWD_LOD_NPCCROWDLODMANAGER_LODRENDERRULECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x731A00)
+#define NPCCROWD_LOD_NPCCROWDLODMANAGER_LODRENDERRULECONFIG_GETRENDERMODE_OFFSET UNITYSDK_OFFSET(0x7E47A0)
+#define NPCCROWD_LOD_NPCCROWDLODMANAGER_LODRENDERRULECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x756760)
 
 namespace NPCCrowd::Lod
 {
-	inline static constexpr unsigned int NPCCrowdLodManager_LODRenderRuleConfig_TypeDefinitionIndex = 44641;
+	inline static constexpr unsigned int NPCCrowdLodManager_LODRenderRuleConfig_TypeDefinitionIndex = 57936;
 
 	struct alignas(1) NPCCrowdLodManager_LODRenderRuleConfig
 	{

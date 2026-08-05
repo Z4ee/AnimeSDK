@@ -4,7 +4,7 @@
 
 namespace UnityEngine::InputSystem::DualShock::LowLevel
 {
-	inline static constexpr unsigned int DualSenseHIDOutputReportPayload_TypeDefinitionIndex = 31830;
+	inline static constexpr unsigned int DualSenseHIDOutputReportPayload_TypeDefinitionIndex = 32450;
 
 	struct alignas(1) DualSenseHIDOutputReportPayload
 	{

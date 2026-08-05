@@ -3,14 +3,14 @@
 
 namespace MoleMole::MusicGame
 {
-	inline static constexpr unsigned int ELiveHouseSpineEmojiType_TypeDefinitionIndex = 57656;
+	inline static constexpr unsigned int ELiveHouseSpineEmojiType_TypeDefinitionIndex = 65267;
 
 	enum class ELiveHouseSpineEmojiType : ::System::Int32
 	{
 		None = 0,
-		Idle = 1,
+		Enter = 3,
 		Victory = 4,
 		Miss = 2,
-		Enter = 3,
+		Idle = 1,
 	};
 }

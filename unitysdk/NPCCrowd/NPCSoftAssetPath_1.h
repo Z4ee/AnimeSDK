@@ -10,7 +10,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace NPCCrowd
 {
-	inline static constexpr unsigned int NPCSoftAssetPath_1_TypeDefinitionIndex = 61363;
+	inline static constexpr unsigned int NPCSoftAssetPath_1_TypeDefinitionIndex = 63646;
 
 	template <typename T>
 	class NPCSoftAssetPath_1 : public ::System::Object

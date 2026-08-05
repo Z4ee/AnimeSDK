@@ -19,7 +19,7 @@ namespace System::Threading { template <typename T> class ThreadLocal_1; }
 
 namespace PipelineCamera::CameraSequence
 {
-	inline static constexpr unsigned int CameraSequenceSegment_2_TypeDefinitionIndex = 37867;
+	inline static constexpr unsigned int CameraSequenceSegment_2_TypeDefinitionIndex = 38528;
 
 	template <typename TSequence, typename T>
 	class CameraSequenceSegment_2 : public ::System::Object

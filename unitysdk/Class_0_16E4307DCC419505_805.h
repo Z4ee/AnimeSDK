@@ -1,8 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_ACD0EF80A5330786.h"
+#include "unitysdk/Enum_3_41536F26CBEE8D4C.h"
+#include "unitysdk/MoleMole/HollowChessboard/HollowCell.h"
+#include "unitysdk/System/ValueTuple_2.h"
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_805_TypeDefinitionIndex = 84693;
+namespace System { template <typename T1, typename T2, typename T3, typename T4> class Func_4; }
+namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
+
+inline static constexpr unsigned int Class_0_16E4307DCC419505_805_TypeDefinitionIndex = 82562;
 
 class Class_0_16E4307DCC419505_805
 {

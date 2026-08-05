@@ -6,7 +6,7 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int FocusCameraTargetSetting_TypeDefinitionIndex = 53184;
+	inline static constexpr unsigned int FocusCameraTargetSetting_TypeDefinitionIndex = 63163;
 
 	struct alignas(4) FocusCameraTargetSetting
 	{

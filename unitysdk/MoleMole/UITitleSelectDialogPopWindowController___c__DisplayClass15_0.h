@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIMedalSelectRowWidgetController_Context; }
 
-#define MOLEMOLE_UITITLESELECTDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0x166A8AF0)
-#define MOLEMOLE_UITITLESELECTDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS15_0__ONCLICKMEDALITEM_B__0_OFFSET UNITYSDK_OFFSET(0x166A8B00)
+#define MOLEMOLE_UITITLESELECTDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1629FB30)
+#define MOLEMOLE_UITITLESELECTDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS15_0__ONCLICKMEDALITEM_B__0_OFFSET UNITYSDK_OFFSET(0x1629FB40)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UITitleSelectDialogPopWindowController___c__DisplayClass15_0_TypeDefinitionIndex = 65509;
+	inline static constexpr unsigned int UITitleSelectDialogPopWindowController___c__DisplayClass15_0_TypeDefinitionIndex = 76227;
 
 	class UITitleSelectDialogPopWindowController___c__DisplayClass15_0 : public ::System::Object
 	{

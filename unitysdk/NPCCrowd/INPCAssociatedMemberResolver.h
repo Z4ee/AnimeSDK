@@ -6,7 +6,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace NPCCrowd
 {
-	inline static constexpr unsigned int INPCAssociatedMemberResolver_TypeDefinitionIndex = 53921;
+	inline static constexpr unsigned int INPCAssociatedMemberResolver_TypeDefinitionIndex = 67587;
 
 	class INPCAssociatedMemberResolver
 	{

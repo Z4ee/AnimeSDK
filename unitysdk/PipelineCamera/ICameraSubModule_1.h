@@ -4,7 +4,7 @@
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int ICameraSubModule_1_TypeDefinitionIndex = 37594;
+	inline static constexpr unsigned int ICameraSubModule_1_TypeDefinitionIndex = 38255;
 
 	template <typename T>
 	class ICameraSubModule_1

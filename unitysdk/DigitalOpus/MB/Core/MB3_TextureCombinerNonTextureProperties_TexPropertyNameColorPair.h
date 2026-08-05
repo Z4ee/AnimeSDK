@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINERNONTEXTUREPROPERTIES_TEXPROPERTYNAMECOLORPAIR__CTOR_OFFSET UNITYSDK_OFFSET(0x34B600)
+#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINERNONTEXTUREPROPERTIES_TEXPROPERTYNAMECOLORPAIR__CTOR_OFFSET UNITYSDK_OFFSET(0x3C4210)
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int MB3_TextureCombinerNonTextureProperties_TexPropertyNameColorPair_TypeDefinitionIndex = 90715;
+	inline static constexpr unsigned int MB3_TextureCombinerNonTextureProperties_TexPropertyNameColorPair_TypeDefinitionIndex = 94648;
 
 	struct alignas(8) MB3_TextureCombinerNonTextureProperties_TexPropertyNameColorPair
 	{

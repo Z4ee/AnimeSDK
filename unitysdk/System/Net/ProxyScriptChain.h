@@ -5,9 +5,9 @@
 namespace System { class Uri; }
 namespace System::Net { class WebProxy; }
 
-#define SYSTEM_NET_PROXYSCRIPTCHAIN_ABORT_OFFSET UNITYSDK_OFFSET(0x1CB02C00)
-#define SYSTEM_NET_PROXYSCRIPTCHAIN_GETNEXTPROXY_OFFSET UNITYSDK_OFFSET(0x1CB02B50)
-#define SYSTEM_NET_PROXYSCRIPTCHAIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB02AB0)
+#define SYSTEM_NET_PROXYSCRIPTCHAIN_ABORT_OFFSET UNITYSDK_OFFSET(0x1DECA050)
+#define SYSTEM_NET_PROXYSCRIPTCHAIN_GETNEXTPROXY_OFFSET UNITYSDK_OFFSET(0x1DEC9FA0)
+#define SYSTEM_NET_PROXYSCRIPTCHAIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1DEC9F00)
 
 namespace System::Net
 {
@@ -16,10 +16,10 @@ namespace System::Net
 	class ProxyScriptChain : public ::System::Net::ProxyChain
 	{
 	public:
-		::Il2CppArray<::System::Uri*>* m_ScriptProxies; // 0x38
-		::System::Net::WebProxy* m_Proxy; // 0x40
-		::System::Int32 m_SyncStatus; // 0x48
-		::System::Int32 m_CurrentIndex; // 0x4C
+		::System::Net::WebProxy* m_Proxy; // 0x38
+		::Il2CppArray<::System::Uri*>* m_ScriptProxies; // 0x40
+		::System::Int32 m_CurrentIndex; // 0x48
+		::System::Int32 m_SyncStatus; // 0x4C
 
 		::System::Void _ctor(::System::Net::WebProxy* proxy, ::System::Uri* destination)
 		{

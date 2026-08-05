@@ -4,18 +4,18 @@
 
 namespace MoleMole { class UIAvatarAnimatorParamsSetting; }
 
-#define MOLEMOLE_GALGAMEFACIALSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x15130950)
+#define MOLEMOLE_GALGAMEFACIALSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x17905200)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int GalGameFacialSetting_TypeDefinitionIndex = 48130;
+	inline static constexpr unsigned int GalGameFacialSetting_TypeDefinitionIndex = 52034;
 
 	class GalGameFacialSetting : public ::System::Object
 	{
 	public:
 		::MoleMole::UIAvatarAnimatorParamsSetting* animatorParamSetting; // 0x10
-		::System::Boolean forceWinkAtStart; // 0x18
-		::System::Boolean canWink; // 0x19
+		::System::Boolean canWink; // 0x18
+		::System::Boolean forceWinkAtStart; // 0x19
 
 		::System::Void _ctor()
 		{

@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_SUBLAYEREXTENSIONS_TOTAG_OFFSET UNITYSDK_OFFSET(0x143B9E20)
+#define UNITYENGINE_SUBLAYEREXTENSIONS_TOTAG_OFFSET UNITYSDK_OFFSET(0x18B4B8D0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int SubLayerExtensions_TypeDefinitionIndex = 45498;
+	inline static constexpr unsigned int SubLayerExtensions_TypeDefinitionIndex = 79864;
 
 	class SubLayerExtensions : public ::System::Object
 	{

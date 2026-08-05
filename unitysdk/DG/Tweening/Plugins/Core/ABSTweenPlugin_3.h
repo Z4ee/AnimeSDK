@@ -10,7 +10,7 @@ namespace DG::Tweening::Core { template <typename T> class DOSetter_1; }
 
 namespace DG::Tweening::Plugins::Core
 {
-	inline static constexpr unsigned int ABSTweenPlugin_3_TypeDefinitionIndex = 27969;
+	inline static constexpr unsigned int ABSTweenPlugin_3_TypeDefinitionIndex = 28573;
 
 	template <typename T1, typename T2, typename TPlugOptions>
 	class ABSTweenPlugin_3 : public ::System::Object

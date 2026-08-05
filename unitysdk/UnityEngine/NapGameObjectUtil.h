@@ -6,13 +6,13 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class GameObject; }
 
-#define UNITYENGINE_NAPGAMEOBJECTUTIL_TRAVERSEGAMEOBJECT_1_OFFSET UNITYSDK_OFFSET(0x1C141CD0)
-#define UNITYENGINE_NAPGAMEOBJECTUTIL_TRAVERSEGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x1C141BB0)
-#define UNITYENGINE_NAPGAMEOBJECTUTIL__CTOR_OFFSET UNITYSDK_OFFSET(0x1C141E00)
+#define UNITYENGINE_NAPGAMEOBJECTUTIL_TRAVERSEGAMEOBJECT_1_OFFSET UNITYSDK_OFFSET(0x1D2FD750)
+#define UNITYENGINE_NAPGAMEOBJECTUTIL_TRAVERSEGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x1D2FD630)
+#define UNITYENGINE_NAPGAMEOBJECTUTIL__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2FD880)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int NapGameObjectUtil_TypeDefinitionIndex = 26597;
+	inline static constexpr unsigned int NapGameObjectUtil_TypeDefinitionIndex = 26867;
 
 	class NapGameObjectUtil : public ::System::Object
 	{

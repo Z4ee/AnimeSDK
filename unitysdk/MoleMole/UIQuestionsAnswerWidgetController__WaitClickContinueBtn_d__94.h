@@ -7,12 +7,12 @@
 namespace MoleMole { class UIQuestionsAnswerWidgetController; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define MOLEMOLE_UIQUESTIONSANSWERWIDGETCONTROLLER__WAITCLICKCONTINUEBTN_D__94_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x7F7530)
-#define MOLEMOLE_UIQUESTIONSANSWERWIDGETCONTROLLER__WAITCLICKCONTINUEBTN_D__94_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x283610)
+#define MOLEMOLE_UIQUESTIONSANSWERWIDGETCONTROLLER__WAITCLICKCONTINUEBTN_D__94_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x84CC30)
+#define MOLEMOLE_UIQUESTIONSANSWERWIDGETCONTROLLER__WAITCLICKCONTINUEBTN_D__94_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x296F30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIQuestionsAnswerWidgetController__WaitClickContinueBtn_d__94_TypeDefinitionIndex = 61879;
+	inline static constexpr unsigned int UIQuestionsAnswerWidgetController__WaitClickContinueBtn_d__94_TypeDefinitionIndex = 88956;
 
 	struct alignas(8) UIQuestionsAnswerWidgetController__WaitClickContinueBtn_d__94
 	{

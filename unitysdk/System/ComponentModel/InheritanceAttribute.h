@@ -6,14 +6,14 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define SYSTEM_COMPONENTMODEL_INHERITANCEATTRIBUTE_EQUALS_OFFSET UNITYSDK_OFFSET(0x1B1B8350)
-#define SYSTEM_COMPONENTMODEL_INHERITANCEATTRIBUTE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1B1B83B0)
-#define SYSTEM_COMPONENTMODEL_INHERITANCEATTRIBUTE_GET_INHERITANCELEVEL_OFFSET UNITYSDK_OFFSET(0x1B1B8340)
-#define SYSTEM_COMPONENTMODEL_INHERITANCEATTRIBUTE_ISDEFAULTATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1B1B83C0)
-#define SYSTEM_COMPONENTMODEL_INHERITANCEATTRIBUTE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1B1B8480)
-#define SYSTEM_COMPONENTMODEL_INHERITANCEATTRIBUTE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B1B85A0)
-#define SYSTEM_COMPONENTMODEL_INHERITANCEATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B1B8330)
-#define SYSTEM_COMPONENTMODEL_INHERITANCEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1B82B0)
+#define SYSTEM_COMPONENTMODEL_INHERITANCEATTRIBUTE_EQUALS_OFFSET UNITYSDK_OFFSET(0x1C6F8DC0)
+#define SYSTEM_COMPONENTMODEL_INHERITANCEATTRIBUTE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1C6F8E20)
+#define SYSTEM_COMPONENTMODEL_INHERITANCEATTRIBUTE_GET_INHERITANCELEVEL_OFFSET UNITYSDK_OFFSET(0x1C6F8DB0)
+#define SYSTEM_COMPONENTMODEL_INHERITANCEATTRIBUTE_ISDEFAULTATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1C6F8E30)
+#define SYSTEM_COMPONENTMODEL_INHERITANCEATTRIBUTE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1C6F8EF0)
+#define SYSTEM_COMPONENTMODEL_INHERITANCEATTRIBUTE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C6F9010)
+#define SYSTEM_COMPONENTMODEL_INHERITANCEATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C6F8DA0)
+#define SYSTEM_COMPONENTMODEL_INHERITANCEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6F8D20)
 
 namespace System::ComponentModel
 {
@@ -22,19 +22,19 @@ namespace System::ComponentModel
 	class InheritanceAttribute : public ::System::Attribute
 	{
 	public:
-		static ::System::ComponentModel::InheritanceAttribute** StaticGet_Default()
+		static ::System::ComponentModel::InheritanceAttribute** StaticGet_NotInherited()
 		{
 			return (::System::ComponentModel::InheritanceAttribute**)Il2CppClass::FromTypeDefinitionIndex(InheritanceAttribute_TypeDefinitionIndex)->GetStaticField(0x2B90);
 		}
-		static ::System::ComponentModel::InheritanceAttribute** StaticGet_NotInherited()
+		static ::System::ComponentModel::InheritanceAttribute** StaticGet_InheritedReadOnly()
 		{
 			return (::System::ComponentModel::InheritanceAttribute**)Il2CppClass::FromTypeDefinitionIndex(InheritanceAttribute_TypeDefinitionIndex)->GetStaticField(0x2B98);
 		}
-		static ::System::ComponentModel::InheritanceAttribute** StaticGet_Inherited()
+		static ::System::ComponentModel::InheritanceAttribute** StaticGet_Default()
 		{
 			return (::System::ComponentModel::InheritanceAttribute**)Il2CppClass::FromTypeDefinitionIndex(InheritanceAttribute_TypeDefinitionIndex)->GetStaticField(0x2BA0);
 		}
-		static ::System::ComponentModel::InheritanceAttribute** StaticGet_InheritedReadOnly()
+		static ::System::ComponentModel::InheritanceAttribute** StaticGet_Inherited()
 		{
 			return (::System::ComponentModel::InheritanceAttribute**)Il2CppClass::FromTypeDefinitionIndex(InheritanceAttribute_TypeDefinitionIndex)->GetStaticField(0x2BA8);
 		}

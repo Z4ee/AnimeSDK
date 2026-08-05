@@ -6,18 +6,18 @@ namespace MoleMole { class UIDepositoryPageController; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIDEPOSITORYPAGECONTROLLER___C__DISPLAYCLASS75_0__CTOR_OFFSET UNITYSDK_OFFSET(0x175C7440)
-#define MOLEMOLE_UIDEPOSITORYPAGECONTROLLER___C__DISPLAYCLASS75_0__ONSORTERMARKDELETECLICK_B__0_OFFSET UNITYSDK_OFFSET(0x175C7450)
+#define MOLEMOLE_UIDEPOSITORYPAGECONTROLLER___C__DISPLAYCLASS75_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1937A050)
+#define MOLEMOLE_UIDEPOSITORYPAGECONTROLLER___C__DISPLAYCLASS75_0__ONSORTERMARKDELETECLICK_B__0_OFFSET UNITYSDK_OFFSET(0x1937A060)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIDepositoryPageController___c__DisplayClass75_0_TypeDefinitionIndex = 82555;
+	inline static constexpr unsigned int UIDepositoryPageController___c__DisplayClass75_0_TypeDefinitionIndex = 41671;
 
 	class UIDepositoryPageController___c__DisplayClass75_0 : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::UInt32>* equipIDs; // 0x10
-		::MoleMole::UIDepositoryPageController* __4__this; // 0x18
+		::MoleMole::UIDepositoryPageController* __4__this; // 0x10
+		::System::Collections::Generic::List_1<::System::UInt32>* equipIDs; // 0x18
 		::System::Int32 OptType; // 0x20
 
 		::System::Void _ctor()

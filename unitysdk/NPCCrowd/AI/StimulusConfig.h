@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int StimulusConfig_TypeDefinitionIndex = 48440;
+	inline static constexpr unsigned int StimulusConfig_TypeDefinitionIndex = 62714;
 
 	struct alignas(8) StimulusConfig
 	{

@@ -14,22 +14,22 @@ namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_LEVELPERFORM_LEVELPERFORMCONFIG_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x11625D80)
-#define MOLEMOLE_LEVELPERFORM_LEVELPERFORMCONFIG_RELOADFROMFILEASYNC_OFFSET UNITYSDK_OFFSET(0x11625FD0)
-#define MOLEMOLE_LEVELPERFORM_LEVELPERFORMCONFIG_RELOADFROMFILE_OFFSET UNITYSDK_OFFSET(0x11625DA0)
-#define MOLEMOLE_LEVELPERFORM_LEVELPERFORMCONFIG_SET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x11625D90)
-#define MOLEMOLE_LEVELPERFORM_LEVELPERFORMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x116260C0)
+#define MOLEMOLE_LEVELPERFORM_LEVELPERFORMCONFIG_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1925B330)
+#define MOLEMOLE_LEVELPERFORM_LEVELPERFORMCONFIG_RELOADFROMFILEASYNC_OFFSET UNITYSDK_OFFSET(0x1925B590)
+#define MOLEMOLE_LEVELPERFORM_LEVELPERFORMCONFIG_RELOADFROMFILE_OFFSET UNITYSDK_OFFSET(0x1925B350)
+#define MOLEMOLE_LEVELPERFORM_LEVELPERFORMCONFIG_SET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1925B340)
+#define MOLEMOLE_LEVELPERFORM_LEVELPERFORMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1925B680)
 
 namespace MoleMole::LevelPerform
 {
-	inline static constexpr unsigned int LevelPerformConfig_TypeDefinitionIndex = 66240;
+	inline static constexpr unsigned int LevelPerformConfig_TypeDefinitionIndex = 58452;
 
 	class LevelPerformConfig : public ::Foundation::MihoyoSerializedScriptableObject
 	{
 	public:
 		static ::MoleMole::LevelPerform::LevelPerformConfig** StaticGet__Instance_k__BackingField()
 		{
-			return (::MoleMole::LevelPerform::LevelPerformConfig**)Il2CppClass::FromTypeDefinitionIndex(LevelPerformConfig_TypeDefinitionIndex)->GetStaticField(0x35470);
+			return (::MoleMole::LevelPerform::LevelPerformConfig**)Il2CppClass::FromTypeDefinitionIndex(LevelPerformConfig_TypeDefinitionIndex)->GetStaticField(0x382B0);
 		}
 		// static const ::System::String* Path; // 0x0
 		// static const ::System::String* NapCameraSequenceCategory; // 0x0

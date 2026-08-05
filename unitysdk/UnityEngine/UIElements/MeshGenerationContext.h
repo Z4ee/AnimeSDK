@@ -6,7 +6,7 @@ namespace UnityEngine::UIElements { class IStylePainter; }
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int MeshGenerationContext_TypeDefinitionIndex = 27577;
+	inline static constexpr unsigned int MeshGenerationContext_TypeDefinitionIndex = 28179;
 
 	class MeshGenerationContext : public ::System::Object
 	{

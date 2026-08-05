@@ -3,22 +3,23 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AnimatorBeHitTag_TypeDefinitionIndex = 44884;
+	inline static constexpr unsigned int AnimatorBeHitTag_TypeDefinitionIndex = 67775;
 
 	enum class AnimatorBeHitTag : ::System::Int32
 	{
-		SwitchPhase = 504,
-		Chaos = 34,
-		Unknown = 500,
-		ExhaustedEnd = 502,
-		Strike = 35,
-		Frostbite = 36,
-		Electric = 27,
-		Overload = 31,
 		ExhaustedStart = 501,
-		Stun = 1,
-		SubPartDestroy = 503,
+		Frostbite = 36,
 		Ignite = 30,
+		Unknown = 500,
+		Chaos = 34,
 		IceBreak = 505,
+		Strike = 35,
+		Overload = 31,
+		SubPartDestroy = 503,
+		ExhaustedEnd = 502,
+		Stun = 1,
+		Electric = 27,
+		SwitchPhase = 504,
+		Wind = 39,
 	};
 }

@@ -10,7 +10,7 @@ namespace System::Reflection { class ConstructorInfo; }
 
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int DerivedDictionaryFormatter_3_TypeDefinitionIndex = 7453;
+	inline static constexpr unsigned int DerivedDictionaryFormatter_3_TypeDefinitionIndex = 7457;
 
 	template <typename TDictionary, typename TKey, typename TValue>
 	class DerivedDictionaryFormatter_3 : public ::Sirenix::Serialization::BaseFormatter_1<TDictionary>

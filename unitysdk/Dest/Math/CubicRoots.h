@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define DEST_MATH_CUBICROOTS_GET_ITEM_OFFSET UNITYSDK_OFFSET(0xA3F080)
+#define DEST_MATH_CUBICROOTS_GET_ITEM_OFFSET UNITYSDK_OFFSET(0xA93CE0)
 
 namespace Dest::Math
 {
-	inline static constexpr unsigned int CubicRoots_TypeDefinitionIndex = 34761;
+	inline static constexpr unsigned int CubicRoots_TypeDefinitionIndex = 35420;
 
 	struct alignas(4) CubicRoots
 	{

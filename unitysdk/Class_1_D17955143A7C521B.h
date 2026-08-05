@@ -9,31 +9,46 @@ namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_D17955143A7C521B_METHOD_1_0BE1846AC20D43BE_OFFSET UNITYSDK_OFFSET(0xF7E1FB0)
-#define CLASS_1_D17955143A7C521B_METHOD_1_60EF1E2939F0029A_OFFSET UNITYSDK_OFFSET(0xF7E17E0)
-#define CLASS_1_D17955143A7C521B_METHOD_1_70B1EFD392409545_OFFSET UNITYSDK_OFFSET(0xF7E1760)
-#define CLASS_1_D17955143A7C521B_METHOD_1_9E8C8E82893C2FE8_OFFSET UNITYSDK_OFFSET(0xF7E21C0)
-#define CLASS_1_D17955143A7C521B_METHOD_1_AB782E7A80A16168_OFFSET UNITYSDK_OFFSET(0xF7E1E90)
-#define CLASS_1_D17955143A7C521B_METHOD_1_FE9F71632EABD97B_OFFSET UNITYSDK_OFFSET(0xF7E1610)
-#define CLASS_1_D17955143A7C521B__CCTOR_OFFSET UNITYSDK_OFFSET(0xF7E1570)
+#define CLASS_1_D17955143A7C521B_METHOD_1_0BE1846AC20D43BE_OFFSET UNITYSDK_OFFSET(0x140124C0)
+#define CLASS_1_D17955143A7C521B_METHOD_1_60EF1E2939F0029A_OFFSET UNITYSDK_OFFSET(0x140127F0)
+#define CLASS_1_D17955143A7C521B_METHOD_1_70B1EFD392409545_OFFSET UNITYSDK_OFFSET(0x14012FF0)
+#define CLASS_1_D17955143A7C521B_METHOD_1_9E8C8E82893C2FE8_OFFSET UNITYSDK_OFFSET(0x14013070)
+#define CLASS_1_D17955143A7C521B_METHOD_1_AB782E7A80A16168_OFFSET UNITYSDK_OFFSET(0x140126D0)
+#define CLASS_1_D17955143A7C521B_METHOD_1_FE9F71632EABD97B_OFFSET UNITYSDK_OFFSET(0x14012EA0)
+#define CLASS_1_D17955143A7C521B__CCTOR_OFFSET UNITYSDK_OFFSET(0x14012420)
 
-inline static constexpr unsigned int Class_1_D17955143A7C521B_TypeDefinitionIndex = 66204;
+inline static constexpr unsigned int Class_1_D17955143A7C521B_TypeDefinitionIndex = 46837;
 
 class Class_1_D17955143A7C521B : public ::System::Object
 {
 public:
-	static ::MoleMole::Config::ConfigAvatarLayoutCameraMisc** StaticGet_Field_1_1()
+	static ::MoleMole::Config::ConfigAvatarLayoutCameraMisc** StaticGet_Field_1_0()
 	{
-		return (::MoleMole::Config::ConfigAvatarLayoutCameraMisc**)Il2CppClass::FromTypeDefinitionIndex(Class_1_D17955143A7C521B_TypeDefinitionIndex)->GetStaticField(0x33490);
+		return (::MoleMole::Config::ConfigAvatarLayoutCameraMisc**)Il2CppClass::FromTypeDefinitionIndex(Class_1_D17955143A7C521B_TypeDefinitionIndex)->GetStaticField(0x392B0);
 	}
-	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Cameras::AvatarLayoutCameraConfig*>** StaticGet_Field_1_0()
+	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Cameras::AvatarLayoutCameraConfig*>** StaticGet_Field_1_1()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Cameras::AvatarLayoutCameraConfig*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_D17955143A7C521B_TypeDefinitionIndex)->GetStaticField(0x33498);
+		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Cameras::AvatarLayoutCameraConfig*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_D17955143A7C521B_TypeDefinitionIndex)->GetStaticField(0x392B8);
 	}
 
 	static ::System::Void _cctor()
 	{
 		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CLASS_1_D17955143A7C521B__CCTOR_OFFSET))();
+	}
+
+	static ::System::Void Method_1_0BE1846AC20D43BE(::System::Boolean a1, ::System::Action* a2)
+	{
+		return ((::System::Void(*)(::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + CLASS_1_D17955143A7C521B_METHOD_1_0BE1846AC20D43BE_OFFSET))(a1, a2);
+	}
+
+	static ::System::Void Method_1_AB782E7A80A16168(::System::Boolean a1, ::System::Action* a2)
+	{
+		return ((::System::Void(*)(::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + CLASS_1_D17955143A7C521B_METHOD_1_AB782E7A80A16168_OFFSET))(a1, a2);
+	}
+
+	static ::System::Void Method_1_60EF1E2939F0029A(::System::Boolean a1, ::System::Action* a2)
+	{
+		return ((::System::Void(*)(::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + CLASS_1_D17955143A7C521B_METHOD_1_60EF1E2939F0029A_OFFSET))(a1, a2);
 	}
 
 	static ::MoleMole::Cameras::AvatarLayoutCameraConfig* Method_1_FE9F71632EABD97B(::System::String* a1)
@@ -46,23 +61,8 @@ public:
 		return ((::MoleMole::Config::ConfigAvatarLayoutCameraMisc*(*)())((::PBYTE)hIl2Cpp + CLASS_1_D17955143A7C521B_METHOD_1_70B1EFD392409545_OFFSET))();
 	}
 
-	static ::System::Void Method_1_60EF1E2939F0029A(::System::Boolean a1, ::System::Action* a2)
-	{
-		return ((::System::Void(*)(::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + CLASS_1_D17955143A7C521B_METHOD_1_60EF1E2939F0029A_OFFSET))(a1, a2);
-	}
-
-	static ::System::Void Method_1_AB782E7A80A16168(::System::Boolean a1, ::System::Action* a2)
-	{
-		return ((::System::Void(*)(::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + CLASS_1_D17955143A7C521B_METHOD_1_AB782E7A80A16168_OFFSET))(a1, a2);
-	}
-
 	static ::System::Void Method_1_9E8C8E82893C2FE8(::System::Single a1, ::System::Action_1<::System::Single>* a2, ::System::Action_1<::System::String*>* a3, ::System::String* a4)
 	{
 		return ((::System::Void(*)(::System::Single, ::System::Action_1<::System::Single>*, ::System::Action_1<::System::String*>*, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_D17955143A7C521B_METHOD_1_9E8C8E82893C2FE8_OFFSET))(a1, a2, a3, a4);
-	}
-
-	static ::System::Void Method_1_0BE1846AC20D43BE(::System::Boolean a1, ::System::Action* a2)
-	{
-		return ((::System::Void(*)(::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + CLASS_1_D17955143A7C521B_METHOD_1_0BE1846AC20D43BE_OFFSET))(a1, a2);
 	}
 };

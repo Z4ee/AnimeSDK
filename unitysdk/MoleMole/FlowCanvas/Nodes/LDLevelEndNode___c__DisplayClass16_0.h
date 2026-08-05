@@ -5,12 +5,12 @@
 namespace MoleMole::FlowCanvas::Nodes { class LDLevelEndNode; }
 namespace System { class Action; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDLEVELENDNODE___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x161D8A40)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDLEVELENDNODE___C__DISPLAYCLASS16_0___TRYWAITCUTSCENEWHENLEVELEND_B__0_OFFSET UNITYSDK_OFFSET(0x161D8A50)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDLEVELENDNODE___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x144C17A0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDLEVELENDNODE___C__DISPLAYCLASS16_0___TRYWAITCUTSCENEWHENLEVELEND_B__0_OFFSET UNITYSDK_OFFSET(0x144C17B0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDLevelEndNode___c__DisplayClass16_0_TypeDefinitionIndex = 54404;
+	inline static constexpr unsigned int LDLevelEndNode___c__DisplayClass16_0_TypeDefinitionIndex = 53290;
 
 	class LDLevelEndNode___c__DisplayClass16_0 : public ::System::Object
 	{

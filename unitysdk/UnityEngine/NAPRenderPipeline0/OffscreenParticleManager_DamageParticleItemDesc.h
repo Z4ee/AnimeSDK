@@ -4,11 +4,11 @@
 #include "unitysdk/UnityEngine/Bounds.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/OffscreenParticleManager_DamageParticlePrefabArg.h"
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_OFFSCREENPARTICLEMANAGER_DAMAGEPARTICLEITEMDESC_EQUALSWITHOUTFRAMINDEX_OFFSET UNITYSDK_OFFSET(0x8BF930)
+#define UNITYENGINE_NAPRENDERPIPELINE0_OFFSCREENPARTICLEMANAGER_DAMAGEPARTICLEITEMDESC_EQUALSWITHOUTFRAMINDEX_OFFSET UNITYSDK_OFFSET(0x90D650)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int OffscreenParticleManager_DamageParticleItemDesc_TypeDefinitionIndex = 26718;
+	inline static constexpr unsigned int OffscreenParticleManager_DamageParticleItemDesc_TypeDefinitionIndex = 27676;
 
 	struct alignas(8) OffscreenParticleManager_DamageParticleItemDesc
 	{

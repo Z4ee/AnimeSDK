@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define STRUCT_2_733B8EC4B9916061__CCTOR_OFFSET UNITYSDK_OFFSET(0x125E8300)
-#define STRUCT_2_733B8EC4B9916061__CTOR_OFFSET UNITYSDK_OFFSET(0x48A560)
+#define STRUCT_2_733B8EC4B9916061__CCTOR_OFFSET UNITYSDK_OFFSET(0x16F69D50)
+#define STRUCT_2_733B8EC4B9916061__CTOR_OFFSET UNITYSDK_OFFSET(0x4E4210)
 
-inline static constexpr unsigned int Struct_2_733B8EC4B9916061_TypeDefinitionIndex = 44887;
+inline static constexpr unsigned int Struct_2_733B8EC4B9916061_TypeDefinitionIndex = 76948;
 
 struct alignas(4) Struct_2_733B8EC4B9916061
 {
-	static ::Struct_2_733B8EC4B9916061* StaticGet_Field_2_2()
+	static ::Struct_2_733B8EC4B9916061* StaticGet_Field_2_0()
 	{
-		return (::Struct_2_733B8EC4B9916061*)Il2CppClass::FromTypeDefinitionIndex(Struct_2_733B8EC4B9916061_TypeDefinitionIndex)->GetStaticField(0xC890);
+		return (::Struct_2_733B8EC4B9916061*)Il2CppClass::FromTypeDefinitionIndex(Struct_2_733B8EC4B9916061_TypeDefinitionIndex)->GetStaticField(0xF500);
 	}
-	::System::Single Field_2_0; // 0x10
+	::System::Single Field_2_2; // 0x10
 	::System::Single Field_2_1; // 0x14
 
 	::System::Void _ctor(::System::Single a1, ::System::Single a2)

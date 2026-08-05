@@ -7,18 +7,18 @@ namespace MoleMole::Battle { class Entity; }
 namespace MoleMole::FlowCanvas::Nodes { class LDSpawnBuddyNode; }
 namespace System::Collections { class IEnumerator; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSPAWNBUDDYNODE___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0x161E4580)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSPAWNBUDDYNODE___C__DISPLAYCLASS23_0___SETBUDDYPOS_DEPRECATED_G___DELAYSET_0_OFFSET UNITYSDK_OFFSET(0x161E4590)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSPAWNBUDDYNODE___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0x144CCEF0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSPAWNBUDDYNODE___C__DISPLAYCLASS23_0___SETBUDDYPOS_DEPRECATED_G___DELAYSET_0_OFFSET UNITYSDK_OFFSET(0x144CCF00)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDSpawnBuddyNode___c__DisplayClass23_0_TypeDefinitionIndex = 40957;
+	inline static constexpr unsigned int LDSpawnBuddyNode___c__DisplayClass23_0_TypeDefinitionIndex = 57740;
 
 	class LDSpawnBuddyNode___c__DisplayClass23_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::Battle::Entity* localAvatar; // 0x10
-		::MoleMole::FlowCanvas::Nodes::LDSpawnBuddyNode* __4__this; // 0x18
+		::MoleMole::FlowCanvas::Nodes::LDSpawnBuddyNode* __4__this; // 0x10
+		::MoleMole::Battle::Entity* localAvatar; // 0x18
 		::UnityEngine::Vector3 waitSetPos; // 0x20
 
 		::System::Void _ctor()

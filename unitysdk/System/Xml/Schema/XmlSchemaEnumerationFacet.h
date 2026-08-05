@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Xml/Schema/XmlSchemaFacet.h"
 
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAENUMERATIONFACET__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0CD8D0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAENUMERATIONFACET__CTOR_OFFSET UNITYSDK_OFFSET(0x1E49F970)
 
 namespace System::Xml::Schema
 {

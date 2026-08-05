@@ -8,35 +8,25 @@ namespace UnityEngine { class Animator; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Material; }
 
-#define CLASS_1_70950A2F43B07012_METHOD_1_30FA428D12D403DC_OFFSET UNITYSDK_OFFSET(0x134ADD50)
-#define CLASS_1_70950A2F43B07012_METHOD_1_73FB9DE4849AF1B5_OFFSET UNITYSDK_OFFSET(0x134ADC40)
-#define CLASS_1_70950A2F43B07012_METHOD_1_9CB7B0D0E05C11DB_OFFSET UNITYSDK_OFFSET(0x134ADEA0)
-#define CLASS_1_70950A2F43B07012_METHOD_1_E3DE31A03057E055_OFFSET UNITYSDK_OFFSET(0x134AE0B0)
-#define CLASS_1_70950A2F43B07012__CTOR_OFFSET UNITYSDK_OFFSET(0x134ADC30)
+#define CLASS_1_70950A2F43B07012_METHOD_1_30FA428D12D403DC_OFFSET UNITYSDK_OFFSET(0x1588D570)
+#define CLASS_1_70950A2F43B07012_METHOD_1_73FB9DE4849AF1B5_OFFSET UNITYSDK_OFFSET(0x1588D790)
+#define CLASS_1_70950A2F43B07012_METHOD_1_9CB7B0D0E05C11DB_OFFSET UNITYSDK_OFFSET(0x1588D360)
+#define CLASS_1_70950A2F43B07012_METHOD_1_E3DE31A03057E055_OFFSET UNITYSDK_OFFSET(0x1588D6C0)
+#define CLASS_1_70950A2F43B07012__CTOR_OFFSET UNITYSDK_OFFSET(0x1588D350)
 
-inline static constexpr unsigned int Class_1_70950A2F43B07012_TypeDefinitionIndex = 51556;
+inline static constexpr unsigned int Class_1_70950A2F43B07012_TypeDefinitionIndex = 88589;
 
 class Class_1_70950A2F43B07012 : public ::System::Object
 {
 public:
-	::UnityEngine::GameObject* Field_1_1; // 0x10
-	::UnityEngine::Animator* Field_1_2; // 0x18
-	::System::String* Field_1_3; // 0x20
-	::MoleMole::Battle::Entity* Field_1_0; // 0x28
+	::UnityEngine::Animator* Field_1_7; // 0x10
+	::System::String* Field_1_6; // 0x18
+	::UnityEngine::GameObject* Field_1_0; // 0x20
+	::MoleMole::Battle::Entity* Field_1_1; // 0x28
 
 	::System::Void _ctor()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_70950A2F43B07012__CTOR_OFFSET))(this);
-	}
-
-	::System::Void Method_1_73FB9DE4849AF1B5(::System::String* a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_70950A2F43B07012_METHOD_1_73FB9DE4849AF1B5_OFFSET))(this, a1);
-	}
-
-	::System::Void Method_1_30FA428D12D403DC(::UnityEngine::Material* a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + CLASS_1_70950A2F43B07012_METHOD_1_30FA428D12D403DC_OFFSET))(this, a1);
 	}
 
 	::System::Void Method_1_9CB7B0D0E05C11DB(::MoleMole::Battle::Entity* a1)
@@ -44,8 +34,18 @@ public:
 		return ((::System::Void(*)(::PVOID, ::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + CLASS_1_70950A2F43B07012_METHOD_1_9CB7B0D0E05C11DB_OFFSET))(this, a1);
 	}
 
+	::System::Void Method_1_30FA428D12D403DC(::UnityEngine::Material* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + CLASS_1_70950A2F43B07012_METHOD_1_30FA428D12D403DC_OFFSET))(this, a1);
+	}
+
 	::System::Void Method_1_E3DE31A03057E055()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_70950A2F43B07012_METHOD_1_E3DE31A03057E055_OFFSET))(this);
+	}
+
+	::System::Void Method_1_73FB9DE4849AF1B5(::System::String* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_70950A2F43B07012_METHOD_1_73FB9DE4849AF1B5_OFFSET))(this, a1);
 	}
 };

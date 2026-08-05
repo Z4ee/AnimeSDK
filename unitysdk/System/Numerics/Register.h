@@ -4,7 +4,7 @@
 
 namespace System::Numerics
 {
-	inline static constexpr unsigned int Register_TypeDefinitionIndex = 6530;
+	inline static constexpr unsigned int Register_TypeDefinitionIndex = 6534;
 
 	struct alignas(8) Register
 	{

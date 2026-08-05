@@ -6,13 +6,13 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_SPHERECAMERACONFIG_GET_OVERRIDEFOCUSPOINTHEIGHTVALUE_OFFSET UNITYSDK_OFFSET(0x1A1A9E80)
-#define MOLEMOLE_SPHERECAMERACONFIG_SET_OVERRIDEFOCUSPOINTHEIGHTVALUE_OFFSET UNITYSDK_OFFSET(0x1A1A9E90)
-#define MOLEMOLE_SPHERECAMERACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1A9EF0)
+#define MOLEMOLE_SPHERECAMERACONFIG_GET_OVERRIDEFOCUSPOINTHEIGHTVALUE_OFFSET UNITYSDK_OFFSET(0x168900F0)
+#define MOLEMOLE_SPHERECAMERACONFIG_SET_OVERRIDEFOCUSPOINTHEIGHTVALUE_OFFSET UNITYSDK_OFFSET(0x16890100)
+#define MOLEMOLE_SPHERECAMERACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16890160)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SphereCameraConfig_TypeDefinitionIndex = 63566;
+	inline static constexpr unsigned int SphereCameraConfig_TypeDefinitionIndex = 55853;
 
 	class SphereCameraConfig : public ::UnityEngine::MonoBehaviour
 	{
@@ -24,16 +24,19 @@ namespace MoleMole
 		::System::Boolean OverrideFocusPointHeight; // 0x34
 		::System::Single Fov; // 0x38
 		::System::Single Yaw; // 0x3C
-		::MoleMole::SphereCameraConfig_Enum_3_A17D38E47A44E805 RadiusEditMode; // 0x40
-		::System::Single Radius; // 0x44
-		::System::Single MaxRadius; // 0x48
-		::System::Single MinRadius; // 0x4C
-		::System::Single DebugRadius; // 0x50
-		::MoleMole::SphereCameraConfig_Enum_3_A17D38E47A44E805 PitchEditMode; // 0x54
-		::System::Single Pitch; // 0x58
-		::System::Single MaxPitch; // 0x5C
-		::System::Single MinPitch; // 0x60
-		::System::Single DebugPitch; // 0x64
+		::System::Boolean LockYaw; // 0x40
+		::System::Boolean LockPitch; // 0x41
+		::MoleMole::SphereCameraConfig_Enum_3_A17D38E47A44E805 RadiusEditMode; // 0x44
+		::System::Single Radius; // 0x48
+		::System::Single MaxRadius; // 0x4C
+		::System::Single MinRadius; // 0x50
+		::System::Single DebugRadius; // 0x54
+		::MoleMole::SphereCameraConfig_Enum_3_A17D38E47A44E805 PitchEditMode; // 0x58
+		::System::Single Pitch; // 0x5C
+		::System::Single MaxPitch; // 0x60
+		::System::Single MinPitch; // 0x64
+		::System::Boolean EnableOverrideMaxMinPitch; // 0x68
+		::System::Single DebugPitch; // 0x6C
 
 		::System::Void _ctor()
 		{

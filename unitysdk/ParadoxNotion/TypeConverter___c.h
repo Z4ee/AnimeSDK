@@ -4,79 +4,79 @@
 
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define PARADOXNOTION_TYPECONVERTER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D35DEE0)
-#define PARADOXNOTION_TYPECONVERTER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1D35DF20)
-#define PARADOXNOTION_TYPECONVERTER___C__GET_B__4_10_OFFSET UNITYSDK_OFFSET(0x1D35E210)
-#define PARADOXNOTION_TYPECONVERTER___C__GET_B__4_11_OFFSET UNITYSDK_OFFSET(0x1D35E470)
-#define PARADOXNOTION_TYPECONVERTER___C__GET_B__4_12_OFFSET UNITYSDK_OFFSET(0x1D35E710)
-#define PARADOXNOTION_TYPECONVERTER___C__GET_B__4_13_OFFSET UNITYSDK_OFFSET(0x1D35E950)
-#define PARADOXNOTION_TYPECONVERTER___C__GET_B__4_14_OFFSET UNITYSDK_OFFSET(0x1D35EBC0)
-#define PARADOXNOTION_TYPECONVERTER___C__GET_B__4_15_OFFSET UNITYSDK_OFFSET(0x1D35ED30)
-#define PARADOXNOTION_TYPECONVERTER___C__GET_B__4_16_OFFSET UNITYSDK_OFFSET(0x1D35EE00)
-#define PARADOXNOTION_TYPECONVERTER___C__GET_B__4_17_OFFSET UNITYSDK_OFFSET(0x1D35EEA0)
-#define PARADOXNOTION_TYPECONVERTER___C__GET_B__4_1_OFFSET UNITYSDK_OFFSET(0x1D35DF30)
-#define PARADOXNOTION_TYPECONVERTER___C__GET_B__4_2_OFFSET UNITYSDK_OFFSET(0x1D35DF40)
-#define PARADOXNOTION_TYPECONVERTER___C__GET_B__4_4_OFFSET UNITYSDK_OFFSET(0x1D35DFA0)
-#define PARADOXNOTION_TYPECONVERTER___C__GET_B__4_6_OFFSET UNITYSDK_OFFSET(0x1D35DFF0)
+#define PARADOXNOTION_TYPECONVERTER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E6E16D0)
+#define PARADOXNOTION_TYPECONVERTER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1E6E1710)
+#define PARADOXNOTION_TYPECONVERTER___C__GET_B__4_10_OFFSET UNITYSDK_OFFSET(0x1E6E1A00)
+#define PARADOXNOTION_TYPECONVERTER___C__GET_B__4_11_OFFSET UNITYSDK_OFFSET(0x1E6E1C60)
+#define PARADOXNOTION_TYPECONVERTER___C__GET_B__4_12_OFFSET UNITYSDK_OFFSET(0x1E6E1F00)
+#define PARADOXNOTION_TYPECONVERTER___C__GET_B__4_13_OFFSET UNITYSDK_OFFSET(0x1E6E2140)
+#define PARADOXNOTION_TYPECONVERTER___C__GET_B__4_14_OFFSET UNITYSDK_OFFSET(0x1E6E23B0)
+#define PARADOXNOTION_TYPECONVERTER___C__GET_B__4_15_OFFSET UNITYSDK_OFFSET(0x1E6E2520)
+#define PARADOXNOTION_TYPECONVERTER___C__GET_B__4_16_OFFSET UNITYSDK_OFFSET(0x1E6E25F0)
+#define PARADOXNOTION_TYPECONVERTER___C__GET_B__4_17_OFFSET UNITYSDK_OFFSET(0x1E6E2690)
+#define PARADOXNOTION_TYPECONVERTER___C__GET_B__4_1_OFFSET UNITYSDK_OFFSET(0x1E6E1720)
+#define PARADOXNOTION_TYPECONVERTER___C__GET_B__4_2_OFFSET UNITYSDK_OFFSET(0x1E6E1730)
+#define PARADOXNOTION_TYPECONVERTER___C__GET_B__4_4_OFFSET UNITYSDK_OFFSET(0x1E6E1790)
+#define PARADOXNOTION_TYPECONVERTER___C__GET_B__4_6_OFFSET UNITYSDK_OFFSET(0x1E6E17E0)
 
 namespace ParadoxNotion
 {
-	inline static constexpr unsigned int TypeConverter___c_TypeDefinitionIndex = 29610;
+	inline static constexpr unsigned int TypeConverter___c_TypeDefinitionIndex = 30563;
 
 	class TypeConverter___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Object*, ::System::Object*>** StaticGet___9__4_1()
-		{
-			return (::System::Func_2<::System::Object*, ::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(TypeConverter___c_TypeDefinitionIndex)->GetStaticField(0x24A10);
-		}
-		static ::System::Func_2<::System::Object*, ::System::Object*>** StaticGet___9__4_12()
-		{
-			return (::System::Func_2<::System::Object*, ::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(TypeConverter___c_TypeDefinitionIndex)->GetStaticField(0x24A18);
-		}
 		static ::System::Func_2<::System::Object*, ::System::Object*>** StaticGet___9__4_11()
 		{
-			return (::System::Func_2<::System::Object*, ::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(TypeConverter___c_TypeDefinitionIndex)->GetStaticField(0x24A20);
-		}
-		static ::System::Func_2<::System::Object*, ::System::Object*>** StaticGet___9__4_16()
-		{
-			return (::System::Func_2<::System::Object*, ::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(TypeConverter___c_TypeDefinitionIndex)->GetStaticField(0x24A28);
-		}
-		static ::System::Func_2<::System::Object*, ::System::Object*>** StaticGet___9__4_6()
-		{
-			return (::System::Func_2<::System::Object*, ::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(TypeConverter___c_TypeDefinitionIndex)->GetStaticField(0x24A30);
-		}
-		static ::System::Func_2<::System::Object*, ::System::Object*>** StaticGet___9__4_2()
-		{
-			return (::System::Func_2<::System::Object*, ::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(TypeConverter___c_TypeDefinitionIndex)->GetStaticField(0x24A38);
-		}
-		static ::System::Func_2<::System::Object*, ::System::Object*>** StaticGet___9__4_13()
-		{
-			return (::System::Func_2<::System::Object*, ::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(TypeConverter___c_TypeDefinitionIndex)->GetStaticField(0x24A40);
+			return (::System::Func_2<::System::Object*, ::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(TypeConverter___c_TypeDefinitionIndex)->GetStaticField(0x26270);
 		}
 		static ::System::Func_2<::System::Object*, ::System::Object*>** StaticGet___9__4_4()
 		{
-			return (::System::Func_2<::System::Object*, ::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(TypeConverter___c_TypeDefinitionIndex)->GetStaticField(0x24A48);
-		}
-		static ::ParadoxNotion::TypeConverter___c** StaticGet___9()
-		{
-			return (::ParadoxNotion::TypeConverter___c**)Il2CppClass::FromTypeDefinitionIndex(TypeConverter___c_TypeDefinitionIndex)->GetStaticField(0x24A50);
-		}
-		static ::System::Func_2<::System::Object*, ::System::Object*>** StaticGet___9__4_17()
-		{
-			return (::System::Func_2<::System::Object*, ::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(TypeConverter___c_TypeDefinitionIndex)->GetStaticField(0x24A58);
-		}
-		static ::System::Func_2<::System::Object*, ::System::Object*>** StaticGet___9__4_14()
-		{
-			return (::System::Func_2<::System::Object*, ::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(TypeConverter___c_TypeDefinitionIndex)->GetStaticField(0x24A60);
-		}
-		static ::System::Func_2<::System::Object*, ::System::Object*>** StaticGet___9__4_10()
-		{
-			return (::System::Func_2<::System::Object*, ::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(TypeConverter___c_TypeDefinitionIndex)->GetStaticField(0x24A68);
+			return (::System::Func_2<::System::Object*, ::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(TypeConverter___c_TypeDefinitionIndex)->GetStaticField(0x26278);
 		}
 		static ::System::Func_2<::System::Object*, ::System::Object*>** StaticGet___9__4_15()
 		{
-			return (::System::Func_2<::System::Object*, ::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(TypeConverter___c_TypeDefinitionIndex)->GetStaticField(0x24A70);
+			return (::System::Func_2<::System::Object*, ::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(TypeConverter___c_TypeDefinitionIndex)->GetStaticField(0x26280);
+		}
+		static ::System::Func_2<::System::Object*, ::System::Object*>** StaticGet___9__4_16()
+		{
+			return (::System::Func_2<::System::Object*, ::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(TypeConverter___c_TypeDefinitionIndex)->GetStaticField(0x26288);
+		}
+		static ::System::Func_2<::System::Object*, ::System::Object*>** StaticGet___9__4_12()
+		{
+			return (::System::Func_2<::System::Object*, ::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(TypeConverter___c_TypeDefinitionIndex)->GetStaticField(0x26290);
+		}
+		static ::System::Func_2<::System::Object*, ::System::Object*>** StaticGet___9__4_14()
+		{
+			return (::System::Func_2<::System::Object*, ::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(TypeConverter___c_TypeDefinitionIndex)->GetStaticField(0x26298);
+		}
+		static ::System::Func_2<::System::Object*, ::System::Object*>** StaticGet___9__4_6()
+		{
+			return (::System::Func_2<::System::Object*, ::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(TypeConverter___c_TypeDefinitionIndex)->GetStaticField(0x262A0);
+		}
+		static ::System::Func_2<::System::Object*, ::System::Object*>** StaticGet___9__4_10()
+		{
+			return (::System::Func_2<::System::Object*, ::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(TypeConverter___c_TypeDefinitionIndex)->GetStaticField(0x262A8);
+		}
+		static ::System::Func_2<::System::Object*, ::System::Object*>** StaticGet___9__4_17()
+		{
+			return (::System::Func_2<::System::Object*, ::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(TypeConverter___c_TypeDefinitionIndex)->GetStaticField(0x262B0);
+		}
+		static ::System::Func_2<::System::Object*, ::System::Object*>** StaticGet___9__4_1()
+		{
+			return (::System::Func_2<::System::Object*, ::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(TypeConverter___c_TypeDefinitionIndex)->GetStaticField(0x262B8);
+		}
+		static ::System::Func_2<::System::Object*, ::System::Object*>** StaticGet___9__4_2()
+		{
+			return (::System::Func_2<::System::Object*, ::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(TypeConverter___c_TypeDefinitionIndex)->GetStaticField(0x262C0);
+		}
+		static ::ParadoxNotion::TypeConverter___c** StaticGet___9()
+		{
+			return (::ParadoxNotion::TypeConverter___c**)Il2CppClass::FromTypeDefinitionIndex(TypeConverter___c_TypeDefinitionIndex)->GetStaticField(0x262C8);
+		}
+		static ::System::Func_2<::System::Object*, ::System::Object*>** StaticGet___9__4_13()
+		{
+			return (::System::Func_2<::System::Object*, ::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(TypeConverter___c_TypeDefinitionIndex)->GetStaticField(0x262D0);
 		}
 
 		static ::System::Void _cctor()

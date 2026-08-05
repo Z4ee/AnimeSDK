@@ -10,7 +10,7 @@ namespace System::Linq { template <typename T1, typename T2> class IGrouping_2; 
 
 namespace Utf8Json::Formatters
 {
-	inline static constexpr unsigned int Lookup_2_TypeDefinitionIndex = 91295;
+	inline static constexpr unsigned int Lookup_2_TypeDefinitionIndex = 95228;
 
 	template <typename TKey, typename TElement>
 	class Lookup_2 : public ::System::Object

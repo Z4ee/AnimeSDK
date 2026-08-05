@@ -4,12 +4,12 @@
 
 namespace FlowCanvas::Nodes { class SignalCallback; }
 
-#define FLOWCANVAS_NODES_SIGNALCALLBACK___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1D389C90)
-#define FLOWCANVAS_NODES_SIGNALCALLBACK___C__DISPLAYCLASS16_0__REGISTERPORTS_B__2_OFFSET UNITYSDK_OFFSET(0x1D389CA0)
+#define FLOWCANVAS_NODES_SIGNALCALLBACK___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7234B0)
+#define FLOWCANVAS_NODES_SIGNALCALLBACK___C__DISPLAYCLASS16_0__REGISTERPORTS_B__2_OFFSET UNITYSDK_OFFSET(0x1E7234C0)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int SignalCallback___c__DisplayClass16_0_TypeDefinitionIndex = 29117;
+	inline static constexpr unsigned int SignalCallback___c__DisplayClass16_0_TypeDefinitionIndex = 31312;
 
 	class SignalCallback___c__DisplayClass16_0 : public ::System::Object
 	{

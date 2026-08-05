@@ -5,7 +5,7 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int NativeMemoryUtils_TypeDefinitionIndex = 8728;
+	inline static constexpr unsigned int NativeMemoryUtils_TypeDefinitionIndex = 8570;
 
 	class NativeMemoryUtils : public ::System::Object
 	{

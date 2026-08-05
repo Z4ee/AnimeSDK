@@ -6,11 +6,11 @@ namespace MoleMole::Config { class AnimatorStateTimeSegment; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_MONOEFFECTPLUGINPROGRAMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x11638D30)
+#define MOLEMOLE_MONOEFFECTPLUGINPROGRAMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x11D4BDC0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoEffectPluginProgramConfig_TypeDefinitionIndex = 60227;
+	inline static constexpr unsigned int MonoEffectPluginProgramConfig_TypeDefinitionIndex = 59163;
 
 	class MonoEffectPluginProgramConfig : public ::Sirenix::OdinInspector::SerializedScriptableObject
 	{

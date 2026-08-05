@@ -3,11 +3,11 @@
 #include "unitysdk/Enum_3_205B03D40B9BD873.h"
 #include "unitysdk/MoleMole/DisplayMessageBase.h"
 
-#define MOLEMOLE_TIPSHOWOBJ__CTOR_OFFSET UNITYSDK_OFFSET(0x17E062A0)
+#define MOLEMOLE_TIPSHOWOBJ__CTOR_OFFSET UNITYSDK_OFFSET(0x190CCBB0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int TipShowObj_TypeDefinitionIndex = 55709;
+	inline static constexpr unsigned int TipShowObj_TypeDefinitionIndex = 69035;
 
 	class TipShowObj : public ::MoleMole::DisplayMessageBase
 	{

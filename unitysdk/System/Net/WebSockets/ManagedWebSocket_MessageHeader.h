@@ -9,9 +9,9 @@ namespace System::Net::WebSockets
 
 	struct alignas(8) ManagedWebSocket_MessageHeader
 	{
-		::System::Int64 PayloadLength; // 0x10
-		::System::Int32 Mask; // 0x18
-		::System::Net::WebSockets::ManagedWebSocket_MessageOpcode Opcode; // 0x1C
-		::System::Boolean Fin; // 0x1D
+		::System::Int32 Mask; // 0x10
+		::System::Net::WebSockets::ManagedWebSocket_MessageOpcode Opcode; // 0x14
+		::System::Boolean Fin; // 0x15
+		::System::Int64 PayloadLength; // 0x18
 	};
 }

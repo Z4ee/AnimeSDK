@@ -1,0 +1,112 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_0_16E4307DCC419505_189;
+class Class_1_2D5DADE6FF36AA79;
+class Class_1_90889A2023AB884E_2;
+class Class_1_B88DD88990EA3DAE;
+namespace MoleMole::GalGame { class MainCityChatPlayableNodeBase; }
+namespace MoleMole::GalGame { class MainCityChatScript; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define CLASS_1_8F012562C33BCD0A_METHOD_1_1D4018D4200358D0_OFFSET UNITYSDK_OFFSET(0x15926A00)
+#define CLASS_1_8F012562C33BCD0A_METHOD_1_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x15927170)
+#define CLASS_1_8F012562C33BCD0A_METHOD_1_62593EE2FE331D20_OFFSET UNITYSDK_OFFSET(0x15926F20)
+#define CLASS_1_8F012562C33BCD0A_METHOD_1_65B3EF1A2FEB41AE_OFFSET UNITYSDK_OFFSET(0x15926FC0)
+#define CLASS_1_8F012562C33BCD0A_METHOD_1_749948B663FCCCEF_OFFSET UNITYSDK_OFFSET(0x15926A60)
+#define CLASS_1_8F012562C33BCD0A_METHOD_1_A0CC8F88E700E953_OFFSET UNITYSDK_OFFSET(0x159272A0)
+#define CLASS_1_8F012562C33BCD0A_METHOD_1_BA904CAFF6C7217F_OFFSET UNITYSDK_OFFSET(0x159271D0)
+#define CLASS_1_8F012562C33BCD0A_METHOD_1_C74CF020AA42ED85_1_OFFSET UNITYSDK_OFFSET(0x15926A50)
+#define CLASS_1_8F012562C33BCD0A_METHOD_1_C74CF020AA42ED85_2_OFFSET UNITYSDK_OFFSET(0x15927290)
+#define CLASS_1_8F012562C33BCD0A_METHOD_1_C74CF020AA42ED85_OFFSET UNITYSDK_OFFSET(0x159269F0)
+#define CLASS_1_8F012562C33BCD0A_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x15926F70)
+#define CLASS_1_8F012562C33BCD0A_METHOD_1_D0BD1377F2594D33_OFFSET UNITYSDK_OFFSET(0x159270D0)
+#define CLASS_1_8F012562C33BCD0A_METHOD_1_F7E674C1303ACB5B_OFFSET UNITYSDK_OFFSET(0x15927480)
+#define CLASS_1_8F012562C33BCD0A__CTOR_OFFSET UNITYSDK_OFFSET(0x15926990)
+
+inline static constexpr unsigned int Class_1_8F012562C33BCD0A_TypeDefinitionIndex = 40755;
+
+class Class_1_8F012562C33BCD0A : public ::System::Object
+{
+public:
+	::Class_1_90889A2023AB884E_2* Field_1_2; // 0x10
+	::MoleMole::GalGame::MainCityChatScript* Field_1_6; // 0x18
+	::Class_0_16E4307DCC419505_189* Field_1_0; // 0x20
+	::Class_1_B88DD88990EA3DAE* Field_1_5; // 0x28
+	::Class_1_2D5DADE6FF36AA79* Field_1_1; // 0x30
+	::System::Collections::Generic::List_1<::MoleMole::GalGame::MainCityChatPlayableNodeBase*>* Field_1_7; // 0x38
+	::System::Int32 Field_1_4; // 0x40
+	::System::Int32 Field_1_10; // 0x44
+	::System::Int32 Field_1_11; // 0x48
+
+	::System::Void _ctor(::Class_0_16E4307DCC419505_189* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_189*))((::PBYTE)hIl2Cpp + CLASS_1_8F012562C33BCD0A__CTOR_OFFSET))(this, a1);
+	}
+
+	::System::Int32 Method_1_C74CF020AA42ED85()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_8F012562C33BCD0A_METHOD_1_C74CF020AA42ED85_OFFSET))(this);
+	}
+
+	::System::Boolean Method_1_1D4018D4200358D0()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_8F012562C33BCD0A_METHOD_1_1D4018D4200358D0_OFFSET))(this);
+	}
+
+	::System::Int32 Method_1_C74CF020AA42ED85_1()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_8F012562C33BCD0A_METHOD_1_C74CF020AA42ED85_1_OFFSET))(this);
+	}
+
+	::System::Void Method_1_749948B663FCCCEF()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_8F012562C33BCD0A_METHOD_1_749948B663FCCCEF_OFFSET))(this);
+	}
+
+	::System::Void Method_1_62593EE2FE331D20()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_8F012562C33BCD0A_METHOD_1_62593EE2FE331D20_OFFSET))(this);
+	}
+
+	::System::Void Method_1_CA373AA1C7054598()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_8F012562C33BCD0A_METHOD_1_CA373AA1C7054598_OFFSET))(this);
+	}
+
+	::System::Void Method_1_65B3EF1A2FEB41AE(::System::Int32 a1, ::System::Int32 a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_8F012562C33BCD0A_METHOD_1_65B3EF1A2FEB41AE_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_1_D0BD1377F2594D33()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_8F012562C33BCD0A_METHOD_1_D0BD1377F2594D33_OFFSET))(this);
+	}
+
+	::System::Void Method_1_4343F372F34C05BF()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_8F012562C33BCD0A_METHOD_1_4343F372F34C05BF_OFFSET))(this);
+	}
+
+	::System::Void Method_1_BA904CAFF6C7217F(::System::Boolean a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_8F012562C33BCD0A_METHOD_1_BA904CAFF6C7217F_OFFSET))(this, a1);
+	}
+
+	::System::Int32 Method_1_C74CF020AA42ED85_2()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_8F012562C33BCD0A_METHOD_1_C74CF020AA42ED85_2_OFFSET))(this);
+	}
+
+	::System::Void Method_1_A0CC8F88E700E953(::MoleMole::GalGame::MainCityChatScript* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::MoleMole::GalGame::MainCityChatScript*))((::PBYTE)hIl2Cpp + CLASS_1_8F012562C33BCD0A_METHOD_1_A0CC8F88E700E953_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_F7E674C1303ACB5B(::System::Single a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_8F012562C33BCD0A_METHOD_1_F7E674C1303ACB5B_OFFSET))(this, a1);
+	}
+};

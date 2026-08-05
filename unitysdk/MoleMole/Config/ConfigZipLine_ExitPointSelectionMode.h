@@ -3,12 +3,12 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigZipLine_ExitPointSelectionMode_TypeDefinitionIndex = 51235;
+	inline static constexpr unsigned int ConfigZipLine_ExitPointSelectionMode_TypeDefinitionIndex = 53005;
 
 	enum class ConfigZipLine_ExitPointSelectionMode : ::System::Int32
 	{
-		SplineExit = 2,
 		None = 0,
 		NavMesh = 1,
+		SplineExit = 2,
 	};
 }

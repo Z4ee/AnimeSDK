@@ -9,7 +9,7 @@ namespace UnityEngine { class Object; }
 
 namespace NPCCrowd
 {
-	inline static constexpr unsigned int NPCSoftAssetPathUtils_LoadCompleteUserData_1_TypeDefinitionIndex = 53416;
+	inline static constexpr unsigned int NPCSoftAssetPathUtils_LoadCompleteUserData_1_TypeDefinitionIndex = 47718;
 
 	template <typename T>
 	class NPCSoftAssetPathUtils_LoadCompleteUserData_1 : public ::System::Object

@@ -5,31 +5,31 @@
 namespace System { class String; }
 namespace UnityEngine::UI { class Text; }
 
-#define MOLEMOLE_MONOPHYSFPSINDICATOR_METHOD_5_2B152328DABB4A03_OFFSET UNITYSDK_OFFSET(0x16CDB140)
-#define MOLEMOLE_MONOPHYSFPSINDICATOR_METHOD_5_91E51879C0028BD4_OFFSET UNITYSDK_OFFSET(0x16CDB0F0)
-#define MOLEMOLE_MONOPHYSFPSINDICATOR_START_OFFSET UNITYSDK_OFFSET(0x16CDAA70)
-#define MOLEMOLE_MONOPHYSFPSINDICATOR_UPDATE_OFFSET UNITYSDK_OFFSET(0x16CDAC70)
-#define MOLEMOLE_MONOPHYSFPSINDICATOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x16CDB0E0)
-#define MOLEMOLE_MONOPHYSFPSINDICATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x16CDB050)
+#define MOLEMOLE_MONOPHYSFPSINDICATOR_METHOD_5_2B152328DABB4A03_OFFSET UNITYSDK_OFFSET(0x13AC3140)
+#define MOLEMOLE_MONOPHYSFPSINDICATOR_METHOD_5_91E51879C0028BD4_OFFSET UNITYSDK_OFFSET(0x13AC30F0)
+#define MOLEMOLE_MONOPHYSFPSINDICATOR_START_OFFSET UNITYSDK_OFFSET(0x13AC2A70)
+#define MOLEMOLE_MONOPHYSFPSINDICATOR_UPDATE_OFFSET UNITYSDK_OFFSET(0x13AC2C70)
+#define MOLEMOLE_MONOPHYSFPSINDICATOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x13AC30E0)
+#define MOLEMOLE_MONOPHYSFPSINDICATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x13AC3050)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoPhysFPSIndicator_TypeDefinitionIndex = 86580;
+	inline static constexpr unsigned int MonoPhysFPSIndicator_TypeDefinitionIndex = 71652;
 
 	class MonoPhysFPSIndicator : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		static ::System::Boolean* StaticGet_CollectAndroidPssMemory()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MonoPhysFPSIndicator_TypeDefinitionIndex)->GetStaticField(0x13170);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MonoPhysFPSIndicator_TypeDefinitionIndex)->GetStaticField(0x136C0);
 		}
 		::System::Single updateInterval; // 0x18
 		::System::Single fps; // 0x1C
-		::System::Single Field_5_3; // 0x20
+		::System::Single Field_5_5; // 0x20
 		::System::Int32 Field_5_4; // 0x24
-		::System::Single Field_5_5; // 0x28
-		::System::Int32 Field_5_6; // 0x2C
-		::UnityEngine::UI::Text* Field_5_7; // 0x30
+		::System::Single Field_5_11; // 0x28
+		::System::Int32 Field_5_10; // 0x2C
+		::UnityEngine::UI::Text* Field_5_9; // 0x30
 		::Il2CppArray<::System::UInt64>* Field_5_8; // 0x38
 
 		::System::Void _ctor()

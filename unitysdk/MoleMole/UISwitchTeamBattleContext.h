@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UISWITCHTEAMBATTLECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x157C3780)
+#define MOLEMOLE_UISWITCHTEAMBATTLECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x10EF5560)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISwitchTeamBattleContext_TypeDefinitionIndex = 59034;
+	inline static constexpr unsigned int UISwitchTeamBattleContext_TypeDefinitionIndex = 62063;
 
 	class UISwitchTeamBattleContext : public ::MoleMole::UIControllerContextBase
 	{

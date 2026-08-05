@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define FLOWCANVAS_TYPECONVERTER___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC451F0)
-#define FLOWCANVAS_TYPECONVERTER___C__DISPLAYCLASS3_0__QUICKCONVERT_B__0_OFFSET UNITYSDK_OFFSET(0x1BC45200)
+#define FLOWCANVAS_TYPECONVERTER___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB27C60)
+#define FLOWCANVAS_TYPECONVERTER___C__DISPLAYCLASS3_0__QUICKCONVERT_B__0_OFFSET UNITYSDK_OFFSET(0x1DB27C70)
 
 namespace FlowCanvas
 {
-	inline static constexpr unsigned int TypeConverter___c__DisplayClass3_0_TypeDefinitionIndex = 29449;
+	inline static constexpr unsigned int TypeConverter___c__DisplayClass3_0_TypeDefinitionIndex = 30260;
 
 	class TypeConverter___c__DisplayClass3_0 : public ::System::Object
 	{

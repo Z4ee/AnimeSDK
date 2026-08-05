@@ -3,7 +3,7 @@
 
 namespace ICSharpCode::SharpZipLib::Zip
 {
-	inline static constexpr unsigned int FastZip_Overwrite_TypeDefinitionIndex = 6838;
+	inline static constexpr unsigned int FastZip_Overwrite_TypeDefinitionIndex = 6842;
 
 	enum class FastZip_Overwrite : ::System::Int32
 	{

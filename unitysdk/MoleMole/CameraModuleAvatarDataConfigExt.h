@@ -4,12 +4,12 @@
 
 namespace MoleMole::Config { class PipelineCameraAvatarConfigData; }
 
-#define MOLEMOLE_CAMERAMODULEAVATARDATACONFIGEXT_INIT_OFFSET UNITYSDK_OFFSET(0x13FF0AA0)
-#define MOLEMOLE_CAMERAMODULEAVATARDATACONFIGEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x13FF0D90)
+#define MOLEMOLE_CAMERAMODULEAVATARDATACONFIGEXT_INIT_OFFSET UNITYSDK_OFFSET(0x1279F110)
+#define MOLEMOLE_CAMERAMODULEAVATARDATACONFIGEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1279F400)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CameraModuleAvatarDataConfigExt_TypeDefinitionIndex = 43598;
+	inline static constexpr unsigned int CameraModuleAvatarDataConfigExt_TypeDefinitionIndex = 47847;
 
 	class CameraModuleAvatarDataConfigExt : public ::MoleMole::CameraModuleAvatarDataConfig
 	{

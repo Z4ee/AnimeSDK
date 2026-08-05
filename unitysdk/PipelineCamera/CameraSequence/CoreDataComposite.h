@@ -8,11 +8,11 @@ namespace PipelineCamera::CameraSequence { class CoreDataCompositeSegment; }
 namespace PipelineCamera::CameraSequence { class CoreDataCompositeTrack; }
 namespace PipelineCamera::CameraSequence { class CoreDataSequence; }
 
-#define PIPELINECAMERA_CAMERASEQUENCE_COREDATACOMPOSITE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D564390)
+#define PIPELINECAMERA_CAMERASEQUENCE_COREDATACOMPOSITE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E913800)
 
 namespace PipelineCamera::CameraSequence
 {
-	inline static constexpr unsigned int CoreDataComposite_TypeDefinitionIndex = 37883;
+	inline static constexpr unsigned int CoreDataComposite_TypeDefinitionIndex = 38544;
 
 	class CoreDataComposite : public ::PipelineCamera::CameraSequence::CameraSequenceComposite_5<::PipelineCamera::CameraSequence::CoreDataSequence*, ::PipelineCamera::CameraSequence::CoreDataCompositeSegment*, ::PipelineCamera::CameraSequence::CoreDataCompositeTrack*, ::PipelineCamera::CameraSequence::CoreDataCompositeAdditiveTrack*, ::PipelineCamera::WorldBasicCameraData>
 	{

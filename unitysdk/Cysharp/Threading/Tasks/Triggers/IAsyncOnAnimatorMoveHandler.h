@@ -4,7 +4,7 @@
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
-	inline static constexpr unsigned int IAsyncOnAnimatorMoveHandler_TypeDefinitionIndex = 31328;
+	inline static constexpr unsigned int IAsyncOnAnimatorMoveHandler_TypeDefinitionIndex = 31948;
 
 	class IAsyncOnAnimatorMoveHandler
 	{

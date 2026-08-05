@@ -3,7 +3,7 @@
 
 namespace UnrealTypes
 {
-	inline static constexpr unsigned int PropertyFlags_TypeDefinitionIndex = 27760;
+	inline static constexpr unsigned int PropertyFlags_TypeDefinitionIndex = 28363;
 
 	enum class PropertyFlags : ::System::UInt32
 	{

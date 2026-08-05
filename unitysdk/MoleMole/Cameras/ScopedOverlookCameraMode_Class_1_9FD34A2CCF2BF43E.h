@@ -7,18 +7,18 @@ namespace MoleMole::Cameras { class OverlookCameraConfig; }
 namespace MoleMole::Cameras { class ScopedOverlookCameraMode; }
 namespace PipelineCamera { template <typename T> class ICameraSubModule_1; }
 
-#define MOLEMOLE_CAMERAS_SCOPEDOVERLOOKCAMERAMODE_CLASS_1_9FD34A2CCF2BF43E_METHOD_1_0846D1EBB7741623_OFFSET UNITYSDK_OFFSET(0x144C5F40)
-#define MOLEMOLE_CAMERAS_SCOPEDOVERLOOKCAMERAMODE_CLASS_1_9FD34A2CCF2BF43E_METHOD_1_AA18621D12E9FC02_OFFSET UNITYSDK_OFFSET(0x144C5E80)
-#define MOLEMOLE_CAMERAS_SCOPEDOVERLOOKCAMERAMODE_CLASS_1_9FD34A2CCF2BF43E__CTOR_OFFSET UNITYSDK_OFFSET(0x144C5E70)
+#define MOLEMOLE_CAMERAS_SCOPEDOVERLOOKCAMERAMODE_CLASS_1_9FD34A2CCF2BF43E_METHOD_1_0846D1EBB7741623_OFFSET UNITYSDK_OFFSET(0x12CA8200)
+#define MOLEMOLE_CAMERAS_SCOPEDOVERLOOKCAMERAMODE_CLASS_1_9FD34A2CCF2BF43E_METHOD_1_AA18621D12E9FC02_OFFSET UNITYSDK_OFFSET(0x12CA82A0)
+#define MOLEMOLE_CAMERAS_SCOPEDOVERLOOKCAMERAMODE_CLASS_1_9FD34A2CCF2BF43E__CTOR_OFFSET UNITYSDK_OFFSET(0x12CA81F0)
 
 namespace MoleMole::Cameras
 {
-	inline static constexpr unsigned int ScopedOverlookCameraMode_Class_1_9FD34A2CCF2BF43E_TypeDefinitionIndex = 78862;
+	inline static constexpr unsigned int ScopedOverlookCameraMode_Class_1_9FD34A2CCF2BF43E_TypeDefinitionIndex = 81964;
 
 	class ScopedOverlookCameraMode_Class_1_9FD34A2CCF2BF43E : public ::System::Object
 	{
 	public:
-		::MoleMole::Cameras::OverlookCameraConfig* Field_1_1; // 0x10
+		::MoleMole::Cameras::OverlookCameraConfig* Field_1_7; // 0x10
 		::MoleMole::Cameras::ScopedOverlookCameraMode* Field_1_0; // 0x18
 
 		::System::Void _ctor()
@@ -26,14 +26,14 @@ namespace MoleMole::Cameras
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERLOOKCAMERAMODE_CLASS_1_9FD34A2CCF2BF43E__CTOR_OFFSET))(this);
 		}
 
-		::PipelineCamera::ICameraSubModule_1<::PipelineCamera::WorldBasicCameraData>* Method_1_AA18621D12E9FC02()
-		{
-			return ((::PipelineCamera::ICameraSubModule_1<::PipelineCamera::WorldBasicCameraData>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERLOOKCAMERAMODE_CLASS_1_9FD34A2CCF2BF43E_METHOD_1_AA18621D12E9FC02_OFFSET))(this);
-		}
-
 		::System::Void Method_1_0846D1EBB7741623(::PipelineCamera::ICameraSubModule_1<::PipelineCamera::WorldBasicCameraData>* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::PipelineCamera::ICameraSubModule_1<::PipelineCamera::WorldBasicCameraData>*))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERLOOKCAMERAMODE_CLASS_1_9FD34A2CCF2BF43E_METHOD_1_0846D1EBB7741623_OFFSET))(this, a1);
+		}
+
+		::PipelineCamera::ICameraSubModule_1<::PipelineCamera::WorldBasicCameraData>* Method_1_AA18621D12E9FC02()
+		{
+			return ((::PipelineCamera::ICameraSubModule_1<::PipelineCamera::WorldBasicCameraData>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERLOOKCAMERAMODE_CLASS_1_9FD34A2CCF2BF43E_METHOD_1_AA18621D12E9FC02_OFFSET))(this);
 		}
 	};
 }

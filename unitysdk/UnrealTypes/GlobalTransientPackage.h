@@ -7,24 +7,24 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnrealTypes { class Object; }
 
-#define UNREALTYPES_GLOBALTRANSIENTPACKAGE_ADDOBJECT_OFFSET UNITYSDK_OFFSET(0x1D1B6460)
-#define UNREALTYPES_GLOBALTRANSIENTPACKAGE_FINDOBJECTBYNAME_OFFSET UNITYSDK_OFFSET(0x1D1B62F0)
-#define UNREALTYPES_GLOBALTRANSIENTPACKAGE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D1B6570)
+#define UNREALTYPES_GLOBALTRANSIENTPACKAGE_ADDOBJECT_OFFSET UNITYSDK_OFFSET(0x1E38FAF0)
+#define UNREALTYPES_GLOBALTRANSIENTPACKAGE_FINDOBJECTBYNAME_OFFSET UNITYSDK_OFFSET(0x1E38F980)
+#define UNREALTYPES_GLOBALTRANSIENTPACKAGE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E38FC00)
 
 namespace UnrealTypes
 {
-	inline static constexpr unsigned int GlobalTransientPackage_TypeDefinitionIndex = 27757;
+	inline static constexpr unsigned int GlobalTransientPackage_TypeDefinitionIndex = 28360;
 
 	class GlobalTransientPackage : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::List_1<::UnrealTypes::Object*>** StaticGet_ObjectList()
 		{
-			return (::System::Collections::Generic::List_1<::UnrealTypes::Object*>**)Il2CppClass::FromTypeDefinitionIndex(GlobalTransientPackage_TypeDefinitionIndex)->GetStaticField(0x22920);
+			return (::System::Collections::Generic::List_1<::UnrealTypes::Object*>**)Il2CppClass::FromTypeDefinitionIndex(GlobalTransientPackage_TypeDefinitionIndex)->GetStaticField(0x24090);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>** StaticGet_ObjectNameToIndexMap()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(GlobalTransientPackage_TypeDefinitionIndex)->GetStaticField(0x22928);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(GlobalTransientPackage_TypeDefinitionIndex)->GetStaticField(0x24098);
 		}
 
 		static ::System::Void _cctor()

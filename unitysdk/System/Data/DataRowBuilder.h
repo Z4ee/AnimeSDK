@@ -4,12 +4,12 @@
 
 namespace System::Data { class DataTable; }
 
-#define SYSTEM_DATA_DATAROWBUILDER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1D6D4820)
-#define SYSTEM_DATA_DATAROWBUILDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6D4810)
+#define SYSTEM_DATA_DATAROWBUILDER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EAB1780)
+#define SYSTEM_DATA_DATAROWBUILDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EAB1770)
 
 namespace System::Data
 {
-	inline static constexpr unsigned int DataRowBuilder_TypeDefinitionIndex = 38592;
+	inline static constexpr unsigned int DataRowBuilder_TypeDefinitionIndex = 39253;
 
 	class DataRowBuilder : public ::System::Object
 	{

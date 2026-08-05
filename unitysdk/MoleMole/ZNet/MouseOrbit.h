@@ -6,15 +6,15 @@
 
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_ZNET_MOUSEORBIT_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x108A5BA0)
-#define MOLEMOLE_ZNET_MOUSEORBIT_METHOD_5_B2E1F4B7BD95D0F7_OFFSET UNITYSDK_OFFSET(0x108A6150)
-#define MOLEMOLE_ZNET_MOUSEORBIT_METHOD_5_B7F8E0B4AF22DEA3_OFFSET UNITYSDK_OFFSET(0x108A6220)
-#define MOLEMOLE_ZNET_MOUSEORBIT_START_OFFSET UNITYSDK_OFFSET(0x108A5890)
-#define MOLEMOLE_ZNET_MOUSEORBIT__CTOR_OFFSET UNITYSDK_OFFSET(0x108A6650)
+#define MOLEMOLE_ZNET_MOUSEORBIT_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x112EAC60)
+#define MOLEMOLE_ZNET_MOUSEORBIT_METHOD_5_B2E1F4B7BD95D0F7_OFFSET UNITYSDK_OFFSET(0x112EB210)
+#define MOLEMOLE_ZNET_MOUSEORBIT_METHOD_5_B7F8E0B4AF22DEA3_OFFSET UNITYSDK_OFFSET(0x112EB2E0)
+#define MOLEMOLE_ZNET_MOUSEORBIT_START_OFFSET UNITYSDK_OFFSET(0x112EA950)
+#define MOLEMOLE_ZNET_MOUSEORBIT__CTOR_OFFSET UNITYSDK_OFFSET(0x112EB710)
 
 namespace MoleMole::ZNet
 {
-	inline static constexpr unsigned int MouseOrbit_TypeDefinitionIndex = 61710;
+	inline static constexpr unsigned int MouseOrbit_TypeDefinitionIndex = 41448;
 
 	class MouseOrbit : public ::UnityEngine::MonoBehaviour
 	{
@@ -25,10 +25,10 @@ namespace MoleMole::ZNet
 		::System::Single ySpeed; // 0x28
 		::System::Single yMinLimit; // 0x2C
 		::System::Single yMaxLimit; // 0x30
-		::System::Single Field_5_6; // 0x34
-		::System::Single Field_5_7; // 0x38
-		::UnityEngine::Vector3 Field_5_8; // 0x3C
-		::UnityEngine::Quaternion Field_5_9; // 0x48
+		::System::Single Field_5_5; // 0x34
+		::System::Single Field_5_4; // 0x38
+		::UnityEngine::Vector3 Field_5_11; // 0x3C
+		::UnityEngine::Quaternion Field_5_10; // 0x48
 
 		::System::Void _ctor()
 		{

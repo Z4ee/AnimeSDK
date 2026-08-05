@@ -3,11 +3,11 @@
 #include "unitysdk/System/Guid.h"
 #include "unitysdk/System/Object.h"
 
-#define BINARYTRACINGCORE_SOURCE_TRACINGTOOLS_LOGMETAHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E22DE30)
+#define BINARYTRACINGCORE_SOURCE_TRACINGTOOLS_LOGMETAHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F651DD0)
 
 namespace BinaryTracingCore::Source::TracingTools
 {
-	inline static constexpr unsigned int LogMetaHandle_TypeDefinitionIndex = 33959;
+	inline static constexpr unsigned int LogMetaHandle_TypeDefinitionIndex = 34595;
 
 	class LogMetaHandle : public ::System::Object
 	{

@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_LEVEL_LEVELCONFIG_SCENEMOVEELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1914D080)
+#define MOLEMOLE_LEVEL_LEVELCONFIG_SCENEMOVEELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x118E10E0)
 
 namespace MoleMole::Level
 {
-	inline static constexpr unsigned int LevelConfig_SceneMoveElement_TypeDefinitionIndex = 47025;
+	inline static constexpr unsigned int LevelConfig_SceneMoveElement_TypeDefinitionIndex = 86301;
 
 	class LevelConfig_SceneMoveElement : public ::System::Object
 	{

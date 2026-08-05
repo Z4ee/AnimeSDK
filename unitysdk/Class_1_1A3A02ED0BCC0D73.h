@@ -5,21 +5,21 @@
 #include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define CLASS_1_1A3A02ED0BCC0D73_METHOD_1_6865E683CBB31523_OFFSET UNITYSDK_OFFSET(0x12989390)
-#define CLASS_1_1A3A02ED0BCC0D73_METHOD_1_82D703C21C1ADDE2_OFFSET UNITYSDK_OFFSET(0x12989ED0)
-#define CLASS_1_1A3A02ED0BCC0D73__CCTOR_OFFSET UNITYSDK_OFFSET(0x1298A000)
-#define CLASS_1_1A3A02ED0BCC0D73__CTOR_OFFSET UNITYSDK_OFFSET(0x12989FF0)
+#define CLASS_1_1A3A02ED0BCC0D73_METHOD_1_6865E683CBB31523_OFFSET UNITYSDK_OFFSET(0xF09EF50)
+#define CLASS_1_1A3A02ED0BCC0D73_METHOD_1_82D703C21C1ADDE2_OFFSET UNITYSDK_OFFSET(0xF09FA10)
+#define CLASS_1_1A3A02ED0BCC0D73__CCTOR_OFFSET UNITYSDK_OFFSET(0xF09FB40)
+#define CLASS_1_1A3A02ED0BCC0D73__CTOR_OFFSET UNITYSDK_OFFSET(0xF09FB30)
 
-inline static constexpr unsigned int Class_1_1A3A02ED0BCC0D73_TypeDefinitionIndex = 67765;
+inline static constexpr unsigned int Class_1_1A3A02ED0BCC0D73_TypeDefinitionIndex = 83872;
 
 class Class_1_1A3A02ED0BCC0D73 : public ::System::Object
 {
 public:
 	static ::Class_1_1A3A02ED0BCC0D73** StaticGet_Field_1_0()
 	{
-		return (::Class_1_1A3A02ED0BCC0D73**)Il2CppClass::FromTypeDefinitionIndex(Class_1_1A3A02ED0BCC0D73_TypeDefinitionIndex)->GetStaticField(0x389B0);
+		return (::Class_1_1A3A02ED0BCC0D73**)Il2CppClass::FromTypeDefinitionIndex(Class_1_1A3A02ED0BCC0D73_TypeDefinitionIndex)->GetStaticField(0x4B670);
 	}
-	// static const ::System::Single Field_1_1; // 0x0
+	// static const ::System::Single Field_1_7; // 0x0
 
 	::System::Void _ctor()
 	{

@@ -7,12 +7,12 @@ namespace MoleMole::MiniGame::TartarusHounds::View { class ViewEntityBlock; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_MINIGAME_TARTARUSHOUNDS_VIEW_VIEWENTITYGAME_GRIDPAGE_CLEAR_OFFSET UNITYSDK_OFFSET(0x10D5A190)
-#define MOLEMOLE_MINIGAME_TARTARUSHOUNDS_VIEW_VIEWENTITYGAME_GRIDPAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x10D5A230)
+#define MOLEMOLE_MINIGAME_TARTARUSHOUNDS_VIEW_VIEWENTITYGAME_GRIDPAGE_CLEAR_OFFSET UNITYSDK_OFFSET(0x16864400)
+#define MOLEMOLE_MINIGAME_TARTARUSHOUNDS_VIEW_VIEWENTITYGAME_GRIDPAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x168644A0)
 
 namespace MoleMole::MiniGame::TartarusHounds::View
 {
-	inline static constexpr unsigned int ViewEntityGame_GridPage_TypeDefinitionIndex = 74712;
+	inline static constexpr unsigned int ViewEntityGame_GridPage_TypeDefinitionIndex = 43901;
 
 	class ViewEntityGame_GridPage : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 
 namespace UnityEngine::XR
 {
-	inline static constexpr unsigned int MeshGenerationStatus_TypeDefinitionIndex = 27655;
+	inline static constexpr unsigned int MeshGenerationStatus_TypeDefinitionIndex = 28257;
 
 	enum class MeshGenerationStatus : ::System::Int32
 	{

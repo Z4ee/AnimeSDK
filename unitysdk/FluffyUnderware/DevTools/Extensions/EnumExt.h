@@ -4,11 +4,11 @@
 
 namespace System { struct Enum; }
 
-#define FLUFFYUNDERWARE_DEVTOOLS_EXTENSIONS_ENUMEXT_HASFLAG_OFFSET UNITYSDK_OFFSET(0x1D699210)
+#define FLUFFYUNDERWARE_DEVTOOLS_EXTENSIONS_ENUMEXT_HASFLAG_OFFSET UNITYSDK_OFFSET(0x1EA52420)
 
 namespace FluffyUnderware::DevTools::Extensions
 {
-	inline static constexpr unsigned int EnumExt_TypeDefinitionIndex = 28406;
+	inline static constexpr unsigned int EnumExt_TypeDefinitionIndex = 29010;
 
 	class EnumExt : public ::System::Object
 	{

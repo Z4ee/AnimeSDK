@@ -6,11 +6,9 @@ namespace UnityEngine::NAPRenderPipeline0 { class BoolParameter; }
 namespace UnityEngine::NAPRenderPipeline0 { class ClampedFloatParameter; }
 namespace UnityEngine::NAPRenderPipeline0 { class ColorParameter; }
 namespace UnityEngine::NAPRenderPipeline0 { class FloatParameter; }
-namespace UnityEngine::NAPRenderPipeline0 { class FloatRangeParameter; }
 namespace UnityEngine::NAPRenderPipeline0 { class IntParameter; }
 namespace UnityEngine::NAPRenderPipeline0 { class MinFloatParameter; }
 namespace UnityEngine::NAPRenderPipeline0 { class TextureParameter; }
-namespace UnityEngine::NAPRenderPipeline0 { class VREffects_NativeSRP_ColorBlendMethodParameter; }
 namespace UnityEngine::NAPRenderPipeline0 { class Vector2Parameter; }
 namespace UnityEngine::NAPRenderPipeline0 { class Vector3Parameter; }
 namespace UnityEngine::NAPRenderPipeline0 { class Vector4Parameter; }
@@ -20,17 +18,17 @@ namespace UnityEngine::Rendering::Universal { class ScanMaskTypeParameter; }
 namespace UnityEngine::Rendering::Universal { class ScanTypeParameter; }
 namespace UnityEngine::Rendering::Universal { class ScanlineBlendModeParameter; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_VREFFECTS_GET_USESTENCIL_OFFSET UNITYSDK_OFFSET(0xF7A7240)
-#define UNITYENGINE_RENDERING_UNIVERSAL_VREFFECTS_ISFXOVERLAYOUTLINEACTIVE_OFFSET UNITYSDK_OFFSET(0x1E598190)
-#define UNITYENGINE_RENDERING_UNIVERSAL_VREFFECTS_ISLENSDISTORTIONACTIVE_OFFSET UNITYSDK_OFFSET(0xF7A7250)
-#define UNITYENGINE_RENDERING_UNIVERSAL_VREFFECTS_ISOPAQUEOUTLINEACTIVE_OFFSET UNITYSDK_OFFSET(0xF7A7330)
-#define UNITYENGINE_RENDERING_UNIVERSAL_VREFFECTS_ISSCANMASKACTIVE_OFFSET UNITYSDK_OFFSET(0x1E598250)
-#define UNITYENGINE_RENDERING_UNIVERSAL_VREFFECTS_ISUBERPOSTOUTLINEACTIVE_OFFSET UNITYSDK_OFFSET(0x1E5980F0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_VREFFECTS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E598360)
+#define UNITYENGINE_RENDERING_UNIVERSAL_VREFFECTS_GET_USESTENCIL_OFFSET UNITYSDK_OFFSET(0x1F8232F0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_VREFFECTS_ISFXOVERLAYOUTLINEACTIVE_OFFSET UNITYSDK_OFFSET(0x1F823520)
+#define UNITYENGINE_RENDERING_UNIVERSAL_VREFFECTS_ISLENSDISTORTIONACTIVE_OFFSET UNITYSDK_OFFSET(0x1F823300)
+#define UNITYENGINE_RENDERING_UNIVERSAL_VREFFECTS_ISOPAQUEOUTLINEACTIVE_OFFSET UNITYSDK_OFFSET(0x1F8233E0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_VREFFECTS_ISSCANMASKACTIVE_OFFSET UNITYSDK_OFFSET(0x1F8235D0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_VREFFECTS_ISUBERPOSTOUTLINEACTIVE_OFFSET UNITYSDK_OFFSET(0x1F823480)
+#define UNITYENGINE_RENDERING_UNIVERSAL_VREFFECTS__CTOR_OFFSET UNITYSDK_OFFSET(0x1F8236D0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int VREffects_TypeDefinitionIndex = 26722;
+	inline static constexpr unsigned int VREffects_TypeDefinitionIndex = 27941;
 
 	class VREffects : public ::UnityEngine::NAPRenderPipeline0::VREffects_NativeSRP
 	{
@@ -96,46 +94,29 @@ namespace UnityEngine::Rendering::Universal
 		::UnityEngine::NAPRenderPipeline0::ClampedFloatParameter* lensDistortionYMultiplier; // 0x3A8
 		::UnityEngine::NAPRenderPipeline0::Vector2Parameter* lensDistortionCenter; // 0x3B0
 		::UnityEngine::NAPRenderPipeline0::ClampedFloatParameter* lensDistortionScale; // 0x3B8
-		::UnityEngine::NAPRenderPipeline0::BoolParameter* useComicDot; // 0x3C0
-		::UnityEngine::NAPRenderPipeline0::VREffects_NativeSRP_ColorBlendMethodParameter* dotBlendMode; // 0x3C8
-		::UnityEngine::NAPRenderPipeline0::MinFloatParameter* dotUnitSize; // 0x3D0
-		::UnityEngine::NAPRenderPipeline0::ClampedFloatParameter* dotPercentage; // 0x3D8
-		::UnityEngine::NAPRenderPipeline0::ClampedFloatParameter* comicDotAngle; // 0x3E0
-		::UnityEngine::NAPRenderPipeline0::ColorParameter* comicDotColor; // 0x3E8
-		::UnityEngine::NAPRenderPipeline0::BoolParameter* fadeByDepth; // 0x3F0
-		::UnityEngine::NAPRenderPipeline0::FloatRangeParameter* depthRange; // 0x3F8
-		::UnityEngine::NAPRenderPipeline0::FloatRangeParameter* depthFadeOpacity; // 0x400
-		::UnityEngine::NAPRenderPipeline0::BoolParameter* fadeByDepthInvert; // 0x408
-		::UnityEngine::NAPRenderPipeline0::BoolParameter* fadeByLuminance; // 0x410
-		::UnityEngine::NAPRenderPipeline0::FloatRangeParameter* luminanceRange; // 0x418
-		::UnityEngine::NAPRenderPipeline0::FloatRangeParameter* luminanceFadeOpacity; // 0x420
-		::UnityEngine::NAPRenderPipeline0::BoolParameter* fadeByLuminanceInvert; // 0x428
-		::UnityEngine::NAPRenderPipeline0::ColorParameter* blackColor; // 0x430
-		::UnityEngine::NAPRenderPipeline0::ColorParameter* whiteColor; // 0x438
-		::UnityEngine::NAPRenderPipeline0::ClampedFloatParameter* tint; // 0x440
-		::UnityEngine::NAPRenderPipeline0::BoolParameter* enableDistanceDistortionColorization; // 0x448
-		::UnityEngine::NAPRenderPipeline0::ClampedFloatParameter* distanceColorizationEffect; // 0x450
-		::UnityEngine::NAPRenderPipeline0::TextureParameter* distanceDistortionTexture; // 0x458
-		::UnityEngine::NAPRenderPipeline0::TextureParameter* distanceColorizeTexture; // 0x460
-		::UnityEngine::NAPRenderPipeline0::ColorParameter* distanceDistortionColor; // 0x468
-		::UnityEngine::NAPRenderPipeline0::FloatParameter* distanceDistortionStart; // 0x470
-		::UnityEngine::NAPRenderPipeline0::FloatParameter* distanceDistortionEnd; // 0x478
-		::UnityEngine::NAPRenderPipeline0::FloatParameter* distanceDistortionFadeRange; // 0x480
-		::UnityEngine::NAPRenderPipeline0::FloatParameter* distanceDistortionHeightStart; // 0x488
-		::UnityEngine::NAPRenderPipeline0::FloatParameter* distanceDistortionHeightEnd; // 0x490
-		::UnityEngine::NAPRenderPipeline0::FloatParameter* distanceDistortionHeightFadeRange; // 0x498
-		::UnityEngine::NAPRenderPipeline0::Vector3Parameter* distanceDistortionOffsetSpeed; // 0x4A0
-		::UnityEngine::NAPRenderPipeline0::FloatParameter* distanceDistortionTiling; // 0x4A8
-		::UnityEngine::NAPRenderPipeline0::FloatParameter* distanceDistortionIntensity; // 0x4B0
-		::UnityEngine::NAPRenderPipeline0::Vector3Parameter* distanceColorizationOffsetSpeed; // 0x4B8
-		::UnityEngine::NAPRenderPipeline0::FloatParameter* distanceColorizationTiling; // 0x4C0
-		::UnityEngine::Rendering::Universal::DistanceDistortionBlendModeParameter* distanceDistortionBlendMode; // 0x4C8
-		::UnityEngine::NAPRenderPipeline0::BoolParameter* enable2DSpot; // 0x4D0
-		::UnityEngine::NAPRenderPipeline0::Vector2Parameter* spotCenter; // 0x4D8
-		::UnityEngine::NAPRenderPipeline0::ClampedFloatParameter* spotRadius; // 0x4E0
-		::UnityEngine::NAPRenderPipeline0::ClampedFloatParameter* blackIntensity; // 0x4E8
-		::UnityEngine::NAPRenderPipeline0::ClampedFloatParameter* overlayIntensity; // 0x4F0
-		::UnityEngine::NAPRenderPipeline0::MinFloatParameter* curvePower; // 0x4F8
+		::UnityEngine::NAPRenderPipeline0::BoolParameter* enableDistanceDistortionColorization; // 0x3C0
+		::UnityEngine::NAPRenderPipeline0::ClampedFloatParameter* distanceColorizationEffect; // 0x3C8
+		::UnityEngine::NAPRenderPipeline0::TextureParameter* distanceDistortionTexture; // 0x3D0
+		::UnityEngine::NAPRenderPipeline0::TextureParameter* distanceColorizeTexture; // 0x3D8
+		::UnityEngine::NAPRenderPipeline0::ColorParameter* distanceDistortionColor; // 0x3E0
+		::UnityEngine::NAPRenderPipeline0::FloatParameter* distanceDistortionStart; // 0x3E8
+		::UnityEngine::NAPRenderPipeline0::FloatParameter* distanceDistortionEnd; // 0x3F0
+		::UnityEngine::NAPRenderPipeline0::FloatParameter* distanceDistortionFadeRange; // 0x3F8
+		::UnityEngine::NAPRenderPipeline0::FloatParameter* distanceDistortionHeightStart; // 0x400
+		::UnityEngine::NAPRenderPipeline0::FloatParameter* distanceDistortionHeightEnd; // 0x408
+		::UnityEngine::NAPRenderPipeline0::FloatParameter* distanceDistortionHeightFadeRange; // 0x410
+		::UnityEngine::NAPRenderPipeline0::Vector3Parameter* distanceDistortionOffsetSpeed; // 0x418
+		::UnityEngine::NAPRenderPipeline0::FloatParameter* distanceDistortionTiling; // 0x420
+		::UnityEngine::NAPRenderPipeline0::FloatParameter* distanceDistortionIntensity; // 0x428
+		::UnityEngine::NAPRenderPipeline0::Vector3Parameter* distanceColorizationOffsetSpeed; // 0x430
+		::UnityEngine::NAPRenderPipeline0::FloatParameter* distanceColorizationTiling; // 0x438
+		::UnityEngine::Rendering::Universal::DistanceDistortionBlendModeParameter* distanceDistortionBlendMode; // 0x440
+		::UnityEngine::NAPRenderPipeline0::BoolParameter* enable2DSpot; // 0x448
+		::UnityEngine::NAPRenderPipeline0::Vector2Parameter* spotCenter; // 0x450
+		::UnityEngine::NAPRenderPipeline0::ClampedFloatParameter* spotRadius; // 0x458
+		::UnityEngine::NAPRenderPipeline0::ClampedFloatParameter* blackIntensity; // 0x460
+		::UnityEngine::NAPRenderPipeline0::ClampedFloatParameter* overlayIntensity; // 0x468
+		::UnityEngine::NAPRenderPipeline0::MinFloatParameter* curvePower; // 0x470
 
 		::System::Void _ctor()
 		{

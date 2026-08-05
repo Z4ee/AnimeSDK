@@ -1,13 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Nullable_1.h"
-#include "unitysdk/System/ValueTuple_2.h"
+#include "unitysdk/UnityEngine/Vector2.h"
 
-class Class_1_273278230A48923F;
+namespace UnityEngine { class AnimationCurve; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_771_TypeDefinitionIndex = 79665;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_771_TypeDefinitionIndex = 78507;
 
-template <typename T>
 class Class_0_16E4307DCC419505_771
 {
 public:

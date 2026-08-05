@@ -5,11 +5,11 @@
 
 namespace UnityEngine { class Material; }
 
-#define CODE_LOGIC_UI_UGUIEXTENSIONS_GALGAMEMATERIALMODIFIER_GALGAMEFILTERMATERIAL__CTOR_OFFSET UNITYSDK_OFFSET(0x19007660)
+#define CODE_LOGIC_UI_UGUIEXTENSIONS_GALGAMEMATERIALMODIFIER_GALGAMEFILTERMATERIAL__CTOR_OFFSET UNITYSDK_OFFSET(0x19F84B90)
 
 namespace Code::Logic::UI::UGUIExtensions::GalGameMaterialModifier
 {
-	inline static constexpr unsigned int GalGameFilterMaterial_TypeDefinitionIndex = 57705;
+	inline static constexpr unsigned int GalGameFilterMaterial_TypeDefinitionIndex = 52321;
 
 	class GalGameFilterMaterial : public ::System::Object
 	{

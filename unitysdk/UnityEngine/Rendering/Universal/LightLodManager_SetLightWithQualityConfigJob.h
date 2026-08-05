@@ -9,11 +9,11 @@
 #include "unitysdk/UnityEngine/Rendering/Universal/LightLodManager_UniversalAdditionalLightDataUnmanagedMutable.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_LIGHTLODMANAGER_SETLIGHTWITHQUALITYCONFIGJOB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x9ED4A0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_LIGHTLODMANAGER_SETLIGHTWITHQUALITYCONFIGJOB_EXECUTE_OFFSET UNITYSDK_OFFSET(0xA39770)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int LightLodManager_SetLightWithQualityConfigJob_TypeDefinitionIndex = 27376;
+	inline static constexpr unsigned int LightLodManager_SetLightWithQualityConfigJob_TypeDefinitionIndex = 27546;
 
 	struct alignas(8) LightLodManager_SetLightWithQualityConfigJob
 	{

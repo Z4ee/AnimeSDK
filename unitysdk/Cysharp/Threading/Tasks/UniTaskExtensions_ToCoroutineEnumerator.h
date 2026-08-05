@@ -8,24 +8,24 @@ namespace System { class Exception; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Runtime::ExceptionServices { class ExceptionDispatchInfo; }
 
-#define CYSHARP_THREADING_TASKS_UNITASKEXTENSIONS_TOCOROUTINEENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1E667720)
-#define CYSHARP_THREADING_TASKS_UNITASKEXTENSIONS_TOCOROUTINEENUMERATOR_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1E667730)
-#define CYSHARP_THREADING_TASKS_UNITASKEXTENSIONS_TOCOROUTINEENUMERATOR_RUNTASK_OFFSET UNITYSDK_OFFSET(0x1E6676D0)
-#define CYSHARP_THREADING_TASKS_UNITASKEXTENSIONS_TOCOROUTINEENUMERATOR_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1E6677A0)
-#define CYSHARP_THREADING_TASKS_UNITASKEXTENSIONS_TOCOROUTINEENUMERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1E6676C0)
+#define CYSHARP_THREADING_TASKS_UNITASKEXTENSIONS_TOCOROUTINEENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1FA4E450)
+#define CYSHARP_THREADING_TASKS_UNITASKEXTENSIONS_TOCOROUTINEENUMERATOR_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1FA4E460)
+#define CYSHARP_THREADING_TASKS_UNITASKEXTENSIONS_TOCOROUTINEENUMERATOR_RUNTASK_OFFSET UNITYSDK_OFFSET(0x1FA4E400)
+#define CYSHARP_THREADING_TASKS_UNITASKEXTENSIONS_TOCOROUTINEENUMERATOR_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1FA4E4D0)
+#define CYSHARP_THREADING_TASKS_UNITASKEXTENSIONS_TOCOROUTINEENUMERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1FA4E3F0)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTaskExtensions_ToCoroutineEnumerator_TypeDefinitionIndex = 31295;
+	inline static constexpr unsigned int UniTaskExtensions_ToCoroutineEnumerator_TypeDefinitionIndex = 31915;
 
 	class UniTaskExtensions_ToCoroutineEnumerator : public ::System::Object
 	{
 	public:
-		::System::Action_1<::System::Exception*>* exceptionHandler; // 0x10
-		::System::Runtime::ExceptionServices::ExceptionDispatchInfo* exception; // 0x18
-		::Cysharp::Threading::Tasks::UniTask task; // 0x20
-		::System::Boolean completed; // 0x30
-		::System::Boolean isStarted; // 0x31
+		::Cysharp::Threading::Tasks::UniTask task; // 0x10
+		::System::Runtime::ExceptionServices::ExceptionDispatchInfo* exception; // 0x20
+		::System::Action_1<::System::Exception*>* exceptionHandler; // 0x28
+		::System::Boolean isStarted; // 0x30
+		::System::Boolean completed; // 0x31
 
 		::System::Void _ctor(::Cysharp::Threading::Tasks::UniTask task, ::System::Action_1<::System::Exception*>* exceptionHandler)
 		{

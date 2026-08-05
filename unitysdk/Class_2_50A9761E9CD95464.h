@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_3002EE73D986F5EA.h"
+#include "unitysdk/Class_1_3A216973E1BA9106.h"
 
 namespace MoleMole { class UIBubbleTips; }
 namespace System { class Action; }
 
-#define CLASS_2_50A9761E9CD95464_METHOD_2_CA1F6A8D4711F0E8_OFFSET UNITYSDK_OFFSET(0x142EC740)
-#define CLASS_2_50A9761E9CD95464__CTOR_OFFSET UNITYSDK_OFFSET(0x142EC730)
+#define CLASS_2_50A9761E9CD95464_METHOD_2_CA1F6A8D4711F0E8_OFFSET UNITYSDK_OFFSET(0x178C1E10)
+#define CLASS_2_50A9761E9CD95464__CTOR_OFFSET UNITYSDK_OFFSET(0x178C1E00)
 
-inline static constexpr unsigned int Class_2_50A9761E9CD95464_TypeDefinitionIndex = 79714;
+inline static constexpr unsigned int Class_2_50A9761E9CD95464_TypeDefinitionIndex = 68721;
 
-class Class_2_50A9761E9CD95464 : public ::Class_1_3002EE73D986F5EA
+class Class_2_50A9761E9CD95464 : public ::Class_1_3A216973E1BA9106
 {
 public:
 	::MoleMole::UIBubbleTips* Field_2_0; // 0x18

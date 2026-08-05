@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int ScanlineBlendMode_TypeDefinitionIndex = 26474;
+	inline static constexpr unsigned int ScanlineBlendMode_TypeDefinitionIndex = 27803;
 
 	enum class ScanlineBlendMode : ::System::Int32
 	{

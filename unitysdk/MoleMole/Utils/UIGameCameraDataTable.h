@@ -4,11 +4,11 @@
 
 namespace MoleMole::Utils { class UIGameCameraDataTableEntry; }
 
-#define MOLEMOLE_UTILS_UIGAMECAMERADATATABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x139E1DA0)
+#define MOLEMOLE_UTILS_UIGAMECAMERADATATABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x162F5A30)
 
 namespace MoleMole::Utils
 {
-	inline static constexpr unsigned int UIGameCameraDataTable_TypeDefinitionIndex = 73983;
+	inline static constexpr unsigned int UIGameCameraDataTable_TypeDefinitionIndex = 54876;
 
 	class UIGameCameraDataTable : public ::MoleMole::Utils::NapDictionaryBasedDataTable_1<::MoleMole::Utils::UIGameCameraDataTableEntry*>
 	{

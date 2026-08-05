@@ -6,18 +6,18 @@ class Class_1_2D5DADE6FF36AA79;
 namespace MoleMole { class UIBaseChatPlayController; }
 namespace MoleMole { class UIMainCityChatPlayContext; }
 
-#define MOLEMOLE_GALGAME_MAINCITYCHATPLAYANIMATIONNODE_INSTANTIATE_OFFSET UNITYSDK_OFFSET(0x17E7EA80)
-#define MOLEMOLE_GALGAME_MAINCITYCHATPLAYANIMATIONNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x17E7EA70)
+#define MOLEMOLE_GALGAME_MAINCITYCHATPLAYANIMATIONNODE_INSTANTIATE_OFFSET UNITYSDK_OFFSET(0x19BF0690)
+#define MOLEMOLE_GALGAME_MAINCITYCHATPLAYANIMATIONNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x19BF0680)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int MainCityChatPlayAnimationNode_TypeDefinitionIndex = 82042;
+	inline static constexpr unsigned int MainCityChatPlayAnimationNode_TypeDefinitionIndex = 80607;
 
 	class MainCityChatPlayAnimationNode : public ::MoleMole::GalGame::MainCityChatPlayableNodeBase
 	{
 	public:
-		::System::Int32 TemplateID; // 0x18
-		::System::Int32 AvatarID; // 0x1C
+		::System::Int32 AvatarID; // 0x18
+		::System::Int32 TemplateID; // 0x1C
 
 		::System::Void _ctor()
 		{

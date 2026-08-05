@@ -6,16 +6,16 @@ class Class_5_A6F8D19602712D95;
 namespace MoleMole { class IVideoPlayer; }
 namespace System { template <typename T> class Action_1; }
 
-#define CLASS_5_A6F8D19602712D95_CLASS_1_1721978C5DE2A3FA_METHOD_1_3EAE0F6D775220FA_OFFSET UNITYSDK_OFFSET(0x15586FF0)
-#define CLASS_5_A6F8D19602712D95_CLASS_1_1721978C5DE2A3FA__CTOR_OFFSET UNITYSDK_OFFSET(0x15586FE0)
+#define CLASS_5_A6F8D19602712D95_CLASS_1_1721978C5DE2A3FA_METHOD_1_3EAE0F6D775220FA_OFFSET UNITYSDK_OFFSET(0x10B02150)
+#define CLASS_5_A6F8D19602712D95_CLASS_1_1721978C5DE2A3FA__CTOR_OFFSET UNITYSDK_OFFSET(0x10B02140)
 
-inline static constexpr unsigned int Class_5_A6F8D19602712D95_Class_1_1721978C5DE2A3FA_TypeDefinitionIndex = 42410;
+inline static constexpr unsigned int Class_5_A6F8D19602712D95_Class_1_1721978C5DE2A3FA_TypeDefinitionIndex = 63071;
 
 class Class_5_A6F8D19602712D95_Class_1_1721978C5DE2A3FA : public ::System::Object
 {
 public:
 	::Class_5_A6F8D19602712D95* Field_1_0; // 0x10
-	::System::Action_1<::MoleMole::IVideoPlayer*>* Field_1_1; // 0x18
+	::System::Action_1<::MoleMole::IVideoPlayer*>* Field_1_7; // 0x18
 
 	::System::Void _ctor()
 	{

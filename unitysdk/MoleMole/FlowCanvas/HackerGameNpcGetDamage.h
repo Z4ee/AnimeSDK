@@ -6,12 +6,12 @@
 namespace MoleMole { class ChessEntity; }
 namespace MoleMole { class HackerGameBaseDamage; }
 
-#define MOLEMOLE_FLOWCANVAS_HACKERGAMENPCGETDAMAGE_INVOKE_OFFSET UNITYSDK_OFFSET(0x16C9CA40)
-#define MOLEMOLE_FLOWCANVAS_HACKERGAMENPCGETDAMAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x16C9CB00)
+#define MOLEMOLE_FLOWCANVAS_HACKERGAMENPCGETDAMAGE_INVOKE_OFFSET UNITYSDK_OFFSET(0x13A7FA80)
+#define MOLEMOLE_FLOWCANVAS_HACKERGAMENPCGETDAMAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x13A7FB40)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int HackerGameNpcGetDamage_TypeDefinitionIndex = 73544;
+	inline static constexpr unsigned int HackerGameNpcGetDamage_TypeDefinitionIndex = 83478;
 
 	class HackerGameNpcGetDamage : public ::FlowCanvas::Nodes::PureFunctionNode_3<::MoleMole::HackerGameBaseDamage*, ::MoleMole::ChessEntity*, ::MoleMole::FlowCanvas::HackerGameNpcDamageType>
 	{

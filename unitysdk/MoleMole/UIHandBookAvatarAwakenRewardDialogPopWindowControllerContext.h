@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIHANDBOOKAVATARAWAKENREWARDDIALOGPOPWINDOWCONTROLLERCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1696DAA0)
+#define MOLEMOLE_UIHANDBOOKAVATARAWAKENREWARDDIALOGPOPWINDOWCONTROLLERCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x17DAC5F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHandBookAvatarAwakenRewardDialogPopWindowControllerContext_TypeDefinitionIndex = 55394;
+	inline static constexpr unsigned int UIHandBookAvatarAwakenRewardDialogPopWindowControllerContext_TypeDefinitionIndex = 49648;
 
 	class UIHandBookAvatarAwakenRewardDialogPopWindowControllerContext : public ::MoleMole::UIControllerContextBase
 	{

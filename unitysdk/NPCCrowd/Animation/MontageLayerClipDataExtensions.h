@@ -3,11 +3,11 @@
 #include "unitysdk/NPCCrowd/Animation/MontageLayerClipData.h"
 #include "unitysdk/System/Object.h"
 
-#define NPCCROWD_ANIMATION_MONTAGELAYERCLIPDATAEXTENSIONS_GETLAYERCLIPDATA_OFFSET UNITYSDK_OFFSET(0x1179A6F0)
+#define NPCCROWD_ANIMATION_MONTAGELAYERCLIPDATAEXTENSIONS_GETLAYERCLIPDATA_OFFSET UNITYSDK_OFFSET(0xE941C30)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int MontageLayerClipDataExtensions_TypeDefinitionIndex = 41354;
+	inline static constexpr unsigned int MontageLayerClipDataExtensions_TypeDefinitionIndex = 65152;
 
 	class MontageLayerClipDataExtensions : public ::System::Object
 	{

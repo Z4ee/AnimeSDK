@@ -3,13 +3,13 @@
 #include "unitysdk/BehaviorDesigner/Runtime/Tasks/Conditional.h"
 #include "unitysdk/BehaviorDesigner/Runtime/Tasks/TaskStatus.h"
 
-#define MOLEMOLE_CHECKLEVELISENDSTATUS_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x12B0DC80)
-#define MOLEMOLE_CHECKLEVELISENDSTATUS__CTOR_OFFSET UNITYSDK_OFFSET(0x12B0DDF0)
-#define MOLEMOLE_CHECKLEVELISENDSTATUS___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x12B0DE80)
+#define MOLEMOLE_CHECKLEVELISENDSTATUS_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x12A2D630)
+#define MOLEMOLE_CHECKLEVELISENDSTATUS__CTOR_OFFSET UNITYSDK_OFFSET(0x12A2D7A0)
+#define MOLEMOLE_CHECKLEVELISENDSTATUS___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x12A2D830)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CheckLevelIsEndStatus_TypeDefinitionIndex = 59187;
+	inline static constexpr unsigned int CheckLevelIsEndStatus_TypeDefinitionIndex = 59594;
 
 	class CheckLevelIsEndStatus : public ::BehaviorDesigner::Runtime::Tasks::Conditional
 	{

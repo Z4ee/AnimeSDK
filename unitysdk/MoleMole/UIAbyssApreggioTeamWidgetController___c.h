@@ -3,34 +3,34 @@
 #include "unitysdk/System/Object.h"
 
 class Class_2_1824EF69C8E376A3;
-class Class_3_48A3D3A34C52331D_46;
+class Class_3_48A3D3A34C52331D_55;
 namespace MoleMole { class UILineupSelectContext_OnGetRoleSelectContextDel; }
 namespace MoleMole { class UIRoleSelectPageContext; }
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_UIABYSSAPREGGIOTEAMWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x173BDC30)
-#define MOLEMOLE_UIABYSSAPREGGIOTEAMWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x173BDC70)
-#define MOLEMOLE_UIABYSSAPREGGIOTEAMWIDGETCONTROLLER___C__GOTOBEGINBATTLE_B__20_1_OFFSET UNITYSDK_OFFSET(0x173BDC80)
-#define MOLEMOLE_UIABYSSAPREGGIOTEAMWIDGETCONTROLLER___C__GOTOBEGINBATTLE_B__20_3_OFFSET UNITYSDK_OFFSET(0x173BDDC0)
+#define MOLEMOLE_UIABYSSAPREGGIOTEAMWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18E00420)
+#define MOLEMOLE_UIABYSSAPREGGIOTEAMWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18E00460)
+#define MOLEMOLE_UIABYSSAPREGGIOTEAMWIDGETCONTROLLER___C__GOTOBEGINBATTLE_B__20_1_OFFSET UNITYSDK_OFFSET(0x18E00470)
+#define MOLEMOLE_UIABYSSAPREGGIOTEAMWIDGETCONTROLLER___C__GOTOBEGINBATTLE_B__20_3_OFFSET UNITYSDK_OFFSET(0x18E005A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAbyssApreggioTeamWidgetController___c_TypeDefinitionIndex = 63394;
+	inline static constexpr unsigned int UIAbyssApreggioTeamWidgetController___c_TypeDefinitionIndex = 78903;
 
 	class UIAbyssApreggioTeamWidgetController___c : public ::System::Object
 	{
 	public:
 		static ::MoleMole::UILineupSelectContext_OnGetRoleSelectContextDel** StaticGet___9__20_1()
 		{
-			return (::MoleMole::UILineupSelectContext_OnGetRoleSelectContextDel**)Il2CppClass::FromTypeDefinitionIndex(UIAbyssApreggioTeamWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x30910);
+			return (::MoleMole::UILineupSelectContext_OnGetRoleSelectContextDel**)Il2CppClass::FromTypeDefinitionIndex(UIAbyssApreggioTeamWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x328D0);
+		}
+		static ::System::Action_1<::Class_3_48A3D3A34C52331D_55*>** StaticGet___9__20_3()
+		{
+			return (::System::Action_1<::Class_3_48A3D3A34C52331D_55*>**)Il2CppClass::FromTypeDefinitionIndex(UIAbyssApreggioTeamWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x328D8);
 		}
 		static ::MoleMole::UIAbyssApreggioTeamWidgetController___c** StaticGet___9()
 		{
-			return (::MoleMole::UIAbyssApreggioTeamWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIAbyssApreggioTeamWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x30918);
-		}
-		static ::System::Action_1<::Class_3_48A3D3A34C52331D_46*>** StaticGet___9__20_3()
-		{
-			return (::System::Action_1<::Class_3_48A3D3A34C52331D_46*>**)Il2CppClass::FromTypeDefinitionIndex(UIAbyssApreggioTeamWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x30920);
+			return (::MoleMole::UIAbyssApreggioTeamWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIAbyssApreggioTeamWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x328E0);
 		}
 
 		static ::System::Void _cctor()
@@ -48,9 +48,9 @@ namespace MoleMole
 			return ((::MoleMole::UIRoleSelectPageContext*(*)(::PVOID, ::System::Int32, ::Il2CppArray<::Class_2_1824EF69C8E376A3*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIABYSSAPREGGIOTEAMWIDGETCONTROLLER___C__GOTOBEGINBATTLE_B__20_1_OFFSET))(this, selectIndex, currentSelected);
 		}
 
-		::System::Void _GotoBeginBattle_b__20_3(::Class_3_48A3D3A34C52331D_46* beginHollowData)
+		::System::Void _GotoBeginBattle_b__20_3(::Class_3_48A3D3A34C52331D_55* beginHollowData)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_3_48A3D3A34C52331D_46*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIABYSSAPREGGIOTEAMWIDGETCONTROLLER___C__GOTOBEGINBATTLE_B__20_3_OFFSET))(this, beginHollowData);
+			return ((::System::Void(*)(::PVOID, ::Class_3_48A3D3A34C52331D_55*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIABYSSAPREGGIOTEAMWIDGETCONTROLLER___C__GOTOBEGINBATTLE_B__20_3_OFFSET))(this, beginHollowData);
 		}
 	};
 }

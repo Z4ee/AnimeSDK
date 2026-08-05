@@ -5,7 +5,7 @@
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_COMPILER_DELEGATEHELPERS_TYPEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1E0ED5E0)
+#define SYSTEM_LINQ_EXPRESSIONS_COMPILER_DELEGATEHELPERS_TYPEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1F4EFC80)
 
 namespace System::Linq::Expressions::Compiler
 {
@@ -14,8 +14,8 @@ namespace System::Linq::Expressions::Compiler
 	class DelegateHelpers_TypeInfo : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Linq::Expressions::Compiler::DelegateHelpers_TypeInfo*>* TypeChain; // 0x10
-		::System::Type* DelegateType; // 0x18
+		::System::Type* DelegateType; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Linq::Expressions::Compiler::DelegateHelpers_TypeInfo*>* TypeChain; // 0x18
 
 		::System::Void _ctor()
 		{

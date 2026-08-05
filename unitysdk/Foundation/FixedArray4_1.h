@@ -4,7 +4,7 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int FixedArray4_1_TypeDefinitionIndex = 8775;
+	inline static constexpr unsigned int FixedArray4_1_TypeDefinitionIndex = 8847;
 
 	template <typename T>
 	struct FixedArray4_1

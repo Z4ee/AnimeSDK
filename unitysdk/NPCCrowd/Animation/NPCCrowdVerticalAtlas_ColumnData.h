@@ -5,11 +5,11 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCCROWD_ANIMATION_NPCCROWDVERTICALATLAS_COLUMNDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xE027D80)
+#define NPCCROWD_ANIMATION_NPCCROWDVERTICALATLAS_COLUMNDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x119437C0)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int NPCCrowdVerticalAtlas_ColumnData_TypeDefinitionIndex = 58128;
+	inline static constexpr unsigned int NPCCrowdVerticalAtlas_ColumnData_TypeDefinitionIndex = 64503;
 
 	class NPCCrowdVerticalAtlas_ColumnData : public ::System::Object
 	{

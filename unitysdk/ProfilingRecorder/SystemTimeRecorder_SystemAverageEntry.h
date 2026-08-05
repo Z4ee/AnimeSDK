@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define PROFILINGRECORDER_SYSTEMTIMERECORDER_SYSTEMAVERAGEENTRY_TOJSON_OFFSET UNITYSDK_OFFSET(0x90D9E0)
+#define PROFILINGRECORDER_SYSTEMTIMERECORDER_SYSTEMAVERAGEENTRY_TOJSON_OFFSET UNITYSDK_OFFSET(0x95C1E0)
 
 namespace ProfilingRecorder
 {
-	inline static constexpr unsigned int SystemTimeRecorder_SystemAverageEntry_TypeDefinitionIndex = 37323;
+	inline static constexpr unsigned int SystemTimeRecorder_SystemAverageEntry_TypeDefinitionIndex = 38011;
 
 	struct alignas(8) SystemTimeRecorder_SystemAverageEntry
 	{

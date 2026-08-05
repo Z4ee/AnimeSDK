@@ -3,22 +3,22 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int Download_FailedReason_TypeDefinitionIndex = 8235;
+	inline static constexpr unsigned int Download_FailedReason_TypeDefinitionIndex = 7917;
 
 	enum class Download_FailedReason : ::System::Int32
 	{
-		RequestException = 6,
-		Other = 7,
-		IOFailedInCompleteContent = 12,
-		NotReachable = 2,
-		NullBufferInReceiveData = 9,
-		CreateTempFileFailed = 11,
-		TimeOut = 8,
-		None = 0,
-		IOFailedInReceiveData = 10,
-		FileLenghCheckFaild = 4,
 		DiskNotEnough = 1,
-		ServerException = 5,
+		Other = 7,
+		NullBufferInReceiveData = 9,
+		IOFailedInCompleteContent = 12,
+		None = 0,
+		FileLenghCheckFaild = 4,
 		HashCheckFaild = 3,
+		CreateTempFileFailed = 11,
+		IOFailedInReceiveData = 10,
+		TimeOut = 8,
+		RequestException = 6,
+		NotReachable = 2,
+		ServerException = 5,
 	};
 }

@@ -9,23 +9,23 @@ namespace FlowCanvas { template <typename T> class ValueInput_1; }
 namespace MoleMole::FlowCanvas::Nodes { class LevelQuestConditionModifyData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDLEVELQUESTCONDITIONMODIFY_BEGIN_OFFSET UNITYSDK_OFFSET(0x1A0210A0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDLEVELQUESTCONDITIONMODIFY_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1A020F60)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDLEVELQUESTCONDITIONMODIFY__CTOR_OFFSET UNITYSDK_OFFSET(0x1A021820)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDLEVELQUESTCONDITIONMODIFY__REGISTERPORTS_B__5_0_OFFSET UNITYSDK_OFFSET(0x1A021860)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDLEVELQUESTCONDITIONMODIFY_BEGIN_OFFSET UNITYSDK_OFFSET(0x1B8334B0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDLEVELQUESTCONDITIONMODIFY_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1B833370)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDLEVELQUESTCONDITIONMODIFY__CTOR_OFFSET UNITYSDK_OFFSET(0x1B833C30)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDLEVELQUESTCONDITIONMODIFY__REGISTERPORTS_B__5_0_OFFSET UNITYSDK_OFFSET(0x1B833C70)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDLevelQuestConditionModify_TypeDefinitionIndex = 79952;
+	inline static constexpr unsigned int LDLevelQuestConditionModify_TypeDefinitionIndex = 55233;
 
 	class LDLevelQuestConditionModify : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::ValueInput_1<::System::Int32>* levelQuestID; // 0xA8
-		::FlowCanvas::ValueInput_1<::System::Collections::Generic::List_1<::MoleMole::FlowCanvas::Nodes::LevelQuestConditionModifyData*>*>* failConditions; // 0xB0
-		::FlowCanvas::FlowInput* input; // 0xB8
-		::FlowCanvas::FlowOutput* output; // 0xC0
-		::FlowCanvas::ValueInput_1<::System::Collections::Generic::List_1<::MoleMole::FlowCanvas::Nodes::LevelQuestConditionModifyData*>*>* successConditions; // 0xC8
+		::FlowCanvas::FlowInput* input; // 0xA8
+		::FlowCanvas::ValueInput_1<::System::Collections::Generic::List_1<::MoleMole::FlowCanvas::Nodes::LevelQuestConditionModifyData*>*>* successConditions; // 0xB0
+		::FlowCanvas::FlowOutput* output; // 0xB8
+		::FlowCanvas::ValueInput_1<::System::Int32>* levelQuestID; // 0xC0
+		::FlowCanvas::ValueInput_1<::System::Collections::Generic::List_1<::MoleMole::FlowCanvas::Nodes::LevelQuestConditionModifyData*>*>* failConditions; // 0xC8
 
 		::System::Void _ctor()
 		{

@@ -3,7 +3,7 @@
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int NPCAttractorInteractState_TypeDefinitionIndex = 47780;
+	inline static constexpr unsigned int NPCAttractorInteractState_TypeDefinitionIndex = 40306;
 
 	enum class NPCAttractorInteractState : ::System::Int32
 	{

@@ -5,10 +5,10 @@
 class Class_3_F61F3C9E55A83BDE;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-inline static constexpr unsigned int Class_3_C91109162D964E4D_Struct_2_05E939B2CEBE19D9_TypeDefinitionIndex = 76799;
+inline static constexpr unsigned int Class_3_C91109162D964E4D_Struct_2_05E939B2CEBE19D9_TypeDefinitionIndex = 59387;
 
 struct alignas(8) Class_3_C91109162D964E4D_Struct_2_05E939B2CEBE19D9
 {
 	::System::Boolean Field_2_0; // 0x10
-	::System::Collections::Generic::List_1<::Class_3_F61F3C9E55A83BDE*>* Field_2_1; // 0x18
+	::System::Collections::Generic::List_1<::Class_3_F61F3C9E55A83BDE*>* Field_2_7; // 0x18
 };

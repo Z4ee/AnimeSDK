@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigMisc_SearchValidBornPos_TypeDefinitionIndex = 59125;
+	inline static constexpr unsigned int ConfigMisc_SearchValidBornPos_TypeDefinitionIndex = 48035;
 
 	struct alignas(8) ConfigMisc_SearchValidBornPos
 	{

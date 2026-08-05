@@ -4,7 +4,7 @@
 #include "unitysdk/Foundation/NativeVariableArray_1.h"
 #include "unitysdk/MoleMole/Photo/BlendSpaceBlendParameter.h"
 #include "unitysdk/MoleMole/Photo/NapPlayableBehaviourConfig_1.h"
-#include "unitysdk/Struct_2_31CE9F74ED7EF316_3.h"
+#include "unitysdk/Struct_2_31CE9F74ED7EF316_2.h"
 #include "unitysdk/Struct_2_ACD0EF80A5330786.h"
 #include "unitysdk/Struct_2_BBB0E5634D109F01.h"
 #include "unitysdk/System/ReadOnlySpan_1.h"
@@ -13,31 +13,31 @@
 #include "unitysdk/UnityEngine/Animations/AnimationMixerPlayable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 
-class Class_2_6131ABC6B1EC5318;
+class Class_2_226F2F5433672A12;
 namespace Foundation { class NativeMemory; }
 namespace Foundation { class NativeMemoryBuilder; }
 namespace MoleMole::Photo { class BlendSpace1DSample; }
 namespace MoleMole::Photo { class Skeleton; }
 namespace UnityEngine { class Animator; }
 
-#define MOLEMOLE_PHOTO_PLAYABLEBLENDSPACE1DCONFIG_CREATEBLENDSPACE_OFFSET UNITYSDK_OFFSET(0x160E8A50)
-#define MOLEMOLE_PHOTO_PLAYABLEBLENDSPACE1DCONFIG_CREATEPLAYABLEBEHAVIOUR_OFFSET UNITYSDK_OFFSET(0x160E6990)
-#define MOLEMOLE_PHOTO_PLAYABLEBLENDSPACE1DCONFIG_GET_ALLOCCOUNT_OFFSET UNITYSDK_OFFSET(0x160E9510)
-#define MOLEMOLE_PHOTO_PLAYABLEBLENDSPACE1DCONFIG_GET_BLENDINPUTALLOCINDEX_OFFSET UNITYSDK_OFFSET(0x160E94D0)
-#define MOLEMOLE_PHOTO_PLAYABLEBLENDSPACE1DCONFIG_GET_BLENDSAMPLESALLOCINDEX_OFFSET UNITYSDK_OFFSET(0x160E94E0)
-#define MOLEMOLE_PHOTO_PLAYABLEBLENDSPACE1DCONFIG_GET_BLENDSEGMENTSALLOCINDEX_OFFSET UNITYSDK_OFFSET(0x160E94F0)
-#define MOLEMOLE_PHOTO_PLAYABLEBLENDSPACE1DCONFIG_GET_BLENDWEIGHTALLOCINDEX_OFFSET UNITYSDK_OFFSET(0x160E9500)
-#define MOLEMOLE_PHOTO_PLAYABLEBLENDSPACE1DCONFIG_GET_DYNAMICMEMORYCOUNT_OFFSET UNITYSDK_OFFSET(0x160E3340)
-#define MOLEMOLE_PHOTO_PLAYABLEBLENDSPACE1DCONFIG_INITIALIZE_1_OFFSET UNITYSDK_OFFSET(0x160E8650)
-#define MOLEMOLE_PHOTO_PLAYABLEBLENDSPACE1DCONFIG_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x160E82A0)
-#define MOLEMOLE_PHOTO_PLAYABLEBLENDSPACE1DCONFIG_REQUESTMEMORY_OFFSET UNITYSDK_OFFSET(0x160E8E10)
-#define MOLEMOLE_PHOTO_PLAYABLEBLENDSPACE1DCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x160E6220)
+#define MOLEMOLE_PHOTO_PLAYABLEBLENDSPACE1DCONFIG_CREATEBLENDSPACE_OFFSET UNITYSDK_OFFSET(0x19986160)
+#define MOLEMOLE_PHOTO_PLAYABLEBLENDSPACE1DCONFIG_CREATEPLAYABLEBEHAVIOUR_OFFSET UNITYSDK_OFFSET(0x19984060)
+#define MOLEMOLE_PHOTO_PLAYABLEBLENDSPACE1DCONFIG_GET_ALLOCCOUNT_OFFSET UNITYSDK_OFFSET(0x19986C30)
+#define MOLEMOLE_PHOTO_PLAYABLEBLENDSPACE1DCONFIG_GET_BLENDINPUTALLOCINDEX_OFFSET UNITYSDK_OFFSET(0x19986BF0)
+#define MOLEMOLE_PHOTO_PLAYABLEBLENDSPACE1DCONFIG_GET_BLENDSAMPLESALLOCINDEX_OFFSET UNITYSDK_OFFSET(0x19986C00)
+#define MOLEMOLE_PHOTO_PLAYABLEBLENDSPACE1DCONFIG_GET_BLENDSEGMENTSALLOCINDEX_OFFSET UNITYSDK_OFFSET(0x19986C10)
+#define MOLEMOLE_PHOTO_PLAYABLEBLENDSPACE1DCONFIG_GET_BLENDWEIGHTALLOCINDEX_OFFSET UNITYSDK_OFFSET(0x19986C20)
+#define MOLEMOLE_PHOTO_PLAYABLEBLENDSPACE1DCONFIG_GET_DYNAMICMEMORYCOUNT_OFFSET UNITYSDK_OFFSET(0x19980AB0)
+#define MOLEMOLE_PHOTO_PLAYABLEBLENDSPACE1DCONFIG_INITIALIZE_1_OFFSET UNITYSDK_OFFSET(0x19985D60)
+#define MOLEMOLE_PHOTO_PLAYABLEBLENDSPACE1DCONFIG_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x199859A0)
+#define MOLEMOLE_PHOTO_PLAYABLEBLENDSPACE1DCONFIG_REQUESTMEMORY_OFFSET UNITYSDK_OFFSET(0x19986520)
+#define MOLEMOLE_PHOTO_PLAYABLEBLENDSPACE1DCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19983900)
 
 namespace MoleMole::Photo
 {
-	inline static constexpr unsigned int PlayableBlendSpace1DConfig_TypeDefinitionIndex = 77912;
+	inline static constexpr unsigned int PlayableBlendSpace1DConfig_TypeDefinitionIndex = 55985;
 
-	class PlayableBlendSpace1DConfig : public ::MoleMole::Photo::NapPlayableBehaviourConfig_1<::Class_2_6131ABC6B1EC5318*>
+	class PlayableBlendSpace1DConfig : public ::MoleMole::Photo::NapPlayableBehaviourConfig_1<::Class_2_226F2F5433672A12*>
 	{
 	public:
 		::Il2CppArray<::MoleMole::Photo::BlendSpace1DSample*>* samples; // 0x10
@@ -57,14 +57,14 @@ namespace MoleMole::Photo
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_PHOTO_PLAYABLEBLENDSPACE1DCONFIG_GET_DYNAMICMEMORYCOUNT_OFFSET))(this);
 		}
 
-		::Class_2_6131ABC6B1EC5318* CreatePlayableBehaviour(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::Animator* animator, ::Struct_2_ACD0EF80A5330786& context, ::Foundation::NativeMemory* memory, ::System::ReadOnlySpan_1<::Foundation::NativeMemoryRequestHandle> variables)
+		::Class_2_226F2F5433672A12* CreatePlayableBehaviour(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::Animator* animator, ::Struct_2_ACD0EF80A5330786& context, ::Foundation::NativeMemory* memory, ::System::ReadOnlySpan_1<::Foundation::NativeMemoryRequestHandle> variables)
 		{
-			return ((::Class_2_6131ABC6B1EC5318*(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::Animator*, ::Struct_2_ACD0EF80A5330786&, ::Foundation::NativeMemory*, ::System::ReadOnlySpan_1<::Foundation::NativeMemoryRequestHandle>))((::PBYTE)hIl2Cpp + MOLEMOLE_PHOTO_PLAYABLEBLENDSPACE1DCONFIG_CREATEPLAYABLEBEHAVIOUR_OFFSET))(this, graph, animator, context, memory, variables);
+			return ((::Class_2_226F2F5433672A12*(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::Animator*, ::Struct_2_ACD0EF80A5330786&, ::Foundation::NativeMemory*, ::System::ReadOnlySpan_1<::Foundation::NativeMemoryRequestHandle>))((::PBYTE)hIl2Cpp + MOLEMOLE_PHOTO_PLAYABLEBLENDSPACE1DCONFIG_CREATEPLAYABLEBEHAVIOUR_OFFSET))(this, graph, animator, context, memory, variables);
 		}
 
-		::System::Void Initialize(::System::Span_1<::System::ValueTuple_2<::System::Single, ::System::Int32>> sampleTimes, ::Foundation::NativeVariableArray_1<::Struct_2_31CE9F74ED7EF316_3> blendSamples)
+		::System::Void Initialize(::System::Span_1<::System::ValueTuple_2<::System::Single, ::System::Int32>> sampleTimes, ::Foundation::NativeVariableArray_1<::Struct_2_31CE9F74ED7EF316_2> blendSamples)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Span_1<::System::ValueTuple_2<::System::Single, ::System::Int32>>, ::Foundation::NativeVariableArray_1<::Struct_2_31CE9F74ED7EF316_3>))((::PBYTE)hIl2Cpp + MOLEMOLE_PHOTO_PLAYABLEBLENDSPACE1DCONFIG_INITIALIZE_OFFSET))(this, sampleTimes, blendSamples);
+			return ((::System::Void(*)(::PVOID, ::System::Span_1<::System::ValueTuple_2<::System::Single, ::System::Int32>>, ::Foundation::NativeVariableArray_1<::Struct_2_31CE9F74ED7EF316_2>))((::PBYTE)hIl2Cpp + MOLEMOLE_PHOTO_PLAYABLEBLENDSPACE1DCONFIG_INITIALIZE_OFFSET))(this, sampleTimes, blendSamples);
 		}
 
 		::System::Void Initialize_1(::Il2CppArray<::System::ValueTuple_2<::System::Single, ::System::Int32>>* sampleTimes, ::Foundation::NativeVariableArray_1<::Struct_2_BBB0E5634D109F01> blendSegments)

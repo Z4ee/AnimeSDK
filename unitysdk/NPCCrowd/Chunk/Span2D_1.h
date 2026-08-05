@@ -6,7 +6,7 @@
 
 namespace NPCCrowd::Chunk
 {
-	inline static constexpr unsigned int Span2D_1_TypeDefinitionIndex = 8664;
+	inline static constexpr unsigned int Span2D_1_TypeDefinitionIndex = 8801;
 
 	template <typename T>
 	struct Span2D_1

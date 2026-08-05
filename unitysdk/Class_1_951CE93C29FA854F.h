@@ -8,31 +8,26 @@ namespace System { class Action; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define CLASS_1_951CE93C29FA854F_METHOD_1_07B0E00A89BF2521_OFFSET UNITYSDK_OFFSET(0x13362B40)
-#define CLASS_1_951CE93C29FA854F_METHOD_1_23F83673F6F8513A_OFFSET UNITYSDK_OFFSET(0x13362E60)
-#define CLASS_1_951CE93C29FA854F_METHOD_1_E77B24F9A93470BE_OFFSET UNITYSDK_OFFSET(0x13362710)
-#define CLASS_1_951CE93C29FA854F_METHOD_1_FDDC5A41F149A0CC_OFFSET UNITYSDK_OFFSET(0x13362D60)
-#define CLASS_1_951CE93C29FA854F__CCTOR_OFFSET UNITYSDK_OFFSET(0x13362700)
+#define CLASS_1_951CE93C29FA854F_METHOD_1_07B0E00A89BF2521_OFFSET UNITYSDK_OFFSET(0x1235A930)
+#define CLASS_1_951CE93C29FA854F_METHOD_1_23F83673F6F8513A_OFFSET UNITYSDK_OFFSET(0x1235B070)
+#define CLASS_1_951CE93C29FA854F_METHOD_1_E77B24F9A93470BE_OFFSET UNITYSDK_OFFSET(0x1235AC40)
+#define CLASS_1_951CE93C29FA854F_METHOD_1_FDDC5A41F149A0CC_OFFSET UNITYSDK_OFFSET(0x1235AB50)
+#define CLASS_1_951CE93C29FA854F__CCTOR_OFFSET UNITYSDK_OFFSET(0x1235A920)
 
-inline static constexpr unsigned int Class_1_951CE93C29FA854F_TypeDefinitionIndex = 75289;
+inline static constexpr unsigned int Class_1_951CE93C29FA854F_TypeDefinitionIndex = 49004;
 
 class Class_1_951CE93C29FA854F : public ::System::Object
 {
 public:
-	static ::MoleMole::ComicImgStyleConfig** StaticGet_Field_1_1()
+	static ::MoleMole::ComicImgStyleConfig** StaticGet_Field_1_0()
 	{
-		return (::MoleMole::ComicImgStyleConfig**)Il2CppClass::FromTypeDefinitionIndex(Class_1_951CE93C29FA854F_TypeDefinitionIndex)->GetStaticField(0x328F0);
+		return (::MoleMole::ComicImgStyleConfig**)Il2CppClass::FromTypeDefinitionIndex(Class_1_951CE93C29FA854F_TypeDefinitionIndex)->GetStaticField(0x3F1C0);
 	}
-	// static const ::System::String* Field_1_0; // 0x0
+	// static const ::System::String* Field_1_1; // 0x0
 
 	static ::System::Void _cctor()
 	{
 		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CLASS_1_951CE93C29FA854F__CCTOR_OFFSET))();
-	}
-
-	static ::System::Void Method_1_E77B24F9A93470BE(::System::Boolean a1, ::System::Action* a2)
-	{
-		return ((::System::Void(*)(::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + CLASS_1_951CE93C29FA854F_METHOD_1_E77B24F9A93470BE_OFFSET))(a1, a2);
 	}
 
 	static ::MoleMole::ComicImgStyle* Method_1_07B0E00A89BF2521(::System::String* a1)
@@ -43,6 +38,11 @@ public:
 	static ::System::Void Method_1_FDDC5A41F149A0CC(::System::Single a1, ::System::Action_1<::System::Single>* a2, ::System::Action_1<::System::String*>* a3, ::System::String* a4)
 	{
 		return ((::System::Void(*)(::System::Single, ::System::Action_1<::System::Single>*, ::System::Action_1<::System::String*>*, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_951CE93C29FA854F_METHOD_1_FDDC5A41F149A0CC_OFFSET))(a1, a2, a3, a4);
+	}
+
+	static ::System::Void Method_1_E77B24F9A93470BE(::System::Boolean a1, ::System::Action* a2)
+	{
+		return ((::System::Void(*)(::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + CLASS_1_951CE93C29FA854F_METHOD_1_E77B24F9A93470BE_OFFSET))(a1, a2);
 	}
 
 	static ::MoleMole::ComicImgStyleConfig* Method_1_23F83673F6F8513A()

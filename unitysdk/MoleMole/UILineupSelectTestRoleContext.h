@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UILINEUPSELECTTESTROLECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16D8CA00)
+#define MOLEMOLE_UILINEUPSELECTTESTROLECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1985C780)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UILineupSelectTestRoleContext_TypeDefinitionIndex = 47208;
+	inline static constexpr unsigned int UILineupSelectTestRoleContext_TypeDefinitionIndex = 67783;
 
 	class UILineupSelectTestRoleContext : public ::MoleMole::UIControllerContextBase
 	{

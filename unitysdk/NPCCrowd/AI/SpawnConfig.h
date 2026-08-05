@@ -3,11 +3,11 @@
 #include "unitysdk/NPCCrowd/AI/SpawnCheckType.h"
 #include "unitysdk/System/ValueType.h"
 
-#define NPCCROWD_AI_SPAWNCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x650140)
+#define NPCCROWD_AI_SPAWNCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x651930)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int SpawnConfig_TypeDefinitionIndex = 68254;
+	inline static constexpr unsigned int SpawnConfig_TypeDefinitionIndex = 71820;
 
 	struct alignas(4) SpawnConfig
 	{

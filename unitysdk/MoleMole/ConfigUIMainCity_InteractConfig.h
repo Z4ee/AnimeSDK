@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_CONFIGUIMAINCITY_INTERACTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17E49A10)
+#define MOLEMOLE_CONFIGUIMAINCITY_INTERACTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19BB9F00)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUIMainCity_InteractConfig_TypeDefinitionIndex = 75641;
+	inline static constexpr unsigned int ConfigUIMainCity_InteractConfig_TypeDefinitionIndex = 79736;
 
 	class ConfigUIMainCity_InteractConfig : public ::System::Object
 	{

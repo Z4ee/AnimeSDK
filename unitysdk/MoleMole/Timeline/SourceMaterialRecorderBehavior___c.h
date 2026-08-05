@@ -4,24 +4,24 @@
 
 namespace System { template <typename T> class Comparison_1; }
 
-#define MOLEMOLE_TIMELINE_SOURCEMATERIALRECORDERBEHAVIOR___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E5D42E0)
-#define MOLEMOLE_TIMELINE_SOURCEMATERIALRECORDERBEHAVIOR___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1E5D4320)
-#define MOLEMOLE_TIMELINE_SOURCEMATERIALRECORDERBEHAVIOR___C__GETFRAMETIMES_B__34_0_OFFSET UNITYSDK_OFFSET(0x1E5D4330)
+#define MOLEMOLE_TIMELINE_SOURCEMATERIALRECORDERBEHAVIOR___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F9B6B40)
+#define MOLEMOLE_TIMELINE_SOURCEMATERIALRECORDERBEHAVIOR___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1F9B6B80)
+#define MOLEMOLE_TIMELINE_SOURCEMATERIALRECORDERBEHAVIOR___C__GETFRAMETIMES_B__34_0_OFFSET UNITYSDK_OFFSET(0x1F9B6B90)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int SourceMaterialRecorderBehavior___c_TypeDefinitionIndex = 32203;
+	inline static constexpr unsigned int SourceMaterialRecorderBehavior___c_TypeDefinitionIndex = 32833;
 
 	class SourceMaterialRecorderBehavior___c : public ::System::Object
 	{
 	public:
 		static ::MoleMole::Timeline::SourceMaterialRecorderBehavior___c** StaticGet___9()
 		{
-			return (::MoleMole::Timeline::SourceMaterialRecorderBehavior___c**)Il2CppClass::FromTypeDefinitionIndex(SourceMaterialRecorderBehavior___c_TypeDefinitionIndex)->GetStaticField(0x26B20);
+			return (::MoleMole::Timeline::SourceMaterialRecorderBehavior___c**)Il2CppClass::FromTypeDefinitionIndex(SourceMaterialRecorderBehavior___c_TypeDefinitionIndex)->GetStaticField(0x28330);
 		}
 		static ::System::Comparison_1<::System::Double>** StaticGet___9__34_0()
 		{
-			return (::System::Comparison_1<::System::Double>**)Il2CppClass::FromTypeDefinitionIndex(SourceMaterialRecorderBehavior___c_TypeDefinitionIndex)->GetStaticField(0x26B28);
+			return (::System::Comparison_1<::System::Double>**)Il2CppClass::FromTypeDefinitionIndex(SourceMaterialRecorderBehavior___c_TypeDefinitionIndex)->GetStaticField(0x28338);
 		}
 
 		static ::System::Void _cctor()

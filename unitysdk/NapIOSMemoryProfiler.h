@@ -4,10 +4,10 @@
 
 namespace System { class String; }
 
-#define NAPIOSMEMORYPROFILER_CAPTURETOPATH_OFFSET UNITYSDK_OFFSET(0x11373D40)
-#define NAPIOSMEMORYPROFILER_GET_ISENABLED_OFFSET UNITYSDK_OFFSET(0x11373D30)
+#define NAPIOSMEMORYPROFILER_CAPTURETOPATH_OFFSET UNITYSDK_OFFSET(0x13DFC990)
+#define NAPIOSMEMORYPROFILER_GET_ISENABLED_OFFSET UNITYSDK_OFFSET(0x13DFC980)
 
-inline static constexpr unsigned int NapIOSMemoryProfiler_TypeDefinitionIndex = 81286;
+inline static constexpr unsigned int NapIOSMemoryProfiler_TypeDefinitionIndex = 86486;
 
 class NapIOSMemoryProfiler : public ::System::Object
 {

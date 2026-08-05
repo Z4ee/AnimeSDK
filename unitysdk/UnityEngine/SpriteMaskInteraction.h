@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int SpriteMaskInteraction_TypeDefinitionIndex = 5417;
+	inline static constexpr unsigned int SpriteMaskInteraction_TypeDefinitionIndex = 5420;
 
 	enum class SpriteMaskInteraction : ::System::Int32
 	{

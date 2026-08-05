@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIVHSStorePageController_Context_Mode_TypeDefinitionIndex = 85470;
+	inline static constexpr unsigned int UIVHSStorePageController_Context_Mode_TypeDefinitionIndex = 86476;
 
 	enum class UIVHSStorePageController_Context_Mode : ::System::Int32
 	{

@@ -3,7 +3,7 @@
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int CameraExternalValueType_TypeDefinitionIndex = 37510;
+	inline static constexpr unsigned int CameraExternalValueType_TypeDefinitionIndex = 38171;
 
 	enum class CameraExternalValueType : ::System::Int32
 	{

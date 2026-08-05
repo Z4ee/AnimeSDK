@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace UnityEngine::InputSystem::XR
 {
-	inline static constexpr unsigned int UsageHint_TypeDefinitionIndex = 31724;
+	inline static constexpr unsigned int UsageHint_TypeDefinitionIndex = 32344;
 
 	struct alignas(8) UsageHint
 	{

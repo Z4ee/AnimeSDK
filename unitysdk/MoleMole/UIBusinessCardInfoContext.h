@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIBUSINESSCARDINFOCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x187D1270)
+#define MOLEMOLE_UIBUSINESSCARDINFOCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1970F510)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBusinessCardInfoContext_TypeDefinitionIndex = 83040;
+	inline static constexpr unsigned int UIBusinessCardInfoContext_TypeDefinitionIndex = 59173;
 
 	class UIBusinessCardInfoContext : public ::MoleMole::UIControllerContextBase
 	{

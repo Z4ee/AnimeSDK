@@ -3,7 +3,7 @@
 
 namespace Share
 {
-	inline static constexpr unsigned int EBattleEventType_TypeDefinitionIndex = 10795;
+	inline static constexpr unsigned int EBattleEventType_TypeDefinitionIndex = 16200;
 
 	enum class EBattleEventType : ::System::Int16
 	{

@@ -6,10 +6,10 @@
 namespace System::Security::AccessControl { class RawAcl; }
 namespace System::Security::Principal { class SecurityIdentifier; }
 
-#define SYSTEM_SECURITY_ACCESSCONTROL_RAWSECURITYDESCRIPTOR_GET_CONTROLFLAGS_OFFSET UNITYSDK_OFFSET(0x1BE35D50)
-#define SYSTEM_SECURITY_ACCESSCONTROL_RAWSECURITYDESCRIPTOR_READINT_OFFSET UNITYSDK_OFFSET(0x1BE35CB0)
-#define SYSTEM_SECURITY_ACCESSCONTROL_RAWSECURITYDESCRIPTOR_READUSHORT_OFFSET UNITYSDK_OFFSET(0x1BE35C50)
-#define SYSTEM_SECURITY_ACCESSCONTROL_RAWSECURITYDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE359D0)
+#define SYSTEM_SECURITY_ACCESSCONTROL_RAWSECURITYDESCRIPTOR_GET_CONTROLFLAGS_OFFSET UNITYSDK_OFFSET(0x1D1A73B0)
+#define SYSTEM_SECURITY_ACCESSCONTROL_RAWSECURITYDESCRIPTOR_READINT_OFFSET UNITYSDK_OFFSET(0x1D1A7310)
+#define SYSTEM_SECURITY_ACCESSCONTROL_RAWSECURITYDESCRIPTOR_READUSHORT_OFFSET UNITYSDK_OFFSET(0x1D1A72B0)
+#define SYSTEM_SECURITY_ACCESSCONTROL_RAWSECURITYDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1A7030)
 
 namespace System::Security::AccessControl
 {
@@ -18,12 +18,12 @@ namespace System::Security::AccessControl
 	class RawSecurityDescriptor : public ::System::Security::AccessControl::GenericSecurityDescriptor
 	{
 	public:
-		::System::Security::AccessControl::RawAcl* system_acl; // 0x10
+		::System::Security::Principal::SecurityIdentifier* owner_sid; // 0x10
 		::System::Security::AccessControl::RawAcl* discretionary_acl; // 0x18
-		::System::Security::Principal::SecurityIdentifier* owner_sid; // 0x20
-		::System::Security::Principal::SecurityIdentifier* group_sid; // 0x28
-		::System::Byte resourcemgr_control; // 0x30
-		::System::Security::AccessControl::ControlFlags control_flags; // 0x34
+		::System::Security::Principal::SecurityIdentifier* group_sid; // 0x20
+		::System::Security::AccessControl::RawAcl* system_acl; // 0x28
+		::System::Security::AccessControl::ControlFlags control_flags; // 0x30
+		::System::Byte resourcemgr_control; // 0x34
 
 		::System::Void _ctor(::Il2CppArray<::System::Byte>* binaryForm, ::System::Int32 offset)
 		{

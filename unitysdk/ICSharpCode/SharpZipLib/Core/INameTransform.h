@@ -5,7 +5,7 @@ namespace System { class String; }
 
 namespace ICSharpCode::SharpZipLib::Core
 {
-	inline static constexpr unsigned int INameTransform_TypeDefinitionIndex = 6786;
+	inline static constexpr unsigned int INameTransform_TypeDefinitionIndex = 6790;
 
 	class INameTransform
 	{

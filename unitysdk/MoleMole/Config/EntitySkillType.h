@@ -3,33 +3,33 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int EntitySkillType_TypeDefinitionIndex = 43200;
+	inline static constexpr unsigned int EntitySkillType_TypeDefinitionIndex = 91053;
 
 	enum class EntitySkillType : ::System::Int32
 	{
-		ParryAid = 15,
-		BeHitAid = 14,
-		Shield = 10,
-		Rush = 1,
-		MaxCount = 23,
-		RandomSkill = 8,
-		ChainAttack = 22,
-		Resonate = 11,
 		AssaultAid = 16,
-		BangbooAidSkill = 21,
-		Evade = 7,
-		Field = 12,
-		EvadeAid = 17,
-		ExQTE = 13,
-		CommonAid = 19,
-		Cannon = 9,
+		Rush = 1,
 		QTE = 6,
+		ParryAid = 15,
+		Evade = 7,
 		ExSp = 5,
-		Normal = 0,
-		None = 20,
-		NoEnergyPerfectSwitchAid = 18,
-		Sp = 4,
-		Counter = 2,
 		Branch = 3,
+		ChainAttack = 22,
+		EvadeAid = 17,
+		CommonAid = 19,
+		MaxCount = 23,
+		None = 20,
+		BeHitAid = 14,
+		RandomSkill = 8,
+		Cannon = 9,
+		Shield = 10,
+		Normal = 0,
+		Resonate = 11,
+		Field = 12,
+		NoEnergyPerfectSwitchAid = 18,
+		Counter = 2,
+		BangbooAidSkill = 21,
+		ExQTE = 13,
+		Sp = 4,
 	};
 }

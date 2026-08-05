@@ -1,0 +1,36 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_2_6ECFAF8E4B8FAA70;
+class MonoUITableScrollV2;
+namespace System { class String; }
+
+#define CLASS_2_6ECFAF8E4B8FAA70_CLASS_1_7DE6E8930690487F_METHOD_1_1A4D1E848232461C_OFFSET UNITYSDK_OFFSET(0x12B5CFC0)
+#define CLASS_2_6ECFAF8E4B8FAA70_CLASS_1_7DE6E8930690487F_METHOD_1_3BE5DBAE268F9022_OFFSET UNITYSDK_OFFSET(0x12B5CDD0)
+#define CLASS_2_6ECFAF8E4B8FAA70_CLASS_1_7DE6E8930690487F__CTOR_OFFSET UNITYSDK_OFFSET(0x12B5CDC0)
+
+inline static constexpr unsigned int Class_2_6ECFAF8E4B8FAA70_Class_1_7DE6E8930690487F_TypeDefinitionIndex = 41129;
+
+class Class_2_6ECFAF8E4B8FAA70_Class_1_7DE6E8930690487F : public ::System::Object
+{
+public:
+	::MonoUITableScrollV2* Field_1_2; // 0x10
+	::Class_2_6ECFAF8E4B8FAA70* Field_1_0; // 0x18
+	::System::Int32 Field_1_1; // 0x20
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_6ECFAF8E4B8FAA70_CLASS_1_7DE6E8930690487F__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_1_3BE5DBAE268F9022()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_6ECFAF8E4B8FAA70_CLASS_1_7DE6E8930690487F_METHOD_1_3BE5DBAE268F9022_OFFSET))(this);
+	}
+
+	::System::String* Method_1_1A4D1E848232461C()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_6ECFAF8E4B8FAA70_CLASS_1_7DE6E8930690487F_METHOD_1_1A4D1E848232461C_OFFSET))(this);
+	}
+};

@@ -12,7 +12,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTaskExtensions_AttachExternalCancellationSource_1_TypeDefinitionIndex = 31293;
+	inline static constexpr unsigned int UniTaskExtensions_AttachExternalCancellationSource_1_TypeDefinitionIndex = 31913;
 
 	template <typename T>
 	class UniTaskExtensions_AttachExternalCancellationSource_1 : public ::System::Object

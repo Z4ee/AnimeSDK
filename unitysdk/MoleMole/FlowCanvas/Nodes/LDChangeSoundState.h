@@ -8,22 +8,22 @@ namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCHANGESOUNDSTATE_BEGIN_OFFSET UNITYSDK_OFFSET(0x182D2360)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCHANGESOUNDSTATE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x182D2240)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCHANGESOUNDSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x182D2890)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCHANGESOUNDSTATE__REGISTERPORTS_B__4_0_OFFSET UNITYSDK_OFFSET(0x182D28D0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCHANGESOUNDSTATE_BEGIN_OFFSET UNITYSDK_OFFSET(0x19B09970)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCHANGESOUNDSTATE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x19B09850)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCHANGESOUNDSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x19B09EA0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCHANGESOUNDSTATE__REGISTERPORTS_B__4_0_OFFSET UNITYSDK_OFFSET(0x19B09EE0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDChangeSoundState_TypeDefinitionIndex = 48573;
+	inline static constexpr unsigned int LDChangeSoundState_TypeDefinitionIndex = 72033;
 
 	class LDChangeSoundState : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
 		::FlowCanvas::FlowOutput* output; // 0xA8
 		::FlowCanvas::ValueInput_1<::System::String*>* Group; // 0xB0
-		::FlowCanvas::ValueInput_1<::System::String*>* State; // 0xB8
-		::FlowCanvas::FlowInput* input; // 0xC0
+		::FlowCanvas::FlowInput* input; // 0xB8
+		::FlowCanvas::ValueInput_1<::System::String*>* State; // 0xC0
 
 		::System::Void _ctor()
 		{

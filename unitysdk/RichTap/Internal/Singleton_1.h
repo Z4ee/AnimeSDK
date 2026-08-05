@@ -6,7 +6,7 @@ namespace System { class Object; }
 
 namespace RichTap::Internal
 {
-	inline static constexpr unsigned int Singleton_1_TypeDefinitionIndex = 38098;
+	inline static constexpr unsigned int Singleton_1_TypeDefinitionIndex = 38759;
 
 	template <typename T>
 	class Singleton_1 : public ::UnityEngine::MonoBehaviour

@@ -8,19 +8,19 @@ namespace MiHoYo::SDK::Win { class OverseaPayManager; }
 namespace System { class Action; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_WIN_OVERSEAPAYMANAGER___C__DISPLAYCLASS42_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE7FEE0)
-#define MIHOYO_SDK_WIN_OVERSEAPAYMANAGER___C__DISPLAYCLASS42_0__SHOWPAYAGELIMITNEWFLOW_B__0_OFFSET UNITYSDK_OFFSET(0x1BE7FEF0)
+#define MIHOYO_SDK_WIN_OVERSEAPAYMANAGER___C__DISPLAYCLASS42_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1F1600)
+#define MIHOYO_SDK_WIN_OVERSEAPAYMANAGER___C__DISPLAYCLASS42_0__SHOWPAYAGELIMITNEWFLOW_B__0_OFFSET UNITYSDK_OFFSET(0x1D1F1610)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int OverseaPayManager___c__DisplayClass42_0_TypeDefinitionIndex = 21090;
+	inline static constexpr unsigned int OverseaPayManager___c__DisplayClass42_0_TypeDefinitionIndex = 21438;
 
 	class OverseaPayManager___c__DisplayClass42_0 : public ::System::Object
 	{
 	public:
 		::MiHoYo::SDK::AccountModel* account; // 0x10
-		::System::Action* closeCallback; // 0x18
-		::MiHoYo::SDK::Win::OverseaPayManager* __4__this; // 0x20
+		::MiHoYo::SDK::Win::OverseaPayManager* __4__this; // 0x18
+		::System::Action* closeCallback; // 0x20
 
 		::System::Void _ctor()
 		{

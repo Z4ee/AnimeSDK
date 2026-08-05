@@ -10,7 +10,7 @@ namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTaskExtensions_AttachExternalCancellationSource_1__RunTask_d__5_TypeDefinitionIndex = 31294;
+	inline static constexpr unsigned int UniTaskExtensions_AttachExternalCancellationSource_1__RunTask_d__5_TypeDefinitionIndex = 31914;
 
 	template <typename T>
 	struct UniTaskExtensions_AttachExternalCancellationSource_1__RunTask_d__5

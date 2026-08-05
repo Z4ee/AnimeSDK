@@ -5,14 +5,14 @@
 namespace Ara { class AraTrail; }
 namespace UnityEngine { class Transform; }
 
-#define ARA_ELECTRICALARC_CHANGEARC_OFFSET UNITYSDK_OFFSET(0x1E21E820)
-#define ARA_ELECTRICALARC_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1E21E720)
-#define ARA_ELECTRICALARC_UPDATE_OFFSET UNITYSDK_OFFSET(0x1E21E7C0)
-#define ARA_ELECTRICALARC__CTOR_OFFSET UNITYSDK_OFFSET(0x1E21ED70)
+#define ARA_ELECTRICALARC_CHANGEARC_OFFSET UNITYSDK_OFFSET(0x1F642A30)
+#define ARA_ELECTRICALARC_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1F642930)
+#define ARA_ELECTRICALARC_UPDATE_OFFSET UNITYSDK_OFFSET(0x1F6429D0)
+#define ARA_ELECTRICALARC__CTOR_OFFSET UNITYSDK_OFFSET(0x1F642F90)
 
 namespace Ara
 {
-	inline static constexpr unsigned int ElectricalArc_TypeDefinitionIndex = 32932;
+	inline static constexpr unsigned int ElectricalArc_TypeDefinitionIndex = 33567;
 
 	class ElectricalArc : public ::UnityEngine::MonoBehaviour
 	{

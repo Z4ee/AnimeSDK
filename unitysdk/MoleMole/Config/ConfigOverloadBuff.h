@@ -5,18 +5,18 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGOVERLOADBUFF__CTOR_OFFSET UNITYSDK_OFFSET(0x18F38E10)
+#define MOLEMOLE_CONFIG_CONFIGOVERLOADBUFF__CTOR_OFFSET UNITYSDK_OFFSET(0x16262340)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigOverloadBuff_TypeDefinitionIndex = 70565;
+	inline static constexpr unsigned int ConfigOverloadBuff_TypeDefinitionIndex = 62292;
 
 	class ConfigOverloadBuff : public ::System::Object
 	{
 	public:
-		::System::String* DamageAudio; // 0x10
-		::System::String* ParalysisZoneTag; // 0x18
-		::MoleMole::Config::ConfigBuffMisc_EffectByCharacterSize EffectsBySize; // 0x20
+		::System::String* ParalysisZoneTag; // 0x10
+		::MoleMole::Config::ConfigBuffMisc_EffectByCharacterSize EffectsBySize; // 0x18
+		::System::String* DamageAudio; // 0x30
 		::System::Single ControlTime; // 0x38
 		::System::Single BeHitEffectInterval; // 0x3C
 

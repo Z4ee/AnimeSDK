@@ -6,23 +6,23 @@ namespace MoleMole { class UIHollowCollectRewardDialogPopWindowController; }
 namespace System { class Action; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_UIHOLLOWCOLLECTREWARDDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18490B80)
-#define MOLEMOLE_UIHOLLOWCOLLECTREWARDDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS16_0__PLAYANIM_B__0_OFFSET UNITYSDK_OFFSET(0x18490B90)
-#define MOLEMOLE_UIHOLLOWCOLLECTREWARDDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS16_0__PLAYANIM_B__1_OFFSET UNITYSDK_OFFSET(0x18490C50)
+#define MOLEMOLE_UIHOLLOWCOLLECTREWARDDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE3B020)
+#define MOLEMOLE_UIHOLLOWCOLLECTREWARDDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS16_0__PLAYANIM_B__0_OFFSET UNITYSDK_OFFSET(0x1AE3B030)
+#define MOLEMOLE_UIHOLLOWCOLLECTREWARDDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS16_0__PLAYANIM_B__1_OFFSET UNITYSDK_OFFSET(0x1AE3B0F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowCollectRewardDialogPopWindowController___c__DisplayClass16_0_TypeDefinitionIndex = 77731;
+	inline static constexpr unsigned int UIHollowCollectRewardDialogPopWindowController___c__DisplayClass16_0_TypeDefinitionIndex = 85816;
 
 	class UIHollowCollectRewardDialogPopWindowController___c__DisplayClass16_0 : public ::System::Object
 	{
 	public:
 		::UnityEngine::AnimationCurve* curve; // 0x10
-		::MoleMole::UIHollowCollectRewardDialogPopWindowController* __4__this; // 0x18
-		::System::Action* action; // 0x20
+		::System::Action* action; // 0x18
+		::MoleMole::UIHollowCollectRewardDialogPopWindowController* __4__this; // 0x20
 		::System::Single animTime; // 0x28
-		::System::Single nowProgress; // 0x2C
-		::System::Single newRatio; // 0x30
+		::System::Single newRatio; // 0x2C
+		::System::Single nowProgress; // 0x30
 		::System::Single timeRatio; // 0x34
 		::System::Single oldRatio; // 0x38
 

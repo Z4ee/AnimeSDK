@@ -2,22 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_208CC9941471731A_131;
+class Class_2_208CC9941471731A_477;
 namespace MoleMole { class UIWishlistMainPageController; }
 
-#define MOLEMOLE_UIWISHLISTMAINPAGECONTROLLER___C__DISPLAYCLASS31_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15C4A230)
-#define MOLEMOLE_UIWISHLISTMAINPAGECONTROLLER___C__DISPLAYCLASS31_0__SHOWWEAPONLEVELUPPROCESS_B__0_OFFSET UNITYSDK_OFFSET(0x15C4A240)
-#define MOLEMOLE_UIWISHLISTMAINPAGECONTROLLER___C__DISPLAYCLASS31_0__SHOWWEAPONLEVELUPPROCESS_B__1_OFFSET UNITYSDK_OFFSET(0x15C4A2C0)
+#define MOLEMOLE_UIWISHLISTMAINPAGECONTROLLER___C__DISPLAYCLASS31_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1610DE10)
+#define MOLEMOLE_UIWISHLISTMAINPAGECONTROLLER___C__DISPLAYCLASS31_0__SHOWWEAPONLEVELUPPROCESS_B__0_OFFSET UNITYSDK_OFFSET(0x1610DE20)
+#define MOLEMOLE_UIWISHLISTMAINPAGECONTROLLER___C__DISPLAYCLASS31_0__SHOWWEAPONLEVELUPPROCESS_B__1_OFFSET UNITYSDK_OFFSET(0x1610DEA0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIWishlistMainPageController___c__DisplayClass31_0_TypeDefinitionIndex = 75929;
+	inline static constexpr unsigned int UIWishlistMainPageController___c__DisplayClass31_0_TypeDefinitionIndex = 65451;
 
 	class UIWishlistMainPageController___c__DisplayClass31_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIWishlistMainPageController* __4__this; // 0x10
-		::Class_2_208CC9941471731A_131* itemConfig; // 0x18
+		::Class_2_208CC9941471731A_477* itemConfig; // 0x10
+		::MoleMole::UIWishlistMainPageController* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

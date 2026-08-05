@@ -4,24 +4,24 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UIHARDCOREBOSSBATTLETPREPPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1779C9D0)
-#define MOLEMOLE_UIHARDCOREBOSSBATTLETPREPPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1779CA10)
-#define MOLEMOLE_UIHARDCOREBOSSBATTLETPREPPAGECONTROLLER___C__JUMPPAGEWHENHARDMODERANKSREADY_B__2_1_OFFSET UNITYSDK_OFFSET(0x1779CA20)
+#define MOLEMOLE_UIHARDCOREBOSSBATTLETPREPPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17312C10)
+#define MOLEMOLE_UIHARDCOREBOSSBATTLETPREPPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17312C50)
+#define MOLEMOLE_UIHARDCOREBOSSBATTLETPREPPAGECONTROLLER___C__JUMPPAGEWHENHARDMODERANKSREADY_B__2_1_OFFSET UNITYSDK_OFFSET(0x17312C60)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHardCoreBossBattletPrepPageController___c_TypeDefinitionIndex = 83616;
+	inline static constexpr unsigned int UIHardCoreBossBattletPrepPageController___c_TypeDefinitionIndex = 71280;
 
 	class UIHardCoreBossBattletPrepPageController___c : public ::System::Object
 	{
 	public:
 		static ::System::Action** StaticGet___9__2_1()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIHardCoreBossBattletPrepPageController___c_TypeDefinitionIndex)->GetStaticField(0x46C00);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIHardCoreBossBattletPrepPageController___c_TypeDefinitionIndex)->GetStaticField(0x4AD10);
 		}
 		static ::MoleMole::UIHardCoreBossBattletPrepPageController___c** StaticGet___9()
 		{
-			return (::MoleMole::UIHardCoreBossBattletPrepPageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIHardCoreBossBattletPrepPageController___c_TypeDefinitionIndex)->GetStaticField(0x46C08);
+			return (::MoleMole::UIHardCoreBossBattletPrepPageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIHardCoreBossBattletPrepPageController___c_TypeDefinitionIndex)->GetStaticField(0x4AD18);
 		}
 
 		static ::System::Void _cctor()

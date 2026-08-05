@@ -9,7 +9,7 @@ namespace UnrealTypes { class PropertyParamsBase; }
 
 namespace UnrealTypes
 {
-	inline static constexpr unsigned int UnmanagedProperty_1_TypeDefinitionIndex = 27764;
+	inline static constexpr unsigned int UnmanagedProperty_1_TypeDefinitionIndex = 28367;
 
 	template <typename T>
 	class UnmanagedProperty_1 : public ::UnrealTypes::UnmanagedProperty

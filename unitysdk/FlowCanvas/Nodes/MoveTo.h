@@ -6,13 +6,13 @@
 namespace System::Collections { class IEnumerator; }
 namespace UnityEngine::AI { class NavMeshAgent; }
 
-#define FLOWCANVAS_NODES_MOVETO_INVOKE_OFFSET UNITYSDK_OFFSET(0x1CC348E0)
-#define FLOWCANVAS_NODES_MOVETO_ONBREAK_OFFSET UNITYSDK_OFFSET(0x1CC34970)
-#define FLOWCANVAS_NODES_MOVETO__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC34990)
+#define FLOWCANVAS_NODES_MOVETO_INVOKE_OFFSET UNITYSDK_OFFSET(0x1DFC9F70)
+#define FLOWCANVAS_NODES_MOVETO_ONBREAK_OFFSET UNITYSDK_OFFSET(0x1DFCA000)
+#define FLOWCANVAS_NODES_MOVETO__CTOR_OFFSET UNITYSDK_OFFSET(0x1DFCA020)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int MoveTo_TypeDefinitionIndex = 29590;
+	inline static constexpr unsigned int MoveTo_TypeDefinitionIndex = 30211;
 
 	class MoveTo : public ::FlowCanvas::Nodes::LatentActionNode_4<::UnityEngine::AI::NavMeshAgent*, ::UnityEngine::Vector3, ::System::Single, ::System::Single>
 	{

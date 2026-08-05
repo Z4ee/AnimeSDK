@@ -8,25 +8,25 @@ namespace Cysharp::Threading::Tasks::Internal { template <typename T> class Mini
 namespace System { class Exception; }
 namespace System { template <typename T> class Action_1; }
 
-#define CYSHARP_THREADING_TASKS_INTERNAL_PLAYERLOOPRUNNER_ADDACTION_OFFSET UNITYSDK_OFFSET(0x1E76B5F0)
-#define CYSHARP_THREADING_TASKS_INTERNAL_PLAYERLOOPRUNNER_RUNCORE_OFFSET UNITYSDK_OFFSET(0x1E76B950)
-#define CYSHARP_THREADING_TASKS_INTERNAL_PLAYERLOOPRUNNER_RUN_OFFSET UNITYSDK_OFFSET(0x1E76B940)
-#define CYSHARP_THREADING_TASKS_INTERNAL_PLAYERLOOPRUNNER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E76B420)
+#define CYSHARP_THREADING_TASKS_INTERNAL_PLAYERLOOPRUNNER_ADDACTION_OFFSET UNITYSDK_OFFSET(0x1FB40C10)
+#define CYSHARP_THREADING_TASKS_INTERNAL_PLAYERLOOPRUNNER_RUNCORE_OFFSET UNITYSDK_OFFSET(0x1FB40F40)
+#define CYSHARP_THREADING_TASKS_INTERNAL_PLAYERLOOPRUNNER_RUN_OFFSET UNITYSDK_OFFSET(0x1FB40F30)
+#define CYSHARP_THREADING_TASKS_INTERNAL_PLAYERLOOPRUNNER__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB40A30)
 
 namespace Cysharp::Threading::Tasks::Internal
 {
-	inline static constexpr unsigned int PlayerLoopRunner_TypeDefinitionIndex = 31476;
+	inline static constexpr unsigned int PlayerLoopRunner_TypeDefinitionIndex = 32096;
 
 	class PlayerLoopRunner : public ::System::Object
 	{
 	public:
-		::System::Object* arrayLock; // 0x10
-		::Cysharp::Threading::Tasks::Internal::MinimumQueue_1<::Cysharp::Threading::Tasks::IPlayerLoopItem*>* waitQueue; // 0x18
-		::System::Action_1<::System::Exception*>* unhandledExceptionCallback; // 0x20
-		::Il2CppArray<::Cysharp::Threading::Tasks::IPlayerLoopItem*>* loopItems; // 0x28
+		::Cysharp::Threading::Tasks::Internal::MinimumQueue_1<::Cysharp::Threading::Tasks::IPlayerLoopItem*>* waitQueue; // 0x10
+		::System::Object* arrayLock; // 0x18
+		::Il2CppArray<::Cysharp::Threading::Tasks::IPlayerLoopItem*>* loopItems; // 0x20
+		::System::Action_1<::System::Exception*>* unhandledExceptionCallback; // 0x28
 		::System::Object* runningAndQueueLock; // 0x30
-		::System::Int32 tail; // 0x38
-		::System::Boolean running; // 0x3C
+		::System::Boolean running; // 0x38
+		::System::Int32 tail; // 0x3C
 		::Cysharp::Threading::Tasks::PlayerLoopTiming timing; // 0x40
 
 		::System::Void _ctor(::Cysharp::Threading::Tasks::PlayerLoopTiming timing)

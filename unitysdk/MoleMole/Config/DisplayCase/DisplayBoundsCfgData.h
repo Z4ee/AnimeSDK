@@ -5,7 +5,7 @@
 
 namespace MoleMole::Config::DisplayCase
 {
-	inline static constexpr unsigned int DisplayBoundsCfgData_TypeDefinitionIndex = 81551;
+	inline static constexpr unsigned int DisplayBoundsCfgData_TypeDefinitionIndex = 81554;
 
 	struct alignas(4) DisplayBoundsCfgData
 	{

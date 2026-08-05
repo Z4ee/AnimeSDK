@@ -6,7 +6,7 @@ namespace Sirenix::Serialization { class IDataWriter; }
 
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int ISelfFormatter_TypeDefinitionIndex = 7514;
+	inline static constexpr unsigned int ISelfFormatter_TypeDefinitionIndex = 7518;
 
 	class ISelfFormatter
 	{

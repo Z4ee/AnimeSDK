@@ -4,21 +4,21 @@
 #include "unitysdk/Sirenix/Serialization/FormatterLocator_FormatterLocatorInfo.h"
 #include "unitysdk/System/Object.h"
 
-#define SIRENIX_SERIALIZATION_FORMATTERLOCATOR___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E68D700)
-#define SIRENIX_SERIALIZATION_FORMATTERLOCATOR___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1E68D740)
-#define SIRENIX_SERIALIZATION_FORMATTERLOCATOR___C___CCTOR_B__8_0_OFFSET UNITYSDK_OFFSET(0x1E68D750)
-#define SIRENIX_SERIALIZATION_FORMATTERLOCATOR___C___CCTOR_B__8_1_OFFSET UNITYSDK_OFFSET(0x1E68D810)
+#define SIRENIX_SERIALIZATION_FORMATTERLOCATOR___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FA7C440)
+#define SIRENIX_SERIALIZATION_FORMATTERLOCATOR___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1FA7C480)
+#define SIRENIX_SERIALIZATION_FORMATTERLOCATOR___C___CCTOR_B__8_0_OFFSET UNITYSDK_OFFSET(0x1FA7C490)
+#define SIRENIX_SERIALIZATION_FORMATTERLOCATOR___C___CCTOR_B__8_1_OFFSET UNITYSDK_OFFSET(0x1FA7C550)
 
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int FormatterLocator___c_TypeDefinitionIndex = 7437;
+	inline static constexpr unsigned int FormatterLocator___c_TypeDefinitionIndex = 7441;
 
 	class FormatterLocator___c : public ::System::Object
 	{
 	public:
 		static ::Sirenix::Serialization::FormatterLocator___c** StaticGet___9()
 		{
-			return (::Sirenix::Serialization::FormatterLocator___c**)Il2CppClass::FromTypeDefinitionIndex(FormatterLocator___c_TypeDefinitionIndex)->GetStaticField(0x6140);
+			return (::Sirenix::Serialization::FormatterLocator___c**)Il2CppClass::FromTypeDefinitionIndex(FormatterLocator___c_TypeDefinitionIndex)->GetStaticField(0x6150);
 		}
 
 		static ::System::Void _cctor()

@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
-	inline static constexpr unsigned int HandheldEmailBindingDialog_HighlightableObject_TypeDefinitionIndex = 20554;
+	inline static constexpr unsigned int HandheldEmailBindingDialog_HighlightableObject_TypeDefinitionIndex = 20901;
 
 	enum class HandheldEmailBindingDialog_HighlightableObject : ::System::Int32
 	{

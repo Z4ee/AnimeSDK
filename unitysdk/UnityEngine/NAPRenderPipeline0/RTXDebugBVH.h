@@ -7,20 +7,20 @@
 
 namespace UnityEngine::NAPRenderPipeline0 { template <typename T> class ConsoleVariableT_1; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_RTXDEBUGBVH_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1D7B30B0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_RTXDEBUGBVH__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D7B3930)
-#define UNITYENGINE_NAPRENDERPIPELINE0_RTXDEBUGBVH__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7B38E0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RTXDEBUGBVH_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1EB576C0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RTXDEBUGBVH__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EB57F40)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RTXDEBUGBVH__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB57EF0)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int RTXDebugBVH_TypeDefinitionIndex = 5805;
+	inline static constexpr unsigned int RTXDebugBVH_TypeDefinitionIndex = 5807;
 
 	class RTXDebugBVH : public ::UnityEngine::NAPRenderPipeline0::RTXRenderer
 	{
 	public:
 		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Single>** StaticGet_DebugBVHMaxDepth()
 		{
-			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(RTXDebugBVH_TypeDefinitionIndex)->GetStaticField(0x54C0);
+			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(RTXDebugBVH_TypeDefinitionIndex)->GetStaticField(0x54D0);
 		}
 
 		::System::Void _ctor()

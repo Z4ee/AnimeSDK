@@ -6,20 +6,20 @@
 class Class_1_D72537470FC2F779;
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGPREPAREFULLSCREENVIDEONODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x1A354220)
-#define MOLEMOLE_CONFIG_CONFIGPREPAREFULLSCREENVIDEONODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A354290)
+#define MOLEMOLE_CONFIG_CONFIGPREPAREFULLSCREENVIDEONODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x1B557AC0)
+#define MOLEMOLE_CONFIG_CONFIGPREPAREFULLSCREENVIDEONODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B557B30)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigPrepareFullScreenVideoNode_TypeDefinitionIndex = 41402;
+	inline static constexpr unsigned int ConfigPrepareFullScreenVideoNode_TypeDefinitionIndex = 80125;
 
 	class ConfigPrepareFullScreenVideoNode : public ::MoleMole::Config::ConfigUIBaseActionNode
 	{
 	public:
-		::Il2CppArray<::MoleMole::Config::ConfigPrepareFullScreenVideoNode_FullScreenVideoPlayItem>* PlayItems; // 0x18
-		::System::String* VideoTag; // 0x20
-		::System::Boolean WaitForPrepareFinish; // 0x28
-		::System::Boolean IsSkipOnFastMode; // 0x29
+		::System::String* VideoTag; // 0x18
+		::Il2CppArray<::MoleMole::Config::ConfigPrepareFullScreenVideoNode_FullScreenVideoPlayItem>* PlayItems; // 0x20
+		::System::Boolean IsSkipOnFastMode; // 0x28
+		::System::Boolean WaitForPrepareFinish; // 0x29
 
 		::System::Void _ctor()
 		{

@@ -3,13 +3,13 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int BindSendMsgType_TypeDefinitionIndex = 83147;
+	inline static constexpr unsigned int BindSendMsgType_TypeDefinitionIndex = 51852;
 
 	enum class BindSendMsgType : ::System::Int32
 	{
-		OnComplete = 3,
-		OnTrigger = 2,
 		None = 0,
+		OnComplete = 3,
 		OnPressDown = 1,
+		OnTrigger = 2,
 	};
 }

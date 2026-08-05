@@ -7,11 +7,11 @@ namespace RootMotion::FinalIK { class Grounding_Leg; }
 namespace RootMotion::FinalIK { class IKSolver; }
 namespace UnityEngine { class Transform; }
 
-#define ROOTMOTION_FINALIK_GROUNDERQUADRUPED_FOOT__CTOR_OFFSET UNITYSDK_OFFSET(0xA76E70)
+#define ROOTMOTION_FINALIK_GROUNDERQUADRUPED_FOOT__CTOR_OFFSET UNITYSDK_OFFSET(0xAC7740)
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int GrounderQuadruped_Foot_TypeDefinitionIndex = 38248;
+	inline static constexpr unsigned int GrounderQuadruped_Foot_TypeDefinitionIndex = 38968;
 
 	struct alignas(8) GrounderQuadruped_Foot
 	{

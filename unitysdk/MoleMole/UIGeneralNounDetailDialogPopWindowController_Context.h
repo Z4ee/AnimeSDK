@@ -7,12 +7,12 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIGENERALNOUNDETAILDIALOGPOPWINDOWCONTROLLER_CONTEXT_GET_DEFAULTLINKID_OFFSET UNITYSDK_OFFSET(0x166ED620)
-#define MOLEMOLE_UIGENERALNOUNDETAILDIALOGPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x166ED6C0)
+#define MOLEMOLE_UIGENERALNOUNDETAILDIALOGPOPWINDOWCONTROLLER_CONTEXT_GET_DEFAULTLINKID_OFFSET UNITYSDK_OFFSET(0x18EB9900)
+#define MOLEMOLE_UIGENERALNOUNDETAILDIALOGPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18EB99A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralNounDetailDialogPopWindowController_Context_TypeDefinitionIndex = 80448;
+	inline static constexpr unsigned int UIGeneralNounDetailDialogPopWindowController_Context_TypeDefinitionIndex = 87410;
 
 	class UIGeneralNounDetailDialogPopWindowController_Context : public ::MoleMole::UIControllerContextBase
 	{

@@ -6,19 +6,19 @@ namespace MiHoYo::SDK { class AccountModel; }
 namespace MiHoYo::SDK::Console::OS { class LoginManagerPS; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_CONSOLE_OS_LOGINMANAGERPS___C__DISPLAYCLASS5_0__CHECKANDSHOWPROTOCOL_B__0_OFFSET UNITYSDK_OFFSET(0x1B50EA50)
-#define MIHOYO_SDK_CONSOLE_OS_LOGINMANAGERPS___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B50EA40)
+#define MIHOYO_SDK_CONSOLE_OS_LOGINMANAGERPS___C__DISPLAYCLASS5_0__CHECKANDSHOWPROTOCOL_B__0_OFFSET UNITYSDK_OFFSET(0x1C8E5C20)
+#define MIHOYO_SDK_CONSOLE_OS_LOGINMANAGERPS___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C8E5C10)
 
 namespace MiHoYo::SDK::Console::OS
 {
-	inline static constexpr unsigned int LoginManagerPS___c__DisplayClass5_0_TypeDefinitionIndex = 20830;
+	inline static constexpr unsigned int LoginManagerPS___c__DisplayClass5_0_TypeDefinitionIndex = 21177;
 
 	class LoginManagerPS___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::Console::OS::LoginManagerPS* __4__this; // 0x10
+		::System::String* callbackMessage; // 0x10
 		::MiHoYo::SDK::AccountModel* userModel; // 0x18
-		::System::String* callbackMessage; // 0x20
+		::MiHoYo::SDK::Console::OS::LoginManagerPS* __4__this; // 0x20
 
 		::System::Void _ctor()
 		{

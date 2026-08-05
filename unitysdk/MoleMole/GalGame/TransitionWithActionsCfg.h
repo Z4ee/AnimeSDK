@@ -16,13 +16,13 @@ namespace MoleMole::GalGame { class TagStringPair; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_GALGAME_TRANSITIONWITHACTIONSCFG_CREATTIMECFG_OFFSET UNITYSDK_OFFSET(0x13EE1290)
-#define MOLEMOLE_GALGAME_TRANSITIONWITHACTIONSCFG_POSTSOUNDEVENT_OFFSET UNITYSDK_OFFSET(0x13EE1310)
-#define MOLEMOLE_GALGAME_TRANSITIONWITHACTIONSCFG__CTOR_OFFSET UNITYSDK_OFFSET(0x13EE1350)
+#define MOLEMOLE_GALGAME_TRANSITIONWITHACTIONSCFG_CREATTIMECFG_OFFSET UNITYSDK_OFFSET(0x136A7D80)
+#define MOLEMOLE_GALGAME_TRANSITIONWITHACTIONSCFG_POSTSOUNDEVENT_OFFSET UNITYSDK_OFFSET(0x136A7E00)
+#define MOLEMOLE_GALGAME_TRANSITIONWITHACTIONSCFG__CTOR_OFFSET UNITYSDK_OFFSET(0x136A7E40)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int TransitionWithActionsCfg_TypeDefinitionIndex = 86101;
+	inline static constexpr unsigned int TransitionWithActionsCfg_TypeDefinitionIndex = 49812;
 
 	class TransitionWithActionsCfg : public ::System::Object
 	{

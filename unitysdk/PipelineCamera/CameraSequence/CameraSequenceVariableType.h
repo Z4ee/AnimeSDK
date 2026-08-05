@@ -3,7 +3,7 @@
 
 namespace PipelineCamera::CameraSequence
 {
-	inline static constexpr unsigned int CameraSequenceVariableType_TypeDefinitionIndex = 37937;
+	inline static constexpr unsigned int CameraSequenceVariableType_TypeDefinitionIndex = 38598;
 
 	enum class CameraSequenceVariableType : ::System::Int32
 	{

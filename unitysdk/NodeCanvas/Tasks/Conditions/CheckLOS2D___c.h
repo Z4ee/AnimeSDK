@@ -6,24 +6,24 @@
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace UnityEngine { class Collider2D; }
 
-#define NODECANVAS_TASKS_CONDITIONS_CHECKLOS2D___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DB9E390)
-#define NODECANVAS_TASKS_CONDITIONS_CHECKLOS2D___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB9E3D0)
-#define NODECANVAS_TASKS_CONDITIONS_CHECKLOS2D___C__ONCHECK_B__7_0_OFFSET UNITYSDK_OFFSET(0x1DB9E3E0)
+#define NODECANVAS_TASKS_CONDITIONS_CHECKLOS2D___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EF94500)
+#define NODECANVAS_TASKS_CONDITIONS_CHECKLOS2D___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF94540)
+#define NODECANVAS_TASKS_CONDITIONS_CHECKLOS2D___C__ONCHECK_B__7_0_OFFSET UNITYSDK_OFFSET(0x1EF94550)
 
 namespace NodeCanvas::Tasks::Conditions
 {
-	inline static constexpr unsigned int CheckLOS2D___c_TypeDefinitionIndex = 30667;
+	inline static constexpr unsigned int CheckLOS2D___c_TypeDefinitionIndex = 30229;
 
 	class CheckLOS2D___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::UnityEngine::RaycastHit2D, ::UnityEngine::Collider2D*>** StaticGet___9__7_0()
 		{
-			return (::System::Func_2<::UnityEngine::RaycastHit2D, ::UnityEngine::Collider2D*>**)Il2CppClass::FromTypeDefinitionIndex(CheckLOS2D___c_TypeDefinitionIndex)->GetStaticField(0x24830);
+			return (::System::Func_2<::UnityEngine::RaycastHit2D, ::UnityEngine::Collider2D*>**)Il2CppClass::FromTypeDefinitionIndex(CheckLOS2D___c_TypeDefinitionIndex)->GetStaticField(0x25920);
 		}
 		static ::NodeCanvas::Tasks::Conditions::CheckLOS2D___c** StaticGet___9()
 		{
-			return (::NodeCanvas::Tasks::Conditions::CheckLOS2D___c**)Il2CppClass::FromTypeDefinitionIndex(CheckLOS2D___c_TypeDefinitionIndex)->GetStaticField(0x24838);
+			return (::NodeCanvas::Tasks::Conditions::CheckLOS2D___c**)Il2CppClass::FromTypeDefinitionIndex(CheckLOS2D___c_TypeDefinitionIndex)->GetStaticField(0x25928);
 		}
 
 		static ::System::Void _cctor()

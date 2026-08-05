@@ -3,14 +3,14 @@
 #include "unitysdk/Class_2_B89683A15B3B0C43_Enum_3_55DEA7760B94F1B2.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_208CC9941471731A_59;
+class Class_2_208CC9941471731A_861;
 
-#define MOLEMOLE_UITRIDICEITEMCOLLECTWIDGETCONTROLLER___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0x11BD7BD0)
-#define MOLEMOLE_UITRIDICEITEMCOLLECTWIDGETCONTROLLER___C__DISPLAYCLASS17_0__REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x11BD7BE0)
+#define MOLEMOLE_UITRIDICEITEMCOLLECTWIDGETCONTROLLER___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1513F100)
+#define MOLEMOLE_UITRIDICEITEMCOLLECTWIDGETCONTROLLER___C__DISPLAYCLASS17_0__REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x1513F110)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UITriDiceItemCollectWidgetController___c__DisplayClass17_0_TypeDefinitionIndex = 75044;
+	inline static constexpr unsigned int UITriDiceItemCollectWidgetController___c__DisplayClass17_0_TypeDefinitionIndex = 84765;
 
 	class UITriDiceItemCollectWidgetController___c__DisplayClass17_0 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UITRIDICEITEMCOLLECTWIDGETCONTROLLER___C__DISPLAYCLASS17_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _RefreshView_b__0(::Class_2_208CC9941471731A_59* item)
+		::System::Boolean _RefreshView_b__0(::Class_2_208CC9941471731A_861* item)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_2_208CC9941471731A_59*))((::PBYTE)hIl2Cpp + MOLEMOLE_UITRIDICEITEMCOLLECTWIDGETCONTROLLER___C__DISPLAYCLASS17_0__REFRESHVIEW_B__0_OFFSET))(this, item);
+			return ((::System::Boolean(*)(::PVOID, ::Class_2_208CC9941471731A_861*))((::PBYTE)hIl2Cpp + MOLEMOLE_UITRIDICEITEMCOLLECTWIDGETCONTROLLER___C__DISPLAYCLASS17_0__REFRESHVIEW_B__0_OFFSET))(this, item);
 		}
 	};
 }

@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_TIMELINE_HANDLEADDITIVESCENEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x18719380)
+#define MOLEMOLE_TIMELINE_HANDLEADDITIVESCENEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x191BDAA0)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int HandleAdditiveSceneBehaviour_TypeDefinitionIndex = 51748;
+	inline static constexpr unsigned int HandleAdditiveSceneBehaviour_TypeDefinitionIndex = 65702;
 
 	class HandleAdditiveSceneBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{

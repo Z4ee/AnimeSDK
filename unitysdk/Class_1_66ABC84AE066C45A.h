@@ -6,19 +6,19 @@
 class Class_2_5C38134D4169B6E0;
 template <typename T> class Class_2_000597E145D7A42A;
 
-#define CLASS_1_66ABC84AE066C45A_DISPOSE_OFFSET UNITYSDK_OFFSET(0x134093E0)
-#define CLASS_1_66ABC84AE066C45A_METHOD_1_C7AE9FA0679B9404_OFFSET UNITYSDK_OFFSET(0x134096E0)
-#define CLASS_1_66ABC84AE066C45A__CTOR_OFFSET UNITYSDK_OFFSET(0x13409250)
+#define CLASS_1_66ABC84AE066C45A_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1253B140)
+#define CLASS_1_66ABC84AE066C45A_METHOD_1_C7AE9FA0679B9404_OFFSET UNITYSDK_OFFSET(0x1253B440)
+#define CLASS_1_66ABC84AE066C45A__CTOR_OFFSET UNITYSDK_OFFSET(0x1253AFB0)
 
-inline static constexpr unsigned int Class_1_66ABC84AE066C45A_TypeDefinitionIndex = 65478;
+inline static constexpr unsigned int Class_1_66ABC84AE066C45A_TypeDefinitionIndex = 46545;
 
 class Class_1_66ABC84AE066C45A : public ::System::Object
 {
 public:
-	::Class_2_000597E145D7A42A<::System::Int32>* Field_1_0; // 0x10
-	::Class_2_5C38134D4169B6E0* Field_1_3; // 0x18
-	::Class_2_000597E145D7A42A<::System::Boolean>* Field_1_1; // 0x20
-	::Class_2_000597E145D7A42A<::System::Boolean>* Field_1_2; // 0x28
+	::Class_2_000597E145D7A42A<::System::Boolean>* Field_1_0; // 0x10
+	::Class_2_5C38134D4169B6E0* Field_1_6; // 0x18
+	::Class_2_000597E145D7A42A<::System::Int32>* Field_1_1; // 0x20
+	::Class_2_000597E145D7A42A<::System::Boolean>* Field_1_7; // 0x28
 
 	::System::Void _ctor(::System::Int32 a1, ::System::Boolean a2, ::System::Boolean a3)
 	{

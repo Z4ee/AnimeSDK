@@ -7,31 +7,31 @@ namespace System { class String; }
 namespace UnityEngine { class Animation; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_UIPANELFADEINOUTSCRIPT_AWAKE_OFFSET UNITYSDK_OFFSET(0x1E592250)
-#define MOLEMOLE_UIPANELFADEINOUTSCRIPT_FADEIN_OFFSET UNITYSDK_OFFSET(0x1E5926C0)
-#define MOLEMOLE_UIPANELFADEINOUTSCRIPT_FADEOUT_OFFSET UNITYSDK_OFFSET(0x1E592850)
-#define MOLEMOLE_UIPANELFADEINOUTSCRIPT_INIT_OFFSET UNITYSDK_OFFSET(0x1E5922A0)
-#define MOLEMOLE_UIPANELFADEINOUTSCRIPT_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1E592A60)
-#define MOLEMOLE_UIPANELFADEINOUTSCRIPT_UPDATE_OFFSET UNITYSDK_OFFSET(0x1E5929B0)
-#define MOLEMOLE_UIPANELFADEINOUTSCRIPT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E592B40)
+#define MOLEMOLE_UIPANELFADEINOUTSCRIPT_AWAKE_OFFSET UNITYSDK_OFFSET(0x1E8A7000)
+#define MOLEMOLE_UIPANELFADEINOUTSCRIPT_FADEIN_OFFSET UNITYSDK_OFFSET(0x1E8A7470)
+#define MOLEMOLE_UIPANELFADEINOUTSCRIPT_FADEOUT_OFFSET UNITYSDK_OFFSET(0x1E8A7600)
+#define MOLEMOLE_UIPANELFADEINOUTSCRIPT_INIT_OFFSET UNITYSDK_OFFSET(0x1E8A7050)
+#define MOLEMOLE_UIPANELFADEINOUTSCRIPT_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1E8A7820)
+#define MOLEMOLE_UIPANELFADEINOUTSCRIPT_UPDATE_OFFSET UNITYSDK_OFFSET(0x1E8A7760)
+#define MOLEMOLE_UIPANELFADEINOUTSCRIPT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E8A7900)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIPanelFadeInOutScript_TypeDefinitionIndex = 90892;
+	inline static constexpr unsigned int UIPanelFadeInOutScript_TypeDefinitionIndex = 94840;
 
 	class UIPanelFadeInOutScript : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::UnityEngine::GameObject* root; // 0x18
 		::UnityEngine::Animation* anim; // 0x20
-		::System::String* Field_5_2; // 0x28
-		::System::String* Field_5_3; // 0x30
-		::System::Single Field_5_4; // 0x38
-		::System::Single Field_5_5; // 0x3C
-		::System::Single Field_5_6; // 0x40
-		::System::Boolean Field_5_7; // 0x44
-		::MoleMole::UIPanelFadeInOutScript_Enum_3_A8AF1F0D9E275B5F Field_5_8; // 0x48
-		::System::Boolean Field_5_9; // 0x4C
+		::System::String* Field_5_1; // 0x28
+		::System::String* Field_5_0; // 0x30
+		::System::Single Field_5_7; // 0x38
+		::System::Single Field_5_6; // 0x3C
+		::System::Single Field_5_5; // 0x40
+		::System::Boolean Field_5_4; // 0x44
+		::MoleMole::UIPanelFadeInOutScript_Enum_3_A8AF1F0D9E275B5F Field_5_11; // 0x48
+		::System::Boolean Field_5_10; // 0x4C
 
 		::System::Void _ctor()
 		{

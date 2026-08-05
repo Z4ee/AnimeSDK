@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_UITHREEDMAPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x166A8AA0)
+#define MOLEMOLE_UITHREEDMAPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1629FAE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIThreeDMapConfig_TypeDefinitionIndex = 63454;
+	inline static constexpr unsigned int UIThreeDMapConfig_TypeDefinitionIndex = 75867;
 
 	class UIThreeDMapConfig : public ::System::Object
 	{

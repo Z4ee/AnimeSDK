@@ -5,19 +5,19 @@
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine::XR { class XRDisplaySubsystemDescriptor; }
 
-#define UNITYENGINE_XR_XRDISPLAYSUBSYSTEM_INVOKEDISPLAYFOCUSCHANGED_OFFSET UNITYSDK_OFFSET(0x1E78EBB0)
-#define UNITYENGINE_XR_XRDISPLAYSUBSYSTEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1E78EC10)
+#define UNITYENGINE_XR_XRDISPLAYSUBSYSTEM_INVOKEDISPLAYFOCUSCHANGED_OFFSET UNITYSDK_OFFSET(0x1FB670C0)
+#define UNITYENGINE_XR_XRDISPLAYSUBSYSTEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB67120)
 
 namespace UnityEngine::XR
 {
-	inline static constexpr unsigned int XRDisplaySubsystem_TypeDefinitionIndex = 27648;
+	inline static constexpr unsigned int XRDisplaySubsystem_TypeDefinitionIndex = 28250;
 
 	class XRDisplaySubsystem : public ::UnityEngine::IntegratedSubsystem_1<::UnityEngine::XR::XRDisplaySubsystemDescriptor*>
 	{
 	public:
 		static ::System::Action_1<::System::Boolean>** StaticGet_displayFocusChanged()
 		{
-			return (::System::Action_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(XRDisplaySubsystem_TypeDefinitionIndex)->GetStaticField(0x22720);
+			return (::System::Action_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(XRDisplaySubsystem_TypeDefinitionIndex)->GetStaticField(0x23E90);
 		}
 
 		::System::Void _ctor()

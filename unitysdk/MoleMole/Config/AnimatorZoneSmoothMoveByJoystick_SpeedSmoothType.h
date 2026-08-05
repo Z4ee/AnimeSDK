@@ -3,7 +3,7 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AnimatorZoneSmoothMoveByJoystick_SpeedSmoothType_TypeDefinitionIndex = 85816;
+	inline static constexpr unsigned int AnimatorZoneSmoothMoveByJoystick_SpeedSmoothType_TypeDefinitionIndex = 41025;
 
 	enum class AnimatorZoneSmoothMoveByJoystick_SpeedSmoothType : ::System::Int32
 	{

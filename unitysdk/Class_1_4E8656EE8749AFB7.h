@@ -6,12 +6,12 @@
 namespace MoleMole::Battle { class Entity; }
 namespace System { template <typename T> class Func_1; }
 
-#define CLASS_1_4E8656EE8749AFB7_METHOD_1_0F30679B05E70FC1_OFFSET UNITYSDK_OFFSET(0xFF59510)
-#define CLASS_1_4E8656EE8749AFB7_METHOD_1_4B86F2396ECBF741_OFFSET UNITYSDK_OFFSET(0xFF596A0)
-#define CLASS_1_4E8656EE8749AFB7_METHOD_1_711F0413C159D098_OFFSET UNITYSDK_OFFSET(0xFF596B0)
-#define CLASS_1_4E8656EE8749AFB7__CTOR_OFFSET UNITYSDK_OFFSET(0xFF59500)
+#define CLASS_1_4E8656EE8749AFB7_METHOD_1_0F30679B05E70FC1_OFFSET UNITYSDK_OFFSET(0x171F35A0)
+#define CLASS_1_4E8656EE8749AFB7_METHOD_1_4B86F2396ECBF741_OFFSET UNITYSDK_OFFSET(0x171F3740)
+#define CLASS_1_4E8656EE8749AFB7_METHOD_1_711F0413C159D098_OFFSET UNITYSDK_OFFSET(0x171F3730)
+#define CLASS_1_4E8656EE8749AFB7__CTOR_OFFSET UNITYSDK_OFFSET(0x171F3590)
 
-inline static constexpr unsigned int Class_1_4E8656EE8749AFB7_TypeDefinitionIndex = 71697;
+inline static constexpr unsigned int Class_1_4E8656EE8749AFB7_TypeDefinitionIndex = 63442;
 
 class Class_1_4E8656EE8749AFB7 : public ::System::Object
 {
@@ -28,13 +28,13 @@ public:
 		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_4E8656EE8749AFB7_METHOD_1_0F30679B05E70FC1_OFFSET))(this);
 	}
 
-	::System::Func_1<::MoleMole::EntityHandle>* Method_1_4B86F2396ECBF741()
-	{
-		return ((::System::Func_1<::MoleMole::EntityHandle>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_4E8656EE8749AFB7_METHOD_1_4B86F2396ECBF741_OFFSET))(this);
-	}
-
 	::System::Void Method_1_711F0413C159D098(::System::Func_1<::MoleMole::EntityHandle>* a1)
 	{
 		return ((::System::Void(*)(::PVOID, ::System::Func_1<::MoleMole::EntityHandle>*))((::PBYTE)hIl2Cpp + CLASS_1_4E8656EE8749AFB7_METHOD_1_711F0413C159D098_OFFSET))(this, a1);
+	}
+
+	::System::Func_1<::MoleMole::EntityHandle>* Method_1_4B86F2396ECBF741()
+	{
+		return ((::System::Func_1<::MoleMole::EntityHandle>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_4E8656EE8749AFB7_METHOD_1_4B86F2396ECBF741_OFFSET))(this);
 	}
 };

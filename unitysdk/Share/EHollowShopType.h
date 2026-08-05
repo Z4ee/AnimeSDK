@@ -3,17 +3,17 @@
 
 namespace Share
 {
-	inline static constexpr unsigned int EHollowShopType_TypeDefinitionIndex = 9971;
+	inline static constexpr unsigned int EHollowShopType_TypeDefinitionIndex = 12747;
 
 	enum class EHollowShopType : ::System::Int16
 	{
-		Curse = 3,
-		Item = 1,
-		HollowItem = 4,
-		All = 0,
 		EnumCount = 7,
-		Card = 2,
-		Gachashop = 6,
 		Discount = 5,
+		All = 0,
+		Gachashop = 6,
+		Card = 2,
+		HollowItem = 4,
+		Item = 1,
+		Curse = 3,
 	};
 }

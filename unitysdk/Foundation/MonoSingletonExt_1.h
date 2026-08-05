@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace Foundation
 {
-	inline static constexpr unsigned int MonoSingletonExt_1_TypeDefinitionIndex = 8360;
+	inline static constexpr unsigned int MonoSingletonExt_1_TypeDefinitionIndex = 8084;
 
 	template <typename T>
 	class MonoSingletonExt_1 : public ::UnityEngine::MonoBehaviour

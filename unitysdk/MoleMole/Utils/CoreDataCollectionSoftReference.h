@@ -4,11 +4,11 @@
 
 namespace PipelineCamera::CameraSequence { class CoreDataCollection; }
 
-#define MOLEMOLE_UTILS_COREDATACOLLECTIONSOFTREFERENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x139E1B10)
+#define MOLEMOLE_UTILS_COREDATACOLLECTIONSOFTREFERENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x162F57A0)
 
 namespace MoleMole::Utils
 {
-	inline static constexpr unsigned int CoreDataCollectionSoftReference_TypeDefinitionIndex = 56177;
+	inline static constexpr unsigned int CoreDataCollectionSoftReference_TypeDefinitionIndex = 50935;
 
 	class CoreDataCollectionSoftReference : public ::MoleMole::Utils::SoftScriptObjectReference_1<::PipelineCamera::CameraSequence::CoreDataCollection*>
 	{

@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace QWER
 {
-	inline static constexpr unsigned int CSkipList_2_KeyCollection_TypeDefinitionIndex = 8821;
+	inline static constexpr unsigned int CSkipList_2_KeyCollection_TypeDefinitionIndex = 8908;
 
 	template <typename T, typename U>
 	class CSkipList_2_KeyCollection : public ::System::Object

@@ -1,21 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/UI/Extension/TimeType.h"
 
 namespace System { class String; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::UI { class Text; }
 
-#define UNITYENGINE_UI_EXTENSION_UITIMESTRUCT_SETACTIVE_OFFSET UNITYSDK_OFFSET(0x1B5AE790)
-#define UNITYENGINE_UI_EXTENSION_UITIMESTRUCT_SETTIMECOLOR_OFFSET UNITYSDK_OFFSET(0x1B5AE180)
-#define UNITYENGINE_UI_EXTENSION_UITIMESTRUCT_SETTIMEDESCOLOR_OFFSET UNITYSDK_OFFSET(0x1B5AE0C0)
-#define UNITYENGINE_UI_EXTENSION_UITIMESTRUCT_SETTIME_OFFSET UNITYSDK_OFFSET(0x1B5AE240)
-#define UNITYENGINE_UI_EXTENSION_UITIMESTRUCT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5AE910)
+#define UNITYENGINE_UI_EXTENSION_UITIMESTRUCT_SETACTIVE_OFFSET UNITYSDK_OFFSET(0x1D345190)
+#define UNITYENGINE_UI_EXTENSION_UITIMESTRUCT_SETTIMECOLOR_1_OFFSET UNITYSDK_OFFSET(0x1D344BE0)
+#define UNITYENGINE_UI_EXTENSION_UITIMESTRUCT_SETTIMECOLOR_OFFSET UNITYSDK_OFFSET(0x1D344B20)
+#define UNITYENGINE_UI_EXTENSION_UITIMESTRUCT_SETTIMEDESCOLOR_1_OFFSET UNITYSDK_OFFSET(0x1D344AB0)
+#define UNITYENGINE_UI_EXTENSION_UITIMESTRUCT_SETTIMEDESCOLOR_OFFSET UNITYSDK_OFFSET(0x1D3449F0)
+#define UNITYENGINE_UI_EXTENSION_UITIMESTRUCT_SETTIME_OFFSET UNITYSDK_OFFSET(0x1D344C50)
+#define UNITYENGINE_UI_EXTENSION_UITIMESTRUCT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D345310)
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int UITimeStruct_TypeDefinitionIndex = 87469;
+	inline static constexpr unsigned int UITimeStruct_TypeDefinitionIndex = 87368;
 
 	class UITimeStruct : public ::System::Object
 	{
@@ -36,9 +39,19 @@ namespace UnityEngine::UI::Extension
 			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_EXTENSION_UITIMESTRUCT_SETTIMEDESCOLOR_OFFSET))(this, colorKey);
 		}
 
+		::System::Void SetTimeDesColor_1(::UnityEngine::Color color)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_EXTENSION_UITIMESTRUCT_SETTIMEDESCOLOR_1_OFFSET))(this, color);
+		}
+
 		::System::Void SetTimeColor(::System::String* colorKey)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_EXTENSION_UITIMESTRUCT_SETTIMECOLOR_OFFSET))(this, colorKey);
+		}
+
+		::System::Void SetTimeColor_1(::UnityEngine::Color color)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_EXTENSION_UITIMESTRUCT_SETTIMECOLOR_1_OFFSET))(this, color);
 		}
 
 		::System::Void SetTime(::UnityEngine::UI::Extension::TimeType type, ::System::Int32 value)

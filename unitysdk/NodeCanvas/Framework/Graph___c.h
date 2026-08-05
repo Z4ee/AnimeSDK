@@ -6,39 +6,39 @@ namespace NodeCanvas::Framework { class BBParameter; }
 namespace NodeCanvas::Framework { class Node; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define NODECANVAS_FRAMEWORK_GRAPH___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D393FF0)
-#define NODECANVAS_FRAMEWORK_GRAPH___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1D394030)
-#define NODECANVAS_FRAMEWORK_GRAPH___C__GETDEFINEDPARAMETERS_B__218_0_OFFSET UNITYSDK_OFFSET(0x1D3940E0)
-#define NODECANVAS_FRAMEWORK_GRAPH___C__GETLEAFNODES_B__215_0_OFFSET UNITYSDK_OFFSET(0x1D3940B0)
-#define NODECANVAS_FRAMEWORK_GRAPH___C__GETROOTNODES_B__214_0_OFFSET UNITYSDK_OFFSET(0x1D394080)
-#define NODECANVAS_FRAMEWORK_GRAPH___C__UPDATENODEIDS_B__172_0_OFFSET UNITYSDK_OFFSET(0x1D394040)
+#define NODECANVAS_FRAMEWORK_GRAPH___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E72D7E0)
+#define NODECANVAS_FRAMEWORK_GRAPH___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1E72D820)
+#define NODECANVAS_FRAMEWORK_GRAPH___C__GETDEFINEDPARAMETERS_B__218_0_OFFSET UNITYSDK_OFFSET(0x1E72D8D0)
+#define NODECANVAS_FRAMEWORK_GRAPH___C__GETLEAFNODES_B__215_0_OFFSET UNITYSDK_OFFSET(0x1E72D8A0)
+#define NODECANVAS_FRAMEWORK_GRAPH___C__GETROOTNODES_B__214_0_OFFSET UNITYSDK_OFFSET(0x1E72D870)
+#define NODECANVAS_FRAMEWORK_GRAPH___C__UPDATENODEIDS_B__172_0_OFFSET UNITYSDK_OFFSET(0x1E72D830)
 
 namespace NodeCanvas::Framework
 {
-	inline static constexpr unsigned int Graph___c_TypeDefinitionIndex = 29268;
+	inline static constexpr unsigned int Graph___c_TypeDefinitionIndex = 29747;
 
 	class Graph___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::NodeCanvas::Framework::Node*, ::System::Int32>** StaticGet___9__172_0()
+		static ::System::Func_2<::NodeCanvas::Framework::Node*, ::System::Boolean>** StaticGet___9__214_0()
 		{
-			return (::System::Func_2<::NodeCanvas::Framework::Node*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Graph___c_TypeDefinitionIndex)->GetStaticField(0x23B60);
+			return (::System::Func_2<::NodeCanvas::Framework::Node*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Graph___c_TypeDefinitionIndex)->GetStaticField(0x253A0);
 		}
 		static ::NodeCanvas::Framework::Graph___c** StaticGet___9()
 		{
-			return (::NodeCanvas::Framework::Graph___c**)Il2CppClass::FromTypeDefinitionIndex(Graph___c_TypeDefinitionIndex)->GetStaticField(0x23B68);
-		}
-		static ::System::Func_2<::NodeCanvas::Framework::Node*, ::System::Boolean>** StaticGet___9__214_0()
-		{
-			return (::System::Func_2<::NodeCanvas::Framework::Node*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Graph___c_TypeDefinitionIndex)->GetStaticField(0x23B70);
-		}
-		static ::System::Func_2<::NodeCanvas::Framework::BBParameter*, ::System::Boolean>** StaticGet___9__218_0()
-		{
-			return (::System::Func_2<::NodeCanvas::Framework::BBParameter*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Graph___c_TypeDefinitionIndex)->GetStaticField(0x23B78);
+			return (::NodeCanvas::Framework::Graph___c**)Il2CppClass::FromTypeDefinitionIndex(Graph___c_TypeDefinitionIndex)->GetStaticField(0x253A8);
 		}
 		static ::System::Func_2<::NodeCanvas::Framework::Node*, ::System::Boolean>** StaticGet___9__215_0()
 		{
-			return (::System::Func_2<::NodeCanvas::Framework::Node*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Graph___c_TypeDefinitionIndex)->GetStaticField(0x23B80);
+			return (::System::Func_2<::NodeCanvas::Framework::Node*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Graph___c_TypeDefinitionIndex)->GetStaticField(0x253B0);
+		}
+		static ::System::Func_2<::NodeCanvas::Framework::Node*, ::System::Int32>** StaticGet___9__172_0()
+		{
+			return (::System::Func_2<::NodeCanvas::Framework::Node*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Graph___c_TypeDefinitionIndex)->GetStaticField(0x253B8);
+		}
+		static ::System::Func_2<::NodeCanvas::Framework::BBParameter*, ::System::Boolean>** StaticGet___9__218_0()
+		{
+			return (::System::Func_2<::NodeCanvas::Framework::BBParameter*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Graph___c_TypeDefinitionIndex)->GetStaticField(0x253C0);
 		}
 
 		static ::System::Void _cctor()

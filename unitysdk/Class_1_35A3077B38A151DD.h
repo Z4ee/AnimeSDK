@@ -9,25 +9,25 @@ namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_35A3077B38A151DD_METHOD_1_49DFA39A30A44449_OFFSET UNITYSDK_OFFSET(0x150AC1E0)
-#define CLASS_1_35A3077B38A151DD_METHOD_1_502A81344CAEE4A4_OFFSET UNITYSDK_OFFSET(0x150AC0F0)
-#define CLASS_1_35A3077B38A151DD_METHOD_1_6EA936DEB0F2A45A_OFFSET UNITYSDK_OFFSET(0x150AC400)
-#define CLASS_1_35A3077B38A151DD_METHOD_1_885835DE88BDB17E_OFFSET UNITYSDK_OFFSET(0x150AC6F0)
-#define CLASS_1_35A3077B38A151DD_METHOD_1_E4E8897F3C66CB55_OFFSET UNITYSDK_OFFSET(0x150AC6E0)
+#define CLASS_1_35A3077B38A151DD_METHOD_1_49DFA39A30A44449_OFFSET UNITYSDK_OFFSET(0x16F6FA50)
+#define CLASS_1_35A3077B38A151DD_METHOD_1_502A81344CAEE4A4_OFFSET UNITYSDK_OFFSET(0x16F6FF70)
+#define CLASS_1_35A3077B38A151DD_METHOD_1_6EA936DEB0F2A45A_OFFSET UNITYSDK_OFFSET(0x16F6FC70)
+#define CLASS_1_35A3077B38A151DD_METHOD_1_885835DE88BDB17E_OFFSET UNITYSDK_OFFSET(0x16F6FF60)
+#define CLASS_1_35A3077B38A151DD_METHOD_1_E4E8897F3C66CB55_OFFSET UNITYSDK_OFFSET(0x16F6FF50)
 
-inline static constexpr unsigned int Class_1_35A3077B38A151DD_TypeDefinitionIndex = 61218;
+inline static constexpr unsigned int Class_1_35A3077B38A151DD_TypeDefinitionIndex = 62844;
 
 class Class_1_35A3077B38A151DD : public ::System::Object
 {
 public:
 	static ::MoleMole::Config::SkillTypeToAttackTagsConfig** StaticGet_Field_1_0()
 	{
-		return (::MoleMole::Config::SkillTypeToAttackTagsConfig**)Il2CppClass::FromTypeDefinitionIndex(Class_1_35A3077B38A151DD_TypeDefinitionIndex)->GetStaticField(0x32B00);
+		return (::MoleMole::Config::SkillTypeToAttackTagsConfig**)Il2CppClass::FromTypeDefinitionIndex(Class_1_35A3077B38A151DD_TypeDefinitionIndex)->GetStaticField(0x41C80);
 	}
 
-	static ::System::Void Method_1_502A81344CAEE4A4(::System::Single a1, ::System::Action_1<::System::Single>* a2, ::System::Action_1<::System::String*>* a3, ::System::String* a4)
+	static ::System::Void Method_1_49DFA39A30A44449(::System::Boolean a1, ::System::Action* a2)
 	{
-		return ((::System::Void(*)(::System::Single, ::System::Action_1<::System::Single>*, ::System::Action_1<::System::String*>*, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_35A3077B38A151DD_METHOD_1_502A81344CAEE4A4_OFFSET))(a1, a2, a3, a4);
+		return ((::System::Void(*)(::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + CLASS_1_35A3077B38A151DD_METHOD_1_49DFA39A30A44449_OFFSET))(a1, a2);
 	}
 
 	static ::System::Boolean Method_1_6EA936DEB0F2A45A(::System::Collections::Generic::List_1<::System::String*>* a1, ::MoleMole::Config::EntitySkillType& a2)
@@ -45,8 +45,8 @@ public:
 		return ((::System::Void(*)(::MoleMole::Config::SkillTypeToAttackTagsConfig*))((::PBYTE)hIl2Cpp + CLASS_1_35A3077B38A151DD_METHOD_1_885835DE88BDB17E_OFFSET))(a1);
 	}
 
-	static ::System::Void Method_1_49DFA39A30A44449(::System::Boolean a1, ::System::Action* a2)
+	static ::System::Void Method_1_502A81344CAEE4A4(::System::Single a1, ::System::Action_1<::System::Single>* a2, ::System::Action_1<::System::String*>* a3, ::System::String* a4)
 	{
-		return ((::System::Void(*)(::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + CLASS_1_35A3077B38A151DD_METHOD_1_49DFA39A30A44449_OFFSET))(a1, a2);
+		return ((::System::Void(*)(::System::Single, ::System::Action_1<::System::Single>*, ::System::Action_1<::System::String*>*, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_35A3077B38A151DD_METHOD_1_502A81344CAEE4A4_OFFSET))(a1, a2, a3, a4);
 	}
 };

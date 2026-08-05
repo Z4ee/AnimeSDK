@@ -5,28 +5,28 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define STRUCT_2_DAA84C1CDD754F37_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x69B3D0)
-#define STRUCT_2_DAA84C1CDD754F37_EQUALS_OFFSET UNITYSDK_OFFSET(0x69B2C0)
-#define STRUCT_2_DAA84C1CDD754F37_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x69B420)
-#define STRUCT_2_DAA84C1CDD754F37_METHOD_2_35EA095E1AFDD9C8_OFFSET UNITYSDK_OFFSET(0x69B540)
-#define STRUCT_2_DAA84C1CDD754F37_METHOD_2_6D0360BD23602584_OFFSET UNITYSDK_OFFSET(0x69B4B0)
-#define STRUCT_2_DAA84C1CDD754F37_METHOD_2_95780ED94B90ED36_OFFSET UNITYSDK_OFFSET(0x69B430)
-#define STRUCT_2_DAA84C1CDD754F37_TOSTRING_OFFSET UNITYSDK_OFFSET(0x69B2B0)
-#define STRUCT_2_DAA84C1CDD754F37__CTOR_OFFSET UNITYSDK_OFFSET(0x69B270)
+#define STRUCT_2_DAA84C1CDD754F37_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x804350)
+#define STRUCT_2_DAA84C1CDD754F37_EQUALS_OFFSET UNITYSDK_OFFSET(0x804240)
+#define STRUCT_2_DAA84C1CDD754F37_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x8043A0)
+#define STRUCT_2_DAA84C1CDD754F37_METHOD_2_35EA095E1AFDD9C8_OFFSET UNITYSDK_OFFSET(0x804440)
+#define STRUCT_2_DAA84C1CDD754F37_METHOD_2_6D0360BD23602584_OFFSET UNITYSDK_OFFSET(0x8043B0)
+#define STRUCT_2_DAA84C1CDD754F37_METHOD_2_95780ED94B90ED36_OFFSET UNITYSDK_OFFSET(0x8044E0)
+#define STRUCT_2_DAA84C1CDD754F37_TOSTRING_OFFSET UNITYSDK_OFFSET(0x804230)
+#define STRUCT_2_DAA84C1CDD754F37__CTOR_OFFSET UNITYSDK_OFFSET(0x8041F0)
 
-inline static constexpr unsigned int Struct_2_DAA84C1CDD754F37_TypeDefinitionIndex = 40890;
+inline static constexpr unsigned int Struct_2_DAA84C1CDD754F37_TypeDefinitionIndex = 78677;
 
 struct alignas(8) Struct_2_DAA84C1CDD754F37
 {
-	::System::String* Field_2_0; // 0x10
+	::System::String* Field_2_2; // 0x10
 	::System::String* Field_2_1; // 0x18
-	::System::String* Field_2_2; // 0x20
-	::System::Int64 Field_2_3; // 0x28
-	::System::String* Field_2_4; // 0x30
+	::System::String* Field_2_0; // 0x20
+	::System::Int64 Field_2_7; // 0x28
+	::System::String* Field_2_6; // 0x30
 	::System::Boolean Field_2_5; // 0x38
-	::System::String* Field_2_6; // 0x40
-	::System::String* Field_2_7; // 0x48
-	::System::String* Field_2_8; // 0x50
+	::System::String* Field_2_4; // 0x40
+	::System::String* Field_2_11; // 0x48
+	::System::String* Field_2_10; // 0x50
 
 	::System::Void _ctor(::System::String* a1, ::System::String* a2, ::System::String* a3, ::System::Int64 a4, ::System::String* a5, ::System::Boolean a6, ::System::String* a7, ::System::String* a8, ::System::String* a9)
 	{
@@ -53,11 +53,6 @@ struct alignas(8) Struct_2_DAA84C1CDD754F37
 		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_DAA84C1CDD754F37_GETHASHCODE_OFFSET))(this);
 	}
 
-	::System::Int32 Method_2_95780ED94B90ED36()
-	{
-		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_DAA84C1CDD754F37_METHOD_2_95780ED94B90ED36_OFFSET))(this);
-	}
-
 	::System::Boolean Method_2_6D0360BD23602584(::System::Object* a1)
 	{
 		return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + STRUCT_2_DAA84C1CDD754F37_METHOD_2_6D0360BD23602584_OFFSET))(this, a1);
@@ -66,5 +61,10 @@ struct alignas(8) Struct_2_DAA84C1CDD754F37
 	::System::String* Method_2_35EA095E1AFDD9C8()
 	{
 		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_DAA84C1CDD754F37_METHOD_2_35EA095E1AFDD9C8_OFFSET))(this);
+	}
+
+	::System::Int32 Method_2_95780ED94B90ED36()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_DAA84C1CDD754F37_METHOD_2_95780ED94B90ED36_OFFSET))(this);
 	}
 };

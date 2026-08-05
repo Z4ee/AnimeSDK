@@ -7,9 +7,9 @@ namespace MoleMole { class TextureSheetLoopFrame; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::Events { class UnityAction; }
 
-#define TEXTUREFRAMESCREENPLAYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC19170)
+#define TEXTUREFRAMESCREENPLAYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18C5BFC0)
 
-inline static constexpr unsigned int TextureFrameScreenPlayData_TypeDefinitionIndex = 40220;
+inline static constexpr unsigned int TextureFrameScreenPlayData_TypeDefinitionIndex = 71668;
 
 class TextureFrameScreenPlayData : public ::ScreenPlayData
 {

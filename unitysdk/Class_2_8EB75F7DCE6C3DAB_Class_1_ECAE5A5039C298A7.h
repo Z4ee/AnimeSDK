@@ -1,0 +1,50 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/UnityEngine/Color.h"
+
+class Class_2_8EB75F7DCE6C3DAB;
+namespace System { class String; }
+namespace UnityEngine::UI::Extension { class UILocalizationText; }
+
+#define CLASS_2_8EB75F7DCE6C3DAB_CLASS_1_ECAE5A5039C298A7_METHOD_1_6DB7F02C86F17C83_1_OFFSET UNITYSDK_OFFSET(0x1547CE70)
+#define CLASS_2_8EB75F7DCE6C3DAB_CLASS_1_ECAE5A5039C298A7_METHOD_1_6DB7F02C86F17C83_OFFSET UNITYSDK_OFFSET(0x1547CC30)
+#define CLASS_2_8EB75F7DCE6C3DAB_CLASS_1_ECAE5A5039C298A7_METHOD_1_D8BBE902D5584ABE_1_OFFSET UNITYSDK_OFFSET(0x1547C7A0)
+#define CLASS_2_8EB75F7DCE6C3DAB_CLASS_1_ECAE5A5039C298A7_METHOD_1_D8BBE902D5584ABE_OFFSET UNITYSDK_OFFSET(0x1547C310)
+#define CLASS_2_8EB75F7DCE6C3DAB_CLASS_1_ECAE5A5039C298A7__CTOR_OFFSET UNITYSDK_OFFSET(0x1547C300)
+
+inline static constexpr unsigned int Class_2_8EB75F7DCE6C3DAB_Class_1_ECAE5A5039C298A7_TypeDefinitionIndex = 57663;
+
+class Class_2_8EB75F7DCE6C3DAB_Class_1_ECAE5A5039C298A7 : public ::System::Object
+{
+public:
+	::UnityEngine::UI::Extension::UILocalizationText* Field_1_6; // 0x10
+	::Class_2_8EB75F7DCE6C3DAB* Field_1_1; // 0x18
+	::UnityEngine::UI::Extension::UILocalizationText* Field_1_0; // 0x20
+	::UnityEngine::Color Field_1_7; // 0x28
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_8EB75F7DCE6C3DAB_CLASS_1_ECAE5A5039C298A7__CTOR_OFFSET))(this);
+	}
+
+	::System::String* Method_1_D8BBE902D5584ABE()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_8EB75F7DCE6C3DAB_CLASS_1_ECAE5A5039C298A7_METHOD_1_D8BBE902D5584ABE_OFFSET))(this);
+	}
+
+	::System::String* Method_1_D8BBE902D5584ABE_1()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_8EB75F7DCE6C3DAB_CLASS_1_ECAE5A5039C298A7_METHOD_1_D8BBE902D5584ABE_1_OFFSET))(this);
+	}
+
+	::System::String* Method_1_6DB7F02C86F17C83()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_8EB75F7DCE6C3DAB_CLASS_1_ECAE5A5039C298A7_METHOD_1_6DB7F02C86F17C83_OFFSET))(this);
+	}
+
+	::System::String* Method_1_6DB7F02C86F17C83_1()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_8EB75F7DCE6C3DAB_CLASS_1_ECAE5A5039C298A7_METHOD_1_6DB7F02C86F17C83_1_OFFSET))(this);
+	}
+};

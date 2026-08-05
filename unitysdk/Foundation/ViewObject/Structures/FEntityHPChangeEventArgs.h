@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace Foundation::ViewObject::Structures
 {
-	inline static constexpr unsigned int FEntityHPChangeEventArgs_TypeDefinitionIndex = 69515;
+	inline static constexpr unsigned int FEntityHPChangeEventArgs_TypeDefinitionIndex = 59110;
 
 	struct alignas(8) FEntityHPChangeEventArgs
 	{

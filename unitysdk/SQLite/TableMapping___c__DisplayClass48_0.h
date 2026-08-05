@@ -5,12 +5,12 @@
 namespace SQLite { class TableMapping_Column; }
 namespace System { class String; }
 
-#define SQLITE_TABLEMAPPING___C__DISPLAYCLASS48_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1D645960)
-#define SQLITE_TABLEMAPPING___C__DISPLAYCLASS48_0__FINDCOLUMN_B__0_OFFSET UNITYSDK_OFFSET(0x1D645C90)
+#define SQLITE_TABLEMAPPING___C__DISPLAYCLASS48_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA0D7F0)
+#define SQLITE_TABLEMAPPING___C__DISPLAYCLASS48_0__FINDCOLUMN_B__0_OFFSET UNITYSDK_OFFSET(0x1EA0DB20)
 
 namespace SQLite
 {
-	inline static constexpr unsigned int TableMapping___c__DisplayClass48_0_TypeDefinitionIndex = 38399;
+	inline static constexpr unsigned int TableMapping___c__DisplayClass48_0_TypeDefinitionIndex = 39060;
 
 	class TableMapping___c__DisplayClass48_0 : public ::System::Object
 	{

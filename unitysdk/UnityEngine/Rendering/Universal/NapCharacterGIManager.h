@@ -8,34 +8,34 @@ namespace UnityEngine::Rendering::Universal { class NapCharacterGI; }
 namespace UnityEngine::Rendering::Universal { class NapCharacterGIWeather; }
 namespace UnityEngine::Rendering::Universal { class UniversalRenderPipelineAsset; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCHARACTERGIMANAGER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1CF0AFF0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCHARACTERGIMANAGER_ISVALIDGI_OFFSET UNITYSDK_OFFSET(0x1CF0A980)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCHARACTERGIMANAGER_PREPAREGPUSAMPLECONTEXT_OFFSET UNITYSDK_OFFSET(0x1CF0A590)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCHARACTERGIMANAGER_SETDUMMYBUFFERS_OFFSET UNITYSDK_OFFSET(0x1CF0A350)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCHARACTERGIMANAGER_SETGLOBALBUFFERS_OFFSET UNITYSDK_OFFSET(0x1CF0AE70)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCHARACTERGIMANAGER_SETUPEMPTYGI_OFFSET UNITYSDK_OFFSET(0x1CF0ACC0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCHARACTERGIMANAGER_SETUPVALIDGI_OFFSET UNITYSDK_OFFSET(0x1CF0AA00)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCHARACTERGIMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CF0B070)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCHARACTERGIMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF0B060)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCHARACTERGIMANAGER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1E2650F0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCHARACTERGIMANAGER_ISVALIDGI_OFFSET UNITYSDK_OFFSET(0x1E264A30)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCHARACTERGIMANAGER_PREPAREGPUSAMPLECONTEXT_OFFSET UNITYSDK_OFFSET(0x1E264630)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCHARACTERGIMANAGER_SETDUMMYBUFFERS_OFFSET UNITYSDK_OFFSET(0x1E2643F0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCHARACTERGIMANAGER_SETGLOBALBUFFERS_OFFSET UNITYSDK_OFFSET(0x1E264F70)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCHARACTERGIMANAGER_SETUPEMPTYGI_OFFSET UNITYSDK_OFFSET(0x1E264DC0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCHARACTERGIMANAGER_SETUPVALIDGI_OFFSET UNITYSDK_OFFSET(0x1E264AB0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCHARACTERGIMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E265170)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCHARACTERGIMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E265160)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int NapCharacterGIManager_TypeDefinitionIndex = 27173;
+	inline static constexpr unsigned int NapCharacterGIManager_TypeDefinitionIndex = 27776;
 
 	class NapCharacterGIManager : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::Rendering::Universal::NapCharacterGIManager** StaticGet_instance()
-		{
-			return (::UnityEngine::Rendering::Universal::NapCharacterGIManager**)Il2CppClass::FromTypeDefinitionIndex(NapCharacterGIManager_TypeDefinitionIndex)->GetStaticField(0x21880);
-		}
 		static ::UnityEngine::Rendering::Universal::NapCharacterGI** StaticGet_lastCgi()
 		{
-			return (::UnityEngine::Rendering::Universal::NapCharacterGI**)Il2CppClass::FromTypeDefinitionIndex(NapCharacterGIManager_TypeDefinitionIndex)->GetStaticField(0x21888);
+			return (::UnityEngine::Rendering::Universal::NapCharacterGI**)Il2CppClass::FromTypeDefinitionIndex(NapCharacterGIManager_TypeDefinitionIndex)->GetStaticField(0x23010);
+		}
+		static ::UnityEngine::Rendering::Universal::NapCharacterGIManager** StaticGet_instance()
+		{
+			return (::UnityEngine::Rendering::Universal::NapCharacterGIManager**)Il2CppClass::FromTypeDefinitionIndex(NapCharacterGIManager_TypeDefinitionIndex)->GetStaticField(0x23018);
 		}
 		static ::System::Int32* StaticGet_lastWeatherIndex()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NapCharacterGIManager_TypeDefinitionIndex)->GetStaticField(0x65D0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NapCharacterGIManager_TypeDefinitionIndex)->GetStaticField(0x65A0);
 		}
 		::UnityEngine::ComputeBuffer* giPositionBuffer; // 0x10
 		::UnityEngine::ComputeBuffer* giIndexBuffer; // 0x18

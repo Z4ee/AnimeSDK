@@ -5,36 +5,28 @@
 namespace ICSharpCode::SharpZipLib::Zip::Compression { class DeflaterHuffman_Tree; }
 namespace ICSharpCode::SharpZipLib::Zip::Compression { class DeflaterPending; }
 
-#define ICSHARPCODE_SHARPZIPLIB_ZIP_COMPRESSION_DEFLATERHUFFMAN_BITREVERSE_OFFSET UNITYSDK_OFFSET(0x1D68AE60)
-#define ICSHARPCODE_SHARPZIPLIB_ZIP_COMPRESSION_DEFLATERHUFFMAN_COMPRESSBLOCK_OFFSET UNITYSDK_OFFSET(0x1D68BB80)
-#define ICSHARPCODE_SHARPZIPLIB_ZIP_COMPRESSION_DEFLATERHUFFMAN_DCODE_OFFSET UNITYSDK_OFFSET(0x1D68BEC0)
-#define ICSHARPCODE_SHARPZIPLIB_ZIP_COMPRESSION_DEFLATERHUFFMAN_FLUSHBLOCK_OFFSET UNITYSDK_OFFSET(0x1D68BFB0)
-#define ICSHARPCODE_SHARPZIPLIB_ZIP_COMPRESSION_DEFLATERHUFFMAN_FLUSHSTOREDBLOCK_OFFSET UNITYSDK_OFFSET(0x1D68BEF0)
-#define ICSHARPCODE_SHARPZIPLIB_ZIP_COMPRESSION_DEFLATERHUFFMAN_ISFULL_OFFSET UNITYSDK_OFFSET(0x1D68D3A0)
-#define ICSHARPCODE_SHARPZIPLIB_ZIP_COMPRESSION_DEFLATERHUFFMAN_LCODE_OFFSET UNITYSDK_OFFSET(0x1D68BE00)
-#define ICSHARPCODE_SHARPZIPLIB_ZIP_COMPRESSION_DEFLATERHUFFMAN_RESET_OFFSET UNITYSDK_OFFSET(0x1D68B1E0)
-#define ICSHARPCODE_SHARPZIPLIB_ZIP_COMPRESSION_DEFLATERHUFFMAN_SENDALLTREES_OFFSET UNITYSDK_OFFSET(0x1D68B310)
-#define ICSHARPCODE_SHARPZIPLIB_ZIP_COMPRESSION_DEFLATERHUFFMAN_TALLYDIST_OFFSET UNITYSDK_OFFSET(0x1D68D460)
-#define ICSHARPCODE_SHARPZIPLIB_ZIP_COMPRESSION_DEFLATERHUFFMAN_TALLYLIT_OFFSET UNITYSDK_OFFSET(0x1D68D3B0)
-#define ICSHARPCODE_SHARPZIPLIB_ZIP_COMPRESSION_DEFLATERHUFFMAN__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D68A7B0)
-#define ICSHARPCODE_SHARPZIPLIB_ZIP_COMPRESSION_DEFLATERHUFFMAN__CTOR_OFFSET UNITYSDK_OFFSET(0x1D68AFA0)
+#define ICSHARPCODE_SHARPZIPLIB_ZIP_COMPRESSION_DEFLATERHUFFMAN_BITREVERSE_OFFSET UNITYSDK_OFFSET(0x1EA440E0)
+#define ICSHARPCODE_SHARPZIPLIB_ZIP_COMPRESSION_DEFLATERHUFFMAN_COMPRESSBLOCK_OFFSET UNITYSDK_OFFSET(0x1EA44E40)
+#define ICSHARPCODE_SHARPZIPLIB_ZIP_COMPRESSION_DEFLATERHUFFMAN_DCODE_OFFSET UNITYSDK_OFFSET(0x1EA45180)
+#define ICSHARPCODE_SHARPZIPLIB_ZIP_COMPRESSION_DEFLATERHUFFMAN_FLUSHBLOCK_OFFSET UNITYSDK_OFFSET(0x1EA45270)
+#define ICSHARPCODE_SHARPZIPLIB_ZIP_COMPRESSION_DEFLATERHUFFMAN_FLUSHSTOREDBLOCK_OFFSET UNITYSDK_OFFSET(0x1EA451B0)
+#define ICSHARPCODE_SHARPZIPLIB_ZIP_COMPRESSION_DEFLATERHUFFMAN_ISFULL_OFFSET UNITYSDK_OFFSET(0x1EA46480)
+#define ICSHARPCODE_SHARPZIPLIB_ZIP_COMPRESSION_DEFLATERHUFFMAN_LCODE_OFFSET UNITYSDK_OFFSET(0x1EA450C0)
+#define ICSHARPCODE_SHARPZIPLIB_ZIP_COMPRESSION_DEFLATERHUFFMAN_RESET_OFFSET UNITYSDK_OFFSET(0x1EA44450)
+#define ICSHARPCODE_SHARPZIPLIB_ZIP_COMPRESSION_DEFLATERHUFFMAN_SENDALLTREES_OFFSET UNITYSDK_OFFSET(0x1EA445B0)
+#define ICSHARPCODE_SHARPZIPLIB_ZIP_COMPRESSION_DEFLATERHUFFMAN_TALLYDIST_OFFSET UNITYSDK_OFFSET(0x1EA46540)
+#define ICSHARPCODE_SHARPZIPLIB_ZIP_COMPRESSION_DEFLATERHUFFMAN_TALLYLIT_OFFSET UNITYSDK_OFFSET(0x1EA46490)
+#define ICSHARPCODE_SHARPZIPLIB_ZIP_COMPRESSION_DEFLATERHUFFMAN__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA43A30)
+#define ICSHARPCODE_SHARPZIPLIB_ZIP_COMPRESSION_DEFLATERHUFFMAN__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA44220)
 
 namespace ICSharpCode::SharpZipLib::Zip::Compression
 {
-	inline static constexpr unsigned int DeflaterHuffman_TypeDefinitionIndex = 6829;
+	inline static constexpr unsigned int DeflaterHuffman_TypeDefinitionIndex = 6833;
 
 	class DeflaterHuffman : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::Int32>** StaticGet_BL_ORDER()
-		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(DeflaterHuffman_TypeDefinitionIndex)->GetStaticField(0x5C90);
-		}
 		static ::Il2CppArray<::System::Byte>** StaticGet_bit4Reverse()
-		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(DeflaterHuffman_TypeDefinitionIndex)->GetStaticField(0x5C98);
-		}
-		static ::Il2CppArray<::System::Byte>** StaticGet_staticLLength()
 		{
 			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(DeflaterHuffman_TypeDefinitionIndex)->GetStaticField(0x5CA0);
 		}
@@ -42,13 +34,21 @@ namespace ICSharpCode::SharpZipLib::Zip::Compression
 		{
 			return (::Il2CppArray<::System::Int16>**)Il2CppClass::FromTypeDefinitionIndex(DeflaterHuffman_TypeDefinitionIndex)->GetStaticField(0x5CA8);
 		}
+		static ::Il2CppArray<::System::Int32>** StaticGet_BL_ORDER()
+		{
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(DeflaterHuffman_TypeDefinitionIndex)->GetStaticField(0x5CB0);
+		}
+		static ::Il2CppArray<::System::Byte>** StaticGet_staticLLength()
+		{
+			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(DeflaterHuffman_TypeDefinitionIndex)->GetStaticField(0x5CB8);
+		}
 		static ::Il2CppArray<::System::Int16>** StaticGet_staticDCodes()
 		{
-			return (::Il2CppArray<::System::Int16>**)Il2CppClass::FromTypeDefinitionIndex(DeflaterHuffman_TypeDefinitionIndex)->GetStaticField(0x5CB0);
+			return (::Il2CppArray<::System::Int16>**)Il2CppClass::FromTypeDefinitionIndex(DeflaterHuffman_TypeDefinitionIndex)->GetStaticField(0x5CC0);
 		}
 		static ::Il2CppArray<::System::Byte>** StaticGet_staticDLength()
 		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(DeflaterHuffman_TypeDefinitionIndex)->GetStaticField(0x5CB8);
+			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(DeflaterHuffman_TypeDefinitionIndex)->GetStaticField(0x5CC8);
 		}
 		// static const ::System::Int32 BUFSIZE = 0x4000; // 0x0
 		// static const ::System::Int32 LITERAL_NUM = 0x11E; // 0x0
@@ -58,14 +58,14 @@ namespace ICSharpCode::SharpZipLib::Zip::Compression
 		// static const ::System::Int32 REP_3_10 = 0x11; // 0x0
 		// static const ::System::Int32 REP_11_138 = 0x12; // 0x0
 		// static const ::System::Int32 EOF_SYMBOL = 0x100; // 0x0
-		::ICSharpCode::SharpZipLib::Zip::Compression::DeflaterHuffman_Tree* distTree; // 0x10
-		::ICSharpCode::SharpZipLib::Zip::Compression::DeflaterHuffman_Tree* literalTree; // 0x18
-		::ICSharpCode::SharpZipLib::Zip::Compression::DeflaterPending* pending; // 0x20
-		::Il2CppArray<::System::Byte>* l_buf; // 0x28
-		::ICSharpCode::SharpZipLib::Zip::Compression::DeflaterHuffman_Tree* blTree; // 0x30
-		::Il2CppArray<::System::Int16>* d_buf; // 0x38
-		::System::Int32 last_lit; // 0x40
-		::System::Int32 extra_bits; // 0x44
+		::ICSharpCode::SharpZipLib::Zip::Compression::DeflaterHuffman_Tree* blTree; // 0x10
+		::ICSharpCode::SharpZipLib::Zip::Compression::DeflaterPending* pending; // 0x18
+		::Il2CppArray<::System::Int16>* d_buf; // 0x20
+		::ICSharpCode::SharpZipLib::Zip::Compression::DeflaterHuffman_Tree* literalTree; // 0x28
+		::Il2CppArray<::System::Byte>* l_buf; // 0x30
+		::ICSharpCode::SharpZipLib::Zip::Compression::DeflaterHuffman_Tree* distTree; // 0x38
+		::System::Int32 extra_bits; // 0x40
+		::System::Int32 last_lit; // 0x44
 
 		static ::System::Void _cctor()
 		{

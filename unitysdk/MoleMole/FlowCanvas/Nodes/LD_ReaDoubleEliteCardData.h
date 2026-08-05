@@ -5,12 +5,12 @@
 
 namespace MoleMole::FlowCanvas::Nodes { template <typename T> class LDDGenericDataSource_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_READOUBLEELITECARDDATA_INVOKE_OFFSET UNITYSDK_OFFSET(0x10D48280)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_READOUBLEELITECARDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x10D482C0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_READOUBLEELITECARDDATA_INVOKE_OFFSET UNITYSDK_OFFSET(0x16851A30)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_READOUBLEELITECARDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x16851A70)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_ReaDoubleEliteCardData_TypeDefinitionIndex = 60457;
+	inline static constexpr unsigned int LD_ReaDoubleEliteCardData_TypeDefinitionIndex = 73390;
 
 	class LD_ReaDoubleEliteCardData : public ::FlowCanvas::Nodes::CallableFunctionNode_1<::MoleMole::FlowCanvas::Nodes::LDDGenericDataSource_1<::MoleMole::DoubleEliteCardInfo>*>
 	{

@@ -7,12 +7,12 @@
 class Class_1_D72537470FC2F779;
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGSCREENEFFECTCTRLNODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x170B49D0)
-#define MOLEMOLE_CONFIG_CONFIGSCREENEFFECTCTRLNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x170B4A40)
+#define MOLEMOLE_CONFIG_CONFIGSCREENEFFECTCTRLNODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x1B4D99D0)
+#define MOLEMOLE_CONFIG_CONFIGSCREENEFFECTCTRLNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4D9A40)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigScreenEffectCtrlNode_TypeDefinitionIndex = 76307;
+	inline static constexpr unsigned int ConfigScreenEffectCtrlNode_TypeDefinitionIndex = 50027;
 
 	class ConfigScreenEffectCtrlNode : public ::MoleMole::Config::ConfigUIBaseActionNode
 	{

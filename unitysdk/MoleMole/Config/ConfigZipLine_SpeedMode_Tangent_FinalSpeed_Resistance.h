@@ -4,11 +4,11 @@
 
 namespace MoleMole::Config { class ConfigZipLine_ConfigSpeedModifier_SlopeV2; }
 
-#define MOLEMOLE_CONFIG_CONFIGZIPLINE_SPEEDMODE_TANGENT_FINALSPEED_RESISTANCE__CTOR_OFFSET UNITYSDK_OFFSET(0x10D0DB10)
+#define MOLEMOLE_CONFIG_CONFIGZIPLINE_SPEEDMODE_TANGENT_FINALSPEED_RESISTANCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1170FA60)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigZipLine_SpeedMode_Tangent_FinalSpeed_Resistance_TypeDefinitionIndex = 51238;
+	inline static constexpr unsigned int ConfigZipLine_SpeedMode_Tangent_FinalSpeed_Resistance_TypeDefinitionIndex = 53010;
 
 	class ConfigZipLine_SpeedMode_Tangent_FinalSpeed_Resistance : public ::System::Object
 	{

@@ -10,8 +10,8 @@ namespace System::IO { class Stream; }
 namespace System::Net::WebSockets { class ClientWebSocketOptions; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define SYSTEM_NET_WEBSOCKETS_WEBSOCKETHANDLE__PARSEANDVALIDATECONNECTRESPONSEASYNC_D__28_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x951C00)
-#define SYSTEM_NET_WEBSOCKETS_WEBSOCKETHANDLE__PARSEANDVALIDATECONNECTRESPONSEASYNC_D__28_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x67A600)
+#define SYSTEM_NET_WEBSOCKETS_WEBSOCKETHANDLE__PARSEANDVALIDATECONNECTRESPONSEASYNC_D__28_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x99C380)
+#define SYSTEM_NET_WEBSOCKETS_WEBSOCKETHANDLE__PARSEANDVALIDATECONNECTRESPONSEASYNC_D__28_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x99C390)
 
 namespace System::Net::WebSockets
 {
@@ -19,18 +19,18 @@ namespace System::Net::WebSockets
 
 	struct alignas(8) WebSocketHandle__ParseAndValidateConnectResponseAsync_d__28
 	{
-		::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::String*> __u__1; // 0x10
-		::System::String* _subprotocol_5__5; // 0x20
-		::System::String* expectedSecWebSocketAccept; // 0x28
-		::System::Threading::CancellationToken cancellationToken; // 0x30
-		::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::String*> __t__builder; // 0x38
-		::System::String* _line_5__1; // 0x50
-		::System::IO::Stream* stream; // 0x58
-		::System::Net::WebSockets::ClientWebSocketOptions* options; // 0x60
-		::System::Int32 __1__state; // 0x68
-		::System::Boolean _foundSecWebSocketAccept_5__4; // 0x6C
-		::System::Boolean _foundConnection_5__2; // 0x6D
-		::System::Boolean _foundUpgrade_5__3; // 0x6E
+		::System::IO::Stream* stream; // 0x10
+		::System::Net::WebSockets::ClientWebSocketOptions* options; // 0x18
+		::System::Threading::CancellationToken cancellationToken; // 0x20
+		::System::String* _subprotocol_5__5; // 0x28
+		::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::String*> __u__1; // 0x30
+		::System::String* _line_5__1; // 0x40
+		::System::String* expectedSecWebSocketAccept; // 0x48
+		::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::String*> __t__builder; // 0x50
+		::System::Boolean _foundSecWebSocketAccept_5__4; // 0x68
+		::System::Boolean _foundUpgrade_5__3; // 0x69
+		::System::Boolean _foundConnection_5__2; // 0x6A
+		::System::Int32 __1__state; // 0x6C
 
 		::System::Void MoveNext()
 		{

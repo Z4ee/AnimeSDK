@@ -4,12 +4,12 @@
 
 namespace MoleMole::Config { class AnimatorEvent; }
 
-#define MOLEMOLE_CONFIG_ANIMATOREVENTCAMERAOVERRIDESCREENDAMPINGENTRY_CREATEANIMATIONEVENT_OFFSET UNITYSDK_OFFSET(0x162977E0)
-#define MOLEMOLE_CONFIG_ANIMATOREVENTCAMERAOVERRIDESCREENDAMPINGENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x16297860)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTCAMERAOVERRIDESCREENDAMPINGENTRY_CREATEANIMATIONEVENT_OFFSET UNITYSDK_OFFSET(0x16C2B4D0)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTCAMERAOVERRIDESCREENDAMPINGENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x16C2B550)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AnimatorEventCameraOverrideScreenDampingEntry_TypeDefinitionIndex = 52420;
+	inline static constexpr unsigned int AnimatorEventCameraOverrideScreenDampingEntry_TypeDefinitionIndex = 68155;
 
 	class AnimatorEventCameraOverrideScreenDampingEntry : public ::MoleMole::Config::AnimatorEventEntry
 	{

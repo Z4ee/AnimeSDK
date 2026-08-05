@@ -5,7 +5,7 @@
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int NPCAbilityPathFollowProcessor_NearestData_TypeDefinitionIndex = 67700;
+	inline static constexpr unsigned int NPCAbilityPathFollowProcessor_NearestData_TypeDefinitionIndex = 68219;
 
 	struct alignas(4) NPCAbilityPathFollowProcessor_NearestData
 	{

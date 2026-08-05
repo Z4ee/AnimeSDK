@@ -5,20 +5,20 @@
 class Class_1_380E15D819BCBADA;
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_GROUPCHALLENGECONFIGMANAGER_CLASS_1_62B262511BE909F8_METHOD_1_5110E061C0DF5692_OFFSET UNITYSDK_OFFSET(0x18B389D0)
-#define MOLEMOLE_GROUPCHALLENGECONFIGMANAGER_CLASS_1_62B262511BE909F8__CTOR_OFFSET UNITYSDK_OFFSET(0x18B389C0)
+#define MOLEMOLE_GROUPCHALLENGECONFIGMANAGER_CLASS_1_62B262511BE909F8_METHOD_1_5110E061C0DF5692_OFFSET UNITYSDK_OFFSET(0x16858130)
+#define MOLEMOLE_GROUPCHALLENGECONFIGMANAGER_CLASS_1_62B262511BE909F8__CTOR_OFFSET UNITYSDK_OFFSET(0x16858120)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int GroupChallengeConfigManager_Class_1_62B262511BE909F8_TypeDefinitionIndex = 45296;
+	inline static constexpr unsigned int GroupChallengeConfigManager_Class_1_62B262511BE909F8_TypeDefinitionIndex = 63372;
 
 	class GroupChallengeConfigManager_Class_1_62B262511BE909F8 : public ::System::Object
 	{
 	public:
-		::System::Action_1<::System::Single>* Field_1_0; // 0x10
-		::System::Action_1<::Class_1_380E15D819BCBADA*>* Field_1_3; // 0x18
-		::System::Single Field_1_1; // 0x20
-		::System::Int32 Field_1_2; // 0x24
+		::System::Action_1<::Class_1_380E15D819BCBADA*>* Field_1_6; // 0x10
+		::System::Action_1<::System::Single>* Field_1_1; // 0x18
+		::System::Single Field_1_0; // 0x20
+		::System::Int32 Field_1_7; // 0x24
 
 		::System::Void _ctor()
 		{

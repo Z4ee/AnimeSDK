@@ -4,24 +4,24 @@
 
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MOLEMOLE_UIPHOTOFRAMECHILDWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18210510)
-#define MOLEMOLE_UIPHOTOFRAMECHILDWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18210550)
-#define MOLEMOLE_UIPHOTOFRAMECHILDWINDOWCONTROLLER___C__REFRESHPLAYERINFO_B__26_1_OFFSET UNITYSDK_OFFSET(0x18210560)
+#define MOLEMOLE_UIPHOTOFRAMECHILDWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17574AD0)
+#define MOLEMOLE_UIPHOTOFRAMECHILDWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17574B10)
+#define MOLEMOLE_UIPHOTOFRAMECHILDWINDOWCONTROLLER___C__REFRESHPLAYERINFO_B__26_1_OFFSET UNITYSDK_OFFSET(0x17574B20)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIPhotoFrameChildWindowController___c_TypeDefinitionIndex = 57944;
+	inline static constexpr unsigned int UIPhotoFrameChildWindowController___c_TypeDefinitionIndex = 59526;
 
 	class UIPhotoFrameChildWindowController___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::UIPhotoFrameChildWindowController___c** StaticGet___9()
-		{
-			return (::MoleMole::UIPhotoFrameChildWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UIPhotoFrameChildWindowController___c_TypeDefinitionIndex)->GetStaticField(0x348A0);
-		}
 		static ::System::Func_2<::System::UInt32, ::System::UInt32>** StaticGet___9__26_1()
 		{
-			return (::System::Func_2<::System::UInt32, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(UIPhotoFrameChildWindowController___c_TypeDefinitionIndex)->GetStaticField(0x348A8);
+			return (::System::Func_2<::System::UInt32, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(UIPhotoFrameChildWindowController___c_TypeDefinitionIndex)->GetStaticField(0x36ED0);
+		}
+		static ::MoleMole::UIPhotoFrameChildWindowController___c** StaticGet___9()
+		{
+			return (::MoleMole::UIPhotoFrameChildWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UIPhotoFrameChildWindowController___c_TypeDefinitionIndex)->GetStaticField(0x36ED8);
 		}
 
 		static ::System::Void _cctor()

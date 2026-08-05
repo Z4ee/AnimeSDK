@@ -8,18 +8,18 @@ class Class_2_6A1EAEB5359A6511;
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 namespace UnityEngine { class RenderTexture; }
 
-#define CLASS_2_6A1EAEB5359A6511_STRUCT_2_FB126D0D47EC4B57_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x7B11F0)
-#define CLASS_2_6A1EAEB5359A6511_STRUCT_2_FB126D0D47EC4B57_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x283610)
+#define CLASS_2_6A1EAEB5359A6511_STRUCT_2_FB126D0D47EC4B57_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x8B6470)
+#define CLASS_2_6A1EAEB5359A6511_STRUCT_2_FB126D0D47EC4B57_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x296F30)
 
-inline static constexpr unsigned int Class_2_6A1EAEB5359A6511_Struct_2_FB126D0D47EC4B57_TypeDefinitionIndex = 73400;
+inline static constexpr unsigned int Class_2_6A1EAEB5359A6511_Struct_2_FB126D0D47EC4B57_TypeDefinitionIndex = 78245;
 
 struct alignas(8) Class_2_6A1EAEB5359A6511_Struct_2_FB126D0D47EC4B57
 {
-	::Class_2_6A1EAEB5359A6511* Field_2_3; // 0x10
-	::UnityEngine::RenderTexture* Field_2_2; // 0x18
-	::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder Field_2_1; // 0x20
-	::Cysharp::Threading::Tasks::UniTask_Awaiter Field_2_4; // 0x30
-	::System::Int32 Field_2_0; // 0x40
+	::Cysharp::Threading::Tasks::UniTask_Awaiter Field_2_5; // 0x10
+	::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder Field_2_0; // 0x20
+	::Class_2_6A1EAEB5359A6511* Field_2_6; // 0x30
+	::UnityEngine::RenderTexture* Field_2_7; // 0x38
+	::System::Int32 Field_2_1; // 0x40
 
 	::System::Void MoveNext()
 	{

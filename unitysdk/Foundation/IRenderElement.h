@@ -3,7 +3,7 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int IRenderElement_TypeDefinitionIndex = 89502;
+	inline static constexpr unsigned int IRenderElement_TypeDefinitionIndex = 93303;
 
 	class IRenderElement
 	{

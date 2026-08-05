@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/SQLite/IndexedAttribute.h"
 
-#define SQLITE_UNIQUEATTRIBUTE_GET_UNIQUE_OFFSET UNITYSDK_OFFSET(0x1D6460A0)
-#define SQLITE_UNIQUEATTRIBUTE_SET_UNIQUE_OFFSET UNITYSDK_OFFSET(0x1D6460B0)
-#define SQLITE_UNIQUEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6460C0)
+#define SQLITE_UNIQUEATTRIBUTE_GET_UNIQUE_OFFSET UNITYSDK_OFFSET(0x1EA0DF30)
+#define SQLITE_UNIQUEATTRIBUTE_SET_UNIQUE_OFFSET UNITYSDK_OFFSET(0x1EA0DF40)
+#define SQLITE_UNIQUEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA0DF50)
 
 namespace SQLite
 {
-	inline static constexpr unsigned int UniqueAttribute_TypeDefinitionIndex = 38385;
+	inline static constexpr unsigned int UniqueAttribute_TypeDefinitionIndex = 39046;
 
 	class UniqueAttribute : public ::SQLite::IndexedAttribute
 	{

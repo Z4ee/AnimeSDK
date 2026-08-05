@@ -11,7 +11,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace SQLite
 {
-	inline static constexpr unsigned int SQLiteCommand__ExecuteDeferredQuery_d__12_1_TypeDefinitionIndex = 38407;
+	inline static constexpr unsigned int SQLiteCommand__ExecuteDeferredQuery_d__12_1_TypeDefinitionIndex = 39068;
 
 	template <typename T>
 	class SQLiteCommand__ExecuteDeferredQuery_d__12_1 : public ::System::Object

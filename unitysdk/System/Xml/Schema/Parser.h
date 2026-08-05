@@ -21,16 +21,16 @@ namespace System::Xml::Schema { class SchemaNames; }
 namespace System::Xml::Schema { class ValidationEventHandler; }
 namespace System::Xml::Schema { class XmlSchema; }
 
-#define SYSTEM_XML_SCHEMA_PARSER_CHECKSCHEMAROOT_OFFSET UNITYSDK_OFFSET(0x1D935560)
-#define SYSTEM_XML_SCHEMA_PARSER_CREATEXMLNSATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1D935FD0)
-#define SYSTEM_XML_SCHEMA_PARSER_LOADATTRIBUTENODE_OFFSET UNITYSDK_OFFSET(0x1D935DE0)
-#define SYSTEM_XML_SCHEMA_PARSER_LOADELEMENTNODE_OFFSET UNITYSDK_OFFSET(0x1D935900)
-#define SYSTEM_XML_SCHEMA_PARSER_LOADENTITYREFERENCEINATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1D9360F0)
-#define SYSTEM_XML_SCHEMA_PARSER_PARSEREADERNODE_OFFSET UNITYSDK_OFFSET(0x1D934CD0)
-#define SYSTEM_XML_SCHEMA_PARSER_PARSE_OFFSET UNITYSDK_OFFSET(0x1D9347C0)
-#define SYSTEM_XML_SCHEMA_PARSER_PROCESSAPPINFODOCMARKUP_OFFSET UNITYSDK_OFFSET(0x1D935610)
-#define SYSTEM_XML_SCHEMA_PARSER_STARTPARSING_OFFSET UNITYSDK_OFFSET(0x1D934820)
-#define SYSTEM_XML_SCHEMA_PARSER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D9346E0)
+#define SYSTEM_XML_SCHEMA_PARSER_CHECKSCHEMAROOT_OFFSET UNITYSDK_OFFSET(0x1ECA7C20)
+#define SYSTEM_XML_SCHEMA_PARSER_CREATEXMLNSATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1ECA8610)
+#define SYSTEM_XML_SCHEMA_PARSER_LOADATTRIBUTENODE_OFFSET UNITYSDK_OFFSET(0x1ECA8430)
+#define SYSTEM_XML_SCHEMA_PARSER_LOADELEMENTNODE_OFFSET UNITYSDK_OFFSET(0x1ECA7F70)
+#define SYSTEM_XML_SCHEMA_PARSER_LOADENTITYREFERENCEINATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1ECA8730)
+#define SYSTEM_XML_SCHEMA_PARSER_PARSEREADERNODE_OFFSET UNITYSDK_OFFSET(0x1ECA73A0)
+#define SYSTEM_XML_SCHEMA_PARSER_PARSE_OFFSET UNITYSDK_OFFSET(0x1ECA6E90)
+#define SYSTEM_XML_SCHEMA_PARSER_PROCESSAPPINFODOCMARKUP_OFFSET UNITYSDK_OFFSET(0x1ECA7CD0)
+#define SYSTEM_XML_SCHEMA_PARSER_STARTPARSING_OFFSET UNITYSDK_OFFSET(0x1ECA6EF0)
+#define SYSTEM_XML_SCHEMA_PARSER__CTOR_OFFSET UNITYSDK_OFFSET(0x1ECA6DB0)
 
 namespace System::Xml::Schema
 {
@@ -39,25 +39,25 @@ namespace System::Xml::Schema
 	class Parser : public ::System::Object
 	{
 	public:
-		::System::Xml::Schema::SchemaNames* schemaNames; // 0x10
-		::System::Xml::XmlDocument* dummyDocument; // 0x18
-		::System::Xml::XmlCharType xmlCharType; // 0x20
-		::System::Xml::Schema::SchemaBuilder* builder; // 0x28
-		::System::Xml::XmlResolver* xmlResolver; // 0x30
-		::System::Xml::XmlNameTable* nameTable; // 0x38
-		::System::String* xmlns; // 0x40
-		::System::Xml::XmlReader* reader; // 0x48
-		::System::Xml::Schema::ValidationEventHandler* eventHandler; // 0x50
-		::System::Xml::XmlNamespaceManager* annotationNSManager; // 0x58
-		::System::Xml::Schema::XmlSchema* schema; // 0x60
-		::System::Xml::XmlNode* parentNode; // 0x68
-		::System::Xml::Schema::SchemaInfo* xdrSchema; // 0x70
-		::System::Xml::PositionInfo* positionInfo; // 0x78
-		::System::Xml::XmlNamespaceManager* namespaceManager; // 0x80
+		::System::Xml::Schema::SchemaInfo* xdrSchema; // 0x10
+		::System::Xml::XmlCharType xmlCharType; // 0x18
+		::System::Xml::XmlNameTable* nameTable; // 0x20
+		::System::Xml::Schema::XmlSchema* schema; // 0x28
+		::System::String* xmlns; // 0x30
+		::System::Xml::XmlDocument* dummyDocument; // 0x38
+		::System::Xml::Schema::SchemaNames* schemaNames; // 0x40
+		::System::Xml::Schema::ValidationEventHandler* eventHandler; // 0x48
+		::System::Xml::XmlReader* reader; // 0x50
+		::System::Xml::Schema::SchemaBuilder* builder; // 0x58
+		::System::Xml::XmlNamespaceManager* namespaceManager; // 0x60
+		::System::Xml::XmlResolver* xmlResolver; // 0x68
+		::System::Xml::XmlNode* parentNode; // 0x70
+		::System::Xml::XmlNamespaceManager* annotationNSManager; // 0x78
+		::System::Xml::PositionInfo* positionInfo; // 0x80
 		::System::Int32 markupDepth; // 0x88
-		::System::Boolean isProcessNamespaces; // 0x8C
-		::System::Boolean processMarkup; // 0x8D
-		::System::Xml::Schema::SchemaType schemaType; // 0x90
+		::System::Xml::Schema::SchemaType schemaType; // 0x8C
+		::System::Boolean isProcessNamespaces; // 0x90
+		::System::Boolean processMarkup; // 0x91
 		::System::Int32 schemaXmlDepth; // 0x94
 
 		::System::Void _ctor(::System::Xml::Schema::SchemaType schemaType, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::Schema::SchemaNames* schemaNames, ::System::Xml::Schema::ValidationEventHandler* eventHandler)

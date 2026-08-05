@@ -9,20 +9,20 @@ namespace MoleMole { class UIDeckRowWidgetController; }
 namespace System { class String; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define MOLEMOLE_UIDECKROWWIDGETCONTROLLER__PLAYANIMATION_D__22_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x82E340)
-#define MOLEMOLE_UIDECKROWWIDGETCONTROLLER__PLAYANIMATION_D__22_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x283610)
+#define MOLEMOLE_UIDECKROWWIDGETCONTROLLER__PLAYANIMATION_D__22_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x88F980)
+#define MOLEMOLE_UIDECKROWWIDGETCONTROLLER__PLAYANIMATION_D__22_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x296F30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIDeckRowWidgetController__PlayAnimation_d__22_TypeDefinitionIndex = 58417;
+	inline static constexpr unsigned int UIDeckRowWidgetController__PlayAnimation_d__22_TypeDefinitionIndex = 62186;
 
 	struct alignas(8) UIDeckRowWidgetController__PlayAnimation_d__22
 	{
 		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x10
-		::System::Threading::CancellationToken cts; // 0x20
-		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x28
-		::MoleMole::UIDeckRowWidgetController* __4__this; // 0x38
-		::System::String* clipName; // 0x40
+		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x20
+		::System::String* clipName; // 0x30
+		::System::Threading::CancellationToken cts; // 0x38
+		::MoleMole::UIDeckRowWidgetController* __4__this; // 0x40
 		::System::Int32 __1__state; // 0x48
 
 		::System::Void MoveNext()

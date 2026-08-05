@@ -5,12 +5,12 @@
 
 namespace FlowCanvas::Nodes { class XORMerge; }
 
-#define FLOWCANVAS_NODES_XORMERGE___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7BBFE0)
-#define FLOWCANVAS_NODES_XORMERGE___C__DISPLAYCLASS4_0__REGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x1D7BBFF0)
+#define FLOWCANVAS_NODES_XORMERGE___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB6EDC0)
+#define FLOWCANVAS_NODES_XORMERGE___C__DISPLAYCLASS4_0__REGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x1EB6EDD0)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int XORMerge___c__DisplayClass4_0_TypeDefinitionIndex = 29253;
+	inline static constexpr unsigned int XORMerge___c__DisplayClass4_0_TypeDefinitionIndex = 30134;
 
 	class XORMerge___c__DisplayClass4_0 : public ::System::Object
 	{

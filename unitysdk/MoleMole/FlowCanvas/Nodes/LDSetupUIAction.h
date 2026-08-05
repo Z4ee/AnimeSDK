@@ -6,12 +6,12 @@ class Class_3_B20F2CFBAA024FE3;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSETUPUIACTION_INVOKE_OFFSET UNITYSDK_OFFSET(0x1710E6B0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSETUPUIACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1710E800)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSETUPUIACTION_INVOKE_OFFSET UNITYSDK_OFFSET(0x107D3570)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSETUPUIACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x107D36C0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDSetupUIAction_TypeDefinitionIndex = 55113;
+	inline static constexpr unsigned int LDSetupUIAction_TypeDefinitionIndex = 49661;
 
 	class LDSetupUIAction : public ::FlowCanvas::Nodes::CallableActionNode_6<::System::Collections::Generic::List_1<::System::String*>*, ::System::Collections::Generic::List_1<::System::String*>*, ::System::Boolean, ::System::Int32, ::System::String*, ::System::Collections::Generic::List_1<::System::String*>*>
 	{

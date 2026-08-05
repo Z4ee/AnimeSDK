@@ -3,7 +3,7 @@
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int AxisState_SpeedMode_TypeDefinitionIndex = 34088;
+	inline static constexpr unsigned int AxisState_SpeedMode_TypeDefinitionIndex = 34724;
 
 	enum class AxisState_SpeedMode : ::System::Int32
 	{

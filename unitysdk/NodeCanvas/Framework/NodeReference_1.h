@@ -10,7 +10,7 @@ namespace System { template <typename T> class WeakReference_1; }
 
 namespace NodeCanvas::Framework
 {
-	inline static constexpr unsigned int NodeReference_1_TypeDefinitionIndex = 30294;
+	inline static constexpr unsigned int NodeReference_1_TypeDefinitionIndex = 30981;
 
 	template <typename T>
 	class NodeReference_1 : public ::System::Object

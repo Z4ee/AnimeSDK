@@ -8,14 +8,14 @@ namespace MoleMole::Battle { class Entity; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_SUMMONBYTAGABILITYTARGET_METHOD_2_2F5AF86AF3904C2F_OFFSET UNITYSDK_OFFSET(0x1AA793C0)
-#define MOLEMOLE_CONFIG_SUMMONBYTAGABILITYTARGET_METHOD_2_576260B5694D646F_OFFSET UNITYSDK_OFFSET(0x1AA78970)
-#define MOLEMOLE_CONFIG_SUMMONBYTAGABILITYTARGET_METHOD_2_B292B8A21B3BECAC_OFFSET UNITYSDK_OFFSET(0x1AA79660)
-#define MOLEMOLE_CONFIG_SUMMONBYTAGABILITYTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA79600)
+#define MOLEMOLE_CONFIG_SUMMONBYTAGABILITYTARGET_METHOD_2_2F5AF86AF3904C2F_OFFSET UNITYSDK_OFFSET(0x1C47B120)
+#define MOLEMOLE_CONFIG_SUMMONBYTAGABILITYTARGET_METHOD_2_576260B5694D646F_OFFSET UNITYSDK_OFFSET(0x1C47A690)
+#define MOLEMOLE_CONFIG_SUMMONBYTAGABILITYTARGET_METHOD_2_8E77D93222A71869_OFFSET UNITYSDK_OFFSET(0x1C47B3C0)
+#define MOLEMOLE_CONFIG_SUMMONBYTAGABILITYTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x1C47B360)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int SummonByTagAbilityTarget_TypeDefinitionIndex = 53589;
+	inline static constexpr unsigned int SummonByTagAbilityTarget_TypeDefinitionIndex = 83884;
 
 	class SummonByTagAbilityTarget : public ::MoleMole::Config::ConfigAbilityTarget
 	{
@@ -40,9 +40,9 @@ namespace MoleMole::Config
 			return ((::System::Boolean(*)(::PVOID, ::MoleMole::Battle::Entity*, ::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_SUMMONBYTAGABILITYTARGET_METHOD_2_2F5AF86AF3904C2F_OFFSET))(this, a1, a2);
 		}
 
-		::System::Int32 Method_2_B292B8A21B3BECAC(::MoleMole::Battle::Entity* a1, ::MoleMole::Battle::Entity* a2)
+		::System::Int32 Method_2_8E77D93222A71869(::MoleMole::Battle::Entity* a1, ::MoleMole::Battle::Entity* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::MoleMole::Battle::Entity*, ::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_SUMMONBYTAGABILITYTARGET_METHOD_2_B292B8A21B3BECAC_OFFSET))(this, a1, a2);
+			return ((::System::Int32(*)(::PVOID, ::MoleMole::Battle::Entity*, ::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_SUMMONBYTAGABILITYTARGET_METHOD_2_8E77D93222A71869_OFFSET))(this, a1, a2);
 		}
 	};
 }

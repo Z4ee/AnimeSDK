@@ -7,9 +7,9 @@ class MB_TexArraySlice;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 
-#define MB_MULTIMATERIALTEXARRAY__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7A4CD0)
+#define MB_MULTIMATERIALTEXARRAY__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB7AFB0)
 
-inline static constexpr unsigned int MB_MultiMaterialTexArray_TypeDefinitionIndex = 90525;
+inline static constexpr unsigned int MB_MultiMaterialTexArray_TypeDefinitionIndex = 94458;
 
 class MB_MultiMaterialTexArray : public ::System::Object
 {

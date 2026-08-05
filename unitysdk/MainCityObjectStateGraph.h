@@ -6,9 +6,9 @@ class MainCityObjectStateGraphItem;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MAINCITYOBJECTSTATEGRAPH__CTOR_OFFSET UNITYSDK_OFFSET(0x11079B60)
+#define MAINCITYOBJECTSTATEGRAPH__CTOR_OFFSET UNITYSDK_OFFSET(0x12EDCC60)
 
-inline static constexpr unsigned int MainCityObjectStateGraph_TypeDefinitionIndex = 80995;
+inline static constexpr unsigned int MainCityObjectStateGraph_TypeDefinitionIndex = 84625;
 
 class MainCityObjectStateGraph : public ::System::Object
 {

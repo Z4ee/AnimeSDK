@@ -5,15 +5,15 @@
 class Class_3_FFD0045B4597F294;
 namespace System { class String; }
 
-#define STRUCT_2_C6757A7358441332_METHOD_2_E6D3C4C666E119D9_OFFSET UNITYSDK_OFFSET(0x8827F0)
-#define STRUCT_2_C6757A7358441332__CTOR_OFFSET UNITYSDK_OFFSET(0x2BDE80)
+#define STRUCT_2_C6757A7358441332_METHOD_2_E6D3C4C666E119D9_OFFSET UNITYSDK_OFFSET(0x82D2C0)
+#define STRUCT_2_C6757A7358441332__CTOR_OFFSET UNITYSDK_OFFSET(0x346F70)
 
-inline static constexpr unsigned int Struct_2_C6757A7358441332_TypeDefinitionIndex = 56060;
+inline static constexpr unsigned int Struct_2_C6757A7358441332_TypeDefinitionIndex = 64944;
 
 struct alignas(8) Struct_2_C6757A7358441332
 {
 	::Class_3_FFD0045B4597F294* Field_2_0; // 0x10
-	::System::String* Field_2_1; // 0x18
+	::System::String* Field_2_7; // 0x18
 
 	::System::Void _ctor(::Class_3_FFD0045B4597F294* a1, ::System::String* a2)
 	{

@@ -3,7 +3,7 @@
 
 namespace System::Data
 {
-	inline static constexpr unsigned int BinaryNode_DataTypePrecedence_TypeDefinitionIndex = 38629;
+	inline static constexpr unsigned int BinaryNode_DataTypePrecedence_TypeDefinitionIndex = 39290;
 
 	enum class BinaryNode_DataTypePrecedence : ::System::Int32
 	{

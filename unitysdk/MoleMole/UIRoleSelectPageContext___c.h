@@ -5,54 +5,54 @@
 class Class_2_1824EF69C8E376A3;
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MOLEMOLE_UIROLESELECTPAGECONTEXT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1228AC50)
-#define MOLEMOLE_UIROLESELECTPAGECONTEXT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1228AC90)
-#define MOLEMOLE_UIROLESELECTPAGECONTEXT___C__SETBLOCKSELECTIONS_B__86_0_OFFSET UNITYSDK_OFFSET(0x1228AF80)
-#define MOLEMOLE_UIROLESELECTPAGECONTEXT___C__SETCONFIRMEDSELECTIONS_B__84_0_OFFSET UNITYSDK_OFFSET(0x1228AF50)
-#define MOLEMOLE_UIROLESELECTPAGECONTEXT___C__SETCONFIRMEDSELECTIONS_B__85_0_OFFSET UNITYSDK_OFFSET(0x1228AF60)
-#define MOLEMOLE_UIROLESELECTPAGECONTEXT___C__SETMULTISELECTEDOTHERTEAM_B__82_0_OFFSET UNITYSDK_OFFSET(0x1228AE00)
-#define MOLEMOLE_UIROLESELECTPAGECONTEXT___C__SETMULTISELECTEDUNSELECTABLE_B__81_0_OFFSET UNITYSDK_OFFSET(0x1228AD50)
-#define MOLEMOLE_UIROLESELECTPAGECONTEXT___C__SETMULTISELECTED_B__80_0_OFFSET UNITYSDK_OFFSET(0x1228ACA0)
-#define MOLEMOLE_UIROLESELECTPAGECONTEXT___C__SETPREEMPTIBLEOTHERTEAM_B__83_0_OFFSET UNITYSDK_OFFSET(0x1228AEA0)
+#define MOLEMOLE_UIROLESELECTPAGECONTEXT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17E42EC0)
+#define MOLEMOLE_UIROLESELECTPAGECONTEXT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17E42F00)
+#define MOLEMOLE_UIROLESELECTPAGECONTEXT___C__SETBLOCKSELECTIONS_B__86_0_OFFSET UNITYSDK_OFFSET(0x17E431F0)
+#define MOLEMOLE_UIROLESELECTPAGECONTEXT___C__SETCONFIRMEDSELECTIONS_B__84_0_OFFSET UNITYSDK_OFFSET(0x17E431C0)
+#define MOLEMOLE_UIROLESELECTPAGECONTEXT___C__SETCONFIRMEDSELECTIONS_B__85_0_OFFSET UNITYSDK_OFFSET(0x17E431D0)
+#define MOLEMOLE_UIROLESELECTPAGECONTEXT___C__SETMULTISELECTEDOTHERTEAM_B__82_0_OFFSET UNITYSDK_OFFSET(0x17E43070)
+#define MOLEMOLE_UIROLESELECTPAGECONTEXT___C__SETMULTISELECTEDUNSELECTABLE_B__81_0_OFFSET UNITYSDK_OFFSET(0x17E42FC0)
+#define MOLEMOLE_UIROLESELECTPAGECONTEXT___C__SETMULTISELECTED_B__80_0_OFFSET UNITYSDK_OFFSET(0x17E42F10)
+#define MOLEMOLE_UIROLESELECTPAGECONTEXT___C__SETPREEMPTIBLEOTHERTEAM_B__83_0_OFFSET UNITYSDK_OFFSET(0x17E43110)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRoleSelectPageContext___c_TypeDefinitionIndex = 46016;
+	inline static constexpr unsigned int UIRoleSelectPageContext___c_TypeDefinitionIndex = 82568;
 
 	class UIRoleSelectPageContext___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::UIRoleSelectPageContext___c** StaticGet___9()
-		{
-			return (::MoleMole::UIRoleSelectPageContext___c**)Il2CppClass::FromTypeDefinitionIndex(UIRoleSelectPageContext___c_TypeDefinitionIndex)->GetStaticField(0x41710);
-		}
 		static ::System::Func_2<::Class_2_1824EF69C8E376A3*, ::System::Int32>** StaticGet___9__82_0()
 		{
-			return (::System::Func_2<::Class_2_1824EF69C8E376A3*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIRoleSelectPageContext___c_TypeDefinitionIndex)->GetStaticField(0x41718);
-		}
-		static ::System::Func_2<::System::Int32, ::System::Int32>** StaticGet___9__84_0()
-		{
-			return (::System::Func_2<::System::Int32, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIRoleSelectPageContext___c_TypeDefinitionIndex)->GetStaticField(0x41720);
-		}
-		static ::System::Func_2<::Class_2_1824EF69C8E376A3*, ::System::Int32>** StaticGet___9__81_0()
-		{
-			return (::System::Func_2<::Class_2_1824EF69C8E376A3*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIRoleSelectPageContext___c_TypeDefinitionIndex)->GetStaticField(0x41728);
-		}
-		static ::System::Func_2<::Class_2_1824EF69C8E376A3*, ::System::Int32>** StaticGet___9__80_0()
-		{
-			return (::System::Func_2<::Class_2_1824EF69C8E376A3*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIRoleSelectPageContext___c_TypeDefinitionIndex)->GetStaticField(0x41730);
-		}
-		static ::System::Func_2<::Class_2_1824EF69C8E376A3*, ::System::Int32>** StaticGet___9__85_0()
-		{
-			return (::System::Func_2<::Class_2_1824EF69C8E376A3*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIRoleSelectPageContext___c_TypeDefinitionIndex)->GetStaticField(0x41738);
+			return (::System::Func_2<::Class_2_1824EF69C8E376A3*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIRoleSelectPageContext___c_TypeDefinitionIndex)->GetStaticField(0x42DB0);
 		}
 		static ::System::Func_2<::Class_2_1824EF69C8E376A3*, ::System::Int32>** StaticGet___9__86_0()
 		{
-			return (::System::Func_2<::Class_2_1824EF69C8E376A3*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIRoleSelectPageContext___c_TypeDefinitionIndex)->GetStaticField(0x41740);
+			return (::System::Func_2<::Class_2_1824EF69C8E376A3*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIRoleSelectPageContext___c_TypeDefinitionIndex)->GetStaticField(0x42DB8);
+		}
+		static ::System::Func_2<::Class_2_1824EF69C8E376A3*, ::System::Int32>** StaticGet___9__80_0()
+		{
+			return (::System::Func_2<::Class_2_1824EF69C8E376A3*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIRoleSelectPageContext___c_TypeDefinitionIndex)->GetStaticField(0x42DC0);
+		}
+		static ::System::Func_2<::System::Int32, ::System::Int32>** StaticGet___9__84_0()
+		{
+			return (::System::Func_2<::System::Int32, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIRoleSelectPageContext___c_TypeDefinitionIndex)->GetStaticField(0x42DC8);
+		}
+		static ::System::Func_2<::Class_2_1824EF69C8E376A3*, ::System::Int32>** StaticGet___9__85_0()
+		{
+			return (::System::Func_2<::Class_2_1824EF69C8E376A3*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIRoleSelectPageContext___c_TypeDefinitionIndex)->GetStaticField(0x42DD0);
+		}
+		static ::MoleMole::UIRoleSelectPageContext___c** StaticGet___9()
+		{
+			return (::MoleMole::UIRoleSelectPageContext___c**)Il2CppClass::FromTypeDefinitionIndex(UIRoleSelectPageContext___c_TypeDefinitionIndex)->GetStaticField(0x42DD8);
 		}
 		static ::System::Func_2<::Class_2_1824EF69C8E376A3*, ::System::Int32>** StaticGet___9__83_0()
 		{
-			return (::System::Func_2<::Class_2_1824EF69C8E376A3*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIRoleSelectPageContext___c_TypeDefinitionIndex)->GetStaticField(0x41748);
+			return (::System::Func_2<::Class_2_1824EF69C8E376A3*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIRoleSelectPageContext___c_TypeDefinitionIndex)->GetStaticField(0x42DE0);
+		}
+		static ::System::Func_2<::Class_2_1824EF69C8E376A3*, ::System::Int32>** StaticGet___9__81_0()
+		{
+			return (::System::Func_2<::Class_2_1824EF69C8E376A3*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIRoleSelectPageContext___c_TypeDefinitionIndex)->GetStaticField(0x42DE8);
 		}
 
 		static ::System::Void _cctor()

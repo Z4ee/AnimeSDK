@@ -3,15 +3,15 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int LevelEndType_TypeDefinitionIndex = 43738;
+	inline static constexpr unsigned int LevelEndType_TypeDefinitionIndex = 46644;
 
 	enum class LevelEndType : ::System::Int32
 	{
-		LevelFailed = 1,
-		Dialog = 5,
-		IndirectKill = 3,
-		Unknown = 0,
 		Instant = 4,
+		IndirectKill = 3,
 		DirectKill = 2,
+		LevelFailed = 1,
+		Unknown = 0,
+		Dialog = 5,
 	};
 }

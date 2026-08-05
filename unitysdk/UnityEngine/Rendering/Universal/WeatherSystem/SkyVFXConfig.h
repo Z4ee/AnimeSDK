@@ -5,12 +5,12 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_SKYVFXCONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x1B1AFCF0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_SKYVFXCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1AFEF0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_SKYVFXCONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x1C5EC5A0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_SKYVFXCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5EC7A0)
 
 namespace UnityEngine::Rendering::Universal::WeatherSystem
 {
-	inline static constexpr unsigned int SkyVFXConfig_TypeDefinitionIndex = 26603;
+	inline static constexpr unsigned int SkyVFXConfig_TypeDefinitionIndex = 26772;
 
 	class SkyVFXConfig : public ::UnityEngine::Rendering::Universal::WeatherSystem::WeatherPropertiesBase_1<::UnityEngine::Rendering::Universal::WeatherSystem::SkyVFXConfig*>
 	{

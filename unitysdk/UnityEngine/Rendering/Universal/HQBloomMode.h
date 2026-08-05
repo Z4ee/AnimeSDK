@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int HQBloomMode_TypeDefinitionIndex = 26257;
+	inline static constexpr unsigned int HQBloomMode_TypeDefinitionIndex = 27919;
 
 	enum class HQBloomMode : ::System::Int32
 	{

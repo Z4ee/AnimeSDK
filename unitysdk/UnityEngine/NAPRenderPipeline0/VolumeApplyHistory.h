@@ -7,7 +7,7 @@ namespace UnityEngine::NAPRenderPipeline0 { class VolumeComponent; }
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int VolumeApplyHistory_TypeDefinitionIndex = 6072;
+	inline static constexpr unsigned int VolumeApplyHistory_TypeDefinitionIndex = 6074;
 
 	struct alignas(8) VolumeApplyHistory
 	{

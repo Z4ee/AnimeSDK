@@ -6,7 +6,7 @@ namespace UnityEngine { class Texture; }
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int MaterialWrapper_SetTexCmd_TypeDefinitionIndex = 6000;
+	inline static constexpr unsigned int MaterialWrapper_SetTexCmd_TypeDefinitionIndex = 6002;
 
 	struct alignas(8) MaterialWrapper_SetTexCmd
 	{

@@ -7,7 +7,7 @@ namespace UnityEngine::UI::Extension { class UILocalizationText; }
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int LinkClickInfo_TypeDefinitionIndex = 77696;
+	inline static constexpr unsigned int LinkClickInfo_TypeDefinitionIndex = 41449;
 
 	struct alignas(8) LinkClickInfo
 	{

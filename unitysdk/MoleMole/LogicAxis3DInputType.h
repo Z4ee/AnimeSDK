@@ -3,16 +3,16 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int LogicAxis3DInputType_TypeDefinitionIndex = 79308;
+	inline static constexpr unsigned int LogicAxis3DInputType_TypeDefinitionIndex = 41482;
 
 	enum class LogicAxis3DInputType : ::System::Int32
 	{
-		RawAttitude = 5,
 		LinerAccelerometer = 4,
-		Attitude = 3,
-		RawGyroscope = 2,
-		Gyroscope = 0,
-		Accelerometer = 1,
 		None = -1,
+		RawGyroscope = 2,
+		Accelerometer = 1,
+		Attitude = 3,
+		Gyroscope = 0,
+		RawAttitude = 5,
 	};
 }

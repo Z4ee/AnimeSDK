@@ -3,12 +3,12 @@
 
 namespace MoleMole::Photo
 {
-	inline static constexpr unsigned int PlayableGraphAttributeSource_TypeDefinitionIndex = 82951;
+	inline static constexpr unsigned int PlayableGraphAttributeSource_TypeDefinitionIndex = 91150;
 
 	enum class PlayableGraphAttributeSource : ::System::Byte
 	{
-		Property = 0x1,
 		Curve = 0x2,
+		Property = 0x1,
 		Variable = 0x0,
 	};
 }

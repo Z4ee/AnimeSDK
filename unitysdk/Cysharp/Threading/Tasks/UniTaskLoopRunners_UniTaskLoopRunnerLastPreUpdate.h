@@ -4,7 +4,7 @@
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTaskLoopRunners_UniTaskLoopRunnerLastPreUpdate_TypeDefinitionIndex = 31204;
+	inline static constexpr unsigned int UniTaskLoopRunners_UniTaskLoopRunnerLastPreUpdate_TypeDefinitionIndex = 31823;
 
 	struct alignas(1) UniTaskLoopRunners_UniTaskLoopRunnerLastPreUpdate
 	{

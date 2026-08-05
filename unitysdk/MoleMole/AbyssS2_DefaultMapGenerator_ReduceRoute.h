@@ -4,11 +4,11 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_ABYSSS2_DEFAULTMAPGENERATOR_REDUCEROUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x13FE7910)
+#define MOLEMOLE_ABYSSS2_DEFAULTMAPGENERATOR_REDUCEROUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x12795570)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int AbyssS2_DefaultMapGenerator_ReduceRoute_TypeDefinitionIndex = 85704;
+	inline static constexpr unsigned int AbyssS2_DefaultMapGenerator_ReduceRoute_TypeDefinitionIndex = 87622;
 
 	class AbyssS2_DefaultMapGenerator_ReduceRoute : public ::System::Object
 	{

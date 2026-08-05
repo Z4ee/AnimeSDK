@@ -3,7 +3,7 @@
 
 namespace Epic::OnlineServices::Leaderboards
 {
-	inline static constexpr unsigned int LeaderboardAggregation_TypeDefinitionIndex = 35806;
+	inline static constexpr unsigned int LeaderboardAggregation_TypeDefinitionIndex = 36465;
 
 	enum class LeaderboardAggregation : ::System::Int32
 	{

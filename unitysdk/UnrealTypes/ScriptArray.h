@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define UNREALTYPES_SCRIPTARRAY_GET_DATA_OFFSET UNITYSDK_OFFSET(0x246290)
-#define UNREALTYPES_SCRIPTARRAY_GET_NUM_OFFSET UNITYSDK_OFFSET(0x2C19D0)
+#define UNREALTYPES_SCRIPTARRAY_GET_DATA_OFFSET UNITYSDK_OFFSET(0x259D70)
+#define UNREALTYPES_SCRIPTARRAY_GET_NUM_OFFSET UNITYSDK_OFFSET(0x32EEE0)
 
 namespace UnrealTypes
 {
-	inline static constexpr unsigned int ScriptArray_TypeDefinitionIndex = 27784;
+	inline static constexpr unsigned int ScriptArray_TypeDefinitionIndex = 28387;
 
 	struct alignas(8) ScriptArray
 	{

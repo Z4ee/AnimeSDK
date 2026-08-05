@@ -4,7 +4,7 @@
 
 namespace Foundation::DataStructures
 {
-	inline static constexpr unsigned int HashSet_1_Slot_TypeDefinitionIndex = 8081;
+	inline static constexpr unsigned int HashSet_1_Slot_TypeDefinitionIndex = 8072;
 
 	template <typename T>
 	struct HashSet_1_Slot

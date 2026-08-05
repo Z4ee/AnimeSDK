@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UITrendyStorePageController_ETabIndex_TypeDefinitionIndex = 42380;
+	inline static constexpr unsigned int UITrendyStorePageController_ETabIndex_TypeDefinitionIndex = 59329;
 
 	enum class UITrendyStorePageController_ETabIndex : ::System::Int32
 	{

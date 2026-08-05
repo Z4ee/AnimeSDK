@@ -7,11 +7,11 @@ namespace MiHoYo::SDK { class HoYoPassScene; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MIHOYO_SDK_ABTESTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C955F00)
+#define MIHOYO_SDK_ABTESTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD351D0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int AbTestConfig_TypeDefinitionIndex = 19658;
+	inline static constexpr unsigned int AbTestConfig_TypeDefinitionIndex = 20006;
 
 	class AbTestConfig : public ::System::Object
 	{

@@ -4,30 +4,30 @@
 #include "unitysdk/BehaviorDesigner/Runtime/Tasks/TaskStatus.h"
 #include "unitysdk/UnityEngine/RaycastHit.h"
 
-class Class_3_DFD5D1FDB9D2A4AC;
+class Class_3_C93CC3D2C2AC4067;
 namespace BehaviorDesigner::Runtime { class SharedFloat; }
 namespace BehaviorDesigner::Runtime { class SharedString; }
 namespace MoleMole { class SharedGameEntity; }
 namespace System { class String; }
 
-#define MOLEMOLE_GETGROUNDANGLE_FILTERRAYCASTBYDISTANCEANDTAG_OFFSET UNITYSDK_OFFSET(0x151320C0)
-#define MOLEMOLE_GETGROUNDANGLE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x151312B0)
-#define MOLEMOLE_GETGROUNDANGLE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x15131520)
-#define MOLEMOLE_GETGROUNDANGLE__CTOR_OFFSET UNITYSDK_OFFSET(0x15132600)
-#define MOLEMOLE_GETGROUNDANGLE___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x151326A0)
-#define MOLEMOLE_GETGROUNDANGLE___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x15132730)
+#define MOLEMOLE_GETGROUNDANGLE_FILTERRAYCASTBYDISTANCEANDTAG_OFFSET UNITYSDK_OFFSET(0x17906950)
+#define MOLEMOLE_GETGROUNDANGLE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x17905B70)
+#define MOLEMOLE_GETGROUNDANGLE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x17905DE0)
+#define MOLEMOLE_GETGROUNDANGLE__CTOR_OFFSET UNITYSDK_OFFSET(0x17906E70)
+#define MOLEMOLE_GETGROUNDANGLE___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x17906F10)
+#define MOLEMOLE_GETGROUNDANGLE___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x17906FA0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int GetGroundAngle_TypeDefinitionIndex = 68080;
+	inline static constexpr unsigned int GetGroundAngle_TypeDefinitionIndex = 62155;
 
 	class GetGroundAngle : public ::BehaviorDesigner::Runtime::Tasks::Action
 	{
 	public:
-		::Class_3_DFD5D1FDB9D2A4AC* modelComponent; // 0x58
-		::BehaviorDesigner::Runtime::SharedFloat* StoreResult; // 0x60
-		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x68
-		::BehaviorDesigner::Runtime::SharedString* StartPosition; // 0x70
+		::BehaviorDesigner::Runtime::SharedFloat* StoreResult; // 0x58
+		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x60
+		::BehaviorDesigner::Runtime::SharedString* StartPosition; // 0x68
+		::Class_3_C93CC3D2C2AC4067* modelComponent; // 0x70
 		::System::Single DEFAULT_RAYCAST_LENGTH; // 0x78
 
 		::System::Void _ctor()

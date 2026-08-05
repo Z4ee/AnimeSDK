@@ -9,7 +9,7 @@ namespace UnrealTypes { class StructOpsTraitsBase; }
 
 namespace StateTreeCore
 {
-	inline static constexpr unsigned int StateTreePropertyRef_1_TypeDefinitionIndex = 31047;
+	inline static constexpr unsigned int StateTreePropertyRef_1_TypeDefinitionIndex = 31653;
 
 	template <typename T>
 	struct StateTreePropertyRef_1

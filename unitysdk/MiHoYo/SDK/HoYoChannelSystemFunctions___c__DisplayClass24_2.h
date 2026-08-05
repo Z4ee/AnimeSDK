@@ -5,12 +5,12 @@
 namespace MiHoYo::SDK::PC::OS { class HoYoChannelShowMessageDialogResult; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_HOYOCHANNELSYSTEMFUNCTIONS___C__DISPLAYCLASS24_2__CLEANUPTIMEDOUTCALLBACKS_B__2_OFFSET UNITYSDK_OFFSET(0x1B7C5F70)
-#define MIHOYO_SDK_HOYOCHANNELSYSTEMFUNCTIONS___C__DISPLAYCLASS24_2__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7C5F60)
+#define MIHOYO_SDK_HOYOCHANNELSYSTEMFUNCTIONS___C__DISPLAYCLASS24_2__CLEANUPTIMEDOUTCALLBACKS_B__2_OFFSET UNITYSDK_OFFSET(0x1CC4D590)
+#define MIHOYO_SDK_HOYOCHANNELSYSTEMFUNCTIONS___C__DISPLAYCLASS24_2__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC4D580)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int HoYoChannelSystemFunctions___c__DisplayClass24_2_TypeDefinitionIndex = 36948;
+	inline static constexpr unsigned int HoYoChannelSystemFunctions___c__DisplayClass24_2_TypeDefinitionIndex = 37609;
 
 	class HoYoChannelSystemFunctions___c__DisplayClass24_2 : public ::System::Object
 	{

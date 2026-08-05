@@ -5,12 +5,12 @@
 
 namespace Foundation::Unreal { class SerializableGameplayTagQuery; }
 
-#define NPCCROWD_AI_CROWDTAGCONDITION_CHECK_OFFSET UNITYSDK_OFFSET(0xE0021D0)
-#define NPCCROWD_AI_CROWDTAGCONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0xE0021C0)
+#define NPCCROWD_AI_CROWDTAGCONDITION_CHECK_OFFSET UNITYSDK_OFFSET(0x119208B0)
+#define NPCCROWD_AI_CROWDTAGCONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0x119208A0)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int CrowdTagCondition_TypeDefinitionIndex = 43610;
+	inline static constexpr unsigned int CrowdTagCondition_TypeDefinitionIndex = 55017;
 
 	class CrowdTagCondition : public ::NPCCrowd::AI::CrowdConditionBase
 	{

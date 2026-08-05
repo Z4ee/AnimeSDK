@@ -6,17 +6,17 @@ namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class ParticleSystem; }
 namespace UnityEngine { class Renderer; }
 
-#define MOLEMOLE_MONOEFFECTFORUI_AWAKE_OFFSET UNITYSDK_OFFSET(0x10D64070)
-#define MOLEMOLE_MONOEFFECTFORUI_GET_PARTICLESYS_OFFSET UNITYSDK_OFFSET(0x10D63F90)
-#define MOLEMOLE_MONOEFFECTFORUI_GET_RENDERERS_OFFSET UNITYSDK_OFFSET(0x10D63EB0)
-#define MOLEMOLE_MONOEFFECTFORUI_METHOD_5_A5B6063FFC26FC8F_OFFSET UNITYSDK_OFFSET(0x10D64170)
-#define MOLEMOLE_MONOEFFECTFORUI_UPDATEALPHA_OFFSET UNITYSDK_OFFSET(0x10D647A0)
-#define MOLEMOLE_MONOEFFECTFORUI_UPDATE_OFFSET UNITYSDK_OFFSET(0x10D64120)
-#define MOLEMOLE_MONOEFFECTFORUI__CTOR_OFFSET UNITYSDK_OFFSET(0x10D64C20)
+#define MOLEMOLE_MONOEFFECTFORUI_AWAKE_OFFSET UNITYSDK_OFFSET(0x1686D730)
+#define MOLEMOLE_MONOEFFECTFORUI_GET_PARTICLESYS_OFFSET UNITYSDK_OFFSET(0x1686D650)
+#define MOLEMOLE_MONOEFFECTFORUI_GET_RENDERERS_OFFSET UNITYSDK_OFFSET(0x1686D570)
+#define MOLEMOLE_MONOEFFECTFORUI_METHOD_5_A5B6063FFC26FC8F_OFFSET UNITYSDK_OFFSET(0x1686D830)
+#define MOLEMOLE_MONOEFFECTFORUI_UPDATEALPHA_OFFSET UNITYSDK_OFFSET(0x1686DE60)
+#define MOLEMOLE_MONOEFFECTFORUI_UPDATE_OFFSET UNITYSDK_OFFSET(0x1686D7E0)
+#define MOLEMOLE_MONOEFFECTFORUI__CTOR_OFFSET UNITYSDK_OFFSET(0x1686E2D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoEffectForUI_TypeDefinitionIndex = 78910;
+	inline static constexpr unsigned int MonoEffectForUI_TypeDefinitionIndex = 45550;
 
 	class MonoEffectForUI : public ::UnityEngine::MonoBehaviour
 	{
@@ -24,12 +24,12 @@ namespace MoleMole
 		::System::Boolean ignoreWorldTimeScale; // 0x18
 		::System::Boolean useAlphaControl; // 0x19
 		::System::Single alpha; // 0x1C
-		::System::Int32 Field_5_3; // 0x20
-		::System::Int32 Field_5_4; // 0x24
+		::System::Int32 Field_5_7; // 0x20
+		::System::Int32 Field_5_6; // 0x24
 		::System::Single Field_5_5; // 0x28
-		::UnityEngine::MaterialPropertyBlock* Field_5_6; // 0x30
-		::Il2CppArray<::UnityEngine::Renderer*>* Field_5_7; // 0x38
-		::Il2CppArray<::UnityEngine::ParticleSystem*>* Field_5_8; // 0x40
+		::UnityEngine::MaterialPropertyBlock* Field_5_4; // 0x30
+		::Il2CppArray<::UnityEngine::Renderer*>* Field_5_11; // 0x38
+		::Il2CppArray<::UnityEngine::ParticleSystem*>* Field_5_10; // 0x40
 
 		::System::Void _ctor()
 		{

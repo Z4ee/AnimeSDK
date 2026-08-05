@@ -7,7 +7,7 @@ namespace PipelineCamera::CameraSequence { class CameraSequenceEvent; }
 
 namespace PipelineCamera::CameraSequence
 {
-	inline static constexpr unsigned int CameraSequenceComposite_5___c__DisplayClass34_0_TypeDefinitionIndex = 37823;
+	inline static constexpr unsigned int CameraSequenceComposite_5___c__DisplayClass34_0_TypeDefinitionIndex = 38484;
 
 	template <typename TSequence, typename TSegment, typename TBaseTrack, typename TAdditiveTrack, typename T>
 	class CameraSequenceComposite_5___c__DisplayClass34_0 : public ::System::Object

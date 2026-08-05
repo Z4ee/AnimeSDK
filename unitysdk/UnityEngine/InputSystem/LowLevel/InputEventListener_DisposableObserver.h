@@ -5,12 +5,12 @@
 
 namespace System { template <typename T> class IObserver_1; }
 
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTEVENTLISTENER_DISPOSABLEOBSERVER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1D7A7400)
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTEVENTLISTENER_DISPOSABLEOBSERVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7A75B0)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTEVENTLISTENER_DISPOSABLEOBSERVER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1EB4BAF0)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTEVENTLISTENER_DISPOSABLEOBSERVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB4BCA0)
 
 namespace UnityEngine::InputSystem::LowLevel
 {
-	inline static constexpr unsigned int InputEventListener_DisposableObserver_TypeDefinitionIndex = 31915;
+	inline static constexpr unsigned int InputEventListener_DisposableObserver_TypeDefinitionIndex = 32535;
 
 	class InputEventListener_DisposableObserver : public ::System::Object
 	{

@@ -4,21 +4,21 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_LANGUAGEMODEL_LOADFROMJSON_OFFSET UNITYSDK_OFFSET(0x1B5BFD70)
-#define MIHOYO_SDK_LANGUAGEMODEL_REPLACECHAR_OFFSET UNITYSDK_OFFSET(0x1B5BFDD0)
-#define MIHOYO_SDK_LANGUAGEMODEL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B5BFF70)
-#define MIHOYO_SDK_LANGUAGEMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5BBF30)
+#define MIHOYO_SDK_LANGUAGEMODEL_LOADFROMJSON_OFFSET UNITYSDK_OFFSET(0x1C930CB0)
+#define MIHOYO_SDK_LANGUAGEMODEL_REPLACECHAR_OFFSET UNITYSDK_OFFSET(0x1C930D10)
+#define MIHOYO_SDK_LANGUAGEMODEL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C930EB0)
+#define MIHOYO_SDK_LANGUAGEMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1C92CE70)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int LanguageModel_TypeDefinitionIndex = 19646;
+	inline static constexpr unsigned int LanguageModel_TypeDefinitionIndex = 19994;
 
 	class LanguageModel : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::LanguageModel** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::LanguageModel**)Il2CppClass::FromTypeDefinitionIndex(LanguageModel_TypeDefinitionIndex)->GetStaticField(0x8FA0);
+			return (::MiHoYo::SDK::LanguageModel**)Il2CppClass::FromTypeDefinitionIndex(LanguageModel_TypeDefinitionIndex)->GetStaticField(0x8FE0);
 		}
 		::System::String* account_login; // 0x10
 		::System::String* agree; // 0x18

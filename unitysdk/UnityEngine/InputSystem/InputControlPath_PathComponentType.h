@@ -3,7 +3,7 @@
 
 namespace UnityEngine::InputSystem
 {
-	inline static constexpr unsigned int InputControlPath_PathComponentType_TypeDefinitionIndex = 31619;
+	inline static constexpr unsigned int InputControlPath_PathComponentType_TypeDefinitionIndex = 32239;
 
 	enum class InputControlPath_PathComponentType : ::System::Int32
 	{

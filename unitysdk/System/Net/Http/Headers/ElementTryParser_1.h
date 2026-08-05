@@ -10,7 +10,7 @@ namespace System::Net::Http::Headers { class Lexer; }
 
 namespace System::Net::Http::Headers
 {
-	inline static constexpr unsigned int ElementTryParser_1_TypeDefinitionIndex = 26128;
+	inline static constexpr unsigned int ElementTryParser_1_TypeDefinitionIndex = 26701;
 
 	template <typename T>
 	class ElementTryParser_1 : public ::System::MulticastDelegate

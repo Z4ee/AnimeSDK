@@ -4,15 +4,17 @@
 #include "unitysdk/MoleMole/ConfigNewbie_HighLightExtra.h"
 #include "unitysdk/MoleMole/ConfigNewbie_TargetPath_ExtraType.h"
 
+namespace SimpleJSON { class JSONClass; }
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIGNEWBIE_HIGHLIGHTPREFABDATA_GET_DATATYPE_OFFSET UNITYSDK_OFFSET(0xE985C50)
-#define MOLEMOLE_CONFIGNEWBIE_HIGHLIGHTPREFABDATA_LOADFROMBYTES_OFFSET UNITYSDK_OFFSET(0xE985C60)
-#define MOLEMOLE_CONFIGNEWBIE_HIGHLIGHTPREFABDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xE985D30)
+#define MOLEMOLE_CONFIGNEWBIE_HIGHLIGHTPREFABDATA_GET_DATATYPE_OFFSET UNITYSDK_OFFSET(0x19AD8910)
+#define MOLEMOLE_CONFIGNEWBIE_HIGHLIGHTPREFABDATA_LOADFROMBYTES_OFFSET UNITYSDK_OFFSET(0x19AD8920)
+#define MOLEMOLE_CONFIGNEWBIE_HIGHLIGHTPREFABDATA_LOADFROMJSON_OFFSET UNITYSDK_OFFSET(0x19AD89F0)
+#define MOLEMOLE_CONFIGNEWBIE_HIGHLIGHTPREFABDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19AD8AD0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigNewbie_HighLightPrefabData_TypeDefinitionIndex = 49756;
+	inline static constexpr unsigned int ConfigNewbie_HighLightPrefabData_TypeDefinitionIndex = 78123;
 
 	class ConfigNewbie_HighLightPrefabData : public ::MoleMole::ConfigNewbie_HighLightExtra
 	{
@@ -33,6 +35,11 @@ namespace MoleMole
 		::System::Void LoadFromBytes(::FlexBuffers::FlxMap flexMap)
 		{
 			return ((::System::Void(*)(::PVOID, ::FlexBuffers::FlxMap))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGNEWBIE_HIGHLIGHTPREFABDATA_LOADFROMBYTES_OFFSET))(this, flexMap);
+		}
+
+		::System::Void LoadFromJson(::SimpleJSON::JSONClass* jsonNode)
+		{
+			return ((::System::Void(*)(::PVOID, ::SimpleJSON::JSONClass*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGNEWBIE_HIGHLIGHTPREFABDATA_LOADFROMJSON_OFFSET))(this, jsonNode);
 		}
 	};
 }

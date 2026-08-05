@@ -6,13 +6,13 @@ namespace System { class Action; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_TELEMETRYINTERFACE___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C735610)
-#define MIHOYO_SDK_TELEMETRYINTERFACE___C__DISPLAYCLASS6_0__DESTORY_B__0_OFFSET UNITYSDK_OFFSET(0x1C735620)
-#define MIHOYO_SDK_TELEMETRYINTERFACE___C__DISPLAYCLASS6_0__DESTORY_B__1_OFFSET UNITYSDK_OFFSET(0x1C7357E0)
+#define MIHOYO_SDK_TELEMETRYINTERFACE___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1DBEE620)
+#define MIHOYO_SDK_TELEMETRYINTERFACE___C__DISPLAYCLASS6_0__DESTORY_B__0_OFFSET UNITYSDK_OFFSET(0x1DBEE630)
+#define MIHOYO_SDK_TELEMETRYINTERFACE___C__DISPLAYCLASS6_0__DESTORY_B__1_OFFSET UNITYSDK_OFFSET(0x1DBEE7F0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int TelemetryInterface___c__DisplayClass6_0_TypeDefinitionIndex = 36955;
+	inline static constexpr unsigned int TelemetryInterface___c__DisplayClass6_0_TypeDefinitionIndex = 37616;
 
 	class TelemetryInterface___c__DisplayClass6_0 : public ::System::Object
 	{

@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_2_9D960B88876DE122;
+class Class_2_3A94B9BE4F7970B2;
 
-#define MOLEMOLE_RABDATASTATWIDGETCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x13F1EAD0)
+#define MOLEMOLE_RABDATASTATWIDGETCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x136E96C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int RABDataStatWidgetContext_TypeDefinitionIndex = 73647;
+	inline static constexpr unsigned int RABDataStatWidgetContext_TypeDefinitionIndex = 62025;
 
 	class RABDataStatWidgetContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_2_9D960B88876DE122* InLevelData; // 0x28
+		::Class_2_3A94B9BE4F7970B2* InLevelData; // 0x28
 
 		::System::Void _ctor()
 		{

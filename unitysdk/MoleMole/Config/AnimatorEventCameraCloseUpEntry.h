@@ -5,18 +5,18 @@
 namespace MoleMole::Config { class AnimatorEvent; }
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_ANIMATOREVENTCAMERACLOSEUPENTRY_CREATEANIMATIONEVENT_OFFSET UNITYSDK_OFFSET(0xE959390)
-#define MOLEMOLE_CONFIG_ANIMATOREVENTCAMERACLOSEUPENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0xE959410)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTCAMERACLOSEUPENTRY_CREATEANIMATIONEVENT_OFFSET UNITYSDK_OFFSET(0xF12D6E0)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTCAMERACLOSEUPENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0xF12D760)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AnimatorEventCameraCloseUpEntry_TypeDefinitionIndex = 41459;
+	inline static constexpr unsigned int AnimatorEventCameraCloseUpEntry_TypeDefinitionIndex = 71536;
 
 	class AnimatorEventCameraCloseUpEntry : public ::MoleMole::Config::AnimatorEventEntry
 	{
 	public:
-		::System::String* OverrideBlendCurve; // 0x58
-		::System::String* CloseUpKey; // 0x60
+		::System::String* CloseUpKey; // 0x58
+		::System::String* OverrideBlendCurve; // 0x60
 		::System::Single OverrideBlendDuration; // 0x68
 		::System::Boolean OverrideBlendSetting; // 0x6C
 

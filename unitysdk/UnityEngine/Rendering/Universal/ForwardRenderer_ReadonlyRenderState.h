@@ -4,11 +4,11 @@
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/MaterialDebugMode.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERER_READONLYRENDERSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x9ED3D0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERER_READONLYRENDERSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0xA396A0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int ForwardRenderer_ReadonlyRenderState_TypeDefinitionIndex = 26516;
+	inline static constexpr unsigned int ForwardRenderer_ReadonlyRenderState_TypeDefinitionIndex = 27350;
 
 	struct alignas(4) ForwardRenderer_ReadonlyRenderState
 	{
@@ -24,9 +24,8 @@ namespace UnityEngine::Rendering::Universal
 		::System::Boolean isReflectionCamera; // 0x19
 		::System::Boolean isPreviewOrPureUIOrReflectionCamera; // 0x1A
 		::System::Boolean isPreviewOrPureUIOrReflectionCameraOrOverlayCamera; // 0x1B
-		::System::Boolean isPreviewOrUIOrReflectionCamera; // 0x1C
-		::System::Single fsrJitterSpread; // 0x20
-		::UnityEngine::Vector4 dynamicScreenSize; // 0x24
+		::System::Single fsrJitterSpread; // 0x1C
+		::UnityEngine::Vector4 dynamicScreenSize; // 0x20
 
 		/*
 		::System::Void _ctor(::UnityEngine::NAPRenderPipeline0::CameraData& cameraData, ::UnityEngine::NAPRenderPipeline0::MaterialDebugMode materialDebugMode)

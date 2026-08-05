@@ -3,12 +3,12 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int PCFrameGenType_TypeDefinitionIndex = 78033;
+	inline static constexpr unsigned int PCFrameGenType_TypeDefinitionIndex = 42863;
 
 	enum class PCFrameGenType : ::System::Int32
 	{
-		FSRFG = 2,
 		DLSSFG = 1,
 		None = 0,
+		FSRFG = 2,
 	};
 }

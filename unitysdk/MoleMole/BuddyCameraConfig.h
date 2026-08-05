@@ -5,20 +5,20 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_BUDDYCAMERACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17024D70)
+#define MOLEMOLE_BUDDYCAMERACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x150DB860)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int BuddyCameraConfig_TypeDefinitionIndex = 54457;
+	inline static constexpr unsigned int BuddyCameraConfig_TypeDefinitionIndex = 78566;
 
 	class BuddyCameraConfig : public ::System::Object
 	{
 	public:
 		::UnityEngine::AnimationCurve* moveCurve; // 0x10
-		::System::Single fov; // 0x18
-		::UnityEngine::Vector3 position; // 0x1C
-		::System::Single moveTime; // 0x28
-		::UnityEngine::Vector3 rotation; // 0x2C
+		::UnityEngine::Vector3 position; // 0x18
+		::UnityEngine::Vector3 rotation; // 0x24
+		::System::Single moveTime; // 0x30
+		::System::Single fov; // 0x34
 
 		::System::Void _ctor()
 		{

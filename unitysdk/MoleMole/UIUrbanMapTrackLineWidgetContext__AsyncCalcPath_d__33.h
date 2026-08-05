@@ -11,23 +11,23 @@ namespace MoleMole { class UIUrbanMapTrackLineWidgetContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define MOLEMOLE_UIURBANMAPTRACKLINEWIDGETCONTEXT__ASYNCCALCPATH_D__33_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x833D70)
-#define MOLEMOLE_UIURBANMAPTRACKLINEWIDGETCONTEXT__ASYNCCALCPATH_D__33_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x283610)
+#define MOLEMOLE_UIURBANMAPTRACKLINEWIDGETCONTEXT__ASYNCCALCPATH_D__33_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x781C50)
+#define MOLEMOLE_UIURBANMAPTRACKLINEWIDGETCONTEXT__ASYNCCALCPATH_D__33_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x296F30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIUrbanMapTrackLineWidgetContext__AsyncCalcPath_d__33_TypeDefinitionIndex = 76727;
+	inline static constexpr unsigned int UIUrbanMapTrackLineWidgetContext__AsyncCalcPath_d__33_TypeDefinitionIndex = 54327;
 
 	struct alignas(8) UIUrbanMapTrackLineWidgetContext__AsyncCalcPath_d__33
 	{
-		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x10
-		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* result; // 0x20
+		::Cysharp::Threading::Tasks::UniTask_1_Awaiter<::System::Boolean> __u__2; // 0x10
+		::Class_1_A00B784DE48ED0A8* _wrapper_5__2; // 0x20
 		::MoleMole::UIUrbanMapTrackLineWidgetContext* __4__this; // 0x28
-		::Class_1_A00B784DE48ED0A8* _wrapper_5__2; // 0x30
-		::Cysharp::Threading::Tasks::UniTask_1_Awaiter<::System::Boolean> __u__2; // 0x38
+		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x30
+		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* result; // 0x40
 		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder_1<::System::Boolean> __t__builder; // 0x48
-		::UnityEngine::Vector3 targetPosition; // 0x60
-		::UnityEngine::Vector3 sourcePosition; // 0x6C
+		::UnityEngine::Vector3 sourcePosition; // 0x60
+		::UnityEngine::Vector3 targetPosition; // 0x6C
 		::System::Int32 __1__state; // 0x78
 
 		::System::Void MoveNext()

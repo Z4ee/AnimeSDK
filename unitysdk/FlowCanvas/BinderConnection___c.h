@@ -6,29 +6,29 @@
 namespace FlowCanvas { class FlowHandler; }
 namespace FlowCanvas { class ValueHandlerObject; }
 
-#define FLOWCANVAS_BINDERCONNECTION___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D3FFA70)
-#define FLOWCANVAS_BINDERCONNECTION___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3FFAB0)
-#define FLOWCANVAS_BINDERCONNECTION___C__GATHERANDVALIDATESOURCEPORT_B__27_0_OFFSET UNITYSDK_OFFSET(0x1D3FFAC0)
-#define FLOWCANVAS_BINDERCONNECTION___C__GATHERANDVALIDATETARGETPORT_B__28_0_OFFSET UNITYSDK_OFFSET(0x1D3FFB10)
+#define FLOWCANVAS_BINDERCONNECTION___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E7A5180)
+#define FLOWCANVAS_BINDERCONNECTION___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7A51C0)
+#define FLOWCANVAS_BINDERCONNECTION___C__GATHERANDVALIDATESOURCEPORT_B__27_0_OFFSET UNITYSDK_OFFSET(0x1E7A51D0)
+#define FLOWCANVAS_BINDERCONNECTION___C__GATHERANDVALIDATETARGETPORT_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E7A5220)
 
 namespace FlowCanvas
 {
-	inline static constexpr unsigned int BinderConnection___c_TypeDefinitionIndex = 30355;
+	inline static constexpr unsigned int BinderConnection___c_TypeDefinitionIndex = 30328;
 
 	class BinderConnection___c : public ::System::Object
 	{
 	public:
 		static ::FlowCanvas::FlowHandler** StaticGet___9__28_0()
 		{
-			return (::FlowCanvas::FlowHandler**)Il2CppClass::FromTypeDefinitionIndex(BinderConnection___c_TypeDefinitionIndex)->GetStaticField(0x24120);
-		}
-		static ::FlowCanvas::BinderConnection___c** StaticGet___9()
-		{
-			return (::FlowCanvas::BinderConnection___c**)Il2CppClass::FromTypeDefinitionIndex(BinderConnection___c_TypeDefinitionIndex)->GetStaticField(0x24128);
+			return (::FlowCanvas::FlowHandler**)Il2CppClass::FromTypeDefinitionIndex(BinderConnection___c_TypeDefinitionIndex)->GetStaticField(0x25A40);
 		}
 		static ::FlowCanvas::ValueHandlerObject** StaticGet___9__27_0()
 		{
-			return (::FlowCanvas::ValueHandlerObject**)Il2CppClass::FromTypeDefinitionIndex(BinderConnection___c_TypeDefinitionIndex)->GetStaticField(0x24130);
+			return (::FlowCanvas::ValueHandlerObject**)Il2CppClass::FromTypeDefinitionIndex(BinderConnection___c_TypeDefinitionIndex)->GetStaticField(0x25A48);
+		}
+		static ::FlowCanvas::BinderConnection___c** StaticGet___9()
+		{
+			return (::FlowCanvas::BinderConnection___c**)Il2CppClass::FromTypeDefinitionIndex(BinderConnection___c_TypeDefinitionIndex)->GetStaticField(0x25A50);
 		}
 
 		static ::System::Void _cctor()

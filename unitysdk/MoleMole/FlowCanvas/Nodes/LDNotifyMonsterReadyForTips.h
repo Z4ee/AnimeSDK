@@ -6,20 +6,20 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDNOTIFYMONSTERREADYFORTIPS_INVOKE_OFFSET UNITYSDK_OFFSET(0x1160E310)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDNOTIFYMONSTERREADYFORTIPS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1160E510)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDNOTIFYMONSTERREADYFORTIPS__CTOR_OFFSET UNITYSDK_OFFSET(0x1160E4F0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDNOTIFYMONSTERREADYFORTIPS_INVOKE_OFFSET UNITYSDK_OFFSET(0x192435F0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDNOTIFYMONSTERREADYFORTIPS__CCTOR_OFFSET UNITYSDK_OFFSET(0x192437F0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDNOTIFYMONSTERREADYFORTIPS__CTOR_OFFSET UNITYSDK_OFFSET(0x192437D0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDNotifyMonsterReadyForTips_TypeDefinitionIndex = 82239;
+	inline static constexpr unsigned int LDNotifyMonsterReadyForTips_TypeDefinitionIndex = 71516;
 
 	class LDNotifyMonsterReadyForTips : public ::FlowCanvas::Nodes::CallableActionNode_2<::MoleMole::Config::MonsterStrengthType, ::System::Boolean>
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::MoleMole::Config::MonsterStrengthType, ::System::String*>** StaticGet_MonsterStrengthType2StringMap()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::MoleMole::Config::MonsterStrengthType, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(LDNotifyMonsterReadyForTips_TypeDefinitionIndex)->GetStaticField(0x467F0);
+			return (::System::Collections::Generic::Dictionary_2<::MoleMole::Config::MonsterStrengthType, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(LDNotifyMonsterReadyForTips_TypeDefinitionIndex)->GetStaticField(0x4FCE0);
 		}
 		// static const ::System::String* IS_LAST_FIGHT; // 0x0
 		// static const ::System::String* NOT_LAST_FIGHT; // 0x0

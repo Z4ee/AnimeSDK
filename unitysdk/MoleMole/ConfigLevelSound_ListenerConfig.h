@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIGLEVELSOUND_LISTENERCONFIG_TESTLISTENERCONFIG_OFFSET UNITYSDK_OFFSET(0x793A50)
+#define MOLEMOLE_CONFIGLEVELSOUND_LISTENERCONFIG_TESTLISTENERCONFIG_OFFSET UNITYSDK_OFFSET(0x7CF4B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigLevelSound_ListenerConfig_TypeDefinitionIndex = 62782;
+	inline static constexpr unsigned int ConfigLevelSound_ListenerConfig_TypeDefinitionIndex = 56157;
 
 	struct alignas(8) ConfigLevelSound_ListenerConfig
 	{

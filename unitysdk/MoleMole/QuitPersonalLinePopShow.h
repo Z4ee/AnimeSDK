@@ -3,22 +3,22 @@
 #include "unitysdk/Enum_3_97930A1AD5393EA2.h"
 #include "unitysdk/MoleMole/DisplayMessageBase.h"
 
-#define MOLEMOLE_QUITPERSONALLINEPOPSHOW_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x18CF76C0)
-#define MOLEMOLE_QUITPERSONALLINEPOPSHOW_GET_PROCESSED_OFFSET UNITYSDK_OFFSET(0x18CF76B0)
-#define MOLEMOLE_QUITPERSONALLINEPOPSHOW_ONPROCESS_OFFSET UNITYSDK_OFFSET(0x18CF7720)
-#define MOLEMOLE_QUITPERSONALLINEPOPSHOW__CTOR_OFFSET UNITYSDK_OFFSET(0x18CF76D0)
+#define MOLEMOLE_QUITPERSONALLINEPOPSHOW_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x144FFD50)
+#define MOLEMOLE_QUITPERSONALLINEPOPSHOW_GET_PROCESSED_OFFSET UNITYSDK_OFFSET(0x144FFD40)
+#define MOLEMOLE_QUITPERSONALLINEPOPSHOW_ONPROCESS_OFFSET UNITYSDK_OFFSET(0x144FFDB0)
+#define MOLEMOLE_QUITPERSONALLINEPOPSHOW__CTOR_OFFSET UNITYSDK_OFFSET(0x144FFD60)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int QuitPersonalLinePopShow_TypeDefinitionIndex = 79083;
+	inline static constexpr unsigned int QuitPersonalLinePopShow_TypeDefinitionIndex = 73136;
 
 	class QuitPersonalLinePopShow : public ::MoleMole::DisplayMessageBase
 	{
 	public:
-		::Enum_3_97930A1AD5393EA2 jumpSrc; // 0x28
-		::System::Boolean _isAfk; // 0x2C
-		::System::Boolean _processed; // 0x2D
-		::System::Int32 _ovaContextID; // 0x30
+		::System::Int32 _ovaContextID; // 0x28
+		::Enum_3_97930A1AD5393EA2 jumpSrc; // 0x2C
+		::System::Boolean _isAfk; // 0x30
+		::System::Boolean _processed; // 0x31
 
 		::System::Void _ctor(::System::Boolean isAfk, ::System::Int32 ovaContextID, ::Enum_3_97930A1AD5393EA2 jumpSrc)
 		{

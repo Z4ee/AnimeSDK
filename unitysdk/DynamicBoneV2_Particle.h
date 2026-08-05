@@ -6,30 +6,30 @@
 
 namespace UnityEngine { class Transform; }
 
-#define DYNAMICBONEV2_PARTICLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E1B64A0)
+#define DYNAMICBONEV2_PARTICLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F5F0030)
 
-inline static constexpr unsigned int DynamicBoneV2_Particle_TypeDefinitionIndex = 34636;
+inline static constexpr unsigned int DynamicBoneV2_Particle_TypeDefinitionIndex = 35295;
 
 class DynamicBoneV2_Particle : public ::System::Object
 {
 public:
 	::UnityEngine::Transform* m_Transform; // 0x10
 	::System::Single m_BoneLength; // 0x18
-	::System::Single m_Radius; // 0x1C
-	::System::Boolean m_isCollide; // 0x20
-	::System::Single m_Inert; // 0x24
-	::UnityEngine::Vector3 m_animPosition; // 0x28
-	::UnityEngine::Quaternion m_animRotation; // 0x34
-	::UnityEngine::Vector3 m_InitLocalPosition; // 0x44
-	::System::Single m_Elasticity; // 0x50
-	::System::Single m_Friction; // 0x54
-	::System::Single m_Damping; // 0x58
-	::UnityEngine::Quaternion m_InitLocalRotation; // 0x5C
-	::UnityEngine::Vector3 m_PrevPosition; // 0x6C
-	::UnityEngine::Vector3 m_EndOffset; // 0x78
-	::UnityEngine::Vector3 m_Position; // 0x84
-	::System::Single m_Stiffness; // 0x90
-	::System::Int32 m_ParentIndex; // 0x94
+	::UnityEngine::Vector3 m_Position; // 0x1C
+	::UnityEngine::Vector3 m_EndOffset; // 0x28
+	::System::Single m_Stiffness; // 0x34
+	::System::Single m_Friction; // 0x38
+	::System::Single m_Elasticity; // 0x3C
+	::System::Single m_Radius; // 0x40
+	::UnityEngine::Quaternion m_InitLocalRotation; // 0x44
+	::System::Boolean m_isCollide; // 0x54
+	::UnityEngine::Vector3 m_InitLocalPosition; // 0x58
+	::System::Int32 m_ParentIndex; // 0x64
+	::System::Single m_Inert; // 0x68
+	::UnityEngine::Vector3 m_animPosition; // 0x6C
+	::System::Single m_Damping; // 0x78
+	::UnityEngine::Vector3 m_PrevPosition; // 0x7C
+	::UnityEngine::Quaternion m_animRotation; // 0x88
 
 	::System::Void _ctor()
 	{

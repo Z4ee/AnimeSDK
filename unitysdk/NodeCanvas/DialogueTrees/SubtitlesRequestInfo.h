@@ -6,18 +6,18 @@ namespace NodeCanvas::DialogueTrees { class IDialogueActor; }
 namespace NodeCanvas::DialogueTrees { class IStatement; }
 namespace System { class Action; }
 
-#define NODECANVAS_DIALOGUETREES_SUBTITLESREQUESTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6E5D40)
+#define NODECANVAS_DIALOGUETREES_SUBTITLESREQUESTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA9BA70)
 
 namespace NodeCanvas::DialogueTrees
 {
-	inline static constexpr unsigned int SubtitlesRequestInfo_TypeDefinitionIndex = 30658;
+	inline static constexpr unsigned int SubtitlesRequestInfo_TypeDefinitionIndex = 31290;
 
 	class SubtitlesRequestInfo : public ::System::Object
 	{
 	public:
-		::NodeCanvas::DialogueTrees::IDialogueActor* actor; // 0x10
-		::System::Action* Continue; // 0x18
-		::NodeCanvas::DialogueTrees::IStatement* statement; // 0x20
+		::System::Action* Continue; // 0x10
+		::NodeCanvas::DialogueTrees::IStatement* statement; // 0x18
+		::NodeCanvas::DialogueTrees::IDialogueActor* actor; // 0x20
 
 		::System::Void _ctor(::NodeCanvas::DialogueTrees::IDialogueActor* actor, ::NodeCanvas::DialogueTrees::IStatement* statement, ::System::Action* callback)
 		{

@@ -6,9 +6,9 @@
 class VideoFrameColor;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CONFIGTEXTURECOLOR__CTOR_OFFSET UNITYSDK_OFFSET(0x16741EC0)
+#define CONFIGTEXTURECOLOR__CTOR_OFFSET UNITYSDK_OFFSET(0x17A47350)
 
-inline static constexpr unsigned int ConfigTextureColor_TypeDefinitionIndex = 87509;
+inline static constexpr unsigned int ConfigTextureColor_TypeDefinitionIndex = 48472;
 
 class ConfigTextureColor : public ::Foundation::MihoyoSerializedScriptableObject
 {

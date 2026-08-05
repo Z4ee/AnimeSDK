@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_8F9C8201CB57E0BD_Enum_3_7C9BB6787F559CBC.h"
+#include "unitysdk/Class_1_F933EDA6A92EC609_Enum_3_7C9BB6787F559CBC.h"
 #include "unitysdk/Foundation/MihoyoSerializedScriptableObject.h"
 
 namespace MoleMole { class ConfigUISound_ServerSoundActionClearConfig; }
@@ -10,12 +10,12 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIGUISOUND_RELOADDATA_OFFSET UNITYSDK_OFFSET(0xE9864A0)
-#define MOLEMOLE_CONFIGUISOUND__CTOR_OFFSET UNITYSDK_OFFSET(0xE9864F0)
+#define MOLEMOLE_CONFIGUISOUND_RELOADDATA_OFFSET UNITYSDK_OFFSET(0x19ADA1F0)
+#define MOLEMOLE_CONFIGUISOUND__CTOR_OFFSET UNITYSDK_OFFSET(0x19ADA240)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUISound_TypeDefinitionIndex = 41776;
+	inline static constexpr unsigned int ConfigUISound_TypeDefinitionIndex = 90154;
 
 	class ConfigUISound : public ::Foundation::MihoyoSerializedScriptableObject
 	{
@@ -29,7 +29,8 @@ namespace MoleMole
 		::System::Single cullingMarginPercent; // 0x88
 		::System::Single cullingMinDurationExempt; // 0x8C
 		::System::Collections::Generic::List_1<::System::String*>* cullingWhitelistTags; // 0x90
-		::System::Collections::Generic::List_1<::Class_1_8F9C8201CB57E0BD_Enum_3_7C9BB6787F559CBC>* gamePlayMixPriority; // 0x98
+		::System::Int32 cullingConsecutiveFrames; // 0x98
+		::System::Collections::Generic::List_1<::Class_1_F933EDA6A92EC609_Enum_3_7C9BB6787F559CBC>* gamePlayMixPriority; // 0xA0
 
 		::System::Void _ctor()
 		{

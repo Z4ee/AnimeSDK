@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/Config/ConfigLockNearTarget_Struct_2_04E70A334141E598_2.h"
+#include "unitysdk/MoleMole/Config/ConfigLockNearTarget_Struct_2_04E70A334141E598_7.h"
 #include "unitysdk/MoleMole/Config/ConfigLockNearTarget_Struct_2_08C57BCFB296C7A0.h"
 #include "unitysdk/MoleMole/Config/ConfigLockNearTarget_Struct_2_1C06EF6E38743DE4.h"
 #include "unitysdk/MoleMole/Config/ConfigLockTarget.h"
@@ -8,32 +8,32 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 
 class Class_1_CB7F0487F7A6164A;
+class Class_3_06419CA21ECB69E6;
 class Class_3_3B42BC0680587011;
-class Class_3_CF6254B260CF5CF4;
 class Class_3_E2819F45333A39BF;
 namespace MoleMole::Battle { class Entity; }
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CONFIG_CONFIGLOCKNEARTARGET_METHOD_2_066B2FF6260EB42C_OFFSET UNITYSDK_OFFSET(0x17D5A6C0)
-#define MOLEMOLE_CONFIG_CONFIGLOCKNEARTARGET_METHOD_2_18901EBF226AE851_OFFSET UNITYSDK_OFFSET(0x17D5C460)
-#define MOLEMOLE_CONFIG_CONFIGLOCKNEARTARGET_METHOD_2_2978A65FACD8ABF8_OFFSET UNITYSDK_OFFSET(0x17D5A8F0)
-#define MOLEMOLE_CONFIG_CONFIGLOCKNEARTARGET_METHOD_2_2D2275860BACD83B_1_OFFSET UNITYSDK_OFFSET(0x17D5BD00)
-#define MOLEMOLE_CONFIG_CONFIGLOCKNEARTARGET_METHOD_2_2D2275860BACD83B_OFFSET UNITYSDK_OFFSET(0x17D5C0B0)
-#define MOLEMOLE_CONFIG_CONFIGLOCKNEARTARGET_METHOD_2_5653A00E6BB1DA78_OFFSET UNITYSDK_OFFSET(0x17D5A4F0)
-#define MOLEMOLE_CONFIG_CONFIGLOCKNEARTARGET_METHOD_2_5D1477C5FE3AC65D_OFFSET UNITYSDK_OFFSET(0x17D57070)
-#define MOLEMOLE_CONFIG_CONFIGLOCKNEARTARGET_METHOD_2_5E282517B7B8E54E_OFFSET UNITYSDK_OFFSET(0x17D57DE0)
-#define MOLEMOLE_CONFIG_CONFIGLOCKNEARTARGET_METHOD_2_7A17F208BF05E4F4_OFFSET UNITYSDK_OFFSET(0x17D59990)
-#define MOLEMOLE_CONFIG_CONFIGLOCKNEARTARGET_METHOD_2_B0C9E67798485BC6_OFFSET UNITYSDK_OFFSET(0x17D5A2E0)
-#define MOLEMOLE_CONFIG_CONFIGLOCKNEARTARGET_METHOD_2_E15FCCE65FC3E7CA_OFFSET UNITYSDK_OFFSET(0x17D59AE0)
-#define MOLEMOLE_CONFIG_CONFIGLOCKNEARTARGET_METHOD_2_EC704A98CDBAD40D_OFFSET UNITYSDK_OFFSET(0x17D57180)
-#define MOLEMOLE_CONFIG_CONFIGLOCKNEARTARGET_METHOD_2_ED8D420291CBFB8D_OFFSET UNITYSDK_OFFSET(0x17D59F80)
-#define MOLEMOLE_CONFIG_CONFIGLOCKNEARTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x17D59A00)
+#define MOLEMOLE_CONFIG_CONFIGLOCKNEARTARGET_METHOD_2_06B6F1A611D17BF5_OFFSET UNITYSDK_OFFSET(0x172A94E0)
+#define MOLEMOLE_CONFIG_CONFIGLOCKNEARTARGET_METHOD_2_18901EBF226AE851_OFFSET UNITYSDK_OFFSET(0x172AB190)
+#define MOLEMOLE_CONFIG_CONFIGLOCKNEARTARGET_METHOD_2_2978A65FACD8ABF8_OFFSET UNITYSDK_OFFSET(0x172A96F0)
+#define MOLEMOLE_CONFIG_CONFIGLOCKNEARTARGET_METHOD_2_2D2275860BACD83B_1_OFFSET UNITYSDK_OFFSET(0x172A9130)
+#define MOLEMOLE_CONFIG_CONFIGLOCKNEARTARGET_METHOD_2_2D2275860BACD83B_OFFSET UNITYSDK_OFFSET(0x172A8D80)
+#define MOLEMOLE_CONFIG_CONFIGLOCKNEARTARGET_METHOD_2_5653A00E6BB1DA78_OFFSET UNITYSDK_OFFSET(0x172AAB10)
+#define MOLEMOLE_CONFIG_CONFIGLOCKNEARTARGET_METHOD_2_5D1477C5FE3AC65D_OFFSET UNITYSDK_OFFSET(0x172A5E30)
+#define MOLEMOLE_CONFIG_CONFIGLOCKNEARTARGET_METHOD_2_5E282517B7B8E54E_OFFSET UNITYSDK_OFFSET(0x172A6B80)
+#define MOLEMOLE_CONFIG_CONFIGLOCKNEARTARGET_METHOD_2_766ACD3E6E551371_OFFSET UNITYSDK_OFFSET(0x172A5F40)
+#define MOLEMOLE_CONFIG_CONFIGLOCKNEARTARGET_METHOD_2_7A17F208BF05E4F4_OFFSET UNITYSDK_OFFSET(0x172A86D0)
+#define MOLEMOLE_CONFIG_CONFIGLOCKNEARTARGET_METHOD_2_86914B28476494AF_OFFSET UNITYSDK_OFFSET(0x172A8B90)
+#define MOLEMOLE_CONFIG_CONFIGLOCKNEARTARGET_METHOD_2_E15FCCE65FC3E7CA_OFFSET UNITYSDK_OFFSET(0x172AACE0)
+#define MOLEMOLE_CONFIG_CONFIGLOCKNEARTARGET_METHOD_2_ED8D420291CBFB8D_OFFSET UNITYSDK_OFFSET(0x172A8820)
+#define MOLEMOLE_CONFIG_CONFIGLOCKNEARTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x172A8740)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigLockNearTarget_TypeDefinitionIndex = 45090;
+	inline static constexpr unsigned int ConfigLockNearTarget_TypeDefinitionIndex = 88921;
 
 	class ConfigLockNearTarget : public ::MoleMole::Config::ConfigLockTarget
 	{
@@ -78,39 +78,14 @@ namespace MoleMole::Config
 			return ((::Class_1_CB7F0487F7A6164A*(*)(::PVOID, ::MoleMole::Battle::Entity*, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Collections::Generic::List_1<::Class_1_CB7F0487F7A6164A*>*, ::System::Single, ::System::Single, ::Class_3_E2819F45333A39BF*, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGLOCKNEARTARGET_METHOD_2_5E282517B7B8E54E_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8);
 		}
 
-		::System::Boolean Method_2_E15FCCE65FC3E7CA(::MoleMole::Battle::Entity* a1, ::MoleMole::Battle::Entity* a2, ::Class_1_CB7F0487F7A6164A* a3, ::System::Collections::Generic::List_1<::System::UInt32>* a4, ::UnityEngine::Vector3 a5, ::UnityEngine::Vector3 a6, ::System::Single a7, ::System::Boolean a8, ::System::Boolean a9)
-		{
-			return ((::System::Boolean(*)(::PVOID, ::MoleMole::Battle::Entity*, ::MoleMole::Battle::Entity*, ::Class_1_CB7F0487F7A6164A*, ::System::Collections::Generic::List_1<::System::UInt32>*, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGLOCKNEARTARGET_METHOD_2_E15FCCE65FC3E7CA_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9);
-		}
-
-		::Struct_2_FA5F50563E60AFBA Method_2_EC704A98CDBAD40D(::MoleMole::Battle::Entity* a1, ::System::Single a2, ::System::Boolean a3, ::System::Boolean a4, ::System::Boolean a5, ::System::Boolean a6, ::System::Boolean a7, ::System::Boolean a8, ::System::Func_3<::MoleMole::Battle::Entity*, ::MoleMole::Battle::Entity*, ::System::Boolean>* a9)
-		{
-			return ((::Struct_2_FA5F50563E60AFBA(*)(::PVOID, ::MoleMole::Battle::Entity*, ::System::Single, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Func_3<::MoleMole::Battle::Entity*, ::MoleMole::Battle::Entity*, ::System::Boolean>*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGLOCKNEARTARGET_METHOD_2_EC704A98CDBAD40D_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9);
-		}
-
-		::Struct_2_FA5F50563E60AFBA Method_2_2978A65FACD8ABF8(::MoleMole::Battle::Entity* a1, ::Class_3_CF6254B260CF5CF4* a2, ::Class_3_E2819F45333A39BF* a3, ::Class_3_3B42BC0680587011* a4, ::System::Collections::Generic::List_1<::System::UInt32>* a5, ::UnityEngine::Vector3 a6, ::UnityEngine::Vector3 a7, ::System::Single a8, ::System::Single a9, ::System::Boolean a10, ::System::Single a11, ::System::Boolean a12, ::System::Boolean a13, ::System::Func_3<::MoleMole::Battle::Entity*, ::MoleMole::Battle::Entity*, ::System::Boolean>* a14)
-		{
-			return ((::Struct_2_FA5F50563E60AFBA(*)(::PVOID, ::MoleMole::Battle::Entity*, ::Class_3_CF6254B260CF5CF4*, ::Class_3_E2819F45333A39BF*, ::Class_3_3B42BC0680587011*, ::System::Collections::Generic::List_1<::System::UInt32>*, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single, ::System::Single, ::System::Boolean, ::System::Single, ::System::Boolean, ::System::Boolean, ::System::Func_3<::MoleMole::Battle::Entity*, ::MoleMole::Battle::Entity*, ::System::Boolean>*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGLOCKNEARTARGET_METHOD_2_2978A65FACD8ABF8_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13, a14);
-		}
-
-		static ::System::Void Method_2_7A17F208BF05E4F4(::MoleMole::Config::ConfigLockNearTarget_Struct_2_08C57BCFB296C7A0& a1, ::MoleMole::Config::ConfigLockNearTarget_Struct_2_04E70A334141E598_2& a2, ::MoleMole::Config::ConfigLockNearTarget_Struct_2_1C06EF6E38743DE4& a3)
-		{
-			return ((::System::Void(*)(::MoleMole::Config::ConfigLockNearTarget_Struct_2_08C57BCFB296C7A0&, ::MoleMole::Config::ConfigLockNearTarget_Struct_2_04E70A334141E598_2&, ::MoleMole::Config::ConfigLockNearTarget_Struct_2_1C06EF6E38743DE4&))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGLOCKNEARTARGET_METHOD_2_7A17F208BF05E4F4_OFFSET))(a1, a2, a3);
-		}
-
 		::System::Boolean Method_2_ED8D420291CBFB8D(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::Class_1_CB7F0487F7A6164A* a3, ::System::Boolean a4)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::Class_1_CB7F0487F7A6164A*, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGLOCKNEARTARGET_METHOD_2_ED8D420291CBFB8D_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::UnityEngine::Vector3 Method_2_B0C9E67798485BC6()
+		::UnityEngine::Vector3 Method_2_86914B28476494AF()
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGLOCKNEARTARGET_METHOD_2_B0C9E67798485BC6_OFFSET))(this);
-		}
-
-		static ::System::Boolean Method_2_066B2FF6260EB42C(::Class_1_CB7F0487F7A6164A* a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::System::Single a4)
-		{
-			return ((::System::Boolean(*)(::Class_1_CB7F0487F7A6164A*, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGLOCKNEARTARGET_METHOD_2_066B2FF6260EB42C_OFFSET))(a1, a2, a3, a4);
+			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGLOCKNEARTARGET_METHOD_2_86914B28476494AF_OFFSET))(this);
 		}
 
 		::System::Boolean Method_2_2D2275860BACD83B(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::Class_1_CB7F0487F7A6164A* a3)
@@ -118,9 +93,19 @@ namespace MoleMole::Config
 			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::Class_1_CB7F0487F7A6164A*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGLOCKNEARTARGET_METHOD_2_2D2275860BACD83B_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Single Method_2_5653A00E6BB1DA78()
+		::System::Boolean Method_2_2D2275860BACD83B_1(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::Class_1_CB7F0487F7A6164A* a3)
 		{
-			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGLOCKNEARTARGET_METHOD_2_5653A00E6BB1DA78_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::Class_1_CB7F0487F7A6164A*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGLOCKNEARTARGET_METHOD_2_2D2275860BACD83B_1_OFFSET))(this, a1, a2, a3);
+		}
+
+		static ::System::Boolean Method_2_06B6F1A611D17BF5(::Class_1_CB7F0487F7A6164A* a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::System::Single a4)
+		{
+			return ((::System::Boolean(*)(::Class_1_CB7F0487F7A6164A*, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGLOCKNEARTARGET_METHOD_2_06B6F1A611D17BF5_OFFSET))(a1, a2, a3, a4);
+		}
+
+		::Struct_2_FA5F50563E60AFBA Method_2_2978A65FACD8ABF8(::MoleMole::Battle::Entity* a1, ::Class_3_06419CA21ECB69E6* a2, ::Class_3_E2819F45333A39BF* a3, ::Class_3_3B42BC0680587011* a4, ::System::Collections::Generic::List_1<::System::UInt32>* a5, ::UnityEngine::Vector3 a6, ::UnityEngine::Vector3 a7, ::System::Single a8, ::System::Single a9, ::System::Boolean a10, ::System::Single a11, ::System::Boolean a12, ::System::Boolean a13, ::System::Func_3<::MoleMole::Battle::Entity*, ::MoleMole::Battle::Entity*, ::System::Boolean>* a14)
+		{
+			return ((::Struct_2_FA5F50563E60AFBA(*)(::PVOID, ::MoleMole::Battle::Entity*, ::Class_3_06419CA21ECB69E6*, ::Class_3_E2819F45333A39BF*, ::Class_3_3B42BC0680587011*, ::System::Collections::Generic::List_1<::System::UInt32>*, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single, ::System::Single, ::System::Boolean, ::System::Single, ::System::Boolean, ::System::Boolean, ::System::Func_3<::MoleMole::Battle::Entity*, ::MoleMole::Battle::Entity*, ::System::Boolean>*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGLOCKNEARTARGET_METHOD_2_2978A65FACD8ABF8_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13, a14);
 		}
 
 		::System::Void Method_2_18901EBF226AE851(::MoleMole::Battle::Entity* a1)
@@ -128,9 +113,24 @@ namespace MoleMole::Config
 			return ((::System::Void(*)(::PVOID, ::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGLOCKNEARTARGET_METHOD_2_18901EBF226AE851_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Method_2_2D2275860BACD83B_1(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::Class_1_CB7F0487F7A6164A* a3)
+		::System::Boolean Method_2_E15FCCE65FC3E7CA(::MoleMole::Battle::Entity* a1, ::MoleMole::Battle::Entity* a2, ::Class_1_CB7F0487F7A6164A* a3, ::System::Collections::Generic::List_1<::System::UInt32>* a4, ::UnityEngine::Vector3 a5, ::UnityEngine::Vector3 a6, ::System::Single a7, ::System::Boolean a8, ::System::Boolean a9)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::Class_1_CB7F0487F7A6164A*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGLOCKNEARTARGET_METHOD_2_2D2275860BACD83B_1_OFFSET))(this, a1, a2, a3);
+			return ((::System::Boolean(*)(::PVOID, ::MoleMole::Battle::Entity*, ::MoleMole::Battle::Entity*, ::Class_1_CB7F0487F7A6164A*, ::System::Collections::Generic::List_1<::System::UInt32>*, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGLOCKNEARTARGET_METHOD_2_E15FCCE65FC3E7CA_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9);
+		}
+
+		static ::System::Void Method_2_7A17F208BF05E4F4(::MoleMole::Config::ConfigLockNearTarget_Struct_2_08C57BCFB296C7A0& a1, ::MoleMole::Config::ConfigLockNearTarget_Struct_2_04E70A334141E598_7& a2, ::MoleMole::Config::ConfigLockNearTarget_Struct_2_1C06EF6E38743DE4& a3)
+		{
+			return ((::System::Void(*)(::MoleMole::Config::ConfigLockNearTarget_Struct_2_08C57BCFB296C7A0&, ::MoleMole::Config::ConfigLockNearTarget_Struct_2_04E70A334141E598_7&, ::MoleMole::Config::ConfigLockNearTarget_Struct_2_1C06EF6E38743DE4&))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGLOCKNEARTARGET_METHOD_2_7A17F208BF05E4F4_OFFSET))(a1, a2, a3);
+		}
+
+		::System::Single Method_2_5653A00E6BB1DA78()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGLOCKNEARTARGET_METHOD_2_5653A00E6BB1DA78_OFFSET))(this);
+		}
+
+		::Struct_2_FA5F50563E60AFBA Method_2_766ACD3E6E551371(::MoleMole::Battle::Entity* a1, ::System::Single a2, ::System::Boolean a3, ::System::Boolean a4, ::System::Boolean a5, ::System::Boolean a6, ::System::Boolean a7, ::System::Boolean a8, ::System::Func_3<::MoleMole::Battle::Entity*, ::MoleMole::Battle::Entity*, ::System::Boolean>* a9)
+		{
+			return ((::Struct_2_FA5F50563E60AFBA(*)(::PVOID, ::MoleMole::Battle::Entity*, ::System::Single, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Func_3<::MoleMole::Battle::Entity*, ::MoleMole::Battle::Entity*, ::System::Boolean>*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGLOCKNEARTARGET_METHOD_2_766ACD3E6E551371_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9);
 		}
 	};
 }

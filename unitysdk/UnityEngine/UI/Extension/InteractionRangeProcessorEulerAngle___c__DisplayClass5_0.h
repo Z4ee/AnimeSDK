@@ -4,20 +4,20 @@
 
 namespace UnityEngine::UI::Extension { class InteractionRangeProcessorEulerAngle; }
 
-#define UNITYENGINE_UI_EXTENSION_INTERACTIONRANGEPROCESSOREULERANGLE___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC78170)
-#define UNITYENGINE_UI_EXTENSION_INTERACTIONRANGEPROCESSOREULERANGLE___C__DISPLAYCLASS5_0__GOTOVAL_B__0_OFFSET UNITYSDK_OFFSET(0x1AC78180)
-#define UNITYENGINE_UI_EXTENSION_INTERACTIONRANGEPROCESSOREULERANGLE___C__DISPLAYCLASS5_0__GOTOVAL_B__1_OFFSET UNITYSDK_OFFSET(0x1AC78270)
+#define UNITYENGINE_UI_EXTENSION_INTERACTIONRANGEPROCESSOREULERANGLE___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A686CF0)
+#define UNITYENGINE_UI_EXTENSION_INTERACTIONRANGEPROCESSOREULERANGLE___C__DISPLAYCLASS5_0__GOTOVAL_B__0_OFFSET UNITYSDK_OFFSET(0x1A686D00)
+#define UNITYENGINE_UI_EXTENSION_INTERACTIONRANGEPROCESSOREULERANGLE___C__DISPLAYCLASS5_0__GOTOVAL_B__1_OFFSET UNITYSDK_OFFSET(0x1A686DF0)
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int InteractionRangeProcessorEulerAngle___c__DisplayClass5_0_TypeDefinitionIndex = 42583;
+	inline static constexpr unsigned int InteractionRangeProcessorEulerAngle___c__DisplayClass5_0_TypeDefinitionIndex = 52828;
 
 	class InteractionRangeProcessorEulerAngle___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:
 		::UnityEngine::UI::Extension::InteractionRangeProcessorEulerAngle* __4__this; // 0x10
-		::System::Single targetAngle; // 0x18
-		::System::Single curRotAngle; // 0x1C
+		::System::Single curRotAngle; // 0x18
+		::System::Single targetAngle; // 0x1C
 
 		::System::Void _ctor()
 		{

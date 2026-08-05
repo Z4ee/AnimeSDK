@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_0A55B5A82A61DAFA_1;
+class Class_2_0A55B5A82A61DAFA;
 namespace MoleMole { class UIMainStoryPageController; }
 
-#define MOLEMOLE_UIMAINSTORYPAGECONTROLLER___C__DISPLAYCLASS89_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1693FD60)
-#define MOLEMOLE_UIMAINSTORYPAGECONTROLLER___C__DISPLAYCLASS89_0__GOTOBATTLE_G__JUMPTOLINEUPSELECT_0_OFFSET UNITYSDK_OFFSET(0x1693FD70)
+#define MOLEMOLE_UIMAINSTORYPAGECONTROLLER___C__DISPLAYCLASS89_0__CTOR_OFFSET UNITYSDK_OFFSET(0x189C76B0)
+#define MOLEMOLE_UIMAINSTORYPAGECONTROLLER___C__DISPLAYCLASS89_0__GOTOBATTLE_G__JUMPTOLINEUPSELECT_0_OFFSET UNITYSDK_OFFSET(0x189C76C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMainStoryPageController___c__DisplayClass89_0_TypeDefinitionIndex = 76821;
+	inline static constexpr unsigned int UIMainStoryPageController___c__DisplayClass89_0_TypeDefinitionIndex = 84575;
 
 	class UIMainStoryPageController___c__DisplayClass89_0 : public ::System::Object
 	{
 	public:
-		::Class_2_0A55B5A82A61DAFA_1* battleTemplate; // 0x10
+		::Class_2_0A55B5A82A61DAFA* battleTemplate; // 0x10
 		::MoleMole::UIMainStoryPageController* __4__this; // 0x18
 		::System::Int32 archiveFileID; // 0x20
 

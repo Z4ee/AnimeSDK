@@ -3,7 +3,7 @@
 
 namespace BehaviorDesigner::Runtime::Tasks::Unity::UnityVector2
 {
-	inline static constexpr unsigned int Operator_Operation_TypeDefinitionIndex = 33421;
+	inline static constexpr unsigned int Operator_Operation_TypeDefinitionIndex = 34057;
 
 	enum class Operator_Operation : ::System::Int32
 	{

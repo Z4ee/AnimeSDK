@@ -3,7 +3,7 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowChangeBG_ChangeBGType_TypeDefinitionIndex = 55223;
+	inline static constexpr unsigned int ConfigHollowChangeBG_ChangeBGType_TypeDefinitionIndex = 49416;
 
 	enum class ConfigHollowChangeBG_ChangeBGType : ::System::Int32
 	{

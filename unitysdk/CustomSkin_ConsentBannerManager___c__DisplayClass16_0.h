@@ -5,10 +5,10 @@
 class CustomSkin_ConsentBannerManager;
 namespace System { class String; }
 
-#define CUSTOMSKIN_CONSENTBANNERMANAGER___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x129751C0)
-#define CUSTOMSKIN_CONSENTBANNERMANAGER___C__DISPLAYCLASS16_0__GENCHECKBUTTONCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0x129751D0)
+#define CUSTOMSKIN_CONSENTBANNERMANAGER___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x128BFCF0)
+#define CUSTOMSKIN_CONSENTBANNERMANAGER___C__DISPLAYCLASS16_0__GENCHECKBUTTONCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0x128BFD00)
 
-inline static constexpr unsigned int CustomSkin_ConsentBannerManager___c__DisplayClass16_0_TypeDefinitionIndex = 74598;
+inline static constexpr unsigned int CustomSkin_ConsentBannerManager___c__DisplayClass16_0_TypeDefinitionIndex = 46531;
 
 class CustomSkin_ConsentBannerManager___c__DisplayClass16_0 : public ::System::Object
 {

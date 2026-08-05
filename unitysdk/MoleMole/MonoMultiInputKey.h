@@ -13,29 +13,29 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Text; }
 
-#define MOLEMOLE_MONOMULTIINPUTKEY_CLEARGENERALKEYPANEL_OFFSET UNITYSDK_OFFSET(0x18306C20)
-#define MOLEMOLE_MONOMULTIINPUTKEY_DOCOPYRESET_OFFSET UNITYSDK_OFFSET(0x18306E50)
-#define MOLEMOLE_MONOMULTIINPUTKEY_GET_PRIORITYLEVEL_OFFSET UNITYSDK_OFFSET(0x18305D30)
-#define MOLEMOLE_MONOMULTIINPUTKEY_INITGENERALKEYPANEL_OFFSET UNITYSDK_OFFSET(0x18305D40)
-#define MOLEMOLE_MONOMULTIINPUTKEY_METHOD_5_724025AF880C2293_OFFSET UNITYSDK_OFFSET(0x18305D90)
-#define MOLEMOLE_MONOMULTIINPUTKEY_METHOD_5_745F93A8744358B2_OFFSET UNITYSDK_OFFSET(0x18306760)
-#define MOLEMOLE_MONOMULTIINPUTKEY_METHOD_5_F8AE343EE3AC451D_OFFSET UNITYSDK_OFFSET(0x183071E0)
-#define MOLEMOLE_MONOMULTIINPUTKEY_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x18306E10)
-#define MOLEMOLE_MONOMULTIINPUTKEY_ONENABLE_OFFSET UNITYSDK_OFFSET(0x18306DC0)
-#define MOLEMOLE_MONOMULTIINPUTKEY_SETENABLE_OFFSET UNITYSDK_OFFSET(0x18306710)
-#define MOLEMOLE_MONOMULTIINPUTKEY__CCTOR_OFFSET UNITYSDK_OFFSET(0x18307040)
-#define MOLEMOLE_MONOMULTIINPUTKEY__CTOR_OFFSET UNITYSDK_OFFSET(0x18306ED0)
+#define MOLEMOLE_MONOMULTIINPUTKEY_CLEARGENERALKEYPANEL_OFFSET UNITYSDK_OFFSET(0x1995ED20)
+#define MOLEMOLE_MONOMULTIINPUTKEY_DOCOPYRESET_OFFSET UNITYSDK_OFFSET(0x1995EF50)
+#define MOLEMOLE_MONOMULTIINPUTKEY_GET_PRIORITYLEVEL_OFFSET UNITYSDK_OFFSET(0x1995DE30)
+#define MOLEMOLE_MONOMULTIINPUTKEY_INITGENERALKEYPANEL_OFFSET UNITYSDK_OFFSET(0x1995DE40)
+#define MOLEMOLE_MONOMULTIINPUTKEY_METHOD_5_724025AF880C2293_OFFSET UNITYSDK_OFFSET(0x1995DE90)
+#define MOLEMOLE_MONOMULTIINPUTKEY_METHOD_5_745F93A8744358B2_OFFSET UNITYSDK_OFFSET(0x1995E870)
+#define MOLEMOLE_MONOMULTIINPUTKEY_METHOD_5_F8AE343EE3AC451D_OFFSET UNITYSDK_OFFSET(0x1995F2E0)
+#define MOLEMOLE_MONOMULTIINPUTKEY_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1995EF10)
+#define MOLEMOLE_MONOMULTIINPUTKEY_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1995EEC0)
+#define MOLEMOLE_MONOMULTIINPUTKEY_SETENABLE_OFFSET UNITYSDK_OFFSET(0x1995E820)
+#define MOLEMOLE_MONOMULTIINPUTKEY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1995F140)
+#define MOLEMOLE_MONOMULTIINPUTKEY__CTOR_OFFSET UNITYSDK_OFFSET(0x1995EFD0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoMultiInputKey_TypeDefinitionIndex = 49260;
+	inline static constexpr unsigned int MonoMultiInputKey_TypeDefinitionIndex = 55430;
 
 	class MonoMultiInputKey : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::Enum_3_C0E4561226F6DD72, ::System::String*>** StaticGet_Field_5_0()
+		static ::System::Collections::Generic::Dictionary_2<::Enum_3_C0E4561226F6DD72, ::System::String*>** StaticGet_Field_5_2()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::Enum_3_C0E4561226F6DD72, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MonoMultiInputKey_TypeDefinitionIndex)->GetStaticField(0x4B080);
+			return (::System::Collections::Generic::Dictionary_2<::Enum_3_C0E4561226F6DD72, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MonoMultiInputKey_TypeDefinitionIndex)->GetStaticField(0x519B0);
 		}
 		::System::UInt32 _priorityLevel; // 0x18
 		::UnityEngine::UI::Text* _bindedText; // 0x20
@@ -43,10 +43,10 @@ namespace MoleMole
 		::System::Collections::Generic::List_1<::MoleMole::MultiInputKeyData>* MultiInputKeyList; // 0x30
 		::UnityEngine::Transform* GeneralKeyRoot; // 0x38
 		::UnityEngine::UI::Text* LabelText; // 0x40
-		::System::Boolean Field_5_7; // 0x48
-		::MoleMole::UIBaseController* Field_5_8; // 0x50
+		::System::Boolean Field_5_11; // 0x48
+		::MoleMole::UIBaseController* Field_5_10; // 0x50
 		::System::Collections::Generic::List_1<::MoleMole::UIGeneralKeyPanelWidgetController*>* Field_5_9; // 0x58
-		::System::Collections::Generic::List_1<::MoleMole::UIGeneralCombineWidgetController*>* Field_5_10; // 0x60
+		::System::Collections::Generic::List_1<::MoleMole::UIGeneralCombineWidgetController*>* Field_5_8; // 0x60
 
 		::System::Void _ctor()
 		{
@@ -98,14 +98,14 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOMULTIINPUTKEY_METHOD_5_745F93A8744358B2_OFFSET))(this);
 		}
 
-		::System::Void Method_5_724025AF880C2293()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOMULTIINPUTKEY_METHOD_5_724025AF880C2293_OFFSET))(this);
-		}
-
 		::System::Boolean Method_5_F8AE343EE3AC451D(::System::Int32 a1)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOMULTIINPUTKEY_METHOD_5_F8AE343EE3AC451D_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_5_724025AF880C2293()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOMULTIINPUTKEY_METHOD_5_724025AF880C2293_OFFSET))(this);
 		}
 	};
 }

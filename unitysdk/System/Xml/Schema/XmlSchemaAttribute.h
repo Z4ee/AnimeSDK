@@ -11,14 +11,14 @@ namespace System::Xml::Schema { class XmlSchemaDatatype; }
 namespace System::Xml::Schema { class XmlSchemaObject; }
 namespace System::Xml::Schema { class XmlSchemaSimpleType; }
 
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAATTRIBUTE_CLONE_OFFSET UNITYSDK_OFFSET(0x1C16F9C0)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAATTRIBUTE_GET_DATATYPE_OFFSET UNITYSDK_OFFSET(0x1C16F970)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAATTRIBUTE_GET_NAMEATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1C16F9A0)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAATTRIBUTE_SETQUALIFIEDNAME_OFFSET UNITYSDK_OFFSET(0x1C16F990)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAATTRIBUTE_SET_NAMEATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1C16F9B0)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAATTRIBUTE_SET_REFNAME_OFFSET UNITYSDK_OFFSET(0x1C16F830)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAATTRIBUTE_SET_SCHEMATYPENAME_OFFSET UNITYSDK_OFFSET(0x1C16F8D0)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C16FB20)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAATTRIBUTE_CLONE_OFFSET UNITYSDK_OFFSET(0x1D564060)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAATTRIBUTE_GET_DATATYPE_OFFSET UNITYSDK_OFFSET(0x1D564010)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAATTRIBUTE_GET_NAMEATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1D564040)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAATTRIBUTE_SETQUALIFIEDNAME_OFFSET UNITYSDK_OFFSET(0x1D564030)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAATTRIBUTE_SET_NAMEATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1D564050)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAATTRIBUTE_SET_REFNAME_OFFSET UNITYSDK_OFFSET(0x1D563ED0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAATTRIBUTE_SET_SCHEMATYPENAME_OFFSET UNITYSDK_OFFSET(0x1D563F70)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5641C0)
 
 namespace System::Xml::Schema
 {
@@ -27,15 +27,15 @@ namespace System::Xml::Schema
 	class XmlSchemaAttribute : public ::System::Xml::Schema::XmlSchemaAnnotated
 	{
 	public:
-		::System::String* defaultValue; // 0x50
+		::System::String* fixedValue; // 0x50
 		::System::Xml::XmlQualifiedName* typeName; // 0x58
-		::System::String* name; // 0x60
-		::System::Xml::XmlQualifiedName* qualifiedName; // 0x68
-		::System::String* fixedValue; // 0x70
+		::System::Xml::XmlQualifiedName* qualifiedName; // 0x60
+		::System::Xml::Schema::XmlSchemaSimpleType* type; // 0x68
+		::System::Xml::Schema::XmlSchemaSimpleType* attributeType; // 0x70
 		::System::Xml::Schema::SchemaAttDef* attDef; // 0x78
-		::System::Xml::XmlQualifiedName* refName; // 0x80
-		::System::Xml::Schema::XmlSchemaSimpleType* type; // 0x88
-		::System::Xml::Schema::XmlSchemaSimpleType* attributeType; // 0x90
+		::System::String* name; // 0x80
+		::System::Xml::XmlQualifiedName* refName; // 0x88
+		::System::String* defaultValue; // 0x90
 		::System::Xml::Schema::XmlSchemaUse use; // 0x98
 		::System::Xml::Schema::XmlSchemaForm form; // 0x9C
 

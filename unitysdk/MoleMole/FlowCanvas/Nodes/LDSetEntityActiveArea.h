@@ -9,20 +9,20 @@ namespace FlowCanvas { template <typename T> class ValueInput_1; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSETENTITYACTIVEAREA_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1A027680)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSETENTITYACTIVEAREA_START_OFFSET UNITYSDK_OFFSET(0x1A027790)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSETENTITYACTIVEAREA__CTOR_OFFSET UNITYSDK_OFFSET(0x1A027DD0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSETENTITYACTIVEAREA_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1B839980)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSETENTITYACTIVEAREA_START_OFFSET UNITYSDK_OFFSET(0x1B839A90)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSETENTITYACTIVEAREA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B83A0D0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDSetEntityActiveArea_TypeDefinitionIndex = 84716;
+	inline static constexpr unsigned int LDSetEntityActiveArea_TypeDefinitionIndex = 43513;
 
 	class LDSetEntityActiveArea : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::FlowOutput* flowOut; // 0xA8
+		::FlowCanvas::ValueInput_1<::System::Collections::Generic::List_1<::System::String*>*>* areaIDInput; // 0xA8
 		::FlowCanvas::ValueInput_1<::MoleMole::EntityHandle>* handleInput; // 0xB0
-		::FlowCanvas::ValueInput_1<::System::Collections::Generic::List_1<::System::String*>*>* areaIDInput; // 0xB8
+		::FlowCanvas::FlowOutput* flowOut; // 0xB8
 
 		::System::Void _ctor()
 		{

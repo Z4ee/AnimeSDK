@@ -5,7 +5,7 @@
 
 namespace Sirenix::Serialization::Utilities
 {
-	inline static constexpr unsigned int Flags_TypeDefinitionIndex = 7649;
+	inline static constexpr unsigned int Flags_TypeDefinitionIndex = 7653;
 
 	class Flags : public ::System::Object
 	{

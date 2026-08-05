@@ -6,7 +6,7 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIStrategyGuidePageController___c__DisplayClass40_0_TypeDefinitionIndex = 69296;
+	inline static constexpr unsigned int UIStrategyGuidePageController___c__DisplayClass40_0_TypeDefinitionIndex = 78612;
 
 	struct alignas(8) UIStrategyGuidePageController___c__DisplayClass40_0
 	{

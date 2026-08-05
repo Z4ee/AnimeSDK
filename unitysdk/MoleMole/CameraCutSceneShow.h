@@ -1,28 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_43E0F27F37AC299B_Struct_2_52AD02145F5FCE3A_14.h"
+#include "unitysdk/Class_1_43E0F27F37AC299B_Struct_2_52AD02145F5FCE3A_10.h"
 #include "unitysdk/Enum_3_205B03D40B9BD873.h"
 #include "unitysdk/MoleMole/DisplayMessageBase.h"
 
 namespace System { class String; }
 
-#define MOLEMOLE_CAMERACUTSCENESHOW_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x12B93ED0)
-#define MOLEMOLE_CAMERACUTSCENESHOW_ONPROCESS_OFFSET UNITYSDK_OFFSET(0x12B93FB0)
-#define MOLEMOLE_CAMERACUTSCENESHOW__CTOR_1_OFFSET UNITYSDK_OFFSET(0x12B93F30)
-#define MOLEMOLE_CAMERACUTSCENESHOW__CTOR_OFFSET UNITYSDK_OFFSET(0x12B93EE0)
+#define MOLEMOLE_CAMERACUTSCENESHOW_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x14355FF0)
+#define MOLEMOLE_CAMERACUTSCENESHOW_ONPROCESS_OFFSET UNITYSDK_OFFSET(0x143560D0)
+#define MOLEMOLE_CAMERACUTSCENESHOW__CTOR_1_OFFSET UNITYSDK_OFFSET(0x14356050)
+#define MOLEMOLE_CAMERACUTSCENESHOW__CTOR_OFFSET UNITYSDK_OFFSET(0x14356000)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CameraCutSceneShow_TypeDefinitionIndex = 77973;
+	inline static constexpr unsigned int CameraCutSceneShow_TypeDefinitionIndex = 82741;
 
 	class CameraCutSceneShow : public ::MoleMole::DisplayMessageBase
 	{
 	public:
-		::Class_1_43E0F27F37AC299B_Struct_2_52AD02145F5FCE3A_14 _ccsParam; // 0x28
+		::Class_1_43E0F27F37AC299B_Struct_2_52AD02145F5FCE3A_10 _ccsParam; // 0x28
 
-		::System::Void _ctor(::Class_1_43E0F27F37AC299B_Struct_2_52AD02145F5FCE3A_14 ccsParam, ::Enum_3_205B03D40B9BD873 matchPage)
+		::System::Void _ctor(::Class_1_43E0F27F37AC299B_Struct_2_52AD02145F5FCE3A_10 ccsParam, ::Enum_3_205B03D40B9BD873 matchPage)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_43E0F27F37AC299B_Struct_2_52AD02145F5FCE3A_14, ::Enum_3_205B03D40B9BD873))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERACUTSCENESHOW__CTOR_OFFSET))(this, ccsParam, matchPage);
+			return ((::System::Void(*)(::PVOID, ::Class_1_43E0F27F37AC299B_Struct_2_52AD02145F5FCE3A_10, ::Enum_3_205B03D40B9BD873))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERACUTSCENESHOW__CTOR_OFFSET))(this, ccsParam, matchPage);
 		}
 
 		::System::Void _ctor_1(::System::String* cutSceneName, ::Enum_3_205B03D40B9BD873 matchPage)

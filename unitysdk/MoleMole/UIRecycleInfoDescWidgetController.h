@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIGeneralShopDescWidgetController.h"
 
-#define MOLEMOLE_UIRECYCLEINFODESCWIDGETCONTROLLER_SETINFODESC_OFFSET UNITYSDK_OFFSET(0x1667C810)
-#define MOLEMOLE_UIRECYCLEINFODESCWIDGETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1667C980)
+#define MOLEMOLE_UIRECYCLEINFODESCWIDGETCONTROLLER_SETINFODESC_OFFSET UNITYSDK_OFFSET(0x179AAAD0)
+#define MOLEMOLE_UIRECYCLEINFODESCWIDGETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x179AAC40)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRecycleInfoDescWidgetController_TypeDefinitionIndex = 74881;
+	inline static constexpr unsigned int UIRecycleInfoDescWidgetController_TypeDefinitionIndex = 63403;
 
 	class UIRecycleInfoDescWidgetController : public ::MoleMole::UIGeneralShopDescWidgetController
 	{

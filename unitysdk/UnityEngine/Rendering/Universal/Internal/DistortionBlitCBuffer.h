@@ -5,7 +5,7 @@
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int DistortionBlitCBuffer_TypeDefinitionIndex = 26969;
+	inline static constexpr unsigned int DistortionBlitCBuffer_TypeDefinitionIndex = 27604;
 
 	struct alignas(4) DistortionBlitCBuffer
 	{

@@ -5,15 +5,15 @@
 
 namespace LyraSector { class LyraPackedAsset; }
 
-#define TESTLYRASECTORLOADER_PACKEDASSETREQUESTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1C3FC2A0)
+#define TESTLYRASECTORLOADER_PACKEDASSETREQUESTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6DB700)
 
-inline static constexpr unsigned int TestLyraSectorLoader_PackedAssetRequestInfo_TypeDefinitionIndex = 26876;
+inline static constexpr unsigned int TestLyraSectorLoader_PackedAssetRequestInfo_TypeDefinitionIndex = 27871;
 
 class TestLyraSectorLoader_PackedAssetRequestInfo : public ::System::Object
 {
 public:
-	::Foundation::AssetRequestHandle handle; // 0x10
-	::LyraSector::LyraPackedAsset* packedAsset; // 0x30
+	::LyraSector::LyraPackedAsset* packedAsset; // 0x10
+	::Foundation::AssetRequestHandle handle; // 0x18
 	::System::Int32 refCount; // 0x38
 	::System::Boolean isDone; // 0x3C
 

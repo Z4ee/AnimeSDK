@@ -10,7 +10,7 @@ namespace MessagePack::Formatters { template <typename T> class IMessagePackForm
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int StaticNullableFormatter_1_TypeDefinitionIndex = 30320;
+	inline static constexpr unsigned int StaticNullableFormatter_1_TypeDefinitionIndex = 30800;
 
 	template <typename T>
 	class StaticNullableFormatter_1 : public ::System::Object

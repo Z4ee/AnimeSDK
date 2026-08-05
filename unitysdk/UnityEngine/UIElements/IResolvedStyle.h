@@ -5,7 +5,7 @@
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int IResolvedStyle_TypeDefinitionIndex = 27579;
+	inline static constexpr unsigned int IResolvedStyle_TypeDefinitionIndex = 28181;
 
 	class IResolvedStyle
 	{

@@ -5,11 +5,11 @@
 class Class_1_15C4412F4F8ACB43_1;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_RABBANGBOOSKILLPOPCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x13043100)
+#define MOLEMOLE_RABBANGBOOSKILLPOPCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x173A1730)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int RABBangbooSkillPopContext_TypeDefinitionIndex = 56654;
+	inline static constexpr unsigned int RABBangbooSkillPopContext_TypeDefinitionIndex = 70626;
 
 	class RABBangbooSkillPopContext : public ::MoleMole::UIControllerContextBase
 	{

@@ -7,12 +7,12 @@
 namespace System::Collections::Generic { template <typename T> class IComparer_1; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define FOUNDATION_EXTENSION___HEAP_DETAILS___GET_CHILDREN_OFFSET UNITYSDK_OFFSET(0x1DC9E960)
-#define FOUNDATION_EXTENSION___HEAP_DETAILS___GET_PARENT_OFFSET UNITYSDK_OFFSET(0x1DC9E950)
+#define FOUNDATION_EXTENSION___HEAP_DETAILS___GET_CHILDREN_OFFSET UNITYSDK_OFFSET(0x1F0CDED0)
+#define FOUNDATION_EXTENSION___HEAP_DETAILS___GET_PARENT_OFFSET UNITYSDK_OFFSET(0x1F0CDEC0)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int Extension___heap_details_TypeDefinitionIndex = 8788;
+	inline static constexpr unsigned int Extension___heap_details_TypeDefinitionIndex = 8582;
 
 	class Extension___heap_details : public ::System::Object
 	{

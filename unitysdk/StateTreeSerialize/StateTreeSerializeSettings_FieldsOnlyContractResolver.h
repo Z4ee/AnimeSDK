@@ -6,12 +6,12 @@
 namespace Newtonsoft::Json::Serialization { class JsonProperty; }
 namespace System::Reflection { class MemberInfo; }
 
-#define STATETREESERIALIZE_STATETREESERIALIZESETTINGS_FIELDSONLYCONTRACTRESOLVER_CREATEPROPERTY_OFFSET UNITYSDK_OFFSET(0x1D344D30)
-#define STATETREESERIALIZE_STATETREESERIALIZESETTINGS_FIELDSONLYCONTRACTRESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D344CD0)
+#define STATETREESERIALIZE_STATETREESERIALIZESETTINGS_FIELDSONLYCONTRACTRESOLVER_CREATEPROPERTY_OFFSET UNITYSDK_OFFSET(0x1E6F6A50)
+#define STATETREESERIALIZE_STATETREESERIALIZESETTINGS_FIELDSONLYCONTRACTRESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E6F69F0)
 
 namespace StateTreeSerialize
 {
-	inline static constexpr unsigned int StateTreeSerializeSettings_FieldsOnlyContractResolver_TypeDefinitionIndex = 38501;
+	inline static constexpr unsigned int StateTreeSerializeSettings_FieldsOnlyContractResolver_TypeDefinitionIndex = 39162;
 
 	class StateTreeSerializeSettings_FieldsOnlyContractResolver : public ::Newtonsoft::Json::Serialization::DefaultContractResolver
 	{

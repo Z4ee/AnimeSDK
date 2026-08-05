@@ -6,12 +6,12 @@ class Class_1_B1CC8F53861C28C2;
 namespace MoleMole { class UIFriendChatPopWindowController; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIFRIENDCHATPOPWINDOWCONTROLLER___C__DISPLAYCLASS71_0__CTOR_OFFSET UNITYSDK_OFFSET(0x175DBE00)
-#define MOLEMOLE_UIFRIENDCHATPOPWINDOWCONTROLLER___C__DISPLAYCLASS71_0__ONRECEIVEFRIENDCHATLIST_B__0_OFFSET UNITYSDK_OFFSET(0x175DBE10)
+#define MOLEMOLE_UIFRIENDCHATPOPWINDOWCONTROLLER___C__DISPLAYCLASS71_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1938E960)
+#define MOLEMOLE_UIFRIENDCHATPOPWINDOWCONTROLLER___C__DISPLAYCLASS71_0__ONRECEIVEFRIENDCHATLIST_B__0_OFFSET UNITYSDK_OFFSET(0x1938E970)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIFriendChatPopWindowController___c__DisplayClass71_0_TypeDefinitionIndex = 81238;
+	inline static constexpr unsigned int UIFriendChatPopWindowController___c__DisplayClass71_0_TypeDefinitionIndex = 66614;
 
 	class UIFriendChatPopWindowController___c__DisplayClass71_0 : public ::System::Object
 	{

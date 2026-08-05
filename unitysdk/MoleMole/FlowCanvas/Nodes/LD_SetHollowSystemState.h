@@ -8,20 +8,20 @@ namespace FlowCanvas { class FlowInput; }
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_SETHOLLOWSYSTEMSTATE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1A030230)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_SETHOLLOWSYSTEMSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A030320)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_SETHOLLOWSYSTEMSTATE__REGISTERPORTS_B__3_0_OFFSET UNITYSDK_OFFSET(0x1A030360)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_SETHOLLOWSYSTEMSTATE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x19081CD0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_SETHOLLOWSYSTEMSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x19081DC0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_SETHOLLOWSYSTEMSTATE__REGISTERPORTS_B__3_0_OFFSET UNITYSDK_OFFSET(0x19081E00)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_SetHollowSystemState_TypeDefinitionIndex = 49554;
+	inline static constexpr unsigned int LD_SetHollowSystemState_TypeDefinitionIndex = 70767;
 
 	class LD_SetHollowSystemState : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::ValueInput_1<::MoleMole::FlowCanvas::Nodes::HollowSystemStateType>* SystemState; // 0xA8
-		::FlowCanvas::FlowInput* In; // 0xB0
-		::FlowCanvas::FlowOutput* Finish; // 0xB8
+		::FlowCanvas::FlowOutput* Finish; // 0xA8
+		::FlowCanvas::ValueInput_1<::MoleMole::FlowCanvas::Nodes::HollowSystemStateType>* SystemState; // 0xB0
+		::FlowCanvas::FlowInput* In; // 0xB8
 
 		::System::Void _ctor()
 		{

@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_UIVIDEOSHOPFORGEWIDGETCHILDWINDOWCONTROLLER___C__DISPLAYCLASS127_0__CTOR_OFFSET UNITYSDK_OFFSET(0xFAE7B30)
-#define MOLEMOLE_UIVIDEOSHOPFORGEWIDGETCHILDWINDOWCONTROLLER___C__DISPLAYCLASS127_0__ONCLICKCOMPOSEBTN_B__0_OFFSET UNITYSDK_OFFSET(0xFAE7B40)
+#define MOLEMOLE_UIVIDEOSHOPFORGEWIDGETCHILDWINDOWCONTROLLER___C__DISPLAYCLASS127_0__CTOR_OFFSET UNITYSDK_OFFSET(0x11C22EB0)
+#define MOLEMOLE_UIVIDEOSHOPFORGEWIDGETCHILDWINDOWCONTROLLER___C__DISPLAYCLASS127_0__ONCLICKCOMPOSEBTN_B__0_OFFSET UNITYSDK_OFFSET(0x11C22EC0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIVideoshopForgeWidgetChildWindowController___c__DisplayClass127_0_TypeDefinitionIndex = 70535;
+	inline static constexpr unsigned int UIVideoshopForgeWidgetChildWindowController___c__DisplayClass127_0_TypeDefinitionIndex = 80839;
 
 	class UIVideoshopForgeWidgetChildWindowController___c__DisplayClass127_0 : public ::System::Object
 	{

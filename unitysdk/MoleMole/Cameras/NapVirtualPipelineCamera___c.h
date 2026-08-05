@@ -5,24 +5,24 @@
 
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MOLEMOLE_CAMERAS_NAPVIRTUALPIPELINECAMERA___C_METHOD_1_8047E14E3FC3F341_OFFSET UNITYSDK_OFFSET(0x17D26FB0)
-#define MOLEMOLE_CAMERAS_NAPVIRTUALPIPELINECAMERA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17D26F60)
-#define MOLEMOLE_CAMERAS_NAPVIRTUALPIPELINECAMERA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17D26FA0)
+#define MOLEMOLE_CAMERAS_NAPVIRTUALPIPELINECAMERA___C_METHOD_1_8047E14E3FC3F341_OFFSET UNITYSDK_OFFSET(0x17274600)
+#define MOLEMOLE_CAMERAS_NAPVIRTUALPIPELINECAMERA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x172745B0)
+#define MOLEMOLE_CAMERAS_NAPVIRTUALPIPELINECAMERA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x172745F0)
 
 namespace MoleMole::Cameras
 {
-	inline static constexpr unsigned int NapVirtualPipelineCamera___c_TypeDefinitionIndex = 72367;
+	inline static constexpr unsigned int NapVirtualPipelineCamera___c_TypeDefinitionIndex = 69716;
 
 	class NapVirtualPipelineCamera___c : public ::System::Object
 	{
 	public:
 		static ::MoleMole::Cameras::NapVirtualPipelineCamera___c** StaticGet___9()
 		{
-			return (::MoleMole::Cameras::NapVirtualPipelineCamera___c**)Il2CppClass::FromTypeDefinitionIndex(NapVirtualPipelineCamera___c_TypeDefinitionIndex)->GetStaticField(0x301F0);
+			return (::MoleMole::Cameras::NapVirtualPipelineCamera___c**)Il2CppClass::FromTypeDefinitionIndex(NapVirtualPipelineCamera___c_TypeDefinitionIndex)->GetStaticField(0x31E40);
 		}
 		static ::System::Func_2<::UnityEngine::RaycastHit, ::System::Boolean>** StaticGet___9__38_0()
 		{
-			return (::System::Func_2<::UnityEngine::RaycastHit, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(NapVirtualPipelineCamera___c_TypeDefinitionIndex)->GetStaticField(0x301F8);
+			return (::System::Func_2<::UnityEngine::RaycastHit, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(NapVirtualPipelineCamera___c_TypeDefinitionIndex)->GetStaticField(0x31E48);
 		}
 
 		static ::System::Void _cctor()

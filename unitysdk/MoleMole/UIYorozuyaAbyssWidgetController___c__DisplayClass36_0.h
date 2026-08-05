@@ -8,25 +8,25 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::Events { class UnityAction; }
 
-#define MOLEMOLE_UIYOROZUYAABYSSWIDGETCONTROLLER___C__DISPLAYCLASS36_0__CTOR_OFFSET UNITYSDK_OFFSET(0x122D8DB0)
-#define MOLEMOLE_UIYOROZUYAABYSSWIDGETCONTROLLER___C__DISPLAYCLASS36_0__REFRESHSWEEPBTN_B__0_OFFSET UNITYSDK_OFFSET(0x122D8DC0)
-#define MOLEMOLE_UIYOROZUYAABYSSWIDGETCONTROLLER___C__DISPLAYCLASS36_0__REFRESHSWEEPBTN_B__1_OFFSET UNITYSDK_OFFSET(0x122D96E0)
-#define MOLEMOLE_UIYOROZUYAABYSSWIDGETCONTROLLER___C__DISPLAYCLASS36_0__REFRESHSWEEPBTN_B__2_OFFSET UNITYSDK_OFFSET(0x122D9860)
-#define MOLEMOLE_UIYOROZUYAABYSSWIDGETCONTROLLER___C__DISPLAYCLASS36_0__REFRESHSWEEPBTN_B__3_OFFSET UNITYSDK_OFFSET(0x122D9940)
+#define MOLEMOLE_UIYOROZUYAABYSSWIDGETCONTROLLER___C__DISPLAYCLASS36_0__CTOR_OFFSET UNITYSDK_OFFSET(0x11A15FE0)
+#define MOLEMOLE_UIYOROZUYAABYSSWIDGETCONTROLLER___C__DISPLAYCLASS36_0__REFRESHSWEEPBTN_B__0_OFFSET UNITYSDK_OFFSET(0x11A15FF0)
+#define MOLEMOLE_UIYOROZUYAABYSSWIDGETCONTROLLER___C__DISPLAYCLASS36_0__REFRESHSWEEPBTN_B__1_OFFSET UNITYSDK_OFFSET(0x11A16920)
+#define MOLEMOLE_UIYOROZUYAABYSSWIDGETCONTROLLER___C__DISPLAYCLASS36_0__REFRESHSWEEPBTN_B__2_OFFSET UNITYSDK_OFFSET(0x11A16AA0)
+#define MOLEMOLE_UIYOROZUYAABYSSWIDGETCONTROLLER___C__DISPLAYCLASS36_0__REFRESHSWEEPBTN_B__3_OFFSET UNITYSDK_OFFSET(0x11A16B80)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIYorozuyaAbyssWidgetController___c__DisplayClass36_0_TypeDefinitionIndex = 66516;
+	inline static constexpr unsigned int UIYorozuyaAbyssWidgetController___c__DisplayClass36_0_TypeDefinitionIndex = 68608;
 
 	class UIYorozuyaAbyssWidgetController___c__DisplayClass36_0 : public ::System::Object
 	{
 	public:
 		::UnityEngine::Events::UnityAction* __9__1; // 0x10
-		::System::Collections::Generic::List_1<::System::Int32>* heatList; // 0x18
-		::System::Action* __9__3; // 0x20
-		::MoleMole::UIYorozuyaAbyssWidgetController* __4__this; // 0x28
-		::System::Action* __9__2; // 0x30
-		::System::String* dungeonName; // 0x38
+		::System::Action* __9__3; // 0x18
+		::System::Action* __9__2; // 0x20
+		::System::String* dungeonName; // 0x28
+		::System::Collections::Generic::List_1<::System::Int32>* heatList; // 0x30
+		::MoleMole::UIYorozuyaAbyssWidgetController* __4__this; // 0x38
 		::System::Int32 consume; // 0x40
 		::System::Int32 itemCount; // 0x44
 

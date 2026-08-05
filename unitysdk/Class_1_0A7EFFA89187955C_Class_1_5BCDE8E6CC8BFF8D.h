@@ -5,15 +5,15 @@
 class Class_1_0A7EFFA89187955C;
 namespace UnityEngine { class AnimationCurve; }
 
-#define CLASS_1_0A7EFFA89187955C_CLASS_1_5BCDE8E6CC8BFF8D__CTOR_OFFSET UNITYSDK_OFFSET(0x14E41210)
+#define CLASS_1_0A7EFFA89187955C_CLASS_1_5BCDE8E6CC8BFF8D__CTOR_OFFSET UNITYSDK_OFFSET(0x11269920)
 
-inline static constexpr unsigned int Class_1_0A7EFFA89187955C_Class_1_5BCDE8E6CC8BFF8D_TypeDefinitionIndex = 58890;
+inline static constexpr unsigned int Class_1_0A7EFFA89187955C_Class_1_5BCDE8E6CC8BFF8D_TypeDefinitionIndex = 72398;
 
 class Class_1_0A7EFFA89187955C_Class_1_5BCDE8E6CC8BFF8D : public ::System::Object
 {
 public:
-	::UnityEngine::AnimationCurve* Field_1_0; // 0x10
-	::Class_1_0A7EFFA89187955C* Field_1_1; // 0x18
+	::UnityEngine::AnimationCurve* Field_1_1; // 0x10
+	::Class_1_0A7EFFA89187955C* Field_1_0; // 0x18
 
 	::System::Void _ctor()
 	{

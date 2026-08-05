@@ -10,7 +10,7 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace MoleMole::EffectSimulate
 {
-	inline static constexpr unsigned int KeyframeableAnimationCurve_1_TypeDefinitionIndex = 59338;
+	inline static constexpr unsigned int KeyframeableAnimationCurve_1_TypeDefinitionIndex = 43188;
 
 	template <typename T>
 	class KeyframeableAnimationCurve_1 : public ::MoleMole::EffectSimulate::EvaluateAnimationCurve_1<T>

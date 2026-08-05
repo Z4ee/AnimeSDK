@@ -3,11 +3,11 @@
 
 namespace Foundation::StateMachine
 {
-	inline static constexpr unsigned int StateType_TypeDefinitionIndex = 8692;
+	inline static constexpr unsigned int StateType_TypeDefinitionIndex = 8632;
 
 	enum class StateType : ::System::Byte
 	{
-		Machine = 0x1,
 		State = 0x0,
+		Machine = 0x1,
 	};
 }

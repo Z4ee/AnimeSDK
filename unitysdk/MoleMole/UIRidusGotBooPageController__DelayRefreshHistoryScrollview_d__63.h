@@ -7,20 +7,20 @@
 namespace MoleMole { class UIRidusGotBooPageController; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define MOLEMOLE_UIRIDUSGOTBOOPAGECONTROLLER__DELAYREFRESHHISTORYSCROLLVIEW_D__63_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x7BC1D0)
-#define MOLEMOLE_UIRIDUSGOTBOOPAGECONTROLLER__DELAYREFRESHHISTORYSCROLLVIEW_D__63_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x283610)
+#define MOLEMOLE_UIRIDUSGOTBOOPAGECONTROLLER__DELAYREFRESHHISTORYSCROLLVIEW_D__63_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x837380)
+#define MOLEMOLE_UIRIDUSGOTBOOPAGECONTROLLER__DELAYREFRESHHISTORYSCROLLVIEW_D__63_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x296F30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRidusGotBooPageController__DelayRefreshHistoryScrollview_d__63_TypeDefinitionIndex = 40696;
+	inline static constexpr unsigned int UIRidusGotBooPageController__DelayRefreshHistoryScrollview_d__63_TypeDefinitionIndex = 91563;
 
 	struct alignas(8) UIRidusGotBooPageController__DelayRefreshHistoryScrollview_d__63
 	{
-		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x10
-		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskVoidMethodBuilder __t__builder; // 0x20
-		::MoleMole::UIRidusGotBooPageController* __4__this; // 0x28
-		::System::Int32 __1__state; // 0x30
-		::System::Single setHistoryTime; // 0x34
+		::MoleMole::UIRidusGotBooPageController* __4__this; // 0x10
+		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskVoidMethodBuilder __t__builder; // 0x18
+		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x20
+		::System::Single setHistoryTime; // 0x30
+		::System::Int32 __1__state; // 0x34
 
 		::System::Void MoveNext()
 		{

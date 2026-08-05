@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_UIRABBOSSREWARDROWWIDGETCONTROLLER_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0x11B917F0)
+#define MOLEMOLE_UIRABBOSSREWARDROWWIDGETCONTROLLER_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0x150F6C80)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRABBossRewardRowWidgetController_Data_TypeDefinitionIndex = 82033;
+	inline static constexpr unsigned int UIRABBossRewardRowWidgetController_Data_TypeDefinitionIndex = 77549;
 
 	class UIRABBossRewardRowWidgetController_Data : public ::System::Object
 	{

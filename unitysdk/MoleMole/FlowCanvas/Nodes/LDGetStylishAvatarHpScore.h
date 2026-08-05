@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FlowCanvas/Nodes/PureFunctionNode_1.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETSTYLISHAVATARHPSCORE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A020830)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETSTYLISHAVATARHPSCORE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A020970)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETSTYLISHAVATARHPSCORE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B832C50)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETSTYLISHAVATARHPSCORE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B832D90)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDGetStylishAvatarHpScore_TypeDefinitionIndex = 70507;
+	inline static constexpr unsigned int LDGetStylishAvatarHpScore_TypeDefinitionIndex = 58655;
 
 	class LDGetStylishAvatarHpScore : public ::FlowCanvas::Nodes::PureFunctionNode_1<::System::Int32>
 	{

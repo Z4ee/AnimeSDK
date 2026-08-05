@@ -4,16 +4,16 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CHARACTERSCRIPTCONFIG_CONFIGCUSTOMPROPERTYUIWITHMAT__CTOR_OFFSET UNITYSDK_OFFSET(0x13FF32E0)
+#define MOLEMOLE_CHARACTERSCRIPTCONFIG_CONFIGCUSTOMPROPERTYUIWITHMAT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B538380)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CharacterScriptConfig_ConfigCustomPropertyUIWithMat_TypeDefinitionIndex = 72220;
+	inline static constexpr unsigned int CharacterScriptConfig_ConfigCustomPropertyUIWithMat_TypeDefinitionIndex = 48406;
 
 	class CharacterScriptConfig_ConfigCustomPropertyUIWithMat : public ::MoleMole::CharacterScriptConfig_ConfigCustomPropertyUI
 	{
 	public:
-		::System::String* MaterialPath; // 0x58
+		::System::String* MaterialPath; // 0x60
 
 		::System::Void _ctor()
 		{

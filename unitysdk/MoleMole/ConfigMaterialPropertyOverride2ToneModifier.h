@@ -13,44 +13,46 @@
 
 class Class_1_413B2BDBE645DB66;
 
-#define MOLEMOLE_CONFIGMATERIALPROPERTYOVERRIDE2TONEMODIFIER_DOAFTERONENTER_OFFSET UNITYSDK_OFFSET(0x161AA0E0)
-#define MOLEMOLE_CONFIGMATERIALPROPERTYOVERRIDE2TONEMODIFIER_DOONENTER_OFFSET UNITYSDK_OFFSET(0x161A9FB0)
-#define MOLEMOLE_CONFIGMATERIALPROPERTYOVERRIDE2TONEMODIFIER_DOWARMUP_OFFSET UNITYSDK_OFFSET(0x161ABC10)
-#define MOLEMOLE_CONFIGMATERIALPROPERTYOVERRIDE2TONEMODIFIER_PREPAREONENTER_OFFSET UNITYSDK_OFFSET(0x161A98E0)
-#define MOLEMOLE_CONFIGMATERIALPROPERTYOVERRIDE2TONEMODIFIER_PREPAREONEXIT_OFFSET UNITYSDK_OFFSET(0x161AA280)
-#define MOLEMOLE_CONFIGMATERIALPROPERTYOVERRIDE2TONEMODIFIER_PROCESSENTER_OFFSET UNITYSDK_OFFSET(0x161AA140)
-#define MOLEMOLE_CONFIGMATERIALPROPERTYOVERRIDE2TONEMODIFIER_PROCESSEXIT_OFFSET UNITYSDK_OFFSET(0x161AA300)
-#define MOLEMOLE_CONFIGMATERIALPROPERTYOVERRIDE2TONEMODIFIER_PROCESSKEEP_OFFSET UNITYSDK_OFFSET(0x161AAEF0)
-#define MOLEMOLE_CONFIGMATERIALPROPERTYOVERRIDE2TONEMODIFIER_SYNCENABLES_OFFSET UNITYSDK_OFFSET(0x161AA990)
-#define MOLEMOLE_CONFIGMATERIALPROPERTYOVERRIDE2TONEMODIFIER_SYNCVALUES_OFFSET UNITYSDK_OFFSET(0x161AA4D0)
-#define MOLEMOLE_CONFIGMATERIALPROPERTYOVERRIDE2TONEMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x161ABCA0)
+#define MOLEMOLE_CONFIGMATERIALPROPERTYOVERRIDE2TONEMODIFIER_DOAFTERONENTER_OFFSET UNITYSDK_OFFSET(0x1B932D30)
+#define MOLEMOLE_CONFIGMATERIALPROPERTYOVERRIDE2TONEMODIFIER_DOONENTER_FORUSER_OFFSET UNITYSDK_OFFSET(0x1B934900)
+#define MOLEMOLE_CONFIGMATERIALPROPERTYOVERRIDE2TONEMODIFIER_DOONENTER_OFFSET UNITYSDK_OFFSET(0x1B932C00)
+#define MOLEMOLE_CONFIGMATERIALPROPERTYOVERRIDE2TONEMODIFIER_DOWARMUP_OFFSET UNITYSDK_OFFSET(0x1B934870)
+#define MOLEMOLE_CONFIGMATERIALPROPERTYOVERRIDE2TONEMODIFIER_ONDONE_OFFSET UNITYSDK_OFFSET(0x1B934970)
+#define MOLEMOLE_CONFIGMATERIALPROPERTYOVERRIDE2TONEMODIFIER_PREPAREONENTER_OFFSET UNITYSDK_OFFSET(0x1B932540)
+#define MOLEMOLE_CONFIGMATERIALPROPERTYOVERRIDE2TONEMODIFIER_PREPAREONEXIT_OFFSET UNITYSDK_OFFSET(0x1B932ED0)
+#define MOLEMOLE_CONFIGMATERIALPROPERTYOVERRIDE2TONEMODIFIER_PROCESSENTER_OFFSET UNITYSDK_OFFSET(0x1B932D90)
+#define MOLEMOLE_CONFIGMATERIALPROPERTYOVERRIDE2TONEMODIFIER_PROCESSEXIT_OFFSET UNITYSDK_OFFSET(0x1B932F50)
+#define MOLEMOLE_CONFIGMATERIALPROPERTYOVERRIDE2TONEMODIFIER_PROCESSKEEP_OFFSET UNITYSDK_OFFSET(0x1B933B60)
+#define MOLEMOLE_CONFIGMATERIALPROPERTYOVERRIDE2TONEMODIFIER_SYNCENABLES_OFFSET UNITYSDK_OFFSET(0x1B933600)
+#define MOLEMOLE_CONFIGMATERIALPROPERTYOVERRIDE2TONEMODIFIER_SYNCVALUES_OFFSET UNITYSDK_OFFSET(0x1B933130)
+#define MOLEMOLE_CONFIGMATERIALPROPERTYOVERRIDE2TONEMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9349F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigMaterialPropertyOverride2ToneModifier_TypeDefinitionIndex = 49838;
+	inline static constexpr unsigned int ConfigMaterialPropertyOverride2ToneModifier_TypeDefinitionIndex = 59748;
 
 	class ConfigMaterialPropertyOverride2ToneModifier : public ::MoleMole::ConfigMaterialPropertyModifier
 	{
 	public:
-		::MoleMole::MaterialPropertyModifierValueFloat _Softness; // 0x48
-		::MoleMole::MaterialPropertyModifierEnumDefine::MaterialPropertyModifierValuePointSpace _PointSpace; // 0x50
-		::MoleMole::MaterialPropertyModifierEnumDefine::MaterialPropertyModifierValueLightSource _LightSource; // 0x53
-		::UnityEngine::Vector4 _PointPositionDefault; // 0x58
-		::System::Single _ShiftAngleDefault; // 0x68
-		::UnityEngine::Color _ColorBDefault; // 0x6C
-		::System::Single _ShiftAngleRef; // 0x7C
-		::MoleMole::MaterialPropertyModifierEnumDefine::MaterialPropertyModifierValueAvatarShaderBlendMode _Override2ToneBlendMode; // 0x80
-		::MoleMole::MaterialPropertyModifierValueBool _Override2ToneMultiplyAlbedo; // 0x83
-		::MoleMole::MaterialPropertyModifierValueBool _Override2Tone; // 0x86
-		::MoleMole::MaterialPropertyModifierValueFloat _ShiftAngle; // 0x8C
-		::UnityEngine::Color _ColorBRef; // 0x94
-		::UnityEngine::Vector4 _PointPositionRef; // 0xA4
-		::UnityEngine::Color _ColorARef; // 0xB4
-		::MoleMole::MaterialPropertyModifierValueVector _PointPosition; // 0xC4
-		::UnityEngine::Color _ColorADefault; // 0xDC
-		::MoleMole::MaterialPropertyModifierValueFloat _LerpPosition; // 0xEC
-		::MoleMole::MaterialPropertyModifierValueColor _ColorA; // 0xF4
-		::MoleMole::MaterialPropertyModifierValueColor _ColorB; // 0x108
+		::UnityEngine::Color _ColorADefault; // 0x48
+		::UnityEngine::Color _ColorBRef; // 0x58
+		::UnityEngine::Color _ColorARef; // 0x68
+		::MoleMole::MaterialPropertyModifierValueFloat _ShiftAngle; // 0x78
+		::MoleMole::MaterialPropertyModifierValueColor _ColorA; // 0x80
+		::MoleMole::MaterialPropertyModifierValueFloat _Softness; // 0x94
+		::System::Single _ShiftAngleRef; // 0x9C
+		::UnityEngine::Vector4 _PointPositionDefault; // 0xA0
+		::System::Single _ShiftAngleDefault; // 0xB0
+		::MoleMole::MaterialPropertyModifierValueVector _PointPosition; // 0xB4
+		::MoleMole::MaterialPropertyModifierValueBool _Override2Tone; // 0xCC
+		::MoleMole::MaterialPropertyModifierEnumDefine::MaterialPropertyModifierValueLightSource _LightSource; // 0xCF
+		::MoleMole::MaterialPropertyModifierValueColor _ColorB; // 0xD4
+		::MoleMole::MaterialPropertyModifierEnumDefine::MaterialPropertyModifierValuePointSpace _PointSpace; // 0xE8
+		::MoleMole::MaterialPropertyModifierEnumDefine::MaterialPropertyModifierValueAvatarShaderBlendMode _Override2ToneBlendMode; // 0xEB
+		::MoleMole::MaterialPropertyModifierValueBool _Override2ToneMultiplyAlbedo; // 0xEE
+		::UnityEngine::Vector4 _PointPositionRef; // 0xF4
+		::MoleMole::MaterialPropertyModifierValueFloat _LerpPosition; // 0x104
+		::UnityEngine::Color _ColorBDefault; // 0x10C
 
 		::System::Void _ctor()
 		{
@@ -105,6 +107,16 @@ namespace MoleMole
 		::System::Void DoWarmUp()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGMATERIALPROPERTYOVERRIDE2TONEMODIFIER_DOWARMUP_OFFSET))(this);
+		}
+
+		::System::Void DoOnEnter_ForUser(::Class_1_413B2BDBE645DB66* instance)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_413B2BDBE645DB66*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGMATERIALPROPERTYOVERRIDE2TONEMODIFIER_DOONENTER_FORUSER_OFFSET))(this, instance);
+		}
+
+		::System::Void OnDone(::Class_1_413B2BDBE645DB66* instance)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_413B2BDBE645DB66*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGMATERIALPROPERTYOVERRIDE2TONEMODIFIER_ONDONE_OFFSET))(this, instance);
 		}
 	};
 }

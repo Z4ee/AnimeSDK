@@ -8,18 +8,18 @@
 namespace MoleMole::Battle { class Entity; }
 namespace System { class String; }
 
-#define MOLEMOLE_MONOENTITYEFFECTDEBUGGER_METHOD_5_ABE7715DB28B2DD1_OFFSET UNITYSDK_OFFSET(0x16CD01E0)
-#define MOLEMOLE_MONOENTITYEFFECTDEBUGGER_PLAYEFFECT_OFFSET UNITYSDK_OFFSET(0x16CCFF80)
-#define MOLEMOLE_MONOENTITYEFFECTDEBUGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x16CD0160)
+#define MOLEMOLE_MONOENTITYEFFECTDEBUGGER_METHOD_5_ABE7715DB28B2DD1_OFFSET UNITYSDK_OFFSET(0x13AB33A0)
+#define MOLEMOLE_MONOENTITYEFFECTDEBUGGER_PLAYEFFECT_OFFSET UNITYSDK_OFFSET(0x13AB3140)
+#define MOLEMOLE_MONOENTITYEFFECTDEBUGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x13AB3320)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoEntityEffectDebugger_TypeDefinitionIndex = 75193;
+	inline static constexpr unsigned int MonoEntityEffectDebugger_TypeDefinitionIndex = 49479;
 
 	class MonoEntityEffectDebugger : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		// static const ::System::Single Field_5_10; // 0x0
+		// static const ::System::Single Field_5_15; // 0x0
 		::MoleMole::Battle::Entity* entity; // 0x18
 		::System::String* _effectName; // 0x20
 		::System::String* _attachPointName; // 0x28
@@ -30,10 +30,10 @@ namespace MoleMole
 		::Enum_3_AA5E322261F64EE5 angleRelativeOption; // 0x50
 		::System::Boolean showCords; // 0x54
 		::System::Boolean showAngleCords; // 0x55
-		::UnityEngine::Color Field_5_11; // 0x58
-		::UnityEngine::Color Field_5_12; // 0x68
-		::UnityEngine::Color Field_5_13; // 0x78
-		::System::Boolean Field_5_14; // 0x88
+		::UnityEngine::Color Field_5_14; // 0x58
+		::UnityEngine::Color Field_5_13; // 0x68
+		::UnityEngine::Color Field_5_12; // 0x78
+		::System::Boolean Field_5_19; // 0x88
 
 		::System::Void _ctor()
 		{

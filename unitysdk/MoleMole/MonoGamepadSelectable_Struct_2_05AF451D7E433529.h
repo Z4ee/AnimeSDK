@@ -6,11 +6,11 @@ namespace MoleMole { class MonoGamepadSelectable; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoGamepadSelectable_Struct_2_05AF451D7E433529_TypeDefinitionIndex = 78751;
+	inline static constexpr unsigned int MonoGamepadSelectable_Struct_2_05AF451D7E433529_TypeDefinitionIndex = 67816;
 
 	struct alignas(8) MonoGamepadSelectable_Struct_2_05AF451D7E433529
 	{
 		::MoleMole::MonoGamepadSelectable* Field_2_0; // 0x10
-		::System::Boolean Field_2_1; // 0x18
+		::System::Boolean Field_2_7; // 0x18
 	};
 }

@@ -6,32 +6,32 @@ class LeavesSystem;
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define LEAVESRENDERMANAGER_DRAWLEAVESSHADOW_OFFSET UNITYSDK_OFFSET(0x1B167020)
-#define LEAVESRENDERMANAGER_DRAWLEAVES_OFFSET UNITYSDK_OFFSET(0x1B166D60)
-#define LEAVESRENDERMANAGER_REGISTER_OFFSET UNITYSDK_OFFSET(0x1B166AD0)
-#define LEAVESRENDERMANAGER_UNREGISTER_OFFSET UNITYSDK_OFFSET(0x1B166CB0)
-#define LEAVESRENDERMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B1672E0)
+#define LEAVESRENDERMANAGER_DRAWLEAVESSHADOW_OFFSET UNITYSDK_OFFSET(0x1C5A0610)
+#define LEAVESRENDERMANAGER_DRAWLEAVES_OFFSET UNITYSDK_OFFSET(0x1C5A0350)
+#define LEAVESRENDERMANAGER_REGISTER_OFFSET UNITYSDK_OFFSET(0x1C5A00C0)
+#define LEAVESRENDERMANAGER_UNREGISTER_OFFSET UNITYSDK_OFFSET(0x1C5A02A0)
+#define LEAVESRENDERMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C5A08D0)
 
-inline static constexpr unsigned int LeavesRenderManager_TypeDefinitionIndex = 26304;
+inline static constexpr unsigned int LeavesRenderManager_TypeDefinitionIndex = 27775;
 
 class LeavesRenderManager : public ::System::Object
 {
 public:
 	static ::System::Collections::Generic::HashSet_1<::LeavesSystem*>** StaticGet__systems()
 	{
-		return (::System::Collections::Generic::HashSet_1<::LeavesSystem*>**)Il2CppClass::FromTypeDefinitionIndex(LeavesRenderManager_TypeDefinitionIndex)->GetStaticField(0x20A70);
+		return (::System::Collections::Generic::HashSet_1<::LeavesSystem*>**)Il2CppClass::FromTypeDefinitionIndex(LeavesRenderManager_TypeDefinitionIndex)->GetStaticField(0x21C70);
 	}
 	static ::System::Int32* StaticGet__leafNormalsId()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LeavesRenderManager_TypeDefinitionIndex)->GetStaticField(0x54F0);
-	}
-	static ::System::Int32* StaticGet__leafPositionsId()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LeavesRenderManager_TypeDefinitionIndex)->GetStaticField(0x54F4);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LeavesRenderManager_TypeDefinitionIndex)->GetStaticField(0x5360);
 	}
 	static ::System::Int32* StaticGet__leafUVsId()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LeavesRenderManager_TypeDefinitionIndex)->GetStaticField(0x54F8);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LeavesRenderManager_TypeDefinitionIndex)->GetStaticField(0x5364);
+	}
+	static ::System::Int32* StaticGet__leafPositionsId()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LeavesRenderManager_TypeDefinitionIndex)->GetStaticField(0x5368);
 	}
 
 	static ::System::Void _cctor()

@@ -3,11 +3,11 @@
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 #include "unitysdk/Struct_2_FD590E733B7F1723.h"
 
-#define MOLEMOLE_UIBALLGAMEMAINPAGECONTROLLER_BALLPITINITGAMECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D78D350)
+#define MOLEMOLE_UIBALLGAMEMAINPAGECONTROLLER_BALLPITINITGAMECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1EBDCC20)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBallGameMainPageController_BallPitInitGameContext_TypeDefinitionIndex = 89375;
+	inline static constexpr unsigned int UIBallGameMainPageController_BallPitInitGameContext_TypeDefinitionIndex = 93363;
 
 	class UIBallGameMainPageController_BallPitInitGameContext : public ::MoleMole::UIControllerContextBase
 	{
@@ -15,8 +15,8 @@ namespace MoleMole
 		::Struct_2_FD590E733B7F1723 stateData; // 0x28
 		::System::Int32 LevelID; // 0x48
 		::System::Int32 AvatarID; // 0x4C
-		::System::Boolean hasRoleData; // 0x50
-		::System::Boolean isContinue; // 0x51
+		::System::Boolean isContinue; // 0x50
+		::System::Boolean hasRoleData; // 0x51
 
 		::System::Void _ctor()
 		{

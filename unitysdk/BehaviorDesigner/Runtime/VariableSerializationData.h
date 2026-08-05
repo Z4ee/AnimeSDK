@@ -6,11 +6,11 @@ namespace BehaviorDesigner::Runtime { class FieldSerializationData; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define BEHAVIORDESIGNER_RUNTIME_VARIABLESERIALIZATIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1E19DD20)
+#define BEHAVIORDESIGNER_RUNTIME_VARIABLESERIALIZATIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1F5DF180)
 
 namespace BehaviorDesigner::Runtime
 {
-	inline static constexpr unsigned int VariableSerializationData_TypeDefinitionIndex = 33265;
+	inline static constexpr unsigned int VariableSerializationData_TypeDefinitionIndex = 33901;
 
 	class VariableSerializationData : public ::System::Object
 	{

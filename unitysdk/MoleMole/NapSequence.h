@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/BehaviorDesigner/Runtime/Tasks/Sequence.h"
 
-#define MOLEMOLE_NAPSEQUENCE_GETPRIORITY_OFFSET UNITYSDK_OFFSET(0x17381100)
-#define MOLEMOLE_NAPSEQUENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x17381150)
-#define MOLEMOLE_NAPSEQUENCE___BASE_GETPRIORITY_OFFSET UNITYSDK_OFFSET(0x173811E0)
+#define MOLEMOLE_NAPSEQUENCE_GETPRIORITY_OFFSET UNITYSDK_OFFSET(0x17927880)
+#define MOLEMOLE_NAPSEQUENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x179278D0)
+#define MOLEMOLE_NAPSEQUENCE___BASE_GETPRIORITY_OFFSET UNITYSDK_OFFSET(0x17927960)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int NapSequence_TypeDefinitionIndex = 82901;
+	inline static constexpr unsigned int NapSequence_TypeDefinitionIndex = 86906;
 
 	class NapSequence : public ::BehaviorDesigner::Runtime::Tasks::Sequence
 	{

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int ENPCAvatarExtDynamicBoneAttached_TypeDefinitionIndex = 74764;
+inline static constexpr unsigned int ENPCAvatarExtDynamicBoneAttached_TypeDefinitionIndex = 87576;
 
 enum class ENPCAvatarExtDynamicBoneAttached : ::System::Int32
 {

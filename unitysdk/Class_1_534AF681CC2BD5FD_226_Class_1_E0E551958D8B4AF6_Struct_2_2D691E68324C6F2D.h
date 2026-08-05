@@ -1,0 +1,55 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_534AF681CC2BD5FD_226_Class_1_E0E551958D8B4AF6_Enum_3_01841282008AD5F1.h"
+#include "unitysdk/Class_1_534AF681CC2BD5FD_226_Class_1_E0E551958D8B4AF6_Struct_2_51CD2120E7C02599.h"
+#include "unitysdk/System/ValueType.h"
+#include "unitysdk/UnityEngine/AI/NavMeshPathStatus.h"
+#include "unitysdk/UnityEngine/Vector3.h"
+
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define CLASS_1_534AF681CC2BD5FD_226_CLASS_1_E0E551958D8B4AF6_STRUCT_2_2D691E68324C6F2D_METHOD_2_1D4018D4200358D0_OFFSET UNITYSDK_OFFSET(0x7DB3C0)
+#define CLASS_1_534AF681CC2BD5FD_226_CLASS_1_E0E551958D8B4AF6_STRUCT_2_2D691E68324C6F2D_METHOD_2_95780ED94B90ED36_OFFSET UNITYSDK_OFFSET(0x7DB420)
+#define CLASS_1_534AF681CC2BD5FD_226_CLASS_1_E0E551958D8B4AF6_STRUCT_2_2D691E68324C6F2D_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x7DB480)
+#define CLASS_1_534AF681CC2BD5FD_226_CLASS_1_E0E551958D8B4AF6_STRUCT_2_2D691E68324C6F2D__CTOR_OFFSET UNITYSDK_OFFSET(0x7DB2D0)
+
+inline static constexpr unsigned int Class_1_534AF681CC2BD5FD_226_Class_1_E0E551958D8B4AF6_Struct_2_2D691E68324C6F2D_TypeDefinitionIndex = 54283;
+
+struct alignas(8) Class_1_534AF681CC2BD5FD_226_Class_1_E0E551958D8B4AF6_Struct_2_2D691E68324C6F2D
+{
+	::System::Collections::Generic::List_1<::UnityEngine::Vector3>* Field_2_3; // 0x10
+	::System::Int32 Field_2_2; // 0x18
+	::System::Int32 Field_2_1; // 0x1C
+	::System::Int32 Field_2_0; // 0x20
+	::System::Single Field_2_7; // 0x24
+	::System::Int32 Field_2_6; // 0x28
+	::UnityEngine::Vector3 Field_2_5; // 0x2C
+	::System::Single Field_2_4; // 0x38
+	::UnityEngine::Vector3 Field_2_11; // 0x3C
+	::UnityEngine::Vector3 Field_2_10; // 0x48
+	::Class_1_534AF681CC2BD5FD_226_Class_1_E0E551958D8B4AF6_Enum_3_01841282008AD5F1 Field_2_9; // 0x54
+	::System::Boolean Field_2_8; // 0x58
+	::UnityEngine::AI::NavMeshPathStatus Field_2_15; // 0x5C
+	::System::Boolean Field_2_14; // 0x60
+	::Class_1_534AF681CC2BD5FD_226_Class_1_E0E551958D8B4AF6_Struct_2_51CD2120E7C02599 Field_2_13; // 0x68
+
+	::System::Void _ctor(::System::Int32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_534AF681CC2BD5FD_226_CLASS_1_E0E551958D8B4AF6_STRUCT_2_2D691E68324C6F2D__CTOR_OFFSET))(this, a1);
+	}
+
+	::System::Boolean Method_2_1D4018D4200358D0()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_534AF681CC2BD5FD_226_CLASS_1_E0E551958D8B4AF6_STRUCT_2_2D691E68324C6F2D_METHOD_2_1D4018D4200358D0_OFFSET))(this);
+	}
+
+	::System::Int32 Method_2_95780ED94B90ED36()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_534AF681CC2BD5FD_226_CLASS_1_E0E551958D8B4AF6_STRUCT_2_2D691E68324C6F2D_METHOD_2_95780ED94B90ED36_OFFSET))(this);
+	}
+
+	::System::Void Method_2_CA373AA1C7054598()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_534AF681CC2BD5FD_226_CLASS_1_E0E551958D8B4AF6_STRUCT_2_2D691E68324C6F2D_METHOD_2_CA373AA1C7054598_OFFSET))(this);
+	}
+};

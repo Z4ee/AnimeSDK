@@ -6,12 +6,12 @@
 namespace MoleMole::Battle { class Entity; }
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDPUSHLEVELPERFORMCAMERAFOCUSTARGET_INVOKE_OFFSET UNITYSDK_OFFSET(0x19122160)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDPUSHLEVELPERFORMCAMERAFOCUSTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x191222F0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDPUSHLEVELPERFORMCAMERAFOCUSTARGET_INVOKE_OFFSET UNITYSDK_OFFSET(0x19DB4F10)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDPUSHLEVELPERFORMCAMERAFOCUSTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x19DB50A0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDPushLevelPerformCameraFocusTarget_TypeDefinitionIndex = 70678;
+	inline static constexpr unsigned int LDPushLevelPerformCameraFocusTarget_TypeDefinitionIndex = 54449;
 
 	class LDPushLevelPerformCameraFocusTarget : public ::FlowCanvas::Nodes::CallableActionNode_6<::System::String*, ::MoleMole::Battle::Entity*, ::System::String*, ::UnityEngine::Vector3, ::System::Single, ::System::Single>
 	{

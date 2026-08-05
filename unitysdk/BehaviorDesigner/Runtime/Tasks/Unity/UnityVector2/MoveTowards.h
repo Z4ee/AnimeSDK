@@ -6,23 +6,23 @@
 namespace BehaviorDesigner::Runtime { class SharedFloat; }
 namespace BehaviorDesigner::Runtime { class SharedVector2; }
 
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYVECTOR2_MOVETOWARDS_ONRESET_OFFSET UNITYSDK_OFFSET(0x1E5C5F50)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYVECTOR2_MOVETOWARDS_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1E5C5CD0)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYVECTOR2_MOVETOWARDS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E5C5FB0)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYVECTOR2_MOVETOWARDS___BASE_ONRESET_OFFSET UNITYSDK_OFFSET(0x1E5C6040)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYVECTOR2_MOVETOWARDS___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1E5C60D0)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYVECTOR2_MOVETOWARDS_ONRESET_OFFSET UNITYSDK_OFFSET(0x1F9B29E0)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYVECTOR2_MOVETOWARDS_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1F9B2790)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYVECTOR2_MOVETOWARDS__CTOR_OFFSET UNITYSDK_OFFSET(0x1F9B2A40)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYVECTOR2_MOVETOWARDS___BASE_ONRESET_OFFSET UNITYSDK_OFFSET(0x1F9B2AD0)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYVECTOR2_MOVETOWARDS___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1F9B2B60)
 
 namespace BehaviorDesigner::Runtime::Tasks::Unity::UnityVector2
 {
-	inline static constexpr unsigned int MoveTowards_TypeDefinitionIndex = 33417;
+	inline static constexpr unsigned int MoveTowards_TypeDefinitionIndex = 34053;
 
 	class MoveTowards : public ::BehaviorDesigner::Runtime::Tasks::Action
 	{
 	public:
-		::BehaviorDesigner::Runtime::SharedVector2* currentPosition; // 0x58
-		::BehaviorDesigner::Runtime::SharedVector2* storeResult; // 0x60
-		::BehaviorDesigner::Runtime::SharedVector2* targetPosition; // 0x68
-		::BehaviorDesigner::Runtime::SharedFloat* speed; // 0x70
+		::BehaviorDesigner::Runtime::SharedFloat* speed; // 0x58
+		::BehaviorDesigner::Runtime::SharedVector2* targetPosition; // 0x60
+		::BehaviorDesigner::Runtime::SharedVector2* storeResult; // 0x68
+		::BehaviorDesigner::Runtime::SharedVector2* currentPosition; // 0x70
 
 		::System::Void _ctor()
 		{

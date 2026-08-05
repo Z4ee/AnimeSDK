@@ -6,7 +6,7 @@ namespace UnityEngine::NAPRenderPipeline0 { class ScopedCommandBuffer; }
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int ScreenSpaceShadowResolvePass___c__DisplayClass19_0_TypeDefinitionIndex = 5840;
+	inline static constexpr unsigned int ScreenSpaceShadowResolvePass___c__DisplayClass19_0_TypeDefinitionIndex = 5842;
 
 	struct alignas(8) ScreenSpaceShadowResolvePass___c__DisplayClass19_0
 	{

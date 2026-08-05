@@ -3,9 +3,9 @@
 #include "unitysdk/ArrayPropertyType.h"
 #include "unitysdk/System/ValueType.h"
 
-#define ARRAYPROPERTYDATA_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1AF494E0)
+#define ARRAYPROPERTYDATA_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1BC4B390)
 
-inline static constexpr unsigned int ArrayPropertyData_TypeDefinitionIndex = 26536;
+inline static constexpr unsigned int ArrayPropertyData_TypeDefinitionIndex = 27719;
 
 struct alignas(8) ArrayPropertyData
 {

@@ -5,7 +5,7 @@
 
 namespace MoleMole::Cameras
 {
-	inline static constexpr unsigned int FollowData_TypeDefinitionIndex = 87245;
+	inline static constexpr unsigned int FollowData_TypeDefinitionIndex = 81600;
 
 	struct alignas(4) FollowData
 	{

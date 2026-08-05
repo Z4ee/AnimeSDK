@@ -8,18 +8,18 @@ namespace FlowCanvas::Nodes { class SwitchEnum___c__DisplayClass7_0; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define FLOWCANVAS_NODES_SWITCHENUM___C__DISPLAYCLASS7_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1D83CBB0)
-#define FLOWCANVAS_NODES_SWITCHENUM___C__DISPLAYCLASS7_1__REGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x1D83CBC0)
+#define FLOWCANVAS_NODES_SWITCHENUM___C__DISPLAYCLASS7_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB7F420)
+#define FLOWCANVAS_NODES_SWITCHENUM___C__DISPLAYCLASS7_1__REGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x1EB7F430)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int SwitchEnum___c__DisplayClass7_1_TypeDefinitionIndex = 29900;
+	inline static constexpr unsigned int SwitchEnum___c__DisplayClass7_1_TypeDefinitionIndex = 29764;
 
 	class SwitchEnum___c__DisplayClass7_1 : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::FlowCanvas::FlowOutput*>* cases; // 0x10
-		::FlowCanvas::Nodes::SwitchEnum___c__DisplayClass7_0* CS___8__locals1; // 0x18
+		::FlowCanvas::Nodes::SwitchEnum___c__DisplayClass7_0* CS___8__locals1; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::FlowCanvas::FlowOutput*>* cases; // 0x18
 
 		::System::Void _ctor()
 		{

@@ -10,7 +10,7 @@ namespace System::Collections::Generic { template <typename T> class Stack_1; }
 
 namespace Foundation
 {
-	inline static constexpr unsigned int SafeObjectPoolInstance_1_TypeDefinitionIndex = 8116;
+	inline static constexpr unsigned int SafeObjectPoolInstance_1_TypeDefinitionIndex = 8060;
 
 	template <typename T>
 	class SafeObjectPoolInstance_1 : public ::System::Object

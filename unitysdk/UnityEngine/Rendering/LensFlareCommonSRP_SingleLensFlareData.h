@@ -9,7 +9,7 @@ namespace UnityEngine { class Texture; }
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int LensFlareCommonSRP_SingleLensFlareData_TypeDefinitionIndex = 26641;
+	inline static constexpr unsigned int LensFlareCommonSRP_SingleLensFlareData_TypeDefinitionIndex = 26962;
 
 	struct alignas(8) LensFlareCommonSRP_SingleLensFlareData
 	{

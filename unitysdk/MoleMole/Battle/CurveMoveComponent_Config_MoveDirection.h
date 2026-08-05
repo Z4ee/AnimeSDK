@@ -3,7 +3,7 @@
 
 namespace MoleMole::Battle
 {
-	inline static constexpr unsigned int CurveMoveComponent_Config_MoveDirection_TypeDefinitionIndex = 53502;
+	inline static constexpr unsigned int CurveMoveComponent_Config_MoveDirection_TypeDefinitionIndex = 65748;
 
 	enum class CurveMoveComponent_Config_MoveDirection : ::System::Int32
 	{

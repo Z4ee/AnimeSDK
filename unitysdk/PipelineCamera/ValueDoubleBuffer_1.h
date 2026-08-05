@@ -6,7 +6,7 @@ namespace System { template <typename T> class Func_1; }
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int ValueDoubleBuffer_1_TypeDefinitionIndex = 37648;
+	inline static constexpr unsigned int ValueDoubleBuffer_1_TypeDefinitionIndex = 38309;
 
 	template <typename T>
 	struct ValueDoubleBuffer_1

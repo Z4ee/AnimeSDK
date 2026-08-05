@@ -4,20 +4,20 @@
 
 namespace System { class Object; }
 
-#define UNITYENGINE_RENDERING_BATCHMATERIALID_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x6DBDC0)
-#define UNITYENGINE_RENDERING_BATCHMATERIALID_EQUALS_OFFSET UNITYSDK_OFFSET(0xA05BA0)
-#define UNITYENGINE_RENDERING_BATCHMATERIALID_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x2B68B0)
-#define UNITYENGINE_RENDERING_BATCHMATERIALID__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D678AB0)
+#define UNITYENGINE_RENDERING_BATCHMATERIALID_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x826600)
+#define UNITYENGINE_RENDERING_BATCHMATERIALID_EQUALS_OFFSET UNITYSDK_OFFSET(0xA53700)
+#define UNITYENGINE_RENDERING_BATCHMATERIALID_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x325570)
+#define UNITYENGINE_RENDERING_BATCHMATERIALID__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA1BBF0)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int BatchMaterialID_TypeDefinitionIndex = 6206;
+	inline static constexpr unsigned int BatchMaterialID_TypeDefinitionIndex = 6210;
 
 	struct alignas(4) BatchMaterialID
 	{
 		static ::UnityEngine::Rendering::BatchMaterialID* StaticGet_Null()
 		{
-			return (::UnityEngine::Rendering::BatchMaterialID*)Il2CppClass::FromTypeDefinitionIndex(BatchMaterialID_TypeDefinitionIndex)->GetStaticField(0x2ED0);
+			return (::UnityEngine::Rendering::BatchMaterialID*)Il2CppClass::FromTypeDefinitionIndex(BatchMaterialID_TypeDefinitionIndex)->GetStaticField(0x2EE0);
 		}
 		::System::UInt32 value; // 0x10
 

@@ -6,23 +6,23 @@
 namespace MoleMole::Config { class ScreenEffectBool; }
 namespace MoleMole::Config { class ScreenEffectFloat; }
 
-#define MOLEMOLE_CONFIG_CONFIGENTITYNAPCONTACTSHADOWEFFECT_GETENABLED_OFFSET UNITYSDK_OFFSET(0x144DF8B0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYNAPCONTACTSHADOWEFFECT_GETSAMPLECOUNT_OFFSET UNITYSDK_OFFSET(0x144DF930)
-#define MOLEMOLE_CONFIG_CONFIGENTITYNAPCONTACTSHADOWEFFECT_GETWORLDSPACELENGTH_OFFSET UNITYSDK_OFFSET(0x144DF9B0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYNAPCONTACTSHADOWEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x144DFA30)
+#define MOLEMOLE_CONFIG_CONFIGENTITYNAPCONTACTSHADOWEFFECT_GETENABLED_OFFSET UNITYSDK_OFFSET(0x1BD5C440)
+#define MOLEMOLE_CONFIG_CONFIGENTITYNAPCONTACTSHADOWEFFECT_GETSAMPLECOUNT_OFFSET UNITYSDK_OFFSET(0x1BD5C4C0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYNAPCONTACTSHADOWEFFECT_GETWORLDSPACELENGTH_OFFSET UNITYSDK_OFFSET(0x1BD5C540)
+#define MOLEMOLE_CONFIG_CONFIGENTITYNAPCONTACTSHADOWEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD5C5C0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigEntityNapContactShadowEffect_TypeDefinitionIndex = 79590;
+	inline static constexpr unsigned int ConfigEntityNapContactShadowEffect_TypeDefinitionIndex = 56637;
 
 	class ConfigEntityNapContactShadowEffect : public ::MoleMole::Config::ConfigEntityScreenEffectBase
 	{
 	public:
 		::MoleMole::Config::ScreenEffectBool* enabled; // 0x40
-		::MoleMole::Config::ScreenEffectFloat* worldSpaceLength; // 0x48
-		::MoleMole::Config::ScreenEffectFloat* sampleCount; // 0x50
-		::MoleMole::Config::ScreenEffectFieldHandleType enabledHandleType; // 0x58
-		::MoleMole::Config::ScreenEffectFieldHandleType sampleCountHandleType; // 0x5C
+		::MoleMole::Config::ScreenEffectFloat* sampleCount; // 0x48
+		::MoleMole::Config::ScreenEffectFloat* worldSpaceLength; // 0x50
+		::MoleMole::Config::ScreenEffectFieldHandleType sampleCountHandleType; // 0x58
+		::MoleMole::Config::ScreenEffectFieldHandleType enabledHandleType; // 0x5C
 		::MoleMole::Config::ScreenEffectFieldHandleType worldSpaceLengthHandleType; // 0x60
 
 		::System::Void _ctor()

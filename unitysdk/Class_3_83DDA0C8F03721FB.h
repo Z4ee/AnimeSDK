@@ -1,0 +1,51 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_2_5560EE9F1F33A604.h"
+
+class Class_4_0DC61513D73BCE61;
+class Class_4_BB83D219B093AD9E;
+class Class_5_7DE03FFC38B69B91;
+namespace Nap::NapECS { class EcsWorld; }
+
+#define CLASS_3_83DDA0C8F03721FB_CREATEFILTERS_OFFSET UNITYSDK_OFFSET(0x15B65930)
+#define CLASS_3_83DDA0C8F03721FB_METHOD_3_2685B6183E614529_OFFSET UNITYSDK_OFFSET(0x15B65CD0)
+#define CLASS_3_83DDA0C8F03721FB_METHOD_3_520D290DA3F2C1B8_OFFSET UNITYSDK_OFFSET(0x15B65D70)
+#define CLASS_3_83DDA0C8F03721FB_METHOD_3_9FDD6A4674A7DB23_OFFSET UNITYSDK_OFFSET(0x15B65AE0)
+#define CLASS_3_83DDA0C8F03721FB_METHOD_3_BADC81CF9C936EDA_OFFSET UNITYSDK_OFFSET(0x15B665D0)
+#define CLASS_3_83DDA0C8F03721FB__CTOR_OFFSET UNITYSDK_OFFSET(0x15B65C60)
+
+inline static constexpr unsigned int Class_3_83DDA0C8F03721FB_TypeDefinitionIndex = 75999;
+
+class Class_3_83DDA0C8F03721FB : public ::Class_2_5560EE9F1F33A604
+{
+public:
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_83DDA0C8F03721FB__CTOR_OFFSET))(this);
+	}
+
+	::System::Void CreateFilters(::Nap::NapECS::EcsWorld* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Nap::NapECS::EcsWorld*))((::PBYTE)hIl2Cpp + CLASS_3_83DDA0C8F03721FB_CREATEFILTERS_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_3_9FDD6A4674A7DB23(::System::Single a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_3_83DDA0C8F03721FB_METHOD_3_9FDD6A4674A7DB23_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_3_2685B6183E614529(::System::Single a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_3_83DDA0C8F03721FB_METHOD_3_2685B6183E614529_OFFSET))(this, a1);
+	}
+
+	static ::System::Void Method_3_520D290DA3F2C1B8(::Class_4_BB83D219B093AD9E* a1, ::Class_4_0DC61513D73BCE61* a2, ::Class_5_7DE03FFC38B69B91* a3)
+	{
+		return ((::System::Void(*)(::Class_4_BB83D219B093AD9E*, ::Class_4_0DC61513D73BCE61*, ::Class_5_7DE03FFC38B69B91*))((::PBYTE)hIl2Cpp + CLASS_3_83DDA0C8F03721FB_METHOD_3_520D290DA3F2C1B8_OFFSET))(a1, a2, a3);
+	}
+
+	::System::Void Method_3_BADC81CF9C936EDA(::Nap::NapECS::EcsWorld* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Nap::NapECS::EcsWorld*))((::PBYTE)hIl2Cpp + CLASS_3_83DDA0C8F03721FB_METHOD_3_BADC81CF9C936EDA_OFFSET))(this, a1);
+	}
+};

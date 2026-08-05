@@ -6,10 +6,10 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NAPMESH_AWAKE_OFFSET UNITYSDK_OFFSET(0x139EAF50)
-#define NAPMESH__CTOR_OFFSET UNITYSDK_OFFSET(0x139EB0E0)
+#define NAPMESH_AWAKE_OFFSET UNITYSDK_OFFSET(0x11BBF7F0)
+#define NAPMESH__CTOR_OFFSET UNITYSDK_OFFSET(0x11BBF980)
 
-inline static constexpr unsigned int NAPMesh_TypeDefinitionIndex = 66140;
+inline static constexpr unsigned int NAPMesh_TypeDefinitionIndex = 88179;
 
 class NAPMesh : public ::UnityEngine::MonoBehaviour
 {

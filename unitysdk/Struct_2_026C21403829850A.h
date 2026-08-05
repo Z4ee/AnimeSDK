@@ -3,13 +3,13 @@
 #include "unitysdk/Foundation/ViewObject/GroupMemberIdentifier.h"
 #include "unitysdk/System/ValueType.h"
 
-inline static constexpr unsigned int Struct_2_026C21403829850A_TypeDefinitionIndex = 48948;
+inline static constexpr unsigned int Struct_2_026C21403829850A_TypeDefinitionIndex = 62584;
 
 struct alignas(4) Struct_2_026C21403829850A
 {
-	::System::Int32 Field_2_0; // 0x10
-	::System::Int32 Field_2_1; // 0x14
-	::Foundation::ViewObject::GroupMemberIdentifier Field_2_2; // 0x18
-	::System::Int32 Field_2_3; // 0x20
-	::System::Int32 Field_2_4; // 0x24
+	::System::Int32 Field_2_3; // 0x10
+	::System::Int32 Field_2_2; // 0x14
+	::Foundation::ViewObject::GroupMemberIdentifier Field_2_1; // 0x18
+	::System::Int32 Field_2_0; // 0x20
+	::System::Int32 Field_2_7; // 0x24
 };

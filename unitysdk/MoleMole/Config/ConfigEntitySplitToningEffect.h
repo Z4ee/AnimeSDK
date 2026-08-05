@@ -7,14 +7,14 @@
 namespace MoleMole::Config { class ScreenEffectColor; }
 namespace MoleMole::Config { class ScreenEffectFloat; }
 
-#define MOLEMOLE_CONFIG_CONFIGENTITYSPLITTONINGEFFECT_GETBALANCE_OFFSET UNITYSDK_OFFSET(0x1AA50120)
-#define MOLEMOLE_CONFIG_CONFIGENTITYSPLITTONINGEFFECT_GETHIGHLIGHTS_OFFSET UNITYSDK_OFFSET(0x1AA50080)
-#define MOLEMOLE_CONFIG_CONFIGENTITYSPLITTONINGEFFECT_GETSHADOWS_OFFSET UNITYSDK_OFFSET(0x1AA4FFE0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYSPLITTONINGEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA501A0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYSPLITTONINGEFFECT_GETBALANCE_OFFSET UNITYSDK_OFFSET(0x11470320)
+#define MOLEMOLE_CONFIG_CONFIGENTITYSPLITTONINGEFFECT_GETHIGHLIGHTS_OFFSET UNITYSDK_OFFSET(0x11470280)
+#define MOLEMOLE_CONFIG_CONFIGENTITYSPLITTONINGEFFECT_GETSHADOWS_OFFSET UNITYSDK_OFFSET(0x114701E0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYSPLITTONINGEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x114703A0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigEntitySplitToningEffect_TypeDefinitionIndex = 42678;
+	inline static constexpr unsigned int ConfigEntitySplitToningEffect_TypeDefinitionIndex = 72169;
 
 	class ConfigEntitySplitToningEffect : public ::MoleMole::Config::ConfigEntityScreenEffectBase
 	{
@@ -22,9 +22,9 @@ namespace MoleMole::Config
 		::MoleMole::Config::ScreenEffectFloat* balance; // 0x40
 		::MoleMole::Config::ScreenEffectColor* highlights; // 0x48
 		::MoleMole::Config::ScreenEffectColor* shadows; // 0x50
-		::MoleMole::Config::ScreenEffectFieldHandleType balanceHandleType; // 0x58
-		::MoleMole::Config::ScreenEffectFieldHandleType shadowsHandleType; // 0x5C
-		::MoleMole::Config::ScreenEffectFieldHandleType highlightsHandleType; // 0x60
+		::MoleMole::Config::ScreenEffectFieldHandleType shadowsHandleType; // 0x58
+		::MoleMole::Config::ScreenEffectFieldHandleType highlightsHandleType; // 0x5C
+		::MoleMole::Config::ScreenEffectFieldHandleType balanceHandleType; // 0x60
 
 		::System::Void _ctor()
 		{

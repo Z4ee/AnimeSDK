@@ -3,12 +3,12 @@
 
 namespace Share
 {
-	inline static constexpr unsigned int EByEventCountType_TypeDefinitionIndex = 17408;
+	inline static constexpr unsigned int EByEventCountType_TypeDefinitionIndex = 17727;
 
 	enum class EByEventCountType : ::System::Int16
 	{
 		EventID = 3,
-		Tag = 1,
 		NodeType = 2,
+		Tag = 1,
 	};
 }

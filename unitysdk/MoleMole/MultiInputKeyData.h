@@ -6,7 +6,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MultiInputKeyData_TypeDefinitionIndex = 46713;
+	inline static constexpr unsigned int MultiInputKeyData_TypeDefinitionIndex = 49938;
 
 	struct alignas(4) MultiInputKeyData
 	{

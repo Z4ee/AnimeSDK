@@ -8,30 +8,30 @@ class Class_1_A73173CCB55A8FCA;
 namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_MONOTIMERMANAGER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x12647F80)
-#define MOLEMOLE_MONOTIMERMANAGER_REGISTERTIMER_1_OFFSET UNITYSDK_OFFSET(0x12648AF0)
-#define MOLEMOLE_MONOTIMERMANAGER_REGISTERTIMER_2_OFFSET UNITYSDK_OFFSET(0x12648CE0)
-#define MOLEMOLE_MONOTIMERMANAGER_REGISTERTIMER_OFFSET UNITYSDK_OFFSET(0x12648970)
-#define MOLEMOLE_MONOTIMERMANAGER_RESETALLTRIGGERTIMER_OFFSET UNITYSDK_OFFSET(0x12648470)
-#define MOLEMOLE_MONOTIMERMANAGER_RESTARTGAME_OFFSET UNITYSDK_OFFSET(0x12648210)
-#define MOLEMOLE_MONOTIMERMANAGER_UPDATE_OFFSET UNITYSDK_OFFSET(0x126485F0)
-#define MOLEMOLE_MONOTIMERMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x12648D90)
+#define MOLEMOLE_MONOTIMERMANAGER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x14A147B0)
+#define MOLEMOLE_MONOTIMERMANAGER_REGISTERTIMER_1_OFFSET UNITYSDK_OFFSET(0x14A15320)
+#define MOLEMOLE_MONOTIMERMANAGER_REGISTERTIMER_2_OFFSET UNITYSDK_OFFSET(0x14A15510)
+#define MOLEMOLE_MONOTIMERMANAGER_REGISTERTIMER_OFFSET UNITYSDK_OFFSET(0x14A151A0)
+#define MOLEMOLE_MONOTIMERMANAGER_RESETALLTRIGGERTIMER_OFFSET UNITYSDK_OFFSET(0x14A14CA0)
+#define MOLEMOLE_MONOTIMERMANAGER_RESTARTGAME_OFFSET UNITYSDK_OFFSET(0x14A14A40)
+#define MOLEMOLE_MONOTIMERMANAGER_UPDATE_OFFSET UNITYSDK_OFFSET(0x14A14E20)
+#define MOLEMOLE_MONOTIMERMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x14A155C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoTimerManager_TypeDefinitionIndex = 54689;
+	inline static constexpr unsigned int MonoTimerManager_TypeDefinitionIndex = 56738;
 
 	class MonoTimerManager : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::MoleMole::MonoTimerManager** StaticGet_Field_5_0()
+		static ::MoleMole::MonoTimerManager** StaticGet_Field_5_2()
 		{
-			return (::MoleMole::MonoTimerManager**)Il2CppClass::FromTypeDefinitionIndex(MonoTimerManager_TypeDefinitionIndex)->GetStaticField(0x30860);
+			return (::MoleMole::MonoTimerManager**)Il2CppClass::FromTypeDefinitionIndex(MonoTimerManager_TypeDefinitionIndex)->GetStaticField(0x32810);
 		}
 		::System::Boolean isDirty; // 0x18
-		::System::Collections::Generic::List_1<::Class_1_A73173CCB55A8FCA*>* Field_5_2; // 0x20
-		::System::Collections::Generic::List_1<::Class_1_A73173CCB55A8FCA*>* Field_5_3; // 0x28
-		::System::Collections::Generic::List_1<::Class_1_1D3132F6656B18E0*>* Field_5_4; // 0x30
+		::System::Collections::Generic::List_1<::Class_1_A73173CCB55A8FCA*>* Field_5_0; // 0x20
+		::System::Collections::Generic::List_1<::Class_1_A73173CCB55A8FCA*>* Field_5_7; // 0x28
+		::System::Collections::Generic::List_1<::Class_1_1D3132F6656B18E0*>* Field_5_6; // 0x30
 
 		::System::Void _ctor()
 		{

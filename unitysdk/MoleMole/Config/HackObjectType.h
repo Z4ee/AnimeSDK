@@ -3,16 +3,16 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int HackObjectType_TypeDefinitionIndex = 57003;
+	inline static constexpr unsigned int HackObjectType_TypeDefinitionIndex = 46717;
 
 	enum class HackObjectType : ::System::Int32
 	{
-		Gadget = 2,
-		Camera = 3,
 		None = 99,
-		UAV = 4,
 		NPC = 0,
-		LittleRobot = 5,
+		Gadget = 2,
 		Monster = 1,
+		Camera = 3,
+		UAV = 4,
+		LittleRobot = 5,
 	};
 }

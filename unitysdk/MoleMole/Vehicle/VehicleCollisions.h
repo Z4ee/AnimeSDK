@@ -7,7 +7,7 @@ namespace UnityEngine { class SphereCollider; }
 
 namespace MoleMole::Vehicle
 {
-	inline static constexpr unsigned int VehicleCollisions_TypeDefinitionIndex = 52003;
+	inline static constexpr unsigned int VehicleCollisions_TypeDefinitionIndex = 73859;
 
 	struct alignas(8) VehicleCollisions
 	{

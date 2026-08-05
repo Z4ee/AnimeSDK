@@ -4,7 +4,7 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int AggregateObject_1_InterfaceData_TypeDefinitionIndex = 8647;
+	inline static constexpr unsigned int AggregateObject_1_InterfaceData_TypeDefinitionIndex = 8753;
 
 	template <typename TEvent>
 	struct AggregateObject_1_InterfaceData

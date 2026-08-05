@@ -6,19 +6,19 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_WIN_REACTIVATEACCOUNTMANAGER___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB70B90)
-#define MIHOYO_SDK_WIN_REACTIVATEACCOUNTMANAGER___C__DISPLAYCLASS1_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1BB70BA0)
-#define MIHOYO_SDK_WIN_REACTIVATEACCOUNTMANAGER___C__DISPLAYCLASS1_0__SHOW_B__1_OFFSET UNITYSDK_OFFSET(0x1BB70BF0)
+#define MIHOYO_SDK_WIN_REACTIVATEACCOUNTMANAGER___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1CED49B0)
+#define MIHOYO_SDK_WIN_REACTIVATEACCOUNTMANAGER___C__DISPLAYCLASS1_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1CED49C0)
+#define MIHOYO_SDK_WIN_REACTIVATEACCOUNTMANAGER___C__DISPLAYCLASS1_0__SHOW_B__1_OFFSET UNITYSDK_OFFSET(0x1CED4A10)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int ReactivateAccountManager___c__DisplayClass1_0_TypeDefinitionIndex = 21028;
+	inline static constexpr unsigned int ReactivateAccountManager___c__DisplayClass1_0_TypeDefinitionIndex = 21376;
 
 	class ReactivateAccountManager___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:
-		::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>* submitAction; // 0x10
-		::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>* closeAction; // 0x18
+		::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>* closeAction; // 0x10
+		::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>* submitAction; // 0x18
 
 		::System::Void _ctor()
 		{

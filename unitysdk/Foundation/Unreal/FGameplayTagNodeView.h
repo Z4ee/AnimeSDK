@@ -4,12 +4,12 @@
 #include "unitysdk/System/ReadOnlySpan_1.h"
 #include "unitysdk/System/ValueType.h"
 
-#define FOUNDATION_UNREAL_FGAMEPLAYTAGNODEVIEW_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x35C000)
-#define FOUNDATION_UNREAL_FGAMEPLAYTAGNODEVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x38BFF0)
+#define FOUNDATION_UNREAL_FGAMEPLAYTAGNODEVIEW_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x3F9680)
+#define FOUNDATION_UNREAL_FGAMEPLAYTAGNODEVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x342F40)
 
 namespace Foundation::Unreal
 {
-	inline static constexpr unsigned int FGameplayTagNodeView_TypeDefinitionIndex = 15985;
+	inline static constexpr unsigned int FGameplayTagNodeView_TypeDefinitionIndex = 12523;
 
 	struct alignas(8) FGameplayTagNodeView
 	{

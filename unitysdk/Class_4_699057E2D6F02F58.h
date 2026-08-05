@@ -5,10 +5,10 @@
 namespace Nap::NapECS { class EcsComponent; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_4_699057E2D6F02F58_METHOD_4_0CF581A7F8BEAE54_OFFSET UNITYSDK_OFFSET(0x148327F0)
-#define CLASS_4_699057E2D6F02F58__CTOR_OFFSET UNITYSDK_OFFSET(0x148328A0)
+#define CLASS_4_699057E2D6F02F58_METHOD_4_0CF581A7F8BEAE54_OFFSET UNITYSDK_OFFSET(0x14EDD370)
+#define CLASS_4_699057E2D6F02F58__CTOR_OFFSET UNITYSDK_OFFSET(0x14EDD420)
 
-inline static constexpr unsigned int Class_4_699057E2D6F02F58_TypeDefinitionIndex = 85769;
+inline static constexpr unsigned int Class_4_699057E2D6F02F58_TypeDefinitionIndex = 49265;
 
 class Class_4_699057E2D6F02F58 : public ::Class_3_B3B7AD2B34783116
 {

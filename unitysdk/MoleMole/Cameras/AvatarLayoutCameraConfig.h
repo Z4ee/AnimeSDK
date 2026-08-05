@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CAMERAS_AVATARLAYOUTCAMERACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x13FF0DC0)
+#define MOLEMOLE_CAMERAS_AVATARLAYOUTCAMERACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1279F430)
 
 namespace MoleMole::Cameras
 {
-	inline static constexpr unsigned int AvatarLayoutCameraConfig_TypeDefinitionIndex = 58988;
+	inline static constexpr unsigned int AvatarLayoutCameraConfig_TypeDefinitionIndex = 56494;
 
 	class AvatarLayoutCameraConfig : public ::System::Object
 	{

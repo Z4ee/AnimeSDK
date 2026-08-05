@@ -4,7 +4,7 @@
 
 namespace System { class String; }
 
-inline static constexpr unsigned int PushBoxPlayerView_PushBoxPlayerAppearance_TypeDefinitionIndex = 41330;
+inline static constexpr unsigned int PushBoxPlayerView_PushBoxPlayerAppearance_TypeDefinitionIndex = 42402;
 
 struct alignas(8) PushBoxPlayerView_PushBoxPlayerAppearance
 {

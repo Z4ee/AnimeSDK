@@ -1,0 +1,52 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_2_52F82E04F7FEE529.h"
+#include "unitysdk/Struct_2_29439DBE2B63DCF3.h"
+
+class Class_4_425BBC3CBFD638A0_2;
+namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
+
+#define CLASS_3_EE809459506C2535_METHOD_3_14481A1800AB4A1C_OFFSET UNITYSDK_OFFSET(0x164948B0)
+#define CLASS_3_EE809459506C2535_METHOD_3_407894370630C861_OFFSET UNITYSDK_OFFSET(0x16494290)
+#define CLASS_3_EE809459506C2535_METHOD_3_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0x16494200)
+#define CLASS_3_EE809459506C2535_METHOD_3_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x16494A70)
+#define CLASS_3_EE809459506C2535_METHOD_3_E82718B50EFFCD4F_OFFSET UNITYSDK_OFFSET(0x16494B00)
+#define CLASS_3_EE809459506C2535__CTOR_OFFSET UNITYSDK_OFFSET(0x16494A30)
+
+inline static constexpr unsigned int Class_3_EE809459506C2535_TypeDefinitionIndex = 66815;
+
+class Class_3_EE809459506C2535 : public ::Class_2_52F82E04F7FEE529
+{
+public:
+	::Class_4_425BBC3CBFD638A0_2* Field_3_0; // 0x18
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_EE809459506C2535__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_3_9681042564541CD6()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_EE809459506C2535_METHOD_3_9681042564541CD6_OFFSET))(this);
+	}
+
+	::System::Void Method_3_407894370630C861(::Struct_2_29439DBE2B63DCF3& a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Struct_2_29439DBE2B63DCF3&))((::PBYTE)hIl2Cpp + CLASS_3_EE809459506C2535_METHOD_3_407894370630C861_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_3_CA373AA1C7054598()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_EE809459506C2535_METHOD_3_CA373AA1C7054598_OFFSET))(this);
+	}
+
+	::System::Int32 Method_3_14481A1800AB4A1C(::Struct_2_29439DBE2B63DCF3& a1, ::System::Int32 a2)
+	{
+		return ((::System::Int32(*)(::PVOID, ::Struct_2_29439DBE2B63DCF3&, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_3_EE809459506C2535_METHOD_3_14481A1800AB4A1C_OFFSET))(this, a1, a2);
+	}
+
+	static ::System::Collections::Generic::IEnumerator_1<::System::Single>* Method_3_E82718B50EFFCD4F(::Struct_2_29439DBE2B63DCF3 a1)
+	{
+		return ((::System::Collections::Generic::IEnumerator_1<::System::Single>*(*)(::Struct_2_29439DBE2B63DCF3))((::PBYTE)hIl2Cpp + CLASS_3_EE809459506C2535_METHOD_3_E82718B50EFFCD4F_OFFSET))(a1);
+	}
+};

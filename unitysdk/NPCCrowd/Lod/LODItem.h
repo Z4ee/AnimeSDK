@@ -5,11 +5,11 @@
 namespace NPCCrowd::Lod { class INPCCrowdDistanceCheckInterface; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define NPCCROWD_LOD_LODITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x793A90)
+#define NPCCROWD_LOD_LODITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x6F4BC0)
 
 namespace NPCCrowd::Lod
 {
-	inline static constexpr unsigned int LODItem_TypeDefinitionIndex = 68068;
+	inline static constexpr unsigned int LODItem_TypeDefinitionIndex = 84399;
 
 	struct alignas(8) LODItem
 	{

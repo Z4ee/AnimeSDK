@@ -1,12 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_124EF969CBD5C24A.h"
 
-namespace System { class EventHandler; }
-namespace System { class Object; }
+inline static constexpr unsigned int Class_0_16E4307DCC419505_65_TypeDefinitionIndex = 28747;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_65_TypeDefinitionIndex = 28128;
-
+template <typename TVertex>
 class Class_0_16E4307DCC419505_65
 {
 public:

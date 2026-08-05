@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace Foundation::ViewObject
 {
-	inline static constexpr unsigned int ITraitSyncEntityCreator_TypeDefinitionIndex = 42578;
+	inline static constexpr unsigned int ITraitSyncEntityCreator_TypeDefinitionIndex = 68879;
 
 	class ITraitSyncEntityCreator
 	{

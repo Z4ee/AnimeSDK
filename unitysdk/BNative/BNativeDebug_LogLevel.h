@@ -3,14 +3,14 @@
 
 namespace BNative
 {
-	inline static constexpr unsigned int BNativeDebug_LogLevel_TypeDefinitionIndex = 75275;
+	inline static constexpr unsigned int BNativeDebug_LogLevel_TypeDefinitionIndex = 42033;
 
 	enum class BNativeDebug_LogLevel : ::System::Int32
 	{
-		Warning = 1,
+		Error = 2,
+		None = 4,
 		Log = 0,
 		Exception = 3,
-		None = 4,
-		Error = 2,
+		Warning = 1,
 	};
 }

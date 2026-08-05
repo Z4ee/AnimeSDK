@@ -5,11 +5,11 @@
 namespace Sirenix::OdinInspector { class CustomContextMenuAttribute; }
 namespace System { class String; }
 
-#define SIRENIX_ODININSPECTOR_COLLECTIONELEMENTCUSTOMCONTEXTMENUATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC9B040)
+#define SIRENIX_ODININSPECTOR_COLLECTIONELEMENTCUSTOMCONTEXTMENUATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E198CD0)
 
 namespace Sirenix::OdinInspector
 {
-	inline static constexpr unsigned int CollectionElementCustomContextMenuAttribute_TypeDefinitionIndex = 7775;
+	inline static constexpr unsigned int CollectionElementCustomContextMenuAttribute_TypeDefinitionIndex = 8287;
 
 	class CollectionElementCustomContextMenuAttribute : public ::System::Attribute
 	{

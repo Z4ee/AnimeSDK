@@ -16,30 +16,22 @@ namespace UnityEngine::NAPRenderPipeline0 { class ProfilingSampler; }
 namespace UnityEngine::NAPRenderPipeline0 { class SSGIPass_HistoryBuffer; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_SSGIPASS_CACHESCENECOLOR_OFFSET UNITYSDK_OFFSET(0x1D425B10)
-#define UNITYENGINE_NAPRENDERPIPELINE0_SSGIPASS_EXECUTESSGIPASS_OFFSET UNITYSDK_OFFSET(0x1D423A50)
-#define UNITYENGINE_NAPRENDERPIPELINE0_SSGIPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1D42D1B0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_SSGIPASS_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1D42B5E0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_SSGIPASS_ISENABLED_OFFSET UNITYSDK_OFFSET(0x1D423980)
-#define UNITYENGINE_NAPRENDERPIPELINE0_SSGIPASS_PREPAREHISTORY_OFFSET UNITYSDK_OFFSET(0x1D42B720)
-#define UNITYENGINE_NAPRENDERPIPELINE0_SSGIPASS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D42D220)
-#define UNITYENGINE_NAPRENDERPIPELINE0_SSGIPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D42B530)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SSGIPASS_CACHESCENECOLOR_OFFSET UNITYSDK_OFFSET(0x1E7CA610)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SSGIPASS_EXECUTESSGIPASS_OFFSET UNITYSDK_OFFSET(0x1E7C8590)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SSGIPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1E7D1E50)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SSGIPASS_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1E7D01C0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SSGIPASS_ISENABLED_OFFSET UNITYSDK_OFFSET(0x1E7C84C0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SSGIPASS_PREPAREHISTORY_OFFSET UNITYSDK_OFFSET(0x1E7D0300)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SSGIPASS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E7D1EC0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SSGIPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7D0110)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int SSGIPass_TypeDefinitionIndex = 5820;
+	inline static constexpr unsigned int SSGIPass_TypeDefinitionIndex = 5822;
 
 	class SSGIPass : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 	{
 	public:
-		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableBool** StaticGet_SSGIDisableMultiBounce()
-		{
-			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableBool**)Il2CppClass::FromTypeDefinitionIndex(SSGIPass_TypeDefinitionIndex)->GetStaticField(0x5280);
-		}
-		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableFloat** StaticGet_SSGISSNum()
-		{
-			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableFloat**)Il2CppClass::FromTypeDefinitionIndex(SSGIPass_TypeDefinitionIndex)->GetStaticField(0x5288);
-		}
 		static ::UnityEngine::NAPRenderPipeline0::SSGIPass_HistoryBuffer** StaticGet_s_history()
 		{
 			return (::UnityEngine::NAPRenderPipeline0::SSGIPass_HistoryBuffer**)Il2CppClass::FromTypeDefinitionIndex(SSGIPass_TypeDefinitionIndex)->GetStaticField(0x5290);
@@ -48,25 +40,33 @@ namespace UnityEngine::NAPRenderPipeline0
 		{
 			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableFloat**)Il2CppClass::FromTypeDefinitionIndex(SSGIPass_TypeDefinitionIndex)->GetStaticField(0x5298);
 		}
-		static ::UnityEngine::NAPRenderPipeline0::ProfilingSampler** StaticGet_mProfilingSampler()
+		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableFloat** StaticGet_SSGISSNum()
 		{
-			return (::UnityEngine::NAPRenderPipeline0::ProfilingSampler**)Il2CppClass::FromTypeDefinitionIndex(SSGIPass_TypeDefinitionIndex)->GetStaticField(0x52A0);
-		}
-		static ::UnityEngine::Rendering::RenderTargetBinding* StaticGet_s_binding()
-		{
-			return (::UnityEngine::Rendering::RenderTargetBinding*)Il2CppClass::FromTypeDefinitionIndex(SSGIPass_TypeDefinitionIndex)->GetStaticField(0x52A8);
-		}
-		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableBool** StaticGet_SSGIUseLowPrecision()
-		{
-			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableBool**)Il2CppClass::FromTypeDefinitionIndex(SSGIPass_TypeDefinitionIndex)->GetStaticField(0x5308);
+			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableFloat**)Il2CppClass::FromTypeDefinitionIndex(SSGIPass_TypeDefinitionIndex)->GetStaticField(0x52A0);
 		}
 		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableBool** StaticGet_SSGIEnabled()
 		{
-			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableBool**)Il2CppClass::FromTypeDefinitionIndex(SSGIPass_TypeDefinitionIndex)->GetStaticField(0x5310);
+			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableBool**)Il2CppClass::FromTypeDefinitionIndex(SSGIPass_TypeDefinitionIndex)->GetStaticField(0x52A8);
+		}
+		static ::UnityEngine::Rendering::RenderTargetBinding* StaticGet_s_binding()
+		{
+			return (::UnityEngine::Rendering::RenderTargetBinding*)Il2CppClass::FromTypeDefinitionIndex(SSGIPass_TypeDefinitionIndex)->GetStaticField(0x52B0);
+		}
+		static ::UnityEngine::NAPRenderPipeline0::ProfilingSampler** StaticGet_mProfilingSampler()
+		{
+			return (::UnityEngine::NAPRenderPipeline0::ProfilingSampler**)Il2CppClass::FromTypeDefinitionIndex(SSGIPass_TypeDefinitionIndex)->GetStaticField(0x5310);
+		}
+		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableBool** StaticGet_SSGIUseLowPrecision()
+		{
+			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableBool**)Il2CppClass::FromTypeDefinitionIndex(SSGIPass_TypeDefinitionIndex)->GetStaticField(0x5318);
+		}
+		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableBool** StaticGet_SSGIDisableMultiBounce()
+		{
+			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableBool**)Il2CppClass::FromTypeDefinitionIndex(SSGIPass_TypeDefinitionIndex)->GetStaticField(0x5320);
 		}
 		static ::System::Boolean* StaticGet_s_InitializedOver()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SSGIPass_TypeDefinitionIndex)->GetStaticField(0x2BE0);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SSGIPass_TypeDefinitionIndex)->GetStaticField(0x2BF0);
 		}
 
 		::System::Void _ctor(::System::String* profilerTag, ::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::NAPRenderPipeline0::RenderPassEvent>* renderPassEventConfig)

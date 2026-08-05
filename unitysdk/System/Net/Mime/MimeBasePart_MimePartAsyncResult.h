@@ -6,7 +6,7 @@ namespace System { class AsyncCallback; }
 namespace System { class Object; }
 namespace System::Net::Mime { class MimeBasePart; }
 
-#define SYSTEM_NET_MIME_MIMEBASEPART_MIMEPARTASYNCRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5D3EA0)
+#define SYSTEM_NET_MIME_MIMEBASEPART_MIMEPARTASYNCRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E97A590)
 
 namespace System::Net::Mime
 {

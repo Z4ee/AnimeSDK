@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIBallGameOptionsDialogPopWindowController; }
 
-#define MOLEMOLE_UIBALLGAMEOPTIONSDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1E2973E0)
-#define MOLEMOLE_UIBALLGAMEOPTIONSDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS13_0__ONUIINIT_B__4_OFFSET UNITYSDK_OFFSET(0x1E2973F0)
+#define MOLEMOLE_UIBALLGAMEOPTIONSDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1E90D4E0)
+#define MOLEMOLE_UIBALLGAMEOPTIONSDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS13_0__ONUIINIT_B__4_OFFSET UNITYSDK_OFFSET(0x1E90D4F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBallGameOptionsDialogPopWindowController___c__DisplayClass13_0_TypeDefinitionIndex = 89321;
+	inline static constexpr unsigned int UIBallGameOptionsDialogPopWindowController___c__DisplayClass13_0_TypeDefinitionIndex = 93218;
 
 	class UIBallGameOptionsDialogPopWindowController___c__DisplayClass13_0 : public ::System::Object
 	{

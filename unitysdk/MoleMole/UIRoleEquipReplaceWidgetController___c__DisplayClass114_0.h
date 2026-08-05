@@ -6,7 +6,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRoleEquipReplaceWidgetController___c__DisplayClass114_0_TypeDefinitionIndex = 68217;
+	inline static constexpr unsigned int UIRoleEquipReplaceWidgetController___c__DisplayClass114_0_TypeDefinitionIndex = 52783;
 
 	struct alignas(8) UIRoleEquipReplaceWidgetController___c__DisplayClass114_0
 	{

@@ -4,20 +4,20 @@
 
 namespace System { class Object; }
 
-#define UNITYENGINE_RENDERING_BATCHMESHID_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x6DBDC0)
-#define UNITYENGINE_RENDERING_BATCHMESHID_EQUALS_OFFSET UNITYSDK_OFFSET(0xA10A30)
-#define UNITYENGINE_RENDERING_BATCHMESHID_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x2B68B0)
-#define UNITYENGINE_RENDERING_BATCHMESHID__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D856240)
+#define UNITYENGINE_RENDERING_BATCHMESHID_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x826600)
+#define UNITYENGINE_RENDERING_BATCHMESHID_EQUALS_OFFSET UNITYSDK_OFFSET(0xA64580)
+#define UNITYENGINE_RENDERING_BATCHMESHID_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x325570)
+#define UNITYENGINE_RENDERING_BATCHMESHID__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EBEA570)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int BatchMeshID_TypeDefinitionIndex = 6207;
+	inline static constexpr unsigned int BatchMeshID_TypeDefinitionIndex = 6211;
 
 	struct alignas(4) BatchMeshID
 	{
 		static ::UnityEngine::Rendering::BatchMeshID* StaticGet_Null()
 		{
-			return (::UnityEngine::Rendering::BatchMeshID*)Il2CppClass::FromTypeDefinitionIndex(BatchMeshID_TypeDefinitionIndex)->GetStaticField(0x2CB0);
+			return (::UnityEngine::Rendering::BatchMeshID*)Il2CppClass::FromTypeDefinitionIndex(BatchMeshID_TypeDefinitionIndex)->GetStaticField(0x2CC0);
 		}
 		::System::UInt32 value; // 0x10
 

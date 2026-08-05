@@ -4,7 +4,7 @@
 
 namespace Foundation::Container
 {
-	inline static constexpr unsigned int SparseArrayFreeIndex_TypeDefinitionIndex = 8498;
+	inline static constexpr unsigned int SparseArrayFreeIndex_TypeDefinitionIndex = 8629;
 
 	struct alignas(8) SparseArrayFreeIndex
 	{

@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_GALGAME_GALGAMEPICTUREDISPLAYACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x11617D90)
+#define MOLEMOLE_GALGAME_GALGAMEPICTUREDISPLAYACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1924D090)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int GalGamePictureDisplayAction_TypeDefinitionIndex = 78343;
+	inline static constexpr unsigned int GalGamePictureDisplayAction_TypeDefinitionIndex = 75846;
 
 	class GalGamePictureDisplayAction : public ::MoleMole::GalGame::GalGameActionBase
 	{
