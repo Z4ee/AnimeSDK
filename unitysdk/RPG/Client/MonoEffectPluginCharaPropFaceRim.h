@@ -12,14 +12,14 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Shader; }
 
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPFACERIM_INIT_OFFSET UNITYSDK_OFFSET(0x19113D00)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPFACERIM_UNINIT_OFFSET UNITYSDK_OFFSET(0x191140B0)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPFACERIM_UPDATEPROPERTY_OFFSET UNITYSDK_OFFSET(0x19113DA0)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPFACERIM__CTOR_OFFSET UNITYSDK_OFFSET(0x19114100)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPFACERIM_INIT_OFFSET UNITYSDK_OFFSET(0x116B6140)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPFACERIM_UNINIT_OFFSET UNITYSDK_OFFSET(0x116B64F0)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPFACERIM_UPDATEPROPERTY_OFFSET UNITYSDK_OFFSET(0x116B61E0)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPFACERIM__CTOR_OFFSET UNITYSDK_OFFSET(0x116B6540)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginCharaPropFaceRim_TypeDefinitionIndex = 66825;
+	inline static constexpr unsigned int MonoEffectPluginCharaPropFaceRim_TypeDefinitionIndex = 69927;
 
 	class MonoEffectPluginCharaPropFaceRim : public ::RPG::Client::MonoEffectPluginCharaPropBase
 	{
@@ -30,7 +30,7 @@ namespace RPG::Client
 		::UnityEngine::Vector4 _FresnelBSI; // 0x58
 		::System::Boolean Toggle_FresnelColorStrength; // 0x68
 		::System::Single _FresnelColorStrength; // 0x6C
-		::Il2CppArray<::System::Boolean>* Field_6_6; // 0x70
+		::Il2CppArray<::System::Boolean>* LKIKPHKAFJB; // 0x70
 
 		::System::Void _ctor()
 		{

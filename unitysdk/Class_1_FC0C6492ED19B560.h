@@ -4,15 +4,15 @@
 
 namespace RPG::GameCore { class MonopolyMapConfig; }
 
-#define CLASS_1_FC0C6492ED19B560__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE29350)
+#define CLASS_1_FC0C6492ED19B560__CTOR_OFFSET UNITYSDK_OFFSET(0x1A60E870)
 
-inline static constexpr unsigned int Class_1_FC0C6492ED19B560_TypeDefinitionIndex = 40379;
+inline static constexpr unsigned int Class_1_FC0C6492ED19B560_TypeDefinitionIndex = 41258;
 
 class Class_1_FC0C6492ED19B560 : public ::System::Object
 {
 public:
-	::RPG::GameCore::MonopolyMapConfig* Field_1_0; // 0x10
-	::System::Single Field_1_1; // 0x18
+	::RPG::GameCore::MonopolyMapConfig* OKNNKBGFCCF; // 0x10
+	::System::Single EMNHIJAIMBE; // 0x18
 
 	::System::Void _ctor()
 	{

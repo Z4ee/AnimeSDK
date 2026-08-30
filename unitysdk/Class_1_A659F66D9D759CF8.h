@@ -5,9 +5,9 @@
 namespace RPG::Client::ActivityIdleLive { class IdleLiveEquipmentData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_A659F66D9D759CF8_METHOD_1_B5912C653CE7E9C8_OFFSET UNITYSDK_OFFSET(0x17A1CCD0)
+#define CLASS_1_A659F66D9D759CF8_METHOD_1_B5912C653CE7E9C8_OFFSET UNITYSDK_OFFSET(0x195DE7F0)
 
-inline static constexpr unsigned int Class_1_A659F66D9D759CF8_TypeDefinitionIndex = 71641;
+inline static constexpr unsigned int Class_1_A659F66D9D759CF8_TypeDefinitionIndex = 74947;
 
 class Class_1_A659F66D9D759CF8 : public ::System::Object
 {

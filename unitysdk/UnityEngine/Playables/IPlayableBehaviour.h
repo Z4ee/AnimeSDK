@@ -7,7 +7,7 @@ namespace System { class Object; }
 
 namespace UnityEngine::Playables
 {
-	inline static constexpr unsigned int IPlayableBehaviour_TypeDefinitionIndex = 4889;
+	inline static constexpr unsigned int IPlayableBehaviour_TypeDefinitionIndex = 4901;
 
 	class IPlayableBehaviour
 	{

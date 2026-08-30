@@ -3,7 +3,7 @@
 
 namespace EnviromentSystem
 {
-	inline static constexpr unsigned int WindTriggerType_TypeDefinitionIndex = 47773;
+	inline static constexpr unsigned int WindTriggerType_TypeDefinitionIndex = 50054;
 
 	enum class WindTriggerType : ::System::Int32
 	{

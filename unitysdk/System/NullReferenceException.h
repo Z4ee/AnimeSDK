@@ -6,13 +6,13 @@
 namespace System { class String; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_NULLREFERENCEEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B87B080)
-#define SYSTEM_NULLREFERENCEEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1B87B0F0)
-#define SYSTEM_NULLREFERENCEEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B87B010)
+#define SYSTEM_NULLREFERENCEEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1D4863F0)
+#define SYSTEM_NULLREFERENCEEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1D486460)
+#define SYSTEM_NULLREFERENCEEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D486350)
 
 namespace System
 {
-	inline static constexpr unsigned int NullReferenceException_TypeDefinitionIndex = 303;
+	inline static constexpr unsigned int NullReferenceException_TypeDefinitionIndex = 306;
 
 	class NullReferenceException : public ::System::SystemException
 	{

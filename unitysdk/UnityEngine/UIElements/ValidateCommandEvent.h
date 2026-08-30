@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/UIElements/CommandEventBase_1.h"
 
-#define UNITYENGINE_UIELEMENTS_VALIDATECOMMANDEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA498B0)
+#define UNITYENGINE_UIELEMENTS_VALIDATECOMMANDEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6228C0)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int ValidateCommandEvent_TypeDefinitionIndex = 6178;
+	inline static constexpr unsigned int ValidateCommandEvent_TypeDefinitionIndex = 5911;
 
 	class ValidateCommandEvent : public ::UnityEngine::UIElements::CommandEventBase_1<::UnityEngine::UIElements::ValidateCommandEvent*>
 	{

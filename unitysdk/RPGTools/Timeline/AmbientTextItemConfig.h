@@ -4,11 +4,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define RPGTOOLS_TIMELINE_AMBIENTTEXTITEMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B33E8D0)
+#define RPGTOOLS_TIMELINE_AMBIENTTEXTITEMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B52C240)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int AmbientTextItemConfig_TypeDefinitionIndex = 46074;
+	inline static constexpr unsigned int AmbientTextItemConfig_TypeDefinitionIndex = 48303;
 
 	class AmbientTextItemConfig : public ::System::Object
 	{
@@ -18,6 +18,8 @@ namespace RPGTools::Timeline
 		::UnityEngine::Vector3 Offset; // 0x28
 		::UnityEngine::Vector3 Rotation; // 0x34
 		::System::Single Scale; // 0x40
+		::System::Single ShowDelay; // 0x44
+		::System::Int32 AnimatorParam; // 0x48
 
 		::System::Void _ctor()
 		{

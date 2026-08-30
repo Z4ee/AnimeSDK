@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_MaterialPropertySetter_CharaEffectMatBlockType_TypeDefinitionIndex = 67354;
+	inline static constexpr unsigned int Effect_MaterialPropertySetter_CharaEffectMatBlockType_TypeDefinitionIndex = 70476;
 
 	enum class Effect_MaterialPropertySetter_CharaEffectMatBlockType : ::System::Int32
 	{

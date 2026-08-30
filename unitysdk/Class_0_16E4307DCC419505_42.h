@@ -1,9 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/RuntimeTypeHandle.h"
 
-class Class_1_68567FA2484DF545;
+namespace Entitas { class IComponent; }
+namespace Entitas { class IEntity; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_42_TypeDefinitionIndex = 35375;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_42_TypeDefinitionIndex = 36254;
 
 class Class_0_16E4307DCC419505_42
 {

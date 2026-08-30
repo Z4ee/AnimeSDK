@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_3_B080369D27A09C02_WaitEventState_TypeDefinitionIndex = 49787;
+inline static constexpr unsigned int Class_3_B080369D27A09C02_WaitEventState_TypeDefinitionIndex = 52447;
 
 enum class Class_3_B080369D27A09C02_WaitEventState : ::System::Int32
 {

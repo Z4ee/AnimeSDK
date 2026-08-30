@@ -4,12 +4,12 @@
 
 namespace System::Configuration { class ConfigurationPropertyCollection; }
 
-#define SYSTEM_NET_CONFIGURATION_CONNECTIONMANAGEMENTSECTION_GET_PROPERTIES_OFFSET UNITYSDK_OFFSET(0x191835B0)
-#define SYSTEM_NET_CONFIGURATION_CONNECTIONMANAGEMENTSECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x19183570)
+#define SYSTEM_NET_CONFIGURATION_CONNECTIONMANAGEMENTSECTION_GET_PROPERTIES_OFFSET UNITYSDK_OFFSET(0x1AB421B0)
+#define SYSTEM_NET_CONFIGURATION_CONNECTIONMANAGEMENTSECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1AB42170)
 
 namespace System::Net::Configuration
 {
-	inline static constexpr unsigned int ConnectionManagementSection_TypeDefinitionIndex = 3069;
+	inline static constexpr unsigned int ConnectionManagementSection_TypeDefinitionIndex = 3077;
 
 	class ConnectionManagementSection : public ::System::Configuration::ConfigurationSection
 	{

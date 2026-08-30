@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TalkDialogDecorationType_TypeDefinitionIndex = 23683;
+	inline static constexpr unsigned int TalkDialogDecorationType_TypeDefinitionIndex = 24268;
 
 	enum class TalkDialogDecorationType : ::System::Int32
 	{

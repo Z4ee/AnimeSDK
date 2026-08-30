@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGameShare::TeamTowersCore
 {
-	inline static constexpr unsigned int BossSkillViewType_TypeDefinitionIndex = 35528;
+	inline static constexpr unsigned int BossSkillViewType_TypeDefinitionIndex = 36389;
 
 	enum class BossSkillViewType : ::System::Byte
 	{

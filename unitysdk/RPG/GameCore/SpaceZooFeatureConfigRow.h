@@ -7,23 +7,23 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_SPACEZOOFEATURECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B097710)
-#define RPG_GAMECORE_SPACEZOOFEATURECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B097A00)
+#define RPG_GAMECORE_SPACEZOOFEATURECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D0AA230)
+#define RPG_GAMECORE_SPACEZOOFEATURECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0AA990)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SpaceZooFeatureConfigRow_TypeDefinitionIndex = 11889;
+	inline static constexpr unsigned int SpaceZooFeatureConfigRow_TypeDefinitionIndex = 12278;
 
 	class SpaceZooFeatureConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* FeatureKey; // 0x10
-		::System::String* ImagePath; // 0x18
-		::System::String* LargeImagePath; // 0x20
+		::System::String* ImagePath; // 0x10
+		::System::String* LargeImagePath; // 0x18
+		::System::String* FeatureKey; // 0x20
 		::RPG::Client::TextID Name; // 0x28
-		::System::UInt32 UnlockMissionID; // 0x38
-		::RPG::GameCore::SpaceZooChannelType Channel; // 0x3C
-		::System::UInt32 ResearchPoint; // 0x40
+		::System::UInt32 ResearchPoint; // 0x38
+		::System::UInt32 UnlockMissionID; // 0x3C
+		::RPG::GameCore::SpaceZooChannelType Channel; // 0x40
 		::System::UInt32 FeatureID; // 0x44
 
 		::System::Void _ctor()

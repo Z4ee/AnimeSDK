@@ -4,7 +4,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TableLRUCache_2_LRUEntity_2_TypeDefinitionIndex = 10504;
+	inline static constexpr unsigned int TableLRUCache_2_LRUEntity_2_TypeDefinitionIndex = 10845;
 
 	template <typename TKey, typename TValue, typename TTKey, typename TTValue>
 	class TableLRUCache_2_LRUEntity_2 : public ::System::Object

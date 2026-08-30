@@ -5,16 +5,16 @@
 class Class_1_CE96309E1BBEC794;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_DD584E66F5D339D3_2_METHOD_1_C6843992E5B2B49B_OFFSET UNITYSDK_OFFSET(0x1784A410)
-#define CLASS_1_DD584E66F5D339D3_2_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x1784A3D0)
-#define CLASS_1_DD584E66F5D339D3_2__CTOR_OFFSET UNITYSDK_OFFSET(0x1784A1B0)
+#define CLASS_1_DD584E66F5D339D3_2_METHOD_1_C6843992E5B2B49B_OFFSET UNITYSDK_OFFSET(0x1846D0B0)
+#define CLASS_1_DD584E66F5D339D3_2_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x1846D070)
+#define CLASS_1_DD584E66F5D339D3_2__CTOR_OFFSET UNITYSDK_OFFSET(0x1846CE50)
 
-inline static constexpr unsigned int Class_1_DD584E66F5D339D3_2_TypeDefinitionIndex = 60565;
+inline static constexpr unsigned int Class_1_DD584E66F5D339D3_2_TypeDefinitionIndex = 63418;
 
 class Class_1_DD584E66F5D339D3_2 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Class_1_CE96309E1BBEC794*>* Field_1_0; // 0x10
+	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Class_1_CE96309E1BBEC794*>* DPHNABJHCFI; // 0x10
 
 	::System::Void _ctor()
 	{

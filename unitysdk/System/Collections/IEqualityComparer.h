@@ -5,7 +5,7 @@ namespace System { class Object; }
 
 namespace System::Collections
 {
-	inline static constexpr unsigned int IEqualityComparer_TypeDefinitionIndex = 1478;
+	inline static constexpr unsigned int IEqualityComparer_TypeDefinitionIndex = 1485;
 
 	class IEqualityComparer
 	{

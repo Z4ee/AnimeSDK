@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int UIInput_TypeDefinitionIndex = 8073;
+	inline static constexpr unsigned int UIInput_TypeDefinitionIndex = 8077;
 
 	enum class UIInput : ::System::Int32
 	{

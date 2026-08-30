@@ -8,37 +8,37 @@ namespace RPG::Client::ActivityIdleLive { class SpEquipSlotData; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define CLASS_1_F6160A8B4F4A1F27___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1764C4C0)
-#define CLASS_1_F6160A8B4F4A1F27___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1764C4F0)
-#define CLASS_1_F6160A8B4F4A1F27___C__GETALLEQUIPPEDNORMALEQUIPSCOPY_B__24_0_OFFSET UNITYSDK_OFFSET(0x1764C580)
-#define CLASS_1_F6160A8B4F4A1F27___C__GETALLEQUIPPEDNORMALEQUIPSCOPY_B__24_1_OFFSET UNITYSDK_OFFSET(0x1764C5A0)
-#define CLASS_1_F6160A8B4F4A1F27___C___INITSLOTS_B__13_0_OFFSET UNITYSDK_OFFSET(0x1764C500)
-#define CLASS_1_F6160A8B4F4A1F27___C___INITSPSLOTS_B__14_0_OFFSET UNITYSDK_OFFSET(0x1764C540)
+#define CLASS_1_F6160A8B4F4A1F27___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A7DC080)
+#define CLASS_1_F6160A8B4F4A1F27___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A7DC0B0)
+#define CLASS_1_F6160A8B4F4A1F27___C__GETALLEQUIPPEDNORMALEQUIPSCOPY_B__24_0_OFFSET UNITYSDK_OFFSET(0x1A7DC140)
+#define CLASS_1_F6160A8B4F4A1F27___C__GETALLEQUIPPEDNORMALEQUIPSCOPY_B__24_1_OFFSET UNITYSDK_OFFSET(0x1A7DC160)
+#define CLASS_1_F6160A8B4F4A1F27___C___INITSLOTS_B__13_0_OFFSET UNITYSDK_OFFSET(0x1A7DC0C0)
+#define CLASS_1_F6160A8B4F4A1F27___C___INITSPSLOTS_B__14_0_OFFSET UNITYSDK_OFFSET(0x1A7DC100)
 
-inline static constexpr unsigned int Class_1_F6160A8B4F4A1F27___c_TypeDefinitionIndex = 71640;
+inline static constexpr unsigned int Class_1_F6160A8B4F4A1F27___c_TypeDefinitionIndex = 74946;
 
 class Class_1_F6160A8B4F4A1F27___c : public ::System::Object
 {
 public:
-	static ::System::Comparison_1<::RPG::Client::ActivityIdleLive::SpEquipSlotData*>** StaticGet___9__14_0()
-	{
-		return (::System::Comparison_1<::RPG::Client::ActivityIdleLive::SpEquipSlotData*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F6160A8B4F4A1F27___c_TypeDefinitionIndex)->GetStaticField(0x59B10);
-	}
-	static ::System::Func_2<::Class_1_679CF71AD3A781CD*, ::RPG::Client::ActivityIdleLive::IdleLiveEquipmentData*>** StaticGet___9__24_0()
-	{
-		return (::System::Func_2<::Class_1_679CF71AD3A781CD*, ::RPG::Client::ActivityIdleLive::IdleLiveEquipmentData*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F6160A8B4F4A1F27___c_TypeDefinitionIndex)->GetStaticField(0x59B18);
-	}
 	static ::System::Comparison_1<::Class_1_679CF71AD3A781CD*>** StaticGet___9__13_0()
 	{
-		return (::System::Comparison_1<::Class_1_679CF71AD3A781CD*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F6160A8B4F4A1F27___c_TypeDefinitionIndex)->GetStaticField(0x59B20);
+		return (::System::Comparison_1<::Class_1_679CF71AD3A781CD*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F6160A8B4F4A1F27___c_TypeDefinitionIndex)->GetStaticField(0x60FC0);
+	}
+	static ::System::Comparison_1<::RPG::Client::ActivityIdleLive::SpEquipSlotData*>** StaticGet___9__14_0()
+	{
+		return (::System::Comparison_1<::RPG::Client::ActivityIdleLive::SpEquipSlotData*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F6160A8B4F4A1F27___c_TypeDefinitionIndex)->GetStaticField(0x60FC8);
 	}
 	static ::Class_1_F6160A8B4F4A1F27___c** StaticGet___9()
 	{
-		return (::Class_1_F6160A8B4F4A1F27___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F6160A8B4F4A1F27___c_TypeDefinitionIndex)->GetStaticField(0x59B28);
+		return (::Class_1_F6160A8B4F4A1F27___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F6160A8B4F4A1F27___c_TypeDefinitionIndex)->GetStaticField(0x60FD0);
+	}
+	static ::System::Func_2<::Class_1_679CF71AD3A781CD*, ::RPG::Client::ActivityIdleLive::IdleLiveEquipmentData*>** StaticGet___9__24_0()
+	{
+		return (::System::Func_2<::Class_1_679CF71AD3A781CD*, ::RPG::Client::ActivityIdleLive::IdleLiveEquipmentData*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F6160A8B4F4A1F27___c_TypeDefinitionIndex)->GetStaticField(0x60FD8);
 	}
 	static ::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveEquipmentData*, ::System::Boolean>** StaticGet___9__24_1()
 	{
-		return (::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveEquipmentData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F6160A8B4F4A1F27___c_TypeDefinitionIndex)->GetStaticField(0x59B30);
+		return (::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveEquipmentData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F6160A8B4F4A1F27___c_TypeDefinitionIndex)->GetStaticField(0x60FE0);
 	}
 
 	static ::System::Void _cctor()

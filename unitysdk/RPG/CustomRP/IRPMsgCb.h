@@ -3,7 +3,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int IRPMsgCb_TypeDefinitionIndex = 36365;
+	inline static constexpr unsigned int IRPMsgCb_TypeDefinitionIndex = 37224;
 
 	class IRPMsgCb
 	{

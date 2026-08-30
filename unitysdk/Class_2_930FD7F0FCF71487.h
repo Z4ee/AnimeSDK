@@ -7,18 +7,18 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define CLASS_2_930FD7F0FCF71487_FILLNOTIFYTYPESTO_OFFSET UNITYSDK_OFFSET(0x14A1C120)
-#define CLASS_2_930FD7F0FCF71487_TOSTRING_OFFSET UNITYSDK_OFFSET(0x14A1C300)
-#define CLASS_2_930FD7F0FCF71487__CTOR_OFFSET UNITYSDK_OFFSET(0x14A1C080)
-#define CLASS_2_930FD7F0FCF71487__DOCHECKIMPL_OFFSET UNITYSDK_OFFSET(0x14A1C1B0)
+#define CLASS_2_930FD7F0FCF71487_FILLNOTIFYTYPESTO_OFFSET UNITYSDK_OFFSET(0x162A6790)
+#define CLASS_2_930FD7F0FCF71487_TOSTRING_OFFSET UNITYSDK_OFFSET(0x162A6970)
+#define CLASS_2_930FD7F0FCF71487__CTOR_OFFSET UNITYSDK_OFFSET(0x162A66F0)
+#define CLASS_2_930FD7F0FCF71487__DOCHECKIMPL_OFFSET UNITYSDK_OFFSET(0x162A6820)
 
-inline static constexpr unsigned int Class_2_930FD7F0FCF71487_TypeDefinitionIndex = 57216;
+inline static constexpr unsigned int Class_2_930FD7F0FCF71487_TypeDefinitionIndex = 60014;
 
 class Class_2_930FD7F0FCF71487 : public ::RPG::Client::SyncCheckItemBase
 {
 public:
-	::System::UInt32 Field_2_0; // 0x10
-	::System::UInt32 Field_2_1; // 0x14
+	::System::UInt32 CIBIJLKEIMN; // 0x10
+	::System::UInt32 CDOCEMFOMAI; // 0x14
 
 	::System::Void _ctor(::System::Object* a1)
 	{

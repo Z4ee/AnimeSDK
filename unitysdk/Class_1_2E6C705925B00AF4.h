@@ -8,30 +8,30 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_2E6C705925B00AF4_METHOD_1_6AFDC50424099C5A_OFFSET UNITYSDK_OFFSET(0x15F13D10)
-#define CLASS_1_2E6C705925B00AF4_METHOD_1_70EDF1407AB1AFDB_OFFSET UNITYSDK_OFFSET(0x15F13D90)
-#define CLASS_1_2E6C705925B00AF4_METHOD_1_773DBDCE721BC336_OFFSET UNITYSDK_OFFSET(0x15F133B0)
-#define CLASS_1_2E6C705925B00AF4_METHOD_1_BB1F7901B999DBC8_OFFSET UNITYSDK_OFFSET(0x15F13490)
-#define CLASS_1_2E6C705925B00AF4__CCTOR_OFFSET UNITYSDK_OFFSET(0x15F13EE0)
+#define CLASS_1_2E6C705925B00AF4_METHOD_1_6AFDC50424099C5A_OFFSET UNITYSDK_OFFSET(0x18A6B0A0)
+#define CLASS_1_2E6C705925B00AF4_METHOD_1_70EDF1407AB1AFDB_OFFSET UNITYSDK_OFFSET(0x18A6B120)
+#define CLASS_1_2E6C705925B00AF4_METHOD_1_773DBDCE721BC336_OFFSET UNITYSDK_OFFSET(0x18A6A740)
+#define CLASS_1_2E6C705925B00AF4_METHOD_1_BB1F7901B999DBC8_OFFSET UNITYSDK_OFFSET(0x18A6A820)
+#define CLASS_1_2E6C705925B00AF4__CCTOR_OFFSET UNITYSDK_OFFSET(0x18A6B270)
 
-inline static constexpr unsigned int Class_1_2E6C705925B00AF4_TypeDefinitionIndex = 57420;
+inline static constexpr unsigned int Class_1_2E6C705925B00AF4_TypeDefinitionIndex = 60222;
 
 class Class_1_2E6C705925B00AF4 : public ::System::Object
 {
 public:
-	static ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>** StaticGet_Field_1_0()
+	static ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>** StaticGet_IMDHKOKGNJF()
 	{
-		return (::System::Collections::Generic::List_1<::UnityEngine::GameObject*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_2E6C705925B00AF4_TypeDefinitionIndex)->GetStaticField(0x3A630);
+		return (::System::Collections::Generic::List_1<::UnityEngine::GameObject*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_2E6C705925B00AF4_TypeDefinitionIndex)->GetStaticField(0x33CD0);
 	}
-	static ::UnityEngine::SceneManagement::Scene* StaticGet_Field_1_1()
+	static ::UnityEngine::SceneManagement::Scene* StaticGet_PDNJFABBNPL()
 	{
-		return (::UnityEngine::SceneManagement::Scene*)Il2CppClass::FromTypeDefinitionIndex(Class_1_2E6C705925B00AF4_TypeDefinitionIndex)->GetStaticField(0x9BE0);
+		return (::UnityEngine::SceneManagement::Scene*)Il2CppClass::FromTypeDefinitionIndex(Class_1_2E6C705925B00AF4_TypeDefinitionIndex)->GetStaticField(0xDBE0);
 	}
-	static ::System::Boolean* StaticGet_Field_1_2()
+	static ::System::Boolean* StaticGet_HKBBJJEDNJL()
 	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_2E6C705925B00AF4_TypeDefinitionIndex)->GetStaticField(0x9BE4);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_2E6C705925B00AF4_TypeDefinitionIndex)->GetStaticField(0xDBE4);
 	}
-	// static const ::System::Int32 Field_1_3 = 0x64; // 0x0
+	// static const ::System::Int32 HFNCJEJJPJO = 0x64; // 0x0
 
 	static ::System::Void _cctor()
 	{

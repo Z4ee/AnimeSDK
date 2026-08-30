@@ -5,21 +5,21 @@
 
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_SKYBOXFLOORROTATIONADAPTER_AWAKE_OFFSET UNITYSDK_OFFSET(0x18904FF0)
-#define RPG_CLIENT_SKYBOXFLOORROTATIONADAPTER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x18905090)
-#define RPG_CLIENT_SKYBOXFLOORROTATIONADAPTER__CTOR_OFFSET UNITYSDK_OFFSET(0x18905210)
+#define RPG_CLIENT_SKYBOXFLOORROTATIONADAPTER_AWAKE_OFFSET UNITYSDK_OFFSET(0x196D5A70)
+#define RPG_CLIENT_SKYBOXFLOORROTATIONADAPTER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x196D5B10)
+#define RPG_CLIENT_SKYBOXFLOORROTATIONADAPTER__CTOR_OFFSET UNITYSDK_OFFSET(0x196D5C90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SkyboxFloorRotationAdapter_TypeDefinitionIndex = 69669;
+	inline static constexpr unsigned int SkyboxFloorRotationAdapter_TypeDefinitionIndex = 72908;
 
 	class SkyboxFloorRotationAdapter : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::System::Boolean UseUI3DCamera; // 0x18
 		::UnityEngine::Transform* _CameraTrans; // 0x20
-		::UnityEngine::Vector3 Field_5_2; // 0x28
-		::UnityEngine::Transform* Field_5_3; // 0x38
+		::UnityEngine::Vector3 AFMHBENIEPG; // 0x28
+		::UnityEngine::Transform* LKKDLDOCCFG; // 0x38
 
 		::System::Void _ctor()
 		{

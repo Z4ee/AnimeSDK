@@ -1,0 +1,47 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/LittleGame/FiveDim/BaseContactEventSystem_1.h"
+
+class Class_1_2CDF619C23140440;
+class Class_2_B8E38BF47138A2E5;
+class Class_3_912CC478F2B21832;
+
+#define CLASS_2_EBBAB17A46854843_METHOD_2_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0x1AA3BC30)
+#define CLASS_2_EBBAB17A46854843_METHOD_2_6F25DCACE89BDAE6_OFFSET UNITYSDK_OFFSET(0x1AA3C380)
+#define CLASS_2_EBBAB17A46854843__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA3BB60)
+#define CLASS_2_EBBAB17A46854843__UPDATENEWCONTACTPLAYERENTITIES_OFFSET UNITYSDK_OFFSET(0x1AA3BC70)
+#define CLASS_2_EBBAB17A46854843__UPDATEPREVCONTACTPLAYERENTITIES_OFFSET UNITYSDK_OFFSET(0x1AA3C080)
+
+inline static constexpr unsigned int Class_2_EBBAB17A46854843_TypeDefinitionIndex = 76271;
+
+class Class_2_EBBAB17A46854843 : public ::RPG::Client::LittleGame::FiveDim::BaseContactEventSystem_1<::Class_2_B8E38BF47138A2E5*>
+{
+public:
+	::Class_1_2CDF619C23140440* FKINCGODJEP; // 0x20
+	::Class_3_912CC478F2B21832* PDENFEFCAGN; // 0x28
+
+	::System::Void _ctor(::Class_1_2CDF619C23140440* a1, ::Class_3_912CC478F2B21832* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_2CDF619C23140440*, ::Class_3_912CC478F2B21832*))((::PBYTE)hIl2Cpp + CLASS_2_EBBAB17A46854843__CTOR_OFFSET))(this, a1, a2);
+	}
+
+	::System::Boolean Method_2_391A84BCD9F51317()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_EBBAB17A46854843_METHOD_2_391A84BCD9F51317_OFFSET))(this);
+	}
+
+	::System::Void _UpdateNewContactPlayerEntities()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_EBBAB17A46854843__UPDATENEWCONTACTPLAYERENTITIES_OFFSET))(this);
+	}
+
+	::System::Void _UpdatePrevContactPlayerEntities()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_EBBAB17A46854843__UPDATEPREVCONTACTPLAYERENTITIES_OFFSET))(this);
+	}
+
+	::System::Void Method_2_6F25DCACE89BDAE6(::System::Int32 a1, ::System::Int32 a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_2_EBBAB17A46854843_METHOD_2_6F25DCACE89BDAE6_OFFSET))(this, a1, a2);
+	}
+};

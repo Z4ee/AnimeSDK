@@ -1,0 +1,14 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/CombatPowerAvatarRarityType.h"
+#include "unitysdk/System/ValueType.h"
+
+inline static constexpr unsigned int Class_1_9ACFC50B2C1C334F_Struct_2_F9AA3060ACBD5811_TypeDefinitionIndex = 59184;
+
+struct alignas(4) Class_1_9ACFC50B2C1C334F_Struct_2_F9AA3060ACBD5811
+{
+	::System::UInt32 AAGKEBFHLMC; // 0x10
+	::System::UInt32 KPAHFGEFKEB; // 0x14
+	::System::UInt32 GBJLLAJJEOL; // 0x18
+	::RPG::GameCore::CombatPowerAvatarRarityType PMIEAEGJNMJ; // 0x1C
+};

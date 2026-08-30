@@ -7,17 +7,17 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class ScaleCharacterModel; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_19C09CC9E1491EDE_METHOD_3_866FD2514707B023_OFFSET UNITYSDK_OFFSET(0x178386B0)
-#define CLASS_3_19C09CC9E1491EDE_METHOD_3_94B3F9FF68595670_OFFSET UNITYSDK_OFFSET(0x17838850)
-#define CLASS_3_19C09CC9E1491EDE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17837D80)
-#define CLASS_3_19C09CC9E1491EDE__CTOR_OFFSET UNITYSDK_OFFSET(0x17837D40)
+#define CLASS_3_19C09CC9E1491EDE_METHOD_3_866FD2514707B023_OFFSET UNITYSDK_OFFSET(0x1845B330)
+#define CLASS_3_19C09CC9E1491EDE_METHOD_3_94B3F9FF68595670_OFFSET UNITYSDK_OFFSET(0x1845B4D0)
+#define CLASS_3_19C09CC9E1491EDE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1845AA00)
+#define CLASS_3_19C09CC9E1491EDE__CTOR_OFFSET UNITYSDK_OFFSET(0x1845A9C0)
 
-inline static constexpr unsigned int Class_3_19C09CC9E1491EDE_TypeDefinitionIndex = 52829;
+inline static constexpr unsigned int Class_3_19C09CC9E1491EDE_TypeDefinitionIndex = 55532;
 
 class Class_3_19C09CC9E1491EDE : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ScaleCharacterModel*>
 {
 public:
-	::RPG::GameCore::CharacterModelScaleEventParam* Field_3_0; // 0x28
+	::RPG::GameCore::CharacterModelScaleEventParam* GJMEBCMNPMK; // 0x28
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ScaleCharacterModel* a2)
 	{

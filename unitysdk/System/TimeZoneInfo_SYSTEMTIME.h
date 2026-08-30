@@ -4,7 +4,7 @@
 
 namespace System
 {
-	inline static constexpr unsigned int TimeZoneInfo_SYSTEMTIME_TypeDefinitionIndex = 343;
+	inline static constexpr unsigned int TimeZoneInfo_SYSTEMTIME_TypeDefinitionIndex = 346;
 
 	struct alignas(2) TimeZoneInfo_SYSTEMTIME
 	{

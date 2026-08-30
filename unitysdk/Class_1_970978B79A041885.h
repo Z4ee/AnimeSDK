@@ -11,27 +11,27 @@ namespace RPG::Client::LittleGameShare { template <typename T> class RpcObjectPo
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_970978B79A041885_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x190F32C0)
-#define CLASS_1_970978B79A041885_METHOD_1_E00A16BC463774FC_OFFSET UNITYSDK_OFFSET(0x190E54F0)
-#define CLASS_1_970978B79A041885_METHOD_1_F8FB09F15C0808EF_OFFSET UNITYSDK_OFFSET(0x190E53B0)
-#define CLASS_1_970978B79A041885__CCTOR_OFFSET UNITYSDK_OFFSET(0x190F3300)
-#define CLASS_1_970978B79A041885__CTOR_OFFSET UNITYSDK_OFFSET(0x190E4E80)
+#define CLASS_1_970978B79A041885_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x1AAF5830)
+#define CLASS_1_970978B79A041885_METHOD_1_E00A16BC463774FC_OFFSET UNITYSDK_OFFSET(0x1AAE79C0)
+#define CLASS_1_970978B79A041885_METHOD_1_F8FB09F15C0808EF_OFFSET UNITYSDK_OFFSET(0x1AAE7880)
+#define CLASS_1_970978B79A041885__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AAF5870)
+#define CLASS_1_970978B79A041885__CTOR_OFFSET UNITYSDK_OFFSET(0x1AAE7350)
 
-inline static constexpr unsigned int Class_1_970978B79A041885_TypeDefinitionIndex = 35349;
+inline static constexpr unsigned int Class_1_970978B79A041885_TypeDefinitionIndex = 36210;
 
 class Class_1_970978B79A041885 : public ::System::Object
 {
 public:
-	static ::System::Collections::Generic::Dictionary_2<::Struct_2_019938BC9C50B169, ::System::RuntimeTypeHandle>** StaticGet_Field_1_0()
+	static ::System::Collections::Generic::Dictionary_2<::Struct_2_019938BC9C50B169, ::System::RuntimeTypeHandle>** StaticGet_DCELBGNCLJJ()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::Struct_2_019938BC9C50B169, ::System::RuntimeTypeHandle>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_970978B79A041885_TypeDefinitionIndex)->GetStaticField(0x4F3A0);
+		return (::System::Collections::Generic::Dictionary_2<::Struct_2_019938BC9C50B169, ::System::RuntimeTypeHandle>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_970978B79A041885_TypeDefinitionIndex)->GetStaticField(0x14BA0);
 	}
-	static ::RPG::Client::LittleGameShare::RpcObjectPool_1<::Class_1_E69069233E5E05B8*>** StaticGet_Field_1_1()
+	static ::RPG::Client::LittleGameShare::RpcObjectPool_1<::Class_1_E69069233E5E05B8*>** StaticGet_PNKEIPDJFNJ()
 	{
-		return (::RPG::Client::LittleGameShare::RpcObjectPool_1<::Class_1_E69069233E5E05B8*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_970978B79A041885_TypeDefinitionIndex)->GetStaticField(0x4F3A8);
+		return (::RPG::Client::LittleGameShare::RpcObjectPool_1<::Class_1_E69069233E5E05B8*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_970978B79A041885_TypeDefinitionIndex)->GetStaticField(0x14BA8);
 	}
-	// static const ::System::Boolean Field_1_2; // 0x0
-	::Class_0_16E4307DCC419505_53* Field_1_3; // 0x10
+	// static const ::System::Boolean HNKLIJEABKG; // 0x0
+	::Class_0_16E4307DCC419505_53* FLMODBLFAGD; // 0x10
 
 	::System::Void _ctor(::Class_0_16E4307DCC419505_53* a1)
 	{

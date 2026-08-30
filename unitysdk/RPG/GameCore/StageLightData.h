@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_STAGELIGHTDATA_METHOD_2_577F56EA16B902D4_OFFSET UNITYSDK_OFFSET(0x1B0B11A0)
-#define RPG_GAMECORE_STAGELIGHTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0B1270)
+#define RPG_GAMECORE_STAGELIGHTDATA_METHOD_2_577F56EA16B902D4_OFFSET UNITYSDK_OFFSET(0x1CAE72C0)
+#define RPG_GAMECORE_STAGELIGHTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1CAE7390)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StageLightData_TypeDefinitionIndex = 18422;
+	inline static constexpr unsigned int StageLightData_TypeDefinitionIndex = 18946;
 
 	class StageLightData : public ::RPG::GameCore::JsonConfig
 	{

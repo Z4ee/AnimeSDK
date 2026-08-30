@@ -6,23 +6,23 @@ namespace System { class Type; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONMEMBER_GET_GETTER_OFFSET UNITYSDK_OFFSET(0x15BCCBD0)
-#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONMEMBER_GET_MEMBERTYPE_OFFSET UNITYSDK_OFFSET(0x15BCCBB0)
-#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONMEMBER_SET_GETTER_OFFSET UNITYSDK_OFFSET(0x15BCCBE0)
-#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONMEMBER_SET_MEMBERTYPE_OFFSET UNITYSDK_OFFSET(0x15BCCBC0)
-#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONMEMBER_SET_SETTER_OFFSET UNITYSDK_OFFSET(0x1D1F18E0)
-#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONMEMBER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1F18F0)
+#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONMEMBER_GET_GETTER_OFFSET UNITYSDK_OFFSET(0x17317210)
+#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONMEMBER_GET_MEMBERTYPE_OFFSET UNITYSDK_OFFSET(0x173171F0)
+#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONMEMBER_SET_GETTER_OFFSET UNITYSDK_OFFSET(0x1EEFCBB0)
+#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONMEMBER_SET_MEMBERTYPE_OFFSET UNITYSDK_OFFSET(0x17317200)
+#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONMEMBER_SET_SETTER_OFFSET UNITYSDK_OFFSET(0x1EEFCBC0)
+#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONMEMBER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EEFCBD0)
 
 namespace Newtonsoft::Json::Utilities
 {
-	inline static constexpr unsigned int ReflectionMember_TypeDefinitionIndex = 9308;
+	inline static constexpr unsigned int ReflectionMember_TypeDefinitionIndex = 9587;
 
 	class ReflectionMember : public ::System::Object
 	{
 	public:
-		::System::Func_2<::System::Object*, ::System::Object*>* _Getter_k__BackingField; // 0x10
-		::System::Action_2<::System::Object*, ::System::Object*>* _Setter_k__BackingField; // 0x18
-		::System::Type* _MemberType_k__BackingField; // 0x20
+		::System::Type* _MemberType_k__BackingField; // 0x10
+		::System::Func_2<::System::Object*, ::System::Object*>* _Getter_k__BackingField; // 0x18
+		::System::Action_2<::System::Object*, ::System::Object*>* _Setter_k__BackingField; // 0x20
 
 		::System::Void _ctor()
 		{

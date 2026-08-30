@@ -5,14 +5,14 @@
 
 namespace RPG::Client { class Airline; }
 
-#define STRUCT_2_F93DE209E992FF0D__CTOR_OFFSET UNITYSDK_OFFSET(0x38CBC20)
+#define STRUCT_2_F93DE209E992FF0D__CTOR_OFFSET UNITYSDK_OFFSET(0x6B77D0)
 
-inline static constexpr unsigned int Struct_2_F93DE209E992FF0D_TypeDefinitionIndex = 57119;
+inline static constexpr unsigned int Struct_2_F93DE209E992FF0D_TypeDefinitionIndex = 59915;
 
 struct alignas(8) Struct_2_F93DE209E992FF0D
 {
-	::RPG::Client::Airline* Field_2_0; // 0x10
-	::UnityEngine::Vector3 Field_2_1; // 0x18
+	::RPG::Client::Airline* BBLOHCHKFKD; // 0x10
+	::UnityEngine::Vector3 JFAGECNFHJL; // 0x18
 
 	::System::Void _ctor(::RPG::Client::Airline* a1, ::UnityEngine::Vector3 a2)
 	{

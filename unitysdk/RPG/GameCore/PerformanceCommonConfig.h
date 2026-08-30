@@ -8,12 +8,12 @@ namespace RPG::GameCore { class JsonEnum; }
 namespace RPG::GameCore { class PerformanceIDPair; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PERFORMANCECOMMONCONFIG_METHOD_2_D66C438B4C0E021E_OFFSET UNITYSDK_OFFSET(0x1B4AA920)
-#define RPG_GAMECORE_PERFORMANCECOMMONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4AB020)
+#define RPG_GAMECORE_PERFORMANCECOMMONCONFIG_METHOD_2_D66C438B4C0E021E_OFFSET UNITYSDK_OFFSET(0x1D41E1D0)
+#define RPG_GAMECORE_PERFORMANCECOMMONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D41E920)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PerformanceCommonConfig_TypeDefinitionIndex = 18290;
+	inline static constexpr unsigned int PerformanceCommonConfig_TypeDefinitionIndex = 18814;
 
 	class PerformanceCommonConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -35,6 +35,7 @@ namespace RPG::GameCore
 		::Il2CppArray<::RPG::GameCore::JsonEnum*>* OptionIconTypeAutoSelectSortList; // 0x38
 		::Il2CppArray<::System::String*>* UIInPerformanceWhiteList; // 0x40
 		::Il2CppArray<::System::String*>* EnterPerformanceUIPageWhiteList; // 0x48
+		::Il2CppArray<::System::String*>* ShiftPageWhiteList; // 0x50
 
 		::System::Void _ctor()
 		{

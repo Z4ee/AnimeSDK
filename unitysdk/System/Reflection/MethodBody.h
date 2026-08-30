@@ -5,12 +5,12 @@
 namespace System::Reflection { class ExceptionHandlingClause; }
 namespace System::Reflection { class LocalVariableInfo; }
 
-#define SYSTEM_REFLECTION_METHODBODY_GETILASBYTEARRAY_OFFSET UNITYSDK_OFFSET(0x1AFD2FA0)
-#define SYSTEM_REFLECTION_METHODBODY__CTOR_OFFSET UNITYSDK_OFFSET(0x1AFD2F90)
+#define SYSTEM_REFLECTION_METHODBODY_GETILASBYTEARRAY_OFFSET UNITYSDK_OFFSET(0x1CC23C60)
+#define SYSTEM_REFLECTION_METHODBODY__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC23C50)
 
 namespace System::Reflection
 {
-	inline static constexpr unsigned int MethodBody_TypeDefinitionIndex = 606;
+	inline static constexpr unsigned int MethodBody_TypeDefinitionIndex = 609;
 
 	class MethodBody : public ::System::Object
 	{

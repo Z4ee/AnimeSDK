@@ -5,16 +5,16 @@
 namespace RPG::GameCore { class RuntimeGroupInfo; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_A5C7D9C380EAC2CB_METHOD_1_E6EC55CD94CE07EF_OFFSET UNITYSDK_OFFSET(0x17874480)
-#define CLASS_1_A5C7D9C380EAC2CB__CTOR_OFFSET UNITYSDK_OFFSET(0x17874600)
+#define CLASS_1_A5C7D9C380EAC2CB_METHOD_1_E6EC55CD94CE07EF_OFFSET UNITYSDK_OFFSET(0x1AF1AE20)
+#define CLASS_1_A5C7D9C380EAC2CB__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF1AFA0)
 
-inline static constexpr unsigned int Class_1_A5C7D9C380EAC2CB_TypeDefinitionIndex = 45370;
+inline static constexpr unsigned int Class_1_A5C7D9C380EAC2CB_TypeDefinitionIndex = 47616;
 
 class Class_1_A5C7D9C380EAC2CB : public ::System::Object
 {
 public:
-	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::RuntimeGroupInfo*>* Field_1_0; // 0x10
-	::System::UInt32 Field_1_1; // 0x18
+	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::RuntimeGroupInfo*>* AJINKONEBMH; // 0x10
+	::System::UInt32 NMDDEBJIOHD; // 0x18
 
 	::System::Void _ctor()
 	{

@@ -9,26 +9,26 @@ namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_DC7A5474D9E5F1B5_METHOD_1_0F7CBACDC48E7772_OFFSET UNITYSDK_OFFSET(0x17063960)
-#define CLASS_1_DC7A5474D9E5F1B5_METHOD_1_1808E1CF7A125519_OFFSET UNITYSDK_OFFSET(0x17063B90)
-#define CLASS_1_DC7A5474D9E5F1B5_METHOD_1_2685B6183E614529_OFFSET UNITYSDK_OFFSET(0x17063B30)
-#define CLASS_1_DC7A5474D9E5F1B5_METHOD_1_E3DE31A03057E055_OFFSET UNITYSDK_OFFSET(0x17063BF0)
-#define CLASS_1_DC7A5474D9E5F1B5__CTOR_OFFSET UNITYSDK_OFFSET(0x17063920)
+#define CLASS_1_DC7A5474D9E5F1B5_METHOD_1_0F7CBACDC48E7772_OFFSET UNITYSDK_OFFSET(0x1A748490)
+#define CLASS_1_DC7A5474D9E5F1B5_METHOD_1_1808E1CF7A125519_OFFSET UNITYSDK_OFFSET(0x1A7486C0)
+#define CLASS_1_DC7A5474D9E5F1B5_METHOD_1_2685B6183E614529_OFFSET UNITYSDK_OFFSET(0x1A748660)
+#define CLASS_1_DC7A5474D9E5F1B5_METHOD_1_E3DE31A03057E055_OFFSET UNITYSDK_OFFSET(0x1A748720)
+#define CLASS_1_DC7A5474D9E5F1B5__CTOR_OFFSET UNITYSDK_OFFSET(0x1A748450)
 
-inline static constexpr unsigned int Class_1_DC7A5474D9E5F1B5_TypeDefinitionIndex = 75121;
+inline static constexpr unsigned int Class_1_DC7A5474D9E5F1B5_TypeDefinitionIndex = 78618;
 
 class Class_1_DC7A5474D9E5F1B5 : public ::System::Object
 {
 public:
-	::UnityEngine::Transform* Field_1_0; // 0x10
-	::UnityEngine::GameObject* Field_1_1; // 0x18
-	::Class_1_DEBCF596D13A3389* Field_1_2; // 0x20
-	::System::String* Field_1_3; // 0x28
-	::UnityEngine::Vector3 Field_1_4; // 0x30
-	::System::Single Field_1_5; // 0x3C
-	::System::Single Field_1_6; // 0x40
-	::System::Boolean Field_1_7; // 0x44
-	::System::Boolean Field_1_8; // 0x45
+	::System::String* OINCGJJMAEF; // 0x10
+	::Class_1_DEBCF596D13A3389* OLNEEDIAGBF; // 0x18
+	::UnityEngine::Transform* GKNBCPMJHMN; // 0x20
+	::UnityEngine::GameObject* LBNBPMIFDHI; // 0x28
+	::System::Single BPAIDCADMDO; // 0x30
+	::UnityEngine::Vector3 MIFKHBDOGLN; // 0x34
+	::System::Boolean IHJGGKCKGKH; // 0x40
+	::System::Boolean JAGGOIIDFJE; // 0x41
+	::System::Single NNIIGDIAEED; // 0x44
 
 	::System::Void _ctor(::System::String* a1, ::UnityEngine::Vector3 a2, ::System::Single a3, ::UnityEngine::Transform* a4, ::System::Boolean a5, ::System::Boolean a6)
 	{

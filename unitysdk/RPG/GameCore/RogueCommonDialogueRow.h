@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUECOMMONDIALOGUEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C4AD990)
-#define RPG_GAMECORE_ROGUECOMMONDIALOGUEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4ADAC0)
+#define RPG_GAMECORE_ROGUECOMMONDIALOGUEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D917770)
+#define RPG_GAMECORE_ROGUECOMMONDIALOGUEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D9178A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueCommonDialogueRow_TypeDefinitionIndex = 14110;
+	inline static constexpr unsigned int RogueCommonDialogueRow_TypeDefinitionIndex = 14530;
 
 	class RogueCommonDialogueRow : public ::System::Object
 	{

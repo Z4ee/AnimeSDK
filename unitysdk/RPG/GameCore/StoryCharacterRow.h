@@ -6,21 +6,21 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_STORYCHARACTERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B0C74A0)
-#define RPG_GAMECORE_STORYCHARACTERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0C7EB0)
+#define RPG_GAMECORE_STORYCHARACTERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CAFEED0)
+#define RPG_GAMECORE_STORYCHARACTERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CAFF8E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StoryCharacterRow_TypeDefinitionIndex = 14578;
+	inline static constexpr unsigned int StoryCharacterRow_TypeDefinitionIndex = 15012;
 
 	class StoryCharacterRow : public ::System::Object
 	{
 	public:
-		::System::String* StoryCharacterID; // 0x10
-		::System::String* ConfigEntityPath; // 0x18
+		::System::String* ConfigEntityPath; // 0x10
+		::System::String* StoryCharacterID; // 0x18
 		::System::String* JsonPath; // 0x20
-		::RPG::GameCore::NPCSubType SubType; // 0x28
-		::System::UInt32 CharacterID; // 0x2C
+		::System::UInt32 CharacterID; // 0x28
+		::RPG::GameCore::NPCSubType SubType; // 0x2C
 
 		::System::Void _ctor()
 		{

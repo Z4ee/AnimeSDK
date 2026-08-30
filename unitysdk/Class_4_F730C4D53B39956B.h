@@ -2,17 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_3_5A10464B73D74440.h"
 
-#define CLASS_4_F730C4D53B39956B_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x18F07A60)
-#define CLASS_4_F730C4D53B39956B_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x18F07A70)
-#define CLASS_4_F730C4D53B39956B__CTOR_OFFSET UNITYSDK_OFFSET(0x18F07AD0)
+#define CLASS_4_F730C4D53B39956B_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1874EB50)
+#define CLASS_4_F730C4D53B39956B_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x1874EB60)
+#define CLASS_4_F730C4D53B39956B__CTOR_OFFSET UNITYSDK_OFFSET(0x1874EBC0)
 
-inline static constexpr unsigned int Class_4_F730C4D53B39956B_TypeDefinitionIndex = 70605;
+inline static constexpr unsigned int Class_4_F730C4D53B39956B_TypeDefinitionIndex = 73904;
 
 class Class_4_F730C4D53B39956B : public ::Class_3_5A10464B73D74440
 {
 public:
-	::System::Int32 Field_4_0; // 0x18
-	::System::Int32 Field_4_1; // 0x1C
+	::System::Int32 ENMIPOPKOOL; // 0x18
+	::System::Int32 PJKFLONMKED; // 0x1C
 
 	::System::Void _ctor(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3)
 	{

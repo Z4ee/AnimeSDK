@@ -5,16 +5,16 @@
 
 namespace UnityEngine { class Material; }
 
-#define MONOCUSTOMFLIPSETTER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x186F4110)
-#define MONOCUSTOMFLIPSETTER__CTOR_OFFSET UNITYSDK_OFFSET(0x186F4260)
+#define MONOCUSTOMFLIPSETTER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x19C94450)
+#define MONOCUSTOMFLIPSETTER__CTOR_OFFSET UNITYSDK_OFFSET(0x19C945A0)
 
-inline static constexpr unsigned int MonoCustomFlipSetter_TypeDefinitionIndex = 45646;
+inline static constexpr unsigned int MonoCustomFlipSetter_TypeDefinitionIndex = 47897;
 
 class MonoCustomFlipSetter : public ::UnityEngine::MonoBehaviour
 {
 public:
 	::UnityEngine::Material* targetMaterial; // 0x18
-	::UnityEngine::Vector4 Field_5_1; // 0x20
+	::UnityEngine::Vector4 NNKPFDOONPM; // 0x20
 
 	::System::Void _ctor()
 	{

@@ -3,7 +3,7 @@
 
 namespace UnityEngine { class Animator; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_115_TypeDefinitionIndex = 39569;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_115_TypeDefinitionIndex = 40442;
 
 class Class_0_16E4307DCC419505_115
 {

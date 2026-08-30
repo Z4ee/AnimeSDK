@@ -3,18 +3,18 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/RPG/GameCore/ImmediateTaskBase_1.h"
 
-class Class_0_16E4307DCC419505_434;
+class Class_0_16E4307DCC419505_469;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class SetBattleUIPauseEnvironmentInfo; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_AE400BC40570CD59_METHOD_3_B1A7521B14C5D044_OFFSET UNITYSDK_OFFSET(0x15F24D20)
-#define CLASS_3_AE400BC40570CD59_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15F24C90)
-#define CLASS_3_AE400BC40570CD59__CTOR_OFFSET UNITYSDK_OFFSET(0x15F24C60)
-#define CLASS_3_AE400BC40570CD59___COLLECTINFOS_B__2_0_OFFSET UNITYSDK_OFFSET(0x15F25000)
+#define CLASS_3_AE400BC40570CD59_METHOD_3_B1A7521B14C5D044_OFFSET UNITYSDK_OFFSET(0x187D2D00)
+#define CLASS_3_AE400BC40570CD59_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x187D2C70)
+#define CLASS_3_AE400BC40570CD59__CTOR_OFFSET UNITYSDK_OFFSET(0x187D2C40)
+#define CLASS_3_AE400BC40570CD59___COLLECTINFOS_B__2_0_OFFSET UNITYSDK_OFFSET(0x187D2FE0)
 
-inline static constexpr unsigned int Class_3_AE400BC40570CD59_TypeDefinitionIndex = 52853;
+inline static constexpr unsigned int Class_3_AE400BC40570CD59_TypeDefinitionIndex = 55556;
 
 class Class_3_AE400BC40570CD59 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetBattleUIPauseEnvironmentInfo*>
 {
@@ -29,9 +29,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_AE400BC40570CD59_ONTASKBEGIN_OFFSET))(this);
 	}
 
-	::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_434*>* Method_3_B1A7521B14C5D044()
+	::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_469*>* Method_3_B1A7521B14C5D044()
 	{
-		return ((::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_434*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_AE400BC40570CD59_METHOD_3_B1A7521B14C5D044_OFFSET))(this);
+		return ((::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_469*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_AE400BC40570CD59_METHOD_3_B1A7521B14C5D044_OFFSET))(this);
 	}
 
 	::RPG::GameCore::FixPoint __CollectInfos_b__2_0(::RPG::GameCore::DynamicFloat* a1)

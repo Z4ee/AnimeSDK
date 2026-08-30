@@ -6,7 +6,7 @@ namespace RPG::Client::FateRin::Card { class IFateRinCardOwnerViewModel; }
 
 namespace RPG::Client::FateRin::Battle
 {
-	inline static constexpr unsigned int IFateRinBattleHudHandCardViewModel_TypeDefinitionIndex = 75966;
+	inline static constexpr unsigned int IFateRinBattleHudHandCardViewModel_TypeDefinitionIndex = 79599;
 
 	class IFateRinBattleHudHandCardViewModel
 	{

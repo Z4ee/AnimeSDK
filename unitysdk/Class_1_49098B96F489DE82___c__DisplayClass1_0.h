@@ -5,10 +5,10 @@
 class Class_2_B66C1067C0468FBB;
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define CLASS_1_49098B96F489DE82___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x169C3400)
-#define CLASS_1_49098B96F489DE82___C__DISPLAYCLASS1_0___SELECTTARGET_B__0_OFFSET UNITYSDK_OFFSET(0x169C3420)
+#define CLASS_1_49098B96F489DE82___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15811990)
+#define CLASS_1_49098B96F489DE82___C__DISPLAYCLASS1_0___SELECTTARGET_B__0_OFFSET UNITYSDK_OFFSET(0x158119B0)
 
-inline static constexpr unsigned int Class_1_49098B96F489DE82___c__DisplayClass1_0_TypeDefinitionIndex = 73566;
+inline static constexpr unsigned int Class_1_49098B96F489DE82___c__DisplayClass1_0_TypeDefinitionIndex = 77050;
 
 class Class_1_49098B96F489DE82___c__DisplayClass1_0 : public ::System::Object
 {

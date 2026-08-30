@@ -5,20 +5,20 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicString; }
 
-#define CLASS_3_8AB7F1C824105869_METHOD_3_5433D6C708F8C421_OFFSET UNITYSDK_OFFSET(0x1B620A30)
-#define CLASS_3_8AB7F1C824105869_METHOD_3_CC5389287A803194_OFFSET UNITYSDK_OFFSET(0x1B620A70)
-#define CLASS_3_8AB7F1C824105869__CTOR_OFFSET UNITYSDK_OFFSET(0x1B620A60)
+#define CLASS_3_8AB7F1C824105869_METHOD_3_5433D6C708F8C421_OFFSET UNITYSDK_OFFSET(0x1CF1C250)
+#define CLASS_3_8AB7F1C824105869_METHOD_3_CC5389287A803194_OFFSET UNITYSDK_OFFSET(0x1CF1C290)
+#define CLASS_3_8AB7F1C824105869__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF1C280)
 
-inline static constexpr unsigned int Class_3_8AB7F1C824105869_TypeDefinitionIndex = 20493;
+inline static constexpr unsigned int Class_3_8AB7F1C824105869_TypeDefinitionIndex = 21045;
 
 class Class_3_8AB7F1C824105869 : public ::RPG::GameCore::TaskConfig
 {
 public:
-	::Il2CppArray<::RPG::GameCore::TaskConfig*>* Field_3_0; // 0x18
-	::RPG::GameCore::DynamicString* Field_3_1; // 0x20
-	::RPG::GameCore::DynamicString* Field_3_2; // 0x28
-	::System::Boolean Field_3_3; // 0x30
-	::System::Boolean Field_3_4; // 0x31
+	::RPG::GameCore::DynamicString* NCMKOFAAAOI; // 0x18
+	::Il2CppArray<::RPG::GameCore::TaskConfig*>* LEGADFBLDKA; // 0x20
+	::RPG::GameCore::DynamicString* PEEJFDAFPBJ; // 0x28
+	::System::Boolean IIACEHCDKNN; // 0x30
+	::System::Boolean PJOKHJGPJCM; // 0x31
 
 	::System::Void _ctor()
 	{

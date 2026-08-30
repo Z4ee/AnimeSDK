@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LockEntityStreamingReason_TypeDefinitionIndex = 54690;
+	inline static constexpr unsigned int LockEntityStreamingReason_TypeDefinitionIndex = 57411;
 
 	enum class LockEntityStreamingReason : ::System::Int32
 	{

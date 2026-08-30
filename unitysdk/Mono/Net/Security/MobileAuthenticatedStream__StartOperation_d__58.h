@@ -11,22 +11,22 @@ namespace Mono::Net::Security { class AsyncProtocolResult; }
 namespace Mono::Net::Security { class MobileAuthenticatedStream; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM__STARTOPERATION_D__58_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3A00930)
-#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM__STARTOPERATION_D__58_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x38D1DF0)
+#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM__STARTOPERATION_D__58_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3B92140)
+#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM__STARTOPERATION_D__58_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0xA2FB90)
 
 namespace Mono::Net::Security
 {
-	inline static constexpr unsigned int MobileAuthenticatedStream__StartOperation_d__58_TypeDefinitionIndex = 2432;
+	inline static constexpr unsigned int MobileAuthenticatedStream__StartOperation_d__58_TypeDefinitionIndex = 2439;
 
 	struct alignas(8) MobileAuthenticatedStream__StartOperation_d__58
 	{
-		::Mono::Net::Security::MobileAuthenticatedStream* __4__this; // 0x10
-		::Mono::Net::Security::AsyncProtocolRequest* asyncRequest; // 0x18
-		::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Int32> __t__builder; // 0x20
-		::System::Threading::CancellationToken cancellationToken; // 0x38
-		::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::Mono::Net::Security::AsyncProtocolResult*> __u__1; // 0x40
-		::System::Int32 __1__state; // 0x50
-		::Mono::Net::Security::MobileAuthenticatedStream_OperationType type; // 0x54
+		::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Int32> __t__builder; // 0x10
+		::Mono::Net::Security::MobileAuthenticatedStream* __4__this; // 0x28
+		::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::Mono::Net::Security::AsyncProtocolResult*> __u__1; // 0x30
+		::System::Threading::CancellationToken cancellationToken; // 0x40
+		::Mono::Net::Security::AsyncProtocolRequest* asyncRequest; // 0x48
+		::Mono::Net::Security::MobileAuthenticatedStream_OperationType type; // 0x50
+		::System::Int32 __1__state; // 0x54
 
 		::System::Void MoveNext()
 		{

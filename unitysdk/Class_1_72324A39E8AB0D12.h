@@ -3,18 +3,18 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_72324A39E8AB0D12_METHOD_1_C099BFAC7CD3CF58_OFFSET UNITYSDK_OFFSET(0x17D7F460)
-#define CLASS_1_72324A39E8AB0D12_METHOD_1_C4BFBB1BE6C0430A_OFFSET UNITYSDK_OFFSET(0x17D7F3C0)
-#define CLASS_1_72324A39E8AB0D12__CTOR_OFFSET UNITYSDK_OFFSET(0x17D7F450)
+#define CLASS_1_72324A39E8AB0D12_METHOD_1_C099BFAC7CD3CF58_OFFSET UNITYSDK_OFFSET(0x17FF81B0)
+#define CLASS_1_72324A39E8AB0D12_METHOD_1_C4BFBB1BE6C0430A_OFFSET UNITYSDK_OFFSET(0x17FF8110)
+#define CLASS_1_72324A39E8AB0D12__CTOR_OFFSET UNITYSDK_OFFSET(0x17FF81A0)
 
-inline static constexpr unsigned int Class_1_72324A39E8AB0D12_TypeDefinitionIndex = 59772;
+inline static constexpr unsigned int Class_1_72324A39E8AB0D12_TypeDefinitionIndex = 62618;
 
 class Class_1_72324A39E8AB0D12 : public ::System::Object
 {
 public:
-	static ::Class_1_72324A39E8AB0D12** StaticGet_Field_1_0()
+	static ::Class_1_72324A39E8AB0D12** StaticGet_FLMODBLFAGD()
 	{
-		return (::Class_1_72324A39E8AB0D12**)Il2CppClass::FromTypeDefinitionIndex(Class_1_72324A39E8AB0D12_TypeDefinitionIndex)->GetStaticField(0x5E590);
+		return (::Class_1_72324A39E8AB0D12**)Il2CppClass::FromTypeDefinitionIndex(Class_1_72324A39E8AB0D12_TypeDefinitionIndex)->GetStaticField(0x5F340);
 	}
 
 	::System::Void _ctor()

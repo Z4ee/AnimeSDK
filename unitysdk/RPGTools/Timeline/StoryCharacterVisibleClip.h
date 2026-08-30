@@ -6,16 +6,17 @@
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
 
+namespace RPGTools::Timeline { class StoryCharacterVisibleBehaviour; }
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_STORYCHARACTERVISIBLECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x199B8E50)
-#define RPGTOOLS_TIMELINE_STORYCHARACTERVISIBLECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x199B8E40)
-#define RPGTOOLS_TIMELINE_STORYCHARACTERVISIBLECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x199B8FB0)
+#define RPGTOOLS_TIMELINE_STORYCHARACTERVISIBLECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1B0C6000)
+#define RPGTOOLS_TIMELINE_STORYCHARACTERVISIBLECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1B0C5FF0)
+#define RPGTOOLS_TIMELINE_STORYCHARACTERVISIBLECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0C6190)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int StoryCharacterVisibleClip_TypeDefinitionIndex = 46538;
+	inline static constexpr unsigned int StoryCharacterVisibleClip_TypeDefinitionIndex = 48783;
 
 	class StoryCharacterVisibleClip : public ::UnityEngine::Playables::PlayableAsset
 	{
@@ -29,6 +30,7 @@ namespace RPGTools::Timeline
 		::System::String* FadeOutEffect; // 0x40
 		::System::Single FadeOutEffectTime; // 0x48
 		::System::Boolean LoadEffectAysnc; // 0x4C
+		::RPGTools::Timeline::StoryCharacterVisibleBehaviour* Template; // 0x50
 
 		::System::Void _ctor()
 		{

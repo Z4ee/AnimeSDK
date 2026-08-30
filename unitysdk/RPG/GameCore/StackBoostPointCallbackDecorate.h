@@ -7,13 +7,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_STACKBOOSTPOINTCALLBACKDECORATE_METHOD_3_4CDCFDB7EA08EA30_OFFSET UNITYSDK_OFFSET(0x1B0A4F10)
-#define RPG_GAMECORE_STACKBOOSTPOINTCALLBACKDECORATE_METHOD_3_ADC85D14A324701D_OFFSET UNITYSDK_OFFSET(0x1B0A4F60)
-#define RPG_GAMECORE_STACKBOOSTPOINTCALLBACKDECORATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0A4F50)
+#define RPG_GAMECORE_STACKBOOSTPOINTCALLBACKDECORATE_METHOD_3_4A4FC28829399DF9_OFFSET UNITYSDK_OFFSET(0x1D0B8080)
+#define RPG_GAMECORE_STACKBOOSTPOINTCALLBACKDECORATE_METHOD_3_D95A4DA784187914_OFFSET UNITYSDK_OFFSET(0x1D0B80D0)
+#define RPG_GAMECORE_STACKBOOSTPOINTCALLBACKDECORATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0B80C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StackBoostPointCallbackDecorate_TypeDefinitionIndex = 22710;
+	inline static constexpr unsigned int StackBoostPointCallbackDecorate_TypeDefinitionIndex = 23287;
 
 	class StackBoostPointCallbackDecorate : public ::RPG::GameCore::TaskConfig
 	{
@@ -28,14 +28,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STACKBOOSTPOINTCALLBACKDECORATE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_4CDCFDB7EA08EA30(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StackBoostPointCallbackDecorate*& a2)
+		static ::System::Void Method_3_4A4FC28829399DF9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StackBoostPointCallbackDecorate*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StackBoostPointCallbackDecorate*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STACKBOOSTPOINTCALLBACKDECORATE_METHOD_3_4CDCFDB7EA08EA30_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StackBoostPointCallbackDecorate*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STACKBOOSTPOINTCALLBACKDECORATE_METHOD_3_4A4FC28829399DF9_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_ADC85D14A324701D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StackBoostPointCallbackDecorate* a2)
+		static ::System::Void Method_3_D95A4DA784187914(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StackBoostPointCallbackDecorate* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StackBoostPointCallbackDecorate*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STACKBOOSTPOINTCALLBACKDECORATE_METHOD_3_ADC85D14A324701D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StackBoostPointCallbackDecorate*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STACKBOOSTPOINTCALLBACKDECORATE_METHOD_3_D95A4DA784187914_OFFSET))(a1, a2);
 		}
 	};
 }

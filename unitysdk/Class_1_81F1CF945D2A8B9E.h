@@ -4,15 +4,15 @@
 
 namespace System::IO { class Stream; }
 
-#define CLASS_1_81F1CF945D2A8B9E_METHOD_1_5278BD1C79678EC4_OFFSET UNITYSDK_OFFSET(0x18D35820)
-#define CLASS_1_81F1CF945D2A8B9E__CTOR_OFFSET UNITYSDK_OFFSET(0x18D35810)
+#define CLASS_1_81F1CF945D2A8B9E_METHOD_1_5278BD1C79678EC4_OFFSET UNITYSDK_OFFSET(0x1A574790)
+#define CLASS_1_81F1CF945D2A8B9E__CTOR_OFFSET UNITYSDK_OFFSET(0x1A574780)
 
-inline static constexpr unsigned int Class_1_81F1CF945D2A8B9E_TypeDefinitionIndex = 35339;
+inline static constexpr unsigned int Class_1_81F1CF945D2A8B9E_TypeDefinitionIndex = 36200;
 
 class Class_1_81F1CF945D2A8B9E : public ::System::Object
 {
 public:
-	::System::IO::Stream* Field_1_0; // 0x10
+	::System::IO::Stream* NHAILIKEHMJ; // 0x10
 
 	::System::Void _ctor(::System::IO::Stream* a1)
 	{

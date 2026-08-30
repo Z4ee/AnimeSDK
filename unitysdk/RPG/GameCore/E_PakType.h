@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int E_PakType_TypeDefinitionIndex = 56625;
+	inline static constexpr unsigned int E_PakType_TypeDefinitionIndex = 59409;
 
 	enum class E_PakType : ::System::Int32
 	{

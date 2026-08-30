@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AttackPhase_TypeDefinitionIndex = 55177;
+	inline static constexpr unsigned int AttackPhase_TypeDefinitionIndex = 57900;
 
 	enum class AttackPhase : ::System::Int32
 	{

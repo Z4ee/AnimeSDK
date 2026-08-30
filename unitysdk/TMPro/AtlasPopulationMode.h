@@ -3,7 +3,7 @@
 
 namespace TMPro
 {
-	inline static constexpr unsigned int AtlasPopulationMode_TypeDefinitionIndex = 41764;
+	inline static constexpr unsigned int AtlasPopulationMode_TypeDefinitionIndex = 43375;
 
 	enum class AtlasPopulationMode : ::System::Int32
 	{

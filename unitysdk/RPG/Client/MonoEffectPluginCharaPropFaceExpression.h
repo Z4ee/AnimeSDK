@@ -11,14 +11,14 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Shader; }
 
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPFACEEXPRESSION_INIT_OFFSET UNITYSDK_OFFSET(0x19112C20)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPFACEEXPRESSION_UNINIT_OFFSET UNITYSDK_OFFSET(0x19113430)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPFACEEXPRESSION_UPDATEPROPERTY_OFFSET UNITYSDK_OFFSET(0x19112CC0)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPFACEEXPRESSION__CTOR_OFFSET UNITYSDK_OFFSET(0x19113480)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPFACEEXPRESSION_INIT_OFFSET UNITYSDK_OFFSET(0x116B5060)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPFACEEXPRESSION_UNINIT_OFFSET UNITYSDK_OFFSET(0x116B5870)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPFACEEXPRESSION_UPDATEPROPERTY_OFFSET UNITYSDK_OFFSET(0x116B5100)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPFACEEXPRESSION__CTOR_OFFSET UNITYSDK_OFFSET(0x116B58C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginCharaPropFaceExpression_TypeDefinitionIndex = 66823;
+	inline static constexpr unsigned int MonoEffectPluginCharaPropFaceExpression_TypeDefinitionIndex = 69925;
 
 	class MonoEffectPluginCharaPropFaceExpression : public ::RPG::Client::MonoEffectPluginCharaPropBase
 	{
@@ -41,7 +41,7 @@ namespace RPG::Client
 		::UnityEngine::Color _ExEyeColor; // 0xA0
 		::System::Boolean Toggle_ExShadowIntensity; // 0xB0
 		::System::Single _ExShadowIntensity; // 0xB4
-		::Il2CppArray<::System::Boolean>* Field_6_18; // 0xB8
+		::Il2CppArray<::System::Boolean>* LKIKPHKAFJB; // 0xB8
 
 		::System::Void _ctor()
 		{

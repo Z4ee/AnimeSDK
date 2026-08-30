@@ -3,7 +3,7 @@
 
 namespace HedgehogTeam::EasyTouch
 {
-	inline static constexpr unsigned int QuickPinch_ActionTiggering_TypeDefinitionIndex = 38111;
+	inline static constexpr unsigned int QuickPinch_ActionTiggering_TypeDefinitionIndex = 38970;
 
 	enum class QuickPinch_ActionTiggering : ::System::Int32
 	{

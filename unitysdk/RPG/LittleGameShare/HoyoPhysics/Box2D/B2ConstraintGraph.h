@@ -5,7 +5,7 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2ConstraintGraph_TypeDefinitionIndex = 35067;
+	inline static constexpr unsigned int B2ConstraintGraph_TypeDefinitionIndex = 35928;
 
 	struct alignas(8) B2ConstraintGraph
 	{

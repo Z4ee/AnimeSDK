@@ -2,25 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_624;
+class Class_0_16E4307DCC419505_660;
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define CLASS_1_ED08D5C0F3E4BD73___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x14CDCD00)
-#define CLASS_1_ED08D5C0F3E4BD73___C__CTOR_OFFSET UNITYSDK_OFFSET(0x14CDCD40)
-#define CLASS_1_ED08D5C0F3E4BD73___C__SKIPVIRTUALTIMETABLETONEXTSUBWAYARRIVED_B__25_0_OFFSET UNITYSDK_OFFSET(0x14CDCD50)
+#define CLASS_1_ED08D5C0F3E4BD73___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x16BF8810)
+#define CLASS_1_ED08D5C0F3E4BD73___C__CTOR_OFFSET UNITYSDK_OFFSET(0x16BF8850)
+#define CLASS_1_ED08D5C0F3E4BD73___C__SKIPVIRTUALTIMETABLETONEXTSUBWAYARRIVED_B__25_0_OFFSET UNITYSDK_OFFSET(0x16BF8860)
 
-inline static constexpr unsigned int Class_1_ED08D5C0F3E4BD73___c_TypeDefinitionIndex = 57162;
+inline static constexpr unsigned int Class_1_ED08D5C0F3E4BD73___c_TypeDefinitionIndex = 59960;
 
 class Class_1_ED08D5C0F3E4BD73___c : public ::System::Object
 {
 public:
-	static ::System::Func_2<::Class_0_16E4307DCC419505_624*, ::System::Boolean>** StaticGet___9__25_0()
+	static ::System::Func_2<::Class_0_16E4307DCC419505_660*, ::System::Boolean>** StaticGet___9__25_0()
 	{
-		return (::System::Func_2<::Class_0_16E4307DCC419505_624*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_ED08D5C0F3E4BD73___c_TypeDefinitionIndex)->GetStaticField(0x6B980);
+		return (::System::Func_2<::Class_0_16E4307DCC419505_660*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_ED08D5C0F3E4BD73___c_TypeDefinitionIndex)->GetStaticField(0x676B0);
 	}
 	static ::Class_1_ED08D5C0F3E4BD73___c** StaticGet___9()
 	{
-		return (::Class_1_ED08D5C0F3E4BD73___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_ED08D5C0F3E4BD73___c_TypeDefinitionIndex)->GetStaticField(0x6B988);
+		return (::Class_1_ED08D5C0F3E4BD73___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_ED08D5C0F3E4BD73___c_TypeDefinitionIndex)->GetStaticField(0x676B8);
 	}
 
 	static ::System::Void _cctor()
@@ -33,8 +33,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_ED08D5C0F3E4BD73___C__CTOR_OFFSET))(this);
 	}
 
-	::System::Boolean _SkipVirtualTimetableToNextSubwayArrived_b__25_0(::Class_0_16E4307DCC419505_624* a1)
+	::System::Boolean _SkipVirtualTimetableToNextSubwayArrived_b__25_0(::Class_0_16E4307DCC419505_660* a1)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::Class_0_16E4307DCC419505_624*))((::PBYTE)hIl2Cpp + CLASS_1_ED08D5C0F3E4BD73___C__SKIPVIRTUALTIMETABLETONEXTSUBWAYARRIVED_B__25_0_OFFSET))(this, a1);
+		return ((::System::Boolean(*)(::PVOID, ::Class_0_16E4307DCC419505_660*))((::PBYTE)hIl2Cpp + CLASS_1_ED08D5C0F3E4BD73___C__SKIPVIRTUALTIMETABLETONEXTSUBWAYARRIVED_B__25_0_OFFSET))(this, a1);
 	}
 };

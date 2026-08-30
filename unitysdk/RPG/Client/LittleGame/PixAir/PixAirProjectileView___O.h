@@ -7,14 +7,14 @@ namespace System { template <typename T> class Action_1; }
 
 namespace RPG::Client::LittleGame::PixAir
 {
-	inline static constexpr unsigned int PixAirProjectileView___O_TypeDefinitionIndex = 73376;
+	inline static constexpr unsigned int PixAirProjectileView___O_TypeDefinitionIndex = 76855;
 
 	class PixAirProjectileView___O : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::RPG::Client::MonoEffect*>** StaticGet__0____OnTrackedHitEffectRemoved()
 		{
-			return (::System::Action_1<::RPG::Client::MonoEffect*>**)Il2CppClass::FromTypeDefinitionIndex(PixAirProjectileView___O_TypeDefinitionIndex)->GetStaticField(0x3D2B0);
+			return (::System::Action_1<::RPG::Client::MonoEffect*>**)Il2CppClass::FromTypeDefinitionIndex(PixAirProjectileView___O_TypeDefinitionIndex)->GetStaticField(0x63840);
 		}
 	};
 }

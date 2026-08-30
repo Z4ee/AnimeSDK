@@ -14,14 +14,14 @@ namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Shader; }
 namespace UnityEngine { class Texture2D; }
 
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPFACESPECIALEYE_INIT_OFFSET UNITYSDK_OFFSET(0x19114120)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPFACESPECIALEYE_UNINIT_OFFSET UNITYSDK_OFFSET(0x191148C0)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPFACESPECIALEYE_UPDATEPROPERTY_OFFSET UNITYSDK_OFFSET(0x191141C0)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPFACESPECIALEYE__CTOR_OFFSET UNITYSDK_OFFSET(0x19114910)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPFACESPECIALEYE_INIT_OFFSET UNITYSDK_OFFSET(0x116B6560)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPFACESPECIALEYE_UNINIT_OFFSET UNITYSDK_OFFSET(0x116B6D00)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPFACESPECIALEYE_UPDATEPROPERTY_OFFSET UNITYSDK_OFFSET(0x116B6600)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPFACESPECIALEYE__CTOR_OFFSET UNITYSDK_OFFSET(0x116B6D50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginCharaPropFaceSpecialEye_TypeDefinitionIndex = 66826;
+	inline static constexpr unsigned int MonoEffectPluginCharaPropFaceSpecialEye_TypeDefinitionIndex = 69928;
 
 	class MonoEffectPluginCharaPropFaceSpecialEye : public ::RPG::Client::MonoEffectPluginCharaPropBase
 	{
@@ -42,7 +42,7 @@ namespace RPG::Client
 		::UnityEngine::Color _EyeSPColor2; // 0x94
 		::System::Boolean Toggle_SpecialEyeIntensity; // 0xA4
 		::System::Single _SpecialEyeIntensity; // 0xA8
-		::Il2CppArray<::System::Boolean>* Field_6_16; // 0xB0
+		::Il2CppArray<::System::Boolean>* LELIECLCFCB; // 0xB0
 
 		::System::Void _ctor()
 		{

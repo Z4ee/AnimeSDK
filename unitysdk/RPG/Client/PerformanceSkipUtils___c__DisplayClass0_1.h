@@ -5,12 +5,12 @@
 namespace RPG::Client { class PerformanceSkipUtils___c__DisplayClass0_0; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_PERFORMANCESKIPUTILS___C__DISPLAYCLASS0_1__CTOR_OFFSET UNITYSDK_OFFSET(0x17F44380)
-#define RPG_CLIENT_PERFORMANCESKIPUTILS___C__DISPLAYCLASS0_1__SHOWPERFORMANCESKIPDIALOG_B__2_OFFSET UNITYSDK_OFFSET(0x17F44D60)
+#define RPG_CLIENT_PERFORMANCESKIPUTILS___C__DISPLAYCLASS0_1__CTOR_OFFSET UNITYSDK_OFFSET(0x18656570)
+#define RPG_CLIENT_PERFORMANCESKIPUTILS___C__DISPLAYCLASS0_1__SHOWPERFORMANCESKIPDIALOG_B__2_OFFSET UNITYSDK_OFFSET(0x18656F50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PerformanceSkipUtils___c__DisplayClass0_1_TypeDefinitionIndex = 58014;
+	inline static constexpr unsigned int PerformanceSkipUtils___c__DisplayClass0_1_TypeDefinitionIndex = 60841;
 
 	class PerformanceSkipUtils___c__DisplayClass0_1 : public ::System::Object
 	{

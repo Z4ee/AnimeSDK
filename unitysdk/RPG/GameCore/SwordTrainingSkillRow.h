@@ -8,31 +8,31 @@ namespace RPG::GameCore { class AvatarPropertyValue; }
 namespace RPG::GameCore { class ItemConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SWORDTRAININGSKILLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B441060)
-#define RPG_GAMECORE_SWORDTRAININGSKILLROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B441630)
+#define RPG_GAMECORE_SWORDTRAININGSKILLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E159A60)
+#define RPG_GAMECORE_SWORDTRAININGSKILLROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1E15A030)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SwordTrainingSkillRow_TypeDefinitionIndex = 11970;
+	inline static constexpr unsigned int SwordTrainingSkillRow_TypeDefinitionIndex = 12359;
 
 	class SwordTrainingSkillRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* NextSkillIDList; // 0x10
-		::RPG::GameCore::ItemConfig* Cost; // 0x18
-		::System::String* SkillIcon; // 0x20
-		::Il2CppArray<::RPG::GameCore::AvatarPropertyValue*>* AvatarStatusAddList; // 0x28
-		::Il2CppArray<::System::Single>* ParamList; // 0x30
-		::System::UInt32 Rare; // 0x38
-		::System::UInt32 SkillStatusLevel; // 0x3C
-		::System::UInt32 Condition; // 0x40
-		::System::UInt32 MazeBuffID; // 0x44
-		::System::UInt32 SkillPower; // 0x48
-		::System::UInt32 SkillRank; // 0x4C
-		::System::UInt32 SkillID; // 0x50
-		::System::UInt32 SkillTypeID; // 0x54
-		::RPG::Client::TextID SkillName; // 0x58
-		::RPG::Client::TextID SkillTag; // 0x68
+		::RPG::GameCore::ItemConfig* Cost; // 0x10
+		::Il2CppArray<::System::Single>* ParamList; // 0x18
+		::Il2CppArray<::RPG::GameCore::AvatarPropertyValue*>* AvatarStatusAddList; // 0x20
+		::System::String* SkillIcon; // 0x28
+		::Il2CppArray<::System::UInt32>* NextSkillIDList; // 0x30
+		::RPG::Client::TextID SkillName; // 0x38
+		::System::UInt32 SkillID; // 0x48
+		::System::UInt32 SkillStatusLevel; // 0x4C
+		::System::UInt32 SkillPower; // 0x50
+		::System::UInt32 Rare; // 0x54
+		::System::UInt32 Condition; // 0x58
+		::System::UInt32 MazeBuffID; // 0x5C
+		::RPG::Client::TextID SkillTag; // 0x60
+		::System::UInt32 SkillTypeID; // 0x70
+		::System::UInt32 SkillRank; // 0x74
 		::RPG::Client::TextID SkillDesc; // 0x78
 
 		::System::Void _ctor()

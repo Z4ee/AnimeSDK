@@ -6,17 +6,17 @@ namespace RPG::GameCore { class AdventureCharacterController; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TransformComponent; }
 
-#define CLASS_1_7F77701ED75B8609_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16DD7700)
-#define CLASS_1_7F77701ED75B8609_METHOD_1_D9C3E402C00F5385_OFFSET UNITYSDK_OFFSET(0x16DD72C0)
-#define CLASS_1_7F77701ED75B8609__CTOR_OFFSET UNITYSDK_OFFSET(0x16DD7270)
+#define CLASS_1_7F77701ED75B8609_DISPOSE_OFFSET UNITYSDK_OFFSET(0x169E0630)
+#define CLASS_1_7F77701ED75B8609_METHOD_1_D9C3E402C00F5385_OFFSET UNITYSDK_OFFSET(0x169E01F0)
+#define CLASS_1_7F77701ED75B8609__CTOR_OFFSET UNITYSDK_OFFSET(0x169E01A0)
 
-inline static constexpr unsigned int Class_1_7F77701ED75B8609_TypeDefinitionIndex = 74551;
+inline static constexpr unsigned int Class_1_7F77701ED75B8609_TypeDefinitionIndex = 78036;
 
 class Class_1_7F77701ED75B8609 : public ::System::Object
 {
 public:
-	::RPG::GameCore::AdventureCharacterController* Field_1_0; // 0x10
-	::RPG::GameCore::TransformComponent* Field_1_1; // 0x18
+	::RPG::GameCore::AdventureCharacterController* CACEADPJLPB; // 0x10
+	::RPG::GameCore::TransformComponent* NIDHDAOGNKO; // 0x18
 
 	::System::Void _ctor(::RPG::GameCore::GameEntity* a1)
 	{

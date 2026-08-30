@@ -8,27 +8,27 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_AMPHOREUSTAROTDATA_GETEFFECTDESC_OFFSET UNITYSDK_OFFSET(0x19D1C600)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_AMPHOREUSTAROTDATA_GETFULLDESC_OFFSET UNITYSDK_OFFSET(0x19D1C420)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_AMPHOREUSTAROTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19D1BE00)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_AMPHOREUSTAROTDATA_GETEFFECTDESC_OFFSET UNITYSDK_OFFSET(0x1B9017E0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_AMPHOREUSTAROTDATA_GETFULLDESC_OFFSET UNITYSDK_OFFSET(0x1B901600)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_AMPHOREUSTAROTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B900FE0)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int AmphoreusTarotData_TypeDefinitionIndex = 71805;
+	inline static constexpr unsigned int AmphoreusTarotData_TypeDefinitionIndex = 75111;
 
 	class AmphoreusTarotData : public ::System::Object
 	{
 	public:
-		::System::String* AbilityName; // 0x10
+		::System::String* SmallIconPath; // 0x10
 		::System::Collections::Generic::List_1<::RPG::GameCore::FixPoint>* AbilityParams; // 0x18
 		::System::String* IconPath; // 0x20
-		::System::String* SmallIconPath; // 0x28
-		::RPG::Client::TextID Desc; // 0x30
-		::RPG::GameCore::GenderType GenderLimit; // 0x40
-		::System::UInt32 TriggerNodeId; // 0x44
-		::RPG::Client::TextID Name; // 0x48
-		::System::UInt32 ID; // 0x58
-		::System::UInt32 TriggerChapterId; // 0x5C
+		::System::String* AbilityName; // 0x28
+		::RPG::GameCore::GenderType GenderLimit; // 0x30
+		::System::UInt32 ID; // 0x34
+		::RPG::Client::TextID Name; // 0x38
+		::System::UInt32 TriggerChapterId; // 0x48
+		::System::UInt32 TriggerNodeId; // 0x4C
+		::RPG::Client::TextID Desc; // 0x50
 
 		::System::Void _ctor()
 		{

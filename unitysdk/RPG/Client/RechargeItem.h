@@ -6,11 +6,11 @@ namespace RPG::Client { class ItemDisplayData; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_RECHARGEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x19858AB0)
+#define RPG_CLIENT_RECHARGEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6485A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RechargeItem_TypeDefinitionIndex = 63478;
+	inline static constexpr unsigned int RechargeItem_TypeDefinitionIndex = 66463;
 
 	class RechargeItem : public ::System::Object
 	{

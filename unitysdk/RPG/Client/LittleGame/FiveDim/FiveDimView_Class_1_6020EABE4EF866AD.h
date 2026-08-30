@@ -9,29 +9,29 @@ namespace System { class String; }
 namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMVIEW_CLASS_1_6020EABE4EF866AD_CLEAR_OFFSET UNITYSDK_OFFSET(0x18A09F30)
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMVIEW_CLASS_1_6020EABE4EF866AD__CTOR_OFFSET UNITYSDK_OFFSET(0x18A09F90)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMVIEW_CLASS_1_6020EABE4EF866AD_CLEAR_OFFSET UNITYSDK_OFFSET(0x1B1B41E0)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMVIEW_CLASS_1_6020EABE4EF866AD__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1B4240)
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int FiveDimView_Class_1_6020EABE4EF866AD_TypeDefinitionIndex = 73245;
+	inline static constexpr unsigned int FiveDimView_Class_1_6020EABE4EF866AD_TypeDefinitionIndex = 76721;
 
 	class FiveDimView_Class_1_6020EABE4EF866AD : public ::System::Object
 	{
 	public:
-		::FiveDimRenderingItem* Field_1_0; // 0x10
-		::UnityEngine::Transform* Field_1_1; // 0x18
-		::UnityEngine::Transform* Field_1_2; // 0x20
-		::UnityEngine::Renderer* Field_1_3; // 0x28
-		::System::String* Field_1_4; // 0x30
-		::UnityEngine::Vector3 Field_1_5; // 0x38
-		::System::Boolean Field_1_6; // 0x44
-		::System::Boolean Field_1_7; // 0x45
-		::System::Boolean Field_1_8; // 0x46
-		::System::Boolean Field_1_9; // 0x47
-		::System::Boolean Field_1_10; // 0x48
-		::System::Boolean Field_1_11; // 0x49
-		::UnityEngine::Quaternion Field_1_12; // 0x4C
+		::FiveDimRenderingItem* ODEKPKCDCJJ; // 0x10
+		::UnityEngine::Transform* PLEHLKEICMD; // 0x18
+		::UnityEngine::Renderer* ONEFCLJPGLE; // 0x20
+		::System::String* AHCPFFKPOMG; // 0x28
+		::UnityEngine::Transform* DICDJJOJKGF; // 0x30
+		::System::Boolean NMKBHPCCGOJ; // 0x38
+		::System::Boolean LGNDLIGICAH; // 0x39
+		::System::Boolean JCEBFAEIBFJ; // 0x3A
+		::System::Boolean GFNOCJNENHI; // 0x3B
+		::System::Boolean MCMPDHLFNPG; // 0x3C
+		::System::Boolean OMEPBAIGEJN; // 0x3D
+		::UnityEngine::Quaternion NDBGHJDHFLH; // 0x40
+		::UnityEngine::Vector3 HONCCBNOKHB; // 0x50
 
 		::System::Void _ctor()
 		{

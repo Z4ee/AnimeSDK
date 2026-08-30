@@ -5,12 +5,12 @@
 
 namespace RPG::Client { class MatchThreeBoardEnv; }
 
-#define RPG_CLIENT_MATCHTHREEBOARDENV___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8977F0)
-#define RPG_CLIENT_MATCHTHREEBOARDENV___C__DISPLAYCLASS7_0__SETGRIDTAG_B__0_OFFSET UNITYSDK_OFFSET(0x1A897B60)
+#define RPG_CLIENT_MATCHTHREEBOARDENV___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C268A70)
+#define RPG_CLIENT_MATCHTHREEBOARDENV___C__DISPLAYCLASS7_0__SETGRIDTAG_B__0_OFFSET UNITYSDK_OFFSET(0x1C268DE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MatchThreeBoardEnv___c__DisplayClass7_0_TypeDefinitionIndex = 62989;
+	inline static constexpr unsigned int MatchThreeBoardEnv___c__DisplayClass7_0_TypeDefinitionIndex = 65974;
 
 	class MatchThreeBoardEnv___c__DisplayClass7_0 : public ::System::Object
 	{

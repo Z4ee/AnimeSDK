@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int TRFMoveState_TypeDefinitionIndex = 40259;
+	inline static constexpr unsigned int TRFMoveState_TypeDefinitionIndex = 41138;
 
 	enum class TRFMoveState : ::System::Int32
 	{

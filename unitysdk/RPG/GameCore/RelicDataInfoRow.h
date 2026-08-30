@@ -6,20 +6,20 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_RELICDATAINFOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B9C5AC0)
-#define RPG_GAMECORE_RELICDATAINFOROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9C6280)
+#define RPG_GAMECORE_RELICDATAINFOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB83880)
+#define RPG_GAMECORE_RELICDATAINFOROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB84040)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RelicDataInfoRow_TypeDefinitionIndex = 14063;
+	inline static constexpr unsigned int RelicDataInfoRow_TypeDefinitionIndex = 14483;
 
 	class RelicDataInfoRow : public ::System::Object
 	{
 	public:
-		::System::String* IconPath; // 0x10
-		::System::String* RelicName; // 0x18
-		::System::String* BGStoryContent; // 0x20
-		::System::String* ItemFigureIconPath; // 0x28
+		::System::String* ItemFigureIconPath; // 0x10
+		::System::String* BGStoryContent; // 0x18
+		::System::String* IconPath; // 0x20
+		::System::String* RelicName; // 0x28
 		::System::String* BGStoryTitle; // 0x30
 		::System::String* ItemBGDesc; // 0x38
 		::System::UInt32 SetID; // 0x40

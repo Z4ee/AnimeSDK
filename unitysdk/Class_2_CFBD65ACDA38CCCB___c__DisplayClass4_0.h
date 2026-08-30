@@ -5,16 +5,16 @@
 class Class_2_CFBD65ACDA38CCCB;
 namespace RPG::Client { class PlayGoManager; }
 
-#define CLASS_2_CFBD65ACDA38CCCB___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0xF180E30)
-#define CLASS_2_CFBD65ACDA38CCCB___C__DISPLAYCLASS4_0__ONPLAYGOFINISH_B__0_OFFSET UNITYSDK_OFFSET(0xF180F80)
+#define CLASS_2_CFBD65ACDA38CCCB___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1066DBA0)
+#define CLASS_2_CFBD65ACDA38CCCB___C__DISPLAYCLASS4_0__ONPLAYGOFINISH_B__0_OFFSET UNITYSDK_OFFSET(0x1066DCF0)
 
-inline static constexpr unsigned int Class_2_CFBD65ACDA38CCCB___c__DisplayClass4_0_TypeDefinitionIndex = 56051;
+inline static constexpr unsigned int Class_2_CFBD65ACDA38CCCB___c__DisplayClass4_0_TypeDefinitionIndex = 58826;
 
 class Class_2_CFBD65ACDA38CCCB___c__DisplayClass4_0 : public ::System::Object
 {
 public:
-	::RPG::Client::PlayGoManager* manager; // 0x10
-	::Class_2_CFBD65ACDA38CCCB* __4__this; // 0x18
+	::Class_2_CFBD65ACDA38CCCB* __4__this; // 0x10
+	::RPG::Client::PlayGoManager* manager; // 0x18
 
 	::System::Void _ctor()
 	{

@@ -4,22 +4,22 @@
 
 namespace UnityEngine::Events { class UnityAction; }
 
-#define CLASS_2_D8A9B7E75FE2A68B___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17329D10)
-#define CLASS_2_D8A9B7E75FE2A68B___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17329D50)
-#define CLASS_2_D8A9B7E75FE2A68B___C___ONBINDHANDLERS_B__6_0_OFFSET UNITYSDK_OFFSET(0x17329D60)
+#define CLASS_2_D8A9B7E75FE2A68B___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x16EEAD00)
+#define CLASS_2_D8A9B7E75FE2A68B___C__CTOR_OFFSET UNITYSDK_OFFSET(0x16EEAD40)
+#define CLASS_2_D8A9B7E75FE2A68B___C___ONBINDHANDLERS_B__6_0_OFFSET UNITYSDK_OFFSET(0x16EEAD50)
 
-inline static constexpr unsigned int Class_2_D8A9B7E75FE2A68B___c_TypeDefinitionIndex = 69079;
+inline static constexpr unsigned int Class_2_D8A9B7E75FE2A68B___c_TypeDefinitionIndex = 72278;
 
 class Class_2_D8A9B7E75FE2A68B___c : public ::System::Object
 {
 public:
 	static ::Class_2_D8A9B7E75FE2A68B___c** StaticGet___9()
 	{
-		return (::Class_2_D8A9B7E75FE2A68B___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_D8A9B7E75FE2A68B___c_TypeDefinitionIndex)->GetStaticField(0x47AE0);
+		return (::Class_2_D8A9B7E75FE2A68B___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_D8A9B7E75FE2A68B___c_TypeDefinitionIndex)->GetStaticField(0x3740);
 	}
 	static ::UnityEngine::Events::UnityAction** StaticGet___9__6_0()
 	{
-		return (::UnityEngine::Events::UnityAction**)Il2CppClass::FromTypeDefinitionIndex(Class_2_D8A9B7E75FE2A68B___c_TypeDefinitionIndex)->GetStaticField(0x47AE8);
+		return (::UnityEngine::Events::UnityAction**)Il2CppClass::FromTypeDefinitionIndex(Class_2_D8A9B7E75FE2A68B___c_TypeDefinitionIndex)->GetStaticField(0x3748);
 	}
 
 	static ::System::Void _cctor()

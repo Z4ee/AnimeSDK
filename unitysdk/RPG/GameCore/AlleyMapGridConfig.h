@@ -11,12 +11,12 @@ namespace RPG::GameCore { class AlleyWalkableGridItemData; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ALLEYMAPGRIDCONFIG_METHOD_2_14B742DA12109809_OFFSET UNITYSDK_OFFSET(0x1AE7C260)
-#define RPG_GAMECORE_ALLEYMAPGRIDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE7C5C0)
+#define RPG_GAMECORE_ALLEYMAPGRIDCONFIG_METHOD_2_14B742DA12109809_OFFSET UNITYSDK_OFFSET(0x1C560160)
+#define RPG_GAMECORE_ALLEYMAPGRIDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5604C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AlleyMapGridConfig_TypeDefinitionIndex = 15071;
+	inline static constexpr unsigned int AlleyMapGridConfig_TypeDefinitionIndex = 15508;
 
 	class AlleyMapGridConfig : public ::RPG::GameCore::JsonConfig
 	{

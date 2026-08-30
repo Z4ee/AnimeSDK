@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Mono/Net/CFObject.h"
 
-#define MONO_NET_CFNUMBER_ASINT32_OFFSET UNITYSDK_OFFSET(0x1A840160)
-#define MONO_NET_CFNUMBER_CFNUMBERGETVALUE_OFFSET UNITYSDK_OFFSET(0x1A8400C0)
+#define MONO_NET_CFNUMBER_ASINT32_OFFSET UNITYSDK_OFFSET(0x1C472740)
+#define MONO_NET_CFNUMBER_CFNUMBERGETVALUE_OFFSET UNITYSDK_OFFSET(0x1C4726A0)
 
 namespace Mono::Net
 {
-	inline static constexpr unsigned int CFNumber_TypeDefinitionIndex = 2400;
+	inline static constexpr unsigned int CFNumber_TypeDefinitionIndex = 2407;
 
 	class CFNumber : public ::Mono::Net::CFObject
 	{

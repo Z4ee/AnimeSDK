@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByIsInAnimZone; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_0C03194077AC69F4_EVALUATE_OFFSET UNITYSDK_OFFSET(0x157CD480)
-#define CLASS_3_0C03194077AC69F4__CTOR_OFFSET UNITYSDK_OFFSET(0x157CD450)
+#define CLASS_3_0C03194077AC69F4_EVALUATE_OFFSET UNITYSDK_OFFSET(0x18118750)
+#define CLASS_3_0C03194077AC69F4__CTOR_OFFSET UNITYSDK_OFFSET(0x18118720)
 
-inline static constexpr unsigned int Class_3_0C03194077AC69F4_TypeDefinitionIndex = 50722;
+inline static constexpr unsigned int Class_3_0C03194077AC69F4_TypeDefinitionIndex = 53404;
 
 class Class_3_0C03194077AC69F4 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByIsInAnimZone*>
 {

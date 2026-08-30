@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByTargetInCameraScreenScope; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_36C5AA504776671C_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1165AA40)
-#define CLASS_3_36C5AA504776671C__CTOR_OFFSET UNITYSDK_OFFSET(0x1165AA10)
+#define CLASS_3_36C5AA504776671C_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16FB5DF0)
+#define CLASS_3_36C5AA504776671C__CTOR_OFFSET UNITYSDK_OFFSET(0x16FB5DC0)
 
-inline static constexpr unsigned int Class_3_36C5AA504776671C_TypeDefinitionIndex = 52241;
+inline static constexpr unsigned int Class_3_36C5AA504776671C_TypeDefinitionIndex = 54928;
 
 class Class_3_36C5AA504776671C : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByTargetInCameraScreenScope*>
 {

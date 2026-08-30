@@ -3,12 +3,13 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PauseRegionManagerReason_TypeDefinitionIndex = 59425;
+	inline static constexpr unsigned int PauseRegionManagerReason_TypeDefinitionIndex = 62264;
 
 	enum class PauseRegionManagerReason : ::System::Int32
 	{
 		Default = 0,
 		Puzzle = 1,
 		LeaveDefaultArea = 2,
+		FiveDim = 3,
 	};
 }

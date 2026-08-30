@@ -7,24 +7,24 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class AvatarPropertyValue; }
 
-#define RPG_GAMECORE_GRIDFIGHTTRAITOLDLAYERCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D07D5C0)
-#define RPG_GAMECORE_GRIDFIGHTTRAITOLDLAYERCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D07D8B0)
+#define RPG_GAMECORE_GRIDFIGHTTRAITOLDLAYERCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3BF6E0)
+#define RPG_GAMECORE_GRIDFIGHTTRAITOLDLAYERCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3BF9D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightTraitOldLayerConfigRow_TypeDefinitionIndex = 13205;
+	inline static constexpr unsigned int GridFightTraitOldLayerConfigRow_TypeDefinitionIndex = 13596;
 
 	class GridFightTraitOldLayerConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::AvatarPropertyValue*>* AllMemberPropertyList; // 0x10
 		::Il2CppArray<::RPG::GameCore::AvatarPropertyValue*>* TraitMemberPropertyList; // 0x18
-		::System::UInt32 MazebuffID; // 0x20
-		::RPG::GameCore::GridFightPropertyBindType PropertyBindType; // 0x24
-		::System::UInt32 ExistSeason; // 0x28
-		::System::UInt32 Layer; // 0x2C
-		::RPG::GameCore::GridFightTrailLayerQuality Quality; // 0x30
-		::System::UInt32 TraitID; // 0x34
+		::System::UInt32 Layer; // 0x20
+		::System::UInt32 ExistSeason; // 0x24
+		::RPG::GameCore::GridFightTrailLayerQuality Quality; // 0x28
+		::RPG::GameCore::GridFightPropertyBindType PropertyBindType; // 0x2C
+		::System::UInt32 TraitID; // 0x30
+		::System::UInt32 MazebuffID; // 0x34
 
 		::System::Void _ctor()
 		{

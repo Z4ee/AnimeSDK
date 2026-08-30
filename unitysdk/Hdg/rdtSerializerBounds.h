@@ -8,22 +8,22 @@ namespace Hdg { class rdtSerializerVector3; }
 namespace System::IO { class BinaryReader; }
 namespace System::IO { class BinaryWriter; }
 
-#define HDG_RDTSERIALIZERBOUNDS_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1534DE20)
-#define HDG_RDTSERIALIZERBOUNDS_READ_OFFSET UNITYSDK_OFFSET(0x1534E0A0)
-#define HDG_RDTSERIALIZERBOUNDS_TOUNITYTYPE_OFFSET UNITYSDK_OFFSET(0x1534DD90)
-#define HDG_RDTSERIALIZERBOUNDS_WRITE_OFFSET UNITYSDK_OFFSET(0x1534DED0)
-#define HDG_RDTSERIALIZERBOUNDS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1534DCD0)
-#define HDG_RDTSERIALIZERBOUNDS__CTOR_OFFSET UNITYSDK_OFFSET(0x1534DCC0)
+#define HDG_RDTSERIALIZERBOUNDS_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x16A67710)
+#define HDG_RDTSERIALIZERBOUNDS_READ_OFFSET UNITYSDK_OFFSET(0x16A67960)
+#define HDG_RDTSERIALIZERBOUNDS_TOUNITYTYPE_OFFSET UNITYSDK_OFFSET(0x16A67680)
+#define HDG_RDTSERIALIZERBOUNDS_WRITE_OFFSET UNITYSDK_OFFSET(0x16A67790)
+#define HDG_RDTSERIALIZERBOUNDS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x16A675C0)
+#define HDG_RDTSERIALIZERBOUNDS__CTOR_OFFSET UNITYSDK_OFFSET(0x16A675B0)
 
 namespace Hdg
 {
-	inline static constexpr unsigned int rdtSerializerBounds_TypeDefinitionIndex = 45177;
+	inline static constexpr unsigned int rdtSerializerBounds_TypeDefinitionIndex = 47413;
 
 	class rdtSerializerBounds : public ::System::Object
 	{
 	public:
-		::Hdg::rdtSerializerVector3* size; // 0x10
-		::Hdg::rdtSerializerVector3* centre; // 0x18
+		::Hdg::rdtSerializerVector3* centre; // 0x10
+		::Hdg::rdtSerializerVector3* size; // 0x18
 
 		::System::Void _ctor()
 		{

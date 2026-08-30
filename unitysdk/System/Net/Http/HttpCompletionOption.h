@@ -3,7 +3,7 @@
 
 namespace System::Net::Http
 {
-	inline static constexpr unsigned int HttpCompletionOption_TypeDefinitionIndex = 3755;
+	inline static constexpr unsigned int HttpCompletionOption_TypeDefinitionIndex = 3763;
 
 	enum class HttpCompletionOption : ::System::Int32
 	{

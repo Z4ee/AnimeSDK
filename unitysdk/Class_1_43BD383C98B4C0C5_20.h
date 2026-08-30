@@ -8,10 +8,10 @@ class Class_1_E750E5E5D854E770;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define CLASS_1_43BD383C98B4C0C5_20_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1D242890)
-#define CLASS_1_43BD383C98B4C0C5_20__CTOR_OFFSET UNITYSDK_OFFSET(0x1D242C60)
+#define CLASS_1_43BD383C98B4C0C5_20_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EF337F0)
+#define CLASS_1_43BD383C98B4C0C5_20__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF33BC0)
 
-inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_20_TypeDefinitionIndex = 39456;
+inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_20_TypeDefinitionIndex = 40329;
 
 class Class_1_43BD383C98B4C0C5_20 : public ::System::Object
 {

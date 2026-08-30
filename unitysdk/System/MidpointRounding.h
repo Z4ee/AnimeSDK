@@ -3,7 +3,7 @@
 
 namespace System
 {
-	inline static constexpr unsigned int MidpointRounding_TypeDefinitionIndex = 295;
+	inline static constexpr unsigned int MidpointRounding_TypeDefinitionIndex = 298;
 
 	enum class MidpointRounding : ::System::Int32
 	{

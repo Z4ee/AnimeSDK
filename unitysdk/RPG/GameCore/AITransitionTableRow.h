@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_AITRANSITIONTABLEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B9F64F0)
-#define RPG_GAMECORE_AITRANSITIONTABLEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9F6640)
+#define RPG_GAMECORE_AITRANSITIONTABLEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D324F10)
+#define RPG_GAMECORE_AITRANSITIONTABLEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D325060)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AITransitionTableRow_TypeDefinitionIndex = 14879;
+	inline static constexpr unsigned int AITransitionTableRow_TypeDefinitionIndex = 15315;
 
 	class AITransitionTableRow : public ::RPG::GameCore::JsonConfig
 	{

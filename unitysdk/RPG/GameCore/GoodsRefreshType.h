@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GoodsRefreshType_TypeDefinitionIndex = 14821;
+	inline static constexpr unsigned int GoodsRefreshType_TypeDefinitionIndex = 15257;
 
 	enum class GoodsRefreshType : ::System::Int32
 	{

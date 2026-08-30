@@ -9,18 +9,18 @@
 
 namespace RPG::Client { class AvatarRootMotionBakedData; }
 namespace RPG::Client { class CharacterRootMotionBakedData; }
-namespace RPG::Client { class MovementStoppedRootMotionBakedData_Class_1_3B76E13757985C28_2; }
+namespace RPG::Client { class MovementStoppedRootMotionBakedData_Class_1_3B76E13757985C28_3; }
 namespace RPG::Client { class NPCRootMotionBakedData; }
 namespace RPG::GameCore { class AdventureCharacterConfig; }
 
-#define RPG_CLIENT_ROOTMOTIONBAKEDCONFIG_AWAKE_OFFSET UNITYSDK_OFFSET(0x184E94E0)
-#define RPG_CLIENT_ROOTMOTIONBAKEDCONFIG_METHOD_3_25C60997F67081D0_OFFSET UNITYSDK_OFFSET(0x184E95C0)
-#define RPG_CLIENT_ROOTMOTIONBAKEDCONFIG_METHOD_3_FD85CB2CDB273EE8_OFFSET UNITYSDK_OFFSET(0x184E96B0)
-#define RPG_CLIENT_ROOTMOTIONBAKEDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x184E98B0)
+#define RPG_CLIENT_ROOTMOTIONBAKEDCONFIG_AWAKE_OFFSET UNITYSDK_OFFSET(0x16A1CAB0)
+#define RPG_CLIENT_ROOTMOTIONBAKEDCONFIG_METHOD_3_25C60997F67081D0_OFFSET UNITYSDK_OFFSET(0x16A1CB90)
+#define RPG_CLIENT_ROOTMOTIONBAKEDCONFIG_METHOD_3_FD85CB2CDB273EE8_OFFSET UNITYSDK_OFFSET(0x16A1CC80)
+#define RPG_CLIENT_ROOTMOTIONBAKEDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16A1CE80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RootMotionBakedConfig_TypeDefinitionIndex = 57395;
+	inline static constexpr unsigned int RootMotionBakedConfig_TypeDefinitionIndex = 60197;
 
 	class RootMotionBakedConfig : public ::UnityEngine::ScriptableObject
 	{
@@ -43,9 +43,9 @@ namespace RPG::Client
 			return ((::RPG::Client::CharacterRootMotionBakedData*(*)(::PVOID, ::RPG::GameCore::BodySize, ::RPG::GameCore::NPCBodySize))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROOTMOTIONBAKEDCONFIG_METHOD_3_25C60997F67081D0_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean Method_3_FD85CB2CDB273EE8(::RPG::GameCore::AdventureCharacterConfig* a1, ::Struct_2_1ADED1EDA7578A33 a2, ::System::Single a3, ::RPG::GameCore::CharacterMotionFlag a4, ::System::Single a5, ::RPG::Client::MovementStoppedRootMotionBakedData_Class_1_3B76E13757985C28_2*& a6, ::RPG::Client::MovementStoppedRootMotionBakedData_RootMotionCurve& a7)
+		::System::Boolean Method_3_FD85CB2CDB273EE8(::RPG::GameCore::AdventureCharacterConfig* a1, ::Struct_2_1ADED1EDA7578A33 a2, ::System::Single a3, ::RPG::GameCore::CharacterMotionFlag a4, ::System::Single a5, ::RPG::Client::MovementStoppedRootMotionBakedData_Class_1_3B76E13757985C28_3*& a6, ::RPG::Client::MovementStoppedRootMotionBakedData_RootMotionCurve& a7)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::AdventureCharacterConfig*, ::Struct_2_1ADED1EDA7578A33, ::System::Single, ::RPG::GameCore::CharacterMotionFlag, ::System::Single, ::RPG::Client::MovementStoppedRootMotionBakedData_Class_1_3B76E13757985C28_2*&, ::RPG::Client::MovementStoppedRootMotionBakedData_RootMotionCurve&))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROOTMOTIONBAKEDCONFIG_METHOD_3_FD85CB2CDB273EE8_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::AdventureCharacterConfig*, ::Struct_2_1ADED1EDA7578A33, ::System::Single, ::RPG::GameCore::CharacterMotionFlag, ::System::Single, ::RPG::Client::MovementStoppedRootMotionBakedData_Class_1_3B76E13757985C28_3*&, ::RPG::Client::MovementStoppedRootMotionBakedData_RootMotionCurve&))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROOTMOTIONBAKEDCONFIG_METHOD_3_FD85CB2CDB273EE8_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 	};
 }

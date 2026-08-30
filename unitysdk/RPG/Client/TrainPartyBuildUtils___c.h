@@ -5,29 +5,29 @@
 namespace RPG::GameCore { class DynamicValue; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_TRAINPARTYBUILDUTILS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19891C00)
-#define RPG_CLIENT_TRAINPARTYBUILDUTILS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19891C40)
-#define RPG_CLIENT_TRAINPARTYBUILDUTILS___C__GET_DISPLAY_WALL_BADGE_SLOT_ID_ARRAY_B__40_0_OFFSET UNITYSDK_OFFSET(0x19891CB0)
-#define RPG_CLIENT_TRAINPARTYBUILDUTILS___C__GET_DISPLAY_WALL_PHOTO_SLOT_ID_ARRAY_B__38_0_OFFSET UNITYSDK_OFFSET(0x19891C50)
+#define RPG_CLIENT_TRAINPARTYBUILDUTILS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B2A18C0)
+#define RPG_CLIENT_TRAINPARTYBUILDUTILS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2A1900)
+#define RPG_CLIENT_TRAINPARTYBUILDUTILS___C__GET_DISPLAY_WALL_BADGE_SLOT_ID_ARRAY_B__40_0_OFFSET UNITYSDK_OFFSET(0x1B2A1970)
+#define RPG_CLIENT_TRAINPARTYBUILDUTILS___C__GET_DISPLAY_WALL_PHOTO_SLOT_ID_ARRAY_B__38_0_OFFSET UNITYSDK_OFFSET(0x1B2A1910)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TrainPartyBuildUtils___c_TypeDefinitionIndex = 65151;
+	inline static constexpr unsigned int TrainPartyBuildUtils___c_TypeDefinitionIndex = 68159;
 
 	class TrainPartyBuildUtils___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>** StaticGet___9__40_0()
 		{
-			return (::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(TrainPartyBuildUtils___c_TypeDefinitionIndex)->GetStaticField(0x47740);
+			return (::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(TrainPartyBuildUtils___c_TypeDefinitionIndex)->GetStaticField(0x5B620);
 		}
 		static ::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>** StaticGet___9__38_0()
 		{
-			return (::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(TrainPartyBuildUtils___c_TypeDefinitionIndex)->GetStaticField(0x47748);
+			return (::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(TrainPartyBuildUtils___c_TypeDefinitionIndex)->GetStaticField(0x5B628);
 		}
 		static ::RPG::Client::TrainPartyBuildUtils___c** StaticGet___9()
 		{
-			return (::RPG::Client::TrainPartyBuildUtils___c**)Il2CppClass::FromTypeDefinitionIndex(TrainPartyBuildUtils___c_TypeDefinitionIndex)->GetStaticField(0x47750);
+			return (::RPG::Client::TrainPartyBuildUtils___c**)Il2CppClass::FromTypeDefinitionIndex(TrainPartyBuildUtils___c_TypeDefinitionIndex)->GetStaticField(0x5B630);
 		}
 
 		static ::System::Void _cctor()

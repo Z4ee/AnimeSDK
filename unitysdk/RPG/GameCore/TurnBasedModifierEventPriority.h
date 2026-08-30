@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TurnBasedModifierEventPriority_TypeDefinitionIndex = 17506;
+	inline static constexpr unsigned int TurnBasedModifierEventPriority_TypeDefinitionIndex = 18023;
 
 	enum class TurnBasedModifierEventPriority : ::System::Int32
 	{
@@ -14,11 +14,13 @@ namespace RPG::GameCore
 		Phase2Priority = 4,
 		AfterAttackPriority = 5,
 		BeforeBeingHealPriority = 6,
-		ListenCharacterCreatePriority = 7,
-		ListenCharacterDiePriority = 8,
-		ListenCharmMakeDamagePriority = 9,
-		ListenElationTimeStartPriority = 10,
-		ListenElationTimeEndPriority = 11,
-		Count = 12,
+		BeforeElationEchoPointBuffAdd = 7,
+		ListenCharacterCreatePriority = 8,
+		ListenCharacterDiePriority = 9,
+		ListenCharmMakeDamagePriority = 10,
+		ListenElationTimeStartPriority = 11,
+		ListenElationTimeEndPriority = 12,
+		ListenBeforeElationEchoPointBuffAdd = 13,
+		Count = 14,
 	};
 }

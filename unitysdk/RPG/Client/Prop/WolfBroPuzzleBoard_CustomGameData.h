@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int WolfBroPuzzleBoard_CustomGameData_TypeDefinitionIndex = 74736;
+	inline static constexpr unsigned int WolfBroPuzzleBoard_CustomGameData_TypeDefinitionIndex = 78221;
 
 	struct alignas(8) WolfBroPuzzleBoard_CustomGameData
 	{

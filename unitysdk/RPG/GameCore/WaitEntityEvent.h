@@ -7,13 +7,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_WAITENTITYEVENT_METHOD_4_25F4188644BDA07C_OFFSET UNITYSDK_OFFSET(0x1B8A3620)
-#define RPG_GAMECORE_WAITENTITYEVENT_METHOD_4_5F92BE3098B54285_OFFSET UNITYSDK_OFFSET(0x1B8A35D0)
-#define RPG_GAMECORE_WAITENTITYEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8A3610)
+#define RPG_GAMECORE_WAITENTITYEVENT_METHOD_4_25F4188644BDA07C_OFFSET UNITYSDK_OFFSET(0x1DEB6E00)
+#define RPG_GAMECORE_WAITENTITYEVENT_METHOD_4_5F92BE3098B54285_OFFSET UNITYSDK_OFFSET(0x1DEB6DB0)
+#define RPG_GAMECORE_WAITENTITYEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1DEB6DF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitEntityEvent_TypeDefinitionIndex = 19935;
+	inline static constexpr unsigned int WaitEntityEvent_TypeDefinitionIndex = 20481;
 
 	class WaitEntityEvent : public ::RPG::GameCore::AdvWaitingEventBase
 	{

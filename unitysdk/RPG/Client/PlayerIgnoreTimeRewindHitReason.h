@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlayerIgnoreTimeRewindHitReason_TypeDefinitionIndex = 58102;
+	inline static constexpr unsigned int PlayerIgnoreTimeRewindHitReason_TypeDefinitionIndex = 60929;
 
 	enum class PlayerIgnoreTimeRewindHitReason : ::System::Int32
 	{

@@ -4,25 +4,25 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_9020F72EDDFB0B8B_METHOD_1_0C3DFBC2885BB875_OFFSET UNITYSDK_OFFSET(0x168700C0)
-#define CLASS_1_9020F72EDDFB0B8B_METHOD_1_1BF62643C808CAD8_OFFSET UNITYSDK_OFFSET(0x1686FD50)
-#define CLASS_1_9020F72EDDFB0B8B_METHOD_1_9FC94C65FC0FA27D_OFFSET UNITYSDK_OFFSET(0x1686FDB0)
-#define CLASS_1_9020F72EDDFB0B8B__CCTOR_OFFSET UNITYSDK_OFFSET(0x16870380)
-#define CLASS_1_9020F72EDDFB0B8B__CTOR_OFFSET UNITYSDK_OFFSET(0x168702D0)
+#define CLASS_1_9020F72EDDFB0B8B_METHOD_1_0C3DFBC2885BB875_OFFSET UNITYSDK_OFFSET(0x17E0EE00)
+#define CLASS_1_9020F72EDDFB0B8B_METHOD_1_1BF62643C808CAD8_OFFSET UNITYSDK_OFFSET(0x17E0EA90)
+#define CLASS_1_9020F72EDDFB0B8B_METHOD_1_9FC94C65FC0FA27D_OFFSET UNITYSDK_OFFSET(0x17E0EAF0)
+#define CLASS_1_9020F72EDDFB0B8B__CCTOR_OFFSET UNITYSDK_OFFSET(0x17E0F0C0)
+#define CLASS_1_9020F72EDDFB0B8B__CTOR_OFFSET UNITYSDK_OFFSET(0x17E0F010)
 
-inline static constexpr unsigned int Class_1_9020F72EDDFB0B8B_TypeDefinitionIndex = 45372;
+inline static constexpr unsigned int Class_1_9020F72EDDFB0B8B_TypeDefinitionIndex = 47618;
 
 class Class_1_9020F72EDDFB0B8B : public ::System::Object
 {
 public:
-	static ::System::Int32* StaticGet_Field_1_0()
+	static ::System::Int32* StaticGet_NEAJAFLCGCP()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_9020F72EDDFB0B8B_TypeDefinitionIndex)->GetStaticField(0x8470);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_9020F72EDDFB0B8B_TypeDefinitionIndex)->GetStaticField(0x143E0);
 	}
-	::System::Collections::Generic::List_1<::System::Int32>* Field_1_1; // 0x10
-	::Il2CppArray<::System::Single>* Field_1_2; // 0x18
-	::System::Collections::Generic::List_1<::System::Int32>* Field_1_3; // 0x20
-	::System::Int32 Field_1_4; // 0x28
+	::System::Collections::Generic::List_1<::System::Int32>* PPLBOGOCJGO; // 0x10
+	::Il2CppArray<::System::Single>* DCOPELFHOLO; // 0x18
+	::System::Collections::Generic::List_1<::System::Int32>* FHBGOMGAIMO; // 0x20
+	::System::Int32 HDHPNOOMAGE; // 0x28
 
 	::System::Void _ctor()
 	{

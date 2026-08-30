@@ -5,11 +5,11 @@
 namespace RPG::Client { class ItemDisplayData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_PLANETFESQUESTREWARD__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1BFE30)
+#define RPG_CLIENT_PLANETFESQUESTREWARD__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2B08A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlanetFesQuestReward_TypeDefinitionIndex = 63670;
+	inline static constexpr unsigned int PlanetFesQuestReward_TypeDefinitionIndex = 66655;
 
 	class PlanetFesQuestReward : public ::System::Object
 	{

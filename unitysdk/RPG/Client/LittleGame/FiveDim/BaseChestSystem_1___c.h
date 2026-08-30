@@ -8,7 +8,7 @@ namespace System { template <typename T1, typename T2> class Action_2; }
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int BaseChestSystem_1___c_TypeDefinitionIndex = 73120;
+	inline static constexpr unsigned int BaseChestSystem_1___c_TypeDefinitionIndex = 76596;
 
 	template <typename T>
 	class BaseChestSystem_1___c : public ::System::Object

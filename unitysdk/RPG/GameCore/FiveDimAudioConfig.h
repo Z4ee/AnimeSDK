@@ -7,12 +7,12 @@ namespace RPG::GameCore { class FiveDimEmotionConfig; }
 namespace RPG::GameCore { class FiveDimRTPCConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMAUDIOCONFIG_METHOD_2_6073BE75AEA30839_OFFSET UNITYSDK_OFFSET(0x1BA87AE0)
-#define RPG_GAMECORE_FIVEDIMAUDIOCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA87ED0)
+#define RPG_GAMECORE_FIVEDIMAUDIOCONFIG_METHOD_2_6073BE75AEA30839_OFFSET UNITYSDK_OFFSET(0x1E0E19E0)
+#define RPG_GAMECORE_FIVEDIMAUDIOCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1E0E1E50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimAudioConfig_TypeDefinitionIndex = 16060;
+	inline static constexpr unsigned int FiveDimAudioConfig_TypeDefinitionIndex = 16536;
 
 	class FiveDimAudioConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -29,6 +29,8 @@ namespace RPG::GameCore
 		::Il2CppArray<::RPG::GameCore::FiveDimEmotionConfig*>* ChenLingEmotionConfigs; // 0x58
 		::System::String* WaterReflection_WaterInEvent; // 0x60
 		::System::String* WaterReflection_WaterOutEvent; // 0x68
+		::System::String* EnterGravityFieldRingEvent; // 0x70
+		::System::String* ExitGravityFieldRingEvent; // 0x78
 
 		::System::Void _ctor()
 		{

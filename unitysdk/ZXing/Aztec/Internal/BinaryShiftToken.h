@@ -5,19 +5,19 @@
 namespace System { class String; }
 namespace ZXing::Common { class BitArray; }
 
-#define ZXING_AZTEC_INTERNAL_BINARYSHIFTTOKEN_APPENDTO_OFFSET UNITYSDK_OFFSET(0x1552D940)
-#define ZXING_AZTEC_INTERNAL_BINARYSHIFTTOKEN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1552DBA0)
-#define ZXING_AZTEC_INTERNAL_BINARYSHIFTTOKEN__CTOR_OFFSET UNITYSDK_OFFSET(0x1552D8C0)
+#define ZXING_AZTEC_INTERNAL_BINARYSHIFTTOKEN_APPENDTO_OFFSET UNITYSDK_OFFSET(0x16D3C730)
+#define ZXING_AZTEC_INTERNAL_BINARYSHIFTTOKEN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x16D3C990)
+#define ZXING_AZTEC_INTERNAL_BINARYSHIFTTOKEN__CTOR_OFFSET UNITYSDK_OFFSET(0x16D3C6B0)
 
 namespace ZXing::Aztec::Internal
 {
-	inline static constexpr unsigned int BinaryShiftToken_TypeDefinitionIndex = 6498;
+	inline static constexpr unsigned int BinaryShiftToken_TypeDefinitionIndex = 7043;
 
 	class BinaryShiftToken : public ::ZXing::Aztec::Internal::Token
 	{
 	public:
-		::System::Int16 binaryShiftStart; // 0x18
-		::System::Int16 binaryShiftByteCount; // 0x1A
+		::System::Int16 binaryShiftByteCount; // 0x18
+		::System::Int16 binaryShiftStart; // 0x1A
 
 		::System::Void _ctor(::ZXing::Aztec::Internal::Token* a1, ::System::Int32 a2, ::System::Int32 a3)
 		{

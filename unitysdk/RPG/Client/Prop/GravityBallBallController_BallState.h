@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int GravityBallBallController_BallState_TypeDefinitionIndex = 74633;
+	inline static constexpr unsigned int GravityBallBallController_BallState_TypeDefinitionIndex = 78118;
 
 	enum class GravityBallBallController_BallState : ::System::Int32
 	{

@@ -6,21 +6,21 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_IDLELIVEMESSAGECONTENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B6973F0)
-#define RPG_GAMECORE_IDLELIVEMESSAGECONTENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B697650)
+#define RPG_GAMECORE_IDLELIVEMESSAGECONTENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D212540)
+#define RPG_GAMECORE_IDLELIVEMESSAGECONTENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2127A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveMessageContentRow_TypeDefinitionIndex = 11380;
+	inline static constexpr unsigned int IdleLiveMessageContentRow_TypeDefinitionIndex = 11769;
 
 	class IdleLiveMessageContentRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* NextContentID; // 0x10
 		::System::UInt32 SenderID; // 0x18
-		::RPG::Client::TextID MainText; // 0x20
-		::RPG::GameCore::IdleLiveMessageContentType ContentType; // 0x30
-		::System::UInt32 ContentID; // 0x34
+		::System::UInt32 ContentID; // 0x1C
+		::RPG::GameCore::IdleLiveMessageContentType ContentType; // 0x20
+		::RPG::Client::TextID MainText; // 0x28
 
 		::System::Void _ctor()
 		{

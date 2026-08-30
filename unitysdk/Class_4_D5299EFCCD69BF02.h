@@ -9,21 +9,21 @@ namespace RPG::GameCore { class SetDynamicValueByCopyingBatchItem; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class Object; }
 
-#define CLASS_4_D5299EFCCD69BF02_GETDYNAMICKEY_OFFSET UNITYSDK_OFFSET(0x1BE9A200)
-#define CLASS_4_D5299EFCCD69BF02_METHOD_4_017371A88D09A16A_OFFSET UNITYSDK_OFFSET(0x1BE99FB0)
-#define CLASS_4_D5299EFCCD69BF02_METHOD_4_637CBE131CC2826D_OFFSET UNITYSDK_OFFSET(0x1BE99F10)
-#define CLASS_4_D5299EFCCD69BF02__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE99F70)
+#define CLASS_4_D5299EFCCD69BF02_GETDYNAMICKEY_OFFSET UNITYSDK_OFFSET(0x1D5C61C0)
+#define CLASS_4_D5299EFCCD69BF02_METHOD_4_017371A88D09A16A_OFFSET UNITYSDK_OFFSET(0x1D5C5F70)
+#define CLASS_4_D5299EFCCD69BF02_METHOD_4_637CBE131CC2826D_OFFSET UNITYSDK_OFFSET(0x1D5C5ED0)
+#define CLASS_4_D5299EFCCD69BF02__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5C5F30)
 
-inline static constexpr unsigned int Class_4_D5299EFCCD69BF02_TypeDefinitionIndex = 22971;
+inline static constexpr unsigned int Class_4_D5299EFCCD69BF02_TypeDefinitionIndex = 23551;
 
 class Class_4_D5299EFCCD69BF02 : public ::RPG::GameCore::SetDynamicValueBase
 {
 public:
-	::RPG::GameCore::TargetEvaluator* Field_4_0; // 0x18
-	::RPG::GameCore::DynamicString* Field_4_1; // 0x20
-	::RPG::GameCore::TargetEvaluator* Field_4_2; // 0x28
-	::Il2CppArray<::RPG::GameCore::SetDynamicValueByCopyingBatchItem*>* Field_4_3; // 0x30
-	::RPG::GameCore::DynamicValueContextScope Field_4_4; // 0x38
+	::Il2CppArray<::RPG::GameCore::SetDynamicValueByCopyingBatchItem*>* ODDCGJLJMNM; // 0x18
+	::RPG::GameCore::TargetEvaluator* KCDLOAHLFAO; // 0x20
+	::RPG::GameCore::DynamicString* DMOBBGFFGEB; // 0x28
+	::RPG::GameCore::TargetEvaluator* BFICDICDOFO; // 0x30
+	::RPG::GameCore::DynamicValueContextScope JDLEDIOAPHJ; // 0x38
 
 	::System::Void _ctor()
 	{

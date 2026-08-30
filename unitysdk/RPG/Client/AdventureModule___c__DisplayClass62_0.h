@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_7BF8FDF00F218876_16;
+class Class_1_D8CC61AD64FF9091_21;
 
-#define RPG_CLIENT_ADVENTUREMODULE___C__DISPLAYCLASS62_0__CTOR_OFFSET UNITYSDK_OFFSET(0x182AC000)
-#define RPG_CLIENT_ADVENTUREMODULE___C__DISPLAYCLASS62_0___ONGRIDFIGHTENTERBATTLESTAGESCRSP_B__0_OFFSET UNITYSDK_OFFSET(0x182AC010)
+#define RPG_CLIENT_ADVENTUREMODULE___C__DISPLAYCLASS62_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19DC57D0)
+#define RPG_CLIENT_ADVENTUREMODULE___C__DISPLAYCLASS62_0___ONGRIDFIGHTENTERBATTLESTAGESCRSP_B__0_OFFSET UNITYSDK_OFFSET(0x19DC57E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AdventureModule___c__DisplayClass62_0_TypeDefinitionIndex = 59262;
+	inline static constexpr unsigned int AdventureModule___c__DisplayClass62_0_TypeDefinitionIndex = 62097;
 
 	class AdventureModule___c__DisplayClass62_0 : public ::System::Object
 	{
 	public:
-		::Class_1_7BF8FDF00F218876_16* rsp; // 0x10
+		::Class_1_D8CC61AD64FF9091_21* rsp; // 0x10
 
 		::System::Void _ctor()
 		{

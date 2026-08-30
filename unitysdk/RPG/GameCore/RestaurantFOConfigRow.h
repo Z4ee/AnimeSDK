@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_RESTAURANTFOCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D021A80)
-#define RPG_GAMECORE_RESTAURANTFOCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D021BF0)
+#define RPG_GAMECORE_RESTAURANTFOCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB99110)
+#define RPG_GAMECORE_RESTAURANTFOCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB99280)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RestaurantFOConfigRow_TypeDefinitionIndex = 10969;
+	inline static constexpr unsigned int RestaurantFOConfigRow_TypeDefinitionIndex = 11344;
 
 	class RestaurantFOConfigRow : public ::System::Object
 	{

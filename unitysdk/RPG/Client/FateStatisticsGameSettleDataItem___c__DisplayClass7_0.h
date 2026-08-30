@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_FFE5B8A52EC38E9C_2;
+class Class_1_FFE5B8A52EC38E9C_3;
 namespace RPG::Client { class FateBuffSlotData; }
 
-#define RPG_CLIENT_FATESTATISTICSGAMESETTLEDATAITEM___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1971F320)
-#define RPG_CLIENT_FATESTATISTICSGAMESETTLEDATAITEM___C__DISPLAYCLASS7_0___SYNCBUFF_B__0_OFFSET UNITYSDK_OFFSET(0x1971FDC0)
+#define RPG_CLIENT_FATESTATISTICSGAMESETTLEDATAITEM___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE36F70)
+#define RPG_CLIENT_FATESTATISTICSGAMESETTLEDATAITEM___C__DISPLAYCLASS7_0___SYNCBUFF_B__0_OFFSET UNITYSDK_OFFSET(0x1AE36F80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FateStatisticsGameSettleDataItem___c__DisplayClass7_0_TypeDefinitionIndex = 61211;
+	inline static constexpr unsigned int FateStatisticsGameSettleDataItem___c__DisplayClass7_0_TypeDefinitionIndex = 64192;
 
 	class FateStatisticsGameSettleDataItem___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:
-		::Class_1_FFE5B8A52EC38E9C_2* proto; // 0x10
+		::Class_1_FFE5B8A52EC38E9C_3* proto; // 0x10
 
 		::System::Void _ctor()
 		{

@@ -6,19 +6,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_LIMITTYPECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B08DAF0)
-#define RPG_GAMECORE_LIMITTYPECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B08E4F0)
+#define RPG_GAMECORE_LIMITTYPECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DD5C3D0)
+#define RPG_GAMECORE_LIMITTYPECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD5CDD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LimitTypeConfigRow_TypeDefinitionIndex = 14513;
+	inline static constexpr unsigned int LimitTypeConfigRow_TypeDefinitionIndex = 14934;
 
 	class LimitTypeConfigRow : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID LimitTypeDetailDesc; // 0x10
-		::RPG::Client::TextID LimitTypeDesc; // 0x20
-		::RPG::GameCore::LimitType LimitType; // 0x30
+		::RPG::GameCore::LimitType LimitType; // 0x10
+		::RPG::Client::TextID LimitTypeDetailDesc; // 0x18
+		::RPG::Client::TextID LimitTypeDesc; // 0x28
 
 		::System::Void _ctor()
 		{

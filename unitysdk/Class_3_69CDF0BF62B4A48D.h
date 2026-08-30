@@ -6,15 +6,15 @@
 namespace RPG::GameCore { class SetSignedAngleByTarget; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_69CDF0BF62B4A48D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x175534C0)
-#define CLASS_3_69CDF0BF62B4A48D__CTOR_OFFSET UNITYSDK_OFFSET(0x175533E0)
+#define CLASS_3_69CDF0BF62B4A48D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18F419D0)
+#define CLASS_3_69CDF0BF62B4A48D__CTOR_OFFSET UNITYSDK_OFFSET(0x18F418F0)
 
-inline static constexpr unsigned int Class_3_69CDF0BF62B4A48D_TypeDefinitionIndex = 53046;
+inline static constexpr unsigned int Class_3_69CDF0BF62B4A48D_TypeDefinitionIndex = 55752;
 
 class Class_3_69CDF0BF62B4A48D : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetSignedAngleByTarget*>
 {
 public:
-	::RPG::GameCore::StringHash Field_3_0; // 0x28
+	::RPG::GameCore::StringHash DIJHOMCLPEG; // 0x28
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetSignedAngleByTarget* a2)
 	{

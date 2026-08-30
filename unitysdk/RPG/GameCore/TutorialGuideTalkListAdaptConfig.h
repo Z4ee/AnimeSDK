@@ -8,12 +8,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_TUTORIALGUIDETALKLISTADAPTCONFIG_METHOD_2_876419F9A078D635_OFFSET UNITYSDK_OFFSET(0x1B06DE10)
-#define RPG_GAMECORE_TUTORIALGUIDETALKLISTADAPTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B06DFF0)
+#define RPG_GAMECORE_TUTORIALGUIDETALKLISTADAPTCONFIG_METHOD_2_876419F9A078D635_OFFSET UNITYSDK_OFFSET(0x1D2A7530)
+#define RPG_GAMECORE_TUTORIALGUIDETALKLISTADAPTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2A7710)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TutorialGuideTalkListAdaptConfig_TypeDefinitionIndex = 23532;
+	inline static constexpr unsigned int TutorialGuideTalkListAdaptConfig_TypeDefinitionIndex = 24117;
 
 	class TutorialGuideTalkListAdaptConfig : public ::RPG::GameCore::JsonConfig
 	{

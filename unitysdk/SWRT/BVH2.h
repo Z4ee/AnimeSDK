@@ -8,21 +8,21 @@
 namespace SWRT { class BVH2_HNode; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define SWRT_BVH2_BUILD_OFFSET UNITYSDK_OFFSET(0x1D13D040)
-#define SWRT_BVH2_CONVERTTOFNODES_OFFSET UNITYSDK_OFFSET(0x1D13D3E0)
-#define SWRT_BVH2_SPLITBYSAH_OFFSET UNITYSDK_OFFSET(0x1D13D650)
-#define SWRT_BVH2_SPLITBYVARIANCE_OFFSET UNITYSDK_OFFSET(0x1D13DBB0)
-#define SWRT_BVH2__CTOR_OFFSET UNITYSDK_OFFSET(0x1D13CCC0)
+#define SWRT_BVH2_BUILD_OFFSET UNITYSDK_OFFSET(0x1EE61270)
+#define SWRT_BVH2_CONVERTTOFNODES_OFFSET UNITYSDK_OFFSET(0x1EE61610)
+#define SWRT_BVH2_SPLITBYSAH_OFFSET UNITYSDK_OFFSET(0x1EE61880)
+#define SWRT_BVH2_SPLITBYVARIANCE_OFFSET UNITYSDK_OFFSET(0x1EE61DE0)
+#define SWRT_BVH2__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE60EF0)
 
 namespace SWRT
 {
-	inline static constexpr unsigned int BVH2_TypeDefinitionIndex = 35945;
+	inline static constexpr unsigned int BVH2_TypeDefinitionIndex = 36806;
 
 	class BVH2 : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::Single>* _RightCosts; // 0x10
-		::System::Collections::Generic::List_1<::SWRT::BVH2_FNode>* _FNodes; // 0x18
+		::System::Collections::Generic::List_1<::SWRT::BVH2_FNode>* _FNodes; // 0x10
+		::Il2CppArray<::System::Single>* _RightCosts; // 0x18
 		::SWRT::BVH2_HNode* _HRoot; // 0x20
 
 		::System::Void _ctor(::System::Collections::Generic::List_1<::SWRT::AABB>* a1, ::System::Int32 a2)

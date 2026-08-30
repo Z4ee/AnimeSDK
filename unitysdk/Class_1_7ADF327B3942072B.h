@@ -1,0 +1,84 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_6770BC9DDC5C458C;
+class Class_1_C086E47345F86771_10;
+
+#define CLASS_1_7ADF327B3942072B_GET_AVATARID_OFFSET UNITYSDK_OFFSET(0x19A168C0)
+#define CLASS_1_7ADF327B3942072B_GET_CONFIG_OFFSET UNITYSDK_OFFSET(0x19A16880)
+#define CLASS_1_7ADF327B3942072B_GET_FUNCNT_OFFSET UNITYSDK_OFFSET(0x19A168A0)
+#define CLASS_1_7ADF327B3942072B_GET_FUNID_OFFSET UNITYSDK_OFFSET(0x19A16860)
+#define CLASS_1_7ADF327B3942072B_METHOD_1_097468641FDED14E_OFFSET UNITYSDK_OFFSET(0x19A168E0)
+#define CLASS_1_7ADF327B3942072B_METHOD_1_47FCE72550F759BF_OFFSET UNITYSDK_OFFSET(0x19A16940)
+#define CLASS_1_7ADF327B3942072B_SET_AVATARID_OFFSET UNITYSDK_OFFSET(0x19A168D0)
+#define CLASS_1_7ADF327B3942072B_SET_CONFIG_OFFSET UNITYSDK_OFFSET(0x19A16890)
+#define CLASS_1_7ADF327B3942072B_SET_FUNCNT_OFFSET UNITYSDK_OFFSET(0x19A168B0)
+#define CLASS_1_7ADF327B3942072B_SET_FUNID_OFFSET UNITYSDK_OFFSET(0x19A16870)
+#define CLASS_1_7ADF327B3942072B__CTOR_OFFSET UNITYSDK_OFFSET(0x19A169D0)
+
+inline static constexpr unsigned int Class_1_7ADF327B3942072B_TypeDefinitionIndex = 63904;
+
+class Class_1_7ADF327B3942072B : public ::System::Object
+{
+public:
+	::Class_1_6770BC9DDC5C458C* _Config_k__BackingField; // 0x10
+	::System::UInt32 _FunID_k__BackingField; // 0x18
+	::System::UInt32 _AvatarID_k__BackingField; // 0x1C
+	::System::UInt64 _FunCnt_k__BackingField; // 0x20
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_7ADF327B3942072B__CTOR_OFFSET))(this);
+	}
+
+	::System::UInt32 get_FunID()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_7ADF327B3942072B_GET_FUNID_OFFSET))(this);
+	}
+
+	::System::Void set_FunID(::System::UInt32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_7ADF327B3942072B_SET_FUNID_OFFSET))(this, a1);
+	}
+
+	::Class_1_6770BC9DDC5C458C* get_Config()
+	{
+		return ((::Class_1_6770BC9DDC5C458C*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_7ADF327B3942072B_GET_CONFIG_OFFSET))(this);
+	}
+
+	::System::Void set_Config(::Class_1_6770BC9DDC5C458C* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_6770BC9DDC5C458C*))((::PBYTE)hIl2Cpp + CLASS_1_7ADF327B3942072B_SET_CONFIG_OFFSET))(this, a1);
+	}
+
+	::System::UInt64 get_FunCnt()
+	{
+		return ((::System::UInt64(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_7ADF327B3942072B_GET_FUNCNT_OFFSET))(this);
+	}
+
+	::System::Void set_FunCnt(::System::UInt64 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + CLASS_1_7ADF327B3942072B_SET_FUNCNT_OFFSET))(this, a1);
+	}
+
+	::System::UInt32 get_AvatarID()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_7ADF327B3942072B_GET_AVATARID_OFFSET))(this);
+	}
+
+	::System::Void set_AvatarID(::System::UInt32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_7ADF327B3942072B_SET_AVATARID_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_097468641FDED14E(::Class_1_C086E47345F86771_10* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_C086E47345F86771_10*))((::PBYTE)hIl2Cpp + CLASS_1_7ADF327B3942072B_METHOD_1_097468641FDED14E_OFFSET))(this, a1);
+	}
+
+	::Class_1_7ADF327B3942072B* Method_1_47FCE72550F759BF()
+	{
+		return ((::Class_1_7ADF327B3942072B*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_7ADF327B3942072B_METHOD_1_47FCE72550F759BF_OFFSET))(this);
+	}
+};

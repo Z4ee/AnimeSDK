@@ -5,24 +5,24 @@
 class Class_1_075C34D03AFA1215_8;
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_FEATURESWITCHMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1972F040)
-#define RPG_CLIENT_FEATURESWITCHMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1972F080)
-#define RPG_CLIENT_FEATURESWITCHMODULE___C___CHECKSHIELDEDOUTFITSCHANGED_B__24_0_OFFSET UNITYSDK_OFFSET(0x1972F090)
+#define RPG_CLIENT_FEATURESWITCHMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AE46D30)
+#define RPG_CLIENT_FEATURESWITCHMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE46D70)
+#define RPG_CLIENT_FEATURESWITCHMODULE___C___CHECKSHIELDEDOUTFITSCHANGED_B__24_0_OFFSET UNITYSDK_OFFSET(0x1AE46D80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FeatureSwitchModule___c_TypeDefinitionIndex = 61249;
+	inline static constexpr unsigned int FeatureSwitchModule___c_TypeDefinitionIndex = 64230;
 
 	class FeatureSwitchModule___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::FeatureSwitchModule___c** StaticGet___9()
-		{
-			return (::RPG::Client::FeatureSwitchModule___c**)Il2CppClass::FromTypeDefinitionIndex(FeatureSwitchModule___c_TypeDefinitionIndex)->GetStaticField(0xDA80);
-		}
 		static ::System::Func_2<::Class_1_075C34D03AFA1215_8*, ::System::UInt32>** StaticGet___9__24_0()
 		{
-			return (::System::Func_2<::Class_1_075C34D03AFA1215_8*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(FeatureSwitchModule___c_TypeDefinitionIndex)->GetStaticField(0xDA88);
+			return (::System::Func_2<::Class_1_075C34D03AFA1215_8*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(FeatureSwitchModule___c_TypeDefinitionIndex)->GetStaticField(0xE6D0);
+		}
+		static ::RPG::Client::FeatureSwitchModule___c** StaticGet___9()
+		{
+			return (::RPG::Client::FeatureSwitchModule___c**)Il2CppClass::FromTypeDefinitionIndex(FeatureSwitchModule___c_TypeDefinitionIndex)->GetStaticField(0xE6D8);
 		}
 
 		static ::System::Void _cctor()

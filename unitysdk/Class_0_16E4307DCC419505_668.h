@@ -1,9 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace RPG::GameCore { class EventManager; }
+class Class_0_16E4307DCC419505_669;
+namespace System { class String; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_668_TypeDefinitionIndex = 58399;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_668_TypeDefinitionIndex = 60071;
 
 class Class_0_16E4307DCC419505_668
 {

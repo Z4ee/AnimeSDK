@@ -8,18 +8,18 @@ namespace RPG::Client { class ActivityHotModule; }
 namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ACTIVITYHOTMODULE___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19D14C30)
-#define RPG_CLIENT_ACTIVITYHOTMODULE___C__DISPLAYCLASS4_0__GETACTIVITYHOTDATAS_B__0_OFFSET UNITYSDK_OFFSET(0x19D18840)
+#define RPG_CLIENT_ACTIVITYHOTMODULE___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8F9A90)
+#define RPG_CLIENT_ACTIVITYHOTMODULE___C__DISPLAYCLASS4_0__GETACTIVITYHOTDATAS_B__0_OFFSET UNITYSDK_OFFSET(0x1B8FD6A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityHotModule___c__DisplayClass4_0_TypeDefinitionIndex = 58799;
+	inline static constexpr unsigned int ActivityHotModule___c__DisplayClass4_0_TypeDefinitionIndex = 61630;
 
 	class ActivityHotModule___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::Client::ActivityHotData*>* activityHotDatas; // 0x10
-		::RPG::Client::ActivityHotModule* __4__this; // 0x18
+		::RPG::Client::ActivityHotModule* __4__this; // 0x10
+		::System::Collections::Generic::List_1<::RPG::Client::ActivityHotData*>* activityHotDatas; // 0x18
 
 		::System::Void _ctor()
 		{

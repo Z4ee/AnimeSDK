@@ -1,0 +1,97 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_A952181C6CF1F2FF;
+
+#define CLASS_1_B26E06FC40F846CD_1_GET_CHALLENGEBESTTIME_OFFSET UNITYSDK_OFFSET(0x1A8B5B90)
+#define CLASS_1_B26E06FC40F846CD_1_GET_FINISHEDMATCHNUM_OFFSET UNITYSDK_OFFSET(0x1A8B5B30)
+#define CLASS_1_B26E06FC40F846CD_1_GET_ISCYCLEFINISHED_OFFSET UNITYSDK_OFFSET(0x1A8B5B50)
+#define CLASS_1_B26E06FC40F846CD_1_GET_MATCHID_OFFSET UNITYSDK_OFFSET(0x1A8B5AF0)
+#define CLASS_1_B26E06FC40F846CD_1_GET_NEXTAGENDADTO_OFFSET UNITYSDK_OFFSET(0x1A8B5B70)
+#define CLASS_1_B26E06FC40F846CD_1_GET_TRACKID_OFFSET UNITYSDK_OFFSET(0x1A8B5B10)
+#define CLASS_1_B26E06FC40F846CD_1_SET_CHALLENGEBESTTIME_OFFSET UNITYSDK_OFFSET(0x1A8B5BA0)
+#define CLASS_1_B26E06FC40F846CD_1_SET_FINISHEDMATCHNUM_OFFSET UNITYSDK_OFFSET(0x1A8B5B40)
+#define CLASS_1_B26E06FC40F846CD_1_SET_ISCYCLEFINISHED_OFFSET UNITYSDK_OFFSET(0x1A8B5B60)
+#define CLASS_1_B26E06FC40F846CD_1_SET_MATCHID_OFFSET UNITYSDK_OFFSET(0x1A8B5B00)
+#define CLASS_1_B26E06FC40F846CD_1_SET_NEXTAGENDADTO_OFFSET UNITYSDK_OFFSET(0x1A8B5B80)
+#define CLASS_1_B26E06FC40F846CD_1_SET_TRACKID_OFFSET UNITYSDK_OFFSET(0x1A8B5B20)
+#define CLASS_1_B26E06FC40F846CD_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8B5BB0)
+
+inline static constexpr unsigned int Class_1_B26E06FC40F846CD_1_TypeDefinitionIndex = 80607;
+
+class Class_1_B26E06FC40F846CD_1 : public ::System::Object
+{
+public:
+	::Class_1_A952181C6CF1F2FF* _NextAgendaDto_k__BackingField; // 0x10
+	::System::UInt32 _FinishedMatchNum_k__BackingField; // 0x18
+	::System::Boolean _IsCycleFinished_k__BackingField; // 0x1C
+	::System::UInt32 _TrackId_k__BackingField; // 0x20
+	::System::UInt32 _MatchId_k__BackingField; // 0x24
+	::System::UInt32 _ChallengeBestTime_k__BackingField; // 0x28
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B26E06FC40F846CD_1__CTOR_OFFSET))(this);
+	}
+
+	::System::UInt32 get_MatchId()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B26E06FC40F846CD_1_GET_MATCHID_OFFSET))(this);
+	}
+
+	::System::Void set_MatchId(::System::UInt32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_B26E06FC40F846CD_1_SET_MATCHID_OFFSET))(this, a1);
+	}
+
+	::System::UInt32 get_TrackId()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B26E06FC40F846CD_1_GET_TRACKID_OFFSET))(this);
+	}
+
+	::System::Void set_TrackId(::System::UInt32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_B26E06FC40F846CD_1_SET_TRACKID_OFFSET))(this, a1);
+	}
+
+	::System::UInt32 get_FinishedMatchNum()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B26E06FC40F846CD_1_GET_FINISHEDMATCHNUM_OFFSET))(this);
+	}
+
+	::System::Void set_FinishedMatchNum(::System::UInt32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_B26E06FC40F846CD_1_SET_FINISHEDMATCHNUM_OFFSET))(this, a1);
+	}
+
+	::System::Boolean get_IsCycleFinished()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B26E06FC40F846CD_1_GET_ISCYCLEFINISHED_OFFSET))(this);
+	}
+
+	::System::Void set_IsCycleFinished(::System::Boolean a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_B26E06FC40F846CD_1_SET_ISCYCLEFINISHED_OFFSET))(this, a1);
+	}
+
+	::Class_1_A952181C6CF1F2FF* get_NextAgendaDto()
+	{
+		return ((::Class_1_A952181C6CF1F2FF*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B26E06FC40F846CD_1_GET_NEXTAGENDADTO_OFFSET))(this);
+	}
+
+	::System::Void set_NextAgendaDto(::Class_1_A952181C6CF1F2FF* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_A952181C6CF1F2FF*))((::PBYTE)hIl2Cpp + CLASS_1_B26E06FC40F846CD_1_SET_NEXTAGENDADTO_OFFSET))(this, a1);
+	}
+
+	::System::UInt32 get_ChallengeBestTime()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B26E06FC40F846CD_1_GET_CHALLENGEBESTTIME_OFFSET))(this);
+	}
+
+	::System::Void set_ChallengeBestTime(::System::UInt32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_B26E06FC40F846CD_1_SET_CHALLENGEBESTTIME_OFFSET))(this, a1);
+	}
+};

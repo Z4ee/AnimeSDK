@@ -6,24 +6,24 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_HELIOBUSCOMMENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B679DF0)
-#define RPG_GAMECORE_HELIOBUSCOMMENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B67A5D0)
+#define RPG_GAMECORE_HELIOBUSCOMMENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3D5DB0)
+#define RPG_GAMECORE_HELIOBUSCOMMENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3D6590)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HeliobusCommentRow_TypeDefinitionIndex = 13249;
+	inline static constexpr unsigned int HeliobusCommentRow_TypeDefinitionIndex = 13640;
 
 	class HeliobusCommentRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* PlayerCommentIDList; // 0x10
-		::System::UInt32 ReplyIncomeReward; // 0x18
-		::RPG::GameCore::HeliobusTendencyType Tendency; // 0x1C
-		::RPG::Client::TextID HeliobusCommentTextID; // 0x20
-		::RPG::Client::TextID CommentOptionTextID; // 0x30
-		::System::UInt32 HeliobusUserID; // 0x40
-		::System::Boolean IsPlayerComment; // 0x44
-		::System::UInt32 HeliobusCommentID; // 0x48
+		::System::UInt32 HeliobusCommentID; // 0x18
+		::System::UInt32 ReplyIncomeReward; // 0x1C
+		::System::UInt32 HeliobusUserID; // 0x20
+		::RPG::Client::TextID HeliobusCommentTextID; // 0x28
+		::RPG::Client::TextID CommentOptionTextID; // 0x38
+		::RPG::GameCore::HeliobusTendencyType Tendency; // 0x48
+		::System::Boolean IsPlayerComment; // 0x4C
 
 		::System::Void _ctor()
 		{

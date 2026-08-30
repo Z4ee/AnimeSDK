@@ -6,15 +6,15 @@
 namespace RPG::GameCore { class SetDynamicValueByVariateType; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_18B7F922B7E5B6F9_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17A15B10)
-#define CLASS_3_18B7F922B7E5B6F9__CTOR_OFFSET UNITYSDK_OFFSET(0x17A15A30)
+#define CLASS_3_18B7F922B7E5B6F9_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x195D7740)
+#define CLASS_3_18B7F922B7E5B6F9__CTOR_OFFSET UNITYSDK_OFFSET(0x195D7660)
 
-inline static constexpr unsigned int Class_3_18B7F922B7E5B6F9_TypeDefinitionIndex = 52965;
+inline static constexpr unsigned int Class_3_18B7F922B7E5B6F9_TypeDefinitionIndex = 55670;
 
 class Class_3_18B7F922B7E5B6F9 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetDynamicValueByVariateType*>
 {
 public:
-	::RPG::GameCore::StringHash Field_3_0; // 0x28
+	::RPG::GameCore::StringHash DIJHOMCLPEG; // 0x28
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetDynamicValueByVariateType* a2)
 	{

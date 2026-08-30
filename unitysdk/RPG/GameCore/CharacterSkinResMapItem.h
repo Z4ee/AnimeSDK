@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHARACTERSKINRESMAPITEM_METHOD_2_C690AA84E3D66B2C_OFFSET UNITYSDK_OFFSET(0x1B72B440)
-#define RPG_GAMECORE_CHARACTERSKINRESMAPITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1B72B550)
+#define RPG_GAMECORE_CHARACTERSKINRESMAPITEM_METHOD_2_C690AA84E3D66B2C_OFFSET UNITYSDK_OFFSET(0x1E0007E0)
+#define RPG_GAMECORE_CHARACTERSKINRESMAPITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1E0008F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterSkinResMapItem_TypeDefinitionIndex = 15891;
+	inline static constexpr unsigned int CharacterSkinResMapItem_TypeDefinitionIndex = 16367;
 
 	class CharacterSkinResMapItem : public ::RPG::GameCore::JsonConfig
 	{

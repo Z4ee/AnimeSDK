@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ElfEntranceNPCConfig; }
 
-#define RPG_GAMECORE_ELFENTRANCENPCSET_METHOD_2_DEF186780ED1D1CA_OFFSET UNITYSDK_OFFSET(0x1BB36860)
-#define RPG_GAMECORE_ELFENTRANCENPCSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB36950)
+#define RPG_GAMECORE_ELFENTRANCENPCSET_METHOD_2_DEF186780ED1D1CA_OFFSET UNITYSDK_OFFSET(0x1DB28D00)
+#define RPG_GAMECORE_ELFENTRANCENPCSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB28DF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ElfEntranceNPCSet_TypeDefinitionIndex = 15583;
+	inline static constexpr unsigned int ElfEntranceNPCSet_TypeDefinitionIndex = 16020;
 
 	class ElfEntranceNPCSet : public ::RPG::GameCore::JsonConfig
 	{

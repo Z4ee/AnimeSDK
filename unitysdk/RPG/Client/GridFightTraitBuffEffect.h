@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightTraitBuffEffect_TypeDefinitionIndex = 62537;
+	inline static constexpr unsigned int GridFightTraitBuffEffect_TypeDefinitionIndex = 65522;
 
 	class GridFightTraitBuffEffect
 	{

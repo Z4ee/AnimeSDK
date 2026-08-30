@@ -9,26 +9,26 @@ namespace RPG::GameCore { class CommonBoardPuzzleInBoard; }
 namespace RPG::GameCore { class PropComponent; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_2_1549D03EEED0F347_DISPOSE_OFFSET UNITYSDK_OFFSET(0x169C2340)
-#define CLASS_2_1549D03EEED0F347_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x169C2770)
-#define CLASS_2_1549D03EEED0F347_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x169C27C0)
-#define CLASS_2_1549D03EEED0F347_TICK_OFFSET UNITYSDK_OFFSET(0x169C24C0)
-#define CLASS_2_1549D03EEED0F347__CTOR_OFFSET UNITYSDK_OFFSET(0x169C2150)
+#define CLASS_2_1549D03EEED0F347_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15810900)
+#define CLASS_2_1549D03EEED0F347_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15810D20)
+#define CLASS_2_1549D03EEED0F347_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15810D70)
+#define CLASS_2_1549D03EEED0F347_TICK_OFFSET UNITYSDK_OFFSET(0x15810A70)
+#define CLASS_2_1549D03EEED0F347__CTOR_OFFSET UNITYSDK_OFFSET(0x15810700)
 
-inline static constexpr unsigned int Class_2_1549D03EEED0F347_TypeDefinitionIndex = 55455;
+inline static constexpr unsigned int Class_2_1549D03EEED0F347_TypeDefinitionIndex = 58186;
 
 class Class_2_1549D03EEED0F347 : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::Class_1_F3391C70DC37088D* Field_2_0; // 0x18
-	::RPG::GameCore::PropComponent* Field_2_1; // 0x20
-	::RPG::GameCore::TaskContext* Field_2_2; // 0x28
-	::Class_3_07C3C4D2990C49EE* Field_2_3; // 0x30
-	::Class_3_07C3C4D2990C49EE* Field_2_4; // 0x38
-	::Class_1_F3391C70DC37088D* Field_2_5; // 0x40
-	::RPG::Client::Prop::BlockPuzzleBase* Field_2_6; // 0x48
-	::RPG::GameCore::CommonBoardPuzzleInBoard* Field_2_7; // 0x50
-	::System::Boolean Field_2_8; // 0x58
+	::Class_1_F3391C70DC37088D* KLOAHJPKECK; // 0x18
+	::RPG::Client::Prop::BlockPuzzleBase* CCAHGFIABKE; // 0x20
+	::RPG::GameCore::PropComponent* ALMDGNBNPLB; // 0x28
+	::RPG::GameCore::CommonBoardPuzzleInBoard* IGHAHBNLIJA; // 0x30
+	::Class_3_07C3C4D2990C49EE* GBEAGJJBPAN; // 0x38
+	::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x40
+	::Class_1_F3391C70DC37088D* EEMAFOMJMEB; // 0x48
+	::Class_3_07C3C4D2990C49EE* BHENBGMFOLJ; // 0x50
+	::System::Boolean OGIMPEPMDIL; // 0x58
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::CommonBoardPuzzleInBoard* a2)
 	{

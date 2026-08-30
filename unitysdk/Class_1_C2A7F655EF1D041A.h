@@ -8,22 +8,22 @@ namespace RPG::Client { class CameraDataAndFlags; }
 namespace RPG::Client { class CameraFightStateCommonConfig; }
 namespace RPG::Client { class CameraFightStateSelectLightTeamEntityConfig; }
 
-#define CLASS_1_C2A7F655EF1D041A_GETFIGHTSTATECONFIG_OFFSET UNITYSDK_OFFSET(0x1937D020)
-#define CLASS_1_C2A7F655EF1D041A_INIT_OFFSET UNITYSDK_OFFSET(0x1937C5E0)
-#define CLASS_1_C2A7F655EF1D041A_REFRESH_OFFSET UNITYSDK_OFFSET(0x1937C740)
-#define CLASS_1_C2A7F655EF1D041A_RESET_OFFSET UNITYSDK_OFFSET(0x1937C6A0)
-#define CLASS_1_C2A7F655EF1D041A__CTOR_OFFSET UNITYSDK_OFFSET(0x1937D060)
+#define CLASS_1_C2A7F655EF1D041A_GETFIGHTSTATECONFIG_OFFSET UNITYSDK_OFFSET(0x19962870)
+#define CLASS_1_C2A7F655EF1D041A_INIT_OFFSET UNITYSDK_OFFSET(0x19961E20)
+#define CLASS_1_C2A7F655EF1D041A_REFRESH_OFFSET UNITYSDK_OFFSET(0x19961F80)
+#define CLASS_1_C2A7F655EF1D041A_RESET_OFFSET UNITYSDK_OFFSET(0x19961EE0)
+#define CLASS_1_C2A7F655EF1D041A__CTOR_OFFSET UNITYSDK_OFFSET(0x199628B0)
 
-inline static constexpr unsigned int Class_1_C2A7F655EF1D041A_TypeDefinitionIndex = 66475;
+inline static constexpr unsigned int Class_1_C2A7F655EF1D041A_TypeDefinitionIndex = 69568;
 
 class Class_1_C2A7F655EF1D041A : public ::System::Object
 {
 public:
-	::RPG::Client::CameraFightStateSelectLightTeamEntityConfig* Field_1_0; // 0x10
-	::RPG::Client::CameraDataAndFlags* Field_1_1; // 0x18
-	::Class_2_4C3F9D9CF221EFEC* Field_1_2; // 0x20
-	::UnityEngine::Vector3 Field_1_3; // 0x28
-	::System::Single Field_1_4; // 0x34
+	::RPG::Client::CameraDataAndFlags* OMKPPIGCFDN; // 0x10
+	::RPG::Client::CameraFightStateSelectLightTeamEntityConfig* MAFIONBKPIE; // 0x18
+	::Class_2_4C3F9D9CF221EFEC* LEOGIKABIGF; // 0x20
+	::UnityEngine::Vector3 EPGIKHNGDEB; // 0x28
+	::System::Single JONIHNEBKCO; // 0x34
 
 	::System::Void _ctor()
 	{

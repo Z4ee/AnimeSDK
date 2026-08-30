@@ -6,19 +6,19 @@ namespace MiHoYo::SDK { class ProtocolManager; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_PROTOCOLMANAGER___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x170FDD40)
-#define MIHOYO_SDK_PROTOCOLMANAGER___C__DISPLAYCLASS14_0__SHOWLAUNCHERPROTOCOLFALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0x171080C0)
-#define MIHOYO_SDK_PROTOCOLMANAGER___C__DISPLAYCLASS14_0__SHOWLAUNCHERPROTOCOLFALLBACK_B__1_OFFSET UNITYSDK_OFFSET(0x171080F0)
+#define MIHOYO_SDK_PROTOCOLMANAGER___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19EACA00)
+#define MIHOYO_SDK_PROTOCOLMANAGER___C__DISPLAYCLASS14_0__SHOWLAUNCHERPROTOCOLFALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0x19EB7010)
+#define MIHOYO_SDK_PROTOCOLMANAGER___C__DISPLAYCLASS14_0__SHOWLAUNCHERPROTOCOLFALLBACK_B__1_OFFSET UNITYSDK_OFFSET(0x19EB7040)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ProtocolManager___c__DisplayClass14_0_TypeDefinitionIndex = 7999;
+	inline static constexpr unsigned int ProtocolManager___c__DisplayClass14_0_TypeDefinitionIndex = 8003;
 
 	class ProtocolManager___c__DisplayClass14_0 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::ProtocolManager* __4__this; // 0x10
-		::System::Action_1<::System::String*>* callback; // 0x18
+		::System::Action_1<::System::String*>* callback; // 0x10
+		::MiHoYo::SDK::ProtocolManager* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

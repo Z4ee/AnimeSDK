@@ -5,15 +5,15 @@
 
 namespace RPG::GameCore { class FiveDimDoorConfig; }
 
-#define CLASS_1_F05108D2B1B3C204__CTOR_OFFSET UNITYSDK_OFFSET(0x1A024950)
+#define CLASS_1_F05108D2B1B3C204__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE0DB60)
 
-inline static constexpr unsigned int Class_1_F05108D2B1B3C204_TypeDefinitionIndex = 40877;
+inline static constexpr unsigned int Class_1_F05108D2B1B3C204_TypeDefinitionIndex = 41834;
 
 class Class_1_F05108D2B1B3C204 : public ::System::Object
 {
 public:
-	::RPG::GameCore::FiveDimDoorConfig* Field_1_0; // 0x10
-	::Struct_2_78AC041D65798850 Field_1_1; // 0x18
+	::RPG::GameCore::FiveDimDoorConfig* EABKOHGCHFP; // 0x10
+	::Struct_2_78AC041D65798850 BPAPBAFOMCH; // 0x18
 
 	::System::Void _ctor()
 	{

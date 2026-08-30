@@ -4,11 +4,11 @@
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define RPG_CLIENT_TRANSFORMSCREENADAPTER_SCREENADAPTIONKEYFRAME_GET_SCREENSCALE_OFFSET UNITYSDK_OFFSET(0x39D7D50)
+#define RPG_CLIENT_TRANSFORMSCREENADAPTER_SCREENADAPTIONKEYFRAME_GET_SCREENSCALE_OFFSET UNITYSDK_OFFSET(0x3B7A690)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TransformScreenAdapter_ScreenAdaptionKeyframe_TypeDefinitionIndex = 67190;
+	inline static constexpr unsigned int TransformScreenAdapter_ScreenAdaptionKeyframe_TypeDefinitionIndex = 70309;
 
 	struct alignas(4) TransformScreenAdapter_ScreenAdaptionKeyframe
 	{

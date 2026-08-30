@@ -5,18 +5,18 @@
 namespace MiHoYo::SDK { class MiHoYoSDKServer; }
 namespace MiHoYo::SDK { class SecurityTunnel_Packet; }
 
-#define MIHOYO_SDK_MIHOYOSDKSERVER___C__DISPLAYCLASS100_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18512930)
-#define MIHOYO_SDK_MIHOYOSDKSERVER___C__DISPLAYCLASS100_0__ONMESSAGERESPONSE_B__0_OFFSET UNITYSDK_OFFSET(0x18514890)
+#define MIHOYO_SDK_MIHOYOSDKSERVER___C__DISPLAYCLASS100_0__CTOR_OFFSET UNITYSDK_OFFSET(0x194A8180)
+#define MIHOYO_SDK_MIHOYOSDKSERVER___C__DISPLAYCLASS100_0__ONMESSAGERESPONSE_B__0_OFFSET UNITYSDK_OFFSET(0x194AA0E0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKServer___c__DisplayClass100_0_TypeDefinitionIndex = 44594;
+	inline static constexpr unsigned int MiHoYoSDKServer___c__DisplayClass100_0_TypeDefinitionIndex = 46780;
 
 	class MiHoYoSDKServer___c__DisplayClass100_0 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::MiHoYoSDKServer* __4__this; // 0x10
-		::MiHoYo::SDK::SecurityTunnel_Packet* packet; // 0x18
+		::MiHoYo::SDK::SecurityTunnel_Packet* packet; // 0x10
+		::MiHoYo::SDK::MiHoYoSDKServer* __4__this; // 0x18
 		::System::Boolean isSuccess; // 0x20
 
 		::System::Void _ctor()

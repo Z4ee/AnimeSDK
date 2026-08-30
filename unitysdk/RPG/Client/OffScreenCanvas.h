@@ -14,50 +14,50 @@ namespace UnityEngine { class Mesh; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine { class RenderTexture; }
 
-#define RPG_CLIENT_OFFSCREENCANVAS_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1826F6C0)
-#define RPG_CLIENT_OFFSCREENCANVAS_METHOD_5_1CDA0051FD244886_OFFSET UNITYSDK_OFFSET(0x1826EEE0)
-#define RPG_CLIENT_OFFSCREENCANVAS_METHOD_5_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x1826ED00)
-#define RPG_CLIENT_OFFSCREENCANVAS_METHOD_5_9170A99814FEAFAC_OFFSET UNITYSDK_OFFSET(0x18270590)
-#define RPG_CLIENT_OFFSCREENCANVAS_METHOD_5_C0353B6D8FB55332_OFFSET UNITYSDK_OFFSET(0x182715E0)
-#define RPG_CLIENT_OFFSCREENCANVAS_METHOD_5_C638E91FC0D3A13A_OFFSET UNITYSDK_OFFSET(0x18270D50)
-#define RPG_CLIENT_OFFSCREENCANVAS_METHOD_5_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x18270EC0)
-#define RPG_CLIENT_OFFSCREENCANVAS_METHOD_5_E3C376C73DC2AD5B_OFFSET UNITYSDK_OFFSET(0x1826F200)
-#define RPG_CLIENT_OFFSCREENCANVAS_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x18270B60)
-#define RPG_CLIENT_OFFSCREENCANVAS_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1826E840)
-#define RPG_CLIENT_OFFSCREENCANVAS_UPDATERENDERINGLAYERMASK_OFFSET UNITYSDK_OFFSET(0x1826EDB0)
-#define RPG_CLIENT_OFFSCREENCANVAS__CTOR_OFFSET UNITYSDK_OFFSET(0x18271650)
+#define RPG_CLIENT_OFFSCREENCANVAS_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x191C78D0)
+#define RPG_CLIENT_OFFSCREENCANVAS_METHOD_5_1CDA0051FD244886_OFFSET UNITYSDK_OFFSET(0x191C70F0)
+#define RPG_CLIENT_OFFSCREENCANVAS_METHOD_5_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x191C6F10)
+#define RPG_CLIENT_OFFSCREENCANVAS_METHOD_5_9170A99814FEAFAC_OFFSET UNITYSDK_OFFSET(0x191C87A0)
+#define RPG_CLIENT_OFFSCREENCANVAS_METHOD_5_C0353B6D8FB55332_OFFSET UNITYSDK_OFFSET(0x191C97F0)
+#define RPG_CLIENT_OFFSCREENCANVAS_METHOD_5_C638E91FC0D3A13A_OFFSET UNITYSDK_OFFSET(0x191C8F60)
+#define RPG_CLIENT_OFFSCREENCANVAS_METHOD_5_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x191C90D0)
+#define RPG_CLIENT_OFFSCREENCANVAS_METHOD_5_E3C376C73DC2AD5B_OFFSET UNITYSDK_OFFSET(0x191C7410)
+#define RPG_CLIENT_OFFSCREENCANVAS_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x191C8D70)
+#define RPG_CLIENT_OFFSCREENCANVAS_ONENABLE_OFFSET UNITYSDK_OFFSET(0x191C6A50)
+#define RPG_CLIENT_OFFSCREENCANVAS_UPDATERENDERINGLAYERMASK_OFFSET UNITYSDK_OFFSET(0x191C6FC0)
+#define RPG_CLIENT_OFFSCREENCANVAS__CTOR_OFFSET UNITYSDK_OFFSET(0x191C9860)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int OffScreenCanvas_TypeDefinitionIndex = 69336;
+	inline static constexpr unsigned int OffScreenCanvas_TypeDefinitionIndex = 72544;
 
 	class OffScreenCanvas : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::UnityEngine::Material** StaticGet_Field_5_0()
+		static ::UnityEngine::Material** StaticGet_AGOJJMCKENP()
 		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(OffScreenCanvas_TypeDefinitionIndex)->GetStaticField(0x62DD0);
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(OffScreenCanvas_TypeDefinitionIndex)->GetStaticField(0x47720);
 		}
-		static ::Il2CppArray<::RPG::Client::OffScreenCanvas*>** StaticGet_Field_5_1()
+		static ::Il2CppArray<::RPG::Client::OffScreenCanvas*>** StaticGet_IPGKOOHKCEG()
 		{
-			return (::Il2CppArray<::RPG::Client::OffScreenCanvas*>**)Il2CppClass::FromTypeDefinitionIndex(OffScreenCanvas_TypeDefinitionIndex)->GetStaticField(0x62DD8);
+			return (::Il2CppArray<::RPG::Client::OffScreenCanvas*>**)Il2CppClass::FromTypeDefinitionIndex(OffScreenCanvas_TypeDefinitionIndex)->GetStaticField(0x47728);
 		}
-		static ::System::Int32* StaticGet_Field_5_2()
+		static ::System::Int32* StaticGet_GJOLBPEADDF()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OffScreenCanvas_TypeDefinitionIndex)->GetStaticField(0x12F40);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OffScreenCanvas_TypeDefinitionIndex)->GetStaticField(0x10840);
 		}
 		::UnityEngine::Mesh* sharedMesh; // 0x18
 		::System::Int32 sortingOrder; // 0x20
 		::System::Boolean m_UI3D; // 0x24
 		::System::Single FOV; // 0x28
 		::UnityEngine::Material* m_3DMaterial; // 0x30
-		::UnityEngine::Canvas* Field_5_8; // 0x38
-		::UnityEngine::Camera* Field_5_9; // 0x40
-		::UnityEngine::RenderTexture* Field_5_10; // 0x48
-		::System::Int32 Field_5_11; // 0x50
-		::UnityEngine::Camera* Field_5_12; // 0x58
-		::Il2CppArray<::UnityEngine::Vector3>* Field_5_13; // 0x60
-		::RPG::Client::OffScreenCanvas_Class_1_524001C029AD7765* Field_5_14; // 0x68
+		::UnityEngine::Canvas* IOBMLODJAJG; // 0x38
+		::UnityEngine::Camera* KGNCLFHCPBM; // 0x40
+		::UnityEngine::RenderTexture* GMBNAHJNIHN; // 0x48
+		::System::Int32 LHLHPIKIDLJ; // 0x50
+		::UnityEngine::Camera* JGNJKCFMFAN; // 0x58
+		::Il2CppArray<::UnityEngine::Vector3>* HJBIJPKAJNG; // 0x60
+		::RPG::Client::OffScreenCanvas_Class_1_524001C029AD7765* GCBMHAAOANI; // 0x68
 
 		::System::Void _ctor()
 		{

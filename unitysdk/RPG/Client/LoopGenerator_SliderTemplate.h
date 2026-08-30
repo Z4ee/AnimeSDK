@@ -6,12 +6,12 @@
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_LOOPGENERATOR_SLIDERTEMPLATE_GET_TARGETGO_OFFSET UNITYSDK_OFFSET(0x676BA0)
-#define RPG_CLIENT_LOOPGENERATOR_SLIDERTEMPLATE_SET_TARGETGO_OFFSET UNITYSDK_OFFSET(0xA4B360)
+#define RPG_CLIENT_LOOPGENERATOR_SLIDERTEMPLATE_GET_TARGETGO_OFFSET UNITYSDK_OFFSET(0x84C7C0)
+#define RPG_CLIENT_LOOPGENERATOR_SLIDERTEMPLATE_SET_TARGETGO_OFFSET UNITYSDK_OFFSET(0xB596B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LoopGenerator_SliderTemplate_TypeDefinitionIndex = 69649;
+	inline static constexpr unsigned int LoopGenerator_SliderTemplate_TypeDefinitionIndex = 72888;
 
 	struct alignas(8) LoopGenerator_SliderTemplate
 	{

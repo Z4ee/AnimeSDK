@@ -6,10 +6,10 @@ class Class_1_F3F244B8F91CE2D0;
 namespace RPG::Client::DiceCombat { class DiceCombatShopPageParam; }
 namespace RPG::Client::Promises { class IPromise; }
 
-#define CLASS_1_F3F244B8F91CE2D0___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18AE6470)
-#define CLASS_1_F3F244B8F91CE2D0___C__DISPLAYCLASS27_0__HANDLESHOWSHOPPAGE_B__0_OFFSET UNITYSDK_OFFSET(0x18AE9C00)
+#define CLASS_1_F3F244B8F91CE2D0___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF35DC0)
+#define CLASS_1_F3F244B8F91CE2D0___C__DISPLAYCLASS27_0__HANDLESHOWSHOPPAGE_B__0_OFFSET UNITYSDK_OFFSET(0x1AF39550)
 
-inline static constexpr unsigned int Class_1_F3F244B8F91CE2D0___c__DisplayClass27_0_TypeDefinitionIndex = 72198;
+inline static constexpr unsigned int Class_1_F3F244B8F91CE2D0___c__DisplayClass27_0_TypeDefinitionIndex = 75634;
 
 class Class_1_F3F244B8F91CE2D0___c__DisplayClass27_0 : public ::System::Object
 {

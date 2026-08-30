@@ -11,7 +11,7 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2JointUnion_TypeDefinitionIndex = 35154;
+	inline static constexpr unsigned int B2JointUnion_TypeDefinitionIndex = 36015;
 
 	struct alignas(4) B2JointUnion
 	{

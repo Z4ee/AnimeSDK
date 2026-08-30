@@ -4,19 +4,19 @@
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 
-class Class_1_E3C0F091037CDE77;
+class Class_1_C0B6729114B2E0B0;
 namespace System { class Object; }
 
-#define CLASS_2_0292CDB8859EFF93_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x17631200)
-#define CLASS_2_0292CDB8859EFF93_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x17631360)
-#define CLASS_2_0292CDB8859EFF93__CTOR_OFFSET UNITYSDK_OFFSET(0x17631870)
+#define CLASS_2_0292CDB8859EFF93_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x1A7C0A70)
+#define CLASS_2_0292CDB8859EFF93_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x1A7C0BD0)
+#define CLASS_2_0292CDB8859EFF93__CTOR_OFFSET UNITYSDK_OFFSET(0x1A7C10B0)
 
-inline static constexpr unsigned int Class_2_0292CDB8859EFF93_TypeDefinitionIndex = 46136;
+inline static constexpr unsigned int Class_2_0292CDB8859EFF93_TypeDefinitionIndex = 48370;
 
 class Class_2_0292CDB8859EFF93 : public ::UnityEngine::Playables::PlayableBehaviour
 {
 public:
-	::Class_1_E3C0F091037CDE77* Field_2_0; // 0x10
+	::Class_1_C0B6729114B2E0B0* ENNACIEALGC; // 0x10
 
 	::System::Void _ctor()
 	{

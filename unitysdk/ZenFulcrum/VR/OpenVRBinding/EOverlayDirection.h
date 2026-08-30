@@ -3,7 +3,7 @@
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int EOverlayDirection_TypeDefinitionIndex = 37099;
+	inline static constexpr unsigned int EOverlayDirection_TypeDefinitionIndex = 37958;
 
 	enum class EOverlayDirection : ::System::Int32
 	{

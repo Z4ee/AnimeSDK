@@ -9,34 +9,34 @@ namespace RPG::GameCore { class AdventureHitConfig; }
 namespace RPG::GameCore { class GameEntity; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_2_774E7CD324401122_GET_FLAG_OFFSET UNITYSDK_OFFSET(0x16479E30)
-#define CLASS_2_774E7CD324401122_METHOD_2_322530393DCAD1D4_OFFSET UNITYSDK_OFFSET(0x16479360)
-#define CLASS_2_774E7CD324401122_METHOD_2_4B325E2272A25B4C_OFFSET UNITYSDK_OFFSET(0x16479810)
-#define CLASS_2_774E7CD324401122__CTOR_OFFSET UNITYSDK_OFFSET(0x16479320)
+#define CLASS_2_774E7CD324401122_GET_FLAG_OFFSET UNITYSDK_OFFSET(0x15202010)
+#define CLASS_2_774E7CD324401122_METHOD_2_322530393DCAD1D4_OFFSET UNITYSDK_OFFSET(0x15201550)
+#define CLASS_2_774E7CD324401122_METHOD_2_4B325E2272A25B4C_OFFSET UNITYSDK_OFFSET(0x152019F0)
+#define CLASS_2_774E7CD324401122__CTOR_OFFSET UNITYSDK_OFFSET(0x15201510)
 
-inline static constexpr unsigned int Class_2_774E7CD324401122_TypeDefinitionIndex = 54486;
+inline static constexpr unsigned int Class_2_774E7CD324401122_TypeDefinitionIndex = 57207;
 
 class Class_2_774E7CD324401122 : public ::Class_1_9CEAB4C068D9D9DB
 {
 public:
-	::RPG::GameCore::AdventureHitConfig* Field_2_0; // 0x68
-	::UnityEngine::Transform* Field_2_1; // 0x70
-	::RPG::GameCore::GameEntity* Field_2_2; // 0x78
-	::Class_1_CC76D1702CC17C09_5* Field_2_3; // 0x80
-	::System::Single Field_2_4; // 0x88
-	::System::Single Field_2_5; // 0x8C
-	::System::Single Field_2_6; // 0x90
-	::System::Single Field_2_7; // 0x94
-	::System::Single Field_2_8; // 0x98
-	::System::Single Field_2_9; // 0x9C
-	::System::Single Field_2_10; // 0xA0
-	::System::Single Field_2_11; // 0xA4
-	::UnityEngine::Vector3 Field_2_12; // 0xA8
-	::RPG::GameCore::AdventureModifierBehaviorFlag _Flag_k__BackingField; // 0xB4
-	::System::Boolean Field_2_14; // 0xB8
-	::System::Single Field_2_15; // 0xBC
-	::UnityEngine::Vector3 Field_2_16; // 0xC0
-	::System::Single Field_2_17; // 0xCC
+	::RPG::GameCore::GameEntity* KKFCJOJLGCO; // 0x68
+	::UnityEngine::Transform* AFIBNIPMICJ; // 0x70
+	::RPG::GameCore::AdventureHitConfig* PKDMMBCHHIG; // 0x78
+	::Class_1_CC76D1702CC17C09_5* GKPNBPIGELD; // 0x80
+	::System::Single JFJOLFHJKNF; // 0x88
+	::UnityEngine::Vector3 BJNKIKNBFOJ; // 0x8C
+	::System::Single BFGGMAHHOLF; // 0x98
+	::System::Single JALGFHMPGMO; // 0x9C
+	::System::Single FAPCGFINDFF; // 0xA0
+	::System::Single DEEBMCJELGL; // 0xA4
+	::System::Single BGKNMHEKMIA; // 0xA8
+	::RPG::GameCore::AdventureModifierBehaviorFlag _Flag_k__BackingField; // 0xAC
+	::System::Single NMMAFJCIBHG; // 0xB0
+	::System::Single HIHIBOIKOOM; // 0xB4
+	::UnityEngine::Vector3 EKKPMIOJMGM; // 0xB8
+	::System::Boolean EHJOLABCMOD; // 0xC4
+	::System::Single AOEKHGBJIFP; // 0xC8
+	::System::Single AEBJKGGCGDG; // 0xCC
 
 	::System::Void _ctor(::RPG::GameCore::GameEntity* a1)
 	{

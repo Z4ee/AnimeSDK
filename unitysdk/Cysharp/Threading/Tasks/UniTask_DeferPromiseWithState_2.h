@@ -1,0 +1,24 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Cysharp/Threading/Tasks/UniTaskStatus.h"
+#include "unitysdk/Cysharp/Threading/Tasks/UniTask_1.h"
+#include "unitysdk/Cysharp/Threading/Tasks/UniTask_1_Awaiter.h"
+#include "unitysdk/System/Object.h"
+
+namespace System { template <typename T1, typename T2> class Func_2; }
+namespace System { template <typename T> class Action_1; }
+
+namespace Cysharp::Threading::Tasks
+{
+	inline static constexpr unsigned int UniTask_DeferPromiseWithState_2_TypeDefinitionIndex = 42665;
+
+	template <typename TState, typename TResult>
+	class UniTask_DeferPromiseWithState_2 : public ::System::Object
+	{
+	public:
+		::System::Func_2<TState, ::Cysharp::Threading::Tasks::UniTask_1<TResult>>* factory; // 0x0
+		TState argument; // 0x0
+		::Cysharp::Threading::Tasks::UniTask_1<TResult> task; // 0x0
+		::Cysharp::Threading::Tasks::UniTask_1_Awaiter<TResult> awaiter; // 0x0
+	};
+}

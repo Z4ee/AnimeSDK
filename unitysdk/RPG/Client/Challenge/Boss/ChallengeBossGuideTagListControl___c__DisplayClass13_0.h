@@ -4,12 +4,12 @@
 
 namespace RPG::Client::Challenge::Boss { class ChallengeBossGuideTagListControl; }
 
-#define RPG_CLIENT_CHALLENGE_BOSS_CHALLENGEBOSSGUIDETAGLISTCONTROL___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC5FC70)
-#define RPG_CLIENT_CHALLENGE_BOSS_CHALLENGEBOSSGUIDETAGLISTCONTROL___C__DISPLAYCLASS13_0___ONITEMCHANGE_B__0_OFFSET UNITYSDK_OFFSET(0x1AC5FEC0)
+#define RPG_CLIENT_CHALLENGE_BOSS_CHALLENGEBOSSGUIDETAGLISTCONTROL___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C85EC80)
+#define RPG_CLIENT_CHALLENGE_BOSS_CHALLENGEBOSSGUIDETAGLISTCONTROL___C__DISPLAYCLASS13_0___ONITEMCHANGE_B__0_OFFSET UNITYSDK_OFFSET(0x1C85EEE0)
 
 namespace RPG::Client::Challenge::Boss
 {
-	inline static constexpr unsigned int ChallengeBossGuideTagListControl___c__DisplayClass13_0_TypeDefinitionIndex = 76677;
+	inline static constexpr unsigned int ChallengeBossGuideTagListControl___c__DisplayClass13_0_TypeDefinitionIndex = 80314;
 
 	class ChallengeBossGuideTagListControl___c__DisplayClass13_0 : public ::System::Object
 	{

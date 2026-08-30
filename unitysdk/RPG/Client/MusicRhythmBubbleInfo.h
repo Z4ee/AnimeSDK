@@ -5,21 +5,21 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_MUSICRHYTHMBUBBLEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18E8E890)
+#define RPG_CLIENT_MUSICRHYTHMBUBBLEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B71B990)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MusicRhythmBubbleInfo_TypeDefinitionIndex = 57490;
+	inline static constexpr unsigned int MusicRhythmBubbleInfo_TypeDefinitionIndex = 60307;
 
 	class MusicRhythmBubbleInfo : public ::System::Object
 	{
 	public:
-		::System::String* Text; // 0x10
-		::System::String* PeppyText; // 0x18
+		::System::String* PeppyText; // 0x10
+		::System::String* Text; // 0x18
 		::System::UInt32 TextId; // 0x20
 		::System::UInt32 RuntimeId; // 0x24
-		::UnityEngine::Vector3 Position; // 0x28
-		::System::Single Duration; // 0x34
+		::System::Single Duration; // 0x28
+		::UnityEngine::Vector3 Position; // 0x2C
 
 		::System::Void _ctor()
 		{

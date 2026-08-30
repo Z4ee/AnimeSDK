@@ -9,29 +9,29 @@ namespace RPG::GameCore { class GameEntity; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_MAZEWAYPOINTTARGET_GETBILLBOARDIDENTIFIER_OFFSET UNITYSDK_OFFSET(0x1AA0D900)
-#define RPG_CLIENT_MAZEWAYPOINTTARGET_GETTARGETENTITYPOS_OFFSET UNITYSDK_OFFSET(0x1AA0D730)
-#define RPG_CLIENT_MAZEWAYPOINTTARGET_GETTARGETPOS_OFFSET UNITYSDK_OFFSET(0x1AA0D600)
-#define RPG_CLIENT_MAZEWAYPOINTTARGET_GET_IDENTIFIER_OFFSET UNITYSDK_OFFSET(0x1AA0D5F0)
-#define RPG_CLIENT_MAZEWAYPOINTTARGET_ISVISIBLE_OFFSET UNITYSDK_OFFSET(0x1AA0D870)
-#define RPG_CLIENT_MAZEWAYPOINTTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA0D9C0)
+#define RPG_CLIENT_MAZEWAYPOINTTARGET_GETBILLBOARDIDENTIFIER_OFFSET UNITYSDK_OFFSET(0x1B223860)
+#define RPG_CLIENT_MAZEWAYPOINTTARGET_GETTARGETENTITYPOS_OFFSET UNITYSDK_OFFSET(0x1B223690)
+#define RPG_CLIENT_MAZEWAYPOINTTARGET_GETTARGETPOS_OFFSET UNITYSDK_OFFSET(0x1B223560)
+#define RPG_CLIENT_MAZEWAYPOINTTARGET_GET_IDENTIFIER_OFFSET UNITYSDK_OFFSET(0x1B223550)
+#define RPG_CLIENT_MAZEWAYPOINTTARGET_ISVISIBLE_OFFSET UNITYSDK_OFFSET(0x1B2237D0)
+#define RPG_CLIENT_MAZEWAYPOINTTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x1B223910)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MazeWaypointTarget_TypeDefinitionIndex = 65998;
+	inline static constexpr unsigned int MazeWaypointTarget_TypeDefinitionIndex = 69037;
 
 	class MazeWaypointTarget : public ::System::Object
 	{
 	public:
-		::RPG::Client::Billboard::BillboardIdentifier* _BillboardIdentifier; // 0x10
+		::RPG::GameCore::GameEntity* TargetEntity; // 0x10
 		::UnityEngine::GameObject* TargetObject; // 0x18
-		::RPG::GameCore::GameEntity* TargetEntity; // 0x20
-		::UnityEngine::Transform* TargetTransform; // 0x28
-		::RPG::Client::WaypointIdentifier* WaypointIdentifier; // 0x30
-		::System::UInt32 GroupID; // 0x38
-		::System::UInt32 InstanceID; // 0x3C
-		::System::Boolean IsGameObject; // 0x40
-		::UnityEngine::Vector3 TargetPos; // 0x44
+		::RPG::Client::Billboard::BillboardIdentifier* _BillboardIdentifier; // 0x20
+		::RPG::Client::WaypointIdentifier* WaypointIdentifier; // 0x28
+		::UnityEngine::Transform* TargetTransform; // 0x30
+		::UnityEngine::Vector3 TargetPos; // 0x38
+		::System::UInt32 GroupID; // 0x44
+		::System::Boolean IsGameObject; // 0x48
+		::System::UInt32 InstanceID; // 0x4C
 
 		::System::Void _ctor()
 		{

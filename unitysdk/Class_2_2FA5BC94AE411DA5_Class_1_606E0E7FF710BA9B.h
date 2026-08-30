@@ -4,14 +4,14 @@
 
 namespace System { template <typename T> class Action_1; }
 
-#define CLASS_2_2FA5BC94AE411DA5_CLASS_1_606E0E7FF710BA9B__CTOR_OFFSET UNITYSDK_OFFSET(0x171E1350)
+#define CLASS_2_2FA5BC94AE411DA5_CLASS_1_606E0E7FF710BA9B__CTOR_OFFSET UNITYSDK_OFFSET(0x19FDE1B0)
 
-inline static constexpr unsigned int Class_2_2FA5BC94AE411DA5_Class_1_606E0E7FF710BA9B_TypeDefinitionIndex = 68041;
+inline static constexpr unsigned int Class_2_2FA5BC94AE411DA5_Class_1_606E0E7FF710BA9B_TypeDefinitionIndex = 71214;
 
 class Class_2_2FA5BC94AE411DA5_Class_1_606E0E7FF710BA9B : public ::System::Object
 {
 public:
-	::System::Action_1<::System::Boolean>* Field_1_0; // 0x10
+	::System::Action_1<::System::Boolean>* CPCDLFOLABH; // 0x10
 
 	::System::Void _ctor()
 	{

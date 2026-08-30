@@ -8,12 +8,12 @@ namespace RPG::GameCore { class ActionDelayPreshowConfig; }
 namespace RPG::GameCore { class PredicateConfig; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_MODIFIERAFFECTEDPRESHOWCONFIG_METHOD_2_D2C6137E74341612_OFFSET UNITYSDK_OFFSET(0x1AF6F5A0)
-#define RPG_GAMECORE_MODIFIERAFFECTEDPRESHOWCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF6F850)
+#define RPG_GAMECORE_MODIFIERAFFECTEDPRESHOWCONFIG_METHOD_2_D2C6137E74341612_OFFSET UNITYSDK_OFFSET(0x1D1B0630)
+#define RPG_GAMECORE_MODIFIERAFFECTEDPRESHOWCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1B08E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifierAffectedPreshowConfig_TypeDefinitionIndex = 17450;
+	inline static constexpr unsigned int ModifierAffectedPreshowConfig_TypeDefinitionIndex = 17967;
 
 	class ModifierAffectedPreshowConfig : public ::RPG::GameCore::JsonConfig
 	{

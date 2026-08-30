@@ -1,9 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-class Class_2_B66C1067C0468FBB;
+namespace RPG::Client::NavMap { class ISubNavMap; }
+namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1224_TypeDefinitionIndex = 73631;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1224_TypeDefinitionIndex = 74500;
 
 class Class_0_16E4307DCC419505_1224
 {

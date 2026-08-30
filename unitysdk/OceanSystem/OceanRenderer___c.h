@@ -7,24 +7,24 @@ namespace OceanSystem { class OceanRenderer; }
 namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 namespace UnityEngine { class Camera; }
 
-#define OCEANSYSTEM_OCEANRENDERER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15F63780)
-#define OCEANSYSTEM_OCEANRENDERER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15F637C0)
-#define OCEANSYSTEM_OCEANRENDERER___C__GET_ONBEGINCAMERARENDERING_B__58_0_OFFSET UNITYSDK_OFFSET(0x15F637D0)
+#define OCEANSYSTEM_OCEANRENDERER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17D5F8E0)
+#define OCEANSYSTEM_OCEANRENDERER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17D5F920)
+#define OCEANSYSTEM_OCEANRENDERER___C__GET_ONBEGINCAMERARENDERING_B__58_0_OFFSET UNITYSDK_OFFSET(0x17D5F930)
 
 namespace OceanSystem
 {
-	inline static constexpr unsigned int OceanRenderer___c_TypeDefinitionIndex = 47138;
+	inline static constexpr unsigned int OceanRenderer___c_TypeDefinitionIndex = 49404;
 
 	class OceanRenderer___c : public ::System::Object
 	{
 	public:
 		static ::System::Action_3<::OceanSystem::OceanRenderer*, ::UnityEngine::Rendering::ScriptableRenderContext, ::UnityEngine::Camera*>** StaticGet___9__58_0()
 		{
-			return (::System::Action_3<::OceanSystem::OceanRenderer*, ::UnityEngine::Rendering::ScriptableRenderContext, ::UnityEngine::Camera*>**)Il2CppClass::FromTypeDefinitionIndex(OceanRenderer___c_TypeDefinitionIndex)->GetStaticField(0x8480);
+			return (::System::Action_3<::OceanSystem::OceanRenderer*, ::UnityEngine::Rendering::ScriptableRenderContext, ::UnityEngine::Camera*>**)Il2CppClass::FromTypeDefinitionIndex(OceanRenderer___c_TypeDefinitionIndex)->GetStaticField(0x14C80);
 		}
 		static ::OceanSystem::OceanRenderer___c** StaticGet___9()
 		{
-			return (::OceanSystem::OceanRenderer___c**)Il2CppClass::FromTypeDefinitionIndex(OceanRenderer___c_TypeDefinitionIndex)->GetStaticField(0x8488);
+			return (::OceanSystem::OceanRenderer___c**)Il2CppClass::FromTypeDefinitionIndex(OceanRenderer___c_TypeDefinitionIndex)->GetStaticField(0x14C88);
 		}
 
 		static ::System::Void _cctor()

@@ -5,22 +5,22 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define SYSTEM_NUMERICS_MATRIX4X4_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x3AFFA20)
-#define SYSTEM_NUMERICS_MATRIX4X4_EQUALS_OFFSET UNITYSDK_OFFSET(0x3AFF910)
-#define SYSTEM_NUMERICS_MATRIX4X4_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3AFFA40)
-#define SYSTEM_NUMERICS_MATRIX4X4_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3AFFA30)
-#define SYSTEM_NUMERICS_MATRIX4X4__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D293950)
-#define SYSTEM_NUMERICS_MATRIX4X4__CTOR_OFFSET UNITYSDK_OFFSET(0x3AFF7A0)
+#define SYSTEM_NUMERICS_MATRIX4X4_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x3C99880)
+#define SYSTEM_NUMERICS_MATRIX4X4_EQUALS_OFFSET UNITYSDK_OFFSET(0x3C99770)
+#define SYSTEM_NUMERICS_MATRIX4X4_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3C998A0)
+#define SYSTEM_NUMERICS_MATRIX4X4_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C99890)
+#define SYSTEM_NUMERICS_MATRIX4X4__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EF8BB80)
+#define SYSTEM_NUMERICS_MATRIX4X4__CTOR_OFFSET UNITYSDK_OFFSET(0x3C99600)
 
 namespace System::Numerics
 {
-	inline static constexpr unsigned int Matrix4x4_TypeDefinitionIndex = 3849;
+	inline static constexpr unsigned int Matrix4x4_TypeDefinitionIndex = 3857;
 
 	struct alignas(4) Matrix4x4
 	{
 		static ::System::Numerics::Matrix4x4* StaticGet__identity()
 		{
-			return (::System::Numerics::Matrix4x4*)Il2CppClass::FromTypeDefinitionIndex(Matrix4x4_TypeDefinitionIndex)->GetStaticField(0xD0);
+			return (::System::Numerics::Matrix4x4*)Il2CppClass::FromTypeDefinitionIndex(Matrix4x4_TypeDefinitionIndex)->GetStaticField(0xB0);
 		}
 		::System::Single M11; // 0x10
 		::System::Single M12; // 0x14

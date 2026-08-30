@@ -6,11 +6,11 @@
 namespace System { class String; }
 namespace UnityEngine { class Camera; }
 
-#define RPG_CLIENT_CUSTOMCRPSAMPLESETINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x18085270)
+#define RPG_CLIENT_CUSTOMCRPSAMPLESETINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x192D3720)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CustomCRPSampleSetings_TypeDefinitionIndex = 66972;
+	inline static constexpr unsigned int CustomCRPSampleSetings_TypeDefinitionIndex = 70077;
 
 	class CustomCRPSampleSetings : public ::System::Object
 	{
@@ -19,7 +19,8 @@ namespace RPG::Client
 		::System::Boolean UseSampleCamera; // 0x18
 		::UnityEngine::Camera* SampleCamera; // 0x20
 		::System::String* SampleCameraAnimPath; // 0x28
-		::RPG::CustomRP::VCMask BindVCMask; // 0x30
+		::System::Boolean SyncFromMainCamera; // 0x30
+		::RPG::CustomRP::VCMask BindVCMask; // 0x34
 
 		::System::Void _ctor()
 		{

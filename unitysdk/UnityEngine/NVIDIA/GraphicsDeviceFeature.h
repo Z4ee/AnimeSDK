@@ -3,7 +3,7 @@
 
 namespace UnityEngine::NVIDIA
 {
-	inline static constexpr unsigned int GraphicsDeviceFeature_TypeDefinitionIndex = 5014;
+	inline static constexpr unsigned int GraphicsDeviceFeature_TypeDefinitionIndex = 5026;
 
 	enum class GraphicsDeviceFeature : ::System::Int32
 	{

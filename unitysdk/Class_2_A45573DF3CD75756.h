@@ -7,17 +7,17 @@ namespace RPG::Client { class GridFightRoleStarConfig; }
 namespace System { class Object; }
 namespace System::ComponentModel { class PropertyChangedEventArgs; }
 
-#define CLASS_2_A45573DF3CD75756_METHOD_2_18982EFD3B740683_OFFSET UNITYSDK_OFFSET(0x173CE700)
-#define CLASS_2_A45573DF3CD75756_METHOD_2_27378F13CCC86733_OFFSET UNITYSDK_OFFSET(0x173CE580)
-#define CLASS_2_A45573DF3CD75756__CTOR_OFFSET UNITYSDK_OFFSET(0x173CE4A0)
+#define CLASS_2_A45573DF3CD75756_METHOD_2_18982EFD3B740683_OFFSET UNITYSDK_OFFSET(0x16887AC0)
+#define CLASS_2_A45573DF3CD75756_METHOD_2_27378F13CCC86733_OFFSET UNITYSDK_OFFSET(0x16887940)
+#define CLASS_2_A45573DF3CD75756__CTOR_OFFSET UNITYSDK_OFFSET(0x16887860)
 
-inline static constexpr unsigned int Class_2_A45573DF3CD75756_TypeDefinitionIndex = 62210;
+inline static constexpr unsigned int Class_2_A45573DF3CD75756_TypeDefinitionIndex = 65195;
 
 class Class_2_A45573DF3CD75756 : public ::Class_1_ED6312566761D69A
 {
 public:
-	::RPG::Client::GridFightRoleStarConfig* Field_2_0; // 0x20
-	::RPG::Client::GridFightRole* Field_2_1; // 0x28
+	::RPG::Client::GridFightRole* IAHCEGHHCKB; // 0x20
+	::RPG::Client::GridFightRoleStarConfig* GFBHILKDOEB; // 0x28
 
 	::System::Void _ctor(::RPG::Client::GridFightRole* a1)
 	{

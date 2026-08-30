@@ -7,10 +7,10 @@ namespace RPG::GameCore { class TargetMapSummonedMinions; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_8BFB3F476AABC2B6_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x14B9B890)
-#define CLASS_2_8BFB3F476AABC2B6__CTOR_OFFSET UNITYSDK_OFFSET(0x14B9B870)
+#define CLASS_2_8BFB3F476AABC2B6_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x16041D50)
+#define CLASS_2_8BFB3F476AABC2B6__CTOR_OFFSET UNITYSDK_OFFSET(0x16041D30)
 
-inline static constexpr unsigned int Class_2_8BFB3F476AABC2B6_TypeDefinitionIndex = 56611;
+inline static constexpr unsigned int Class_2_8BFB3F476AABC2B6_TypeDefinitionIndex = 59395;
 
 class Class_2_8BFB3F476AABC2B6 : public ::RPG::GameCore::TargetSeqOperationImpl_1<::RPG::GameCore::TargetMapSummonedMinions*>
 {

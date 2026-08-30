@@ -4,25 +4,25 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_GRIDFIGHTSHOPPRICECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D076FF0)
-#define RPG_GAMECORE_GRIDFIGHTSHOPPRICECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0772D0)
+#define RPG_GAMECORE_GRIDFIGHTSHOPPRICECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3B9110)
+#define RPG_GAMECORE_GRIDFIGHTSHOPPRICECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3B93F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightShopPriceConfigRow_TypeDefinitionIndex = 13096;
+	inline static constexpr unsigned int GridFightShopPriceConfigRow_TypeDefinitionIndex = 13487;
 
 	class GridFightShopPriceConfigRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 SellGoldStar1; // 0x10
-		::System::UInt32 SellGoldStar3; // 0x14
-		::System::UInt32 SellGoldStar2; // 0x18
-		::System::UInt32 BuyGoldStar4; // 0x1C
-		::System::UInt32 BuyGoldStar3; // 0x20
-		::System::UInt32 BuyGoldStar1; // 0x24
-		::System::UInt32 SellGoldStar4; // 0x28
-		::System::UInt32 Rarity; // 0x2C
-		::System::UInt32 BuyGoldStar2; // 0x30
+		::System::UInt32 BuyGoldStar4; // 0x10
+		::System::UInt32 BuyGoldStar1; // 0x14
+		::System::UInt32 BuyGoldStar2; // 0x18
+		::System::UInt32 SellGoldStar3; // 0x1C
+		::System::UInt32 SellGoldStar1; // 0x20
+		::System::UInt32 SellGoldStar2; // 0x24
+		::System::UInt32 Rarity; // 0x28
+		::System::UInt32 SellGoldStar4; // 0x2C
+		::System::UInt32 BuyGoldStar3; // 0x30
 
 		::System::Void _ctor()
 		{

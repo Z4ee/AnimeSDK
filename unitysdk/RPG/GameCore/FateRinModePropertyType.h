@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FateRinModePropertyType_TypeDefinitionIndex = 23585;
+	inline static constexpr unsigned int FateRinModePropertyType_TypeDefinitionIndex = 24170;
 
 	enum class FateRinModePropertyType : ::System::Int32
 	{

@@ -7,17 +7,17 @@
 class Class_1_40503CAE2FA0ADB9;
 namespace System { class Type; }
 
-#define CLASS_1_151DC54AE55F6661_METHOD_1_B134BE7A6D34BAC7_OFFSET UNITYSDK_OFFSET(0x15FCE500)
-#define CLASS_1_151DC54AE55F6661__CCTOR_OFFSET UNITYSDK_OFFSET(0x15FCE6D0)
+#define CLASS_1_151DC54AE55F6661_METHOD_1_B134BE7A6D34BAC7_OFFSET UNITYSDK_OFFSET(0x18D19890)
+#define CLASS_1_151DC54AE55F6661__CCTOR_OFFSET UNITYSDK_OFFSET(0x18D19A60)
 
-inline static constexpr unsigned int Class_1_151DC54AE55F6661_TypeDefinitionIndex = 51159;
+inline static constexpr unsigned int Class_1_151DC54AE55F6661_TypeDefinitionIndex = 53843;
 
 class Class_1_151DC54AE55F6661 : public ::System::Object
 {
 public:
-	static ::Il2CppArray<::System::ValueTuple_2<::RPG::GameCore::BattleModeType, ::System::Type*>>** StaticGet_Field_1_0()
+	static ::Il2CppArray<::System::ValueTuple_2<::RPG::GameCore::BattleModeType, ::System::Type*>>** StaticGet_HKHFDOODKOA()
 	{
-		return (::Il2CppArray<::System::ValueTuple_2<::RPG::GameCore::BattleModeType, ::System::Type*>>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_151DC54AE55F6661_TypeDefinitionIndex)->GetStaticField(0x3C7B0);
+		return (::Il2CppArray<::System::ValueTuple_2<::RPG::GameCore::BattleModeType, ::System::Type*>>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_151DC54AE55F6661_TypeDefinitionIndex)->GetStaticField(0x63BF0);
 	}
 
 	static ::System::Void _cctor()

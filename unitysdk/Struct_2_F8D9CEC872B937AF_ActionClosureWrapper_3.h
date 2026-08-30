@@ -5,7 +5,7 @@
 
 namespace System { template <typename T> class Action_1; }
 
-inline static constexpr unsigned int Struct_2_F8D9CEC872B937AF_ActionClosureWrapper_3_TypeDefinitionIndex = 6815;
+inline static constexpr unsigned int Struct_2_F8D9CEC872B937AF_ActionClosureWrapper_3_TypeDefinitionIndex = 6427;
 
 template <typename T0, typename T1, typename T2>
 class Struct_2_F8D9CEC872B937AF_ActionClosureWrapper_3 : public ::System::Object

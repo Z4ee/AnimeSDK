@@ -3,14 +3,14 @@
 #include "unitysdk/Class_2_5085E4EFF538DE73_2_InspectType.h"
 #include "unitysdk/System/Attribute.h"
 
-#define CLASS_2_5085E4EFF538DE73_2__CTOR_OFFSET UNITYSDK_OFFSET(0x1B335170)
+#define CLASS_2_5085E4EFF538DE73_2__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF3E580)
 
-inline static constexpr unsigned int Class_2_5085E4EFF538DE73_2_TypeDefinitionIndex = 24170;
+inline static constexpr unsigned int Class_2_5085E4EFF538DE73_2_TypeDefinitionIndex = 24759;
 
 class Class_2_5085E4EFF538DE73_2 : public ::System::Attribute
 {
 public:
-	::Class_2_5085E4EFF538DE73_2_InspectType Field_2_0; // 0x10
+	::Class_2_5085E4EFF538DE73_2_InspectType GMPGDEINODK; // 0x10
 
 	::System::Void _ctor(::Class_2_5085E4EFF538DE73_2_InspectType a1)
 	{

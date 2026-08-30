@@ -3,7 +3,7 @@
 
 namespace RPG::Client::SwordTraining
 {
-	inline static constexpr unsigned int SwordTrainingGameStateType_TypeDefinitionIndex = 71425;
+	inline static constexpr unsigned int SwordTrainingGameStateType_TypeDefinitionIndex = 74731;
 
 	enum class SwordTrainingGameStateType : ::System::Int32
 	{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define EPIC_ONLINESERVICES_ACHIEVEMENTS_ADDNOTIFYACHIEVEMENTSUNLOCKEDV2OPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDAA570)
+#define EPIC_ONLINESERVICES_ACHIEVEMENTS_ADDNOTIFYACHIEVEMENTSUNLOCKEDV2OPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB67280)
 
 namespace Epic::OnlineServices::Achievements
 {
-	inline static constexpr unsigned int AddNotifyAchievementsUnlockedV2Options_TypeDefinitionIndex = 44249;
+	inline static constexpr unsigned int AddNotifyAchievementsUnlockedV2Options_TypeDefinitionIndex = 46431;
 
 	class AddNotifyAchievementsUnlockedV2Options : public ::System::Object
 	{

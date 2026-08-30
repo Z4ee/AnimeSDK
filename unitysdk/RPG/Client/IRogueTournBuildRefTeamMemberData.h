@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IRogueTournBuildRefTeamMemberData_TypeDefinitionIndex = 64515;
+	inline static constexpr unsigned int IRogueTournBuildRefTeamMemberData_TypeDefinitionIndex = 67511;
 
 	class IRogueTournBuildRefTeamMemberData
 	{

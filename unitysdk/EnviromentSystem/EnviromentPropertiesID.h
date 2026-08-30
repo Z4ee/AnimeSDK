@@ -3,7 +3,7 @@
 
 namespace EnviromentSystem
 {
-	inline static constexpr unsigned int EnviromentPropertiesID_TypeDefinitionIndex = 47729;
+	inline static constexpr unsigned int EnviromentPropertiesID_TypeDefinitionIndex = 50010;
 
 	enum class EnviromentPropertiesID : ::System::Int32
 	{
@@ -219,6 +219,11 @@ namespace EnviromentSystem
 		CloudShadowBias = 209,
 		CloudShadowSpeed = 210,
 		CloudShadowMaxHeight = 211,
-		Max = 212,
+		CameraFarClipPlane = 212,
+		SimpRTXIntensity = 213,
+		SceneLightIntensity_Middle = 214,
+		SceneLightIntensity_Low = 215,
+		OneMinusGlobalMainIntensity = 216,
+		Max = 217,
 	};
 }

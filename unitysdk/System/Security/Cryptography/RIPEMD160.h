@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Security/Cryptography/HashAlgorithm.h"
 
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIPEMD160_CREATE_OFFSET UNITYSDK_OFFSET(0x1836BFF0)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIPEMD160__CTOR_OFFSET UNITYSDK_OFFSET(0x1836BFE0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIPEMD160_CREATE_OFFSET UNITYSDK_OFFSET(0x19BC5850)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIPEMD160__CTOR_OFFSET UNITYSDK_OFFSET(0x19BC5840)
 
 namespace System::Security::Cryptography
 {
-	inline static constexpr unsigned int RIPEMD160_TypeDefinitionIndex = 1039;
+	inline static constexpr unsigned int RIPEMD160_TypeDefinitionIndex = 1046;
 
 	class RIPEMD160 : public ::System::Security::Cryptography::HashAlgorithm
 	{

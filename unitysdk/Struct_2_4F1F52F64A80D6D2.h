@@ -4,15 +4,15 @@
 
 namespace System { class String; }
 
-#define STRUCT_2_4F1F52F64A80D6D2_TOSTRING_OFFSET UNITYSDK_OFFSET(0x38F0F30)
+#define STRUCT_2_4F1F52F64A80D6D2_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3AB5370)
 
-inline static constexpr unsigned int Struct_2_4F1F52F64A80D6D2_TypeDefinitionIndex = 71121;
+inline static constexpr unsigned int Struct_2_4F1F52F64A80D6D2_TypeDefinitionIndex = 74420;
 
 struct alignas(4) Struct_2_4F1F52F64A80D6D2
 {
-	::System::UInt32 Field_2_0; // 0x10
-	::System::UInt32 Field_2_1; // 0x14
-	::System::UInt32 Field_2_2; // 0x18
+	::System::UInt32 LLDCHLHNADA; // 0x10
+	::System::UInt32 GDBJDAOOCOH; // 0x14
+	::System::UInt32 ODMPMJCAHPN; // 0x18
 
 	::System::String* ToString()
 	{

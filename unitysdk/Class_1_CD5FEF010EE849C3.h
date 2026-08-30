@@ -10,12 +10,12 @@ namespace System::Collections::Generic { template <typename T> class LinkedListN
 namespace System::Collections::Generic { template <typename T> class LinkedList_1; }
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
-inline static constexpr unsigned int Class_1_CD5FEF010EE849C3_TypeDefinitionIndex = 41241;
+inline static constexpr unsigned int Class_1_CD5FEF010EE849C3_TypeDefinitionIndex = 42201;
 
 template <typename T>
 class Class_1_CD5FEF010EE849C3 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::LinkedList_1<T>* Field_1_0; // 0x0
-	::System::Collections::Generic::Queue_1<::System::Collections::Generic::LinkedListNode_1<T>*>* Field_1_1; // 0x0
+	::System::Collections::Generic::LinkedList_1<T>* LALGCEKCFKN; // 0x0
+	::System::Collections::Generic::Queue_1<::System::Collections::Generic::LinkedListNode_1<T>*>* BFIEJDIEHNN; // 0x0
 };

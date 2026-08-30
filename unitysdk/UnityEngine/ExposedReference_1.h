@@ -8,7 +8,7 @@ namespace UnityEngine { class Object; }
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ExposedReference_1_TypeDefinitionIndex = 4064;
+	inline static constexpr unsigned int ExposedReference_1_TypeDefinitionIndex = 4072;
 
 	template <typename T>
 	struct ExposedReference_1

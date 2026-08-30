@@ -4,19 +4,19 @@
 
 namespace RPG::Client::Prop { class ChimeraDuelBubbleEvent; }
 
-#define CLASS_2_4D7E8AD230C47EB3_METHOD_2_479759059E440327_OFFSET UNITYSDK_OFFSET(0x162EC8B0)
-#define CLASS_2_4D7E8AD230C47EB3_METHOD_2_89D1F247B9D324EE_OFFSET UNITYSDK_OFFSET(0x162EC810)
-#define CLASS_2_4D7E8AD230C47EB3__CTOR_OFFSET UNITYSDK_OFFSET(0x162EC800)
+#define CLASS_2_4D7E8AD230C47EB3_METHOD_2_479759059E440327_OFFSET UNITYSDK_OFFSET(0x164124B0)
+#define CLASS_2_4D7E8AD230C47EB3_METHOD_2_89D1F247B9D324EE_OFFSET UNITYSDK_OFFSET(0x16412410)
+#define CLASS_2_4D7E8AD230C47EB3__CTOR_OFFSET UNITYSDK_OFFSET(0x16412400)
 
-inline static constexpr unsigned int Class_2_4D7E8AD230C47EB3_TypeDefinitionIndex = 74309;
+inline static constexpr unsigned int Class_2_4D7E8AD230C47EB3_TypeDefinitionIndex = 77794;
 
 class Class_2_4D7E8AD230C47EB3 : public ::Class_1_FD611945730E269E
 {
 public:
-	::RPG::Client::Prop::ChimeraDuelBubbleEvent* Field_2_0; // 0x18
-	::System::Single Field_2_1; // 0x20
-	::System::Boolean Field_2_2; // 0x24
-	::System::Boolean Field_2_3; // 0x25
+	::RPG::Client::Prop::ChimeraDuelBubbleEvent* FLPMDDEMIBJ; // 0x18
+	::System::Boolean MFLJMFPCNFL; // 0x20
+	::System::Boolean OELBLBCINNB; // 0x21
+	::System::Single HBDJCFFDGDD; // 0x24
 
 	::System::Void _ctor(::RPG::Client::Prop::ChimeraDuelBubbleEvent* a1, ::System::Boolean a2)
 	{

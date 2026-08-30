@@ -1,28 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_CA217ABF4E3B4F3F.h"
+#include "unitysdk/Class_1_34917908B7833130.h"
 #include "unitysdk/RPG/GameCore/AttackDamageType.h"
 
 namespace System { class String; }
 namespace UnityEngine { class Animation; }
 namespace UnityEngine { class GameObject; }
 
-#define CLASS_2_BD07726827556B99_METHOD_2_60DC879ACE99CF48_OFFSET UNITYSDK_OFFSET(0x15B1BD20)
-#define CLASS_2_BD07726827556B99_METHOD_2_8F2C9C3A2496EDD2_OFFSET UNITYSDK_OFFSET(0x15B1BEB0)
-#define CLASS_2_BD07726827556B99_METHOD_2_E1974D12B5E346A6_OFFSET UNITYSDK_OFFSET(0x15B1BD90)
-#define CLASS_2_BD07726827556B99__CTOR_OFFSET UNITYSDK_OFFSET(0x15B1BFB0)
-#define CLASS_2_BD07726827556B99__ONBIND_OFFSET UNITYSDK_OFFSET(0x15B1BCC0)
+#define CLASS_2_BD07726827556B99_METHOD_2_60DC879ACE99CF48_OFFSET UNITYSDK_OFFSET(0x177C6DD0)
+#define CLASS_2_BD07726827556B99_METHOD_2_8F2C9C3A2496EDD2_OFFSET UNITYSDK_OFFSET(0x177C6F60)
+#define CLASS_2_BD07726827556B99_METHOD_2_E1974D12B5E346A6_OFFSET UNITYSDK_OFFSET(0x177C6E40)
+#define CLASS_2_BD07726827556B99__CTOR_OFFSET UNITYSDK_OFFSET(0x177C7060)
+#define CLASS_2_BD07726827556B99__ONBIND_OFFSET UNITYSDK_OFFSET(0x177C6D70)
 
-inline static constexpr unsigned int Class_2_BD07726827556B99_TypeDefinitionIndex = 68680;
+inline static constexpr unsigned int Class_2_BD07726827556B99_TypeDefinitionIndex = 71878;
 
-class Class_2_BD07726827556B99 : public ::Class_1_CA217ABF4E3B4F3F
+class Class_2_BD07726827556B99 : public ::Class_1_34917908B7833130
 {
 public:
-	// static const ::System::String* Field_2_0; // 0x0
-	// static const ::System::String* Field_2_1; // 0x0
-	::UnityEngine::GameObject* Field_2_2; // 0x60
-	::UnityEngine::Animation* Field_2_3; // 0x68
-	::RPG::GameCore::AttackDamageType Field_2_4; // 0x70
+	// static const ::System::String* AILCOOFIDPG; // 0x0
+	// static const ::System::String* IIPEBGKKNLC; // 0x0
+	::UnityEngine::Animation* PMOJILOJEPE; // 0x60
+	::UnityEngine::GameObject* ADBCGAPLGOL; // 0x68
+	::RPG::GameCore::AttackDamageType OBEKPICAOGA; // 0x70
 
 	::System::Void _ctor()
 	{

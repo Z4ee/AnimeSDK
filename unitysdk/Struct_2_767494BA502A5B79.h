@@ -4,9 +4,9 @@
 
 class FiveDimPlayerSkillCurveAsset;
 
-inline static constexpr unsigned int Struct_2_767494BA502A5B79_TypeDefinitionIndex = 40756;
+inline static constexpr unsigned int Struct_2_767494BA502A5B79_TypeDefinitionIndex = 41709;
 
 struct alignas(8) Struct_2_767494BA502A5B79
 {
-	::FiveDimPlayerSkillCurveAsset* Field_2_0; // 0x10
+	::FiveDimPlayerSkillCurveAsset* BOJOINLEEIC; // 0x10
 };

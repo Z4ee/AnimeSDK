@@ -8,29 +8,29 @@ namespace UnityEngine { class Animator; }
 namespace UnityEngine { class Collider; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_0F1ECB28664B98E3_CLEAR_OFFSET UNITYSDK_OFFSET(0x16F76E10)
-#define CLASS_1_0F1ECB28664B98E3_GET_DEFAULT_OFFSET UNITYSDK_OFFSET(0x16F76E60)
-#define CLASS_1_0F1ECB28664B98E3_METHOD_1_5D0387964FCFFB35_OFFSET UNITYSDK_OFFSET(0x16F76D80)
-#define CLASS_1_0F1ECB28664B98E3__CCTOR_OFFSET UNITYSDK_OFFSET(0x16F76EA0)
-#define CLASS_1_0F1ECB28664B98E3__CTOR_OFFSET UNITYSDK_OFFSET(0x16F76E90)
+#define CLASS_1_0F1ECB28664B98E3_CLEAR_OFFSET UNITYSDK_OFFSET(0x19996E40)
+#define CLASS_1_0F1ECB28664B98E3_GET_DEFAULT_OFFSET UNITYSDK_OFFSET(0x19996E90)
+#define CLASS_1_0F1ECB28664B98E3_METHOD_1_5D0387964FCFFB35_OFFSET UNITYSDK_OFFSET(0x19996DB0)
+#define CLASS_1_0F1ECB28664B98E3__CCTOR_OFFSET UNITYSDK_OFFSET(0x19996ED0)
+#define CLASS_1_0F1ECB28664B98E3__CTOR_OFFSET UNITYSDK_OFFSET(0x19996EC0)
 
-inline static constexpr unsigned int Class_1_0F1ECB28664B98E3_TypeDefinitionIndex = 56386;
+inline static constexpr unsigned int Class_1_0F1ECB28664B98E3_TypeDefinitionIndex = 59170;
 
 class Class_1_0F1ECB28664B98E3 : public ::System::Object
 {
 public:
 	static ::Class_1_0F1ECB28664B98E3** StaticGet__Default_k__BackingField()
 	{
-		return (::Class_1_0F1ECB28664B98E3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_0F1ECB28664B98E3_TypeDefinitionIndex)->GetStaticField(0x2DA30);
+		return (::Class_1_0F1ECB28664B98E3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_0F1ECB28664B98E3_TypeDefinitionIndex)->GetStaticField(0x595C0);
 	}
-	::UnityEngine::Transform* Field_1_1; // 0x10
-	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Int32>* Field_1_2; // 0x18
-	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::UnityEngine::Collider*>* Field_1_3; // 0x20
-	::RPG::GameCore::GameEntity* Field_1_4; // 0x28
-	::UnityEngine::Animator* Field_1_5; // 0x30
-	::System::Boolean Field_1_6; // 0x38
-	::System::Boolean Field_1_7; // 0x39
-	::System::Boolean Field_1_8; // 0x3A
+	::UnityEngine::Animator* GGGAOBEGLMF; // 0x10
+	::RPG::GameCore::GameEntity* AMOFODFOLMI; // 0x18
+	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Int32>* LLOJAIPHMJF; // 0x20
+	::UnityEngine::Transform* LAJLLONHPIN; // 0x28
+	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::UnityEngine::Collider*>* HOMINEFDDAH; // 0x30
+	::System::Boolean AHCKLBHFBNF; // 0x38
+	::System::Boolean PGMGKJFDEBJ; // 0x39
+	::System::Boolean MDFJGHEHHJG; // 0x3A
 
 	::System::Void _ctor()
 	{

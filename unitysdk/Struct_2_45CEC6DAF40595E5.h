@@ -3,18 +3,19 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define STRUCT_2_45CEC6DAF40595E5_METHOD_2_A36D9629D1F19886_OFFSET UNITYSDK_OFFSET(0x3A0A9D0)
-#define STRUCT_2_45CEC6DAF40595E5__CTOR_OFFSET UNITYSDK_OFFSET(0x3A0A920)
+#define STRUCT_2_45CEC6DAF40595E5_METHOD_2_A36D9629D1F19886_OFFSET UNITYSDK_OFFSET(0x3B20820)
+#define STRUCT_2_45CEC6DAF40595E5__CTOR_OFFSET UNITYSDK_OFFSET(0x3B20750)
 
-inline static constexpr unsigned int Struct_2_45CEC6DAF40595E5_TypeDefinitionIndex = 40846;
+inline static constexpr unsigned int Struct_2_45CEC6DAF40595E5_TypeDefinitionIndex = 41803;
 
 struct alignas(4) Struct_2_45CEC6DAF40595E5
 {
-	::UnityEngine::Vector3 Field_2_0; // 0x10
-	::UnityEngine::Vector3 Field_2_1; // 0x1C
-	::UnityEngine::Vector3 Field_2_2; // 0x28
-	::UnityEngine::Vector3 Field_2_3; // 0x34
-	::UnityEngine::Vector3 Field_2_4; // 0x40
+	::UnityEngine::Vector3 MAFKLIGGIJI; // 0x10
+	::UnityEngine::Vector3 ACNJKGHFLDM; // 0x1C
+	::UnityEngine::Vector3 EAKMJDBLGKN; // 0x28
+	::UnityEngine::Vector3 CBFFDLFAHOD; // 0x34
+	::UnityEngine::Vector3 NBHLHKJLOAE; // 0x40
+	::UnityEngine::Vector3 PPABJFCONGJ; // 0x4C
 
 	/*
 	::System::Void _ctor(::Struct_2_F31A7EC67A3AEEF7& a1)

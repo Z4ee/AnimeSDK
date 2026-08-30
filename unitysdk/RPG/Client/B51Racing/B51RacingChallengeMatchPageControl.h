@@ -1,0 +1,164 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Sofa/BaseSofaControl.h"
+
+class Class_0_16E4307DCC419505_1413;
+namespace RPG::Client { class AnimatorButton; }
+namespace RPG::Client { class LocalizedText; }
+namespace RPG::Client { class ManaVideoPlayer; }
+namespace RPG::Client::B51Racing { class B51RacingChallengeMatchPageViewModel; }
+namespace RPG::Client::B51Racing { class LuaControllerHandle; }
+namespace SuperScrollView { class LoopGridView; }
+namespace SuperScrollView { class LoopGridViewItem; }
+namespace System { class String; }
+namespace UnityEngine::UI { class Image; }
+
+#define RPG_CLIENT_B51RACING_B51RACINGCHALLENGEMATCHPAGECONTROL_ONCARDETAILCLICK_OFFSET UNITYSDK_OFFSET(0x19EEBCE0)
+#define RPG_CLIENT_B51RACING_B51RACINGCHALLENGEMATCHPAGECONTROL_ONCLOSECLICK_OFFSET UNITYSDK_OFFSET(0x19EEBD50)
+#define RPG_CLIENT_B51RACING_B51RACINGCHALLENGEMATCHPAGECONTROL_ONCUSTOMIZECARCLICK_OFFSET UNITYSDK_OFFSET(0x19EEBC70)
+#define RPG_CLIENT_B51RACING_B51RACINGCHALLENGEMATCHPAGECONTROL_ONITEMSELECTED_OFFSET UNITYSDK_OFFSET(0x19EEBAC0)
+#define RPG_CLIENT_B51RACING_B51RACINGCHALLENGEMATCHPAGECONTROL_ONRETURNTOTOP_OFFSET UNITYSDK_OFFSET(0x19EEBA70)
+#define RPG_CLIENT_B51RACING_B51RACINGCHALLENGEMATCHPAGECONTROL_ONSTARTCLICK_OFFSET UNITYSDK_OFFSET(0x19EEBBC0)
+#define RPG_CLIENT_B51RACING_B51RACINGCHALLENGEMATCHPAGECONTROL_SETUPVIEW_OFFSET UNITYSDK_OFFSET(0x19EEB210)
+#define RPG_CLIENT_B51RACING_B51RACINGCHALLENGEMATCHPAGECONTROL__ACQUIRESCENETOKEN_OFFSET UNITYSDK_OFFSET(0x19EEADF0)
+#define RPG_CLIENT_B51RACING_B51RACINGCHALLENGEMATCHPAGECONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x19EEC3F0)
+#define RPG_CLIENT_B51RACING_B51RACINGCHALLENGEMATCHPAGECONTROL__GETBRIDGEHANDLE_OFFSET UNITYSDK_OFFSET(0x19EEB170)
+#define RPG_CLIENT_B51RACING_B51RACINGCHALLENGEMATCHPAGECONTROL__ONBACKPRESSED_OFFSET UNITYSDK_OFFSET(0x19EEBE30)
+#define RPG_CLIENT_B51RACING_B51RACINGCHALLENGEMATCHPAGECONTROL__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x19EEAF00)
+#define RPG_CLIENT_B51RACING_B51RACINGCHALLENGEMATCHPAGECONTROL__ONDESTROY_OFFSET UNITYSDK_OFFSET(0x19EEC220)
+#define RPG_CLIENT_B51RACING_B51RACINGCHALLENGEMATCHPAGECONTROL__ONGETGRIDITEM_OFFSET UNITYSDK_OFFSET(0x19EEBF60)
+#define RPG_CLIENT_B51RACING_B51RACINGCHALLENGEMATCHPAGECONTROL__ONGRIDITEMCLICK_OFFSET UNITYSDK_OFFSET(0x19EEC1A0)
+#define RPG_CLIENT_B51RACING_B51RACINGCHALLENGEMATCHPAGECONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0x19EEAC10)
+#define RPG_CLIENT_B51RACING_B51RACINGCHALLENGEMATCHPAGECONTROL__PLAYBGVIDEO_OFFSET UNITYSDK_OFFSET(0x19EEB840)
+#define RPG_CLIENT_B51RACING_B51RACINGCHALLENGEMATCHPAGECONTROL__REFRESHDETAIL_OFFSET UNITYSDK_OFFSET(0x19EEB5B0)
+#define RPG_CLIENT_B51RACING_B51RACINGCHALLENGEMATCHPAGECONTROL__RELEASETRANSIENTTOKEN_OFFSET UNITYSDK_OFFSET(0x19EEB4B0)
+#define RPG_CLIENT_B51RACING_B51RACINGCHALLENGEMATCHPAGECONTROL__SETUPCAMERA_OFFSET UNITYSDK_OFFSET(0x19EEB3D0)
+
+namespace RPG::Client::B51Racing
+{
+	inline static constexpr unsigned int B51RacingChallengeMatchPageControl_TypeDefinitionIndex = 80501;
+
+	class B51RacingChallengeMatchPageControl : public ::Sofa::BaseSofaControl
+	{
+	public:
+		// static const ::System::String* CONST_KEY_RACE_VIDEO_ID; // 0x0
+		// static const ::System::String* CONST_TEXTID_EMPTY_TIME; // 0x0
+		::SuperScrollView::LoopGridView* _GridView; // 0x38
+		::RPG::Client::AnimatorButton* _BtnStart; // 0x40
+		::RPG::Client::AnimatorButton* _BtnClose; // 0x48
+		::RPG::Client::AnimatorButton* _BtnDetail; // 0x50
+		::RPG::Client::AnimatorButton* _BtnEdit; // 0x58
+		::UnityEngine::UI::Image* _MapImage; // 0x60
+		::RPG::Client::LocalizedText* _TrackNameText; // 0x68
+		::RPG::Client::LocalizedText* _PersonalBestText; // 0x70
+		::UnityEngine::UI::Image* _HistoryIcon; // 0x78
+		::RPG::Client::LocalizedText* _HistoryNameText; // 0x80
+		::RPG::Client::LocalizedText* _HistoryBestText; // 0x88
+		::RPG::Client::ManaVideoPlayer* _ManaVideoPlayer; // 0x90
+		::RPG::Client::B51Racing::B51RacingChallengeMatchPageViewModel* _ViewModel; // 0x98
+		::System::Boolean _IsEnteringReadyPage; // 0xA0
+		::Class_0_16E4307DCC419505_1413* _SceneToken; // 0xA8
+		::System::Boolean _gridInitialized; // 0xB0
+		::System::Int32 _selectedIndex; // 0xB4
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGCHALLENGEMATCHPAGECONTROL__CTOR_OFFSET))(this);
+		}
+
+		::System::Void _OnInitializeComponent()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGCHALLENGEMATCHPAGECONTROL__ONINITIALIZECOMPONENT_OFFSET))(this);
+		}
+
+		::System::Void _OnBindViewModel()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGCHALLENGEMATCHPAGECONTROL__ONBINDVIEWMODEL_OFFSET))(this);
+		}
+
+		::System::Void SetupView()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGCHALLENGEMATCHPAGECONTROL_SETUPVIEW_OFFSET))(this);
+		}
+
+		::System::Void OnReturnToTop()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGCHALLENGEMATCHPAGECONTROL_ONRETURNTOTOP_OFFSET))(this);
+		}
+
+		::System::Void OnItemSelected(::System::Int32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGCHALLENGEMATCHPAGECONTROL_ONITEMSELECTED_OFFSET))(this, a1);
+		}
+
+		::System::Void OnStartClick()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGCHALLENGEMATCHPAGECONTROL_ONSTARTCLICK_OFFSET))(this);
+		}
+
+		::System::Void OnCustomizeCarClick()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGCHALLENGEMATCHPAGECONTROL_ONCUSTOMIZECARCLICK_OFFSET))(this);
+		}
+
+		::System::Void OnCarDetailClick()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGCHALLENGEMATCHPAGECONTROL_ONCARDETAILCLICK_OFFSET))(this);
+		}
+
+		::System::Void OnCloseClick()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGCHALLENGEMATCHPAGECONTROL_ONCLOSECLICK_OFFSET))(this);
+		}
+
+		::System::Boolean _OnBackPressed()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGCHALLENGEMATCHPAGECONTROL__ONBACKPRESSED_OFFSET))(this);
+		}
+
+		::SuperScrollView::LoopGridViewItem* _OnGetGridItem(::SuperScrollView::LoopGridView* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4)
+		{
+			return ((::SuperScrollView::LoopGridViewItem*(*)(::PVOID, ::SuperScrollView::LoopGridView*, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGCHALLENGEMATCHPAGECONTROL__ONGETGRIDITEM_OFFSET))(this, a1, a2, a3, a4);
+		}
+
+		::System::Void _OnGridItemClick(::System::Int32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGCHALLENGEMATCHPAGECONTROL__ONGRIDITEMCLICK_OFFSET))(this, a1);
+		}
+
+		::System::Void _RefreshDetail()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGCHALLENGEMATCHPAGECONTROL__REFRESHDETAIL_OFFSET))(this);
+		}
+
+		::System::Void _PlayBgVideo()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGCHALLENGEMATCHPAGECONTROL__PLAYBGVIDEO_OFFSET))(this);
+		}
+
+		::System::Void _OnDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGCHALLENGEMATCHPAGECONTROL__ONDESTROY_OFFSET))(this);
+		}
+
+		::System::Void _SetUpCamera()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGCHALLENGEMATCHPAGECONTROL__SETUPCAMERA_OFFSET))(this);
+		}
+
+		::System::Void _AcquireSceneToken()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGCHALLENGEMATCHPAGECONTROL__ACQUIRESCENETOKEN_OFFSET))(this);
+		}
+
+		::System::Void _ReleaseTransientToken()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGCHALLENGEMATCHPAGECONTROL__RELEASETRANSIENTTOKEN_OFFSET))(this);
+		}
+
+		::RPG::Client::B51Racing::LuaControllerHandle* _GetBridgeHandle()
+		{
+			return ((::RPG::Client::B51Racing::LuaControllerHandle*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGCHALLENGEMATCHPAGECONTROL__GETBRIDGEHANDLE_OFFSET))(this);
+		}
+	};
+}

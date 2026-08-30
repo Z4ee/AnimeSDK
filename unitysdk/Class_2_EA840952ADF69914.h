@@ -8,15 +8,15 @@ class Class_2_AEE59ED8DADEC1A1;
 namespace RPG::GameCore { class DiceCombatDiceSelectorConfig_Intersect; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_EA840952ADF69914_METHOD_2_422439F0FC55F554_OFFSET UNITYSDK_OFFSET(0x13EC2780)
-#define CLASS_2_EA840952ADF69914__CTOR_OFFSET UNITYSDK_OFFSET(0x13EC2770)
+#define CLASS_2_EA840952ADF69914_METHOD_2_422439F0FC55F554_OFFSET UNITYSDK_OFFSET(0x15448CD0)
+#define CLASS_2_EA840952ADF69914__CTOR_OFFSET UNITYSDK_OFFSET(0x15448CC0)
 
-inline static constexpr unsigned int Class_2_EA840952ADF69914_TypeDefinitionIndex = 34839;
+inline static constexpr unsigned int Class_2_EA840952ADF69914_TypeDefinitionIndex = 35700;
 
 class Class_2_EA840952ADF69914 : public ::Class_1_CD4EC20BEBA8A2DA
 {
 public:
-	::RPG::GameCore::DiceCombatDiceSelectorConfig_Intersect* Field_2_0; // 0x18
+	::RPG::GameCore::DiceCombatDiceSelectorConfig_Intersect* IGHAHBNLIJA; // 0x18
 
 	::System::Void _ctor(::RPG::GameCore::DiceCombatDiceSelectorConfig_Intersect* a1, ::Class_1_D8BECDCE48063EC7* a2)
 	{

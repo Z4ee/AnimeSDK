@@ -9,120 +9,124 @@ namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_3_F9239572AE67D4C2_METHOD_3_0F5EA1E3EA471027_OFFSET UNITYSDK_OFFSET(0x14708360)
-#define CLASS_3_F9239572AE67D4C2_METHOD_3_2450CFC043E97F54_OFFSET UNITYSDK_OFFSET(0x14707160)
-#define CLASS_3_F9239572AE67D4C2_METHOD_3_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x147075D0)
-#define CLASS_3_F9239572AE67D4C2_METHOD_3_5BCE9210F4ACDD0B_OFFSET UNITYSDK_OFFSET(0x14706A90)
-#define CLASS_3_F9239572AE67D4C2_METHOD_3_81F053FDA5541136_OFFSET UNITYSDK_OFFSET(0x14707D00)
-#define CLASS_3_F9239572AE67D4C2_METHOD_3_A239DF324AF4215D_OFFSET UNITYSDK_OFFSET(0x147070D0)
-#define CLASS_3_F9239572AE67D4C2_METHOD_3_AD4DBD7C36DD8F3C_OFFSET UNITYSDK_OFFSET(0x14707790)
-#define CLASS_3_F9239572AE67D4C2_METHOD_3_AE0B725AB77F7E6F_OFFSET UNITYSDK_OFFSET(0x14706AE0)
-#define CLASS_3_F9239572AE67D4C2_METHOD_3_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0x14706FB0)
-#define CLASS_3_F9239572AE67D4C2_METHOD_3_B50CA01B5EDC1228_OFFSET UNITYSDK_OFFSET(0x14707540)
-#define CLASS_3_F9239572AE67D4C2_METHOD_3_C027CF3DBDF58558_OFFSET UNITYSDK_OFFSET(0x147072D0)
-#define CLASS_3_F9239572AE67D4C2_METHOD_3_C6C47C9FFA92653C_OFFSET UNITYSDK_OFFSET(0x147071D0)
-#define CLASS_3_F9239572AE67D4C2_METHOD_3_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0x14707090)
-#define CLASS_3_F9239572AE67D4C2_METHOD_3_CA373AA1C7054598_2_OFFSET UNITYSDK_OFFSET(0x14707650)
-#define CLASS_3_F9239572AE67D4C2_METHOD_3_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x14706F70)
-#define CLASS_3_F9239572AE67D4C2_METHOD_3_CF913A5B5B554D96_OFFSET UNITYSDK_OFFSET(0x147076F0)
-#define CLASS_3_F9239572AE67D4C2_METHOD_3_F88A87B4F0458125_OFFSET UNITYSDK_OFFSET(0x147076B0)
-#define CLASS_3_F9239572AE67D4C2_TICK_OFFSET UNITYSDK_OFFSET(0x14707270)
-#define CLASS_3_F9239572AE67D4C2__CCTOR_OFFSET UNITYSDK_OFFSET(0x14706930)
-#define CLASS_3_F9239572AE67D4C2__CTOR_OFFSET UNITYSDK_OFFSET(0x14708A10)
+#define CLASS_3_F9239572AE67D4C2_METHOD_3_0F5EA1E3EA471027_OFFSET UNITYSDK_OFFSET(0x1599EB00)
+#define CLASS_3_F9239572AE67D4C2_METHOD_3_2450CFC043E97F54_OFFSET UNITYSDK_OFFSET(0x1599D860)
+#define CLASS_3_F9239572AE67D4C2_METHOD_3_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x1599DCD0)
+#define CLASS_3_F9239572AE67D4C2_METHOD_3_5BCE9210F4ACDD0B_OFFSET UNITYSDK_OFFSET(0x1599D190)
+#define CLASS_3_F9239572AE67D4C2_METHOD_3_81F053FDA5541136_OFFSET UNITYSDK_OFFSET(0x1599E400)
+#define CLASS_3_F9239572AE67D4C2_METHOD_3_A239DF324AF4215D_OFFSET UNITYSDK_OFFSET(0x1599D7D0)
+#define CLASS_3_F9239572AE67D4C2_METHOD_3_AD4DBD7C36DD8F3C_OFFSET UNITYSDK_OFFSET(0x1599DE90)
+#define CLASS_3_F9239572AE67D4C2_METHOD_3_AE0B725AB77F7E6F_OFFSET UNITYSDK_OFFSET(0x1599D1E0)
+#define CLASS_3_F9239572AE67D4C2_METHOD_3_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0x1599D6B0)
+#define CLASS_3_F9239572AE67D4C2_METHOD_3_B50CA01B5EDC1228_OFFSET UNITYSDK_OFFSET(0x1599DC40)
+#define CLASS_3_F9239572AE67D4C2_METHOD_3_C027CF3DBDF58558_OFFSET UNITYSDK_OFFSET(0x1599D9D0)
+#define CLASS_3_F9239572AE67D4C2_METHOD_3_C6C47C9FFA92653C_OFFSET UNITYSDK_OFFSET(0x1599D8D0)
+#define CLASS_3_F9239572AE67D4C2_METHOD_3_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0x1599D790)
+#define CLASS_3_F9239572AE67D4C2_METHOD_3_CA373AA1C7054598_2_OFFSET UNITYSDK_OFFSET(0x1599DD50)
+#define CLASS_3_F9239572AE67D4C2_METHOD_3_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x1599D670)
+#define CLASS_3_F9239572AE67D4C2_METHOD_3_CF913A5B5B554D96_OFFSET UNITYSDK_OFFSET(0x1599DDF0)
+#define CLASS_3_F9239572AE67D4C2_METHOD_3_F88A87B4F0458125_OFFSET UNITYSDK_OFFSET(0x1599DDB0)
+#define CLASS_3_F9239572AE67D4C2_TICK_OFFSET UNITYSDK_OFFSET(0x1599D970)
+#define CLASS_3_F9239572AE67D4C2__CCTOR_OFFSET UNITYSDK_OFFSET(0x1599CFF0)
+#define CLASS_3_F9239572AE67D4C2__CTOR_OFFSET UNITYSDK_OFFSET(0x1599F1B0)
 
-inline static constexpr unsigned int Class_3_F9239572AE67D4C2_TypeDefinitionIndex = 67622;
+inline static constexpr unsigned int Class_3_F9239572AE67D4C2_TypeDefinitionIndex = 70745;
 
 class Class_3_F9239572AE67D4C2 : public ::RPG::Client::TABehaviorBase
 {
 public:
-	static ::UnityEngine::Material** StaticGet_Field_3_0()
+	static ::UnityEngine::Material** StaticGet_ANCBLNADNKF()
 	{
-		return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(Class_3_F9239572AE67D4C2_TypeDefinitionIndex)->GetStaticField(0x22460);
+		return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(Class_3_F9239572AE67D4C2_TypeDefinitionIndex)->GetStaticField(0x58B00);
 	}
-	static ::System::Int32* StaticGet_Field_3_1()
+	static ::System::Int32* StaticGet_OOEPKNMIEPM()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_3_F9239572AE67D4C2_TypeDefinitionIndex)->GetStaticField(0x6C40);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_3_F9239572AE67D4C2_TypeDefinitionIndex)->GetStaticField(0x11FF0);
 	}
-	static ::System::Int32* StaticGet_Field_3_2()
+	static ::System::Int32* StaticGet_GFFMELBCGJL()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_3_F9239572AE67D4C2_TypeDefinitionIndex)->GetStaticField(0x6C44);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_3_F9239572AE67D4C2_TypeDefinitionIndex)->GetStaticField(0x11FF4);
 	}
-	static ::System::Int32* StaticGet_Field_3_3()
+	static ::System::Int32* StaticGet_EEJDJNCLILA()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_3_F9239572AE67D4C2_TypeDefinitionIndex)->GetStaticField(0x6C48);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_3_F9239572AE67D4C2_TypeDefinitionIndex)->GetStaticField(0x11FF8);
 	}
-	static ::System::Int32* StaticGet_Field_3_4()
+	static ::System::Int32* StaticGet_GAPPGFFPNAG()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_3_F9239572AE67D4C2_TypeDefinitionIndex)->GetStaticField(0x6C4C);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_3_F9239572AE67D4C2_TypeDefinitionIndex)->GetStaticField(0x11FFC);
 	}
-	static ::System::Int32* StaticGet_Field_3_5()
+	static ::System::Int32* StaticGet_IKEBJGBKEFJ()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_3_F9239572AE67D4C2_TypeDefinitionIndex)->GetStaticField(0x6C50);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_3_F9239572AE67D4C2_TypeDefinitionIndex)->GetStaticField(0x12000);
 	}
-	static ::System::Int32* StaticGet_Field_3_6()
+	static ::System::Int32* StaticGet_IOIIJGDFLIF()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_3_F9239572AE67D4C2_TypeDefinitionIndex)->GetStaticField(0x6C54);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_3_F9239572AE67D4C2_TypeDefinitionIndex)->GetStaticField(0x12004);
 	}
-	static ::System::Int32* StaticGet_Field_3_7()
+	static ::System::Int32* StaticGet_GIHHBHAJPGG()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_3_F9239572AE67D4C2_TypeDefinitionIndex)->GetStaticField(0x6C58);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_3_F9239572AE67D4C2_TypeDefinitionIndex)->GetStaticField(0x12008);
 	}
-	static ::System::Int32* StaticGet_Field_3_8()
+	static ::System::Int32* StaticGet_LFGDDPEIELP()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_3_F9239572AE67D4C2_TypeDefinitionIndex)->GetStaticField(0x6C5C);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_3_F9239572AE67D4C2_TypeDefinitionIndex)->GetStaticField(0x1200C);
 	}
-	static ::System::Int32* StaticGet_Field_3_9()
+	static ::System::Int32* StaticGet_OANIFFAPPED()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_3_F9239572AE67D4C2_TypeDefinitionIndex)->GetStaticField(0x6C60);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_3_F9239572AE67D4C2_TypeDefinitionIndex)->GetStaticField(0x12010);
 	}
-	static ::System::Int32* StaticGet_Field_3_10()
+	static ::System::Int32* StaticGet_FAIDGANDEJF()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_3_F9239572AE67D4C2_TypeDefinitionIndex)->GetStaticField(0x6C64);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_3_F9239572AE67D4C2_TypeDefinitionIndex)->GetStaticField(0x12014);
 	}
-	static ::System::Int32* StaticGet_Field_3_11()
+	static ::System::Int32* StaticGet_GHGIJLMGPHE()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_3_F9239572AE67D4C2_TypeDefinitionIndex)->GetStaticField(0x6C68);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_3_F9239572AE67D4C2_TypeDefinitionIndex)->GetStaticField(0x12018);
 	}
-	static ::System::Int32* StaticGet_Field_3_12()
+	static ::System::Int32* StaticGet_ICLIACKBCGK()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_3_F9239572AE67D4C2_TypeDefinitionIndex)->GetStaticField(0x6C6C);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_3_F9239572AE67D4C2_TypeDefinitionIndex)->GetStaticField(0x1201C);
 	}
-	static ::System::Int32* StaticGet_Field_3_13()
+	static ::System::Int32* StaticGet_OAMALOGFAAH()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_3_F9239572AE67D4C2_TypeDefinitionIndex)->GetStaticField(0x6C70);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_3_F9239572AE67D4C2_TypeDefinitionIndex)->GetStaticField(0x12020);
 	}
-	static ::System::Int32* StaticGet_Field_3_14()
+	static ::System::Int32* StaticGet_EMAICDBDNNB()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_3_F9239572AE67D4C2_TypeDefinitionIndex)->GetStaticField(0x6C74);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_3_F9239572AE67D4C2_TypeDefinitionIndex)->GetStaticField(0x12024);
 	}
-	static ::System::Int32* StaticGet_Field_3_15()
+	static ::System::Int32* StaticGet_ALPDOFBNEON()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_3_F9239572AE67D4C2_TypeDefinitionIndex)->GetStaticField(0x6C78);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_3_F9239572AE67D4C2_TypeDefinitionIndex)->GetStaticField(0x12028);
 	}
-	static ::System::Int32* StaticGet_Field_3_16()
+	static ::System::Int32* StaticGet_MCPHJDHDMLE()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_3_F9239572AE67D4C2_TypeDefinitionIndex)->GetStaticField(0x6C7C);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_3_F9239572AE67D4C2_TypeDefinitionIndex)->GetStaticField(0x1202C);
 	}
-	static ::System::Int32* StaticGet_Field_3_17()
+	static ::System::Int32* StaticGet_EHBPJJNEKFF()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_3_F9239572AE67D4C2_TypeDefinitionIndex)->GetStaticField(0x6C80);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_3_F9239572AE67D4C2_TypeDefinitionIndex)->GetStaticField(0x12030);
 	}
-	static ::System::Int32* StaticGet_Field_3_18()
+	static ::System::Int32* StaticGet_LGKPCJBHFMB()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_3_F9239572AE67D4C2_TypeDefinitionIndex)->GetStaticField(0x6C84);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_3_F9239572AE67D4C2_TypeDefinitionIndex)->GetStaticField(0x12034);
 	}
-	::UnityEngine::Transform* Field_3_19; // 0x38
-	::UnityEngine::Material* Field_3_20; // 0x40
-	::UnityEngine::MaterialPropertyBlock* Field_3_21; // 0x48
-	::UnityEngine::Transform* Field_3_22; // 0x50
-	::Il2CppArray<::UnityEngine::Renderer*>* Field_3_23; // 0x58
-	::System::Boolean Field_3_24; // 0x60
-	::System::Boolean Field_3_25; // 0x61
-	::System::Single Field_3_26; // 0x64
-	::System::Single Field_3_27; // 0x68
-	::System::Single Field_3_28; // 0x6C
-	::System::Single Field_3_29; // 0x70
-	::UnityEngine::Vector3 Field_3_30; // 0x74
+	static ::System::Int32* StaticGet_HKMIOIEJKJD()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_3_F9239572AE67D4C2_TypeDefinitionIndex)->GetStaticField(0x12038);
+	}
+	::UnityEngine::Material* ILKIEOPBAGE; // 0x38
+	::UnityEngine::MaterialPropertyBlock* IDGFNFGGDOL; // 0x40
+	::UnityEngine::Transform* BFJOMBDJAGH; // 0x48
+	::UnityEngine::Transform* FINIFMOAEMK; // 0x50
+	::Il2CppArray<::UnityEngine::Renderer*>* MOECGMPCECP; // 0x58
+	::System::Single JKCALEMLIEE; // 0x60
+	::System::Single FHPCBOEPEKP; // 0x64
+	::System::Single MALJJHBHMHG; // 0x68
+	::System::Boolean HEBPLACLNGC; // 0x6C
+	::System::Boolean ACAPCHBDIBF; // 0x6D
+	::System::Single CJCINIAFACG; // 0x70
+	::UnityEngine::Vector3 JIKBAIHEDIK; // 0x74
 
 	static ::System::Void _cctor()
 	{

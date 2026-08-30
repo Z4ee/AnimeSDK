@@ -8,7 +8,7 @@ namespace System::Threading::Tasks { template <typename T> class TaskFactory_1__
 
 namespace System::Threading::Tasks
 {
-	inline static constexpr unsigned int TaskFactory_1___c__DisplayClass35_1_TypeDefinitionIndex = 890;
+	inline static constexpr unsigned int TaskFactory_1___c__DisplayClass35_1_TypeDefinitionIndex = 894;
 
 	template <typename TResult>
 	class TaskFactory_1___c__DisplayClass35_1 : public ::System::Object

@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/PropertyAttribute.h"
 
-#define UNITYENGINE_TEXTAREAATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1D0D32E0)
-#define UNITYENGINE_TEXTAREAATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0D32D0)
+#define UNITYENGINE_TEXTAREAATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EE0A940)
+#define UNITYENGINE_TEXTAREAATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE0A930)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int TextAreaAttribute_TypeDefinitionIndex = 4232;
+	inline static constexpr unsigned int TextAreaAttribute_TypeDefinitionIndex = 4242;
 
 	class TextAreaAttribute : public ::UnityEngine::PropertyAttribute
 	{

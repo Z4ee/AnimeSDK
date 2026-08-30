@@ -4,11 +4,11 @@
 
 namespace System::Xml::Schema { class XmlSchemaObjectCollection; }
 
-#define SYSTEM_XML_SCHEMA_XMLSCHEMACHOICE_GET_ITEMS_OFFSET UNITYSDK_OFFSET(0x19674800)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMACHOICE_GET_ITEMS_OFFSET UNITYSDK_OFFSET(0x1B0784E0)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int XmlSchemaChoice_TypeDefinitionIndex = 2181;
+	inline static constexpr unsigned int XmlSchemaChoice_TypeDefinitionIndex = 2188;
 
 	class XmlSchemaChoice : public ::System::Xml::Schema::XmlSchemaGroupBase
 	{

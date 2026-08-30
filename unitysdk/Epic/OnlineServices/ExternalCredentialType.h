@@ -3,7 +3,7 @@
 
 namespace Epic::OnlineServices
 {
-	inline static constexpr unsigned int ExternalCredentialType_TypeDefinitionIndex = 42748;
+	inline static constexpr unsigned int ExternalCredentialType_TypeDefinitionIndex = 44930;
 
 	enum class ExternalCredentialType : ::System::Int32
 	{

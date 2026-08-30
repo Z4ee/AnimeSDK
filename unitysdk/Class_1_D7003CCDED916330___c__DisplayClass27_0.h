@@ -5,17 +5,17 @@
 
 class Class_1_D7003CCDED916330;
 
-#define CLASS_1_D7003CCDED916330___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15F66DB0)
-#define CLASS_1_D7003CCDED916330___C__DISPLAYCLASS27_0__PLAYFREESTYLEWITHPRELOAD_B__0_OFFSET UNITYSDK_OFFSET(0x15F6E840)
+#define CLASS_1_D7003CCDED916330___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17D62F00)
+#define CLASS_1_D7003CCDED916330___C__DISPLAYCLASS27_0__PLAYFREESTYLEWITHPRELOAD_B__0_OFFSET UNITYSDK_OFFSET(0x17D6AD70)
 
-inline static constexpr unsigned int Class_1_D7003CCDED916330___c__DisplayClass27_0_TypeDefinitionIndex = 54722;
+inline static constexpr unsigned int Class_1_D7003CCDED916330___c__DisplayClass27_0_TypeDefinitionIndex = 57443;
 
 class Class_1_D7003CCDED916330___c__DisplayClass27_0 : public ::System::Object
 {
 public:
 	::Class_1_D7003CCDED916330* __4__this; // 0x10
-	::System::UInt32 motionID; // 0x18
-	::Struct_2_648594091F1A68D6 motionStartInfo; // 0x1C
+	::Struct_2_648594091F1A68D6 motionStartInfo; // 0x18
+	::System::UInt32 motionID; // 0x38
 
 	::System::Void _ctor()
 	{

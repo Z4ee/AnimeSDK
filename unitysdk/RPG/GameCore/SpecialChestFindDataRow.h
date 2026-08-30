@@ -5,25 +5,25 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_SPECIALCHESTFINDDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B0A0360)
-#define RPG_GAMECORE_SPECIALCHESTFINDDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0A0680)
+#define RPG_GAMECORE_SPECIALCHESTFINDDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D0B3300)
+#define RPG_GAMECORE_SPECIALCHESTFINDDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0B3620)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SpecialChestFindDataRow_TypeDefinitionIndex = 12799;
+	inline static constexpr unsigned int SpecialChestFindDataRow_TypeDefinitionIndex = 13190;
 
 	class SpecialChestFindDataRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 GroupID; // 0x10
-		::System::Boolean IsUseSpecialMappinginfo; // 0x14
-		::System::UInt32 ReplaceLittleGameEntityID; // 0x18
-		::System::UInt32 ReplaceGroupID; // 0x1C
-		::System::UInt32 FloorID; // 0x20
-		::System::UInt32 ReplaceInstanceID; // 0x24
-		::System::UInt32 LittleGameEntityID; // 0x28
-		::System::UInt32 InstanceID; // 0x2C
-		::RPG::GameCore::FindChestReplaceType ReplaceType; // 0x30
+		::System::UInt32 ReplaceLittleGameEntityID; // 0x10
+		::System::UInt32 ReplaceGroupID; // 0x14
+		::System::UInt32 InstanceID; // 0x18
+		::System::UInt32 ReplaceInstanceID; // 0x1C
+		::System::UInt32 LittleGameEntityID; // 0x20
+		::System::UInt32 GroupID; // 0x24
+		::System::Boolean IsUseSpecialMappinginfo; // 0x28
+		::RPG::GameCore::FindChestReplaceType ReplaceType; // 0x2C
+		::System::UInt32 FloorID; // 0x30
 
 		::System::Void _ctor()
 		{

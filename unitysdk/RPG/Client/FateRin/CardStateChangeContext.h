@@ -8,24 +8,24 @@
 class Class_1_B71FC14BA77C9F77;
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define RPG_CLIENT_FATERIN_CARDSTATECHANGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A379AC0)
+#define RPG_CLIENT_FATERIN_CARDSTATECHANGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1CBF3C90)
 
 namespace RPG::Client::FateRin
 {
-	inline static constexpr unsigned int CardStateChangeContext_TypeDefinitionIndex = 75642;
+	inline static constexpr unsigned int CardStateChangeContext_TypeDefinitionIndex = 79275;
 
 	class CardStateChangeContext : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::IReadOnlyList_1<::Class_1_B71FC14BA77C9F77*>* HandSnapshot; // 0x10
-		::System::Collections::Generic::IReadOnlyList_1<::Class_1_B71FC14BA77C9F77*>* AddedCards; // 0x18
-		::System::Collections::Generic::IReadOnlyList_1<::Class_1_B71FC14BA77C9F77*>* AffectedCards; // 0x20
-		::System::Int32 DiscardPileVisualOffset; // 0x28
+		::System::Collections::Generic::IReadOnlyList_1<::Class_1_B71FC14BA77C9F77*>* AffectedCards; // 0x18
+		::System::Collections::Generic::IReadOnlyList_1<::Class_1_B71FC14BA77C9F77*>* AddedCards; // 0x20
+		::RPG::Client::FateRin::BattleAddCardReason AddCardReason; // 0x28
 		::System::Int32 DrawPileVisualOffset; // 0x2C
 		::RPG::Client::FateRin::CardStateChangeReason Reason; // 0x30
-		::RPG::Client::FateRin::BattleAddCardReason AddCardReason; // 0x34
-		::RPG::GameCore::FateRinCardPileType ToPile; // 0x38
-		::RPG::GameCore::FateRinCardPileType FromPile; // 0x3A
+		::RPG::GameCore::FateRinCardPileType ToPile; // 0x34
+		::RPG::GameCore::FateRinCardPileType FromPile; // 0x36
+		::System::Int32 DiscardPileVisualOffset; // 0x38
 
 		::System::Void _ctor(::RPG::Client::FateRin::CardStateChangeReason a1, ::System::Collections::Generic::IReadOnlyList_1<::Class_1_B71FC14BA77C9F77*>* a2, ::RPG::GameCore::FateRinCardPileType a3, ::RPG::GameCore::FateRinCardPileType a4, ::System::Collections::Generic::IReadOnlyList_1<::Class_1_B71FC14BA77C9F77*>* a5, ::System::Collections::Generic::IReadOnlyList_1<::Class_1_B71FC14BA77C9F77*>* a6, ::RPG::Client::FateRin::BattleAddCardReason a7, ::System::Int32 a8, ::System::Int32 a9)
 		{

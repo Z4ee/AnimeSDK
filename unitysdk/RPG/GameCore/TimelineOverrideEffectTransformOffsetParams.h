@@ -6,13 +6,13 @@
 
 namespace RPG::Client { class Effect_Transform; }
 
-#define RPG_GAMECORE_TIMELINEOVERRIDEEFFECTTRANSFORMOFFSETPARAMS_METHOD_1_83AECECC5591EE69_OFFSET UNITYSDK_OFFSET(0x10667D30)
-#define RPG_GAMECORE_TIMELINEOVERRIDEEFFECTTRANSFORMOFFSETPARAMS_METHOD_1_9E3F716220C7A711_OFFSET UNITYSDK_OFFSET(0x10667DC0)
-#define RPG_GAMECORE_TIMELINEOVERRIDEEFFECTTRANSFORMOFFSETPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x10667DB0)
+#define RPG_GAMECORE_TIMELINEOVERRIDEEFFECTTRANSFORMOFFSETPARAMS_METHOD_1_5A837F5CC2870EA0_OFFSET UNITYSDK_OFFSET(0x11CBC690)
+#define RPG_GAMECORE_TIMELINEOVERRIDEEFFECTTRANSFORMOFFSETPARAMS_METHOD_1_9E3F716220C7A711_OFFSET UNITYSDK_OFFSET(0x11CBC750)
+#define RPG_GAMECORE_TIMELINEOVERRIDEEFFECTTRANSFORMOFFSETPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x11CBC740)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TimelineOverrideEffectTransformOffsetParams_TypeDefinitionIndex = 54793;
+	inline static constexpr unsigned int TimelineOverrideEffectTransformOffsetParams_TypeDefinitionIndex = 57514;
 
 	class TimelineOverrideEffectTransformOffsetParams : public ::System::Object
 	{
@@ -31,9 +31,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TIMELINEOVERRIDEEFFECTTRANSFORMOFFSETPARAMS__CTOR_OFFSET))(this);
 		}
 
-		static ::RPG::GameCore::TimelineOverrideEffectTransformOffsetParams* Method_1_83AECECC5591EE69(::RPG::Client::Effect_Transform* a1)
+		static ::RPG::GameCore::TimelineOverrideEffectTransformOffsetParams* Method_1_5A837F5CC2870EA0(::RPG::Client::Effect_Transform* a1)
 		{
-			return ((::RPG::GameCore::TimelineOverrideEffectTransformOffsetParams*(*)(::RPG::Client::Effect_Transform*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TIMELINEOVERRIDEEFFECTTRANSFORMOFFSETPARAMS_METHOD_1_83AECECC5591EE69_OFFSET))(a1);
+			return ((::RPG::GameCore::TimelineOverrideEffectTransformOffsetParams*(*)(::RPG::Client::Effect_Transform*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TIMELINEOVERRIDEEFFECTTRANSFORMOFFSETPARAMS_METHOD_1_5A837F5CC2870EA0_OFFSET))(a1);
 		}
 
 		::System::Void Method_1_9E3F716220C7A711(::RPG::Client::Effect_Transform* a1)

@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_PROXYEFFECTPROP__CTOR_OFFSET UNITYSDK_OFFSET(0x1614E6A0)
+#define RPG_CLIENT_PROXYEFFECTPROP__CTOR_OFFSET UNITYSDK_OFFSET(0x17B4DCC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ProxyEffectProp_TypeDefinitionIndex = 57782;
+	inline static constexpr unsigned int ProxyEffectProp_TypeDefinitionIndex = 60602;
 
 	class ProxyEffectProp : public ::System::Object
 	{

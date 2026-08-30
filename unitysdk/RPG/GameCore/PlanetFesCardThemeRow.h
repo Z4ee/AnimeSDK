@@ -6,20 +6,20 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PLANETFESCARDTHEMEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B4D6250)
-#define RPG_GAMECORE_PLANETFESCARDTHEMEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4D6450)
+#define RPG_GAMECORE_PLANETFESCARDTHEMEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D79C0D0)
+#define RPG_GAMECORE_PLANETFESCARDTHEMEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D79C2D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlanetFesCardThemeRow_TypeDefinitionIndex = 11739;
+	inline static constexpr unsigned int PlanetFesCardThemeRow_TypeDefinitionIndex = 12128;
 
 	class PlanetFesCardThemeRow : public ::System::Object
 	{
 	public:
 		::System::String* IconPath; // 0x10
 		::Il2CppArray<::System::UInt32>* CardIDList; // 0x18
-		::System::UInt32 ThemeID; // 0x20
-		::RPG::Client::TextID Name; // 0x28
+		::RPG::Client::TextID Name; // 0x20
+		::System::UInt32 ThemeID; // 0x30
 
 		::System::Void _ctor()
 		{

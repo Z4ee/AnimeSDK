@@ -6,18 +6,19 @@
 
 namespace System { class String; }
 
-inline static constexpr unsigned int Struct_2_8CB9647E1F3FB914_TypeDefinitionIndex = 55173;
+inline static constexpr unsigned int Struct_2_8CB9647E1F3FB914_TypeDefinitionIndex = 57896;
 
 struct alignas(8) Struct_2_8CB9647E1F3FB914
 {
-	::System::Int32 Field_2_0; // 0x10
-	::System::Int32 Field_2_1; // 0x14
-	::System::String* Field_2_2; // 0x18
-	::System::Int32 Field_2_3; // 0x20
-	::System::String* Field_2_4; // 0x28
-	::System::Boolean Field_2_5; // 0x30
-	::RPG::MVector3 Field_2_6; // 0x34
-	::RPG::GameCore::ModifierHitEffectStacking Field_2_7; // 0x40
-	::System::Boolean Field_2_8; // 0x44
-	::System::UInt32 Field_2_9; // 0x48
+	::System::Int32 BJIOBCHFCAA; // 0x10
+	::System::Int32 NALMBOOCCIN; // 0x14
+	::System::String* CDEEHGCEOKN; // 0x18
+	::System::Int32 CNKBDIIMELP; // 0x20
+	::System::String* KLFKJIGKMNK; // 0x28
+	::System::Boolean CJFBJEIMEDP; // 0x30
+	::RPG::MVector3 GLOPFHODBFJ; // 0x34
+	::RPG::GameCore::ModifierHitEffectStacking DFEGFPNGEIO; // 0x40
+	::System::Boolean AIEPHAMHJGA; // 0x44
+	::System::UInt32 OOIOLIBOGIN; // 0x48
+	::System::Boolean NIPJKIPJPCN; // 0x4C
 };

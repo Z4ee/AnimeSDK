@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class PlayPenaconyEndmostClosePage; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_3533F31786E1DF5C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16CB0D20)
-#define CLASS_3_3533F31786E1DF5C__CTOR_OFFSET UNITYSDK_OFFSET(0x16CB0CF0)
+#define CLASS_3_3533F31786E1DF5C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18B85FF0)
+#define CLASS_3_3533F31786E1DF5C__CTOR_OFFSET UNITYSDK_OFFSET(0x18B85FC0)
 
-inline static constexpr unsigned int Class_3_3533F31786E1DF5C_TypeDefinitionIndex = 50658;
+inline static constexpr unsigned int Class_3_3533F31786E1DF5C_TypeDefinitionIndex = 53340;
 
 class Class_3_3533F31786E1DF5C : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::PlayPenaconyEndmostClosePage*>
 {

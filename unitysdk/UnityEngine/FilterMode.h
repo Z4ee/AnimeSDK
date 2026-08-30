@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int FilterMode_TypeDefinitionIndex = 4158;
+	inline static constexpr unsigned int FilterMode_TypeDefinitionIndex = 4168;
 
 	enum class FilterMode : ::System::Int32
 	{

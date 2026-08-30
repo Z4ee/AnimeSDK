@@ -12,27 +12,27 @@ namespace System::IO { class BinaryReader; }
 namespace System::IO { class Stream; }
 namespace System::Threading { class Thread; }
 
-#define HDG_READMESSAGETHREAD_GET_ISCONNECTED_OFFSET UNITYSDK_OFFSET(0x1B7FA750)
-#define HDG_READMESSAGETHREAD_ONLOSTCONNECTION_OFFSET UNITYSDK_OFFSET(0x1B7FB6C0)
-#define HDG_READMESSAGETHREAD_ONREADING_OFFSET UNITYSDK_OFFSET(0x1B7FAA60)
-#define HDG_READMESSAGETHREAD_STOP_OFFSET UNITYSDK_OFFSET(0x1B7FA950)
-#define HDG_READMESSAGETHREAD_THREADFUNC_OFFSET UNITYSDK_OFFSET(0x1B7FA980)
-#define HDG_READMESSAGETHREAD__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7FA760)
+#define HDG_READMESSAGETHREAD_GET_ISCONNECTED_OFFSET UNITYSDK_OFFSET(0x1D45AF80)
+#define HDG_READMESSAGETHREAD_ONLOSTCONNECTION_OFFSET UNITYSDK_OFFSET(0x1D45BEF0)
+#define HDG_READMESSAGETHREAD_ONREADING_OFFSET UNITYSDK_OFFSET(0x1D45B290)
+#define HDG_READMESSAGETHREAD_STOP_OFFSET UNITYSDK_OFFSET(0x1D45B180)
+#define HDG_READMESSAGETHREAD_THREADFUNC_OFFSET UNITYSDK_OFFSET(0x1D45B1B0)
+#define HDG_READMESSAGETHREAD__CTOR_OFFSET UNITYSDK_OFFSET(0x1D45AF90)
 
 namespace Hdg
 {
-	inline static constexpr unsigned int ReadMessageThread_TypeDefinitionIndex = 45161;
+	inline static constexpr unsigned int ReadMessageThread_TypeDefinitionIndex = 47397;
 
 	class ReadMessageThread : public ::System::Object
 	{
 	public:
 		::System::Action_1<::Hdg::rdtTcpMessage*>* m_callback; // 0x10
-		::System::IO::BinaryReader* m_reader; // 0x18
-		::Hdg::rdtDispatcher* m_dispatcher; // 0x20
-		::System::IO::Stream* m_stream; // 0x28
-		::System::String* m_name; // 0x30
+		::System::Threading::Thread* m_thread; // 0x18
+		::System::IO::BinaryReader* m_reader; // 0x20
+		::Hdg::rdtDispatcher* m_dispatcher; // 0x28
+		::System::IO::Stream* m_stream; // 0x30
 		::Il2CppArray<::System::Action*>* m_stateDelegates; // 0x38
-		::System::Threading::Thread* m_thread; // 0x40
+		::System::String* m_name; // 0x40
 		::Hdg::ReadMessageThread_State m_state; // 0x48
 		::System::Boolean m_run; // 0x4C
 

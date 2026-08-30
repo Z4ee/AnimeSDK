@@ -6,15 +6,15 @@
 namespace RPG::Client { class LuaUIController; }
 namespace RPG::Client { class MonopolyRandomOptionContentData; }
 
-#define CLASS_2_4D3E64221F97BA31_TRIGGER_OFFSET UNITYSDK_OFFSET(0x17016A20)
-#define CLASS_2_4D3E64221F97BA31__CTOR_OFFSET UNITYSDK_OFFSET(0x17016A00)
+#define CLASS_2_4D3E64221F97BA31_TRIGGER_OFFSET UNITYSDK_OFFSET(0x1309D6E0)
+#define CLASS_2_4D3E64221F97BA31__CTOR_OFFSET UNITYSDK_OFFSET(0x1309D6C0)
 
-inline static constexpr unsigned int Class_2_4D3E64221F97BA31_TypeDefinitionIndex = 63342;
+inline static constexpr unsigned int Class_2_4D3E64221F97BA31_TypeDefinitionIndex = 66327;
 
 class Class_2_4D3E64221F97BA31 : public ::RPG::Client::MonopolyContentTrigger
 {
 public:
-	::RPG::Client::MonopolyRandomOptionContentData* Field_2_0; // 0x20
+	::RPG::Client::MonopolyRandomOptionContentData* EKIFMMJNJCK; // 0x20
 
 	::System::Void _ctor(::System::UInt32 a1, ::System::UInt32 a2, ::RPG::Client::MonopolyContentType a3, ::RPG::Client::MonopolyRandomOptionContentData* a4)
 	{

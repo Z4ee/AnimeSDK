@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-inline static constexpr unsigned int Class_1_731861D2B4B3DB7D_TypeDefinitionIndex = 10454;
+inline static constexpr unsigned int Class_1_731861D2B4B3DB7D_TypeDefinitionIndex = 10795;
 
 class Class_1_731861D2B4B3DB7D : public ::System::Object
 {
 public:
-	static ::System::Boolean* StaticGet_Field_1_0()
+	static ::System::Boolean* StaticGet_KNGHIDJFFKG()
 	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_731861D2B4B3DB7D_TypeDefinitionIndex)->GetStaticField(0x2CB0);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_731861D2B4B3DB7D_TypeDefinitionIndex)->GetStaticField(0x1080);
 	}
 };

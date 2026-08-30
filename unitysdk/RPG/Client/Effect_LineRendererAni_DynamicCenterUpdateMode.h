@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_LineRendererAni_DynamicCenterUpdateMode_TypeDefinitionIndex = 67344;
+	inline static constexpr unsigned int Effect_LineRendererAni_DynamicCenterUpdateMode_TypeDefinitionIndex = 70466;
 
 	enum class Effect_LineRendererAni_DynamicCenterUpdateMode : ::System::Int32
 	{

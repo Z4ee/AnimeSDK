@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GrowthMaterialGroup_TypeDefinitionIndex = 62717;
+	inline static constexpr unsigned int GrowthMaterialGroup_TypeDefinitionIndex = 65702;
 
 	enum class GrowthMaterialGroup : ::System::UInt32
 	{

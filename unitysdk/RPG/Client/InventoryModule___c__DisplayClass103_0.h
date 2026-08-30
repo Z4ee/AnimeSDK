@@ -4,12 +4,12 @@
 
 namespace RPG::GameCore { class ItemComefromRow; }
 
-#define RPG_CLIENT_INVENTORYMODULE___C__DISPLAYCLASS103_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16C43480)
-#define RPG_CLIENT_INVENTORYMODULE___C__DISPLAYCLASS103_0__GETITEMCOMEFROM_B__0_OFFSET UNITYSDK_OFFSET(0x16C4D110)
+#define RPG_CLIENT_INVENTORYMODULE___C__DISPLAYCLASS103_0__CTOR_OFFSET UNITYSDK_OFFSET(0x194CFA50)
+#define RPG_CLIENT_INVENTORYMODULE___C__DISPLAYCLASS103_0__GETITEMCOMEFROM_B__0_OFFSET UNITYSDK_OFFSET(0x194DB290)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int InventoryModule___c__DisplayClass103_0_TypeDefinitionIndex = 62767;
+	inline static constexpr unsigned int InventoryModule___c__DisplayClass103_0_TypeDefinitionIndex = 65752;
 
 	class InventoryModule___c__DisplayClass103_0 : public ::System::Object
 	{

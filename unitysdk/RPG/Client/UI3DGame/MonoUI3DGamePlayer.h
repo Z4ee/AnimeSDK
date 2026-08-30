@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/UI3DGame/MonoUI3DGameView.h"
 
-#define RPG_CLIENT_UI3DGAME_MONOUI3DGAMEPLAYER__CTOR_OFFSET UNITYSDK_OFFSET(0x16FED890)
+#define RPG_CLIENT_UI3DGAME_MONOUI3DGAMEPLAYER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B12E260)
 
 namespace RPG::Client::UI3DGame
 {
-	inline static constexpr unsigned int MonoUI3DGamePlayer_TypeDefinitionIndex = 72063;
+	inline static constexpr unsigned int MonoUI3DGamePlayer_TypeDefinitionIndex = 75370;
 
 	class MonoUI3DGamePlayer : public ::RPG::Client::UI3DGame::MonoUI3DGameView
 	{

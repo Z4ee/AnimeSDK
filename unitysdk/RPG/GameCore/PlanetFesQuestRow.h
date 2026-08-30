@@ -8,12 +8,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ItemConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PLANETFESQUESTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1BA006F0)
-#define RPG_GAMECORE_PLANETFESQUESTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA00A30)
+#define RPG_GAMECORE_PLANETFESQUESTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7A1520)
+#define RPG_GAMECORE_PLANETFESQUESTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7A1860)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlanetFesQuestRow_TypeDefinitionIndex = 11751;
+	inline static constexpr unsigned int PlanetFesQuestRow_TypeDefinitionIndex = 12140;
 
 	class PlanetFesQuestRow : public ::System::Object
 	{
@@ -21,10 +21,10 @@ namespace RPG::GameCore
 		::Il2CppArray<::RPG::GameCore::ItemConfig*>* RewardItemList; // 0x10
 		::System::String* IconPath; // 0x18
 		::RPG::Client::TextID Name; // 0x20
-		::System::UInt32 FinishwayID; // 0x30
-		::System::UInt32 ID; // 0x34
-		::RPG::GameCore::PlanetFesQuestType QuestType; // 0x38
-		::RPG::Client::TextID Description; // 0x40
+		::RPG::Client::TextID Description; // 0x30
+		::System::UInt32 FinishwayID; // 0x40
+		::System::UInt32 ID; // 0x44
+		::RPG::GameCore::PlanetFesQuestType QuestType; // 0x48
 
 		::System::Void _ctor()
 		{

@@ -3,7 +3,7 @@
 
 namespace System::Net::Sockets
 {
-	inline static constexpr unsigned int IOControlCode_TypeDefinitionIndex = 2888;
+	inline static constexpr unsigned int IOControlCode_TypeDefinitionIndex = 2895;
 
 	enum class IOControlCode : ::System::Int64
 	{

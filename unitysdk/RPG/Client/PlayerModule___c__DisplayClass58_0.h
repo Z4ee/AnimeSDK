@@ -4,12 +4,12 @@
 
 class Class_1_21DCD4640D389503_32;
 
-#define RPG_CLIENT_PLAYERMODULE___C__DISPLAYCLASS58_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1938A5B0)
-#define RPG_CLIENT_PLAYERMODULE___C__DISPLAYCLASS58_0___ONCMDPLAYERLOGINSCRSP_B__0_OFFSET UNITYSDK_OFFSET(0x1938F2A0)
+#define RPG_CLIENT_PLAYERMODULE___C__DISPLAYCLASS58_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE0C720)
+#define RPG_CLIENT_PLAYERMODULE___C__DISPLAYCLASS58_0___ONCMDPLAYERLOGINSCRSP_B__0_OFFSET UNITYSDK_OFFSET(0x1AE11390)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlayerModule___c__DisplayClass58_0_TypeDefinitionIndex = 63736;
+	inline static constexpr unsigned int PlayerModule___c__DisplayClass58_0_TypeDefinitionIndex = 66721;
 
 	class PlayerModule___c__DisplayClass58_0 : public ::System::Object
 	{

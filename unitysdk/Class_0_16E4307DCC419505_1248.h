@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace RPG::Client::Promises { class Promise; }
+namespace RPG::Client::ActivityIdleLive { class SpecialEquip; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1248_TypeDefinitionIndex = 74466;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1248_TypeDefinitionIndex = 74925;
 
 class Class_0_16E4307DCC419505_1248
 {

@@ -5,9 +5,9 @@
 
 namespace System { class String; }
 
-#define IRI_BASEBUILDINGCUSTOMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x17505A90)
+#define IRI_BASEBUILDINGCUSTOMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18E6B800)
 
-inline static constexpr unsigned int IRI_BaseBuildingCustomData_TypeDefinitionIndex = 45375;
+inline static constexpr unsigned int IRI_BaseBuildingCustomData_TypeDefinitionIndex = 47622;
 
 class IRI_BaseBuildingCustomData : public ::UnityEngine::MonoBehaviour
 {

@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_ROGUETOASTMIRACLEBROKENPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1983AF80)
+#define RPG_CLIENT_ROGUETOASTMIRACLEBROKENPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1AEE7660)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueToastMiracleBrokenParam_TypeDefinitionIndex = 64025;
+	inline static constexpr unsigned int RogueToastMiracleBrokenParam_TypeDefinitionIndex = 67016;
 
 	class RogueToastMiracleBrokenParam : public ::System::Object
 	{
 	public:
-		::System::UInt32 BrokenChangeMiracleID; // 0x10
-		::System::UInt32 HintID; // 0x14
-		::System::UInt32 MiracleID; // 0x18
+		::System::UInt32 MiracleID; // 0x10
+		::System::UInt32 BrokenChangeMiracleID; // 0x14
+		::System::UInt32 HintID; // 0x18
 
 		::System::Void _ctor()
 		{

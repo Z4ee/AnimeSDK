@@ -8,26 +8,26 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define CLASS_1_98D78BFF30C4B05E_METHOD_1_F6FF3DE94D09C840_OFFSET UNITYSDK_OFFSET(0x1B564270)
-#define CLASS_1_98D78BFF30C4B05E__CTOR_OFFSET UNITYSDK_OFFSET(0x1B564750)
+#define CLASS_1_98D78BFF30C4B05E_METHOD_1_F6FF3DE94D09C840_OFFSET UNITYSDK_OFFSET(0x1CB72370)
+#define CLASS_1_98D78BFF30C4B05E__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB728F0)
 
-inline static constexpr unsigned int Class_1_98D78BFF30C4B05E_TypeDefinitionIndex = 12016;
+inline static constexpr unsigned int Class_1_98D78BFF30C4B05E_TypeDefinitionIndex = 12405;
 
 class Class_1_98D78BFF30C4B05E : public ::System::Object
 {
 public:
-	::System::String* Field_1_0; // 0x10
-	::System::String* Field_1_1; // 0x18
-	::Il2CppArray<::RPG::GameCore::FixPoint>* Field_1_2; // 0x20
-	::RPG::Client::TextID Field_1_3; // 0x28
-	::RPG::GameCore::TeamTowersPlayerSkillType Field_1_4; // 0x38
-	::System::Single Field_1_5; // 0x3C
-	::RPG::Client::TextID Field_1_6; // 0x40
-	::System::Single Field_1_7; // 0x50
-	::System::UInt32 Field_1_8; // 0x54
-	::System::UInt32 Field_1_9; // 0x58
-	::System::UInt32 Field_1_10; // 0x5C
-	::RPG::Client::TextID Field_1_11; // 0x60
+	::System::String* MEIFEJGOLJC; // 0x10
+	::Il2CppArray<::RPG::GameCore::FixPoint>* PBLPLDJKPEI; // 0x18
+	::System::String* OLOIFNNLKJP; // 0x20
+	::RPG::Client::TextID OENAMINOLLF; // 0x28
+	::System::UInt32 ODEKADIBFAO; // 0x38
+	::System::Single CNGOPBADLLP; // 0x3C
+	::RPG::GameCore::TeamTowersPlayerSkillType GMPGDEINODK; // 0x40
+	::System::UInt32 AAGKEBFHLMC; // 0x44
+	::RPG::Client::TextID HEIHBJEEGPB; // 0x48
+	::System::UInt32 PHFMCACHFIJ; // 0x58
+	::System::Single EJKGHBAGFIB; // 0x5C
+	::RPG::Client::TextID NMAHGFAPENI; // 0x60
 
 	::System::Void _ctor()
 	{

@@ -1,0 +1,49 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Sofa/BaseSofaControl.h"
+
+class Class_1_243AEB71B7D38FD2;
+namespace RPG::Client { class LocalizedText; }
+
+#define RPG_CLIENT_B51RACING_MONOB51RACINGGAMEPLAYFINISHPAGE_ONFADEINFINISHED_OFFSET UNITYSDK_OFFSET(0x1B6D0B10)
+#define RPG_CLIENT_B51RACING_MONOB51RACINGGAMEPLAYFINISHPAGE_SETUPVIEW_OFFSET UNITYSDK_OFFSET(0x1B6D0970)
+#define RPG_CLIENT_B51RACING_MONOB51RACINGGAMEPLAYFINISHPAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6D0CD0)
+#define RPG_CLIENT_B51RACING_MONOB51RACINGGAMEPLAYFINISHPAGE__GETMATCHFLOWSERVICE_OFFSET UNITYSDK_OFFSET(0x1B6D0C30)
+#define RPG_CLIENT_B51RACING_MONOB51RACINGGAMEPLAYFINISHPAGE__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0x1B6D08D0)
+
+namespace RPG::Client::B51Racing
+{
+	inline static constexpr unsigned int MonoB51RacingGamePlayFinishPage_TypeDefinitionIndex = 80541;
+
+	class MonoB51RacingGamePlayFinishPage : public ::Sofa::BaseSofaControl
+	{
+	public:
+		::RPG::Client::LocalizedText* _TitleText; // 0x38
+		::RPG::Client::LocalizedText* _RankText; // 0x40
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_MONOB51RACINGGAMEPLAYFINISHPAGE__CTOR_OFFSET))(this);
+		}
+
+		::System::Void _OnInitializeComponent()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_MONOB51RACINGGAMEPLAYFINISHPAGE__ONINITIALIZECOMPONENT_OFFSET))(this);
+		}
+
+		::System::Void SetupView()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_MONOB51RACINGGAMEPLAYFINISHPAGE_SETUPVIEW_OFFSET))(this);
+		}
+
+		::System::Void OnFadeInFinished()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_MONOB51RACINGGAMEPLAYFINISHPAGE_ONFADEINFINISHED_OFFSET))(this);
+		}
+
+		::Class_1_243AEB71B7D38FD2* _GetMatchFlowService()
+		{
+			return ((::Class_1_243AEB71B7D38FD2*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_MONOB51RACINGGAMEPLAYFINISHPAGE__GETMATCHFLOWSERVICE_OFFSET))(this);
+		}
+	};
+}

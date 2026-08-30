@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/GameCore/FixPoint.h"
 
-class Class_0_16E4307DCC419505_722;
+namespace RPG::Client { class IActivityQuestRewardTabGroupInfo; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_721_TypeDefinitionIndex = 59749;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_721_TypeDefinitionIndex = 61831;
 
 class Class_0_16E4307DCC419505_721
 {

@@ -8,17 +8,17 @@
 namespace RPG::Client { class CommonEffectMaterialBlockOne; }
 namespace UnityEngine { class Animator; }
 
-#define RPG_CLIENT_PROPEFFECT_METHOD_7_25DEA5C65A602671_OFFSET UNITYSDK_OFFSET(0x161461E0)
-#define RPG_CLIENT_PROPEFFECT_METHOD_7_60E1F7F58CCF739F_OFFSET UNITYSDK_OFFSET(0x161469B0)
-#define RPG_CLIENT_PROPEFFECT_METHOD_7_8F059A365E90744C_OFFSET UNITYSDK_OFFSET(0x161468C0)
-#define RPG_CLIENT_PROPEFFECT_METHOD_7_D0EAB95EE152A65F_OFFSET UNITYSDK_OFFSET(0x16146640)
-#define RPG_CLIENT_PROPEFFECT_ONENABLE_OFFSET UNITYSDK_OFFSET(0x16146A00)
-#define RPG_CLIENT_PROPEFFECT_RESET_OFFSET UNITYSDK_OFFSET(0x16146960)
-#define RPG_CLIENT_PROPEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x16146AB0)
+#define RPG_CLIENT_PROPEFFECT_METHOD_7_25DEA5C65A602671_OFFSET UNITYSDK_OFFSET(0x17B45730)
+#define RPG_CLIENT_PROPEFFECT_METHOD_7_60E1F7F58CCF739F_OFFSET UNITYSDK_OFFSET(0x17B45F00)
+#define RPG_CLIENT_PROPEFFECT_METHOD_7_8F059A365E90744C_OFFSET UNITYSDK_OFFSET(0x17B45E10)
+#define RPG_CLIENT_PROPEFFECT_METHOD_7_D0EAB95EE152A65F_OFFSET UNITYSDK_OFFSET(0x17B45B90)
+#define RPG_CLIENT_PROPEFFECT_ONENABLE_OFFSET UNITYSDK_OFFSET(0x17B45F50)
+#define RPG_CLIENT_PROPEFFECT_RESET_OFFSET UNITYSDK_OFFSET(0x17B45EB0)
+#define RPG_CLIENT_PROPEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x17B46000)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PropEffect_TypeDefinitionIndex = 67546;
+	inline static constexpr unsigned int PropEffect_TypeDefinitionIndex = 70669;
 
 	class PropEffect : public ::RPG::Client::MaterialBlockEffectBase
 	{
@@ -42,14 +42,14 @@ namespace RPG::Client
 		::UnityEngine::Color FresnelColor; // 0xDC
 		::UnityEngine::Vector4 FresnelBSI; // 0xEC
 		::System::Single FresnelColorStrength; // 0xFC
-		::System::Boolean Field_7_19; // 0x100
+		::System::Boolean EFLDJDJGKMF; // 0x100
 		::System::Boolean KeyDissolveIsOn; // 0x101
 		::System::Single KeyDissolveBase; // 0x104
 		::System::Single KeyAlphaDistance; // 0x108
 		::System::Single KeyAlpha; // 0x10C
 		::System::Boolean KeyTillingOffset; // 0x110
 		::UnityEngine::Vector4 TillingOffset; // 0x114
-		::UnityEngine::Animator* Field_7_26; // 0x128
+		::UnityEngine::Animator* LCCKDHJPKHF; // 0x128
 		::Il2CppArray<::RPG::Client::CommonEffectMaterialBlockOne*>* CommonMaterialBlocks; // 0x130
 
 		::System::Void _ctor()

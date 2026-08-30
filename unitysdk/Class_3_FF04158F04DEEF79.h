@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ClearEntityFloatMessage; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_FF04158F04DEEF79_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18754D80)
-#define CLASS_3_FF04158F04DEEF79__CTOR_OFFSET UNITYSDK_OFFSET(0x18754D50)
+#define CLASS_3_FF04158F04DEEF79_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19A936B0)
+#define CLASS_3_FF04158F04DEEF79__CTOR_OFFSET UNITYSDK_OFFSET(0x19A93680)
 
-inline static constexpr unsigned int Class_3_FF04158F04DEEF79_TypeDefinitionIndex = 52472;
+inline static constexpr unsigned int Class_3_FF04158F04DEEF79_TypeDefinitionIndex = 55169;
 
 class Class_3_FF04158F04DEEF79 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ClearEntityFloatMessage*>
 {

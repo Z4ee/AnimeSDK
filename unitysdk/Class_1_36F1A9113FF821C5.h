@@ -9,29 +9,29 @@
 namespace UnityEngine { class Collider; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_36F1A9113FF821C5_CLEAR_OFFSET UNITYSDK_OFFSET(0x1A9E8710)
-#define CLASS_1_36F1A9113FF821C5_METHOD_1_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0x1A9E8640)
-#define CLASS_1_36F1A9113FF821C5_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1A9E8690)
-#define CLASS_1_36F1A9113FF821C5_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1A9E86D0)
-#define CLASS_1_36F1A9113FF821C5__CTOR_OFFSET UNITYSDK_OFFSET(0x1A9E8900)
+#define CLASS_1_36F1A9113FF821C5_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CDDC090)
+#define CLASS_1_36F1A9113FF821C5_METHOD_1_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0x1CDDBFC0)
+#define CLASS_1_36F1A9113FF821C5_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1CDDC010)
+#define CLASS_1_36F1A9113FF821C5_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1CDDC050)
+#define CLASS_1_36F1A9113FF821C5__CTOR_OFFSET UNITYSDK_OFFSET(0x1CDDC290)
 
-inline static constexpr unsigned int Class_1_36F1A9113FF821C5_TypeDefinitionIndex = 40674;
+inline static constexpr unsigned int Class_1_36F1A9113FF821C5_TypeDefinitionIndex = 41627;
 
 class Class_1_36F1A9113FF821C5 : public ::System::Object
 {
 public:
-	::UnityEngine::Collider* Field_1_0; // 0x10
-	::UnityEngine::Transform* Field_1_1; // 0x18
-	::Struct_2_F8D9CEC872B937AF Field_1_2; // 0x20
-	::System::Boolean Field_1_3; // 0xB0
-	::System::Boolean Field_1_4; // 0xB1
-	::System::Boolean Field_1_5; // 0xB2
-	::RPG::Client::LittleGame::FiveDim::DynamicCollisionRegisterReason Field_1_6; // 0xB3
-	::Struct_2_EAC1BB0F093534A5 Field_1_7; // 0xB4
-	::UnityEngine::Bounds Field_1_8; // 0x11C
-	::Struct_2_EAC1BB0F093534A5 Field_1_9; // 0x134
-	::System::UInt32 Field_1_10; // 0x19C
-	::UnityEngine::Bounds Field_1_11; // 0x1A0
+	::UnityEngine::Collider* KHMJGBNKOFE; // 0x10
+	::Struct_2_F8D9CEC872B937AF BGBEHLOFHAM; // 0x18
+	::UnityEngine::Transform* ADCDKNLDDFN; // 0xA8
+	::UnityEngine::Bounds BAHCKDEFBEN; // 0xB0
+	::System::UInt32 KPGOIAGMDNN; // 0xC8
+	::Struct_2_EAC1BB0F093534A5 HNFHBHNLJOH; // 0xCC
+	::UnityEngine::Bounds PLCLBIMIGHB; // 0x134
+	::Struct_2_EAC1BB0F093534A5 CADPNKFLDBC; // 0x14C
+	::System::Boolean IJCDEINGADN; // 0x1B4
+	::RPG::Client::LittleGame::FiveDim::DynamicCollisionRegisterReason OBFHLDKOKEA; // 0x1B5
+	::System::Boolean CKILGKGKMHK; // 0x1B6
+	::System::Boolean NOOJOFHAIAA; // 0x1B7
 
 	::System::Void _ctor()
 	{

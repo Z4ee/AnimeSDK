@@ -8,13 +8,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ADVENTURECAMERALOOKATTEMPLATE_METHOD_3_0BEB03EF22EEC647_OFFSET UNITYSDK_OFFSET(0x1AE59710)
-#define RPG_GAMECORE_ADVENTURECAMERALOOKATTEMPLATE_METHOD_3_AE843DFFF2D8986E_OFFSET UNITYSDK_OFFSET(0x1AE596D0)
-#define RPG_GAMECORE_ADVENTURECAMERALOOKATTEMPLATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE59700)
+#define RPG_GAMECORE_ADVENTURECAMERALOOKATTEMPLATE_METHOD_3_166B1194A3FFA480_OFFSET UNITYSDK_OFFSET(0x1CBB5690)
+#define RPG_GAMECORE_ADVENTURECAMERALOOKATTEMPLATE_METHOD_3_AE843DFFF2D8986E_OFFSET UNITYSDK_OFFSET(0x1CBB5650)
+#define RPG_GAMECORE_ADVENTURECAMERALOOKATTEMPLATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CBB5680)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureCameraLookAtTemplate_TypeDefinitionIndex = 21331;
+	inline static constexpr unsigned int AdventureCameraLookAtTemplate_TypeDefinitionIndex = 21892;
 
 	class AdventureCameraLookAtTemplate : public ::RPG::GameCore::TaskConfig
 	{
@@ -37,9 +37,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventureCameraLookAtTemplate*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURECAMERALOOKATTEMPLATE_METHOD_3_AE843DFFF2D8986E_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_0BEB03EF22EEC647(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureCameraLookAtTemplate* a2)
+		static ::System::Void Method_3_166B1194A3FFA480(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureCameraLookAtTemplate* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventureCameraLookAtTemplate*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURECAMERALOOKATTEMPLATE_METHOD_3_0BEB03EF22EEC647_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventureCameraLookAtTemplate*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURECAMERALOOKATTEMPLATE_METHOD_3_166B1194A3FFA480_OFFSET))(a1, a2);
 		}
 	};
 }

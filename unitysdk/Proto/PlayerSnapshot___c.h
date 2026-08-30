@@ -4,20 +4,20 @@
 
 namespace Proto { class PlayerSnapshot; }
 
-#define PROTO_PLAYERSNAPSHOT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BEEB800)
-#define PROTO_PLAYERSNAPSHOT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BEEB840)
-#define PROTO_PLAYERSNAPSHOT___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1BEEB850)
+#define PROTO_PLAYERSNAPSHOT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DD4E120)
+#define PROTO_PLAYERSNAPSHOT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD4E160)
+#define PROTO_PLAYERSNAPSHOT___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1DD4E170)
 
 namespace Proto
 {
-	inline static constexpr unsigned int PlayerSnapshot___c_TypeDefinitionIndex = 24897;
+	inline static constexpr unsigned int PlayerSnapshot___c_TypeDefinitionIndex = 25486;
 
 	class PlayerSnapshot___c : public ::System::Object
 	{
 	public:
 		static ::Proto::PlayerSnapshot___c** StaticGet___9()
 		{
-			return (::Proto::PlayerSnapshot___c**)Il2CppClass::FromTypeDefinitionIndex(PlayerSnapshot___c_TypeDefinitionIndex)->GetStaticField(0x3F920);
+			return (::Proto::PlayerSnapshot___c**)Il2CppClass::FromTypeDefinitionIndex(PlayerSnapshot___c_TypeDefinitionIndex)->GetStaticField(0x5C780);
 		}
 
 		static ::System::Void _cctor()

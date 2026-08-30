@@ -10,23 +10,23 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_3_17B95EC4AA1CE2AE_METHOD_3_14F2FC46FC687955_OFFSET UNITYSDK_OFFSET(0xBBE4B00)
-#define CLASS_3_17B95EC4AA1CE2AE_METHOD_3_5C675B92235EC69F_OFFSET UNITYSDK_OFFSET(0xBBE4B40)
-#define CLASS_3_17B95EC4AA1CE2AE__CTOR_OFFSET UNITYSDK_OFFSET(0xBBE4B30)
+#define CLASS_3_17B95EC4AA1CE2AE_METHOD_3_14F2FC46FC687955_OFFSET UNITYSDK_OFFSET(0x1CEFF6C0)
+#define CLASS_3_17B95EC4AA1CE2AE_METHOD_3_5C675B92235EC69F_OFFSET UNITYSDK_OFFSET(0x1CEFF700)
+#define CLASS_3_17B95EC4AA1CE2AE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CEFF6F0)
 
-inline static constexpr unsigned int Class_3_17B95EC4AA1CE2AE_TypeDefinitionIndex = 23302;
+inline static constexpr unsigned int Class_3_17B95EC4AA1CE2AE_TypeDefinitionIndex = 23882;
 
 class Class_3_17B95EC4AA1CE2AE : public ::RPG::GameCore::TaskConfig
 {
 public:
-	::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::DynamicString*>* Field_3_0; // 0x18
-	::RPG::GameCore::RtLifeBindingConfig* Field_3_1; // 0x20
-	::RPG::GameCore::TargetEvaluator* Field_3_2; // 0x28
-	::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::DynamicFloat*>* Field_3_3; // 0x30
-	::RPG::GameCore::TargetEvaluator* Field_3_4; // 0x38
-	::RPG::GameCore::TargetEvaluator* Field_3_5; // 0x40
-	::Il2CppArray<::RPG::GameCore::TaskConfig*>* Field_3_6; // 0x48
-	::Il2CppArray<::RPG::GameCore::TaskConfig*>* Field_3_7; // 0x50
+	::Il2CppArray<::RPG::GameCore::TaskConfig*>* ELGMGKGMCCM; // 0x18
+	::RPG::GameCore::RtLifeBindingConfig* ECNHHNDAHKB; // 0x20
+	::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::DynamicString*>* BGCBMIGIAMM; // 0x28
+	::Il2CppArray<::RPG::GameCore::TaskConfig*>* AIBLKCJHCCC; // 0x30
+	::RPG::GameCore::TargetEvaluator* BBOFFGLPHCJ; // 0x38
+	::RPG::GameCore::TargetEvaluator* CGNJAJMEKOI; // 0x40
+	::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::DynamicFloat*>* FMCJJBALBEN; // 0x48
+	::RPG::GameCore::TargetEvaluator* BCJFPLDEDJE; // 0x50
 
 	::System::Void _ctor()
 	{

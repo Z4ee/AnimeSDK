@@ -8,7 +8,7 @@ namespace System { class Object; }
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ConfigDataPoolDictionaryValuesEnumeratorKeyValuePoolMember_2_TypeDefinitionIndex = 10434;
+	inline static constexpr unsigned int ConfigDataPoolDictionaryValuesEnumeratorKeyValuePoolMember_2_TypeDefinitionIndex = 10775;
 
 	template <typename TKey, typename TValue>
 	struct ConfigDataPoolDictionaryValuesEnumeratorKeyValuePoolMember_2

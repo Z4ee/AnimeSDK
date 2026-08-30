@@ -5,15 +5,15 @@
 
 namespace System { template <typename T> class Action_1; }
 
-#define CLASS_1_CEA03E94A3669701_CLEAR_OFFSET UNITYSDK_OFFSET(0x1A909300)
-#define CLASS_1_CEA03E94A3669701__CTOR_OFFSET UNITYSDK_OFFSET(0x1A909350)
+#define CLASS_1_CEA03E94A3669701_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C522E70)
+#define CLASS_1_CEA03E94A3669701__CTOR_OFFSET UNITYSDK_OFFSET(0x1C522EC0)
 
-inline static constexpr unsigned int Class_1_CEA03E94A3669701_TypeDefinitionIndex = 40787;
+inline static constexpr unsigned int Class_1_CEA03E94A3669701_TypeDefinitionIndex = 41741;
 
 class Class_1_CEA03E94A3669701 : public ::System::Object
 {
 public:
-	::System::Action_1<::RPG::Client::LittleGame::FiveDim::MiniGameEventReason>* Field_1_0; // 0x10
+	::System::Action_1<::RPG::Client::LittleGame::FiveDim::MiniGameEventReason>* CMIFLIMCPBO; // 0x10
 
 	::System::Void _ctor()
 	{

@@ -7,7 +7,7 @@ class Class_0_16E4307DCC419505_27;
 namespace RPG::LittleGameShare::HoyoPhysics { class PhysicsCollider2DFilterConfig; }
 namespace System { class Object; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_30_TypeDefinitionIndex = 35012;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_30_TypeDefinitionIndex = 35873;
 
 class Class_0_16E4307DCC419505_30
 {

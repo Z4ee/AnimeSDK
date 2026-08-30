@@ -8,34 +8,34 @@ namespace RPG::Client::ActivityIdleLive { class CaptainData; }
 namespace System { template <typename T> class Action_1; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVEMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19A72F10)
-#define RPG_CLIENT_ACTIVITYIDLELIVEMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19A72F40)
-#define RPG_CLIENT_ACTIVITYIDLELIVEMODULE___C___INITREQ_B__229_0_OFFSET UNITYSDK_OFFSET(0x19A72F90)
-#define RPG_CLIENT_ACTIVITYIDLELIVEMODULE___C___SORTCAPTAINBYTOTALSCDESCEND_B__258_0_OFFSET UNITYSDK_OFFSET(0x19A73050)
-#define RPG_CLIENT_ACTIVITYIDLELIVEMODULE___C___UPDATECHAPTERRECORDDATA_B__215_1_OFFSET UNITYSDK_OFFSET(0x19A72F50)
+#define RPG_CLIENT_ACTIVITYIDLELIVEMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BA7F820)
+#define RPG_CLIENT_ACTIVITYIDLELIVEMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA7F850)
+#define RPG_CLIENT_ACTIVITYIDLELIVEMODULE___C___INITREQ_B__229_0_OFFSET UNITYSDK_OFFSET(0x1BA7F8A0)
+#define RPG_CLIENT_ACTIVITYIDLELIVEMODULE___C___SORTCAPTAINBYTOTALSCDESCEND_B__258_0_OFFSET UNITYSDK_OFFSET(0x1BA7F940)
+#define RPG_CLIENT_ACTIVITYIDLELIVEMODULE___C___UPDATECHAPTERRECORDDATA_B__215_1_OFFSET UNITYSDK_OFFSET(0x1BA7F860)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityIdleLiveModule___c_TypeDefinitionIndex = 58801;
+	inline static constexpr unsigned int ActivityIdleLiveModule___c_TypeDefinitionIndex = 61632;
 
 	class ActivityIdleLiveModule___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::RPG::Client::ActivityIdleLive::CaptainData*>** StaticGet___9__258_0()
-		{
-			return (::System::Comparison_1<::RPG::Client::ActivityIdleLive::CaptainData*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityIdleLiveModule___c_TypeDefinitionIndex)->GetStaticField(0x433E0);
-		}
 		static ::System::Comparison_1<::Class_1_82DE034E4ED86DE3*>** StaticGet___9__215_1()
 		{
-			return (::System::Comparison_1<::Class_1_82DE034E4ED86DE3*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityIdleLiveModule___c_TypeDefinitionIndex)->GetStaticField(0x433E8);
-		}
-		static ::RPG::Client::ActivityIdleLiveModule___c** StaticGet___9()
-		{
-			return (::RPG::Client::ActivityIdleLiveModule___c**)Il2CppClass::FromTypeDefinitionIndex(ActivityIdleLiveModule___c_TypeDefinitionIndex)->GetStaticField(0x433F0);
+			return (::System::Comparison_1<::Class_1_82DE034E4ED86DE3*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityIdleLiveModule___c_TypeDefinitionIndex)->GetStaticField(0x5F6C0);
 		}
 		static ::System::Action_1<::RPG::Client::ScheduleData*>** StaticGet___9__229_0()
 		{
-			return (::System::Action_1<::RPG::Client::ScheduleData*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityIdleLiveModule___c_TypeDefinitionIndex)->GetStaticField(0x433F8);
+			return (::System::Action_1<::RPG::Client::ScheduleData*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityIdleLiveModule___c_TypeDefinitionIndex)->GetStaticField(0x5F6C8);
+		}
+		static ::RPG::Client::ActivityIdleLiveModule___c** StaticGet___9()
+		{
+			return (::RPG::Client::ActivityIdleLiveModule___c**)Il2CppClass::FromTypeDefinitionIndex(ActivityIdleLiveModule___c_TypeDefinitionIndex)->GetStaticField(0x5F6D0);
+		}
+		static ::System::Comparison_1<::RPG::Client::ActivityIdleLive::CaptainData*>** StaticGet___9__258_0()
+		{
+			return (::System::Comparison_1<::RPG::Client::ActivityIdleLive::CaptainData*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityIdleLiveModule___c_TypeDefinitionIndex)->GetStaticField(0x5F6D8);
 		}
 
 		static ::System::Void _cctor()

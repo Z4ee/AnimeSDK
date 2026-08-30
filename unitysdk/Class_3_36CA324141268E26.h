@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class PropCurveMovePause; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_36CA324141268E26_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x14E72E20)
-#define CLASS_3_36CA324141268E26__CTOR_OFFSET UNITYSDK_OFFSET(0x14E72DF0)
+#define CLASS_3_36CA324141268E26_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17A28270)
+#define CLASS_3_36CA324141268E26__CTOR_OFFSET UNITYSDK_OFFSET(0x17A28240)
 
-inline static constexpr unsigned int Class_3_36CA324141268E26_TypeDefinitionIndex = 55725;
+inline static constexpr unsigned int Class_3_36CA324141268E26_TypeDefinitionIndex = 58456;
 
 class Class_3_36CA324141268E26 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::PropCurveMovePause*>
 {

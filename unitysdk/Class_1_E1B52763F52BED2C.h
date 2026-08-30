@@ -5,18 +5,18 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_E1B52763F52BED2C_METHOD_1_1D4018D4200358D0_OFFSET UNITYSDK_OFFSET(0x15055970)
-#define CLASS_1_E1B52763F52BED2C_METHOD_1_62AC1C3E7A474596_OFFSET UNITYSDK_OFFSET(0x150559D0)
-#define CLASS_1_E1B52763F52BED2C_METHOD_1_ED03344F6704FBF9_OFFSET UNITYSDK_OFFSET(0x15055310)
-#define CLASS_1_E1B52763F52BED2C__CTOR_OFFSET UNITYSDK_OFFSET(0x150557A0)
+#define CLASS_1_E1B52763F52BED2C_METHOD_1_1D4018D4200358D0_OFFSET UNITYSDK_OFFSET(0x188E6B50)
+#define CLASS_1_E1B52763F52BED2C_METHOD_1_62AC1C3E7A474596_OFFSET UNITYSDK_OFFSET(0x188E6BB0)
+#define CLASS_1_E1B52763F52BED2C_METHOD_1_ED03344F6704FBF9_OFFSET UNITYSDK_OFFSET(0x188E64F0)
+#define CLASS_1_E1B52763F52BED2C__CTOR_OFFSET UNITYSDK_OFFSET(0x188E6980)
 
-inline static constexpr unsigned int Class_1_E1B52763F52BED2C_TypeDefinitionIndex = 71555;
+inline static constexpr unsigned int Class_1_E1B52763F52BED2C_TypeDefinitionIndex = 74861;
 
 class Class_1_E1B52763F52BED2C : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::CharacterMeetEventSentence>* Field_1_0; // 0x10
-	::System::Int32 Field_1_1; // 0x18
+	::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::CharacterMeetEventSentence>* KMJCDKAOOEC; // 0x10
+	::System::Int32 KKODODLJADN; // 0x18
 
 	::System::Void _ctor(::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::CharacterMeetEventSentence>* a1)
 	{

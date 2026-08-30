@@ -5,24 +5,24 @@
 namespace RPG::GameCore { class ConditionParam; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_FATEACTIVITYPANELDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x196EDED0)
-#define RPG_CLIENT_FATEACTIVITYPANELDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x196EDF10)
-#define RPG_CLIENT_FATEACTIVITYPANELDATA___C__ISLOCKEDBYPRECONDITIONS_B__8_0_OFFSET UNITYSDK_OFFSET(0x196EDF20)
+#define RPG_CLIENT_FATEACTIVITYPANELDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C16C4A0)
+#define RPG_CLIENT_FATEACTIVITYPANELDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1C16C4E0)
+#define RPG_CLIENT_FATEACTIVITYPANELDATA___C__ISLOCKEDBYPRECONDITIONS_B__8_0_OFFSET UNITYSDK_OFFSET(0x1C16C4F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FateActivityPanelData___c_TypeDefinitionIndex = 58877;
+	inline static constexpr unsigned int FateActivityPanelData___c_TypeDefinitionIndex = 61712;
 
 	class FateActivityPanelData___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::GameCore::ConditionParam*, ::System::Boolean>** StaticGet___9__8_0()
-		{
-			return (::System::Func_2<::RPG::GameCore::ConditionParam*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(FateActivityPanelData___c_TypeDefinitionIndex)->GetStaticField(0x24D0);
-		}
 		static ::RPG::Client::FateActivityPanelData___c** StaticGet___9()
 		{
-			return (::RPG::Client::FateActivityPanelData___c**)Il2CppClass::FromTypeDefinitionIndex(FateActivityPanelData___c_TypeDefinitionIndex)->GetStaticField(0x24D8);
+			return (::RPG::Client::FateActivityPanelData___c**)Il2CppClass::FromTypeDefinitionIndex(FateActivityPanelData___c_TypeDefinitionIndex)->GetStaticField(0x65060);
+		}
+		static ::System::Func_2<::RPG::GameCore::ConditionParam*, ::System::Boolean>** StaticGet___9__8_0()
+		{
+			return (::System::Func_2<::RPG::GameCore::ConditionParam*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(FateActivityPanelData___c_TypeDefinitionIndex)->GetStaticField(0x65068);
 		}
 
 		static ::System::Void _cctor()

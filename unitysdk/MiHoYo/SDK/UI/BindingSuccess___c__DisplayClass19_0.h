@@ -5,18 +5,18 @@
 namespace MiHoYo::SDK::UI { class BindingSuccess; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_UI_BINDINGSUCCESS___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6A5FD0)
-#define MIHOYO_SDK_UI_BINDINGSUCCESS___C__DISPLAYCLASS19_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1B6A6090)
+#define MIHOYO_SDK_UI_BINDINGSUCCESS___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9C8530)
+#define MIHOYO_SDK_UI_BINDINGSUCCESS___C__DISPLAYCLASS19_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1B9C85F0)
 
 namespace MiHoYo::SDK::UI
 {
-	inline static constexpr unsigned int BindingSuccess___c__DisplayClass19_0_TypeDefinitionIndex = 8327;
+	inline static constexpr unsigned int BindingSuccess___c__DisplayClass19_0_TypeDefinitionIndex = 8344;
 
 	class BindingSuccess___c__DisplayClass19_0 : public ::System::Object
 	{
 	public:
-		::System::String* channelAccount; // 0x10
-		::System::String* hoyoAccount; // 0x18
+		::System::String* hoyoAccount; // 0x10
+		::System::String* channelAccount; // 0x18
 
 		::System::Void _ctor()
 		{

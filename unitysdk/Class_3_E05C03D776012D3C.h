@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdventureByCheckMoveInput; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_E05C03D776012D3C_EVALUATE_OFFSET UNITYSDK_OFFSET(0x186BB860)
-#define CLASS_3_E05C03D776012D3C__CTOR_OFFSET UNITYSDK_OFFSET(0x186BB830)
+#define CLASS_3_E05C03D776012D3C_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1AA42150)
+#define CLASS_3_E05C03D776012D3C__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA42120)
 
-inline static constexpr unsigned int Class_3_E05C03D776012D3C_TypeDefinitionIndex = 50699;
+inline static constexpr unsigned int Class_3_E05C03D776012D3C_TypeDefinitionIndex = 53381;
 
 class Class_3_E05C03D776012D3C : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::AdventureByCheckMoveInput*>
 {

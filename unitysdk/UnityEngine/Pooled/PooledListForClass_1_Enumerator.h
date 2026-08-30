@@ -7,7 +7,7 @@ namespace UnityEngine::Pooled { template <typename T> class PooledListForClass_1
 
 namespace UnityEngine::Pooled
 {
-	inline static constexpr unsigned int PooledListForClass_1_Enumerator_TypeDefinitionIndex = 4518;
+	inline static constexpr unsigned int PooledListForClass_1_Enumerator_TypeDefinitionIndex = 4528;
 
 	template <typename T>
 	struct PooledListForClass_1_Enumerator

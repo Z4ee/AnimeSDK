@@ -3,7 +3,7 @@
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatV2DiceExchangeEventType_TypeDefinitionIndex = 72253;
+	inline static constexpr unsigned int DiceCombatV2DiceExchangeEventType_TypeDefinitionIndex = 75689;
 
 	enum class DiceCombatV2DiceExchangeEventType : ::System::Int32
 	{

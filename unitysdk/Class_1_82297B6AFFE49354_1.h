@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_82297B6AFFE49354_1_CLEAR_OFFSET UNITYSDK_OFFSET(0x19CAA5E0)
-#define CLASS_1_82297B6AFFE49354_1_METHOD_1_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0x19CAA5D0)
-#define CLASS_1_82297B6AFFE49354_1__CTOR_OFFSET UNITYSDK_OFFSET(0x19CAA630)
+#define CLASS_1_82297B6AFFE49354_1_CLEAR_OFFSET UNITYSDK_OFFSET(0x1BA8B100)
+#define CLASS_1_82297B6AFFE49354_1_METHOD_1_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0x1BA8B0F0)
+#define CLASS_1_82297B6AFFE49354_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA8B150)
 
-inline static constexpr unsigned int Class_1_82297B6AFFE49354_1_TypeDefinitionIndex = 40908;
+inline static constexpr unsigned int Class_1_82297B6AFFE49354_1_TypeDefinitionIndex = 41867;
 
 class Class_1_82297B6AFFE49354_1 : public ::System::Object
 {
 public:
-	::System::Int32 Field_1_0; // 0x10
-	::System::Int32 Field_1_1; // 0x14
-	::System::Single Field_1_2; // 0x18
-	::System::Boolean Field_1_3; // 0x1C
+	::System::Int32 MNMHMECGDAK; // 0x10
+	::System::Boolean KMGIHDHMBJB; // 0x14
+	::System::Int32 MCOFIICMFCJ; // 0x18
+	::System::Single NGOBPILMMNH; // 0x1C
 
 	::System::Void _ctor()
 	{

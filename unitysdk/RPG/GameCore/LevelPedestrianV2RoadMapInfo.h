@@ -7,12 +7,12 @@ namespace RPG::GameCore { class LevelPedestrianV2IntersectionInfo; }
 namespace RPG::GameCore { class LevelPedestrianV2RoadInfo; }
 namespace RPG::GameCore { class NavMeshLinkInfo; }
 
-#define RPG_GAMECORE_LEVELPEDESTRIANV2ROADMAPINFO_METHOD_2_6BB29F36E0D9458C_OFFSET UNITYSDK_OFFSET(0x1B0823B0)
-#define RPG_GAMECORE_LEVELPEDESTRIANV2ROADMAPINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B085A60)
+#define RPG_GAMECORE_LEVELPEDESTRIANV2ROADMAPINFO_METHOD_2_6BB29F36E0D9458C_OFFSET UNITYSDK_OFFSET(0x1C12A0F0)
+#define RPG_GAMECORE_LEVELPEDESTRIANV2ROADMAPINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1C12E140)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelPedestrianV2RoadMapInfo_TypeDefinitionIndex = 16623;
+	inline static constexpr unsigned int LevelPedestrianV2RoadMapInfo_TypeDefinitionIndex = 17117;
 
 	class LevelPedestrianV2RoadMapInfo : public ::RPG::GameCore::JsonConfig
 	{

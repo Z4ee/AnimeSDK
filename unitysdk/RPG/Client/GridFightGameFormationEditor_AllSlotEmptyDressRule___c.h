@@ -4,24 +4,24 @@
 
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_ALLSLOTEMPTYDRESSRULE___C__CANDRESS_B__2_0_OFFSET UNITYSDK_OFFSET(0x1ABD8900)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_ALLSLOTEMPTYDRESSRULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1ABD88B0)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_ALLSLOTEMPTYDRESSRULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1ABD88F0)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_ALLSLOTEMPTYDRESSRULE___C__CANDRESS_B__2_0_OFFSET UNITYSDK_OFFSET(0x1BD630E0)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_ALLSLOTEMPTYDRESSRULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BD63090)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_ALLSLOTEMPTYDRESSRULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD630D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGameFormationEditor_AllSlotEmptyDressRule___c_TypeDefinitionIndex = 61716;
+	inline static constexpr unsigned int GridFightGameFormationEditor_AllSlotEmptyDressRule___c_TypeDefinitionIndex = 64700;
 
 	class GridFightGameFormationEditor_AllSlotEmptyDressRule___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::UInt32, ::System::Boolean>** StaticGet___9__2_0()
-		{
-			return (::System::Func_2<::System::UInt32, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(GridFightGameFormationEditor_AllSlotEmptyDressRule___c_TypeDefinitionIndex)->GetStaticField(0x263A0);
-		}
 		static ::RPG::Client::GridFightGameFormationEditor_AllSlotEmptyDressRule___c** StaticGet___9()
 		{
-			return (::RPG::Client::GridFightGameFormationEditor_AllSlotEmptyDressRule___c**)Il2CppClass::FromTypeDefinitionIndex(GridFightGameFormationEditor_AllSlotEmptyDressRule___c_TypeDefinitionIndex)->GetStaticField(0x263A8);
+			return (::RPG::Client::GridFightGameFormationEditor_AllSlotEmptyDressRule___c**)Il2CppClass::FromTypeDefinitionIndex(GridFightGameFormationEditor_AllSlotEmptyDressRule___c_TypeDefinitionIndex)->GetStaticField(0x2A340);
+		}
+		static ::System::Func_2<::System::UInt32, ::System::Boolean>** StaticGet___9__2_0()
+		{
+			return (::System::Func_2<::System::UInt32, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(GridFightGameFormationEditor_AllSlotEmptyDressRule___c_TypeDefinitionIndex)->GetStaticField(0x2A348);
 		}
 
 		static ::System::Void _cctor()

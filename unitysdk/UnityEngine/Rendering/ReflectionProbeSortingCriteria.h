@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int ReflectionProbeSortingCriteria_TypeDefinitionIndex = 4746;
+	inline static constexpr unsigned int ReflectionProbeSortingCriteria_TypeDefinitionIndex = 4756;
 
 	enum class ReflectionProbeSortingCriteria : ::System::Int32
 	{

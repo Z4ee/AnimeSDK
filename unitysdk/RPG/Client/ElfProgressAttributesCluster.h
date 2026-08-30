@@ -5,11 +5,11 @@
 namespace RPG::Client { class ElfProgressAttributeData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ELFPROGRESSATTRIBUTESCLUSTER__CTOR_OFFSET UNITYSDK_OFFSET(0x18E3D880)
+#define RPG_CLIENT_ELFPROGRESSATTRIBUTESCLUSTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC83B30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ElfProgressAttributesCluster_TypeDefinitionIndex = 60926;
+	inline static constexpr unsigned int ElfProgressAttributesCluster_TypeDefinitionIndex = 63779;
 
 	class ElfProgressAttributesCluster : public ::System::Object
 	{

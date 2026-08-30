@@ -1,0 +1,37 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+#define RPG_CLIENT_ALLEYROUTEBIRDEMITTER_CLASS_1_9A90CD018E72DF20_11_GET_BIRDINTERVAL_OFFSET UNITYSDK_OFFSET(0x19C84D90)
+#define RPG_CLIENT_ALLEYROUTEBIRDEMITTER_CLASS_1_9A90CD018E72DF20_11_GET_BIRDSPEED_OFFSET UNITYSDK_OFFSET(0x19C84DE0)
+#define RPG_CLIENT_ALLEYROUTEBIRDEMITTER_CLASS_1_9A90CD018E72DF20_11_GET_SQUADSINTERVAL_OFFSET UNITYSDK_OFFSET(0x19C84D40)
+#define RPG_CLIENT_ALLEYROUTEBIRDEMITTER_CLASS_1_9A90CD018E72DF20_11__CTOR_OFFSET UNITYSDK_OFFSET(0x19C844A0)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int AlleyRouteBirdEmitter_Class_1_9A90CD018E72DF20_11_TypeDefinitionIndex = 62377;
+
+	class AlleyRouteBirdEmitter_Class_1_9A90CD018E72DF20_11 : public ::System::Object
+	{
+	public:
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ALLEYROUTEBIRDEMITTER_CLASS_1_9A90CD018E72DF20_11__CTOR_OFFSET))(this);
+		}
+
+		::System::Single get_SquadsInterval()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ALLEYROUTEBIRDEMITTER_CLASS_1_9A90CD018E72DF20_11_GET_SQUADSINTERVAL_OFFSET))(this);
+		}
+
+		::System::Single get_BirdInterval()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ALLEYROUTEBIRDEMITTER_CLASS_1_9A90CD018E72DF20_11_GET_BIRDINTERVAL_OFFSET))(this);
+		}
+
+		::System::Single get_BirdSpeed()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ALLEYROUTEBIRDEMITTER_CLASS_1_9A90CD018E72DF20_11_GET_BIRDSPEED_OFFSET))(this);
+		}
+	};
+}

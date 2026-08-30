@@ -4,7 +4,7 @@
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int PostLateUpdate_ScriptRunDelayedDynamicFrameRate_TypeDefinitionIndex = 4621;
+	inline static constexpr unsigned int PostLateUpdate_ScriptRunDelayedDynamicFrameRate_TypeDefinitionIndex = 4631;
 
 	struct alignas(1) PostLateUpdate_ScriptRunDelayedDynamicFrameRate
 	{

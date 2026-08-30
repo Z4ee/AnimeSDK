@@ -5,25 +5,25 @@
 
 namespace System { class LocalDataStoreSlot; }
 
-#define IFIX_CORE_THREADSTACKINFO_GET_STACK_OFFSET UNITYSDK_OFFSET(0x1B5347E0)
-#define IFIX_CORE_THREADSTACKINFO__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B54AFC0)
-#define IFIX_CORE_THREADSTACKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B539480)
+#define IFIX_CORE_THREADSTACKINFO_GET_STACK_OFFSET UNITYSDK_OFFSET(0x1CC5DCF0)
+#define IFIX_CORE_THREADSTACKINFO__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CC782E0)
+#define IFIX_CORE_THREADSTACKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC62990)
 
 namespace IFix::Core
 {
-	inline static constexpr unsigned int ThreadStackInfo_TypeDefinitionIndex = 9786;
+	inline static constexpr unsigned int ThreadStackInfo_TypeDefinitionIndex = 10065;
 
 	class ThreadStackInfo : public ::System::Object
 	{
 	public:
 		static ::System::LocalDataStoreSlot** StaticGet_localSlot()
 		{
-			return (::System::LocalDataStoreSlot**)Il2CppClass::FromTypeDefinitionIndex(ThreadStackInfo_TypeDefinitionIndex)->GetStaticField(0x710);
+			return (::System::LocalDataStoreSlot**)Il2CppClass::FromTypeDefinitionIndex(ThreadStackInfo_TypeDefinitionIndex)->GetStaticField(0x670);
 		}
 		::Il2CppArray<::System::Object*>* ManagedStack; // 0x10
 		::IFix::Core::UnmanagedStack* UnmanagedStack; // 0x18
-		::System::IntPtr evaluationStackHandler; // 0x20
-		::System::IntPtr unmanagedStackHandler; // 0x28
+		::System::IntPtr unmanagedStackHandler; // 0x20
+		::System::IntPtr evaluationStackHandler; // 0x28
 
 		::System::Void _ctor()
 		{

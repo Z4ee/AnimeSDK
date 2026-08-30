@@ -3,7 +3,7 @@
 
 namespace Epic::OnlineServices::Sessions
 {
-	inline static constexpr unsigned int OnlineSessionState_TypeDefinitionIndex = 42970;
+	inline static constexpr unsigned int OnlineSessionState_TypeDefinitionIndex = 45152;
 
 	enum class OnlineSessionState : ::System::Int32
 	{

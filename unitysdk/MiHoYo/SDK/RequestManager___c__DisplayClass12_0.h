@@ -6,20 +6,20 @@ namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_REQUESTMANAGER___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17113E30)
-#define MIHOYO_SDK_REQUESTMANAGER___C__DISPLAYCLASS12_0__LOGINBYACCOUNT_B__0_OFFSET UNITYSDK_OFFSET(0x1711AFE0)
+#define MIHOYO_SDK_REQUESTMANAGER___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B99F220)
+#define MIHOYO_SDK_REQUESTMANAGER___C__DISPLAYCLASS12_0__LOGINBYACCOUNT_B__0_OFFSET UNITYSDK_OFFSET(0x1B9A6870)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int RequestManager___c__DisplayClass12_0_TypeDefinitionIndex = 8014;
+	inline static constexpr unsigned int RequestManager___c__DisplayClass12_0_TypeDefinitionIndex = 8018;
 
 	class RequestManager___c__DisplayClass12_0 : public ::System::Object
 	{
 	public:
-		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* callback; // 0x10
+		::System::String* account; // 0x10
 		::System::String* url; // 0x18
-		::System::String* password; // 0x20
-		::System::String* account; // 0x28
+		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* callback; // 0x20
+		::System::String* password; // 0x28
 
 		::System::Void _ctor()
 		{

@@ -7,18 +7,18 @@ namespace RPG::Client { class MonoEffect; }
 namespace RPG::Client::LittleGame::PixAir { class PixAirPlaneView; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_LITTLEGAME_PIXAIR_PIXAIRPLANEVIEW___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19ABF330)
-#define RPG_CLIENT_LITTLEGAME_PIXAIR_PIXAIRPLANEVIEW___C__DISPLAYCLASS13_0___FIREEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0x19ABFC60)
+#define RPG_CLIENT_LITTLEGAME_PIXAIR_PIXAIRPLANEVIEW___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x186070C0)
+#define RPG_CLIENT_LITTLEGAME_PIXAIR_PIXAIRPLANEVIEW___C__DISPLAYCLASS13_0___FIREEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0x186079F0)
 
 namespace RPG::Client::LittleGame::PixAir
 {
-	inline static constexpr unsigned int PixAirPlaneView___c__DisplayClass13_0_TypeDefinitionIndex = 73374;
+	inline static constexpr unsigned int PixAirPlaneView___c__DisplayClass13_0_TypeDefinitionIndex = 76853;
 
 	class PixAirPlaneView___c__DisplayClass13_0 : public ::System::Object
 	{
 	public:
-		::UnityEngine::Transform* attachTransform; // 0x10
-		::RPG::Client::LittleGame::PixAir::PixAirPlaneView* __4__this; // 0x18
+		::RPG::Client::LittleGame::PixAir::PixAirPlaneView* __4__this; // 0x10
+		::UnityEngine::Transform* attachTransform; // 0x18
 
 		::System::Void _ctor()
 		{

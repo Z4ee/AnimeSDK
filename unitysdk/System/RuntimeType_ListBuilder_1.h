@@ -6,7 +6,7 @@ namespace System { class Object; }
 
 namespace System
 {
-	inline static constexpr unsigned int RuntimeType_ListBuilder_1_TypeDefinitionIndex = 320;
+	inline static constexpr unsigned int RuntimeType_ListBuilder_1_TypeDefinitionIndex = 323;
 
 	template <typename T>
 	struct RuntimeType_ListBuilder_1

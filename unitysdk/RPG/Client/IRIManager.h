@@ -9,21 +9,21 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class RPGInstancedItemBlock; }
 
-#define RPG_CLIENT_IRIMANAGER_ADDVOLUME_OFFSET UNITYSDK_OFFSET(0x17961DF0)
-#define RPG_CLIENT_IRIMANAGER_REMOVEVOLUME_OFFSET UNITYSDK_OFFSET(0x17962160)
-#define RPG_CLIENT_IRIMANAGER_SETVOLUMEVISIBLE_OFFSET UNITYSDK_OFFSET(0x17962260)
-#define RPG_CLIENT_IRIMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x179622E0)
+#define RPG_CLIENT_IRIMANAGER_ADDVOLUME_OFFSET UNITYSDK_OFFSET(0x1982EFA0)
+#define RPG_CLIENT_IRIMANAGER_REMOVEVOLUME_OFFSET UNITYSDK_OFFSET(0x1982F310)
+#define RPG_CLIENT_IRIMANAGER_SETVOLUMEVISIBLE_OFFSET UNITYSDK_OFFSET(0x1982F410)
+#define RPG_CLIENT_IRIMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1982F490)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IRIManager_TypeDefinitionIndex = 65818;
+	inline static constexpr unsigned int IRIManager_TypeDefinitionIndex = 68856;
 
 	class IRIManager : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::UnityEngine::RPGInstancedItemBlock* GlobalVolume; // 0x18
-		::UnityEngine::GameObject* Field_5_1; // 0x20
-		::System::Collections::Generic::HashSet_1<::RPG::Client::IRIRenderer*>* Field_5_2; // 0x28
+		::UnityEngine::GameObject* EAEAALPPFAF; // 0x20
+		::System::Collections::Generic::HashSet_1<::RPG::Client::IRIRenderer*>* IGOPPJKFNBD; // 0x28
 
 		::System::Void _ctor()
 		{

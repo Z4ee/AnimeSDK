@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByCheckLineupAvatarBaseType; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_91E082D723D8901C_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16BBB9B0)
-#define CLASS_3_91E082D723D8901C__CTOR_OFFSET UNITYSDK_OFFSET(0x16BBB980)
+#define CLASS_3_91E082D723D8901C_EVALUATE_OFFSET UNITYSDK_OFFSET(0x18A38AE0)
+#define CLASS_3_91E082D723D8901C__CTOR_OFFSET UNITYSDK_OFFSET(0x18A38AB0)
 
-inline static constexpr unsigned int Class_3_91E082D723D8901C_TypeDefinitionIndex = 49713;
+inline static constexpr unsigned int Class_3_91E082D723D8901C_TypeDefinitionIndex = 52371;
 
 class Class_3_91E082D723D8901C : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByCheckLineupAvatarBaseType*>
 {

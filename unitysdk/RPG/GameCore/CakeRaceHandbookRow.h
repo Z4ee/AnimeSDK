@@ -4,18 +4,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CAKERACEHANDBOOKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B2D2160)
-#define RPG_GAMECORE_CAKERACEHANDBOOKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2D2340)
+#define RPG_GAMECORE_CAKERACEHANDBOOKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D1020E0)
+#define RPG_GAMECORE_CAKERACEHANDBOOKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1022C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CakeRaceHandbookRow_TypeDefinitionIndex = 10634;
+	inline static constexpr unsigned int CakeRaceHandbookRow_TypeDefinitionIndex = 11009;
 
 	class CakeRaceHandbookRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* AvatarTalkIDList; // 0x10
-		::Il2CppArray<::System::UInt32>* BubblePerformanceIDList; // 0x18
+		::Il2CppArray<::System::UInt32>* BubblePerformanceIDList; // 0x10
+		::Il2CppArray<::System::UInt32>* AvatarTalkIDList; // 0x18
 		::System::UInt32 Order; // 0x20
 		::System::UInt32 CatID; // 0x24
 

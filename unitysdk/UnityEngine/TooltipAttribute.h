@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_TOOLTIPATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0D7100)
+#define UNITYENGINE_TOOLTIPATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE0E8B0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int TooltipAttribute_TypeDefinitionIndex = 4227;
+	inline static constexpr unsigned int TooltipAttribute_TypeDefinitionIndex = 4237;
 
 	class TooltipAttribute : public ::UnityEngine::PropertyAttribute
 	{

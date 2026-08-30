@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int MusicRhythmPropType_TypeDefinitionIndex = 74225;
+	inline static constexpr unsigned int MusicRhythmPropType_TypeDefinitionIndex = 77709;
 
 	enum class MusicRhythmPropType : ::System::Int32
 	{

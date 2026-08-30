@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class StartPropSceneSelection; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_44D7676EE3075CFD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1470BC00)
-#define CLASS_3_44D7676EE3075CFD__CTOR_OFFSET UNITYSDK_OFFSET(0x1470BBD0)
+#define CLASS_3_44D7676EE3075CFD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x159A23D0)
+#define CLASS_3_44D7676EE3075CFD__CTOR_OFFSET UNITYSDK_OFFSET(0x159A23A0)
 
-inline static constexpr unsigned int Class_3_44D7676EE3075CFD_TypeDefinitionIndex = 56100;
+inline static constexpr unsigned int Class_3_44D7676EE3075CFD_TypeDefinitionIndex = 58875;
 
 class Class_3_44D7676EE3075CFD : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::StartPropSceneSelection*>
 {

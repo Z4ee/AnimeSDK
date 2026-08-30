@@ -4,20 +4,20 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_GRIDFIGHTSEASONTRAITROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D076700)
-#define RPG_GAMECORE_GRIDFIGHTSEASONTRAITROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0768F0)
+#define RPG_GAMECORE_GRIDFIGHTSEASONTRAITROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3B8820)
+#define RPG_GAMECORE_GRIDFIGHTSEASONTRAITROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3B8A10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightSeasonTraitRow_TypeDefinitionIndex = 13083;
+	inline static constexpr unsigned int GridFightSeasonTraitRow_TypeDefinitionIndex = 13474;
 
 	class GridFightSeasonTraitRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* StandardQuestList; // 0x10
 		::Il2CppArray<::System::UInt32>* QuestList; // 0x18
-		::System::UInt32 SeasonID; // 0x20
-		::System::UInt32 TraitID; // 0x24
+		::System::UInt32 TraitID; // 0x20
+		::System::UInt32 SeasonID; // 0x24
 		::System::UInt32 Priority; // 0x28
 
 		::System::Void _ctor()

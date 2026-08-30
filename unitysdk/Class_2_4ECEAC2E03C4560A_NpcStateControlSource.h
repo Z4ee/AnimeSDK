@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_2_4ECEAC2E03C4560A_NpcStateControlSource_TypeDefinitionIndex = 69956;
+inline static constexpr unsigned int Class_2_4ECEAC2E03C4560A_NpcStateControlSource_TypeDefinitionIndex = 73213;
 
 enum class Class_2_4ECEAC2E03C4560A_NpcStateControlSource : ::System::Int32
 {

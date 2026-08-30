@@ -11,7 +11,7 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-inline static constexpr unsigned int Class_1_7E307543E55D519D__LoadAsync_d__86_1_TypeDefinitionIndex = 57369;
+inline static constexpr unsigned int Class_1_7E307543E55D519D__LoadAsync_d__86_1_TypeDefinitionIndex = 60169;
 
 template <typename T>
 struct Class_1_7E307543E55D519D__LoadAsync_d__86_1

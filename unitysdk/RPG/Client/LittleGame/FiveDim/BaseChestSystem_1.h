@@ -18,7 +18,7 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int BaseChestSystem_1_TypeDefinitionIndex = 73119;
+	inline static constexpr unsigned int BaseChestSystem_1_TypeDefinitionIndex = 76595;
 
 	template <typename T>
 	class BaseChestSystem_1 : public ::System::Object

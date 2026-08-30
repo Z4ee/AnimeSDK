@@ -7,19 +7,19 @@ namespace UnityEngine { class Light; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class MeshRenderer; }
 
-#define SCENEOPTIMIZELIGHTBUDGETCELL_START_OFFSET UNITYSDK_OFFSET(0x19F68220)
-#define SCENEOPTIMIZELIGHTBUDGETCELL_UPDATE_OFFSET UNITYSDK_OFFSET(0x19F682C0)
-#define SCENEOPTIMIZELIGHTBUDGETCELL__CTOR_OFFSET UNITYSDK_OFFSET(0x19F68330)
+#define SCENEOPTIMIZELIGHTBUDGETCELL_START_OFFSET UNITYSDK_OFFSET(0x1BF3FC80)
+#define SCENEOPTIMIZELIGHTBUDGETCELL_UPDATE_OFFSET UNITYSDK_OFFSET(0x1BF3FD20)
+#define SCENEOPTIMIZELIGHTBUDGETCELL__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF3FD90)
 
-inline static constexpr unsigned int SceneOptimizeLightBudgetCell_TypeDefinitionIndex = 45612;
+inline static constexpr unsigned int SceneOptimizeLightBudgetCell_TypeDefinitionIndex = 47863;
 
 class SceneOptimizeLightBudgetCell : public ::UnityEngine::MonoBehaviour
 {
 public:
 	::System::Collections::Generic::List_1<::UnityEngine::Light*>* IntersectLightList; // 0x18
 	::System::Int32 MaxLightCountPerCell; // 0x20
-	::UnityEngine::MeshRenderer* Field_5_2; // 0x28
-	::UnityEngine::MaterialPropertyBlock* Field_5_3; // 0x30
+	::UnityEngine::MeshRenderer* JAMDAALMOAL; // 0x28
+	::UnityEngine::MaterialPropertyBlock* BMCPFHADPKJ; // 0x30
 
 	::System::Void _ctor()
 	{

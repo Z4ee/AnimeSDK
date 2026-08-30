@@ -7,12 +7,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_CHARACTERREPLACEMATERIALVARIANT_METHOD_2_BE9C9AAFA15DC131_OFFSET UNITYSDK_OFFSET(0x1B72AB00)
-#define RPG_GAMECORE_CHARACTERREPLACEMATERIALVARIANT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B72ACE0)
+#define RPG_GAMECORE_CHARACTERREPLACEMATERIALVARIANT_METHOD_2_BE9C9AAFA15DC131_OFFSET UNITYSDK_OFFSET(0x1DFFFEA0)
+#define RPG_GAMECORE_CHARACTERREPLACEMATERIALVARIANT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E000080)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterReplaceMaterialVariant_TypeDefinitionIndex = 16745;
+	inline static constexpr unsigned int CharacterReplaceMaterialVariant_TypeDefinitionIndex = 17247;
 
 	class CharacterReplaceMaterialVariant : public ::RPG::GameCore::JsonConfig
 	{

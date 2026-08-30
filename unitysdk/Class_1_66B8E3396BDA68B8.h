@@ -5,16 +5,16 @@
 
 namespace RPG::GameCore { class AdventureDyingParam; }
 
-#define CLASS_1_66B8E3396BDA68B8_CLEAR_OFFSET UNITYSDK_OFFSET(0x179C9750)
-#define CLASS_1_66B8E3396BDA68B8__CTOR_OFFSET UNITYSDK_OFFSET(0x179C97A0)
+#define CLASS_1_66B8E3396BDA68B8_CLEAR_OFFSET UNITYSDK_OFFSET(0x18351A80)
+#define CLASS_1_66B8E3396BDA68B8__CTOR_OFFSET UNITYSDK_OFFSET(0x18351AD0)
 
-inline static constexpr unsigned int Class_1_66B8E3396BDA68B8_TypeDefinitionIndex = 55349;
+inline static constexpr unsigned int Class_1_66B8E3396BDA68B8_TypeDefinitionIndex = 58073;
 
 class Class_1_66B8E3396BDA68B8 : public ::System::Object
 {
 public:
-	::RPG::GameCore::AdventureDyingParam* Field_1_0; // 0x10
-	::RPG::GameCore::AdventureAttackResult Field_1_1; // 0x18
+	::RPG::GameCore::AdventureDyingParam* BBPLELHMGCM; // 0x10
+	::RPG::GameCore::AdventureAttackResult CIFLEKJAMHK; // 0x18
 
 	::System::Void _ctor()
 	{

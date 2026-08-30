@@ -6,19 +6,19 @@
 
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define CLASS_1_209EA31B77B8ADFF__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE454D0)
+#define CLASS_1_209EA31B77B8ADFF__CTOR_OFFSET UNITYSDK_OFFSET(0x1D03EC70)
 
-inline static constexpr unsigned int Class_1_209EA31B77B8ADFF_TypeDefinitionIndex = 40284;
+inline static constexpr unsigned int Class_1_209EA31B77B8ADFF_TypeDefinitionIndex = 41163;
 
 class Class_1_209EA31B77B8ADFF : public ::System::Object
 {
 public:
-	::System::Collections::Generic::HashSet_1<::System::UInt32>* Field_1_0; // 0x10
-	::System::Int32 Field_1_1; // 0x18
-	::System::Int32 Field_1_2; // 0x1C
-	::RPG::GameCore::TRFCubeType Field_1_3; // 0x20
-	::System::Boolean Field_1_4; // 0x24
-	::RPG::Client::LittleGame::TRFOccupyType Field_1_5; // 0x28
+	::System::Collections::Generic::HashSet_1<::System::UInt32>* GJLHEEOPDLK; // 0x10
+	::RPG::GameCore::TRFCubeType DOELLHMOEED; // 0x18
+	::System::Boolean HMAIEJIODHO; // 0x1C
+	::RPG::Client::LittleGame::TRFOccupyType BIMECHCKKFA; // 0x20
+	::System::Int32 ENGJKOLALOB; // 0x24
+	::System::Int32 OMADOHLFMHP; // 0x28
 
 	::System::Void _ctor()
 	{

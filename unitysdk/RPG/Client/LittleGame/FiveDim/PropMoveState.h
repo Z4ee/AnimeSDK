@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int PropMoveState_TypeDefinitionIndex = 40924;
+	inline static constexpr unsigned int PropMoveState_TypeDefinitionIndex = 41883;
 
 	enum class PropMoveState : ::System::Int32
 	{

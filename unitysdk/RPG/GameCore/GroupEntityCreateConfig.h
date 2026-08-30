@@ -8,12 +8,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class LevelGraphValueSource; }
 
-#define RPG_GAMECORE_GROUPENTITYCREATECONFIG_METHOD_2_DBFCB6AC43B7DCA2_OFFSET UNITYSDK_OFFSET(0x1D07F7E0)
-#define RPG_GAMECORE_GROUPENTITYCREATECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D07FB60)
+#define RPG_GAMECORE_GROUPENTITYCREATECONFIG_METHOD_2_DBFCB6AC43B7DCA2_OFFSET UNITYSDK_OFFSET(0x1D3C1900)
+#define RPG_GAMECORE_GROUPENTITYCREATECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3C1C50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GroupEntityCreateConfig_TypeDefinitionIndex = 20427;
+	inline static constexpr unsigned int GroupEntityCreateConfig_TypeDefinitionIndex = 20979;
 
 	class GroupEntityCreateConfig : public ::RPG::GameCore::JsonConfig
 	{

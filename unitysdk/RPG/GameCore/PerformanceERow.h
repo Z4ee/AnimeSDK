@@ -9,30 +9,30 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PERFORMANCEEROW_FROMBINARYWITHOUTNEW_OFFSET UNITYSDK_OFFSET(0x1B4ACF20)
-#define RPG_GAMECORE_PERFORMANCEEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B4AD2D0)
-#define RPG_GAMECORE_PERFORMANCEEROW_FROMTABLEOFFSET_OFFSET UNITYSDK_OFFSET(0x1B4ADEF0)
-#define RPG_GAMECORE_PERFORMANCEEROW_RESET_OFFSET UNITYSDK_OFFSET(0x1B4ADF50)
-#define RPG_GAMECORE_PERFORMANCEEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4ADF60)
+#define RPG_GAMECORE_PERFORMANCEEROW_FROMBINARYWITHOUTNEW_OFFSET UNITYSDK_OFFSET(0x1D420820)
+#define RPG_GAMECORE_PERFORMANCEEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D420BD0)
+#define RPG_GAMECORE_PERFORMANCEEROW_FROMTABLEOFFSET_OFFSET UNITYSDK_OFFSET(0x1D4217F0)
+#define RPG_GAMECORE_PERFORMANCEEROW_RESET_OFFSET UNITYSDK_OFFSET(0x1D421850)
+#define RPG_GAMECORE_PERFORMANCEEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D421860)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PerformanceERow_TypeDefinitionIndex = 13808;
+	inline static constexpr unsigned int PerformanceERow_TypeDefinitionIndex = 14225;
 
 	class PerformanceERow : public ::System::Object
 	{
 	public:
-		::System::String* PerformancePath; // 0x10
-		::System::String* PerformanceCharacter; // 0x18
+		::System::String* PerformanceCharacter; // 0x10
+		::System::String* PerformancePath; // 0x18
 		::RPG::GameCore::PerformanceChangePlayerType ChangePlayerType; // 0x20
 		::RPG::GameCore::StoryBlackType StartBlack; // 0x24
 		::RPG::GameCore::StoryBlackType EndBlack; // 0x28
-		::System::Boolean IsIntroDialogue; // 0x2C
-		::System::Boolean EndWithCrack; // 0x2D
-		::RPG::GameCore::PerformanceSkipType IsSkip; // 0x30
-		::System::UInt32 PerformanceID; // 0x34
-		::System::UInt32 FloorID; // 0x38
-		::System::UInt32 PlaneID; // 0x3C
+		::System::UInt32 PlaneID; // 0x2C
+		::System::UInt32 PerformanceID; // 0x30
+		::System::UInt32 FloorID; // 0x34
+		::RPG::GameCore::PerformanceSkipType IsSkip; // 0x38
+		::System::Boolean EndWithCrack; // 0x3C
+		::System::Boolean IsIntroDialogue; // 0x3D
 
 		::System::Void _ctor()
 		{

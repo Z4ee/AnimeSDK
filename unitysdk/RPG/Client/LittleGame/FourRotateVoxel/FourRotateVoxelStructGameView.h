@@ -6,23 +6,23 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELSTRUCTGAMEVIEW_COLLECTCHILDREN_OFFSET UNITYSDK_OFFSET(0x19AA56A0)
-#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELSTRUCTGAMEVIEW_ROTATEY_OFFSET UNITYSDK_OFFSET(0x19AA5AA0)
-#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELSTRUCTGAMEVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x19AA4D90)
-#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELSTRUCTGAMEVIEW__REFRESHDATAINTERNAL_OFFSET UNITYSDK_OFFSET(0x19AA54B0)
+#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELSTRUCTGAMEVIEW_COLLECTCHILDREN_OFFSET UNITYSDK_OFFSET(0x1B1CAF90)
+#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELSTRUCTGAMEVIEW_ROTATEY_OFFSET UNITYSDK_OFFSET(0x1B1CB390)
+#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELSTRUCTGAMEVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1BCD80)
+#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELSTRUCTGAMEVIEW__REFRESHDATAINTERNAL_OFFSET UNITYSDK_OFFSET(0x1B1CAD70)
 
 namespace RPG::Client::LittleGame::FourRotateVoxel
 {
-	inline static constexpr unsigned int FourRotateVoxelStructGameView_TypeDefinitionIndex = 72909;
+	inline static constexpr unsigned int FourRotateVoxelStructGameView_TypeDefinitionIndex = 76382;
 
 	class FourRotateVoxelStructGameView : public ::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameView
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameView*>* SubObjects; // 0xA8
-		::System::Collections::Generic::List_1<::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord>* SubObjectCoords; // 0xB0
-		::System::Boolean Is2D; // 0xB8
-		::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelStructGameView* AttachActive3DStruct; // 0xC0
-		::UnityEngine::Vector3 InitialPosition; // 0xC8
+		::System::Collections::Generic::List_1<::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameView*>* SubObjects; // 0xC8
+		::System::Collections::Generic::List_1<::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord>* SubObjectCoords; // 0xD0
+		::System::Boolean Is2D; // 0xD8
+		::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelStructGameView* AttachActive3DStruct; // 0xE0
+		::UnityEngine::Vector3 InitialPosition; // 0xE8
 
 		::System::Void _ctor()
 		{

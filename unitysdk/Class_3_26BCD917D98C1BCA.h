@@ -6,17 +6,17 @@
 class Class_1_47EB23CB5C4B2615;
 class Class_1_877AA22B04AFB81F;
 
-#define CLASS_3_26BCD917D98C1BCA__CTOR_OFFSET UNITYSDK_OFFSET(0x17AF8CA0)
+#define CLASS_3_26BCD917D98C1BCA__CTOR_OFFSET UNITYSDK_OFFSET(0x196F8CA0)
 
-inline static constexpr unsigned int Class_3_26BCD917D98C1BCA_TypeDefinitionIndex = 34724;
+inline static constexpr unsigned int Class_3_26BCD917D98C1BCA_TypeDefinitionIndex = 35585;
 
 class Class_3_26BCD917D98C1BCA : public ::Class_2_77C1911C23AA7BB5
 {
 public:
-	::Class_1_47EB23CB5C4B2615* Field_3_0; // 0x28
-	::Class_1_877AA22B04AFB81F* Field_3_1; // 0x30
-	::System::UInt32 Field_3_2; // 0x38
-	::RPG::LittleGameShare::DiceCombatCore::GameMode::DiceCombatGameMode Field_3_3; // 0x3C
+	::Class_1_877AA22B04AFB81F* FIDJLAKNAJD; // 0x28
+	::Class_1_47EB23CB5C4B2615* BPCDCCAJIMK; // 0x30
+	::RPG::LittleGameShare::DiceCombatCore::GameMode::DiceCombatGameMode HKEACDBJCOD; // 0x38
+	::System::UInt32 DOBKKDIECDO; // 0x3C
 
 	::System::Void _ctor()
 	{

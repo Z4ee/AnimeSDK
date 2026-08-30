@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int Light_EParticleLightEvent_TypeDefinitionIndex = 4135;
+	inline static constexpr unsigned int Light_EParticleLightEvent_TypeDefinitionIndex = 4145;
 
 	enum class Light_EParticleLightEvent : ::System::Int32
 	{

@@ -5,16 +5,16 @@
 class Class_2_48488E8DBD9F6BCE;
 namespace RPG::GameCore { class DiceCombatTaskConfig_AttackEffect_IgnoreDefendPoint; }
 
-#define CLASS_2_16F749F67120419B_METHOD_2_D0BD1377F2594D33_OFFSET UNITYSDK_OFFSET(0x17B3CFE0)
-#define CLASS_2_16F749F67120419B__CTOR_OFFSET UNITYSDK_OFFSET(0x17B3CFD0)
+#define CLASS_2_16F749F67120419B_METHOD_2_D0BD1377F2594D33_OFFSET UNITYSDK_OFFSET(0x1973CE10)
+#define CLASS_2_16F749F67120419B__CTOR_OFFSET UNITYSDK_OFFSET(0x1973CE00)
 
-inline static constexpr unsigned int Class_2_16F749F67120419B_TypeDefinitionIndex = 34760;
+inline static constexpr unsigned int Class_2_16F749F67120419B_TypeDefinitionIndex = 35621;
 
 class Class_2_16F749F67120419B : public ::Class_1_B55037134F9E6688
 {
 public:
-	::RPG::GameCore::DiceCombatTaskConfig_AttackEffect_IgnoreDefendPoint* Field_2_0; // 0x18
-	::Class_2_48488E8DBD9F6BCE* Field_2_1; // 0x20
+	::Class_2_48488E8DBD9F6BCE* EEFMDEHLLFI; // 0x18
+	::RPG::GameCore::DiceCombatTaskConfig_AttackEffect_IgnoreDefendPoint* IGHAHBNLIJA; // 0x20
 
 	::System::Void _ctor(::RPG::GameCore::DiceCombatTaskConfig_AttackEffect_IgnoreDefendPoint* a1, ::Class_2_48488E8DBD9F6BCE* a2)
 	{

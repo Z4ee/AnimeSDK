@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ClockFaceEmotionMoveDirection_TypeDefinitionIndex = 23723;
+	inline static constexpr unsigned int ClockFaceEmotionMoveDirection_TypeDefinitionIndex = 24309;
 
 	enum class ClockFaceEmotionMoveDirection : ::System::Int32
 	{

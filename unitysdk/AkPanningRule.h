@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int AkPanningRule_TypeDefinitionIndex = 41970;
+inline static constexpr unsigned int AkPanningRule_TypeDefinitionIndex = 43581;
 
 enum class AkPanningRule : ::System::Int32
 {

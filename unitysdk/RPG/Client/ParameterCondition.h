@@ -4,12 +4,13 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ParameterCondition_TypeDefinitionIndex = 67434;
+	inline static constexpr unsigned int ParameterCondition_TypeDefinitionIndex = 70556;
 
 	struct alignas(1) ParameterCondition
 	{
 		::System::Boolean ModifyEmissionRateOverTime; // 0x10
 		::System::Boolean ModifyShapeSpread; // 0x11
 		::System::Boolean ModifyShapePosition; // 0x12
+		::System::Boolean ModifyBurstsCount; // 0x13
 	};
 }

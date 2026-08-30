@@ -5,12 +5,12 @@
 namespace XLua { class MethodWrapsCache___c__DisplayClass7_0; }
 namespace XLua::LuaDLL { class lua_CSFunction; }
 
-#define XLUA_METHODWRAPSCACHE___C__DISPLAYCLASS7_1__CTOR_OFFSET UNITYSDK_OFFSET(0x10BEFE40)
-#define XLUA_METHODWRAPSCACHE___C__DISPLAYCLASS7_1__GETCONSTRUCTORWRAP_B__1_OFFSET UNITYSDK_OFFSET(0x10BF2490)
+#define XLUA_METHODWRAPSCACHE___C__DISPLAYCLASS7_1__CTOR_OFFSET UNITYSDK_OFFSET(0x11868970)
+#define XLUA_METHODWRAPSCACHE___C__DISPLAYCLASS7_1__GETCONSTRUCTORWRAP_B__1_OFFSET UNITYSDK_OFFSET(0x1186AFF0)
 
 namespace XLua
 {
-	inline static constexpr unsigned int MethodWrapsCache___c__DisplayClass7_1_TypeDefinitionIndex = 47967;
+	inline static constexpr unsigned int MethodWrapsCache___c__DisplayClass7_1_TypeDefinitionIndex = 50550;
 
 	class MethodWrapsCache___c__DisplayClass7_1 : public ::System::Object
 	{

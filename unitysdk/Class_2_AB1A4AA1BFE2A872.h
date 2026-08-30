@@ -5,17 +5,17 @@
 class Class_1_7A22A3DBEEDD1F80;
 class Class_2_02A2FB8CC5CF6CC0;
 
-#define CLASS_2_AB1A4AA1BFE2A872_METHOD_2_14532D71051D97BC_OFFSET UNITYSDK_OFFSET(0x1AF1C530)
-#define CLASS_2_AB1A4AA1BFE2A872__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF1C700)
+#define CLASS_2_AB1A4AA1BFE2A872_METHOD_2_14532D71051D97BC_OFFSET UNITYSDK_OFFSET(0x1CB4A0C0)
+#define CLASS_2_AB1A4AA1BFE2A872__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB4A290)
 
-inline static constexpr unsigned int Class_2_AB1A4AA1BFE2A872_TypeDefinitionIndex = 16153;
+inline static constexpr unsigned int Class_2_AB1A4AA1BFE2A872_TypeDefinitionIndex = 16637;
 
 class Class_2_AB1A4AA1BFE2A872 : public ::RPG::GameCore::JsonConfig
 {
 public:
-	::Class_2_02A2FB8CC5CF6CC0* Field_2_0; // 0x10
-	::System::Single Field_2_1; // 0x18
-	::System::UInt64 Field_2_2; // 0x20
+	::Class_2_02A2FB8CC5CF6CC0* BLNDPOKLJAK; // 0x10
+	::System::UInt64 NIJMKCCGEHK; // 0x18
+	::System::Single JMBHCPLJNNM; // 0x20
 
 	::System::Void _ctor()
 	{

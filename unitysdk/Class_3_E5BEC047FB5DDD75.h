@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByIsTargetUnselectable; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_E5BEC047FB5DDD75_EVALUATE_OFFSET UNITYSDK_OFFSET(0x183A7C70)
-#define CLASS_3_E5BEC047FB5DDD75__CTOR_OFFSET UNITYSDK_OFFSET(0x183A7C40)
+#define CLASS_3_E5BEC047FB5DDD75_EVALUATE_OFFSET UNITYSDK_OFFSET(0x19893E80)
+#define CLASS_3_E5BEC047FB5DDD75__CTOR_OFFSET UNITYSDK_OFFSET(0x19893E50)
 
-inline static constexpr unsigned int Class_3_E5BEC047FB5DDD75_TypeDefinitionIndex = 52215;
+inline static constexpr unsigned int Class_3_E5BEC047FB5DDD75_TypeDefinitionIndex = 54901;
 
 class Class_3_E5BEC047FB5DDD75 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByIsTargetUnselectable*>
 {

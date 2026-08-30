@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_1_0AAA29E827EB555D_EIntersectionSignRuleExecuteType_TypeDefinitionIndex = 76770;
+inline static constexpr unsigned int Class_1_0AAA29E827EB555D_EIntersectionSignRuleExecuteType_TypeDefinitionIndex = 80810;
 
 enum class Class_1_0AAA29E827EB555D_EIntersectionSignRuleExecuteType : ::System::Int32
 {

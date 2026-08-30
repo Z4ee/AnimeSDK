@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_FF677E2885AA4E67;
+class Class_1_EF52DEA727FB5C45_1;
 namespace RPG::Client { class IRogueTournGameSettleResultComposition; }
 
-#define CLASS_1_97537DA7B5A31025_1_METHOD_1_D92860DA15D54A70_OFFSET UNITYSDK_OFFSET(0x14CFEE10)
-#define CLASS_1_97537DA7B5A31025_1__CTOR_OFFSET UNITYSDK_OFFSET(0x14CFEEF0)
+#define CLASS_1_97537DA7B5A31025_1_METHOD_1_D92860DA15D54A70_OFFSET UNITYSDK_OFFSET(0x16C1D690)
+#define CLASS_1_97537DA7B5A31025_1__CTOR_OFFSET UNITYSDK_OFFSET(0x16C1D770)
 
-inline static constexpr unsigned int Class_1_97537DA7B5A31025_1_TypeDefinitionIndex = 64841;
+inline static constexpr unsigned int Class_1_97537DA7B5A31025_1_TypeDefinitionIndex = 67848;
 
 class Class_1_97537DA7B5A31025_1 : public ::System::Object
 {
@@ -18,8 +18,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_97537DA7B5A31025_1__CTOR_OFFSET))(this);
 	}
 
-	::RPG::Client::IRogueTournGameSettleResultComposition* Method_1_D92860DA15D54A70(::Class_1_FF677E2885AA4E67* a1)
+	::RPG::Client::IRogueTournGameSettleResultComposition* Method_1_D92860DA15D54A70(::Class_1_EF52DEA727FB5C45_1* a1)
 	{
-		return ((::RPG::Client::IRogueTournGameSettleResultComposition*(*)(::PVOID, ::Class_1_FF677E2885AA4E67*))((::PBYTE)hIl2Cpp + CLASS_1_97537DA7B5A31025_1_METHOD_1_D92860DA15D54A70_OFFSET))(this, a1);
+		return ((::RPG::Client::IRogueTournGameSettleResultComposition*(*)(::PVOID, ::Class_1_EF52DEA727FB5C45_1*))((::PBYTE)hIl2Cpp + CLASS_1_97537DA7B5A31025_1_METHOD_1_D92860DA15D54A70_OFFSET))(this, a1);
 	}
 };

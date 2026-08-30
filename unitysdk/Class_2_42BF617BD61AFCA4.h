@@ -6,15 +6,15 @@ class Class_2_21AD365C113DC484;
 class Class_2_F3C45F1FC7349B6E;
 namespace RPG::GameCore { class CakeRaceActionChangeRobinRadiusByVote; }
 
-#define CLASS_2_42BF617BD61AFCA4_METHOD_2_0B174AF239244CF0_OFFSET UNITYSDK_OFFSET(0x13EC3EB0)
-#define CLASS_2_42BF617BD61AFCA4__CTOR_OFFSET UNITYSDK_OFFSET(0x13EC3EA0)
+#define CLASS_2_42BF617BD61AFCA4_METHOD_2_0B174AF239244CF0_OFFSET UNITYSDK_OFFSET(0x1544A400)
+#define CLASS_2_42BF617BD61AFCA4__CTOR_OFFSET UNITYSDK_OFFSET(0x1544A3F0)
 
-inline static constexpr unsigned int Class_2_42BF617BD61AFCA4_TypeDefinitionIndex = 35833;
+inline static constexpr unsigned int Class_2_42BF617BD61AFCA4_TypeDefinitionIndex = 36694;
 
 class Class_2_42BF617BD61AFCA4 : public ::Class_1_E559374AC4E5AD13
 {
 public:
-	::RPG::GameCore::CakeRaceActionChangeRobinRadiusByVote* Field_2_0; // 0x10
+	::RPG::GameCore::CakeRaceActionChangeRobinRadiusByVote* DOJKBHBJOHK; // 0x10
 
 	::System::Void _ctor(::RPG::GameCore::CakeRaceActionChangeRobinRadiusByVote* a1)
 	{

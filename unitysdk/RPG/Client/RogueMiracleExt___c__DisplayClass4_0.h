@@ -5,20 +5,20 @@
 
 namespace RPG::Client { class IRogueMiracleInGame; }
 
-#define RPG_CLIENT_ROGUEMIRACLEEXT___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19A25730)
-#define RPG_CLIENT_ROGUEMIRACLEEXT___C__DISPLAYCLASS4_0__GETMIRACLESBYCATEGORY_B__0_OFFSET UNITYSDK_OFFSET(0x19A25880)
-#define RPG_CLIENT_ROGUEMIRACLEEXT___C__DISPLAYCLASS4_0__GETMIRACLESBYCATEGORY_B__1_OFFSET UNITYSDK_OFFSET(0x19A258C0)
+#define RPG_CLIENT_ROGUEMIRACLEEXT___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9E2750)
+#define RPG_CLIENT_ROGUEMIRACLEEXT___C__DISPLAYCLASS4_0__GETMIRACLESBYCATEGORY_B__0_OFFSET UNITYSDK_OFFSET(0x1B9E28A0)
+#define RPG_CLIENT_ROGUEMIRACLEEXT___C__DISPLAYCLASS4_0__GETMIRACLESBYCATEGORY_B__1_OFFSET UNITYSDK_OFFSET(0x1B9E28E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueMiracleExt___c__DisplayClass4_0_TypeDefinitionIndex = 64280;
+	inline static constexpr unsigned int RogueMiracleExt___c__DisplayClass4_0_TypeDefinitionIndex = 67275;
 
 	class RogueMiracleExt___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:
-		::System::Int32 unbrokenPriority; // 0x10
-		::RPG::GameCore::RogueMiracleCategory category; // 0x14
-		::System::Int32 brokenPriority; // 0x18
+		::System::Int32 brokenPriority; // 0x10
+		::System::Int32 unbrokenPriority; // 0x14
+		::RPG::GameCore::RogueMiracleCategory category; // 0x18
 
 		::System::Void _ctor()
 		{

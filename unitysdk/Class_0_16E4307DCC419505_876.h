@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/AvatarPropertyType.h"
 
-namespace RPG::Client { class RogueFormulaData; }
-namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
+namespace RPG::Client { class GridFightRoleProperty; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_876_TypeDefinitionIndex = 63997;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_876_TypeDefinitionIndex = 65254;
 
 class Class_0_16E4307DCC419505_876
 {

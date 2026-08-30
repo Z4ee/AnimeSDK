@@ -7,26 +7,26 @@ namespace UnityEngine { class Light; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CUSTOMRP_SHAREDOBJECT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D134D90)
+#define RPG_CUSTOMRP_SHAREDOBJECT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EE58F80)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int SharedObject_TypeDefinitionIndex = 36338;
+	inline static constexpr unsigned int SharedObject_TypeDefinitionIndex = 37197;
 
 	class SharedObject : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::List_1<::UnityEngine::Renderer*>** StaticGet_TmpRenders()
 		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Renderer*>**)Il2CppClass::FromTypeDefinitionIndex(SharedObject_TypeDefinitionIndex)->GetStaticField(0x5F740);
+			return (::System::Collections::Generic::List_1<::UnityEngine::Renderer*>**)Il2CppClass::FromTypeDefinitionIndex(SharedObject_TypeDefinitionIndex)->GetStaticField(0x347B0);
 		}
 		static ::System::Collections::Generic::List_1<::UnityEngine::Material*>** StaticGet_TmpMats()
 		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Material*>**)Il2CppClass::FromTypeDefinitionIndex(SharedObject_TypeDefinitionIndex)->GetStaticField(0x5F748);
+			return (::System::Collections::Generic::List_1<::UnityEngine::Material*>**)Il2CppClass::FromTypeDefinitionIndex(SharedObject_TypeDefinitionIndex)->GetStaticField(0x347B8);
 		}
 		static ::System::Collections::Generic::List_1<::UnityEngine::Light*>** StaticGet_TmpLights()
 		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Light*>**)Il2CppClass::FromTypeDefinitionIndex(SharedObject_TypeDefinitionIndex)->GetStaticField(0x5F750);
+			return (::System::Collections::Generic::List_1<::UnityEngine::Light*>**)Il2CppClass::FromTypeDefinitionIndex(SharedObject_TypeDefinitionIndex)->GetStaticField(0x347C0);
 		}
 
 		static ::System::Void _cctor()

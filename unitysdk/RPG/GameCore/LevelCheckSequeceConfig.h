@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_LEVELCHECKSEQUECECONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B02F050)
-#define RPG_GAMECORE_LEVELCHECKSEQUECECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B02F140)
+#define RPG_GAMECORE_LEVELCHECKSEQUECECONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C10E590)
+#define RPG_GAMECORE_LEVELCHECKSEQUECECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C10E680)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelCheckSequeceConfig_TypeDefinitionIndex = 17568;
+	inline static constexpr unsigned int LevelCheckSequeceConfig_TypeDefinitionIndex = 18086;
 
 	class LevelCheckSequeceConfig : public ::RPG::GameCore::JsonConfig
 	{

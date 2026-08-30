@@ -4,15 +4,15 @@
 
 namespace RPG::Client { class GridFightRole; }
 
-#define CLASS_2_B54D21CDF30A86CD_METHOD_2_4389275F4099DE36_OFFSET UNITYSDK_OFFSET(0x15E17FC0)
-#define CLASS_2_B54D21CDF30A86CD__CTOR_OFFSET UNITYSDK_OFFSET(0x15E17FA0)
+#define CLASS_2_B54D21CDF30A86CD_METHOD_2_4389275F4099DE36_OFFSET UNITYSDK_OFFSET(0x18C8F470)
+#define CLASS_2_B54D21CDF30A86CD__CTOR_OFFSET UNITYSDK_OFFSET(0x18C8F450)
 
-inline static constexpr unsigned int Class_2_B54D21CDF30A86CD_TypeDefinitionIndex = 62211;
+inline static constexpr unsigned int Class_2_B54D21CDF30A86CD_TypeDefinitionIndex = 65196;
 
 class Class_2_B54D21CDF30A86CD : public ::Class_1_ED6312566761D69A
 {
 public:
-	::RPG::Client::GridFightRole* Field_2_0; // 0x20
+	::RPG::Client::GridFightRole* IAHCEGHHCKB; // 0x20
 
 	::System::Void _ctor(::RPG::Client::GridFightRole* a1)
 	{

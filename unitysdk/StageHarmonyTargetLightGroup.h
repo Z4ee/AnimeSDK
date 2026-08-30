@@ -4,9 +4,9 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define STAGEHARMONYTARGETLIGHTGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x14ECD960)
+#define STAGEHARMONYTARGETLIGHTGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x197ED930)
 
-inline static constexpr unsigned int StageHarmonyTargetLightGroup_TypeDefinitionIndex = 45751;
+inline static constexpr unsigned int StageHarmonyTargetLightGroup_TypeDefinitionIndex = 48003;
 
 class StageHarmonyTargetLightGroup : public ::System::Object
 {

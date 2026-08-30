@@ -3,15 +3,15 @@
 #include "unitysdk/RPG/GameCore/UIAdaptiveDeviceType.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_7A3194024C7D2DEC;
+class Class_1_33414E91216E4EB5;
 namespace RPG::GameCore { class UIOperation; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define MONOUIADAPTCONFIGITEM_METHOD_1_E5A148B176848EDE_OFFSET UNITYSDK_OFFSET(0x186F6790)
-#define MONOUIADAPTCONFIGITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x186F6CA0)
+#define MONOUIADAPTCONFIGITEM_METHOD_1_E5A148B176848EDE_OFFSET UNITYSDK_OFFSET(0x19C96C10)
+#define MONOUIADAPTCONFIGITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x19C97120)
 
-inline static constexpr unsigned int MonoUIAdaptConfigItem_TypeDefinitionIndex = 45792;
+inline static constexpr unsigned int MonoUIAdaptConfigItem_TypeDefinitionIndex = 48044;
 
 class MonoUIAdaptConfigItem : public ::System::Object
 {
@@ -25,8 +25,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MONOUIADAPTCONFIGITEM__CTOR_OFFSET))(this);
 	}
 
-	::System::Void Method_1_E5A148B176848EDE(::System::Collections::Generic::List_1<::Class_1_7A3194024C7D2DEC*>*& a1)
+	::System::Void Method_1_E5A148B176848EDE(::System::Collections::Generic::List_1<::Class_1_33414E91216E4EB5*>*& a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::Class_1_7A3194024C7D2DEC*>*&))((::PBYTE)hIl2Cpp + MONOUIADAPTCONFIGITEM_METHOD_1_E5A148B176848EDE_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::Class_1_33414E91216E4EB5*>*&))((::PBYTE)hIl2Cpp + MONOUIADAPTCONFIGITEM_METHOD_1_E5A148B176848EDE_OFFSET))(this, a1);
 	}
 };

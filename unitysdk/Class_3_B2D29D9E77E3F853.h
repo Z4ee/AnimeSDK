@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetPropCanBePlayerLock; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_B2D29D9E77E3F853_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1698BDE0)
-#define CLASS_3_B2D29D9E77E3F853__CTOR_OFFSET UNITYSDK_OFFSET(0x1698BDB0)
+#define CLASS_3_B2D29D9E77E3F853_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17AEE9E0)
+#define CLASS_3_B2D29D9E77E3F853__CTOR_OFFSET UNITYSDK_OFFSET(0x17AEE9B0)
 
-inline static constexpr unsigned int Class_3_B2D29D9E77E3F853_TypeDefinitionIndex = 50828;
+inline static constexpr unsigned int Class_3_B2D29D9E77E3F853_TypeDefinitionIndex = 53510;
 
 class Class_3_B2D29D9E77E3F853 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetPropCanBePlayerLock*>
 {

@@ -5,15 +5,15 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define CLASS_1_C744AC1912B4057C_METHOD_1_0C679A091108BBB0_OFFSET UNITYSDK_OFFSET(0x1ACE7AA0)
-#define CLASS_1_C744AC1912B4057C__CTOR_OFFSET UNITYSDK_OFFSET(0x1ACE7B50)
+#define CLASS_1_C744AC1912B4057C_METHOD_1_0C679A091108BBB0_OFFSET UNITYSDK_OFFSET(0x1C8E8AA0)
+#define CLASS_1_C744AC1912B4057C__CTOR_OFFSET UNITYSDK_OFFSET(0x1C8E8B50)
 
-inline static constexpr unsigned int Class_1_C744AC1912B4057C_TypeDefinitionIndex = 14358;
+inline static constexpr unsigned int Class_1_C744AC1912B4057C_TypeDefinitionIndex = 14778;
 
 class Class_1_C744AC1912B4057C : public ::System::Object
 {
 public:
-	::RPG::GameCore::RogueTournRoomType Field_1_0; // 0x10
+	::RPG::GameCore::RogueTournRoomType LHLKJIDFLIN; // 0x10
 
 	::System::Void _ctor()
 	{

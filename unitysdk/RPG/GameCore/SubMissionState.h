@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SubMissionState_TypeDefinitionIndex = 23632;
+	inline static constexpr unsigned int SubMissionState_TypeDefinitionIndex = 24217;
 
 	enum class SubMissionState : ::System::Int32
 	{

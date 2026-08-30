@@ -5,16 +5,16 @@
 class Class_1_ABF277A1ED07907B;
 namespace RPG::GameCore { class LittleGameLevelVariableCollection; }
 
-#define CLASS_1_CBE705B7AA4359C1_CLEAR_OFFSET UNITYSDK_OFFSET(0x1B240590)
-#define CLASS_1_CBE705B7AA4359C1__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2405F0)
+#define CLASS_1_CBE705B7AA4359C1_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CDF1190)
+#define CLASS_1_CBE705B7AA4359C1__CTOR_OFFSET UNITYSDK_OFFSET(0x1CDF11F0)
 
-inline static constexpr unsigned int Class_1_CBE705B7AA4359C1_TypeDefinitionIndex = 39602;
+inline static constexpr unsigned int Class_1_CBE705B7AA4359C1_TypeDefinitionIndex = 40475;
 
 class Class_1_CBE705B7AA4359C1 : public ::System::Object
 {
 public:
-	::Class_1_ABF277A1ED07907B* Field_1_0; // 0x10
-	::RPG::GameCore::LittleGameLevelVariableCollection* Field_1_1; // 0x18
+	::Class_1_ABF277A1ED07907B* KKNCHPMEJFN; // 0x10
+	::RPG::GameCore::LittleGameLevelVariableCollection* EABKOHGCHFP; // 0x18
 
 	::System::Void _ctor()
 	{

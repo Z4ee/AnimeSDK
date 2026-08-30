@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LineupRecommendationReportActionType_TypeDefinitionIndex = 65095;
+	inline static constexpr unsigned int LineupRecommendationReportActionType_TypeDefinitionIndex = 68103;
 
 	enum class LineupRecommendationReportActionType : ::System::Int32
 	{

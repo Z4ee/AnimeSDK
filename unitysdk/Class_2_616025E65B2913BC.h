@@ -1,24 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_CA217ABF4E3B4F3F.h"
+#include "unitysdk/Class_1_34917908B7833130.h"
 
 class Class_1_945ACFB1FEBC7A2C_24;
 namespace RPG::Client { class RPGAnimationEvent; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Animation; }
 
-#define CLASS_2_616025E65B2913BC_METHOD_2_077465549C9EA81F_OFFSET UNITYSDK_OFFSET(0x1730EC50)
-#define CLASS_2_616025E65B2913BC_METHOD_2_CAF4BF0B42450263_OFFSET UNITYSDK_OFFSET(0x1730ECA0)
-#define CLASS_2_616025E65B2913BC__CTOR_OFFSET UNITYSDK_OFFSET(0x1730EDB0)
-#define CLASS_2_616025E65B2913BC__ONBIND_OFFSET UNITYSDK_OFFSET(0x1730EAC0)
+#define CLASS_2_616025E65B2913BC_METHOD_2_077465549C9EA81F_OFFSET UNITYSDK_OFFSET(0x18AB1D20)
+#define CLASS_2_616025E65B2913BC_METHOD_2_CAF4BF0B42450263_OFFSET UNITYSDK_OFFSET(0x18AB1D70)
+#define CLASS_2_616025E65B2913BC__CTOR_OFFSET UNITYSDK_OFFSET(0x18AB1E80)
+#define CLASS_2_616025E65B2913BC__ONBIND_OFFSET UNITYSDK_OFFSET(0x18AB1B90)
 
-inline static constexpr unsigned int Class_2_616025E65B2913BC_TypeDefinitionIndex = 68225;
+inline static constexpr unsigned int Class_2_616025E65B2913BC_TypeDefinitionIndex = 71406;
 
-class Class_2_616025E65B2913BC : public ::Class_1_CA217ABF4E3B4F3F
+class Class_2_616025E65B2913BC : public ::Class_1_34917908B7833130
 {
 public:
-	::RPG::Client::RPGAnimationEvent* Field_2_0; // 0x60
-	::UnityEngine::Animation* Field_2_1; // 0x68
+	::UnityEngine::Animation* JPHOOFFIAAH; // 0x60
+	::RPG::Client::RPGAnimationEvent* MEDGLNFKGDC; // 0x68
 
 	::System::Void _ctor()
 	{

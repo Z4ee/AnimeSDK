@@ -10,7 +10,7 @@ namespace System::Linq { template <typename T> class Set_1; }
 
 namespace System::Linq
 {
-	inline static constexpr unsigned int Enumerable__UnionIterator_d__71_1_TypeDefinitionIndex = 3146;
+	inline static constexpr unsigned int Enumerable__UnionIterator_d__71_1_TypeDefinitionIndex = 3154;
 
 	template <typename TSource>
 	class Enumerable__UnionIterator_d__71_1 : public ::System::Object

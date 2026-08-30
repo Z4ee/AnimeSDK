@@ -5,18 +5,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_RETCODEERRORCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D028880)
-#define RPG_GAMECORE_RETCODEERRORCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D028EC0)
+#define RPG_GAMECORE_RETCODEERRORCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB9FF10)
+#define RPG_GAMECORE_RETCODEERRORCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1DBA0550)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RetCodeErrorConfigRow_TypeDefinitionIndex = 14071;
+	inline static constexpr unsigned int RetCodeErrorConfigRow_TypeDefinitionIndex = 14491;
 
 	class RetCodeErrorConfigRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 ErrorID; // 0x10
-		::System::Boolean IsPileToastCenter; // 0x14
+		::System::Boolean IsPileToastCenter; // 0x10
+		::System::UInt32 ErrorID; // 0x14
 		::RPG::Client::TextID Text; // 0x18
 
 		::System::Void _ctor()

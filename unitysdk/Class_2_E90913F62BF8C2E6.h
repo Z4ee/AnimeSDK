@@ -4,18 +4,18 @@
 
 namespace System { class String; }
 
-#define CLASS_2_E90913F62BF8C2E6_GET_FEATURENAME_OFFSET UNITYSDK_OFFSET(0x14BE20F0)
-#define CLASS_2_E90913F62BF8C2E6_GET_ISOPTIONAL_OFFSET UNITYSDK_OFFSET(0x14BE2100)
-#define CLASS_2_E90913F62BF8C2E6_SET_ISOPTIONAL_OFFSET UNITYSDK_OFFSET(0x14BE2110)
-#define CLASS_2_E90913F62BF8C2E6__CTOR_OFFSET UNITYSDK_OFFSET(0x14BE20E0)
+#define CLASS_2_E90913F62BF8C2E6_GET_FEATURENAME_OFFSET UNITYSDK_OFFSET(0x163B7580)
+#define CLASS_2_E90913F62BF8C2E6_GET_ISOPTIONAL_OFFSET UNITYSDK_OFFSET(0x163B7590)
+#define CLASS_2_E90913F62BF8C2E6_SET_ISOPTIONAL_OFFSET UNITYSDK_OFFSET(0x163B75A0)
+#define CLASS_2_E90913F62BF8C2E6__CTOR_OFFSET UNITYSDK_OFFSET(0x163B7570)
 
-inline static constexpr unsigned int Class_2_E90913F62BF8C2E6_TypeDefinitionIndex = 6691;
+inline static constexpr unsigned int Class_2_E90913F62BF8C2E6_TypeDefinitionIndex = 6303;
 
 class Class_2_E90913F62BF8C2E6 : public ::System::Attribute
 {
 public:
-	// static const ::System::String* Field_2_0; // 0x0
-	// static const ::System::String* Field_2_1; // 0x0
+	// static const ::System::String* CHKCLKNDIIP; // 0x0
+	// static const ::System::String* GFNFGCMDJII; // 0x0
 	::System::String* _FeatureName_k__BackingField; // 0x10
 	::System::Boolean _IsOptional_k__BackingField; // 0x18
 

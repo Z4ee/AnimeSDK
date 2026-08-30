@@ -6,18 +6,18 @@ namespace System { class String; }
 namespace UnityEngine { class Animation; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_5C85280C68EBF115__CTOR_OFFSET UNITYSDK_OFFSET(0x17C9E770)
+#define CLASS_1_5C85280C68EBF115__CTOR_OFFSET UNITYSDK_OFFSET(0x18F71970)
 
-inline static constexpr unsigned int Class_1_5C85280C68EBF115_TypeDefinitionIndex = 57251;
+inline static constexpr unsigned int Class_1_5C85280C68EBF115_TypeDefinitionIndex = 60049;
 
 class Class_1_5C85280C68EBF115 : public ::System::Object
 {
 public:
-	::UnityEngine::Animation* Field_1_0; // 0x10
-	::System::String* Field_1_1; // 0x18
-	::System::String* Field_1_2; // 0x20
-	::UnityEngine::Transform* Field_1_3; // 0x28
-	::System::Boolean Field_1_4; // 0x30
+	::UnityEngine::Transform* KAMHKPALGEG; // 0x10
+	::UnityEngine::Animation* FOPCFKFAGPM; // 0x18
+	::System::String* CNJCEOEHOIP; // 0x20
+	::System::String* CONJJBPOJEE; // 0x28
+	::System::Boolean NFNOPGABILG; // 0x30
 
 	::System::Void _ctor()
 	{

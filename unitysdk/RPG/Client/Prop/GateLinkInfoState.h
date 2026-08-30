@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int GateLinkInfoState_TypeDefinitionIndex = 74944;
+	inline static constexpr unsigned int GateLinkInfoState_TypeDefinitionIndex = 78429;
 
 	enum class GateLinkInfoState : ::System::Int32
 	{

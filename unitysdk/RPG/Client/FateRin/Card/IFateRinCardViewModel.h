@@ -10,7 +10,7 @@ namespace System { class String; }
 
 namespace RPG::Client::FateRin::Card
 {
-	inline static constexpr unsigned int IFateRinCardViewModel_TypeDefinitionIndex = 76219;
+	inline static constexpr unsigned int IFateRinCardViewModel_TypeDefinitionIndex = 79852;
 
 	class IFateRinCardViewModel
 	{

@@ -6,7 +6,7 @@ namespace RPG { template <typename T1, typename T2> class PoolDictionary_2; }
 namespace RPG::GameCore { class LittleGameLevelCurveInfo; }
 namespace System { class String; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_165_TypeDefinitionIndex = 39704;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_165_TypeDefinitionIndex = 40577;
 
 class Class_0_16E4307DCC419505_165
 {

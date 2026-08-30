@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int NavigateTargetMode_TypeDefinitionIndex = 23598;
+	inline static constexpr unsigned int NavigateTargetMode_TypeDefinitionIndex = 24183;
 
 	enum class NavigateTargetMode : ::System::Int32
 	{

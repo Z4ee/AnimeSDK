@@ -5,12 +5,12 @@
 namespace BansheeGz::BGSpline::Curve { class BGCurve; }
 namespace RPG::Client { class CurveUndirectedEdge; }
 
-#define RPG_CLIENT_MONOCURVEUNDIRECTEDGRAPH___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x10CC4C70)
-#define RPG_CLIENT_MONOCURVEUNDIRECTEDGRAPH___C__DISPLAYCLASS6_0__FINDEDGEBYCURVE_B__0_OFFSET UNITYSDK_OFFSET(0x10CC4DA0)
+#define RPG_CLIENT_MONOCURVEUNDIRECTEDGRAPH___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19E41940)
+#define RPG_CLIENT_MONOCURVEUNDIRECTEDGRAPH___C__DISPLAYCLASS6_0__FINDEDGEBYCURVE_B__0_OFFSET UNITYSDK_OFFSET(0x19E41A70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoCurveUndirectedGraph___c__DisplayClass6_0_TypeDefinitionIndex = 65527;
+	inline static constexpr unsigned int MonoCurveUndirectedGraph___c__DisplayClass6_0_TypeDefinitionIndex = 68542;
 
 	class MonoCurveUndirectedGraph___c__DisplayClass6_0 : public ::System::Object
 	{

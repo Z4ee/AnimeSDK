@@ -6,21 +6,21 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_EVENTSTUFFCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C05FE30)
-#define RPG_GAMECORE_EVENTSTUFFCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1C060530)
+#define RPG_GAMECORE_EVENTSTUFFCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7CFCE0)
+#define RPG_GAMECORE_EVENTSTUFFCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7D03E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EventStuffConfigRow_TypeDefinitionIndex = 13713;
+	inline static constexpr unsigned int EventStuffConfigRow_TypeDefinitionIndex = 14130;
 
 	class EventStuffConfigRow : public ::System::Object
 	{
 	public:
 		::System::String* MissionStartString; // 0x10
-		::System::UInt32 StuffID; // 0x18
-		::System::UInt32 MissionID; // 0x1C
-		::System::UInt32 EventStuffID; // 0x20
-		::System::Boolean ForceComplete; // 0x24
+		::System::Boolean ForceComplete; // 0x18
+		::System::UInt32 EventStuffID; // 0x1C
+		::System::UInt32 StuffID; // 0x20
+		::System::UInt32 MissionID; // 0x24
 		::RPG::Client::TextID EventContentTextID; // 0x28
 
 		::System::Void _ctor()

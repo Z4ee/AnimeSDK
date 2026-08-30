@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
 namespace ZLinq::Linq
 {
-	inline static constexpr unsigned int FromQueue_1_TypeDefinitionIndex = 6357;
+	inline static constexpr unsigned int FromQueue_1_TypeDefinitionIndex = 6102;
 
 	template <typename T>
 	struct FromQueue_1

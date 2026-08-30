@@ -5,17 +5,17 @@
 
 namespace RPG::AvatarSystem::Property { template <typename T> class IPropertyModifier_1; }
 
-#define CLASS_1_8C0614D691BC2922_APPLY_OFFSET UNITYSDK_OFFSET(0x1587C4B0)
-#define CLASS_1_8C0614D691BC2922_COMBINE_OFFSET UNITYSDK_OFFSET(0x1587C660)
-#define CLASS_1_8C0614D691BC2922_RESET_OFFSET UNITYSDK_OFFSET(0x1587C800)
-#define CLASS_1_8C0614D691BC2922__CTOR_OFFSET UNITYSDK_OFFSET(0x1587C4A0)
+#define CLASS_1_8C0614D691BC2922_APPLY_OFFSET UNITYSDK_OFFSET(0x169364E0)
+#define CLASS_1_8C0614D691BC2922_COMBINE_OFFSET UNITYSDK_OFFSET(0x16936690)
+#define CLASS_1_8C0614D691BC2922_RESET_OFFSET UNITYSDK_OFFSET(0x16936830)
+#define CLASS_1_8C0614D691BC2922__CTOR_OFFSET UNITYSDK_OFFSET(0x169364D0)
 
-inline static constexpr unsigned int Class_1_8C0614D691BC2922_TypeDefinitionIndex = 71511;
+inline static constexpr unsigned int Class_1_8C0614D691BC2922_TypeDefinitionIndex = 74817;
 
 class Class_1_8C0614D691BC2922 : public ::System::Object
 {
 public:
-	::RPG::Client::ActivityIdleLive::IdleLiveDecimal Field_1_0; // 0x10
+	::RPG::Client::ActivityIdleLive::IdleLiveDecimal AIKAPJELHNK; // 0x10
 
 	::System::Void _ctor(::RPG::Client::ActivityIdleLive::IdleLiveDecimal a1)
 	{

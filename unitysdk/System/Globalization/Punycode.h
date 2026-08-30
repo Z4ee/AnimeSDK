@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Globalization/Bootstring.h"
 
-#define SYSTEM_GLOBALIZATION_PUNYCODE__CTOR_OFFSET UNITYSDK_OFFSET(0x172CB270)
+#define SYSTEM_GLOBALIZATION_PUNYCODE__CTOR_OFFSET UNITYSDK_OFFSET(0x18D8BC60)
 
 namespace System::Globalization
 {
-	inline static constexpr unsigned int Punycode_TypeDefinitionIndex = 791;
+	inline static constexpr unsigned int Punycode_TypeDefinitionIndex = 794;
 
 	class Punycode : public ::System::Globalization::Bootstring
 	{

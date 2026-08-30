@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetNpcWaypath; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_17B5A9375E941ACB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18FA30D0)
-#define CLASS_3_17B5A9375E941ACB__CTOR_OFFSET UNITYSDK_OFFSET(0x18FA30A0)
+#define CLASS_3_17B5A9375E941ACB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18823A80)
+#define CLASS_3_17B5A9375E941ACB__CTOR_OFFSET UNITYSDK_OFFSET(0x18823A50)
 
-inline static constexpr unsigned int Class_3_17B5A9375E941ACB_TypeDefinitionIndex = 50826;
+inline static constexpr unsigned int Class_3_17B5A9375E941ACB_TypeDefinitionIndex = 53508;
 
 class Class_3_17B5A9375E941ACB : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetNpcWaypath*>
 {

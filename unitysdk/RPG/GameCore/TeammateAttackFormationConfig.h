@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_TEAMMATEATTACKFORMATIONCONFIG_METHOD_2_44E60777AA9E8DAD_OFFSET UNITYSDK_OFFSET(0x1C149A40)
-#define RPG_GAMECORE_TEAMMATEATTACKFORMATIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C149BE0)
+#define RPG_GAMECORE_TEAMMATEATTACKFORMATIONCONFIG_METHOD_2_44E60777AA9E8DAD_OFFSET UNITYSDK_OFFSET(0x1E1CF7A0)
+#define RPG_GAMECORE_TEAMMATEATTACKFORMATIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1E1CF940)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TeammateAttackFormationConfig_TypeDefinitionIndex = 16428;
+	inline static constexpr unsigned int TeammateAttackFormationConfig_TypeDefinitionIndex = 16918;
 
 	class TeammateAttackFormationConfig : public ::RPG::GameCore::JsonConfig
 	{

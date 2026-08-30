@@ -4,19 +4,25 @@
 
 namespace System { class String; }
 
-#define CLASS_1_BB62CC0FD1E45ADE_6__CTOR_OFFSET UNITYSDK_OFFSET(0x185C8D60)
+#define CLASS_1_BB62CC0FD1E45ADE_6_CLEAR_OFFSET UNITYSDK_OFFSET(0x191524F0)
+#define CLASS_1_BB62CC0FD1E45ADE_6__CTOR_OFFSET UNITYSDK_OFFSET(0x19152550)
 
-inline static constexpr unsigned int Class_1_BB62CC0FD1E45ADE_6_TypeDefinitionIndex = 54632;
+inline static constexpr unsigned int Class_1_BB62CC0FD1E45ADE_6_TypeDefinitionIndex = 58752;
 
 class Class_1_BB62CC0FD1E45ADE_6 : public ::System::Object
 {
 public:
-	::System::String* Field_1_0; // 0x10
-	::System::Boolean Field_1_1; // 0x18
-	::System::Boolean Field_1_2; // 0x19
+	::System::String* KDOLHICFKLL; // 0x10
+	::System::Boolean CJGGFJBHOOM; // 0x18
+	::System::Boolean AJCHFLNPMCJ; // 0x19
 
 	::System::Void _ctor()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_BB62CC0FD1E45ADE_6__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Clear()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_BB62CC0FD1E45ADE_6_CLEAR_OFFSET))(this);
 	}
 };

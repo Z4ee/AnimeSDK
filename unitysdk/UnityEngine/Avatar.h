@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Object.h"
 
-#define UNITYENGINE_AVATAR__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1B6AC0)
+#define UNITYENGINE_AVATAR__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE9C280)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int Avatar_TypeDefinitionIndex = 5149;
+	inline static constexpr unsigned int Avatar_TypeDefinitionIndex = 5711;
 
 	class Avatar : public ::UnityEngine::Object
 	{

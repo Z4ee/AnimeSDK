@@ -5,7 +5,7 @@
 
 namespace Unity::Jobs
 {
-	inline static constexpr unsigned int IJobParallelForExtensions_TypeDefinitionIndex = 3950;
+	inline static constexpr unsigned int IJobParallelForExtensions_TypeDefinitionIndex = 3958;
 
 	class IJobParallelForExtensions : public ::System::Object
 	{

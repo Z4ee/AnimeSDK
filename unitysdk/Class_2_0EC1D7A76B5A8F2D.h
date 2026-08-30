@@ -5,10 +5,10 @@
 namespace RPG::Client::ActivityIdleLive { class IIdleLiveAvatarData; }
 namespace RPG::Client::ActivityIdleLive { class IdleLiveAvatarPromotionPropertyData; }
 
-#define CLASS_2_0EC1D7A76B5A8F2D_METHOD_2_F36BA6E976CB3B53_OFFSET UNITYSDK_OFFSET(0x15186480)
-#define CLASS_2_0EC1D7A76B5A8F2D__CTOR_OFFSET UNITYSDK_OFFSET(0x15186470)
+#define CLASS_2_0EC1D7A76B5A8F2D_METHOD_2_F36BA6E976CB3B53_OFFSET UNITYSDK_OFFSET(0x19C10060)
+#define CLASS_2_0EC1D7A76B5A8F2D__CTOR_OFFSET UNITYSDK_OFFSET(0x19C10050)
 
-inline static constexpr unsigned int Class_2_0EC1D7A76B5A8F2D_TypeDefinitionIndex = 71508;
+inline static constexpr unsigned int Class_2_0EC1D7A76B5A8F2D_TypeDefinitionIndex = 74814;
 
 class Class_2_0EC1D7A76B5A8F2D : public ::Class_1_6990FC326F6BA919
 {

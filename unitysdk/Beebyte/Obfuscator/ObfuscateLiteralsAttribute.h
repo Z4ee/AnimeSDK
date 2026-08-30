@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define BEEBYTE_OBFUSCATOR_OBFUSCATELITERALSATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD98CE0)
+#define BEEBYTE_OBFUSCATOR_OBFUSCATELITERALSATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB55A30)
 
 namespace Beebyte::Obfuscator
 {
-	inline static constexpr unsigned int ObfuscateLiteralsAttribute_TypeDefinitionIndex = 45259;
+	inline static constexpr unsigned int ObfuscateLiteralsAttribute_TypeDefinitionIndex = 47495;
 
 	class ObfuscateLiteralsAttribute : public ::System::Attribute
 	{

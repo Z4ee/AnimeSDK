@@ -13,14 +13,14 @@ namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Shader; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPCUSTOMLIGHTDIR_INIT_OFFSET UNITYSDK_OFFSET(0x1910B140)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPCUSTOMLIGHTDIR_UNINIT_OFFSET UNITYSDK_OFFSET(0x1910B420)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPCUSTOMLIGHTDIR_UPDATEPROPERTY_OFFSET UNITYSDK_OFFSET(0x1910B1E0)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPCUSTOMLIGHTDIR__CTOR_OFFSET UNITYSDK_OFFSET(0x1910B470)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPCUSTOMLIGHTDIR_INIT_OFFSET UNITYSDK_OFFSET(0x116AD580)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPCUSTOMLIGHTDIR_UNINIT_OFFSET UNITYSDK_OFFSET(0x116AD860)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPCUSTOMLIGHTDIR_UPDATEPROPERTY_OFFSET UNITYSDK_OFFSET(0x116AD620)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPCUSTOMLIGHTDIR__CTOR_OFFSET UNITYSDK_OFFSET(0x116AD8B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginCharaPropCustomLightDir_TypeDefinitionIndex = 66816;
+	inline static constexpr unsigned int MonoEffectPluginCharaPropCustomLightDir_TypeDefinitionIndex = 69918;
 
 	class MonoEffectPluginCharaPropCustomLightDir : public ::RPG::Client::MonoEffectPluginCharaPropBase
 	{
@@ -28,10 +28,10 @@ namespace RPG::Client
 		::System::Single UseCustomDir; // 0x40
 		::UnityEngine::Vector3 CustomLightDir; // 0x44
 		::UnityEngine::Transform* LightTrans; // 0x50
-		::Il2CppArray<::System::Boolean>* Field_6_3; // 0x58
-		::UnityEngine::Vector4 Field_6_4; // 0x60
-		::UnityEngine::Vector3 Field_6_5; // 0x70
-		::UnityEngine::Material* Field_6_6; // 0x80
+		::Il2CppArray<::System::Boolean>* LKIKPHKAFJB; // 0x58
+		::UnityEngine::Vector4 BCNIKNBMNPM; // 0x60
+		::UnityEngine::Vector3 PNAEENNKGLD; // 0x70
+		::UnityEngine::Material* CJMPDEJJAJL; // 0x80
 
 		::System::Void _ctor()
 		{

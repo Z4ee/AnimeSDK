@@ -6,18 +6,18 @@ namespace RPG::Client::LittleGame { class ElfRestaurantGameEntity; }
 namespace RPG::GameCore { class ST_Main_ElfWaiterSuperEventReady; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_FA9352940B595E4B_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1754B900)
-#define CLASS_3_FA9352940B595E4B_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1754B6A0)
-#define CLASS_3_FA9352940B595E4B_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1754B850)
-#define CLASS_3_FA9352940B595E4B_TICK_OFFSET UNITYSDK_OFFSET(0x1754B8A0)
-#define CLASS_3_FA9352940B595E4B__CTOR_OFFSET UNITYSDK_OFFSET(0x1754B670)
+#define CLASS_3_FA9352940B595E4B_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18F39E80)
+#define CLASS_3_FA9352940B595E4B_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18F39C20)
+#define CLASS_3_FA9352940B595E4B_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x18F39DD0)
+#define CLASS_3_FA9352940B595E4B_TICK_OFFSET UNITYSDK_OFFSET(0x18F39E20)
+#define CLASS_3_FA9352940B595E4B__CTOR_OFFSET UNITYSDK_OFFSET(0x18F39BF0)
 
-inline static constexpr unsigned int Class_3_FA9352940B595E4B_TypeDefinitionIndex = 49801;
+inline static constexpr unsigned int Class_3_FA9352940B595E4B_TypeDefinitionIndex = 52461;
 
 class Class_3_FA9352940B595E4B : public ::RPG::GameCore::ST_Task_1<::RPG::GameCore::ST_Main_ElfWaiterSuperEventReady*>
 {
 public:
-	::RPG::Client::LittleGame::ElfRestaurantGameEntity* Field_3_0; // 0x28
+	::RPG::Client::LittleGame::ElfRestaurantGameEntity* PCPOJALEGGF; // 0x28
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ST_Main_ElfWaiterSuperEventReady* a2)
 	{

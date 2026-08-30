@@ -2,23 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_359;
+class Class_0_16E4307DCC419505_378;
 namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_2CE8126B86248913_METHOD_1_26B4E77F31621E84_OFFSET UNITYSDK_OFFSET(0x16CF9620)
-#define CLASS_1_2CE8126B86248913_METHOD_1_3DA44790B94B01C2_OFFSET UNITYSDK_OFFSET(0x16CF9770)
-#define CLASS_1_2CE8126B86248913_METHOD_1_83AE46DB8772209E_OFFSET UNITYSDK_OFFSET(0x16CF98B0)
-#define CLASS_1_2CE8126B86248913__CCTOR_OFFSET UNITYSDK_OFFSET(0x16CF9B50)
+#define CLASS_1_2CE8126B86248913_METHOD_1_26B4E77F31621E84_OFFSET UNITYSDK_OFFSET(0x17118B10)
+#define CLASS_1_2CE8126B86248913_METHOD_1_3DA44790B94B01C2_OFFSET UNITYSDK_OFFSET(0x17118C60)
+#define CLASS_1_2CE8126B86248913_METHOD_1_83AE46DB8772209E_OFFSET UNITYSDK_OFFSET(0x17118DA0)
+#define CLASS_1_2CE8126B86248913__CCTOR_OFFSET UNITYSDK_OFFSET(0x17119040)
 
-inline static constexpr unsigned int Class_1_2CE8126B86248913_TypeDefinitionIndex = 47420;
+inline static constexpr unsigned int Class_1_2CE8126B86248913_TypeDefinitionIndex = 49700;
 
 class Class_1_2CE8126B86248913 : public ::System::Object
 {
 public:
-	static ::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_359*>** StaticGet_Field_1_0()
+	static ::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_378*>** StaticGet_NFPMPIGNBDJ()
 	{
-		return (::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_359*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_2CE8126B86248913_TypeDefinitionIndex)->GetStaticField(0x6B490);
+		return (::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_378*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_2CE8126B86248913_TypeDefinitionIndex)->GetStaticField(0x67070);
 	}
 
 	static ::System::Void _cctor()

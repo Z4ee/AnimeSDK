@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int Collision2DShapeType_TypeDefinitionIndex = 51221;
+	inline static constexpr unsigned int Collision2DShapeType_TypeDefinitionIndex = 53905;
 
 	enum class Collision2DShapeType : ::System::Int32
 	{

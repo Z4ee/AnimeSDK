@@ -7,23 +7,23 @@ namespace RPG::Client::Prop { class TeleportGatePuzzleBoard; }
 namespace RPG::GameCore { class PropComponent; }
 namespace System { class String; }
 
-#define RPG_CLIENT_PROP_TELEPORTGATESWITCH_INITSWITCH_OFFSET UNITYSDK_OFFSET(0x16119490)
-#define RPG_CLIENT_PROP_TELEPORTGATESWITCH_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x161196A0)
-#define RPG_CLIENT_PROP_TELEPORTGATESWITCH_ONUSESWITCH_OFFSET UNITYSDK_OFFSET(0x16119730)
-#define RPG_CLIENT_PROP_TELEPORTGATESWITCH__CTOR_OFFSET UNITYSDK_OFFSET(0x16119770)
+#define RPG_CLIENT_PROP_TELEPORTGATESWITCH_INITSWITCH_OFFSET UNITYSDK_OFFSET(0x17B18850)
+#define RPG_CLIENT_PROP_TELEPORTGATESWITCH_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x17B18A60)
+#define RPG_CLIENT_PROP_TELEPORTGATESWITCH_ONUSESWITCH_OFFSET UNITYSDK_OFFSET(0x17B18AF0)
+#define RPG_CLIENT_PROP_TELEPORTGATESWITCH__CTOR_OFFSET UNITYSDK_OFFSET(0x17B18B30)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int TeleportGateSwitch_TypeDefinitionIndex = 74948;
+	inline static constexpr unsigned int TeleportGateSwitch_TypeDefinitionIndex = 78433;
 
 	class TeleportGateSwitch : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		// static const ::System::String* Field_5_0; // 0x0
-		::System::Int32 Field_5_1; // 0x18
-		::RPG::Client::Prop::TeleportGatePuzzleBoard* Field_5_2; // 0x20
-		::RPG::GameCore::PropComponent* Field_5_3; // 0x28
-		::Class_2_2679F01039F3FC24* Field_5_4; // 0x30
+		// static const ::System::String* KDJFACFCOIC; // 0x0
+		::System::Int32 LFPJNINEGHM; // 0x18
+		::RPG::Client::Prop::TeleportGatePuzzleBoard* CFKHNPGEAJA; // 0x20
+		::RPG::GameCore::PropComponent* NKILIBDMOMC; // 0x28
+		::Class_2_2679F01039F3FC24* BCALOKFAJFH; // 0x30
 
 		::System::Void _ctor()
 		{

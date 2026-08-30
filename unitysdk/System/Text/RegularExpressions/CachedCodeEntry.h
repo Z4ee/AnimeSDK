@@ -9,23 +9,23 @@ namespace System::Text::RegularExpressions { class RegexCode; }
 namespace System::Text::RegularExpressions { class RegexRunnerFactory; }
 namespace System::Text::RegularExpressions { class SharedReference; }
 
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_CACHEDCODEENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x167CB000)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_CACHEDCODEENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1828DCC0)
 
 namespace System::Text::RegularExpressions
 {
-	inline static constexpr unsigned int CachedCodeEntry_TypeDefinitionIndex = 2492;
+	inline static constexpr unsigned int CachedCodeEntry_TypeDefinitionIndex = 2499;
 
 	class CachedCodeEntry : public ::System::Object
 	{
 	public:
-		::System::Text::RegularExpressions::SharedReference* _replref; // 0x10
-		::System::String* _key; // 0x18
-		::System::Text::RegularExpressions::RegexRunnerFactory* _factory; // 0x20
-		::System::Collections::Hashtable* _caps; // 0x28
-		::System::Text::RegularExpressions::ExclusiveReference* _runnerref; // 0x30
-		::Il2CppArray<::System::String*>* _capslist; // 0x38
-		::System::Collections::Hashtable* _capnames; // 0x40
-		::System::Text::RegularExpressions::RegexCode* _code; // 0x48
+		::System::Text::RegularExpressions::RegexCode* _code; // 0x10
+		::Il2CppArray<::System::String*>* _capslist; // 0x18
+		::System::Text::RegularExpressions::SharedReference* _replref; // 0x20
+		::System::String* _key; // 0x28
+		::System::Collections::Hashtable* _caps; // 0x30
+		::System::Text::RegularExpressions::ExclusiveReference* _runnerref; // 0x38
+		::System::Text::RegularExpressions::RegexRunnerFactory* _factory; // 0x40
+		::System::Collections::Hashtable* _capnames; // 0x48
 		::System::Int32 _capsize; // 0x50
 
 		::System::Void _ctor(::System::String* a1, ::System::Collections::Hashtable* a2, ::Il2CppArray<::System::String*>* a3, ::System::Text::RegularExpressions::RegexCode* a4, ::System::Collections::Hashtable* a5, ::System::Int32 a6, ::System::Text::RegularExpressions::ExclusiveReference* a7, ::System::Text::RegularExpressions::SharedReference* a8)

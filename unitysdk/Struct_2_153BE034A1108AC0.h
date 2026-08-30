@@ -1,0 +1,55 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Struct_2_153BE034A1108AC0_Struct_2_87E5E80057022BD4.h"
+#include "unitysdk/System/ValueType.h"
+#include "unitysdk/Unity/Collections/NativeArray_1.h"
+
+#define STRUCT_2_153BE034A1108AC0_DISPOSE_OFFSET UNITYSDK_OFFSET(0x3AE4500)
+#define STRUCT_2_153BE034A1108AC0_EXECUTE_OFFSET UNITYSDK_OFFSET(0x3AE4510)
+#define STRUCT_2_153BE034A1108AC0_METHOD_2_0DEA6219CF6E8304_OFFSET UNITYSDK_OFFSET(0x3AE4570)
+#define STRUCT_2_153BE034A1108AC0_METHOD_2_49B14BA8CA9B1BAC_OFFSET UNITYSDK_OFFSET(0x3AE4560)
+#define STRUCT_2_153BE034A1108AC0_METHOD_2_85E059D0485AE5A4_OFFSET UNITYSDK_OFFSET(0x3AE4550)
+#define STRUCT_2_153BE034A1108AC0_METHOD_2_AD36E378507B7451_OFFSET UNITYSDK_OFFSET(0x3AE44F0)
+#define STRUCT_2_153BE034A1108AC0_METHOD_2_D8863F66DAA24590_OFFSET UNITYSDK_OFFSET(0x3AE4520)
+
+inline static constexpr unsigned int Struct_2_153BE034A1108AC0_TypeDefinitionIndex = 71041;
+
+struct alignas(8) Struct_2_153BE034A1108AC0
+{
+	::Unity::Collections::NativeArray_1<::Struct_2_153BE034A1108AC0_Struct_2_87E5E80057022BD4> MOEJEDHCMEO; // 0x10
+
+	::System::Void Method_2_AD36E378507B7451()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_153BE034A1108AC0_METHOD_2_AD36E378507B7451_OFFSET))(this);
+	}
+
+	::System::Void Dispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_153BE034A1108AC0_DISPOSE_OFFSET))(this);
+	}
+
+	::System::Void Execute(::System::Int32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + STRUCT_2_153BE034A1108AC0_EXECUTE_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_D8863F66DAA24590(::Struct_2_153BE034A1108AC0_Struct_2_87E5E80057022BD4 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Struct_2_153BE034A1108AC0_Struct_2_87E5E80057022BD4))((::PBYTE)hIl2Cpp + STRUCT_2_153BE034A1108AC0_METHOD_2_D8863F66DAA24590_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_85E059D0485AE5A4(::System::Int32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + STRUCT_2_153BE034A1108AC0_METHOD_2_85E059D0485AE5A4_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_49B14BA8CA9B1BAC(::System::Int32 a1, ::System::Boolean a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + STRUCT_2_153BE034A1108AC0_METHOD_2_49B14BA8CA9B1BAC_OFFSET))(this, a1, a2);
+	}
+
+	::System::Int32 Method_2_0DEA6219CF6E8304(::System::Int32 a1)
+	{
+		return ((::System::Int32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + STRUCT_2_153BE034A1108AC0_METHOD_2_0DEA6219CF6E8304_OFFSET))(this, a1);
+	}
+};

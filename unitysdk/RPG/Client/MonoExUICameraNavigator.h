@@ -4,29 +4,29 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define RPG_CLIENT_MONOEXUICAMERANAVIGATOR_FIXEDUPDATE_OFFSET UNITYSDK_OFFSET(0x18C41760)
-#define RPG_CLIENT_MONOEXUICAMERANAVIGATOR_GETGYROOFFSET_OFFSET UNITYSDK_OFFSET(0x18C3B3F0)
-#define RPG_CLIENT_MONOEXUICAMERANAVIGATOR_METHOD_5_2A925B778BD82492_OFFSET UNITYSDK_OFFSET(0x18C417A0)
-#define RPG_CLIENT_MONOEXUICAMERANAVIGATOR_SETENABLE_OFFSET UNITYSDK_OFFSET(0x18C3FB20)
-#define RPG_CLIENT_MONOEXUICAMERANAVIGATOR_START_OFFSET UNITYSDK_OFFSET(0x18C414E0)
-#define RPG_CLIENT_MONOEXUICAMERANAVIGATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x18C41820)
+#define RPG_CLIENT_MONOEXUICAMERANAVIGATOR_FIXEDUPDATE_OFFSET UNITYSDK_OFFSET(0x1ACD7460)
+#define RPG_CLIENT_MONOEXUICAMERANAVIGATOR_GETGYROOFFSET_OFFSET UNITYSDK_OFFSET(0x1ACD74A0)
+#define RPG_CLIENT_MONOEXUICAMERANAVIGATOR_METHOD_5_2A925B778BD82492_OFFSET UNITYSDK_OFFSET(0x1ACD7520)
+#define RPG_CLIENT_MONOEXUICAMERANAVIGATOR_SETENABLE_OFFSET UNITYSDK_OFFSET(0x1ACD57C0)
+#define RPG_CLIENT_MONOEXUICAMERANAVIGATOR_START_OFFSET UNITYSDK_OFFSET(0x1ACD71E0)
+#define RPG_CLIENT_MONOEXUICAMERANAVIGATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1ACD75A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoExUICameraNavigator_TypeDefinitionIndex = 69663;
+	inline static constexpr unsigned int MonoExUICameraNavigator_TypeDefinitionIndex = 72902;
 
 	class MonoExUICameraNavigator : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		::UnityEngine::Quaternion Field_5_0; // 0x18
-		::System::Boolean Field_5_1; // 0x28
+		::UnityEngine::Quaternion KDFBNBNECEK; // 0x18
+		::System::Boolean BAHOEONCBJD; // 0x28
 		::System::Single ParallexRange; // 0x2C
 		::System::Single ParallexSensitivity; // 0x30
 		::System::Single ParallexBoundHardness; // 0x34
 		::System::Single GyroOffsetRange; // 0x38
-		::UnityEngine::Quaternion Field_5_6; // 0x3C
-		::UnityEngine::Vector3 Field_5_7; // 0x4C
-		::UnityEngine::Vector3 Field_5_8; // 0x58
+		::UnityEngine::Quaternion LALGHIKGNDE; // 0x3C
+		::UnityEngine::Vector3 MDKGDLJDCLC; // 0x4C
+		::UnityEngine::Vector3 FFJNGNNDFHI; // 0x58
 
 		::System::Void _ctor()
 		{

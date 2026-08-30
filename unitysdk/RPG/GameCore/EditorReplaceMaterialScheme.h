@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_EDITORREPLACEMATERIALSCHEME_METHOD_2_789D1A072D331B8C_OFFSET UNITYSDK_OFFSET(0x1BB2FC20)
-#define RPG_GAMECORE_EDITORREPLACEMATERIALSCHEME__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB2FDA0)
+#define RPG_GAMECORE_EDITORREPLACEMATERIALSCHEME_METHOD_2_789D1A072D331B8C_OFFSET UNITYSDK_OFFSET(0x1DB21C40)
+#define RPG_GAMECORE_EDITORREPLACEMATERIALSCHEME__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB21DC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EditorReplaceMaterialScheme_TypeDefinitionIndex = 16734;
+	inline static constexpr unsigned int EditorReplaceMaterialScheme_TypeDefinitionIndex = 17236;
 
 	class EditorReplaceMaterialScheme : public ::RPG::GameCore::JsonConfig
 	{

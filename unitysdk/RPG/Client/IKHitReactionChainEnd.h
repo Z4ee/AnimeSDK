@@ -7,7 +7,7 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IKHitReactionChainEnd_TypeDefinitionIndex = 65408;
+	inline static constexpr unsigned int IKHitReactionChainEnd_TypeDefinitionIndex = 68422;
 
 	struct alignas(8) IKHitReactionChainEnd
 	{

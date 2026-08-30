@@ -2,14 +2,16 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/BaseModule.h"
 #include "unitysdk/RPG/Client/CameraDataAndFlags_RoamingStyle.h"
+#include "unitysdk/RPG/GameCore/EmotionID.h"
 #include "unitysdk/RPG/GameCore/PhotoGraphFovLevel.h"
 #include "unitysdk/RPG/GameCore/PhotoGraphSettingItemType.h"
 
+class Class_1_BB7FD600EF1881BC;
+namespace RPG::Client { class EmotionData; }
 namespace RPG::Client { class PhotoGraphFilterConfig; }
 namespace RPG::Client { class PhotoGraphFilterConfigAsset; }
 namespace RPG::Client { class PhotoGraphSettingData; }
 namespace RPG::GameCore { class GameWorld; }
-namespace RPG::GameCore { class PhotoGraphEmotionConfigRow; }
 namespace RPG::GameCore { class PhotoGraphFreeStyleConfig; }
 namespace RPG::GameCore { class PhotoGraphFreeStyleDataConfig; }
 namespace RPG::GameCore { class PhotoGraphLogoConfig; }
@@ -18,36 +20,38 @@ namespace RPG::GameCore { class PhotoGraphSettingConfig; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_PHOTOGRAPHMODULE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x17F5ED60)
-#define RPG_CLIENT_PHOTOGRAPHMODULE_GETAVATAREMOTIONCONFIGS_OFFSET UNITYSDK_OFFSET(0x17F5EFE0)
-#define RPG_CLIENT_PHOTOGRAPHMODULE_GETLOGOCONFIG_OFFSET UNITYSDK_OFFSET(0x17F5FFE0)
-#define RPG_CLIENT_PHOTOGRAPHMODULE_GETROAMINGCONFIG_OFFSET UNITYSDK_OFFSET(0x17F5FED0)
-#define RPG_CLIENT_PHOTOGRAPHMODULE_GETSETTINGDATA_OFFSET UNITYSDK_OFFSET(0x17F5FAC0)
-#define RPG_CLIENT_PHOTOGRAPHMODULE_GET_FILTERCONFIG_OFFSET UNITYSDK_OFFSET(0x17F60D60)
-#define RPG_CLIENT_PHOTOGRAPHMODULE_GET_FREESTYLECONFIG_OFFSET UNITYSDK_OFFSET(0x17F60D10)
-#define RPG_CLIENT_PHOTOGRAPHMODULE_GET_INLOOKATCAMERA_OFFSET UNITYSDK_OFFSET(0x17F60E00)
-#define RPG_CLIENT_PHOTOGRAPHMODULE_GET_PHOTOGRAPHSETTINGCONFIG_OFFSET UNITYSDK_OFFSET(0x17F56230)
-#define RPG_CLIENT_PHOTOGRAPHMODULE_GET_PHOTOGRAPHSETTINGS_OFFSET UNITYSDK_OFFSET(0x17F60CD0)
-#define RPG_CLIENT_PHOTOGRAPHMODULE_INITBYSETTINGDATA_OFFSET UNITYSDK_OFFSET(0x17F5FBA0)
-#define RPG_CLIENT_PHOTOGRAPHMODULE_INIT_OFFSET UNITYSDK_OFFSET(0x17F5ED10)
-#define RPG_CLIENT_PHOTOGRAPHMODULE_RESETSETTINGDATA_OFFSET UNITYSDK_OFFSET(0x17F5FD20)
-#define RPG_CLIENT_PHOTOGRAPHMODULE_SETLOOKATCAMERA_OFFSET UNITYSDK_OFFSET(0x17F601D0)
-#define RPG_CLIENT_PHOTOGRAPHMODULE_SET_INLOOKATCAMERA_OFFSET UNITYSDK_OFFSET(0x17F60E10)
-#define RPG_CLIENT_PHOTOGRAPHMODULE_UPDATESETTINGDATA_OFFSET UNITYSDK_OFFSET(0x17F5F380)
-#define RPG_CLIENT_PHOTOGRAPHMODULE__ADDNOTIFYHANDLERS_OFFSET UNITYSDK_OFFSET(0x17F5EE80)
-#define RPG_CLIENT_PHOTOGRAPHMODULE__CTOR_OFFSET UNITYSDK_OFFSET(0x17F5EB30)
-#define RPG_CLIENT_PHOTOGRAPHMODULE__LOADPHOTOGRAPHCONFIG_OFFSET UNITYSDK_OFFSET(0x17F602E0)
-#define RPG_CLIENT_PHOTOGRAPHMODULE__LOADPLAYERCONFIG_OFFSET UNITYSDK_OFFSET(0x17F60560)
-#define RPG_CLIENT_PHOTOGRAPHMODULE__ONHIDELOADINGPAGE_OFFSET UNITYSDK_OFFSET(0x17F607D0)
-#define RPG_CLIENT_PHOTOGRAPHMODULE__ONSHOWLOADINGPAGE_OFFSET UNITYSDK_OFFSET(0x17F60270)
-#define RPG_CLIENT_PHOTOGRAPHMODULE__PROCESSSETTINGCHANGE_OFFSET UNITYSDK_OFFSET(0x17F5F780)
-#define RPG_CLIENT_PHOTOGRAPHMODULE__UNLOADPHOTOGRAPHCONFIG_OFFSET UNITYSDK_OFFSET(0x17F5EDB0)
+#define RPG_CLIENT_PHOTOGRAPHMODULE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18671100)
+#define RPG_CLIENT_PHOTOGRAPHMODULE_GETAVATAREMOTIONDATALIST_OFFSET UNITYSDK_OFFSET(0x186713A0)
+#define RPG_CLIENT_PHOTOGRAPHMODULE_GETAVATAREMOTION_OFFSET UNITYSDK_OFFSET(0x18671430)
+#define RPG_CLIENT_PHOTOGRAPHMODULE_GETLOGOCONFIG_OFFSET UNITYSDK_OFFSET(0x18672100)
+#define RPG_CLIENT_PHOTOGRAPHMODULE_GETROAMINGCONFIG_OFFSET UNITYSDK_OFFSET(0x18671FF0)
+#define RPG_CLIENT_PHOTOGRAPHMODULE_GETSETTINGDATA_OFFSET UNITYSDK_OFFSET(0x18671BE0)
+#define RPG_CLIENT_PHOTOGRAPHMODULE_GET_FILTERCONFIG_OFFSET UNITYSDK_OFFSET(0x18672E70)
+#define RPG_CLIENT_PHOTOGRAPHMODULE_GET_FREESTYLECONFIG_OFFSET UNITYSDK_OFFSET(0x18672E20)
+#define RPG_CLIENT_PHOTOGRAPHMODULE_GET_INLOOKATCAMERA_OFFSET UNITYSDK_OFFSET(0x18672F10)
+#define RPG_CLIENT_PHOTOGRAPHMODULE_GET_PHOTOGRAPHSETTINGCONFIG_OFFSET UNITYSDK_OFFSET(0x186685F0)
+#define RPG_CLIENT_PHOTOGRAPHMODULE_GET_PHOTOGRAPHSETTINGS_OFFSET UNITYSDK_OFFSET(0x18672DE0)
+#define RPG_CLIENT_PHOTOGRAPHMODULE_INITBYSETTINGDATA_OFFSET UNITYSDK_OFFSET(0x18671CC0)
+#define RPG_CLIENT_PHOTOGRAPHMODULE_INIT_OFFSET UNITYSDK_OFFSET(0x186710B0)
+#define RPG_CLIENT_PHOTOGRAPHMODULE_RESETSETTINGDATA_OFFSET UNITYSDK_OFFSET(0x18671E40)
+#define RPG_CLIENT_PHOTOGRAPHMODULE_SETLOOKATCAMERA_OFFSET UNITYSDK_OFFSET(0x186722E0)
+#define RPG_CLIENT_PHOTOGRAPHMODULE_SET_INLOOKATCAMERA_OFFSET UNITYSDK_OFFSET(0x18672F20)
+#define RPG_CLIENT_PHOTOGRAPHMODULE_UPDATESETTINGDATA_OFFSET UNITYSDK_OFFSET(0x186714A0)
+#define RPG_CLIENT_PHOTOGRAPHMODULE__ADDNOTIFYHANDLERS_OFFSET UNITYSDK_OFFSET(0x18671240)
+#define RPG_CLIENT_PHOTOGRAPHMODULE__CTOR_OFFSET UNITYSDK_OFFSET(0x18670EB0)
+#define RPG_CLIENT_PHOTOGRAPHMODULE__LOADPHOTOGRAPHCONFIG_OFFSET UNITYSDK_OFFSET(0x186723F0)
+#define RPG_CLIENT_PHOTOGRAPHMODULE__LOADPLAYERCONFIG_OFFSET UNITYSDK_OFFSET(0x18672670)
+#define RPG_CLIENT_PHOTOGRAPHMODULE__ONHIDELOADINGPAGE_OFFSET UNITYSDK_OFFSET(0x186728E0)
+#define RPG_CLIENT_PHOTOGRAPHMODULE__ONSHOWLOADINGPAGE_OFFSET UNITYSDK_OFFSET(0x18672380)
+#define RPG_CLIENT_PHOTOGRAPHMODULE__PROCESSSETTINGCHANGE_OFFSET UNITYSDK_OFFSET(0x186718A0)
+#define RPG_CLIENT_PHOTOGRAPHMODULE__UNLOADPHOTOGRAPHCONFIG_OFFSET UNITYSDK_OFFSET(0x18671150)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PhotoGraphModule_TypeDefinitionIndex = 63505;
+	inline static constexpr unsigned int PhotoGraphModule_TypeDefinitionIndex = 66490;
 
 	class PhotoGraphModule : public ::RPG::Client::BaseModule
 	{
@@ -55,18 +59,19 @@ namespace RPG::Client
 		// static const ::System::String* PhotoGraphSettingConfigJsonPath; // 0x0
 		// static const ::System::String* _PhotoGraphFreeStyleConfigJsonPath; // 0x0
 		// static const ::System::String* _PhotoGraphFilterConfigAssetPath; // 0x0
-		::RPG::GameCore::PhotoGraphSettingConfig* _PhotoGraphSettingConfig; // 0x10
-		::System::String* CurFreeStyleKey; // 0x18
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::PhotoGraphFovLevel, ::System::Single>* FovLevelToRatio; // 0x20
+		::Class_1_BB7FD600EF1881BC* _EmotionRepository; // 0x10
+		::RPG::GameCore::PhotoGraphSettingConfig* _PhotoGraphSettingConfig; // 0x18
+		::System::String* CurFreeStyleKey; // 0x20
 		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::PhotoGraphSettingItemType, ::RPG::Client::PhotoGraphSettingData*>* _PhotoGraphSettings; // 0x28
-		::RPG::GameCore::PhotoGraphFreeStyleConfig* _FreeStyleConfig; // 0x30
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::PhotoGraphFovLevel, ::System::Single>* FovLevelToRatio; // 0x30
 		::RPG::Client::PhotoGraphFilterConfigAsset* _FilterConfig; // 0x38
-		::System::Boolean _InLookAtCamera_k__BackingField; // 0x40
-		::System::Boolean _IsConfigLoaded; // 0x41
-		::System::Boolean IsShareEnable; // 0x42
-		::System::Boolean _IsPlayerConfigLoaded; // 0x43
-		::System::Single CurFOVRatio; // 0x44
-		::System::UInt32 CurEmotionID; // 0x48
+		::RPG::GameCore::PhotoGraphFreeStyleConfig* _FreeStyleConfig; // 0x40
+		::RPG::GameCore::EmotionID CurEmotionID; // 0x48
+		::System::Boolean IsShareEnable; // 0x4C
+		::System::Boolean _InLookAtCamera_k__BackingField; // 0x4D
+		::System::Boolean _IsPlayerConfigLoaded; // 0x4E
+		::System::Boolean _IsConfigLoaded; // 0x4F
+		::System::Single CurFOVRatio; // 0x50
 
 		::System::Void _ctor()
 		{
@@ -88,9 +93,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOGRAPHMODULE__ADDNOTIFYHANDLERS_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::List_1<::RPG::GameCore::PhotoGraphEmotionConfigRow*>* GetAvatarEmotionConfigs(::System::UInt32 a1)
+		::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::EmotionData*>* GetAvatarEmotionDataList(::System::UInt32 a1)
 		{
-			return ((::System::Collections::Generic::List_1<::RPG::GameCore::PhotoGraphEmotionConfigRow*>*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOGRAPHMODULE_GETAVATAREMOTIONCONFIGS_OFFSET))(this, a1);
+			return ((::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::EmotionData*>*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOGRAPHMODULE_GETAVATAREMOTIONDATALIST_OFFSET))(this, a1);
+		}
+
+		::RPG::Client::EmotionData* GetAvatarEmotion(::System::UInt32 a1, ::RPG::GameCore::EmotionID a2)
+		{
+			return ((::RPG::Client::EmotionData*(*)(::PVOID, ::System::UInt32, ::RPG::GameCore::EmotionID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOGRAPHMODULE_GETAVATAREMOTION_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void UpdateSettingData(::RPG::GameCore::PhotoGraphSettingItemType a1, ::System::Boolean a2)

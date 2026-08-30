@@ -5,44 +5,44 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define STRUCT_2_C2F56B252E590157_METHOD_2_B1564B8ADEAF75B1_OFFSET UNITYSDK_OFFSET(0x39581B0)
-#define STRUCT_2_C2F56B252E590157_METHOD_2_BD25FD6417910E27_OFFSET UNITYSDK_OFFSET(0x3958280)
-#define STRUCT_2_C2F56B252E590157_METHOD_2_CC6A1184169D3920_OFFSET UNITYSDK_OFFSET(0x3958170)
-#define STRUCT_2_C2F56B252E590157_METHOD_2_CC74714172F771CD_OFFSET UNITYSDK_OFFSET(0x3958230)
-#define STRUCT_2_C2F56B252E590157_METHOD_2_EDD16E7B688599FA_OFFSET UNITYSDK_OFFSET(0x3958270)
-#define STRUCT_2_C2F56B252E590157_METHOD_2_FF8884A04E1EEA00_OFFSET UNITYSDK_OFFSET(0x3958260)
+#define STRUCT_2_C2F56B252E590157_METHOD_2_B1564B8ADEAF75B1_OFFSET UNITYSDK_OFFSET(0x3B01A60)
+#define STRUCT_2_C2F56B252E590157_METHOD_2_BD25FD6417910E27_OFFSET UNITYSDK_OFFSET(0x3B01B30)
+#define STRUCT_2_C2F56B252E590157_METHOD_2_CC6A1184169D3920_OFFSET UNITYSDK_OFFSET(0x3B01A20)
+#define STRUCT_2_C2F56B252E590157_METHOD_2_CC74714172F771CD_OFFSET UNITYSDK_OFFSET(0x3B01AE0)
+#define STRUCT_2_C2F56B252E590157_METHOD_2_EDD16E7B688599FA_OFFSET UNITYSDK_OFFSET(0x3B01B20)
+#define STRUCT_2_C2F56B252E590157_METHOD_2_FF8884A04E1EEA00_OFFSET UNITYSDK_OFFSET(0x3B01B10)
 
-inline static constexpr unsigned int Struct_2_C2F56B252E590157_TypeDefinitionIndex = 65439;
+inline static constexpr unsigned int Struct_2_C2F56B252E590157_TypeDefinitionIndex = 68453;
 
 struct alignas(8) Struct_2_C2F56B252E590157
 {
-	::RootMotion::IKJob::IKTransformRef Field_2_0; // 0x10
-	::RootMotion::IKJob::IKTransformRef Field_2_1; // 0x20
-	::RootMotion::IKJob::IKTransformRef Field_2_2; // 0x30
-	::System::Boolean Field_2_3; // 0x40
-	::System::Single Field_2_4; // 0x44
-	::System::Single Field_2_5; // 0x48
-	::System::Single Field_2_6; // 0x4C
-	::System::Single Field_2_7; // 0x50
-	::System::Single Field_2_8; // 0x54
-	::System::Single Field_2_9; // 0x58
-	::System::Single Field_2_10; // 0x5C
-	::System::Single Field_2_11; // 0x60
-	::System::Single Field_2_12; // 0x64
-	::Il2CppArray<::System::Single>* Field_2_13; // 0x68
-	::Il2CppArray<::System::Single>* Field_2_14; // 0x70
-	::Struct_2_746370D3F3911884 Field_2_15; // 0x78
-	::Il2CppArray<::Struct_2_746370D3F3911884>* Field_2_16; // 0xD8
-	::Il2CppArray<::UnityEngine::Vector3>* Field_2_17; // 0xE0
-	::Il2CppArray<::UnityEngine::Vector3>* Field_2_18; // 0xE8
-	::System::Int32 Field_2_19; // 0xF0
-	::System::Single Field_2_20; // 0xF4
-	::UnityEngine::Vector3 Field_2_21; // 0xF8
-	::UnityEngine::Vector3 Field_2_22; // 0x104
-	::UnityEngine::Vector3 Field_2_23; // 0x110
-	::UnityEngine::Vector3 Field_2_24; // 0x11C
-	::System::Boolean Field_2_25; // 0x128
-	::UnityEngine::Vector3 Field_2_26; // 0x12C
+	::RootMotion::IKJob::IKTransformRef OILKGMEPLAE; // 0x10
+	::RootMotion::IKJob::IKTransformRef DEGIGKHCIAP; // 0x20
+	::RootMotion::IKJob::IKTransformRef FCNBPDILDDO; // 0x30
+	::System::Boolean BEMJMAKPPFC; // 0x40
+	::System::Single IDHNCJHPHJJ; // 0x44
+	::System::Single PBIKFHGHPPM; // 0x48
+	::System::Single MONAJOELDDK; // 0x4C
+	::System::Single KOGDNPPFJIG; // 0x50
+	::System::Single CAHDCGOAJGL; // 0x54
+	::System::Single PIGAAKBFDKM; // 0x58
+	::System::Single OMHJEIBOKDB; // 0x5C
+	::System::Single GHONKNOMHDB; // 0x60
+	::System::Single KCAJPAGGFAM; // 0x64
+	::Il2CppArray<::System::Single>* PLGKCBNAPJK; // 0x68
+	::Il2CppArray<::System::Single>* LKFEDNLEPCP; // 0x70
+	::Struct_2_746370D3F3911884 LKLKLBHCNDC; // 0x78
+	::Il2CppArray<::Struct_2_746370D3F3911884>* KBFCHBFFFNP; // 0xD8
+	::Il2CppArray<::UnityEngine::Vector3>* DEIGLKJJNKM; // 0xE0
+	::Il2CppArray<::UnityEngine::Vector3>* JAMAMGMLPON; // 0xE8
+	::System::Int32 HDONFJBIGBL; // 0xF0
+	::System::Single OIAOGCDLEPA; // 0xF4
+	::UnityEngine::Vector3 EEHGJFGHAOM; // 0xF8
+	::UnityEngine::Vector3 DMNJEMLPAAJ; // 0x104
+	::UnityEngine::Vector3 CFENCLKEAPC; // 0x110
+	::UnityEngine::Vector3 CLNJDHFIPHJ; // 0x11C
+	::System::Boolean JINIKEGDEIP; // 0x128
+	::UnityEngine::Vector3 OGPGKENOJMO; // 0x12C
 
 	::System::Void Method_2_CC6A1184169D3920(::RootMotion::IKJob::IKTransformRef a1, ::System::Single a2, ::System::Single a3, ::System::Single a4, ::System::Single a5)
 	{

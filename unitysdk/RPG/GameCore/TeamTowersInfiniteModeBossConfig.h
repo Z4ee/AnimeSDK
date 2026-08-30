@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TeamTowersBossConfig; }
 
-#define RPG_GAMECORE_TEAMTOWERSINFINITEMODEBOSSCONFIG_METHOD_2_70474F5345A958E0_OFFSET UNITYSDK_OFFSET(0x1C148790)
-#define RPG_GAMECORE_TEAMTOWERSINFINITEMODEBOSSCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C148940)
+#define RPG_GAMECORE_TEAMTOWERSINFINITEMODEBOSSCONFIG_METHOD_2_70474F5345A958E0_OFFSET UNITYSDK_OFFSET(0x1E1CE4F0)
+#define RPG_GAMECORE_TEAMTOWERSINFINITEMODEBOSSCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1E1CE6A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TeamTowersInfiniteModeBossConfig_TypeDefinitionIndex = 18203;
+	inline static constexpr unsigned int TeamTowersInfiniteModeBossConfig_TypeDefinitionIndex = 18727;
 
 	class TeamTowersInfiniteModeBossConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -6,14 +6,14 @@ namespace System { class Action; }
 
 namespace RPG::Client::FateRin::CaseBoard
 {
-	inline static constexpr unsigned int CaseBoardViewModel___O_TypeDefinitionIndex = 75833;
+	inline static constexpr unsigned int CaseBoardViewModel___O_TypeDefinitionIndex = 79466;
 
 	class CaseBoardViewModel___O : public ::System::Object
 	{
 	public:
 		static ::System::Action** StaticGet__0____OnPageExit()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(CaseBoardViewModel___O_TypeDefinitionIndex)->GetStaticField(0xA640);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(CaseBoardViewModel___O_TypeDefinitionIndex)->GetStaticField(0x4780);
 		}
 	};
 }

@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TrainPartyPerformanceFreeStyleAction; }
 
-#define RPG_GAMECORE_TRAINPARTYPERFORMANCEACTIONCONFIG_METHOD_2_707BE3C04380FD64_OFFSET UNITYSDK_OFFSET(0x1C162BE0)
-#define RPG_GAMECORE_TRAINPARTYPERFORMANCEACTIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C162CD0)
+#define RPG_GAMECORE_TRAINPARTYPERFORMANCEACTIONCONFIG_METHOD_2_707BE3C04380FD64_OFFSET UNITYSDK_OFFSET(0x1D537F70)
+#define RPG_GAMECORE_TRAINPARTYPERFORMANCEACTIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D538060)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrainPartyPerformanceActionConfig_TypeDefinitionIndex = 15621;
+	inline static constexpr unsigned int TrainPartyPerformanceActionConfig_TypeDefinitionIndex = 16090;
 
 	class TrainPartyPerformanceActionConfig : public ::RPG::GameCore::JsonConfig
 	{

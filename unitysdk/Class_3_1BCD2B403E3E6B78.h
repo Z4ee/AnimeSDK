@@ -7,17 +7,17 @@ namespace RPG::GameCore { class ByHasStanceWeakPreview; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_1BCD2B403E3E6B78_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15885A90)
-#define CLASS_3_1BCD2B403E3E6B78_METHOD_3_1294465685DCAB35_OFFSET UNITYSDK_OFFSET(0x15885E60)
-#define CLASS_3_1BCD2B403E3E6B78__CTOR_OFFSET UNITYSDK_OFFSET(0x15885A40)
+#define CLASS_3_1BCD2B403E3E6B78_EVALUATE_OFFSET UNITYSDK_OFFSET(0x169444F0)
+#define CLASS_3_1BCD2B403E3E6B78_METHOD_3_1294465685DCAB35_OFFSET UNITYSDK_OFFSET(0x169448C0)
+#define CLASS_3_1BCD2B403E3E6B78__CTOR_OFFSET UNITYSDK_OFFSET(0x169444A0)
 
-inline static constexpr unsigned int Class_3_1BCD2B403E3E6B78_TypeDefinitionIndex = 52148;
+inline static constexpr unsigned int Class_3_1BCD2B403E3E6B78_TypeDefinitionIndex = 54834;
 
 class Class_3_1BCD2B403E3E6B78 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByHasStanceWeakPreview*>
 {
 public:
-	::System::Int32 Field_3_0; // 0x28
-	::System::Boolean Field_3_1; // 0x2C
+	::System::Int32 CCBFKHOIPPF; // 0x28
+	::System::Boolean IPJHKHHBKII; // 0x2C
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ByHasStanceWeakPreview* a2)
 	{

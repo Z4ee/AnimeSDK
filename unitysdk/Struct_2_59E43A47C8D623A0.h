@@ -6,16 +6,16 @@
 
 namespace RPG::GameCore { class GameEntity; }
 
-#define STRUCT_2_59E43A47C8D623A0_METHOD_2_7744894CEC41BF06_OFFSET UNITYSDK_OFFSET(0x38FE890)
-#define STRUCT_2_59E43A47C8D623A0__CTOR_OFFSET UNITYSDK_OFFSET(0x38FE7E0)
+#define STRUCT_2_59E43A47C8D623A0_METHOD_2_7744894CEC41BF06_OFFSET UNITYSDK_OFFSET(0x3AF34C0)
+#define STRUCT_2_59E43A47C8D623A0__CTOR_OFFSET UNITYSDK_OFFSET(0x3AF3420)
 
-inline static constexpr unsigned int Struct_2_59E43A47C8D623A0_TypeDefinitionIndex = 54460;
+inline static constexpr unsigned int Struct_2_59E43A47C8D623A0_TypeDefinitionIndex = 57181;
 
 struct alignas(8) Struct_2_59E43A47C8D623A0
 {
-	::RPG::GameCore::GameEntity* Field_2_0; // 0x10
-	::UnityEngine::Vector3 Field_2_1; // 0x18
-	::UnityEngine::Quaternion Field_2_2; // 0x24
+	::RPG::GameCore::GameEntity* GGKGFABFGFE; // 0x10
+	::UnityEngine::Vector3 BBFOLEOPPPL; // 0x18
+	::UnityEngine::Quaternion NMELCPIOKNO; // 0x24
 
 	::System::Void _ctor(::RPG::GameCore::GameEntity* a1)
 	{

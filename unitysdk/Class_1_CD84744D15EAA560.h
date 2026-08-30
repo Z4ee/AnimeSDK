@@ -7,23 +7,23 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_CD84744D15EAA560_METHOD_1_A1D8CD775DEC3C21_1_OFFSET UNITYSDK_OFFSET(0x13E8D3D0)
-#define CLASS_1_CD84744D15EAA560_METHOD_1_A1D8CD775DEC3C21_OFFSET UNITYSDK_OFFSET(0x13E8D380)
-#define CLASS_1_CD84744D15EAA560_METHOD_1_E7EF6BC52B28648C_OFFSET UNITYSDK_OFFSET(0x13E8D280)
-#define CLASS_1_CD84744D15EAA560_METHOD_1_F6E6E622B53160EC_OFFSET UNITYSDK_OFFSET(0x13E8D420)
-#define CLASS_1_CD84744D15EAA560__CTOR_OFFSET UNITYSDK_OFFSET(0x13E8D4D0)
+#define CLASS_1_CD84744D15EAA560_METHOD_1_A1D8CD775DEC3C21_1_OFFSET UNITYSDK_OFFSET(0x15413820)
+#define CLASS_1_CD84744D15EAA560_METHOD_1_A1D8CD775DEC3C21_OFFSET UNITYSDK_OFFSET(0x154137D0)
+#define CLASS_1_CD84744D15EAA560_METHOD_1_E7EF6BC52B28648C_OFFSET UNITYSDK_OFFSET(0x154136D0)
+#define CLASS_1_CD84744D15EAA560_METHOD_1_F6E6E622B53160EC_OFFSET UNITYSDK_OFFSET(0x15413870)
+#define CLASS_1_CD84744D15EAA560__CTOR_OFFSET UNITYSDK_OFFSET(0x15413920)
 
-inline static constexpr unsigned int Class_1_CD84744D15EAA560_TypeDefinitionIndex = 34656;
+inline static constexpr unsigned int Class_1_CD84744D15EAA560_TypeDefinitionIndex = 35517;
 
 class Class_1_CD84744D15EAA560 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::Dictionary_2<::Class_1_0E117AC86D8E5BCA*, ::System::String*>* Field_1_0; // 0x10
-	::System::Collections::Generic::List_1<::Class_1_0E117AC86D8E5BCA*>* Field_1_1; // 0x18
-	::System::Boolean Field_1_2; // 0x20
-	::System::Int32 Field_1_3; // 0x24
-	::System::Int32 Field_1_4; // 0x28
-	::System::Int32 Field_1_5; // 0x2C
+	::System::Collections::Generic::List_1<::Class_1_0E117AC86D8E5BCA*>* CPOAIFJEAJF; // 0x10
+	::System::Collections::Generic::Dictionary_2<::Class_1_0E117AC86D8E5BCA*, ::System::String*>* EPAGKAIAOJK; // 0x18
+	::System::Int32 DJNAIMHOHIH; // 0x20
+	::System::Int32 MHLLBBDOLNG; // 0x24
+	::System::Boolean GGHOFCHCMJC; // 0x28
+	::System::Int32 KGCEIIJFCKE; // 0x2C
 
 	::System::Void _ctor()
 	{

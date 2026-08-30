@@ -4,18 +4,18 @@
 
 namespace RPG::Client::FateRin::Battle { class IFateRinBattleStatusViewModel; }
 
-#define CLASS_1_843465A2073CCD8F_COMPARE_OFFSET UNITYSDK_OFFSET(0x18F72300)
-#define CLASS_1_843465A2073CCD8F__CCTOR_OFFSET UNITYSDK_OFFSET(0x18F724D0)
-#define CLASS_1_843465A2073CCD8F__CTOR_OFFSET UNITYSDK_OFFSET(0x18F724C0)
+#define CLASS_1_843465A2073CCD8F_COMPARE_OFFSET UNITYSDK_OFFSET(0x18706340)
+#define CLASS_1_843465A2073CCD8F__CCTOR_OFFSET UNITYSDK_OFFSET(0x18706510)
+#define CLASS_1_843465A2073CCD8F__CTOR_OFFSET UNITYSDK_OFFSET(0x18706500)
 
-inline static constexpr unsigned int Class_1_843465A2073CCD8F_TypeDefinitionIndex = 76030;
+inline static constexpr unsigned int Class_1_843465A2073CCD8F_TypeDefinitionIndex = 79663;
 
 class Class_1_843465A2073CCD8F : public ::System::Object
 {
 public:
-	static ::Class_1_843465A2073CCD8F** StaticGet_Field_1_0()
+	static ::Class_1_843465A2073CCD8F** StaticGet_FMJPMFEDIJL()
 	{
-		return (::Class_1_843465A2073CCD8F**)Il2CppClass::FromTypeDefinitionIndex(Class_1_843465A2073CCD8F_TypeDefinitionIndex)->GetStaticField(0x4DC0);
+		return (::Class_1_843465A2073CCD8F**)Il2CppClass::FromTypeDefinitionIndex(Class_1_843465A2073CCD8F_TypeDefinitionIndex)->GetStaticField(0x57480);
 	}
 
 	::System::Void _ctor()

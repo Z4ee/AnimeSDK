@@ -4,15 +4,15 @@
 
 namespace RPG::Client::ChenLingFes { class ChenLingFesGameplayItemViewModel; }
 
-#define CLASS_1_7550321EC955956C__CTOR_OFFSET UNITYSDK_OFFSET(0x16A7D3B0)
+#define CLASS_1_7550321EC955956C__CTOR_OFFSET UNITYSDK_OFFSET(0x16B12DB0)
 
-inline static constexpr unsigned int Class_1_7550321EC955956C_TypeDefinitionIndex = 76311;
+inline static constexpr unsigned int Class_1_7550321EC955956C_TypeDefinitionIndex = 79944;
 
 class Class_1_7550321EC955956C : public ::System::Object
 {
 public:
-	::RPG::Client::ChenLingFes::ChenLingFesGameplayItemViewModel* Field_1_0; // 0x10
-	::System::Boolean Field_1_1; // 0x18
+	::RPG::Client::ChenLingFes::ChenLingFesGameplayItemViewModel* JCCKNKAFHAJ; // 0x10
+	::System::Boolean GNDCCBNILML; // 0x18
 
 	::System::Void _ctor(::System::Object* a1)
 	{

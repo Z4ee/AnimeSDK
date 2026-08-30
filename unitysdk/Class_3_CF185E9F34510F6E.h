@@ -5,17 +5,17 @@
 namespace RPG::GameCore { class ST_Main_LittleGame_DoNothing; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_CF185E9F34510F6E_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x169A7D80)
-#define CLASS_3_CF185E9F34510F6E_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x169A7E00)
-#define CLASS_3_CF185E9F34510F6E_TICK_OFFSET UNITYSDK_OFFSET(0x169A7E50)
-#define CLASS_3_CF185E9F34510F6E__CTOR_OFFSET UNITYSDK_OFFSET(0x169A7D60)
+#define CLASS_3_CF185E9F34510F6E_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x105B4F50)
+#define CLASS_3_CF185E9F34510F6E_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x105B4FD0)
+#define CLASS_3_CF185E9F34510F6E_TICK_OFFSET UNITYSDK_OFFSET(0x105B5020)
+#define CLASS_3_CF185E9F34510F6E__CTOR_OFFSET UNITYSDK_OFFSET(0x105B4F30)
 
-inline static constexpr unsigned int Class_3_CF185E9F34510F6E_TypeDefinitionIndex = 49771;
+inline static constexpr unsigned int Class_3_CF185E9F34510F6E_TypeDefinitionIndex = 52431;
 
 class Class_3_CF185E9F34510F6E : public ::RPG::GameCore::ST_Task_1<::RPG::GameCore::ST_Main_LittleGame_DoNothing*>
 {
 public:
-	::System::Single Field_3_0; // 0x28
+	::System::Single HIIGOGNOKGD; // 0x28
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ST_Main_LittleGame_DoNothing* a2)
 	{

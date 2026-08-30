@@ -6,25 +6,25 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define CLASS_1_70741C2C9711CBE5_METHOD_1_1FAE1389D4EFD9B1_OFFSET UNITYSDK_OFFSET(0x1B518220)
-#define CLASS_1_70741C2C9711CBE5__CTOR_OFFSET UNITYSDK_OFFSET(0x1B518580)
+#define CLASS_1_70741C2C9711CBE5_METHOD_1_1FAE1389D4EFD9B1_OFFSET UNITYSDK_OFFSET(0x1D05F290)
+#define CLASS_1_70741C2C9711CBE5__CTOR_OFFSET UNITYSDK_OFFSET(0x1D05F5F0)
 
-inline static constexpr unsigned int Class_1_70741C2C9711CBE5_TypeDefinitionIndex = 14798;
+inline static constexpr unsigned int Class_1_70741C2C9711CBE5_TypeDefinitionIndex = 15234;
 
 class Class_1_70741C2C9711CBE5 : public ::System::Object
 {
 public:
-	::System::String* Field_1_0; // 0x10
-	::System::UInt32 Field_1_1; // 0x18
-	::RPG::GameCore::CombatPowerRelicRarityType Field_1_2; // 0x1C
-	::RPG::GameCore::CombatPowerRelicRarityType Field_1_3; // 0x20
-	::System::UInt32 Field_1_4; // 0x24
-	::System::UInt32 Field_1_5; // 0x28
-	::System::UInt32 Field_1_6; // 0x2C
-	::System::UInt32 Field_1_7; // 0x30
-	::System::UInt32 Field_1_8; // 0x34
-	::System::UInt32 Field_1_9; // 0x38
-	::System::UInt32 Field_1_10; // 0x3C
+	::System::String* EEBNMNAJJHF; // 0x10
+	::System::UInt32 BAFNGNPHHEC; // 0x18
+	::System::UInt32 HMKPKMILCAE; // 0x1C
+	::System::UInt32 JDGHCBCNMBI; // 0x20
+	::System::UInt32 OPJDGJNAKFF; // 0x24
+	::System::UInt32 HLLMOIBCKNO; // 0x28
+	::System::UInt32 JPJLIFNHPAA; // 0x2C
+	::System::UInt32 LEPEPJIHEFL; // 0x30
+	::RPG::GameCore::CombatPowerRelicRarityType ILHDODKFKOI; // 0x34
+	::RPG::GameCore::CombatPowerRelicRarityType NHAFDDACLLA; // 0x38
+	::System::UInt32 OCMAKGJLFBJ; // 0x3C
 
 	::System::Void _ctor()
 	{

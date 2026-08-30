@@ -5,19 +5,19 @@
 namespace System::Collections { class ICollection; }
 namespace System::Reflection { class MemberInfo; }
 
-#define SYSTEM_COMPONENTMODEL_DESIGN_SERIALIZATION_INSTANCEDESCRIPTOR_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A867450)
-#define SYSTEM_COMPONENTMODEL_DESIGN_SERIALIZATION_INSTANCEDESCRIPTOR__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A866870)
-#define SYSTEM_COMPONENTMODEL_DESIGN_SERIALIZATION_INSTANCEDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1A865860)
+#define SYSTEM_COMPONENTMODEL_DESIGN_SERIALIZATION_INSTANCEDESCRIPTOR_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C499920)
+#define SYSTEM_COMPONENTMODEL_DESIGN_SERIALIZATION_INSTANCEDESCRIPTOR__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C498D40)
+#define SYSTEM_COMPONENTMODEL_DESIGN_SERIALIZATION_INSTANCEDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1C497D20)
 
 namespace System::ComponentModel::Design::Serialization
 {
-	inline static constexpr unsigned int InstanceDescriptor_TypeDefinitionIndex = 2654;
+	inline static constexpr unsigned int InstanceDescriptor_TypeDefinitionIndex = 2661;
 
 	class InstanceDescriptor : public ::System::Object
 	{
 	public:
-		::System::Reflection::MemberInfo* member; // 0x10
-		::System::Collections::ICollection* arguments; // 0x18
+		::System::Collections::ICollection* arguments; // 0x10
+		::System::Reflection::MemberInfo* member; // 0x18
 		::System::Boolean isComplete; // 0x20
 
 		::System::Void _ctor(::System::Reflection::MemberInfo* a1, ::System::Collections::ICollection* a2)

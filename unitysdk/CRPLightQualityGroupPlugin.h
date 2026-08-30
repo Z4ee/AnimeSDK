@@ -9,25 +9,25 @@ namespace UnityEngine { class Light; }
 namespace UnityEngine { class ParticleSystemRenderer; }
 namespace UnityEngine { class ReflectionProbe; }
 
-#define CRPLIGHTQUALITYGROUPPLUGIN_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1846DA50)
-#define CRPLIGHTQUALITYGROUPPLUGIN_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1846D7C0)
-#define CRPLIGHTQUALITYGROUPPLUGIN_TRYTURNONLIGHT_OFFSET UNITYSDK_OFFSET(0x1846DE70)
-#define CRPLIGHTQUALITYGROUPPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1846DFD0)
+#define CRPLIGHTQUALITYGROUPPLUGIN_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1A863060)
+#define CRPLIGHTQUALITYGROUPPLUGIN_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1A862DD0)
+#define CRPLIGHTQUALITYGROUPPLUGIN_TRYTURNONLIGHT_OFFSET UNITYSDK_OFFSET(0x1A863480)
+#define CRPLIGHTQUALITYGROUPPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8635E0)
 
-inline static constexpr unsigned int CRPLightQualityGroupPlugin_TypeDefinitionIndex = 45533;
+inline static constexpr unsigned int CRPLightQualityGroupPlugin_TypeDefinitionIndex = 47783;
 
 class CRPLightQualityGroupPlugin : public ::UnityEngine::MonoBehaviour
 {
 public:
 	::System::String* ResPath; // 0x18
-	::UnityEngine::ReflectionProbe* Field_5_1; // 0x20
-	::UnityEngine::Light* Field_5_2; // 0x28
-	::UnityEngine::ParticleSystemRenderer* Field_5_3; // 0x30
-	::RPG::CustomRP::CRPProbe* Field_5_4; // 0x38
+	::UnityEngine::ReflectionProbe* IPKBNOPABBC; // 0x20
+	::UnityEngine::Light* IMCHJKBFJJC; // 0x28
+	::UnityEngine::ParticleSystemRenderer* LGNAJBNEBEC; // 0x30
+	::RPG::CustomRP::CRPProbe* JJLBCDOIDBI; // 0x38
 	::RPG::CustomRP::CustomLightQualityFilter LightQualityFilter; // 0x40
-	::RPG::CustomRP::CustomLightQualityFilter Field_5_6; // 0x44
+	::RPG::CustomRP::CustomLightQualityFilter JHJKHCEJOMH; // 0x44
 	::System::Int32 LightQualityVersion; // 0x48
-	::System::Boolean Field_5_8; // 0x4C
+	::System::Boolean DNFOKAPGFHA; // 0x4C
 
 	::System::Void _ctor()
 	{

@@ -7,7 +7,7 @@ namespace System::Runtime::ExceptionServices { class ExceptionDispatchInfo; }
 
 namespace RPG
 {
-	inline static constexpr unsigned int GCFreeLazy_1_LazyInternalExceptionHolder_TypeDefinitionIndex = 6748;
+	inline static constexpr unsigned int GCFreeLazy_1_LazyInternalExceptionHolder_TypeDefinitionIndex = 6360;
 
 	template <typename T>
 	class GCFreeLazy_1_LazyInternalExceptionHolder : public ::System::Object

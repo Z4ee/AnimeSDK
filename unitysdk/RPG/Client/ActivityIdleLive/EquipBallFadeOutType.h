@@ -3,7 +3,7 @@
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int EquipBallFadeOutType_TypeDefinitionIndex = 71567;
+	inline static constexpr unsigned int EquipBallFadeOutType_TypeDefinitionIndex = 74873;
 
 	enum class EquipBallFadeOutType : ::System::Int32
 	{

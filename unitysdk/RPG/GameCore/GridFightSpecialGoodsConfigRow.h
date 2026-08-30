@@ -7,26 +7,26 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_GRIDFIGHTSPECIALGOODSCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D0789D0)
-#define RPG_GAMECORE_GRIDFIGHTSPECIALGOODSCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D078DC0)
+#define RPG_GAMECORE_GRIDFIGHTSPECIALGOODSCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3BAAF0)
+#define RPG_GAMECORE_GRIDFIGHTSPECIALGOODSCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3BAEE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightSpecialGoodsConfigRow_TypeDefinitionIndex = 13101;
+	inline static constexpr unsigned int GridFightSpecialGoodsConfigRow_TypeDefinitionIndex = 13492;
 
 	class GridFightSpecialGoodsConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* MiniIconPath; // 0x10
-		::Il2CppArray<::RPG::GameCore::FixPoint>* EffectParamList; // 0x18
-		::System::String* IconPath; // 0x20
-		::System::String* JsonPath; // 0x28
-		::System::UInt32 Quality; // 0x30
-		::System::UInt32 Cost; // 0x34
-		::RPG::Client::TextID GoodDesc; // 0x38
-		::System::UInt32 GroupID; // 0x48
-		::System::UInt32 ID; // 0x4C
-		::RPG::Client::TextID GoodName; // 0x50
+		::System::String* JsonPath; // 0x10
+		::System::String* IconPath; // 0x18
+		::Il2CppArray<::RPG::GameCore::FixPoint>* EffectParamList; // 0x20
+		::System::String* MiniIconPath; // 0x28
+		::RPG::Client::TextID GoodDesc; // 0x30
+		::System::UInt32 Cost; // 0x40
+		::System::UInt32 Quality; // 0x44
+		::RPG::Client::TextID GoodName; // 0x48
+		::System::UInt32 GroupID; // 0x58
+		::System::UInt32 ID; // 0x5C
 
 		::System::Void _ctor()
 		{

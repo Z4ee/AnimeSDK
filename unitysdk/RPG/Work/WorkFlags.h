@@ -3,7 +3,7 @@
 
 namespace RPG::Work
 {
-	inline static constexpr unsigned int WorkFlags_TypeDefinitionIndex = 41395;
+	inline static constexpr unsigned int WorkFlags_TypeDefinitionIndex = 42355;
 
 	enum class WorkFlags : ::System::Int32
 	{

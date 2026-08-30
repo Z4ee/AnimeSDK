@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_F9FBCC956DFCF137_4.h"
+#include "unitysdk/Class_1_F9FBCC956DFCF137_5.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 
 class Class_1_AC66714FF5876767;
 namespace RPG::GameCore { class CheckRandomChanceAxis; }
 
-#define CLASS_2_DE55A0B516B5F3CF_METHOD_2_5285E499CCD89702_OFFSET UNITYSDK_OFFSET(0x16AB7BD0)
-#define CLASS_2_DE55A0B516B5F3CF__CTOR_OFFSET UNITYSDK_OFFSET(0x16AB7BC0)
+#define CLASS_2_DE55A0B516B5F3CF_METHOD_2_5285E499CCD89702_OFFSET UNITYSDK_OFFSET(0x18981E00)
+#define CLASS_2_DE55A0B516B5F3CF__CTOR_OFFSET UNITYSDK_OFFSET(0x18981DF0)
 
-inline static constexpr unsigned int Class_2_DE55A0B516B5F3CF_TypeDefinitionIndex = 51899;
+inline static constexpr unsigned int Class_2_DE55A0B516B5F3CF_TypeDefinitionIndex = 54583;
 
-class Class_2_DE55A0B516B5F3CF : public ::Class_1_F9FBCC956DFCF137_4
+class Class_2_DE55A0B516B5F3CF : public ::Class_1_F9FBCC956DFCF137_5
 {
 public:
-	::RPG::GameCore::CheckRandomChanceAxis* Field_2_0; // 0x18
+	::RPG::GameCore::CheckRandomChanceAxis* IGHAHBNLIJA; // 0x18
 
 	::System::Void _ctor(::RPG::GameCore::CheckRandomChanceAxis* a1, ::Class_1_AC66714FF5876767* a2)
 	{

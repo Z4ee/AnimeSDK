@@ -8,7 +8,7 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ComponentExtensions___c__23_1_TypeDefinitionIndex = 69463;
+	inline static constexpr unsigned int ComponentExtensions___c__23_1_TypeDefinitionIndex = 72691;
 
 	template <typename T>
 	class ComponentExtensions___c__23_1 : public ::System::Object

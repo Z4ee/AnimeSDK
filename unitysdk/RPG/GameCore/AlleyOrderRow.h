@@ -6,24 +6,24 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class GoodsClass; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ALLEYORDERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1AE7DE10)
-#define RPG_GAMECORE_ALLEYORDERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE7E550)
+#define RPG_GAMECORE_ALLEYORDERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C561D50)
+#define RPG_GAMECORE_ALLEYORDERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5624D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AlleyOrderRow_TypeDefinitionIndex = 12142;
+	inline static constexpr unsigned int AlleyOrderRow_TypeDefinitionIndex = 12531;
 
 	class AlleyOrderRow : public ::System::Object
 	{
 	public:
 		::System::String* OrderTips; // 0x10
 		::Il2CppArray<::System::UInt32>* OrderTipsTime; // 0x18
-		::Il2CppArray<::RPG::GameCore::GoodsClass*>* OrderContent; // 0x20
-		::Il2CppArray<::System::UInt32>* OrderGoodList; // 0x28
-		::System::UInt32 OrderID; // 0x30
-		::System::UInt32 UnlockMission; // 0x34
+		::Il2CppArray<::System::UInt32>* OrderGoodList; // 0x20
+		::Il2CppArray<::RPG::GameCore::GoodsClass*>* OrderContent; // 0x28
+		::System::UInt32 UnlockMission; // 0x30
+		::System::UInt32 OrderProfit; // 0x34
 		::System::UInt32 OrderShip; // 0x38
-		::System::UInt32 OrderProfit; // 0x3C
+		::System::UInt32 OrderID; // 0x3C
 
 		::System::Void _ctor()
 		{

@@ -8,24 +8,24 @@ namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class IDictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_5B08965023A13089_METHOD_2_C1E0405EEC95DC65_OFFSET UNITYSDK_OFFSET(0x16CF5AC0)
-#define CLASS_2_5B08965023A13089_METHOD_2_CFC95121222309BD_OFFSET UNITYSDK_OFFSET(0x16CF5D20)
-#define CLASS_2_5B08965023A13089__CTOR_OFFSET UNITYSDK_OFFSET(0x16CF5680)
+#define CLASS_2_5B08965023A13089_METHOD_2_C1E0405EEC95DC65_OFFSET UNITYSDK_OFFSET(0x17114D50)
+#define CLASS_2_5B08965023A13089_METHOD_2_CFC95121222309BD_OFFSET UNITYSDK_OFFSET(0x17114FB0)
+#define CLASS_2_5B08965023A13089__CTOR_OFFSET UNITYSDK_OFFSET(0x17114900)
 
-inline static constexpr unsigned int Class_2_5B08965023A13089_TypeDefinitionIndex = 76850;
+inline static constexpr unsigned int Class_2_5B08965023A13089_TypeDefinitionIndex = 80890;
 
 class Class_2_5B08965023A13089 : public ::Class_1_FAF146B3D74C3C3F
 {
 public:
-	static ::System::Int32* StaticGet_Field_2_0()
+	static ::System::Int32* StaticGet_GMDBHJKEAEI()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_5B08965023A13089_TypeDefinitionIndex)->GetStaticField(0x14690);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_5B08965023A13089_TypeDefinitionIndex)->GetStaticField(0x15510);
 	}
-	::System::String* Field_2_1; // 0x20
-	::System::Collections::Generic::List_1<::Class_1_FAF146B3D74C3C3F*>* Field_2_2; // 0x28
-	::System::Type* Field_2_3; // 0x30
-	::System::String* Field_2_4; // 0x38
-	::RPG::Client::CachedAssetLogicType Field_2_5; // 0x40
+	::System::Collections::Generic::List_1<::Class_1_FAF146B3D74C3C3F*>* HIMBONECCJK; // 0x20
+	::System::Type* EPGPJMHNBON; // 0x28
+	::System::String* GKHIHPGCLIK; // 0x30
+	::System::String* JIBMHCAGPNC; // 0x38
+	::RPG::Client::CachedAssetLogicType HEOJLHCIINP; // 0x40
 
 	::System::Void _ctor(::System::Int32 a1, ::System::Int32 a2, ::System::String* a3, ::System::Collections::Generic::IDictionary_2<::System::String*, ::System::String*>* a4)
 	{

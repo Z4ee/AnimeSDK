@@ -8,11 +8,11 @@
 
 class Class_2_AF3AF723C478F113_ExtraExportData;
 
-#define SCENENLIGHTMANAGER_BILLBOARDCONTROLLER_EXPORTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19F691F0)
+#define SCENENLIGHTMANAGER_BILLBOARDCONTROLLER_EXPORTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF40C50)
 
 namespace ScenenLightManager
 {
-	inline static constexpr unsigned int BillboardController_ExportData_TypeDefinitionIndex = 47249;
+	inline static constexpr unsigned int BillboardController_ExportData_TypeDefinitionIndex = 49529;
 
 	class BillboardController_ExportData : public ::ScenenLightManager::BaseComponentExportData
 	{
@@ -26,18 +26,19 @@ namespace ScenenLightManager
 		::System::Int32 RandomSeed; // 0x38
 		::System::Single SinFrequency; // 0x3C
 		::System::Single DistanceFadeoutScale; // 0x40
-		::System::Single DistanceFadeoutOffset; // 0x44
-		::System::Single SceneBillboardFogIntensity; // 0x48
-		::System::UInt32 MaterialRenderQueue; // 0x4C
-		::System::Single PerlinNoiseRemapMin; // 0x50
-		::System::Single PerlinNoiseRemapMax; // 0x54
-		::System::Single VerticalRestraints; // 0x58
-		::System::Single FalloffStart; // 0x5C
-		::System::Single BlendRadius; // 0x60
-		::System::Boolean FadeoutCameraIn; // 0x64
-		::RPG::Client::BillboardController_RenderingMode RenderingBlendMode; // 0x68
-		::RPG::CustomRP::CustomLightQualityFilter LightQualityFilter; // 0x6C
-		::Class_2_AF3AF723C478F113_ExtraExportData* extraExportData; // 0x70
+		::System::Single OffscreenFadeWeight; // 0x44
+		::System::Single DistanceFadeoutOffset; // 0x48
+		::System::Single SceneBillboardFogIntensity; // 0x4C
+		::System::UInt32 MaterialRenderQueue; // 0x50
+		::System::Single PerlinNoiseRemapMin; // 0x54
+		::System::Single PerlinNoiseRemapMax; // 0x58
+		::System::Single VerticalRestraints; // 0x5C
+		::System::Single FalloffStart; // 0x60
+		::System::Single BlendRadius; // 0x64
+		::System::Boolean FadeoutCameraIn; // 0x68
+		::RPG::Client::BillboardController_RenderingMode RenderingBlendMode; // 0x6C
+		::RPG::CustomRP::CustomLightQualityFilter LightQualityFilter; // 0x70
+		::Class_2_AF3AF723C478F113_ExtraExportData* extraExportData; // 0x78
 
 		::System::Void _ctor()
 		{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 
-#define RPGTOOLS_TIMELINE_SCREENTRANSFERTEXTBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x199B2730)
+#define RPGTOOLS_TIMELINE_SCREENTRANSFERTEXTBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0BEC10)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ScreenTransferTextBehaviour_TypeDefinitionIndex = 46444;
+	inline static constexpr unsigned int ScreenTransferTextBehaviour_TypeDefinitionIndex = 48679;
 
 	class ScreenTransferTextBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{

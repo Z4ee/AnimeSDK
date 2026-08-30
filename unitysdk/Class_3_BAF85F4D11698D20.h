@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetAbilityTagMapping; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_BAF85F4D11698D20_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1754AF00)
-#define CLASS_3_BAF85F4D11698D20__CTOR_OFFSET UNITYSDK_OFFSET(0x1754AED0)
+#define CLASS_3_BAF85F4D11698D20_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18F394B0)
+#define CLASS_3_BAF85F4D11698D20__CTOR_OFFSET UNITYSDK_OFFSET(0x18F39480)
 
-inline static constexpr unsigned int Class_3_BAF85F4D11698D20_TypeDefinitionIndex = 52830;
+inline static constexpr unsigned int Class_3_BAF85F4D11698D20_TypeDefinitionIndex = 55533;
 
 class Class_3_BAF85F4D11698D20 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetAbilityTagMapping*>
 {

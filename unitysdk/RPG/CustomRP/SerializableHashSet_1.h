@@ -13,7 +13,7 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int SerializableHashSet_1_TypeDefinitionIndex = 49518;
+	inline static constexpr unsigned int SerializableHashSet_1_TypeDefinitionIndex = 52176;
 
 	template <typename T>
 	class SerializableHashSet_1 : public ::RPG::CustomRP::SerializableHashSetBase

@@ -15,39 +15,39 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Object; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_21F31E8AB037E700_METHOD_1_18982EFD3B740683_OFFSET UNITYSDK_OFFSET(0x13A58B50)
-#define CLASS_1_21F31E8AB037E700_METHOD_1_2265FB819D2579B2_OFFSET UNITYSDK_OFFSET(0x13A58D00)
-#define CLASS_1_21F31E8AB037E700_METHOD_1_4C370B6228E98CF3_OFFSET UNITYSDK_OFFSET(0x13A58AB0)
-#define CLASS_1_21F31E8AB037E700_METHOD_1_64F3965CE4C4DB47_OFFSET UNITYSDK_OFFSET(0x13A5C510)
-#define CLASS_1_21F31E8AB037E700_METHOD_1_8D9042F58AECE7F2_OFFSET UNITYSDK_OFFSET(0x13A5C880)
-#define CLASS_1_21F31E8AB037E700_METHOD_1_A812CC4BFADC7216_OFFSET UNITYSDK_OFFSET(0x13A5C840)
-#define CLASS_1_21F31E8AB037E700_METHOD_1_C101CD8C5CF89A5A_OFFSET UNITYSDK_OFFSET(0x13A5C360)
-#define CLASS_1_21F31E8AB037E700_METHOD_1_C433909FE52EEB24_OFFSET UNITYSDK_OFFSET(0x13A590C0)
-#define CLASS_1_21F31E8AB037E700_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x13A5C7E0)
-#define CLASS_1_21F31E8AB037E700_METHOD_1_EF6A17F558E67853_OFFSET UNITYSDK_OFFSET(0x13A5C730)
-#define CLASS_1_21F31E8AB037E700_METHOD_1_F4F1E7D1CC26024A_OFFSET UNITYSDK_OFFSET(0x13A5C420)
-#define CLASS_1_21F31E8AB037E700__CTOR_OFFSET UNITYSDK_OFFSET(0x13A58990)
+#define CLASS_1_21F31E8AB037E700_METHOD_1_18982EFD3B740683_OFFSET UNITYSDK_OFFSET(0x15933FC0)
+#define CLASS_1_21F31E8AB037E700_METHOD_1_2265FB819D2579B2_OFFSET UNITYSDK_OFFSET(0x15934160)
+#define CLASS_1_21F31E8AB037E700_METHOD_1_4C370B6228E98CF3_OFFSET UNITYSDK_OFFSET(0x15933F30)
+#define CLASS_1_21F31E8AB037E700_METHOD_1_64F3965CE4C4DB47_OFFSET UNITYSDK_OFFSET(0x159380D0)
+#define CLASS_1_21F31E8AB037E700_METHOD_1_8D9042F58AECE7F2_OFFSET UNITYSDK_OFFSET(0x15938440)
+#define CLASS_1_21F31E8AB037E700_METHOD_1_994271937832B660_OFFSET UNITYSDK_OFFSET(0x15934520)
+#define CLASS_1_21F31E8AB037E700_METHOD_1_A812CC4BFADC7216_OFFSET UNITYSDK_OFFSET(0x15938400)
+#define CLASS_1_21F31E8AB037E700_METHOD_1_C101CD8C5CF89A5A_OFFSET UNITYSDK_OFFSET(0x15937F20)
+#define CLASS_1_21F31E8AB037E700_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x159383A0)
+#define CLASS_1_21F31E8AB037E700_METHOD_1_EF6A17F558E67853_OFFSET UNITYSDK_OFFSET(0x159382F0)
+#define CLASS_1_21F31E8AB037E700_METHOD_1_F4F1E7D1CC26024A_OFFSET UNITYSDK_OFFSET(0x15937FE0)
+#define CLASS_1_21F31E8AB037E700__CTOR_OFFSET UNITYSDK_OFFSET(0x15933E10)
 
-inline static constexpr unsigned int Class_1_21F31E8AB037E700_TypeDefinitionIndex = 66371;
+inline static constexpr unsigned int Class_1_21F31E8AB037E700_TypeDefinitionIndex = 69463;
 
 class Class_1_21F31E8AB037E700 : public ::System::Object
 {
 public:
-	// static const ::System::Single Field_1_0; // 0x0
-	::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::GameObject*>* Field_1_1; // 0x10
-	::UnityEngine::GameObject* Field_1_2; // 0x18
-	::System::Collections::Generic::List_1<::UnityEngine::Object*>* Field_1_3; // 0x20
-	::UnityEngine::Object* Field_1_4; // 0x28
-	::RPG::Client::Stage* Field_1_5; // 0x30
-	::UnityEngine::GameObject* Field_1_6; // 0x38
-	::UnityEngine::Transform* Field_1_7; // 0x40
-	::System::String* Field_1_8; // 0x48
-	::RPG::GameCore::BlockNodeConfig* Field_1_9; // 0x50
-	::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* Field_1_10; // 0x58
-	::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::RPG::GameCore::StageCaptureAliasData*>*>* Field_1_11; // 0x60
-	::UnityEngine::Bounds Field_1_12; // 0x68
-	::System::Int32 Field_1_13; // 0x80
-	::Class_1_21F31E8AB037E700_State Field_1_14; // 0x84
+	// static const ::System::Single BLDDLJCACAE; // 0x0
+	::UnityEngine::GameObject* MKDBPGHLNJJ; // 0x10
+	::System::Collections::Generic::List_1<::UnityEngine::Object*>* NPENGFBHFJN; // 0x18
+	::UnityEngine::Object* NBOLCONKFKG; // 0x20
+	::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* BCHJDKAMFCG; // 0x28
+	::System::String* OENAMINOLLF; // 0x30
+	::RPG::GameCore::BlockNodeConfig* EPNIOAKAJGJ; // 0x38
+	::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::GameObject*>* HAMLLHEKAPA; // 0x40
+	::UnityEngine::Transform* KJMDDAHEODL; // 0x48
+	::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::RPG::GameCore::StageCaptureAliasData*>*>* NDENELAPDLF; // 0x50
+	::UnityEngine::GameObject* LIPOLMIEDOH; // 0x58
+	::RPG::Client::Stage* FODBAAPMJNJ; // 0x60
+	::Class_1_21F31E8AB037E700_State CNOFAABNBEG; // 0x68
+	::System::Int32 GMDBHJKEAEI; // 0x6C
+	::UnityEngine::Bounds KILJOCNJLPC; // 0x70
 
 	::System::Void _ctor()
 	{
@@ -69,9 +69,9 @@ public:
 		return ((::System::Void(*)(::PVOID, ::Struct_2_CC45B4503679E14E_5, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + CLASS_1_21F31E8AB037E700_METHOD_1_2265FB819D2579B2_OFFSET))(this, a1, a2);
 	}
 
-	::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* Method_1_C433909FE52EEB24(::UnityEngine::GameObject* a1)
+	::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* Method_1_994271937832B660(::UnityEngine::GameObject* a1)
 	{
-		return ((::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + CLASS_1_21F31E8AB037E700_METHOD_1_C433909FE52EEB24_OFFSET))(this, a1);
+		return ((::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + CLASS_1_21F31E8AB037E700_METHOD_1_994271937832B660_OFFSET))(this, a1);
 	}
 
 	::System::Void Method_1_F4F1E7D1CC26024A(::System::Boolean a1)

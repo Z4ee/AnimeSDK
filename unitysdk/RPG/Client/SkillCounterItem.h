@@ -5,22 +5,22 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class ParticleSystem; }
 
-#define RPG_CLIENT_SKILLCOUNTERITEM_BINDVIEW_OFFSET UNITYSDK_OFFSET(0x188FE2F0)
-#define RPG_CLIENT_SKILLCOUNTERITEM_SETSHOWSTATE_OFFSET UNITYSDK_OFFSET(0x188FE570)
-#define RPG_CLIENT_SKILLCOUNTERITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x188FE740)
+#define RPG_CLIENT_SKILLCOUNTERITEM_BINDVIEW_OFFSET UNITYSDK_OFFSET(0x196CEE40)
+#define RPG_CLIENT_SKILLCOUNTERITEM_SETSHOWSTATE_OFFSET UNITYSDK_OFFSET(0x196CF0C0)
+#define RPG_CLIENT_SKILLCOUNTERITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x196CF290)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SkillCounterItem_TypeDefinitionIndex = 69103;
+	inline static constexpr unsigned int SkillCounterItem_TypeDefinitionIndex = 72303;
 
 	class SkillCounterItem : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		::UnityEngine::GameObject* Field_5_0; // 0x18
-		::UnityEngine::GameObject* Field_5_1; // 0x20
-		::UnityEngine::ParticleSystem* Field_5_2; // 0x28
-		::UnityEngine::ParticleSystem* Field_5_3; // 0x30
-		::System::Boolean Field_5_4; // 0x38
+		::UnityEngine::GameObject* JPEIKLEFLCJ; // 0x18
+		::UnityEngine::GameObject* JBOHLHMLBCH; // 0x20
+		::UnityEngine::ParticleSystem* GAJOOEDEFPA; // 0x28
+		::UnityEngine::ParticleSystem* CCFOFAMOAEM; // 0x30
+		::System::Boolean DMBFJAEAGPL; // 0x38
 
 		::System::Void _ctor()
 		{

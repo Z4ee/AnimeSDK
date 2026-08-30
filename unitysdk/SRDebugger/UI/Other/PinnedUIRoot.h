@@ -10,11 +10,11 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::UI { class VerticalLayoutGroup; }
 
-#define SRDEBUGGER_UI_OTHER_PINNEDUIROOT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A21BD10)
+#define SRDEBUGGER_UI_OTHER_PINNEDUIROOT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDC6020)
 
 namespace SRDebugger::UI::Other
 {
-	inline static constexpr unsigned int PinnedUIRoot_TypeDefinitionIndex = 36457;
+	inline static constexpr unsigned int PinnedUIRoot_TypeDefinitionIndex = 37316;
 
 	class PinnedUIRoot : public ::SRF::SRMonoBehaviourEx
 	{

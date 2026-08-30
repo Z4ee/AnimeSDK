@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_CA217ABF4E3B4F3F.h"
+#include "unitysdk/Class_1_34917908B7833130.h"
 #include "unitysdk/RPG/Client/UIFloatingTextType.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/Struct_2_5909FD7779934CCA.h"
@@ -9,18 +9,18 @@ class DamageTextStyle;
 namespace RPG::Client { class SimpleTextStyleController; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_2_AE1A9A09D0E101EB_METHOD_2_6BDCAA8E7D2EE569_OFFSET UNITYSDK_OFFSET(0x16722E80)
-#define CLASS_2_AE1A9A09D0E101EB_METHOD_2_AC2321C014607113_OFFSET UNITYSDK_OFFSET(0x16722DD0)
-#define CLASS_2_AE1A9A09D0E101EB__CTOR_OFFSET UNITYSDK_OFFSET(0x16722EF0)
-#define CLASS_2_AE1A9A09D0E101EB__ONBIND_OFFSET UNITYSDK_OFFSET(0x16722D00)
+#define CLASS_2_AE1A9A09D0E101EB_METHOD_2_6BDCAA8E7D2EE569_OFFSET UNITYSDK_OFFSET(0x1855D040)
+#define CLASS_2_AE1A9A09D0E101EB_METHOD_2_AC2321C014607113_OFFSET UNITYSDK_OFFSET(0x1855CF90)
+#define CLASS_2_AE1A9A09D0E101EB__CTOR_OFFSET UNITYSDK_OFFSET(0x1855D0B0)
+#define CLASS_2_AE1A9A09D0E101EB__ONBIND_OFFSET UNITYSDK_OFFSET(0x1855CEC0)
 
-inline static constexpr unsigned int Class_2_AE1A9A09D0E101EB_TypeDefinitionIndex = 68174;
+inline static constexpr unsigned int Class_2_AE1A9A09D0E101EB_TypeDefinitionIndex = 71352;
 
-class Class_2_AE1A9A09D0E101EB : public ::Class_1_CA217ABF4E3B4F3F
+class Class_2_AE1A9A09D0E101EB : public ::Class_1_34917908B7833130
 {
 public:
-	::UnityEngine::Transform* Field_2_0; // 0x60
-	::RPG::Client::SimpleTextStyleController* Field_2_1; // 0x68
+	::RPG::Client::SimpleTextStyleController* AJAKCFLMCFO; // 0x60
+	::UnityEngine::Transform* DCEBIFLMAAF; // 0x68
 
 	::System::Void _ctor()
 	{

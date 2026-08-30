@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int LOGIN_TYPE_TypeDefinitionIndex = 8043;
+	inline static constexpr unsigned int LOGIN_TYPE_TypeDefinitionIndex = 8047;
 
 	enum class LOGIN_TYPE : ::System::Int32
 	{
@@ -25,5 +25,6 @@ namespace MiHoYo::SDK
 		CX = 15,
 		AuthTicket = 16,
 		HUAWEI = 17,
+		Kid = 18,
 	};
 }

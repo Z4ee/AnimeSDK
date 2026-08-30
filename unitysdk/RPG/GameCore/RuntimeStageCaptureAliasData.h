@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_RUNTIMESTAGECAPTUREALIASDATA_METHOD_2_459FA1A5F4C842C1_OFFSET UNITYSDK_OFFSET(0x1B772FB0)
-#define RPG_GAMECORE_RUNTIMESTAGECAPTUREALIASDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7731B0)
+#define RPG_GAMECORE_RUNTIMESTAGECAPTUREALIASDATA_METHOD_2_459FA1A5F4C842C1_OFFSET UNITYSDK_OFFSET(0x1DB2C500)
+#define RPG_GAMECORE_RUNTIMESTAGECAPTUREALIASDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB2C700)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RuntimeStageCaptureAliasData_TypeDefinitionIndex = 18415;
+	inline static constexpr unsigned int RuntimeStageCaptureAliasData_TypeDefinitionIndex = 18939;
 
 	class RuntimeStageCaptureAliasData : public ::RPG::GameCore::JsonConfig
 	{

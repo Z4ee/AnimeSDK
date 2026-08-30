@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class CaptureMainCamera; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_B59BC6EE769D2F92_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16FA3B20)
-#define CLASS_3_B59BC6EE769D2F92__CTOR_OFFSET UNITYSDK_OFFSET(0x16FA3AF0)
+#define CLASS_3_B59BC6EE769D2F92_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18945600)
+#define CLASS_3_B59BC6EE769D2F92__CTOR_OFFSET UNITYSDK_OFFSET(0x189455D0)
 
-inline static constexpr unsigned int Class_3_B59BC6EE769D2F92_TypeDefinitionIndex = 55417;
+inline static constexpr unsigned int Class_3_B59BC6EE769D2F92_TypeDefinitionIndex = 58148;
 
 class Class_3_B59BC6EE769D2F92 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::CaptureMainCamera*>
 {

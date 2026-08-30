@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByCompareSwitchMascotPickupCount; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_D69E349E711034B1_EVALUATE_OFFSET UNITYSDK_OFFSET(0x14B965D0)
-#define CLASS_3_D69E349E711034B1__CTOR_OFFSET UNITYSDK_OFFSET(0x14B965A0)
+#define CLASS_3_D69E349E711034B1_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1603CC00)
+#define CLASS_3_D69E349E711034B1__CTOR_OFFSET UNITYSDK_OFFSET(0x1603CBD0)
 
-inline static constexpr unsigned int Class_3_D69E349E711034B1_TypeDefinitionIndex = 55398;
+inline static constexpr unsigned int Class_3_D69E349E711034B1_TypeDefinitionIndex = 58129;
 
 class Class_3_D69E349E711034B1 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByCompareSwitchMascotPickupCount*>
 {

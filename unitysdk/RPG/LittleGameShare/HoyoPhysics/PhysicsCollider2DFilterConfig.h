@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_PHYSICSCOLLIDER2DFILTERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1AB34010)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_PHYSICSCOLLIDER2DFILTERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C79A900)
 
 namespace RPG::LittleGameShare::HoyoPhysics
 {
-	inline static constexpr unsigned int PhysicsCollider2DFilterConfig_TypeDefinitionIndex = 35018;
+	inline static constexpr unsigned int PhysicsCollider2DFilterConfig_TypeDefinitionIndex = 35879;
 
 	class PhysicsCollider2DFilterConfig : public ::System::Object
 	{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MIHOYO_SDK_WIN_USERCENTERMANAGER_USERCENTERABTEST__CTOR_OFFSET UNITYSDK_OFFSET(0x1D100C00)
+#define MIHOYO_SDK_WIN_USERCENTERMANAGER_USERCENTERABTEST__CTOR_OFFSET UNITYSDK_OFFSET(0x187BB6B0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int UserCenterManager_UserCenterABTest_TypeDefinitionIndex = 9142;
+	inline static constexpr unsigned int UserCenterManager_UserCenterABTest_TypeDefinitionIndex = 9421;
 
 	class UserCenterManager_UserCenterABTest : public ::System::Object
 	{

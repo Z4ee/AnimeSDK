@@ -4,19 +4,19 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_FLOORCONNECTIVITYDATA_EDGECONNECTIONINFO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x16D12E10)
-#define RPG_CLIENT_FLOORCONNECTIVITYDATA_EDGECONNECTIONINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x16D12E00)
+#define RPG_CLIENT_FLOORCONNECTIVITYDATA_EDGECONNECTIONINFO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x190E0140)
+#define RPG_CLIENT_FLOORCONNECTIVITYDATA_EDGECONNECTIONINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x190E0130)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FloorConnectivityData_EdgeConnectionInfo_TypeDefinitionIndex = 61312;
+	inline static constexpr unsigned int FloorConnectivityData_EdgeConnectionInfo_TypeDefinitionIndex = 64293;
 
 	class FloorConnectivityData_EdgeConnectionInfo : public ::System::Object
 	{
 	public:
-		::System::UInt32 GroupID; // 0x10
-		::System::Boolean IsRegionDirectConnect; // 0x14
-		::System::UInt32 LevelObjID; // 0x18
+		::System::UInt32 LevelObjID; // 0x10
+		::System::UInt32 GroupID; // 0x14
+		::System::Boolean IsRegionDirectConnect; // 0x18
 
 		::System::Void _ctor(::System::UInt32 a1, ::System::UInt32 a2)
 		{

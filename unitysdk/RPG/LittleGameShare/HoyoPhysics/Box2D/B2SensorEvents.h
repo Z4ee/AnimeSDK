@@ -6,7 +6,7 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2SensorEvents_TypeDefinitionIndex = 35202;
+	inline static constexpr unsigned int B2SensorEvents_TypeDefinitionIndex = 36063;
 
 	struct alignas(8) B2SensorEvents
 	{

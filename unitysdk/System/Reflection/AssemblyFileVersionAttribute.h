@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define SYSTEM_REFLECTION_ASSEMBLYFILEVERSIONATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AFC3C40)
+#define SYSTEM_REFLECTION_ASSEMBLYFILEVERSIONATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC14700)
 
 namespace System::Reflection
 {
-	inline static constexpr unsigned int AssemblyFileVersionAttribute_TypeDefinitionIndex = 546;
+	inline static constexpr unsigned int AssemblyFileVersionAttribute_TypeDefinitionIndex = 549;
 
 	class AssemblyFileVersionAttribute : public ::System::Attribute
 	{

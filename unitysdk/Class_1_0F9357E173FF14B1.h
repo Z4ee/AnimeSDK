@@ -5,26 +5,26 @@
 namespace RPG::Client::FateRin::Card { class IFateRinCardViewModel; }
 namespace System { class String; }
 
-#define CLASS_1_0F9357E173FF14B1_METHOD_1_20D78142557EF460_OFFSET UNITYSDK_OFFSET(0x14B0F550)
+#define CLASS_1_0F9357E173FF14B1_METHOD_1_20D78142557EF460_OFFSET UNITYSDK_OFFSET(0x19CC7FC0)
 
-inline static constexpr unsigned int Class_1_0F9357E173FF14B1_TypeDefinitionIndex = 75706;
+inline static constexpr unsigned int Class_1_0F9357E173FF14B1_TypeDefinitionIndex = 79339;
 
 class Class_1_0F9357E173FF14B1 : public ::System::Object
 {
 public:
-	// static const ::System::String* Field_1_0; // 0x0
-	// static const ::System::String* Field_1_1; // 0x0
-	// static const ::System::String* Field_1_2; // 0x0
-	// static const ::System::String* Field_1_3; // 0x0
-	// static const ::System::String* Field_1_4; // 0x0
-	// static const ::System::String* Field_1_5; // 0x0
-	// static const ::System::String* Field_1_6; // 0x0
-	// static const ::System::String* Field_1_7; // 0x0
-	// static const ::System::String* Field_1_8; // 0x0
-	// static const ::System::String* Field_1_9; // 0x0
-	// static const ::System::String* Field_1_10; // 0x0
-	// static const ::System::String* Field_1_11; // 0x0
-	// static const ::System::String* Field_1_12; // 0x0
+	// static const ::System::String* NHDHANNPHNA; // 0x0
+	// static const ::System::String* OPJAJMKNPJN; // 0x0
+	// static const ::System::String* LNBDELIGFJN; // 0x0
+	// static const ::System::String* DNDMJEFFHBP; // 0x0
+	// static const ::System::String* NPKHAAKDLII; // 0x0
+	// static const ::System::String* KHKFKOFGNHL; // 0x0
+	// static const ::System::String* LDGNBHOFCJC; // 0x0
+	// static const ::System::String* BNJHDBDPHKM; // 0x0
+	// static const ::System::String* EANGEOJOFHC; // 0x0
+	// static const ::System::String* BCJNEKMKJNL; // 0x0
+	// static const ::System::String* FJCKFKINOAN; // 0x0
+	// static const ::System::String* LLELFKBBKJE; // 0x0
+	// static const ::System::String* GPJBGNJAILE; // 0x0
 
 	static ::System::String* Method_1_20D78142557EF460(::RPG::Client::FateRin::Card::IFateRinCardViewModel* a1)
 	{

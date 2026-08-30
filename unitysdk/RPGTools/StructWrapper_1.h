@@ -7,7 +7,7 @@ namespace System { template <typename T> class Func_1; }
 
 namespace RPGTools
 {
-	inline static constexpr unsigned int StructWrapper_1_TypeDefinitionIndex = 46020;
+	inline static constexpr unsigned int StructWrapper_1_TypeDefinitionIndex = 48244;
 
 	template <typename T>
 	class StructWrapper_1 : public ::System::Object

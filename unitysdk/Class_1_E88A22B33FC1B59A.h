@@ -6,9 +6,9 @@ namespace RPG::Client { class MonoEffectPluginMiniEmotion; }
 namespace RPG::GameCore { class MiniEmoEffectOverride; }
 namespace UnityEngine { class GameObject; }
 
-#define CLASS_1_E88A22B33FC1B59A_METHOD_1_C1FE3125BB1CBFB2_OFFSET UNITYSDK_OFFSET(0x173C1890)
+#define CLASS_1_E88A22B33FC1B59A_METHOD_1_C1FE3125BB1CBFB2_OFFSET UNITYSDK_OFFSET(0x1687AC80)
 
-inline static constexpr unsigned int Class_1_E88A22B33FC1B59A_TypeDefinitionIndex = 53217;
+inline static constexpr unsigned int Class_1_E88A22B33FC1B59A_TypeDefinitionIndex = 55931;
 
 class Class_1_E88A22B33FC1B59A : public ::System::Object
 {

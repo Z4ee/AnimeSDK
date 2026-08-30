@@ -1,0 +1,136 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/RoadRash/RoadRashObstaclePhysicsImpactConfig.h"
+#include "unitysdk/RPG/Client/RoadRash/RoadRashObstacleTriggerEffectConfig.h"
+#include "unitysdk/UnityEngine/MonoBehaviour.h"
+#include "unitysdk/UnityEngine/Vector3.h"
+
+class Class_2_230F5EDDB35DAEBA;
+class Class_3_CD59F26A5F0E803D;
+namespace System { class String; }
+namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
+namespace UnityEngine { class Collider; }
+
+#define RPG_CLIENT_ROADRASH_MONOROADRASHGAMEROADOBSTACLE_BIND_OFFSET UNITYSDK_OFFSET(0x1BC65890)
+#define RPG_CLIENT_ROADRASH_MONOROADRASHGAMEROADOBSTACLE_COLLECTALLREFASSETPATH_OFFSET UNITYSDK_OFFSET(0x1BC658E0)
+#define RPG_CLIENT_ROADRASH_MONOROADRASHGAMEROADOBSTACLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1BC66040)
+#define RPG_CLIENT_ROADRASH_MONOROADRASHGAMEROADOBSTACLE_GET_SERVICES_OFFSET UNITYSDK_OFFSET(0x1BC65870)
+#define RPG_CLIENT_ROADRASH_MONOROADRASHGAMEROADOBSTACLE_GET_TRIGGERED_OFFSET UNITYSDK_OFFSET(0x1BC65860)
+#define RPG_CLIENT_ROADRASH_MONOROADRASHGAMEROADOBSTACLE_METHOD_5_1C5EC54583F2FF24_OFFSET UNITYSDK_OFFSET(0x1BC65A70)
+#define RPG_CLIENT_ROADRASH_MONOROADRASHGAMEROADOBSTACLE_METHOD_5_2376486C27388F69_OFFSET UNITYSDK_OFFSET(0x1BC65BC0)
+#define RPG_CLIENT_ROADRASH_MONOROADRASHGAMEROADOBSTACLE_METHOD_5_5C7EB8A41CDE0C00_OFFSET UNITYSDK_OFFSET(0x1BC65B30)
+#define RPG_CLIENT_ROADRASH_MONOROADRASHGAMEROADOBSTACLE_METHOD_5_A470482B49D276BD_OFFSET UNITYSDK_OFFSET(0x1BC66610)
+#define RPG_CLIENT_ROADRASH_MONOROADRASHGAMEROADOBSTACLE_METHOD_5_DBF9C2D2D859D90D_OFFSET UNITYSDK_OFFSET(0x1BC665C0)
+#define RPG_CLIENT_ROADRASH_MONOROADRASHGAMEROADOBSTACLE_METHOD_5_E3DE31A03057E055_OFFSET UNITYSDK_OFFSET(0x1BC66170)
+#define RPG_CLIENT_ROADRASH_MONOROADRASHGAMEROADOBSTACLE_ONATTACKED_OFFSET UNITYSDK_OFFSET(0x1BC65DA0)
+#define RPG_CLIENT_ROADRASH_MONOROADRASHGAMEROADOBSTACLE_ONTRIGGERED_OFFSET UNITYSDK_OFFSET(0x1BC65970)
+#define RPG_CLIENT_ROADRASH_MONOROADRASHGAMEROADOBSTACLE_ONTRIGGERENTER_OFFSET UNITYSDK_OFFSET(0x1BC660B0)
+#define RPG_CLIENT_ROADRASH_MONOROADRASHGAMEROADOBSTACLE_SET_SERVICES_OFFSET UNITYSDK_OFFSET(0x1BC65880)
+#define RPG_CLIENT_ROADRASH_MONOROADRASHGAMEROADOBSTACLE_UPDATE_OFFSET UNITYSDK_OFFSET(0x1BC65F20)
+#define RPG_CLIENT_ROADRASH_MONOROADRASHGAMEROADOBSTACLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC66670)
+
+namespace RPG::Client::RoadRash
+{
+	inline static constexpr unsigned int MonoRoadRashGameRoadObstacle_TypeDefinitionIndex = 75452;
+
+	class MonoRoadRashGameRoadObstacle : public ::UnityEngine::MonoBehaviour
+	{
+	public:
+		::UnityEngine::Collider* Collider; // 0x18
+		::System::Boolean TriggerOnce; // 0x20
+		::System::Single RecoverCooldown; // 0x24
+		::System::Boolean CanTriggerWhileFalling; // 0x28
+		::System::Boolean IsBadSituation; // 0x29
+		::RPG::Client::RoadRash::RoadRashObstacleTriggerEffectConfig TriggerEffectConfig; // 0x30
+		::RPG::Client::RoadRash::RoadRashObstaclePhysicsImpactConfig PhysicsImpactConfig; // 0x58
+		::Class_3_CD59F26A5F0E803D* _Services_k__BackingField; // 0x78
+		::System::Boolean MFGHMLJJNIG; // 0x80
+		::System::Boolean GIIFJCPAHGA; // 0x81
+		::System::Single ODICHPBBIBO; // 0x84
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASH_MONOROADRASHGAMEROADOBSTACLE__CTOR_OFFSET))(this);
+		}
+
+		::System::Boolean get_Triggered()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASH_MONOROADRASHGAMEROADOBSTACLE_GET_TRIGGERED_OFFSET))(this);
+		}
+
+		::Class_3_CD59F26A5F0E803D* get_Services()
+		{
+			return ((::Class_3_CD59F26A5F0E803D*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASH_MONOROADRASHGAMEROADOBSTACLE_GET_SERVICES_OFFSET))(this);
+		}
+
+		::System::Void set_Services(::Class_3_CD59F26A5F0E803D* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_3_CD59F26A5F0E803D*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASH_MONOROADRASHGAMEROADOBSTACLE_SET_SERVICES_OFFSET))(this, a1);
+		}
+
+		::System::Void Bind(::Class_3_CD59F26A5F0E803D* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_3_CD59F26A5F0E803D*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASH_MONOROADRASHGAMEROADOBSTACLE_BIND_OFFSET))(this, a1);
+		}
+
+		::System::Collections::Generic::IEnumerator_1<::System::String*>* CollectAllRefAssetPath()
+		{
+			return ((::System::Collections::Generic::IEnumerator_1<::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASH_MONOROADRASHGAMEROADOBSTACLE_COLLECTALLREFASSETPATH_OFFSET))(this);
+		}
+
+		::System::Boolean OnTriggered(::Class_2_230F5EDDB35DAEBA* a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::Class_2_230F5EDDB35DAEBA*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASH_MONOROADRASHGAMEROADOBSTACLE_ONTRIGGERED_OFFSET))(this, a1);
+		}
+
+		static ::System::Boolean Method_5_1C5EC54583F2FF24(::Class_2_230F5EDDB35DAEBA* a1)
+		{
+			return ((::System::Boolean(*)(::Class_2_230F5EDDB35DAEBA*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASH_MONOROADRASHGAMEROADOBSTACLE_METHOD_5_1C5EC54583F2FF24_OFFSET))(a1);
+		}
+
+		::System::Void OnAttacked(::Class_2_230F5EDDB35DAEBA* a1, ::UnityEngine::Vector3 a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_2_230F5EDDB35DAEBA*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASH_MONOROADRASHGAMEROADOBSTACLE_ONATTACKED_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void Update()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASH_MONOROADRASHGAMEROADOBSTACLE_UPDATE_OFFSET))(this);
+		}
+
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASH_MONOROADRASHGAMEROADOBSTACLE_DISPOSE_OFFSET))(this);
+		}
+
+		::System::Void OnTriggerEnter(::UnityEngine::Collider* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Collider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASH_MONOROADRASHGAMEROADOBSTACLE_ONTRIGGERENTER_OFFSET))(this, a1);
+		}
+
+		::System::Boolean Method_5_5C7EB8A41CDE0C00(::System::Boolean a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASH_MONOROADRASHGAMEROADOBSTACLE_METHOD_5_5C7EB8A41CDE0C00_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_5_E3DE31A03057E055()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASH_MONOROADRASHGAMEROADOBSTACLE_METHOD_5_E3DE31A03057E055_OFFSET))(this);
+		}
+
+		::System::Void Method_5_2376486C27388F69(::Class_2_230F5EDDB35DAEBA* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_2_230F5EDDB35DAEBA*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASH_MONOROADRASHGAMEROADOBSTACLE_METHOD_5_2376486C27388F69_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_5_DBF9C2D2D859D90D(::UnityEngine::Collider* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Collider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASH_MONOROADRASHGAMEROADOBSTACLE_METHOD_5_DBF9C2D2D859D90D_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_5_A470482B49D276BD(::Class_2_230F5EDDB35DAEBA* a1, ::UnityEngine::Vector3 a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_2_230F5EDDB35DAEBA*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASH_MONOROADRASHGAMEROADOBSTACLE_METHOD_5_A470482B49D276BD_OFFSET))(this, a1, a2);
+		}
+	};
+}

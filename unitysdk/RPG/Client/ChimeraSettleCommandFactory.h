@@ -5,11 +5,11 @@
 
 namespace RPG::Client { class IChimeraSettleCommand; }
 
-#define RPG_CLIENT_CHIMERASETTLECOMMANDFACTORY_CREATECOMMAND_OFFSET UNITYSDK_OFFSET(0x19B09D20)
+#define RPG_CLIENT_CHIMERASETTLECOMMANDFACTORY_CREATECOMMAND_OFFSET UNITYSDK_OFFSET(0x1B605DD0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraSettleCommandFactory_TypeDefinitionIndex = 60666;
+	inline static constexpr unsigned int ChimeraSettleCommandFactory_TypeDefinitionIndex = 63519;
 
 	class ChimeraSettleCommandFactory : public ::System::Object
 	{

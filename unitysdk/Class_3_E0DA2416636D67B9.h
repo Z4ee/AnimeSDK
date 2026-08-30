@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class WolfBroGunFire; }
 
-#define CLASS_3_E0DA2416636D67B9_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1608DFE0)
-#define CLASS_3_E0DA2416636D67B9__CTOR_OFFSET UNITYSDK_OFFSET(0x1608DFB0)
+#define CLASS_3_E0DA2416636D67B9_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x178EF5A0)
+#define CLASS_3_E0DA2416636D67B9__CTOR_OFFSET UNITYSDK_OFFSET(0x178EF570)
 
-inline static constexpr unsigned int Class_3_E0DA2416636D67B9_TypeDefinitionIndex = 56320;
+inline static constexpr unsigned int Class_3_E0DA2416636D67B9_TypeDefinitionIndex = 59102;
 
 class Class_3_E0DA2416636D67B9 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::WolfBroGunFire*>
 {

@@ -1,19 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_ECC2331997CC2438_Class_1_9A90CD018E72DF20_13.h"
+#include "unitysdk/Class_1_ECC2331997CC2438_Class_1_9A90CD018E72DF20_15.h"
 
 namespace System { class String; }
 
-#define CLASS_1_ECC2331997CC2438_CLASS_2_9DA6891B709865B6_1__CTOR_OFFSET UNITYSDK_OFFSET(0x15179C30)
+#define CLASS_1_ECC2331997CC2438_CLASS_2_9DA6891B709865B6_1__CTOR_OFFSET UNITYSDK_OFFSET(0x16B99650)
 
-inline static constexpr unsigned int Class_1_ECC2331997CC2438_Class_2_9DA6891B709865B6_1_TypeDefinitionIndex = 66273;
+inline static constexpr unsigned int Class_1_ECC2331997CC2438_Class_2_9DA6891B709865B6_1_TypeDefinitionIndex = 69348;
 
-class Class_1_ECC2331997CC2438_Class_2_9DA6891B709865B6_1 : public ::Class_1_ECC2331997CC2438_Class_1_9A90CD018E72DF20_13
+class Class_1_ECC2331997CC2438_Class_2_9DA6891B709865B6_1 : public ::Class_1_ECC2331997CC2438_Class_1_9A90CD018E72DF20_15
 {
 public:
-	::System::String* Field_2_0; // 0x10
-	::System::Single Field_2_1; // 0x18
-	::System::UInt16 Field_2_2; // 0x1C
+	::System::String* OENAMINOLLF; // 0x10
+	::System::Single BGOKPBPPNGJ; // 0x18
+	::System::UInt16 LNGGAOFEHIM; // 0x1C
 
 	::System::Void _ctor()
 	{

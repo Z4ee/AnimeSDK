@@ -14,33 +14,33 @@ namespace UnityEngine { class Animator; }
 namespace UnityEngine { class AnimatorOverrideController; }
 namespace UnityEngine { class RuntimeAnimatorController; }
 
-#define RPG_CLIENT_ANIMATOROVERRIDEMANAGER_BEGINBATCHANIMCLIPOVERRIDE_OFFSET UNITYSDK_OFFSET(0x19B19980)
-#define RPG_CLIENT_ANIMATOROVERRIDEMANAGER_CLEANUPOVERRIDE_OFFSET UNITYSDK_OFFSET(0x19B18770)
-#define RPG_CLIENT_ANIMATOROVERRIDEMANAGER_ENDBATCHANIMCLIPOVERRIDE_OFFSET UNITYSDK_OFFSET(0x19B199E0)
-#define RPG_CLIENT_ANIMATOROVERRIDEMANAGER_ISINBATCHANIMCLIPOVERRIDE_OFFSET UNITYSDK_OFFSET(0x19B19930)
-#define RPG_CLIENT_ANIMATOROVERRIDEMANAGER_METHOD_5_93E6B8A6D29521ED_OFFSET UNITYSDK_OFFSET(0x19B18C50)
-#define RPG_CLIENT_ANIMATOROVERRIDEMANAGER_METHOD_5_97D83E4CB3B11935_OFFSET UNITYSDK_OFFSET(0x19B19A60)
-#define RPG_CLIENT_ANIMATOROVERRIDEMANAGER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x19B18720)
-#define RPG_CLIENT_ANIMATOROVERRIDEMANAGER_SETANIMCLIPOVERRIDE_OFFSET UNITYSDK_OFFSET(0x19B194D0)
-#define RPG_CLIENT_ANIMATOROVERRIDEMANAGER_SETREPLACEANIMATORCONTROLLER_OFFSET UNITYSDK_OFFSET(0x19B18920)
-#define RPG_CLIENT_ANIMATOROVERRIDEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x19B19B80)
+#define RPG_CLIENT_ANIMATOROVERRIDEMANAGER_BEGINBATCHANIMCLIPOVERRIDE_OFFSET UNITYSDK_OFFSET(0x1B317C70)
+#define RPG_CLIENT_ANIMATOROVERRIDEMANAGER_CLEANUPOVERRIDE_OFFSET UNITYSDK_OFFSET(0x1B316A60)
+#define RPG_CLIENT_ANIMATOROVERRIDEMANAGER_ENDBATCHANIMCLIPOVERRIDE_OFFSET UNITYSDK_OFFSET(0x1B317CD0)
+#define RPG_CLIENT_ANIMATOROVERRIDEMANAGER_ISINBATCHANIMCLIPOVERRIDE_OFFSET UNITYSDK_OFFSET(0x1B317C20)
+#define RPG_CLIENT_ANIMATOROVERRIDEMANAGER_METHOD_5_93E6B8A6D29521ED_OFFSET UNITYSDK_OFFSET(0x1B316F40)
+#define RPG_CLIENT_ANIMATOROVERRIDEMANAGER_METHOD_5_97D83E4CB3B11935_OFFSET UNITYSDK_OFFSET(0x1B317D50)
+#define RPG_CLIENT_ANIMATOROVERRIDEMANAGER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1B316A10)
+#define RPG_CLIENT_ANIMATOROVERRIDEMANAGER_SETANIMCLIPOVERRIDE_OFFSET UNITYSDK_OFFSET(0x1B3177C0)
+#define RPG_CLIENT_ANIMATOROVERRIDEMANAGER_SETREPLACEANIMATORCONTROLLER_OFFSET UNITYSDK_OFFSET(0x1B316C10)
+#define RPG_CLIENT_ANIMATOROVERRIDEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B317E70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AnimatorOverrideManager_TypeDefinitionIndex = 65310;
+	inline static constexpr unsigned int AnimatorOverrideManager_TypeDefinitionIndex = 68322;
 
 	class AnimatorOverrideManager : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		::UnityEngine::Animator* Field_5_0; // 0x18
-		::UnityEngine::RuntimeAnimatorController* Field_5_1; // 0x20
-		::System::Collections::Generic::List_1<::Struct_2_3DA3494D1BA5B564>* Field_5_2; // 0x28
-		::System::Boolean Field_5_3; // 0x30
-		::UnityEngine::AnimatorOverrideController* Field_5_4; // 0x38
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::AnimationClip*>* Field_5_5; // 0x40
-		::System::Collections::Generic::HashSet_1<::System::String*>* Field_5_6; // 0x48
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::AnimationClip*>* Field_5_7; // 0x50
-		::RPG::PoolList_1<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::AnimationClip*, ::UnityEngine::AnimationClip*>>* Field_5_8; // 0x58
+		::UnityEngine::Animator* APPGGMLEPLN; // 0x18
+		::UnityEngine::RuntimeAnimatorController* MDHBDDNKPPE; // 0x20
+		::System::Collections::Generic::List_1<::Struct_2_3DA3494D1BA5B564>* NALMPCHLJBE; // 0x28
+		::System::Boolean PHNHAFGFJLM; // 0x30
+		::UnityEngine::AnimatorOverrideController* KENAPFGJKOM; // 0x38
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::AnimationClip*>* DEFLKIEBJKI; // 0x40
+		::System::Collections::Generic::HashSet_1<::System::String*>* NHJJIPHIPAM; // 0x48
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::AnimationClip*>* NIEFCGPJMOJ; // 0x50
+		::RPG::PoolList_1<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::AnimationClip*, ::UnityEngine::AnimationClip*>>* FMBGCOOGGIK; // 0x58
 
 		::System::Void _ctor()
 		{

@@ -4,9 +4,9 @@
 
 namespace UnityEngine { class Material; }
 
-#define BOXMATERIAL__CTOR_OFFSET UNITYSDK_OFFSET(0x18BAB4D0)
+#define BOXMATERIAL__CTOR_OFFSET UNITYSDK_OFFSET(0x1A084010)
 
-inline static constexpr unsigned int BoxMaterial_TypeDefinitionIndex = 45311;
+inline static constexpr unsigned int BoxMaterial_TypeDefinitionIndex = 47549;
 
 class BoxMaterial : public ::System::Object
 {

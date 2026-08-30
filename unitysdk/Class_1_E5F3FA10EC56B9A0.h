@@ -5,14 +5,14 @@
 namespace RPG::GameCore { class PropComponent; }
 namespace UnityEngine { class GameObject; }
 
-#define CLASS_1_E5F3FA10EC56B9A0__CTOR_OFFSET UNITYSDK_OFFSET(0x1937C5D0)
+#define CLASS_1_E5F3FA10EC56B9A0__CTOR_OFFSET UNITYSDK_OFFSET(0x18E56ED0)
 
-inline static constexpr unsigned int Class_1_E5F3FA10EC56B9A0_TypeDefinitionIndex = 54816;
+inline static constexpr unsigned int Class_1_E5F3FA10EC56B9A0_TypeDefinitionIndex = 57536;
 
 class Class_1_E5F3FA10EC56B9A0 : public ::System::Object
 {
 public:
-	::RPG::GameCore::PropComponent* Field_1_0; // 0x10
+	::RPG::GameCore::PropComponent* KCONLBKIGHD; // 0x10
 
 	::System::Void _ctor(::RPG::GameCore::PropComponent* a1)
 	{

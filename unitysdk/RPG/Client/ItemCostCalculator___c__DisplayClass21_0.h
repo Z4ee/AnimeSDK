@@ -4,12 +4,12 @@
 
 namespace RPG::GameCore { class ItemConfig; }
 
-#define RPG_CLIENT_ITEMCOSTCALCULATOR___C__DISPLAYCLASS21_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16C5E420)
-#define RPG_CLIENT_ITEMCOSTCALCULATOR___C__DISPLAYCLASS21_0___GETTARGETNEEDCOUNT_B__0_OFFSET UNITYSDK_OFFSET(0x16C5F370)
+#define RPG_CLIENT_ITEMCOSTCALCULATOR___C__DISPLAYCLASS21_0__CTOR_OFFSET UNITYSDK_OFFSET(0x194ED700)
+#define RPG_CLIENT_ITEMCOSTCALCULATOR___C__DISPLAYCLASS21_0___GETTARGETNEEDCOUNT_B__0_OFFSET UNITYSDK_OFFSET(0x194EE650)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ItemCostCalculator___c__DisplayClass21_0_TypeDefinitionIndex = 62778;
+	inline static constexpr unsigned int ItemCostCalculator___c__DisplayClass21_0_TypeDefinitionIndex = 65763;
 
 	class ItemCostCalculator___c__DisplayClass21_0 : public ::System::Object
 	{

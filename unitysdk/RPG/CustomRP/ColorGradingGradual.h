@@ -3,7 +3,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int ColorGradingGradual_TypeDefinitionIndex = 36251;
+	inline static constexpr unsigned int ColorGradingGradual_TypeDefinitionIndex = 37110;
 
 	enum class ColorGradingGradual : ::System::Int32
 	{

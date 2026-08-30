@@ -9,19 +9,19 @@ namespace RPG::Client::LittleGame { class TimelineControlGameCharacterMovementPa
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_F1E790FCE2711921__CTOR_OFFSET UNITYSDK_OFFSET(0x187A7F00)
+#define CLASS_1_F1E790FCE2711921__CTOR_OFFSET UNITYSDK_OFFSET(0x1A9F7500)
 
-inline static constexpr unsigned int Class_1_F1E790FCE2711921_TypeDefinitionIndex = 40324;
+inline static constexpr unsigned int Class_1_F1E790FCE2711921_TypeDefinitionIndex = 41203;
 
 class Class_1_F1E790FCE2711921 : public ::System::Object
 {
 public:
-	::UnityEngine::Transform* Field_1_0; // 0x10
-	::System::Collections::Generic::List_1<::RPG::Client::LittleGame::TimelineControlGameCharacterMovementPath*>* Field_1_1; // 0x18
-	::RPG::Client::LittleGame::TimelineControlGameCharacterMovementPath* Field_1_2; // 0x20
-	::RPG::Client::LittleGame::TimelineControlGameCharacterMovementConfig Field_1_3; // 0x28
-	::UnityEngine::Vector3Int Field_1_4; // 0x2C
-	::RPG::Client::LittleGame::ETimelineControlGameCharacterMoveDirection Field_1_5; // 0x38
+	::UnityEngine::Transform* DICDJJOJKGF; // 0x10
+	::System::Collections::Generic::List_1<::RPG::Client::LittleGame::TimelineControlGameCharacterMovementPath*>* DIKJBMHBCNK; // 0x18
+	::RPG::Client::LittleGame::TimelineControlGameCharacterMovementPath* JFAKICGOGON; // 0x20
+	::UnityEngine::Vector3Int EDLHLKAFDFA; // 0x28
+	::RPG::Client::LittleGame::ETimelineControlGameCharacterMoveDirection FFHIEMCJDJJ; // 0x34
+	::RPG::Client::LittleGame::TimelineControlGameCharacterMovementConfig EABKOHGCHFP; // 0x38
 
 	::System::Void _ctor()
 	{

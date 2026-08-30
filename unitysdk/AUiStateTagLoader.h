@@ -6,21 +6,21 @@ namespace RPG::Client { class PrefabLoadMeta; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define AUISTATETAGLOADER_GET_STATETAGLIST_OFFSET UNITYSDK_OFFSET(0x158D2320)
-#define AUISTATETAGLOADER_ISFALSE_OFFSET UNITYSDK_OFFSET(0x158D15B0)
-#define AUISTATETAGLOADER_ISTRUE_OFFSET UNITYSDK_OFFSET(0x158D1DD0)
-#define AUISTATETAGLOADER_METHOD_6_B09E78EE7EE4F8FA_OFFSET UNITYSDK_OFFSET(0x158D1D00)
-#define AUISTATETAGLOADER_SET_STATETAGLIST_OFFSET UNITYSDK_OFFSET(0x158D2360)
-#define AUISTATETAGLOADER__CTOR_OFFSET UNITYSDK_OFFSET(0x158D23B0)
+#define AUISTATETAGLOADER_GET_STATETAGLIST_OFFSET UNITYSDK_OFFSET(0x1765D580)
+#define AUISTATETAGLOADER_ISFALSE_OFFSET UNITYSDK_OFFSET(0x1765C810)
+#define AUISTATETAGLOADER_ISTRUE_OFFSET UNITYSDK_OFFSET(0x1765D030)
+#define AUISTATETAGLOADER_METHOD_6_B09E78EE7EE4F8FA_OFFSET UNITYSDK_OFFSET(0x1765CF60)
+#define AUISTATETAGLOADER_SET_STATETAGLIST_OFFSET UNITYSDK_OFFSET(0x1765D5C0)
+#define AUISTATETAGLOADER__CTOR_OFFSET UNITYSDK_OFFSET(0x1765D610)
 
-inline static constexpr unsigned int AUiStateTagLoader_TypeDefinitionIndex = 45786;
+inline static constexpr unsigned int AUiStateTagLoader_TypeDefinitionIndex = 48038;
 
 class AUiStateTagLoader : public ::AUiStateTagBase
 {
 public:
 	::System::Collections::Generic::List_1<::System::Boolean>* StateList; // 0x18
 	::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* rmlist; // 0x20
-	::RPG::Client::PrefabLoadMeta* Field_6_2; // 0x28
+	::RPG::Client::PrefabLoadMeta* AKAHFFNCELI; // 0x28
 
 	::System::Void _ctor()
 	{

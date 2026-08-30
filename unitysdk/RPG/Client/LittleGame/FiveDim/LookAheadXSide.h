@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int LookAheadXSide_TypeDefinitionIndex = 40666;
+	inline static constexpr unsigned int LookAheadXSide_TypeDefinitionIndex = 41618;
 
 	enum class LookAheadXSide : ::System::Int32
 	{

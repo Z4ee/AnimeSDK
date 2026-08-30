@@ -9,11 +9,11 @@ namespace RPG::Client { class RecipeConfig; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ELFRESTAURANTWHITEBOXDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18D81800)
+#define RPG_CLIENT_ELFRESTAURANTWHITEBOXDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1A16F490)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ElfRestaurantWhiteBoxData_TypeDefinitionIndex = 69441;
+	inline static constexpr unsigned int ElfRestaurantWhiteBoxData_TypeDefinitionIndex = 72667;
 
 	class ElfRestaurantWhiteBoxData : public ::System::Object
 	{

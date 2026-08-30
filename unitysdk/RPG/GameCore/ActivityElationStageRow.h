@@ -7,35 +7,35 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ConditionParam; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIVITYELATIONSTAGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1AAE43C0)
-#define RPG_GAMECORE_ACTIVITYELATIONSTAGEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1AAE4AD0)
+#define RPG_GAMECORE_ACTIVITYELATIONSTAGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C9F5F30)
+#define RPG_GAMECORE_ACTIVITYELATIONSTAGEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1C9F6640)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityElationStageRow_TypeDefinitionIndex = 10930;
+	inline static constexpr unsigned int ActivityElationStageRow_TypeDefinitionIndex = 11305;
 
 	class ActivityElationStageRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* SpecialAvatarList; // 0x10
-		::Il2CppArray<::System::UInt32>* BattleTargetList; // 0x18
-		::Il2CppArray<::System::UInt32>* GiftBoxLevel; // 0x20
-		::System::String* ImagePath; // 0x28
-		::Il2CppArray<::System::UInt32>* ModifiedAvatarIDList; // 0x30
-		::Il2CppArray<::System::UInt32>* MonsterList; // 0x38
-		::RPG::GameCore::ConditionParam* UnlockCondition; // 0x40
-		::Il2CppArray<::System::UInt32>* AvailableAvatarList; // 0x48
-		::RPG::Client::TextID LevelDes_In; // 0x50
-		::System::UInt32 ID; // 0x60
-		::System::UInt32 NewModifiedAvatarID; // 0x64
-		::RPG::Client::TextID StageName; // 0x68
-		::System::UInt32 IsModifiedAvatarFixed; // 0x78
-		::System::UInt32 PerfectWave; // 0x7C
-		::System::UInt32 UIEnterBattleAreaID; // 0x80
-		::System::UInt32 EventID; // 0x84
-		::System::UInt32 TutorialGuideGroupID; // 0x88
-		::RPG::Client::TextID LevelDes_In_Down; // 0x90
-		::RPG::Client::TextID LevelDes_Out; // 0xA0
+		::Il2CppArray<::System::UInt32>* ModifiedAvatarIDList; // 0x10
+		::Il2CppArray<::System::UInt32>* AvailableAvatarList; // 0x18
+		::RPG::GameCore::ConditionParam* UnlockCondition; // 0x20
+		::Il2CppArray<::System::UInt32>* BattleTargetList; // 0x28
+		::Il2CppArray<::System::UInt32>* SpecialAvatarList; // 0x30
+		::System::String* ImagePath; // 0x38
+		::Il2CppArray<::System::UInt32>* GiftBoxLevel; // 0x40
+		::Il2CppArray<::System::UInt32>* MonsterList; // 0x48
+		::RPG::Client::TextID LevelDes_Out; // 0x50
+		::RPG::Client::TextID LevelDes_In_Down; // 0x60
+		::System::UInt32 EventID; // 0x70
+		::System::UInt32 TutorialGuideGroupID; // 0x74
+		::System::UInt32 PerfectWave; // 0x78
+		::RPG::Client::TextID StageName; // 0x80
+		::System::UInt32 UIEnterBattleAreaID; // 0x90
+		::System::UInt32 NewModifiedAvatarID; // 0x94
+		::System::UInt32 IsModifiedAvatarFixed; // 0x98
+		::System::UInt32 ID; // 0x9C
+		::RPG::Client::TextID LevelDes_In; // 0xA0
 
 		::System::Void _ctor()
 		{

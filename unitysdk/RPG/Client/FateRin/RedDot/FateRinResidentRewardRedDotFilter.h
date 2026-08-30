@@ -2,26 +2,26 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_1273;
+class Class_0_16E4307DCC419505_1354;
 class Class_1_96586C089CD5CA69;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_FATERIN_REDDOT_FATERINRESIDENTREWARDREDDOTFILTER_GETSUBKEYS_OFFSET UNITYSDK_OFFSET(0x1A3943C0)
-#define RPG_CLIENT_FATERIN_REDDOT_FATERINRESIDENTREWARDREDDOTFILTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A394340)
+#define RPG_CLIENT_FATERIN_REDDOT_FATERINRESIDENTREWARDREDDOTFILTER_GETSUBKEYS_OFFSET UNITYSDK_OFFSET(0x1B5B0720)
+#define RPG_CLIENT_FATERIN_REDDOT_FATERINRESIDENTREWARDREDDOTFILTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5B06A0)
 
 namespace RPG::Client::FateRin::RedDot
 {
-	inline static constexpr unsigned int FateRinResidentRewardRedDotFilter_TypeDefinitionIndex = 75783;
+	inline static constexpr unsigned int FateRinResidentRewardRedDotFilter_TypeDefinitionIndex = 79416;
 
 	class FateRinResidentRewardRedDotFilter : public ::System::Object
 	{
 	public:
-		::Class_0_16E4307DCC419505_1273* _Repository; // 0x10
+		::Class_0_16E4307DCC419505_1354* _Repository; // 0x10
 		::Class_1_96586C089CD5CA69* _ChallengeService; // 0x18
 
-		::System::Void _ctor(::Class_1_96586C089CD5CA69* a1, ::Class_0_16E4307DCC419505_1273* a2)
+		::System::Void _ctor(::Class_1_96586C089CD5CA69* a1, ::Class_0_16E4307DCC419505_1354* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_96586C089CD5CA69*, ::Class_0_16E4307DCC419505_1273*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_REDDOT_FATERINRESIDENTREWARDREDDOTFILTER__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::Class_1_96586C089CD5CA69*, ::Class_0_16E4307DCC419505_1354*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_REDDOT_FATERINRESIDENTREWARDREDDOTFILTER__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void GetSubKeys(::System::Collections::Generic::List_1<::System::UInt32>*& a1, ::System::Collections::Generic::List_1<::System::UInt32>*& a2)

@@ -3,7 +3,7 @@
 
 namespace Epic::OnlineServices::Lobby
 {
-	inline static constexpr unsigned int LobbyMemberStatus_TypeDefinitionIndex = 43562;
+	inline static constexpr unsigned int LobbyMemberStatus_TypeDefinitionIndex = 45744;
 
 	enum class LobbyMemberStatus : ::System::Int32
 	{

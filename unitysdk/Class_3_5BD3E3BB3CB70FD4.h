@@ -5,15 +5,15 @@
 class Class_1_EFDEDB2BC2764B7D;
 namespace RPG::GameCore { class MarbleByCompareValue; }
 
-#define CLASS_3_5BD3E3BB3CB70FD4_METHOD_3_E5E107455A104BAC_OFFSET UNITYSDK_OFFSET(0x1B247980)
-#define CLASS_3_5BD3E3BB3CB70FD4__CTOR_OFFSET UNITYSDK_OFFSET(0x1B247960)
+#define CLASS_3_5BD3E3BB3CB70FD4_METHOD_3_E5E107455A104BAC_OFFSET UNITYSDK_OFFSET(0x1CDF84D0)
+#define CLASS_3_5BD3E3BB3CB70FD4__CTOR_OFFSET UNITYSDK_OFFSET(0x1CDF84B0)
 
-inline static constexpr unsigned int Class_3_5BD3E3BB3CB70FD4_TypeDefinitionIndex = 40570;
+inline static constexpr unsigned int Class_3_5BD3E3BB3CB70FD4_TypeDefinitionIndex = 41508;
 
 class Class_3_5BD3E3BB3CB70FD4 : public ::Class_2_A047D65884258648
 {
 public:
-	::RPG::GameCore::MarbleByCompareValue* Field_3_0; // 0x30
+	::RPG::GameCore::MarbleByCompareValue* IGHAHBNLIJA; // 0x30
 
 	::System::Void _ctor(::RPG::GameCore::MarbleByCompareValue* a1, ::Class_1_EFDEDB2BC2764B7D* a2)
 	{

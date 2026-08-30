@@ -6,17 +6,17 @@ namespace RPG::Client { class IMissionChroniclePathUnlockConditionData; }
 namespace RPG::Client { class MissionChronicleBasePathData; }
 namespace System::Collections::Generic { template <typename T> class ICollection_1; }
 
-#define CLASS_1_3E359368FE6FB852_METHOD_1_9F2E6C28EBE466FC_OFFSET UNITYSDK_OFFSET(0x17531B00)
-#define CLASS_1_3E359368FE6FB852_METHOD_1_A98E115203527638_OFFSET UNITYSDK_OFFSET(0x17530EC0)
-#define CLASS_1_3E359368FE6FB852_METHOD_1_D6FCEF563263539D_OFFSET UNITYSDK_OFFSET(0x17530A10)
-#define CLASS_1_3E359368FE6FB852__CTOR_OFFSET UNITYSDK_OFFSET(0x17530A00)
+#define CLASS_1_3E359368FE6FB852_METHOD_1_9F2E6C28EBE466FC_OFFSET UNITYSDK_OFFSET(0x19AF1EE0)
+#define CLASS_1_3E359368FE6FB852_METHOD_1_A98E115203527638_OFFSET UNITYSDK_OFFSET(0x19AF12A0)
+#define CLASS_1_3E359368FE6FB852_METHOD_1_D6FCEF563263539D_OFFSET UNITYSDK_OFFSET(0x19AF0DF0)
+#define CLASS_1_3E359368FE6FB852__CTOR_OFFSET UNITYSDK_OFFSET(0x19AF0DE0)
 
-inline static constexpr unsigned int Class_1_3E359368FE6FB852_TypeDefinitionIndex = 63172;
+inline static constexpr unsigned int Class_1_3E359368FE6FB852_TypeDefinitionIndex = 66157;
 
 class Class_1_3E359368FE6FB852 : public ::System::Object
 {
 public:
-	::RPG::Client::MissionChronicleBasePathData* Field_1_0; // 0x10
+	::RPG::Client::MissionChronicleBasePathData* DDPCPAHNLCL; // 0x10
 
 	::System::Void _ctor(::RPG::Client::MissionChronicleBasePathData* a1)
 	{

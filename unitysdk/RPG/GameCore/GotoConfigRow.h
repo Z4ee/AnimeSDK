@@ -5,22 +5,22 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_GOTOCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C5BE590)
-#define RPG_GAMECORE_GOTOCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5BEC30)
+#define RPG_GAMECORE_GOTOCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D95C950)
+#define RPG_GAMECORE_GOTOCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D95CFF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GotoConfigRow_TypeDefinitionIndex = 12831;
+	inline static constexpr unsigned int GotoConfigRow_TypeDefinitionIndex = 13222;
 
 	class GotoConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::String*>* ParamStringList; // 0x10
 		::Il2CppArray<::System::UInt32>* ParamIntList; // 0x18
-		::System::UInt32 UnlockID; // 0x20
-		::System::UInt32 ID; // 0x24
-		::System::UInt32 UnlockMainMission; // 0x28
-		::System::UInt32 GotoType; // 0x2C
+		::System::UInt32 ID; // 0x20
+		::System::UInt32 GotoType; // 0x24
+		::System::UInt32 UnlockID; // 0x28
+		::System::UInt32 UnlockMainMission; // 0x2C
 
 		::System::Void _ctor()
 		{

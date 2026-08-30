@@ -8,7 +8,7 @@ namespace System { class String; }
 
 namespace RPG::Client::FateRin::Battle
 {
-	inline static constexpr unsigned int IFateRinBattleStatusViewModel_TypeDefinitionIndex = 75995;
+	inline static constexpr unsigned int IFateRinBattleStatusViewModel_TypeDefinitionIndex = 79628;
 
 	class IFateRinBattleStatusViewModel
 	{

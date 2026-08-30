@@ -5,20 +5,20 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_GRIDFIGHTGAMETUTORIALTOPHINTPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x194FA7E0)
+#define RPG_CLIENT_GRIDFIGHTGAMETUTORIALTOPHINTPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA40650)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGameTutorialTopHintParam_TypeDefinitionIndex = 62587;
+	inline static constexpr unsigned int GridFightGameTutorialTopHintParam_TypeDefinitionIndex = 65572;
 
 	class GridFightGameTutorialTopHintParam : public ::System::Object
 	{
 	public:
 		::System::String* IconPath; // 0x10
-		::System::UInt32 TotalProgress; // 0x18
-		::System::UInt32 CurProgress; // 0x1C
-		::RPG::Client::TextID Title; // 0x20
-		::System::Boolean IsFinished; // 0x30
+		::RPG::Client::TextID Title; // 0x18
+		::System::UInt32 CurProgress; // 0x28
+		::System::Boolean IsFinished; // 0x2C
+		::System::UInt32 TotalProgress; // 0x30
 
 		::System::Void _ctor()
 		{

@@ -7,20 +7,20 @@ class Class_1_2B7C9DBFAA4300DE;
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_IDLELIVESPEQUIPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B0072F0)
-#define RPG_GAMECORE_IDLELIVESPEQUIPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B007520)
+#define RPG_GAMECORE_IDLELIVESPEQUIPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D214890)
+#define RPG_GAMECORE_IDLELIVESPEQUIPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D214AC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveSpEquipRow_TypeDefinitionIndex = 11350;
+	inline static constexpr unsigned int IdleLiveSpEquipRow_TypeDefinitionIndex = 11739;
 
 	class IdleLiveSpEquipRow : public ::System::Object
 	{
 	public:
-		::Class_1_2B7C9DBFAA4300DE* HpParam; // 0x10
-		::Class_1_2B7C9DBFAA4300DE* AttackParam; // 0x18
-		::Class_1_2B7C9DBFAA4300DE* DefenceParam; // 0x20
-		::System::String* IconPath; // 0x28
+		::System::String* IconPath; // 0x10
+		::Class_1_2B7C9DBFAA4300DE* HpParam; // 0x18
+		::Class_1_2B7C9DBFAA4300DE* AttackParam; // 0x20
+		::Class_1_2B7C9DBFAA4300DE* DefenceParam; // 0x28
 		::System::UInt32 ID; // 0x30
 		::RPG::Client::TextID Name; // 0x38
 

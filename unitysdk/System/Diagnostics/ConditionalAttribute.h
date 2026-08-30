@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define SYSTEM_DIAGNOSTICS_CONDITIONALATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x18D1AAF0)
+#define SYSTEM_DIAGNOSTICS_CONDITIONALATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A559850)
 
 namespace System::Diagnostics
 {
-	inline static constexpr unsigned int ConditionalAttribute_TypeDefinitionIndex = 1565;
+	inline static constexpr unsigned int ConditionalAttribute_TypeDefinitionIndex = 1572;
 
 	class ConditionalAttribute : public ::System::Attribute
 	{

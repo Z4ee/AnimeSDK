@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class AvatarLineupKeyLevelConfig; }
 
-#define RPG_GAMECORE_AVATARLINEUPPRESETCONFIG_METHOD_2_FAF6BE1846EFFF86_OFFSET UNITYSDK_OFFSET(0x1A07BB80)
-#define RPG_GAMECORE_AVATARLINEUPPRESETCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A07BD10)
+#define RPG_GAMECORE_AVATARLINEUPPRESETCONFIG_METHOD_2_FAF6BE1846EFFF86_OFFSET UNITYSDK_OFFSET(0x1C591010)
+#define RPG_GAMECORE_AVATARLINEUPPRESETCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5911A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarLineupPresetConfig_TypeDefinitionIndex = 17404;
+	inline static constexpr unsigned int AvatarLineupPresetConfig_TypeDefinitionIndex = 17921;
 
 	class AvatarLineupPresetConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -6,29 +6,29 @@ namespace RPG::Client { class MonsterData; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_STARFIGHTUTILS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17B61CC0)
-#define RPG_CLIENT_STARFIGHTUTILS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17B61D00)
-#define RPG_CLIENT_STARFIGHTUTILS___C__GETMONSTERDATALIST_B__0_0_OFFSET UNITYSDK_OFFSET(0x17B61D10)
-#define RPG_CLIENT_STARFIGHTUTILS___C__GETMONSTERDATALIST_B__0_1_OFFSET UNITYSDK_OFFSET(0x17B61D30)
+#define RPG_CLIENT_STARFIGHTUTILS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A4FD3E0)
+#define RPG_CLIENT_STARFIGHTUTILS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4FD420)
+#define RPG_CLIENT_STARFIGHTUTILS___C__GETMONSTERDATALIST_B__0_0_OFFSET UNITYSDK_OFFSET(0x1A4FD430)
+#define RPG_CLIENT_STARFIGHTUTILS___C__GETMONSTERDATALIST_B__0_1_OFFSET UNITYSDK_OFFSET(0x1A4FD450)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StarFightUtils___c_TypeDefinitionIndex = 64974;
+	inline static constexpr unsigned int StarFightUtils___c_TypeDefinitionIndex = 67981;
 
 	class StarFightUtils___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::StarFightUtils___c** StaticGet___9()
-		{
-			return (::RPG::Client::StarFightUtils___c**)Il2CppClass::FromTypeDefinitionIndex(StarFightUtils___c_TypeDefinitionIndex)->GetStaticField(0x37540);
-		}
 		static ::System::Comparison_1<::RPG::Client::MonsterData*>** StaticGet___9__0_1()
 		{
-			return (::System::Comparison_1<::RPG::Client::MonsterData*>**)Il2CppClass::FromTypeDefinitionIndex(StarFightUtils___c_TypeDefinitionIndex)->GetStaticField(0x37548);
+			return (::System::Comparison_1<::RPG::Client::MonsterData*>**)Il2CppClass::FromTypeDefinitionIndex(StarFightUtils___c_TypeDefinitionIndex)->GetStaticField(0x31F50);
 		}
 		static ::System::Func_2<::RPG::Client::MonsterData*, ::System::UInt32>** StaticGet___9__0_0()
 		{
-			return (::System::Func_2<::RPG::Client::MonsterData*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(StarFightUtils___c_TypeDefinitionIndex)->GetStaticField(0x37550);
+			return (::System::Func_2<::RPG::Client::MonsterData*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(StarFightUtils___c_TypeDefinitionIndex)->GetStaticField(0x31F58);
+		}
+		static ::RPG::Client::StarFightUtils___c** StaticGet___9()
+		{
+			return (::RPG::Client::StarFightUtils___c**)Il2CppClass::FromTypeDefinitionIndex(StarFightUtils___c_TypeDefinitionIndex)->GetStaticField(0x31F60);
 		}
 
 		static ::System::Void _cctor()

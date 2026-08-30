@@ -3,7 +3,7 @@
 
 namespace BansheeGz::BGSpline::Curve
 {
-	inline static constexpr unsigned int BGCurve_ForceChangedEventModeEnum_TypeDefinitionIndex = 34444;
+	inline static constexpr unsigned int BGCurve_ForceChangedEventModeEnum_TypeDefinitionIndex = 35304;
 
 	enum class BGCurve_ForceChangedEventModeEnum : ::System::Int32
 	{

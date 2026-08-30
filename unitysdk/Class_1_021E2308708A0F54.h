@@ -4,14 +4,14 @@
 
 namespace RPG::GameCore { class FlappyScrollAgentConfig; }
 
-#define CLASS_1_021E2308708A0F54__CTOR_OFFSET UNITYSDK_OFFSET(0x180DC680)
+#define CLASS_1_021E2308708A0F54__CTOR_OFFSET UNITYSDK_OFFSET(0x1BAAF220)
 
-inline static constexpr unsigned int Class_1_021E2308708A0F54_TypeDefinitionIndex = 40771;
+inline static constexpr unsigned int Class_1_021E2308708A0F54_TypeDefinitionIndex = 41725;
 
 class Class_1_021E2308708A0F54 : public ::System::Object
 {
 public:
-	::RPG::GameCore::FlappyScrollAgentConfig* Field_1_0; // 0x10
+	::RPG::GameCore::FlappyScrollAgentConfig* EABKOHGCHFP; // 0x10
 
 	::System::Void _ctor()
 	{

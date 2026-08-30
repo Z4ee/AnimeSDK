@@ -8,11 +8,11 @@ namespace StageBudgetTool { class Room; }
 namespace StageBudgetTool { class Volume; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define STAGEBUDGETTOOL_STAGEBUDGETCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x14EC56D0)
+#define STAGEBUDGETTOOL_STAGEBUDGETCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x197E56A0)
 
 namespace StageBudgetTool
 {
-	inline static constexpr unsigned int StageBudgetConfig_TypeDefinitionIndex = 45961;
+	inline static constexpr unsigned int StageBudgetConfig_TypeDefinitionIndex = 48184;
 
 	class StageBudgetConfig : public ::UnityEngine::ScriptableObject
 	{

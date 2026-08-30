@@ -5,45 +5,45 @@
 
 namespace System { class String; }
 
-#define CLASS_1_0432009848C0E0D6_1__CCTOR_OFFSET UNITYSDK_OFFSET(0x187AADD0)
+#define CLASS_1_0432009848C0E0D6_1__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A9FA4D0)
 
-inline static constexpr unsigned int Class_1_0432009848C0E0D6_1_TypeDefinitionIndex = 39666;
+inline static constexpr unsigned int Class_1_0432009848C0E0D6_1_TypeDefinitionIndex = 40539;
 
 class Class_1_0432009848C0E0D6_1 : public ::System::Object
 {
 public:
-	static ::Il2CppArray<::System::RuntimeTypeHandle>** StaticGet_Field_1_0()
+	static ::Il2CppArray<::System::RuntimeTypeHandle>** StaticGet_FJFMMIIMAGL()
 	{
-		return (::Il2CppArray<::System::RuntimeTypeHandle>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_0432009848C0E0D6_1_TypeDefinitionIndex)->GetStaticField(0x34880);
+		return (::Il2CppArray<::System::RuntimeTypeHandle>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_0432009848C0E0D6_1_TypeDefinitionIndex)->GetStaticField(0x39C30);
 	}
-	static ::Il2CppArray<::System::String*>** StaticGet_Field_1_1()
+	static ::Il2CppArray<::System::String*>** StaticGet_MLFGMEBDJLD()
 	{
-		return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_0432009848C0E0D6_1_TypeDefinitionIndex)->GetStaticField(0x34888);
+		return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_0432009848C0E0D6_1_TypeDefinitionIndex)->GetStaticField(0x39C38);
 	}
-	// static const ::System::Int32 Field_1_2 = 0x0; // 0x0
-	// static const ::System::Int32 Field_1_3 = 0x1; // 0x0
-	// static const ::System::Int32 Field_1_4 = 0x2; // 0x0
-	// static const ::System::Int32 Field_1_5 = 0x3; // 0x0
-	// static const ::System::Int32 Field_1_6 = 0x4; // 0x0
-	// static const ::System::Int32 Field_1_7 = 0x5; // 0x0
-	// static const ::System::Int32 Field_1_8 = 0x6; // 0x0
-	// static const ::System::Int32 Field_1_9 = 0x7; // 0x0
-	// static const ::System::Int32 Field_1_10 = 0x8; // 0x0
-	// static const ::System::Int32 Field_1_11 = 0x9; // 0x0
-	// static const ::System::Int32 Field_1_12 = 0xA; // 0x0
-	// static const ::System::Int32 Field_1_13 = 0xB; // 0x0
-	// static const ::System::Int32 Field_1_14 = 0xC; // 0x0
-	// static const ::System::Int32 Field_1_15 = 0xD; // 0x0
-	// static const ::System::Int32 Field_1_16 = 0xE; // 0x0
-	// static const ::System::Int32 Field_1_17 = 0xF; // 0x0
-	// static const ::System::Int32 Field_1_18 = 0x10; // 0x0
-	// static const ::System::Int32 Field_1_19 = 0x11; // 0x0
-	// static const ::System::Int32 Field_1_20 = 0x12; // 0x0
-	// static const ::System::Int32 Field_1_21 = 0x13; // 0x0
-	// static const ::System::Int32 Field_1_22 = 0x14; // 0x0
-	// static const ::System::Int32 Field_1_23 = 0x15; // 0x0
-	// static const ::System::Int32 Field_1_24 = 0x16; // 0x0
-	// static const ::System::Int32 Field_1_25 = 0x17; // 0x0
+	// static const ::System::Int32 DJIPPDICEGB = 0x0; // 0x0
+	// static const ::System::Int32 ICHBHNHEKNM = 0x1; // 0x0
+	// static const ::System::Int32 MLBDBGHGPKK = 0x2; // 0x0
+	// static const ::System::Int32 JDFJMPHPAHK = 0x3; // 0x0
+	// static const ::System::Int32 BEGCBNAAKFG = 0x4; // 0x0
+	// static const ::System::Int32 AJGOEJHKOKE = 0x5; // 0x0
+	// static const ::System::Int32 BGDEPINODJN = 0x6; // 0x0
+	// static const ::System::Int32 NLFCABFPJHD = 0x7; // 0x0
+	// static const ::System::Int32 PGIDENFONNA = 0x8; // 0x0
+	// static const ::System::Int32 PLJEIOIBEFJ = 0x9; // 0x0
+	// static const ::System::Int32 ILHMIIBGBCB = 0xA; // 0x0
+	// static const ::System::Int32 FODBMMCKAEN = 0xB; // 0x0
+	// static const ::System::Int32 LDPNBEGMBJL = 0xC; // 0x0
+	// static const ::System::Int32 MCLLALGABAB = 0xD; // 0x0
+	// static const ::System::Int32 MAHNJMEJDMD = 0xE; // 0x0
+	// static const ::System::Int32 CIHDMACAGPN = 0xF; // 0x0
+	// static const ::System::Int32 BMDGOBBDEMM = 0x10; // 0x0
+	// static const ::System::Int32 NIOJMANDKML = 0x11; // 0x0
+	// static const ::System::Int32 AAFFJOLPJLP = 0x12; // 0x0
+	// static const ::System::Int32 OINDPPOAHKE = 0x13; // 0x0
+	// static const ::System::Int32 BIKKGDDMNNF = 0x14; // 0x0
+	// static const ::System::Int32 LCPEEHIMCNO = 0x15; // 0x0
+	// static const ::System::Int32 DICDJJOJKGF = 0x16; // 0x0
+	// static const ::System::Int32 DHFEBPAFDIF = 0x17; // 0x0
 
 	static ::System::Void _cctor()
 	{

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetTargetDefaultDamageDisplayData; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_794AE3AFC54D112C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16EF9700)
-#define CLASS_3_794AE3AFC54D112C__CTOR_OFFSET UNITYSDK_OFFSET(0x16EF96D0)
+#define CLASS_3_794AE3AFC54D112C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18A8BB60)
+#define CLASS_3_794AE3AFC54D112C__CTOR_OFFSET UNITYSDK_OFFSET(0x18A8BB30)
 
-inline static constexpr unsigned int Class_3_794AE3AFC54D112C_TypeDefinitionIndex = 53065;
+inline static constexpr unsigned int Class_3_794AE3AFC54D112C_TypeDefinitionIndex = 55772;
 
 class Class_3_794AE3AFC54D112C : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetTargetDefaultDamageDisplayData*>
 {

@@ -3,21 +3,18 @@
 #include "unitysdk/System/Object.h"
 
 namespace MiHoYo::SDK { class AccountModel; }
-namespace MiHoYo::SDK { class JSONObject; }
 namespace MiHoYo::SDK { class NetworkResponseModelEx; }
 namespace MiHoYo::SDK::PC::OS { class GooglePlayBillingPayInfo; }
-namespace MiHoYo::SDK::PC::OS { class PurchaseData; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_PC_OS_GOOGLEPAYMENTNETWORKREQUEST_CREATEORDER_OFFSET UNITYSDK_OFFSET(0x1993C2B0)
-#define MIHOYO_SDK_PC_OS_GOOGLEPAYMENTNETWORKREQUEST_FIRSTPAYMENT_OFFSET UNITYSDK_OFFSET(0x1993E000)
-#define MIHOYO_SDK_PC_OS_GOOGLEPAYMENTNETWORKREQUEST_PROCESSRECEIPTTOJSON_OFFSET UNITYSDK_OFFSET(0x1993BE10)
-#define MIHOYO_SDK_PC_OS_GOOGLEPAYMENTNETWORKREQUEST_VERIFYRECEIPT_OFFSET UNITYSDK_OFFSET(0x1993D430)
-#define MIHOYO_SDK_PC_OS_GOOGLEPAYMENTNETWORKREQUEST__CTOR_OFFSET UNITYSDK_OFFSET(0x1993EBB0)
+#define MIHOYO_SDK_PC_OS_GOOGLEPAYMENTNETWORKREQUEST_CREATEORDER_OFFSET UNITYSDK_OFFSET(0x1A262370)
+#define MIHOYO_SDK_PC_OS_GOOGLEPAYMENTNETWORKREQUEST_FIRSTPAYMENT_OFFSET UNITYSDK_OFFSET(0x1A2640F0)
+#define MIHOYO_SDK_PC_OS_GOOGLEPAYMENTNETWORKREQUEST_VERIFYRECEIPT_OFFSET UNITYSDK_OFFSET(0x1A2634F0)
+#define MIHOYO_SDK_PC_OS_GOOGLEPAYMENTNETWORKREQUEST__CTOR_OFFSET UNITYSDK_OFFSET(0x1A264D00)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int GooglePaymentNetworkRequest_TypeDefinitionIndex = 8431;
+	inline static constexpr unsigned int GooglePaymentNetworkRequest_TypeDefinitionIndex = 8480;
 
 	class GooglePaymentNetworkRequest : public ::System::Object
 	{
@@ -27,11 +24,6 @@ namespace MiHoYo::SDK::PC::OS
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_GOOGLEPAYMENTNETWORKREQUEST__CTOR_OFFSET))(this);
-		}
-
-		static ::MiHoYo::SDK::JSONObject* ProcessReceiptToJson(::MiHoYo::SDK::PC::OS::PurchaseData* a1)
-		{
-			return ((::MiHoYo::SDK::JSONObject*(*)(::MiHoYo::SDK::PC::OS::PurchaseData*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_GOOGLEPAYMENTNETWORKREQUEST_PROCESSRECEIPTTOJSON_OFFSET))(a1);
 		}
 
 		static ::System::Void CreateOrder(::MiHoYo::SDK::AccountModel* a1, ::MiHoYo::SDK::PC::OS::GooglePlayBillingPayInfo* a2, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModelEx*>* a3)

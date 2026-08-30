@@ -9,30 +9,30 @@ namespace RPG::Client { class LookAtTargetConstraint; }
 namespace UnityEngine { class MonoBehaviour; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_LOOKATIK_LOOKATCACHEDATA_COPYTO_OFFSET UNITYSDK_OFFSET(0x15BE44C0)
-#define RPG_CLIENT_LOOKATIK_LOOKATCACHEDATA_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15BE47A0)
-#define RPG_CLIENT_LOOKATIK_LOOKATCACHEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x15BDB080)
+#define RPG_CLIENT_LOOKATIK_LOOKATCACHEDATA_COPYTO_OFFSET UNITYSDK_OFFSET(0x1863B300)
+#define RPG_CLIENT_LOOKATIK_LOOKATCACHEDATA_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1863B5E0)
+#define RPG_CLIENT_LOOKATIK_LOOKATCACHEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18631E10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LookAtIK_LookAtCacheData_TypeDefinitionIndex = 65422;
+	inline static constexpr unsigned int LookAtIK_LookAtCacheData_TypeDefinitionIndex = 68436;
 
 	class LookAtIK_LookAtCacheData : public ::System::Object
 	{
 	public:
 		::RPG::Client::LookAtTargetConstraint* LookAtConstraint; // 0x10
-		::RPG::Client::LookAtTargetData LookAtData; // 0x18
-		::UnityEngine::Transform* LookAtTarget; // 0xA0
-		::System::Single StopSpeed; // 0xA8
-		::System::Single OverrideLookAtSpeed; // 0xAC
-		::System::Single UpDownFilterIntensity; // 0xB0
-		::System::Single Speed; // 0xB4
-		::UnityEngine::Vector3 PrevTracePos; // 0xB8
-		::System::Single FadeOutTime; // 0xC4
-		::System::Single FadeInTime; // 0xC8
+		::UnityEngine::Transform* LookAtTarget; // 0x18
+		::RPG::Client::LookAtTargetData LookAtData; // 0x20
+		::System::Single FadeOutTime; // 0xA8
+		::System::Single LookAtToTargetSpeed; // 0xAC
+		::System::Single FadeInTime; // 0xB0
+		::System::Single LeftRightFilterIntensity; // 0xB4
+		::System::Single Speed; // 0xB8
+		::System::Single OverrideLookAtSpeed; // 0xBC
+		::UnityEngine::Vector3 PrevTracePos; // 0xC0
 		::System::Single OverrideLookAtFadeInTime; // 0xCC
-		::System::Single LeftRightFilterIntensity; // 0xD0
-		::System::Single LookAtToTargetSpeed; // 0xD4
+		::System::Single UpDownFilterIntensity; // 0xD0
+		::System::Single StopSpeed; // 0xD4
 		::System::Single OverrideLookAtFadeOutTime; // 0xD8
 
 		::System::Void _ctor(::RPG::Client::LookAtIK* a1)

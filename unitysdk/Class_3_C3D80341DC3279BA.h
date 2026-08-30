@@ -8,16 +8,16 @@ namespace RPG::GameCore { class SetMonsterHitCountEnergyBarState; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 
-#define CLASS_3_C3D80341DC3279BA_METHOD_3_CD0979951400C3FD_OFFSET UNITYSDK_OFFSET(0x1865C0F0)
-#define CLASS_3_C3D80341DC3279BA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1865BBA0)
-#define CLASS_3_C3D80341DC3279BA__CTOR_OFFSET UNITYSDK_OFFSET(0x1865BB70)
+#define CLASS_3_C3D80341DC3279BA_METHOD_3_CD0979951400C3FD_OFFSET UNITYSDK_OFFSET(0x186C3320)
+#define CLASS_3_C3D80341DC3279BA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x186C2DD0)
+#define CLASS_3_C3D80341DC3279BA__CTOR_OFFSET UNITYSDK_OFFSET(0x186C2DA0)
 
-inline static constexpr unsigned int Class_3_C3D80341DC3279BA_TypeDefinitionIndex = 53033;
+inline static constexpr unsigned int Class_3_C3D80341DC3279BA_TypeDefinitionIndex = 55738;
 
 class Class_3_C3D80341DC3279BA : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetMonsterHitCountEnergyBarState*>
 {
 public:
-	// static const ::System::String* Field_3_0; // 0x0
+	// static const ::System::String* GJELMKNIJCM; // 0x0
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetMonsterHitCountEnergyBarState* a2)
 	{

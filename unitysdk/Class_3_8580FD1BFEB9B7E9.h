@@ -6,15 +6,15 @@
 namespace RPG::GameCore { class SetDynamicValueByStanceCount; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_8580FD1BFEB9B7E9_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x169DB810)
-#define CLASS_3_8580FD1BFEB9B7E9__CTOR_OFFSET UNITYSDK_OFFSET(0x169DB730)
+#define CLASS_3_8580FD1BFEB9B7E9_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16578AA0)
+#define CLASS_3_8580FD1BFEB9B7E9__CTOR_OFFSET UNITYSDK_OFFSET(0x165789C0)
 
-inline static constexpr unsigned int Class_3_8580FD1BFEB9B7E9_TypeDefinitionIndex = 52956;
+inline static constexpr unsigned int Class_3_8580FD1BFEB9B7E9_TypeDefinitionIndex = 55661;
 
 class Class_3_8580FD1BFEB9B7E9 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetDynamicValueByStanceCount*>
 {
 public:
-	::RPG::GameCore::StringHash Field_3_0; // 0x28
+	::RPG::GameCore::StringHash DIJHOMCLPEG; // 0x28
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetDynamicValueByStanceCount* a2)
 	{

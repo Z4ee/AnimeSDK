@@ -14,13 +14,13 @@ namespace RPG::GameCore { class FiveDimPhysicsConfig; }
 namespace RPG::GameCore { class FiveDimPlayerConfig; }
 namespace RPG::GameCore { class FiveDimScrollConfig; }
 
-#define RPG_GAMECORE_FIVEDIMGAMECONFIG_METHOD_3_2C07264725A5DBB7_OFFSET UNITYSDK_OFFSET(0x1BA97750)
-#define RPG_GAMECORE_FIVEDIMGAMECONFIG_METHOD_3_5CA1C5FA574F259A_OFFSET UNITYSDK_OFFSET(0x1BA97710)
-#define RPG_GAMECORE_FIVEDIMGAMECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA97740)
+#define RPG_GAMECORE_FIVEDIMGAMECONFIG_METHOD_3_2C07264725A5DBB7_OFFSET UNITYSDK_OFFSET(0x1D85FEA0)
+#define RPG_GAMECORE_FIVEDIMGAMECONFIG_METHOD_3_5CA1C5FA574F259A_OFFSET UNITYSDK_OFFSET(0x1D85FE60)
+#define RPG_GAMECORE_FIVEDIMGAMECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D85FE90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimGameConfig_TypeDefinitionIndex = 16064;
+	inline static constexpr unsigned int FiveDimGameConfig_TypeDefinitionIndex = 16540;
 
 	class FiveDimGameConfig : public ::RPG::GameCore::LittleGameConstConfig
 	{

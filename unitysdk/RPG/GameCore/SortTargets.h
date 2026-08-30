@@ -8,13 +8,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class PredicateConfig; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SORTTARGETS_METHOD_3_B488E02FFDF15C83_OFFSET UNITYSDK_OFFSET(0x1BE53610)
-#define RPG_GAMECORE_SORTTARGETS_METHOD_3_C2E746C5414F7E12_OFFSET UNITYSDK_OFFSET(0x1BE53700)
-#define RPG_GAMECORE_SORTTARGETS__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE536A0)
+#define RPG_GAMECORE_SORTTARGETS_METHOD_3_B488E02FFDF15C83_OFFSET UNITYSDK_OFFSET(0x1D0A72D0)
+#define RPG_GAMECORE_SORTTARGETS_METHOD_3_C2E746C5414F7E12_OFFSET UNITYSDK_OFFSET(0x1D0A73C0)
+#define RPG_GAMECORE_SORTTARGETS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0A7360)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SortTargets_TypeDefinitionIndex = 22311;
+	inline static constexpr unsigned int SortTargets_TypeDefinitionIndex = 22880;
 
 	class SortTargets : public ::RPG::GameCore::TaskConfig
 	{

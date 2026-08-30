@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TurnInsertActionConditionType_TypeDefinitionIndex = 17523;
+	inline static constexpr unsigned int TurnInsertActionConditionType_TypeDefinitionIndex = 18041;
 
 	enum class TurnInsertActionConditionType : ::System::Int32
 	{

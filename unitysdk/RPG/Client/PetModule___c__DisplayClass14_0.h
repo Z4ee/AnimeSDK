@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_D17272E82AE804C2_766;
+class Class_1_D17272E82AE804C2_784;
 namespace RPG::Client { class PetModule; }
 
-#define RPG_CLIENT_PETMODULE___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17F4DC30)
-#define RPG_CLIENT_PETMODULE___C__DISPLAYCLASS14_0___ONCMDSUMMONPETSCRSP_B__0_OFFSET UNITYSDK_OFFSET(0x17F4E720)
+#define RPG_CLIENT_PETMODULE___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18660000)
+#define RPG_CLIENT_PETMODULE___C__DISPLAYCLASS14_0___ONCMDSUMMONPETSCRSP_B__0_OFFSET UNITYSDK_OFFSET(0x18660AF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PetModule___c__DisplayClass14_0_TypeDefinitionIndex = 63504;
+	inline static constexpr unsigned int PetModule___c__DisplayClass14_0_TypeDefinitionIndex = 66489;
 
 	class PetModule___c__DisplayClass14_0 : public ::System::Object
 	{
 	public:
-		::Class_1_D17272E82AE804C2_766* rsp; // 0x10
+		::Class_1_D17272E82AE804C2_784* rsp; // 0x10
 		::RPG::Client::PetModule* __4__this; // 0x18
 
 		::System::Void _ctor()

@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_DYNAMICPARAM_METHOD_2_AEAAAC4A80275338_OFFSET UNITYSDK_OFFSET(0x1BB2AF40)
-#define RPG_GAMECORE_DYNAMICPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB2B0F0)
+#define RPG_GAMECORE_DYNAMICPARAM_METHOD_2_AEAAAC4A80275338_OFFSET UNITYSDK_OFFSET(0x1DB1CF30)
+#define RPG_GAMECORE_DYNAMICPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB1D0E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DynamicParam_TypeDefinitionIndex = 17395;
+	inline static constexpr unsigned int DynamicParam_TypeDefinitionIndex = 17912;
 
 	class DynamicParam : public ::RPG::GameCore::JsonConfig
 	{

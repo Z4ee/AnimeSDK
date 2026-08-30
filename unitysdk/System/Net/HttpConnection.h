@@ -25,65 +25,65 @@ namespace System::Security::Cryptography::X509Certificates { class X509Chain; }
 namespace System::Text { class StringBuilder; }
 namespace System::Threading { class Timer; }
 
-#define SYSTEM_NET_HTTPCONNECTION_BEGINREADREQUEST_OFFSET UNITYSDK_OFFSET(0x195E2340)
-#define SYSTEM_NET_HTTPCONNECTION_CLOSESOCKET_OFFSET UNITYSDK_OFFSET(0x195F7B80)
-#define SYSTEM_NET_HTTPCONNECTION_CLOSE_OFFSET UNITYSDK_OFFSET(0x195E4B10)
-#define SYSTEM_NET_HTTPCONNECTION_GETREQUESTSTREAM_OFFSET UNITYSDK_OFFSET(0x195F7C90)
-#define SYSTEM_NET_HTTPCONNECTION_GETRESPONSESTREAM_OFFSET UNITYSDK_OFFSET(0x195F7FD0)
-#define SYSTEM_NET_HTTPCONNECTION_GET_ISSECURE_OFFSET UNITYSDK_OFFSET(0x195F7A60)
-#define SYSTEM_NET_HTTPCONNECTION_GET_LOCALENDPOINT_OFFSET UNITYSDK_OFFSET(0x195F79F0)
-#define SYSTEM_NET_HTTPCONNECTION_GET_REUSES_OFFSET UNITYSDK_OFFSET(0x195F79E0)
-#define SYSTEM_NET_HTTPCONNECTION_INIT_OFFSET UNITYSDK_OFFSET(0x195F7800)
-#define SYSTEM_NET_HTTPCONNECTION_ONREADINTERNAL_OFFSET UNITYSDK_OFFSET(0x195F8250)
-#define SYSTEM_NET_HTTPCONNECTION_ONREAD_OFFSET UNITYSDK_OFFSET(0x195F8100)
-#define SYSTEM_NET_HTTPCONNECTION_ONTIMEOUT_OFFSET UNITYSDK_OFFSET(0x195F7A80)
-#define SYSTEM_NET_HTTPCONNECTION_PROCESSINPUT_OFFSET UNITYSDK_OFFSET(0x195F8BB0)
-#define SYSTEM_NET_HTTPCONNECTION_READLINE_OFFSET UNITYSDK_OFFSET(0x195FA2D0)
-#define SYSTEM_NET_HTTPCONNECTION_REMOVECONNECTION_OFFSET UNITYSDK_OFFSET(0x195F9A70)
-#define SYSTEM_NET_HTTPCONNECTION_SENDERROR_1_OFFSET UNITYSDK_OFFSET(0x195F8B80)
-#define SYSTEM_NET_HTTPCONNECTION_SENDERROR_OFFSET UNITYSDK_OFFSET(0x195F8900)
-#define SYSTEM_NET_HTTPCONNECTION_SET_PREFIX_OFFSET UNITYSDK_OFFSET(0x195F7A70)
-#define SYSTEM_NET_HTTPCONNECTION_UNBIND_OFFSET UNITYSDK_OFFSET(0x195F7C40)
-#define SYSTEM_NET_HTTPCONNECTION__CCTOR_OFFSET UNITYSDK_OFFSET(0x195FC820)
-#define SYSTEM_NET_HTTPCONNECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x195E1EF0)
-#define SYSTEM_NET_HTTPCONNECTION___CTOR_B__24_0_OFFSET UNITYSDK_OFFSET(0x195FC8A0)
+#define SYSTEM_NET_HTTPCONNECTION_BEGINREADREQUEST_OFFSET UNITYSDK_OFFSET(0x1B013DF0)
+#define SYSTEM_NET_HTTPCONNECTION_CLOSESOCKET_OFFSET UNITYSDK_OFFSET(0x1B029620)
+#define SYSTEM_NET_HTTPCONNECTION_CLOSE_OFFSET UNITYSDK_OFFSET(0x1B016580)
+#define SYSTEM_NET_HTTPCONNECTION_GETREQUESTSTREAM_OFFSET UNITYSDK_OFFSET(0x1B029730)
+#define SYSTEM_NET_HTTPCONNECTION_GETRESPONSESTREAM_OFFSET UNITYSDK_OFFSET(0x1B029A70)
+#define SYSTEM_NET_HTTPCONNECTION_GET_ISSECURE_OFFSET UNITYSDK_OFFSET(0x1B029500)
+#define SYSTEM_NET_HTTPCONNECTION_GET_LOCALENDPOINT_OFFSET UNITYSDK_OFFSET(0x1B029490)
+#define SYSTEM_NET_HTTPCONNECTION_GET_REUSES_OFFSET UNITYSDK_OFFSET(0x1B029480)
+#define SYSTEM_NET_HTTPCONNECTION_INIT_OFFSET UNITYSDK_OFFSET(0x1B029290)
+#define SYSTEM_NET_HTTPCONNECTION_ONREADINTERNAL_OFFSET UNITYSDK_OFFSET(0x1B029CF0)
+#define SYSTEM_NET_HTTPCONNECTION_ONREAD_OFFSET UNITYSDK_OFFSET(0x1B029BA0)
+#define SYSTEM_NET_HTTPCONNECTION_ONTIMEOUT_OFFSET UNITYSDK_OFFSET(0x1B029520)
+#define SYSTEM_NET_HTTPCONNECTION_PROCESSINPUT_OFFSET UNITYSDK_OFFSET(0x1B02A640)
+#define SYSTEM_NET_HTTPCONNECTION_READLINE_OFFSET UNITYSDK_OFFSET(0x1B02BD40)
+#define SYSTEM_NET_HTTPCONNECTION_REMOVECONNECTION_OFFSET UNITYSDK_OFFSET(0x1B02B4E0)
+#define SYSTEM_NET_HTTPCONNECTION_SENDERROR_1_OFFSET UNITYSDK_OFFSET(0x1B02A610)
+#define SYSTEM_NET_HTTPCONNECTION_SENDERROR_OFFSET UNITYSDK_OFFSET(0x1B02A390)
+#define SYSTEM_NET_HTTPCONNECTION_SET_PREFIX_OFFSET UNITYSDK_OFFSET(0x1B029510)
+#define SYSTEM_NET_HTTPCONNECTION_UNBIND_OFFSET UNITYSDK_OFFSET(0x1B0296E0)
+#define SYSTEM_NET_HTTPCONNECTION__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B02E2A0)
+#define SYSTEM_NET_HTTPCONNECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0139D0)
+#define SYSTEM_NET_HTTPCONNECTION___CTOR_B__24_0_OFFSET UNITYSDK_OFFSET(0x1B02E320)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int HttpConnection_TypeDefinitionIndex = 2839;
+	inline static constexpr unsigned int HttpConnection_TypeDefinitionIndex = 2846;
 
 	class HttpConnection : public ::System::Object
 	{
 	public:
 		static ::System::AsyncCallback** StaticGet_onread_cb()
 		{
-			return (::System::AsyncCallback**)Il2CppClass::FromTypeDefinitionIndex(HttpConnection_TypeDefinitionIndex)->GetStaticField(0x2C290);
+			return (::System::AsyncCallback**)Il2CppClass::FromTypeDefinitionIndex(HttpConnection_TypeDefinitionIndex)->GetStaticField(0x1A860);
 		}
-		::System::Net::IPEndPoint* local_ep; // 0x10
-		::Il2CppArray<::System::Int32>* client_cert_errors; // 0x18
-		::Il2CppArray<::System::Byte>* buffer; // 0x20
-		::System::Text::StringBuilder* current_line; // 0x28
-		::System::Net::RequestStream* i_stream; // 0x30
-		::System::Net::ResponseStream* o_stream; // 0x38
-		::System::Net::Security::SslStream* ssl_stream; // 0x40
-		::System::Security::Cryptography::X509Certificates::X509Certificate* cert; // 0x48
-		::System::IO::Stream* stream; // 0x50
+		::System::IO::Stream* stream; // 0x10
+		::System::Net::HttpListenerContext* context; // 0x18
+		::System::Net::ListenerPrefix* prefix; // 0x20
+		::Il2CppArray<::System::Byte>* buffer; // 0x28
+		::Il2CppArray<::System::Int32>* client_cert_errors; // 0x30
+		::System::Text::StringBuilder* current_line; // 0x38
+		::System::Net::EndPointListener* epl; // 0x40
+		::System::Security::Cryptography::X509Certificates::X509Certificate2* client_cert; // 0x48
+		::System::Net::ResponseStream* o_stream; // 0x50
 		::System::Net::Sockets::Socket* sock; // 0x58
-		::System::Net::EndPointListener* epl; // 0x60
-		::System::Net::ListenerPrefix* prefix; // 0x68
-		::System::Net::HttpListenerContext* context; // 0x70
-		::System::Security::Cryptography::X509Certificates::X509Certificate2* client_cert; // 0x78
-		::System::Threading::Timer* timer; // 0x80
-		::System::IO::MemoryStream* ms; // 0x88
-		::System::Net::HttpListener* last_listener; // 0x90
-		::System::Boolean secure; // 0x98
-		::System::Boolean context_bound; // 0x99
-		::System::Boolean chunked; // 0x9A
+		::System::IO::MemoryStream* ms; // 0x60
+		::System::Net::IPEndPoint* local_ep; // 0x68
+		::System::Security::Cryptography::X509Certificates::X509Certificate* cert; // 0x70
+		::System::Threading::Timer* timer; // 0x78
+		::System::Net::HttpListener* last_listener; // 0x80
+		::System::Net::Security::SslStream* ssl_stream; // 0x88
+		::System::Net::RequestStream* i_stream; // 0x90
+		::System::Int32 reuses; // 0x98
 		::System::Int32 s_timeout; // 0x9C
-		::System::Int32 position; // 0xA0
-		::System::Net::HttpConnection_InputState input_state; // 0xA4
-		::System::Net::HttpConnection_LineState line_state; // 0xA8
-		::System::Int32 reuses; // 0xAC
+		::System::Boolean chunked; // 0xA0
+		::System::Boolean secure; // 0xA1
+		::System::Boolean context_bound; // 0xA2
+		::System::Net::HttpConnection_LineState line_state; // 0xA4
+		::System::Int32 position; // 0xA8
+		::System::Net::HttpConnection_InputState input_state; // 0xAC
 
 		::System::Void _ctor(::System::Net::Sockets::Socket* a1, ::System::Net::EndPointListener* a2, ::System::Boolean a3, ::System::Security::Cryptography::X509Certificates::X509Certificate* a4)
 		{

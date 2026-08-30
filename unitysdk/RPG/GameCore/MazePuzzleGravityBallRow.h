@@ -5,19 +5,19 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MAZEPUZZLEGRAVITYBALLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1AF4ED40)
-#define RPG_GAMECORE_MAZEPUZZLEGRAVITYBALLROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF4EF10)
+#define RPG_GAMECORE_MAZEPUZZLEGRAVITYBALLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D27DEE0)
+#define RPG_GAMECORE_MAZEPUZZLEGRAVITYBALLROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D27E0B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MazePuzzleGravityBallRow_TypeDefinitionIndex = 13572;
+	inline static constexpr unsigned int MazePuzzleGravityBallRow_TypeDefinitionIndex = 13989;
 
 	class MazePuzzleGravityBallRow : public ::System::Object
 	{
 	public:
-		::System::String* WallPrefab; // 0x10
-		::Il2CppArray<::System::UInt32>* DestructablePropList; // 0x18
-		::System::String* HiddenStoryCode; // 0x20
+		::System::String* HiddenStoryCode; // 0x10
+		::System::String* WallPrefab; // 0x18
+		::Il2CppArray<::System::UInt32>* DestructablePropList; // 0x20
 		::System::UInt32 PuzzleID; // 0x28
 
 		::System::Void _ctor()

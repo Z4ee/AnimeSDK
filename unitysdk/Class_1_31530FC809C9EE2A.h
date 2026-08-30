@@ -4,20 +4,20 @@
 
 class Class_3_07C3C4D2990C49EE;
 
-#define CLASS_1_31530FC809C9EE2A_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18393320)
-#define CLASS_1_31530FC809C9EE2A__CTOR_OFFSET UNITYSDK_OFFSET(0x18393480)
+#define CLASS_1_31530FC809C9EE2A_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1987F2B0)
+#define CLASS_1_31530FC809C9EE2A__CTOR_OFFSET UNITYSDK_OFFSET(0x1987F410)
 
-inline static constexpr unsigned int Class_1_31530FC809C9EE2A_TypeDefinitionIndex = 53380;
+inline static constexpr unsigned int Class_1_31530FC809C9EE2A_TypeDefinitionIndex = 56094;
 
 class Class_1_31530FC809C9EE2A : public ::System::Object
 {
 public:
-	::Class_3_07C3C4D2990C49EE* Field_1_0; // 0x10
-	::Class_3_07C3C4D2990C49EE* Field_1_1; // 0x18
-	::System::Boolean Field_1_2; // 0x20
-	::System::Boolean Field_1_3; // 0x21
-	::System::Boolean Field_1_4; // 0x22
-	::System::Int32 Field_1_5; // 0x24
+	::Class_3_07C3C4D2990C49EE* FHNFLOPBOAG; // 0x10
+	::Class_3_07C3C4D2990C49EE* GEJDEFABOJM; // 0x18
+	::System::Boolean FJOJGCGNNOO; // 0x20
+	::System::Boolean LAMKDFKBGFA; // 0x21
+	::System::Boolean OOPCCJLOGEG; // 0x22
+	::System::Int32 GMDBHJKEAEI; // 0x24
 
 	::System::Void _ctor()
 	{

@@ -6,17 +6,17 @@ namespace RPG::GameCore { class AdvPropSteerV2; }
 namespace RPG::GameCore { class PropComponent; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_6F16B2FDA17087A4_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15300360)
-#define CLASS_3_6F16B2FDA17087A4_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x153003A0)
-#define CLASS_3_6F16B2FDA17087A4_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15300F60)
-#define CLASS_3_6F16B2FDA17087A4__CTOR_OFFSET UNITYSDK_OFFSET(0x15300330)
+#define CLASS_3_6F16B2FDA17087A4_DISPOSE_OFFSET UNITYSDK_OFFSET(0x165DE4D0)
+#define CLASS_3_6F16B2FDA17087A4_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x165DE510)
+#define CLASS_3_6F16B2FDA17087A4_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x165DF0A0)
+#define CLASS_3_6F16B2FDA17087A4__CTOR_OFFSET UNITYSDK_OFFSET(0x165DE4A0)
 
-inline static constexpr unsigned int Class_3_6F16B2FDA17087A4_TypeDefinitionIndex = 50090;
+inline static constexpr unsigned int Class_3_6F16B2FDA17087A4_TypeDefinitionIndex = 52752;
 
 class Class_3_6F16B2FDA17087A4 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdvPropSteerV2*>
 {
 public:
-	::RPG::GameCore::PropComponent* Field_3_0; // 0x28
+	::RPG::GameCore::PropComponent* IKHBMOJMEEM; // 0x28
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::AdvPropSteerV2* a2)
 	{

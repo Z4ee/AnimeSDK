@@ -6,18 +6,18 @@ namespace RPG::GameCore { class RuanMadeCakeFeatureConfig; }
 namespace RPG::GameCore { class RuanMadeCakeFeatureMap; }
 namespace System { class String; }
 
-#define CLASS_1_A786B7B87DCE4BC0_METHOD_1_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0x170889D0)
-#define CLASS_1_A786B7B87DCE4BC0_METHOD_1_9DD989E2BE9447B6_OFFSET UNITYSDK_OFFSET(0x17088A20)
-#define CLASS_1_A786B7B87DCE4BC0_METHOD_1_F8C7231308CD2C82_OFFSET UNITYSDK_OFFSET(0x17088930)
+#define CLASS_1_A786B7B87DCE4BC0_METHOD_1_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0x1A76F0A0)
+#define CLASS_1_A786B7B87DCE4BC0_METHOD_1_9DD989E2BE9447B6_OFFSET UNITYSDK_OFFSET(0x1A76F0F0)
+#define CLASS_1_A786B7B87DCE4BC0_METHOD_1_F8C7231308CD2C82_OFFSET UNITYSDK_OFFSET(0x1A76F000)
 
-inline static constexpr unsigned int Class_1_A786B7B87DCE4BC0_TypeDefinitionIndex = 69951;
+inline static constexpr unsigned int Class_1_A786B7B87DCE4BC0_TypeDefinitionIndex = 73208;
 
 class Class_1_A786B7B87DCE4BC0 : public ::System::Object
 {
 public:
-	static ::RPG::GameCore::RuanMadeCakeFeatureMap** StaticGet_Field_1_0()
+	static ::RPG::GameCore::RuanMadeCakeFeatureMap** StaticGet_JLCDNGKHHPJ()
 	{
-		return (::RPG::GameCore::RuanMadeCakeFeatureMap**)Il2CppClass::FromTypeDefinitionIndex(Class_1_A786B7B87DCE4BC0_TypeDefinitionIndex)->GetStaticField(0x4B7B0);
+		return (::RPG::GameCore::RuanMadeCakeFeatureMap**)Il2CppClass::FromTypeDefinitionIndex(Class_1_A786B7B87DCE4BC0_TypeDefinitionIndex)->GetStaticField(0x5F6A0);
 	}
 
 	static ::System::Void Method_1_F8C7231308CD2C82()

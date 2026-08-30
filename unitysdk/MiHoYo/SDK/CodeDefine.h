@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MIHOYO_SDK_CODEDEFINE__CTOR_OFFSET UNITYSDK_OFFSET(0x18878BE0)
+#define MIHOYO_SDK_CODEDEFINE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1B0420)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int CodeDefine_TypeDefinitionIndex = 7525;
+	inline static constexpr unsigned int CodeDefine_TypeDefinitionIndex = 7513;
 
 	class CodeDefine : public ::System::Object
 	{
@@ -38,11 +38,13 @@ namespace MiHoYo::SDK
 		// static const ::System::Int32 LOGIN_FORBIDDEN = 0xFFFFFF8B; // 0x0
 		// static const ::System::Int32 NEED_REALNAME = 0xFFFFFF8A; // 0x0
 		// static const ::System::Int32 NEED_GUARDIAN = 0xFFFFFF89; // 0x0
+		// static const ::System::Int32 HOYOPASS_TOKEN_INVALID = 0xFFFFFF9C; // 0x0
 		// static const ::System::Int32 EOS_DLL_ERROR = 0xFFFFFC17; // 0x0
 		// static const ::System::Int32 EOS_TOKEN_ERROR = 0xFFFFFC16; // 0x0
 		// static const ::System::Int32 GOOGLE_PC_TOKEN_ERROR = 0xFFFFFC15; // 0x0
 		// static const ::System::Int32 GOOGLE_PC_SDK_INIT_FAILED = 0xFFFFFC14; // 0x0
 		// static const ::System::Int32 STEAM_PC_SDK_INIT_FAILED = 0xFFFFFC13; // 0x0
+		// static const ::System::Int32 XBOX_PC_SDK_INIT_FAILED = 0xFFFFFC12; // 0x0
 		// static const ::System::Int32 WEBVIEW_ASYNC_INIT_FAIL = 0xFFFFF82F; // 0x0
 		// static const ::System::Int32 WEBVIEW_ASYNC_INIT_FALLBACK = 0xFFFFF82E; // 0x0
 		// static const ::System::Int32 BILIBILI_REJECT_PROTOCOL_ERROR = 0xFFFFC94F; // 0x0

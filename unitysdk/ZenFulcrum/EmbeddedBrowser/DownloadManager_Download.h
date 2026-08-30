@@ -5,21 +5,21 @@
 namespace System { class String; }
 namespace ZenFulcrum::EmbeddedBrowser { class Browser; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_DOWNLOADMANAGER_DOWNLOAD__CTOR_OFFSET UNITYSDK_OFFSET(0x1AB565D0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_DOWNLOADMANAGER_DOWNLOAD__CTOR_OFFSET UNITYSDK_OFFSET(0x1C7E95D0)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int DownloadManager_Download_TypeDefinitionIndex = 37342;
+	inline static constexpr unsigned int DownloadManager_Download_TypeDefinitionIndex = 38201;
 
 	class DownloadManager_Download : public ::System::Object
 	{
 	public:
-		::ZenFulcrum::EmbeddedBrowser::Browser* browser; // 0x10
-		::System::String* path; // 0x18
-		::System::String* name; // 0x20
+		::System::String* name; // 0x10
+		::ZenFulcrum::EmbeddedBrowser::Browser* browser; // 0x18
+		::System::String* path; // 0x20
 		::System::String* status; // 0x28
-		::System::Int32 percent; // 0x30
-		::System::Int32 downloadId; // 0x34
+		::System::Int32 downloadId; // 0x30
+		::System::Int32 percent; // 0x34
 		::System::Int32 speed; // 0x38
 
 		::System::Void _ctor()

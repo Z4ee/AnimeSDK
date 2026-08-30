@@ -4,9 +4,9 @@
 
 namespace System { class Exception; }
 
-#define CLASS_1_E369EBDD70BC7F2B_METHOD_1_4E5CC5E15ABB3364_OFFSET UNITYSDK_OFFSET(0x162DD780)
+#define CLASS_1_E369EBDD70BC7F2B_METHOD_1_4E5CC5E15ABB3364_OFFSET UNITYSDK_OFFSET(0x18D3B390)
 
-inline static constexpr unsigned int Class_1_E369EBDD70BC7F2B_TypeDefinitionIndex = 58527;
+inline static constexpr unsigned int Class_1_E369EBDD70BC7F2B_TypeDefinitionIndex = 61357;
 
 class Class_1_E369EBDD70BC7F2B : public ::System::Object
 {

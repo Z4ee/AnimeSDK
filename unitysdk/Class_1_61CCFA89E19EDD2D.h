@@ -6,7 +6,7 @@
 #include "unitysdk/RPG/GameCore/RelicAffixType.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_1141;
+class Class_0_16E4307DCC419505_1199;
 class Class_1_CDFB27773AA3AA22;
 namespace RPG::Client { class RelicItemData; }
 namespace RPG::Client { class RelicShowPropertyData; }
@@ -15,46 +15,46 @@ namespace RPG::GameCore { class RelicMainAffixAvatarValueRow; }
 namespace RPG::GameCore { class RelicSubAffixAvatarValueRow; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_61CCFA89E19EDD2D_GET_CONFIG_OFFSET UNITYSDK_OFFSET(0x16EDF980)
-#define CLASS_1_61CCFA89E19EDD2D_METHOD_1_00774B5C8637A4AD_OFFSET UNITYSDK_OFFSET(0x16EDF990)
-#define CLASS_1_61CCFA89E19EDD2D_METHOD_1_061739BCA68F2B1B_OFFSET UNITYSDK_OFFSET(0x16EE0730)
-#define CLASS_1_61CCFA89E19EDD2D_METHOD_1_0CEEA88BB1A12EBB_OFFSET UNITYSDK_OFFSET(0x16EE09E0)
-#define CLASS_1_61CCFA89E19EDD2D_METHOD_1_0FA8252577BC8F9E_1_OFFSET UNITYSDK_OFFSET(0x16EE0C50)
-#define CLASS_1_61CCFA89E19EDD2D_METHOD_1_0FA8252577BC8F9E_OFFSET UNITYSDK_OFFSET(0x16EE0640)
-#define CLASS_1_61CCFA89E19EDD2D_METHOD_1_30627E9B30ED700E_OFFSET UNITYSDK_OFFSET(0x16EE00C0)
-#define CLASS_1_61CCFA89E19EDD2D_METHOD_1_4ECB529DECFD6AEC_OFFSET UNITYSDK_OFFSET(0x16EDFD00)
-#define CLASS_1_61CCFA89E19EDD2D_METHOD_1_6CBB61A49BB2C474_OFFSET UNITYSDK_OFFSET(0x16EE0D30)
-#define CLASS_1_61CCFA89E19EDD2D_METHOD_1_9F2083B826458A75_OFFSET UNITYSDK_OFFSET(0x16EDFEB0)
-#define CLASS_1_61CCFA89E19EDD2D_METHOD_1_B90C05B6DE91FF5F_OFFSET UNITYSDK_OFFSET(0x16EE0AD0)
-#define CLASS_1_61CCFA89E19EDD2D_METHOD_1_C2B5A8C303F87C6E_OFFSET UNITYSDK_OFFSET(0x16EE02C0)
-#define CLASS_1_61CCFA89E19EDD2D_METHOD_1_EF6A3193F3CB74FA_OFFSET UNITYSDK_OFFSET(0x16EE0590)
-#define CLASS_1_61CCFA89E19EDD2D_METHOD_1_F922E6C4176C279E_OFFSET UNITYSDK_OFFSET(0x16EDFE50)
-#define CLASS_1_61CCFA89E19EDD2D_METHOD_1_F95954774A623827_OFFSET UNITYSDK_OFFSET(0x16EE0950)
-#define CLASS_1_61CCFA89E19EDD2D__CCTOR_OFFSET UNITYSDK_OFFSET(0x16EE0D80)
-#define CLASS_1_61CCFA89E19EDD2D__CTOR_OFFSET UNITYSDK_OFFSET(0x16EDFA20)
+#define CLASS_1_61CCFA89E19EDD2D_GET_CONFIG_OFFSET UNITYSDK_OFFSET(0x179E1A70)
+#define CLASS_1_61CCFA89E19EDD2D_METHOD_1_00774B5C8637A4AD_OFFSET UNITYSDK_OFFSET(0x179E1A80)
+#define CLASS_1_61CCFA89E19EDD2D_METHOD_1_061739BCA68F2B1B_OFFSET UNITYSDK_OFFSET(0x179E2820)
+#define CLASS_1_61CCFA89E19EDD2D_METHOD_1_0CEEA88BB1A12EBB_OFFSET UNITYSDK_OFFSET(0x179E2AD0)
+#define CLASS_1_61CCFA89E19EDD2D_METHOD_1_0FA8252577BC8F9E_1_OFFSET UNITYSDK_OFFSET(0x179E2D40)
+#define CLASS_1_61CCFA89E19EDD2D_METHOD_1_0FA8252577BC8F9E_OFFSET UNITYSDK_OFFSET(0x179E2730)
+#define CLASS_1_61CCFA89E19EDD2D_METHOD_1_30627E9B30ED700E_OFFSET UNITYSDK_OFFSET(0x179E21B0)
+#define CLASS_1_61CCFA89E19EDD2D_METHOD_1_4ECB529DECFD6AEC_OFFSET UNITYSDK_OFFSET(0x179E1DF0)
+#define CLASS_1_61CCFA89E19EDD2D_METHOD_1_6CBB61A49BB2C474_OFFSET UNITYSDK_OFFSET(0x179E2E20)
+#define CLASS_1_61CCFA89E19EDD2D_METHOD_1_9F2083B826458A75_OFFSET UNITYSDK_OFFSET(0x179E1FA0)
+#define CLASS_1_61CCFA89E19EDD2D_METHOD_1_B90C05B6DE91FF5F_OFFSET UNITYSDK_OFFSET(0x179E2BC0)
+#define CLASS_1_61CCFA89E19EDD2D_METHOD_1_C2B5A8C303F87C6E_OFFSET UNITYSDK_OFFSET(0x179E23B0)
+#define CLASS_1_61CCFA89E19EDD2D_METHOD_1_EF6A3193F3CB74FA_OFFSET UNITYSDK_OFFSET(0x179E2680)
+#define CLASS_1_61CCFA89E19EDD2D_METHOD_1_F922E6C4176C279E_OFFSET UNITYSDK_OFFSET(0x179E1F40)
+#define CLASS_1_61CCFA89E19EDD2D_METHOD_1_F95954774A623827_OFFSET UNITYSDK_OFFSET(0x179E2A40)
+#define CLASS_1_61CCFA89E19EDD2D__CCTOR_OFFSET UNITYSDK_OFFSET(0x179E2E70)
+#define CLASS_1_61CCFA89E19EDD2D__CTOR_OFFSET UNITYSDK_OFFSET(0x179E1B10)
 
-inline static constexpr unsigned int Class_1_61CCFA89E19EDD2D_TypeDefinitionIndex = 71032;
+inline static constexpr unsigned int Class_1_61CCFA89E19EDD2D_TypeDefinitionIndex = 74331;
 
 class Class_1_61CCFA89E19EDD2D : public ::System::Object
 {
 public:
-	static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AvatarPropertyType, ::RPG::GameCore::AttackDamageType>** StaticGet_Field_1_0()
+	static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AvatarPropertyType, ::RPG::GameCore::AttackDamageType>** StaticGet_CACFFENNFHD()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AvatarPropertyType, ::RPG::GameCore::AttackDamageType>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_61CCFA89E19EDD2D_TypeDefinitionIndex)->GetStaticField(0x43D10);
+		return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AvatarPropertyType, ::RPG::GameCore::AttackDamageType>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_61CCFA89E19EDD2D_TypeDefinitionIndex)->GetStaticField(0x66F90);
 	}
-	static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AvatarPropertyType, ::RPG::GameCore::AvatarPropertyType>** StaticGet_Field_1_1()
+	static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AvatarPropertyType, ::RPG::GameCore::AvatarPropertyType>** StaticGet_IBNAIAKECIE()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AvatarPropertyType, ::RPG::GameCore::AvatarPropertyType>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_61CCFA89E19EDD2D_TypeDefinitionIndex)->GetStaticField(0x43D18);
+		return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AvatarPropertyType, ::RPG::GameCore::AvatarPropertyType>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_61CCFA89E19EDD2D_TypeDefinitionIndex)->GetStaticField(0x66F98);
 	}
-	::RPG::Client::RelicSmartSuit::MainPropertyMatchChecker* Field_1_2; // 0x10
-	::RPG::GameCore::RelicMainAffixAvatarValueRow* Field_1_3; // 0x18
-	::RPG::GameCore::RelicSubAffixAvatarValueRow* Field_1_4; // 0x20
-	::Class_0_16E4307DCC419505_1141* Field_1_5; // 0x28
+	::RPG::GameCore::RelicSubAffixAvatarValueRow* LKODOEBPKKA; // 0x10
+	::Class_0_16E4307DCC419505_1199* GANLOCFFMEF; // 0x18
+	::RPG::GameCore::RelicMainAffixAvatarValueRow* NFGBGNPFFOC; // 0x20
+	::RPG::Client::RelicSmartSuit::MainPropertyMatchChecker* FDAJDAPOCCN; // 0x28
 	::RPG::Client::RelicSmartSuit::RelicScoreCalculatorConfig _Config_k__BackingField; // 0x30
 
-	::System::Void _ctor(::Class_0_16E4307DCC419505_1141* a1, ::RPG::Client::RelicSmartSuit::RelicScoreCalculatorConfig a2)
+	::System::Void _ctor(::Class_0_16E4307DCC419505_1199* a1, ::RPG::Client::RelicSmartSuit::RelicScoreCalculatorConfig a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_1141*, ::RPG::Client::RelicSmartSuit::RelicScoreCalculatorConfig))((::PBYTE)hIl2Cpp + CLASS_1_61CCFA89E19EDD2D__CTOR_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_1199*, ::RPG::Client::RelicSmartSuit::RelicScoreCalculatorConfig))((::PBYTE)hIl2Cpp + CLASS_1_61CCFA89E19EDD2D__CTOR_OFFSET))(this, a1, a2);
 	}
 
 	static ::System::Void _cctor()
@@ -67,9 +67,9 @@ public:
 		return ((::RPG::Client::RelicSmartSuit::RelicScoreCalculatorConfig(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_61CCFA89E19EDD2D_GET_CONFIG_OFFSET))(this);
 	}
 
-	static ::Class_1_61CCFA89E19EDD2D* Method_1_00774B5C8637A4AD(::Class_0_16E4307DCC419505_1141* a1, ::RPG::Client::RelicSmartSuit::RelicScoreCalculatorConfig a2)
+	static ::Class_1_61CCFA89E19EDD2D* Method_1_00774B5C8637A4AD(::Class_0_16E4307DCC419505_1199* a1, ::RPG::Client::RelicSmartSuit::RelicScoreCalculatorConfig a2)
 	{
-		return ((::Class_1_61CCFA89E19EDD2D*(*)(::Class_0_16E4307DCC419505_1141*, ::RPG::Client::RelicSmartSuit::RelicScoreCalculatorConfig))((::PBYTE)hIl2Cpp + CLASS_1_61CCFA89E19EDD2D_METHOD_1_00774B5C8637A4AD_OFFSET))(a1, a2);
+		return ((::Class_1_61CCFA89E19EDD2D*(*)(::Class_0_16E4307DCC419505_1199*, ::RPG::Client::RelicSmartSuit::RelicScoreCalculatorConfig))((::PBYTE)hIl2Cpp + CLASS_1_61CCFA89E19EDD2D_METHOD_1_00774B5C8637A4AD_OFFSET))(a1, a2);
 	}
 
 	::Class_1_CDFB27773AA3AA22* Method_1_4ECB529DECFD6AEC(::RPG::Client::RelicItemData* a1)

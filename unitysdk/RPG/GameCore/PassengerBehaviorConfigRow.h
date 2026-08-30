@@ -5,21 +5,21 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PASSENGERBEHAVIORCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1BB103D0)
-#define RPG_GAMECORE_PASSENGERBEHAVIORCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB10600)
+#define RPG_GAMECORE_PASSENGERBEHAVIORCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D4162F0)
+#define RPG_GAMECORE_PASSENGERBEHAVIORCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D416520)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PassengerBehaviorConfigRow_TypeDefinitionIndex = 14756;
+	inline static constexpr unsigned int PassengerBehaviorConfigRow_TypeDefinitionIndex = 15192;
 
 	class PassengerBehaviorConfigRow : public ::System::Object
 	{
 	public:
 		::System::String* NPCOverrideConfig; // 0x10
-		::System::UInt32 NPCID; // 0x18
-		::System::UInt32 FloorID; // 0x1C
-		::System::UInt32 BehaviorID; // 0x20
-		::System::UInt32 NPCGroupID; // 0x24
+		::System::UInt32 FloorID; // 0x18
+		::System::UInt32 NPCID; // 0x1C
+		::System::UInt32 NPCGroupID; // 0x20
+		::System::UInt32 BehaviorID; // 0x24
 		::System::UInt32 AnchorID; // 0x28
 
 		::System::Void _ctor()

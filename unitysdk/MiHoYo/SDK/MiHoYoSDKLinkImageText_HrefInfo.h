@@ -6,11 +6,11 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT_HREFINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18508B40)
+#define MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT_HREFINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1949EAE0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKLinkImageText_HrefInfo_TypeDefinitionIndex = 44731;
+	inline static constexpr unsigned int MiHoYoSDKLinkImageText_HrefInfo_TypeDefinitionIndex = 46917;
 
 	class MiHoYoSDKLinkImageText_HrefInfo : public ::System::Object
 	{

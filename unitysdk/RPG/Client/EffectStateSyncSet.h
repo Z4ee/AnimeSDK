@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_EFFECTSTATESYNCSET__CTOR_OFFSET UNITYSDK_OFFSET(0x17731F60)
+#define RPG_CLIENT_EFFECTSTATESYNCSET__CTOR_OFFSET UNITYSDK_OFFSET(0x15E490A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EffectStateSyncSet_TypeDefinitionIndex = 66745;
+	inline static constexpr unsigned int EffectStateSyncSet_TypeDefinitionIndex = 69847;
 
 	class EffectStateSyncSet : public ::System::Object
 	{

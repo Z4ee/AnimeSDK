@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int GameplayWaveRenderer_WaveType_TypeDefinitionIndex = 45521;
+inline static constexpr unsigned int GameplayWaveRenderer_WaveType_TypeDefinitionIndex = 47771;
 
 enum class GameplayWaveRenderer_WaveType : ::System::Int32
 {

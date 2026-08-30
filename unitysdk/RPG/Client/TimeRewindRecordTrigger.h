@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define RPG_CLIENT_TIMEREWINDRECORDTRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1787FE60)
+#define RPG_CLIENT_TIMEREWINDRECORDTRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x19790260)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TimeRewindRecordTrigger_TypeDefinitionIndex = 65790;
+	inline static constexpr unsigned int TimeRewindRecordTrigger_TypeDefinitionIndex = 68828;
 
 	class TimeRewindRecordTrigger : public ::UnityEngine::MonoBehaviour
 	{

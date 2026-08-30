@@ -5,18 +5,18 @@
 
 namespace System { class String; }
 
-#define ENTITAS_CONTEXTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1C8960)
+#define ENTITAS_CONTEXTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1EEC8D50)
 
 namespace Entitas
 {
-	inline static constexpr unsigned int ContextInfo_TypeDefinitionIndex = 9664;
+	inline static constexpr unsigned int ContextInfo_TypeDefinitionIndex = 9943;
 
 	class ContextInfo : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::String*>* componentNames; // 0x10
-		::Il2CppArray<::System::RuntimeTypeHandle>* componentTypes; // 0x18
-		::System::String* name; // 0x20
+		::System::String* name; // 0x10
+		::Il2CppArray<::System::String*>* componentNames; // 0x18
+		::Il2CppArray<::System::RuntimeTypeHandle>* componentTypes; // 0x20
 
 		::System::Void _ctor(::System::String* a1, ::Il2CppArray<::System::String*>* a2, ::Il2CppArray<::System::RuntimeTypeHandle>* a3)
 		{

@@ -4,7 +4,7 @@
 
 namespace SRDebugger::Services
 {
-	inline static constexpr unsigned int IDockConsoleService_TypeDefinitionIndex = 36510;
+	inline static constexpr unsigned int IDockConsoleService_TypeDefinitionIndex = 37369;
 
 	class IDockConsoleService
 	{

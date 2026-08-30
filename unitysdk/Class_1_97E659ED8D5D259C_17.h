@@ -2,42 +2,43 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_97E659ED8D5D259C_17_GET_GROUPID_OFFSET UNITYSDK_OFFSET(0x16886A40)
-#define CLASS_1_97E659ED8D5D259C_17_GET_INSTANCEID_OFFSET UNITYSDK_OFFSET(0x16886A60)
-#define CLASS_1_97E659ED8D5D259C_17_SET_GROUPID_OFFSET UNITYSDK_OFFSET(0x16886A50)
-#define CLASS_1_97E659ED8D5D259C_17_SET_INSTANCEID_OFFSET UNITYSDK_OFFSET(0x16886A70)
-#define CLASS_1_97E659ED8D5D259C_17__CTOR_OFFSET UNITYSDK_OFFSET(0x16886A80)
+namespace System { class String; }
 
-inline static constexpr unsigned int Class_1_97E659ED8D5D259C_17_TypeDefinitionIndex = 71164;
+#define CLASS_1_97E659ED8D5D259C_17_GET_DELTA_OFFSET UNITYSDK_OFFSET(0x185D8590)
+#define CLASS_1_97E659ED8D5D259C_17_GET_NUM_OFFSET UNITYSDK_OFFSET(0x185D8580)
+#define CLASS_1_97E659ED8D5D259C_17_TOSTRING_OFFSET UNITYSDK_OFFSET(0x185D8470)
+#define CLASS_1_97E659ED8D5D259C_17_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0x185D8520)
+#define CLASS_1_97E659ED8D5D259C_17__CTOR_OFFSET UNITYSDK_OFFSET(0x185D8460)
+
+inline static constexpr unsigned int Class_1_97E659ED8D5D259C_17_TypeDefinitionIndex = 67063;
 
 class Class_1_97E659ED8D5D259C_17 : public ::System::Object
 {
 public:
-	::System::UInt32 _InstanceID_k__BackingField; // 0x10
-	::System::UInt32 _GroupID_k__BackingField; // 0x14
+	::System::UInt32 _Num_k__BackingField; // 0x10
 
-	::System::Void _ctor()
+	::System::Void _ctor(::System::UInt32 a1)
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_97E659ED8D5D259C_17__CTOR_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_97E659ED8D5D259C_17__CTOR_OFFSET))(this, a1);
 	}
 
-	::System::UInt32 get_GroupID()
+	::System::String* ToString()
 	{
-		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_97E659ED8D5D259C_17_GET_GROUPID_OFFSET))(this);
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_97E659ED8D5D259C_17_TOSTRING_OFFSET))(this);
 	}
 
-	::System::Void set_GroupID(::System::UInt32 a1)
+	::System::Void TriggerAction()
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_97E659ED8D5D259C_17_SET_GROUPID_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_97E659ED8D5D259C_17_TRIGGERACTION_OFFSET))(this);
 	}
 
-	::System::UInt32 get_InstanceID()
+	::System::UInt32 get_Num()
 	{
-		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_97E659ED8D5D259C_17_GET_INSTANCEID_OFFSET))(this);
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_97E659ED8D5D259C_17_GET_NUM_OFFSET))(this);
 	}
 
-	::System::Void set_InstanceID(::System::UInt32 a1)
+	::System::Int32 get_Delta()
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_97E659ED8D5D259C_17_SET_INSTANCEID_OFFSET))(this, a1);
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_97E659ED8D5D259C_17_GET_DELTA_OFFSET))(this);
 	}
 };

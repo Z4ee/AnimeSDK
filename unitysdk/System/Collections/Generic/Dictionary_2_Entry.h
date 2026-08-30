@@ -4,7 +4,7 @@
 
 namespace System::Collections::Generic
 {
-	inline static constexpr unsigned int Dictionary_2_Entry_TypeDefinitionIndex = 1529;
+	inline static constexpr unsigned int Dictionary_2_Entry_TypeDefinitionIndex = 1536;
 
 	template <typename TKey, typename TValue>
 	struct Dictionary_2_Entry

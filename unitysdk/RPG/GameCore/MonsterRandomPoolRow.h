@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MONSTERRANDOMPOOLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B1C9D70)
-#define RPG_GAMECORE_MONSTERRANDOMPOOLROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1C9EE0)
+#define RPG_GAMECORE_MONSTERRANDOMPOOLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CE6E040)
+#define RPG_GAMECORE_MONSTERRANDOMPOOLROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE6E1E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonsterRandomPoolRow_TypeDefinitionIndex = 13671;
+	inline static constexpr unsigned int MonsterRandomPoolRow_TypeDefinitionIndex = 14088;
 
 	class MonsterRandomPoolRow : public ::System::Object
 	{

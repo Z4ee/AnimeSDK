@@ -5,16 +5,16 @@
 namespace RPG::Client { class ActivityModule; }
 namespace RPG::Client { class ActivityPanelData; }
 
-#define CLASS_1_EA4F59A81E5559FD_METHOD_1_1C997B7C33892E70_OFFSET UNITYSDK_OFFSET(0x1865FFF0)
-#define CLASS_1_EA4F59A81E5559FD_METHOD_1_F76BF7EE8C3F7500_OFFSET UNITYSDK_OFFSET(0x186600D0)
-#define CLASS_1_EA4F59A81E5559FD__CTOR_OFFSET UNITYSDK_OFFSET(0x1865FFA0)
+#define CLASS_1_EA4F59A81E5559FD_METHOD_1_1C997B7C33892E70_OFFSET UNITYSDK_OFFSET(0x186C7310)
+#define CLASS_1_EA4F59A81E5559FD_METHOD_1_F76BF7EE8C3F7500_OFFSET UNITYSDK_OFFSET(0x186C73F0)
+#define CLASS_1_EA4F59A81E5559FD__CTOR_OFFSET UNITYSDK_OFFSET(0x186C72C0)
 
-inline static constexpr unsigned int Class_1_EA4F59A81E5559FD_TypeDefinitionIndex = 58957;
+inline static constexpr unsigned int Class_1_EA4F59A81E5559FD_TypeDefinitionIndex = 61792;
 
 class Class_1_EA4F59A81E5559FD : public ::System::Object
 {
 public:
-	::RPG::Client::ActivityModule* Field_1_0; // 0x10
+	::RPG::Client::ActivityModule* DHPKGNANJED; // 0x10
 
 	::System::Void _ctor(::RPG::Client::ActivityModule* a1)
 	{

@@ -7,10 +7,10 @@ namespace RPG::GameCore { class TargetFetchDataViewUISelectEnter; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_B84CC34BC0B4920B_9_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1670E8B0)
-#define CLASS_3_B84CC34BC0B4920B_9__CTOR_OFFSET UNITYSDK_OFFSET(0x1670E860)
+#define CLASS_3_B84CC34BC0B4920B_9_EVALUATE_OFFSET UNITYSDK_OFFSET(0x18548A90)
+#define CLASS_3_B84CC34BC0B4920B_9__CTOR_OFFSET UNITYSDK_OFFSET(0x18548A40)
 
-inline static constexpr unsigned int Class_3_B84CC34BC0B4920B_9_TypeDefinitionIndex = 56615;
+inline static constexpr unsigned int Class_3_B84CC34BC0B4920B_9_TypeDefinitionIndex = 59399;
 
 class Class_3_B84CC34BC0B4920B_9 : public ::RPG::GameCore::TargetEvaluatorImpl_1<::RPG::GameCore::TargetFetchDataViewUISelectEnter*>
 {

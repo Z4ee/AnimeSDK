@@ -6,7 +6,7 @@ namespace System { class Object; }
 
 namespace InControl
 {
-	inline static constexpr unsigned int SingletonMonoBehavior_1_TypeDefinitionIndex = 38758;
+	inline static constexpr unsigned int SingletonMonoBehavior_1_TypeDefinitionIndex = 39617;
 
 	template <typename TComponent>
 	class SingletonMonoBehavior_1 : public ::UnityEngine::MonoBehaviour

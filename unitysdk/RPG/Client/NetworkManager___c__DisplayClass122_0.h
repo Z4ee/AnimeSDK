@@ -6,12 +6,12 @@ namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Threading { class SynchronizationContext; }
 
-#define RPG_CLIENT_NETWORKMANAGER___C__DISPLAYCLASS122_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18261990)
-#define RPG_CLIENT_NETWORKMANAGER___C__DISPLAYCLASS122_0__PINGBYUDP_B__0_OFFSET UNITYSDK_OFFSET(0x182619A0)
+#define RPG_CLIENT_NETWORKMANAGER___C__DISPLAYCLASS122_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A20DA50)
+#define RPG_CLIENT_NETWORKMANAGER___C__DISPLAYCLASS122_0__PINGBYUDP_B__0_OFFSET UNITYSDK_OFFSET(0x1A20DA60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int NetworkManager___c__DisplayClass122_0_TypeDefinitionIndex = 66262;
+	inline static constexpr unsigned int NetworkManager___c__DisplayClass122_0_TypeDefinitionIndex = 69336;
 
 	class NetworkManager___c__DisplayClass122_0 : public ::System::Object
 	{

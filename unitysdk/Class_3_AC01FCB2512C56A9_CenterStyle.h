@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_3_AC01FCB2512C56A9_CenterStyle_TypeDefinitionIndex = 68533;
+inline static constexpr unsigned int Class_3_AC01FCB2512C56A9_CenterStyle_TypeDefinitionIndex = 71728;
 
 enum class Class_3_AC01FCB2512C56A9_CenterStyle : ::System::Int32
 {

@@ -5,10 +5,10 @@
 
 namespace System { class Object; }
 
-inline static constexpr unsigned int Struct_2_02050905F189B085_TypeDefinitionIndex = 63732;
+inline static constexpr unsigned int Struct_2_02050905F189B085_TypeDefinitionIndex = 66717;
 
 struct alignas(8) Struct_2_02050905F189B085
 {
-	::RPG::Client::LogicStateType Field_2_0; // 0x10
-	::Il2CppArray<::System::Object*>* Field_2_1; // 0x18
+	::RPG::Client::LogicStateType EEDMIIFDCPP; // 0x10
+	::Il2CppArray<::System::Object*>* KAPMEOMELJG; // 0x18
 };

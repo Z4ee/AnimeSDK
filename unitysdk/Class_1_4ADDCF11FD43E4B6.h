@@ -7,23 +7,23 @@ namespace RPG::GameCore { class TaskConfig; }
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define CLASS_1_4ADDCF11FD43E4B6_METHOD_1_0E62A1F7315AFBE8_OFFSET UNITYSDK_OFFSET(0x193D8450)
-#define CLASS_1_4ADDCF11FD43E4B6_METHOD_1_FC218EB9B8045D08_OFFSET UNITYSDK_OFFSET(0x193D84C0)
-#define CLASS_1_4ADDCF11FD43E4B6__CCTOR_OFFSET UNITYSDK_OFFSET(0x193D8530)
-#define CLASS_1_4ADDCF11FD43E4B6__CTOR_OFFSET UNITYSDK_OFFSET(0x193D8520)
+#define CLASS_1_4ADDCF11FD43E4B6_METHOD_1_0E62A1F7315AFBE8_OFFSET UNITYSDK_OFFSET(0x1B4AF430)
+#define CLASS_1_4ADDCF11FD43E4B6_METHOD_1_FC218EB9B8045D08_OFFSET UNITYSDK_OFFSET(0x1B4AF4A0)
+#define CLASS_1_4ADDCF11FD43E4B6__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B4AF510)
+#define CLASS_1_4ADDCF11FD43E4B6__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4AF500)
 
-inline static constexpr unsigned int Class_1_4ADDCF11FD43E4B6_TypeDefinitionIndex = 17543;
+inline static constexpr unsigned int Class_1_4ADDCF11FD43E4B6_TypeDefinitionIndex = 18061;
 
 class Class_1_4ADDCF11FD43E4B6 : public ::System::Object
 {
 public:
-	static ::System::Collections::Generic::HashSet_1<::RPG::GameCore::TurnBasedModifierEvent>** StaticGet_Field_1_0()
+	static ::System::Collections::Generic::HashSet_1<::System::Type*>** StaticGet_MEMKOIEEHNN()
 	{
-		return (::System::Collections::Generic::HashSet_1<::RPG::GameCore::TurnBasedModifierEvent>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_4ADDCF11FD43E4B6_TypeDefinitionIndex)->GetStaticField(0x680A0);
+		return (::System::Collections::Generic::HashSet_1<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_4ADDCF11FD43E4B6_TypeDefinitionIndex)->GetStaticField(0x27400);
 	}
-	static ::System::Collections::Generic::HashSet_1<::System::Type*>** StaticGet_Field_1_1()
+	static ::System::Collections::Generic::HashSet_1<::RPG::GameCore::TurnBasedModifierEvent>** StaticGet_MIFENNBPJPJ()
 	{
-		return (::System::Collections::Generic::HashSet_1<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_4ADDCF11FD43E4B6_TypeDefinitionIndex)->GetStaticField(0x680A8);
+		return (::System::Collections::Generic::HashSet_1<::RPG::GameCore::TurnBasedModifierEvent>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_4ADDCF11FD43E4B6_TypeDefinitionIndex)->GetStaticField(0x27408);
 	}
 
 	::System::Void _ctor()

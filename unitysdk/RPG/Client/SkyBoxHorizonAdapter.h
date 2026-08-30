@@ -5,13 +5,13 @@
 
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_SKYBOXHORIZONADAPTER_AWAKE_OFFSET UNITYSDK_OFFSET(0x18904C00)
-#define RPG_CLIENT_SKYBOXHORIZONADAPTER_UPDATE_OFFSET UNITYSDK_OFFSET(0x18904CA0)
-#define RPG_CLIENT_SKYBOXHORIZONADAPTER__CTOR_OFFSET UNITYSDK_OFFSET(0x18904FE0)
+#define RPG_CLIENT_SKYBOXHORIZONADAPTER_AWAKE_OFFSET UNITYSDK_OFFSET(0x196D5680)
+#define RPG_CLIENT_SKYBOXHORIZONADAPTER_UPDATE_OFFSET UNITYSDK_OFFSET(0x196D5720)
+#define RPG_CLIENT_SKYBOXHORIZONADAPTER__CTOR_OFFSET UNITYSDK_OFFSET(0x196D5A60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SkyBoxHorizonAdapter_TypeDefinitionIndex = 69668;
+	inline static constexpr unsigned int SkyBoxHorizonAdapter_TypeDefinitionIndex = 72907;
 
 	class SkyBoxHorizonAdapter : public ::UnityEngine::MonoBehaviour
 	{
@@ -19,10 +19,10 @@ namespace RPG::Client
 		::System::Boolean UseUI3DCamera; // 0x18
 		::UnityEngine::Transform* CameraTrans; // 0x20
 		::System::Single Angle; // 0x28
-		::UnityEngine::Vector3 Field_5_3; // 0x2C
-		::UnityEngine::Vector3 Field_5_4; // 0x38
-		::System::Single Field_5_5; // 0x44
-		::UnityEngine::Transform* Field_5_6; // 0x48
+		::UnityEngine::Vector3 AFMHBENIEPG; // 0x2C
+		::UnityEngine::Vector3 DMDOLNFFHAF; // 0x38
+		::System::Single ENCHFAKMAGA; // 0x44
+		::UnityEngine::Transform* ILPDLGIJMNN; // 0x48
 
 		::System::Void _ctor()
 		{

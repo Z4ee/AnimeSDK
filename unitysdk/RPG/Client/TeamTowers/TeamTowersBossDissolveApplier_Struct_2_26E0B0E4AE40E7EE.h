@@ -7,11 +7,11 @@ class FiveDimRenderingItem;
 
 namespace RPG::Client::TeamTowers
 {
-	inline static constexpr unsigned int TeamTowersBossDissolveApplier_Struct_2_26E0B0E4AE40E7EE_TypeDefinitionIndex = 75162;
+	inline static constexpr unsigned int TeamTowersBossDissolveApplier_Struct_2_26E0B0E4AE40E7EE_TypeDefinitionIndex = 78659;
 
 	struct alignas(8) TeamTowersBossDissolveApplier_Struct_2_26E0B0E4AE40E7EE
 	{
-		::FiveDimRenderingItem* Field_2_0; // 0x10
-		::FDRIDissolveOperation* Field_2_1; // 0x18
+		::FiveDimRenderingItem* NLFCABFPJHD; // 0x10
+		::FDRIDissolveOperation* NDJKPABPJHO; // 0x18
 	};
 }

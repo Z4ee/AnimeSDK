@@ -5,18 +5,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ACTIVITYRELICBOXQUESTTABROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1AB0B870)
-#define RPG_GAMECORE_ACTIVITYRELICBOXQUESTTABROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1AB0B9D0)
+#define RPG_GAMECORE_ACTIVITYRELICBOXQUESTTABROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D695FC0)
+#define RPG_GAMECORE_ACTIVITYRELICBOXQUESTTABROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D696120)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityRelicBoxQuestTabRow_TypeDefinitionIndex = 11858;
+	inline static constexpr unsigned int ActivityRelicBoxQuestTabRow_TypeDefinitionIndex = 12247;
 
 	class ActivityRelicBoxQuestTabRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 TabID; // 0x10
-		::RPG::Client::TextID TabName; // 0x18
+		::RPG::Client::TextID TabName; // 0x10
+		::System::UInt32 TabID; // 0x20
 
 		::System::Void _ctor()
 		{

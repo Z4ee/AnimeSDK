@@ -5,21 +5,21 @@
 namespace Mono::Security { class ASN1; }
 namespace Mono::Security { class PKCS7_ContentInfo; }
 
-#define MONO_SECURITY_PKCS7_ENCRYPTEDDATA_GET_ENCRYPTEDCONTENT_OFFSET UNITYSDK_OFFSET(0x1B64FD00)
-#define MONO_SECURITY_PKCS7_ENCRYPTEDDATA_GET_ENCRYPTIONALGORITHM_OFFSET UNITYSDK_OFFSET(0x1B64FCF0)
-#define MONO_SECURITY_PKCS7_ENCRYPTEDDATA__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B64F950)
-#define MONO_SECURITY_PKCS7_ENCRYPTEDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B64F940)
+#define MONO_SECURITY_PKCS7_ENCRYPTEDDATA_GET_ENCRYPTEDCONTENT_OFFSET UNITYSDK_OFFSET(0x1D2442E0)
+#define MONO_SECURITY_PKCS7_ENCRYPTEDDATA_GET_ENCRYPTIONALGORITHM_OFFSET UNITYSDK_OFFSET(0x1D2442D0)
+#define MONO_SECURITY_PKCS7_ENCRYPTEDDATA__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1D243F30)
+#define MONO_SECURITY_PKCS7_ENCRYPTEDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1D243F20)
 
 namespace Mono::Security
 {
-	inline static constexpr unsigned int PKCS7_EncryptedData_TypeDefinitionIndex = 2255;
+	inline static constexpr unsigned int PKCS7_EncryptedData_TypeDefinitionIndex = 2262;
 
 	class PKCS7_EncryptedData : public ::System::Object
 	{
 	public:
-		::Mono::Security::PKCS7_ContentInfo* _encryptionAlgorithm; // 0x10
+		::Mono::Security::PKCS7_ContentInfo* _content; // 0x10
 		::Il2CppArray<::System::Byte>* _encrypted; // 0x18
-		::Mono::Security::PKCS7_ContentInfo* _content; // 0x20
+		::Mono::Security::PKCS7_ContentInfo* _encryptionAlgorithm; // 0x20
 		::System::Byte _version; // 0x28
 
 		::System::Void _ctor()

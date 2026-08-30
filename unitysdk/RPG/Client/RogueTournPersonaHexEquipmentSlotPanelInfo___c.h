@@ -5,24 +5,24 @@
 namespace RPG::Client { class RogueTournPersonaHexEquipmentSlotItemInfo; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ROGUETOURNPERSONAHEXEQUIPMENTSLOTPANELINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AA65840)
-#define RPG_CLIENT_ROGUETOURNPERSONAHEXEQUIPMENTSLOTPANELINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA65880)
-#define RPG_CLIENT_ROGUETOURNPERSONAHEXEQUIPMENTSLOTPANELINFO___C__GET_EQUIPPEDCOUNT_B__2_0_OFFSET UNITYSDK_OFFSET(0x1AA65890)
+#define RPG_CLIENT_ROGUETOURNPERSONAHEXEQUIPMENTSLOTPANELINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C79B9B0)
+#define RPG_CLIENT_ROGUETOURNPERSONAHEXEQUIPMENTSLOTPANELINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1C79B9F0)
+#define RPG_CLIENT_ROGUETOURNPERSONAHEXEQUIPMENTSLOTPANELINFO___C__GET_EQUIPPEDCOUNT_B__2_0_OFFSET UNITYSDK_OFFSET(0x1C79BA00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournPersonaHexEquipmentSlotPanelInfo___c_TypeDefinitionIndex = 69572;
+	inline static constexpr unsigned int RogueTournPersonaHexEquipmentSlotPanelInfo___c_TypeDefinitionIndex = 72805;
 
 	class RogueTournPersonaHexEquipmentSlotPanelInfo___c : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::RogueTournPersonaHexEquipmentSlotPanelInfo___c** StaticGet___9()
 		{
-			return (::RPG::Client::RogueTournPersonaHexEquipmentSlotPanelInfo___c**)Il2CppClass::FromTypeDefinitionIndex(RogueTournPersonaHexEquipmentSlotPanelInfo___c_TypeDefinitionIndex)->GetStaticField(0x2C750);
+			return (::RPG::Client::RogueTournPersonaHexEquipmentSlotPanelInfo___c**)Il2CppClass::FromTypeDefinitionIndex(RogueTournPersonaHexEquipmentSlotPanelInfo___c_TypeDefinitionIndex)->GetStaticField(0x165F0);
 		}
 		static ::System::Func_2<::RPG::Client::RogueTournPersonaHexEquipmentSlotItemInfo*, ::System::Boolean>** StaticGet___9__2_0()
 		{
-			return (::System::Func_2<::RPG::Client::RogueTournPersonaHexEquipmentSlotItemInfo*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournPersonaHexEquipmentSlotPanelInfo___c_TypeDefinitionIndex)->GetStaticField(0x2C758);
+			return (::System::Func_2<::RPG::Client::RogueTournPersonaHexEquipmentSlotItemInfo*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournPersonaHexEquipmentSlotPanelInfo___c_TypeDefinitionIndex)->GetStaticField(0x165F8);
 		}
 
 		static ::System::Void _cctor()

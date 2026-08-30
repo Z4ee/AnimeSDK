@@ -5,7 +5,7 @@ namespace RPG::Client::LittleGame { template <typename T> class NavigationReques
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int INavigationService_1_TypeDefinitionIndex = 40249;
+	inline static constexpr unsigned int INavigationService_1_TypeDefinitionIndex = 41128;
 
 	template <typename TEntity>
 	class INavigationService_1

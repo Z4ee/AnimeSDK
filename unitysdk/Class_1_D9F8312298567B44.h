@@ -16,89 +16,89 @@
 
 namespace System { class String; }
 
-#define CLASS_1_D9F8312298567B44_METHOD_1_43CCBC2ADB276A81_OFFSET UNITYSDK_OFFSET(0x16745560)
-#define CLASS_1_D9F8312298567B44__CCTOR_OFFSET UNITYSDK_OFFSET(0x167455C0)
+#define CLASS_1_D9F8312298567B44_METHOD_1_43CCBC2ADB276A81_OFFSET UNITYSDK_OFFSET(0x1823B950)
+#define CLASS_1_D9F8312298567B44__CCTOR_OFFSET UNITYSDK_OFFSET(0x1823B9B0)
 
-inline static constexpr unsigned int Class_1_D9F8312298567B44_TypeDefinitionIndex = 47146;
+inline static constexpr unsigned int Class_1_D9F8312298567B44_TypeDefinitionIndex = 49412;
 
 class Class_1_D9F8312298567B44 : public ::System::Object
 {
 public:
-	static ::UnityEngine::LayerMask* StaticGet_Field_1_0()
+	static ::System::Boolean* StaticGet_AMLFKIFMDAF()
 	{
-		return (::UnityEngine::LayerMask*)Il2CppClass::FromTypeDefinitionIndex(Class_1_D9F8312298567B44_TypeDefinitionIndex)->GetStaticField(0x7E60);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_D9F8312298567B44_TypeDefinitionIndex)->GetStaticField(0x127E0);
 	}
-	static ::UnityEngine::Vector3* StaticGet_Field_1_1()
+	static ::UnityEngine::Vector3* StaticGet_BFJMPGOIEND()
 	{
-		return (::UnityEngine::Vector3*)Il2CppClass::FromTypeDefinitionIndex(Class_1_D9F8312298567B44_TypeDefinitionIndex)->GetStaticField(0x7E64);
+		return (::UnityEngine::Vector3*)Il2CppClass::FromTypeDefinitionIndex(Class_1_D9F8312298567B44_TypeDefinitionIndex)->GetStaticField(0x127E4);
 	}
-	static ::UnityEngine::Color* StaticGet_Field_1_2()
+	static ::UnityEngine::LayerMask* StaticGet_NJHGKJIKBPB()
 	{
-		return (::UnityEngine::Color*)Il2CppClass::FromTypeDefinitionIndex(Class_1_D9F8312298567B44_TypeDefinitionIndex)->GetStaticField(0x7E70);
+		return (::UnityEngine::LayerMask*)Il2CppClass::FromTypeDefinitionIndex(Class_1_D9F8312298567B44_TypeDefinitionIndex)->GetStaticField(0x127F0);
 	}
-	static ::System::Boolean* StaticGet_Field_1_3()
+	static ::UnityEngine::Color* StaticGet_COEBBAICICB()
 	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_D9F8312298567B44_TypeDefinitionIndex)->GetStaticField(0x7E80);
+		return (::UnityEngine::Color*)Il2CppClass::FromTypeDefinitionIndex(Class_1_D9F8312298567B44_TypeDefinitionIndex)->GetStaticField(0x127F4);
 	}
-	// static const ::System::String* Field_1_4; // 0x0
-	// static const ::System::String* Field_1_5; // 0x0
-	// static const ::System::String* Field_1_6; // 0x0
-	// static const ::System::String* Field_1_7; // 0x0
-	// static const ::System::String* Field_1_8; // 0x0
-	// static const ::System::String* Field_1_9; // 0x0
-	// static const ::VLB::ColorMode Field_1_10; // 0x0
-	// static const ::System::Single Field_1_11; // 0x0
-	// static const ::System::Single Field_1_12; // 0x0
-	// static const ::System::Single Field_1_13; // 0x0
-	// static const ::System::Single Field_1_14; // 0x0
-	// static const ::System::Single Field_1_15; // 0x0
-	// static const ::VLB::MeshType Field_1_16; // 0x0
-	// static const ::System::Int32 Field_1_17 = 0x12; // 0x0
-	// static const ::System::Int32 Field_1_18 = 0x3; // 0x0
-	// static const ::System::Int32 Field_1_19 = 0x100; // 0x0
-	// static const ::System::Int32 Field_1_20 = 0x5; // 0x0
-	// static const ::System::Int32 Field_1_21 = 0x0; // 0x0
-	// static const ::System::Int32 Field_1_22 = 0x40; // 0x0
-	// static const ::System::Boolean Field_1_23; // 0x0
-	// static const ::VLB::AttenuationEquation Field_1_24; // 0x0
-	// static const ::System::Single Field_1_25; // 0x0
-	// static const ::System::Single Field_1_26; // 0x0
-	// static const ::System::Single Field_1_27; // 0x0
-	// static const ::System::Single Field_1_28; // 0x0
-	// static const ::System::Single Field_1_29; // 0x0
-	// static const ::System::Single Field_1_30; // 0x0
-	// static const ::System::Single Field_1_31; // 0x0
-	// static const ::System::Single Field_1_32; // 0x0
-	// static const ::System::Single Field_1_33; // 0x0
-	// static const ::System::Single Field_1_34; // 0x0
-	// static const ::System::Single Field_1_35; // 0x0
-	// static const ::System::Single Field_1_36; // 0x0
-	// static const ::System::Single Field_1_37; // 0x0
-	// static const ::System::Single Field_1_38; // 0x0
-	// static const ::System::Single Field_1_39; // 0x0
-	// static const ::System::Single Field_1_40; // 0x0
-	// static const ::System::Single Field_1_41; // 0x0
-	// static const ::System::Single Field_1_42; // 0x0
-	// static const ::VLB::BlendingMode Field_1_43; // 0x0
-	// static const ::VLB::OccluderDimensions Field_1_44; // 0x0
-	// static const ::System::Single Field_1_45; // 0x0
-	// static const ::System::Int32 Field_1_46 = 0x3; // 0x0
-	// static const ::System::Single Field_1_47; // 0x0
-	// static const ::System::Single Field_1_48; // 0x0
-	// static const ::System::Single Field_1_49; // 0x0
-	// static const ::System::Single Field_1_50; // 0x0
-	// static const ::System::Single Field_1_51; // 0x0
-	// static const ::System::Single Field_1_52; // 0x0
-	// static const ::VLB::PlaneAlignment Field_1_53; // 0x0
-	// static const ::System::Single Field_1_54; // 0x0
-	// static const ::System::Boolean Field_1_55; // 0x0
-	// static const ::System::Int32 Field_1_56 = 0x1; // 0x0
-	// static const ::System::String* Field_1_57; // 0x0
-	// static const ::VLB::RenderQueue Field_1_58; // 0x0
-	// static const ::VLB::RenderingMode Field_1_59; // 0x0
-	// static const ::System::Int32 Field_1_60 = 0x40; // 0x0
-	// static const ::System::Int32 Field_1_61 = 0x18; // 0x0
-	// static const ::System::Int32 Field_1_62 = 0x5; // 0x0
+	// static const ::System::String* MHJAEKOHKEM; // 0x0
+	// static const ::System::String* FPGAEPJPFKG; // 0x0
+	// static const ::System::String* KPIGKKECBJI; // 0x0
+	// static const ::System::String* NPFPPBBIEMJ; // 0x0
+	// static const ::System::String* OGBGEDHCMLB; // 0x0
+	// static const ::System::String* JPOFEALLDAM; // 0x0
+	// static const ::VLB::ColorMode EDONCLHELID; // 0x0
+	// static const ::System::Single EIBGEGPABFK; // 0x0
+	// static const ::System::Single LGGLKIIPBDL; // 0x0
+	// static const ::System::Single HHPLCDMBCKG; // 0x0
+	// static const ::System::Single IBEPFPMIFPB; // 0x0
+	// static const ::System::Single CDFAMKFPNAM; // 0x0
+	// static const ::VLB::MeshType KHJAEHBOIIJ; // 0x0
+	// static const ::System::Int32 GOLFGHKGCBK = 0x12; // 0x0
+	// static const ::System::Int32 MMLGOHBMEBK = 0x3; // 0x0
+	// static const ::System::Int32 PJCGKDLPCLK = 0x100; // 0x0
+	// static const ::System::Int32 MANODPLNBHH = 0x5; // 0x0
+	// static const ::System::Int32 JFMMFMMMFHI = 0x0; // 0x0
+	// static const ::System::Int32 BGHLCGFBEAD = 0x40; // 0x0
+	// static const ::System::Boolean APGPAPIMOHB; // 0x0
+	// static const ::VLB::AttenuationEquation GBDJKCCMLJA; // 0x0
+	// static const ::System::Single PKKMDCPDFHB; // 0x0
+	// static const ::System::Single PHMLPNLEMLL; // 0x0
+	// static const ::System::Single AJMGIPPBKDK; // 0x0
+	// static const ::System::Single NPBNFCOBAGI; // 0x0
+	// static const ::System::Single OHIEEGICNAL; // 0x0
+	// static const ::System::Single HAEHPKHPHCB; // 0x0
+	// static const ::System::Single JMOIJJPNNJM; // 0x0
+	// static const ::System::Single OPNPBAHOIOA; // 0x0
+	// static const ::System::Single JODNFMDAJEE; // 0x0
+	// static const ::System::Single GCDFHFJAJJL; // 0x0
+	// static const ::System::Single ANGDMMINGON; // 0x0
+	// static const ::System::Single FONHJCGKAMM; // 0x0
+	// static const ::System::Single GIADFDIICFO; // 0x0
+	// static const ::System::Single EECHBEDENBO; // 0x0
+	// static const ::System::Single FLIGCCKJJBH; // 0x0
+	// static const ::System::Single NLOAMFJNCKA; // 0x0
+	// static const ::System::Single OBIDEPFBKNH; // 0x0
+	// static const ::System::Single MCEOBAKLJCK; // 0x0
+	// static const ::VLB::BlendingMode FAPIHKMIOMA; // 0x0
+	// static const ::VLB::OccluderDimensions HPJFAPFHJIJ; // 0x0
+	// static const ::System::Single PJJKJICMEIN; // 0x0
+	// static const ::System::Int32 PHBPFPDJGKP = 0x3; // 0x0
+	// static const ::System::Single CMGKDIOCOCC; // 0x0
+	// static const ::System::Single OJLPNMFGBJD; // 0x0
+	// static const ::System::Single GONHLDHJDIJ; // 0x0
+	// static const ::System::Single EPGAMHPGBMG; // 0x0
+	// static const ::System::Single NDEJBELGJMK; // 0x0
+	// static const ::System::Single MBDKPDCAJHG; // 0x0
+	// static const ::VLB::PlaneAlignment LFAIDOKCAKP; // 0x0
+	// static const ::System::Single NJGDAOABMHF; // 0x0
+	// static const ::System::Boolean MFPNIIJLJNG; // 0x0
+	// static const ::System::Int32 AELDECEBHLA = 0x1; // 0x0
+	// static const ::System::String* ELHHFMLBHKB; // 0x0
+	// static const ::VLB::RenderQueue EOEJEAMMBCM; // 0x0
+	// static const ::VLB::RenderingMode LBMJNEJNAEG; // 0x0
+	// static const ::System::Int32 EOPKAAJCBCL = 0x40; // 0x0
+	// static const ::System::Int32 MNNCAMNLBEO = 0x18; // 0x0
+	// static const ::System::Int32 AHGBCHBBHMC = 0x5; // 0x0
 
 	static ::System::Void _cctor()
 	{

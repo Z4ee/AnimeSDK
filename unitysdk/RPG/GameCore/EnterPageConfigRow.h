@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ENTERPAGECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C0537C0)
-#define RPG_GAMECORE_ENTERPAGECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1C053870)
+#define RPG_GAMECORE_ENTERPAGECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7C3670)
+#define RPG_GAMECORE_ENTERPAGECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7C3720)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EnterPageConfigRow_TypeDefinitionIndex = 12732;
+	inline static constexpr unsigned int EnterPageConfigRow_TypeDefinitionIndex = 13123;
 
 	class EnterPageConfigRow : public ::System::Object
 	{

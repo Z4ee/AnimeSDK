@@ -3,7 +3,7 @@
 
 namespace RPG::Client::TeamTowers
 {
-	inline static constexpr unsigned int TeamTowersStageDifficultyType_TypeDefinitionIndex = 75057;
+	inline static constexpr unsigned int TeamTowersStageDifficultyType_TypeDefinitionIndex = 78555;
 
 	enum class TeamTowersStageDifficultyType : ::System::Int32
 	{

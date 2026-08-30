@@ -6,11 +6,11 @@ namespace RPG::Client { class GlobalDispatchData_ServerData; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_GLOBALDISPATCHDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x192E83F0)
+#define RPG_CLIENT_GLOBALDISPATCHDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD9AF70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GlobalDispatchData_TypeDefinitionIndex = 66276;
+	inline static constexpr unsigned int GlobalDispatchData_TypeDefinitionIndex = 69351;
 
 	class GlobalDispatchData : public ::System::Object
 	{

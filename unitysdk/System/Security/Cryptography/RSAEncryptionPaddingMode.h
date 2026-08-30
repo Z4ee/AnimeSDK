@@ -3,7 +3,7 @@
 
 namespace System::Security::Cryptography
 {
-	inline static constexpr unsigned int RSAEncryptionPaddingMode_TypeDefinitionIndex = 990;
+	inline static constexpr unsigned int RSAEncryptionPaddingMode_TypeDefinitionIndex = 997;
 
 	enum class RSAEncryptionPaddingMode : ::System::Int32
 	{

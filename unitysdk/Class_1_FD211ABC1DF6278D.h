@@ -6,15 +6,15 @@ class Class_1_7D0B754E2D8CECAF;
 class Class_3_FA020C2C23A72B3F;
 namespace RPG::Client::CakeRace { class CakeRacePerformanceDataItem; }
 
-#define CLASS_1_FD211ABC1DF6278D_METHOD_1_16C1AD826E20D4F8_OFFSET UNITYSDK_OFFSET(0x15854700)
-#define CLASS_1_FD211ABC1DF6278D__CTOR_OFFSET UNITYSDK_OFFSET(0x158546F0)
+#define CLASS_1_FD211ABC1DF6278D_METHOD_1_16C1AD826E20D4F8_OFFSET UNITYSDK_OFFSET(0x16909510)
+#define CLASS_1_FD211ABC1DF6278D__CTOR_OFFSET UNITYSDK_OFFSET(0x16909500)
 
-inline static constexpr unsigned int Class_1_FD211ABC1DF6278D_TypeDefinitionIndex = 74142;
+inline static constexpr unsigned int Class_1_FD211ABC1DF6278D_TypeDefinitionIndex = 77626;
 
 class Class_1_FD211ABC1DF6278D : public ::System::Object
 {
 public:
-	::RPG::Client::CakeRace::CakeRacePerformanceDataItem* Field_1_0; // 0x10
+	::RPG::Client::CakeRace::CakeRacePerformanceDataItem* KMDKEILKKMB; // 0x10
 
 	::System::Void _ctor(::RPG::Client::CakeRace::CakeRacePerformanceDataItem* a1)
 	{

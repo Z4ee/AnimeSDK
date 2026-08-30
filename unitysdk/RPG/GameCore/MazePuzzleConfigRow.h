@@ -7,20 +7,20 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MAZEPUZZLECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1AF4E290)
-#define RPG_GAMECORE_MAZEPUZZLECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF4E960)
+#define RPG_GAMECORE_MAZEPUZZLECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D27D430)
+#define RPG_GAMECORE_MAZEPUZZLECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D27DB00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MazePuzzleConfigRow_TypeDefinitionIndex = 13985;
+	inline static constexpr unsigned int MazePuzzleConfigRow_TypeDefinitionIndex = 14403;
 
 	class MazePuzzleConfigRow : public ::System::Object
 	{
 	public:
 		::System::String* IconPath; // 0x10
 		::RPG::Client::TextID ShowFuncBtnHint; // 0x18
-		::RPG::GameCore::PuzzleFunc PuzzleFuncType; // 0x28
-		::System::Single DefaultCDDuration; // 0x2C
+		::System::Single DefaultCDDuration; // 0x28
+		::RPG::GameCore::PuzzleFunc PuzzleFuncType; // 0x2C
 
 		::System::Void _ctor()
 		{

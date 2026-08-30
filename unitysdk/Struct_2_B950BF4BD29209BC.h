@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define STRUCT_2_B950BF4BD29209BC_METHOD_2_02FC89337888B618_OFFSET UNITYSDK_OFFSET(0x38DA010)
-#define STRUCT_2_B950BF4BD29209BC_METHOD_2_E923266A4538CFD9_OFFSET UNITYSDK_OFFSET(0x38D9FB0)
+#define STRUCT_2_B950BF4BD29209BC_METHOD_2_02FC89337888B618_OFFSET UNITYSDK_OFFSET(0x3A53770)
+#define STRUCT_2_B950BF4BD29209BC_METHOD_2_E923266A4538CFD9_OFFSET UNITYSDK_OFFSET(0x3A53710)
 
-inline static constexpr unsigned int Struct_2_B950BF4BD29209BC_TypeDefinitionIndex = 6602;
+inline static constexpr unsigned int Struct_2_B950BF4BD29209BC_TypeDefinitionIndex = 6214;
 
 struct alignas(4) Struct_2_B950BF4BD29209BC
 {
-	::System::Single Field_2_0; // 0x10
-	::System::Single Field_2_1; // 0x14
-	::System::Single Field_2_2; // 0x18
-	::System::Single Field_2_3; // 0x1C
-	::System::Single Field_2_4; // 0x20
-	::System::Single Field_2_5; // 0x24
+	::System::Single CNAEHKPLENB; // 0x10
+	::System::Single FBLHLHCGMKO; // 0x14
+	::System::Single GNEIJHBGCHG; // 0x18
+	::System::Single JNKMJKBDGPL; // 0x1C
+	::System::Single MOMALPAJBAI; // 0x20
+	::System::Single JPJIJDLDLJD; // 0x24
 
 	::System::Single Method_2_E923266A4538CFD9(::System::Int32 a1)
 	{

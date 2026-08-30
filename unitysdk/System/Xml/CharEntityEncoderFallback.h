@@ -5,25 +5,25 @@
 namespace System::Text { class EncoderFallbackBuffer; }
 namespace System::Xml { class CharEntityEncoderFallbackBuffer; }
 
-#define SYSTEM_XML_CHARENTITYENCODERFALLBACK_CANREPLACEAT_OFFSET UNITYSDK_OFFSET(0x19F7E610)
-#define SYSTEM_XML_CHARENTITYENCODERFALLBACK_CREATEFALLBACKBUFFER_OFFSET UNITYSDK_OFFSET(0x19F7E550)
-#define SYSTEM_XML_CHARENTITYENCODERFALLBACK_GET_MAXCHARCOUNT_OFFSET UNITYSDK_OFFSET(0x19F7E5E0)
-#define SYSTEM_XML_CHARENTITYENCODERFALLBACK_RESET_OFFSET UNITYSDK_OFFSET(0x19F7E600)
-#define SYSTEM_XML_CHARENTITYENCODERFALLBACK_SET_STARTOFFSET_OFFSET UNITYSDK_OFFSET(0x19F7E5F0)
-#define SYSTEM_XML_CHARENTITYENCODERFALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x19F7E540)
+#define SYSTEM_XML_CHARENTITYENCODERFALLBACK_CANREPLACEAT_OFFSET UNITYSDK_OFFSET(0x1BABB7E0)
+#define SYSTEM_XML_CHARENTITYENCODERFALLBACK_CREATEFALLBACKBUFFER_OFFSET UNITYSDK_OFFSET(0x1BABB720)
+#define SYSTEM_XML_CHARENTITYENCODERFALLBACK_GET_MAXCHARCOUNT_OFFSET UNITYSDK_OFFSET(0x1BABB7B0)
+#define SYSTEM_XML_CHARENTITYENCODERFALLBACK_RESET_OFFSET UNITYSDK_OFFSET(0x1BABB7D0)
+#define SYSTEM_XML_CHARENTITYENCODERFALLBACK_SET_STARTOFFSET_OFFSET UNITYSDK_OFFSET(0x1BABB7C0)
+#define SYSTEM_XML_CHARENTITYENCODERFALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1BABB710)
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int CharEntityEncoderFallback_TypeDefinitionIndex = 1789;
+	inline static constexpr unsigned int CharEntityEncoderFallback_TypeDefinitionIndex = 1796;
 
 	class CharEntityEncoderFallback : public ::System::Text::EncoderFallback
 	{
 	public:
-		::System::Xml::CharEntityEncoderFallbackBuffer* fallbackBuffer; // 0x18
-		::Il2CppArray<::System::Int32>* textContentMarks; // 0x20
-		::System::Int32 endMarkPos; // 0x28
-		::System::Int32 startOffset; // 0x2C
-		::System::Int32 curMarkPos; // 0x30
+		::Il2CppArray<::System::Int32>* textContentMarks; // 0x18
+		::System::Xml::CharEntityEncoderFallbackBuffer* fallbackBuffer; // 0x20
+		::System::Int32 curMarkPos; // 0x28
+		::System::Int32 endMarkPos; // 0x2C
+		::System::Int32 startOffset; // 0x30
 
 		::System::Void _ctor()
 		{

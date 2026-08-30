@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ConfigDataPoolDictionaryValuesPoolMember_2_TypeDefinitionIndex = 10421;
+	inline static constexpr unsigned int ConfigDataPoolDictionaryValuesPoolMember_2_TypeDefinitionIndex = 10762;
 
 	template <typename TKey, typename TValue>
 	struct ConfigDataPoolDictionaryValuesPoolMember_2

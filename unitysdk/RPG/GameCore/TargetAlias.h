@@ -8,36 +8,36 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Text::RegularExpressions { class Regex; }
 
-#define RPG_GAMECORE_TARGETALIAS_METHOD_4_2EA38A17192687F2_OFFSET UNITYSDK_OFFSET(0x1B44D250)
-#define RPG_GAMECORE_TARGETALIAS_METHOD_4_3232964FC7F4960B_OFFSET UNITYSDK_OFFSET(0x1B44D060)
-#define RPG_GAMECORE_TARGETALIAS_METHOD_4_3A780B402E8460B7_OFFSET UNITYSDK_OFFSET(0x1B44D0B0)
-#define RPG_GAMECORE_TARGETALIAS_METHOD_4_3CF40893AD427598_OFFSET UNITYSDK_OFFSET(0x1B44D310)
-#define RPG_GAMECORE_TARGETALIAS_METHOD_4_4729EFD79E74B779_OFFSET UNITYSDK_OFFSET(0x1B44CFC0)
-#define RPG_GAMECORE_TARGETALIAS_METHOD_4_C635A39D92B6A11E_OFFSET UNITYSDK_OFFSET(0x1B433CB0)
-#define RPG_GAMECORE_TARGETALIAS_METHOD_4_CA33F43F986394C5_OFFSET UNITYSDK_OFFSET(0x1B44CED0)
-#define RPG_GAMECORE_TARGETALIAS_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1B44D210)
-#define RPG_GAMECORE_TARGETALIAS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B44D400)
-#define RPG_GAMECORE_TARGETALIAS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B44D200)
-#define RPG_GAMECORE_TARGETALIAS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B44CFB0)
+#define RPG_GAMECORE_TARGETALIAS_METHOD_4_2EA38A17192687F2_OFFSET UNITYSDK_OFFSET(0x1E165AA0)
+#define RPG_GAMECORE_TARGETALIAS_METHOD_4_3232964FC7F4960B_OFFSET UNITYSDK_OFFSET(0x1E1658B0)
+#define RPG_GAMECORE_TARGETALIAS_METHOD_4_3A780B402E8460B7_OFFSET UNITYSDK_OFFSET(0x1E165900)
+#define RPG_GAMECORE_TARGETALIAS_METHOD_4_3CF40893AD427598_OFFSET UNITYSDK_OFFSET(0x1E165B60)
+#define RPG_GAMECORE_TARGETALIAS_METHOD_4_4729EFD79E74B779_OFFSET UNITYSDK_OFFSET(0x1E165810)
+#define RPG_GAMECORE_TARGETALIAS_METHOD_4_C635A39D92B6A11E_OFFSET UNITYSDK_OFFSET(0x1E150040)
+#define RPG_GAMECORE_TARGETALIAS_METHOD_4_CA33F43F986394C5_OFFSET UNITYSDK_OFFSET(0x1E165720)
+#define RPG_GAMECORE_TARGETALIAS_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E165A60)
+#define RPG_GAMECORE_TARGETALIAS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E165C50)
+#define RPG_GAMECORE_TARGETALIAS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E165A50)
+#define RPG_GAMECORE_TARGETALIAS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E165800)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TargetAlias_TypeDefinitionIndex = 22892;
+	inline static constexpr unsigned int TargetAlias_TypeDefinitionIndex = 23472;
 
 	class TargetAlias : public ::RPG::GameCore::TargetEvaluator
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::TargetAlias*>** StaticGet_AliasNameTable()
+		static ::RPG::GameCore::TargetAlias** StaticGet_Default()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::TargetAlias*>**)Il2CppClass::FromTypeDefinitionIndex(TargetAlias_TypeDefinitionIndex)->GetStaticField(0x90E0);
+			return (::RPG::GameCore::TargetAlias**)Il2CppClass::FromTypeDefinitionIndex(TargetAlias_TypeDefinitionIndex)->GetStaticField(0x26D80);
 		}
 		static ::System::Text::RegularExpressions::Regex** StaticGet__PureAliasRegex()
 		{
-			return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(TargetAlias_TypeDefinitionIndex)->GetStaticField(0x90E8);
+			return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(TargetAlias_TypeDefinitionIndex)->GetStaticField(0x26D88);
 		}
-		static ::RPG::GameCore::TargetAlias** StaticGet_Default()
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::TargetAlias*>** StaticGet_AliasNameTable()
 		{
-			return (::RPG::GameCore::TargetAlias**)Il2CppClass::FromTypeDefinitionIndex(TargetAlias_TypeDefinitionIndex)->GetStaticField(0x90F0);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::TargetAlias*>**)Il2CppClass::FromTypeDefinitionIndex(TargetAlias_TypeDefinitionIndex)->GetStaticField(0x26D90);
 		}
 		::System::String* Alias; // 0x10
 

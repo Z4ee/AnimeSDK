@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_BELOBOGSHOPUICONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A3FB180)
-#define RPG_GAMECORE_BELOBOGSHOPUICONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3FB930)
+#define RPG_GAMECORE_BELOBOGSHOPUICONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B308DE0)
+#define RPG_GAMECORE_BELOBOGSHOPUICONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B309590)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BelobogShopUIConfigRow_TypeDefinitionIndex = 11553;
+	inline static constexpr unsigned int BelobogShopUIConfigRow_TypeDefinitionIndex = 11942;
 
 	class BelobogShopUIConfigRow : public ::System::Object
 	{
@@ -19,8 +19,8 @@ namespace RPG::GameCore
 		::System::String* ImgPath; // 0x10
 		::Il2CppArray<::System::UInt32>* ReplyIDList; // 0x18
 		::System::String* IconPath; // 0x20
-		::RPG::Client::TextID Desc; // 0x28
-		::RPG::Client::TextID Name; // 0x38
+		::RPG::Client::TextID Name; // 0x28
+		::RPG::Client::TextID Desc; // 0x38
 		::System::UInt32 ID; // 0x48
 
 		::System::Void _ctor()

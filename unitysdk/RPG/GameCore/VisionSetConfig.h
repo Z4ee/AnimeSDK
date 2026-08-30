@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_VISIONSETCONFIG_METHOD_2_B050646BA7D6A10F_OFFSET UNITYSDK_OFFSET(0x1B89D2D0)
-#define RPG_GAMECORE_VISIONSETCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B89D390)
+#define RPG_GAMECORE_VISIONSETCONFIG_METHOD_2_B050646BA7D6A10F_OFFSET UNITYSDK_OFFSET(0x1DEB0AB0)
+#define RPG_GAMECORE_VISIONSETCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1DEB0B70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int VisionSetConfig_TypeDefinitionIndex = 16730;
+	inline static constexpr unsigned int VisionSetConfig_TypeDefinitionIndex = 17232;
 
 	class VisionSetConfig : public ::RPG::GameCore::JsonConfig
 	{

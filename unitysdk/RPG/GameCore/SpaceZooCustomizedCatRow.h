@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_SPACEZOOCUSTOMIZEDCATROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1BE55BC0)
-#define RPG_GAMECORE_SPACEZOOCUSTOMIZEDCATROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE55D70)
+#define RPG_GAMECORE_SPACEZOOCUSTOMIZEDCATROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D0A9880)
+#define RPG_GAMECORE_SPACEZOOCUSTOMIZEDCATROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0A9A30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SpaceZooCustomizedCatRow_TypeDefinitionIndex = 11898;
+	inline static constexpr unsigned int SpaceZooCustomizedCatRow_TypeDefinitionIndex = 12287;
 
 	class SpaceZooCustomizedCatRow : public ::System::Object
 	{

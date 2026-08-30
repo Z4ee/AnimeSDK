@@ -14,7 +14,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace MiHoYo::SDK::Protobuf::Collections
 {
-	inline static constexpr unsigned int RepeatedField_1_TypeDefinitionIndex = 34430;
+	inline static constexpr unsigned int RepeatedField_1_TypeDefinitionIndex = 35197;
 
 	template <typename T>
 	class RepeatedField_1 : public ::System::Object

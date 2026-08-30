@@ -5,18 +5,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUETOURNMISCDISPLAYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1BB7BF40)
-#define RPG_GAMECORE_ROGUETOURNMISCDISPLAYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB7C510)
+#define RPG_GAMECORE_ROGUETOURNMISCDISPLAYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CCCA1F0)
+#define RPG_GAMECORE_ROGUETOURNMISCDISPLAYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CCCA7C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTournMiscDisplayRow_TypeDefinitionIndex = 14404;
+	inline static constexpr unsigned int RogueTournMiscDisplayRow_TypeDefinitionIndex = 14824;
 
 	class RogueTournMiscDisplayRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 DisplayID; // 0x10
-		::RPG::Client::TextID DisplayContent; // 0x18
+		::RPG::Client::TextID DisplayContent; // 0x10
+		::System::UInt32 DisplayID; // 0x20
 
 		::System::Void _ctor()
 		{

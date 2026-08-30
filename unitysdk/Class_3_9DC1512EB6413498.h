@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class StartBattleScoringAbility; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_9DC1512EB6413498_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15FF4460)
-#define CLASS_3_9DC1512EB6413498__CTOR_OFFSET UNITYSDK_OFFSET(0x15FF4430)
+#define CLASS_3_9DC1512EB6413498_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A82C600)
+#define CLASS_3_9DC1512EB6413498__CTOR_OFFSET UNITYSDK_OFFSET(0x1A82C5D0)
 
-inline static constexpr unsigned int Class_3_9DC1512EB6413498_TypeDefinitionIndex = 53138;
+inline static constexpr unsigned int Class_3_9DC1512EB6413498_TypeDefinitionIndex = 55850;
 
 class Class_3_9DC1512EB6413498 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::StartBattleScoringAbility*>
 {

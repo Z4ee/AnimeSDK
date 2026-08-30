@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_CA217ABF4E3B4F3F.h"
+#include "unitysdk/Class_1_34917908B7833130.h"
 #include "unitysdk/RPG/GameCore/FeverTimePeriodType.h"
 
 namespace RPG::Client { class ProgressBar; }
@@ -17,57 +17,57 @@ namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class SmoothMask; }
 namespace UnityEngine::UI { class Text; }
 
-#define CLASS_2_EFA4834D5D0C9C0C_AUTOBINDCALLBACK_OFFSET UNITYSDK_OFFSET(0x15FE0650)
-#define CLASS_2_EFA4834D5D0C9C0C_AUTOREMOVECALLBACK_OFFSET UNITYSDK_OFFSET(0x15FE0910)
-#define CLASS_2_EFA4834D5D0C9C0C_GET_INDEX_OFFSET UNITYSDK_OFFSET(0x15FDE1A0)
-#define CLASS_2_EFA4834D5D0C9C0C_GET_TRANS_OFFSET UNITYSDK_OFFSET(0x15FDE1C0)
-#define CLASS_2_EFA4834D5D0C9C0C_METHOD_2_00DEF5A164D9A9D5_OFFSET UNITYSDK_OFFSET(0x15FDE840)
-#define CLASS_2_EFA4834D5D0C9C0C_METHOD_2_3CAAC043D5E04B4E_OFFSET UNITYSDK_OFFSET(0x15FDF730)
-#define CLASS_2_EFA4834D5D0C9C0C_METHOD_2_41A074549EF25F63_OFFSET UNITYSDK_OFFSET(0x15FDEA80)
-#define CLASS_2_EFA4834D5D0C9C0C_METHOD_2_4857357D5C1BFCE8_OFFSET UNITYSDK_OFFSET(0x15FDEBF0)
-#define CLASS_2_EFA4834D5D0C9C0C_METHOD_2_86143FF46EAE82B7_OFFSET UNITYSDK_OFFSET(0x15FE0330)
-#define CLASS_2_EFA4834D5D0C9C0C_METHOD_2_C450A961450309C9_1_OFFSET UNITYSDK_OFFSET(0x15FDF5B0)
-#define CLASS_2_EFA4834D5D0C9C0C_METHOD_2_C450A961450309C9_2_OFFSET UNITYSDK_OFFSET(0x15FE03F0)
-#define CLASS_2_EFA4834D5D0C9C0C_METHOD_2_C450A961450309C9_OFFSET UNITYSDK_OFFSET(0x15FDF430)
-#define CLASS_2_EFA4834D5D0C9C0C_METHOD_2_F37CDBD6D46274D2_1_OFFSET UNITYSDK_OFFSET(0x15FDF3B0)
-#define CLASS_2_EFA4834D5D0C9C0C_METHOD_2_F37CDBD6D46274D2_2_OFFSET UNITYSDK_OFFSET(0x15FE0520)
-#define CLASS_2_EFA4834D5D0C9C0C_METHOD_2_F37CDBD6D46274D2_OFFSET UNITYSDK_OFFSET(0x15FDF330)
-#define CLASS_2_EFA4834D5D0C9C0C_SET_INDEX_OFFSET UNITYSDK_OFFSET(0x15FDE1B0)
-#define CLASS_2_EFA4834D5D0C9C0C__CTOR_OFFSET UNITYSDK_OFFSET(0x15FE0F00)
-#define CLASS_2_EFA4834D5D0C9C0C__ONBIND_OFFSET UNITYSDK_OFFSET(0x15FDE200)
+#define CLASS_2_EFA4834D5D0C9C0C_AUTOBINDCALLBACK_OFFSET UNITYSDK_OFFSET(0x1A818870)
+#define CLASS_2_EFA4834D5D0C9C0C_AUTOREMOVECALLBACK_OFFSET UNITYSDK_OFFSET(0x1A818B30)
+#define CLASS_2_EFA4834D5D0C9C0C_GET_INDEX_OFFSET UNITYSDK_OFFSET(0x1A8163C0)
+#define CLASS_2_EFA4834D5D0C9C0C_GET_TRANS_OFFSET UNITYSDK_OFFSET(0x1A8163E0)
+#define CLASS_2_EFA4834D5D0C9C0C_METHOD_2_00DEF5A164D9A9D5_OFFSET UNITYSDK_OFFSET(0x1A816A60)
+#define CLASS_2_EFA4834D5D0C9C0C_METHOD_2_3CAAC043D5E04B4E_OFFSET UNITYSDK_OFFSET(0x1A817950)
+#define CLASS_2_EFA4834D5D0C9C0C_METHOD_2_41A074549EF25F63_OFFSET UNITYSDK_OFFSET(0x1A816CA0)
+#define CLASS_2_EFA4834D5D0C9C0C_METHOD_2_4857357D5C1BFCE8_OFFSET UNITYSDK_OFFSET(0x1A816E10)
+#define CLASS_2_EFA4834D5D0C9C0C_METHOD_2_86143FF46EAE82B7_OFFSET UNITYSDK_OFFSET(0x1A818550)
+#define CLASS_2_EFA4834D5D0C9C0C_METHOD_2_C450A961450309C9_1_OFFSET UNITYSDK_OFFSET(0x1A8177D0)
+#define CLASS_2_EFA4834D5D0C9C0C_METHOD_2_C450A961450309C9_2_OFFSET UNITYSDK_OFFSET(0x1A818610)
+#define CLASS_2_EFA4834D5D0C9C0C_METHOD_2_C450A961450309C9_OFFSET UNITYSDK_OFFSET(0x1A817650)
+#define CLASS_2_EFA4834D5D0C9C0C_METHOD_2_F37CDBD6D46274D2_1_OFFSET UNITYSDK_OFFSET(0x1A8175D0)
+#define CLASS_2_EFA4834D5D0C9C0C_METHOD_2_F37CDBD6D46274D2_2_OFFSET UNITYSDK_OFFSET(0x1A818740)
+#define CLASS_2_EFA4834D5D0C9C0C_METHOD_2_F37CDBD6D46274D2_OFFSET UNITYSDK_OFFSET(0x1A817550)
+#define CLASS_2_EFA4834D5D0C9C0C_SET_INDEX_OFFSET UNITYSDK_OFFSET(0x1A8163D0)
+#define CLASS_2_EFA4834D5D0C9C0C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A819120)
+#define CLASS_2_EFA4834D5D0C9C0C__ONBIND_OFFSET UNITYSDK_OFFSET(0x1A816420)
 
-inline static constexpr unsigned int Class_2_EFA4834D5D0C9C0C_TypeDefinitionIndex = 68839;
+inline static constexpr unsigned int Class_2_EFA4834D5D0C9C0C_TypeDefinitionIndex = 72037;
 
-class Class_2_EFA4834D5D0C9C0C : public ::Class_1_CA217ABF4E3B4F3F
+class Class_2_EFA4834D5D0C9C0C : public ::Class_1_34917908B7833130
 {
 public:
-	// static const ::System::String* Field_2_0; // 0x0
-	::UnityEngine::Animator* Field_2_1; // 0x60
-	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::FeverTimePeriodType, ::RPG::Client::ProgressBar*>* Field_2_2; // 0x68
-	::RPG::GameCore::LevelUIComponent* Field_2_3; // 0x70
-	::UnityEngine::Transform* Field_2_4; // 0x78
-	::UnityEngine::UI::Text* Field_2_5; // 0x80
-	::System::String* Field_2_6; // 0x88
-	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::FeverTimePeriodType, ::UnityEngine::UI::SmoothMask*>* Field_2_7; // 0x90
-	::UnityEngine::UI::Text* Field_2_8; // 0x98
-	::UnityEngine::UI::Text* Field_2_9; // 0xA0
-	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::FeverTimePeriodType, ::UnityEngine::Animation*>* Field_2_10; // 0xA8
-	::System::String* Field_2_11; // 0xB0
-	::UnityEngine::UI::Button* Field_2_12; // 0xB8
-	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::FeverTimePeriodType, ::UnityEngine::Transform*>* Field_2_13; // 0xC0
-	::UnityEngine::Transform* Field_2_14; // 0xC8
-	::UnityEngine::Transform* Field_2_15; // 0xD0
-	::UnityEngine::Animation* Field_2_16; // 0xD8
-	::System::String* Field_2_17; // 0xE0
-	::UnityEngine::Transform* Field_2_18; // 0xE8
-	::RPG::Client::StoryFeverPileToast* Field_2_19; // 0xF0
-	::UnityEngine::UI::Button* Field_2_20; // 0xF8
-	::System::Int32 Field_2_21; // 0x100
-	::RPG::GameCore::FeverTimePeriodType Field_2_22; // 0x104
-	::System::UInt32 Field_2_23; // 0x108
-	::System::Int32 _Index_k__BackingField; // 0x10C
-	::System::UInt32 Field_2_25; // 0x110
-	::RPG::GameCore::FeverTimePeriodType Field_2_26; // 0x114
+	// static const ::System::String* DJCBDJMACFH; // 0x0
+	::UnityEngine::UI::Text* CDDKKEHPBAO; // 0x60
+	::System::String* KIKBMCDIJJD; // 0x68
+	::System::String* PABPGCLAAMF; // 0x70
+	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::FeverTimePeriodType, ::UnityEngine::Transform*>* FBJDADLJKBK; // 0x78
+	::UnityEngine::UI::Text* ACPBNFHIHID; // 0x80
+	::UnityEngine::Transform* PLNEDDNHEPC; // 0x88
+	::UnityEngine::UI::Text* KHEKAEPGEFJ; // 0x90
+	::UnityEngine::Animator* KMDJLABGAIL; // 0x98
+	::UnityEngine::UI::Button* PEBNIHKBICH; // 0xA0
+	::UnityEngine::Transform* CPGEABJPLMB; // 0xA8
+	::RPG::GameCore::LevelUIComponent* GEAHNEAGEBG; // 0xB0
+	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::FeverTimePeriodType, ::RPG::Client::ProgressBar*>* FGPACFGPMIF; // 0xB8
+	::UnityEngine::Transform* OCFPCNALDKP; // 0xC0
+	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::FeverTimePeriodType, ::UnityEngine::Animation*>* HCJAHGMOGPH; // 0xC8
+	::RPG::Client::StoryFeverPileToast* NPAFJPLHKDM; // 0xD0
+	::System::String* IECFNAFDEGN; // 0xD8
+	::UnityEngine::Animation* LJDAFFMNCBH; // 0xE0
+	::UnityEngine::UI::Button* LMBPJMHGLBE; // 0xE8
+	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::FeverTimePeriodType, ::UnityEngine::UI::SmoothMask*>* JPNMJNMNJEB; // 0xF0
+	::UnityEngine::Transform* MCNEMMCFEIK; // 0xF8
+	::System::UInt32 LKGLNFBMHOG; // 0x100
+	::RPG::GameCore::FeverTimePeriodType DAEKEPDOFOG; // 0x104
+	::System::Int32 _Index_k__BackingField; // 0x108
+	::System::UInt32 JGBABANKIKL; // 0x10C
+	::System::Int32 MDLFDFILLJP; // 0x110
+	::RPG::GameCore::FeverTimePeriodType AOMDAKBACJL; // 0x114
 
 	::System::Void _ctor()
 	{

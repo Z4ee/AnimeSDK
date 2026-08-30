@@ -4,7 +4,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ReasonBool_1_TypeDefinitionIndex = 57302;
+	inline static constexpr unsigned int ReasonBool_1_TypeDefinitionIndex = 60100;
 
 	template <typename Reason>
 	struct ReasonBool_1

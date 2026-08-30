@@ -4,12 +4,12 @@
 
 class Class_2_FD0167EB507B9435_3;
 
-#define RPG_CLIENT_GRIDFIGHTPLAYER___C__DISPLAYCLASS39_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE9ADC0)
-#define RPG_CLIENT_GRIDFIGHTPLAYER___C__DISPLAYCLASS39_0__ISVICTORYRULEUNLOCK_B__0_OFFSET UNITYSDK_OFFSET(0x1AE9CC80)
+#define RPG_CLIENT_GRIDFIGHTPLAYER___C__DISPLAYCLASS39_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1CA52180)
+#define RPG_CLIENT_GRIDFIGHTPLAYER___C__DISPLAYCLASS39_0__ISVICTORYRULEUNLOCK_B__0_OFFSET UNITYSDK_OFFSET(0x1CA54270)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightPlayer___c__DisplayClass39_0_TypeDefinitionIndex = 62150;
+	inline static constexpr unsigned int GridFightPlayer___c__DisplayClass39_0_TypeDefinitionIndex = 65135;
 
 	class GridFightPlayer___c__DisplayClass39_0 : public ::System::Object
 	{

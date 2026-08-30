@@ -7,29 +7,29 @@
 class Class_2_B66C1067C0468FBB;
 namespace RPG::GameCore { class ChimeraDuelChimeraPresetRow; }
 
-#define CLASS_1_D2412BD47CB5EDB5__CTOR_1_OFFSET UNITYSDK_OFFSET(0x19C80990)
-#define CLASS_1_D2412BD47CB5EDB5__CTOR_2_OFFSET UNITYSDK_OFFSET(0x19C80A80)
-#define CLASS_1_D2412BD47CB5EDB5__CTOR_3_OFFSET UNITYSDK_OFFSET(0x19C80C20)
-#define CLASS_1_D2412BD47CB5EDB5__CTOR_OFFSET UNITYSDK_OFFSET(0x19C80940)
+#define CLASS_1_D2412BD47CB5EDB5__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1BF99CF0)
+#define CLASS_1_D2412BD47CB5EDB5__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1BF99DE0)
+#define CLASS_1_D2412BD47CB5EDB5__CTOR_3_OFFSET UNITYSDK_OFFSET(0x1BF99F80)
+#define CLASS_1_D2412BD47CB5EDB5__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF99CA0)
 
-inline static constexpr unsigned int Class_1_D2412BD47CB5EDB5_TypeDefinitionIndex = 39518;
+inline static constexpr unsigned int Class_1_D2412BD47CB5EDB5_TypeDefinitionIndex = 40391;
 
 class Class_1_D2412BD47CB5EDB5 : public ::System::Object
 {
 public:
-	static ::System::Int32* StaticGet_Field_1_0()
+	static ::System::Int32* StaticGet_IEPCJGJDIDM()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_D2412BD47CB5EDB5_TypeDefinitionIndex)->GetStaticField(0xAAA0);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_D2412BD47CB5EDB5_TypeDefinitionIndex)->GetStaticField(0x12150);
 	}
-	::RPG::GameCore::ChimeraDuelTeamType Field_1_1; // 0x10
-	::System::Int32 Field_1_2; // 0x14
-	::System::Nullable_1<::System::Int32> Field_1_3; // 0x18
-	::System::UInt32 Field_1_4; // 0x20
-	::System::Int32 Field_1_5; // 0x24
-	::System::UInt32 Field_1_6; // 0x28
-	::System::Nullable_1<::System::Int32> Field_1_7; // 0x2C
-	::System::Int32 Field_1_8; // 0x34
-	::System::UInt32 Field_1_9; // 0x38
+	::System::UInt32 PHFMCACHFIJ; // 0x10
+	::System::Nullable_1<::System::Int32> NJBJDEBPCLN; // 0x14
+	::System::UInt32 BPHEJFJENJK; // 0x1C
+	::System::UInt32 PJNNPOKJEFD; // 0x20
+	::System::Int32 NJNLHLCLOJA; // 0x24
+	::System::Int32 MGHNBDDCEKK; // 0x28
+	::RPG::GameCore::ChimeraDuelTeamType JCDIEKGKCPP; // 0x2C
+	::System::Int32 KEINOBNBHDO; // 0x30
+	::System::Nullable_1<::System::Int32> FNIAIOLFNPC; // 0x34
 
 	::System::Void _ctor(::RPG::GameCore::ChimeraDuelChimeraPresetRow* a1, ::RPG::GameCore::ChimeraDuelTeamType a2)
 	{

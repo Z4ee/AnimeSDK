@@ -9,13 +9,13 @@ namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::EventSystems { class VirtualCursorInputModule; }
 namespace UnityEngine::UI { class Image; }
 
-#define RPG_CLIENT_CURSORSCRIPT_START_OFFSET UNITYSDK_OFFSET(0x1803A060)
-#define RPG_CLIENT_CURSORSCRIPT_UPDATE_OFFSET UNITYSDK_OFFSET(0x1803A290)
-#define RPG_CLIENT_CURSORSCRIPT__CTOR_OFFSET UNITYSDK_OFFSET(0x1803AE10)
+#define RPG_CLIENT_CURSORSCRIPT_START_OFFSET UNITYSDK_OFFSET(0x1A2AD2E0)
+#define RPG_CLIENT_CURSORSCRIPT_UPDATE_OFFSET UNITYSDK_OFFSET(0x1A2AD540)
+#define RPG_CLIENT_CURSORSCRIPT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2AE0D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CursorScript_TypeDefinitionIndex = 69872;
+	inline static constexpr unsigned int CursorScript_TypeDefinitionIndex = 73129;
 
 	class CursorScript : public ::UnityEngine::MonoBehaviour
 	{
@@ -26,9 +26,9 @@ namespace RPG::Client
 		::UnityEngine::RectTransform* myRecTransform; // 0x30
 		::UnityEngine::RectTransform* canvasParent; // 0x38
 		::System::Boolean virtualCursorSupport; // 0x40
-		::UnityEngine::EventSystems::VirtualCursorInputModule* Field_5_6; // 0x48
-		::UnityEngine::UI::Image* Field_5_7; // 0x50
-		::UnityEngine::Vector2 Field_5_8; // 0x58
+		::UnityEngine::EventSystems::VirtualCursorInputModule* OEAGIKMGOPF; // 0x48
+		::UnityEngine::UI::Image* AAAKAGFLLJJ; // 0x50
+		::UnityEngine::Vector2 MGOCAFLEMNE; // 0x58
 
 		::System::Void _ctor()
 		{

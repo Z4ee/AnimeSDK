@@ -1,29 +1,42 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/FateRinCaseBoardTeamType.h"
 #include "unitysdk/RPG/GameCore/ImmediateTaskBase_1.h"
 
-class Class_3_812B9D44208FD185;
+class Class_3_687762C863A35B66;
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class Exception; }
 
-#define CLASS_3_27518451A20BB161_21_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15EE58E0)
-#define CLASS_3_27518451A20BB161_21__CTOR_OFFSET UNITYSDK_OFFSET(0x15EE58B0)
-#define CLASS_3_27518451A20BB161_21__ONTASKBEGIN_B__1_0_OFFSET UNITYSDK_OFFSET(0x15EE5AC0)
-#define CLASS_3_27518451A20BB161_21__ONTASKBEGIN_B__1_1_OFFSET UNITYSDK_OFFSET(0x15EE5AD0)
+#define CLASS_3_27518451A20BB161_21_METHOD_3_2C5FE5D1C13E8118_OFFSET UNITYSDK_OFFSET(0x15E0F630)
+#define CLASS_3_27518451A20BB161_21_METHOD_3_6BB7BC3CD3087475_OFFSET UNITYSDK_OFFSET(0x15E0F6F0)
+#define CLASS_3_27518451A20BB161_21_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15E0F2E0)
+#define CLASS_3_27518451A20BB161_21__CTOR_OFFSET UNITYSDK_OFFSET(0x15E0F2B0)
+#define CLASS_3_27518451A20BB161_21__ONTASKBEGIN_B__1_0_OFFSET UNITYSDK_OFFSET(0x15E0F740)
+#define CLASS_3_27518451A20BB161_21__ONTASKBEGIN_B__1_1_OFFSET UNITYSDK_OFFSET(0x15E0F750)
 
-inline static constexpr unsigned int Class_3_27518451A20BB161_21_TypeDefinitionIndex = 50407;
+inline static constexpr unsigned int Class_3_27518451A20BB161_21_TypeDefinitionIndex = 53070;
 
-class Class_3_27518451A20BB161_21 : public ::RPG::GameCore::ImmediateTaskBase_1<::Class_3_812B9D44208FD185*>
+class Class_3_27518451A20BB161_21 : public ::RPG::GameCore::ImmediateTaskBase_1<::Class_3_687762C863A35B66*>
 {
 public:
-	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::Class_3_812B9D44208FD185* a2)
+	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::Class_3_687762C863A35B66* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::Class_3_812B9D44208FD185*))((::PBYTE)hIl2Cpp + CLASS_3_27518451A20BB161_21__CTOR_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::Class_3_687762C863A35B66*))((::PBYTE)hIl2Cpp + CLASS_3_27518451A20BB161_21__CTOR_OFFSET))(this, a1, a2);
 	}
 
 	::System::Void OnTaskBegin()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_27518451A20BB161_21_ONTASKBEGIN_OFFSET))(this);
+	}
+
+	static ::System::Int32 Method_3_2C5FE5D1C13E8118(::Il2CppArray<::RPG::GameCore::FateRinCaseBoardTeamType>* a1)
+	{
+		return ((::System::Int32(*)(::Il2CppArray<::RPG::GameCore::FateRinCaseBoardTeamType>*))((::PBYTE)hIl2Cpp + CLASS_3_27518451A20BB161_21_METHOD_3_2C5FE5D1C13E8118_OFFSET))(a1);
+	}
+
+	static ::System::Boolean Method_3_6BB7BC3CD3087475(::RPG::GameCore::FateRinCaseBoardTeamType a1)
+	{
+		return ((::System::Boolean(*)(::RPG::GameCore::FateRinCaseBoardTeamType))((::PBYTE)hIl2Cpp + CLASS_3_27518451A20BB161_21_METHOD_3_6BB7BC3CD3087475_OFFSET))(a1);
 	}
 
 	::System::Void _OnTaskBegin_b__1_0()

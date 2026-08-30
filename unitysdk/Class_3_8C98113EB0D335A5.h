@@ -6,15 +6,15 @@ namespace RPG::GameCore { class RtBattleRecordCameraRootPos; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 
-#define CLASS_3_8C98113EB0D335A5_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1730E5E0)
-#define CLASS_3_8C98113EB0D335A5__CTOR_OFFSET UNITYSDK_OFFSET(0x1730E5B0)
+#define CLASS_3_8C98113EB0D335A5_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18AB16C0)
+#define CLASS_3_8C98113EB0D335A5__CTOR_OFFSET UNITYSDK_OFFSET(0x18AB1690)
 
-inline static constexpr unsigned int Class_3_8C98113EB0D335A5_TypeDefinitionIndex = 51684;
+inline static constexpr unsigned int Class_3_8C98113EB0D335A5_TypeDefinitionIndex = 54368;
 
 class Class_3_8C98113EB0D335A5 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::RtBattleRecordCameraRootPos*>
 {
 public:
-	// static const ::System::String* Field_3_0; // 0x0
+	// static const ::System::String* HBNHOEKJBOL; // 0x0
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::RtBattleRecordCameraRootPos* a2)
 	{

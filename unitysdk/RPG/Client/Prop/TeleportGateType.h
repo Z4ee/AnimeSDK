@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int TeleportGateType_TypeDefinitionIndex = 74942;
+	inline static constexpr unsigned int TeleportGateType_TypeDefinitionIndex = 78427;
 
 	enum class TeleportGateType : ::System::Int32
 	{

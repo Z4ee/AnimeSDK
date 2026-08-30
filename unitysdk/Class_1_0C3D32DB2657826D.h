@@ -4,14 +4,14 @@
 
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_0C3D32DB2657826D__CTOR_OFFSET UNITYSDK_OFFSET(0x16BD9680)
+#define CLASS_1_0C3D32DB2657826D__CTOR_OFFSET UNITYSDK_OFFSET(0x18A59160)
 
-inline static constexpr unsigned int Class_1_0C3D32DB2657826D_TypeDefinitionIndex = 54971;
+inline static constexpr unsigned int Class_1_0C3D32DB2657826D_TypeDefinitionIndex = 57695;
 
 class Class_1_0C3D32DB2657826D : public ::System::Object
 {
 public:
-	::UnityEngine::Transform* Field_1_0; // 0x10
+	::UnityEngine::Transform* MCLLALGABAB; // 0x10
 
 	::System::Void _ctor()
 	{

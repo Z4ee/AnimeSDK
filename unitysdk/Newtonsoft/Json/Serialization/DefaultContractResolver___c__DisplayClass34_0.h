@@ -5,17 +5,17 @@
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Reflection { class MemberInfo; }
 
-#define NEWTONSOFT_JSON_SERIALIZATION_DEFAULTCONTRACTRESOLVER___C__DISPLAYCLASS34_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15B8E760)
+#define NEWTONSOFT_JSON_SERIALIZATION_DEFAULTCONTRACTRESOLVER___C__DISPLAYCLASS34_0__CTOR_OFFSET UNITYSDK_OFFSET(0x172D8AD0)
 
 namespace Newtonsoft::Json::Serialization
 {
-	inline static constexpr unsigned int DefaultContractResolver___c__DisplayClass34_0_TypeDefinitionIndex = 9372;
+	inline static constexpr unsigned int DefaultContractResolver___c__DisplayClass34_0_TypeDefinitionIndex = 9651;
 
 	class DefaultContractResolver___c__DisplayClass34_0 : public ::System::Object
 	{
 	public:
-		::System::Func_2<::System::Object*, ::System::Object*>* getExtensionDataDictionary; // 0x10
-		::System::Reflection::MemberInfo* member; // 0x18
+		::System::Reflection::MemberInfo* member; // 0x10
+		::System::Func_2<::System::Object*, ::System::Object*>* getExtensionDataDictionary; // 0x18
 
 		::System::Void _ctor()
 		{

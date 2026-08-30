@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ScreenPPEffectType_TypeDefinitionIndex = 23910;
+	inline static constexpr unsigned int ScreenPPEffectType_TypeDefinitionIndex = 24498;
 
 	enum class ScreenPPEffectType : ::System::Int32
 	{

@@ -5,20 +5,20 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_WEBRESOURCES_RESPONSEPREAMBLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBEBA60)
+#define ZENFULCRUM_EMBEDDEDBROWSER_WEBRESOURCES_RESPONSEPREAMBLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7F3800)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int WebResources_ResponsePreamble_TypeDefinitionIndex = 37417;
+	inline static constexpr unsigned int WebResources_ResponsePreamble_TypeDefinitionIndex = 38276;
 
 	class WebResources_ResponsePreamble : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* headers; // 0x10
-		::System::String* statusText; // 0x18
+		::System::String* statusText; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* headers; // 0x18
 		::System::String* mimeType; // 0x20
-		::System::Int32 statusCode; // 0x28
-		::System::Int32 length; // 0x2C
+		::System::Int32 length; // 0x28
+		::System::Int32 statusCode; // 0x2C
 
 		::System::Void _ctor()
 		{

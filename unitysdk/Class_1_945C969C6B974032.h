@@ -5,19 +5,19 @@
 
 namespace RPG { template <typename T> class PoolHashSet_1; }
 
-#define CLASS_1_945C969C6B974032_CLEAR_OFFSET UNITYSDK_OFFSET(0x15872E20)
-#define CLASS_1_945C969C6B974032__CTOR_OFFSET UNITYSDK_OFFSET(0x15872EA0)
+#define CLASS_1_945C969C6B974032_CLEAR_OFFSET UNITYSDK_OFFSET(0x16928D60)
+#define CLASS_1_945C969C6B974032__CTOR_OFFSET UNITYSDK_OFFSET(0x16928DE0)
 
-inline static constexpr unsigned int Class_1_945C969C6B974032_TypeDefinitionIndex = 51072;
+inline static constexpr unsigned int Class_1_945C969C6B974032_TypeDefinitionIndex = 53756;
 
 class Class_1_945C969C6B974032 : public ::System::Object
 {
 public:
-	::RPG::PoolHashSet_1<::System::UInt32>* Field_1_0; // 0x10
-	::System::Single Field_1_1; // 0x18
-	::UnityEngine::Vector3 Field_1_2; // 0x1C
-	::System::Single Field_1_3; // 0x28
-	::System::Boolean Field_1_4; // 0x2C
+	::RPG::PoolHashSet_1<::System::UInt32>* FKLAGBKACGL; // 0x10
+	::System::Single MOPNIDBBGHD; // 0x18
+	::UnityEngine::Vector3 LJDCABIODKA; // 0x1C
+	::System::Single HAOCLKBECLH; // 0x28
+	::System::Boolean DAPNIBBNGPK; // 0x2C
 
 	::System::Void _ctor()
 	{

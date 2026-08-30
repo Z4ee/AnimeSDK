@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ClearAllEffect; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_4ED25A8EDEDD7713_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17C626A0)
-#define CLASS_3_4ED25A8EDEDD7713__CTOR_OFFSET UNITYSDK_OFFSET(0x17C62670)
+#define CLASS_3_4ED25A8EDEDD7713_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19A10050)
+#define CLASS_3_4ED25A8EDEDD7713__CTOR_OFFSET UNITYSDK_OFFSET(0x19A10020)
 
-inline static constexpr unsigned int Class_3_4ED25A8EDEDD7713_TypeDefinitionIndex = 52468;
+inline static constexpr unsigned int Class_3_4ED25A8EDEDD7713_TypeDefinitionIndex = 55165;
 
 class Class_3_4ED25A8EDEDD7713 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ClearAllEffect*>
 {

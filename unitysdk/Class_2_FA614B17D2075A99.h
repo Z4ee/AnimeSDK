@@ -5,14 +5,14 @@
 
 namespace RPG::Client { class RogueFormulaInfo; }
 
-#define CLASS_2_FA614B17D2075A99__CTOR_OFFSET UNITYSDK_OFFSET(0x162F0250)
+#define CLASS_2_FA614B17D2075A99__CTOR_OFFSET UNITYSDK_OFFSET(0x16415E60)
 
-inline static constexpr unsigned int Class_2_FA614B17D2075A99_TypeDefinitionIndex = 64081;
+inline static constexpr unsigned int Class_2_FA614B17D2075A99_TypeDefinitionIndex = 67074;
 
 class Class_2_FA614B17D2075A99 : public ::Class_1_CD6736B46496BBF4
 {
 public:
-	::RPG::Client::RogueFormulaInfo* Field_2_0; // 0x20
+	::RPG::Client::RogueFormulaInfo* PCCPCCCFBHJ; // 0x20
 
 	::System::Void _ctor(::Enum_3_63BCB6C405BA8A1D_3 a1, ::RPG::Client::RogueFormulaInfo* a2)
 	{

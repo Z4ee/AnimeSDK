@@ -4,9 +4,9 @@
 
 class Class_2_7417CA3454CD3FC1;
 
-#define CLASS_2_3616FDE8A71D0590_5__CTOR_OFFSET UNITYSDK_OFFSET(0x1A498920)
+#define CLASS_2_3616FDE8A71D0590_5__CTOR_OFFSET UNITYSDK_OFFSET(0x1C158160)
 
-inline static constexpr unsigned int Class_2_3616FDE8A71D0590_5_TypeDefinitionIndex = 39927;
+inline static constexpr unsigned int Class_2_3616FDE8A71D0590_5_TypeDefinitionIndex = 40802;
 
 class Class_2_3616FDE8A71D0590_5 : public ::Entitas::Context_1<::Class_2_7417CA3454CD3FC1*>
 {

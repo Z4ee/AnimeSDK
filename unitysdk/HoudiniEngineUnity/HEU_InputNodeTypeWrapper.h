@@ -3,7 +3,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_InputNodeTypeWrapper_TypeDefinitionIndex = 38406;
+	inline static constexpr unsigned int HEU_InputNodeTypeWrapper_TypeDefinitionIndex = 39265;
 
 	enum class HEU_InputNodeTypeWrapper : ::System::Int32
 	{

@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace System::Reflection { class MethodInfo; }
 
-#define RPG_EDITOR_ENVIRONMENTSYSTEMV2EDITOR_ENVEDITORCUSTOMGUIDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x106BF990)
+#define RPG_EDITOR_ENVIRONMENTSYSTEMV2EDITOR_ENVEDITORCUSTOMGUIDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x168468D0)
 
 namespace RPG::Editor::EnvironmentSystemV2Editor
 {
-	inline static constexpr unsigned int EnvEditorCustomGUIData_TypeDefinitionIndex = 49705;
+	inline static constexpr unsigned int EnvEditorCustomGUIData_TypeDefinitionIndex = 52363;
 
 	class EnvEditorCustomGUIData : public ::System::Object
 	{

@@ -9,14 +9,14 @@ namespace RPG::Client { class CommonEffectMaterialBlockOne; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Texture2D; }
 
-#define RPG_CLIENT_MONOEFFECTPLUGINDISSOLVE_METHOD_8_0BDFAC56E6B704CB_OFFSET UNITYSDK_OFFSET(0x1912B250)
-#define RPG_CLIENT_MONOEFFECTPLUGINDISSOLVE_METHOD_8_19B14977ABA39612_OFFSET UNITYSDK_OFFSET(0x1912ACA0)
-#define RPG_CLIENT_MONOEFFECTPLUGINDISSOLVE_METHOD_8_A91086AED8314DB5_OFFSET UNITYSDK_OFFSET(0x19129EB0)
-#define RPG_CLIENT_MONOEFFECTPLUGINDISSOLVE__CTOR_OFFSET UNITYSDK_OFFSET(0x1912B2E0)
+#define RPG_CLIENT_MONOEFFECTPLUGINDISSOLVE_METHOD_8_0BDFAC56E6B704CB_OFFSET UNITYSDK_OFFSET(0x1B385F30)
+#define RPG_CLIENT_MONOEFFECTPLUGINDISSOLVE_METHOD_8_19B14977ABA39612_OFFSET UNITYSDK_OFFSET(0x1B385980)
+#define RPG_CLIENT_MONOEFFECTPLUGINDISSOLVE_METHOD_8_A91086AED8314DB5_OFFSET UNITYSDK_OFFSET(0x1B384B90)
+#define RPG_CLIENT_MONOEFFECTPLUGINDISSOLVE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B385FC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginDissolve_TypeDefinitionIndex = 66865;
+	inline static constexpr unsigned int MonoEffectPluginDissolve_TypeDefinitionIndex = 69967;
 
 	class MonoEffectPluginDissolve : public ::RPG::Client::MonoEffectPluginCharaReplaceMatBase
 	{
@@ -37,7 +37,7 @@ namespace RPG::Client
 		::UnityEngine::Vector2 _DissolveOutlineSmoothStep; // 0x1D8
 		::System::Single _DissolveUV; // 0x1E0
 		::UnityEngine::Vector4 _DissolveUVSpeed; // 0x1E4
-		::System::Collections::Generic::List_1<::RPG::Client::CommonEffectMaterialBlockOne*>* Field_8_16; // 0x1F8
+		::System::Collections::Generic::List_1<::RPG::Client::CommonEffectMaterialBlockOne*>* DEOKAPMPABA; // 0x1F8
 
 		::System::Void _ctor()
 		{

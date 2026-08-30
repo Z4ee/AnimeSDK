@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_E08DCD252AEE7AEA_METHOD_1_87E1F65BD177CEC9_OFFSET UNITYSDK_OFFSET(0x14AD1300)
-#define CLASS_1_E08DCD252AEE7AEA_METHOD_1_DF36652FF6AEAAC1_OFFSET UNITYSDK_OFFSET(0x14AD1400)
-#define CLASS_1_E08DCD252AEE7AEA__CTOR_OFFSET UNITYSDK_OFFSET(0x14AD13F0)
+#define CLASS_1_E08DCD252AEE7AEA_METHOD_1_87E1F65BD177CEC9_OFFSET UNITYSDK_OFFSET(0x167743E0)
+#define CLASS_1_E08DCD252AEE7AEA_METHOD_1_DF36652FF6AEAAC1_OFFSET UNITYSDK_OFFSET(0x167744E0)
+#define CLASS_1_E08DCD252AEE7AEA__CTOR_OFFSET UNITYSDK_OFFSET(0x167744D0)
 
-inline static constexpr unsigned int Class_1_E08DCD252AEE7AEA_TypeDefinitionIndex = 68914;
+inline static constexpr unsigned int Class_1_E08DCD252AEE7AEA_TypeDefinitionIndex = 72112;
 
 class Class_1_E08DCD252AEE7AEA : public ::System::Object
 {
 public:
-	// static const ::System::Int32 Field_1_0 = 0x14; // 0x0
-	// static const ::System::Int32 Field_1_1 = 0x64; // 0x0
-	::Il2CppArray<::System::Int32>* Field_1_2; // 0x10
+	// static const ::System::Int32 ODGGBCFCLHH = 0x14; // 0x0
+	// static const ::System::Int32 MIFODGBDLDF = 0x64; // 0x0
+	::Il2CppArray<::System::Int32>* HEHMNMIMFMP; // 0x10
 
 	::System::Void _ctor()
 	{

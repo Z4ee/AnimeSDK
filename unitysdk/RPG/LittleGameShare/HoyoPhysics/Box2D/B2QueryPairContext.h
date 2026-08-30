@@ -8,7 +8,7 @@ namespace RPG::LittleGameShare::HoyoPhysics::Box2D { class B2World; }
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2QueryPairContext_TypeDefinitionIndex = 35186;
+	inline static constexpr unsigned int B2QueryPairContext_TypeDefinitionIndex = 36047;
 
 	struct alignas(8) B2QueryPairContext
 	{

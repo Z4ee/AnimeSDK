@@ -8,20 +8,20 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::Playables { class PlayableDirector; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define CLASS_2_E0A0663883F06B37_METHOD_2_2C6BB5BD685E1939_OFFSET UNITYSDK_OFFSET(0x16257190)
-#define CLASS_2_E0A0663883F06B37_METHOD_2_C7B58231E4F61838_OFFSET UNITYSDK_OFFSET(0x16256D90)
-#define CLASS_2_E0A0663883F06B37_ONPLAYABLECREATE_OFFSET UNITYSDK_OFFSET(0x16256B90)
-#define CLASS_2_E0A0663883F06B37_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0x16256CE0)
-#define CLASS_2_E0A0663883F06B37__CTOR_OFFSET UNITYSDK_OFFSET(0x162571E0)
+#define CLASS_2_E0A0663883F06B37_METHOD_2_2C6BB5BD685E1939_OFFSET UNITYSDK_OFFSET(0x18A04250)
+#define CLASS_2_E0A0663883F06B37_METHOD_2_C7B58231E4F61838_OFFSET UNITYSDK_OFFSET(0x18A03E20)
+#define CLASS_2_E0A0663883F06B37_ONPLAYABLECREATE_OFFSET UNITYSDK_OFFSET(0x18A03BE0)
+#define CLASS_2_E0A0663883F06B37_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0x18A03D50)
+#define CLASS_2_E0A0663883F06B37__CTOR_OFFSET UNITYSDK_OFFSET(0x18A042A0)
 
-inline static constexpr unsigned int Class_2_E0A0663883F06B37_TypeDefinitionIndex = 47023;
+inline static constexpr unsigned int Class_2_E0A0663883F06B37_TypeDefinitionIndex = 49279;
 
 class Class_2_E0A0663883F06B37 : public ::UnityEngine::Playables::PlayableBehaviour
 {
 public:
-	::UnityEngine::Playables::PlayableDirector* Field_2_0; // 0x10
-	::System::Collections::Generic::List_1<::UnityEngine::Timeline::TimelineClip*>* Field_2_1; // 0x18
-	::System::Double Field_2_2; // 0x20
+	::UnityEngine::Playables::PlayableDirector* OPNHINPCKOJ; // 0x10
+	::System::Collections::Generic::List_1<::UnityEngine::Timeline::TimelineClip*>* ECBONMNCJMA; // 0x18
+	::System::Double HBDJCFFDGDD; // 0x20
 
 	::System::Void _ctor()
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SectionType_TypeDefinitionIndex = 39388;
+	inline static constexpr unsigned int SectionType_TypeDefinitionIndex = 40261;
 
 	enum class SectionType : ::System::UInt32
 	{

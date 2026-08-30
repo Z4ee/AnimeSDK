@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueCoinType_TypeDefinitionIndex = 10237;
+	inline static constexpr unsigned int RogueCoinType_TypeDefinitionIndex = 10574;
 
 	enum class RogueCoinType : ::System::Int32
 	{

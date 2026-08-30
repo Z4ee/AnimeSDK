@@ -2,29 +2,29 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-class Class_0_16E4307DCC419505_971;
+class Class_0_16E4307DCC419505_1022;
 namespace RPG::GameCore { class EntityLodDetail; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_NPCMONOLOD_GET_INITIALIZED_OFFSET UNITYSDK_OFFSET(0x1826E660)
-#define RPG_CLIENT_NPCMONOLOD_METHOD_5_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x1826E3D0)
-#define RPG_CLIENT_NPCMONOLOD_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1826DF00)
-#define RPG_CLIENT_NPCMONOLOD_REGISTERLODLISTENER_OFFSET UNITYSDK_OFFSET(0x1826E410)
-#define RPG_CLIENT_NPCMONOLOD_UNREGISTERLODLISTENER_OFFSET UNITYSDK_OFFSET(0x1826E5F0)
-#define RPG_CLIENT_NPCMONOLOD_UPDATELOD_OFFSET UNITYSDK_OFFSET(0x1826DF70)
-#define RPG_CLIENT_NPCMONOLOD__CTOR_OFFSET UNITYSDK_OFFSET(0x1826E670)
+#define RPG_CLIENT_NPCMONOLOD_GET_INITIALIZED_OFFSET UNITYSDK_OFFSET(0x191C6870)
+#define RPG_CLIENT_NPCMONOLOD_METHOD_5_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x191C65E0)
+#define RPG_CLIENT_NPCMONOLOD_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x191C6110)
+#define RPG_CLIENT_NPCMONOLOD_REGISTERLODLISTENER_OFFSET UNITYSDK_OFFSET(0x191C6620)
+#define RPG_CLIENT_NPCMONOLOD_UNREGISTERLODLISTENER_OFFSET UNITYSDK_OFFSET(0x191C6800)
+#define RPG_CLIENT_NPCMONOLOD_UPDATELOD_OFFSET UNITYSDK_OFFSET(0x191C6180)
+#define RPG_CLIENT_NPCMONOLOD__CTOR_OFFSET UNITYSDK_OFFSET(0x191C6880)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int NpcMonoLod_TypeDefinitionIndex = 65584;
+	inline static constexpr unsigned int NpcMonoLod_TypeDefinitionIndex = 68599;
 
 	class NpcMonoLod : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		::System::Boolean Field_5_0; // 0x18
-		::System::Int32 Field_5_1; // 0x1C
-		::RPG::GameCore::EntityLodDetail* Field_5_2; // 0x20
-		::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_971*>* Field_5_3; // 0x28
+		::System::Boolean CGDHNDBBDCH; // 0x18
+		::System::Int32 PLOOECPBOEJ; // 0x1C
+		::RPG::GameCore::EntityLodDetail* PAEMLLPLDPB; // 0x20
+		::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_1022*>* PMBNNOOFAOM; // 0x28
 
 		::System::Void _ctor()
 		{
@@ -41,14 +41,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::Int32, ::RPG::GameCore::EntityLodDetail*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NPCMONOLOD_UPDATELOD_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void RegisterLodListener(::Class_0_16E4307DCC419505_971* a1)
+		::System::Void RegisterLodListener(::Class_0_16E4307DCC419505_1022* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_971*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NPCMONOLOD_REGISTERLODLISTENER_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_1022*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NPCMONOLOD_REGISTERLODLISTENER_OFFSET))(this, a1);
 		}
 
-		::System::Void UnregisterLodListener(::Class_0_16E4307DCC419505_971* a1)
+		::System::Void UnregisterLodListener(::Class_0_16E4307DCC419505_1022* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_971*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NPCMONOLOD_UNREGISTERLODLISTENER_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_1022*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NPCMONOLOD_UNREGISTERLODLISTENER_OFFSET))(this, a1);
 		}
 
 		::System::Void Method_5_CA373AA1C7054598()

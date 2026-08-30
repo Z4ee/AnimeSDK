@@ -3,12 +3,12 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Playables/PlayableHandle.h"
 
-#define UNITYENGINE_EXPERIMENTAL_PLAYABLES_TEXTUREMIXERPLAYABLE_EQUALS_OFFSET UNITYSDK_OFFSET(0x3A8C7F0)
-#define UNITYENGINE_EXPERIMENTAL_PLAYABLES_TEXTUREMIXERPLAYABLE_GETHANDLE_OFFSET UNITYSDK_OFFSET(0x165450)
+#define UNITYENGINE_EXPERIMENTAL_PLAYABLES_TEXTUREMIXERPLAYABLE_EQUALS_OFFSET UNITYSDK_OFFSET(0x3A4E020)
+#define UNITYENGINE_EXPERIMENTAL_PLAYABLES_TEXTUREMIXERPLAYABLE_GETHANDLE_OFFSET UNITYSDK_OFFSET(0x14A80)
 
 namespace UnityEngine::Experimental::Playables
 {
-	inline static constexpr unsigned int TextureMixerPlayable_TypeDefinitionIndex = 4916;
+	inline static constexpr unsigned int TextureMixerPlayable_TypeDefinitionIndex = 4928;
 
 	struct alignas(8) TextureMixerPlayable
 	{

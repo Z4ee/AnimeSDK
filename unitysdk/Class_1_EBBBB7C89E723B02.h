@@ -2,22 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_904;
+class Class_0_16E4307DCC419505_955;
 namespace System { class Type; }
 
-#define CLASS_1_EBBBB7C89E723B02_GETCONTEXT_OFFSET UNITYSDK_OFFSET(0x15EBB690)
-#define CLASS_1_EBBBB7C89E723B02__CTOR_OFFSET UNITYSDK_OFFSET(0x15EBB680)
+#define CLASS_1_EBBBB7C89E723B02_GETCONTEXT_OFFSET UNITYSDK_OFFSET(0x198FF830)
+#define CLASS_1_EBBBB7C89E723B02__CTOR_OFFSET UNITYSDK_OFFSET(0x198FF820)
 
-inline static constexpr unsigned int Class_1_EBBBB7C89E723B02_TypeDefinitionIndex = 70040;
+inline static constexpr unsigned int Class_1_EBBBB7C89E723B02_TypeDefinitionIndex = 73297;
 
 class Class_1_EBBBB7C89E723B02 : public ::System::Object
 {
 public:
-	::Il2CppArray<::Class_0_16E4307DCC419505_904*>* Field_1_0; // 0x10
+	::Il2CppArray<::Class_0_16E4307DCC419505_955*>* OGHCLELFCDB; // 0x10
 
-	::System::Void _ctor(::Il2CppArray<::Class_0_16E4307DCC419505_904*>* a1)
+	::System::Void _ctor(::Il2CppArray<::Class_0_16E4307DCC419505_955*>* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Il2CppArray<::Class_0_16E4307DCC419505_904*>*))((::PBYTE)hIl2Cpp + CLASS_1_EBBBB7C89E723B02__CTOR_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Il2CppArray<::Class_0_16E4307DCC419505_955*>*))((::PBYTE)hIl2Cpp + CLASS_1_EBBBB7C89E723B02__CTOR_OFFSET))(this, a1);
 	}
 
 	::System::Object* GetContext(::System::Type* a1)

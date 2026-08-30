@@ -4,20 +4,20 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_FIVEDIMMINIGAMEREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1BEA1220)
-#define RPG_GAMECORE_FIVEDIMMINIGAMEREWARDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1BEA13D0)
+#define RPG_GAMECORE_FIVEDIMMINIGAMEREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D869600)
+#define RPG_GAMECORE_FIVEDIMMINIGAMEREWARDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8697B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimMiniGameRewardRow_TypeDefinitionIndex = 13589;
+	inline static constexpr unsigned int FiveDimMiniGameRewardRow_TypeDefinitionIndex = 14006;
 
 	class FiveDimMiniGameRewardRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 OneTimeRewardID; // 0x10
-		::System::UInt32 ScoreLine; // 0x14
-		::System::UInt32 RepeatableRewardID; // 0x18
-		::System::UInt32 MiniGameID; // 0x1C
+		::System::UInt32 RepeatableRewardID; // 0x10
+		::System::UInt32 MiniGameID; // 0x14
+		::System::UInt32 OneTimeRewardID; // 0x18
+		::System::UInt32 ScoreLine; // 0x1C
 
 		::System::Void _ctor()
 		{

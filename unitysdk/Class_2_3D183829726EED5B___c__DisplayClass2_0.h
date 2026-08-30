@@ -4,17 +4,17 @@
 
 namespace RPG::GameCore { class AddMenuItem; }
 
-#define CLASS_2_3D183829726EED5B___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15FB3630)
-#define CLASS_2_3D183829726EED5B___C__DISPLAYCLASS2_0__ONTASKBEGIN_B__0_OFFSET UNITYSDK_OFFSET(0x15FB36F0)
+#define CLASS_2_3D183829726EED5B___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16DC9D60)
+#define CLASS_2_3D183829726EED5B___C__DISPLAYCLASS2_0__ONTASKBEGIN_B__0_OFFSET UNITYSDK_OFFSET(0x16DC9E20)
 
-inline static constexpr unsigned int Class_2_3D183829726EED5B___c__DisplayClass2_0_TypeDefinitionIndex = 55294;
+inline static constexpr unsigned int Class_2_3D183829726EED5B___c__DisplayClass2_0_TypeDefinitionIndex = 58018;
 
 class Class_2_3D183829726EED5B___c__DisplayClass2_0 : public ::System::Object
 {
 public:
 	::RPG::GameCore::AddMenuItem* menuItem; // 0x10
-	::System::UInt32 groupID; // 0x18
-	::System::UInt32 instanceID; // 0x1C
+	::System::UInt32 instanceID; // 0x18
+	::System::UInt32 groupID; // 0x1C
 
 	::System::Void _ctor()
 	{

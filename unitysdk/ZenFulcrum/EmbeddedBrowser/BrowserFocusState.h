@@ -4,19 +4,19 @@
 
 namespace System { class String; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERFOCUSSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AB42F40)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERFOCUSSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C7D6070)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int BrowserFocusState_TypeDefinitionIndex = 37414;
+	inline static constexpr unsigned int BrowserFocusState_TypeDefinitionIndex = 38273;
 
 	class BrowserFocusState : public ::System::Object
 	{
 	public:
 		::System::String* focusedTagName; // 0x10
 		::System::Boolean hasMouseFocus; // 0x18
-		::System::Boolean focusedNodeEditable; // 0x19
-		::System::Boolean hasKeyboardFocus; // 0x1A
+		::System::Boolean hasKeyboardFocus; // 0x19
+		::System::Boolean focusedNodeEditable; // 0x1A
 
 		::System::Void _ctor()
 		{

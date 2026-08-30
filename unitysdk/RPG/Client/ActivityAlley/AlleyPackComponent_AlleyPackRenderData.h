@@ -5,17 +5,17 @@
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKCOMPONENT_ALLEYPACKRENDERDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x194B2E80)
+#define RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKCOMPONENT_ALLEYPACKRENDERDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD14AB0)
 
 namespace RPG::Client::ActivityAlley
 {
-	inline static constexpr unsigned int AlleyPackComponent_AlleyPackRenderData_TypeDefinitionIndex = 70691;
+	inline static constexpr unsigned int AlleyPackComponent_AlleyPackRenderData_TypeDefinitionIndex = 73990;
 
 	class AlleyPackComponent_AlleyPackRenderData : public ::System::Object
 	{
 	public:
-		::UnityEngine::Renderer* Renderer; // 0x10
-		::Il2CppArray<::UnityEngine::Material*>* OriginMaterials; // 0x18
+		::Il2CppArray<::UnityEngine::Material*>* OriginMaterials; // 0x10
+		::UnityEngine::Renderer* Renderer; // 0x18
 		::Il2CppArray<::UnityEngine::Material*>* GreenMaterials; // 0x20
 		::Il2CppArray<::UnityEngine::Material*>* RedMaterials; // 0x28
 

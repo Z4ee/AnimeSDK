@@ -4,13 +4,14 @@
 
 namespace MiHoYo::SDK::PC::OS { class GooglePurchaseExtension; }
 namespace MiHoYo::SDK::PC::OS { class SteamPurchaseExtension; }
+namespace MiHoYo::SDK::PC::OS { class XboxPurchaseExtension; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_PURCHASEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1994FFD0)
+#define MIHOYO_SDK_PC_OS_PURCHASEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1ABE1040)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int PurchaseData_TypeDefinitionIndex = 8471;
+	inline static constexpr unsigned int PurchaseData_TypeDefinitionIndex = 8539;
 
 	class PurchaseData : public ::System::Object
 	{
@@ -19,6 +20,7 @@ namespace MiHoYo::SDK::PC::OS
 		::System::String* transactionId; // 0x18
 		::MiHoYo::SDK::PC::OS::GooglePurchaseExtension* google; // 0x20
 		::MiHoYo::SDK::PC::OS::SteamPurchaseExtension* steam; // 0x28
+		::MiHoYo::SDK::PC::OS::XboxPurchaseExtension* xbox; // 0x30
 
 		::System::Void _ctor()
 		{

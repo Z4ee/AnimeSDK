@@ -5,7 +5,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EvolveBuildUtils___c__DisplayClass15_0_TypeDefinitionIndex = 61024;
+	inline static constexpr unsigned int EvolveBuildUtils___c__DisplayClass15_0_TypeDefinitionIndex = 63877;
 
 	struct alignas(8) EvolveBuildUtils___c__DisplayClass15_0
 	{

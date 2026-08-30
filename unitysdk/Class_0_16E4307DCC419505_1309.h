@@ -1,11 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/ChimeraDuelBubbleEventType.h"
 
-class Class_1_06E38C65842C3B24;
-class Class_1_85ED2014B1F9CAC1;
-class Class_1_BB4B99DE4C2501EC_6;
+namespace RPG::Client::Prop { class ChimeraDuelBubbleEvent; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1309_TypeDefinitionIndex = 76493;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1309_TypeDefinitionIndex = 77813;
 
 class Class_0_16E4307DCC419505_1309
 {

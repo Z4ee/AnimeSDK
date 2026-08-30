@@ -4,7 +4,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int SelfShadowSettings_TypeDefinitionIndex = 4871;
+	inline static constexpr unsigned int SelfShadowSettings_TypeDefinitionIndex = 4883;
 
 	struct alignas(4) SelfShadowSettings
 	{

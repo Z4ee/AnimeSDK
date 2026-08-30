@@ -6,17 +6,17 @@
 class Class_1_D294488719556168;
 class Class_2_7EA45D2647F35CDD;
 
-#define CLASS_1_6D80C1BDA05BE16A__CTOR_OFFSET UNITYSDK_OFFSET(0x17F134B0)
+#define CLASS_1_6D80C1BDA05BE16A__CTOR_OFFSET UNITYSDK_OFFSET(0x1A02A4E0)
 
-inline static constexpr unsigned int Class_1_6D80C1BDA05BE16A_TypeDefinitionIndex = 75579;
+inline static constexpr unsigned int Class_1_6D80C1BDA05BE16A_TypeDefinitionIndex = 79212;
 
 class Class_1_6D80C1BDA05BE16A : public ::System::Object
 {
 public:
-	::Class_1_D294488719556168* Field_1_0; // 0x10
-	::Class_2_7EA45D2647F35CDD* Field_1_1; // 0x18
-	::RPG::GameCore::FateRinCardPileType Field_1_2; // 0x20
-	::RPG::GameCore::FateRinCardPileType Field_1_3; // 0x22
+	::Class_2_7EA45D2647F35CDD* ELIMDKMMGBO; // 0x10
+	::Class_1_D294488719556168* KDFKDNLNDHN; // 0x18
+	::RPG::GameCore::FateRinCardPileType CHPHAMGMKBO; // 0x20
+	::RPG::GameCore::FateRinCardPileType CCFDOHBOHMG; // 0x22
 
 	::System::Void _ctor(::Class_2_7EA45D2647F35CDD* a1, ::Class_1_D294488719556168* a2, ::RPG::GameCore::FateRinCardPileType a3, ::RPG::GameCore::FateRinCardPileType a4)
 	{

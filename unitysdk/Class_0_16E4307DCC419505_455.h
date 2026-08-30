@@ -1,11 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/GameCore/RtMoveStopReason.h"
+#include "unitysdk/RPG/GameCore/AvatarSkillTreeAnchorType.h"
+#include "unitysdk/Struct_2_BC950E36747FB4C9.h"
+#include "unitysdk/System/ValueTuple_2.h"
 
-class Class_0_16E4307DCC419505_458;
-class Class_0_16E4307DCC419505_479;
-
-inline static constexpr unsigned int Class_0_16E4307DCC419505_455_TypeDefinitionIndex = 51568;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_455_TypeDefinitionIndex = 52248;
 
 class Class_0_16E4307DCC419505_455
 {

@@ -4,11 +4,12 @@
 
 namespace System { class Type; }
 
-#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCMETHODBUILDERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D306A80)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCMETHODBUILDERATTRIBUTE_GET_BUILDERTYPE_OFFSET UNITYSDK_OFFSET(0x1CE2A0E0)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCMETHODBUILDERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE2A0F0)
 
 namespace System::Runtime::CompilerServices
 {
-	inline static constexpr unsigned int AsyncMethodBuilderAttribute_TypeDefinitionIndex = 7058;
+	inline static constexpr unsigned int AsyncMethodBuilderAttribute_TypeDefinitionIndex = 42530;
 
 	class AsyncMethodBuilderAttribute : public ::System::Attribute
 	{
@@ -18,6 +19,11 @@ namespace System::Runtime::CompilerServices
 		::System::Void _ctor(::System::Type* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCMETHODBUILDERATTRIBUTE__CTOR_OFFSET))(this, a1);
+		}
+
+		::System::Type* get_BuilderType()
+		{
+			return ((::System::Type*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCMETHODBUILDERATTRIBUTE_GET_BUILDERTYPE_OFFSET))(this);
 		}
 	};
 }

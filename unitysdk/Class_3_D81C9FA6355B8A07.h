@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class StackStatusResistance; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_D81C9FA6355B8A07_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x14FB57A0)
-#define CLASS_3_D81C9FA6355B8A07__CTOR_OFFSET UNITYSDK_OFFSET(0x14FB5770)
+#define CLASS_3_D81C9FA6355B8A07_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15DFEF00)
+#define CLASS_3_D81C9FA6355B8A07__CTOR_OFFSET UNITYSDK_OFFSET(0x15DFEED0)
 
-inline static constexpr unsigned int Class_3_D81C9FA6355B8A07_TypeDefinitionIndex = 53134;
+inline static constexpr unsigned int Class_3_D81C9FA6355B8A07_TypeDefinitionIndex = 55846;
 
 class Class_3_D81C9FA6355B8A07 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::StackStatusResistance*>
 {

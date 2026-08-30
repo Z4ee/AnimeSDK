@@ -8,17 +8,17 @@ namespace RPG::GameCore { class TargetSortByDistance; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_AF88720A533B0B16_COMPARE_OFFSET UNITYSDK_OFFSET(0x16C882D0)
-#define CLASS_2_AF88720A533B0B16_METHOD_2_ACA7BA522EFECBD8_OFFSET UNITYSDK_OFFSET(0x16C87E40)
-#define CLASS_2_AF88720A533B0B16_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x16C88010)
-#define CLASS_2_AF88720A533B0B16__CTOR_OFFSET UNITYSDK_OFFSET(0x16C87E20)
+#define CLASS_2_AF88720A533B0B16_COMPARE_OFFSET UNITYSDK_OFFSET(0x186E1A70)
+#define CLASS_2_AF88720A533B0B16_METHOD_2_ACA7BA522EFECBD8_OFFSET UNITYSDK_OFFSET(0x186E15E0)
+#define CLASS_2_AF88720A533B0B16_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x186E17B0)
+#define CLASS_2_AF88720A533B0B16__CTOR_OFFSET UNITYSDK_OFFSET(0x186E15C0)
 
-inline static constexpr unsigned int Class_2_AF88720A533B0B16_TypeDefinitionIndex = 56539;
+inline static constexpr unsigned int Class_2_AF88720A533B0B16_TypeDefinitionIndex = 59323;
 
 class Class_2_AF88720A533B0B16 : public ::RPG::GameCore::TargetSeqOperationImpl_1<::RPG::GameCore::TargetSortByDistance*>
 {
 public:
-	::RPG::MVector3 Field_2_0; // 0x18
+	::RPG::MVector3 JGOMJNPEFCC; // 0x18
 
 	::System::Void _ctor(::RPG::GameCore::TargetSortByDistance* a1)
 	{

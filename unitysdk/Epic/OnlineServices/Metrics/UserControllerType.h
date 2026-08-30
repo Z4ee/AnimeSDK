@@ -3,7 +3,7 @@
 
 namespace Epic::OnlineServices::Metrics
 {
-	inline static constexpr unsigned int UserControllerType_TypeDefinitionIndex = 43467;
+	inline static constexpr unsigned int UserControllerType_TypeDefinitionIndex = 45649;
 
 	enum class UserControllerType : ::System::Int32
 	{

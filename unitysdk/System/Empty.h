@@ -6,10 +6,10 @@
 namespace System { class String; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_EMPTY_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x191C5740)
-#define SYSTEM_EMPTY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x191C5730)
-#define SYSTEM_EMPTY__CCTOR_OFFSET UNITYSDK_OFFSET(0x191C57C0)
-#define SYSTEM_EMPTY__CTOR_OFFSET UNITYSDK_OFFSET(0x191C5720)
+#define SYSTEM_EMPTY_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1AB84510)
+#define SYSTEM_EMPTY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1AB84500)
+#define SYSTEM_EMPTY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AB84590)
+#define SYSTEM_EMPTY__CTOR_OFFSET UNITYSDK_OFFSET(0x1AB844F0)
 
 namespace System
 {
@@ -20,7 +20,7 @@ namespace System
 	public:
 		static ::System::Empty** StaticGet_Value()
 		{
-			return (::System::Empty**)Il2CppClass::FromTypeDefinitionIndex(Empty_TypeDefinitionIndex)->GetStaticField(0x10);
+			return (::System::Empty**)Il2CppClass::FromTypeDefinitionIndex(Empty_TypeDefinitionIndex)->GetStaticField(0x8720);
 		}
 
 		::System::Void _ctor()

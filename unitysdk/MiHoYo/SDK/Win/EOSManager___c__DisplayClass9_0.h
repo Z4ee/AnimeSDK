@@ -7,12 +7,12 @@ namespace MiHoYo::SDK::Win { class EOSManager; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_WIN_EOSMANAGER___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15684FD0)
-#define MIHOYO_SDK_WIN_EOSMANAGER___C__DISPLAYCLASS9_0__GETPRODUCTLIST_B__0_OFFSET UNITYSDK_OFFSET(0x15687CD0)
+#define MIHOYO_SDK_WIN_EOSMANAGER___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15D35BE0)
+#define MIHOYO_SDK_WIN_EOSMANAGER___C__DISPLAYCLASS9_0__GETPRODUCTLIST_B__0_OFFSET UNITYSDK_OFFSET(0x15D38900)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int EOSManager___c__DisplayClass9_0_TypeDefinitionIndex = 8987;
+	inline static constexpr unsigned int EOSManager___c__DisplayClass9_0_TypeDefinitionIndex = 9257;
 
 	class EOSManager___c__DisplayClass9_0 : public ::System::Object
 	{

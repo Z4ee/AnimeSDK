@@ -5,11 +5,11 @@
 
 namespace RPG::Client { class CameraBlendCurve; }
 
-#define RPG_CLIENT_BLENDCURVERANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x19FE1260)
+#define RPG_CLIENT_BLENDCURVERANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD8FBD0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BlendCurveRange_TypeDefinitionIndex = 66587;
+	inline static constexpr unsigned int BlendCurveRange_TypeDefinitionIndex = 69685;
 
 	class BlendCurveRange : public ::System::Object
 	{

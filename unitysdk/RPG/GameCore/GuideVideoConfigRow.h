@@ -6,19 +6,19 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_GUIDEVIDEOCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B66C740)
-#define RPG_GAMECORE_GUIDEVIDEOCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B66C920)
+#define RPG_GAMECORE_GUIDEVIDEOCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3C8880)
+#define RPG_GAMECORE_GUIDEVIDEOCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3C8A60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GuideVideoConfigRow_TypeDefinitionIndex = 14808;
+	inline static constexpr unsigned int GuideVideoConfigRow_TypeDefinitionIndex = 15244;
 
 	class GuideVideoConfigRow : public ::System::Object
 	{
 	public:
 		::System::String* VideoPath; // 0x10
-		::System::Boolean IsPlayerInvolved; // 0x18
-		::System::UInt32 VideoID; // 0x1C
+		::System::UInt32 VideoID; // 0x18
+		::System::Boolean IsPlayerInvolved; // 0x1C
 		::RPG::GameCore::GuideVideoSizeType SizeType; // 0x20
 
 		::System::Void _ctor()

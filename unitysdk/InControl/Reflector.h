@@ -6,25 +6,25 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define INCONTROL_REFLECTOR_GETALLASSEMBLYTYPES_OFFSET UNITYSDK_OFFSET(0x13308DE0)
-#define INCONTROL_REFLECTOR_GET_ALLASSEMBLYTYPES_OFFSET UNITYSDK_OFFSET(0x13308D40)
-#define INCONTROL_REFLECTOR_IGNOREASSEMBLYWITHNAME_OFFSET UNITYSDK_OFFSET(0x13308F60)
-#define INCONTROL_REFLECTOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x13309080)
+#define INCONTROL_REFLECTOR_GETALLASSEMBLYTYPES_OFFSET UNITYSDK_OFFSET(0x14987F90)
+#define INCONTROL_REFLECTOR_GET_ALLASSEMBLYTYPES_OFFSET UNITYSDK_OFFSET(0x14987EF0)
+#define INCONTROL_REFLECTOR_IGNOREASSEMBLYWITHNAME_OFFSET UNITYSDK_OFFSET(0x14988110)
+#define INCONTROL_REFLECTOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x14988230)
 
 namespace InControl
 {
-	inline static constexpr unsigned int Reflector_TypeDefinitionIndex = 38757;
+	inline static constexpr unsigned int Reflector_TypeDefinitionIndex = 39616;
 
 	class Reflector : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::String*>** StaticGet_ignoreAssemblies()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Reflector_TypeDefinitionIndex)->GetStaticField(0x226E0);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Reflector_TypeDefinitionIndex)->GetStaticField(0xB410);
 		}
 		static ::System::Collections::Generic::IEnumerable_1<::System::Type*>** StaticGet_assemblyTypes()
 		{
-			return (::System::Collections::Generic::IEnumerable_1<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(Reflector_TypeDefinitionIndex)->GetStaticField(0x226E8);
+			return (::System::Collections::Generic::IEnumerable_1<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(Reflector_TypeDefinitionIndex)->GetStaticField(0xB418);
 		}
 
 		static ::System::Void _cctor()

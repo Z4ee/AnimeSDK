@@ -2,29 +2,51 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_90889A2023AB884E_4_GET_CLOSEWINDOW_OFFSET UNITYSDK_OFFSET(0x18665240)
-#define CLASS_1_90889A2023AB884E_4_SET_CLOSEWINDOW_OFFSET UNITYSDK_OFFSET(0x18665250)
-#define CLASS_1_90889A2023AB884E_4__CTOR_OFFSET UNITYSDK_OFFSET(0x18665230)
+namespace RPG::Client::Promises { class IPromise; }
+namespace System { template <typename T> class Func_1; }
 
-inline static constexpr unsigned int Class_1_90889A2023AB884E_4_TypeDefinitionIndex = 75172;
+#define CLASS_1_90889A2023AB884E_4_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18918760)
+#define CLASS_1_90889A2023AB884E_4_GET__ISDISPOSED_OFFSET UNITYSDK_OFFSET(0x189189D0)
+#define CLASS_1_90889A2023AB884E_4_METHOD_1_A239DF324AF4215D_OFFSET UNITYSDK_OFFSET(0x18918850)
+#define CLASS_1_90889A2023AB884E_4_METHOD_1_D2FCAFE2F34A7830_OFFSET UNITYSDK_OFFSET(0x18918920)
+#define CLASS_1_90889A2023AB884E_4_SET__ISDISPOSED_OFFSET UNITYSDK_OFFSET(0x189189E0)
+#define CLASS_1_90889A2023AB884E_4__CTOR_OFFSET UNITYSDK_OFFSET(0x189189F0)
+
+inline static constexpr unsigned int Class_1_90889A2023AB884E_4_TypeDefinitionIndex = 67500;
 
 class Class_1_90889A2023AB884E_4 : public ::System::Object
 {
 public:
-	::System::Boolean _CloseWindow_k__BackingField; // 0x10
+	::System::Boolean CKOBGJNCLFH; // 0x10
+	::System::Boolean __IsDisposed_k__BackingField; // 0x11
 
-	::System::Void _ctor(::System::Boolean a1)
+	::System::Void _ctor()
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_90889A2023AB884E_4__CTOR_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_90889A2023AB884E_4__CTOR_OFFSET))(this);
 	}
 
-	::System::Boolean get_CloseWindow()
+	::System::Void Dispose()
 	{
-		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_90889A2023AB884E_4_GET_CLOSEWINDOW_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_90889A2023AB884E_4_DISPOSE_OFFSET))(this);
 	}
 
-	::System::Void set_CloseWindow(::System::Boolean a1)
+	::System::Void Method_1_A239DF324AF4215D()
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_90889A2023AB884E_4_SET_CLOSEWINDOW_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_90889A2023AB884E_4_METHOD_1_A239DF324AF4215D_OFFSET))(this);
+	}
+
+	::System::Func_1<::RPG::Client::Promises::IPromise*>* Method_1_D2FCAFE2F34A7830(::System::Func_1<::RPG::Client::Promises::IPromise*>* a1)
+	{
+		return ((::System::Func_1<::RPG::Client::Promises::IPromise*>*(*)(::PVOID, ::System::Func_1<::RPG::Client::Promises::IPromise*>*))((::PBYTE)hIl2Cpp + CLASS_1_90889A2023AB884E_4_METHOD_1_D2FCAFE2F34A7830_OFFSET))(this, a1);
+	}
+
+	::System::Boolean get__IsDisposed()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_90889A2023AB884E_4_GET__ISDISPOSED_OFFSET))(this);
+	}
+
+	::System::Void set__IsDisposed(::System::Boolean a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_90889A2023AB884E_4_SET__ISDISPOSED_OFFSET))(this, a1);
 	}
 };

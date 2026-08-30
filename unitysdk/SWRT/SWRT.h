@@ -4,13 +4,13 @@
 
 class SWRTAsset;
 
-#define SWRT_SWRT_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1D140B80)
-#define SWRT_SWRT_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1D1409E0)
-#define SWRT_SWRT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D140C80)
+#define SWRT_SWRT_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1EE64D20)
+#define SWRT_SWRT_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1EE64B80)
+#define SWRT_SWRT__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE64E20)
 
 namespace SWRT
 {
-	inline static constexpr unsigned int SWRT_TypeDefinitionIndex = 35963;
+	inline static constexpr unsigned int SWRT_TypeDefinitionIndex = 36824;
 
 	class SWRT : public ::UnityEngine::MonoBehaviour
 	{

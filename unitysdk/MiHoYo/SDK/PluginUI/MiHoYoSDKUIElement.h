@@ -6,20 +6,20 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_PLUGINUI_MIHOYOSDKUIELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1AB9F560)
+#define MIHOYO_SDK_PLUGINUI_MIHOYOSDKUIELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6B3EC0)
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int MiHoYoSDKUIElement_TypeDefinitionIndex = 45106;
+	inline static constexpr unsigned int MiHoYoSDKUIElement_TypeDefinitionIndex = 47342;
 
 	class MiHoYoSDKUIElement : public ::System::Object
 	{
 	public:
-		::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>* invocation; // 0x10
+		::System::Action_1<::System::String*>* updateTextAction; // 0x10
 		::System::String* id; // 0x18
-		::System::Action_1<::System::String*>* updateTextAction; // 0x20
-		::System::String* text; // 0x28
-		::System::String* hintText; // 0x30
+		::System::String* text; // 0x20
+		::System::String* hintText; // 0x28
+		::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>* invocation; // 0x30
 		::System::Boolean visible; // 0x38
 		::System::Boolean isChecked; // 0x39
 

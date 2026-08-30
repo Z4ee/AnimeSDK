@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_BATTLEPERFORMCONFIG_METHOD_2_7FE98F44E2D350E1_OFFSET UNITYSDK_OFFSET(0x1A3F4D30)
-#define RPG_GAMECORE_BATTLEPERFORMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3F4E60)
+#define RPG_GAMECORE_BATTLEPERFORMCONFIG_METHOD_2_7E44F2C9022728F6_OFFSET UNITYSDK_OFFSET(0x1B302840)
+#define RPG_GAMECORE_BATTLEPERFORMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3029A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattlePerformConfig_TypeDefinitionIndex = 17414;
+	inline static constexpr unsigned int BattlePerformConfig_TypeDefinitionIndex = 17931;
 
 	class BattlePerformConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEPERFORMCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_7FE98F44E2D350E1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BattlePerformConfig*& a2)
+		static ::System::Void Method_2_7E44F2C9022728F6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BattlePerformConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BattlePerformConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEPERFORMCONFIG_METHOD_2_7FE98F44E2D350E1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BattlePerformConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEPERFORMCONFIG_METHOD_2_7E44F2C9022728F6_OFFSET))(a1, a2);
 		}
 	};
 }

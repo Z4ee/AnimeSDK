@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TeamMemberCountingOption_TypeDefinitionIndex = 17561;
+	inline static constexpr unsigned int TeamMemberCountingOption_TypeDefinitionIndex = 18079;
 
 	enum class TeamMemberCountingOption : ::System::UInt32
 	{

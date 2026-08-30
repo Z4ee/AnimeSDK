@@ -5,15 +5,15 @@
 class Class_1_B8FF829EFDD29B81;
 namespace RPG::GameCore { class BaseChenLingBattleEffect; }
 
-#define CLASS_2_273479CBCB67F53F__CTOR_OFFSET UNITYSDK_OFFSET(0x17A4AB40)
+#define CLASS_2_273479CBCB67F53F__CTOR_OFFSET UNITYSDK_OFFSET(0x18DB57D0)
 
-inline static constexpr unsigned int Class_2_273479CBCB67F53F_TypeDefinitionIndex = 73903;
+inline static constexpr unsigned int Class_2_273479CBCB67F53F_TypeDefinitionIndex = 77387;
 
 class Class_2_273479CBCB67F53F : public ::Class_1_634284739E90CAFA
 {
 public:
-	::Il2CppArray<::RPG::GameCore::BaseChenLingBattleEffect*>* Field_2_0; // 0x40
-	::Class_1_B8FF829EFDD29B81* Field_2_1; // 0x48
+	::Class_1_B8FF829EFDD29B81* IBJCDJJLDLA; // 0x40
+	::Il2CppArray<::RPG::GameCore::BaseChenLingBattleEffect*>* OFCKNBEAIDL; // 0x48
 
 	::System::Void _ctor()
 	{

@@ -4,11 +4,11 @@
 
 namespace RPG::GameCore { class FateRinCaseBoardMoveBaseInfo; }
 
-#define RPG_CLIENT_FATERIN_CASEBOARD_CASEBOARDMOVETOGRAILPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A37B130)
+#define RPG_CLIENT_FATERIN_CASEBOARD_CASEBOARDMOVETOGRAILPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x1CBF5300)
 
 namespace RPG::Client::FateRin::CaseBoard
 {
-	inline static constexpr unsigned int CaseBoardMoveToGrailParams_TypeDefinitionIndex = 75850;
+	inline static constexpr unsigned int CaseBoardMoveToGrailParams_TypeDefinitionIndex = 79483;
 
 	class CaseBoardMoveToGrailParams : public ::System::Object
 	{

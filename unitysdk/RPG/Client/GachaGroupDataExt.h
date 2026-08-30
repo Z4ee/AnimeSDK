@@ -4,11 +4,11 @@
 
 namespace RPG::Client { class BaseGachaGroupData; }
 
-#define RPG_CLIENT_GACHAGROUPDATAEXT_ISSINGLEPOOLGACHAGROUP_OFFSET UNITYSDK_OFFSET(0x192C4AF0)
+#define RPG_CLIENT_GACHAGROUPDATAEXT_ISSINGLEPOOLGACHAGROUP_OFFSET UNITYSDK_OFFSET(0x19398A20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GachaGroupDataExt_TypeDefinitionIndex = 61395;
+	inline static constexpr unsigned int GachaGroupDataExt_TypeDefinitionIndex = 64379;
 
 	class GachaGroupDataExt : public ::System::Object
 	{

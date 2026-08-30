@@ -3,7 +3,7 @@
 
 namespace RPG::LittleGameShare::DiceCombatCore::GameMode
 {
-	inline static constexpr unsigned int DiceCombatGameMode_TypeDefinitionIndex = 34993;
+	inline static constexpr unsigned int DiceCombatGameMode_TypeDefinitionIndex = 35854;
 
 	enum class DiceCombatGameMode : ::System::Byte
 	{

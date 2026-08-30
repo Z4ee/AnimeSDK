@@ -6,23 +6,23 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PAMCHATGREETINGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1BB0B820)
-#define RPG_GAMECORE_PAMCHATGREETINGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB0BB50)
+#define RPG_GAMECORE_PAMCHATGREETINGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D410BF0)
+#define RPG_GAMECORE_PAMCHATGREETINGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D410F20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PamChatGreetingRow_TypeDefinitionIndex = 13791;
+	inline static constexpr unsigned int PamChatGreetingRow_TypeDefinitionIndex = 14208;
 
 	class PamChatGreetingRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* GreetingTextIDList; // 0x10
 		::System::String* Condition; // 0x18
-		::RPG::Client::TextID HudBubble; // 0x20
-		::System::UInt32 ID; // 0x30
-		::System::UInt32 Priority; // 0x34
-		::System::Boolean CanTriggerWhenLLMDisabled; // 0x38
-		::System::Boolean IsDailyGreeting; // 0x39
+		::System::UInt32 Priority; // 0x20
+		::System::UInt32 ID; // 0x24
+		::System::Boolean IsDailyGreeting; // 0x28
+		::System::Boolean CanTriggerWhenLLMDisabled; // 0x29
+		::RPG::Client::TextID HudBubble; // 0x30
 
 		::System::Void _ctor()
 		{

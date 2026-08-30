@@ -12,19 +12,19 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Mesh; }
 
-#define RPG_CLIENT_EFFECT_GPUGLOWSTICKANIMATION_LATETICK_OFFSET UNITYSDK_OFFSET(0x150ED6B0)
-#define RPG_CLIENT_EFFECT_GPUGLOWSTICKANIMATION_METHOD_5_04F02FC65FAA2E0C_OFFSET UNITYSDK_OFFSET(0x150ED7A0)
-#define RPG_CLIENT_EFFECT_GPUGLOWSTICKANIMATION_METHOD_5_B29205EE7F7B640C_OFFSET UNITYSDK_OFFSET(0x150EE0E0)
-#define RPG_CLIENT_EFFECT_GPUGLOWSTICKANIMATION_METHOD_5_C1E0405EEC95DC65_OFFSET UNITYSDK_OFFSET(0x150ED710)
-#define RPG_CLIENT_EFFECT_GPUGLOWSTICKANIMATION_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x150ED620)
-#define RPG_CLIENT_EFFECT_GPUGLOWSTICKANIMATION_ONENABLE_OFFSET UNITYSDK_OFFSET(0x150ED590)
-#define RPG_CLIENT_EFFECT_GPUGLOWSTICKANIMATION_ONINVISIBLE_OFFSET UNITYSDK_OFFSET(0x150ED550)
-#define RPG_CLIENT_EFFECT_GPUGLOWSTICKANIMATION_ONVISIBLE_OFFSET UNITYSDK_OFFSET(0x150ED510)
-#define RPG_CLIENT_EFFECT_GPUGLOWSTICKANIMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x150EE380)
+#define RPG_CLIENT_EFFECT_GPUGLOWSTICKANIMATION_LATETICK_OFFSET UNITYSDK_OFFSET(0x15E5EA60)
+#define RPG_CLIENT_EFFECT_GPUGLOWSTICKANIMATION_METHOD_5_04F02FC65FAA2E0C_OFFSET UNITYSDK_OFFSET(0x15E5EB50)
+#define RPG_CLIENT_EFFECT_GPUGLOWSTICKANIMATION_METHOD_5_B29205EE7F7B640C_OFFSET UNITYSDK_OFFSET(0x15E5F490)
+#define RPG_CLIENT_EFFECT_GPUGLOWSTICKANIMATION_METHOD_5_C1E0405EEC95DC65_OFFSET UNITYSDK_OFFSET(0x15E5EAC0)
+#define RPG_CLIENT_EFFECT_GPUGLOWSTICKANIMATION_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x15E5E9D0)
+#define RPG_CLIENT_EFFECT_GPUGLOWSTICKANIMATION_ONENABLE_OFFSET UNITYSDK_OFFSET(0x15E5E940)
+#define RPG_CLIENT_EFFECT_GPUGLOWSTICKANIMATION_ONINVISIBLE_OFFSET UNITYSDK_OFFSET(0x15E5E900)
+#define RPG_CLIENT_EFFECT_GPUGLOWSTICKANIMATION_ONVISIBLE_OFFSET UNITYSDK_OFFSET(0x15E5E8C0)
+#define RPG_CLIENT_EFFECT_GPUGLOWSTICKANIMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x15E5F730)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_GPUGlowstickAnimation_TypeDefinitionIndex = 67324;
+	inline static constexpr unsigned int Effect_GPUGlowstickAnimation_TypeDefinitionIndex = 70446;
 
 	class Effect_GPUGlowstickAnimation : public ::UnityEngine::MonoBehaviour
 	{
@@ -43,16 +43,16 @@ namespace RPG::Client
 		::System::Single AniTimeOffset; // 0x64
 		::UnityEngine::AnimationCurve* WidthDistribution; // 0x68
 		::UnityEngine::AnimationCurve* HeightDistribution; // 0x70
-		::System::Boolean Field_5_14; // 0x78
-		::System::Boolean Field_5_15; // 0x79
-		::UnityEngine::Matrix4x4 Field_5_16; // 0x7C
-		::UnityEngine::Matrix4x4 Field_5_17; // 0xBC
-		::System::Collections::Generic::List_1<::UnityEngine::Matrix4x4>* Field_5_18; // 0x100
-		::System::Collections::Generic::List_1<::UnityEngine::Matrix4x4>* Field_5_19; // 0x108
-		::System::Collections::Generic::List_1<::UnityEngine::Vector4>* Field_5_20; // 0x110
-		::System::Collections::Generic::List_1<::System::Single>* Field_5_21; // 0x118
-		::UnityEngine::MaterialPropertyBlock* Field_5_22; // 0x120
-		::UnityEngine::Mesh* Field_5_23; // 0x128
+		::System::Boolean DBAHJNANIOG; // 0x78
+		::System::Boolean OEMHEMIBLMD; // 0x79
+		::UnityEngine::Matrix4x4 ALJKADCBJPD; // 0x7C
+		::UnityEngine::Matrix4x4 ODJKHDABIIJ; // 0xBC
+		::System::Collections::Generic::List_1<::UnityEngine::Matrix4x4>* NBCPJLJKEHD; // 0x100
+		::System::Collections::Generic::List_1<::UnityEngine::Matrix4x4>* DEOMNJNDJLP; // 0x108
+		::System::Collections::Generic::List_1<::UnityEngine::Vector4>* JOGHPPKKBMD; // 0x110
+		::System::Collections::Generic::List_1<::System::Single>* HLBEGNDPKMN; // 0x118
+		::UnityEngine::MaterialPropertyBlock* BMCPFHADPKJ; // 0x120
+		::UnityEngine::Mesh* FHFGJNPCACB; // 0x128
 
 		::System::Void _ctor()
 		{

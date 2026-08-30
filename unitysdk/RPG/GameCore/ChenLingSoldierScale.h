@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingSoldierScale_TypeDefinitionIndex = 10661;
+	inline static constexpr unsigned int ChenLingSoldierScale_TypeDefinitionIndex = 11036;
 
 	enum class ChenLingSoldierScale : ::System::Int32
 	{

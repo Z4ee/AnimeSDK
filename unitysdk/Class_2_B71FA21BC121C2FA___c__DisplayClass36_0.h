@@ -6,10 +6,10 @@ class Class_2_B71FA21BC121C2FA;
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class SkillData; }
 
-#define CLASS_2_B71FA21BC121C2FA___C__DISPLAYCLASS36_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1513D780)
-#define CLASS_2_B71FA21BC121C2FA___C__DISPLAYCLASS36_0__SETUPSKILL_B__0_OFFSET UNITYSDK_OFFSET(0x151403B0)
+#define CLASS_2_B71FA21BC121C2FA___C__DISPLAYCLASS36_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16B5A3D0)
+#define CLASS_2_B71FA21BC121C2FA___C__DISPLAYCLASS36_0__SETUPSKILL_B__0_OFFSET UNITYSDK_OFFSET(0x16B5CE30)
 
-inline static constexpr unsigned int Class_2_B71FA21BC121C2FA___c__DisplayClass36_0_TypeDefinitionIndex = 68634;
+inline static constexpr unsigned int Class_2_B71FA21BC121C2FA___c__DisplayClass36_0_TypeDefinitionIndex = 71832;
 
 class Class_2_B71FA21BC121C2FA___c__DisplayClass36_0 : public ::System::Object
 {

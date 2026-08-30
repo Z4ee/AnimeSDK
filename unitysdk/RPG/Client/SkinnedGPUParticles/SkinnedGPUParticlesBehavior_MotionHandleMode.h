@@ -3,7 +3,7 @@
 
 namespace RPG::Client::SkinnedGPUParticles
 {
-	inline static constexpr unsigned int SkinnedGPUParticlesBehavior_MotionHandleMode_TypeDefinitionIndex = 70293;
+	inline static constexpr unsigned int SkinnedGPUParticlesBehavior_MotionHandleMode_TypeDefinitionIndex = 73593;
 
 	enum class SkinnedGPUParticlesBehavior_MotionHandleMode : ::System::Int32
 	{

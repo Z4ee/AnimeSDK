@@ -9,29 +9,29 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TurnBasedModifierConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELBEFOREADDMODIFIER_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x1BDEFB90)
-#define RPG_GAMECORE_LEVELBEFOREADDMODIFIER_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x1BDEFB40)
-#define RPG_GAMECORE_LEVELBEFOREADDMODIFIER_INIT_OFFSET UNITYSDK_OFFSET(0x1BDEF9D0)
-#define RPG_GAMECORE_LEVELBEFOREADDMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDEFBE0)
+#define RPG_GAMECORE_LEVELBEFOREADDMODIFIER_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x18451BD0)
+#define RPG_GAMECORE_LEVELBEFOREADDMODIFIER_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x18451B80)
+#define RPG_GAMECORE_LEVELBEFOREADDMODIFIER_INIT_OFFSET UNITYSDK_OFFSET(0x18451A00)
+#define RPG_GAMECORE_LEVELBEFOREADDMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x18451C20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelBeforeAddModifier_TypeDefinitionIndex = 54231;
+	inline static constexpr unsigned int LevelBeforeAddModifier_TypeDefinitionIndex = 56952;
 
 	class LevelBeforeAddModifier : public ::Class_1_BF7A075734D15E98
 	{
 	public:
-		::System::String* ModifierName; // 0x18
-		::System::String* AbilityName; // 0x20
-		::Struct_2_5909FD7779934CCA ChangeParams; // 0x28
+		::RPG::GameCore::TurnBasedModifierConfig* ModifierConfig; // 0x18
+		::Struct_2_5909FD7779934CCA ChangeParams; // 0x20
+		::System::String* AbilityName; // 0x128
 		::RPG::GameCore::GameEntity* Receiver; // 0x130
-		::RPG::GameCore::GameEntity* Caster; // 0x138
-		::RPG::GameCore::TurnBasedModifierConfig* ModifierConfig; // 0x140
-		::System::Int32 LifeTime; // 0x148
-		::System::Boolean IsSuccess; // 0x14C
-		::System::Boolean DisableFloatingMessage; // 0x14D
-		::RPG::GameCore::FixPoint Chance; // 0x150
-		::RPG::GameCore::FixPoint BaseChance; // 0x158
+		::System::String* ModifierName; // 0x138
+		::RPG::GameCore::GameEntity* Caster; // 0x140
+		::RPG::GameCore::FixPoint BaseChance; // 0x148
+		::System::Int32 LifeTime; // 0x150
+		::System::Boolean IsSuccess; // 0x154
+		::System::Boolean DisableFloatingMessage; // 0x155
+		::RPG::GameCore::FixPoint Chance; // 0x158
 
 		::System::Void _ctor()
 		{

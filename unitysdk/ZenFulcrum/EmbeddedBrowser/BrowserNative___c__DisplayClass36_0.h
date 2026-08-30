@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE___C__DISPLAYCLASS36_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1AB48B30)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE___C__DISPLAYCLASS36_0__LOGTHREADSAFE_B__0_OFFSET UNITYSDK_OFFSET(0x1AB4B890)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE___C__DISPLAYCLASS36_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C7DBCC0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE___C__DISPLAYCLASS36_0__LOGTHREADSAFE_B__0_OFFSET UNITYSDK_OFFSET(0x1C7DEA20)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int BrowserNative___c__DisplayClass36_0_TypeDefinitionIndex = 37307;
+	inline static constexpr unsigned int BrowserNative___c__DisplayClass36_0_TypeDefinitionIndex = 38166;
 
 	class BrowserNative___c__DisplayClass36_0 : public ::System::Object
 	{

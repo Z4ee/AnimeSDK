@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ResetTimeRelayFlame; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_A394651788BBCC49_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x158E3030)
-#define CLASS_3_A394651788BBCC49__CTOR_OFFSET UNITYSDK_OFFSET(0x158E3000)
+#define CLASS_3_A394651788BBCC49_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17674140)
+#define CLASS_3_A394651788BBCC49__CTOR_OFFSET UNITYSDK_OFFSET(0x17674110)
 
-inline static constexpr unsigned int Class_3_A394651788BBCC49_TypeDefinitionIndex = 50783;
+inline static constexpr unsigned int Class_3_A394651788BBCC49_TypeDefinitionIndex = 53465;
 
 class Class_3_A394651788BBCC49 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ResetTimeRelayFlame*>
 {

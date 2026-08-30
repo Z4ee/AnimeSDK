@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace System { class TypeIdentifier; }
 
-#define SYSTEM_TYPEIDENTIFIERS_FROMDISPLAY_OFFSET UNITYSDK_OFFSET(0x1A75E350)
+#define SYSTEM_TYPEIDENTIFIERS_FROMDISPLAY_OFFSET UNITYSDK_OFFSET(0x1C68FFC0)
 
 namespace System
 {
-	inline static constexpr unsigned int TypeIdentifiers_TypeDefinitionIndex = 439;
+	inline static constexpr unsigned int TypeIdentifiers_TypeDefinitionIndex = 442;
 
 	class TypeIdentifiers : public ::System::Object
 	{

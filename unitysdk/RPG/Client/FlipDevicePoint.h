@@ -13,22 +13,22 @@ namespace RPG::GameCore { class PropComponent; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_FLIPDEVICEPOINT_GETPROPSTATE_OFFSET UNITYSDK_OFFSET(0x16D10730)
-#define RPG_CLIENT_FLIPDEVICEPOINT_GET_ADDDISTANCE_OFFSET UNITYSDK_OFFSET(0x16D10710)
-#define RPG_CLIENT_FLIPDEVICEPOINT_GET_POSITION_OFFSET UNITYSDK_OFFSET(0x16D10EE0)
-#define RPG_CLIENT_FLIPDEVICEPOINT_GET_PROPCOMPONENT_OFFSET UNITYSDK_OFFSET(0x16D10EC0)
-#define RPG_CLIENT_FLIPDEVICEPOINT_GET_RADIUS_OFFSET UNITYSDK_OFFSET(0x16D11050)
-#define RPG_CLIENT_FLIPDEVICEPOINT_GET_UIWORLDPOSITION_OFFSET UNITYSDK_OFFSET(0x16D10F90)
-#define RPG_CLIENT_FLIPDEVICEPOINT_MAKESTATIC_OFFSET UNITYSDK_OFFSET(0x16D107C0)
-#define RPG_CLIENT_FLIPDEVICEPOINT_ONSTATECHANGE_OFFSET UNITYSDK_OFFSET(0x16D10810)
-#define RPG_CLIENT_FLIPDEVICEPOINT_SET_ADDDISTANCE_OFFSET UNITYSDK_OFFSET(0x16D10720)
-#define RPG_CLIENT_FLIPDEVICEPOINT_SET_PROPCOMPONENT_OFFSET UNITYSDK_OFFSET(0x16D10ED0)
-#define RPG_CLIENT_FLIPDEVICEPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x16D0FD70)
-#define RPG_CLIENT_FLIPDEVICEPOINT__REFRESHSTREAMINGINSTANCE_OFFSET UNITYSDK_OFFSET(0x16D10BB0)
+#define RPG_CLIENT_FLIPDEVICEPOINT_GETPROPSTATE_OFFSET UNITYSDK_OFFSET(0x190DDA40)
+#define RPG_CLIENT_FLIPDEVICEPOINT_GET_ADDDISTANCE_OFFSET UNITYSDK_OFFSET(0x190DDA20)
+#define RPG_CLIENT_FLIPDEVICEPOINT_GET_POSITION_OFFSET UNITYSDK_OFFSET(0x190DE220)
+#define RPG_CLIENT_FLIPDEVICEPOINT_GET_PROPCOMPONENT_OFFSET UNITYSDK_OFFSET(0x190DE200)
+#define RPG_CLIENT_FLIPDEVICEPOINT_GET_RADIUS_OFFSET UNITYSDK_OFFSET(0x190DE380)
+#define RPG_CLIENT_FLIPDEVICEPOINT_GET_UIWORLDPOSITION_OFFSET UNITYSDK_OFFSET(0x190DE2C0)
+#define RPG_CLIENT_FLIPDEVICEPOINT_MAKESTATIC_OFFSET UNITYSDK_OFFSET(0x190DDAD0)
+#define RPG_CLIENT_FLIPDEVICEPOINT_ONSTATECHANGE_OFFSET UNITYSDK_OFFSET(0x190DDB20)
+#define RPG_CLIENT_FLIPDEVICEPOINT_SET_ADDDISTANCE_OFFSET UNITYSDK_OFFSET(0x190DDA30)
+#define RPG_CLIENT_FLIPDEVICEPOINT_SET_PROPCOMPONENT_OFFSET UNITYSDK_OFFSET(0x190DE210)
+#define RPG_CLIENT_FLIPDEVICEPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x190DD080)
+#define RPG_CLIENT_FLIPDEVICEPOINT__REFRESHSTREAMINGINSTANCE_OFFSET UNITYSDK_OFFSET(0x190DDEC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FlipDevicePoint_TypeDefinitionIndex = 69963;
+	inline static constexpr unsigned int FlipDevicePoint_TypeDefinitionIndex = 73220;
 
 	class FlipDevicePoint : public ::System::Object
 	{
@@ -38,16 +38,16 @@ namespace RPG::Client
 		// static const ::System::String* AffectedStageItemsKey; // 0x0
 		// static const ::System::String* AffectedGroupsKey; // 0x0
 		::RPG::GameCore::GameEntity* UIPointProxyPropEntity; // 0x10
-		::System::Collections::Generic::List_1<::System::ValueTuple_4<::System::String*, ::System::String*, ::System::String*, ::RPG::GameCore::EraStateType>>* AffectedStageItems; // 0x18
-		::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>* MappingProps; // 0x20
-		::RPG::GameCore::GameEntity* GameEntity; // 0x28
-		::RPG::GameCore::PropComponent* _PropComponent_k__BackingField; // 0x30
-		::System::Collections::Generic::List_1<::System::UInt32>* AffectedGroups; // 0x38
-		::System::Boolean _IsStatic; // 0x40
+		::RPG::GameCore::GameEntity* GameEntity; // 0x18
+		::System::Collections::Generic::List_1<::System::ValueTuple_4<::System::String*, ::System::String*, ::System::String*, ::RPG::GameCore::EraStateType>>* AffectedStageItems; // 0x20
+		::RPG::GameCore::PropComponent* _PropComponent_k__BackingField; // 0x28
+		::System::Collections::Generic::List_1<::System::UInt32>* AffectedGroups; // 0x30
+		::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>* MappingProps; // 0x38
+		::System::Single _AddDistance_k__BackingField; // 0x40
 		::UnityEngine::Vector3 _UIPosition; // 0x44
 		::System::Single _Radius; // 0x50
-		::UnityEngine::Vector3 _Position; // 0x54
-		::System::Single _AddDistance_k__BackingField; // 0x60
+		::System::Boolean _IsStatic; // 0x54
+		::UnityEngine::Vector3 _Position; // 0x58
 
 		::System::Void _ctor(::RPG::GameCore::GameEntity* a1, ::System::Boolean a2)
 		{

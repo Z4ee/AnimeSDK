@@ -5,19 +5,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ANNIVERSARYCOLLECTIONGROUPCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A0593C0)
-#define RPG_GAMECORE_ANNIVERSARYCOLLECTIONGROUPCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1A059550)
+#define RPG_GAMECORE_ANNIVERSARYCOLLECTIONGROUPCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C56E920)
+#define RPG_GAMECORE_ANNIVERSARYCOLLECTIONGROUPCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1C56EAB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AnniversaryCollectionGroupConfigRow_TypeDefinitionIndex = 12189;
+	inline static constexpr unsigned int AnniversaryCollectionGroupConfigRow_TypeDefinitionIndex = 12578;
 
 	class AnniversaryCollectionGroupConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* TabIDList; // 0x10
-		::System::UInt32 ActivityID; // 0x18
-		::RPG::GameCore::AnniversaryCollectionGroupType GroupID; // 0x1C
+		::RPG::GameCore::AnniversaryCollectionGroupType GroupID; // 0x18
+		::System::UInt32 ActivityID; // 0x1C
 
 		::System::Void _ctor()
 		{

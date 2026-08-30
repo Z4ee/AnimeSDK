@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class PerformanceSkipLevelStateOverrideItem; }
 
-#define RPG_GAMECORE_PERFORMANCESKIPLEVELSTATEOVERRIDECONFIG_METHOD_2_B42A132365DBA770_OFFSET UNITYSDK_OFFSET(0x1B4B6150)
-#define RPG_GAMECORE_PERFORMANCESKIPLEVELSTATEOVERRIDECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4B6240)
+#define RPG_GAMECORE_PERFORMANCESKIPLEVELSTATEOVERRIDECONFIG_METHOD_2_B42A132365DBA770_OFFSET UNITYSDK_OFFSET(0x1D429D10)
+#define RPG_GAMECORE_PERFORMANCESKIPLEVELSTATEOVERRIDECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D429E00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PerformanceSkipLevelStateOverrideConfig_TypeDefinitionIndex = 18296;
+	inline static constexpr unsigned int PerformanceSkipLevelStateOverrideConfig_TypeDefinitionIndex = 18820;
 
 	class PerformanceSkipLevelStateOverrideConfig : public ::RPG::GameCore::JsonConfig
 	{

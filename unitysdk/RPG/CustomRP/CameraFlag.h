@@ -3,7 +3,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CameraFlag_TypeDefinitionIndex = 36151;
+	inline static constexpr unsigned int CameraFlag_TypeDefinitionIndex = 37010;
 
 	enum class CameraFlag : ::System::Int32
 	{

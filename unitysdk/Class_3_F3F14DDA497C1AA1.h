@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdvRestartGatheredRegion; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_F3F14DDA497C1AA1_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x14D8D2D0)
-#define CLASS_3_F3F14DDA497C1AA1__CTOR_OFFSET UNITYSDK_OFFSET(0x14D8D2A0)
+#define CLASS_3_F3F14DDA497C1AA1_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x163E2D80)
+#define CLASS_3_F3F14DDA497C1AA1__CTOR_OFFSET UNITYSDK_OFFSET(0x163E2D50)
 
-inline static constexpr unsigned int Class_3_F3F14DDA497C1AA1_TypeDefinitionIndex = 55313;
+inline static constexpr unsigned int Class_3_F3F14DDA497C1AA1_TypeDefinitionIndex = 58037;
 
 class Class_3_F3F14DDA497C1AA1 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdvRestartGatheredRegion*>
 {

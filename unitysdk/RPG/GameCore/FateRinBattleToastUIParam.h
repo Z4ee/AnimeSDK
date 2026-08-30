@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_GAMECORE_FATERINBATTLETOASTUIPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x154E8CB0)
+#define RPG_GAMECORE_FATERINBATTLETOASTUIPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1158BEE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FateRinBattleToastUIParam_TypeDefinitionIndex = 50397;
+	inline static constexpr unsigned int FateRinBattleToastUIParam_TypeDefinitionIndex = 53062;
 
 	class FateRinBattleToastUIParam : public ::System::Object
 	{

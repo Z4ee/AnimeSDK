@@ -4,16 +4,16 @@
 
 namespace RPG::GameCore { class TaskConfig; }
 
-#define CLASS_1_0301444171B4FB72__CTOR_OFFSET UNITYSDK_OFFSET(0x15F32BC0)
+#define CLASS_1_0301444171B4FB72__CTOR_OFFSET UNITYSDK_OFFSET(0x187E2730)
 
-inline static constexpr unsigned int Class_1_0301444171B4FB72_TypeDefinitionIndex = 58341;
+inline static constexpr unsigned int Class_1_0301444171B4FB72_TypeDefinitionIndex = 61168;
 
 class Class_1_0301444171B4FB72 : public ::System::Object
 {
 public:
-	::Il2CppArray<::RPG::GameCore::TaskConfig*>* Field_1_0; // 0x10
-	::Il2CppArray<::RPG::GameCore::TaskConfig*>* Field_1_1; // 0x18
-	::Il2CppArray<::RPG::GameCore::TaskConfig*>* Field_1_2; // 0x20
+	::Il2CppArray<::RPG::GameCore::TaskConfig*>* AONJGMLJNLC; // 0x10
+	::Il2CppArray<::RPG::GameCore::TaskConfig*>* NEMENNBHAFK; // 0x18
+	::Il2CppArray<::RPG::GameCore::TaskConfig*>* MGNOHDHNDNB; // 0x20
 
 	::System::Void _ctor()
 	{

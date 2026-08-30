@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define CLASS_3_B40B82316B003D8B_ANIMATEDINSTANCE_GET_RANDOMVALUE_OFFSET UNITYSDK_OFFSET(0x151851C0)
-#define CLASS_3_B40B82316B003D8B_ANIMATEDINSTANCE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x15185FD0)
-#define CLASS_3_B40B82316B003D8B_ANIMATEDINSTANCE__CTOR_OFFSET UNITYSDK_OFFSET(0x15185F90)
+#define CLASS_3_B40B82316B003D8B_ANIMATEDINSTANCE_GET_RANDOMVALUE_OFFSET UNITYSDK_OFFSET(0x19C0ED70)
+#define CLASS_3_B40B82316B003D8B_ANIMATEDINSTANCE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x19C0FB90)
+#define CLASS_3_B40B82316B003D8B_ANIMATEDINSTANCE__CTOR_OFFSET UNITYSDK_OFFSET(0x19C0FB40)
 
-inline static constexpr unsigned int Class_3_B40B82316B003D8B_AnimatedInstance_TypeDefinitionIndex = 67172;
+inline static constexpr unsigned int Class_3_B40B82316B003D8B_AnimatedInstance_TypeDefinitionIndex = 70291;
 
 class Class_3_B40B82316B003D8B_AnimatedInstance : public ::System::Object
 {
@@ -16,11 +16,12 @@ public:
 	::UnityEngine::Vector3 RelativeTranslation; // 0x14
 	::UnityEngine::Vector3 RelativeRotation; // 0x20
 	::UnityEngine::Vector3 RelativeScale; // 0x2C
-	::System::Single _RandomValue; // 0x38
+	::System::Single RelativeSpeed; // 0x38
+	::System::Single _RandomValue; // 0x3C
 
-	::System::Void _ctor(::System::Single a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Vector3 a4)
+	::System::Void _ctor(::System::Single a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Vector3 a4, ::System::Single a5)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Single, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + CLASS_3_B40B82316B003D8B_ANIMATEDINSTANCE__CTOR_OFFSET))(this, a1, a2, a3, a4);
+		return ((::System::Void(*)(::PVOID, ::System::Single, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_3_B40B82316B003D8B_ANIMATEDINSTANCE__CTOR_OFFSET))(this, a1, a2, a3, a4, a5);
 	}
 
 	::System::Void _ctor_1()

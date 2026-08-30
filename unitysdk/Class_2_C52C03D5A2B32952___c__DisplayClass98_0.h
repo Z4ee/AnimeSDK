@@ -5,10 +5,10 @@
 namespace RPG::Client { class TalkEmotionData; }
 namespace System { class String; }
 
-#define CLASS_2_C52C03D5A2B32952___C__DISPLAYCLASS98_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14D73480)
-#define CLASS_2_C52C03D5A2B32952___C__DISPLAYCLASS98_0___GETTALKEMOTIONDATA_B__0_OFFSET UNITYSDK_OFFSET(0x14D75080)
+#define CLASS_2_C52C03D5A2B32952___C__DISPLAYCLASS98_0__CTOR_OFFSET UNITYSDK_OFFSET(0x163C8790)
+#define CLASS_2_C52C03D5A2B32952___C__DISPLAYCLASS98_0___GETTALKEMOTIONDATA_B__0_OFFSET UNITYSDK_OFFSET(0x163CA370)
 
-inline static constexpr unsigned int Class_2_C52C03D5A2B32952___c__DisplayClass98_0_TypeDefinitionIndex = 54683;
+inline static constexpr unsigned int Class_2_C52C03D5A2B32952___c__DisplayClass98_0_TypeDefinitionIndex = 57404;
 
 class Class_2_C52C03D5A2B32952___c__DisplayClass98_0 : public ::System::Object
 {

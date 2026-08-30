@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Exception.h"
 
-#define CLASS_2_4B62F57F003F264C_15__CTOR_OFFSET UNITYSDK_OFFSET(0x14255A20)
+#define CLASS_2_4B62F57F003F264C_15__CTOR_OFFSET UNITYSDK_OFFSET(0x1524A750)
 
-inline static constexpr unsigned int Class_2_4B62F57F003F264C_15_TypeDefinitionIndex = 58540;
+inline static constexpr unsigned int Class_2_4B62F57F003F264C_15_TypeDefinitionIndex = 61370;
 
 class Class_2_4B62F57F003F264C_15 : public ::System::Exception
 {

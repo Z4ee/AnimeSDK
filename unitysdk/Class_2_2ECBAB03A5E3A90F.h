@@ -8,20 +8,20 @@ namespace RPG::GameCore { class CakeRaceActionBase; }
 namespace System { template <typename T1, typename T2> class Tuple_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_2ECBAB03A5E3A90F_METHOD_2_13135F1111DFADD3_OFFSET UNITYSDK_OFFSET(0x181787B0)
-#define CLASS_2_2ECBAB03A5E3A90F_METHOD_2_DEA6ACF0B96986BD_OFFSET UNITYSDK_OFFSET(0x18178650)
-#define CLASS_2_2ECBAB03A5E3A90F_METHOD_2_E30C1CC3BF2357EB_OFFSET UNITYSDK_OFFSET(0x18178F30)
-#define CLASS_2_2ECBAB03A5E3A90F_TICK_OFFSET UNITYSDK_OFFSET(0x18178C30)
-#define CLASS_2_2ECBAB03A5E3A90F__CTOR_OFFSET UNITYSDK_OFFSET(0x181785F0)
+#define CLASS_2_2ECBAB03A5E3A90F_METHOD_2_13135F1111DFADD3_OFFSET UNITYSDK_OFFSET(0x19D3F180)
+#define CLASS_2_2ECBAB03A5E3A90F_METHOD_2_DEA6ACF0B96986BD_OFFSET UNITYSDK_OFFSET(0x19D3F020)
+#define CLASS_2_2ECBAB03A5E3A90F_METHOD_2_E30C1CC3BF2357EB_OFFSET UNITYSDK_OFFSET(0x19D3F900)
+#define CLASS_2_2ECBAB03A5E3A90F_TICK_OFFSET UNITYSDK_OFFSET(0x19D3F600)
+#define CLASS_2_2ECBAB03A5E3A90F__CTOR_OFFSET UNITYSDK_OFFSET(0x19D3EFC0)
 
-inline static constexpr unsigned int Class_2_2ECBAB03A5E3A90F_TypeDefinitionIndex = 35798;
+inline static constexpr unsigned int Class_2_2ECBAB03A5E3A90F_TypeDefinitionIndex = 36659;
 
 class Class_2_2ECBAB03A5E3A90F : public ::Class_1_023C175BBB7E6D29
 {
 public:
-	::System::Collections::Generic::List_1<::System::Tuple_2<::RPG::GameCore::CakeRaceActionBase*, ::System::UInt64>*>* Field_2_0; // 0x28
-	::System::Int32 Field_2_1; // 0x30
-	::System::UInt64 Field_2_2; // 0x38
+	::System::Collections::Generic::List_1<::System::Tuple_2<::RPG::GameCore::CakeRaceActionBase*, ::System::UInt64>*>* MEBHIJOEDHP; // 0x28
+	::System::UInt64 ACEPCNAKOEH; // 0x30
+	::System::Int32 PPENONBJDFO; // 0x38
 
 	::System::Void _ctor()
 	{

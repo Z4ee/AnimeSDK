@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class BattleComboConfig; }
 
-#define RPG_GAMECORE_RTDAMAGECONSTCONFIG_METHOD_2_20DF1D782C684035_OFFSET UNITYSDK_OFFSET(0x1B75EA30)
-#define RPG_GAMECORE_RTDAMAGECONSTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B75F0D0)
+#define RPG_GAMECORE_RTDAMAGECONSTCONFIG_METHOD_2_20DF1D782C684035_OFFSET UNITYSDK_OFFSET(0x1CCD72C0)
+#define RPG_GAMECORE_RTDAMAGECONSTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CCE3E00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtDamageConstConfig_TypeDefinitionIndex = 16930;
+	inline static constexpr unsigned int RtDamageConstConfig_TypeDefinitionIndex = 17432;
 
 	class RtDamageConstConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -6,13 +6,13 @@
 
 namespace UnityEngine { class Mesh; }
 
-#define UNITYCHAN_SPRINGCOLLIDER_METHOD_5_FCCE5510573026EA_OFFSET UNITYSDK_OFFSET(0x1052D060)
-#define UNITYCHAN_SPRINGCOLLIDER_ONDRAWGIZMOSSELECTED_OFFSET UNITYSDK_OFFSET(0x1052DA90)
-#define UNITYCHAN_SPRINGCOLLIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1052DD50)
+#define UNITYCHAN_SPRINGCOLLIDER_METHOD_5_FCCE5510573026EA_OFFSET UNITYSDK_OFFSET(0x104F9B60)
+#define UNITYCHAN_SPRINGCOLLIDER_ONDRAWGIZMOSSELECTED_OFFSET UNITYSDK_OFFSET(0x104FA590)
+#define UNITYCHAN_SPRINGCOLLIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x104FA850)
 
 namespace UnityChan
 {
-	inline static constexpr unsigned int SpringCollider_TypeDefinitionIndex = 45889;
+	inline static constexpr unsigned int SpringCollider_TypeDefinitionIndex = 48143;
 
 	class SpringCollider : public ::UnityEngine::MonoBehaviour
 	{
@@ -22,11 +22,11 @@ namespace UnityChan
 		::System::Single height; // 0x20
 		::UnityEngine::Vector3 offset; // 0x24
 		::UnityEngine::Vector3 rotation; // 0x30
-		::UnityEngine::Mesh* Field_5_5; // 0x40
-		::System::Single Field_5_6; // 0x48
-		::System::Single Field_5_7; // 0x4C
-		::UnityEngine::Vector3 Field_5_8; // 0x50
-		::UnityEngine::Vector3 Field_5_9; // 0x5C
+		::UnityEngine::Mesh* OOKBODPIGNF; // 0x40
+		::System::Single HJOOCFMOHFM; // 0x48
+		::System::Single IEKBKAMJKCM; // 0x4C
+		::UnityEngine::Vector3 AJMLEFNLDEP; // 0x50
+		::UnityEngine::Vector3 GFAHHMNIOHF; // 0x5C
 
 		::System::Void _ctor()
 		{

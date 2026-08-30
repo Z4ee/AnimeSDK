@@ -5,12 +5,12 @@
 namespace System::Reflection { class ConstructorInfo; }
 namespace System::Reflection { class PropertyInfo; }
 
-#define SYSTEM_REFLECTION_EMIT_CUSTOMATTRIBUTEBUILDER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1AFC9370)
-#define SYSTEM_REFLECTION_EMIT_CUSTOMATTRIBUTEBUILDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1AFC9320)
+#define SYSTEM_REFLECTION_EMIT_CUSTOMATTRIBUTEBUILDER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1CC19F20)
+#define SYSTEM_REFLECTION_EMIT_CUSTOMATTRIBUTEBUILDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC19ED0)
 
 namespace System::Reflection::Emit
 {
-	inline static constexpr unsigned int CustomAttributeBuilder_TypeDefinitionIndex = 639;
+	inline static constexpr unsigned int CustomAttributeBuilder_TypeDefinitionIndex = 642;
 
 	class CustomAttributeBuilder : public ::System::Object
 	{

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
-#define CLASS_1_200046EFE29838D2___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x175FA020)
-#define CLASS_1_200046EFE29838D2___C__DISPLAYCLASS9_0__GETHPRATIOINCLUDESHIELD_B__0_OFFSET UNITYSDK_OFFSET(0x175FA040)
+#define CLASS_1_200046EFE29838D2___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18CD7540)
+#define CLASS_1_200046EFE29838D2___C__DISPLAYCLASS9_0__GETHPRATIOINCLUDESHIELD_B__0_OFFSET UNITYSDK_OFFSET(0x18CD7560)
 
-inline static constexpr unsigned int Class_1_200046EFE29838D2___c__DisplayClass9_0_TypeDefinitionIndex = 51879;
+inline static constexpr unsigned int Class_1_200046EFE29838D2___c__DisplayClass9_0_TypeDefinitionIndex = 54563;
 
 class Class_1_200046EFE29838D2___c__DisplayClass9_0 : public ::System::Object
 {

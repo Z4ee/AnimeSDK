@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ProjectileMoveBehavior_TypeDefinitionIndex = 15042;
+	inline static constexpr unsigned int ProjectileMoveBehavior_TypeDefinitionIndex = 15478;
 
 	enum class ProjectileMoveBehavior : ::System::Int32
 	{
@@ -23,5 +23,6 @@ namespace RPG::GameCore
 		TraceWithDetect = 13,
 		BGCurvePrefabWithDetect = 14,
 		CameraForwardWithDetect = 15,
+		ClimbableLinearWithHitDetect = 16,
 	};
 }

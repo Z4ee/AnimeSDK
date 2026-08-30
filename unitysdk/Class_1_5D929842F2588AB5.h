@@ -4,14 +4,14 @@
 
 namespace RPG::GameCore { class FourRotateVoxelAnimalAttachBillboardConfig; }
 
-#define CLASS_1_5D929842F2588AB5__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF40610)
+#define CLASS_1_5D929842F2588AB5__CTOR_OFFSET UNITYSDK_OFFSET(0x1DBF14F0)
 
-inline static constexpr unsigned int Class_1_5D929842F2588AB5_TypeDefinitionIndex = 40642;
+inline static constexpr unsigned int Class_1_5D929842F2588AB5_TypeDefinitionIndex = 41594;
 
 class Class_1_5D929842F2588AB5 : public ::System::Object
 {
 public:
-	::RPG::GameCore::FourRotateVoxelAnimalAttachBillboardConfig* Field_1_0; // 0x10
+	::RPG::GameCore::FourRotateVoxelAnimalAttachBillboardConfig* DOCBCODGIEH; // 0x10
 
 	::System::Void _ctor()
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int MovieAchievementType_TypeDefinitionIndex = 40215;
+	inline static constexpr unsigned int MovieAchievementType_TypeDefinitionIndex = 41094;
 
 	enum class MovieAchievementType : ::System::Int32
 	{

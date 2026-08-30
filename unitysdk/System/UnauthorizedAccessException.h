@@ -6,13 +6,13 @@
 namespace System { class String; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_UNAUTHORIZEDACCESSEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1D1FF400)
-#define SYSTEM_UNAUTHORIZEDACCESSEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1D1FF470)
-#define SYSTEM_UNAUTHORIZEDACCESSEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1FF360)
+#define SYSTEM_UNAUTHORIZEDACCESSEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EEB1660)
+#define SYSTEM_UNAUTHORIZEDACCESSEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1EEB16D0)
+#define SYSTEM_UNAUTHORIZEDACCESSEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1EEB15C0)
 
 namespace System
 {
-	inline static constexpr unsigned int UnauthorizedAccessException_TypeDefinitionIndex = 356;
+	inline static constexpr unsigned int UnauthorizedAccessException_TypeDefinitionIndex = 359;
 
 	class UnauthorizedAccessException : public ::System::SystemException
 	{

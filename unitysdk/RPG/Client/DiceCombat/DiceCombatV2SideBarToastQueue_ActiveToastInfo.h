@@ -4,19 +4,19 @@
 
 namespace RPG::Client::DiceCombat { class DiceCombatV2SideBarToastItem; }
 
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2SIDEBARTOASTQUEUE_ACTIVETOASTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x19FE9CB0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2SIDEBARTOASTQUEUE_ACTIVETOASTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8C25D0)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatV2SideBarToastQueue_ActiveToastInfo_TypeDefinitionIndex = 72300;
+	inline static constexpr unsigned int DiceCombatV2SideBarToastQueue_ActiveToastInfo_TypeDefinitionIndex = 75736;
 
 	class DiceCombatV2SideBarToastQueue_ActiveToastInfo : public ::System::Object
 	{
 	public:
 		::RPG::Client::DiceCombat::DiceCombatV2SideBarToastItem* Item; // 0x10
-		::System::Boolean IsFadingOut; // 0x18
-		::System::Single ShowTime; // 0x1C
-		::System::Int32 PrefabInstanceId; // 0x20
+		::System::Int32 PrefabInstanceId; // 0x18
+		::System::Boolean IsFadingOut; // 0x1C
+		::System::Single ShowTime; // 0x20
 
 		::System::Void _ctor()
 		{

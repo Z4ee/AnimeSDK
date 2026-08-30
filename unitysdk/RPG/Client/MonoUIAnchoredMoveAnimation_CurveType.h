@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoUIAnchoredMoveAnimation_CurveType_TypeDefinitionIndex = 65896;
+	inline static constexpr unsigned int MonoUIAnchoredMoveAnimation_CurveType_TypeDefinitionIndex = 68935;
 
 	enum class MonoUIAnchoredMoveAnimation_CurveType : ::System::Int32
 	{

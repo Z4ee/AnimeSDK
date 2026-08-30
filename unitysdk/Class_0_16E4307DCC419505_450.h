@@ -1,12 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/GameCore/FixPoint.h"
+#include "unitysdk/Struct_2_F1C4ECC5EFDCA1EF.h"
 
-class Class_0_16E4307DCC419505_467;
-class Class_0_16E4307DCC419505_468;
-class Class_1_7426CC7EB19E2337;
+namespace RPG::AvatarSystem { class AvatarSkin; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_450_TypeDefinitionIndex = 51532;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_450_TypeDefinitionIndex = 52241;
 
 class Class_0_16E4307DCC419505_450
 {

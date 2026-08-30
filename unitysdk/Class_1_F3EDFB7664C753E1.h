@@ -7,28 +7,28 @@ class Class_1_8F355422BD450641;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_F3EDFB7664C753E1_METHOD_1_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x175EC1A0)
-#define CLASS_1_F3EDFB7664C753E1_METHOD_1_782FBC558668D4E1_OFFSET UNITYSDK_OFFSET(0x175ECCE0)
-#define CLASS_1_F3EDFB7664C753E1_METHOD_1_88E44DA7766978B9_OFFSET UNITYSDK_OFFSET(0x175EC240)
-#define CLASS_1_F3EDFB7664C753E1_METHOD_1_FA5DABCBDCFF09FF_OFFSET UNITYSDK_OFFSET(0x175EC140)
-#define CLASS_1_F3EDFB7664C753E1__CTOR_OFFSET UNITYSDK_OFFSET(0x175EC0A0)
+#define CLASS_1_F3EDFB7664C753E1_METHOD_1_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x18CC95C0)
+#define CLASS_1_F3EDFB7664C753E1_METHOD_1_782FBC558668D4E1_OFFSET UNITYSDK_OFFSET(0x18CCA100)
+#define CLASS_1_F3EDFB7664C753E1_METHOD_1_88E44DA7766978B9_OFFSET UNITYSDK_OFFSET(0x18CC9660)
+#define CLASS_1_F3EDFB7664C753E1_METHOD_1_FA5DABCBDCFF09FF_OFFSET UNITYSDK_OFFSET(0x18CC9560)
+#define CLASS_1_F3EDFB7664C753E1__CTOR_OFFSET UNITYSDK_OFFSET(0x18CC94C0)
 
-inline static constexpr unsigned int Class_1_F3EDFB7664C753E1_TypeDefinitionIndex = 70649;
+inline static constexpr unsigned int Class_1_F3EDFB7664C753E1_TypeDefinitionIndex = 73948;
 
 class Class_1_F3EDFB7664C753E1 : public ::System::Object
 {
 public:
-	::System::String* Field_1_0; // 0x10
-	::System::String* Field_1_1; // 0x18
-	::System::String* Field_1_2; // 0x20
-	::System::String* Field_1_3; // 0x28
-	::System::String* Field_1_4; // 0x30
-	::System::String* Field_1_5; // 0x38
-	::System::String* Field_1_6; // 0x40
-	::System::String* Field_1_7; // 0x48
-	::System::String* Field_1_8; // 0x50
-	::System::String* Field_1_9; // 0x58
-	::Struct_2_E8C1B530F552FEF0 Field_1_10; // 0x60
+	::System::String* GOKAENLDALA; // 0x10
+	::System::String* EFNAJMADAHM; // 0x18
+	::System::String* EFAFKFONJHP; // 0x20
+	::System::String* FFBMNFMDBID; // 0x28
+	::System::String* NKAACMGNNPK; // 0x30
+	::System::String* EOEABKONOAK; // 0x38
+	::System::String* COCBDJEDAJM; // 0x40
+	::System::String* HCDEOKNIGKG; // 0x48
+	::System::String* GLEBPCFAPMP; // 0x50
+	::System::String* CLPNGEGJBBE; // 0x58
+	::Struct_2_E8C1B530F552FEF0 FJCAKOIDONG; // 0x60
 
 	::System::Void _ctor(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32 a5)
 	{

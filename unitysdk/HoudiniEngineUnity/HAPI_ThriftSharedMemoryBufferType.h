@@ -3,7 +3,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HAPI_ThriftSharedMemoryBufferType_TypeDefinitionIndex = 38332;
+	inline static constexpr unsigned int HAPI_ThriftSharedMemoryBufferType_TypeDefinitionIndex = 39191;
 
 	enum class HAPI_ThriftSharedMemoryBufferType : ::System::Int32
 	{

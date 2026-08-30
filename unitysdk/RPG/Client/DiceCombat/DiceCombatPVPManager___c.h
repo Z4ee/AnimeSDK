@@ -9,34 +9,34 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Action_1; }
 namespace System { template <typename T> class Func_1; }
 
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATPVPMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A41A750)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATPVPMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A41A790)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATPVPMANAGER___C___DOCREATELOBBY_B__9_0_OFFSET UNITYSDK_OFFSET(0x1A41A7A0)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATPVPMANAGER___C___JOINLOBBYINTERNAL_B__28_1_OFFSET UNITYSDK_OFFSET(0x1A41A7B0)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATPVPMANAGER___C___ONGIVEUP_B__32_0_OFFSET UNITYSDK_OFFSET(0x1A41A820)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATPVPMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C412D30)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATPVPMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1C412D70)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATPVPMANAGER___C___DOCREATELOBBY_B__9_0_OFFSET UNITYSDK_OFFSET(0x1C412D80)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATPVPMANAGER___C___JOINLOBBYINTERNAL_B__28_1_OFFSET UNITYSDK_OFFSET(0x1C412D90)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATPVPMANAGER___C___ONGIVEUP_B__32_0_OFFSET UNITYSDK_OFFSET(0x1C412E00)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatPVPManager___c_TypeDefinitionIndex = 72224;
+	inline static constexpr unsigned int DiceCombatPVPManager___c_TypeDefinitionIndex = 75660;
 
 	class DiceCombatPVPManager___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_1<::RPG::Client::Promises::IPromise*>** StaticGet___9__32_0()
-		{
-			return (::System::Func_1<::RPG::Client::Promises::IPromise*>**)Il2CppClass::FromTypeDefinitionIndex(DiceCombatPVPManager___c_TypeDefinitionIndex)->GetStaticField(0x6B270);
-		}
 		static ::RPG::Client::DiceCombat::DiceCombatPVPManager___c** StaticGet___9()
 		{
-			return (::RPG::Client::DiceCombat::DiceCombatPVPManager___c**)Il2CppClass::FromTypeDefinitionIndex(DiceCombatPVPManager___c_TypeDefinitionIndex)->GetStaticField(0x6B278);
-		}
-		static ::System::Action_1<::System::Exception*>** StaticGet___9__28_1()
-		{
-			return (::System::Action_1<::System::Exception*>**)Il2CppClass::FromTypeDefinitionIndex(DiceCombatPVPManager___c_TypeDefinitionIndex)->GetStaticField(0x6B280);
+			return (::RPG::Client::DiceCombat::DiceCombatPVPManager___c**)Il2CppClass::FromTypeDefinitionIndex(DiceCombatPVPManager___c_TypeDefinitionIndex)->GetStaticField(0x56CA0);
 		}
 		static ::System::Func_2<::RPG::Client::BaseLobby*, ::RPG::Client::BaseLobby*>** StaticGet___9__9_0()
 		{
-			return (::System::Func_2<::RPG::Client::BaseLobby*, ::RPG::Client::BaseLobby*>**)Il2CppClass::FromTypeDefinitionIndex(DiceCombatPVPManager___c_TypeDefinitionIndex)->GetStaticField(0x6B288);
+			return (::System::Func_2<::RPG::Client::BaseLobby*, ::RPG::Client::BaseLobby*>**)Il2CppClass::FromTypeDefinitionIndex(DiceCombatPVPManager___c_TypeDefinitionIndex)->GetStaticField(0x56CA8);
+		}
+		static ::System::Func_1<::RPG::Client::Promises::IPromise*>** StaticGet___9__32_0()
+		{
+			return (::System::Func_1<::RPG::Client::Promises::IPromise*>**)Il2CppClass::FromTypeDefinitionIndex(DiceCombatPVPManager___c_TypeDefinitionIndex)->GetStaticField(0x56CB0);
+		}
+		static ::System::Action_1<::System::Exception*>** StaticGet___9__28_1()
+		{
+			return (::System::Action_1<::System::Exception*>**)Il2CppClass::FromTypeDefinitionIndex(DiceCombatPVPManager___c_TypeDefinitionIndex)->GetStaticField(0x56CB8);
 		}
 
 		static ::System::Void _cctor()

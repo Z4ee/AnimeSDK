@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace SRF::Internal
 {
-	inline static constexpr unsigned int ComponentMenuPaths_TypeDefinitionIndex = 33998;
+	inline static constexpr unsigned int ComponentMenuPaths_TypeDefinitionIndex = 34765;
 
 	class ComponentMenuPaths : public ::System::Object
 	{

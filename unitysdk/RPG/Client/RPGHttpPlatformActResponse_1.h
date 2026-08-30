@@ -4,7 +4,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RPGHttpPlatformActResponse_1_TypeDefinitionIndex = 56672;
+	inline static constexpr unsigned int RPGHttpPlatformActResponse_1_TypeDefinitionIndex = 59457;
 
 	template <typename TData>
 	class RPGHttpPlatformActResponse_1 : public ::Class_1_D8AE373904B194A5

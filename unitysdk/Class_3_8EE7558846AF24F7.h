@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByIsStageFirstWave; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_8EE7558846AF24F7_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16394430)
-#define CLASS_3_8EE7558846AF24F7__CTOR_OFFSET UNITYSDK_OFFSET(0x16394400)
+#define CLASS_3_8EE7558846AF24F7_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1A801580)
+#define CLASS_3_8EE7558846AF24F7__CTOR_OFFSET UNITYSDK_OFFSET(0x1A801550)
 
-inline static constexpr unsigned int Class_3_8EE7558846AF24F7_TypeDefinitionIndex = 52211;
+inline static constexpr unsigned int Class_3_8EE7558846AF24F7_TypeDefinitionIndex = 54897;
 
 class Class_3_8EE7558846AF24F7 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByIsStageFirstWave*>
 {

@@ -5,18 +5,18 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_RESOURCEOVERALLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D01E880)
-#define RPG_GAMECORE_RESOURCEOVERALLROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D01EE80)
+#define RPG_GAMECORE_RESOURCEOVERALLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB95F10)
+#define RPG_GAMECORE_RESOURCEOVERALLROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB96510)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ResourceOverallRow_TypeDefinitionIndex = 14069;
+	inline static constexpr unsigned int ResourceOverallRow_TypeDefinitionIndex = 14489;
 
 	class ResourceOverallRow : public ::System::Object
 	{
 	public:
-		::System::String* PageKey; // 0x10
-		::Il2CppArray<::System::UInt32>* CurrencyIDList; // 0x18
+		::Il2CppArray<::System::UInt32>* CurrencyIDList; // 0x10
+		::System::String* PageKey; // 0x18
 		::System::Boolean IsDetailButton; // 0x20
 
 		::System::Void _ctor()

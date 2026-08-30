@@ -6,19 +6,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_RELICSUBAFFIXBASEVALUEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B9CC990)
-#define RPG_GAMECORE_RELICSUBAFFIXBASEVALUEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9CCB20)
+#define RPG_GAMECORE_RELICSUBAFFIXBASEVALUEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB8A6D0)
+#define RPG_GAMECORE_RELICSUBAFFIXBASEVALUEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB8A860)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RelicSubAffixBaseValueRow_TypeDefinitionIndex = 10524;
+	inline static constexpr unsigned int RelicSubAffixBaseValueRow_TypeDefinitionIndex = 10865;
 
 	class RelicSubAffixBaseValueRow : public ::System::Object
 	{
 	public:
-		::System::Single BaseValue; // 0x10
-		::RPG::GameCore::RelicAffixType Type; // 0x14
-		::RPG::GameCore::AvatarPropertyType RelicSubAffix; // 0x18
+		::RPG::GameCore::RelicAffixType Type; // 0x10
+		::RPG::GameCore::AvatarPropertyType RelicSubAffix; // 0x14
+		::System::Single BaseValue; // 0x18
 
 		::System::Void _ctor()
 		{

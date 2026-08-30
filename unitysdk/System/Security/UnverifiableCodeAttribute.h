@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SYSTEM_SECURITY_UNVERIFIABLECODEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x150BD3C0)
+#define SYSTEM_SECURITY_UNVERIFIABLECODEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x166D97B0)
 
 namespace System::Security
 {
-	inline static constexpr unsigned int UnverifiableCodeAttribute_TypeDefinitionIndex = 932;
+	inline static constexpr unsigned int UnverifiableCodeAttribute_TypeDefinitionIndex = 938;
 
 	class UnverifiableCodeAttribute : public ::System::Attribute
 	{

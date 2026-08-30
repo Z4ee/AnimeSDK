@@ -12,7 +12,7 @@ namespace UnityEngine::Buffers { template <typename T> class ArrayPool_1; }
 
 namespace UnityEngine::Pooled
 {
-	inline static constexpr unsigned int PooledListForStruct_1_TypeDefinitionIndex = 4519;
+	inline static constexpr unsigned int PooledListForStruct_1_TypeDefinitionIndex = 4529;
 
 	template <typename T>
 	class PooledListForStruct_1 : public ::System::Object

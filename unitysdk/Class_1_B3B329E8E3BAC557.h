@@ -2,29 +2,29 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_395;
+class Class_0_16E4307DCC419505_430;
 class Class_1_71EAE0D13B3DF503;
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define CLASS_1_B3B329E8E3BAC557_GET_DRESSEDENPCF07_OFFSET UNITYSDK_OFFSET(0x1617D3B0)
-#define CLASS_1_B3B329E8E3BAC557_GET_ENPCF07IDS_OFFSET UNITYSDK_OFFSET(0x1617D3A0)
-#define CLASS_1_B3B329E8E3BAC557_METHOD_1_791D4B1CD66F90F0_1_OFFSET UNITYSDK_OFFSET(0x1617D4A0)
-#define CLASS_1_B3B329E8E3BAC557_METHOD_1_791D4B1CD66F90F0_OFFSET UNITYSDK_OFFSET(0x1617D3E0)
-#define CLASS_1_B3B329E8E3BAC557_SET_DRESSEDENPCF07_OFFSET UNITYSDK_OFFSET(0x1617D3C0)
-#define CLASS_1_B3B329E8E3BAC557__CTOR_OFFSET UNITYSDK_OFFSET(0x1617D3D0)
+#define CLASS_1_B3B329E8E3BAC557_GET_DRESSEDENPCF07_OFFSET UNITYSDK_OFFSET(0x170A16C0)
+#define CLASS_1_B3B329E8E3BAC557_GET_ENPCF07IDS_OFFSET UNITYSDK_OFFSET(0x170A16B0)
+#define CLASS_1_B3B329E8E3BAC557_METHOD_1_791D4B1CD66F90F0_1_OFFSET UNITYSDK_OFFSET(0x170A17B0)
+#define CLASS_1_B3B329E8E3BAC557_METHOD_1_791D4B1CD66F90F0_OFFSET UNITYSDK_OFFSET(0x170A16F0)
+#define CLASS_1_B3B329E8E3BAC557_SET_DRESSEDENPCF07_OFFSET UNITYSDK_OFFSET(0x170A16D0)
+#define CLASS_1_B3B329E8E3BAC557__CTOR_OFFSET UNITYSDK_OFFSET(0x170A16E0)
 
-inline static constexpr unsigned int Class_1_B3B329E8E3BAC557_TypeDefinitionIndex = 49545;
+inline static constexpr unsigned int Class_1_B3B329E8E3BAC557_TypeDefinitionIndex = 52203;
 
 class Class_1_B3B329E8E3BAC557 : public ::System::Object
 {
 public:
-	::Class_1_71EAE0D13B3DF503* _DressedENpcF07_k__BackingField; // 0x10
-	::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>* _ENpcF07Ids_k__BackingField; // 0x18
-	::Class_0_16E4307DCC419505_395* Field_1_2; // 0x20
+	::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>* _ENpcF07Ids_k__BackingField; // 0x10
+	::Class_1_71EAE0D13B3DF503* _DressedENpcF07_k__BackingField; // 0x18
+	::Class_0_16E4307DCC419505_430* NMOPFNGFPPB; // 0x20
 
-	::System::Void _ctor(::Class_0_16E4307DCC419505_395* a1, ::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>* a2)
+	::System::Void _ctor(::Class_0_16E4307DCC419505_430* a1, ::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_395*, ::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + CLASS_1_B3B329E8E3BAC557__CTOR_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_430*, ::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + CLASS_1_B3B329E8E3BAC557__CTOR_OFFSET))(this, a1, a2);
 	}
 
 	::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>* get_ENpcF07Ids()

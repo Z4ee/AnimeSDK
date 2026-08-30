@@ -6,12 +6,12 @@
 
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_RELICLEVELUPBEFOREDATA_COPYTO_OFFSET UNITYSDK_OFFSET(0x19878860)
-#define RPG_CLIENT_RELICLEVELUPBEFOREDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19878710)
+#define RPG_CLIENT_RELICLEVELUPBEFOREDATA_COPYTO_OFFSET UNITYSDK_OFFSET(0x1B669A10)
+#define RPG_CLIENT_RELICLEVELUPBEFOREDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6698C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RelicLevelUpBeforeData_TypeDefinitionIndex = 63889;
+	inline static constexpr unsigned int RelicLevelUpBeforeData_TypeDefinitionIndex = 66880;
 
 	class RelicLevelUpBeforeData : public ::System::Object
 	{

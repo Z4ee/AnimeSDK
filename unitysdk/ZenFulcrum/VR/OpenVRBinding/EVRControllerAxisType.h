@@ -3,7 +3,7 @@
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int EVRControllerAxisType_TypeDefinitionIndex = 37074;
+	inline static constexpr unsigned int EVRControllerAxisType_TypeDefinitionIndex = 37933;
 
 	enum class EVRControllerAxisType : ::System::Int32
 	{

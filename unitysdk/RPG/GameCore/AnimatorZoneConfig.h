@@ -7,12 +7,12 @@ namespace RPG::GameCore { class AnimatorStateCustomZoneBinding; }
 namespace RPG::GameCore { class AnimatorStateGroupZoneNewConfig; }
 namespace RPG::GameCore { class AnimatorStateZoneNewConfig; }
 
-#define RPG_GAMECORE_ANIMATORZONECONFIG_METHOD_2_C76AC9F8DB3D4820_OFFSET UNITYSDK_OFFSET(0x1A058BA0)
-#define RPG_GAMECORE_ANIMATORZONECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A058CC0)
+#define RPG_GAMECORE_ANIMATORZONECONFIG_METHOD_2_C76AC9F8DB3D4820_OFFSET UNITYSDK_OFFSET(0x1C56E100)
+#define RPG_GAMECORE_ANIMATORZONECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C56E220)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AnimatorZoneConfig_TypeDefinitionIndex = 15692;
+	inline static constexpr unsigned int AnimatorZoneConfig_TypeDefinitionIndex = 16161;
 
 	class AnimatorZoneConfig : public ::RPG::GameCore::JsonConfig
 	{

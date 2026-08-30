@@ -4,10 +4,10 @@
 
 namespace RPG::GameCore { class CharacterVisibleComponent; }
 
-#define CLASS_3_F9CF0A9368636F83___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x174D1870)
-#define CLASS_3_F9CF0A9368636F83___C__DISPLAYCLASS1_0__ONTASKBEGIN_B__0_OFFSET UNITYSDK_OFFSET(0x174D1880)
+#define CLASS_3_F9CF0A9368636F83___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18385850)
+#define CLASS_3_F9CF0A9368636F83___C__DISPLAYCLASS1_0__ONTASKBEGIN_B__0_OFFSET UNITYSDK_OFFSET(0x18385860)
 
-inline static constexpr unsigned int Class_3_F9CF0A9368636F83___c__DisplayClass1_0_TypeDefinitionIndex = 55961;
+inline static constexpr unsigned int Class_3_F9CF0A9368636F83___c__DisplayClass1_0_TypeDefinitionIndex = 58734;
 
 class Class_3_F9CF0A9368636F83___c__DisplayClass1_0 : public ::System::Object
 {

@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define UNITY_PROFILING_PROFILERMARKER_AUTOSCOPE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x3AC3440)
-#define UNITY_PROFILING_PROFILERMARKER_AUTOSCOPE__CTOR_OFFSET UNITYSDK_OFFSET(0x3AC3430)
+#define UNITY_PROFILING_PROFILERMARKER_AUTOSCOPE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x3C56350)
+#define UNITY_PROFILING_PROFILERMARKER_AUTOSCOPE__CTOR_OFFSET UNITYSDK_OFFSET(0x3C56340)
 
 namespace Unity::Profiling
 {
-	inline static constexpr unsigned int ProfilerMarker_AutoScope_TypeDefinitionIndex = 3938;
+	inline static constexpr unsigned int ProfilerMarker_AutoScope_TypeDefinitionIndex = 3946;
 
 	struct alignas(8) ProfilerMarker_AutoScope
 	{

@@ -8,7 +8,7 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
-	inline static constexpr unsigned int DescriptorUtil_IndexedConverter_2_TypeDefinitionIndex = 34388;
+	inline static constexpr unsigned int DescriptorUtil_IndexedConverter_2_TypeDefinitionIndex = 35155;
 
 	template <typename TInput, typename TOutput>
 	class DescriptorUtil_IndexedConverter_2 : public ::System::MulticastDelegate

@@ -9,7 +9,7 @@ namespace UnityEngine::Playables { class INotificationReceiver; }
 
 namespace UnityEngine::Playables
 {
-	inline static constexpr unsigned int PlayableOutputExtensions_TypeDefinitionIndex = 4905;
+	inline static constexpr unsigned int PlayableOutputExtensions_TypeDefinitionIndex = 4917;
 
 	class PlayableOutputExtensions : public ::System::Object
 	{

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdvLogisticsRobotTriggerLoad; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_6BE5A8CFF24C3869_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x160A9170)
-#define CLASS_3_6BE5A8CFF24C3869__CTOR_OFFSET UNITYSDK_OFFSET(0x160A9140)
+#define CLASS_3_6BE5A8CFF24C3869_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1790BFA0)
+#define CLASS_3_6BE5A8CFF24C3869__CTOR_OFFSET UNITYSDK_OFFSET(0x1790BF70)
 
-inline static constexpr unsigned int Class_3_6BE5A8CFF24C3869_TypeDefinitionIndex = 50009;
+inline static constexpr unsigned int Class_3_6BE5A8CFF24C3869_TypeDefinitionIndex = 52670;
 
 class Class_3_6BE5A8CFF24C3869 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdvLogisticsRobotTriggerLoad*>
 {

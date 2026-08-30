@@ -3,7 +3,7 @@
 
 namespace StageBudgetTool
 {
-	inline static constexpr unsigned int EntityType_TypeDefinitionIndex = 45952;
+	inline static constexpr unsigned int EntityType_TypeDefinitionIndex = 48175;
 
 	enum class EntityType : ::System::Int32
 	{

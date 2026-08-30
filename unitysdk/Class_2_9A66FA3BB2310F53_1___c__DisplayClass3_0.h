@@ -6,16 +6,16 @@ class Class_1_2AA304B71C6E8B6D;
 class Class_2_9A66FA3BB2310F53_1;
 namespace RPG::GameCore { class GameEntity; }
 
-#define CLASS_2_9A66FA3BB2310F53_1___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18DCDA60)
-#define CLASS_2_9A66FA3BB2310F53_1___C__DISPLAYCLASS3_0__SETFOLLOW_B__0_OFFSET UNITYSDK_OFFSET(0x18DCF390)
+#define CLASS_2_9A66FA3BB2310F53_1___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17A83320)
+#define CLASS_2_9A66FA3BB2310F53_1___C__DISPLAYCLASS3_0__SETFOLLOW_B__0_OFFSET UNITYSDK_OFFSET(0x17A84C80)
 
-inline static constexpr unsigned int Class_2_9A66FA3BB2310F53_1___c__DisplayClass3_0_TypeDefinitionIndex = 68304;
+inline static constexpr unsigned int Class_2_9A66FA3BB2310F53_1___c__DisplayClass3_0_TypeDefinitionIndex = 71484;
 
 class Class_2_9A66FA3BB2310F53_1___c__DisplayClass3_0 : public ::System::Object
 {
 public:
-	::RPG::GameCore::GameEntity* entity; // 0x10
-	::Class_2_9A66FA3BB2310F53_1* __4__this; // 0x18
+	::Class_2_9A66FA3BB2310F53_1* __4__this; // 0x10
+	::RPG::GameCore::GameEntity* entity; // 0x18
 	::Class_1_2AA304B71C6E8B6D* follow; // 0x20
 
 	::System::Void _ctor()

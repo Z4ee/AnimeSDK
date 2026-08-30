@@ -4,7 +4,7 @@
 
 namespace System::Diagnostics
 {
-	inline static constexpr unsigned int ProcessModuleCollection_TypeDefinitionIndex = 2544;
+	inline static constexpr unsigned int ProcessModuleCollection_TypeDefinitionIndex = 2551;
 
 	class ProcessModuleCollection : public ::System::Collections::ReadOnlyCollectionBase
 	{

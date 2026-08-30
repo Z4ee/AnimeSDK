@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_LEVELGROUPRANDOMINITCONTROL_METHOD_2_2ECD57551602AB63_OFFSET UNITYSDK_OFFSET(0x1B070990)
-#define RPG_GAMECORE_LEVELGROUPRANDOMINITCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x1B070BA0)
+#define RPG_GAMECORE_LEVELGROUPRANDOMINITCONTROL_METHOD_2_303495A52BB1781A_OFFSET UNITYSDK_OFFSET(0x1C118AB0)
+#define RPG_GAMECORE_LEVELGROUPRANDOMINITCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x1C118CE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelGroupRandomInitControl_TypeDefinitionIndex = 16632;
+	inline static constexpr unsigned int LevelGroupRandomInitControl_TypeDefinitionIndex = 17134;
 
 	class LevelGroupRandomInitControl : public ::RPG::GameCore::JsonConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGROUPRANDOMINITCONTROL__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_2ECD57551602AB63(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelGroupRandomInitControl*& a2)
+		static ::System::Void Method_2_303495A52BB1781A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelGroupRandomInitControl*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelGroupRandomInitControl*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGROUPRANDOMINITCONTROL_METHOD_2_2ECD57551602AB63_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelGroupRandomInitControl*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGROUPRANDOMINITCONTROL_METHOD_2_303495A52BB1781A_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -1,0 +1,73 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+namespace System { class String; }
+
+#define RPGTOOLS_TIMELINE_ANIMATORSTATICFRAMECONFIG_GET_LOOPMOTIONLENGTH_OFFSET UNITYSDK_OFFSET(0x1B530C90)
+#define RPGTOOLS_TIMELINE_ANIMATORSTATICFRAMECONFIG_GET_STARTMOTIONLENGTH_OFFSET UNITYSDK_OFFSET(0x1B530C80)
+#define RPGTOOLS_TIMELINE_ANIMATORSTATICFRAMECONFIG_METHOD_1_6990AE4D09B03418_OFFSET UNITYSDK_OFFSET(0x1B531230)
+#define RPGTOOLS_TIMELINE_ANIMATORSTATICFRAMECONFIG_METHOD_1_777C630B90A28EF1_OFFSET UNITYSDK_OFFSET(0x1B530CE0)
+#define RPGTOOLS_TIMELINE_ANIMATORSTATICFRAMECONFIG_METHOD_1_97817351D067D82C_OFFSET UNITYSDK_OFFSET(0x1B530D30)
+#define RPGTOOLS_TIMELINE_ANIMATORSTATICFRAMECONFIG_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x1B530CA0)
+#define RPGTOOLS_TIMELINE_ANIMATORSTATICFRAMECONFIG_METHOD_1_F5B4708E7805566C_OFFSET UNITYSDK_OFFSET(0x1B530EA0)
+#define RPGTOOLS_TIMELINE_ANIMATORSTATICFRAMECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B52E970)
+
+namespace RPGTools::Timeline
+{
+	inline static constexpr unsigned int AnimatorStaticFrameConfig_TypeDefinitionIndex = 48315;
+
+	class AnimatorStaticFrameConfig : public ::System::Object
+	{
+	public:
+		::System::String* CharacterUniqueName; // 0x10
+		::System::Boolean DisableAnimEvent; // 0x18
+		::System::UInt32 MotionID; // 0x1C
+		::System::String* AvatarID; // 0x20
+		::System::Single Normalize; // 0x28
+		::System::String* TargetAvatarID; // 0x30
+		::System::String* StartMotion; // 0x38
+		::System::Single _StartMotionClipLength; // 0x40
+		::System::Single _LoopMotionClipLength; // 0x44
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ANIMATORSTATICFRAMECONFIG__CTOR_OFFSET))(this);
+		}
+
+		::System::Single get_StartMotionLength()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ANIMATORSTATICFRAMECONFIG_GET_STARTMOTIONLENGTH_OFFSET))(this);
+		}
+
+		::System::Single get_LoopMotionLength()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ANIMATORSTATICFRAMECONFIG_GET_LOOPMOTIONLENGTH_OFFSET))(this);
+		}
+
+		::System::Void Method_1_CA373AA1C7054598()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ANIMATORSTATICFRAMECONFIG_METHOD_1_CA373AA1C7054598_OFFSET))(this);
+		}
+
+		::System::Void Method_1_777C630B90A28EF1()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ANIMATORSTATICFRAMECONFIG_METHOD_1_777C630B90A28EF1_OFFSET))(this);
+		}
+
+		::System::UInt32 Method_1_6990AE4D09B03418(::System::UInt32 a1)
+		{
+			return ((::System::UInt32(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ANIMATORSTATICFRAMECONFIG_METHOD_1_6990AE4D09B03418_OFFSET))(this, a1);
+		}
+
+		::System::String* Method_1_97817351D067D82C()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ANIMATORSTATICFRAMECONFIG_METHOD_1_97817351D067D82C_OFFSET))(this);
+		}
+
+		::System::Void Method_1_F5B4708E7805566C()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ANIMATORSTATICFRAMECONFIG_METHOD_1_F5B4708E7805566C_OFFSET))(this);
+		}
+	};
+}

@@ -6,12 +6,12 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_AUTOBLINKTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x1B345990)
-#define RPGTOOLS_TIMELINE_AUTOBLINKTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1B345B00)
+#define RPGTOOLS_TIMELINE_AUTOBLINKTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x1D129580)
+#define RPGTOOLS_TIMELINE_AUTOBLINKTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1296F0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int AutoBlinkTrack_TypeDefinitionIndex = 46094;
+	inline static constexpr unsigned int AutoBlinkTrack_TypeDefinitionIndex = 48326;
 
 	class AutoBlinkTrack : public ::RPGTools::Timeline::CharacterTrack
 	{

@@ -5,15 +5,15 @@
 class Class_1_EFDEDB2BC2764B7D;
 namespace RPG::GameCore { class MarbleByDefenderFeature; }
 
-#define CLASS_3_811101AE06ED81AB_METHOD_3_4DA6D4A624E42CAB_OFFSET UNITYSDK_OFFSET(0x1A904BB0)
-#define CLASS_3_811101AE06ED81AB__CTOR_OFFSET UNITYSDK_OFFSET(0x1A904B90)
+#define CLASS_3_811101AE06ED81AB_METHOD_3_4DA6D4A624E42CAB_OFFSET UNITYSDK_OFFSET(0x1C51E850)
+#define CLASS_3_811101AE06ED81AB__CTOR_OFFSET UNITYSDK_OFFSET(0x1C51E830)
 
-inline static constexpr unsigned int Class_3_811101AE06ED81AB_TypeDefinitionIndex = 40568;
+inline static constexpr unsigned int Class_3_811101AE06ED81AB_TypeDefinitionIndex = 41506;
 
 class Class_3_811101AE06ED81AB : public ::Class_2_A047D65884258648
 {
 public:
-	::RPG::GameCore::MarbleByDefenderFeature* Field_3_0; // 0x30
+	::RPG::GameCore::MarbleByDefenderFeature* IGHAHBNLIJA; // 0x30
 
 	::System::Void _ctor(::RPG::GameCore::MarbleByDefenderFeature* a1, ::Class_1_EFDEDB2BC2764B7D* a2)
 	{

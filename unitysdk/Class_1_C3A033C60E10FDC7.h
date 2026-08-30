@@ -6,19 +6,19 @@ namespace RPG::Client { class CameraNormalConfigData; }
 namespace RPG::GameCore { class VCameraBlend; }
 namespace RPG::GameCore { class VCameraNoiseChange; }
 
-#define CLASS_1_C3A033C60E10FDC7_CLEAR_OFFSET UNITYSDK_OFFSET(0x1615EDF0)
-#define CLASS_1_C3A033C60E10FDC7__CTOR_OFFSET UNITYSDK_OFFSET(0x1615EE40)
+#define CLASS_1_C3A033C60E10FDC7_CLEAR_OFFSET UNITYSDK_OFFSET(0x17080AE0)
+#define CLASS_1_C3A033C60E10FDC7__CTOR_OFFSET UNITYSDK_OFFSET(0x17080B30)
 
-inline static constexpr unsigned int Class_1_C3A033C60E10FDC7_TypeDefinitionIndex = 66403;
+inline static constexpr unsigned int Class_1_C3A033C60E10FDC7_TypeDefinitionIndex = 69496;
 
 class Class_1_C3A033C60E10FDC7 : public ::System::Object
 {
 public:
-	::RPG::GameCore::VCameraNoiseChange* Field_1_0; // 0x10
-	::RPG::GameCore::VCameraBlend* Field_1_1; // 0x18
-	::RPG::Client::CameraNormalConfigData* Field_1_2; // 0x20
-	::System::Boolean Field_1_3; // 0x28
-	::System::Single Field_1_4; // 0x2C
+	::RPG::GameCore::VCameraNoiseChange* FNPOMHPFKAO; // 0x10
+	::RPG::Client::CameraNormalConfigData* HBILPEKJFNM; // 0x18
+	::RPG::GameCore::VCameraBlend* HCHJHLOHCMI; // 0x20
+	::System::Boolean HHMIBOCMBPI; // 0x28
+	::System::Single IFEPJHGNCOI; // 0x2C
 
 	::System::Void _ctor()
 	{

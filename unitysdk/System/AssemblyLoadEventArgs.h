@@ -4,11 +4,11 @@
 
 namespace System::Reflection { class Assembly; }
 
-#define SYSTEM_ASSEMBLYLOADEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD2A490)
+#define SYSTEM_ASSEMBLYLOADEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1C9BC8A0)
 
 namespace System
 {
-	inline static constexpr unsigned int AssemblyLoadEventArgs_TypeDefinitionIndex = 377;
+	inline static constexpr unsigned int AssemblyLoadEventArgs_TypeDefinitionIndex = 380;
 
 	class AssemblyLoadEventArgs : public ::System::EventArgs
 	{

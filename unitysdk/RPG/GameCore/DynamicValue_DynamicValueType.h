@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DynamicValue_DynamicValueType_TypeDefinitionIndex = 10483;
+	inline static constexpr unsigned int DynamicValue_DynamicValueType_TypeDefinitionIndex = 10824;
 
 	enum class DynamicValue_DynamicValueType : ::System::Byte
 	{

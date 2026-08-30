@@ -4,14 +4,14 @@
 
 namespace RPG::GameCore { class MiniGameHundredFloorBlockConfig; }
 
-#define CLASS_1_2D1BF568C55DF562__CTOR_OFFSET UNITYSDK_OFFSET(0x1A045430)
+#define CLASS_1_2D1BF568C55DF562__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE2E650)
 
-inline static constexpr unsigned int Class_1_2D1BF568C55DF562_TypeDefinitionIndex = 40797;
+inline static constexpr unsigned int Class_1_2D1BF568C55DF562_TypeDefinitionIndex = 41751;
 
 class Class_1_2D1BF568C55DF562 : public ::System::Object
 {
 public:
-	::RPG::GameCore::MiniGameHundredFloorBlockConfig* Field_1_0; // 0x10
+	::RPG::GameCore::MiniGameHundredFloorBlockConfig* EABKOHGCHFP; // 0x10
 
 	::System::Void _ctor()
 	{

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_1_902E15B16155CC1C_RF_BossSkillProgressComponent_TypeDefinitionIndex = 35526;
+inline static constexpr unsigned int Class_1_902E15B16155CC1C_RF_BossSkillProgressComponent_TypeDefinitionIndex = 36387;
 
 enum class Class_1_902E15B16155CC1C_RF_BossSkillProgressComponent : ::System::Byte
 {

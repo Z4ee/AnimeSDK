@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CameraForwardAttachType_TypeDefinitionIndex = 15062;
+	inline static constexpr unsigned int CameraForwardAttachType_TypeDefinitionIndex = 15499;
 
 	enum class CameraForwardAttachType : ::System::Int32
 	{

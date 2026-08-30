@@ -7,13 +7,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class JsonEnum; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_MODIFYSPNEW_METHOD_3_3EAEFD5AE835CF73_OFFSET UNITYSDK_OFFSET(0x1B1AC760)
-#define RPG_GAMECORE_MODIFYSPNEW_METHOD_3_A49DA89F0D8D1147_OFFSET UNITYSDK_OFFSET(0x1B1AC710)
-#define RPG_GAMECORE_MODIFYSPNEW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1AC750)
+#define RPG_GAMECORE_MODIFYSPNEW_METHOD_3_3EAEFD5AE835CF73_OFFSET UNITYSDK_OFFSET(0x1D1BD1D0)
+#define RPG_GAMECORE_MODIFYSPNEW_METHOD_3_A49DA89F0D8D1147_OFFSET UNITYSDK_OFFSET(0x1D1BD180)
+#define RPG_GAMECORE_MODIFYSPNEW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1BD1C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifySPNew_TypeDefinitionIndex = 21808;
+	inline static constexpr unsigned int ModifySPNew_TypeDefinitionIndex = 22372;
 
 	class ModifySPNew : public ::RPG::GameCore::TaskConfig
 	{

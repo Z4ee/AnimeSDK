@@ -9,7 +9,7 @@ namespace System { class Object; }
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2ChainDef_TypeDefinitionIndex = 35058;
+	inline static constexpr unsigned int B2ChainDef_TypeDefinitionIndex = 35919;
 
 	struct alignas(8) B2ChainDef
 	{

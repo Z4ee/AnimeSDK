@@ -6,18 +6,18 @@ namespace RPG::Client { class IAssetOperation; }
 namespace System { class String; }
 namespace UnityEngine { class Object; }
 
-#define CLASS_1_98114A4376157A5D_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x15DDEC40)
-#define CLASS_1_98114A4376157A5D__CTOR_OFFSET UNITYSDK_OFFSET(0x15DDEC90)
+#define CLASS_1_98114A4376157A5D_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x18827360)
+#define CLASS_1_98114A4376157A5D__CTOR_OFFSET UNITYSDK_OFFSET(0x188273B0)
 
-inline static constexpr unsigned int Class_1_98114A4376157A5D_TypeDefinitionIndex = 76882;
+inline static constexpr unsigned int Class_1_98114A4376157A5D_TypeDefinitionIndex = 80922;
 
 class Class_1_98114A4376157A5D : public ::System::Object
 {
 public:
-	::UnityEngine::Object* Field_1_0; // 0x10
-	::System::String* Field_1_1; // 0x18
-	::RPG::Client::IAssetOperation* Field_1_2; // 0x20
-	::System::Int64 Field_1_3; // 0x28
+	::RPG::Client::IAssetOperation* NDJKPABPJHO; // 0x10
+	::UnityEngine::Object* POJACDBBJDL; // 0x18
+	::System::String* GKHIHPGCLIK; // 0x20
+	::System::Int64 GDBJDAOOCOH; // 0x28
 
 	::System::Void _ctor()
 	{

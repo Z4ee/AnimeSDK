@@ -7,19 +7,19 @@ class Class_1_CE48F09631493940;
 class Class_2_465A9E6CC2B0EF21;
 class Class_4_2E0A1A668714B3CC;
 
-#define CLASS_4_2E0A1A668714B3CC___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14A84C10)
-#define CLASS_4_2E0A1A668714B3CC___C__DISPLAYCLASS18_0__TRYSPAWNBRICKONSERVER_B__0_OFFSET UNITYSDK_OFFSET(0x14A97030)
+#define CLASS_4_2E0A1A668714B3CC___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16257960)
+#define CLASS_4_2E0A1A668714B3CC___C__DISPLAYCLASS18_0__TRYSPAWNBRICKONSERVER_B__0_OFFSET UNITYSDK_OFFSET(0x1626A250)
 
-inline static constexpr unsigned int Class_4_2E0A1A668714B3CC___c__DisplayClass18_0_TypeDefinitionIndex = 35613;
+inline static constexpr unsigned int Class_4_2E0A1A668714B3CC___c__DisplayClass18_0_TypeDefinitionIndex = 36474;
 
 class Class_4_2E0A1A668714B3CC___c__DisplayClass18_0 : public ::System::Object
 {
 public:
-	::Class_2_465A9E6CC2B0EF21* playerEntity; // 0x10
-	::Class_1_CE48F09631493940* brickSpawner; // 0x18
-	::Class_4_2E0A1A668714B3CC* __4__this; // 0x20
-	::System::UInt32 spawnBrickTypeID; // 0x28
-	::RPG::MVector2 spawnPosition; // 0x2C
+	::Class_1_CE48F09631493940* brickSpawner; // 0x10
+	::Class_4_2E0A1A668714B3CC* __4__this; // 0x18
+	::Class_2_465A9E6CC2B0EF21* playerEntity; // 0x20
+	::RPG::MVector2 spawnPosition; // 0x28
+	::System::UInt32 spawnBrickTypeID; // 0x30
 
 	::System::Void _ctor()
 	{

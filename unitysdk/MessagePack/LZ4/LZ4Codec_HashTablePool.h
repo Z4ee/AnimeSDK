@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MESSAGEPACK_LZ4_LZ4CODEC_HASHTABLEPOOL_GETUINTHASHTABLEPOOL_OFFSET UNITYSDK_OFFSET(0x14FA6400)
-#define MESSAGEPACK_LZ4_LZ4CODEC_HASHTABLEPOOL_GETUSHORTHASHTABLEPOOL_OFFSET UNITYSDK_OFFSET(0x14FA54B0)
+#define MESSAGEPACK_LZ4_LZ4CODEC_HASHTABLEPOOL_GETUINTHASHTABLEPOOL_OFFSET UNITYSDK_OFFSET(0x166AD6C0)
+#define MESSAGEPACK_LZ4_LZ4CODEC_HASHTABLEPOOL_GETUSHORTHASHTABLEPOOL_OFFSET UNITYSDK_OFFSET(0x166AC770)
 
 namespace MessagePack::LZ4
 {
-	inline static constexpr unsigned int LZ4Codec_HashTablePool_TypeDefinitionIndex = 7240;
+	inline static constexpr unsigned int LZ4Codec_HashTablePool_TypeDefinitionIndex = 7226;
 
 	class LZ4Codec_HashTablePool : public ::System::Object
 	{

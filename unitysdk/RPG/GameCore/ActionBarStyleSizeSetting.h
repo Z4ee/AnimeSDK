@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ACTIONBARSTYLESIZESETTING_METHOD_2_0864A1CB29B85CAD_OFFSET UNITYSDK_OFFSET(0x1B9FD3D0)
-#define RPG_GAMECORE_ACTIONBARSTYLESIZESETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9FDE60)
+#define RPG_GAMECORE_ACTIONBARSTYLESIZESETTING_METHOD_2_0864A1CB29B85CAD_OFFSET UNITYSDK_OFFSET(0x1C9E4960)
+#define RPG_GAMECORE_ACTIONBARSTYLESIZESETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x1C9E5430)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActionBarStyleSizeSetting_TypeDefinitionIndex = 16467;
+	inline static constexpr unsigned int ActionBarStyleSizeSetting_TypeDefinitionIndex = 16957;
 
 	class ActionBarStyleSizeSetting : public ::RPG::GameCore::JsonConfig
 	{
@@ -51,6 +51,7 @@ namespace RPG::GameCore
 		::RPG::MVector2 CurrentEnemyMultiAction; // 0x118
 		::RPG::MVector2 CurrentEnemyMultiActionSpacing; // 0x120
 		::RPG::MVector2 BattleEventCountDownGridFight; // 0x128
+		::RPG::MVector2 BattleEventCountDownRogueTourn; // 0x130
 
 		::System::Void _ctor()
 		{

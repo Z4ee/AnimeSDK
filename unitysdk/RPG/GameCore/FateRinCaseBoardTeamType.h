@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FateRinCaseBoardTeamType_TypeDefinitionIndex = 10193;
+	inline static constexpr unsigned int FateRinCaseBoardTeamType_TypeDefinitionIndex = 10529;
 
 	enum class FateRinCaseBoardTeamType : ::System::Int32
 	{

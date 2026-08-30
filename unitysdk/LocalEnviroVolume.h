@@ -11,28 +11,28 @@ namespace UnityEngine { class Gradient; }
 namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Texture2D; }
 
-#define LOCALENVIROVOLUME_AWAKE_OFFSET UNITYSDK_OFFSET(0x18DAA580)
-#define LOCALENVIROVOLUME_METHOD_5_460F8AE6EF9687FD_OFFSET UNITYSDK_OFFSET(0x18DAA690)
-#define LOCALENVIROVOLUME_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x18DAAF30)
-#define LOCALENVIROVOLUME_ONENABLE_OFFSET UNITYSDK_OFFSET(0x18DAAEB0)
-#define LOCALENVIROVOLUME_ONLIGHTWEIGHTACTIVATE_OFFSET UNITYSDK_OFFSET(0x18DAAFB0)
-#define LOCALENVIROVOLUME_ONLIGHTWEIGHTDEACTIVATE_OFFSET UNITYSDK_OFFSET(0x18DAB050)
-#define LOCALENVIROVOLUME_START_OFFSET UNITYSDK_OFFSET(0x18DAA610)
-#define LOCALENVIROVOLUME_UPDATE_OFFSET UNITYSDK_OFFSET(0x18DAB0E0)
-#define LOCALENVIROVOLUME__CTOR_OFFSET UNITYSDK_OFFSET(0x18DAB2A0)
+#define LOCALENVIROVOLUME_AWAKE_OFFSET UNITYSDK_OFFSET(0x1A47E8E0)
+#define LOCALENVIROVOLUME_METHOD_5_937F8473216A3162_OFFSET UNITYSDK_OFFSET(0x1A47E9C0)
+#define LOCALENVIROVOLUME_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1A47F2B0)
+#define LOCALENVIROVOLUME_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1A47F230)
+#define LOCALENVIROVOLUME_ONLIGHTWEIGHTACTIVATE_OFFSET UNITYSDK_OFFSET(0x1A47F330)
+#define LOCALENVIROVOLUME_ONLIGHTWEIGHTDEACTIVATE_OFFSET UNITYSDK_OFFSET(0x1A47F3D0)
+#define LOCALENVIROVOLUME_START_OFFSET UNITYSDK_OFFSET(0x1A47E940)
+#define LOCALENVIROVOLUME_UPDATE_OFFSET UNITYSDK_OFFSET(0x1A47F460)
+#define LOCALENVIROVOLUME__CTOR_OFFSET UNITYSDK_OFFSET(0x1A47F620)
 
-inline static constexpr unsigned int LocalEnviroVolume_TypeDefinitionIndex = 45677;
+inline static constexpr unsigned int LocalEnviroVolume_TypeDefinitionIndex = 47928;
 
 class LocalEnviroVolume : public ::UnityEngine::MonoBehaviour
 {
 public:
-	static ::UnityEngine::Rendering::ShaderKeyword* StaticGet_Field_5_0()
+	static ::System::Int32* StaticGet_AHCEMNHINFE()
 	{
-		return (::UnityEngine::Rendering::ShaderKeyword*)Il2CppClass::FromTypeDefinitionIndex(LocalEnviroVolume_TypeDefinitionIndex)->GetStaticField(0x12670);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LocalEnviroVolume_TypeDefinitionIndex)->GetStaticField(0xD3C0);
 	}
-	static ::System::Int32* StaticGet_Field_5_1()
+	static ::UnityEngine::Rendering::ShaderKeyword* StaticGet_POFPNDIOHGK()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LocalEnviroVolume_TypeDefinitionIndex)->GetStaticField(0x12674);
+		return (::UnityEngine::Rendering::ShaderKeyword*)Il2CppClass::FromTypeDefinitionIndex(LocalEnviroVolume_TypeDefinitionIndex)->GetStaticField(0xD3C4);
 	}
 	::System::Boolean inverse; // 0x18
 	::UnityEngine::Gradient* FogColor; // 0x20
@@ -49,16 +49,16 @@ public:
 	::System::Single _Local_FogFarDensityScale; // 0x58
 	::System::Single _Local_FogSkyBoxScale; // 0x5C
 	::System::Single _Local_HeightFogSkyBoxScale; // 0x60
-	::UnityEngine::Texture2D* Field_5_17; // 0x68
+	::UnityEngine::Texture2D* KKCMLIDOHKM; // 0x68
 	::UnityEngine::Vector3 _Local_SceneLightDir; // 0x70
 	::UnityEngine::Color _Local_SceneLightColor; // 0x7C
 	::System::Single _Local_SceneLightIntensity; // 0x8C
 	::System::Boolean _LocalIndoor; // 0x90
 	::System::Single _Local_AmbientIntensity; // 0x94
-	::UnityEngine::Renderer* Field_5_23; // 0x98
-	::UnityEngine::Vector4 Field_5_24; // 0xA0
+	::UnityEngine::Renderer* NPKIHFDCBKO; // 0x98
+	::UnityEngine::Vector4 DEPBHNDLAFI; // 0xA0
 	::System::String* PresetEnviroAsset; // 0xB0
-	::System::Boolean Field_5_26; // 0xB8
+	::System::Boolean ICDEHEBKGJJ; // 0xB8
 
 	::System::Void _ctor()
 	{
@@ -95,9 +95,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LOCALENVIROVOLUME_ONLIGHTWEIGHTDEACTIVATE_OFFSET))(this);
 	}
 
-	::System::Void Method_5_460F8AE6EF9687FD()
+	::System::Void Method_5_937F8473216A3162()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LOCALENVIROVOLUME_METHOD_5_460F8AE6EF9687FD_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LOCALENVIROVOLUME_METHOD_5_937F8473216A3162_OFFSET))(this);
 	}
 
 	::System::Void Update()

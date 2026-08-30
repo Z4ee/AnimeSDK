@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_CA217ABF4E3B4F3F.h"
+#include "unitysdk/Class_1_34917908B7833130.h"
 #include "unitysdk/Struct_2_96F8F0A04B900A9E.h"
 
 class Class_1_07BF77E88FF3817D;
@@ -12,61 +12,61 @@ namespace UnityEngine { class Animation; }
 namespace UnityEngine { class AnimationState; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_2_FC7D7163762399A0_GET_INDEX_OFFSET UNITYSDK_OFFSET(0x1562CBB0)
-#define CLASS_2_FC7D7163762399A0_GET_TRANS_OFFSET UNITYSDK_OFFSET(0x1562CBD0)
-#define CLASS_2_FC7D7163762399A0_METHOD_2_00E2AE10E39F8790_OFFSET UNITYSDK_OFFSET(0x1562D220)
-#define CLASS_2_FC7D7163762399A0_METHOD_2_0D5375C87D863D2A_OFFSET UNITYSDK_OFFSET(0x1562CFD0)
-#define CLASS_2_FC7D7163762399A0_METHOD_2_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0x1562CF40)
-#define CLASS_2_FC7D7163762399A0_METHOD_2_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x1562D730)
-#define CLASS_2_FC7D7163762399A0_METHOD_2_5587AE4B03E68C58_OFFSET UNITYSDK_OFFSET(0x1562CCB0)
-#define CLASS_2_FC7D7163762399A0_METHOD_2_78E5D10876D30BCC_OFFSET UNITYSDK_OFFSET(0x1562CE00)
-#define CLASS_2_FC7D7163762399A0_METHOD_2_848FDD59AB054F3D_OFFSET UNITYSDK_OFFSET(0x1562CEE0)
-#define CLASS_2_FC7D7163762399A0_METHOD_2_8EB41A29F1F75609_OFFSET UNITYSDK_OFFSET(0x1562D320)
-#define CLASS_2_FC7D7163762399A0_METHOD_2_BCCEF225A11BDA90_OFFSET UNITYSDK_OFFSET(0x1562CC30)
-#define CLASS_2_FC7D7163762399A0_METHOD_2_D737CD2779D51A4E_OFFSET UNITYSDK_OFFSET(0x1562D5E0)
-#define CLASS_2_FC7D7163762399A0_METHOD_2_E41B6A823556FEEA_OFFSET UNITYSDK_OFFSET(0x1562CDB0)
-#define CLASS_2_FC7D7163762399A0_METHOD_2_F8B73ECE7F883AC1_OFFSET UNITYSDK_OFFSET(0x1562CF90)
-#define CLASS_2_FC7D7163762399A0_SET_INDEX_OFFSET UNITYSDK_OFFSET(0x1562CBC0)
-#define CLASS_2_FC7D7163762399A0__CTOR_OFFSET UNITYSDK_OFFSET(0x1562D7A0)
-#define CLASS_2_FC7D7163762399A0__ONBIND_OFFSET UNITYSDK_OFFSET(0x1562C490)
-#define CLASS_2_FC7D7163762399A0__ONTICK_OFFSET UNITYSDK_OFFSET(0x1562D0B0)
+#define CLASS_2_FC7D7163762399A0_GET_INDEX_OFFSET UNITYSDK_OFFSET(0x17CA3620)
+#define CLASS_2_FC7D7163762399A0_GET_TRANS_OFFSET UNITYSDK_OFFSET(0x17CA3640)
+#define CLASS_2_FC7D7163762399A0_METHOD_2_00E2AE10E39F8790_OFFSET UNITYSDK_OFFSET(0x17CA3CA0)
+#define CLASS_2_FC7D7163762399A0_METHOD_2_0D5375C87D863D2A_OFFSET UNITYSDK_OFFSET(0x17CA3A40)
+#define CLASS_2_FC7D7163762399A0_METHOD_2_1C6AD2DA62FB6EB1_OFFSET UNITYSDK_OFFSET(0x17CA3720)
+#define CLASS_2_FC7D7163762399A0_METHOD_2_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0x17CA39B0)
+#define CLASS_2_FC7D7163762399A0_METHOD_2_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x17CA41A0)
+#define CLASS_2_FC7D7163762399A0_METHOD_2_78E5D10876D30BCC_OFFSET UNITYSDK_OFFSET(0x17CA3870)
+#define CLASS_2_FC7D7163762399A0_METHOD_2_848FDD59AB054F3D_OFFSET UNITYSDK_OFFSET(0x17CA3950)
+#define CLASS_2_FC7D7163762399A0_METHOD_2_8EB41A29F1F75609_OFFSET UNITYSDK_OFFSET(0x17CA3DA0)
+#define CLASS_2_FC7D7163762399A0_METHOD_2_BCCEF225A11BDA90_OFFSET UNITYSDK_OFFSET(0x17CA36A0)
+#define CLASS_2_FC7D7163762399A0_METHOD_2_D737CD2779D51A4E_OFFSET UNITYSDK_OFFSET(0x17CA4050)
+#define CLASS_2_FC7D7163762399A0_METHOD_2_E41B6A823556FEEA_OFFSET UNITYSDK_OFFSET(0x17CA3820)
+#define CLASS_2_FC7D7163762399A0_METHOD_2_F8B73ECE7F883AC1_OFFSET UNITYSDK_OFFSET(0x17CA3A00)
+#define CLASS_2_FC7D7163762399A0_SET_INDEX_OFFSET UNITYSDK_OFFSET(0x17CA3630)
+#define CLASS_2_FC7D7163762399A0__CTOR_OFFSET UNITYSDK_OFFSET(0x17CA4210)
+#define CLASS_2_FC7D7163762399A0__ONBIND_OFFSET UNITYSDK_OFFSET(0x17CA2EE0)
+#define CLASS_2_FC7D7163762399A0__ONTICK_OFFSET UNITYSDK_OFFSET(0x17CA3B20)
 
-inline static constexpr unsigned int Class_2_FC7D7163762399A0_TypeDefinitionIndex = 68850;
+inline static constexpr unsigned int Class_2_FC7D7163762399A0_TypeDefinitionIndex = 72048;
 
-class Class_2_FC7D7163762399A0 : public ::Class_1_CA217ABF4E3B4F3F
+class Class_2_FC7D7163762399A0 : public ::Class_1_34917908B7833130
 {
 public:
-	// static const ::System::String* Field_2_0; // 0x0
-	// static const ::System::Int32 Field_2_1 = 0xE; // 0x0
-	// static const ::System::String* Field_2_2; // 0x0
-	// static const ::System::String* Field_2_3; // 0x0
-	// static const ::System::String* Field_2_4; // 0x0
-	// static const ::System::String* Field_2_5; // 0x0
-	// static const ::System::String* Field_2_6; // 0x0
-	// static const ::System::String* Field_2_7; // 0x0
-	// static const ::System::String* Field_2_8; // 0x0
-	// static const ::System::String* Field_2_9; // 0x0
-	// static const ::System::String* Field_2_10; // 0x0
-	// static const ::System::String* Field_2_11; // 0x0
-	// static const ::System::String* Field_2_12; // 0x0
-	// static const ::System::String* Field_2_13; // 0x0
-	// static const ::System::String* Field_2_14; // 0x0
-	// static const ::System::String* Field_2_15; // 0x0
-	// static const ::System::String* Field_2_16; // 0x0
-	// static const ::System::String* Field_2_17; // 0x0
-	// static const ::System::String* Field_2_18; // 0x0
-	::Class_1_07BF77E88FF3817D* Field_2_19; // 0x60
-	::UnityEngine::AnimationState* Field_2_20; // 0x68
-	::UnityEngine::Transform* Field_2_21; // 0x70
-	::System::Action* Field_2_22; // 0x78
-	::UnityEngine::Animation* Field_2_23; // 0x80
-	::Il2CppArray<::RPG::Client::LocalizedTextSDF*>* Field_2_24; // 0x88
-	::UnityEngine::Animation* Field_2_25; // 0x90
-	::RPG::Client::RPGAnimationEvent* Field_2_26; // 0x98
-	::System::Int32 _Index_k__BackingField; // 0xA0
-	::System::Boolean Field_2_28; // 0xA4
-	::System::Boolean Field_2_29; // 0xA5
-	::System::Boolean Field_2_30; // 0xA6
+	// static const ::System::String* DJCBDJMACFH; // 0x0
+	// static const ::System::Int32 JJBKIKNKMFA = 0xE; // 0x0
+	// static const ::System::String* KLOHNJIJOAF; // 0x0
+	// static const ::System::String* LJIKDLEPPKE; // 0x0
+	// static const ::System::String* NGLELEEFOOI; // 0x0
+	// static const ::System::String* LKFJNJJEBGF; // 0x0
+	// static const ::System::String* EJLLLIKHKMI; // 0x0
+	// static const ::System::String* JKBDJHCFKEP; // 0x0
+	// static const ::System::String* KKHODKIKGED; // 0x0
+	// static const ::System::String* GCJJPMICABD; // 0x0
+	// static const ::System::String* GDFKDDLDACB; // 0x0
+	// static const ::System::String* DJNCPMIDDJE; // 0x0
+	// static const ::System::String* EFGHHFABHAJ; // 0x0
+	// static const ::System::String* NEELGIMCPKF; // 0x0
+	// static const ::System::String* OJHOJAAJLHN; // 0x0
+	// static const ::System::String* EOIFNNGOPOL; // 0x0
+	// static const ::System::String* CANLIEKIPJG; // 0x0
+	// static const ::System::String* OAIMKFCDGDB; // 0x0
+	// static const ::System::String* AALHGBPMDOL; // 0x0
+	::System::Action* PCFCFJLHLNF; // 0x60
+	::Il2CppArray<::RPG::Client::LocalizedTextSDF*>* PCIIKFOIAJA; // 0x68
+	::UnityEngine::Animation* JPHOOFFIAAH; // 0x70
+	::UnityEngine::AnimationState* DFGNANDJMGI; // 0x78
+	::RPG::Client::RPGAnimationEvent* MEDGLNFKGDC; // 0x80
+	::UnityEngine::Transform* BFLJCMLOINL; // 0x88
+	::Class_1_07BF77E88FF3817D* GIEOINBJPBL; // 0x90
+	::UnityEngine::Animation* GNCPKHINOJL; // 0x98
+	::System::Boolean DMBFJAEAGPL; // 0xA0
+	::System::Boolean BJPOBNAADML; // 0xA1
+	::System::Boolean MLEJJCMIOEC; // 0xA2
+	::System::Int32 _Index_k__BackingField; // 0xA4
 
 	::System::Void _ctor()
 	{
@@ -98,9 +98,9 @@ public:
 		return ((::System::Void(*)(::PVOID, ::Struct_2_96F8F0A04B900A9E))((::PBYTE)hIl2Cpp + CLASS_2_FC7D7163762399A0_METHOD_2_BCCEF225A11BDA90_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_2_5587AE4B03E68C58()
+	::System::Void Method_2_1C6AD2DA62FB6EB1()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_FC7D7163762399A0_METHOD_2_5587AE4B03E68C58_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_FC7D7163762399A0_METHOD_2_1C6AD2DA62FB6EB1_OFFSET))(this);
 	}
 
 	::System::Void Method_2_E41B6A823556FEEA()
@@ -123,9 +123,9 @@ public:
 		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_FC7D7163762399A0_METHOD_2_391A84BCD9F51317_OFFSET))(this);
 	}
 
-	::Class_1_CA217ABF4E3B4F3F* Method_2_F8B73ECE7F883AC1()
+	::Class_1_34917908B7833130* Method_2_F8B73ECE7F883AC1()
 	{
-		return ((::Class_1_CA217ABF4E3B4F3F*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_FC7D7163762399A0_METHOD_2_F8B73ECE7F883AC1_OFFSET))(this);
+		return ((::Class_1_34917908B7833130*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_FC7D7163762399A0_METHOD_2_F8B73ECE7F883AC1_OFFSET))(this);
 	}
 
 	::System::Void Method_2_0D5375C87D863D2A()

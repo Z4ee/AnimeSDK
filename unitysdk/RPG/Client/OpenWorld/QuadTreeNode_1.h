@@ -3,14 +3,14 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Rect.h"
 
-class Class_0_16E4307DCC419505_1129;
+class Class_0_16E4307DCC419505_1187;
 class Class_1_3F28033F34305C46;
 namespace RPG::Client::OpenWorld { template <typename T> class QuadTreeNode_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::OpenWorld
 {
-	inline static constexpr unsigned int QuadTreeNode_1_TypeDefinitionIndex = 70497;
+	inline static constexpr unsigned int QuadTreeNode_1_TypeDefinitionIndex = 73784;
 
 	template <typename T>
 	class QuadTreeNode_1 : public ::System::Object

@@ -4,18 +4,18 @@
 
 namespace RPG::Client::FateRin::View::Battle { class FateRinEffectController; }
 
-#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINADDCARDTOHANDFLOWVIEW___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A399EE0)
-#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINADDCARDTOHANDFLOWVIEW___C__DISPLAYCLASS7_0___CREATECLEARNEGATIVESIDEEFFECTSCOMMAND_B__0_OFFSET UNITYSDK_OFFSET(0x1A39A7F0)
+#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINADDCARDTOHANDFLOWVIEW___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5B6360)
+#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINADDCARDTOHANDFLOWVIEW___C__DISPLAYCLASS7_0___CREATECLEARNEGATIVESIDEEFFECTSCOMMAND_B__0_OFFSET UNITYSDK_OFFSET(0x1B5B6E30)
 
 namespace RPG::Client::FateRin::View::Battle
 {
-	inline static constexpr unsigned int FateRinAddCardToHandFlowView___c__DisplayClass7_0_TypeDefinitionIndex = 75695;
+	inline static constexpr unsigned int FateRinAddCardToHandFlowView___c__DisplayClass7_0_TypeDefinitionIndex = 79328;
 
 	class FateRinAddCardToHandFlowView___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::FateRin::View::Battle::FateRinEffectController* effectController; // 0x10
-		::System::Object* owner; // 0x18
+		::System::Object* owner; // 0x10
+		::RPG::Client::FateRin::View::Battle::FateRinEffectController* effectController; // 0x18
 
 		::System::Void _ctor()
 		{

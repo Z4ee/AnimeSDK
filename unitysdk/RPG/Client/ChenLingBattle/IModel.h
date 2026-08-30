@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int IModel_TypeDefinitionIndex = 72455;
+	inline static constexpr unsigned int IModel_TypeDefinitionIndex = 75891;
 
 	class IModel
 	{

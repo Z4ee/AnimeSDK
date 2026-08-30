@@ -4,12 +4,12 @@
 
 class Class_1_E0B808936AD386AC;
 
-#define RPG_CLIENT_AVATARQUICKGROWCALCULATOR___C__DISPLAYCLASS29_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1866CA30)
-#define RPG_CLIENT_AVATARQUICKGROWCALCULATOR___C__DISPLAYCLASS29_0___RESOLVEFARMDEMAND_B__0_OFFSET UNITYSDK_OFFSET(0x1866CBC0)
+#define RPG_CLIENT_AVATARQUICKGROWCALCULATOR___C__DISPLAYCLASS29_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19EC85F0)
+#define RPG_CLIENT_AVATARQUICKGROWCALCULATOR___C__DISPLAYCLASS29_0___RESOLVEFARMDEMAND_B__0_OFFSET UNITYSDK_OFFSET(0x19EC8780)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AvatarQuickGrowCalculator___c__DisplayClass29_0_TypeDefinitionIndex = 59710;
+	inline static constexpr unsigned int AvatarQuickGrowCalculator___c__DisplayClass29_0_TypeDefinitionIndex = 62556;
 
 	class AvatarQuickGrowCalculator___c__DisplayClass29_0 : public ::System::Object
 	{

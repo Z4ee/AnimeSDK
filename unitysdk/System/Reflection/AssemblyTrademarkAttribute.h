@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define SYSTEM_REFLECTION_ASSEMBLYTRADEMARKATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AFC5C60)
+#define SYSTEM_REFLECTION_ASSEMBLYTRADEMARKATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC16760)
 
 namespace System::Reflection
 {
-	inline static constexpr unsigned int AssemblyTrademarkAttribute_TypeDefinitionIndex = 538;
+	inline static constexpr unsigned int AssemblyTrademarkAttribute_TypeDefinitionIndex = 541;
 
 	class AssemblyTrademarkAttribute : public ::System::Attribute
 	{

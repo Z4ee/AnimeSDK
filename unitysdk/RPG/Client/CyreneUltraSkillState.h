@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CyreneUltraSkillState_TypeDefinitionIndex = 68658;
+	inline static constexpr unsigned int CyreneUltraSkillState_TypeDefinitionIndex = 71856;
 
 	enum class CyreneUltraSkillState : ::System::Int32
 	{

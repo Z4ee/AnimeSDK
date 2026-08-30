@@ -4,20 +4,20 @@
 
 namespace Proto { class RogueAdventureRoomGameplayWolfGunTarget; }
 
-#define PROTO_ROGUEADVENTUREROOMGAMEPLAYWOLFGUNTARGET___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BEEDD40)
-#define PROTO_ROGUEADVENTUREROOMGAMEPLAYWOLFGUNTARGET___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BEEDD80)
-#define PROTO_ROGUEADVENTUREROOMGAMEPLAYWOLFGUNTARGET___C___CCTOR_B__40_0_OFFSET UNITYSDK_OFFSET(0x1BEEDD90)
+#define PROTO_ROGUEADVENTUREROOMGAMEPLAYWOLFGUNTARGET___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DD506B0)
+#define PROTO_ROGUEADVENTUREROOMGAMEPLAYWOLFGUNTARGET___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD506F0)
+#define PROTO_ROGUEADVENTUREROOMGAMEPLAYWOLFGUNTARGET___C___CCTOR_B__40_0_OFFSET UNITYSDK_OFFSET(0x1DD50700)
 
 namespace Proto
 {
-	inline static constexpr unsigned int RogueAdventureRoomGameplayWolfGunTarget___c_TypeDefinitionIndex = 31541;
+	inline static constexpr unsigned int RogueAdventureRoomGameplayWolfGunTarget___c_TypeDefinitionIndex = 32282;
 
 	class RogueAdventureRoomGameplayWolfGunTarget___c : public ::System::Object
 	{
 	public:
 		static ::Proto::RogueAdventureRoomGameplayWolfGunTarget___c** StaticGet___9()
 		{
-			return (::Proto::RogueAdventureRoomGameplayWolfGunTarget___c**)Il2CppClass::FromTypeDefinitionIndex(RogueAdventureRoomGameplayWolfGunTarget___c_TypeDefinitionIndex)->GetStaticField(0x3FA60);
+			return (::Proto::RogueAdventureRoomGameplayWolfGunTarget___c**)Il2CppClass::FromTypeDefinitionIndex(RogueAdventureRoomGameplayWolfGunTarget___c_TypeDefinitionIndex)->GetStaticField(0x5C800);
 		}
 
 		static ::System::Void _cctor()

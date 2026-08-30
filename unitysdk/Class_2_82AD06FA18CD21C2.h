@@ -9,27 +9,27 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define CLASS_2_82AD06FA18CD21C2_METHOD_2_D2ABE97028F8BA80_OFFSET UNITYSDK_OFFSET(0x1B3E81F0)
-#define CLASS_2_82AD06FA18CD21C2__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3E8850)
+#define CLASS_2_82AD06FA18CD21C2_METHOD_2_D2ABE97028F8BA80_OFFSET UNITYSDK_OFFSET(0x1D0D50E0)
+#define CLASS_2_82AD06FA18CD21C2__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0D5740)
 
-inline static constexpr unsigned int Class_2_82AD06FA18CD21C2_TypeDefinitionIndex = 23230;
+inline static constexpr unsigned int Class_2_82AD06FA18CD21C2_TypeDefinitionIndex = 23810;
 
 class Class_2_82AD06FA18CD21C2 : public ::RPG::GameCore::JsonConfig
 {
 public:
-	::RPG::GameCore::DynamicFloat* Field_2_0; // 0x10
-	::System::String* Field_2_1; // 0x18
-	::RPG::GameCore::DynamicFloat* Field_2_2; // 0x20
-	::RPG::GameCore::DynamicFloat* Field_2_3; // 0x28
-	::RPG::GameCore::DynamicFloat* Field_2_4; // 0x30
-	::RPG::GameCore::DynamicFloat* Field_2_5; // 0x38
-	::RPG::GameCore::DynamicFloat* Field_2_6; // 0x40
-	::RPG::GameCore::DynamicFloat* Field_2_7; // 0x48
-	::RPG::GameCore::DynamicFloat* Field_2_8; // 0x50
-	::RPG::GameCore::TargetEvaluator* Field_2_9; // 0x58
-	::RPG::GameCore::DynamicFloat* Field_2_10; // 0x60
-	::RPG::GameCore::RtBattleAnimMoveOption Field_2_11; // 0x68
-	::RPG::GameCore::MoveOffsetCoordType Field_2_12; // 0x6C
+	::RPG::GameCore::DynamicFloat* FMHMAHCNDGB; // 0x10
+	::RPG::GameCore::DynamicFloat* GJOLEJOOEIG; // 0x18
+	::RPG::GameCore::DynamicFloat* EKOHAKKJLFL; // 0x20
+	::System::String* GBIOGILHAHO; // 0x28
+	::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x30
+	::RPG::GameCore::DynamicFloat* GHFFPEIHHKG; // 0x38
+	::RPG::GameCore::DynamicFloat* NNNAGHMNFKB; // 0x40
+	::RPG::GameCore::DynamicFloat* NALEDFKPFLD; // 0x48
+	::RPG::GameCore::DynamicFloat* HODCCEFFCEJ; // 0x50
+	::RPG::GameCore::DynamicFloat* DLOECBHBAGB; // 0x58
+	::RPG::GameCore::DynamicFloat* KJIOHLANNHA; // 0x60
+	::RPG::GameCore::RtBattleAnimMoveOption ALEGIFEHGLH; // 0x68
+	::RPG::GameCore::MoveOffsetCoordType OLFKAMLFJLH; // 0x6C
 
 	::System::Void _ctor()
 	{

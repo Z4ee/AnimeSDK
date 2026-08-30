@@ -4,21 +4,21 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MUSEUMPHASEUPGRADEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B1DA800)
-#define RPG_GAMECORE_MUSEUMPHASEUPGRADEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1DAA00)
+#define RPG_GAMECORE_MUSEUMPHASEUPGRADEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CE7EBE0)
+#define RPG_GAMECORE_MUSEUMPHASEUPGRADEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE7EDE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MuseumPhaseUpgradeRow_TypeDefinitionIndex = 13692;
+	inline static constexpr unsigned int MuseumPhaseUpgradeRow_TypeDefinitionIndex = 14109;
 
 	class MuseumPhaseUpgradeRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 AreaID; // 0x10
-		::System::UInt32 RenewPoint; // 0x14
-		::System::UInt32 RequireStatsA; // 0x18
-		::System::UInt32 RequireStatsC; // 0x1C
-		::System::UInt32 MuseumPhaseID; // 0x20
+		::System::UInt32 RenewPoint; // 0x10
+		::System::UInt32 RequireStatsC; // 0x14
+		::System::UInt32 MuseumPhaseID; // 0x18
+		::System::UInt32 AreaID; // 0x1C
+		::System::UInt32 RequireStatsA; // 0x20
 		::System::UInt32 RequireStatsB; // 0x24
 
 		::System::Void _ctor()

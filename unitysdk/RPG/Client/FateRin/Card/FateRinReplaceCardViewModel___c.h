@@ -5,29 +5,29 @@
 namespace RPG::Client::FateRin::Card { class IFateRinSystemCardViewModel; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_FATERIN_CARD_FATERINREPLACECARDVIEWMODEL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A373A80)
-#define RPG_CLIENT_FATERIN_CARD_FATERINREPLACECARDVIEWMODEL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A373AC0)
-#define RPG_CLIENT_FATERIN_CARD_FATERINREPLACECARDVIEWMODEL___C___REPORTREPLACECARD_B__6_0_OFFSET UNITYSDK_OFFSET(0x1A373AD0)
-#define RPG_CLIENT_FATERIN_CARD_FATERINREPLACECARDVIEWMODEL___C___REPORTREPLACECARD_B__6_1_OFFSET UNITYSDK_OFFSET(0x1A373BE0)
+#define RPG_CLIENT_FATERIN_CARD_FATERINREPLACECARDVIEWMODEL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CBEEB10)
+#define RPG_CLIENT_FATERIN_CARD_FATERINREPLACECARDVIEWMODEL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1CBEEB50)
+#define RPG_CLIENT_FATERIN_CARD_FATERINREPLACECARDVIEWMODEL___C___REPORTREPLACECARD_B__6_0_OFFSET UNITYSDK_OFFSET(0x1CBEEB60)
+#define RPG_CLIENT_FATERIN_CARD_FATERINREPLACECARDVIEWMODEL___C___REPORTREPLACECARD_B__6_1_OFFSET UNITYSDK_OFFSET(0x1CBEEC70)
 
 namespace RPG::Client::FateRin::Card
 {
-	inline static constexpr unsigned int FateRinReplaceCardViewModel___c_TypeDefinitionIndex = 76211;
+	inline static constexpr unsigned int FateRinReplaceCardViewModel___c_TypeDefinitionIndex = 79844;
 
 	class FateRinReplaceCardViewModel___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::RPG::Client::FateRin::Card::IFateRinSystemCardViewModel*, ::System::Boolean>** StaticGet___9__6_1()
 		{
-			return (::System::Func_2<::RPG::Client::FateRin::Card::IFateRinSystemCardViewModel*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(FateRinReplaceCardViewModel___c_TypeDefinitionIndex)->GetStaticField(0x94C0);
+			return (::System::Func_2<::RPG::Client::FateRin::Card::IFateRinSystemCardViewModel*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(FateRinReplaceCardViewModel___c_TypeDefinitionIndex)->GetStaticField(0x3E30);
 		}
 		static ::System::Func_2<::RPG::Client::FateRin::Card::IFateRinSystemCardViewModel*, ::System::UInt32>** StaticGet___9__6_0()
 		{
-			return (::System::Func_2<::RPG::Client::FateRin::Card::IFateRinSystemCardViewModel*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(FateRinReplaceCardViewModel___c_TypeDefinitionIndex)->GetStaticField(0x94C8);
+			return (::System::Func_2<::RPG::Client::FateRin::Card::IFateRinSystemCardViewModel*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(FateRinReplaceCardViewModel___c_TypeDefinitionIndex)->GetStaticField(0x3E38);
 		}
 		static ::RPG::Client::FateRin::Card::FateRinReplaceCardViewModel___c** StaticGet___9()
 		{
-			return (::RPG::Client::FateRin::Card::FateRinReplaceCardViewModel___c**)Il2CppClass::FromTypeDefinitionIndex(FateRinReplaceCardViewModel___c_TypeDefinitionIndex)->GetStaticField(0x94D0);
+			return (::RPG::Client::FateRin::Card::FateRinReplaceCardViewModel___c**)Il2CppClass::FromTypeDefinitionIndex(FateRinReplaceCardViewModel___c_TypeDefinitionIndex)->GetStaticField(0x3E40);
 		}
 
 		static ::System::Void _cctor()

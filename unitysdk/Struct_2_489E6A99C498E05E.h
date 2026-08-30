@@ -5,10 +5,10 @@
 
 class Class_0_16E4307DCC419505_69;
 
-inline static constexpr unsigned int Struct_2_489E6A99C498E05E_TypeDefinitionIndex = 35550;
+inline static constexpr unsigned int Struct_2_489E6A99C498E05E_TypeDefinitionIndex = 36411;
 
 struct alignas(8) Struct_2_489E6A99C498E05E
 {
-	::RPG::Client::LittleGameShare::TeamTowersCore::PendingSkillEffectType Field_2_0; // 0x10
-	::Class_0_16E4307DCC419505_69* Field_2_1; // 0x18
+	::RPG::Client::LittleGameShare::TeamTowersCore::PendingSkillEffectType GMPGDEINODK; // 0x10
+	::Class_0_16E4307DCC419505_69* CIKPBGDIABO; // 0x18
 };

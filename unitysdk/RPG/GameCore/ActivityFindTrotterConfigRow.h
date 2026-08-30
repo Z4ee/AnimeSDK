@@ -5,28 +5,28 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ACTIVITYFINDTROTTERCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1AAF4370)
-#define RPG_GAMECORE_ACTIVITYFINDTROTTERCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1AAF48B0)
+#define RPG_GAMECORE_ACTIVITYFINDTROTTERCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CA05F70)
+#define RPG_GAMECORE_ACTIVITYFINDTROTTERCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CA064B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityFindTrotterConfigRow_TypeDefinitionIndex = 11199;
+	inline static constexpr unsigned int ActivityFindTrotterConfigRow_TypeDefinitionIndex = 11588;
 
 	class ActivityFindTrotterConfigRow : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID Result02; // 0x10
-		::RPG::Client::TextID Aim02; // 0x20
-		::RPG::Client::TextID Title; // 0x30
-		::System::UInt32 FinishSubMissionID; // 0x40
+		::System::UInt32 FinishSubMissionID; // 0x10
+		::RPG::Client::TextID Aim02; // 0x18
+		::System::UInt32 Order; // 0x28
+		::System::UInt32 ActivityID; // 0x2C
+		::RPG::Client::TextID Result02; // 0x30
+		::System::UInt32 RewardQuestID; // 0x40
 		::System::UInt32 ActivityModuleID; // 0x44
-		::System::UInt32 StartSubMissionID; // 0x48
-		::RPG::Client::TextID Result01; // 0x50
-		::RPG::Client::TextID Aim01; // 0x60
-		::System::UInt32 MissionID; // 0x70
-		::System::UInt32 ActivityID; // 0x74
-		::System::UInt32 Order; // 0x78
-		::System::UInt32 RewardQuestID; // 0x7C
+		::RPG::Client::TextID Title; // 0x48
+		::RPG::Client::TextID Result01; // 0x58
+		::RPG::Client::TextID Aim01; // 0x68
+		::System::UInt32 MissionID; // 0x78
+		::System::UInt32 StartSubMissionID; // 0x7C
 
 		::System::Void _ctor()
 		{

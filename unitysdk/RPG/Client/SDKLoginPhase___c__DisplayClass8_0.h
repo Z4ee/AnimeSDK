@@ -4,12 +4,12 @@
 
 namespace RPG::Client::Promises { class Promise; }
 
-#define RPG_CLIENT_SDKLOGINPHASE___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19F24050)
-#define RPG_CLIENT_SDKLOGINPHASE___C__DISPLAYCLASS8_0___INITSDK_B__0_OFFSET UNITYSDK_OFFSET(0x19F25340)
+#define RPG_CLIENT_SDKLOGINPHASE___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16A4F100)
+#define RPG_CLIENT_SDKLOGINPHASE___C__DISPLAYCLASS8_0___INITSDK_B__0_OFFSET UNITYSDK_OFFSET(0x16A503E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SDKLoginPhase___c__DisplayClass8_0_TypeDefinitionIndex = 58426;
+	inline static constexpr unsigned int SDKLoginPhase___c__DisplayClass8_0_TypeDefinitionIndex = 61256;
 
 	class SDKLoginPhase___c__DisplayClass8_0 : public ::System::Object
 	{

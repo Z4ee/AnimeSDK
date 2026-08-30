@@ -5,24 +5,24 @@
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x14EDFF30)
-#define SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW___C__CTOR_OFFSET UNITYSDK_OFFSET(0x14EDFF70)
-#define SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW___C__SETGRIDITEMS_B__31_0_OFFSET UNITYSDK_OFFSET(0x14EDFF80)
+#define SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x197FECD0)
+#define SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW___C__CTOR_OFFSET UNITYSDK_OFFSET(0x197FED10)
+#define SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW___C__SETGRIDITEMS_B__31_0_OFFSET UNITYSDK_OFFSET(0x197FED20)
 
 namespace SuperScrollView
 {
-	inline static constexpr unsigned int LoopFlexibleGridView___c_TypeDefinitionIndex = 45853;
+	inline static constexpr unsigned int LoopFlexibleGridView___c_TypeDefinitionIndex = 48105;
 
 	class LoopFlexibleGridView___c : public ::System::Object
 	{
 	public:
 		static ::SuperScrollView::LoopFlexibleGridView___c** StaticGet___9()
 		{
-			return (::SuperScrollView::LoopFlexibleGridView___c**)Il2CppClass::FromTypeDefinitionIndex(LoopFlexibleGridView___c_TypeDefinitionIndex)->GetStaticField(0x6BBF0);
+			return (::SuperScrollView::LoopFlexibleGridView___c**)Il2CppClass::FromTypeDefinitionIndex(LoopFlexibleGridView___c_TypeDefinitionIndex)->GetStaticField(0x57500);
 		}
 		static ::System::Action_1<::System::Collections::Generic::List_1<::System::Int32>*>** StaticGet___9__31_0()
 		{
-			return (::System::Action_1<::System::Collections::Generic::List_1<::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(LoopFlexibleGridView___c_TypeDefinitionIndex)->GetStaticField(0x6BBF8);
+			return (::System::Action_1<::System::Collections::Generic::List_1<::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(LoopFlexibleGridView___c_TypeDefinitionIndex)->GetStaticField(0x57508);
 		}
 
 		static ::System::Void _cctor()

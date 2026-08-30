@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_CA217ABF4E3B4F3F.h"
+#include "unitysdk/Class_1_34917908B7833130.h"
 
 namespace RPG::GameCore { class JsonConfig; }
 namespace System { class String; }
@@ -8,25 +8,25 @@ namespace UnityEngine { class Animation; }
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class Text; }
 
-#define CLASS_2_56448ACA1E248B1A_METHOD_2_54F087CB0E40E879_OFFSET UNITYSDK_OFFSET(0x1825C190)
-#define CLASS_2_56448ACA1E248B1A_METHOD_2_7994C4DE82EC92CB_OFFSET UNITYSDK_OFFSET(0x1825C390)
-#define CLASS_2_56448ACA1E248B1A_METHOD_2_7E0102A7D81125F5_OFFSET UNITYSDK_OFFSET(0x1825C440)
-#define CLASS_2_56448ACA1E248B1A_METHOD_2_9C7395CE0F030E26_OFFSET UNITYSDK_OFFSET(0x1825C000)
-#define CLASS_2_56448ACA1E248B1A__CTOR_OFFSET UNITYSDK_OFFSET(0x1825C5A0)
-#define CLASS_2_56448ACA1E248B1A__ONBIND_OFFSET UNITYSDK_OFFSET(0x1825BF40)
+#define CLASS_2_56448ACA1E248B1A_METHOD_2_54F087CB0E40E879_OFFSET UNITYSDK_OFFSET(0x19B83470)
+#define CLASS_2_56448ACA1E248B1A_METHOD_2_7994C4DE82EC92CB_OFFSET UNITYSDK_OFFSET(0x19B83670)
+#define CLASS_2_56448ACA1E248B1A_METHOD_2_7E0102A7D81125F5_OFFSET UNITYSDK_OFFSET(0x19B83720)
+#define CLASS_2_56448ACA1E248B1A_METHOD_2_9C7395CE0F030E26_OFFSET UNITYSDK_OFFSET(0x19B832E0)
+#define CLASS_2_56448ACA1E248B1A__CTOR_OFFSET UNITYSDK_OFFSET(0x19B83880)
+#define CLASS_2_56448ACA1E248B1A__ONBIND_OFFSET UNITYSDK_OFFSET(0x19B83220)
 
-inline static constexpr unsigned int Class_2_56448ACA1E248B1A_TypeDefinitionIndex = 69069;
+inline static constexpr unsigned int Class_2_56448ACA1E248B1A_TypeDefinitionIndex = 72268;
 
-class Class_2_56448ACA1E248B1A : public ::Class_1_CA217ABF4E3B4F3F
+class Class_2_56448ACA1E248B1A : public ::Class_1_34917908B7833130
 {
 public:
-	// static const ::System::String* Field_2_0; // 0x0
-	// static const ::System::String* Field_2_1; // 0x0
-	// static const ::System::String* Field_2_2; // 0x0
-	::UnityEngine::UI::Image* Field_2_3; // 0x60
-	::UnityEngine::UI::Text* Field_2_4; // 0x68
-	::UnityEngine::Animation* Field_2_5; // 0x70
-	::System::Int32 Field_2_6; // 0x78
+	// static const ::System::String* GKJNMLAAGPF; // 0x0
+	// static const ::System::String* EHPGJAFDAGI; // 0x0
+	// static const ::System::String* NANMNMKDECK; // 0x0
+	::UnityEngine::Animation* JPHOOFFIAAH; // 0x60
+	::UnityEngine::UI::Text* KPICPMEANJJ; // 0x68
+	::UnityEngine::UI::Image* LKAOENJHMHA; // 0x70
+	::System::Int32 GEINOAHHBIP; // 0x78
 
 	::System::Void _ctor()
 	{

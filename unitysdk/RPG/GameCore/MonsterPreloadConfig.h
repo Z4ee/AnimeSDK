@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MONSTERPRELOADCONFIG_METHOD_3_2E97A6DC10285C3E_OFFSET UNITYSDK_OFFSET(0x1B1C9B90)
-#define RPG_GAMECORE_MONSTERPRELOADCONFIG_METHOD_3_C4A5E8A7D47B2D0D_OFFSET UNITYSDK_OFFSET(0x1B1C9BD0)
-#define RPG_GAMECORE_MONSTERPRELOADCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1C9BC0)
+#define RPG_GAMECORE_MONSTERPRELOADCONFIG_METHOD_3_2B3433E9A4B3C7E4_OFFSET UNITYSDK_OFFSET(0x1CE6DDB0)
+#define RPG_GAMECORE_MONSTERPRELOADCONFIG_METHOD_3_83773603EB198634_OFFSET UNITYSDK_OFFSET(0x1CE6DD70)
+#define RPG_GAMECORE_MONSTERPRELOADCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE6DDA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonsterPreloadConfig_TypeDefinitionIndex = 15697;
+	inline static constexpr unsigned int MonsterPreloadConfig_TypeDefinitionIndex = 16166;
 
 	class MonsterPreloadConfig : public ::RPG::GameCore::CharacterPreloadConfigBase
 	{
@@ -20,14 +20,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONSTERPRELOADCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_2E97A6DC10285C3E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MonsterPreloadConfig*& a2)
+		static ::System::Void Method_3_83773603EB198634(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MonsterPreloadConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MonsterPreloadConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONSTERPRELOADCONFIG_METHOD_3_2E97A6DC10285C3E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MonsterPreloadConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONSTERPRELOADCONFIG_METHOD_3_83773603EB198634_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_C4A5E8A7D47B2D0D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MonsterPreloadConfig* a2)
+		static ::System::Void Method_3_2B3433E9A4B3C7E4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MonsterPreloadConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MonsterPreloadConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONSTERPRELOADCONFIG_METHOD_3_C4A5E8A7D47B2D0D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MonsterPreloadConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONSTERPRELOADCONFIG_METHOD_3_2B3433E9A4B3C7E4_OFFSET))(a1, a2);
 		}
 	};
 }

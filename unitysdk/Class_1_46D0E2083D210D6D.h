@@ -6,15 +6,15 @@ namespace RPG::GameCore { class MatchThreeScoreCurveRow; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_46D0E2083D210D6D__CTOR_OFFSET UNITYSDK_OFFSET(0x180E2730)
+#define CLASS_1_46D0E2083D210D6D__CTOR_OFFSET UNITYSDK_OFFSET(0x1BAB52D0)
 
-inline static constexpr unsigned int Class_1_46D0E2083D210D6D_TypeDefinitionIndex = 40087;
+inline static constexpr unsigned int Class_1_46D0E2083D210D6D_TypeDefinitionIndex = 40966;
 
 class Class_1_46D0E2083D210D6D : public ::System::Object
 {
 public:
-	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::RPG::GameCore::MatchThreeScoreCurveRow*>*>* Field_1_0; // 0x10
-	::System::UInt32 Field_1_1; // 0x18
+	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::RPG::GameCore::MatchThreeScoreCurveRow*>*>* FFABIPEJNAJ; // 0x10
+	::System::UInt32 DGIPOMANFEM; // 0x18
 
 	::System::Void _ctor()
 	{

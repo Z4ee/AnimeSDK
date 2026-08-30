@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class FiveDimMusicCueInfo; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMMUSICINFO_METHOD_2_3D1A13E42E91FF6B_OFFSET UNITYSDK_OFFSET(0x1BEA63D0)
-#define RPG_GAMECORE_FIVEDIMMUSICINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1BEA6690)
+#define RPG_GAMECORE_FIVEDIMMUSICINFO_METHOD_2_3CFD533F0A3F9422_OFFSET UNITYSDK_OFFSET(0x1D86EC90)
+#define RPG_GAMECORE_FIVEDIMMUSICINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1D86EF70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimMusicInfo_TypeDefinitionIndex = 18085;
+	inline static constexpr unsigned int FiveDimMusicInfo_TypeDefinitionIndex = 18609;
 
 	class FiveDimMusicInfo : public ::RPG::GameCore::JsonConfig
 	{
@@ -30,9 +30,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMMUSICINFO__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_3D1A13E42E91FF6B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimMusicInfo*& a2)
+		static ::System::Void Method_2_3CFD533F0A3F9422(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimMusicInfo*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimMusicInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMMUSICINFO_METHOD_2_3D1A13E42E91FF6B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimMusicInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMMUSICINFO_METHOD_2_3CFD533F0A3F9422_OFFSET))(a1, a2);
 		}
 	};
 }

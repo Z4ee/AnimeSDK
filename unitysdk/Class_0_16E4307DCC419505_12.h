@@ -8,7 +8,7 @@ namespace RPG::GameCore { class AvatarPropertyValue; }
 namespace RPG::GameCore { class ItemConfig; }
 namespace System { class String; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_12_TypeDefinitionIndex = 12246;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_12_TypeDefinitionIndex = 12635;
 
 class Class_0_16E4307DCC419505_12
 {

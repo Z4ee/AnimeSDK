@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SYSTEM_RUNTIME_COMPILERSERVICES_COMPILERGENERATEDATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A823F40)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_COMPILERGENERATEDATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C456540)
 
 namespace System::Runtime::CompilerServices
 {
-	inline static constexpr unsigned int CompilerGeneratedAttribute_TypeDefinitionIndex = 1374;
+	inline static constexpr unsigned int CompilerGeneratedAttribute_TypeDefinitionIndex = 1381;
 
 	class CompilerGeneratedAttribute : public ::System::Attribute
 	{

@@ -8,13 +8,13 @@ namespace Google::Protobuf::Collections { template <typename T> class RepeatedFi
 namespace RPG::Client { class ItemAutoConversionRecord; }
 namespace RPG::GameCore { class AvatarPathItemTransferRow; }
 
-#define RPG_CLIENT_MULTIPATHAVATARUNLOCKITEMTRANSFER_GET_TRANSFERDESC_OFFSET UNITYSDK_OFFSET(0x19084C50)
-#define RPG_CLIENT_MULTIPATHAVATARUNLOCKITEMTRANSFER_GET_TRANSFERTITLE_OFFSET UNITYSDK_OFFSET(0x19084BE0)
-#define RPG_CLIENT_MULTIPATHAVATARUNLOCKITEMTRANSFER__CTOR_OFFSET UNITYSDK_OFFSET(0x19084B20)
+#define RPG_CLIENT_MULTIPATHAVATARUNLOCKITEMTRANSFER_GET_TRANSFERDESC_OFFSET UNITYSDK_OFFSET(0x1B6E8850)
+#define RPG_CLIENT_MULTIPATHAVATARUNLOCKITEMTRANSFER_GET_TRANSFERTITLE_OFFSET UNITYSDK_OFFSET(0x1B6E87E0)
+#define RPG_CLIENT_MULTIPATHAVATARUNLOCKITEMTRANSFER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6E8720)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MultiPathAvatarUnlockItemTransfer_TypeDefinitionIndex = 63359;
+	inline static constexpr unsigned int MultiPathAvatarUnlockItemTransfer_TypeDefinitionIndex = 66344;
 
 	class MultiPathAvatarUnlockItemTransfer : public ::System::Object
 	{

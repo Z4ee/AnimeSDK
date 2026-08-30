@@ -5,18 +5,18 @@
 namespace RPG { template <typename T> class PoolList_1; }
 namespace System { class String; }
 
-#define CLASS_1_A7BB374B2DB46D73_CLEAR_OFFSET UNITYSDK_OFFSET(0x187AB380)
-#define CLASS_1_A7BB374B2DB46D73_ONALLOC_OFFSET UNITYSDK_OFFSET(0x187AB2A0)
-#define CLASS_1_A7BB374B2DB46D73_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x187AB340)
-#define CLASS_1_A7BB374B2DB46D73__CTOR_OFFSET UNITYSDK_OFFSET(0x187AB400)
+#define CLASS_1_A7BB374B2DB46D73_CLEAR_OFFSET UNITYSDK_OFFSET(0x1A9FAA80)
+#define CLASS_1_A7BB374B2DB46D73_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1A9FA9A0)
+#define CLASS_1_A7BB374B2DB46D73_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1A9FAA40)
+#define CLASS_1_A7BB374B2DB46D73__CTOR_OFFSET UNITYSDK_OFFSET(0x1A9FAB00)
 
-inline static constexpr unsigned int Class_1_A7BB374B2DB46D73_TypeDefinitionIndex = 40899;
+inline static constexpr unsigned int Class_1_A7BB374B2DB46D73_TypeDefinitionIndex = 41858;
 
 class Class_1_A7BB374B2DB46D73 : public ::System::Object
 {
 public:
-	::RPG::PoolList_1<::System::Int32>* Field_1_0; // 0x10
-	::RPG::PoolList_1<::System::String*>* Field_1_1; // 0x18
+	::RPG::PoolList_1<::System::String*>* OPNCNAGOGPI; // 0x10
+	::RPG::PoolList_1<::System::Int32>* PECDILDCFKF; // 0x18
 
 	::System::Void _ctor()
 	{

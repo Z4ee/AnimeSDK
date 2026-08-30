@@ -3,7 +3,7 @@
 
 namespace System
 {
-	inline static constexpr unsigned int StringSplitOptions_TypeDefinitionIndex = 328;
+	inline static constexpr unsigned int StringSplitOptions_TypeDefinitionIndex = 331;
 
 	enum class StringSplitOptions : ::System::Int32
 	{

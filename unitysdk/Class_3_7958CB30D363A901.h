@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SyncBattleEventPropertyValues; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_7958CB30D363A901_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18728A50)
-#define CLASS_3_7958CB30D363A901__CTOR_OFFSET UNITYSDK_OFFSET(0x18728A20)
+#define CLASS_3_7958CB30D363A901_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x188BE3F0)
+#define CLASS_3_7958CB30D363A901__CTOR_OFFSET UNITYSDK_OFFSET(0x188BE3C0)
 
-inline static constexpr unsigned int Class_3_7958CB30D363A901_TypeDefinitionIndex = 56131;
+inline static constexpr unsigned int Class_3_7958CB30D363A901_TypeDefinitionIndex = 58908;
 
 class Class_3_7958CB30D363A901 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SyncBattleEventPropertyValues*>
 {

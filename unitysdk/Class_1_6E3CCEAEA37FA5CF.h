@@ -3,17 +3,17 @@
 #include "unitysdk/RPG/GameCore/RtModifierEventScope.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_6E3CCEAEA37FA5CF_METHOD_1_9B8D79CDF6802E1A_OFFSET UNITYSDK_OFFSET(0x17EF8F70)
-#define CLASS_1_6E3CCEAEA37FA5CF__CCTOR_OFFSET UNITYSDK_OFFSET(0x17EF8F20)
+#define CLASS_1_6E3CCEAEA37FA5CF_METHOD_1_9B8D79CDF6802E1A_OFFSET UNITYSDK_OFFSET(0x1A00B610)
+#define CLASS_1_6E3CCEAEA37FA5CF__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A00B5C0)
 
-inline static constexpr unsigned int Class_1_6E3CCEAEA37FA5CF_TypeDefinitionIndex = 51312;
+inline static constexpr unsigned int Class_1_6E3CCEAEA37FA5CF_TypeDefinitionIndex = 53996;
 
 class Class_1_6E3CCEAEA37FA5CF : public ::System::Object
 {
 public:
-	static ::Il2CppArray<::RPG::GameCore::RtModifierEventScope>** StaticGet_Field_1_0()
+	static ::Il2CppArray<::RPG::GameCore::RtModifierEventScope>** StaticGet_NOAMHEEOGHP()
 	{
-		return (::Il2CppArray<::RPG::GameCore::RtModifierEventScope>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6E3CCEAEA37FA5CF_TypeDefinitionIndex)->GetStaticField(0x3A9A0);
+		return (::Il2CppArray<::RPG::GameCore::RtModifierEventScope>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6E3CCEAEA37FA5CF_TypeDefinitionIndex)->GetStaticField(0x40590);
 	}
 
 	static ::System::Void _cctor()

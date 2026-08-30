@@ -5,14 +5,14 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_5CAE42E5937FFAF8__CTOR_OFFSET UNITYSDK_OFFSET(0x180C3850)
+#define CLASS_1_5CAE42E5937FFAF8__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA96970)
 
-inline static constexpr unsigned int Class_1_5CAE42E5937FFAF8_TypeDefinitionIndex = 40402;
+inline static constexpr unsigned int Class_1_5CAE42E5937FFAF8_TypeDefinitionIndex = 41340;
 
 class Class_1_5CAE42E5937FFAF8 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::RPG::GameCore::PingPongDropItemType>* Field_1_0; // 0x10
+	::System::Collections::Generic::List_1<::RPG::GameCore::PingPongDropItemType>* GAIGDIDJJOA; // 0x10
 
 	::System::Void _ctor()
 	{

@@ -4,7 +4,7 @@
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int IStyleValue_1_TypeDefinitionIndex = 6264;
+	inline static constexpr unsigned int IStyleValue_1_TypeDefinitionIndex = 5997;
 
 	template <typename T>
 	class IStyleValue_1

@@ -6,11 +6,11 @@ namespace Spine { class Atlas; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace UnityEngine { class Material; }
 
-#define SPINE_UNITY_ATLASASSETBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x168996E0)
+#define SPINE_UNITY_ATLASASSETBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x18306470)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int AtlasAssetBase_TypeDefinitionIndex = 42194;
+	inline static constexpr unsigned int AtlasAssetBase_TypeDefinitionIndex = 43805;
 
 	class AtlasAssetBase : public ::UnityEngine::ScriptableObject
 	{

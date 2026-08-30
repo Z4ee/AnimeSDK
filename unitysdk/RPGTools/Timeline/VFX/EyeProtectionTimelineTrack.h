@@ -7,12 +7,12 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_VFX_EYEPROTECTIONTIMELINETRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x19F588C0)
-#define RPGTOOLS_TIMELINE_VFX_EYEPROTECTIONTIMELINETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x19F58970)
+#define RPGTOOLS_TIMELINE_VFX_EYEPROTECTIONTIMELINETRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1BF30070)
+#define RPGTOOLS_TIMELINE_VFX_EYEPROTECTIONTIMELINETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF30120)
 
 namespace RPGTools::Timeline::VFX
 {
-	inline static constexpr unsigned int EyeProtectionTimelineTrack_TypeDefinitionIndex = 46909;
+	inline static constexpr unsigned int EyeProtectionTimelineTrack_TypeDefinitionIndex = 49155;
 
 	class EyeProtectionTimelineTrack : public ::UnityEngine::Timeline::TrackAsset
 	{

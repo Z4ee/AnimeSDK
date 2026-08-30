@@ -6,10 +6,10 @@
 namespace RPG::GameCore { class BaseChimeraDuelNode; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_2_5F67435E4D592D31___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14AD71C0)
-#define CLASS_2_5F67435E4D592D31___C__DISPLAYCLASS2_0___EVALUATEPARALLEL_B__0_OFFSET UNITYSDK_OFFSET(0x14AD8310)
+#define CLASS_2_5F67435E4D592D31___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1677A2A0)
+#define CLASS_2_5F67435E4D592D31___C__DISPLAYCLASS2_0___EVALUATEPARALLEL_B__0_OFFSET UNITYSDK_OFFSET(0x1677B3F0)
 
-inline static constexpr unsigned int Class_2_5F67435E4D592D31___c__DisplayClass2_0_TypeDefinitionIndex = 73664;
+inline static constexpr unsigned int Class_2_5F67435E4D592D31___c__DisplayClass2_0_TypeDefinitionIndex = 77148;
 
 class Class_2_5F67435E4D592D31___c__DisplayClass2_0 : public ::System::Object
 {

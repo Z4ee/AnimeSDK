@@ -5,12 +5,12 @@
 namespace MiHoYo::SDK::PC::OS { class SteamInitExtension; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELINITRESULT_TOJSON_OFFSET UNITYSDK_OFFSET(0x19941340)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELINITRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x199479D0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELINITRESULT_TOJSON_OFFSET UNITYSDK_OFFSET(0x1ABC8DC0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELINITRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1ABCF490)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannelInitResult_TypeDefinitionIndex = 8466;
+	inline static constexpr unsigned int HoYoChannelInitResult_TypeDefinitionIndex = 8534;
 
 	class HoYoChannelInitResult : public ::MiHoYo::SDK::PC::OS::HoYoChannelBaseResult
 	{
@@ -19,7 +19,7 @@ namespace MiHoYo::SDK::PC::OS
 		// static const ::System::Int32 CHANNEL_NO_CLIENT = 0xFFFFFC16; // 0x0
 		// static const ::System::Int32 CHANNEL_VERSION_MISMATCH = 0xFFFFFC15; // 0x0
 		// static const ::System::Int32 CHANNEL_UPDATE_REQUIRED = 0xFFFFFC14; // 0x0
-		::MiHoYo::SDK::PC::OS::SteamInitExtension* steam; // 0x28
+		::MiHoYo::SDK::PC::OS::SteamInitExtension* steam; // 0x30
 
 		::System::Void _ctor()
 		{

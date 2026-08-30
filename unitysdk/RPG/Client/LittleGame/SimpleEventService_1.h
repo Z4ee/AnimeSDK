@@ -3,7 +3,7 @@
 #include "unitysdk/Struct_2_7C3EF1FF302C26DE.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_123B9213623D7EC0;
+class Class_1_8330E65955F3FDEC;
 namespace Entitas { class IContext; }
 namespace Entitas { class IEntity; }
 namespace Entitas { template <typename T> class IContext_1; }
@@ -13,7 +13,7 @@ namespace System { template <typename T1, typename T2, typename T3> class Action
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int SimpleEventService_1_TypeDefinitionIndex = 72608;
+	inline static constexpr unsigned int SimpleEventService_1_TypeDefinitionIndex = 76044;
 
 	template <typename TEntity>
 	class SimpleEventService_1 : public ::System::Object

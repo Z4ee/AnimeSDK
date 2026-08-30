@@ -5,20 +5,20 @@
 namespace System { class String; }
 namespace System { class Type; }
 
-#define SYSTEM_RUNTIME_REMOTING_TYPEINFO_CANCASTTO_OFFSET UNITYSDK_OFFSET(0x1790F3B0)
-#define SYSTEM_RUNTIME_REMOTING_TYPEINFO_GET_TYPENAME_OFFSET UNITYSDK_OFFSET(0x1790F3A0)
-#define SYSTEM_RUNTIME_REMOTING_TYPEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x178FE4F0)
+#define SYSTEM_RUNTIME_REMOTING_TYPEINFO_CANCASTTO_OFFSET UNITYSDK_OFFSET(0x1945E610)
+#define SYSTEM_RUNTIME_REMOTING_TYPEINFO_GET_TYPENAME_OFFSET UNITYSDK_OFFSET(0x1945E600)
+#define SYSTEM_RUNTIME_REMOTING_TYPEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1944D6F0)
 
 namespace System::Runtime::Remoting
 {
-	inline static constexpr unsigned int TypeInfo_TypeDefinitionIndex = 1221;
+	inline static constexpr unsigned int TypeInfo_TypeDefinitionIndex = 1228;
 
 	class TypeInfo : public ::System::Object
 	{
 	public:
-		::System::String* serverType; // 0x10
-		::Il2CppArray<::System::String*>* serverHierarchy; // 0x18
-		::Il2CppArray<::System::String*>* interfacesImplemented; // 0x20
+		::Il2CppArray<::System::String*>* serverHierarchy; // 0x10
+		::Il2CppArray<::System::String*>* interfacesImplemented; // 0x18
+		::System::String* serverType; // 0x20
 
 		::System::Void _ctor(::System::Type* a1)
 		{

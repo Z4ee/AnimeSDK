@@ -8,23 +8,23 @@ namespace RPG::GameCore { class FiveDimRIStateEmissionAction; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_068CB340B20E1A9A_CLEAR_OFFSET UNITYSDK_OFFSET(0x1AE2AF60)
-#define CLASS_1_068CB340B20E1A9A_METHOD_1_521CB024F8C52E3B_OFFSET UNITYSDK_OFFSET(0x1AE2AFC0)
-#define CLASS_1_068CB340B20E1A9A_METHOD_1_9C6FAA2D9E6CBDB8_OFFSET UNITYSDK_OFFSET(0x1AE2B150)
-#define CLASS_1_068CB340B20E1A9A_METHOD_1_EC8F93EB6EB19251_OFFSET UNITYSDK_OFFSET(0x1AE2B2C0)
-#define CLASS_1_068CB340B20E1A9A_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1AE2ADB0)
-#define CLASS_1_068CB340B20E1A9A_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1AE2AF20)
-#define CLASS_1_068CB340B20E1A9A__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE2B440)
+#define CLASS_1_068CB340B20E1A9A_CLEAR_OFFSET UNITYSDK_OFFSET(0x1A610420)
+#define CLASS_1_068CB340B20E1A9A_METHOD_1_521CB024F8C52E3B_1_OFFSET UNITYSDK_OFFSET(0x1A610610)
+#define CLASS_1_068CB340B20E1A9A_METHOD_1_521CB024F8C52E3B_OFFSET UNITYSDK_OFFSET(0x1A610480)
+#define CLASS_1_068CB340B20E1A9A_METHOD_1_EC8F93EB6EB19251_OFFSET UNITYSDK_OFFSET(0x1A6107A0)
+#define CLASS_1_068CB340B20E1A9A_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1A610270)
+#define CLASS_1_068CB340B20E1A9A_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1A6103E0)
+#define CLASS_1_068CB340B20E1A9A__CTOR_OFFSET UNITYSDK_OFFSET(0x1A610920)
 
-inline static constexpr unsigned int Class_1_068CB340B20E1A9A_TypeDefinitionIndex = 40713;
+inline static constexpr unsigned int Class_1_068CB340B20E1A9A_TypeDefinitionIndex = 41666;
 
 class Class_1_068CB340B20E1A9A : public ::System::Object
 {
 public:
-	::RPG::PoolDictionary_2<::System::String*, ::RPG::Client::LittleGame::FiveDim::RIStateSetReason>* Field_1_0; // 0x10
-	::RPG::GameCore::FiveDimRIStateEmissionAction* Field_1_1; // 0x18
-	::System::Boolean Field_1_2; // 0x20
-	::System::Single Field_1_3; // 0x24
+	::RPG::GameCore::FiveDimRIStateEmissionAction* GHAIGFIPPDG; // 0x10
+	::RPG::PoolDictionary_2<::System::String*, ::RPG::Client::LittleGame::FiveDim::RIStateSetReason>* KOAMMIGEDJI; // 0x18
+	::System::Boolean OBMFBLPEMPI; // 0x20
+	::System::Single OHEPCONLDEC; // 0x24
 
 	::System::Void _ctor()
 	{
@@ -51,9 +51,9 @@ public:
 		return ((::System::Boolean(*)(::PVOID, ::System::String*, ::RPG::Client::LittleGame::FiveDim::RIStateSetReason))((::PBYTE)hIl2Cpp + CLASS_1_068CB340B20E1A9A_METHOD_1_521CB024F8C52E3B_OFFSET))(this, a1, a2);
 	}
 
-	::System::Boolean Method_1_9C6FAA2D9E6CBDB8(::System::String* a1, ::RPG::Client::LittleGame::FiveDim::RIStateSetReason a2)
+	::System::Boolean Method_1_521CB024F8C52E3B_1(::System::String* a1, ::RPG::Client::LittleGame::FiveDim::RIStateSetReason a2)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::System::String*, ::RPG::Client::LittleGame::FiveDim::RIStateSetReason))((::PBYTE)hIl2Cpp + CLASS_1_068CB340B20E1A9A_METHOD_1_9C6FAA2D9E6CBDB8_OFFSET))(this, a1, a2);
+		return ((::System::Boolean(*)(::PVOID, ::System::String*, ::RPG::Client::LittleGame::FiveDim::RIStateSetReason))((::PBYTE)hIl2Cpp + CLASS_1_068CB340B20E1A9A_METHOD_1_521CB024F8C52E3B_1_OFFSET))(this, a1, a2);
 	}
 
 	::System::Void Method_1_EC8F93EB6EB19251(::System::Collections::Generic::List_1<::System::String*>* a1)

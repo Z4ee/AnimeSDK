@@ -8,12 +8,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELNAVNODECONDITIONINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B078280)
-#define RPG_GAMECORE_LEVELNAVNODECONDITIONINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B078490)
+#define RPG_GAMECORE_LEVELNAVNODECONDITIONINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C11F770)
+#define RPG_GAMECORE_LEVELNAVNODECONDITIONINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1C11F980)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelNavNodeConditionInfo_TypeDefinitionIndex = 16473;
+	inline static constexpr unsigned int LevelNavNodeConditionInfo_TypeDefinitionIndex = 16965;
 
 	class LevelNavNodeConditionInfo : public ::RPG::GameCore::JsonConfig
 	{

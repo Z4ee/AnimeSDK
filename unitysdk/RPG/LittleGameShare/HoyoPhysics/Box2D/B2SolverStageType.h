@@ -3,7 +3,7 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2SolverStageType_TypeDefinitionIndex = 35233;
+	inline static constexpr unsigned int B2SolverStageType_TypeDefinitionIndex = 36094;
 
 	enum class B2SolverStageType : ::System::Int32
 	{

@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MHYSDKC_VOX_TypeDefinitionIndex = 44506;
+	inline static constexpr unsigned int MHYSDKC_VOX_TypeDefinitionIndex = 46689;
 
 	class MHYSDKC_VOX : public ::System::Object
 	{
@@ -49,5 +49,6 @@ namespace MiHoYo::SDK
 		// static const ::System::String* STOP_STREAM_ASR; // 0x0
 		// static const ::System::String* ABORT_STREAM_ASR; // 0x0
 		// static const ::System::String* CALLBACK_ASR_SENT_TEXT; // 0x0
+		// static const ::System::String* ENABLE_IOS_AUDIO_SESSION_GUARD; // 0x0
 	};
 }

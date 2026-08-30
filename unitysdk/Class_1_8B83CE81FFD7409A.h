@@ -7,19 +7,19 @@
 
 namespace System { class String; }
 
-#define CLASS_1_8B83CE81FFD7409A__CTOR_OFFSET UNITYSDK_OFFSET(0x1706ED60)
+#define CLASS_1_8B83CE81FFD7409A__CTOR_OFFSET UNITYSDK_OFFSET(0x1A753B90)
 
-inline static constexpr unsigned int Class_1_8B83CE81FFD7409A_TypeDefinitionIndex = 69934;
+inline static constexpr unsigned int Class_1_8B83CE81FFD7409A_TypeDefinitionIndex = 73191;
 
 class Class_1_8B83CE81FFD7409A : public ::System::Object
 {
 public:
-	::System::String* Field_1_0; // 0x10
-	::System::String* Field_1_1; // 0x18
-	::System::String* Field_1_2; // 0x20
-	::RPG::GameCore::SkillType Field_1_3; // 0x28
-	::RPG::GameCore::BattleAlertType Field_1_4; // 0x2C
-	::RPG::GameCore::UltraSkillAlertType Field_1_5; // 0x30
+	::System::String* OEDECKGEFEO; // 0x10
+	::System::String* ADMPOKJGIBH; // 0x18
+	::System::String* MABCLHBFLCN; // 0x20
+	::RPG::GameCore::UltraSkillAlertType MNKNKEKLFJO; // 0x28
+	::RPG::GameCore::SkillType JBCBONFABOM; // 0x2C
+	::RPG::GameCore::BattleAlertType HNBJHDBMMNN; // 0x30
 
 	::System::Void _ctor()
 	{

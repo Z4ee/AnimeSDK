@@ -7,11 +7,11 @@ namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_MARBLEBATTLESTARTACTIONAGAINNOTIFY__CTOR_OFFSET UNITYSDK_OFFSET(0x1A87D5E0)
+#define RPG_CLIENT_MARBLEBATTLESTARTACTIONAGAINNOTIFY__CTOR_OFFSET UNITYSDK_OFFSET(0x1C24DED0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MarbleBattleStartActionAgainNotify_TypeDefinitionIndex = 62891;
+	inline static constexpr unsigned int MarbleBattleStartActionAgainNotify_TypeDefinitionIndex = 65876;
 
 	class MarbleBattleStartActionAgainNotify : public ::System::Object
 	{

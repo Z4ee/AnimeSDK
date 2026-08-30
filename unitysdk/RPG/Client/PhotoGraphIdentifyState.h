@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PhotoGraphIdentifyState_TypeDefinitionIndex = 58196;
+	inline static constexpr unsigned int PhotoGraphIdentifyState_TypeDefinitionIndex = 61023;
 
 	enum class PhotoGraphIdentifyState : ::System::Int32
 	{

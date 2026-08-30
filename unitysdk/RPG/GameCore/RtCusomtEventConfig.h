@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class JsonEnum; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_RTCUSOMTEVENTCONFIG_METHOD_2_ED97A9FF462F3FEC_OFFSET UNITYSDK_OFFSET(0x1B75E870)
-#define RPG_GAMECORE_RTCUSOMTEVENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B75EA20)
+#define RPG_GAMECORE_RTCUSOMTEVENTCONFIG_METHOD_2_ED97A9FF462F3FEC_OFFSET UNITYSDK_OFFSET(0x1CCE3C40)
+#define RPG_GAMECORE_RTCUSOMTEVENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CCE3DF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtCusomtEventConfig_TypeDefinitionIndex = 23342;
+	inline static constexpr unsigned int RtCusomtEventConfig_TypeDefinitionIndex = 23922;
 
 	class RtCusomtEventConfig : public ::RPG::GameCore::JsonConfig
 	{

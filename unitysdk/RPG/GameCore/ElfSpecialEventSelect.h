@@ -9,12 +9,12 @@ namespace RPG::GameCore { class ElfSpecialEventSelectItem; }
 namespace RPG::GameCore { class ElfSpecialEventSelectResultItem; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ELFSPECIALEVENTSELECT_METHOD_2_6F58FB8C584568A3_OFFSET UNITYSDK_OFFSET(0x1BB39910)
-#define RPG_GAMECORE_ELFSPECIALEVENTSELECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB39FD0)
+#define RPG_GAMECORE_ELFSPECIALEVENTSELECT_METHOD_2_6F58FB8C584568A3_OFFSET UNITYSDK_OFFSET(0x1D7B6870)
+#define RPG_GAMECORE_ELFSPECIALEVENTSELECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7B6F30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ElfSpecialEventSelect_TypeDefinitionIndex = 17758;
+	inline static constexpr unsigned int ElfSpecialEventSelect_TypeDefinitionIndex = 18276;
 
 	class ElfSpecialEventSelect : public ::RPG::GameCore::JsonConfig
 	{

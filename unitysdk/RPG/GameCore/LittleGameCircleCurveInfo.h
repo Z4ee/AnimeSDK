@@ -9,18 +9,18 @@ namespace RPG::GameCore { class LevelCurvePointInfo; }
 namespace RPG::GameCore { class LittleGameBezierCurveInfo; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_GAMECORE_LITTLEGAMECIRCLECURVEINFO_METHOD_3_23EAA5B6C78B0858_OFFSET UNITYSDK_OFFSET(0x1BCBF460)
-#define RPG_GAMECORE_LITTLEGAMECIRCLECURVEINFO_METHOD_3_5BA71826636BA9C3_OFFSET UNITYSDK_OFFSET(0x1BCBEEB0)
-#define RPG_GAMECORE_LITTLEGAMECIRCLECURVEINFO_METHOD_3_823B0920A1E5575C_OFFSET UNITYSDK_OFFSET(0x1BCBEE60)
-#define RPG_GAMECORE_LITTLEGAMECIRCLECURVEINFO_METHOD_3_8B071BD4E0283A69_OFFSET UNITYSDK_OFFSET(0x1BCBF030)
-#define RPG_GAMECORE_LITTLEGAMECIRCLECURVEINFO_METHOD_3_8E2CE51AB9C33B3D_OFFSET UNITYSDK_OFFSET(0x1BCBF100)
-#define RPG_GAMECORE_LITTLEGAMECIRCLECURVEINFO_METHOD_3_978C9496D0413FBC_OFFSET UNITYSDK_OFFSET(0x1BCBF060)
-#define RPG_GAMECORE_LITTLEGAMECIRCLECURVEINFO_METHOD_3_D978819B0A4871A0_OFFSET UNITYSDK_OFFSET(0x1BCBF020)
-#define RPG_GAMECORE_LITTLEGAMECIRCLECURVEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1BCBEEA0)
+#define RPG_GAMECORE_LITTLEGAMECIRCLECURVEINFO_METHOD_3_0E866F175D4ABE34_OFFSET UNITYSDK_OFFSET(0x1DD68260)
+#define RPG_GAMECORE_LITTLEGAMECIRCLECURVEINFO_METHOD_3_5BA71826636BA9C3_OFFSET UNITYSDK_OFFSET(0x1DD68010)
+#define RPG_GAMECORE_LITTLEGAMECIRCLECURVEINFO_METHOD_3_823B0920A1E5575C_OFFSET UNITYSDK_OFFSET(0x1DD67FC0)
+#define RPG_GAMECORE_LITTLEGAMECIRCLECURVEINFO_METHOD_3_8B071BD4E0283A69_OFFSET UNITYSDK_OFFSET(0x1DD68190)
+#define RPG_GAMECORE_LITTLEGAMECIRCLECURVEINFO_METHOD_3_978C9496D0413FBC_OFFSET UNITYSDK_OFFSET(0x1DD681C0)
+#define RPG_GAMECORE_LITTLEGAMECIRCLECURVEINFO_METHOD_3_97A366DE298E597F_OFFSET UNITYSDK_OFFSET(0x1DD68590)
+#define RPG_GAMECORE_LITTLEGAMECIRCLECURVEINFO_METHOD_3_D978819B0A4871A0_OFFSET UNITYSDK_OFFSET(0x1DD68180)
+#define RPG_GAMECORE_LITTLEGAMECIRCLECURVEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD68000)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleGameCircleCurveInfo_TypeDefinitionIndex = 18118;
+	inline static constexpr unsigned int LittleGameCircleCurveInfo_TypeDefinitionIndex = 18642;
 
 	class LittleGameCircleCurveInfo : public ::RPG::GameCore::LittleGameLevelCurveInfo
 	{
@@ -59,14 +59,14 @@ namespace RPG::GameCore
 			return ((::RPG::GameCore::LittleGameBezierCurveInfo*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMECIRCLECURVEINFO_METHOD_3_978C9496D0413FBC_OFFSET))(this);
 		}
 
-		::System::Void Method_3_8E2CE51AB9C33B3D(::System::Collections::Generic::List_1<::RPG::GameCore::LevelCurvePointInfo*>* a1)
+		::System::Void Method_3_0E866F175D4ABE34(::System::Collections::Generic::List_1<::RPG::GameCore::LevelCurvePointInfo*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::GameCore::LevelCurvePointInfo*>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMECIRCLECURVEINFO_METHOD_3_8E2CE51AB9C33B3D_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::GameCore::LevelCurvePointInfo*>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMECIRCLECURVEINFO_METHOD_3_0E866F175D4ABE34_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_3_23EAA5B6C78B0858(::System::Single& a1, ::System::Single a2, ::System::Single a3, ::System::Collections::Generic::List_1<::RPG::GameCore::LevelCurvePointInfo*>* a4, ::RPG::GameCore::LevelCurvePointInfo*& a5)
+		::System::Void Method_3_97A366DE298E597F(::System::Single& a1, ::System::Single a2, ::System::Single a3, ::System::Collections::Generic::List_1<::RPG::GameCore::LevelCurvePointInfo*>* a4, ::RPG::GameCore::LevelCurvePointInfo*& a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single&, ::System::Single, ::System::Single, ::System::Collections::Generic::List_1<::RPG::GameCore::LevelCurvePointInfo*>*, ::RPG::GameCore::LevelCurvePointInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMECIRCLECURVEINFO_METHOD_3_23EAA5B6C78B0858_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::System::Single&, ::System::Single, ::System::Single, ::System::Collections::Generic::List_1<::RPG::GameCore::LevelCurvePointInfo*>*, ::RPG::GameCore::LevelCurvePointInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMECIRCLECURVEINFO_METHOD_3_97A366DE298E597F_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 	};
 }

@@ -13,29 +13,29 @@ namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class Text; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEFUNCUNLOCKFLY_DESPAWNED_OFFSET UNITYSDK_OFFSET(0x1A65F020)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEFUNCUNLOCKFLY_FLY_OFFSET UNITYSDK_OFFSET(0x1A65EC80)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEFUNCUNLOCKFLY_ONCREATE_OFFSET UNITYSDK_OFFSET(0x1A65F0A0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEFUNCUNLOCKFLY_SPAWNED_OFFSET UNITYSDK_OFFSET(0x1A65F060)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEFUNCUNLOCKFLY__CTOR_OFFSET UNITYSDK_OFFSET(0x1A65F3B0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEFUNCUNLOCKFLY_DESPAWNED_OFFSET UNITYSDK_OFFSET(0x1C0E1B50)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEFUNCUNLOCKFLY_FLY_OFFSET UNITYSDK_OFFSET(0x1C0E17B0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEFUNCUNLOCKFLY_ONCREATE_OFFSET UNITYSDK_OFFSET(0x1C0E1BD0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEFUNCUNLOCKFLY_SPAWNED_OFFSET UNITYSDK_OFFSET(0x1C0E1B90)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEFUNCUNLOCKFLY__CTOR_OFFSET UNITYSDK_OFFSET(0x1C0E1EE0)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveFuncUnlockFly_TypeDefinitionIndex = 71570;
+	inline static constexpr unsigned int IdleLiveFuncUnlockFly_TypeDefinitionIndex = 74876;
 
 	class IdleLiveFuncUnlockFly : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		// static const ::System::String* Field_5_0; // 0x0
-		::System::Single Field_5_1; // 0x18
-		::UnityEngine::Transform* Field_5_2; // 0x20
-		::UnityEngine::Transform* Field_5_3; // 0x28
-		::UnityEngine::Transform* Field_5_4; // 0x30
-		::RPG::Client::QuadricBezier* Field_5_5; // 0x38
-		::UnityEngine::Animation* Field_5_6; // 0x40
-		::UnityEngine::UI::Text* Field_5_7; // 0x48
-		::UnityEngine::UI::Image* Field_5_8; // 0x50
-		::UnityEngine::Transform* Field_5_9; // 0x58
+		// static const ::System::String* PNBBLMANKPC; // 0x0
+		::System::Single LJEOPKOBAGF; // 0x18
+		::UnityEngine::Transform* KNGEKPKBIDK; // 0x20
+		::UnityEngine::Transform* CEEAKCACHGJ; // 0x28
+		::UnityEngine::Transform* GNPBGAKIAHM; // 0x30
+		::RPG::Client::QuadricBezier* BKHMEKLPNHJ; // 0x38
+		::UnityEngine::Animation* KCOAILOHDND; // 0x40
+		::UnityEngine::UI::Text* GEPFFDDHPAI; // 0x48
+		::UnityEngine::UI::Image* LPMHMLOGPPN; // 0x50
+		::UnityEngine::Transform* AMIKEMOINMJ; // 0x58
 
 		::System::Void _ctor()
 		{

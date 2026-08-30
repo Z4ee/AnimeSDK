@@ -7,7 +7,7 @@ namespace RPG { template <typename T> class PoolList_1; }
 namespace RPG::GameCore { class FiveDimBaseEventAction; }
 namespace RPG::GameCore { class LittleGameEvent; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_172_TypeDefinitionIndex = 39712;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_172_TypeDefinitionIndex = 40585;
 
 class Class_0_16E4307DCC419505_172
 {

@@ -7,19 +7,19 @@ namespace RPG::Client { class ItemCostCalculateResult; }
 namespace RPG::Client { class ItemCostCalculator; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_416ED9552503F399_METHOD_1_16BD115D596240FF_OFFSET UNITYSDK_OFFSET(0x181C5960)
-#define CLASS_1_416ED9552503F399_METHOD_1_308A73B5AFED9089_OFFSET UNITYSDK_OFFSET(0x181C5A30)
-#define CLASS_1_416ED9552503F399_METHOD_1_D6AF3D5647297AEB_OFFSET UNITYSDK_OFFSET(0x181C5C50)
-#define CLASS_1_416ED9552503F399__CCTOR_OFFSET UNITYSDK_OFFSET(0x181C5D90)
+#define CLASS_1_416ED9552503F399_METHOD_1_16BD115D596240FF_OFFSET UNITYSDK_OFFSET(0x14C54B50)
+#define CLASS_1_416ED9552503F399_METHOD_1_308A73B5AFED9089_OFFSET UNITYSDK_OFFSET(0x14C54C20)
+#define CLASS_1_416ED9552503F399_METHOD_1_D6AF3D5647297AEB_OFFSET UNITYSDK_OFFSET(0x14C54E40)
+#define CLASS_1_416ED9552503F399__CCTOR_OFFSET UNITYSDK_OFFSET(0x14C54F80)
 
-inline static constexpr unsigned int Class_1_416ED9552503F399_TypeDefinitionIndex = 62811;
+inline static constexpr unsigned int Class_1_416ED9552503F399_TypeDefinitionIndex = 65796;
 
 class Class_1_416ED9552503F399 : public ::System::Object
 {
 public:
-	static ::System::UInt32* StaticGet_Field_1_0()
+	static ::System::UInt32* StaticGet_GDDICPCFJON()
 	{
-		return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_416ED9552503F399_TypeDefinitionIndex)->GetStaticField(0xA530);
+		return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_416ED9552503F399_TypeDefinitionIndex)->GetStaticField(0xFF40);
 	}
 
 	static ::System::Void _cctor()

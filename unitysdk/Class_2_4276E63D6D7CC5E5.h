@@ -6,19 +6,19 @@ namespace System { class String; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class Dropdown; }
 
-#define CLASS_2_4276E63D6D7CC5E5_METHOD_2_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x16A9D680)
-#define CLASS_2_4276E63D6D7CC5E5_METHOD_2_88B60F3B95FAA4F1_OFFSET UNITYSDK_OFFSET(0x16A9D610)
-#define CLASS_2_4276E63D6D7CC5E5__CTOR_OFFSET UNITYSDK_OFFSET(0x16A9D770)
+#define CLASS_2_4276E63D6D7CC5E5_METHOD_2_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x189674D0)
+#define CLASS_2_4276E63D6D7CC5E5_METHOD_2_88B60F3B95FAA4F1_OFFSET UNITYSDK_OFFSET(0x18967460)
+#define CLASS_2_4276E63D6D7CC5E5__CTOR_OFFSET UNITYSDK_OFFSET(0x189675C0)
 
-inline static constexpr unsigned int Class_2_4276E63D6D7CC5E5_TypeDefinitionIndex = 69448;
+inline static constexpr unsigned int Class_2_4276E63D6D7CC5E5_TypeDefinitionIndex = 72674;
 
 class Class_2_4276E63D6D7CC5E5 : public ::Class_1_A167209E71412818
 {
 public:
-	::UnityEngine::UI::Button* Field_2_0; // 0x18
-	::UnityEngine::UI::Dropdown* Field_2_1; // 0x20
-	::UnityEngine::UI::Button* Field_2_2; // 0x28
-	::UnityEngine::UI::Dropdown* Field_2_3; // 0x30
+	::UnityEngine::UI::Button* GNJPAOBJGGA; // 0x18
+	::UnityEngine::UI::Button* FPNIIGOJKGG; // 0x20
+	::UnityEngine::UI::Dropdown* FKGDPKLFDHK; // 0x28
+	::UnityEngine::UI::Dropdown* NIAFKHGAIKI; // 0x30
 
 	::System::Void _ctor()
 	{

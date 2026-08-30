@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::Match3
 {
-	inline static constexpr unsigned int SimulateInputType_TypeDefinitionIndex = 40479;
+	inline static constexpr unsigned int SimulateInputType_TypeDefinitionIndex = 41417;
 
 	enum class SimulateInputType : ::System::Int32
 	{

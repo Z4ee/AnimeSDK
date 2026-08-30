@@ -5,15 +5,15 @@
 
 namespace UnityEngine { class Material; }
 
-#define RPG_CLIENT_HDALIGHTNING_AWAKE_OFFSET UNITYSDK_OFFSET(0x18FC5DF0)
-#define RPG_CLIENT_HDALIGHTNING_LATETICK_OFFSET UNITYSDK_OFFSET(0x18FC5FE0)
-#define RPG_CLIENT_HDALIGHTNING_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x18FC5F50)
-#define RPG_CLIENT_HDALIGHTNING_ONENABLE_OFFSET UNITYSDK_OFFSET(0x18FC5EC0)
-#define RPG_CLIENT_HDALIGHTNING__CTOR_OFFSET UNITYSDK_OFFSET(0x18FC6210)
+#define RPG_CLIENT_HDALIGHTNING_AWAKE_OFFSET UNITYSDK_OFFSET(0x1A0440A0)
+#define RPG_CLIENT_HDALIGHTNING_LATETICK_OFFSET UNITYSDK_OFFSET(0x1A044290)
+#define RPG_CLIENT_HDALIGHTNING_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1A044200)
+#define RPG_CLIENT_HDALIGHTNING_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1A044170)
+#define RPG_CLIENT_HDALIGHTNING__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0444C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int HDALightning_TypeDefinitionIndex = 67448;
+	inline static constexpr unsigned int HDALightning_TypeDefinitionIndex = 70571;
 
 	class HDALightning : public ::UnityEngine::MonoBehaviour
 	{
@@ -24,9 +24,9 @@ namespace RPG::Client
 		::System::Boolean UseDissolve; // 0x3C
 		::System::Single DissolveValue; // 0x40
 		::System::Boolean Show; // 0x44
-		::UnityEngine::Material* Field_5_6; // 0x48
-		::System::Boolean Field_5_7; // 0x50
-		::System::Boolean Field_5_8; // 0x51
+		::UnityEngine::Material* IMOHCDHKBAJ; // 0x48
+		::System::Boolean NIJFGCPDBIC; // 0x50
+		::System::Boolean CCLHPIFFMCP; // 0x51
 
 		::System::Void _ctor()
 		{

@@ -6,15 +6,15 @@ class Class_2_21AD365C113DC484;
 class Class_2_F3C45F1FC7349B6E;
 namespace RPG::GameCore { class CakeRaceActionEnableTargetLockCat; }
 
-#define CLASS_2_233C25AA6829F8DF_METHOD_2_126643199A9CA1E8_OFFSET UNITYSDK_OFFSET(0x17B12670)
-#define CLASS_2_233C25AA6829F8DF__CTOR_OFFSET UNITYSDK_OFFSET(0x17B12660)
+#define CLASS_2_233C25AA6829F8DF_METHOD_2_126643199A9CA1E8_OFFSET UNITYSDK_OFFSET(0x197123E0)
+#define CLASS_2_233C25AA6829F8DF__CTOR_OFFSET UNITYSDK_OFFSET(0x197123D0)
 
-inline static constexpr unsigned int Class_2_233C25AA6829F8DF_TypeDefinitionIndex = 35824;
+inline static constexpr unsigned int Class_2_233C25AA6829F8DF_TypeDefinitionIndex = 36685;
 
 class Class_2_233C25AA6829F8DF : public ::Class_1_E559374AC4E5AD13
 {
 public:
-	::RPG::GameCore::CakeRaceActionEnableTargetLockCat* Field_2_0; // 0x10
+	::RPG::GameCore::CakeRaceActionEnableTargetLockCat* IGHAHBNLIJA; // 0x10
 
 	::System::Void _ctor(::RPG::GameCore::CakeRaceActionEnableTargetLockCat* a1)
 	{

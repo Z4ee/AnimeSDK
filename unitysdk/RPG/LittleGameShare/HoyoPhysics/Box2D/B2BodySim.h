@@ -5,33 +5,33 @@
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2Vec2.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2BODYSIM_CLEAR_OFFSET UNITYSDK_OFFSET(0xB60A110)
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2BODYSIM_COPYFROM_OFFSET UNITYSDK_OFFSET(0xB613E00)
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2BODYSIM__CTOR_OFFSET UNITYSDK_OFFSET(0xB613E90)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2BODYSIM_CLEAR_OFFSET UNITYSDK_OFFSET(0xC2CF510)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2BODYSIM_COPYFROM_OFFSET UNITYSDK_OFFSET(0xC2D9160)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2BODYSIM__CTOR_OFFSET UNITYSDK_OFFSET(0xC2D91F0)
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2BodySim_TypeDefinitionIndex = 35049;
+	inline static constexpr unsigned int B2BodySim_TypeDefinitionIndex = 35910;
 
 	class B2BodySim : public ::System::Object
 	{
 	public:
-		::System::Single torque; // 0x10
-		::System::UInt32 flags; // 0x14
-		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Vec2 force; // 0x18
-		::System::Single invInertia; // 0x20
-		::System::Single gravityScale; // 0x24
-		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Vec2 center; // 0x28
-		::System::Single angularDamping; // 0x30
-		::System::Single linearDamping; // 0x34
-		::System::Single maxExtent; // 0x38
-		::System::Int32 bodyId; // 0x3C
-		::System::Single minExtent; // 0x40
-		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Vec2 localCenter; // 0x44
-		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform transform; // 0x4C
-		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Rot rotation0; // 0x5C
-		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Vec2 center0; // 0x64
-		::System::Single invMass; // 0x6C
+		::System::Single invMass; // 0x10
+		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Vec2 force; // 0x14
+		::System::Single invInertia; // 0x1C
+		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Transform transform; // 0x20
+		::System::Int32 bodyId; // 0x30
+		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Vec2 center; // 0x34
+		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Vec2 center0; // 0x3C
+		::System::Single gravityScale; // 0x44
+		::System::Single linearDamping; // 0x48
+		::System::UInt32 flags; // 0x4C
+		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Vec2 localCenter; // 0x50
+		::System::Single angularDamping; // 0x58
+		::System::Single minExtent; // 0x5C
+		::System::Single torque; // 0x60
+		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Rot rotation0; // 0x64
+		::System::Single maxExtent; // 0x6C
 
 		::System::Void _ctor()
 		{

@@ -4,12 +4,12 @@
 
 namespace RPG::Client::ActivityIdleLive { class IdleLiveChapter; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_STORYLINE___C__DISPLAYCLASS31_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A196DE0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_STORYLINE___C__DISPLAYCLASS31_0__TRYGETCHAPTERBYINDEX_B__0_OFFSET UNITYSDK_OFFSET(0x1A198150)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_STORYLINE___C__DISPLAYCLASS31_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA71D00)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_STORYLINE___C__DISPLAYCLASS31_0__TRYGETCHAPTERBYINDEX_B__0_OFFSET UNITYSDK_OFFSET(0x1BA733B0)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int StoryLine___c__DisplayClass31_0_TypeDefinitionIndex = 71553;
+	inline static constexpr unsigned int StoryLine___c__DisplayClass31_0_TypeDefinitionIndex = 74859;
 
 	class StoryLine___c__DisplayClass31_0 : public ::System::Object
 	{

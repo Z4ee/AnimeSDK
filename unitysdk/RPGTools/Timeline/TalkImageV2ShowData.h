@@ -6,14 +6,14 @@ namespace RPG::GameCore { class PerformanceBgImagePanelConfig; }
 namespace RPGTools::Timeline { class TalkImageV2ShowClip; }
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_TALKIMAGEV2SHOWDATA_SETUP_OFFSET UNITYSDK_OFFSET(0x19F53180)
-#define RPGTOOLS_TIMELINE_TALKIMAGEV2SHOWDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19F53170)
-#define RPGTOOLS_TIMELINE_TALKIMAGEV2SHOWDATA__GETFADESPEED_OFFSET UNITYSDK_OFFSET(0x19F53770)
-#define RPGTOOLS_TIMELINE_TALKIMAGEV2SHOWDATA__GETPANELCONFIG_OFFSET UNITYSDK_OFFSET(0x19F535A0)
+#define RPGTOOLS_TIMELINE_TALKIMAGEV2SHOWDATA_SETUP_OFFSET UNITYSDK_OFFSET(0x1BF2A690)
+#define RPGTOOLS_TIMELINE_TALKIMAGEV2SHOWDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF2A680)
+#define RPGTOOLS_TIMELINE_TALKIMAGEV2SHOWDATA__GETFADESPEED_OFFSET UNITYSDK_OFFSET(0x1BF2AC80)
+#define RPGTOOLS_TIMELINE_TALKIMAGEV2SHOWDATA__GETPANELCONFIG_OFFSET UNITYSDK_OFFSET(0x1BF2AAB0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int TalkImageV2ShowData_TypeDefinitionIndex = 46602;
+	inline static constexpr unsigned int TalkImageV2ShowData_TypeDefinitionIndex = 48847;
 
 	class TalkImageV2ShowData : public ::System::Object
 	{
@@ -23,9 +23,9 @@ namespace RPGTools::Timeline
 		::System::String* ImagePath; // 0x18
 		::System::String* PanelType; // 0x20
 		::System::UInt32 PanelIndex; // 0x28
-		::System::Boolean IsCustomAspectRatio; // 0x2C
-		::System::Single FadeSpeed; // 0x30
-		::System::Single CustomAspectRatio; // 0x34
+		::System::Single FadeSpeed; // 0x2C
+		::System::Single CustomAspectRatio; // 0x30
+		::System::Boolean IsCustomAspectRatio; // 0x34
 
 		::System::Void _ctor()
 		{

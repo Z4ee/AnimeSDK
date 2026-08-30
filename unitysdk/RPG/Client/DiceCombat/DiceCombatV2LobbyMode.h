@@ -3,7 +3,7 @@
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatV2LobbyMode_TypeDefinitionIndex = 72288;
+	inline static constexpr unsigned int DiceCombatV2LobbyMode_TypeDefinitionIndex = 75724;
 
 	enum class DiceCombatV2LobbyMode : ::System::Int32
 	{

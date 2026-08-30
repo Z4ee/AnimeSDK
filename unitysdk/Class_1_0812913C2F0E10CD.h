@@ -13,30 +13,30 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Collections::Specialized { class NotifyCollectionChangedEventArgs; }
 namespace System::Collections::Specialized { class NotifyCollectionChangedEventHandler; }
 
-#define CLASS_1_0812913C2F0E10CD_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1631B9B0)
-#define CLASS_1_0812913C2F0E10CD_GET_CONSUMABLEINFO_OFFSET UNITYSDK_OFFSET(0x1631C010)
-#define CLASS_1_0812913C2F0E10CD_METHOD_1_077C24CA86268BCA_OFFSET UNITYSDK_OFFSET(0x1631BE40)
-#define CLASS_1_0812913C2F0E10CD_METHOD_1_0CF31CF921E2FE82_OFFSET UNITYSDK_OFFSET(0x1631BB30)
-#define CLASS_1_0812913C2F0E10CD_METHOD_1_4A4D45A096EFF43A_OFFSET UNITYSDK_OFFSET(0x1631BAE0)
-#define CLASS_1_0812913C2F0E10CD_METHOD_1_88CB5C966EB8CAE7_OFFSET UNITYSDK_OFFSET(0x1631BFB0)
-#define CLASS_1_0812913C2F0E10CD_METHOD_1_9E39489821EE8586_OFFSET UNITYSDK_OFFSET(0x1631BCF0)
-#define CLASS_1_0812913C2F0E10CD_METHOD_1_D6E49188A58FC421_OFFSET UNITYSDK_OFFSET(0x1631BDE0)
-#define CLASS_1_0812913C2F0E10CD_METHOD_1_DBB501E5ACF0CA39_1_OFFSET UNITYSDK_OFFSET(0x1631BA70)
-#define CLASS_1_0812913C2F0E10CD_METHOD_1_DBB501E5ACF0CA39_OFFSET UNITYSDK_OFFSET(0x1631BA00)
-#define CLASS_1_0812913C2F0E10CD_METHOD_1_E2F976E2E8D94A21_OFFSET UNITYSDK_OFFSET(0x1631BC40)
-#define CLASS_1_0812913C2F0E10CD_METHOD_1_E892861EE594315C_OFFSET UNITYSDK_OFFSET(0x1631BF30)
-#define CLASS_1_0812913C2F0E10CD__CTOR_OFFSET UNITYSDK_OFFSET(0x1631B990)
+#define CLASS_1_0812913C2F0E10CD_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18FA40C0)
+#define CLASS_1_0812913C2F0E10CD_GET_CONSUMABLEINFO_OFFSET UNITYSDK_OFFSET(0x18FA4720)
+#define CLASS_1_0812913C2F0E10CD_METHOD_1_077C24CA86268BCA_OFFSET UNITYSDK_OFFSET(0x18FA4550)
+#define CLASS_1_0812913C2F0E10CD_METHOD_1_0CF31CF921E2FE82_OFFSET UNITYSDK_OFFSET(0x18FA4240)
+#define CLASS_1_0812913C2F0E10CD_METHOD_1_4A4D45A096EFF43A_OFFSET UNITYSDK_OFFSET(0x18FA41F0)
+#define CLASS_1_0812913C2F0E10CD_METHOD_1_88CB5C966EB8CAE7_OFFSET UNITYSDK_OFFSET(0x18FA46C0)
+#define CLASS_1_0812913C2F0E10CD_METHOD_1_9E39489821EE8586_OFFSET UNITYSDK_OFFSET(0x18FA4400)
+#define CLASS_1_0812913C2F0E10CD_METHOD_1_C80767BADCCC4AB7_1_OFFSET UNITYSDK_OFFSET(0x18FA4180)
+#define CLASS_1_0812913C2F0E10CD_METHOD_1_C80767BADCCC4AB7_OFFSET UNITYSDK_OFFSET(0x18FA4110)
+#define CLASS_1_0812913C2F0E10CD_METHOD_1_D6E49188A58FC421_OFFSET UNITYSDK_OFFSET(0x18FA44F0)
+#define CLASS_1_0812913C2F0E10CD_METHOD_1_E2F976E2E8D94A21_OFFSET UNITYSDK_OFFSET(0x18FA4350)
+#define CLASS_1_0812913C2F0E10CD_METHOD_1_E892861EE594315C_OFFSET UNITYSDK_OFFSET(0x18FA4640)
+#define CLASS_1_0812913C2F0E10CD__CTOR_OFFSET UNITYSDK_OFFSET(0x18FA40A0)
 
-inline static constexpr unsigned int Class_1_0812913C2F0E10CD_TypeDefinitionIndex = 62394;
+inline static constexpr unsigned int Class_1_0812913C2F0E10CD_TypeDefinitionIndex = 65379;
 
 class Class_1_0812913C2F0E10CD : public ::System::Object
 {
 public:
-	::RPG::Client::GridFightTeam* Field_1_0; // 0x10
-	::RPG::Client::GridFightEquipInfo* Field_1_1; // 0x18
-	::System::Action_2<::System::Object*, ::System::Collections::Specialized::NotifyCollectionChangedEventArgs*>* Field_1_2; // 0x20
-	::RPG::Client::GridFightPlayer* Field_1_3; // 0x28
-	::RPG::Client::GridFightConsumableInfo* _ConsumableInfo_k__BackingField; // 0x30
+	::RPG::Client::GridFightEquipInfo* NCHCLADAFBP; // 0x10
+	::RPG::Client::GridFightConsumableInfo* _ConsumableInfo_k__BackingField; // 0x18
+	::System::Action_2<::System::Object*, ::System::Collections::Specialized::NotifyCollectionChangedEventArgs*>* EMLDHINHNHP; // 0x20
+	::RPG::Client::GridFightPlayer* CMNJDMKPPIA; // 0x28
+	::RPG::Client::GridFightTeam* GJHCMKBNING; // 0x30
 
 	::System::Void _ctor(::RPG::Client::GridFightTeam* a1, ::RPG::Client::GridFightPlayer* a2, ::RPG::Client::GridFightEquipInfo* a3, ::RPG::Client::GridFightConsumableInfo* a4)
 	{
@@ -48,14 +48,14 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_0812913C2F0E10CD_DISPOSE_OFFSET))(this);
 	}
 
-	::System::Void Method_1_DBB501E5ACF0CA39(::System::Collections::Specialized::NotifyCollectionChangedEventHandler* a1)
+	::System::Void Method_1_C80767BADCCC4AB7(::System::Collections::Specialized::NotifyCollectionChangedEventHandler* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Collections::Specialized::NotifyCollectionChangedEventHandler*))((::PBYTE)hIl2Cpp + CLASS_1_0812913C2F0E10CD_METHOD_1_DBB501E5ACF0CA39_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::System::Collections::Specialized::NotifyCollectionChangedEventHandler*))((::PBYTE)hIl2Cpp + CLASS_1_0812913C2F0E10CD_METHOD_1_C80767BADCCC4AB7_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_1_DBB501E5ACF0CA39_1(::System::Collections::Specialized::NotifyCollectionChangedEventHandler* a1)
+	::System::Void Method_1_C80767BADCCC4AB7_1(::System::Collections::Specialized::NotifyCollectionChangedEventHandler* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Collections::Specialized::NotifyCollectionChangedEventHandler*))((::PBYTE)hIl2Cpp + CLASS_1_0812913C2F0E10CD_METHOD_1_DBB501E5ACF0CA39_1_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::System::Collections::Specialized::NotifyCollectionChangedEventHandler*))((::PBYTE)hIl2Cpp + CLASS_1_0812913C2F0E10CD_METHOD_1_C80767BADCCC4AB7_1_OFFSET))(this, a1);
 	}
 
 	::System::Collections::Generic::List_1<::RPG::Client::GridFightRole*>* Method_1_4A4D45A096EFF43A()

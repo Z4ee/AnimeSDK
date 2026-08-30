@@ -5,24 +5,24 @@
 namespace RPG::Client::ChenLingBattle { class CardConfig; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_CHENLINGBATTLE_POLICY___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AFD9460)
-#define RPG_CLIENT_CHENLINGBATTLE_POLICY___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1AFD94A0)
-#define RPG_CLIENT_CHENLINGBATTLE_POLICY___C___CTOR_B__1_0_OFFSET UNITYSDK_OFFSET(0x1AFD94B0)
+#define RPG_CLIENT_CHENLINGBATTLE_POLICY___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CC289A0)
+#define RPG_CLIENT_CHENLINGBATTLE_POLICY___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC289E0)
+#define RPG_CLIENT_CHENLINGBATTLE_POLICY___C___CTOR_B__1_0_OFFSET UNITYSDK_OFFSET(0x1CC289F0)
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int Policy___c_TypeDefinitionIndex = 72457;
+	inline static constexpr unsigned int Policy___c_TypeDefinitionIndex = 75893;
 
 	class Policy___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::System::UInt32, ::RPG::Client::ChenLingBattle::CardConfig*>** StaticGet___9__1_0()
 		{
-			return (::System::Func_2<::System::UInt32, ::RPG::Client::ChenLingBattle::CardConfig*>**)Il2CppClass::FromTypeDefinitionIndex(Policy___c_TypeDefinitionIndex)->GetStaticField(0x64F30);
+			return (::System::Func_2<::System::UInt32, ::RPG::Client::ChenLingBattle::CardConfig*>**)Il2CppClass::FromTypeDefinitionIndex(Policy___c_TypeDefinitionIndex)->GetStaticField(0x34B30);
 		}
 		static ::RPG::Client::ChenLingBattle::Policy___c** StaticGet___9()
 		{
-			return (::RPG::Client::ChenLingBattle::Policy___c**)Il2CppClass::FromTypeDefinitionIndex(Policy___c_TypeDefinitionIndex)->GetStaticField(0x64F38);
+			return (::RPG::Client::ChenLingBattle::Policy___c**)Il2CppClass::FromTypeDefinitionIndex(Policy___c_TypeDefinitionIndex)->GetStaticField(0x34B38);
 		}
 
 		static ::System::Void _cctor()

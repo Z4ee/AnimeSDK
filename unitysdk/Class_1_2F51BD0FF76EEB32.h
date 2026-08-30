@@ -6,15 +6,15 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::Timeline { class GroupTrack; }
 namespace UnityEngine::Timeline { class TrackAsset; }
 
-#define CLASS_1_2F51BD0FF76EEB32__CTOR_OFFSET UNITYSDK_OFFSET(0x18FA3410)
+#define CLASS_1_2F51BD0FF76EEB32__CTOR_OFFSET UNITYSDK_OFFSET(0x18823DB0)
 
-inline static constexpr unsigned int Class_1_2F51BD0FF76EEB32_TypeDefinitionIndex = 46727;
+inline static constexpr unsigned int Class_1_2F51BD0FF76EEB32_TypeDefinitionIndex = 48973;
 
 class Class_1_2F51BD0FF76EEB32 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::UnityEngine::Timeline::TrackAsset*>* Field_1_0; // 0x10
-	::UnityEngine::Timeline::GroupTrack* Field_1_1; // 0x18
+	::UnityEngine::Timeline::GroupTrack* HBBDNGBNCBM; // 0x10
+	::System::Collections::Generic::List_1<::UnityEngine::Timeline::TrackAsset*>* EOHCPMLDIFE; // 0x18
 
 	::System::Void _ctor()
 	{

@@ -6,11 +6,11 @@ namespace RPG::Client { class RogueTournExhibitionInfo; }
 namespace RPG::GameCore { class RogueTournSetExhibitionBoothImage; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_C0025ED35CD5FC42_METHOD_3_BF84C3CDA2680729_OFFSET UNITYSDK_OFFSET(0x16BB8B10)
-#define CLASS_3_C0025ED35CD5FC42_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16BB8390)
-#define CLASS_3_C0025ED35CD5FC42__CTOR_OFFSET UNITYSDK_OFFSET(0x16BB8360)
+#define CLASS_3_C0025ED35CD5FC42_METHOD_3_BF84C3CDA2680729_OFFSET UNITYSDK_OFFSET(0x18A35C20)
+#define CLASS_3_C0025ED35CD5FC42_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18A354A0)
+#define CLASS_3_C0025ED35CD5FC42__CTOR_OFFSET UNITYSDK_OFFSET(0x18A35470)
 
-inline static constexpr unsigned int Class_3_C0025ED35CD5FC42_TypeDefinitionIndex = 55873;
+inline static constexpr unsigned int Class_3_C0025ED35CD5FC42_TypeDefinitionIndex = 58645;
 
 class Class_3_C0025ED35CD5FC42 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::RogueTournSetExhibitionBoothImage*>
 {

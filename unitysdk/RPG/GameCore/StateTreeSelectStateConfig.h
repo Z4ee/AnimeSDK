@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_STATETREESELECTSTATECONFIG_METHOD_2_07D210A084BDAD88_OFFSET UNITYSDK_OFFSET(0x1B0BFDA0)
-#define RPG_GAMECORE_STATETREESELECTSTATECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0BFED0)
+#define RPG_GAMECORE_STATETREESELECTSTATECONFIG_METHOD_2_97241D09A412AC0B_OFFSET UNITYSDK_OFFSET(0x1CAF7820)
+#define RPG_GAMECORE_STATETREESELECTSTATECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CAF7920)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StateTreeSelectStateConfig_TypeDefinitionIndex = 14889;
+	inline static constexpr unsigned int StateTreeSelectStateConfig_TypeDefinitionIndex = 15325;
 
 	class StateTreeSelectStateConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STATETREESELECTSTATECONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_07D210A084BDAD88(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StateTreeSelectStateConfig*& a2)
+		static ::System::Void Method_2_97241D09A412AC0B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StateTreeSelectStateConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StateTreeSelectStateConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STATETREESELECTSTATECONFIG_METHOD_2_07D210A084BDAD88_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StateTreeSelectStateConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STATETREESELECTSTATECONFIG_METHOD_2_97241D09A412AC0B_OFFSET))(a1, a2);
 		}
 	};
 }

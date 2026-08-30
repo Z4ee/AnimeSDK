@@ -6,17 +6,17 @@
 namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_CFBEA2D53E7F4C67_DISPOSE_OFFSET UNITYSDK_OFFSET(0x188A9730)
-#define CLASS_1_CFBEA2D53E7F4C67__CTOR_OFFSET UNITYSDK_OFFSET(0x188A9720)
+#define CLASS_1_CFBEA2D53E7F4C67_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16FE28E0)
+#define CLASS_1_CFBEA2D53E7F4C67__CTOR_OFFSET UNITYSDK_OFFSET(0x16FE28D0)
 
-inline static constexpr unsigned int Class_1_CFBEA2D53E7F4C67_TypeDefinitionIndex = 59189;
+inline static constexpr unsigned int Class_1_CFBEA2D53E7F4C67_TypeDefinitionIndex = 62024;
 
 class Class_1_CFBEA2D53E7F4C67 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::System::UInt32>* Field_1_0; // 0x10
-	::System::Action* Field_1_1; // 0x18
-	::RPG::Client::SwordTrainingPerformanceType Field_1_2; // 0x20
+	::System::Collections::Generic::List_1<::System::UInt32>* GOJCJPGDBCD; // 0x10
+	::System::Action* NKHBIAGFFFC; // 0x18
+	::RPG::Client::SwordTrainingPerformanceType DNGFHOEACBI; // 0x20
 
 	::System::Void _ctor(::RPG::Client::SwordTrainingPerformanceType a1, ::System::Collections::Generic::List_1<::System::UInt32>* a2, ::System::Action* a3)
 	{

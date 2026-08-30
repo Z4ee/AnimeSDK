@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByCasterAliveOrLimbo; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_32B0121706F70705_EVALUATE_OFFSET UNITYSDK_OFFSET(0x14D7FF90)
-#define CLASS_3_32B0121706F70705__CTOR_OFFSET UNITYSDK_OFFSET(0x14D7FF60)
+#define CLASS_3_32B0121706F70705_EVALUATE_OFFSET UNITYSDK_OFFSET(0x163D5320)
+#define CLASS_3_32B0121706F70705__CTOR_OFFSET UNITYSDK_OFFSET(0x163D52F0)
 
-inline static constexpr unsigned int Class_3_32B0121706F70705_TypeDefinitionIndex = 52394;
+inline static constexpr unsigned int Class_3_32B0121706F70705_TypeDefinitionIndex = 55090;
 
 class Class_3_32B0121706F70705 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByCasterAliveOrLimbo*>
 {

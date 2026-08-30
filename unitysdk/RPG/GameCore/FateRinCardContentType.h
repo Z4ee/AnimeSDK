@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FateRinCardContentType_TypeDefinitionIndex = 23587;
+	inline static constexpr unsigned int FateRinCardContentType_TypeDefinitionIndex = 24172;
 
 	enum class FateRinCardContentType : ::System::Int32
 	{

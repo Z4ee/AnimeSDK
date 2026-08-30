@@ -1,5 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_0_16E4307DCC419505_1028_ERenderInstanceCollectMode.h"
 #include "unitysdk/RPG/Client/DialogEmitterBehavior_AlignmentMode.h"
 #include "unitysdk/RPG/Client/DialogEmitterBehavior_ContentType.h"
 #include "unitysdk/RPG/Client/DialogEmitterBehavior_EmitType.h"
@@ -17,25 +18,27 @@ namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Mesh; }
 
-#define RPG_CLIENT_DIALOGEMITTERMONOPLUGIN_GET_ARTBOUNDFULL_OFFSET UNITYSDK_OFFSET(0x18097710)
-#define RPG_CLIENT_DIALOGEMITTERMONOPLUGIN_GET_ARTBOUND_OFFSET UNITYSDK_OFFSET(0x1809D540)
-#define RPG_CLIENT_DIALOGEMITTERMONOPLUGIN_GET_IFONLYRENDERER_OFFSET UNITYSDK_OFFSET(0x1809D480)
-#define RPG_CLIENT_DIALOGEMITTERMONOPLUGIN_GET_IFUSESTATICEMOJI_OFFSET UNITYSDK_OFFSET(0x1809D4E0)
-#define RPG_CLIENT_DIALOGEMITTERMONOPLUGIN_GET_IFUSETEXT_OFFSET UNITYSDK_OFFSET(0x1809D490)
-#define RPG_CLIENT_DIALOGEMITTERMONOPLUGIN_GET_RENDERBUDGETDATA_OFFSET UNITYSDK_OFFSET(0x1809D5F0)
-#define RPG_CLIENT_DIALOGEMITTERMONOPLUGIN__CCTOR_OFFSET UNITYSDK_OFFSET(0x1809DD50)
-#define RPG_CLIENT_DIALOGEMITTERMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1809DC20)
+#define RPG_CLIENT_DIALOGEMITTERMONOPLUGIN_GET_ARTBOUNDFULL_OFFSET UNITYSDK_OFFSET(0x192E7880)
+#define RPG_CLIENT_DIALOGEMITTERMONOPLUGIN_GET_ARTBOUND_OFFSET UNITYSDK_OFFSET(0x192EEF70)
+#define RPG_CLIENT_DIALOGEMITTERMONOPLUGIN_GET_IFONLYRENDERER_OFFSET UNITYSDK_OFFSET(0x192EEE20)
+#define RPG_CLIENT_DIALOGEMITTERMONOPLUGIN_GET_IFSHOWTEXTCOLOR_OFFSET UNITYSDK_OFFSET(0x192EEEE0)
+#define RPG_CLIENT_DIALOGEMITTERMONOPLUGIN_GET_IFUSESTATICEMOJI_OFFSET UNITYSDK_OFFSET(0x192EEE80)
+#define RPG_CLIENT_DIALOGEMITTERMONOPLUGIN_GET_IFUSETEXT_OFFSET UNITYSDK_OFFSET(0x192EEE30)
+#define RPG_CLIENT_DIALOGEMITTERMONOPLUGIN_GET_RENDERBUDGETDATA_OFFSET UNITYSDK_OFFSET(0x192EF020)
+#define RPG_CLIENT_DIALOGEMITTERMONOPLUGIN_GET_RENDERINSTANCECOLLECTMODE_OFFSET UNITYSDK_OFFSET(0x192EF650)
+#define RPG_CLIENT_DIALOGEMITTERMONOPLUGIN__CCTOR_OFFSET UNITYSDK_OFFSET(0x192EF790)
+#define RPG_CLIENT_DIALOGEMITTERMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x192EF660)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DialogEmitterMonoPlugin_TypeDefinitionIndex = 67705;
+	inline static constexpr unsigned int DialogEmitterMonoPlugin_TypeDefinitionIndex = 70858;
 
 	class DialogEmitterMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::DialogEmitterBehavior*>
 	{
 	public:
-		static ::System::String** StaticGet_Field_7_0()
+		static ::System::String** StaticGet_FADILKPGCEM()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(DialogEmitterMonoPlugin_TypeDefinitionIndex)->GetStaticField(0x6AFD0);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(DialogEmitterMonoPlugin_TypeDefinitionIndex)->GetStaticField(0x5A8D0);
 		}
 		::UnityEngine::Mesh* BackMesh; // 0x30
 		::UnityEngine::Material* BackMaterial; // 0x38
@@ -45,7 +48,8 @@ namespace RPG::Client
 		::System::String* FontAssetPath; // 0x58
 		::System::Boolean IfOverrideAlignment; // 0x60
 		::System::Boolean IfOverrideType; // 0x61
-		::System::Boolean DrawHandle; // 0x62
+		::System::Boolean IfOverrideTextColor; // 0x62
+		::System::Boolean DrawHandle; // 0x63
 		::System::Collections::Generic::List_1<::RPG::Client::DialogEmitterBehavior_DialogData*>* DialogDatas; // 0x68
 		::System::Boolean IfUseBackboard; // 0x70
 		::RPG::Client::DialogEmitterBehavior_ContentType ContentType; // 0x74
@@ -60,6 +64,7 @@ namespace RPG::Client
 		::System::Boolean IfUniformFontSize; // 0xA4
 		::RPG::Client::DialogEmitterBehavior_EmitType EmitType; // 0xA8
 		::System::Boolean IfApplyRootTransform; // 0xAC
+		::System::Boolean IfCacheLocalMatrix; // 0xAD
 		::UnityEngine::Vector3 VolumeSize; // 0xB0
 		::System::Int32 MaxCount; // 0xBC
 		::System::Single RefreshInterval; // 0xC0
@@ -103,6 +108,11 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DIALOGEMITTERMONOPLUGIN_GET_IFUSESTATICEMOJI_OFFSET))(this);
 		}
 
+		::System::Boolean get_IfShowTextColor()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DIALOGEMITTERMONOPLUGIN_GET_IFSHOWTEXTCOLOR_OFFSET))(this);
+		}
+
 		::UnityEngine::Bounds get_ArtBoundFull()
 		{
 			return ((::UnityEngine::Bounds(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DIALOGEMITTERMONOPLUGIN_GET_ARTBOUNDFULL_OFFSET))(this);
@@ -116,6 +126,11 @@ namespace RPG::Client
 		::Struct_2_B3CFB45E7E960210 get_RenderBudgetData()
 		{
 			return ((::Struct_2_B3CFB45E7E960210(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DIALOGEMITTERMONOPLUGIN_GET_RENDERBUDGETDATA_OFFSET))(this);
+		}
+
+		::Class_0_16E4307DCC419505_1028_ERenderInstanceCollectMode get_RenderInstanceCollectMode()
+		{
+			return ((::Class_0_16E4307DCC419505_1028_ERenderInstanceCollectMode(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DIALOGEMITTERMONOPLUGIN_GET_RENDERINSTANCECOLLECTMODE_OFFSET))(this);
 		}
 	};
 }

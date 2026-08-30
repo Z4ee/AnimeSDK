@@ -6,17 +6,17 @@
 class Class_1_C50814066AD5D308;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_6ECCFCE75EB143F8_DISPOSE_OFFSET UNITYSDK_OFFSET(0x17AEFD10)
-#define CLASS_1_6ECCFCE75EB143F8__CTOR_OFFSET UNITYSDK_OFFSET(0x17AEFDB0)
+#define CLASS_1_6ECCFCE75EB143F8_DISPOSE_OFFSET UNITYSDK_OFFSET(0x165B8390)
+#define CLASS_1_6ECCFCE75EB143F8__CTOR_OFFSET UNITYSDK_OFFSET(0x165B8430)
 
-inline static constexpr unsigned int Class_1_6ECCFCE75EB143F8_TypeDefinitionIndex = 53565;
+inline static constexpr unsigned int Class_1_6ECCFCE75EB143F8_TypeDefinitionIndex = 56279;
 
 class Class_1_6ECCFCE75EB143F8 : public ::System::Object
 {
 public:
-	::Class_1_C50814066AD5D308* Field_1_0; // 0x10
-	::System::Collections::Generic::List_1<::Class_1_C50814066AD5D308*>* Field_1_1; // 0x18
-	::RPG::GameCore::FateTraitType Field_1_2; // 0x20
+	::Class_1_C50814066AD5D308* IBAADNINFCG; // 0x10
+	::System::Collections::Generic::List_1<::Class_1_C50814066AD5D308*>* AGMDLHDNBGK; // 0x18
+	::RPG::GameCore::FateTraitType FBFCPNADPKB; // 0x20
 
 	::System::Void _ctor()
 	{

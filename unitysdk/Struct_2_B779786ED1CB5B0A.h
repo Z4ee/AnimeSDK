@@ -7,18 +7,18 @@ namespace RPG::Client::SwordTraining { class SwordTrainingActionData; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define STRUCT_2_B779786ED1CB5B0A_DISPOSE_OFFSET UNITYSDK_OFFSET(0x39806B0)
-#define STRUCT_2_B779786ED1CB5B0A_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x3980610)
-#define STRUCT_2_B779786ED1CB5B0A_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x39806F0)
-#define STRUCT_2_B779786ED1CB5B0A_RESET_OFFSET UNITYSDK_OFFSET(0x3980770)
-#define STRUCT_2_B779786ED1CB5B0A_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x3980660)
-#define STRUCT_2_B779786ED1CB5B0A__CTOR_OFFSET UNITYSDK_OFFSET(0x3980590)
+#define STRUCT_2_B779786ED1CB5B0A_DISPOSE_OFFSET UNITYSDK_OFFSET(0x3B00CC0)
+#define STRUCT_2_B779786ED1CB5B0A_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x3B00C20)
+#define STRUCT_2_B779786ED1CB5B0A_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3B00D00)
+#define STRUCT_2_B779786ED1CB5B0A_RESET_OFFSET UNITYSDK_OFFSET(0x3B00D80)
+#define STRUCT_2_B779786ED1CB5B0A_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x3B00C70)
+#define STRUCT_2_B779786ED1CB5B0A__CTOR_OFFSET UNITYSDK_OFFSET(0x3B00BA0)
 
-inline static constexpr unsigned int Struct_2_B779786ED1CB5B0A_TypeDefinitionIndex = 71456;
+inline static constexpr unsigned int Struct_2_B779786ED1CB5B0A_TypeDefinitionIndex = 74762;
 
 struct alignas(8) Struct_2_B779786ED1CB5B0A
 {
-	::System::Collections::Generic::Dictionary_2_Enumerator<::System::UInt32, ::RPG::Client::SwordTraining::SwordTrainingActionData*> Field_2_0; // 0x10
+	::System::Collections::Generic::Dictionary_2_Enumerator<::System::UInt32, ::RPG::Client::SwordTraining::SwordTrainingActionData*> DDHLJAMMCFA; // 0x10
 
 	::System::Void _ctor(::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::SwordTraining::SwordTrainingActionData*>* a1)
 	{

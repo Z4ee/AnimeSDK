@@ -6,7 +6,7 @@ namespace UnityEngine { class ComputeShader; }
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int RuntimeAtlasManager_RuntimeAtlas_CopyShader_TypeDefinitionIndex = 5981;
+	inline static constexpr unsigned int RuntimeAtlasManager_RuntimeAtlas_CopyShader_TypeDefinitionIndex = 6811;
 
 	struct alignas(8) RuntimeAtlasManager_RuntimeAtlas_CopyShader
 	{

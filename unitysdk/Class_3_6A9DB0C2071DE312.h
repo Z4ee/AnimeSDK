@@ -5,17 +5,17 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class BattleBulletCommentItem; }
 
-#define CLASS_3_6A9DB0C2071DE312_METHOD_3_2DFC332AF3EA3B47_OFFSET UNITYSDK_OFFSET(0x1B41DBD0)
-#define CLASS_3_6A9DB0C2071DE312_METHOD_3_7AC9BC507737276A_OFFSET UNITYSDK_OFFSET(0x1B41DC10)
-#define CLASS_3_6A9DB0C2071DE312__CTOR_OFFSET UNITYSDK_OFFSET(0x1B41DC00)
+#define CLASS_3_6A9DB0C2071DE312_METHOD_3_2DFC332AF3EA3B47_OFFSET UNITYSDK_OFFSET(0x1CCA3E20)
+#define CLASS_3_6A9DB0C2071DE312_METHOD_3_7AC9BC507737276A_OFFSET UNITYSDK_OFFSET(0x1CCA3E60)
+#define CLASS_3_6A9DB0C2071DE312__CTOR_OFFSET UNITYSDK_OFFSET(0x1CCA3E50)
 
-inline static constexpr unsigned int Class_3_6A9DB0C2071DE312_TypeDefinitionIndex = 22418;
+inline static constexpr unsigned int Class_3_6A9DB0C2071DE312_TypeDefinitionIndex = 22988;
 
 class Class_3_6A9DB0C2071DE312 : public ::RPG::GameCore::TaskConfig
 {
 public:
-	::Il2CppArray<::RPG::GameCore::BattleBulletCommentItem*>* Field_3_0; // 0x18
-	::System::Boolean Field_3_1; // 0x20
+	::Il2CppArray<::RPG::GameCore::BattleBulletCommentItem*>* IMDFBNPIFIJ; // 0x18
+	::System::Boolean IOBJFEJFLJP; // 0x20
 
 	::System::Void _ctor()
 	{

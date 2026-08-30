@@ -6,19 +6,19 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MISSIONSUBTYPECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1AF6CF10)
-#define RPG_GAMECORE_MISSIONSUBTYPECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF6D550)
+#define RPG_GAMECORE_MISSIONSUBTYPECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D1ADFD0)
+#define RPG_GAMECORE_MISSIONSUBTYPECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1AE610)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MissionSubTypeConfigRow_TypeDefinitionIndex = 13627;
+	inline static constexpr unsigned int MissionSubTypeConfigRow_TypeDefinitionIndex = 14044;
 
 	class MissionSubTypeConfigRow : public ::System::Object
 	{
 	public:
 		::System::String* ShowIconPath; // 0x10
-		::RPG::GameCore::MainMissionSubType Type; // 0x18
-		::System::UInt32 TypePriority; // 0x1C
+		::System::UInt32 TypePriority; // 0x18
+		::RPG::GameCore::MainMissionSubType Type; // 0x1C
 
 		::System::Void _ctor()
 		{

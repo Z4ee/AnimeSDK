@@ -8,22 +8,22 @@ namespace RPG::Client { class Map; }
 namespace RPG::GameCore { class BattleAreaReferenceInfo; }
 namespace System { class String; }
 
-#define CLASS_1_A95A6B41A5C8A63D__CTOR_OFFSET UNITYSDK_OFFSET(0x16CE9610)
+#define CLASS_1_A95A6B41A5C8A63D__CTOR_OFFSET UNITYSDK_OFFSET(0x17108620)
 
-inline static constexpr unsigned int Class_1_A95A6B41A5C8A63D_TypeDefinitionIndex = 58469;
+inline static constexpr unsigned int Class_1_A95A6B41A5C8A63D_TypeDefinitionIndex = 61299;
 
 class Class_1_A95A6B41A5C8A63D : public ::System::Object
 {
 public:
-	::System::String* Field_1_0; // 0x10
-	::RPG::Client::Map* Field_1_1; // 0x18
-	::System::String* Field_1_2; // 0x20
-	::RPG::GameCore::BattleAreaReferenceInfo* Field_1_3; // 0x28
-	::Class_1_118030333D39EAFB* Field_1_4; // 0x30
-	::RPG::Client::GamePhaseType Field_1_5; // 0x38
-	::System::Boolean Field_1_6; // 0x3C
-	::System::Boolean Field_1_7; // 0x3D
-	::System::Boolean Field_1_8; // 0x3E
+	::RPG::Client::Map* AOKAGIJCFBO; // 0x10
+	::Class_1_118030333D39EAFB* AOLFKIMFNPN; // 0x18
+	::System::String* ENIKCJNGIFO; // 0x20
+	::RPG::GameCore::BattleAreaReferenceInfo* APNJHDKFEEG; // 0x28
+	::System::String* DDOCMAPPGKF; // 0x30
+	::RPG::Client::GamePhaseType CCIDLCBEFLN; // 0x38
+	::System::Boolean JKGKHODLKNA; // 0x3C
+	::System::Boolean BPHEALGCHOD; // 0x3D
+	::System::Boolean HCHOKIEPMEA; // 0x3E
 
 	::System::Void _ctor(::System::String* a1)
 	{

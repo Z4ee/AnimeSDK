@@ -5,18 +5,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MISSIONCONDITION_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1AF68010)
-#define RPG_GAMECORE_MISSIONCONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF68110)
+#define RPG_GAMECORE_MISSIONCONDITION_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D1A8E20)
+#define RPG_GAMECORE_MISSIONCONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1A8F20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MissionCondition_TypeDefinitionIndex = 13611;
+	inline static constexpr unsigned int MissionCondition_TypeDefinitionIndex = 14028;
 
 	class MissionCondition : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::MissionBeginType Type; // 0x10
-		::System::UInt32 Value; // 0x14
+		::System::UInt32 Value; // 0x10
+		::RPG::GameCore::MissionBeginType Type; // 0x14
 
 		::System::Void _ctor()
 		{

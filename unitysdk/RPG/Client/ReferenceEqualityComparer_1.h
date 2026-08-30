@@ -6,7 +6,7 @@ namespace RPG::Client { template <typename T> class ReferenceEqualityComparer_1;
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ReferenceEqualityComparer_1_TypeDefinitionIndex = 33893;
+	inline static constexpr unsigned int ReferenceEqualityComparer_1_TypeDefinitionIndex = 34660;
 
 	template <typename T>
 	class ReferenceEqualityComparer_1 : public ::System::Object

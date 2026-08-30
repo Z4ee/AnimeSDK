@@ -4,17 +4,17 @@
 
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
-#define CLASS_1_5138A02229B03469_METHOD_1_35D6C3EF68447B4B_OFFSET UNITYSDK_OFFSET(0x17EA5CD0)
-#define CLASS_1_5138A02229B03469_METHOD_1_6A556D7610920AA7_OFFSET UNITYSDK_OFFSET(0x17EA5E70)
-#define CLASS_1_5138A02229B03469__CTOR_OFFSET UNITYSDK_OFFSET(0x17EA5C90)
+#define CLASS_1_5138A02229B03469_METHOD_1_35D6C3EF68447B4B_OFFSET UNITYSDK_OFFSET(0x1A6D9960)
+#define CLASS_1_5138A02229B03469_METHOD_1_6A556D7610920AA7_OFFSET UNITYSDK_OFFSET(0x1A6D9B00)
+#define CLASS_1_5138A02229B03469__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6D9920)
 
-inline static constexpr unsigned int Class_1_5138A02229B03469_TypeDefinitionIndex = 75074;
+inline static constexpr unsigned int Class_1_5138A02229B03469_TypeDefinitionIndex = 78572;
 
 class Class_1_5138A02229B03469 : public ::System::Object
 {
 public:
-	::Il2CppArray<::System::UInt32>* Field_1_0; // 0x10
-	::System::Collections::Generic::Queue_1<::System::UInt32>* Field_1_1; // 0x18
+	::Il2CppArray<::System::UInt32>* BPKKKMOCFIP; // 0x10
+	::System::Collections::Generic::Queue_1<::System::UInt32>* FEICCPBBIHG; // 0x18
 
 	::System::Void _ctor(::Il2CppArray<::System::UInt32>* a1)
 	{

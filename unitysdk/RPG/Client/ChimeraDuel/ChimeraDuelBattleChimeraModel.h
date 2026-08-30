@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_CHIMERADUEL_CHIMERADUELBATTLECHIMERAMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1A502A50)
+#define RPG_CLIENT_CHIMERADUEL_CHIMERADUELBATTLECHIMERAMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1B95D0)
 
 namespace RPG::Client::ChimeraDuel
 {
-	inline static constexpr unsigned int ChimeraDuelBattleChimeraModel_TypeDefinitionIndex = 76286;
+	inline static constexpr unsigned int ChimeraDuelBattleChimeraModel_TypeDefinitionIndex = 79919;
 
 	class ChimeraDuelBattleChimeraModel : public ::Sofa::Core::ObservableObject
 	{

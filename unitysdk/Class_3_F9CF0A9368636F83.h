@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetTargetEntityFadeWithAnim; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_F9CF0A9368636F83_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x174D1460)
-#define CLASS_3_F9CF0A9368636F83__CTOR_OFFSET UNITYSDK_OFFSET(0x174D1430)
+#define CLASS_3_F9CF0A9368636F83_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18385440)
+#define CLASS_3_F9CF0A9368636F83__CTOR_OFFSET UNITYSDK_OFFSET(0x18385410)
 
-inline static constexpr unsigned int Class_3_F9CF0A9368636F83_TypeDefinitionIndex = 55960;
+inline static constexpr unsigned int Class_3_F9CF0A9368636F83_TypeDefinitionIndex = 58733;
 
 class Class_3_F9CF0A9368636F83 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetTargetEntityFadeWithAnim*>
 {

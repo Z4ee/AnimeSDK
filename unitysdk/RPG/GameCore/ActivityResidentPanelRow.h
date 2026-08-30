@@ -9,27 +9,27 @@ namespace RPG::GameCore { class ConditionParam; }
 namespace RPG::GameCore { class ItemConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIVITYRESIDENTPANELROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1AB0B9E0)
-#define RPG_GAMECORE_ACTIVITYRESIDENTPANELROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1AB0BE70)
+#define RPG_GAMECORE_ACTIVITYRESIDENTPANELROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D696130)
+#define RPG_GAMECORE_ACTIVITYRESIDENTPANELROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6965C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityResidentPanelRow_TypeDefinitionIndex = 10814;
+	inline static constexpr unsigned int ActivityResidentPanelRow_TypeDefinitionIndex = 11189;
 
 	class ActivityResidentPanelRow : public ::System::Object
 	{
 	public:
-		::System::String* EntranceImg; // 0x10
-		::Il2CppArray<::RPG::GameCore::ConditionParam*>* FinishConditions; // 0x18
-		::System::String* IntroGuideImg; // 0x20
-		::Il2CppArray<::RPG::GameCore::ItemConfig*>* DisplayItemList; // 0x28
-		::RPG::Client::TextID PanelDesc; // 0x30
+		::Il2CppArray<::RPG::GameCore::ItemConfig*>* DisplayItemList; // 0x10
+		::System::String* EntranceImg; // 0x18
+		::Il2CppArray<::RPG::GameCore::ConditionParam*>* FinishConditions; // 0x20
+		::System::String* IntroGuideImg; // 0x28
+		::RPG::Client::TextID IntroDesc; // 0x30
 		::RPG::GameCore::FixPoint ExpectTime; // 0x40
-		::RPG::Client::TextID IntroDesc; // 0x48
-		::System::UInt32 PanelID; // 0x58
-		::System::UInt32 SortWeight; // 0x5C
-		::System::UInt32 IntroGuideVideoID; // 0x60
-		::System::Boolean DisplayItemManualSort; // 0x64
+		::System::UInt32 PanelID; // 0x48
+		::System::UInt32 SortWeight; // 0x4C
+		::RPG::Client::TextID PanelDesc; // 0x50
+		::System::Boolean DisplayItemManualSort; // 0x60
+		::System::UInt32 IntroGuideVideoID; // 0x64
 
 		::System::Void _ctor()
 		{

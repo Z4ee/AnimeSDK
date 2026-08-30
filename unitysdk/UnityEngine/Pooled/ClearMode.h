@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Pooled
 {
-	inline static constexpr unsigned int ClearMode_TypeDefinitionIndex = 4509;
+	inline static constexpr unsigned int ClearMode_TypeDefinitionIndex = 4519;
 
 	enum class ClearMode : ::System::Int32
 	{

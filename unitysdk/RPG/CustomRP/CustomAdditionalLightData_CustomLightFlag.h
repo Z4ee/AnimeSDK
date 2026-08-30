@@ -3,7 +3,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CustomAdditionalLightData_CustomLightFlag_TypeDefinitionIndex = 36167;
+	inline static constexpr unsigned int CustomAdditionalLightData_CustomLightFlag_TypeDefinitionIndex = 37026;
 
 	enum class CustomAdditionalLightData_CustomLightFlag : ::System::Int32
 	{

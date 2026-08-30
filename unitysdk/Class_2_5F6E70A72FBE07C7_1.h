@@ -4,15 +4,15 @@
 #include "unitysdk/Class_1_2EDC9A17B260920E_TriggerType.h"
 #include "unitysdk/RPG/Client/ActivityHipplen/ActivityHipplenEffectSource.h"
 
-class Class_0_16E4307DCC419505_1197;
+class Class_0_16E4307DCC419505_1257;
 class Class_1_69DB8A72C044FA28;
 namespace RPG::Client::ActivityHipplen { class ActivityHipplenEffectResultData; }
 
-#define CLASS_2_5F6E70A72FBE07C7_1_METHOD_2_2A1ECCAD60FE5D2E_OFFSET UNITYSDK_OFFSET(0x15578EA0)
-#define CLASS_2_5F6E70A72FBE07C7_1_METHOD_2_6F3751FB9222A9A4_OFFSET UNITYSDK_OFFSET(0x15578F00)
-#define CLASS_2_5F6E70A72FBE07C7_1__CTOR_OFFSET UNITYSDK_OFFSET(0x15578EF0)
+#define CLASS_2_5F6E70A72FBE07C7_1_METHOD_2_2A1ECCAD60FE5D2E_OFFSET UNITYSDK_OFFSET(0x177DDA40)
+#define CLASS_2_5F6E70A72FBE07C7_1_METHOD_2_6F3751FB9222A9A4_OFFSET UNITYSDK_OFFSET(0x177DDAA0)
+#define CLASS_2_5F6E70A72FBE07C7_1__CTOR_OFFSET UNITYSDK_OFFSET(0x177DDA90)
 
-inline static constexpr unsigned int Class_2_5F6E70A72FBE07C7_1_TypeDefinitionIndex = 71875;
+inline static constexpr unsigned int Class_2_5F6E70A72FBE07C7_1_TypeDefinitionIndex = 75181;
 
 class Class_2_5F6E70A72FBE07C7_1 : public ::Class_1_2EDC9A17B260920E
 {
@@ -27,8 +27,8 @@ public:
 		return ((::Class_1_2EDC9A17B260920E_TriggerType(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_5F6E70A72FBE07C7_1_METHOD_2_2A1ECCAD60FE5D2E_OFFSET))(this);
 	}
 
-	::System::Void Method_2_6F3751FB9222A9A4(::Class_0_16E4307DCC419505_1197* a1, ::RPG::Client::ActivityHipplen::ActivityHipplenEffectResultData* a2)
+	::System::Void Method_2_6F3751FB9222A9A4(::Class_0_16E4307DCC419505_1257* a1, ::RPG::Client::ActivityHipplen::ActivityHipplenEffectResultData* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_1197*, ::RPG::Client::ActivityHipplen::ActivityHipplenEffectResultData*))((::PBYTE)hIl2Cpp + CLASS_2_5F6E70A72FBE07C7_1_METHOD_2_6F3751FB9222A9A4_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_1257*, ::RPG::Client::ActivityHipplen::ActivityHipplenEffectResultData*))((::PBYTE)hIl2Cpp + CLASS_2_5F6E70A72FBE07C7_1_METHOD_2_6F3751FB9222A9A4_OFFSET))(this, a1, a2);
 	}
 };

@@ -1,12 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-class Class_0_16E4307DCC419505_1312;
-class Class_1_E292ED717571B1DC_2;
-class Class_1_F963C9FA5FC80637;
-namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
+class Class_1_FC01049DA05831B0;
+namespace RPG::Client::Prop { class ChimeraDuelBubbleEvent; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1308_TypeDefinitionIndex = 76497;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1308_TypeDefinitionIndex = 77823;
 
 class Class_0_16E4307DCC419505_1308
 {

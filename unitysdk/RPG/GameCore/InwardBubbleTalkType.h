@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int InwardBubbleTalkType_TypeDefinitionIndex = 23712;
+	inline static constexpr unsigned int InwardBubbleTalkType_TypeDefinitionIndex = 24297;
 
 	enum class InwardBubbleTalkType : ::System::Int32
 	{

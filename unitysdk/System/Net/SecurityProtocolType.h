@@ -3,7 +3,7 @@
 
 namespace System::Net
 {
-	inline static constexpr unsigned int SecurityProtocolType_TypeDefinitionIndex = 2717;
+	inline static constexpr unsigned int SecurityProtocolType_TypeDefinitionIndex = 2724;
 
 	enum class SecurityProtocolType : ::System::Int32
 	{

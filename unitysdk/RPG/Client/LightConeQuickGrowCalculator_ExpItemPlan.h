@@ -6,11 +6,11 @@ namespace RPG::Client { class EquipmentItemData; }
 namespace RPG::GameCore { class ItemConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_LIGHTCONEQUICKGROWCALCULATOR_EXPITEMPLAN__CTOR_OFFSET UNITYSDK_OFFSET(0x16C70BE0)
+#define RPG_CLIENT_LIGHTCONEQUICKGROWCALCULATOR_EXPITEMPLAN__CTOR_OFFSET UNITYSDK_OFFSET(0x194FFE30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LightConeQuickGrowCalculator_ExpItemPlan_TypeDefinitionIndex = 62801;
+	inline static constexpr unsigned int LightConeQuickGrowCalculator_ExpItemPlan_TypeDefinitionIndex = 65786;
 
 	class LightConeQuickGrowCalculator_ExpItemPlan : public ::System::Object
 	{
@@ -19,8 +19,8 @@ namespace RPG::Client
 		::RPG::Client::EquipmentItemData* FirstSelectedEquip; // 0x18
 		::System::UInt32 CoinCost; // 0x20
 		::System::UInt32 LeftExp; // 0x24
-		::System::UInt32 ProvidedExp; // 0x28
-		::System::UInt32 PiledLightConeCount; // 0x2C
+		::System::UInt32 PiledLightConeCount; // 0x28
+		::System::UInt32 ProvidedExp; // 0x2C
 
 		::System::Void _ctor()
 		{

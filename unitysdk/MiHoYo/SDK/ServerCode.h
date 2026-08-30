@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MIHOYO_SDK_SERVERCODE__CTOR_OFFSET UNITYSDK_OFFSET(0x171290B0)
+#define MIHOYO_SDK_SERVERCODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9B4FE0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ServerCode_TypeDefinitionIndex = 7527;
+	inline static constexpr unsigned int ServerCode_TypeDefinitionIndex = 7515;
 
 	class ServerCode : public ::System::Object
 	{
@@ -73,6 +73,10 @@ namespace MiHoYo::SDK
 		// static const ::System::Int32 UGC_TOKEN_EXPIRED = 0xFFF0BC0E; // 0x0
 		// static const ::System::Int32 ACTION_TICKET_EXPIRED = 0xFFFFF445; // 0x0
 		// static const ::System::Int32 NEED_RISK_CHECK = 0xFFFFF3E3; // 0x0
+		// static const ::System::Int32 ACCOUNT_PLAT_PROTECT_BAN = 0xFFFFF3DF; // 0x0
+		// static const ::System::Int32 ACCOUNT_PLAT_NEW_USER_OS = 0xFFFFF37D; // 0x0
+		// static const ::System::Int32 ACCOUNT_BOUND_TO_OTHER_CX = 0xFFFFF330; // 0x0
+		// static const ::System::Int32 CX_BOUND_TO_OTHER_ACCOUNT = 0xFFFFF32F; // 0x0
 		// static const ::System::Int32 CHANNEL_AUTH_TICKET_INVALID = 0xFFFFF31A; // 0x0
 		// static const ::System::Int32 AID_BOUND_TO_OTHER_STEAM_ACCOUNT = 0xFFFFF317; // 0x0
 		// static const ::System::Int32 STEAM_ACCOUNT_BOUND_TO_OTHER_AID = 0xFFFFF316; // 0x0

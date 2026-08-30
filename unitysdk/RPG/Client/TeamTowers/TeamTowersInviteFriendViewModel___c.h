@@ -5,24 +5,24 @@
 namespace RPG::GameCore { class DynamicValue; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSINVITEFRIENDVIEWMODEL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1857EEE0)
-#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSINVITEFRIENDVIEWMODEL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1857EF20)
-#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSINVITEFRIENDVIEWMODEL___C__GETROBOTIDLIST_B__3_0_OFFSET UNITYSDK_OFFSET(0x1857EF30)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSINVITEFRIENDVIEWMODEL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A3AFA40)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSINVITEFRIENDVIEWMODEL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3AFA80)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSINVITEFRIENDVIEWMODEL___C__GETROBOTIDLIST_B__3_0_OFFSET UNITYSDK_OFFSET(0x1A3AFA90)
 
 namespace RPG::Client::TeamTowers
 {
-	inline static constexpr unsigned int TeamTowersInviteFriendViewModel___c_TypeDefinitionIndex = 75096;
+	inline static constexpr unsigned int TeamTowersInviteFriendViewModel___c_TypeDefinitionIndex = 78594;
 
 	class TeamTowersInviteFriendViewModel___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::TeamTowers::TeamTowersInviteFriendViewModel___c** StaticGet___9()
-		{
-			return (::RPG::Client::TeamTowers::TeamTowersInviteFriendViewModel___c**)Il2CppClass::FromTypeDefinitionIndex(TeamTowersInviteFriendViewModel___c_TypeDefinitionIndex)->GetStaticField(0x3DBB0);
-		}
 		static ::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>** StaticGet___9__3_0()
 		{
-			return (::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(TeamTowersInviteFriendViewModel___c_TypeDefinitionIndex)->GetStaticField(0x3DBB8);
+			return (::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(TeamTowersInviteFriendViewModel___c_TypeDefinitionIndex)->GetStaticField(0x492F0);
+		}
+		static ::RPG::Client::TeamTowers::TeamTowersInviteFriendViewModel___c** StaticGet___9()
+		{
+			return (::RPG::Client::TeamTowers::TeamTowersInviteFriendViewModel___c**)Il2CppClass::FromTypeDefinitionIndex(TeamTowersInviteFriendViewModel___c_TypeDefinitionIndex)->GetStaticField(0x492F8);
 		}
 
 		static ::System::Void _cctor()

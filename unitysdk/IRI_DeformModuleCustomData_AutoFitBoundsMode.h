@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int IRI_DeformModuleCustomData_AutoFitBoundsMode_TypeDefinitionIndex = 45385;
+inline static constexpr unsigned int IRI_DeformModuleCustomData_AutoFitBoundsMode_TypeDefinitionIndex = 47635;
 
 enum class IRI_DeformModuleCustomData_AutoFitBoundsMode : ::System::Int32
 {

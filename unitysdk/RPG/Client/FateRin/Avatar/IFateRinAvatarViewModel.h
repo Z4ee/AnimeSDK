@@ -5,7 +5,7 @@ namespace System { class String; }
 
 namespace RPG::Client::FateRin::Avatar
 {
-	inline static constexpr unsigned int IFateRinAvatarViewModel_TypeDefinitionIndex = 76271;
+	inline static constexpr unsigned int IFateRinAvatarViewModel_TypeDefinitionIndex = 79904;
 
 	class IFateRinAvatarViewModel
 	{

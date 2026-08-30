@@ -2,25 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_E657D03F0A0D98AD_GET_BOTTOM_OFFSET UNITYSDK_OFFSET(0x17E75C30)
-#define CLASS_1_E657D03F0A0D98AD_GET_HEIGHT_OFFSET UNITYSDK_OFFSET(0x17E75C00)
-#define CLASS_1_E657D03F0A0D98AD_GET_LEFT_OFFSET UNITYSDK_OFFSET(0x17E75C10)
-#define CLASS_1_E657D03F0A0D98AD_GET_RIGHT_OFFSET UNITYSDK_OFFSET(0x17E75C20)
-#define CLASS_1_E657D03F0A0D98AD_GET_TOP_OFFSET UNITYSDK_OFFSET(0x17E75C40)
-#define CLASS_1_E657D03F0A0D98AD_GET_WIDTH_OFFSET UNITYSDK_OFFSET(0x17E75BF0)
-#define CLASS_1_E657D03F0A0D98AD__CTOR_OFFSET UNITYSDK_OFFSET(0x17E75C50)
+#define CLASS_1_E657D03F0A0D98AD_GET_BOTTOM_OFFSET UNITYSDK_OFFSET(0x17E47FB0)
+#define CLASS_1_E657D03F0A0D98AD_GET_HEIGHT_OFFSET UNITYSDK_OFFSET(0x17E47F80)
+#define CLASS_1_E657D03F0A0D98AD_GET_LEFT_OFFSET UNITYSDK_OFFSET(0x17E47F90)
+#define CLASS_1_E657D03F0A0D98AD_GET_RIGHT_OFFSET UNITYSDK_OFFSET(0x17E47FA0)
+#define CLASS_1_E657D03F0A0D98AD_GET_TOP_OFFSET UNITYSDK_OFFSET(0x17E47FC0)
+#define CLASS_1_E657D03F0A0D98AD_GET_WIDTH_OFFSET UNITYSDK_OFFSET(0x17E47F70)
+#define CLASS_1_E657D03F0A0D98AD__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6A8780)
 
-inline static constexpr unsigned int Class_1_E657D03F0A0D98AD_TypeDefinitionIndex = 61545;
+inline static constexpr unsigned int Class_1_E657D03F0A0D98AD_TypeDefinitionIndex = 64529;
 
 class Class_1_E657D03F0A0D98AD : public ::System::Object
 {
 public:
-	::System::Double _Bottom_k__BackingField; // 0x10
-	::System::Double _Left_k__BackingField; // 0x18
-	::System::Double _Right_k__BackingField; // 0x20
-	::System::Double _Top_k__BackingField; // 0x28
-	::System::Double _Height_k__BackingField; // 0x30
-	::System::Double _Width_k__BackingField; // 0x38
+	::System::Double _Right_k__BackingField; // 0x10
+	::System::Double _Bottom_k__BackingField; // 0x18
+	::System::Double _Left_k__BackingField; // 0x20
+	::System::Double _Height_k__BackingField; // 0x28
+	::System::Double _Width_k__BackingField; // 0x30
+	::System::Double _Top_k__BackingField; // 0x38
 
 	::System::Void _ctor(::System::Double a1, ::System::Double a2)
 	{

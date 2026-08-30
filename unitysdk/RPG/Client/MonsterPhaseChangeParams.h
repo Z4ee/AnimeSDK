@@ -4,11 +4,11 @@
 
 namespace RPG::GameCore { class GameEntity; }
 
-#define RPG_CLIENT_MONSTERPHASECHANGEPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x1955AC70)
+#define RPG_CLIENT_MONSTERPHASECHANGEPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x1960DBC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonsterPhaseChangeParams_TypeDefinitionIndex = 69033;
+	inline static constexpr unsigned int MonsterPhaseChangeParams_TypeDefinitionIndex = 72232;
 
 	class MonsterPhaseChangeParams : public ::System::Object
 	{

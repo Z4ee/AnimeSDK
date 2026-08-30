@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
 
-#define CLASS_3_7E03B67D940AEC1C__CTOR_OFFSET UNITYSDK_OFFSET(0x16242870)
+#define CLASS_3_7E03B67D940AEC1C__CTOR_OFFSET UNITYSDK_OFFSET(0x18DF1970)
 
-inline static constexpr unsigned int Class_3_7E03B67D940AEC1C_TypeDefinitionIndex = 55445;
+inline static constexpr unsigned int Class_3_7E03B67D940AEC1C_TypeDefinitionIndex = 58176;
 
 class Class_3_7E03B67D940AEC1C : public ::RPG::GameCore::TaskConfig
 {

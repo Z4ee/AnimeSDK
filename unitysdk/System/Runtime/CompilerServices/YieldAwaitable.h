@@ -4,7 +4,7 @@
 
 namespace System::Runtime::CompilerServices
 {
-	inline static constexpr unsigned int YieldAwaitable_TypeDefinitionIndex = 1369;
+	inline static constexpr unsigned int YieldAwaitable_TypeDefinitionIndex = 1376;
 
 	struct alignas(1) YieldAwaitable
 	{

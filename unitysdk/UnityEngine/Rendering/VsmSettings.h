@@ -6,7 +6,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int VsmSettings_TypeDefinitionIndex = 4874;
+	inline static constexpr unsigned int VsmSettings_TypeDefinitionIndex = 4886;
 
 	struct alignas(8) VsmSettings
 	{
@@ -23,5 +23,6 @@ namespace UnityEngine::Rendering
 		::System::Single csmShadowDistance; // 0x3C
 		::UnityEngine::Rendering::VsmPageSettings pageSettings; // 0x40
 		::Il2CppArray<::System::UInt32>* lodRanges; // 0x60
+		::System::Int32 maxAsyncUpdateCell; // 0x68
 	};
 }

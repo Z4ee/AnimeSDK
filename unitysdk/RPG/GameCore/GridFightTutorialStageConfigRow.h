@@ -7,30 +7,30 @@ class Class_1_3745C69C00F04B7D_1;
 class Class_1_3745C69C00F04B7D_2;
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_GRIDFIGHTTUTORIALSTAGECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D07E070)
-#define RPG_GAMECORE_GRIDFIGHTTUTORIALSTAGECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D07E570)
+#define RPG_GAMECORE_GRIDFIGHTTUTORIALSTAGECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3C0190)
+#define RPG_GAMECORE_GRIDFIGHTTUTORIALSTAGECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3C0690)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightTutorialStageConfigRow_TypeDefinitionIndex = 13147;
+	inline static constexpr unsigned int GridFightTutorialStageConfigRow_TypeDefinitionIndex = 13538;
 
 	class GridFightTutorialStageConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::Class_1_3745C69C00F04B7D_1*>* ForbiddenAutoOpenShopNodeList; // 0x10
 		::Il2CppArray<::Class_1_3745C69C00F04B7D_2*>* ForbiddenSellRoleList; // 0x18
-		::RPG::Client::TextID TutorialStageName; // 0x20
-		::System::UInt32 IsAlltrial; // 0x30
-		::System::UInt32 IsBossToastShow; // 0x34
-		::System::UInt32 IsInitialSupply; // 0x38
-		::System::UInt32 DivisionID; // 0x3C
-		::System::UInt32 ForbiddenSellRoleBeforeChapterId; // 0x40
-		::System::UInt32 IsEnemyShow; // 0x44
-		::System::UInt32 IsPortal; // 0x48
+		::System::UInt32 IsAlltrial; // 0x20
+		::System::UInt32 DivisionID; // 0x24
+		::System::UInt32 IsInitialSupply; // 0x28
+		::System::UInt32 IsRouteShow; // 0x2C
+		::System::UInt32 IsBossToastShow; // 0x30
+		::System::UInt32 ForbiddenSellRoleBeforeChapterId; // 0x34
+		::RPG::Client::TextID TutorialStageName; // 0x38
+		::System::UInt32 ForbiddenBattleFail; // 0x48
 		::System::UInt32 ForbiddenSellRoleBeforeSectionId; // 0x4C
-		::System::UInt32 IsEquipRecommendShow; // 0x50
-		::System::UInt32 ForbiddenBattleFail; // 0x54
-		::System::UInt32 IsRouteShow; // 0x58
+		::System::UInt32 IsPortal; // 0x50
+		::System::UInt32 IsEnemyShow; // 0x54
+		::System::UInt32 IsEquipRecommendShow; // 0x58
 		::System::UInt32 RewardQuest; // 0x5C
 
 		::System::Void _ctor()

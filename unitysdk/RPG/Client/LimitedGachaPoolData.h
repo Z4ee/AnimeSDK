@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/BaseGachaPoolData.h"
 
-#define RPG_CLIENT_LIMITEDGACHAPOOLDATA_ISVALID_OFFSET UNITYSDK_OFFSET(0x19B79010)
-#define RPG_CLIENT_LIMITEDGACHAPOOLDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19B79000)
+#define RPG_CLIENT_LIMITEDGACHAPOOLDATA_ISVALID_OFFSET UNITYSDK_OFFSET(0x1C4BF080)
+#define RPG_CLIENT_LIMITEDGACHAPOOLDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4BF070)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LimitedGachaPoolData_TypeDefinitionIndex = 61391;
+	inline static constexpr unsigned int LimitedGachaPoolData_TypeDefinitionIndex = 64372;
 
 	class LimitedGachaPoolData : public ::RPG::Client::BaseGachaPoolData
 	{

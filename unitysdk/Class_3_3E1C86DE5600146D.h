@@ -8,27 +8,27 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class SO_FaceTo; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_3E1C86DE5600146D_METHOD_3_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x153045B0)
-#define CLASS_3_3E1C86DE5600146D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15303ED0)
-#define CLASS_3_3E1C86DE5600146D_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15304600)
-#define CLASS_3_3E1C86DE5600146D_TICK_OFFSET UNITYSDK_OFFSET(0x153044A0)
-#define CLASS_3_3E1C86DE5600146D__CCTOR_OFFSET UNITYSDK_OFFSET(0x15304690)
-#define CLASS_3_3E1C86DE5600146D__CTOR_OFFSET UNITYSDK_OFFSET(0x15303E30)
+#define CLASS_3_3E1C86DE5600146D_METHOD_3_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x165E5200)
+#define CLASS_3_3E1C86DE5600146D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x165E4B20)
+#define CLASS_3_3E1C86DE5600146D_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x165E5250)
+#define CLASS_3_3E1C86DE5600146D_TICK_OFFSET UNITYSDK_OFFSET(0x165E50F0)
+#define CLASS_3_3E1C86DE5600146D__CCTOR_OFFSET UNITYSDK_OFFSET(0x165E52E0)
+#define CLASS_3_3E1C86DE5600146D__CTOR_OFFSET UNITYSDK_OFFSET(0x165E4A80)
 
-inline static constexpr unsigned int Class_3_3E1C86DE5600146D_TypeDefinitionIndex = 49745;
+inline static constexpr unsigned int Class_3_3E1C86DE5600146D_TypeDefinitionIndex = 52405;
 
 class Class_3_3E1C86DE5600146D : public ::RPG::GameCore::SO_Task_1<::RPG::GameCore::SO_FaceTo*>
 {
 public:
-	static ::System::Single* StaticGet_Field_3_0()
+	static ::System::Single* StaticGet_MNGOKJIFOOH()
 	{
-		return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(Class_3_3E1C86DE5600146D_TypeDefinitionIndex)->GetStaticField(0xEE90);
+		return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(Class_3_3E1C86DE5600146D_TypeDefinitionIndex)->GetStaticField(0x82A0);
 	}
-	::Class_2_F400FB9D2D9DA921_Class_1_5ED903387A1D6426* Field_3_1; // 0x40
-	::RPG::GameCore::GameEntity* Field_3_2; // 0x48
-	::Class_2_F400FB9D2D9DA921* Field_3_3; // 0x50
-	::System::Single Field_3_4; // 0x58
-	::System::UInt32 Field_3_5; // 0x5C
+	::RPG::GameCore::GameEntity* OJAHLJGABMJ; // 0x40
+	::Class_2_F400FB9D2D9DA921* HNHCPOJKNCC; // 0x48
+	::Class_2_F400FB9D2D9DA921_Class_1_5ED903387A1D6426* HDIAPOOCACN; // 0x50
+	::System::UInt32 LCAOJIDMINA; // 0x58
+	::System::Single OPBDPOCJCKB; // 0x5C
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SO_FaceTo* a2)
 	{

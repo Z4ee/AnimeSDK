@@ -6,15 +6,15 @@ namespace RPG::GameCore { class CustomTeamFormationConfig; }
 namespace RPG::GameCore { class SetCharacterCustomTeamFormation; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_E3637432884C0D3F_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x185C0C50)
-#define CLASS_3_E3637432884C0D3F__CTOR_OFFSET UNITYSDK_OFFSET(0x185C0C20)
+#define CLASS_3_E3637432884C0D3F_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x198C7AE0)
+#define CLASS_3_E3637432884C0D3F__CTOR_OFFSET UNITYSDK_OFFSET(0x198C7AB0)
 
-inline static constexpr unsigned int Class_3_E3637432884C0D3F_TypeDefinitionIndex = 52862;
+inline static constexpr unsigned int Class_3_E3637432884C0D3F_TypeDefinitionIndex = 55565;
 
 class Class_3_E3637432884C0D3F : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetCharacterCustomTeamFormation*>
 {
 public:
-	::RPG::GameCore::CustomTeamFormationConfig* Field_3_0; // 0x28
+	::RPG::GameCore::CustomTeamFormationConfig* IADLJCKJEIM; // 0x28
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetCharacterCustomTeamFormation* a2)
 	{

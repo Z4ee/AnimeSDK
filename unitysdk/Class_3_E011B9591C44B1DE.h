@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetTimeRewindEntityMinRatio; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_E011B9591C44B1DE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x169C34B0)
-#define CLASS_3_E011B9591C44B1DE__CTOR_OFFSET UNITYSDK_OFFSET(0x169C3480)
+#define CLASS_3_E011B9591C44B1DE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15811A40)
+#define CLASS_3_E011B9591C44B1DE__CTOR_OFFSET UNITYSDK_OFFSET(0x15811A10)
 
-inline static constexpr unsigned int Class_3_E011B9591C44B1DE_TypeDefinitionIndex = 50968;
+inline static constexpr unsigned int Class_3_E011B9591C44B1DE_TypeDefinitionIndex = 53652;
 
 class Class_3_E011B9591C44B1DE : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetTimeRewindEntityMinRatio*>
 {

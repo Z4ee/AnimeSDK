@@ -6,24 +6,24 @@
 namespace RPG::Client { class MonoEffect; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 
-#define RPG_CLIENT_LITTLEGAME_PIXAIR_PIXAIREQUIPVIEW___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19AB71B0)
-#define RPG_CLIENT_LITTLEGAME_PIXAIR_PIXAIREQUIPVIEW___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19AB71F0)
-#define RPG_CLIENT_LITTLEGAME_PIXAIR_PIXAIREQUIPVIEW___C___FIREEFFECT_B__10_0_OFFSET UNITYSDK_OFFSET(0x19AB7200)
+#define RPG_CLIENT_LITTLEGAME_PIXAIR_PIXAIREQUIPVIEW___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x185FED70)
+#define RPG_CLIENT_LITTLEGAME_PIXAIR_PIXAIREQUIPVIEW___C__CTOR_OFFSET UNITYSDK_OFFSET(0x185FEDB0)
+#define RPG_CLIENT_LITTLEGAME_PIXAIR_PIXAIREQUIPVIEW___C___FIREEFFECT_B__10_0_OFFSET UNITYSDK_OFFSET(0x185FEDC0)
 
 namespace RPG::Client::LittleGame::PixAir
 {
-	inline static constexpr unsigned int PixAirEquipView___c_TypeDefinitionIndex = 73369;
+	inline static constexpr unsigned int PixAirEquipView___c_TypeDefinitionIndex = 76848;
 
 	class PixAirEquipView___c : public ::System::Object
 	{
 	public:
 		static ::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>** StaticGet___9__10_0()
 		{
-			return (::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>**)Il2CppClass::FromTypeDefinitionIndex(PixAirEquipView___c_TypeDefinitionIndex)->GetStaticField(0x3CEC0);
+			return (::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>**)Il2CppClass::FromTypeDefinitionIndex(PixAirEquipView___c_TypeDefinitionIndex)->GetStaticField(0x636F0);
 		}
 		static ::RPG::Client::LittleGame::PixAir::PixAirEquipView___c** StaticGet___9()
 		{
-			return (::RPG::Client::LittleGame::PixAir::PixAirEquipView___c**)Il2CppClass::FromTypeDefinitionIndex(PixAirEquipView___c_TypeDefinitionIndex)->GetStaticField(0x3CEC8);
+			return (::RPG::Client::LittleGame::PixAir::PixAirEquipView___c**)Il2CppClass::FromTypeDefinitionIndex(PixAirEquipView___c_TypeDefinitionIndex)->GetStaticField(0x636F8);
 		}
 
 		static ::System::Void _cctor()

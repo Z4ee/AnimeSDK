@@ -6,18 +6,18 @@ namespace System { class String; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Text; }
 
-#define CLASS_2_9DB62E0B1DD0ABEE_METHOD_2_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x165331B0)
-#define CLASS_2_9DB62E0B1DD0ABEE_METHOD_2_88B60F3B95FAA4F1_OFFSET UNITYSDK_OFFSET(0x16533140)
-#define CLASS_2_9DB62E0B1DD0ABEE__CTOR_OFFSET UNITYSDK_OFFSET(0x16533270)
+#define CLASS_2_9DB62E0B1DD0ABEE_METHOD_2_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x17A314C0)
+#define CLASS_2_9DB62E0B1DD0ABEE_METHOD_2_88B60F3B95FAA4F1_OFFSET UNITYSDK_OFFSET(0x17A31450)
+#define CLASS_2_9DB62E0B1DD0ABEE__CTOR_OFFSET UNITYSDK_OFFSET(0x17A31580)
 
-inline static constexpr unsigned int Class_2_9DB62E0B1DD0ABEE_TypeDefinitionIndex = 68862;
+inline static constexpr unsigned int Class_2_9DB62E0B1DD0ABEE_TypeDefinitionIndex = 72060;
 
 class Class_2_9DB62E0B1DD0ABEE : public ::Class_1_A167209E71412818
 {
 public:
-	::UnityEngine::UI::Text* Field_2_0; // 0x18
-	::UnityEngine::UI::Text* Field_2_1; // 0x20
-	::UnityEngine::Transform* Field_2_2; // 0x28
+	::UnityEngine::Transform* EAGKJGELBED; // 0x18
+	::UnityEngine::UI::Text* GPACJHAKGJJ; // 0x20
+	::UnityEngine::UI::Text* CMMFIGCPDIB; // 0x28
 
 	::System::Void _ctor()
 	{

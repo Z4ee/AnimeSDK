@@ -3,7 +3,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int EDeviceGPUType_TypeDefinitionIndex = 36111;
+	inline static constexpr unsigned int EDeviceGPUType_TypeDefinitionIndex = 36970;
 
 	enum class EDeviceGPUType : ::System::Int32
 	{

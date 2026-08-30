@@ -7,12 +7,12 @@ namespace RPG::GameCore { class SkillConfig; }
 namespace RPG::GameCore { class TurnBasedAbilityComponent; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
-#define RPG_GAMECORE_GAMEPLAYSTATIC___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x154FEAA0)
-#define RPG_GAMECORE_GAMEPLAYSTATIC___C__DISPLAYCLASS8_0__SOLVESTANCEWEAKNESSPRESHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1550C690)
+#define RPG_GAMECORE_GAMEPLAYSTATIC___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18425050)
+#define RPG_GAMECORE_GAMEPLAYSTATIC___C__DISPLAYCLASS8_0__SOLVESTANCEWEAKNESSPRESHOW_B__0_OFFSET UNITYSDK_OFFSET(0x18432E20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GamePlayStatic___c__DisplayClass8_0_TypeDefinitionIndex = 56418;
+	inline static constexpr unsigned int GamePlayStatic___c__DisplayClass8_0_TypeDefinitionIndex = 59202;
 
 	class GamePlayStatic___c__DisplayClass8_0 : public ::System::Object
 	{

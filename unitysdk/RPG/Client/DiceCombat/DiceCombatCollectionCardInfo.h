@@ -4,20 +4,20 @@
 
 namespace RPG::Client::DiceCombat { class IDiceCombatAvatarInfo; }
 
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATCOLLECTIONCARDINFO_GET_AVAILABLE_OFFSET UNITYSDK_OFFSET(0x180C1E40)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATCOLLECTIONCARDINFO_GET_AVATARINFO_OFFSET UNITYSDK_OFFSET(0x180C1E50)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATCOLLECTIONCARDINFO_GET_ID_OFFSET UNITYSDK_OFFSET(0x180C1E30)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATCOLLECTIONCARDINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x180C1D80)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATCOLLECTIONCARDINFO_GET_AVAILABLE_OFFSET UNITYSDK_OFFSET(0x1C4057F0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATCOLLECTIONCARDINFO_GET_AVATARINFO_OFFSET UNITYSDK_OFFSET(0x1C405800)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATCOLLECTIONCARDINFO_GET_ID_OFFSET UNITYSDK_OFFSET(0x193136D0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATCOLLECTIONCARDINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x19313620)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatCollectionCardInfo_TypeDefinitionIndex = 72154;
+	inline static constexpr unsigned int DiceCombatCollectionCardInfo_TypeDefinitionIndex = 75590;
 
 	class DiceCombatCollectionCardInfo : public ::System::Object
 	{
 	public:
-		::RPG::Client::DiceCombat::IDiceCombatAvatarInfo* _ConfigAvatarInfo; // 0x10
-		::RPG::Client::DiceCombat::IDiceCombatAvatarInfo* _PlayerAvatarInfo; // 0x18
+		::RPG::Client::DiceCombat::IDiceCombatAvatarInfo* _PlayerAvatarInfo; // 0x10
+		::RPG::Client::DiceCombat::IDiceCombatAvatarInfo* _ConfigAvatarInfo; // 0x18
 		::System::UInt32 _ID_k__BackingField; // 0x20
 		::System::Boolean _Available_k__BackingField; // 0x24
 

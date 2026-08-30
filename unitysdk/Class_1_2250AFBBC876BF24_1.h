@@ -5,17 +5,17 @@
 
 namespace System { class String; }
 
-#define CLASS_1_2250AFBBC876BF24_1_TOSTRING_OFFSET UNITYSDK_OFFSET(0x15895350)
-#define CLASS_1_2250AFBBC876BF24_1_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0x15895410)
-#define CLASS_1_2250AFBBC876BF24_1__CTOR_OFFSET UNITYSDK_OFFSET(0x15895340)
+#define CLASS_1_2250AFBBC876BF24_1_TOSTRING_OFFSET UNITYSDK_OFFSET(0x18852720)
+#define CLASS_1_2250AFBBC876BF24_1_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0x188527E0)
+#define CLASS_1_2250AFBBC876BF24_1__CTOR_OFFSET UNITYSDK_OFFSET(0x18852710)
 
-inline static constexpr unsigned int Class_1_2250AFBBC876BF24_1_TypeDefinitionIndex = 64073;
+inline static constexpr unsigned int Class_1_2250AFBBC876BF24_1_TypeDefinitionIndex = 67066;
 
 class Class_1_2250AFBBC876BF24_1 : public ::System::Object
 {
 public:
-	::System::Object* Field_1_0; // 0x10
-	::RPG::Client::NotifyType Field_1_1; // 0x18
+	::System::Object* BAELGJMOKBO; // 0x10
+	::RPG::Client::NotifyType AJBMOLOFCPN; // 0x18
 
 	::System::Void _ctor(::RPG::Client::NotifyType a1, ::System::Object* a2)
 	{

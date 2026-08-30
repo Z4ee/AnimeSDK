@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_TEAMASSOCIATIONHELPER_SWITCHTEAMASSOCIATIONSHOWSTATE_OFFSET UNITYSDK_OFFSET(0x1854DC00)
+#define RPG_CLIENT_TEAMASSOCIATIONHELPER_SWITCHTEAMASSOCIATIONSHOWSTATE_OFFSET UNITYSDK_OFFSET(0x1A37E4E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TeamAssociationHelper_TypeDefinitionIndex = 65069;
+	inline static constexpr unsigned int TeamAssociationHelper_TypeDefinitionIndex = 68077;
 
 	class TeamAssociationHelper : public ::System::Object
 	{

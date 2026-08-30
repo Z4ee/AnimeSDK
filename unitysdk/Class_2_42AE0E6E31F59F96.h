@@ -8,18 +8,18 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class MonoBehaviour; }
 
-#define CLASS_2_42AE0E6E31F59F96_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18F23F40)
-#define CLASS_2_42AE0E6E31F59F96_METHOD_2_8872617A2F6F7F3D_OFFSET UNITYSDK_OFFSET(0x18F23A40)
-#define CLASS_2_42AE0E6E31F59F96_METHOD_2_CAE68CD87F76976D_OFFSET UNITYSDK_OFFSET(0x18F23770)
-#define CLASS_2_42AE0E6E31F59F96_METHOD_2_E876C8B6D3B840A6_OFFSET UNITYSDK_OFFSET(0x18F23AB0)
-#define CLASS_2_42AE0E6E31F59F96__CTOR_OFFSET UNITYSDK_OFFSET(0x18F24020)
+#define CLASS_2_42AE0E6E31F59F96_DISPOSE_OFFSET UNITYSDK_OFFSET(0x195A5560)
+#define CLASS_2_42AE0E6E31F59F96_METHOD_2_8872617A2F6F7F3D_OFFSET UNITYSDK_OFFSET(0x195A5060)
+#define CLASS_2_42AE0E6E31F59F96_METHOD_2_CAE68CD87F76976D_OFFSET UNITYSDK_OFFSET(0x195A4D90)
+#define CLASS_2_42AE0E6E31F59F96_METHOD_2_E876C8B6D3B840A6_OFFSET UNITYSDK_OFFSET(0x195A50D0)
+#define CLASS_2_42AE0E6E31F59F96__CTOR_OFFSET UNITYSDK_OFFSET(0x195A5640)
 
-inline static constexpr unsigned int Class_2_42AE0E6E31F59F96_TypeDefinitionIndex = 67203;
+inline static constexpr unsigned int Class_2_42AE0E6E31F59F96_TypeDefinitionIndex = 70322;
 
 class Class_2_42AE0E6E31F59F96 : public ::RPG::Client::BehaviorBase
 {
 public:
-	::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::Client::AnimatorClipOverride_AnimClipOverride*>* Field_2_0; // 0x18
+	::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::Client::AnimatorClipOverride_AnimClipOverride*>* NAALBOCJENI; // 0x18
 
 	::System::Void _ctor()
 	{

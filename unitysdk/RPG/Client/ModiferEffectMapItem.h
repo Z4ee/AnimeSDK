@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_MODIFEREFFECTMAPITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x18070F00)
+#define RPG_CLIENT_MODIFEREFFECTMAPITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x19E259E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ModiferEffectMapItem_TypeDefinitionIndex = 66989;
+	inline static constexpr unsigned int ModiferEffectMapItem_TypeDefinitionIndex = 70094;
 
 	class ModiferEffectMapItem : public ::System::Object
 	{

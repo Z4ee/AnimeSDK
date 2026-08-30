@@ -6,24 +6,24 @@
 
 namespace RPG::GameCore { class FloatCurve; }
 
-#define CLASS_1_41AC5868B3A5F5A4__CTOR_OFFSET UNITYSDK_OFFSET(0x1818CB40)
+#define CLASS_1_41AC5868B3A5F5A4__CTOR_OFFSET UNITYSDK_OFFSET(0x19D53500)
 
-inline static constexpr unsigned int Class_1_41AC5868B3A5F5A4_TypeDefinitionIndex = 35284;
+inline static constexpr unsigned int Class_1_41AC5868B3A5F5A4_TypeDefinitionIndex = 36145;
 
 class Class_1_41AC5868B3A5F5A4 : public ::System::Object
 {
 public:
-	::RPG::GameCore::FloatCurve* Field_1_0; // 0x10
-	::RPG::GameCore::CakeRaceCurveType Field_1_1; // 0x18
-	::System::Single Field_1_2; // 0x1C
-	::System::Single Field_1_3; // 0x20
-	::System::Boolean Field_1_4; // 0x24
-	::System::Single Field_1_5; // 0x28
-	::RPG::MVector3 Field_1_6; // 0x2C
-	::System::Single Field_1_7; // 0x38
-	::RPG::MVector3 Field_1_8; // 0x3C
-	::RPG::MVector3 Field_1_9; // 0x48
-	::System::Single Field_1_10; // 0x54
+	::RPG::GameCore::FloatCurve* NLIFDJHPHLP; // 0x10
+	::RPG::MVector3 DLKMKNFJLIK; // 0x18
+	::RPG::MVector3 GGPBJBIEBII; // 0x24
+	::System::Single HLMHCCCJFBA; // 0x30
+	::System::Single MLKAGGJKCGN; // 0x34
+	::System::Boolean IKNKOCPLCHE; // 0x38
+	::RPG::MVector3 IJHDBLGLCMN; // 0x3C
+	::System::Single FAFCKJNFKCE; // 0x48
+	::RPG::GameCore::CakeRaceCurveType OJFNNJIGHDB; // 0x4C
+	::System::Single IEHPFADHJFD; // 0x50
+	::System::Single BJMAMHMCOEL; // 0x54
 
 	::System::Void _ctor()
 	{

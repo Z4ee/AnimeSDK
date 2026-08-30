@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_PIXAIREQUIPENCHANTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B4CB190)
-#define RPG_GAMECORE_PIXAIREQUIPENCHANTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4CB320)
+#define RPG_GAMECORE_PIXAIREQUIPENCHANTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D791030)
+#define RPG_GAMECORE_PIXAIREQUIPENCHANTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7911C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PixAirEquipEnchantRow_TypeDefinitionIndex = 11689;
+	inline static constexpr unsigned int PixAirEquipEnchantRow_TypeDefinitionIndex = 12078;
 
 	class PixAirEquipEnchantRow : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 
 namespace System::Collections::Immutable
 {
-	inline static constexpr unsigned int ISecurePooledObjectUser_TypeDefinitionIndex = 7045;
+	inline static constexpr unsigned int ISecurePooledObjectUser_TypeDefinitionIndex = 6657;
 
 	class ISecurePooledObjectUser
 	{

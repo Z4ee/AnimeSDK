@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering { class BAGraphAsset; }
 
-inline static constexpr unsigned int IBAGraph_TypeDefinitionIndex = 35914;
+inline static constexpr unsigned int IBAGraph_TypeDefinitionIndex = 36775;
 
 class IBAGraph
 {

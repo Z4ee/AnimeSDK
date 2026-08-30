@@ -6,20 +6,20 @@ namespace MiHoYo::SDK { class AlertWithTitle; }
 namespace System { class Action; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_ALERTWITHTITLE___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18860DF0)
-#define MIHOYO_SDK_ALERTWITHTITLE___C__DISPLAYCLASS19_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x18860EE0)
+#define MIHOYO_SDK_ALERTWITHTITLE___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A198820)
+#define MIHOYO_SDK_ALERTWITHTITLE___C__DISPLAYCLASS19_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1A198910)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int AlertWithTitle___c__DisplayClass19_0_TypeDefinitionIndex = 7949;
+	inline static constexpr unsigned int AlertWithTitle___c__DisplayClass19_0_TypeDefinitionIndex = 7953;
 
 	class AlertWithTitle___c__DisplayClass19_0 : public ::System::Object
 	{
 	public:
-		::System::Action* confirmCallback; // 0x10
-		::System::String* contentText; // 0x18
-		::System::String* titleText; // 0x20
-		::System::String* confirmButtonText; // 0x28
+		::System::String* confirmButtonText; // 0x10
+		::System::String* titleText; // 0x18
+		::System::String* contentText; // 0x20
+		::System::Action* confirmCallback; // 0x28
 		::System::Boolean bAutoHide; // 0x30
 
 		::System::Void _ctor()

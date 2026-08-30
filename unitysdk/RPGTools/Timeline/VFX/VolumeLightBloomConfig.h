@@ -7,11 +7,11 @@
 
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_VFX_VOLUMELIGHTBLOOMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19F60B70)
+#define RPGTOOLS_TIMELINE_VFX_VOLUMELIGHTBLOOMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF384A0)
 
 namespace RPGTools::Timeline::VFX
 {
-	inline static constexpr unsigned int VolumeLightBloomConfig_TypeDefinitionIndex = 46900;
+	inline static constexpr unsigned int VolumeLightBloomConfig_TypeDefinitionIndex = 49146;
 
 	class VolumeLightBloomConfig : public ::System::Object
 	{

@@ -9,21 +9,21 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class PredicateConfig; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define CLASS_3_AA06835F29C85B9A_METHOD_3_2D474E626FF7B9A2_OFFSET UNITYSDK_OFFSET(0x1B9E1E30)
-#define CLASS_3_AA06835F29C85B9A_METHOD_3_797574F762C9D389_OFFSET UNITYSDK_OFFSET(0x1B9E1ED0)
-#define CLASS_3_AA06835F29C85B9A__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9E1E90)
+#define CLASS_3_AA06835F29C85B9A_METHOD_3_2D474E626FF7B9A2_OFFSET UNITYSDK_OFFSET(0x1D305B10)
+#define CLASS_3_AA06835F29C85B9A_METHOD_3_797574F762C9D389_OFFSET UNITYSDK_OFFSET(0x1D305BB0)
+#define CLASS_3_AA06835F29C85B9A__CTOR_OFFSET UNITYSDK_OFFSET(0x1D305B70)
 
-inline static constexpr unsigned int Class_3_AA06835F29C85B9A_TypeDefinitionIndex = 21843;
+inline static constexpr unsigned int Class_3_AA06835F29C85B9A_TypeDefinitionIndex = 22407;
 
 class Class_3_AA06835F29C85B9A : public ::RPG::GameCore::TaskConfig
 {
 public:
-	::RPG::GameCore::PredicateConfig* Field_3_0; // 0x18
-	::RPG::GameCore::TargetEvaluator* Field_3_1; // 0x20
-	::RPG::GameCore::DynamicFloat* Field_3_2; // 0x28
-	::Il2CppArray<::RPG::GameCore::ModifierBehaviorFlag>* Field_3_3; // 0x30
-	::RPG::GameCore::TargetEvaluator* Field_3_4; // 0x38
-	::RPG::GameCore::ControlSkillType Field_3_5; // 0x40
+	::RPG::GameCore::PredicateConfig* FHAAHMEJMCI; // 0x18
+	::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x20
+	::RPG::GameCore::DynamicFloat* KBAPBCNJHDB; // 0x28
+	::Il2CppArray<::RPG::GameCore::ModifierBehaviorFlag>* HMOBDKGBECE; // 0x30
+	::RPG::GameCore::TargetEvaluator* NGIJFAEONCK; // 0x38
+	::RPG::GameCore::ControlSkillType JBCBONFABOM; // 0x40
 
 	::System::Void _ctor()
 	{

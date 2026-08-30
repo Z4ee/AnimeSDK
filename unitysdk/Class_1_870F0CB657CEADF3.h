@@ -5,14 +5,14 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_870F0CB657CEADF3__CTOR_OFFSET UNITYSDK_OFFSET(0x19CB1E60)
+#define CLASS_1_870F0CB657CEADF3__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA92AF0)
 
-inline static constexpr unsigned int Class_1_870F0CB657CEADF3_TypeDefinitionIndex = 39499;
+inline static constexpr unsigned int Class_1_870F0CB657CEADF3_TypeDefinitionIndex = 40372;
 
 class Class_1_870F0CB657CEADF3 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::RPG::GameCore::ChimeraDuelStatusType>* Field_1_0; // 0x10
+	::System::Collections::Generic::List_1<::RPG::GameCore::ChimeraDuelStatusType>* GFKMCNCDMIE; // 0x10
 
 	::System::Void _ctor()
 	{

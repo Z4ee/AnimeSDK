@@ -5,15 +5,15 @@
 namespace RPG::AvatarSystem { class IAvatar; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define CLASS_2_4529CAFD03373C0E__COMPAREIMPL_OFFSET UNITYSDK_OFFSET(0x17C5D680)
-#define CLASS_2_4529CAFD03373C0E__CTOR_OFFSET UNITYSDK_OFFSET(0x17C5D670)
+#define CLASS_2_4529CAFD03373C0E__COMPAREIMPL_OFFSET UNITYSDK_OFFSET(0x19A0AFA0)
+#define CLASS_2_4529CAFD03373C0E__CTOR_OFFSET UNITYSDK_OFFSET(0x19A0AF90)
 
-inline static constexpr unsigned int Class_2_4529CAFD03373C0E_TypeDefinitionIndex = 60036;
+inline static constexpr unsigned int Class_2_4529CAFD03373C0E_TypeDefinitionIndex = 62882;
 
 class Class_2_4529CAFD03373C0E : public ::RPG::Client::AvatarComparerBase
 {
 public:
-	::System::Func_2<::RPG::AvatarSystem::IAvatar*, ::System::Int32>* Field_2_0; // 0x18
+	::System::Func_2<::RPG::AvatarSystem::IAvatar*, ::System::Int32>* IPPKBDCLJHC; // 0x18
 
 	::System::Void _ctor(::System::Func_2<::RPG::AvatarSystem::IAvatar*, ::System::Int32>* a1)
 	{

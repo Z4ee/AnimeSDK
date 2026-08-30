@@ -3,16 +3,16 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define STRUCT_2_DD2A07650CD0727B_METHOD_2_D2B596D73D4A5AE4_OFFSET UNITYSDK_OFFSET(0x38FF910)
-#define STRUCT_2_DD2A07650CD0727B__CTOR_OFFSET UNITYSDK_OFFSET(0x38FF8F0)
+#define STRUCT_2_DD2A07650CD0727B_METHOD_2_D2B596D73D4A5AE4_OFFSET UNITYSDK_OFFSET(0x3AAFC20)
+#define STRUCT_2_DD2A07650CD0727B__CTOR_OFFSET UNITYSDK_OFFSET(0x3AAFC00)
 
-inline static constexpr unsigned int Struct_2_DD2A07650CD0727B_TypeDefinitionIndex = 54453;
+inline static constexpr unsigned int Struct_2_DD2A07650CD0727B_TypeDefinitionIndex = 57174;
 
 struct alignas(4) Struct_2_DD2A07650CD0727B
 {
-	::UnityEngine::Vector3 Field_2_0; // 0x10
-	::System::Single Field_2_1; // 0x1C
-	::System::Single Field_2_2; // 0x20
+	::UnityEngine::Vector3 GNOKDJHJJAB; // 0x10
+	::System::Single AIHGFMNOHFM; // 0x1C
+	::System::Single OEPDJOIHCNJ; // 0x20
 
 	::System::Void _ctor(::UnityEngine::Vector3 a1, ::System::Single a2, ::System::Single a3)
 	{

@@ -6,16 +6,16 @@ class Class_2_21AD365C113DC484;
 class Class_2_F3C45F1FC7349B6E;
 namespace RPG::GameCore { class CakeRaceEnterStatePredicateConfig; }
 
-#define CLASS_3_25C97950CAEA7275_ISMATCHIMPL_OFFSET UNITYSDK_OFFSET(0x17B89400)
-#define CLASS_3_25C97950CAEA7275_METHOD_3_330715DD5E01CCA9_OFFSET UNITYSDK_OFFSET(0x17B89350)
-#define CLASS_3_25C97950CAEA7275__CTOR_OFFSET UNITYSDK_OFFSET(0x17B893E0)
+#define CLASS_3_25C97950CAEA7275_ISMATCHIMPL_OFFSET UNITYSDK_OFFSET(0x1974C3C0)
+#define CLASS_3_25C97950CAEA7275_METHOD_3_330715DD5E01CCA9_OFFSET UNITYSDK_OFFSET(0x1974C310)
+#define CLASS_3_25C97950CAEA7275__CTOR_OFFSET UNITYSDK_OFFSET(0x1974C3A0)
 
-inline static constexpr unsigned int Class_3_25C97950CAEA7275_TypeDefinitionIndex = 35869;
+inline static constexpr unsigned int Class_3_25C97950CAEA7275_TypeDefinitionIndex = 36730;
 
 class Class_3_25C97950CAEA7275 : public ::RPG::Client::LittleGameShare::CakeRaceCore::CakeRaceCoreBasePredicate_1<::RPG::GameCore::CakeRaceEnterStatePredicateConfig*>
 {
 public:
-	::System::UInt32 Field_3_0; // 0x20
+	::System::UInt32 MJMPDKNIBJI; // 0x20
 
 	::System::Void _ctor(::RPG::GameCore::CakeRaceEnterStatePredicateConfig* a1, ::Class_2_F3C45F1FC7349B6E* a2)
 	{

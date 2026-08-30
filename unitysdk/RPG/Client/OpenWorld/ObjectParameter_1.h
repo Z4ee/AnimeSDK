@@ -8,7 +8,7 @@ namespace System::Reflection { class FieldInfo; }
 
 namespace RPG::Client::OpenWorld
 {
-	inline static constexpr unsigned int ObjectParameter_1_TypeDefinitionIndex = 70623;
+	inline static constexpr unsigned int ObjectParameter_1_TypeDefinitionIndex = 73922;
 
 	template <typename T>
 	class ObjectParameter_1 : public ::RPG::Client::OpenWorld::VolumeParameter_1<T>

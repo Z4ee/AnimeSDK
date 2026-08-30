@@ -17,12 +17,12 @@ namespace RPG::GameCore { class PredicateConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_CUSTOMTEAMFORMATIONCONFIG_METHOD_2_048982E058A7BD99_OFFSET UNITYSDK_OFFSET(0x1BC3FA30)
-#define RPG_GAMECORE_CUSTOMTEAMFORMATIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC40160)
+#define RPG_GAMECORE_CUSTOMTEAMFORMATIONCONFIG_METHOD_2_048982E058A7BD99_OFFSET UNITYSDK_OFFSET(0x1D804B70)
+#define RPG_GAMECORE_CUSTOMTEAMFORMATIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8052E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CustomTeamFormationConfig_TypeDefinitionIndex = 15935;
+	inline static constexpr unsigned int CustomTeamFormationConfig_TypeDefinitionIndex = 16411;
 
 	class CustomTeamFormationConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -48,6 +48,7 @@ namespace RPG::GameCore
 		::System::String* AttachPointRedirectRule; // 0x88
 		::System::String* ForceAnimName; // 0x90
 		::Il2CppArray<::System::String*>* ForceAnimIgnoreList; // 0x98
+		::System::Single FollowOffsetTransitionTime; // 0xA0
 
 		::System::Void _ctor()
 		{

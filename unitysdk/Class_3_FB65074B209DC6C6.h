@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdvSetEnchantFeatureParam; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_FB65074B209DC6C6_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x14AC3E90)
-#define CLASS_3_FB65074B209DC6C6__CTOR_OFFSET UNITYSDK_OFFSET(0x14AC3E60)
+#define CLASS_3_FB65074B209DC6C6_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1675DC70)
+#define CLASS_3_FB65074B209DC6C6__CTOR_OFFSET UNITYSDK_OFFSET(0x1675DC40)
 
-inline static constexpr unsigned int Class_3_FB65074B209DC6C6_TypeDefinitionIndex = 50107;
+inline static constexpr unsigned int Class_3_FB65074B209DC6C6_TypeDefinitionIndex = 52769;
 
 class Class_3_FB65074B209DC6C6 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdvSetEnchantFeatureParam*>
 {

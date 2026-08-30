@@ -3,33 +3,33 @@
 #include "unitysdk/System/Object.h"
 
 class Class_1_A331969222E4A3BB;
-class Class_1_F9FBCC956DFCF137_25;
+class Class_1_F9FBCC956DFCF137_27;
 class Class_2_FB9CF047C8AEAA83;
 namespace RPG::Client::LittleGame::ChimeraDuel { class ChimeraDuelChimeraCache; }
 namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_C8AC098ED72D7F59_EXECUTE_OFFSET UNITYSDK_OFFSET(0x14A4F0F0)
-#define CLASS_1_C8AC098ED72D7F59_TICK_OFFSET UNITYSDK_OFFSET(0x14A4FA40)
-#define CLASS_1_C8AC098ED72D7F59__CTOR_OFFSET UNITYSDK_OFFSET(0x14A4EE00)
+#define CLASS_1_C8AC098ED72D7F59_EXECUTE_OFFSET UNITYSDK_OFFSET(0x162DA010)
+#define CLASS_1_C8AC098ED72D7F59_TICK_OFFSET UNITYSDK_OFFSET(0x162DA960)
+#define CLASS_1_C8AC098ED72D7F59__CTOR_OFFSET UNITYSDK_OFFSET(0x162D9D20)
 
-inline static constexpr unsigned int Class_1_C8AC098ED72D7F59_TypeDefinitionIndex = 73708;
+inline static constexpr unsigned int Class_1_C8AC098ED72D7F59_TypeDefinitionIndex = 77192;
 
 class Class_1_C8AC098ED72D7F59 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::Class_1_A331969222E4A3BB*>* Field_1_0; // 0x10
-	::System::Action* Field_1_1; // 0x18
-	::System::Collections::Generic::List_1<::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache*>* Field_1_2; // 0x20
+	::System::Action* LGAOOKPFIMF; // 0x10
+	::System::Collections::Generic::List_1<::Class_1_A331969222E4A3BB*>* JCDJIOEPELJ; // 0x18
+	::System::Collections::Generic::List_1<::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache*>* FAGBDHNDLBO; // 0x20
 
 	::System::Void _ctor(::Class_2_FB9CF047C8AEAA83* a1)
 	{
 		return ((::System::Void(*)(::PVOID, ::Class_2_FB9CF047C8AEAA83*))((::PBYTE)hIl2Cpp + CLASS_1_C8AC098ED72D7F59__CTOR_OFFSET))(this, a1);
 	}
 
-	::System::Void Execute(::Class_1_F9FBCC956DFCF137_25* a1, ::System::Action* a2)
+	::System::Void Execute(::Class_1_F9FBCC956DFCF137_27* a1, ::System::Action* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_F9FBCC956DFCF137_25*, ::System::Action*))((::PBYTE)hIl2Cpp + CLASS_1_C8AC098ED72D7F59_EXECUTE_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::Class_1_F9FBCC956DFCF137_27*, ::System::Action*))((::PBYTE)hIl2Cpp + CLASS_1_C8AC098ED72D7F59_EXECUTE_OFFSET))(this, a1, a2);
 	}
 
 	::System::Void Tick(::System::Single a1)

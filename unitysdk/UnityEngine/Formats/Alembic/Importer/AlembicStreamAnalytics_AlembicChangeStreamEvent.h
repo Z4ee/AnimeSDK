@@ -4,7 +4,7 @@
 
 namespace UnityEngine::Formats::Alembic::Importer
 {
-	inline static constexpr unsigned int AlembicStreamAnalytics_AlembicChangeStreamEvent_TypeDefinitionIndex = 42529;
+	inline static constexpr unsigned int AlembicStreamAnalytics_AlembicChangeStreamEvent_TypeDefinitionIndex = 44711;
 
 	struct alignas(1) AlembicStreamAnalytics_AlembicChangeStreamEvent
 	{

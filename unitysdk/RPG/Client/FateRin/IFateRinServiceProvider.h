@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-class Class_0_16E4307DCC419505_1267;
-class Class_0_16E4307DCC419505_1268;
-class Class_0_16E4307DCC419505_1269;
+class Class_0_16E4307DCC419505_1348;
+class Class_0_16E4307DCC419505_1349;
+class Class_0_16E4307DCC419505_1350;
 class Class_1_11B5E54645B08227;
 class Class_1_150026B6423E5934;
 class Class_1_310250D457C6B8CD;
@@ -22,7 +22,7 @@ namespace RPG::Client::FateRin::Logging { class ILoggerFactory; }
 
 namespace RPG::Client::FateRin
 {
-	inline static constexpr unsigned int IFateRinServiceProvider_TypeDefinitionIndex = 75573;
+	inline static constexpr unsigned int IFateRinServiceProvider_TypeDefinitionIndex = 79206;
 
 	class IFateRinServiceProvider
 	{

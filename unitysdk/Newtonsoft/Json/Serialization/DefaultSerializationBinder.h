@@ -7,21 +7,21 @@ namespace Newtonsoft::Json::Utilities { template <typename T1, typename T2> clas
 namespace System { class String; }
 namespace System { class Type; }
 
-#define NEWTONSOFT_JSON_SERIALIZATION_DEFAULTSERIALIZATIONBINDER_BINDTOTYPE_OFFSET UNITYSDK_OFFSET(0x15B98F10)
-#define NEWTONSOFT_JSON_SERIALIZATION_DEFAULTSERIALIZATIONBINDER_GETTYPEFROMTYPENAMEKEY_OFFSET UNITYSDK_OFFSET(0x15B98B10)
-#define NEWTONSOFT_JSON_SERIALIZATION_DEFAULTSERIALIZATIONBINDER__CCTOR_OFFSET UNITYSDK_OFFSET(0x15B99010)
-#define NEWTONSOFT_JSON_SERIALIZATION_DEFAULTSERIALIZATIONBINDER__CTOR_OFFSET UNITYSDK_OFFSET(0x15B98F90)
+#define NEWTONSOFT_JSON_SERIALIZATION_DEFAULTSERIALIZATIONBINDER_BINDTOTYPE_OFFSET UNITYSDK_OFFSET(0x172E3320)
+#define NEWTONSOFT_JSON_SERIALIZATION_DEFAULTSERIALIZATIONBINDER_GETTYPEFROMTYPENAMEKEY_OFFSET UNITYSDK_OFFSET(0x172E2F20)
+#define NEWTONSOFT_JSON_SERIALIZATION_DEFAULTSERIALIZATIONBINDER__CCTOR_OFFSET UNITYSDK_OFFSET(0x172E3420)
+#define NEWTONSOFT_JSON_SERIALIZATION_DEFAULTSERIALIZATIONBINDER__CTOR_OFFSET UNITYSDK_OFFSET(0x172E33A0)
 
 namespace Newtonsoft::Json::Serialization
 {
-	inline static constexpr unsigned int DefaultSerializationBinder_TypeDefinitionIndex = 9377;
+	inline static constexpr unsigned int DefaultSerializationBinder_TypeDefinitionIndex = 9656;
 
 	class DefaultSerializationBinder : public ::System::Runtime::Serialization::SerializationBinder
 	{
 	public:
 		static ::Newtonsoft::Json::Serialization::DefaultSerializationBinder** StaticGet_Instance()
 		{
-			return (::Newtonsoft::Json::Serialization::DefaultSerializationBinder**)Il2CppClass::FromTypeDefinitionIndex(DefaultSerializationBinder_TypeDefinitionIndex)->GetStaticField(0x32260);
+			return (::Newtonsoft::Json::Serialization::DefaultSerializationBinder**)Il2CppClass::FromTypeDefinitionIndex(DefaultSerializationBinder_TypeDefinitionIndex)->GetStaticField(0x3DCD0);
 		}
 		::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::Newtonsoft::Json::Serialization::DefaultSerializationBinder_TypeNameKey, ::System::Type*>* _typeCache; // 0x10
 

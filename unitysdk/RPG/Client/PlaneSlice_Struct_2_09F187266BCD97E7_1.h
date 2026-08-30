@@ -4,17 +4,17 @@
 
 namespace System { class Object; }
 
-#define RPG_CLIENT_PLANESLICE_STRUCT_2_09F187266BCD97E7_1_EQUALS_OFFSET UNITYSDK_OFFSET(0x39EC5C0)
-#define RPG_CLIENT_PLANESLICE_STRUCT_2_09F187266BCD97E7_1_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x39EC5D0)
+#define RPG_CLIENT_PLANESLICE_STRUCT_2_09F187266BCD97E7_1_EQUALS_OFFSET UNITYSDK_OFFSET(0x3B8E110)
+#define RPG_CLIENT_PLANESLICE_STRUCT_2_09F187266BCD97E7_1_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3B8E120)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlaneSlice_Struct_2_09F187266BCD97E7_1_TypeDefinitionIndex = 67542;
+	inline static constexpr unsigned int PlaneSlice_Struct_2_09F187266BCD97E7_1_TypeDefinitionIndex = 70665;
 
 	struct alignas(4) PlaneSlice_Struct_2_09F187266BCD97E7_1
 	{
-		::System::Int32 Field_2_0; // 0x10
-		::System::Int32 Field_2_1; // 0x14
+		::System::Int32 NBPINLGNJOJ; // 0x10
+		::System::Int32 CBLMJGECJON; // 0x14
 
 		::System::Boolean Equals(::System::Object* a1)
 		{

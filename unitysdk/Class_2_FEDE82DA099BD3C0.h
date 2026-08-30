@@ -2,17 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define CLASS_2_FEDE82DA099BD3C0_GET_ISMAINTYPE_OFFSET UNITYSDK_OFFSET(0x1B218F70)
-#define CLASS_2_FEDE82DA099BD3C0_GET_ISSTRUCTHANDLE_OFFSET UNITYSDK_OFFSET(0x1B218F80)
-#define CLASS_2_FEDE82DA099BD3C0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B218F90)
+#define CLASS_2_FEDE82DA099BD3C0_GET_ISMAINTYPE_OFFSET UNITYSDK_OFFSET(0x1CFD1070)
+#define CLASS_2_FEDE82DA099BD3C0_GET_ISSTRUCTHANDLE_OFFSET UNITYSDK_OFFSET(0x1CFD1080)
+#define CLASS_2_FEDE82DA099BD3C0__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFD1090)
 
-inline static constexpr unsigned int Class_2_FEDE82DA099BD3C0_TypeDefinitionIndex = 10383;
+inline static constexpr unsigned int Class_2_FEDE82DA099BD3C0_TypeDefinitionIndex = 10724;
 
 class Class_2_FEDE82DA099BD3C0 : public ::System::Attribute
 {
 public:
-	::System::Boolean _IsStructHandle_k__BackingField; // 0x10
-	::System::Boolean _IsMainType_k__BackingField; // 0x11
+	::System::Boolean _IsMainType_k__BackingField; // 0x10
+	::System::Boolean _IsStructHandle_k__BackingField; // 0x11
 
 	::System::Void _ctor(::System::Boolean a1, ::System::Boolean a2)
 	{

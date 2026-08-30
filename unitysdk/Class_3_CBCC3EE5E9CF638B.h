@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByCompareCarryMazebuff; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_CBCC3EE5E9CF638B_EVALUATE_OFFSET UNITYSDK_OFFSET(0x185FB860)
-#define CLASS_3_CBCC3EE5E9CF638B__CTOR_OFFSET UNITYSDK_OFFSET(0x185FB830)
+#define CLASS_3_CBCC3EE5E9CF638B_EVALUATE_OFFSET UNITYSDK_OFFSET(0x19FC5320)
+#define CLASS_3_CBCC3EE5E9CF638B__CTOR_OFFSET UNITYSDK_OFFSET(0x19FC52F0)
 
-inline static constexpr unsigned int Class_3_CBCC3EE5E9CF638B_TypeDefinitionIndex = 52044;
+inline static constexpr unsigned int Class_3_CBCC3EE5E9CF638B_TypeDefinitionIndex = 54729;
 
 class Class_3_CBCC3EE5E9CF638B : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByCompareCarryMazebuff*>
 {

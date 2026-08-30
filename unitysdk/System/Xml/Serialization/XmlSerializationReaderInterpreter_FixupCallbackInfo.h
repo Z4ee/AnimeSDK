@@ -5,18 +5,18 @@
 namespace System::Xml::Serialization { class ClassMap; }
 namespace System::Xml::Serialization { class XmlSerializationReaderInterpreter; }
 
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONREADERINTERPRETER_FIXUPCALLBACKINFO_FIXUPMEMBERS_OFFSET UNITYSDK_OFFSET(0x1629D7F0)
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONREADERINTERPRETER_FIXUPCALLBACKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1629B190)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONREADERINTERPRETER_FIXUPCALLBACKINFO_FIXUPMEMBERS_OFFSET UNITYSDK_OFFSET(0x17C5E730)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONREADERINTERPRETER_FIXUPCALLBACKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x17C5C090)
 
 namespace System::Xml::Serialization
 {
-	inline static constexpr unsigned int XmlSerializationReaderInterpreter_FixupCallbackInfo_TypeDefinitionIndex = 2026;
+	inline static constexpr unsigned int XmlSerializationReaderInterpreter_FixupCallbackInfo_TypeDefinitionIndex = 2033;
 
 	class XmlSerializationReaderInterpreter_FixupCallbackInfo : public ::System::Object
 	{
 	public:
-		::System::Xml::Serialization::XmlSerializationReaderInterpreter* _sri; // 0x10
-		::System::Xml::Serialization::ClassMap* _map; // 0x18
+		::System::Xml::Serialization::ClassMap* _map; // 0x10
+		::System::Xml::Serialization::XmlSerializationReaderInterpreter* _sri; // 0x18
 		::System::Boolean _isValueList; // 0x20
 
 		::System::Void _ctor(::System::Xml::Serialization::XmlSerializationReaderInterpreter* a1, ::System::Xml::Serialization::ClassMap* a2, ::System::Boolean a3)

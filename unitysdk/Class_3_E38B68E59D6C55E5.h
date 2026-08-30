@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByHaveUniqueNameEffect; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_E38B68E59D6C55E5_EVALUATE_OFFSET UNITYSDK_OFFSET(0x14698900)
-#define CLASS_3_E38B68E59D6C55E5__CTOR_OFFSET UNITYSDK_OFFSET(0x146988D0)
+#define CLASS_3_E38B68E59D6C55E5_EVALUATE_OFFSET UNITYSDK_OFFSET(0x11EF4F00)
+#define CLASS_3_E38B68E59D6C55E5__CTOR_OFFSET UNITYSDK_OFFSET(0x11EF4ED0)
 
-inline static constexpr unsigned int Class_3_E38B68E59D6C55E5_TypeDefinitionIndex = 50209;
+inline static constexpr unsigned int Class_3_E38B68E59D6C55E5_TypeDefinitionIndex = 52872;
 
 class Class_3_E38B68E59D6C55E5 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByHaveUniqueNameEffect*>
 {

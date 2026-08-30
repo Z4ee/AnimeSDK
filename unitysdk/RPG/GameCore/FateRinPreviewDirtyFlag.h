@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FateRinPreviewDirtyFlag_TypeDefinitionIndex = 53440;
+	inline static constexpr unsigned int FateRinPreviewDirtyFlag_TypeDefinitionIndex = 56154;
 
 	enum class FateRinPreviewDirtyFlag : ::System::Byte
 	{

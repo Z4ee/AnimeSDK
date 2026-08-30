@@ -6,18 +6,18 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class PredicateConfig; }
 
-#define CLASS_3_954FA5B15CD7185B_METHOD_3_B4C09A5853E73B8A_OFFSET UNITYSDK_OFFSET(0x1B513030)
-#define CLASS_3_954FA5B15CD7185B_METHOD_3_C6C799B3DFBE236B_OFFSET UNITYSDK_OFFSET(0x1B512FF0)
-#define CLASS_3_954FA5B15CD7185B__CTOR_OFFSET UNITYSDK_OFFSET(0x1B513020)
+#define CLASS_3_954FA5B15CD7185B_METHOD_3_B4C09A5853E73B8A_OFFSET UNITYSDK_OFFSET(0x1CF88080)
+#define CLASS_3_954FA5B15CD7185B_METHOD_3_C6C799B3DFBE236B_OFFSET UNITYSDK_OFFSET(0x1CF88040)
+#define CLASS_3_954FA5B15CD7185B__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF88070)
 
-inline static constexpr unsigned int Class_3_954FA5B15CD7185B_TypeDefinitionIndex = 19137;
+inline static constexpr unsigned int Class_3_954FA5B15CD7185B_TypeDefinitionIndex = 19678;
 
 class Class_3_954FA5B15CD7185B : public ::RPG::GameCore::TaskConfig
 {
 public:
-	::RPG::GameCore::PredicateConfig* Field_3_0; // 0x18
-	::Il2CppArray<::RPG::GameCore::TaskConfig*>* Field_3_1; // 0x20
-	::RPG::GameCore::FateRinCardPileType Field_3_2; // 0x28
+	::Il2CppArray<::RPG::GameCore::TaskConfig*>* NKCKAJPAJCJ; // 0x18
+	::RPG::GameCore::PredicateConfig* FHAAHMEJMCI; // 0x20
+	::RPG::GameCore::FateRinCardPileType IANCHJFBKFC; // 0x28
 
 	::System::Void _ctor()
 	{

@@ -6,11 +6,11 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define SCENENLIGHTMANAGER_CHARACTERLINELIGHTGROUP_EXPORTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19F6BD60)
+#define SCENENLIGHTMANAGER_CHARACTERLINELIGHTGROUP_EXPORTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF437C0)
 
 namespace ScenenLightManager
 {
-	inline static constexpr unsigned int CharacterLineLightGroup_ExportData_TypeDefinitionIndex = 47252;
+	inline static constexpr unsigned int CharacterLineLightGroup_ExportData_TypeDefinitionIndex = 49532;
 
 	class CharacterLineLightGroup_ExportData : public ::ScenenLightManager::BaseComponentExportData
 	{

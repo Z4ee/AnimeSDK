@@ -6,20 +6,20 @@ namespace RPG::GameCore { class ShowBattleFeverTimeScreenFire; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 
-#define CLASS_2_9E0680464758B0C2_DISPOSE_OFFSET UNITYSDK_OFFSET(0x17A309E0)
-#define CLASS_2_9E0680464758B0C2_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17A30A20)
-#define CLASS_2_9E0680464758B0C2_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x17A30B90)
-#define CLASS_2_9E0680464758B0C2_TICK_OFFSET UNITYSDK_OFFSET(0x17A30BE0)
-#define CLASS_2_9E0680464758B0C2__CTOR_OFFSET UNITYSDK_OFFSET(0x17A309D0)
+#define CLASS_2_9E0680464758B0C2_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A467C20)
+#define CLASS_2_9E0680464758B0C2_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A467C60)
+#define CLASS_2_9E0680464758B0C2_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1A467DD0)
+#define CLASS_2_9E0680464758B0C2_TICK_OFFSET UNITYSDK_OFFSET(0x1A467E20)
+#define CLASS_2_9E0680464758B0C2__CTOR_OFFSET UNITYSDK_OFFSET(0x1A467C10)
 
-inline static constexpr unsigned int Class_2_9E0680464758B0C2_TypeDefinitionIndex = 53092;
+inline static constexpr unsigned int Class_2_9E0680464758B0C2_TypeDefinitionIndex = 55799;
 
 class Class_2_9E0680464758B0C2 : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	// static const ::System::String* Field_2_0; // 0x0
-	::RPG::GameCore::ShowBattleFeverTimeScreenFire* Field_2_1; // 0x18
-	::RPG::GameCore::TaskContext* Field_2_2; // 0x20
+	// static const ::System::String* NEHPDHONFOB; // 0x0
+	::RPG::GameCore::ShowBattleFeverTimeScreenFire* OFKGLJOAMLD; // 0x18
+	::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ShowBattleFeverTimeScreenFire* a2)
 	{

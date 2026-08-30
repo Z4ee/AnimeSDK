@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CONFIGMUNICIPALPEDESTRIANOVERRIDE_METHOD_2_4F8222307DDAA8C5_OFFSET UNITYSDK_OFFSET(0x1BC2CD00)
-#define RPG_GAMECORE_CONFIGMUNICIPALPEDESTRIANOVERRIDE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC2CE60)
+#define RPG_GAMECORE_CONFIGMUNICIPALPEDESTRIANOVERRIDE_METHOD_2_48054D856ED67EAA_OFFSET UNITYSDK_OFFSET(0x1D9B0E30)
+#define RPG_GAMECORE_CONFIGMUNICIPALPEDESTRIANOVERRIDE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D9B0F60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ConfigMunicipalPedestrianOverride_TypeDefinitionIndex = 16241;
+	inline static constexpr unsigned int ConfigMunicipalPedestrianOverride_TypeDefinitionIndex = 16725;
 
 	class ConfigMunicipalPedestrianOverride : public ::RPG::GameCore::JsonConfig
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONFIGMUNICIPALPEDESTRIANOVERRIDE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_4F8222307DDAA8C5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ConfigMunicipalPedestrianOverride*& a2)
+		static ::System::Void Method_2_48054D856ED67EAA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ConfigMunicipalPedestrianOverride*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ConfigMunicipalPedestrianOverride*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONFIGMUNICIPALPEDESTRIANOVERRIDE_METHOD_2_4F8222307DDAA8C5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ConfigMunicipalPedestrianOverride*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONFIGMUNICIPALPEDESTRIANOVERRIDE_METHOD_2_48054D856ED67EAA_OFFSET))(a1, a2);
 		}
 	};
 }

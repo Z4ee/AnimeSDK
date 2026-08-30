@@ -4,22 +4,22 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MUSEUMSTATSROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B1DC240)
-#define RPG_GAMECORE_MUSEUMSTATSROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1DC910)
+#define RPG_GAMECORE_MUSEUMSTATSROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CE80620)
+#define RPG_GAMECORE_MUSEUMSTATSROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE80CF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MuseumStatsRow_TypeDefinitionIndex = 13698;
+	inline static constexpr unsigned int MuseumStatsRow_TypeDefinitionIndex = 14115;
 
 	class MuseumStatsRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 PhaseLimit; // 0x10
-		::System::UInt32 AreaID; // 0x14
-		::System::UInt32 Level; // 0x18
-		::System::UInt32 StatsType; // 0x1C
-		::System::UInt32 FundCost; // 0x20
-		::System::UInt32 StatsValue; // 0x24
+		::System::UInt32 FundCost; // 0x10
+		::System::UInt32 PhaseLimit; // 0x14
+		::System::UInt32 AreaID; // 0x18
+		::System::UInt32 StatsValue; // 0x1C
+		::System::UInt32 Level; // 0x20
+		::System::UInt32 StatsType; // 0x24
 
 		::System::Void _ctor()
 		{

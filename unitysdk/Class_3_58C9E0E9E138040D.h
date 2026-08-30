@@ -9,16 +9,16 @@ class Class_4_DF6C1BC2963BF275;
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TurnBasedAbilityComponent; }
 
-#define CLASS_3_58C9E0E9E138040D_METHOD_3_81E6609E6ABDB023_OFFSET UNITYSDK_OFFSET(0x15F1B420)
-#define CLASS_3_58C9E0E9E138040D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15F1B120)
-#define CLASS_3_58C9E0E9E138040D__CTOR_OFFSET UNITYSDK_OFFSET(0x15F1B040)
+#define CLASS_3_58C9E0E9E138040D_METHOD_3_81E6609E6ABDB023_OFFSET UNITYSDK_OFFSET(0x18A734F0)
+#define CLASS_3_58C9E0E9E138040D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18A731F0)
+#define CLASS_3_58C9E0E9E138040D__CTOR_OFFSET UNITYSDK_OFFSET(0x18A73110)
 
-inline static constexpr unsigned int Class_3_58C9E0E9E138040D_TypeDefinitionIndex = 52931;
+inline static constexpr unsigned int Class_3_58C9E0E9E138040D_TypeDefinitionIndex = 55635;
 
 class Class_3_58C9E0E9E138040D : public ::RPG::GameCore::ImmediateTaskBase_1<::Class_4_DF6C1BC2963BF275*>
 {
 public:
-	::RPG::GameCore::StringHash Field_3_0; // 0x28
+	::RPG::GameCore::StringHash DIJHOMCLPEG; // 0x28
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::Class_4_DF6C1BC2963BF275* a2)
 	{

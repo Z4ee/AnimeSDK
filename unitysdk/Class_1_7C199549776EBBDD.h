@@ -1,0 +1,37 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/B51RacingContentType.h"
+#include "unitysdk/System/Object.h"
+
+class Class_0_16E4307DCC419505_1305;
+class Class_0_16E4307DCC419505_1306;
+class Class_0_16E4307DCC419505_1402;
+class Class_0_16E4307DCC419505_1405;
+class Class_0_16E4307DCC419505_1407;
+class Class_0_16E4307DCC419505_1408;
+class Class_0_16E4307DCC419505_1410;
+
+#define CLASS_1_7C199549776EBBDD_METHOD_1_981A03242E29DCBA_OFFSET UNITYSDK_OFFSET(0x15CC6170)
+#define CLASS_1_7C199549776EBBDD__CTOR_OFFSET UNITYSDK_OFFSET(0x15CC62F0)
+
+inline static constexpr unsigned int Class_1_7C199549776EBBDD_TypeDefinitionIndex = 80406;
+
+class Class_1_7C199549776EBBDD : public ::System::Object
+{
+public:
+	::Class_0_16E4307DCC419505_1405* MPFFGNPIDOA; // 0x10
+	::Class_0_16E4307DCC419505_1410* PGJDKJPNJFN; // 0x18
+	::Class_0_16E4307DCC419505_1402* GKLKOIJJEKJ; // 0x20
+	::Class_0_16E4307DCC419505_1306* FCCMAEFHDIA; // 0x28
+	::Class_0_16E4307DCC419505_1408* MJHHLOPFDNK; // 0x30
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_7C199549776EBBDD__CTOR_OFFSET))(this);
+	}
+
+	::Class_0_16E4307DCC419505_1407* Method_1_981A03242E29DCBA(::RPG::GameCore::B51RacingContentType a1, ::Class_0_16E4307DCC419505_1305* a2)
+	{
+		return ((::Class_0_16E4307DCC419505_1407*(*)(::PVOID, ::RPG::GameCore::B51RacingContentType, ::Class_0_16E4307DCC419505_1305*))((::PBYTE)hIl2Cpp + CLASS_1_7C199549776EBBDD_METHOD_1_981A03242E29DCBA_OFFSET))(this, a1, a2);
+	}
+};

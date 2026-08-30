@@ -4,9 +4,9 @@
 #include "unitysdk/UnityEngine/Rect.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define CLASS_1_AC44122042831665_METHOD_1_655DDF6049BBBE34_OFFSET UNITYSDK_OFFSET(0x1A499260)
+#define CLASS_1_AC44122042831665_METHOD_1_655DDF6049BBBE34_OFFSET UNITYSDK_OFFSET(0x1C158B10)
 
-inline static constexpr unsigned int Class_1_AC44122042831665_TypeDefinitionIndex = 40990;
+inline static constexpr unsigned int Class_1_AC44122042831665_TypeDefinitionIndex = 41949;
 
 class Class_1_AC44122042831665 : public ::System::Object
 {

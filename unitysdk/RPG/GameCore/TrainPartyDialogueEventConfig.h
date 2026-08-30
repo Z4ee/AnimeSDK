@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TrainPartyDialogueEventOptionConfig; }
 
-#define RPG_GAMECORE_TRAINPARTYDIALOGUEEVENTCONFIG_METHOD_2_563C963C97290B8A_OFFSET UNITYSDK_OFFSET(0x1C15FC30)
-#define RPG_GAMECORE_TRAINPARTYDIALOGUEEVENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C15FD20)
+#define RPG_GAMECORE_TRAINPARTYDIALOGUEEVENTCONFIG_METHOD_2_563C963C97290B8A_OFFSET UNITYSDK_OFFSET(0x1D534FC0)
+#define RPG_GAMECORE_TRAINPARTYDIALOGUEEVENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5350B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrainPartyDialogueEventConfig_TypeDefinitionIndex = 17364;
+	inline static constexpr unsigned int TrainPartyDialogueEventConfig_TypeDefinitionIndex = 17881;
 
 	class TrainPartyDialogueEventConfig : public ::RPG::GameCore::JsonConfig
 	{

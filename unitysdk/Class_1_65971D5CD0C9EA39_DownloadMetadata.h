@@ -4,7 +4,7 @@
 
 namespace System { class String; }
 
-inline static constexpr unsigned int Class_1_65971D5CD0C9EA39_DownloadMetadata_TypeDefinitionIndex = 45621;
+inline static constexpr unsigned int Class_1_65971D5CD0C9EA39_DownloadMetadata_TypeDefinitionIndex = 47872;
 
 struct alignas(8) Class_1_65971D5CD0C9EA39_DownloadMetadata
 {

@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class ShaderPropertyOverrideMonoPlugin; }
 
-#define RPG_CLIENT_SHADERPROPERTYOVERRIDEBEHAVIOR_GET__OWNER_OFFSET UNITYSDK_OFFSET(0x19F43F60)
-#define RPG_CLIENT_SHADERPROPERTYOVERRIDEBEHAVIOR__CTOR_OFFSET UNITYSDK_OFFSET(0x19F43FE0)
+#define RPG_CLIENT_SHADERPROPERTYOVERRIDEBEHAVIOR_GET__OWNERMONOPLUGIN_OFFSET UNITYSDK_OFFSET(0x1AF7CDE0)
+#define RPG_CLIENT_SHADERPROPERTYOVERRIDEBEHAVIOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF7CE60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ShaderPropertyOverrideBehavior_TypeDefinitionIndex = 67820;
+	inline static constexpr unsigned int ShaderPropertyOverrideBehavior_TypeDefinitionIndex = 70988;
 
 	class ShaderPropertyOverrideBehavior : public ::RPG::Client::TABehaviorBase
 	{
@@ -19,9 +19,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SHADERPROPERTYOVERRIDEBEHAVIOR__CTOR_OFFSET))(this);
 		}
 
-		::RPG::Client::ShaderPropertyOverrideMonoPlugin* get__Owner()
+		::RPG::Client::ShaderPropertyOverrideMonoPlugin* get__OwnerMonoPlugin()
 		{
-			return ((::RPG::Client::ShaderPropertyOverrideMonoPlugin*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SHADERPROPERTYOVERRIDEBEHAVIOR_GET__OWNER_OFFSET))(this);
+			return ((::RPG::Client::ShaderPropertyOverrideMonoPlugin*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SHADERPROPERTYOVERRIDEBEHAVIOR_GET__OWNERMONOPLUGIN_OFFSET))(this);
 		}
 	};
 }

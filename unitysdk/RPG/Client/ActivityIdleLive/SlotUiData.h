@@ -5,11 +5,11 @@
 class Class_1_679CF71AD3A781CD;
 namespace System { class String; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_SLOTUIDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x39ECCF0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_SLOTUIDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x3B8CD80)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int SlotUiData_TypeDefinitionIndex = 71826;
+	inline static constexpr unsigned int SlotUiData_TypeDefinitionIndex = 75132;
 
 	struct alignas(8) SlotUiData
 	{

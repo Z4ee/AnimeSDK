@@ -7,12 +7,12 @@
 namespace RPG::Client { class SmoothMaskDrawerBehavior; }
 namespace UnityEngine { class Material; }
 
-#define RPG_CLIENT_SMOOTHMASKDRAWER_GET_BEHAVIOR_OFFSET UNITYSDK_OFFSET(0x18905E20)
-#define RPG_CLIENT_SMOOTHMASKDRAWER__CTOR_OFFSET UNITYSDK_OFFSET(0x18905EB0)
+#define RPG_CLIENT_SMOOTHMASKDRAWER_GET_BEHAVIOR_OFFSET UNITYSDK_OFFSET(0x196D68A0)
+#define RPG_CLIENT_SMOOTHMASKDRAWER__CTOR_OFFSET UNITYSDK_OFFSET(0x196D6930)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SmoothMaskDrawer_TypeDefinitionIndex = 67846;
+	inline static constexpr unsigned int SmoothMaskDrawer_TypeDefinitionIndex = 71019;
 
 	class SmoothMaskDrawer : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::SmoothMaskDrawerBehavior*>
 	{
@@ -20,7 +20,7 @@ namespace RPG::Client
 		::UnityEngine::Material* Material; // 0x30
 		::UnityEngine::Vector2Int Resolution; // 0x38
 		::UnityEngine::Vector2 ResolutionRatio; // 0x40
-		::RPG::Client::SmoothMaskDrawerBehavior* Field_7_3; // 0x48
+		::RPG::Client::SmoothMaskDrawerBehavior* KADDKEGNCHE; // 0x48
 
 		::System::Void _ctor()
 		{

@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class HimekoNovaAssistSkillUIConfig; }
 
-#define RPG_GAMECORE_ASSISTSKILLUICONFIG_METHOD_2_C9CEC86FEE6565B8_OFFSET UNITYSDK_OFFSET(0x1A05BE60)
-#define RPG_GAMECORE_ASSISTSKILLUICONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A05BEF0)
+#define RPG_GAMECORE_ASSISTSKILLUICONFIG_METHOD_2_C9CEC86FEE6565B8_OFFSET UNITYSDK_OFFSET(0x1C571300)
+#define RPG_GAMECORE_ASSISTSKILLUICONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C571390)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AssistSkillUIConfig_TypeDefinitionIndex = 17463;
+	inline static constexpr unsigned int AssistSkillUIConfig_TypeDefinitionIndex = 17980;
 
 	class AssistSkillUIConfig : public ::RPG::GameCore::JsonConfig
 	{

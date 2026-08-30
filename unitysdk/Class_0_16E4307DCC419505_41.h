@@ -2,12 +2,9 @@
 #include "unitysdk/unitysdk.h"
 
 class Class_1_78A7ED2C7E071DF9;
-class Class_1_8278C4CB5E7C57A4;
-class Class_1_829CFD6018DBC4E4;
-namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T> class Action_1; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_41_TypeDefinitionIndex = 35369;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_41_TypeDefinitionIndex = 36247;
 
 class Class_0_16E4307DCC419505_41
 {

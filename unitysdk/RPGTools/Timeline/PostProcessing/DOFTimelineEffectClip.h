@@ -10,29 +10,29 @@
 namespace RPGTools::Timeline::PostProcessing { class DOFTimelineEffectBehaviour; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINEEFFECTCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1999EED0)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINEEFFECTCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1999EEC0)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINEEFFECTCLIP_GET_TARGETFAR_OFFSET UNITYSDK_OFFSET(0x1999EEA0)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINEEFFECTCLIP_GET_TARGET_OFFSET UNITYSDK_OFFSET(0x1999EE80)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINEEFFECTCLIP_SET_TARGETFAR_OFFSET UNITYSDK_OFFSET(0x1999EEB0)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINEEFFECTCLIP_SET_TARGET_OFFSET UNITYSDK_OFFSET(0x1999EE90)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINEEFFECTCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1999F0B0)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINEEFFECTCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1B0AAE50)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINEEFFECTCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1B0AAE40)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINEEFFECTCLIP_GET_TARGETFAR_OFFSET UNITYSDK_OFFSET(0x1B0AAE20)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINEEFFECTCLIP_GET_TARGET_OFFSET UNITYSDK_OFFSET(0x1B0AAE00)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINEEFFECTCLIP_SET_TARGETFAR_OFFSET UNITYSDK_OFFSET(0x1B0AAE30)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINEEFFECTCLIP_SET_TARGET_OFFSET UNITYSDK_OFFSET(0x1B0AAE10)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINEEFFECTCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0AB030)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int DOFTimelineEffectClip_TypeDefinitionIndex = 46775;
+	inline static constexpr unsigned int DOFTimelineEffectClip_TypeDefinitionIndex = 49021;
 
 	class DOFTimelineEffectClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
 		::RPGTools::Timeline::TimelineExposedReference Character; // 0x18
-		::RPGTools::Timeline::TimelineExposedReference FarCharacter; // 0x30
-		::UnityEngine::GameObject* _Target_k__BackingField; // 0x48
-		::UnityEngine::GameObject* _TargetFar_k__BackingField; // 0x50
-		::RPGTools::Timeline::PostProcessing::DOFTimelineEffectBehaviour* Template; // 0x58
-		::System::Boolean useCustomRegion; // 0x60
-		::UnityEngine::Vector3 customRegionNearPos; // 0x64
-		::UnityEngine::Vector3 customRegionFarPos; // 0x70
+		::RPGTools::Timeline::TimelineExposedReference FarCharacter; // 0x38
+		::UnityEngine::GameObject* _Target_k__BackingField; // 0x58
+		::UnityEngine::GameObject* _TargetFar_k__BackingField; // 0x60
+		::RPGTools::Timeline::PostProcessing::DOFTimelineEffectBehaviour* Template; // 0x68
+		::System::Boolean useCustomRegion; // 0x70
+		::UnityEngine::Vector3 customRegionNearPos; // 0x74
+		::UnityEngine::Vector3 customRegionFarPos; // 0x80
 
 		::System::Void _ctor()
 		{

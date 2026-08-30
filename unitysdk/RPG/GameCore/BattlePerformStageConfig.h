@@ -6,14 +6,14 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class BattlePerformActorInit; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_BATTLEPERFORMSTAGECONFIG_METHOD_2_48A7C3610C79C4B2_OFFSET UNITYSDK_OFFSET(0x1A3F5490)
-#define RPG_GAMECORE_BATTLEPERFORMSTAGECONFIG_METHOD_2_937440B774D5DB89_OFFSET UNITYSDK_OFFSET(0x1A3F5760)
-#define RPG_GAMECORE_BATTLEPERFORMSTAGECONFIG_METHOD_2_FA22BD1A983B1E85_OFFSET UNITYSDK_OFFSET(0x1A3F5680)
-#define RPG_GAMECORE_BATTLEPERFORMSTAGECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3F5670)
+#define RPG_GAMECORE_BATTLEPERFORMSTAGECONFIG_METHOD_2_282F687796E0163C_OFFSET UNITYSDK_OFFSET(0x1B303230)
+#define RPG_GAMECORE_BATTLEPERFORMSTAGECONFIG_METHOD_2_937440B774D5DB89_OFFSET UNITYSDK_OFFSET(0x1B303330)
+#define RPG_GAMECORE_BATTLEPERFORMSTAGECONFIG_METHOD_2_D4DCD0469FA2A8CD_OFFSET UNITYSDK_OFFSET(0x1B303020)
+#define RPG_GAMECORE_BATTLEPERFORMSTAGECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B303220)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattlePerformStageConfig_TypeDefinitionIndex = 17415;
+	inline static constexpr unsigned int BattlePerformStageConfig_TypeDefinitionIndex = 17932;
 
 	class BattlePerformStageConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -29,14 +29,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEPERFORMSTAGECONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_48A7C3610C79C4B2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BattlePerformStageConfig*& a2)
+		static ::System::Void Method_2_D4DCD0469FA2A8CD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BattlePerformStageConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BattlePerformStageConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEPERFORMSTAGECONFIG_METHOD_2_48A7C3610C79C4B2_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BattlePerformStageConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEPERFORMSTAGECONFIG_METHOD_2_D4DCD0469FA2A8CD_OFFSET))(a1, a2);
 		}
 
-		static ::RPG::GameCore::BattlePerformStageConfig* Method_2_FA22BD1A983B1E85(::System::UInt32 a1)
+		static ::RPG::GameCore::BattlePerformStageConfig* Method_2_282F687796E0163C(::System::UInt32 a1)
 		{
-			return ((::RPG::GameCore::BattlePerformStageConfig*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEPERFORMSTAGECONFIG_METHOD_2_FA22BD1A983B1E85_OFFSET))(a1);
+			return ((::RPG::GameCore::BattlePerformStageConfig*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEPERFORMSTAGECONFIG_METHOD_2_282F687796E0163C_OFFSET))(a1);
 		}
 
 		::RPG::GameCore::BattlePerformActorInit* Method_2_937440B774D5DB89(::System::String* a1)

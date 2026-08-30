@@ -1,21 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_F9FBCC956DFCF137_4.h"
+#include "unitysdk/Class_1_F9FBCC956DFCF137_5.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 
 class Class_1_AC66714FF5876767;
 namespace RPG::GameCore { class CheckSkillBPAxis; }
 
-#define CLASS_2_9F14BDA3ABFD8F02_METHOD_2_12B9BCF82817FBA3_OFFSET UNITYSDK_OFFSET(0x140EE2E0)
-#define CLASS_2_9F14BDA3ABFD8F02_METHOD_2_E7498AF04E8E685D_OFFSET UNITYSDK_OFFSET(0x140EE270)
-#define CLASS_2_9F14BDA3ABFD8F02__CTOR_OFFSET UNITYSDK_OFFSET(0x140EE260)
+#define CLASS_2_9F14BDA3ABFD8F02_METHOD_2_12B9BCF82817FBA3_OFFSET UNITYSDK_OFFSET(0x1723F220)
+#define CLASS_2_9F14BDA3ABFD8F02_METHOD_2_E7498AF04E8E685D_OFFSET UNITYSDK_OFFSET(0x1723F1B0)
+#define CLASS_2_9F14BDA3ABFD8F02__CTOR_OFFSET UNITYSDK_OFFSET(0x1723F1A0)
 
-inline static constexpr unsigned int Class_2_9F14BDA3ABFD8F02_TypeDefinitionIndex = 51900;
+inline static constexpr unsigned int Class_2_9F14BDA3ABFD8F02_TypeDefinitionIndex = 54584;
 
-class Class_2_9F14BDA3ABFD8F02 : public ::Class_1_F9FBCC956DFCF137_4
+class Class_2_9F14BDA3ABFD8F02 : public ::Class_1_F9FBCC956DFCF137_5
 {
 public:
-	::RPG::GameCore::CheckSkillBPAxis* Field_2_0; // 0x18
+	::RPG::GameCore::CheckSkillBPAxis* IGHAHBNLIJA; // 0x18
 
 	::System::Void _ctor(::RPG::GameCore::CheckSkillBPAxis* a1, ::Class_1_AC66714FF5876767* a2)
 	{

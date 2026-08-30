@@ -4,7 +4,7 @@
 
 namespace System
 {
-	inline static constexpr unsigned int InputRecord_TypeDefinitionIndex = 454;
+	inline static constexpr unsigned int InputRecord_TypeDefinitionIndex = 457;
 
 	struct alignas(4) InputRecord
 	{

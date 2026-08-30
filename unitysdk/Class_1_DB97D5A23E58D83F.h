@@ -5,14 +5,14 @@
 
 class Class_1_A4F2C99A2E6F922A;
 
-#define CLASS_1_DB97D5A23E58D83F__CTOR_OFFSET UNITYSDK_OFFSET(0x16D0D2C0)
+#define CLASS_1_DB97D5A23E58D83F__CTOR_OFFSET UNITYSDK_OFFSET(0x17882BB0)
 
-inline static constexpr unsigned int Class_1_DB97D5A23E58D83F_TypeDefinitionIndex = 74615;
+inline static constexpr unsigned int Class_1_DB97D5A23E58D83F_TypeDefinitionIndex = 78100;
 
 class Class_1_DB97D5A23E58D83F : public ::System::Object
 {
 public:
-	::Class_1_A4F2C99A2E6F922A* Field_1_0; // 0x10
+	::Class_1_A4F2C99A2E6F922A* COANEIDOBOG; // 0x10
 
 	::System::Void _ctor(::RPG::Client::Prop::DronesPuzzleAreaConfig a1)
 	{

@@ -9,24 +9,24 @@ namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_PROP_LASERTURNABLEPUZZLEFRAGMENT_GETOUTPUTLASER_OFFSET UNITYSDK_OFFSET(0x1483DD40)
-#define RPG_CLIENT_PROP_LASERTURNABLEPUZZLEFRAGMENT_INITFRAGMENT_OFFSET UNITYSDK_OFFSET(0x1483D2F0)
-#define RPG_CLIENT_PROP_LASERTURNABLEPUZZLEFRAGMENT_ISFRAGMENTMATCH_OFFSET UNITYSDK_OFFSET(0x1483D610)
-#define RPG_CLIENT_PROP_LASERTURNABLEPUZZLEFRAGMENT_SETFRAGMENTCOMPLETE_OFFSET UNITYSDK_OFFSET(0x1483D9E0)
-#define RPG_CLIENT_PROP_LASERTURNABLEPUZZLEFRAGMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1483D270)
+#define RPG_CLIENT_PROP_LASERTURNABLEPUZZLEFRAGMENT_GETOUTPUTLASER_OFFSET UNITYSDK_OFFSET(0x16118730)
+#define RPG_CLIENT_PROP_LASERTURNABLEPUZZLEFRAGMENT_INITFRAGMENT_OFFSET UNITYSDK_OFFSET(0x16117CD0)
+#define RPG_CLIENT_PROP_LASERTURNABLEPUZZLEFRAGMENT_ISFRAGMENTMATCH_OFFSET UNITYSDK_OFFSET(0x16117FF0)
+#define RPG_CLIENT_PROP_LASERTURNABLEPUZZLEFRAGMENT_SETFRAGMENTCOMPLETE_OFFSET UNITYSDK_OFFSET(0x161183C0)
+#define RPG_CLIENT_PROP_LASERTURNABLEPUZZLEFRAGMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x16117C50)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int LaserTurnablePuzzleFragment_TypeDefinitionIndex = 74709;
+	inline static constexpr unsigned int LaserTurnablePuzzleFragment_TypeDefinitionIndex = 78194;
 
 	class LaserTurnablePuzzleFragment : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::System::String* CompleteTriggerCustomString; // 0x18
-		::RPG::GameCore::GameEntity* Field_5_1; // 0x20
+		::RPG::GameCore::GameEntity* CFKHNPGEAJA; // 0x20
 		::System::Collections::Generic::List_1<::RPG::Client::Prop::LaserTurnablePuzzleInputObj*>* InputObjs; // 0x28
 		::System::Collections::Generic::List_1<::RPG::Client::Prop::LaserTurnablePuzzleOutputObj*>* OutputObjs; // 0x30
-		::System::Boolean Field_5_4; // 0x38
+		::System::Boolean KDDCFJMGFIA; // 0x38
 
 		::System::Void _ctor()
 		{

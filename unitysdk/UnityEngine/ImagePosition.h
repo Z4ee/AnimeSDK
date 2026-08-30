@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ImagePosition_TypeDefinitionIndex = 5232;
+	inline static constexpr unsigned int ImagePosition_TypeDefinitionIndex = 5177;
 
 	enum class ImagePosition : ::System::Int32
 	{

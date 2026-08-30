@@ -8,19 +8,19 @@ namespace UnityEngine { class BinaryPrefabAsset; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_UIPREFABLOADER___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0x183069B0)
-#define RPG_CLIENT_UIPREFABLOADER___C__DISPLAYCLASS17_0___ASYNCLOADPREFABIMPL_B__0_OFFSET UNITYSDK_OFFSET(0x18306C80)
-#define RPG_CLIENT_UIPREFABLOADER___C__DISPLAYCLASS17_0___ASYNCLOADPREFABIMPL_B__1_OFFSET UNITYSDK_OFFSET(0x18306D00)
+#define RPG_CLIENT_UIPREFABLOADER___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17B839D0)
+#define RPG_CLIENT_UIPREFABLOADER___C__DISPLAYCLASS17_0___ASYNCLOADPREFABIMPL_B__0_OFFSET UNITYSDK_OFFSET(0x17B83CA0)
+#define RPG_CLIENT_UIPREFABLOADER___C__DISPLAYCLASS17_0___ASYNCLOADPREFABIMPL_B__1_OFFSET UNITYSDK_OFFSET(0x17B83D20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIPrefabLoader___c__DisplayClass17_0_TypeDefinitionIndex = 69745;
+	inline static constexpr unsigned int UIPrefabLoader___c__DisplayClass17_0_TypeDefinitionIndex = 73003;
 
 	class UIPrefabLoader___c__DisplayClass17_0 : public ::System::Object
 	{
 	public:
-		::UnityEngine::Transform* parent; // 0x10
-		::System::Action_1<::RPG::Client::UIPrefabLoader_LoadResult*>* callback; // 0x18
+		::System::Action_1<::RPG::Client::UIPrefabLoader_LoadResult*>* callback; // 0x10
+		::UnityEngine::Transform* parent; // 0x18
 		::UnityEngine::GameObject* gameObject; // 0x20
 		::System::Boolean active; // 0x28
 

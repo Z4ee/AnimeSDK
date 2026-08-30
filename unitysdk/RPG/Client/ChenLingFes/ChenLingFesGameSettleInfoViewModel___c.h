@@ -6,44 +6,44 @@ class Class_1_7C1B6F38E8E579A2;
 namespace RPG::Client::ChenLingFes { class ChenLingFesGameSettleRecordItemViewModel; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMESETTLEINFOVIEWMODEL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B0069E0)
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMESETTLEINFOVIEWMODEL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B006A20)
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMESETTLEINFOVIEWMODEL___C___INIT_B__1_0_OFFSET UNITYSDK_OFFSET(0x1B006A50)
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMESETTLEINFOVIEWMODEL___C___INIT_B__1_1_OFFSET UNITYSDK_OFFSET(0x1B006A70)
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMESETTLEINFOVIEWMODEL___C___INIT_B__1_2_OFFSET UNITYSDK_OFFSET(0x1A4A80C0)
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMESETTLEINFOVIEWMODEL___C___INIT_B__1_3_OFFSET UNITYSDK_OFFSET(0x1A4A80E0)
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMESETTLEINFOVIEWMODEL___C___INIT_B__1_4_OFFSET UNITYSDK_OFFSET(0x1B006A30)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMESETTLEINFOVIEWMODEL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CC58540)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMESETTLEINFOVIEWMODEL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC58580)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMESETTLEINFOVIEWMODEL___C___INIT_B__1_0_OFFSET UNITYSDK_OFFSET(0x1CC585B0)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMESETTLEINFOVIEWMODEL___C___INIT_B__1_1_OFFSET UNITYSDK_OFFSET(0x1CC585D0)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMESETTLEINFOVIEWMODEL___C___INIT_B__1_2_OFFSET UNITYSDK_OFFSET(0x1CC585F0)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMESETTLEINFOVIEWMODEL___C___INIT_B__1_3_OFFSET UNITYSDK_OFFSET(0x1CC58610)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMESETTLEINFOVIEWMODEL___C___INIT_B__1_4_OFFSET UNITYSDK_OFFSET(0x1CC58590)
 
 namespace RPG::Client::ChenLingFes
 {
-	inline static constexpr unsigned int ChenLingFesGameSettleInfoViewModel___c_TypeDefinitionIndex = 76442;
+	inline static constexpr unsigned int ChenLingFesGameSettleInfoViewModel___c_TypeDefinitionIndex = 80075;
 
 	class ChenLingFesGameSettleInfoViewModel___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::Client::ChenLingFes::ChenLingFesGameSettleRecordItemViewModel*, ::System::Int32>** StaticGet___9__1_0()
-		{
-			return (::System::Func_2<::RPG::Client::ChenLingFes::ChenLingFesGameSettleRecordItemViewModel*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(ChenLingFesGameSettleInfoViewModel___c_TypeDefinitionIndex)->GetStaticField(0x65C20);
-		}
-		static ::System::Func_2<::RPG::Client::ChenLingFes::ChenLingFesGameSettleRecordItemViewModel*, ::System::Int32>** StaticGet___9__1_1()
-		{
-			return (::System::Func_2<::RPG::Client::ChenLingFes::ChenLingFesGameSettleRecordItemViewModel*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(ChenLingFesGameSettleInfoViewModel___c_TypeDefinitionIndex)->GetStaticField(0x65C28);
-		}
 		static ::System::Func_2<::RPG::Client::ChenLingFes::ChenLingFesGameSettleRecordItemViewModel*, ::System::Int32>** StaticGet___9__1_2()
 		{
-			return (::System::Func_2<::RPG::Client::ChenLingFes::ChenLingFesGameSettleRecordItemViewModel*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(ChenLingFesGameSettleInfoViewModel___c_TypeDefinitionIndex)->GetStaticField(0x65C30);
+			return (::System::Func_2<::RPG::Client::ChenLingFes::ChenLingFesGameSettleRecordItemViewModel*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(ChenLingFesGameSettleInfoViewModel___c_TypeDefinitionIndex)->GetStaticField(0x39360);
 		}
-		static ::System::Func_2<::Class_1_7C1B6F38E8E579A2*, ::System::Int64>** StaticGet___9__1_4()
+		static ::System::Func_2<::RPG::Client::ChenLingFes::ChenLingFesGameSettleRecordItemViewModel*, ::System::Int32>** StaticGet___9__1_0()
 		{
-			return (::System::Func_2<::Class_1_7C1B6F38E8E579A2*, ::System::Int64>**)Il2CppClass::FromTypeDefinitionIndex(ChenLingFesGameSettleInfoViewModel___c_TypeDefinitionIndex)->GetStaticField(0x65C38);
+			return (::System::Func_2<::RPG::Client::ChenLingFes::ChenLingFesGameSettleRecordItemViewModel*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(ChenLingFesGameSettleInfoViewModel___c_TypeDefinitionIndex)->GetStaticField(0x39368);
 		}
 		static ::System::Func_2<::RPG::Client::ChenLingFes::ChenLingFesGameSettleRecordItemViewModel*, ::System::Int32>** StaticGet___9__1_3()
 		{
-			return (::System::Func_2<::RPG::Client::ChenLingFes::ChenLingFesGameSettleRecordItemViewModel*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(ChenLingFesGameSettleInfoViewModel___c_TypeDefinitionIndex)->GetStaticField(0x65C40);
+			return (::System::Func_2<::RPG::Client::ChenLingFes::ChenLingFesGameSettleRecordItemViewModel*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(ChenLingFesGameSettleInfoViewModel___c_TypeDefinitionIndex)->GetStaticField(0x39370);
+		}
+		static ::System::Func_2<::Class_1_7C1B6F38E8E579A2*, ::System::Int64>** StaticGet___9__1_4()
+		{
+			return (::System::Func_2<::Class_1_7C1B6F38E8E579A2*, ::System::Int64>**)Il2CppClass::FromTypeDefinitionIndex(ChenLingFesGameSettleInfoViewModel___c_TypeDefinitionIndex)->GetStaticField(0x39378);
+		}
+		static ::System::Func_2<::RPG::Client::ChenLingFes::ChenLingFesGameSettleRecordItemViewModel*, ::System::Int32>** StaticGet___9__1_1()
+		{
+			return (::System::Func_2<::RPG::Client::ChenLingFes::ChenLingFesGameSettleRecordItemViewModel*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(ChenLingFesGameSettleInfoViewModel___c_TypeDefinitionIndex)->GetStaticField(0x39380);
 		}
 		static ::RPG::Client::ChenLingFes::ChenLingFesGameSettleInfoViewModel___c** StaticGet___9()
 		{
-			return (::RPG::Client::ChenLingFes::ChenLingFesGameSettleInfoViewModel___c**)Il2CppClass::FromTypeDefinitionIndex(ChenLingFesGameSettleInfoViewModel___c_TypeDefinitionIndex)->GetStaticField(0x65C48);
+			return (::RPG::Client::ChenLingFes::ChenLingFesGameSettleInfoViewModel___c**)Il2CppClass::FromTypeDefinitionIndex(ChenLingFesGameSettleInfoViewModel___c_TypeDefinitionIndex)->GetStaticField(0x39388);
 		}
 
 		static ::System::Void _cctor()

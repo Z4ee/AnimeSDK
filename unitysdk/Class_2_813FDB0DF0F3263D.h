@@ -1,28 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_CA217ABF4E3B4F3F.h"
+#include "unitysdk/Class_1_34917908B7833130.h"
 
 namespace System { class String; }
 namespace UnityEngine { class Animation; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Image; }
 
-#define CLASS_2_813FDB0DF0F3263D_METHOD_2_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x14D6D560)
-#define CLASS_2_813FDB0DF0F3263D_METHOD_2_43841C47716286CE_OFFSET UNITYSDK_OFFSET(0x14D6D600)
-#define CLASS_2_813FDB0DF0F3263D__CTOR_OFFSET UNITYSDK_OFFSET(0x14D6D6A0)
-#define CLASS_2_813FDB0DF0F3263D__ONBIND_OFFSET UNITYSDK_OFFSET(0x14D6D460)
+#define CLASS_2_813FDB0DF0F3263D_METHOD_2_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x163C2870)
+#define CLASS_2_813FDB0DF0F3263D_METHOD_2_43841C47716286CE_OFFSET UNITYSDK_OFFSET(0x163C2910)
+#define CLASS_2_813FDB0DF0F3263D__CTOR_OFFSET UNITYSDK_OFFSET(0x163C29B0)
+#define CLASS_2_813FDB0DF0F3263D__ONBIND_OFFSET UNITYSDK_OFFSET(0x163C2770)
 
-inline static constexpr unsigned int Class_2_813FDB0DF0F3263D_TypeDefinitionIndex = 68184;
+inline static constexpr unsigned int Class_2_813FDB0DF0F3263D_TypeDefinitionIndex = 71362;
 
-class Class_2_813FDB0DF0F3263D : public ::Class_1_CA217ABF4E3B4F3F
+class Class_2_813FDB0DF0F3263D : public ::Class_1_34917908B7833130
 {
 public:
-	// static const ::System::String* Field_2_0; // 0x0
-	// static const ::System::String* Field_2_1; // 0x0
-	::UnityEngine::Animation* Field_2_2; // 0x60
-	::UnityEngine::Transform* Field_2_3; // 0x68
-	::UnityEngine::UI::Image* Field_2_4; // 0x70
-	::System::Boolean Field_2_5; // 0x78
+	// static const ::System::String* FOJHBNDBANG; // 0x0
+	// static const ::System::String* KGNMFJAMICO; // 0x0
+	::UnityEngine::Animation* JPHOOFFIAAH; // 0x60
+	::UnityEngine::UI::Image* HPCAJDKDMEI; // 0x68
+	::UnityEngine::Transform* LKCFNPNEFHH; // 0x70
+	::System::Boolean IAPJFCPEOBL; // 0x78
 
 	::System::Void _ctor()
 	{

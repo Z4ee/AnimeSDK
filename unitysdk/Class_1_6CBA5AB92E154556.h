@@ -3,16 +3,16 @@
 #include "unitysdk/RPG/Client/LittleGame/TimelineControlGameWorld_LevelCellTrigger.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_6CBA5AB92E154556__CTOR_OFFSET UNITYSDK_OFFSET(0x1B252140)
+#define CLASS_1_6CBA5AB92E154556__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF86850)
 
-inline static constexpr unsigned int Class_1_6CBA5AB92E154556_TypeDefinitionIndex = 40338;
+inline static constexpr unsigned int Class_1_6CBA5AB92E154556_TypeDefinitionIndex = 41217;
 
 class Class_1_6CBA5AB92E154556 : public ::System::Object
 {
 public:
-	::RPG::Client::LittleGame::TimelineControlGameWorld_LevelCellTrigger Field_1_0; // 0x10
-	::System::Boolean Field_1_1; // 0x30
-	::System::Boolean Field_1_2; // 0x31
+	::RPG::Client::LittleGame::TimelineControlGameWorld_LevelCellTrigger EABKOHGCHFP; // 0x10
+	::System::Boolean INNLLCMIDFK; // 0x30
+	::System::Boolean CAGCHKJHMPD; // 0x31
 
 	::System::Void _ctor()
 	{

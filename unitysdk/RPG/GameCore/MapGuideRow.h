@@ -6,22 +6,22 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MAPGUIDEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1BCE1260)
-#define RPG_GAMECORE_MAPGUIDEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1BCE19B0)
+#define RPG_GAMECORE_MAPGUIDEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D4986B0)
+#define RPG_GAMECORE_MAPGUIDEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D498E00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MapGuideRow_TypeDefinitionIndex = 13538;
+	inline static constexpr unsigned int MapGuideRow_TypeDefinitionIndex = 13955;
 
 	class MapGuideRow : public ::System::Object
 	{
 	public:
 		::System::String* MapGuideIconPath; // 0x10
-		::System::UInt32 ID; // 0x18
-		::System::UInt32 WorldID; // 0x1C
+		::System::UInt32 SheetID; // 0x18
+		::System::UInt32 SheetType; // 0x1C
 		::RPG::Client::TextID MapGuideName; // 0x20
-		::System::UInt32 SheetType; // 0x30
-		::System::UInt32 SheetID; // 0x34
+		::System::UInt32 ID; // 0x30
+		::System::UInt32 WorldID; // 0x34
 
 		::System::Void _ctor()
 		{

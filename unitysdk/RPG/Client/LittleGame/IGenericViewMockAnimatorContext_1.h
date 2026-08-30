@@ -5,7 +5,7 @@ namespace Entitas { template <typename T> class IMatcher_1; }
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int IGenericViewMockAnimatorContext_1_TypeDefinitionIndex = 39798;
+	inline static constexpr unsigned int IGenericViewMockAnimatorContext_1_TypeDefinitionIndex = 40673;
 
 	template <typename TEntity>
 	class IGenericViewMockAnimatorContext_1

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class PropAnimTriggerRandomPlay; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_7D1885AC555D69ED_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17AAF7E0)
-#define CLASS_3_7D1885AC555D69ED__CTOR_OFFSET UNITYSDK_OFFSET(0x17AAF7B0)
+#define CLASS_3_7D1885AC555D69ED_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x178C7840)
+#define CLASS_3_7D1885AC555D69ED__CTOR_OFFSET UNITYSDK_OFFSET(0x178C7810)
 
-inline static constexpr unsigned int Class_3_7D1885AC555D69ED_TypeDefinitionIndex = 53355;
+inline static constexpr unsigned int Class_3_7D1885AC555D69ED_TypeDefinitionIndex = 56069;
 
 class Class_3_7D1885AC555D69ED : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::PropAnimTriggerRandomPlay*>
 {

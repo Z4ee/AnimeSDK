@@ -4,20 +4,20 @@
 
 namespace System { class Action; }
 
-#define RPG_CLIENT_HANDBOOKMODULE___C__DISPLAYCLASS130_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18FE4070)
-#define RPG_CLIENT_HANDBOOKMODULE___C__DISPLAYCLASS130_0___TRANSFERWITHCHECK_B__0_OFFSET UNITYSDK_OFFSET(0x18FE8490)
+#define RPG_CLIENT_HANDBOOKMODULE___C__DISPLAYCLASS130_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0628D0)
+#define RPG_CLIENT_HANDBOOKMODULE___C__DISPLAYCLASS130_0___TRANSFERWITHCHECK_B__0_OFFSET UNITYSDK_OFFSET(0x1A066F00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int HandbookModule___c__DisplayClass130_0_TypeDefinitionIndex = 62708;
+	inline static constexpr unsigned int HandbookModule___c__DisplayClass130_0_TypeDefinitionIndex = 65693;
 
 	class HandbookModule___c__DisplayClass130_0 : public ::System::Object
 	{
 	public:
 		::System::Action* transferCallback; // 0x10
-		::System::UInt32 contentID; // 0x18
+		::System::UInt32 mappingInfoID; // 0x18
 		::System::UInt32 entranceID; // 0x1C
-		::System::UInt32 mappingInfoID; // 0x20
+		::System::UInt32 contentID; // 0x20
 
 		::System::Void _ctor()
 		{

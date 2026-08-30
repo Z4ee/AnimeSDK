@@ -5,12 +5,12 @@
 
 class CommonShipEngineController;
 
-#define RPGTOOLS_TIMELINE_AIRSHIPSETENGINESTATEBEHAVIOUR_METHOD_3_749948B663FCCCEF_OFFSET UNITYSDK_OFFSET(0x19D6C600)
-#define RPGTOOLS_TIMELINE_AIRSHIPSETENGINESTATEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x19D6C660)
+#define RPGTOOLS_TIMELINE_AIRSHIPSETENGINESTATEBEHAVIOUR_METHOD_3_EC2B405D0723571D_OFFSET UNITYSDK_OFFSET(0x1B52B9C0)
+#define RPGTOOLS_TIMELINE_AIRSHIPSETENGINESTATEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1B52BA20)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int AirshipSetEngineStateBehaviour_TypeDefinitionIndex = 46071;
+	inline static constexpr unsigned int AirshipSetEngineStateBehaviour_TypeDefinitionIndex = 48295;
 
 	class AirshipSetEngineStateBehaviour : public ::RPGTools::Timeline::CustomEventBehaviour
 	{
@@ -23,9 +23,9 @@ namespace RPGTools::Timeline
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_AIRSHIPSETENGINESTATEBEHAVIOUR__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_3_749948B663FCCCEF()
+		::System::Void Method_3_EC2B405D0723571D()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_AIRSHIPSETENGINESTATEBEHAVIOUR_METHOD_3_749948B663FCCCEF_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_AIRSHIPSETENGINESTATEBEHAVIOUR_METHOD_3_EC2B405D0723571D_OFFSET))(this);
 		}
 	};
 }

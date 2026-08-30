@@ -3,7 +3,7 @@
 
 namespace Unity::IL2CPP::RuntimeServices
 {
-	inline static constexpr unsigned int BeohmGCActionType_TypeDefinitionIndex = 47816;
+	inline static constexpr unsigned int BeohmGCActionType_TypeDefinitionIndex = 50400;
 
 	enum class BeohmGCActionType : ::System::Int32
 	{

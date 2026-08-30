@@ -8,29 +8,29 @@ namespace RPG::GameCore { class AdventureCharacterController; }
 namespace RPG::GameCore { class GameEntity; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_C3894CD495F79F8F_CLEAR_OFFSET UNITYSDK_OFFSET(0x16F8E420)
-#define CLASS_1_C3894CD495F79F8F_GET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0x16F8EAA0)
-#define CLASS_1_C3894CD495F79F8F_METHOD_1_76C9985FF1BF1939_OFFSET UNITYSDK_OFFSET(0x16F8E090)
-#define CLASS_1_C3894CD495F79F8F_METHOD_1_B739FEC8F534D697_OFFSET UNITYSDK_OFFSET(0x16F8E4A0)
-#define CLASS_1_C3894CD495F79F8F_SET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0x16F8EAB0)
-#define CLASS_1_C3894CD495F79F8F__CTOR_OFFSET UNITYSDK_OFFSET(0x16F8EAC0)
+#define CLASS_1_C3894CD495F79F8F_CLEAR_OFFSET UNITYSDK_OFFSET(0x1892FF90)
+#define CLASS_1_C3894CD495F79F8F_GET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0x189305F0)
+#define CLASS_1_C3894CD495F79F8F_METHOD_1_76C9985FF1BF1939_OFFSET UNITYSDK_OFFSET(0x1892FC10)
+#define CLASS_1_C3894CD495F79F8F_METHOD_1_B739FEC8F534D697_OFFSET UNITYSDK_OFFSET(0x18930000)
+#define CLASS_1_C3894CD495F79F8F_SET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0x18930600)
+#define CLASS_1_C3894CD495F79F8F__CTOR_OFFSET UNITYSDK_OFFSET(0x18930610)
 
-inline static constexpr unsigned int Class_1_C3894CD495F79F8F_TypeDefinitionIndex = 54530;
+inline static constexpr unsigned int Class_1_C3894CD495F79F8F_TypeDefinitionIndex = 57251;
 
 class Class_1_C3894CD495F79F8F : public ::System::Object
 {
 public:
-	::Il2CppArray<::UnityEngine::Vector3>* Field_1_0; // 0x10
-	::RPG::GameCore::GameEntity* Field_1_1; // 0x18
-	::UnityEngine::Transform* Field_1_2; // 0x20
-	::Il2CppArray<::System::Single>* Field_1_3; // 0x28
-	::RPG::GameCore::AdventureMoveOnNavMeshFaceToType Field_1_4; // 0x30
-	::System::Boolean _IsActive_k__BackingField; // 0x34
-	::System::Single Field_1_6; // 0x38
-	::System::Single Field_1_7; // 0x3C
-	::System::Single Field_1_8; // 0x40
-	::System::Single Field_1_9; // 0x44
-	::UnityEngine::Vector3 Field_1_10; // 0x48
+	::UnityEngine::Transform* AFIBNIPMICJ; // 0x10
+	::RPG::GameCore::GameEntity* IDHIFEDLFDN; // 0x18
+	::Il2CppArray<::System::Single>* FNKPDLLALIO; // 0x20
+	::Il2CppArray<::UnityEngine::Vector3>* FJKLKJCBJGC; // 0x28
+	::System::Single HBDJCFFDGDD; // 0x30
+	::System::Single HPCHCEFOKJB; // 0x34
+	::System::Single NPINECOCALC; // 0x38
+	::System::Boolean _IsActive_k__BackingField; // 0x3C
+	::UnityEngine::Vector3 CBBLCMFPEOL; // 0x40
+	::RPG::GameCore::AdventureMoveOnNavMeshFaceToType MLMEAGPKCIA; // 0x4C
+	::System::Single IJKFPHAKDEA; // 0x50
 
 	::System::Void _ctor()
 	{

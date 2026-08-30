@@ -6,20 +6,20 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_PLANETFESGAMEREWARDPOOLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B4D7850)
-#define RPG_GAMECORE_PLANETFESGAMEREWARDPOOLROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4D7A00)
+#define RPG_GAMECORE_PLANETFESGAMEREWARDPOOLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D79D6D0)
+#define RPG_GAMECORE_PLANETFESGAMEREWARDPOOLROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D79D880)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlanetFesGameRewardPoolRow_TypeDefinitionIndex = 11774;
+	inline static constexpr unsigned int PlanetFesGameRewardPoolRow_TypeDefinitionIndex = 12163;
 
 	class PlanetFesGameRewardPoolRow : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* RewardParam; // 0x10
-		::System::UInt32 RewardPoolID; // 0x18
-		::System::UInt32 Order; // 0x1C
-		::RPG::GameCore::PlanetFesMiniGameRewardType Type; // 0x20
+		::RPG::GameCore::PlanetFesMiniGameRewardType Type; // 0x18
+		::System::UInt32 RewardPoolID; // 0x1C
+		::System::UInt32 Order; // 0x20
 
 		::System::Void _ctor()
 		{

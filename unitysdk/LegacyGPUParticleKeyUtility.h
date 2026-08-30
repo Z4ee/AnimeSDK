@@ -6,11 +6,11 @@
 
 class LegacyGPUParticleSystem;
 
-#define LEGACYGPUPARTICLEKEYUTILITY_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1BC51380)
-#define LEGACYGPUPARTICLEKEYUTILITY_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1BC51060)
-#define LEGACYGPUPARTICLEKEYUTILITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC51720)
+#define LEGACYGPUPARTICLEKEYUTILITY_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1D971AB0)
+#define LEGACYGPUPARTICLEKEYUTILITY_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1D971790)
+#define LEGACYGPUPARTICLEKEYUTILITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1D971E50)
 
-inline static constexpr unsigned int LegacyGPUParticleKeyUtility_TypeDefinitionIndex = 41341;
+inline static constexpr unsigned int LegacyGPUParticleKeyUtility_TypeDefinitionIndex = 42301;
 
 class LegacyGPUParticleKeyUtility : public ::UnityEngine::MonoBehaviour
 {
@@ -35,7 +35,7 @@ public:
 	::System::Int32 materialZWrite; // 0x8C
 	::System::Int32 materialRenderQueue; // 0x90
 	::UnityEngine::Color mainColor; // 0x94
-	::LegacyGPUParticleSystem* Field_5_20; // 0xA8
+	::LegacyGPUParticleSystem* AJBNMGPFOHM; // 0xA8
 
 	::System::Void _ctor()
 	{

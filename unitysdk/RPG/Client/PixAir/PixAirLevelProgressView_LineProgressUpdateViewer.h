@@ -4,23 +4,23 @@
 
 namespace RPG::Client { class UILineRenderer; }
 
-#define RPG_CLIENT_PIXAIR_PIXAIRLEVELPROGRESSVIEW_LINEPROGRESSUPDATEVIEWER_FORCETOEND_OFFSET UNITYSDK_OFFSET(0x1A0CC7C0)
-#define RPG_CLIENT_PIXAIR_PIXAIRLEVELPROGRESSVIEW_LINEPROGRESSUPDATEVIEWER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1A0CC670)
-#define RPG_CLIENT_PIXAIR_PIXAIRLEVELPROGRESSVIEW_LINEPROGRESSUPDATEVIEWER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0CC5E0)
+#define RPG_CLIENT_PIXAIR_PIXAIRLEVELPROGRESSVIEW_LINEPROGRESSUPDATEVIEWER_FORCETOEND_OFFSET UNITYSDK_OFFSET(0x1BD03780)
+#define RPG_CLIENT_PIXAIR_PIXAIRLEVELPROGRESSVIEW_LINEPROGRESSUPDATEVIEWER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1BD03630)
+#define RPG_CLIENT_PIXAIR_PIXAIRLEVELPROGRESSVIEW_LINEPROGRESSUPDATEVIEWER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD035A0)
 
 namespace RPG::Client::PixAir
 {
-	inline static constexpr unsigned int PixAirLevelProgressView_LineProgressUpdateViewer_TypeDefinitionIndex = 75360;
+	inline static constexpr unsigned int PixAirLevelProgressView_LineProgressUpdateViewer_TypeDefinitionIndex = 78907;
 
 	class PixAirLevelProgressView_LineProgressUpdateViewer : public ::System::Object
 	{
 	public:
 		::RPG::Client::UILineRenderer* _LineRenderer; // 0x10
-		::System::Single _CurrentTime; // 0x18
-		::System::Single _StartDelay; // 0x1C
-		::System::Single _StartProgress; // 0x20
+		::System::Single _TargetProgress; // 0x18
+		::System::Single _CurrentTime; // 0x1C
+		::System::Single _StartDelay; // 0x20
 		::System::Single _Duration; // 0x24
-		::System::Single _TargetProgress; // 0x28
+		::System::Single _StartProgress; // 0x28
 
 		::System::Void _ctor(::RPG::Client::UILineRenderer* a1, ::System::Single a2, ::System::Single a3, ::System::Single a4, ::System::Single a5)
 		{

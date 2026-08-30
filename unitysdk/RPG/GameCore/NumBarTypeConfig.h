@@ -7,12 +7,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_NUMBARTYPECONFIG_METHOD_2_9847733D03CB77E6_OFFSET UNITYSDK_OFFSET(0x1BAFE340)
-#define RPG_GAMECORE_NUMBARTYPECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BAFE4D0)
+#define RPG_GAMECORE_NUMBARTYPECONFIG_METHOD_2_6D2242AA2333D3CF_OFFSET UNITYSDK_OFFSET(0x1CE94260)
+#define RPG_GAMECORE_NUMBARTYPECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE943D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int NumBarTypeConfig_TypeDefinitionIndex = 21917;
+	inline static constexpr unsigned int NumBarTypeConfig_TypeDefinitionIndex = 22481;
 
 	class NumBarTypeConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_NUMBARTYPECONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_9847733D03CB77E6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::NumBarTypeConfig*& a2)
+		static ::System::Void Method_2_6D2242AA2333D3CF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::NumBarTypeConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::NumBarTypeConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_NUMBARTYPECONFIG_METHOD_2_9847733D03CB77E6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::NumBarTypeConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_NUMBARTYPECONFIG_METHOD_2_6D2242AA2333D3CF_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -4,13 +4,13 @@
 #include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_380;
+class Class_0_16E4307DCC419505_415;
 class Class_3_12C3ED04B580CAC3;
 
-#define CLASS_3_12C3ED04B580CAC3___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x13A60E80)
-#define CLASS_3_12C3ED04B580CAC3___C__DISPLAYCLASS1_0__EVALUATE_B__0_OFFSET UNITYSDK_OFFSET(0x13A60E90)
+#define CLASS_3_12C3ED04B580CAC3___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1593C9D0)
+#define CLASS_3_12C3ED04B580CAC3___C__DISPLAYCLASS1_0__EVALUATE_B__0_OFFSET UNITYSDK_OFFSET(0x1593C9E0)
 
-inline static constexpr unsigned int Class_3_12C3ED04B580CAC3___c__DisplayClass1_0_TypeDefinitionIndex = 52071;
+inline static constexpr unsigned int Class_3_12C3ED04B580CAC3___c__DisplayClass1_0_TypeDefinitionIndex = 54756;
 
 class Class_3_12C3ED04B580CAC3___c__DisplayClass1_0 : public ::System::Object
 {
@@ -24,8 +24,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_12C3ED04B580CAC3___C__DISPLAYCLASS1_0__CTOR_OFFSET))(this);
 	}
 
-	::System::Void _Evaluate_b__0(::Class_0_16E4307DCC419505_380* a1)
+	::System::Void _Evaluate_b__0(::Class_0_16E4307DCC419505_415* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_380*))((::PBYTE)hIl2Cpp + CLASS_3_12C3ED04B580CAC3___C__DISPLAYCLASS1_0__EVALUATE_B__0_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_415*))((::PBYTE)hIl2Cpp + CLASS_3_12C3ED04B580CAC3___C__DISPLAYCLASS1_0__EVALUATE_B__0_OFFSET))(this, a1);
 	}
 };

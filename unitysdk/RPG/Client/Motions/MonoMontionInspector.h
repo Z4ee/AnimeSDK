@@ -4,11 +4,11 @@
 
 class Class_1_A043D803AC652E6E;
 
-#define RPG_CLIENT_MOTIONS_MONOMONTIONINSPECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1955CD20)
+#define RPG_CLIENT_MOTIONS_MONOMONTIONINSPECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1960FC50)
 
 namespace RPG::Client::Motions
 {
-	inline static constexpr unsigned int MonoMontionInspector_TypeDefinitionIndex = 70085;
+	inline static constexpr unsigned int MonoMontionInspector_TypeDefinitionIndex = 73384;
 
 	class MonoMontionInspector : public ::UnityEngine::MonoBehaviour
 	{

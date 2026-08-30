@@ -6,19 +6,19 @@ namespace RPG::Client { class MapMappingInfoData; }
 namespace RPG::Client::NavMap { class ISubNavMap; }
 namespace RPG::GameCore { class SubMissionInfoConfig; }
 
-#define RPG_CLIENT_NAVMAP_ICONCOLLECTORBASE___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0x166B6280)
-#define RPG_CLIENT_NAVMAP_ICONCOLLECTORBASE___C__DISPLAYCLASS27_0___TRYGETMAINNAVMAPCROSSFLOORGUIDEICON_B__0_OFFSET UNITYSDK_OFFSET(0x166B88D0)
-#define RPG_CLIENT_NAVMAP_ICONCOLLECTORBASE___C__DISPLAYCLASS27_0___TRYGETMAINNAVMAPCROSSFLOORGUIDEICON_B__1_OFFSET UNITYSDK_OFFSET(0x166B89E0)
+#define RPG_CLIENT_NAVMAP_ICONCOLLECTORBASE___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0x182497A0)
+#define RPG_CLIENT_NAVMAP_ICONCOLLECTORBASE___C__DISPLAYCLASS27_0___TRYGETMAINNAVMAPCROSSFLOORGUIDEICON_B__0_OFFSET UNITYSDK_OFFSET(0x1824BF30)
+#define RPG_CLIENT_NAVMAP_ICONCOLLECTORBASE___C__DISPLAYCLASS27_0___TRYGETMAINNAVMAPCROSSFLOORGUIDEICON_B__1_OFFSET UNITYSDK_OFFSET(0x1824C040)
 
 namespace RPG::Client::NavMap
 {
-	inline static constexpr unsigned int IconCollectorBase___c__DisplayClass27_0_TypeDefinitionIndex = 71101;
+	inline static constexpr unsigned int IconCollectorBase___c__DisplayClass27_0_TypeDefinitionIndex = 74400;
 
 	class IconCollectorBase___c__DisplayClass27_0 : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::SubMissionInfoConfig* subMissionInfoConfig; // 0x10
-		::RPG::Client::NavMap::ISubNavMap* subNavMapData; // 0x18
+		::RPG::Client::NavMap::ISubNavMap* subNavMapData; // 0x10
+		::RPG::GameCore::SubMissionInfoConfig* subMissionInfoConfig; // 0x18
 
 		::System::Void _ctor()
 		{

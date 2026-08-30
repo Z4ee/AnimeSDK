@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DeviceModelInfo; }
 namespace RPG::GameCore { class GraphicDeviceInfo; }
 
-#define RPG_GAMECORE_FORCEVULKANDEVICES_METHOD_2_6BB38731CBE015FB_OFFSET UNITYSDK_OFFSET(0x1BEBFE90)
-#define RPG_GAMECORE_FORCEVULKANDEVICES__CTOR_OFFSET UNITYSDK_OFFSET(0x1BEC0050)
+#define RPG_GAMECORE_FORCEVULKANDEVICES_METHOD_2_6BB38731CBE015FB_OFFSET UNITYSDK_OFFSET(0x1DCB1A40)
+#define RPG_GAMECORE_FORCEVULKANDEVICES__CTOR_OFFSET UNITYSDK_OFFSET(0x1DCB1C00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ForceVulkanDevices_TypeDefinitionIndex = 17540;
+	inline static constexpr unsigned int ForceVulkanDevices_TypeDefinitionIndex = 18058;
 
 	class ForceVulkanDevices : public ::RPG::GameCore::JsonConfig
 	{

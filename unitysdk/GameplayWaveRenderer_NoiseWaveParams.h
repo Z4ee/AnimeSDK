@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-inline static constexpr unsigned int GameplayWaveRenderer_NoiseWaveParams_TypeDefinitionIndex = 45523;
+inline static constexpr unsigned int GameplayWaveRenderer_NoiseWaveParams_TypeDefinitionIndex = 47773;
 
 struct alignas(4) GameplayWaveRenderer_NoiseWaveParams
 {

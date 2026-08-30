@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace RPG::Client::FateRin::Battle
 {
-	inline static constexpr unsigned int IFateRinBattleHudHandCardDisplayViewModel_TypeDefinitionIndex = 75965;
+	inline static constexpr unsigned int IFateRinBattleHudHandCardDisplayViewModel_TypeDefinitionIndex = 79598;
 
 	class IFateRinBattleHudHandCardDisplayViewModel
 	{

@@ -2,27 +2,27 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-class Class_1_74AFEC3818196291;
+class Class_1_FD21020B0878C0A0;
 namespace SuperScrollView { class LoopGridView; }
 namespace SuperScrollView { class LoopGridViewItem; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace XLua { class LuaTable; }
 
-#define RPG_CLIENT_CHALLENGE_CHALLENGERESULTREWARDLISTCONTROL_GET_ITEMS_OFFSET UNITYSDK_OFFSET(0x1AC61F60)
-#define RPG_CLIENT_CHALLENGE_CHALLENGERESULTREWARDLISTCONTROL_METHOD_5_B387E1AED8A8F880_OFFSET UNITYSDK_OFFSET(0x1AC61FF0)
-#define RPG_CLIENT_CHALLENGE_CHALLENGERESULTREWARDLISTCONTROL_METHOD_5_ED8B182E1373E4A7_OFFSET UNITYSDK_OFFSET(0x1AC62220)
-#define RPG_CLIENT_CHALLENGE_CHALLENGERESULTREWARDLISTCONTROL_SET_ITEMS_OFFSET UNITYSDK_OFFSET(0x1AC61FA0)
-#define RPG_CLIENT_CHALLENGE_CHALLENGERESULTREWARDLISTCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC62530)
-#define RPG_CLIENT_CHALLENGE_CHALLENGERESULTREWARDLISTCONTROL___REFRESH_B__5_0_OFFSET UNITYSDK_OFFSET(0x1AC62540)
+#define RPG_CLIENT_CHALLENGE_CHALLENGERESULTREWARDLISTCONTROL_GET_ITEMS_OFFSET UNITYSDK_OFFSET(0x1C860E10)
+#define RPG_CLIENT_CHALLENGE_CHALLENGERESULTREWARDLISTCONTROL_METHOD_5_B387E1AED8A8F880_OFFSET UNITYSDK_OFFSET(0x1C860EA0)
+#define RPG_CLIENT_CHALLENGE_CHALLENGERESULTREWARDLISTCONTROL_METHOD_5_ED8B182E1373E4A7_OFFSET UNITYSDK_OFFSET(0x1C8610D0)
+#define RPG_CLIENT_CHALLENGE_CHALLENGERESULTREWARDLISTCONTROL_SET_ITEMS_OFFSET UNITYSDK_OFFSET(0x1C860E50)
+#define RPG_CLIENT_CHALLENGE_CHALLENGERESULTREWARDLISTCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x1C8613E0)
+#define RPG_CLIENT_CHALLENGE_CHALLENGERESULTREWARDLISTCONTROL___REFRESH_B__5_0_OFFSET UNITYSDK_OFFSET(0x1C8613F0)
 
 namespace RPG::Client::Challenge
 {
-	inline static constexpr unsigned int ChallengeResultRewardListControl_TypeDefinitionIndex = 76457;
+	inline static constexpr unsigned int ChallengeResultRewardListControl_TypeDefinitionIndex = 80089;
 
 	class ChallengeResultRewardListControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		::System::Collections::Generic::IReadOnlyList_1<::Class_1_74AFEC3818196291*>* Field_5_0; // 0x18
+		::System::Collections::Generic::IReadOnlyList_1<::Class_1_FD21020B0878C0A0*>* GCIKKMGIPIO; // 0x18
 		::SuperScrollView::LoopGridView* _ItemList; // 0x20
 
 		::System::Void _ctor()
@@ -30,14 +30,14 @@ namespace RPG::Client::Challenge
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_CHALLENGERESULTREWARDLISTCONTROL__CTOR_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::IReadOnlyList_1<::Class_1_74AFEC3818196291*>* get_Items()
+		::System::Collections::Generic::IReadOnlyList_1<::Class_1_FD21020B0878C0A0*>* get_Items()
 		{
-			return ((::System::Collections::Generic::IReadOnlyList_1<::Class_1_74AFEC3818196291*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_CHALLENGERESULTREWARDLISTCONTROL_GET_ITEMS_OFFSET))(this);
+			return ((::System::Collections::Generic::IReadOnlyList_1<::Class_1_FD21020B0878C0A0*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_CHALLENGERESULTREWARDLISTCONTROL_GET_ITEMS_OFFSET))(this);
 		}
 
-		::System::Void set_Items(::System::Collections::Generic::IReadOnlyList_1<::Class_1_74AFEC3818196291*>* a1)
+		::System::Void set_Items(::System::Collections::Generic::IReadOnlyList_1<::Class_1_FD21020B0878C0A0*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IReadOnlyList_1<::Class_1_74AFEC3818196291*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_CHALLENGERESULTREWARDLISTCONTROL_SET_ITEMS_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IReadOnlyList_1<::Class_1_FD21020B0878C0A0*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_CHALLENGERESULTREWARDLISTCONTROL_SET_ITEMS_OFFSET))(this, a1);
 		}
 
 		::System::Void Method_5_B387E1AED8A8F880()

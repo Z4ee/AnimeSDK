@@ -7,16 +7,16 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 
-#define STRUCT_2_4C8316D252AABDF5__CTOR_OFFSET UNITYSDK_OFFSET(0x395E4E0)
+#define STRUCT_2_4C8316D252AABDF5__CTOR_OFFSET UNITYSDK_OFFSET(0x3AF9580)
 
-inline static constexpr unsigned int Struct_2_4C8316D252AABDF5_TypeDefinitionIndex = 54740;
+inline static constexpr unsigned int Struct_2_4C8316D252AABDF5_TypeDefinitionIndex = 57461;
 
 struct alignas(8) Struct_2_4C8316D252AABDF5
 {
-	::RPG::GameCore::GameEntity* Field_2_0; // 0x10
-	::UnityEngine::Vector3 Field_2_1; // 0x18
-	::RPG::GameCore::ELookAtTargetSource Field_2_2; // 0x24
-	::System::String* Field_2_3; // 0x28
+	::RPG::GameCore::GameEntity* BBMMBAKDJBC; // 0x10
+	::UnityEngine::Vector3 PGJJCGGBCKK; // 0x18
+	::RPG::GameCore::ELookAtTargetSource PAECPMJCOGB; // 0x24
+	::System::String* IJJJEKGCLBD; // 0x28
 
 	::System::Void _ctor(::RPG::GameCore::GameEntity* a1, ::UnityEngine::Vector3 a2, ::RPG::GameCore::ELookAtTargetSource a3, ::System::String* a4)
 	{

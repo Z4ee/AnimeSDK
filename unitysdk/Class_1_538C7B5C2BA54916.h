@@ -1,0 +1,99 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_4AEC8D69C60E1E74_EWindowType.h"
+#include "unitysdk/RPG/Client/EInflateIntent.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_8676A5D6BF139078;
+namespace RPG::Client { class InflatableFighterPuzzleBoard; }
+
+#define CLASS_1_538C7B5C2BA54916_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1819E610)
+#define CLASS_1_538C7B5C2BA54916_METHOD_1_176EDC9D2FA71031_OFFSET UNITYSDK_OFFSET(0x1819E900)
+#define CLASS_1_538C7B5C2BA54916_METHOD_1_1808E1CF7A125519_1_OFFSET UNITYSDK_OFFSET(0x1819E850)
+#define CLASS_1_538C7B5C2BA54916_METHOD_1_1808E1CF7A125519_OFFSET UNITYSDK_OFFSET(0x1819E7A0)
+#define CLASS_1_538C7B5C2BA54916_METHOD_1_3970D6E620F4D921_OFFSET UNITYSDK_OFFSET(0x1819EC60)
+#define CLASS_1_538C7B5C2BA54916_METHOD_1_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x1819E710)
+#define CLASS_1_538C7B5C2BA54916_METHOD_1_5D2D30CEC7CE5AFD_OFFSET UNITYSDK_OFFSET(0x1819E660)
+#define CLASS_1_538C7B5C2BA54916_METHOD_1_7889E856344009E9_OFFSET UNITYSDK_OFFSET(0x1819EBE0)
+#define CLASS_1_538C7B5C2BA54916_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x1819E5C0)
+#define CLASS_1_538C7B5C2BA54916_METHOD_1_D4975DF907B2431F_OFFSET UNITYSDK_OFFSET(0x1819EA70)
+#define CLASS_1_538C7B5C2BA54916_METHOD_1_E90A8A4A64A324ED_OFFSET UNITYSDK_OFFSET(0x1819E520)
+#define CLASS_1_538C7B5C2BA54916__CTOR_OFFSET UNITYSDK_OFFSET(0x1819E510)
+
+inline static constexpr unsigned int Class_1_538C7B5C2BA54916_TypeDefinitionIndex = 68643;
+
+class Class_1_538C7B5C2BA54916 : public ::System::Object
+{
+public:
+	::Class_1_8676A5D6BF139078* ICKHCACDNCA; // 0x10
+	::Class_1_8676A5D6BF139078* DILFEODGLCM; // 0x18
+	::RPG::Client::InflatableFighterPuzzleBoard* CCAHGFIABKE; // 0x20
+	::System::Single EPHNGKLGMPD; // 0x28
+	::System::Single EMFANICDCMF; // 0x2C
+	::System::Int32 CHOCLEANHKO; // 0x30
+	::System::Boolean CEMAGGCKKNJ; // 0x34
+	::System::Boolean MBGCCPNGBKI; // 0x35
+	::System::Boolean MKMGEOHKDFK; // 0x36
+	::System::Boolean NIDMBGNAKIM; // 0x37
+	::System::Boolean MDDOCJDNCBD; // 0x38
+
+	::System::Void _ctor(::RPG::Client::InflatableFighterPuzzleBoard* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::InflatableFighterPuzzleBoard*))((::PBYTE)hIl2Cpp + CLASS_1_538C7B5C2BA54916__CTOR_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_E90A8A4A64A324ED(::Class_1_8676A5D6BF139078* a1, ::Class_1_8676A5D6BF139078* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_8676A5D6BF139078*, ::Class_1_8676A5D6BF139078*))((::PBYTE)hIl2Cpp + CLASS_1_538C7B5C2BA54916_METHOD_1_E90A8A4A64A324ED_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_1_CA373AA1C7054598()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_538C7B5C2BA54916_METHOD_1_CA373AA1C7054598_OFFSET))(this);
+	}
+
+	::System::Void Dispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_538C7B5C2BA54916_DISPOSE_OFFSET))(this);
+	}
+
+	::RPG::Client::EInflateIntent Method_1_5D2D30CEC7CE5AFD()
+	{
+		return ((::RPG::Client::EInflateIntent(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_538C7B5C2BA54916_METHOD_1_5D2D30CEC7CE5AFD_OFFSET))(this);
+	}
+
+	::System::Boolean Method_1_1808E1CF7A125519()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_538C7B5C2BA54916_METHOD_1_1808E1CF7A125519_OFFSET))(this);
+	}
+
+	::System::Boolean Method_1_1808E1CF7A125519_1()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_538C7B5C2BA54916_METHOD_1_1808E1CF7A125519_1_OFFSET))(this);
+	}
+
+	::System::Void Method_1_4343F372F34C05BF()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_538C7B5C2BA54916_METHOD_1_4343F372F34C05BF_OFFSET))(this);
+	}
+
+	::System::Void Method_1_176EDC9D2FA71031(::System::Single a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_538C7B5C2BA54916_METHOD_1_176EDC9D2FA71031_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_7889E856344009E9(::System::Single a1, ::System::Single a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_538C7B5C2BA54916_METHOD_1_7889E856344009E9_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_1_D4975DF907B2431F(::System::Single a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_538C7B5C2BA54916_METHOD_1_D4975DF907B2431F_OFFSET))(this, a1);
+	}
+
+	static ::System::Boolean Method_1_3970D6E620F4D921(::Class_1_4AEC8D69C60E1E74_EWindowType a1)
+	{
+		return ((::System::Boolean(*)(::Class_1_4AEC8D69C60E1E74_EWindowType))((::PBYTE)hIl2Cpp + CLASS_1_538C7B5C2BA54916_METHOD_1_3970D6E620F4D921_OFFSET))(a1);
+	}
+};

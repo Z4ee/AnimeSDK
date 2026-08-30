@@ -2,28 +2,28 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/GridFightGameModifier.h"
 
-class Class_1_1A05043E9AD1C5D3;
+class Class_1_B8E6D5AD8534D123;
 
-#define RPG_CLIENT_GRIDFIGHTFINANCING_GET_COINNUM_OFFSET UNITYSDK_OFFSET(0x1A6A0110)
-#define RPG_CLIENT_GRIDFIGHTFINANCING_GET_UNIQUEID_OFFSET UNITYSDK_OFFSET(0x1A687730)
-#define RPG_CLIENT_GRIDFIGHTFINANCING_UPDATE_OFFSET UNITYSDK_OFFSET(0x1A6A00C0)
-#define RPG_CLIENT_GRIDFIGHTFINANCING__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6A00B0)
+#define RPG_CLIENT_GRIDFIGHTFINANCING_GET_COINNUM_OFFSET UNITYSDK_OFFSET(0x1BD3E490)
+#define RPG_CLIENT_GRIDFIGHTFINANCING_GET_UNIQUEID_OFFSET UNITYSDK_OFFSET(0x1BD3E3F0)
+#define RPG_CLIENT_GRIDFIGHTFINANCING_UPDATE_OFFSET UNITYSDK_OFFSET(0x1BD3E3A0)
+#define RPG_CLIENT_GRIDFIGHTFINANCING__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD3E390)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightFinancing_TypeDefinitionIndex = 62112;
+	inline static constexpr unsigned int GridFightFinancing_TypeDefinitionIndex = 65096;
 
 	class GridFightFinancing : public ::RPG::Client::GridFightGameModifier
 	{
 	public:
-		::System::Void _ctor(::Class_1_1A05043E9AD1C5D3* a1)
+		::System::Void _ctor(::Class_1_B8E6D5AD8534D123* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_1A05043E9AD1C5D3*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTFINANCING__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Class_1_B8E6D5AD8534D123*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTFINANCING__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void Update(::Class_1_1A05043E9AD1C5D3* a1)
+		::System::Void Update(::Class_1_B8E6D5AD8534D123* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_1A05043E9AD1C5D3*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTFINANCING_UPDATE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Class_1_B8E6D5AD8534D123*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTFINANCING_UPDATE_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_UniqueID()

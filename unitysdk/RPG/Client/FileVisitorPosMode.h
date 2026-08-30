@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FileVisitorPosMode_TypeDefinitionIndex = 33838;
+	inline static constexpr unsigned int FileVisitorPosMode_TypeDefinitionIndex = 34605;
 
 	enum class FileVisitorPosMode : ::System::Int32
 	{

@@ -6,21 +6,21 @@ namespace System::Collections::ObjectModel { template <typename T> class ReadOnl
 namespace System::Linq::Expressions { class SwitchCase; }
 namespace System::Reflection { class MethodInfo; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_SWITCHEXPRESSION_GET_CASES_OFFSET UNITYSDK_OFFSET(0x1C1CE210)
-#define SYSTEM_LINQ_EXPRESSIONS_SWITCHEXPRESSION_GET_COMPARISON_OFFSET UNITYSDK_OFFSET(0x1C1CE230)
-#define SYSTEM_LINQ_EXPRESSIONS_SWITCHEXPRESSION_GET_DEFAULTBODY_OFFSET UNITYSDK_OFFSET(0x1C1CE220)
-#define SYSTEM_LINQ_EXPRESSIONS_SWITCHEXPRESSION_GET_SWITCHVALUE_OFFSET UNITYSDK_OFFSET(0x1C1CE200)
+#define SYSTEM_LINQ_EXPRESSIONS_SWITCHEXPRESSION_GET_CASES_OFFSET UNITYSDK_OFFSET(0x1DF51580)
+#define SYSTEM_LINQ_EXPRESSIONS_SWITCHEXPRESSION_GET_COMPARISON_OFFSET UNITYSDK_OFFSET(0x1DF515A0)
+#define SYSTEM_LINQ_EXPRESSIONS_SWITCHEXPRESSION_GET_DEFAULTBODY_OFFSET UNITYSDK_OFFSET(0x1DF51590)
+#define SYSTEM_LINQ_EXPRESSIONS_SWITCHEXPRESSION_GET_SWITCHVALUE_OFFSET UNITYSDK_OFFSET(0x1DF51570)
 
 namespace System::Linq::Expressions
 {
-	inline static constexpr unsigned int SwitchExpression_TypeDefinitionIndex = 3268;
+	inline static constexpr unsigned int SwitchExpression_TypeDefinitionIndex = 3276;
 
 	class SwitchExpression : public ::System::Linq::Expressions::Expression
 	{
 	public:
-		::System::Linq::Expressions::Expression* _SwitchValue_k__BackingField; // 0x10
-		::System::Linq::Expressions::Expression* _DefaultBody_k__BackingField; // 0x18
-		::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::SwitchCase*>* _Cases_k__BackingField; // 0x20
+		::System::Linq::Expressions::Expression* _DefaultBody_k__BackingField; // 0x10
+		::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::SwitchCase*>* _Cases_k__BackingField; // 0x18
+		::System::Linq::Expressions::Expression* _SwitchValue_k__BackingField; // 0x20
 		::System::Reflection::MethodInfo* _Comparison_k__BackingField; // 0x28
 
 		::System::Linq::Expressions::Expression* get_SwitchValue()

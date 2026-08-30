@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ERelicRecommendDataType_TypeDefinitionIndex = 63821;
+	inline static constexpr unsigned int ERelicRecommendDataType_TypeDefinitionIndex = 66812;
 
 	enum class ERelicRecommendDataType : ::System::Int32
 	{

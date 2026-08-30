@@ -6,18 +6,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define CLASS_1_5D31F5171A531E0A_METHOD_1_1FA67F2466ED59EC_OFFSET UNITYSDK_OFFSET(0x1BD58A40)
-#define CLASS_1_5D31F5171A531E0A__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD58C60)
+#define CLASS_1_5D31F5171A531E0A_METHOD_1_1FA67F2466ED59EC_OFFSET UNITYSDK_OFFSET(0x1D852DB0)
+#define CLASS_1_5D31F5171A531E0A__CTOR_OFFSET UNITYSDK_OFFSET(0x1D852FD0)
 
-inline static constexpr unsigned int Class_1_5D31F5171A531E0A_TypeDefinitionIndex = 10902;
+inline static constexpr unsigned int Class_1_5D31F5171A531E0A_TypeDefinitionIndex = 11277;
 
 class Class_1_5D31F5171A531E0A : public ::System::Object
 {
 public:
-	::Il2CppArray<::System::UInt32>* Field_1_0; // 0x10
-	::RPG::GameCore::ActivityDiceCombatV2ScoreType Field_1_1; // 0x18
-	::System::UInt32 Field_1_2; // 0x1C
-	::RPG::Client::TextID Field_1_3; // 0x20
+	::Il2CppArray<::System::UInt32>* PBLPLDJKPEI; // 0x10
+	::RPG::Client::TextID OACJHAFNCCB; // 0x18
+	::System::UInt32 PHFMCACHFIJ; // 0x28
+	::RPG::GameCore::ActivityDiceCombatV2ScoreType FBBBHPDMFAP; // 0x2C
 
 	::System::Void _ctor()
 	{

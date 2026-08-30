@@ -3,12 +3,12 @@
 #include "unitysdk/System/Security/Permissions/CodeAccessSecurityAttribute.h"
 #include "unitysdk/System/Security/Permissions/SecurityPermissionFlag.h"
 
-#define SYSTEM_SECURITY_PERMISSIONS_SECURITYPERMISSIONATTRIBUTE_SET_FLAGS_OFFSET UNITYSDK_OFFSET(0x150B6240)
-#define SYSTEM_SECURITY_PERMISSIONS_SECURITYPERMISSIONATTRIBUTE_SET_SKIPVERIFICATION_OFFSET UNITYSDK_OFFSET(0x150B6230)
+#define SYSTEM_SECURITY_PERMISSIONS_SECURITYPERMISSIONATTRIBUTE_SET_FLAGS_OFFSET UNITYSDK_OFFSET(0x166D25C0)
+#define SYSTEM_SECURITY_PERMISSIONS_SECURITYPERMISSIONATTRIBUTE_SET_SKIPVERIFICATION_OFFSET UNITYSDK_OFFSET(0x166D25B0)
 
 namespace System::Security::Permissions
 {
-	inline static constexpr unsigned int SecurityPermissionAttribute_TypeDefinitionIndex = 961;
+	inline static constexpr unsigned int SecurityPermissionAttribute_TypeDefinitionIndex = 968;
 
 	class SecurityPermissionAttribute : public ::System::Security::Permissions::CodeAccessSecurityAttribute
 	{

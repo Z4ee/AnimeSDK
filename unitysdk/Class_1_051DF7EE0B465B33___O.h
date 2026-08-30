@@ -5,13 +5,13 @@
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-inline static constexpr unsigned int Class_1_051DF7EE0B465B33___O_TypeDefinitionIndex = 53569;
+inline static constexpr unsigned int Class_1_051DF7EE0B465B33___O_TypeDefinitionIndex = 56283;
 
 class Class_1_051DF7EE0B465B33___O : public ::System::Object
 {
 public:
 	static ::System::Action_1<::System::String*>** StaticGet__0___SampleError()
 	{
-		return (::System::Action_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_051DF7EE0B465B33___O_TypeDefinitionIndex)->GetStaticField(0x34C30);
+		return (::System::Action_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_051DF7EE0B465B33___O_TypeDefinitionIndex)->GetStaticField(0x208A0);
 	}
 };

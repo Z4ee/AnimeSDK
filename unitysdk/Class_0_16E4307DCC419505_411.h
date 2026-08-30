@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueTuple_2.h"
 
-namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
+class Class_0_16E4307DCC419505_1322;
+class Class_0_16E4307DCC419505_1329;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_411_TypeDefinitionIndex = 49580;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_411_TypeDefinitionIndex = 78695;
 
 class Class_0_16E4307DCC419505_411
 {

@@ -9,7 +9,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace SRDebugger
 {
-	inline static constexpr unsigned int CircularBuffer_1_TypeDefinitionIndex = 36400;
+	inline static constexpr unsigned int CircularBuffer_1_TypeDefinitionIndex = 37259;
 
 	template <typename T>
 	class CircularBuffer_1 : public ::System::Object

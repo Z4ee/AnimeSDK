@@ -4,24 +4,24 @@
 
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define SRDEBUGGER_SETTINGS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A20BEB0)
-#define SRDEBUGGER_SETTINGS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A20BEF0)
-#define SRDEBUGGER_SETTINGS___C__SET_ENTRYCODE_B__40_0_OFFSET UNITYSDK_OFFSET(0x1A20BF00)
+#define SRDEBUGGER_SETTINGS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BDB5DB0)
+#define SRDEBUGGER_SETTINGS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDB5DF0)
+#define SRDEBUGGER_SETTINGS___C__SET_ENTRYCODE_B__40_0_OFFSET UNITYSDK_OFFSET(0x1BDB5E00)
 
 namespace SRDebugger
 {
-	inline static constexpr unsigned int Settings___c_TypeDefinitionIndex = 36427;
+	inline static constexpr unsigned int Settings___c_TypeDefinitionIndex = 37286;
 
 	class Settings___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Int32, ::System::Boolean>** StaticGet___9__40_0()
-		{
-			return (::System::Func_2<::System::Int32, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Settings___c_TypeDefinitionIndex)->GetStaticField(0x627E0);
-		}
 		static ::SRDebugger::Settings___c** StaticGet___9()
 		{
-			return (::SRDebugger::Settings___c**)Il2CppClass::FromTypeDefinitionIndex(Settings___c_TypeDefinitionIndex)->GetStaticField(0x627E8);
+			return (::SRDebugger::Settings___c**)Il2CppClass::FromTypeDefinitionIndex(Settings___c_TypeDefinitionIndex)->GetStaticField(0x40290);
+		}
+		static ::System::Func_2<::System::Int32, ::System::Boolean>** StaticGet___9__40_0()
+		{
+			return (::System::Func_2<::System::Int32, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Settings___c_TypeDefinitionIndex)->GetStaticField(0x40298);
 		}
 
 		static ::System::Void _cctor()

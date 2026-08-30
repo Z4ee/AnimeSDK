@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class FateSupportToastPart; }
 
-#define RPG_CLIENT_FATESUPPORTTOASTPART___C__DISPLAYCLASS44_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19725810)
-#define RPG_CLIENT_FATESUPPORTTOASTPART___C__DISPLAYCLASS44_0___TRIGGERTRYENQUEUETOAST_B__0_OFFSET UNITYSDK_OFFSET(0x19725DE0)
+#define RPG_CLIENT_FATESUPPORTTOASTPART___C__DISPLAYCLASS44_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE3CA90)
+#define RPG_CLIENT_FATESUPPORTTOASTPART___C__DISPLAYCLASS44_0___TRIGGERTRYENQUEUETOAST_B__0_OFFSET UNITYSDK_OFFSET(0x1AE3D060)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FateSupportToastPart___c__DisplayClass44_0_TypeDefinitionIndex = 61247;
+	inline static constexpr unsigned int FateSupportToastPart___c__DisplayClass44_0_TypeDefinitionIndex = 64228;
 
 	class FateSupportToastPart___c__DisplayClass44_0 : public ::System::Object
 	{

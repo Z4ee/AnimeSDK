@@ -5,22 +5,22 @@
 namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_5B45B9D7D796EF41_METHOD_1_08DCF72FBE01FF99_1_OFFSET UNITYSDK_OFFSET(0x1B8FAC20)
-#define CLASS_1_5B45B9D7D796EF41_METHOD_1_08DCF72FBE01FF99_OFFSET UNITYSDK_OFFSET(0x1B8FAAB0)
-#define CLASS_1_5B45B9D7D796EF41__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B8FAD90)
+#define CLASS_1_5B45B9D7D796EF41_METHOD_1_08DCF72FBE01FF99_1_OFFSET UNITYSDK_OFFSET(0x1D705EA0)
+#define CLASS_1_5B45B9D7D796EF41_METHOD_1_08DCF72FBE01FF99_OFFSET UNITYSDK_OFFSET(0x1D705D30)
+#define CLASS_1_5B45B9D7D796EF41__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D706010)
 
-inline static constexpr unsigned int Class_1_5B45B9D7D796EF41_TypeDefinitionIndex = 14855;
+inline static constexpr unsigned int Class_1_5B45B9D7D796EF41_TypeDefinitionIndex = 15291;
 
 class Class_1_5B45B9D7D796EF41 : public ::System::Object
 {
 public:
-	static ::System::Collections::Generic::List_1<::System::Action*>** StaticGet_Field_1_0()
+	static ::System::Collections::Generic::List_1<::System::Action*>** StaticGet_OAFDNADLKAO()
 	{
-		return (::System::Collections::Generic::List_1<::System::Action*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_5B45B9D7D796EF41_TypeDefinitionIndex)->GetStaticField(0x42420);
+		return (::System::Collections::Generic::List_1<::System::Action*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_5B45B9D7D796EF41_TypeDefinitionIndex)->GetStaticField(0xECC0);
 	}
-	static ::System::Collections::Generic::List_1<::System::Action*>** StaticGet_Field_1_1()
+	static ::System::Collections::Generic::List_1<::System::Action*>** StaticGet_DCNMPCPPHJO()
 	{
-		return (::System::Collections::Generic::List_1<::System::Action*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_5B45B9D7D796EF41_TypeDefinitionIndex)->GetStaticField(0x42428);
+		return (::System::Collections::Generic::List_1<::System::Action*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_5B45B9D7D796EF41_TypeDefinitionIndex)->GetStaticField(0xECC8);
 	}
 
 	static ::System::Void _cctor()

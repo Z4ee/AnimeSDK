@@ -9,16 +9,16 @@ namespace RPG::GameCore { class SetDynamicValueByHardLevelProperty; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 
-#define CLASS_3_06004916717A0FA6_METHOD_3_28E526D2335C4C71_OFFSET UNITYSDK_OFFSET(0x15F8AA30)
-#define CLASS_3_06004916717A0FA6_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15F8A7E0)
-#define CLASS_3_06004916717A0FA6__CTOR_OFFSET UNITYSDK_OFFSET(0x15F8A700)
+#define CLASS_3_06004916717A0FA6_METHOD_3_28E526D2335C4C71_OFFSET UNITYSDK_OFFSET(0x19264980)
+#define CLASS_3_06004916717A0FA6_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19264730)
+#define CLASS_3_06004916717A0FA6__CTOR_OFFSET UNITYSDK_OFFSET(0x19264650)
 
-inline static constexpr unsigned int Class_3_06004916717A0FA6_TypeDefinitionIndex = 52935;
+inline static constexpr unsigned int Class_3_06004916717A0FA6_TypeDefinitionIndex = 55639;
 
 class Class_3_06004916717A0FA6 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetDynamicValueByHardLevelProperty*>
 {
 public:
-	::RPG::GameCore::StringHash Field_3_0; // 0x28
+	::RPG::GameCore::StringHash PGNGOCPHJBJ; // 0x28
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetDynamicValueByHardLevelProperty* a2)
 	{

@@ -1,9 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/ChimeraBattleAnimationType.h"
 
-namespace RPG::GameCore { class ExtraEffectRow; }
-
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1297_TypeDefinitionIndex = 76088;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1297_TypeDefinitionIndex = 77236;
 
 class Class_0_16E4307DCC419505_1297
 {

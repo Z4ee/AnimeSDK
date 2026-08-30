@@ -4,10 +4,10 @@
 
 namespace System { class String; }
 
-inline static constexpr unsigned int Class_1_5ED0D1EE63E13154_1_TypeDefinitionIndex = 40980;
+inline static constexpr unsigned int Class_1_5ED0D1EE63E13154_1_TypeDefinitionIndex = 41939;
 
 class Class_1_5ED0D1EE63E13154_1 : public ::System::Object
 {
 public:
-	// static const ::System::String* Field_1_0; // 0x0
+	// static const ::System::String* DNOJDJIMGKF; // 0x0
 };

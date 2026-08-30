@@ -2,22 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/ImmediateTaskBase_1.h"
 
-class Class_1_BEFD036212012D82;
+class Class_1_3948F09825CE1BA8;
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TryCancelEnterRegion; }
 
-#define CLASS_3_655991E2C1B8F0F0_DISPOSE_OFFSET UNITYSDK_OFFSET(0x149F6640)
-#define CLASS_3_655991E2C1B8F0F0_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x149F66D0)
-#define CLASS_3_655991E2C1B8F0F0_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x149F6680)
-#define CLASS_3_655991E2C1B8F0F0__CTOR_OFFSET UNITYSDK_OFFSET(0x149F6610)
+#define CLASS_3_655991E2C1B8F0F0_DISPOSE_OFFSET UNITYSDK_OFFSET(0x164CCE90)
+#define CLASS_3_655991E2C1B8F0F0_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x164CCF20)
+#define CLASS_3_655991E2C1B8F0F0_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x164CCED0)
+#define CLASS_3_655991E2C1B8F0F0__CTOR_OFFSET UNITYSDK_OFFSET(0x164CCE60)
 
-inline static constexpr unsigned int Class_3_655991E2C1B8F0F0_TypeDefinitionIndex = 56175;
+inline static constexpr unsigned int Class_3_655991E2C1B8F0F0_TypeDefinitionIndex = 58952;
 
 class Class_3_655991E2C1B8F0F0 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::TryCancelEnterRegion*>
 {
 public:
-	::RPG::GameCore::TaskContext* Field_3_0; // 0x28
-	::Class_1_BEFD036212012D82* Field_3_1; // 0x30
+	::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x28
+	::Class_1_3948F09825CE1BA8* AABBECIEAAP; // 0x30
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::TryCancelEnterRegion* a2)
 	{

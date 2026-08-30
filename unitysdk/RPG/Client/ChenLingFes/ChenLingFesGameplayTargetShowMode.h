@@ -3,7 +3,7 @@
 
 namespace RPG::Client::ChenLingFes
 {
-	inline static constexpr unsigned int ChenLingFesGameplayTargetShowMode_TypeDefinitionIndex = 76328;
+	inline static constexpr unsigned int ChenLingFesGameplayTargetShowMode_TypeDefinitionIndex = 79961;
 
 	enum class ChenLingFesGameplayTargetShowMode : ::System::Int32
 	{

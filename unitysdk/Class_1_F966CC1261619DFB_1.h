@@ -12,36 +12,36 @@ namespace RPG::GameCore { class DamageBehaviorTemplate; }
 namespace RPG::GameCore { class JsonEnum; }
 namespace System { class String; }
 
-#define CLASS_1_F966CC1261619DFB_1__CTOR_OFFSET UNITYSDK_OFFSET(0x18C7C760)
+#define CLASS_1_F966CC1261619DFB_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0C4460)
 
-inline static constexpr unsigned int Class_1_F966CC1261619DFB_1_TypeDefinitionIndex = 51949;
+inline static constexpr unsigned int Class_1_F966CC1261619DFB_1_TypeDefinitionIndex = 54633;
 
 class Class_1_F966CC1261619DFB_1 : public ::System::Object
 {
 public:
-	::System::String* Field_1_0; // 0x10
-	::RPG::GameCore::DamageBehaviorTemplate* Field_1_1; // 0x18
-	::Il2CppArray<::RPG::GameCore::JsonEnum*>* Field_1_2; // 0x20
-	::RPG::GameCore::FixPoint Field_1_3; // 0x28
-	::RPG::GameCore::FixPoint Field_1_4; // 0x30
-	::System::Boolean Field_1_5; // 0x38
-	::System::Boolean Field_1_6; // 0x39
-	::System::Boolean Field_1_7; // 0x3A
-	::RPG::GameCore::FinalDamageFormulaType Field_1_8; // 0x3C
-	::RPG::GameCore::DamageIntegerizeCategory Field_1_9; // 0x40
-	::System::Boolean Field_1_10; // 0x44
-	::System::Boolean Field_1_11; // 0x45
-	::RPG::GameCore::FixPoint Field_1_12; // 0x48
-	::RPG::GameCore::AttackType Field_1_13; // 0x50
-	::RPG::GameCore::AttackDamageType Field_1_14; // 0x54
-	::RPG::GameCore::AttackFormulaType Field_1_15; // 0x58
-	::RPG::GameCore::AttackFormulaType Field_1_16; // 0x5C
-	::RPG::GameCore::FixPoint Field_1_17; // 0x60
-	::RPG::GameCore::FixPoint Field_1_18; // 0x68
-	::RPG::GameCore::FixPoint Field_1_19; // 0x70
-	::RPG::GameCore::FixPoint Field_1_20; // 0x78
-	::RPG::GameCore::FixPoint Field_1_21; // 0x80
-	::RPG::GameCore::FixPoint Field_1_22; // 0x88
+	::Il2CppArray<::RPG::GameCore::JsonEnum*>* IHLPNILGJFG; // 0x10
+	::System::String* GEIGNKLEOBD; // 0x18
+	::RPG::GameCore::DamageBehaviorTemplate* CJBFIMFEEJD; // 0x20
+	::RPG::GameCore::FixPoint PBDFPHELAHL; // 0x28
+	::RPG::GameCore::FixPoint GOKGJINMAFC; // 0x30
+	::RPG::GameCore::AttackType HIFKEKCELFB; // 0x38
+	::RPG::GameCore::DamageIntegerizeCategory FFGPLNGCLCO; // 0x3C
+	::RPG::GameCore::FixPoint PIBDDOGGDKL; // 0x40
+	::RPG::GameCore::FixPoint HDKGKHCCEGI; // 0x48
+	::RPG::GameCore::FixPoint HAGHFMMBPEF; // 0x50
+	::RPG::GameCore::AttackDamageType PAIECOBACKB; // 0x58
+	::RPG::GameCore::AttackFormulaType DHMCBHLGOND; // 0x5C
+	::RPG::GameCore::FixPoint DPBEMCKKBLL; // 0x60
+	::RPG::GameCore::FixPoint HKDKCLGIEPH; // 0x68
+	::RPG::GameCore::FixPoint DJGPEDODIDF; // 0x70
+	::System::Boolean NCHIKFJFALF; // 0x78
+	::System::Boolean EJFHNCFMAJM; // 0x79
+	::System::Boolean JINNNOGPCAL; // 0x7A
+	::RPG::GameCore::FinalDamageFormulaType CMLMJOGKDNA; // 0x7C
+	::RPG::GameCore::AttackFormulaType LGLBKAAMKDI; // 0x80
+	::System::Boolean BPCKKJONPCB; // 0x84
+	::System::Boolean LOMIDJIEGPL; // 0x85
+	::RPG::GameCore::FixPoint CGNBOOOKGOL; // 0x88
 
 	::System::Void _ctor()
 	{

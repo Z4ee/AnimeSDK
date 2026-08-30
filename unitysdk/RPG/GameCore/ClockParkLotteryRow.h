@@ -5,20 +5,20 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ClockParkAttribute; }
 
-#define RPG_GAMECORE_CLOCKPARKLOTTERYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C25B5E0)
-#define RPG_GAMECORE_CLOCKPARKLOTTERYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1C25BC30)
+#define RPG_GAMECORE_CLOCKPARKLOTTERYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D9998D0)
+#define RPG_GAMECORE_CLOCKPARKLOTTERYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D999F20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ClockParkLotteryRow_TypeDefinitionIndex = 10797;
+	inline static constexpr unsigned int ClockParkLotteryRow_TypeDefinitionIndex = 11172;
 
 	class ClockParkLotteryRow : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::ClockParkAttribute* LotteryAttributeGain; // 0x10
 		::System::UInt32 LotteryType; // 0x18
-		::System::UInt32 LotteryID; // 0x1C
-		::System::UInt32 Weight; // 0x20
+		::System::UInt32 Weight; // 0x1C
+		::System::UInt32 LotteryID; // 0x20
 
 		::System::Void _ctor()
 		{

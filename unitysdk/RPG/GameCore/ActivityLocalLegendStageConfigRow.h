@@ -7,26 +7,26 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIVITYLOCALLEGENDSTAGECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1AAF9760)
-#define RPG_GAMECORE_ACTIVITYLOCALLEGENDSTAGECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1AAF9B00)
+#define RPG_GAMECORE_ACTIVITYLOCALLEGENDSTAGECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CA0B360)
+#define RPG_GAMECORE_ACTIVITYLOCALLEGENDSTAGECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CA0B700)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityLocalLegendStageConfigRow_TypeDefinitionIndex = 11428;
+	inline static constexpr unsigned int ActivityLocalLegendStageConfigRow_TypeDefinitionIndex = 11817;
 
 	class ActivityLocalLegendStageConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* ManikinConfigPath; // 0x10
-		::Il2CppArray<::System::UInt32>* TrialAvatarList; // 0x18
-		::Il2CppArray<::System::UInt32>* BattleTargetList; // 0x20
+		::Il2CppArray<::System::UInt32>* TrialAvatarList; // 0x10
+		::Il2CppArray<::System::UInt32>* BattleTargetList; // 0x18
+		::System::String* ManikinConfigPath; // 0x20
 		::System::String* ManikinPrefabPath; // 0x28
-		::RPG::GameCore::ActivityLocalLegendDifficulty DifficultyLevel; // 0x30
-		::System::UInt32 GroupID; // 0x34
-		::System::UInt32 UnlockQuest; // 0x38
-		::System::UInt32 EventID; // 0x3C
-		::System::UInt32 BattleAreaID; // 0x40
-		::RPG::Client::TextID FearlessStageMechanism; // 0x48
+		::RPG::Client::TextID FearlessStageMechanism; // 0x30
+		::RPG::GameCore::ActivityLocalLegendDifficulty DifficultyLevel; // 0x40
+		::System::UInt32 GroupID; // 0x44
+		::System::UInt32 UnlockQuest; // 0x48
+		::System::UInt32 BattleAreaID; // 0x4C
+		::System::UInt32 EventID; // 0x50
 
 		::System::Void _ctor()
 		{

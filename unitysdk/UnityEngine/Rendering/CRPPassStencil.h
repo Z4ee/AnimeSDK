@@ -7,11 +7,11 @@
 #include "unitysdk/UnityEngine/Rendering/RenderStateMask.h"
 #include "unitysdk/UnityEngine/Rendering/StencilState.h"
 
-#define UNITYENGINE_RENDERING_CRPPASSSTENCIL_SETPASSSTENCIL_OFFSET UNITYSDK_OFFSET(0x1CE002C0)
+#define UNITYENGINE_RENDERING_CRPPASSSTENCIL_SETPASSSTENCIL_OFFSET UNITYSDK_OFFSET(0x1EAC69D0)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int CRPPassStencil_TypeDefinitionIndex = 4851;
+	inline static constexpr unsigned int CRPPassStencil_TypeDefinitionIndex = 4863;
 
 	struct alignas(4) CRPPassStencil
 	{

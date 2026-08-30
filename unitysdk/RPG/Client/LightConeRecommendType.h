@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LightConeRecommendType_TypeDefinitionIndex = 63818;
+	inline static constexpr unsigned int LightConeRecommendType_TypeDefinitionIndex = 66809;
 
 	enum class LightConeRecommendType : ::System::Int32
 	{

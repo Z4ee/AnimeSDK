@@ -4,17 +4,17 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_LUABUNDLEUPDATEDPATHINFOITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x15BF3620)
+#define RPG_CLIENT_LUABUNDLEUPDATEDPATHINFOITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1748C7F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LuaBundleUpdatedPathInfoItem_TypeDefinitionIndex = 58498;
+	inline static constexpr unsigned int LuaBundleUpdatedPathInfoItem_TypeDefinitionIndex = 61328;
 
 	class LuaBundleUpdatedPathInfoItem : public ::System::Object
 	{
 	public:
-		::System::String* Md5; // 0x10
-		::System::String* Path; // 0x18
+		::System::String* Path; // 0x10
+		::System::String* Md5; // 0x18
 
 		::System::Void _ctor()
 		{

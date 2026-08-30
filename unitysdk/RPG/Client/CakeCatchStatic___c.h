@@ -4,23 +4,23 @@
 
 namespace RPG::GameCore { class DynamicValue; }
 
-#define RPG_CLIENT_CAKECATCHSTATIC___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AAA4DA0)
-#define RPG_CLIENT_CAKECATCHSTATIC___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1AAA4DD0)
-#define RPG_CLIENT_CAKECATCHSTATIC___C___CCTOR_B__61_0_OFFSET UNITYSDK_OFFSET(0x1AAA4DE0)
-#define RPG_CLIENT_CAKECATCHSTATIC___C___CCTOR_B__61_1_OFFSET UNITYSDK_OFFSET(0x1AAA4E40)
-#define RPG_CLIENT_CAKECATCHSTATIC___C___CCTOR_B__61_2_OFFSET UNITYSDK_OFFSET(0x1AAA4EA0)
-#define RPG_CLIENT_CAKECATCHSTATIC___C___CCTOR_B__61_3_OFFSET UNITYSDK_OFFSET(0x1AAA4F00)
+#define RPG_CLIENT_CAKECATCHSTATIC___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A13FCA0)
+#define RPG_CLIENT_CAKECATCHSTATIC___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A13FCD0)
+#define RPG_CLIENT_CAKECATCHSTATIC___C___CCTOR_B__61_0_OFFSET UNITYSDK_OFFSET(0x1A13FCE0)
+#define RPG_CLIENT_CAKECATCHSTATIC___C___CCTOR_B__61_1_OFFSET UNITYSDK_OFFSET(0x1A13FD40)
+#define RPG_CLIENT_CAKECATCHSTATIC___C___CCTOR_B__61_2_OFFSET UNITYSDK_OFFSET(0x1A13FDA0)
+#define RPG_CLIENT_CAKECATCHSTATIC___C___CCTOR_B__61_3_OFFSET UNITYSDK_OFFSET(0x1A13FE00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CakeCatchStatic___c_TypeDefinitionIndex = 60191;
+	inline static constexpr unsigned int CakeCatchStatic___c_TypeDefinitionIndex = 63039;
 
 	class CakeCatchStatic___c : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::CakeCatchStatic___c** StaticGet___9()
 		{
-			return (::RPG::Client::CakeCatchStatic___c**)Il2CppClass::FromTypeDefinitionIndex(CakeCatchStatic___c_TypeDefinitionIndex)->GetStaticField(0x5EF10);
+			return (::RPG::Client::CakeCatchStatic___c**)Il2CppClass::FromTypeDefinitionIndex(CakeCatchStatic___c_TypeDefinitionIndex)->GetStaticField(0x14B40);
 		}
 
 		static ::System::Void _cctor()

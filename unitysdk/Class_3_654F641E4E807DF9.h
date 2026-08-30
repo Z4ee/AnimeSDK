@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class MuteEntitySound; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_654F641E4E807DF9_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x179D0660)
-#define CLASS_3_654F641E4E807DF9__CTOR_OFFSET UNITYSDK_OFFSET(0x179D0630)
+#define CLASS_3_654F641E4E807DF9_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x183589D0)
+#define CLASS_3_654F641E4E807DF9__CTOR_OFFSET UNITYSDK_OFFSET(0x183589A0)
 
-inline static constexpr unsigned int Class_3_654F641E4E807DF9_TypeDefinitionIndex = 50626;
+inline static constexpr unsigned int Class_3_654F641E4E807DF9_TypeDefinitionIndex = 53307;
 
 class Class_3_654F641E4E807DF9 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::MuteEntitySound*>
 {

@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGameShare::TeamTowersCore
 {
-	inline static constexpr unsigned int TeamTowersColiiderTag_TypeDefinitionIndex = 35609;
+	inline static constexpr unsigned int TeamTowersColiiderTag_TypeDefinitionIndex = 36470;
 
 	enum class TeamTowersColiiderTag : ::System::Byte
 	{

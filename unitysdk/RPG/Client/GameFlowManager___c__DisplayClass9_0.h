@@ -5,18 +5,18 @@
 namespace RPG::Client { class BaseGameFlow; }
 namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 
-#define RPG_CLIENT_GAMEFLOWMANAGER___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x192D4140)
-#define RPG_CLIENT_GAMEFLOWMANAGER___C__DISPLAYCLASS9_0__GETORTRYENTERGAMEFLOW_B__0_OFFSET UNITYSDK_OFFSET(0x192D47F0)
+#define RPG_CLIENT_GAMEFLOWMANAGER___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x193A81B0)
+#define RPG_CLIENT_GAMEFLOWMANAGER___C__DISPLAYCLASS9_0__GETORTRYENTERGAMEFLOW_B__0_OFFSET UNITYSDK_OFFSET(0x193A8860)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GameFlowManager___c__DisplayClass9_0_TypeDefinitionIndex = 61412;
+	inline static constexpr unsigned int GameFlowManager___c__DisplayClass9_0_TypeDefinitionIndex = 64396;
 
 	class GameFlowManager___c__DisplayClass9_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::Promises::Promise_1<::RPG::Client::BaseGameFlow*>* promise; // 0x10
-		::RPG::Client::BaseGameFlow* gameFlow; // 0x18
+		::RPG::Client::BaseGameFlow* gameFlow; // 0x10
+		::RPG::Client::Promises::Promise_1<::RPG::Client::BaseGameFlow*>* promise; // 0x18
 
 		::System::Void _ctor()
 		{

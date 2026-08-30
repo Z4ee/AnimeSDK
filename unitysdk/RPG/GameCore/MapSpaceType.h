@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MapSpaceType_TypeDefinitionIndex = 10169;
+	inline static constexpr unsigned int MapSpaceType_TypeDefinitionIndex = 10505;
 
 	enum class MapSpaceType : ::System::Int32
 	{
@@ -16,5 +16,6 @@ namespace RPG::GameCore
 		AmphoreusEternal = 6,
 		FifthWorldHappiness = 7,
 		FifthWorldSadness = 8,
+		FifthWorldSpecial = 9,
 	};
 }

@@ -9,15 +9,15 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_PROP_LIGHTRUBIKCUBEPUZZLECONDITIONOBJ_DISPOSE_OFFSET UNITYSDK_OFFSET(0x14844310)
-#define RPG_CLIENT_PROP_LIGHTRUBIKCUBEPUZZLECONDITIONOBJ_INITOBJECT_OFFSET UNITYSDK_OFFSET(0x14843880)
-#define RPG_CLIENT_PROP_LIGHTRUBIKCUBEPUZZLECONDITIONOBJ_SETFINISH_OFFSET UNITYSDK_OFFSET(0x14844250)
-#define RPG_CLIENT_PROP_LIGHTRUBIKCUBEPUZZLECONDITIONOBJ_SETMATERIAL_OFFSET UNITYSDK_OFFSET(0x148443D0)
-#define RPG_CLIENT_PROP_LIGHTRUBIKCUBEPUZZLECONDITIONOBJ__CTOR_OFFSET UNITYSDK_OFFSET(0x148444D0)
+#define RPG_CLIENT_PROP_LIGHTRUBIKCUBEPUZZLECONDITIONOBJ_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1611ECD0)
+#define RPG_CLIENT_PROP_LIGHTRUBIKCUBEPUZZLECONDITIONOBJ_INITOBJECT_OFFSET UNITYSDK_OFFSET(0x1611E230)
+#define RPG_CLIENT_PROP_LIGHTRUBIKCUBEPUZZLECONDITIONOBJ_SETFINISH_OFFSET UNITYSDK_OFFSET(0x1611EC10)
+#define RPG_CLIENT_PROP_LIGHTRUBIKCUBEPUZZLECONDITIONOBJ_SETMATERIAL_OFFSET UNITYSDK_OFFSET(0x1611ED90)
+#define RPG_CLIENT_PROP_LIGHTRUBIKCUBEPUZZLECONDITIONOBJ__CTOR_OFFSET UNITYSDK_OFFSET(0x1611EE90)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int LightRubikCubePuzzleConditionObj_TypeDefinitionIndex = 74726;
+	inline static constexpr unsigned int LightRubikCubePuzzleConditionObj_TypeDefinitionIndex = 78211;
 
 	class LightRubikCubePuzzleConditionObj : public ::UnityEngine::MonoBehaviour
 	{
@@ -27,9 +27,9 @@ namespace RPG::Client::Prop
 		::UnityEngine::Material* FinishMaterial; // 0x28
 		::System::String* ConditionObjFinishCustomString; // 0x30
 		::System::Collections::Generic::List_1<::UnityEngine::Material*>* ColorMaterial; // 0x38
-		::RPG::GameCore::GameEntity* Field_5_5; // 0x40
-		::RPG::Client::Prop::LightRubikCubePuzzleCube* Field_5_6; // 0x48
-		::UnityEngine::Renderer* Field_5_7; // 0x50
+		::RPG::GameCore::GameEntity* CFKHNPGEAJA; // 0x40
+		::RPG::Client::Prop::LightRubikCubePuzzleCube* FNHJKBEIKOA; // 0x48
+		::UnityEngine::Renderer* GBFNIKFNGBH; // 0x50
 
 		::System::Void _ctor()
 		{

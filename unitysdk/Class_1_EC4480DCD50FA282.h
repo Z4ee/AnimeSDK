@@ -6,9 +6,9 @@ namespace Entitas { class IContext; }
 namespace Entitas { class IEntity; }
 namespace Entitas { template <typename T> class IContext_1; }
 
-#define CLASS_1_EC4480DCD50FA282_METHOD_1_8A056624AFD25042_OFFSET UNITYSDK_OFFSET(0x14AA0420)
+#define CLASS_1_EC4480DCD50FA282_METHOD_1_8A056624AFD25042_OFFSET UNITYSDK_OFFSET(0x162736C0)
 
-inline static constexpr unsigned int Class_1_EC4480DCD50FA282_TypeDefinitionIndex = 35509;
+inline static constexpr unsigned int Class_1_EC4480DCD50FA282_TypeDefinitionIndex = 36370;
 
 class Class_1_EC4480DCD50FA282 : public ::System::Object
 {

@@ -4,15 +4,15 @@
 
 namespace System { class Version; }
 
-#define CLASS_1_31D11999B939D43D__CTOR_OFFSET UNITYSDK_OFFSET(0x1647D560)
+#define CLASS_1_31D11999B939D43D__CTOR_OFFSET UNITYSDK_OFFSET(0x15205770)
 
-inline static constexpr unsigned int Class_1_31D11999B939D43D_TypeDefinitionIndex = 76825;
+inline static constexpr unsigned int Class_1_31D11999B939D43D_TypeDefinitionIndex = 80865;
 
 class Class_1_31D11999B939D43D : public ::System::Object
 {
 public:
-	::System::Version* Field_1_0; // 0x10
-	::System::Int32 Field_1_1; // 0x18
+	::System::Version* EHEPCDFLBMH; // 0x10
+	::System::Int32 NOIEMNLMACN; // 0x18
 
 	::System::Void _ctor()
 	{

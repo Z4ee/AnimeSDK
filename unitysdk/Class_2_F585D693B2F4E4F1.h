@@ -8,18 +8,18 @@ class Class_1_FF872820A2FF123B;
 class Class_3_C71DDDA66421C541;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_F585D693B2F4E4F1_METHOD_2_7DB49B5407C8FD68_OFFSET UNITYSDK_OFFSET(0x18B91F20)
-#define CLASS_2_F585D693B2F4E4F1__CTOR_OFFSET UNITYSDK_OFFSET(0x18B91F00)
+#define CLASS_2_F585D693B2F4E4F1_METHOD_2_7DB49B5407C8FD68_OFFSET UNITYSDK_OFFSET(0x19ADAB50)
+#define CLASS_2_F585D693B2F4E4F1__CTOR_OFFSET UNITYSDK_OFFSET(0x19ADAB30)
 
-inline static constexpr unsigned int Class_2_F585D693B2F4E4F1_TypeDefinitionIndex = 57643;
+inline static constexpr unsigned int Class_2_F585D693B2F4E4F1_TypeDefinitionIndex = 60460;
 
 class Class_2_F585D693B2F4E4F1 : public ::Class_1_2231FD56C070349F
 {
 public:
-	::Class_1_FF872820A2FF123B* Field_2_0; // 0x18
-	::System::Collections::Generic::List_1<::Class_1_D2E90365D99FC7E6_7*>* Field_2_1; // 0x20
-	::RPG::LittleGameShare::DiceCombatCore::TacticsCardUseCheckResult Field_2_2; // 0x28
-	::System::UInt32 Field_2_3; // 0x2C
+	::Class_1_FF872820A2FF123B* NOKJFPPOHKM; // 0x18
+	::System::Collections::Generic::List_1<::Class_1_D2E90365D99FC7E6_7*>* LOIGPFNCEHA; // 0x20
+	::RPG::LittleGameShare::DiceCombatCore::TacticsCardUseCheckResult KKPMKENCGFD; // 0x28
+	::System::UInt32 MPIMEEAIELI; // 0x2C
 
 	::System::Void _ctor(::Class_3_C71DDDA66421C541* a1, ::Class_1_FF872820A2FF123B* a2, ::System::UInt32 a3, ::RPG::LittleGameShare::DiceCombatCore::TacticsCardUseCheckResult a4, ::System::Collections::Generic::List_1<::Class_1_D2E90365D99FC7E6_7*>* a5)
 	{

@@ -6,44 +6,44 @@ namespace RPG::Client::ActivityIdleLive { class IdleLiveGachaResultAvatarMergeDa
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGACHARESULT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A664020)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGACHARESULT___C__CREATE_B__0_0_OFFSET UNITYSDK_OFFSET(0x1A664070)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGACHARESULT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A664060)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGACHARESULT___C__GETAVATARSTARUPLIST_B__1_0_OFFSET UNITYSDK_OFFSET(0x1A664180)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGACHARESULT___C__GETAVATARSTARUPLIST_B__1_1_OFFSET UNITYSDK_OFFSET(0x1A664270)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGACHARESULT___C__GET_HASAVATARUPGRADE_B__10_0_OFFSET UNITYSDK_OFFSET(0x1A664380)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGACHARESULT___C__GET_HASSTARUP_B__8_0_OFFSET UNITYSDK_OFFSET(0x1A6642A0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGACHARESULT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C0E6C50)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGACHARESULT___C__CREATE_B__0_0_OFFSET UNITYSDK_OFFSET(0x1C0E6CA0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGACHARESULT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1C0E6C90)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGACHARESULT___C__GETAVATARSTARUPLIST_B__1_0_OFFSET UNITYSDK_OFFSET(0x1C0E6DB0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGACHARESULT___C__GETAVATARSTARUPLIST_B__1_1_OFFSET UNITYSDK_OFFSET(0x1C0E6EA0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGACHARESULT___C__GET_HASAVATARUPGRADE_B__10_0_OFFSET UNITYSDK_OFFSET(0x1C0E6FB0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGACHARESULT___C__GET_HASSTARUP_B__8_0_OFFSET UNITYSDK_OFFSET(0x1C0E6ED0)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveGachaResult___c_TypeDefinitionIndex = 71649;
+	inline static constexpr unsigned int IdleLiveGachaResult___c_TypeDefinitionIndex = 74955;
 
 	class IdleLiveGachaResult___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveGachaResultAvatarMergeData*, ::System::Boolean>** StaticGet___9__1_0()
-		{
-			return (::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveGachaResultAvatarMergeData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveGachaResult___c_TypeDefinitionIndex)->GetStaticField(0x3F2E0);
-		}
 		static ::System::Comparison_1<::RPG::Client::ActivityIdleLive::IdleLiveGachaResultAvatarMergeData*>** StaticGet___9__0_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::ActivityIdleLive::IdleLiveGachaResultAvatarMergeData*>**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveGachaResult___c_TypeDefinitionIndex)->GetStaticField(0x3F2E8);
+			return (::System::Comparison_1<::RPG::Client::ActivityIdleLive::IdleLiveGachaResultAvatarMergeData*>**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveGachaResult___c_TypeDefinitionIndex)->GetStaticField(0x596A0);
 		}
 		static ::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveGachaResultAvatarMergeData*, ::System::UInt32>** StaticGet___9__1_1()
 		{
-			return (::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveGachaResultAvatarMergeData*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveGachaResult___c_TypeDefinitionIndex)->GetStaticField(0x3F2F0);
+			return (::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveGachaResultAvatarMergeData*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveGachaResult___c_TypeDefinitionIndex)->GetStaticField(0x596A8);
 		}
 		static ::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveGachaResultAvatarMergeData*, ::System::Boolean>** StaticGet___9__10_0()
 		{
-			return (::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveGachaResultAvatarMergeData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveGachaResult___c_TypeDefinitionIndex)->GetStaticField(0x3F2F8);
+			return (::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveGachaResultAvatarMergeData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveGachaResult___c_TypeDefinitionIndex)->GetStaticField(0x596B0);
+		}
+		static ::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveGachaResultAvatarMergeData*, ::System::Boolean>** StaticGet___9__1_0()
+		{
+			return (::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveGachaResultAvatarMergeData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveGachaResult___c_TypeDefinitionIndex)->GetStaticField(0x596B8);
 		}
 		static ::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveGachaResultAvatarMergeData*, ::System::Boolean>** StaticGet___9__8_0()
 		{
-			return (::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveGachaResultAvatarMergeData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveGachaResult___c_TypeDefinitionIndex)->GetStaticField(0x3F300);
+			return (::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveGachaResultAvatarMergeData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveGachaResult___c_TypeDefinitionIndex)->GetStaticField(0x596C0);
 		}
 		static ::RPG::Client::ActivityIdleLive::IdleLiveGachaResult___c** StaticGet___9()
 		{
-			return (::RPG::Client::ActivityIdleLive::IdleLiveGachaResult___c**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveGachaResult___c_TypeDefinitionIndex)->GetStaticField(0x3F308);
+			return (::RPG::Client::ActivityIdleLive::IdleLiveGachaResult___c**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveGachaResult___c_TypeDefinitionIndex)->GetStaticField(0x596C8);
 		}
 
 		static ::System::Void _cctor()

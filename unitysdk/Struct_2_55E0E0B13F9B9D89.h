@@ -6,18 +6,18 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define STRUCT_2_55E0E0B13F9B9D89_METHOD_2_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0x3976FA0)
-#define STRUCT_2_55E0E0B13F9B9D89_METHOD_2_8327FEEFBF3EC917_OFFSET UNITYSDK_OFFSET(0x3976FF0)
-#define STRUCT_2_55E0E0B13F9B9D89__CTOR_OFFSET UNITYSDK_OFFSET(0x3976F90)
+#define STRUCT_2_55E0E0B13F9B9D89_METHOD_2_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0x3AB7B80)
+#define STRUCT_2_55E0E0B13F9B9D89_METHOD_2_8327FEEFBF3EC917_OFFSET UNITYSDK_OFFSET(0x3AB7BD0)
+#define STRUCT_2_55E0E0B13F9B9D89__CTOR_OFFSET UNITYSDK_OFFSET(0x3AB7B70)
 
-inline static constexpr unsigned int Struct_2_55E0E0B13F9B9D89_TypeDefinitionIndex = 70156;
+inline static constexpr unsigned int Struct_2_55E0E0B13F9B9D89_TypeDefinitionIndex = 73455;
 
 struct alignas(8) Struct_2_55E0E0B13F9B9D89
 {
-	::RPGTools::Timeline::Emotion::EmoTrackType Field_2_0; // 0x10
-	::System::Single Field_2_1; // 0x14
-	::System::Collections::Generic::List_1<::Struct_2_2363FCAC272B4C45>* Field_2_2; // 0x18
-	::System::Boolean Field_2_3; // 0x20
+	::RPGTools::Timeline::Emotion::EmoTrackType KHNBIBLIEGF; // 0x10
+	::System::Single GOGBMGGPCAH; // 0x14
+	::System::Collections::Generic::List_1<::Struct_2_2363FCAC272B4C45>* PEPGBAEDMMO; // 0x18
+	::System::Boolean ALDKMCNOJKB; // 0x20
 
 	::System::Void _ctor(::RPGTools::Timeline::Emotion::EmoTrackType a1)
 	{

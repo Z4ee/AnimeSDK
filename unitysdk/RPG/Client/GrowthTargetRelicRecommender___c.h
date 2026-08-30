@@ -5,24 +5,24 @@
 namespace System { class Exception; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_GROWTHTARGETRELICRECOMMENDER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18FC4E30)
-#define RPG_CLIENT_GROWTHTARGETRELICRECOMMENDER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18FC4E70)
-#define RPG_CLIENT_GROWTHTARGETRELICRECOMMENDER___C__PREPAREDATA_B__7_0_OFFSET UNITYSDK_OFFSET(0x18FC4E80)
+#define RPG_CLIENT_GROWTHTARGETRELICRECOMMENDER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A0430E0)
+#define RPG_CLIENT_GROWTHTARGETRELICRECOMMENDER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A043120)
+#define RPG_CLIENT_GROWTHTARGETRELICRECOMMENDER___C__PREPAREDATA_B__7_0_OFFSET UNITYSDK_OFFSET(0x1A043130)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GrowthTargetRelicRecommender___c_TypeDefinitionIndex = 62684;
+	inline static constexpr unsigned int GrowthTargetRelicRecommender___c_TypeDefinitionIndex = 65669;
 
 	class GrowthTargetRelicRecommender___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::GrowthTargetRelicRecommender___c** StaticGet___9()
-		{
-			return (::RPG::Client::GrowthTargetRelicRecommender___c**)Il2CppClass::FromTypeDefinitionIndex(GrowthTargetRelicRecommender___c_TypeDefinitionIndex)->GetStaticField(0x2FAE0);
-		}
 		static ::System::Action_1<::System::Exception*>** StaticGet___9__7_0()
 		{
-			return (::System::Action_1<::System::Exception*>**)Il2CppClass::FromTypeDefinitionIndex(GrowthTargetRelicRecommender___c_TypeDefinitionIndex)->GetStaticField(0x2FAE8);
+			return (::System::Action_1<::System::Exception*>**)Il2CppClass::FromTypeDefinitionIndex(GrowthTargetRelicRecommender___c_TypeDefinitionIndex)->GetStaticField(0x54C40);
+		}
+		static ::RPG::Client::GrowthTargetRelicRecommender___c** StaticGet___9()
+		{
+			return (::RPG::Client::GrowthTargetRelicRecommender___c**)Il2CppClass::FromTypeDefinitionIndex(GrowthTargetRelicRecommender___c_TypeDefinitionIndex)->GetStaticField(0x54C48);
 		}
 
 		static ::System::Void _cctor()

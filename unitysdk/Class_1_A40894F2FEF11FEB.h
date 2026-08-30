@@ -6,43 +6,43 @@
 namespace UnityEngine { class Camera; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_A40894F2FEF11FEB_METHOD_1_10054BB010E03EDD_OFFSET UNITYSDK_OFFSET(0x15EFC1E0)
-#define CLASS_1_A40894F2FEF11FEB_METHOD_1_1DE63FE11FA0D5B4_OFFSET UNITYSDK_OFFSET(0x15EFC4B0)
-#define CLASS_1_A40894F2FEF11FEB_METHOD_1_F1E5D9D623511286_OFFSET UNITYSDK_OFFSET(0x15EFC240)
-#define CLASS_1_A40894F2FEF11FEB__CCTOR_OFFSET UNITYSDK_OFFSET(0x15EFCA10)
+#define CLASS_1_A40894F2FEF11FEB_METHOD_1_10054BB010E03EDD_OFFSET UNITYSDK_OFFSET(0x17074E30)
+#define CLASS_1_A40894F2FEF11FEB_METHOD_1_1DE63FE11FA0D5B4_OFFSET UNITYSDK_OFFSET(0x17075100)
+#define CLASS_1_A40894F2FEF11FEB_METHOD_1_F1E5D9D623511286_OFFSET UNITYSDK_OFFSET(0x17074E90)
+#define CLASS_1_A40894F2FEF11FEB__CCTOR_OFFSET UNITYSDK_OFFSET(0x17075660)
 
-inline static constexpr unsigned int Class_1_A40894F2FEF11FEB_TypeDefinitionIndex = 69675;
+inline static constexpr unsigned int Class_1_A40894F2FEF11FEB_TypeDefinitionIndex = 72923;
 
 class Class_1_A40894F2FEF11FEB : public ::System::Object
 {
 public:
-	static ::UnityEngine::Transform** StaticGet_Field_1_0()
+	static ::UnityEngine::Transform** StaticGet_DHJPAMNMOGO()
 	{
-		return (::UnityEngine::Transform**)Il2CppClass::FromTypeDefinitionIndex(Class_1_A40894F2FEF11FEB_TypeDefinitionIndex)->GetStaticField(0x604B0);
+		return (::UnityEngine::Transform**)Il2CppClass::FromTypeDefinitionIndex(Class_1_A40894F2FEF11FEB_TypeDefinitionIndex)->GetStaticField(0x5C6B0);
 	}
-	static ::UnityEngine::Camera** StaticGet_Field_1_1()
+	static ::UnityEngine::Camera** StaticGet_IEMGKEFBPCG()
 	{
-		return (::UnityEngine::Camera**)Il2CppClass::FromTypeDefinitionIndex(Class_1_A40894F2FEF11FEB_TypeDefinitionIndex)->GetStaticField(0x604B8);
+		return (::UnityEngine::Camera**)Il2CppClass::FromTypeDefinitionIndex(Class_1_A40894F2FEF11FEB_TypeDefinitionIndex)->GetStaticField(0x5C6B8);
 	}
-	static ::UnityEngine::Transform** StaticGet_Field_1_2()
+	static ::UnityEngine::Transform** StaticGet_KGIJAGKPGMO()
 	{
-		return (::UnityEngine::Transform**)Il2CppClass::FromTypeDefinitionIndex(Class_1_A40894F2FEF11FEB_TypeDefinitionIndex)->GetStaticField(0x604C0);
+		return (::UnityEngine::Transform**)Il2CppClass::FromTypeDefinitionIndex(Class_1_A40894F2FEF11FEB_TypeDefinitionIndex)->GetStaticField(0x5C6C0);
 	}
-	static ::UnityEngine::Vector3* StaticGet_Field_1_3()
+	static ::UnityEngine::Vector3* StaticGet_LHLFBFGOGGN()
 	{
-		return (::UnityEngine::Vector3*)Il2CppClass::FromTypeDefinitionIndex(Class_1_A40894F2FEF11FEB_TypeDefinitionIndex)->GetStaticField(0x12840);
+		return (::UnityEngine::Vector3*)Il2CppClass::FromTypeDefinitionIndex(Class_1_A40894F2FEF11FEB_TypeDefinitionIndex)->GetStaticField(0x12BC0);
 	}
-	static ::System::Boolean* StaticGet_Field_1_4()
+	static ::UnityEngine::Vector3* StaticGet_BKHBJLICFPM()
 	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_A40894F2FEF11FEB_TypeDefinitionIndex)->GetStaticField(0x1284C);
+		return (::UnityEngine::Vector3*)Il2CppClass::FromTypeDefinitionIndex(Class_1_A40894F2FEF11FEB_TypeDefinitionIndex)->GetStaticField(0x12BCC);
 	}
-	static ::UnityEngine::Vector3* StaticGet_Field_1_5()
+	static ::UnityEngine::Vector3* StaticGet_PFMBDNAPPJH()
 	{
-		return (::UnityEngine::Vector3*)Il2CppClass::FromTypeDefinitionIndex(Class_1_A40894F2FEF11FEB_TypeDefinitionIndex)->GetStaticField(0x12850);
+		return (::UnityEngine::Vector3*)Il2CppClass::FromTypeDefinitionIndex(Class_1_A40894F2FEF11FEB_TypeDefinitionIndex)->GetStaticField(0x12BD8);
 	}
-	static ::UnityEngine::Vector3* StaticGet_Field_1_6()
+	static ::System::Boolean* StaticGet_MFMCJABEDLE()
 	{
-		return (::UnityEngine::Vector3*)Il2CppClass::FromTypeDefinitionIndex(Class_1_A40894F2FEF11FEB_TypeDefinitionIndex)->GetStaticField(0x1285C);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_A40894F2FEF11FEB_TypeDefinitionIndex)->GetStaticField(0x12BE4);
 	}
 
 	static ::System::Void _cctor()

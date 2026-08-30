@@ -1,0 +1,116 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+namespace RPG::GameCore { class GameLevelHeartDialDialogueConfig; }
+namespace RPG::GameCore { class GameLevelHeartDialPerformance; }
+namespace RPG::GameCore { class HeartDialDialogueRow; }
+namespace RPG::GameCore { class LevelDialogInfo; }
+namespace System { class String; }
+
+#define CLASS_1_D0FD6C8EAECB42EE_METHOD_1_04B99DF42014EBF5_OFFSET UNITYSDK_OFFSET(0x195C2650)
+#define CLASS_1_D0FD6C8EAECB42EE_METHOD_1_1D4018D4200358D0_1_OFFSET UNITYSDK_OFFSET(0x195C2160)
+#define CLASS_1_D0FD6C8EAECB42EE_METHOD_1_1D4018D4200358D0_OFFSET UNITYSDK_OFFSET(0x195C2100)
+#define CLASS_1_D0FD6C8EAECB42EE_METHOD_1_238CC394BA4AFE72_OFFSET UNITYSDK_OFFSET(0x195C22A0)
+#define CLASS_1_D0FD6C8EAECB42EE_METHOD_1_35EA095E1AFDD9C8_1_OFFSET UNITYSDK_OFFSET(0x195C2090)
+#define CLASS_1_D0FD6C8EAECB42EE_METHOD_1_35EA095E1AFDD9C8_OFFSET UNITYSDK_OFFSET(0x195C2020)
+#define CLASS_1_D0FD6C8EAECB42EE_METHOD_1_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0x195C21C0)
+#define CLASS_1_D0FD6C8EAECB42EE_METHOD_1_3E7178C5ECF017DB_OFFSET UNITYSDK_OFFSET(0x195C2250)
+#define CLASS_1_D0FD6C8EAECB42EE_METHOD_1_49057A8F5B7780AF_OFFSET UNITYSDK_OFFSET(0x195C2300)
+#define CLASS_1_D0FD6C8EAECB42EE_METHOD_1_AA2D3E889C8A52CA_1_OFFSET UNITYSDK_OFFSET(0x195C1F80)
+#define CLASS_1_D0FD6C8EAECB42EE_METHOD_1_AA2D3E889C8A52CA_2_OFFSET UNITYSDK_OFFSET(0x195C1FD0)
+#define CLASS_1_D0FD6C8EAECB42EE_METHOD_1_AA2D3E889C8A52CA_OFFSET UNITYSDK_OFFSET(0x195C1F30)
+#define CLASS_1_D0FD6C8EAECB42EE_METHOD_1_B977E5FAEE6ECCEE_OFFSET UNITYSDK_OFFSET(0x195C2200)
+#define CLASS_1_D0FD6C8EAECB42EE_METHOD_1_E6C63BE40E7BBFD8_OFFSET UNITYSDK_OFFSET(0x195C2520)
+#define CLASS_1_D0FD6C8EAECB42EE_METHOD_1_F7241DEB1895F4FF_OFFSET UNITYSDK_OFFSET(0x195C2370)
+#define CLASS_1_D0FD6C8EAECB42EE__CTOR_OFFSET UNITYSDK_OFFSET(0x195C2240)
+
+inline static constexpr unsigned int Class_1_D0FD6C8EAECB42EE_TypeDefinitionIndex = 65718;
+
+class Class_1_D0FD6C8EAECB42EE : public ::System::Object
+{
+public:
+	::RPG::GameCore::GameLevelHeartDialDialogueConfig* BFBKGECIOKE; // 0x10
+	::RPG::GameCore::HeartDialDialogueRow* LGONEOGNDPM; // 0x18
+	::System::Boolean CMOBFLHAFON; // 0x20
+
+	::System::Void _ctor(::RPG::GameCore::HeartDialDialogueRow* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::HeartDialDialogueRow*))((::PBYTE)hIl2Cpp + CLASS_1_D0FD6C8EAECB42EE__CTOR_OFFSET))(this, a1);
+	}
+
+	::System::UInt32 Method_1_AA2D3E889C8A52CA()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_D0FD6C8EAECB42EE_METHOD_1_AA2D3E889C8A52CA_OFFSET))(this);
+	}
+
+	::System::UInt32 Method_1_AA2D3E889C8A52CA_1()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_D0FD6C8EAECB42EE_METHOD_1_AA2D3E889C8A52CA_1_OFFSET))(this);
+	}
+
+	::System::UInt32 Method_1_AA2D3E889C8A52CA_2()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_D0FD6C8EAECB42EE_METHOD_1_AA2D3E889C8A52CA_2_OFFSET))(this);
+	}
+
+	::System::String* Method_1_35EA095E1AFDD9C8()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_D0FD6C8EAECB42EE_METHOD_1_35EA095E1AFDD9C8_OFFSET))(this);
+	}
+
+	::System::String* Method_1_35EA095E1AFDD9C8_1()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_D0FD6C8EAECB42EE_METHOD_1_35EA095E1AFDD9C8_1_OFFSET))(this);
+	}
+
+	::System::Boolean Method_1_1D4018D4200358D0()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_D0FD6C8EAECB42EE_METHOD_1_1D4018D4200358D0_OFFSET))(this);
+	}
+
+	::System::Boolean Method_1_1D4018D4200358D0_1()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_D0FD6C8EAECB42EE_METHOD_1_1D4018D4200358D0_1_OFFSET))(this);
+	}
+
+	::System::Boolean Method_1_391A84BCD9F51317()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_D0FD6C8EAECB42EE_METHOD_1_391A84BCD9F51317_OFFSET))(this);
+	}
+
+	::RPG::GameCore::HeartDialDialogueRow* Method_1_B977E5FAEE6ECCEE()
+	{
+		return ((::RPG::GameCore::HeartDialDialogueRow*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_D0FD6C8EAECB42EE_METHOD_1_B977E5FAEE6ECCEE_OFFSET))(this);
+	}
+
+	::System::Void Method_1_3E7178C5ECF017DB(::System::Boolean a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_D0FD6C8EAECB42EE_METHOD_1_3E7178C5ECF017DB_OFFSET))(this, a1);
+	}
+
+	::RPG::GameCore::LevelDialogInfo* Method_1_238CC394BA4AFE72()
+	{
+		return ((::RPG::GameCore::LevelDialogInfo*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_D0FD6C8EAECB42EE_METHOD_1_238CC394BA4AFE72_OFFSET))(this);
+	}
+
+	::RPG::GameCore::GameLevelHeartDialPerformance* Method_1_49057A8F5B7780AF(::System::Boolean& a1)
+	{
+		return ((::RPG::GameCore::GameLevelHeartDialPerformance*(*)(::PVOID, ::System::Boolean&))((::PBYTE)hIl2Cpp + CLASS_1_D0FD6C8EAECB42EE_METHOD_1_49057A8F5B7780AF_OFFSET))(this, a1);
+	}
+
+	::RPG::GameCore::GameLevelHeartDialPerformance* Method_1_F7241DEB1895F4FF()
+	{
+		return ((::RPG::GameCore::GameLevelHeartDialPerformance*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_D0FD6C8EAECB42EE_METHOD_1_F7241DEB1895F4FF_OFFSET))(this);
+	}
+
+	::System::Void Method_1_E6C63BE40E7BBFD8(::System::UInt32 a1, ::System::UInt32 a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_D0FD6C8EAECB42EE_METHOD_1_E6C63BE40E7BBFD8_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_1_04B99DF42014EBF5(::RPG::GameCore::GameLevelHeartDialDialogueConfig* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameLevelHeartDialDialogueConfig*))((::PBYTE)hIl2Cpp + CLASS_1_D0FD6C8EAECB42EE_METHOD_1_04B99DF42014EBF5_OFFSET))(this, a1);
+	}
+};

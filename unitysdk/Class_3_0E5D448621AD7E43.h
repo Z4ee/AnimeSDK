@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class TalkFigure; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_0E5D448621AD7E43_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x162F6D00)
-#define CLASS_3_0E5D448621AD7E43__CTOR_OFFSET UNITYSDK_OFFSET(0x162F6CD0)
+#define CLASS_3_0E5D448621AD7E43_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1641C800)
+#define CLASS_3_0E5D448621AD7E43__CTOR_OFFSET UNITYSDK_OFFSET(0x1641C7D0)
 
-inline static constexpr unsigned int Class_3_0E5D448621AD7E43_TypeDefinitionIndex = 50902;
+inline static constexpr unsigned int Class_3_0E5D448621AD7E43_TypeDefinitionIndex = 53586;
 
 class Class_3_0E5D448621AD7E43 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::TalkFigure*>
 {

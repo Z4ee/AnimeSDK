@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class RemoveVideoSequence; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_90E2D4B7F72B7B35_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x14CDD290)
-#define CLASS_3_90E2D4B7F72B7B35__CTOR_OFFSET UNITYSDK_OFFSET(0x14CDD260)
+#define CLASS_3_90E2D4B7F72B7B35_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16BF8D80)
+#define CLASS_3_90E2D4B7F72B7B35__CTOR_OFFSET UNITYSDK_OFFSET(0x16BF8D50)
 
-inline static constexpr unsigned int Class_3_90E2D4B7F72B7B35_TypeDefinitionIndex = 50775;
+inline static constexpr unsigned int Class_3_90E2D4B7F72B7B35_TypeDefinitionIndex = 53457;
 
 class Class_3_90E2D4B7F72B7B35 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::RemoveVideoSequence*>
 {

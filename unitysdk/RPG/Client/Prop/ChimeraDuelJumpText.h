@@ -3,20 +3,20 @@
 #include "unitysdk/RPG/Client/Prop/ChimeraDuelJumpTextType.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_PROP_CHIMERADUELJUMPTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16E22770)
+#define RPG_CLIENT_PROP_CHIMERADUELJUMPTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x189E75C0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraDuelJumpText_TypeDefinitionIndex = 74316;
+	inline static constexpr unsigned int ChimeraDuelJumpText_TypeDefinitionIndex = 77801;
 
 	class ChimeraDuelJumpText : public ::System::Object
 	{
 	public:
-		::RPG::Client::Prop::ChimeraDuelJumpTextType Type; // 0x10
+		::System::Int32 InitialValue; // 0x10
 		::System::Int32 ExpectedValue; // 0x14
-		::System::Int32 UniqueID; // 0x18
-		::System::Int32 InitialValue; // 0x1C
-		::System::Int32 ActualValue; // 0x20
+		::System::Int32 ActualValue; // 0x18
+		::RPG::Client::Prop::ChimeraDuelJumpTextType Type; // 0x1C
+		::System::Int32 UniqueID; // 0x20
 
 		::System::Void _ctor(::System::Int32 a1, ::RPG::Client::Prop::ChimeraDuelJumpTextType a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32 a5)
 		{

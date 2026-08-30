@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetTargetModelDynamicLoadPriority; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_1A0C2C7FA54D46A5_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE4FC630)
-#define CLASS_3_1A0C2C7FA54D46A5__CTOR_OFFSET UNITYSDK_OFFSET(0xE4FC600)
+#define CLASS_3_1A0C2C7FA54D46A5_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x105E3600)
+#define CLASS_3_1A0C2C7FA54D46A5__CTOR_OFFSET UNITYSDK_OFFSET(0x105E35D0)
 
-inline static constexpr unsigned int Class_3_1A0C2C7FA54D46A5_TypeDefinitionIndex = 55962;
+inline static constexpr unsigned int Class_3_1A0C2C7FA54D46A5_TypeDefinitionIndex = 58735;
 
 class Class_3_1A0C2C7FA54D46A5 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetTargetModelDynamicLoadPriority*>
 {

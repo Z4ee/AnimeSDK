@@ -8,24 +8,24 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI { class Text; }
 
-#define LIGHTPERFORMANCETEST_METHOD_5_D9EEB46F94083DE4_OFFSET UNITYSDK_OFFSET(0x18DA7950)
-#define LIGHTPERFORMANCETEST_START_OFFSET UNITYSDK_OFFSET(0x18DA7550)
-#define LIGHTPERFORMANCETEST_UPDATE_OFFSET UNITYSDK_OFFSET(0x18DA8130)
-#define LIGHTPERFORMANCETEST__CTOR_OFFSET UNITYSDK_OFFSET(0x18DA81C0)
+#define LIGHTPERFORMANCETEST_METHOD_5_D9EEB46F94083DE4_OFFSET UNITYSDK_OFFSET(0x1A47B5A0)
+#define LIGHTPERFORMANCETEST_START_OFFSET UNITYSDK_OFFSET(0x1A47B1A0)
+#define LIGHTPERFORMANCETEST_UPDATE_OFFSET UNITYSDK_OFFSET(0x1A47BD80)
+#define LIGHTPERFORMANCETEST__CTOR_OFFSET UNITYSDK_OFFSET(0x1A47BE10)
 
-inline static constexpr unsigned int LightPerformanceTest_TypeDefinitionIndex = 45530;
+inline static constexpr unsigned int LightPerformanceTest_TypeDefinitionIndex = 47780;
 
 class LightPerformanceTest : public ::UnityEngine::MonoBehaviour
 {
 public:
 	::System::Collections::Generic::List_1<::LightPerformanceTestUnit*>* TestCaseUnit; // 0x18
-	::UnityEngine::UI::Text* Field_5_1; // 0x20
-	::UnityEngine::UI::Text* Field_5_2; // 0x28
-	::System::Single Field_5_3; // 0x30
-	::System::Int32 Field_5_4; // 0x34
-	::UnityEngine::GameObject* Field_5_5; // 0x38
-	::UnityEngine::GameObject* Field_5_6; // 0x40
-	::RPG::Client::EnvironmentSystem* Field_5_7; // 0x48
+	::UnityEngine::UI::Text* NOCOPNPHMLN; // 0x20
+	::UnityEngine::UI::Text* PFNJAFFEAFA; // 0x28
+	::System::Single ANKKFGAFOBE; // 0x30
+	::System::Int32 CNCJMPEODFP; // 0x34
+	::UnityEngine::GameObject* OCMGBNJPGNP; // 0x38
+	::UnityEngine::GameObject* AMIBPOICDIK; // 0x40
+	::RPG::Client::EnvironmentSystem* LKDKHHMECAG; // 0x48
 
 	::System::Void _ctor()
 	{

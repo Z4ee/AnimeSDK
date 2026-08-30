@@ -5,10 +5,10 @@
 namespace RPG::Client::ActivityIdleLive { class IdleLiveNode; }
 namespace RPG::Client::ActivityIdleLive { class StoryLine; }
 
-#define CLASS_1_11C29C9492A88AE1_METHOD_1_28569B04E17EDDB9_OFFSET UNITYSDK_OFFSET(0x18EC96B0)
-#define CLASS_1_11C29C9492A88AE1__CTOR_OFFSET UNITYSDK_OFFSET(0x18EC9710)
+#define CLASS_1_11C29C9492A88AE1_METHOD_1_28569B04E17EDDB9_OFFSET UNITYSDK_OFFSET(0x19C20A80)
+#define CLASS_1_11C29C9492A88AE1__CTOR_OFFSET UNITYSDK_OFFSET(0x19C20AE0)
 
-inline static constexpr unsigned int Class_1_11C29C9492A88AE1_TypeDefinitionIndex = 71535;
+inline static constexpr unsigned int Class_1_11C29C9492A88AE1_TypeDefinitionIndex = 74841;
 
 class Class_1_11C29C9492A88AE1 : public ::System::Object
 {

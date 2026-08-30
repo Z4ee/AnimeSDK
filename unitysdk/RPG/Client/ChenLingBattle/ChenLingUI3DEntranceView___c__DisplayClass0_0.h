@@ -6,18 +6,18 @@ namespace RPG::Client::ChenLingBattle { class ChenLingUI3DEntranceView; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGUI3DENTRANCEVIEW___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0x196519F0)
-#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGUI3DENTRANCEVIEW___C__DISPLAYCLASS0_0__SETSTAGE_B__0_OFFSET UNITYSDK_OFFSET(0x196520D0)
+#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGUI3DENTRANCEVIEW___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B957F00)
+#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGUI3DENTRANCEVIEW___C__DISPLAYCLASS0_0__SETSTAGE_B__0_OFFSET UNITYSDK_OFFSET(0x1B9585E0)
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int ChenLingUI3DEntranceView___c__DisplayClass0_0_TypeDefinitionIndex = 72303;
+	inline static constexpr unsigned int ChenLingUI3DEntranceView___c__DisplayClass0_0_TypeDefinitionIndex = 75739;
 
 	class ChenLingUI3DEntranceView___c__DisplayClass0_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::ChenLingBattle::ChenLingUI3DEntranceView* __4__this; // 0x10
-		::UnityEngine::Transform* anchor; // 0x18
+		::UnityEngine::Transform* anchor; // 0x10
+		::RPG::Client::ChenLingBattle::ChenLingUI3DEntranceView* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

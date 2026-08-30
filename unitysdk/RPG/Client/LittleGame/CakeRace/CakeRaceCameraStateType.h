@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::CakeRace
 {
-	inline static constexpr unsigned int CakeRaceCameraStateType_TypeDefinitionIndex = 74056;
+	inline static constexpr unsigned int CakeRaceCameraStateType_TypeDefinitionIndex = 77540;
 
 	enum class CakeRaceCameraStateType : ::System::Int32
 	{

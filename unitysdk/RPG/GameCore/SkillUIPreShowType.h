@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SkillUIPreShowType_TypeDefinitionIndex = 23903;
+	inline static constexpr unsigned int SkillUIPreShowType_TypeDefinitionIndex = 24490;
 
 	enum class SkillUIPreShowType : ::System::Int32
 	{

@@ -8,13 +8,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ADVNPCPATROL_METHOD_3_02EE9E976B64A2FA_OFFSET UNITYSDK_OFFSET(0x1BE22340)
-#define RPG_GAMECORE_ADVNPCPATROL_METHOD_3_EE95B8F05C27FEBB_OFFSET UNITYSDK_OFFSET(0x1BE22390)
-#define RPG_GAMECORE_ADVNPCPATROL__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE22380)
+#define RPG_GAMECORE_ADVNPCPATROL_METHOD_3_02EE9E976B64A2FA_OFFSET UNITYSDK_OFFSET(0x1D6BD6B0)
+#define RPG_GAMECORE_ADVNPCPATROL_METHOD_3_EE95B8F05C27FEBB_OFFSET UNITYSDK_OFFSET(0x1D6BD700)
+#define RPG_GAMECORE_ADVNPCPATROL__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6BD6F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvNPCPatrol_TypeDefinitionIndex = 19204;
+	inline static constexpr unsigned int AdvNPCPatrol_TypeDefinitionIndex = 19745;
 
 	class AdvNPCPatrol : public ::RPG::GameCore::TaskConfig
 	{

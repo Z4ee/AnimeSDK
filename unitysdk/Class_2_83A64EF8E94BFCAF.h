@@ -8,18 +8,18 @@ namespace RPG::Client::CakeRace { class CakeRaceCatUI3DPerformancePrepareData; }
 namespace RPG::Client::CakeRace { class CakeRacePerformanceDataItem; }
 namespace System { class String; }
 
-#define CLASS_2_83A64EF8E94BFCAF_METHOD_2_1B1274C184A5DD93_OFFSET UNITYSDK_OFFSET(0x16F50E10)
-#define CLASS_2_83A64EF8E94BFCAF_METHOD_2_9111D726AD54154A_OFFSET UNITYSDK_OFFSET(0x16F50C90)
-#define CLASS_2_83A64EF8E94BFCAF_METHOD_2_C1C102A69D607332_OFFSET UNITYSDK_OFFSET(0x16F50D90)
-#define CLASS_2_83A64EF8E94BFCAF_METHOD_2_DF3E6C4E87C9A21C_OFFSET UNITYSDK_OFFSET(0x16F50C30)
-#define CLASS_2_83A64EF8E94BFCAF__CTOR_OFFSET UNITYSDK_OFFSET(0x16F50C80)
+#define CLASS_2_83A64EF8E94BFCAF_METHOD_2_1B1274C184A5DD93_OFFSET UNITYSDK_OFFSET(0x1996FA40)
+#define CLASS_2_83A64EF8E94BFCAF_METHOD_2_9111D726AD54154A_OFFSET UNITYSDK_OFFSET(0x1996F8B0)
+#define CLASS_2_83A64EF8E94BFCAF_METHOD_2_DF3E6C4E87C9A21C_OFFSET UNITYSDK_OFFSET(0x1996F850)
+#define CLASS_2_83A64EF8E94BFCAF_METHOD_2_EDC76958733D8369_OFFSET UNITYSDK_OFFSET(0x1996F9B0)
+#define CLASS_2_83A64EF8E94BFCAF__CTOR_OFFSET UNITYSDK_OFFSET(0x1996F8A0)
 
-inline static constexpr unsigned int Class_2_83A64EF8E94BFCAF_TypeDefinitionIndex = 74146;
+inline static constexpr unsigned int Class_2_83A64EF8E94BFCAF_TypeDefinitionIndex = 77630;
 
 class Class_2_83A64EF8E94BFCAF : public ::Class_1_FD211ABC1DF6278D
 {
 public:
-	// static const ::System::String* Field_2_0; // 0x0
+	// static const ::System::String* CBMNKILNEFA; // 0x0
 
 	::System::Void _ctor(::RPG::Client::CakeRace::CakeRacePerformanceDataItem* a1)
 	{
@@ -36,9 +36,9 @@ public:
 		return ((::System::Void(*)(::PVOID, ::Class_3_FA020C2C23A72B3F*, ::Class_1_7D0B754E2D8CECAF*))((::PBYTE)hIl2Cpp + CLASS_2_83A64EF8E94BFCAF_METHOD_2_9111D726AD54154A_OFFSET))(this, a1, a2);
 	}
 
-	static ::System::Void Method_2_C1C102A69D607332(::RPG::Client::CakeRace::CakeRaceCatUI3DPerformancePrepareData* a1)
+	static ::System::Void Method_2_EDC76958733D8369(::RPG::Client::CakeRace::CakeRaceCatUI3DPerformancePrepareData* a1)
 	{
-		return ((::System::Void(*)(::RPG::Client::CakeRace::CakeRaceCatUI3DPerformancePrepareData*))((::PBYTE)hIl2Cpp + CLASS_2_83A64EF8E94BFCAF_METHOD_2_C1C102A69D607332_OFFSET))(a1);
+		return ((::System::Void(*)(::RPG::Client::CakeRace::CakeRaceCatUI3DPerformancePrepareData*))((::PBYTE)hIl2Cpp + CLASS_2_83A64EF8E94BFCAF_METHOD_2_EDC76958733D8369_OFFSET))(a1);
 	}
 
 	::System::Void Method_2_1B1274C184A5DD93(::RPG::Client::CakeRace::CakeRaceCatUI3DPerformancePrepareData* a1, ::System::Boolean a2)

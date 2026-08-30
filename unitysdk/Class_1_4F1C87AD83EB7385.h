@@ -7,22 +7,22 @@ namespace RPG::Client { class ParkourGameTalkEventInfo; }
 namespace RPG::Client::ParkourGame { class MonoParkourTalkEvent; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_4F1C87AD83EB7385_METHOD_1_2857E587A86D1531_OFFSET UNITYSDK_OFFSET(0x16D044D0)
-#define CLASS_1_4F1C87AD83EB7385_METHOD_1_42AA9A78CFDCA6A5_OFFSET UNITYSDK_OFFSET(0x16D03FF0)
-#define CLASS_1_4F1C87AD83EB7385_METHOD_1_5AE83F665B51F5BC_OFFSET UNITYSDK_OFFSET(0x16D04590)
-#define CLASS_1_4F1C87AD83EB7385_METHOD_1_A4A5585C8E73BD81_OFFSET UNITYSDK_OFFSET(0x16D04190)
-#define CLASS_1_4F1C87AD83EB7385_METHOD_1_D3129FE8DF635B48_OFFSET UNITYSDK_OFFSET(0x16D04040)
-#define CLASS_1_4F1C87AD83EB7385_METHOD_1_E7EF6BC52B28648C_OFFSET UNITYSDK_OFFSET(0x16D04620)
-#define CLASS_1_4F1C87AD83EB7385__CTOR_OFFSET UNITYSDK_OFFSET(0x16D04710)
+#define CLASS_1_4F1C87AD83EB7385_METHOD_1_2857E587A86D1531_OFFSET UNITYSDK_OFFSET(0x178794E0)
+#define CLASS_1_4F1C87AD83EB7385_METHOD_1_2CDB94095CACFE05_OFFSET UNITYSDK_OFFSET(0x178795A0)
+#define CLASS_1_4F1C87AD83EB7385_METHOD_1_42AA9A78CFDCA6A5_OFFSET UNITYSDK_OFFSET(0x17879000)
+#define CLASS_1_4F1C87AD83EB7385_METHOD_1_A4A5585C8E73BD81_OFFSET UNITYSDK_OFFSET(0x178791A0)
+#define CLASS_1_4F1C87AD83EB7385_METHOD_1_D3129FE8DF635B48_OFFSET UNITYSDK_OFFSET(0x17879050)
+#define CLASS_1_4F1C87AD83EB7385_METHOD_1_E7EF6BC52B28648C_OFFSET UNITYSDK_OFFSET(0x17879630)
+#define CLASS_1_4F1C87AD83EB7385__CTOR_OFFSET UNITYSDK_OFFSET(0x17879720)
 
-inline static constexpr unsigned int Class_1_4F1C87AD83EB7385_TypeDefinitionIndex = 59106;
+inline static constexpr unsigned int Class_1_4F1C87AD83EB7385_TypeDefinitionIndex = 61941;
 
 class Class_1_4F1C87AD83EB7385 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::ParkourGameTalkEventInfo*>* Field_1_0; // 0x10
-	::RPG::Client::BaseGameFlow* Field_1_1; // 0x18
-	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::ParkourGame::MonoParkourTalkEvent*>* Field_1_2; // 0x20
+	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::ParkourGameTalkEventInfo*>* MIMGEEGJBOK; // 0x10
+	::RPG::Client::BaseGameFlow* BEGDKHKENMF; // 0x18
+	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::ParkourGame::MonoParkourTalkEvent*>* PGNFCGAOBOH; // 0x20
 
 	::System::Void _ctor()
 	{
@@ -49,9 +49,9 @@ public:
 		return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::Client::ParkourGame::MonoParkourTalkEvent*))((::PBYTE)hIl2Cpp + CLASS_1_4F1C87AD83EB7385_METHOD_1_2857E587A86D1531_OFFSET))(this, a1, a2);
 	}
 
-	::System::Void Method_1_5AE83F665B51F5BC(::System::UInt32 a1, ::RPG::Client::ParkourGame::MonoParkourTalkEvent* a2)
+	::System::Void Method_1_2CDB94095CACFE05(::System::UInt32 a1, ::RPG::Client::ParkourGame::MonoParkourTalkEvent* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::Client::ParkourGame::MonoParkourTalkEvent*))((::PBYTE)hIl2Cpp + CLASS_1_4F1C87AD83EB7385_METHOD_1_5AE83F665B51F5BC_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::Client::ParkourGame::MonoParkourTalkEvent*))((::PBYTE)hIl2Cpp + CLASS_1_4F1C87AD83EB7385_METHOD_1_2CDB94095CACFE05_OFFSET))(this, a1, a2);
 	}
 
 	::System::Void Method_1_E7EF6BC52B28648C()

@@ -5,34 +5,34 @@
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_PIXAIR_PIXAIREQUIPCONTROL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19ECDAE0)
-#define RPG_CLIENT_PIXAIR_PIXAIREQUIPCONTROL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19ECDB20)
-#define RPG_CLIENT_PIXAIR_PIXAIREQUIPCONTROL___C___ONBINDVIEWMODEL_B__1_10_OFFSET UNITYSDK_OFFSET(0x19ECDBF0)
-#define RPG_CLIENT_PIXAIR_PIXAIREQUIPCONTROL___C___ONBINDVIEWMODEL_B__1_4_OFFSET UNITYSDK_OFFSET(0x19ECDB30)
-#define RPG_CLIENT_PIXAIR_PIXAIREQUIPCONTROL___C___ONBINDVIEWMODEL_B__1_7_OFFSET UNITYSDK_OFFSET(0x19ECDB90)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPCONTROL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C83BF20)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPCONTROL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1C83BF60)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPCONTROL___C___ONBINDVIEWMODEL_B__1_10_OFFSET UNITYSDK_OFFSET(0x1C83C030)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPCONTROL___C___ONBINDVIEWMODEL_B__1_4_OFFSET UNITYSDK_OFFSET(0x1C83BF70)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPCONTROL___C___ONBINDVIEWMODEL_B__1_7_OFFSET UNITYSDK_OFFSET(0x1C83BFD0)
 
 namespace RPG::Client::PixAir
 {
-	inline static constexpr unsigned int PixAirEquipControl___c_TypeDefinitionIndex = 75214;
+	inline static constexpr unsigned int PixAirEquipControl___c_TypeDefinitionIndex = 78761;
 
 	class PixAirEquipControl___c : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::PixAir::PixAirEquipControl___c** StaticGet___9()
 		{
-			return (::RPG::Client::PixAir::PixAirEquipControl___c**)Il2CppClass::FromTypeDefinitionIndex(PixAirEquipControl___c_TypeDefinitionIndex)->GetStaticField(0x676E0);
-		}
-		static ::System::Func_2<::System::Int32, ::System::String*>** StaticGet___9__1_4()
-		{
-			return (::System::Func_2<::System::Int32, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(PixAirEquipControl___c_TypeDefinitionIndex)->GetStaticField(0x676E8);
+			return (::RPG::Client::PixAir::PixAirEquipControl___c**)Il2CppClass::FromTypeDefinitionIndex(PixAirEquipControl___c_TypeDefinitionIndex)->GetStaticField(0x5F010);
 		}
 		static ::System::Func_2<::System::Int32, ::System::String*>** StaticGet___9__1_7()
 		{
-			return (::System::Func_2<::System::Int32, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(PixAirEquipControl___c_TypeDefinitionIndex)->GetStaticField(0x676F0);
+			return (::System::Func_2<::System::Int32, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(PixAirEquipControl___c_TypeDefinitionIndex)->GetStaticField(0x5F018);
+		}
+		static ::System::Func_2<::System::Int32, ::System::String*>** StaticGet___9__1_4()
+		{
+			return (::System::Func_2<::System::Int32, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(PixAirEquipControl___c_TypeDefinitionIndex)->GetStaticField(0x5F020);
 		}
 		static ::System::Func_2<::System::Int32, ::System::String*>** StaticGet___9__1_10()
 		{
-			return (::System::Func_2<::System::Int32, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(PixAirEquipControl___c_TypeDefinitionIndex)->GetStaticField(0x676F8);
+			return (::System::Func_2<::System::Int32, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(PixAirEquipControl___c_TypeDefinitionIndex)->GetStaticField(0x5F028);
 		}
 
 		static ::System::Void _cctor()

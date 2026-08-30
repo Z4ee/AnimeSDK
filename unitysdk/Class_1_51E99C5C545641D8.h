@@ -6,17 +6,17 @@
 namespace RPG::GameCore { class AttackData; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_1_51E99C5C545641D8_DISPOSE_OFFSET UNITYSDK_OFFSET(0x176F4FD0)
-#define CLASS_1_51E99C5C545641D8__CTOR_OFFSET UNITYSDK_OFFSET(0x176F4F60)
+#define CLASS_1_51E99C5C545641D8_DISPOSE_OFFSET UNITYSDK_OFFSET(0x17ABDDA0)
+#define CLASS_1_51E99C5C545641D8__CTOR_OFFSET UNITYSDK_OFFSET(0x17ABDD30)
 
-inline static constexpr unsigned int Class_1_51E99C5C545641D8_TypeDefinitionIndex = 53957;
+inline static constexpr unsigned int Class_1_51E99C5C545641D8_TypeDefinitionIndex = 56678;
 
 class Class_1_51E99C5C545641D8 : public ::System::Object
 {
 public:
-	::RPG::GameCore::AttackData* Field_1_0; // 0x10
-	::RPG::GameCore::AttackDamageType Field_1_1; // 0x18
-	::RPG::GameCore::AttackDamageType Field_1_2; // 0x1C
+	::RPG::GameCore::AttackData* FHEPHLNLKJL; // 0x10
+	::RPG::GameCore::AttackDamageType ECBKGBGGLEO; // 0x18
+	::RPG::GameCore::AttackDamageType MFLCOOMNPLA; // 0x1C
 
 	::System::Void _ctor(::RPG::GameCore::AttackData* a1, ::RPG::GameCore::TaskContext* a2)
 	{

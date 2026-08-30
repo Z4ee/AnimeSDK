@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Base64ArgumentMarshaler_1_TypeDefinitionIndex = 33772;
+	inline static constexpr unsigned int Base64ArgumentMarshaler_1_TypeDefinitionIndex = 34538;
 
 	template <typename T>
 	class Base64ArgumentMarshaler_1 : public ::System::Object

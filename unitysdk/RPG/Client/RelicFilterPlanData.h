@@ -8,25 +8,25 @@ namespace RPG::Client { class RelicFilterPlanIconData; }
 namespace RPG::Client { class RelicFilterPlanSettingsData; }
 namespace System { class String; }
 
-#define RPG_CLIENT_RELICFILTERPLANDATA_CREATE_1_OFFSET UNITYSDK_OFFSET(0x19873B20)
-#define RPG_CLIENT_RELICFILTERPLANDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x198738B0)
-#define RPG_CLIENT_RELICFILTERPLANDATA_FILLTOSERVERDATA_OFFSET UNITYSDK_OFFSET(0x19873E30)
-#define RPG_CLIENT_RELICFILTERPLANDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19873A20)
+#define RPG_CLIENT_RELICFILTERPLANDATA_CREATE_1_OFFSET UNITYSDK_OFFSET(0x1B664E10)
+#define RPG_CLIENT_RELICFILTERPLANDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x1B664BA0)
+#define RPG_CLIENT_RELICFILTERPLANDATA_FILLTOSERVERDATA_OFFSET UNITYSDK_OFFSET(0x1B665120)
+#define RPG_CLIENT_RELICFILTERPLANDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B664D10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RelicFilterPlanData_TypeDefinitionIndex = 63894;
+	inline static constexpr unsigned int RelicFilterPlanData_TypeDefinitionIndex = 66885;
 
 	class RelicFilterPlanData : public ::System::Object
 	{
 	public:
-		::System::String* Name; // 0x10
-		::RPG::Client::RelicFilterPlanIconData* Icon; // 0x18
+		::RPG::Client::RelicFilterPlanIconData* Icon; // 0x10
+		::System::String* Name; // 0x18
 		::RPG::Client::RelicFilterPlanSettingsData* Settings; // 0x20
 		::System::Int64 UpdateTimestamp; // 0x28
-		::System::UInt32 AvatarIdOnCreate; // 0x30
+		::System::UInt32 SlotIndex; // 0x30
 		::System::Boolean IsMarked; // 0x34
-		::System::UInt32 SlotIndex; // 0x38
+		::System::UInt32 AvatarIdOnCreate; // 0x38
 
 		::System::Void _ctor()
 		{

@@ -4,22 +4,22 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ACTIVITYEQUIPMENTREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1AAE4CD0)
-#define RPG_GAMECORE_ACTIVITYEQUIPMENTREWARDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1AAE4EF0)
+#define RPG_GAMECORE_ACTIVITYEQUIPMENTREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C9F6840)
+#define RPG_GAMECORE_ACTIVITYEQUIPMENTREWARDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1C9F6A60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityEquipmentRewardRow_TypeDefinitionIndex = 11003;
+	inline static constexpr unsigned int ActivityEquipmentRewardRow_TypeDefinitionIndex = 11378;
 
 	class ActivityEquipmentRewardRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* MaterialRewardQuestIDList; // 0x10
-		::System::UInt32 ID; // 0x18
+		::System::UInt32 EquipmentRewardQuestID; // 0x18
 		::System::UInt32 EquipmentRewardQuestGotoID; // 0x1C
 		::System::UInt32 ActivityModuleID; // 0x20
-		::System::UInt32 MainMissionID; // 0x24
-		::System::UInt32 EquipmentRewardQuestID; // 0x28
+		::System::UInt32 ID; // 0x24
+		::System::UInt32 MainMissionID; // 0x28
 
 		::System::Void _ctor()
 		{

@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define RPG_CLIENT_PROP_OPTICALILLUSIONCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x14855870)
+#define RPG_CLIENT_PROP_OPTICALILLUSIONCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x161302A0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int OpticalIllusionCamera_TypeDefinitionIndex = 74744;
+	inline static constexpr unsigned int OpticalIllusionCamera_TypeDefinitionIndex = 78229;
 
 	class OpticalIllusionCamera : public ::System::Object
 	{

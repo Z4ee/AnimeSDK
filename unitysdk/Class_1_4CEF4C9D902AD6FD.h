@@ -6,19 +6,19 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_4CEF4C9D902AD6FD__CTOR_OFFSET UNITYSDK_OFFSET(0x18D35880)
+#define CLASS_1_4CEF4C9D902AD6FD__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5747F0)
 
-inline static constexpr unsigned int Class_1_4CEF4C9D902AD6FD_TypeDefinitionIndex = 35615;
+inline static constexpr unsigned int Class_1_4CEF4C9D902AD6FD_TypeDefinitionIndex = 36476;
 
 class Class_1_4CEF4C9D902AD6FD : public ::System::Object
 {
 public:
-	::System::String* Field_1_0; // 0x10
-	::System::String* Field_1_1; // 0x18
-	::System::String* Field_1_2; // 0x20
-	::System::Collections::Generic::List_1<::Struct_2_A5BBDAD85E6CC6A3>* Field_1_3; // 0x28
-	::System::Int32 Field_1_4; // 0x30
-	::System::Boolean Field_1_5; // 0x34
+	::System::String* EBMNJMIKNPP; // 0x10
+	::System::Collections::Generic::List_1<::Struct_2_A5BBDAD85E6CC6A3>* LCOCDLIECKJ; // 0x18
+	::System::String* HEFLHPGKLCI; // 0x20
+	::System::String* PEGNLFICABO; // 0x28
+	::System::Boolean BHCLAFHOEAO; // 0x30
+	::System::Int32 CADHBHHCKPO; // 0x34
 
 	::System::Void _ctor()
 	{

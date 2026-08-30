@@ -7,25 +7,25 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PLAYERRETURNJOURNEYITEMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1BA0F6F0)
-#define RPG_GAMECORE_PLAYERRETURNJOURNEYITEMROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA10000)
+#define RPG_GAMECORE_PLAYERRETURNJOURNEYITEMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7B04F0)
+#define RPG_GAMECORE_PLAYERRETURNJOURNEYITEMROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7B0DC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlayerReturnJourneyItemRow_TypeDefinitionIndex = 13955;
+	inline static constexpr unsigned int PlayerReturnJourneyItemRow_TypeDefinitionIndex = 14373;
 
 	class PlayerReturnJourneyItemRow : public ::System::Object
 	{
 	public:
 		::System::String* BgPath; // 0x10
-		::RPG::Client::TextID Name; // 0x18
-		::RPG::Client::TextID Title; // 0x28
-		::System::UInt32 ActivityModuleID; // 0x38
-		::RPG::GameCore::PlayerReturnJourneyItemType Type; // 0x3C
-		::System::Boolean IsHideInBeta; // 0x40
-		::RPG::Client::TextID ExtraDesc; // 0x48
-		::System::UInt32 Sort; // 0x58
-		::System::UInt32 ID; // 0x5C
+		::System::UInt32 ActivityModuleID; // 0x18
+		::System::UInt32 ID; // 0x1C
+		::RPG::Client::TextID Title; // 0x20
+		::System::UInt32 Sort; // 0x30
+		::RPG::GameCore::PlayerReturnJourneyItemType Type; // 0x34
+		::System::Boolean IsHideInBeta; // 0x38
+		::RPG::Client::TextID Name; // 0x40
+		::RPG::Client::TextID ExtraDesc; // 0x50
 
 		::System::Void _ctor()
 		{

@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2ArenaEntry_1_TypeDefinitionIndex = 35029;
+	inline static constexpr unsigned int B2ArenaEntry_1_TypeDefinitionIndex = 35890;
 
 	template <typename T>
 	struct B2ArenaEntry_1

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TeamTowersStatisticType_TypeDefinitionIndex = 12003;
+	inline static constexpr unsigned int TeamTowersStatisticType_TypeDefinitionIndex = 12392;
 
 	enum class TeamTowersStatisticType : ::System::Int32
 	{

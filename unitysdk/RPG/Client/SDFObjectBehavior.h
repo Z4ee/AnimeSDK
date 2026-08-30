@@ -1,0 +1,156 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/TABehaviorBase.h"
+#include "unitysdk/UnityEngine/Bounds.h"
+#include "unitysdk/UnityEngine/Matrix4x4.h"
+#include "unitysdk/UnityEngine/Quaternion.h"
+#include "unitysdk/UnityEngine/Vector3.h"
+
+namespace RPG::Client { class MeshSDFRendererMonoPlugin; }
+namespace RPG::Client { class SDFObjectMonoPlugin; }
+
+#define RPG_CLIENT_SDFOBJECTBEHAVIOR_GET__OWNERMONOPLUGIN_OFFSET UNITYSDK_OFFSET(0x16A368B0)
+#define RPG_CLIENT_SDFOBJECTBEHAVIOR_METHOD_3_05EB5BA960A40609_OFFSET UNITYSDK_OFFSET(0x16A37A90)
+#define RPG_CLIENT_SDFOBJECTBEHAVIOR_METHOD_3_1D4018D4200358D0_OFFSET UNITYSDK_OFFSET(0x16A372C0)
+#define RPG_CLIENT_SDFOBJECTBEHAVIOR_METHOD_3_36971FC3F16E2CEB_OFFSET UNITYSDK_OFFSET(0x16A364E0)
+#define RPG_CLIENT_SDFOBJECTBEHAVIOR_METHOD_3_39FD7185C859CEAD_OFFSET UNITYSDK_OFFSET(0x16A36C60)
+#define RPG_CLIENT_SDFOBJECTBEHAVIOR_METHOD_3_4307B2A4B4A12C1A_OFFSET UNITYSDK_OFFSET(0x16A36930)
+#define RPG_CLIENT_SDFOBJECTBEHAVIOR_METHOD_3_4487776BEE04D471_OFFSET UNITYSDK_OFFSET(0x16A36F90)
+#define RPG_CLIENT_SDFOBJECTBEHAVIOR_METHOD_3_5663FA56F3BCA76C_OFFSET UNITYSDK_OFFSET(0x16A37600)
+#define RPG_CLIENT_SDFOBJECTBEHAVIOR_METHOD_3_6B1C82E63C437CF1_OFFSET UNITYSDK_OFFSET(0x16A37DF0)
+#define RPG_CLIENT_SDFOBJECTBEHAVIOR_METHOD_3_6E10DBA521A04356_OFFSET UNITYSDK_OFFSET(0x16A362C0)
+#define RPG_CLIENT_SDFOBJECTBEHAVIOR_METHOD_3_7073B423B15F467A_OFFSET UNITYSDK_OFFSET(0x16A37320)
+#define RPG_CLIENT_SDFOBJECTBEHAVIOR_METHOD_3_7713B5F3D6F500DF_1_OFFSET UNITYSDK_OFFSET(0x16A37EE0)
+#define RPG_CLIENT_SDFOBJECTBEHAVIOR_METHOD_3_7713B5F3D6F500DF_OFFSET UNITYSDK_OFFSET(0x16A37E60)
+#define RPG_CLIENT_SDFOBJECTBEHAVIOR_METHOD_3_8B583D3EB3CF1951_OFFSET UNITYSDK_OFFSET(0x16A37210)
+#define RPG_CLIENT_SDFOBJECTBEHAVIOR_METHOD_3_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0x16A36210)
+#define RPG_CLIENT_SDFOBJECTBEHAVIOR_METHOD_3_9971E1E176D73C0C_OFFSET UNITYSDK_OFFSET(0x16A37F70)
+#define RPG_CLIENT_SDFOBJECTBEHAVIOR_METHOD_3_A1D8CD775DEC3C21_OFFSET UNITYSDK_OFFSET(0x16A37DB0)
+#define RPG_CLIENT_SDFOBJECTBEHAVIOR_METHOD_3_B464A7AD4073AA5B_OFFSET UNITYSDK_OFFSET(0x16A371B0)
+#define RPG_CLIENT_SDFOBJECTBEHAVIOR_METHOD_3_FBF2CB29FD3B55E6_OFFSET UNITYSDK_OFFSET(0x16A38230)
+#define RPG_CLIENT_SDFOBJECTBEHAVIOR_TICK_OFFSET UNITYSDK_OFFSET(0x16A36EC0)
+#define RPG_CLIENT_SDFOBJECTBEHAVIOR__CTOR_OFFSET UNITYSDK_OFFSET(0x16A383F0)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int SDFObjectBehavior_TypeDefinitionIndex = 70912;
+
+	class SDFObjectBehavior : public ::RPG::Client::TABehaviorBase
+	{
+	public:
+		::System::Int32 objectID; // 0x38
+		::System::Boolean isRegistered; // 0x3C
+		::Il2CppArray<::RPG::Client::MeshSDFRendererMonoPlugin*>* _childRenderers; // 0x40
+		::UnityEngine::Bounds _worldBounds; // 0x48
+		::UnityEngine::Matrix4x4 _localToWorldMatrix; // 0x60
+		::UnityEngine::Matrix4x4 _worldToLocalMatrix; // 0xA0
+		::UnityEngine::Vector3 _lastPosition; // 0xE0
+		::UnityEngine::Quaternion _lastRotation; // 0xEC
+		::UnityEngine::Vector3 _lastScale; // 0xFC
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SDFOBJECTBEHAVIOR__CTOR_OFFSET))(this);
+		}
+
+		::System::Void Method_3_9681042564541CD6()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SDFOBJECTBEHAVIOR_METHOD_3_9681042564541CD6_OFFSET))(this);
+		}
+
+		::System::Void Method_3_36971FC3F16E2CEB()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SDFOBJECTBEHAVIOR_METHOD_3_36971FC3F16E2CEB_OFFSET))(this);
+		}
+
+		::System::Void Method_3_39FD7185C859CEAD()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SDFOBJECTBEHAVIOR_METHOD_3_39FD7185C859CEAD_OFFSET))(this);
+		}
+
+		::System::Void Tick(::System::Single a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_SDFOBJECTBEHAVIOR_TICK_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_3_6E10DBA521A04356()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SDFOBJECTBEHAVIOR_METHOD_3_6E10DBA521A04356_OFFSET))(this);
+		}
+
+		::Il2CppArray<::RPG::Client::MeshSDFRendererMonoPlugin*>* Method_3_B464A7AD4073AA5B()
+		{
+			return ((::Il2CppArray<::RPG::Client::MeshSDFRendererMonoPlugin*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SDFOBJECTBEHAVIOR_METHOD_3_B464A7AD4073AA5B_OFFSET))(this);
+		}
+
+		::RPG::Client::MeshSDFRendererMonoPlugin* Method_3_8B583D3EB3CF1951()
+		{
+			return ((::RPG::Client::MeshSDFRendererMonoPlugin*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SDFOBJECTBEHAVIOR_METHOD_3_8B583D3EB3CF1951_OFFSET))(this);
+		}
+
+		::System::Boolean Method_3_1D4018D4200358D0()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SDFOBJECTBEHAVIOR_METHOD_3_1D4018D4200358D0_OFFSET))(this);
+		}
+
+		::System::Boolean Method_3_4487776BEE04D471()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SDFOBJECTBEHAVIOR_METHOD_3_4487776BEE04D471_OFFSET))(this);
+		}
+
+		::System::Void Method_3_4307B2A4B4A12C1A()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SDFOBJECTBEHAVIOR_METHOD_3_4307B2A4B4A12C1A_OFFSET))(this);
+		}
+
+		::System::Void Method_3_7073B423B15F467A()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SDFOBJECTBEHAVIOR_METHOD_3_7073B423B15F467A_OFFSET))(this);
+		}
+
+		::UnityEngine::Bounds Method_3_5663FA56F3BCA76C(::RPG::Client::MeshSDFRendererMonoPlugin* a1)
+		{
+			return ((::UnityEngine::Bounds(*)(::PVOID, ::RPG::Client::MeshSDFRendererMonoPlugin*))((::PBYTE)hIl2Cpp + RPG_CLIENT_SDFOBJECTBEHAVIOR_METHOD_3_5663FA56F3BCA76C_OFFSET))(this, a1);
+		}
+
+		::UnityEngine::Bounds Method_3_05EB5BA960A40609(::UnityEngine::Bounds a1, ::UnityEngine::Matrix4x4 a2)
+		{
+			return ((::UnityEngine::Bounds(*)(::PVOID, ::UnityEngine::Bounds, ::UnityEngine::Matrix4x4))((::PBYTE)hIl2Cpp + RPG_CLIENT_SDFOBJECTBEHAVIOR_METHOD_3_05EB5BA960A40609_OFFSET))(this, a1, a2);
+		}
+
+		::System::Int32 Method_3_A1D8CD775DEC3C21()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SDFOBJECTBEHAVIOR_METHOD_3_A1D8CD775DEC3C21_OFFSET))(this);
+		}
+
+		::UnityEngine::Bounds Method_3_6B1C82E63C437CF1()
+		{
+			return ((::UnityEngine::Bounds(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SDFOBJECTBEHAVIOR_METHOD_3_6B1C82E63C437CF1_OFFSET))(this);
+		}
+
+		::UnityEngine::Matrix4x4 Method_3_7713B5F3D6F500DF()
+		{
+			return ((::UnityEngine::Matrix4x4(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SDFOBJECTBEHAVIOR_METHOD_3_7713B5F3D6F500DF_OFFSET))(this);
+		}
+
+		::UnityEngine::Matrix4x4 Method_3_7713B5F3D6F500DF_1()
+		{
+			return ((::UnityEngine::Matrix4x4(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SDFOBJECTBEHAVIOR_METHOD_3_7713B5F3D6F500DF_1_OFFSET))(this);
+		}
+
+		::System::Boolean Method_3_9971E1E176D73C0C()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SDFOBJECTBEHAVIOR_METHOD_3_9971E1E176D73C0C_OFFSET))(this);
+		}
+
+		::System::Void Method_3_FBF2CB29FD3B55E6()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SDFOBJECTBEHAVIOR_METHOD_3_FBF2CB29FD3B55E6_OFFSET))(this);
+		}
+
+		::RPG::Client::SDFObjectMonoPlugin* get__OwnerMonoPlugin()
+		{
+			return ((::RPG::Client::SDFObjectMonoPlugin*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SDFOBJECTBEHAVIOR_GET__OWNERMONOPLUGIN_OFFSET))(this);
+		}
+	};
+}

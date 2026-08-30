@@ -1,0 +1,83 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Sofa/BaseSofaControl.h"
+
+namespace RPG::Client { class AnimatorButton; }
+namespace RPG::Client::B51Racing { class B51RacingCarActiveSkillItemControl; }
+namespace RPG::Client::B51Racing { class B51RacingDIYActiveSkillPanelViewModel; }
+namespace RPG::Client::B51Racing { class LuaControllerHandle; }
+
+#define RPG_CLIENT_B51RACING_B51RACINGDIYACTIVESKILLPANELCONTROL_GETSELECTEDCARID_OFFSET UNITYSDK_OFFSET(0x19EECED0)
+#define RPG_CLIENT_B51RACING_B51RACINGDIYACTIVESKILLPANELCONTROL_HASSELECTION_OFFSET UNITYSDK_OFFSET(0x19EECF70)
+#define RPG_CLIENT_B51RACING_B51RACINGDIYACTIVESKILLPANELCONTROL_SETUPVIEW_OFFSET UNITYSDK_OFFSET(0x19EECC70)
+#define RPG_CLIENT_B51RACING_B51RACINGDIYACTIVESKILLPANELCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x19EED220)
+#define RPG_CLIENT_B51RACING_B51RACINGDIYACTIVESKILLPANELCONTROL__GETBRIDGEHANDLE_OFFSET UNITYSDK_OFFSET(0x19EECBD0)
+#define RPG_CLIENT_B51RACING_B51RACINGDIYACTIVESKILLPANELCONTROL__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x19EEC970)
+#define RPG_CLIENT_B51RACING_B51RACINGDIYACTIVESKILLPANELCONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0x19EEC890)
+#define RPG_CLIENT_B51RACING_B51RACINGDIYACTIVESKILLPANELCONTROL__ONITEM1CLICK_OFFSET UNITYSDK_OFFSET(0x19EED020)
+#define RPG_CLIENT_B51RACING_B51RACINGDIYACTIVESKILLPANELCONTROL__ONITEM2CLICK_OFFSET UNITYSDK_OFFSET(0x19EED120)
+#define RPG_CLIENT_B51RACING_B51RACINGDIYACTIVESKILLPANELCONTROL__REFRESHCHECKEDSTATE_OFFSET UNITYSDK_OFFSET(0x19EECDA0)
+
+namespace RPG::Client::B51Racing
+{
+	inline static constexpr unsigned int B51RacingDIYActiveSkillPanelControl_TypeDefinitionIndex = 80441;
+
+	class B51RacingDIYActiveSkillPanelControl : public ::Sofa::BaseSofaControl
+	{
+	public:
+		::RPG::Client::B51Racing::B51RacingCarActiveSkillItemControl* _Skill1Control; // 0x38
+		::RPG::Client::B51Racing::B51RacingCarActiveSkillItemControl* _Skill2Control; // 0x40
+		::RPG::Client::AnimatorButton* _Skill1Button; // 0x48
+		::RPG::Client::AnimatorButton* _Skill2Button; // 0x50
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGDIYACTIVESKILLPANELCONTROL__CTOR_OFFSET))(this);
+		}
+
+		::System::Void _OnInitializeComponent()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGDIYACTIVESKILLPANELCONTROL__ONINITIALIZECOMPONENT_OFFSET))(this);
+		}
+
+		::System::Void _OnBindViewModel()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGDIYACTIVESKILLPANELCONTROL__ONBINDVIEWMODEL_OFFSET))(this);
+		}
+
+		::RPG::Client::B51Racing::LuaControllerHandle* _GetBridgeHandle()
+		{
+			return ((::RPG::Client::B51Racing::LuaControllerHandle*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGDIYACTIVESKILLPANELCONTROL__GETBRIDGEHANDLE_OFFSET))(this);
+		}
+
+		::System::Void SetupView()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGDIYACTIVESKILLPANELCONTROL_SETUPVIEW_OFFSET))(this);
+		}
+
+		::System::UInt32 GetSelectedCarID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGDIYACTIVESKILLPANELCONTROL_GETSELECTEDCARID_OFFSET))(this);
+		}
+
+		::System::Boolean HasSelection()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGDIYACTIVESKILLPANELCONTROL_HASSELECTION_OFFSET))(this);
+		}
+
+		::System::Void _OnItem1Click()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGDIYACTIVESKILLPANELCONTROL__ONITEM1CLICK_OFFSET))(this);
+		}
+
+		::System::Void _OnItem2Click()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGDIYACTIVESKILLPANELCONTROL__ONITEM2CLICK_OFFSET))(this);
+		}
+
+		::System::Void _RefreshCheckedState(::RPG::Client::B51Racing::B51RacingDIYActiveSkillPanelViewModel* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::B51Racing::B51RacingDIYActiveSkillPanelViewModel*))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGDIYACTIVESKILLPANELCONTROL__REFRESHCHECKEDSTATE_OFFSET))(this, a1);
+		}
+	};
+}

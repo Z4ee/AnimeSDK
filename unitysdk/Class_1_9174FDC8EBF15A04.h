@@ -11,19 +11,19 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_9174FDC8EBF15A04_METHOD_1_1738FE11B4451187_OFFSET UNITYSDK_OFFSET(0x13A77000)
-#define CLASS_1_9174FDC8EBF15A04_METHOD_1_BD3B68AC3DE1E1AB_OFFSET UNITYSDK_OFFSET(0x13A767F0)
-#define CLASS_1_9174FDC8EBF15A04_METHOD_1_DA1BF2C227DC3D86_OFFSET UNITYSDK_OFFSET(0x13A767B0)
-#define CLASS_1_9174FDC8EBF15A04__CTOR_OFFSET UNITYSDK_OFFSET(0x13A76900)
+#define CLASS_1_9174FDC8EBF15A04_METHOD_1_1738FE11B4451187_OFFSET UNITYSDK_OFFSET(0x16482500)
+#define CLASS_1_9174FDC8EBF15A04_METHOD_1_BD3B68AC3DE1E1AB_OFFSET UNITYSDK_OFFSET(0x16481CF0)
+#define CLASS_1_9174FDC8EBF15A04_METHOD_1_DA1BF2C227DC3D86_OFFSET UNITYSDK_OFFSET(0x16481CB0)
+#define CLASS_1_9174FDC8EBF15A04__CTOR_OFFSET UNITYSDK_OFFSET(0x16481E00)
 
-inline static constexpr unsigned int Class_1_9174FDC8EBF15A04_TypeDefinitionIndex = 71788;
+inline static constexpr unsigned int Class_1_9174FDC8EBF15A04_TypeDefinitionIndex = 75094;
 
 class Class_1_9174FDC8EBF15A04 : public ::System::Object
 {
 public:
-	::System::String* Field_1_0; // 0x10
-	::System::Collections::Generic::List_1<::Class_1_9174FDC8EBF15A04_Class_1_005C8BE141584E9A*>* Field_1_1; // 0x18
-	::System::Single Field_1_2; // 0x20
+	::System::String* HPGOIKJCKLF; // 0x10
+	::System::Collections::Generic::List_1<::Class_1_9174FDC8EBF15A04_Class_1_005C8BE141584E9A*>* ABIDONIKBFG; // 0x18
+	::System::Single PFADDKKAOHI; // 0x20
 
 	::System::Void _ctor(::System::Collections::Generic::IList_1<::Class_1_2F8808448A4005C9*>* a1, ::RPG::GameCore::GenderType a2)
 	{

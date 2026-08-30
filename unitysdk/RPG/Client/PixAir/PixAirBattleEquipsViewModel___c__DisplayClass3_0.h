@@ -4,12 +4,12 @@
 
 namespace RPG::Client::PixAir { class PixAirEquipItemViewModel; }
 
-#define RPG_CLIENT_PIXAIR_PIXAIRBATTLEEQUIPSVIEWMODEL___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19EC3C90)
-#define RPG_CLIENT_PIXAIR_PIXAIRBATTLEEQUIPSVIEWMODEL___C__DISPLAYCLASS3_0__GETEQUIPITEM_B__0_OFFSET UNITYSDK_OFFSET(0x19EC3CE0)
+#define RPG_CLIENT_PIXAIR_PIXAIRBATTLEEQUIPSVIEWMODEL___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C8324D0)
+#define RPG_CLIENT_PIXAIR_PIXAIRBATTLEEQUIPSVIEWMODEL___C__DISPLAYCLASS3_0__GETEQUIPITEM_B__0_OFFSET UNITYSDK_OFFSET(0x1C832520)
 
 namespace RPG::Client::PixAir
 {
-	inline static constexpr unsigned int PixAirBattleEquipsViewModel___c__DisplayClass3_0_TypeDefinitionIndex = 75223;
+	inline static constexpr unsigned int PixAirBattleEquipsViewModel___c__DisplayClass3_0_TypeDefinitionIndex = 78770;
 
 	class PixAirBattleEquipsViewModel___c__DisplayClass3_0 : public ::System::Object
 	{

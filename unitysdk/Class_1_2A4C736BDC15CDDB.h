@@ -11,40 +11,40 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_2A4C736BDC15CDDB_METHOD_1_00CCE68E4D98532D_OFFSET UNITYSDK_OFFSET(0x178589C0)
-#define CLASS_1_2A4C736BDC15CDDB_METHOD_1_0D5D95392C4A525B_OFFSET UNITYSDK_OFFSET(0x17858EA0)
-#define CLASS_1_2A4C736BDC15CDDB_METHOD_1_166CD2DFBCC5F848_OFFSET UNITYSDK_OFFSET(0x17857BC0)
-#define CLASS_1_2A4C736BDC15CDDB_METHOD_1_194806AB94858578_OFFSET UNITYSDK_OFFSET(0x17857D90)
-#define CLASS_1_2A4C736BDC15CDDB_METHOD_1_89D1F247B9D324EE_OFFSET UNITYSDK_OFFSET(0x17858890)
-#define CLASS_1_2A4C736BDC15CDDB_METHOD_1_91F67260608B561B_OFFSET UNITYSDK_OFFSET(0x17857C40)
-#define CLASS_1_2A4C736BDC15CDDB_METHOD_1_A9325C3E854E0776_OFFSET UNITYSDK_OFFSET(0x17859B00)
-#define CLASS_1_2A4C736BDC15CDDB_METHOD_1_B5DCA959860D884A_OFFSET UNITYSDK_OFFSET(0x17859590)
-#define CLASS_1_2A4C736BDC15CDDB__CCTOR_OFFSET UNITYSDK_OFFSET(0x1785A0D0)
+#define CLASS_1_2A4C736BDC15CDDB_METHOD_1_00CCE68E4D98532D_OFFSET UNITYSDK_OFFSET(0x1847BFA0)
+#define CLASS_1_2A4C736BDC15CDDB_METHOD_1_0D5D95392C4A525B_OFFSET UNITYSDK_OFFSET(0x1847C480)
+#define CLASS_1_2A4C736BDC15CDDB_METHOD_1_166CD2DFBCC5F848_OFFSET UNITYSDK_OFFSET(0x1847B1E0)
+#define CLASS_1_2A4C736BDC15CDDB_METHOD_1_194806AB94858578_OFFSET UNITYSDK_OFFSET(0x1847B3B0)
+#define CLASS_1_2A4C736BDC15CDDB_METHOD_1_89D1F247B9D324EE_OFFSET UNITYSDK_OFFSET(0x1847BE70)
+#define CLASS_1_2A4C736BDC15CDDB_METHOD_1_91F67260608B561B_OFFSET UNITYSDK_OFFSET(0x1847B260)
+#define CLASS_1_2A4C736BDC15CDDB_METHOD_1_A9325C3E854E0776_OFFSET UNITYSDK_OFFSET(0x1847D0E0)
+#define CLASS_1_2A4C736BDC15CDDB_METHOD_1_B5DCA959860D884A_OFFSET UNITYSDK_OFFSET(0x1847CB70)
+#define CLASS_1_2A4C736BDC15CDDB__CCTOR_OFFSET UNITYSDK_OFFSET(0x1847D6B0)
 
-inline static constexpr unsigned int Class_1_2A4C736BDC15CDDB_TypeDefinitionIndex = 66358;
+inline static constexpr unsigned int Class_1_2A4C736BDC15CDDB_TypeDefinitionIndex = 69450;
 
 class Class_1_2A4C736BDC15CDDB : public ::System::Object
 {
 public:
-	static ::System::String** StaticGet_Field_1_0()
+	static ::System::String** StaticGet_LGFBAECDFID()
 	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_2A4C736BDC15CDDB_TypeDefinitionIndex)->GetStaticField(0x4AFC0);
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_2A4C736BDC15CDDB_TypeDefinitionIndex)->GetStaticField(0x668F0);
 	}
-	static ::System::String** StaticGet_Field_1_1()
+	static ::System::String** StaticGet_DHICLHDHNDN()
 	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_2A4C736BDC15CDDB_TypeDefinitionIndex)->GetStaticField(0x4AFC8);
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_2A4C736BDC15CDDB_TypeDefinitionIndex)->GetStaticField(0x668F8);
 	}
-	static ::System::Collections::Generic::HashSet_1<::System::Int32>** StaticGet_Field_1_2()
+	static ::Class_1_2A4C736BDC15CDDB_Class_1_6EF01436BBEB928C** StaticGet_LKGHPDODGDI()
 	{
-		return (::System::Collections::Generic::HashSet_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_2A4C736BDC15CDDB_TypeDefinitionIndex)->GetStaticField(0x4AFD0);
+		return (::Class_1_2A4C736BDC15CDDB_Class_1_6EF01436BBEB928C**)Il2CppClass::FromTypeDefinitionIndex(Class_1_2A4C736BDC15CDDB_TypeDefinitionIndex)->GetStaticField(0x66900);
 	}
-	static ::System::String** StaticGet_Field_1_3()
+	static ::System::Collections::Generic::HashSet_1<::System::Int32>** StaticGet_EHNDHPCDNEH()
 	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_2A4C736BDC15CDDB_TypeDefinitionIndex)->GetStaticField(0x4AFD8);
+		return (::System::Collections::Generic::HashSet_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_2A4C736BDC15CDDB_TypeDefinitionIndex)->GetStaticField(0x66908);
 	}
-	static ::Class_1_2A4C736BDC15CDDB_Class_1_6EF01436BBEB928C** StaticGet_Field_1_4()
+	static ::System::String** StaticGet_FGIHAOPOACK()
 	{
-		return (::Class_1_2A4C736BDC15CDDB_Class_1_6EF01436BBEB928C**)Il2CppClass::FromTypeDefinitionIndex(Class_1_2A4C736BDC15CDDB_TypeDefinitionIndex)->GetStaticField(0x4AFE0);
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_2A4C736BDC15CDDB_TypeDefinitionIndex)->GetStaticField(0x66910);
 	}
 
 	static ::System::Void _cctor()

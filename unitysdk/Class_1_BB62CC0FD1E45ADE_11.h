@@ -4,15 +4,15 @@
 
 namespace System { class String; }
 
-#define CLASS_1_BB62CC0FD1E45ADE_11__CTOR_OFFSET UNITYSDK_OFFSET(0x16218670)
+#define CLASS_1_BB62CC0FD1E45ADE_11__CTOR_OFFSET UNITYSDK_OFFSET(0x18D28330)
 
-inline static constexpr unsigned int Class_1_BB62CC0FD1E45ADE_11_TypeDefinitionIndex = 62594;
+inline static constexpr unsigned int Class_1_BB62CC0FD1E45ADE_11_TypeDefinitionIndex = 61962;
 
 class Class_1_BB62CC0FD1E45ADE_11 : public ::System::Object
 {
 public:
-	::System::String* Field_1_0; // 0x10
-	::System::Boolean Field_1_1; // 0x18
+	::System::String* InviteCode; // 0x10
+	::System::Boolean Bind; // 0x18
 
 	::System::Void _ctor()
 	{

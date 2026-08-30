@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ScreenTransferSingleTextInfo; }
 
-#define RPG_GAMECORE_SCREENTRANSFERTEXTINFO_METHOD_2_80830381444B2D23_OFFSET UNITYSDK_OFFSET(0x1C2C96B0)
-#define RPG_GAMECORE_SCREENTRANSFERTEXTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2C9860)
+#define RPG_GAMECORE_SCREENTRANSFERTEXTINFO_METHOD_2_80830381444B2D23_OFFSET UNITYSDK_OFFSET(0x1DB49EE0)
+#define RPG_GAMECORE_SCREENTRANSFERTEXTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB4A090)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ScreenTransferTextInfo_TypeDefinitionIndex = 20072;
+	inline static constexpr unsigned int ScreenTransferTextInfo_TypeDefinitionIndex = 20619;
 
 	class ScreenTransferTextInfo : public ::RPG::GameCore::JsonConfig
 	{

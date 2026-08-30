@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::ChenLing
 {
-	inline static constexpr unsigned int ChenLingHPChangeFormatType_TypeDefinitionIndex = 73870;
+	inline static constexpr unsigned int ChenLingHPChangeFormatType_TypeDefinitionIndex = 77354;
 
 	enum class ChenLingHPChangeFormatType : ::System::Int32
 	{

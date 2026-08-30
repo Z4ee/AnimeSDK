@@ -7,12 +7,12 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class IDictionary_2; }
 namespace System::Diagnostics::Tracing { class EventSource; }
 
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_OVERIDEEVENTPROVIDER_ONCONTROLLERCOMMAND_OFFSET UNITYSDK_OFFSET(0x191B7330)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_OVERIDEEVENTPROVIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x191AAE40)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_OVERIDEEVENTPROVIDER_ONCONTROLLERCOMMAND_OFFSET UNITYSDK_OFFSET(0x1AB76030)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_OVERIDEEVENTPROVIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1AB69AD0)
 
 namespace System::Diagnostics::Tracing
 {
-	inline static constexpr unsigned int EventSource_OverideEventProvider_TypeDefinitionIndex = 1658;
+	inline static constexpr unsigned int EventSource_OverideEventProvider_TypeDefinitionIndex = 1665;
 
 	class EventSource_OverideEventProvider : public ::System::Diagnostics::Tracing::EventProvider
 	{

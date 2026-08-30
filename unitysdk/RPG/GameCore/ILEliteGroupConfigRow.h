@@ -5,20 +5,20 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ILELITEGROUPCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B691790)
-#define RPG_GAMECORE_ILELITEGROUPCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B691A00)
+#define RPG_GAMECORE_ILELITEGROUPCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D20C8E0)
+#define RPG_GAMECORE_ILELITEGROUPCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D20CB50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ILEliteGroupConfigRow_TypeDefinitionIndex = 13303;
+	inline static constexpr unsigned int ILEliteGroupConfigRow_TypeDefinitionIndex = 13694;
 
 	class ILEliteGroupConfigRow : public ::System::Object
 	{
 	public:
 		::System::UInt32 EliteGroup; // 0x10
-		::RPG::GameCore::FixPoint AttackRatio; // 0x18
-		::RPG::GameCore::FixPoint HPRatio; // 0x20
-		::RPG::GameCore::FixPoint DefenceRatio; // 0x28
+		::RPG::GameCore::FixPoint DefenceRatio; // 0x18
+		::RPG::GameCore::FixPoint AttackRatio; // 0x20
+		::RPG::GameCore::FixPoint HPRatio; // 0x28
 
 		::System::Void _ctor()
 		{

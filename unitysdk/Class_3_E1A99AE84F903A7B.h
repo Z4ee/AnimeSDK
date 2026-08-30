@@ -7,19 +7,19 @@
 namespace RPG::Client { class PlanetFesFloatingController; }
 namespace System { class String; }
 
-#define CLASS_3_E1A99AE84F903A7B_METHOD_3_CE621DA0B2A1B7C9_OFFSET UNITYSDK_OFFSET(0x183AF990)
-#define CLASS_3_E1A99AE84F903A7B_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x183AFA40)
-#define CLASS_3_E1A99AE84F903A7B__CTOR_OFFSET UNITYSDK_OFFSET(0x183AFB30)
-#define CLASS_3_E1A99AE84F903A7B__ONEXECUTE_B__1_0_OFFSET UNITYSDK_OFFSET(0x183AFB40)
+#define CLASS_3_E1A99AE84F903A7B_METHOD_3_CE621DA0B2A1B7C9_OFFSET UNITYSDK_OFFSET(0x188DA1B0)
+#define CLASS_3_E1A99AE84F903A7B_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x188DA260)
+#define CLASS_3_E1A99AE84F903A7B__CTOR_OFFSET UNITYSDK_OFFSET(0x188DA350)
+#define CLASS_3_E1A99AE84F903A7B__ONEXECUTE_B__1_0_OFFSET UNITYSDK_OFFSET(0x188DA360)
 
-inline static constexpr unsigned int Class_3_E1A99AE84F903A7B_TypeDefinitionIndex = 71072;
+inline static constexpr unsigned int Class_3_E1A99AE84F903A7B_TypeDefinitionIndex = 74371;
 
 class Class_3_E1A99AE84F903A7B : public ::Class_2_5F69A1738A3628CB
 {
 public:
-	::System::String* Field_3_0; // 0x28
-	::RPG::Client::PlanetFesFloatingController_CoinAmount Field_3_1; // 0x30
-	::UnityEngine::Vector3 Field_3_2; // 0x34
+	::System::String* MJPKBIGCFOM; // 0x28
+	::RPG::Client::PlanetFesFloatingController_CoinAmount OKMFOGLIGOI; // 0x30
+	::UnityEngine::Vector3 FJBPOFJPFNP; // 0x34
 
 	::System::Void _ctor()
 	{

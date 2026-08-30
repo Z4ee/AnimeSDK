@@ -3,7 +3,7 @@
 
 namespace RPG::Client::RelicSmartSuit
 {
-	inline static constexpr unsigned int RelicSmartSuitStage_TypeDefinitionIndex = 71007;
+	inline static constexpr unsigned int RelicSmartSuitStage_TypeDefinitionIndex = 74306;
 
 	enum class RelicSmartSuitStage : ::System::Int32
 	{

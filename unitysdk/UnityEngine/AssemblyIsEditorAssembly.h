@@ -4,7 +4,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int AssemblyIsEditorAssembly_TypeDefinitionIndex = 4299;
+	inline static constexpr unsigned int AssemblyIsEditorAssembly_TypeDefinitionIndex = 4309;
 
 	class AssemblyIsEditorAssembly : public ::System::Attribute
 	{

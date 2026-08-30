@@ -6,25 +6,25 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/ReadOnlySpan_1.h"
 
-#define SYSTEM_BUFFERS_TEXT_UTF8PARSER_TRYPARSENUMBER_OFFSET UNITYSDK_OFFSET(0x1D1257F0)
-#define SYSTEM_BUFFERS_TEXT_UTF8PARSER_TRYPARSEUINT32D_OFFSET UNITYSDK_OFFSET(0x1D1262F0)
-#define SYSTEM_BUFFERS_TEXT_UTF8PARSER_TRYPARSE_OFFSET UNITYSDK_OFFSET(0x1D1255B0)
-#define SYSTEM_BUFFERS_TEXT_UTF8PARSER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D126840)
+#define SYSTEM_BUFFERS_TEXT_UTF8PARSER_TRYPARSENUMBER_OFFSET UNITYSDK_OFFSET(0x1EE17830)
+#define SYSTEM_BUFFERS_TEXT_UTF8PARSER_TRYPARSEUINT32D_OFFSET UNITYSDK_OFFSET(0x1EE18330)
+#define SYSTEM_BUFFERS_TEXT_UTF8PARSER_TRYPARSE_OFFSET UNITYSDK_OFFSET(0x1EE175F0)
+#define SYSTEM_BUFFERS_TEXT_UTF8PARSER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EE18880)
 
 namespace System::Buffers::Text
 {
-	inline static constexpr unsigned int Utf8Parser_TypeDefinitionIndex = 4987;
+	inline static constexpr unsigned int Utf8Parser_TypeDefinitionIndex = 4999;
 
 	class Utf8Parser : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::Int32>** StaticGet_s_daysToMonth365()
 		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Utf8Parser_TypeDefinitionIndex)->GetStaticField(0x200);
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Utf8Parser_TypeDefinitionIndex)->GetStaticField(0x190);
 		}
 		static ::Il2CppArray<::System::Int32>** StaticGet_s_daysToMonth366()
 		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Utf8Parser_TypeDefinitionIndex)->GetStaticField(0x208);
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Utf8Parser_TypeDefinitionIndex)->GetStaticField(0x198);
 		}
 
 		static ::System::Void _cctor()

@@ -4,11 +4,11 @@
 
 namespace RPG::AvatarSystem { class AvatarSkin; }
 
-#define RPG_CLIENT_AVATARSKINEXTENSIONS_CHECKBELONGTOMULTIPATHAVATAR_OFFSET UNITYSDK_OFFSET(0x186707E0)
+#define RPG_CLIENT_AVATARSKINEXTENSIONS_CHECKBELONGTOMULTIPATHAVATAR_OFFSET UNITYSDK_OFFSET(0x19ECC390)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AvatarSkinExtensions_TypeDefinitionIndex = 59810;
+	inline static constexpr unsigned int AvatarSkinExtensions_TypeDefinitionIndex = 62656;
 
 	class AvatarSkinExtensions : public ::System::Object
 	{

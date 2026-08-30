@@ -5,16 +5,16 @@
 class Class_2_48488E8DBD9F6BCE;
 namespace RPG::GameCore { class DiceCombatTaskConfig_TriggerDiceUpgrade; }
 
-#define CLASS_2_425E3C99236F4015_METHOD_2_C638E91FC0D3A13A_OFFSET UNITYSDK_OFFSET(0x190FB6F0)
-#define CLASS_2_425E3C99236F4015__CTOR_OFFSET UNITYSDK_OFFSET(0x190FB6E0)
+#define CLASS_2_425E3C99236F4015_METHOD_2_C638E91FC0D3A13A_OFFSET UNITYSDK_OFFSET(0x1AAFDA80)
+#define CLASS_2_425E3C99236F4015__CTOR_OFFSET UNITYSDK_OFFSET(0x1AAFDA70)
 
-inline static constexpr unsigned int Class_2_425E3C99236F4015_TypeDefinitionIndex = 34781;
+inline static constexpr unsigned int Class_2_425E3C99236F4015_TypeDefinitionIndex = 35642;
 
 class Class_2_425E3C99236F4015 : public ::Class_1_B55037134F9E6688
 {
 public:
-	::Class_2_48488E8DBD9F6BCE* Field_2_0; // 0x18
-	::RPG::GameCore::DiceCombatTaskConfig_TriggerDiceUpgrade* Field_2_1; // 0x20
+	::Class_2_48488E8DBD9F6BCE* EEFMDEHLLFI; // 0x18
+	::RPG::GameCore::DiceCombatTaskConfig_TriggerDiceUpgrade* IGHAHBNLIJA; // 0x20
 
 	::System::Void _ctor(::RPG::GameCore::DiceCombatTaskConfig_TriggerDiceUpgrade* a1, ::Class_2_48488E8DBD9F6BCE* a2)
 	{

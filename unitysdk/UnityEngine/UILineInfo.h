@@ -4,7 +4,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int UILineInfo_TypeDefinitionIndex = 5035;
+	inline static constexpr unsigned int UILineInfo_TypeDefinitionIndex = 5047;
 
 	struct alignas(4) UILineInfo
 	{

@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MONSTERTEXTGUIDECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B1CF250)
-#define RPG_GAMECORE_MONSTERTEXTGUIDECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1CF930)
+#define RPG_GAMECORE_MONSTERTEXTGUIDECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CE735B0)
+#define RPG_GAMECORE_MONSTERTEXTGUIDECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE73C90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonsterTextGuideConfigRow_TypeDefinitionIndex = 13686;
+	inline static constexpr unsigned int MonsterTextGuideConfigRow_TypeDefinitionIndex = 14103;
 
 	class MonsterTextGuideConfigRow : public ::System::Object
 	{

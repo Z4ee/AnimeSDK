@@ -8,10 +8,10 @@ namespace UnityEngine::Playables { class PlayableAsset; }
 namespace UnityEngine::Playables { class PlayableDirector; }
 namespace UnityEngine::Timeline { class TrackAsset; }
 
-#define CLASS_2_D533150DA9942A27___C__DISPLAYCLASS4_1__CTOR_OFFSET UNITYSDK_OFFSET(0x14D0C030)
-#define CLASS_2_D533150DA9942A27___C__DISPLAYCLASS4_1__ONTASKBEGIN_B__1_OFFSET UNITYSDK_OFFSET(0x14D14620)
+#define CLASS_2_D533150DA9942A27___C__DISPLAYCLASS4_1__CTOR_OFFSET UNITYSDK_OFFSET(0x179E77A0)
+#define CLASS_2_D533150DA9942A27___C__DISPLAYCLASS4_1__ONTASKBEGIN_B__1_OFFSET UNITYSDK_OFFSET(0x179E77B0)
 
-inline static constexpr unsigned int Class_2_D533150DA9942A27___c__DisplayClass4_1_TypeDefinitionIndex = 53839;
+inline static constexpr unsigned int Class_2_D533150DA9942A27___c__DisplayClass4_1_TypeDefinitionIndex = 56559;
 
 class Class_2_D533150DA9942A27___c__DisplayClass4_1 : public ::System::Object
 {

@@ -7,7 +7,7 @@
 class Class_1_66A3CCC99D9FD51C;
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_67_TypeDefinitionIndex = 35475;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_67_TypeDefinitionIndex = 36336;
 
 class Class_0_16E4307DCC419505_67
 {

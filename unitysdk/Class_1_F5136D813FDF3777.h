@@ -5,14 +5,14 @@
 namespace RPG::GameCore { class ChenLingBattleEffectConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_F5136D813FDF3777__CTOR_OFFSET UNITYSDK_OFFSET(0x187DB370)
+#define CLASS_1_F5136D813FDF3777__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA2B4F0)
 
-inline static constexpr unsigned int Class_1_F5136D813FDF3777_TypeDefinitionIndex = 41154;
+inline static constexpr unsigned int Class_1_F5136D813FDF3777_TypeDefinitionIndex = 42114;
 
 class Class_1_F5136D813FDF3777 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::RPG::GameCore::ChenLingBattleEffectConfig*>* Field_1_0; // 0x10
+	::System::Collections::Generic::List_1<::RPG::GameCore::ChenLingBattleEffectConfig*>* IPMBJFAEMOL; // 0x10
 
 	::System::Void _ctor()
 	{

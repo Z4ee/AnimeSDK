@@ -3,7 +3,7 @@
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatV2GameFlowMessage_TypeDefinitionIndex = 72276;
+	inline static constexpr unsigned int DiceCombatV2GameFlowMessage_TypeDefinitionIndex = 75712;
 
 	enum class DiceCombatV2GameFlowMessage : ::System::Int32
 	{

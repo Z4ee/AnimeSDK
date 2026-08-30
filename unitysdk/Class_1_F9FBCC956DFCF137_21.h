@@ -2,25 +2,34 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_B18024BA966BD11D;
+class Class_1_3C340C9272BC2F0C;
+class Class_1_A0C0ADCC8A5FDABE;
+namespace RPG::Client { class RelicItemData; }
+namespace RPG::Client::RelicSmartSuit { class RelicSmartSuitCalculationResultData; }
 
-#define CLASS_1_F9FBCC956DFCF137_21_GET_RESPONSE_OFFSET UNITYSDK_OFFSET(0x1935E050)
-#define CLASS_1_F9FBCC956DFCF137_21__CTOR_OFFSET UNITYSDK_OFFSET(0x1935E060)
+#define CLASS_1_F9FBCC956DFCF137_21_METHOD_1_AE43239692438BE6_OFFSET UNITYSDK_OFFSET(0x17F96430)
+#define CLASS_1_F9FBCC956DFCF137_21_METHOD_1_D9470473C38F9797_OFFSET UNITYSDK_OFFSET(0x17F96500)
+#define CLASS_1_F9FBCC956DFCF137_21__CTOR_OFFSET UNITYSDK_OFFSET(0x17F96420)
 
-inline static constexpr unsigned int Class_1_F9FBCC956DFCF137_21_TypeDefinitionIndex = 71957;
+inline static constexpr unsigned int Class_1_F9FBCC956DFCF137_21_TypeDefinitionIndex = 74338;
 
 class Class_1_F9FBCC956DFCF137_21 : public ::System::Object
 {
 public:
-	::Class_1_B18024BA966BD11D* _Response_k__BackingField; // 0x10
+	::Class_1_A0C0ADCC8A5FDABE* GANLOCFFMEF; // 0x10
 
-	::System::Void _ctor(::Class_1_B18024BA966BD11D* a1)
+	::System::Void _ctor(::Class_1_A0C0ADCC8A5FDABE* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_B18024BA966BD11D*))((::PBYTE)hIl2Cpp + CLASS_1_F9FBCC956DFCF137_21__CTOR_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Class_1_A0C0ADCC8A5FDABE*))((::PBYTE)hIl2Cpp + CLASS_1_F9FBCC956DFCF137_21__CTOR_OFFSET))(this, a1);
 	}
 
-	::Class_1_B18024BA966BD11D* get_Response()
+	::Class_1_3C340C9272BC2F0C* Method_1_AE43239692438BE6(::RPG::Client::RelicItemData* a1)
 	{
-		return ((::Class_1_B18024BA966BD11D*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F9FBCC956DFCF137_21_GET_RESPONSE_OFFSET))(this);
+		return ((::Class_1_3C340C9272BC2F0C*(*)(::PVOID, ::RPG::Client::RelicItemData*))((::PBYTE)hIl2Cpp + CLASS_1_F9FBCC956DFCF137_21_METHOD_1_AE43239692438BE6_OFFSET))(this, a1);
+	}
+
+	::System::Single Method_1_D9470473C38F9797(::RPG::Client::RelicItemData* a1)
+	{
+		return ((::System::Single(*)(::PVOID, ::RPG::Client::RelicItemData*))((::PBYTE)hIl2Cpp + CLASS_1_F9FBCC956DFCF137_21_METHOD_1_D9470473C38F9797_OFFSET))(this, a1);
 	}
 };

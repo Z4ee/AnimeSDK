@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetPreUseSkillLevelGraphOPApplyTiming; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_6DF86E1308B373A0_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x173EA660)
-#define CLASS_3_6DF86E1308B373A0__CTOR_OFFSET UNITYSDK_OFFSET(0x173EA630)
+#define CLASS_3_6DF86E1308B373A0_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17D36370)
+#define CLASS_3_6DF86E1308B373A0__CTOR_OFFSET UNITYSDK_OFFSET(0x17D36340)
 
-inline static constexpr unsigned int Class_3_6DF86E1308B373A0_TypeDefinitionIndex = 55942;
+inline static constexpr unsigned int Class_3_6DF86E1308B373A0_TypeDefinitionIndex = 58714;
 
 class Class_3_6DF86E1308B373A0 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetPreUseSkillLevelGraphOPApplyTiming*>
 {

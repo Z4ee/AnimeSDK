@@ -5,7 +5,7 @@
 
 namespace Cinemachine::Utility
 {
-	inline static constexpr unsigned int HeadingTracker_Item_TypeDefinitionIndex = 37739;
+	inline static constexpr unsigned int HeadingTracker_Item_TypeDefinitionIndex = 38598;
 
 	struct alignas(4) HeadingTracker_Item
 	{

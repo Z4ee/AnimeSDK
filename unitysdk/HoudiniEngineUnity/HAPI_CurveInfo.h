@@ -5,7 +5,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HAPI_CurveInfo_TypeDefinitionIndex = 38358;
+	inline static constexpr unsigned int HAPI_CurveInfo_TypeDefinitionIndex = 39217;
 
 	struct alignas(4) HAPI_CurveInfo
 	{

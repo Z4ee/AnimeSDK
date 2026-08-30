@@ -7,16 +7,16 @@
 namespace RPG::Client { class MonoEmoBlendShapesController; }
 namespace System { class Object; }
 
-#define CLASS_2_C4D754B5D6612950_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x16D7C8E0)
-#define CLASS_2_C4D754B5D6612950__CTOR_OFFSET UNITYSDK_OFFSET(0x16D7C970)
+#define CLASS_2_C4D754B5D6612950_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x185DDBC0)
+#define CLASS_2_C4D754B5D6612950__CTOR_OFFSET UNITYSDK_OFFSET(0x185DDC50)
 
-inline static constexpr unsigned int Class_2_C4D754B5D6612950_TypeDefinitionIndex = 46967;
+inline static constexpr unsigned int Class_2_C4D754B5D6612950_TypeDefinitionIndex = 49213;
 
 class Class_2_C4D754B5D6612950 : public ::UnityEngine::Playables::PlayableBehaviour
 {
 public:
-	::RPG::Client::MonoEmoBlendShapesController* Field_2_0; // 0x10
-	::System::Single Field_2_1; // 0x18
+	::RPG::Client::MonoEmoBlendShapesController* JIIKAEMELPJ; // 0x10
+	::System::Single EELKIDELOCC; // 0x18
 
 	::System::Void _ctor()
 	{

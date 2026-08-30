@@ -9,22 +9,22 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_AVATAREFFECTRENDERER_GET_BOUNDS_OFFSET UNITYSDK_OFFSET(0x181218E0)
-#define RPG_CLIENT_AVATAREFFECTRENDERER_GET_MATERIALS_OFFSET UNITYSDK_OFFSET(0x18121530)
-#define RPG_CLIENT_AVATAREFFECTRENDERER_GET_RENDERERS_OFFSET UNITYSDK_OFFSET(0x181216B0)
-#define RPG_CLIENT_AVATAREFFECTRENDERER_SETOVERRIDEBOUNDS_OFFSET UNITYSDK_OFFSET(0x18121970)
-#define RPG_CLIENT_AVATAREFFECTRENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0x18121A30)
+#define RPG_CLIENT_AVATAREFFECTRENDERER_GET_BOUNDS_OFFSET UNITYSDK_OFFSET(0x193C0390)
+#define RPG_CLIENT_AVATAREFFECTRENDERER_GET_MATERIALS_OFFSET UNITYSDK_OFFSET(0x193BFFE0)
+#define RPG_CLIENT_AVATAREFFECTRENDERER_GET_RENDERERS_OFFSET UNITYSDK_OFFSET(0x193C0160)
+#define RPG_CLIENT_AVATAREFFECTRENDERER_SETOVERRIDEBOUNDS_OFFSET UNITYSDK_OFFSET(0x193C0420)
+#define RPG_CLIENT_AVATAREFFECTRENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0x193C04E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AvatarEffectRenderer_TypeDefinitionIndex = 67102;
+	inline static constexpr unsigned int AvatarEffectRenderer_TypeDefinitionIndex = 70209;
 
 	class AvatarEffectRenderer : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::AvatarEffectRendererBehavior*>
 	{
 	public:
 		::System::Collections::Generic::List_1<::RPG::Client::AvatarEffectRendererBehavior_AvatarEffectMat*>* AvatarEffectMats; // 0x30
-		::System::Collections::Generic::List_1<::UnityEngine::Material*>* Field_7_1; // 0x38
-		::System::Collections::Generic::List_1<::UnityEngine::Renderer*>* Field_7_2; // 0x40
+		::System::Collections::Generic::List_1<::UnityEngine::Material*>* MOLNPPOAHNO; // 0x38
+		::System::Collections::Generic::List_1<::UnityEngine::Renderer*>* ECHBGJAGJJK; // 0x40
 
 		::System::Void _ctor()
 		{

@@ -4,12 +4,12 @@
 
 namespace RPGTools::Timeline::VFX { class PageTearFadeConfig; }
 
-#define RPGTOOLS_TIMELINE_VFX_TALKPAGETEARFADEDATA_SETUP_OFFSET UNITYSDK_OFFSET(0x19F5B210)
-#define RPGTOOLS_TIMELINE_VFX_TALKPAGETEARFADEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19F5B270)
+#define RPGTOOLS_TIMELINE_VFX_TALKPAGETEARFADEDATA_SETUP_OFFSET UNITYSDK_OFFSET(0x1BF329B0)
+#define RPGTOOLS_TIMELINE_VFX_TALKPAGETEARFADEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF32A10)
 
 namespace RPGTools::Timeline::VFX
 {
-	inline static constexpr unsigned int TalkPageTearFadeData_TypeDefinitionIndex = 46888;
+	inline static constexpr unsigned int TalkPageTearFadeData_TypeDefinitionIndex = 49134;
 
 	class TalkPageTearFadeData : public ::System::Object
 	{

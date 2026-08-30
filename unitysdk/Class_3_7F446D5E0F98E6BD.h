@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class EnableAdvEntityIgnoreAirshipCarCollision; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_7F446D5E0F98E6BD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17F85A60)
-#define CLASS_3_7F446D5E0F98E6BD__CTOR_OFFSET UNITYSDK_OFFSET(0x17F85A30)
+#define CLASS_3_7F446D5E0F98E6BD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A417440)
+#define CLASS_3_7F446D5E0F98E6BD__CTOR_OFFSET UNITYSDK_OFFSET(0x1A417410)
 
-inline static constexpr unsigned int Class_3_7F446D5E0F98E6BD_TypeDefinitionIndex = 50353;
+inline static constexpr unsigned int Class_3_7F446D5E0F98E6BD_TypeDefinitionIndex = 53016;
 
 class Class_3_7F446D5E0F98E6BD : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::EnableAdvEntityIgnoreAirshipCarCollision*>
 {

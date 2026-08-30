@@ -6,23 +6,23 @@
 namespace RPG::GameCore { class EntityTimeRewindComponent; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_4057065B3D76240A_CLEAR_OFFSET UNITYSDK_OFFSET(0x140DCA00)
-#define CLASS_1_4057065B3D76240A_METHOD_1_03BFDB1C3240A55A_OFFSET UNITYSDK_OFFSET(0x140DC1F0)
-#define CLASS_1_4057065B3D76240A_METHOD_1_709CCF03BB285FED_OFFSET UNITYSDK_OFFSET(0x140DC030)
-#define CLASS_1_4057065B3D76240A_METHOD_1_7F7B6EA0D319E505_OFFSET UNITYSDK_OFFSET(0x140DBEE0)
-#define CLASS_1_4057065B3D76240A__CTOR_OFFSET UNITYSDK_OFFSET(0x140DCA80)
+#define CLASS_1_4057065B3D76240A_CLEAR_OFFSET UNITYSDK_OFFSET(0x1722A830)
+#define CLASS_1_4057065B3D76240A_METHOD_1_03BFDB1C3240A55A_OFFSET UNITYSDK_OFFSET(0x1722A000)
+#define CLASS_1_4057065B3D76240A_METHOD_1_709CCF03BB285FED_OFFSET UNITYSDK_OFFSET(0x17229E40)
+#define CLASS_1_4057065B3D76240A_METHOD_1_7F7B6EA0D319E505_OFFSET UNITYSDK_OFFSET(0x17229CF0)
+#define CLASS_1_4057065B3D76240A__CTOR_OFFSET UNITYSDK_OFFSET(0x1722A8B0)
 
-inline static constexpr unsigned int Class_1_4057065B3D76240A_TypeDefinitionIndex = 58105;
+inline static constexpr unsigned int Class_1_4057065B3D76240A_TypeDefinitionIndex = 60932;
 
 class Class_1_4057065B3D76240A : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::System::UInt32>* Field_1_0; // 0x10
-	::System::Object* Field_1_1; // 0x18
-	::Il2CppArray<::RPG::GameCore::EntityTimeRewindComponent*>* Field_1_2; // 0x20
-	::RPG::GameCore::EntityTimeRewindComponent* Field_1_3; // 0x28
-	::RPG::GameCore::BindTimeRewindMultiControlType Field_1_4; // 0x30
-	::System::Int32 Field_1_5; // 0x34
+	::System::Object* OMHNKKKKNID; // 0x10
+	::RPG::GameCore::EntityTimeRewindComponent* FNKOAJJKJNC; // 0x18
+	::Il2CppArray<::RPG::GameCore::EntityTimeRewindComponent*>* KGDLDFAHHMI; // 0x20
+	::System::Collections::Generic::List_1<::System::UInt32>* KBINOPCHKJC; // 0x28
+	::RPG::GameCore::BindTimeRewindMultiControlType GKEBDIGBODK; // 0x30
+	::System::Int32 NMFFGLHFDDE; // 0x34
 
 	::System::Void _ctor()
 	{

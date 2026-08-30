@@ -2,25 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/GamePlayLockTargetFunc.h"
 
-class Class_0_16E4307DCC419505_340;
+class Class_0_16E4307DCC419505_359;
 namespace RPG::GameCore { class GameWorld; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_B3566F804A22C208_6_LOCK_OFFSET UNITYSDK_OFFSET(0x185F4470)
-#define CLASS_2_B3566F804A22C208_6_METHOD_2_5BA53D8A3BEDBB04_OFFSET UNITYSDK_OFFSET(0x185F4630)
-#define CLASS_2_B3566F804A22C208_6_METHOD_2_D23BF0D9B6C3246E_OFFSET UNITYSDK_OFFSET(0x185F4AD0)
-#define CLASS_2_B3566F804A22C208_6_UNLOCK_OFFSET UNITYSDK_OFFSET(0x185F48C0)
-#define CLASS_2_B3566F804A22C208_6__CTOR_OFFSET UNITYSDK_OFFSET(0x185F4460)
+#define CLASS_2_B3566F804A22C208_6_LOCK_OFFSET UNITYSDK_OFFSET(0x19C05CF0)
+#define CLASS_2_B3566F804A22C208_6_METHOD_2_5BA53D8A3BEDBB04_OFFSET UNITYSDK_OFFSET(0x19C05EE0)
+#define CLASS_2_B3566F804A22C208_6_METHOD_2_D23BF0D9B6C3246E_OFFSET UNITYSDK_OFFSET(0x19C063B0)
+#define CLASS_2_B3566F804A22C208_6_UNLOCK_OFFSET UNITYSDK_OFFSET(0x19C06170)
+#define CLASS_2_B3566F804A22C208_6__CTOR_OFFSET UNITYSDK_OFFSET(0x19C05CE0)
 
-inline static constexpr unsigned int Class_2_B3566F804A22C208_6_TypeDefinitionIndex = 71323;
+inline static constexpr unsigned int Class_2_B3566F804A22C208_6_TypeDefinitionIndex = 74629;
 
 class Class_2_B3566F804A22C208_6 : public ::RPG::Client::GamePlayLockTargetFunc
 {
 public:
-	::System::Void _ctor(::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_340*>* a1)
+	::System::Void _ctor(::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_359*>* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_340*>*))((::PBYTE)hIl2Cpp + CLASS_2_B3566F804A22C208_6__CTOR_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_359*>*))((::PBYTE)hIl2Cpp + CLASS_2_B3566F804A22C208_6__CTOR_OFFSET))(this, a1);
 	}
 
 	::System::Void Lock(::Il2CppArray<::System::Object*>* a1)

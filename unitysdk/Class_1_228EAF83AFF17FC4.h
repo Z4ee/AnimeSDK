@@ -4,16 +4,16 @@
 
 namespace System { class String; }
 
-#define CLASS_1_228EAF83AFF17FC4_METHOD_1_6765E2507E6BA335_OFFSET UNITYSDK_OFFSET(0x15858D80)
+#define CLASS_1_228EAF83AFF17FC4_METHOD_1_6765E2507E6BA335_OFFSET UNITYSDK_OFFSET(0x1690DBD0)
 
-inline static constexpr unsigned int Class_1_228EAF83AFF17FC4_TypeDefinitionIndex = 69432;
+inline static constexpr unsigned int Class_1_228EAF83AFF17FC4_TypeDefinitionIndex = 72658;
 
 class Class_1_228EAF83AFF17FC4 : public ::System::Object
 {
 public:
-	static ::System::Boolean* StaticGet_Field_1_0()
+	static ::System::Boolean* StaticGet_JPEBCEKMHPK()
 	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_228EAF83AFF17FC4_TypeDefinitionIndex)->GetStaticField(0x9EF0);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_228EAF83AFF17FC4_TypeDefinitionIndex)->GetStaticField(0x14560);
 	}
 
 	static ::System::String* Method_1_6765E2507E6BA335()

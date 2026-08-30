@@ -3,25 +3,25 @@
 #include "unitysdk/Class_1_AA642DEE53091501.h"
 
 class Class_1_3B1EA953A4067E26;
-class Class_1_43BD383C98B4C0C5_193;
+class Class_1_43BD383C98B4C0C5_207;
 class Class_1_A92BC063ED2379EB;
 class Class_2_B66C1067C0468FBB;
 class Class_3_D637C1E17FCBBFB0;
 namespace RPG::GameCore { class ChimeraDuelEffectConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_7960AFC189023812_METHOD_2_6B6AE2B3E1C3264F_OFFSET UNITYSDK_OFFSET(0x1708B560)
-#define CLASS_2_7960AFC189023812_METHOD_2_83FFE886FDCFFFA5_OFFSET UNITYSDK_OFFSET(0x1708B600)
-#define CLASS_2_7960AFC189023812_METHOD_2_E9A575D18A0748D9_OFFSET UNITYSDK_OFFSET(0x1708B5B0)
-#define CLASS_2_7960AFC189023812__CTOR_OFFSET UNITYSDK_OFFSET(0x1708CA50)
+#define CLASS_2_7960AFC189023812_METHOD_2_6B6AE2B3E1C3264F_OFFSET UNITYSDK_OFFSET(0x1A772600)
+#define CLASS_2_7960AFC189023812_METHOD_2_83FFE886FDCFFFA5_OFFSET UNITYSDK_OFFSET(0x1A7726A0)
+#define CLASS_2_7960AFC189023812_METHOD_2_E9A575D18A0748D9_OFFSET UNITYSDK_OFFSET(0x1A772650)
+#define CLASS_2_7960AFC189023812__CTOR_OFFSET UNITYSDK_OFFSET(0x1A773AF0)
 
-inline static constexpr unsigned int Class_2_7960AFC189023812_TypeDefinitionIndex = 73492;
+inline static constexpr unsigned int Class_2_7960AFC189023812_TypeDefinitionIndex = 76976;
 
 class Class_2_7960AFC189023812 : public ::Class_1_AA642DEE53091501
 {
 public:
-	::Class_3_D637C1E17FCBBFB0* Field_2_0; // 0x10
-	::Class_1_3B1EA953A4067E26* Field_2_1; // 0x18
+	::Class_1_3B1EA953A4067E26* FKINCGODJEP; // 0x10
+	::Class_3_D637C1E17FCBBFB0* PDENFEFCAGN; // 0x18
 
 	::System::Void _ctor()
 	{
@@ -38,8 +38,8 @@ public:
 		return ((::System::Void(*)(::PVOID, ::Class_1_3B1EA953A4067E26*))((::PBYTE)hIl2Cpp + CLASS_2_7960AFC189023812_METHOD_2_E9A575D18A0748D9_OFFSET))(this, a1);
 	}
 
-	::System::Boolean Method_2_83FFE886FDCFFFA5(::Class_1_A92BC063ED2379EB* a1, ::System::Collections::Generic::List_1<::Class_2_B66C1067C0468FBB*>* a2, ::RPG::GameCore::ChimeraDuelEffectConfig* a3, ::Class_1_43BD383C98B4C0C5_193*& a4)
+	::System::Boolean Method_2_83FFE886FDCFFFA5(::Class_1_A92BC063ED2379EB* a1, ::System::Collections::Generic::List_1<::Class_2_B66C1067C0468FBB*>* a2, ::RPG::GameCore::ChimeraDuelEffectConfig* a3, ::Class_1_43BD383C98B4C0C5_207*& a4)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::Class_1_A92BC063ED2379EB*, ::System::Collections::Generic::List_1<::Class_2_B66C1067C0468FBB*>*, ::RPG::GameCore::ChimeraDuelEffectConfig*, ::Class_1_43BD383C98B4C0C5_193*&))((::PBYTE)hIl2Cpp + CLASS_2_7960AFC189023812_METHOD_2_83FFE886FDCFFFA5_OFFSET))(this, a1, a2, a3, a4);
+		return ((::System::Boolean(*)(::PVOID, ::Class_1_A92BC063ED2379EB*, ::System::Collections::Generic::List_1<::Class_2_B66C1067C0468FBB*>*, ::RPG::GameCore::ChimeraDuelEffectConfig*, ::Class_1_43BD383C98B4C0C5_207*&))((::PBYTE)hIl2Cpp + CLASS_2_7960AFC189023812_METHOD_2_83FFE886FDCFFFA5_OFFSET))(this, a1, a2, a3, a4);
 	}
 };

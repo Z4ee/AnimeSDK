@@ -3,7 +3,7 @@
 
 namespace XLua
 {
-	inline static constexpr unsigned int GenFlag_TypeDefinitionIndex = 5602;
+	inline static constexpr unsigned int GenFlag_TypeDefinitionIndex = 5591;
 
 	enum class GenFlag : ::System::Int32
 	{

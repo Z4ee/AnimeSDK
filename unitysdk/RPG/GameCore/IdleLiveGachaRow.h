@@ -6,24 +6,24 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_IDLELIVEGACHAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B6964B0)
-#define RPG_GAMECORE_IDLELIVEGACHAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B696830)
+#define RPG_GAMECORE_IDLELIVEGACHAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D211600)
+#define RPG_GAMECORE_IDLELIVEGACHAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D211980)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveGachaRow_TypeDefinitionIndex = 11360;
+	inline static constexpr unsigned int IdleLiveGachaRow_TypeDefinitionIndex = 11749;
 
 	class IdleLiveGachaRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::FixPoint>* StarProbabilityList; // 0x10
-		::Il2CppArray<::System::UInt32>* WorldTagList; // 0x18
-		::System::Boolean IsAvatarGroupUp; // 0x20
-		::System::Boolean IsStarUp; // 0x21
-		::RPG::Client::TextID GachaName; // 0x28
-		::System::UInt32 GachaID; // 0x38
-		::System::UInt32 UpgradeCount; // 0x3C
-		::RPG::GameCore::FixPoint CrystalProbability; // 0x40
+		::Il2CppArray<::System::UInt32>* WorldTagList; // 0x10
+		::Il2CppArray<::RPG::GameCore::FixPoint>* StarProbabilityList; // 0x18
+		::RPG::GameCore::FixPoint CrystalProbability; // 0x20
+		::System::Boolean IsStarUp; // 0x28
+		::System::Boolean IsAvatarGroupUp; // 0x29
+		::RPG::Client::TextID GachaName; // 0x30
+		::System::UInt32 GachaID; // 0x40
+		::System::UInt32 UpgradeCount; // 0x44
 
 		::System::Void _ctor()
 		{

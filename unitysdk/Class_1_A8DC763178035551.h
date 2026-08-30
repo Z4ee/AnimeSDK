@@ -7,17 +7,17 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_A8DC763178035551__CTOR_OFFSET UNITYSDK_OFFSET(0x1765F320)
+#define CLASS_1_A8DC763178035551__CTOR_OFFSET UNITYSDK_OFFSET(0x1A7EFEF0)
 
-inline static constexpr unsigned int Class_1_A8DC763178035551_TypeDefinitionIndex = 53311;
+inline static constexpr unsigned int Class_1_A8DC763178035551_TypeDefinitionIndex = 56025;
 
 class Class_1_A8DC763178035551 : public ::System::Object
 {
 public:
-	::Class_2_1DB6C02CA182EEBA* Field_1_0; // 0x10
-	::RPG::GameCore::GameEntity* Field_1_1; // 0x18
-	::System::Collections::Generic::List_1<::RPG::GameCore::TurnBasedModifierInstance*>* Field_1_2; // 0x20
-	::System::Boolean Field_1_3; // 0x28
+	::RPG::GameCore::GameEntity* FIDLMENLMNA; // 0x10
+	::Class_2_1DB6C02CA182EEBA* LMJICKDGGJI; // 0x18
+	::System::Collections::Generic::List_1<::RPG::GameCore::TurnBasedModifierInstance*>* PLKDKOPLLNB; // 0x20
+	::System::Boolean KMGIHDHMBJB; // 0x28
 
 	::System::Void _ctor()
 	{

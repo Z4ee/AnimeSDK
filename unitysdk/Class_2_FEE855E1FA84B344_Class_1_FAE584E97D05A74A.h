@@ -1,0 +1,49 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Struct_2_085541A9CFF64383.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_B87B48EBDCE76E87;
+class Class_1_F8E6AA28A352CA0E;
+namespace RPG::GameCore { class LevelPedestrianV2IntersectionChenLingFactorySpawnInfo; }
+
+#define CLASS_2_FEE855E1FA84B344_CLASS_1_FAE584E97D05A74A_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A019EB0)
+#define CLASS_2_FEE855E1FA84B344_CLASS_1_FAE584E97D05A74A_METHOD_1_8F78923A606938D3_OFFSET UNITYSDK_OFFSET(0x1A01A160)
+#define CLASS_2_FEE855E1FA84B344_CLASS_1_FAE584E97D05A74A_METHOD_1_D64FD9A228A1C4E0_OFFSET UNITYSDK_OFFSET(0x1A01A960)
+#define CLASS_2_FEE855E1FA84B344_CLASS_1_FAE584E97D05A74A_METHOD_1_D978819B0A4871A0_OFFSET UNITYSDK_OFFSET(0x1A019F80)
+#define CLASS_2_FEE855E1FA84B344_CLASS_1_FAE584E97D05A74A__CTOR_OFFSET UNITYSDK_OFFSET(0x1A019A60)
+
+inline static constexpr unsigned int Class_2_FEE855E1FA84B344_Class_1_FAE584E97D05A74A_TypeDefinitionIndex = 69271;
+
+class Class_2_FEE855E1FA84B344_Class_1_FAE584E97D05A74A : public ::System::Object
+{
+public:
+	::Il2CppArray<::Struct_2_085541A9CFF64383>* KFAMJKJOIDF; // 0x10
+	::RPG::GameCore::LevelPedestrianV2IntersectionChenLingFactorySpawnInfo* CIKPBGDIABO; // 0x18
+	::System::Single HALDDNCJIIK; // 0x20
+
+	::System::Void _ctor(::RPG::GameCore::LevelPedestrianV2IntersectionChenLingFactorySpawnInfo* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::LevelPedestrianV2IntersectionChenLingFactorySpawnInfo*))((::PBYTE)hIl2Cpp + CLASS_2_FEE855E1FA84B344_CLASS_1_FAE584E97D05A74A__CTOR_OFFSET))(this, a1);
+	}
+
+	::System::UInt32 Method_1_D978819B0A4871A0()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_FEE855E1FA84B344_CLASS_1_FAE584E97D05A74A_METHOD_1_D978819B0A4871A0_OFFSET))(this);
+	}
+
+	::System::Void Dispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_FEE855E1FA84B344_CLASS_1_FAE584E97D05A74A_DISPOSE_OFFSET))(this);
+	}
+
+	::Class_1_B87B48EBDCE76E87* Method_1_8F78923A606938D3(::Class_1_F8E6AA28A352CA0E* a1, ::System::Single a2)
+	{
+		return ((::Class_1_B87B48EBDCE76E87*(*)(::PVOID, ::Class_1_F8E6AA28A352CA0E*, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_2_FEE855E1FA84B344_CLASS_1_FAE584E97D05A74A_METHOD_1_8F78923A606938D3_OFFSET))(this, a1, a2);
+	}
+
+	::System::Single Method_1_D64FD9A228A1C4E0()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_FEE855E1FA84B344_CLASS_1_FAE584E97D05A74A_METHOD_1_D64FD9A228A1C4E0_OFFSET))(this);
+	}
+};

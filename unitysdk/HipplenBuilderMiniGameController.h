@@ -8,11 +8,11 @@ namespace System::Collections { class IEnumerator; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define HIPPLENBUILDERMINIGAMECONTROLLER_METHOD_5_D16D471AE6EB753A_OFFSET UNITYSDK_OFFSET(0x17A663D0)
-#define HIPPLENBUILDERMINIGAMECONTROLLER_UPDATE_OFFSET UNITYSDK_OFFSET(0x17A652E0)
-#define HIPPLENBUILDERMINIGAMECONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x17A66460)
+#define HIPPLENBUILDERMINIGAMECONTROLLER_METHOD_5_D16D471AE6EB753A_OFFSET UNITYSDK_OFFSET(0x18DD13A0)
+#define HIPPLENBUILDERMINIGAMECONTROLLER_UPDATE_OFFSET UNITYSDK_OFFSET(0x18DD02B0)
+#define HIPPLENBUILDERMINIGAMECONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x18DD1430)
 
-inline static constexpr unsigned int HipplenBuilderMiniGameController_TypeDefinitionIndex = 45412;
+inline static constexpr unsigned int HipplenBuilderMiniGameController_TypeDefinitionIndex = 47662;
 
 class HipplenBuilderMiniGameController : public ::UnityEngine::MonoBehaviour
 {
@@ -27,10 +27,10 @@ public:
 	::System::Single forwardSpd; // 0x48
 	::System::Single verticalSpd; // 0x4C
 	::System::Single aimTime; // 0x50
-	::HipplenBuilderMiniGameController_RingGameState Field_5_10; // 0x54
-	::UnityEngine::GameObject* Field_5_11; // 0x58
-	::System::Single Field_5_12; // 0x60
-	::System::Single Field_5_13; // 0x64
+	::HipplenBuilderMiniGameController_RingGameState GPELKBGCJAH; // 0x54
+	::UnityEngine::GameObject* DMOFCOELJEI; // 0x58
+	::System::Single HBOGEDFMDGP; // 0x60
+	::System::Single GDPBBIHKDPE; // 0x64
 
 	::System::Void _ctor()
 	{

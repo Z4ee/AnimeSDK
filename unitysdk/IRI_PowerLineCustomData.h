@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/IRI_BaseBuildingCustomData.h"
 
-#define IRI_POWERLINECUSTOMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1750A550)
+#define IRI_POWERLINECUSTOMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18E70620)
 
-inline static constexpr unsigned int IRI_PowerLineCustomData_TypeDefinitionIndex = 45771;
+inline static constexpr unsigned int IRI_PowerLineCustomData_TypeDefinitionIndex = 48023;
 
 class IRI_PowerLineCustomData : public ::IRI_BaseBuildingCustomData
 {

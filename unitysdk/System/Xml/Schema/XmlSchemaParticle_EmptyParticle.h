@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Xml/Schema/XmlSchemaParticle.h"
 
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAPARTICLE_EMPTYPARTICLE__CTOR_OFFSET UNITYSDK_OFFSET(0x196770F0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAPARTICLE_EMPTYPARTICLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B07AE00)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int XmlSchemaParticle_EmptyParticle_TypeDefinitionIndex = 2201;
+	inline static constexpr unsigned int XmlSchemaParticle_EmptyParticle_TypeDefinitionIndex = 2208;
 
 	class XmlSchemaParticle_EmptyParticle : public ::System::Xml::Schema::XmlSchemaParticle
 	{

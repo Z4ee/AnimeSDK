@@ -6,10 +6,10 @@
 
 class Class_1_303D5A33D1401D59;
 
-inline static constexpr unsigned int Struct_2_D67DCE79CACEE54E_TypeDefinitionIndex = 70512;
+inline static constexpr unsigned int Struct_2_D67DCE79CACEE54E_TypeDefinitionIndex = 73810;
 
 struct alignas(8) Struct_2_D67DCE79CACEE54E
 {
-	::Class_1_303D5A33D1401D59* Field_2_0; // 0x10
-	::RPG::Client::BitFlag_1<::RPG::Client::OpenWorld::StreamingBlockStatusChangeFlag> Field_2_1; // 0x18
+	::Class_1_303D5A33D1401D59* OKPMJOCEKBC; // 0x10
+	::RPG::Client::BitFlag_1<::RPG::Client::OpenWorld::StreamingBlockStatusChangeFlag> FEMFCJCKOKC; // 0x18
 };

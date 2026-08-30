@@ -4,24 +4,24 @@
 
 namespace System { class String; }
 
-#define SYSTEM_GLOBALIZATION_ERAINFO__CTOR_1_OFFSET UNITYSDK_OFFSET(0x172C7330)
-#define SYSTEM_GLOBALIZATION_ERAINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x172C72E0)
+#define SYSTEM_GLOBALIZATION_ERAINFO__CTOR_1_OFFSET UNITYSDK_OFFSET(0x18D87D30)
+#define SYSTEM_GLOBALIZATION_ERAINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18D87CE0)
 
 namespace System::Globalization
 {
-	inline static constexpr unsigned int EraInfo_TypeDefinitionIndex = 747;
+	inline static constexpr unsigned int EraInfo_TypeDefinitionIndex = 750;
 
 	class EraInfo : public ::System::Object
 	{
 	public:
 		::System::String* eraName; // 0x10
-		::System::String* abbrevEraName; // 0x18
-		::System::String* englishEraName; // 0x20
-		::System::Int32 yearOffset; // 0x28
-		::System::Int32 minEraYear; // 0x2C
+		::System::String* englishEraName; // 0x18
+		::System::String* abbrevEraName; // 0x20
+		::System::Int32 maxEraYear; // 0x28
+		::System::Int32 era; // 0x2C
 		::System::Int64 ticks; // 0x30
-		::System::Int32 era; // 0x38
-		::System::Int32 maxEraYear; // 0x3C
+		::System::Int32 yearOffset; // 0x38
+		::System::Int32 minEraYear; // 0x3C
 
 		::System::Void _ctor(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32 a5, ::System::Int32 a6, ::System::Int32 a7)
 		{

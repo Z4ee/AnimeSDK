@@ -3,10 +3,10 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-inline static constexpr unsigned int Struct_2_8EA4F3900BB8E3E8_TypeDefinitionIndex = 70328;
+inline static constexpr unsigned int Struct_2_8EA4F3900BB8E3E8_TypeDefinitionIndex = 73628;
 
 struct alignas(4) Struct_2_8EA4F3900BB8E3E8
 {
-	::UnityEngine::Vector2 Field_2_0; // 0x10
-	::UnityEngine::Vector2 Field_2_1; // 0x18
+	::UnityEngine::Vector2 GMDBHJKEAEI; // 0x10
+	::UnityEngine::Vector2 APAKCBFMCAB; // 0x18
 };

@@ -1,0 +1,150 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Sofa/BaseViewModel.h"
+
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSMAINENTRANCE3DVIEWMODEL_CREATE_1_OFFSET UNITYSDK_OFFSET(0x1C5455C0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSMAINENTRANCE3DVIEWMODEL_CREATE_OFFSET UNITYSDK_OFFSET(0x1C5454C0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSMAINENTRANCE3DVIEWMODEL_GETEYEINDEX_OFFSET UNITYSDK_OFFSET(0x1C5459C0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSMAINENTRANCE3DVIEWMODEL_GETFREESTYLEMOTIONID_OFFSET UNITYSDK_OFFSET(0x1C545930)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSMAINENTRANCE3DVIEWMODEL_GETNPCID_OFFSET UNITYSDK_OFFSET(0x1C5458A0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSMAINENTRANCE3DVIEWMODEL_GET_CANPLAYFADEOUT_OFFSET UNITYSDK_OFFSET(0x1C545B60)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSMAINENTRANCE3DVIEWMODEL_GET_EYEINDEX_OFFSET UNITYSDK_OFFSET(0x1C545B40)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSMAINENTRANCE3DVIEWMODEL_GET_FREESTYLEMOTIONID_OFFSET UNITYSDK_OFFSET(0x1C545B20)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSMAINENTRANCE3DVIEWMODEL_GET_HASSHOWLIMAO_OFFSET UNITYSDK_OFFSET(0x1C545AE0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSMAINENTRANCE3DVIEWMODEL_GET_LIMAOCOUNT_OFFSET UNITYSDK_OFFSET(0x1C545AC0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSMAINENTRANCE3DVIEWMODEL_GET_NPCID_OFFSET UNITYSDK_OFFSET(0x1C545B00)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSMAINENTRANCE3DVIEWMODEL_SET_CANPLAYFADEOUT_OFFSET UNITYSDK_OFFSET(0x1C545B70)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSMAINENTRANCE3DVIEWMODEL_SET_EYEINDEX_OFFSET UNITYSDK_OFFSET(0x1C545B50)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSMAINENTRANCE3DVIEWMODEL_SET_FREESTYLEMOTIONID_OFFSET UNITYSDK_OFFSET(0x1C545B30)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSMAINENTRANCE3DVIEWMODEL_SET_HASSHOWLIMAO_OFFSET UNITYSDK_OFFSET(0x1C545AF0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSMAINENTRANCE3DVIEWMODEL_SET_LIMAOCOUNT_OFFSET UNITYSDK_OFFSET(0x1C545AD0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSMAINENTRANCE3DVIEWMODEL_SET_NPCID_OFFSET UNITYSDK_OFFSET(0x1C545B10)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSMAINENTRANCE3DVIEWMODEL__COPYVALUES_OFFSET UNITYSDK_OFFSET(0x1C5457E0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSMAINENTRANCE3DVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1C545760)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSMAINENTRANCE3DVIEWMODEL__GETLIMAOCOUNT_OFFSET UNITYSDK_OFFSET(0x1C545780)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSMAINENTRANCE3DVIEWMODEL__GETVALUE_OFFSET UNITYSDK_OFFSET(0x1C545A50)
+
+namespace RPG::Client::LimaoNews
+{
+	inline static constexpr unsigned int LimaoNewsMainEntrance3DViewModel_TypeDefinitionIndex = 79095;
+
+	class LimaoNewsMainEntrance3DViewModel : public ::Sofa::BaseViewModel
+	{
+	public:
+		// static const ::System::Int32 MaxLimaoCount = 0x3; // 0x0
+		::Il2CppArray<::System::UInt32>* _NpcIDs; // 0x20
+		::Il2CppArray<::System::UInt32>* _EyeIndices; // 0x28
+		::Il2CppArray<::System::UInt32>* _FreeStyleMotionIDs; // 0x30
+		::System::UInt32 _EyeIndex_k__BackingField; // 0x38
+		::System::Int32 _LimaoCount_k__BackingField; // 0x3C
+		::System::UInt32 _NpcID_k__BackingField; // 0x40
+		::System::UInt32 _FreeStyleMotionID_k__BackingField; // 0x44
+		::System::Boolean _CanPlayFadeOut_k__BackingField; // 0x48
+		::System::Boolean _HasShowLimao_k__BackingField; // 0x49
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSMAINENTRANCE3DVIEWMODEL__CTOR_OFFSET))(this);
+		}
+
+		static ::RPG::Client::LimaoNews::LimaoNewsMainEntrance3DViewModel* Create(::System::Boolean a1, ::System::UInt32 a2, ::System::UInt32 a3, ::System::UInt32 a4, ::System::Boolean a5)
+		{
+			return ((::RPG::Client::LimaoNews::LimaoNewsMainEntrance3DViewModel*(*)(::System::Boolean, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSMAINENTRANCE3DVIEWMODEL_CREATE_OFFSET))(a1, a2, a3, a4, a5);
+		}
+
+		static ::RPG::Client::LimaoNews::LimaoNewsMainEntrance3DViewModel* Create_1(::System::Boolean a1, ::Il2CppArray<::System::UInt32>* a2, ::Il2CppArray<::System::UInt32>* a3, ::Il2CppArray<::System::UInt32>* a4, ::System::Boolean a5)
+		{
+			return ((::RPG::Client::LimaoNews::LimaoNewsMainEntrance3DViewModel*(*)(::System::Boolean, ::Il2CppArray<::System::UInt32>*, ::Il2CppArray<::System::UInt32>*, ::Il2CppArray<::System::UInt32>*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSMAINENTRANCE3DVIEWMODEL_CREATE_1_OFFSET))(a1, a2, a3, a4, a5);
+		}
+
+		::System::UInt32 GetNpcID(::System::Int32 a1)
+		{
+			return ((::System::UInt32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSMAINENTRANCE3DVIEWMODEL_GETNPCID_OFFSET))(this, a1);
+		}
+
+		::System::UInt32 GetFreeStyleMotionID(::System::Int32 a1)
+		{
+			return ((::System::UInt32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSMAINENTRANCE3DVIEWMODEL_GETFREESTYLEMOTIONID_OFFSET))(this, a1);
+		}
+
+		::System::UInt32 GetEyeIndex(::System::Int32 a1)
+		{
+			return ((::System::UInt32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSMAINENTRANCE3DVIEWMODEL_GETEYEINDEX_OFFSET))(this, a1);
+		}
+
+		static ::System::Int32 _GetLimaoCount(::Il2CppArray<::System::UInt32>* a1)
+		{
+			return ((::System::Int32(*)(::Il2CppArray<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSMAINENTRANCE3DVIEWMODEL__GETLIMAOCOUNT_OFFSET))(a1);
+		}
+
+		static ::Il2CppArray<::System::UInt32>* _CopyValues(::Il2CppArray<::System::UInt32>* a1, ::System::Int32 a2)
+		{
+			return ((::Il2CppArray<::System::UInt32>*(*)(::Il2CppArray<::System::UInt32>*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSMAINENTRANCE3DVIEWMODEL__COPYVALUES_OFFSET))(a1, a2);
+		}
+
+		static ::System::UInt32 _GetValue(::Il2CppArray<::System::UInt32>* a1, ::System::Int32 a2)
+		{
+			return ((::System::UInt32(*)(::Il2CppArray<::System::UInt32>*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSMAINENTRANCE3DVIEWMODEL__GETVALUE_OFFSET))(a1, a2);
+		}
+
+		::System::Int32 get_LimaoCount()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSMAINENTRANCE3DVIEWMODEL_GET_LIMAOCOUNT_OFFSET))(this);
+		}
+
+		::System::Void set_LimaoCount(::System::Int32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSMAINENTRANCE3DVIEWMODEL_SET_LIMAOCOUNT_OFFSET))(this, a1);
+		}
+
+		::System::Boolean get_HasShowLimao()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSMAINENTRANCE3DVIEWMODEL_GET_HASSHOWLIMAO_OFFSET))(this);
+		}
+
+		::System::Void set_HasShowLimao(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSMAINENTRANCE3DVIEWMODEL_SET_HASSHOWLIMAO_OFFSET))(this, a1);
+		}
+
+		::System::UInt32 get_NpcID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSMAINENTRANCE3DVIEWMODEL_GET_NPCID_OFFSET))(this);
+		}
+
+		::System::Void set_NpcID(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSMAINENTRANCE3DVIEWMODEL_SET_NPCID_OFFSET))(this, a1);
+		}
+
+		::System::UInt32 get_FreeStyleMotionID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSMAINENTRANCE3DVIEWMODEL_GET_FREESTYLEMOTIONID_OFFSET))(this);
+		}
+
+		::System::Void set_FreeStyleMotionID(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSMAINENTRANCE3DVIEWMODEL_SET_FREESTYLEMOTIONID_OFFSET))(this, a1);
+		}
+
+		::System::UInt32 get_EyeIndex()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSMAINENTRANCE3DVIEWMODEL_GET_EYEINDEX_OFFSET))(this);
+		}
+
+		::System::Void set_EyeIndex(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSMAINENTRANCE3DVIEWMODEL_SET_EYEINDEX_OFFSET))(this, a1);
+		}
+
+		::System::Boolean get_CanPlayFadeOut()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSMAINENTRANCE3DVIEWMODEL_GET_CANPLAYFADEOUT_OFFSET))(this);
+		}
+
+		::System::Void set_CanPlayFadeOut(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSMAINENTRANCE3DVIEWMODEL_SET_CANPLAYFADEOUT_OFFSET))(this, a1);
+		}
+	};
+}

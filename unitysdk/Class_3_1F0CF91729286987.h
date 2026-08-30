@@ -10,25 +10,25 @@ namespace RPG::GameCore { class PredicateConfig; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define CLASS_3_1F0CF91729286987_METHOD_3_2D474E626FF7B9A2_OFFSET UNITYSDK_OFFSET(0x103CB0B0)
-#define CLASS_3_1F0CF91729286987_METHOD_3_514ABAC4020261C0_OFFSET UNITYSDK_OFFSET(0x103CB1B0)
-#define CLASS_3_1F0CF91729286987__CTOR_OFFSET UNITYSDK_OFFSET(0x103CB140)
+#define CLASS_3_1F0CF91729286987_METHOD_3_2D474E626FF7B9A2_OFFSET UNITYSDK_OFFSET(0x16F2FFC0)
+#define CLASS_3_1F0CF91729286987_METHOD_3_514ABAC4020261C0_OFFSET UNITYSDK_OFFSET(0x16F300C0)
+#define CLASS_3_1F0CF91729286987__CTOR_OFFSET UNITYSDK_OFFSET(0x16F30050)
 
-inline static constexpr unsigned int Class_3_1F0CF91729286987_TypeDefinitionIndex = 23339;
+inline static constexpr unsigned int Class_3_1F0CF91729286987_TypeDefinitionIndex = 23919;
 
 class Class_3_1F0CF91729286987 : public ::RPG::GameCore::TaskConfig
 {
 public:
-	::RPG::GameCore::TargetEvaluator* Field_3_0; // 0x18
-	::RPG::GameCore::PredicateConfig* Field_3_1; // 0x20
-	::Il2CppArray<::RPG::GameCore::TaskConfig*>* Field_3_2; // 0x28
-	::RPG::GameCore::TargetEvaluator* Field_3_3; // 0x30
-	::System::String* Field_3_4; // 0x38
-	::RPG::GameCore::DynamicFloat* Field_3_5; // 0x40
-	::Il2CppArray<::RPG::GameCore::TaskConfig*>* Field_3_6; // 0x48
-	::Il2CppArray<::RPG::GameCore::RtBehaviorFlag>* Field_3_7; // 0x50
-	::RPG::GameCore::EnumStatusTypeMask Field_3_8; // 0x58
-	::System::Boolean Field_3_9; // 0x5C
+	::Il2CppArray<::RPG::GameCore::TaskConfig*>* NKCKAJPAJCJ; // 0x18
+	::RPG::GameCore::DynamicFloat* LNNLLMKBAGL; // 0x20
+	::System::String* IFNAGLOMHBK; // 0x28
+	::Il2CppArray<::RPG::GameCore::TaskConfig*>* MAONBNHOPBJ; // 0x30
+	::RPG::GameCore::PredicateConfig* IANNCHKLMOD; // 0x38
+	::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x40
+	::Il2CppArray<::RPG::GameCore::RtBehaviorFlag>* LGANOFMNOCG; // 0x48
+	::RPG::GameCore::TargetEvaluator* NJLICGGKCAB; // 0x50
+	::System::Boolean NANPIEIOFLM; // 0x58
+	::RPG::GameCore::EnumStatusTypeMask JHGJBDEIJNC; // 0x5C
 
 	::System::Void _ctor()
 	{

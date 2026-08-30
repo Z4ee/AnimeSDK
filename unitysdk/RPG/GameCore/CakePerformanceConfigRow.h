@@ -6,21 +6,21 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CAKEPERFORMANCECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B2C9370)
-#define RPG_GAMECORE_CAKEPERFORMANCECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2C95E0)
+#define RPG_GAMECORE_CAKEPERFORMANCECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CDD23F0)
+#define RPG_GAMECORE_CAKEPERFORMANCECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CDD2660)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CakePerformanceConfigRow_TypeDefinitionIndex = 12433;
+	inline static constexpr unsigned int CakePerformanceConfigRow_TypeDefinitionIndex = 12824;
 
 	class CakePerformanceConfigRow : public ::System::Object
 	{
 	public:
 		::System::String* MoviePicPath; // 0x10
 		::Il2CppArray<::System::UInt32>* ActorsList; // 0x18
-		::System::UInt32 QuestID; // 0x20
+		::System::UInt32 PerformanceID; // 0x20
 		::RPG::Client::TextID PerformanceName; // 0x28
-		::System::UInt32 PerformanceID; // 0x38
+		::System::UInt32 QuestID; // 0x38
 		::System::UInt32 ID; // 0x3C
 
 		::System::Void _ctor()

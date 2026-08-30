@@ -6,29 +6,29 @@ namespace RPG::Client { class DrinkMakerTag; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_DRINKMAKERBARTENDDRINKDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A014550)
-#define RPG_CLIENT_DRINKMAKERBARTENDDRINKDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A014580)
-#define RPG_CLIENT_DRINKMAKERBARTENDDRINKDATA___C__GETALLVISIBLETAGS_B__15_0_OFFSET UNITYSDK_OFFSET(0x1A014590)
-#define RPG_CLIENT_DRINKMAKERBARTENDDRINKDATA___C___CALCULATEQUANTIFYTAGS_B__35_0_OFFSET UNITYSDK_OFFSET(0x1A0145F0)
+#define RPG_CLIENT_DRINKMAKERBARTENDDRINKDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B8ECC00)
+#define RPG_CLIENT_DRINKMAKERBARTENDDRINKDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8ECC30)
+#define RPG_CLIENT_DRINKMAKERBARTENDDRINKDATA___C__GETALLVISIBLETAGS_B__15_0_OFFSET UNITYSDK_OFFSET(0x1B8ECC40)
+#define RPG_CLIENT_DRINKMAKERBARTENDDRINKDATA___C___CALCULATEQUANTIFYTAGS_B__35_0_OFFSET UNITYSDK_OFFSET(0x1B8ECCA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DrinkMakerBartendDrinkData___c_TypeDefinitionIndex = 60806;
+	inline static constexpr unsigned int DrinkMakerBartendDrinkData___c_TypeDefinitionIndex = 63659;
 
 	class DrinkMakerBartendDrinkData___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::DrinkMakerBartendDrinkData___c** StaticGet___9()
-		{
-			return (::RPG::Client::DrinkMakerBartendDrinkData___c**)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerBartendDrinkData___c_TypeDefinitionIndex)->GetStaticField(0x6B540);
-		}
 		static ::System::Comparison_1<::RPG::Client::DrinkMakerTag*>** StaticGet___9__35_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::DrinkMakerTag*>**)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerBartendDrinkData___c_TypeDefinitionIndex)->GetStaticField(0x6B548);
+			return (::System::Comparison_1<::RPG::Client::DrinkMakerTag*>**)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerBartendDrinkData___c_TypeDefinitionIndex)->GetStaticField(0x5C4B0);
+		}
+		static ::RPG::Client::DrinkMakerBartendDrinkData___c** StaticGet___9()
+		{
+			return (::RPG::Client::DrinkMakerBartendDrinkData___c**)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerBartendDrinkData___c_TypeDefinitionIndex)->GetStaticField(0x5C4B8);
 		}
 		static ::System::Func_2<::RPG::Client::DrinkMakerTag*, ::System::Boolean>** StaticGet___9__15_0()
 		{
-			return (::System::Func_2<::RPG::Client::DrinkMakerTag*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerBartendDrinkData___c_TypeDefinitionIndex)->GetStaticField(0x6B550);
+			return (::System::Func_2<::RPG::Client::DrinkMakerTag*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerBartendDrinkData___c_TypeDefinitionIndex)->GetStaticField(0x5C4C0);
 		}
 
 		static ::System::Void _cctor()

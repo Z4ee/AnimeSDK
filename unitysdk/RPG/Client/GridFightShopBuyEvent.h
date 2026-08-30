@@ -5,21 +5,21 @@
 namespace RPG::Client { class GridFightProjection; }
 namespace RPG::Client { class GridFightRole; }
 
-#define RPG_CLIENT_GRIDFIGHTSHOPBUYEVENT_GET_BUYINDEX_OFFSET UNITYSDK_OFFSET(0x1AD77080)
-#define RPG_CLIENT_GRIDFIGHTSHOPBUYEVENT_GET_PROJECTION_OFFSET UNITYSDK_OFFSET(0x1AD77070)
-#define RPG_CLIENT_GRIDFIGHTSHOPBUYEVENT_GET_ROLE_OFFSET UNITYSDK_OFFSET(0x1AD77060)
-#define RPG_CLIENT_GRIDFIGHTSHOPBUYEVENT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1AD77050)
-#define RPG_CLIENT_GRIDFIGHTSHOPBUYEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD77040)
+#define RPG_CLIENT_GRIDFIGHTSHOPBUYEVENT_GET_BUYINDEX_OFFSET UNITYSDK_OFFSET(0x1C5B0F90)
+#define RPG_CLIENT_GRIDFIGHTSHOPBUYEVENT_GET_PROJECTION_OFFSET UNITYSDK_OFFSET(0x1C5B0F80)
+#define RPG_CLIENT_GRIDFIGHTSHOPBUYEVENT_GET_ROLE_OFFSET UNITYSDK_OFFSET(0x1C5B0F70)
+#define RPG_CLIENT_GRIDFIGHTSHOPBUYEVENT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C5B0F60)
+#define RPG_CLIENT_GRIDFIGHTSHOPBUYEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5B0F50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightShopBuyEvent_TypeDefinitionIndex = 62310;
+	inline static constexpr unsigned int GridFightShopBuyEvent_TypeDefinitionIndex = 65295;
 
 	class GridFightShopBuyEvent : public ::System::Object
 	{
 	public:
-		::RPG::Client::GridFightProjection* _Projection_k__BackingField; // 0x10
-		::RPG::Client::GridFightRole* _Role_k__BackingField; // 0x18
+		::RPG::Client::GridFightRole* _Role_k__BackingField; // 0x10
+		::RPG::Client::GridFightProjection* _Projection_k__BackingField; // 0x18
 		::System::Int32 _BuyIndex_k__BackingField; // 0x20
 
 		::System::Void _ctor(::RPG::Client::GridFightRole* a1, ::System::Int32 a2)

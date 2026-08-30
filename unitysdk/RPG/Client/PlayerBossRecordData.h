@@ -4,12 +4,12 @@
 
 class Class_1_0F76144571501212;
 
-#define RPG_CLIENT_PLAYERBOSSRECORDDATA_SYNC_OFFSET UNITYSDK_OFFSET(0x1A1EB000)
-#define RPG_CLIENT_PLAYERBOSSRECORDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1EAFE0)
+#define RPG_CLIENT_PLAYERBOSSRECORDDATA_SYNC_OFFSET UNITYSDK_OFFSET(0x1C2DE1D0)
+#define RPG_CLIENT_PLAYERBOSSRECORDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2DE1B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlayerBossRecordData_TypeDefinitionIndex = 61354;
+	inline static constexpr unsigned int PlayerBossRecordData_TypeDefinitionIndex = 64335;
 
 	class PlayerBossRecordData : public ::RPG::Client::PlayerChallengeRecordData
 	{

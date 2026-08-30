@@ -6,21 +6,21 @@ namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace MiHoYo::SDK::Console::OS { class BindManager; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_CONSOLE_OS_BINDMANAGER___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0x163F0730)
-#define MIHOYO_SDK_CONSOLE_OS_BINDMANAGER___C__DISPLAYCLASS25_0__GETUSERGAMESERVERLIST_B__0_OFFSET UNITYSDK_OFFSET(0x163F3420)
-#define MIHOYO_SDK_CONSOLE_OS_BINDMANAGER___C__DISPLAYCLASS25_0__GETUSERGAMESERVERLIST_B__1_OFFSET UNITYSDK_OFFSET(0x163F3820)
-#define MIHOYO_SDK_CONSOLE_OS_BINDMANAGER___C__DISPLAYCLASS25_0__GETUSERGAMESERVERLIST_B__2_OFFSET UNITYSDK_OFFSET(0x163F3A50)
+#define MIHOYO_SDK_CONSOLE_OS_BINDMANAGER___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17362220)
+#define MIHOYO_SDK_CONSOLE_OS_BINDMANAGER___C__DISPLAYCLASS25_0__GETUSERGAMESERVERLIST_B__0_OFFSET UNITYSDK_OFFSET(0x17364F60)
+#define MIHOYO_SDK_CONSOLE_OS_BINDMANAGER___C__DISPLAYCLASS25_0__GETUSERGAMESERVERLIST_B__1_OFFSET UNITYSDK_OFFSET(0x17365360)
+#define MIHOYO_SDK_CONSOLE_OS_BINDMANAGER___C__DISPLAYCLASS25_0__GETUSERGAMESERVERLIST_B__2_OFFSET UNITYSDK_OFFSET(0x173655A0)
 
 namespace MiHoYo::SDK::Console::OS
 {
-	inline static constexpr unsigned int BindManager___c__DisplayClass25_0_TypeDefinitionIndex = 8739;
+	inline static constexpr unsigned int BindManager___c__DisplayClass25_0_TypeDefinitionIndex = 9007;
 
 	class BindManager___c__DisplayClass25_0 : public ::System::Object
 	{
 	public:
-		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* OnUserServerList; // 0x10
-		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* OnServerByRegionCode; // 0x18
-		::MiHoYo::SDK::Console::OS::BindManager* __4__this; // 0x20
+		::MiHoYo::SDK::Console::OS::BindManager* __4__this; // 0x10
+		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* OnUserServerList; // 0x18
+		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* OnServerByRegionCode; // 0x20
 
 		::System::Void _ctor()
 		{

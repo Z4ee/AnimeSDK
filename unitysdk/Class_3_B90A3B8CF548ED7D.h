@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class BoomRobotGameplayEnterBoomCam; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_B90A3B8CF548ED7D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x152F1520)
-#define CLASS_3_B90A3B8CF548ED7D__CTOR_OFFSET UNITYSDK_OFFSET(0x152F14F0)
+#define CLASS_3_B90A3B8CF548ED7D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x165CF030)
+#define CLASS_3_B90A3B8CF548ED7D__CTOR_OFFSET UNITYSDK_OFFSET(0x165CF000)
 
-inline static constexpr unsigned int Class_3_B90A3B8CF548ED7D_TypeDefinitionIndex = 50156;
+inline static constexpr unsigned int Class_3_B90A3B8CF548ED7D_TypeDefinitionIndex = 52819;
 
 class Class_3_B90A3B8CF548ED7D : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::BoomRobotGameplayEnterBoomCam*>
 {

@@ -8,17 +8,18 @@ namespace RPG::Client { class CameraModuleConfigCollection; }
 namespace RPG::Client { class PipelineCameraEngine; }
 namespace RPG::Client { class PipelineCameraGlobalConfig; }
 
-#define CLASS_2_BDB15119DD8FA1AC_METHOD_2_D0BD1377F2594D33_OFFSET UNITYSDK_OFFSET(0x16C7A7C0)
-#define CLASS_2_BDB15119DD8FA1AC_METHOD_2_D58849E1895DD394_OFFSET UNITYSDK_OFFSET(0x16C7A690)
-#define CLASS_2_BDB15119DD8FA1AC_METHOD_2_F1C870D01294DAF7_OFFSET UNITYSDK_OFFSET(0x16C7A850)
-#define CLASS_2_BDB15119DD8FA1AC__CTOR_OFFSET UNITYSDK_OFFSET(0x16C7A530)
+#define CLASS_2_BDB15119DD8FA1AC_METHOD_2_AA169839CB93802A_OFFSET UNITYSDK_OFFSET(0x186D3CB0)
+#define CLASS_2_BDB15119DD8FA1AC_METHOD_2_D0BD1377F2594D33_OFFSET UNITYSDK_OFFSET(0x186D3B00)
+#define CLASS_2_BDB15119DD8FA1AC_METHOD_2_D58849E1895DD394_OFFSET UNITYSDK_OFFSET(0x186D39D0)
+#define CLASS_2_BDB15119DD8FA1AC_METHOD_2_F1C870D01294DAF7_OFFSET UNITYSDK_OFFSET(0x186D3B90)
+#define CLASS_2_BDB15119DD8FA1AC__CTOR_OFFSET UNITYSDK_OFFSET(0x186D3870)
 
-inline static constexpr unsigned int Class_2_BDB15119DD8FA1AC_TypeDefinitionIndex = 66498;
+inline static constexpr unsigned int Class_2_BDB15119DD8FA1AC_TypeDefinitionIndex = 69591;
 
 class Class_2_BDB15119DD8FA1AC : public ::Class_1_4A7F3B1CD6560F7E
 {
 public:
-	::Cinemachine::CinemachineVirtualCameraBase* Field_2_0; // 0x38
+	::Cinemachine::CinemachineVirtualCameraBase* OLGEJDKPMCD; // 0x38
 
 	::System::Void _ctor(::RPG::Client::PipelineCameraEngine* a1, ::RPG::Client::CameraModuleConfigCollection* a2, ::RPG::Client::PipelineCameraGlobalConfig* a3, ::RPG::Client::CameraDataAndFlags* a4)
 	{
@@ -33,6 +34,11 @@ public:
 	::System::Void Method_2_F1C870D01294DAF7()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_BDB15119DD8FA1AC_METHOD_2_F1C870D01294DAF7_OFFSET))(this);
+	}
+
+	::System::Void Method_2_AA169839CB93802A()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_BDB15119DD8FA1AC_METHOD_2_AA169839CB93802A_OFFSET))(this);
 	}
 
 	::System::Void Method_2_D0BD1377F2594D33()

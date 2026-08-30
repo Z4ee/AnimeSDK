@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_SKILLABILITYCONFIG_METHOD_2_2D6E1F92B1FBF606_OFFSET UNITYSDK_OFFSET(0x1BE4E5A0)
-#define RPG_GAMECORE_SKILLABILITYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE4E6C0)
+#define RPG_GAMECORE_SKILLABILITYCONFIG_METHOD_2_2D6E1F92B1FBF606_OFFSET UNITYSDK_OFFSET(0x1D0A2170)
+#define RPG_GAMECORE_SKILLABILITYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0A2290)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SkillAbilityConfig_TypeDefinitionIndex = 15036;
+	inline static constexpr unsigned int SkillAbilityConfig_TypeDefinitionIndex = 15472;
 
 	class SkillAbilityConfig : public ::RPG::GameCore::JsonConfig
 	{

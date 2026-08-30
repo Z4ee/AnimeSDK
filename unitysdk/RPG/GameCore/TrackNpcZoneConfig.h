@@ -8,12 +8,12 @@ namespace RPG::GameCore { class TrackNpcAlertConfig; }
 namespace RPG::GameCore { class TrackNpcPerceiveConfig; }
 namespace RPG::GameCore { class TrackNpcTrackConfig; }
 
-#define RPG_GAMECORE_TRACKNPCZONECONFIG_METHOD_2_30D414AA1C03A2B1_OFFSET UNITYSDK_OFFSET(0x1C15A210)
-#define RPG_GAMECORE_TRACKNPCZONECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C15A370)
+#define RPG_GAMECORE_TRACKNPCZONECONFIG_METHOD_2_30D414AA1C03A2B1_OFFSET UNITYSDK_OFFSET(0x1D52F5A0)
+#define RPG_GAMECORE_TRACKNPCZONECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D52F700)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrackNpcZoneConfig_TypeDefinitionIndex = 21373;
+	inline static constexpr unsigned int TrackNpcZoneConfig_TypeDefinitionIndex = 21934;
 
 	class TrackNpcZoneConfig : public ::RPG::GameCore::JsonConfig
 	{

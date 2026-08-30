@@ -10,42 +10,42 @@ namespace System::Net::Security { class RemoteCertificateValidationCallback; }
 namespace System::Security::Cryptography::X509Certificates { class X509Certificate; }
 namespace System::Security::Cryptography::X509Certificates { class X509Chain; }
 
-#define CLASS_2_54CCD44980580DB7___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x162EA710)
-#define CLASS_2_54CCD44980580DB7___C__CTOR_OFFSET UNITYSDK_OFFSET(0x162EA740)
-#define CLASS_2_54CCD44980580DB7___C__GET_FAILURECOUNT_B__47_0_OFFSET UNITYSDK_OFFSET(0x162EA7B0)
-#define CLASS_2_54CCD44980580DB7___C__GET_FINISHCOUNT_B__49_0_OFFSET UNITYSDK_OFFSET(0x162EA7D0)
-#define CLASS_2_54CCD44980580DB7___C__GET_SUCCESSCOUNT_B__45_0_OFFSET UNITYSDK_OFFSET(0x162EA790)
-#define CLASS_2_54CCD44980580DB7___C___CHECKIPV6STATE_B__13_0_OFFSET UNITYSDK_OFFSET(0x162EA750)
-#define CLASS_2_54CCD44980580DB7___C___GETWEBRESPONSE_B__25_0_OFFSET UNITYSDK_OFFSET(0x162EA780)
+#define CLASS_2_54CCD44980580DB7___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18D48280)
+#define CLASS_2_54CCD44980580DB7___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18D482B0)
+#define CLASS_2_54CCD44980580DB7___C__GET_FAILURECOUNT_B__47_0_OFFSET UNITYSDK_OFFSET(0x18D48320)
+#define CLASS_2_54CCD44980580DB7___C__GET_FINISHCOUNT_B__49_0_OFFSET UNITYSDK_OFFSET(0x18D48340)
+#define CLASS_2_54CCD44980580DB7___C__GET_SUCCESSCOUNT_B__45_0_OFFSET UNITYSDK_OFFSET(0x18D48300)
+#define CLASS_2_54CCD44980580DB7___C___CHECKIPV6STATE_B__13_0_OFFSET UNITYSDK_OFFSET(0x18D482C0)
+#define CLASS_2_54CCD44980580DB7___C___GETWEBRESPONSE_B__25_0_OFFSET UNITYSDK_OFFSET(0x18D482F0)
 
-inline static constexpr unsigned int Class_2_54CCD44980580DB7___c_TypeDefinitionIndex = 56949;
+inline static constexpr unsigned int Class_2_54CCD44980580DB7___c_TypeDefinitionIndex = 59737;
 
 class Class_2_54CCD44980580DB7___c : public ::System::Object
 {
 public:
-	static ::System::Func_2<::Class_1_E40337C55D87F197*, ::System::Boolean>** StaticGet___9__49_0()
-	{
-		return (::System::Func_2<::Class_1_E40337C55D87F197*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_54CCD44980580DB7___c_TypeDefinitionIndex)->GetStaticField(0x3FAC0);
-	}
 	static ::System::Net::Security::RemoteCertificateValidationCallback** StaticGet___9__25_0()
 	{
-		return (::System::Net::Security::RemoteCertificateValidationCallback**)Il2CppClass::FromTypeDefinitionIndex(Class_2_54CCD44980580DB7___c_TypeDefinitionIndex)->GetStaticField(0x3FAC8);
+		return (::System::Net::Security::RemoteCertificateValidationCallback**)Il2CppClass::FromTypeDefinitionIndex(Class_2_54CCD44980580DB7___c_TypeDefinitionIndex)->GetStaticField(0x64350);
 	}
-	static ::System::Func_2<::Class_1_E40337C55D87F197*, ::System::Boolean>** StaticGet___9__45_0()
+	static ::System::Func_2<::Class_1_E40337C55D87F197*, ::System::Boolean>** StaticGet___9__49_0()
 	{
-		return (::System::Func_2<::Class_1_E40337C55D87F197*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_54CCD44980580DB7___c_TypeDefinitionIndex)->GetStaticField(0x3FAD0);
-	}
-	static ::System::Func_2<::System::Net::IPEndPoint*, ::System::Boolean>** StaticGet___9__13_0()
-	{
-		return (::System::Func_2<::System::Net::IPEndPoint*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_54CCD44980580DB7___c_TypeDefinitionIndex)->GetStaticField(0x3FAD8);
+		return (::System::Func_2<::Class_1_E40337C55D87F197*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_54CCD44980580DB7___c_TypeDefinitionIndex)->GetStaticField(0x64358);
 	}
 	static ::Class_2_54CCD44980580DB7___c** StaticGet___9()
 	{
-		return (::Class_2_54CCD44980580DB7___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_54CCD44980580DB7___c_TypeDefinitionIndex)->GetStaticField(0x3FAE0);
+		return (::Class_2_54CCD44980580DB7___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_54CCD44980580DB7___c_TypeDefinitionIndex)->GetStaticField(0x64360);
+	}
+	static ::System::Func_2<::System::Net::IPEndPoint*, ::System::Boolean>** StaticGet___9__13_0()
+	{
+		return (::System::Func_2<::System::Net::IPEndPoint*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_54CCD44980580DB7___c_TypeDefinitionIndex)->GetStaticField(0x64368);
+	}
+	static ::System::Func_2<::Class_1_E40337C55D87F197*, ::System::Boolean>** StaticGet___9__45_0()
+	{
+		return (::System::Func_2<::Class_1_E40337C55D87F197*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_54CCD44980580DB7___c_TypeDefinitionIndex)->GetStaticField(0x64370);
 	}
 	static ::System::Func_2<::Class_1_E40337C55D87F197*, ::System::Boolean>** StaticGet___9__47_0()
 	{
-		return (::System::Func_2<::Class_1_E40337C55D87F197*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_54CCD44980580DB7___c_TypeDefinitionIndex)->GetStaticField(0x3FAE8);
+		return (::System::Func_2<::Class_1_E40337C55D87F197*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_54CCD44980580DB7___c_TypeDefinitionIndex)->GetStaticField(0x64378);
 	}
 
 	static ::System::Void _cctor()

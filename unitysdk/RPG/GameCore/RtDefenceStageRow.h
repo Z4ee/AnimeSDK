@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_RTDEFENCESTAGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B761970)
-#define RPG_GAMECORE_RTDEFENCESTAGEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B761A70)
+#define RPG_GAMECORE_RTDEFENCESTAGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CCE5980)
+#define RPG_GAMECORE_RTDEFENCESTAGEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CCE5A80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtDefenceStageRow_TypeDefinitionIndex = 17329;
+	inline static constexpr unsigned int RtDefenceStageRow_TypeDefinitionIndex = 17846;
 
 	class RtDefenceStageRow : public ::RPG::GameCore::JsonConfig
 	{

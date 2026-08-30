@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace RPG::Client { class RogueReviveAvatarInfo; }
+namespace RPG::Client::RelicSmartSuit { class RelicSmartSuitCalculationResultData; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_915_TypeDefinitionIndex = 64302;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_915_TypeDefinitionIndex = 74339;
 
 class Class_0_16E4307DCC419505_915
 {

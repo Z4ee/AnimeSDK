@@ -5,15 +5,15 @@
 
 namespace System { class String; }
 
-#define CLASS_1_8E681BAADFDAD003_GETNODEICON_OFFSET UNITYSDK_OFFSET(0x186E5A00)
-#define CLASS_1_8E681BAADFDAD003__CTOR_OFFSET UNITYSDK_OFFSET(0x186E5A40)
+#define CLASS_1_8E681BAADFDAD003_GETNODEICON_OFFSET UNITYSDK_OFFSET(0x1A7F5410)
+#define CLASS_1_8E681BAADFDAD003__CTOR_OFFSET UNITYSDK_OFFSET(0x1A7F5450)
 
-inline static constexpr unsigned int Class_1_8E681BAADFDAD003_TypeDefinitionIndex = 71550;
+inline static constexpr unsigned int Class_1_8E681BAADFDAD003_TypeDefinitionIndex = 74856;
 
 class Class_1_8E681BAADFDAD003 : public ::System::Object
 {
 public:
-	::System::String* Field_1_0; // 0x10
+	::System::String* FCDDMEAANPH; // 0x10
 
 	::System::Void _ctor(::RPG::GameCore::IdleLiveNodeType a1)
 	{

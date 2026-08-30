@@ -6,17 +6,17 @@
 class Class_0_16E4307DCC419505_22;
 namespace System { class String; }
 
-#define CLASS_1_B2AE9E9B19823FE6_METHOD_1_1DCE247AC73BC93D_OFFSET UNITYSDK_OFFSET(0x1AC93A00)
-#define CLASS_1_B2AE9E9B19823FE6_SET_OFFSET UNITYSDK_OFFSET(0x1AC939B0)
-#define CLASS_1_B2AE9E9B19823FE6__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC939A0)
+#define CLASS_1_B2AE9E9B19823FE6_METHOD_1_1DCE247AC73BC93D_OFFSET UNITYSDK_OFFSET(0x1C89A070)
+#define CLASS_1_B2AE9E9B19823FE6_SET_OFFSET UNITYSDK_OFFSET(0x1C89A020)
+#define CLASS_1_B2AE9E9B19823FE6__CTOR_OFFSET UNITYSDK_OFFSET(0x1C89A010)
 
-inline static constexpr unsigned int Class_1_B2AE9E9B19823FE6_TypeDefinitionIndex = 33788;
+inline static constexpr unsigned int Class_1_B2AE9E9B19823FE6_TypeDefinitionIndex = 34554;
 
 class Class_1_B2AE9E9B19823FE6 : public ::System::Object
 {
 public:
-	::System::String* Field_1_0; // 0x10
-	::RPG::Client::StringCase Field_1_1; // 0x18
+	::System::String* NBJFHLDKLKL; // 0x10
+	::RPG::Client::StringCase MFCHEBJJFLO; // 0x18
 
 	::System::Void _ctor(::RPG::Client::StringCase a1)
 	{

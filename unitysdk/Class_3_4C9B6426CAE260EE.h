@@ -9,11 +9,11 @@ namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TurnBasedGameMode; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_4C9B6426CAE260EE_EVALUATE_OFFSET UNITYSDK_OFFSET(0x18447CD0)
-#define CLASS_3_4C9B6426CAE260EE_METHOD_3_C26BBCEDE5E28E64_OFFSET UNITYSDK_OFFSET(0x18447FE0)
-#define CLASS_3_4C9B6426CAE260EE__CTOR_OFFSET UNITYSDK_OFFSET(0x18447C80)
+#define CLASS_3_4C9B6426CAE260EE_EVALUATE_OFFSET UNITYSDK_OFFSET(0x195486B0)
+#define CLASS_3_4C9B6426CAE260EE_METHOD_3_C26BBCEDE5E28E64_OFFSET UNITYSDK_OFFSET(0x195489C0)
+#define CLASS_3_4C9B6426CAE260EE__CTOR_OFFSET UNITYSDK_OFFSET(0x19548660)
 
-inline static constexpr unsigned int Class_3_4C9B6426CAE260EE_TypeDefinitionIndex = 56549;
+inline static constexpr unsigned int Class_3_4C9B6426CAE260EE_TypeDefinitionIndex = 59333;
 
 class Class_3_4C9B6426CAE260EE : public ::RPG::GameCore::TargetEvaluatorImpl_1<::RPG::GameCore::TargetFetchNextSkillCaster*>
 {

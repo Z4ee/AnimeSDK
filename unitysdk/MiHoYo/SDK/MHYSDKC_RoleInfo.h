@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MHYSDKC_RoleInfo_TypeDefinitionIndex = 44460;
+	inline static constexpr unsigned int MHYSDKC_RoleInfo_TypeDefinitionIndex = 46643;
 
 	class MHYSDKC_RoleInfo : public ::System::Object
 	{

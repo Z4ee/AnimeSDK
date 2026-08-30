@@ -3,7 +3,7 @@
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int IMessagePackFormatter_TypeDefinitionIndex = 7395;
+	inline static constexpr unsigned int IMessagePackFormatter_TypeDefinitionIndex = 7381;
 
 	class IMessagePackFormatter
 	{

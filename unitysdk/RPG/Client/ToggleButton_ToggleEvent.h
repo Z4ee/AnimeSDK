@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Events/UnityEvent_1.h"
 
-#define RPG_CLIENT_TOGGLEBUTTON_TOGGLEEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x178ACE60)
+#define RPG_CLIENT_TOGGLEBUTTON_TOGGLEEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x197BD3B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ToggleButton_ToggleEvent_TypeDefinitionIndex = 69399;
+	inline static constexpr unsigned int ToggleButton_ToggleEvent_TypeDefinitionIndex = 72614;
 
 	class ToggleButton_ToggleEvent : public ::UnityEngine::Events::UnityEvent_1<::System::Boolean>
 	{

@@ -5,7 +5,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Airship_AirshipDissolveConfig_TypeDefinitionIndex = 57125;
+	inline static constexpr unsigned int Airship_AirshipDissolveConfig_TypeDefinitionIndex = 59923;
 
 	struct alignas(4) Airship_AirshipDissolveConfig
 	{

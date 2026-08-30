@@ -5,21 +5,21 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_SWORDTRAININGSTORYLINEBONUSROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B442AB0)
-#define RPG_GAMECORE_SWORDTRAININGSTORYLINEBONUSROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B442D90)
+#define RPG_GAMECORE_SWORDTRAININGSTORYLINEBONUSROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E15B4B0)
+#define RPG_GAMECORE_SWORDTRAININGSTORYLINEBONUSROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1E15B790)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SwordTrainingStoryLineBonusRow_TypeDefinitionIndex = 11981;
+	inline static constexpr unsigned int SwordTrainingStoryLineBonusRow_TypeDefinitionIndex = 12370;
 
 	class SwordTrainingStoryLineBonusRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::RPG::Client::TextID>* EffectDescList; // 0x10
-		::System::UInt32 StoryLineNum; // 0x18
-		::RPG::Client::TextID EffectDesc3; // 0x20
-		::RPG::Client::TextID EffectDesc1; // 0x30
-		::RPG::Client::TextID EffectDesc2; // 0x40
+		::RPG::Client::TextID EffectDesc2; // 0x18
+		::RPG::Client::TextID EffectDesc1; // 0x28
+		::RPG::Client::TextID EffectDesc3; // 0x38
+		::System::UInt32 StoryLineNum; // 0x48
 
 		::System::Void _ctor()
 		{

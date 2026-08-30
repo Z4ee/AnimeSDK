@@ -6,23 +6,23 @@ namespace RPG::Client { class ChooseDeliveryGroup; }
 namespace RPG::Client { class ChooseDeliveryToastConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CHOOSEDELIVERYENTRY_GET_ENTRYID_OFFSET UNITYSDK_OFFSET(0x1ADEF920)
-#define RPG_CLIENT_CHOOSEDELIVERYENTRY_GET_GROUPS_OFFSET UNITYSDK_OFFSET(0x1ADEF940)
-#define RPG_CLIENT_CHOOSEDELIVERYENTRY_GET_TOASTCONFIG_OFFSET UNITYSDK_OFFSET(0x1ADEF960)
-#define RPG_CLIENT_CHOOSEDELIVERYENTRY_SET_ENTRYID_OFFSET UNITYSDK_OFFSET(0x1ADEF930)
-#define RPG_CLIENT_CHOOSEDELIVERYENTRY_SET_GROUPS_OFFSET UNITYSDK_OFFSET(0x1ADEF950)
-#define RPG_CLIENT_CHOOSEDELIVERYENTRY_SET_TOASTCONFIG_OFFSET UNITYSDK_OFFSET(0x1ADEF970)
-#define RPG_CLIENT_CHOOSEDELIVERYENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1ADEF980)
+#define RPG_CLIENT_CHOOSEDELIVERYENTRY_GET_ENTRYID_OFFSET UNITYSDK_OFFSET(0x1BBF9340)
+#define RPG_CLIENT_CHOOSEDELIVERYENTRY_GET_GROUPS_OFFSET UNITYSDK_OFFSET(0x1BBF9360)
+#define RPG_CLIENT_CHOOSEDELIVERYENTRY_GET_TOASTCONFIG_OFFSET UNITYSDK_OFFSET(0x1BBF9380)
+#define RPG_CLIENT_CHOOSEDELIVERYENTRY_SET_ENTRYID_OFFSET UNITYSDK_OFFSET(0x1BBF9350)
+#define RPG_CLIENT_CHOOSEDELIVERYENTRY_SET_GROUPS_OFFSET UNITYSDK_OFFSET(0x1BBF9370)
+#define RPG_CLIENT_CHOOSEDELIVERYENTRY_SET_TOASTCONFIG_OFFSET UNITYSDK_OFFSET(0x1BBF9390)
+#define RPG_CLIENT_CHOOSEDELIVERYENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBF93A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChooseDeliveryEntry_TypeDefinitionIndex = 60726;
+	inline static constexpr unsigned int ChooseDeliveryEntry_TypeDefinitionIndex = 63579;
 
 	class ChooseDeliveryEntry : public ::System::Object
 	{
 	public:
-		::RPG::Client::ChooseDeliveryToastConfig* _ToastConfig_k__BackingField; // 0x10
-		::System::Collections::Generic::List_1<::RPG::Client::ChooseDeliveryGroup*>* _Groups_k__BackingField; // 0x18
+		::System::Collections::Generic::List_1<::RPG::Client::ChooseDeliveryGroup*>* _Groups_k__BackingField; // 0x10
+		::RPG::Client::ChooseDeliveryToastConfig* _ToastConfig_k__BackingField; // 0x18
 		::System::UInt32 _EntryID_k__BackingField; // 0x20
 
 		::System::Void _ctor()

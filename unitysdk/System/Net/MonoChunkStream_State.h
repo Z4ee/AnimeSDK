@@ -3,7 +3,7 @@
 
 namespace System::Net
 {
-	inline static constexpr unsigned int MonoChunkStream_State_TypeDefinitionIndex = 2861;
+	inline static constexpr unsigned int MonoChunkStream_State_TypeDefinitionIndex = 2868;
 
 	enum class MonoChunkStream_State : ::System::Int32
 	{

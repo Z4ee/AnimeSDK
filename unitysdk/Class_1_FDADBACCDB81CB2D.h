@@ -6,26 +6,26 @@ namespace RPG::GameCore { class ChenLingFesItemConfig; }
 namespace RPG::GameCore { class ChenLingFesPosition; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_FDADBACCDB81CB2D__CTOR_OFFSET UNITYSDK_OFFSET(0x1A905C10)
+#define CLASS_1_FDADBACCDB81CB2D__CTOR_OFFSET UNITYSDK_OFFSET(0x1C51F790)
 
-inline static constexpr unsigned int Class_1_FDADBACCDB81CB2D_TypeDefinitionIndex = 41115;
+inline static constexpr unsigned int Class_1_FDADBACCDB81CB2D_TypeDefinitionIndex = 42075;
 
 class Class_1_FDADBACCDB81CB2D : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::System::Int32>* Field_1_0; // 0x10
-	::System::Collections::Generic::List_1<::System::Int32>* Field_1_1; // 0x18
-	::RPG::GameCore::ChenLingFesItemConfig* Field_1_2; // 0x20
-	::System::Collections::Generic::List_1<::System::UInt32>* Field_1_3; // 0x28
-	::System::Collections::Generic::List_1<::System::Int32>* Field_1_4; // 0x30
-	::System::Collections::Generic::List_1<::System::Int32>* Field_1_5; // 0x38
-	::System::Collections::Generic::List_1<::System::Int32>* Field_1_6; // 0x40
-	::RPG::GameCore::ChenLingFesPosition* Field_1_7; // 0x48
-	::System::Single Field_1_8; // 0x50
-	::System::Single Field_1_9; // 0x54
-	::System::UInt32 Field_1_10; // 0x58
-	::System::Single Field_1_11; // 0x5C
-	::System::Single Field_1_12; // 0x60
+	::System::Collections::Generic::List_1<::System::Int32>* AJPFKOLEMOL; // 0x10
+	::System::Collections::Generic::List_1<::System::Int32>* CHFEJBFFPLD; // 0x18
+	::System::Collections::Generic::List_1<::System::Int32>* KEMEPBIGIAE; // 0x20
+	::System::Collections::Generic::List_1<::System::UInt32>* OJFFPIIKPDJ; // 0x28
+	::System::Collections::Generic::List_1<::System::Int32>* AACDGMCNIDL; // 0x30
+	::RPG::GameCore::ChenLingFesItemConfig* EABKOHGCHFP; // 0x38
+	::RPG::GameCore::ChenLingFesPosition* FOCNBOANONM; // 0x40
+	::System::Collections::Generic::List_1<::System::Int32>* KNNMFKMCKBP; // 0x48
+	::System::Single ICONGDFLKIP; // 0x50
+	::System::Single PLFMKDOCPLP; // 0x54
+	::System::Single EEGAODGBDJF; // 0x58
+	::System::Single IKFHADBJEOC; // 0x5C
+	::System::UInt32 PHFMCACHFIJ; // 0x60
 
 	::System::Void _ctor()
 	{

@@ -5,12 +5,12 @@
 namespace RPG::CustomRP { class IRPMessage; }
 namespace RPG::CustomRP { class ReadMessageThread; }
 
-#define RPG_CUSTOMRP_READMESSAGETHREAD___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16C255B0)
-#define RPG_CUSTOMRP_READMESSAGETHREAD___C__DISPLAYCLASS8_0___READMSG_B__0_OFFSET UNITYSDK_OFFSET(0x16C25E90)
+#define RPG_CUSTOMRP_READMESSAGETHREAD___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x185B4E40)
+#define RPG_CUSTOMRP_READMESSAGETHREAD___C__DISPLAYCLASS8_0___READMSG_B__0_OFFSET UNITYSDK_OFFSET(0x185B5720)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int ReadMessageThread___c__DisplayClass8_0_TypeDefinitionIndex = 36361;
+	inline static constexpr unsigned int ReadMessageThread___c__DisplayClass8_0_TypeDefinitionIndex = 37220;
 
 	class ReadMessageThread___c__DisplayClass8_0 : public ::System::Object
 	{

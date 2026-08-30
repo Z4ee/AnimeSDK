@@ -1,0 +1,181 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/MiHoYo/SDK/PC/OS/CXHandheld/HandheldUserAgreementDialog_DisplayMode.h"
+#include "unitysdk/MiHoYo/SDK/PC/OS/CXHandheld/LoginManagerBase.h"
+
+namespace MiHoYo::SDK { class NetworkResponseModel; }
+namespace MiHoYo::SDK { class NetworkResponseModelEx; }
+namespace System { class Action; }
+namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
+
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_LOGINMANAGERHANDHELD_ADDREALNAME_OFFSET UNITYSDK_OFFSET(0x1A257B00)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_LOGINMANAGERHANDHELD_GETACCOUNTPRIVACYPROTOCOLURL_OFFSET UNITYSDK_OFFSET(0x1A24F790)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_LOGINMANAGERHANDHELD_GETACCOUNTUSERAGREEMENTURL_OFFSET UNITYSDK_OFFSET(0x1A24F660)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_LOGINMANAGERHANDHELD_GETCHILDRENPROTOCOLURL_OFFSET UNITYSDK_OFFSET(0x1A24F260)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_LOGINMANAGERHANDHELD_GETPRIVACYPROTOCOLURL_OFFSET UNITYSDK_OFFSET(0x1A24EF70)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_LOGINMANAGERHANDHELD_GETUSERPROTOCOLURL_OFFSET UNITYSDK_OFFSET(0x1A24EA60)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_LOGINMANAGERHANDHELD_HANDLEAGEGATECOMPLETEDCALLBACK_OFFSET UNITYSDK_OFFSET(0x1A256450)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_LOGINMANAGERHANDHELD_LOGREPORT_OFFSET UNITYSDK_OFFSET(0x1A257840)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_LOGINMANAGERHANDHELD_ONCONSOLELOGINCALLBACKEX_OFFSET UNITYSDK_OFFSET(0x1A2562E0)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_LOGINMANAGERHANDHELD_OPENUSERCENTER_OFFSET UNITYSDK_OFFSET(0x1A2571E0)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_LOGINMANAGERHANDHELD_REACTIVATEACCOUNTBYACTIONTICKET_OFFSET UNITYSDK_OFFSET(0x1A256EC0)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_LOGINMANAGERHANDHELD_REACTIVATEACCOUNT_OFFSET UNITYSDK_OFFSET(0x1A251800)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_LOGINMANAGERHANDHELD_REPORTACCEPTAGREEMENTS_OFFSET UNITYSDK_OFFSET(0x1A255E50)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_LOGINMANAGERHANDHELD_REPORTLOGINFAIL_OFFSET UNITYSDK_OFFSET(0x1A2551E0)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_LOGINMANAGERHANDHELD_REPORTLOGININIT_OFFSET UNITYSDK_OFFSET(0x1A2507E0)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_LOGINMANAGERHANDHELD_REPORTLOGINSUCC_OFFSET UNITYSDK_OFFSET(0x1A2557B0)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_LOGINMANAGERHANDHELD_REPORTREFUSEAGREEMENTS_OFFSET UNITYSDK_OFFSET(0x1A2561D0)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_LOGINMANAGERHANDHELD_REPORTSHOWAGREEMENTDIALOG_OFFSET UNITYSDK_OFFSET(0x1A255950)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_LOGINMANAGERHANDHELD_REQUESTACCOUNTPLATFORMLOGINBYCONSOLE_OFFSET UNITYSDK_OFFSET(0x1A256710)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_LOGINMANAGERHANDHELD_REQUESTLOGINBYCONSOLEEX_OFFSET UNITYSDK_OFFSET(0x1A256630)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_LOGINMANAGERHANDHELD_REQUESTLOGINBYHANDHELD_OFFSET UNITYSDK_OFFSET(0x1A256240)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_LOGINMANAGERHANDHELD_SHOWUSERAGREEMENTDIALOG_OFFSET UNITYSDK_OFFSET(0x1A2549B0)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_LOGINMANAGERHANDHELD_TRYACTIVATEACCOUNT_OFFSET UNITYSDK_OFFSET(0x1A254480)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_LOGINMANAGERHANDHELD__CTOR_OFFSET UNITYSDK_OFFSET(0x1A252870)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_LOGINMANAGERHANDHELD__REACTIVATEACCOUNT_B__31_0_OFFSET UNITYSDK_OFFSET(0x1A257B10)
+
+namespace MiHoYo::SDK::PC::OS::CXHandheld
+{
+	inline static constexpr unsigned int LoginManagerHandheld_TypeDefinitionIndex = 8690;
+
+	class LoginManagerHandheld : public ::MiHoYo::SDK::PC::OS::CXHandheld::LoginManagerBase
+	{
+	public:
+		// static const ::System::String* ACCOUNT_USER_AGREEMENT_URL_OS; // 0x0
+		// static const ::System::String* ACCOUNT_PRIVACY_POLICY_URL_OS; // 0x0
+		// static const ::System::String* X_RPC_APP_ID; // 0x0
+		// static const ::System::String* X_RPC_AGE_GATE_TICKET; // 0x0
+		// static const ::System::String* REACTIVATE_ACTION_KEY; // 0x0
+		// static const ::System::String* PRIVACY_PROTOCOL; // 0x0
+		// static const ::System::String* USER_AGREEMENT; // 0x0
+		// static const ::System::String* CHILDREN_PROTOCOL; // 0x0
+		::System::Action* OpenUserCenterCallback; // 0x38
+		::System::String* ReactiveActionTicket; // 0x40
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_LOGINMANAGERHANDHELD__CTOR_OFFSET))(this);
+		}
+
+		::System::String* GetUserProtocolURL()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_LOGINMANAGERHANDHELD_GETUSERPROTOCOLURL_OFFSET))(this);
+		}
+
+		::System::String* GetPrivacyProtocolURL()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_LOGINMANAGERHANDHELD_GETPRIVACYPROTOCOLURL_OFFSET))(this);
+		}
+
+		::System::String* GetChildrenProtocolURL()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_LOGINMANAGERHANDHELD_GETCHILDRENPROTOCOLURL_OFFSET))(this);
+		}
+
+		::System::String* GetAccountUserAgreementURL()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_LOGINMANAGERHANDHELD_GETACCOUNTUSERAGREEMENTURL_OFFSET))(this);
+		}
+
+		::System::String* GetAccountPrivacyProtocolURL()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_LOGINMANAGERHANDHELD_GETACCOUNTPRIVACYPROTOCOLURL_OFFSET))(this);
+		}
+
+		::System::Void ShowUserAgreementDialog(::System::Action* a1, ::MiHoYo::SDK::PC::OS::CXHandheld::HandheldUserAgreementDialog_DisplayMode a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Action*, ::MiHoYo::SDK::PC::OS::CXHandheld::HandheldUserAgreementDialog_DisplayMode))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_LOGINMANAGERHANDHELD_SHOWUSERAGREEMENTDIALOG_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void ReportShowAgreementDialog()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_LOGINMANAGERHANDHELD_REPORTSHOWAGREEMENTDIALOG_OFFSET))(this);
+		}
+
+		::System::Void ReportAcceptAgreements()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_LOGINMANAGERHANDHELD_REPORTACCEPTAGREEMENTS_OFFSET))(this);
+		}
+
+		::System::Void ReportRefuseAgreements()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_LOGINMANAGERHANDHELD_REPORTREFUSEAGREEMENTS_OFFSET))(this);
+		}
+
+		::System::Void RequestLoginByHandheld(::System::String* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_LOGINMANAGERHANDHELD_REQUESTLOGINBYHANDHELD_OFFSET))(this, a1);
+		}
+
+		::System::Void OnConsoleLoginCallbackEx(::MiHoYo::SDK::NetworkResponseModelEx* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::NetworkResponseModelEx*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_LOGINMANAGERHANDHELD_ONCONSOLELOGINCALLBACKEX_OFFSET))(this, a1);
+		}
+
+		::System::Void HandleAgeGateCompletedCallback(::System::String* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_LOGINMANAGERHANDHELD_HANDLEAGEGATECOMPLETEDCALLBACK_OFFSET))(this, a1);
+		}
+
+		::System::Void RequestLoginByConsoleEx(::System::String* a1, ::System::String* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_LOGINMANAGERHANDHELD_REQUESTLOGINBYCONSOLEEX_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void RequestAccountPlatformLoginByConsole(::System::String* a1, ::System::String* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_LOGINMANAGERHANDHELD_REQUESTACCOUNTPLATFORMLOGINBYCONSOLE_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void ReactivateAccountByActionTicket(::System::String* a1, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_LOGINMANAGERHANDHELD_REACTIVATEACCOUNTBYACTIONTICKET_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void OpenUserCenter()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_LOGINMANAGERHANDHELD_OPENUSERCENTER_OFFSET))(this);
+		}
+
+		::System::Void ReportLoginInit()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_LOGINMANAGERHANDHELD_REPORTLOGININIT_OFFSET))(this);
+		}
+
+		::System::Void ReportLoginSucc()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_LOGINMANAGERHANDHELD_REPORTLOGINSUCC_OFFSET))(this);
+		}
+
+		::System::Void ReportLoginFail()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_LOGINMANAGERHANDHELD_REPORTLOGINFAIL_OFFSET))(this);
+		}
+
+		::System::Void LogReport(::System::String* a1, ::System::Int32 a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_LOGINMANAGERHANDHELD_LOGREPORT_OFFSET))(this, a1, a2);
+		}
+
+		::System::Boolean TryActivateAccount(::MiHoYo::SDK::NetworkResponseModel* a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::MiHoYo::SDK::NetworkResponseModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_LOGINMANAGERHANDHELD_TRYACTIVATEACCOUNT_OFFSET))(this, a1);
+		}
+
+		::System::Void ReactivateAccount()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_LOGINMANAGERHANDHELD_REACTIVATEACCOUNT_OFFSET))(this);
+		}
+
+		::System::Void AddRealName(::System::String* a1, ::System::String* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_LOGINMANAGERHANDHELD_ADDREALNAME_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void _ReactivateAccount_b__31_0(::MiHoYo::SDK::NetworkResponseModel* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::NetworkResponseModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_LOGINMANAGERHANDHELD__REACTIVATEACCOUNT_B__31_0_OFFSET))(this, a1);
+		}
+	};
+}

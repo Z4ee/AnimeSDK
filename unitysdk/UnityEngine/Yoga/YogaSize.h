@@ -4,7 +4,7 @@
 
 namespace UnityEngine::Yoga
 {
-	inline static constexpr unsigned int YogaSize_TypeDefinitionIndex = 6128;
+	inline static constexpr unsigned int YogaSize_TypeDefinitionIndex = 5861;
 
 	struct alignas(4) YogaSize
 	{

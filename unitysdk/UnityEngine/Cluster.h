@@ -4,7 +4,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int Cluster_TypeDefinitionIndex = 4095;
+	inline static constexpr unsigned int Cluster_TypeDefinitionIndex = 4105;
 
 	class Cluster : public ::UnityEngine::Object
 	{

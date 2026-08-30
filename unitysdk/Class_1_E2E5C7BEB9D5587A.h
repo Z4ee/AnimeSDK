@@ -6,16 +6,16 @@
 
 namespace System { class String; }
 
-#define CLASS_1_E2E5C7BEB9D5587A__CTOR_OFFSET UNITYSDK_OFFSET(0x18F07320)
+#define CLASS_1_E2E5C7BEB9D5587A__CTOR_OFFSET UNITYSDK_OFFSET(0x1874E3F0)
 
-inline static constexpr unsigned int Class_1_E2E5C7BEB9D5587A_TypeDefinitionIndex = 64997;
+inline static constexpr unsigned int Class_1_E2E5C7BEB9D5587A_TypeDefinitionIndex = 68004;
 
 class Class_1_E2E5C7BEB9D5587A : public ::System::Object
 {
 public:
-	::System::String* Field_1_0; // 0x10
-	::Enum_3_0A3761FE34514D6C_78 Field_1_1; // 0x18
-	::RPG::GameCore::PropState Field_1_2; // 0x1C
+	::System::String* EINFJLDMHOA; // 0x10
+	::Enum_3_0A3761FE34514D6C_78 GMPGDEINODK; // 0x18
+	::RPG::GameCore::PropState MEPFOEEGBEA; // 0x1C
 
 	::System::Void _ctor()
 	{

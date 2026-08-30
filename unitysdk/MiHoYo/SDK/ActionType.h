@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ActionType_TypeDefinitionIndex = 44635;
+	inline static constexpr unsigned int ActionType_TypeDefinitionIndex = 46821;
 
 	enum class ActionType : ::System::Int32
 	{

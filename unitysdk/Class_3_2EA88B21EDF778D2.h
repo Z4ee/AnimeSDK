@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByCompareHipplenEnergy; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_2EA88B21EDF778D2_EVALUATE_OFFSET UNITYSDK_OFFSET(0x149F1A20)
-#define CLASS_3_2EA88B21EDF778D2__CTOR_OFFSET UNITYSDK_OFFSET(0x149F19F0)
+#define CLASS_3_2EA88B21EDF778D2_EVALUATE_OFFSET UNITYSDK_OFFSET(0x164C8230)
+#define CLASS_3_2EA88B21EDF778D2__CTOR_OFFSET UNITYSDK_OFFSET(0x164C8200)
 
-inline static constexpr unsigned int Class_3_2EA88B21EDF778D2_TypeDefinitionIndex = 49890;
+inline static constexpr unsigned int Class_3_2EA88B21EDF778D2_TypeDefinitionIndex = 52551;
 
 class Class_3_2EA88B21EDF778D2 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByCompareHipplenEnergy*>
 {

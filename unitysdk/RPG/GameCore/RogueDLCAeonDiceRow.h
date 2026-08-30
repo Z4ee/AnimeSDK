@@ -7,25 +7,25 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUEDLCAEONDICEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C4B18B0)
-#define RPG_GAMECORE_ROGUEDLCAEONDICEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4B2240)
+#define RPG_GAMECORE_ROGUEDLCAEONDICEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D91B690)
+#define RPG_GAMECORE_ROGUEDLCAEONDICEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D91C020)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueDLCAeonDiceRow_TypeDefinitionIndex = 14156;
+	inline static constexpr unsigned int RogueDLCAeonDiceRow_TypeDefinitionIndex = 14576;
 
 	class RogueDLCAeonDiceRow : public ::System::Object
 	{
 	public:
-		::System::String* SoundSuspensionStop; // 0x10
-		::Il2CppArray<::System::UInt32>* ExtraEffect; // 0x18
-		::System::String* DiceModel; // 0x20
-		::Il2CppArray<::System::UInt32>* StartDescParam; // 0x28
-		::Il2CppArray<::RPG::GameCore::FixPoint>* DescParam; // 0x30
-		::System::String* DiceIcon; // 0x38
-		::System::String* SoundRoll; // 0x40
-		::System::String* SoundReRoll; // 0x48
-		::System::String* SoundSuspensionStart; // 0x50
+		::System::String* SoundSuspensionStart; // 0x10
+		::System::String* SoundSuspensionStop; // 0x18
+		::System::String* SoundRoll; // 0x20
+		::System::String* DiceIcon; // 0x28
+		::Il2CppArray<::System::UInt32>* StartDescParam; // 0x30
+		::System::String* DiceModel; // 0x38
+		::Il2CppArray<::RPG::GameCore::FixPoint>* DescParam; // 0x40
+		::Il2CppArray<::System::UInt32>* ExtraEffect; // 0x48
+		::System::String* SoundReRoll; // 0x50
 		::RPG::Client::TextID DiceCountDesc; // 0x58
 		::RPG::Client::TextID DiceShortDesc; // 0x68
 		::RPG::Client::TextID DiceStartEffectDesc; // 0x78

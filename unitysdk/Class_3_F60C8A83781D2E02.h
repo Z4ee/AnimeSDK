@@ -6,16 +6,16 @@ class Class_1_5F51D4049EA87B7B;
 namespace RPG::GameCore { class ByNot; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_F60C8A83781D2E02_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18AF6DC0)
-#define CLASS_3_F60C8A83781D2E02_EVALUATE_OFFSET UNITYSDK_OFFSET(0x18AF6D50)
-#define CLASS_3_F60C8A83781D2E02__CTOR_OFFSET UNITYSDK_OFFSET(0x18AF6C80)
+#define CLASS_3_F60C8A83781D2E02_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1AF47620)
+#define CLASS_3_F60C8A83781D2E02_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1AF475B0)
+#define CLASS_3_F60C8A83781D2E02__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF474E0)
 
-inline static constexpr unsigned int Class_3_F60C8A83781D2E02_TypeDefinitionIndex = 52228;
+inline static constexpr unsigned int Class_3_F60C8A83781D2E02_TypeDefinitionIndex = 54915;
 
 class Class_3_F60C8A83781D2E02 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByNot*>
 {
 public:
-	::Class_1_5F51D4049EA87B7B* Field_3_0; // 0x28
+	::Class_1_5F51D4049EA87B7B* LLHKOFLJFCH; // 0x28
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ByNot* a2)
 	{

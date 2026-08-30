@@ -4,23 +4,23 @@
 
 class Class_3_3323B4893ACBCB05;
 
-#define CLASS_2_A6FD0FD33420B1C1_METHOD_2_0966BF0FC242F656_OFFSET UNITYSDK_OFFSET(0x14BC5C20)
-#define CLASS_2_A6FD0FD33420B1C1_METHOD_2_5323F2DF46A044DA_OFFSET UNITYSDK_OFFSET(0x14BC5B20)
-#define CLASS_2_A6FD0FD33420B1C1_METHOD_2_E7F1AECA7CFF8AAD_OFFSET UNITYSDK_OFFSET(0x14BC5B30)
-#define CLASS_2_A6FD0FD33420B1C1__CTOR_OFFSET UNITYSDK_OFFSET(0x14BC5B60)
+#define CLASS_2_A6FD0FD33420B1C1_METHOD_2_0966BF0FC242F656_OFFSET UNITYSDK_OFFSET(0x1639AE90)
+#define CLASS_2_A6FD0FD33420B1C1_METHOD_2_5323F2DF46A044DA_OFFSET UNITYSDK_OFFSET(0x1639AD90)
+#define CLASS_2_A6FD0FD33420B1C1_METHOD_2_E7F1AECA7CFF8AAD_OFFSET UNITYSDK_OFFSET(0x1639ADA0)
+#define CLASS_2_A6FD0FD33420B1C1__CTOR_OFFSET UNITYSDK_OFFSET(0x1639ADD0)
 
-inline static constexpr unsigned int Class_2_A6FD0FD33420B1C1_TypeDefinitionIndex = 6655;
+inline static constexpr unsigned int Class_2_A6FD0FD33420B1C1_TypeDefinitionIndex = 6267;
 
 class Class_2_A6FD0FD33420B1C1 : public ::Class_1_2E516C573507590A
 {
 public:
-	::Il2CppArray<::System::Single>* Field_2_0; // 0x28
-	::Il2CppArray<::System::Single>* Field_2_1; // 0x30
-	::Il2CppArray<::System::Single>* Field_2_2; // 0x38
-	::Il2CppArray<::System::Single>* Field_2_3; // 0x40
-	::Il2CppArray<::System::Single>* Field_2_4; // 0x48
-	::System::Single Field_2_5; // 0x50
-	::System::Single Field_2_6; // 0x54
+	::Il2CppArray<::System::Single>* BPGHHIJLLEI; // 0x28
+	::Il2CppArray<::System::Single>* BNEOJNKNHDG; // 0x30
+	::Il2CppArray<::System::Single>* OHJIHLKPGEB; // 0x38
+	::Il2CppArray<::System::Single>* AFBJJJBHANK; // 0x40
+	::Il2CppArray<::System::Single>* GDIGODBMPJJ; // 0x48
+	::System::Single NDEAPGAEOPK; // 0x50
+	::System::Single BNMJMAIKOAA; // 0x54
 
 	::System::Void _ctor(::System::Int32 a1, ::System::Single a2, ::Class_3_3323B4893ACBCB05* a3)
 	{

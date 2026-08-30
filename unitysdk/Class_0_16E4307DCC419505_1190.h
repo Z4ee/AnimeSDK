@@ -1,11 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/ActivityIdleLive/EquipSelectUiData.h"
-#include "unitysdk/RPG/Client/ActivityIdleLive/IdleLiveDecimal.h"
+#include "unitysdk/Struct_2_D0FCEBDAF981FB27.h"
 
-class Class_0_16E4307DCC419505_675;
+namespace System::Collections::Generic { template <typename T> class List_1; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1190_TypeDefinitionIndex = 71621;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1190_TypeDefinitionIndex = 73862;
 
 class Class_0_16E4307DCC419505_1190
 {

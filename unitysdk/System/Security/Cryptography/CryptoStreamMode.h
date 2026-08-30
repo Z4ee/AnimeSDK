@@ -3,7 +3,7 @@
 
 namespace System::Security::Cryptography
 {
-	inline static constexpr unsigned int CryptoStreamMode_TypeDefinitionIndex = 1004;
+	inline static constexpr unsigned int CryptoStreamMode_TypeDefinitionIndex = 1011;
 
 	enum class CryptoStreamMode : ::System::Int32
 	{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/TAMonoBase.h"
 
-#define RPG_CLIENT_TEMPLATEMONOBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x19475750)
+#define RPG_CLIENT_TEMPLATEMONOBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC9DEA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TemplateMonoBase_TypeDefinitionIndex = 67618;
+	inline static constexpr unsigned int TemplateMonoBase_TypeDefinitionIndex = 70741;
 
 	class TemplateMonoBase : public ::RPG::Client::TAMonoBase
 	{

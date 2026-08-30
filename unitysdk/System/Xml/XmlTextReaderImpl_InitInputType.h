@@ -3,7 +3,7 @@
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int XmlTextReaderImpl_InitInputType_TypeDefinitionIndex = 1846;
+	inline static constexpr unsigned int XmlTextReaderImpl_InitInputType_TypeDefinitionIndex = 1853;
 
 	enum class XmlTextReaderImpl_InitInputType : ::System::Int32
 	{

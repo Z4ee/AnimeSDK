@@ -5,15 +5,15 @@
 class Class_1_D8BECDCE48063EC7;
 namespace RPG::GameCore { class DiceCombatPredicateConfig_Or; }
 
-#define CLASS_3_6682940981DEB8BA_METHOD_3_B556EADFE34BD60F_OFFSET UNITYSDK_OFFSET(0x17AF8DD0)
-#define CLASS_3_6682940981DEB8BA__CTOR_OFFSET UNITYSDK_OFFSET(0x17AF8DB0)
+#define CLASS_3_6682940981DEB8BA_METHOD_3_B556EADFE34BD60F_OFFSET UNITYSDK_OFFSET(0x196F8DD0)
+#define CLASS_3_6682940981DEB8BA__CTOR_OFFSET UNITYSDK_OFFSET(0x196F8DB0)
 
-inline static constexpr unsigned int Class_3_6682940981DEB8BA_TypeDefinitionIndex = 34816;
+inline static constexpr unsigned int Class_3_6682940981DEB8BA_TypeDefinitionIndex = 35677;
 
 class Class_3_6682940981DEB8BA : public ::Class_2_98A798C0C96648F9
 {
 public:
-	::RPG::GameCore::DiceCombatPredicateConfig_Or* Field_3_0; // 0x30
+	::RPG::GameCore::DiceCombatPredicateConfig_Or* IGHAHBNLIJA; // 0x30
 
 	::System::Void _ctor(::RPG::GameCore::DiceCombatPredicateConfig_Or* a1, ::Class_1_D8BECDCE48063EC7* a2)
 	{

@@ -5,18 +5,18 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define CLASS_3_8D0DE090C405AD34_METHOD_3_292FA0EEF6659E6F_OFFSET UNITYSDK_OFFSET(0x1B316640)
-#define CLASS_3_8D0DE090C405AD34_METHOD_3_E29CAE0C7AB44E72_OFFSET UNITYSDK_OFFSET(0x1B316600)
-#define CLASS_3_8D0DE090C405AD34__CTOR_OFFSET UNITYSDK_OFFSET(0x1B316630)
+#define CLASS_3_8D0DE090C405AD34_METHOD_3_292FA0EEF6659E6F_OFFSET UNITYSDK_OFFSET(0x1CF1EC30)
+#define CLASS_3_8D0DE090C405AD34_METHOD_3_E29CAE0C7AB44E72_OFFSET UNITYSDK_OFFSET(0x1CF1EBF0)
+#define CLASS_3_8D0DE090C405AD34__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF1EC20)
 
-inline static constexpr unsigned int Class_3_8D0DE090C405AD34_TypeDefinitionIndex = 22334;
+inline static constexpr unsigned int Class_3_8D0DE090C405AD34_TypeDefinitionIndex = 22903;
 
 class Class_3_8D0DE090C405AD34 : public ::RPG::GameCore::TaskConfig
 {
 public:
-	::RPG::GameCore::DynamicFloat* Field_3_0; // 0x18
-	::RPG::GameCore::DynamicFloat* Field_3_1; // 0x20
-	::RPG::GameCore::DynamicFloat* Field_3_2; // 0x28
+	::RPG::GameCore::DynamicFloat* GMDBHJKEAEI; // 0x18
+	::RPG::GameCore::DynamicFloat* FIJLEDEKBJP; // 0x20
+	::RPG::GameCore::DynamicFloat* CCAOGMEFNLB; // 0x28
 
 	::System::Void _ctor()
 	{

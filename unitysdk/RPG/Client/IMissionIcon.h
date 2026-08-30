@@ -5,7 +5,7 @@ namespace RPG::Client { class SubMissionData; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IMissionIcon_TypeDefinitionIndex = 60133;
+	inline static constexpr unsigned int IMissionIcon_TypeDefinitionIndex = 62979;
 
 	class IMissionIcon
 	{

@@ -11,17 +11,18 @@ namespace RPG::Client { class PropInstanceManageBehavior; }
 namespace RPG::Client { class PropInstanceMatConfigBase; }
 namespace RPG::Client { class PropInstanceTransform; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
+namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Mesh; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_PROPINSTANCEMANAGEMONOPLUGIN_GET_IFUSECUSTOMDATA_OFFSET UNITYSDK_OFFSET(0x16149580)
-#define RPG_CLIENT_PROPINSTANCEMANAGEMONOPLUGIN_SETINSTANCEMATRIX_OFFSET UNITYSDK_OFFSET(0x16149510)
-#define RPG_CLIENT_PROPINSTANCEMANAGEMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x16149590)
+#define RPG_CLIENT_PROPINSTANCEMANAGEMONOPLUGIN_GET_IFUSECUSTOMDATA_OFFSET UNITYSDK_OFFSET(0x17B48AE0)
+#define RPG_CLIENT_PROPINSTANCEMANAGEMONOPLUGIN_SETINSTANCEMATRIX_OFFSET UNITYSDK_OFFSET(0x17B48A70)
+#define RPG_CLIENT_PROPINSTANCEMANAGEMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x17B48AF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PropInstanceManageMonoPlugin_TypeDefinitionIndex = 67595;
+	inline static constexpr unsigned int PropInstanceManageMonoPlugin_TypeDefinitionIndex = 70718;
 
 	class PropInstanceManageMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::PropInstanceManageBehavior*>
 	{
@@ -41,6 +42,7 @@ namespace RPG::Client
 		::System::Collections::Generic::List_1<::RPG::Client::PropInstanceTransform*>* TransformVarients; // 0x80
 		::Il2CppArray<::RPG::Client::PropInstanceMatConfigBase*>* PropInstanceMatConfigs; // 0x88
 		::Il2CppArray<::UnityEngine::Vector4>* CustomDatas; // 0x90
+		::UnityEngine::GameObject* ObjectGroupForCollect; // 0x98
 
 		::System::Void _ctor()
 		{

@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_FATERIN_FATERINHOST___C__DISPLAYCLASS20_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A38A220)
-#define RPG_CLIENT_FATERIN_FATERINHOST___C__DISPLAYCLASS20_0__TRANSFERANDAUTOSHOWMAINPAGE_B__0_OFFSET UNITYSDK_OFFSET(0x1A38BDB0)
+#define RPG_CLIENT_FATERIN_FATERINHOST___C__DISPLAYCLASS20_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5A5FA0)
+#define RPG_CLIENT_FATERIN_FATERINHOST___C__DISPLAYCLASS20_0__TRANSFERANDAUTOSHOWMAINPAGE_B__0_OFFSET UNITYSDK_OFFSET(0x1B5A7F80)
 
 namespace RPG::Client::FateRin
 {
-	inline static constexpr unsigned int FateRinHost___c__DisplayClass20_0_TypeDefinitionIndex = 75570;
+	inline static constexpr unsigned int FateRinHost___c__DisplayClass20_0_TypeDefinitionIndex = 79202;
 
 	class FateRinHost___c__DisplayClass20_0 : public ::System::Object
 	{

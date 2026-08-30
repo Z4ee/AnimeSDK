@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_GRIDFIGHTTRAITELATIONEFFECT_GRIDFIGHTELATIONDRESSEQUIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1A609EE0)
+#define RPG_CLIENT_GRIDFIGHTTRAITELATIONEFFECT_GRIDFIGHTELATIONDRESSEQUIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB0B8F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightTraitElationEffect_GridFightElationDressEquip_TypeDefinitionIndex = 62460;
+	inline static constexpr unsigned int GridFightTraitElationEffect_GridFightElationDressEquip_TypeDefinitionIndex = 65445;
 
 	class GridFightTraitElationEffect_GridFightElationDressEquip : public ::System::Object
 	{

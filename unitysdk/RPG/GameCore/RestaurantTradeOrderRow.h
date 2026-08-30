@@ -6,23 +6,23 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_RESTAURANTTRADEORDERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D0277A0)
-#define RPG_GAMECORE_RESTAURANTTRADEORDERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D027AA0)
+#define RPG_GAMECORE_RESTAURANTTRADEORDERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB9EE30)
+#define RPG_GAMECORE_RESTAURANTTRADEORDERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB9F130)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RestaurantTradeOrderRow_TypeDefinitionIndex = 10965;
+	inline static constexpr unsigned int RestaurantTradeOrderRow_TypeDefinitionIndex = 11340;
 
 	class RestaurantTradeOrderRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* UnlockIDList; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* CostProductMap; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* RewardProductMap; // 0x20
-		::RPG::Client::TextID Detail; // 0x28
-		::System::UInt32 DurationDays; // 0x38
-		::System::UInt32 CustomerID; // 0x3C
-		::System::UInt32 OrderID; // 0x40
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* RewardProductMap; // 0x10
+		::Il2CppArray<::System::UInt32>* UnlockIDList; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* CostProductMap; // 0x20
+		::System::UInt32 CustomerID; // 0x28
+		::System::UInt32 OrderID; // 0x2C
+		::System::UInt32 DurationDays; // 0x30
+		::RPG::Client::TextID Detail; // 0x38
 
 		::System::Void _ctor()
 		{

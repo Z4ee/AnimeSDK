@@ -13,14 +13,14 @@ namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Shader; }
 namespace UnityEngine { class Texture2D; }
 
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPSTOCK_INIT_OFFSET UNITYSDK_OFFSET(0x1911FD40)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPSTOCK_UNINIT_OFFSET UNITYSDK_OFFSET(0x191206D0)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPSTOCK_UPDATEPROPERTY_OFFSET UNITYSDK_OFFSET(0x1911FDE0)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPSTOCK__CTOR_OFFSET UNITYSDK_OFFSET(0x191207F0)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPSTOCK_INIT_OFFSET UNITYSDK_OFFSET(0x116C21A0)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPSTOCK_UNINIT_OFFSET UNITYSDK_OFFSET(0x116C2B30)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPSTOCK_UPDATEPROPERTY_OFFSET UNITYSDK_OFFSET(0x116C2240)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPSTOCK__CTOR_OFFSET UNITYSDK_OFFSET(0x116C2C50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginCharaPropStock_TypeDefinitionIndex = 66847;
+	inline static constexpr unsigned int MonoEffectPluginCharaPropStock_TypeDefinitionIndex = 69949;
 
 	class MonoEffectPluginCharaPropStock : public ::RPG::Client::MonoEffectPluginCharaPropBase
 	{
@@ -49,8 +49,8 @@ namespace RPG::Client
 		::System::Single _StockRoughness; // 0xB4
 		::System::Boolean Toggle_StockThickness; // 0xB8
 		::System::Single _StockThickness; // 0xBC
-		::System::Boolean Field_6_24; // 0xC0
-		::Il2CppArray<::System::Boolean>* Field_6_25; // 0xC8
+		::System::Boolean KMGIHDHMBJB; // 0xC0
+		::Il2CppArray<::System::Boolean>* LKIKPHKAFJB; // 0xC8
 
 		::System::Void _ctor()
 		{

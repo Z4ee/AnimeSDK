@@ -8,32 +8,32 @@ namespace RPG::GameCore { class ResidentPossessionInfo; }
 namespace RPG::GameCore { template <typename T> class StringMemoryDictionary_1; }
 namespace System { class String; }
 
-#define CLASS_1_B48C41A65DB3FA8A_METHOD_1_2A58D0F885E0A1EA_OFFSET UNITYSDK_OFFSET(0x165C2DB0)
-#define CLASS_1_B48C41A65DB3FA8A_METHOD_1_5016E9213480853B_OFFSET UNITYSDK_OFFSET(0x165C2710)
-#define CLASS_1_B48C41A65DB3FA8A_METHOD_1_8080E22F79F246F0_OFFSET UNITYSDK_OFFSET(0x165C2E70)
-#define CLASS_1_B48C41A65DB3FA8A_METHOD_1_EAD10B3E55E2C4C5_OFFSET UNITYSDK_OFFSET(0x165C2A30)
-#define CLASS_1_B48C41A65DB3FA8A__CTOR_OFFSET UNITYSDK_OFFSET(0x165C2F20)
+#define CLASS_1_B48C41A65DB3FA8A_METHOD_1_2A58D0F885E0A1EA_OFFSET UNITYSDK_OFFSET(0x17F6AAE0)
+#define CLASS_1_B48C41A65DB3FA8A_METHOD_1_5016E9213480853B_OFFSET UNITYSDK_OFFSET(0x17F6A440)
+#define CLASS_1_B48C41A65DB3FA8A_METHOD_1_8080E22F79F246F0_OFFSET UNITYSDK_OFFSET(0x17F6ABA0)
+#define CLASS_1_B48C41A65DB3FA8A_METHOD_1_EAD10B3E55E2C4C5_OFFSET UNITYSDK_OFFSET(0x17F6A760)
+#define CLASS_1_B48C41A65DB3FA8A__CTOR_OFFSET UNITYSDK_OFFSET(0x17F6AC50)
 
-inline static constexpr unsigned int Class_1_B48C41A65DB3FA8A_TypeDefinitionIndex = 54631;
+inline static constexpr unsigned int Class_1_B48C41A65DB3FA8A_TypeDefinitionIndex = 57352;
 
 class Class_1_B48C41A65DB3FA8A : public ::System::Object
 {
 public:
-	static ::Il2CppArray<::System::String*>** StaticGet_Field_1_0()
+	static ::Il2CppArray<::System::String*>** StaticGet_KLFMBIKGOHO()
 	{
-		return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B48C41A65DB3FA8A_TypeDefinitionIndex)->GetStaticField(0x68170);
+		return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B48C41A65DB3FA8A_TypeDefinitionIndex)->GetStaticField(0x64F70);
 	}
-	static ::RPG::GameCore::StringMemoryDictionary_1<::Il2CppArray<::RPG::GameCore::ResidentPossessionInfo*>*>** StaticGet_Field_1_1()
+	static ::RPG::GameCore::StringMemoryDictionary_1<::Il2CppArray<::RPG::GameCore::ResidentPossessionInfo*>*>** StaticGet_DLHHMLOCKIL()
 	{
-		return (::RPG::GameCore::StringMemoryDictionary_1<::Il2CppArray<::RPG::GameCore::ResidentPossessionInfo*>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B48C41A65DB3FA8A_TypeDefinitionIndex)->GetStaticField(0x68178);
+		return (::RPG::GameCore::StringMemoryDictionary_1<::Il2CppArray<::RPG::GameCore::ResidentPossessionInfo*>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B48C41A65DB3FA8A_TypeDefinitionIndex)->GetStaticField(0x64F78);
 	}
-	static ::Il2CppArray<::System::String*>** StaticGet_Field_1_2()
+	static ::Il2CppArray<::System::String*>** StaticGet_PFCDNDJGGMB()
 	{
-		return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B48C41A65DB3FA8A_TypeDefinitionIndex)->GetStaticField(0x68180);
+		return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B48C41A65DB3FA8A_TypeDefinitionIndex)->GetStaticField(0x64F80);
 	}
-	static ::RPG::GameCore::ResidentPossessionConfig** StaticGet_Field_1_3()
+	static ::RPG::GameCore::ResidentPossessionConfig** StaticGet_MAHJGKFIJNM()
 	{
-		return (::RPG::GameCore::ResidentPossessionConfig**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B48C41A65DB3FA8A_TypeDefinitionIndex)->GetStaticField(0x68188);
+		return (::RPG::GameCore::ResidentPossessionConfig**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B48C41A65DB3FA8A_TypeDefinitionIndex)->GetStaticField(0x64F88);
 	}
 
 	::System::Void _ctor()

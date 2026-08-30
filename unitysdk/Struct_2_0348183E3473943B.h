@@ -5,26 +5,26 @@
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define STRUCT_2_0348183E3473943B_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x38D1FA0)
-#define STRUCT_2_0348183E3473943B_EQUALS_OFFSET UNITYSDK_OFFSET(0x38D1F70)
-#define STRUCT_2_0348183E3473943B_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x38D2070)
-#define STRUCT_2_0348183E3473943B_METHOD_2_C74CF020AA42ED85_OFFSET UNITYSDK_OFFSET(0x167710)
-#define STRUCT_2_0348183E3473943B__CTOR_1_OFFSET UNITYSDK_OFFSET(0x38D1F60)
-#define STRUCT_2_0348183E3473943B__CTOR_OFFSET UNITYSDK_OFFSET(0x38D1F20)
+#define STRUCT_2_0348183E3473943B_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x3A4C960)
+#define STRUCT_2_0348183E3473943B_EQUALS_OFFSET UNITYSDK_OFFSET(0x3A4C930)
+#define STRUCT_2_0348183E3473943B_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3A4CA30)
+#define STRUCT_2_0348183E3473943B_METHOD_2_C74CF020AA42ED85_OFFSET UNITYSDK_OFFSET(0x19050)
+#define STRUCT_2_0348183E3473943B__CTOR_1_OFFSET UNITYSDK_OFFSET(0x3A4C920)
+#define STRUCT_2_0348183E3473943B__CTOR_OFFSET UNITYSDK_OFFSET(0x3A4C8E0)
 
-inline static constexpr unsigned int Struct_2_0348183E3473943B_TypeDefinitionIndex = 34848;
+inline static constexpr unsigned int Struct_2_0348183E3473943B_TypeDefinitionIndex = 35709;
 
 struct alignas(4) Struct_2_0348183E3473943B
 {
-	::System::Int32 Field_2_0; // 0x10
-	::System::Int32 Field_2_1; // 0x14
-	::System::Int32 Field_2_2; // 0x18
-	::System::Int32 Field_2_3; // 0x1C
-	::System::Int32 Field_2_4; // 0x20
-	::System::Int32 Field_2_5; // 0x24
-	::System::Int32 Field_2_6; // 0x28
-	::System::Int32 Field_2_7; // 0x2C
-	::System::Int32 Field_2_8; // 0x30
+	::System::Int32 JGEJHLKFPOA; // 0x10
+	::System::Int32 FGNKGMKHAIL; // 0x14
+	::System::Int32 HEAMMDKBHOG; // 0x18
+	::System::Int32 IHNHKFMECFJ; // 0x1C
+	::System::Int32 KNDFJPKHIIF; // 0x20
+	::System::Int32 HEFKPBBGLEF; // 0x24
+	::System::Int32 DDMNMHKBMDL; // 0x28
+	::System::Int32 PBKMJMFACIM; // 0x2C
+	::System::Int32 MEHGOMBAAPC; // 0x30
 
 	::System::Void _ctor(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32 a5, ::System::Int32 a6, ::System::Int32 a7, ::System::Int32 a8, ::System::Int32 a9)
 	{

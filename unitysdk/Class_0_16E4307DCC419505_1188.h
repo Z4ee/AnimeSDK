@@ -1,9 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Rect.h"
+#include "unitysdk/UnityEngine/Vector3.h"
 
-namespace RPG::Client::ActivityIdleLive { class SpecialEquip; }
+namespace UnityEngine { class GameObject; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1188_TypeDefinitionIndex = 71619;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1188_TypeDefinitionIndex = 73746;
 
 class Class_0_16E4307DCC419505_1188
 {

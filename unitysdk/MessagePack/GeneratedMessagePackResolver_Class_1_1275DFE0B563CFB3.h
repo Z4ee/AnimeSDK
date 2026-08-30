@@ -6,13 +6,13 @@ namespace MessagePack::Formatters { template <typename T> class IMessagePackForm
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int GeneratedMessagePackResolver_Class_1_1275DFE0B563CFB3_TypeDefinitionIndex = 34546;
+	inline static constexpr unsigned int GeneratedMessagePackResolver_Class_1_1275DFE0B563CFB3_TypeDefinitionIndex = 35407;
 
 	template <typename T>
 	class GeneratedMessagePackResolver_Class_1_1275DFE0B563CFB3 : public ::System::Object
 	{
 	public:
-		static ::MessagePack::Formatters::IMessagePackFormatter_1<T>** StaticGet_Field_1_0()
+		static ::MessagePack::Formatters::IMessagePackFormatter_1<T>** StaticGet_OFLAJJHOCEI()
 		{
 			return (::MessagePack::Formatters::IMessagePackFormatter_1<T>**)Il2CppClass::FromTypeDefinitionIndex(GeneratedMessagePackResolver_Class_1_1275DFE0B563CFB3_TypeDefinitionIndex)->GetStaticField(0x0);
 		}

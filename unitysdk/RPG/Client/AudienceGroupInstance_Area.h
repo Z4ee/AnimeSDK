@@ -7,7 +7,7 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AudienceGroupInstance_Area_TypeDefinitionIndex = 66067;
+	inline static constexpr unsigned int AudienceGroupInstance_Area_TypeDefinitionIndex = 69106;
 
 	struct alignas(8) AudienceGroupInstance_Area
 	{

@@ -8,28 +8,28 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class AvatarPropertyValue; }
 
-#define RPG_GAMECORE_GRIDFIGHTPROJECTIONCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D070B60)
-#define RPG_GAMECORE_GRIDFIGHTPROJECTIONCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D071020)
+#define RPG_GAMECORE_GRIDFIGHTPROJECTIONCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3B2C80)
+#define RPG_GAMECORE_GRIDFIGHTPROJECTIONCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3B3140)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightProjectionConfigRow_TypeDefinitionIndex = 12997;
+	inline static constexpr unsigned int GridFightProjectionConfigRow_TypeDefinitionIndex = 13388;
 
 	class GridFightProjectionConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::AvatarPropertyValue*>* AllMemberGeneralPropertyList; // 0x10
-		::Il2CppArray<::System::UInt32>* TraitList; // 0x18
-		::Il2CppArray<::RPG::GameCore::FixPoint>* ParamList; // 0x20
-		::Il2CppArray<::System::UInt32>* ActivationTraitLayerList; // 0x28
+		::Il2CppArray<::System::UInt32>* ActivationTraitLayerList; // 0x18
+		::Il2CppArray<::System::UInt32>* TraitList; // 0x20
+		::Il2CppArray<::RPG::GameCore::FixPoint>* ParamList; // 0x28
 		::Il2CppArray<::RPG::GameCore::AvatarPropertyValue*>* TraitListMemberGeneralPropertyList; // 0x30
-		::System::UInt32 ID; // 0x38
-		::System::UInt32 MazebuffID; // 0x3C
-		::System::UInt32 Rarity; // 0x40
-		::RPG::GameCore::GridFightProjectionUnlockType UnlockType; // 0x44
-		::RPG::Client::TextID ProjectionDesc; // 0x48
-		::RPG::Client::TextID ProjectionName; // 0x58
-		::System::UInt32 RoleID; // 0x68
+		::System::UInt32 RoleID; // 0x38
+		::System::UInt32 Rarity; // 0x3C
+		::RPG::GameCore::GridFightProjectionUnlockType UnlockType; // 0x40
+		::System::UInt32 MazebuffID; // 0x44
+		::System::UInt32 ID; // 0x48
+		::RPG::Client::TextID ProjectionName; // 0x50
+		::RPG::Client::TextID ProjectionDesc; // 0x60
 
 		::System::Void _ctor()
 		{

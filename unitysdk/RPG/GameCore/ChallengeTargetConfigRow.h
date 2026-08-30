@@ -6,23 +6,23 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CHALLENGETARGETCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B716CD0)
-#define RPG_GAMECORE_CHALLENGETARGETCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B716F70)
+#define RPG_GAMECORE_CHALLENGETARGETCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D114C80)
+#define RPG_GAMECORE_CHALLENGETARGETCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D114F20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChallengeTargetConfigRow_TypeDefinitionIndex = 12476;
+	inline static constexpr unsigned int ChallengeTargetConfigRow_TypeDefinitionIndex = 12867;
 
 	class ChallengeTargetConfigRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 ChallengeTargetParam2; // 0x10
-		::System::UInt32 ChallengeTargetParam1; // 0x14
-		::RPG::GameCore::ChallengeType ChallengeTargetType; // 0x18
-		::System::UInt32 RewardID; // 0x1C
-		::RPG::Client::TextID ChallengeTargetName; // 0x20
-		::System::UInt32 ChallengeTargetParam3; // 0x30
-		::System::UInt32 ID; // 0x34
+		::System::UInt32 ChallengeTargetParam3; // 0x10
+		::System::UInt32 RewardID; // 0x14
+		::System::UInt32 ChallengeTargetParam1; // 0x18
+		::RPG::GameCore::ChallengeType ChallengeTargetType; // 0x1C
+		::System::UInt32 ID; // 0x20
+		::System::UInt32 ChallengeTargetParam2; // 0x24
+		::RPG::Client::TextID ChallengeTargetName; // 0x28
 
 		::System::Void _ctor()
 		{

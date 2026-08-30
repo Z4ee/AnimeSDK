@@ -5,10 +5,10 @@
 namespace RPG::Client::OpenWorld { class PVSRuntimeReplayJudgeEntry; }
 namespace System { class String; }
 
-#define CLASS_1_70A99889D378ECCA___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17EFE2D0)
-#define CLASS_1_70A99889D378ECCA___C__DISPLAYCLASS13_0__RECORDSTAGE_B__0_OFFSET UNITYSDK_OFFSET(0x17EFE490)
+#define CLASS_1_70A99889D378ECCA___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0109A0)
+#define CLASS_1_70A99889D378ECCA___C__DISPLAYCLASS13_0__RECORDSTAGE_B__0_OFFSET UNITYSDK_OFFSET(0x1A010B60)
 
-inline static constexpr unsigned int Class_1_70A99889D378ECCA___c__DisplayClass13_0_TypeDefinitionIndex = 70363;
+inline static constexpr unsigned int Class_1_70A99889D378ECCA___c__DisplayClass13_0_TypeDefinitionIndex = 73663;
 
 class Class_1_70A99889D378ECCA___c__DisplayClass13_0 : public ::System::Object
 {

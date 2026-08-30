@@ -5,15 +5,15 @@
 class Class_1_D8BECDCE48063EC7;
 namespace RPG::GameCore { class DiceCombatPredicateConfig_DicePointCountCompare; }
 
-#define CLASS_3_C6AEAAD3D1CC3950_METHOD_3_C7FF21433486C346_OFFSET UNITYSDK_OFFSET(0x190F75D0)
-#define CLASS_3_C6AEAAD3D1CC3950__CTOR_OFFSET UNITYSDK_OFFSET(0x190F75B0)
+#define CLASS_3_C6AEAAD3D1CC3950_METHOD_3_C7FF21433486C346_OFFSET UNITYSDK_OFFSET(0x1AAF9970)
+#define CLASS_3_C6AEAAD3D1CC3950__CTOR_OFFSET UNITYSDK_OFFSET(0x1AAF9950)
 
-inline static constexpr unsigned int Class_3_C6AEAAD3D1CC3950_TypeDefinitionIndex = 34813;
+inline static constexpr unsigned int Class_3_C6AEAAD3D1CC3950_TypeDefinitionIndex = 35674;
 
 class Class_3_C6AEAAD3D1CC3950 : public ::Class_2_98A798C0C96648F9
 {
 public:
-	::RPG::GameCore::DiceCombatPredicateConfig_DicePointCountCompare* Field_3_0; // 0x30
+	::RPG::GameCore::DiceCombatPredicateConfig_DicePointCountCompare* IGHAHBNLIJA; // 0x30
 
 	::System::Void _ctor(::RPG::GameCore::DiceCombatPredicateConfig_DicePointCountCompare* a1, ::Class_1_D8BECDCE48063EC7* a2)
 	{

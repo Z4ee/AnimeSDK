@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int RenderingThreadingMode_TypeDefinitionIndex = 4715;
+	inline static constexpr unsigned int RenderingThreadingMode_TypeDefinitionIndex = 4725;
 
 	enum class RenderingThreadingMode : ::System::Int32
 	{

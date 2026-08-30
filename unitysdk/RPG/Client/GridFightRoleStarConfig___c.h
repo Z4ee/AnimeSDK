@@ -5,24 +5,24 @@
 namespace RPG::GameCore { class AvatarPropertyValue; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_GRIDFIGHTROLESTARCONFIG___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AD63DC0)
-#define RPG_CLIENT_GRIDFIGHTROLESTARCONFIG___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD63E00)
-#define RPG_CLIENT_GRIDFIGHTROLESTARCONFIG___C__GET_HPADDEDRATIO2_B__32_0_OFFSET UNITYSDK_OFFSET(0x1AD63E10)
+#define RPG_CLIENT_GRIDFIGHTROLESTARCONFIG___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C59D360)
+#define RPG_CLIENT_GRIDFIGHTROLESTARCONFIG___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1C59D3A0)
+#define RPG_CLIENT_GRIDFIGHTROLESTARCONFIG___C__GET_HPADDEDRATIO2_B__32_0_OFFSET UNITYSDK_OFFSET(0x1C59D3B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightRoleStarConfig___c_TypeDefinitionIndex = 62198;
+	inline static constexpr unsigned int GridFightRoleStarConfig___c_TypeDefinitionIndex = 65183;
 
 	class GridFightRoleStarConfig___c : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::GridFightRoleStarConfig___c** StaticGet___9()
 		{
-			return (::RPG::Client::GridFightRoleStarConfig___c**)Il2CppClass::FromTypeDefinitionIndex(GridFightRoleStarConfig___c_TypeDefinitionIndex)->GetStaticField(0x2BE60);
+			return (::RPG::Client::GridFightRoleStarConfig___c**)Il2CppClass::FromTypeDefinitionIndex(GridFightRoleStarConfig___c_TypeDefinitionIndex)->GetStaticField(0x41EF0);
 		}
 		static ::System::Func_2<::RPG::GameCore::AvatarPropertyValue*, ::System::Boolean>** StaticGet___9__32_0()
 		{
-			return (::System::Func_2<::RPG::GameCore::AvatarPropertyValue*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(GridFightRoleStarConfig___c_TypeDefinitionIndex)->GetStaticField(0x2BE68);
+			return (::System::Func_2<::RPG::GameCore::AvatarPropertyValue*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(GridFightRoleStarConfig___c_TypeDefinitionIndex)->GetStaticField(0x41EF8);
 		}
 
 		static ::System::Void _cctor()

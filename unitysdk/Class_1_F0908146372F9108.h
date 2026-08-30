@@ -7,16 +7,16 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define CLASS_1_F0908146372F9108_GETBOUNDCENTER_OFFSET UNITYSDK_OFFSET(0x1650A5A0)
-#define CLASS_1_F0908146372F9108_GETRECT_OFFSET UNITYSDK_OFFSET(0x1650A610)
-#define CLASS_1_F0908146372F9108__CTOR_OFFSET UNITYSDK_OFFSET(0x1650A3A0)
+#define CLASS_1_F0908146372F9108_GETBOUNDCENTER_OFFSET UNITYSDK_OFFSET(0x17F8FA80)
+#define CLASS_1_F0908146372F9108_GETRECT_OFFSET UNITYSDK_OFFSET(0x17F8FAF0)
+#define CLASS_1_F0908146372F9108__CTOR_OFFSET UNITYSDK_OFFSET(0x17F8F880)
 
-inline static constexpr unsigned int Class_1_F0908146372F9108_TypeDefinitionIndex = 45712;
+inline static constexpr unsigned int Class_1_F0908146372F9108_TypeDefinitionIndex = 47964;
 
 class Class_1_F0908146372F9108 : public ::System::Object
 {
 public:
-	::UnityEngine::Bounds Field_1_0; // 0x10
+	::UnityEngine::Bounds AFFLPJCLPMG; // 0x10
 
 	::System::Void _ctor(::UnityEngine::GameObject* a1)
 	{

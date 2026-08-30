@@ -4,7 +4,7 @@
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int RenderModel_TextureMap_t_TypeDefinitionIndex = 37164;
+	inline static constexpr unsigned int RenderModel_TextureMap_t_TypeDefinitionIndex = 38023;
 
 	struct alignas(8) RenderModel_TextureMap_t
 	{

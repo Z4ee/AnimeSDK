@@ -18,39 +18,39 @@ namespace RPG { template <typename T> class PoolablePooledSet_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_REFERENCEPOOL_ACQUIRESTRINGBUILDER_OFFSET UNITYSDK_OFFSET(0x1D2F6720)
-#define RPG_REFERENCEPOOL_ACQUIRE_OFFSET UNITYSDK_OFFSET(0x1D2F6140)
-#define RPG_REFERENCEPOOL_ADD_OFFSET UNITYSDK_OFFSET(0x1D2F67F0)
-#define RPG_REFERENCEPOOL_CLEARALL_OFFSET UNITYSDK_OFFSET(0x1D2F5FC0)
-#define RPG_REFERENCEPOOL_GETREFERENCECOLLECTION_OFFSET UNITYSDK_OFFSET(0x1D2F63C0)
-#define RPG_REFERENCEPOOL_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x1D2F5F90)
-#define RPG_REFERENCEPOOL_GET_ENABLESTRICTCHECK_OFFSET UNITYSDK_OFFSET(0x1D2F5F70)
-#define RPG_REFERENCEPOOL_INTERNALCHECKREFERENCETYPE_OFFSET UNITYSDK_OFFSET(0x1D2F6170)
-#define RPG_REFERENCEPOOL_RELEASEALLAUTORELEASEREFERENCE_OFFSET UNITYSDK_OFFSET(0x1D2F5950)
-#define RPG_REFERENCEPOOL_RELEASE_OFFSET UNITYSDK_OFFSET(0x1D2F6780)
-#define RPG_REFERENCEPOOL_REMOVEALL_OFFSET UNITYSDK_OFFSET(0x1D2F6A80)
-#define RPG_REFERENCEPOOL_REMOVE_OFFSET UNITYSDK_OFFSET(0x1D2F6990)
-#define RPG_REFERENCEPOOL_SET_ENABLESTRICTCHECK_OFFSET UNITYSDK_OFFSET(0x1D2F5F80)
-#define RPG_REFERENCEPOOL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D2F6C00)
+#define RPG_REFERENCEPOOL_ACQUIRESTRINGBUILDER_OFFSET UNITYSDK_OFFSET(0x1F003870)
+#define RPG_REFERENCEPOOL_ACQUIRE_OFFSET UNITYSDK_OFFSET(0x1F003290)
+#define RPG_REFERENCEPOOL_ADD_OFFSET UNITYSDK_OFFSET(0x1F003940)
+#define RPG_REFERENCEPOOL_CLEARALL_OFFSET UNITYSDK_OFFSET(0x1F003110)
+#define RPG_REFERENCEPOOL_GETREFERENCECOLLECTION_OFFSET UNITYSDK_OFFSET(0x1F003510)
+#define RPG_REFERENCEPOOL_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x1F0030E0)
+#define RPG_REFERENCEPOOL_GET_ENABLESTRICTCHECK_OFFSET UNITYSDK_OFFSET(0x1F0030C0)
+#define RPG_REFERENCEPOOL_INTERNALCHECKREFERENCETYPE_OFFSET UNITYSDK_OFFSET(0x1F0032C0)
+#define RPG_REFERENCEPOOL_RELEASEALLAUTORELEASEREFERENCE_OFFSET UNITYSDK_OFFSET(0x1F002AA0)
+#define RPG_REFERENCEPOOL_RELEASE_OFFSET UNITYSDK_OFFSET(0x1F0038D0)
+#define RPG_REFERENCEPOOL_REMOVEALL_OFFSET UNITYSDK_OFFSET(0x1F003BD0)
+#define RPG_REFERENCEPOOL_REMOVE_OFFSET UNITYSDK_OFFSET(0x1F003AE0)
+#define RPG_REFERENCEPOOL_SET_ENABLESTRICTCHECK_OFFSET UNITYSDK_OFFSET(0x1F0030D0)
+#define RPG_REFERENCEPOOL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F003D60)
 
 namespace RPG
 {
-	inline static constexpr unsigned int ReferencePool_TypeDefinitionIndex = 5625;
+	inline static constexpr unsigned int ReferencePool_TypeDefinitionIndex = 5614;
 
 	class ReferencePool : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::List_1<::RPG::ReferencePool_AutoReleaseReferenceObjectDatas>** StaticGet__AutoReleaseRefrenceDataList()
 		{
-			return (::System::Collections::Generic::List_1<::RPG::ReferencePool_AutoReleaseReferenceObjectDatas>**)Il2CppClass::FromTypeDefinitionIndex(ReferencePool_TypeDefinitionIndex)->GetStaticField(0x3D0);
+			return (::System::Collections::Generic::List_1<::RPG::ReferencePool_AutoReleaseReferenceObjectDatas>**)Il2CppClass::FromTypeDefinitionIndex(ReferencePool_TypeDefinitionIndex)->GetStaticField(0x2D0);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::System::RuntimeTypeHandle, ::RPG::ReferencePool_ReferenceCollection*>** StaticGet_s_ReferenceCollections()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::RuntimeTypeHandle, ::RPG::ReferencePool_ReferenceCollection*>**)Il2CppClass::FromTypeDefinitionIndex(ReferencePool_TypeDefinitionIndex)->GetStaticField(0x3D8);
+			return (::System::Collections::Generic::Dictionary_2<::System::RuntimeTypeHandle, ::RPG::ReferencePool_ReferenceCollection*>**)Il2CppClass::FromTypeDefinitionIndex(ReferencePool_TypeDefinitionIndex)->GetStaticField(0x2D8);
 		}
 		static ::System::Boolean* StaticGet_m_EnableStrictCheck()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ReferencePool_TypeDefinitionIndex)->GetStaticField(0x350);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ReferencePool_TypeDefinitionIndex)->GetStaticField(0x1F0);
 		}
 
 		static ::System::Void _cctor()

@@ -5,11 +5,11 @@
 namespace RPGTools::Timeline { class CameraShakeConfig; }
 namespace System { class String; }
 
-#define RPG_CLIENT_CONVINCESHAKECONFIG_CONVINCESHAKEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1802AA40)
+#define RPG_CLIENT_CONVINCESHAKECONFIG_CONVINCESHAKEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1A29D5C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ConvinceShakeConfig_ConvinceShakeData_TypeDefinitionIndex = 57954;
+	inline static constexpr unsigned int ConvinceShakeConfig_ConvinceShakeData_TypeDefinitionIndex = 60775;
 
 	class ConvinceShakeConfig_ConvinceShakeData : public ::System::Object
 	{

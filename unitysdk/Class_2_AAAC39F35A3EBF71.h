@@ -1,21 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_F9FBCC956DFCF137_4.h"
+#include "unitysdk/Class_1_F9FBCC956DFCF137_5.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 
 class Class_1_AC66714FF5876767;
 namespace RPG::GameCore { class CheckTeamEntityNumberAxis; }
 
-#define CLASS_2_AAAC39F35A3EBF71_METHOD_2_E7498AF04E8E685D_OFFSET UNITYSDK_OFFSET(0x18BAE700)
-#define CLASS_2_AAAC39F35A3EBF71_METHOD_2_FC1DB0E37466360A_OFFSET UNITYSDK_OFFSET(0x18BAE770)
-#define CLASS_2_AAAC39F35A3EBF71__CTOR_OFFSET UNITYSDK_OFFSET(0x18BAE6F0)
+#define CLASS_2_AAAC39F35A3EBF71_METHOD_2_E7498AF04E8E685D_OFFSET UNITYSDK_OFFSET(0x1A0871C0)
+#define CLASS_2_AAAC39F35A3EBF71_METHOD_2_FC1DB0E37466360A_OFFSET UNITYSDK_OFFSET(0x1A087230)
+#define CLASS_2_AAAC39F35A3EBF71__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0871B0)
 
-inline static constexpr unsigned int Class_2_AAAC39F35A3EBF71_TypeDefinitionIndex = 51905;
+inline static constexpr unsigned int Class_2_AAAC39F35A3EBF71_TypeDefinitionIndex = 54589;
 
-class Class_2_AAAC39F35A3EBF71 : public ::Class_1_F9FBCC956DFCF137_4
+class Class_2_AAAC39F35A3EBF71 : public ::Class_1_F9FBCC956DFCF137_5
 {
 public:
-	::RPG::GameCore::CheckTeamEntityNumberAxis* Field_2_0; // 0x18
+	::RPG::GameCore::CheckTeamEntityNumberAxis* IGHAHBNLIJA; // 0x18
 
 	::System::Void _ctor(::RPG::GameCore::CheckTeamEntityNumberAxis* a1, ::Class_1_AC66714FF5876767* a2)
 	{

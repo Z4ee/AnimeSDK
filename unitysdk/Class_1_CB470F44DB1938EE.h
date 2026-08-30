@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/GameCore/Rtcb_BreakActionOption.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_CB470F44DB1938EE_METHOD_1_78E90BF96470852B_OFFSET UNITYSDK_OFFSET(0x179B7AB0)
+#define CLASS_1_CB470F44DB1938EE_METHOD_1_78E90BF96470852B_OFFSET UNITYSDK_OFFSET(0x19FB8E20)
 
-inline static constexpr unsigned int Class_1_CB470F44DB1938EE_TypeDefinitionIndex = 51481;
+inline static constexpr unsigned int Class_1_CB470F44DB1938EE_TypeDefinitionIndex = 54165;
 
 class Class_1_CB470F44DB1938EE : public ::System::Object
 {

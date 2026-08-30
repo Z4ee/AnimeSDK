@@ -5,21 +5,21 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define CLASS_1_95F0C983DAD31028_METHOD_1_BA928C31B09C0D39_OFFSET UNITYSDK_OFFSET(0x1941C020)
-#define CLASS_1_95F0C983DAD31028__CTOR_OFFSET UNITYSDK_OFFSET(0x1941C2C0)
+#define CLASS_1_95F0C983DAD31028_METHOD_1_BA928C31B09C0D39_OFFSET UNITYSDK_OFFSET(0x1B4F7900)
+#define CLASS_1_95F0C983DAD31028__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4F7BA0)
 
-inline static constexpr unsigned int Class_1_95F0C983DAD31028_TypeDefinitionIndex = 13410;
+inline static constexpr unsigned int Class_1_95F0C983DAD31028_TypeDefinitionIndex = 13802;
 
 class Class_1_95F0C983DAD31028 : public ::System::Object
 {
 public:
-	::Il2CppArray<::System::UInt32>* Field_1_0; // 0x10
-	::Il2CppArray<::System::UInt32>* Field_1_1; // 0x18
-	::Il2CppArray<::System::UInt32>* Field_1_2; // 0x20
-	::Il2CppArray<::System::UInt32>* Field_1_3; // 0x28
-	::RPG::GameCore::LimaoNewsIssueHintPopupShowType Field_1_4; // 0x30
-	::System::UInt32 Field_1_5; // 0x34
-	::System::UInt32 Field_1_6; // 0x38
+	::Il2CppArray<::System::UInt32>* OMLFNLJDHKG; // 0x10
+	::Il2CppArray<::System::UInt32>* OOKJNEGICEI; // 0x18
+	::Il2CppArray<::System::UInt32>* LIDHGBEAJMA; // 0x20
+	::Il2CppArray<::System::UInt32>* BDKECJFBAJJ; // 0x28
+	::System::UInt32 IHALCLABNOJ; // 0x30
+	::System::UInt32 AEONKNDCDKN; // 0x34
+	::RPG::GameCore::LimaoNewsIssueHintPopupShowType CFKKNEHABHH; // 0x38
 
 	::System::Void _ctor()
 	{

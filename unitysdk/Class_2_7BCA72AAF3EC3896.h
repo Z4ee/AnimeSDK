@@ -5,16 +5,16 @@
 class Class_2_48488E8DBD9F6BCE;
 namespace RPG::GameCore { class DiceCombatTaskConfig_TriggerSpecialHint; }
 
-#define CLASS_2_7BCA72AAF3EC3896_METHOD_2_30D1209326FA87FC_OFFSET UNITYSDK_OFFSET(0x17B08240)
-#define CLASS_2_7BCA72AAF3EC3896__CTOR_OFFSET UNITYSDK_OFFSET(0x17B08230)
+#define CLASS_2_7BCA72AAF3EC3896_METHOD_2_30D1209326FA87FC_OFFSET UNITYSDK_OFFSET(0x19708360)
+#define CLASS_2_7BCA72AAF3EC3896__CTOR_OFFSET UNITYSDK_OFFSET(0x19708350)
 
-inline static constexpr unsigned int Class_2_7BCA72AAF3EC3896_TypeDefinitionIndex = 34757;
+inline static constexpr unsigned int Class_2_7BCA72AAF3EC3896_TypeDefinitionIndex = 35618;
 
 class Class_2_7BCA72AAF3EC3896 : public ::Class_1_B55037134F9E6688
 {
 public:
-	::Class_2_48488E8DBD9F6BCE* Field_2_0; // 0x18
-	::RPG::GameCore::DiceCombatTaskConfig_TriggerSpecialHint* Field_2_1; // 0x20
+	::Class_2_48488E8DBD9F6BCE* EEFMDEHLLFI; // 0x18
+	::RPG::GameCore::DiceCombatTaskConfig_TriggerSpecialHint* IGHAHBNLIJA; // 0x20
 
 	::System::Void _ctor(::RPG::GameCore::DiceCombatTaskConfig_TriggerSpecialHint* a1, ::Class_2_48488E8DBD9F6BCE* a2)
 	{

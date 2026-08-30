@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int Image_Origin360_TypeDefinitionIndex = 5896;
+	inline static constexpr unsigned int Image_Origin360_TypeDefinitionIndex = 6726;
 
 	enum class Image_Origin360 : ::System::Int32
 	{

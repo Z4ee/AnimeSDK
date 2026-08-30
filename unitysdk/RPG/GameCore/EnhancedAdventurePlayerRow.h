@@ -5,20 +5,20 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ENHANCEDADVENTUREPLAYERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C051170)
-#define RPG_GAMECORE_ENHANCEDADVENTUREPLAYERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1C051310)
+#define RPG_GAMECORE_ENHANCEDADVENTUREPLAYERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7C1000)
+#define RPG_GAMECORE_ENHANCEDADVENTUREPLAYERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7C11A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EnhancedAdventurePlayerRow_TypeDefinitionIndex = 12108;
+	inline static constexpr unsigned int EnhancedAdventurePlayerRow_TypeDefinitionIndex = 12497;
 
 	class EnhancedAdventurePlayerRow : public ::System::Object
 	{
 	public:
 		::System::String* PlayerJsonPath; // 0x10
 		::Il2CppArray<::System::UInt32>* MazeSkillIdList; // 0x18
-		::System::UInt32 ID; // 0x20
-		::System::UInt32 EnhancedID; // 0x24
+		::System::UInt32 EnhancedID; // 0x20
+		::System::UInt32 ID; // 0x24
 
 		::System::Void _ctor()
 		{

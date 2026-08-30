@@ -4,14 +4,14 @@
 
 namespace VLB { class VolumetricLightBeam; }
 
-#define STAGEHARMONYVOLUMETRICLIGHTBEAMBEHAVIORLINKSLOT_CLASS_1_E8A6F6EE8C8809C9__CTOR_OFFSET UNITYSDK_OFFSET(0x14ED2C30)
+#define STAGEHARMONYVOLUMETRICLIGHTBEAMBEHAVIORLINKSLOT_CLASS_1_E8A6F6EE8C8809C9__CTOR_OFFSET UNITYSDK_OFFSET(0x197F2C00)
 
-inline static constexpr unsigned int StageHarmonyVolumetricLightBeamBehaviorLinkSlot_Class_1_E8A6F6EE8C8809C9_TypeDefinitionIndex = 45595;
+inline static constexpr unsigned int StageHarmonyVolumetricLightBeamBehaviorLinkSlot_Class_1_E8A6F6EE8C8809C9_TypeDefinitionIndex = 47846;
 
 class StageHarmonyVolumetricLightBeamBehaviorLinkSlot_Class_1_E8A6F6EE8C8809C9 : public ::System::Object
 {
 public:
-	::VLB::VolumetricLightBeam* Field_1_0; // 0x10
+	::VLB::VolumetricLightBeam* JNDFNOIIIAG; // 0x10
 
 	::System::Void _ctor()
 	{

@@ -5,16 +5,16 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TaskConfig; }
 
-#define CLASS_2_E0E8B7AE6E718844_METHOD_2_1C228CF47BAE7E24_OFFSET UNITYSDK_OFFSET(0x1B50A330)
-#define CLASS_2_E0E8B7AE6E718844__CTOR_OFFSET UNITYSDK_OFFSET(0x1B50A450)
+#define CLASS_2_E0E8B7AE6E718844_METHOD_2_1C228CF47BAE7E24_OFFSET UNITYSDK_OFFSET(0x1CF7F340)
+#define CLASS_2_E0E8B7AE6E718844__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF7F460)
 
-inline static constexpr unsigned int Class_2_E0E8B7AE6E718844_TypeDefinitionIndex = 21596;
+inline static constexpr unsigned int Class_2_E0E8B7AE6E718844_TypeDefinitionIndex = 22159;
 
 class Class_2_E0E8B7AE6E718844 : public ::RPG::GameCore::JsonConfig
 {
 public:
-	::Il2CppArray<::RPG::GameCore::TaskConfig*>* Field_2_0; // 0x10
-	::System::UInt32 Field_2_1; // 0x18
+	::Il2CppArray<::RPG::GameCore::TaskConfig*>* LIBJIPECDLE; // 0x10
+	::System::UInt32 PKHFHLNCOGC; // 0x18
 
 	::System::Void _ctor()
 	{

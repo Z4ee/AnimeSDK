@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_CHOOSEDELIVERYMODULE___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1ADF0860)
-#define RPG_CLIENT_CHOOSEDELIVERYMODULE___C__DISPLAYCLASS16_0___ONFINISHEDMAINMISSION_B__0_OFFSET UNITYSDK_OFFSET(0x1ADF1F30)
+#define RPG_CLIENT_CHOOSEDELIVERYMODULE___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBFA280)
+#define RPG_CLIENT_CHOOSEDELIVERYMODULE___C__DISPLAYCLASS16_0___ONFINISHEDMAINMISSION_B__0_OFFSET UNITYSDK_OFFSET(0x1BBFB9B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChooseDeliveryModule___c__DisplayClass16_0_TypeDefinitionIndex = 60732;
+	inline static constexpr unsigned int ChooseDeliveryModule___c__DisplayClass16_0_TypeDefinitionIndex = 63585;
 
 	class ChooseDeliveryModule___c__DisplayClass16_0 : public ::System::Object
 	{

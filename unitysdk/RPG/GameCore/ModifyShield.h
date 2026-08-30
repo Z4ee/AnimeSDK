@@ -10,13 +10,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MODIFYSHIELD_METHOD_3_03EC4DD7A306E792_OFFSET UNITYSDK_OFFSET(0x1B1ACD60)
-#define RPG_GAMECORE_MODIFYSHIELD_METHOD_3_6A0C8F1DB13AE47D_OFFSET UNITYSDK_OFFSET(0x1B1ACD10)
-#define RPG_GAMECORE_MODIFYSHIELD__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1ACD50)
+#define RPG_GAMECORE_MODIFYSHIELD_METHOD_3_03EC4DD7A306E792_OFFSET UNITYSDK_OFFSET(0x1D1BD7D0)
+#define RPG_GAMECORE_MODIFYSHIELD_METHOD_3_6A0C8F1DB13AE47D_OFFSET UNITYSDK_OFFSET(0x1D1BD780)
+#define RPG_GAMECORE_MODIFYSHIELD__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1BD7C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifyShield_TypeDefinitionIndex = 22290;
+	inline static constexpr unsigned int ModifyShield_TypeDefinitionIndex = 22859;
 
 	class ModifyShield : public ::RPG::GameCore::TaskConfig
 	{

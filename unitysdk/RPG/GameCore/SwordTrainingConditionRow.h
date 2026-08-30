@@ -5,19 +5,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_SWORDTRAININGCONDITIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B43D120)
-#define RPG_GAMECORE_SWORDTRAININGCONDITIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B43D2B0)
+#define RPG_GAMECORE_SWORDTRAININGCONDITIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E155B20)
+#define RPG_GAMECORE_SWORDTRAININGCONDITIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1E155CB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SwordTrainingConditionRow_TypeDefinitionIndex = 11985;
+	inline static constexpr unsigned int SwordTrainingConditionRow_TypeDefinitionIndex = 12374;
 
 	class SwordTrainingConditionRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* ParamList; // 0x10
-		::System::UInt32 ConditionID; // 0x18
-		::RPG::GameCore::SwordTrainingConditionType CheckType; // 0x1C
+		::RPG::GameCore::SwordTrainingConditionType CheckType; // 0x18
+		::System::UInt32 ConditionID; // 0x1C
 
 		::System::Void _ctor()
 		{

@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_UNITYTIMETOOL_METHOD_1_276036CDF4BFF5A6_OFFSET UNITYSDK_OFFSET(0x1D2CE690)
-#define RPG_UNITYTIMETOOL_METHOD_1_5323F2DF46A044DA_OFFSET UNITYSDK_OFFSET(0x1D2CE630)
-#define RPG_UNITYTIMETOOL_METHOD_1_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0x1D2CE7E0)
-#define RPG_UNITYTIMETOOL__INIT_OFFSET UNITYSDK_OFFSET(0x1D2CE680)
+#define RPG_UNITYTIMETOOL_METHOD_1_276036CDF4BFF5A6_OFFSET UNITYSDK_OFFSET(0x1EFCB480)
+#define RPG_UNITYTIMETOOL_METHOD_1_5323F2DF46A044DA_OFFSET UNITYSDK_OFFSET(0x1EFCB420)
+#define RPG_UNITYTIMETOOL_METHOD_1_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0x1EFCB5D0)
+#define RPG_UNITYTIMETOOL__INIT_OFFSET UNITYSDK_OFFSET(0x1EFCB470)
 
 namespace RPG
 {
-	inline static constexpr unsigned int UnityTimeTool_TypeDefinitionIndex = 33747;
+	inline static constexpr unsigned int UnityTimeTool_TypeDefinitionIndex = 34513;
 
 	class UnityTimeTool : public ::System::Object
 	{
 	public:
-		static ::System::UInt32* StaticGet_Field_1_0()
+		static ::System::UInt32* StaticGet_LOOEBDMMDGI()
 		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(UnityTimeTool_TypeDefinitionIndex)->GetStaticField(0x7F0);
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(UnityTimeTool_TypeDefinitionIndex)->GetStaticField(0x6E0);
 		}
 
 		static ::System::Single Method_1_5323F2DF46A044DA()

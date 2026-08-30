@@ -6,16 +6,16 @@ namespace RPG::Client { class IMissionChroniclePathUnlockConditionData; }
 namespace RPG::Client { class MissionChronicleBasePathData; }
 namespace System::Collections::Generic { template <typename T> class ICollection_1; }
 
-#define CLASS_1_8DAB430479484741_METHOD_1_623BFB70F2262F9C_OFFSET UNITYSDK_OFFSET(0x17602A30)
-#define CLASS_1_8DAB430479484741_METHOD_1_D3246319EBFD849A_OFFSET UNITYSDK_OFFSET(0x17602860)
-#define CLASS_1_8DAB430479484741__CTOR_OFFSET UNITYSDK_OFFSET(0x17602850)
+#define CLASS_1_8DAB430479484741_METHOD_1_623BFB70F2262F9C_OFFSET UNITYSDK_OFFSET(0x18CE0000)
+#define CLASS_1_8DAB430479484741_METHOD_1_D3246319EBFD849A_OFFSET UNITYSDK_OFFSET(0x18CDFE30)
+#define CLASS_1_8DAB430479484741__CTOR_OFFSET UNITYSDK_OFFSET(0x18CDFE20)
 
-inline static constexpr unsigned int Class_1_8DAB430479484741_TypeDefinitionIndex = 63173;
+inline static constexpr unsigned int Class_1_8DAB430479484741_TypeDefinitionIndex = 66158;
 
 class Class_1_8DAB430479484741 : public ::System::Object
 {
 public:
-	::RPG::Client::MissionChronicleBasePathData* Field_1_0; // 0x10
+	::RPG::Client::MissionChronicleBasePathData* DDPCPAHNLCL; // 0x10
 
 	::System::Void _ctor(::RPG::Client::MissionChronicleBasePathData* a1)
 	{

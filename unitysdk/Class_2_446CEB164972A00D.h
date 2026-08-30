@@ -5,14 +5,14 @@
 
 namespace RPG::Client { class RogueTournTitanBlessInfo; }
 
-#define CLASS_2_446CEB164972A00D__CTOR_OFFSET UNITYSDK_OFFSET(0x16B73F20)
+#define CLASS_2_446CEB164972A00D__CTOR_OFFSET UNITYSDK_OFFSET(0x184DA930)
 
-inline static constexpr unsigned int Class_2_446CEB164972A00D_TypeDefinitionIndex = 64124;
+inline static constexpr unsigned int Class_2_446CEB164972A00D_TypeDefinitionIndex = 67119;
 
 class Class_2_446CEB164972A00D : public ::Class_1_CD6736B46496BBF4
 {
 public:
-	::RPG::Client::RogueTournTitanBlessInfo* Field_2_0; // 0x20
+	::RPG::Client::RogueTournTitanBlessInfo* DIMPJFDCPCP; // 0x20
 
 	::System::Void _ctor(::Enum_3_63BCB6C405BA8A1D_3 a1, ::RPG::Client::RogueTournTitanBlessInfo* a2)
 	{

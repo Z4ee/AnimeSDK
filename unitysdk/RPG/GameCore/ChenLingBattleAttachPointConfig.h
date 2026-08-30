@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHENLINGBATTLEATTACHPOINTCONFIG_METHOD_2_905FA83FF24AF8E4_OFFSET UNITYSDK_OFFSET(0x1C378D20)
-#define RPG_GAMECORE_CHENLINGBATTLEATTACHPOINTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C378EA0)
+#define RPG_GAMECORE_CHENLINGBATTLEATTACHPOINTCONFIG_METHOD_2_905FA83FF24AF8E4_OFFSET UNITYSDK_OFFSET(0x1E009940)
+#define RPG_GAMECORE_CHENLINGBATTLEATTACHPOINTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1E009AC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingBattleAttachPointConfig_TypeDefinitionIndex = 15103;
+	inline static constexpr unsigned int ChenLingBattleAttachPointConfig_TypeDefinitionIndex = 15540;
 
 	class ChenLingBattleAttachPointConfig : public ::RPG::GameCore::JsonConfig
 	{

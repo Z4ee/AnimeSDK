@@ -9,23 +9,23 @@ namespace RPG::Client { class PipelineCameraEngine; }
 namespace RPG::GameCore { class VCameraShakeV2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_LOOPTOWERANIMBEHAVIOR_CLASS_1_2DA16813DB0B3208_METHOD_1_4BC0DE51B4283898_OFFSET UNITYSDK_OFFSET(0x15BF2C60)
-#define RPG_CLIENT_LOOPTOWERANIMBEHAVIOR_CLASS_1_2DA16813DB0B3208_METHOD_1_9B9D8886EE7C5A8A_OFFSET UNITYSDK_OFFSET(0x15BF3360)
-#define RPG_CLIENT_LOOPTOWERANIMBEHAVIOR_CLASS_1_2DA16813DB0B3208_METHOD_1_AFC4F0A8F621F288_OFFSET UNITYSDK_OFFSET(0x15BF30D0)
-#define RPG_CLIENT_LOOPTOWERANIMBEHAVIOR_CLASS_1_2DA16813DB0B3208__CTOR_OFFSET UNITYSDK_OFFSET(0x15BF2530)
+#define RPG_CLIENT_LOOPTOWERANIMBEHAVIOR_CLASS_1_2DA16813DB0B3208_METHOD_1_4BC0DE51B4283898_OFFSET UNITYSDK_OFFSET(0x1748BE30)
+#define RPG_CLIENT_LOOPTOWERANIMBEHAVIOR_CLASS_1_2DA16813DB0B3208_METHOD_1_9B9D8886EE7C5A8A_OFFSET UNITYSDK_OFFSET(0x1748C530)
+#define RPG_CLIENT_LOOPTOWERANIMBEHAVIOR_CLASS_1_2DA16813DB0B3208_METHOD_1_AFC4F0A8F621F288_OFFSET UNITYSDK_OFFSET(0x1748C2A0)
+#define RPG_CLIENT_LOOPTOWERANIMBEHAVIOR_CLASS_1_2DA16813DB0B3208__CTOR_OFFSET UNITYSDK_OFFSET(0x1748B730)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LoopTowerAnimBehavior_Class_1_2DA16813DB0B3208_TypeDefinitionIndex = 67727;
+	inline static constexpr unsigned int LoopTowerAnimBehavior_Class_1_2DA16813DB0B3208_TypeDefinitionIndex = 70887;
 
 	class LoopTowerAnimBehavior_Class_1_2DA16813DB0B3208 : public ::System::Object
 	{
 	public:
-		::Class_1_469A5FF005CF3F5C* Field_1_0; // 0x10
-		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* Field_1_1; // 0x18
-		::RPG::Client::PipelineCameraEngine* Field_1_2; // 0x20
-		::System::Single Field_1_3; // 0x28
-		::RPG::Client::LoopTowerAnimBehavior_TowerDirectionType Field_1_4; // 0x2C
+		::Class_1_469A5FF005CF3F5C* ABLGIJMIFBI; // 0x10
+		::RPG::Client::PipelineCameraEngine* NJDDFOALODJ; // 0x18
+		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* HNAJLHHAJCA; // 0x20
+		::System::Single CHKGHIJNNJK; // 0x28
+		::RPG::Client::LoopTowerAnimBehavior_TowerDirectionType DJKDDPLPLFK; // 0x2C
 
 		::System::Void _ctor(::System::Single a1, ::RPG::Client::LoopTowerAnimBehavior_TowerDirectionType a2)
 		{

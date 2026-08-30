@@ -4,18 +4,18 @@
 
 namespace RPG::Client::Promises { class Promise; }
 
-#define CLASS_1_4845F7398617F812_METHOD_1_1D1713DC50EF2833_OFFSET UNITYSDK_OFFSET(0x18B25630)
-#define CLASS_1_4845F7398617F812_METHOD_1_9C06C768B25E4E13_OFFSET UNITYSDK_OFFSET(0x18B255B0)
-#define CLASS_1_4845F7398617F812__CTOR_OFFSET UNITYSDK_OFFSET(0x18B25620)
+#define CLASS_1_4845F7398617F812_METHOD_1_1D1713DC50EF2833_OFFSET UNITYSDK_OFFSET(0x19F99270)
+#define CLASS_1_4845F7398617F812_METHOD_1_9C06C768B25E4E13_OFFSET UNITYSDK_OFFSET(0x19F991F0)
+#define CLASS_1_4845F7398617F812__CTOR_OFFSET UNITYSDK_OFFSET(0x19F99260)
 
-inline static constexpr unsigned int Class_1_4845F7398617F812_TypeDefinitionIndex = 69762;
+inline static constexpr unsigned int Class_1_4845F7398617F812_TypeDefinitionIndex = 73020;
 
 class Class_1_4845F7398617F812 : public ::System::Object
 {
 public:
-	static ::Class_1_4845F7398617F812** StaticGet_Field_1_0()
+	static ::Class_1_4845F7398617F812** StaticGet_FLMODBLFAGD()
 	{
-		return (::Class_1_4845F7398617F812**)Il2CppClass::FromTypeDefinitionIndex(Class_1_4845F7398617F812_TypeDefinitionIndex)->GetStaticField(0x8C70);
+		return (::Class_1_4845F7398617F812**)Il2CppClass::FromTypeDefinitionIndex(Class_1_4845F7398617F812_TypeDefinitionIndex)->GetStaticField(0x33880);
 	}
 
 	::System::Void _ctor()

@@ -5,15 +5,15 @@
 
 namespace RPG { template <typename T> class PoolList_1; }
 
-#define CLASS_1_4524BB15C2CC3080__CTOR_OFFSET UNITYSDK_OFFSET(0x180DC4A0)
+#define CLASS_1_4524BB15C2CC3080__CTOR_OFFSET UNITYSDK_OFFSET(0x1BAAF050)
 
-inline static constexpr unsigned int Class_1_4524BB15C2CC3080_TypeDefinitionIndex = 40092;
+inline static constexpr unsigned int Class_1_4524BB15C2CC3080_TypeDefinitionIndex = 40971;
 
 class Class_1_4524BB15C2CC3080 : public ::System::Object
 {
 public:
-	::RPG::PoolList_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>* Field_1_0; // 0x10
-	::System::Boolean Field_1_1; // 0x18
+	::RPG::PoolList_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>* FJFMCGDEBGA; // 0x10
+	::System::Boolean CFADENBPABO; // 0x18
 
 	::System::Void _ctor()
 	{

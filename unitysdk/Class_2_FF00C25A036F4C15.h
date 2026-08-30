@@ -6,15 +6,15 @@ class Class_2_21AD365C113DC484;
 class Class_2_F3C45F1FC7349B6E;
 namespace RPG::GameCore { class CakeRaceActionAddBuff; }
 
-#define CLASS_2_FF00C25A036F4C15_METHOD_2_76FB642B38F7C442_OFFSET UNITYSDK_OFFSET(0x18D2AF70)
-#define CLASS_2_FF00C25A036F4C15__CTOR_OFFSET UNITYSDK_OFFSET(0x18D2AF60)
+#define CLASS_2_FF00C25A036F4C15_METHOD_2_76FB642B38F7C442_OFFSET UNITYSDK_OFFSET(0x1A569E50)
+#define CLASS_2_FF00C25A036F4C15__CTOR_OFFSET UNITYSDK_OFFSET(0x1A569E40)
 
-inline static constexpr unsigned int Class_2_FF00C25A036F4C15_TypeDefinitionIndex = 35828;
+inline static constexpr unsigned int Class_2_FF00C25A036F4C15_TypeDefinitionIndex = 36689;
 
 class Class_2_FF00C25A036F4C15 : public ::Class_1_E559374AC4E5AD13
 {
 public:
-	::RPG::GameCore::CakeRaceActionAddBuff* Field_2_0; // 0x10
+	::RPG::GameCore::CakeRaceActionAddBuff* LEIJDAMHJPH; // 0x10
 
 	::System::Void _ctor(::RPG::GameCore::CakeRaceActionAddBuff* a1)
 	{

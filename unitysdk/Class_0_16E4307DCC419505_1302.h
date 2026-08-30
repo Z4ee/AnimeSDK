@@ -1,10 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/GameCore/FateRinHouguOwnerType.h"
 
-class Class_1_DD62B922D9C7B62B;
+class Class_1_B8FF829EFDD29B81;
+namespace RPG::GameCore { class BaseChenLingBattleEffect; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1302_TypeDefinitionIndex = 76130;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1302_TypeDefinitionIndex = 77419;
 
 class Class_0_16E4307DCC419505_1302
 {

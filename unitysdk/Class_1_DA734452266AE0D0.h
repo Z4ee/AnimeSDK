@@ -3,15 +3,15 @@
 #include "unitysdk/RPG/Client/LittleGame/PixAir/PixAirGameState.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_DA734452266AE0D0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8ECF50)
+#define CLASS_1_DA734452266AE0D0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C506BA0)
 
-inline static constexpr unsigned int Class_1_DA734452266AE0D0_TypeDefinitionIndex = 41078;
+inline static constexpr unsigned int Class_1_DA734452266AE0D0_TypeDefinitionIndex = 42038;
 
 class Class_1_DA734452266AE0D0 : public ::System::Object
 {
 public:
-	::RPG::Client::LittleGame::PixAir::PixAirGameState Field_1_0; // 0x10
-	::System::Boolean Field_1_1; // 0x14
+	::System::Boolean KBEJHKAFIIF; // 0x10
+	::RPG::Client::LittleGame::PixAir::PixAirGameState MEPFOEEGBEA; // 0x14
 
 	::System::Void _ctor()
 	{

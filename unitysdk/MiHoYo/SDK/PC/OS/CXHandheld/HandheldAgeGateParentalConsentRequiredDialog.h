@@ -1,0 +1,180 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/MiHoYo/SDK/AgeGateFlowType.h"
+#include "unitysdk/MiHoYo/SDK/Console/ConsoleDialogBase.h"
+
+namespace MiHoYo::SDK::UI::OS { class IAgeGateParentalPermissionDialog; }
+namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
+namespace System::Collections { class IEnumerator; }
+namespace UnityEngine::UI { class Text; }
+
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEPARENTALCONSENTREQUIREDDIALOG_AWAKE_OFFSET UNITYSDK_OFFSET(0x1A235930)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEPARENTALCONSENTREQUIREDDIALOG_CLOSEPRESSED_OFFSET UNITYSDK_OFFSET(0x1A236EE0)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEPARENTALCONSENTREQUIREDDIALOG_COUNTDOWNCOROUTINE_OFFSET UNITYSDK_OFFSET(0x1A236D80)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEPARENTALCONSENTREQUIREDDIALOG_GET_COOLDOWNTIME_OFFSET UNITYSDK_OFFSET(0x1A2358F0)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEPARENTALCONSENTREQUIREDDIALOG_GET_INTERACTABLE_OFFSET UNITYSDK_OFFSET(0x1A235910)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEPARENTALCONSENTREQUIREDDIALOG_GET_ONCLOSE_OFFSET UNITYSDK_OFFSET(0x1A2358D0)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEPARENTALCONSENTREQUIREDDIALOG_GET_ONRESENDEMAIL_OFFSET UNITYSDK_OFFSET(0x1A2358B0)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEPARENTALCONSENTREQUIREDDIALOG_HIDEDIALOG_OFFSET UNITYSDK_OFFSET(0x1A236B70)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEPARENTALCONSENTREQUIREDDIALOG_HIDE_OFFSET UNITYSDK_OFFSET(0x1A236C80)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEPARENTALCONSENTREQUIREDDIALOG_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1A236760)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEPARENTALCONSENTREQUIREDDIALOG_SENDEMAILPRESSED_OFFSET UNITYSDK_OFFSET(0x1A236730)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEPARENTALCONSENTREQUIREDDIALOG_SETEMAIL_OFFSET UNITYSDK_OFFSET(0x1A2368C0)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEPARENTALCONSENTREQUIREDDIALOG_SETINTERACTABLE_OFFSET UNITYSDK_OFFSET(0x1A236F90)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEPARENTALCONSENTREQUIREDDIALOG_SETMULTILANGUAGETEXT_OFFSET UNITYSDK_OFFSET(0x1A236960)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEPARENTALCONSENTREQUIREDDIALOG_SET_COOLDOWNTIME_OFFSET UNITYSDK_OFFSET(0x1A235900)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEPARENTALCONSENTREQUIREDDIALOG_SET_INTERACTABLE_OFFSET UNITYSDK_OFFSET(0x1A235920)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEPARENTALCONSENTREQUIREDDIALOG_SET_ONCLOSE_OFFSET UNITYSDK_OFFSET(0x1A2358E0)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEPARENTALCONSENTREQUIREDDIALOG_SET_ONRESENDEMAIL_OFFSET UNITYSDK_OFFSET(0x1A2358C0)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEPARENTALCONSENTREQUIREDDIALOG_SHOW_OFFSET UNITYSDK_OFFSET(0x1A236DD0)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEPARENTALCONSENTREQUIREDDIALOG_STARTCOUNTDOWN_OFFSET UNITYSDK_OFFSET(0x1A236D10)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEPARENTALCONSENTREQUIREDDIALOG_UPDATE_OFFSET UNITYSDK_OFFSET(0x1A2362F0)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEPARENTALCONSENTREQUIREDDIALOG__CLOSEPRESSED_G__ONCLOSEPRESSEDROUTINE_39_0_OFFSET UNITYSDK_OFFSET(0x1A236F40)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEPARENTALCONSENTREQUIREDDIALOG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A236FB0)
+
+namespace MiHoYo::SDK::PC::OS::CXHandheld
+{
+	inline static constexpr unsigned int HandheldAgeGateParentalConsentRequiredDialog_TypeDefinitionIndex = 8732;
+
+	class HandheldAgeGateParentalConsentRequiredDialog : public ::MiHoYo::SDK::Console::ConsoleDialogBase
+	{
+	public:
+		static ::MiHoYo::SDK::PC::OS::CXHandheld::HandheldAgeGateParentalConsentRequiredDialog** StaticGet_Instance()
+		{
+			return (::MiHoYo::SDK::PC::OS::CXHandheld::HandheldAgeGateParentalConsentRequiredDialog**)Il2CppClass::FromTypeDefinitionIndex(HandheldAgeGateParentalConsentRequiredDialog_TypeDefinitionIndex)->GetStaticField(0x18990);
+		}
+		// static const ::System::String* PrefabName; // 0x0
+		// static const ::System::String* titleTextPath; // 0x0
+		// static const ::System::String* descTextPath; // 0x0
+		// static const ::System::String* rightTitleTextPath; // 0x0
+		// static const ::System::String* parentEmailTextPath; // 0x0
+		// static const ::System::String* countdownSecondsTextPath; // 0x0
+		// static const ::System::String* tipsTextPath; // 0x0
+		::UnityEngine::UI::Text* countDownText; // 0xC0
+		::UnityEngine::UI::Text* parentEmailText; // 0xC8
+		::System::String* emailTextStr; // 0xD0
+		::System::Action_2<::MiHoYo::SDK::UI::OS::IAgeGateParentalPermissionDialog*, ::System::Boolean>* _OnResendEmail_k__BackingField; // 0xD8
+		::System::Action_1<::MiHoYo::SDK::UI::OS::IAgeGateParentalPermissionDialog*>* _OnClose_k__BackingField; // 0xE0
+		::System::Int32 _cooldownTime_k__BackingField; // 0xE8
+		::System::Boolean isCountingDown; // 0xEC
+		::System::Boolean _Interactable_k__BackingField; // 0xED
+		::MiHoYo::SDK::AgeGateFlowType Type; // 0xF0
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEPARENTALCONSENTREQUIREDDIALOG__CTOR_OFFSET))(this);
+		}
+
+		::System::Action_2<::MiHoYo::SDK::UI::OS::IAgeGateParentalPermissionDialog*, ::System::Boolean>* get_OnResendEmail()
+		{
+			return ((::System::Action_2<::MiHoYo::SDK::UI::OS::IAgeGateParentalPermissionDialog*, ::System::Boolean>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEPARENTALCONSENTREQUIREDDIALOG_GET_ONRESENDEMAIL_OFFSET))(this);
+		}
+
+		::System::Void set_OnResendEmail(::System::Action_2<::MiHoYo::SDK::UI::OS::IAgeGateParentalPermissionDialog*, ::System::Boolean>* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::MiHoYo::SDK::UI::OS::IAgeGateParentalPermissionDialog*, ::System::Boolean>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEPARENTALCONSENTREQUIREDDIALOG_SET_ONRESENDEMAIL_OFFSET))(this, a1);
+		}
+
+		::System::Action_1<::MiHoYo::SDK::UI::OS::IAgeGateParentalPermissionDialog*>* get_OnClose()
+		{
+			return ((::System::Action_1<::MiHoYo::SDK::UI::OS::IAgeGateParentalPermissionDialog*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEPARENTALCONSENTREQUIREDDIALOG_GET_ONCLOSE_OFFSET))(this);
+		}
+
+		::System::Void set_OnClose(::System::Action_1<::MiHoYo::SDK::UI::OS::IAgeGateParentalPermissionDialog*>* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::MiHoYo::SDK::UI::OS::IAgeGateParentalPermissionDialog*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEPARENTALCONSENTREQUIREDDIALOG_SET_ONCLOSE_OFFSET))(this, a1);
+		}
+
+		::System::Int32 get_cooldownTime()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEPARENTALCONSENTREQUIREDDIALOG_GET_COOLDOWNTIME_OFFSET))(this);
+		}
+
+		::System::Void set_cooldownTime(::System::Int32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEPARENTALCONSENTREQUIREDDIALOG_SET_COOLDOWNTIME_OFFSET))(this, a1);
+		}
+
+		::System::Boolean get_Interactable()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEPARENTALCONSENTREQUIREDDIALOG_GET_INTERACTABLE_OFFSET))(this);
+		}
+
+		::System::Void set_Interactable(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEPARENTALCONSENTREQUIREDDIALOG_SET_INTERACTABLE_OFFSET))(this, a1);
+		}
+
+		::System::Void Awake()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEPARENTALCONSENTREQUIREDDIALOG_AWAKE_OFFSET))(this);
+		}
+
+		::System::Void Update()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEPARENTALCONSENTREQUIREDDIALOG_UPDATE_OFFSET))(this);
+		}
+
+		::System::Void OnEnable()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEPARENTALCONSENTREQUIREDDIALOG_ONENABLE_OFFSET))(this);
+		}
+
+		::System::Void SetMultiLanguageText()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEPARENTALCONSENTREQUIREDDIALOG_SETMULTILANGUAGETEXT_OFFSET))(this);
+		}
+
+		::System::Void HideDialog()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEPARENTALCONSENTREQUIREDDIALOG_HIDEDIALOG_OFFSET))(this);
+		}
+
+		::System::Boolean StartCountdown(::System::Int32 a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEPARENTALCONSENTREQUIREDDIALOG_STARTCOUNTDOWN_OFFSET))(this, a1);
+		}
+
+		::System::Void SetEmail(::System::String* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEPARENTALCONSENTREQUIREDDIALOG_SETEMAIL_OFFSET))(this, a1);
+		}
+
+		static ::System::Void Show(::System::String* a1, ::MiHoYo::SDK::AgeGateFlowType a2)
+		{
+			return ((::System::Void(*)(::System::String*, ::MiHoYo::SDK::AgeGateFlowType))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEPARENTALCONSENTREQUIREDDIALOG_SHOW_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Hide()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEPARENTALCONSENTREQUIREDDIALOG_HIDE_OFFSET))();
+		}
+
+		::System::Void SendEmailPressed()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEPARENTALCONSENTREQUIREDDIALOG_SENDEMAILPRESSED_OFFSET))(this);
+		}
+
+		::System::Void ClosePressed()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEPARENTALCONSENTREQUIREDDIALOG_CLOSEPRESSED_OFFSET))(this);
+		}
+
+		::System::Void SetInteractable(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEPARENTALCONSENTREQUIREDDIALOG_SETINTERACTABLE_OFFSET))(this, a1);
+		}
+
+		::System::Collections::IEnumerator* CountdownCoroutine(::System::Int32 a1)
+		{
+			return ((::System::Collections::IEnumerator*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEPARENTALCONSENTREQUIREDDIALOG_COUNTDOWNCOROUTINE_OFFSET))(this, a1);
+		}
+
+		::System::Collections::IEnumerator* _ClosePressed_g__OnClosePressedRoutine_39_0()
+		{
+			return ((::System::Collections::IEnumerator*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEPARENTALCONSENTREQUIREDDIALOG__CLOSEPRESSED_G__ONCLOSEPRESSEDROUTINE_39_0_OFFSET))(this);
+		}
+	};
+}

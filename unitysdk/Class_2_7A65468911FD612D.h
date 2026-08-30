@@ -5,16 +5,16 @@
 class Class_3_F65294BF89CA0784;
 namespace RPG::GameCore { class DiceCombatAIEffectEvaluatorConfig_DiceAllDiff; }
 
-#define CLASS_2_7A65468911FD612D_METHOD_2_124E7DAB85EAFECD_OFFSET UNITYSDK_OFFSET(0x190E33D0)
-#define CLASS_2_7A65468911FD612D__CTOR_OFFSET UNITYSDK_OFFSET(0x190E33C0)
+#define CLASS_2_7A65468911FD612D_METHOD_2_124E7DAB85EAFECD_OFFSET UNITYSDK_OFFSET(0x1AAE5890)
+#define CLASS_2_7A65468911FD612D__CTOR_OFFSET UNITYSDK_OFFSET(0x1AAE5880)
 
-inline static constexpr unsigned int Class_2_7A65468911FD612D_TypeDefinitionIndex = 34673;
+inline static constexpr unsigned int Class_2_7A65468911FD612D_TypeDefinitionIndex = 35534;
 
 class Class_2_7A65468911FD612D : public ::Class_1_43BD383C98B4C0C5_17
 {
 public:
-	::Class_3_F65294BF89CA0784* Field_2_0; // 0x10
-	::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig_DiceAllDiff* Field_2_1; // 0x18
+	::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig_DiceAllDiff* IGHAHBNLIJA; // 0x10
+	::Class_3_F65294BF89CA0784* EEFMDEHLLFI; // 0x18
 
 	::System::Void _ctor(::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig_DiceAllDiff* a1, ::Class_3_F65294BF89CA0784* a2)
 	{

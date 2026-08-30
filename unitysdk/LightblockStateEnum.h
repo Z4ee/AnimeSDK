@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int LightblockStateEnum_TypeDefinitionIndex = 45604;
+inline static constexpr unsigned int LightblockStateEnum_TypeDefinitionIndex = 47855;
 
 enum class LightblockStateEnum : ::System::Int32
 {

@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int EUpdateSource_TypeDefinitionIndex = 5134;
+	inline static constexpr unsigned int EUpdateSource_TypeDefinitionIndex = 5696;
 
 	enum class EUpdateSource : ::System::Int32
 	{

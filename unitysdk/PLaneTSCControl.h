@@ -7,34 +7,34 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Renderer; }
 
-#define PLANETSCCONTROL_CLEARRENDERERS_OFFSET UNITYSDK_OFFSET(0x1427EAC0)
-#define PLANETSCCONTROL_COLLECTRENDERERS_OFFSET UNITYSDK_OFFSET(0x1427E9C0)
-#define PLANETSCCONTROL_STARTCLIP_OFFSET UNITYSDK_OFFSET(0x1427EB30)
-#define PLANETSCCONTROL_STOPCLIP_OFFSET UNITYSDK_OFFSET(0x1427EDA0)
-#define PLANETSCCONTROL_UPDATE_OFFSET UNITYSDK_OFFSET(0x1427E500)
-#define PLANETSCCONTROL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1427F050)
-#define PLANETSCCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x1427EFF0)
+#define PLANETSCCONTROL_CLEARRENDERERS_OFFSET UNITYSDK_OFFSET(0x18507710)
+#define PLANETSCCONTROL_COLLECTRENDERERS_OFFSET UNITYSDK_OFFSET(0x18507610)
+#define PLANETSCCONTROL_STARTCLIP_OFFSET UNITYSDK_OFFSET(0x18507780)
+#define PLANETSCCONTROL_STOPCLIP_OFFSET UNITYSDK_OFFSET(0x185079F0)
+#define PLANETSCCONTROL_UPDATE_OFFSET UNITYSDK_OFFSET(0x18507150)
+#define PLANETSCCONTROL__CCTOR_OFFSET UNITYSDK_OFFSET(0x18507CA0)
+#define PLANETSCCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x18507C40)
 
-inline static constexpr unsigned int PLaneTSCControl_TypeDefinitionIndex = 45489;
+inline static constexpr unsigned int PLaneTSCControl_TypeDefinitionIndex = 47739;
 
 class PLaneTSCControl : public ::UnityEngine::MonoBehaviour
 {
 public:
-	static ::System::Int32* StaticGet_Field_5_0()
+	static ::System::Int32* StaticGet_ELBNMMKNPFJ()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PLaneTSCControl_TypeDefinitionIndex)->GetStaticField(0x84A0);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PLaneTSCControl_TypeDefinitionIndex)->GetStaticField(0x12980);
 	}
-	static ::System::Int32* StaticGet_Field_5_1()
+	static ::System::Int32* StaticGet_JDIOPOAEGGM()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PLaneTSCControl_TypeDefinitionIndex)->GetStaticField(0x84A4);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PLaneTSCControl_TypeDefinitionIndex)->GetStaticField(0x12984);
 	}
-	static ::System::Int32* StaticGet_Field_5_2()
+	static ::System::Int32* StaticGet_CCEADALFFEM()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PLaneTSCControl_TypeDefinitionIndex)->GetStaticField(0x84A8);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PLaneTSCControl_TypeDefinitionIndex)->GetStaticField(0x12988);
 	}
-	static ::System::Int32* StaticGet_Field_5_3()
+	static ::System::Int32* StaticGet_NEPFNFJCJFD()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PLaneTSCControl_TypeDefinitionIndex)->GetStaticField(0x84AC);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PLaneTSCControl_TypeDefinitionIndex)->GetStaticField(0x1298C);
 	}
 	::System::Single width; // 0x18
 	::System::Single height; // 0x1C
@@ -43,7 +43,7 @@ public:
 	::System::Single normalLength; // 0x34
 	::System::Collections::Generic::List_1<::UnityEngine::Renderer*>* TargetObjects; // 0x38
 	::UnityEngine::GameObject* ClipBlockRoot; // 0x40
-	::System::Boolean Field_5_11; // 0x48
+	::System::Boolean NEBCHEJDPJA; // 0x48
 
 	::System::Void _ctor()
 	{

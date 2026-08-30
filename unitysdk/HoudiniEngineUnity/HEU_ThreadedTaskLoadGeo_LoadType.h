@@ -3,7 +3,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_ThreadedTaskLoadGeo_LoadType_TypeDefinitionIndex = 38458;
+	inline static constexpr unsigned int HEU_ThreadedTaskLoadGeo_LoadType_TypeDefinitionIndex = 39317;
 
 	enum class HEU_ThreadedTaskLoadGeo_LoadType : ::System::Int32
 	{

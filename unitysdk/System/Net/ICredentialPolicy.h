@@ -3,7 +3,7 @@
 
 namespace System::Net
 {
-	inline static constexpr unsigned int ICredentialPolicy_TypeDefinitionIndex = 2855;
+	inline static constexpr unsigned int ICredentialPolicy_TypeDefinitionIndex = 2862;
 
 	class ICredentialPolicy
 	{

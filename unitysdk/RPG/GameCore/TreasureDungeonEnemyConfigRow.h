@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_TREASUREDUNGEONENEMYCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B042040)
-#define RPG_GAMECORE_TREASUREDUNGEONENEMYCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B042200)
+#define RPG_GAMECORE_TREASUREDUNGEONENEMYCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D543F10)
+#define RPG_GAMECORE_TREASUREDUNGEONENEMYCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5440D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TreasureDungeonEnemyConfigRow_TypeDefinitionIndex = 12057;
+	inline static constexpr unsigned int TreasureDungeonEnemyConfigRow_TypeDefinitionIndex = 12446;
 
 	class TreasureDungeonEnemyConfigRow : public ::System::Object
 	{

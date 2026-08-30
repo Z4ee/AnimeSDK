@@ -4,7 +4,7 @@
 class Class_1_BB62CC0FD1E45ADE;
 namespace System { class String; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_174_TypeDefinitionIndex = 39714;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_174_TypeDefinitionIndex = 40587;
 
 class Class_0_16E4307DCC419505_174
 {

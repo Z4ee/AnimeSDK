@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2Vec2.h"
 #include "unitysdk/System/ValueType.h"
 
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2MASSDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x7B0580)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2MASSDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x82EF70)
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2MassData_TypeDefinitionIndex = 35159;
+	inline static constexpr unsigned int B2MassData_TypeDefinitionIndex = 36020;
 
 	struct alignas(4) B2MassData
 	{

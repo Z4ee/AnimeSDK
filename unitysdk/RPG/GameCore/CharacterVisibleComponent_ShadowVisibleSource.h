@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterVisibleComponent_ShadowVisibleSource_TypeDefinitionIndex = 54661;
+	inline static constexpr unsigned int CharacterVisibleComponent_ShadowVisibleSource_TypeDefinitionIndex = 57382;
 
 	enum class CharacterVisibleComponent_ShadowVisibleSource : ::System::Int32
 	{

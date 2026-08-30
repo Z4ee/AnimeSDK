@@ -1,21 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_F9FBCC956DFCF137_4.h"
+#include "unitysdk/Class_1_F9FBCC956DFCF137_5.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 
 class Class_1_AC66714FF5876767;
 namespace RPG::GameCore { class CheckHPPercentAxis; }
 
-#define CLASS_2_E463BA95EA48FF8A_METHOD_2_CD729A9634455FE2_OFFSET UNITYSDK_OFFSET(0x17035BC0)
-#define CLASS_2_E463BA95EA48FF8A_METHOD_2_E7498AF04E8E685D_OFFSET UNITYSDK_OFFSET(0x17035B50)
-#define CLASS_2_E463BA95EA48FF8A__CTOR_OFFSET UNITYSDK_OFFSET(0x17035B40)
+#define CLASS_2_E463BA95EA48FF8A_METHOD_2_CD729A9634455FE2_OFFSET UNITYSDK_OFFSET(0x130BC8B0)
+#define CLASS_2_E463BA95EA48FF8A_METHOD_2_E7498AF04E8E685D_OFFSET UNITYSDK_OFFSET(0x130BC840)
+#define CLASS_2_E463BA95EA48FF8A__CTOR_OFFSET UNITYSDK_OFFSET(0x130BC830)
 
-inline static constexpr unsigned int Class_2_E463BA95EA48FF8A_TypeDefinitionIndex = 51897;
+inline static constexpr unsigned int Class_2_E463BA95EA48FF8A_TypeDefinitionIndex = 54581;
 
-class Class_2_E463BA95EA48FF8A : public ::Class_1_F9FBCC956DFCF137_4
+class Class_2_E463BA95EA48FF8A : public ::Class_1_F9FBCC956DFCF137_5
 {
 public:
-	::RPG::GameCore::CheckHPPercentAxis* Field_2_0; // 0x18
+	::RPG::GameCore::CheckHPPercentAxis* IGHAHBNLIJA; // 0x18
 
 	::System::Void _ctor(::RPG::GameCore::CheckHPPercentAxis* a1, ::Class_1_AC66714FF5876767* a2)
 	{

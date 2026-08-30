@@ -3,7 +3,7 @@
 
 namespace InControl
 {
-	inline static constexpr unsigned int TouchManager_GizmoShowOption_TypeDefinitionIndex = 38733;
+	inline static constexpr unsigned int TouchManager_GizmoShowOption_TypeDefinitionIndex = 39592;
 
 	enum class TouchManager_GizmoShowOption : ::System::Int32
 	{

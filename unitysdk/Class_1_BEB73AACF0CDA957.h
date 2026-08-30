@@ -6,16 +6,16 @@
 namespace Google::Protobuf { class ByteString; }
 namespace System { class String; }
 
-#define CLASS_1_BEB73AACF0CDA957__CTOR_OFFSET UNITYSDK_OFFSET(0x16A1ECF0)
+#define CLASS_1_BEB73AACF0CDA957__CTOR_OFFSET UNITYSDK_OFFSET(0x176F1340)
 
-inline static constexpr unsigned int Class_1_BEB73AACF0CDA957_TypeDefinitionIndex = 64996;
+inline static constexpr unsigned int Class_1_BEB73AACF0CDA957_TypeDefinitionIndex = 68003;
 
 class Class_1_BEB73AACF0CDA957 : public ::System::Object
 {
 public:
-	::Google::Protobuf::ByteString* Field_1_0; // 0x10
-	::System::String* Field_1_1; // 0x18
-	::RPG::GameCore::ESwitchHandGestureType Field_1_2; // 0x20
+	::Google::Protobuf::ByteString* IBFOFBDLKEG; // 0x10
+	::System::String* EMJGHMCNNFO; // 0x18
+	::RPG::GameCore::ESwitchHandGestureType GFHIDBOOCMG; // 0x20
 
 	::System::Void _ctor()
 	{

@@ -4,7 +4,7 @@
 
 namespace System::Reflection::Emit
 {
-	inline static constexpr unsigned int EventBuilder_TypeDefinitionIndex = 641;
+	inline static constexpr unsigned int EventBuilder_TypeDefinitionIndex = 644;
 
 	class EventBuilder : public ::System::Object
 	{

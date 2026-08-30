@@ -5,23 +5,23 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHESTGROUPPROPERTYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C38B560)
-#define RPG_GAMECORE_CHESTGROUPPROPERTYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1C38B7A0)
+#define RPG_GAMECORE_CHESTGROUPPROPERTYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E01C180)
+#define RPG_GAMECORE_CHESTGROUPPROPERTYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1E01C3C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChestGroupPropertyRow_TypeDefinitionIndex = 13862;
+	inline static constexpr unsigned int ChestGroupPropertyRow_TypeDefinitionIndex = 14282;
 
 	class ChestGroupPropertyRow : public ::System::Object
 	{
 	public:
 		::System::String* GroupProperty; // 0x10
-		::System::UInt32 GPValue; // 0x18
-		::System::UInt32 FloorID; // 0x1C
-		::System::UInt32 InstanceID; // 0x20
+		::System::UInt32 GroupID; // 0x18
+		::System::UInt32 GPValue; // 0x1C
+		::System::UInt32 ChestID; // 0x20
 		::System::UInt32 LittleGameEntityID; // 0x24
-		::System::UInt32 ChestID; // 0x28
-		::System::UInt32 GroupID; // 0x2C
+		::System::UInt32 FloorID; // 0x28
+		::System::UInt32 InstanceID; // 0x2C
 
 		::System::Void _ctor()
 		{

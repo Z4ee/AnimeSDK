@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define SYSTEM_REFLECTION_PARAMETERMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x3A000E0)
+#define SYSTEM_REFLECTION_PARAMETERMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x3B918C0)
 
 namespace System::Reflection
 {
-	inline static constexpr unsigned int ParameterModifier_TypeDefinitionIndex = 580;
+	inline static constexpr unsigned int ParameterModifier_TypeDefinitionIndex = 583;
 
 	struct alignas(8) ParameterModifier
 	{

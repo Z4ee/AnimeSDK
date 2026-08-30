@@ -4,20 +4,20 @@
 
 namespace Proto { class EraFlipperSnapshot; }
 
-#define PROTO_ERAFLIPPERSNAPSHOT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BF7C8F0)
-#define PROTO_ERAFLIPPERSNAPSHOT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF7C930)
-#define PROTO_ERAFLIPPERSNAPSHOT___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1BF7C940)
+#define PROTO_ERAFLIPPERSNAPSHOT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E05EF20)
+#define PROTO_ERAFLIPPERSNAPSHOT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1E05EF60)
+#define PROTO_ERAFLIPPERSNAPSHOT___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E05EF70)
 
 namespace Proto
 {
-	inline static constexpr unsigned int EraFlipperSnapshot___c_TypeDefinitionIndex = 24913;
+	inline static constexpr unsigned int EraFlipperSnapshot___c_TypeDefinitionIndex = 25502;
 
 	class EraFlipperSnapshot___c : public ::System::Object
 	{
 	public:
 		static ::Proto::EraFlipperSnapshot___c** StaticGet___9()
 		{
-			return (::Proto::EraFlipperSnapshot___c**)Il2CppClass::FromTypeDefinitionIndex(EraFlipperSnapshot___c_TypeDefinitionIndex)->GetStaticField(0x3C400);
+			return (::Proto::EraFlipperSnapshot___c**)Il2CppClass::FromTypeDefinitionIndex(EraFlipperSnapshot___c_TypeDefinitionIndex)->GetStaticField(0x59F40);
 		}
 
 		static ::System::Void _cctor()

@@ -4,7 +4,7 @@
 class Class_1_D272AF60A040331E;
 namespace UnityEngine::AI { class RVOAgent; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_193_TypeDefinitionIndex = 39735;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_193_TypeDefinitionIndex = 40608;
 
 class Class_0_16E4307DCC419505_193
 {

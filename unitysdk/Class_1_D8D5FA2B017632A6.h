@@ -7,22 +7,22 @@ namespace RPG::GameCore { class StageAutoGenConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_D8D5FA2B017632A6_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15F25390)
-#define CLASS_1_D8D5FA2B017632A6_METHOD_1_6FED859EE1068B27_OFFSET UNITYSDK_OFFSET(0x15F25550)
-#define CLASS_1_D8D5FA2B017632A6_METHOD_1_E003D4507CF56BC1_OFFSET UNITYSDK_OFFSET(0x15F25430)
-#define CLASS_1_D8D5FA2B017632A6_METHOD_1_F2B94768004EB1C1_OFFSET UNITYSDK_OFFSET(0x15F25230)
-#define CLASS_1_D8D5FA2B017632A6__CTOR_OFFSET UNITYSDK_OFFSET(0x15F25310)
+#define CLASS_1_D8D5FA2B017632A6_DISPOSE_OFFSET UNITYSDK_OFFSET(0x187D33A0)
+#define CLASS_1_D8D5FA2B017632A6_METHOD_1_6FED859EE1068B27_OFFSET UNITYSDK_OFFSET(0x187D3560)
+#define CLASS_1_D8D5FA2B017632A6_METHOD_1_E003D4507CF56BC1_OFFSET UNITYSDK_OFFSET(0x187D3440)
+#define CLASS_1_D8D5FA2B017632A6_METHOD_1_F2B94768004EB1C1_OFFSET UNITYSDK_OFFSET(0x187D3240)
+#define CLASS_1_D8D5FA2B017632A6__CTOR_OFFSET UNITYSDK_OFFSET(0x187D3320)
 
-inline static constexpr unsigned int Class_1_D8D5FA2B017632A6_TypeDefinitionIndex = 66375;
+inline static constexpr unsigned int Class_1_D8D5FA2B017632A6_TypeDefinitionIndex = 69468;
 
 class Class_1_D8D5FA2B017632A6 : public ::System::Object
 {
 public:
-	static ::Class_1_D8D5FA2B017632A6** StaticGet_Field_1_0()
+	static ::Class_1_D8D5FA2B017632A6** StaticGet_EMLNOINPICJ()
 	{
-		return (::Class_1_D8D5FA2B017632A6**)Il2CppClass::FromTypeDefinitionIndex(Class_1_D8D5FA2B017632A6_TypeDefinitionIndex)->GetStaticField(0x3AC40);
+		return (::Class_1_D8D5FA2B017632A6**)Il2CppClass::FromTypeDefinitionIndex(Class_1_D8D5FA2B017632A6_TypeDefinitionIndex)->GetStaticField(0x37230);
 	}
-	::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::IRIFBXLodSizeConfig*>* Field_1_1; // 0x10
+	::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::IRIFBXLodSizeConfig*>* JKEENOKCDGJ; // 0x10
 
 	::System::Void _ctor()
 	{

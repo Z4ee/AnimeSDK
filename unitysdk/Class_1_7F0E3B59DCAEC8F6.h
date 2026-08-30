@@ -1,0 +1,102 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_14FA1D53314C8E28;
+class Class_1_4AEC8D69C60E1E74;
+class Class_1_5238E94B0E87D453;
+class Class_1_8676A5D6BF139078;
+class Class_1_D5CEB66B042C735C;
+namespace RPG::Client { class MonoInflatableFighter; }
+
+#define CLASS_1_7F0E3B59DCAEC8F6_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18DE6D50)
+#define CLASS_1_7F0E3B59DCAEC8F6_GET_ISDODGING_OFFSET UNITYSDK_OFFSET(0x18DE6E00)
+#define CLASS_1_7F0E3B59DCAEC8F6_METHOD_1_1808E1CF7A125519_OFFSET UNITYSDK_OFFSET(0x18DE6DA0)
+#define CLASS_1_7F0E3B59DCAEC8F6_METHOD_1_41A074549EF25F63_OFFSET UNITYSDK_OFFSET(0x18DE6BE0)
+#define CLASS_1_7F0E3B59DCAEC8F6_METHOD_1_4343F372F34C05BF_1_OFFSET UNITYSDK_OFFSET(0x18DE6770)
+#define CLASS_1_7F0E3B59DCAEC8F6_METHOD_1_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x18DE6710)
+#define CLASS_1_7F0E3B59DCAEC8F6_METHOD_1_4805283D59625FD9_OFFSET UNITYSDK_OFFSET(0x18DE68F0)
+#define CLASS_1_7F0E3B59DCAEC8F6_METHOD_1_4C2D8F7FDB543B6A_OFFSET UNITYSDK_OFFSET(0x18DE67E0)
+#define CLASS_1_7F0E3B59DCAEC8F6_METHOD_1_F0088C88851A7DFB_1_OFFSET UNITYSDK_OFFSET(0x18DE6E30)
+#define CLASS_1_7F0E3B59DCAEC8F6_METHOD_1_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0x18DE6E20)
+#define CLASS_1_7F0E3B59DCAEC8F6_SET_ISDODGING_OFFSET UNITYSDK_OFFSET(0x18DE6E10)
+#define CLASS_1_7F0E3B59DCAEC8F6__CTOR_OFFSET UNITYSDK_OFFSET(0x18DE6700)
+
+inline static constexpr unsigned int Class_1_7F0E3B59DCAEC8F6_TypeDefinitionIndex = 68633;
+
+class Class_1_7F0E3B59DCAEC8F6 : public ::System::Object
+{
+public:
+	::Class_1_14FA1D53314C8E28* CDLBIMKEIID; // 0x10
+	::RPG::Client::MonoInflatableFighter* CEODOONOFBM; // 0x18
+	::Class_1_8676A5D6BF139078* CPIIOIPAAKK; // 0x20
+	::Class_1_5238E94B0E87D453* DAGBGPPCEBF; // 0x28
+	::Class_1_D5CEB66B042C735C* EFJAIFDMFJH; // 0x30
+	::Class_1_4AEC8D69C60E1E74* KNNJLPDMAKL; // 0x38
+	::System::Boolean _IsDodging_k__BackingField; // 0x40
+	::System::Boolean OFCKBHJDIEC; // 0x41
+	::System::Boolean LMCOOJHINDF; // 0x42
+	::System::Single MHOOJNHCPHE; // 0x44
+	::System::Single IBLCNBNHPII; // 0x48
+	::System::Single KNLPGAHLFCN; // 0x4C
+
+	::System::Void _ctor(::RPG::Client::MonoInflatableFighter* a1, ::Class_1_8676A5D6BF139078* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::MonoInflatableFighter*, ::Class_1_8676A5D6BF139078*))((::PBYTE)hIl2Cpp + CLASS_1_7F0E3B59DCAEC8F6__CTOR_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_1_4343F372F34C05BF()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_7F0E3B59DCAEC8F6_METHOD_1_4343F372F34C05BF_OFFSET))(this);
+	}
+
+	::System::Void Method_1_4343F372F34C05BF_1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_7F0E3B59DCAEC8F6_METHOD_1_4343F372F34C05BF_1_OFFSET))(this);
+	}
+
+	::System::Void Method_1_4C2D8F7FDB543B6A(::System::Single a1, ::System::Boolean a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_7F0E3B59DCAEC8F6_METHOD_1_4C2D8F7FDB543B6A_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Dispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_7F0E3B59DCAEC8F6_DISPOSE_OFFSET))(this);
+	}
+
+	::System::Void Method_1_4805283D59625FD9()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_7F0E3B59DCAEC8F6_METHOD_1_4805283D59625FD9_OFFSET))(this);
+	}
+
+	::System::Void Method_1_41A074549EF25F63()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_7F0E3B59DCAEC8F6_METHOD_1_41A074549EF25F63_OFFSET))(this);
+	}
+
+	::System::Boolean Method_1_1808E1CF7A125519()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_7F0E3B59DCAEC8F6_METHOD_1_1808E1CF7A125519_OFFSET))(this);
+	}
+
+	::System::Boolean get_IsDodging()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_7F0E3B59DCAEC8F6_GET_ISDODGING_OFFSET))(this);
+	}
+
+	::System::Void set_IsDodging(::System::Boolean a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_7F0E3B59DCAEC8F6_SET_ISDODGING_OFFSET))(this, a1);
+	}
+
+	::System::Boolean Method_1_F0088C88851A7DFB()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_7F0E3B59DCAEC8F6_METHOD_1_F0088C88851A7DFB_OFFSET))(this);
+	}
+
+	::System::Boolean Method_1_F0088C88851A7DFB_1()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_7F0E3B59DCAEC8F6_METHOD_1_F0088C88851A7DFB_1_OFFSET))(this);
+	}
+};

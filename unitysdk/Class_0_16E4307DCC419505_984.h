@@ -1,10 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace RPG::GameCore { class SpritePresetRecord; }
-namespace UnityEngine { class Component; }
+class Class_0_16E4307DCC419505_985;
+namespace RPG::Client { class IRogueTournBuildRefTeamMemberData; }
+namespace RPG::Client { class RogueTournBuildRefTeamData; }
+namespace RPG::Client { class RogueTournBuildRefTeamRecomResult; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_984_TypeDefinitionIndex = 65950;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_984_TypeDefinitionIndex = 67538;
 
 class Class_0_16E4307DCC419505_984
 {

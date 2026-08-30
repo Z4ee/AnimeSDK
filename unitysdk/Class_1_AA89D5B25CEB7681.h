@@ -1,0 +1,53 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/LittleGame/RoadRash/EEngineState.h"
+#include "unitysdk/System/Object.h"
+
+class Class_0_16E4307DCC419505_1263;
+class Class_1_6B1FB1C4D415B966;
+class Class_2_230F5EDDB35DAEBA;
+
+#define CLASS_1_AA89D5B25CEB7681_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16FC6290)
+#define CLASS_1_AA89D5B25CEB7681_GET_SERVICES_OFFSET UNITYSDK_OFFSET(0x16FC62E0)
+#define CLASS_1_AA89D5B25CEB7681_METHOD_1_DE9E4C4EA5393FAA_OFFSET UNITYSDK_OFFSET(0x16FC61E0)
+#define CLASS_1_AA89D5B25CEB7681_METHOD_1_E580AF181E71E7E2_OFFSET UNITYSDK_OFFSET(0x16FC6230)
+#define CLASS_1_AA89D5B25CEB7681_SET_SERVICES_OFFSET UNITYSDK_OFFSET(0x16FC62F0)
+#define CLASS_1_AA89D5B25CEB7681__CTOR_OFFSET UNITYSDK_OFFSET(0x16FC6300)
+
+inline static constexpr unsigned int Class_1_AA89D5B25CEB7681_TypeDefinitionIndex = 75401;
+
+class Class_1_AA89D5B25CEB7681 : public ::System::Object
+{
+public:
+	::Class_1_6B1FB1C4D415B966* _Services_k__BackingField; // 0x10
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_AA89D5B25CEB7681__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_1_DE9E4C4EA5393FAA(::Class_2_230F5EDDB35DAEBA* a1, ::Class_0_16E4307DCC419505_1263* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_2_230F5EDDB35DAEBA*, ::Class_0_16E4307DCC419505_1263*))((::PBYTE)hIl2Cpp + CLASS_1_AA89D5B25CEB7681_METHOD_1_DE9E4C4EA5393FAA_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_1_E580AF181E71E7E2(::Class_2_230F5EDDB35DAEBA* a1, ::Class_2_230F5EDDB35DAEBA* a2, ::Class_0_16E4307DCC419505_1263* a3)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_2_230F5EDDB35DAEBA*, ::Class_2_230F5EDDB35DAEBA*, ::Class_0_16E4307DCC419505_1263*))((::PBYTE)hIl2Cpp + CLASS_1_AA89D5B25CEB7681_METHOD_1_E580AF181E71E7E2_OFFSET))(this, a1, a2, a3);
+	}
+
+	::System::Void Dispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_AA89D5B25CEB7681_DISPOSE_OFFSET))(this);
+	}
+
+	::Class_1_6B1FB1C4D415B966* get_Services()
+	{
+		return ((::Class_1_6B1FB1C4D415B966*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_AA89D5B25CEB7681_GET_SERVICES_OFFSET))(this);
+	}
+
+	::System::Void set_Services(::Class_1_6B1FB1C4D415B966* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_6B1FB1C4D415B966*))((::PBYTE)hIl2Cpp + CLASS_1_AA89D5B25CEB7681_SET_SERVICES_OFFSET))(this, a1);
+	}
+};

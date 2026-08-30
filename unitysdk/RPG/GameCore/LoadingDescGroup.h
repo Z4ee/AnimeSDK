@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LoadingDescGroup_TypeDefinitionIndex = 13460;
+	inline static constexpr unsigned int LoadingDescGroup_TypeDefinitionIndex = 13874;
 
 	enum class LoadingDescGroup : ::System::Int32
 	{
@@ -17,6 +17,7 @@ namespace RPG::GameCore
 		World401 = 3401,
 		World501 = 3501,
 		World601 = 3601,
+		World602 = 3602,
 		NormalRule = 401,
 		NormalIP = 402,
 	};

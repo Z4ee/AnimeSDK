@@ -7,17 +7,17 @@ class Class_1_D8BECDCE48063EC7;
 class Class_2_D84B4578A743B6D7;
 namespace RPG::GameCore { class DiceCombatTaskConfig_MarkSkillDice; }
 
-#define CLASS_2_9B786B10431C509B_METHOD_2_960032BA2E22793D_OFFSET UNITYSDK_OFFSET(0x190DF430)
-#define CLASS_2_9B786B10431C509B__CTOR_OFFSET UNITYSDK_OFFSET(0x190DF380)
+#define CLASS_2_9B786B10431C509B_METHOD_2_960032BA2E22793D_OFFSET UNITYSDK_OFFSET(0x1AAE1850)
+#define CLASS_2_9B786B10431C509B__CTOR_OFFSET UNITYSDK_OFFSET(0x1AAE17A0)
 
-inline static constexpr unsigned int Class_2_9B786B10431C509B_TypeDefinitionIndex = 34745;
+inline static constexpr unsigned int Class_2_9B786B10431C509B_TypeDefinitionIndex = 35606;
 
 class Class_2_9B786B10431C509B : public ::Class_1_B55037134F9E6688
 {
 public:
-	::Class_1_CD4EC20BEBA8A2DA* Field_2_0; // 0x18
-	::Class_2_D84B4578A743B6D7* Field_2_1; // 0x20
-	::RPG::GameCore::DiceCombatTaskConfig_MarkSkillDice* Field_2_2; // 0x28
+	::Class_2_D84B4578A743B6D7* EEFMDEHLLFI; // 0x18
+	::RPG::GameCore::DiceCombatTaskConfig_MarkSkillDice* IGHAHBNLIJA; // 0x20
+	::Class_1_CD4EC20BEBA8A2DA* LMDHPABCOAB; // 0x28
 
 	::System::Void _ctor(::RPG::GameCore::DiceCombatTaskConfig_MarkSkillDice* a1, ::Class_1_D8BECDCE48063EC7* a2)
 	{

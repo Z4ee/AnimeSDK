@@ -4,25 +4,25 @@
 #include "unitysdk/System/Xml/Schema/XmlSchemaAnnotated.h"
 #include "unitysdk/System/Xml/Schema/XmlSchemaParticle_Occurs.h"
 
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAPARTICLE_SET_MAXOCCURS_OFFSET UNITYSDK_OFFSET(0x19675460)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAPARTICLE_SET_MINOCCURS_OFFSET UNITYSDK_OFFSET(0x196752A0)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAPARTICLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x19677030)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAPARTICLE__CTOR_OFFSET UNITYSDK_OFFSET(0x19674740)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAPARTICLE_SET_MAXOCCURS_OFFSET UNITYSDK_OFFSET(0x1B079150)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAPARTICLE_SET_MINOCCURS_OFFSET UNITYSDK_OFFSET(0x1B078F90)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAPARTICLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B07AD40)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAPARTICLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B078420)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int XmlSchemaParticle_TypeDefinitionIndex = 2199;
+	inline static constexpr unsigned int XmlSchemaParticle_TypeDefinitionIndex = 2206;
 
 	class XmlSchemaParticle : public ::System::Xml::Schema::XmlSchemaAnnotated
 	{
 	public:
 		static ::System::Xml::Schema::XmlSchemaParticle** StaticGet_Empty()
 		{
-			return (::System::Xml::Schema::XmlSchemaParticle**)Il2CppClass::FromTypeDefinitionIndex(XmlSchemaParticle_TypeDefinitionIndex)->GetStaticField(0x244F0);
+			return (::System::Xml::Schema::XmlSchemaParticle**)Il2CppClass::FromTypeDefinitionIndex(XmlSchemaParticle_TypeDefinitionIndex)->GetStaticField(0x1E2F0);
 		}
-		::System::Decimal minOccurs; // 0x10
-		::System::Xml::Schema::XmlSchemaParticle_Occurs flags; // 0x20
-		::System::Decimal maxOccurs; // 0x24
+		::System::Xml::Schema::XmlSchemaParticle_Occurs flags; // 0x10
+		::System::Decimal maxOccurs; // 0x14
+		::System::Decimal minOccurs; // 0x24
 
 		::System::Void _ctor()
 		{

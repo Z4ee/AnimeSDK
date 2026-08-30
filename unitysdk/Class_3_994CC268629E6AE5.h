@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdvSetRushBtnInteractable; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_994CC268629E6AE5_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17AC48A0)
-#define CLASS_3_994CC268629E6AE5__CTOR_OFFSET UNITYSDK_OFFSET(0x17AC4870)
+#define CLASS_3_994CC268629E6AE5_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18E0DCA0)
+#define CLASS_3_994CC268629E6AE5__CTOR_OFFSET UNITYSDK_OFFSET(0x18E0DC70)
 
-inline static constexpr unsigned int Class_3_994CC268629E6AE5_TypeDefinitionIndex = 55317;
+inline static constexpr unsigned int Class_3_994CC268629E6AE5_TypeDefinitionIndex = 58041;
 
 class Class_3_994CC268629E6AE5 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdvSetRushBtnInteractable*>
 {

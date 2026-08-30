@@ -8,16 +8,16 @@
 
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
-#define STRUCT_2_C3C88C973D221769_METHOD_2_66E6FD9523937DE4_OFFSET UNITYSDK_OFFSET(0x39CC2F0)
-#define STRUCT_2_C3C88C973D221769_METHOD_2_E2FCA77DBD26F1DF_OFFSET UNITYSDK_OFFSET(0x39CC300)
+#define STRUCT_2_C3C88C973D221769_METHOD_2_66E6FD9523937DE4_OFFSET UNITYSDK_OFFSET(0x3B03860)
+#define STRUCT_2_C3C88C973D221769_METHOD_2_E2FCA77DBD26F1DF_OFFSET UNITYSDK_OFFSET(0x3B03870)
 
-inline static constexpr unsigned int Struct_2_C3C88C973D221769_TypeDefinitionIndex = 52197;
+inline static constexpr unsigned int Struct_2_C3C88C973D221769_TypeDefinitionIndex = 54883;
 
 struct alignas(8) Struct_2_C3C88C973D221769
 {
-	::RPG::GameCore::TurnBasedModifierInstance* Field_2_0; // 0x10
-	::Struct_2_EE0B53FB8C01FD79 Field_2_1; // 0x18
-	::RPG::GameCore::TurnBasedModifierCallbackType Field_2_2; // 0x1C
+	::RPG::GameCore::TurnBasedModifierInstance* ILIIOLJMKME; // 0x10
+	::Struct_2_EE0B53FB8C01FD79 BFLIFKBEOPJ; // 0x18
+	::RPG::GameCore::TurnBasedModifierCallbackType GMPGDEINODK; // 0x1C
 
 	/*
 	::System::Boolean Method_2_66E6FD9523937DE4(::Il2CppArray<::RPG::GameCore::TurnBasedModifierEvent>* a1, ::Il2CppArray<::RPG::GameCore::AbilityProperty>* a2, ::Il2CppArray<::RPG::GameCore::StringHash>* a3)

@@ -4,14 +4,14 @@
 
 namespace RPG::GameCore { class FiveDimSurfaceConfig; }
 
-#define CLASS_1_DC746E497564180B__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE32DC0)
+#define CLASS_1_DC746E497564180B__CTOR_OFFSET UNITYSDK_OFFSET(0x1D02BE20)
 
-inline static constexpr unsigned int Class_1_DC746E497564180B_TypeDefinitionIndex = 40766;
+inline static constexpr unsigned int Class_1_DC746E497564180B_TypeDefinitionIndex = 41720;
 
 class Class_1_DC746E497564180B : public ::System::Object
 {
 public:
-	::RPG::GameCore::FiveDimSurfaceConfig* Field_1_0; // 0x10
+	::RPG::GameCore::FiveDimSurfaceConfig* EABKOHGCHFP; // 0x10
 
 	::System::Void _ctor()
 	{

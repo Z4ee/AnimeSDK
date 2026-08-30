@@ -12,13 +12,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LOSEHPBYRATIO_METHOD_3_4CA05222F25EE503_OFFSET UNITYSDK_OFFSET(0x1BCD5650)
-#define RPG_GAMECORE_LOSEHPBYRATIO_METHOD_3_ACF7B347F7807659_OFFSET UNITYSDK_OFFSET(0x1BCD5550)
-#define RPG_GAMECORE_LOSEHPBYRATIO__CTOR_OFFSET UNITYSDK_OFFSET(0x1BCD55E0)
+#define RPG_GAMECORE_LOSEHPBYRATIO_METHOD_3_4CA05222F25EE503_OFFSET UNITYSDK_OFFSET(0x1D48BC20)
+#define RPG_GAMECORE_LOSEHPBYRATIO_METHOD_3_ACF7B347F7807659_OFFSET UNITYSDK_OFFSET(0x1D48BB20)
+#define RPG_GAMECORE_LOSEHPBYRATIO__CTOR_OFFSET UNITYSDK_OFFSET(0x1D48BBB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LoseHPByRatio_TypeDefinitionIndex = 21878;
+	inline static constexpr unsigned int LoseHPByRatio_TypeDefinitionIndex = 22442;
 
 	class LoseHPByRatio : public ::RPG::GameCore::TaskConfig
 	{
@@ -33,8 +33,9 @@ namespace RPG::GameCore
 		::RPG::GameCore::DynamicValueContextScope ContextScope; // 0x48
 		::RPG::GameCore::DamageDisplayData* DisplayData; // 0x50
 		::RPG::GameCore::TargetEvaluator* SourceType; // 0x58
-		::System::Boolean RoundDamage; // 0x60
-		::System::Boolean ConsumeShield; // 0x61
+		::System::Boolean SourceAsKiller; // 0x60
+		::System::Boolean RoundDamage; // 0x61
+		::System::Boolean ConsumeShield; // 0x62
 
 		::System::Void _ctor()
 		{

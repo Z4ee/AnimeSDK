@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StreamingLayerName_TypeDefinitionIndex = 23567;
+	inline static constexpr unsigned int StreamingLayerName_TypeDefinitionIndex = 24152;
 
 	enum class StreamingLayerName : ::System::Int32
 	{

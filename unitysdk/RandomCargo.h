@@ -6,11 +6,11 @@ class BoxMaterial;
 class IndexCargoList;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RANDOMCARGO_AWAKE_OFFSET UNITYSDK_OFFSET(0x19F64F10)
-#define RANDOMCARGO_RANDOMCARGOWITHINDEX_OFFSET UNITYSDK_OFFSET(0x19F64F60)
-#define RANDOMCARGO__CTOR_OFFSET UNITYSDK_OFFSET(0x19F65320)
+#define RANDOMCARGO_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BF3C8F0)
+#define RANDOMCARGO_RANDOMCARGOWITHINDEX_OFFSET UNITYSDK_OFFSET(0x1BF3C940)
+#define RANDOMCARGO__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF3CCD0)
 
-inline static constexpr unsigned int RandomCargo_TypeDefinitionIndex = 45312;
+inline static constexpr unsigned int RandomCargo_TypeDefinitionIndex = 47550;
 
 class RandomCargo : public ::UnityEngine::MonoBehaviour
 {

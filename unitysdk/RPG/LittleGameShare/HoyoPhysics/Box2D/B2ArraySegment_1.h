@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2ArraySegment_1_TypeDefinitionIndex = 35031;
+	inline static constexpr unsigned int B2ArraySegment_1_TypeDefinitionIndex = 35892;
 
 	template <typename T>
 	struct B2ArraySegment_1

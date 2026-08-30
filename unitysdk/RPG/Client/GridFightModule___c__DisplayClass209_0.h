@@ -9,22 +9,22 @@ namespace System { class Exception; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_GRIDFIGHTMODULE___C__DISPLAYCLASS209_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1951AE40)
-#define RPG_CLIENT_GRIDFIGHTMODULE___C__DISPLAYCLASS209_0___TRYGETCURDATABYCDN_B__0_OFFSET UNITYSDK_OFFSET(0x19524320)
-#define RPG_CLIENT_GRIDFIGHTMODULE___C__DISPLAYCLASS209_0___TRYGETCURDATABYCDN_B__1_OFFSET UNITYSDK_OFFSET(0x195243A0)
-#define RPG_CLIENT_GRIDFIGHTMODULE___C__DISPLAYCLASS209_0___TRYGETCURDATABYCDN_B__2_OFFSET UNITYSDK_OFFSET(0x19524530)
-#define RPG_CLIENT_GRIDFIGHTMODULE___C__DISPLAYCLASS209_0___TRYGETCURDATABYCDN_B__3_OFFSET UNITYSDK_OFFSET(0x19524480)
+#define RPG_CLIENT_GRIDFIGHTMODULE___C__DISPLAYCLASS209_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC41040)
+#define RPG_CLIENT_GRIDFIGHTMODULE___C__DISPLAYCLASS209_0___TRYGETCURDATABYCDN_B__0_OFFSET UNITYSDK_OFFSET(0x1BC4A4F0)
+#define RPG_CLIENT_GRIDFIGHTMODULE___C__DISPLAYCLASS209_0___TRYGETCURDATABYCDN_B__1_OFFSET UNITYSDK_OFFSET(0x1BC4A570)
+#define RPG_CLIENT_GRIDFIGHTMODULE___C__DISPLAYCLASS209_0___TRYGETCURDATABYCDN_B__2_OFFSET UNITYSDK_OFFSET(0x1BC4A700)
+#define RPG_CLIENT_GRIDFIGHTMODULE___C__DISPLAYCLASS209_0___TRYGETCURDATABYCDN_B__3_OFFSET UNITYSDK_OFFSET(0x1BC4A650)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightModule___c__DisplayClass209_0_TypeDefinitionIndex = 61947;
+	inline static constexpr unsigned int GridFightModule___c__DisplayClass209_0_TypeDefinitionIndex = 64931;
 
 	class GridFightModule___c__DisplayClass209_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::GridFightModule* __4__this; // 0x10
-		::System::Action* callback; // 0x18
-		::System::Action_1<::System::String*>* __9__3; // 0x20
+		::System::Action* callback; // 0x10
+		::System::Action_1<::System::String*>* __9__3; // 0x18
+		::RPG::Client::GridFightModule* __4__this; // 0x20
 
 		::System::Void _ctor()
 		{

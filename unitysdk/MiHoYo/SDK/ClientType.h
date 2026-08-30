@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ClientType_TypeDefinitionIndex = 8040;
+	inline static constexpr unsigned int ClientType_TypeDefinitionIndex = 8044;
 
 	enum class ClientType : ::System::Int32
 	{
@@ -22,6 +22,8 @@ namespace MiHoYo::SDK
 		MAC_OS = 12,
 		CLOUD_MAC = 13,
 		CX = 26,
+		CXPC = 29,
+		CXHandHeldPC = 30,
 		CLOUD_HOST = 100,
 	};
 }

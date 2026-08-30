@@ -7,18 +7,18 @@ namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class WolfBroUseBulletHitTarget; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_245ACEA12A2E6078_DISPOSE_OFFSET UNITYSDK_OFFSET(0x17F1C090)
-#define CLASS_3_245ACEA12A2E6078_METHOD_3_E9EBE847C2A79912_OFFSET UNITYSDK_OFFSET(0x17F1CC70)
-#define CLASS_3_245ACEA12A2E6078_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17F1C0E0)
-#define CLASS_3_245ACEA12A2E6078__CTOR_OFFSET UNITYSDK_OFFSET(0x17F1C020)
+#define CLASS_3_245ACEA12A2E6078_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A033120)
+#define CLASS_3_245ACEA12A2E6078_METHOD_3_E9EBE847C2A79912_OFFSET UNITYSDK_OFFSET(0x1A033D00)
+#define CLASS_3_245ACEA12A2E6078_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A033170)
+#define CLASS_3_245ACEA12A2E6078__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0330B0)
 
-inline static constexpr unsigned int Class_3_245ACEA12A2E6078_TypeDefinitionIndex = 56333;
+inline static constexpr unsigned int Class_3_245ACEA12A2E6078_TypeDefinitionIndex = 59115;
 
 class Class_3_245ACEA12A2E6078 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::WolfBroUseBulletHitTarget*>
 {
 public:
-	::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* Field_3_0; // 0x28
-	::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* Field_3_1; // 0x30
+	::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* OAAMJPPKGJP; // 0x28
+	::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* KCNGIEMEGLH; // 0x30
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::WolfBroUseBulletHitTarget* a2)
 	{

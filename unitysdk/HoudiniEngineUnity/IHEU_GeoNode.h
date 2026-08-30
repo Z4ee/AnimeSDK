@@ -15,7 +15,7 @@ namespace UnityEngine { class GameObject; }
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int IHEU_GeoNode_TypeDefinitionIndex = 38399;
+	inline static constexpr unsigned int IHEU_GeoNode_TypeDefinitionIndex = 39258;
 
 	class IHEU_GeoNode
 	{

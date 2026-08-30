@@ -4,23 +4,23 @@
 #include "unitysdk/RPG/MVector3.h"
 #include "unitysdk/System/ValueType.h"
 
-#define STRUCT_2_32ECD853F7E416E3_METHOD_2_0A515C1C101D7A3B_OFFSET UNITYSDK_OFFSET(0x38EF390)
-#define STRUCT_2_32ECD853F7E416E3_METHOD_2_21B7C8D080A6A766_OFFSET UNITYSDK_OFFSET(0x38EF400)
+#define STRUCT_2_32ECD853F7E416E3_METHOD_2_0A515C1C101D7A3B_OFFSET UNITYSDK_OFFSET(0x3AA3E30)
+#define STRUCT_2_32ECD853F7E416E3_METHOD_2_21B7C8D080A6A766_OFFSET UNITYSDK_OFFSET(0x3AA3EA0)
 
-inline static constexpr unsigned int Struct_2_32ECD853F7E416E3_TypeDefinitionIndex = 6633;
+inline static constexpr unsigned int Struct_2_32ECD853F7E416E3_TypeDefinitionIndex = 6245;
 
 struct alignas(4) Struct_2_32ECD853F7E416E3
 {
-	::Dest::Math::IntersectionTypes Field_2_0; // 0x10
-	::Dest::Math::IntersectionTypes Field_2_1; // 0x14
-	::System::Boolean Field_2_2; // 0x18
-	::System::Int32 Field_2_3; // 0x1C
-	::RPG::MVector3 Field_2_4; // 0x20
-	::RPG::MVector3 Field_2_5; // 0x2C
-	::RPG::MVector3 Field_2_6; // 0x38
-	::RPG::MVector3 Field_2_7; // 0x44
-	::RPG::MVector3 Field_2_8; // 0x50
-	::RPG::MVector3 Field_2_9; // 0x5C
+	::Dest::Math::IntersectionTypes DLMLMAGCHJK; // 0x10
+	::Dest::Math::IntersectionTypes GMFBKGEACCL; // 0x14
+	::System::Boolean GOJIFBNIMBI; // 0x18
+	::System::Int32 LLAODKFHDOD; // 0x1C
+	::RPG::MVector3 CPFJGMEMLGM; // 0x20
+	::RPG::MVector3 BOHPLLMNCHE; // 0x2C
+	::RPG::MVector3 FJIOOLKFJPL; // 0x38
+	::RPG::MVector3 NDNEOOIPNAC; // 0x44
+	::RPG::MVector3 IKOJENBMLGO; // 0x50
+	::RPG::MVector3 MOOIFDBKPOD; // 0x5C
 
 	::RPG::MVector3 Method_2_0A515C1C101D7A3B(::System::Int32 a1)
 	{

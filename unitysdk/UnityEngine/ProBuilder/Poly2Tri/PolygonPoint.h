@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/ProBuilder/Poly2Tri/TriangulationPoint.h"
 
-#define UNITYENGINE_PROBUILDER_POLY2TRI_POLYGONPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D238C80)
+#define UNITYENGINE_PROBUILDER_POLY2TRI_POLYGONPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF29CD0)
 
 namespace UnityEngine::ProBuilder::Poly2Tri
 {
-	inline static constexpr unsigned int PolygonPoint_TypeDefinitionIndex = 36580;
+	inline static constexpr unsigned int PolygonPoint_TypeDefinitionIndex = 37439;
 
 	class PolygonPoint : public ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint
 	{

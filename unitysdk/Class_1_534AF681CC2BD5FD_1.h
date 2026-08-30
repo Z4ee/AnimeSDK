@@ -22,27 +22,27 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 template <typename T1, typename T2> class Class_1_534AF681CC2BD5FD_1_Class_1_216F6175D5DE0A28;
 template <typename T1, typename T2> class Class_1_534AF681CC2BD5FD_1_KeyCollection;
 
-inline static constexpr unsigned int Class_1_534AF681CC2BD5FD_1_TypeDefinitionIndex = 6705;
+inline static constexpr unsigned int Class_1_534AF681CC2BD5FD_1_TypeDefinitionIndex = 6317;
 
 template <typename TKey, typename TValue>
 class Class_1_534AF681CC2BD5FD_1 : public ::System::Object
 {
 public:
-	::Class_1_43BD383C98B4C0C5_2* Field_1_0; // 0x0
-	::System::IntPtr Field_1_1; // 0x0
-	::System::Int32 Field_1_2; // 0x0
-	::System::IntPtr Field_1_3; // 0x0
-	::System::Int32 Field_1_4; // 0x0
-	::System::Int32 Field_1_5; // 0x0
-	::System::Int32 Field_1_6; // 0x0
-	::System::Int32 Field_1_7; // 0x0
-	::System::Int32 Field_1_8; // 0x0
-	::System::Collections::Generic::IEqualityComparer_1<TKey>* Field_1_9; // 0x0
-	::Class_1_534AF681CC2BD5FD_1_KeyCollection<TKey, TValue>* Field_1_10; // 0x0
-	::Class_1_534AF681CC2BD5FD_1_Class_1_216F6175D5DE0A28<TKey, TValue>* Field_1_11; // 0x0
-	::System::Object* Field_1_12; // 0x0
-	// static const ::System::String* Field_1_13; // 0x0
-	// static const ::System::String* Field_1_14; // 0x0
-	// static const ::System::String* Field_1_15; // 0x0
-	// static const ::System::String* Field_1_16; // 0x0
+	::Class_1_43BD383C98B4C0C5_2* FCKDDGOMLMN; // 0x0
+	::System::IntPtr PAJIMIGOIPO; // 0x0
+	::System::Int32 CBFAMCIBNCM; // 0x0
+	::System::IntPtr JHHFAOFMGLH; // 0x0
+	::System::Int32 OBBBICELNMH; // 0x0
+	::System::Int32 NPBFLDGDPAD; // 0x0
+	::System::Int32 EHEPCDFLBMH; // 0x0
+	::System::Int32 NECCOPMDKIK; // 0x0
+	::System::Int32 AOOALPCKKBC; // 0x0
+	::System::Collections::Generic::IEqualityComparer_1<TKey>* JCLEAFEOFAL; // 0x0
+	::Class_1_534AF681CC2BD5FD_1_KeyCollection<TKey, TValue>* CPGCODEGPEO; // 0x0
+	::Class_1_534AF681CC2BD5FD_1_Class_1_216F6175D5DE0A28<TKey, TValue>* AFAGKFICIHO; // 0x0
+	::System::Object* HEOOEIIJNAC; // 0x0
+	// static const ::System::String* AIAPJJPNMLO; // 0x0
+	// static const ::System::String* PPLJGOHKEEJ; // 0x0
+	// static const ::System::String* HDDJDMAIJBF; // 0x0
+	// static const ::System::String* JNPOFFIBKBK; // 0x0
 };

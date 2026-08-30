@@ -15,7 +15,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AbsDownloadData_1_TypeDefinitionIndex = 56802;
+	inline static constexpr unsigned int AbsDownloadData_1_TypeDefinitionIndex = 59590;
 
 	template <typename TIndex>
 	class AbsDownloadData_1 : public ::System::Object

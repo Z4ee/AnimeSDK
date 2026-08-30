@@ -1,0 +1,28 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_8D1F4CBFE61774F3;
+class Class_2_99AE43441189916F;
+
+#define CLASS_2_99AE43441189916F___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18A58B90)
+#define CLASS_2_99AE43441189916F___C__DISPLAYCLASS12_0__SETUPVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x18A59110)
+
+inline static constexpr unsigned int Class_2_99AE43441189916F___c__DisplayClass12_0_TypeDefinitionIndex = 71450;
+
+class Class_2_99AE43441189916F___c__DisplayClass12_0 : public ::System::Object
+{
+public:
+	::Class_2_99AE43441189916F* __4__this; // 0x10
+	::Class_1_8D1F4CBFE61774F3* data; // 0x18
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_99AE43441189916F___C__DISPLAYCLASS12_0__CTOR_OFFSET))(this);
+	}
+
+	::System::Void _SetupView_b__0()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_99AE43441189916F___C__DISPLAYCLASS12_0__SETUPVIEW_B__0_OFFSET))(this);
+	}
+};

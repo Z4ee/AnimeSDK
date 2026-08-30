@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_D645B4E0B73852B6.h"
+#include "unitysdk/UnityEngine/Vector3.h"
 
-namespace RPG::Client::Promises { class IPromise; }
+class Class_1_C16080C084A20369_Class_1_224DD8979D84AC51;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_749_TypeDefinitionIndex = 59987;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_749_TypeDefinitionIndex = 62423;
 
 class Class_0_16E4307DCC419505_749
 {

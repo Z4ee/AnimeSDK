@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/PropertyAttribute.h"
 
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_READONLYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1985B0)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_READONLYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE3FFA0)
 
 namespace UnityEngine::Formats::Alembic::Importer
 {
-	inline static constexpr unsigned int ReadOnlyAttribute_TypeDefinitionIndex = 42567;
+	inline static constexpr unsigned int ReadOnlyAttribute_TypeDefinitionIndex = 44749;
 
 	class ReadOnlyAttribute : public ::UnityEngine::PropertyAttribute
 	{

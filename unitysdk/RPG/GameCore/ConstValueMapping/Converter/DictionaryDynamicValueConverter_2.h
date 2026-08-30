@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore::ConstValueMapping::Converter
 {
-	inline static constexpr unsigned int DictionaryDynamicValueConverter_2_TypeDefinitionIndex = 42415;
+	inline static constexpr unsigned int DictionaryDynamicValueConverter_2_TypeDefinitionIndex = 44026;
 
 	template <typename TKey, typename TValue>
 	class DictionaryDynamicValueConverter_2 : public ::System::Object

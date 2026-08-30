@@ -9,7 +9,7 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleGamePhase_DamageSoundData_TypeDefinitionIndex = 58232;
+	inline static constexpr unsigned int BattleGamePhase_DamageSoundData_TypeDefinitionIndex = 61059;
 
 	struct alignas(8) BattleGamePhase_DamageSoundData
 	{

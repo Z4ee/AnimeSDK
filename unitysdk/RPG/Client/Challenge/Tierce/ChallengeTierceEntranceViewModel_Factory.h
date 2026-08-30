@@ -6,12 +6,12 @@ class Class_1_26F63603FB4C7E16;
 class Class_1_56190D054EB32434;
 namespace RPG::Client::Challenge::Tierce { class ChallengeTierceEntranceViewModel; }
 
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEENTRANCEVIEWMODEL_FACTORY_CREATE_OFFSET UNITYSDK_OFFSET(0x1AC68DE0)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEENTRANCEVIEWMODEL_FACTORY__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC68DD0)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEENTRANCEVIEWMODEL_FACTORY_CREATE_OFFSET UNITYSDK_OFFSET(0x1C867C30)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEENTRANCEVIEWMODEL_FACTORY__CTOR_OFFSET UNITYSDK_OFFSET(0x1C867C20)
 
 namespace RPG::Client::Challenge::Tierce
 {
-	inline static constexpr unsigned int ChallengeTierceEntranceViewModel_Factory_TypeDefinitionIndex = 76623;
+	inline static constexpr unsigned int ChallengeTierceEntranceViewModel_Factory_TypeDefinitionIndex = 80259;
 
 	class ChallengeTierceEntranceViewModel_Factory : public ::System::Object
 	{

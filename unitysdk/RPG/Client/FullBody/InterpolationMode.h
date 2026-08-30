@@ -3,7 +3,7 @@
 
 namespace RPG::Client::FullBody
 {
-	inline static constexpr unsigned int InterpolationMode_TypeDefinitionIndex = 70871;
+	inline static constexpr unsigned int InterpolationMode_TypeDefinitionIndex = 74170;
 
 	enum class InterpolationMode : ::System::Int32
 	{

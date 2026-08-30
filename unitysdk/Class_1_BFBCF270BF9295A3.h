@@ -4,20 +4,20 @@
 #include "unitysdk/RPG/GameCore/EventType.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_BFBCF270BF9295A3_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x14D00670)
-#define CLASS_1_BFBCF270BF9295A3_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x14D00620)
-#define CLASS_1_BFBCF270BF9295A3__CTOR_OFFSET UNITYSDK_OFFSET(0x14D00610)
+#define CLASS_1_BFBCF270BF9295A3_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x16C21030)
+#define CLASS_1_BFBCF270BF9295A3_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x16C20FE0)
+#define CLASS_1_BFBCF270BF9295A3__CTOR_OFFSET UNITYSDK_OFFSET(0x16C20FD0)
 
-inline static constexpr unsigned int Class_1_BFBCF270BF9295A3_TypeDefinitionIndex = 54089;
+inline static constexpr unsigned int Class_1_BFBCF270BF9295A3_TypeDefinitionIndex = 56810;
 
 class Class_1_BFBCF270BF9295A3 : public ::System::Object
 {
 public:
-	::System::Boolean Field_1_0; // 0x10
-	::System::Boolean Field_1_1; // 0x11
-	::System::UInt32 Field_1_2; // 0x14
-	::RPG::GameCore::AttackDamageType Field_1_3; // 0x18
-	::System::UInt32 Field_1_4; // 0x1C
+	::System::UInt32 DOCIPOEABOM; // 0x10
+	::System::UInt32 GNOCBLOMLAC; // 0x14
+	::RPG::GameCore::AttackDamageType HPADLBCEKOG; // 0x18
+	::System::Boolean EEOIILCKPNH; // 0x1C
+	::System::Boolean MAAKDJAOJGJ; // 0x1D
 
 	::System::Void _ctor(::System::UInt32 a1, ::System::UInt32 a2)
 	{

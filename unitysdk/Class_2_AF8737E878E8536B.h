@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_CA217ABF4E3B4F3F.h"
+#include "unitysdk/Class_1_34917908B7833130.h"
 #include "unitysdk/RPG/GameCore/EnumStatusType.h"
 
 namespace RPG::GameCore { class StatusRow; }
@@ -11,30 +11,30 @@ namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class Text; }
 
-#define CLASS_2_AF8737E878E8536B_METHOD_2_46A7A28543076C41_OFFSET UNITYSDK_OFFSET(0xE4DAD70)
-#define CLASS_2_AF8737E878E8536B_METHOD_2_72B73A286FE25AE3_OFFSET UNITYSDK_OFFSET(0xE4DA7E0)
-#define CLASS_2_AF8737E878E8536B_METHOD_2_CD7E3482DD97228D_OFFSET UNITYSDK_OFFSET(0xE4DACE0)
-#define CLASS_2_AF8737E878E8536B_METHOD_2_E11AC65AA0DC2249_OFFSET UNITYSDK_OFFSET(0xE4DAE70)
-#define CLASS_2_AF8737E878E8536B_METHOD_2_F4A3996D27B8F20B_OFFSET UNITYSDK_OFFSET(0xE4DAEC0)
-#define CLASS_2_AF8737E878E8536B__CTOR_OFFSET UNITYSDK_OFFSET(0xE4DAF20)
-#define CLASS_2_AF8737E878E8536B__ONBIND_OFFSET UNITYSDK_OFFSET(0xE4DA4E0)
+#define CLASS_2_AF8737E878E8536B_METHOD_2_46A7A28543076C41_OFFSET UNITYSDK_OFFSET(0x105C0AB0)
+#define CLASS_2_AF8737E878E8536B_METHOD_2_72B73A286FE25AE3_OFFSET UNITYSDK_OFFSET(0x105C0530)
+#define CLASS_2_AF8737E878E8536B_METHOD_2_CD7E3482DD97228D_OFFSET UNITYSDK_OFFSET(0x105C0A20)
+#define CLASS_2_AF8737E878E8536B_METHOD_2_E11AC65AA0DC2249_OFFSET UNITYSDK_OFFSET(0x105C0BB0)
+#define CLASS_2_AF8737E878E8536B_METHOD_2_F4A3996D27B8F20B_OFFSET UNITYSDK_OFFSET(0x105C0C00)
+#define CLASS_2_AF8737E878E8536B__CTOR_OFFSET UNITYSDK_OFFSET(0x105C0C60)
+#define CLASS_2_AF8737E878E8536B__ONBIND_OFFSET UNITYSDK_OFFSET(0x105C0230)
 
-inline static constexpr unsigned int Class_2_AF8737E878E8536B_TypeDefinitionIndex = 68096;
+inline static constexpr unsigned int Class_2_AF8737E878E8536B_TypeDefinitionIndex = 71272;
 
-class Class_2_AF8737E878E8536B : public ::Class_1_CA217ABF4E3B4F3F
+class Class_2_AF8737E878E8536B : public ::Class_1_34917908B7833130
 {
 public:
-	::UnityEngine::Transform* Field_2_0; // 0x60
-	::UnityEngine::Transform* Field_2_1; // 0x68
-	::UnityEngine::UI::Text* Field_2_2; // 0x70
-	::UnityEngine::Animation* Field_2_3; // 0x78
-	::UnityEngine::Transform* Field_2_4; // 0x80
-	::UnityEngine::UI::Image* Field_2_5; // 0x88
-	::UnityEngine::UI::Text* Field_2_6; // 0x90
-	::UnityEngine::UI::Text* Field_2_7; // 0x98
-	::UnityEngine::UI::Text* Field_2_8; // 0xA0
-	::UnityEngine::UI::Text* Field_2_9; // 0xA8
-	::UnityEngine::Transform* Field_2_10; // 0xB0
+	::UnityEngine::Animation* OELMLGBIEKF; // 0x60
+	::UnityEngine::Transform* KDOJNDJJNGM; // 0x68
+	::UnityEngine::UI::Text* JHBMGKBIPJC; // 0x70
+	::UnityEngine::UI::Text* AEJPECICBGN; // 0x78
+	::UnityEngine::UI::Image* IONEJJPBAHK; // 0x80
+	::UnityEngine::UI::Text* CEEHMOEPFMF; // 0x88
+	::UnityEngine::Transform* LJBBPFPOKDE; // 0x90
+	::UnityEngine::UI::Text* ICGLFOCOEJB; // 0x98
+	::UnityEngine::UI::Text* CPOINHOCHMN; // 0xA0
+	::UnityEngine::Transform* DEJCIGBKEBM; // 0xA8
+	::UnityEngine::Transform* PGMAJHPHIFM; // 0xB0
 
 	::System::Void _ctor()
 	{

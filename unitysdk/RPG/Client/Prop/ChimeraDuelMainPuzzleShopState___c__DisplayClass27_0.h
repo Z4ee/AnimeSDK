@@ -5,19 +5,19 @@
 namespace RPG::Client::Prop { class ChimeraDuelMainPuzzleShopState; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLESHOPSTATE___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16E2E710)
-#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLESHOPSTATE___C__DISPLAYCLASS27_0__PLAYPERFORMANCEANDGETCANCELHANDLER_B__0_OFFSET UNITYSDK_OFFSET(0x16E2EB50)
-#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLESHOPSTATE___C__DISPLAYCLASS27_0__PLAYPERFORMANCEANDGETCANCELHANDLER_G__CANCEL_1_OFFSET UNITYSDK_OFFSET(0x16E2ED40)
+#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLESHOPSTATE___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0x189F35C0)
+#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLESHOPSTATE___C__DISPLAYCLASS27_0__PLAYPERFORMANCEANDGETCANCELHANDLER_B__0_OFFSET UNITYSDK_OFFSET(0x189F3A10)
+#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLESHOPSTATE___C__DISPLAYCLASS27_0__PLAYPERFORMANCEANDGETCANCELHANDLER_G__CANCEL_1_OFFSET UNITYSDK_OFFSET(0x189F3C60)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraDuelMainPuzzleShopState___c__DisplayClass27_0_TypeDefinitionIndex = 74431;
+	inline static constexpr unsigned int ChimeraDuelMainPuzzleShopState___c__DisplayClass27_0_TypeDefinitionIndex = 77916;
 
 	class ChimeraDuelMainPuzzleShopState___c__DisplayClass27_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::Prop::ChimeraDuelMainPuzzleShopState* __4__this; // 0x10
-		::System::Action_1<::System::Boolean>* onComplete; // 0x18
+		::System::Action_1<::System::Boolean>* onComplete; // 0x10
+		::RPG::Client::Prop::ChimeraDuelMainPuzzleShopState* __4__this; // 0x18
 		::System::Boolean isFinished; // 0x20
 
 		::System::Void _ctor()

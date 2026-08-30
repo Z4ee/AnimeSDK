@@ -4,11 +4,11 @@
 
 namespace System::Net { class TimerThread_TimerNode; }
 
-#define SYSTEM_NET_TIMERTHREAD_TIMERQUEUE__CTOR_OFFSET UNITYSDK_OFFSET(0x19EF3D20)
+#define SYSTEM_NET_TIMERTHREAD_TIMERQUEUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B975C30)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int TimerThread_TimerQueue_TypeDefinitionIndex = 2781;
+	inline static constexpr unsigned int TimerThread_TimerQueue_TypeDefinitionIndex = 2788;
 
 	class TimerThread_TimerQueue : public ::System::Net::TimerThread_Queue
 	{

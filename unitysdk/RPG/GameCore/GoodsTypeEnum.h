@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GoodsTypeEnum_TypeDefinitionIndex = 12136;
+	inline static constexpr unsigned int GoodsTypeEnum_TypeDefinitionIndex = 12525;
 
 	enum class GoodsTypeEnum : ::System::Int32
 	{

@@ -10,12 +10,12 @@ namespace RPG::Client { class Freelook3rdRigParams; }
 namespace System { class String; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_FREELOOK3RDMODULECONFIG_METHOD_4_2BF4648671111A7E_OFFSET UNITYSDK_OFFSET(0x16D1C670)
-#define RPG_CLIENT_FREELOOK3RDMODULECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16D1C6C0)
+#define RPG_CLIENT_FREELOOK3RDMODULECONFIG_METHOD_4_2BF4648671111A7E_OFFSET UNITYSDK_OFFSET(0x190E9B90)
+#define RPG_CLIENT_FREELOOK3RDMODULECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x190E9BE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Freelook3rdModuleConfig_TypeDefinitionIndex = 66551;
+	inline static constexpr unsigned int Freelook3rdModuleConfig_TypeDefinitionIndex = 69644;
 
 	class Freelook3rdModuleConfig : public ::RPG::Client::CameraModuleConfigBase
 	{

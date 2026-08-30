@@ -6,7 +6,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace ZLinq
 {
-	inline static constexpr unsigned int PooledArray_1_TypeDefinitionIndex = 6339;
+	inline static constexpr unsigned int PooledArray_1_TypeDefinitionIndex = 6084;
 
 	template <typename TSource>
 	struct PooledArray_1

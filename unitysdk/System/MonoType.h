@@ -4,7 +4,7 @@
 
 namespace System
 {
-	inline static constexpr unsigned int MonoType_TypeDefinitionIndex = 406;
+	inline static constexpr unsigned int MonoType_TypeDefinitionIndex = 409;
 
 	class MonoType : public ::System::RuntimeType
 	{

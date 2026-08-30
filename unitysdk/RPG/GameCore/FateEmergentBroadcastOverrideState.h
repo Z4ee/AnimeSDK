@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FateEmergentBroadcastOverrideState_TypeDefinitionIndex = 11089;
+	inline static constexpr unsigned int FateEmergentBroadcastOverrideState_TypeDefinitionIndex = 11478;
 
 	enum class FateEmergentBroadcastOverrideState : ::System::Int32
 	{

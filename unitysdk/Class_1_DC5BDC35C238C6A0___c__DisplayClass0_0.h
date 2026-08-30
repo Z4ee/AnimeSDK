@@ -4,7 +4,7 @@
 
 namespace SimpleJSON { class JSONNode; }
 
-inline static constexpr unsigned int Class_1_DC5BDC35C238C6A0___c__DisplayClass0_0_TypeDefinitionIndex = 49684;
+inline static constexpr unsigned int Class_1_DC5BDC35C238C6A0___c__DisplayClass0_0_TypeDefinitionIndex = 52342;
 
 struct alignas(8) Class_1_DC5BDC35C238C6A0___c__DisplayClass0_0
 {

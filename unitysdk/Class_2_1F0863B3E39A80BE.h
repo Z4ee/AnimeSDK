@@ -7,27 +7,27 @@ class Class_1_418DB03A1CEC7DD0;
 namespace RPG::GameCore { class AdventureCharacterController; }
 namespace RPG::GameCore { class GameEntity; }
 
-#define CLASS_2_1F0863B3E39A80BE_GET_FLAG_OFFSET UNITYSDK_OFFSET(0x14B54280)
-#define CLASS_2_1F0863B3E39A80BE_METHOD_2_E41B6A823556FEEA_OFFSET UNITYSDK_OFFSET(0x14B53C20)
-#define CLASS_2_1F0863B3E39A80BE_METHOD_2_ED8DEF1B3CE0066D_OFFSET UNITYSDK_OFFSET(0x14B53C70)
-#define CLASS_2_1F0863B3E39A80BE__CCTOR_OFFSET UNITYSDK_OFFSET(0x14B54290)
-#define CLASS_2_1F0863B3E39A80BE__CTOR_OFFSET UNITYSDK_OFFSET(0x14B53BC0)
+#define CLASS_2_1F0863B3E39A80BE_GET_FLAG_OFFSET UNITYSDK_OFFSET(0x15CBE1D0)
+#define CLASS_2_1F0863B3E39A80BE_METHOD_2_E41B6A823556FEEA_OFFSET UNITYSDK_OFFSET(0x15CBDB60)
+#define CLASS_2_1F0863B3E39A80BE_METHOD_2_ED8DEF1B3CE0066D_OFFSET UNITYSDK_OFFSET(0x15CBDBB0)
+#define CLASS_2_1F0863B3E39A80BE__CCTOR_OFFSET UNITYSDK_OFFSET(0x15CBE1E0)
+#define CLASS_2_1F0863B3E39A80BE__CTOR_OFFSET UNITYSDK_OFFSET(0x15CBDB00)
 
-inline static constexpr unsigned int Class_2_1F0863B3E39A80BE_TypeDefinitionIndex = 54490;
+inline static constexpr unsigned int Class_2_1F0863B3E39A80BE_TypeDefinitionIndex = 57211;
 
 class Class_2_1F0863B3E39A80BE : public ::Class_1_9CEAB4C068D9D9DB
 {
 public:
-	static ::System::Int32* StaticGet_Field_2_0()
+	static ::System::Int32* StaticGet_EEFFFMLAANC()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_1F0863B3E39A80BE_TypeDefinitionIndex)->GetStaticField(0xFAF0);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_1F0863B3E39A80BE_TypeDefinitionIndex)->GetStaticField(0x11DF0);
 	}
-	static ::System::Int32* StaticGet_Field_2_1()
+	static ::System::Int32* StaticGet_GFHGDAAIKEL()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_1F0863B3E39A80BE_TypeDefinitionIndex)->GetStaticField(0xFAF4);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_1F0863B3E39A80BE_TypeDefinitionIndex)->GetStaticField(0x11DF4);
 	}
-	::RPG::GameCore::AdventureCharacterController* Field_2_2; // 0x68
-	::Class_1_418DB03A1CEC7DD0* Field_2_3; // 0x70
+	::Class_1_418DB03A1CEC7DD0* KCIMDDOEHJE; // 0x68
+	::RPG::GameCore::AdventureCharacterController* CACEADPJLPB; // 0x70
 	::RPG::GameCore::AdventureModifierBehaviorFlag _Flag_k__BackingField; // 0x78
 
 	::System::Void _ctor(::RPG::GameCore::GameEntity* a1)

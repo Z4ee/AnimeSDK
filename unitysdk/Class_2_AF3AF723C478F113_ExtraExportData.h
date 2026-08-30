@@ -6,9 +6,9 @@ class Class_2_AF3AF723C478F113_ExtraExportData_SubObject;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_AF3AF723C478F113_EXTRAEXPORTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x16527FF0)
+#define CLASS_2_AF3AF723C478F113_EXTRAEXPORTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x17FAF340)
 
-inline static constexpr unsigned int Class_2_AF3AF723C478F113_ExtraExportData_TypeDefinitionIndex = 47186;
+inline static constexpr unsigned int Class_2_AF3AF723C478F113_ExtraExportData_TypeDefinitionIndex = 49466;
 
 class Class_2_AF3AF723C478F113_ExtraExportData : public ::System::Object
 {

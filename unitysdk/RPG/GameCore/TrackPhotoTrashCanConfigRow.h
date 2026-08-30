@@ -6,21 +6,21 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_TRACKPHOTOTRASHCANCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C15B5B0)
-#define RPG_GAMECORE_TRACKPHOTOTRASHCANCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1C15BCD0)
+#define RPG_GAMECORE_TRACKPHOTOTRASHCANCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D530940)
+#define RPG_GAMECORE_TRACKPHOTOTRASHCANCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D531060)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrackPhotoTrashCanConfigRow_TypeDefinitionIndex = 12036;
+	inline static constexpr unsigned int TrackPhotoTrashCanConfigRow_TypeDefinitionIndex = 12425;
 
 	class TrackPhotoTrashCanConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::String*>* ExtraAnimList; // 0x10
 		::System::String* IconPath; // 0x18
-		::System::UInt32 Score; // 0x20
-		::System::UInt32 NpcTemplateID; // 0x24
-		::System::UInt32 ExtraScore; // 0x28
+		::System::UInt32 NpcTemplateID; // 0x20
+		::System::UInt32 ExtraScore; // 0x24
+		::System::UInt32 Score; // 0x28
 		::RPG::GameCore::TrackPhotoCanType CanTypeID; // 0x2C
 
 		::System::Void _ctor()

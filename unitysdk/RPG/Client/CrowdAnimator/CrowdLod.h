@@ -5,7 +5,7 @@
 
 namespace RPG::Client::CrowdAnimator
 {
-	inline static constexpr unsigned int CrowdLod_TypeDefinitionIndex = 70334;
+	inline static constexpr unsigned int CrowdLod_TypeDefinitionIndex = 73634;
 
 	struct alignas(8) CrowdLod
 	{

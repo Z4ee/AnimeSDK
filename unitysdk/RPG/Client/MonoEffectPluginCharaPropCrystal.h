@@ -12,14 +12,14 @@ namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Shader; }
 namespace UnityEngine { class Texture2D; }
 
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPCRYSTAL_INIT_OFFSET UNITYSDK_OFFSET(0x19109E30)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPCRYSTAL_UNINIT_OFFSET UNITYSDK_OFFSET(0x1910B000)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPCRYSTAL_UPDATEPROPERTY_OFFSET UNITYSDK_OFFSET(0x19109ED0)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPCRYSTAL__CTOR_OFFSET UNITYSDK_OFFSET(0x1910B120)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPCRYSTAL_INIT_OFFSET UNITYSDK_OFFSET(0x116AC270)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPCRYSTAL_UNINIT_OFFSET UNITYSDK_OFFSET(0x116AD440)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPCRYSTAL_UPDATEPROPERTY_OFFSET UNITYSDK_OFFSET(0x116AC310)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPCRYSTAL__CTOR_OFFSET UNITYSDK_OFFSET(0x116AD560)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginCharaPropCrystal_TypeDefinitionIndex = 66815;
+	inline static constexpr unsigned int MonoEffectPluginCharaPropCrystal_TypeDefinitionIndex = 69917;
 
 	class MonoEffectPluginCharaPropCrystal : public ::RPG::Client::MonoEffectPluginCharaPropBase
 	{
@@ -69,7 +69,7 @@ namespace RPG::Client
 		::UnityEngine::Color _EffectColor6; // 0x154
 		::System::Boolean Toggle_EColor7; // 0x164
 		::UnityEngine::Color _EffectColor7; // 0x168
-		::Il2CppArray<::System::Boolean>* Field_6_45; // 0x178
+		::Il2CppArray<::System::Boolean>* LKIKPHKAFJB; // 0x178
 
 		::System::Void _ctor()
 		{

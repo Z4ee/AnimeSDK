@@ -9,41 +9,41 @@ class Class_0_16E4307DCC419505_89;
 class Class_1_1B9BBF1B9A8CC806;
 class Class_1_43BD383C98B4C0C5_13;
 class Class_1_64C09260458CEE11;
-class Class_1_714EC10B569D81C0;
 class Class_1_C2DC5C7E8F1DFA59;
 class Class_1_DC8A0C24D0ECD3C7;
+class Class_1_E1BAB16E47F2B8E6;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_68C89FEFD31D5E0E_METHOD_1_02A6081770820558_OFFSET UNITYSDK_OFFSET(0x12E66020)
-#define CLASS_1_68C89FEFD31D5E0E_METHOD_1_0BA3233053FA08AE_OFFSET UNITYSDK_OFFSET(0x12E60460)
-#define CLASS_1_68C89FEFD31D5E0E_METHOD_1_792F132D736C1A35_OFFSET UNITYSDK_OFFSET(0x12E61400)
-#define CLASS_1_68C89FEFD31D5E0E_METHOD_1_847A668D670E62BE_OFFSET UNITYSDK_OFFSET(0x12E5DF60)
-#define CLASS_1_68C89FEFD31D5E0E_METHOD_1_86062C42B01D998E_OFFSET UNITYSDK_OFFSET(0x12E644A0)
-#define CLASS_1_68C89FEFD31D5E0E_METHOD_1_A42C52BF000BDA2C_OFFSET UNITYSDK_OFFSET(0x12E64170)
-#define CLASS_1_68C89FEFD31D5E0E_METHOD_1_C3CF2E80DB338AD0_OFFSET UNITYSDK_OFFSET(0x12E64340)
-#define CLASS_1_68C89FEFD31D5E0E_METHOD_1_D6AE893E1A06BB8A_OFFSET UNITYSDK_OFFSET(0x12E63E70)
-#define CLASS_1_68C89FEFD31D5E0E_METHOD_1_E9DA9D733302922B_OFFSET UNITYSDK_OFFSET(0x12E60BE0)
+#define CLASS_1_68C89FEFD31D5E0E_METHOD_1_02A6081770820558_OFFSET UNITYSDK_OFFSET(0x140AA150)
+#define CLASS_1_68C89FEFD31D5E0E_METHOD_1_0BA3233053FA08AE_OFFSET UNITYSDK_OFFSET(0x140A4570)
+#define CLASS_1_68C89FEFD31D5E0E_METHOD_1_792F132D736C1A35_OFFSET UNITYSDK_OFFSET(0x140A5510)
+#define CLASS_1_68C89FEFD31D5E0E_METHOD_1_847A668D670E62BE_OFFSET UNITYSDK_OFFSET(0x140A2070)
+#define CLASS_1_68C89FEFD31D5E0E_METHOD_1_86062C42B01D998E_OFFSET UNITYSDK_OFFSET(0x140A85B0)
+#define CLASS_1_68C89FEFD31D5E0E_METHOD_1_A42C52BF000BDA2C_OFFSET UNITYSDK_OFFSET(0x140A8280)
+#define CLASS_1_68C89FEFD31D5E0E_METHOD_1_C3CF2E80DB338AD0_OFFSET UNITYSDK_OFFSET(0x140A8450)
+#define CLASS_1_68C89FEFD31D5E0E_METHOD_1_D6AE893E1A06BB8A_OFFSET UNITYSDK_OFFSET(0x140A7F80)
+#define CLASS_1_68C89FEFD31D5E0E_METHOD_1_E9DA9D733302922B_OFFSET UNITYSDK_OFFSET(0x140A4CF0)
 
-inline static constexpr unsigned int Class_1_68C89FEFD31D5E0E_TypeDefinitionIndex = 39285;
+inline static constexpr unsigned int Class_1_68C89FEFD31D5E0E_TypeDefinitionIndex = 40158;
 
 class Class_1_68C89FEFD31D5E0E : public ::System::Object
 {
 public:
-	// static const ::System::UInt16 Field_1_0 = 0x4; // 0x0
-	// static const ::System::String* Field_1_1; // 0x0
+	// static const ::System::UInt16 ABNPHONMCEP = 0x4; // 0x0
+	// static const ::System::String* GJPNNCFPMGK; // 0x0
 
-	static ::System::Void Method_1_847A668D670E62BE(::System::String* a1, ::System::Collections::Generic::List_1<::Class_1_C2DC5C7E8F1DFA59*>* a2, ::System::Collections::Generic::IEnumerable_1<::Class_1_714EC10B569D81C0*>* a3)
+	static ::System::Void Method_1_847A668D670E62BE(::System::String* a1, ::System::Collections::Generic::List_1<::Class_1_C2DC5C7E8F1DFA59*>* a2, ::System::Collections::Generic::IEnumerable_1<::Class_1_E1BAB16E47F2B8E6*>* a3)
 	{
-		return ((::System::Void(*)(::System::String*, ::System::Collections::Generic::List_1<::Class_1_C2DC5C7E8F1DFA59*>*, ::System::Collections::Generic::IEnumerable_1<::Class_1_714EC10B569D81C0*>*))((::PBYTE)hIl2Cpp + CLASS_1_68C89FEFD31D5E0E_METHOD_1_847A668D670E62BE_OFFSET))(a1, a2, a3);
+		return ((::System::Void(*)(::System::String*, ::System::Collections::Generic::List_1<::Class_1_C2DC5C7E8F1DFA59*>*, ::System::Collections::Generic::IEnumerable_1<::Class_1_E1BAB16E47F2B8E6*>*))((::PBYTE)hIl2Cpp + CLASS_1_68C89FEFD31D5E0E_METHOD_1_847A668D670E62BE_OFFSET))(a1, a2, a3);
 	}
 
-	static ::System::Void Method_1_792F132D736C1A35(::System::String* a1, ::System::Collections::Generic::IList_1<::Class_0_16E4307DCC419505_89*>* a2, ::System::Collections::Generic::List_1<::Class_1_C2DC5C7E8F1DFA59*>* a3, ::System::Collections::Generic::IEnumerable_1<::System::UInt64>* a4, ::System::Collections::Generic::IEnumerable_1<::Class_1_714EC10B569D81C0*>* a5)
+	static ::System::Void Method_1_792F132D736C1A35(::System::String* a1, ::System::Collections::Generic::IList_1<::Class_0_16E4307DCC419505_89*>* a2, ::System::Collections::Generic::List_1<::Class_1_C2DC5C7E8F1DFA59*>* a3, ::System::Collections::Generic::IEnumerable_1<::System::UInt64>* a4, ::System::Collections::Generic::IEnumerable_1<::Class_1_E1BAB16E47F2B8E6*>* a5)
 	{
-		return ((::System::Void(*)(::System::String*, ::System::Collections::Generic::IList_1<::Class_0_16E4307DCC419505_89*>*, ::System::Collections::Generic::List_1<::Class_1_C2DC5C7E8F1DFA59*>*, ::System::Collections::Generic::IEnumerable_1<::System::UInt64>*, ::System::Collections::Generic::IEnumerable_1<::Class_1_714EC10B569D81C0*>*))((::PBYTE)hIl2Cpp + CLASS_1_68C89FEFD31D5E0E_METHOD_1_792F132D736C1A35_OFFSET))(a1, a2, a3, a4, a5);
+		return ((::System::Void(*)(::System::String*, ::System::Collections::Generic::IList_1<::Class_0_16E4307DCC419505_89*>*, ::System::Collections::Generic::List_1<::Class_1_C2DC5C7E8F1DFA59*>*, ::System::Collections::Generic::IEnumerable_1<::System::UInt64>*, ::System::Collections::Generic::IEnumerable_1<::Class_1_E1BAB16E47F2B8E6*>*))((::PBYTE)hIl2Cpp + CLASS_1_68C89FEFD31D5E0E_METHOD_1_792F132D736C1A35_OFFSET))(a1, a2, a3, a4, a5);
 	}
 
 	static ::System::Collections::Generic::Dictionary_2<::System::UInt64, ::System::Int32>* Method_1_0BA3233053FA08AE(::System::Collections::Generic::List_1<::Class_1_C2DC5C7E8F1DFA59*>* a1)
@@ -51,9 +51,9 @@ public:
 		return ((::System::Collections::Generic::Dictionary_2<::System::UInt64, ::System::Int32>*(*)(::System::Collections::Generic::List_1<::Class_1_C2DC5C7E8F1DFA59*>*))((::PBYTE)hIl2Cpp + CLASS_1_68C89FEFD31D5E0E_METHOD_1_0BA3233053FA08AE_OFFSET))(a1);
 	}
 
-	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>* Method_1_E9DA9D733302922B(::System::Collections::Generic::IEnumerable_1<::Class_1_714EC10B569D81C0*>* a1)
+	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>* Method_1_E9DA9D733302922B(::System::Collections::Generic::IEnumerable_1<::Class_1_E1BAB16E47F2B8E6*>* a1)
 	{
-		return ((::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>*(*)(::System::Collections::Generic::IEnumerable_1<::Class_1_714EC10B569D81C0*>*))((::PBYTE)hIl2Cpp + CLASS_1_68C89FEFD31D5E0E_METHOD_1_E9DA9D733302922B_OFFSET))(a1);
+		return ((::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>*(*)(::System::Collections::Generic::IEnumerable_1<::Class_1_E1BAB16E47F2B8E6*>*))((::PBYTE)hIl2Cpp + CLASS_1_68C89FEFD31D5E0E_METHOD_1_E9DA9D733302922B_OFFSET))(a1);
 	}
 
 	static ::System::Void Method_1_D6AE893E1A06BB8A(::System::Collections::Generic::List_1<::Class_1_C2DC5C7E8F1DFA59*>* a1, ::Il2CppArray<::System::Int64>* a2)

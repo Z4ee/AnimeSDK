@@ -1,58 +1,43 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/GameCore/CakeRaceTriggerConditionType.h"
 #include "unitysdk/System/Object.h"
 
-namespace RPG::GameCore { class CakeRaceTriggerConditionRow; }
-namespace System { class String; }
+#define CLASS_1_97E659ED8D5D259C_19_GET_GROUPID_OFFSET UNITYSDK_OFFSET(0x17E26270)
+#define CLASS_1_97E659ED8D5D259C_19_GET_INSTANCEID_OFFSET UNITYSDK_OFFSET(0x17E26290)
+#define CLASS_1_97E659ED8D5D259C_19_SET_GROUPID_OFFSET UNITYSDK_OFFSET(0x17E26280)
+#define CLASS_1_97E659ED8D5D259C_19_SET_INSTANCEID_OFFSET UNITYSDK_OFFSET(0x17E262A0)
+#define CLASS_1_97E659ED8D5D259C_19__CTOR_OFFSET UNITYSDK_OFFSET(0x17E262B0)
 
-#define CLASS_1_97E659ED8D5D259C_19_GET_CONDITIONID_OFFSET UNITYSDK_OFFSET(0x15B153C0)
-#define CLASS_1_97E659ED8D5D259C_19_METHOD_1_6420F140965E2469_OFFSET UNITYSDK_OFFSET(0x15B15370)
-#define CLASS_1_97E659ED8D5D259C_19_METHOD_1_994BBC9DD4065A73_OFFSET UNITYSDK_OFFSET(0x15B15450)
-#define CLASS_1_97E659ED8D5D259C_19_METHOD_1_B8FF86B5386F944C_OFFSET UNITYSDK_OFFSET(0x15B154D0)
-#define CLASS_1_97E659ED8D5D259C_19_METHOD_1_E63CD4862FA48803_OFFSET UNITYSDK_OFFSET(0x15B153D0)
-#define CLASS_1_97E659ED8D5D259C_19_METHOD_1_F797C73C8B620CEA_OFFSET UNITYSDK_OFFSET(0x15B15280)
-#define CLASS_1_97E659ED8D5D259C_19__CTOR_OFFSET UNITYSDK_OFFSET(0x15B15540)
-
-inline static constexpr unsigned int Class_1_97E659ED8D5D259C_19_TypeDefinitionIndex = 72559;
+inline static constexpr unsigned int Class_1_97E659ED8D5D259C_19_TypeDefinitionIndex = 74463;
 
 class Class_1_97E659ED8D5D259C_19 : public ::System::Object
 {
 public:
-	::System::UInt32 _ConditionID_k__BackingField; // 0x10
+	::System::UInt32 _InstanceID_k__BackingField; // 0x10
+	::System::UInt32 _GroupID_k__BackingField; // 0x14
 
-	::System::Void _ctor(::System::UInt32 a1)
+	::System::Void _ctor()
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_97E659ED8D5D259C_19__CTOR_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_97E659ED8D5D259C_19__CTOR_OFFSET))(this);
 	}
 
-	static ::RPG::GameCore::CakeRaceTriggerConditionRow* Method_1_F797C73C8B620CEA(::System::UInt32 a1)
+	::System::UInt32 get_GroupID()
 	{
-		return ((::RPG::GameCore::CakeRaceTriggerConditionRow*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_97E659ED8D5D259C_19_METHOD_1_F797C73C8B620CEA_OFFSET))(a1);
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_97E659ED8D5D259C_19_GET_GROUPID_OFFSET))(this);
 	}
 
-	::RPG::GameCore::CakeRaceTriggerConditionRow* Method_1_6420F140965E2469()
+	::System::Void set_GroupID(::System::UInt32 a1)
 	{
-		return ((::RPG::GameCore::CakeRaceTriggerConditionRow*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_97E659ED8D5D259C_19_METHOD_1_6420F140965E2469_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_97E659ED8D5D259C_19_SET_GROUPID_OFFSET))(this, a1);
 	}
 
-	::System::UInt32 get_ConditionID()
+	::System::UInt32 get_InstanceID()
 	{
-		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_97E659ED8D5D259C_19_GET_CONDITIONID_OFFSET))(this);
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_97E659ED8D5D259C_19_GET_INSTANCEID_OFFSET))(this);
 	}
 
-	::RPG::GameCore::CakeRaceTriggerConditionType Method_1_E63CD4862FA48803()
+	::System::Void set_InstanceID(::System::UInt32 a1)
 	{
-		return ((::RPG::GameCore::CakeRaceTriggerConditionType(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_97E659ED8D5D259C_19_METHOD_1_E63CD4862FA48803_OFFSET))(this);
-	}
-
-	::Il2CppArray<::System::String*>* Method_1_994BBC9DD4065A73()
-	{
-		return ((::Il2CppArray<::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_97E659ED8D5D259C_19_METHOD_1_994BBC9DD4065A73_OFFSET))(this);
-	}
-
-	static ::Class_1_97E659ED8D5D259C_19* Method_1_B8FF86B5386F944C(::System::UInt32 a1)
-	{
-		return ((::Class_1_97E659ED8D5D259C_19*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_97E659ED8D5D259C_19_METHOD_1_B8FF86B5386F944C_OFFSET))(a1);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_97E659ED8D5D259C_19_SET_INSTANCEID_OFFSET))(this, a1);
 	}
 };

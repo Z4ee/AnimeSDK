@@ -6,7 +6,7 @@ namespace MessagePack::Formatters { template <typename T> class IMessagePackForm
 
 namespace RPG::Client::LittleGameShare
 {
-	inline static constexpr unsigned int RpcFormatterResolver_FormatterCache_1_TypeDefinitionIndex = 35514;
+	inline static constexpr unsigned int RpcFormatterResolver_FormatterCache_1_TypeDefinitionIndex = 36375;
 
 	template <typename T>
 	class RpcFormatterResolver_FormatterCache_1 : public ::System::Object

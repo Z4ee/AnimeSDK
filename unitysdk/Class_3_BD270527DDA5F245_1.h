@@ -6,17 +6,17 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define CLASS_3_BD270527DDA5F245_1_METHOD_3_469ECD10EF199C13_OFFSET UNITYSDK_OFFSET(0x184AC280)
-#define CLASS_3_BD270527DDA5F245_1_METHOD_3_F2F19A0D61B85A09_OFFSET UNITYSDK_OFFSET(0x184AC200)
-#define CLASS_3_BD270527DDA5F245_1__CTOR_OFFSET UNITYSDK_OFFSET(0x184AC250)
+#define CLASS_3_BD270527DDA5F245_1_METHOD_3_469ECD10EF199C13_OFFSET UNITYSDK_OFFSET(0x1DA0E1C0)
+#define CLASS_3_BD270527DDA5F245_1_METHOD_3_F2F19A0D61B85A09_OFFSET UNITYSDK_OFFSET(0x1DA0E140)
+#define CLASS_3_BD270527DDA5F245_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1DA0E190)
 
-inline static constexpr unsigned int Class_3_BD270527DDA5F245_1_TypeDefinitionIndex = 20200;
+inline static constexpr unsigned int Class_3_BD270527DDA5F245_1_TypeDefinitionIndex = 20750;
 
 class Class_3_BD270527DDA5F245_1 : public ::RPG::GameCore::TaskConfig
 {
 public:
-	::RPG::GameCore::TargetEvaluator* Field_3_0; // 0x18
-	::RPG::GameCore::DynamicString* Field_3_1; // 0x20
+	::RPG::GameCore::TargetEvaluator* NNGEIAMONGD; // 0x18
+	::RPG::GameCore::DynamicString* JPEOGNFHEGO; // 0x20
 
 	::System::Void _ctor()
 	{

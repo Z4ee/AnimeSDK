@@ -10,21 +10,21 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_MODELUI3DMODECONSTRAINT_AWAKE_OFFSET UNITYSDK_OFFSET(0x1806FC20)
-#define RPG_CLIENT_MODELUI3DMODECONSTRAINT_INIT_OFFSET UNITYSDK_OFFSET(0x18070430)
-#define RPG_CLIENT_MODELUI3DMODECONSTRAINT_LOGICUPDATE_OFFSET UNITYSDK_OFFSET(0x18070810)
-#define RPG_CLIENT_MODELUI3DMODECONSTRAINT_METHOD_5_EE7339DA6ECF5F6D_OFFSET UNITYSDK_OFFSET(0x1806FF50)
-#define RPG_CLIENT_MODELUI3DMODECONSTRAINT__CTOR_OFFSET UNITYSDK_OFFSET(0x18070E30)
+#define RPG_CLIENT_MODELUI3DMODECONSTRAINT_AWAKE_OFFSET UNITYSDK_OFFSET(0x19E24700)
+#define RPG_CLIENT_MODELUI3DMODECONSTRAINT_INIT_OFFSET UNITYSDK_OFFSET(0x19E24F10)
+#define RPG_CLIENT_MODELUI3DMODECONSTRAINT_LOGICUPDATE_OFFSET UNITYSDK_OFFSET(0x19E252F0)
+#define RPG_CLIENT_MODELUI3DMODECONSTRAINT_METHOD_5_EE7339DA6ECF5F6D_OFFSET UNITYSDK_OFFSET(0x19E24A30)
+#define RPG_CLIENT_MODELUI3DMODECONSTRAINT__CTOR_OFFSET UNITYSDK_OFFSET(0x19E25910)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ModelUI3DModeConstraint_TypeDefinitionIndex = 65461;
+	inline static constexpr unsigned int ModelUI3DModeConstraint_TypeDefinitionIndex = 68476;
 
 	class ModelUI3DModeConstraint : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::System::Collections::Generic::List_1<::RPG::Client::ModelUI3DModeConstraint_CameraRotateScopeShaderTransition*>* RotateScopeShaderTransitionsConfig; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::Client::ModelUI3DModeConstraint_Class_1_19721EF9D24AE504*>* Field_5_1; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::Client::ModelUI3DModeConstraint_Class_1_19721EF9D24AE504*>* KOOKKANDPEJ; // 0x20
 
 		::System::Void _ctor()
 		{

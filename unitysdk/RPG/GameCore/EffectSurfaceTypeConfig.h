@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class EffectSurfaceOverride; }
 
-#define RPG_GAMECORE_EFFECTSURFACETYPECONFIG_METHOD_2_9D865A2EDEA39E2F_OFFSET UNITYSDK_OFFSET(0x1BB32650)
-#define RPG_GAMECORE_EFFECTSURFACETYPECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB32710)
+#define RPG_GAMECORE_EFFECTSURFACETYPECONFIG_METHOD_2_9D865A2EDEA39E2F_OFFSET UNITYSDK_OFFSET(0x1DB24920)
+#define RPG_GAMECORE_EFFECTSURFACETYPECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB249E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EffectSurfaceTypeConfig_TypeDefinitionIndex = 15837;
+	inline static constexpr unsigned int EffectSurfaceTypeConfig_TypeDefinitionIndex = 16313;
 
 	class EffectSurfaceTypeConfig : public ::RPG::GameCore::JsonConfig
 	{

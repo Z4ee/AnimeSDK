@@ -6,22 +6,22 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PLANETFESGAMECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B4D74F0)
-#define RPG_GAMECORE_PLANETFESGAMECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4D7700)
+#define RPG_GAMECORE_PLANETFESGAMECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D79D370)
+#define RPG_GAMECORE_PLANETFESGAMECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D79D580)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlanetFesGameConfigRow_TypeDefinitionIndex = 11772;
+	inline static constexpr unsigned int PlanetFesGameConfigRow_TypeDefinitionIndex = 12161;
 
 	class PlanetFesGameConfigRow : public ::System::Object
 	{
 	public:
 		::System::String* ParamStr1; // 0x10
-		::System::UInt32 RewardPool; // 0x18
-		::System::UInt32 RaiseCurveID; // 0x1C
-		::System::UInt32 LandID; // 0x20
-		::RPG::GameCore::PlanetFesGameType GameID; // 0x24
-		::System::UInt32 ParamInt3; // 0x28
+		::RPG::GameCore::PlanetFesGameType GameID; // 0x18
+		::System::UInt32 LandID; // 0x1C
+		::System::UInt32 ParamInt3; // 0x20
+		::System::UInt32 RewardPool; // 0x24
+		::System::UInt32 RaiseCurveID; // 0x28
 
 		::System::Void _ctor()
 		{

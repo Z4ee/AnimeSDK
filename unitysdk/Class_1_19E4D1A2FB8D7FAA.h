@@ -4,14 +4,14 @@
 
 namespace RPG::GameCore { class FiveDimMoneyConfig; }
 
-#define CLASS_1_19E4D1A2FB8D7FAA__CTOR_OFFSET UNITYSDK_OFFSET(0x187DAFC0)
+#define CLASS_1_19E4D1A2FB8D7FAA__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA2B130)
 
-inline static constexpr unsigned int Class_1_19E4D1A2FB8D7FAA_TypeDefinitionIndex = 40882;
+inline static constexpr unsigned int Class_1_19E4D1A2FB8D7FAA_TypeDefinitionIndex = 41839;
 
 class Class_1_19E4D1A2FB8D7FAA : public ::System::Object
 {
 public:
-	::RPG::GameCore::FiveDimMoneyConfig* Field_1_0; // 0x10
+	::RPG::GameCore::FiveDimMoneyConfig* EABKOHGCHFP; // 0x10
 
 	::System::Void _ctor()
 	{

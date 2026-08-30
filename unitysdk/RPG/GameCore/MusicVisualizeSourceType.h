@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MusicVisualizeSourceType_TypeDefinitionIndex = 23751;
+	inline static constexpr unsigned int MusicVisualizeSourceType_TypeDefinitionIndex = 24337;
 
 	enum class MusicVisualizeSourceType : ::System::Int32
 	{

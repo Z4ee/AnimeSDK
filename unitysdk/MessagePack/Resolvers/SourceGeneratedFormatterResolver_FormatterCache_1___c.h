@@ -9,7 +9,7 @@ namespace System::Reflection { class Assembly; }
 
 namespace MessagePack::Resolvers
 {
-	inline static constexpr unsigned int SourceGeneratedFormatterResolver_FormatterCache_1___c_TypeDefinitionIndex = 7234;
+	inline static constexpr unsigned int SourceGeneratedFormatterResolver_FormatterCache_1___c_TypeDefinitionIndex = 7220;
 
 	template <typename T>
 	class SourceGeneratedFormatterResolver_FormatterCache_1___c : public ::System::Object

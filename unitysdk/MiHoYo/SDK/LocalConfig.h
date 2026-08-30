@@ -14,11 +14,11 @@ namespace MiHoYo::SDK { class SteamParametersModel; }
 namespace MiHoYo::SDK { class WatermarkInfo; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_LOCALCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18218110)
+#define MIHOYO_SDK_LOCALCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6288D0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int LocalConfig_TypeDefinitionIndex = 7858;
+	inline static constexpr unsigned int LocalConfig_TypeDefinitionIndex = 7861;
 
 	class LocalConfig : public ::System::Object
 	{
@@ -49,15 +49,17 @@ namespace MiHoYo::SDK
 		::MiHoYo::SDK::BilibiliConfigModel* bilibili_sdk; // 0xA8
 		::MiHoYo::SDK::WatermarkInfo* watermark; // 0xB0
 		::MiHoYo::SDK::AbTestConfig* abtestOS; // 0xB8
-		::MiHoYo::SDK::ABTestInfo* abtestCN; // 0xC0
-		::MiHoYo::SDK::ConfigManager_WebViewABTestModel* webview; // 0xC8
-		::MiHoYo::SDK::AccountPlatConfig* account_platform; // 0xD0
-		::System::Boolean ps4_bind_email_can_skip; // 0xD8
-		::System::Boolean enable_color_text_fix; // 0xD9
-		::System::Boolean enable_googleplaypc_v2; // 0xDA
-		::MiHoYo::SDK::GooglePlayAbTestConfig* googleplay_abtest; // 0xE0
-		::MiHoYo::SDK::SteamParametersModel* steam_parameters; // 0xE8
-		::System::Boolean enable_device_limit; // 0xF0
+		::MiHoYo::SDK::AbTestConfig* compliance_abtest; // 0xC0
+		::MiHoYo::SDK::ABTestInfo* abtestCN; // 0xC8
+		::MiHoYo::SDK::ConfigManager_WebViewABTestModel* webview; // 0xD0
+		::MiHoYo::SDK::AccountPlatConfig* account_platform; // 0xD8
+		::System::Boolean ps4_bind_email_can_skip; // 0xE0
+		::System::Boolean console_detect_pay_xsts_enable; // 0xE1
+		::System::Boolean enable_color_text_fix; // 0xE2
+		::System::Boolean enable_googleplaypc_v2; // 0xE3
+		::MiHoYo::SDK::GooglePlayAbTestConfig* googleplay_abtest; // 0xE8
+		::MiHoYo::SDK::SteamParametersModel* steam_parameters; // 0xF0
+		::System::Boolean enable_device_limit; // 0xF8
 
 		::System::Void _ctor()
 		{

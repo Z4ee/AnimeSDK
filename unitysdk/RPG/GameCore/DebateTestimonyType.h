@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DebateTestimonyType_TypeDefinitionIndex = 23725;
+	inline static constexpr unsigned int DebateTestimonyType_TypeDefinitionIndex = 24311;
 
 	enum class DebateTestimonyType : ::System::Int32
 	{

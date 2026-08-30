@@ -7,24 +7,24 @@ namespace RPG::GameCore { class AdvCharacterSteerToInputDir; }
 namespace RPG::GameCore { class AdventureCharacterController; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_2_C4C7F264BF75BC99_DISPOSE_OFFSET UNITYSDK_OFFSET(0x17AA96A0)
-#define CLASS_2_C4C7F264BF75BC99_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17AA96E0)
-#define CLASS_2_C4C7F264BF75BC99_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x17AA9FB0)
-#define CLASS_2_C4C7F264BF75BC99_TICK_OFFSET UNITYSDK_OFFSET(0x17AA99D0)
-#define CLASS_2_C4C7F264BF75BC99__CTOR_OFFSET UNITYSDK_OFFSET(0x17AA9650)
+#define CLASS_2_C4C7F264BF75BC99_DISPOSE_OFFSET UNITYSDK_OFFSET(0x17ED0630)
+#define CLASS_2_C4C7F264BF75BC99_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17ED0670)
+#define CLASS_2_C4C7F264BF75BC99_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x17ED0F30)
+#define CLASS_2_C4C7F264BF75BC99_TICK_OFFSET UNITYSDK_OFFSET(0x17ED0950)
+#define CLASS_2_C4C7F264BF75BC99__CTOR_OFFSET UNITYSDK_OFFSET(0x17ED05E0)
 
-inline static constexpr unsigned int Class_2_C4C7F264BF75BC99_TypeDefinitionIndex = 49954;
+inline static constexpr unsigned int Class_2_C4C7F264BF75BC99_TypeDefinitionIndex = 52615;
 
 class Class_2_C4C7F264BF75BC99 : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::RPG::GameCore::TaskContext* Field_2_0; // 0x18
-	::RPG::GameCore::AdvCharacterSteerToInputDir* Field_2_1; // 0x20
-	::RPG::GameCore::AdventureCharacterController* Field_2_2; // 0x28
-	::System::Boolean Field_2_3; // 0x30
-	::UnityEngine::Vector3 Field_2_4; // 0x34
-	::System::Single Field_2_5; // 0x40
-	::System::Int32 Field_2_6; // 0x44
+	::RPG::GameCore::AdvCharacterSteerToInputDir* OFKGLJOAMLD; // 0x18
+	::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+	::RPG::GameCore::AdventureCharacterController* CPIIOIPAAKK; // 0x28
+	::System::Int32 APNGJPMPMOB; // 0x30
+	::System::Boolean NICGJCKBCEB; // 0x34
+	::UnityEngine::Vector3 BGNACBGBMHG; // 0x38
+	::System::Single JFNDPOLHLNK; // 0x44
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::AdvCharacterSteerToInputDir* a2)
 	{

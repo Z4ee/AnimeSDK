@@ -7,24 +7,24 @@ namespace System::Text { class Decoder; }
 namespace System::Text { class Encoding; }
 namespace System::Threading { class ManualResetEvent; }
 
-#define SYSTEM_DIAGNOSTICS_ASYNCSTREAMREADER_CANCELOPERATION_OFFSET UNITYSDK_OFFSET(0x1916AA90)
-#define SYSTEM_DIAGNOSTICS_ASYNCSTREAMREADER_CLOSE_OFFSET UNITYSDK_OFFSET(0x1916A8B0)
-#define SYSTEM_DIAGNOSTICS_ASYNCSTREAMREADER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1916A930)
+#define SYSTEM_DIAGNOSTICS_ASYNCSTREAMREADER_CANCELOPERATION_OFFSET UNITYSDK_OFFSET(0x1AB29580)
+#define SYSTEM_DIAGNOSTICS_ASYNCSTREAMREADER_CLOSE_OFFSET UNITYSDK_OFFSET(0x1AB29390)
+#define SYSTEM_DIAGNOSTICS_ASYNCSTREAMREADER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1AB29410)
 
 namespace System::Diagnostics
 {
-	inline static constexpr unsigned int AsyncStreamReader_TypeDefinitionIndex = 2538;
+	inline static constexpr unsigned int AsyncStreamReader_TypeDefinitionIndex = 2545;
 
 	class AsyncStreamReader : public ::System::Object
 	{
 	public:
-		::System::Threading::ManualResetEvent* eofEvent; // 0x10
-		::System::IO::Stream* stream; // 0x18
+		::Il2CppArray<::System::Char>* charBuffer; // 0x10
+		::System::Text::Decoder* decoder; // 0x18
 		::Il2CppArray<::System::Byte>* byteBuffer; // 0x20
-		::System::Text::Decoder* decoder; // 0x28
-		::System::Object* syncObject; // 0x30
-		::System::Text::Encoding* encoding; // 0x38
-		::Il2CppArray<::System::Char>* charBuffer; // 0x40
+		::System::Object* syncObject; // 0x28
+		::System::IO::Stream* stream; // 0x30
+		::System::Threading::ManualResetEvent* eofEvent; // 0x38
+		::System::Text::Encoding* encoding; // 0x40
 		::System::Boolean cancelOperation; // 0x48
 
 		::System::Void Close()

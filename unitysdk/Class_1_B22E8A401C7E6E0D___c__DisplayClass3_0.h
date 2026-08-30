@@ -5,10 +5,10 @@
 namespace RPG::Client::FateRin::View::Card { class FateRinCardPosControlView; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define CLASS_1_B22E8A401C7E6E0D___C__DISPLAYCLASS3_0__CREATECLEARSKIPLAYOUTCOMMAND_B__0_OFFSET UNITYSDK_OFFSET(0x1529D110)
-#define CLASS_1_B22E8A401C7E6E0D___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1529B8C0)
+#define CLASS_1_B22E8A401C7E6E0D___C__DISPLAYCLASS3_0__CREATECLEARSKIPLAYOUTCOMMAND_B__0_OFFSET UNITYSDK_OFFSET(0x17E5D9F0)
+#define CLASS_1_B22E8A401C7E6E0D___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17E5C1A0)
 
-inline static constexpr unsigned int Class_1_B22E8A401C7E6E0D___c__DisplayClass3_0_TypeDefinitionIndex = 75885;
+inline static constexpr unsigned int Class_1_B22E8A401C7E6E0D___c__DisplayClass3_0_TypeDefinitionIndex = 79518;
 
 class Class_1_B22E8A401C7E6E0D___c__DisplayClass3_0 : public ::System::Object
 {

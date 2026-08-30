@@ -5,12 +5,12 @@
 
 namespace RPG::Client { class MultipleDropData; }
 
-#define RPG_CLIENT_MULTIPLEDROPUTILS___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19098280)
-#define RPG_CLIENT_MULTIPLEDROPUTILS___C__DISPLAYCLASS4_0__ISINSPECIFICMULTIPLEDROP_B__0_OFFSET UNITYSDK_OFFSET(0x19098CD0)
+#define RPG_CLIENT_MULTIPLEDROPUTILS___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6FBF00)
+#define RPG_CLIENT_MULTIPLEDROPUTILS___C__DISPLAYCLASS4_0__ISINSPECIFICMULTIPLEDROP_B__0_OFFSET UNITYSDK_OFFSET(0x1B6FC950)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MultipleDropUtils___c__DisplayClass4_0_TypeDefinitionIndex = 63378;
+	inline static constexpr unsigned int MultipleDropUtils___c__DisplayClass4_0_TypeDefinitionIndex = 66363;
 
 	class MultipleDropUtils___c__DisplayClass4_0 : public ::System::Object
 	{

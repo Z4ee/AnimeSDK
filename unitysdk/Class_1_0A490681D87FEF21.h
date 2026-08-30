@@ -4,15 +4,15 @@
 
 namespace RPG::GameCore { class CakeRaceCatAIConfig; }
 
-#define CLASS_1_0A490681D87FEF21__CTOR_OFFSET UNITYSDK_OFFSET(0x14AB7970)
+#define CLASS_1_0A490681D87FEF21__CTOR_OFFSET UNITYSDK_OFFSET(0x1628AC70)
 
-inline static constexpr unsigned int Class_1_0A490681D87FEF21_TypeDefinitionIndex = 35699;
+inline static constexpr unsigned int Class_1_0A490681D87FEF21_TypeDefinitionIndex = 36560;
 
 class Class_1_0A490681D87FEF21 : public ::System::Object
 {
 public:
-	::RPG::GameCore::CakeRaceCatAIConfig* Field_1_0; // 0x10
-	::System::Int32 Field_1_1; // 0x18
+	::RPG::GameCore::CakeRaceCatAIConfig* EGJAHHPMEGL; // 0x10
+	::System::Int32 MBCACNKDMFG; // 0x18
 
 	::System::Void _ctor()
 	{

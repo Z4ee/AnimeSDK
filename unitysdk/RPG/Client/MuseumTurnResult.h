@@ -4,17 +4,17 @@
 
 namespace RPG::Client { class MuseumPropertyData; }
 
-#define RPG_CLIENT_MUSEUMTURNRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x190A6560)
+#define RPG_CLIENT_MUSEUMTURNRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B70A250)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MuseumTurnResult_TypeDefinitionIndex = 63395;
+	inline static constexpr unsigned int MuseumTurnResult_TypeDefinitionIndex = 66380;
 
 	class MuseumTurnResult : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* AreasRenewPoints; // 0x10
-		::RPG::Client::MuseumPropertyData* ResultPropertyData; // 0x18
+		::RPG::Client::MuseumPropertyData* ResultPropertyData; // 0x10
+		::Il2CppArray<::System::UInt32>* AreasRenewPoints; // 0x18
 		::Il2CppArray<::System::UInt32>* AreasFunds; // 0x20
 		::System::UInt32 Level; // 0x28
 		::System::UInt32 BuffFunds; // 0x2C

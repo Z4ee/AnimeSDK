@@ -5,24 +5,24 @@
 namespace UnityEngine { class Animator; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_PROP_PADSPUZZLESTARTPAD_INITSTATE_OFFSET UNITYSDK_OFFSET(0x14F13F50)
-#define RPG_CLIENT_PROP_PADSPUZZLESTARTPAD_PUZZLEENTER_OFFSET UNITYSDK_OFFSET(0x14F141D0)
-#define RPG_CLIENT_PROP_PADSPUZZLESTARTPAD_PUZZLERESET_OFFSET UNITYSDK_OFFSET(0x14F14330)
-#define RPG_CLIENT_PROP_PADSPUZZLESTARTPAD_PUZZLESUCCEED_OFFSET UNITYSDK_OFFSET(0x14F142C0)
-#define RPG_CLIENT_PROP_PADSPUZZLESTARTPAD__CTOR_OFFSET UNITYSDK_OFFSET(0x14F14500)
+#define RPG_CLIENT_PROP_PADSPUZZLESTARTPAD_INITSTATE_OFFSET UNITYSDK_OFFSET(0x1661A450)
+#define RPG_CLIENT_PROP_PADSPUZZLESTARTPAD_PUZZLEENTER_OFFSET UNITYSDK_OFFSET(0x1661A6D0)
+#define RPG_CLIENT_PROP_PADSPUZZLESTARTPAD_PUZZLERESET_OFFSET UNITYSDK_OFFSET(0x1661A830)
+#define RPG_CLIENT_PROP_PADSPUZZLESTARTPAD_PUZZLESUCCEED_OFFSET UNITYSDK_OFFSET(0x1661A7C0)
+#define RPG_CLIENT_PROP_PADSPUZZLESTARTPAD__CTOR_OFFSET UNITYSDK_OFFSET(0x1661AA00)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int PadsPuzzleStartPad_TypeDefinitionIndex = 74790;
+	inline static constexpr unsigned int PadsPuzzleStartPad_TypeDefinitionIndex = 78275;
 
 	class PadsPuzzleStartPad : public ::RPG::Client::Prop::PadsPuzzleTriggerPad
 	{
 	public:
 		::UnityEngine::GameObject* effect; // 0x70
 		::UnityEngine::GameObject* startEffect; // 0x78
-		::UnityEngine::GameObject* Field_7_2; // 0x80
-		::UnityEngine::GameObject* Field_7_3; // 0x88
-		::UnityEngine::Animator* Field_7_4; // 0x90
+		::UnityEngine::GameObject* FIAKAEBFOGO; // 0x80
+		::UnityEngine::GameObject* OBIODAHPKCB; // 0x88
+		::UnityEngine::Animator* FALOCKLLNPK; // 0x90
 
 		::System::Void _ctor()
 		{

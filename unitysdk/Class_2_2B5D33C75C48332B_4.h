@@ -4,14 +4,14 @@
 
 namespace System { class Type; }
 
-#define CLASS_2_2B5D33C75C48332B_4__CTOR_OFFSET UNITYSDK_OFFSET(0x12E4E860)
+#define CLASS_2_2B5D33C75C48332B_4__CTOR_OFFSET UNITYSDK_OFFSET(0x140929B0)
 
-inline static constexpr unsigned int Class_2_2B5D33C75C48332B_4_TypeDefinitionIndex = 39240;
+inline static constexpr unsigned int Class_2_2B5D33C75C48332B_4_TypeDefinitionIndex = 40112;
 
 class Class_2_2B5D33C75C48332B_4 : public ::System::Attribute
 {
 public:
-	::System::Type* Field_2_0; // 0x10
+	::System::Type* BHAKECCMHAB; // 0x10
 
 	::System::Void _ctor(::System::Type* a1)
 	{

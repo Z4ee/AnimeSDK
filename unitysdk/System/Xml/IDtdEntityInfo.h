@@ -5,7 +5,7 @@ namespace System { class String; }
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int IDtdEntityInfo_TypeDefinitionIndex = 1803;
+	inline static constexpr unsigned int IDtdEntityInfo_TypeDefinitionIndex = 1810;
 
 	class IDtdEntityInfo
 	{

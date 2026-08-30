@@ -5,20 +5,20 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ALLEYACTIVITYQUESTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1AE74490)
-#define RPG_GAMECORE_ALLEYACTIVITYQUESTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE74680)
+#define RPG_GAMECORE_ALLEYACTIVITYQUESTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CBD03D0)
+#define RPG_GAMECORE_ALLEYACTIVITYQUESTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CBD05C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AlleyActivityQuestRow_TypeDefinitionIndex = 12155;
+	inline static constexpr unsigned int AlleyActivityQuestRow_TypeDefinitionIndex = 12544;
 
 	class AlleyActivityQuestRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* QuestList; // 0x10
-		::System::UInt32 ID; // 0x18
-		::System::UInt32 SubTab; // 0x1C
-		::RPG::Client::TextID MainTabTitle; // 0x20
+		::RPG::Client::TextID MainTabTitle; // 0x18
+		::System::UInt32 ID; // 0x28
+		::System::UInt32 SubTab; // 0x2C
 
 		::System::Void _ctor()
 		{

@@ -7,18 +7,18 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_4CFEF021C34E7902_METHOD_1_89D1F247B9D324EE_OFFSET UNITYSDK_OFFSET(0x14278F00)
-#define CLASS_1_4CFEF021C34E7902_METHOD_1_E34F36916897D48C_OFFSET UNITYSDK_OFFSET(0x14278E10)
-#define CLASS_1_4CFEF021C34E7902_METHOD_1_EFE1741A2B77BCF8_OFFSET UNITYSDK_OFFSET(0x14278C40)
-#define CLASS_1_4CFEF021C34E7902_RECEIVEMESSAGE_OFFSET UNITYSDK_OFFSET(0x14278B00)
-#define CLASS_1_4CFEF021C34E7902__CTOR_OFFSET UNITYSDK_OFFSET(0x14278F90)
+#define CLASS_1_4CFEF021C34E7902_METHOD_1_89D1F247B9D324EE_OFFSET UNITYSDK_OFFSET(0x18501AE0)
+#define CLASS_1_4CFEF021C34E7902_METHOD_1_E34F36916897D48C_OFFSET UNITYSDK_OFFSET(0x185019F0)
+#define CLASS_1_4CFEF021C34E7902_METHOD_1_EFE1741A2B77BCF8_OFFSET UNITYSDK_OFFSET(0x18501820)
+#define CLASS_1_4CFEF021C34E7902_RECEIVEMESSAGE_OFFSET UNITYSDK_OFFSET(0x185016E0)
+#define CLASS_1_4CFEF021C34E7902__CTOR_OFFSET UNITYSDK_OFFSET(0x18501B70)
 
-inline static constexpr unsigned int Class_1_4CFEF021C34E7902_TypeDefinitionIndex = 61413;
+inline static constexpr unsigned int Class_1_4CFEF021C34E7902_TypeDefinitionIndex = 64397;
 
 class Class_1_4CFEF021C34E7902 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::System::Action_1<::System::Object*>*>*>* Field_1_0; // 0x10
+	::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::System::Action_1<::System::Object*>*>*>* ENGBCOGDBFH; // 0x10
 
 	::System::Void _ctor()
 	{

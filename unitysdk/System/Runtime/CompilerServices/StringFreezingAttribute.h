@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SYSTEM_RUNTIME_COMPILERSERVICES_STRINGFREEZINGATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A824810)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_STRINGFREEZINGATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C456E30)
 
 namespace System::Runtime::CompilerServices
 {
-	inline static constexpr unsigned int StringFreezingAttribute_TypeDefinitionIndex = 1389;
+	inline static constexpr unsigned int StringFreezingAttribute_TypeDefinitionIndex = 1396;
 
 	class StringFreezingAttribute : public ::System::Attribute
 	{

@@ -9,24 +9,24 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace XLua { class LuaTable; }
 
-#define RPG_CLIENT_POPUPMENUPROXY_HIDE_OFFSET UNITYSDK_OFFSET(0x1939A450)
-#define RPG_CLIENT_POPUPMENUPROXY_INITDELEGATE_OFFSET UNITYSDK_OFFSET(0x1939A4B0)
-#define RPG_CLIENT_POPUPMENUPROXY_SETOPTIONS_OFFSET UNITYSDK_OFFSET(0x1939A310)
-#define RPG_CLIENT_POPUPMENUPROXY_SETPOSITION_OFFSET UNITYSDK_OFFSET(0x1939A380)
-#define RPG_CLIENT_POPUPMENUPROXY_SHOW_OFFSET UNITYSDK_OFFSET(0x1939A3F0)
-#define RPG_CLIENT_POPUPMENUPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x1939A300)
+#define RPG_CLIENT_POPUPMENUPROXY_HIDE_OFFSET UNITYSDK_OFFSET(0x1AE1C500)
+#define RPG_CLIENT_POPUPMENUPROXY_INITDELEGATE_OFFSET UNITYSDK_OFFSET(0x1AE1C560)
+#define RPG_CLIENT_POPUPMENUPROXY_SETOPTIONS_OFFSET UNITYSDK_OFFSET(0x1AE1C3C0)
+#define RPG_CLIENT_POPUPMENUPROXY_SETPOSITION_OFFSET UNITYSDK_OFFSET(0x1AE1C430)
+#define RPG_CLIENT_POPUPMENUPROXY_SHOW_OFFSET UNITYSDK_OFFSET(0x1AE1C4A0)
+#define RPG_CLIENT_POPUPMENUPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE1C3B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PopupMenuProxy_TypeDefinitionIndex = 69213;
+	inline static constexpr unsigned int PopupMenuProxy_TypeDefinitionIndex = 72413;
 
 	class PopupMenuProxy : public ::System::Object
 	{
 	public:
-		::XLua::LuaTable* _LuaPopupMenuPanel; // 0x10
-		::System::Action_2<::XLua::LuaTable*, ::UnityEngine::Vector2>* _SetPositionDelegate; // 0x18
+		::System::Action_2<::XLua::LuaTable*, ::UnityEngine::Vector2>* _SetPositionDelegate; // 0x10
+		::System::Action_1<::XLua::LuaTable*>* _ShowDelegate; // 0x18
 		::System::Action_2<::XLua::LuaTable*, ::System::Collections::Generic::List_1<::RPG::Client::PopupMenuProxy_Option*>*>* _SetOptionsDelegate; // 0x20
-		::System::Action_1<::XLua::LuaTable*>* _ShowDelegate; // 0x28
+		::XLua::LuaTable* _LuaPopupMenuPanel; // 0x28
 		::System::Action_1<::XLua::LuaTable*>* _HideDelegate; // 0x30
 
 		::System::Void _ctor(::XLua::LuaTable* a1)

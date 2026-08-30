@@ -4,14 +4,14 @@
 
 namespace RPG::GameCore { class MiniGameFlappyBirdBlockConfig; }
 
-#define CLASS_1_FA26A909E08A64D7__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE44C30)
+#define CLASS_1_FA26A909E08A64D7__CTOR_OFFSET UNITYSDK_OFFSET(0x1D03E3B0)
 
-inline static constexpr unsigned int Class_1_FA26A909E08A64D7_TypeDefinitionIndex = 40794;
+inline static constexpr unsigned int Class_1_FA26A909E08A64D7_TypeDefinitionIndex = 41748;
 
 class Class_1_FA26A909E08A64D7 : public ::System::Object
 {
 public:
-	::RPG::GameCore::MiniGameFlappyBirdBlockConfig* Field_1_0; // 0x10
+	::RPG::GameCore::MiniGameFlappyBirdBlockConfig* EABKOHGCHFP; // 0x10
 
 	::System::Void _ctor()
 	{

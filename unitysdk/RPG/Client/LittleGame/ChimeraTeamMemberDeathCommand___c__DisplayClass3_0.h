@@ -4,12 +4,12 @@
 
 namespace System { class Action; }
 
-#define RPG_CLIENT_LITTLEGAME_CHIMERATEAMMEMBERDEATHCOMMAND___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19BA1470)
-#define RPG_CLIENT_LITTLEGAME_CHIMERATEAMMEMBERDEATHCOMMAND___C__DISPLAYCLASS3_0___STARTTRANSITION_B__0_OFFSET UNITYSDK_OFFSET(0x19BA17E0)
+#define RPG_CLIENT_LITTLEGAME_CHIMERATEAMMEMBERDEATHCOMMAND___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC314F0)
+#define RPG_CLIENT_LITTLEGAME_CHIMERATEAMMEMBERDEATHCOMMAND___C__DISPLAYCLASS3_0___STARTTRANSITION_B__0_OFFSET UNITYSDK_OFFSET(0x1AC31870)
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int ChimeraTeamMemberDeathCommand___c__DisplayClass3_0_TypeDefinitionIndex = 72730;
+	inline static constexpr unsigned int ChimeraTeamMemberDeathCommand___c__DisplayClass3_0_TypeDefinitionIndex = 76166;
 
 	class ChimeraTeamMemberDeathCommand___c__DisplayClass3_0 : public ::System::Object
 	{

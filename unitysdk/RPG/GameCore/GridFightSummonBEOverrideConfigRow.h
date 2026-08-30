@@ -5,20 +5,20 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_GRIDFIGHTSUMMONBEOVERRIDECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D07AFD0)
-#define RPG_GAMECORE_GRIDFIGHTSUMMONBEOVERRIDECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D07B190)
+#define RPG_GAMECORE_GRIDFIGHTSUMMONBEOVERRIDECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3BD0F0)
+#define RPG_GAMECORE_GRIDFIGHTSUMMONBEOVERRIDECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3BD2B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightSummonBEOverrideConfigRow_TypeDefinitionIndex = 13033;
+	inline static constexpr unsigned int GridFightSummonBEOverrideConfigRow_TypeDefinitionIndex = 13424;
 
 	class GridFightSummonBEOverrideConfigRow : public ::System::Object
 	{
 	public:
 		::System::String* BackJsonOverride; // 0x10
 		::System::String* FrontJsonOverride; // 0x18
-		::System::UInt32 SeasonID; // 0x20
-		::System::UInt32 BEID; // 0x24
+		::System::UInt32 BEID; // 0x20
+		::System::UInt32 SeasonID; // 0x24
 
 		::System::Void _ctor()
 		{

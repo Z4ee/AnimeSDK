@@ -7,11 +7,11 @@ namespace UnityEngine { class LineRenderer; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CustomLineProcedural_Struct_2_E36BFA641C5D2AAB_TypeDefinitionIndex = 67243;
+	inline static constexpr unsigned int CustomLineProcedural_Struct_2_E36BFA641C5D2AAB_TypeDefinitionIndex = 70365;
 
 	struct alignas(8) CustomLineProcedural_Struct_2_E36BFA641C5D2AAB
 	{
-		::UnityEngine::LineRenderer* Field_2_0; // 0x10
-		::UnityEngine::Matrix4x4 Field_2_1; // 0x18
+		::UnityEngine::LineRenderer* ONEFCLJPGLE; // 0x10
+		::UnityEngine::Matrix4x4 IAFFJECALCI; // 0x18
 	};
 }

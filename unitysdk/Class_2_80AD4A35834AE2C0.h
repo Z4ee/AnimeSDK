@@ -7,22 +7,22 @@ namespace RPG::GameCore { class PropCurveReadMoveRatio; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 
-#define CLASS_2_80AD4A35834AE2C0_DISPOSE_OFFSET UNITYSDK_OFFSET(0x174D0200)
-#define CLASS_2_80AD4A35834AE2C0_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x174D0250)
-#define CLASS_2_80AD4A35834AE2C0_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x174D0830)
-#define CLASS_2_80AD4A35834AE2C0_TICK_OFFSET UNITYSDK_OFFSET(0x174D0320)
-#define CLASS_2_80AD4A35834AE2C0__CTOR_OFFSET UNITYSDK_OFFSET(0x174D01F0)
+#define CLASS_2_80AD4A35834AE2C0_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18384200)
+#define CLASS_2_80AD4A35834AE2C0_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18384250)
+#define CLASS_2_80AD4A35834AE2C0_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x18384810)
+#define CLASS_2_80AD4A35834AE2C0_TICK_OFFSET UNITYSDK_OFFSET(0x18384320)
+#define CLASS_2_80AD4A35834AE2C0__CTOR_OFFSET UNITYSDK_OFFSET(0x183841F0)
 
-inline static constexpr unsigned int Class_2_80AD4A35834AE2C0_TypeDefinitionIndex = 55734;
+inline static constexpr unsigned int Class_2_80AD4A35834AE2C0_TypeDefinitionIndex = 58465;
 
 class Class_2_80AD4A35834AE2C0 : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::System::String* Field_2_0; // 0x18
-	::RPG::GameCore::GameEntity* Field_2_1; // 0x20
-	::RPG::GameCore::PropCurveReadMoveRatio* Field_2_2; // 0x28
-	::RPG::GameCore::GameEntity* Field_2_3; // 0x30
-	::RPG::GameCore::TaskContext* Field_2_4; // 0x38
+	::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x18
+	::RPG::GameCore::GameEntity* FFPOIKCEIDI; // 0x20
+	::RPG::GameCore::PropCurveReadMoveRatio* IGHAHBNLIJA; // 0x28
+	::RPG::GameCore::GameEntity* DCOOJFFNBMH; // 0x30
+	::System::String* CHMOJFKDIMF; // 0x38
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::PropCurveReadMoveRatio* a2)
 	{

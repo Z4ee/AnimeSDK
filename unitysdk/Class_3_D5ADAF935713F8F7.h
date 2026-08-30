@@ -9,30 +9,30 @@ namespace RPG::Client::LittleGame { class ElfRestaurantGameEntity; }
 namespace RPG::GameCore { class ST_Main_ElfWaiterProcessEvent; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_D5ADAF935713F8F7_METHOD_3_1659BCB6D1A9FC34_OFFSET UNITYSDK_OFFSET(0x16859530)
-#define CLASS_3_D5ADAF935713F8F7_METHOD_3_8C704EC832EDEFC8_OFFSET UNITYSDK_OFFSET(0x1685A3A0)
-#define CLASS_3_D5ADAF935713F8F7_METHOD_3_DE21204480B88394_OFFSET UNITYSDK_OFFSET(0x1685A640)
-#define CLASS_3_D5ADAF935713F8F7_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16859260)
-#define CLASS_3_D5ADAF935713F8F7_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1685A170)
-#define CLASS_3_D5ADAF935713F8F7_TICK_OFFSET UNITYSDK_OFFSET(0x1685A1C0)
-#define CLASS_3_D5ADAF935713F8F7__CTOR_OFFSET UNITYSDK_OFFSET(0x16859240)
+#define CLASS_3_D5ADAF935713F8F7_METHOD_3_1659BCB6D1A9FC34_OFFSET UNITYSDK_OFFSET(0x17949A00)
+#define CLASS_3_D5ADAF935713F8F7_METHOD_3_8C704EC832EDEFC8_OFFSET UNITYSDK_OFFSET(0x1794A880)
+#define CLASS_3_D5ADAF935713F8F7_METHOD_3_DE21204480B88394_OFFSET UNITYSDK_OFFSET(0x1794AB20)
+#define CLASS_3_D5ADAF935713F8F7_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17949730)
+#define CLASS_3_D5ADAF935713F8F7_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1794A640)
+#define CLASS_3_D5ADAF935713F8F7_TICK_OFFSET UNITYSDK_OFFSET(0x1794A690)
+#define CLASS_3_D5ADAF935713F8F7__CTOR_OFFSET UNITYSDK_OFFSET(0x17949710)
 
-inline static constexpr unsigned int Class_3_D5ADAF935713F8F7_TypeDefinitionIndex = 49798;
+inline static constexpr unsigned int Class_3_D5ADAF935713F8F7_TypeDefinitionIndex = 52458;
 
 class Class_3_D5ADAF935713F8F7 : public ::RPG::GameCore::ST_Task_1<::RPG::GameCore::ST_Main_ElfWaiterProcessEvent*>
 {
 public:
-	::RPG::Client::LittleGame::ElfRestaurantGameEntity* Field_3_0; // 0x28
-	::RPG::Client::ElfRestaurantGameInstance* Field_3_1; // 0x30
-	::UnityEngine::Quaternion Field_3_2; // 0x38
-	::System::Boolean Field_3_3; // 0x48
-	::System::Single Field_3_4; // 0x4C
-	::UnityEngine::Quaternion Field_3_5; // 0x50
-	::System::Single Field_3_6; // 0x60
-	::System::Single Field_3_7; // 0x64
-	::UnityEngine::Vector3 Field_3_8; // 0x68
-	::UnityEngine::Vector3 Field_3_9; // 0x74
-	::System::Single Field_3_10; // 0x80
+	::RPG::Client::LittleGame::ElfRestaurantGameEntity* PBCEKCMKJNB; // 0x28
+	::RPG::Client::ElfRestaurantGameInstance* OFLDOAIGGDH; // 0x30
+	::UnityEngine::Vector3 OIMMGKNHKOA; // 0x38
+	::UnityEngine::Vector3 FCAOOKFEOHC; // 0x44
+	::UnityEngine::Quaternion HBAIICJGPGC; // 0x50
+	::System::Single FMLMBCPKBMC; // 0x60
+	::UnityEngine::Quaternion ACDOFFNEDEF; // 0x64
+	::System::Single PGMIOKKLHIE; // 0x74
+	::System::Boolean ADLOALLJMOB; // 0x78
+	::System::Single ILENJCMADMG; // 0x7C
+	::System::Single KLBFFEFFJID; // 0x80
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ST_Main_ElfWaiterProcessEvent* a2)
 	{

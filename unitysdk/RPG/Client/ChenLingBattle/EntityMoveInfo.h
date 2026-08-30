@@ -4,11 +4,11 @@
 
 namespace RPG::Client::ChenLingBattle { class GridIndex; }
 
-#define RPG_CLIENT_CHENLINGBATTLE_ENTITYMOVEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1AFD78B0)
+#define RPG_CLIENT_CHENLINGBATTLE_ENTITYMOVEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B95AF10)
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int EntityMoveInfo_TypeDefinitionIndex = 72363;
+	inline static constexpr unsigned int EntityMoveInfo_TypeDefinitionIndex = 75799;
 
 	class EntityMoveInfo : public ::System::Object
 	{

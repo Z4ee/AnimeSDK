@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtDefenceGlobalPropertyType_TypeDefinitionIndex = 23936;
+	inline static constexpr unsigned int RtDefenceGlobalPropertyType_TypeDefinitionIndex = 24524;
 
 	enum class RtDefenceGlobalPropertyType : ::System::Int32
 	{

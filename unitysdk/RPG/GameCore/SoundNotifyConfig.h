@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_SOUNDNOTIFYCONFIG_METHOD_2_67E7D90C0AB969F9_OFFSET UNITYSDK_OFFSET(0x1BE53B50)
-#define RPG_GAMECORE_SOUNDNOTIFYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE53C20)
+#define RPG_GAMECORE_SOUNDNOTIFYCONFIG_METHOD_2_67E7D90C0AB969F9_OFFSET UNITYSDK_OFFSET(0x1D0A7810)
+#define RPG_GAMECORE_SOUNDNOTIFYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0A78E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SoundNotifyConfig_TypeDefinitionIndex = 16278;
+	inline static constexpr unsigned int SoundNotifyConfig_TypeDefinitionIndex = 16762;
 
 	class SoundNotifyConfig : public ::RPG::GameCore::JsonConfig
 	{

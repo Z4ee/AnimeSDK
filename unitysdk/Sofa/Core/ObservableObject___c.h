@@ -6,24 +6,24 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::ComponentModel { class PropertyChangedEventArgs; }
 
-#define SOFA_CORE_OBSERVABLEOBJECT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D0F7440)
-#define SOFA_CORE_OBSERVABLEOBJECT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0F7480)
-#define SOFA_CORE_OBSERVABLEOBJECT___C___GETPROPERTYCHANGEDEVENTARGS_B__5_0_OFFSET UNITYSDK_OFFSET(0x1D0F7490)
+#define SOFA_CORE_OBSERVABLEOBJECT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E77A860)
+#define SOFA_CORE_OBSERVABLEOBJECT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1E77A8A0)
+#define SOFA_CORE_OBSERVABLEOBJECT___C___GETPROPERTYCHANGEDEVENTARGS_B__5_0_OFFSET UNITYSDK_OFFSET(0x1E77A8B0)
 
 namespace Sofa::Core
 {
-	inline static constexpr unsigned int ObservableObject___c_TypeDefinitionIndex = 41457;
+	inline static constexpr unsigned int ObservableObject___c_TypeDefinitionIndex = 42425;
 
 	class ObservableObject___c : public ::System::Object
 	{
 	public:
-		static ::Sofa::Core::ObservableObject___c** StaticGet___9()
-		{
-			return (::Sofa::Core::ObservableObject___c**)Il2CppClass::FromTypeDefinitionIndex(ObservableObject___c_TypeDefinitionIndex)->GetStaticField(0x4E770);
-		}
 		static ::System::Func_2<::System::String*, ::System::ComponentModel::PropertyChangedEventArgs*>** StaticGet___9__5_0()
 		{
-			return (::System::Func_2<::System::String*, ::System::ComponentModel::PropertyChangedEventArgs*>**)Il2CppClass::FromTypeDefinitionIndex(ObservableObject___c_TypeDefinitionIndex)->GetStaticField(0x4E778);
+			return (::System::Func_2<::System::String*, ::System::ComponentModel::PropertyChangedEventArgs*>**)Il2CppClass::FromTypeDefinitionIndex(ObservableObject___c_TypeDefinitionIndex)->GetStaticField(0x60DE0);
+		}
+		static ::Sofa::Core::ObservableObject___c** StaticGet___9()
+		{
+			return (::Sofa::Core::ObservableObject___c**)Il2CppClass::FromTypeDefinitionIndex(ObservableObject___c_TypeDefinitionIndex)->GetStaticField(0x60DE8);
 		}
 
 		static ::System::Void _cctor()

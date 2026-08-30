@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class CharacterSkinResMapItem; }
 
-#define RPG_GAMECORE_CHARACTERSKINCONFIG_METHOD_2_ABDADD775C184B9D_OFFSET UNITYSDK_OFFSET(0x1B72B370)
-#define RPG_GAMECORE_CHARACTERSKINCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B72B430)
+#define RPG_GAMECORE_CHARACTERSKINCONFIG_METHOD_2_ABDADD775C184B9D_OFFSET UNITYSDK_OFFSET(0x1E000710)
+#define RPG_GAMECORE_CHARACTERSKINCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1E0007D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterSkinConfig_TypeDefinitionIndex = 15892;
+	inline static constexpr unsigned int CharacterSkinConfig_TypeDefinitionIndex = 16368;
 
 	class CharacterSkinConfig : public ::RPG::GameCore::JsonConfig
 	{

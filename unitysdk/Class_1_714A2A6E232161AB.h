@@ -6,17 +6,17 @@ namespace RPG::Client { class GlobalDispatchData_ServerData; }
 namespace System { class Action; }
 namespace System::Collections { class IEnumerator; }
 
-#define CLASS_1_714A2A6E232161AB_METHOD_1_627C7524E98F4AC5_OFFSET UNITYSDK_OFFSET(0x16B72BA0)
-#define CLASS_1_714A2A6E232161AB__CTOR_OFFSET UNITYSDK_OFFSET(0x16B72B90)
+#define CLASS_1_714A2A6E232161AB_METHOD_1_627C7524E98F4AC5_OFFSET UNITYSDK_OFFSET(0x184D95B0)
+#define CLASS_1_714A2A6E232161AB__CTOR_OFFSET UNITYSDK_OFFSET(0x184D95A0)
 
-inline static constexpr unsigned int Class_1_714A2A6E232161AB_TypeDefinitionIndex = 66235;
+inline static constexpr unsigned int Class_1_714A2A6E232161AB_TypeDefinitionIndex = 69306;
 
 class Class_1_714A2A6E232161AB : public ::System::Object
 {
 public:
-	::System::Action* Field_1_0; // 0x10
-	::RPG::Client::GlobalDispatchData_ServerData* Field_1_1; // 0x18
-	::System::Single Field_1_2; // 0x20
+	::System::Action* DPANHIICMLD; // 0x10
+	::RPG::Client::GlobalDispatchData_ServerData* APPIHABBCGK; // 0x18
+	::System::Single ACEBEKCCMEG; // 0x20
 
 	::System::Void _ctor(::RPG::Client::GlobalDispatchData_ServerData* a1, ::System::Action* a2, ::System::Single a3)
 	{

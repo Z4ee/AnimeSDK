@@ -2,42 +2,55 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_97E659ED8D5D259C_20_GET_LEVEL_OFFSET UNITYSDK_OFFSET(0x162170A0)
-#define CLASS_1_97E659ED8D5D259C_20_GET_QUESTID_OFFSET UNITYSDK_OFFSET(0x162170C0)
-#define CLASS_1_97E659ED8D5D259C_20_SET_LEVEL_OFFSET UNITYSDK_OFFSET(0x162170B0)
-#define CLASS_1_97E659ED8D5D259C_20_SET_QUESTID_OFFSET UNITYSDK_OFFSET(0x162170D0)
-#define CLASS_1_97E659ED8D5D259C_20__CTOR_OFFSET UNITYSDK_OFFSET(0x162170E0)
+#define CLASS_1_97E659ED8D5D259C_20_GET_GROUPID_OFFSET UNITYSDK_OFFSET(0x1A4504C0)
+#define CLASS_1_97E659ED8D5D259C_20_GET_INSTANCEID_OFFSET UNITYSDK_OFFSET(0x1A4504E0)
+#define CLASS_1_97E659ED8D5D259C_20_GET_LITTLEGAMEENTITYID_OFFSET UNITYSDK_OFFSET(0x1A450500)
+#define CLASS_1_97E659ED8D5D259C_20_SET_GROUPID_OFFSET UNITYSDK_OFFSET(0x1A4504D0)
+#define CLASS_1_97E659ED8D5D259C_20_SET_INSTANCEID_OFFSET UNITYSDK_OFFSET(0x1A4504F0)
+#define CLASS_1_97E659ED8D5D259C_20_SET_LITTLEGAMEENTITYID_OFFSET UNITYSDK_OFFSET(0x1A450510)
+#define CLASS_1_97E659ED8D5D259C_20__CTOR_OFFSET UNITYSDK_OFFSET(0x1A450520)
 
-inline static constexpr unsigned int Class_1_97E659ED8D5D259C_20_TypeDefinitionIndex = 75064;
+inline static constexpr unsigned int Class_1_97E659ED8D5D259C_20_TypeDefinitionIndex = 74465;
 
 class Class_1_97E659ED8D5D259C_20 : public ::System::Object
 {
 public:
-	::System::UInt32 _Level_k__BackingField; // 0x10
-	::System::UInt32 _QuestID_k__BackingField; // 0x14
+	::System::UInt32 _GroupID_k__BackingField; // 0x10
+	::System::UInt32 _LittleGameEntityID_k__BackingField; // 0x14
+	::System::UInt32 _InstanceID_k__BackingField; // 0x18
 
 	::System::Void _ctor()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_97E659ED8D5D259C_20__CTOR_OFFSET))(this);
 	}
 
-	::System::UInt32 get_Level()
+	::System::UInt32 get_GroupID()
 	{
-		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_97E659ED8D5D259C_20_GET_LEVEL_OFFSET))(this);
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_97E659ED8D5D259C_20_GET_GROUPID_OFFSET))(this);
 	}
 
-	::System::Void set_Level(::System::UInt32 a1)
+	::System::Void set_GroupID(::System::UInt32 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_97E659ED8D5D259C_20_SET_LEVEL_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_97E659ED8D5D259C_20_SET_GROUPID_OFFSET))(this, a1);
 	}
 
-	::System::UInt32 get_QuestID()
+	::System::UInt32 get_InstanceID()
 	{
-		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_97E659ED8D5D259C_20_GET_QUESTID_OFFSET))(this);
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_97E659ED8D5D259C_20_GET_INSTANCEID_OFFSET))(this);
 	}
 
-	::System::Void set_QuestID(::System::UInt32 a1)
+	::System::Void set_InstanceID(::System::UInt32 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_97E659ED8D5D259C_20_SET_QUESTID_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_97E659ED8D5D259C_20_SET_INSTANCEID_OFFSET))(this, a1);
+	}
+
+	::System::UInt32 get_LittleGameEntityID()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_97E659ED8D5D259C_20_GET_LITTLEGAMEENTITYID_OFFSET))(this);
+	}
+
+	::System::Void set_LittleGameEntityID(::System::UInt32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_97E659ED8D5D259C_20_SET_LITTLEGAMEENTITYID_OFFSET))(this, a1);
 	}
 };

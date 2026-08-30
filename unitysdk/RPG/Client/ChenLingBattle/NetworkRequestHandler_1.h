@@ -7,7 +7,7 @@ namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int NetworkRequestHandler_1_TypeDefinitionIndex = 72326;
+	inline static constexpr unsigned int NetworkRequestHandler_1_TypeDefinitionIndex = 75762;
 
 	template <typename TResponse>
 	class NetworkRequestHandler_1 : public ::System::Object

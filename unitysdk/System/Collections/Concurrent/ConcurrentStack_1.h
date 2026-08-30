@@ -11,7 +11,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace System::Collections::Concurrent
 {
-	inline static constexpr unsigned int ConcurrentStack_1_TypeDefinitionIndex = 1517;
+	inline static constexpr unsigned int ConcurrentStack_1_TypeDefinitionIndex = 1524;
 
 	template <typename T>
 	class ConcurrentStack_1 : public ::System::Object

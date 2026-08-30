@@ -4,17 +4,17 @@
 
 namespace RPG::Client { class WolfBroGunPlayTargetActionConfig_Flip; }
 
-#define CLASS_3_9868F2E5CF411D32_METHOD_3_50896BDA13FD77D3_OFFSET UNITYSDK_OFFSET(0x170266A0)
-#define CLASS_3_9868F2E5CF411D32_METHOD_3_D3129FE8DF635B48_OFFSET UNITYSDK_OFFSET(0x17026580)
-#define CLASS_3_9868F2E5CF411D32__CTOR_OFFSET UNITYSDK_OFFSET(0x17026820)
+#define CLASS_3_9868F2E5CF411D32_METHOD_3_50896BDA13FD77D3_OFFSET UNITYSDK_OFFSET(0x130AD380)
+#define CLASS_3_9868F2E5CF411D32_METHOD_3_D3129FE8DF635B48_OFFSET UNITYSDK_OFFSET(0x130AD260)
+#define CLASS_3_9868F2E5CF411D32__CTOR_OFFSET UNITYSDK_OFFSET(0x130AD500)
 
-inline static constexpr unsigned int Class_3_9868F2E5CF411D32_TypeDefinitionIndex = 65625;
+inline static constexpr unsigned int Class_3_9868F2E5CF411D32_TypeDefinitionIndex = 68662;
 
 class Class_3_9868F2E5CF411D32 : public ::RPG::Client::WolfBroGunPlayTargetActionTemplate_1<::RPG::Client::WolfBroGunPlayTargetActionConfig_Flip*>
 {
 public:
-	::System::Int32 Field_3_0; // 0x28
-	::System::Single Field_3_1; // 0x2C
+	::System::Int32 GAGEBMIOEGN; // 0x28
+	::System::Single PDLCENKDNGO; // 0x2C
 
 	::System::Void _ctor()
 	{

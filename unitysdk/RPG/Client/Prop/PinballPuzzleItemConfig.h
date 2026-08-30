@@ -10,7 +10,7 @@ namespace System { class String; }
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int PinballPuzzleItemConfig_TypeDefinitionIndex = 74814;
+	inline static constexpr unsigned int PinballPuzzleItemConfig_TypeDefinitionIndex = 78299;
 
 	struct alignas(8) PinballPuzzleItemConfig
 	{

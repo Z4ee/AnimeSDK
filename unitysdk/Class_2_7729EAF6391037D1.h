@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_1_AD6EAABC8C018C94.h"
 
-class Class_1_C9DFE5EE7107C629_6;
+class Class_1_6CF32442E7A80121_1;
 namespace Google::Protobuf::Collections { template <typename T> class RepeatedField_1; }
 namespace RPG::Client { class ChessRogueCabinetDataItem; }
 namespace RPG::Client { class ChessRogueData; }
@@ -10,27 +10,27 @@ namespace RPG::Client::Promises { class Promise; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_7729EAF6391037D1_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1526DCB0)
-#define CLASS_2_7729EAF6391037D1_METHOD_2_1524AD83A3833A17_OFFSET UNITYSDK_OFFSET(0x1526E170)
-#define CLASS_2_7729EAF6391037D1_METHOD_2_27C5766ACD13DC01_OFFSET UNITYSDK_OFFSET(0x1526DED0)
-#define CLASS_2_7729EAF6391037D1_METHOD_2_3C98CA656474384D_OFFSET UNITYSDK_OFFSET(0x1526DD60)
-#define CLASS_2_7729EAF6391037D1_METHOD_2_901D5A7422339B1D_OFFSET UNITYSDK_OFFSET(0x1526E7B0)
-#define CLASS_2_7729EAF6391037D1_METHOD_2_CE779D888EF1FAFC_OFFSET UNITYSDK_OFFSET(0x1526D3E0)
-#define CLASS_2_7729EAF6391037D1_METHOD_2_F89C48EE20723849_OFFSET UNITYSDK_OFFSET(0x1526E5A0)
-#define CLASS_2_7729EAF6391037D1__CTOR_OFFSET UNITYSDK_OFFSET(0x1526D3A0)
+#define CLASS_2_7729EAF6391037D1_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16CBEF20)
+#define CLASS_2_7729EAF6391037D1_METHOD_2_1524AD83A3833A17_OFFSET UNITYSDK_OFFSET(0x16CBF3E0)
+#define CLASS_2_7729EAF6391037D1_METHOD_2_27C5766ACD13DC01_OFFSET UNITYSDK_OFFSET(0x16CBF140)
+#define CLASS_2_7729EAF6391037D1_METHOD_2_3C98CA656474384D_OFFSET UNITYSDK_OFFSET(0x16CBEFD0)
+#define CLASS_2_7729EAF6391037D1_METHOD_2_901D5A7422339B1D_OFFSET UNITYSDK_OFFSET(0x16CBFA10)
+#define CLASS_2_7729EAF6391037D1_METHOD_2_CE779D888EF1FAFC_OFFSET UNITYSDK_OFFSET(0x16CBE650)
+#define CLASS_2_7729EAF6391037D1_METHOD_2_F89C48EE20723849_OFFSET UNITYSDK_OFFSET(0x16CBF800)
+#define CLASS_2_7729EAF6391037D1__CTOR_OFFSET UNITYSDK_OFFSET(0x16CBE610)
 
-inline static constexpr unsigned int Class_2_7729EAF6391037D1_TypeDefinitionIndex = 63969;
+inline static constexpr unsigned int Class_2_7729EAF6391037D1_TypeDefinitionIndex = 66960;
 
 class Class_2_7729EAF6391037D1 : public ::Class_1_AD6EAABC8C018C94
 {
 public:
-	::System::Collections::Generic::List_1<::RPG::Client::ChessRogueCabinetDataItem*>* Field_2_0; // 0x38
-	::RPG::Client::Promises::Promise* Field_2_1; // 0x40
-	::System::Boolean Field_2_2; // 0x48
+	::RPG::Client::Promises::Promise* GJLMIAMPLLE; // 0x38
+	::System::Collections::Generic::List_1<::RPG::Client::ChessRogueCabinetDataItem*>* BFPDGNPGELG; // 0x40
+	::System::Boolean PBNMDACHCHL; // 0x48
 
-	::System::Void _ctor(::RPG::Client::ChessRogueData* a1, ::Class_1_C9DFE5EE7107C629_6* a2, ::System::Boolean a3)
+	::System::Void _ctor(::RPG::Client::ChessRogueData* a1, ::Class_1_6CF32442E7A80121_1* a2, ::System::Boolean a3)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::Client::ChessRogueData*, ::Class_1_C9DFE5EE7107C629_6*, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_2_7729EAF6391037D1__CTOR_OFFSET))(this, a1, a2, a3);
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::ChessRogueData*, ::Class_1_6CF32442E7A80121_1*, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_2_7729EAF6391037D1__CTOR_OFFSET))(this, a1, a2, a3);
 	}
 
 	::System::Void Dispose()

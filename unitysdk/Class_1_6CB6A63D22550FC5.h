@@ -3,16 +3,16 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define CLASS_1_6CB6A63D22550FC5__CTOR_OFFSET UNITYSDK_OFFSET(0xE4EAB90)
+#define CLASS_1_6CB6A63D22550FC5__CTOR_OFFSET UNITYSDK_OFFSET(0x105D0B80)
 
-inline static constexpr unsigned int Class_1_6CB6A63D22550FC5_TypeDefinitionIndex = 45602;
+inline static constexpr unsigned int Class_1_6CB6A63D22550FC5_TypeDefinitionIndex = 47853;
 
 class Class_1_6CB6A63D22550FC5 : public ::System::Object
 {
 public:
-	::System::Single Field_1_0; // 0x10
-	::UnityEngine::Vector2 Field_1_1; // 0x14
-	::UnityEngine::Vector2 Field_1_2; // 0x1C
+	::UnityEngine::Vector2 ECKAIJLHEEM; // 0x10
+	::System::Single NIDAPHBEMDE; // 0x18
+	::UnityEngine::Vector2 COIHCPBGBPA; // 0x1C
 
 	::System::Void _ctor(::UnityEngine::Vector2 a1, ::UnityEngine::Vector2 a2, ::System::Single a3)
 	{

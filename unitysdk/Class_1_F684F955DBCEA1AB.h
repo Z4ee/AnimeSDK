@@ -5,16 +5,16 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_F684F955DBCEA1AB__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8FE010)
+#define CLASS_1_F684F955DBCEA1AB__CTOR_OFFSET UNITYSDK_OFFSET(0x1C517CC0)
 
-inline static constexpr unsigned int Class_1_F684F955DBCEA1AB_TypeDefinitionIndex = 40610;
+inline static constexpr unsigned int Class_1_F684F955DBCEA1AB_TypeDefinitionIndex = 41548;
 
 class Class_1_F684F955DBCEA1AB : public ::System::Object
 {
 public:
-	::UnityEngine::Transform* Field_1_0; // 0x10
-	::UnityEngine::GameObject* Field_1_1; // 0x18
-	::UnityEngine::GameObject* Field_1_2; // 0x20
+	::UnityEngine::GameObject* MOAGBKPPHCF; // 0x10
+	::UnityEngine::Transform* FMMNCMNFDHP; // 0x18
+	::UnityEngine::GameObject* HIJPCPIOCNL; // 0x20
 
 	::System::Void _ctor()
 	{

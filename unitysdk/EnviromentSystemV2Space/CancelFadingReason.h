@@ -3,7 +3,7 @@
 
 namespace EnviromentSystemV2Space
 {
-	inline static constexpr unsigned int CancelFadingReason_TypeDefinitionIndex = 47560;
+	inline static constexpr unsigned int CancelFadingReason_TypeDefinitionIndex = 49841;
 
 	enum class CancelFadingReason : ::System::Int32
 	{

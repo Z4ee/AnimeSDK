@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SYSTEM_PARAMARRAYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AFBBE70)
+#define SYSTEM_PARAMARRAYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC0C980)
 
 namespace System
 {
-	inline static constexpr unsigned int ParamArrayAttribute_TypeDefinitionIndex = 311;
+	inline static constexpr unsigned int ParamArrayAttribute_TypeDefinitionIndex = 314;
 
 	class ParamArrayAttribute : public ::System::Attribute
 	{

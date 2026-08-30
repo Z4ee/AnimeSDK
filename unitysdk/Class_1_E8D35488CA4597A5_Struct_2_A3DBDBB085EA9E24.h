@@ -5,10 +5,10 @@
 namespace System { class Delegate; }
 namespace System { class String; }
 
-inline static constexpr unsigned int Class_1_E8D35488CA4597A5_Struct_2_A3DBDBB085EA9E24_TypeDefinitionIndex = 47440;
+inline static constexpr unsigned int Class_1_E8D35488CA4597A5_Struct_2_A3DBDBB085EA9E24_TypeDefinitionIndex = 49720;
 
 struct alignas(8) Class_1_E8D35488CA4597A5_Struct_2_A3DBDBB085EA9E24
 {
-	::System::String* Field_2_0; // 0x10
-	::System::Delegate* Field_2_1; // 0x18
+	::System::String* DJNKMHHLKHM; // 0x10
+	::System::Delegate* KCLEABINAHA; // 0x18
 };

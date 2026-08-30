@@ -5,29 +5,29 @@
 namespace RPG::Client { class BaseGameFlow; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_STAGEPROGRESSVIEWMODEL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A196660)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_STAGEPROGRESSVIEWMODEL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1966A0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_STAGEPROGRESSVIEWMODEL___C___ENTERNEXTNODESTANDALONE_B__69_0_OFFSET UNITYSDK_OFFSET(0x1A1966F0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_STAGEPROGRESSVIEWMODEL___C___REENTERCURNODESTANDALONE_B__68_0_OFFSET UNITYSDK_OFFSET(0x1A1966B0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_STAGEPROGRESSVIEWMODEL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BA71580)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_STAGEPROGRESSVIEWMODEL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA715C0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_STAGEPROGRESSVIEWMODEL___C___ENTERNEXTNODESTANDALONE_B__69_0_OFFSET UNITYSDK_OFFSET(0x1BA71610)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_STAGEPROGRESSVIEWMODEL___C___REENTERCURNODESTANDALONE_B__68_0_OFFSET UNITYSDK_OFFSET(0x1BA715D0)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int StageProgressViewModel___c_TypeDefinitionIndex = 71836;
+	inline static constexpr unsigned int StageProgressViewModel___c_TypeDefinitionIndex = 75142;
 
 	class StageProgressViewModel___c : public ::System::Object
 	{
 	public:
+		static ::RPG::Client::ActivityIdleLive::StageProgressViewModel___c** StaticGet___9()
+		{
+			return (::RPG::Client::ActivityIdleLive::StageProgressViewModel___c**)Il2CppClass::FromTypeDefinitionIndex(StageProgressViewModel___c_TypeDefinitionIndex)->GetStaticField(0x5F1B0);
+		}
 		static ::System::Action_1<::RPG::Client::BaseGameFlow*>** StaticGet___9__69_0()
 		{
-			return (::System::Action_1<::RPG::Client::BaseGameFlow*>**)Il2CppClass::FromTypeDefinitionIndex(StageProgressViewModel___c_TypeDefinitionIndex)->GetStaticField(0x42270);
+			return (::System::Action_1<::RPG::Client::BaseGameFlow*>**)Il2CppClass::FromTypeDefinitionIndex(StageProgressViewModel___c_TypeDefinitionIndex)->GetStaticField(0x5F1B8);
 		}
 		static ::System::Action_1<::RPG::Client::BaseGameFlow*>** StaticGet___9__68_0()
 		{
-			return (::System::Action_1<::RPG::Client::BaseGameFlow*>**)Il2CppClass::FromTypeDefinitionIndex(StageProgressViewModel___c_TypeDefinitionIndex)->GetStaticField(0x42278);
-		}
-		static ::RPG::Client::ActivityIdleLive::StageProgressViewModel___c** StaticGet___9()
-		{
-			return (::RPG::Client::ActivityIdleLive::StageProgressViewModel___c**)Il2CppClass::FromTypeDefinitionIndex(StageProgressViewModel___c_TypeDefinitionIndex)->GetStaticField(0x42280);
+			return (::System::Action_1<::RPG::Client::BaseGameFlow*>**)Il2CppClass::FromTypeDefinitionIndex(StageProgressViewModel___c_TypeDefinitionIndex)->GetStaticField(0x5F1C0);
 		}
 
 		static ::System::Void _cctor()

@@ -4,7 +4,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HAPI_PDG_WorkItemInfo_TypeDefinitionIndex = 38363;
+	inline static constexpr unsigned int HAPI_PDG_WorkItemInfo_TypeDefinitionIndex = 39222;
 
 	struct alignas(4) HAPI_PDG_WorkItemInfo
 	{

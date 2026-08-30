@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AITargetSelectorType_TypeDefinitionIndex = 14971;
+	inline static constexpr unsigned int AITargetSelectorType_TypeDefinitionIndex = 15407;
 
 	enum class AITargetSelectorType : ::System::Int32
 	{

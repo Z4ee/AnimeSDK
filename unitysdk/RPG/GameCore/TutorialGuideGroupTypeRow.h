@@ -6,19 +6,19 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_TUTORIALGUIDEGROUPTYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B06C1C0)
-#define RPG_GAMECORE_TUTORIALGUIDEGROUPTYPEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B06CC10)
+#define RPG_GAMECORE_TUTORIALGUIDEGROUPTYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D2A5810)
+#define RPG_GAMECORE_TUTORIALGUIDEGROUPTYPEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2A6260)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TutorialGuideGroupTypeRow_TypeDefinitionIndex = 14776;
+	inline static constexpr unsigned int TutorialGuideGroupTypeRow_TypeDefinitionIndex = 15212;
 
 	class TutorialGuideGroupTypeRow : public ::System::Object
 	{
 	public:
 		::System::String* MessageIconPath; // 0x10
-		::System::UInt32 TutorialType; // 0x18
-		::RPG::Client::TextID MessageTitle; // 0x20
+		::RPG::Client::TextID MessageTitle; // 0x18
+		::System::UInt32 TutorialType; // 0x28
 
 		::System::Void _ctor()
 		{

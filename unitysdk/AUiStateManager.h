@@ -7,20 +7,20 @@ class StateTag;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define AUISTATEMANAGER_CHECKINDEX_OFFSET UNITYSDK_OFFSET(0x158D05A0)
-#define AUISTATEMANAGER_FRESHSTATE_OFFSET UNITYSDK_OFFSET(0x158D0EF0)
-#define AUISTATEMANAGER_GETALLTAG_OFFSET UNITYSDK_OFFSET(0x158D0440)
-#define AUISTATEMANAGER_METHOD_5_134D4FD742CDB047_OFFSET UNITYSDK_OFFSET(0x158D0820)
-#define AUISTATEMANAGER_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x158D03F0)
-#define AUISTATEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x158D1290)
+#define AUISTATEMANAGER_CHECKINDEX_OFFSET UNITYSDK_OFFSET(0x1765B7F0)
+#define AUISTATEMANAGER_FRESHSTATE_OFFSET UNITYSDK_OFFSET(0x1765C150)
+#define AUISTATEMANAGER_GETALLTAG_OFFSET UNITYSDK_OFFSET(0x1765B690)
+#define AUISTATEMANAGER_METHOD_5_134D4FD742CDB047_OFFSET UNITYSDK_OFFSET(0x1765BA70)
+#define AUISTATEMANAGER_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x1765B640)
+#define AUISTATEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1765C4F0)
 
-inline static constexpr unsigned int AUiStateManager_TypeDefinitionIndex = 45783;
+inline static constexpr unsigned int AUiStateManager_TypeDefinitionIndex = 48035;
 
 class AUiStateManager : public ::UnityEngine::MonoBehaviour
 {
 public:
-	::System::Int32 Field_5_0; // 0x18
-	::System::Int32 Field_5_1; // 0x1C
+	::System::Int32 GELHBGGCLIM; // 0x18
+	::System::Int32 BHBCFEDIPCE; // 0x1C
 	::System::Int32 StateIndex; // 0x20
 	::System::Collections::Generic::List_1<::StateTag*>* ListStateTag; // 0x28
 	::System::Collections::Generic::List_1<::AUiStateTagBase*>* listTagComp; // 0x30

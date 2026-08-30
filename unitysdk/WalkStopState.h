@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int WalkStopState_TypeDefinitionIndex = 35919;
+inline static constexpr unsigned int WalkStopState_TypeDefinitionIndex = 36780;
 
 enum class WalkStopState : ::System::Int32
 {

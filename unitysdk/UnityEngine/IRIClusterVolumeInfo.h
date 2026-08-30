@@ -7,7 +7,7 @@ namespace UnityEngine { class Transform; }
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int IRIClusterVolumeInfo_TypeDefinitionIndex = 4280;
+	inline static constexpr unsigned int IRIClusterVolumeInfo_TypeDefinitionIndex = 4290;
 
 	struct alignas(8) IRIClusterVolumeInfo
 	{

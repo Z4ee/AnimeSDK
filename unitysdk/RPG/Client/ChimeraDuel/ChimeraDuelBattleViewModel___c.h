@@ -4,34 +4,34 @@
 
 namespace System { class Action; }
 
-#define RPG_CLIENT_CHIMERADUEL_CHIMERADUELBATTLEVIEWMODEL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A502E40)
-#define RPG_CLIENT_CHIMERADUEL_CHIMERADUELBATTLEVIEWMODEL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A502E80)
-#define RPG_CLIENT_CHIMERADUEL_CHIMERADUELBATTLEVIEWMODEL___C___CTOR_B__1_0_OFFSET UNITYSDK_OFFSET(0x1A502E90)
-#define RPG_CLIENT_CHIMERADUEL_CHIMERADUELBATTLEVIEWMODEL___C___CTOR_B__1_1_OFFSET UNITYSDK_OFFSET(0x1A502F40)
-#define RPG_CLIENT_CHIMERADUEL_CHIMERADUELBATTLEVIEWMODEL___C___CTOR_B__1_2_OFFSET UNITYSDK_OFFSET(0x1A502F50)
+#define RPG_CLIENT_CHIMERADUEL_CHIMERADUELBATTLEVIEWMODEL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C1B99C0)
+#define RPG_CLIENT_CHIMERADUEL_CHIMERADUELBATTLEVIEWMODEL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1B9A00)
+#define RPG_CLIENT_CHIMERADUEL_CHIMERADUELBATTLEVIEWMODEL___C___CTOR_B__1_0_OFFSET UNITYSDK_OFFSET(0x1C1B9A10)
+#define RPG_CLIENT_CHIMERADUEL_CHIMERADUELBATTLEVIEWMODEL___C___CTOR_B__1_1_OFFSET UNITYSDK_OFFSET(0x1C1B9AC0)
+#define RPG_CLIENT_CHIMERADUEL_CHIMERADUELBATTLEVIEWMODEL___C___CTOR_B__1_2_OFFSET UNITYSDK_OFFSET(0x1C1B9AD0)
 
 namespace RPG::Client::ChimeraDuel
 {
-	inline static constexpr unsigned int ChimeraDuelBattleViewModel___c_TypeDefinitionIndex = 76292;
+	inline static constexpr unsigned int ChimeraDuelBattleViewModel___c_TypeDefinitionIndex = 79925;
 
 	class ChimeraDuelBattleViewModel___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__1_1()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(ChimeraDuelBattleViewModel___c_TypeDefinitionIndex)->GetStaticField(0x680F0);
-		}
 		static ::System::Action** StaticGet___9__1_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(ChimeraDuelBattleViewModel___c_TypeDefinitionIndex)->GetStaticField(0x680F8);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(ChimeraDuelBattleViewModel___c_TypeDefinitionIndex)->GetStaticField(0x52EB0);
 		}
-		static ::RPG::Client::ChimeraDuel::ChimeraDuelBattleViewModel___c** StaticGet___9()
+		static ::System::Action** StaticGet___9__1_1()
 		{
-			return (::RPG::Client::ChimeraDuel::ChimeraDuelBattleViewModel___c**)Il2CppClass::FromTypeDefinitionIndex(ChimeraDuelBattleViewModel___c_TypeDefinitionIndex)->GetStaticField(0x68100);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(ChimeraDuelBattleViewModel___c_TypeDefinitionIndex)->GetStaticField(0x52EB8);
 		}
 		static ::System::Action** StaticGet___9__1_2()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(ChimeraDuelBattleViewModel___c_TypeDefinitionIndex)->GetStaticField(0x68108);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(ChimeraDuelBattleViewModel___c_TypeDefinitionIndex)->GetStaticField(0x52EC0);
+		}
+		static ::RPG::Client::ChimeraDuel::ChimeraDuelBattleViewModel___c** StaticGet___9()
+		{
+			return (::RPG::Client::ChimeraDuel::ChimeraDuelBattleViewModel___c**)Il2CppClass::FromTypeDefinitionIndex(ChimeraDuelBattleViewModel___c_TypeDefinitionIndex)->GetStaticField(0x52EC8);
 		}
 
 		static ::System::Void _cctor()

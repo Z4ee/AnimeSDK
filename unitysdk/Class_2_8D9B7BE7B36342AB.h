@@ -7,10 +7,10 @@ namespace RPG::GameCore { class RtTargetMapSkillCastPos; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_8D9B7BE7B36342AB_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x17E96A10)
-#define CLASS_2_8D9B7BE7B36342AB__CTOR_OFFSET UNITYSDK_OFFSET(0x17E969F0)
+#define CLASS_2_8D9B7BE7B36342AB_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x1A6CA380)
+#define CLASS_2_8D9B7BE7B36342AB__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6CA360)
 
-inline static constexpr unsigned int Class_2_8D9B7BE7B36342AB_TypeDefinitionIndex = 51335;
+inline static constexpr unsigned int Class_2_8D9B7BE7B36342AB_TypeDefinitionIndex = 54019;
 
 class Class_2_8D9B7BE7B36342AB : public ::RPG::GameCore::TargetSeqOperationImpl_1<::RPG::GameCore::RtTargetMapSkillCastPos*>
 {

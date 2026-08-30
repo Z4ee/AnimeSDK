@@ -1,9 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Quaternion.h"
 
-class Class_0_16E4307DCC419505_285;
-
-inline static constexpr unsigned int Class_0_16E4307DCC419505_284_TypeDefinitionIndex = 41216;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_284_TypeDefinitionIndex = 41990;
 
 class Class_0_16E4307DCC419505_284
 {

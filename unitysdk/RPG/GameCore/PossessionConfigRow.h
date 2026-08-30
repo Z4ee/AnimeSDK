@@ -5,22 +5,22 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_POSSESSIONCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1BA13CF0)
-#define RPG_GAMECORE_POSSESSIONCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA13FA0)
+#define RPG_GAMECORE_POSSESSIONCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7B49D0)
+#define RPG_GAMECORE_POSSESSIONCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7B4C80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PossessionConfigRow_TypeDefinitionIndex = 13972;
+	inline static constexpr unsigned int PossessionConfigRow_TypeDefinitionIndex = 14390;
 
 	class PossessionConfigRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::Single>* LocalRotation; // 0x10
-		::Il2CppArray<::System::Single>* LocalPosition; // 0x18
-		::Il2CppArray<::System::Single>* LocalScale; // 0x20
-		::System::String* PossessionName; // 0x28
-		::System::String* PossessionPrefabPath; // 0x30
-		::System::String* AttachPoint; // 0x38
+		::System::String* AttachPoint; // 0x10
+		::System::String* PossessionPrefabPath; // 0x18
+		::System::String* PossessionName; // 0x20
+		::Il2CppArray<::System::Single>* LocalScale; // 0x28
+		::Il2CppArray<::System::Single>* LocalPosition; // 0x30
+		::Il2CppArray<::System::Single>* LocalRotation; // 0x38
 		::System::Boolean IsEffect; // 0x40
 
 		::System::Void _ctor()

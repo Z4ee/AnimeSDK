@@ -11,34 +11,34 @@ namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class LineRenderer; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_CABLEPROCEDURAL_AWAKE_OFFSET UNITYSDK_OFFSET(0x18CBD8B0)
-#define RPG_CLIENT_CABLEPROCEDURAL_LATETICK_OFFSET UNITYSDK_OFFSET(0x18CBDBC0)
-#define RPG_CLIENT_CABLEPROCEDURAL_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x18CBDB60)
-#define RPG_CLIENT_CABLEPROCEDURAL_MARKDIRTY_OFFSET UNITYSDK_OFFSET(0x18CBFD40)
-#define RPG_CLIENT_CABLEPROCEDURAL_METHOD_5_4343BB0E5E498E53_OFFSET UNITYSDK_OFFSET(0x18CBE6D0)
-#define RPG_CLIENT_CABLEPROCEDURAL_METHOD_5_4C3EA6AB0AC5008C_OFFSET UNITYSDK_OFFSET(0x18CBE240)
-#define RPG_CLIENT_CABLEPROCEDURAL_METHOD_5_6F2D07D257FBDAC7_OFFSET UNITYSDK_OFFSET(0x18CBEC80)
-#define RPG_CLIENT_CABLEPROCEDURAL_METHOD_5_75DEF244AC8D4B03_OFFSET UNITYSDK_OFFSET(0x18CBF850)
-#define RPG_CLIENT_CABLEPROCEDURAL_METHOD_5_805C56F44231AEF9_OFFSET UNITYSDK_OFFSET(0x18CBE0F0)
-#define RPG_CLIENT_CABLEPROCEDURAL_METHOD_5_82674784215D49A4_OFFSET UNITYSDK_OFFSET(0x18CBF440)
-#define RPG_CLIENT_CABLEPROCEDURAL_METHOD_5_83A63162250009A2_OFFSET UNITYSDK_OFFSET(0x18CBF740)
-#define RPG_CLIENT_CABLEPROCEDURAL_METHOD_5_C0073351A39FCB01_OFFSET UNITYSDK_OFFSET(0x18CBFAC0)
-#define RPG_CLIENT_CABLEPROCEDURAL_METHOD_5_CB613A5EF970C11B_OFFSET UNITYSDK_OFFSET(0x18CBEC10)
-#define RPG_CLIENT_CABLEPROCEDURAL_METHOD_5_E0EA4B376CD37CA9_OFFSET UNITYSDK_OFFSET(0x18CBF7D0)
-#define RPG_CLIENT_CABLEPROCEDURAL_METHOD_5_F4ADC37B63F4E9EF_OFFSET UNITYSDK_OFFSET(0x18CBDA20)
-#define RPG_CLIENT_CABLEPROCEDURAL_ONENABLE_OFFSET UNITYSDK_OFFSET(0x18CBD9C0)
-#define RPG_CLIENT_CABLEPROCEDURAL__CTOR_OFFSET UNITYSDK_OFFSET(0x18CBFD90)
+#define RPG_CLIENT_CABLEPROCEDURAL_AWAKE_OFFSET UNITYSDK_OFFSET(0x1A11DD70)
+#define RPG_CLIENT_CABLEPROCEDURAL_LATETICK_OFFSET UNITYSDK_OFFSET(0x1A11E080)
+#define RPG_CLIENT_CABLEPROCEDURAL_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1A11E020)
+#define RPG_CLIENT_CABLEPROCEDURAL_MARKDIRTY_OFFSET UNITYSDK_OFFSET(0x1A1201E0)
+#define RPG_CLIENT_CABLEPROCEDURAL_METHOD_5_4343BB0E5E498E53_OFFSET UNITYSDK_OFFSET(0x1A11EB90)
+#define RPG_CLIENT_CABLEPROCEDURAL_METHOD_5_4C3EA6AB0AC5008C_OFFSET UNITYSDK_OFFSET(0x1A11E700)
+#define RPG_CLIENT_CABLEPROCEDURAL_METHOD_5_6F2D07D257FBDAC7_OFFSET UNITYSDK_OFFSET(0x1A11F140)
+#define RPG_CLIENT_CABLEPROCEDURAL_METHOD_5_75DEF244AC8D4B03_OFFSET UNITYSDK_OFFSET(0x1A11FD10)
+#define RPG_CLIENT_CABLEPROCEDURAL_METHOD_5_805C56F44231AEF9_OFFSET UNITYSDK_OFFSET(0x1A11E5B0)
+#define RPG_CLIENT_CABLEPROCEDURAL_METHOD_5_82674784215D49A4_OFFSET UNITYSDK_OFFSET(0x1A11F900)
+#define RPG_CLIENT_CABLEPROCEDURAL_METHOD_5_83A63162250009A2_OFFSET UNITYSDK_OFFSET(0x1A11FC00)
+#define RPG_CLIENT_CABLEPROCEDURAL_METHOD_5_C0073351A39FCB01_OFFSET UNITYSDK_OFFSET(0x1A11FF80)
+#define RPG_CLIENT_CABLEPROCEDURAL_METHOD_5_CB613A5EF970C11B_OFFSET UNITYSDK_OFFSET(0x1A11F0D0)
+#define RPG_CLIENT_CABLEPROCEDURAL_METHOD_5_E0EA4B376CD37CA9_OFFSET UNITYSDK_OFFSET(0x1A11FC90)
+#define RPG_CLIENT_CABLEPROCEDURAL_METHOD_5_F4ADC37B63F4E9EF_OFFSET UNITYSDK_OFFSET(0x1A11DEE0)
+#define RPG_CLIENT_CABLEPROCEDURAL_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1A11DE80)
+#define RPG_CLIENT_CABLEPROCEDURAL__CTOR_OFFSET UNITYSDK_OFFSET(0x1A120230)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CableProcedural_TypeDefinitionIndex = 67233;
+	inline static constexpr unsigned int CableProcedural_TypeDefinitionIndex = 70352;
 
 	class CableProcedural : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		// static const ::System::Single Field_5_0; // 0x0
-		// static const ::System::Single Field_5_1; // 0x0
-		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* Field_5_2; // 0x18
+		// static const ::System::Single JEHPKLEOMOM; // 0x0
+		// static const ::System::Single LABJDMDGGKB; // 0x0
+		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* GDOGAHABEEM; // 0x18
 		::RPG::Client::CableProcedural_CableData cableData; // 0x20
 		::RPG::Client::CableProcedural_CurveModel curveModel; // 0x38
 		::UnityEngine::Transform* StartPointTransform; // 0x40
@@ -52,30 +52,30 @@ namespace RPG::Client
 		::UnityEngine::AnimationCurve* ScaleCurve; // 0x70
 		::UnityEngine::AnimationCurve* HeightScaleCurve; // 0x78
 		::System::Collections::Generic::List_1<::UnityEngine::Transform*>* ControlList; // 0x80
-		::UnityEngine::Vector3 Field_5_16; // 0x88
-		::UnityEngine::LineRenderer* Field_5_17; // 0x98
-		::System::Int32 Field_5_18; // 0xA0
-		::UnityEngine::Vector3 Field_5_19; // 0xA4
-		::UnityEngine::Vector3 Field_5_20; // 0xB0
-		::System::Single Field_5_21; // 0xBC
-		::System::Single Field_5_22; // 0xC0
-		::UnityEngine::Vector3 Field_5_23; // 0xC4
-		::UnityEngine::Vector3 Field_5_24; // 0xD0
-		::System::Collections::Generic::List_1<::Il2CppArray<::System::Int32>*>* Field_5_25; // 0xE0
-		::UnityEngine::Vector3 Field_5_26; // 0xE8
-		::UnityEngine::Vector3 Field_5_27; // 0xF4
-		::UnityEngine::Quaternion Field_5_28; // 0x100
-		::UnityEngine::Quaternion Field_5_29; // 0x110
-		::System::Boolean Field_5_30; // 0x120
-		::System::Single Field_5_31; // 0x124
-		::System::Single Field_5_32; // 0x128
-		::System::Boolean Field_5_33; // 0x12C
-		::System::Single Field_5_34; // 0x130
-		::UnityEngine::Vector3 Field_5_35; // 0x134
-		::System::Single Field_5_36; // 0x140
-		::System::Int32 Field_5_37; // 0x144
-		::Il2CppArray<::UnityEngine::Vector3>* Field_5_38; // 0x148
-		::Il2CppArray<::UnityEngine::Vector3>* Field_5_39; // 0x150
+		::UnityEngine::Vector3 AODFEGBJHBK; // 0x88
+		::UnityEngine::LineRenderer* EEPGGDGGCDJ; // 0x98
+		::System::Int32 GILHKMKGICI; // 0xA0
+		::UnityEngine::Vector3 MDCAAGNPGCE; // 0xA4
+		::UnityEngine::Vector3 KBFDAIPBMIA; // 0xB0
+		::System::Single CNLHNGBFKIB; // 0xBC
+		::System::Single HEKJBEGMLNI; // 0xC0
+		::UnityEngine::Vector3 HOMLHPIMNNK; // 0xC4
+		::UnityEngine::Vector3 HACIFCGJIMA; // 0xD0
+		::System::Collections::Generic::List_1<::Il2CppArray<::System::Int32>*>* IHNOFDHPEHJ; // 0xE0
+		::UnityEngine::Vector3 AJOEMPMOFNK; // 0xE8
+		::UnityEngine::Vector3 IDBCCMLFDAB; // 0xF4
+		::UnityEngine::Quaternion JKLCBHCFOOD; // 0x100
+		::UnityEngine::Quaternion BONBOMLMFBJ; // 0x110
+		::System::Boolean CBJGEMHEIJH; // 0x120
+		::System::Single MBEKLFIFMCO; // 0x124
+		::System::Single LEPDONPHNDK; // 0x128
+		::System::Boolean LNMGCDGHJGI; // 0x12C
+		::System::Single BGGFPOGFLFN; // 0x130
+		::UnityEngine::Vector3 OFDMMOPJPED; // 0x134
+		::System::Single JLJFFONANHD; // 0x140
+		::System::Int32 IAKOOCMMMIP; // 0x144
+		::Il2CppArray<::UnityEngine::Vector3>* HIOLHAPBFJF; // 0x148
+		::Il2CppArray<::UnityEngine::Vector3>* LKJAPKPNGOC; // 0x150
 
 		::System::Void _ctor()
 		{

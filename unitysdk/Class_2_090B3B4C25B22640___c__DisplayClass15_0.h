@@ -6,16 +6,16 @@ class Class_2_090B3B4C25B22640;
 namespace RPG::Client { class MonoEffect; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_2_090B3B4C25B22640___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18F8DC80)
-#define CLASS_2_090B3B4C25B22640___C__DISPLAYCLASS15_0___DRAWLIGHTNINGRAY_B__0_OFFSET UNITYSDK_OFFSET(0x18F8DCD0)
+#define CLASS_2_090B3B4C25B22640___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1872CDE0)
+#define CLASS_2_090B3B4C25B22640___C__DISPLAYCLASS15_0___DRAWLIGHTNINGRAY_B__0_OFFSET UNITYSDK_OFFSET(0x1872CE30)
 
-inline static constexpr unsigned int Class_2_090B3B4C25B22640___c__DisplayClass15_0_TypeDefinitionIndex = 73940;
+inline static constexpr unsigned int Class_2_090B3B4C25B22640___c__DisplayClass15_0_TypeDefinitionIndex = 77424;
 
 class Class_2_090B3B4C25B22640___c__DisplayClass15_0 : public ::System::Object
 {
 public:
-	::Class_2_090B3B4C25B22640* __4__this; // 0x10
-	::UnityEngine::Transform* nextFrameTransform; // 0x18
+	::UnityEngine::Transform* nextFrameTransform; // 0x10
+	::Class_2_090B3B4C25B22640* __4__this; // 0x18
 	::RPG::Client::MonoEffect* effectInstance; // 0x20
 
 	::System::Void _ctor()

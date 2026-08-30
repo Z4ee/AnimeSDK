@@ -6,20 +6,20 @@
 namespace RPG::GameCore { class PamChatFeedbackConfigRow; }
 namespace RPG::GameCore { class ReportTypeConfigRow; }
 
-#define RPG_CLIENT_CHATREPORTREASON_GET_ID_OFFSET UNITYSDK_OFFSET(0x196343E0)
-#define RPG_CLIENT_CHATREPORTREASON_GET_NAME_OFFSET UNITYSDK_OFFSET(0x196343F0)
-#define RPG_CLIENT_CHATREPORTREASON__CTOR_1_OFFSET UNITYSDK_OFFSET(0x196343B0)
-#define RPG_CLIENT_CHATREPORTREASON__CTOR_OFFSET UNITYSDK_OFFSET(0x1962F0C0)
+#define RPG_CLIENT_CHATREPORTREASON_GET_ID_OFFSET UNITYSDK_OFFSET(0x1B93A230)
+#define RPG_CLIENT_CHATREPORTREASON_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1B93A240)
+#define RPG_CLIENT_CHATREPORTREASON__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B93A200)
+#define RPG_CLIENT_CHATREPORTREASON__CTOR_OFFSET UNITYSDK_OFFSET(0x1B934F30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChatReportReason_TypeDefinitionIndex = 60438;
+	inline static constexpr unsigned int ChatReportReason_TypeDefinitionIndex = 63291;
 
 	class ChatReportReason : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID _Name_k__BackingField; // 0x10
-		::System::UInt32 _ID_k__BackingField; // 0x20
+		::System::UInt32 _ID_k__BackingField; // 0x10
+		::RPG::Client::TextID _Name_k__BackingField; // 0x18
 
 		::System::Void _ctor(::RPG::GameCore::ReportTypeConfigRow* a1)
 		{

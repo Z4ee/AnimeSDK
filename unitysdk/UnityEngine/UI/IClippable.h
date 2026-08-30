@@ -8,7 +8,7 @@ namespace UnityEngine { class RectTransform; }
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int IClippable_TypeDefinitionIndex = 5862;
+	inline static constexpr unsigned int IClippable_TypeDefinitionIndex = 6692;
 
 	class IClippable
 	{

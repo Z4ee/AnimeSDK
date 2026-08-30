@@ -3,7 +3,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int GraphicSettingFlag_TypeDefinitionIndex = 36110;
+	inline static constexpr unsigned int GraphicSettingFlag_TypeDefinitionIndex = 36969;
 
 	enum class GraphicSettingFlag : ::System::Int32
 	{
@@ -23,7 +23,7 @@ namespace RPG::CustomRP
 		ForceExecutePPCmd = 4096,
 		AdjustBeforeTransparent = 8192,
 		NewLightDraw = 16384,
-		NewAreaLightDraw = 32768,
+		EnableRHIParallelDraw = 32768,
 		ForceHizmap = 65536,
 		EnableObjLightCull_NotUse = 131072,
 		EnableGBufferBCopy = 262144,

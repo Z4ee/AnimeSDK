@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 class Class_1_927AEEA01B635CB6_1;
 
-#define RPG_GAMECORE_ITEMAUTOTRANSFERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B016650)
-#define RPG_GAMECORE_ITEMAUTOTRANSFERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0167A0)
+#define RPG_GAMECORE_ITEMAUTOTRANSFERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D223C10)
+#define RPG_GAMECORE_ITEMAUTOTRANSFERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D223D60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ItemAutoTransferRow_TypeDefinitionIndex = 13399;
+	inline static constexpr unsigned int ItemAutoTransferRow_TypeDefinitionIndex = 13790;
 
 	class ItemAutoTransferRow : public ::System::Object
 	{

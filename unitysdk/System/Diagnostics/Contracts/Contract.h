@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace System::Diagnostics::Contracts
 {
-	inline static constexpr unsigned int Contract_TypeDefinitionIndex = 1579;
+	inline static constexpr unsigned int Contract_TypeDefinitionIndex = 1586;
 
 	class Contract : public ::System::Object
 	{

@@ -7,7 +7,7 @@ namespace TMPro { template <typename T> class TMP_ListPool_1___c; }
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_ListPool_1___c_TypeDefinitionIndex = 41808;
+	inline static constexpr unsigned int TMP_ListPool_1___c_TypeDefinitionIndex = 43419;
 
 	template <typename T>
 	class TMP_ListPool_1___c : public ::System::Object

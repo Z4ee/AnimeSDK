@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int AkMonitorErrorLevel_TypeDefinitionIndex = 41961;
+inline static constexpr unsigned int AkMonitorErrorLevel_TypeDefinitionIndex = 43572;
 
 enum class AkMonitorErrorLevel : ::System::Int32
 {

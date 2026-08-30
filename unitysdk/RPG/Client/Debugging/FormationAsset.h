@@ -5,11 +5,11 @@
 namespace RPG::Client::Debugging { class FormationData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_DEBUGGING_FORMATIONASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x18091650)
+#define RPG_CLIENT_DEBUGGING_FORMATIONASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x192DFB00)
 
 namespace RPG::Client::Debugging
 {
-	inline static constexpr unsigned int FormationAsset_TypeDefinitionIndex = 76707;
+	inline static constexpr unsigned int FormationAsset_TypeDefinitionIndex = 80747;
 
 	class FormationAsset : public ::UnityEngine::ScriptableObject
 	{

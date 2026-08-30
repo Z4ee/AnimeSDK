@@ -8,27 +8,27 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIVITYDICECOMBATSPECIALRULEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1AAE2D90)
-#define RPG_GAMECORE_ACTIVITYDICECOMBATSPECIALRULEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1AAE3200)
+#define RPG_GAMECORE_ACTIVITYDICECOMBATSPECIALRULEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C9F4900)
+#define RPG_GAMECORE_ACTIVITYDICECOMBATSPECIALRULEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1C9F4D70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityDiceCombatSpecialRuleRow_TypeDefinitionIndex = 10879;
+	inline static constexpr unsigned int ActivityDiceCombatSpecialRuleRow_TypeDefinitionIndex = 11254;
 
 	class ActivityDiceCombatSpecialRuleRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::Single>* AIEffectWeightList; // 0x10
-		::Il2CppArray<::System::UInt32>* ParamList; // 0x18
-		::System::String* IconPath; // 0x20
-		::System::String* SpecialRuleJson; // 0x28
-		::Il2CppArray<::System::UInt32>* GlossaryIDList; // 0x30
-		::RPG::Client::TextID Desc; // 0x38
-		::RPG::GameCore::DiceCombatWeatherShowType ShowType; // 0x48
-		::RPG::GameCore::DiceCombatWeatherRuleTag RuleTag; // 0x4C
-		::RPG::Client::TextID Name; // 0x50
+		::Il2CppArray<::System::UInt32>* ParamList; // 0x10
+		::Il2CppArray<::System::UInt32>* GlossaryIDList; // 0x18
+		::Il2CppArray<::System::Single>* AIEffectWeightList; // 0x20
+		::System::String* IconPath; // 0x28
+		::System::String* SpecialRuleJson; // 0x30
+		::RPG::GameCore::DiceCombatWeatherShowType ShowType; // 0x38
+		::System::UInt32 SpecialRuleID; // 0x3C
+		::RPG::Client::TextID Name; // 0x40
+		::RPG::Client::TextID Desc; // 0x50
 		::System::UInt32 ModifierID; // 0x60
-		::System::UInt32 SpecialRuleID; // 0x64
+		::RPG::GameCore::DiceCombatWeatherRuleTag RuleTag; // 0x64
 
 		::System::Void _ctor()
 		{

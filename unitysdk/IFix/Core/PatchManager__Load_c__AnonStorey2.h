@@ -5,12 +5,12 @@
 namespace System { class Type; }
 namespace System::Reflection { class FieldInfo; }
 
-#define IFIX_CORE_PATCHMANAGER__LOAD_C__ANONSTOREY2__CTOR_OFFSET UNITYSDK_OFFSET(0x1B541A70)
-#define IFIX_CORE_PATCHMANAGER__LOAD_C__ANONSTOREY2___M__0_OFFSET UNITYSDK_OFFSET(0x1B549040)
+#define IFIX_CORE_PATCHMANAGER__LOAD_C__ANONSTOREY2__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC6B4B0)
+#define IFIX_CORE_PATCHMANAGER__LOAD_C__ANONSTOREY2___M__0_OFFSET UNITYSDK_OFFSET(0x1CC72AA0)
 
 namespace IFix::Core
 {
-	inline static constexpr unsigned int PatchManager__Load_c__AnonStorey2_TypeDefinitionIndex = 9759;
+	inline static constexpr unsigned int PatchManager__Load_c__AnonStorey2_TypeDefinitionIndex = 10038;
 
 	class PatchManager__Load_c__AnonStorey2 : public ::System::Object
 	{

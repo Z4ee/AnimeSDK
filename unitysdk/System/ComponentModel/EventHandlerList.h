@@ -6,12 +6,12 @@ namespace System { class Delegate; }
 namespace System::ComponentModel { class Component; }
 namespace System::ComponentModel { class EventHandlerList_ListEntry; }
 
-#define SYSTEM_COMPONENTMODEL_EVENTHANDLERLIST_FIND_OFFSET UNITYSDK_OFFSET(0x1914ED80)
-#define SYSTEM_COMPONENTMODEL_EVENTHANDLERLIST_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x1914EC10)
+#define SYSTEM_COMPONENTMODEL_EVENTHANDLERLIST_FIND_OFFSET UNITYSDK_OFFSET(0x1AB0D530)
+#define SYSTEM_COMPONENTMODEL_EVENTHANDLERLIST_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x1AB0D3C0)
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int EventHandlerList_TypeDefinitionIndex = 2587;
+	inline static constexpr unsigned int EventHandlerList_TypeDefinitionIndex = 2594;
 
 	class EventHandlerList : public ::System::Object
 	{

@@ -5,21 +5,21 @@
 
 namespace System { class String; }
 
-#define CLASS_1_2B55159CDDD73374_METHOD_1_031C5A23422D4BE8_OFFSET UNITYSDK_OFFSET(0x164F8C80)
-#define CLASS_1_2B55159CDDD73374__CTOR_OFFSET UNITYSDK_OFFSET(0x164F8D30)
+#define CLASS_1_2B55159CDDD73374_METHOD_1_031C5A23422D4BE8_OFFSET UNITYSDK_OFFSET(0x17F7C1D0)
+#define CLASS_1_2B55159CDDD73374__CTOR_OFFSET UNITYSDK_OFFSET(0x17F7C270)
 
-inline static constexpr unsigned int Class_1_2B55159CDDD73374_TypeDefinitionIndex = 66410;
+inline static constexpr unsigned int Class_1_2B55159CDDD73374_TypeDefinitionIndex = 69503;
 
 class Class_1_2B55159CDDD73374 : public ::System::Object
 {
 public:
-	::System::String* Field_1_0; // 0x10
-	::UnityEngine::Vector3 Field_1_1; // 0x18
-	::System::Single Field_1_2; // 0x24
-	::UnityEngine::Vector3 Field_1_3; // 0x28
-	::System::Single Field_1_4; // 0x34
-	::System::Single Field_1_5; // 0x38
-	::System::Single Field_1_6; // 0x3C
+	::System::String* KGJFOKOJAKL; // 0x10
+	::System::Single FJAAFBHHKAM; // 0x18
+	::System::Single CJKMNJIGMAI; // 0x1C
+	::UnityEngine::Vector3 KACAINDGKPI; // 0x20
+	::UnityEngine::Vector3 PDLLKALMODP; // 0x2C
+	::System::Single GAFENHHEBPG; // 0x38
+	::System::Single NCKLCBPEGML; // 0x3C
 
 	::System::Void _ctor()
 	{

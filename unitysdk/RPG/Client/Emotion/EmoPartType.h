@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Emotion
 {
-	inline static constexpr unsigned int EmoPartType_TypeDefinitionIndex = 70157;
+	inline static constexpr unsigned int EmoPartType_TypeDefinitionIndex = 73456;
 
 	enum class EmoPartType : ::System::Int32
 	{

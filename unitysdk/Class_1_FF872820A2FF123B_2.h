@@ -5,15 +5,15 @@
 class Class_1_AB4E0A41BB89929E;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_FF872820A2FF123B_2_METHOD_1_CBBB30978BA34B92_OFFSET UNITYSDK_OFFSET(0x15DE0780)
-#define CLASS_1_FF872820A2FF123B_2__CTOR_OFFSET UNITYSDK_OFFSET(0x15DE0110)
+#define CLASS_1_FF872820A2FF123B_2_METHOD_1_CBBB30978BA34B92_OFFSET UNITYSDK_OFFSET(0x18828F40)
+#define CLASS_1_FF872820A2FF123B_2__CTOR_OFFSET UNITYSDK_OFFSET(0x188288E0)
 
-inline static constexpr unsigned int Class_1_FF872820A2FF123B_2_TypeDefinitionIndex = 76110;
+inline static constexpr unsigned int Class_1_FF872820A2FF123B_2_TypeDefinitionIndex = 79743;
 
 class Class_1_FF872820A2FF123B_2 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Class_1_AB4E0A41BB89929E*>* Field_1_0; // 0x10
+	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Class_1_AB4E0A41BB89929E*>* EPCJPLMBLPA; // 0x10
 
 	::System::Void _ctor()
 	{

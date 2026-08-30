@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int LegacyGPUParticleSystem_ScalingMode_TypeDefinitionIndex = 41344;
+inline static constexpr unsigned int LegacyGPUParticleSystem_ScalingMode_TypeDefinitionIndex = 42304;
 
 enum class LegacyGPUParticleSystem_ScalingMode : ::System::Int32
 {

@@ -5,18 +5,18 @@
 namespace RPG::Client::Prop { class JigsawPuzzleItem; }
 namespace System { class Action; }
 
-#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM___C__DISPLAYCLASS36_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1483AE10)
-#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM___C__DISPLAYCLASS36_0__STARTROTATEANIMATION_B__0_OFFSET UNITYSDK_OFFSET(0x1483AF90)
+#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM___C__DISPLAYCLASS36_0__CTOR_OFFSET UNITYSDK_OFFSET(0x161157D0)
+#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM___C__DISPLAYCLASS36_0__STARTROTATEANIMATION_B__0_OFFSET UNITYSDK_OFFSET(0x16115950)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int JigsawPuzzleItem___c__DisplayClass36_0_TypeDefinitionIndex = 74703;
+	inline static constexpr unsigned int JigsawPuzzleItem___c__DisplayClass36_0_TypeDefinitionIndex = 78188;
 
 	class JigsawPuzzleItem___c__DisplayClass36_0 : public ::System::Object
 	{
 	public:
-		::System::Action* OnRotationDone; // 0x10
-		::RPG::Client::Prop::JigsawPuzzleItem* __4__this; // 0x18
+		::RPG::Client::Prop::JigsawPuzzleItem* __4__this; // 0x10
+		::System::Action* OnRotationDone; // 0x18
 
 		::System::Void _ctor()
 		{

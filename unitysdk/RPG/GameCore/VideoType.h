@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int VideoType_TypeDefinitionIndex = 16331;
+	inline static constexpr unsigned int VideoType_TypeDefinitionIndex = 16819;
 
 	enum class VideoType : ::System::Int32
 	{

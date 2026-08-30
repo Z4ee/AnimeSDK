@@ -4,11 +4,11 @@
 
 namespace RPG::Client { class CameraNormalConfigData; }
 
-#define RPG_CLIENT_CAMERAFIGHTSTATECOMMONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC593F0)
+#define RPG_CLIENT_CAMERAFIGHTSTATECOMMONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C858420)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CameraFightStateCommonConfig_TypeDefinitionIndex = 66449;
+	inline static constexpr unsigned int CameraFightStateCommonConfig_TypeDefinitionIndex = 69542;
 
 	class CameraFightStateCommonConfig : public ::UnityEngine::ScriptableObject
 	{

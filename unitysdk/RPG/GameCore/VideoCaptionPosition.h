@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int VideoCaptionPosition_TypeDefinitionIndex = 16332;
+	inline static constexpr unsigned int VideoCaptionPosition_TypeDefinitionIndex = 16820;
 
 	enum class VideoCaptionPosition : ::System::Int32
 	{

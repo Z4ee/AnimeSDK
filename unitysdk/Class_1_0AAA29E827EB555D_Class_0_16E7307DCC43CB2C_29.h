@@ -4,10 +4,10 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 
 class Class_1_0AAA29E827EB555D;
-class Class_1_0AAA29E827EB555D_Class_1_8E7B41901C628A4A;
+class Class_1_0AAA29E827EB555D_Class_1_53F8E7FB5020FB7E;
 namespace System { class String; }
 
-inline static constexpr unsigned int Class_1_0AAA29E827EB555D_Class_0_16E7307DCC43CB2C_29_TypeDefinitionIndex = 76758;
+inline static constexpr unsigned int Class_1_0AAA29E827EB555D_Class_0_16E7307DCC43CB2C_29_TypeDefinitionIndex = 80798;
 
 class Class_1_0AAA29E827EB555D_Class_0_16E7307DCC43CB2C_29
 {

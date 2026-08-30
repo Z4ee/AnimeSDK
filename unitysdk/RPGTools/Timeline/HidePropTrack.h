@@ -6,12 +6,12 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_HIDEPROPTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x19A5EF10)
-#define RPGTOOLS_TIMELINE_HIDEPROPTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x19A5F010)
+#define RPGTOOLS_TIMELINE_HIDEPROPTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x1B591DC0)
+#define RPGTOOLS_TIMELINE_HIDEPROPTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1B591EC0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int HidePropTrack_TypeDefinitionIndex = 46365;
+	inline static constexpr unsigned int HidePropTrack_TypeDefinitionIndex = 48600;
 
 	class HidePropTrack : public ::UnityEngine::Timeline::TrackAsset
 	{

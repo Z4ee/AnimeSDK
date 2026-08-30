@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace RPG::Client::FateRin::Battle
 {
-	inline static constexpr unsigned int IFateRinBattleHudUltraTipViewModel_TypeDefinitionIndex = 75983;
+	inline static constexpr unsigned int IFateRinBattleHudUltraTipViewModel_TypeDefinitionIndex = 79616;
 
 	class IFateRinBattleHudUltraTipViewModel
 	{

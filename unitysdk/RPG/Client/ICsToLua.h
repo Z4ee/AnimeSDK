@@ -9,7 +9,7 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ICsToLua_TypeDefinitionIndex = 56753;
+	inline static constexpr unsigned int ICsToLua_TypeDefinitionIndex = 59540;
 
 	class ICsToLua
 	{

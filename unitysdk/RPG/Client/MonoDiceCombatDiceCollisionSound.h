@@ -5,12 +5,12 @@
 namespace System { class String; }
 namespace UnityEngine { class Collision; }
 
-#define RPG_CLIENT_MONODICECOMBATDICECOLLISIONSOUND_ONCOLLISIONENTER_OFFSET UNITYSDK_OFFSET(0x10CCE260)
-#define RPG_CLIENT_MONODICECOMBATDICECOLLISIONSOUND__CTOR_OFFSET UNITYSDK_OFFSET(0x10CCE430)
+#define RPG_CLIENT_MONODICECOMBATDICECOLLISIONSOUND_ONCOLLISIONENTER_OFFSET UNITYSDK_OFFSET(0x11665AF0)
+#define RPG_CLIENT_MONODICECOMBATDICECOLLISIONSOUND__CTOR_OFFSET UNITYSDK_OFFSET(0x11665CC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoDiceCombatDiceCollisionSound_TypeDefinitionIndex = 60775;
+	inline static constexpr unsigned int MonoDiceCombatDiceCollisionSound_TypeDefinitionIndex = 63628;
 
 	class MonoDiceCombatDiceCollisionSound : public ::UnityEngine::MonoBehaviour
 	{
@@ -18,9 +18,9 @@ namespace RPG::Client
 		::System::Single ShortestTriggerInterval; // 0x18
 		::System::Single MaxVolumeCorrespondedRelativeVelocity; // 0x1C
 		::System::Single MixVolumeCorrespondedRelativeVelocity; // 0x20
-		::System::String* Field_5_3; // 0x28
-		::System::String* Field_5_4; // 0x30
-		::System::Single Field_5_5; // 0x38
+		::System::String* IPHJGLFDPEH; // 0x28
+		::System::String* CDOKKOIGCHL; // 0x30
+		::System::Single PFNHBMEJLAO; // 0x38
 
 		::System::Void _ctor()
 		{

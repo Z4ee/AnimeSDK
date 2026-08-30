@@ -5,20 +5,20 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class FiveDimRandomBubbleTalkInfoGroup; }
 
-#define CLASS_3_26F8D27CD2489C12_METHOD_3_0C897AFF22BC8629_OFFSET UNITYSDK_OFFSET(0x1B3BE800)
-#define CLASS_3_26F8D27CD2489C12_METHOD_3_1FEC466530D44C17_OFFSET UNITYSDK_OFFSET(0x1B3BE7B0)
-#define CLASS_3_26F8D27CD2489C12__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3BE7F0)
+#define CLASS_3_26F8D27CD2489C12_METHOD_3_0C897AFF22BC8629_OFFSET UNITYSDK_OFFSET(0x1CCAD110)
+#define CLASS_3_26F8D27CD2489C12_METHOD_3_1FEC466530D44C17_OFFSET UNITYSDK_OFFSET(0x1CCAD0C0)
+#define CLASS_3_26F8D27CD2489C12__CTOR_OFFSET UNITYSDK_OFFSET(0x1CCAD100)
 
-inline static constexpr unsigned int Class_3_26F8D27CD2489C12_TypeDefinitionIndex = 20683;
+inline static constexpr unsigned int Class_3_26F8D27CD2489C12_TypeDefinitionIndex = 21237;
 
 class Class_3_26F8D27CD2489C12 : public ::RPG::GameCore::TaskConfig
 {
 public:
-	::Il2CppArray<::RPG::GameCore::FiveDimRandomBubbleTalkInfoGroup*>* Field_3_0; // 0x18
-	::System::Single Field_3_1; // 0x20
-	::System::Boolean Field_3_2; // 0x24
-	::System::Boolean Field_3_3; // 0x25
-	::System::UInt32 Field_3_4; // 0x28
+	::Il2CppArray<::RPG::GameCore::FiveDimRandomBubbleTalkInfoGroup*>* JDJDBKFDIPB; // 0x18
+	::System::UInt32 AHGIENEMKFI; // 0x20
+	::System::Boolean LHPMNOHBIMI; // 0x24
+	::System::Boolean BNIMJJNOLAI; // 0x25
+	::System::Single OKILLMNGPGB; // 0x28
 
 	::System::Void _ctor()
 	{

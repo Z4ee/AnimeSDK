@@ -1,21 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_A143022D1701BC76.h"
-#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_346;
-namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
+#define CLASS_1_43BD383C98B4C0C5_114_METHOD_1_832295EC279E5994_OFFSET UNITYSDK_OFFSET(0x1CD51F80)
+#define CLASS_1_43BD383C98B4C0C5_114_METHOD_1_97D83E4CB3B11935_OFFSET UNITYSDK_OFFSET(0x1CD51DC0)
 
-#define CLASS_1_43BD383C98B4C0C5_114__CTOR_OFFSET UNITYSDK_OFFSET(0x14E68710)
-
-inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_114_TypeDefinitionIndex = 47090;
+inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_114_TypeDefinitionIndex = 47373;
 
 class Class_1_43BD383C98B4C0C5_114 : public ::System::Object
 {
 public:
-	::System::Void _ctor()
+	static ::System::Void Method_1_97D83E4CB3B11935()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_43BD383C98B4C0C5_114__CTOR_OFFSET))(this);
+		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CLASS_1_43BD383C98B4C0C5_114_METHOD_1_97D83E4CB3B11935_OFFSET))();
+	}
+
+	static ::System::Void Method_1_832295EC279E5994()
+	{
+		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CLASS_1_43BD383C98B4C0C5_114_METHOD_1_832295EC279E5994_OFFSET))();
 	}
 };

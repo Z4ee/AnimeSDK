@@ -4,18 +4,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_PERMANENTRECORDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B4BA7C0)
-#define RPG_GAMECORE_PERMANENTRECORDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4BA8E0)
+#define RPG_GAMECORE_PERMANENTRECORDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D42E390)
+#define RPG_GAMECORE_PERMANENTRECORDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D42E4B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PermanentRecordRow_TypeDefinitionIndex = 13853;
+	inline static constexpr unsigned int PermanentRecordRow_TypeDefinitionIndex = 14273;
 
 	class PermanentRecordRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 RefreshID; // 0x10
-		::System::UInt32 RecordID; // 0x14
+		::System::UInt32 RecordID; // 0x10
+		::System::UInt32 RefreshID; // 0x14
 
 		::System::Void _ctor()
 		{

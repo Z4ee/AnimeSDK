@@ -6,16 +6,16 @@ namespace RPG::Client { class GridFightRole; }
 namespace System { class Object; }
 namespace System::ComponentModel { class PropertyChangedEventArgs; }
 
-#define CLASS_2_D81BC3BE41ADFD4F_METHOD_2_009113D5A6029A2A_OFFSET UNITYSDK_OFFSET(0x16496870)
-#define CLASS_2_D81BC3BE41ADFD4F_METHOD_2_2566AD459572DFC3_OFFSET UNITYSDK_OFFSET(0x164969D0)
-#define CLASS_2_D81BC3BE41ADFD4F__CTOR_OFFSET UNITYSDK_OFFSET(0x164967A0)
+#define CLASS_2_D81BC3BE41ADFD4F_METHOD_2_009113D5A6029A2A_OFFSET UNITYSDK_OFFSET(0x15220D30)
+#define CLASS_2_D81BC3BE41ADFD4F_METHOD_2_2566AD459572DFC3_OFFSET UNITYSDK_OFFSET(0x15220E90)
+#define CLASS_2_D81BC3BE41ADFD4F__CTOR_OFFSET UNITYSDK_OFFSET(0x15220C60)
 
-inline static constexpr unsigned int Class_2_D81BC3BE41ADFD4F_TypeDefinitionIndex = 62212;
+inline static constexpr unsigned int Class_2_D81BC3BE41ADFD4F_TypeDefinitionIndex = 65197;
 
 class Class_2_D81BC3BE41ADFD4F : public ::Class_1_ED6312566761D69A
 {
 public:
-	::RPG::Client::GridFightRole* Field_2_0; // 0x20
+	::RPG::Client::GridFightRole* IAHCEGHHCKB; // 0x20
 
 	::System::Void _ctor(::RPG::Client::GridFightRole* a1)
 	{

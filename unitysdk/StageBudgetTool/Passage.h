@@ -8,11 +8,11 @@ namespace StageBudgetTool { class Door; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define STAGEBUDGETTOOL_PASSAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x14EC4E10)
+#define STAGEBUDGETTOOL_PASSAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x197E4DE0)
 
 namespace StageBudgetTool
 {
-	inline static constexpr unsigned int Passage_TypeDefinitionIndex = 45959;
+	inline static constexpr unsigned int Passage_TypeDefinitionIndex = 48182;
 
 	class Passage : public ::System::Object
 	{

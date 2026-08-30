@@ -9,17 +9,17 @@ namespace RPG::GameCore { class PropComponent; }
 namespace RPG::GameCore { class ResetAllPuzzleStatesClientOnly; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_1AA64176FDAE30EB_DISPOSE_OFFSET UNITYSDK_OFFSET(0x177B10A0)
-#define CLASS_3_1AA64176FDAE30EB_METHOD_3_E465AA180F56F823_OFFSET UNITYSDK_OFFSET(0x177B1690)
-#define CLASS_3_1AA64176FDAE30EB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x177B10F0)
-#define CLASS_3_1AA64176FDAE30EB__CTOR_OFFSET UNITYSDK_OFFSET(0x177B1070)
+#define CLASS_3_1AA64176FDAE30EB_DISPOSE_OFFSET UNITYSDK_OFFSET(0x19275670)
+#define CLASS_3_1AA64176FDAE30EB_METHOD_3_E465AA180F56F823_OFFSET UNITYSDK_OFFSET(0x19275C60)
+#define CLASS_3_1AA64176FDAE30EB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x192756C0)
+#define CLASS_3_1AA64176FDAE30EB__CTOR_OFFSET UNITYSDK_OFFSET(0x19275640)
 
-inline static constexpr unsigned int Class_3_1AA64176FDAE30EB_TypeDefinitionIndex = 55809;
+inline static constexpr unsigned int Class_3_1AA64176FDAE30EB_TypeDefinitionIndex = 58540;
 
 class Class_3_1AA64176FDAE30EB : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ResetAllPuzzleStatesClientOnly*>
 {
 public:
-	::RPG::Client::RuntimeGroupManager* Field_3_0; // 0x28
+	::RPG::Client::RuntimeGroupManager* KDCJFIMPKLP; // 0x28
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ResetAllPuzzleStatesClientOnly* a2)
 	{

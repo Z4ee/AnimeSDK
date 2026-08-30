@@ -6,24 +6,24 @@
 class Class_1_96BF5776DE2FE31B;
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_MULTIPATHHELPER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19086760)
-#define RPG_CLIENT_MULTIPATHHELPER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19086790)
-#define RPG_CLIENT_MULTIPATHHELPER___C__GETMULTIPATHAVATARTYPESBYROLE_B__13_0_OFFSET UNITYSDK_OFFSET(0x190867A0)
+#define RPG_CLIENT_MULTIPATHHELPER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B6EA370)
+#define RPG_CLIENT_MULTIPATHHELPER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6EA3A0)
+#define RPG_CLIENT_MULTIPATHHELPER___C__GETMULTIPATHAVATARTYPESBYROLE_B__13_0_OFFSET UNITYSDK_OFFSET(0x1B6EA3B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MultiPathHelper___c_TypeDefinitionIndex = 59885;
+	inline static constexpr unsigned int MultiPathHelper___c_TypeDefinitionIndex = 62731;
 
 	class MultiPathHelper___c : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::MultiPathHelper___c** StaticGet___9()
 		{
-			return (::RPG::Client::MultiPathHelper___c**)Il2CppClass::FromTypeDefinitionIndex(MultiPathHelper___c_TypeDefinitionIndex)->GetStaticField(0x5DCC0);
+			return (::RPG::Client::MultiPathHelper___c**)Il2CppClass::FromTypeDefinitionIndex(MultiPathHelper___c_TypeDefinitionIndex)->GetStaticField(0x263A0);
 		}
 		static ::System::Func_2<::Class_1_96BF5776DE2FE31B*, ::Enum_3_DFCB42601400F441>** StaticGet___9__13_0()
 		{
-			return (::System::Func_2<::Class_1_96BF5776DE2FE31B*, ::Enum_3_DFCB42601400F441>**)Il2CppClass::FromTypeDefinitionIndex(MultiPathHelper___c_TypeDefinitionIndex)->GetStaticField(0x5DCC8);
+			return (::System::Func_2<::Class_1_96BF5776DE2FE31B*, ::Enum_3_DFCB42601400F441>**)Il2CppClass::FromTypeDefinitionIndex(MultiPathHelper___c_TypeDefinitionIndex)->GetStaticField(0x263A8);
 		}
 
 		static ::System::Void _cctor()

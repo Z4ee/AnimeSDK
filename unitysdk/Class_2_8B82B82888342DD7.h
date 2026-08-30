@@ -6,10 +6,10 @@ class Class_1_E4CB20B056222958;
 namespace UnityEngine::Events { template <typename T1, typename T2> class UnityAction_2; }
 namespace UnityEngine::Events { template <typename T> class UnityAction_1; }
 
-#define CLASS_2_8B82B82888342DD7_METHOD_2_022FD5565B560642_OFFSET UNITYSDK_OFFSET(0x16A20710)
-#define CLASS_2_8B82B82888342DD7__CTOR_OFFSET UNITYSDK_OFFSET(0x16A206E0)
+#define CLASS_2_8B82B82888342DD7_METHOD_2_022FD5565B560642_OFFSET UNITYSDK_OFFSET(0x176F2D60)
+#define CLASS_2_8B82B82888342DD7__CTOR_OFFSET UNITYSDK_OFFSET(0x176F2D30)
 
-inline static constexpr unsigned int Class_2_8B82B82888342DD7_TypeDefinitionIndex = 47315;
+inline static constexpr unsigned int Class_2_8B82B82888342DD7_TypeDefinitionIndex = 49595;
 
 class Class_2_8B82B82888342DD7 : public ::Class_1_95D444975EC437CC<::Class_1_E4CB20B056222958*>
 {

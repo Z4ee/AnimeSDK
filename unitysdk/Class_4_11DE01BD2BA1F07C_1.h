@@ -2,16 +2,16 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_3_8ED9A30694FB6032.h"
 
-#define CLASS_4_11DE01BD2BA1F07C_1_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x149C4650)
-#define CLASS_4_11DE01BD2BA1F07C_1_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x149C4660)
-#define CLASS_4_11DE01BD2BA1F07C_1__CTOR_OFFSET UNITYSDK_OFFSET(0x149C46C0)
+#define CLASS_4_11DE01BD2BA1F07C_1_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1649A360)
+#define CLASS_4_11DE01BD2BA1F07C_1_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x1649A370)
+#define CLASS_4_11DE01BD2BA1F07C_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1649A3D0)
 
-inline static constexpr unsigned int Class_4_11DE01BD2BA1F07C_1_TypeDefinitionIndex = 70611;
+inline static constexpr unsigned int Class_4_11DE01BD2BA1F07C_1_TypeDefinitionIndex = 73910;
 
 class Class_4_11DE01BD2BA1F07C_1 : public ::Class_3_8ED9A30694FB6032
 {
 public:
-	::System::Single Field_4_0; // 0x18
+	::System::Single ENMIPOPKOOL; // 0x18
 
 	::System::Void _ctor(::System::Single a1, ::System::Single a2)
 	{

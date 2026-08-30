@@ -6,11 +6,11 @@
 
 namespace UnityEngine { class Transform; }
 
-#define RPGTOOLS_TIMELINE_OVERRIDETRANSFORM_CONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1998EDA0)
+#define RPGTOOLS_TIMELINE_OVERRIDETRANSFORM_CONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B09ABC0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int OverrideTransform_Controller_TypeDefinitionIndex = 46734;
+	inline static constexpr unsigned int OverrideTransform_Controller_TypeDefinitionIndex = 48980;
 
 	class OverrideTransform_Controller : public ::System::Object
 	{

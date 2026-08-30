@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_ASYMMETRICKEYEXCHANGEFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x18359FB0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_ASYMMETRICKEYEXCHANGEFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x19BB36D0)
 
 namespace System::Security::Cryptography
 {
-	inline static constexpr unsigned int AsymmetricKeyExchangeFormatter_TypeDefinitionIndex = 994;
+	inline static constexpr unsigned int AsymmetricKeyExchangeFormatter_TypeDefinitionIndex = 1001;
 
 	class AsymmetricKeyExchangeFormatter : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int RogueDLCCompass_RingPart_TypeDefinitionIndex = 74998;
+	inline static constexpr unsigned int RogueDLCCompass_RingPart_TypeDefinitionIndex = 78483;
 
 	enum class RogueDLCCompass_RingPart : ::System::Int32
 	{

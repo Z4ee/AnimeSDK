@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::CakeRace
 {
-	inline static constexpr unsigned int CakeRaceHUDDisplayState_TypeDefinitionIndex = 74155;
+	inline static constexpr unsigned int CakeRaceHUDDisplayState_TypeDefinitionIndex = 77639;
 
 	enum class CakeRaceHUDDisplayState : ::System::Int32
 	{

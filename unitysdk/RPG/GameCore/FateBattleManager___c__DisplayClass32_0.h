@@ -9,18 +9,18 @@ class Class_1_C50814066AD5D308;
 class Class_2_1DB6C02CA182EEBA;
 namespace RPG::GameCore { class FateBattleManager; }
 
-#define RPG_GAMECORE_FATEBATTLEMANAGER___C__DISPLAYCLASS32_0__CTOR_OFFSET UNITYSDK_OFFSET(0x154E6BA0)
-#define RPG_GAMECORE_FATEBATTLEMANAGER___C__DISPLAYCLASS32_0___APPLYFATEBUFF_B__0_OFFSET UNITYSDK_OFFSET(0x154E8B60)
+#define RPG_GAMECORE_FATEBATTLEMANAGER___C__DISPLAYCLASS32_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1158A2C0)
+#define RPG_GAMECORE_FATEBATTLEMANAGER___C__DISPLAYCLASS32_0___APPLYFATEBUFF_B__0_OFFSET UNITYSDK_OFFSET(0x1158BD90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FateBattleManager___c__DisplayClass32_0_TypeDefinitionIndex = 53560;
+	inline static constexpr unsigned int FateBattleManager___c__DisplayClass32_0_TypeDefinitionIndex = 56274;
 
 	class FateBattleManager___c__DisplayClass32_0 : public ::System::Object
 	{
 	public:
-		::Class_1_C50814066AD5D308* pFateBuffData; // 0x10
-		::RPG::GameCore::FateBattleManager* __4__this; // 0x18
+		::RPG::GameCore::FateBattleManager* __4__this; // 0x10
+		::Class_1_C50814066AD5D308* pFateBuffData; // 0x18
 		::Class_2_1DB6C02CA182EEBA* pInstance; // 0x20
 
 		::System::Void _ctor()

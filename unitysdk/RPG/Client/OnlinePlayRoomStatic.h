@@ -7,81 +7,81 @@ class Class_1_F7366FFC3674B888;
 namespace RPG::Client { class MapDef; }
 namespace System { class String; }
 
-#define RPG_CLIENT_ONLINEPLAYROOMSTATIC_CANGOTOONLINESESSIONMODE_OFFSET UNITYSDK_OFFSET(0x1827E490)
-#define RPG_CLIENT_ONLINEPLAYROOMSTATIC_GETOPERATIONRECORDTEXTWITHTIME_OFFSET UNITYSDK_OFFSET(0x1827F8E0)
-#define RPG_CLIENT_ONLINEPLAYROOMSTATIC_GETOPERATIONRECORDTEXT_OFFSET UNITYSDK_OFFSET(0x1827DE00)
-#define RPG_CLIENT_ONLINEPLAYROOMSTATIC_ISINONLINESESSIONFLOOR_OFFSET UNITYSDK_OFFSET(0x1827FD60)
-#define RPG_CLIENT_ONLINEPLAYROOMSTATIC_ISINONLINESESSIONMAP_1_OFFSET UNITYSDK_OFFSET(0x1827FC90)
-#define RPG_CLIENT_ONLINEPLAYROOMSTATIC_ISINONLINESESSIONMAP_OFFSET UNITYSDK_OFFSET(0x1827FBD0)
-#define RPG_CLIENT_ONLINEPLAYROOMSTATIC_ISONLINEPLAYROOMVISITFUNCTIONUNLOCKED_OFFSET UNITYSDK_OFFSET(0x1827B640)
-#define RPG_CLIENT_ONLINEPLAYROOMSTATIC__CCTOR_OFFSET UNITYSDK_OFFSET(0x1827FEA0)
+#define RPG_CLIENT_ONLINEPLAYROOMSTATIC_CANGOTOONLINESESSIONMODE_OFFSET UNITYSDK_OFFSET(0x191D6840)
+#define RPG_CLIENT_ONLINEPLAYROOMSTATIC_GETOPERATIONRECORDTEXTWITHTIME_OFFSET UNITYSDK_OFFSET(0x191D7CB0)
+#define RPG_CLIENT_ONLINEPLAYROOMSTATIC_GETOPERATIONRECORDTEXT_OFFSET UNITYSDK_OFFSET(0x191D61B0)
+#define RPG_CLIENT_ONLINEPLAYROOMSTATIC_ISINONLINESESSIONFLOOR_OFFSET UNITYSDK_OFFSET(0x191D8130)
+#define RPG_CLIENT_ONLINEPLAYROOMSTATIC_ISINONLINESESSIONMAP_1_OFFSET UNITYSDK_OFFSET(0x191D8060)
+#define RPG_CLIENT_ONLINEPLAYROOMSTATIC_ISINONLINESESSIONMAP_OFFSET UNITYSDK_OFFSET(0x191D7FA0)
+#define RPG_CLIENT_ONLINEPLAYROOMSTATIC_ISONLINEPLAYROOMVISITFUNCTIONUNLOCKED_OFFSET UNITYSDK_OFFSET(0x191D39C0)
+#define RPG_CLIENT_ONLINEPLAYROOMSTATIC__CCTOR_OFFSET UNITYSDK_OFFSET(0x191D8270)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int OnlinePlayRoomStatic_TypeDefinitionIndex = 63454;
+	inline static constexpr unsigned int OnlinePlayRoomStatic_TypeDefinitionIndex = 66439;
 
 	class OnlinePlayRoomStatic : public ::System::Object
 	{
 	public:
 		static ::System::String** StaticGet_OnlinePlayRoomChatGroupIconPath()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(OnlinePlayRoomStatic_TypeDefinitionIndex)->GetStaticField(0x10520);
-		}
-		static ::System::UInt32* StaticGet_OnlinePlayRoomFloorID()
-		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(OnlinePlayRoomStatic_TypeDefinitionIndex)->GetStaticField(0x57E0);
-		}
-		static ::System::UInt32* StaticGet_VisitingToastCountDownTime()
-		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(OnlinePlayRoomStatic_TypeDefinitionIndex)->GetStaticField(0x57E4);
-		}
-		static ::System::UInt32* StaticGet_OnlinePlayRoomFuncEntranceID()
-		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(OnlinePlayRoomStatic_TypeDefinitionIndex)->GetStaticField(0x57E8);
-		}
-		static ::System::UInt32* StaticGet_OnlinePlayRoomAnchorMappingInfoID()
-		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(OnlinePlayRoomStatic_TypeDefinitionIndex)->GetStaticField(0x57EC);
-		}
-		static ::System::UInt32* StaticGet_OnlinePlayRoomDimensionID()
-		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(OnlinePlayRoomStatic_TypeDefinitionIndex)->GetStaticField(0x57F0);
-		}
-		static ::System::UInt32* StaticGet_OnlinePlayRoomJukeBoxPropID()
-		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(OnlinePlayRoomStatic_TypeDefinitionIndex)->GetStaticField(0x57F4);
-		}
-		static ::System::UInt32* StaticGet_OnlinePlayRoomJukeBoxMapIconID()
-		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(OnlinePlayRoomStatic_TypeDefinitionIndex)->GetStaticField(0x57F8);
-		}
-		static ::System::UInt32* StaticGet_PlayerRoomEntranceID()
-		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(OnlinePlayRoomStatic_TypeDefinitionIndex)->GetStaticField(0x57FC);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(OnlinePlayRoomStatic_TypeDefinitionIndex)->GetStaticField(0x2BF00);
 		}
 		static ::System::UInt32* StaticGet_OnlinePlayRoomMaxPlayerCount()
 		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(OnlinePlayRoomStatic_TypeDefinitionIndex)->GetStaticField(0x5800);
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(OnlinePlayRoomStatic_TypeDefinitionIndex)->GetStaticField(0xCA50);
+		}
+		static ::System::UInt32* StaticGet_OnlinePlayRoomAnchorMappingInfoID()
+		{
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(OnlinePlayRoomStatic_TypeDefinitionIndex)->GetStaticField(0xCA54);
+		}
+		static ::System::UInt32* StaticGet_OnlinePlayRoomJukeBoxPropID()
+		{
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(OnlinePlayRoomStatic_TypeDefinitionIndex)->GetStaticField(0xCA58);
+		}
+		static ::System::UInt32* StaticGet_OnlinePlayRoomFloorID()
+		{
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(OnlinePlayRoomStatic_TypeDefinitionIndex)->GetStaticField(0xCA5C);
+		}
+		static ::System::UInt32* StaticGet_OnlinePlayRoomFuncEntranceID()
+		{
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(OnlinePlayRoomStatic_TypeDefinitionIndex)->GetStaticField(0xCA60);
 		}
 		static ::System::UInt32* StaticGet_PlayerRoomMappingInfoID()
 		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(OnlinePlayRoomStatic_TypeDefinitionIndex)->GetStaticField(0x5804);
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(OnlinePlayRoomStatic_TypeDefinitionIndex)->GetStaticField(0xCA64);
 		}
-		static ::System::UInt32* StaticGet_OnlinePlayRoomJukeBoxMappingInfoID()
+		static ::System::UInt32* StaticGet_OnlinePlayRoomDimensionID()
 		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(OnlinePlayRoomStatic_TypeDefinitionIndex)->GetStaticField(0x5808);
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(OnlinePlayRoomStatic_TypeDefinitionIndex)->GetStaticField(0xCA68);
+		}
+		static ::System::UInt32* StaticGet_VisitingToastCountDownTime()
+		{
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(OnlinePlayRoomStatic_TypeDefinitionIndex)->GetStaticField(0xCA6C);
+		}
+		static ::System::UInt32* StaticGet_PlayerRoomEntranceID()
+		{
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(OnlinePlayRoomStatic_TypeDefinitionIndex)->GetStaticField(0xCA70);
 		}
 		static ::System::UInt32* StaticGet_OnlinePlayRoomVisitFunctionUnlockID()
 		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(OnlinePlayRoomStatic_TypeDefinitionIndex)->GetStaticField(0x580C);
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(OnlinePlayRoomStatic_TypeDefinitionIndex)->GetStaticField(0xCA74);
 		}
 		static ::System::UInt32* StaticGet_OnlinePlayRoomFunctionEntranceListID()
 		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(OnlinePlayRoomStatic_TypeDefinitionIndex)->GetStaticField(0x5810);
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(OnlinePlayRoomStatic_TypeDefinitionIndex)->GetStaticField(0xCA78);
+		}
+		static ::System::UInt32* StaticGet_OnlinePlayRoomJukeBoxMappingInfoID()
+		{
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(OnlinePlayRoomStatic_TypeDefinitionIndex)->GetStaticField(0xCA7C);
+		}
+		static ::System::UInt32* StaticGet_OnlinePlayRoomJukeBoxMapIconID()
+		{
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(OnlinePlayRoomStatic_TypeDefinitionIndex)->GetStaticField(0xCA80);
 		}
 		static ::System::UInt32* StaticGet_PlayerRoomGotoID()
 		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(OnlinePlayRoomStatic_TypeDefinitionIndex)->GetStaticField(0x5814);
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(OnlinePlayRoomStatic_TypeDefinitionIndex)->GetStaticField(0xCA84);
 		}
 
 		static ::System::Void _cctor()

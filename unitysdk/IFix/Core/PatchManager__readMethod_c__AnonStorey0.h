@@ -6,12 +6,12 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace System::Text::RegularExpressions { class Match; }
 
-#define IFIX_CORE_PATCHMANAGER__READMETHOD_C__ANONSTOREY0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B53AEF0)
-#define IFIX_CORE_PATCHMANAGER__READMETHOD_C__ANONSTOREY0___M__0_OFFSET UNITYSDK_OFFSET(0x1B549430)
+#define IFIX_CORE_PATCHMANAGER__READMETHOD_C__ANONSTOREY0__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC643D0)
+#define IFIX_CORE_PATCHMANAGER__READMETHOD_C__ANONSTOREY0___M__0_OFFSET UNITYSDK_OFFSET(0x1CC72E90)
 
 namespace IFix::Core
 {
-	inline static constexpr unsigned int PatchManager__readMethod_c__AnonStorey0_TypeDefinitionIndex = 9757;
+	inline static constexpr unsigned int PatchManager__readMethod_c__AnonStorey0_TypeDefinitionIndex = 10036;
 
 	class PatchManager__readMethod_c__AnonStorey0 : public ::System::Object
 	{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define RPG_CLIENT_PROP_BOXMANCOORD_METHOD_2_1F6A322CBE32A536_OFFSET UNITYSDK_OFFSET(0x16DEE600)
+#define RPG_CLIENT_PROP_BOXMANCOORD_METHOD_2_1F6A322CBE32A536_OFFSET UNITYSDK_OFFSET(0x189B34E0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int BoxmanCoord_TypeDefinitionIndex = 74885;
+	inline static constexpr unsigned int BoxmanCoord_TypeDefinitionIndex = 78370;
 
 	struct alignas(4) BoxmanCoord
 	{

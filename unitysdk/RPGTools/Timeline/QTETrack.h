@@ -7,13 +7,13 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_QTETRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x199AE080)
-#define RPGTOOLS_TIMELINE_QTETRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x199AE1E0)
-#define RPGTOOLS_TIMELINE_QTETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x199AE360)
+#define RPGTOOLS_TIMELINE_QTETRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1B0BA4B0)
+#define RPGTOOLS_TIMELINE_QTETRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x1B0BA610)
+#define RPGTOOLS_TIMELINE_QTETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0BA790)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int QTETrack_TypeDefinitionIndex = 46488;
+	inline static constexpr unsigned int QTETrack_TypeDefinitionIndex = 48723;
 
 	class QTETrack : public ::UnityEngine::Timeline::TrackAsset
 	{

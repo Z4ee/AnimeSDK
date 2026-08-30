@@ -6,15 +6,15 @@
 namespace RPG::GameCore { class SetDynamicValueByFateLevel; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_6DF4874368F74A72_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1607F330)
-#define CLASS_3_6DF4874368F74A72__CTOR_OFFSET UNITYSDK_OFFSET(0x1607F250)
+#define CLASS_3_6DF4874368F74A72_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x178DFCB0)
+#define CLASS_3_6DF4874368F74A72__CTOR_OFFSET UNITYSDK_OFFSET(0x178DFBD0)
 
-inline static constexpr unsigned int Class_3_6DF4874368F74A72_TypeDefinitionIndex = 52922;
+inline static constexpr unsigned int Class_3_6DF4874368F74A72_TypeDefinitionIndex = 55626;
 
 class Class_3_6DF4874368F74A72 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetDynamicValueByFateLevel*>
 {
 public:
-	::RPG::GameCore::StringHash Field_3_0; // 0x28
+	::RPG::GameCore::StringHash DIJHOMCLPEG; // 0x28
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetDynamicValueByFateLevel* a2)
 	{

@@ -6,18 +6,18 @@ namespace RPG::GameCore { class CharacterEyeCtrlConfig; }
 namespace RPG::GameCore { class CharacterEyeCtrlMappingConfig; }
 namespace System { class String; }
 
-#define CLASS_1_5C25FB9B1E904901_METHOD_1_495ADA02B2872DCF_OFFSET UNITYSDK_OFFSET(0x186E8DB0)
-#define CLASS_1_5C25FB9B1E904901_METHOD_1_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0x186E8D60)
-#define CLASS_1_5C25FB9B1E904901_METHOD_1_F8C7231308CD2C82_OFFSET UNITYSDK_OFFSET(0x186E8CC0)
+#define CLASS_1_5C25FB9B1E904901_METHOD_1_495ADA02B2872DCF_OFFSET UNITYSDK_OFFSET(0x1A7F8770)
+#define CLASS_1_5C25FB9B1E904901_METHOD_1_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0x1A7F8720)
+#define CLASS_1_5C25FB9B1E904901_METHOD_1_F8C7231308CD2C82_OFFSET UNITYSDK_OFFSET(0x1A7F8680)
 
-inline static constexpr unsigned int Class_1_5C25FB9B1E904901_TypeDefinitionIndex = 69940;
+inline static constexpr unsigned int Class_1_5C25FB9B1E904901_TypeDefinitionIndex = 73197;
 
 class Class_1_5C25FB9B1E904901 : public ::System::Object
 {
 public:
-	static ::RPG::GameCore::CharacterEyeCtrlMappingConfig** StaticGet_Field_1_0()
+	static ::RPG::GameCore::CharacterEyeCtrlMappingConfig** StaticGet_IGHAHBNLIJA()
 	{
-		return (::RPG::GameCore::CharacterEyeCtrlMappingConfig**)Il2CppClass::FromTypeDefinitionIndex(Class_1_5C25FB9B1E904901_TypeDefinitionIndex)->GetStaticField(0x5A7E0);
+		return (::RPG::GameCore::CharacterEyeCtrlMappingConfig**)Il2CppClass::FromTypeDefinitionIndex(Class_1_5C25FB9B1E904901_TypeDefinitionIndex)->GetStaticField(0x615B0);
 	}
 
 	static ::System::Void Method_1_F8C7231308CD2C82()

@@ -4,19 +4,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CYCLESCOREREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1BC42280)
-#define RPG_GAMECORE_CYCLESCOREREWARDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC423C0)
+#define RPG_GAMECORE_CYCLESCOREREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D807420)
+#define RPG_GAMECORE_CYCLESCOREREWARDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D807560)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CycleScoreRewardRow_TypeDefinitionIndex = 12614;
+	inline static constexpr unsigned int CycleScoreRewardRow_TypeDefinitionIndex = 13005;
 
 	class CycleScoreRewardRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 ScoreRank; // 0x10
-		::System::UInt32 Score; // 0x14
-		::System::UInt32 Reward; // 0x18
+		::System::UInt32 Reward; // 0x10
+		::System::UInt32 ScoreRank; // 0x14
+		::System::UInt32 Score; // 0x18
 
 		::System::Void _ctor()
 		{

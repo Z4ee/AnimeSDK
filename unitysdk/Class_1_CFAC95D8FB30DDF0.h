@@ -10,24 +10,24 @@ namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_CFAC95D8FB30DDF0_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16872D60)
-#define CLASS_1_CFAC95D8FB30DDF0_METHOD_1_22C0158FB807DDF4_OFFSET UNITYSDK_OFFSET(0x16872EE0)
-#define CLASS_1_CFAC95D8FB30DDF0_METHOD_1_C9063D175A882741_OFFSET UNITYSDK_OFFSET(0x16873800)
-#define CLASS_1_CFAC95D8FB30DDF0_METHOD_1_EC90937CEA9AFCA9_OFFSET UNITYSDK_OFFSET(0x16872DB0)
-#define CLASS_1_CFAC95D8FB30DDF0_METHOD_1_F1850BAC83E812F4_OFFSET UNITYSDK_OFFSET(0x168735A0)
-#define CLASS_1_CFAC95D8FB30DDF0__CTOR_OFFSET UNITYSDK_OFFSET(0x16873D20)
+#define CLASS_1_CFAC95D8FB30DDF0_DISPOSE_OFFSET UNITYSDK_OFFSET(0x17E11910)
+#define CLASS_1_CFAC95D8FB30DDF0_METHOD_1_22C0158FB807DDF4_OFFSET UNITYSDK_OFFSET(0x17E11AA0)
+#define CLASS_1_CFAC95D8FB30DDF0_METHOD_1_C9063D175A882741_OFFSET UNITYSDK_OFFSET(0x17E123C0)
+#define CLASS_1_CFAC95D8FB30DDF0_METHOD_1_EC90937CEA9AFCA9_OFFSET UNITYSDK_OFFSET(0x17E11970)
+#define CLASS_1_CFAC95D8FB30DDF0_METHOD_1_F1850BAC83E812F4_OFFSET UNITYSDK_OFFSET(0x17E12160)
+#define CLASS_1_CFAC95D8FB30DDF0__CTOR_OFFSET UNITYSDK_OFFSET(0x17E128E0)
 
-inline static constexpr unsigned int Class_1_CFAC95D8FB30DDF0_TypeDefinitionIndex = 54699;
+inline static constexpr unsigned int Class_1_CFAC95D8FB30DDF0_TypeDefinitionIndex = 57420;
 
 class Class_1_CFAC95D8FB30DDF0 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::Class_1_EF881A12952D8CEA*>* Field_1_0; // 0x10
-	::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::RPG::GameCore::FreeStyleAnimGroupEventConfig*>*>* Field_1_1; // 0x18
-	::RPG::GameCore::TaskContext* Field_1_2; // 0x20
-	::Class_1_D7003CCDED916330* Field_1_3; // 0x28
-	::System::Int32 Field_1_4; // 0x30
-	::System::Int32 Field_1_5; // 0x34
+	::Class_1_D7003CCDED916330* EOBLJJBOBIN; // 0x10
+	::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::RPG::GameCore::FreeStyleAnimGroupEventConfig*>*>* EPLPGIANPBB; // 0x18
+	::RPG::GameCore::TaskContext* BKIFMPHBIAK; // 0x20
+	::System::Collections::Generic::List_1<::Class_1_EF881A12952D8CEA*>* IPLCCFBICHO; // 0x28
+	::System::Int32 JJKHELILFJD; // 0x30
+	::System::Int32 PABLGDMPJGG; // 0x34
 
 	::System::Void _ctor()
 	{

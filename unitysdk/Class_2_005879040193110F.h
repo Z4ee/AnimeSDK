@@ -6,18 +6,18 @@
 class Class_1_E3E37125DAA7A899;
 class Class_3_C71DDDA66421C541;
 
-#define CLASS_2_005879040193110F_METHOD_2_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x185C19F0)
-#define CLASS_2_005879040193110F__CTOR_OFFSET UNITYSDK_OFFSET(0x185C19D0)
+#define CLASS_2_005879040193110F_METHOD_2_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x198C87F0)
+#define CLASS_2_005879040193110F__CTOR_OFFSET UNITYSDK_OFFSET(0x198C87D0)
 
-inline static constexpr unsigned int Class_2_005879040193110F_TypeDefinitionIndex = 57641;
+inline static constexpr unsigned int Class_2_005879040193110F_TypeDefinitionIndex = 60458;
 
 class Class_2_005879040193110F : public ::Class_1_2231FD56C070349F
 {
 public:
-	::Class_1_E3E37125DAA7A899* Field_2_0; // 0x18
-	::System::UInt32 Field_2_1; // 0x20
-	::System::Int32 Field_2_2; // 0x24
-	::RPG::LittleGameShare::DiceCombatCore::TacticsDiscardResult Field_2_3; // 0x28
+	::Class_1_E3E37125DAA7A899* DBMHCIDGGLF; // 0x18
+	::System::Int32 FFNBLDFFMCN; // 0x20
+	::RPG::LittleGameShare::DiceCombatCore::TacticsDiscardResult GNOEGILFEMD; // 0x24
+	::System::UInt32 FFLMGCFDBKI; // 0x28
 
 	::System::Void _ctor(::Class_3_C71DDDA66421C541* a1, ::System::UInt32 a2, ::System::Int32 a3, ::RPG::LittleGameShare::DiceCombatCore::TacticsDiscardResult a4, ::Class_1_E3E37125DAA7A899* a5)
 	{

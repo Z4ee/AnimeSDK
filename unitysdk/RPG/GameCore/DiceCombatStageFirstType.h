@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DiceCombatStageFirstType_TypeDefinitionIndex = 10876;
+	inline static constexpr unsigned int DiceCombatStageFirstType_TypeDefinitionIndex = 11251;
 
 	enum class DiceCombatStageFirstType : ::System::Int32
 	{

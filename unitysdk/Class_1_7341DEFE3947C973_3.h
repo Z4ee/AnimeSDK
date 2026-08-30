@@ -10,17 +10,17 @@ class Class_1_942D03E5A029CB94;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define CLASS_1_7341DEFE3947C973_3_METHOD_1_2F996FD8685BA4BF_OFFSET UNITYSDK_OFFSET(0x12E81150)
-#define CLASS_1_7341DEFE3947C973_3_METHOD_1_970D8BBEB04CD8E7_OFFSET UNITYSDK_OFFSET(0x12E812B0)
-#define CLASS_1_7341DEFE3947C973_3_METHOD_1_BC8AD00E63645BEE_OFFSET UNITYSDK_OFFSET(0x12E80110)
+#define CLASS_1_7341DEFE3947C973_3_METHOD_1_2F996FD8685BA4BF_OFFSET UNITYSDK_OFFSET(0x140C5350)
+#define CLASS_1_7341DEFE3947C973_3_METHOD_1_970D8BBEB04CD8E7_OFFSET UNITYSDK_OFFSET(0x140C54B0)
+#define CLASS_1_7341DEFE3947C973_3_METHOD_1_BC8AD00E63645BEE_OFFSET UNITYSDK_OFFSET(0x140C4310)
 
-inline static constexpr unsigned int Class_1_7341DEFE3947C973_3_TypeDefinitionIndex = 39370;
+inline static constexpr unsigned int Class_1_7341DEFE3947C973_3_TypeDefinitionIndex = 40243;
 
 class Class_1_7341DEFE3947C973_3 : public ::System::Object
 {
 public:
-	// static const ::System::UInt16 Field_1_0 = 0x4; // 0x0
-	// static const ::System::String* Field_1_1; // 0x0
+	// static const ::System::UInt16 ABNPHONMCEP = 0x4; // 0x0
+	// static const ::System::String* GJPNNCFPMGK; // 0x0
 
 	static ::System::Void Method_1_BC8AD00E63645BEE(::System::String* a1, ::System::Collections::Generic::IEnumerable_1<::Class_1_21DCD4640D389503_44*>* a2, ::System::Collections::Generic::IEnumerable_1<::Class_1_942D03E5A029CB94*>* a3)
 	{

@@ -8,11 +8,11 @@ namespace RPG::LittleGameShare::HoyoPhysics::Box2D { class B2World; }
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D { class b2CastResultFcn; }
 namespace System { class Object; }
 
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDRAYCASTCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x3A03180)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDRAYCASTCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x3B9C510)
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2WorldRayCastContext_TypeDefinitionIndex = 35272;
+	inline static constexpr unsigned int B2WorldRayCastContext_TypeDefinitionIndex = 36133;
 
 	struct alignas(8) B2WorldRayCastContext
 	{

@@ -8,16 +8,16 @@ class Class_2_6D1FA31AB5157B08;
 namespace RPG::Client { class CloudUIPosReporterMono; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_A46428E06184C947_METHOD_1_DEDD31AF6F4E4818_OFFSET UNITYSDK_OFFSET(0x145759C0)
-#define CLASS_1_A46428E06184C947_METHOD_1_FE8254399AA03512_OFFSET UNITYSDK_OFFSET(0x14575270)
-#define CLASS_1_A46428E06184C947__CTOR_OFFSET UNITYSDK_OFFSET(0x14575A90)
+#define CLASS_1_A46428E06184C947_METHOD_1_DEDD31AF6F4E4818_OFFSET UNITYSDK_OFFSET(0x158623C0)
+#define CLASS_1_A46428E06184C947_METHOD_1_FE8254399AA03512_OFFSET UNITYSDK_OFFSET(0x15861C70)
+#define CLASS_1_A46428E06184C947__CTOR_OFFSET UNITYSDK_OFFSET(0x15862490)
 
-inline static constexpr unsigned int Class_1_A46428E06184C947_TypeDefinitionIndex = 57201;
+inline static constexpr unsigned int Class_1_A46428E06184C947_TypeDefinitionIndex = 59999;
 
 class Class_1_A46428E06184C947 : public ::System::Object
 {
 public:
-	::RPG::Client::CloudUIBattlePosRegion Field_1_0; // 0x10
+	::RPG::Client::CloudUIBattlePosRegion LOJFDBJKOEB; // 0x10
 
 	::System::Void _ctor()
 	{

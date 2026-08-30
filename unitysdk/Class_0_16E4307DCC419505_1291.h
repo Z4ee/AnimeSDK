@@ -1,12 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-class Class_0_16E4307DCC419505_1267;
-namespace RPG::Client::FateRin::Battle { class IFateRinBattleHudCardAreaViewModel; }
-namespace RPG::Client::FateRin::Battle { class IFateRinBattleHudInputBrain; }
-namespace RPG::Client::FateRin::Battle { class IFateRinCardHitTestService; }
+class Class_2_B66C1067C0468FBB;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1291_TypeDefinitionIndex = 76003;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1291_TypeDefinitionIndex = 77121;
 
 class Class_0_16E4307DCC419505_1291
 {

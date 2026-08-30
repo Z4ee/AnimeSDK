@@ -1,13 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_2_20C931E41234EB33.h"
+#include "unitysdk/Class_2_3AC24B632515444E.h"
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BaseDialog_1_TypeDefinitionIndex = 68142;
+	inline static constexpr unsigned int BaseDialog_1_TypeDefinitionIndex = 71320;
 
 	template <typename TView>
-	class BaseDialog_1 : public ::Class_2_20C931E41234EB33
+	class BaseDialog_1 : public ::Class_2_3AC24B632515444E
 	{
 	public:
 	};

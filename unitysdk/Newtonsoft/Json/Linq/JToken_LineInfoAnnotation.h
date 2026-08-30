@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define NEWTONSOFT_JSON_LINQ_JTOKEN_LINEINFOANNOTATION__CTOR_OFFSET UNITYSDK_OFFSET(0x15B844E0)
+#define NEWTONSOFT_JSON_LINQ_JTOKEN_LINEINFOANNOTATION__CTOR_OFFSET UNITYSDK_OFFSET(0x172CE890)
 
 namespace Newtonsoft::Json::Linq
 {
-	inline static constexpr unsigned int JToken_LineInfoAnnotation_TypeDefinitionIndex = 9444;
+	inline static constexpr unsigned int JToken_LineInfoAnnotation_TypeDefinitionIndex = 9723;
 
 	class JToken_LineInfoAnnotation : public ::System::Object
 	{

@@ -3,18 +3,18 @@
 #include "unitysdk/RPG/GameCore/CharacterMotionFlag.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_0B4A9CBAA4CAEC69__CTOR_OFFSET UNITYSDK_OFFSET(0x185F4B60)
+#define CLASS_1_0B4A9CBAA4CAEC69__CTOR_OFFSET UNITYSDK_OFFSET(0x19C06470)
 
-inline static constexpr unsigned int Class_1_0B4A9CBAA4CAEC69_TypeDefinitionIndex = 54461;
+inline static constexpr unsigned int Class_1_0B4A9CBAA4CAEC69_TypeDefinitionIndex = 57182;
 
 class Class_1_0B4A9CBAA4CAEC69 : public ::System::Object
 {
 public:
-	::System::Single Field_1_0; // 0x10
-	::System::Single Field_1_1; // 0x14
-	::RPG::GameCore::CharacterMotionFlag Field_1_2; // 0x18
-	::System::Int32 Field_1_3; // 0x1C
-	::System::Boolean Field_1_4; // 0x20
+	::System::Int32 MIODIFCBELJ; // 0x10
+	::System::Boolean DCDODAAKCHG; // 0x14
+	::RPG::GameCore::CharacterMotionFlag KOALINMHFGO; // 0x18
+	::System::Single BAMCJPHKNHF; // 0x1C
+	::System::Single HEBPKJLCBEK; // 0x20
 
 	::System::Void _ctor()
 	{

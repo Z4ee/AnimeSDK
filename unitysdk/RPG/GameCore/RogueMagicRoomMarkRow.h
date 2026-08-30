@@ -8,12 +8,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUEMAGICROOMMARKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CFB6F00)
-#define RPG_GAMECORE_ROGUEMAGICROOMMARKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFB71B0)
+#define RPG_GAMECORE_ROGUEMAGICROOMMARKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D93B9F0)
+#define RPG_GAMECORE_ROGUEMAGICROOMMARKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D93BCA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueMagicRoomMarkRow_TypeDefinitionIndex = 14279;
+	inline static constexpr unsigned int RogueMagicRoomMarkRow_TypeDefinitionIndex = 14699;
 
 	class RogueMagicRoomMarkRow : public ::System::Object
 	{
@@ -22,8 +22,8 @@ namespace RPG::GameCore
 		::System::String* RoomTypeIcon; // 0x18
 		::System::String* ToastIcon; // 0x20
 		::RPG::Client::TextID RoomTypeName; // 0x28
-		::RPG::GameCore::RogueMagicRoomType RoomType; // 0x38
-		::RPG::GameCore::RogueMagicMarkType MarkType; // 0x3C
+		::RPG::GameCore::RogueMagicMarkType MarkType; // 0x38
+		::RPG::GameCore::RogueMagicRoomType RoomType; // 0x3C
 
 		::System::Void _ctor()
 		{

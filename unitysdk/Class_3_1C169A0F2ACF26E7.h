@@ -5,10 +5,10 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define CLASS_3_1C169A0F2ACF26E7_GET_PROTOCOLDATA_OFFSET UNITYSDK_OFFSET(0xF181450)
-#define CLASS_3_1C169A0F2ACF26E7__CTOR_OFFSET UNITYSDK_OFFSET(0xF181460)
+#define CLASS_3_1C169A0F2ACF26E7_GET_PROTOCOLDATA_OFFSET UNITYSDK_OFFSET(0x1066E1C0)
+#define CLASS_3_1C169A0F2ACF26E7__CTOR_OFFSET UNITYSDK_OFFSET(0x1066E1D0)
 
-inline static constexpr unsigned int Class_3_1C169A0F2ACF26E7_TypeDefinitionIndex = 71469;
+inline static constexpr unsigned int Class_3_1C169A0F2ACF26E7_TypeDefinitionIndex = 74775;
 
 class Class_3_1C169A0F2ACF26E7 : public ::System::ComponentModel::PropertyChangedEventArgs
 {

@@ -10,108 +10,108 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Animator; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_44D9B1A97BC4F823_METHOD_1_169ACDDF88AD2AC3_OFFSET UNITYSDK_OFFSET(0x14D8DAF0)
-#define CLASS_1_44D9B1A97BC4F823_METHOD_1_19B91D58E02869BC_OFFSET UNITYSDK_OFFSET(0x14D8E080)
-#define CLASS_1_44D9B1A97BC4F823_METHOD_1_20FFED4976A10875_OFFSET UNITYSDK_OFFSET(0x14D8D3F0)
-#define CLASS_1_44D9B1A97BC4F823_METHOD_1_2E29038CF17E20BD_OFFSET UNITYSDK_OFFSET(0x14D8EFF0)
-#define CLASS_1_44D9B1A97BC4F823_METHOD_1_41146E620D694011_OFFSET UNITYSDK_OFFSET(0x14D8DEE0)
-#define CLASS_1_44D9B1A97BC4F823_METHOD_1_4F8BD755AF34B283_OFFSET UNITYSDK_OFFSET(0x14D8E870)
-#define CLASS_1_44D9B1A97BC4F823_METHOD_1_6BF28FCDB3FDACE9_OFFSET UNITYSDK_OFFSET(0x14D8EC70)
-#define CLASS_1_44D9B1A97BC4F823_METHOD_1_861970C5F2C21AB2_OFFSET UNITYSDK_OFFSET(0x14D8F340)
-#define CLASS_1_44D9B1A97BC4F823_METHOD_1_89D1F247B9D324EE_OFFSET UNITYSDK_OFFSET(0x14D8DA50)
-#define CLASS_1_44D9B1A97BC4F823_METHOD_1_A1D8CD775DEC3C21_OFFSET UNITYSDK_OFFSET(0x14D8EFB0)
-#define CLASS_1_44D9B1A97BC4F823_METHOD_1_D0BD1377F2594D33_OFFSET UNITYSDK_OFFSET(0x14D8E750)
-#define CLASS_1_44D9B1A97BC4F823__CCTOR_OFFSET UNITYSDK_OFFSET(0x14D8F3E0)
-#define CLASS_1_44D9B1A97BC4F823__CTOR_OFFSET UNITYSDK_OFFSET(0x14D8F3C0)
+#define CLASS_1_44D9B1A97BC4F823_METHOD_1_169ACDDF88AD2AC3_OFFSET UNITYSDK_OFFSET(0x163E3590)
+#define CLASS_1_44D9B1A97BC4F823_METHOD_1_19B91D58E02869BC_OFFSET UNITYSDK_OFFSET(0x163E3B20)
+#define CLASS_1_44D9B1A97BC4F823_METHOD_1_20FFED4976A10875_OFFSET UNITYSDK_OFFSET(0x163E2EA0)
+#define CLASS_1_44D9B1A97BC4F823_METHOD_1_2E29038CF17E20BD_OFFSET UNITYSDK_OFFSET(0x163E4A80)
+#define CLASS_1_44D9B1A97BC4F823_METHOD_1_41146E620D694011_OFFSET UNITYSDK_OFFSET(0x163E3980)
+#define CLASS_1_44D9B1A97BC4F823_METHOD_1_4F8BD755AF34B283_OFFSET UNITYSDK_OFFSET(0x163E4310)
+#define CLASS_1_44D9B1A97BC4F823_METHOD_1_6BF28FCDB3FDACE9_OFFSET UNITYSDK_OFFSET(0x163E4700)
+#define CLASS_1_44D9B1A97BC4F823_METHOD_1_861970C5F2C21AB2_OFFSET UNITYSDK_OFFSET(0x163E4DD0)
+#define CLASS_1_44D9B1A97BC4F823_METHOD_1_89D1F247B9D324EE_OFFSET UNITYSDK_OFFSET(0x163E34F0)
+#define CLASS_1_44D9B1A97BC4F823_METHOD_1_A1D8CD775DEC3C21_OFFSET UNITYSDK_OFFSET(0x163E4A40)
+#define CLASS_1_44D9B1A97BC4F823_METHOD_1_D0BD1377F2594D33_OFFSET UNITYSDK_OFFSET(0x163E41F0)
+#define CLASS_1_44D9B1A97BC4F823__CCTOR_OFFSET UNITYSDK_OFFSET(0x163E4E70)
+#define CLASS_1_44D9B1A97BC4F823__CTOR_OFFSET UNITYSDK_OFFSET(0x163E4E50)
 
-inline static constexpr unsigned int Class_1_44D9B1A97BC4F823_TypeDefinitionIndex = 74996;
+inline static constexpr unsigned int Class_1_44D9B1A97BC4F823_TypeDefinitionIndex = 78481;
 
 class Class_1_44D9B1A97BC4F823 : public ::System::Object
 {
 public:
-	static ::System::Single* StaticGet_Field_1_0()
+	static ::System::Single* StaticGet_MEIIELDCPCO()
 	{
-		return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44D9B1A97BC4F823_TypeDefinitionIndex)->GetStaticField(0x4660);
+		return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44D9B1A97BC4F823_TypeDefinitionIndex)->GetStaticField(0xFA40);
 	}
-	static ::System::Int32* StaticGet_Field_1_1()
+	static ::UnityEngine::Color* StaticGet_OKOOFCNENCG()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44D9B1A97BC4F823_TypeDefinitionIndex)->GetStaticField(0x4664);
+		return (::UnityEngine::Color*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44D9B1A97BC4F823_TypeDefinitionIndex)->GetStaticField(0xFA44);
 	}
-	static ::UnityEngine::Color* StaticGet_Field_1_2()
+	static ::System::Single* StaticGet_MJLNAFDIMKI()
 	{
-		return (::UnityEngine::Color*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44D9B1A97BC4F823_TypeDefinitionIndex)->GetStaticField(0x4668);
+		return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44D9B1A97BC4F823_TypeDefinitionIndex)->GetStaticField(0xFA54);
 	}
-	static ::System::Single* StaticGet_Field_1_3()
+	static ::UnityEngine::Color* StaticGet_KJIAMBJFLNI()
 	{
-		return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44D9B1A97BC4F823_TypeDefinitionIndex)->GetStaticField(0x4678);
+		return (::UnityEngine::Color*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44D9B1A97BC4F823_TypeDefinitionIndex)->GetStaticField(0xFA58);
 	}
-	static ::UnityEngine::Color* StaticGet_Field_1_4()
+	static ::UnityEngine::Color* StaticGet_MMMPKENEGHD()
 	{
-		return (::UnityEngine::Color*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44D9B1A97BC4F823_TypeDefinitionIndex)->GetStaticField(0x467C);
+		return (::UnityEngine::Color*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44D9B1A97BC4F823_TypeDefinitionIndex)->GetStaticField(0xFA68);
 	}
-	static ::UnityEngine::Color* StaticGet_Field_1_5()
+	static ::System::Single* StaticGet_CABMNBCEKJC()
 	{
-		return (::UnityEngine::Color*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44D9B1A97BC4F823_TypeDefinitionIndex)->GetStaticField(0x468C);
+		return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44D9B1A97BC4F823_TypeDefinitionIndex)->GetStaticField(0xFA78);
 	}
-	static ::UnityEngine::Color* StaticGet_Field_1_6()
+	static ::UnityEngine::Color* StaticGet_PMEFFBPMECP()
 	{
-		return (::UnityEngine::Color*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44D9B1A97BC4F823_TypeDefinitionIndex)->GetStaticField(0x469C);
+		return (::UnityEngine::Color*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44D9B1A97BC4F823_TypeDefinitionIndex)->GetStaticField(0xFA7C);
 	}
-	static ::System::Single* StaticGet_Field_1_7()
+	static ::System::Single* StaticGet_IDECEGANGLA()
 	{
-		return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44D9B1A97BC4F823_TypeDefinitionIndex)->GetStaticField(0x46AC);
+		return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44D9B1A97BC4F823_TypeDefinitionIndex)->GetStaticField(0xFA8C);
 	}
-	static ::System::Single* StaticGet_Field_1_8()
+	static ::System::Single* StaticGet_PIAJMODAKGK()
 	{
-		return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44D9B1A97BC4F823_TypeDefinitionIndex)->GetStaticField(0x46B0);
+		return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44D9B1A97BC4F823_TypeDefinitionIndex)->GetStaticField(0xFA90);
 	}
-	static ::System::Single* StaticGet_Field_1_9()
+	static ::System::Int32* StaticGet_NOFACMABDDP()
 	{
-		return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44D9B1A97BC4F823_TypeDefinitionIndex)->GetStaticField(0x46B4);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44D9B1A97BC4F823_TypeDefinitionIndex)->GetStaticField(0xFA94);
 	}
-	static ::UnityEngine::Color* StaticGet_Field_1_10()
+	static ::UnityEngine::Color* StaticGet_MMPFEFIMNOA()
 	{
-		return (::UnityEngine::Color*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44D9B1A97BC4F823_TypeDefinitionIndex)->GetStaticField(0x46B8);
+		return (::UnityEngine::Color*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44D9B1A97BC4F823_TypeDefinitionIndex)->GetStaticField(0xFA98);
 	}
-	static ::System::Single* StaticGet_Field_1_11()
+	static ::System::Single* StaticGet_FJMMAGJDJDC()
 	{
-		return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44D9B1A97BC4F823_TypeDefinitionIndex)->GetStaticField(0x46C8);
+		return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44D9B1A97BC4F823_TypeDefinitionIndex)->GetStaticField(0xFAA8);
 	}
-	static ::System::Single* StaticGet_Field_1_12()
+	static ::System::Single* StaticGet_ADOHHAMADIF()
 	{
-		return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44D9B1A97BC4F823_TypeDefinitionIndex)->GetStaticField(0x46CC);
+		return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44D9B1A97BC4F823_TypeDefinitionIndex)->GetStaticField(0xFAAC);
 	}
-	static ::System::Single* StaticGet_Field_1_13()
+	static ::System::Single* StaticGet_BFILFBPDLEF()
 	{
-		return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44D9B1A97BC4F823_TypeDefinitionIndex)->GetStaticField(0x46D0);
+		return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(Class_1_44D9B1A97BC4F823_TypeDefinitionIndex)->GetStaticField(0xFAB0);
 	}
-	::System::Collections::Generic::List_1<::System::Int32>* Field_1_14; // 0x10
-	::UnityEngine::Transform* Field_1_15; // 0x18
-	::System::Action* Field_1_16; // 0x20
-	::System::Collections::Generic::List_1<::System::Single>* Field_1_17; // 0x28
-	::System::Collections::Generic::List_1<::System::Single>* Field_1_18; // 0x30
-	::RPG::Client::MultiLightEffectMaterialBlock* Field_1_19; // 0x38
-	::UnityEngine::Animator* Field_1_20; // 0x40
-	::System::Int32 Field_1_21; // 0x48
-	::System::Single Field_1_22; // 0x4C
-	::System::Single Field_1_23; // 0x50
-	::System::Single Field_1_24; // 0x54
-	::System::Single Field_1_25; // 0x58
-	::System::Int32 Field_1_26; // 0x5C
-	::System::Single Field_1_27; // 0x60
-	::System::Single Field_1_28; // 0x64
-	::System::Boolean Field_1_29; // 0x68
-	::System::Boolean Field_1_30; // 0x69
-	::System::Single Field_1_31; // 0x6C
-	::System::Single Field_1_32; // 0x70
-	::System::Single Field_1_33; // 0x74
-	::System::Int32 Field_1_34; // 0x78
-	::System::Single Field_1_35; // 0x7C
-	::UnityEngine::Color Field_1_36; // 0x80
-	::System::Single Field_1_37; // 0x90
-	::System::Int32 Field_1_38; // 0x94
-	::System::Int32 Field_1_39; // 0x98
-	::RPG::Client::Prop::RogueDLCCompass_RingPart Field_1_40; // 0x9C
+	::System::Collections::Generic::List_1<::System::Single>* ENCHFAKMAGA; // 0x10
+	::UnityEngine::Animator* APPGGMLEPLN; // 0x18
+	::UnityEngine::Transform* GKNBCPMJHMN; // 0x20
+	::System::Collections::Generic::List_1<::System::Int32>* DCFOHKLJDFI; // 0x28
+	::System::Action* MPKAFEJFNKN; // 0x30
+	::RPG::Client::MultiLightEffectMaterialBlock* IMGODLDADLA; // 0x38
+	::System::Collections::Generic::List_1<::System::Single>* IEPHDNMKEIJ; // 0x40
+	::System::Single PGMIOKKLHIE; // 0x48
+	::System::Single OHLCEAMNLDG; // 0x4C
+	::System::Single HPCHCEFOKJB; // 0x50
+	::System::Single CIMDCFJEIEC; // 0x54
+	::System::Single KNDCPDPBDEA; // 0x58
+	::System::Single JEGDGFDAMKL; // 0x5C
+	::System::Single PDDDOLHLFDC; // 0x60
+	::System::Int32 BGNACBGBMHG; // 0x64
+	::System::Single CIKOAICCDCO; // 0x68
+	::System::Int32 CJPDNJGLMEP; // 0x6C
+	::System::Single OIFJNPBMFFA; // 0x70
+	::System::Int32 DDBLFAKICFL; // 0x74
+	::System::Int32 GNOEGILFEMD; // 0x78
+	::System::Boolean PNCGCLCOHMN; // 0x7C
+	::System::Boolean GNIBGNDNBIB; // 0x7D
+	::RPG::Client::Prop::RogueDLCCompass_RingPart PKBFFEKEPJP; // 0x80
+	::UnityEngine::Color GBDCKBMCPCP; // 0x84
+	::System::Single NNMFEFKDHCA; // 0x94
+	::System::Int32 FFLPONLELKO; // 0x98
+	::System::Single CPFGAJCAIBA; // 0x9C
 
 	::System::Void _ctor()
 	{

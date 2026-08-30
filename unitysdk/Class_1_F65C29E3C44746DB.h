@@ -7,17 +7,17 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace System { template <typename T> class Action_1; }
 
-#define CLASS_1_F65C29E3C44746DB_METHOD_1_88B60F3B95FAA4F1_OFFSET UNITYSDK_OFFSET(0x140CDA30)
-#define CLASS_1_F65C29E3C44746DB_METHOD_1_AA2D3E889C8A52CA_OFFSET UNITYSDK_OFFSET(0x140CD9E0)
-#define CLASS_1_F65C29E3C44746DB__CTOR_OFFSET UNITYSDK_OFFSET(0x140CD9D0)
+#define CLASS_1_F65C29E3C44746DB_METHOD_1_88B60F3B95FAA4F1_OFFSET UNITYSDK_OFFSET(0x18CB9D80)
+#define CLASS_1_F65C29E3C44746DB_METHOD_1_AA2D3E889C8A52CA_OFFSET UNITYSDK_OFFSET(0x18CB9D30)
+#define CLASS_1_F65C29E3C44746DB__CTOR_OFFSET UNITYSDK_OFFSET(0x18CB9D20)
 
-inline static constexpr unsigned int Class_1_F65C29E3C44746DB_TypeDefinitionIndex = 59331;
+inline static constexpr unsigned int Class_1_F65C29E3C44746DB_TypeDefinitionIndex = 62166;
 
 class Class_1_F65C29E3C44746DB : public ::System::Object
 {
 public:
-	::System::Action_1<::System::String*>* Field_1_0; // 0x10
-	::RPG::GameCore::FloorCustomValueConfig* Field_1_1; // 0x18
+	::System::Action_1<::System::String*>* PBJAENMIKEJ; // 0x10
+	::RPG::GameCore::FloorCustomValueConfig* IGHAHBNLIJA; // 0x18
 
 	::System::Void _ctor(::RPG::GameCore::FloorCustomValueConfig* a1)
 	{

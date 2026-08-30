@@ -1,0 +1,232 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/RPG/GameCore/LimaoNewsEmployeeStateType.h"
+#include "unitysdk/System/Object.h"
+
+namespace System { class String; }
+namespace System::Collections::Generic { template <typename T> class HashSet_1; }
+namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
+namespace System::Collections::Generic { template <typename T> class IReadOnlyCollection_1; }
+
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSEMPLOYEECHECKDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x1950B050)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSEMPLOYEECHECKDATA_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1950B2C0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSEMPLOYEECHECKDATA_GET_CANCHECK_OFFSET UNITYSDK_OFFSET(0x1950B9D0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSEMPLOYEECHECKDATA_GET_CANRECRUIT_OFFSET UNITYSDK_OFFSET(0x1950BCC0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSEMPLOYEECHECKDATA_GET_DAILYCHECKCOUNT_OFFSET UNITYSDK_OFFSET(0x1950B9B0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSEMPLOYEECHECKDATA_GET_DUTYSTATUSDESC_OFFSET UNITYSDK_OFFSET(0x1950BBD0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSEMPLOYEECHECKDATA_GET_EMPLOYEEID_OFFSET UNITYSDK_OFFSET(0x1950B8F0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSEMPLOYEECHECKDATA_GET_HASCHECKCOUNT_OFFSET UNITYSDK_OFFSET(0x1950BB00)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSEMPLOYEECHECKDATA_GET_HIREEVENTID_OFFSET UNITYSDK_OFFSET(0x1950BCA0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSEMPLOYEECHECKDATA_GET_HIRELEVEL_OFFSET UNITYSDK_OFFSET(0x1950BC80)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSEMPLOYEECHECKDATA_GET_ICONPATH_OFFSET UNITYSDK_OFFSET(0x1950B990)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSEMPLOYEECHECKDATA_GET_ISUNLOCKED_OFFSET UNITYSDK_OFFSET(0x1950BA50)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSEMPLOYEECHECKDATA_GET_LIMAOIDLIST_OFFSET UNITYSDK_OFFSET(0x1950B910)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSEMPLOYEECHECKDATA_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1950B930)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSEMPLOYEECHECKDATA_GET_SELECTEDOPTIONIDS_OFFSET UNITYSDK_OFFSET(0x1950BB50)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSEMPLOYEECHECKDATA_GET_SORTID_OFFSET UNITYSDK_OFFSET(0x1950B950)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSEMPLOYEECHECKDATA_GET_STATEID_OFFSET UNITYSDK_OFFSET(0x1950BBB0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSEMPLOYEECHECKDATA_GET_STATE_OFFSET UNITYSDK_OFFSET(0x1950BB90)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSEMPLOYEECHECKDATA_GET_TALKJSONPATH_OFFSET UNITYSDK_OFFSET(0x1950B970)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSEMPLOYEECHECKDATA_HASSELECTEDOPTION_OFFSET UNITYSDK_OFFSET(0x1950B890)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSEMPLOYEECHECKDATA_REFRESH_OFFSET UNITYSDK_OFFSET(0x1950B360)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSEMPLOYEECHECKDATA_SET_DAILYCHECKCOUNT_OFFSET UNITYSDK_OFFSET(0x1950B9C0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSEMPLOYEECHECKDATA_SET_EMPLOYEEID_OFFSET UNITYSDK_OFFSET(0x1950B900)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSEMPLOYEECHECKDATA_SET_HIREEVENTID_OFFSET UNITYSDK_OFFSET(0x1950BCB0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSEMPLOYEECHECKDATA_SET_HIRELEVEL_OFFSET UNITYSDK_OFFSET(0x1950BC90)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSEMPLOYEECHECKDATA_SET_ICONPATH_OFFSET UNITYSDK_OFFSET(0x1950B9A0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSEMPLOYEECHECKDATA_SET_LIMAOIDLIST_OFFSET UNITYSDK_OFFSET(0x1950B920)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSEMPLOYEECHECKDATA_SET_NAME_OFFSET UNITYSDK_OFFSET(0x1950B940)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSEMPLOYEECHECKDATA_SET_SORTID_OFFSET UNITYSDK_OFFSET(0x1950B960)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSEMPLOYEECHECKDATA_SET_STATEID_OFFSET UNITYSDK_OFFSET(0x1950BBC0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSEMPLOYEECHECKDATA_SET_STATE_OFFSET UNITYSDK_OFFSET(0x1950BBA0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSEMPLOYEECHECKDATA_SET_TALKJSONPATH_OFFSET UNITYSDK_OFFSET(0x1950B980)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSEMPLOYEECHECKDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1950B2B0)
+
+namespace RPG::Client::LimaoNews
+{
+	inline static constexpr unsigned int LimaoNewsEmployeeCheckData_TypeDefinitionIndex = 78959;
+
+	class LimaoNewsEmployeeCheckData : public ::System::Object
+	{
+	public:
+		::System::String* _IconPath_k__BackingField; // 0x10
+		::System::Collections::Generic::HashSet_1<::System::UInt32>* _SelectedOptionIDs; // 0x18
+		::System::String* _TalkJsonPath_k__BackingField; // 0x20
+		::Il2CppArray<::System::UInt32>* _LimaoIDList_k__BackingField; // 0x28
+		::System::UInt32 _DailyCheckCount_k__BackingField; // 0x30
+		::System::UInt32 _HireLevel_k__BackingField; // 0x34
+		::RPG::Client::TextID _Name_k__BackingField; // 0x38
+		::System::UInt32 _StateID_k__BackingField; // 0x48
+		::System::UInt32 _DailyCheckLimit; // 0x4C
+		::System::UInt32 _SortID_k__BackingField; // 0x50
+		::System::UInt32 _EmployeeID_k__BackingField; // 0x54
+		::RPG::GameCore::LimaoNewsEmployeeStateType _State_k__BackingField; // 0x58
+		::System::UInt32 _HireEventID_k__BackingField; // 0x5C
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSEMPLOYEECHECKDATA__CTOR_OFFSET))(this);
+		}
+
+		static ::RPG::Client::LimaoNews::LimaoNewsEmployeeCheckData* Create(::System::UInt32 a1)
+		{
+			return ((::RPG::Client::LimaoNews::LimaoNewsEmployeeCheckData*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSEMPLOYEECHECKDATA_CREATE_OFFSET))(a1);
+		}
+
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSEMPLOYEECHECKDATA_DISPOSE_OFFSET))(this);
+		}
+
+		::System::Void Refresh(::System::UInt32 a1, ::System::Collections::Generic::IEnumerable_1<::System::UInt32>* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Collections::Generic::IEnumerable_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSEMPLOYEECHECKDATA_REFRESH_OFFSET))(this, a1, a2);
+		}
+
+		::System::Boolean HasSelectedOption(::System::UInt32 a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSEMPLOYEECHECKDATA_HASSELECTEDOPTION_OFFSET))(this, a1);
+		}
+
+		::System::UInt32 get_EmployeeID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSEMPLOYEECHECKDATA_GET_EMPLOYEEID_OFFSET))(this);
+		}
+
+		::System::Void set_EmployeeID(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSEMPLOYEECHECKDATA_SET_EMPLOYEEID_OFFSET))(this, a1);
+		}
+
+		::Il2CppArray<::System::UInt32>* get_LimaoIDList()
+		{
+			return ((::Il2CppArray<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSEMPLOYEECHECKDATA_GET_LIMAOIDLIST_OFFSET))(this);
+		}
+
+		::System::Void set_LimaoIDList(::Il2CppArray<::System::UInt32>* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSEMPLOYEECHECKDATA_SET_LIMAOIDLIST_OFFSET))(this, a1);
+		}
+
+		::RPG::Client::TextID get_Name()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSEMPLOYEECHECKDATA_GET_NAME_OFFSET))(this);
+		}
+
+		::System::Void set_Name(::RPG::Client::TextID a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSEMPLOYEECHECKDATA_SET_NAME_OFFSET))(this, a1);
+		}
+
+		::System::UInt32 get_SortID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSEMPLOYEECHECKDATA_GET_SORTID_OFFSET))(this);
+		}
+
+		::System::Void set_SortID(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSEMPLOYEECHECKDATA_SET_SORTID_OFFSET))(this, a1);
+		}
+
+		::System::String* get_TalkJsonPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSEMPLOYEECHECKDATA_GET_TALKJSONPATH_OFFSET))(this);
+		}
+
+		::System::Void set_TalkJsonPath(::System::String* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSEMPLOYEECHECKDATA_SET_TALKJSONPATH_OFFSET))(this, a1);
+		}
+
+		::System::String* get_IconPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSEMPLOYEECHECKDATA_GET_ICONPATH_OFFSET))(this);
+		}
+
+		::System::Void set_IconPath(::System::String* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSEMPLOYEECHECKDATA_SET_ICONPATH_OFFSET))(this, a1);
+		}
+
+		::System::UInt32 get_DailyCheckCount()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSEMPLOYEECHECKDATA_GET_DAILYCHECKCOUNT_OFFSET))(this);
+		}
+
+		::System::Void set_DailyCheckCount(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSEMPLOYEECHECKDATA_SET_DAILYCHECKCOUNT_OFFSET))(this, a1);
+		}
+
+		::System::Boolean get_CanCheck()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSEMPLOYEECHECKDATA_GET_CANCHECK_OFFSET))(this);
+		}
+
+		::System::Boolean get_HasCheckCount()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSEMPLOYEECHECKDATA_GET_HASCHECKCOUNT_OFFSET))(this);
+		}
+
+		::System::Collections::Generic::IReadOnlyCollection_1<::System::UInt32>* get_SelectedOptionIDs()
+		{
+			return ((::System::Collections::Generic::IReadOnlyCollection_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSEMPLOYEECHECKDATA_GET_SELECTEDOPTIONIDS_OFFSET))(this);
+		}
+
+		::RPG::GameCore::LimaoNewsEmployeeStateType get_State()
+		{
+			return ((::RPG::GameCore::LimaoNewsEmployeeStateType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSEMPLOYEECHECKDATA_GET_STATE_OFFSET))(this);
+		}
+
+		::System::Void set_State(::RPG::GameCore::LimaoNewsEmployeeStateType a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::LimaoNewsEmployeeStateType))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSEMPLOYEECHECKDATA_SET_STATE_OFFSET))(this, a1);
+		}
+
+		::System::UInt32 get_StateID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSEMPLOYEECHECKDATA_GET_STATEID_OFFSET))(this);
+		}
+
+		::System::Void set_StateID(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSEMPLOYEECHECKDATA_SET_STATEID_OFFSET))(this, a1);
+		}
+
+		::System::Boolean get_IsUnlocked()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSEMPLOYEECHECKDATA_GET_ISUNLOCKED_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_DutyStatusDesc()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSEMPLOYEECHECKDATA_GET_DUTYSTATUSDESC_OFFSET))(this);
+		}
+
+		::System::UInt32 get_HireLevel()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSEMPLOYEECHECKDATA_GET_HIRELEVEL_OFFSET))(this);
+		}
+
+		::System::Void set_HireLevel(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSEMPLOYEECHECKDATA_SET_HIRELEVEL_OFFSET))(this, a1);
+		}
+
+		::System::UInt32 get_HireEventID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSEMPLOYEECHECKDATA_GET_HIREEVENTID_OFFSET))(this);
+		}
+
+		::System::Void set_HireEventID(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSEMPLOYEECHECKDATA_SET_HIREEVENTID_OFFSET))(this, a1);
+		}
+
+		::System::Boolean get_CanRecruit()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSEMPLOYEECHECKDATA_GET_CANRECRUIT_OFFSET))(this);
+		}
+	};
+}

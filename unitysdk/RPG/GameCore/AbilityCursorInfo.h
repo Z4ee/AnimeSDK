@@ -8,7 +8,7 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AbilityCursorInfo_TypeDefinitionIndex = 51927;
+	inline static constexpr unsigned int AbilityCursorInfo_TypeDefinitionIndex = 54611;
 
 	struct alignas(8) AbilityCursorInfo
 	{

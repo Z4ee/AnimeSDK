@@ -4,9 +4,9 @@
 
 namespace UnityEngine { class ParticleSystem; }
 
-#define CLASS_1_E48031576E9E9B5F_METHOD_1_170787A7084A91EA_OFFSET UNITYSDK_OFFSET(0x17208030)
+#define CLASS_1_E48031576E9E9B5F_METHOD_1_170787A7084A91EA_OFFSET UNITYSDK_OFFSET(0x19186070)
 
-inline static constexpr unsigned int Class_1_E48031576E9E9B5F_TypeDefinitionIndex = 69823;
+inline static constexpr unsigned int Class_1_E48031576E9E9B5F_TypeDefinitionIndex = 73080;
 
 class Class_1_E48031576E9E9B5F : public ::System::Object
 {

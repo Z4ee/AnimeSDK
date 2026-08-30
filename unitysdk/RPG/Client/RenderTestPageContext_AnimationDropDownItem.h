@@ -4,18 +4,18 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_RENDERTESTPAGECONTEXT_ANIMATIONDROPDOWNITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x17397690)
+#define RPG_CLIENT_RENDERTESTPAGECONTEXT_ANIMATIONDROPDOWNITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x17977B70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RenderTestPageContext_AnimationDropDownItem_TypeDefinitionIndex = 69553;
+	inline static constexpr unsigned int RenderTestPageContext_AnimationDropDownItem_TypeDefinitionIndex = 72781;
 
 	class RenderTestPageContext_AnimationDropDownItem : public ::System::Object
 	{
 	public:
 		::System::String* StateName; // 0x10
-		::System::Int32 StateHash; // 0x18
-		::System::Int32 Layer; // 0x1C
+		::System::Int32 Layer; // 0x18
+		::System::Int32 StateHash; // 0x1C
 
 		::System::Void _ctor()
 		{

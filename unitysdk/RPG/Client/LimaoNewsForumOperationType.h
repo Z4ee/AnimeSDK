@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LimaoNewsForumOperationType_TypeDefinitionIndex = 9975;
+	inline static constexpr unsigned int LimaoNewsForumOperationType_TypeDefinitionIndex = 10309;
 
 	enum class LimaoNewsForumOperationType : ::System::Int32
 	{

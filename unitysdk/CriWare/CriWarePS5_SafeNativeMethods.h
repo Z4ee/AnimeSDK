@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CRIWARE_CRIWAREPS5_SAFENATIVEMETHODS_CRIFSUNITY_SETUP_PS5_OFFSET UNITYSDK_OFFSET(0x1BE797C0)
+#define CRIWARE_CRIWAREPS5_SAFENATIVEMETHODS_CRIFSUNITY_SETUP_PS5_OFFSET UNITYSDK_OFFSET(0x1DC57430)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriWarePS5_SafeNativeMethods_TypeDefinitionIndex = 37772;
+	inline static constexpr unsigned int CriWarePS5_SafeNativeMethods_TypeDefinitionIndex = 38631;
 
 	class CriWarePS5_SafeNativeMethods : public ::System::Object
 	{

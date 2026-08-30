@@ -7,29 +7,29 @@
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define UNITYENGINE_PROBUILDER_PROJECTION___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x177739B0)
-#define UNITYENGINE_PROBUILDER_PROJECTION___C__CTOR_OFFSET UNITYSDK_OFFSET(0x177739F0)
-#define UNITYENGINE_PROBUILDER_PROJECTION___C__SORT_B__6_0_OFFSET UNITYSDK_OFFSET(0x17773A00)
-#define UNITYENGINE_PROBUILDER_PROJECTION___C__SORT_B__6_1_OFFSET UNITYSDK_OFFSET(0x17773A20)
+#define UNITYENGINE_PROBUILDER_PROJECTION___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x192149E0)
+#define UNITYENGINE_PROBUILDER_PROJECTION___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19214A20)
+#define UNITYENGINE_PROBUILDER_PROJECTION___C__SORT_B__6_0_OFFSET UNITYSDK_OFFSET(0x19214A30)
+#define UNITYENGINE_PROBUILDER_PROJECTION___C__SORT_B__6_1_OFFSET UNITYSDK_OFFSET(0x19214A50)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int Projection___c_TypeDefinitionIndex = 41611;
+	inline static constexpr unsigned int Projection___c_TypeDefinitionIndex = 43222;
 
 	class Projection___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::UnityEngine::ProBuilder::SimpleTuple_2<::System::Single, ::UnityEngine::Vector2>>** StaticGet___9__6_0()
-		{
-			return (::System::Comparison_1<::UnityEngine::ProBuilder::SimpleTuple_2<::System::Single, ::UnityEngine::Vector2>>**)Il2CppClass::FromTypeDefinitionIndex(Projection___c_TypeDefinitionIndex)->GetStaticField(0x54C40);
-		}
 		static ::System::Func_2<::UnityEngine::ProBuilder::SimpleTuple_2<::System::Single, ::UnityEngine::Vector2>, ::UnityEngine::Vector2>** StaticGet___9__6_1()
 		{
-			return (::System::Func_2<::UnityEngine::ProBuilder::SimpleTuple_2<::System::Single, ::UnityEngine::Vector2>, ::UnityEngine::Vector2>**)Il2CppClass::FromTypeDefinitionIndex(Projection___c_TypeDefinitionIndex)->GetStaticField(0x54C48);
+			return (::System::Func_2<::UnityEngine::ProBuilder::SimpleTuple_2<::System::Single, ::UnityEngine::Vector2>, ::UnityEngine::Vector2>**)Il2CppClass::FromTypeDefinitionIndex(Projection___c_TypeDefinitionIndex)->GetStaticField(0x64730);
 		}
 		static ::UnityEngine::ProBuilder::Projection___c** StaticGet___9()
 		{
-			return (::UnityEngine::ProBuilder::Projection___c**)Il2CppClass::FromTypeDefinitionIndex(Projection___c_TypeDefinitionIndex)->GetStaticField(0x54C50);
+			return (::UnityEngine::ProBuilder::Projection___c**)Il2CppClass::FromTypeDefinitionIndex(Projection___c_TypeDefinitionIndex)->GetStaticField(0x64738);
+		}
+		static ::System::Comparison_1<::UnityEngine::ProBuilder::SimpleTuple_2<::System::Single, ::UnityEngine::Vector2>>** StaticGet___9__6_0()
+		{
+			return (::System::Comparison_1<::UnityEngine::ProBuilder::SimpleTuple_2<::System::Single, ::UnityEngine::Vector2>>**)Il2CppClass::FromTypeDefinitionIndex(Projection___c_TypeDefinitionIndex)->GetStaticField(0x64740);
 		}
 
 		static ::System::Void _cctor()

@@ -5,19 +5,19 @@
 
 namespace UnityEngine { class RectTransform; }
 
-#define RPG_CLIENT_MONOPOLYWORLDBOUNDARY_GETWORLDCORNERS_OFFSET UNITYSDK_OFFSET(0x19556350)
-#define RPG_CLIENT_MONOPOLYWORLDBOUNDARY_START_OFFSET UNITYSDK_OFFSET(0x195561E0)
-#define RPG_CLIENT_MONOPOLYWORLDBOUNDARY__CTOR_OFFSET UNITYSDK_OFFSET(0x195563B0)
+#define RPG_CLIENT_MONOPOLYWORLDBOUNDARY_GETWORLDCORNERS_OFFSET UNITYSDK_OFFSET(0x19608A80)
+#define RPG_CLIENT_MONOPOLYWORLDBOUNDARY_START_OFFSET UNITYSDK_OFFSET(0x19608910)
+#define RPG_CLIENT_MONOPOLYWORLDBOUNDARY__CTOR_OFFSET UNITYSDK_OFFSET(0x19608AE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonopolyWorldBoundary_TypeDefinitionIndex = 69538;
+	inline static constexpr unsigned int MonopolyWorldBoundary_TypeDefinitionIndex = 72766;
 
 	class MonopolyWorldBoundary : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		::UnityEngine::RectTransform* Field_5_0; // 0x18
-		::Il2CppArray<::UnityEngine::Vector3>* Field_5_1; // 0x20
+		::UnityEngine::RectTransform* OFFPODABAEC; // 0x18
+		::Il2CppArray<::UnityEngine::Vector3>* NKAAOPLPBMN; // 0x20
 
 		::System::Void _ctor()
 		{

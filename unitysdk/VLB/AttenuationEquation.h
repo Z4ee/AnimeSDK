@@ -3,7 +3,7 @@
 
 namespace VLB
 {
-	inline static constexpr unsigned int AttenuationEquation_TypeDefinitionIndex = 47148;
+	inline static constexpr unsigned int AttenuationEquation_TypeDefinitionIndex = 49414;
 
 	enum class AttenuationEquation : ::System::Int32
 	{

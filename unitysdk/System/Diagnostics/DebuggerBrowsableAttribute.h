@@ -3,11 +3,11 @@
 #include "unitysdk/System/Attribute.h"
 #include "unitysdk/System/Diagnostics/DebuggerBrowsableState.h"
 
-#define SYSTEM_DIAGNOSTICS_DEBUGGERBROWSABLEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x19192980)
+#define SYSTEM_DIAGNOSTICS_DEBUGGERBROWSABLEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AB515D0)
 
 namespace System::Diagnostics
 {
-	inline static constexpr unsigned int DebuggerBrowsableAttribute_TypeDefinitionIndex = 1572;
+	inline static constexpr unsigned int DebuggerBrowsableAttribute_TypeDefinitionIndex = 1579;
 
 	class DebuggerBrowsableAttribute : public ::System::Attribute
 	{

@@ -5,7 +5,7 @@ namespace RPG::Client { class ChallengeData; }
 
 namespace RPG::Client::Challenge
 {
-	inline static constexpr unsigned int IChallengeEnvironmentHintViewModel_TypeDefinitionIndex = 76474;
+	inline static constexpr unsigned int IChallengeEnvironmentHintViewModel_TypeDefinitionIndex = 80106;
 
 	class IChallengeEnvironmentHintViewModel
 	{

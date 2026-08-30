@@ -4,7 +4,7 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2FixedArray8_1_TypeDefinitionIndex = 35131;
+	inline static constexpr unsigned int B2FixedArray8_1_TypeDefinitionIndex = 35992;
 
 	template <typename T>
 	struct B2FixedArray8_1

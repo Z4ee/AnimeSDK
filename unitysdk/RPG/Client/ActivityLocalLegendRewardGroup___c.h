@@ -5,24 +5,24 @@
 namespace RPG::Client { class QuestData; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ACTIVITYLOCALLEGENDREWARDGROUP___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19A7E040)
-#define RPG_CLIENT_ACTIVITYLOCALLEGENDREWARDGROUP___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19A7E080)
-#define RPG_CLIENT_ACTIVITYLOCALLEGENDREWARDGROUP___C__HASUNTAKENREWARD_B__1_0_OFFSET UNITYSDK_OFFSET(0x19A7E090)
+#define RPG_CLIENT_ACTIVITYLOCALLEGENDREWARDGROUP___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AF97960)
+#define RPG_CLIENT_ACTIVITYLOCALLEGENDREWARDGROUP___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF979A0)
+#define RPG_CLIENT_ACTIVITYLOCALLEGENDREWARDGROUP___C__HASUNTAKENREWARD_B__1_0_OFFSET UNITYSDK_OFFSET(0x1AF979B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityLocalLegendRewardGroup___c_TypeDefinitionIndex = 58829;
+	inline static constexpr unsigned int ActivityLocalLegendRewardGroup___c_TypeDefinitionIndex = 61660;
 
 	class ActivityLocalLegendRewardGroup___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::Client::QuestData*, ::System::Boolean>** StaticGet___9__1_0()
-		{
-			return (::System::Func_2<::RPG::Client::QuestData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ActivityLocalLegendRewardGroup___c_TypeDefinitionIndex)->GetStaticField(0x43A50);
-		}
 		static ::RPG::Client::ActivityLocalLegendRewardGroup___c** StaticGet___9()
 		{
-			return (::RPG::Client::ActivityLocalLegendRewardGroup___c**)Il2CppClass::FromTypeDefinitionIndex(ActivityLocalLegendRewardGroup___c_TypeDefinitionIndex)->GetStaticField(0x43A58);
+			return (::RPG::Client::ActivityLocalLegendRewardGroup___c**)Il2CppClass::FromTypeDefinitionIndex(ActivityLocalLegendRewardGroup___c_TypeDefinitionIndex)->GetStaticField(0x5FE10);
+		}
+		static ::System::Func_2<::RPG::Client::QuestData*, ::System::Boolean>** StaticGet___9__1_0()
+		{
+			return (::System::Func_2<::RPG::Client::QuestData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ActivityLocalLegendRewardGroup___c_TypeDefinitionIndex)->GetStaticField(0x5FE18);
 		}
 
 		static ::System::Void _cctor()

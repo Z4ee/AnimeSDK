@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MECHANISMBAREFFECTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1AF55850)
-#define RPG_GAMECORE_MECHANISMBAREFFECTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF55B00)
+#define RPG_GAMECORE_MECHANISMBAREFFECTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D284A30)
+#define RPG_GAMECORE_MECHANISMBAREFFECTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D284CE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MechanismBarEffectConfigRow_TypeDefinitionIndex = 13599;
+	inline static constexpr unsigned int MechanismBarEffectConfigRow_TypeDefinitionIndex = 14016;
 
 	class MechanismBarEffectConfigRow : public ::System::Object
 	{
@@ -20,8 +20,8 @@ namespace RPG::GameCore
 		::Il2CppArray<::System::String*>* BattlePlayerAbilityList; // 0x20
 		::Il2CppArray<::System::UInt32>* MazeBuffList; // 0x28
 		::System::UInt32 ID; // 0x30
-		::System::UInt32 Phase; // 0x34
-		::System::UInt32 ValueThresh; // 0x38
+		::System::UInt32 ValueThresh; // 0x34
+		::System::UInt32 Phase; // 0x38
 
 		::System::Void _ctor()
 		{

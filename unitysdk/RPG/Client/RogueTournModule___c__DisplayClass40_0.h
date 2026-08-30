@@ -7,12 +7,12 @@ class Class_1_7AB88D713F5121B3_58;
 namespace RPG::Client { class RogueTournModule; }
 namespace RPG::Client { template <typename T> class RPGHttpPlatformActResponse_1; }
 
-#define RPG_CLIENT_ROGUETOURNMODULE___C__DISPLAYCLASS40_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA57880)
-#define RPG_CLIENT_ROGUETOURNMODULE___C__DISPLAYCLASS40_0__SENDSETROGUETOURNBUILDREFFAVORITEHTTPREQ_B__2_OFFSET UNITYSDK_OFFSET(0x1AA57890)
+#define RPG_CLIENT_ROGUETOURNMODULE___C__DISPLAYCLASS40_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C33E9D0)
+#define RPG_CLIENT_ROGUETOURNMODULE___C__DISPLAYCLASS40_0__SENDSETROGUETOURNBUILDREFFAVORITEHTTPREQ_B__2_OFFSET UNITYSDK_OFFSET(0x1C34E9C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournModule___c__DisplayClass40_0_TypeDefinitionIndex = 64795;
+	inline static constexpr unsigned int RogueTournModule___c__DisplayClass40_0_TypeDefinitionIndex = 67800;
 
 	class RogueTournModule___c__DisplayClass40_0 : public ::System::Object
 	{

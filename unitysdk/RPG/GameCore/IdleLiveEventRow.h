@@ -5,22 +5,22 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_IDLELIVEEVENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B695830)
-#define RPG_GAMECORE_IDLELIVEEVENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B695AA0)
+#define RPG_GAMECORE_IDLELIVEEVENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D210980)
+#define RPG_GAMECORE_IDLELIVEEVENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D210BF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveEventRow_TypeDefinitionIndex = 11293;
+	inline static constexpr unsigned int IdleLiveEventRow_TypeDefinitionIndex = 11682;
 
 	class IdleLiveEventRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* AvatarList; // 0x10
-		::System::String* FigurePath; // 0x18
-		::System::UInt32 ID; // 0x20
-		::System::UInt32 InitialAvatarLevel; // 0x24
-		::System::UInt32 SentenceSectionID; // 0x28
-		::System::Boolean ChangeTeam; // 0x2C
+		::System::String* FigurePath; // 0x10
+		::Il2CppArray<::System::UInt32>* AvatarList; // 0x18
+		::System::UInt32 InitialAvatarLevel; // 0x20
+		::System::UInt32 SentenceSectionID; // 0x24
+		::System::Boolean ChangeTeam; // 0x28
+		::System::UInt32 ID; // 0x2C
 
 		::System::Void _ctor()
 		{

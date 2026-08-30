@@ -6,27 +6,27 @@
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D { class b2AllocFcn; }
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D { class b2FreeFcn; }
 
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2BUFFERS_B2GETBYTECOUNT_OFFSET UNITYSDK_OFFSET(0xB613F70)
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2BUFFERS_B2SETALLOCATOR_OFFSET UNITYSDK_OFFSET(0xB613FB0)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2BUFFERS_B2GETBYTECOUNT_OFFSET UNITYSDK_OFFSET(0xC2D92D0)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2BUFFERS_B2SETALLOCATOR_OFFSET UNITYSDK_OFFSET(0xC2D9310)
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2Buffers_TypeDefinitionIndex = 35054;
+	inline static constexpr unsigned int B2Buffers_TypeDefinitionIndex = 35915;
 
 	class B2Buffers : public ::System::Object
 	{
 	public:
-		static ::RPG::LittleGameShare::HoyoPhysics::Box2D::b2AllocFcn** StaticGet_b2_allocFcn()
-		{
-			return (::RPG::LittleGameShare::HoyoPhysics::Box2D::b2AllocFcn**)Il2CppClass::FromTypeDefinitionIndex(B2Buffers_TypeDefinitionIndex)->GetStaticField(0x5A3E0);
-		}
 		static ::RPG::LittleGameShare::HoyoPhysics::Box2D::b2FreeFcn** StaticGet_b2_freeFcn()
 		{
-			return (::RPG::LittleGameShare::HoyoPhysics::Box2D::b2FreeFcn**)Il2CppClass::FromTypeDefinitionIndex(B2Buffers_TypeDefinitionIndex)->GetStaticField(0x5A3E8);
+			return (::RPG::LittleGameShare::HoyoPhysics::Box2D::b2FreeFcn**)Il2CppClass::FromTypeDefinitionIndex(B2Buffers_TypeDefinitionIndex)->GetStaticField(0x26890);
+		}
+		static ::RPG::LittleGameShare::HoyoPhysics::Box2D::b2AllocFcn** StaticGet_b2_allocFcn()
+		{
+			return (::RPG::LittleGameShare::HoyoPhysics::Box2D::b2AllocFcn**)Il2CppClass::FromTypeDefinitionIndex(B2Buffers_TypeDefinitionIndex)->GetStaticField(0x26898);
 		}
 		static ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2AtomicInt* StaticGet_b2_byteCount()
 		{
-			return (::RPG::LittleGameShare::HoyoPhysics::Box2D::B2AtomicInt*)Il2CppClass::FromTypeDefinitionIndex(B2Buffers_TypeDefinitionIndex)->GetStaticField(0xF490);
+			return (::RPG::LittleGameShare::HoyoPhysics::Box2D::B2AtomicInt*)Il2CppClass::FromTypeDefinitionIndex(B2Buffers_TypeDefinitionIndex)->GetStaticField(0xB7C0);
 		}
 
 		static ::System::Int32 b2GetByteCount()

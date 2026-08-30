@@ -2,15 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define STRUCT_2_269BA11E54128632_1_METHOD_2_5A6434846524FCDB_OFFSET UNITYSDK_OFFSET(0x3A090F0)
-#define STRUCT_2_269BA11E54128632_1_METHOD_2_C114A1F8E08B6F92_OFFSET UNITYSDK_OFFSET(0x3A090D0)
+#define STRUCT_2_269BA11E54128632_1_METHOD_2_5A6434846524FCDB_OFFSET UNITYSDK_OFFSET(0x3BA1CE0)
+#define STRUCT_2_269BA11E54128632_1_METHOD_2_C114A1F8E08B6F92_OFFSET UNITYSDK_OFFSET(0x3BA1CC0)
 
-inline static constexpr unsigned int Struct_2_269BA11E54128632_1_TypeDefinitionIndex = 10460;
+inline static constexpr unsigned int Struct_2_269BA11E54128632_1_TypeDefinitionIndex = 10801;
 
 struct alignas(8) Struct_2_269BA11E54128632_1
 {
-	::System::UInt64 Field_2_0; // 0x10
-	::System::UInt64 Field_2_1; // 0x18
+	::System::UInt64 MLOKKFFLEFE; // 0x10
+	::System::UInt64 IONDJKMAIPM; // 0x18
 
 	::System::Void Method_2_C114A1F8E08B6F92(::System::Int32 a1)
 	{

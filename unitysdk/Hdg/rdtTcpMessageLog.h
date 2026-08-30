@@ -7,14 +7,14 @@ namespace System { class String; }
 namespace System::IO { class BinaryReader; }
 namespace System::IO { class BinaryWriter; }
 
-#define HDG_RDTTCPMESSAGELOG_READ_OFFSET UNITYSDK_OFFSET(0x38E54B0)
-#define HDG_RDTTCPMESSAGELOG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x38E5470)
-#define HDG_RDTTCPMESSAGELOG_WRITE_OFFSET UNITYSDK_OFFSET(0x38E54A0)
-#define HDG_RDTTCPMESSAGELOG__CTOR_OFFSET UNITYSDK_OFFSET(0x7AF990)
+#define HDG_RDTTCPMESSAGELOG_READ_OFFSET UNITYSDK_OFFSET(0x3A9B7B0)
+#define HDG_RDTTCPMESSAGELOG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3A9B770)
+#define HDG_RDTTCPMESSAGELOG_WRITE_OFFSET UNITYSDK_OFFSET(0x3A9B7A0)
+#define HDG_RDTTCPMESSAGELOG__CTOR_OFFSET UNITYSDK_OFFSET(0x82E370)
 
 namespace Hdg
 {
-	inline static constexpr unsigned int rdtTcpMessageLog_TypeDefinitionIndex = 45210;
+	inline static constexpr unsigned int rdtTcpMessageLog_TypeDefinitionIndex = 47446;
 
 	struct alignas(8) rdtTcpMessageLog
 	{

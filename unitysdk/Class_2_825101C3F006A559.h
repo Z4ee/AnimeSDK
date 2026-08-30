@@ -4,21 +4,21 @@
 
 namespace System { class String; }
 
-#define CLASS_2_825101C3F006A559__CTOR_OFFSET UNITYSDK_OFFSET(0x1ACDD190)
+#define CLASS_2_825101C3F006A559__CTOR_OFFSET UNITYSDK_OFFSET(0x1C8DE1E0)
 
-inline static constexpr unsigned int Class_2_825101C3F006A559_TypeDefinitionIndex = 24121;
+inline static constexpr unsigned int Class_2_825101C3F006A559_TypeDefinitionIndex = 24710;
 
 class Class_2_825101C3F006A559 : public ::System::Attribute
 {
 public:
-	::System::String* Field_2_0; // 0x10
-	::System::String* Field_2_1; // 0x18
-	::System::String* Field_2_2; // 0x20
-	::System::String* Field_2_3; // 0x28
-	::System::Boolean Field_2_4; // 0x30
-	::System::Boolean Field_2_5; // 0x31
-	::System::Boolean Field_2_6; // 0x32
-	::System::Boolean Field_2_7; // 0x33
+	::System::String* MNCFLNJDADD; // 0x10
+	::System::String* LCEFCHMBLIJ; // 0x18
+	::System::String* HHFCMJHIIFH; // 0x20
+	::System::String* ODIMMONKLCN; // 0x28
+	::System::Boolean NBMKFMINNGO; // 0x30
+	::System::Boolean OBPBJEFOLKN; // 0x31
+	::System::Boolean CEGLIHECHNG; // 0x32
+	::System::Boolean EIMAOOIHEHL; // 0x33
 
 	::System::Void _ctor(::System::String* a1, ::System::Boolean a2)
 	{

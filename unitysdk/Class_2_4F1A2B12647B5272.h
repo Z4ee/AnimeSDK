@@ -8,22 +8,22 @@ class Class_1_9ADD1D872350330F;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_4F1A2B12647B5272_CLEAR_OFFSET UNITYSDK_OFFSET(0x17D9AA50)
-#define CLASS_2_4F1A2B12647B5272_METHOD_2_E9C0A4FCB77B6D02_OFFSET UNITYSDK_OFFSET(0x17D9A9E0)
-#define CLASS_2_4F1A2B12647B5272_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x17D9AAB0)
-#define CLASS_2_4F1A2B12647B5272__CTOR_OFFSET UNITYSDK_OFFSET(0x17D9B040)
+#define CLASS_2_4F1A2B12647B5272_CLEAR_OFFSET UNITYSDK_OFFSET(0x1A0FB070)
+#define CLASS_2_4F1A2B12647B5272_METHOD_2_E9C0A4FCB77B6D02_OFFSET UNITYSDK_OFFSET(0x1A0FB000)
+#define CLASS_2_4F1A2B12647B5272_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1A0FB0D0)
+#define CLASS_2_4F1A2B12647B5272__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0FB660)
 
-inline static constexpr unsigned int Class_2_4F1A2B12647B5272_TypeDefinitionIndex = 62941;
+inline static constexpr unsigned int Class_2_4F1A2B12647B5272_TypeDefinitionIndex = 65926;
 
 class Class_2_4F1A2B12647B5272 : public ::Class_1_3713064DEE761936
 {
 public:
-	::System::Collections::Generic::List_1<::System::UInt32>* Field_2_0; // 0x20
-	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Class_1_9ADD1D872350330F*>* Field_2_1; // 0x28
-	::Class_1_2D2D4A639FB13B87* Field_2_2; // 0x30
-	::RPG::Client::LittleGame::Match3::OpponentRole Field_2_3; // 0x38
-	::System::Boolean Field_2_4; // 0x3C
-	::System::UInt32 Field_2_5; // 0x40
+	::System::Collections::Generic::List_1<::System::UInt32>* AEMPGINAJLG; // 0x20
+	::Class_1_2D2D4A639FB13B87* HNEBOCDHJGF; // 0x28
+	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Class_1_9ADD1D872350330F*>* EDELMDIBDPG; // 0x30
+	::System::Boolean OAPDFFIBEBJ; // 0x38
+	::System::UInt32 MKHIJCGJOGI; // 0x3C
+	::RPG::Client::LittleGame::Match3::OpponentRole BDPIMPJOJBK; // 0x40
 
 	::System::Void _ctor()
 	{

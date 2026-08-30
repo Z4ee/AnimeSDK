@@ -9,7 +9,7 @@ namespace Entitas { template <typename T> class IMatcher_1; }
 
 namespace Entitas
 {
-	inline static constexpr unsigned int CollectorContextExtension_TypeDefinitionIndex = 9643;
+	inline static constexpr unsigned int CollectorContextExtension_TypeDefinitionIndex = 9922;
 
 	class CollectorContextExtension : public ::System::Object
 	{

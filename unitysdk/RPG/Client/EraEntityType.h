@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EraEntityType_TypeDefinitionIndex = 69960;
+	inline static constexpr unsigned int EraEntityType_TypeDefinitionIndex = 73217;
 
 	enum class EraEntityType : ::System::Int32
 	{

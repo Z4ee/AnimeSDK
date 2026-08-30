@@ -4,7 +4,7 @@
 
 namespace RPGTools::Octree::Agent
 {
-	inline static constexpr unsigned int AgentCurveNavigationParams_TypeDefinitionIndex = 47086;
+	inline static constexpr unsigned int AgentCurveNavigationParams_TypeDefinitionIndex = 49349;
 
 	struct alignas(4) AgentCurveNavigationParams
 	{

@@ -6,19 +6,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_TRAINPARTYLOGCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C160E20)
-#define RPG_GAMECORE_TRAINPARTYLOGCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1C160FF0)
+#define RPG_GAMECORE_TRAINPARTYLOGCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D5361B0)
+#define RPG_GAMECORE_TRAINPARTYLOGCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D536380)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrainPartyLogConfigRow_TypeDefinitionIndex = 14715;
+	inline static constexpr unsigned int TrainPartyLogConfigRow_TypeDefinitionIndex = 15151;
 
 	class TrainPartyLogConfigRow : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID LogContent; // 0x10
-		::System::UInt32 Priority; // 0x20
-		::RPG::GameCore::TrainPartyGameRecordType LogType; // 0x24
+		::RPG::GameCore::TrainPartyGameRecordType LogType; // 0x10
+		::System::UInt32 Priority; // 0x14
+		::RPG::Client::TextID LogContent; // 0x18
 
 		::System::Void _ctor()
 		{

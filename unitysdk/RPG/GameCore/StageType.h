@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StageType_TypeDefinitionIndex = 10068;
+	inline static constexpr unsigned int StageType_TypeDefinitionIndex = 10404;
 
 	enum class StageType : ::System::Int32
 	{

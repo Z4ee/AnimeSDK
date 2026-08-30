@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class GridFightWaveMonsterInfo; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_GRIDFIGHTBATTLETEMPLATE_METHOD_2_427B7179AD8A204C_OFFSET UNITYSDK_OFFSET(0x1C5C4390)
-#define RPG_GAMECORE_GRIDFIGHTBATTLETEMPLATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5C4570)
+#define RPG_GAMECORE_GRIDFIGHTBATTLETEMPLATE_METHOD_2_427B7179AD8A204C_OFFSET UNITYSDK_OFFSET(0x1D94BA20)
+#define RPG_GAMECORE_GRIDFIGHTBATTLETEMPLATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D962260)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightBattleTemplate_TypeDefinitionIndex = 17437;
+	inline static constexpr unsigned int GridFightBattleTemplate_TypeDefinitionIndex = 17954;
 
 	class GridFightBattleTemplate : public ::RPG::GameCore::JsonConfig
 	{

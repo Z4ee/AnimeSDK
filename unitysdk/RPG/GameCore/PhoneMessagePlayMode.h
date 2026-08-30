@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PhoneMessagePlayMode_TypeDefinitionIndex = 23727;
+	inline static constexpr unsigned int PhoneMessagePlayMode_TypeDefinitionIndex = 24313;
 
 	enum class PhoneMessagePlayMode : ::System::Int32
 	{

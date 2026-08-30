@@ -5,7 +5,7 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
-class Class_3_1FE581853C85F4B8;
+class Class_3_3DA62BDD2CA1D9BA;
 namespace Cinemachine { class CinemachineVirtualCamera; }
 namespace System { class String; }
 namespace UnityEngine { class Camera; }
@@ -13,15 +13,15 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_FAKEDOUBLESCREENMONOPLUGIN_FORCEOVERRIDE_OFFSET UNITYSDK_OFFSET(0x196D9870)
-#define RPG_CLIENT_FAKEDOUBLESCREENMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x196D9900)
-#define RPG_CLIENT_FAKEDOUBLESCREENMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x196D9950)
+#define RPG_CLIENT_FAKEDOUBLESCREENMONOPLUGIN_FORCEOVERRIDE_OFFSET UNITYSDK_OFFSET(0x1B8A7660)
+#define RPG_CLIENT_FAKEDOUBLESCREENMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x1B8A76F0)
+#define RPG_CLIENT_FAKEDOUBLESCREENMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8A7740)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FakeDoubleScreenMonoPlugin_TypeDefinitionIndex = 67432;
+	inline static constexpr unsigned int FakeDoubleScreenMonoPlugin_TypeDefinitionIndex = 70554;
 
-	class FakeDoubleScreenMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::Class_3_1FE581853C85F4B8*>
+	class FakeDoubleScreenMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::Class_3_3DA62BDD2CA1D9BA*>
 	{
 	public:
 		::UnityEngine::Camera* PreviewCamera; // 0x30

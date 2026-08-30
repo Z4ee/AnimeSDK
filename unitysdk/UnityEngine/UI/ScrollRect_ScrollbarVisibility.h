@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int ScrollRect_ScrollbarVisibility_TypeDefinitionIndex = 5988;
+	inline static constexpr unsigned int ScrollRect_ScrollbarVisibility_TypeDefinitionIndex = 6818;
 
 	enum class ScrollRect_ScrollbarVisibility : ::System::Int32
 	{

@@ -5,19 +5,17 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_EMOJIICONINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1BB3E9D0)
-#define RPG_GAMECORE_EMOJIICONINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB3EB40)
+#define RPG_GAMECORE_EMOJIICONINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7BBE30)
+#define RPG_GAMECORE_EMOJIICONINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7BBF00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EmojiIconInfo_TypeDefinitionIndex = 19624;
+	inline static constexpr unsigned int EmojiIconInfo_TypeDefinitionIndex = 20170;
 
 	class EmojiIconInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::System::String* IconPath; // 0x10
-		::System::Boolean IsFlipbook; // 0x18
-		::System::Single FlipbookSpeed; // 0x1C
 
 		::System::Void _ctor()
 		{

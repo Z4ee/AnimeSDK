@@ -22,86 +22,86 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Mesh; }
 
-#define HOUDINIENGINEUNITY_HEU_GENERATEGEOCACHE_CALCULATEGROUPMESHTOPOLOGY_OFFSET UNITYSDK_OFFSET(0x15038A90)
-#define HOUDINIENGINEUNITY_HEU_GENERATEGEOCACHE_COMBINEMESHES_OFFSET UNITYSDK_OFFSET(0x150382D0)
-#define HOUDINIENGINEUNITY_HEU_GENERATEGEOCACHE_COMBINEQUADMESHES_OFFSET UNITYSDK_OFFSET(0x15037390)
-#define HOUDINIENGINEUNITY_HEU_GENERATEGEOCACHE_CREATEMATERIALINFOENTRYFROMATTRIBUTEINDEX_OFFSET UNITYSDK_OFFSET(0x15033A70)
-#define HOUDINIENGINEUNITY_HEU_GENERATEGEOCACHE_CREATEMESHFROMMESHDATA_OFFSET UNITYSDK_OFFSET(0x15036D40)
-#define HOUDINIENGINEUNITY_HEU_GENERATEGEOCACHE_GENERATEGEOGROUPUSINGGEOCACHEPOINTS_OFFSET UNITYSDK_OFFSET(0x15039000)
-#define HOUDINIENGINEUNITY_HEU_GENERATEGEOCACHE_GENERATEGEOGROUPUSINGGEOCACHEVERTICES_OFFSET UNITYSDK_OFFSET(0x15004460)
-#define HOUDINIENGINEUNITY_HEU_GENERATEGEOCACHE_GENERATELODMESHESFROMGEOGROUPS_OFFSET UNITYSDK_OFFSET(0x150073C0)
-#define HOUDINIENGINEUNITY_HEU_GENERATEGEOCACHE_GENERATEMESHFROMGEOGROUP_OFFSET UNITYSDK_OFFSET(0x150352A0)
-#define HOUDINIENGINEUNITY_HEU_GENERATEGEOCACHE_GENERATEMESHFROMSINGLEGROUP_OFFSET UNITYSDK_OFFSET(0x150083A0)
-#define HOUDINIENGINEUNITY_HEU_GENERATEGEOCACHE_GETFINALMATERIALSFROMCOMPARINGNEWWITHPREVIOUS_OFFSET UNITYSDK_OFFSET(0x15034E90)
-#define HOUDINIENGINEUNITY_HEU_GENERATEGEOCACHE_GETMATERIALKEYFROMATTRIBUTEINDEX_OFFSET UNITYSDK_OFFSET(0x15033B90)
-#define HOUDINIENGINEUNITY_HEU_GENERATEGEOCACHE_GETPOPULATEDGEOCACHE_OFFSET UNITYSDK_OFFSET(0x15003E00)
-#define HOUDINIENGINEUNITY_HEU_GENERATEGEOCACHE_GETSTRINGATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x15033610)
-#define HOUDINIENGINEUNITY_HEU_GENERATEGEOCACHE_GETSUBMESHIDFORFACE_OFFSET UNITYSDK_OFFSET(0x15038D60)
-#define HOUDINIENGINEUNITY_HEU_GENERATEGEOCACHE_GET_ASSETID_OFFSET UNITYSDK_OFFSET(0x1502F4C0)
-#define HOUDINIENGINEUNITY_HEU_GENERATEGEOCACHE_GET_GEOID_OFFSET UNITYSDK_OFFSET(0x1502F4B0)
-#define HOUDINIENGINEUNITY_HEU_GENERATEGEOCACHE_GET_PARTID_OFFSET UNITYSDK_OFFSET(0x15017F30)
-#define HOUDINIENGINEUNITY_HEU_GENERATEGEOCACHE_PARSELODTRANSITIONATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x15033D00)
-#define HOUDINIENGINEUNITY_HEU_GENERATEGEOCACHE_POPULATEGEOMETRYDATA_OFFSET UNITYSDK_OFFSET(0x1502FE40)
-#define HOUDINIENGINEUNITY_HEU_GENERATEGEOCACHE_POPULATEUNITYMATERIALDATA_OFFSET UNITYSDK_OFFSET(0x1502F700)
-#define HOUDINIENGINEUNITY_HEU_GENERATEGEOCACHE_SET_ASSETID_OFFSET UNITYSDK_OFFSET(0x1502F4D0)
-#define HOUDINIENGINEUNITY_HEU_GENERATEGEOCACHE_TRANSFERREGULARATTRIBUTESTOVERTICES_OFFSET UNITYSDK_OFFSET(0x15038610)
-#define HOUDINIENGINEUNITY_HEU_GENERATEGEOCACHE_UPDATECOLLIDERS_OFFSET UNITYSDK_OFFSET(0x150182F0)
-#define HOUDINIENGINEUNITY_HEU_GENERATEGEOCACHE_UPDATECOLLIDER_OFFSET UNITYSDK_OFFSET(0x15034370)
-#define HOUDINIENGINEUNITY_HEU_GENERATEGEOCACHE__CTOR_OFFSET UNITYSDK_OFFSET(0x1502F4E0)
+#define HOUDINIENGINEUNITY_HEU_GENERATEGEOCACHE_CALCULATEGROUPMESHTOPOLOGY_OFFSET UNITYSDK_OFFSET(0x167EC620)
+#define HOUDINIENGINEUNITY_HEU_GENERATEGEOCACHE_COMBINEMESHES_OFFSET UNITYSDK_OFFSET(0x167EBE60)
+#define HOUDINIENGINEUNITY_HEU_GENERATEGEOCACHE_COMBINEQUADMESHES_OFFSET UNITYSDK_OFFSET(0x167EAF20)
+#define HOUDINIENGINEUNITY_HEU_GENERATEGEOCACHE_CREATEMATERIALINFOENTRYFROMATTRIBUTEINDEX_OFFSET UNITYSDK_OFFSET(0x167E75F0)
+#define HOUDINIENGINEUNITY_HEU_GENERATEGEOCACHE_CREATEMESHFROMMESHDATA_OFFSET UNITYSDK_OFFSET(0x167EA8D0)
+#define HOUDINIENGINEUNITY_HEU_GENERATEGEOCACHE_GENERATEGEOGROUPUSINGGEOCACHEPOINTS_OFFSET UNITYSDK_OFFSET(0x167ECB90)
+#define HOUDINIENGINEUNITY_HEU_GENERATEGEOCACHE_GENERATEGEOGROUPUSINGGEOCACHEVERTICES_OFFSET UNITYSDK_OFFSET(0x167B7A50)
+#define HOUDINIENGINEUNITY_HEU_GENERATEGEOCACHE_GENERATELODMESHESFROMGEOGROUPS_OFFSET UNITYSDK_OFFSET(0x167BA9C0)
+#define HOUDINIENGINEUNITY_HEU_GENERATEGEOCACHE_GENERATEMESHFROMGEOGROUP_OFFSET UNITYSDK_OFFSET(0x167E8E30)
+#define HOUDINIENGINEUNITY_HEU_GENERATEGEOCACHE_GENERATEMESHFROMSINGLEGROUP_OFFSET UNITYSDK_OFFSET(0x167BB990)
+#define HOUDINIENGINEUNITY_HEU_GENERATEGEOCACHE_GETFINALMATERIALSFROMCOMPARINGNEWWITHPREVIOUS_OFFSET UNITYSDK_OFFSET(0x167E8A20)
+#define HOUDINIENGINEUNITY_HEU_GENERATEGEOCACHE_GETMATERIALKEYFROMATTRIBUTEINDEX_OFFSET UNITYSDK_OFFSET(0x167E7720)
+#define HOUDINIENGINEUNITY_HEU_GENERATEGEOCACHE_GETPOPULATEDGEOCACHE_OFFSET UNITYSDK_OFFSET(0x167B73F0)
+#define HOUDINIENGINEUNITY_HEU_GENERATEGEOCACHE_GETSTRINGATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x167E7190)
+#define HOUDINIENGINEUNITY_HEU_GENERATEGEOCACHE_GETSUBMESHIDFORFACE_OFFSET UNITYSDK_OFFSET(0x167EC8F0)
+#define HOUDINIENGINEUNITY_HEU_GENERATEGEOCACHE_GET_ASSETID_OFFSET UNITYSDK_OFFSET(0x167E3060)
+#define HOUDINIENGINEUNITY_HEU_GENERATEGEOCACHE_GET_GEOID_OFFSET UNITYSDK_OFFSET(0x167E3050)
+#define HOUDINIENGINEUNITY_HEU_GENERATEGEOCACHE_GET_PARTID_OFFSET UNITYSDK_OFFSET(0x167CB600)
+#define HOUDINIENGINEUNITY_HEU_GENERATEGEOCACHE_PARSELODTRANSITIONATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x167E7890)
+#define HOUDINIENGINEUNITY_HEU_GENERATEGEOCACHE_POPULATEGEOMETRYDATA_OFFSET UNITYSDK_OFFSET(0x167E39E0)
+#define HOUDINIENGINEUNITY_HEU_GENERATEGEOCACHE_POPULATEUNITYMATERIALDATA_OFFSET UNITYSDK_OFFSET(0x167E32B0)
+#define HOUDINIENGINEUNITY_HEU_GENERATEGEOCACHE_SET_ASSETID_OFFSET UNITYSDK_OFFSET(0x167E3070)
+#define HOUDINIENGINEUNITY_HEU_GENERATEGEOCACHE_TRANSFERREGULARATTRIBUTESTOVERTICES_OFFSET UNITYSDK_OFFSET(0x167EC1A0)
+#define HOUDINIENGINEUNITY_HEU_GENERATEGEOCACHE_UPDATECOLLIDERS_OFFSET UNITYSDK_OFFSET(0x167CB9C0)
+#define HOUDINIENGINEUNITY_HEU_GENERATEGEOCACHE_UPDATECOLLIDER_OFFSET UNITYSDK_OFFSET(0x167E7F00)
+#define HOUDINIENGINEUNITY_HEU_GENERATEGEOCACHE__CTOR_OFFSET UNITYSDK_OFFSET(0x167E3080)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_GenerateGeoCache_TypeDefinitionIndex = 38478;
+	inline static constexpr unsigned int HEU_GenerateGeoCache_TypeDefinitionIndex = 39337;
 
 	class HEU_GenerateGeoCache : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::String*>* _groups; // 0x10
-		::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GenerateGeoCache_HEU_ColliderInfo*>* _colliderInfos; // 0x18
-		::Il2CppArray<::System::Int32>* _vertexList; // 0x20
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::HoudiniEngineUnity::HEU_UnityMaterialInfo*>* _unityMaterialInfos; // 0x28
-		::Il2CppArray<::System::Single>* _colorAttr; // 0x30
-		::System::String* _partName; // 0x38
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::HoudiniEngineUnity::HEU_MaterialData*>* _materialIDToDataMap; // 0x40
-		::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_MaterialData*>* _materialCache; // 0x48
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::System::Int32>*>* _groupSplitFaceIndices; // 0x50
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::Il2CppArray<::System::Int32>*>* _groupSplitVertexIndices; // 0x58
-		::Il2CppArray<::System::Int32>* _allCollisionVertexList; // 0x60
-		::Il2CppArray<::System::Single>* _posAttr; // 0x68
-		::System::Collections::Generic::List_1<::System::String*>* _unityMaterialAttrStringsMap; // 0x70
-		::System::Collections::Generic::List_1<::System::String*>* _substanceMaterialAttrStringsMap; // 0x78
-		::Il2CppArray<::System::Int32>* _unityMaterialAttrName; // 0x80
-		::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_MaterialData*>* _inUseMaterials; // 0x88
-		::System::String* _assetCacheFolderPath; // 0x90
-		::Il2CppArray<::System::Int32>* _allCollisionFaceIndices; // 0x98
-		::Il2CppArray<::System::Single>* _tangentAttr; // 0xA0
-		::Il2CppArray<::System::Single>* _LODTransitionValues; // 0xA8
-		::Il2CppArray<::Il2CppArray<::System::Single>*>* _uvsAttr; // 0xB0
-		::Il2CppArray<::System::Int32>* _faceCounts; // 0xB8
-		::Il2CppArray<::System::Int32>* _houdiniMaterialIDs; // 0xC0
-		::Il2CppArray<::HoudiniEngineUnity::HAPI_AttributeInfo>* _uvsAttrInfo; // 0xC8
-		::HoudiniEngineUnity::HAPI_PartInfo _partInfo; // 0xD0
-		::Il2CppArray<::System::Int32>* _substanceMaterialAttrIndex; // 0x100
-		::Il2CppArray<::System::Single>* _alphaAttr; // 0x108
-		::HoudiniEngineUnity::HEU_MeshIndexFormat* _meshIndexFormat; // 0x110
-		::Il2CppArray<::System::Int32>* _substanceMaterialAttrName; // 0x118
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::System::Int32>*>* _groupVertexOffsets; // 0x120
-		::Il2CppArray<::System::Single>* _normalAttr; // 0x128
-		::HoudiniEngineUnity::HAPI_GeoInfo _geoInfo; // 0x130
-		::System::Single _normalCosineThreshold; // 0x154
-		::HoudiniEngineUnity::HAPI_AttributeInfo _normalAttrInfo; // 0x158
-		::HoudiniEngineUnity::HAPI_AttributeInfo _posAttrInfo; // 0x180
-		::HoudiniEngineUnity::HAPI_AttributeInfo _alphaAttrInfo; // 0x1A8
-		::HoudiniEngineUnity::HAPI_AttributeInfo _unityMaterialAttrInfo; // 0x1D0
-		::System::Boolean _singleFaceUnityMaterial; // 0x1F8
-		::System::Boolean _hasLODGroups; // 0x1F9
-		::HoudiniEngineUnity::HAPI_AttributeInfo _tangentAttrInfo; // 0x200
-		::System::Boolean _hasGroupGeometry; // 0x228
-		::System::Boolean _isMeshReadWrite; // 0x229
-		::System::Boolean _singleFaceHoudiniMaterial; // 0x22A
-		::System::Int32 _AssetID_k__BackingField; // 0x22C
-		::HoudiniEngineUnity::HAPI_AttributeInfo _substanceMaterialAttrIndexInfo; // 0x230
-		::HoudiniEngineUnity::HAPI_AttributeInfo _colorAttrInfo; // 0x258
+		::System::String* _assetCacheFolderPath; // 0x10
+		::Il2CppArray<::System::Int32>* _houdiniMaterialIDs; // 0x18
+		::Il2CppArray<::System::Int32>* _allCollisionVertexList; // 0x20
+		::Il2CppArray<::System::Single>* _posAttr; // 0x28
+		::Il2CppArray<::System::Single>* _LODTransitionValues; // 0x30
+		::Il2CppArray<::System::Int32>* _unityMaterialAttrName; // 0x38
+		::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_MaterialData*>* _materialCache; // 0x40
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::Il2CppArray<::System::Int32>*>* _groupSplitVertexIndices; // 0x48
+		::Il2CppArray<::Il2CppArray<::System::Single>*>* _uvsAttr; // 0x50
+		::Il2CppArray<::System::Single>* _normalAttr; // 0x58
+		::System::Collections::Generic::List_1<::System::String*>* _substanceMaterialAttrStringsMap; // 0x60
+		::Il2CppArray<::System::Int32>* _vertexList; // 0x68
+		::Il2CppArray<::System::Single>* _tangentAttr; // 0x70
+		::Il2CppArray<::System::Int32>* _allCollisionFaceIndices; // 0x78
+		::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_MaterialData*>* _inUseMaterials; // 0x80
+		::System::Collections::Generic::List_1<::System::String*>* _unityMaterialAttrStringsMap; // 0x88
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::System::Int32>*>* _groupSplitFaceIndices; // 0x90
+		::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GenerateGeoCache_HEU_ColliderInfo*>* _colliderInfos; // 0x98
+		::Il2CppArray<::System::Int32>* _substanceMaterialAttrName; // 0xA0
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::HoudiniEngineUnity::HEU_MaterialData*>* _materialIDToDataMap; // 0xA8
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::HoudiniEngineUnity::HEU_UnityMaterialInfo*>* _unityMaterialInfos; // 0xB0
+		::Il2CppArray<::System::String*>* _groups; // 0xB8
+		::Il2CppArray<::System::Single>* _colorAttr; // 0xC0
+		::Il2CppArray<::System::Int32>* _substanceMaterialAttrIndex; // 0xC8
+		::System::String* _partName; // 0xD0
+		::Il2CppArray<::System::Int32>* _faceCounts; // 0xD8
+		::HoudiniEngineUnity::HAPI_PartInfo _partInfo; // 0xE0
+		::Il2CppArray<::HoudiniEngineUnity::HAPI_AttributeInfo>* _uvsAttrInfo; // 0x110
+		::Il2CppArray<::System::Single>* _alphaAttr; // 0x118
+		::HoudiniEngineUnity::HEU_MeshIndexFormat* _meshIndexFormat; // 0x120
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::System::Int32>*>* _groupVertexOffsets; // 0x128
+		::System::Boolean _singleFaceHoudiniMaterial; // 0x130
+		::System::Boolean _isMeshReadWrite; // 0x131
+		::HoudiniEngineUnity::HAPI_AttributeInfo _normalAttrInfo; // 0x138
+		::HoudiniEngineUnity::HAPI_AttributeInfo _alphaAttrInfo; // 0x160
+		::HoudiniEngineUnity::HAPI_AttributeInfo _posAttrInfo; // 0x188
+		::HoudiniEngineUnity::HAPI_AttributeInfo _tangentAttrInfo; // 0x1B0
+		::HoudiniEngineUnity::HAPI_AttributeInfo _colorAttrInfo; // 0x1D8
+		::HoudiniEngineUnity::HAPI_AttributeInfo _unityMaterialAttrInfo; // 0x200
+		::System::Boolean _singleFaceUnityMaterial; // 0x228
+		::System::Boolean _hasGroupGeometry; // 0x229
+		::System::Boolean _hasLODGroups; // 0x22A
+		::HoudiniEngineUnity::HAPI_GeoInfo _geoInfo; // 0x22C
+		::HoudiniEngineUnity::HAPI_AttributeInfo _substanceMaterialAttrIndexInfo; // 0x250
+		::System::Single _normalCosineThreshold; // 0x278
+		::System::Int32 _AssetID_k__BackingField; // 0x27C
 		::HoudiniEngineUnity::HAPI_AttributeInfo _substanceMaterialAttrNameInfo; // 0x280
 
 		::System::Void _ctor()

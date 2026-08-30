@@ -3,7 +3,7 @@
 
 namespace RPG
 {
-	inline static constexpr unsigned int LogTag_TypeDefinitionIndex = 6785;
+	inline static constexpr unsigned int LogTag_TypeDefinitionIndex = 6397;
 
 	enum class LogTag : ::System::Int32
 	{
@@ -120,6 +120,9 @@ namespace RPG
 		ItemCompose = 110,
 		LittleGameAbility = 111,
 		PixAir = 112,
-		ChallengeTierce = 113,
+		ExpeditionBattle = 113,
+		ChallengeTierce = 114,
+		VoracityInvasion = 115,
+		B51Racing = 116,
 	};
 }

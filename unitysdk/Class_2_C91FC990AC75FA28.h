@@ -1,24 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_CA217ABF4E3B4F3F.h"
+#include "unitysdk/Class_1_34917908B7833130.h"
 
 namespace RPG::Client { class MonoUIColorSwitcher; }
 namespace RPG::GameCore { class BattleGridFightTeamTraitData; }
 namespace System { class String; }
 namespace UnityEngine::UI { class Image; }
 
-#define CLASS_2_C91FC990AC75FA28_METHOD_2_78249B19E68F1C21_OFFSET UNITYSDK_OFFSET(0x1644D360)
-#define CLASS_2_C91FC990AC75FA28__CTOR_OFFSET UNITYSDK_OFFSET(0x1644D550)
-#define CLASS_2_C91FC990AC75FA28__ONBIND_OFFSET UNITYSDK_OFFSET(0x1644D2C0)
+#define CLASS_2_C91FC990AC75FA28_METHOD_2_78249B19E68F1C21_OFFSET UNITYSDK_OFFSET(0x178C0370)
+#define CLASS_2_C91FC990AC75FA28__CTOR_OFFSET UNITYSDK_OFFSET(0x178C0560)
+#define CLASS_2_C91FC990AC75FA28__ONBIND_OFFSET UNITYSDK_OFFSET(0x178C02D0)
 
-inline static constexpr unsigned int Class_2_C91FC990AC75FA28_TypeDefinitionIndex = 68968;
+inline static constexpr unsigned int Class_2_C91FC990AC75FA28_TypeDefinitionIndex = 72167;
 
-class Class_2_C91FC990AC75FA28 : public ::Class_1_CA217ABF4E3B4F3F
+class Class_2_C91FC990AC75FA28 : public ::Class_1_34917908B7833130
 {
 public:
-	// static const ::System::String* Field_2_0; // 0x0
-	::RPG::Client::MonoUIColorSwitcher* Field_2_1; // 0x60
-	::UnityEngine::UI::Image* Field_2_2; // 0x68
+	// static const ::System::String* DJCBDJMACFH; // 0x0
+	::RPG::Client::MonoUIColorSwitcher* MIALHNKKOED; // 0x60
+	::UnityEngine::UI::Image* LPMHMLOGPPN; // 0x68
 
 	::System::Void _ctor()
 	{

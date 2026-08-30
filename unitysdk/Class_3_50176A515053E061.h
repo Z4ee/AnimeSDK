@@ -4,10 +4,10 @@
 
 namespace RPG::Client { class WolfBroGunPlayTargetActionConfig_Die; }
 
-#define CLASS_3_50176A515053E061_METHOD_3_E693A0026D178D8E_OFFSET UNITYSDK_OFFSET(0x18F6C960)
-#define CLASS_3_50176A515053E061__CTOR_OFFSET UNITYSDK_OFFSET(0x18F6CAC0)
+#define CLASS_3_50176A515053E061_METHOD_3_E693A0026D178D8E_OFFSET UNITYSDK_OFFSET(0x187007A0)
+#define CLASS_3_50176A515053E061__CTOR_OFFSET UNITYSDK_OFFSET(0x18700900)
 
-inline static constexpr unsigned int Class_3_50176A515053E061_TypeDefinitionIndex = 65626;
+inline static constexpr unsigned int Class_3_50176A515053E061_TypeDefinitionIndex = 68663;
 
 class Class_3_50176A515053E061 : public ::RPG::Client::WolfBroGunPlayTargetActionTemplate_1<::RPG::Client::WolfBroGunPlayTargetActionConfig_Die*>
 {

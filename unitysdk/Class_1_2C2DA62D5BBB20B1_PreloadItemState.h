@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_1_2C2DA62D5BBB20B1_PreloadItemState_TypeDefinitionIndex = 57046;
+inline static constexpr unsigned int Class_1_2C2DA62D5BBB20B1_PreloadItemState_TypeDefinitionIndex = 59838;
 
 enum class Class_1_2C2DA62D5BBB20B1_PreloadItemState : ::System::Int32
 {

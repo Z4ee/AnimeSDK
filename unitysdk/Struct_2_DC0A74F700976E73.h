@@ -7,19 +7,19 @@
 namespace RPG::Client { class MonoCharacterHeadPoint; }
 namespace UnityEngine { class Transform; }
 
-#define STRUCT_2_DC0A74F700976E73_METHOD_2_047089B1B49D30DB_OFFSET UNITYSDK_OFFSET(0x38FC930)
-#define STRUCT_2_DC0A74F700976E73_METHOD_2_D29B4A26B13CD2CF_OFFSET UNITYSDK_OFFSET(0x38FC8F0)
+#define STRUCT_2_DC0A74F700976E73_METHOD_2_047089B1B49D30DB_OFFSET UNITYSDK_OFFSET(0x3ABA040)
+#define STRUCT_2_DC0A74F700976E73_METHOD_2_D29B4A26B13CD2CF_OFFSET UNITYSDK_OFFSET(0x3ABA000)
 
-inline static constexpr unsigned int Struct_2_DC0A74F700976E73_TypeDefinitionIndex = 54545;
+inline static constexpr unsigned int Struct_2_DC0A74F700976E73_TypeDefinitionIndex = 57266;
 
 struct alignas(8) Struct_2_DC0A74F700976E73
 {
-	::RPG::Client::MonoCharacterHeadPoint* Field_2_0; // 0x10
-	::System::Boolean Field_2_1; // 0x18
-	::UnityEngine::Vector3 Field_2_2; // 0x1C
-	::UnityEngine::Quaternion Field_2_3; // 0x28
-	::System::Single Field_2_4; // 0x38
-	::UnityEngine::Vector3 Field_2_5; // 0x3C
+	::RPG::Client::MonoCharacterHeadPoint* KCBPBMOJOKJ; // 0x10
+	::System::Boolean NLDLLPECLCH; // 0x18
+	::UnityEngine::Vector3 AIBGEDIGEOO; // 0x1C
+	::UnityEngine::Quaternion LOLLEGPLMOO; // 0x28
+	::System::Single AFGBMIHNCGK; // 0x38
+	::UnityEngine::Vector3 IBHJDCGOMJG; // 0x3C
 
 	::UnityEngine::Vector3 Method_2_D29B4A26B13CD2CF(::UnityEngine::Vector3 a1, ::UnityEngine::Quaternion a2)
 	{

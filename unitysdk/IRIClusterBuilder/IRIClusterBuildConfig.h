@@ -1,12 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/IRIClusterBuilder/VertexAttributeEncodeMode.h"
 #include "unitysdk/UnityEngine/ScriptableObject.h"
 
-#define IRICLUSTERBUILDER_IRICLUSTERBUILDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x174FF360)
+#define IRICLUSTERBUILDER_IRICLUSTERBUILDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18E65060)
 
 namespace IRIClusterBuilder
 {
-	inline static constexpr unsigned int IRIClusterBuildConfig_TypeDefinitionIndex = 45977;
+	inline static constexpr unsigned int IRIClusterBuildConfig_TypeDefinitionIndex = 48201;
 
 	class IRIClusterBuildConfig : public ::UnityEngine::ScriptableObject
 	{
@@ -20,6 +21,7 @@ namespace IRIClusterBuilder
 		::System::Int32 MatParamFloat4Count; // 0x2C
 		::System::Int32 IndexMode; // 0x30
 		::System::Boolean CompressVertex; // 0x34
+		::IRIClusterBuilder::VertexAttributeEncodeMode EncodeMode; // 0x38
 
 		::System::Void _ctor()
 		{

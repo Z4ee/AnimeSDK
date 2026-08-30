@@ -2,15 +2,16 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/TAMonoPlugin_1.h"
 
+namespace RPG::Client { class BlushLockedTransformEntry; }
 namespace RPG::Client { class CharacterCustomBlushBehavior; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_CHARACTERCUSTOMBLUSHMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x19202620)
+#define RPG_CLIENT_CHARACTERCUSTOMBLUSHMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD782A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CharacterCustomBlushMonoPlugin_TypeDefinitionIndex = 67117;
+	inline static constexpr unsigned int CharacterCustomBlushMonoPlugin_TypeDefinitionIndex = 70227;
 
 	class CharacterCustomBlushMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::CharacterCustomBlushBehavior*>
 	{
@@ -20,6 +21,7 @@ namespace RPG::Client
 		::UnityEngine::Transform* Blush1; // 0x40
 		::UnityEngine::Transform* Blush2; // 0x48
 		::System::Single BlushClipMultiplier; // 0x50
+		::Il2CppArray<::RPG::Client::BlushLockedTransformEntry*>* LockedTransforms; // 0x58
 
 		::System::Void _ctor()
 		{

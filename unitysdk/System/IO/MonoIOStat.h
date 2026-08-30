@@ -5,7 +5,7 @@
 
 namespace System::IO
 {
-	inline static constexpr unsigned int MonoIOStat_TypeDefinitionIndex = 721;
+	inline static constexpr unsigned int MonoIOStat_TypeDefinitionIndex = 724;
 
 	struct alignas(8) MonoIOStat
 	{

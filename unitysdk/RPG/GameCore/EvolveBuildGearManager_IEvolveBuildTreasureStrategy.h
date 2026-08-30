@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EvolveBuildGearManager_IEvolveBuildTreasureStrategy_TypeDefinitionIndex = 53544;
+	inline static constexpr unsigned int EvolveBuildGearManager_IEvolveBuildTreasureStrategy_TypeDefinitionIndex = 56258;
 
 	class EvolveBuildGearManager_IEvolveBuildTreasureStrategy
 	{

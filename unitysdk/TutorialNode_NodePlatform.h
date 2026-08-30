@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int TutorialNode_NodePlatform_TypeDefinitionIndex = 45450;
+inline static constexpr unsigned int TutorialNode_NodePlatform_TypeDefinitionIndex = 47700;
 
 enum class TutorialNode_NodePlatform : ::System::Int32
 {

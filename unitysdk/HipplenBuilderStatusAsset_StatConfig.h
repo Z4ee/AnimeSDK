@@ -8,9 +8,9 @@ class HipplenBuilderStatusAsset_StatGradeConfig;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HIPPLENBUILDERSTATUSASSET_STATCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17A6A7B0)
+#define HIPPLENBUILDERSTATUSASSET_STATCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18DD57A0)
 
-inline static constexpr unsigned int HipplenBuilderStatusAsset_StatConfig_TypeDefinitionIndex = 45440;
+inline static constexpr unsigned int HipplenBuilderStatusAsset_StatConfig_TypeDefinitionIndex = 47690;
 
 class HipplenBuilderStatusAsset_StatConfig : public ::System::Object
 {

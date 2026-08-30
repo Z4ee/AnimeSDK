@@ -4,20 +4,20 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ACTIVITYRELICBOXQUESTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1AB0B6C0)
-#define RPG_GAMECORE_ACTIVITYRELICBOXQUESTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1AB0B860)
+#define RPG_GAMECORE_ACTIVITYRELICBOXQUESTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CA1D320)
+#define RPG_GAMECORE_ACTIVITYRELICBOXQUESTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D695FB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityRelicBoxQuestConfigRow_TypeDefinitionIndex = 11860;
+	inline static constexpr unsigned int ActivityRelicBoxQuestConfigRow_TypeDefinitionIndex = 12249;
 
 	class ActivityRelicBoxQuestConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* QuestIDList; // 0x10
-		::System::UInt32 GroupID; // 0x18
-		::System::UInt32 GotoID; // 0x1C
-		::System::UInt32 TabID; // 0x20
+		::System::UInt32 GotoID; // 0x18
+		::System::UInt32 TabID; // 0x1C
+		::System::UInt32 GroupID; // 0x20
 
 		::System::Void _ctor()
 		{

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdvCharacterFindChest; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_48535FF8F7F07634_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17F7C8E0)
-#define CLASS_3_48535FF8F7F07634__CTOR_OFFSET UNITYSDK_OFFSET(0x17F7C8B0)
+#define CLASS_3_48535FF8F7F07634_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x198D2E90)
+#define CLASS_3_48535FF8F7F07634__CTOR_OFFSET UNITYSDK_OFFSET(0x198D2E60)
 
-inline static constexpr unsigned int Class_3_48535FF8F7F07634_TypeDefinitionIndex = 49951;
+inline static constexpr unsigned int Class_3_48535FF8F7F07634_TypeDefinitionIndex = 52612;
 
 class Class_3_48535FF8F7F07634 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdvCharacterFindChest*>
 {

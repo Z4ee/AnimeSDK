@@ -7,7 +7,7 @@ namespace Entitas { class IEntity; }
 namespace RPG::GameCore { class AIVariable; }
 namespace System { class String; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_77_TypeDefinitionIndex = 35649;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_77_TypeDefinitionIndex = 36510;
 
 class Class_0_16E4307DCC419505_77
 {

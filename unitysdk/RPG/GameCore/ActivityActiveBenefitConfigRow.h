@@ -4,19 +4,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ACTIVITYACTIVEBENEFITCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1AADCC40)
-#define RPG_GAMECORE_ACTIVITYACTIVEBENEFITCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1AADCDB0)
+#define RPG_GAMECORE_ACTIVITYACTIVEBENEFITCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C9EE7B0)
+#define RPG_GAMECORE_ACTIVITYACTIVEBENEFITCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1C9EE920)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityActiveBenefitConfigRow_TypeDefinitionIndex = 10541;
+	inline static constexpr unsigned int ActivityActiveBenefitConfigRow_TypeDefinitionIndex = 10882;
 
 	class ActivityActiveBenefitConfigRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 ActiveItemNum; // 0x10
-		::System::UInt32 BenefitID; // 0x14
-		::System::UInt32 Reward; // 0x18
+		::System::UInt32 BenefitID; // 0x10
+		::System::UInt32 Reward; // 0x14
+		::System::UInt32 ActiveItemNum; // 0x18
 
 		::System::Void _ctor()
 		{

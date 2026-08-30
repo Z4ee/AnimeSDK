@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetCharacterShaderSpeedEnable; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_F47E90ADC0D844F3_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18194770)
-#define CLASS_3_F47E90ADC0D844F3__CTOR_OFFSET UNITYSDK_OFFSET(0x18194740)
+#define CLASS_3_F47E90ADC0D844F3_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18805E10)
+#define CLASS_3_F47E90ADC0D844F3__CTOR_OFFSET UNITYSDK_OFFSET(0x18805DE0)
 
-inline static constexpr unsigned int Class_3_F47E90ADC0D844F3_TypeDefinitionIndex = 50798;
+inline static constexpr unsigned int Class_3_F47E90ADC0D844F3_TypeDefinitionIndex = 53480;
 
 class Class_3_F47E90ADC0D844F3 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetCharacterShaderSpeedEnable*>
 {

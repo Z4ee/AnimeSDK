@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace RPG::Client::ActivityMarble
 {
-	inline static constexpr unsigned int IMarblePlayer_TypeDefinitionIndex = 71256;
+	inline static constexpr unsigned int IMarblePlayer_TypeDefinitionIndex = 74562;
 
 	class IMarblePlayer
 	{

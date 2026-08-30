@@ -8,13 +8,13 @@ namespace RPG::GameCore { class AttackDamageTypeConfig; }
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_DAMAGESTANCE_METHOD_3_061C97442D2AC9D3_OFFSET UNITYSDK_OFFSET(0x1C0F9080)
-#define RPG_GAMECORE_DAMAGESTANCE_METHOD_3_CF89335E41FBCFCC_OFFSET UNITYSDK_OFFSET(0x1C0F9150)
-#define RPG_GAMECORE_DAMAGESTANCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C0F9100)
+#define RPG_GAMECORE_DAMAGESTANCE_METHOD_3_061C97442D2AC9D3_OFFSET UNITYSDK_OFFSET(0x1D80C9B0)
+#define RPG_GAMECORE_DAMAGESTANCE_METHOD_3_CF89335E41FBCFCC_OFFSET UNITYSDK_OFFSET(0x1D80CA80)
+#define RPG_GAMECORE_DAMAGESTANCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D80CA30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DamageStance_TypeDefinitionIndex = 22244;
+	inline static constexpr unsigned int DamageStance_TypeDefinitionIndex = 22813;
 
 	class DamageStance : public ::RPG::GameCore::TaskConfig
 	{
@@ -26,7 +26,8 @@ namespace RPG::GameCore
 		::RPG::GameCore::DynamicFloat* StanceValue; // 0x38
 		::System::Boolean ForceStanceDamage; // 0x40
 		::System::Boolean IgnoreAttackerAddRatio; // 0x41
-		::System::Boolean TriggerCountDown; // 0x42
+		::System::Boolean IgnoreMuteBreak; // 0x42
+		::System::Boolean TriggerCountDown; // 0x43
 
 		::System::Void _ctor()
 		{

@@ -5,16 +5,16 @@
 class Class_2_48488E8DBD9F6BCE;
 namespace RPG::GameCore { class DiceCombatTaskConfig_InitOwedRollCount; }
 
-#define CLASS_2_9DAF6F6DE381C579_METHOD_2_151E25A63D14DDB0_OFFSET UNITYSDK_OFFSET(0x18D2BC70)
-#define CLASS_2_9DAF6F6DE381C579__CTOR_OFFSET UNITYSDK_OFFSET(0x18D21F60)
+#define CLASS_2_9DAF6F6DE381C579_METHOD_2_151E25A63D14DDB0_OFFSET UNITYSDK_OFFSET(0x1A56AB70)
+#define CLASS_2_9DAF6F6DE381C579__CTOR_OFFSET UNITYSDK_OFFSET(0x1A560D20)
 
-inline static constexpr unsigned int Class_2_9DAF6F6DE381C579_TypeDefinitionIndex = 34777;
+inline static constexpr unsigned int Class_2_9DAF6F6DE381C579_TypeDefinitionIndex = 35638;
 
 class Class_2_9DAF6F6DE381C579 : public ::Class_1_B55037134F9E6688
 {
 public:
-	::RPG::GameCore::DiceCombatTaskConfig_InitOwedRollCount* Field_2_0; // 0x18
-	::Class_2_48488E8DBD9F6BCE* Field_2_1; // 0x20
+	::RPG::GameCore::DiceCombatTaskConfig_InitOwedRollCount* IGHAHBNLIJA; // 0x18
+	::Class_2_48488E8DBD9F6BCE* EEFMDEHLLFI; // 0x20
 
 	::System::Void _ctor(::RPG::GameCore::DiceCombatTaskConfig_InitOwedRollCount* a1, ::Class_2_48488E8DBD9F6BCE* a2)
 	{

@@ -6,11 +6,11 @@ namespace RPG::Client { class Effect_GPUParticleShapeEmitterBehavior; }
 namespace RPG::Client { class Effect_GPUParticleShapeEmitterMonoPlugin_EmitShape; }
 namespace System { class String; }
 
-#define RPG_CLIENT_EFFECT_GPUPARTICLESHAPEEMITTERMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x150EE8C0)
+#define RPG_CLIENT_EFFECT_GPUPARTICLESHAPEEMITTERMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x15E5FC70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_GPUParticleShapeEmitterMonoPlugin_TypeDefinitionIndex = 67326;
+	inline static constexpr unsigned int Effect_GPUParticleShapeEmitterMonoPlugin_TypeDefinitionIndex = 70448;
 
 	class Effect_GPUParticleShapeEmitterMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::Effect_GPUParticleShapeEmitterBehavior*>
 	{

@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/ActivityPanelData.h"
 
-#define RPG_CLIENT_FATERINTIMERACTIVITYPANELDATA_CHECKANDMARKMISSINGVIDEO_OFFSET UNITYSDK_OFFSET(0x19719AB0)
-#define RPG_CLIENT_FATERINTIMERACTIVITYPANELDATA_GETVIDEOIDCURRENTLANGUAGE_OFFSET UNITYSDK_OFFSET(0x19719690)
-#define RPG_CLIENT_FATERINTIMERACTIVITYPANELDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x19719B90)
-#define RPG_CLIENT_FATERINTIMERACTIVITYPANELDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19719680)
+#define RPG_CLIENT_FATERINTIMERACTIVITYPANELDATA_CHECKANDMARKMISSINGVIDEO_OFFSET UNITYSDK_OFFSET(0x1B5D34C0)
+#define RPG_CLIENT_FATERINTIMERACTIVITYPANELDATA_GETVIDEOIDCURRENTLANGUAGE_OFFSET UNITYSDK_OFFSET(0x1B5D30A0)
+#define RPG_CLIENT_FATERINTIMERACTIVITYPANELDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B5D35A0)
+#define RPG_CLIENT_FATERINTIMERACTIVITYPANELDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5D3090)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FateRinTimerActivityPanelData_TypeDefinitionIndex = 58881;
+	inline static constexpr unsigned int FateRinTimerActivityPanelData_TypeDefinitionIndex = 61716;
 
 	class FateRinTimerActivityPanelData : public ::RPG::Client::ActivityPanelData
 	{
 	public:
 		static ::System::UInt32* StaticGet_ActivityID()
 		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(FateRinTimerActivityPanelData_TypeDefinitionIndex)->GetStaticField(0x4A40);
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(FateRinTimerActivityPanelData_TypeDefinitionIndex)->GetStaticField(0x3ED0);
 		}
 
 		::System::Void _ctor(::System::UInt32 a1)

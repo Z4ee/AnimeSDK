@@ -6,17 +6,17 @@ class Class_3_07C3C4D2990C49EE;
 namespace RPG::GameCore { class InterruptSkillExecution; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_9F7C94B9267792BE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1620ABB0)
-#define CLASS_3_9F7C94B9267792BE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1620AD10)
-#define CLASS_3_9F7C94B9267792BE__CTOR_OFFSET UNITYSDK_OFFSET(0x1620AAA0)
+#define CLASS_3_9F7C94B9267792BE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x17BE49D0)
+#define CLASS_3_9F7C94B9267792BE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17BE4B30)
+#define CLASS_3_9F7C94B9267792BE__CTOR_OFFSET UNITYSDK_OFFSET(0x17BE48C0)
 
-inline static constexpr unsigned int Class_3_9F7C94B9267792BE_TypeDefinitionIndex = 52638;
+inline static constexpr unsigned int Class_3_9F7C94B9267792BE_TypeDefinitionIndex = 55337;
 
 class Class_3_9F7C94B9267792BE : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::InterruptSkillExecution*>
 {
 public:
-	::Class_3_07C3C4D2990C49EE* Field_3_0; // 0x28
-	::Class_3_07C3C4D2990C49EE* Field_3_1; // 0x30
+	::Class_3_07C3C4D2990C49EE* CABNDBHDMBL; // 0x28
+	::Class_3_07C3C4D2990C49EE* LELCEGGODOP; // 0x30
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::InterruptSkillExecution* a2)
 	{

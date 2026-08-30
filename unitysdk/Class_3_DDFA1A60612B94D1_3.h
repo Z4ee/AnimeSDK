@@ -7,10 +7,10 @@ namespace RPG::GameCore { class TargetFetchLastKillCaster; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_DDFA1A60612B94D1_3_EVALUATE_OFFSET UNITYSDK_OFFSET(0x157C9D40)
-#define CLASS_3_DDFA1A60612B94D1_3__CTOR_OFFSET UNITYSDK_OFFSET(0x157C9CD0)
+#define CLASS_3_DDFA1A60612B94D1_3_EVALUATE_OFFSET UNITYSDK_OFFSET(0x181150A0)
+#define CLASS_3_DDFA1A60612B94D1_3__CTOR_OFFSET UNITYSDK_OFFSET(0x18115030)
 
-inline static constexpr unsigned int Class_3_DDFA1A60612B94D1_3_TypeDefinitionIndex = 56487;
+inline static constexpr unsigned int Class_3_DDFA1A60612B94D1_3_TypeDefinitionIndex = 59271;
 
 class Class_3_DDFA1A60612B94D1_3 : public ::RPG::GameCore::TargetEvaluatorImpl_1<::RPG::GameCore::TargetFetchLastKillCaster*>
 {

@@ -7,18 +7,18 @@ namespace Google::Protobuf::Reflection { class MethodDescriptor; }
 namespace Google::Protobuf::Reflection { class MethodDescriptorProto; }
 namespace Google::Protobuf::Reflection { class ServiceDescriptor; }
 
-#define GOOGLE_PROTOBUF_REFLECTION_SERVICEDESCRIPTOR___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDC7B80)
-#define GOOGLE_PROTOBUF_REFLECTION_SERVICEDESCRIPTOR___C__DISPLAYCLASS2_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0x1BDC8170)
+#define GOOGLE_PROTOBUF_REFLECTION_SERVICEDESCRIPTOR___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1DBAF9E0)
+#define GOOGLE_PROTOBUF_REFLECTION_SERVICEDESCRIPTOR___C__DISPLAYCLASS2_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0x1DBAFFD0)
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int ServiceDescriptor___c__DisplayClass2_0_TypeDefinitionIndex = 5577;
+	inline static constexpr unsigned int ServiceDescriptor___c__DisplayClass2_0_TypeDefinitionIndex = 5566;
 
 	class ServiceDescriptor___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:
-		::Google::Protobuf::Reflection::FileDescriptor* file; // 0x10
-		::Google::Protobuf::Reflection::ServiceDescriptor* __4__this; // 0x18
+		::Google::Protobuf::Reflection::ServiceDescriptor* __4__this; // 0x10
+		::Google::Protobuf::Reflection::FileDescriptor* file; // 0x18
 
 		::System::Void _ctor()
 		{

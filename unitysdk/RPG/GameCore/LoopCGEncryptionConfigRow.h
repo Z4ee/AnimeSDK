@@ -5,19 +5,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_LOOPCGENCRYPTIONCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1BCD38E0)
-#define RPG_GAMECORE_LOOPCGENCRYPTIONCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1BCD3A60)
+#define RPG_GAMECORE_LOOPCGENCRYPTIONCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D489E50)
+#define RPG_GAMECORE_LOOPCGENCRYPTIONCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D489FD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LoopCGEncryptionConfigRow_TypeDefinitionIndex = 14813;
+	inline static constexpr unsigned int LoopCGEncryptionConfigRow_TypeDefinitionIndex = 15249;
 
 	class LoopCGEncryptionConfigRow : public ::System::Object
 	{
 	public:
-		::System::Boolean Encryption; // 0x10
-		::System::UInt32 VideoID; // 0x14
-		::RPG::GameCore::VideoEncryptionMethod EncryptionMethod; // 0x18
+		::RPG::GameCore::VideoEncryptionMethod EncryptionMethod; // 0x10
+		::System::Boolean Encryption; // 0x14
+		::System::UInt32 VideoID; // 0x18
 
 		::System::Void _ctor()
 		{

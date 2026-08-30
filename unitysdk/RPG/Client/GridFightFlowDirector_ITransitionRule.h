@@ -7,7 +7,7 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightFlowDirector_ITransitionRule_TypeDefinitionIndex = 61682;
+	inline static constexpr unsigned int GridFightFlowDirector_ITransitionRule_TypeDefinitionIndex = 64666;
 
 	class GridFightFlowDirector_ITransitionRule
 	{

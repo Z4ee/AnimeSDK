@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByIsAllLightTeamDied; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_7A22DB2924FE288A_EVALUATE_OFFSET UNITYSDK_OFFSET(0x18F0C8A0)
-#define CLASS_3_7A22DB2924FE288A__CTOR_OFFSET UNITYSDK_OFFSET(0x18F0C870)
+#define CLASS_3_7A22DB2924FE288A_EVALUATE_OFFSET UNITYSDK_OFFSET(0x187540F0)
+#define CLASS_3_7A22DB2924FE288A__CTOR_OFFSET UNITYSDK_OFFSET(0x187540C0)
 
-inline static constexpr unsigned int Class_3_7A22DB2924FE288A_TypeDefinitionIndex = 52159;
+inline static constexpr unsigned int Class_3_7A22DB2924FE288A_TypeDefinitionIndex = 54845;
 
 class Class_3_7A22DB2924FE288A : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByIsAllLightTeamDied*>
 {

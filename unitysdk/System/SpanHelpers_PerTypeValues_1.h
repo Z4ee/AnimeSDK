@@ -4,7 +4,7 @@
 
 namespace System
 {
-	inline static constexpr unsigned int SpanHelpers_PerTypeValues_1_TypeDefinitionIndex = 4965;
+	inline static constexpr unsigned int SpanHelpers_PerTypeValues_1_TypeDefinitionIndex = 4977;
 
 	template <typename T>
 	class SpanHelpers_PerTypeValues_1 : public ::System::Object

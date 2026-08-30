@@ -9,24 +9,24 @@ namespace RPG::Client::PixAir { class PixAirEquipAssembleViewModel; }
 namespace RPG::Client::PixAir { class PixAirGameEquipListControl; }
 namespace UnityEngine::UI { class Button; }
 
-#define RPG_CLIENT_PIXAIR_PIXAIREQUIPASSEMBLEWINDOW_GET__VIEWMODEL_OFFSET UNITYSDK_OFFSET(0x19EC9440)
-#define RPG_CLIENT_PIXAIR_PIXAIREQUIPASSEMBLEWINDOW__CTOR_OFFSET UNITYSDK_OFFSET(0x19EC8FB0)
-#define RPG_CLIENT_PIXAIR_PIXAIREQUIPASSEMBLEWINDOW__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x19EC9340)
-#define RPG_CLIENT_PIXAIR_PIXAIREQUIPASSEMBLEWINDOW__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0x19EC9090)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPASSEMBLEWINDOW_GET__VIEWMODEL_OFFSET UNITYSDK_OFFSET(0x1C8378C0)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPASSEMBLEWINDOW__CTOR_OFFSET UNITYSDK_OFFSET(0x1C8374C0)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPASSEMBLEWINDOW__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x1C837830)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPASSEMBLEWINDOW__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0x1C837580)
 
 namespace RPG::Client::PixAir
 {
-	inline static constexpr unsigned int PixAirEquipAssembleWindow_TypeDefinitionIndex = 75199;
+	inline static constexpr unsigned int PixAirEquipAssembleWindow_TypeDefinitionIndex = 78746;
 
 	class PixAirEquipAssembleWindow : public ::Sofa::BaseSofaWindow
 	{
 	public:
-		::Class_1_5F4D64A4B97E38F9* _Messenger; // 0x40
-		::RPG::Client::PixAir::PixAirBagSlotListControl* _BagSlotListControl; // 0x48
-		::UnityEngine::UI::Button* _BtnSwitch; // 0x50
-		::RPG::Client::UIDraggableManager* _DraggableManager; // 0x58
-		::UnityEngine::UI::Button* _BtnClose; // 0x60
-		::RPG::Client::PixAir::PixAirGameEquipListControl* _BattleEquipListControl; // 0x68
+		::RPG::Client::PixAir::PixAirGameEquipListControl* _BattleEquipListControl; // 0x48
+		::RPG::Client::PixAir::PixAirBagSlotListControl* _BagSlotListControl; // 0x50
+		::UnityEngine::UI::Button* _BtnClose; // 0x58
+		::UnityEngine::UI::Button* _BtnSwitch; // 0x60
+		::RPG::Client::UIDraggableManager* _DraggableManager; // 0x68
+		::Class_1_5F4D64A4B97E38F9* _Messenger; // 0x70
 
 		::System::Void _ctor(::RPG::Client::PixAir::PixAirEquipAssembleViewModel* a1, ::Class_1_5F4D64A4B97E38F9* a2)
 		{

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FateRinKeywordMatchMode_TypeDefinitionIndex = 23588;
+	inline static constexpr unsigned int FateRinKeywordMatchMode_TypeDefinitionIndex = 24173;
 
 	enum class FateRinKeywordMatchMode : ::System::Int32
 	{

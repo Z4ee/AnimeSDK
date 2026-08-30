@@ -9,11 +9,11 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client::FateRin::Battle
 {
-	inline static constexpr unsigned int FateRinBattleHudEnemyAggregatedStatusListViewModel___c__DisplayClass3_0_TypeDefinitionIndex = 75949;
+	inline static constexpr unsigned int FateRinBattleHudEnemyAggregatedStatusListViewModel___c__DisplayClass3_0_TypeDefinitionIndex = 79582;
 
 	struct alignas(8) FateRinBattleHudEnemyAggregatedStatusListViewModel___c__DisplayClass3_0
 	{
-		::System::Collections::Generic::Dictionary_2<::Class_1_42D96751C1376DDB*, ::RPG::Client::FateRin::Battle::IFateRinBattleStatusViewModel*>* oldMap; // 0x10
-		::RPG::Client::FateRin::Battle::FateRinBattleHudEnemyAggregatedStatusListViewModel* __4__this; // 0x18
+		::RPG::Client::FateRin::Battle::FateRinBattleHudEnemyAggregatedStatusListViewModel* __4__this; // 0x10
+		::System::Collections::Generic::Dictionary_2<::Class_1_42D96751C1376DDB*, ::RPG::Client::FateRin::Battle::IFateRinBattleStatusViewModel*>* oldMap; // 0x18
 	};
 }

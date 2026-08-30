@@ -5,24 +5,24 @@
 namespace RPG::Client::FateRin::Card { class IFateRinSystemCardViewModel; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_FATERIN_CARD_FATERINHANDBOOKCARDOWNERVIEWMODEL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B4A5620)
-#define RPG_CLIENT_FATERIN_CARD_FATERINHANDBOOKCARDOWNERVIEWMODEL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4A5660)
-#define RPG_CLIENT_FATERIN_CARD_FATERINHANDBOOKCARDOWNERVIEWMODEL___C__REFRESHACQUIRE_B__1_0_OFFSET UNITYSDK_OFFSET(0x1B4A5670)
+#define RPG_CLIENT_FATERIN_CARD_FATERINHANDBOOKCARDOWNERVIEWMODEL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CBE9320)
+#define RPG_CLIENT_FATERIN_CARD_FATERINHANDBOOKCARDOWNERVIEWMODEL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1CBE9360)
+#define RPG_CLIENT_FATERIN_CARD_FATERINHANDBOOKCARDOWNERVIEWMODEL___C__REFRESHACQUIRE_B__1_0_OFFSET UNITYSDK_OFFSET(0x1CBE9370)
 
 namespace RPG::Client::FateRin::Card
 {
-	inline static constexpr unsigned int FateRinHandbookCardOwnerViewModel___c_TypeDefinitionIndex = 76222;
+	inline static constexpr unsigned int FateRinHandbookCardOwnerViewModel___c_TypeDefinitionIndex = 79855;
 
 	class FateRinHandbookCardOwnerViewModel___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::FateRin::Card::FateRinHandbookCardOwnerViewModel___c** StaticGet___9()
-		{
-			return (::RPG::Client::FateRin::Card::FateRinHandbookCardOwnerViewModel___c**)Il2CppClass::FromTypeDefinitionIndex(FateRinHandbookCardOwnerViewModel___c_TypeDefinitionIndex)->GetStaticField(0x8E80);
-		}
 		static ::System::Func_2<::RPG::Client::FateRin::Card::IFateRinSystemCardViewModel*, ::System::Boolean>** StaticGet___9__1_0()
 		{
-			return (::System::Func_2<::RPG::Client::FateRin::Card::IFateRinSystemCardViewModel*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(FateRinHandbookCardOwnerViewModel___c_TypeDefinitionIndex)->GetStaticField(0x8E88);
+			return (::System::Func_2<::RPG::Client::FateRin::Card::IFateRinSystemCardViewModel*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(FateRinHandbookCardOwnerViewModel___c_TypeDefinitionIndex)->GetStaticField(0x3660);
+		}
+		static ::RPG::Client::FateRin::Card::FateRinHandbookCardOwnerViewModel___c** StaticGet___9()
+		{
+			return (::RPG::Client::FateRin::Card::FateRinHandbookCardOwnerViewModel___c**)Il2CppClass::FromTypeDefinitionIndex(FateRinHandbookCardOwnerViewModel___c_TypeDefinitionIndex)->GetStaticField(0x3668);
 		}
 
 		static ::System::Void _cctor()

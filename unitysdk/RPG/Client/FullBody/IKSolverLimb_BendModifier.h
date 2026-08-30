@@ -3,7 +3,7 @@
 
 namespace RPG::Client::FullBody
 {
-	inline static constexpr unsigned int IKSolverLimb_BendModifier_TypeDefinitionIndex = 70867;
+	inline static constexpr unsigned int IKSolverLimb_BendModifier_TypeDefinitionIndex = 74166;
 
 	enum class IKSolverLimb_BendModifier : ::System::Int32
 	{

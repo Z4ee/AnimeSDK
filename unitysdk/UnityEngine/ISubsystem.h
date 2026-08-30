@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ISubsystem_TypeDefinitionIndex = 5813;
+	inline static constexpr unsigned int ISubsystem_TypeDefinitionIndex = 5823;
 
 	class ISubsystem
 	{

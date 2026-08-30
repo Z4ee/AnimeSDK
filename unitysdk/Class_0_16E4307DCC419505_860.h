@@ -1,11 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/DateTimePro.h"
 
+class Class_0_16E4307DCC419505_854;
 namespace System { class String; }
-namespace System::Collections::Generic { template <typename T> class List_1; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_860_TypeDefinitionIndex = 63622;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_860_TypeDefinitionIndex = 64610;
 
 class Class_0_16E4307DCC419505_860
 {

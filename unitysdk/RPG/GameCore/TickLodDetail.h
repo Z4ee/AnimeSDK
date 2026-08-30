@@ -4,21 +4,21 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_TICKLODDETAIL_METHOD_3_67D0A2D2D82618C3_OFFSET UNITYSDK_OFFSET(0x1C14FC90)
-#define RPG_GAMECORE_TICKLODDETAIL_METHOD_3_C8697E74CEC4167C_OFFSET UNITYSDK_OFFSET(0x1C14FD20)
-#define RPG_GAMECORE_TICKLODDETAIL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C150150)
-#define RPG_GAMECORE_TICKLODDETAIL__CTOR_OFFSET UNITYSDK_OFFSET(0x1C14FD00)
+#define RPG_GAMECORE_TICKLODDETAIL_METHOD_3_67D0A2D2D82618C3_OFFSET UNITYSDK_OFFSET(0x1E1D59C0)
+#define RPG_GAMECORE_TICKLODDETAIL_METHOD_3_C8697E74CEC4167C_OFFSET UNITYSDK_OFFSET(0x1E1D5A50)
+#define RPG_GAMECORE_TICKLODDETAIL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E1D5E80)
+#define RPG_GAMECORE_TICKLODDETAIL__CTOR_OFFSET UNITYSDK_OFFSET(0x1E1D5A30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TickLodDetail_TypeDefinitionIndex = 18466;
+	inline static constexpr unsigned int TickLodDetail_TypeDefinitionIndex = 18991;
 
 	class TickLodDetail : public ::RPG::GameCore::LodDetail
 	{
 	public:
 		static ::RPG::GameCore::TickLodDetail** StaticGet_ForbidTickDetail()
 		{
-			return (::RPG::GameCore::TickLodDetail**)Il2CppClass::FromTypeDefinitionIndex(TickLodDetail_TypeDefinitionIndex)->GetStaticField(0xC5D0);
+			return (::RPG::GameCore::TickLodDetail**)Il2CppClass::FromTypeDefinitionIndex(TickLodDetail_TypeDefinitionIndex)->GetStaticField(0x2A290);
 		}
 		// static const ::System::UInt32 LOD0_TICK_INTERVAL = 0x1; // 0x0
 		// static const ::System::UInt32 LOD1_TICK_INTERVAL = 0x2; // 0x0

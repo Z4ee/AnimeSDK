@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace Spine
 {
-	inline static constexpr unsigned int TextureLoader_TypeDefinitionIndex = 37492;
+	inline static constexpr unsigned int TextureLoader_TypeDefinitionIndex = 38351;
 
 	class TextureLoader
 	{

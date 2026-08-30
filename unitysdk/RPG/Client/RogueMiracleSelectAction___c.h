@@ -5,24 +5,24 @@
 namespace RPG::Client { class RogueTournMiracleData; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ROGUEMIRACLESELECTACTION___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19A27D10)
-#define RPG_CLIENT_ROGUEMIRACLESELECTACTION___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19A27D40)
-#define RPG_CLIENT_ROGUEMIRACLESELECTACTION___C___REPORTSELECTMIRACLE_B__30_0_OFFSET UNITYSDK_OFFSET(0x19A27D50)
+#define RPG_CLIENT_ROGUEMIRACLESELECTACTION___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B9E5080)
+#define RPG_CLIENT_ROGUEMIRACLESELECTACTION___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9E50C0)
+#define RPG_CLIENT_ROGUEMIRACLESELECTACTION___C___REPORTSELECTMIRACLE_B__30_0_OFFSET UNITYSDK_OFFSET(0x1B9E50D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueMiracleSelectAction___c_TypeDefinitionIndex = 64039;
+	inline static constexpr unsigned int RogueMiracleSelectAction___c_TypeDefinitionIndex = 67030;
 
 	class RogueMiracleSelectAction___c : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::RogueMiracleSelectAction___c** StaticGet___9()
 		{
-			return (::RPG::Client::RogueMiracleSelectAction___c**)Il2CppClass::FromTypeDefinitionIndex(RogueMiracleSelectAction___c_TypeDefinitionIndex)->GetStaticField(0x26DB0);
+			return (::RPG::Client::RogueMiracleSelectAction___c**)Il2CppClass::FromTypeDefinitionIndex(RogueMiracleSelectAction___c_TypeDefinitionIndex)->GetStaticField(0xAE20);
 		}
 		static ::System::Func_2<::RPG::Client::RogueTournMiracleData*, ::System::Boolean>** StaticGet___9__30_0()
 		{
-			return (::System::Func_2<::RPG::Client::RogueTournMiracleData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(RogueMiracleSelectAction___c_TypeDefinitionIndex)->GetStaticField(0x26DB8);
+			return (::System::Func_2<::RPG::Client::RogueTournMiracleData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(RogueMiracleSelectAction___c_TypeDefinitionIndex)->GetStaticField(0xAE28);
 		}
 
 		static ::System::Void _cctor()

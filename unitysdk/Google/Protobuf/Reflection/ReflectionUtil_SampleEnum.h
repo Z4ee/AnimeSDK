@@ -3,7 +3,7 @@
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int ReflectionUtil_SampleEnum_TypeDefinitionIndex = 5574;
+	inline static constexpr unsigned int ReflectionUtil_SampleEnum_TypeDefinitionIndex = 5563;
 
 	enum class ReflectionUtil_SampleEnum : ::System::Int32
 	{

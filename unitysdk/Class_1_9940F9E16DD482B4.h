@@ -7,21 +7,21 @@
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_9940F9E16DD482B4_METHOD_1_AA169839CB93802A_OFFSET UNITYSDK_OFFSET(0x176B1A30)
-#define CLASS_1_9940F9E16DD482B4__CTOR_OFFSET UNITYSDK_OFFSET(0x176B1B30)
+#define CLASS_1_9940F9E16DD482B4_METHOD_1_AA169839CB93802A_OFFSET UNITYSDK_OFFSET(0x17DB8240)
+#define CLASS_1_9940F9E16DD482B4__CTOR_OFFSET UNITYSDK_OFFSET(0x17DB8340)
 
-inline static constexpr unsigned int Class_1_9940F9E16DD482B4_TypeDefinitionIndex = 59522;
+inline static constexpr unsigned int Class_1_9940F9E16DD482B4_TypeDefinitionIndex = 62361;
 
 class Class_1_9940F9E16DD482B4 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::RPG::Client::AlleyLineDirectionEnum>* Field_1_0; // 0x10
-	::System::Collections::Generic::List_1<::System::UInt32>* Field_1_1; // 0x18
-	::System::Collections::Generic::List_1<::UnityEngine::Vector2Int>* Field_1_2; // 0x20
-	::System::Collections::Generic::HashSet_1<::System::UInt32>* Field_1_3; // 0x28
-	::System::UInt32 Field_1_4; // 0x30
-	::System::UInt32 Field_1_5; // 0x34
-	::System::UInt32 Field_1_6; // 0x38
+	::System::Collections::Generic::List_1<::RPG::Client::AlleyLineDirectionEnum>* BPCADEMEGNP; // 0x10
+	::System::Collections::Generic::List_1<::System::UInt32>* CDBBEHEBLDI; // 0x18
+	::System::Collections::Generic::List_1<::UnityEngine::Vector2Int>* EMHKGDCFGPP; // 0x20
+	::System::Collections::Generic::HashSet_1<::System::UInt32>* LAIDAIAJMFF; // 0x28
+	::System::UInt32 CJHLDCAGKND; // 0x30
+	::System::UInt32 EBNNNMFGHBJ; // 0x34
+	::System::UInt32 ANHEOHPNKKC; // 0x38
 
 	::System::Void _ctor()
 	{

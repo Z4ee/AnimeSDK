@@ -6,23 +6,23 @@ namespace RPG::Client { class LuaUIController; }
 namespace RPG::GameCore { class OpenMusicRhythmReadyPage; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_2_706F333831CDF3C8_DISPOSE_OFFSET UNITYSDK_OFFSET(0x164595F0)
-#define CLASS_2_706F333831CDF3C8_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16459630)
-#define CLASS_2_706F333831CDF3C8_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x16459A30)
-#define CLASS_2_706F333831CDF3C8_TICK_OFFSET UNITYSDK_OFFSET(0x16459A80)
-#define CLASS_2_706F333831CDF3C8__CTOR_OFFSET UNITYSDK_OFFSET(0x164595E0)
+#define CLASS_2_706F333831CDF3C8_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16BEFDF0)
+#define CLASS_2_706F333831CDF3C8_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16BEFE30)
+#define CLASS_2_706F333831CDF3C8_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x16BF0230)
+#define CLASS_2_706F333831CDF3C8_TICK_OFFSET UNITYSDK_OFFSET(0x16BF0280)
+#define CLASS_2_706F333831CDF3C8__CTOR_OFFSET UNITYSDK_OFFSET(0x16BEFDE0)
 
-inline static constexpr unsigned int Class_2_706F333831CDF3C8_TypeDefinitionIndex = 50631;
+inline static constexpr unsigned int Class_2_706F333831CDF3C8_TypeDefinitionIndex = 53312;
 
 class Class_2_706F333831CDF3C8 : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::RPG::GameCore::TaskContext* Field_2_0; // 0x18
-	::RPG::GameCore::OpenMusicRhythmReadyPage* Field_2_1; // 0x20
-	::RPG::Client::LuaUIController* Field_2_2; // 0x28
-	::System::Single Field_2_3; // 0x30
-	::System::Single Field_2_4; // 0x34
-	::System::Boolean Field_2_5; // 0x38
+	::RPG::GameCore::OpenMusicRhythmReadyPage* IGHAHBNLIJA; // 0x18
+	::RPG::Client::LuaUIController* NNHPFIOCJLN; // 0x20
+	::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x28
+	::System::Single BPLPMMOBBHJ; // 0x30
+	::System::Single PGMIOKKLHIE; // 0x34
+	::System::Boolean AKKBAEEOCPB; // 0x38
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::OpenMusicRhythmReadyPage* a2)
 	{

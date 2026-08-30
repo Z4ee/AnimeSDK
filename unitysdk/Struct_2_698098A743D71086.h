@@ -2,15 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define STRUCT_2_698098A743D71086__CTOR_OFFSET UNITYSDK_OFFSET(0x397EFE0)
+#define STRUCT_2_698098A743D71086__CTOR_OFFSET UNITYSDK_OFFSET(0x3A36F10)
 
-inline static constexpr unsigned int Struct_2_698098A743D71086_TypeDefinitionIndex = 55014;
+inline static constexpr unsigned int Struct_2_698098A743D71086_TypeDefinitionIndex = 57738;
 
 struct alignas(4) Struct_2_698098A743D71086
 {
-	::System::Int32 Field_2_0; // 0x10
-	::System::Boolean Field_2_1; // 0x14
-	::System::Boolean Field_2_2; // 0x15
+	::System::Int32 GNNEFOIBAKH; // 0x10
+	::System::Boolean GBDLCNEBHAP; // 0x14
+	::System::Boolean FEPBDLMGNDP; // 0x15
 
 	::System::Void _ctor(::System::Int32 a1, ::System::Boolean a2, ::System::Boolean a3)
 	{

@@ -5,16 +5,16 @@
 class Class_1_D8BECDCE48063EC7;
 namespace RPG::GameCore { class DiceCombatTaskConfig_ClearCustomValue; }
 
-#define CLASS_2_1C5CB077B5C14C8A_METHOD_2_52607DE4C357D269_OFFSET UNITYSDK_OFFSET(0x18165000)
-#define CLASS_2_1C5CB077B5C14C8A__CTOR_OFFSET UNITYSDK_OFFSET(0x18164FF0)
+#define CLASS_2_1C5CB077B5C14C8A_METHOD_2_52607DE4C357D269_OFFSET UNITYSDK_OFFSET(0x19D2B910)
+#define CLASS_2_1C5CB077B5C14C8A__CTOR_OFFSET UNITYSDK_OFFSET(0x19D2B900)
 
-inline static constexpr unsigned int Class_2_1C5CB077B5C14C8A_TypeDefinitionIndex = 34817;
+inline static constexpr unsigned int Class_2_1C5CB077B5C14C8A_TypeDefinitionIndex = 35678;
 
 class Class_2_1C5CB077B5C14C8A : public ::Class_1_B55037134F9E6688
 {
 public:
-	::Class_1_D8BECDCE48063EC7* Field_2_0; // 0x18
-	::RPG::GameCore::DiceCombatTaskConfig_ClearCustomValue* Field_2_1; // 0x20
+	::RPG::GameCore::DiceCombatTaskConfig_ClearCustomValue* IGHAHBNLIJA; // 0x18
+	::Class_1_D8BECDCE48063EC7* EEFMDEHLLFI; // 0x20
 
 	::System::Void _ctor(::RPG::GameCore::DiceCombatTaskConfig_ClearCustomValue* a1, ::Class_1_D8BECDCE48063EC7* a2)
 	{

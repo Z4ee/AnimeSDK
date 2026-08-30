@@ -8,29 +8,29 @@
 namespace RPG::GameCore { class AdventureCharacterController; }
 namespace RPG::GameCore { class FreeStyleComponent; }
 
-#define CLASS_2_C3D3E8257C42D63E_METHOD_2_218124418542E081_OFFSET UNITYSDK_OFFSET(0x18239D90)
-#define CLASS_2_C3D3E8257C42D63E_METHOD_2_4352493581638AE1_OFFSET UNITYSDK_OFFSET(0x18239970)
-#define CLASS_2_C3D3E8257C42D63E_METHOD_2_8D595942D57F40CD_OFFSET UNITYSDK_OFFSET(0x18239AB0)
-#define CLASS_2_C3D3E8257C42D63E_METHOD_2_9681042564541CD6_1_OFFSET UNITYSDK_OFFSET(0x1823A300)
-#define CLASS_2_C3D3E8257C42D63E_METHOD_2_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0x1823A270)
-#define CLASS_2_C3D3E8257C42D63E_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x1823A390)
-#define CLASS_2_C3D3E8257C42D63E__CTOR_OFFSET UNITYSDK_OFFSET(0x1823A3E0)
+#define CLASS_2_C3D3E8257C42D63E_METHOD_2_218124418542E081_OFFSET UNITYSDK_OFFSET(0x19B5FCC0)
+#define CLASS_2_C3D3E8257C42D63E_METHOD_2_4352493581638AE1_OFFSET UNITYSDK_OFFSET(0x19B5F8A0)
+#define CLASS_2_C3D3E8257C42D63E_METHOD_2_8D595942D57F40CD_OFFSET UNITYSDK_OFFSET(0x19B5F9E0)
+#define CLASS_2_C3D3E8257C42D63E_METHOD_2_9681042564541CD6_1_OFFSET UNITYSDK_OFFSET(0x19B60230)
+#define CLASS_2_C3D3E8257C42D63E_METHOD_2_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0x19B601A0)
+#define CLASS_2_C3D3E8257C42D63E_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x19B602C0)
+#define CLASS_2_C3D3E8257C42D63E__CTOR_OFFSET UNITYSDK_OFFSET(0x19B60310)
 
-inline static constexpr unsigned int Class_2_C3D3E8257C42D63E_TypeDefinitionIndex = 54431;
+inline static constexpr unsigned int Class_2_C3D3E8257C42D63E_TypeDefinitionIndex = 57152;
 
 class Class_2_C3D3E8257C42D63E : public ::Class_1_C974D9B5A2874893_1
 {
 public:
-	// static const ::System::Single Field_2_0; // 0x0
-	// static const ::System::Single Field_2_1; // 0x0
-	::RPG::GameCore::FreeStyleComponent* Field_2_2; // 0x28
-	::RPG::GameCore::AdventureCharacterController* Field_2_3; // 0x30
-	::System::UInt32 Field_2_4; // 0x38
-	::System::Boolean Field_2_5; // 0x3C
-	::System::Nullable_1<::UnityEngine::Vector3> Field_2_6; // 0x40
-	::System::Single Field_2_7; // 0x50
-	::System::Nullable_1<::UnityEngine::Quaternion> Field_2_8; // 0x54
-	::System::Single Field_2_9; // 0x68
+	// static const ::System::Single FOJFHNENCHJ; // 0x0
+	// static const ::System::Single DGBGMMKGMHF; // 0x0
+	::RPG::GameCore::AdventureCharacterController* CACEADPJLPB; // 0x28
+	::RPG::GameCore::FreeStyleComponent* KADINPKIGIB; // 0x30
+	::System::Boolean OAPHDBCJOPJ; // 0x38
+	::System::UInt32 EBJLPAFFKOM; // 0x3C
+	::System::Single HDKKECHDBCN; // 0x40
+	::System::Nullable_1<::UnityEngine::Quaternion> HACHBGJADBI; // 0x44
+	::System::Nullable_1<::UnityEngine::Vector3> HGCCAGKEONO; // 0x58
+	::System::Single HBDJCFFDGDD; // 0x68
 
 	::System::Void _ctor()
 	{

@@ -3,7 +3,7 @@
 
 namespace System::Diagnostics::Tracing
 {
-	inline static constexpr unsigned int EventTask_TypeDefinitionIndex = 1706;
+	inline static constexpr unsigned int EventTask_TypeDefinitionIndex = 1713;
 
 	enum class EventTask : ::System::Int32
 	{

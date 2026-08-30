@@ -4,16 +4,16 @@
 
 namespace RPG::Client::Promises { class IPromise; }
 
-#define CLASS_1_30738BDCBF17D632_METHOD_1_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0x160371E0)
-#define CLASS_1_30738BDCBF17D632__CTOR_OFFSET UNITYSDK_OFFSET(0x160370F0)
-#define CLASS_1_30738BDCBF17D632___CTOR_B__0_0_OFFSET UNITYSDK_OFFSET(0x16037220)
+#define CLASS_1_30738BDCBF17D632_METHOD_1_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0x16EC6090)
+#define CLASS_1_30738BDCBF17D632__CTOR_OFFSET UNITYSDK_OFFSET(0x16EC5FA0)
+#define CLASS_1_30738BDCBF17D632___CTOR_B__0_0_OFFSET UNITYSDK_OFFSET(0x16EC60D0)
 
-inline static constexpr unsigned int Class_1_30738BDCBF17D632_TypeDefinitionIndex = 56633;
+inline static constexpr unsigned int Class_1_30738BDCBF17D632_TypeDefinitionIndex = 59418;
 
 class Class_1_30738BDCBF17D632 : public ::System::Object
 {
 public:
-	::System::Boolean Field_1_0; // 0x10
+	::System::Boolean INJJGMIGFFD; // 0x10
 
 	::System::Void _ctor(::RPG::Client::Promises::IPromise* a1)
 	{

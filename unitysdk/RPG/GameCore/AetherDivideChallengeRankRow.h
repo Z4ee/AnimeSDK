@@ -6,24 +6,24 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_AETHERDIVIDECHALLENGERANKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1AE67FE0)
-#define RPG_GAMECORE_AETHERDIVIDECHALLENGERANKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE68750)
+#define RPG_GAMECORE_AETHERDIVIDECHALLENGERANKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CBC3E60)
+#define RPG_GAMECORE_AETHERDIVIDECHALLENGERANKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CBC4610)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AetherDivideChallengeRankRow_TypeDefinitionIndex = 10559;
+	inline static constexpr unsigned int AetherDivideChallengeRankRow_TypeDefinitionIndex = 10900;
 
 	class AetherDivideChallengeRankRow : public ::System::Object
 	{
 	public:
 		::System::String* IconPath; // 0x10
-		::System::UInt32 TrainerLevel; // 0x18
+		::System::UInt32 FunctionUnlockID; // 0x18
 		::System::Boolean IsHard; // 0x1C
-		::System::UInt32 PreRank; // 0x20
+		::System::UInt32 TrainerLevel; // 0x20
 		::System::UInt32 ActivityModuleID; // 0x24
-		::System::UInt32 FunctionUnlockID; // 0x28
-		::System::UInt32 ChallengeRank; // 0x2C
-		::RPG::Client::TextID UnlockText; // 0x30
+		::RPG::Client::TextID UnlockText; // 0x28
+		::System::UInt32 PreRank; // 0x38
+		::System::UInt32 ChallengeRank; // 0x3C
 
 		::System::Void _ctor()
 		{

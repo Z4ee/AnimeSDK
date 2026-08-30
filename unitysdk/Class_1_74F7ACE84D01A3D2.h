@@ -14,29 +14,29 @@ namespace RPG::GameCore { class TurnBasedModifierConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_74F7ACE84D01A3D2_METHOD_1_3AFB9161A312E02B_OFFSET UNITYSDK_OFFSET(0x16754B00)
-#define CLASS_1_74F7ACE84D01A3D2_METHOD_1_5F6398776E49CD87_OFFSET UNITYSDK_OFFSET(0x167568A0)
-#define CLASS_1_74F7ACE84D01A3D2_METHOD_1_8CAE712CA4907C2B_OFFSET UNITYSDK_OFFSET(0x16756770)
-#define CLASS_1_74F7ACE84D01A3D2_METHOD_1_90B222B995FC0D1A_OFFSET UNITYSDK_OFFSET(0x16755600)
-#define CLASS_1_74F7ACE84D01A3D2_METHOD_1_D8E6DC0B27699F85_OFFSET UNITYSDK_OFFSET(0x167554B0)
-#define CLASS_1_74F7ACE84D01A3D2__CTOR_OFFSET UNITYSDK_OFFSET(0x16756900)
+#define CLASS_1_74F7ACE84D01A3D2_METHOD_1_3AFB9161A312E02B_OFFSET UNITYSDK_OFFSET(0x17917800)
+#define CLASS_1_74F7ACE84D01A3D2_METHOD_1_5F6398776E49CD87_OFFSET UNITYSDK_OFFSET(0x179195B0)
+#define CLASS_1_74F7ACE84D01A3D2_METHOD_1_8CAE712CA4907C2B_OFFSET UNITYSDK_OFFSET(0x17919480)
+#define CLASS_1_74F7ACE84D01A3D2_METHOD_1_90B222B995FC0D1A_OFFSET UNITYSDK_OFFSET(0x17918320)
+#define CLASS_1_74F7ACE84D01A3D2_METHOD_1_D8E6DC0B27699F85_OFFSET UNITYSDK_OFFSET(0x179181C0)
+#define CLASS_1_74F7ACE84D01A3D2__CTOR_OFFSET UNITYSDK_OFFSET(0x17919610)
 
-inline static constexpr unsigned int Class_1_74F7ACE84D01A3D2_TypeDefinitionIndex = 54417;
+inline static constexpr unsigned int Class_1_74F7ACE84D01A3D2_TypeDefinitionIndex = 57138;
 
 class Class_1_74F7ACE84D01A3D2 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::Struct_2_DF9778AC478FFF27>* Field_1_0; // 0x10
-	::System::String* Field_1_1; // 0x18
-	::RPG::GameCore::AvatarEnergyBarState* Field_1_2; // 0x20
-	::Class_1_70697F531F566942_2* Field_1_3; // 0x28
-	::System::Int32 Field_1_4; // 0x30
-	::RPG::GameCore::EnumStatusTypeMask Field_1_5; // 0x34
-	::RPG::GameCore::SaveCharacterStateMask Field_1_6; // 0x38
-	::System::Int32 Field_1_7; // 0x3C
-	::RPG::GameCore::FixPoint Field_1_8; // 0x40
-	::RPG::GameCore::FixPoint Field_1_9; // 0x48
-	::RPG::GameCore::FixPoint Field_1_10; // 0x50
+	::Class_1_70697F531F566942_2* DFGDPDPNPPL; // 0x10
+	::System::String* MKGLDELKOJF; // 0x18
+	::RPG::GameCore::AvatarEnergyBarState* OKBLGLLJGPO; // 0x20
+	::System::Collections::Generic::List_1<::Struct_2_DF9778AC478FFF27>* HFGCJNINKJH; // 0x28
+	::RPG::GameCore::FixPoint LCPFMGPBMMG; // 0x30
+	::RPG::GameCore::EnumStatusTypeMask JAPDAFFPAOE; // 0x38
+	::System::Int32 EDGGKIMJPOM; // 0x3C
+	::RPG::GameCore::FixPoint EMFGEFNHOIB; // 0x40
+	::System::Int32 PKICDFAEPKE; // 0x48
+	::RPG::GameCore::SaveCharacterStateMask BHLJCGNGLMI; // 0x4C
+	::RPG::GameCore::FixPoint DLBPEEGBIBA; // 0x50
 
 	::System::Void _ctor()
 	{

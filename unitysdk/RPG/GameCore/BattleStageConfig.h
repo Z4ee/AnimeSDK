@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_BATTLESTAGECONFIG_METHOD_2_E47ED9A0CE93B675_OFFSET UNITYSDK_OFFSET(0x1A3F8A70)
-#define RPG_GAMECORE_BATTLESTAGECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3F8BE0)
+#define RPG_GAMECORE_BATTLESTAGECONFIG_METHOD_2_E47ED9A0CE93B675_OFFSET UNITYSDK_OFFSET(0x1B3066B0)
+#define RPG_GAMECORE_BATTLESTAGECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B306820)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleStageConfig_TypeDefinitionIndex = 15751;
+	inline static constexpr unsigned int BattleStageConfig_TypeDefinitionIndex = 16227;
 
 	class BattleStageConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -5,17 +5,17 @@
 
 class Class_1_F0BC55524B5D6A07_Section;
 
-#define RPG_EDITOR_BGCURVEPCG_EXTRUSIONMESH_GEOMETRYSETTING__CCTOR_OFFSET UNITYSDK_OFFSET(0x106B7680)
+#define RPG_EDITOR_BGCURVEPCG_EXTRUSIONMESH_GEOMETRYSETTING__CCTOR_OFFSET UNITYSDK_OFFSET(0x1683E5F0)
 
 namespace RPG::Editor
 {
-	inline static constexpr unsigned int BGCurvePCG_ExtrusionMesh_GeometrySetting_TypeDefinitionIndex = 49653;
+	inline static constexpr unsigned int BGCurvePCG_ExtrusionMesh_GeometrySetting_TypeDefinitionIndex = 52311;
 
 	struct alignas(8) BGCurvePCG_ExtrusionMesh_GeometrySetting
 	{
 		static ::RPG::Editor::BGCurvePCG_ExtrusionMesh_GeometrySetting* StaticGet_init()
 		{
-			return (::RPG::Editor::BGCurvePCG_ExtrusionMesh_GeometrySetting*)Il2CppClass::FromTypeDefinitionIndex(BGCurvePCG_ExtrusionMesh_GeometrySetting_TypeDefinitionIndex)->GetStaticField(0x56ED0);
+			return (::RPG::Editor::BGCurvePCG_ExtrusionMesh_GeometrySetting*)Il2CppClass::FromTypeDefinitionIndex(BGCurvePCG_ExtrusionMesh_GeometrySetting_TypeDefinitionIndex)->GetStaticField(0x64DA0);
 		}
 		::UnityEngine::Vector2 Range; // 0x10
 		::System::Single MeshSplit; // 0x18

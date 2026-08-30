@@ -4,20 +4,20 @@
 
 namespace System { class String; }
 
-#define CLASS_1_B7039134DC553D20_CLASS_1_593B89773C2BA19D_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x1468B210)
-#define CLASS_1_B7039134DC553D20_CLASS_1_593B89773C2BA19D__CTOR_OFFSET UNITYSDK_OFFSET(0x1468B270)
+#define CLASS_1_B7039134DC553D20_CLASS_1_593B89773C2BA19D_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x11E99990)
+#define CLASS_1_B7039134DC553D20_CLASS_1_593B89773C2BA19D__CTOR_OFFSET UNITYSDK_OFFSET(0x11E8E7C0)
 
-inline static constexpr unsigned int Class_1_B7039134DC553D20_Class_1_593B89773C2BA19D_TypeDefinitionIndex = 57326;
+inline static constexpr unsigned int Class_1_B7039134DC553D20_Class_1_593B89773C2BA19D_TypeDefinitionIndex = 60124;
 
 class Class_1_B7039134DC553D20_Class_1_593B89773C2BA19D : public ::System::Object
 {
 public:
-	::System::String* Field_1_0; // 0x10
-	::System::Int32 Field_1_1; // 0x18
-	::System::Int32 Field_1_2; // 0x1C
-	::System::Int32 Field_1_3; // 0x20
-	::System::Int32 Field_1_4; // 0x24
-	::System::Int32 Field_1_5; // 0x28
+	::System::String* DAIANGHGOLL; // 0x10
+	::System::Int32 LNINPPNDFMF; // 0x18
+	::System::Int32 DOBKKDIECDO; // 0x1C
+	::System::Int32 KPMGKCOBHPB; // 0x20
+	::System::Int32 NJIOMOHBILM; // 0x24
+	::System::Int32 FIMNPJLNLEE; // 0x28
 
 	::System::Void _ctor()
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DecalType_TypeDefinitionIndex = 16801;
+	inline static constexpr unsigned int DecalType_TypeDefinitionIndex = 17303;
 
 	enum class DecalType : ::System::Int32
 	{

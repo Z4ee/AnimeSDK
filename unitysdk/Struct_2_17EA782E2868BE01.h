@@ -5,10 +5,10 @@
 
 class Class_1_503F91D5A9A9E6E5;
 
-inline static constexpr unsigned int Struct_2_17EA782E2868BE01_TypeDefinitionIndex = 51769;
+inline static constexpr unsigned int Struct_2_17EA782E2868BE01_TypeDefinitionIndex = 54453;
 
 struct alignas(8) Struct_2_17EA782E2868BE01
 {
-	::Class_1_503F91D5A9A9E6E5* Field_2_0; // 0x10
-	::RPG::GameCore::FixPoint Field_2_1; // 0x18
+	::Class_1_503F91D5A9A9E6E5* AJGJAKADJGK; // 0x10
+	::RPG::GameCore::FixPoint MNAKIEOGPDK; // 0x18
 };

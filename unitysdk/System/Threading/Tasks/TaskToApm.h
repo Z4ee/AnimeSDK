@@ -6,13 +6,13 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System::Threading::Tasks { class Task; }
 
-#define SYSTEM_THREADING_TASKS_TASKTOAPM_BEGIN_OFFSET UNITYSDK_OFFSET(0x1A736520)
-#define SYSTEM_THREADING_TASKS_TASKTOAPM_END_OFFSET UNITYSDK_OFFSET(0x1A7366E0)
-#define SYSTEM_THREADING_TASKS_TASKTOAPM_INVOKECALLBACKWHENTASKCOMPLETES_OFFSET UNITYSDK_OFFSET(0x1A736650)
+#define SYSTEM_THREADING_TASKS_TASKTOAPM_BEGIN_OFFSET UNITYSDK_OFFSET(0x1C6676D0)
+#define SYSTEM_THREADING_TASKS_TASKTOAPM_END_OFFSET UNITYSDK_OFFSET(0x1C667890)
+#define SYSTEM_THREADING_TASKS_TASKTOAPM_INVOKECALLBACKWHENTASKCOMPLETES_OFFSET UNITYSDK_OFFSET(0x1C667800)
 
 namespace System::Threading::Tasks
 {
-	inline static constexpr unsigned int TaskToApm_TypeDefinitionIndex = 928;
+	inline static constexpr unsigned int TaskToApm_TypeDefinitionIndex = 934;
 
 	class TaskToApm : public ::System::Object
 	{

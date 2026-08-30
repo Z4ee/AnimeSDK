@@ -8,7 +8,7 @@ namespace System { class String; }
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int LevelGraphService_1_TypeDefinitionIndex = 72582;
+	inline static constexpr unsigned int LevelGraphService_1_TypeDefinitionIndex = 76018;
 
 	template <typename TEntity>
 	class LevelGraphService_1 : public ::System::Object

@@ -8,7 +8,7 @@ namespace System { class Object; }
 
 namespace UnityEngine::GCFreeClosure
 {
-	inline static constexpr unsigned int ActionByRef_2_TypeDefinitionIndex = 4449;
+	inline static constexpr unsigned int ActionByRef_2_TypeDefinitionIndex = 4459;
 
 	template <typename T1, typename T2>
 	class ActionByRef_2 : public ::System::MulticastDelegate

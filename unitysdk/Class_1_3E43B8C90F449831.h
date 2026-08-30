@@ -8,25 +8,25 @@ namespace UnityEngine { class RenderTexture; }
 namespace UnityEngine { class Terrain; }
 namespace UnityEngine { class Texture; }
 
-#define CLASS_1_3E43B8C90F449831_METHOD_1_644AA24637795EC3_OFFSET UNITYSDK_OFFSET(0x14CEA820)
-#define CLASS_1_3E43B8C90F449831_METHOD_1_8FA86B540E6E57B6_OFFSET UNITYSDK_OFFSET(0x14CEA760)
-#define CLASS_1_3E43B8C90F449831_METHOD_1_CAEDF2C3C4D2530A_OFFSET UNITYSDK_OFFSET(0x14CEA7E0)
-#define CLASS_1_3E43B8C90F449831_METHOD_1_DCE4F62DCA188C0B_OFFSET UNITYSDK_OFFSET(0x14CEA3F0)
-#define CLASS_1_3E43B8C90F449831_METHOD_1_EEC17F198B0F407C_OFFSET UNITYSDK_OFFSET(0x14CEA870)
-#define CLASS_1_3E43B8C90F449831_METHOD_1_F730968E2645E14B_OFFSET UNITYSDK_OFFSET(0x14CEA6E0)
+#define CLASS_1_3E43B8C90F449831_METHOD_1_644AA24637795EC3_OFFSET UNITYSDK_OFFSET(0x16C06430)
+#define CLASS_1_3E43B8C90F449831_METHOD_1_8FA86B540E6E57B6_OFFSET UNITYSDK_OFFSET(0x16C06370)
+#define CLASS_1_3E43B8C90F449831_METHOD_1_CAEDF2C3C4D2530A_OFFSET UNITYSDK_OFFSET(0x16C063F0)
+#define CLASS_1_3E43B8C90F449831_METHOD_1_DCE4F62DCA188C0B_OFFSET UNITYSDK_OFFSET(0x16C06000)
+#define CLASS_1_3E43B8C90F449831_METHOD_1_EEC17F198B0F407C_OFFSET UNITYSDK_OFFSET(0x16C06480)
+#define CLASS_1_3E43B8C90F449831_METHOD_1_F730968E2645E14B_OFFSET UNITYSDK_OFFSET(0x16C062F0)
 
-inline static constexpr unsigned int Class_1_3E43B8C90F449831_TypeDefinitionIndex = 49441;
+inline static constexpr unsigned int Class_1_3E43B8C90F449831_TypeDefinitionIndex = 52098;
 
 class Class_1_3E43B8C90F449831 : public ::System::Object
 {
 public:
-	static ::UnityEngine::RenderTexture** StaticGet_Field_1_0()
+	static ::UnityEngine::RenderTexture** StaticGet_BOLHAAMHGIM()
 	{
-		return (::UnityEngine::RenderTexture**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3E43B8C90F449831_TypeDefinitionIndex)->GetStaticField(0x6BB40);
+		return (::UnityEngine::RenderTexture**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3E43B8C90F449831_TypeDefinitionIndex)->GetStaticField(0x67700);
 	}
-	static ::System::Boolean* StaticGet_Field_1_1()
+	static ::System::Boolean* StaticGet_JAENOPLFFHA()
 	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_3E43B8C90F449831_TypeDefinitionIndex)->GetStaticField(0x148F0);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_3E43B8C90F449831_TypeDefinitionIndex)->GetStaticField(0x15660);
 	}
 
 	static ::UnityEngine::RenderTexture* Method_1_DCE4F62DCA188C0B()

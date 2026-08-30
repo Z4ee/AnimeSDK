@@ -6,22 +6,22 @@
 namespace System { class String; }
 namespace UnityEngine { class GUILayoutOption; }
 
-#define CLASS_1_D6F7CE49B90DAD0D_METHOD_1_27A3B0E81A55EF85_OFFSET UNITYSDK_OFFSET(0x16B73990)
-#define CLASS_1_D6F7CE49B90DAD0D_METHOD_1_8F537CE539CF0103_OFFSET UNITYSDK_OFFSET(0x16B73850)
-#define CLASS_1_D6F7CE49B90DAD0D_METHOD_1_BB9E84D4A0178E06_OFFSET UNITYSDK_OFFSET(0x16B738F0)
-#define CLASS_1_D6F7CE49B90DAD0D__CTOR_OFFSET UNITYSDK_OFFSET(0x16B737E0)
+#define CLASS_1_D6F7CE49B90DAD0D_METHOD_1_27A3B0E81A55EF85_OFFSET UNITYSDK_OFFSET(0x184DA3A0)
+#define CLASS_1_D6F7CE49B90DAD0D_METHOD_1_8F537CE539CF0103_OFFSET UNITYSDK_OFFSET(0x184DA260)
+#define CLASS_1_D6F7CE49B90DAD0D_METHOD_1_BB9E84D4A0178E06_OFFSET UNITYSDK_OFFSET(0x184DA300)
+#define CLASS_1_D6F7CE49B90DAD0D__CTOR_OFFSET UNITYSDK_OFFSET(0x184DA1F0)
 
-inline static constexpr unsigned int Class_1_D6F7CE49B90DAD0D_TypeDefinitionIndex = 47700;
+inline static constexpr unsigned int Class_1_D6F7CE49B90DAD0D_TypeDefinitionIndex = 49981;
 
 class Class_1_D6F7CE49B90DAD0D : public ::System::Object
 {
 public:
-	::System::String* Field_1_0; // 0x10
-	::Il2CppArray<::System::String*>* Field_1_1; // 0x18
-	::UnityEngine::Vector2 Field_1_2; // 0x20
-	::System::Single Field_1_3; // 0x28
-	::System::Int32 Field_1_4; // 0x2C
-	::System::Boolean Field_1_5; // 0x30
+	::Il2CppArray<::System::String*>* PMNMJEKKIJP; // 0x10
+	::System::String* IOCBBJLGEAJ; // 0x18
+	::System::Boolean LOFJANMAILC; // 0x20
+	::System::Int32 MDBPILHONEH; // 0x24
+	::System::Single KHBCIBHMIOG; // 0x28
+	::UnityEngine::Vector2 BKIHBBGJAPK; // 0x2C
 
 	::System::Void _ctor(::Il2CppArray<::System::String*>* a1, ::System::Int32 a2)
 	{

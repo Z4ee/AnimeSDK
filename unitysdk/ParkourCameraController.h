@@ -8,13 +8,13 @@ namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define PARKOURCAMERACONTROLLER_MANUALEND_OFFSET UNITYSDK_OFFSET(0x17467100)
-#define PARKOURCAMERACONTROLLER_MANUALSTART_OFFSET UNITYSDK_OFFSET(0x17466EC0)
-#define PARKOURCAMERACONTROLLER_MANUALUPDATE_OFFSET UNITYSDK_OFFSET(0x17467150)
-#define PARKOURCAMERACONTROLLER_METHOD_5_E1E0F3E6E754D1F5_OFFSET UNITYSDK_OFFSET(0x17467210)
-#define PARKOURCAMERACONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x17467600)
+#define PARKOURCAMERACONTROLLER_MANUALEND_OFFSET UNITYSDK_OFFSET(0x1ABA7C20)
+#define PARKOURCAMERACONTROLLER_MANUALSTART_OFFSET UNITYSDK_OFFSET(0x1ABA79E0)
+#define PARKOURCAMERACONTROLLER_MANUALUPDATE_OFFSET UNITYSDK_OFFSET(0x1ABA7C70)
+#define PARKOURCAMERACONTROLLER_METHOD_5_E1E0F3E6E754D1F5_OFFSET UNITYSDK_OFFSET(0x1ABA7D30)
+#define PARKOURCAMERACONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1ABA8120)
 
-inline static constexpr unsigned int ParkourCameraController_TypeDefinitionIndex = 45479;
+inline static constexpr unsigned int ParkourCameraController_TypeDefinitionIndex = 47729;
 
 class ParkourCameraController : public ::UnityEngine::MonoBehaviour
 {
@@ -25,10 +25,10 @@ public:
 	::UnityEngine::GameObject* LightView; // 0x30
 	::Cinemachine::CinemachineVirtualCamera* MainCamera; // 0x38
 	::System::Action* OnStartFinish; // 0x40
-	::System::Single Field_5_6; // 0x48
-	::MoveCameraInfo* Field_5_7; // 0x50
-	::System::Boolean Field_5_8; // 0x58
-	::System::Boolean Field_5_9; // 0x59
+	::System::Single GGIGDCEKANO; // 0x48
+	::MoveCameraInfo* PGHJFJJEIIH; // 0x50
+	::System::Boolean DBKLOJEAKJM; // 0x58
+	::System::Boolean FNGEFAFMKDG; // 0x59
 
 	::System::Void _ctor()
 	{

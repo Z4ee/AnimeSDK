@@ -9,17 +9,17 @@ class Class_1_CC72D2EA6D10D002;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define CLASS_1_EBB6432234A39934_METHOD_1_77D0D0A1E9F36A34_OFFSET UNITYSDK_OFFSET(0x18BFD6C0)
-#define CLASS_1_EBB6432234A39934_METHOD_1_FA1FD849F68CAF57_OFFSET UNITYSDK_OFFSET(0x18BFDDC0)
-#define CLASS_1_EBB6432234A39934__CTOR_OFFSET UNITYSDK_OFFSET(0x18BFF050)
+#define CLASS_1_EBB6432234A39934_METHOD_1_77D0D0A1E9F36A34_OFFSET UNITYSDK_OFFSET(0x1A4AED60)
+#define CLASS_1_EBB6432234A39934_METHOD_1_FA1FD849F68CAF57_OFFSET UNITYSDK_OFFSET(0x1A4AF460)
+#define CLASS_1_EBB6432234A39934__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4B06F0)
 
-inline static constexpr unsigned int Class_1_EBB6432234A39934_TypeDefinitionIndex = 39354;
+inline static constexpr unsigned int Class_1_EBB6432234A39934_TypeDefinitionIndex = 40227;
 
 class Class_1_EBB6432234A39934 : public ::System::Object
 {
 public:
-	// static const ::System::UInt16 Field_1_0 = 0x1; // 0x0
-	// static const ::System::String* Field_1_1; // 0x0
+	// static const ::System::UInt16 ABNPHONMCEP = 0x1; // 0x0
+	// static const ::System::String* GJPNNCFPMGK; // 0x0
 
 	::System::Void _ctor()
 	{

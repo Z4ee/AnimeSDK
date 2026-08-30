@@ -4,15 +4,15 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define EDITORLIGHTPREVIEWER_CLASS_1_128EA0FF53AE8A47__CTOR_OFFSET UNITYSDK_OFFSET(0xF187ED0)
+#define EDITORLIGHTPREVIEWER_CLASS_1_128EA0FF53AE8A47__CTOR_OFFSET UNITYSDK_OFFSET(0x10674B10)
 
-inline static constexpr unsigned int EditorLightPreviewer_Class_1_128EA0FF53AE8A47_TypeDefinitionIndex = 45553;
+inline static constexpr unsigned int EditorLightPreviewer_Class_1_128EA0FF53AE8A47_TypeDefinitionIndex = 47803;
 
 class EditorLightPreviewer_Class_1_128EA0FF53AE8A47 : public ::System::Object
 {
 public:
-	::UnityEngine::GameObject* Field_1_0; // 0x10
-	::System::Boolean Field_1_1; // 0x18
+	::UnityEngine::GameObject* PANGKOPAOML; // 0x10
+	::System::Boolean CNBBPGFKLGC; // 0x18
 
 	::System::Void _ctor()
 	{

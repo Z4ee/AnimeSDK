@@ -3,7 +3,7 @@
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriFsLoadFileRequest_Phase_TypeDefinitionIndex = 37953;
+	inline static constexpr unsigned int CriFsLoadFileRequest_Phase_TypeDefinitionIndex = 38812;
 
 	enum class CriFsLoadFileRequest_Phase : ::System::Int32
 	{

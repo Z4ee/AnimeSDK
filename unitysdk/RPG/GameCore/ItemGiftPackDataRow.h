@@ -5,20 +5,20 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ITEMGIFTPACKDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B020B70)
-#define RPG_GAMECORE_ITEMGIFTPACKDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B020D80)
+#define RPG_GAMECORE_ITEMGIFTPACKDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D22E150)
+#define RPG_GAMECORE_ITEMGIFTPACKDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D22E360)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ItemGiftPackDataRow_TypeDefinitionIndex = 13375;
+	inline static constexpr unsigned int ItemGiftPackDataRow_TypeDefinitionIndex = 13766;
 
 	class ItemGiftPackDataRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* RewardList; // 0x10
 		::RPG::Client::TextID GroupDesc; // 0x18
-		::System::UInt32 ID; // 0x28
-		::System::UInt32 GroupID; // 0x2C
+		::System::UInt32 GroupID; // 0x28
+		::System::UInt32 ID; // 0x2C
 
 		::System::Void _ctor()
 		{

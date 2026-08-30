@@ -10,7 +10,7 @@ namespace MessagePack::Formatters { template <typename T> class GenericEnumForma
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int GenericEnumFormatter_1___c_TypeDefinitionIndex = 7394;
+	inline static constexpr unsigned int GenericEnumFormatter_1___c_TypeDefinitionIndex = 7380;
 
 	template <typename T>
 	class GenericEnumFormatter_1___c : public ::System::Object

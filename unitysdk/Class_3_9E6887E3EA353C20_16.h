@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Entitas/CodeGeneration/Attributes/ContextAttribute.h"
 
-#define CLASS_3_9E6887E3EA353C20_16__CTOR_OFFSET UNITYSDK_OFFSET(0x1A045B70)
+#define CLASS_3_9E6887E3EA353C20_16__CTOR_OFFSET UNITYSDK_OFFSET(0x1A606C60)
 
-inline static constexpr unsigned int Class_3_9E6887E3EA353C20_16_TypeDefinitionIndex = 39925;
+inline static constexpr unsigned int Class_3_9E6887E3EA353C20_16_TypeDefinitionIndex = 40798;
 
 class Class_3_9E6887E3EA353C20_16 : public ::Entitas::CodeGeneration::Attributes::ContextAttribute
 {

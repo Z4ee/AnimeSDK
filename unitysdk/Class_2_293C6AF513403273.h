@@ -5,16 +5,16 @@
 
 namespace RPG::Client { class IAssetOperation; }
 
-#define CLASS_2_293C6AF513403273_METHOD_2_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x16F7DA30)
-#define CLASS_2_293C6AF513403273__CTOR_OFFSET UNITYSDK_OFFSET(0x16F7DAC0)
+#define CLASS_2_293C6AF513403273_METHOD_2_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x1B427E10)
+#define CLASS_2_293C6AF513403273__CTOR_OFFSET UNITYSDK_OFFSET(0x1B427EA0)
 
-inline static constexpr unsigned int Class_2_293C6AF513403273_TypeDefinitionIndex = 76881;
+inline static constexpr unsigned int Class_2_293C6AF513403273_TypeDefinitionIndex = 80921;
 
 class Class_2_293C6AF513403273 : public ::Class_1_6B160DE28C891EFB
 {
 public:
-	::RPG::Client::IAssetOperation* Field_2_0; // 0x28
-	::RPG::Client::AssetSystem::Test::AsyncStatus Field_2_1; // 0x30
+	::RPG::Client::IAssetOperation* NDJKPABPJHO; // 0x28
+	::RPG::Client::AssetSystem::Test::AsyncStatus FFEPLIHOFLA; // 0x30
 
 	::System::Void _ctor()
 	{

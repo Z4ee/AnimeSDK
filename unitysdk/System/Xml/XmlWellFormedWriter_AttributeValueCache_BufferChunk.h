@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_XML_XMLWELLFORMEDWRITER_ATTRIBUTEVALUECACHE_BUFFERCHUNK__CTOR_OFFSET UNITYSDK_OFFSET(0x1C79F630)
+#define SYSTEM_XML_XMLWELLFORMEDWRITER_ATTRIBUTEVALUECACHE_BUFFERCHUNK__CTOR_OFFSET UNITYSDK_OFFSET(0x1E3DAA40)
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int XmlWellFormedWriter_AttributeValueCache_BufferChunk_TypeDefinitionIndex = 1876;
+	inline static constexpr unsigned int XmlWellFormedWriter_AttributeValueCache_BufferChunk_TypeDefinitionIndex = 1883;
 
 	class XmlWellFormedWriter_AttributeValueCache_BufferChunk : public ::System::Object
 	{

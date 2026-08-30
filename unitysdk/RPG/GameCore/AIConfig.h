@@ -10,12 +10,12 @@ namespace RPG::GameCore { class StateTreeRootStateConfig; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_AICONFIG_METHOD_2_ACBA5656CE4FCB11_OFFSET UNITYSDK_OFFSET(0x1B9F2FF0)
-#define RPG_GAMECORE_AICONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9F32C0)
+#define RPG_GAMECORE_AICONFIG_METHOD_2_ACBA5656CE4FCB11_OFFSET UNITYSDK_OFFSET(0x1D321A10)
+#define RPG_GAMECORE_AICONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D321CE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AIConfig_TypeDefinitionIndex = 14880;
+	inline static constexpr unsigned int AIConfig_TypeDefinitionIndex = 15316;
 
 	class AIConfig : public ::RPG::GameCore::JsonConfig
 	{

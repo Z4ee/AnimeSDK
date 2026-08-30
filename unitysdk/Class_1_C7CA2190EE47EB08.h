@@ -8,20 +8,20 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define CLASS_1_C7CA2190EE47EB08_METHOD_1_E9A2160FD348DB23_OFFSET UNITYSDK_OFFSET(0x1B30EE70)
-#define CLASS_1_C7CA2190EE47EB08__CTOR_OFFSET UNITYSDK_OFFSET(0x1B30F100)
+#define CLASS_1_C7CA2190EE47EB08_METHOD_1_E9A2160FD348DB23_OFFSET UNITYSDK_OFFSET(0x1D5FE800)
+#define CLASS_1_C7CA2190EE47EB08__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5FEA90)
 
-inline static constexpr unsigned int Class_1_C7CA2190EE47EB08_TypeDefinitionIndex = 11091;
+inline static constexpr unsigned int Class_1_C7CA2190EE47EB08_TypeDefinitionIndex = 11480;
 
 class Class_1_C7CA2190EE47EB08 : public ::System::Object
 {
 public:
-	::Il2CppArray<::System::String*>* Field_1_0; // 0x10
-	::System::String* Field_1_1; // 0x18
-	::RPG::GameCore::FateEmergentBroadcastOverrideState Field_1_2; // 0x20
-	::System::UInt32 Field_1_3; // 0x24
-	::RPG::Client::TextID Field_1_4; // 0x28
-	::RPG::GameCore::FateEmergentBroadcastConditionType Field_1_5; // 0x38
+	::Il2CppArray<::System::String*>* FFCBLPDHCFO; // 0x10
+	::System::String* CIMMEBGNABD; // 0x18
+	::RPG::GameCore::FateEmergentBroadcastOverrideState BCNBKEAJDNG; // 0x20
+	::System::UInt32 PKGJBPODCOG; // 0x24
+	::RPG::GameCore::FateEmergentBroadcastConditionType LOAGIPDPLFM; // 0x28
+	::RPG::Client::TextID JGAICIJPHNO; // 0x30
 
 	::System::Void _ctor()
 	{

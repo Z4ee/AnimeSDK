@@ -9,18 +9,18 @@ namespace RPG::GameCore { class TaskContext; }
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_AA32F80F0938DB89_METHOD_1_58B02D680908E1F8_OFFSET UNITYSDK_OFFSET(0x15AE9430)
-#define CLASS_1_AA32F80F0938DB89_METHOD_1_AE2E99ED4D9096E4_OFFSET UNITYSDK_OFFSET(0x15AE92E0)
-#define CLASS_1_AA32F80F0938DB89__CCTOR_OFFSET UNITYSDK_OFFSET(0x15AE9570)
+#define CLASS_1_AA32F80F0938DB89_METHOD_1_58B02D680908E1F8_OFFSET UNITYSDK_OFFSET(0x18E792A0)
+#define CLASS_1_AA32F80F0938DB89_METHOD_1_AE2E99ED4D9096E4_OFFSET UNITYSDK_OFFSET(0x18E79150)
+#define CLASS_1_AA32F80F0938DB89__CCTOR_OFFSET UNITYSDK_OFFSET(0x18E793E0)
 
-inline static constexpr unsigned int Class_1_AA32F80F0938DB89_TypeDefinitionIndex = 57429;
+inline static constexpr unsigned int Class_1_AA32F80F0938DB89_TypeDefinitionIndex = 60246;
 
 class Class_1_AA32F80F0938DB89 : public ::System::Object
 {
 public:
-	static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::Class_1_AA32F80F0938DB89_Class_3_CB82A2773748C75A*>** StaticGet_Field_1_0()
+	static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::Class_1_AA32F80F0938DB89_Class_3_CB82A2773748C75A*>** StaticGet_GGEDMGOGICB()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::Class_1_AA32F80F0938DB89_Class_3_CB82A2773748C75A*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_AA32F80F0938DB89_TypeDefinitionIndex)->GetStaticField(0x1A520);
+		return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::Class_1_AA32F80F0938DB89_Class_3_CB82A2773748C75A*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_AA32F80F0938DB89_TypeDefinitionIndex)->GetStaticField(0x47D30);
 	}
 
 	static ::System::Void _cctor()

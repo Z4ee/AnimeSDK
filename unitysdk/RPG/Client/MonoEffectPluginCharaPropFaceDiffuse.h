@@ -11,14 +11,14 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Shader; }
 
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPFACEDIFFUSE_INIT_OFFSET UNITYSDK_OFFSET(0x191114E0)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPFACEDIFFUSE_UNINIT_OFFSET UNITYSDK_OFFSET(0x19112B40)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPFACEDIFFUSE_UPDATEPROPERTY_OFFSET UNITYSDK_OFFSET(0x19111890)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPFACEDIFFUSE__CTOR_OFFSET UNITYSDK_OFFSET(0x19112B90)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPFACEDIFFUSE_INIT_OFFSET UNITYSDK_OFFSET(0x116B3920)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPFACEDIFFUSE_UNINIT_OFFSET UNITYSDK_OFFSET(0x116B4F80)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPFACEDIFFUSE_UPDATEPROPERTY_OFFSET UNITYSDK_OFFSET(0x116B3CD0)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPFACEDIFFUSE__CTOR_OFFSET UNITYSDK_OFFSET(0x116B4FD0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginCharaPropFaceDiffuse_TypeDefinitionIndex = 66822;
+	inline static constexpr unsigned int MonoEffectPluginCharaPropFaceDiffuse_TypeDefinitionIndex = 69924;
 
 	class MonoEffectPluginCharaPropFaceDiffuse : public ::RPG::Client::MonoEffectPluginCharaPropBase
 	{
@@ -61,12 +61,12 @@ namespace RPG::Client
 		::System::Boolean DisabledEyeBlend; // 0x11C
 		::System::Boolean Toggle_StencilEye; // 0x11D
 		::System::Int32 _StencilEye; // 0x120
-		::System::Boolean Field_6_38; // 0x124
-		::System::Int32 Field_6_39; // 0x128
-		::System::Boolean Field_6_40; // 0x12C
-		::System::Boolean Field_6_41; // 0x12D
-		::Il2CppArray<::System::Boolean>* Field_6_42; // 0x130
-		::Il2CppArray<::System::Boolean>* Field_6_43; // 0x138
+		::System::Boolean AKJKFPAOJDA; // 0x124
+		::System::Int32 PHDMNBNALNA; // 0x128
+		::System::Boolean ADBOBPPOELB; // 0x12C
+		::System::Boolean IMJFHEDKJEB; // 0x12D
+		::Il2CppArray<::System::Boolean>* LELIECLCFCB; // 0x130
+		::Il2CppArray<::System::Boolean>* JBDMINJIDJB; // 0x138
 
 		::System::Void _ctor()
 		{

@@ -6,29 +6,29 @@ namespace RPG::GameCore { class TrainExteriorConfigRow; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_ADVENTUREMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x182ABEA0)
-#define RPG_CLIENT_ADVENTUREMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x182ABEE0)
-#define RPG_CLIENT_ADVENTUREMODULE___C__GETTRAINOUTSIDESCENEID_B__84_0_OFFSET UNITYSDK_OFFSET(0x182ABEF0)
-#define RPG_CLIENT_ADVENTUREMODULE___C__GETTRAINOUTSIDESCENEID_B__84_1_OFFSET UNITYSDK_OFFSET(0x182ABF30)
+#define RPG_CLIENT_ADVENTUREMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19DC5660)
+#define RPG_CLIENT_ADVENTUREMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19DC56A0)
+#define RPG_CLIENT_ADVENTUREMODULE___C__GETTRAINOUTSIDESCENEID_B__84_0_OFFSET UNITYSDK_OFFSET(0x19DC56B0)
+#define RPG_CLIENT_ADVENTUREMODULE___C__GETTRAINOUTSIDESCENEID_B__84_1_OFFSET UNITYSDK_OFFSET(0x19DC56F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AdventureModule___c_TypeDefinitionIndex = 59260;
+	inline static constexpr unsigned int AdventureModule___c_TypeDefinitionIndex = 62095;
 
 	class AdventureModule___c : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::AdventureModule___c** StaticGet___9()
 		{
-			return (::RPG::Client::AdventureModule___c**)Il2CppClass::FromTypeDefinitionIndex(AdventureModule___c_TypeDefinitionIndex)->GetStaticField(0x4A8A0);
+			return (::RPG::Client::AdventureModule___c**)Il2CppClass::FromTypeDefinitionIndex(AdventureModule___c_TypeDefinitionIndex)->GetStaticField(0x63AC0);
 		}
 		static ::System::Func_2<::RPG::GameCore::TrainExteriorConfigRow*, ::System::Boolean>** StaticGet___9__84_1()
 		{
-			return (::System::Func_2<::RPG::GameCore::TrainExteriorConfigRow*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(AdventureModule___c_TypeDefinitionIndex)->GetStaticField(0x4A8A8);
+			return (::System::Func_2<::RPG::GameCore::TrainExteriorConfigRow*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(AdventureModule___c_TypeDefinitionIndex)->GetStaticField(0x63AC8);
 		}
 		static ::System::Comparison_1<::RPG::GameCore::TrainExteriorConfigRow*>** StaticGet___9__84_0()
 		{
-			return (::System::Comparison_1<::RPG::GameCore::TrainExteriorConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(AdventureModule___c_TypeDefinitionIndex)->GetStaticField(0x4A8B0);
+			return (::System::Comparison_1<::RPG::GameCore::TrainExteriorConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(AdventureModule___c_TypeDefinitionIndex)->GetStaticField(0x63AD0);
 		}
 
 		static ::System::Void _cctor()

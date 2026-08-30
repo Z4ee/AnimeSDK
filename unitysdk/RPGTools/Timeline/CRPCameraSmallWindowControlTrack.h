@@ -5,13 +5,15 @@
 #include "unitysdk/UnityEngine/Timeline/TrackAsset.h"
 
 namespace UnityEngine { class GameObject; }
+namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_CRPCAMERASMALLWINDOWCONTROLTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x1B34EA30)
-#define RPGTOOLS_TIMELINE_CRPCAMERASMALLWINDOWCONTROLTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1B34EBB0)
+#define RPGTOOLS_TIMELINE_CRPCAMERASMALLWINDOWCONTROLTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x1D134CA0)
+#define RPGTOOLS_TIMELINE_CRPCAMERASMALLWINDOWCONTROLTRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0x1D134C50)
+#define RPGTOOLS_TIMELINE_CRPCAMERASMALLWINDOWCONTROLTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1D134E50)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int CRPCameraSmallWindowControlTrack_TypeDefinitionIndex = 46127;
+	inline static constexpr unsigned int CRPCameraSmallWindowControlTrack_TypeDefinitionIndex = 48361;
 
 	class CRPCameraSmallWindowControlTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
@@ -19,6 +21,11 @@ namespace RPGTools::Timeline
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CRPCAMERASMALLWINDOWCONTROLTRACK__CTOR_OFFSET))(this);
+		}
+
+		::System::Void OnCreateClip(::UnityEngine::Timeline::TimelineClip* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CRPCAMERASMALLWINDOWCONTROLTRACK_ONCREATECLIP_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Playables::Playable CreateTrackMixer(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)

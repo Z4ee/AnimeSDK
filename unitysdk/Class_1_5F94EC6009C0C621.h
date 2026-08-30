@@ -5,19 +5,19 @@
 namespace RPG::Client { class TarotMailData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_5F94EC6009C0C621_METHOD_1_413BEFACA492EE94_OFFSET UNITYSDK_OFFSET(0x18B92940)
-#define CLASS_1_5F94EC6009C0C621_METHOD_1_4307B2A4B4A12C1A_OFFSET UNITYSDK_OFFSET(0x18B92A40)
-#define CLASS_1_5F94EC6009C0C621_METHOD_1_43633FA78B55EB39_OFFSET UNITYSDK_OFFSET(0x18B92770)
-#define CLASS_1_5F94EC6009C0C621__CTOR_OFFSET UNITYSDK_OFFSET(0x18B927C0)
+#define CLASS_1_5F94EC6009C0C621_METHOD_1_413BEFACA492EE94_OFFSET UNITYSDK_OFFSET(0x19ADB570)
+#define CLASS_1_5F94EC6009C0C621_METHOD_1_4307B2A4B4A12C1A_OFFSET UNITYSDK_OFFSET(0x19ADB670)
+#define CLASS_1_5F94EC6009C0C621_METHOD_1_43633FA78B55EB39_OFFSET UNITYSDK_OFFSET(0x19ADB3A0)
+#define CLASS_1_5F94EC6009C0C621__CTOR_OFFSET UNITYSDK_OFFSET(0x19ADB3F0)
 
-inline static constexpr unsigned int Class_1_5F94EC6009C0C621_TypeDefinitionIndex = 65033;
+inline static constexpr unsigned int Class_1_5F94EC6009C0C621_TypeDefinitionIndex = 68041;
 
 class Class_1_5F94EC6009C0C621 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::RPG::Client::TarotMailData*>* Field_1_0; // 0x10
-	::System::UInt32 Field_1_1; // 0x18
-	::System::UInt32 Field_1_2; // 0x1C
+	::System::Collections::Generic::List_1<::RPG::Client::TarotMailData*>* MCLOFGADJDC; // 0x10
+	::System::UInt32 PHFMCACHFIJ; // 0x18
+	::System::UInt32 HGKDEKECDAN; // 0x1C
 
 	::System::Void _ctor(::System::UInt32 a1)
 	{

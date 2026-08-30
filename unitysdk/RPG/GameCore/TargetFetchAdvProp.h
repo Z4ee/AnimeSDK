@@ -7,22 +7,22 @@ namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class FetchAdvPropData; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_TARGETFETCHADVPROP_METHOD_4_5A5A6238117B82FD_OFFSET UNITYSDK_OFFSET(0x1D0B4770)
-#define RPG_GAMECORE_TARGETFETCHADVPROP_METHOD_4_8337BFE36DA4BF3C_OFFSET UNITYSDK_OFFSET(0x1D0B47B0)
-#define RPG_GAMECORE_TARGETFETCHADVPROP_METHOD_4_ACD443D84D18F7BE_OFFSET UNITYSDK_OFFSET(0x1D0B49E0)
-#define RPG_GAMECORE_TARGETFETCHADVPROP_METHOD_4_C4C417CFC23DE4C8_OFFSET UNITYSDK_OFFSET(0x1D0B49B0)
-#define RPG_GAMECORE_TARGETFETCHADVPROP__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0B47A0)
+#define RPG_GAMECORE_TARGETFETCHADVPROP_METHOD_4_5A5A6238117B82FD_OFFSET UNITYSDK_OFFSET(0x1E169580)
+#define RPG_GAMECORE_TARGETFETCHADVPROP_METHOD_4_8337BFE36DA4BF3C_OFFSET UNITYSDK_OFFSET(0x1E1695C0)
+#define RPG_GAMECORE_TARGETFETCHADVPROP_METHOD_4_ACD443D84D18F7BE_OFFSET UNITYSDK_OFFSET(0x1E1697F0)
+#define RPG_GAMECORE_TARGETFETCHADVPROP_METHOD_4_C4C417CFC23DE4C8_OFFSET UNITYSDK_OFFSET(0x1E1697C0)
+#define RPG_GAMECORE_TARGETFETCHADVPROP__CTOR_OFFSET UNITYSDK_OFFSET(0x1E1695B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TargetFetchAdvProp_TypeDefinitionIndex = 23018;
+	inline static constexpr unsigned int TargetFetchAdvProp_TypeDefinitionIndex = 23598;
 
 	class TargetFetchAdvProp : public ::RPG::GameCore::TargetEvaluator
 	{
 	public:
 		static ::System::Boolean* StaticGet_AllowReturnNull()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(TargetFetchAdvProp_TypeDefinitionIndex)->GetStaticField(0x7310);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(TargetFetchAdvProp_TypeDefinitionIndex)->GetStaticField(0x1140);
 		}
 		::System::Boolean TargetIsOwner; // 0x10
 		::Il2CppArray<::RPG::GameCore::FetchAdvPropData*>* MultiGroupFetch; // 0x18

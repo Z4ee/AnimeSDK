@@ -9,12 +9,12 @@ namespace RPG::CustomRP { class AllBloomStage; }
 namespace RPG::CustomRP { class RPGBloom; }
 namespace System { class Object; }
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_BLOOMANIMATETIMELINEBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x19999B60)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_BLOOMANIMATETIMELINEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1999A130)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_BLOOMANIMATETIMELINEBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x1B0A5AA0)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_BLOOMANIMATETIMELINEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0A6070)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int BloomAnimateTimelineBehaviour_TypeDefinitionIndex = 46755;
+	inline static constexpr unsigned int BloomAnimateTimelineBehaviour_TypeDefinitionIndex = 49001;
 
 	class BloomAnimateTimelineBehaviour : public ::RPGTools::Timeline::PostProcessing::BasePlayableBehaviour_1<::RPG::CustomRP::RPGBloom*>
 	{

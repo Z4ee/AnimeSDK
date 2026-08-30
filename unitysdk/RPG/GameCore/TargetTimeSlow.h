@@ -7,13 +7,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TARGETTIMESLOW_METHOD_3_13359A471B27CB2D_OFFSET UNITYSDK_OFFSET(0x1D0CB8B0)
-#define RPG_GAMECORE_TARGETTIMESLOW_METHOD_3_D4ED72DF6DAD3332_OFFSET UNITYSDK_OFFSET(0x1D0CB730)
-#define RPG_GAMECORE_TARGETTIMESLOW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0CB800)
+#define RPG_GAMECORE_TARGETTIMESLOW_METHOD_3_13359A471B27CB2D_OFFSET UNITYSDK_OFFSET(0x1E1C5930)
+#define RPG_GAMECORE_TARGETTIMESLOW_METHOD_3_D4ED72DF6DAD3332_OFFSET UNITYSDK_OFFSET(0x1E1C57B0)
+#define RPG_GAMECORE_TARGETTIMESLOW__CTOR_OFFSET UNITYSDK_OFFSET(0x1E1C5880)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TargetTimeSlow_TypeDefinitionIndex = 22287;
+	inline static constexpr unsigned int TargetTimeSlow_TypeDefinitionIndex = 22856;
 
 	class TargetTimeSlow : public ::RPG::GameCore::TaskConfig
 	{

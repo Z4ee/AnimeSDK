@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int GUILayoutOption_Type_TypeDefinitionIndex = 5223;
+	inline static constexpr unsigned int GUILayoutOption_Type_TypeDefinitionIndex = 5168;
 
 	enum class GUILayoutOption_Type : ::System::Int32
 	{

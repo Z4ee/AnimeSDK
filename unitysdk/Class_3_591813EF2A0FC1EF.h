@@ -6,19 +6,19 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define CLASS_3_591813EF2A0FC1EF_METHOD_3_18338215AC7BEB04_OFFSET UNITYSDK_OFFSET(0x1B5C0890)
-#define CLASS_3_591813EF2A0FC1EF_METHOD_3_F32CA7BD1D486055_OFFSET UNITYSDK_OFFSET(0x1B5C0850)
-#define CLASS_3_591813EF2A0FC1EF__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5C0880)
+#define CLASS_3_591813EF2A0FC1EF_METHOD_3_18338215AC7BEB04_OFFSET UNITYSDK_OFFSET(0x1D6F98E0)
+#define CLASS_3_591813EF2A0FC1EF_METHOD_3_F32CA7BD1D486055_OFFSET UNITYSDK_OFFSET(0x1D6F98A0)
+#define CLASS_3_591813EF2A0FC1EF__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6F98D0)
 
-inline static constexpr unsigned int Class_3_591813EF2A0FC1EF_TypeDefinitionIndex = 19116;
+inline static constexpr unsigned int Class_3_591813EF2A0FC1EF_TypeDefinitionIndex = 19657;
 
 class Class_3_591813EF2A0FC1EF : public ::RPG::GameCore::TaskConfig
 {
 public:
-	::RPG::GameCore::DynamicFloat* Field_3_0; // 0x18
-	::System::UInt32 Field_3_1; // 0x20
-	::RPG::GameCore::FateRinCardPileType Field_3_2; // 0x24
-	::RPG::GameCore::FateRinCardPileType Field_3_3; // 0x26
+	::RPG::GameCore::DynamicFloat* HCDEOKNIGKG; // 0x18
+	::System::UInt32 FEHABNJEENK; // 0x20
+	::RPG::GameCore::FateRinCardPileType KODIKGGDENE; // 0x24
+	::RPG::GameCore::FateRinCardPileType IANCHJFBKFC; // 0x26
 
 	::System::Void _ctor()
 	{

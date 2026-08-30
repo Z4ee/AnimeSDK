@@ -7,12 +7,12 @@ namespace RPG::Client { class GridFightGameRefData; }
 namespace RPG::Client { class GridFightSeasonRole; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_GRIDFIGHTGAMEREFDATA___C__DISPLAYCLASS184_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1ABF2BA0)
-#define RPG_CLIENT_GRIDFIGHTGAMEREFDATA___C__DISPLAYCLASS184_0___BUILDSEASONROLES_B__0_OFFSET UNITYSDK_OFFSET(0x1ABF5470)
+#define RPG_CLIENT_GRIDFIGHTGAMEREFDATA___C__DISPLAYCLASS184_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA1F690)
+#define RPG_CLIENT_GRIDFIGHTGAMEREFDATA___C__DISPLAYCLASS184_0___BUILDSEASONROLES_B__0_OFFSET UNITYSDK_OFFSET(0x1BA22050)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGameRefData___c__DisplayClass184_0_TypeDefinitionIndex = 61818;
+	inline static constexpr unsigned int GridFightGameRefData___c__DisplayClass184_0_TypeDefinitionIndex = 64802;
 
 	class GridFightGameRefData___c__DisplayClass184_0 : public ::System::Object
 	{

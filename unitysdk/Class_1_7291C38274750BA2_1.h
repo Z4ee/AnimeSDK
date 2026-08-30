@@ -7,15 +7,15 @@ namespace SimpleJSON { class JSONClass; }
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define CLASS_1_7291C38274750BA2_1_METHOD_1_126AB3935214AA22_OFFSET UNITYSDK_OFFSET(0x18BD6D40)
-#define CLASS_1_7291C38274750BA2_1__CTOR_OFFSET UNITYSDK_OFFSET(0x18BD6D30)
+#define CLASS_1_7291C38274750BA2_1_METHOD_1_126AB3935214AA22_OFFSET UNITYSDK_OFFSET(0x1A0B5010)
+#define CLASS_1_7291C38274750BA2_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0B5000)
 
-inline static constexpr unsigned int Class_1_7291C38274750BA2_1_TypeDefinitionIndex = 47295;
+inline static constexpr unsigned int Class_1_7291C38274750BA2_1_TypeDefinitionIndex = 49575;
 
 class Class_1_7291C38274750BA2_1 : public ::System::Object
 {
 public:
-	::System::String* Field_1_0; // 0x10
+	::System::String* LFLPOOCDHDP; // 0x10
 
 	::System::Void _ctor(::System::String* a1)
 	{

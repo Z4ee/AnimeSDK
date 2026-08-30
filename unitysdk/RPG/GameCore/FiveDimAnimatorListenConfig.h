@@ -7,12 +7,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class LittleGameEvent; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMANIMATORLISTENCONFIG_METHOD_2_526F687203DBA239_OFFSET UNITYSDK_OFFSET(0x1BA86FF0)
-#define RPG_GAMECORE_FIVEDIMANIMATORLISTENCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA87260)
+#define RPG_GAMECORE_FIVEDIMANIMATORLISTENCONFIG_METHOD_2_526F687203DBA239_OFFSET UNITYSDK_OFFSET(0x1E0E0EF0)
+#define RPG_GAMECORE_FIVEDIMANIMATORLISTENCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1E0E1160)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimAnimatorListenConfig_TypeDefinitionIndex = 17913;
+	inline static constexpr unsigned int FiveDimAnimatorListenConfig_TypeDefinitionIndex = 18433;
 
 	class FiveDimAnimatorListenConfig : public ::RPG::GameCore::JsonConfig
 	{

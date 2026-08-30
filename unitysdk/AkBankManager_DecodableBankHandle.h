@@ -5,18 +5,18 @@
 
 namespace System { class String; }
 
-#define AKBANKMANAGER_DECODABLEBANKHANDLE_DOLOADBANK_OFFSET UNITYSDK_OFFSET(0x1B956AC0)
-#define AKBANKMANAGER_DECODABLEBANKHANDLE_UNLOADBANK_OFFSET UNITYSDK_OFFSET(0x1B956FC0)
-#define AKBANKMANAGER_DECODABLEBANKHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B955850)
+#define AKBANKMANAGER_DECODABLEBANKHANDLE_DOLOADBANK_OFFSET UNITYSDK_OFFSET(0x1D586660)
+#define AKBANKMANAGER_DECODABLEBANKHANDLE_UNLOADBANK_OFFSET UNITYSDK_OFFSET(0x1D586B60)
+#define AKBANKMANAGER_DECODABLEBANKHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5853F0)
 
-inline static constexpr unsigned int AkBankManager_DecodableBankHandle_TypeDefinitionIndex = 42017;
+inline static constexpr unsigned int AkBankManager_DecodableBankHandle_TypeDefinitionIndex = 43628;
 
 class AkBankManager_DecodableBankHandle : public ::AkBankManager_BankHandle
 {
 public:
 	::System::String* decodedBankPath; // 0x20
-	::System::Boolean saveDecodedBank; // 0x28
-	::System::Boolean decodeBank; // 0x29
+	::System::Boolean decodeBank; // 0x28
+	::System::Boolean saveDecodedBank; // 0x29
 
 	::System::Void _ctor(::System::String* a1, ::System::Boolean a2)
 	{

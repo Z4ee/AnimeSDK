@@ -8,17 +8,17 @@ namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_D37558F57F204A7E_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16D72000)
-#define CLASS_3_D37558F57F204A7E_METHOD_3_EFAE6171FF3CE93B_OFFSET UNITYSDK_OFFSET(0x16D72650)
-#define CLASS_3_D37558F57F204A7E_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16D721F0)
-#define CLASS_3_D37558F57F204A7E__CTOR_OFFSET UNITYSDK_OFFSET(0x16D71FD0)
+#define CLASS_3_D37558F57F204A7E_DISPOSE_OFFSET UNITYSDK_OFFSET(0x185D3330)
+#define CLASS_3_D37558F57F204A7E_METHOD_3_EFAE6171FF3CE93B_OFFSET UNITYSDK_OFFSET(0x185D3980)
+#define CLASS_3_D37558F57F204A7E_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x185D3520)
+#define CLASS_3_D37558F57F204A7E__CTOR_OFFSET UNITYSDK_OFFSET(0x185D3300)
 
-inline static constexpr unsigned int Class_3_D37558F57F204A7E_TypeDefinitionIndex = 56104;
+inline static constexpr unsigned int Class_3_D37558F57F204A7E_TypeDefinitionIndex = 58879;
 
 class Class_3_D37558F57F204A7E : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::StartTutorialGraph*>
 {
 public:
-	::System::Collections::Generic::List_1<::RPG::GameCore::LevelGraphComponent*>* Field_3_0; // 0x28
+	::System::Collections::Generic::List_1<::RPG::GameCore::LevelGraphComponent*>* GHEGGAPHHBM; // 0x28
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::StartTutorialGraph* a2)
 	{

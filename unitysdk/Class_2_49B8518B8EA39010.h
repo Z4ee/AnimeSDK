@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-class Class_0_16E4307DCC419505_328;
+class Class_0_16E4307DCC419505_349;
 namespace System { class String; }
 
-#define CLASS_2_49B8518B8EA39010_GET_CONSTKEY_OFFSET UNITYSDK_OFFSET(0x1D2BE100)
-#define CLASS_2_49B8518B8EA39010__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2BE080)
+#define CLASS_2_49B8518B8EA39010_GET_CONSTKEY_OFFSET UNITYSDK_OFFSET(0x1EFCF850)
+#define CLASS_2_49B8518B8EA39010__CTOR_OFFSET UNITYSDK_OFFSET(0x1EFCF7D0)
 
-inline static constexpr unsigned int Class_2_49B8518B8EA39010_TypeDefinitionIndex = 42380;
+inline static constexpr unsigned int Class_2_49B8518B8EA39010_TypeDefinitionIndex = 43991;
 
 class Class_2_49B8518B8EA39010 : public ::System::Attribute
 {

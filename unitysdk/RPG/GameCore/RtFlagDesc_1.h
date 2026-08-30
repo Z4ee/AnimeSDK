@@ -4,7 +4,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtFlagDesc_1_TypeDefinitionIndex = 51521;
+	inline static constexpr unsigned int RtFlagDesc_1_TypeDefinitionIndex = 54205;
 
 	template <typename T>
 	class RtFlagDesc_1 : public ::System::Object

@@ -6,10 +6,10 @@ class Class_1_B8FF829EFDD29B81;
 namespace RPG::GameCore { class BaseChenLingBattleEffect; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_7D3C4F078340ED90_METHOD_1_6FD2919528A9CE2F_OFFSET UNITYSDK_OFFSET(0x16C88C40)
-#define CLASS_1_7D3C4F078340ED90__CTOR_OFFSET UNITYSDK_OFFSET(0x16C89530)
+#define CLASS_1_7D3C4F078340ED90_METHOD_1_6FD2919528A9CE2F_OFFSET UNITYSDK_OFFSET(0x186E23E0)
+#define CLASS_1_7D3C4F078340ED90__CTOR_OFFSET UNITYSDK_OFFSET(0x186E2CE0)
 
-inline static constexpr unsigned int Class_1_7D3C4F078340ED90_TypeDefinitionIndex = 73933;
+inline static constexpr unsigned int Class_1_7D3C4F078340ED90_TypeDefinitionIndex = 77417;
 
 class Class_1_7D3C4F078340ED90 : public ::System::Object
 {

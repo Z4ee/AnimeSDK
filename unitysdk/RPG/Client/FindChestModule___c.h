@@ -5,24 +5,24 @@
 namespace RPG::Client { class FindChestData; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_FINDCHESTMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x183FE9C0)
-#define RPG_CLIENT_FINDCHESTMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x183FE9F0)
-#define RPG_CLIENT_FINDCHESTMODULE___C__GETSORTEDFINDCHESTDATALIST_B__9_0_OFFSET UNITYSDK_OFFSET(0x183FEA00)
+#define RPG_CLIENT_FINDCHESTMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AE63B00)
+#define RPG_CLIENT_FINDCHESTMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE63B30)
+#define RPG_CLIENT_FINDCHESTMODULE___C__GETSORTEDFINDCHESTDATALIST_B__9_0_OFFSET UNITYSDK_OFFSET(0x1AE63B40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FindChestModule___c_TypeDefinitionIndex = 61282;
+	inline static constexpr unsigned int FindChestModule___c_TypeDefinitionIndex = 64263;
 
 	class FindChestModule___c : public ::System::Object
 	{
 	public:
 		static ::System::Comparison_1<::RPG::Client::FindChestData*>** StaticGet___9__9_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::FindChestData*>**)Il2CppClass::FromTypeDefinitionIndex(FindChestModule___c_TypeDefinitionIndex)->GetStaticField(0xF350);
+			return (::System::Comparison_1<::RPG::Client::FindChestData*>**)Il2CppClass::FromTypeDefinitionIndex(FindChestModule___c_TypeDefinitionIndex)->GetStaticField(0x102D0);
 		}
 		static ::RPG::Client::FindChestModule___c** StaticGet___9()
 		{
-			return (::RPG::Client::FindChestModule___c**)Il2CppClass::FromTypeDefinitionIndex(FindChestModule___c_TypeDefinitionIndex)->GetStaticField(0xF358);
+			return (::RPG::Client::FindChestModule___c**)Il2CppClass::FromTypeDefinitionIndex(FindChestModule___c_TypeDefinitionIndex)->GetStaticField(0x102D8);
 		}
 
 		static ::System::Void _cctor()

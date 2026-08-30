@@ -8,18 +8,18 @@ namespace RPG::GameCore { class PropSetFollowRotate; }
 namespace RPG::GameCore { class TaskContext; }
 namespace UnityEngine { class GameObject; }
 
-#define CLASS_3_F0699CDE41EAB1FA_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18DBE470)
-#define CLASS_3_F0699CDE41EAB1FA_METHOD_3_49D86376EA6BF9FB_OFFSET UNITYSDK_OFFSET(0x18DBEA60)
-#define CLASS_3_F0699CDE41EAB1FA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18DBE640)
-#define CLASS_3_F0699CDE41EAB1FA__CTOR_OFFSET UNITYSDK_OFFSET(0x18DBE440)
+#define CLASS_3_F0699CDE41EAB1FA_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A4927B0)
+#define CLASS_3_F0699CDE41EAB1FA_METHOD_3_49D86376EA6BF9FB_OFFSET UNITYSDK_OFFSET(0x1A492D90)
+#define CLASS_3_F0699CDE41EAB1FA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A492980)
+#define CLASS_3_F0699CDE41EAB1FA__CTOR_OFFSET UNITYSDK_OFFSET(0x1A492780)
 
-inline static constexpr unsigned int Class_3_F0699CDE41EAB1FA_TypeDefinitionIndex = 50757;
+inline static constexpr unsigned int Class_3_F0699CDE41EAB1FA_TypeDefinitionIndex = 53439;
 
 class Class_3_F0699CDE41EAB1FA : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::PropSetFollowRotate*>
 {
 public:
-	::RPG::Client::FollowRotate* Field_3_0; // 0x28
-	::System::Boolean Field_3_1; // 0x30
+	::RPG::Client::FollowRotate* OIDJLMDFALJ; // 0x28
+	::System::Boolean LIAOBNHFODI; // 0x30
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::PropSetFollowRotate* a2)
 	{

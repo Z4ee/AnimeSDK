@@ -3,7 +3,7 @@
 
 namespace RPGTools::LDWhiteBox
 {
-	inline static constexpr unsigned int JunctionType_TypeDefinitionIndex = 47103;
+	inline static constexpr unsigned int JunctionType_TypeDefinitionIndex = 49366;
 
 	enum class JunctionType : ::System::Int32
 	{

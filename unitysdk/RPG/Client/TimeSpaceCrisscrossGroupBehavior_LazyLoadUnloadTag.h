@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TimeSpaceCrisscrossGroupBehavior_LazyLoadUnloadTag_TypeDefinitionIndex = 67059;
+	inline static constexpr unsigned int TimeSpaceCrisscrossGroupBehavior_LazyLoadUnloadTag_TypeDefinitionIndex = 70166;
 
 	enum class TimeSpaceCrisscrossGroupBehavior_LazyLoadUnloadTag : ::System::Byte
 	{

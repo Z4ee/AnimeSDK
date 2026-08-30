@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Sofa/BaseSofaControl.h"
 
-#define RPG_CLIENT_PIXAIR_PIXAIRPREPARECONTENTCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0DC230)
+#define RPG_CLIENT_PIXAIR_PIXAIRPREPARECONTENTCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD13250)
 
 namespace RPG::Client::PixAir
 {
-	inline static constexpr unsigned int PixAirPrepareContentControl_TypeDefinitionIndex = 75207;
+	inline static constexpr unsigned int PixAirPrepareContentControl_TypeDefinitionIndex = 78754;
 
 	class PixAirPrepareContentControl : public ::Sofa::BaseSofaControl
 	{

@@ -7,12 +7,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_IDLELIVETEAMSLOTTYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B009450)
-#define RPG_GAMECORE_IDLELIVETEAMSLOTTYPEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B009630)
+#define RPG_GAMECORE_IDLELIVETEAMSLOTTYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D2169F0)
+#define RPG_GAMECORE_IDLELIVETEAMSLOTTYPEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D216BD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveTeamSlotTypeRow_TypeDefinitionIndex = 11312;
+	inline static constexpr unsigned int IdleLiveTeamSlotTypeRow_TypeDefinitionIndex = 11701;
 
 	class IdleLiveTeamSlotTypeRow : public ::System::Object
 	{

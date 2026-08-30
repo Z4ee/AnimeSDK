@@ -9,11 +9,11 @@ namespace System { class String; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Renderer; }
 
-#define EFFECT_SETWEAPONOBJCENTER_START_OFFSET UNITYSDK_OFFSET(0xF18B4C0)
-#define EFFECT_SETWEAPONOBJCENTER_UPDATE_OFFSET UNITYSDK_OFFSET(0xF18B520)
-#define EFFECT_SETWEAPONOBJCENTER__CTOR_OFFSET UNITYSDK_OFFSET(0xF18BD30)
+#define EFFECT_SETWEAPONOBJCENTER_START_OFFSET UNITYSDK_OFFSET(0x10678100)
+#define EFFECT_SETWEAPONOBJCENTER_UPDATE_OFFSET UNITYSDK_OFFSET(0x10678160)
+#define EFFECT_SETWEAPONOBJCENTER__CTOR_OFFSET UNITYSDK_OFFSET(0x10678970)
 
-inline static constexpr unsigned int Effect_SetWeaponObjCenter_TypeDefinitionIndex = 45666;
+inline static constexpr unsigned int Effect_SetWeaponObjCenter_TypeDefinitionIndex = 47917;
 
 class Effect_SetWeaponObjCenter : public ::UnityEngine::MonoBehaviour
 {
@@ -35,8 +35,8 @@ public:
 	::System::Single FresnelColorStrengthCatHead; // 0xA4
 	::System::Single SpecularShininessCatHead; // 0xA8
 	::System::Single SpecularIntensityCatHead; // 0xAC
-	::UnityEngine::Vector4 Field_5_17; // 0xB0
-	::UnityEngine::MaterialPropertyBlock* Field_5_18; // 0xC0
+	::UnityEngine::Vector4 BOLCOLOBNKF; // 0xB0
+	::UnityEngine::MaterialPropertyBlock* LLIBNPFMOJL; // 0xC0
 
 	::System::Void _ctor()
 	{

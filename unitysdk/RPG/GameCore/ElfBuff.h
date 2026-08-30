@@ -8,12 +8,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ElfPropertyModifier; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ELFBUFF_METHOD_2_D89B9C7FB3EC4A2C_OFFSET UNITYSDK_OFFSET(0x1BB352D0)
-#define RPG_GAMECORE_ELFBUFF__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB35560)
+#define RPG_GAMECORE_ELFBUFF_METHOD_2_D89B9C7FB3EC4A2C_OFFSET UNITYSDK_OFFSET(0x1DB27770)
+#define RPG_GAMECORE_ELFBUFF__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB27A00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ElfBuff_TypeDefinitionIndex = 17752;
+	inline static constexpr unsigned int ElfBuff_TypeDefinitionIndex = 18270;
 
 	class ElfBuff : public ::RPG::GameCore::JsonConfig
 	{

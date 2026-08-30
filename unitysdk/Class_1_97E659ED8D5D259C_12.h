@@ -2,29 +2,42 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_97E659ED8D5D259C_12_GET_AVATARID_OFFSET UNITYSDK_OFFSET(0x186B6FF0)
-#define CLASS_1_97E659ED8D5D259C_12_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0x186B6F80)
-#define CLASS_1_97E659ED8D5D259C_12__CTOR_OFFSET UNITYSDK_OFFSET(0x186B6F70)
+#define CLASS_1_97E659ED8D5D259C_12_GET_ID_OFFSET UNITYSDK_OFFSET(0x18FCFE90)
+#define CLASS_1_97E659ED8D5D259C_12_GET_STAGEID_OFFSET UNITYSDK_OFFSET(0x18FCFEB0)
+#define CLASS_1_97E659ED8D5D259C_12_SET_ID_OFFSET UNITYSDK_OFFSET(0x18FCFEA0)
+#define CLASS_1_97E659ED8D5D259C_12_SET_STAGEID_OFFSET UNITYSDK_OFFSET(0x18FCFEC0)
+#define CLASS_1_97E659ED8D5D259C_12__CTOR_OFFSET UNITYSDK_OFFSET(0x18FCFED0)
 
-inline static constexpr unsigned int Class_1_97E659ED8D5D259C_12_TypeDefinitionIndex = 64064;
+inline static constexpr unsigned int Class_1_97E659ED8D5D259C_12_TypeDefinitionIndex = 63905;
 
 class Class_1_97E659ED8D5D259C_12 : public ::System::Object
 {
 public:
-	::System::UInt32 _AvatarID_k__BackingField; // 0x10
+	::System::UInt32 _ID_k__BackingField; // 0x10
+	::System::UInt32 _StageID_k__BackingField; // 0x14
 
-	::System::Void _ctor(::System::UInt32 a1)
+	::System::Void _ctor()
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_97E659ED8D5D259C_12__CTOR_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_97E659ED8D5D259C_12__CTOR_OFFSET))(this);
 	}
 
-	::System::Void TriggerAction()
+	::System::UInt32 get_ID()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_97E659ED8D5D259C_12_TRIGGERACTION_OFFSET))(this);
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_97E659ED8D5D259C_12_GET_ID_OFFSET))(this);
 	}
 
-	::System::UInt32 get_AvatarID()
+	::System::Void set_ID(::System::UInt32 a1)
 	{
-		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_97E659ED8D5D259C_12_GET_AVATARID_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_97E659ED8D5D259C_12_SET_ID_OFFSET))(this, a1);
+	}
+
+	::System::UInt32 get_StageID()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_97E659ED8D5D259C_12_GET_STAGEID_OFFSET))(this);
+	}
+
+	::System::Void set_StageID(::System::UInt32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_97E659ED8D5D259C_12_SET_STAGEID_OFFSET))(this, a1);
 	}
 };

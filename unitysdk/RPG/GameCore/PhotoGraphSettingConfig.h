@@ -1,5 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/EmotionID.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
 #include "unitysdk/RPG/GameCore/PhotoGraphFuncBtnType.h"
 
@@ -15,12 +16,12 @@ namespace RPG::GameCore { class PhotographToastTemplate; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_PHOTOGRAPHSETTINGCONFIG_METHOD_2_C569E7E7784921FF_OFFSET UNITYSDK_OFFSET(0x1B4C37D0)
-#define RPG_GAMECORE_PHOTOGRAPHSETTINGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4C3B30)
+#define RPG_GAMECORE_PHOTOGRAPHSETTINGCONFIG_METHOD_2_C78A231738BB9C16_OFFSET UNITYSDK_OFFSET(0x1D4362C0)
+#define RPG_GAMECORE_PHOTOGRAPHSETTINGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D436630)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PhotoGraphSettingConfig_TypeDefinitionIndex = 18313;
+	inline static constexpr unsigned int PhotoGraphSettingConfig_TypeDefinitionIndex = 18837;
 
 	class PhotoGraphSettingConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -30,7 +31,7 @@ namespace RPG::GameCore
 		::Il2CppArray<::RPG::GameCore::PhotoGraphRoamingConfig*>* RoamingConfigs; // 0x20
 		::RPG::GameCore::PhotoGraphWaterMarkConfig* WaterMarkConfig; // 0x28
 		::RPG::GameCore::PhotoGraphFreeStyleDataConfig* DefaultFreeStyleConfig; // 0x30
-		::System::UInt32 DefaultEmotionConfigID; // 0x38
+		::RPG::GameCore::EmotionID DefaultEmotionConfigID; // 0x38
 		::RPG::GameCore::PhotoGraphStealConfig* StealConfig; // 0x40
 		::System::Boolean DefaultFirstPerson; // 0x48
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::PhotographToastTemplate*>* PhotographToast; // 0x50
@@ -42,9 +43,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PHOTOGRAPHSETTINGCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_C569E7E7784921FF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PhotoGraphSettingConfig*& a2)
+		static ::System::Void Method_2_C78A231738BB9C16(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PhotoGraphSettingConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PhotoGraphSettingConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PHOTOGRAPHSETTINGCONFIG_METHOD_2_C569E7E7784921FF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PhotoGraphSettingConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PHOTOGRAPHSETTINGCONFIG_METHOD_2_C78A231738BB9C16_OFFSET))(a1, a2);
 		}
 	};
 }

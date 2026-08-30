@@ -6,13 +6,13 @@
 namespace System { class String; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_TIMEOUTEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A754340)
-#define SYSTEM_TIMEOUTEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1A7543B0)
-#define SYSTEM_TIMEOUTEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1A7542D0)
+#define SYSTEM_TIMEOUTEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C685F90)
+#define SYSTEM_TIMEOUTEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1C686000)
+#define SYSTEM_TIMEOUTEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1C685F20)
 
 namespace System
 {
-	inline static constexpr unsigned int TimeoutException_TypeDefinitionIndex = 337;
+	inline static constexpr unsigned int TimeoutException_TypeDefinitionIndex = 340;
 
 	class TimeoutException : public ::System::SystemException
 	{

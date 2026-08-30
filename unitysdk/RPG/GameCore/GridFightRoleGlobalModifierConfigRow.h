@@ -5,18 +5,18 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_GRIDFIGHTROLEGLOBALMODIFIERCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D073270)
-#define RPG_GAMECORE_GRIDFIGHTROLEGLOBALMODIFIERCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D073400)
+#define RPG_GAMECORE_GRIDFIGHTROLEGLOBALMODIFIERCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3B5390)
+#define RPG_GAMECORE_GRIDFIGHTROLEGLOBALMODIFIERCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3B5520)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightRoleGlobalModifierConfigRow_TypeDefinitionIndex = 13068;
+	inline static constexpr unsigned int GridFightRoleGlobalModifierConfigRow_TypeDefinitionIndex = 13459;
 
 	class GridFightRoleGlobalModifierConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* SavedValueName; // 0x10
-		::Il2CppArray<::System::UInt32>* PerformParamList; // 0x18
+		::Il2CppArray<::System::UInt32>* PerformParamList; // 0x10
+		::System::String* SavedValueName; // 0x18
 		::System::UInt32 Roleid; // 0x20
 
 		::System::Void _ctor()

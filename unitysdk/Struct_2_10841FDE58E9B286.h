@@ -5,24 +5,24 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define STRUCT_2_10841FDE58E9B286_METHOD_2_8E51D9ED71E4930C_1_OFFSET UNITYSDK_OFFSET(0x395D980)
-#define STRUCT_2_10841FDE58E9B286_METHOD_2_8E51D9ED71E4930C_OFFSET UNITYSDK_OFFSET(0x395D950)
-#define STRUCT_2_10841FDE58E9B286_METHOD_2_9EA226EF48BC0D1C_OFFSET UNITYSDK_OFFSET(0x395D910)
-#define STRUCT_2_10841FDE58E9B286__CCTOR_OFFSET UNITYSDK_OFFSET(0x17991900)
+#define STRUCT_2_10841FDE58E9B286_METHOD_2_8E51D9ED71E4930C_1_OFFSET UNITYSDK_OFFSET(0x3B7C950)
+#define STRUCT_2_10841FDE58E9B286_METHOD_2_8E51D9ED71E4930C_OFFSET UNITYSDK_OFFSET(0x3B7C920)
+#define STRUCT_2_10841FDE58E9B286_METHOD_2_9EA226EF48BC0D1C_OFFSET UNITYSDK_OFFSET(0x3B7C8E0)
+#define STRUCT_2_10841FDE58E9B286__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B4563A0)
 
-inline static constexpr unsigned int Struct_2_10841FDE58E9B286_TypeDefinitionIndex = 70559;
+inline static constexpr unsigned int Struct_2_10841FDE58E9B286_TypeDefinitionIndex = 73858;
 
 struct alignas(4) Struct_2_10841FDE58E9B286
 {
-	static ::Struct_2_10841FDE58E9B286* StaticGet_Field_2_0()
+	static ::Struct_2_10841FDE58E9B286* StaticGet_EKEMOCGAEEO()
 	{
-		return (::Struct_2_10841FDE58E9B286*)Il2CppClass::FromTypeDefinitionIndex(Struct_2_10841FDE58E9B286_TypeDefinitionIndex)->GetStaticField(0xBC10);
+		return (::Struct_2_10841FDE58E9B286*)Il2CppClass::FromTypeDefinitionIndex(Struct_2_10841FDE58E9B286_TypeDefinitionIndex)->GetStaticField(0x3DA0);
 	}
-	::UnityEngine::Vector3 Field_2_1; // 0x10
-	::UnityEngine::Quaternion Field_2_2; // 0x1C
-	::UnityEngine::Matrix4x4 Field_2_3; // 0x2C
-	::System::Boolean Field_2_4; // 0x6C
-	::System::Boolean Field_2_5; // 0x6D
+	::UnityEngine::Vector3 BBFOLEOPPPL; // 0x10
+	::UnityEngine::Quaternion NMELCPIOKNO; // 0x1C
+	::UnityEngine::Matrix4x4 FIOBIJOJEPM; // 0x2C
+	::System::Boolean KFKBPJDGJDK; // 0x6C
+	::System::Boolean IJFJJEJBGAB; // 0x6D
 
 	static ::System::Void _cctor()
 	{

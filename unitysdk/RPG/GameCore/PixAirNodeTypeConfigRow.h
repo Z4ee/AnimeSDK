@@ -6,18 +6,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_PIXAIRNODETYPECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B4CDC40)
-#define RPG_GAMECORE_PIXAIRNODETYPECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4CDDC0)
+#define RPG_GAMECORE_PIXAIRNODETYPECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D793AE0)
+#define RPG_GAMECORE_PIXAIRNODETYPECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D793C60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PixAirNodeTypeConfigRow_TypeDefinitionIndex = 11663;
+	inline static constexpr unsigned int PixAirNodeTypeConfigRow_TypeDefinitionIndex = 12052;
 
 	class PixAirNodeTypeConfigRow : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID NodeName; // 0x10
-		::RPG::GameCore::PixAirNodeType NodeType; // 0x20
+		::RPG::GameCore::PixAirNodeType NodeType; // 0x10
+		::RPG::Client::TextID NodeName; // 0x18
 
 		::System::Void _ctor()
 		{

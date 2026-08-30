@@ -5,24 +5,24 @@
 class Class_1_B547B56320B70AD4;
 namespace System { template <typename T> class Predicate_1; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHATSERVICE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19D3A480)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHATSERVICE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19D3A4C0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHATSERVICE___C___CLEARINVALIDSPECIALCHATS_B__9_0_OFFSET UNITYSDK_OFFSET(0x19D3A4D0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHATSERVICE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B920180)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHATSERVICE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9201C0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHATSERVICE___C___CLEARINVALIDSPECIALCHATS_B__9_0_OFFSET UNITYSDK_OFFSET(0x1B9201D0)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveChatService___c_TypeDefinitionIndex = 71675;
+	inline static constexpr unsigned int IdleLiveChatService___c_TypeDefinitionIndex = 74981;
 
 	class IdleLiveChatService___c : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::ActivityIdleLive::IdleLiveChatService___c** StaticGet___9()
 		{
-			return (::RPG::Client::ActivityIdleLive::IdleLiveChatService___c**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveChatService___c_TypeDefinitionIndex)->GetStaticField(0x3C850);
+			return (::RPG::Client::ActivityIdleLive::IdleLiveChatService___c**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveChatService___c_TypeDefinitionIndex)->GetStaticField(0x57A80);
 		}
 		static ::System::Predicate_1<::Class_1_B547B56320B70AD4*>** StaticGet___9__9_0()
 		{
-			return (::System::Predicate_1<::Class_1_B547B56320B70AD4*>**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveChatService___c_TypeDefinitionIndex)->GetStaticField(0x3C858);
+			return (::System::Predicate_1<::Class_1_B547B56320B70AD4*>**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveChatService___c_TypeDefinitionIndex)->GetStaticField(0x57A88);
 		}
 
 		static ::System::Void _cctor()

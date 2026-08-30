@@ -11,7 +11,7 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int SimpleViewService_1_AssetAsyncLoadHandle_TypeDefinitionIndex = 72614;
+	inline static constexpr unsigned int SimpleViewService_1_AssetAsyncLoadHandle_TypeDefinitionIndex = 76050;
 
 	template <typename TEntity>
 	class SimpleViewService_1_AssetAsyncLoadHandle : public ::System::Object

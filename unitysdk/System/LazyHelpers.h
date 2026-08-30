@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_LAZYHELPERS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B8739C0)
+#define SYSTEM_LAZYHELPERS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D47ECB0)
 
 namespace System
 {
@@ -13,7 +13,7 @@ namespace System
 	public:
 		static ::System::Object** StaticGet_PUBLICATION_ONLY_SENTINEL()
 		{
-			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(LazyHelpers_TypeDefinitionIndex)->GetStaticField(0xDD20);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(LazyHelpers_TypeDefinitionIndex)->GetStaticField(0xD3D0);
 		}
 
 		static ::System::Void _cctor()

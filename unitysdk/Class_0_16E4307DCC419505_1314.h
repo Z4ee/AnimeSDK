@@ -1,10 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/Prop/ChimeraPreparationState.h"
 
-class Class_1_D40936EF3BF54118_4;
-namespace RPG::Client::Challenge::Tierce { class ChallengeTierceSessionStageResultBase; }
-
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1314_TypeDefinitionIndex = 76524;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1314_TypeDefinitionIndex = 78016;
 
 class Class_0_16E4307DCC419505_1314
 {

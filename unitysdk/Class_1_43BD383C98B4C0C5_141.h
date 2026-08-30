@@ -1,28 +1,57 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/RuntimeGroupManager_HoYoGroupUnit_CustomRuleType.h"
-#include "unitysdk/RPG/Client/RuntimeGroupManager_HoYoGroupUnit_InVisionRefreshState.h"
-#include "unitysdk/RPG/Client/RuntimeGroupManager_HoYoGroupUnit_NpcConflictRefreshState.h"
-#include "unitysdk/RPG/Client/RuntimeGroupManager_HoYoGroupUnit_RegionRefreshState.h"
-#include "unitysdk/RPG/Client/RuntimeGroupManager_HoYoGroupUnit_SpaceConflictRefreshState.h"
-#include "unitysdk/RPG/GameCore/GroupCategory.h"
-#include "unitysdk/RPG/GameCore/HoYoGroupType.h"
-#include "unitysdk/Struct_2_CC45B4503679E14E_47.h"
-#include "unitysdk/Struct_2_CC45B4503679E14E_49.h"
 #include "unitysdk/System/Object.h"
 
-namespace RPG::GameCore { class RuntimeGroupInfo; }
 namespace System { class String; }
-namespace System::Collections::Generic { template <typename T> class HashSet_1; }
-namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_43BD383C98B4C0C5_141__CTOR_OFFSET UNITYSDK_OFFSET(0x16FBE760)
+#define CLASS_1_43BD383C98B4C0C5_141__CTOR_OFFSET UNITYSDK_OFFSET(0x17100160)
 
-inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_141_TypeDefinitionIndex = 59281;
+inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_141_TypeDefinitionIndex = 60103;
 
 class Class_1_43BD383C98B4C0C5_141 : public ::System::Object
 {
 public:
+	// static const ::System::String* NBPNHNGHMFC; // 0x0
+	// static const ::System::String* IHLMEBHHBLG; // 0x0
+	// static const ::System::String* IEACOAAGCEM; // 0x0
+	// static const ::System::String* AMGEOCOKKAF; // 0x0
+	// static const ::System::String* NOFAHGIFINK; // 0x0
+	// static const ::System::String* EGMFFGBPAJO; // 0x0
+	// static const ::System::String* LGPLJGIPBGK; // 0x0
+	// static const ::System::String* FEAPJDPNKLJ; // 0x0
+	// static const ::System::String* NFHANOICFFL; // 0x0
+	// static const ::System::String* KOHGCGPHNOP; // 0x0
+	// static const ::System::String* MMNINCBFLNE; // 0x0
+	// static const ::System::String* KIBHCDFKACJ; // 0x0
+	// static const ::System::String* PLBJLNFBCFE; // 0x0
+	// static const ::System::String* DJIHJFPFMDP; // 0x0
+	// static const ::System::String* MPKJCKGGPCB; // 0x0
+	// static const ::System::String* DPCJGHABJFI; // 0x0
+	// static const ::System::String* BNOJILFCBJJ; // 0x0
+	// static const ::System::String* HECGLEGLNCN; // 0x0
+	// static const ::System::String* EANIDECHNDI; // 0x0
+	// static const ::System::String* JKDEALDFEEP; // 0x0
+	// static const ::System::String* GODMBMGAHNJ; // 0x0
+	// static const ::System::String* HLIHDEHFAJP; // 0x0
+	// static const ::System::String* LLAHGFLBGNO; // 0x0
+	// static const ::System::String* HFPGFAKOCFE; // 0x0
+	// static const ::System::String* NJADOCIHIPK; // 0x0
+	// static const ::System::String* MKIGOCHHGCD; // 0x0
+	// static const ::System::String* KJGDOLHBFCI; // 0x0
+	// static const ::System::String* IJDDEMILJOE; // 0x0
+	// static const ::System::String* OCJEPGKJJAE; // 0x0
+	// static const ::System::String* LDKDIMCJIJI; // 0x0
+	// static const ::System::String* CPDNKANFDMK; // 0x0
+	// static const ::System::String* COEMHIPJMJN; // 0x0
+	// static const ::System::String* ALMNGLGJCMO; // 0x0
+	// static const ::System::String* GIAPIJLKNKF; // 0x0
+	// static const ::System::String* MINELDAHKGM; // 0x0
+	// static const ::System::String* JLEHFNPFMEB; // 0x0
+	// static const ::System::String* EAKJPJJCCOG; // 0x0
+	// static const ::System::String* PGDIBGMGOGC; // 0x0
+	// static const ::System::String* KOMHCDMKPDD; // 0x0
+	// static const ::System::String* KEBODKOOFKK; // 0x0
+
 	::System::Void _ctor()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_43BD383C98B4C0C5_141__CTOR_OFFSET))(this);

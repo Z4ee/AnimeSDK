@@ -9,7 +9,7 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::Motions
 {
-	inline static constexpr unsigned int MontionInspector_1_TypeDefinitionIndex = 70086;
+	inline static constexpr unsigned int MontionInspector_1_TypeDefinitionIndex = 73385;
 
 	template <typename T>
 	class MontionInspector_1 : public ::Class_3_3F1B1DE9D9F51912

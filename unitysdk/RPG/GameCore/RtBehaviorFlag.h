@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtBehaviorFlag_TypeDefinitionIndex = 16949;
+	inline static constexpr unsigned int RtBehaviorFlag_TypeDefinitionIndex = 17451;
 
 	enum class RtBehaviorFlag : ::System::Int32
 	{

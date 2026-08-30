@@ -3,7 +3,7 @@
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int GuijiDiceRollClip_GuijiDiceRollResultType_TypeDefinitionIndex = 46358;
+	inline static constexpr unsigned int GuijiDiceRollClip_GuijiDiceRollResultType_TypeDefinitionIndex = 48593;
 
 	enum class GuijiDiceRollClip_GuijiDiceRollResultType : ::System::Int32
 	{

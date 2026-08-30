@@ -1,0 +1,169 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/LimaoNews/LimaoNewsMessageItemType.h"
+#include "unitysdk/RPG/Client/LimaoNews/LimaoNewsMessageItemViewModel.h"
+
+class Class_1_2023A453A03A22A2;
+namespace RPG::Client { class MessageContentBlock; }
+namespace System { class String; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSCHATMESSAGEITEMVIEWMODEL_GETMESSAGEITEMTYPE_OFFSET UNITYSDK_OFFSET(0x19507B90)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSCHATMESSAGEITEMVIEWMODEL_GET_BLOCKS_OFFSET UNITYSDK_OFFSET(0x19507D10)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSCHATMESSAGEITEMVIEWMODEL_GET_ICONPATH_OFFSET UNITYSDK_OFFSET(0x19507D90)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSCHATMESSAGEITEMVIEWMODEL_GET_IMAGEPATH_OFFSET UNITYSDK_OFFSET(0x19507D50)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSCHATMESSAGEITEMVIEWMODEL_GET_ISFUNCTIONOPTION_OFFSET UNITYSDK_OFFSET(0x19507DD0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSCHATMESSAGEITEMVIEWMODEL_GET_ISPLAYERREPLY_OFFSET UNITYSDK_OFFSET(0x19507E10)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSCHATMESSAGEITEMVIEWMODEL_GET_NAME_OFFSET UNITYSDK_OFFSET(0x19507D70)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSCHATMESSAGEITEMVIEWMODEL_GET_OPTIONTEXT_OFFSET UNITYSDK_OFFSET(0x19507DB0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSCHATMESSAGEITEMVIEWMODEL_GET_SYSTEMTEXT_OFFSET UNITYSDK_OFFSET(0x19507DF0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSCHATMESSAGEITEMVIEWMODEL_GET_USEBIGIMG_OFFSET UNITYSDK_OFFSET(0x19507E50)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSCHATMESSAGEITEMVIEWMODEL_GET_WRITETIMERATIO_OFFSET UNITYSDK_OFFSET(0x19507E30)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSCHATMESSAGEITEMVIEWMODEL_MAKEWRITETIMESHORTBYRATIO_OFFSET UNITYSDK_OFFSET(0x19507C60)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSCHATMESSAGEITEMVIEWMODEL_SETUSEBIGIMG_OFFSET UNITYSDK_OFFSET(0x19507CC0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSCHATMESSAGEITEMVIEWMODEL_SET_ICONPATH_OFFSET UNITYSDK_OFFSET(0x19507DA0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSCHATMESSAGEITEMVIEWMODEL_SET_IMAGEPATH_OFFSET UNITYSDK_OFFSET(0x19507D60)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSCHATMESSAGEITEMVIEWMODEL_SET_ISFUNCTIONOPTION_OFFSET UNITYSDK_OFFSET(0x19507DE0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSCHATMESSAGEITEMVIEWMODEL_SET_ISPLAYERREPLY_OFFSET UNITYSDK_OFFSET(0x19507E20)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSCHATMESSAGEITEMVIEWMODEL_SET_NAME_OFFSET UNITYSDK_OFFSET(0x19507D80)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSCHATMESSAGEITEMVIEWMODEL_SET_OPTIONTEXT_OFFSET UNITYSDK_OFFSET(0x19507DC0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSCHATMESSAGEITEMVIEWMODEL_SET_SYSTEMTEXT_OFFSET UNITYSDK_OFFSET(0x19507E00)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSCHATMESSAGEITEMVIEWMODEL_SET_USEBIGIMG_OFFSET UNITYSDK_OFFSET(0x19507E60)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSCHATMESSAGEITEMVIEWMODEL_SET_WRITETIMERATIO_OFFSET UNITYSDK_OFFSET(0x19507E40)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSCHATMESSAGEITEMVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x195076D0)
+
+namespace RPG::Client::LimaoNews
+{
+	inline static constexpr unsigned int LimaoNewsChatMessageItemViewModel_TypeDefinitionIndex = 79110;
+
+	class LimaoNewsChatMessageItemViewModel : public ::RPG::Client::LimaoNews::LimaoNewsMessageItemViewModel
+	{
+	public:
+		::System::String* _Name_k__BackingField; // 0x18
+		::System::Collections::Generic::List_1<::RPG::Client::MessageContentBlock*>* _Blocks; // 0x20
+		::System::String* _OptionText_k__BackingField; // 0x28
+		::System::String* _SystemText_k__BackingField; // 0x30
+		::System::String* _ImagePath_k__BackingField; // 0x38
+		::System::String* _IconPath_k__BackingField; // 0x40
+		::System::Boolean _IsFunctionOption_k__BackingField; // 0x48
+		::System::Boolean _UseBigImg_k__BackingField; // 0x49
+		::System::Boolean _IsPlayerReply_k__BackingField; // 0x4A
+		::System::Single _WriteTimeRatio_k__BackingField; // 0x4C
+		::System::Single _OriginalWriteTime; // 0x50
+
+		::System::Void _ctor(::Class_1_2023A453A03A22A2* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_2023A453A03A22A2*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSCHATMESSAGEITEMVIEWMODEL__CTOR_OFFSET))(this, a1);
+		}
+
+		::System::Void MakeWriteTimeShortByRatio(::System::Single a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSCHATMESSAGEITEMVIEWMODEL_MAKEWRITETIMESHORTBYRATIO_OFFSET))(this, a1);
+		}
+
+		::System::Void SetUseBigImg(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSCHATMESSAGEITEMVIEWMODEL_SETUSEBIGIMG_OFFSET))(this, a1);
+		}
+
+		::System::Collections::Generic::List_1<::RPG::Client::MessageContentBlock*>* get_Blocks()
+		{
+			return ((::System::Collections::Generic::List_1<::RPG::Client::MessageContentBlock*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSCHATMESSAGEITEMVIEWMODEL_GET_BLOCKS_OFFSET))(this);
+		}
+
+		::System::String* get_ImagePath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSCHATMESSAGEITEMVIEWMODEL_GET_IMAGEPATH_OFFSET))(this);
+		}
+
+		::System::Void set_ImagePath(::System::String* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSCHATMESSAGEITEMVIEWMODEL_SET_IMAGEPATH_OFFSET))(this, a1);
+		}
+
+		::System::String* get_Name()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSCHATMESSAGEITEMVIEWMODEL_GET_NAME_OFFSET))(this);
+		}
+
+		::System::Void set_Name(::System::String* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSCHATMESSAGEITEMVIEWMODEL_SET_NAME_OFFSET))(this, a1);
+		}
+
+		::System::String* get_IconPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSCHATMESSAGEITEMVIEWMODEL_GET_ICONPATH_OFFSET))(this);
+		}
+
+		::System::Void set_IconPath(::System::String* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSCHATMESSAGEITEMVIEWMODEL_SET_ICONPATH_OFFSET))(this, a1);
+		}
+
+		::System::String* get_OptionText()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSCHATMESSAGEITEMVIEWMODEL_GET_OPTIONTEXT_OFFSET))(this);
+		}
+
+		::System::Void set_OptionText(::System::String* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSCHATMESSAGEITEMVIEWMODEL_SET_OPTIONTEXT_OFFSET))(this, a1);
+		}
+
+		::System::Boolean get_IsFunctionOption()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSCHATMESSAGEITEMVIEWMODEL_GET_ISFUNCTIONOPTION_OFFSET))(this);
+		}
+
+		::System::Void set_IsFunctionOption(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSCHATMESSAGEITEMVIEWMODEL_SET_ISFUNCTIONOPTION_OFFSET))(this, a1);
+		}
+
+		::System::String* get_SystemText()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSCHATMESSAGEITEMVIEWMODEL_GET_SYSTEMTEXT_OFFSET))(this);
+		}
+
+		::System::Void set_SystemText(::System::String* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSCHATMESSAGEITEMVIEWMODEL_SET_SYSTEMTEXT_OFFSET))(this, a1);
+		}
+
+		::System::Boolean get_IsPlayerReply()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSCHATMESSAGEITEMVIEWMODEL_GET_ISPLAYERREPLY_OFFSET))(this);
+		}
+
+		::System::Void set_IsPlayerReply(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSCHATMESSAGEITEMVIEWMODEL_SET_ISPLAYERREPLY_OFFSET))(this, a1);
+		}
+
+		static ::RPG::Client::LimaoNews::LimaoNewsMessageItemType GetMessageItemType(::Class_1_2023A453A03A22A2* a1)
+		{
+			return ((::RPG::Client::LimaoNews::LimaoNewsMessageItemType(*)(::Class_1_2023A453A03A22A2*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSCHATMESSAGEITEMVIEWMODEL_GETMESSAGEITEMTYPE_OFFSET))(a1);
+		}
+
+		::System::Single get_WriteTimeRatio()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSCHATMESSAGEITEMVIEWMODEL_GET_WRITETIMERATIO_OFFSET))(this);
+		}
+
+		::System::Void set_WriteTimeRatio(::System::Single a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSCHATMESSAGEITEMVIEWMODEL_SET_WRITETIMERATIO_OFFSET))(this, a1);
+		}
+
+		::System::Boolean get_UseBigImg()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSCHATMESSAGEITEMVIEWMODEL_GET_USEBIGIMG_OFFSET))(this);
+		}
+
+		::System::Void set_UseBigImg(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSCHATMESSAGEITEMVIEWMODEL_SET_USEBIGIMG_OFFSET))(this, a1);
+		}
+	};
+}

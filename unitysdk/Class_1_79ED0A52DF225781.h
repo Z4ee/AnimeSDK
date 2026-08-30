@@ -4,17 +4,17 @@
 
 namespace System::Collections::Generic { template <typename T1, typename T2> class IReadOnlyDictionary_2; }
 
-#define CLASS_1_79ED0A52DF225781_GET_HASREWARD_OFFSET UNITYSDK_OFFSET(0x16ED00F0)
-#define CLASS_1_79ED0A52DF225781_GET_ISNEWBESTRECORD_OFFSET UNITYSDK_OFFSET(0x16ED0100)
-#define CLASS_1_79ED0A52DF225781_METHOD_1_50658C4E86BBB859_OFFSET UNITYSDK_OFFSET(0x16ED0120)
-#define CLASS_1_79ED0A52DF225781__CTOR_OFFSET UNITYSDK_OFFSET(0x16ED0110)
+#define CLASS_1_79ED0A52DF225781_GET_HASREWARD_OFFSET UNITYSDK_OFFSET(0x179D21B0)
+#define CLASS_1_79ED0A52DF225781_GET_ISNEWBESTRECORD_OFFSET UNITYSDK_OFFSET(0x179D21C0)
+#define CLASS_1_79ED0A52DF225781_METHOD_1_50658C4E86BBB859_OFFSET UNITYSDK_OFFSET(0x179D21E0)
+#define CLASS_1_79ED0A52DF225781__CTOR_OFFSET UNITYSDK_OFFSET(0x179D21D0)
 
-inline static constexpr unsigned int Class_1_79ED0A52DF225781_TypeDefinitionIndex = 76492;
+inline static constexpr unsigned int Class_1_79ED0A52DF225781_TypeDefinitionIndex = 80124;
 
 class Class_1_79ED0A52DF225781 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::IReadOnlyDictionary_2<::System::UInt32, ::System::Int32>* Field_1_0; // 0x10
+	::System::Collections::Generic::IReadOnlyDictionary_2<::System::UInt32, ::System::Int32>* HDNGGBAIMPP; // 0x10
 	::System::Boolean _HasReward_k__BackingField; // 0x18
 	::System::Boolean _IsNewBestRecord_k__BackingField; // 0x19
 

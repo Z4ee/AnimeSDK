@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int WorkNodeState_TypeDefinitionIndex = 58328;
+	inline static constexpr unsigned int WorkNodeState_TypeDefinitionIndex = 61155;
 
 	enum class WorkNodeState : ::System::Int32
 	{

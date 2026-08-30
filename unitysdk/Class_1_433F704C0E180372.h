@@ -5,18 +5,18 @@
 
 namespace RPG { template <typename T1, typename T2> class PoolDictionary_2; }
 
-#define CLASS_1_433F704C0E180372_CLEAR_OFFSET UNITYSDK_OFFSET(0x180C8240)
-#define CLASS_1_433F704C0E180372_ONALLOC_OFFSET UNITYSDK_OFFSET(0x180C82A0)
-#define CLASS_1_433F704C0E180372_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x180C82F0)
-#define CLASS_1_433F704C0E180372__CTOR_OFFSET UNITYSDK_OFFSET(0x180C8330)
+#define CLASS_1_433F704C0E180372_CLEAR_OFFSET UNITYSDK_OFFSET(0x1BA9B430)
+#define CLASS_1_433F704C0E180372_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1BA9B490)
+#define CLASS_1_433F704C0E180372_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1BA9B4E0)
+#define CLASS_1_433F704C0E180372__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA9B520)
 
-inline static constexpr unsigned int Class_1_433F704C0E180372_TypeDefinitionIndex = 40964;
+inline static constexpr unsigned int Class_1_433F704C0E180372_TypeDefinitionIndex = 41923;
 
 class Class_1_433F704C0E180372 : public ::System::Object
 {
 public:
-	::RPG::PoolDictionary_2<::RPG::Client::LittleGame::FiveDim::FiveDimStatisticPlayerActionType, ::System::UInt32>* Field_1_0; // 0x10
-	::System::Single Field_1_1; // 0x18
+	::RPG::PoolDictionary_2<::RPG::Client::LittleGame::FiveDim::FiveDimStatisticPlayerActionType, ::System::UInt32>* EDMKJDNECNE; // 0x10
+	::System::Single LALKFADHJJL; // 0x18
 
 	::System::Void _ctor()
 	{

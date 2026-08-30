@@ -7,7 +7,7 @@
 #include "unitysdk/Struct_2_F8D9CEC872B937AF.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_247;
+class Class_0_16E4307DCC419505_252;
 class Class_1_58F7C510A0EB2163;
 class Class_1_D3CC73B16B410533;
 namespace Entitas { class IContext; }
@@ -25,7 +25,7 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int SimpleTriggerService_1_TypeDefinitionIndex = 72610;
+	inline static constexpr unsigned int SimpleTriggerService_1_TypeDefinitionIndex = 76046;
 
 	template <typename TEntity>
 	class SimpleTriggerService_1 : public ::System::Object

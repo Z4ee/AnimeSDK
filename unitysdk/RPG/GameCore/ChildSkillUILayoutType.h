@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChildSkillUILayoutType_TypeDefinitionIndex = 17445;
+	inline static constexpr unsigned int ChildSkillUILayoutType_TypeDefinitionIndex = 17962;
 
 	enum class ChildSkillUILayoutType : ::System::Int32
 	{

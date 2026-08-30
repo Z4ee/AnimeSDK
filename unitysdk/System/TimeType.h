@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define SYSTEM_TIMETYPE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1A742620)
-#define SYSTEM_TIMETYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A742610)
+#define SYSTEM_TIMETYPE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1C673C40)
+#define SYSTEM_TIMETYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C673C30)
 
 namespace System
 {
-	inline static constexpr unsigned int TimeType_TypeDefinitionIndex = 433;
+	inline static constexpr unsigned int TimeType_TypeDefinitionIndex = 436;
 
 	class TimeType : public ::System::Object
 	{

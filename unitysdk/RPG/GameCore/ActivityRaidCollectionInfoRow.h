@@ -6,20 +6,20 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIVITYRAIDCOLLECTIONINFOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1AB06D50)
-#define RPG_GAMECORE_ACTIVITYRAIDCOLLECTIONINFOROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1AB073F0)
+#define RPG_GAMECORE_ACTIVITYRAIDCOLLECTIONINFOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CA189B0)
+#define RPG_GAMECORE_ACTIVITYRAIDCOLLECTIONINFOROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CA19050)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityRaidCollectionInfoRow_TypeDefinitionIndex = 11848;
+	inline static constexpr unsigned int ActivityRaidCollectionInfoRow_TypeDefinitionIndex = 12237;
 
 	class ActivityRaidCollectionInfoRow : public ::System::Object
 	{
 	public:
 		::System::String* IconPath; // 0x10
 		::Il2CppArray<::System::UInt32>* TabIDList; // 0x18
-		::System::UInt32 RewardID; // 0x20
-		::RPG::GameCore::RaidCollectionType RaidCollectionType; // 0x24
+		::RPG::GameCore::RaidCollectionType RaidCollectionType; // 0x20
+		::System::UInt32 RewardID; // 0x24
 		::System::UInt32 ActivityID; // 0x28
 
 		::System::Void _ctor()

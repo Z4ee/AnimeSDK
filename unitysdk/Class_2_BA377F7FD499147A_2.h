@@ -6,10 +6,10 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_2_BA377F7FD499147A_2_METHOD_2_62DF1EBE90234E13_OFFSET UNITYSDK_OFFSET(0x16EA6050)
-#define CLASS_2_BA377F7FD499147A_2__CTOR_OFFSET UNITYSDK_OFFSET(0x16EA6040)
+#define CLASS_2_BA377F7FD499147A_2_METHOD_2_62DF1EBE90234E13_OFFSET UNITYSDK_OFFSET(0x17A65400)
+#define CLASS_2_BA377F7FD499147A_2__CTOR_OFFSET UNITYSDK_OFFSET(0x17A653F0)
 
-inline static constexpr unsigned int Class_2_BA377F7FD499147A_2_TypeDefinitionIndex = 65925;
+inline static constexpr unsigned int Class_2_BA377F7FD499147A_2_TypeDefinitionIndex = 68964;
 
 class Class_2_BA377F7FD499147A_2 : public ::Class_1_8421D4DF3905ADA9
 {

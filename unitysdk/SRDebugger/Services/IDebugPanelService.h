@@ -9,7 +9,7 @@ namespace System { template <typename T1, typename T2> class Action_2; }
 
 namespace SRDebugger::Services
 {
-	inline static constexpr unsigned int IDebugPanelService_TypeDefinitionIndex = 36507;
+	inline static constexpr unsigned int IDebugPanelService_TypeDefinitionIndex = 37366;
 
 	class IDebugPanelService
 	{

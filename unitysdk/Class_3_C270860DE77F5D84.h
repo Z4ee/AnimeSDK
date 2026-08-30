@@ -6,18 +6,18 @@ namespace RPG::GameCore { class MazePuzzleOrigamiColonyRow; }
 namespace RPG::GameCore { class PlayOrigamiFinishTalk; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_C270860DE77F5D84_DISPOSE_OFFSET UNITYSDK_OFFSET(0x149C35D0)
-#define CLASS_3_C270860DE77F5D84_METHOD_3_118B343B838CF2BB_OFFSET UNITYSDK_OFFSET(0x149C38A0)
-#define CLASS_3_C270860DE77F5D84_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x149C3620)
-#define CLASS_3_C270860DE77F5D84__CTOR_OFFSET UNITYSDK_OFFSET(0x149C35A0)
+#define CLASS_3_C270860DE77F5D84_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16499370)
+#define CLASS_3_C270860DE77F5D84_METHOD_3_118B343B838CF2BB_OFFSET UNITYSDK_OFFSET(0x16499640)
+#define CLASS_3_C270860DE77F5D84_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x164993C0)
+#define CLASS_3_C270860DE77F5D84__CTOR_OFFSET UNITYSDK_OFFSET(0x16499340)
 
-inline static constexpr unsigned int Class_3_C270860DE77F5D84_TypeDefinitionIndex = 50678;
+inline static constexpr unsigned int Class_3_C270860DE77F5D84_TypeDefinitionIndex = 53360;
 
 class Class_3_C270860DE77F5D84 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::PlayOrigamiFinishTalk*>
 {
 public:
-	::RPG::GameCore::MazePuzzleOrigamiColonyRow* Field_3_0; // 0x28
-	::System::UInt32 Field_3_1; // 0x30
+	::RPG::GameCore::MazePuzzleOrigamiColonyRow* IKNODJJFFHK; // 0x28
+	::System::UInt32 KGGMOFBNALD; // 0x30
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::PlayOrigamiFinishTalk* a2)
 	{

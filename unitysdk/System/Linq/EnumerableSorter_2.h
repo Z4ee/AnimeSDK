@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class IComparer_1
 
 namespace System::Linq
 {
-	inline static constexpr unsigned int EnumerableSorter_2_TypeDefinitionIndex = 3172;
+	inline static constexpr unsigned int EnumerableSorter_2_TypeDefinitionIndex = 3180;
 
 	template <typename TElement, typename TKey>
 	class EnumerableSorter_2 : public ::System::Linq::EnumerableSorter_1<TElement>

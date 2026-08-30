@@ -4,7 +4,7 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2ArenaAllocatorIndexer_1_TypeDefinitionIndex = 35026;
+	inline static constexpr unsigned int B2ArenaAllocatorIndexer_1_TypeDefinitionIndex = 35887;
 
 	template <typename T>
 	class B2ArenaAllocatorIndexer_1 : public ::System::Object

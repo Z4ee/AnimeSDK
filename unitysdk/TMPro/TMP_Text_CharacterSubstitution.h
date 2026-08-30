@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define TMPRO_TMP_TEXT_CHARACTERSUBSTITUTION__CTOR_OFFSET UNITYSDK_OFFSET(0x6E5720)
+#define TMPRO_TMP_TEXT_CHARACTERSUBSTITUTION__CTOR_OFFSET UNITYSDK_OFFSET(0x6B4C20)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_Text_CharacterSubstitution_TypeDefinitionIndex = 41853;
+	inline static constexpr unsigned int TMP_Text_CharacterSubstitution_TypeDefinitionIndex = 43464;
 
 	struct alignas(4) TMP_Text_CharacterSubstitution
 	{

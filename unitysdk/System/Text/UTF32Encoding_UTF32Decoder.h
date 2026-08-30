@@ -4,19 +4,19 @@
 
 namespace System::Text { class UTF32Encoding; }
 
-#define SYSTEM_TEXT_UTF32ENCODING_UTF32DECODER_GET_HASSTATE_OFFSET UNITYSDK_OFFSET(0x1996F620)
-#define SYSTEM_TEXT_UTF32ENCODING_UTF32DECODER_RESET_OFFSET UNITYSDK_OFFSET(0x1996F580)
-#define SYSTEM_TEXT_UTF32ENCODING_UTF32DECODER__CTOR_OFFSET UNITYSDK_OFFSET(0x1996ED30)
+#define SYSTEM_TEXT_UTF32ENCODING_UTF32DECODER_GET_HASSTATE_OFFSET UNITYSDK_OFFSET(0x1B3D0F70)
+#define SYSTEM_TEXT_UTF32ENCODING_UTF32DECODER_RESET_OFFSET UNITYSDK_OFFSET(0x1B3D0ED0)
+#define SYSTEM_TEXT_UTF32ENCODING_UTF32DECODER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3D0680)
 
 namespace System::Text
 {
-	inline static constexpr unsigned int UTF32Encoding_UTF32Decoder_TypeDefinitionIndex = 500;
+	inline static constexpr unsigned int UTF32Encoding_UTF32Decoder_TypeDefinitionIndex = 503;
 
 	class UTF32Encoding_UTF32Decoder : public ::System::Text::DecoderNLS
 	{
 	public:
-		::System::Int32 readByteCount; // 0x30
-		::System::Int32 iChar; // 0x34
+		::System::Int32 iChar; // 0x30
+		::System::Int32 readByteCount; // 0x34
 
 		::System::Void _ctor(::System::Text::UTF32Encoding* a1)
 		{

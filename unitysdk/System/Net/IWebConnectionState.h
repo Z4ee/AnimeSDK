@@ -5,7 +5,7 @@ namespace System::Net { class WebConnectionGroup; }
 
 namespace System::Net
 {
-	inline static constexpr unsigned int IWebConnectionState_TypeDefinitionIndex = 2857;
+	inline static constexpr unsigned int IWebConnectionState_TypeDefinitionIndex = 2864;
 
 	class IWebConnectionState
 	{

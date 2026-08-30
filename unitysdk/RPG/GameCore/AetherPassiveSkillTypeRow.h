@@ -6,18 +6,18 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_AETHERPASSIVESKILLTYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1AE727A0)
-#define RPG_GAMECORE_AETHERPASSIVESKILLTYPEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE72DE0)
+#define RPG_GAMECORE_AETHERPASSIVESKILLTYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CBCE6E0)
+#define RPG_GAMECORE_AETHERPASSIVESKILLTYPEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CBCED20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AetherPassiveSkillTypeRow_TypeDefinitionIndex = 10571;
+	inline static constexpr unsigned int AetherPassiveSkillTypeRow_TypeDefinitionIndex = 10912;
 
 	class AetherPassiveSkillTypeRow : public ::System::Object
 	{
 	public:
-		::System::String* IconPath; // 0x10
-		::System::String* Name; // 0x18
+		::System::String* Name; // 0x10
+		::System::String* IconPath; // 0x18
 		::RPG::GameCore::AetherPassiveSkillType PassiveSkillType; // 0x20
 
 		::System::Void _ctor()

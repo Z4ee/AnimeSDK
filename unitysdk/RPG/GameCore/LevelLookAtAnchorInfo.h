@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELLOOKATANCHORINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B071D40)
-#define RPG_GAMECORE_LEVELLOOKATANCHORINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B071E50)
+#define RPG_GAMECORE_LEVELLOOKATANCHORINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C10F220)
+#define RPG_GAMECORE_LEVELLOOKATANCHORINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1C119AC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelLookAtAnchorInfo_TypeDefinitionIndex = 16663;
+	inline static constexpr unsigned int LevelLookAtAnchorInfo_TypeDefinitionIndex = 17165;
 
 	class LevelLookAtAnchorInfo : public ::RPG::GameCore::JsonConfig
 	{

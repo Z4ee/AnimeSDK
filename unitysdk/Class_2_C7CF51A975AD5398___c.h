@@ -6,22 +6,22 @@
 
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define CLASS_2_C7CF51A975AD5398___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xE4F3390)
-#define CLASS_2_C7CF51A975AD5398___C__CTOR_OFFSET UNITYSDK_OFFSET(0xE4F33D0)
-#define CLASS_2_C7CF51A975AD5398___C__FINDBOTTOMPOINT_B__3_0_OFFSET UNITYSDK_OFFSET(0xE4F33E0)
+#define CLASS_2_C7CF51A975AD5398___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x105D9CF0)
+#define CLASS_2_C7CF51A975AD5398___C__CTOR_OFFSET UNITYSDK_OFFSET(0x105D9D30)
+#define CLASS_2_C7CF51A975AD5398___C__FINDBOTTOMPOINT_B__3_0_OFFSET UNITYSDK_OFFSET(0x105D9D40)
 
-inline static constexpr unsigned int Class_2_C7CF51A975AD5398___c_TypeDefinitionIndex = 67206;
+inline static constexpr unsigned int Class_2_C7CF51A975AD5398___c_TypeDefinitionIndex = 70325;
 
 class Class_2_C7CF51A975AD5398___c : public ::System::Object
 {
 public:
-	static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::UnityEngine::Vector3>, ::System::Single>** StaticGet___9__3_0()
-	{
-		return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::UnityEngine::Vector3>, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_C7CF51A975AD5398___c_TypeDefinitionIndex)->GetStaticField(0x684E0);
-	}
 	static ::Class_2_C7CF51A975AD5398___c** StaticGet___9()
 	{
-		return (::Class_2_C7CF51A975AD5398___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_C7CF51A975AD5398___c_TypeDefinitionIndex)->GetStaticField(0x684E8);
+		return (::Class_2_C7CF51A975AD5398___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_C7CF51A975AD5398___c_TypeDefinitionIndex)->GetStaticField(0x1B6E0);
+	}
+	static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::UnityEngine::Vector3>, ::System::Single>** StaticGet___9__3_0()
+	{
+		return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::UnityEngine::Vector3>, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_C7CF51A975AD5398___c_TypeDefinitionIndex)->GetStaticField(0x1B6E8);
 	}
 
 	static ::System::Void _cctor()

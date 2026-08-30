@@ -40,7 +40,7 @@ namespace ZLinq::Internal { template <typename T> class HashSetSlim_1; }
 
 namespace ZLinq
 {
-	inline static constexpr unsigned int ValueEnumerableExtensions_TypeDefinitionIndex = 6337;
+	inline static constexpr unsigned int ValueEnumerableExtensions_TypeDefinitionIndex = 6082;
 
 	class ValueEnumerableExtensions : public ::System::Object
 	{

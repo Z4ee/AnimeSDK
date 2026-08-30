@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_1037;
+class Class_0_16E4307DCC419505_1091;
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 
-#define CLASS_2_C616F330B6362345_CLASS_1_17809CFDCE3D87DA__CTOR_OFFSET UNITYSDK_OFFSET(0x1923E500)
+#define CLASS_2_C616F330B6362345_CLASS_1_17809CFDCE3D87DA__CTOR_OFFSET UNITYSDK_OFFSET(0x16B4B730)
 
-inline static constexpr unsigned int Class_2_C616F330B6362345_Class_1_17809CFDCE3D87DA_TypeDefinitionIndex = 68316;
+inline static constexpr unsigned int Class_2_C616F330B6362345_Class_1_17809CFDCE3D87DA_TypeDefinitionIndex = 71496;
 
 class Class_2_C616F330B6362345_Class_1_17809CFDCE3D87DA : public ::System::Object
 {
 public:
-	::System::String* Field_1_0; // 0x10
-	::Class_0_16E4307DCC419505_1037* Field_1_1; // 0x18
-	::RPG::GameCore::GameEntity* Field_1_2; // 0x20
+	::Class_0_16E4307DCC419505_1091* BELJCFGIDMI; // 0x10
+	::RPG::GameCore::GameEntity* GGKGFABFGFE; // 0x18
+	::System::String* BBKOHGGOOOD; // 0x20
 
 	::System::Void _ctor()
 	{

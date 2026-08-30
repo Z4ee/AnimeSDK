@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/SDFSectorCoord.h"
 
-#define UNITYENGINE_SDFUTILS_GETSECTORCOORDHASH_OFFSET UNITYSDK_OFFSET(0x1BFAE1C0)
+#define UNITYENGINE_SDFUTILS_GETSECTORCOORDHASH_OFFSET UNITYSDK_OFFSET(0x1DCD89F0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int SDFUtils_TypeDefinitionIndex = 4254;
+	inline static constexpr unsigned int SDFUtils_TypeDefinitionIndex = 4264;
 
 	class SDFUtils : public ::System::Object
 	{

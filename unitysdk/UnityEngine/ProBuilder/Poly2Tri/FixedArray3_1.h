@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace UnityEngine::ProBuilder::Poly2Tri
 {
-	inline static constexpr unsigned int FixedArray3_1_TypeDefinitionIndex = 36601;
+	inline static constexpr unsigned int FixedArray3_1_TypeDefinitionIndex = 37460;
 
 	template <typename T>
 	struct FixedArray3_1

@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_360;
+class Class_0_16E4307DCC419505_379;
 namespace System { class Action; }
 
-#define CLASS_1_8C728FF5E0D9FC84___C__DISPLAYCLASS29_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15F170F0)
-#define CLASS_1_8C728FF5E0D9FC84___C__DISPLAYCLASS29_0__DEBUGACTIVELAYER_B__0_OFFSET UNITYSDK_OFFSET(0x15F19430)
+#define CLASS_1_8C728FF5E0D9FC84___C__DISPLAYCLASS29_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18A6EE00)
+#define CLASS_1_8C728FF5E0D9FC84___C__DISPLAYCLASS29_0__DEBUGACTIVELAYER_B__0_OFFSET UNITYSDK_OFFSET(0x18A714D0)
 
-inline static constexpr unsigned int Class_1_8C728FF5E0D9FC84___c__DisplayClass29_0_TypeDefinitionIndex = 47590;
+inline static constexpr unsigned int Class_1_8C728FF5E0D9FC84___c__DisplayClass29_0_TypeDefinitionIndex = 49871;
 
 class Class_1_8C728FF5E0D9FC84___c__DisplayClass29_0 : public ::System::Object
 {
 public:
 	::System::Action* __9__0; // 0x10
-	::Class_0_16E4307DCC419505_360* du; // 0x18
+	::Class_0_16E4307DCC419505_379* du; // 0x18
 
 	::System::Void _ctor()
 	{

@@ -14,33 +14,33 @@ namespace System::Reflection { class MethodInfo; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 namespace System::Security { class IPermission; }
 
-#define SYSTEM_SECURITY_SECURITYEXCEPTION_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x150BD250)
-#define SYSTEM_SECURITY_SECURITYEXCEPTION_TOSTRING_OFFSET UNITYSDK_OFFSET(0x150BD390)
-#define SYSTEM_SECURITY_SECURITYEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x150B8030)
-#define SYSTEM_SECURITY_SECURITYEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x150BCF20)
-#define SYSTEM_SECURITY_SECURITYEXCEPTION__CTOR_3_OFFSET UNITYSDK_OFFSET(0x150BD170)
-#define SYSTEM_SECURITY_SECURITYEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x150BCE10)
+#define SYSTEM_SECURITY_SECURITYEXCEPTION_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x166D9630)
+#define SYSTEM_SECURITY_SECURITYEXCEPTION_TOSTRING_OFFSET UNITYSDK_OFFSET(0x166D9770)
+#define SYSTEM_SECURITY_SECURITYEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x166D43B0)
+#define SYSTEM_SECURITY_SECURITYEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x166D9300)
+#define SYSTEM_SECURITY_SECURITYEXCEPTION__CTOR_3_OFFSET UNITYSDK_OFFSET(0x166D9550)
+#define SYSTEM_SECURITY_SECURITYEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x166D91F0)
 
 namespace System::Security
 {
-	inline static constexpr unsigned int SecurityException_TypeDefinitionIndex = 945;
+	inline static constexpr unsigned int SecurityException_TypeDefinitionIndex = 952;
 
 	class SecurityException : public ::System::SystemException
 	{
 	public:
-		::System::Type* permissionType; // 0x88
-		::System::Object* _demanded; // 0x90
-		::System::Reflection::MethodInfo* _method; // 0x98
-		::System::Object* _permitset; // 0xA0
-		::System::Security::IPermission* _firstperm; // 0xA8
-		::System::String* _granted; // 0xB0
-		::System::String* permissionState; // 0xB8
-		::System::String* _refused; // 0xC0
-		::System::Object* _denyset; // 0xC8
-		::System::Reflection::AssemblyName* _assembly; // 0xD0
-		::System::String* _url; // 0xD8
-		::System::Security::Permissions::SecurityAction _action; // 0xE0
-		::System::Security::SecurityZone _zone; // 0xE4
+		::System::Reflection::AssemblyName* _assembly; // 0x88
+		::System::String* permissionState; // 0x90
+		::System::Object* _denyset; // 0x98
+		::System::Reflection::MethodInfo* _method; // 0xA0
+		::System::String* _url; // 0xA8
+		::System::Security::IPermission* _firstperm; // 0xB0
+		::System::String* _refused; // 0xB8
+		::System::Type* permissionType; // 0xC0
+		::System::Object* _permitset; // 0xC8
+		::System::String* _granted; // 0xD0
+		::System::Object* _demanded; // 0xD8
+		::System::Security::SecurityZone _zone; // 0xE0
+		::System::Security::Permissions::SecurityAction _action; // 0xE4
 
 		::System::Void _ctor()
 		{

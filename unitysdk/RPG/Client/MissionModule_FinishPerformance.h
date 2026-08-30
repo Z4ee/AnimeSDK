@@ -6,7 +6,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MissionModule_FinishPerformance_TypeDefinitionIndex = 63201;
+	inline static constexpr unsigned int MissionModule_FinishPerformance_TypeDefinitionIndex = 66186;
 
 	struct alignas(4) MissionModule_FinishPerformance
 	{

@@ -4,7 +4,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ToggleButton_InitialMemento_TypeDefinitionIndex = 69398;
+	inline static constexpr unsigned int ToggleButton_InitialMemento_TypeDefinitionIndex = 72613;
 
 	struct alignas(1) ToggleButton_InitialMemento
 	{

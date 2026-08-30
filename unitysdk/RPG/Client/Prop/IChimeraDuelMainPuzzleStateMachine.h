@@ -6,7 +6,7 @@ namespace RPG::Client::Prop { class IChimeraDuelMainPuzzleState; }
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int IChimeraDuelMainPuzzleStateMachine_TypeDefinitionIndex = 74349;
+	inline static constexpr unsigned int IChimeraDuelMainPuzzleStateMachine_TypeDefinitionIndex = 77834;
 
 	class IChimeraDuelMainPuzzleStateMachine
 	{

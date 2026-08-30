@@ -8,16 +8,16 @@ namespace RPG::GameCore { class AdvSetDynamicValueByTargetDistance; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_B6A7C315FC7EE469_METHOD_3_4D047432F8151DA0_OFFSET UNITYSDK_OFFSET(0x16242740)
-#define CLASS_3_B6A7C315FC7EE469_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16242110)
-#define CLASS_3_B6A7C315FC7EE469__CTOR_OFFSET UNITYSDK_OFFSET(0x162420E0)
+#define CLASS_3_B6A7C315FC7EE469_METHOD_3_4D047432F8151DA0_OFFSET UNITYSDK_OFFSET(0x18DF1840)
+#define CLASS_3_B6A7C315FC7EE469_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18DF1210)
+#define CLASS_3_B6A7C315FC7EE469__CTOR_OFFSET UNITYSDK_OFFSET(0x18DF11E0)
 
-inline static constexpr unsigned int Class_3_B6A7C315FC7EE469_TypeDefinitionIndex = 55315;
+inline static constexpr unsigned int Class_3_B6A7C315FC7EE469_TypeDefinitionIndex = 58039;
 
 class Class_3_B6A7C315FC7EE469 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdvSetDynamicValueByTargetDistance*>
 {
 public:
-	::RPG::GameCore::StringHash Field_3_0; // 0x28
+	::RPG::GameCore::StringHash IMCFADGAEIN; // 0x28
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::AdvSetDynamicValueByTargetDistance* a2)
 	{

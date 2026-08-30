@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define RPG_QA_QAMANAGER_LOGINFOSENDER_SENDLOG_OFFSET UNITYSDK_OFFSET(0x19D466D0)
-#define RPG_QA_QAMANAGER_LOGINFOSENDER__CTOR_OFFSET UNITYSDK_OFFSET(0x19D45EF0)
+#define RPG_QA_QAMANAGER_LOGINFOSENDER_SENDLOG_OFFSET UNITYSDK_OFFSET(0x1A376C20)
+#define RPG_QA_QAMANAGER_LOGINFOSENDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A376440)
 
 namespace RPG::QA
 {
-	inline static constexpr unsigned int QAManager_LogInfoSender_TypeDefinitionIndex = 49452;
+	inline static constexpr unsigned int QAManager_LogInfoSender_TypeDefinitionIndex = 52109;
 
 	class QAManager_LogInfoSender : public ::System::Object
 	{

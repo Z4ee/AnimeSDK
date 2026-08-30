@@ -6,10 +6,10 @@ class Class_1_BFF1DA2C4D50F81F;
 namespace RPG::Client { class ActivityBenefitV2Round; }
 namespace RPG::Client { class ScheduleData; }
 
-#define CLASS_1_BFF1DA2C4D50F81F___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14286060)
-#define CLASS_1_BFF1DA2C4D50F81F___C__DISPLAYCLASS8_0___ONSCHEDULECONFIGREFRESHFINISH_B__0_OFFSET UNITYSDK_OFFSET(0x142865F0)
+#define CLASS_1_BFF1DA2C4D50F81F___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1850ED40)
+#define CLASS_1_BFF1DA2C4D50F81F___C__DISPLAYCLASS8_0___ONSCHEDULECONFIGREFRESHFINISH_B__0_OFFSET UNITYSDK_OFFSET(0x1850F2D0)
 
-inline static constexpr unsigned int Class_1_BFF1DA2C4D50F81F___c__DisplayClass8_0_TypeDefinitionIndex = 58669;
+inline static constexpr unsigned int Class_1_BFF1DA2C4D50F81F___c__DisplayClass8_0_TypeDefinitionIndex = 61500;
 
 class Class_1_BFF1DA2C4D50F81F___c__DisplayClass8_0 : public ::System::Object
 {

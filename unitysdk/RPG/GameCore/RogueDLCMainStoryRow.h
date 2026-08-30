@@ -7,25 +7,25 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUEDLCMAINSTORYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CFA6B20)
-#define RPG_GAMECORE_ROGUEDLCMAINSTORYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFA6EF0)
+#define RPG_GAMECORE_ROGUEDLCMAINSTORYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D929D70)
+#define RPG_GAMECORE_ROGUEDLCMAINSTORYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D92B9E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueDLCMainStoryRow_TypeDefinitionIndex = 14206;
+	inline static constexpr unsigned int RogueDLCMainStoryRow_TypeDefinitionIndex = 14626;
 
 	class RogueDLCMainStoryRow : public ::System::Object
 	{
 	public:
 		::System::String* MainStoryButtonIcon; // 0x10
 		::System::Boolean IsBonusUnlock; // 0x18
-		::System::UInt32 MainStoryID; // 0x1C
-		::RPG::Client::TextID BonusToast; // 0x20
-		::RPG::GameCore::ChessRogueMainStoryToastType MainStoryToastType; // 0x30
-		::System::UInt32 Layer; // 0x34
-		::System::UInt32 UnlockAeonDimension; // 0x38
-		::System::UInt32 UnlockPoint; // 0x3C
-		::RPG::Client::TextID MainStoryName; // 0x40
+		::RPG::GameCore::ChessRogueMainStoryToastType MainStoryToastType; // 0x1C
+		::System::UInt32 UnlockAeonDimension; // 0x20
+		::System::UInt32 UnlockPoint; // 0x24
+		::System::UInt32 MainStoryID; // 0x28
+		::System::UInt32 Layer; // 0x2C
+		::RPG::Client::TextID MainStoryName; // 0x30
+		::RPG::Client::TextID BonusToast; // 0x40
 
 		::System::Void _ctor()
 		{

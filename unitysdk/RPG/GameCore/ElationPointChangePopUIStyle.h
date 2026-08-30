@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ElationPointChangePopUIStyle_TypeDefinitionIndex = 23790;
+	inline static constexpr unsigned int ElationPointChangePopUIStyle_TypeDefinitionIndex = 24377;
 
 	enum class ElationPointChangePopUIStyle : ::System::Int32
 	{

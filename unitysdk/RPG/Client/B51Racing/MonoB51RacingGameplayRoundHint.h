@@ -1,0 +1,79 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Sofa/BaseSofaControl.h"
+
+class Class_0_16E4307DCC419505_1402;
+class Class_1_576F4DC5F5A776FC;
+namespace System { class String; }
+namespace System::Collections { class IEnumerator; }
+namespace UnityEngine { class Animation; }
+namespace UnityEngine { class Coroutine; }
+
+#define RPG_CLIENT_B51RACING_MONOB51RACINGGAMEPLAYROUNDHINT_PLAY_OFFSET UNITYSDK_OFFSET(0x1B6B8CC0)
+#define RPG_CLIENT_B51RACING_MONOB51RACINGGAMEPLAYROUNDHINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6D76A0)
+#define RPG_CLIENT_B51RACING_MONOB51RACINGGAMEPLAYROUNDHINT__DEACTIVATEAFTER_OFFSET UNITYSDK_OFFSET(0x1B6D7210)
+#define RPG_CLIENT_B51RACING_MONOB51RACINGGAMEPLAYROUNDHINT__GETTOTALLAP_OFFSET UNITYSDK_OFFSET(0x1B6D70B0)
+#define RPG_CLIENT_B51RACING_MONOB51RACINGGAMEPLAYROUNDHINT__ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1B6D75E0)
+#define RPG_CLIENT_B51RACING_MONOB51RACINGGAMEPLAYROUNDHINT__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0x1B6D74B0)
+#define RPG_CLIENT_B51RACING_MONOB51RACINGGAMEPLAYROUNDHINT__PLAYANIMATION_OFFSET UNITYSDK_OFFSET(0x1B6D7140)
+#define RPG_CLIENT_B51RACING_MONOB51RACINGGAMEPLAYROUNDHINT__RESOLVEACTIVITYSERVICE_OFFSET UNITYSDK_OFFSET(0x1B6D72A0)
+#define RPG_CLIENT_B51RACING_MONOB51RACINGGAMEPLAYROUNDHINT__RESOLVECONFIGREPO_OFFSET UNITYSDK_OFFSET(0x1B6D7390)
+
+namespace RPG::Client::B51Racing
+{
+	inline static constexpr unsigned int MonoB51RacingGameplayRoundHint_TypeDefinitionIndex = 80566;
+
+	class MonoB51RacingGameplayRoundHint : public ::Sofa::BaseSofaControl
+	{
+	public:
+		// static const ::System::String* ROUND_HINT_ANIM_CLIP; // 0x0
+		// static const ::System::Int32 DEFAULT_TOTAL_LAP = 0x1; // 0x0
+		::UnityEngine::Animation* _Animation; // 0x38
+		::UnityEngine::Coroutine* _HideCoroutine; // 0x40
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_MONOB51RACINGGAMEPLAYROUNDHINT__CTOR_OFFSET))(this);
+		}
+
+		::System::Void Play(::System::Int32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_MONOB51RACINGGAMEPLAYROUNDHINT_PLAY_OFFSET))(this, a1);
+		}
+
+		static ::System::Int32 _GetTotalLap()
+		{
+			return ((::System::Int32(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_MONOB51RACINGGAMEPLAYROUNDHINT__GETTOTALLAP_OFFSET))();
+		}
+
+		static ::Class_1_576F4DC5F5A776FC* _ResolveActivityService()
+		{
+			return ((::Class_1_576F4DC5F5A776FC*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_MONOB51RACINGGAMEPLAYROUNDHINT__RESOLVEACTIVITYSERVICE_OFFSET))();
+		}
+
+		static ::Class_0_16E4307DCC419505_1402* _ResolveConfigRepo()
+		{
+			return ((::Class_0_16E4307DCC419505_1402*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_MONOB51RACINGGAMEPLAYROUNDHINT__RESOLVECONFIGREPO_OFFSET))();
+		}
+
+		::System::Single _PlayAnimation()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_MONOB51RACINGGAMEPLAYROUNDHINT__PLAYANIMATION_OFFSET))(this);
+		}
+
+		::System::Collections::IEnumerator* _DeactivateAfter(::System::Single a1)
+		{
+			return ((::System::Collections::IEnumerator*(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_MONOB51RACINGGAMEPLAYROUNDHINT__DEACTIVATEAFTER_OFFSET))(this, a1);
+		}
+
+		::System::Void _OnInitializeComponent()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_MONOB51RACINGGAMEPLAYROUNDHINT__ONINITIALIZECOMPONENT_OFFSET))(this);
+		}
+
+		::System::Void _OnDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_MONOB51RACINGGAMEPLAYROUNDHINT__ONDESTROY_OFFSET))(this);
+		}
+	};
+}

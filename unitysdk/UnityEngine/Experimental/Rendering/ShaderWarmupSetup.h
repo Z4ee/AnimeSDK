@@ -5,7 +5,7 @@
 
 namespace UnityEngine::Experimental::Rendering
 {
-	inline static constexpr unsigned int ShaderWarmupSetup_TypeDefinitionIndex = 4928;
+	inline static constexpr unsigned int ShaderWarmupSetup_TypeDefinitionIndex = 4940;
 
 	struct alignas(8) ShaderWarmupSetup
 	{

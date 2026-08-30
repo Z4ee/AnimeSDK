@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class LockHP; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_6EF628B38A1A0341_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16870610)
-#define CLASS_3_6EF628B38A1A0341__CTOR_OFFSET UNITYSDK_OFFSET(0x168705E0)
+#define CLASS_3_6EF628B38A1A0341_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17E0F350)
+#define CLASS_3_6EF628B38A1A0341__CTOR_OFFSET UNITYSDK_OFFSET(0x17E0F320)
 
-inline static constexpr unsigned int Class_3_6EF628B38A1A0341_TypeDefinitionIndex = 52651;
+inline static constexpr unsigned int Class_3_6EF628B38A1A0341_TypeDefinitionIndex = 55350;
 
 class Class_3_6EF628B38A1A0341 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::LockHP*>
 {

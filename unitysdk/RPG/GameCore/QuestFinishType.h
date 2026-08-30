@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int QuestFinishType_TypeDefinitionIndex = 10072;
+	inline static constexpr unsigned int QuestFinishType_TypeDefinitionIndex = 10408;
 
 	enum class QuestFinishType : ::System::Int32
 	{
@@ -96,6 +96,7 @@ namespace RPG::GameCore
 		AnyChallengeStars = 92,
 		ChangeChatBubbleCnt = 93,
 		ChangePhoneThemeCnt = 94,
+		MultiMessagePerformSectionFinish = 96,
 		ConsumeStamina = 101,
 		PlayerLevel = 102,
 		FinishQuest = 104,
@@ -971,5 +972,21 @@ namespace RPG::GameCore
 		GridFightBattleWithRoleAndStar = 440045,
 		FateRinFinishFight = 440500,
 		FateRinFinishChallengeFightWithBuffLevel = 440501,
+		B51RacingFinishCycle = 450001,
+		B51RacingFinishDay = 450002,
+		RogueTournPersonaKongWithRoomTypeCnt = 450003,
+		RogueTournPersonaFinishWithEnteredRoomTypeCnt = 450004,
+		RogueTournPersonaFinishWithRoomCardFilterCnt = 450005,
+		RogueTournPersonaFinishWithRoomCardCountBound = 450006,
+		RogueTournPersonaFinishWithHexCnt = 450007,
+		RogueTournPersonaFinishWithObtainedGiftRarityCnt = 450008,
+		RogueTournPersonaFinishWithStyleLevelBound = 450009,
+		B51RacingWinMatchCnt = 450010,
+		LimaoNewsFinishWork = 450011,
+		LimaoNewsFinishPlan = 450012,
+		B51RacingDevelopActionCnt = 450013,
+		B51RacingChallengeFinishCnt = 450014,
+		B51RacingMatchSlamCnt = 450015,
+		B51RacingChallengeBeatNpcTrackNum = 450016,
 	};
 }

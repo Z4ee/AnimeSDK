@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define MESSAGEPACK_MESSAGEPACKOBJECTATTRIBUTE_GET_ALLOWPRIVATE_OFFSET UNITYSDK_OFFSET(0x1D3054D0)
-#define MESSAGEPACK_MESSAGEPACKOBJECTATTRIBUTE_GET_KEYASPROPERTYNAME_OFFSET UNITYSDK_OFFSET(0x1D3054B0)
-#define MESSAGEPACK_MESSAGEPACKOBJECTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3054C0)
+#define MESSAGEPACK_MESSAGEPACKOBJECTATTRIBUTE_GET_ALLOWPRIVATE_OFFSET UNITYSDK_OFFSET(0x1F013EC0)
+#define MESSAGEPACK_MESSAGEPACKOBJECTATTRIBUTE_GET_KEYASPROPERTYNAME_OFFSET UNITYSDK_OFFSET(0x1F013EA0)
+#define MESSAGEPACK_MESSAGEPACKOBJECTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F013EB0)
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int MessagePackObjectAttribute_TypeDefinitionIndex = 6545;
+	inline static constexpr unsigned int MessagePackObjectAttribute_TypeDefinitionIndex = 6157;
 
 	class MessagePackObjectAttribute : public ::System::Attribute
 	{
 	public:
-		::System::Boolean _AllowPrivate_k__BackingField; // 0x10
-		::System::Boolean _KeyAsPropertyName_k__BackingField; // 0x11
+		::System::Boolean _KeyAsPropertyName_k__BackingField; // 0x10
+		::System::Boolean _AllowPrivate_k__BackingField; // 0x11
 
 		::System::Void _ctor(::System::Boolean a1)
 		{

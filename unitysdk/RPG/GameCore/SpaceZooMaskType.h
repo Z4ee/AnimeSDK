@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SpaceZooMaskType_TypeDefinitionIndex = 11886;
+	inline static constexpr unsigned int SpaceZooMaskType_TypeDefinitionIndex = 12275;
 
 	enum class SpaceZooMaskType : ::System::Int32
 	{

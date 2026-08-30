@@ -3,7 +3,7 @@
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int FileOptions_Types_OptimizeMode_TypeDefinitionIndex = 5494;
+	inline static constexpr unsigned int FileOptions_Types_OptimizeMode_TypeDefinitionIndex = 5483;
 
 	enum class FileOptions_Types_OptimizeMode : ::System::Int32
 	{

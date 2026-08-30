@@ -6,10 +6,10 @@ class Class_1_FCE168EEEC8152CC;
 namespace System::Net { class IPEndPoint; }
 namespace System::Net { class ServicePoint; }
 
-#define CLASS_2_54CCD44980580DB7___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0x162E5DE0)
-#define CLASS_2_54CCD44980580DB7___C__DISPLAYCLASS25_0___GETWEBRESPONSE_B__1_OFFSET UNITYSDK_OFFSET(0x162EA9D0)
+#define CLASS_2_54CCD44980580DB7___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18D43950)
+#define CLASS_2_54CCD44980580DB7___C__DISPLAYCLASS25_0___GETWEBRESPONSE_B__1_OFFSET UNITYSDK_OFFSET(0x18D48540)
 
-inline static constexpr unsigned int Class_2_54CCD44980580DB7___c__DisplayClass25_0_TypeDefinitionIndex = 56952;
+inline static constexpr unsigned int Class_2_54CCD44980580DB7___c__DisplayClass25_0_TypeDefinitionIndex = 59740;
 
 class Class_2_54CCD44980580DB7___c__DisplayClass25_0 : public ::System::Object
 {

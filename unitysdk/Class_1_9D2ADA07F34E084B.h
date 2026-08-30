@@ -4,9 +4,9 @@
 #include "unitysdk/RPG/GameCore/LittleGameValueCompareType.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_9D2ADA07F34E084B_METHOD_1_D5AA9549C74A8F39_OFFSET UNITYSDK_OFFSET(0x15274DA0)
+#define CLASS_1_9D2ADA07F34E084B_METHOD_1_D5AA9549C74A8F39_OFFSET UNITYSDK_OFFSET(0x16CC6070)
 
-inline static constexpr unsigned int Class_1_9D2ADA07F34E084B_TypeDefinitionIndex = 73414;
+inline static constexpr unsigned int Class_1_9D2ADA07F34E084B_TypeDefinitionIndex = 76893;
 
 class Class_1_9D2ADA07F34E084B : public ::System::Object
 {

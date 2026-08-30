@@ -1,22 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_CA217ABF4E3B4F3F.h"
+#include "unitysdk/Class_1_34917908B7833130.h"
 
 class Class_2_D798F8FBCDD8B14D;
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 namespace UnityEngine::UI { class Text; }
 
-#define CLASS_2_96290D3EA3548FA1_METHOD_2_C4850B85816C7F0A_OFFSET UNITYSDK_OFFSET(0x140E9E50)
-#define CLASS_2_96290D3EA3548FA1__CTOR_OFFSET UNITYSDK_OFFSET(0x140E9EF0)
-#define CLASS_2_96290D3EA3548FA1__ONBIND_OFFSET UNITYSDK_OFFSET(0x140E9DB0)
+#define CLASS_2_96290D3EA3548FA1_METHOD_2_C4850B85816C7F0A_OFFSET UNITYSDK_OFFSET(0x1723ADB0)
+#define CLASS_2_96290D3EA3548FA1__CTOR_OFFSET UNITYSDK_OFFSET(0x1723AE50)
+#define CLASS_2_96290D3EA3548FA1__ONBIND_OFFSET UNITYSDK_OFFSET(0x1723AD10)
 
-inline static constexpr unsigned int Class_2_96290D3EA3548FA1_TypeDefinitionIndex = 69045;
+inline static constexpr unsigned int Class_2_96290D3EA3548FA1_TypeDefinitionIndex = 72244;
 
-class Class_2_96290D3EA3548FA1 : public ::Class_1_CA217ABF4E3B4F3F
+class Class_2_96290D3EA3548FA1 : public ::Class_1_34917908B7833130
 {
 public:
-	::UnityEngine::UI::Text* Field_2_0; // 0x60
-	::Class_2_D798F8FBCDD8B14D* Field_2_1; // 0x68
+	::UnityEngine::UI::Text* IAANMCFCPIH; // 0x60
+	::Class_2_D798F8FBCDD8B14D* DOIGHMPHHIF; // 0x68
 
 	::System::Void _ctor()
 	{

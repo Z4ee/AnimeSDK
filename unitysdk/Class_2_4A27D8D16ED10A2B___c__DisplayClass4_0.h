@@ -11,19 +11,19 @@ namespace RPG::Client { class BaseLobby; }
 namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 namespace System { template <typename T> class Func_1; }
 
-#define CLASS_2_4A27D8D16ED10A2B___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBFCD870)
-#define CLASS_2_4A27D8D16ED10A2B___C__DISPLAYCLASS4_0__JOINLOBBY_B__0_OFFSET UNITYSDK_OFFSET(0xBFD2CB0)
-#define CLASS_2_4A27D8D16ED10A2B___C__DISPLAYCLASS4_0__JOINLOBBY_B__1_OFFSET UNITYSDK_OFFSET(0xBFD2DD0)
+#define CLASS_2_4A27D8D16ED10A2B___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16E41000)
+#define CLASS_2_4A27D8D16ED10A2B___C__DISPLAYCLASS4_0__JOINLOBBY_B__0_OFFSET UNITYSDK_OFFSET(0x16E46460)
+#define CLASS_2_4A27D8D16ED10A2B___C__DISPLAYCLASS4_0__JOINLOBBY_B__1_OFFSET UNITYSDK_OFFSET(0x16E465A0)
 
-inline static constexpr unsigned int Class_2_4A27D8D16ED10A2B___c__DisplayClass4_0_TypeDefinitionIndex = 75402;
+inline static constexpr unsigned int Class_2_4A27D8D16ED10A2B___c__DisplayClass4_0_TypeDefinitionIndex = 78949;
 
 class Class_2_4A27D8D16ED10A2B___c__DisplayClass4_0 : public ::System::Object
 {
 public:
-	::System::Func_1<::RPG::Client::Promises::IPromise_1<::RPG::Client::BaseLobby*>*>* __9__1; // 0x10
+	::Class_1_7B005A18003A04C3* extInfo; // 0x10
 	::Class_2_4A27D8D16ED10A2B* __4__this; // 0x18
-	::Class_1_7B005A18003A04C3* extInfo; // 0x20
-	::Class_1_C7A3189C9B32F559* session; // 0x28
+	::Class_1_C7A3189C9B32F559* session; // 0x20
+	::System::Func_1<::RPG::Client::Promises::IPromise_1<::RPG::Client::BaseLobby*>*>* __9__1; // 0x28
 	::System::UInt64 lobbyID; // 0x30
 
 	::System::Void _ctor()

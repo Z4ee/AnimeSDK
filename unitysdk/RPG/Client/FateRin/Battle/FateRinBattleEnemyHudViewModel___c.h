@@ -5,24 +5,24 @@
 namespace RPG::Client::FateRin::Battle { class FateRinBattleEnemyHudSingleViewModel; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEENEMYHUDVIEWMODEL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A5C2010)
-#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEENEMYHUDVIEWMODEL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5C2050)
-#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEENEMYHUDVIEWMODEL___C___SORTANDSETPOSINDEX_B__14_0_OFFSET UNITYSDK_OFFSET(0x1A5C2060)
+#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEENEMYHUDVIEWMODEL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CA27A30)
+#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEENEMYHUDVIEWMODEL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1CA27A70)
+#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEENEMYHUDVIEWMODEL___C___SORTANDSETPOSINDEX_B__14_0_OFFSET UNITYSDK_OFFSET(0x1CA27A80)
 
 namespace RPG::Client::FateRin::Battle
 {
-	inline static constexpr unsigned int FateRinBattleEnemyHudViewModel___c_TypeDefinitionIndex = 75909;
+	inline static constexpr unsigned int FateRinBattleEnemyHudViewModel___c_TypeDefinitionIndex = 79542;
 
 	class FateRinBattleEnemyHudViewModel___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::FateRin::Battle::FateRinBattleEnemyHudViewModel___c** StaticGet___9()
-		{
-			return (::RPG::Client::FateRin::Battle::FateRinBattleEnemyHudViewModel___c**)Il2CppClass::FromTypeDefinitionIndex(FateRinBattleEnemyHudViewModel___c_TypeDefinitionIndex)->GetStaticField(0x4630);
-		}
 		static ::System::Comparison_1<::RPG::Client::FateRin::Battle::FateRinBattleEnemyHudSingleViewModel*>** StaticGet___9__14_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::FateRin::Battle::FateRinBattleEnemyHudSingleViewModel*>**)Il2CppClass::FromTypeDefinitionIndex(FateRinBattleEnemyHudViewModel___c_TypeDefinitionIndex)->GetStaticField(0x4638);
+			return (::System::Comparison_1<::RPG::Client::FateRin::Battle::FateRinBattleEnemyHudSingleViewModel*>**)Il2CppClass::FromTypeDefinitionIndex(FateRinBattleEnemyHudViewModel___c_TypeDefinitionIndex)->GetStaticField(0x65690);
+		}
+		static ::RPG::Client::FateRin::Battle::FateRinBattleEnemyHudViewModel___c** StaticGet___9()
+		{
+			return (::RPG::Client::FateRin::Battle::FateRinBattleEnemyHudViewModel___c**)Il2CppClass::FromTypeDefinitionIndex(FateRinBattleEnemyHudViewModel___c_TypeDefinitionIndex)->GetStaticField(0x65698);
 		}
 
 		static ::System::Void _cctor()

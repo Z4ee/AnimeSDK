@@ -31,12 +31,12 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 namespace System::Collections::Generic { template <typename T> class SortedSet_1; }
 namespace System::Collections::Generic { template <typename T> class Stack_1; }
 
-#define ZLINQ_VALUEENUMERABLE_ASVALUEENUMERABLE_OFFSET UNITYSDK_OFFSET(0x1D2FBF20)
-#define ZLINQ_VALUEENUMERABLE_RANGE_OFFSET UNITYSDK_OFFSET(0x1D2FBFC0)
+#define ZLINQ_VALUEENUMERABLE_ASVALUEENUMERABLE_OFFSET UNITYSDK_OFFSET(0x1F0090E0)
+#define ZLINQ_VALUEENUMERABLE_RANGE_OFFSET UNITYSDK_OFFSET(0x1F009180)
 
 namespace ZLinq
 {
-	inline static constexpr unsigned int ValueEnumerable_TypeDefinitionIndex = 6338;
+	inline static constexpr unsigned int ValueEnumerable_TypeDefinitionIndex = 6083;
 
 	class ValueEnumerable : public ::System::Object
 	{

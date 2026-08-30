@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HipplenMiniGameType_TypeDefinitionIndex = 11213;
+	inline static constexpr unsigned int HipplenMiniGameType_TypeDefinitionIndex = 11602;
 
 	enum class HipplenMiniGameType : ::System::Int32
 	{

@@ -4,12 +4,12 @@
 
 namespace UnityEngine { class Animator; }
 
-#define RPG_CLIENT_LITTLEGAME_CHENLINGFES_CHENLINGFESVISITORVIEW_ONENABLE_OFFSET UNITYSDK_OFFSET(0x19B958A0)
-#define RPG_CLIENT_LITTLEGAME_CHENLINGFES_CHENLINGFESVISITORVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x19B95950)
+#define RPG_CLIENT_LITTLEGAME_CHENLINGFES_CHENLINGFESVISITORVIEW_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1AC25920)
+#define RPG_CLIENT_LITTLEGAME_CHENLINGFES_CHENLINGFESVISITORVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC259D0)
 
 namespace RPG::Client::LittleGame::ChenLingFes
 {
-	inline static constexpr unsigned int ChenLingFesVisitorView_TypeDefinitionIndex = 73837;
+	inline static constexpr unsigned int ChenLingFesVisitorView_TypeDefinitionIndex = 77321;
 
 	class ChenLingFesVisitorView : public ::RPG::Client::LittleGame::ChenLingFes::ChenLingFesView
 	{

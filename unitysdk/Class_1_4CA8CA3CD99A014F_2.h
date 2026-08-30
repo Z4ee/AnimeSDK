@@ -8,17 +8,17 @@ class Class_2_F47F7A3F5E97970D;
 class Class_3_1E4F9B0ED3BF21DE;
 namespace Entitas { template <typename T> class IGroup_1; }
 
-#define CLASS_1_4CA8CA3CD99A014F_2_EXECUTE_OFFSET UNITYSDK_OFFSET(0x16855A90)
-#define CLASS_1_4CA8CA3CD99A014F_2__CTOR_OFFSET UNITYSDK_OFFSET(0x168559F0)
+#define CLASS_1_4CA8CA3CD99A014F_2_EXECUTE_OFFSET UNITYSDK_OFFSET(0x17944A80)
+#define CLASS_1_4CA8CA3CD99A014F_2__CTOR_OFFSET UNITYSDK_OFFSET(0x179449E0)
 
-inline static constexpr unsigned int Class_1_4CA8CA3CD99A014F_2_TypeDefinitionIndex = 73216;
+inline static constexpr unsigned int Class_1_4CA8CA3CD99A014F_2_TypeDefinitionIndex = 76692;
 
 class Class_1_4CA8CA3CD99A014F_2 : public ::System::Object
 {
 public:
-	::Class_3_1E4F9B0ED3BF21DE* Field_1_0; // 0x10
-	::Entitas::IGroup_1<::Class_2_B9E8C2EEAA5C96EC*>* Field_1_1; // 0x18
-	::Class_2_F47F7A3F5E97970D* Field_1_2; // 0x20
+	::Class_2_F47F7A3F5E97970D* EEFMDEHLLFI; // 0x10
+	::Class_3_1E4F9B0ED3BF21DE* PDENFEFCAGN; // 0x18
+	::Entitas::IGroup_1<::Class_2_B9E8C2EEAA5C96EC*>* JPKEBGGDFPL; // 0x20
 
 	::System::Void _ctor(::Class_1_B4357A1C72BABC6B* a1, ::Class_3_1E4F9B0ED3BF21DE* a2)
 	{

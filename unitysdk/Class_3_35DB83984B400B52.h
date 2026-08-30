@@ -7,15 +7,15 @@ class Class_1_2B8E0B4950FE44E7;
 namespace RPG::GameCore { class NewFireWaveProjectile; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_35DB83984B400B52_METHOD_3_0F779F752BEA6C8D_OFFSET UNITYSDK_OFFSET(0x17C94C90)
-#define CLASS_3_35DB83984B400B52__CTOR_OFFSET UNITYSDK_OFFSET(0x17C94C70)
+#define CLASS_3_35DB83984B400B52_METHOD_3_0F779F752BEA6C8D_OFFSET UNITYSDK_OFFSET(0x18F67DA0)
+#define CLASS_3_35DB83984B400B52__CTOR_OFFSET UNITYSDK_OFFSET(0x18F67D80)
 
-inline static constexpr unsigned int Class_3_35DB83984B400B52_TypeDefinitionIndex = 52734;
+inline static constexpr unsigned int Class_3_35DB83984B400B52_TypeDefinitionIndex = 55434;
 
 class Class_3_35DB83984B400B52 : public ::Class_2_99753979116C9D56
 {
 public:
-	::RPG::GameCore::NewFireWaveProjectile* Field_3_0; // 0x50
+	::RPG::GameCore::NewFireWaveProjectile* CHKGAMDMBBK; // 0x50
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::NewFireWaveProjectile* a2)
 	{

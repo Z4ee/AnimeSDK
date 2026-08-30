@@ -4,7 +4,7 @@
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int XmlSchemaAttribute_TypeDefinitionIndex = 2180;
+	inline static constexpr unsigned int XmlSchemaAttribute_TypeDefinitionIndex = 2187;
 
 	class XmlSchemaAttribute : public ::System::Xml::Schema::XmlSchemaAnnotated
 	{

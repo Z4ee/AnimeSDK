@@ -5,11 +5,11 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_UINODECOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x182EFBC0)
+#define RPG_CLIENT_UINODECOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x17B6C9F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UINodeCollection_TypeDefinitionIndex = 66033;
+	inline static constexpr unsigned int UINodeCollection_TypeDefinitionIndex = 69072;
 
 	class UINodeCollection : public ::UnityEngine::MonoBehaviour
 	{

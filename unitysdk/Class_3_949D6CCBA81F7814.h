@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class RA_SetStimulusInfo; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_949D6CCBA81F7814_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17CC68E0)
-#define CLASS_3_949D6CCBA81F7814__CTOR_OFFSET UNITYSDK_OFFSET(0x17CC68B0)
+#define CLASS_3_949D6CCBA81F7814_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18F9BE10)
+#define CLASS_3_949D6CCBA81F7814__CTOR_OFFSET UNITYSDK_OFFSET(0x18F9BDE0)
 
-inline static constexpr unsigned int Class_3_949D6CCBA81F7814_TypeDefinitionIndex = 49730;
+inline static constexpr unsigned int Class_3_949D6CCBA81F7814_TypeDefinitionIndex = 52390;
 
 class Class_3_949D6CCBA81F7814 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::RA_SetStimulusInfo*>
 {

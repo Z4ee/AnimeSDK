@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ToastPauseSource_TypeDefinitionIndex = 65133;
+	inline static constexpr unsigned int ToastPauseSource_TypeDefinitionIndex = 68141;
 
 	enum class ToastPauseSource : ::System::Int32
 	{

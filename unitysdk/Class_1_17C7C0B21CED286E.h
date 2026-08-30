@@ -5,17 +5,17 @@
 namespace RPG::Client::Promises { class Promise; }
 namespace RPG::GameCore { class ChimeraTriggerTutorial; }
 
-#define CLASS_1_17C7C0B21CED286E_METHOD_1_8F9DF3D751E1E0BF_OFFSET UNITYSDK_OFFSET(0x160778A0)
-#define CLASS_1_17C7C0B21CED286E_METHOD_1_B2C0ADBFEA309440_OFFSET UNITYSDK_OFFSET(0x16077830)
-#define CLASS_1_17C7C0B21CED286E__CTOR_OFFSET UNITYSDK_OFFSET(0x160777F0)
+#define CLASS_1_17C7C0B21CED286E_METHOD_1_8F9DF3D751E1E0BF_OFFSET UNITYSDK_OFFSET(0x178D8130)
+#define CLASS_1_17C7C0B21CED286E_METHOD_1_B2C0ADBFEA309440_OFFSET UNITYSDK_OFFSET(0x178D80C0)
+#define CLASS_1_17C7C0B21CED286E__CTOR_OFFSET UNITYSDK_OFFSET(0x178D8080)
 
-inline static constexpr unsigned int Class_1_17C7C0B21CED286E_TypeDefinitionIndex = 74463;
+inline static constexpr unsigned int Class_1_17C7C0B21CED286E_TypeDefinitionIndex = 77948;
 
 class Class_1_17C7C0B21CED286E : public ::System::Object
 {
 public:
-	::RPG::Client::Promises::Promise* Field_1_0; // 0x10
-	::RPG::GameCore::ChimeraTriggerTutorial* Field_1_1; // 0x18
+	::RPG::GameCore::ChimeraTriggerTutorial* IGHAHBNLIJA; // 0x10
+	::RPG::Client::Promises::Promise* KKHPFDBFKHH; // 0x18
 
 	::System::Void _ctor(::RPG::GameCore::ChimeraTriggerTutorial* a1)
 	{

@@ -5,15 +5,15 @@
 class Class_1_CE573B7713B36D39;
 namespace RPG::GameCore { class FiveDimMusicDirectorComponentConfig; }
 
-#define CLASS_1_9F2020BE8A023252__CTOR_OFFSET UNITYSDK_OFFSET(0x187A7C50)
+#define CLASS_1_9F2020BE8A023252__CTOR_OFFSET UNITYSDK_OFFSET(0x1A9F7250)
 
-inline static constexpr unsigned int Class_1_9F2020BE8A023252_TypeDefinitionIndex = 40806;
+inline static constexpr unsigned int Class_1_9F2020BE8A023252_TypeDefinitionIndex = 41760;
 
 class Class_1_9F2020BE8A023252 : public ::System::Object
 {
 public:
-	::RPG::GameCore::FiveDimMusicDirectorComponentConfig* Field_1_0; // 0x10
-	::Class_1_CE573B7713B36D39* Field_1_1; // 0x18
+	::Class_1_CE573B7713B36D39* MEPFOEEGBEA; // 0x10
+	::RPG::GameCore::FiveDimMusicDirectorComponentConfig* EABKOHGCHFP; // 0x18
 
 	::System::Void _ctor()
 	{

@@ -4,20 +4,20 @@
 
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define CLASS_1_A3C3725415847C24_METHOD_1_A917AC671DF6CB2D_OFFSET UNITYSDK_OFFSET(0x16DBD230)
-#define CLASS_1_A3C3725415847C24_METHOD_1_C976CD6E3449B2ED_OFFSET UNITYSDK_OFFSET(0x16DBD380)
-#define CLASS_1_A3C3725415847C24__CTOR_OFFSET UNITYSDK_OFFSET(0x16DBD370)
+#define CLASS_1_A3C3725415847C24_METHOD_1_A917AC671DF6CB2D_OFFSET UNITYSDK_OFFSET(0x169C4950)
+#define CLASS_1_A3C3725415847C24_METHOD_1_C976CD6E3449B2ED_OFFSET UNITYSDK_OFFSET(0x169C4A80)
+#define CLASS_1_A3C3725415847C24__CTOR_OFFSET UNITYSDK_OFFSET(0x169C4A70)
 
-inline static constexpr unsigned int Class_1_A3C3725415847C24_TypeDefinitionIndex = 73780;
+inline static constexpr unsigned int Class_1_A3C3725415847C24_TypeDefinitionIndex = 77264;
 
 class Class_1_A3C3725415847C24 : public ::System::Object
 {
 public:
-	::System::Int32 Field_1_0; // 0x10
-	::System::Int32 Field_1_1; // 0x14
-	::System::Int32 Field_1_2; // 0x18
-	::System::UInt32 Field_1_3; // 0x1C
-	::System::Int32 Field_1_4; // 0x20
+	::System::Int32 MGLGPNNMKLH; // 0x10
+	::System::Int32 ALMKIPNHAFM; // 0x14
+	::System::Int32 KOPFHOPKFMH; // 0x18
+	::System::Int32 AALKFOHEIMI; // 0x1C
+	::System::UInt32 PHFMCACHFIJ; // 0x20
 
 	::System::Void _ctor()
 	{

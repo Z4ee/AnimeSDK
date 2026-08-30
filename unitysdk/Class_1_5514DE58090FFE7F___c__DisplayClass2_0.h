@@ -7,10 +7,10 @@ namespace RPG::Client { class TeamBuildSynopsis; }
 namespace RPG::Client { class TeamModule; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_5514DE58090FFE7F___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x175563D0)
-#define CLASS_1_5514DE58090FFE7F___C__DISPLAYCLASS2_0__SYNCTRIALBUILDTOMAINLINETEAM_B__0_OFFSET UNITYSDK_OFFSET(0x175564D0)
+#define CLASS_1_5514DE58090FFE7F___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18F44A70)
+#define CLASS_1_5514DE58090FFE7F___C__DISPLAYCLASS2_0__SYNCTRIALBUILDTOMAINLINETEAM_B__0_OFFSET UNITYSDK_OFFSET(0x18F44B70)
 
-inline static constexpr unsigned int Class_1_5514DE58090FFE7F___c__DisplayClass2_0_TypeDefinitionIndex = 59151;
+inline static constexpr unsigned int Class_1_5514DE58090FFE7F___c__DisplayClass2_0_TypeDefinitionIndex = 61986;
 
 class Class_1_5514DE58090FFE7F___c__DisplayClass2_0 : public ::System::Object
 {

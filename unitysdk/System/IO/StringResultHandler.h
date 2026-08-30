@@ -5,19 +5,19 @@
 namespace System { class String; }
 namespace System::IO { class SearchResult; }
 
-#define SYSTEM_IO_STRINGRESULTHANDLER_CREATEOBJECT_OFFSET UNITYSDK_OFFSET(0x1B868EC0)
-#define SYSTEM_IO_STRINGRESULTHANDLER_ISRESULTINCLUDED_OFFSET UNITYSDK_OFFSET(0x1B868DD0)
-#define SYSTEM_IO_STRINGRESULTHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B858F70)
+#define SYSTEM_IO_STRINGRESULTHANDLER_CREATEOBJECT_OFFSET UNITYSDK_OFFSET(0x1D4741D0)
+#define SYSTEM_IO_STRINGRESULTHANDLER_ISRESULTINCLUDED_OFFSET UNITYSDK_OFFSET(0x1D474070)
+#define SYSTEM_IO_STRINGRESULTHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D464050)
 
 namespace System::IO
 {
-	inline static constexpr unsigned int StringResultHandler_TypeDefinitionIndex = 673;
+	inline static constexpr unsigned int StringResultHandler_TypeDefinitionIndex = 676;
 
 	class StringResultHandler : public ::System::IO::SearchResultHandler_1<::System::String*>
 	{
 	public:
-		::System::Boolean _includeFiles; // 0x10
-		::System::Boolean _includeDirs; // 0x11
+		::System::Boolean _includeDirs; // 0x10
+		::System::Boolean _includeFiles; // 0x11
 
 		::System::Void _ctor(::System::Boolean a1, ::System::Boolean a2)
 		{

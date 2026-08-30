@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int SDFCompressionMethod_TypeDefinitionIndex = 4249;
+	inline static constexpr unsigned int SDFCompressionMethod_TypeDefinitionIndex = 4259;
 
 	enum class SDFCompressionMethod : ::System::Int32
 	{

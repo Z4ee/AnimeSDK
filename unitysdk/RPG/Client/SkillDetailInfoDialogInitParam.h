@@ -11,28 +11,28 @@ namespace RPG::Client { class SkillSimpleExtraEffectData; }
 namespace RPG::GameCore { class ICharacterSkillRowData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_SKILLDETAILINFODIALOGINITPARAM_GETSIMPLEEXTRAEFFECTDATALIST_OFFSET UNITYSDK_OFFSET(0x188FE790)
-#define RPG_CLIENT_SKILLDETAILINFODIALOGINITPARAM_GET_SKILLROWDATA_OFFSET UNITYSDK_OFFSET(0x188FE750)
-#define RPG_CLIENT_SKILLDETAILINFODIALOGINITPARAM_GET_ULTRASKILLTYPE_OFFSET UNITYSDK_OFFSET(0x188FE770)
-#define RPG_CLIENT_SKILLDETAILINFODIALOGINITPARAM_SET_SKILLROWDATA_OFFSET UNITYSDK_OFFSET(0x188FE760)
-#define RPG_CLIENT_SKILLDETAILINFODIALOGINITPARAM_SET_ULTRASKILLTYPE_OFFSET UNITYSDK_OFFSET(0x188FE780)
-#define RPG_CLIENT_SKILLDETAILINFODIALOGINITPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x188FEDC0)
-#define RPG_CLIENT_SKILLDETAILINFODIALOGINITPARAM__GETSIMPLEEXTRAEFFECTIDLIST_OFFSET UNITYSDK_OFFSET(0x188FE9E0)
+#define RPG_CLIENT_SKILLDETAILINFODIALOGINITPARAM_GETSIMPLEEXTRAEFFECTDATALIST_OFFSET UNITYSDK_OFFSET(0x196CF2E0)
+#define RPG_CLIENT_SKILLDETAILINFODIALOGINITPARAM_GET_SKILLROWDATA_OFFSET UNITYSDK_OFFSET(0x196CF2A0)
+#define RPG_CLIENT_SKILLDETAILINFODIALOGINITPARAM_GET_ULTRASKILLTYPE_OFFSET UNITYSDK_OFFSET(0x196CF2C0)
+#define RPG_CLIENT_SKILLDETAILINFODIALOGINITPARAM_SET_SKILLROWDATA_OFFSET UNITYSDK_OFFSET(0x196CF2B0)
+#define RPG_CLIENT_SKILLDETAILINFODIALOGINITPARAM_SET_ULTRASKILLTYPE_OFFSET UNITYSDK_OFFSET(0x196CF2D0)
+#define RPG_CLIENT_SKILLDETAILINFODIALOGINITPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x196CF910)
+#define RPG_CLIENT_SKILLDETAILINFODIALOGINITPARAM__GETSIMPLEEXTRAEFFECTIDLIST_OFFSET UNITYSDK_OFFSET(0x196CF530)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SkillDetailInfoDialogInitParam_TypeDefinitionIndex = 68858;
+	inline static constexpr unsigned int SkillDetailInfoDialogInitParam_TypeDefinitionIndex = 72056;
 
 	class SkillDetailInfoDialogInitParam : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::Client::SkillDetailInfoDialogInitParam_RelatedSkillDetailParam*>* RelatedSkillDetailList; // 0x10
-		::RPG::GameCore::ICharacterSkillRowData* _SkillRowData_k__BackingField; // 0x18
+		::RPG::GameCore::ICharacterSkillRowData* _SkillRowData_k__BackingField; // 0x10
+		::System::Collections::Generic::List_1<::RPG::Client::SkillDetailInfoDialogInitParam_RelatedSkillDetailParam*>* RelatedSkillDetailList; // 0x18
 		::System::Collections::Generic::List_1<::RPG::Client::TextID>* SpecialTipsList; // 0x20
 		::System::Nullable_1<::System::Int32> CurSP; // 0x28
 		::System::Boolean ShowLevel; // 0x30
-		::System::Nullable_1<::UnityEngine::Vector3> Offset; // 0x34
-		::System::Nullable_1<::UnityEngine::Vector3> Position; // 0x44
+		::System::Nullable_1<::UnityEngine::Vector3> Position; // 0x34
+		::System::Nullable_1<::UnityEngine::Vector3> Offset; // 0x44
 		::RPG::GameCore::AvatarSpecialUltraType _UltraSkillType_k__BackingField; // 0x54
 
 		::System::Void _ctor()

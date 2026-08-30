@@ -1,11 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace System { class String; }
-namespace UnityEngine { class ComputeBuffer; }
-namespace UnityEngine { class Texture; }
+namespace RPG::GameCore { class GameEntity; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1121_TypeDefinitionIndex = 70270;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1121_TypeDefinitionIndex = 71924;
 
 class Class_0_16E4307DCC419505_1121
 {

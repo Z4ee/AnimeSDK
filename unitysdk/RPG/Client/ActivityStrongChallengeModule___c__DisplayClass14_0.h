@@ -5,18 +5,18 @@
 namespace RPG::Client { class ActivityStrongChallengeStageData; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ACTIVITYSTRONGCHALLENGEMODULE___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18A8AFF0)
-#define RPG_CLIENT_ACTIVITYSTRONGCHALLENGEMODULE___C__DISPLAYCLASS14_0___HANDLEBATTLEENDSCNOTIFY_B__0_OFFSET UNITYSDK_OFFSET(0x18A8B000)
+#define RPG_CLIENT_ACTIVITYSTRONGCHALLENGEMODULE___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B87F880)
+#define RPG_CLIENT_ACTIVITYSTRONGCHALLENGEMODULE___C__DISPLAYCLASS14_0___HANDLEBATTLEENDSCNOTIFY_B__0_OFFSET UNITYSDK_OFFSET(0x1B880970)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityStrongChallengeModule___c__DisplayClass14_0_TypeDefinitionIndex = 59161;
+	inline static constexpr unsigned int ActivityStrongChallengeModule___c__DisplayClass14_0_TypeDefinitionIndex = 61996;
 
 	class ActivityStrongChallengeModule___c__DisplayClass14_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::ActivityStrongChallengeStageData* stageData; // 0x10
-		::System::Func_2<::RPG::Client::ActivityStrongChallengeStageData*, ::System::Boolean>* __9__0; // 0x18
+		::System::Func_2<::RPG::Client::ActivityStrongChallengeStageData*, ::System::Boolean>* __9__0; // 0x10
+		::RPG::Client::ActivityStrongChallengeStageData* stageData; // 0x18
 
 		::System::Void _ctor()
 		{

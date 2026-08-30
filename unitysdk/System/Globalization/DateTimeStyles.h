@@ -3,7 +3,7 @@
 
 namespace System::Globalization
 {
-	inline static constexpr unsigned int DateTimeStyles_TypeDefinitionIndex = 745;
+	inline static constexpr unsigned int DateTimeStyles_TypeDefinitionIndex = 748;
 
 	enum class DateTimeStyles : ::System::Int32
 	{

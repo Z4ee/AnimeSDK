@@ -7,9 +7,9 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define CHARACTERLINELIGHTGROUP_CLLG_POINT__CTOR_OFFSET UNITYSDK_OFFSET(0x16B2F100)
+#define CHARACTERLINELIGHTGROUP_CLLG_POINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A86DAE0)
 
-inline static constexpr unsigned int CharacterLineLightGroup_CLLG_Point_TypeDefinitionIndex = 45671;
+inline static constexpr unsigned int CharacterLineLightGroup_CLLG_Point_TypeDefinitionIndex = 47922;
 
 class CharacterLineLightGroup_CLLG_Point : public ::System::Object
 {

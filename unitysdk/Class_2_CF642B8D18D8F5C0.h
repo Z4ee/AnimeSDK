@@ -7,21 +7,21 @@ namespace RPG::Client::Promises { class Promise; }
 namespace RPG::GameCore { class SetFlipperLightDeviceFollowPlayer; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_2_CF642B8D18D8F5C0_DISPOSE_OFFSET UNITYSDK_OFFSET(0x17538510)
-#define CLASS_2_CF642B8D18D8F5C0_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17538240)
-#define CLASS_2_CF642B8D18D8F5C0_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x17538550)
-#define CLASS_2_CF642B8D18D8F5C0_TICK_OFFSET UNITYSDK_OFFSET(0x17538650)
-#define CLASS_2_CF642B8D18D8F5C0__CTOR_OFFSET UNITYSDK_OFFSET(0x175381C0)
+#define CLASS_2_CF642B8D18D8F5C0_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18F26AE0)
+#define CLASS_2_CF642B8D18D8F5C0_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18F26810)
+#define CLASS_2_CF642B8D18D8F5C0_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x18F26B20)
+#define CLASS_2_CF642B8D18D8F5C0_TICK_OFFSET UNITYSDK_OFFSET(0x18F26C20)
+#define CLASS_2_CF642B8D18D8F5C0__CTOR_OFFSET UNITYSDK_OFFSET(0x18F26790)
 
-inline static constexpr unsigned int Class_2_CF642B8D18D8F5C0_TypeDefinitionIndex = 50383;
+inline static constexpr unsigned int Class_2_CF642B8D18D8F5C0_TypeDefinitionIndex = 53046;
 
 class Class_2_CF642B8D18D8F5C0 : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::RPG::GameCore::SetFlipperLightDeviceFollowPlayer* Field_2_0; // 0x18
-	::Class_3_07C3C4D2990C49EE* Field_2_1; // 0x20
-	::RPG::Client::Promises::Promise* Field_2_2; // 0x28
-	::RPG::GameCore::TaskContext* Field_2_3; // 0x30
+	::RPG::Client::Promises::Promise* BCFFALPHNMN; // 0x18
+	::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+	::Class_3_07C3C4D2990C49EE* KKFFHMEJAPL; // 0x28
+	::RPG::GameCore::SetFlipperLightDeviceFollowPlayer* OFKGLJOAMLD; // 0x30
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetFlipperLightDeviceFollowPlayer* a2)
 	{

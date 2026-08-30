@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define SYSTEM_GLOBALIZATION_CHARUNICODEINFO_DEBUG_ASSERT_OFFSET UNITYSDK_OFFSET(0x172A93C0)
+#define SYSTEM_GLOBALIZATION_CHARUNICODEINFO_DEBUG_ASSERT_OFFSET UNITYSDK_OFFSET(0x18D69CD0)
 
 namespace System::Globalization
 {
-	inline static constexpr unsigned int CharUnicodeInfo_Debug_TypeDefinitionIndex = 730;
+	inline static constexpr unsigned int CharUnicodeInfo_Debug_TypeDefinitionIndex = 733;
 
 	class CharUnicodeInfo_Debug : public ::System::Object
 	{

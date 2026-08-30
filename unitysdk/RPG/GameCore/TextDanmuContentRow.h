@@ -5,18 +5,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_TEXTDANMUCONTENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C14C4D0)
-#define RPG_GAMECORE_TEXTDANMUCONTENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1C14C650)
+#define RPG_GAMECORE_TEXTDANMUCONTENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E1D2230)
+#define RPG_GAMECORE_TEXTDANMUCONTENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1E1D23B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TextDanmuContentRow_TypeDefinitionIndex = 14583;
+	inline static constexpr unsigned int TextDanmuContentRow_TypeDefinitionIndex = 15019;
 
 	class TextDanmuContentRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 ID; // 0x10
-		::RPG::Client::TextID Content; // 0x18
+		::RPG::Client::TextID Content; // 0x10
+		::System::UInt32 ID; // 0x20
 
 		::System::Void _ctor()
 		{

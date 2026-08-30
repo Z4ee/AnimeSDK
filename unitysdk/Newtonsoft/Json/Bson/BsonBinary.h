@@ -4,7 +4,7 @@
 
 namespace Newtonsoft::Json::Bson
 {
-	inline static constexpr unsigned int BsonBinary_TypeDefinitionIndex = 9519;
+	inline static constexpr unsigned int BsonBinary_TypeDefinitionIndex = 9798;
 
 	class BsonBinary : public ::Newtonsoft::Json::Bson::BsonValue
 	{

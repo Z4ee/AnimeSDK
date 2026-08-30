@@ -6,10 +6,10 @@ class Class_1_EC9AE4C13166BF65;
 namespace RPG::Client::DiceCombat { class DiceCombatTeamEditDialogMsgParam; }
 namespace RPG::Client::Promises { class IPromise; }
 
-#define CLASS_1_EC9AE4C13166BF65___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18254130)
-#define CLASS_1_EC9AE4C13166BF65___C__DISPLAYCLASS19_0__HANDLESHOWTEAMEDITDIALOG_B__0_OFFSET UNITYSDK_OFFSET(0x18256840)
+#define CLASS_1_EC9AE4C13166BF65___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19B7B3D0)
+#define CLASS_1_EC9AE4C13166BF65___C__DISPLAYCLASS19_0__HANDLESHOWTEAMEDITDIALOG_B__0_OFFSET UNITYSDK_OFFSET(0x19B7DB40)
 
-inline static constexpr unsigned int Class_1_EC9AE4C13166BF65___c__DisplayClass19_0_TypeDefinitionIndex = 72272;
+inline static constexpr unsigned int Class_1_EC9AE4C13166BF65___c__DisplayClass19_0_TypeDefinitionIndex = 75708;
 
 class Class_1_EC9AE4C13166BF65___c__DisplayClass19_0 : public ::System::Object
 {

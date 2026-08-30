@@ -6,16 +6,16 @@
 namespace RPG::GameCore { class FiveDimEntryConfig; }
 namespace System { class String; }
 
-#define CLASS_1_E3E6EC75C8FC3508_METHOD_1_DA1BF2C227DC3D86_OFFSET UNITYSDK_OFFSET(0x180C5EE0)
-#define CLASS_1_E3E6EC75C8FC3508__CTOR_OFFSET UNITYSDK_OFFSET(0x180C5F20)
+#define CLASS_1_E3E6EC75C8FC3508_METHOD_1_DA1BF2C227DC3D86_OFFSET UNITYSDK_OFFSET(0x1BA99110)
+#define CLASS_1_E3E6EC75C8FC3508__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA99150)
 
-inline static constexpr unsigned int Class_1_E3E6EC75C8FC3508_TypeDefinitionIndex = 40749;
+inline static constexpr unsigned int Class_1_E3E6EC75C8FC3508_TypeDefinitionIndex = 41702;
 
 class Class_1_E3E6EC75C8FC3508 : public ::System::Object
 {
 public:
-	::RPG::GameCore::FiveDimEntryConfig* Field_1_0; // 0x10
-	::Struct_2_3B5AB7569B3158C1 Field_1_1; // 0x18
+	::Struct_2_3B5AB7569B3158C1 BPAPBAFOMCH; // 0x10
+	::RPG::GameCore::FiveDimEntryConfig* EABKOHGCHFP; // 0xF0
 
 	::System::Void _ctor()
 	{

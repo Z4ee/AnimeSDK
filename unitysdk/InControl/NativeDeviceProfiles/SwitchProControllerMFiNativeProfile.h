@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/InputDeviceProfile.h"
 
-#define INCONTROL_NATIVEDEVICEPROFILES_SWITCHPROCONTROLLERMFINATIVEPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x132E5420)
-#define INCONTROL_NATIVEDEVICEPROFILES_SWITCHPROCONTROLLERMFINATIVEPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x132E6710)
+#define INCONTROL_NATIVEDEVICEPROFILES_SWITCHPROCONTROLLERMFINATIVEPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x14964530)
+#define INCONTROL_NATIVEDEVICEPROFILES_SWITCHPROCONTROLLERMFINATIVEPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x14965820)
 
 namespace InControl::NativeDeviceProfiles
 {
-	inline static constexpr unsigned int SwitchProControllerMFiNativeProfile_TypeDefinitionIndex = 39094;
+	inline static constexpr unsigned int SwitchProControllerMFiNativeProfile_TypeDefinitionIndex = 39953;
 
 	class SwitchProControllerMFiNativeProfile : public ::InControl::InputDeviceProfile
 	{

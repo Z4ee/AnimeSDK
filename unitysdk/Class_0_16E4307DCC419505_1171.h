@@ -1,10 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/SwordTraining/SwordTrainingEffectSource.h"
+#include "unitysdk/UnityEngine/EventSystems/RaycastResult.h"
 
-class Class_0_16E4307DCC419505_1170;
-
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1171_TypeDefinitionIndex = 71394;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1171_TypeDefinitionIndex = 73132;
 
 class Class_0_16E4307DCC419505_1171
 {

@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace Proto { class PlayerAssistInfo; }
+class Class_1_D19D91BCCBD08494;
 namespace RPG::AvatarSystem { class IAvatar; }
 namespace RPG::Client { class PlayerBriefDisplayData; }
 
-#define RPG_CLIENT_ASSISTDATA_CLONE_OFFSET UNITYSDK_OFFSET(0x19B34500)
-#define RPG_CLIENT_ASSISTDATA_CREATE_1_OFFSET UNITYSDK_OFFSET(0x19B34490)
-#define RPG_CLIENT_ASSISTDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x19B342F0)
-#define RPG_CLIENT_ASSISTDATA_GET_AVATAR_OFFSET UNITYSDK_OFFSET(0x19B342D0)
-#define RPG_CLIENT_ASSISTDATA_SET_AVATAR_OFFSET UNITYSDK_OFFSET(0x19B342E0)
-#define RPG_CLIENT_ASSISTDATA_SYNCDATA_OFFSET UNITYSDK_OFFSET(0x19B34370)
-#define RPG_CLIENT_ASSISTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19B34360)
+#define RPG_CLIENT_ASSISTDATA_CLONE_OFFSET UNITYSDK_OFFSET(0x1B3327E0)
+#define RPG_CLIENT_ASSISTDATA_CREATE_1_OFFSET UNITYSDK_OFFSET(0x1B332770)
+#define RPG_CLIENT_ASSISTDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x1B3325C0)
+#define RPG_CLIENT_ASSISTDATA_GET_AVATAR_OFFSET UNITYSDK_OFFSET(0x1B3325A0)
+#define RPG_CLIENT_ASSISTDATA_SET_AVATAR_OFFSET UNITYSDK_OFFSET(0x1B3325B0)
+#define RPG_CLIENT_ASSISTDATA_SYNCDATA_OFFSET UNITYSDK_OFFSET(0x1B332640)
+#define RPG_CLIENT_ASSISTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B332630)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AssistData_TypeDefinitionIndex = 61335;
+	inline static constexpr unsigned int AssistData_TypeDefinitionIndex = 64316;
 
 	class AssistData : public ::System::Object
 	{
@@ -39,9 +39,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::RPG::AvatarSystem::IAvatar*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ASSISTDATA_SET_AVATAR_OFFSET))(this, a1);
 		}
 
-		static ::RPG::Client::AssistData* Create(::Proto::PlayerAssistInfo* a1)
+		static ::RPG::Client::AssistData* Create(::Class_1_D19D91BCCBD08494* a1)
 		{
-			return ((::RPG::Client::AssistData*(*)(::Proto::PlayerAssistInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ASSISTDATA_CREATE_OFFSET))(a1);
+			return ((::RPG::Client::AssistData*(*)(::Class_1_D19D91BCCBD08494*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ASSISTDATA_CREATE_OFFSET))(a1);
 		}
 
 		static ::RPG::Client::AssistData* Create_1(::RPG::Client::AssistData* a1)
@@ -54,9 +54,9 @@ namespace RPG::Client
 			return ((::RPG::Client::AssistData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ASSISTDATA_CLONE_OFFSET))(this);
 		}
 
-		::System::Void SyncData(::Proto::PlayerAssistInfo* a1)
+		::System::Void SyncData(::Class_1_D19D91BCCBD08494* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Proto::PlayerAssistInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ASSISTDATA_SYNCDATA_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Class_1_D19D91BCCBD08494*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ASSISTDATA_SYNCDATA_OFFSET))(this, a1);
 		}
 	};
 }

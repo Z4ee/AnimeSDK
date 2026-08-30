@@ -4,22 +4,22 @@
 
 namespace System { template <typename T> class Comparison_1; }
 
-#define CLASS_1_AB817CB39E494C61___C__ADDHIGHLIGHTENTITY_B__142_0_OFFSET UNITYSDK_OFFSET(0x18DBA730)
-#define CLASS_1_AB817CB39E494C61___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18DBA6E0)
-#define CLASS_1_AB817CB39E494C61___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18DBA720)
+#define CLASS_1_AB817CB39E494C61___C__ADDHIGHLIGHTENTITY_B__143_0_OFFSET UNITYSDK_OFFSET(0x1A48EAB0)
+#define CLASS_1_AB817CB39E494C61___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A48EA60)
+#define CLASS_1_AB817CB39E494C61___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A48EAA0)
 
-inline static constexpr unsigned int Class_1_AB817CB39E494C61___c_TypeDefinitionIndex = 67992;
+inline static constexpr unsigned int Class_1_AB817CB39E494C61___c_TypeDefinitionIndex = 71165;
 
 class Class_1_AB817CB39E494C61___c : public ::System::Object
 {
 public:
-	static ::System::Comparison_1<::System::UInt32>** StaticGet___9__142_0()
-	{
-		return (::System::Comparison_1<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_AB817CB39E494C61___c_TypeDefinitionIndex)->GetStaticField(0x5FD70);
-	}
 	static ::Class_1_AB817CB39E494C61___c** StaticGet___9()
 	{
-		return (::Class_1_AB817CB39E494C61___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_AB817CB39E494C61___c_TypeDefinitionIndex)->GetStaticField(0x5FD78);
+		return (::Class_1_AB817CB39E494C61___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_AB817CB39E494C61___c_TypeDefinitionIndex)->GetStaticField(0x33C10);
+	}
+	static ::System::Comparison_1<::System::UInt32>** StaticGet___9__143_0()
+	{
+		return (::System::Comparison_1<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_AB817CB39E494C61___c_TypeDefinitionIndex)->GetStaticField(0x33C18);
 	}
 
 	static ::System::Void _cctor()
@@ -32,8 +32,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_AB817CB39E494C61___C__CTOR_OFFSET))(this);
 	}
 
-	::System::Int32 _AddHighlightEntity_b__142_0(::System::UInt32 a1, ::System::UInt32 a2)
+	::System::Int32 _AddHighlightEntity_b__143_0(::System::UInt32 a1, ::System::UInt32 a2)
 	{
-		return ((::System::Int32(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_AB817CB39E494C61___C__ADDHIGHLIGHTENTITY_B__142_0_OFFSET))(this, a1, a2);
+		return ((::System::Int32(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_AB817CB39E494C61___C__ADDHIGHLIGHTENTITY_B__143_0_OFFSET))(this, a1, a2);
 	}
 };

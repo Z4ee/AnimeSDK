@@ -9,7 +9,7 @@
 namespace RPG::GameCore { class ElementResistanceConfig; }
 namespace System { class String; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_11_TypeDefinitionIndex = 12230;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_11_TypeDefinitionIndex = 12619;
 
 class Class_0_16E4307DCC419505_11
 {

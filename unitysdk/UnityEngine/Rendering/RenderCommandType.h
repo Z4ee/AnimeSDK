@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int RenderCommandType_TypeDefinitionIndex = 34122;
+	inline static constexpr unsigned int RenderCommandType_TypeDefinitionIndex = 34889;
 
 	enum class RenderCommandType : ::System::Int32
 	{

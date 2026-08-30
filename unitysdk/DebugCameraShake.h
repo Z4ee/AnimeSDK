@@ -6,13 +6,13 @@
 class CameraShakeTask;
 namespace UnityEngine { class AnimationCurve; }
 
-#define DEBUGCAMERASHAKE_METHOD_5_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x14B8A3F0)
-#define DEBUGCAMERASHAKE_METHOD_5_DA9EBD5F5A0C0204_OFFSET UNITYSDK_OFFSET(0x14B8A150)
-#define DEBUGCAMERASHAKE_START_OFFSET UNITYSDK_OFFSET(0x14B89E30)
-#define DEBUGCAMERASHAKE_UPDATE_OFFSET UNITYSDK_OFFSET(0x14B89FD0)
-#define DEBUGCAMERASHAKE__CTOR_OFFSET UNITYSDK_OFFSET(0x14B8A470)
+#define DEBUGCAMERASHAKE_METHOD_5_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x16030410)
+#define DEBUGCAMERASHAKE_METHOD_5_DA9EBD5F5A0C0204_OFFSET UNITYSDK_OFFSET(0x16030170)
+#define DEBUGCAMERASHAKE_START_OFFSET UNITYSDK_OFFSET(0x1602FE50)
+#define DEBUGCAMERASHAKE_UPDATE_OFFSET UNITYSDK_OFFSET(0x1602FFF0)
+#define DEBUGCAMERASHAKE__CTOR_OFFSET UNITYSDK_OFFSET(0x16030490)
 
-inline static constexpr unsigned int DebugCameraShake_TypeDefinitionIndex = 45454;
+inline static constexpr unsigned int DebugCameraShake_TypeDefinitionIndex = 47704;
 
 class DebugCameraShake : public ::UnityEngine::MonoBehaviour
 {
@@ -22,9 +22,9 @@ public:
 	::CameraShakeTask* PosShakeTask; // 0x20
 	::CameraShakeTask* RotShakeTask; // 0x28
 	::UnityEngine::AnimationCurve* AmplitudeAttenuationCurve; // 0x30
-	::System::Single Field_5_5; // 0x38
-	::UnityEngine::Vector3 Field_5_6; // 0x3C
-	::UnityEngine::Vector3 Field_5_7; // 0x48
+	::System::Single ACNHFNBLHDD; // 0x38
+	::UnityEngine::Vector3 LDGKLOMDNDK; // 0x3C
+	::UnityEngine::Vector3 KHDDKPNOAMK; // 0x48
 
 	::System::Void _ctor()
 	{

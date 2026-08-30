@@ -9,7 +9,7 @@ namespace System::Resources { class ResourceSet; }
 
 namespace System::Resources
 {
-	inline static constexpr unsigned int IResourceGroveler_TypeDefinitionIndex = 515;
+	inline static constexpr unsigned int IResourceGroveler_TypeDefinitionIndex = 518;
 
 	class IResourceGroveler
 	{

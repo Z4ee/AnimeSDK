@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define SYSTEM_REFLECTION_ASSEMBLYKEYFILEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AFC3CD0)
+#define SYSTEM_REFLECTION_ASSEMBLYKEYFILEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC14790)
 
 namespace System::Reflection
 {
-	inline static constexpr unsigned int AssemblyKeyFileAttribute_TypeDefinitionIndex = 547;
+	inline static constexpr unsigned int AssemblyKeyFileAttribute_TypeDefinitionIndex = 550;
 
 	class AssemblyKeyFileAttribute : public ::System::Attribute
 	{

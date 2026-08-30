@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PipelineCameraStateBaseRunner_1_TypeDefinitionIndex = 66605;
+	inline static constexpr unsigned int PipelineCameraStateBaseRunner_1_TypeDefinitionIndex = 69703;
 
 	template <typename CameraStateType>
 	class PipelineCameraStateBaseRunner_1 : public ::RPGCamera::BaseCameraStateRunner_1<CameraStateType>

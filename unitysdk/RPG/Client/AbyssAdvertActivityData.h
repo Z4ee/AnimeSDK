@@ -6,21 +6,21 @@ namespace RPG::Client { class ChallengeGroupData; }
 namespace RPG::Client { class ScheduleData; }
 namespace RPG::Client { class ScheduleTask; }
 
-#define RPG_CLIENT_ABYSSADVERTACTIVITYDATA_ISNEW_OFFSET UNITYSDK_OFFSET(0x17474340)
-#define RPG_CLIENT_ABYSSADVERTACTIVITYDATA_ISSHOWNORMALREDDOT_OFFSET UNITYSDK_OFFSET(0x17474260)
-#define RPG_CLIENT_ABYSSADVERTACTIVITYDATA_SYNCSCHEDULE_OFFSET UNITYSDK_OFFSET(0x17473740)
-#define RPG_CLIENT_ABYSSADVERTACTIVITYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x17473670)
-#define RPG_CLIENT_ABYSSADVERTACTIVITYDATA__ONSCHEDULEENDS_OFFSET UNITYSDK_OFFSET(0x174743F0)
+#define RPG_CLIENT_ABYSSADVERTACTIVITYDATA_ISNEW_OFFSET UNITYSDK_OFFSET(0x1ABB5110)
+#define RPG_CLIENT_ABYSSADVERTACTIVITYDATA_ISSHOWNORMALREDDOT_OFFSET UNITYSDK_OFFSET(0x1ABB5030)
+#define RPG_CLIENT_ABYSSADVERTACTIVITYDATA_SYNCSCHEDULE_OFFSET UNITYSDK_OFFSET(0x1ABB4510)
+#define RPG_CLIENT_ABYSSADVERTACTIVITYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1ABB4440)
+#define RPG_CLIENT_ABYSSADVERTACTIVITYDATA__ONSCHEDULEENDS_OFFSET UNITYSDK_OFFSET(0x1ABB51C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AbyssAdvertActivityData_TypeDefinitionIndex = 58837;
+	inline static constexpr unsigned int AbyssAdvertActivityData_TypeDefinitionIndex = 61668;
 
 	class AbyssAdvertActivityData : public ::RPG::Client::CustomizedActivityPanelData
 	{
 	public:
-		::RPG::Client::ScheduleTask* _WaitCloseTask; // 0xA8
-		::RPG::Client::ChallengeGroupData* CurShowChallengeGroupData; // 0xB0
+		::RPG::Client::ChallengeGroupData* CurShowChallengeGroupData; // 0xA8
+		::RPG::Client::ScheduleTask* _WaitCloseTask; // 0xB0
 		::System::Int32 _DelayDays; // 0xB8
 
 		::System::Void _ctor(::System::UInt32 a1)

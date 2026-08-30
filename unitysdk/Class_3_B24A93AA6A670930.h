@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetInwardBubbleInfo; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_B24A93AA6A670930_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16A19140)
-#define CLASS_3_B24A93AA6A670930__CTOR_OFFSET UNITYSDK_OFFSET(0x16A19110)
+#define CLASS_3_B24A93AA6A670930_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x176EB700)
+#define CLASS_3_B24A93AA6A670930__CTOR_OFFSET UNITYSDK_OFFSET(0x176EB6D0)
 
-inline static constexpr unsigned int Class_3_B24A93AA6A670930_TypeDefinitionIndex = 55925;
+inline static constexpr unsigned int Class_3_B24A93AA6A670930_TypeDefinitionIndex = 58697;
 
 class Class_3_B24A93AA6A670930 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetInwardBubbleInfo*>
 {

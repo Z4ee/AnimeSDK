@@ -6,19 +6,19 @@ namespace RPG::Client::DirectDeliveryNotice { class ActivityAvatarInfoControl; }
 namespace RPG::Client::DirectDeliveryNotice { class DirectDeliveryAvatarRewardToastViewModel; }
 namespace UnityEngine::UI { class Button; }
 
-#define RPG_CLIENT_DIRECTDELIVERYNOTICE_DIRECTDELIVERYAVATARREWARDTOASTWINDOW__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0050A0)
-#define RPG_CLIENT_DIRECTDELIVERYNOTICE_DIRECTDELIVERYAVATARREWARDTOASTWINDOW__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x1A005170)
-#define RPG_CLIENT_DIRECTDELIVERYNOTICE_DIRECTDELIVERYAVATARREWARDTOASTWINDOW__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0x1A0055C0)
+#define RPG_CLIENT_DIRECTDELIVERYNOTICE_DIRECTDELIVERYAVATARREWARDTOASTWINDOW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8DD700)
+#define RPG_CLIENT_DIRECTDELIVERYNOTICE_DIRECTDELIVERYAVATARREWARDTOASTWINDOW__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x1B8DD7B0)
+#define RPG_CLIENT_DIRECTDELIVERYNOTICE_DIRECTDELIVERYAVATARREWARDTOASTWINDOW__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0x1B8DDB90)
 
 namespace RPG::Client::DirectDeliveryNotice
 {
-	inline static constexpr unsigned int DirectDeliveryAvatarRewardToastWindow_TypeDefinitionIndex = 76281;
+	inline static constexpr unsigned int DirectDeliveryAvatarRewardToastWindow_TypeDefinitionIndex = 79914;
 
 	class DirectDeliveryAvatarRewardToastWindow : public ::Sofa::BaseSofaWindow
 	{
 	public:
-		::RPG::Client::DirectDeliveryNotice::ActivityAvatarInfoControl* _AvatarInfoView; // 0x40
 		::UnityEngine::UI::Button* _BtnCollect; // 0x48
+		::RPG::Client::DirectDeliveryNotice::ActivityAvatarInfoControl* _AvatarInfoView; // 0x50
 
 		::System::Void _ctor(::RPG::Client::DirectDeliveryNotice::DirectDeliveryAvatarRewardToastViewModel* a1)
 		{

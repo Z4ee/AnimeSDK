@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_696;
+class Class_0_16E4307DCC419505_732;
 class Class_1_F3C45649FE8EF3A3;
 namespace RPG::Client { class UIPrefabLoader; }
 namespace System { class String; }
@@ -10,26 +10,26 @@ namespace System::Collections::Generic { template <typename T> class Stack_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_7D579EA1FC71ADE0_GET_OFFSET UNITYSDK_OFFSET(0x17DA26F0)
-#define CLASS_1_7D579EA1FC71ADE0_METHOD_1_1470AED6F2704975_OFFSET UNITYSDK_OFFSET(0x17DA27C0)
-#define CLASS_1_7D579EA1FC71ADE0_METHOD_1_2F8C1CDF056C52FC_OFFSET UNITYSDK_OFFSET(0x17DA23B0)
-#define CLASS_1_7D579EA1FC71ADE0_METHOD_1_3621DAF3BFFC31D6_OFFSET UNITYSDK_OFFSET(0x17DA25A0)
-#define CLASS_1_7D579EA1FC71ADE0_METHOD_1_3D9BF7E6ED9A94F5_OFFSET UNITYSDK_OFFSET(0x17DA2970)
-#define CLASS_1_7D579EA1FC71ADE0_PRELOAD_OFFSET UNITYSDK_OFFSET(0x17DA2610)
-#define CLASS_1_7D579EA1FC71ADE0_RETURN_OFFSET UNITYSDK_OFFSET(0x17DA28D0)
-#define CLASS_1_7D579EA1FC71ADE0__CTOR_OFFSET UNITYSDK_OFFSET(0x17DA24F0)
+#define CLASS_1_7D579EA1FC71ADE0_GET_OFFSET UNITYSDK_OFFSET(0x1A102CD0)
+#define CLASS_1_7D579EA1FC71ADE0_METHOD_1_1470AED6F2704975_OFFSET UNITYSDK_OFFSET(0x1A102DA0)
+#define CLASS_1_7D579EA1FC71ADE0_METHOD_1_2F8C1CDF056C52FC_OFFSET UNITYSDK_OFFSET(0x1A102990)
+#define CLASS_1_7D579EA1FC71ADE0_METHOD_1_3621DAF3BFFC31D6_OFFSET UNITYSDK_OFFSET(0x1A102B80)
+#define CLASS_1_7D579EA1FC71ADE0_METHOD_1_3D9BF7E6ED9A94F5_OFFSET UNITYSDK_OFFSET(0x1A102F50)
+#define CLASS_1_7D579EA1FC71ADE0_PRELOAD_OFFSET UNITYSDK_OFFSET(0x1A102BF0)
+#define CLASS_1_7D579EA1FC71ADE0_RETURN_OFFSET UNITYSDK_OFFSET(0x1A102EB0)
+#define CLASS_1_7D579EA1FC71ADE0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A102AD0)
 
-inline static constexpr unsigned int Class_1_7D579EA1FC71ADE0_TypeDefinitionIndex = 59564;
+inline static constexpr unsigned int Class_1_7D579EA1FC71ADE0_TypeDefinitionIndex = 62403;
 
 class Class_1_7D579EA1FC71ADE0 : public ::System::Object
 {
 public:
-	// static const ::System::String* Field_1_0; // 0x0
-	::System::Collections::Generic::Stack_1<::Class_1_F3C45649FE8EF3A3*>* Field_1_1; // 0x10
-	::UnityEngine::Transform* Field_1_2; // 0x18
-	::RPG::Client::UIPrefabLoader* Field_1_3; // 0x20
-	::Class_0_16E4307DCC419505_696* Field_1_4; // 0x28
-	::System::Int32 Field_1_5; // 0x30
+	// static const ::System::String* DJCBDJMACFH; // 0x0
+	::UnityEngine::Transform* GICBFAEGNJG; // 0x10
+	::RPG::Client::UIPrefabLoader* HMELCEOFACP; // 0x18
+	::System::Collections::Generic::Stack_1<::Class_1_F3C45649FE8EF3A3*>* GCIKKMGIPIO; // 0x20
+	::Class_0_16E4307DCC419505_732* IPBJJAJCCKD; // 0x28
+	::System::Int32 NJFKHPIHDEF; // 0x30
 
 	::System::Void _ctor()
 	{
@@ -41,9 +41,9 @@ public:
 		return ((::Class_1_7D579EA1FC71ADE0*(*)())((::PBYTE)hIl2Cpp + CLASS_1_7D579EA1FC71ADE0_METHOD_1_2F8C1CDF056C52FC_OFFSET))();
 	}
 
-	::System::Void Method_1_3621DAF3BFFC31D6(::Class_0_16E4307DCC419505_696* a1, ::RPG::Client::UIPrefabLoader* a2, ::UnityEngine::Transform* a3)
+	::System::Void Method_1_3621DAF3BFFC31D6(::Class_0_16E4307DCC419505_732* a1, ::RPG::Client::UIPrefabLoader* a2, ::UnityEngine::Transform* a3)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_696*, ::RPG::Client::UIPrefabLoader*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + CLASS_1_7D579EA1FC71ADE0_METHOD_1_3621DAF3BFFC31D6_OFFSET))(this, a1, a2, a3);
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_732*, ::RPG::Client::UIPrefabLoader*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + CLASS_1_7D579EA1FC71ADE0_METHOD_1_3621DAF3BFFC31D6_OFFSET))(this, a1, a2, a3);
 	}
 
 	::System::Void PreLoad(::System::Int32 a1)

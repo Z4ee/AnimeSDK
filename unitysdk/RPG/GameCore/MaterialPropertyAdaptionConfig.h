@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class MaterialPropertyConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MATERIALPROPERTYADAPTIONCONFIG_METHOD_2_4C72F6776953E482_OFFSET UNITYSDK_OFFSET(0x1AF41C90)
-#define RPG_GAMECORE_MATERIALPROPERTYADAPTIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF41DA0)
+#define RPG_GAMECORE_MATERIALPROPERTYADAPTIONCONFIG_METHOD_2_4C72F6776953E482_OFFSET UNITYSDK_OFFSET(0x1D270E10)
+#define RPG_GAMECORE_MATERIALPROPERTYADAPTIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D270F20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MaterialPropertyAdaptionConfig_TypeDefinitionIndex = 15859;
+	inline static constexpr unsigned int MaterialPropertyAdaptionConfig_TypeDefinitionIndex = 16335;
 
 	class MaterialPropertyAdaptionConfig : public ::RPG::GameCore::JsonConfig
 	{

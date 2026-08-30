@@ -5,24 +5,24 @@
 namespace RPG::Client { class HeadIconDisplayData; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_HEADICONUTILS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17930700)
-#define RPG_CLIENT_HEADICONUTILS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17930740)
-#define RPG_CLIENT_HEADICONUTILS___C__SORTHEADICONDISPLAYDATALIST_B__4_0_OFFSET UNITYSDK_OFFSET(0x17930750)
+#define RPG_CLIENT_HEADICONUTILS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A06A220)
+#define RPG_CLIENT_HEADICONUTILS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A06A260)
+#define RPG_CLIENT_HEADICONUTILS___C__SORTHEADICONDISPLAYDATALIST_B__4_0_OFFSET UNITYSDK_OFFSET(0x1A06A270)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int HeadIconUtils___c_TypeDefinitionIndex = 62731;
+	inline static constexpr unsigned int HeadIconUtils___c_TypeDefinitionIndex = 65716;
 
 	class HeadIconUtils___c : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::HeadIconUtils___c** StaticGet___9()
 		{
-			return (::RPG::Client::HeadIconUtils___c**)Il2CppClass::FromTypeDefinitionIndex(HeadIconUtils___c_TypeDefinitionIndex)->GetStaticField(0x30E80);
+			return (::RPG::Client::HeadIconUtils___c**)Il2CppClass::FromTypeDefinitionIndex(HeadIconUtils___c_TypeDefinitionIndex)->GetStaticField(0x573D0);
 		}
 		static ::System::Comparison_1<::RPG::Client::HeadIconDisplayData*>** StaticGet___9__4_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::HeadIconDisplayData*>**)Il2CppClass::FromTypeDefinitionIndex(HeadIconUtils___c_TypeDefinitionIndex)->GetStaticField(0x30E88);
+			return (::System::Comparison_1<::RPG::Client::HeadIconDisplayData*>**)Il2CppClass::FromTypeDefinitionIndex(HeadIconUtils___c_TypeDefinitionIndex)->GetStaticField(0x573D8);
 		}
 
 		static ::System::Void _cctor()

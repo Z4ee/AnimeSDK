@@ -8,17 +8,17 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
 namespace UnityEngine { class Mesh; }
 
-#define PBDHANDLE_APPLYFORCE_OFFSET UNITYSDK_OFFSET(0x15F8D620)
-#define PBDHANDLE_METHOD_5_3B2051C60621D523_OFFSET UNITYSDK_OFFSET(0x15F8CDE0)
-#define PBDHANDLE_METHOD_5_4B2D0E39C5A3C698_OFFSET UNITYSDK_OFFSET(0x15F8D8B0)
-#define PBDHANDLE_METHOD_5_8451509F80A98FEC_OFFSET UNITYSDK_OFFSET(0x15F8C970)
-#define PBDHANDLE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x15F8DC20)
-#define PBDHANDLE_ONDRAWGIZMOS_OFFSET UNITYSDK_OFFSET(0x15F8DB00)
-#define PBDHANDLE_START_OFFSET UNITYSDK_OFFSET(0x15F8C300)
-#define PBDHANDLE_UPDATE_OFFSET UNITYSDK_OFFSET(0x15F8CB20)
-#define PBDHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x15F8DC70)
+#define PBDHANDLE_APPLYFORCE_OFFSET UNITYSDK_OFFSET(0x192675A0)
+#define PBDHANDLE_METHOD_5_3B2051C60621D523_OFFSET UNITYSDK_OFFSET(0x19266D60)
+#define PBDHANDLE_METHOD_5_4B2D0E39C5A3C698_OFFSET UNITYSDK_OFFSET(0x19267830)
+#define PBDHANDLE_METHOD_5_8451509F80A98FEC_OFFSET UNITYSDK_OFFSET(0x192668F0)
+#define PBDHANDLE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x19267BA0)
+#define PBDHANDLE_ONDRAWGIZMOS_OFFSET UNITYSDK_OFFSET(0x19267A80)
+#define PBDHANDLE_START_OFFSET UNITYSDK_OFFSET(0x19266280)
+#define PBDHANDLE_UPDATE_OFFSET UNITYSDK_OFFSET(0x19266AA0)
+#define PBDHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x19267BF0)
 
-inline static constexpr unsigned int PBDHandle_TypeDefinitionIndex = 45355;
+inline static constexpr unsigned int PBDHandle_TypeDefinitionIndex = 47601;
 
 class PBDHandle : public ::UnityEngine::MonoBehaviour
 {
@@ -30,15 +30,15 @@ public:
 	::System::Single dampingIncreaseRate; // 0x28
 	::System::Single RecoverRatio; // 0x2C
 	::System::Single MinRecover; // 0x30
-	::System::Collections::Generic::Queue_1<::Class_1_87DF3110F2783615*>* Field_5_7; // 0x38
-	::UnityEngine::Mesh* Field_5_8; // 0x40
-	::UnityEngine::Mesh* Field_5_9; // 0x48
-	::Il2CppArray<::UnityEngine::Vector3>* Field_5_10; // 0x50
-	::System::Collections::Generic::List_1<::UnityEngine::Vector3>* Field_5_11; // 0x58
-	::Il2CppArray<::UnityEngine::Vector3>* Field_5_12; // 0x60
-	::Il2CppArray<::UnityEngine::Vector3>* Field_5_13; // 0x68
-	::System::Int32 Field_5_14; // 0x70
-	::System::Single Field_5_15; // 0x74
+	::System::Collections::Generic::Queue_1<::Class_1_87DF3110F2783615*>* MFDNJNNIHLP; // 0x38
+	::UnityEngine::Mesh* GELIKHJKMMH; // 0x40
+	::UnityEngine::Mesh* POGNHLFFGED; // 0x48
+	::Il2CppArray<::UnityEngine::Vector3>* NBNAEABBGGB; // 0x50
+	::System::Collections::Generic::List_1<::UnityEngine::Vector3>* BAHIIAGLNCN; // 0x58
+	::Il2CppArray<::UnityEngine::Vector3>* DKMOBINHMPA; // 0x60
+	::Il2CppArray<::UnityEngine::Vector3>* LLAEBOAFDGI; // 0x68
+	::System::Int32 ELLCPPLOAHG; // 0x70
+	::System::Single AJHHBNJIKEG; // 0x74
 
 	::System::Void _ctor()
 	{

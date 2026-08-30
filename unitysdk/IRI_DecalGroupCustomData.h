@@ -1,0 +1,39 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/IRI_BaseBuildingCustomData.h"
+#include "unitysdk/UnityEngine/Bounds.h"
+
+namespace System { class String; }
+
+#define IRI_DECALGROUPCUSTOMDATA_METHOD_6_A2846FC5EA0763C6_OFFSET UNITYSDK_OFFSET(0x18E6C480)
+#define IRI_DECALGROUPCUSTOMDATA_METHOD_6_FF7B2911BBACA4A9_OFFSET UNITYSDK_OFFSET(0x18E6C400)
+#define IRI_DECALGROUPCUSTOMDATA_ONENABLE_OFFSET UNITYSDK_OFFSET(0x18E6C4A0)
+#define IRI_DECALGROUPCUSTOMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18E6C4E0)
+
+inline static constexpr unsigned int IRI_DecalGroupCustomData_TypeDefinitionIndex = 47632;
+
+class IRI_DecalGroupCustomData : public ::IRI_BaseBuildingCustomData
+{
+public:
+	::System::String* Lod0Path; // 0x40
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IRI_DECALGROUPCUSTOMDATA__CTOR_OFFSET))(this);
+	}
+
+	::System::Single Method_6_FF7B2911BBACA4A9()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + IRI_DECALGROUPCUSTOMDATA_METHOD_6_FF7B2911BBACA4A9_OFFSET))(this);
+	}
+
+	::UnityEngine::Bounds Method_6_A2846FC5EA0763C6()
+	{
+		return ((::UnityEngine::Bounds(*)(::PVOID))((::PBYTE)hIl2Cpp + IRI_DECALGROUPCUSTOMDATA_METHOD_6_A2846FC5EA0763C6_OFFSET))(this);
+	}
+
+	::System::Void OnEnable()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IRI_DECALGROUPCUSTOMDATA_ONENABLE_OFFSET))(this);
+	}
+};

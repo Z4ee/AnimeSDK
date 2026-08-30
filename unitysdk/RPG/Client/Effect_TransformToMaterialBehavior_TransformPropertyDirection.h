@@ -4,12 +4,12 @@
 #include "unitysdk/RPG/Client/Effect_TransformToMaterialBehavior_TransformPropertyDirection_DirectionMode.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
-#define RPG_CLIENT_EFFECT_TRANSFORMTOMATERIALBEHAVIOR_TRANSFORMPROPERTYDIRECTION_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x151342B0)
-#define RPG_CLIENT_EFFECT_TRANSFORMTOMATERIALBEHAVIOR_TRANSFORMPROPERTYDIRECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x151347A0)
+#define RPG_CLIENT_EFFECT_TRANSFORMTOMATERIALBEHAVIOR_TRANSFORMPROPERTYDIRECTION_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x15EA56B0)
+#define RPG_CLIENT_EFFECT_TRANSFORMTOMATERIALBEHAVIOR_TRANSFORMPROPERTYDIRECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x15EA5BA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_TransformToMaterialBehavior_TransformPropertyDirection_TypeDefinitionIndex = 67422;
+	inline static constexpr unsigned int Effect_TransformToMaterialBehavior_TransformPropertyDirection_TypeDefinitionIndex = 70544;
 
 	class Effect_TransformToMaterialBehavior_TransformPropertyDirection : public ::RPG::Client::Effect_TransformToMaterialBehavior_TransformProperty
 	{

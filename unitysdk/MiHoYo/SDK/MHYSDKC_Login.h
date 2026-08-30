@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MHYSDKC_Login_TypeDefinitionIndex = 44409;
+	inline static constexpr unsigned int MHYSDKC_Login_TypeDefinitionIndex = 46591;
 
 	class MHYSDKC_Login : public ::System::Object
 	{
@@ -18,7 +18,6 @@ namespace MiHoYo::SDK
 		// static const ::System::String* SET_SHOW_CLOSE_BTN; // 0x0
 		// static const ::System::String* LOGIN_QRCODE; // 0x0
 		// static const ::System::String* LOGOUT_WITHOUT_CONFIRM; // 0x0
-		// static const ::System::String* SET_ACCOUNT; // 0x0
 		// static const ::System::String* PAY; // 0x0
 		// static const ::System::String* EXIT; // 0x0
 		// static const ::System::String* PAY_RECOMMEND; // 0x0
@@ -37,8 +36,6 @@ namespace MiHoYo::SDK
 		// static const ::System::String* HAS_USER_CENTER; // 0x0
 		// static const ::System::String* OPEN_USER_CENTER; // 0x0
 		// static const ::System::String* CLOSE_USER_CENTER; // 0x0
-		// static const ::System::String* HAS_CUSTOMER_SERVICE; // 0x0
-		// static const ::System::String* OPEN_CUSTOMER_SERVICE; // 0x0
 		// static const ::System::String* HAS_SCAN_FUNC; // 0x0
 		// static const ::System::String* SCAN_CODE; // 0x0
 		// static const ::System::String* IS_ACCOUNT_BIND_MOBILE; // 0x0

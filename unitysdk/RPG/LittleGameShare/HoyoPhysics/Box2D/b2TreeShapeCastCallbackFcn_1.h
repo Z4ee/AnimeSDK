@@ -9,7 +9,7 @@ namespace System { class Object; }
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int b2TreeShapeCastCallbackFcn_1_TypeDefinitionIndex = 35107;
+	inline static constexpr unsigned int b2TreeShapeCastCallbackFcn_1_TypeDefinitionIndex = 35968;
 
 	template <typename T>
 	class b2TreeShapeCastCallbackFcn_1 : public ::System::MulticastDelegate

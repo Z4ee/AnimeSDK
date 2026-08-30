@@ -6,24 +6,24 @@
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_MONOJIGSAWFRAMEIKBAKER__CCTOR_OFFSET UNITYSDK_OFFSET(0x18C55D60)
-#define RPG_CLIENT_MONOJIGSAWFRAMEIKBAKER__CTOR_OFFSET UNITYSDK_OFFSET(0x18C55D50)
+#define RPG_CLIENT_MONOJIGSAWFRAMEIKBAKER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1ACEBE20)
+#define RPG_CLIENT_MONOJIGSAWFRAMEIKBAKER__CTOR_OFFSET UNITYSDK_OFFSET(0x1ACEBE10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoJigsawFrameIKBaker_TypeDefinitionIndex = 65558;
+	inline static constexpr unsigned int MonoJigsawFrameIKBaker_TypeDefinitionIndex = 68573;
 
 	class MonoJigsawFrameIKBaker : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		static ::System::String** StaticGet_AnimatorPoseState()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(MonoJigsawFrameIKBaker_TypeDefinitionIndex)->GetStaticField(0x46B0);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(MonoJigsawFrameIKBaker_TypeDefinitionIndex)->GetStaticField(0x16340);
 		}
 		::UnityEngine::Transform* BodyEffectorTarget; // 0x18
 		::System::Single MaxBodyEffectorHeight; // 0x20
 		::System::Single MinBodyEffectorHeight; // 0x24
-		::UnityEngine::Vector3 Field_5_4; // 0x28
+		::UnityEngine::Vector3 ANAHLJABNJF; // 0x28
 
 		::System::Void _ctor()
 		{

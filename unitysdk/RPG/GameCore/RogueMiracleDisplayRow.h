@@ -6,18 +6,18 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUEMIRACLEDISPLAYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CFBD350)
-#define RPG_GAMECORE_ROGUEMIRACLEDISPLAYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFBDA60)
+#define RPG_GAMECORE_ROGUEMIRACLEDISPLAYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EEF5B40)
+#define RPG_GAMECORE_ROGUEMIRACLEDISPLAYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1EEF6250)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueMiracleDisplayRow_TypeDefinitionIndex = 14112;
+	inline static constexpr unsigned int RogueMiracleDisplayRow_TypeDefinitionIndex = 14532;
 
 	class RogueMiracleDisplayRow : public ::System::Object
 	{
 	public:
-		::System::String* MiracleIconPath; // 0x10
-		::System::String* MiracleFigureIconPath; // 0x18
+		::System::String* MiracleFigureIconPath; // 0x10
+		::System::String* MiracleIconPath; // 0x18
 		::RPG::Client::TextID MiracleBGDesc; // 0x20
 		::RPG::Client::TextID MiracleName; // 0x30
 		::System::UInt32 MiracleDisplayID; // 0x40

@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ComicDialogEmitterBehavior_TextDirection_TypeDefinitionIndex = 67695;
+	inline static constexpr unsigned int ComicDialogEmitterBehavior_TextDirection_TypeDefinitionIndex = 70842;
 
 	enum class ComicDialogEmitterBehavior_TextDirection : ::System::Int32
 	{

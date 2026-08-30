@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class BaseChimeraDuelValueGetter; }
 
-#define RPG_GAMECORE_CHIMERADUELBUFFDISPLAYCONFIG_METHOD_2_E00313D7CA8F819A_OFFSET UNITYSDK_OFFSET(0x1C391890)
-#define RPG_GAMECORE_CHIMERADUELBUFFDISPLAYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C391AC0)
+#define RPG_GAMECORE_CHIMERADUELBUFFDISPLAYCONFIG_METHOD_2_E00313D7CA8F819A_OFFSET UNITYSDK_OFFSET(0x1E32DF90)
+#define RPG_GAMECORE_CHIMERADUELBUFFDISPLAYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1E32E1C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDuelBuffDisplayConfig_TypeDefinitionIndex = 15395;
+	inline static constexpr unsigned int ChimeraDuelBuffDisplayConfig_TypeDefinitionIndex = 15832;
 
 	class ChimeraDuelBuffDisplayConfig : public ::RPG::GameCore::JsonConfig
 	{

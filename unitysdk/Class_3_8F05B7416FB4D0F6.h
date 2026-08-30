@@ -7,15 +7,15 @@ namespace RPG::GameCore { class AddBehaviorFlagForModifier; }
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
-#define CLASS_3_8F05B7416FB4D0F6_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15303580)
-#define CLASS_3_8F05B7416FB4D0F6__CTOR_OFFSET UNITYSDK_OFFSET(0x15303550)
+#define CLASS_3_8F05B7416FB4D0F6_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x165E41D0)
+#define CLASS_3_8F05B7416FB4D0F6__CTOR_OFFSET UNITYSDK_OFFSET(0x165E41A0)
 
-inline static constexpr unsigned int Class_3_8F05B7416FB4D0F6_TypeDefinitionIndex = 52681;
+inline static constexpr unsigned int Class_3_8F05B7416FB4D0F6_TypeDefinitionIndex = 55380;
 
 class Class_3_8F05B7416FB4D0F6 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AddBehaviorFlagForModifier*>
 {
 public:
-	::RPG::GameCore::ArrayPoolWrapper_1<::RPG::GameCore::TurnBasedModifierInstance*> Field_3_0; // 0x28
+	::RPG::GameCore::ArrayPoolWrapper_1<::RPG::GameCore::TurnBasedModifierInstance*> PIIIMMOPIKE; // 0x28
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::AddBehaviorFlagForModifier* a2)
 	{

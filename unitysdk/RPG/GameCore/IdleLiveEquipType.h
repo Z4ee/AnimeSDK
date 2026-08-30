@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveEquipType_TypeDefinitionIndex = 11340;
+	inline static constexpr unsigned int IdleLiveEquipType_TypeDefinitionIndex = 11729;
 
 	enum class IdleLiveEquipType : ::System::Int32
 	{

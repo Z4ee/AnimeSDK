@@ -5,10 +5,10 @@
 class Class_1_A2967FAA88DD8F73_1;
 namespace RPG::Client { class PlanetFesTradingCardApplyItem; }
 
-#define CLASS_1_F8232DFF934E6733___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14A546D0)
-#define CLASS_1_F8232DFF934E6733___C__DISPLAYCLASS7_0__SYNC_B__0_OFFSET UNITYSDK_OFFSET(0x14A5B2D0)
+#define CLASS_1_F8232DFF934E6733___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x162DF5E0)
+#define CLASS_1_F8232DFF934E6733___C__DISPLAYCLASS7_0__SYNC_B__0_OFFSET UNITYSDK_OFFSET(0x162E6110)
 
-inline static constexpr unsigned int Class_1_F8232DFF934E6733___c__DisplayClass7_0_TypeDefinitionIndex = 63638;
+inline static constexpr unsigned int Class_1_F8232DFF934E6733___c__DisplayClass7_0_TypeDefinitionIndex = 66623;
 
 class Class_1_F8232DFF934E6733___c__DisplayClass7_0 : public ::System::Object
 {

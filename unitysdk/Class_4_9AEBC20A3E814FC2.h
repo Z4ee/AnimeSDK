@@ -5,9 +5,9 @@
 namespace RPG::GameCore { class SetAttachmentVisibilityForUI; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_4_9AEBC20A3E814FC2__CTOR_OFFSET UNITYSDK_OFFSET(0x18EF4F90)
+#define CLASS_4_9AEBC20A3E814FC2__CTOR_OFFSET UNITYSDK_OFFSET(0x17830F70)
 
-inline static constexpr unsigned int Class_4_9AEBC20A3E814FC2_TypeDefinitionIndex = 53361;
+inline static constexpr unsigned int Class_4_9AEBC20A3E814FC2_TypeDefinitionIndex = 56075;
 
 class Class_4_9AEBC20A3E814FC2 : public ::Class_3_61191923565A3FB2
 {

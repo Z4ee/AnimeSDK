@@ -5,19 +5,19 @@
 
 namespace System { class String; }
 
-#define CLASS_1_90F15F1C45B87C6F_METHOD_1_5CEC4607322705E5_OFFSET UNITYSDK_OFFSET(0x18C0D260)
-#define CLASS_1_90F15F1C45B87C6F_TOSTRING_OFFSET UNITYSDK_OFFSET(0x18C19450)
-#define CLASS_1_90F15F1C45B87C6F__CTOR_OFFSET UNITYSDK_OFFSET(0x18C0D250)
+#define CLASS_1_90F15F1C45B87C6F_METHOD_1_5CEC4607322705E5_OFFSET UNITYSDK_OFFSET(0x1A4BE860)
+#define CLASS_1_90F15F1C45B87C6F_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1A4CAB30)
+#define CLASS_1_90F15F1C45B87C6F__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4BE850)
 
-inline static constexpr unsigned int Class_1_90F15F1C45B87C6F_TypeDefinitionIndex = 39389;
+inline static constexpr unsigned int Class_1_90F15F1C45B87C6F_TypeDefinitionIndex = 40262;
 
 class Class_1_90F15F1C45B87C6F : public ::System::Object
 {
 public:
-	::System::UInt32 Field_1_0; // 0x10
-	::RPG::Client::SectionType Field_1_1; // 0x14
-	::System::UInt32 Field_1_2; // 0x18
-	::System::UInt32 Field_1_3; // 0x1C
+	::System::UInt32 DEFBCHJCDGL; // 0x10
+	::System::UInt32 ELFDDLBMMPC; // 0x14
+	::System::UInt32 JFAGECNFHJL; // 0x18
+	::RPG::Client::SectionType GMPGDEINODK; // 0x1C
 
 	::System::Void _ctor()
 	{

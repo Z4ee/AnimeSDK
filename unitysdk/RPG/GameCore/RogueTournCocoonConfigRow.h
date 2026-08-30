@@ -8,31 +8,31 @@ class Class_1_A88C3AAF0DD46F4C_9;
 namespace RPG::GameCore { class ItemConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUETOURNCOCOONCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1BB711F0)
-#define RPG_GAMECORE_ROGUETOURNCOCOONCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB716E0)
+#define RPG_GAMECORE_ROGUETOURNCOCOONCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E550010)
+#define RPG_GAMECORE_ROGUETOURNCOCOONCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1E550500)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTournCocoonConfigRow_TypeDefinitionIndex = 14402;
+	inline static constexpr unsigned int RogueTournCocoonConfigRow_TypeDefinitionIndex = 14822;
 
 	class RogueTournCocoonConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* PicPath; // 0x10
+		::Il2CppArray<::RPG::GameCore::ItemConfig*>* DisplayItemList; // 0x10
 		::Il2CppArray<::RPG::GameCore::AttackDamageType>* RecommendDamageTypes; // 0x18
 		::Il2CppArray<::System::UInt32>* DropList; // 0x20
-		::Il2CppArray<::RPG::GameCore::ItemConfig*>* DisplayItemList; // 0x28
-		::Il2CppArray<::Class_1_A88C3AAF0DD46F4C_9*>* DisplayMonsterMap; // 0x30
-		::System::UInt32 RogueKeyCost; // 0x38
-		::System::UInt32 EventID; // 0x3C
-		::System::UInt32 FuncUnlockID; // 0x40
-		::System::UInt32 MaxChallengeCnt; // 0x44
+		::Il2CppArray<::Class_1_A88C3AAF0DD46F4C_9*>* DisplayMonsterMap; // 0x28
+		::System::String* PicPath; // 0x30
+		::System::UInt32 ID; // 0x38
+		::System::UInt32 NpcMonsterID; // 0x3C
+		::System::UInt32 WorldLevel; // 0x40
+		::System::UInt32 RecommendLevel; // 0x44
 		::System::UInt32 Difficulty; // 0x48
-		::System::UInt32 RecommendLevel; // 0x4C
-		::System::UInt32 NpcMonsterID; // 0x50
-		::System::UInt32 WorldLevel; // 0x54
-		::System::UInt32 ID; // 0x58
-		::System::UInt32 StaminaCost; // 0x5C
+		::System::UInt32 EventID; // 0x4C
+		::System::UInt32 FuncUnlockID; // 0x50
+		::System::UInt32 StaminaCost; // 0x54
+		::System::UInt32 MaxChallengeCnt; // 0x58
+		::System::UInt32 RogueKeyCost; // 0x5C
 		::System::UInt32 DisplayID; // 0x60
 
 		::System::Void _ctor()

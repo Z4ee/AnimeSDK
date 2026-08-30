@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightEquipDressType_TypeDefinitionIndex = 12942;
+	inline static constexpr unsigned int GridFightEquipDressType_TypeDefinitionIndex = 13333;
 
 	enum class GridFightEquipDressType : ::System::Int32
 	{

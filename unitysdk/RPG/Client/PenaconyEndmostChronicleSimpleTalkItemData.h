@@ -2,17 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_PENACONYENDMOSTCHRONICLESIMPLETALKITEMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x17F38440)
+#define RPG_CLIENT_PENACONYENDMOSTCHRONICLESIMPLETALKITEMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1864A180)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PenaconyEndmostChronicleSimpleTalkItemData_TypeDefinitionIndex = 63166;
+	inline static constexpr unsigned int PenaconyEndmostChronicleSimpleTalkItemData_TypeDefinitionIndex = 66151;
 
 	class PenaconyEndmostChronicleSimpleTalkItemData : public ::System::Object
 	{
 	public:
-		::System::UInt32 SentenceID; // 0x10
-		::System::Single Speed; // 0x14
+		::System::Single Speed; // 0x10
+		::System::UInt32 SentenceID; // 0x14
 		::System::Single BlockTime; // 0x18
 
 		::System::Void _ctor()

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PetBodySize_TypeDefinitionIndex = 10099;
+	inline static constexpr unsigned int PetBodySize_TypeDefinitionIndex = 10435;
 
 	enum class PetBodySize : ::System::Int32
 	{

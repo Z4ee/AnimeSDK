@@ -6,16 +6,16 @@
 namespace RPG::GameCore { class SetDynamicValueByRaidTargetProgress; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_E31088B822FC1053_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x140D2060)
-#define CLASS_3_E31088B822FC1053__CTOR_OFFSET UNITYSDK_OFFSET(0x140D1ED0)
+#define CLASS_3_E31088B822FC1053_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18CBE3B0)
+#define CLASS_3_E31088B822FC1053__CTOR_OFFSET UNITYSDK_OFFSET(0x18CBE220)
 
-inline static constexpr unsigned int Class_3_E31088B822FC1053_TypeDefinitionIndex = 55915;
+inline static constexpr unsigned int Class_3_E31088B822FC1053_TypeDefinitionIndex = 58687;
 
 class Class_3_E31088B822FC1053 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetDynamicValueByRaidTargetProgress*>
 {
 public:
-	::RPG::GameCore::StringHash Field_3_0; // 0x28
-	::RPG::GameCore::StringHash Field_3_1; // 0x2C
+	::RPG::GameCore::StringHash IKPIIDMENNM; // 0x28
+	::RPG::GameCore::StringHash IOCKIKFGCLK; // 0x2C
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetDynamicValueByRaidTargetProgress* a2)
 	{

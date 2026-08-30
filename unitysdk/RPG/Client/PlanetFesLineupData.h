@@ -5,21 +5,21 @@
 namespace RPG::Client { class PlanetFesLandLineupData; }
 namespace RPG::GameCore { class PlanetFesRecommendTeamRow; }
 
-#define RPG_CLIENT_PLANETFESLINEUPDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x1A975DB0)
-#define RPG_CLIENT_PLANETFESLINEUPDATA_GET_INDEX_OFFSET UNITYSDK_OFFSET(0x1A975D90)
-#define RPG_CLIENT_PLANETFESLINEUPDATA_SET_INDEX_OFFSET UNITYSDK_OFFSET(0x1A975DA0)
-#define RPG_CLIENT_PLANETFESLINEUPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1A975E90)
+#define RPG_CLIENT_PLANETFESLINEUPDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x1C379760)
+#define RPG_CLIENT_PLANETFESLINEUPDATA_GET_INDEX_OFFSET UNITYSDK_OFFSET(0x1C379740)
+#define RPG_CLIENT_PLANETFESLINEUPDATA_SET_INDEX_OFFSET UNITYSDK_OFFSET(0x1C379750)
+#define RPG_CLIENT_PLANETFESLINEUPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1C379840)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlanetFesLineupData_TypeDefinitionIndex = 63575;
+	inline static constexpr unsigned int PlanetFesLineupData_TypeDefinitionIndex = 66560;
 
 	class PlanetFesLineupData : public ::System::Object
 	{
 	public:
-		::RPG::Client::PlanetFesLandLineupData* ExhibitionLineup; // 0x10
-		::RPG::Client::PlanetFesLandLineupData* GameLineup; // 0x18
-		::RPG::Client::PlanetFesLandLineupData* BusinessLineup; // 0x20
+		::RPG::Client::PlanetFesLandLineupData* BusinessLineup; // 0x10
+		::RPG::Client::PlanetFesLandLineupData* ExhibitionLineup; // 0x18
+		::RPG::Client::PlanetFesLandLineupData* GameLineup; // 0x20
 		::System::UInt32 _Index_k__BackingField; // 0x28
 
 		::System::Void _ctor()

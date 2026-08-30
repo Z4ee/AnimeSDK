@@ -5,22 +5,22 @@
 namespace System { class String; }
 namespace System { template <typename T> class Func_1; }
 
-#define CLASS_1_57CE76CDADE932BE_1___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x16DA2770)
-#define CLASS_1_57CE76CDADE932BE_1___C__CREATEITEM_B__1_0_OFFSET UNITYSDK_OFFSET(0x16DA27C0)
-#define CLASS_1_57CE76CDADE932BE_1___C__CTOR_OFFSET UNITYSDK_OFFSET(0x16DA27B0)
+#define CLASS_1_57CE76CDADE932BE_1___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x169A8D70)
+#define CLASS_1_57CE76CDADE932BE_1___C__CREATEITEM_B__1_0_OFFSET UNITYSDK_OFFSET(0x169A8DC0)
+#define CLASS_1_57CE76CDADE932BE_1___C__CTOR_OFFSET UNITYSDK_OFFSET(0x169A8DB0)
 
-inline static constexpr unsigned int Class_1_57CE76CDADE932BE_1___c_TypeDefinitionIndex = 62661;
+inline static constexpr unsigned int Class_1_57CE76CDADE932BE_1___c_TypeDefinitionIndex = 65646;
 
 class Class_1_57CE76CDADE932BE_1___c : public ::System::Object
 {
 public:
-	static ::Class_1_57CE76CDADE932BE_1___c** StaticGet___9()
-	{
-		return (::Class_1_57CE76CDADE932BE_1___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_57CE76CDADE932BE_1___c_TypeDefinitionIndex)->GetStaticField(0x46400);
-	}
 	static ::System::Func_1<::System::String*>** StaticGet___9__1_0()
 	{
-		return (::System::Func_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_57CE76CDADE932BE_1___c_TypeDefinitionIndex)->GetStaticField(0x46408);
+		return (::System::Func_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_57CE76CDADE932BE_1___c_TypeDefinitionIndex)->GetStaticField(0x59910);
+	}
+	static ::Class_1_57CE76CDADE932BE_1___c** StaticGet___9()
+	{
+		return (::Class_1_57CE76CDADE932BE_1___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_57CE76CDADE932BE_1___c_TypeDefinitionIndex)->GetStaticField(0x59918);
 	}
 
 	static ::System::Void _cctor()

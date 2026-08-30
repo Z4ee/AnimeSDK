@@ -9,12 +9,12 @@ namespace RPG::GameCore { class PreloadItemList; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ADVENTUREPRELOADCONFIG_METHOD_2_5BE1E189250F1B16_OFFSET UNITYSDK_OFFSET(0x1AE61790)
-#define RPG_GAMECORE_ADVENTUREPRELOADCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE61980)
+#define RPG_GAMECORE_ADVENTUREPRELOADCONFIG_METHOD_2_5BE1E189250F1B16_OFFSET UNITYSDK_OFFSET(0x1CBBD610)
+#define RPG_GAMECORE_ADVENTUREPRELOADCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CBBD800)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventurePreloadConfig_TypeDefinitionIndex = 15720;
+	inline static constexpr unsigned int AdventurePreloadConfig_TypeDefinitionIndex = 16196;
 
 	class AdventurePreloadConfig : public ::RPG::GameCore::JsonConfig
 	{

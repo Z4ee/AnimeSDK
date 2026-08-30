@@ -6,13 +6,13 @@ namespace System { class Delegate; }
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int EventHandlerList_ListEntry_TypeDefinitionIndex = 2588;
+	inline static constexpr unsigned int EventHandlerList_ListEntry_TypeDefinitionIndex = 2595;
 
 	class EventHandlerList_ListEntry : public ::System::Object
 	{
 	public:
-		::System::Delegate* handler; // 0x10
-		::System::Object* key; // 0x18
+		::System::Object* key; // 0x10
+		::System::Delegate* handler; // 0x18
 		::System::ComponentModel::EventHandlerList_ListEntry* next; // 0x20
 	};
 }

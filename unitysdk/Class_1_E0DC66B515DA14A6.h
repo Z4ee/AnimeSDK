@@ -9,25 +9,25 @@ namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_E0DC66B515DA14A6_CLEAR_OFFSET UNITYSDK_OFFSET(0xBFD4150)
-#define CLASS_1_E0DC66B515DA14A6_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0xBFD3C80)
-#define CLASS_1_E0DC66B515DA14A6_ONCANCELSPAWN_OFFSET UNITYSDK_OFFSET(0xBFD40D0)
-#define CLASS_1_E0DC66B515DA14A6_ONSPAWNASYNC_OFFSET UNITYSDK_OFFSET(0xBFD3C90)
-#define CLASS_1_E0DC66B515DA14A6_USELIGHTWEIGHTDEACTIVE_OFFSET UNITYSDK_OFFSET(0xBFD4110)
-#define CLASS_1_E0DC66B515DA14A6__CTOR_OFFSET UNITYSDK_OFFSET(0xBFD4370)
+#define CLASS_1_E0DC66B515DA14A6_CLEAR_OFFSET UNITYSDK_OFFSET(0x16E47920)
+#define CLASS_1_E0DC66B515DA14A6_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x16E47450)
+#define CLASS_1_E0DC66B515DA14A6_ONCANCELSPAWN_OFFSET UNITYSDK_OFFSET(0x16E478A0)
+#define CLASS_1_E0DC66B515DA14A6_ONSPAWNASYNC_OFFSET UNITYSDK_OFFSET(0x16E47460)
+#define CLASS_1_E0DC66B515DA14A6_USELIGHTWEIGHTDEACTIVE_OFFSET UNITYSDK_OFFSET(0x16E478E0)
+#define CLASS_1_E0DC66B515DA14A6__CTOR_OFFSET UNITYSDK_OFFSET(0x16E47B30)
 
-inline static constexpr unsigned int Class_1_E0DC66B515DA14A6_TypeDefinitionIndex = 65612;
+inline static constexpr unsigned int Class_1_E0DC66B515DA14A6_TypeDefinitionIndex = 68628;
 
 class Class_1_E0DC66B515DA14A6 : public ::System::Object
 {
 public:
-	::UnityEngine::GameObject* Field_1_0; // 0x10
-	::UnityEngine::GameObject* Field_1_1; // 0x18
-	::UnityEngine::Transform* Field_1_2; // 0x20
-	::System::String* Field_1_3; // 0x28
-	::System::String* Field_1_4; // 0x30
-	::RPG::Client::ElfFarmCellData* Field_1_5; // 0x38
-	::UnityEngine::Quaternion Field_1_6; // 0x40
+	::UnityEngine::GameObject* BHOMJHDIOMH; // 0x10
+	::UnityEngine::Transform* HFLDHJHJNCF; // 0x18
+	::System::String* BFDAADMGNFD; // 0x20
+	::UnityEngine::GameObject* FAEGPGKBBLI; // 0x28
+	::RPG::Client::ElfFarmCellData* KJHODFDPOCG; // 0x30
+	::System::String* PILMABHICEE; // 0x38
+	::UnityEngine::Quaternion FLNOBMJMDNG; // 0x40
 
 	::System::Void _ctor()
 	{

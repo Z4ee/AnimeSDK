@@ -1,0 +1,49 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/NotifyType.h"
+#include "unitysdk/RPG/GameCore/BattleOperationType.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_FF109FBE3E2CCA21;
+namespace RPG::GameCore { class EventManager; }
+namespace System { class Action; }
+
+#define CLASS_2_60A87015E3E1EF8C_CLASS_1_F55CD30A232E7CF4_METHOD_1_01509228E3A9577B_OFFSET UNITYSDK_OFFSET(0x1D8C7FE0)
+#define CLASS_2_60A87015E3E1EF8C_CLASS_1_F55CD30A232E7CF4_METHOD_1_89D1F247B9D324EE_OFFSET UNITYSDK_OFFSET(0x1D8C7DC0)
+#define CLASS_2_60A87015E3E1EF8C_CLASS_1_F55CD30A232E7CF4_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x1D8C7FA0)
+#define CLASS_2_60A87015E3E1EF8C_CLASS_1_F55CD30A232E7CF4_METHOD_1_EBE2C381E82D3E4A_OFFSET UNITYSDK_OFFSET(0x1D8C7E60)
+#define CLASS_2_60A87015E3E1EF8C_CLASS_1_F55CD30A232E7CF4__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8C7C20)
+
+inline static constexpr unsigned int Class_2_60A87015E3E1EF8C_Class_1_F55CD30A232E7CF4_TypeDefinitionIndex = 59016;
+
+class Class_2_60A87015E3E1EF8C_Class_1_F55CD30A232E7CF4 : public ::System::Object
+{
+public:
+	::Class_1_FF109FBE3E2CCA21* JELPBNHCPCO; // 0x10
+	::System::Action* BJLJAHMLKIO; // 0x18
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_60A87015E3E1EF8C_CLASS_1_F55CD30A232E7CF4__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_1_89D1F247B9D324EE()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_60A87015E3E1EF8C_CLASS_1_F55CD30A232E7CF4_METHOD_1_89D1F247B9D324EE_OFFSET))(this);
+	}
+
+	::System::Void Method_1_EBE2C381E82D3E4A(::RPG::GameCore::EventManager* a1, ::System::Action* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::EventManager*, ::System::Action*))((::PBYTE)hIl2Cpp + CLASS_2_60A87015E3E1EF8C_CLASS_1_F55CD30A232E7CF4_METHOD_1_EBE2C381E82D3E4A_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_1_CA373AA1C7054598()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_60A87015E3E1EF8C_CLASS_1_F55CD30A232E7CF4_METHOD_1_CA373AA1C7054598_OFFSET))(this);
+	}
+
+	::System::Void Method_1_01509228E3A9577B(::System::Object* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_2_60A87015E3E1EF8C_CLASS_1_F55CD30A232E7CF4_METHOD_1_01509228E3A9577B_OFFSET))(this, a1);
+	}
+};

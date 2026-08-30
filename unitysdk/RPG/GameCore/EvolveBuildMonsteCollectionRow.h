@@ -4,18 +4,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_EVOLVEBUILDMONSTECOLLECTIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C060FD0)
-#define RPG_GAMECORE_EVOLVEBUILDMONSTECOLLECTIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1C0615B0)
+#define RPG_GAMECORE_EVOLVEBUILDMONSTECOLLECTIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7D0E80)
+#define RPG_GAMECORE_EVOLVEBUILDMONSTECOLLECTIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7D1460)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EvolveBuildMonsteCollectionRow_TypeDefinitionIndex = 11013;
+	inline static constexpr unsigned int EvolveBuildMonsteCollectionRow_TypeDefinitionIndex = 11388;
 
 	class EvolveBuildMonsteCollectionRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 ID; // 0x10
-		::System::UInt32 UnlockQuest; // 0x14
+		::System::UInt32 UnlockQuest; // 0x10
+		::System::UInt32 ID; // 0x14
 
 		::System::Void _ctor()
 		{

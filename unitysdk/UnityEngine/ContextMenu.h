@@ -4,20 +4,20 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_CONTEXTMENU__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C16AA40)
-#define UNITYENGINE_CONTEXTMENU__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1C16AA50)
-#define UNITYENGINE_CONTEXTMENU__CTOR_OFFSET UNITYSDK_OFFSET(0x1C16AA30)
+#define UNITYENGINE_CONTEXTMENU__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DECBEE0)
+#define UNITYENGINE_CONTEXTMENU__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1DECBEF0)
+#define UNITYENGINE_CONTEXTMENU__CTOR_OFFSET UNITYSDK_OFFSET(0x1DECBED0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ContextMenu_TypeDefinitionIndex = 4293;
+	inline static constexpr unsigned int ContextMenu_TypeDefinitionIndex = 4303;
 
 	class ContextMenu : public ::System::Attribute
 	{
 	public:
 		::System::String* menuItem; // 0x10
-		::System::Int32 priority; // 0x18
-		::System::Boolean validate; // 0x1C
+		::System::Boolean validate; // 0x18
+		::System::Int32 priority; // 0x1C
 
 		::System::Void _ctor(::System::String* a1)
 		{

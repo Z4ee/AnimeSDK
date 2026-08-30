@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class GroupValueLookUpConfig; }
 
-#define RPG_GAMECORE_GROUPLOOKUPCONFIG_METHOD_2_18996466098997A8_OFFSET UNITYSDK_OFFSET(0x1D080CB0)
-#define RPG_GAMECORE_GROUPLOOKUPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D080E10)
+#define RPG_GAMECORE_GROUPLOOKUPCONFIG_METHOD_2_18996466098997A8_OFFSET UNITYSDK_OFFSET(0x1D3C2DA0)
+#define RPG_GAMECORE_GROUPLOOKUPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3C2F00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GroupLookUpConfig_TypeDefinitionIndex = 15738;
+	inline static constexpr unsigned int GroupLookUpConfig_TypeDefinitionIndex = 16214;
 
 	class GroupLookUpConfig : public ::RPG::GameCore::JsonConfig
 	{

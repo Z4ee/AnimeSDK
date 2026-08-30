@@ -9,27 +9,27 @@ namespace RPG::GameCore { class LevelAnchorParameter; }
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_GAMECORE_ANCHORINFO_GETAREAANCHORNAME_OFFSET UNITYSDK_OFFSET(0x195B6420)
-#define RPG_GAMECORE_ANCHORINFO_GET_POSITION_OFFSET UNITYSDK_OFFSET(0x195B6260)
-#define RPG_GAMECORE_ANCHORINFO_GET_ROTATION_OFFSET UNITYSDK_OFFSET(0x195B62F0)
-#define RPG_GAMECORE_ANCHORINFO_INITFORCAMERA_OFFSET UNITYSDK_OFFSET(0x195B63D0)
-#define RPG_GAMECORE_ANCHORINFO__CTOR_1_OFFSET UNITYSDK_OFFSET(0x195B63B0)
-#define RPG_GAMECORE_ANCHORINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x195B6380)
+#define RPG_GAMECORE_ANCHORINFO_GETAREAANCHORNAME_OFFSET UNITYSDK_OFFSET(0x194297E0)
+#define RPG_GAMECORE_ANCHORINFO_GET_POSITION_OFFSET UNITYSDK_OFFSET(0x1940EC70)
+#define RPG_GAMECORE_ANCHORINFO_GET_ROTATION_OFFSET UNITYSDK_OFFSET(0x1940ED00)
+#define RPG_GAMECORE_ANCHORINFO_INITFORCAMERA_OFFSET UNITYSDK_OFFSET(0x19429790)
+#define RPG_GAMECORE_ANCHORINFO__CTOR_1_OFFSET UNITYSDK_OFFSET(0x19429770)
+#define RPG_GAMECORE_ANCHORINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x19429740)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AnchorInfo_TypeDefinitionIndex = 55267;
+	inline static constexpr unsigned int AnchorInfo_TypeDefinitionIndex = 57991;
 
 	class AnchorInfo : public ::System::Object
 	{
 	public:
-		::System::String* Name; // 0x10
-		::System::String* AreaName; // 0x18
-		::UnityEngine::Transform* TransRoot; // 0x20
-		::RPG::GameCore::LevelAnchorParameter* CustomParameter; // 0x28
+		::UnityEngine::Transform* TransRoot; // 0x10
+		::RPG::GameCore::LevelAnchorParameter* CustomParameter; // 0x18
+		::System::String* Name; // 0x20
+		::System::String* AreaName; // 0x28
 		::UnityEngine::Vector3 _Postion; // 0x30
-		::UnityEngine::Quaternion _Rotation; // 0x3C
-		::RPG::GameCore::LevelAnchorUsage Usage; // 0x4C
+		::RPG::GameCore::LevelAnchorUsage Usage; // 0x3C
+		::UnityEngine::Quaternion _Rotation; // 0x40
 		::System::UInt32 ID; // 0x50
 
 		::System::Void _ctor(::UnityEngine::Transform* a1)

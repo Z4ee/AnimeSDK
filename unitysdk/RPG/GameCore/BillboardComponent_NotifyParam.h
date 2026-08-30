@@ -11,33 +11,33 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Tuple_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_BILLBOARDCOMPONENT_NOTIFYPARAM_COPYTO_OFFSET UNITYSDK_OFFSET(0x12179080)
-#define RPG_GAMECORE_BILLBOARDCOMPONENT_NOTIFYPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x12179200)
+#define RPG_GAMECORE_BILLBOARDCOMPONENT_NOTIFYPARAM_COPYTO_OFFSET UNITYSDK_OFFSET(0x1B63A560)
+#define RPG_GAMECORE_BILLBOARDCOMPONENT_NOTIFYPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1B63A6F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BillboardComponent_NotifyParam_TypeDefinitionIndex = 54601;
+	inline static constexpr unsigned int BillboardComponent_NotifyParam_TypeDefinitionIndex = 57322;
 
 	class BillboardComponent_NotifyParam : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::GameEntity* Entity; // 0x10
-		::RPG::Client::Billboard::IBillboardHost* Host; // 0x18
+		::RPG::Client::Billboard::IBillboardHost* Host; // 0x10
+		::RPG::GameCore::GameEntity* Entity; // 0x18
 		::System::Tuple_2<::System::String*, ::System::String*>* FiveDimSidePuzzlePanelPaths; // 0x20
 		::System::Collections::Generic::Dictionary_2<::RPG::Client::BillboardShowType, ::System::Single>* TypeToShowDistance; // 0x28
 		::System::String* TypeIconPath; // 0x30
 		::RPG::GameCore::InwardBubbleTalkType InwardType; // 0x38
-		::RPG::Client::BillboardShowType BoardShowBit; // 0x3C
-		::System::Single ZOffset; // 0x40
-		::System::Single YOffset; // 0x44
+		::System::Single ZOffset; // 0x3C
+		::RPG::Client::BillboardShowType BoardShowBit; // 0x40
+		::System::Boolean ShowTop; // 0x44
+		::System::Boolean IsShowFiveDimSidePuzzleChest; // 0x45
+		::System::Boolean ShowInStoryMode; // 0x46
 		::System::UInt32 NPCID; // 0x48
-		::RPG::Client::TextID TextTitle; // 0x50
-		::System::Single XOffset; // 0x60
-		::System::Boolean IsShowFiveDimSidePuzzleChest; // 0x64
-		::System::Boolean ShowInStoryMode; // 0x65
-		::System::Boolean ShowTop; // 0x66
-		::RPG::Client::TextID TextIDName; // 0x68
-		::RPG::Client::TextID FloatingText; // 0x78
+		::System::Single YOffset; // 0x4C
+		::RPG::Client::TextID FloatingText; // 0x50
+		::RPG::Client::TextID TextIDName; // 0x60
+		::System::Single XOffset; // 0x70
+		::RPG::Client::TextID TextTitle; // 0x78
 
 		::System::Void _ctor()
 		{

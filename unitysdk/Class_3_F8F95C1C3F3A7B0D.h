@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class CreateTeamFormationSnapshot; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_F8F95C1C3F3A7B0D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18DCA560)
-#define CLASS_3_F8F95C1C3F3A7B0D__CTOR_OFFSET UNITYSDK_OFFSET(0x18DCA530)
+#define CLASS_3_F8F95C1C3F3A7B0D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17A7DB10)
+#define CLASS_3_F8F95C1C3F3A7B0D__CTOR_OFFSET UNITYSDK_OFFSET(0x17A7DAE0)
 
-inline static constexpr unsigned int Class_3_F8F95C1C3F3A7B0D_TypeDefinitionIndex = 53821;
+inline static constexpr unsigned int Class_3_F8F95C1C3F3A7B0D_TypeDefinitionIndex = 56541;
 
 class Class_3_F8F95C1C3F3A7B0D : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::CreateTeamFormationSnapshot*>
 {

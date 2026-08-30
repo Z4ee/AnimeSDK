@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define HOUDINIENGINEUNITY_HEU_VERTEXENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x197DED40)
+#define HOUDINIENGINEUNITY_HEU_VERTEXENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1B165AA0)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_VertexEntry_TypeDefinitionIndex = 38484;
+	inline static constexpr unsigned int HEU_VertexEntry_TypeDefinitionIndex = 39343;
 
 	class HEU_VertexEntry : public ::System::Object
 	{

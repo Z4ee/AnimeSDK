@@ -8,34 +8,34 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_SHOPCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1BE34BA0)
-#define RPG_GAMECORE_SHOPCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE35A30)
+#define RPG_GAMECORE_SHOPCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E09DD00)
+#define RPG_GAMECORE_SHOPCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1E09EB90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShopConfigRow_TypeDefinitionIndex = 14514;
+	inline static constexpr unsigned int ShopConfigRow_TypeDefinitionIndex = 14935;
 
 	class ShopConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* ShopIconPath; // 0x10
-		::Il2CppArray<::System::UInt32>* LimitValue2List; // 0x18
-		::System::String* ShopBar; // 0x20
-		::Il2CppArray<::System::UInt32>* LimitValue1List; // 0x28
+		::Il2CppArray<::System::UInt32>* LimitValue1List; // 0x10
+		::System::String* ShopBar; // 0x18
+		::System::String* ShopIconPath; // 0x20
+		::Il2CppArray<::System::UInt32>* LimitValue2List; // 0x28
 		::RPG::Client::TextID ShopName; // 0x30
-		::System::UInt32 ShopType; // 0x40
-		::RPG::GameCore::LimitType LimitType1; // 0x44
-		::RPG::GameCore::ShopMainType ShopMainType; // 0x48
-		::System::UInt32 ShopGroupID; // 0x4C
-		::RPG::Client::TextID ShopDesc; // 0x50
-		::System::UInt32 ShopSortID; // 0x60
-		::System::UInt32 ActivityModuleID; // 0x64
-		::System::UInt32 ScheduleDataID; // 0x68
-		::System::Boolean IsOpen; // 0x6C
-		::System::Boolean ServerVerification; // 0x6D
-		::System::Boolean HideRemainTime; // 0x6E
-		::System::UInt32 ShopID; // 0x70
-		::RPG::GameCore::LimitType LimitType2; // 0x74
+		::RPG::Client::TextID ShopDesc; // 0x40
+		::RPG::GameCore::LimitType LimitType2; // 0x50
+		::System::Boolean ServerVerification; // 0x54
+		::System::Boolean HideRemainTime; // 0x55
+		::System::Boolean IsOpen; // 0x56
+		::RPG::GameCore::ShopMainType ShopMainType; // 0x58
+		::RPG::GameCore::LimitType LimitType1; // 0x5C
+		::System::UInt32 ScheduleDataID; // 0x60
+		::System::UInt32 ShopGroupID; // 0x64
+		::System::UInt32 ShopType; // 0x68
+		::System::UInt32 ActivityModuleID; // 0x6C
+		::System::UInt32 ShopSortID; // 0x70
+		::System::UInt32 ShopID; // 0x74
 
 		::System::Void _ctor()
 		{

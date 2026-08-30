@@ -3,7 +3,7 @@
 
 namespace RPG::Expression
 {
-	inline static constexpr unsigned int OpCode_TypeDefinitionIndex = 10011;
+	inline static constexpr unsigned int OpCode_TypeDefinitionIndex = 10347;
 
 	enum class OpCode : ::System::Byte
 	{

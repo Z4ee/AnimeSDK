@@ -8,12 +8,12 @@ namespace RPG::Client { class LookAtIK; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class Transform; }
 
-#define BONECONSTRAINT_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x18BA7970)
-#define BONECONSTRAINT_METHOD_5_20042D29B43BCB70_OFFSET UNITYSDK_OFFSET(0x18BA79E0)
-#define BONECONSTRAINT_METHOD_5_412F2CEBDE691C81_OFFSET UNITYSDK_OFFSET(0x18BA8880)
-#define BONECONSTRAINT__CTOR_OFFSET UNITYSDK_OFFSET(0x18BA88F0)
+#define BONECONSTRAINT_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1A0804B0)
+#define BONECONSTRAINT_METHOD_5_20042D29B43BCB70_OFFSET UNITYSDK_OFFSET(0x1A080520)
+#define BONECONSTRAINT_METHOD_5_412F2CEBDE691C81_OFFSET UNITYSDK_OFFSET(0x1A0813C0)
+#define BONECONSTRAINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A081430)
 
-inline static constexpr unsigned int BoneConstraint_TypeDefinitionIndex = 45650;
+inline static constexpr unsigned int BoneConstraint_TypeDefinitionIndex = 47901;
 
 class BoneConstraint : public ::UnityEngine::MonoBehaviour
 {
@@ -25,7 +25,7 @@ public:
 	::System::Boolean Y; // 0x31
 	::System::Boolean Z; // 0x32
 	::Il2CppArray<::ConstraintBones*>* AdjustBoneList; // 0x38
-	::UnityEngine::Quaternion Field_5_7; // 0x40
+	::UnityEngine::Quaternion MBMNNOHKIEI; // 0x40
 
 	::System::Void _ctor()
 	{

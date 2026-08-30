@@ -6,17 +6,17 @@ class Class_3_07C3C4D2990C49EE;
 namespace RPG::GameCore { class InitGridFightStatisticsBinding; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_E34FE742AF64966D_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1425E2C0)
-#define CLASS_3_E34FE742AF64966D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1425E0A0)
-#define CLASS_3_E34FE742AF64966D__CTOR_OFFSET UNITYSDK_OFFSET(0x1425DFA0)
+#define CLASS_3_E34FE742AF64966D_DISPOSE_OFFSET UNITYSDK_OFFSET(0x184E6DA0)
+#define CLASS_3_E34FE742AF64966D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x184E6B90)
+#define CLASS_3_E34FE742AF64966D__CTOR_OFFSET UNITYSDK_OFFSET(0x184E6A90)
 
-inline static constexpr unsigned int Class_3_E34FE742AF64966D_TypeDefinitionIndex = 52634;
+inline static constexpr unsigned int Class_3_E34FE742AF64966D_TypeDefinitionIndex = 55333;
 
 class Class_3_E34FE742AF64966D : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::InitGridFightStatisticsBinding*>
 {
 public:
-	::Class_3_07C3C4D2990C49EE* Field_3_0; // 0x28
-	::Class_3_07C3C4D2990C49EE* Field_3_1; // 0x30
+	::Class_3_07C3C4D2990C49EE* JCLEENONPGI; // 0x28
+	::Class_3_07C3C4D2990C49EE* KDMEBFOHHBM; // 0x30
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::InitGridFightStatisticsBinding* a2)
 	{

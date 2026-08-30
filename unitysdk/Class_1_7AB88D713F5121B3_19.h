@@ -2,25 +2,29 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_7AB88D713F5121B3_19__CCTOR_OFFSET UNITYSDK_OFFSET(0x18C21B30)
-#define CLASS_1_7AB88D713F5121B3_19__CTOR_OFFSET UNITYSDK_OFFSET(0x18C21B20)
+#define CLASS_1_7AB88D713F5121B3_19__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A4D3AF0)
+#define CLASS_1_7AB88D713F5121B3_19__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4D3AE0)
 
-inline static constexpr unsigned int Class_1_7AB88D713F5121B3_19_TypeDefinitionIndex = 39252;
+inline static constexpr unsigned int Class_1_7AB88D713F5121B3_19_TypeDefinitionIndex = 40124;
 
 class Class_1_7AB88D713F5121B3_19 : public ::System::Object
 {
 public:
-	static ::System::UInt32* StaticGet_Field_1_0()
+	static ::System::UInt32* StaticGet_EILHEEEAHLE()
 	{
-		return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_7AB88D713F5121B3_19_TypeDefinitionIndex)->GetStaticField(0x7A30);
+		return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_7AB88D713F5121B3_19_TypeDefinitionIndex)->GetStaticField(0x9830);
 	}
-	static ::System::UInt32* StaticGet_Field_1_1()
+	static ::System::UInt32* StaticGet_EGNGCIHDIML()
 	{
-		return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_7AB88D713F5121B3_19_TypeDefinitionIndex)->GetStaticField(0x7A34);
+		return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_7AB88D713F5121B3_19_TypeDefinitionIndex)->GetStaticField(0x9834);
 	}
-	static ::System::UInt32* StaticGet_Field_1_2()
+	static ::System::UInt32* StaticGet_DBFCABHLDMN()
 	{
-		return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_7AB88D713F5121B3_19_TypeDefinitionIndex)->GetStaticField(0x7A38);
+		return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_7AB88D713F5121B3_19_TypeDefinitionIndex)->GetStaticField(0x9838);
+	}
+	static ::System::UInt32* StaticGet_JOEJOKPDDCK()
+	{
+		return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_7AB88D713F5121B3_19_TypeDefinitionIndex)->GetStaticField(0x983C);
 	}
 
 	::System::Void _ctor()

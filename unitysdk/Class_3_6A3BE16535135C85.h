@@ -4,16 +4,16 @@
 
 namespace System { class String; }
 
-#define CLASS_3_6A3BE16535135C85_COMBINEVALUESWITH_OFFSET UNITYSDK_OFFSET(0x1BD4C680)
-#define CLASS_3_6A3BE16535135C85__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1BD4C610)
-#define CLASS_3_6A3BE16535135C85__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD4C5A0)
+#define CLASS_3_6A3BE16535135C85_COMBINEVALUESWITH_OFFSET UNITYSDK_OFFSET(0x1D8469C0)
+#define CLASS_3_6A3BE16535135C85__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1D846950)
+#define CLASS_3_6A3BE16535135C85__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8468E0)
 
-inline static constexpr unsigned int Class_3_6A3BE16535135C85_TypeDefinitionIndex = 24127;
+inline static constexpr unsigned int Class_3_6A3BE16535135C85_TypeDefinitionIndex = 24716;
 
 class Class_3_6A3BE16535135C85 : public ::Sirenix::OdinInspector::PropertyGroupAttribute
 {
 public:
-	::System::String* Field_3_0; // 0x28
+	::System::String* KBOOIAJEMOI; // 0x28
 
 	::System::Void _ctor(::System::String* a1, ::System::String* a2, ::System::Single a3)
 	{

@@ -6,20 +6,20 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_SPACEZOOQUESTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B09A2A0)
-#define RPG_GAMECORE_SPACEZOOQUESTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B09A910)
+#define RPG_GAMECORE_SPACEZOOQUESTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D0AD230)
+#define RPG_GAMECORE_SPACEZOOQUESTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0AD8A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SpaceZooQuestRow_TypeDefinitionIndex = 11906;
+	inline static constexpr unsigned int SpaceZooQuestRow_TypeDefinitionIndex = 12295;
 
 	class SpaceZooQuestRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* QuestList; // 0x10
-		::RPG::GameCore::SpaceZooQuestType Type; // 0x18
-		::System::UInt32 ID; // 0x1C
-		::RPG::Client::TextID QuestTabName; // 0x20
+		::RPG::Client::TextID QuestTabName; // 0x18
+		::RPG::GameCore::SpaceZooQuestType Type; // 0x28
+		::System::UInt32 ID; // 0x2C
 
 		::System::Void _ctor()
 		{

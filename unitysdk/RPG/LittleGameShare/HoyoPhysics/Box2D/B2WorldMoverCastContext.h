@@ -5,11 +5,11 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D { class B2World; }
 
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDMOVERCASTCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x3A03000)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDMOVERCASTCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x3B9C390)
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2WorldMoverCastContext_TypeDefinitionIndex = 35268;
+	inline static constexpr unsigned int B2WorldMoverCastContext_TypeDefinitionIndex = 36129;
 
 	struct alignas(8) B2WorldMoverCastContext
 	{

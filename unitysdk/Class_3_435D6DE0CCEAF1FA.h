@@ -5,15 +5,15 @@
 class Class_1_D8BECDCE48063EC7;
 namespace RPG::GameCore { class DiceCombatPredicateConfig_TotalDamageTakenCompare; }
 
-#define CLASS_3_435D6DE0CCEAF1FA_METHOD_3_4901E2EFF152A35B_OFFSET UNITYSDK_OFFSET(0x13E963D0)
-#define CLASS_3_435D6DE0CCEAF1FA__CTOR_OFFSET UNITYSDK_OFFSET(0x13E963B0)
+#define CLASS_3_435D6DE0CCEAF1FA_METHOD_3_4901E2EFF152A35B_OFFSET UNITYSDK_OFFSET(0x1541C7B0)
+#define CLASS_3_435D6DE0CCEAF1FA__CTOR_OFFSET UNITYSDK_OFFSET(0x1541C790)
 
-inline static constexpr unsigned int Class_3_435D6DE0CCEAF1FA_TypeDefinitionIndex = 34809;
+inline static constexpr unsigned int Class_3_435D6DE0CCEAF1FA_TypeDefinitionIndex = 35670;
 
 class Class_3_435D6DE0CCEAF1FA : public ::Class_2_98A798C0C96648F9
 {
 public:
-	::RPG::GameCore::DiceCombatPredicateConfig_TotalDamageTakenCompare* Field_3_0; // 0x30
+	::RPG::GameCore::DiceCombatPredicateConfig_TotalDamageTakenCompare* LMFCGJDLCHM; // 0x30
 
 	::System::Void _ctor(::RPG::GameCore::DiceCombatPredicateConfig_TotalDamageTakenCompare* a1, ::Class_1_D8BECDCE48063EC7* a2)
 	{

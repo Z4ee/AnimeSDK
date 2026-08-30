@@ -3,11 +3,11 @@
 #include "unitysdk/System/Attribute.h"
 #include "unitysdk/Unity/IL2CPP/CompilerServices/Il2CppMethodImplOptions.h"
 
-#define UNITY_IL2CPP_COMPILERSERVICES_IL2CPPMETHODIMPLATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4C9520)
+#define UNITY_IL2CPP_COMPILERSERVICES_IL2CPPMETHODIMPLATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E1E0710)
 
 namespace Unity::IL2CPP::CompilerServices
 {
-	inline static constexpr unsigned int Il2CppMethodImplAttribute_TypeDefinitionIndex = 3967;
+	inline static constexpr unsigned int Il2CppMethodImplAttribute_TypeDefinitionIndex = 3975;
 
 	class Il2CppMethodImplAttribute : public ::System::Attribute
 	{

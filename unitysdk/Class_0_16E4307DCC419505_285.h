@@ -1,12 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/Multithread/NodeState.h"
-#include "unitysdk/Unity/Jobs/JobHandle.h"
+#include "unitysdk/Struct_2_EBD47A6A04BEEE4E.h"
+#include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_0_16E4307DCC419505_284;
-namespace System::Collections::Generic { template <typename T> class List_1; }
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_285_TypeDefinitionIndex = 41217;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_285_TypeDefinitionIndex = 41992;
 
 class Class_0_16E4307DCC419505_285
 {

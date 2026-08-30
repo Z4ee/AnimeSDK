@@ -8,21 +8,21 @@
 
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_C2963602F383E66F__CTOR_OFFSET UNITYSDK_OFFSET(0x1A045440)
+#define CLASS_1_C2963602F383E66F__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE2E660)
 
-inline static constexpr unsigned int Class_1_C2963602F383E66F_TypeDefinitionIndex = 40350;
+inline static constexpr unsigned int Class_1_C2963602F383E66F_TypeDefinitionIndex = 41229;
 
 class Class_1_C2963602F383E66F : public ::System::Object
 {
 public:
-	::System::Nullable_1<::Struct_2_06297BD58B1627CC> Field_1_0; // 0x10
-	::UnityEngine::Transform* Field_1_1; // 0x48
-	::UnityEngine::Vector3 Field_1_2; // 0x50
-	::RPG::Client::LittleGame::ETimelineControlGameLevelRotation Field_1_3; // 0x5C
-	::UnityEngine::Vector3 Field_1_4; // 0x60
-	::UnityEngine::Vector3 Field_1_5; // 0x6C
-	::UnityEngine::Vector3 Field_1_6; // 0x78
-	::UnityEngine::Vector3 Field_1_7; // 0x84
+	::UnityEngine::Transform* GNOKDJHJJAB; // 0x10
+	::System::Nullable_1<::Struct_2_06297BD58B1627CC> LAPJCIBMPIH; // 0x18
+	::UnityEngine::Vector3 CLMKNFILOLB; // 0x50
+	::UnityEngine::Vector3 HFOMPEEAPCG; // 0x5C
+	::UnityEngine::Vector3 IJPLNPNAMBJ; // 0x68
+	::RPG::Client::LittleGame::ETimelineControlGameLevelRotation NMELCPIOKNO; // 0x74
+	::UnityEngine::Vector3 OIHGPMFDIEA; // 0x78
+	::UnityEngine::Vector3 KONBAMDOGDH; // 0x84
 
 	::System::Void _ctor()
 	{

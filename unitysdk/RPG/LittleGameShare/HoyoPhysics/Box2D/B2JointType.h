@@ -3,7 +3,7 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2JointType_TypeDefinitionIndex = 35153;
+	inline static constexpr unsigned int B2JointType_TypeDefinitionIndex = 36014;
 
 	enum class B2JointType : ::System::Int32
 	{

@@ -5,9 +5,9 @@
 
 namespace RPG::GameCore { class IAvatarPromotionCommonRowWrap; }
 
-#define CLASS_1_63BCCEB2E8ED6E5D_METHOD_1_7FBAF3EE94D313F2_OFFSET UNITYSDK_OFFSET(0x152A7800)
+#define CLASS_1_63BCCEB2E8ED6E5D_METHOD_1_7FBAF3EE94D313F2_OFFSET UNITYSDK_OFFSET(0x17E6AF90)
 
-inline static constexpr unsigned int Class_1_63BCCEB2E8ED6E5D_TypeDefinitionIndex = 59879;
+inline static constexpr unsigned int Class_1_63BCCEB2E8ED6E5D_TypeDefinitionIndex = 62725;
 
 class Class_1_63BCCEB2E8ED6E5D : public ::System::Object
 {

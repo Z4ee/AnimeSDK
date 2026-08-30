@@ -4,16 +4,16 @@
 
 namespace UnityEngine { class Animator; }
 
-#define STRUCT_2_651BBD6CCE0CE471_METHOD_2_8B1CCD64A3233C19_OFFSET UNITYSDK_OFFSET(0x3947920)
-#define STRUCT_2_651BBD6CCE0CE471_METHOD_2_AE4F0E437B68EA03_OFFSET UNITYSDK_OFFSET(0x3947910)
+#define STRUCT_2_651BBD6CCE0CE471_METHOD_2_8B1CCD64A3233C19_OFFSET UNITYSDK_OFFSET(0x3AA8F30)
+#define STRUCT_2_651BBD6CCE0CE471_METHOD_2_AE4F0E437B68EA03_OFFSET UNITYSDK_OFFSET(0x3AA8F20)
 
-inline static constexpr unsigned int Struct_2_651BBD6CCE0CE471_TypeDefinitionIndex = 69974;
+inline static constexpr unsigned int Struct_2_651BBD6CCE0CE471_TypeDefinitionIndex = 73231;
 
 struct alignas(4) Struct_2_651BBD6CCE0CE471
 {
-	::System::Int32 Field_2_0; // 0x10
-	::System::Int32 Field_2_1; // 0x14
-	::System::Single Field_2_2; // 0x18
+	::System::Int32 BJMAHPHMFDM; // 0x10
+	::System::Int32 OJDMPJIOBMJ; // 0x14
+	::System::Single NFELGGAPKMO; // 0x18
 
 	::System::Boolean Method_2_AE4F0E437B68EA03(::UnityEngine::Animator* a1, ::System::Int32 a2)
 	{

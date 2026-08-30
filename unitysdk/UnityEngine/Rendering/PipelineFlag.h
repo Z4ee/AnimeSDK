@@ -3,12 +3,12 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int PipelineFlag_TypeDefinitionIndex = 35971;
+	inline static constexpr unsigned int PipelineFlag_TypeDefinitionIndex = 36832;
 
 	enum class PipelineFlag : ::System::Int64
 	{
 		kEnableDepthTexCopy = 1,
-		kInDoor_NotUse = 2,
+		kEnableRHIParallelDraw = 2,
 		kEnableGBufferBCopy = 4,
 		kEnableSkipDrawWhenLoading = 8,
 		kEnableCharPerDrawEx = 16,

@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUEMAGICWORKBENCHROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CFBA380)
-#define RPG_GAMECORE_ROGUEMAGICWORKBENCHROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFBA4C0)
+#define RPG_GAMECORE_ROGUEMAGICWORKBENCHROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EEF2B50)
+#define RPG_GAMECORE_ROGUEMAGICWORKBENCHROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1EEF2C90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueMagicWorkbenchRow_TypeDefinitionIndex = 14285;
+	inline static constexpr unsigned int RogueMagicWorkbenchRow_TypeDefinitionIndex = 14705;
 
 	class RogueMagicWorkbenchRow : public ::System::Object
 	{

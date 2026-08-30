@@ -1,0 +1,130 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/TABehaviorBase.h"
+
+namespace RPG::Client { class IrregularFakeWindowControllerMonoPlugin; }
+namespace UnityEngine { class MaterialPropertyBlock; }
+namespace UnityEngine { class Mesh; }
+namespace UnityEngine { class Renderer; }
+
+#define RPG_CLIENT_IRREGULARFAKEWINDOWCONTROLLERBEHAVIOR_GET__OWNERMONOPLUGIN_OFFSET UNITYSDK_OFFSET(0x194DDC00)
+#define RPG_CLIENT_IRREGULARFAKEWINDOWCONTROLLERBEHAVIOR_METHOD_3_368D91D5F2C2BBCF_OFFSET UNITYSDK_OFFSET(0x194DDC40)
+#define RPG_CLIENT_IRREGULARFAKEWINDOWCONTROLLERBEHAVIOR_METHOD_3_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0x194DE890)
+#define RPG_CLIENT_IRREGULARFAKEWINDOWCONTROLLERBEHAVIOR_METHOD_3_4343F372F34C05BF_1_OFFSET UNITYSDK_OFFSET(0x194DE710)
+#define RPG_CLIENT_IRREGULARFAKEWINDOWCONTROLLERBEHAVIOR_METHOD_3_4343F372F34C05BF_2_OFFSET UNITYSDK_OFFSET(0x194DE770)
+#define RPG_CLIENT_IRREGULARFAKEWINDOWCONTROLLERBEHAVIOR_METHOD_3_4343F372F34C05BF_3_OFFSET UNITYSDK_OFFSET(0x194DE7D0)
+#define RPG_CLIENT_IRREGULARFAKEWINDOWCONTROLLERBEHAVIOR_METHOD_3_4343F372F34C05BF_4_OFFSET UNITYSDK_OFFSET(0x194DE830)
+#define RPG_CLIENT_IRREGULARFAKEWINDOWCONTROLLERBEHAVIOR_METHOD_3_4343F372F34C05BF_5_OFFSET UNITYSDK_OFFSET(0x194DE8D0)
+#define RPG_CLIENT_IRREGULARFAKEWINDOWCONTROLLERBEHAVIOR_METHOD_3_4343F372F34C05BF_6_OFFSET UNITYSDK_OFFSET(0x194DE930)
+#define RPG_CLIENT_IRREGULARFAKEWINDOWCONTROLLERBEHAVIOR_METHOD_3_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x194DDA30)
+#define RPG_CLIENT_IRREGULARFAKEWINDOWCONTROLLERBEHAVIOR_METHOD_3_50DE93D83A192041_OFFSET UNITYSDK_OFFSET(0x194DE990)
+#define RPG_CLIENT_IRREGULARFAKEWINDOWCONTROLLERBEHAVIOR_METHOD_3_805C56F44231AEF9_OFFSET UNITYSDK_OFFSET(0x194DDDB0)
+#define RPG_CLIENT_IRREGULARFAKEWINDOWCONTROLLERBEHAVIOR_METHOD_3_E727F9956B5BD78B_OFFSET UNITYSDK_OFFSET(0x194DDA90)
+#define RPG_CLIENT_IRREGULARFAKEWINDOWCONTROLLERBEHAVIOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x194DEAF0)
+#define RPG_CLIENT_IRREGULARFAKEWINDOWCONTROLLERBEHAVIOR__CTOR_OFFSET UNITYSDK_OFFSET(0x194DEAE0)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int IrregularFakeWindowControllerBehavior_TypeDefinitionIndex = 70823;
+
+	class IrregularFakeWindowControllerBehavior : public ::RPG::Client::TABehaviorBase
+	{
+	public:
+		static ::System::Int32* StaticGet_PID_WinUpOS()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(IrregularFakeWindowControllerBehavior_TypeDefinitionIndex)->GetStaticField(0x11D70);
+		}
+		static ::System::Int32* StaticGet_PID_WinRightOS()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(IrregularFakeWindowControllerBehavior_TypeDefinitionIndex)->GetStaticField(0x11D74);
+		}
+		static ::System::Int32* StaticGet_PID_WinOriginOS()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(IrregularFakeWindowControllerBehavior_TypeDefinitionIndex)->GetStaticField(0x11D78);
+		}
+		static ::System::Int32* StaticGet_PID_FadeWindowAspect()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(IrregularFakeWindowControllerBehavior_TypeDefinitionIndex)->GetStaticField(0x11D7C);
+		}
+		static ::System::Int32* StaticGet_PID_WinSize()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(IrregularFakeWindowControllerBehavior_TypeDefinitionIndex)->GetStaticField(0x11D80);
+		}
+		::UnityEngine::MaterialPropertyBlock* _mpb; // 0x38
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_IRREGULARFAKEWINDOWCONTROLLERBEHAVIOR__CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_IRREGULARFAKEWINDOWCONTROLLERBEHAVIOR__CCTOR_OFFSET))();
+		}
+
+		::System::Void Method_3_4343F372F34C05BF()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_IRREGULARFAKEWINDOWCONTROLLERBEHAVIOR_METHOD_3_4343F372F34C05BF_OFFSET))(this);
+		}
+
+		::System::Void Method_3_E727F9956B5BD78B()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_IRREGULARFAKEWINDOWCONTROLLERBEHAVIOR_METHOD_3_E727F9956B5BD78B_OFFSET))(this);
+		}
+
+		::System::Void Method_3_4343F372F34C05BF_1()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_IRREGULARFAKEWINDOWCONTROLLERBEHAVIOR_METHOD_3_4343F372F34C05BF_1_OFFSET))(this);
+		}
+
+		::System::Void Method_3_4343F372F34C05BF_2()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_IRREGULARFAKEWINDOWCONTROLLERBEHAVIOR_METHOD_3_4343F372F34C05BF_2_OFFSET))(this);
+		}
+
+		::System::Void Method_3_4343F372F34C05BF_3()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_IRREGULARFAKEWINDOWCONTROLLERBEHAVIOR_METHOD_3_4343F372F34C05BF_3_OFFSET))(this);
+		}
+
+		::System::Void Method_3_4343F372F34C05BF_4()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_IRREGULARFAKEWINDOWCONTROLLERBEHAVIOR_METHOD_3_4343F372F34C05BF_4_OFFSET))(this);
+		}
+
+		::System::Boolean Method_3_391A84BCD9F51317()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_IRREGULARFAKEWINDOWCONTROLLERBEHAVIOR_METHOD_3_391A84BCD9F51317_OFFSET))(this);
+		}
+
+		::System::Void Method_3_4343F372F34C05BF_5()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_IRREGULARFAKEWINDOWCONTROLLERBEHAVIOR_METHOD_3_4343F372F34C05BF_5_OFFSET))(this);
+		}
+
+		::System::Void Method_3_4343F372F34C05BF_6()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_IRREGULARFAKEWINDOWCONTROLLERBEHAVIOR_METHOD_3_4343F372F34C05BF_6_OFFSET))(this);
+		}
+
+		::System::Void Method_3_805C56F44231AEF9()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_IRREGULARFAKEWINDOWCONTROLLERBEHAVIOR_METHOD_3_805C56F44231AEF9_OFFSET))(this);
+		}
+
+		::UnityEngine::Renderer* Method_3_368D91D5F2C2BBCF()
+		{
+			return ((::UnityEngine::Renderer*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_IRREGULARFAKEWINDOWCONTROLLERBEHAVIOR_METHOD_3_368D91D5F2C2BBCF_OFFSET))(this);
+		}
+
+		::UnityEngine::Mesh* Method_3_50DE93D83A192041(::UnityEngine::Renderer* a1)
+		{
+			return ((::UnityEngine::Mesh*(*)(::PVOID, ::UnityEngine::Renderer*))((::PBYTE)hIl2Cpp + RPG_CLIENT_IRREGULARFAKEWINDOWCONTROLLERBEHAVIOR_METHOD_3_50DE93D83A192041_OFFSET))(this, a1);
+		}
+
+		::RPG::Client::IrregularFakeWindowControllerMonoPlugin* get__OwnerMonoPlugin()
+		{
+			return ((::RPG::Client::IrregularFakeWindowControllerMonoPlugin*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_IRREGULARFAKEWINDOWCONTROLLERBEHAVIOR_GET__OWNERMONOPLUGIN_OFFSET))(this);
+		}
+	};
+}

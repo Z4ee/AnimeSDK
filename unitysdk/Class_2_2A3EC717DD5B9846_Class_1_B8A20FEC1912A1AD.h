@@ -5,24 +5,24 @@
 
 namespace System { class String; }
 
-#define CLASS_2_2A3EC717DD5B9846_CLASS_1_B8A20FEC1912A1AD_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1763D400)
-#define CLASS_2_2A3EC717DD5B9846_CLASS_1_B8A20FEC1912A1AD_METHOD_1_F10A0D072D26C4BF_OFFSET UNITYSDK_OFFSET(0x1763D370)
-#define CLASS_2_2A3EC717DD5B9846_CLASS_1_B8A20FEC1912A1AD__CTOR_OFFSET UNITYSDK_OFFSET(0x1763C470)
+#define CLASS_2_2A3EC717DD5B9846_CLASS_1_B8A20FEC1912A1AD_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1A7CCFB0)
+#define CLASS_2_2A3EC717DD5B9846_CLASS_1_B8A20FEC1912A1AD_METHOD_1_F10A0D072D26C4BF_OFFSET UNITYSDK_OFFSET(0x1A7CCF20)
+#define CLASS_2_2A3EC717DD5B9846_CLASS_1_B8A20FEC1912A1AD__CTOR_OFFSET UNITYSDK_OFFSET(0x1A7CC040)
 
-inline static constexpr unsigned int Class_2_2A3EC717DD5B9846_Class_1_B8A20FEC1912A1AD_TypeDefinitionIndex = 54447;
+inline static constexpr unsigned int Class_2_2A3EC717DD5B9846_Class_1_B8A20FEC1912A1AD_TypeDefinitionIndex = 57168;
 
 class Class_2_2A3EC717DD5B9846_Class_1_B8A20FEC1912A1AD : public ::System::Object
 {
 public:
-	::System::String* Field_1_0; // 0x10
-	::System::Single Field_1_1; // 0x18
-	::System::Boolean Field_1_2; // 0x1C
-	::System::Boolean Field_1_3; // 0x1D
-	::System::Boolean Field_1_4; // 0x1E
-	::UnityEngine::Vector3 Field_1_5; // 0x20
-	::System::UInt32 Field_1_6; // 0x2C
-	::UnityEngine::Vector3 Field_1_7; // 0x30
-	::UnityEngine::Vector3 Field_1_8; // 0x3C
+	::System::String* CDEEHGCEOKN; // 0x10
+	::System::Boolean LMHIBNLEOMD; // 0x18
+	::System::Boolean JAMNDDOGHLA; // 0x19
+	::System::Boolean KMPIPOGCGDD; // 0x1A
+	::UnityEngine::Vector3 ABIIKNGPAIE; // 0x1C
+	::UnityEngine::Vector3 BHCMCMADHBF; // 0x28
+	::System::UInt32 LFIEOIKFGNG; // 0x34
+	::UnityEngine::Vector3 OBJEAOODKLK; // 0x38
+	::System::Single NNFHBOPOLCO; // 0x44
 
 	::System::Void _ctor()
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int TransformInterpolateMode_TypeDefinitionIndex = 72630;
+	inline static constexpr unsigned int TransformInterpolateMode_TypeDefinitionIndex = 76066;
 
 	enum class TransformInterpolateMode : ::System::Int32
 	{

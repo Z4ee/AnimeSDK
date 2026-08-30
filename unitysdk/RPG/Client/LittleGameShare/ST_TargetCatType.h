@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGameShare
 {
-	inline static constexpr unsigned int ST_TargetCatType_TypeDefinitionIndex = 10006;
+	inline static constexpr unsigned int ST_TargetCatType_TypeDefinitionIndex = 10342;
 
 	enum class ST_TargetCatType : ::System::Int32
 	{

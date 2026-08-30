@@ -1,22 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_CA217ABF4E3B4F3F.h"
+#include "unitysdk/Class_1_34917908B7833130.h"
 
 namespace System { class String; }
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class Text; }
 
-#define CLASS_2_6CC4C222AC7A77A0_METHOD_2_C5D11BE2748B8FC9_OFFSET UNITYSDK_OFFSET(0x1470A9E0)
-#define CLASS_2_6CC4C222AC7A77A0__CTOR_OFFSET UNITYSDK_OFFSET(0x1470AA90)
-#define CLASS_2_6CC4C222AC7A77A0__ONBIND_OFFSET UNITYSDK_OFFSET(0x1470A940)
+#define CLASS_2_6CC4C222AC7A77A0_METHOD_2_C5D11BE2748B8FC9_OFFSET UNITYSDK_OFFSET(0x159A11B0)
+#define CLASS_2_6CC4C222AC7A77A0__CTOR_OFFSET UNITYSDK_OFFSET(0x159A1260)
+#define CLASS_2_6CC4C222AC7A77A0__ONBIND_OFFSET UNITYSDK_OFFSET(0x159A1110)
 
-inline static constexpr unsigned int Class_2_6CC4C222AC7A77A0_TypeDefinitionIndex = 69018;
+inline static constexpr unsigned int Class_2_6CC4C222AC7A77A0_TypeDefinitionIndex = 72217;
 
-class Class_2_6CC4C222AC7A77A0 : public ::Class_1_CA217ABF4E3B4F3F
+class Class_2_6CC4C222AC7A77A0 : public ::Class_1_34917908B7833130
 {
 public:
-	::UnityEngine::UI::Image* Field_2_0; // 0x60
-	::UnityEngine::UI::Text* Field_2_1; // 0x68
+	::UnityEngine::UI::Image* LPMHMLOGPPN; // 0x60
+	::UnityEngine::UI::Text* CALNLFBNMPM; // 0x68
 
 	::System::Void _ctor()
 	{

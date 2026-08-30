@@ -3,7 +3,7 @@
 
 namespace System::Collections::Generic
 {
-	inline static constexpr unsigned int IEqualityComparer_1_TypeDefinitionIndex = 1557;
+	inline static constexpr unsigned int IEqualityComparer_1_TypeDefinitionIndex = 1564;
 
 	template <typename T>
 	class IEqualityComparer_1

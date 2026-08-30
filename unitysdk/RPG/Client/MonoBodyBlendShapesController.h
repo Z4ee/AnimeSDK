@@ -7,20 +7,20 @@ namespace System { class String; }
 namespace UnityEngine { class SkinnedMeshRenderer; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_MONOBODYBLENDSHAPESCONTROLLER_ONIKWORKED_OFFSET UNITYSDK_OFFSET(0x180775C0)
-#define RPG_CLIENT_MONOBODYBLENDSHAPESCONTROLLER_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x180773E0)
-#define RPG_CLIENT_MONOBODYBLENDSHAPESCONTROLLER_RESET_OFFSET UNITYSDK_OFFSET(0x18077510)
-#define RPG_CLIENT_MONOBODYBLENDSHAPESCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x180778E0)
+#define RPG_CLIENT_MONOBODYBLENDSHAPESCONTROLLER_ONIKWORKED_OFFSET UNITYSDK_OFFSET(0x19E2C260)
+#define RPG_CLIENT_MONOBODYBLENDSHAPESCONTROLLER_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x19E2C080)
+#define RPG_CLIENT_MONOBODYBLENDSHAPESCONTROLLER_RESET_OFFSET UNITYSDK_OFFSET(0x19E2C1B0)
+#define RPG_CLIENT_MONOBODYBLENDSHAPESCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x19E2C580)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoBodyBlendShapesController_TypeDefinitionIndex = 67928;
+	inline static constexpr unsigned int MonoBodyBlendShapesController_TypeDefinitionIndex = 71101;
 
 	class MonoBodyBlendShapesController : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::UnityEngine::SkinnedMeshRenderer* bodyMeshRenderer; // 0x18
-		::Il2CppArray<::System::String*>* Field_5_1; // 0x20
+		::Il2CppArray<::System::String*>* EAOBMBBAFDN; // 0x20
 		::System::Single maxLegAngle; // 0x28
 		::System::String* leftLegShapeName; // 0x30
 		::UnityEngine::Transform* leftKnee; // 0x38

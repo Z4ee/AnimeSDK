@@ -5,12 +5,12 @@
 class Class_1_EAF7984A8FAD6BE4;
 namespace System { class String; }
 
-#define ENVIROMENTSYSTEMV2SPACE_LAYOUTPREFABPROPERTYDATA_METHOD_4_A8D19485AA054B2A_OFFSET UNITYSDK_OFFSET(0x17C3B920)
-#define ENVIROMENTSYSTEMV2SPACE_LAYOUTPREFABPROPERTYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x17C3B9E0)
+#define ENVIROMENTSYSTEMV2SPACE_LAYOUTPREFABPROPERTYDATA_METHOD_4_A8D19485AA054B2A_OFFSET UNITYSDK_OFFSET(0x106E9F40)
+#define ENVIROMENTSYSTEMV2SPACE_LAYOUTPREFABPROPERTYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x106EA000)
 
 namespace EnviromentSystemV2Space
 {
-	inline static constexpr unsigned int LayoutPrefabPropertyData_TypeDefinitionIndex = 47518;
+	inline static constexpr unsigned int LayoutPrefabPropertyData_TypeDefinitionIndex = 49799;
 
 	class LayoutPrefabPropertyData : public ::EnviromentSystemV2Space::LayoutPropertyData_1<::System::String*>
 	{

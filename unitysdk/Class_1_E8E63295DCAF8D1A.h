@@ -6,18 +6,18 @@
 namespace RPG::GameCore { class CakeRaceRegionConfig; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define CLASS_1_E8E63295DCAF8D1A__CTOR_OFFSET UNITYSDK_OFFSET(0x18170100)
+#define CLASS_1_E8E63295DCAF8D1A__CTOR_OFFSET UNITYSDK_OFFSET(0x19D36A90)
 
-inline static constexpr unsigned int Class_1_E8E63295DCAF8D1A_TypeDefinitionIndex = 35677;
+inline static constexpr unsigned int Class_1_E8E63295DCAF8D1A_TypeDefinitionIndex = 36538;
 
 class Class_1_E8E63295DCAF8D1A : public ::System::Object
 {
 public:
-	::System::Collections::Generic::HashSet_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>* Field_1_0; // 0x10
-	::RPG::GameCore::CakeRaceRegionConfig* Field_1_1; // 0x18
-	::System::Collections::Generic::HashSet_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>* Field_1_2; // 0x20
-	::System::Int32 Field_1_3; // 0x28
-	::System::Int32 Field_1_4; // 0x2C
+	::System::Collections::Generic::HashSet_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>* IALHAGJCLOP; // 0x10
+	::RPG::GameCore::CakeRaceRegionConfig* ENCFIALFHEN; // 0x18
+	::System::Collections::Generic::HashSet_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>* PMMGBKJIIFN; // 0x20
+	::System::Int32 FIELGBACDLG; // 0x28
+	::System::Int32 NDKILPMMLHJ; // 0x2C
 
 	::System::Void _ctor(::RPG::GameCore::CakeRaceRegionConfig* a1)
 	{

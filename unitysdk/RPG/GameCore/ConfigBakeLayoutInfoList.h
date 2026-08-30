@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ConfigBakeLayoutInfo; }
 
-#define RPG_GAMECORE_CONFIGBAKELAYOUTINFOLIST_METHOD_2_00736BBB01AACE78_OFFSET UNITYSDK_OFFSET(0x1BC2B6F0)
-#define RPG_GAMECORE_CONFIGBAKELAYOUTINFOLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC2B7B0)
+#define RPG_GAMECORE_CONFIGBAKELAYOUTINFOLIST_METHOD_2_00736BBB01AACE78_OFFSET UNITYSDK_OFFSET(0x1D9AF820)
+#define RPG_GAMECORE_CONFIGBAKELAYOUTINFOLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1D9AF8E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ConfigBakeLayoutInfoList_TypeDefinitionIndex = 15799;
+	inline static constexpr unsigned int ConfigBakeLayoutInfoList_TypeDefinitionIndex = 16275;
 
 	class ConfigBakeLayoutInfoList : public ::RPG::GameCore::JsonConfig
 	{

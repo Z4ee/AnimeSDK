@@ -5,18 +5,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_REPORTTYPECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D0193B0)
-#define RPG_GAMECORE_REPORTTYPECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0199F0)
+#define RPG_GAMECORE_REPORTTYPECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB90A40)
+#define RPG_GAMECORE_REPORTTYPECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB91080)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ReportTypeConfigRow_TypeDefinitionIndex = 14065;
+	inline static constexpr unsigned int ReportTypeConfigRow_TypeDefinitionIndex = 14485;
 
 	class ReportTypeConfigRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 TypeID; // 0x10
-		::RPG::Client::TextID Text; // 0x18
+		::RPG::Client::TextID Text; // 0x10
+		::System::UInt32 TypeID; // 0x20
 
 		::System::Void _ctor()
 		{

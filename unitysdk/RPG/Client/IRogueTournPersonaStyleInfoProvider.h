@@ -5,7 +5,7 @@ namespace RPG::Client { class RogueTournPersonaStyleInfo; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IRogueTournPersonaStyleInfoProvider_TypeDefinitionIndex = 64313;
+	inline static constexpr unsigned int IRogueTournPersonaStyleInfoProvider_TypeDefinitionIndex = 67308;
 
 	class IRogueTournPersonaStyleInfoProvider
 	{

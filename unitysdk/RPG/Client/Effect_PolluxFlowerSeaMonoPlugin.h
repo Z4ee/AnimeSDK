@@ -13,12 +13,12 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class Mesh; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_EFFECT_POLLUXFLOWERSEAMONOPLUGIN_GET_EDITMODE_OFFSET UNITYSDK_OFFSET(0x15120460)
-#define RPG_CLIENT_EFFECT_POLLUXFLOWERSEAMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x15120470)
+#define RPG_CLIENT_EFFECT_POLLUXFLOWERSEAMONOPLUGIN_GET_EDITMODE_OFFSET UNITYSDK_OFFSET(0x15E917E0)
+#define RPG_CLIENT_EFFECT_POLLUXFLOWERSEAMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x15E917F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_PolluxFlowerSeaMonoPlugin_TypeDefinitionIndex = 67379;
+	inline static constexpr unsigned int Effect_PolluxFlowerSeaMonoPlugin_TypeDefinitionIndex = 70501;
 
 	class Effect_PolluxFlowerSeaMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::Effect_PolluxFlowerSeaBehavior*>
 	{
@@ -51,7 +51,7 @@ namespace RPG::Client
 		::UnityEngine::Vector2 RandomSize; // 0xDC
 		::System::Int32 RandomSeed; // 0xE4
 		::System::Collections::Generic::List_1<::UnityEngine::Matrix4x4>* LocalMatrixList; // 0xE8
-		::System::Boolean Field_7_28; // 0xF0
+		::System::Boolean BDBPGCOFPEF; // 0xF0
 
 		::System::Void _ctor()
 		{

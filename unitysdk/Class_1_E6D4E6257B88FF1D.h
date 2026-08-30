@@ -9,20 +9,20 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_E6D4E6257B88FF1D_METHOD_1_1A5CB4F57CDDD315_OFFSET UNITYSDK_OFFSET(0x18585B80)
-#define CLASS_1_E6D4E6257B88FF1D_METHOD_1_DBE38703F8E74800_OFFSET UNITYSDK_OFFSET(0x18585DD0)
-#define CLASS_1_E6D4E6257B88FF1D_TOSTRING_OFFSET UNITYSDK_OFFSET(0x18585C80)
-#define CLASS_1_E6D4E6257B88FF1D__CTOR_OFFSET UNITYSDK_OFFSET(0x18585C70)
+#define CLASS_1_E6D4E6257B88FF1D_METHOD_1_1A5CB4F57CDDD315_OFFSET UNITYSDK_OFFSET(0x14C5AE40)
+#define CLASS_1_E6D4E6257B88FF1D_METHOD_1_DBE38703F8E74800_OFFSET UNITYSDK_OFFSET(0x14C5B090)
+#define CLASS_1_E6D4E6257B88FF1D_TOSTRING_OFFSET UNITYSDK_OFFSET(0x14C5AF40)
+#define CLASS_1_E6D4E6257B88FF1D__CTOR_OFFSET UNITYSDK_OFFSET(0x14C5AF30)
 
-inline static constexpr unsigned int Class_1_E6D4E6257B88FF1D_TypeDefinitionIndex = 59560;
+inline static constexpr unsigned int Class_1_E6D4E6257B88FF1D_TypeDefinitionIndex = 62399;
 
 class Class_1_E6D4E6257B88FF1D : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::UnityEngine::Vector2Int>* Field_1_0; // 0x10
-	::System::Collections::Generic::List_1<::UnityEngine::Vector2Int>* Field_1_1; // 0x18
-	::Class_1_C16080C084A20369_MeasureAction Field_1_2; // 0x20
-	::UnityEngine::Vector2 Field_1_3; // 0x24
+	::System::Collections::Generic::List_1<::UnityEngine::Vector2Int>* GBKKLJAOLEP; // 0x10
+	::System::Collections::Generic::List_1<::UnityEngine::Vector2Int>* PKIJJKHMPDO; // 0x18
+	::UnityEngine::Vector2 HGLFBAAHBFB; // 0x20
+	::Class_1_C16080C084A20369_MeasureAction JCHFCNFHCMM; // 0x28
 
 	::System::Void _ctor()
 	{

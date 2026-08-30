@@ -5,24 +5,24 @@
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTTABCONTROL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x187722F0)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTTABCONTROL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18772330)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTTABCONTROL___C___ONBINDVIEWMODEL_B__12_5_OFFSET UNITYSDK_OFFSET(0x18772340)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTTABCONTROL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18BF6D50)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTTABCONTROL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18BF6D90)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTTABCONTROL___C___ONBINDVIEWMODEL_B__12_5_OFFSET UNITYSDK_OFFSET(0x18BF6DA0)
 
 namespace RPG::Client::Challenge::Tierce
 {
-	inline static constexpr unsigned int ChallengeTierceStageSelectTabControl___c_TypeDefinitionIndex = 76595;
+	inline static constexpr unsigned int ChallengeTierceStageSelectTabControl___c_TypeDefinitionIndex = 80228;
 
 	class ChallengeTierceStageSelectTabControl___c : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::Challenge::Tierce::ChallengeTierceStageSelectTabControl___c** StaticGet___9()
 		{
-			return (::RPG::Client::Challenge::Tierce::ChallengeTierceStageSelectTabControl___c**)Il2CppClass::FromTypeDefinitionIndex(ChallengeTierceStageSelectTabControl___c_TypeDefinitionIndex)->GetStaticField(0x61180);
+			return (::RPG::Client::Challenge::Tierce::ChallengeTierceStageSelectTabControl___c**)Il2CppClass::FromTypeDefinitionIndex(ChallengeTierceStageSelectTabControl___c_TypeDefinitionIndex)->GetStaticField(0x1E0E0);
 		}
 		static ::System::Func_2<::System::Int32, ::System::String*>** StaticGet___9__12_5()
 		{
-			return (::System::Func_2<::System::Int32, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ChallengeTierceStageSelectTabControl___c_TypeDefinitionIndex)->GetStaticField(0x61188);
+			return (::System::Func_2<::System::Int32, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ChallengeTierceStageSelectTabControl___c_TypeDefinitionIndex)->GetStaticField(0x1E0E8);
 		}
 
 		static ::System::Void _cctor()

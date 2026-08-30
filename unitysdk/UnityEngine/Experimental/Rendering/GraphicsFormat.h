@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Experimental::Rendering
 {
-	inline static constexpr unsigned int GraphicsFormat_TypeDefinitionIndex = 4925;
+	inline static constexpr unsigned int GraphicsFormat_TypeDefinitionIndex = 4937;
 
 	enum class GraphicsFormat : ::System::Int32
 	{
@@ -150,5 +150,15 @@ namespace UnityEngine::Experimental::Rendering
 		RGBA_ASTC10X10_UNorm = 138,
 		RGBA_ASTC12X12_SRGB = 139,
 		RGBA_ASTC12X12_UNorm = 140,
+		YUV2 = 141,
+		DepthAuto = 142,
+		ShadowAuto = 143,
+		VideoAuto = 144,
+		RGBA_ASTC4X4_UFloat = 145,
+		RGBA_ASTC5X5_UFloat = 146,
+		RGBA_ASTC6X6_UFloat = 147,
+		RGBA_ASTC8X8_UFloat = 148,
+		RGBA_ASTC10X10_UFloat = 149,
+		RGBA_ASTC12X12_UFloat = 150,
 	};
 }

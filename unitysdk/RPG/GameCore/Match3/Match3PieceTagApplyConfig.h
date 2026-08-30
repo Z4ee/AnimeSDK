@@ -7,12 +7,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore::Match3 { class Match3TagApplyCondition; }
 namespace RPG::GameCore::Match3 { class Match3TagApplyPostAction; }
 
-#define RPG_GAMECORE_MATCH3_MATCH3PIECETAGAPPLYCONFIG_METHOD_2_D79E567182EF4347_OFFSET UNITYSDK_OFFSET(0x1BD29340)
-#define RPG_GAMECORE_MATCH3_MATCH3PIECETAGAPPLYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD294F0)
+#define RPG_GAMECORE_MATCH3_MATCH3PIECETAGAPPLYCONFIG_METHOD_2_D79E567182EF4347_OFFSET UNITYSDK_OFFSET(0x1D261C50)
+#define RPG_GAMECORE_MATCH3_MATCH3PIECETAGAPPLYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D261E00)
 
 namespace RPG::GameCore::Match3
 {
-	inline static constexpr unsigned int Match3PieceTagApplyConfig_TypeDefinitionIndex = 24069;
+	inline static constexpr unsigned int Match3PieceTagApplyConfig_TypeDefinitionIndex = 24658;
 
 	class Match3PieceTagApplyConfig : public ::RPG::GameCore::JsonConfig
 	{

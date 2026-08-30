@@ -11,7 +11,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int ArrayUtility_TypeDefinitionIndex = 41525;
+	inline static constexpr unsigned int ArrayUtility_TypeDefinitionIndex = 43136;
 
 	class ArrayUtility : public ::System::Object
 	{

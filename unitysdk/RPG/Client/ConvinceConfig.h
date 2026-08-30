@@ -7,11 +7,11 @@ namespace RPG::Client { class ConvinceShakeConfig; }
 namespace RPG::Client { class ConvinceSpliteLineConfig; }
 namespace System { class String; }
 
-#define RPG_CLIENT_CONVINCECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1802A8D0)
+#define RPG_CLIENT_CONVINCECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A29D450)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ConvinceConfig_TypeDefinitionIndex = 57950;
+	inline static constexpr unsigned int ConvinceConfig_TypeDefinitionIndex = 60771;
 
 	class ConvinceConfig : public ::UnityEngine::ScriptableObject
 	{

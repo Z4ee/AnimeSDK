@@ -7,7 +7,7 @@ namespace System { class Object; }
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ConfigDataPoolListPolymorphicEnumerator_1_TypeDefinitionIndex = 10440;
+	inline static constexpr unsigned int ConfigDataPoolListPolymorphicEnumerator_1_TypeDefinitionIndex = 10781;
 
 	template <typename TWrapper>
 	struct ConfigDataPoolListPolymorphicEnumerator_1

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BoardShowType_TypeDefinitionIndex = 10112;
+	inline static constexpr unsigned int BoardShowType_TypeDefinitionIndex = 10448;
 
 	enum class BoardShowType : ::System::Int32
 	{

@@ -3,16 +3,16 @@
 #include "unitysdk/RPG/MVector3.h"
 #include "unitysdk/System/ValueType.h"
 
-#define STRUCT_2_3C72212260A8C076_METHOD_2_7D90263CF3A3B469_OFFSET UNITYSDK_OFFSET(0x3958CB0)
+#define STRUCT_2_3C72212260A8C076_METHOD_2_7D90263CF3A3B469_OFFSET UNITYSDK_OFFSET(0x3AECDD0)
 
-inline static constexpr unsigned int Struct_2_3C72212260A8C076_TypeDefinitionIndex = 54397;
+inline static constexpr unsigned int Struct_2_3C72212260A8C076_TypeDefinitionIndex = 57118;
 
 struct alignas(4) Struct_2_3C72212260A8C076
 {
-	::RPG::MVector3 Field_2_0; // 0x10
-	::System::Single Field_2_1; // 0x1C
-	::System::Single Field_2_2; // 0x20
-	::RPG::MVector3 Field_2_3; // 0x24
+	::RPG::MVector3 LJCENKGKELP; // 0x10
+	::System::Single HJLOCBLHNLD; // 0x1C
+	::System::Single GNPIPAADIFK; // 0x20
+	::RPG::MVector3 AIPNOJPDPCM; // 0x24
 
 	::RPG::MVector3 Method_2_7D90263CF3A3B469(::RPG::MVector3 a1)
 	{

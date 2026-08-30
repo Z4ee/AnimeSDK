@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SYSTEM_STATHREADATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x18352DD0)
+#define SYSTEM_STATHREADATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x19BAC4E0)
 
 namespace System
 {
-	inline static constexpr unsigned int STAThreadAttribute_TypeDefinitionIndex = 333;
+	inline static constexpr unsigned int STAThreadAttribute_TypeDefinitionIndex = 336;
 
 	class STAThreadAttribute : public ::System::Attribute
 	{

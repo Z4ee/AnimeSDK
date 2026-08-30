@@ -5,11 +5,11 @@
 namespace RPG::Client::BAT { class BATPrototype_RendererPackage; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_BAT_BATPROTOTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1867A700)
+#define RPG_CLIENT_BAT_BATPROTOTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x19F030D0)
 
 namespace RPG::Client::BAT
 {
-	inline static constexpr unsigned int BATPrototype_TypeDefinitionIndex = 70263;
+	inline static constexpr unsigned int BATPrototype_TypeDefinitionIndex = 73563;
 
 	class BATPrototype : public ::RPG::Client::CrowdAnimator::CrowdPrototype
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TownSubType_TypeDefinitionIndex = 13516;
+	inline static constexpr unsigned int TownSubType_TypeDefinitionIndex = 13933;
 
 	enum class TownSubType : ::System::Int32
 	{

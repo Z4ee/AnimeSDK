@@ -4,10 +4,10 @@
 #include "unitysdk/RPG/GameCore/SkillPropertyModifyType.h"
 #include "unitysdk/System/ValueType.h"
 
-inline static constexpr unsigned int Struct_2_7935103A226530FE_TypeDefinitionIndex = 55113;
+inline static constexpr unsigned int Struct_2_7935103A226530FE_TypeDefinitionIndex = 57836;
 
 struct alignas(8) Struct_2_7935103A226530FE
 {
-	::RPG::GameCore::SkillPropertyModifyType Field_2_0; // 0x10
-	::RPG::GameCore::FixPoint Field_2_1; // 0x18
+	::RPG::GameCore::SkillPropertyModifyType JFPEKLPIHHB; // 0x10
+	::RPG::GameCore::FixPoint MNDFOPKBHKP; // 0x18
 };

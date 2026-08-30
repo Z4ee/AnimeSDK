@@ -4,12 +4,12 @@
 
 namespace RPG::Client::ActivityIdleLive { class IdleLiveAvatarPromotionBaseData; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVEMODULE___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19A73120)
-#define RPG_CLIENT_ACTIVITYIDLELIVEMODULE___C__DISPLAYCLASS23_0__GETAVATARPROMOTIONDATABYSTAR_B__0_OFFSET UNITYSDK_OFFSET(0x19A73130)
+#define RPG_CLIENT_ACTIVITYIDLELIVEMODULE___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF8C9F0)
+#define RPG_CLIENT_ACTIVITYIDLELIVEMODULE___C__DISPLAYCLASS23_0__GETAVATARPROMOTIONDATABYSTAR_B__0_OFFSET UNITYSDK_OFFSET(0x1AF8CA00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityIdleLiveModule___c__DisplayClass23_0_TypeDefinitionIndex = 58805;
+	inline static constexpr unsigned int ActivityIdleLiveModule___c__DisplayClass23_0_TypeDefinitionIndex = 61636;
 
 	class ActivityIdleLiveModule___c__DisplayClass23_0 : public ::System::Object
 	{

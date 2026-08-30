@@ -6,15 +6,15 @@ class Class_1_3039E593DEE50CCF;
 namespace RPG { template <typename T1, typename T2> class PoolDictionary_2; }
 namespace System { class String; }
 
-#define CLASS_1_C2130EF116E8AE29_CLEAR_OFFSET UNITYSDK_OFFSET(0x1A8F49D0)
-#define CLASS_1_C2130EF116E8AE29__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8F4A60)
+#define CLASS_1_C2130EF116E8AE29_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C50E5A0)
+#define CLASS_1_C2130EF116E8AE29__CTOR_OFFSET UNITYSDK_OFFSET(0x1C50E630)
 
-inline static constexpr unsigned int Class_1_C2130EF116E8AE29_TypeDefinitionIndex = 40807;
+inline static constexpr unsigned int Class_1_C2130EF116E8AE29_TypeDefinitionIndex = 41761;
 
 class Class_1_C2130EF116E8AE29 : public ::System::Object
 {
 public:
-	::RPG::PoolDictionary_2<::System::String*, ::Class_1_3039E593DEE50CCF*>* Field_1_0; // 0x10
+	::RPG::PoolDictionary_2<::System::String*, ::Class_1_3039E593DEE50CCF*>* ICCHEFLCDJB; // 0x10
 
 	::System::Void _ctor()
 	{

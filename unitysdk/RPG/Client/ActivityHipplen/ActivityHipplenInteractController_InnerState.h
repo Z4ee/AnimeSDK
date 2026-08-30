@@ -3,7 +3,7 @@
 
 namespace RPG::Client::ActivityHipplen
 {
-	inline static constexpr unsigned int ActivityHipplenInteractController_InnerState_TypeDefinitionIndex = 71967;
+	inline static constexpr unsigned int ActivityHipplenInteractController_InnerState_TypeDefinitionIndex = 75273;
 
 	enum class ActivityHipplenInteractController_InnerState : ::System::Int32
 	{

@@ -7,7 +7,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int IProxyViewService_1_TypeDefinitionIndex = 40251;
+	inline static constexpr unsigned int IProxyViewService_1_TypeDefinitionIndex = 41130;
 
 	template <typename TEntity>
 	class IProxyViewService_1

@@ -5,23 +5,23 @@
 namespace RPG::Client { class OnlinePlayRoomModule; }
 namespace System { class Action; }
 
-#define RPG_CLIENT_ONLINEPLAYROOMMODULE___C__DISPLAYCLASS20_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1827BF10)
-#define RPG_CLIENT_ONLINEPLAYROOMMODULE___C__DISPLAYCLASS20_0__ENTERONLINEPLAYROOM_B__0_OFFSET UNITYSDK_OFFSET(0x1827EB80)
-#define RPG_CLIENT_ONLINEPLAYROOMMODULE___C__DISPLAYCLASS20_0__ENTERONLINEPLAYROOM_B__1_OFFSET UNITYSDK_OFFSET(0x1827EF00)
+#define RPG_CLIENT_ONLINEPLAYROOMMODULE___C__DISPLAYCLASS20_0__CTOR_OFFSET UNITYSDK_OFFSET(0x191D4290)
+#define RPG_CLIENT_ONLINEPLAYROOMMODULE___C__DISPLAYCLASS20_0__ENTERONLINEPLAYROOM_B__0_OFFSET UNITYSDK_OFFSET(0x191D6F30)
+#define RPG_CLIENT_ONLINEPLAYROOMMODULE___C__DISPLAYCLASS20_0__ENTERONLINEPLAYROOM_B__1_OFFSET UNITYSDK_OFFSET(0x191D72C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int OnlinePlayRoomModule___c__DisplayClass20_0_TypeDefinitionIndex = 63452;
+	inline static constexpr unsigned int OnlinePlayRoomModule___c__DisplayClass20_0_TypeDefinitionIndex = 66437;
 
 	class OnlinePlayRoomModule___c__DisplayClass20_0 : public ::System::Object
 	{
 	public:
-		::System::Action* doTransferAction; // 0x10
-		::RPG::Client::OnlinePlayRoomModule* __4__this; // 0x18
-		::System::UInt32 entryId; // 0x20
-		::System::UInt32 mappingInfoId; // 0x24
-		::System::UInt32 reason; // 0x28
-		::System::UInt32 targetUid; // 0x2C
+		::RPG::Client::OnlinePlayRoomModule* __4__this; // 0x10
+		::System::Action* doTransferAction; // 0x18
+		::System::UInt32 targetUid; // 0x20
+		::System::UInt32 entryId; // 0x24
+		::System::UInt32 mappingInfoId; // 0x28
+		::System::UInt32 reason; // 0x2C
 
 		::System::Void _ctor()
 		{

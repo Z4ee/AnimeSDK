@@ -4,11 +4,11 @@
 #include "unitysdk/RPG/MVector2.h"
 #include "unitysdk/System/ValueType.h"
 
-inline static constexpr unsigned int Struct_2_6F10FDB79B2F75C0_1_TypeDefinitionIndex = 6584;
+inline static constexpr unsigned int Struct_2_6F10FDB79B2F75C0_1_TypeDefinitionIndex = 6196;
 
 struct alignas(4) Struct_2_6F10FDB79B2F75C0_1
 {
-	::Dest::Math::IntersectionTypes Field_2_0; // 0x10
-	::RPG::MVector2 Field_2_1; // 0x14
-	::System::Single Field_2_2; // 0x1C
+	::Dest::Math::IntersectionTypes DLMLMAGCHJK; // 0x10
+	::RPG::MVector2 KCBPBMOJOKJ; // 0x14
+	::System::Single EFEGNDPDKEK; // 0x1C
 };

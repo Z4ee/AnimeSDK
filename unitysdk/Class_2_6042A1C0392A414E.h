@@ -6,20 +6,20 @@
 namespace RPG::GameCore { class SetDynamicValueByMultiModifierValueSum; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_2_6042A1C0392A414E_DISPOSE_OFFSET UNITYSDK_OFFSET(0x142585D0)
-#define CLASS_2_6042A1C0392A414E_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x14258610)
-#define CLASS_2_6042A1C0392A414E_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x14258F60)
-#define CLASS_2_6042A1C0392A414E_TICK_OFFSET UNITYSDK_OFFSET(0x14258FB0)
-#define CLASS_2_6042A1C0392A414E__CTOR_OFFSET UNITYSDK_OFFSET(0x14258500)
+#define CLASS_2_6042A1C0392A414E_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1524D520)
+#define CLASS_2_6042A1C0392A414E_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1524D560)
+#define CLASS_2_6042A1C0392A414E_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1524DEB0)
+#define CLASS_2_6042A1C0392A414E_TICK_OFFSET UNITYSDK_OFFSET(0x1524DF00)
+#define CLASS_2_6042A1C0392A414E__CTOR_OFFSET UNITYSDK_OFFSET(0x1524D450)
 
-inline static constexpr unsigned int Class_2_6042A1C0392A414E_TypeDefinitionIndex = 52943;
+inline static constexpr unsigned int Class_2_6042A1C0392A414E_TypeDefinitionIndex = 55648;
 
 class Class_2_6042A1C0392A414E : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::RPG::GameCore::TaskContext* Field_2_0; // 0x18
-	::RPG::GameCore::SetDynamicValueByMultiModifierValueSum* Field_2_1; // 0x20
-	::RPG::GameCore::StringHash Field_2_2; // 0x28
+	::RPG::GameCore::SetDynamicValueByMultiModifierValueSum* OFKGLJOAMLD; // 0x18
+	::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+	::RPG::GameCore::StringHash DIJHOMCLPEG; // 0x28
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetDynamicValueByMultiModifierValueSum* a2)
 	{

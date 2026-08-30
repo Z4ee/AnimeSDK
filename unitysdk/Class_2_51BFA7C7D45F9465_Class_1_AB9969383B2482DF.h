@@ -8,18 +8,18 @@ namespace RPG::GameCore { class BattleInstance; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class SkillData; }
 
-#define CLASS_2_51BFA7C7D45F9465_CLASS_1_AB9969383B2482DF__CTOR_OFFSET UNITYSDK_OFFSET(0x17019720)
+#define CLASS_2_51BFA7C7D45F9465_CLASS_1_AB9969383B2482DF__CTOR_OFFSET UNITYSDK_OFFSET(0x130A0790)
 
-inline static constexpr unsigned int Class_2_51BFA7C7D45F9465_Class_1_AB9969383B2482DF_TypeDefinitionIndex = 68612;
+inline static constexpr unsigned int Class_2_51BFA7C7D45F9465_Class_1_AB9969383B2482DF_TypeDefinitionIndex = 71810;
 
 class Class_2_51BFA7C7D45F9465_Class_1_AB9969383B2482DF : public ::System::Object
 {
 public:
-	::RPG::GameCore::GameEntity* Field_1_0; // 0x10
-	::RPG::GameCore::SkillData* Field_1_1; // 0x18
-	::RPG::GameCore::BattleInstance* Field_1_2; // 0x20
-	::Class_1_A474572029D08468* Field_1_3; // 0x28
-	::RPG::Client::UISkillIndex Field_1_4; // 0x30
+	::RPG::GameCore::GameEntity* GGKGFABFGFE; // 0x10
+	::RPG::GameCore::BattleInstance* DOLKMGHOGBM; // 0x18
+	::RPG::GameCore::SkillData* IJGAPCNDIAG; // 0x20
+	::Class_1_A474572029D08468* HLIIPKKCPOM; // 0x28
+	::RPG::Client::UISkillIndex KNKEPHGJENN; // 0x30
 
 	::System::Void _ctor()
 	{

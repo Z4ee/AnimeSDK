@@ -5,11 +5,11 @@
 namespace RPG::Client { class GridFightBonusResultData; }
 namespace RPG::Client { class GridFightPrayQuest; }
 
-#define RPG_CLIENT_GRIDFIGHTPRAYQUESTEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1AEA24E0)
+#define RPG_CLIENT_GRIDFIGHTPRAYQUESTEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1CA5B430)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightPrayQuestEvent_TypeDefinitionIndex = 62166;
+	inline static constexpr unsigned int GridFightPrayQuestEvent_TypeDefinitionIndex = 65151;
 
 	class GridFightPrayQuestEvent : public ::System::Object
 	{

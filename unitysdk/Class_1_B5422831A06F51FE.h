@@ -8,13 +8,13 @@ namespace RPG::Client::NavMap { class MappingInfoNode; }
 namespace RPG::Client::NavMap { class SubNavMapData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_B5422831A06F51FE_METHOD_1_60163F28EB8BFD25_OFFSET UNITYSDK_OFFSET(0x174CC4F0)
-#define CLASS_1_B5422831A06F51FE_METHOD_1_C237F448E0A876F0_OFFSET UNITYSDK_OFFSET(0x174CA4D0)
-#define CLASS_1_B5422831A06F51FE_METHOD_1_CEEDE261651A090D_OFFSET UNITYSDK_OFFSET(0x174CBD60)
-#define CLASS_1_B5422831A06F51FE_METHOD_1_E74F89B939CA7D8C_OFFSET UNITYSDK_OFFSET(0x174CC620)
-#define CLASS_1_B5422831A06F51FE_METHOD_1_FE98121E1A92B697_OFFSET UNITYSDK_OFFSET(0x174CB3F0)
+#define CLASS_1_B5422831A06F51FE_METHOD_1_60163F28EB8BFD25_OFFSET UNITYSDK_OFFSET(0x18380550)
+#define CLASS_1_B5422831A06F51FE_METHOD_1_C237F448E0A876F0_OFFSET UNITYSDK_OFFSET(0x1837E460)
+#define CLASS_1_B5422831A06F51FE_METHOD_1_C660C14550AEB654_OFFSET UNITYSDK_OFFSET(0x18380680)
+#define CLASS_1_B5422831A06F51FE_METHOD_1_CEEDE261651A090D_OFFSET UNITYSDK_OFFSET(0x1837FCF0)
+#define CLASS_1_B5422831A06F51FE_METHOD_1_FE98121E1A92B697_OFFSET UNITYSDK_OFFSET(0x1837F380)
 
-inline static constexpr unsigned int Class_1_B5422831A06F51FE_TypeDefinitionIndex = 63241;
+inline static constexpr unsigned int Class_1_B5422831A06F51FE_TypeDefinitionIndex = 66226;
 
 class Class_1_B5422831A06F51FE : public ::System::Object
 {
@@ -34,9 +34,9 @@ public:
 		return ((::UnityEngine::Vector3(*)(::RPG::Client::NavMap::SubNavMapData*, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_B5422831A06F51FE_METHOD_1_CEEDE261651A090D_OFFSET))(a1, a2);
 	}
 
-	static ::System::Single Method_1_E74F89B939CA7D8C(::System::Collections::Generic::List_1<::RPG::Client::NavMap::MappingInfoNode*>* a1, ::UnityEngine::Vector3 a2)
+	static ::System::Single Method_1_C660C14550AEB654(::System::Collections::Generic::List_1<::RPG::Client::NavMap::MappingInfoNode*>* a1, ::UnityEngine::Vector3 a2)
 	{
-		return ((::System::Single(*)(::System::Collections::Generic::List_1<::RPG::Client::NavMap::MappingInfoNode*>*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + CLASS_1_B5422831A06F51FE_METHOD_1_E74F89B939CA7D8C_OFFSET))(a1, a2);
+		return ((::System::Single(*)(::System::Collections::Generic::List_1<::RPG::Client::NavMap::MappingInfoNode*>*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + CLASS_1_B5422831A06F51FE_METHOD_1_C660C14550AEB654_OFFSET))(a1, a2);
 	}
 
 	static ::System::Void Method_1_FE98121E1A92B697(::RPG::Client::NavMap::ICartography* a1, ::System::Collections::Generic::List_1<::RPG::Client::NavMap::MappingInfoNode*>*& a2, ::System::Int32 a3)

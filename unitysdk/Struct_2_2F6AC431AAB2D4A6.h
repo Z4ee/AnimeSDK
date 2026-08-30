@@ -3,15 +3,15 @@
 #include "unitysdk/RPG/GameCore/EventType.h"
 #include "unitysdk/System/ValueType.h"
 
-#define STRUCT_2_2F6AC431AAB2D4A6_EQUALS_OFFSET UNITYSDK_OFFSET(0x395FB80)
-#define STRUCT_2_2F6AC431AAB2D4A6_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x395FBE0)
+#define STRUCT_2_2F6AC431AAB2D4A6_EQUALS_OFFSET UNITYSDK_OFFSET(0x3AEF8A0)
+#define STRUCT_2_2F6AC431AAB2D4A6_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3AEF900)
 
-inline static constexpr unsigned int Struct_2_2F6AC431AAB2D4A6_TypeDefinitionIndex = 54147;
+inline static constexpr unsigned int Struct_2_2F6AC431AAB2D4A6_TypeDefinitionIndex = 56868;
 
 struct alignas(4) Struct_2_2F6AC431AAB2D4A6
 {
-	::System::UInt32 Field_2_0; // 0x10
-	::RPG::GameCore::EventType Field_2_1; // 0x14
+	::System::UInt32 CEGOPEIKDLA; // 0x10
+	::RPG::GameCore::EventType GMPGDEINODK; // 0x14
 
 	::System::Boolean Equals(::Struct_2_2F6AC431AAB2D4A6 a1)
 	{

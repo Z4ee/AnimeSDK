@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AbortTargetSkill; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_25743BACB8B7EAE6_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x179883C0)
-#define CLASS_3_25743BACB8B7EAE6__CTOR_OFFSET UNITYSDK_OFFSET(0x17988390)
+#define CLASS_3_25743BACB8B7EAE6_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1B448A20)
+#define CLASS_3_25743BACB8B7EAE6__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4489F0)
 
-inline static constexpr unsigned int Class_3_25743BACB8B7EAE6_TypeDefinitionIndex = 49886;
+inline static constexpr unsigned int Class_3_25743BACB8B7EAE6_TypeDefinitionIndex = 52547;
 
 class Class_3_25743BACB8B7EAE6 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AbortTargetSkill*>
 {

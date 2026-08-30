@@ -4,10 +4,10 @@
 
 namespace RPG::Client::TeamTowers { class TeamTowersDepartmentData; }
 
-#define CLASS_1_7EEA5E93C4D09894___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17AD19E0)
-#define CLASS_1_7EEA5E93C4D09894___C__DISPLAYCLASS3_0__GETDEPARTMENTDATA_B__0_OFFSET UNITYSDK_OFFSET(0x17AD3C50)
+#define CLASS_1_7EEA5E93C4D09894___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18E1ADB0)
+#define CLASS_1_7EEA5E93C4D09894___C__DISPLAYCLASS3_0__GETDEPARTMENTDATA_B__0_OFFSET UNITYSDK_OFFSET(0x18E1D010)
 
-inline static constexpr unsigned int Class_1_7EEA5E93C4D09894___c__DisplayClass3_0_TypeDefinitionIndex = 75067;
+inline static constexpr unsigned int Class_1_7EEA5E93C4D09894___c__DisplayClass3_0_TypeDefinitionIndex = 78565;
 
 class Class_1_7EEA5E93C4D09894___c__DisplayClass3_0 : public ::System::Object
 {

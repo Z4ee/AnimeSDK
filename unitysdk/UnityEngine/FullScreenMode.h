@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int FullScreenMode_TypeDefinitionIndex = 4107;
+	inline static constexpr unsigned int FullScreenMode_TypeDefinitionIndex = 4117;
 
 	enum class FullScreenMode : ::System::Int32
 	{

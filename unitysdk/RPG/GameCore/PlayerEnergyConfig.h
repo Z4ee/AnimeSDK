@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PLAYERENERGYCONFIG_METHOD_2_E10A1F509D5F5612_OFFSET UNITYSDK_OFFSET(0x1BA098A0)
-#define RPG_GAMECORE_PLAYERENERGYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA09A90)
+#define RPG_GAMECORE_PLAYERENERGYCONFIG_METHOD_2_E10A1F509D5F5612_OFFSET UNITYSDK_OFFSET(0x1D7AA6D0)
+#define RPG_GAMECORE_PLAYERENERGYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7AA8C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlayerEnergyConfig_TypeDefinitionIndex = 16350;
+	inline static constexpr unsigned int PlayerEnergyConfig_TypeDefinitionIndex = 16838;
 
 	class PlayerEnergyConfig : public ::RPG::GameCore::JsonConfig
 	{

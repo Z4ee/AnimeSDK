@@ -6,18 +6,18 @@ class Class_1_7B005A18003A04C3;
 namespace RPG::Client::DiceCombat { class DiceCombatPVPLobby; }
 namespace RPG::Client::DiceCombat { class DiceCombatPVPManager; }
 
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATPVPMANAGER___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A419280)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATPVPMANAGER___C__DISPLAYCLASS17_0__STARTMATCH_B__0_OFFSET UNITYSDK_OFFSET(0x1A41AA00)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATPVPMANAGER___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C411850)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATPVPMANAGER___C__DISPLAYCLASS17_0__STARTMATCH_B__0_OFFSET UNITYSDK_OFFSET(0x1C412FD0)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatPVPManager___c__DisplayClass17_0_TypeDefinitionIndex = 72226;
+	inline static constexpr unsigned int DiceCombatPVPManager___c__DisplayClass17_0_TypeDefinitionIndex = 75662;
 
 	class DiceCombatPVPManager___c__DisplayClass17_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::DiceCombat::DiceCombatPVPLobby* currentLobby; // 0x10
-		::RPG::Client::DiceCombat::DiceCombatPVPManager* __4__this; // 0x18
+		::RPG::Client::DiceCombat::DiceCombatPVPManager* __4__this; // 0x10
+		::RPG::Client::DiceCombat::DiceCombatPVPLobby* currentLobby; // 0x18
 		::Class_1_7B005A18003A04C3* extInfo; // 0x20
 
 		::System::Void _ctor()

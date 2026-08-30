@@ -7,18 +7,18 @@ class Class_1_1C30CE192ABE4C54;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_93EC936D6B573DA2_METHOD_1_7D943A9BCF65B455_OFFSET UNITYSDK_OFFSET(0x17C88590)
-#define CLASS_1_93EC936D6B573DA2_METHOD_1_D7AE7665A3425DE9_OFFSET UNITYSDK_OFFSET(0x17C88630)
-#define CLASS_1_93EC936D6B573DA2__CTOR_OFFSET UNITYSDK_OFFSET(0x17C886C0)
+#define CLASS_1_93EC936D6B573DA2_METHOD_1_7D943A9BCF65B455_OFFSET UNITYSDK_OFFSET(0x19128750)
+#define CLASS_1_93EC936D6B573DA2_METHOD_1_D7AE7665A3425DE9_OFFSET UNITYSDK_OFFSET(0x191287F0)
+#define CLASS_1_93EC936D6B573DA2__CTOR_OFFSET UNITYSDK_OFFSET(0x19128880)
 
-inline static constexpr unsigned int Class_1_93EC936D6B573DA2_TypeDefinitionIndex = 52296;
+inline static constexpr unsigned int Class_1_93EC936D6B573DA2_TypeDefinitionIndex = 54986;
 
 class Class_1_93EC936D6B573DA2 : public ::System::Object
 {
 public:
-	::Class_1_93EC936D6B573DA2* Field_1_0; // 0x10
-	::Class_1_1C30CE192ABE4C54* Field_1_1; // 0x18
-	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::StringHash, ::System::String*>* Field_1_2; // 0x20
+	::Class_1_1C30CE192ABE4C54* NCMDGGHBPFD; // 0x10
+	::Class_1_93EC936D6B573DA2* BNLCCCCMABF; // 0x18
+	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::StringHash, ::System::String*>* IGHNLNEHFOI; // 0x20
 
 	::System::Void _ctor()
 	{

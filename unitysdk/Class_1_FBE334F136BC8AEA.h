@@ -5,9 +5,9 @@
 namespace RPG::GameCore { class FiveDimGarbageBinBakedMoveConfig; }
 namespace UnityEngine { class BoxCollider; }
 
-#define CLASS_1_FBE334F136BC8AEA_METHOD_1_FA2ADAF54EB4292D_OFFSET UNITYSDK_OFFSET(0x1697DD90)
+#define CLASS_1_FBE334F136BC8AEA_METHOD_1_FA2ADAF54EB4292D_OFFSET UNITYSDK_OFFSET(0x17AE0950)
 
-inline static constexpr unsigned int Class_1_FBE334F136BC8AEA_TypeDefinitionIndex = 73230;
+inline static constexpr unsigned int Class_1_FBE334F136BC8AEA_TypeDefinitionIndex = 76706;
 
 class Class_1_FBE334F136BC8AEA : public ::System::Object
 {

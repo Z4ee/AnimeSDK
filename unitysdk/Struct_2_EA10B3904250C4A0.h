@@ -5,14 +5,14 @@
 #include "unitysdk/UnityEngine/Matrix4x4.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
-#define STRUCT_2_EA10B3904250C4A0_EXECUTE_OFFSET UNITYSDK_OFFSET(0x3997420)
+#define STRUCT_2_EA10B3904250C4A0_EXECUTE_OFFSET UNITYSDK_OFFSET(0x3AF34E0)
 
-inline static constexpr unsigned int Struct_2_EA10B3904250C4A0_TypeDefinitionIndex = 70318;
+inline static constexpr unsigned int Struct_2_EA10B3904250C4A0_TypeDefinitionIndex = 73618;
 
 struct alignas(8) Struct_2_EA10B3904250C4A0
 {
-	::Unity::Collections::NativeArray_1<::UnityEngine::Matrix4x4> Field_2_0; // 0x10
-	::Unity::Collections::NativeArray_1<::UnityEngine::Vector4> Field_2_1; // 0x20
+	::Unity::Collections::NativeArray_1<::UnityEngine::Matrix4x4> NPLKIAMMBBL; // 0x10
+	::Unity::Collections::NativeArray_1<::UnityEngine::Vector4> KGFCFIKLJKK; // 0x20
 
 	/*
 	::System::Void Execute(::System::Int32 a1, ::UnityEngine::Jobs::TransformAccess a2)

@@ -5,22 +5,22 @@
 class HipplenBuilderStatus_Class_1_FF08BBE63201ECB5;
 namespace System { template <typename T> class Predicate_1; }
 
-#define HIPPLENBUILDERSTATUS___C__BUFFTIMEPASS_B__8_0_OFFSET UNITYSDK_OFFSET(0x17A6A210)
-#define HIPPLENBUILDERSTATUS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17A6A1C0)
-#define HIPPLENBUILDERSTATUS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17A6A200)
+#define HIPPLENBUILDERSTATUS___C__BUFFTIMEPASS_B__8_0_OFFSET UNITYSDK_OFFSET(0x18DD5200)
+#define HIPPLENBUILDERSTATUS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18DD51B0)
+#define HIPPLENBUILDERSTATUS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18DD51F0)
 
-inline static constexpr unsigned int HipplenBuilderStatus___c_TypeDefinitionIndex = 45421;
+inline static constexpr unsigned int HipplenBuilderStatus___c_TypeDefinitionIndex = 47671;
 
 class HipplenBuilderStatus___c : public ::System::Object
 {
 public:
-	static ::System::Predicate_1<::HipplenBuilderStatus_Class_1_FF08BBE63201ECB5*>** StaticGet___9__8_0()
-	{
-		return (::System::Predicate_1<::HipplenBuilderStatus_Class_1_FF08BBE63201ECB5*>**)Il2CppClass::FromTypeDefinitionIndex(HipplenBuilderStatus___c_TypeDefinitionIndex)->GetStaticField(0x5F860);
-	}
 	static ::HipplenBuilderStatus___c** StaticGet___9()
 	{
-		return (::HipplenBuilderStatus___c**)Il2CppClass::FromTypeDefinitionIndex(HipplenBuilderStatus___c_TypeDefinitionIndex)->GetStaticField(0x5F868);
+		return (::HipplenBuilderStatus___c**)Il2CppClass::FromTypeDefinitionIndex(HipplenBuilderStatus___c_TypeDefinitionIndex)->GetStaticField(0x60EE0);
+	}
+	static ::System::Predicate_1<::HipplenBuilderStatus_Class_1_FF08BBE63201ECB5*>** StaticGet___9__8_0()
+	{
+		return (::System::Predicate_1<::HipplenBuilderStatus_Class_1_FF08BBE63201ECB5*>**)Il2CppClass::FromTypeDefinitionIndex(HipplenBuilderStatus___c_TypeDefinitionIndex)->GetStaticField(0x60EE8);
 	}
 
 	static ::System::Void _cctor()

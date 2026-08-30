@@ -5,16 +5,16 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_58EFA501E6726767_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C583B40)
-#define CLASS_1_58EFA501E6726767_METHOD_1_5B99A71B607153CC_OFFSET UNITYSDK_OFFSET(0x1C583B90)
-#define CLASS_1_58EFA501E6726767__CTOR_OFFSET UNITYSDK_OFFSET(0x1C583C50)
+#define CLASS_1_58EFA501E6726767_CLEAR_OFFSET UNITYSDK_OFFSET(0x181EDE80)
+#define CLASS_1_58EFA501E6726767_METHOD_1_5B99A71B607153CC_OFFSET UNITYSDK_OFFSET(0x181EDED0)
+#define CLASS_1_58EFA501E6726767__CTOR_OFFSET UNITYSDK_OFFSET(0x181EDF90)
 
-inline static constexpr unsigned int Class_1_58EFA501E6726767_TypeDefinitionIndex = 39621;
+inline static constexpr unsigned int Class_1_58EFA501E6726767_TypeDefinitionIndex = 40494;
 
 class Class_1_58EFA501E6726767 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::System::UInt32>* Field_1_0; // 0x10
+	::System::Collections::Generic::List_1<::System::UInt32>* GLLOLLEDHAD; // 0x10
 
 	::System::Void _ctor()
 	{

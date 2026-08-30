@@ -16,42 +16,42 @@ namespace System::Reflection { class TypeInfo; }
 namespace System::Reflection::Emit { class AssemblyBuilder; }
 namespace System::Reflection::Emit { class ModuleBuilder; }
 
-#define MESSAGEPACK_SKIPCLRVISIBILITYCHECKS_EMITMAGICATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1B945280)
-#define MESSAGEPACK_SKIPCLRVISIBILITYCHECKS_GETMAGICATTRIBUTECTOR_OFFSET UNITYSDK_OFFSET(0x1B945200)
-#define MESSAGEPACK_SKIPCLRVISIBILITYCHECKS_GETSKIPVISIBILITYCHECKSREQUIREMENTS_OFFSET UNITYSDK_OFFSET(0x1B943A90)
-#define MESSAGEPACK_SKIPCLRVISIBILITYCHECKS_SKIPVISIBILITYCHECKSFOR_1_OFFSET UNITYSDK_OFFSET(0x1B9450F0)
-#define MESSAGEPACK_SKIPCLRVISIBILITYCHECKS_SKIPVISIBILITYCHECKSFOR_OFFSET UNITYSDK_OFFSET(0x1B944C70)
-#define MESSAGEPACK_SKIPCLRVISIBILITYCHECKS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B9452F0)
-#define MESSAGEPACK_SKIPCLRVISIBILITYCHECKS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B943980)
-#define MESSAGEPACK_SKIPCLRVISIBILITYCHECKS__GETSKIPVISIBILITYCHECKSREQUIREMENTS_G__ADDTYPEIFNONPUBLIC_9_1_OFFSET UNITYSDK_OFFSET(0x1B943DF0)
-#define MESSAGEPACK_SKIPCLRVISIBILITYCHECKS__GETSKIPVISIBILITYCHECKSREQUIREMENTS_G__SCANDIRECTTYPE_9_0_OFFSET UNITYSDK_OFFSET(0x1B9441D0)
+#define MESSAGEPACK_SKIPCLRVISIBILITYCHECKS_EMITMAGICATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1D574E00)
+#define MESSAGEPACK_SKIPCLRVISIBILITYCHECKS_GETMAGICATTRIBUTECTOR_OFFSET UNITYSDK_OFFSET(0x1D574D80)
+#define MESSAGEPACK_SKIPCLRVISIBILITYCHECKS_GETSKIPVISIBILITYCHECKSREQUIREMENTS_OFFSET UNITYSDK_OFFSET(0x1D573610)
+#define MESSAGEPACK_SKIPCLRVISIBILITYCHECKS_SKIPVISIBILITYCHECKSFOR_1_OFFSET UNITYSDK_OFFSET(0x1D574C70)
+#define MESSAGEPACK_SKIPCLRVISIBILITYCHECKS_SKIPVISIBILITYCHECKSFOR_OFFSET UNITYSDK_OFFSET(0x1D5747F0)
+#define MESSAGEPACK_SKIPCLRVISIBILITYCHECKS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D574E70)
+#define MESSAGEPACK_SKIPCLRVISIBILITYCHECKS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D573540)
+#define MESSAGEPACK_SKIPCLRVISIBILITYCHECKS__GETSKIPVISIBILITYCHECKSREQUIREMENTS_G__ADDTYPEIFNONPUBLIC_9_1_OFFSET UNITYSDK_OFFSET(0x1D573970)
+#define MESSAGEPACK_SKIPCLRVISIBILITYCHECKS__GETSKIPVISIBILITYCHECKSREQUIREMENTS_G__SCANDIRECTTYPE_9_0_OFFSET UNITYSDK_OFFSET(0x1D573D50)
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int SkipClrVisibilityChecks_TypeDefinitionIndex = 7196;
+	inline static constexpr unsigned int SkipClrVisibilityChecks_TypeDefinitionIndex = 7182;
 
 	class SkipClrVisibilityChecks : public ::System::Object
 	{
 	public:
-		static ::System::Reflection::PropertyInfo** StaticGet_AttributeUsageAllowMultipleProperty()
-		{
-			return (::System::Reflection::PropertyInfo**)Il2CppClass::FromTypeDefinitionIndex(SkipClrVisibilityChecks_TypeDefinitionIndex)->GetStaticField(0x9A70);
-		}
 		static ::System::Collections::Immutable::ImmutableHashSet_1<::System::Reflection::AssemblyName*>** StaticGet_EmptySet()
 		{
-			return (::System::Collections::Immutable::ImmutableHashSet_1<::System::Reflection::AssemblyName*>**)Il2CppClass::FromTypeDefinitionIndex(SkipClrVisibilityChecks_TypeDefinitionIndex)->GetStaticField(0x9A78);
+			return (::System::Collections::Immutable::ImmutableHashSet_1<::System::Reflection::AssemblyName*>**)Il2CppClass::FromTypeDefinitionIndex(SkipClrVisibilityChecks_TypeDefinitionIndex)->GetStaticField(0x35CE0);
 		}
 		static ::System::Reflection::ConstructorInfo** StaticGet_AttributeUsageCtor()
 		{
-			return (::System::Reflection::ConstructorInfo**)Il2CppClass::FromTypeDefinitionIndex(SkipClrVisibilityChecks_TypeDefinitionIndex)->GetStaticField(0x9A80);
+			return (::System::Reflection::ConstructorInfo**)Il2CppClass::FromTypeDefinitionIndex(SkipClrVisibilityChecks_TypeDefinitionIndex)->GetStaticField(0x35CE8);
 		}
 		static ::System::Reflection::ConstructorInfo** StaticGet_AttributeBaseClassCtor()
 		{
-			return (::System::Reflection::ConstructorInfo**)Il2CppClass::FromTypeDefinitionIndex(SkipClrVisibilityChecks_TypeDefinitionIndex)->GetStaticField(0x9A88);
+			return (::System::Reflection::ConstructorInfo**)Il2CppClass::FromTypeDefinitionIndex(SkipClrVisibilityChecks_TypeDefinitionIndex)->GetStaticField(0x35CF0);
 		}
-		::System::Reflection::ConstructorInfo* magicAttributeCtor; // 0x10
-		::System::Reflection::Emit::ModuleBuilder* moduleBuilder; // 0x18
-		::System::Collections::Generic::HashSet_1<::System::String*>* attributedAssemblyNames; // 0x20
+		static ::System::Reflection::PropertyInfo** StaticGet_AttributeUsageAllowMultipleProperty()
+		{
+			return (::System::Reflection::PropertyInfo**)Il2CppClass::FromTypeDefinitionIndex(SkipClrVisibilityChecks_TypeDefinitionIndex)->GetStaticField(0x35CF8);
+		}
+		::System::Collections::Generic::HashSet_1<::System::String*>* attributedAssemblyNames; // 0x10
+		::System::Reflection::ConstructorInfo* magicAttributeCtor; // 0x18
+		::System::Reflection::Emit::ModuleBuilder* moduleBuilder; // 0x20
 		::System::Reflection::Emit::AssemblyBuilder* assemblyBuilder; // 0x28
 
 		::System::Void _ctor(::System::Reflection::Emit::AssemblyBuilder* a1, ::System::Reflection::Emit::ModuleBuilder* a2)

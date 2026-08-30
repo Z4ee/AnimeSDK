@@ -9,24 +9,24 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_REFLECTION_MEMBERINFOSERIALIZATIONHOLDER_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1AFD0C80)
-#define SYSTEM_REFLECTION_MEMBERINFOSERIALIZATIONHOLDER_GETREALOBJECT_OFFSET UNITYSDK_OFFSET(0x1AFD0CE0)
-#define SYSTEM_REFLECTION_MEMBERINFOSERIALIZATIONHOLDER_GETSERIALIZATIONINFO_1_OFFSET UNITYSDK_OFFSET(0x1AFD0630)
-#define SYSTEM_REFLECTION_MEMBERINFOSERIALIZATIONHOLDER_GETSERIALIZATIONINFO_OFFSET UNITYSDK_OFFSET(0x1AFD0600)
-#define SYSTEM_REFLECTION_MEMBERINFOSERIALIZATIONHOLDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1AFD09C0)
+#define SYSTEM_REFLECTION_MEMBERINFOSERIALIZATIONHOLDER_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1CC21850)
+#define SYSTEM_REFLECTION_MEMBERINFOSERIALIZATIONHOLDER_GETREALOBJECT_OFFSET UNITYSDK_OFFSET(0x1CC218B0)
+#define SYSTEM_REFLECTION_MEMBERINFOSERIALIZATIONHOLDER_GETSERIALIZATIONINFO_1_OFFSET UNITYSDK_OFFSET(0x1CC211E0)
+#define SYSTEM_REFLECTION_MEMBERINFOSERIALIZATIONHOLDER_GETSERIALIZATIONINFO_OFFSET UNITYSDK_OFFSET(0x1CC211B0)
+#define SYSTEM_REFLECTION_MEMBERINFOSERIALIZATIONHOLDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC21590)
 
 namespace System::Reflection
 {
-	inline static constexpr unsigned int MemberInfoSerializationHolder_TypeDefinitionIndex = 571;
+	inline static constexpr unsigned int MemberInfoSerializationHolder_TypeDefinitionIndex = 574;
 
 	class MemberInfoSerializationHolder : public ::System::Object
 	{
 	public:
 		::System::Runtime::Serialization::SerializationInfo* m_info; // 0x10
-		::System::RuntimeType* m_reflectedType; // 0x18
-		::System::String* m_signature; // 0x20
-		::System::String* m_signature2; // 0x28
-		::System::String* m_memberName; // 0x30
+		::System::String* m_signature2; // 0x18
+		::System::String* m_memberName; // 0x20
+		::System::RuntimeType* m_reflectedType; // 0x28
+		::System::String* m_signature; // 0x30
 		::System::Reflection::MemberTypes m_memberType; // 0x38
 
 		::System::Void _ctor(::System::Runtime::Serialization::SerializationInfo* a1, ::System::Runtime::Serialization::StreamingContext a2)

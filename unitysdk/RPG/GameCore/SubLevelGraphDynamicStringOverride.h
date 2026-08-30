@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicString; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SUBLEVELGRAPHDYNAMICSTRINGOVERRIDE_METHOD_2_AB28569F95578D7E_OFFSET UNITYSDK_OFFSET(0x1B423B90)
-#define RPG_GAMECORE_SUBLEVELGRAPHDYNAMICSTRINGOVERRIDE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B423CA0)
+#define RPG_GAMECORE_SUBLEVELGRAPHDYNAMICSTRINGOVERRIDE_METHOD_2_5955B31903198F09_OFFSET UNITYSDK_OFFSET(0x1CB06A00)
+#define RPG_GAMECORE_SUBLEVELGRAPHDYNAMICSTRINGOVERRIDE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB06AE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SubLevelGraphDynamicStringOverride_TypeDefinitionIndex = 19932;
+	inline static constexpr unsigned int SubLevelGraphDynamicStringOverride_TypeDefinitionIndex = 20478;
 
 	class SubLevelGraphDynamicStringOverride : public ::RPG::GameCore::JsonConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SUBLEVELGRAPHDYNAMICSTRINGOVERRIDE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_AB28569F95578D7E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SubLevelGraphDynamicStringOverride*& a2)
+		static ::System::Void Method_2_5955B31903198F09(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SubLevelGraphDynamicStringOverride*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SubLevelGraphDynamicStringOverride*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SUBLEVELGRAPHDYNAMICSTRINGOVERRIDE_METHOD_2_AB28569F95578D7E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SubLevelGraphDynamicStringOverride*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SUBLEVELGRAPHDYNAMICSTRINGOVERRIDE_METHOD_2_5955B31903198F09_OFFSET))(a1, a2);
 		}
 	};
 }

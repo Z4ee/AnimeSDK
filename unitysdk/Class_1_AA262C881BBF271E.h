@@ -6,18 +6,18 @@
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class Mesh; }
 
-#define CLASS_1_AA262C881BBF271E_METHOD_1_C93BC67F269AE424_OFFSET UNITYSDK_OFFSET(0x19362CC0)
-#define CLASS_1_AA262C881BBF271E_METHOD_1_F22E7E7C9FC01A6F_OFFSET UNITYSDK_OFFSET(0x19362EA0)
-#define CLASS_1_AA262C881BBF271E__CCTOR_OFFSET UNITYSDK_OFFSET(0x19362F80)
+#define CLASS_1_AA262C881BBF271E_METHOD_1_C93BC67F269AE424_OFFSET UNITYSDK_OFFSET(0x1A8C8A30)
+#define CLASS_1_AA262C881BBF271E_METHOD_1_F22E7E7C9FC01A6F_OFFSET UNITYSDK_OFFSET(0x1A8C8C10)
+#define CLASS_1_AA262C881BBF271E__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A8C8CF0)
 
-inline static constexpr unsigned int Class_1_AA262C881BBF271E_TypeDefinitionIndex = 49685;
+inline static constexpr unsigned int Class_1_AA262C881BBF271E_TypeDefinitionIndex = 52343;
 
 class Class_1_AA262C881BBF271E : public ::System::Object
 {
 public:
-	static ::System::Collections::Generic::Dictionary_2<::UnityEngine::PrimitiveType, ::UnityEngine::Mesh*>** StaticGet_Field_1_0()
+	static ::System::Collections::Generic::Dictionary_2<::UnityEngine::PrimitiveType, ::UnityEngine::Mesh*>** StaticGet_KPPFGAPLECI()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::UnityEngine::PrimitiveType, ::UnityEngine::Mesh*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_AA262C881BBF271E_TypeDefinitionIndex)->GetStaticField(0x65CB0);
+		return (::System::Collections::Generic::Dictionary_2<::UnityEngine::PrimitiveType, ::UnityEngine::Mesh*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_AA262C881BBF271E_TypeDefinitionIndex)->GetStaticField(0x5EF50);
 	}
 
 	static ::System::Void _cctor()

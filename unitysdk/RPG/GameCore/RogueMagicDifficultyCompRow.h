@@ -6,20 +6,20 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUEMAGICDIFFICULTYCOMPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CFB5A30)
-#define RPG_GAMECORE_ROGUEMAGICDIFFICULTYCOMPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFB5C60)
+#define RPG_GAMECORE_ROGUEMAGICDIFFICULTYCOMPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D93A520)
+#define RPG_GAMECORE_ROGUEMAGICDIFFICULTYCOMPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D93A750)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueMagicDifficultyCompRow_TypeDefinitionIndex = 14281;
+	inline static constexpr unsigned int RogueMagicDifficultyCompRow_TypeDefinitionIndex = 14701;
 
 	class RogueMagicDifficultyCompRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::FixPoint>* ParamList; // 0x10
 		::RPG::Client::TextID DifficultyDesc; // 0x18
-		::System::UInt32 Level; // 0x28
-		::System::UInt32 UnlockID; // 0x2C
+		::System::UInt32 UnlockID; // 0x28
+		::System::UInt32 Level; // 0x2C
 		::System::UInt32 DifficultyCompID; // 0x30
 
 		::System::Void _ctor()

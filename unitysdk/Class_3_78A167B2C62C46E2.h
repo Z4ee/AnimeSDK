@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class DisableMazeLockTarget; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_78A167B2C62C46E2_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16D9B130)
-#define CLASS_3_78A167B2C62C46E2__CTOR_OFFSET UNITYSDK_OFFSET(0x16D9B100)
+#define CLASS_3_78A167B2C62C46E2_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A450080)
+#define CLASS_3_78A167B2C62C46E2__CTOR_OFFSET UNITYSDK_OFFSET(0x1A450050)
 
-inline static constexpr unsigned int Class_3_78A167B2C62C46E2_TypeDefinitionIndex = 50346;
+inline static constexpr unsigned int Class_3_78A167B2C62C46E2_TypeDefinitionIndex = 53009;
 
 class Class_3_78A167B2C62C46E2 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::DisableMazeLockTarget*>
 {

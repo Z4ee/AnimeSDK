@@ -4,11 +4,11 @@
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2ShapeId.h"
 #include "unitysdk/System/ValueType.h"
 
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CONTACTBEGINTOUCHEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x7AF3D0)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CONTACTBEGINTOUCHEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x82DDB0)
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2ContactBeginTouchEvent_TypeDefinitionIndex = 35070;
+	inline static constexpr unsigned int B2ContactBeginTouchEvent_TypeDefinitionIndex = 35931;
 
 	struct alignas(8) B2ContactBeginTouchEvent
 	{

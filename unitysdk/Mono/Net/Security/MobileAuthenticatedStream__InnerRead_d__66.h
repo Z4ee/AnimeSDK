@@ -8,19 +8,19 @@
 namespace Mono::Net::Security { class MobileAuthenticatedStream; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM__INNERREAD_D__66_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3A00900)
-#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM__INNERREAD_D__66_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x38D1DC0)
+#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM__INNERREAD_D__66_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3B92110)
+#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM__INNERREAD_D__66_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x3A4D9C0)
 
 namespace Mono::Net::Security
 {
-	inline static constexpr unsigned int MobileAuthenticatedStream__InnerRead_d__66_TypeDefinitionIndex = 2434;
+	inline static constexpr unsigned int MobileAuthenticatedStream__InnerRead_d__66_TypeDefinitionIndex = 2441;
 
 	struct alignas(8) MobileAuthenticatedStream__InnerRead_d__66
 	{
-		::Mono::Net::Security::MobileAuthenticatedStream* __4__this; // 0x10
-		::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Int32> __t__builder; // 0x18
-		::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Int32> __u__1; // 0x30
-		::System::Threading::CancellationToken cancellationToken; // 0x40
+		::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Int32> __u__1; // 0x10
+		::System::Threading::CancellationToken cancellationToken; // 0x20
+		::Mono::Net::Security::MobileAuthenticatedStream* __4__this; // 0x28
+		::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Int32> __t__builder; // 0x30
 		::System::Int32 __1__state; // 0x48
 		::System::Boolean sync; // 0x4C
 		::System::Int32 requestedSize; // 0x50

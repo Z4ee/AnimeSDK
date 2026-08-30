@@ -10,25 +10,25 @@ namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_5E75F2569395C346_METHOD_1_572C872A7AC127C9_OFFSET UNITYSDK_OFFSET(0x146F44C0)
-#define CLASS_1_5E75F2569395C346_METHOD_1_5E72916301E347E2_OFFSET UNITYSDK_OFFSET(0x146F4900)
-#define CLASS_1_5E75F2569395C346_METHOD_1_8C4AEC0BC1CA0CB4_OFFSET UNITYSDK_OFFSET(0x146F4810)
-#define CLASS_1_5E75F2569395C346_METHOD_1_E3DE31A03057E055_OFFSET UNITYSDK_OFFSET(0x146F49E0)
-#define CLASS_1_5E75F2569395C346__CTOR_OFFSET UNITYSDK_OFFSET(0x146F4480)
+#define CLASS_1_5E75F2569395C346_METHOD_1_572C872A7AC127C9_OFFSET UNITYSDK_OFFSET(0x1598ACB0)
+#define CLASS_1_5E75F2569395C346_METHOD_1_5E72916301E347E2_OFFSET UNITYSDK_OFFSET(0x1598B0F0)
+#define CLASS_1_5E75F2569395C346_METHOD_1_8C4AEC0BC1CA0CB4_OFFSET UNITYSDK_OFFSET(0x1598B000)
+#define CLASS_1_5E75F2569395C346_METHOD_1_E3DE31A03057E055_OFFSET UNITYSDK_OFFSET(0x1598B1D0)
+#define CLASS_1_5E75F2569395C346__CTOR_OFFSET UNITYSDK_OFFSET(0x1598AC70)
 
-inline static constexpr unsigned int Class_1_5E75F2569395C346_TypeDefinitionIndex = 75122;
+inline static constexpr unsigned int Class_1_5E75F2569395C346_TypeDefinitionIndex = 78619;
 
 class Class_1_5E75F2569395C346 : public ::System::Object
 {
 public:
-	::System::String* Field_1_0; // 0x10
-	::Class_1_DEBCF596D13A3389* Field_1_1; // 0x18
-	::Class_2_9C4E0E0141829F67* Field_1_2; // 0x20
-	::UnityEngine::Transform* Field_1_3; // 0x28
-	::UnityEngine::GameObject* Field_1_4; // 0x30
-	::UnityEngine::Vector3 Field_1_5; // 0x38
-	::UnityEngine::Vector3 Field_1_6; // 0x44
-	::System::Single Field_1_7; // 0x50
+	::System::String* OINCGJJMAEF; // 0x10
+	::Class_2_9C4E0E0141829F67* EPKIDMNCGAA; // 0x18
+	::UnityEngine::GameObject* LBNBPMIFDHI; // 0x20
+	::UnityEngine::Transform* GKNBCPMJHMN; // 0x28
+	::Class_1_DEBCF596D13A3389* OLNEEDIAGBF; // 0x30
+	::System::Single HBDJCFFDGDD; // 0x38
+	::UnityEngine::Vector3 BNMMHILFJDD; // 0x3C
+	::UnityEngine::Vector3 AOBKAEDDOBC; // 0x48
 
 	::System::Void _ctor(::System::String* a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::System::Single a4, ::UnityEngine::Transform* a5)
 	{

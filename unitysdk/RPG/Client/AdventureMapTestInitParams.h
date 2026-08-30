@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_336;
+class Class_0_16E4307DCC419505_357;
 namespace RPG::Client { class Map; }
 
-#define RPG_CLIENT_ADVENTUREMAPTESTINITPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x18ABAD90)
+#define RPG_CLIENT_ADVENTUREMAPTESTINITPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x196574F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AdventureMapTestInitParams_TypeDefinitionIndex = 58222;
+	inline static constexpr unsigned int AdventureMapTestInitParams_TypeDefinitionIndex = 61049;
 
 	class AdventureMapTestInitParams : public ::System::Object
 	{
 	public:
-		::Class_0_16E4307DCC419505_336* DefaultEnvProfile; // 0x10
-		::RPG::Client::Map* Map; // 0x18
+		::RPG::Client::Map* Map; // 0x10
+		::Class_0_16E4307DCC419505_357* DefaultEnvProfile; // 0x18
 
 		::System::Void _ctor()
 		{

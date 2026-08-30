@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SyncDitherWithTarget; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_23C1EE5C3C6C04E3_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16BCDE10)
-#define CLASS_3_23C1EE5C3C6C04E3__CTOR_OFFSET UNITYSDK_OFFSET(0x16BCDDE0)
+#define CLASS_3_23C1EE5C3C6C04E3_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18A4D700)
+#define CLASS_3_23C1EE5C3C6C04E3__CTOR_OFFSET UNITYSDK_OFFSET(0x18A4D6D0)
 
-inline static constexpr unsigned int Class_3_23C1EE5C3C6C04E3_TypeDefinitionIndex = 56133;
+inline static constexpr unsigned int Class_3_23C1EE5C3C6C04E3_TypeDefinitionIndex = 58910;
 
 class Class_3_23C1EE5C3C6C04E3 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SyncDitherWithTarget*>
 {

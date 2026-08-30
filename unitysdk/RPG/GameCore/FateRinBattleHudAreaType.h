@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FateRinBattleHudAreaType_TypeDefinitionIndex = 23590;
+	inline static constexpr unsigned int FateRinBattleHudAreaType_TypeDefinitionIndex = 24175;
 
 	enum class FateRinBattleHudAreaType : ::System::Int32
 	{

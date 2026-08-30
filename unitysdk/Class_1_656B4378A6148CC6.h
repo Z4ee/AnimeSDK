@@ -4,22 +4,22 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define CLASS_1_656B4378A6148CC6__CTOR_OFFSET UNITYSDK_OFFSET(0x18460DF0)
+#define CLASS_1_656B4378A6148CC6__CTOR_OFFSET UNITYSDK_OFFSET(0x1A856100)
 
-inline static constexpr unsigned int Class_1_656B4378A6148CC6_TypeDefinitionIndex = 60140;
+inline static constexpr unsigned int Class_1_656B4378A6148CC6_TypeDefinitionIndex = 62986;
 
 class Class_1_656B4378A6148CC6 : public ::System::Object
 {
 public:
-	::UnityEngine::Vector3 Field_1_0; // 0x10
-	::System::Int32 Field_1_1; // 0x1C
-	::System::UInt32 Field_1_2; // 0x20
-	::System::UInt32 Field_1_3; // 0x24
-	::System::UInt32 Field_1_4; // 0x28
-	::System::Boolean Field_1_5; // 0x2C
-	::UnityEngine::Quaternion Field_1_6; // 0x30
-	::System::UInt32 Field_1_7; // 0x40
-	::System::UInt32 Field_1_8; // 0x44
+	::System::UInt32 PCCCKLNCLHB; // 0x10
+	::UnityEngine::Quaternion JNKLNLKHGBB; // 0x14
+	::System::UInt32 DMKMAAEAOGD; // 0x24
+	::System::Boolean CPONHCAOFDH; // 0x28
+	::System::UInt32 DILCDKOHIFG; // 0x2C
+	::System::Int32 HHNGHAKGEBG; // 0x30
+	::System::UInt32 LLDCHLHNADA; // 0x34
+	::UnityEngine::Vector3 ELFDIEFKCMH; // 0x38
+	::System::UInt32 KAGEJBMFGFD; // 0x44
 
 	::System::Void _ctor()
 	{

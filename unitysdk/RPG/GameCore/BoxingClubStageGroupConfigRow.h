@@ -4,20 +4,20 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_BOXINGCLUBSTAGEGROUPCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19CB5F70)
-#define RPG_GAMECORE_BOXINGCLUBSTAGEGROUPCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19CB61F0)
+#define RPG_GAMECORE_BOXINGCLUBSTAGEGROUPCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C2ED830)
+#define RPG_GAMECORE_BOXINGCLUBSTAGEGROUPCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2EDF70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BoxingClubStageGroupConfigRow_TypeDefinitionIndex = 12419;
+	inline static constexpr unsigned int BoxingClubStageGroupConfigRow_TypeDefinitionIndex = 12810;
 
 	class BoxingClubStageGroupConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* DisplayEventIDList; // 0x10
-		::Il2CppArray<::System::UInt32>* MonsterIDList; // 0x18
+		::Il2CppArray<::System::UInt32>* EventIDList; // 0x18
 		::Il2CppArray<::System::UInt32>* DisplayIndexList; // 0x20
-		::Il2CppArray<::System::UInt32>* EventIDList; // 0x28
+		::Il2CppArray<::System::UInt32>* MonsterIDList; // 0x28
 		::System::UInt32 StageGroupID; // 0x30
 		::System::UInt32 Weight; // 0x34
 

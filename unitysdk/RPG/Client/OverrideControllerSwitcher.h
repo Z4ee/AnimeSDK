@@ -8,25 +8,25 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Animator; }
 namespace UnityEngine { class RuntimeAnimatorController; }
 
-#define RPG_CLIENT_OVERRIDECONTROLLERSWITCHER_INIT_OFFSET UNITYSDK_OFFSET(0x182A10A0)
-#define RPG_CLIENT_OVERRIDECONTROLLERSWITCHER_METHOD_5_9EC4C069E7F8C0F8_OFFSET UNITYSDK_OFFSET(0x1A2CE7D0)
-#define RPG_CLIENT_OVERRIDECONTROLLERSWITCHER_METHOD_5_FB3DA77F663C0AAA_OFFSET UNITYSDK_OFFSET(0x1A2CE980)
-#define RPG_CLIENT_OVERRIDECONTROLLERSWITCHER_ONUNLOADMODEL_OFFSET UNITYSDK_OFFSET(0x182A11B0)
-#define RPG_CLIENT_OVERRIDECONTROLLERSWITCHER_RESETTODEFAULT_OFFSET UNITYSDK_OFFSET(0x182A1270)
-#define RPG_CLIENT_OVERRIDECONTROLLERSWITCHER_SWITCHTO_OFFSET UNITYSDK_OFFSET(0x182A1310)
-#define RPG_CLIENT_OVERRIDECONTROLLERSWITCHER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2CE9E0)
+#define RPG_CLIENT_OVERRIDECONTROLLERSWITCHER_INIT_OFFSET UNITYSDK_OFFSET(0x191FDE40)
+#define RPG_CLIENT_OVERRIDECONTROLLERSWITCHER_METHOD_5_A444615C25056F85_OFFSET UNITYSDK_OFFSET(0x191FE150)
+#define RPG_CLIENT_OVERRIDECONTROLLERSWITCHER_METHOD_5_FB3DA77F663C0AAA_OFFSET UNITYSDK_OFFSET(0x191FE040)
+#define RPG_CLIENT_OVERRIDECONTROLLERSWITCHER_ONUNLOADMODEL_OFFSET UNITYSDK_OFFSET(0x191FDF50)
+#define RPG_CLIENT_OVERRIDECONTROLLERSWITCHER_RESETTODEFAULT_OFFSET UNITYSDK_OFFSET(0x191FDFA0)
+#define RPG_CLIENT_OVERRIDECONTROLLERSWITCHER_SWITCHTO_OFFSET UNITYSDK_OFFSET(0x191FE0A0)
+#define RPG_CLIENT_OVERRIDECONTROLLERSWITCHER__CTOR_OFFSET UNITYSDK_OFFSET(0x191FE370)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int OverrideControllerSwitcher_TypeDefinitionIndex = 65586;
+	inline static constexpr unsigned int OverrideControllerSwitcher_TypeDefinitionIndex = 68601;
 
 	class OverrideControllerSwitcher : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::System::Collections::Generic::List_1<::RPG::Client::OverrideControllerSwitcher_ControllerWithName*>* Overrides; // 0x18
-		::System::Boolean Field_5_1; // 0x20
-		::UnityEngine::Animator* Field_5_2; // 0x28
-		::UnityEngine::RuntimeAnimatorController* Field_5_3; // 0x30
+		::System::Boolean DLGFMPNEHGO; // 0x20
+		::UnityEngine::Animator* JDFCDMAPBFJ; // 0x28
+		::UnityEngine::RuntimeAnimatorController* MDEAONCJEDI; // 0x30
 
 		::System::Void _ctor()
 		{
@@ -53,9 +53,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OVERRIDECONTROLLERSWITCHER_SWITCHTO_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::RuntimeAnimatorController* Method_5_9EC4C069E7F8C0F8(::System::String* a1)
+		::UnityEngine::RuntimeAnimatorController* Method_5_A444615C25056F85(::System::String* a1)
 		{
-			return ((::UnityEngine::RuntimeAnimatorController*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OVERRIDECONTROLLERSWITCHER_METHOD_5_9EC4C069E7F8C0F8_OFFSET))(this, a1);
+			return ((::UnityEngine::RuntimeAnimatorController*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OVERRIDECONTROLLERSWITCHER_METHOD_5_A444615C25056F85_OFFSET))(this, a1);
 		}
 
 		::System::Void Method_5_FB3DA77F663C0AAA(::UnityEngine::RuntimeAnimatorController* a1)

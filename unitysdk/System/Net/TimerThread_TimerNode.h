@@ -6,25 +6,25 @@
 namespace System { class Object; }
 namespace System::Net { class TimerThread_Callback; }
 
-#define SYSTEM_NET_TIMERTHREAD_TIMERNODE_CANCEL_OFFSET UNITYSDK_OFFSET(0x19EF40F0)
-#define SYSTEM_NET_TIMERTHREAD_TIMERNODE_GET_NEXT_OFFSET UNITYSDK_OFFSET(0x19EF42B0)
-#define SYSTEM_NET_TIMERTHREAD_TIMERNODE_GET_PREV_OFFSET UNITYSDK_OFFSET(0x19EF42D0)
-#define SYSTEM_NET_TIMERTHREAD_TIMERNODE_SET_NEXT_OFFSET UNITYSDK_OFFSET(0x19EF42C0)
-#define SYSTEM_NET_TIMERTHREAD_TIMERNODE_SET_PREV_OFFSET UNITYSDK_OFFSET(0x19EF42E0)
-#define SYSTEM_NET_TIMERTHREAD_TIMERNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x19EF4250)
+#define SYSTEM_NET_TIMERTHREAD_TIMERNODE_CANCEL_OFFSET UNITYSDK_OFFSET(0x1B976000)
+#define SYSTEM_NET_TIMERTHREAD_TIMERNODE_GET_NEXT_OFFSET UNITYSDK_OFFSET(0x1B9761D0)
+#define SYSTEM_NET_TIMERTHREAD_TIMERNODE_GET_PREV_OFFSET UNITYSDK_OFFSET(0x1B9761F0)
+#define SYSTEM_NET_TIMERTHREAD_TIMERNODE_SET_NEXT_OFFSET UNITYSDK_OFFSET(0x1B9761E0)
+#define SYSTEM_NET_TIMERTHREAD_TIMERNODE_SET_PREV_OFFSET UNITYSDK_OFFSET(0x1B976200)
+#define SYSTEM_NET_TIMERTHREAD_TIMERNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B976170)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int TimerThread_TimerNode_TypeDefinitionIndex = 2783;
+	inline static constexpr unsigned int TimerThread_TimerNode_TypeDefinitionIndex = 2790;
 
 	class TimerThread_TimerNode : public ::System::Net::TimerThread_Timer
 	{
 	public:
-		::System::Object* m_QueueLock; // 0x18
-		::System::Object* m_Context; // 0x20
-		::System::Net::TimerThread_Callback* m_Callback; // 0x28
-		::System::Net::TimerThread_TimerNode* prev; // 0x30
-		::System::Net::TimerThread_TimerNode* next; // 0x38
+		::System::Net::TimerThread_TimerNode* next; // 0x18
+		::System::Object* m_QueueLock; // 0x20
+		::System::Net::TimerThread_TimerNode* prev; // 0x28
+		::System::Net::TimerThread_Callback* m_Callback; // 0x30
+		::System::Object* m_Context; // 0x38
 		::System::Net::TimerThread_TimerNode_TimerState m_TimerState; // 0x40
 
 		::System::Void _ctor()

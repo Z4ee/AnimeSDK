@@ -6,16 +6,16 @@ namespace RPG::AvatarSystem { class IAvatar; }
 namespace RPG::Client { class RoguePickAvatarInfo; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_A6EFC2A5F317516B_METHOD_1_80D66DC67DDE041F_OFFSET UNITYSDK_OFFSET(0x15EA48C0)
-#define CLASS_1_A6EFC2A5F317516B_METHOD_1_E2EB6FF297DA95BC_OFFSET UNITYSDK_OFFSET(0x15EA4860)
-#define CLASS_1_A6EFC2A5F317516B__CTOR_OFFSET UNITYSDK_OFFSET(0x15EA48B0)
+#define CLASS_1_A6EFC2A5F317516B_METHOD_1_80D66DC67DDE041F_OFFSET UNITYSDK_OFFSET(0x198E88C0)
+#define CLASS_1_A6EFC2A5F317516B_METHOD_1_E2EB6FF297DA95BC_OFFSET UNITYSDK_OFFSET(0x198E8860)
+#define CLASS_1_A6EFC2A5F317516B__CTOR_OFFSET UNITYSDK_OFFSET(0x198E88B0)
 
-inline static constexpr unsigned int Class_1_A6EFC2A5F317516B_TypeDefinitionIndex = 59794;
+inline static constexpr unsigned int Class_1_A6EFC2A5F317516B_TypeDefinitionIndex = 62640;
 
 class Class_1_A6EFC2A5F317516B : public ::System::Object
 {
 public:
-	::RPG::Client::RoguePickAvatarInfo* Field_1_0; // 0x10
+	::RPG::Client::RoguePickAvatarInfo* BPJMOAEDGOM; // 0x10
 
 	::System::Void _ctor(::RPG::Client::RoguePickAvatarInfo* a1)
 	{

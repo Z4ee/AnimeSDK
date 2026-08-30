@@ -6,18 +6,18 @@
 namespace MiHoYo::SDK { class JSONArray; }
 namespace System { template <typename T1, typename T2, typename T3, typename T4> class Action_4; }
 
-#define MIHOYO_SDK_BASE_GOODSPLATFORM_THIRDPARTYSTORE___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18869D40)
-#define MIHOYO_SDK_BASE_GOODSPLATFORM_THIRDPARTYSTORE___C__DISPLAYCLASS16_0__EXCHANGESONYSTOREITEMINFO_B__0_OFFSET UNITYSDK_OFFSET(0x1886ABE0)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_THIRDPARTYSTORE___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1A1830)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_THIRDPARTYSTORE___C__DISPLAYCLASS16_0__EXCHANGESONYSTOREITEMINFO_B__0_OFFSET UNITYSDK_OFFSET(0x1A1A26D0)
 
 namespace MiHoYo::SDK::Base::GoodsPlatform
 {
-	inline static constexpr unsigned int ThirdpartyStore___c__DisplayClass16_0_TypeDefinitionIndex = 8523;
+	inline static constexpr unsigned int ThirdpartyStore___c__DisplayClass16_0_TypeDefinitionIndex = 8790;
 
 	class ThirdpartyStore___c__DisplayClass16_0 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::JSONArray* goods; // 0x10
-		::System::Action_4<::MiHoYo::SDK::JSONArray*, ::System::Boolean, ::System::Int32, ::System::Int64>* callback; // 0x18
+		::System::Action_4<::MiHoYo::SDK::JSONArray*, ::System::Boolean, ::System::Int32, ::System::Int64>* callback; // 0x10
+		::MiHoYo::SDK::JSONArray* goods; // 0x18
 
 		::System::Void _ctor()
 		{

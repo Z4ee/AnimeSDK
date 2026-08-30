@@ -7,16 +7,16 @@ class Class_2_F67FF7EB526BF85C;
 namespace RPG::GameCore { class ByInVision; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_0E3AAECD9DA68549_EVALUATE_OFFSET UNITYSDK_OFFSET(0x14D6D830)
-#define CLASS_3_0E3AAECD9DA68549__CTOR_OFFSET UNITYSDK_OFFSET(0x14D6D6D0)
+#define CLASS_3_0E3AAECD9DA68549_EVALUATE_OFFSET UNITYSDK_OFFSET(0x163C2B40)
+#define CLASS_3_0E3AAECD9DA68549__CTOR_OFFSET UNITYSDK_OFFSET(0x163C29E0)
 
-inline static constexpr unsigned int Class_3_0E3AAECD9DA68549_TypeDefinitionIndex = 52005;
+inline static constexpr unsigned int Class_3_0E3AAECD9DA68549_TypeDefinitionIndex = 54690;
 
 class Class_3_0E3AAECD9DA68549 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByInVision*>
 {
 public:
-	::Class_2_3F4D673D3F90D12C* Field_3_0; // 0x28
-	::Class_2_F67FF7EB526BF85C* Field_3_1; // 0x30
+	::Class_2_F67FF7EB526BF85C* AKEOLMPCBHA; // 0x28
+	::Class_2_3F4D673D3F90D12C* MKDIGEHLFBH; // 0x30
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ByInVision* a2)
 	{

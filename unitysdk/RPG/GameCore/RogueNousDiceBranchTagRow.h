@@ -6,19 +6,19 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUENOUSDICEBRANCHTAGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D16AA20)
-#define RPG_GAMECORE_ROGUENOUSDICEBRANCHTAGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D16ABE0)
+#define RPG_GAMECORE_ROGUENOUSDICEBRANCHTAGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E539A10)
+#define RPG_GAMECORE_ROGUENOUSDICEBRANCHTAGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1E539BD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueNousDiceBranchTagRow_TypeDefinitionIndex = 14318;
+	inline static constexpr unsigned int RogueNousDiceBranchTagRow_TypeDefinitionIndex = 14738;
 
 	class RogueNousDiceBranchTagRow : public ::System::Object
 	{
 	public:
 		::System::String* TagIcon; // 0x10
-		::RPG::Client::TextID BranchTagName; // 0x18
-		::System::UInt32 TagID; // 0x28
+		::System::UInt32 TagID; // 0x18
+		::RPG::Client::TextID BranchTagName; // 0x20
 
 		::System::Void _ctor()
 		{

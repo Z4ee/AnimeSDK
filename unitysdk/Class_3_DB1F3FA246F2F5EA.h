@@ -7,23 +7,23 @@ namespace RPG::Client::LittleGame { class ElfRestaurantGameEntity; }
 namespace RPG::GameCore { class ST_Main_ElfTakeOutTakeOrder; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_DB1F3FA246F2F5EA_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16F66370)
-#define CLASS_3_DB1F3FA246F2F5EA_METHOD_3_595E641DF1B4387D_OFFSET UNITYSDK_OFFSET(0x16F66200)
-#define CLASS_3_DB1F3FA246F2F5EA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16F65C70)
-#define CLASS_3_DB1F3FA246F2F5EA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x16F65EC0)
-#define CLASS_3_DB1F3FA246F2F5EA_TICK_OFFSET UNITYSDK_OFFSET(0x16F65F10)
-#define CLASS_3_DB1F3FA246F2F5EA__CTOR_OFFSET UNITYSDK_OFFSET(0x16F65C40)
+#define CLASS_3_DB1F3FA246F2F5EA_DISPOSE_OFFSET UNITYSDK_OFFSET(0x19985A90)
+#define CLASS_3_DB1F3FA246F2F5EA_METHOD_3_595E641DF1B4387D_OFFSET UNITYSDK_OFFSET(0x19985920)
+#define CLASS_3_DB1F3FA246F2F5EA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19985390)
+#define CLASS_3_DB1F3FA246F2F5EA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x199855E0)
+#define CLASS_3_DB1F3FA246F2F5EA_TICK_OFFSET UNITYSDK_OFFSET(0x19985630)
+#define CLASS_3_DB1F3FA246F2F5EA__CTOR_OFFSET UNITYSDK_OFFSET(0x19985360)
 
-inline static constexpr unsigned int Class_3_DB1F3FA246F2F5EA_TypeDefinitionIndex = 49792;
+inline static constexpr unsigned int Class_3_DB1F3FA246F2F5EA_TypeDefinitionIndex = 52452;
 
 class Class_3_DB1F3FA246F2F5EA : public ::RPG::GameCore::ST_Task_1<::RPG::GameCore::ST_Main_ElfTakeOutTakeOrder*>
 {
 public:
-	::RPG::Client::ElfRestaurantGameInstance* Field_3_0; // 0x28
-	::RPG::Client::LittleGame::ElfRestaurantGameEntity* Field_3_1; // 0x30
-	::System::Boolean Field_3_2; // 0x38
-	::System::Single Field_3_3; // 0x3C
-	::System::Single Field_3_4; // 0x40
+	::RPG::Client::LittleGame::ElfRestaurantGameEntity* HOPJIONMGFC; // 0x28
+	::RPG::Client::ElfRestaurantGameInstance* MIJMIIENKAK; // 0x30
+	::System::Single FKHKAMDOPBE; // 0x38
+	::System::Single PGMIOKKLHIE; // 0x3C
+	::System::Boolean HJBDGPIFELM; // 0x40
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ST_Main_ElfTakeOutTakeOrder* a2)
 	{

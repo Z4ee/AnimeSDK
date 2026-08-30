@@ -5,7 +5,7 @@ namespace Entitas { template <typename T> class IMatcher_1; }
 
 namespace RPG::Client::LittleGameShare
 {
-	inline static constexpr unsigned int IReplicatedContext_1_TypeDefinitionIndex = 35491;
+	inline static constexpr unsigned int IReplicatedContext_1_TypeDefinitionIndex = 36352;
 
 	template <typename TEntity>
 	class IReplicatedContext_1

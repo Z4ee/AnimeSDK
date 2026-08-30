@@ -5,16 +5,16 @@
 class Class_3_F65294BF89CA0784;
 namespace RPG::GameCore { class DiceCombatAIEffectEvaluatorConfig_DiceOddOrEvenCount; }
 
-#define CLASS_2_1D52D0A83824CDAC_METHOD_2_D64FD9A228A1C4E0_OFFSET UNITYSDK_OFFSET(0x18D48450)
-#define CLASS_2_1D52D0A83824CDAC__CTOR_OFFSET UNITYSDK_OFFSET(0x18D48440)
+#define CLASS_2_1D52D0A83824CDAC_METHOD_2_D64FD9A228A1C4E0_OFFSET UNITYSDK_OFFSET(0x1A5873C0)
+#define CLASS_2_1D52D0A83824CDAC__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5873B0)
 
-inline static constexpr unsigned int Class_2_1D52D0A83824CDAC_TypeDefinitionIndex = 34662;
+inline static constexpr unsigned int Class_2_1D52D0A83824CDAC_TypeDefinitionIndex = 35523;
 
 class Class_2_1D52D0A83824CDAC : public ::Class_1_43BD383C98B4C0C5_17
 {
 public:
-	::Class_3_F65294BF89CA0784* Field_2_0; // 0x10
-	::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig_DiceOddOrEvenCount* Field_2_1; // 0x18
+	::Class_3_F65294BF89CA0784* EEFMDEHLLFI; // 0x10
+	::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig_DiceOddOrEvenCount* IGHAHBNLIJA; // 0x18
 
 	::System::Void _ctor(::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig_DiceOddOrEvenCount* a1, ::Class_3_F65294BF89CA0784* a2)
 	{

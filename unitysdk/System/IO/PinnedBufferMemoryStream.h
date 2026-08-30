@@ -3,13 +3,13 @@
 #include "unitysdk/System/IO/UnmanagedMemoryStream.h"
 #include "unitysdk/System/Runtime/InteropServices/GCHandle.h"
 
-#define SYSTEM_IO_PINNEDBUFFERMEMORYSTREAM_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B860A10)
-#define SYSTEM_IO_PINNEDBUFFERMEMORYSTREAM_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1B860950)
-#define SYSTEM_IO_PINNEDBUFFERMEMORYSTREAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1B860640)
+#define SYSTEM_IO_PINNEDBUFFERMEMORYSTREAM_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1D46BBC0)
+#define SYSTEM_IO_PINNEDBUFFERMEMORYSTREAM_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1D46BB00)
+#define SYSTEM_IO_PINNEDBUFFERMEMORYSTREAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1D46B7F0)
 
 namespace System::IO
 {
-	inline static constexpr unsigned int PinnedBufferMemoryStream_TypeDefinitionIndex = 680;
+	inline static constexpr unsigned int PinnedBufferMemoryStream_TypeDefinitionIndex = 683;
 
 	class PinnedBufferMemoryStream : public ::System::IO::UnmanagedMemoryStream
 	{

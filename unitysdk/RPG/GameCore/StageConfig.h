@@ -7,24 +7,24 @@ namespace RPG::GameCore { class StageVolumeConfig; }
 namespace RPG::GameCore { class SubStageMetaData; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_STAGECONFIG_METHOD_3_1D8D7CF0E0C08194_OFFSET UNITYSDK_OFFSET(0x1B0AB340)
-#define RPG_GAMECORE_STAGECONFIG_METHOD_3_91FDC1F48573E730_OFFSET UNITYSDK_OFFSET(0x1B0AB380)
-#define RPG_GAMECORE_STAGECONFIG_METHOD_3_AA3609C16455CCFE_OFFSET UNITYSDK_OFFSET(0x1B0A8190)
-#define RPG_GAMECORE_STAGECONFIG_METHOD_3_DC865226D321D99E_OFFSET UNITYSDK_OFFSET(0x1B0AA420)
-#define RPG_GAMECORE_STAGECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0A8180)
+#define RPG_GAMECORE_STAGECONFIG_METHOD_3_1D8D7CF0E0C08194_OFFSET UNITYSDK_OFFSET(0x1D0BE610)
+#define RPG_GAMECORE_STAGECONFIG_METHOD_3_91FDC1F48573E730_OFFSET UNITYSDK_OFFSET(0x1D0BE650)
+#define RPG_GAMECORE_STAGECONFIG_METHOD_3_AA3609C16455CCFE_OFFSET UNITYSDK_OFFSET(0x1D0BB440)
+#define RPG_GAMECORE_STAGECONFIG_METHOD_3_DC865226D321D99E_OFFSET UNITYSDK_OFFSET(0x1D0BD8A0)
+#define RPG_GAMECORE_STAGECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0BB430)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StageConfig_TypeDefinitionIndex = 18389;
+	inline static constexpr unsigned int StageConfig_TypeDefinitionIndex = 18913;
 
 	class StageConfig : public ::RPG::GameCore::StageBaseConfig
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::SubStageMetaData*>* SubStages; // 0xB0
-		::Il2CppArray<::RPG::GameCore::StageVolumeConfig*>* StageVolumeConfigList; // 0xB8
-		::System::Boolean PVSEnableRegionFilter; // 0xC0
-		::System::Boolean EnableNormDistanceLodTemplate; // 0xC1
-		::System::Boolean EnableAudioGroundVoxel; // 0xC2
+		::Il2CppArray<::RPG::GameCore::SubStageMetaData*>* SubStages; // 0xC0
+		::Il2CppArray<::RPG::GameCore::StageVolumeConfig*>* StageVolumeConfigList; // 0xC8
+		::System::Boolean PVSEnableRegionFilter; // 0xD0
+		::System::Boolean EnableNormDistanceLodTemplate; // 0xD1
+		::System::Boolean EnableAudioGroundVoxel; // 0xD2
 
 		::System::Void _ctor()
 		{

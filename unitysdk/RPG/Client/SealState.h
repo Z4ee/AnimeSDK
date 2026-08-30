@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SealState_TypeDefinitionIndex = 57709;
+	inline static constexpr unsigned int SealState_TypeDefinitionIndex = 60527;
 
 	enum class SealState : ::System::Int32
 	{

@@ -1,0 +1,192 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/MiHoYo/SDK/EnvType.h"
+#include "unitysdk/MiHoYo/SDK/ReportType.h"
+#include "unitysdk/System/Object.h"
+
+namespace MiHoYo::SDK { class JSONNode; }
+namespace System { class Action; }
+namespace System { class String; }
+namespace UnityEngine { class Coroutine; }
+namespace UnityEngine { class MonoBehaviour; }
+
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERBASE_CANCELBINDING_OFFSET UNITYSDK_OFFSET(0x1A665110)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERBASE_ENVCHANGED_OFFSET UNITYSDK_OFFSET(0x1A663370)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERBASE_EXTRACTCONSOLEACCOUNTNAME_OFFSET UNITYSDK_OFFSET(0x1A664C80)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERBASE_EXTRACTFIRSTNONCONSOLETHIRDPARTYNAME_OFFSET UNITYSDK_OFFSET(0x1A6647F0)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERBASE_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1A663250)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERBASE_GET_SDKREPORTTYPE_OFFSET UNITYSDK_OFFSET(0x1A663590)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERBASE_LOGREPORT_OFFSET UNITYSDK_OFFSET(0x1A6636F0)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERBASE_SET_SDKREPORTTYPE_OFFSET UNITYSDK_OFFSET(0x1A6635A0)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERBASE_SHOWBINDINGDIALOG_OFFSET UNITYSDK_OFFSET(0x1A6635C0)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERBASE_SHOWBINDSUCCESSDIALOG_OFFSET UNITYSDK_OFFSET(0x1A6635D0)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERBASE_SHOWEMAILBINDINGDIALOG_OFFSET UNITYSDK_OFFSET(0x1A663D90)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERBASE_SHOWQRBINDINGDIALOG_OFFSET UNITYSDK_OFFSET(0x1A663B00)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERBASE_SHOWREACTIVATEDIALOG_OFFSET UNITYSDK_OFFSET(0x1A663980)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERBASE_STARTACCOUNTBINDING_OFFSET UNITYSDK_OFFSET(0x1A6635B0)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERBASE_STARTWEBBINDINGRESULTQUERYLOOP_OFFSET UNITYSDK_OFFSET(0x1A6644B0)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERBASE_STOPWEBBINDINGRESULTQUERYLOOP_OFFSET UNITYSDK_OFFSET(0x1A664330)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6654D0)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERBASE__SHOWBINDSUCCESSDIALOG_B__16_0_OFFSET UNITYSDK_OFFSET(0x1A665500)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERBASE__SHOWEMAILBINDINGDIALOG_B__19_2_OFFSET UNITYSDK_OFFSET(0x1A665980)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERBASE__SHOWEMAILBINDINGDIALOG_B__19_3_OFFSET UNITYSDK_OFFSET(0x1A665A00)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERBASE__SHOWEMAILBINDINGDIALOG_B__19_4_OFFSET UNITYSDK_OFFSET(0x1A665C10)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERBASE__SHOWEMAILBINDINGDIALOG_B__19_5_OFFSET UNITYSDK_OFFSET(0x1A665DE0)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERBASE__SHOWQRBINDINGDIALOG_B__20_0_OFFSET UNITYSDK_OFFSET(0x1A665E60)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERBASE__SHOWQRBINDINGDIALOG_B__20_1_OFFSET UNITYSDK_OFFSET(0x1A665EE0)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERBASE__SHOWREACTIVATEDIALOG_B__17_0_OFFSET UNITYSDK_OFFSET(0x1A665590)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERBASE__SHOWREACTIVATEDIALOG_B__17_1_OFFSET UNITYSDK_OFFSET(0x1A665820)
+
+namespace MiHoYo::SDK::PC::OS::CXHandheld
+{
+	inline static constexpr unsigned int BindManagerBase_TypeDefinitionIndex = 8673;
+
+	class BindManagerBase : public ::System::Object
+	{
+	public:
+		static ::MiHoYo::SDK::PC::OS::CXHandheld::BindManagerBase** StaticGet__instance()
+		{
+			return (::MiHoYo::SDK::PC::OS::CXHandheld::BindManagerBase**)Il2CppClass::FromTypeDefinitionIndex(BindManagerBase_TypeDefinitionIndex)->GetStaticField(0x18B50);
+		}
+		// static const ::System::Int32 WEB_BINDING_RESULT_QUERY_INTERVAL_SEC = 0x2; // 0x0
+		::System::String* Platform; // 0x10
+		::UnityEngine::MonoBehaviour* WebBindResultQueryOwner; // 0x18
+		::System::String* KibanaReportModule; // 0x20
+		::System::Action* OnBindingCompleted; // 0x28
+		::System::Action* OnCancelBinding; // 0x30
+		::UnityEngine::Coroutine* WebBindResultQueryRoutine; // 0x38
+		::MiHoYo::SDK::EnvType _envType; // 0x40
+		::MiHoYo::SDK::ReportType _reportType; // 0x44
+		::System::Boolean forceTokenRefresh; // 0x48
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERBASE__CTOR_OFFSET))(this);
+		}
+
+		static ::MiHoYo::SDK::PC::OS::CXHandheld::BindManagerBase* get_Instance()
+		{
+			return ((::MiHoYo::SDK::PC::OS::CXHandheld::BindManagerBase*(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERBASE_GET_INSTANCE_OFFSET))();
+		}
+
+		::MiHoYo::SDK::ReportType get_SDKReportType()
+		{
+			return ((::MiHoYo::SDK::ReportType(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERBASE_GET_SDKREPORTTYPE_OFFSET))(this);
+		}
+
+		::System::Void set_SDKReportType(::MiHoYo::SDK::ReportType a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::ReportType))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERBASE_SET_SDKREPORTTYPE_OFFSET))(this, a1);
+		}
+
+		::System::Void StartAccountBinding()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERBASE_STARTACCOUNTBINDING_OFFSET))(this);
+		}
+
+		::System::Void ShowBindSuccessDialog(::System::String* a1, ::System::String* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERBASE_SHOWBINDSUCCESSDIALOG_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void ShowReactivateDialog()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERBASE_SHOWREACTIVATEDIALOG_OFFSET))(this);
+		}
+
+		::System::Void ShowBindingDialog()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERBASE_SHOWBINDINGDIALOG_OFFSET))(this);
+		}
+
+		::System::Void ShowEmailBindingDialog()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERBASE_SHOWEMAILBINDINGDIALOG_OFFSET))(this);
+		}
+
+		::System::Void ShowQRBindingDialog()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERBASE_SHOWQRBINDINGDIALOG_OFFSET))(this);
+		}
+
+		::System::Void StartWebBindingResultQueryLoop()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERBASE_STARTWEBBINDINGRESULTQUERYLOOP_OFFSET))(this);
+		}
+
+		::System::Void StopWebBindingResultQueryLoop()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERBASE_STOPWEBBINDINGRESULTQUERYLOOP_OFFSET))(this);
+		}
+
+		::System::String* ExtractFirstNonConsoleThirdpartyName(::MiHoYo::SDK::JSONNode* a1)
+		{
+			return ((::System::String*(*)(::PVOID, ::MiHoYo::SDK::JSONNode*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERBASE_EXTRACTFIRSTNONCONSOLETHIRDPARTYNAME_OFFSET))(this, a1);
+		}
+
+		::System::String* ExtractConsoleAccountName(::MiHoYo::SDK::JSONNode* a1)
+		{
+			return ((::System::String*(*)(::PVOID, ::MiHoYo::SDK::JSONNode*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERBASE_EXTRACTCONSOLEACCOUNTNAME_OFFSET))(this, a1);
+		}
+
+		::System::Void CancelBinding()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERBASE_CANCELBINDING_OFFSET))(this);
+		}
+
+		::System::Void LogReport(::System::String* a1, ::System::Int32 a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERBASE_LOGREPORT_OFFSET))(this, a1, a2);
+		}
+
+		::System::Boolean EnvChanged()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERBASE_ENVCHANGED_OFFSET))(this);
+		}
+
+		::System::Void _ShowBindSuccessDialog_b__16_0()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERBASE__SHOWBINDSUCCESSDIALOG_B__16_0_OFFSET))(this);
+		}
+
+		::System::Void _ShowReactivateDialog_b__17_0()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERBASE__SHOWREACTIVATEDIALOG_B__17_0_OFFSET))(this);
+		}
+
+		::System::Void _ShowReactivateDialog_b__17_1()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERBASE__SHOWREACTIVATEDIALOG_B__17_1_OFFSET))(this);
+		}
+
+		::System::Void _ShowEmailBindingDialog_b__19_2()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERBASE__SHOWEMAILBINDINGDIALOG_B__19_2_OFFSET))(this);
+		}
+
+		::System::Void _ShowEmailBindingDialog_b__19_3(::System::String* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERBASE__SHOWEMAILBINDINGDIALOG_B__19_3_OFFSET))(this, a1);
+		}
+
+		::System::Void _ShowEmailBindingDialog_b__19_4(::System::String* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERBASE__SHOWEMAILBINDINGDIALOG_B__19_4_OFFSET))(this, a1);
+		}
+
+		::System::Void _ShowEmailBindingDialog_b__19_5()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERBASE__SHOWEMAILBINDINGDIALOG_B__19_5_OFFSET))(this);
+		}
+
+		::System::Void _ShowQRBindingDialog_b__20_0()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERBASE__SHOWQRBINDINGDIALOG_B__20_0_OFFSET))(this);
+		}
+
+		::System::Void _ShowQRBindingDialog_b__20_1()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERBASE__SHOWQRBINDINGDIALOG_B__20_1_OFFSET))(this);
+		}
+	};
+}

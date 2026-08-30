@@ -8,7 +8,7 @@ namespace System { class String; }
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int ICameraService_1_TypeDefinitionIndex = 40236;
+	inline static constexpr unsigned int ICameraService_1_TypeDefinitionIndex = 41115;
 
 	template <typename TEntity>
 	class ICameraService_1

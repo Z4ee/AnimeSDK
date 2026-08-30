@@ -5,12 +5,12 @@
 
 namespace System { class Type; }
 
-#define RPG_CUSTOMRP_UNIFORMCODEC_GETPAYLOADSIZE_OFFSET UNITYSDK_OFFSET(0x1D1356F0)
-#define RPG_CUSTOMRP_UNIFORMCODEC_TRYGETTYPE_OFFSET UNITYSDK_OFFSET(0x1D135550)
+#define RPG_CUSTOMRP_UNIFORMCODEC_GETPAYLOADSIZE_OFFSET UNITYSDK_OFFSET(0x1EE598E0)
+#define RPG_CUSTOMRP_UNIFORMCODEC_TRYGETTYPE_OFFSET UNITYSDK_OFFSET(0x1EE59730)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int UniformCodec_TypeDefinitionIndex = 36211;
+	inline static constexpr unsigned int UniformCodec_TypeDefinitionIndex = 37070;
 
 	class UniformCodec : public ::System::Object
 	{

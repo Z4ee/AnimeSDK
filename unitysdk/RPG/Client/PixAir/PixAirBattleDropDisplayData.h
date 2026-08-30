@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_PIXAIR_PIXAIRBATTLEDROPDISPLAYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19EC3830)
+#define RPG_CLIENT_PIXAIR_PIXAIRBATTLEDROPDISPLAYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1C832070)
 
 namespace RPG::Client::PixAir
 {
-	inline static constexpr unsigned int PixAirBattleDropDisplayData_TypeDefinitionIndex = 75290;
+	inline static constexpr unsigned int PixAirBattleDropDisplayData_TypeDefinitionIndex = 78837;
 
 	class PixAirBattleDropDisplayData : public ::System::Object
 	{

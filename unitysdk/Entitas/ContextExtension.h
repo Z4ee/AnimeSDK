@@ -8,7 +8,7 @@ namespace Entitas { template <typename T> class IMatcher_1; }
 
 namespace Entitas
 {
-	inline static constexpr unsigned int ContextExtension_TypeDefinitionIndex = 9651;
+	inline static constexpr unsigned int ContextExtension_TypeDefinitionIndex = 9930;
 
 	class ContextExtension : public ::System::Object
 	{

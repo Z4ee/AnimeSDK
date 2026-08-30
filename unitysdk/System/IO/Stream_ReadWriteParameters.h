@@ -4,7 +4,7 @@
 
 namespace System::IO
 {
-	inline static constexpr unsigned int Stream_ReadWriteParameters_TypeDefinitionIndex = 682;
+	inline static constexpr unsigned int Stream_ReadWriteParameters_TypeDefinitionIndex = 685;
 
 	struct alignas(8) Stream_ReadWriteParameters
 	{

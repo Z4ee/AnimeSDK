@@ -3,7 +3,7 @@
 
 namespace RPG::Client::OpenWorld
 {
-	inline static constexpr unsigned int SwitchBattleAreaReason_TypeDefinitionIndex = 70474;
+	inline static constexpr unsigned int SwitchBattleAreaReason_TypeDefinitionIndex = 73759;
 
 	enum class SwitchBattleAreaReason : ::System::Int32
 	{

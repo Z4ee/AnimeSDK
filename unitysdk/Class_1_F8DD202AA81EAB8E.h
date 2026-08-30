@@ -5,15 +5,15 @@
 
 namespace RPG::GameCore { class FiveDimSpikeConfig; }
 
-#define CLASS_1_F8DD202AA81EAB8E__CTOR_OFFSET UNITYSDK_OFFSET(0x180C3840)
+#define CLASS_1_F8DD202AA81EAB8E__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA96960)
 
-inline static constexpr unsigned int Class_1_F8DD202AA81EAB8E_TypeDefinitionIndex = 40872;
+inline static constexpr unsigned int Class_1_F8DD202AA81EAB8E_TypeDefinitionIndex = 41829;
 
 class Class_1_F8DD202AA81EAB8E : public ::System::Object
 {
 public:
-	::Struct_2_BAC27E6E9012E854 Field_1_0; // 0x10
-	::RPG::GameCore::FiveDimSpikeConfig* Field_1_1; // 0x30
+	::Struct_2_BAC27E6E9012E854 BPAPBAFOMCH; // 0x10
+	::RPG::GameCore::FiveDimSpikeConfig* EABKOHGCHFP; // 0x38
 
 	::System::Void _ctor()
 	{

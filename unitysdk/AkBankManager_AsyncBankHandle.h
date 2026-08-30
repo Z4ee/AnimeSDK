@@ -7,11 +7,11 @@ class AkCallbackManager_BankCallback;
 namespace System { class Object; }
 namespace System { class String; }
 
-#define AKBANKMANAGER_ASYNCBANKHANDLE_DOLOADBANK_OFFSET UNITYSDK_OFFSET(0x1B9565A0)
-#define AKBANKMANAGER_ASYNCBANKHANDLE_GLOBALBANKCALLBACK_OFFSET UNITYSDK_OFFSET(0x1B956000)
-#define AKBANKMANAGER_ASYNCBANKHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B955C30)
+#define AKBANKMANAGER_ASYNCBANKHANDLE_DOLOADBANK_OFFSET UNITYSDK_OFFSET(0x1D586140)
+#define AKBANKMANAGER_ASYNCBANKHANDLE_GLOBALBANKCALLBACK_OFFSET UNITYSDK_OFFSET(0x1D585BA0)
+#define AKBANKMANAGER_ASYNCBANKHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5857D0)
 
-inline static constexpr unsigned int AkBankManager_AsyncBankHandle_TypeDefinitionIndex = 42015;
+inline static constexpr unsigned int AkBankManager_AsyncBankHandle_TypeDefinitionIndex = 43626;
 
 class AkBankManager_AsyncBankHandle : public ::AkBankManager_BankHandle
 {

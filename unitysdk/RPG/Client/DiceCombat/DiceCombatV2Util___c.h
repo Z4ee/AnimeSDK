@@ -5,24 +5,24 @@
 namespace RPG::Client::DiceCombat { class DiceCombatV2PvPTitleData; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2UTIL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19FEC120)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2UTIL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19FEC160)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2UTIL___C__GETTITLEFROMNOTIFYBYUID_B__23_1_OFFSET UNITYSDK_OFFSET(0x19FEC170)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2UTIL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B8C4A60)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2UTIL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8C4AA0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2UTIL___C__GETTITLEFROMNOTIFYBYUID_B__23_1_OFFSET UNITYSDK_OFFSET(0x1B8C4AB0)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatV2Util___c_TypeDefinitionIndex = 72265;
+	inline static constexpr unsigned int DiceCombatV2Util___c_TypeDefinitionIndex = 75701;
 
 	class DiceCombatV2Util___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::DiceCombat::DiceCombatV2Util___c** StaticGet___9()
-		{
-			return (::RPG::Client::DiceCombat::DiceCombatV2Util___c**)Il2CppClass::FromTypeDefinitionIndex(DiceCombatV2Util___c_TypeDefinitionIndex)->GetStaticField(0x6B380);
-		}
 		static ::System::Func_2<::RPG::Client::DiceCombat::DiceCombatV2PvPTitleData*, ::System::UInt32>** StaticGet___9__23_1()
 		{
-			return (::System::Func_2<::RPG::Client::DiceCombat::DiceCombatV2PvPTitleData*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(DiceCombatV2Util___c_TypeDefinitionIndex)->GetStaticField(0x6B388);
+			return (::System::Func_2<::RPG::Client::DiceCombat::DiceCombatV2PvPTitleData*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(DiceCombatV2Util___c_TypeDefinitionIndex)->GetStaticField(0x5A460);
+		}
+		static ::RPG::Client::DiceCombat::DiceCombatV2Util___c** StaticGet___9()
+		{
+			return (::RPG::Client::DiceCombat::DiceCombatV2Util___c**)Il2CppClass::FromTypeDefinitionIndex(DiceCombatV2Util___c_TypeDefinitionIndex)->GetStaticField(0x5A468);
 		}
 
 		static ::System::Void _cctor()

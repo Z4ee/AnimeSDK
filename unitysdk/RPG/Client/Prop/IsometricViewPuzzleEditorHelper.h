@@ -5,13 +5,13 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_PROP_ISOMETRICVIEWPUZZLEEDITORHELPER_ADJUST_OFFSET UNITYSDK_OFFSET(0x148298F0)
-#define RPG_CLIENT_PROP_ISOMETRICVIEWPUZZLEEDITORHELPER_ONDRAWGIZMOS_OFFSET UNITYSDK_OFFSET(0x148295A0)
-#define RPG_CLIENT_PROP_ISOMETRICVIEWPUZZLEEDITORHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0x14829CB0)
+#define RPG_CLIENT_PROP_ISOMETRICVIEWPUZZLEEDITORHELPER_ADJUST_OFFSET UNITYSDK_OFFSET(0x161041E0)
+#define RPG_CLIENT_PROP_ISOMETRICVIEWPUZZLEEDITORHELPER_ONDRAWGIZMOS_OFFSET UNITYSDK_OFFSET(0x16103E90)
+#define RPG_CLIENT_PROP_ISOMETRICVIEWPUZZLEEDITORHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0x161045A0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int IsometricViewPuzzleEditorHelper_TypeDefinitionIndex = 74686;
+	inline static constexpr unsigned int IsometricViewPuzzleEditorHelper_TypeDefinitionIndex = 78171;
 
 	class IsometricViewPuzzleEditorHelper : public ::UnityEngine::MonoBehaviour
 	{
@@ -21,9 +21,9 @@ namespace RPG::Client::Prop
 		::UnityEngine::GameObject* Side2; // 0x28
 		::System::Single DiffHeight; // 0x30
 		::System::Single OrthSize; // 0x34
-		::UnityEngine::Vector3 Field_5_5; // 0x38
-		::UnityEngine::Vector3 Field_5_6; // 0x44
-		::System::Boolean Field_5_7; // 0x50
+		::UnityEngine::Vector3 PCFEFNLILMC; // 0x38
+		::UnityEngine::Vector3 AFOHLKJKDMK; // 0x44
+		::System::Boolean DDAPPHOOGFD; // 0x50
 
 		::System::Void _ctor()
 		{

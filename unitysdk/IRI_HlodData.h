@@ -6,10 +6,10 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define IRI_HLODDATA_GETCURRENTSTAGEMATLUTPATH_OFFSET UNITYSDK_OFFSET(0x1750A380)
-#define IRI_HLODDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1750A4F0)
+#define IRI_HLODDATA_GETCURRENTSTAGEMATLUTPATH_OFFSET UNITYSDK_OFFSET(0x18E70450)
+#define IRI_HLODDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18E705C0)
 
-inline static constexpr unsigned int IRI_HlodData_TypeDefinitionIndex = 45386;
+inline static constexpr unsigned int IRI_HlodData_TypeDefinitionIndex = 47636;
 
 class IRI_HlodData : public ::UnityEngine::MonoBehaviour
 {

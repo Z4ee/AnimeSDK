@@ -5,16 +5,16 @@
 namespace RPG::GameCore { class SetNPCPlatformMove; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_DDE170313F9643AE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x140C8A50)
-#define CLASS_3_DDE170313F9643AE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x140C8AA0)
-#define CLASS_3_DDE170313F9643AE__CTOR_OFFSET UNITYSDK_OFFSET(0x140C8A20)
+#define CLASS_3_DDE170313F9643AE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18CB4D40)
+#define CLASS_3_DDE170313F9643AE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18CB4D90)
+#define CLASS_3_DDE170313F9643AE__CTOR_OFFSET UNITYSDK_OFFSET(0x18CB4D10)
 
-inline static constexpr unsigned int Class_3_DDE170313F9643AE_TypeDefinitionIndex = 55937;
+inline static constexpr unsigned int Class_3_DDE170313F9643AE_TypeDefinitionIndex = 58709;
 
 class Class_3_DDE170313F9643AE : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetNPCPlatformMove*>
 {
 public:
-	::RPG::GameCore::SetNPCPlatformMove* Field_3_0; // 0x28
+	::RPG::GameCore::SetNPCPlatformMove* EJJEEJENLDA; // 0x28
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetNPCPlatformMove* a2)
 	{

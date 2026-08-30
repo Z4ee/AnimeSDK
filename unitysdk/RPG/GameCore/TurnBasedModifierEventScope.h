@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TurnBasedModifierEventScope_TypeDefinitionIndex = 53299;
+	inline static constexpr unsigned int TurnBasedModifierEventScope_TypeDefinitionIndex = 56013;
 
 	enum class TurnBasedModifierEventScope : ::System::Int32
 	{

@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ACTIVITYFEVERTIMEUNDERLINEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1AAF1A80)
-#define RPG_GAMECORE_ACTIVITYFEVERTIMEUNDERLINEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1AAF2060)
+#define RPG_GAMECORE_ACTIVITYFEVERTIMEUNDERLINEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CA03680)
+#define RPG_GAMECORE_ACTIVITYFEVERTIMEUNDERLINEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CA03C60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityFeverTimeUnderlineRow_TypeDefinitionIndex = 11188;
+	inline static constexpr unsigned int ActivityFeverTimeUnderlineRow_TypeDefinitionIndex = 11577;
 
 	class ActivityFeverTimeUnderlineRow : public ::System::Object
 	{

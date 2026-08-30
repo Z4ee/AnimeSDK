@@ -5,7 +5,7 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2SimplexVertex_TypeDefinitionIndex = 35226;
+	inline static constexpr unsigned int B2SimplexVertex_TypeDefinitionIndex = 36087;
 
 	struct alignas(4) B2SimplexVertex
 	{

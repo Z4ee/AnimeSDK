@@ -5,73 +5,73 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define RPG_IVEC3_EQUALS_OFFSET UNITYSDK_OFFSET(0x38DA760)
-#define RPG_IVEC3_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x38DA740)
-#define RPG_IVEC3_GET_BACK_OFFSET UNITYSDK_OFFSET(0x14BE72C0)
-#define RPG_IVEC3_GET_DOWN_OFFSET UNITYSDK_OFFSET(0x14BE7300)
-#define RPG_IVEC3_GET_FORWARD_OFFSET UNITYSDK_OFFSET(0x14BE72A0)
-#define RPG_IVEC3_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x38DA620)
-#define RPG_IVEC3_GET_LEFT_OFFSET UNITYSDK_OFFSET(0x14BE7320)
-#define RPG_IVEC3_GET_ONE_OFFSET UNITYSDK_OFFSET(0x14BE7280)
-#define RPG_IVEC3_GET_RIGHT_OFFSET UNITYSDK_OFFSET(0x14BE7340)
-#define RPG_IVEC3_GET_UP_OFFSET UNITYSDK_OFFSET(0x14BE72E0)
-#define RPG_IVEC3_GET_ZERO_OFFSET UNITYSDK_OFFSET(0x14BE7260)
-#define RPG_IVEC3_METHOD_2_3AF7C73D7E1DAB11_1_OFFSET UNITYSDK_OFFSET(0x14BE73A0)
-#define RPG_IVEC3_METHOD_2_3AF7C73D7E1DAB11_OFFSET UNITYSDK_OFFSET(0x14BE7230)
-#define RPG_IVEC3_METHOD_2_6EB8CFA46BD6F6EA_OFFSET UNITYSDK_OFFSET(0x6ED5C0)
-#define RPG_IVEC3_METHOD_2_7D12E28C4CB15D9C_OFFSET UNITYSDK_OFFSET(0x14BE7460)
-#define RPG_IVEC3_METHOD_2_C68DD56EA29E5F53_OFFSET UNITYSDK_OFFSET(0x14BE7440)
-#define RPG_IVEC3_METHOD_2_D466FBA41248FC85_1_OFFSET UNITYSDK_OFFSET(0x14BE71F0)
-#define RPG_IVEC3_METHOD_2_D466FBA41248FC85_2_OFFSET UNITYSDK_OFFSET(0x14BE7360)
-#define RPG_IVEC3_METHOD_2_D466FBA41248FC85_3_OFFSET UNITYSDK_OFFSET(0x14BE7380)
-#define RPG_IVEC3_METHOD_2_D466FBA41248FC85_OFFSET UNITYSDK_OFFSET(0x14BE71B0)
-#define RPG_IVEC3_METHOD_2_E16EA785DA81BE97_1_OFFSET UNITYSDK_OFFSET(0x14BE73F0)
-#define RPG_IVEC3_METHOD_2_E16EA785DA81BE97_2_OFFSET UNITYSDK_OFFSET(0x14BE7410)
-#define RPG_IVEC3_METHOD_2_E16EA785DA81BE97_OFFSET UNITYSDK_OFFSET(0x14BE73C0)
-#define RPG_IVEC3_METHOD_2_F2B81C853D103105_OFFSET UNITYSDK_OFFSET(0x38DA7A0)
-#define RPG_IVEC3_SET_ITEM_OFFSET UNITYSDK_OFFSET(0x38DA6A0)
-#define RPG_IVEC3_TOSTRING_OFFSET UNITYSDK_OFFSET(0x38DA790)
-#define RPG_IVEC3__CCTOR_OFFSET UNITYSDK_OFFSET(0x14BE75F0)
-#define RPG_IVEC3__CTOR_1_OFFSET UNITYSDK_OFFSET(0x38DA730)
-#define RPG_IVEC3__CTOR_OFFSET UNITYSDK_OFFSET(0x6ED5C0)
+#define RPG_IVEC3_EQUALS_OFFSET UNITYSDK_OFFSET(0x3A53EC0)
+#define RPG_IVEC3_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3A53EA0)
+#define RPG_IVEC3_GET_BACK_OFFSET UNITYSDK_OFFSET(0x163BC7C0)
+#define RPG_IVEC3_GET_DOWN_OFFSET UNITYSDK_OFFSET(0x163BC800)
+#define RPG_IVEC3_GET_FORWARD_OFFSET UNITYSDK_OFFSET(0x163BC7A0)
+#define RPG_IVEC3_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x3A53D80)
+#define RPG_IVEC3_GET_LEFT_OFFSET UNITYSDK_OFFSET(0x163BC820)
+#define RPG_IVEC3_GET_ONE_OFFSET UNITYSDK_OFFSET(0x163BC780)
+#define RPG_IVEC3_GET_RIGHT_OFFSET UNITYSDK_OFFSET(0x163BC840)
+#define RPG_IVEC3_GET_UP_OFFSET UNITYSDK_OFFSET(0x163BC7E0)
+#define RPG_IVEC3_GET_ZERO_OFFSET UNITYSDK_OFFSET(0x163BC760)
+#define RPG_IVEC3_METHOD_2_20C4C7E23BB528BC_OFFSET UNITYSDK_OFFSET(0x3A53F00)
+#define RPG_IVEC3_METHOD_2_3AF7C73D7E1DAB11_1_OFFSET UNITYSDK_OFFSET(0x163BC8A0)
+#define RPG_IVEC3_METHOD_2_3AF7C73D7E1DAB11_OFFSET UNITYSDK_OFFSET(0x163BC730)
+#define RPG_IVEC3_METHOD_2_6EB8CFA46BD6F6EA_OFFSET UNITYSDK_OFFSET(0x18A0)
+#define RPG_IVEC3_METHOD_2_7D12E28C4CB15D9C_OFFSET UNITYSDK_OFFSET(0x163BC960)
+#define RPG_IVEC3_METHOD_2_C68DD56EA29E5F53_OFFSET UNITYSDK_OFFSET(0x163BC940)
+#define RPG_IVEC3_METHOD_2_D466FBA41248FC85_1_OFFSET UNITYSDK_OFFSET(0x163BC6F0)
+#define RPG_IVEC3_METHOD_2_D466FBA41248FC85_2_OFFSET UNITYSDK_OFFSET(0x163BC860)
+#define RPG_IVEC3_METHOD_2_D466FBA41248FC85_3_OFFSET UNITYSDK_OFFSET(0x163BC880)
+#define RPG_IVEC3_METHOD_2_D466FBA41248FC85_OFFSET UNITYSDK_OFFSET(0x163BC6B0)
+#define RPG_IVEC3_METHOD_2_E16EA785DA81BE97_1_OFFSET UNITYSDK_OFFSET(0x163BC8F0)
+#define RPG_IVEC3_METHOD_2_E16EA785DA81BE97_2_OFFSET UNITYSDK_OFFSET(0x163BC910)
+#define RPG_IVEC3_METHOD_2_E16EA785DA81BE97_OFFSET UNITYSDK_OFFSET(0x163BC8C0)
+#define RPG_IVEC3_SET_ITEM_OFFSET UNITYSDK_OFFSET(0x3A53E00)
+#define RPG_IVEC3_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3A53EF0)
+#define RPG_IVEC3__CCTOR_OFFSET UNITYSDK_OFFSET(0x163BCB10)
+#define RPG_IVEC3__CTOR_1_OFFSET UNITYSDK_OFFSET(0x3A53E90)
+#define RPG_IVEC3__CTOR_OFFSET UNITYSDK_OFFSET(0x18A0)
 
 namespace RPG
 {
-	inline static constexpr unsigned int IVec3_TypeDefinitionIndex = 6762;
+	inline static constexpr unsigned int IVec3_TypeDefinitionIndex = 6374;
 
 	struct alignas(4) IVec3
 	{
-		static ::RPG::IVec3* StaticGet_leftVector()
-		{
-			return (::RPG::IVec3*)Il2CppClass::FromTypeDefinitionIndex(IVec3_TypeDefinitionIndex)->GetStaticField(0x3330);
-		}
 		static ::RPG::IVec3* StaticGet_downVector()
 		{
-			return (::RPG::IVec3*)Il2CppClass::FromTypeDefinitionIndex(IVec3_TypeDefinitionIndex)->GetStaticField(0x333C);
-		}
-		static ::RPG::IVec3* StaticGet_backVector()
-		{
-			return (::RPG::IVec3*)Il2CppClass::FromTypeDefinitionIndex(IVec3_TypeDefinitionIndex)->GetStaticField(0x3348);
-		}
-		static ::RPG::IVec3* StaticGet_oneVector()
-		{
-			return (::RPG::IVec3*)Il2CppClass::FromTypeDefinitionIndex(IVec3_TypeDefinitionIndex)->GetStaticField(0x3354);
-		}
-		static ::RPG::IVec3* StaticGet_forwardVector()
-		{
-			return (::RPG::IVec3*)Il2CppClass::FromTypeDefinitionIndex(IVec3_TypeDefinitionIndex)->GetStaticField(0x3360);
+			return (::RPG::IVec3*)Il2CppClass::FromTypeDefinitionIndex(IVec3_TypeDefinitionIndex)->GetStaticField(0xC080);
 		}
 		static ::RPG::IVec3* StaticGet_upVector()
 		{
-			return (::RPG::IVec3*)Il2CppClass::FromTypeDefinitionIndex(IVec3_TypeDefinitionIndex)->GetStaticField(0x336C);
+			return (::RPG::IVec3*)Il2CppClass::FromTypeDefinitionIndex(IVec3_TypeDefinitionIndex)->GetStaticField(0xC08C);
 		}
-		static ::RPG::IVec3* StaticGet_rightVector()
+		static ::RPG::IVec3* StaticGet_forwardVector()
 		{
-			return (::RPG::IVec3*)Il2CppClass::FromTypeDefinitionIndex(IVec3_TypeDefinitionIndex)->GetStaticField(0x3378);
+			return (::RPG::IVec3*)Il2CppClass::FromTypeDefinitionIndex(IVec3_TypeDefinitionIndex)->GetStaticField(0xC098);
 		}
 		static ::RPG::IVec3* StaticGet_zeroVector()
 		{
-			return (::RPG::IVec3*)Il2CppClass::FromTypeDefinitionIndex(IVec3_TypeDefinitionIndex)->GetStaticField(0x3384);
+			return (::RPG::IVec3*)Il2CppClass::FromTypeDefinitionIndex(IVec3_TypeDefinitionIndex)->GetStaticField(0xC0A4);
+		}
+		static ::RPG::IVec3* StaticGet_leftVector()
+		{
+			return (::RPG::IVec3*)Il2CppClass::FromTypeDefinitionIndex(IVec3_TypeDefinitionIndex)->GetStaticField(0xC0B0);
+		}
+		static ::RPG::IVec3* StaticGet_oneVector()
+		{
+			return (::RPG::IVec3*)Il2CppClass::FromTypeDefinitionIndex(IVec3_TypeDefinitionIndex)->GetStaticField(0xC0BC);
+		}
+		static ::RPG::IVec3* StaticGet_rightVector()
+		{
+			return (::RPG::IVec3*)Il2CppClass::FromTypeDefinitionIndex(IVec3_TypeDefinitionIndex)->GetStaticField(0xC0C8);
+		}
+		static ::RPG::IVec3* StaticGet_backVector()
+		{
+			return (::RPG::IVec3*)Il2CppClass::FromTypeDefinitionIndex(IVec3_TypeDefinitionIndex)->GetStaticField(0xC0D4);
 		}
 		::System::Int32 x; // 0x10
 		::System::Int32 y; // 0x14
@@ -217,9 +217,9 @@ namespace RPG
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_IVEC3_TOSTRING_OFFSET))(this);
 		}
 
-		::System::String* Method_2_F2B81C853D103105(::System::String* a1)
+		::System::String* Method_2_20C4C7E23BB528BC(::System::String* a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_IVEC3_METHOD_2_F2B81C853D103105_OFFSET))(this, a1);
+			return ((::System::String*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_IVEC3_METHOD_2_20C4C7E23BB528BC_OFFSET))(this, a1);
 		}
 	};
 }

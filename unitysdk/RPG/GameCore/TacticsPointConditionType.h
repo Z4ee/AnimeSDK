@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TacticsPointConditionType_TypeDefinitionIndex = 10915;
+	inline static constexpr unsigned int TacticsPointConditionType_TypeDefinitionIndex = 11290;
 
 	enum class TacticsPointConditionType : ::System::Int32
 	{

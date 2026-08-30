@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define RPG_CLIENT_FREELOOK3RDRIGPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x16D1C960)
+#define RPG_CLIENT_FREELOOK3RDRIGPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x190E9E80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Freelook3rdRigParams_TypeDefinitionIndex = 66546;
+	inline static constexpr unsigned int Freelook3rdRigParams_TypeDefinitionIndex = 69639;
 
 	class Freelook3rdRigParams : public ::System::Object
 	{

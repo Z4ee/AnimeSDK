@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_71AA90D596A09AC8_9.h"
 
-class Class_0_16E4307DCC419505_719;
+namespace RPG::Client { class IMissionIcon; }
+namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1204_TypeDefinitionIndex = 72476;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1204_TypeDefinitionIndex = 74393;
 
 class Class_0_16E4307DCC419505_1204
 {

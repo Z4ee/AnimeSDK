@@ -4,12 +4,12 @@
 
 namespace RPG::GameCore { class DynamicValue; }
 
-#define RPG_CLIENT_GRIDFIGHTUTILS___C__DISPLAYCLASS51_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18FB52A0)
-#define RPG_CLIENT_GRIDFIGHTUTILS___C__DISPLAYCLASS51_0__ISEQUIPCANTUSEDBYELATIONEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0x18FB6E60)
+#define RPG_CLIENT_GRIDFIGHTUTILS___C__DISPLAYCLASS51_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB23B90)
+#define RPG_CLIENT_GRIDFIGHTUTILS___C__DISPLAYCLASS51_0__ISEQUIPCANTUSEDBYELATIONEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0x1BB25710)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightUtils___c__DisplayClass51_0_TypeDefinitionIndex = 61965;
+	inline static constexpr unsigned int GridFightUtils___c__DisplayClass51_0_TypeDefinitionIndex = 64949;
 
 	class GridFightUtils___c__DisplayClass51_0 : public ::System::Object
 	{

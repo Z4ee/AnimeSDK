@@ -4,25 +4,25 @@
 
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define CLASS_1_223C6C8CA37B8D82_METHOD_1_1F3CF16FCA0EE777_OFFSET UNITYSDK_OFFSET(0x1548D2F0)
-#define CLASS_1_223C6C8CA37B8D82_METHOD_1_453CC46056EAF924_OFFSET UNITYSDK_OFFSET(0x1548CF60)
-#define CLASS_1_223C6C8CA37B8D82_METHOD_1_F1CB09DE05971972_OFFSET UNITYSDK_OFFSET(0x1548CE60)
-#define CLASS_1_223C6C8CA37B8D82__CCTOR_OFFSET UNITYSDK_OFFSET(0x1548D780)
+#define CLASS_1_223C6C8CA37B8D82_METHOD_1_1F3CF16FCA0EE777_OFFSET UNITYSDK_OFFSET(0x16B9C990)
+#define CLASS_1_223C6C8CA37B8D82_METHOD_1_453CC46056EAF924_OFFSET UNITYSDK_OFFSET(0x16B9C600)
+#define CLASS_1_223C6C8CA37B8D82_METHOD_1_F1CB09DE05971972_OFFSET UNITYSDK_OFFSET(0x16B9C500)
+#define CLASS_1_223C6C8CA37B8D82__CCTOR_OFFSET UNITYSDK_OFFSET(0x16B9CE20)
 
-inline static constexpr unsigned int Class_1_223C6C8CA37B8D82_TypeDefinitionIndex = 6649;
+inline static constexpr unsigned int Class_1_223C6C8CA37B8D82_TypeDefinitionIndex = 6261;
 
 class Class_1_223C6C8CA37B8D82 : public ::System::Object
 {
 public:
-	static ::Il2CppArray<::System::Single>** StaticGet_Field_1_0()
+	static ::Il2CppArray<::System::Single>** StaticGet_EHJGKDIFINJ()
 	{
-		return (::Il2CppArray<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_223C6C8CA37B8D82_TypeDefinitionIndex)->GetStaticField(0x2F10);
+		return (::Il2CppArray<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_223C6C8CA37B8D82_TypeDefinitionIndex)->GetStaticField(0x1D860);
 	}
-	static ::Il2CppArray<::System::Single>** StaticGet_Field_1_1()
+	static ::Il2CppArray<::System::Single>** StaticGet_ACPMKNOOMHF()
 	{
-		return (::Il2CppArray<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_223C6C8CA37B8D82_TypeDefinitionIndex)->GetStaticField(0x2F18);
+		return (::Il2CppArray<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_223C6C8CA37B8D82_TypeDefinitionIndex)->GetStaticField(0x1D868);
 	}
-	// static const ::System::Int32 Field_1_2 = 0x5; // 0x0
+	// static const ::System::Int32 IPLDFDAGKGK = 0x5; // 0x0
 
 	static ::System::Void _cctor()
 	{

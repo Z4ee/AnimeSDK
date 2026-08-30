@@ -4,20 +4,20 @@
 
 namespace Proto { class FinishTutorialScRsp; }
 
-#define PROTO_FINISHTUTORIALSCRSP___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BF7EF50)
-#define PROTO_FINISHTUTORIALSCRSP___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF7EF90)
-#define PROTO_FINISHTUTORIALSCRSP___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1BF7EFA0)
+#define PROTO_FINISHTUTORIALSCRSP___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DD34960)
+#define PROTO_FINISHTUTORIALSCRSP___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD349A0)
+#define PROTO_FINISHTUTORIALSCRSP___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1DD349B0)
 
 namespace Proto
 {
-	inline static constexpr unsigned int FinishTutorialScRsp___c_TypeDefinitionIndex = 33642;
+	inline static constexpr unsigned int FinishTutorialScRsp___c_TypeDefinitionIndex = 34395;
 
 	class FinishTutorialScRsp___c : public ::System::Object
 	{
 	public:
 		static ::Proto::FinishTutorialScRsp___c** StaticGet___9()
 		{
-			return (::Proto::FinishTutorialScRsp___c**)Il2CppClass::FromTypeDefinitionIndex(FinishTutorialScRsp___c_TypeDefinitionIndex)->GetStaticField(0x3C630);
+			return (::Proto::FinishTutorialScRsp___c**)Il2CppClass::FromTypeDefinitionIndex(FinishTutorialScRsp___c_TypeDefinitionIndex)->GetStaticField(0x5A400);
 		}
 
 		static ::System::Void _cctor()

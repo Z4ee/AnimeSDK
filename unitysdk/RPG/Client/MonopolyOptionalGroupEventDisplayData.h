@@ -6,12 +6,12 @@ class Class_1_4E17DBE66E488E00;
 namespace RPG::Client { class MonopolyOptionalEventDisplayData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_MONOPOLYOPTIONALGROUPEVENTDISPLAYDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x195490E0)
-#define RPG_CLIENT_MONOPOLYOPTIONALGROUPEVENTDISPLAYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19549390)
+#define RPG_CLIENT_MONOPOLYOPTIONALGROUPEVENTDISPLAYDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x195FB3E0)
+#define RPG_CLIENT_MONOPOLYOPTIONALGROUPEVENTDISPLAYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x195FB690)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonopolyOptionalGroupEventDisplayData_TypeDefinitionIndex = 63340;
+	inline static constexpr unsigned int MonopolyOptionalGroupEventDisplayData_TypeDefinitionIndex = 66325;
 
 	class MonopolyOptionalGroupEventDisplayData : public ::System::Object
 	{

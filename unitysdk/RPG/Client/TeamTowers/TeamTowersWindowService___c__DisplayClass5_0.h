@@ -4,12 +4,12 @@
 
 namespace System { class Action; }
 
-#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSWINDOWSERVICE___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19473A00)
-#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSWINDOWSERVICE___C__DISPLAYCLASS5_0__SHOWRECONNECTCONFIRM_B__0_OFFSET UNITYSDK_OFFSET(0x19473A10)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSWINDOWSERVICE___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC9C180)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSWINDOWSERVICE___C__DISPLAYCLASS5_0__SHOWRECONNECTCONFIRM_B__0_OFFSET UNITYSDK_OFFSET(0x1AC9C190)
 
 namespace RPG::Client::TeamTowers
 {
-	inline static constexpr unsigned int TeamTowersWindowService___c__DisplayClass5_0_TypeDefinitionIndex = 75085;
+	inline static constexpr unsigned int TeamTowersWindowService___c__DisplayClass5_0_TypeDefinitionIndex = 78583;
 
 	class TeamTowersWindowService___c__DisplayClass5_0 : public ::System::Object
 	{

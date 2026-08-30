@@ -8,7 +8,7 @@ namespace MessagePack { class MessagePackSerializerOptions; }
 
 namespace MessagePack::Internal
 {
-	inline static constexpr unsigned int StaticEnumUInt64Formatter_1_TypeDefinitionIndex = 7313;
+	inline static constexpr unsigned int StaticEnumUInt64Formatter_1_TypeDefinitionIndex = 7299;
 
 	template <typename T>
 	class StaticEnumUInt64Formatter_1 : public ::System::Object

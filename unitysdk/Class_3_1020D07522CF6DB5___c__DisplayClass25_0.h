@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_43BD383C98B4C0C5_116;
+class Class_1_43BD383C98B4C0C5_121;
 class Class_3_1020D07522CF6DB5;
 
-#define CLASS_3_1020D07522CF6DB5___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18BC1BF0)
-#define CLASS_3_1020D07522CF6DB5___C__DISPLAYCLASS25_0___STARTUPDATEPRE_B__0_OFFSET UNITYSDK_OFFSET(0x18BC30F0)
+#define CLASS_3_1020D07522CF6DB5___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A09FB80)
+#define CLASS_3_1020D07522CF6DB5___C__DISPLAYCLASS25_0___STARTUPDATEPRE_B__0_OFFSET UNITYSDK_OFFSET(0x1A0A1020)
 
-inline static constexpr unsigned int Class_3_1020D07522CF6DB5___c__DisplayClass25_0_TypeDefinitionIndex = 58431;
+inline static constexpr unsigned int Class_3_1020D07522CF6DB5___c__DisplayClass25_0_TypeDefinitionIndex = 61261;
 
 class Class_3_1020D07522CF6DB5___c__DisplayClass25_0 : public ::System::Object
 {
@@ -21,8 +21,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_1020D07522CF6DB5___C__DISPLAYCLASS25_0__CTOR_OFFSET))(this);
 	}
 
-	::System::Void __StartUpdatePre_b__0(::Class_1_43BD383C98B4C0C5_116* a1)
+	::System::Void __StartUpdatePre_b__0(::Class_1_43BD383C98B4C0C5_121* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_43BD383C98B4C0C5_116*))((::PBYTE)hIl2Cpp + CLASS_3_1020D07522CF6DB5___C__DISPLAYCLASS25_0___STARTUPDATEPRE_B__0_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Class_1_43BD383C98B4C0C5_121*))((::PBYTE)hIl2Cpp + CLASS_3_1020D07522CF6DB5___C__DISPLAYCLASS25_0___STARTUPDATEPRE_B__0_OFFSET))(this, a1);
 	}
 };

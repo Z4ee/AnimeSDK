@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_CA217ABF4E3B4F3F.h"
+#include "unitysdk/Class_1_34917908B7833130.h"
 
 namespace RPG::Client { class ElationBattleBuffGroupViewData; }
 namespace RPG::Client { class ElationBuffPresenter; }
@@ -10,24 +10,24 @@ namespace UnityEngine { class Animation; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::UI { class Button; }
 
-#define CLASS_2_E1E830ACEA2D2842_METHOD_2_4DF46064365EF3A4_OFFSET UNITYSDK_OFFSET(0x17F07FF0)
-#define CLASS_2_E1E830ACEA2D2842_METHOD_2_E11AC65AA0DC2249_OFFSET UNITYSDK_OFFSET(0x17F08110)
-#define CLASS_2_E1E830ACEA2D2842_METHOD_2_F4A3996D27B8F20B_OFFSET UNITYSDK_OFFSET(0x17F08160)
-#define CLASS_2_E1E830ACEA2D2842__CTOR_OFFSET UNITYSDK_OFFSET(0x17F081C0)
-#define CLASS_2_E1E830ACEA2D2842__ONBIND_OFFSET UNITYSDK_OFFSET(0x17F07C80)
-#define CLASS_2_E1E830ACEA2D2842___ONBIND_B__0_0_OFFSET UNITYSDK_OFFSET(0x17F081F0)
-#define CLASS_2_E1E830ACEA2D2842___ONBIND_B__0_1_OFFSET UNITYSDK_OFFSET(0x17F08210)
+#define CLASS_2_E1E830ACEA2D2842_METHOD_2_4DF46064365EF3A4_OFFSET UNITYSDK_OFFSET(0x1A01CA40)
+#define CLASS_2_E1E830ACEA2D2842_METHOD_2_E11AC65AA0DC2249_OFFSET UNITYSDK_OFFSET(0x1A01CB60)
+#define CLASS_2_E1E830ACEA2D2842_METHOD_2_F4A3996D27B8F20B_OFFSET UNITYSDK_OFFSET(0x1A01CBB0)
+#define CLASS_2_E1E830ACEA2D2842__CTOR_OFFSET UNITYSDK_OFFSET(0x1A01CC10)
+#define CLASS_2_E1E830ACEA2D2842__ONBIND_OFFSET UNITYSDK_OFFSET(0x1A01C6E0)
+#define CLASS_2_E1E830ACEA2D2842___ONBIND_B__0_0_OFFSET UNITYSDK_OFFSET(0x1A01CC40)
+#define CLASS_2_E1E830ACEA2D2842___ONBIND_B__0_1_OFFSET UNITYSDK_OFFSET(0x1A01CC60)
 
-inline static constexpr unsigned int Class_2_E1E830ACEA2D2842_TypeDefinitionIndex = 67976;
+inline static constexpr unsigned int Class_2_E1E830ACEA2D2842_TypeDefinitionIndex = 71149;
 
-class Class_2_E1E830ACEA2D2842 : public ::Class_1_CA217ABF4E3B4F3F
+class Class_2_E1E830ACEA2D2842 : public ::Class_1_34917908B7833130
 {
 public:
-	::RPG::Client::ElationBuffPresenter* Field_2_0; // 0x60
-	::UnityEngine::UI::Button* Field_2_1; // 0x68
-	::RPG::Client::ElationBuffPresenterUIParam* Field_2_2; // 0x70
-	::UnityEngine::Animation* Field_2_3; // 0x78
-	::UnityEngine::UI::Button* Field_2_4; // 0x80
+	::RPG::Client::ElationBuffPresenterUIParam* HCKLPPPGCIB; // 0x60
+	::RPG::Client::ElationBuffPresenter* OCHMHGBBCJI; // 0x68
+	::UnityEngine::UI::Button* LOJGMKCCADN; // 0x70
+	::UnityEngine::UI::Button* IIEABLPHBKM; // 0x78
+	::UnityEngine::Animation* KCOAILOHDND; // 0x80
 
 	::System::Void _ctor()
 	{

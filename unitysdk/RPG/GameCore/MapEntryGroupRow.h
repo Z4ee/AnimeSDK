@@ -5,20 +5,20 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MAPENTRYGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1BCE0310)
-#define RPG_GAMECORE_MAPENTRYGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1BCE09D0)
+#define RPG_GAMECORE_MAPENTRYGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D497760)
+#define RPG_GAMECORE_MAPENTRYGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D497E20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MapEntryGroupRow_TypeDefinitionIndex = 13536;
+	inline static constexpr unsigned int MapEntryGroupRow_TypeDefinitionIndex = 13953;
 
 	class MapEntryGroupRow : public ::System::Object
 	{
 	public:
 		::System::UInt32 ID; // 0x10
-		::System::UInt32 MapGuideID; // 0x14
-		::RPG::Client::TextID GroupName; // 0x18
-		::System::UInt32 Type; // 0x28
+		::System::UInt32 Type; // 0x14
+		::System::UInt32 MapGuideID; // 0x18
+		::RPG::Client::TextID GroupName; // 0x20
 
 		::System::Void _ctor()
 		{

@@ -1,8 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/GameCore/GenderType.h"
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_342_TypeDefinitionIndex = 46099;
+class Class_1_7B4E9156998275BE;
+class Class_1_96F671E4E83A73C0;
+
+inline static constexpr unsigned int Class_0_16E4307DCC419505_342_TypeDefinitionIndex = 42499;
 
 class Class_0_16E4307DCC419505_342
 {

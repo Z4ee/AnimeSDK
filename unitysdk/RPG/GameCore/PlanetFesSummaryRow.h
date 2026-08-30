@@ -6,19 +6,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_PLANETFESSUMMARYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1BA01700)
-#define RPG_GAMECORE_PLANETFESSUMMARYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA01960)
+#define RPG_GAMECORE_PLANETFESSUMMARYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7A2530)
+#define RPG_GAMECORE_PLANETFESSUMMARYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7A2790)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlanetFesSummaryRow_TypeDefinitionIndex = 11808;
+	inline static constexpr unsigned int PlanetFesSummaryRow_TypeDefinitionIndex = 12197;
 
 	class PlanetFesSummaryRow : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID Description; // 0x10
-		::RPG::GameCore::PlanetFesSummaryNominateType ID; // 0x20
-		::System::UInt32 TargetNum; // 0x24
+		::RPG::GameCore::PlanetFesSummaryNominateType ID; // 0x10
+		::System::UInt32 TargetNum; // 0x14
+		::RPG::Client::TextID Description; // 0x18
 		::RPG::Client::TextID Name; // 0x28
 
 		::System::Void _ctor()

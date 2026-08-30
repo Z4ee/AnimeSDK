@@ -7,26 +7,26 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_GRIDFIGHTPORTALBUFFCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D06EB10)
-#define RPG_GAMECORE_GRIDFIGHTPORTALBUFFCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D06F080)
+#define RPG_GAMECORE_GRIDFIGHTPORTALBUFFCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EE72BB0)
+#define RPG_GAMECORE_GRIDFIGHTPORTALBUFFCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE73120)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightPortalBuffConfigRow_TypeDefinitionIndex = 13137;
+	inline static constexpr unsigned int GridFightPortalBuffConfigRow_TypeDefinitionIndex = 13528;
 
 	class GridFightPortalBuffConfigRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* ShowNpcIDList; // 0x10
-		::Il2CppArray<::RPG::GameCore::FixPoint>* EffectParamList; // 0x18
-		::System::String* JsonPath; // 0x20
-		::Il2CppArray<::System::UInt32>* DelayedShowBonus; // 0x28
-		::Il2CppArray<::System::UInt32>* PortalGameRefScore; // 0x30
-		::System::String* IconPath; // 0x38
+		::Il2CppArray<::System::UInt32>* PortalGameRefScore; // 0x10
+		::Il2CppArray<::System::UInt32>* ShowNpcIDList; // 0x18
+		::System::String* IconPath; // 0x20
+		::Il2CppArray<::RPG::GameCore::FixPoint>* EffectParamList; // 0x28
+		::System::String* JsonPath; // 0x30
+		::Il2CppArray<::System::UInt32>* DelayedShowBonus; // 0x38
 		::Il2CppArray<::System::UInt32>* ShowBonusIDList; // 0x40
 		::Il2CppArray<::System::UInt32>* PortalGameRefTrait; // 0x48
-		::RPG::Client::TextID PortalBuffDesc; // 0x50
-		::RPG::Client::TextID PortalBuffTitle; // 0x60
+		::RPG::Client::TextID PortalBuffTitle; // 0x50
+		::RPG::Client::TextID PortalBuffDesc; // 0x60
 		::System::UInt32 ID; // 0x70
 		::System::UInt32 IsOCEffective; // 0x74
 		::System::Boolean IfInBook; // 0x78

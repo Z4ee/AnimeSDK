@@ -4,7 +4,7 @@
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int FailGuide_TypeDefinitionIndex = 71773;
+	inline static constexpr unsigned int FailGuide_TypeDefinitionIndex = 75079;
 
 	class FailGuide
 	{

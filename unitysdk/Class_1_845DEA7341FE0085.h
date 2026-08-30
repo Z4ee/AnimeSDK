@@ -5,8 +5,8 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 
 class BatchAnimationClipGroup;
-class Class_1_13264FE803E7E6C1;
-class Class_1_1CC5A5764D87DC25;
+class Class_1_6DBA34B103B833EA;
+class Class_1_B1E1C7B4D86C5025;
 class Class_2_C26FCB07100301D1;
 namespace RPG::Client { class AssemNPC; }
 namespace RPG::Client { class BAPartVariantRes; }
@@ -16,40 +16,40 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine::Rendering { class BatchAnimationInstance; }
 
-#define CLASS_1_845DEA7341FE0085_DISPOSE_OFFSET UNITYSDK_OFFSET(0x158BCB30)
-#define CLASS_1_845DEA7341FE0085_GET_NAME_OFFSET UNITYSDK_OFFSET(0x158BD7A0)
-#define CLASS_1_845DEA7341FE0085_METHOD_1_0D6B4040319D9F4D_OFFSET UNITYSDK_OFFSET(0x158BCC90)
-#define CLASS_1_845DEA7341FE0085_METHOD_1_1EBD2D0DB03F9F93_OFFSET UNITYSDK_OFFSET(0x158BD270)
-#define CLASS_1_845DEA7341FE0085_METHOD_1_31B027CD9E814520_OFFSET UNITYSDK_OFFSET(0x158BCE20)
-#define CLASS_1_845DEA7341FE0085_METHOD_1_3550F4B6813E2C4C_OFFSET UNITYSDK_OFFSET(0x158BD530)
-#define CLASS_1_845DEA7341FE0085_METHOD_1_93FF4A67C5480165_OFFSET UNITYSDK_OFFSET(0x158BD750)
-#define CLASS_1_845DEA7341FE0085_METHOD_1_9CF94858353BDDAE_OFFSET UNITYSDK_OFFSET(0x158BD680)
-#define CLASS_1_845DEA7341FE0085_METHOD_1_A1AC9859169A3EA9_OFFSET UNITYSDK_OFFSET(0x158BD2E0)
-#define CLASS_1_845DEA7341FE0085_METHOD_1_B185BCCE8956BC4D_OFFSET UNITYSDK_OFFSET(0x158BCC00)
-#define CLASS_1_845DEA7341FE0085_METHOD_1_E896B25A4DCD9F75_OFFSET UNITYSDK_OFFSET(0x158BD370)
-#define CLASS_1_845DEA7341FE0085_METHOD_1_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0x158BD7B0)
-#define CLASS_1_845DEA7341FE0085__CTOR_OFFSET UNITYSDK_OFFSET(0x158BC7F0)
+#define CLASS_1_845DEA7341FE0085_DISPOSE_OFFSET UNITYSDK_OFFSET(0x191B5850)
+#define CLASS_1_845DEA7341FE0085_GET_NAME_OFFSET UNITYSDK_OFFSET(0x191B6560)
+#define CLASS_1_845DEA7341FE0085_METHOD_1_1EBD2D0DB03F9F93_OFFSET UNITYSDK_OFFSET(0x191B6030)
+#define CLASS_1_845DEA7341FE0085_METHOD_1_31B027CD9E814520_OFFSET UNITYSDK_OFFSET(0x191B5BE0)
+#define CLASS_1_845DEA7341FE0085_METHOD_1_3550F4B6813E2C4C_OFFSET UNITYSDK_OFFSET(0x191B62F0)
+#define CLASS_1_845DEA7341FE0085_METHOD_1_7C3D40820FAF9F39_OFFSET UNITYSDK_OFFSET(0x191B6440)
+#define CLASS_1_845DEA7341FE0085_METHOD_1_93FF4A67C5480165_OFFSET UNITYSDK_OFFSET(0x191B6510)
+#define CLASS_1_845DEA7341FE0085_METHOD_1_99F7B076250CED3D_OFFSET UNITYSDK_OFFSET(0x191B59D0)
+#define CLASS_1_845DEA7341FE0085_METHOD_1_A1AC9859169A3EA9_OFFSET UNITYSDK_OFFSET(0x191B60A0)
+#define CLASS_1_845DEA7341FE0085_METHOD_1_B185BCCE8956BC4D_OFFSET UNITYSDK_OFFSET(0x191B5940)
+#define CLASS_1_845DEA7341FE0085_METHOD_1_E896B25A4DCD9F75_OFFSET UNITYSDK_OFFSET(0x191B6130)
+#define CLASS_1_845DEA7341FE0085_METHOD_1_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0x191B6570)
+#define CLASS_1_845DEA7341FE0085__CTOR_OFFSET UNITYSDK_OFFSET(0x191B5510)
 
-inline static constexpr unsigned int Class_1_845DEA7341FE0085_TypeDefinitionIndex = 76794;
+inline static constexpr unsigned int Class_1_845DEA7341FE0085_TypeDefinitionIndex = 80834;
 
 class Class_1_845DEA7341FE0085 : public ::System::Object
 {
 public:
-	::RPG::Client::BatchAnimationAttachPointMapping* Field_1_0; // 0x10
-	::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>* Field_1_1; // 0x18
-	::Class_1_1CC5A5764D87DC25* Field_1_2; // 0x20
-	::RPG::Client::Subway::AirlineSubwayWay_MemberConfig* Field_1_3; // 0x28
-	::System::String* _Name_k__BackingField; // 0x30
-	::Il2CppArray<::RPG::Client::Subway::AirlineSubwayWay_PossessionConfig>* Field_1_5; // 0x38
-	::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::Vector3>* Field_1_6; // 0x40
-	::System::String* Field_1_7; // 0x48
-	::BatchAnimationClipGroup* Field_1_8; // 0x50
-	::Class_1_13264FE803E7E6C1* Field_1_9; // 0x58
-	::System::Boolean Field_1_10; // 0x60
+	::BatchAnimationClipGroup* MGGDIMNIJBA; // 0x10
+	::RPG::Client::BatchAnimationAttachPointMapping* KHOMKIPCJCL; // 0x18
+	::Il2CppArray<::RPG::Client::Subway::AirlineSubwayWay_PossessionConfig>* FNHDMCJGKBK; // 0x20
+	::Class_1_B1E1C7B4D86C5025* AAPNELELMGG; // 0x28
+	::Class_1_6DBA34B103B833EA* KGCNPIEDOCA; // 0x30
+	::System::String* KNLMEPAKCOJ; // 0x38
+	::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::Vector3>* GMGLFMEEDAA; // 0x40
+	::System::String* _Name_k__BackingField; // 0x48
+	::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>* MOONIKLHAFO; // 0x50
+	::RPG::Client::Subway::AirlineSubwayWay_MemberConfig* LBIGFKPLLPN; // 0x58
+	::System::Boolean OLEEMHJAJOI; // 0x60
 
-	::System::Void _ctor(::Class_1_1CC5A5764D87DC25* a1, ::RPG::Client::Subway::AirlineSubwayWay_MemberConfig* a2)
+	::System::Void _ctor(::Class_1_6DBA34B103B833EA* a1, ::RPG::Client::Subway::AirlineSubwayWay_MemberConfig* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_1CC5A5764D87DC25*, ::RPG::Client::Subway::AirlineSubwayWay_MemberConfig*))((::PBYTE)hIl2Cpp + CLASS_1_845DEA7341FE0085__CTOR_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::Class_1_6DBA34B103B833EA*, ::RPG::Client::Subway::AirlineSubwayWay_MemberConfig*))((::PBYTE)hIl2Cpp + CLASS_1_845DEA7341FE0085__CTOR_OFFSET))(this, a1, a2);
 	}
 
 	::System::Void Dispose()
@@ -62,9 +62,9 @@ public:
 		return ((::System::Int32(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_845DEA7341FE0085_METHOD_1_B185BCCE8956BC4D_OFFSET))(this, a1);
 	}
 
-	::UnityEngine::Rendering::BatchAnimationInstance* Method_1_0D6B4040319D9F4D(::System::String* a1)
+	::UnityEngine::Rendering::BatchAnimationInstance* Method_1_99F7B076250CED3D(::System::String* a1)
 	{
-		return ((::UnityEngine::Rendering::BatchAnimationInstance*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_845DEA7341FE0085_METHOD_1_0D6B4040319D9F4D_OFFSET))(this, a1);
+		return ((::UnityEngine::Rendering::BatchAnimationInstance*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_845DEA7341FE0085_METHOD_1_99F7B076250CED3D_OFFSET))(this, a1);
 	}
 
 	::Class_2_C26FCB07100301D1* Method_1_31B027CD9E814520(::UnityEngine::Rendering::BatchAnimationInstance* a1, ::System::String* a2)
@@ -92,9 +92,9 @@ public:
 		return ((::UnityEngine::Vector3(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_845DEA7341FE0085_METHOD_1_3550F4B6813E2C4C_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_1_9CF94858353BDDAE(::Class_1_13264FE803E7E6C1* a1)
+	::System::Void Method_1_7C3D40820FAF9F39(::Class_1_B1E1C7B4D86C5025* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_13264FE803E7E6C1*))((::PBYTE)hIl2Cpp + CLASS_1_845DEA7341FE0085_METHOD_1_9CF94858353BDDAE_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Class_1_B1E1C7B4D86C5025*))((::PBYTE)hIl2Cpp + CLASS_1_845DEA7341FE0085_METHOD_1_7C3D40820FAF9F39_OFFSET))(this, a1);
 	}
 
 	::System::Void Method_1_93FF4A67C5480165(::BatchAnimationClipGroup* a1)

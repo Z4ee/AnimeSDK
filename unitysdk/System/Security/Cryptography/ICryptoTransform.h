@@ -3,7 +3,7 @@
 
 namespace System::Security::Cryptography
 {
-	inline static constexpr unsigned int ICryptoTransform_TypeDefinitionIndex = 1024;
+	inline static constexpr unsigned int ICryptoTransform_TypeDefinitionIndex = 1031;
 
 	class ICryptoTransform
 	{

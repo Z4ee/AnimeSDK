@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_FOURROTATEVOXELGAMEMODECONFIG_METHOD_2_8348F7234F39CC0E_OFFSET UNITYSDK_OFFSET(0x1B97BA40)
-#define RPG_GAMECORE_FOURROTATEVOXELGAMEMODECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B97BAF0)
+#define RPG_GAMECORE_FOURROTATEVOXELGAMEMODECONFIG_METHOD_2_2C2D7CFBE1DBF397_OFFSET UNITYSDK_OFFSET(0x1DCB6CA0)
+#define RPG_GAMECORE_FOURROTATEVOXELGAMEMODECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1DCB6D70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FourRotateVoxelGameModeConfig_TypeDefinitionIndex = 16088;
+	inline static constexpr unsigned int FourRotateVoxelGameModeConfig_TypeDefinitionIndex = 16566;
 
 	class FourRotateVoxelGameModeConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOURROTATEVOXELGAMEMODECONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_8348F7234F39CC0E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FourRotateVoxelGameModeConfig*& a2)
+		static ::System::Void Method_2_2C2D7CFBE1DBF397(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FourRotateVoxelGameModeConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FourRotateVoxelGameModeConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOURROTATEVOXELGAMEMODECONFIG_METHOD_2_8348F7234F39CC0E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FourRotateVoxelGameModeConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOURROTATEVOXELGAMEMODECONFIG_METHOD_2_2C2D7CFBE1DBF397_OFFSET))(a1, a2);
 		}
 	};
 }

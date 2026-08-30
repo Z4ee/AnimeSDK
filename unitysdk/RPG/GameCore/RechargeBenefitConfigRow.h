@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_RECHARGEBENEFITCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B9BB7B0)
-#define RPG_GAMECORE_RECHARGEBENEFITCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9BB960)
+#define RPG_GAMECORE_RECHARGEBENEFITCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D19E400)
+#define RPG_GAMECORE_RECHARGEBENEFITCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D19E5B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RechargeBenefitConfigRow_TypeDefinitionIndex = 14033;
+	inline static constexpr unsigned int RechargeBenefitConfigRow_TypeDefinitionIndex = 14453;
 
 	class RechargeBenefitConfigRow : public ::System::Object
 	{

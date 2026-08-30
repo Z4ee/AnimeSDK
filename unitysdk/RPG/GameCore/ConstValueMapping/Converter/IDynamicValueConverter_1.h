@@ -5,7 +5,7 @@ namespace RPG::GameCore { class DynamicValue; }
 
 namespace RPG::GameCore::ConstValueMapping::Converter
 {
-	inline static constexpr unsigned int IDynamicValueConverter_1_TypeDefinitionIndex = 42405;
+	inline static constexpr unsigned int IDynamicValueConverter_1_TypeDefinitionIndex = 44016;
 
 	template <typename T>
 	class IDynamicValueConverter_1

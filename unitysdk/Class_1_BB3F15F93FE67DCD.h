@@ -6,18 +6,18 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_BB3F15F93FE67DCD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1708F0F0)
-#define CLASS_1_BB3F15F93FE67DCD__CTOR_OFFSET UNITYSDK_OFFSET(0x1708F1A0)
+#define CLASS_1_BB3F15F93FE67DCD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1A776110)
+#define CLASS_1_BB3F15F93FE67DCD__CTOR_OFFSET UNITYSDK_OFFSET(0x1A7761C0)
 
-inline static constexpr unsigned int Class_1_BB3F15F93FE67DCD_TypeDefinitionIndex = 49639;
+inline static constexpr unsigned int Class_1_BB3F15F93FE67DCD_TypeDefinitionIndex = 52297;
 
 class Class_1_BB3F15F93FE67DCD : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::System::UInt32>* Field_1_0; // 0x10
-	::RPG::GameCore::MissionBeginType Field_1_1; // 0x18
-	::System::Boolean Field_1_2; // 0x1C
-	::System::UInt32 Field_1_3; // 0x20
+	::System::Collections::Generic::List_1<::System::UInt32>* IIFKLLFEIDE; // 0x10
+	::System::UInt32 PHFMCACHFIJ; // 0x18
+	::RPG::GameCore::MissionBeginType DJMOAEIBFDK; // 0x1C
+	::System::Boolean DNOONKNLGBD; // 0x20
 
 	::System::Void _ctor()
 	{

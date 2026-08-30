@@ -7,7 +7,7 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client::Challenge::Tierce
 {
-	inline static constexpr unsigned int ChallengeTierceNodeVariantListControl_Class_0_16E7307DCC43CB2C_28_TypeDefinitionIndex = 76566;
+	inline static constexpr unsigned int ChallengeTierceNodeVariantListControl_Class_0_16E7307DCC43CB2C_28_TypeDefinitionIndex = 80198;
 
 	class ChallengeTierceNodeVariantListControl_Class_0_16E7307DCC43CB2C_28
 	{

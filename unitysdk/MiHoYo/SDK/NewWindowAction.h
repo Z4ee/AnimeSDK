@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int NewWindowAction_TypeDefinitionIndex = 8045;
+	inline static constexpr unsigned int NewWindowAction_TypeDefinitionIndex = 8049;
 
 	enum class NewWindowAction : ::System::Int32
 	{

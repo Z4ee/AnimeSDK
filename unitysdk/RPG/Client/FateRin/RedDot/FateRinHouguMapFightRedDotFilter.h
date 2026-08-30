@@ -2,24 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_1269;
+class Class_0_16E4307DCC419505_1350;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_FATERIN_REDDOT_FATERINHOUGUMAPFIGHTREDDOTFILTER_GETNEWFIGHTSUBKEYS_OFFSET UNITYSDK_OFFSET(0x1A3942F0)
-#define RPG_CLIENT_FATERIN_REDDOT_FATERINHOUGUMAPFIGHTREDDOTFILTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3942A0)
+#define RPG_CLIENT_FATERIN_REDDOT_FATERINHOUGUMAPFIGHTREDDOTFILTER_GETNEWFIGHTSUBKEYS_OFFSET UNITYSDK_OFFSET(0x1B5B0650)
+#define RPG_CLIENT_FATERIN_REDDOT_FATERINHOUGUMAPFIGHTREDDOTFILTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5B0600)
 
 namespace RPG::Client::FateRin::RedDot
 {
-	inline static constexpr unsigned int FateRinHouguMapFightRedDotFilter_TypeDefinitionIndex = 75782;
+	inline static constexpr unsigned int FateRinHouguMapFightRedDotFilter_TypeDefinitionIndex = 79415;
 
 	class FateRinHouguMapFightRedDotFilter : public ::System::Object
 	{
 	public:
-		::Class_0_16E4307DCC419505_1269* _RedDotService; // 0x10
+		::Class_0_16E4307DCC419505_1350* _RedDotService; // 0x10
 
-		::System::Void _ctor(::Class_0_16E4307DCC419505_1269* a1)
+		::System::Void _ctor(::Class_0_16E4307DCC419505_1350* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_1269*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_REDDOT_FATERINHOUGUMAPFIGHTREDDOTFILTER__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_1350*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_REDDOT_FATERINHOUGUMAPFIGHTREDDOTFILTER__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::System::UInt32>* GetNewFightSubKeys()

@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK::HoYoPass
 {
-	inline static constexpr unsigned int ReportManager_LogLevel_TypeDefinitionIndex = 8293;
+	inline static constexpr unsigned int ReportManager_LogLevel_TypeDefinitionIndex = 8305;
 
 	enum class ReportManager_LogLevel : ::System::Int32
 	{

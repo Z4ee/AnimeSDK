@@ -5,15 +5,15 @@
 
 namespace RPG::GameCore { class FiveDimTrampolineConfig; }
 
-#define CLASS_1_362DDBE3F3495DA5__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8F3530)
+#define CLASS_1_362DDBE3F3495DA5__CTOR_OFFSET UNITYSDK_OFFSET(0x1C50D100)
 
-inline static constexpr unsigned int Class_1_362DDBE3F3495DA5_TypeDefinitionIndex = 40851;
+inline static constexpr unsigned int Class_1_362DDBE3F3495DA5_TypeDefinitionIndex = 41808;
 
 class Class_1_362DDBE3F3495DA5 : public ::System::Object
 {
 public:
-	::RPG::GameCore::FiveDimTrampolineConfig* Field_1_0; // 0x10
-	::Struct_2_4C8453486C91E3A1_1 Field_1_1; // 0x18
+	::RPG::GameCore::FiveDimTrampolineConfig* EABKOHGCHFP; // 0x10
+	::Struct_2_4C8453486C91E3A1_1 BPAPBAFOMCH; // 0x18
 
 	::System::Void _ctor()
 	{

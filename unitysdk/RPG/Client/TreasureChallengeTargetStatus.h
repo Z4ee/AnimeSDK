@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TreasureChallengeTargetStatus_TypeDefinitionIndex = 63800;
+	inline static constexpr unsigned int TreasureChallengeTargetStatus_TypeDefinitionIndex = 66785;
 
 	enum class TreasureChallengeTargetStatus : ::System::Int32
 	{

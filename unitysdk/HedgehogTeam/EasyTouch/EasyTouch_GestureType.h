@@ -3,7 +3,7 @@
 
 namespace HedgehogTeam::EasyTouch
 {
-	inline static constexpr unsigned int EasyTouch_GestureType_TypeDefinitionIndex = 38174;
+	inline static constexpr unsigned int EasyTouch_GestureType_TypeDefinitionIndex = 39033;
 
 	enum class EasyTouch_GestureType : ::System::Int32
 	{

@@ -9,17 +9,17 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Material; }
 
-#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLEFRAME_CHECKBLOCK_OFFSET UNITYSDK_OFFSET(0x16106030)
-#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLEFRAME_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16105B50)
-#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLEFRAME_GET_ISCOMPLETE_OFFSET UNITYSDK_OFFSET(0x16105F80)
-#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLEFRAME_INITFRAME_OFFSET UNITYSDK_OFFSET(0x16105BD0)
-#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLEFRAME_INITPREVIEWCUBE_OFFSET UNITYSDK_OFFSET(0x16105B90)
-#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLEFRAME_REFRESHSTATUS_OFFSET UNITYSDK_OFFSET(0x16105C50)
-#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLEFRAME__CTOR_OFFSET UNITYSDK_OFFSET(0x161063A0)
+#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLEFRAME_CHECKBLOCK_OFFSET UNITYSDK_OFFSET(0x17B05420)
+#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLEFRAME_DISPOSE_OFFSET UNITYSDK_OFFSET(0x17B04F40)
+#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLEFRAME_GET_ISCOMPLETE_OFFSET UNITYSDK_OFFSET(0x17B05370)
+#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLEFRAME_INITFRAME_OFFSET UNITYSDK_OFFSET(0x17B04FC0)
+#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLEFRAME_INITPREVIEWCUBE_OFFSET UNITYSDK_OFFSET(0x17B04F80)
+#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLEFRAME_REFRESHSTATUS_OFFSET UNITYSDK_OFFSET(0x17B05040)
+#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLEFRAME__CTOR_OFFSET UNITYSDK_OFFSET(0x17B05790)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int RubikCubePuzzleFrame_TypeDefinitionIndex = 74881;
+	inline static constexpr unsigned int RubikCubePuzzleFrame_TypeDefinitionIndex = 78366;
 
 	class RubikCubePuzzleFrame : public ::UnityEngine::MonoBehaviour
 	{
@@ -29,10 +29,10 @@ namespace RPG::Client::Prop
 		::UnityEngine::Material* FrameThirdStatusNormal; // 0x28
 		::UnityEngine::Material* FrameThirdStatusComplete; // 0x30
 		::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* FrameObj; // 0x38
-		::RPG::Client::Prop::RubikCubePuzzleCube* Field_5_5; // 0x40
-		::RPG::Client::Prop::RubikCubePuzzleFrameData* Field_5_6; // 0x48
-		::Il2CppArray<::UnityEngine::GameObject*>* Field_5_7; // 0x50
-		::Il2CppArray<::System::Int32>* Field_5_8; // 0x58
+		::RPG::Client::Prop::RubikCubePuzzleCube* FNHJKBEIKOA; // 0x40
+		::RPG::Client::Prop::RubikCubePuzzleFrameData* JCDNGCBFABM; // 0x48
+		::Il2CppArray<::UnityEngine::GameObject*>* NPNPIGKIMNN; // 0x50
+		::Il2CppArray<::System::Int32>* LMNAODMFONI; // 0x58
 
 		::System::Void _ctor()
 		{

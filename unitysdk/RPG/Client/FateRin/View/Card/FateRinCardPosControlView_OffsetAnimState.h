@@ -3,7 +3,7 @@
 
 namespace RPG::Client::FateRin::View::Card
 {
-	inline static constexpr unsigned int FateRinCardPosControlView_OffsetAnimState_TypeDefinitionIndex = 75686;
+	inline static constexpr unsigned int FateRinCardPosControlView_OffsetAnimState_TypeDefinitionIndex = 79319;
 
 	enum class FateRinCardPosControlView_OffsetAnimState : ::System::Int32
 	{

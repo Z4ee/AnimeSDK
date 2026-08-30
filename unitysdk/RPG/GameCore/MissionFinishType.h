@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MissionFinishType_TypeDefinitionIndex = 10078;
+	inline static constexpr unsigned int MissionFinishType_TypeDefinitionIndex = 10414;
 
 	enum class MissionFinishType : ::System::Int32
 	{

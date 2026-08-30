@@ -3,7 +3,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int BlitTex_TypeDefinitionIndex = 36344;
+	inline static constexpr unsigned int BlitTex_TypeDefinitionIndex = 37203;
 
 	enum class BlitTex : ::System::Int32
 	{

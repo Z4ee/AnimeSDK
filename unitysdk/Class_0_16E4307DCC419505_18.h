@@ -6,7 +6,7 @@
 namespace RPG::GameCore { class AdventureCharacterIdleShowConfig; }
 namespace System { class String; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_18_TypeDefinitionIndex = 23970;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_18_TypeDefinitionIndex = 24559;
 
 class Class_0_16E4307DCC419505_18
 {

@@ -8,18 +8,18 @@ namespace RPG::GameCore { class GameEntity; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_9CCDAD68BA2738A1_METHOD_1_5A470A0908DEC939_OFFSET UNITYSDK_OFFSET(0x15E1AFA0)
-#define CLASS_1_9CCDAD68BA2738A1_METHOD_1_9CC25E61FEEE1AEA_OFFSET UNITYSDK_OFFSET(0x15E1B960)
-#define CLASS_1_9CCDAD68BA2738A1_METHOD_1_EAC2737A96E071C9_OFFSET UNITYSDK_OFFSET(0x15E1B770)
-#define CLASS_1_9CCDAD68BA2738A1__CTOR_OFFSET UNITYSDK_OFFSET(0x15E1AEF0)
+#define CLASS_1_9CCDAD68BA2738A1_METHOD_1_5A470A0908DEC939_OFFSET UNITYSDK_OFFSET(0x18C92420)
+#define CLASS_1_9CCDAD68BA2738A1_METHOD_1_9CC25E61FEEE1AEA_OFFSET UNITYSDK_OFFSET(0x18C92DC0)
+#define CLASS_1_9CCDAD68BA2738A1_METHOD_1_EAC2737A96E071C9_OFFSET UNITYSDK_OFFSET(0x18C92BE0)
+#define CLASS_1_9CCDAD68BA2738A1__CTOR_OFFSET UNITYSDK_OFFSET(0x18C92370)
 
-inline static constexpr unsigned int Class_1_9CCDAD68BA2738A1_TypeDefinitionIndex = 57983;
+inline static constexpr unsigned int Class_1_9CCDAD68BA2738A1_TypeDefinitionIndex = 60804;
 
 class Class_1_9CCDAD68BA2738A1 : public ::System::Object
 {
 public:
-	::RPG::Client::PerformanceManager* Field_1_0; // 0x10
-	::System::Collections::Generic::HashSet_1<::RPG::GameCore::GameEntity*>* Field_1_1; // 0x18
+	::RPG::Client::PerformanceManager* CFKHNPGEAJA; // 0x10
+	::System::Collections::Generic::HashSet_1<::RPG::GameCore::GameEntity*>* FDEFJJJNGKI; // 0x18
 
 	::System::Void _ctor(::RPG::Client::PerformanceManager* a1)
 	{

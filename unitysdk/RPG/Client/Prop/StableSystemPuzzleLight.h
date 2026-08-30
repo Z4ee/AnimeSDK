@@ -4,18 +4,18 @@
 
 namespace UnityEngine { class Animator; }
 
-#define RPG_CLIENT_PROP_STABLESYSTEMPUZZLELIGHT_INITLIGHT_OFFSET UNITYSDK_OFFSET(0x1610D0C0)
-#define RPG_CLIENT_PROP_STABLESYSTEMPUZZLELIGHT_SETSELECTEDNUMBER_OFFSET UNITYSDK_OFFSET(0x1610D1C0)
-#define RPG_CLIENT_PROP_STABLESYSTEMPUZZLELIGHT__CTOR_OFFSET UNITYSDK_OFFSET(0x1610D2D0)
+#define RPG_CLIENT_PROP_STABLESYSTEMPUZZLELIGHT_INITLIGHT_OFFSET UNITYSDK_OFFSET(0x17B0C4D0)
+#define RPG_CLIENT_PROP_STABLESYSTEMPUZZLELIGHT_SETSELECTEDNUMBER_OFFSET UNITYSDK_OFFSET(0x17B0C5D0)
+#define RPG_CLIENT_PROP_STABLESYSTEMPUZZLELIGHT__CTOR_OFFSET UNITYSDK_OFFSET(0x17B0C6E0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int StableSystemPuzzleLight_TypeDefinitionIndex = 74916;
+	inline static constexpr unsigned int StableSystemPuzzleLight_TypeDefinitionIndex = 78401;
 
 	class StableSystemPuzzleLight : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		::UnityEngine::Animator* Field_5_0; // 0x18
+		::UnityEngine::Animator* APPGGMLEPLN; // 0x18
 
 		::System::Void _ctor()
 		{

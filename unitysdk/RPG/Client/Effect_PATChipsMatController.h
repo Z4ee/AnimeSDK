@@ -7,18 +7,18 @@ class PATRenderer;
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_EFFECT_PATCHIPSMATCONTROLLER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1510C6B0)
-#define RPG_CLIENT_EFFECT_PATCHIPSMATCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1510CB10)
+#define RPG_CLIENT_EFFECT_PATCHIPSMATCONTROLLER_UPDATE_OFFSET UNITYSDK_OFFSET(0x15E7DA20)
+#define RPG_CLIENT_EFFECT_PATCHIPSMATCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x15E7DE80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_PATChipsMatController_TypeDefinitionIndex = 67357;
+	inline static constexpr unsigned int Effect_PATChipsMatController_TypeDefinitionIndex = 70479;
 
 	class Effect_PATChipsMatController : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::PATRenderer* PATRenderer; // 0x18
-		::UnityEngine::Vector4 Field_5_1; // 0x20
+		::UnityEngine::Vector4 HBIDGELDJFH; // 0x20
 		::System::Single DissolveUpValue; // 0x30
 		::System::Single DissolveDownValue; // 0x34
 		::System::Single DissolveRate; // 0x38
@@ -29,9 +29,9 @@ namespace RPG::Client
 		::System::Single GlobalGradientRange; // 0x4C
 		::System::Single GradientIntensity; // 0x50
 		::System::Single GradientDarken; // 0x54
-		::UnityEngine::Vector4 Field_5_12; // 0x58
+		::UnityEngine::Vector4 FDFNDNBDHCO; // 0x58
 		::UnityEngine::Transform* CustomLight; // 0x68
-		::UnityEngine::MaterialPropertyBlock* Field_5_14; // 0x70
+		::UnityEngine::MaterialPropertyBlock* BMCPFHADPKJ; // 0x70
 
 		::System::Void _ctor()
 		{

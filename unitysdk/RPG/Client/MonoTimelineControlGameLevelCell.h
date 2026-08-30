@@ -13,21 +13,21 @@ namespace RPG::Client { class MonoTimelineControlGameLevelCell_FloorConfig; }
 namespace RPG::Client { class MonoTimelineControlGameLevelCell_SaveConfig; }
 namespace RPG::Client { class MonoTimelineControlGameLevelCell_TriggerConfig; }
 
-#define RPG_CLIENT_MONOTIMELINECONTROLGAMELEVELCELL_CREATEGAMEWORLDLEVELCELL_OFFSET UNITYSDK_OFFSET(0x1A353500)
-#define RPG_CLIENT_MONOTIMELINECONTROLGAMELEVELCELL_DRAWFLOOR_OFFSET UNITYSDK_OFFSET(0x1A354040)
-#define RPG_CLIENT_MONOTIMELINECONTROLGAMELEVELCELL_DRAWGIZMOS_OFFSET UNITYSDK_OFFSET(0x1A353800)
-#define RPG_CLIENT_MONOTIMELINECONTROLGAMELEVELCELL_GET_DEBUGINFO_OFFSET UNITYSDK_OFFSET(0x1A354830)
-#define RPG_CLIENT_MONOTIMELINECONTROLGAMELEVELCELL__CTOR_OFFSET UNITYSDK_OFFSET(0x1A354840)
+#define RPG_CLIENT_MONOTIMELINECONTROLGAMELEVELCELL_CREATEGAMEWORLDLEVELCELL_OFFSET UNITYSDK_OFFSET(0x1C285770)
+#define RPG_CLIENT_MONOTIMELINECONTROLGAMELEVELCELL_DRAWFLOOR_OFFSET UNITYSDK_OFFSET(0x1C2862B0)
+#define RPG_CLIENT_MONOTIMELINECONTROLGAMELEVELCELL_DRAWGIZMOS_OFFSET UNITYSDK_OFFSET(0x1C285A70)
+#define RPG_CLIENT_MONOTIMELINECONTROLGAMELEVELCELL_GET_DEBUGINFO_OFFSET UNITYSDK_OFFSET(0x1C286AA0)
+#define RPG_CLIENT_MONOTIMELINECONTROLGAMELEVELCELL__CTOR_OFFSET UNITYSDK_OFFSET(0x1C286AB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoTimelineControlGameLevelCell_TypeDefinitionIndex = 57718;
+	inline static constexpr unsigned int MonoTimelineControlGameLevelCell_TypeDefinitionIndex = 60536;
 
 	class MonoTimelineControlGameLevelCell : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		::Il2CppArray<::UnityEngine::Vector3>* Field_5_0; // 0x18
-		::Il2CppArray<::UnityEngine::Vector3>* Field_5_1; // 0x20
+		::Il2CppArray<::UnityEngine::Vector3>* DKIBGCBDLNG; // 0x18
+		::Il2CppArray<::UnityEngine::Vector3>* AKKEPHJEGJN; // 0x20
 		::System::Boolean visible; // 0x28
 		::UnityEngine::Vector3Int offset; // 0x2C
 		::RPG::Client::MonoTimelineControlGameLevelCell_FloorConfig* floorConfig; // 0x38

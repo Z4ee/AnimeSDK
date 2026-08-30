@@ -5,15 +5,15 @@
 
 namespace RPG::GameCore { class FiveDimPropMoveConfig; }
 
-#define CLASS_1_0D5AE61F68C1AEBE__CTOR_OFFSET UNITYSDK_OFFSET(0x187E1560)
+#define CLASS_1_0D5AE61F68C1AEBE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C753A50)
 
-inline static constexpr unsigned int Class_1_0D5AE61F68C1AEBE_TypeDefinitionIndex = 40921;
+inline static constexpr unsigned int Class_1_0D5AE61F68C1AEBE_TypeDefinitionIndex = 41880;
 
 class Class_1_0D5AE61F68C1AEBE : public ::System::Object
 {
 public:
-	::RPG::GameCore::FiveDimPropMoveConfig* Field_1_0; // 0x10
-	::Struct_2_A725E4562D03EA4E_1 Field_1_1; // 0x18
+	::RPG::GameCore::FiveDimPropMoveConfig* EABKOHGCHFP; // 0x10
+	::Struct_2_A725E4562D03EA4E_1 PGLKGBJAFFB; // 0x18
 
 	::System::Void _ctor()
 	{

@@ -3,7 +3,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int IEquivable_1_TypeDefinitionIndex = 38533;
+	inline static constexpr unsigned int IEquivable_1_TypeDefinitionIndex = 39392;
 
 	template <typename T>
 	class IEquivable_1

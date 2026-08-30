@@ -6,7 +6,7 @@ namespace System::Text { class StringBuilder; }
 
 namespace System
 {
-	inline static constexpr unsigned int ModifierSpec_TypeDefinitionIndex = 441;
+	inline static constexpr unsigned int ModifierSpec_TypeDefinitionIndex = 444;
 
 	class ModifierSpec
 	{

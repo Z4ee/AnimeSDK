@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ACTIVITYMOVIESTARTBUFFCONFIG_METHOD_2_62205C168447DDBB_OFFSET UNITYSDK_OFFSET(0x1AAFAB40)
-#define RPG_GAMECORE_ACTIVITYMOVIESTARTBUFFCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1AAFAC40)
+#define RPG_GAMECORE_ACTIVITYMOVIESTARTBUFFCONFIG_METHOD_2_62205C168447DDBB_OFFSET UNITYSDK_OFFSET(0x1CA0C740)
+#define RPG_GAMECORE_ACTIVITYMOVIESTARTBUFFCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CA0C840)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityMovieStartBuffConfig_TypeDefinitionIndex = 16840;
+	inline static constexpr unsigned int ActivityMovieStartBuffConfig_TypeDefinitionIndex = 17342;
 
 	class ActivityMovieStartBuffConfig : public ::RPG::GameCore::JsonConfig
 	{

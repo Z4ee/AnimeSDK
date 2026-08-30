@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AdvSkillAfterPacketActionType_TypeDefinitionIndex = 59268;
+	inline static constexpr unsigned int AdvSkillAfterPacketActionType_TypeDefinitionIndex = 62103;
 
 	enum class AdvSkillAfterPacketActionType : ::System::Int32
 	{

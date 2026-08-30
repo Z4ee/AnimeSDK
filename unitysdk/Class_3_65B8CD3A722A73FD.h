@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetSpecialVisionOn; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_65B8CD3A722A73FD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x14B5ABA0)
-#define CLASS_3_65B8CD3A722A73FD__CTOR_OFFSET UNITYSDK_OFFSET(0x14B5AB70)
+#define CLASS_3_65B8CD3A722A73FD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15CC4D40)
+#define CLASS_3_65B8CD3A722A73FD__CTOR_OFFSET UNITYSDK_OFFSET(0x15CC4D10)
 
-inline static constexpr unsigned int Class_3_65B8CD3A722A73FD_TypeDefinitionIndex = 55952;
+inline static constexpr unsigned int Class_3_65B8CD3A722A73FD_TypeDefinitionIndex = 58725;
 
 class Class_3_65B8CD3A722A73FD : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetSpecialVisionOn*>
 {

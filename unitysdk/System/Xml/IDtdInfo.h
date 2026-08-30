@@ -8,7 +8,7 @@ namespace System::Xml { class XmlQualifiedName; }
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int IDtdInfo_TypeDefinitionIndex = 1799;
+	inline static constexpr unsigned int IDtdInfo_TypeDefinitionIndex = 1806;
 
 	class IDtdInfo
 	{

@@ -5,17 +5,17 @@
 namespace RPG::Client { class MatchThreeV2StarTargetData; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_2EC3A5163E0CD5F4_METHOD_1_4969EE8205E9C6AD_OFFSET UNITYSDK_OFFSET(0x16F00550)
-#define CLASS_1_2EC3A5163E0CD5F4_METHOD_1_9B39F7D7C1FF70D6_OFFSET UNITYSDK_OFFSET(0x16F00240)
-#define CLASS_1_2EC3A5163E0CD5F4_METHOD_1_ACE888BF6F5BC5FD_OFFSET UNITYSDK_OFFSET(0x16F002B0)
-#define CLASS_1_2EC3A5163E0CD5F4__CTOR_OFFSET UNITYSDK_OFFSET(0x16F002A0)
+#define CLASS_1_2EC3A5163E0CD5F4_METHOD_1_4969EE8205E9C6AD_OFFSET UNITYSDK_OFFSET(0x1783C6E0)
+#define CLASS_1_2EC3A5163E0CD5F4_METHOD_1_9B39F7D7C1FF70D6_OFFSET UNITYSDK_OFFSET(0x1783C3D0)
+#define CLASS_1_2EC3A5163E0CD5F4_METHOD_1_ACE888BF6F5BC5FD_OFFSET UNITYSDK_OFFSET(0x1783C440)
+#define CLASS_1_2EC3A5163E0CD5F4__CTOR_OFFSET UNITYSDK_OFFSET(0x1783C430)
 
-inline static constexpr unsigned int Class_1_2EC3A5163E0CD5F4_TypeDefinitionIndex = 63090;
+inline static constexpr unsigned int Class_1_2EC3A5163E0CD5F4_TypeDefinitionIndex = 66075;
 
 class Class_1_2EC3A5163E0CD5F4 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::MatchThreeV2StarTargetData*>* Field_1_0; // 0x10
+	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::MatchThreeV2StarTargetData*>* DPHNABJHCFI; // 0x10
 
 	::System::Void _ctor()
 	{

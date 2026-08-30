@@ -6,12 +6,12 @@
 class Class_3_55F58FD99E7F2103;
 namespace System { class String; }
 
-#define RPG_CLIENT_PIVOTBASEDFRACTUREMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x19EBC250)
-#define RPG_CLIENT_PIVOTBASEDFRACTUREMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x19EBC2A0)
+#define RPG_CLIENT_PIVOTBASEDFRACTUREMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x1C82ABB0)
+#define RPG_CLIENT_PIVOTBASEDFRACTUREMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1C82AC00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PivotBasedFractureMonoPlugin_TypeDefinitionIndex = 67537;
+	inline static constexpr unsigned int PivotBasedFractureMonoPlugin_TypeDefinitionIndex = 70660;
 
 	class PivotBasedFractureMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::Class_3_55F58FD99E7F2103*>
 	{

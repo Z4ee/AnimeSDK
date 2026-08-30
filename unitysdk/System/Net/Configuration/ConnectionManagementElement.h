@@ -4,7 +4,7 @@
 
 namespace System::Net::Configuration
 {
-	inline static constexpr unsigned int ConnectionManagementElement_TypeDefinitionIndex = 3067;
+	inline static constexpr unsigned int ConnectionManagementElement_TypeDefinitionIndex = 3075;
 
 	class ConnectionManagementElement : public ::System::Configuration::ConfigurationElement
 	{

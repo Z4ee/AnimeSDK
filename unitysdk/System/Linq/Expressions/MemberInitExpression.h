@@ -6,18 +6,18 @@ namespace System::Collections::ObjectModel { template <typename T> class ReadOnl
 namespace System::Linq::Expressions { class MemberBinding; }
 namespace System::Linq::Expressions { class NewExpression; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_MEMBERINITEXPRESSION_GET_BINDINGS_OFFSET UNITYSDK_OFFSET(0x1C1C7A70)
-#define SYSTEM_LINQ_EXPRESSIONS_MEMBERINITEXPRESSION_GET_NEWEXPRESSION_OFFSET UNITYSDK_OFFSET(0x1C1C7A60)
+#define SYSTEM_LINQ_EXPRESSIONS_MEMBERINITEXPRESSION_GET_BINDINGS_OFFSET UNITYSDK_OFFSET(0x1DF4AE10)
+#define SYSTEM_LINQ_EXPRESSIONS_MEMBERINITEXPRESSION_GET_NEWEXPRESSION_OFFSET UNITYSDK_OFFSET(0x1DF4AE00)
 
 namespace System::Linq::Expressions
 {
-	inline static constexpr unsigned int MemberInitExpression_TypeDefinitionIndex = 3238;
+	inline static constexpr unsigned int MemberInitExpression_TypeDefinitionIndex = 3246;
 
 	class MemberInitExpression : public ::System::Linq::Expressions::Expression
 	{
 	public:
-		::System::Linq::Expressions::NewExpression* _NewExpression_k__BackingField; // 0x10
-		::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::MemberBinding*>* _Bindings_k__BackingField; // 0x18
+		::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::MemberBinding*>* _Bindings_k__BackingField; // 0x10
+		::System::Linq::Expressions::NewExpression* _NewExpression_k__BackingField; // 0x18
 
 		::System::Linq::Expressions::NewExpression* get_NewExpression()
 		{

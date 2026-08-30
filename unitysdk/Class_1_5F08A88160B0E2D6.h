@@ -6,17 +6,17 @@
 namespace RPG { template <typename T1, typename T2> class PoolDictionary_2; }
 namespace RPG::GameCore { class FiveDimEntityVar; }
 
-#define CLASS_1_5F08A88160B0E2D6_CLEAR_OFFSET UNITYSDK_OFFSET(0x1A4744A0)
-#define CLASS_1_5F08A88160B0E2D6_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1A474500)
-#define CLASS_1_5F08A88160B0E2D6_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1A474550)
-#define CLASS_1_5F08A88160B0E2D6__CTOR_OFFSET UNITYSDK_OFFSET(0x1A474590)
+#define CLASS_1_5F08A88160B0E2D6_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C133D60)
+#define CLASS_1_5F08A88160B0E2D6_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1C133DC0)
+#define CLASS_1_5F08A88160B0E2D6_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1C133E10)
+#define CLASS_1_5F08A88160B0E2D6__CTOR_OFFSET UNITYSDK_OFFSET(0x1C133E50)
 
-inline static constexpr unsigned int Class_1_5F08A88160B0E2D6_TypeDefinitionIndex = 40744;
+inline static constexpr unsigned int Class_1_5F08A88160B0E2D6_TypeDefinitionIndex = 41697;
 
 class Class_1_5F08A88160B0E2D6 : public ::System::Object
 {
 public:
-	::RPG::PoolDictionary_2<::RPG::GameCore::StringHash, ::RPG::GameCore::FiveDimEntityVar*>* Field_1_0; // 0x10
+	::RPG::PoolDictionary_2<::RPG::GameCore::StringHash, ::RPG::GameCore::FiveDimEntityVar*>* DFGHCCCGIIB; // 0x10
 
 	::System::Void _ctor()
 	{

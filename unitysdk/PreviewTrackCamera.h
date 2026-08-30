@@ -9,13 +9,13 @@ namespace Cinemachine { class CinemachineVirtualCamera; }
 namespace System { class Action; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define PREVIEWTRACKCAMERA_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x174687E0)
-#define PREVIEWTRACKCAMERA_PREVIEWCAMERA_OFFSET UNITYSDK_OFFSET(0x17468AC0)
-#define PREVIEWTRACKCAMERA_STOPPREVIEWCAMERA_OFFSET UNITYSDK_OFFSET(0x174689E0)
-#define PREVIEWTRACKCAMERA_TICK_OFFSET UNITYSDK_OFFSET(0x17468830)
-#define PREVIEWTRACKCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x17468BD0)
+#define PREVIEWTRACKCAMERA_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1ABA9300)
+#define PREVIEWTRACKCAMERA_PREVIEWCAMERA_OFFSET UNITYSDK_OFFSET(0x1ABA95E0)
+#define PREVIEWTRACKCAMERA_STOPPREVIEWCAMERA_OFFSET UNITYSDK_OFFSET(0x1ABA9500)
+#define PREVIEWTRACKCAMERA_TICK_OFFSET UNITYSDK_OFFSET(0x1ABA9350)
+#define PREVIEWTRACKCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x1ABA96F0)
 
-inline static constexpr unsigned int PreviewTrackCamera_TypeDefinitionIndex = 45488;
+inline static constexpr unsigned int PreviewTrackCamera_TypeDefinitionIndex = 47738;
 
 class PreviewTrackCamera : public ::UnityEngine::MonoBehaviour
 {
@@ -28,10 +28,10 @@ public:
 	::UnityEngine::Vector2 PathPositionRange; // 0x40
 	::System::Single PathDuration; // 0x48
 	::UnityEngine::AnimationCurve* PathCurve; // 0x50
-	::System::Boolean Field_5_8; // 0x58
-	::System::Single Field_5_9; // 0x5C
-	::UnityEngine::Vector3 Field_5_10; // 0x60
-	::System::Action* Field_5_11; // 0x70
+	::System::Boolean KFNCBBCFJPM; // 0x58
+	::System::Single NPBFLDGDPAD; // 0x5C
+	::UnityEngine::Vector3 NMKBIEDCAFF; // 0x60
+	::System::Action* IMDLGFPMPEK; // 0x70
 
 	::System::Void _ctor()
 	{

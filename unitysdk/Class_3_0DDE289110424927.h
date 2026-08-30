@@ -7,18 +7,18 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define CLASS_3_0DDE289110424927_METHOD_3_B4C09A5853E73B8A_OFFSET UNITYSDK_OFFSET(0x1BD4B620)
-#define CLASS_3_0DDE289110424927_METHOD_3_C6C799B3DFBE236B_OFFSET UNITYSDK_OFFSET(0x1BD4B5E0)
-#define CLASS_3_0DDE289110424927__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD4B610)
+#define CLASS_3_0DDE289110424927_METHOD_3_B4C09A5853E73B8A_OFFSET UNITYSDK_OFFSET(0x1D845960)
+#define CLASS_3_0DDE289110424927_METHOD_3_C6C799B3DFBE236B_OFFSET UNITYSDK_OFFSET(0x1D845920)
+#define CLASS_3_0DDE289110424927__CTOR_OFFSET UNITYSDK_OFFSET(0x1D845950)
 
-inline static constexpr unsigned int Class_3_0DDE289110424927_TypeDefinitionIndex = 22335;
+inline static constexpr unsigned int Class_3_0DDE289110424927_TypeDefinitionIndex = 22904;
 
 class Class_3_0DDE289110424927 : public ::RPG::GameCore::TaskConfig
 {
 public:
-	::RPG::GameCore::DynamicFloat* Field_3_0; // 0x18
-	::RPG::GameCore::SilverWolf999UltraPropState Field_3_1; // 0x20
-	::RPG::GameCore::SilverWolf999UltraPropType Field_3_2; // 0x24
+	::RPG::GameCore::DynamicFloat* GMDBHJKEAEI; // 0x18
+	::RPG::GameCore::SilverWolf999UltraPropType GMPGDEINODK; // 0x20
+	::RPG::GameCore::SilverWolf999UltraPropState MEPFOEEGBEA; // 0x24
 
 	::System::Void _ctor()
 	{

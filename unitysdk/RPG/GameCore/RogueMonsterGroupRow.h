@@ -5,19 +5,19 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ROGUEMONSTERGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D168160)
-#define RPG_GAMECORE_ROGUEMONSTERGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D168730)
+#define RPG_GAMECORE_ROGUEMONSTERGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E537150)
+#define RPG_GAMECORE_ROGUEMONSTERGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1E537720)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueMonsterGroupRow_TypeDefinitionIndex = 14097;
+	inline static constexpr unsigned int RogueMonsterGroupRow_TypeDefinitionIndex = 14517;
 
 	class RogueMonsterGroupRow : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Single>* RogueMonsterListAndWeight; // 0x10
-		::System::UInt32 EliteGroup; // 0x18
-		::System::UInt32 RogueMonsterGroupID; // 0x1C
+		::System::UInt32 RogueMonsterGroupID; // 0x18
+		::System::UInt32 EliteGroup; // 0x1C
 
 		::System::Void _ctor()
 		{

@@ -4,24 +4,24 @@
 #include "unitysdk/RPG/GameCore/FateRinHouguOwnerType.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_1302;
+class Class_0_16E4307DCC419505_1383;
 class Class_1_F248B058F5A06B98;
 namespace RPG::Client::FateRin::Card { class IFateRinHandbookCardTabViewModel; }
 
-#define CLASS_1_F5686AE6622FEE30_METHOD_1_A952BB28355BFBA4_OFFSET UNITYSDK_OFFSET(0x140D6280)
-#define CLASS_1_F5686AE6622FEE30__CTOR_OFFSET UNITYSDK_OFFSET(0x140D61D0)
+#define CLASS_1_F5686AE6622FEE30_METHOD_1_A952BB28355BFBA4_OFFSET UNITYSDK_OFFSET(0x17223FF0)
+#define CLASS_1_F5686AE6622FEE30__CTOR_OFFSET UNITYSDK_OFFSET(0x17223F40)
 
-inline static constexpr unsigned int Class_1_F5686AE6622FEE30_TypeDefinitionIndex = 76229;
+inline static constexpr unsigned int Class_1_F5686AE6622FEE30_TypeDefinitionIndex = 79862;
 
 class Class_1_F5686AE6622FEE30 : public ::System::Object
 {
 public:
-	::Class_1_F248B058F5A06B98* Field_1_0; // 0x10
-	::Class_0_16E4307DCC419505_1302* Field_1_1; // 0x18
+	::Class_1_F248B058F5A06B98* DEEMJACOGII; // 0x10
+	::Class_0_16E4307DCC419505_1383* LBNAGLIGKIO; // 0x18
 
-	::System::Void _ctor(::Class_0_16E4307DCC419505_1302* a1, ::Class_1_F248B058F5A06B98* a2)
+	::System::Void _ctor(::Class_0_16E4307DCC419505_1383* a1, ::Class_1_F248B058F5A06B98* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_1302*, ::Class_1_F248B058F5A06B98*))((::PBYTE)hIl2Cpp + CLASS_1_F5686AE6622FEE30__CTOR_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_1383*, ::Class_1_F248B058F5A06B98*))((::PBYTE)hIl2Cpp + CLASS_1_F5686AE6622FEE30__CTOR_OFFSET))(this, a1, a2);
 	}
 
 	::RPG::Client::FateRin::Card::IFateRinHandbookCardTabViewModel* Method_1_A952BB28355BFBA4(::RPG::Client::FateRin::Card::FateRinHandbookCardTabType a1, ::RPG::GameCore::FateRinHouguOwnerType a2)

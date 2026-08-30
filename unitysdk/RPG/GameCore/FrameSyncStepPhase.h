@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FrameSyncStepPhase_TypeDefinitionIndex = 51192;
+	inline static constexpr unsigned int FrameSyncStepPhase_TypeDefinitionIndex = 53876;
 
 	enum class FrameSyncStepPhase : ::System::Int32
 	{

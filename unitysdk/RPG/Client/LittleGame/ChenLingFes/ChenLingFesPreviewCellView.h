@@ -9,27 +9,27 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Texture; }
 
-#define RPG_CLIENT_LITTLEGAME_CHENLINGFES_CHENLINGFESPREVIEWCELLVIEW_INITPEFORMCELL_OFFSET UNITYSDK_OFFSET(0x19B947B0)
-#define RPG_CLIENT_LITTLEGAME_CHENLINGFES_CHENLINGFESPREVIEWCELLVIEW_METHOD_7_648D33A557BC2E77_OFFSET UNITYSDK_OFFSET(0x19B94C00)
-#define RPG_CLIENT_LITTLEGAME_CHENLINGFES_CHENLINGFESPREVIEWCELLVIEW_METHOD_7_84E99AA4DE826971_OFFSET UNITYSDK_OFFSET(0x19B949E0)
-#define RPG_CLIENT_LITTLEGAME_CHENLINGFES_CHENLINGFESPREVIEWCELLVIEW_SETPEFORMCELLAVAILABLE_OFFSET UNITYSDK_OFFSET(0x19B94B10)
-#define RPG_CLIENT_LITTLEGAME_CHENLINGFES_CHENLINGFESPREVIEWCELLVIEW__CCTOR_OFFSET UNITYSDK_OFFSET(0x19B94D30)
-#define RPG_CLIENT_LITTLEGAME_CHENLINGFES_CHENLINGFESPREVIEWCELLVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x19B94D10)
+#define RPG_CLIENT_LITTLEGAME_CHENLINGFES_CHENLINGFESPREVIEWCELLVIEW_INITPEFORMCELL_OFFSET UNITYSDK_OFFSET(0x1AC24830)
+#define RPG_CLIENT_LITTLEGAME_CHENLINGFES_CHENLINGFESPREVIEWCELLVIEW_METHOD_7_648D33A557BC2E77_OFFSET UNITYSDK_OFFSET(0x1AC24C80)
+#define RPG_CLIENT_LITTLEGAME_CHENLINGFES_CHENLINGFESPREVIEWCELLVIEW_METHOD_7_84E99AA4DE826971_OFFSET UNITYSDK_OFFSET(0x1AC24A60)
+#define RPG_CLIENT_LITTLEGAME_CHENLINGFES_CHENLINGFESPREVIEWCELLVIEW_SETPEFORMCELLAVAILABLE_OFFSET UNITYSDK_OFFSET(0x1AC24B90)
+#define RPG_CLIENT_LITTLEGAME_CHENLINGFES_CHENLINGFESPREVIEWCELLVIEW__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AC24DB0)
+#define RPG_CLIENT_LITTLEGAME_CHENLINGFES_CHENLINGFESPREVIEWCELLVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC24D90)
 
 namespace RPG::Client::LittleGame::ChenLingFes
 {
-	inline static constexpr unsigned int ChenLingFesPreviewCellView_TypeDefinitionIndex = 73833;
+	inline static constexpr unsigned int ChenLingFesPreviewCellView_TypeDefinitionIndex = 77317;
 
 	class ChenLingFesPreviewCellView : public ::RPG::Client::LittleGame::ChenLingFes::ChenLingFesView
 	{
 	public:
 		static ::System::Int32* StaticGet_RectScaleId()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ChenLingFesPreviewCellView_TypeDefinitionIndex)->GetStaticField(0x98B0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ChenLingFesPreviewCellView_TypeDefinitionIndex)->GetStaticField(0x13650);
 		}
 		static ::System::Int32* StaticGet_MainTextureId()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ChenLingFesPreviewCellView_TypeDefinitionIndex)->GetStaticField(0x98B4);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ChenLingFesPreviewCellView_TypeDefinitionIndex)->GetStaticField(0x13654);
 		}
 		::UnityEngine::Vector3 LocalPosition; // 0x58
 		::UnityEngine::Vector2Int Coord; // 0x64
@@ -48,7 +48,7 @@ namespace RPG::Client::LittleGame::ChenLingFes
 		::UnityEngine::GameObject* NineSlice; // 0xC0
 		::UnityEngine::GameObject* NineSliceEdit; // 0xC8
 		::UnityEngine::GameObject* Transparent; // 0xD0
-		::UnityEngine::Renderer* Field_7_19; // 0xD8
+		::UnityEngine::Renderer* JAMDAALMOAL; // 0xD8
 
 		::System::Void _ctor()
 		{

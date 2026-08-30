@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_TIMEREWINDAUDIOCONFIG_METHOD_2_9F3FED514437D63F_OFFSET UNITYSDK_OFFSET(0x1C151D70)
-#define RPG_GAMECORE_TIMEREWINDAUDIOCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C151F30)
+#define RPG_GAMECORE_TIMEREWINDAUDIOCONFIG_METHOD_2_9F3FED514437D63F_OFFSET UNITYSDK_OFFSET(0x1D527100)
+#define RPG_GAMECORE_TIMEREWINDAUDIOCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5272C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TimeRewindAudioConfig_TypeDefinitionIndex = 15953;
+	inline static constexpr unsigned int TimeRewindAudioConfig_TypeDefinitionIndex = 16429;
 
 	class TimeRewindAudioConfig : public ::RPG::GameCore::JsonConfig
 	{

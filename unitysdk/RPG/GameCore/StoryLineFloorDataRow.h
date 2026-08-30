@@ -5,20 +5,20 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_STORYLINEFLOORDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B0C8280)
-#define RPG_GAMECORE_STORYLINEFLOORDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0C8400)
+#define RPG_GAMECORE_STORYLINEFLOORDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CAFFCB0)
+#define RPG_GAMECORE_STORYLINEFLOORDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CAFFE30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StoryLineFloorDataRow_TypeDefinitionIndex = 14594;
+	inline static constexpr unsigned int StoryLineFloorDataRow_TypeDefinitionIndex = 15030;
 
 	class StoryLineFloorDataRow : public ::System::Object
 	{
 	public:
 		::System::String* ConditionExpression; // 0x10
-		::System::UInt32 DimensionID; // 0x18
-		::System::UInt32 FloorID; // 0x1C
-		::System::UInt32 StoryLineID; // 0x20
+		::System::UInt32 StoryLineID; // 0x18
+		::System::UInt32 DimensionID; // 0x1C
+		::System::UInt32 FloorID; // 0x20
 
 		::System::Void _ctor()
 		{

@@ -7,17 +7,17 @@ class Class_1_5F51D4049EA87B7B;
 namespace RPG::GameCore { class SetDynamicValueByCharacterCount; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_02ECE597CF180D14_DISPOSE_OFFSET UNITYSDK_OFFSET(0x17023B90)
-#define CLASS_3_02ECE597CF180D14_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17023760)
-#define CLASS_3_02ECE597CF180D14__CTOR_OFFSET UNITYSDK_OFFSET(0x170235F0)
+#define CLASS_3_02ECE597CF180D14_DISPOSE_OFFSET UNITYSDK_OFFSET(0x130AA900)
+#define CLASS_3_02ECE597CF180D14_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x130AA4D0)
+#define CLASS_3_02ECE597CF180D14__CTOR_OFFSET UNITYSDK_OFFSET(0x130AA360)
 
-inline static constexpr unsigned int Class_3_02ECE597CF180D14_TypeDefinitionIndex = 52909;
+inline static constexpr unsigned int Class_3_02ECE597CF180D14_TypeDefinitionIndex = 55612;
 
 class Class_3_02ECE597CF180D14 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetDynamicValueByCharacterCount*>
 {
 public:
-	::Class_1_5F51D4049EA87B7B* Field_3_0; // 0x28
-	::RPG::GameCore::StringHash Field_3_1; // 0x30
+	::Class_1_5F51D4049EA87B7B* LLHKOFLJFCH; // 0x28
+	::RPG::GameCore::StringHash DIJHOMCLPEG; // 0x30
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetDynamicValueByCharacterCount* a2)
 	{

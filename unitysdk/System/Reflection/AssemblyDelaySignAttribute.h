@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SYSTEM_REFLECTION_ASSEMBLYDELAYSIGNATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AFC3C20)
+#define SYSTEM_REFLECTION_ASSEMBLYDELAYSIGNATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC146E0)
 
 namespace System::Reflection
 {
-	inline static constexpr unsigned int AssemblyDelaySignAttribute_TypeDefinitionIndex = 548;
+	inline static constexpr unsigned int AssemblyDelaySignAttribute_TypeDefinitionIndex = 551;
 
 	class AssemblyDelaySignAttribute : public ::System::Attribute
 	{

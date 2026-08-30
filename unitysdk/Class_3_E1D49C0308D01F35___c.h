@@ -4,22 +4,22 @@
 
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define CLASS_3_E1D49C0308D01F35___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15F2FDA0)
-#define CLASS_3_E1D49C0308D01F35___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15F2FDE0)
-#define CLASS_3_E1D49C0308D01F35___C__ONTASKBEGIN_B__2_0_OFFSET UNITYSDK_OFFSET(0x15F2FDF0)
+#define CLASS_3_E1D49C0308D01F35___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x187DF930)
+#define CLASS_3_E1D49C0308D01F35___C__CTOR_OFFSET UNITYSDK_OFFSET(0x187DF970)
+#define CLASS_3_E1D49C0308D01F35___C__ONTASKBEGIN_B__2_0_OFFSET UNITYSDK_OFFSET(0x187DF980)
 
-inline static constexpr unsigned int Class_3_E1D49C0308D01F35___c_TypeDefinitionIndex = 50270;
+inline static constexpr unsigned int Class_3_E1D49C0308D01F35___c_TypeDefinitionIndex = 52933;
 
 class Class_3_E1D49C0308D01F35___c : public ::System::Object
 {
 public:
 	static ::System::Func_2<::System::Int32, ::System::Single>** StaticGet___9__2_0()
 	{
-		return (::System::Func_2<::System::Int32, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(Class_3_E1D49C0308D01F35___c_TypeDefinitionIndex)->GetStaticField(0x3B030);
+		return (::System::Func_2<::System::Int32, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(Class_3_E1D49C0308D01F35___c_TypeDefinitionIndex)->GetStaticField(0x39340);
 	}
 	static ::Class_3_E1D49C0308D01F35___c** StaticGet___9()
 	{
-		return (::Class_3_E1D49C0308D01F35___c**)Il2CppClass::FromTypeDefinitionIndex(Class_3_E1D49C0308D01F35___c_TypeDefinitionIndex)->GetStaticField(0x3B038);
+		return (::Class_3_E1D49C0308D01F35___c**)Il2CppClass::FromTypeDefinitionIndex(Class_3_E1D49C0308D01F35___c_TypeDefinitionIndex)->GetStaticField(0x39348);
 	}
 
 	static ::System::Void _cctor()

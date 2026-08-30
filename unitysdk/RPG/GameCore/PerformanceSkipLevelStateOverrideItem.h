@@ -8,12 +8,12 @@ namespace RPG::GameCore { class FSVOverridItem; }
 namespace RPG::GameCore { class GroupPropertyOverrideItem; }
 namespace RPG::GameCore { class PropStateOverrideItem; }
 
-#define RPG_GAMECORE_PERFORMANCESKIPLEVELSTATEOVERRIDEITEM_METHOD_2_063EBD27C4C344EF_OFFSET UNITYSDK_OFFSET(0x1B4B6250)
-#define RPG_GAMECORE_PERFORMANCESKIPLEVELSTATEOVERRIDEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4B64E0)
+#define RPG_GAMECORE_PERFORMANCESKIPLEVELSTATEOVERRIDEITEM_METHOD_2_063EBD27C4C344EF_OFFSET UNITYSDK_OFFSET(0x1D429E10)
+#define RPG_GAMECORE_PERFORMANCESKIPLEVELSTATEOVERRIDEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1D42A0A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PerformanceSkipLevelStateOverrideItem_TypeDefinitionIndex = 18295;
+	inline static constexpr unsigned int PerformanceSkipLevelStateOverrideItem_TypeDefinitionIndex = 18819;
 
 	class PerformanceSkipLevelStateOverrideItem : public ::RPG::GameCore::JsonConfig
 	{

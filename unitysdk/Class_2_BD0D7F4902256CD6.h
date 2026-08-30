@@ -5,24 +5,24 @@
 namespace RPG::GameCore { class MarbleSealPlayAnim; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_2_BD0D7F4902256CD6_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1670E660)
-#define CLASS_2_BD0D7F4902256CD6_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1670E410)
-#define CLASS_2_BD0D7F4902256CD6_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1670E610)
-#define CLASS_2_BD0D7F4902256CD6_TICK_OFFSET UNITYSDK_OFFSET(0x1670E6A0)
-#define CLASS_2_BD0D7F4902256CD6__CCTOR_OFFSET UNITYSDK_OFFSET(0x1670E700)
-#define CLASS_2_BD0D7F4902256CD6__CTOR_OFFSET UNITYSDK_OFFSET(0x1670E400)
+#define CLASS_2_BD0D7F4902256CD6_DISPOSE_OFFSET UNITYSDK_OFFSET(0x185483C0)
+#define CLASS_2_BD0D7F4902256CD6_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18548170)
+#define CLASS_2_BD0D7F4902256CD6_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x18548370)
+#define CLASS_2_BD0D7F4902256CD6_TICK_OFFSET UNITYSDK_OFFSET(0x18548400)
+#define CLASS_2_BD0D7F4902256CD6__CCTOR_OFFSET UNITYSDK_OFFSET(0x18548460)
+#define CLASS_2_BD0D7F4902256CD6__CTOR_OFFSET UNITYSDK_OFFSET(0x18548160)
 
-inline static constexpr unsigned int Class_2_BD0D7F4902256CD6_TypeDefinitionIndex = 50603;
+inline static constexpr unsigned int Class_2_BD0D7F4902256CD6_TypeDefinitionIndex = 53284;
 
 class Class_2_BD0D7F4902256CD6 : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	static ::System::Int32* StaticGet_Field_2_0()
+	static ::System::Int32* StaticGet_IILGJJADJCK()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_BD0D7F4902256CD6_TypeDefinitionIndex)->GetStaticField(0x7230);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_BD0D7F4902256CD6_TypeDefinitionIndex)->GetStaticField(0x129F0);
 	}
-	::RPG::GameCore::TaskContext* Field_2_1; // 0x18
-	::RPG::GameCore::MarbleSealPlayAnim* Field_2_2; // 0x20
+	::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x18
+	::RPG::GameCore::MarbleSealPlayAnim* IGHAHBNLIJA; // 0x20
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::MarbleSealPlayAnim* a2)
 	{

@@ -9,17 +9,17 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine::UI { class Slider; }
 
-#define RPG_CLIENT_CHIMERARANKSWAPITEM_AWAKE_OFFSET UNITYSDK_OFFSET(0x19B09510)
-#define RPG_CLIENT_CHIMERARANKSWAPITEM_DOSWAP_OFFSET UNITYSDK_OFFSET(0x19B08D20)
-#define RPG_CLIENT_CHIMERARANKSWAPITEM_INITSWAPRANK_OFFSET UNITYSDK_OFFSET(0x19B092A0)
-#define RPG_CLIENT_CHIMERARANKSWAPITEM_METHOD_5_11D5322717FDFD9D_OFFSET UNITYSDK_OFFSET(0x19B09870)
-#define RPG_CLIENT_CHIMERARANKSWAPITEM_METHOD_5_8C4AEC0BC1CA0CB4_OFFSET UNITYSDK_OFFSET(0x19B09790)
-#define RPG_CLIENT_CHIMERARANKSWAPITEM_SETITEMINDEX_OFFSET UNITYSDK_OFFSET(0x19B07EA0)
-#define RPG_CLIENT_CHIMERARANKSWAPITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x19B099E0)
+#define RPG_CLIENT_CHIMERARANKSWAPITEM_AWAKE_OFFSET UNITYSDK_OFFSET(0x1B6055C0)
+#define RPG_CLIENT_CHIMERARANKSWAPITEM_DOSWAP_OFFSET UNITYSDK_OFFSET(0x1B604DD0)
+#define RPG_CLIENT_CHIMERARANKSWAPITEM_INITSWAPRANK_OFFSET UNITYSDK_OFFSET(0x1B605350)
+#define RPG_CLIENT_CHIMERARANKSWAPITEM_METHOD_5_11D5322717FDFD9D_OFFSET UNITYSDK_OFFSET(0x1B605920)
+#define RPG_CLIENT_CHIMERARANKSWAPITEM_METHOD_5_8C4AEC0BC1CA0CB4_OFFSET UNITYSDK_OFFSET(0x1B605840)
+#define RPG_CLIENT_CHIMERARANKSWAPITEM_SETITEMINDEX_OFFSET UNITYSDK_OFFSET(0x1B603F50)
+#define RPG_CLIENT_CHIMERARANKSWAPITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1B605A90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraRankSwapItem_TypeDefinitionIndex = 69207;
+	inline static constexpr unsigned int ChimeraRankSwapItem_TypeDefinitionIndex = 72407;
 
 	class ChimeraRankSwapItem : public ::UnityEngine::MonoBehaviour
 	{
@@ -29,10 +29,10 @@ namespace RPG::Client
 		::UnityEngine::UI::Slider* WorkValueSlider; // 0x28
 		::System::Single SwapTime; // 0x30
 		::UnityEngine::AnimationCurve* SwapCurve; // 0x38
-		::System::Boolean Field_5_5; // 0x40
-		::System::Collections::Generic::Queue_1<::System::Action_2<::System::Int32, ::System::Int32>*>* Field_5_6; // 0x48
-		::System::Int32 Field_5_7; // 0x50
-		::System::Single Field_5_8; // 0x54
+		::System::Boolean OJDMEFDLCCM; // 0x40
+		::System::Collections::Generic::Queue_1<::System::Action_2<::System::Int32, ::System::Int32>*>* CIFOILLJFNF; // 0x48
+		::System::Int32 EDJPPPILDCB; // 0x50
+		::System::Single KDFKNDPFGNA; // 0x54
 
 		::System::Void _ctor()
 		{

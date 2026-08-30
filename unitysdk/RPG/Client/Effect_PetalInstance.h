@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define RPG_CLIENT_EFFECT_PETALINSTANCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1511D0C0)
+#define RPG_CLIENT_EFFECT_PETALINSTANCE__CTOR_OFFSET UNITYSDK_OFFSET(0x15E8E410)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_PetalInstance_TypeDefinitionIndex = 67372;
+	inline static constexpr unsigned int Effect_PetalInstance_TypeDefinitionIndex = 70494;
 
 	class Effect_PetalInstance : public ::UnityEngine::MonoBehaviour
 	{

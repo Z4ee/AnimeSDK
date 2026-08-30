@@ -5,7 +5,7 @@
 namespace System { class String; }
 namespace System::Reflection { class FieldInfo; }
 
-inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_11___c__DisplayClass2_0_1_TypeDefinitionIndex = 14857;
+inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_11___c__DisplayClass2_0_1_TypeDefinitionIndex = 15293;
 
 template <typename V>
 class Class_1_43BD383C98B4C0C5_11___c__DisplayClass2_0_1 : public ::System::Object

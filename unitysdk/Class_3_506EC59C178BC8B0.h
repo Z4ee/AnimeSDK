@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetForceStreamingThisFrame; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_506EC59C178BC8B0_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x162FC330)
-#define CLASS_3_506EC59C178BC8B0__CTOR_OFFSET UNITYSDK_OFFSET(0x162FC300)
+#define CLASS_3_506EC59C178BC8B0_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16421E50)
+#define CLASS_3_506EC59C178BC8B0__CTOR_OFFSET UNITYSDK_OFFSET(0x16421E20)
 
-inline static constexpr unsigned int Class_3_506EC59C178BC8B0_TypeDefinitionIndex = 53369;
+inline static constexpr unsigned int Class_3_506EC59C178BC8B0_TypeDefinitionIndex = 56083;
 
 class Class_3_506EC59C178BC8B0 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetForceStreamingThisFrame*>
 {

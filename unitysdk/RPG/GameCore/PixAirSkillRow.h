@@ -7,12 +7,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PIXAIRSKILLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B4CE8A0)
-#define RPG_GAMECORE_PIXAIRSKILLROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4CEAA0)
+#define RPG_GAMECORE_PIXAIRSKILLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D794740)
+#define RPG_GAMECORE_PIXAIRSKILLROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D794940)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PixAirSkillRow_TypeDefinitionIndex = 11691;
+	inline static constexpr unsigned int PixAirSkillRow_TypeDefinitionIndex = 12080;
 
 	class PixAirSkillRow : public ::System::Object
 	{

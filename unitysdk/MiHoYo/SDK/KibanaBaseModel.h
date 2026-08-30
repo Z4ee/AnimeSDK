@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_KIBANABASEMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1820B590)
+#define MIHOYO_SDK_KIBANABASEMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1A61A790)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int KibanaBaseModel_TypeDefinitionIndex = 7835;
+	inline static constexpr unsigned int KibanaBaseModel_TypeDefinitionIndex = 7837;
 
 	class KibanaBaseModel : public ::System::Object
 	{
@@ -20,7 +20,7 @@ namespace MiHoYo::SDK
 		::System::String* channel_id; // 0x28
 		::System::String* sub_channel_id; // 0x30
 		::System::String* launch_trace_id; // 0x38
-		::System::String* age_gate_type; // 0x40
+		::System::String* age_gate_country; // 0x40
 		::System::String* server_id; // 0x48
 		::System::String* role_id; // 0x50
 		::System::String* aid; // 0x58

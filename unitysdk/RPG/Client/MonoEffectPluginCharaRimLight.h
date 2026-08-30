@@ -4,12 +4,12 @@
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARARIMLIGHT_METHOD_8_D799715F2EF979EA_OFFSET UNITYSDK_OFFSET(0x19120BA0)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARARIMLIGHT__CTOR_OFFSET UNITYSDK_OFFSET(0x19120D50)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARARIMLIGHT_METHOD_8_D799715F2EF979EA_OFFSET UNITYSDK_OFFSET(0x116C3000)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARARIMLIGHT__CTOR_OFFSET UNITYSDK_OFFSET(0x116C31B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginCharaRimLight_TypeDefinitionIndex = 66850;
+	inline static constexpr unsigned int MonoEffectPluginCharaRimLight_TypeDefinitionIndex = 69952;
 
 	class MonoEffectPluginCharaRimLight : public ::RPG::Client::MonoEffectPluginCharaReplaceMatBase
 	{

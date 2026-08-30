@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class RogueDialogueEventOptionDynamicConfig; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ROGUEDIALOGUEEVENTOPTIONCONFIG_METHOD_2_DAF7B417EEFAC6E1_OFFSET UNITYSDK_OFFSET(0x1CFA9B90)
-#define RPG_GAMECORE_ROGUEDIALOGUEEVENTOPTIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFA9ED0)
+#define RPG_GAMECORE_ROGUEDIALOGUEEVENTOPTIONCONFIG_METHOD_2_DAF7B417EEFAC6E1_OFFSET UNITYSDK_OFFSET(0x1D92E680)
+#define RPG_GAMECORE_ROGUEDIALOGUEEVENTOPTIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D92E9C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueDialogueEventOptionConfig_TypeDefinitionIndex = 17188;
+	inline static constexpr unsigned int RogueDialogueEventOptionConfig_TypeDefinitionIndex = 17704;
 
 	class RogueDialogueEventOptionConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ElationPointModifyFunction_TypeDefinitionIndex = 23788;
+	inline static constexpr unsigned int ElationPointModifyFunction_TypeDefinitionIndex = 24375;
 
 	enum class ElationPointModifyFunction : ::System::Int32
 	{

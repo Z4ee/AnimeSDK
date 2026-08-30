@@ -5,19 +5,19 @@
 
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_RPGDEMO_RPGDEMOCAMERACONTROLLER_EXAMPLE_UPDATE_OFFSET UNITYSDK_OFFSET(0x16795110)
-#define RPG_CLIENT_RPGDEMO_RPGDEMOCAMERACONTROLLER_EXAMPLE__CTOR_OFFSET UNITYSDK_OFFSET(0x16795370)
+#define RPG_CLIENT_RPGDEMO_RPGDEMOCAMERACONTROLLER_EXAMPLE_UPDATE_OFFSET UNITYSDK_OFFSET(0x180376F0)
+#define RPG_CLIENT_RPGDEMO_RPGDEMOCAMERACONTROLLER_EXAMPLE__CTOR_OFFSET UNITYSDK_OFFSET(0x18037950)
 
 namespace RPG::Client::RPGDemo
 {
-	inline static constexpr unsigned int RPGDemoCameraController_Example_TypeDefinitionIndex = 72094;
+	inline static constexpr unsigned int RPGDemoCameraController_Example_TypeDefinitionIndex = 75530;
 
 	class RPGDemoCameraController_Example : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		::UnityEngine::Vector3 Field_5_0; // 0x18
-		::System::Single Field_5_1; // 0x24
-		::System::Single Field_5_2; // 0x28
+		::UnityEngine::Vector3 HCEDBBGKJKI; // 0x18
+		::System::Single OJCHFPNNIHH; // 0x24
+		::System::Single IIKCEOGEIKL; // 0x28
 		::UnityEngine::Transform* CameraFollow; // 0x30
 		::UnityEngine::Transform* CameraLookAt; // 0x38
 		::UnityEngine::Transform* PlayerBall; // 0x40

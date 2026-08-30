@@ -14,32 +14,32 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 namespace UnityEngine { class LineRenderer; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_PROP_DEPLOYPUZZLEHINT_DRAWHINTCONNECTION_OFFSET UNITYSDK_OFFSET(0x1900B7A0)
-#define RPG_CLIENT_PROP_DEPLOYPUZZLEHINT_METHOD_5_1AB9D4E0D4B0F708_OFFSET UNITYSDK_OFFSET(0x190105F0)
-#define RPG_CLIENT_PROP_DEPLOYPUZZLEHINT_METHOD_5_808A56A256840289_OFFSET UNITYSDK_OFFSET(0x190103A0)
-#define RPG_CLIENT_PROP_DEPLOYPUZZLEHINT_ONINIT_OFFSET UNITYSDK_OFFSET(0x19009790)
-#define RPG_CLIENT_PROP_DEPLOYPUZZLEHINT_ONPUZZLEDESTROY_OFFSET UNITYSDK_OFFSET(0x1900D8B0)
-#define RPG_CLIENT_PROP_DEPLOYPUZZLEHINT_ROTATESUBOBJECT_OFFSET UNITYSDK_OFFSET(0x1900E760)
-#define RPG_CLIENT_PROP_DEPLOYPUZZLEHINT_TRIGGERHINTLINERENDERSFADEOUT_OFFSET UNITYSDK_OFFSET(0x1900EF20)
-#define RPG_CLIENT_PROP_DEPLOYPUZZLEHINT_UPDATE_OFFSET UNITYSDK_OFFSET(0x19010340)
-#define RPG_CLIENT_PROP_DEPLOYPUZZLEHINT__CTOR_OFFSET UNITYSDK_OFFSET(0x19010790)
+#define RPG_CLIENT_PROP_DEPLOYPUZZLEHINT_DRAWHINTCONNECTION_OFFSET UNITYSDK_OFFSET(0x1A901C90)
+#define RPG_CLIENT_PROP_DEPLOYPUZZLEHINT_METHOD_5_1AB9D4E0D4B0F708_OFFSET UNITYSDK_OFFSET(0x1A906AD0)
+#define RPG_CLIENT_PROP_DEPLOYPUZZLEHINT_METHOD_5_808A56A256840289_OFFSET UNITYSDK_OFFSET(0x1A906880)
+#define RPG_CLIENT_PROP_DEPLOYPUZZLEHINT_ONINIT_OFFSET UNITYSDK_OFFSET(0x1A8FFC80)
+#define RPG_CLIENT_PROP_DEPLOYPUZZLEHINT_ONPUZZLEDESTROY_OFFSET UNITYSDK_OFFSET(0x1A903DA0)
+#define RPG_CLIENT_PROP_DEPLOYPUZZLEHINT_ROTATESUBOBJECT_OFFSET UNITYSDK_OFFSET(0x1A904C40)
+#define RPG_CLIENT_PROP_DEPLOYPUZZLEHINT_TRIGGERHINTLINERENDERSFADEOUT_OFFSET UNITYSDK_OFFSET(0x1A905400)
+#define RPG_CLIENT_PROP_DEPLOYPUZZLEHINT_UPDATE_OFFSET UNITYSDK_OFFSET(0x1A906820)
+#define RPG_CLIENT_PROP_DEPLOYPUZZLEHINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A906C70)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int DeployPuzzleHint_TypeDefinitionIndex = 74578;
+	inline static constexpr unsigned int DeployPuzzleHint_TypeDefinitionIndex = 78063;
 
 	class DeployPuzzleHint : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		::System::Collections::Generic::List_1<::UnityEngine::LineRenderer*>* Field_5_0; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::UnityEngine::Transform*>* Field_5_1; // 0x20
-		::RPG::Client::Prop::DeployPuzzleBoard* Field_5_2; // 0x28
-		::RPG::Client::Prop::HintConfigInfo* Field_5_3; // 0x30
-		::UnityEngine::Transform* Field_5_4; // 0x38
-		::UnityEngine::Transform* Field_5_5; // 0x40
-		::UnityEngine::Quaternion Field_5_6; // 0x48
-		::System::Collections::Generic::List_1<::Class_1_DD6E273E77666B37*>* Field_5_7; // 0x58
-		::System::Collections::Generic::Queue_1<::Class_1_FA5914EF545C7C05*>* Field_5_8; // 0x60
+		::System::Collections::Generic::List_1<::UnityEngine::LineRenderer*>* FBBAFAEDBFL; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::UnityEngine::Transform*>* BGIGOGIHBON; // 0x20
+		::RPG::Client::Prop::DeployPuzzleBoard* MIPPNCGOJNM; // 0x28
+		::RPG::Client::Prop::HintConfigInfo* PHLBPINNAKH; // 0x30
+		::UnityEngine::Transform* BAPGEGKBLIE; // 0x38
+		::UnityEngine::Transform* PODLIODJFLJ; // 0x40
+		::UnityEngine::Quaternion POLIJKHBFJM; // 0x48
+		::System::Collections::Generic::List_1<::Class_1_DD6E273E77666B37*>* GNBNCNDMEGP; // 0x58
+		::System::Collections::Generic::Queue_1<::Class_1_FA5914EF545C7C05*>* EEOAJODBOHM; // 0x60
 
 		::System::Void _ctor()
 		{

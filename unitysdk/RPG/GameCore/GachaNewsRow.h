@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_GACHANEWSROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B9883A0)
-#define RPG_GAMECORE_GACHANEWSROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B988620)
+#define RPG_GAMECORE_GACHANEWSROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DCC3F30)
+#define RPG_GAMECORE_GACHANEWSROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1DCC41B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GachaNewsRow_TypeDefinitionIndex = 12868;
+	inline static constexpr unsigned int GachaNewsRow_TypeDefinitionIndex = 13259;
 
 	class GachaNewsRow : public ::System::Object
 	{

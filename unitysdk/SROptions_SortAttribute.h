@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/SRDebugger/SortAttribute.h"
 
-#define SROPTIONS_SORTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x192823D0)
+#define SROPTIONS_SORTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EFEB230)
 
-inline static constexpr unsigned int SROptions_SortAttribute_TypeDefinitionIndex = 42605;
+inline static constexpr unsigned int SROptions_SortAttribute_TypeDefinitionIndex = 44787;
 
 class SROptions_SortAttribute : public ::SRDebugger::SortAttribute
 {

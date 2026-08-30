@@ -3,7 +3,7 @@
 
 namespace RPG::Client::UI::UIStateCtrl
 {
-	inline static constexpr unsigned int PlayAnimationActionEndStrategy_TypeDefinitionIndex = 70654;
+	inline static constexpr unsigned int PlayAnimationActionEndStrategy_TypeDefinitionIndex = 73953;
 
 	enum class PlayAnimationActionEndStrategy : ::System::Int32
 	{

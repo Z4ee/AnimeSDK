@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class PerformanceBgEffectFrameConfig; }
 namespace RPG::GameCore { class PerformanceBgImagePanelConfig; }
 
-#define RPG_GAMECORE_PERFORMANCEBGIMAGEPANELCONTAINERCONFIG_METHOD_2_284E17B4B55C2F75_OFFSET UNITYSDK_OFFSET(0x1BB16F60)
-#define RPG_GAMECORE_PERFORMANCEBGIMAGEPANELCONTAINERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB17090)
+#define RPG_GAMECORE_PERFORMANCEBGIMAGEPANELCONTAINERCONFIG_METHOD_2_284E17B4B55C2F75_OFFSET UNITYSDK_OFFSET(0x1D41CE80)
+#define RPG_GAMECORE_PERFORMANCEBGIMAGEPANELCONTAINERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D41CFB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PerformanceBgImagePanelContainerConfig_TypeDefinitionIndex = 18297;
+	inline static constexpr unsigned int PerformanceBgImagePanelContainerConfig_TypeDefinitionIndex = 18821;
 
 	class PerformanceBgImagePanelContainerConfig : public ::RPG::GameCore::JsonConfig
 	{

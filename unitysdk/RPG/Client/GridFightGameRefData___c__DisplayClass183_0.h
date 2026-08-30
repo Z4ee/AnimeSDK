@@ -6,12 +6,12 @@ class Class_1_35769E9BC1F47769_Class_1_3E75962FCD9FB58B;
 namespace RPG::Client { class GridFightRole; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_GRIDFIGHTGAMEREFDATA___C__DISPLAYCLASS183_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1ABF2B90)
-#define RPG_CLIENT_GRIDFIGHTGAMEREFDATA___C__DISPLAYCLASS183_0___BUILDROLES_B__0_OFFSET UNITYSDK_OFFSET(0x1ABF53B0)
+#define RPG_CLIENT_GRIDFIGHTGAMEREFDATA___C__DISPLAYCLASS183_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA1F680)
+#define RPG_CLIENT_GRIDFIGHTGAMEREFDATA___C__DISPLAYCLASS183_0___BUILDROLES_B__0_OFFSET UNITYSDK_OFFSET(0x1BA21F90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGameRefData___c__DisplayClass183_0_TypeDefinitionIndex = 61817;
+	inline static constexpr unsigned int GridFightGameRefData___c__DisplayClass183_0_TypeDefinitionIndex = 64801;
 
 	class GridFightGameRefData___c__DisplayClass183_0 : public ::System::Object
 	{

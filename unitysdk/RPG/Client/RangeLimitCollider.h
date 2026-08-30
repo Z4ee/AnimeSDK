@@ -7,20 +7,20 @@ namespace RPG::Client { class ConeCollider; }
 namespace UnityEngine { class MeshCollider; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_RANGELIMITCOLLIDER_INIT_OFFSET UNITYSDK_OFFSET(0x19855D00)
-#define RPG_CLIENT_RANGELIMITCOLLIDER_SETUPRANGELIMITCOLLIDER_OFFSET UNITYSDK_OFFSET(0x19855E60)
-#define RPG_CLIENT_RANGELIMITCOLLIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x19856120)
+#define RPG_CLIENT_RANGELIMITCOLLIDER_INIT_OFFSET UNITYSDK_OFFSET(0x1B6457B0)
+#define RPG_CLIENT_RANGELIMITCOLLIDER_SETUPRANGELIMITCOLLIDER_OFFSET UNITYSDK_OFFSET(0x1B645910)
+#define RPG_CLIENT_RANGELIMITCOLLIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B645BD0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RangeLimitCollider_TypeDefinitionIndex = 65829;
+	inline static constexpr unsigned int RangeLimitCollider_TypeDefinitionIndex = 68868;
 
 	class RangeLimitCollider : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		::UnityEngine::Transform* Field_5_0; // 0x18
-		::UnityEngine::MeshCollider* Field_5_1; // 0x20
-		::RPG::Client::ConeCollider* Field_5_2; // 0x28
+		::UnityEngine::Transform* MEMMLNBHMHA; // 0x18
+		::UnityEngine::MeshCollider* MHINJGKOAOO; // 0x20
+		::RPG::Client::ConeCollider* OBHOKMBIBAH; // 0x28
 
 		::System::Void _ctor()
 		{

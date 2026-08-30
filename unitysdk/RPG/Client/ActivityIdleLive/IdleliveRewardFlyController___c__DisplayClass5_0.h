@@ -5,12 +5,12 @@
 namespace RPG::Client::ActivityIdleLive { class IdleLiveNormalRewardFly; }
 namespace RPG::Client::ActivityIdleLive { class IdleliveRewardFlyController; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEREWARDFLYCONTROLLER___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A187A10)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEREWARDFLYCONTROLLER___C__DISPLAYCLASS5_0__SHOWBOXFLY_B__0_OFFSET UNITYSDK_OFFSET(0x1A187A50)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEREWARDFLYCONTROLLER___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA61FA0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEREWARDFLYCONTROLLER___C__DISPLAYCLASS5_0__SHOWBOXFLY_B__0_OFFSET UNITYSDK_OFFSET(0x1BA61FE0)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleliveRewardFlyController___c__DisplayClass5_0_TypeDefinitionIndex = 71587;
+	inline static constexpr unsigned int IdleliveRewardFlyController___c__DisplayClass5_0_TypeDefinitionIndex = 74893;
 
 	class IdleliveRewardFlyController___c__DisplayClass5_0 : public ::System::Object
 	{

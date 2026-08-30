@@ -8,12 +8,12 @@ namespace RPG::GameCore { class SkillExtensionComplexSkillAIConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_STANDALONECOMPLEXSKILLAICONFIG_METHOD_2_CCE81DC164485C57_OFFSET UNITYSDK_OFFSET(0x1B0BB0C0)
-#define RPG_GAMECORE_STANDALONECOMPLEXSKILLAICONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0BB210)
+#define RPG_GAMECORE_STANDALONECOMPLEXSKILLAICONFIG_METHOD_2_CCE81DC164485C57_OFFSET UNITYSDK_OFFSET(0x1CAF29B0)
+#define RPG_GAMECORE_STANDALONECOMPLEXSKILLAICONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CAF2B00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StandaloneComplexSkillAIConfig_TypeDefinitionIndex = 14962;
+	inline static constexpr unsigned int StandaloneComplexSkillAIConfig_TypeDefinitionIndex = 15398;
 
 	class StandaloneComplexSkillAIConfig : public ::RPG::GameCore::JsonConfig
 	{

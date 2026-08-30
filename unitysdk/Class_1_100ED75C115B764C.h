@@ -7,20 +7,20 @@ namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Material; }
 
-#define CLASS_1_100ED75C115B764C_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1935C870)
-#define CLASS_1_100ED75C115B764C_METHOD_1_4DE1857021EDD3DF_OFFSET UNITYSDK_OFFSET(0x1935C8F0)
-#define CLASS_1_100ED75C115B764C_METHOD_1_B3725C8DD86BB06D_OFFSET UNITYSDK_OFFSET(0x1935C9B0)
-#define CLASS_1_100ED75C115B764C__CTOR_OFFSET UNITYSDK_OFFSET(0x1935C7D0)
+#define CLASS_1_100ED75C115B764C_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A8C24D0)
+#define CLASS_1_100ED75C115B764C_METHOD_1_4DE1857021EDD3DF_OFFSET UNITYSDK_OFFSET(0x1A8C2550)
+#define CLASS_1_100ED75C115B764C_METHOD_1_B3725C8DD86BB06D_OFFSET UNITYSDK_OFFSET(0x1A8C2610)
+#define CLASS_1_100ED75C115B764C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8C2430)
 
-inline static constexpr unsigned int Class_1_100ED75C115B764C_TypeDefinitionIndex = 74641;
+inline static constexpr unsigned int Class_1_100ED75C115B764C_TypeDefinitionIndex = 78126;
 
 class Class_1_100ED75C115B764C : public ::System::Object
 {
 public:
-	// static const ::System::Single Field_1_0; // 0x0
-	// static const ::System::String* Field_1_1; // 0x0
-	::Class_1_D63DE2EC2835DB62_Class_1_B0E9C51B6798124B* Field_1_2; // 0x10
-	::UnityEngine::Material* Field_1_3; // 0x18
+	// static const ::System::Single OKFMABJGOPI; // 0x0
+	// static const ::System::String* IJIFHOEEBHJ; // 0x0
+	::Class_1_D63DE2EC2835DB62_Class_1_B0E9C51B6798124B* GCJINNEANCH; // 0x10
+	::UnityEngine::Material* IMOHCDHKBAJ; // 0x18
 
 	::System::Void _ctor(::UnityEngine::GameObject* a1)
 	{

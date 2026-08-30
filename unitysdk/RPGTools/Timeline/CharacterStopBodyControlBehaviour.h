@@ -4,12 +4,12 @@
 
 namespace RPGTools::Timeline { class CharacterStopBodyControlData; }
 
-#define RPGTOOLS_TIMELINE_CHARACTERSTOPBODYCONTROLBEHAVIOUR_METHOD_3_84B92802FDAFF6C8_OFFSET UNITYSDK_OFFSET(0x1B35B130)
-#define RPGTOOLS_TIMELINE_CHARACTERSTOPBODYCONTROLBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1B35B2C0)
+#define RPGTOOLS_TIMELINE_CHARACTERSTOPBODYCONTROLBEHAVIOUR_METHOD_3_84B92802FDAFF6C8_OFFSET UNITYSDK_OFFSET(0x1D141920)
+#define RPGTOOLS_TIMELINE_CHARACTERSTOPBODYCONTROLBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1D141AC0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int CharacterStopBodyControlBehaviour_TypeDefinitionIndex = 46168;
+	inline static constexpr unsigned int CharacterStopBodyControlBehaviour_TypeDefinitionIndex = 48402;
 
 	class CharacterStopBodyControlBehaviour : public ::RPGTools::Timeline::CustomEventBehaviour
 	{

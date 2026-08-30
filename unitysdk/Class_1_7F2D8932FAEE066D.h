@@ -4,27 +4,27 @@
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_2_2661F5CE5402F421;
+class Class_2_1A8148841049062A;
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_7F2D8932FAEE066D__CTOR_OFFSET UNITYSDK_OFFSET(0x1A044190)
+#define CLASS_1_7F2D8932FAEE066D__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE2D3B0)
 
-inline static constexpr unsigned int Class_1_7F2D8932FAEE066D_TypeDefinitionIndex = 40629;
+inline static constexpr unsigned int Class_1_7F2D8932FAEE066D_TypeDefinitionIndex = 41581;
 
 class Class_1_7F2D8932FAEE066D : public ::System::Object
 {
 public:
-	::Class_2_2661F5CE5402F421* Field_1_0; // 0x10
-	::UnityEngine::Transform* Field_1_1; // 0x18
-	::System::Single Field_1_2; // 0x20
-	::System::Single Field_1_3; // 0x24
-	::UnityEngine::Vector2 Field_1_4; // 0x28
-	::UnityEngine::Vector3 Field_1_5; // 0x30
-	::System::Single Field_1_6; // 0x3C
-	::System::Single Field_1_7; // 0x40
-	::System::Boolean Field_1_8; // 0x44
-	::System::Boolean Field_1_9; // 0x45
-	::System::Boolean Field_1_10; // 0x46
+	::UnityEngine::Transform* KIKINILBIEL; // 0x10
+	::Class_2_1A8148841049062A* LCINDEDLCLG; // 0x18
+	::System::Single HLLPHBNGHPK; // 0x20
+	::UnityEngine::Vector3 IKINMNCCKJI; // 0x24
+	::System::Boolean EBCCMIMNJIG; // 0x30
+	::System::Boolean BIMHNCPPFFK; // 0x31
+	::System::Boolean OHKNGBNEFAG; // 0x32
+	::UnityEngine::Vector2 DEOGFKAHBGP; // 0x34
+	::System::Single CHBNGJFHAJM; // 0x3C
+	::System::Single JIPONFOAAPH; // 0x40
+	::System::Single BKHMKLCPCDA; // 0x44
 
 	::System::Void _ctor()
 	{

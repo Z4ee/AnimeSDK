@@ -5,7 +5,7 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2Arrays_TypeDefinitionIndex = 35034;
+	inline static constexpr unsigned int B2Arrays_TypeDefinitionIndex = 35895;
 
 	class B2Arrays : public ::System::Object
 	{

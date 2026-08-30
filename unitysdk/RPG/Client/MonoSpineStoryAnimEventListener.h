@@ -5,21 +5,21 @@
 namespace System { class String; }
 namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 
-#define RPG_CLIENT_MONOSPINESTORYANIMEVENTLISTENER_SETSWITCHBACKGROUNDCALLBACK_OFFSET UNITYSDK_OFFSET(0x1A34C9C0)
-#define RPG_CLIENT_MONOSPINESTORYANIMEVENTLISTENER_SWITCHBACKGROUND_OFFSET UNITYSDK_OFFSET(0x1A34C940)
-#define RPG_CLIENT_MONOSPINESTORYANIMEVENTLISTENER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A34CA40)
+#define RPG_CLIENT_MONOSPINESTORYANIMEVENTLISTENER_SETSWITCHBACKGROUNDCALLBACK_OFFSET UNITYSDK_OFFSET(0x1C27EC00)
+#define RPG_CLIENT_MONOSPINESTORYANIMEVENTLISTENER_SWITCHBACKGROUND_OFFSET UNITYSDK_OFFSET(0x1C27EB80)
+#define RPG_CLIENT_MONOSPINESTORYANIMEVENTLISTENER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C27EC80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoSpineStoryAnimEventListener_TypeDefinitionIndex = 57582;
+	inline static constexpr unsigned int MonoSpineStoryAnimEventListener_TypeDefinitionIndex = 60399;
 
 	class MonoSpineStoryAnimEventListener : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::System::Action_3<::System::String*, ::System::String*, ::System::Boolean>* OnSwitchBackgroundCallback; // 0x18
-		::System::String* Field_5_1; // 0x20
-		::System::String* Field_5_2; // 0x28
-		::System::Boolean Field_5_3; // 0x30
+		::System::String* HPNACMLPFEO; // 0x20
+		::System::String* IJCJCNKIMKI; // 0x28
+		::System::Boolean GDIGAMFJEFD; // 0x30
 
 		::System::Void _ctor()
 		{

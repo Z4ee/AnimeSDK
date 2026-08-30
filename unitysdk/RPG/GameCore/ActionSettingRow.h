@@ -5,21 +5,21 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIONSETTINGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1AAD7CB0)
-#define RPG_GAMECORE_ACTIONSETTINGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1AAD8320)
+#define RPG_GAMECORE_ACTIONSETTINGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C9E97E0)
+#define RPG_GAMECORE_ACTIONSETTINGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1C9E9E90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActionSettingRow_TypeDefinitionIndex = 13313;
+	inline static constexpr unsigned int ActionSettingRow_TypeDefinitionIndex = 13704;
 
 	class ActionSettingRow : public ::System::Object
 	{
 	public:
 		::System::String* ActionName; // 0x10
-		::Il2CppArray<::System::String*>* BlackListKeys; // 0x18
-		::Il2CppArray<::System::String*>* SettableInControlTypes; // 0x20
-		::System::UInt32 ShowType; // 0x28
-		::System::UInt32 GroupType; // 0x2C
+		::Il2CppArray<::System::String*>* SettableInControlTypes; // 0x18
+		::Il2CppArray<::System::String*>* BlackListKeys; // 0x20
+		::System::UInt32 GroupType; // 0x28
+		::System::UInt32 ShowType; // 0x2C
 
 		::System::Void _ctor()
 		{

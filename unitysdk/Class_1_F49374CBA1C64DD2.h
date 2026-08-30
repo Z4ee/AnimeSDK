@@ -5,15 +5,15 @@
 
 namespace RPG::Client { class GridFightBonusResultData; }
 
-#define CLASS_1_F49374CBA1C64DD2_DISTRIBUTE_OFFSET UNITYSDK_OFFSET(0x188D1720)
-#define CLASS_1_F49374CBA1C64DD2__CTOR_OFFSET UNITYSDK_OFFSET(0x188D1710)
+#define CLASS_1_F49374CBA1C64DD2_DISTRIBUTE_OFFSET UNITYSDK_OFFSET(0x18FE2130)
+#define CLASS_1_F49374CBA1C64DD2__CTOR_OFFSET UNITYSDK_OFFSET(0x18FE2120)
 
-inline static constexpr unsigned int Class_1_F49374CBA1C64DD2_TypeDefinitionIndex = 61494;
+inline static constexpr unsigned int Class_1_F49374CBA1C64DD2_TypeDefinitionIndex = 64478;
 
 class Class_1_F49374CBA1C64DD2 : public ::System::Object
 {
 public:
-	::RPG::Client::NotifyType Field_1_0; // 0x10
+	::RPG::Client::NotifyType GMCNLFICNOB; // 0x10
 
 	::System::Void _ctor(::RPG::Client::NotifyType a1)
 	{

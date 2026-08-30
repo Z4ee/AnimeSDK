@@ -6,19 +6,19 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_TITANATLASGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C155060)
-#define RPG_GAMECORE_TITANATLASGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1552A0)
+#define RPG_GAMECORE_TITANATLASGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D52A3F0)
+#define RPG_GAMECORE_TITANATLASGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D52A630)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TitanAtlasGroupRow_TypeDefinitionIndex = 14690;
+	inline static constexpr unsigned int TitanAtlasGroupRow_TypeDefinitionIndex = 15126;
 
 	class TitanAtlasGroupRow : public ::System::Object
 	{
 	public:
 		::System::String* TitleBGColor; // 0x10
-		::System::UInt32 TitanGroupID; // 0x18
-		::RPG::Client::TextID TitanGroupName; // 0x20
+		::RPG::Client::TextID TitanGroupName; // 0x18
+		::System::UInt32 TitanGroupID; // 0x28
 		::RPG::Client::TextID TitanGroupDesc; // 0x30
 
 		::System::Void _ctor()

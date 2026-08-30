@@ -5,11 +5,11 @@
 namespace SimpleJSON { class JSONNode; }
 namespace System { class String; }
 
-#define SIMPLEJSON_JSON_PARSE_OFFSET UNITYSDK_OFFSET(0x1D1E3080)
+#define SIMPLEJSON_JSON_PARSE_OFFSET UNITYSDK_OFFSET(0x1EED8410)
 
 namespace SimpleJSON
 {
-	inline static constexpr unsigned int JSON_TypeDefinitionIndex = 9630;
+	inline static constexpr unsigned int JSON_TypeDefinitionIndex = 9909;
 
 	class JSON : public ::System::Object
 	{

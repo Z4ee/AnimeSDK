@@ -5,12 +5,12 @@
 namespace RPG::Client { class LuaUIController; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_ALLEYUTILS___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17EEE410)
-#define RPG_CLIENT_ALLEYUTILS___C__DISPLAYCLASS0_0__SHOWALLEYMAINENTRANCEPAGE_B__0_OFFSET UNITYSDK_OFFSET(0x17EEE8A0)
+#define RPG_CLIENT_ALLEYUTILS___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19C88610)
+#define RPG_CLIENT_ALLEYUTILS___C__DISPLAYCLASS0_0__SHOWALLEYMAINENTRANCEPAGE_B__0_OFFSET UNITYSDK_OFFSET(0x19C88AB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AlleyUtils___c__DisplayClass0_0_TypeDefinitionIndex = 59516;
+	inline static constexpr unsigned int AlleyUtils___c__DisplayClass0_0_TypeDefinitionIndex = 62355;
 
 	class AlleyUtils___c__DisplayClass0_0 : public ::System::Object
 	{

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class PauseEntityFollowAttach; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_806FD54623593FA3_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16879890)
-#define CLASS_3_806FD54623593FA3__CTOR_OFFSET UNITYSDK_OFFSET(0x16879860)
+#define CLASS_3_806FD54623593FA3_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17E18F60)
+#define CLASS_3_806FD54623593FA3__CTOR_OFFSET UNITYSDK_OFFSET(0x17E18F30)
 
-inline static constexpr unsigned int Class_3_806FD54623593FA3_TypeDefinitionIndex = 52754;
+inline static constexpr unsigned int Class_3_806FD54623593FA3_TypeDefinitionIndex = 55457;
 
 class Class_3_806FD54623593FA3 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::PauseEntityFollowAttach*>
 {

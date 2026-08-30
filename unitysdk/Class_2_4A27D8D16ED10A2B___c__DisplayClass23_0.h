@@ -7,18 +7,18 @@ namespace RPG::Client { class BaseLobby; }
 namespace RPG::Client::Promises { class Promise; }
 namespace System { class Exception; }
 
-#define CLASS_2_4A27D8D16ED10A2B___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBFD0D60)
-#define CLASS_2_4A27D8D16ED10A2B___C__DISPLAYCLASS23_0___REFRESHANDSYNCLOBBYSTATE_B__0_OFFSET UNITYSDK_OFFSET(0xBFD2800)
-#define CLASS_2_4A27D8D16ED10A2B___C__DISPLAYCLASS23_0___REFRESHANDSYNCLOBBYSTATE_B__1_OFFSET UNITYSDK_OFFSET(0xBFD2880)
+#define CLASS_2_4A27D8D16ED10A2B___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16E444F0)
+#define CLASS_2_4A27D8D16ED10A2B___C__DISPLAYCLASS23_0___REFRESHANDSYNCLOBBYSTATE_B__0_OFFSET UNITYSDK_OFFSET(0x16E45F90)
+#define CLASS_2_4A27D8D16ED10A2B___C__DISPLAYCLASS23_0___REFRESHANDSYNCLOBBYSTATE_B__1_OFFSET UNITYSDK_OFFSET(0x16E46010)
 
-inline static constexpr unsigned int Class_2_4A27D8D16ED10A2B___c__DisplayClass23_0_TypeDefinitionIndex = 75399;
+inline static constexpr unsigned int Class_2_4A27D8D16ED10A2B___c__DisplayClass23_0_TypeDefinitionIndex = 78946;
 
 class Class_2_4A27D8D16ED10A2B___c__DisplayClass23_0 : public ::System::Object
 {
 public:
-	::Class_2_4A27D8D16ED10A2B* __4__this; // 0x10
-	::RPG::Client::Promises::Promise* activeRefreshFallback; // 0x18
-	::RPG::Client::Promises::Promise* lobbyStopGamingPromise; // 0x20
+	::RPG::Client::Promises::Promise* activeRefreshFallback; // 0x10
+	::RPG::Client::Promises::Promise* lobbyStopGamingPromise; // 0x18
+	::Class_2_4A27D8D16ED10A2B* __4__this; // 0x20
 
 	::System::Void _ctor()
 	{

@@ -5,18 +5,18 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PARKOURBGMCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1BB0E5B0)
-#define RPG_GAMECORE_PARKOURBGMCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB0E730)
+#define RPG_GAMECORE_PARKOURBGMCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D4144D0)
+#define RPG_GAMECORE_PARKOURBGMCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D414650)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ParkourBGMConfigRow_TypeDefinitionIndex = 11644;
+	inline static constexpr unsigned int ParkourBGMConfigRow_TypeDefinitionIndex = 12033;
 
 	class ParkourBGMConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* NormalEventName; // 0x10
-		::System::String* FastEventName; // 0x18
+		::System::String* FastEventName; // 0x10
+		::System::String* NormalEventName; // 0x18
 		::System::UInt32 ID; // 0x20
 
 		::System::Void _ctor()

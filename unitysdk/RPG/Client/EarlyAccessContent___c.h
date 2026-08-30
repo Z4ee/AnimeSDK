@@ -7,29 +7,29 @@ namespace RPG::Client::Promises { class IPromise; }
 namespace System { template <typename T1, typename T2> class Converter_2; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_EARLYACCESSCONTENT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17723040)
-#define RPG_CLIENT_EARLYACCESSCONTENT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17723070)
-#define RPG_CLIENT_EARLYACCESSCONTENT___C__GETALLFLOORIDS_B__23_0_OFFSET UNITYSDK_OFFSET(0x17723080)
-#define RPG_CLIENT_EARLYACCESSCONTENT___C___PREPAREFLOORDATA_B__36_0_OFFSET UNITYSDK_OFFSET(0x177230E0)
+#define RPG_CLIENT_EARLYACCESSCONTENT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A69A2F0)
+#define RPG_CLIENT_EARLYACCESSCONTENT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A69A320)
+#define RPG_CLIENT_EARLYACCESSCONTENT___C__GETALLFLOORIDS_B__23_0_OFFSET UNITYSDK_OFFSET(0x1A69A330)
+#define RPG_CLIENT_EARLYACCESSCONTENT___C___PREPAREFLOORDATA_B__36_0_OFFSET UNITYSDK_OFFSET(0x1A69A390)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EarlyAccessContent___c_TypeDefinitionIndex = 60851;
+	inline static constexpr unsigned int EarlyAccessContent___c_TypeDefinitionIndex = 63704;
 
 	class EarlyAccessContent___c : public ::System::Object
 	{
 	public:
-		static ::System::Converter_2<::Class_1_F730B69FCB9EE042*, ::System::UInt32>** StaticGet___9__23_0()
-		{
-			return (::System::Converter_2<::Class_1_F730B69FCB9EE042*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(EarlyAccessContent___c_TypeDefinitionIndex)->GetStaticField(0x6B680);
-		}
 		static ::System::Func_2<::Class_1_F730B69FCB9EE042*, ::RPG::Client::Promises::IPromise*>** StaticGet___9__36_0()
 		{
-			return (::System::Func_2<::Class_1_F730B69FCB9EE042*, ::RPG::Client::Promises::IPromise*>**)Il2CppClass::FromTypeDefinitionIndex(EarlyAccessContent___c_TypeDefinitionIndex)->GetStaticField(0x6B688);
+			return (::System::Func_2<::Class_1_F730B69FCB9EE042*, ::RPG::Client::Promises::IPromise*>**)Il2CppClass::FromTypeDefinitionIndex(EarlyAccessContent___c_TypeDefinitionIndex)->GetStaticField(0x5F410);
+		}
+		static ::System::Converter_2<::Class_1_F730B69FCB9EE042*, ::System::UInt32>** StaticGet___9__23_0()
+		{
+			return (::System::Converter_2<::Class_1_F730B69FCB9EE042*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(EarlyAccessContent___c_TypeDefinitionIndex)->GetStaticField(0x5F418);
 		}
 		static ::RPG::Client::EarlyAccessContent___c** StaticGet___9()
 		{
-			return (::RPG::Client::EarlyAccessContent___c**)Il2CppClass::FromTypeDefinitionIndex(EarlyAccessContent___c_TypeDefinitionIndex)->GetStaticField(0x6B690);
+			return (::RPG::Client::EarlyAccessContent___c**)Il2CppClass::FromTypeDefinitionIndex(EarlyAccessContent___c_TypeDefinitionIndex)->GetStaticField(0x5F420);
 		}
 
 		static ::System::Void _cctor()

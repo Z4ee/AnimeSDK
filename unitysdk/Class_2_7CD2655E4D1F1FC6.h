@@ -13,53 +13,53 @@ namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class Text; }
 
-#define CLASS_2_7CD2655E4D1F1FC6_METHOD_2_35EA095E1AFDD9C8_OFFSET UNITYSDK_OFFSET(0x188B2120)
-#define CLASS_2_7CD2655E4D1F1FC6_METHOD_2_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x188B21B0)
-#define CLASS_2_7CD2655E4D1F1FC6__CCTOR_OFFSET UNITYSDK_OFFSET(0x188B2600)
-#define CLASS_2_7CD2655E4D1F1FC6__CTOR_OFFSET UNITYSDK_OFFSET(0x188B25F0)
+#define CLASS_2_7CD2655E4D1F1FC6_METHOD_2_35EA095E1AFDD9C8_OFFSET UNITYSDK_OFFSET(0x18FB65F0)
+#define CLASS_2_7CD2655E4D1F1FC6_METHOD_2_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x18FB6680)
+#define CLASS_2_7CD2655E4D1F1FC6__CCTOR_OFFSET UNITYSDK_OFFSET(0x18FB6AE0)
+#define CLASS_2_7CD2655E4D1F1FC6__CTOR_OFFSET UNITYSDK_OFFSET(0x18FB6AD0)
 
-inline static constexpr unsigned int Class_2_7CD2655E4D1F1FC6_TypeDefinitionIndex = 69083;
+inline static constexpr unsigned int Class_2_7CD2655E4D1F1FC6_TypeDefinitionIndex = 72283;
 
 class Class_2_7CD2655E4D1F1FC6 : public ::Class_1_A167209E71412818
 {
 public:
-	static ::System::String** StaticGet_Field_2_0()
+	static ::System::String** StaticGet_DJCBDJMACFH()
 	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_2_7CD2655E4D1F1FC6_TypeDefinitionIndex)->GetStaticField(0x47880);
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_2_7CD2655E4D1F1FC6_TypeDefinitionIndex)->GetStaticField(0x65A50);
 	}
-	::UnityEngine::UI::Image* Field_2_1; // 0x18
-	::UnityEngine::Animation* Field_2_2; // 0x20
-	::UnityEngine::UI::Button* Field_2_3; // 0x28
-	::UnityEngine::Transform* Field_2_4; // 0x30
-	::UnityEngine::Transform* Field_2_5; // 0x38
-	::UnityEngine::Transform* Field_2_6; // 0x40
-	::UnityEngine::Transform* Field_2_7; // 0x48
-	::RPG::Client::LongPressEvent* Field_2_8; // 0x50
-	::UnityEngine::UI::Image* Field_2_9; // 0x58
-	::UnityEngine::Transform* Field_2_10; // 0x60
-	::UnityEngine::Animation* Field_2_11; // 0x68
-	::UnityEngine::Transform* Field_2_12; // 0x70
-	::UnityEngine::UI::Image* Field_2_13; // 0x78
-	::UnityEngine::Transform* Field_2_14; // 0x80
-	::UnityEngine::Animation* Field_2_15; // 0x88
-	::UnityEngine::Transform* Field_2_16; // 0x90
-	::UnityEngine::Animation* Field_2_17; // 0x98
-	::RPG::Client::HPBar* Field_2_18; // 0xA0
-	::UnityEngine::UI::Button* Field_2_19; // 0xA8
-	::UnityEngine::Animation* Field_2_20; // 0xB0
-	::UnityEngine::Transform* Field_2_21; // 0xB8
-	::RPG::Client::LongPressEvent* Field_2_22; // 0xC0
-	::UnityEngine::Transform* Field_2_23; // 0xC8
-	::RPG::Client::HPBar* Field_2_24; // 0xD0
-	::UnityEngine::Transform* Field_2_25; // 0xD8
-	::RPG::Client::MonoInControlTip* Field_2_26; // 0xE0
-	::UnityEngine::Transform* Field_2_27; // 0xE8
-	::UnityEngine::UI::Button* Field_2_28; // 0xF0
-	::UnityEngine::UI::Text* Field_2_29; // 0xF8
-	::RPG::Client::MonoInControlButton* Field_2_30; // 0x100
-	::UnityEngine::UI::Image* Field_2_31; // 0x108
-	::UnityEngine::Transform* Field_2_32; // 0x110
-	::UnityEngine::UI::Text* Field_2_33; // 0x118
+	::UnityEngine::UI::Button* BMJOOILCNJA; // 0x18
+	::UnityEngine::Transform* MBOIEOJKFLD; // 0x20
+	::UnityEngine::Transform* DOEKALMGPAO; // 0x28
+	::UnityEngine::Animation* NEEAGGOCBGE; // 0x30
+	::UnityEngine::UI::Image* FGOGHPDCIHG; // 0x38
+	::RPG::Client::LongPressEvent* EGDELDMIPDH; // 0x40
+	::UnityEngine::UI::Button* FBCDGDDKKHC; // 0x48
+	::UnityEngine::Transform* CPOOIMGAPOC; // 0x50
+	::UnityEngine::UI::Text* NOKLBNMJBDN; // 0x58
+	::RPG::Client::HPBar* IFOCBEIHFCJ; // 0x60
+	::UnityEngine::Transform* LDCEFCMPGGP; // 0x68
+	::UnityEngine::Transform* DIFDJEGHOKP; // 0x70
+	::UnityEngine::Animation* PMKEBONPGAB; // 0x78
+	::UnityEngine::Transform* LMAHPPFLOBK; // 0x80
+	::RPG::Client::HPBar* EJLNOEPHIML; // 0x88
+	::UnityEngine::UI::Button* LAHOOFIEBKF; // 0x90
+	::UnityEngine::UI::Image* PMIBINOLNCM; // 0x98
+	::UnityEngine::Transform* GCODHDLEPFJ; // 0xA0
+	::UnityEngine::Transform* LDAOBOPBHFA; // 0xA8
+	::RPG::Client::LongPressEvent* MJBIBAFGKJG; // 0xB0
+	::UnityEngine::Animation* NEPCECJCCDA; // 0xB8
+	::UnityEngine::Animation* AGHOAIIFPDA; // 0xC0
+	::UnityEngine::UI::Image* PCNKKCKPFAD; // 0xC8
+	::UnityEngine::Transform* IMOFKIGMDIC; // 0xD0
+	::UnityEngine::Transform* ELPJNCLJLEO; // 0xD8
+	::UnityEngine::UI::Image* OOLEAPLDIEA; // 0xE0
+	::UnityEngine::Animation* OBPCDNEJFMA; // 0xE8
+	::UnityEngine::Transform* JEOGNDCPKNK; // 0xF0
+	::UnityEngine::Transform* EDFGFOBDPDE; // 0xF8
+	::UnityEngine::Transform* HIIHIIDALBO; // 0x100
+	::RPG::Client::MonoInControlTip* DIHLKNEJKEI; // 0x108
+	::RPG::Client::MonoInControlButton* OJJMBEGFKBN; // 0x110
+	::UnityEngine::UI::Text* MJKDDBJEPGC; // 0x118
 
 	::System::Void _ctor()
 	{

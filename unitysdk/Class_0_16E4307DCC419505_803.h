@@ -1,11 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/Struct_2_D645B4E0B73852B6_5.h"
 
-namespace System { class Object; }
-namespace System::Collections::Specialized { class NotifyCollectionChangedEventArgs; }
-namespace System::ComponentModel { class PropertyChangedEventArgs; }
+class Class_0_16E4307DCC419505_799;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_803_TypeDefinitionIndex = 61624;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_803_TypeDefinitionIndex = 62912;
 
 class Class_0_16E4307DCC419505_803
 {

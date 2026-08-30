@@ -12,40 +12,40 @@ namespace System { class String; }
 namespace UnityEngine { class Animation; }
 namespace UnityEngine { class RectTransform; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEEQUIPEFFECTBALLFLY_DESPAWNED_OFFSET UNITYSDK_OFFSET(0x1A65A840)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEEQUIPEFFECTBALLFLY_METHOD_5_B387E1AED8A8F880_OFFSET UNITYSDK_OFFSET(0x1A65B070)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEEQUIPEFFECTBALLFLY_ONCREATE_OFFSET UNITYSDK_OFFSET(0x1A65A880)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEEQUIPEFFECTBALLFLY_PLAYSTATE_OFFSET UNITYSDK_OFFSET(0x1A65AA80)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEEQUIPEFFECTBALLFLY_PLAY_OFFSET UNITYSDK_OFFSET(0x1A65AAE0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEEQUIPEFFECTBALLFLY_SPAWNED_OFFSET UNITYSDK_OFFSET(0x1A65A800)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEEQUIPEFFECTBALLFLY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A65B100)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEEQUIPEFFECTBALLFLY__CTOR_OFFSET UNITYSDK_OFFSET(0x1A65B0F0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEEQUIPEFFECTBALLFLY_DESPAWNED_OFFSET UNITYSDK_OFFSET(0x1C0DD660)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEEQUIPEFFECTBALLFLY_METHOD_5_B387E1AED8A8F880_OFFSET UNITYSDK_OFFSET(0x1C0DDE90)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEEQUIPEFFECTBALLFLY_ONCREATE_OFFSET UNITYSDK_OFFSET(0x1C0DD6A0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEEQUIPEFFECTBALLFLY_PLAYSTATE_OFFSET UNITYSDK_OFFSET(0x1C0DD8A0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEEQUIPEFFECTBALLFLY_PLAY_OFFSET UNITYSDK_OFFSET(0x1C0DD900)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEEQUIPEFFECTBALLFLY_SPAWNED_OFFSET UNITYSDK_OFFSET(0x1C0DD620)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEEQUIPEFFECTBALLFLY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C0DDF20)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEEQUIPEFFECTBALLFLY__CTOR_OFFSET UNITYSDK_OFFSET(0x1C0DDF10)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveEquipEffectBallFly_TypeDefinitionIndex = 71568;
+	inline static constexpr unsigned int IdleLiveEquipEffectBallFly_TypeDefinitionIndex = 74874;
 
 	class IdleLiveEquipEffectBallFly : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::Il2CppArray<::System::String*>** StaticGet_Field_5_0()
+		static ::Il2CppArray<::System::String*>** StaticGet_IJBMMFACMIO()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveEquipEffectBallFly_TypeDefinitionIndex)->GetStaticField(0x3E980);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveEquipEffectBallFly_TypeDefinitionIndex)->GetStaticField(0x59440);
 		}
-		// static const ::System::String* Field_5_1; // 0x0
-		// static const ::System::String* Field_5_2; // 0x0
-		// static const ::System::String* Field_5_3; // 0x0
-		// static const ::System::String* Field_5_4; // 0x0
-		// static const ::System::String* Field_5_5; // 0x0
-		::System::Single Field_5_6; // 0x18
-		::System::Single Field_5_7; // 0x1C
-		::RPG::Client::ActivityIdleLive::EquipBallFadeOutType Field_5_8; // 0x20
-		::RPG::Client::QuadricBezier* Field_5_9; // 0x28
-		::UnityEngine::Animation* Field_5_10; // 0x30
-		::UnityEngine::RectTransform* Field_5_11; // 0x38
-		::UnityEngine::RectTransform* Field_5_12; // 0x40
-		::UnityEngine::RectTransform* Field_5_13; // 0x48
-		::RPG::Client::UIStateCtrl* Field_5_14; // 0x50
+		// static const ::System::String* JHNBEJJJLCO; // 0x0
+		// static const ::System::String* CAMFFAFJEBI; // 0x0
+		// static const ::System::String* AJJGGLDJMFI; // 0x0
+		// static const ::System::String* PKKEJHHDDJG; // 0x0
+		// static const ::System::String* HLEFMKONOFI; // 0x0
+		::System::Single LCKKNPIILDM; // 0x18
+		::System::Single NPCNGNPLIGL; // 0x1C
+		::RPG::Client::ActivityIdleLive::EquipBallFadeOutType JFFBAABEHBL; // 0x20
+		::RPG::Client::QuadricBezier* FLEHEFOIANL; // 0x28
+		::UnityEngine::Animation* EOIGEGHFJIJ; // 0x30
+		::UnityEngine::RectTransform* KNGEKPKBIDK; // 0x38
+		::UnityEngine::RectTransform* CEEAKCACHGJ; // 0x40
+		::UnityEngine::RectTransform* GNPBGAKIAHM; // 0x48
+		::RPG::Client::UIStateCtrl* LOPDDKFEJEH; // 0x50
 
 		::System::Void _ctor()
 		{

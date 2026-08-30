@@ -4,13 +4,13 @@
 
 namespace UnityEngine { class LineRenderer; }
 
-#define RPG_CLIENT_MONOLINERENDERERWIDTHSETTER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x18C58300)
-#define RPG_CLIENT_MONOLINERENDERERWIDTHSETTER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x18C581B0)
-#define RPG_CLIENT_MONOLINERENDERERWIDTHSETTER__CTOR_OFFSET UNITYSDK_OFFSET(0x18C583E0)
+#define RPG_CLIENT_MONOLINERENDERERWIDTHSETTER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1ACEE3B0)
+#define RPG_CLIENT_MONOLINERENDERERWIDTHSETTER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1ACEE260)
+#define RPG_CLIENT_MONOLINERENDERERWIDTHSETTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1ACEE490)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoLineRendererWidthSetter_TypeDefinitionIndex = 67844;
+	inline static constexpr unsigned int MonoLineRendererWidthSetter_TypeDefinitionIndex = 71017;
 
 	class MonoLineRendererWidthSetter : public ::UnityEngine::MonoBehaviour
 	{
@@ -19,8 +19,8 @@ namespace RPG::Client
 		::System::Single endWidth; // 0x1C
 		::System::Single widthMultiply; // 0x20
 		::System::Single outlineMultiply; // 0x24
-		::UnityEngine::LineRenderer* Field_5_4; // 0x28
-		::UnityEngine::LineRenderer* Field_5_5; // 0x30
+		::UnityEngine::LineRenderer* AGPKOCFLNMJ; // 0x28
+		::UnityEngine::LineRenderer* GLACMPLALMM; // 0x30
 
 		::System::Void _ctor()
 		{

@@ -5,9 +5,9 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define CURVEEULERANGLE__CTOR_OFFSET UNITYSDK_OFFSET(0x16B4D820)
+#define CURVEEULERANGLE__CTOR_OFFSET UNITYSDK_OFFSET(0x184B33B0)
 
-inline static constexpr unsigned int CurveEulerAngle_TypeDefinitionIndex = 45475;
+inline static constexpr unsigned int CurveEulerAngle_TypeDefinitionIndex = 47725;
 
 class CurveEulerAngle : public ::System::Object
 {

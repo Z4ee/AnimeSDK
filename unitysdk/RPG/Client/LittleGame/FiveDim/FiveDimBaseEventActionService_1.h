@@ -99,6 +99,7 @@ namespace RPG::GameCore { class FiveDimRemoveGlobalTimeScaleAction; }
 namespace RPG::GameCore { class FiveDimResetBillboardAction; }
 namespace RPG::GameCore { class FiveDimResumeMusicAction; }
 namespace RPG::GameCore { class FiveDimReverseGeckoMoveAction; }
+namespace RPG::GameCore { class FiveDimSetAdvAchievementAction; }
 namespace RPG::GameCore { class FiveDimSetAnimParamByDoorKeyCountAction; }
 namespace RPG::GameCore { class FiveDimSetAnimParamByLevelVarAction; }
 namespace RPG::GameCore { class FiveDimSetAnimParamByRawLevelVarAction; }
@@ -128,9 +129,11 @@ namespace RPG::GameCore { class FiveDimSetRenderVisibleNeverDitherAction; }
 namespace RPG::GameCore { class FiveDimSetRenderingItemStateAction; }
 namespace RPG::GameCore { class FiveDimSetResetPointAction; }
 namespace RPG::GameCore { class FiveDimSetSplineMoveDirectionAction; }
+namespace RPG::GameCore { class FiveDimSetSplineMoveSpeedMultiplierAction; }
 namespace RPG::GameCore { class FiveDimSetSplineTraceEffectVisibleAction; }
 namespace RPG::GameCore { class FiveDimSetSuiyangDeadAction; }
 namespace RPG::GameCore { class FiveDimSetTriggerEnableAction; }
+namespace RPG::GameCore { class FiveDimShowMusicComboAction; }
 namespace RPG::GameCore { class FiveDimSpawnArrowAction; }
 namespace RPG::GameCore { class FiveDimSpawnCleanerBotAction; }
 namespace RPG::GameCore { class FiveDimSpawnPropAction; }
@@ -165,7 +168,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int FiveDimBaseEventActionService_1_TypeDefinitionIndex = 72931;
+	inline static constexpr unsigned int FiveDimBaseEventActionService_1_TypeDefinitionIndex = 76404;
 
 	template <typename T>
 	class FiveDimBaseEventActionService_1 : public ::System::Object

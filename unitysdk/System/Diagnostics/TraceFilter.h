@@ -6,11 +6,11 @@
 namespace System { class String; }
 namespace System::Diagnostics { class TraceEventCache; }
 
-#define SYSTEM_DIAGNOSTICS_TRACEFILTER_SHOULDTRACE_OFFSET UNITYSDK_OFFSET(0x19173390)
+#define SYSTEM_DIAGNOSTICS_TRACEFILTER_SHOULDTRACE_OFFSET UNITYSDK_OFFSET(0x1AB31F00)
 
 namespace System::Diagnostics
 {
-	inline static constexpr unsigned int TraceFilter_TypeDefinitionIndex = 2532;
+	inline static constexpr unsigned int TraceFilter_TypeDefinitionIndex = 2539;
 
 	class TraceFilter : public ::System::Object
 	{

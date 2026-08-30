@@ -7,29 +7,29 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define CLASS_1_0AC6DA5D6009B6DB_METHOD_1_0E3C9CE42200F670_OFFSET UNITYSDK_OFFSET(0x1B5F0DB0)
-#define CLASS_1_0AC6DA5D6009B6DB__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5F15F0)
+#define CLASS_1_0AC6DA5D6009B6DB_METHOD_1_0E3C9CE42200F670_OFFSET UNITYSDK_OFFSET(0x1A405DD0)
+#define CLASS_1_0AC6DA5D6009B6DB__CTOR_OFFSET UNITYSDK_OFFSET(0x1A406600)
 
-inline static constexpr unsigned int Class_1_0AC6DA5D6009B6DB_TypeDefinitionIndex = 11173;
+inline static constexpr unsigned int Class_1_0AC6DA5D6009B6DB_TypeDefinitionIndex = 11562;
 
 class Class_1_0AC6DA5D6009B6DB : public ::System::Object
 {
 public:
-	::System::String* Field_1_0; // 0x10
-	::System::String* Field_1_1; // 0x18
-	::RPG::Client::TextID Field_1_2; // 0x20
-	::RPG::Client::TextID Field_1_3; // 0x30
-	::RPG::Client::TextID Field_1_4; // 0x40
-	::RPG::Client::TextID Field_1_5; // 0x50
-	::RPG::Client::TextID Field_1_6; // 0x60
-	::RPG::Client::TextID Field_1_7; // 0x70
-	::RPG::Client::TextID Field_1_8; // 0x80
-	::System::UInt32 Field_1_9; // 0x90
-	::RPG::GameCore::FateRinCaseBoardAvatarType Field_1_10; // 0x94
-	::RPG::Client::TextID Field_1_11; // 0x98
-	::RPG::Client::TextID Field_1_12; // 0xA8
-	::RPG::Client::TextID Field_1_13; // 0xB8
-	::RPG::Client::TextID Field_1_14; // 0xC8
+	::System::String* IAOIMDKHPCG; // 0x10
+	::System::String* OLOIFNNLKJP; // 0x18
+	::RPG::Client::TextID PDBNACBFHGN; // 0x20
+	::RPG::GameCore::FateRinCaseBoardAvatarType BEDFGGKCODK; // 0x30
+	::System::UInt32 GMCBNNKJAGJ; // 0x34
+	::RPG::Client::TextID FGKOGGMACBA; // 0x38
+	::RPG::Client::TextID LEPNNKOAOJF; // 0x48
+	::RPG::Client::TextID NNLLEEHJHMK; // 0x58
+	::RPG::Client::TextID ENACPJCCIAP; // 0x68
+	::RPG::Client::TextID EEJPJOPLIFH; // 0x78
+	::RPG::Client::TextID OENAMINOLLF; // 0x88
+	::RPG::Client::TextID HKDMGOBJIMA; // 0x98
+	::RPG::Client::TextID IIIOIGMEHGG; // 0xA8
+	::RPG::Client::TextID ILEHHBEEDBP; // 0xB8
+	::RPG::Client::TextID CENPLDELHNG; // 0xC8
 
 	::System::Void _ctor()
 	{

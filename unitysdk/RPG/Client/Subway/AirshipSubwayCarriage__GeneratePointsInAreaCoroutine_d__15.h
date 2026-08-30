@@ -6,30 +6,30 @@
 namespace RPG::Client::Subway { class AirshipSubwayCarriage; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_SUBWAY_AIRSHIPSUBWAYCARRIAGE__GENERATEPOINTSINAREACOROUTINE_D__15_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x19C4D8B0)
-#define RPG_CLIENT_SUBWAY_AIRSHIPSUBWAYCARRIAGE__GENERATEPOINTSINAREACOROUTINE_D__15_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x19C4E550)
-#define RPG_CLIENT_SUBWAY_AIRSHIPSUBWAYCARRIAGE__GENERATEPOINTSINAREACOROUTINE_D__15_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x19C4E5B0)
-#define RPG_CLIENT_SUBWAY_AIRSHIPSUBWAYCARRIAGE__GENERATEPOINTSINAREACOROUTINE_D__15_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x19C4E560)
-#define RPG_CLIENT_SUBWAY_AIRSHIPSUBWAYCARRIAGE__GENERATEPOINTSINAREACOROUTINE_D__15_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x19C4D8A0)
-#define RPG_CLIENT_SUBWAY_AIRSHIPSUBWAYCARRIAGE__GENERATEPOINTSINAREACOROUTINE_D__15__CTOR_OFFSET UNITYSDK_OFFSET(0x19C4C710)
+#define RPG_CLIENT_SUBWAY_AIRSHIPSUBWAYCARRIAGE__GENERATEPOINTSINAREACOROUTINE_D__15_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1B4637B0)
+#define RPG_CLIENT_SUBWAY_AIRSHIPSUBWAYCARRIAGE__GENERATEPOINTSINAREACOROUTINE_D__15_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1B464450)
+#define RPG_CLIENT_SUBWAY_AIRSHIPSUBWAYCARRIAGE__GENERATEPOINTSINAREACOROUTINE_D__15_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1B4644B0)
+#define RPG_CLIENT_SUBWAY_AIRSHIPSUBWAYCARRIAGE__GENERATEPOINTSINAREACOROUTINE_D__15_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1B464460)
+#define RPG_CLIENT_SUBWAY_AIRSHIPSUBWAYCARRIAGE__GENERATEPOINTSINAREACOROUTINE_D__15_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B463790)
+#define RPG_CLIENT_SUBWAY_AIRSHIPSUBWAYCARRIAGE__GENERATEPOINTSINAREACOROUTINE_D__15__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4625C0)
 
 namespace RPG::Client::Subway
 {
-	inline static constexpr unsigned int AirshipSubwayCarriage__GeneratePointsInAreaCoroutine_d__15_TypeDefinitionIndex = 76782;
+	inline static constexpr unsigned int AirshipSubwayCarriage__GeneratePointsInAreaCoroutine_d__15_TypeDefinitionIndex = 80822;
 
 	class AirshipSubwayCarriage__GeneratePointsInAreaCoroutine_d__15 : public ::System::Object
 	{
 	public:
-		::RPG::Client::Subway::AirshipSubwayCarriage* __4__this; // 0x10
-		::System::Object* __2__current; // 0x18
-		::Il2CppArray<::System::Single>* _areaWeights_5__7; // 0x20
-		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* _generatedPositions_5__2; // 0x28
-		::System::Single _totalArea_5__8; // 0x30
-		::System::Int32 _successCount_5__3; // 0x34
-		::System::Int32 _totalAttemptCount_5__4; // 0x38
-		::System::Int32 _frameAttemptCount_5__5; // 0x3C
-		::System::Int32 _consecutiveFailures_5__6; // 0x40
-		::System::Int32 __1__state; // 0x44
+		::System::Object* __2__current; // 0x10
+		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* _generatedPositions_5__2; // 0x18
+		::RPG::Client::Subway::AirshipSubwayCarriage* __4__this; // 0x20
+		::Il2CppArray<::System::Single>* _areaWeights_5__7; // 0x28
+		::System::Int32 _successCount_5__3; // 0x30
+		::System::Int32 _frameAttemptCount_5__5; // 0x34
+		::System::Single _totalArea_5__8; // 0x38
+		::System::Int32 _consecutiveFailures_5__6; // 0x3C
+		::System::Int32 __1__state; // 0x40
+		::System::Int32 _totalAttemptCount_5__4; // 0x44
 
 		::System::Void _ctor(::System::Int32 a1)
 		{

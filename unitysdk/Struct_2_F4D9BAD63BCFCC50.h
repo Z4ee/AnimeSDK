@@ -10,20 +10,20 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class SkillData; }
 namespace RPG::GameCore { class TeamFormationComponent; }
 
-#define STRUCT_2_F4D9BAD63BCFCC50_METHOD_2_2E42AE0F9A33183C_OFFSET UNITYSDK_OFFSET(0x14AC4320)
-#define STRUCT_2_F4D9BAD63BCFCC50_METHOD_2_CA73D577EAB50ADB_OFFSET UNITYSDK_OFFSET(0x38D3210)
+#define STRUCT_2_F4D9BAD63BCFCC50_METHOD_2_2E42AE0F9A33183C_OFFSET UNITYSDK_OFFSET(0x1675E100)
+#define STRUCT_2_F4D9BAD63BCFCC50_METHOD_2_CA73D577EAB50ADB_OFFSET UNITYSDK_OFFSET(0x3A95A80)
 
-inline static constexpr unsigned int Struct_2_F4D9BAD63BCFCC50_TypeDefinitionIndex = 55148;
+inline static constexpr unsigned int Struct_2_F4D9BAD63BCFCC50_TypeDefinitionIndex = 57871;
 
 struct alignas(8) Struct_2_F4D9BAD63BCFCC50
 {
-	::RPG::GameCore::CustomTeamFormationRefreshReason Field_2_0; // 0x10
-	::RPG::GameCore::TeamFormationType Field_2_1; // 0x14
-	::RPG::GameCore::TurnState Field_2_2; // 0x18
-	::RPG::GameCore::GameEntity* Field_2_3; // 0x20
-	::RPG::GameCore::SkillData* Field_2_4; // 0x28
-	::RPG::GameCore::VCameraState Field_2_5; // 0x30
-	::System::Boolean Field_2_6; // 0x34
+	::RPG::GameCore::CustomTeamFormationRefreshReason NFKJAMNLPLO; // 0x10
+	::RPG::GameCore::TeamFormationType CGBJOAJEMKN; // 0x14
+	::RPG::GameCore::TurnState PIGMOFHJCOG; // 0x18
+	::RPG::GameCore::GameEntity* BCBBPMNBGEI; // 0x20
+	::RPG::GameCore::SkillData* CEODEDALAHK; // 0x28
+	::RPG::GameCore::VCameraState FIOICBCELHD; // 0x30
+	::System::Boolean ECDCNLHOLPG; // 0x34
 
 	static ::Struct_2_F4D9BAD63BCFCC50 Method_2_2E42AE0F9A33183C(::RPG::GameCore::TeamFormationComponent* a1, ::RPG::GameCore::CustomTeamFormationRefreshReason a2)
 	{

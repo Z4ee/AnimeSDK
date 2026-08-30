@@ -5,19 +5,19 @@
 namespace RPG::Client { class CurveMovementHandler; }
 namespace RPG::Client { class MonoCurveTriggerManager; }
 
-#define RPG_CLIENT_MONOCURVETRIGGERMANAGER___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x10CC2620)
-#define RPG_CLIENT_MONOCURVETRIGGERMANAGER___C__DISPLAYCLASS6_0__SETUPMOVABLEOBJECTTRIGGER_B__0_OFFSET UNITYSDK_OFFSET(0x10CC3EE0)
-#define RPG_CLIENT_MONOCURVETRIGGERMANAGER___C__DISPLAYCLASS6_0__SETUPMOVABLEOBJECTTRIGGER_B__1_OFFSET UNITYSDK_OFFSET(0x10CC3F10)
+#define RPG_CLIENT_MONOCURVETRIGGERMANAGER___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19E3F270)
+#define RPG_CLIENT_MONOCURVETRIGGERMANAGER___C__DISPLAYCLASS6_0__SETUPMOVABLEOBJECTTRIGGER_B__0_OFFSET UNITYSDK_OFFSET(0x19E40BB0)
+#define RPG_CLIENT_MONOCURVETRIGGERMANAGER___C__DISPLAYCLASS6_0__SETUPMOVABLEOBJECTTRIGGER_B__1_OFFSET UNITYSDK_OFFSET(0x19E40BE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoCurveTriggerManager___c__DisplayClass6_0_TypeDefinitionIndex = 65512;
+	inline static constexpr unsigned int MonoCurveTriggerManager___c__DisplayClass6_0_TypeDefinitionIndex = 68527;
 
 	class MonoCurveTriggerManager___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::CurveMovementHandler* handler; // 0x10
-		::RPG::Client::MonoCurveTriggerManager* __4__this; // 0x18
+		::RPG::Client::MonoCurveTriggerManager* __4__this; // 0x10
+		::RPG::Client::CurveMovementHandler* handler; // 0x18
 
 		::System::Void _ctor()
 		{

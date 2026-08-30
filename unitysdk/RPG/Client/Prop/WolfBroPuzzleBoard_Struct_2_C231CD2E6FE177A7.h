@@ -7,11 +7,11 @@ namespace RPG::GameCore { class GameEntity; }
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int WolfBroPuzzleBoard_Struct_2_C231CD2E6FE177A7_TypeDefinitionIndex = 74734;
+	inline static constexpr unsigned int WolfBroPuzzleBoard_Struct_2_C231CD2E6FE177A7_TypeDefinitionIndex = 78219;
 
 	struct alignas(8) WolfBroPuzzleBoard_Struct_2_C231CD2E6FE177A7
 	{
-		::UnityEngine::Vector3Int Field_2_0; // 0x10
-		::RPG::GameCore::GameEntity* Field_2_1; // 0x20
+		::UnityEngine::Vector3Int PECPBEOHOJC; // 0x10
+		::RPG::GameCore::GameEntity* GGKGFABFGFE; // 0x20
 	};
 }

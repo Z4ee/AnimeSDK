@@ -11,26 +11,26 @@ namespace UnityEngine { class Animation; }
 namespace UnityEngine { class ParticleSystem; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_GRIDFIGHTGOLDFLYEFFECT_DESPAWNED_OFFSET UNITYSDK_OFFSET(0x194FAAA0)
-#define RPG_CLIENT_GRIDFIGHTGOLDFLYEFFECT_ONCREATE_OFFSET UNITYSDK_OFFSET(0x194FA7F0)
-#define RPG_CLIENT_GRIDFIGHTGOLDFLYEFFECT_PLAY_OFFSET UNITYSDK_OFFSET(0x194FAAE0)
-#define RPG_CLIENT_GRIDFIGHTGOLDFLYEFFECT_SPAWNED_OFFSET UNITYSDK_OFFSET(0x194FAA60)
-#define RPG_CLIENT_GRIDFIGHTGOLDFLYEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x194FAD60)
+#define RPG_CLIENT_GRIDFIGHTGOLDFLYEFFECT_DESPAWNED_OFFSET UNITYSDK_OFFSET(0x1BA40940)
+#define RPG_CLIENT_GRIDFIGHTGOLDFLYEFFECT_ONCREATE_OFFSET UNITYSDK_OFFSET(0x1BA40660)
+#define RPG_CLIENT_GRIDFIGHTGOLDFLYEFFECT_PLAY_OFFSET UNITYSDK_OFFSET(0x1BA40980)
+#define RPG_CLIENT_GRIDFIGHTGOLDFLYEFFECT_SPAWNED_OFFSET UNITYSDK_OFFSET(0x1BA40900)
+#define RPG_CLIENT_GRIDFIGHTGOLDFLYEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA40C00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGoldFlyEffect_TypeDefinitionIndex = 61573;
+	inline static constexpr unsigned int GridFightGoldFlyEffect_TypeDefinitionIndex = 64557;
 
 	class GridFightGoldFlyEffect : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		::UnityEngine::Transform* Field_5_0; // 0x18
-		::UnityEngine::Transform* Field_5_1; // 0x20
-		::RPG::Client::QuadricBezier* Field_5_2; // 0x28
-		::UnityEngine::ParticleSystem* Field_5_3; // 0x30
-		::UnityEngine::Animation* Field_5_4; // 0x38
-		::System::Single Field_5_5; // 0x40
-		::System::String* Field_5_6; // 0x48
+		::UnityEngine::Transform* KNGEKPKBIDK; // 0x18
+		::UnityEngine::Transform* GNPBGAKIAHM; // 0x20
+		::RPG::Client::QuadricBezier* BKHMEKLPNHJ; // 0x28
+		::UnityEngine::ParticleSystem* HDNJKMJLOOG; // 0x30
+		::UnityEngine::Animation* KCOAILOHDND; // 0x38
+		::System::Single HBDJCFFDGDD; // 0x40
+		::System::String* JHEOPCPGBDF; // 0x48
 
 		::System::Void _ctor()
 		{

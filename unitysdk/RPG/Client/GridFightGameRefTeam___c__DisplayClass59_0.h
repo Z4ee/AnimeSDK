@@ -7,18 +7,18 @@ class Class_1_BE77F98C85B2B14F;
 namespace RPG::Client { class GridFightGameRefTeam; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_GRIDFIGHTGAMEREFTEAM___C__DISPLAYCLASS59_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1ABFD450)
-#define RPG_CLIENT_GRIDFIGHTGAMEREFTEAM___C__DISPLAYCLASS59_0___SYNCTEAM_B__0_OFFSET UNITYSDK_OFFSET(0x1ABFEC00)
+#define RPG_CLIENT_GRIDFIGHTGAMEREFTEAM___C__DISPLAYCLASS59_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA2A5F0)
+#define RPG_CLIENT_GRIDFIGHTGAMEREFTEAM___C__DISPLAYCLASS59_0___SYNCTEAM_B__0_OFFSET UNITYSDK_OFFSET(0x1BA2BD90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGameRefTeam___c__DisplayClass59_0_TypeDefinitionIndex = 61884;
+	inline static constexpr unsigned int GridFightGameRefTeam___c__DisplayClass59_0_TypeDefinitionIndex = 64869;
 
 	class GridFightGameRefTeam___c__DisplayClass59_0 : public ::System::Object
 	{
 	public:
-		::Class_1_BE77F98C85B2B14F* teamFactory; // 0x10
-		::RPG::Client::GridFightGameRefTeam* __4__this; // 0x18
+		::RPG::Client::GridFightGameRefTeam* __4__this; // 0x10
+		::Class_1_BE77F98C85B2B14F* teamFactory; // 0x18
 		::System::Collections::Generic::List_1<::Class_1_35769E9BC1F47769_Class_1_3E75962FCD9FB58B*>* appendingFinalRoles; // 0x20
 
 		::System::Void _ctor()

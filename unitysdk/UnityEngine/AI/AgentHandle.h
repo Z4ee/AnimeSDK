@@ -4,7 +4,7 @@
 
 namespace UnityEngine::AI
 {
-	inline static constexpr unsigned int AgentHandle_TypeDefinitionIndex = 5670;
+	inline static constexpr unsigned int AgentHandle_TypeDefinitionIndex = 5659;
 
 	struct alignas(4) AgentHandle
 	{

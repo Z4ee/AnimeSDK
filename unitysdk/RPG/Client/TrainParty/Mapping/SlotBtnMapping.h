@@ -8,30 +8,30 @@ namespace UnityEngine { class Camera; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_TRAINPARTY_MAPPING_SLOTBTNMAPPING_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1A29DF50)
-#define RPG_CLIENT_TRAINPARTY_MAPPING_SLOTBTNMAPPING_METHOD_5_AECF8BEC293ED42A_OFFSET UNITYSDK_OFFSET(0x1A29DEA0)
-#define RPG_CLIENT_TRAINPARTY_MAPPING_SLOTBTNMAPPING_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1A29E2E0)
-#define RPG_CLIENT_TRAINPARTY_MAPPING_SLOTBTNMAPPING_START_OFFSET UNITYSDK_OFFSET(0x1A29DBE0)
-#define RPG_CLIENT_TRAINPARTY_MAPPING_SLOTBTNMAPPING__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A29E3C0)
-#define RPG_CLIENT_TRAINPARTY_MAPPING_SLOTBTNMAPPING__CTOR_OFFSET UNITYSDK_OFFSET(0x1A29E3B0)
+#define RPG_CLIENT_TRAINPARTY_MAPPING_SLOTBTNMAPPING_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1BDCFA10)
+#define RPG_CLIENT_TRAINPARTY_MAPPING_SLOTBTNMAPPING_METHOD_5_AECF8BEC293ED42A_OFFSET UNITYSDK_OFFSET(0x1BDCF950)
+#define RPG_CLIENT_TRAINPARTY_MAPPING_SLOTBTNMAPPING_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1BDCFDA0)
+#define RPG_CLIENT_TRAINPARTY_MAPPING_SLOTBTNMAPPING_START_OFFSET UNITYSDK_OFFSET(0x1BDCF690)
+#define RPG_CLIENT_TRAINPARTY_MAPPING_SLOTBTNMAPPING__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BDCFE80)
+#define RPG_CLIENT_TRAINPARTY_MAPPING_SLOTBTNMAPPING__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDCFE70)
 
 namespace RPG::Client::TrainParty::Mapping
 {
-	inline static constexpr unsigned int SlotBtnMapping_TypeDefinitionIndex = 70976;
+	inline static constexpr unsigned int SlotBtnMapping_TypeDefinitionIndex = 74275;
 
 	class SlotBtnMapping : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::UnityEngine::Vector3* StaticGet_Field_5_0()
+		static ::UnityEngine::Vector3* StaticGet_FIHGKAPBIKF()
 		{
-			return (::UnityEngine::Vector3*)Il2CppClass::FromTypeDefinitionIndex(SlotBtnMapping_TypeDefinitionIndex)->GetStaticField(0xBE80);
+			return (::UnityEngine::Vector3*)Il2CppClass::FromTypeDefinitionIndex(SlotBtnMapping_TypeDefinitionIndex)->GetStaticField(0x12DD0);
 		}
 		::System::UInt32 _SlotID; // 0x18
-		::UnityEngine::Vector3 Field_5_2; // 0x1C
-		::UnityEngine::Transform* Field_5_3; // 0x28
-		::UnityEngine::RectTransform* Field_5_4; // 0x30
-		::UnityEngine::RectTransform* Field_5_5; // 0x38
-		::UnityEngine::Camera* Field_5_6; // 0x40
+		::UnityEngine::Vector3 IKKNJMJCDOJ; // 0x1C
+		::UnityEngine::Transform* OJAHLJGABMJ; // 0x28
+		::UnityEngine::RectTransform* BDCKIHNMDDK; // 0x30
+		::UnityEngine::RectTransform* EODDCCMLIHH; // 0x38
+		::UnityEngine::Camera* DMBMOHJLNEN; // 0x40
 
 		::System::Void _ctor()
 		{

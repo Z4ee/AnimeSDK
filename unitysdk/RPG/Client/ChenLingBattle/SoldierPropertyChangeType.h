@@ -3,7 +3,7 @@
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int SoldierPropertyChangeType_TypeDefinitionIndex = 72329;
+	inline static constexpr unsigned int SoldierPropertyChangeType_TypeDefinitionIndex = 75765;
 
 	enum class SoldierPropertyChangeType : ::System::Int32
 	{

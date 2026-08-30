@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_F9FBCC956DFCF137_4.h"
+#include "unitysdk/Class_1_F9FBCC956DFCF137_5.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 
 class Class_1_AC66714FF5876767;
 namespace RPG::GameCore { class CheckTargetDistanceAxis; }
 
-#define CLASS_2_09E96E45E8A5CE2A_METHOD_2_E2C273CA106EBD0B_OFFSET UNITYSDK_OFFSET(0x140D4B10)
-#define CLASS_2_09E96E45E8A5CE2A__CTOR_OFFSET UNITYSDK_OFFSET(0x140D4B00)
+#define CLASS_2_09E96E45E8A5CE2A_METHOD_2_E2C273CA106EBD0B_OFFSET UNITYSDK_OFFSET(0x172228C0)
+#define CLASS_2_09E96E45E8A5CE2A__CTOR_OFFSET UNITYSDK_OFFSET(0x172228B0)
 
-inline static constexpr unsigned int Class_2_09E96E45E8A5CE2A_TypeDefinitionIndex = 51904;
+inline static constexpr unsigned int Class_2_09E96E45E8A5CE2A_TypeDefinitionIndex = 54588;
 
-class Class_2_09E96E45E8A5CE2A : public ::Class_1_F9FBCC956DFCF137_4
+class Class_2_09E96E45E8A5CE2A : public ::Class_1_F9FBCC956DFCF137_5
 {
 public:
-	::RPG::GameCore::CheckTargetDistanceAxis* Field_2_0; // 0x18
+	::RPG::GameCore::CheckTargetDistanceAxis* IGHAHBNLIJA; // 0x18
 
 	::System::Void _ctor(::RPG::GameCore::CheckTargetDistanceAxis* a1, ::Class_1_AC66714FF5876767* a2)
 	{

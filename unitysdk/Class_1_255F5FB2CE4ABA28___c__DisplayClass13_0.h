@@ -7,16 +7,16 @@ class Class_1_5F4D64A4B97E38F9;
 class Class_1_A3520E3BCB4F735C;
 namespace RPG::Client::Promises { class Promise; }
 
-#define CLASS_1_255F5FB2CE4ABA28___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1600F6A0)
-#define CLASS_1_255F5FB2CE4ABA28___C__DISPLAYCLASS13_0__SHOWWEEKSETTLE_OFFLINE_B__0_OFFSET UNITYSDK_OFFSET(0x1600FEE0)
+#define CLASS_1_255F5FB2CE4ABA28___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16E9B800)
+#define CLASS_1_255F5FB2CE4ABA28___C__DISPLAYCLASS13_0__SHOWWEEKSETTLE_OFFLINE_B__0_OFFSET UNITYSDK_OFFSET(0x16E9C040)
 
-inline static constexpr unsigned int Class_1_255F5FB2CE4ABA28___c__DisplayClass13_0_TypeDefinitionIndex = 76332;
+inline static constexpr unsigned int Class_1_255F5FB2CE4ABA28___c__DisplayClass13_0_TypeDefinitionIndex = 79965;
 
 class Class_1_255F5FB2CE4ABA28___c__DisplayClass13_0 : public ::System::Object
 {
 public:
-	::RPG::Client::Promises::Promise* promise; // 0x10
-	::Class_1_255F5FB2CE4ABA28* __4__this; // 0x18
+	::Class_1_255F5FB2CE4ABA28* __4__this; // 0x10
+	::RPG::Client::Promises::Promise* promise; // 0x18
 	::Class_1_A3520E3BCB4F735C* week; // 0x20
 	::Class_1_5F4D64A4B97E38F9* messenger; // 0x28
 

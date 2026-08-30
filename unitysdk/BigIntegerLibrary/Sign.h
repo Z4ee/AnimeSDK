@@ -3,7 +3,7 @@
 
 namespace BigIntegerLibrary
 {
-	inline static constexpr unsigned int Sign_TypeDefinitionIndex = 6484;
+	inline static constexpr unsigned int Sign_TypeDefinitionIndex = 7029;
 
 	enum class Sign : ::System::Int32
 	{

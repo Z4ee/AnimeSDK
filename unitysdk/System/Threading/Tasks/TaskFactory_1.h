@@ -18,7 +18,7 @@ namespace System::Threading::Tasks { template <typename T> class Task_1; }
 
 namespace System::Threading::Tasks
 {
-	inline static constexpr unsigned int TaskFactory_1_TypeDefinitionIndex = 887;
+	inline static constexpr unsigned int TaskFactory_1_TypeDefinitionIndex = 891;
 
 	template <typename TResult>
 	class TaskFactory_1 : public ::System::Object

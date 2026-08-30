@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace RPG::Client::FateRin::Battle
 {
-	inline static constexpr unsigned int IFateRinBattleModifierHintViewModel_TypeDefinitionIndex = 75987;
+	inline static constexpr unsigned int IFateRinBattleModifierHintViewModel_TypeDefinitionIndex = 79620;
 
 	class IFateRinBattleModifierHintViewModel
 	{

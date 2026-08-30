@@ -4,12 +4,12 @@
 
 class Class_1_09B5AE4A49F8C191;
 
-#define RPG_CLIENT_MAINMISSIONDATA___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15C00F30)
-#define RPG_CLIENT_MAINMISSIONDATA___C__DISPLAYCLASS14_0__ONHOYOGROUPACTIVECHANGE_B__0_OFFSET UNITYSDK_OFFSET(0x15C0EC10)
+#define RPG_CLIENT_MAINMISSIONDATA___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1749AEC0)
+#define RPG_CLIENT_MAINMISSIONDATA___C__DISPLAYCLASS14_0__ONHOYOGROUPACTIVECHANGE_B__0_OFFSET UNITYSDK_OFFSET(0x174A8DF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MainMissionData___c__DisplayClass14_0_TypeDefinitionIndex = 63193;
+	inline static constexpr unsigned int MainMissionData___c__DisplayClass14_0_TypeDefinitionIndex = 66178;
 
 	class MainMissionData___c__DisplayClass14_0 : public ::System::Object
 	{

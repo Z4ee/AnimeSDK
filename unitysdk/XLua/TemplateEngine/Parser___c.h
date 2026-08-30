@@ -7,46 +7,46 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Text::RegularExpressions { class Capture; }
 namespace XLua::TemplateEngine { class Chunk; }
-template <typename T1, typename T2, typename T3> class __f__AnonymousType9_3;
+template <typename T1, typename T2, typename T3> class __f__AnonymousType11_3;
 
-#define XLUA_TEMPLATEENGINE_PARSER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xE9631A0)
-#define XLUA_TEMPLATEENGINE_PARSER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xE9631E0)
-#define XLUA_TEMPLATEENGINE_PARSER___C__PARSE_B__7_0_OFFSET UNITYSDK_OFFSET(0xE9631F0)
-#define XLUA_TEMPLATEENGINE_PARSER___C__PARSE_B__7_1_OFFSET UNITYSDK_OFFSET(0xE963270)
-#define XLUA_TEMPLATEENGINE_PARSER___C__PARSE_B__7_2_OFFSET UNITYSDK_OFFSET(0xE963310)
-#define XLUA_TEMPLATEENGINE_PARSER___C__PARSE_B__7_3_OFFSET UNITYSDK_OFFSET(0xE963390)
-#define XLUA_TEMPLATEENGINE_PARSER___C__PARSE_B__7_4_OFFSET UNITYSDK_OFFSET(0xE9633B0)
+#define XLUA_TEMPLATEENGINE_PARSER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xCDE2410)
+#define XLUA_TEMPLATEENGINE_PARSER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xCDE2450)
+#define XLUA_TEMPLATEENGINE_PARSER___C__PARSE_B__7_0_OFFSET UNITYSDK_OFFSET(0xCDE2460)
+#define XLUA_TEMPLATEENGINE_PARSER___C__PARSE_B__7_1_OFFSET UNITYSDK_OFFSET(0xCDE24E0)
+#define XLUA_TEMPLATEENGINE_PARSER___C__PARSE_B__7_2_OFFSET UNITYSDK_OFFSET(0xCDE2580)
+#define XLUA_TEMPLATEENGINE_PARSER___C__PARSE_B__7_3_OFFSET UNITYSDK_OFFSET(0xCDE2600)
+#define XLUA_TEMPLATEENGINE_PARSER___C__PARSE_B__7_4_OFFSET UNITYSDK_OFFSET(0xCDE2620)
 
 namespace XLua::TemplateEngine
 {
-	inline static constexpr unsigned int Parser___c_TypeDefinitionIndex = 48029;
+	inline static constexpr unsigned int Parser___c_TypeDefinitionIndex = 50620;
 
 	class Parser___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Text::RegularExpressions::Capture*, ::__f__AnonymousType9_3<::XLua::TemplateEngine::TokenType, ::System::String*, ::System::Int32>*>** StaticGet___9__7_2()
+		static ::System::Func_2<::__f__AnonymousType11_3<::XLua::TemplateEngine::TokenType, ::System::String*, ::System::Int32>*, ::System::Int32>** StaticGet___9__7_3()
 		{
-			return (::System::Func_2<::System::Text::RegularExpressions::Capture*, ::__f__AnonymousType9_3<::XLua::TemplateEngine::TokenType, ::System::String*, ::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(Parser___c_TypeDefinitionIndex)->GetStaticField(0x33230);
+			return (::System::Func_2<::__f__AnonymousType11_3<::XLua::TemplateEngine::TokenType, ::System::String*, ::System::Int32>*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Parser___c_TypeDefinitionIndex)->GetStaticField(0x6CC90);
 		}
-		static ::System::Func_2<::System::Text::RegularExpressions::Capture*, ::__f__AnonymousType9_3<::XLua::TemplateEngine::TokenType, ::System::String*, ::System::Int32>*>** StaticGet___9__7_1()
+		static ::System::Func_2<::System::Text::RegularExpressions::Capture*, ::__f__AnonymousType11_3<::XLua::TemplateEngine::TokenType, ::System::String*, ::System::Int32>*>** StaticGet___9__7_1()
 		{
-			return (::System::Func_2<::System::Text::RegularExpressions::Capture*, ::__f__AnonymousType9_3<::XLua::TemplateEngine::TokenType, ::System::String*, ::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(Parser___c_TypeDefinitionIndex)->GetStaticField(0x33238);
+			return (::System::Func_2<::System::Text::RegularExpressions::Capture*, ::__f__AnonymousType11_3<::XLua::TemplateEngine::TokenType, ::System::String*, ::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(Parser___c_TypeDefinitionIndex)->GetStaticField(0x6CC98);
 		}
-		static ::System::Func_2<::__f__AnonymousType9_3<::XLua::TemplateEngine::TokenType, ::System::String*, ::System::Int32>*, ::System::Int32>** StaticGet___9__7_3()
+		static ::System::Func_2<::System::Text::RegularExpressions::Capture*, ::__f__AnonymousType11_3<::XLua::TemplateEngine::TokenType, ::System::String*, ::System::Int32>*>** StaticGet___9__7_0()
 		{
-			return (::System::Func_2<::__f__AnonymousType9_3<::XLua::TemplateEngine::TokenType, ::System::String*, ::System::Int32>*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Parser___c_TypeDefinitionIndex)->GetStaticField(0x33240);
+			return (::System::Func_2<::System::Text::RegularExpressions::Capture*, ::__f__AnonymousType11_3<::XLua::TemplateEngine::TokenType, ::System::String*, ::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(Parser___c_TypeDefinitionIndex)->GetStaticField(0x6CCA0);
+		}
+		static ::System::Func_2<::__f__AnonymousType11_3<::XLua::TemplateEngine::TokenType, ::System::String*, ::System::Int32>*, ::XLua::TemplateEngine::Chunk*>** StaticGet___9__7_4()
+		{
+			return (::System::Func_2<::__f__AnonymousType11_3<::XLua::TemplateEngine::TokenType, ::System::String*, ::System::Int32>*, ::XLua::TemplateEngine::Chunk*>**)Il2CppClass::FromTypeDefinitionIndex(Parser___c_TypeDefinitionIndex)->GetStaticField(0x6CCA8);
+		}
+		static ::System::Func_2<::System::Text::RegularExpressions::Capture*, ::__f__AnonymousType11_3<::XLua::TemplateEngine::TokenType, ::System::String*, ::System::Int32>*>** StaticGet___9__7_2()
+		{
+			return (::System::Func_2<::System::Text::RegularExpressions::Capture*, ::__f__AnonymousType11_3<::XLua::TemplateEngine::TokenType, ::System::String*, ::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(Parser___c_TypeDefinitionIndex)->GetStaticField(0x6CCB0);
 		}
 		static ::XLua::TemplateEngine::Parser___c** StaticGet___9()
 		{
-			return (::XLua::TemplateEngine::Parser___c**)Il2CppClass::FromTypeDefinitionIndex(Parser___c_TypeDefinitionIndex)->GetStaticField(0x33248);
-		}
-		static ::System::Func_2<::__f__AnonymousType9_3<::XLua::TemplateEngine::TokenType, ::System::String*, ::System::Int32>*, ::XLua::TemplateEngine::Chunk*>** StaticGet___9__7_4()
-		{
-			return (::System::Func_2<::__f__AnonymousType9_3<::XLua::TemplateEngine::TokenType, ::System::String*, ::System::Int32>*, ::XLua::TemplateEngine::Chunk*>**)Il2CppClass::FromTypeDefinitionIndex(Parser___c_TypeDefinitionIndex)->GetStaticField(0x33250);
-		}
-		static ::System::Func_2<::System::Text::RegularExpressions::Capture*, ::__f__AnonymousType9_3<::XLua::TemplateEngine::TokenType, ::System::String*, ::System::Int32>*>** StaticGet___9__7_0()
-		{
-			return (::System::Func_2<::System::Text::RegularExpressions::Capture*, ::__f__AnonymousType9_3<::XLua::TemplateEngine::TokenType, ::System::String*, ::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(Parser___c_TypeDefinitionIndex)->GetStaticField(0x33258);
+			return (::XLua::TemplateEngine::Parser___c**)Il2CppClass::FromTypeDefinitionIndex(Parser___c_TypeDefinitionIndex)->GetStaticField(0x6CCB8);
 		}
 
 		static ::System::Void _cctor()
@@ -59,29 +59,29 @@ namespace XLua::TemplateEngine
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + XLUA_TEMPLATEENGINE_PARSER___C__CTOR_OFFSET))(this);
 		}
 
-		::__f__AnonymousType9_3<::XLua::TemplateEngine::TokenType, ::System::String*, ::System::Int32>* _Parse_b__7_0(::System::Text::RegularExpressions::Capture* a1)
+		::__f__AnonymousType11_3<::XLua::TemplateEngine::TokenType, ::System::String*, ::System::Int32>* _Parse_b__7_0(::System::Text::RegularExpressions::Capture* a1)
 		{
-			return ((::__f__AnonymousType9_3<::XLua::TemplateEngine::TokenType, ::System::String*, ::System::Int32>*(*)(::PVOID, ::System::Text::RegularExpressions::Capture*))((::PBYTE)hIl2Cpp + XLUA_TEMPLATEENGINE_PARSER___C__PARSE_B__7_0_OFFSET))(this, a1);
+			return ((::__f__AnonymousType11_3<::XLua::TemplateEngine::TokenType, ::System::String*, ::System::Int32>*(*)(::PVOID, ::System::Text::RegularExpressions::Capture*))((::PBYTE)hIl2Cpp + XLUA_TEMPLATEENGINE_PARSER___C__PARSE_B__7_0_OFFSET))(this, a1);
 		}
 
-		::__f__AnonymousType9_3<::XLua::TemplateEngine::TokenType, ::System::String*, ::System::Int32>* _Parse_b__7_1(::System::Text::RegularExpressions::Capture* a1)
+		::__f__AnonymousType11_3<::XLua::TemplateEngine::TokenType, ::System::String*, ::System::Int32>* _Parse_b__7_1(::System::Text::RegularExpressions::Capture* a1)
 		{
-			return ((::__f__AnonymousType9_3<::XLua::TemplateEngine::TokenType, ::System::String*, ::System::Int32>*(*)(::PVOID, ::System::Text::RegularExpressions::Capture*))((::PBYTE)hIl2Cpp + XLUA_TEMPLATEENGINE_PARSER___C__PARSE_B__7_1_OFFSET))(this, a1);
+			return ((::__f__AnonymousType11_3<::XLua::TemplateEngine::TokenType, ::System::String*, ::System::Int32>*(*)(::PVOID, ::System::Text::RegularExpressions::Capture*))((::PBYTE)hIl2Cpp + XLUA_TEMPLATEENGINE_PARSER___C__PARSE_B__7_1_OFFSET))(this, a1);
 		}
 
-		::__f__AnonymousType9_3<::XLua::TemplateEngine::TokenType, ::System::String*, ::System::Int32>* _Parse_b__7_2(::System::Text::RegularExpressions::Capture* a1)
+		::__f__AnonymousType11_3<::XLua::TemplateEngine::TokenType, ::System::String*, ::System::Int32>* _Parse_b__7_2(::System::Text::RegularExpressions::Capture* a1)
 		{
-			return ((::__f__AnonymousType9_3<::XLua::TemplateEngine::TokenType, ::System::String*, ::System::Int32>*(*)(::PVOID, ::System::Text::RegularExpressions::Capture*))((::PBYTE)hIl2Cpp + XLUA_TEMPLATEENGINE_PARSER___C__PARSE_B__7_2_OFFSET))(this, a1);
+			return ((::__f__AnonymousType11_3<::XLua::TemplateEngine::TokenType, ::System::String*, ::System::Int32>*(*)(::PVOID, ::System::Text::RegularExpressions::Capture*))((::PBYTE)hIl2Cpp + XLUA_TEMPLATEENGINE_PARSER___C__PARSE_B__7_2_OFFSET))(this, a1);
 		}
 
-		::System::Int32 _Parse_b__7_3(::__f__AnonymousType9_3<::XLua::TemplateEngine::TokenType, ::System::String*, ::System::Int32>* a1)
+		::System::Int32 _Parse_b__7_3(::__f__AnonymousType11_3<::XLua::TemplateEngine::TokenType, ::System::String*, ::System::Int32>* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::__f__AnonymousType9_3<::XLua::TemplateEngine::TokenType, ::System::String*, ::System::Int32>*))((::PBYTE)hIl2Cpp + XLUA_TEMPLATEENGINE_PARSER___C__PARSE_B__7_3_OFFSET))(this, a1);
+			return ((::System::Int32(*)(::PVOID, ::__f__AnonymousType11_3<::XLua::TemplateEngine::TokenType, ::System::String*, ::System::Int32>*))((::PBYTE)hIl2Cpp + XLUA_TEMPLATEENGINE_PARSER___C__PARSE_B__7_3_OFFSET))(this, a1);
 		}
 
-		::XLua::TemplateEngine::Chunk* _Parse_b__7_4(::__f__AnonymousType9_3<::XLua::TemplateEngine::TokenType, ::System::String*, ::System::Int32>* a1)
+		::XLua::TemplateEngine::Chunk* _Parse_b__7_4(::__f__AnonymousType11_3<::XLua::TemplateEngine::TokenType, ::System::String*, ::System::Int32>* a1)
 		{
-			return ((::XLua::TemplateEngine::Chunk*(*)(::PVOID, ::__f__AnonymousType9_3<::XLua::TemplateEngine::TokenType, ::System::String*, ::System::Int32>*))((::PBYTE)hIl2Cpp + XLUA_TEMPLATEENGINE_PARSER___C__PARSE_B__7_4_OFFSET))(this, a1);
+			return ((::XLua::TemplateEngine::Chunk*(*)(::PVOID, ::__f__AnonymousType11_3<::XLua::TemplateEngine::TokenType, ::System::String*, ::System::Int32>*))((::PBYTE)hIl2Cpp + XLUA_TEMPLATEENGINE_PARSER___C__PARSE_B__7_4_OFFSET))(this, a1);
 		}
 	};
 }

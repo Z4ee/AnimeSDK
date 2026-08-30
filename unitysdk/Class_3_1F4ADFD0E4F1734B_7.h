@@ -6,15 +6,15 @@
 class Class_3_44D35BAFA44CC880;
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_1F4ADFD0E4F1734B_7_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE4F0320)
-#define CLASS_3_1F4ADFD0E4F1734B_7__CTOR_OFFSET UNITYSDK_OFFSET(0xE4F0240)
+#define CLASS_3_1F4ADFD0E4F1734B_7_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x105D6C80)
+#define CLASS_3_1F4ADFD0E4F1734B_7__CTOR_OFFSET UNITYSDK_OFFSET(0x105D6BA0)
 
-inline static constexpr unsigned int Class_3_1F4ADFD0E4F1734B_7_TypeDefinitionIndex = 53199;
+inline static constexpr unsigned int Class_3_1F4ADFD0E4F1734B_7_TypeDefinitionIndex = 55912;
 
 class Class_3_1F4ADFD0E4F1734B_7 : public ::RPG::GameCore::ImmediateTaskBase_1<::Class_3_44D35BAFA44CC880*>
 {
 public:
-	::RPG::GameCore::StringHash Field_3_0; // 0x28
+	::RPG::GameCore::StringHash DIJHOMCLPEG; // 0x28
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::Class_3_44D35BAFA44CC880* a2)
 	{

@@ -8,32 +8,32 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define CLASS_1_F1C4ADA7BCD78942_METHOD_1_E9A2160FD348DB23_OFFSET UNITYSDK_OFFSET(0x1B611EC0)
-#define CLASS_1_F1C4ADA7BCD78942__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6126C0)
+#define CLASS_1_F1C4ADA7BCD78942_METHOD_1_E9A2160FD348DB23_OFFSET UNITYSDK_OFFSET(0x1CF0D950)
+#define CLASS_1_F1C4ADA7BCD78942__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF0E150)
 
-inline static constexpr unsigned int Class_1_F1C4ADA7BCD78942_TypeDefinitionIndex = 11116;
+inline static constexpr unsigned int Class_1_F1C4ADA7BCD78942_TypeDefinitionIndex = 11505;
 
 class Class_1_F1C4ADA7BCD78942 : public ::System::Object
 {
 public:
-	::Il2CppArray<::System::UInt32>* Field_1_0; // 0x10
-	::Il2CppArray<::RPG::GameCore::FixPoint>* Field_1_1; // 0x18
-	::Il2CppArray<::System::String*>* Field_1_2; // 0x20
-	::Il2CppArray<::System::UInt32>* Field_1_3; // 0x28
-	::System::String* Field_1_4; // 0x30
-	::System::String* Field_1_5; // 0x38
-	::System::String* Field_1_6; // 0x40
-	::RPG::Client::TextID Field_1_7; // 0x48
-	::System::UInt32 Field_1_8; // 0x58
-	::RPG::GameCore::FateTraitType Field_1_9; // 0x5C
-	::RPG::Client::TextID Field_1_10; // 0x60
-	::RPG::Client::TextID Field_1_11; // 0x70
-	::RPG::Client::TextID Field_1_12; // 0x80
-	::RPG::Client::TextID Field_1_13; // 0x90
-	::RPG::Client::TextID Field_1_14; // 0xA0
-	::RPG::Client::TextID Field_1_15; // 0xB0
-	::System::UInt32 Field_1_16; // 0xC0
-	::System::UInt32 Field_1_17; // 0xC4
+	::Il2CppArray<::System::UInt32>* BEOGEKDEPLO; // 0x10
+	::System::String* MFGKFAMKMFH; // 0x18
+	::System::String* ELNGIJIGJOO; // 0x20
+	::Il2CppArray<::System::String*>* CCBONMNIPPL; // 0x28
+	::System::String* AJLLAEEDBJL; // 0x30
+	::Il2CppArray<::RPG::GameCore::FixPoint>* PBLPLDJKPEI; // 0x38
+	::Il2CppArray<::System::UInt32>* KCBDHKEKNHD; // 0x40
+	::RPG::Client::TextID HCCMEBGFMCE; // 0x48
+	::RPG::Client::TextID DFMLAIADNGI; // 0x58
+	::RPG::Client::TextID DHKNKNGGJCK; // 0x68
+	::RPG::Client::TextID NHLFBFKBOEK; // 0x78
+	::RPG::Client::TextID PDDPFOBKIEN; // 0x88
+	::RPG::Client::TextID NLIPGMKKIED; // 0x98
+	::RPG::Client::TextID KBNHPKIOGLH; // 0xA8
+	::System::UInt32 ODEKADIBFAO; // 0xB8
+	::System::UInt32 BNCKFPAGOMF; // 0xBC
+	::System::UInt32 PDMDDELEAAG; // 0xC0
+	::RPG::GameCore::FateTraitType FBFCPNADPKB; // 0xC4
 
 	::System::Void _ctor()
 	{

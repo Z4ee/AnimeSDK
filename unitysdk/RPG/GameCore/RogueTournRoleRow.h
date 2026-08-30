@@ -4,18 +4,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUETOURNROLEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1BB7CE90)
-#define RPG_GAMECORE_ROGUETOURNROLEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB7CF80)
+#define RPG_GAMECORE_ROGUETOURNROLEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CCCB140)
+#define RPG_GAMECORE_ROGUETOURNROLEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CCCB230)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTournRoleRow_TypeDefinitionIndex = 14416;
+	inline static constexpr unsigned int RogueTournRoleRow_TypeDefinitionIndex = 14836;
 
 	class RogueTournRoleRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 AvatarID; // 0x10
-		::System::UInt32 BuffID; // 0x14
+		::System::UInt32 BuffID; // 0x10
+		::System::UInt32 AvatarID; // 0x14
 
 		::System::Void _ctor()
 		{

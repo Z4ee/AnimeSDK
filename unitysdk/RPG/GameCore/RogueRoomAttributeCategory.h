@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueRoomAttributeCategory_TypeDefinitionIndex = 10245;
+	inline static constexpr unsigned int RogueRoomAttributeCategory_TypeDefinitionIndex = 10582;
 
 	enum class RogueRoomAttributeCategory : ::System::Int32
 	{

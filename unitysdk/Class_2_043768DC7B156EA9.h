@@ -5,16 +5,16 @@
 class Class_1_D8BECDCE48063EC7;
 namespace RPG::GameCore { class DiceCombatTaskConfig_ShowBossPersistentTipsView; }
 
-#define CLASS_2_043768DC7B156EA9_METHOD_2_41A074549EF25F63_OFFSET UNITYSDK_OFFSET(0x17AF8CC0)
-#define CLASS_2_043768DC7B156EA9__CTOR_OFFSET UNITYSDK_OFFSET(0x17AF8CB0)
+#define CLASS_2_043768DC7B156EA9_METHOD_2_41A074549EF25F63_OFFSET UNITYSDK_OFFSET(0x196F8CC0)
+#define CLASS_2_043768DC7B156EA9__CTOR_OFFSET UNITYSDK_OFFSET(0x196F8CB0)
 
-inline static constexpr unsigned int Class_2_043768DC7B156EA9_TypeDefinitionIndex = 34747;
+inline static constexpr unsigned int Class_2_043768DC7B156EA9_TypeDefinitionIndex = 35608;
 
 class Class_2_043768DC7B156EA9 : public ::Class_1_B55037134F9E6688
 {
 public:
-	::Class_1_D8BECDCE48063EC7* Field_2_0; // 0x18
-	::RPG::GameCore::DiceCombatTaskConfig_ShowBossPersistentTipsView* Field_2_1; // 0x20
+	::RPG::GameCore::DiceCombatTaskConfig_ShowBossPersistentTipsView* IGHAHBNLIJA; // 0x18
+	::Class_1_D8BECDCE48063EC7* EEFMDEHLLFI; // 0x20
 
 	::System::Void _ctor(::RPG::GameCore::DiceCombatTaskConfig_ShowBossPersistentTipsView* a1, ::Class_1_D8BECDCE48063EC7* a2)
 	{

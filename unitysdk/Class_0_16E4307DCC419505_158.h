@@ -5,7 +5,7 @@
 class Class_1_4806277EE54A9300;
 namespace RPG::GameCore { class FiveDimBaseCameraConfig; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_158_TypeDefinitionIndex = 39696;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_158_TypeDefinitionIndex = 40569;
 
 class Class_0_16E4307DCC419505_158
 {

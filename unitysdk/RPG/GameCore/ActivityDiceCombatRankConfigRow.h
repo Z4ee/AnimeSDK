@@ -7,21 +7,21 @@ class Class_1_7A22A3DBEEDD1F80;
 class Class_1_A88C3AAF0DD46F4C;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIVITYDICECOMBATRANKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1AAE2100)
-#define RPG_GAMECORE_ACTIVITYDICECOMBATRANKCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1AAE28A0)
+#define RPG_GAMECORE_ACTIVITYDICECOMBATRANKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C9F3CB0)
+#define RPG_GAMECORE_ACTIVITYDICECOMBATRANKCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1C9F4410)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityDiceCombatRankConfigRow_TypeDefinitionIndex = 10886;
+	inline static constexpr unsigned int ActivityDiceCombatRankConfigRow_TypeDefinitionIndex = 11261;
 
 	class ActivityDiceCombatRankConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* IconPath; // 0x10
-		::Il2CppArray<::Class_1_A88C3AAF0DD46F4C*>* RuleGroupMapList; // 0x18
+		::Il2CppArray<::Class_1_A88C3AAF0DD46F4C*>* RuleGroupMapList; // 0x10
+		::System::String* IconPath; // 0x18
 		::System::String* IconSmallPath; // 0x20
-		::System::UInt32 DiceRankID; // 0x28
-		::System::UInt32 RankMaxScore; // 0x2C
+		::System::UInt32 RankMaxScore; // 0x28
+		::System::UInt32 DiceRankID; // 0x2C
 		::RPG::Client::TextID Name; // 0x30
 
 		::System::Void _ctor()

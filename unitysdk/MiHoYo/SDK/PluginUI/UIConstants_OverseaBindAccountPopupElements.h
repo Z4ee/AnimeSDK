@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int UIConstants_OverseaBindAccountPopupElements_TypeDefinitionIndex = 45085;
+	inline static constexpr unsigned int UIConstants_OverseaBindAccountPopupElements_TypeDefinitionIndex = 47321;
 
 	class UIConstants_OverseaBindAccountPopupElements : public ::System::Object
 	{

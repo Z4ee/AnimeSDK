@@ -8,38 +8,38 @@ namespace System::Collections { class Hashtable; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 
-#define CLASS_1_3B8D4E8FE7E2216A_METHOD_1_C0DBF719D15AB9AA_OFFSET UNITYSDK_OFFSET(0x179D5A80)
-#define CLASS_1_3B8D4E8FE7E2216A_METHOD_1_D1C09720CA5B1F1E_OFFSET UNITYSDK_OFFSET(0x179D5C10)
-#define CLASS_1_3B8D4E8FE7E2216A__CCTOR_OFFSET UNITYSDK_OFFSET(0x179D64E0)
+#define CLASS_1_3B8D4E8FE7E2216A_METHOD_1_C0DBF719D15AB9AA_OFFSET UNITYSDK_OFFSET(0x1835E030)
+#define CLASS_1_3B8D4E8FE7E2216A_METHOD_1_D1C09720CA5B1F1E_OFFSET UNITYSDK_OFFSET(0x1835E1C0)
+#define CLASS_1_3B8D4E8FE7E2216A__CCTOR_OFFSET UNITYSDK_OFFSET(0x1835EA90)
 
-inline static constexpr unsigned int Class_1_3B8D4E8FE7E2216A_TypeDefinitionIndex = 47158;
+inline static constexpr unsigned int Class_1_3B8D4E8FE7E2216A_TypeDefinitionIndex = 49424;
 
 class Class_1_3B8D4E8FE7E2216A : public ::System::Object
 {
 public:
-	static ::Il2CppArray<::UnityEngine::Rendering::BlendMode>** StaticGet_Field_1_0()
+	static ::Il2CppArray<::System::Boolean>** StaticGet_EMFNLMMBGFI()
 	{
-		return (::Il2CppArray<::UnityEngine::Rendering::BlendMode>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3B8D4E8FE7E2216A_TypeDefinitionIndex)->GetStaticField(0xD2C0);
+		return (::Il2CppArray<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3B8D4E8FE7E2216A_TypeDefinitionIndex)->GetStaticField(0x3C020);
 	}
-	static ::System::Collections::Hashtable** StaticGet_Field_1_1()
+	static ::Il2CppArray<::UnityEngine::Rendering::BlendMode>** StaticGet_AJDNIEDBIBP()
 	{
-		return (::System::Collections::Hashtable**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3B8D4E8FE7E2216A_TypeDefinitionIndex)->GetStaticField(0xD2C8);
+		return (::Il2CppArray<::UnityEngine::Rendering::BlendMode>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3B8D4E8FE7E2216A_TypeDefinitionIndex)->GetStaticField(0x3C028);
 	}
-	static ::UnityEngine::MaterialPropertyBlock** StaticGet_Field_1_2()
+	static ::Il2CppArray<::UnityEngine::Rendering::BlendMode>** StaticGet_DHLANOMILKH()
 	{
-		return (::UnityEngine::MaterialPropertyBlock**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3B8D4E8FE7E2216A_TypeDefinitionIndex)->GetStaticField(0xD2D0);
+		return (::Il2CppArray<::UnityEngine::Rendering::BlendMode>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3B8D4E8FE7E2216A_TypeDefinitionIndex)->GetStaticField(0x3C030);
 	}
-	static ::Il2CppArray<::UnityEngine::Rendering::BlendMode>** StaticGet_Field_1_3()
+	static ::System::Collections::Hashtable** StaticGet_FBGDGOIHNGC()
 	{
-		return (::Il2CppArray<::UnityEngine::Rendering::BlendMode>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3B8D4E8FE7E2216A_TypeDefinitionIndex)->GetStaticField(0xD2D8);
+		return (::System::Collections::Hashtable**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3B8D4E8FE7E2216A_TypeDefinitionIndex)->GetStaticField(0x3C038);
 	}
-	static ::Il2CppArray<::System::Boolean>** StaticGet_Field_1_4()
+	static ::UnityEngine::MaterialPropertyBlock** StaticGet_IKLBJPKGKGP()
 	{
-		return (::Il2CppArray<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3B8D4E8FE7E2216A_TypeDefinitionIndex)->GetStaticField(0xD2E0);
+		return (::UnityEngine::MaterialPropertyBlock**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3B8D4E8FE7E2216A_TypeDefinitionIndex)->GetStaticField(0x3C040);
 	}
-	static ::System::Int32* StaticGet_Field_1_5()
+	static ::System::Int32* StaticGet_HJJGGMLHFFF()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_3B8D4E8FE7E2216A_TypeDefinitionIndex)->GetStaticField(0x4AC0);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_3B8D4E8FE7E2216A_TypeDefinitionIndex)->GetStaticField(0xF620);
 	}
 
 	static ::System::Void _cctor()

@@ -8,23 +8,23 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ItemConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUETOURNPERMANENTTALENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1BB7CA60)
-#define RPG_GAMECORE_ROGUETOURNPERMANENTTALENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB7CE80)
+#define RPG_GAMECORE_ROGUETOURNPERMANENTTALENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CCCAD10)
+#define RPG_GAMECORE_ROGUETOURNPERMANENTTALENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CCCB130)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTournPermanentTalentRow_TypeDefinitionIndex = 14398;
+	inline static constexpr unsigned int RogueTournPermanentTalentRow_TypeDefinitionIndex = 14818;
 
 	class RogueTournPermanentTalentRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::ItemConfig*>* Cost; // 0x10
-		::Il2CppArray<::System::UInt32>* NextTalentIDList; // 0x18
+		::Il2CppArray<::System::UInt32>* NextTalentIDList; // 0x10
+		::Il2CppArray<::RPG::GameCore::ItemConfig*>* Cost; // 0x18
 		::Il2CppArray<::RPG::GameCore::FixPoint>* EffectDescParamList; // 0x20
 		::System::String* Icon; // 0x28
-		::RPG::Client::TextID EffectDesc; // 0x30
-		::RPG::Client::TextID EffectTitle; // 0x40
-		::RPG::Client::TextID EffectTag; // 0x50
+		::RPG::Client::TextID EffectTag; // 0x30
+		::RPG::Client::TextID EffectDesc; // 0x40
+		::RPG::Client::TextID EffectTitle; // 0x50
 		::System::Boolean IsImportant; // 0x60
 		::System::UInt32 TalentID; // 0x64
 

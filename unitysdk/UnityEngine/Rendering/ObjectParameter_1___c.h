@@ -8,7 +8,7 @@ namespace UnityEngine::Rendering { template <typename T> class ObjectParameter_1
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int ObjectParameter_1___c_TypeDefinitionIndex = 34222;
+	inline static constexpr unsigned int ObjectParameter_1___c_TypeDefinitionIndex = 34989;
 
 	template <typename T>
 	class ObjectParameter_1___c : public ::System::Object

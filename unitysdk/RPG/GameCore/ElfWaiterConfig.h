@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ELFWAITERCONFIG_METHOD_2_33C668AA448D3D4A_OFFSET UNITYSDK_OFFSET(0x1BB39060)
-#define RPG_GAMECORE_ELFWAITERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB3AAF0)
+#define RPG_GAMECORE_ELFWAITERCONFIG_METHOD_2_33C668AA448D3D4A_OFFSET UNITYSDK_OFFSET(0x1D7B7B40)
+#define RPG_GAMECORE_ELFWAITERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7B7D00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ElfWaiterConfig_TypeDefinitionIndex = 17737;
+	inline static constexpr unsigned int ElfWaiterConfig_TypeDefinitionIndex = 18255;
 
 	class ElfWaiterConfig : public ::RPG::GameCore::JsonConfig
 	{

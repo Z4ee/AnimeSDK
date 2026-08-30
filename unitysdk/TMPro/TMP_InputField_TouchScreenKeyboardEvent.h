@@ -3,11 +3,11 @@
 #include "unitysdk/UnityEngine/Events/UnityEvent_1.h"
 #include "unitysdk/UnityEngine/TouchScreenKeyboard_Status.h"
 
-#define TMPRO_TMP_INPUTFIELD_TOUCHSCREENKEYBOARDEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x171AF320)
+#define TMPRO_TMP_INPUTFIELD_TOUCHSCREENKEYBOARDEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x18B41E80)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_InputField_TouchScreenKeyboardEvent_TypeDefinitionIndex = 41800;
+	inline static constexpr unsigned int TMP_InputField_TouchScreenKeyboardEvent_TypeDefinitionIndex = 43411;
 
 	class TMP_InputField_TouchScreenKeyboardEvent : public ::UnityEngine::Events::UnityEvent_1<::UnityEngine::TouchScreenKeyboard_Status>
 	{

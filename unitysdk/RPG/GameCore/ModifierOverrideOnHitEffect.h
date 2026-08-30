@@ -7,13 +7,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MODIFIEROVERRIDEONHITEFFECT_METHOD_3_6134091955B181F7_OFFSET UNITYSDK_OFFSET(0x1AF71E30)
-#define RPG_GAMECORE_MODIFIEROVERRIDEONHITEFFECT_METHOD_3_D059E0751F4A7EBE_OFFSET UNITYSDK_OFFSET(0x1AF71DC0)
-#define RPG_GAMECORE_MODIFIEROVERRIDEONHITEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF71E10)
+#define RPG_GAMECORE_MODIFIEROVERRIDEONHITEFFECT_METHOD_3_6134091955B181F7_OFFSET UNITYSDK_OFFSET(0x1D1B2F00)
+#define RPG_GAMECORE_MODIFIEROVERRIDEONHITEFFECT_METHOD_3_D059E0751F4A7EBE_OFFSET UNITYSDK_OFFSET(0x1D1B2E90)
+#define RPG_GAMECORE_MODIFIEROVERRIDEONHITEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1B2EE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifierOverrideOnHitEffect_TypeDefinitionIndex = 22626;
+	inline static constexpr unsigned int ModifierOverrideOnHitEffect_TypeDefinitionIndex = 23203;
 
 	class ModifierOverrideOnHitEffect : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,6 +25,7 @@ namespace RPG::GameCore
 		::System::Boolean OverrideOffset; // 0x34
 		::RPG::MVector3 Offset; // 0x38
 		::System::Boolean KeepHitEffect; // 0x44
+		::System::Boolean ReplayWhenMutex; // 0x45
 
 		::System::Void _ctor()
 		{

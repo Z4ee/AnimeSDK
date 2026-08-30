@@ -12,12 +12,12 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Material; }
 
-#define MIRRORMENT_MIRRORMENTTOOL_GET_MIRRORPLANE_OFFSET UNITYSDK_OFFSET(0x186F3D00)
-#define MIRRORMENT_MIRRORMENTTOOL__CTOR_OFFSET UNITYSDK_OFFSET(0x186F3DA0)
+#define MIRRORMENT_MIRRORMENTTOOL_GET_MIRRORPLANE_OFFSET UNITYSDK_OFFSET(0x19C94040)
+#define MIRRORMENT_MIRRORMENTTOOL__CTOR_OFFSET UNITYSDK_OFFSET(0x19C940E0)
 
 namespace Mirrorment
 {
-	inline static constexpr unsigned int MirrormentTool_TypeDefinitionIndex = 46001;
+	inline static constexpr unsigned int MirrormentTool_TypeDefinitionIndex = 48225;
 
 	class MirrormentTool : public ::UnityEngine::MonoBehaviour
 	{
@@ -31,18 +31,18 @@ namespace Mirrorment
 		::System::Boolean AutoRefreshReflectedObject; // 0x40
 		::System::Boolean AutoRefreshTrackAndTag; // 0x41
 		::System::Int32 YOffset; // 0x44
-		::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::UnityEngine::GameObject*>* Field_5_9; // 0x48
-		::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::System::Collections::Generic::HashSet_1<::System::String*>*>* Field_5_10; // 0x50
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::Mirrorment::MirrormentTool_Class_1_A02263FE1D25F653*>* Field_5_11; // 0x58
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::Mirrorment::MirrormentTool_Class_1_A02263FE1D25F653*>* Field_5_12; // 0x60
-		::Mirrorment::MirrormentTool_Class_1_6B9825E2275D9D97* Field_5_13; // 0x68
-		::System::Collections::Generic::List_1<::UnityEngine::Material*>* Field_5_14; // 0x70
-		::System::Collections::Generic::List_1<::System::String*>* Field_5_15; // 0x78
-		::System::Collections::Generic::List_1<::System::String*>* Field_5_16; // 0x80
-		::System::Collections::Generic::List_1<::UnityEngine::Material*>* Field_5_17; // 0x88
-		::System::Collections::Generic::List_1<::System::String*>* Field_5_18; // 0x90
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::Material*>* Field_5_19; // 0x98
-		::UnityEngine::GameObject* Field_5_20; // 0xA0
+		::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::UnityEngine::GameObject*>* KPIILNCJCFF; // 0x48
+		::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::System::Collections::Generic::HashSet_1<::System::String*>*>* CGBKOELIOJA; // 0x50
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::Mirrorment::MirrormentTool_Class_1_A02263FE1D25F653*>* KBKFOHFCOFK; // 0x58
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::Mirrorment::MirrormentTool_Class_1_A02263FE1D25F653*>* ANINEEFLBNL; // 0x60
+		::Mirrorment::MirrormentTool_Class_1_6B9825E2275D9D97* KHCOFDFFLLC; // 0x68
+		::System::Collections::Generic::List_1<::UnityEngine::Material*>* KPEEMJCFPGG; // 0x70
+		::System::Collections::Generic::List_1<::System::String*>* MJBCMNBPAED; // 0x78
+		::System::Collections::Generic::List_1<::System::String*>* CFCBAHNANJO; // 0x80
+		::System::Collections::Generic::List_1<::UnityEngine::Material*>* IDJPJFNMAFM; // 0x88
+		::System::Collections::Generic::List_1<::System::String*>* ANIAPFEMNJF; // 0x90
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::Material*>* EAIBBECPIFJ; // 0x98
+		::UnityEngine::GameObject* MLCMKAMCLOK; // 0xA0
 
 		::System::Void _ctor()
 		{

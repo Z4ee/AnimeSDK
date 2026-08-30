@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightAffixRule_TypeDefinitionIndex = 12899;
+	inline static constexpr unsigned int GridFightAffixRule_TypeDefinitionIndex = 13290;
 
 	enum class GridFightAffixRule : ::System::Int32
 	{

@@ -5,11 +5,11 @@
 namespace Entitas { class IEntity; }
 namespace System::Collections::Generic { template <typename T> class ICollection_1; }
 
-#define ENTITAS_COLLECTIONEXTENSION_SINGLEENTITY_OFFSET UNITYSDK_OFFSET(0x1D1C7ED0)
+#define ENTITAS_COLLECTIONEXTENSION_SINGLEENTITY_OFFSET UNITYSDK_OFFSET(0x1EEC82C0)
 
 namespace Entitas
 {
-	inline static constexpr unsigned int CollectionExtension_TypeDefinitionIndex = 9686;
+	inline static constexpr unsigned int CollectionExtension_TypeDefinitionIndex = 9965;
 
 	class CollectionExtension : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AnimCategory_TypeDefinitionIndex = 17468;
+	inline static constexpr unsigned int AnimCategory_TypeDefinitionIndex = 17985;
 
 	enum class AnimCategory : ::System::Byte
 	{

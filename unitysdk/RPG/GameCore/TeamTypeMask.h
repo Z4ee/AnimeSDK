@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TeamTypeMask_TypeDefinitionIndex = 10152;
+	inline static constexpr unsigned int TeamTypeMask_TypeDefinitionIndex = 10488;
 
 	enum class TeamTypeMask : ::System::UInt16
 	{

@@ -5,10 +5,10 @@
 namespace RPG::Client { class MainMissionData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_23E2C0FB375410E2___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x178579D0)
-#define CLASS_1_23E2C0FB375410E2___C__DISPLAYCLASS1_0___GETCANTRACKMISSION_B__0_OFFSET UNITYSDK_OFFSET(0x17857AB0)
+#define CLASS_1_23E2C0FB375410E2___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1847AFF0)
+#define CLASS_1_23E2C0FB375410E2___C__DISPLAYCLASS1_0___GETCANTRACKMISSION_B__0_OFFSET UNITYSDK_OFFSET(0x1847B0D0)
 
-inline static constexpr unsigned int Class_1_23E2C0FB375410E2___c__DisplayClass1_0_TypeDefinitionIndex = 63233;
+inline static constexpr unsigned int Class_1_23E2C0FB375410E2___c__DisplayClass1_0_TypeDefinitionIndex = 66218;
 
 class Class_1_23E2C0FB375410E2___c__DisplayClass1_0 : public ::System::Object
 {

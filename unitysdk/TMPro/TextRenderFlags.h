@@ -3,7 +3,7 @@
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TextRenderFlags_TypeDefinitionIndex = 41844;
+	inline static constexpr unsigned int TextRenderFlags_TypeDefinitionIndex = 43455;
 
 	enum class TextRenderFlags : ::System::Int32
 	{

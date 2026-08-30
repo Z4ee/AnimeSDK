@@ -4,7 +4,7 @@
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
-	inline static constexpr unsigned int aiSubmeshData_TypeDefinitionIndex = 42492;
+	inline static constexpr unsigned int aiSubmeshData_TypeDefinitionIndex = 44674;
 
 	struct alignas(8) aiSubmeshData
 	{

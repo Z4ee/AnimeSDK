@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int Visibility_TypeDefinitionIndex = 6154;
+	inline static constexpr unsigned int Visibility_TypeDefinitionIndex = 5887;
 
 	enum class Visibility : ::System::Int32
 	{

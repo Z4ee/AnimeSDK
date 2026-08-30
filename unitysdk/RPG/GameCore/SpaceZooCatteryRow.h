@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_SPACEZOOCATTERYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1BE54AF0)
-#define RPG_GAMECORE_SPACEZOOCATTERYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE54CE0)
+#define RPG_GAMECORE_SPACEZOOCATTERYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D0A87B0)
+#define RPG_GAMECORE_SPACEZOOCATTERYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0A89A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SpaceZooCatteryRow_TypeDefinitionIndex = 11900;
+	inline static constexpr unsigned int SpaceZooCatteryRow_TypeDefinitionIndex = 12289;
 
 	class SpaceZooCatteryRow : public ::System::Object
 	{
@@ -17,8 +17,8 @@ namespace RPG::GameCore
 		::System::UInt32 CatteryID; // 0x10
 		::System::UInt32 FloorID; // 0x14
 		::System::UInt32 NpcGroupID; // 0x18
-		::System::UInt32 NpcInstanceID; // 0x1C
-		::System::UInt32 UnlockMissionID; // 0x20
+		::System::UInt32 UnlockMissionID; // 0x1C
+		::System::UInt32 NpcInstanceID; // 0x20
 
 		::System::Void _ctor()
 		{

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class HipplenGameCharacterAttachToMini; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_DDBB2945AECBDE99_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15646080)
-#define CLASS_3_DDBB2945AECBDE99__CTOR_OFFSET UNITYSDK_OFFSET(0x15646050)
+#define CLASS_3_DDBB2945AECBDE99_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17CBF3F0)
+#define CLASS_3_DDBB2945AECBDE99__CTOR_OFFSET UNITYSDK_OFFSET(0x17CBF3C0)
 
-inline static constexpr unsigned int Class_3_DDBB2945AECBDE99_TypeDefinitionIndex = 49894;
+inline static constexpr unsigned int Class_3_DDBB2945AECBDE99_TypeDefinitionIndex = 52555;
 
 class Class_3_DDBB2945AECBDE99 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::HipplenGameCharacterAttachToMini*>
 {

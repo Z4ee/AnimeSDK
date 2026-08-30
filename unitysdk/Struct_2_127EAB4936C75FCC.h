@@ -5,14 +5,14 @@
 
 class Class_1_C3183153408A386B;
 
-#define STRUCT_2_127EAB4936C75FCC__CTOR_OFFSET UNITYSDK_OFFSET(0x387D9D0)
+#define STRUCT_2_127EAB4936C75FCC__CTOR_OFFSET UNITYSDK_OFFSET(0x39A9C20)
 
-inline static constexpr unsigned int Struct_2_127EAB4936C75FCC_TypeDefinitionIndex = 54704;
+inline static constexpr unsigned int Struct_2_127EAB4936C75FCC_TypeDefinitionIndex = 57425;
 
 struct alignas(8) Struct_2_127EAB4936C75FCC
 {
-	::RPG::GameCore::EFreeStyleControlMode Field_2_0; // 0x10
-	::Class_1_C3183153408A386B* Field_2_1; // 0x18
+	::RPG::GameCore::EFreeStyleControlMode FCGFFAJIBKA; // 0x10
+	::Class_1_C3183153408A386B* CIKPBGDIABO; // 0x18
 
 	::System::Void _ctor(::RPG::GameCore::EFreeStyleControlMode a1, ::Class_1_C3183153408A386B* a2)
 	{

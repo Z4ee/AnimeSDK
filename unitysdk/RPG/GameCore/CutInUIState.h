@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CutInUIState_TypeDefinitionIndex = 17489;
+	inline static constexpr unsigned int CutInUIState_TypeDefinitionIndex = 18006;
 
 	enum class CutInUIState : ::System::Int32
 	{

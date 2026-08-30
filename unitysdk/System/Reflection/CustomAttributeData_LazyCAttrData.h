@@ -4,11 +4,11 @@
 
 namespace System::Reflection { class Assembly; }
 
-#define SYSTEM_REFLECTION_CUSTOMATTRIBUTEDATA_LAZYCATTRDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1AFC5EB0)
+#define SYSTEM_REFLECTION_CUSTOMATTRIBUTEDATA_LAZYCATTRDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC169B0)
 
 namespace System::Reflection
 {
-	inline static constexpr unsigned int CustomAttributeData_LazyCAttrData_TypeDefinitionIndex = 597;
+	inline static constexpr unsigned int CustomAttributeData_LazyCAttrData_TypeDefinitionIndex = 600;
 
 	class CustomAttributeData_LazyCAttrData : public ::System::Object
 	{

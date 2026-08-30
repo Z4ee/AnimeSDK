@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/ValueType.h"
 
-#define RPG_CLIENT_MUSICRHYTHMLEVELINFO_GET_ISFINISH_OFFSET UNITYSDK_OFFSET(0x39CC240)
+#define RPG_CLIENT_MUSICRHYTHMLEVELINFO_GET_ISFINISH_OFFSET UNITYSDK_OFFSET(0x3B8A930)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MusicRhythmLevelInfo_TypeDefinitionIndex = 59071;
+	inline static constexpr unsigned int MusicRhythmLevelInfo_TypeDefinitionIndex = 61906;
 
 	struct alignas(8) MusicRhythmLevelInfo
 	{

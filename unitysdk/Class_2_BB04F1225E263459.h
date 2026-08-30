@@ -6,15 +6,15 @@ class Class_2_21AD365C113DC484;
 class Class_2_F3C45F1FC7349B6E;
 namespace RPG::GameCore { class CakeRaceActionTriggerActionOnFight; }
 
-#define CLASS_2_BB04F1225E263459_METHOD_2_34D4CD39E61C2246_OFFSET UNITYSDK_OFFSET(0x18D2BA20)
-#define CLASS_2_BB04F1225E263459__CTOR_OFFSET UNITYSDK_OFFSET(0x18D2BA10)
+#define CLASS_2_BB04F1225E263459_METHOD_2_34D4CD39E61C2246_OFFSET UNITYSDK_OFFSET(0x1A56A910)
+#define CLASS_2_BB04F1225E263459__CTOR_OFFSET UNITYSDK_OFFSET(0x1A56A900)
 
-inline static constexpr unsigned int Class_2_BB04F1225E263459_TypeDefinitionIndex = 35851;
+inline static constexpr unsigned int Class_2_BB04F1225E263459_TypeDefinitionIndex = 36712;
 
 class Class_2_BB04F1225E263459 : public ::Class_1_E559374AC4E5AD13
 {
 public:
-	::RPG::GameCore::CakeRaceActionTriggerActionOnFight* Field_2_0; // 0x10
+	::RPG::GameCore::CakeRaceActionTriggerActionOnFight* OINLNFFMJHH; // 0x10
 
 	::System::Void _ctor(::RPG::GameCore::CakeRaceActionTriggerActionOnFight* a1)
 	{

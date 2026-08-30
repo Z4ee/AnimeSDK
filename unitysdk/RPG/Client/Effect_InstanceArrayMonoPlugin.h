@@ -16,11 +16,11 @@ namespace RPG::Client::TAUtils { class Vector3AnimationCurve; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_EFFECT_INSTANCEARRAYMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x150FBDB0)
+#define RPG_CLIENT_EFFECT_INSTANCEARRAYMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x15E6D130)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_InstanceArrayMonoPlugin_TypeDefinitionIndex = 67459;
+	inline static constexpr unsigned int Effect_InstanceArrayMonoPlugin_TypeDefinitionIndex = 70582;
 
 	class Effect_InstanceArrayMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::Effect_InstanceArrayBehavior*>
 	{

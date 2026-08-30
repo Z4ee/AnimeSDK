@@ -10,7 +10,7 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T1, typename T2> class Tuple_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-inline static constexpr unsigned int Class_1_630CB84C93B59414___c__DisplayClass65_0_1_TypeDefinitionIndex = 56876;
+inline static constexpr unsigned int Class_1_630CB84C93B59414___c__DisplayClass65_0_1_TypeDefinitionIndex = 59664;
 
 template <typename TIndex>
 class Class_1_630CB84C93B59414___c__DisplayClass65_0_1 : public ::System::Object

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TimeRewindGlobalUnselectable; }
 
-#define CLASS_3_EE8860C590830ECD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18C7B470)
-#define CLASS_3_EE8860C590830ECD__CTOR_OFFSET UNITYSDK_OFFSET(0x18C7B440)
+#define CLASS_3_EE8860C590830ECD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1A0C2C00)
+#define CLASS_3_EE8860C590830ECD__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0C2BD0)
 
-inline static constexpr unsigned int Class_3_EE8860C590830ECD_TypeDefinitionIndex = 50973;
+inline static constexpr unsigned int Class_3_EE8860C590830ECD_TypeDefinitionIndex = 53657;
 
 class Class_3_EE8860C590830ECD : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::TimeRewindGlobalUnselectable*>
 {

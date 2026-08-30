@@ -16,14 +16,14 @@ namespace UnityEngine { class LineRenderer; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_ELECTRICCHAINV2_EFFECT_ELECTRICCHAINV2_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x18E11410)
-#define RPG_CLIENT_ELECTRICCHAINV2_EFFECT_ELECTRICCHAINV2_GET_BEHAVIOR_OFFSET UNITYSDK_OFFSET(0x18E112D0)
-#define RPG_CLIENT_ELECTRICCHAINV2_EFFECT_ELECTRICCHAINV2_RESTART_OFFSET UNITYSDK_OFFSET(0x18E11120)
-#define RPG_CLIENT_ELECTRICCHAINV2_EFFECT_ELECTRICCHAINV2__CTOR_OFFSET UNITYSDK_OFFSET(0x18E11460)
+#define RPG_CLIENT_ELECTRICCHAINV2_EFFECT_ELECTRICCHAINV2_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x1AC576A0)
+#define RPG_CLIENT_ELECTRICCHAINV2_EFFECT_ELECTRICCHAINV2_GET_BEHAVIOR_OFFSET UNITYSDK_OFFSET(0x1AC57560)
+#define RPG_CLIENT_ELECTRICCHAINV2_EFFECT_ELECTRICCHAINV2_RESTART_OFFSET UNITYSDK_OFFSET(0x1AC573B0)
+#define RPG_CLIENT_ELECTRICCHAINV2_EFFECT_ELECTRICCHAINV2__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC576F0)
 
 namespace RPG::Client::ElectricChainV2
 {
-	inline static constexpr unsigned int Effect_ElectricChainV2_TypeDefinitionIndex = 70173;
+	inline static constexpr unsigned int Effect_ElectricChainV2_TypeDefinitionIndex = 73472;
 
 	class Effect_ElectricChainV2 : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::ElectricChainV2::Effect_ElectricChainV2Behavior*>
 	{
@@ -54,7 +54,7 @@ namespace RPG::Client::ElectricChainV2
 		::System::Int32 TotalPointNumbers; // 0xC8
 		::UnityEngine::LineRenderer* MainChain; // 0xD0
 		::UnityEngine::Transform* SubChainsRoot; // 0xD8
-		::RPG::Client::ElectricChainV2::Effect_ElectricChainV2Behavior* Field_7_26; // 0xE0
+		::RPG::Client::ElectricChainV2::Effect_ElectricChainV2Behavior* KADDKEGNCHE; // 0xE0
 
 		::System::Void _ctor()
 		{

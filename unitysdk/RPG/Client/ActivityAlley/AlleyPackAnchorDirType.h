@@ -3,7 +3,7 @@
 
 namespace RPG::Client::ActivityAlley
 {
-	inline static constexpr unsigned int AlleyPackAnchorDirType_TypeDefinitionIndex = 70682;
+	inline static constexpr unsigned int AlleyPackAnchorDirType_TypeDefinitionIndex = 73981;
 
 	enum class AlleyPackAnchorDirType : ::System::Int32
 	{

@@ -1,25 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_43BD383C98B4C0C5_121.h"
+#include "unitysdk/Class_1_43BD383C98B4C0C5_129.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 
-class Class_1_F9FBCC956DFCF137_4;
+class Class_1_F9FBCC956DFCF137_5;
 namespace RPG::GameCore { class AIDecisionBaseConfig; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_FCFBB0C6F0A2B98B_METHOD_2_6AF4BFA51498F16B_OFFSET UNITYSDK_OFFSET(0x1565AFC0)
-#define CLASS_2_FCFBB0C6F0A2B98B_METHOD_2_7A37753F2CEC6D53_OFFSET UNITYSDK_OFFSET(0x1565AF30)
-#define CLASS_2_FCFBB0C6F0A2B98B__CTOR_OFFSET UNITYSDK_OFFSET(0x1565ADA0)
+#define CLASS_2_FCFBB0C6F0A2B98B_METHOD_2_6AF4BFA51498F16B_OFFSET UNITYSDK_OFFSET(0x17CD4490)
+#define CLASS_2_FCFBB0C6F0A2B98B_METHOD_2_7A37753F2CEC6D53_OFFSET UNITYSDK_OFFSET(0x17CD4400)
+#define CLASS_2_FCFBB0C6F0A2B98B__CTOR_OFFSET UNITYSDK_OFFSET(0x17CD4270)
 
-inline static constexpr unsigned int Class_2_FCFBB0C6F0A2B98B_TypeDefinitionIndex = 51921;
+inline static constexpr unsigned int Class_2_FCFBB0C6F0A2B98B_TypeDefinitionIndex = 54605;
 
-class Class_2_FCFBB0C6F0A2B98B : public ::Class_1_43BD383C98B4C0C5_121
+class Class_2_FCFBB0C6F0A2B98B : public ::Class_1_43BD383C98B4C0C5_129
 {
 public:
-	::RPG::GameCore::TaskContext* Field_2_0; // 0x10
-	::System::Collections::Generic::List_1<::Class_1_F9FBCC956DFCF137_4*>* Field_2_1; // 0x18
-	::RPG::GameCore::AIDecisionBaseConfig* Field_2_2; // 0x20
+	::RPG::GameCore::AIDecisionBaseConfig* IGHAHBNLIJA; // 0x10
+	::System::Collections::Generic::List_1<::Class_1_F9FBCC956DFCF137_5*>* JGNOCCOBAGF; // 0x18
+	::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x20
 
 	::System::Void _ctor(::RPG::GameCore::AIDecisionBaseConfig* a1, ::RPG::GameCore::TaskContext* a2)
 	{

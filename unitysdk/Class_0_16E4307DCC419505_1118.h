@@ -1,12 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_F5FBDA629A1B439F.h"
+#include "unitysdk/RPG/GameCore/SpecialSkillButtonGroupType.h"
 
-class Class_3_B277246A3FA15361;
-namespace System { class Object; }
-namespace System { class String; }
+class Class_0_16E4307DCC419505_1119;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1118_TypeDefinitionIndex = 70067;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1118_TypeDefinitionIndex = 71898;
 
 class Class_0_16E4307DCC419505_1118
 {

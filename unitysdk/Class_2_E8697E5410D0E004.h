@@ -5,16 +5,16 @@
 class Class_2_48488E8DBD9F6BCE;
 namespace RPG::GameCore { class DiceCombatTaskConfig_AttackEffect_Cutout; }
 
-#define CLASS_2_E8697E5410D0E004_METHOD_2_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0x190F6EF0)
-#define CLASS_2_E8697E5410D0E004__CTOR_OFFSET UNITYSDK_OFFSET(0x190F6EE0)
+#define CLASS_2_E8697E5410D0E004_METHOD_2_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0x1AAF9290)
+#define CLASS_2_E8697E5410D0E004__CTOR_OFFSET UNITYSDK_OFFSET(0x1AAF9280)
 
-inline static constexpr unsigned int Class_2_E8697E5410D0E004_TypeDefinitionIndex = 34762;
+inline static constexpr unsigned int Class_2_E8697E5410D0E004_TypeDefinitionIndex = 35623;
 
 class Class_2_E8697E5410D0E004 : public ::Class_1_B55037134F9E6688
 {
 public:
-	::RPG::GameCore::DiceCombatTaskConfig_AttackEffect_Cutout* Field_2_0; // 0x18
-	::Class_2_48488E8DBD9F6BCE* Field_2_1; // 0x20
+	::Class_2_48488E8DBD9F6BCE* EEFMDEHLLFI; // 0x18
+	::RPG::GameCore::DiceCombatTaskConfig_AttackEffect_Cutout* IGHAHBNLIJA; // 0x20
 
 	::System::Void _ctor(::RPG::GameCore::DiceCombatTaskConfig_AttackEffect_Cutout* a1, ::Class_2_48488E8DBD9F6BCE* a2)
 	{

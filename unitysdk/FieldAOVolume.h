@@ -13,25 +13,25 @@ namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Texture3D; }
 
-#define FIELDAOVOLUME_METHOD_5_07FE6948AE52EE96_OFFSET UNITYSDK_OFFSET(0x16065240)
-#define FIELDAOVOLUME_METHOD_5_1290EA767C459179_1_OFFSET UNITYSDK_OFFSET(0x16064D40)
-#define FIELDAOVOLUME_METHOD_5_1290EA767C459179_OFFSET UNITYSDK_OFFSET(0x160647A0)
-#define FIELDAOVOLUME_METHOD_5_87318FF00D6BC7EB_OFFSET UNITYSDK_OFFSET(0x16064910)
-#define FIELDAOVOLUME_METHOD_5_E7EF6BC52B28648C_OFFSET UNITYSDK_OFFSET(0x16064690)
-#define FIELDAOVOLUME_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x16065160)
-#define FIELDAOVOLUME_ONENABLE_OFFSET UNITYSDK_OFFSET(0x16064E50)
-#define FIELDAOVOLUME_START_OFFSET UNITYSDK_OFFSET(0x16064890)
-#define FIELDAOVOLUME_UPDATEMATRIX_OFFSET UNITYSDK_OFFSET(0x16064F30)
-#define FIELDAOVOLUME__CTOR_OFFSET UNITYSDK_OFFSET(0x160656C0)
+#define FIELDAOVOLUME_METHOD_5_07FE6948AE52EE96_OFFSET UNITYSDK_OFFSET(0x191136D0)
+#define FIELDAOVOLUME_METHOD_5_1290EA767C459179_1_OFFSET UNITYSDK_OFFSET(0x191131D0)
+#define FIELDAOVOLUME_METHOD_5_1290EA767C459179_OFFSET UNITYSDK_OFFSET(0x19112C00)
+#define FIELDAOVOLUME_METHOD_5_8714CF4AE9195CA2_OFFSET UNITYSDK_OFFSET(0x19112D70)
+#define FIELDAOVOLUME_METHOD_5_E7EF6BC52B28648C_OFFSET UNITYSDK_OFFSET(0x19112AF0)
+#define FIELDAOVOLUME_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x191135F0)
+#define FIELDAOVOLUME_ONENABLE_OFFSET UNITYSDK_OFFSET(0x191132E0)
+#define FIELDAOVOLUME_START_OFFSET UNITYSDK_OFFSET(0x19112CF0)
+#define FIELDAOVOLUME_UPDATEMATRIX_OFFSET UNITYSDK_OFFSET(0x191133C0)
+#define FIELDAOVOLUME__CTOR_OFFSET UNITYSDK_OFFSET(0x19113B50)
 
-inline static constexpr unsigned int FieldAOVolume_TypeDefinitionIndex = 45717;
+inline static constexpr unsigned int FieldAOVolume_TypeDefinitionIndex = 47969;
 
 class FieldAOVolume : public ::UnityEngine::MonoBehaviour
 {
 public:
-	static ::UnityEngine::Material** StaticGet_Field_5_0()
+	static ::UnityEngine::Material** StaticGet_HFPPOGPOBHA()
 	{
-		return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(FieldAOVolume_TypeDefinitionIndex)->GetStaticField(0x54750);
+		return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(FieldAOVolume_TypeDefinitionIndex)->GetStaticField(0x167A0);
 	}
 	::UnityEngine::Vector3 volumeScale; // 0x18
 	::System::Int32 cubeSize; // 0x24
@@ -51,8 +51,8 @@ public:
 	::UnityEngine::Texture3D* volumeTex; // 0x88
 	::UnityEngine::Cubemap* testCube; // 0x90
 	::UnityEngine::Material* matDecal; // 0x98
-	::UnityEngine::MaterialPropertyBlock* Field_5_19; // 0xA0
-	::UnityEngine::Renderer* Field_5_20; // 0xA8
+	::UnityEngine::MaterialPropertyBlock* BEFHHGEFFJP; // 0xA0
+	::UnityEngine::Renderer* GFLFKALANCC; // 0xA8
 
 	::System::Void _ctor()
 	{
@@ -94,9 +94,9 @@ public:
 		return ((::System::Boolean(*)(::PVOID, ::RPG::Client::IAssetOperation*))((::PBYTE)hIl2Cpp + FIELDAOVOLUME_METHOD_5_07FE6948AE52EE96_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_5_87318FF00D6BC7EB()
+	::System::Void Method_5_8714CF4AE9195CA2()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FIELDAOVOLUME_METHOD_5_87318FF00D6BC7EB_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FIELDAOVOLUME_METHOD_5_8714CF4AE9195CA2_OFFSET))(this);
 	}
 
 	::System::Void Method_5_1290EA767C459179_1()

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ElfWaiterAnimatorState_TypeDefinitionIndex = 17772;
+	inline static constexpr unsigned int ElfWaiterAnimatorState_TypeDefinitionIndex = 18290;
 
 	enum class ElfWaiterAnimatorState : ::System::Int32
 	{

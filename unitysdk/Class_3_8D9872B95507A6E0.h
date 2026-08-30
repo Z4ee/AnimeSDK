@@ -6,15 +6,15 @@
 namespace RPG::GameCore { class SetDynamicValueBySkillProperty; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_8D9872B95507A6E0_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18ED02F0)
-#define CLASS_3_8D9872B95507A6E0__CTOR_OFFSET UNITYSDK_OFFSET(0x18ED0210)
+#define CLASS_3_8D9872B95507A6E0_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19C276F0)
+#define CLASS_3_8D9872B95507A6E0__CTOR_OFFSET UNITYSDK_OFFSET(0x19C27610)
 
-inline static constexpr unsigned int Class_3_8D9872B95507A6E0_TypeDefinitionIndex = 52954;
+inline static constexpr unsigned int Class_3_8D9872B95507A6E0_TypeDefinitionIndex = 55659;
 
 class Class_3_8D9872B95507A6E0 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetDynamicValueBySkillProperty*>
 {
 public:
-	::RPG::GameCore::StringHash Field_3_0; // 0x28
+	::RPG::GameCore::StringHash DIJHOMCLPEG; // 0x28
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetDynamicValueBySkillProperty* a2)
 	{

@@ -2,25 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_D17272E82AE804C2_1175;
+class Class_1_D17272E82AE804C2_1196;
 namespace RPG::GameCore { class TreasureDungeonItemConfigRow; }
 
-#define RPG_CLIENT_TREASUREDUNGEONITEM_CLEAR_OFFSET UNITYSDK_OFFSET(0x198B54F0)
-#define RPG_CLIENT_TREASUREDUNGEONITEM_GET_ITEMROW_OFFSET UNITYSDK_OFFSET(0x198B5660)
-#define RPG_CLIENT_TREASUREDUNGEONITEM_GET_KILLLEVEL_OFFSET UNITYSDK_OFFSET(0x198B55B0)
-#define RPG_CLIENT_TREASUREDUNGEONITEM_SYNC_OFFSET UNITYSDK_OFFSET(0x198B5540)
-#define RPG_CLIENT_TREASUREDUNGEONITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x198B56D0)
+#define RPG_CLIENT_TREASUREDUNGEONITEM_CLEAR_OFFSET UNITYSDK_OFFSET(0x1B2C52C0)
+#define RPG_CLIENT_TREASUREDUNGEONITEM_GET_ITEMROW_OFFSET UNITYSDK_OFFSET(0x1B2C5430)
+#define RPG_CLIENT_TREASUREDUNGEONITEM_GET_KILLLEVEL_OFFSET UNITYSDK_OFFSET(0x1B2C5380)
+#define RPG_CLIENT_TREASUREDUNGEONITEM_SYNC_OFFSET UNITYSDK_OFFSET(0x1B2C5310)
+#define RPG_CLIENT_TREASUREDUNGEONITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2C54A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TreasureDungeonItem_TypeDefinitionIndex = 65177;
+	inline static constexpr unsigned int TreasureDungeonItem_TypeDefinitionIndex = 68185;
 
 	class TreasureDungeonItem : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::TreasureDungeonItemConfigRow* _ItemRow; // 0x10
-		::System::UInt32 ItemID; // 0x18
-		::System::UInt32 ItemCount; // 0x1C
+		::System::UInt32 ItemCount; // 0x18
+		::System::UInt32 ItemID; // 0x1C
 
 		::System::Void _ctor()
 		{
@@ -32,9 +32,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TREASUREDUNGEONITEM_CLEAR_OFFSET))(this);
 		}
 
-		::System::Void Sync(::Class_1_D17272E82AE804C2_1175* a1)
+		::System::Void Sync(::Class_1_D17272E82AE804C2_1196* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_D17272E82AE804C2_1175*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TREASUREDUNGEONITEM_SYNC_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Class_1_D17272E82AE804C2_1196*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TREASUREDUNGEONITEM_SYNC_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_KillLevel()
